@@ -99,21 +99,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Fritsch-Mosciski",
-      "Operator": "in",
+      "Name": "Schultz-Erdman",
+      "Operator": "nam",
       "Values": [
-        "repellendus",
-        "ullam"
+        "dignissimos",
+        "explicabo"
       ],
       "DisplayValues": [
-        "eum",
-        "sit"
+        "deleniti",
+        "omnis"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -121,18 +121,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 50,
+      "InterParenthesis": 620,
       "InterOperator": "And",
-      "UniqueHash": 918
+      "UniqueHash": 953
     }
   ],
-  "ProviderName": "Schroeder Group",
+  "ProviderName": "Veum Group",
   "DesiredColumns": [
-    "et",
-    "ipsum"
+    "voluptates",
+    "dolores"
   ],
-  "PageSize": 738,
-  "PageNumber": 770
+  "PageSize": 418,
+  "PageNumber": 281
 }
 ```
 
@@ -145,51 +145,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Kautzer, Quigley and Bahringer",
-      "DisplayTooltip": "voluptatem",
-      "DisplayType": "neque",
+      "DisplayName": "Weissnat, Beier and Lueilwitz",
+      "DisplayTooltip": "commodi",
+      "DisplayType": "voluptatum",
       "CanOrderBy": false,
-      "Name": "Hartmann, O'Reilly and McClure",
-      "CanRestrictBy": false,
-      "RestrictionType": "aut",
-      "RestrictionListName": "Buckridge Inc and Sons",
-      "IsVisible": false,
-      "ExtraInfo": "in",
-      "Width": "laboriosam",
-      "IconHint": "ratione",
-      "HeadingIconHint": "voluptatum"
+      "Name": "Kozey Group",
+      "CanRestrictBy": true,
+      "RestrictionType": "nihil",
+      "RestrictionListName": "Langosh, Schroeder and Kemmer",
+      "IsVisible": true,
+      "ExtraInfo": "eligendi",
+      "Width": "aut",
+      "IconHint": "voluptatibus",
+      "HeadingIconHint": "culpa"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Rogahn LLC",
-      "PrimaryKey": 708,
+      "EntityName": "Schimmel Inc and Sons",
+      "PrimaryKey": 296,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aut",
-          "TooltipHint": "magnam",
-          "LinkHint": "voluptas"
+          "DisplayValue": "natus",
+          "TooltipHint": "illum",
+          "LinkHint": "ipsum"
         }
       },
-      "LinkHint": "neque",
-      "StyleHint": "et",
+      "LinkHint": "sint",
+      "StyleHint": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 883
+          "FieldLength": 880
         }
       }
     }
   ],
-  "RowCount": 814,
+  "RowCount": 843,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 920
+      "FieldType": "System.Int32",
+      "FieldLength": 795
     }
   }
 }

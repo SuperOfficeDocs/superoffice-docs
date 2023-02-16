@@ -83,52 +83,52 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "blanditiis",
-  "ProviderName": "Gerlach, Okuneva and Dach",
-  "StorageKey": "molestiae",
+  "StorageType": "repellat",
+  "ProviderName": "Goodwin, Krajcik and Schiller",
+  "StorageKey": "fuga",
   "ExtraRestrictions": [
     {
-      "Name": "Lebsack Group",
-      "Operator": "saepe",
+      "Name": "Goldner, Kutch and Heathcote",
+      "Operator": "eum",
       "Values": [
-        "ea",
-        "sed"
+        "molestiae",
+        "dicta"
       ],
       "DisplayValues": [
-        "dolores",
-        "repellat"
+        "nobis",
+        "recusandae"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 609,
+      "InterParenthesis": 592,
       "InterOperator": "And",
-      "UniqueHash": 852
+      "UniqueHash": 654
     }
   ],
   "OrderBy": [
     {
-      "Name": "Wisozk, Bernier and Rolfson",
+      "Name": "McLaughlin-Walsh",
       "Direction": "ASC"
     },
     {
-      "Name": "Wisozk, Bernier and Rolfson",
+      "Name": "McLaughlin-Walsh",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "aliquam",
-    "eum"
+    "suscipit",
+    "laborum"
   ],
-  "PageSize": 724,
-  "PageNumber": 445
+  "PageSize": 334,
+  "PageNumber": 403
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Heidenreich-Kertzmann",
-      "DisplayTooltip": "iusto",
-      "DisplayType": "sed",
+      "DisplayName": "Yost, Berge and Runte",
+      "DisplayTooltip": "magnam",
+      "DisplayType": "suscipit",
       "CanOrderBy": false,
-      "Name": "Zboncak Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "excepturi",
-      "RestrictionListName": "Cole-Russel",
+      "Name": "Cole, Reilly and Howell",
+      "CanRestrictBy": true,
+      "RestrictionType": "facilis",
+      "RestrictionListName": "Hahn, Bins and Beatty",
       "IsVisible": false,
       "ExtraInfo": "aut",
-      "Width": "qui",
-      "IconHint": "aut",
-      "HeadingIconHint": "laborum"
+      "Width": "ratione",
+      "IconHint": "ea",
+      "HeadingIconHint": "sed"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Jenkins Inc and Sons",
-      "PrimaryKey": 367,
+      "EntityName": "Torp Inc and Sons",
+      "PrimaryKey": 834,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "praesentium",
-          "TooltipHint": "molestiae",
-          "LinkHint": "aliquam"
+          "DisplayValue": "nostrum",
+          "TooltipHint": "vel",
+          "LinkHint": "qui"
         }
       },
-      "LinkHint": "at",
-      "StyleHint": "voluptatem",
+      "LinkHint": "et",
+      "StyleHint": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 982
+          "FieldLength": 966
         }
       }
     }
   ],
-  "RowCount": 536,
+  "RowCount": 106,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 673
+      "FieldLength": 200
     }
   }
 }

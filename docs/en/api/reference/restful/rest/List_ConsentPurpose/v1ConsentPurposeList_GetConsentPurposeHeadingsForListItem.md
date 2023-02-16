@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 638,
-    "Name": "Denesik-Lubowitz",
-    "ToolTip": "Harum qui minima natus qui aliquam aut quam.",
-    "Deleted": true,
-    "Rank": 682,
-    "Type": "laudantium",
-    "ColorBlock": 32,
-    "IconHint": "neque",
-    "Selected": true,
-    "LastChanged": "2016-08-16T11:22:45.8191493+02:00",
+    "Id": 778,
+    "Name": "Mitchell, Torphy and Satterfield",
+    "ToolTip": "Saepe qui occaecati similique voluptas incidunt vel enim.",
+    "Deleted": false,
+    "Rank": 446,
+    "Type": "suscipit",
+    "ColorBlock": 565,
+    "IconHint": "inventore",
+    "Selected": false,
+    "LastChanged": "2015-03-17T14:19:11.163718+01:00",
     "ChildItems": [
       {
-        "Id": 370,
-        "Name": "Dare, Hamill and Rutherford",
-        "ToolTip": "Est sint.",
-        "Deleted": true,
-        "Rank": 381,
-        "Type": "consectetur",
-        "ColorBlock": 931,
-        "IconHint": "sint",
-        "Selected": false,
-        "LastChanged": "2017-07-28T11:22:45.8191493+02:00",
+        "Id": 152,
+        "Name": "Collins LLC",
+        "ToolTip": "Illo et et quia quia et qui dolore.",
+        "Deleted": false,
+        "Rank": 303,
+        "Type": "aut",
+        "ColorBlock": 783,
+        "IconHint": "provident",
+        "Selected": true,
+        "LastChanged": "2010-01-05T14:19:11.163718+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "aliquid",
-        "Hidden": false,
-        "FullName": "Prof. Gina Murazik DDS",
+        "ExtraInfo": "minus",
+        "StyleHint": "quasi",
+        "Hidden": true,
+        "FullName": "Miss Allan Cummings DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 930
+            "FieldLength": 286
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "sint",
-    "Hidden": false,
-    "FullName": "Princess Keeling",
+    "ExtraInfo": "minus",
+    "StyleHint": "aperiam",
+    "Hidden": true,
+    "FullName": "Marian Glover",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 606
+        "FieldLength": 364
       }
     }
   }

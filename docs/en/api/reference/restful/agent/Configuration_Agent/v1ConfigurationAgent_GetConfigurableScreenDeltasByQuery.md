@@ -100,28 +100,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 253,
-    "Name": "Robel-Bergnaum",
-    "Description": "Adaptive dedicated focus group",
-    "DeltaJson": "consectetur",
+    "ConfigurableScreenDeltaId": 300,
+    "Name": "Ziemann, Keebler and Leffler",
+    "Description": "Realigned explicit workforce",
+    "DeltaJson": "voluptatum",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "enim",
-    "UpdatedDate": "2005-01-28T11:22:37.6179991+01:00",
-    "CreatedDate": "2011-08-26T11:22:37.6179991+02:00",
+    "RecipeId": "unde",
+    "UpdatedDate": "2014-06-08T14:19:02.9324043+02:00",
+    "CreatedDate": "2013-10-12T14:19:02.9324043+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      923,
-      663
+      207,
+      89
     ],
-    "AppliesToKey": "nam",
+    "AppliesToKey": "earum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 420
+        "FieldType": "System.Int32",
+        "FieldLength": 506
       }
     }
   }

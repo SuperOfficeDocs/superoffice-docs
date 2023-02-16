@@ -87,8 +87,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    680,
-    766
+    359,
+    539
   ]
 }
 ```
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 98,
-    "ContactName": "Dibbert Inc and Sons",
-    "PersonId": 48,
-    "PersonName": "Nicolas Group",
-    "AssociateId": 485,
-    "Address": "doloribus",
-    "EmailId": 697,
+    "ContactId": 39,
+    "ContactName": "Treutel-Berge",
+    "PersonId": 501,
+    "PersonName": "Purdy, Hahn and Cronin",
+    "AssociateId": 284,
+    "Address": "non",
+    "EmailId": 797,
     "DuplicatePersonIds": [
-      880,
-      554
+      751,
+      707
     ],
-    "Name": "Lehner-Boyle",
+    "Name": "Klein-Jewess",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 884
+        "FieldType": "System.String",
+        "FieldLength": 994
       }
     }
   }

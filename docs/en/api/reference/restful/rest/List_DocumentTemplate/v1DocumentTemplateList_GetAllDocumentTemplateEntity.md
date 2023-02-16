@@ -26,7 +26,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
 ```
 
 
@@ -90,7 +90,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,37 +101,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 325,
-    "Name": "Kohler-Waelchi",
-    "Tooltip": "minima",
-    "SaveInDb": 343,
-    "Filename": "sint",
-    "DefaultOref": "omnis",
+    "DocumentTemplateId": 993,
+    "Name": "Littel, Becker and Grant",
+    "Tooltip": "deleniti",
+    "SaveInDb": 419,
+    "Filename": "sed",
+    "DefaultOref": "laborum",
     "RecordType": "Appointment",
-    "Deleted": false,
+    "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 287,
-    "IntentId": 871,
+    "AutoeventId": 504,
+    "IntentId": 892,
     "IsDefaultPublished": true,
-    "Rank": 520,
-    "LoadTemplateFromPlugin": 468,
-    "MimeType": "reiciendis",
+    "Rank": 758,
+    "LoadTemplateFromPlugin": 471,
+    "MimeType": "est",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 107,
+    "DocumentTypeKey": 669,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "shanny_oberbrunner@krajcik.ca",
+    "EmailSubject": "shania@boyercole.uk",
     "IncludeSignature": false,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "alberto@reinger.biz",
+    "SenderEmailAddress": "darby.schaefer@daniel.info",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 430
+        "FieldLength": 839
       }
     }
   }

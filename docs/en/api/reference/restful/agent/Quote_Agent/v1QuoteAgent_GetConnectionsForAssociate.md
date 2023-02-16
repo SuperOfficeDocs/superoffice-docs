@@ -90,7 +90,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 310
+  "AssociateId": 118
 }
 ```
 
@@ -102,54 +102,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 430,
-    "ERPName": "Bosco Inc and Sons",
-    "DisplayName": "Beahan Inc and Sons",
-    "DisplayDescription": "Synergistic disintermediate intranet",
-    "Rank": 912,
-    "ConnectorName": "Hills-Jenkins",
-    "ErpConnectionId": 239,
-    "ExtraData": "ipsam",
-    "IsAvailable": false,
+    "QuoteConnectionId": 81,
+    "ERPName": "Goyette-Gerlach",
+    "DisplayName": "Jenkins, Kuphal and Wunsch",
+    "DisplayDescription": "Versatile real-time local area network",
+    "Rank": 675,
+    "ConnectorName": "Buckridge, Feeney and Bayer",
+    "ErpConnectionId": 922,
+    "ExtraData": "velit",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 211,
-        "ERPPriceListKey": "impedit",
-        "QuoteConnectionId": 91,
-        "Name": "Skiles Inc and Sons",
-        "Description": "Multi-channelled needs-based strategy",
-        "Currency": "vel",
-        "CurrencyName": "Bogan Inc and Sons",
-        "ValidFrom": "2002-11-09T11:22:38.9301893+01:00",
-        "ValidTo": "2006-01-07T11:22:38.9301893+01:00",
+        "PriceListId": 478,
+        "ERPPriceListKey": "eveniet",
+        "QuoteConnectionId": 335,
+        "Name": "Heathcote, Windler and Dickinson",
+        "Description": "Inverse optimal paradigm",
+        "Currency": "officiis",
+        "CurrencyName": "Kihn, Hansen and Jast",
+        "ValidFrom": "2005-09-14T14:19:04.0313341+02:00",
+        "ValidTo": "2010-12-10T14:19:04.0313341+01:00",
         "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 140
+            "FieldLength": 184
           }
         }
       }
     ],
-    "AllAccess": false,
-    "Deleted": true,
+    "AllAccess": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      735,
-      30
+      715,
+      884
     ],
     "AssociateAccessIds": [
-      445,
-      133
+      690,
+      841
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldType": "System.String",
+        "FieldLength": 31
       }
     }
   }

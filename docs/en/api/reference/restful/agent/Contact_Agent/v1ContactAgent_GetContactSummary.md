@@ -76,12 +76,12 @@ OK
 POST /api/v1/Agents/Contact/GetContactSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 904,
-  "Limit": 189
+  "ContactId": 716,
+  "Limit": 228
 }
 ```
 
@@ -95,79 +95,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 318,
-      "TicketStatus": 499,
-      "Title": "illum",
-      "Registered": "2003-11-26T11:22:37.7585887+01:00",
-      "IconHint": "sapiente"
+      "TicketId": 763,
+      "TicketStatus": 926,
+      "Title": "occaecati",
+      "Registered": "2016-09-03T14:19:03.0574043+02:00",
+      "IconHint": "exercitationem"
     },
     {
-      "TicketId": 318,
-      "TicketStatus": 499,
-      "Title": "illum",
-      "Registered": "2003-11-26T11:22:37.7585887+01:00",
-      "IconHint": "sapiente"
+      "TicketId": 763,
+      "TicketStatus": 926,
+      "Title": "occaecati",
+      "Registered": "2016-09-03T14:19:03.0574043+02:00",
+      "IconHint": "exercitationem"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 606,
-      "DocumentId": 327,
-      "Date": "2008-03-06T11:22:37.7585887+01:00",
-      "Description": "Down-sized logistical paradigm",
+      "AppointmentId": 181,
+      "DocumentId": 757,
+      "Date": "2012-07-20T14:19:03.0574043+02:00",
+      "Description": "Quality-focused 24/7 time-frame",
       "Completed": "Completed",
-      "Registered": "2012-07-16T11:22:37.7585887+02:00"
+      "Registered": "1999-06-05T14:19:03.0574043+02:00"
     },
     {
-      "AppointmentId": 606,
-      "DocumentId": 327,
-      "Date": "2008-03-06T11:22:37.7585887+01:00",
-      "Description": "Down-sized logistical paradigm",
+      "AppointmentId": 181,
+      "DocumentId": 757,
+      "Date": "2012-07-20T14:19:03.0574043+02:00",
+      "Description": "Quality-focused 24/7 time-frame",
       "Completed": "Completed",
-      "Registered": "2012-07-16T11:22:37.7585887+02:00"
+      "Registered": "1999-06-05T14:19:03.0574043+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 547,
-      "DocumentId": 354,
-      "Date": "1996-02-14T11:22:37.7585887+01:00",
-      "Description": "Future-proofed web-enabled superstructure",
+      "AppointmentId": 367,
+      "DocumentId": 633,
+      "Date": "2014-07-23T14:19:03.0574043+02:00",
+      "Description": "Versatile modular knowledge base",
       "Completed": "Completed",
-      "Registered": "2010-06-16T11:22:37.7585887+02:00"
+      "Registered": "2018-03-28T14:19:03.0574043+02:00"
     },
     {
-      "AppointmentId": 547,
-      "DocumentId": 354,
-      "Date": "1996-02-14T11:22:37.7585887+01:00",
-      "Description": "Future-proofed web-enabled superstructure",
+      "AppointmentId": 367,
+      "DocumentId": 633,
+      "Date": "2014-07-23T14:19:03.0574043+02:00",
+      "Description": "Versatile modular knowledge base",
       "Completed": "Completed",
-      "Registered": "2010-06-16T11:22:37.7585887+02:00"
+      "Registered": "2018-03-28T14:19:03.0574043+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 959,
-      "SaleDate": "2021-07-18T11:22:37.7585887+02:00",
-      "Probability": 335,
-      "Heading": "voluptate",
-      "Amount": 17691.43,
-      "Currency": "provident",
-      "AmountInBaseCurrency": 17008.218,
+      "SaleId": 985,
+      "SaleDate": "2015-11-16T14:19:03.0574043+01:00",
+      "Probability": 854,
+      "Heading": "sapiente",
+      "Amount": 235.04999999999998,
+      "Currency": "error",
+      "AmountInBaseCurrency": 5356.0059999999994,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "1995-10-14T11:22:37.7585887+02:00"
+      "Registered": "2017-10-08T14:19:03.0574043+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 736,
-      "Name": "Lockman-Shanahan",
-      "CompanyName": "Osinski-Braun",
-      "FirstMessage": "vel",
-      "LastMessage": "tempora",
-      "WhenRequested": "2022-11-21T11:22:37.7585887+01:00",
-      "WhenEnded": "2004-04-11T11:22:37.7585887+02:00"
+      "ChatSessionId": 843,
+      "Name": "Lynch-Stoltenberg",
+      "CompanyName": "Howell-Hammes",
+      "FirstMessage": "doloremque",
+      "LastMessage": "quam",
+      "WhenRequested": "2020-12-21T14:19:03.0574043+01:00",
+      "WhenEnded": "2000-08-28T14:19:03.0574043+02:00"
     }
   ]
 }

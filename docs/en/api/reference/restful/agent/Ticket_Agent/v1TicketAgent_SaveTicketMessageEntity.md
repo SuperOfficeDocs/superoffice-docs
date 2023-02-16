@@ -45,7 +45,7 @@ The TicketMessageEntity to be saved.
 | Author | String | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | String | The securitylevel of the message. |
 | Type | String | The type of the message (plaintext/html). |
-| MessageId | String | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | String | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | Integer | The time spent (minutes) for this message. |
 | Body | String | The textbody for the message. |
 | HtmlBody | String | The html body for the message (if any). |
@@ -83,7 +83,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -110,72 +110,72 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 306,
+  "EjMessageId": 738,
   "Ticket": null,
-  "CreatedAt": "2018-07-08T11:22:39.4144523+02:00",
+  "CreatedAt": "2004-09-04T14:19:04.3922008+02:00",
   "CreatedBy": null,
-  "Author": "eum",
+  "Author": "ipsam",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "optio",
-  "TimeSpent": 158,
-  "Body": "sed",
-  "HtmlBody": "est",
-  "EmailHeader": "libbie_maggio@fisher.ca",
-  "DebugInfo": "accusamus",
-  "MailSorter": "eos",
+  "MessageId": "et",
+  "TimeSpent": 333,
+  "Body": "vel",
+  "HtmlBody": "quisquam",
+  "EmailHeader": "icie@hilllbayer.ca",
+  "DebugInfo": "eaque",
+  "MailSorter": "ut",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ipsa",
+  "SearchTitle": "soluta",
   "MessageHeaders": [
     {
-      "Id": 729,
-      "Name": "Schinner-O'Connell",
-      "Value": "non",
+      "Id": 383,
+      "Name": "Gerlach LLC",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 729,
-      "Name": "Schinner-O'Connell",
-      "Value": "non",
+      "Id": 383,
+      "Name": "Gerlach LLC",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "id",
-  "Sentiment": 287,
-  "SentimentConfidence": 557,
+  "Language": "necessitatibus",
+  "Sentiment": 860,
+  "SentimentConfidence": 496,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 36,
-      "Name": "Barrows-Cole",
-      "ContentType": "consequatur",
-      "AttSize": 425,
-      "InlineImage": true,
-      "ContentId": "sunt"
+      "AttachmentId": 592,
+      "Name": "Hessel Group",
+      "ContentType": "perspiciatis",
+      "AttSize": 445,
+      "InlineImage": false,
+      "ContentId": "qui"
     },
     {
-      "AttachmentId": 36,
-      "Name": "Barrows-Cole",
-      "ContentType": "consequatur",
-      "AttSize": 425,
-      "InlineImage": true,
-      "ContentId": "sunt"
+      "AttachmentId": 592,
+      "Name": "Hessel Group",
+      "ContentType": "perspiciatis",
+      "AttSize": 445,
+      "InlineImage": false,
+      "ContentId": "qui"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quam",
-    "ExtraFields2": "ipsam"
+    "ExtraFields1": "at",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "exercitationem"
+    "CustomFields1": "explicabo",
+    "CustomFields2": "optio"
   }
 }
 ```
@@ -187,76 +187,76 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 614,
+  "EjMessageId": 364,
   "Ticket": null,
-  "CreatedAt": "2019-12-04T11:22:39.4144523+01:00",
+  "CreatedAt": "2008-11-05T14:19:04.3922008+01:00",
   "CreatedBy": null,
-  "Author": "vero",
+  "Author": "porro",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "dolor",
-  "TimeSpent": 160,
-  "Body": "vel",
-  "HtmlBody": "eius",
-  "EmailHeader": "mckenzie@little.us",
-  "DebugInfo": "fuga",
-  "MailSorter": "ut",
+  "MessageId": "vel",
+  "TimeSpent": 728,
+  "Body": "distinctio",
+  "HtmlBody": "blanditiis",
+  "EmailHeader": "sylvester_white@willterry.info",
+  "DebugInfo": "unde",
+  "MailSorter": "sit",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quae",
+  "SearchTitle": "voluptates",
   "MessageHeaders": [
     {
-      "Id": 129,
-      "Name": "Herzog Inc and Sons",
-      "Value": "molestias",
+      "Id": 666,
+      "Name": "Beier Group",
+      "Value": "molestiae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 177
+          "FieldType": "System.String",
+          "FieldLength": 334
         }
       }
     }
   ],
   "Important": false,
-  "Language": "omnis",
-  "Sentiment": 254,
-  "SentimentConfidence": 602,
+  "Language": "quo",
+  "Sentiment": 108,
+  "SentimentConfidence": 934,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 957,
-      "Name": "Schultz, Gorczany and Lehner",
-      "ContentType": "illum",
-      "AttSize": 764,
+      "AttachmentId": 727,
+      "Name": "Harris, Batz and Hansen",
+      "ContentType": "soluta",
+      "AttSize": 16,
       "InlineImage": false,
-      "ContentId": "quidem",
+      "ContentId": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 828
+          "FieldLength": 290
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ipsam",
-    "ExtraFields2": "consectetur"
+    "ExtraFields1": "consequuntur",
+    "ExtraFields2": "unde"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "facilis"
+    "CustomFields1": "sed",
+    "CustomFields2": "velit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 95
+      "FieldLength": 10
     }
   }
 }

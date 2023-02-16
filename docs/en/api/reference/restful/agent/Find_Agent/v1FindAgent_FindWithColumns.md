@@ -82,26 +82,26 @@ OK
 POST /api/v1/Agents/Find/FindWithColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quos",
-  "ProviderName": "Effertz, Murazik and Bogisich",
-  "StorageKey": "voluptatum",
+  "StorageType": "quibusdam",
+  "ProviderName": "Herman-Goodwin",
+  "StorageKey": "officiis",
   "DesiredColumns": [
-    "fuga",
-    "et"
+    "beatae",
+    "adipisci"
   ],
-  "PageSize": 177,
-  "PageNumber": 567,
+  "PageSize": 805,
+  "PageNumber": 426,
   "OrderBy": [
     {
-      "Name": "Bernier-Howell",
+      "Name": "Gleason, Hessel and Gaylord",
       "Direction": "ASC"
     },
     {
-      "Name": "Bernier-Howell",
+      "Name": "Gleason, Hessel and Gaylord",
       "Direction": "ASC"
     }
   ]
@@ -117,51 +117,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Abshire LLC",
-      "DisplayTooltip": "eum",
-      "DisplayType": "qui",
+      "DisplayName": "Leuschke Inc and Sons",
+      "DisplayTooltip": "non",
+      "DisplayType": "magnam",
       "CanOrderBy": false,
-      "Name": "Pfeffer, Shanahan and Lockman",
-      "CanRestrictBy": true,
-      "RestrictionType": "velit",
-      "RestrictionListName": "Schimmel LLC",
+      "Name": "Lindgren, Spencer and McLaughlin",
+      "CanRestrictBy": false,
+      "RestrictionType": "earum",
+      "RestrictionListName": "Turner-Luettgen",
       "IsVisible": false,
-      "ExtraInfo": "sed",
-      "Width": "aliquam",
-      "IconHint": "saepe",
-      "HeadingIconHint": "quasi"
+      "ExtraInfo": "asperiores",
+      "Width": "ipsum",
+      "IconHint": "quia",
+      "HeadingIconHint": "voluptate"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Pacocha LLC",
-      "PrimaryKey": 947,
+      "EntityName": "Gleichner, Hodkiewicz and Green",
+      "PrimaryKey": 99,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "illum",
-          "TooltipHint": "perferendis",
-          "LinkHint": "quo"
+          "DisplayValue": "delectus",
+          "TooltipHint": "illo",
+          "LinkHint": "esse"
         }
       },
-      "LinkHint": "cumque",
-      "StyleHint": "velit",
+      "LinkHint": "vel",
+      "StyleHint": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 570
+          "FieldLength": 325
         }
       }
     }
   ],
-  "RowCount": 558,
+  "RowCount": 649,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 272
+      "FieldType": "System.String",
+      "FieldLength": 824
     }
   }
 }

@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/SaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 860,
-  "Name": "Ortiz-Bartell",
-  "Tooltip": "commodi",
+  "Id": 104,
+  "Name": "Schneider, Witting and Schinner",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 42,
+  "Rank": 169,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quisquam",
+  "ListType": "tempore",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 354
+      "FieldType": "System.String",
+      "FieldLength": 997
     }
   },
   "_Links": {

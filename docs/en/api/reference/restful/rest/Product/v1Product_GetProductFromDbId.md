@@ -91,7 +91,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,73 +101,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 812,
-  "ERPProductKey": "vitae",
-  "ERPPriceListKey": "dolorum",
-  "Name": "Hyatt Group",
-  "Description": "Phased human-resource support",
-  "Code": "reprehenderit",
-  "PriceUnit": "perspiciatis",
-  "QuantityUnit": "sit",
-  "IsSubscription": false,
-  "SubscriptionUnit": "sunt",
-  "DefaultSubscriptionQuantity": 13961.97,
-  "ItemNumber": "885335",
+  "ProductId": 58,
+  "ERPProductKey": "ea",
+  "ERPPriceListKey": "consectetur",
+  "Name": "McKenzie LLC",
+  "Description": "Monitored attitude-oriented approach",
+  "Code": "ea",
+  "PriceUnit": "inventore",
+  "QuantityUnit": "tempora",
+  "IsSubscription": true,
+  "SubscriptionUnit": "occaecati",
+  "DefaultSubscriptionQuantity": 21947.402,
+  "ItemNumber": "1050198",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sint",
-  "ProductTypeKey": "voluptas",
-  "VAT": 22119.772,
-  "VATInfo": "et",
-  "UnitCost": 27372.356,
-  "UnitMinimumPrice": 15575.98,
-  "UnitListPrice": 16572.592,
+  "ProductFamilyKey": "sunt",
+  "ProductTypeKey": "laboriosam",
+  "VAT": 13363.376,
+  "VATInfo": "ut",
+  "UnitCost": 7897.6799999999994,
+  "UnitMinimumPrice": 1617.144,
+  "UnitListPrice": 27325.345999999998,
   "InAssortment": false,
-  "Supplier": "ea",
-  "SupplierCode": "mollitia",
-  "Rights": "aut",
-  "Rule": "qui",
+  "Supplier": "voluptatem",
+  "SupplierCode": "in",
+  "Rights": "molestias",
+  "Rule": "vitae",
   "ExtraInfo": [
     {
-      "Name": "Nader, Maggio and Cassin",
-      "Value": "et",
+      "Name": "O'Reilly Group",
+      "Value": "odit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 338
+          "FieldType": "System.String",
+          "FieldLength": 375
         }
       }
     },
     {
-      "Name": "Nader, Maggio and Cassin",
-      "Value": "et",
+      "Name": "O'Reilly Group",
+      "Value": "odit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 338
+          "FieldType": "System.String",
+          "FieldLength": 375
         }
       }
     }
   ],
-  "RawExtraInfo": "assumenda",
-  "ExtraField1": "voluptatum",
-  "ExtraField2": "non",
-  "ExtraField3": "esse",
-  "ExtraField4": "sint",
-  "ExtraField5": "sit",
-  "InStock": 26466.629999999997,
+  "RawExtraInfo": "soluta",
+  "ExtraField1": "aspernatur",
+  "ExtraField2": "sunt",
+  "ExtraField3": "provident",
+  "ExtraField4": "magnam",
+  "ExtraField5": "et",
+  "InStock": 1009.1479999999999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldLength": 530
     }
   }
 }

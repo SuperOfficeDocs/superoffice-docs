@@ -114,7 +114,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 143
+  "QuoteVersionId": 269
 }
 ```
 
@@ -125,75 +125,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 339,
-  "ERPQuoteVersionKey": "veniam",
-  "QuoteId": 748,
-  "Description": "Customizable transitional focus group",
-  "Number": "1587454",
+  "QuoteVersionId": 820,
+  "ERPQuoteVersionKey": "aliquid",
+  "QuoteId": 346,
+  "Description": "Realigned encompassing interface",
+  "Number": "999144",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
-  "Reason": "",
-  "LikelyQuoteAlternativeId": 852,
-  "SentDate": "2005-08-14T11:22:38.8833285+02:00",
-  "FollowupId": 41,
-  "ExpirationDate": "2015-03-15T11:22:38.8833285+01:00",
-  "DeliveryCountryId": 767,
+  "Reason": "leverage interactive e-markets",
+  "LikelyQuoteAlternativeId": 109,
+  "SentDate": "2021-12-29T14:19:03.984459+01:00",
+  "FollowupId": 243,
+  "ExpirationDate": "2013-08-16T14:19:03.984459+02:00",
+  "DeliveryCountryId": 664,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 544,
-  "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "doloremque",
-  "ERPPaymentTypeKey": "sit",
-  "ERPDeliveryTermsKey": "cumque",
-  "ERPDeliveryTypeKey": "animi",
-  "Rank": 496,
-  "ApprovedBy": 390,
-  "ApprovedText": "et",
-  "ApprovedRegisteredBy": 33,
-  "ApprovedRegisteredDate": "2015-04-27T11:22:38.8833285+02:00",
-  "ExtraField1": "incidunt",
-  "ExtraField2": "unde",
-  "ExtraField3": "soluta",
-  "ExtraField4": "deleniti",
-  "ExtraField5": "minima",
-  "LastRecalculated": "1996-03-10T11:22:38.8833285+01:00",
-  "Updated": "2018-07-15T11:22:38.8833285+02:00",
-  "UpdatedAssociateId": 385,
-  "Registered": "2007-02-27T11:22:38.8833285+01:00",
-  "RegisteredAssociateId": 236,
-  "RequestAssociateId": 563,
-  "RequestComment": "quos",
+  "InvoiceCountryId": 839,
+  "HasOwnInvoiceAddress": true,
+  "ERPPaymentTermsKey": "totam",
+  "ERPPaymentTypeKey": "eveniet",
+  "ERPDeliveryTermsKey": "eum",
+  "ERPDeliveryTypeKey": "totam",
+  "Rank": 99,
+  "ApprovedBy": 733,
+  "ApprovedText": "quia",
+  "ApprovedRegisteredBy": 643,
+  "ApprovedRegisteredDate": "2015-05-19T14:19:03.984459+02:00",
+  "ExtraField1": "est",
+  "ExtraField2": "possimus",
+  "ExtraField3": "et",
+  "ExtraField4": "vel",
+  "ExtraField5": "provident",
+  "LastRecalculated": "2013-06-25T14:19:03.984459+02:00",
+  "Updated": "1999-08-30T14:19:03.984459+02:00",
+  "UpdatedAssociateId": 564,
+  "Registered": "2017-03-11T14:19:03.984459+01:00",
+  "RegisteredAssociateId": 270,
+  "RequestAssociateId": 673,
+  "RequestComment": "sapiente",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 911,
-      "ERPQuoteAlternativeKey": "ut",
-      "QuoteVersionId": 633,
-      "Name": "Conn-Kutch",
-      "Description": "Horizontal multi-tasking info-mediaries",
+      "QuoteAlternativeId": 852,
+      "ERPQuoteAlternativeKey": "et",
+      "QuoteVersionId": 81,
+      "Name": "Olson Group",
+      "Description": "Re-contextualized encompassing success",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 31148.825999999997,
-      "ERPDiscountAmount": 10780.96,
-      "DiscountPercent": 24589.363999999998,
-      "DiscountAmount": 6982.552,
+      "ERPDiscountPercent": 29989.246,
+      "ERPDiscountAmount": 4531.764,
+      "DiscountPercent": 26128.158,
+      "DiscountAmount": 15372.269999999999,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "voluptatum",
-      "VAT": 3453.6679999999997,
-      "EarningPercent": 18474.93,
-      "EarningAmount": 29506.61,
-      "SubTotal": 30070.73,
-      "TotalPrice": 19910.302,
-      "ExtraField1": "hic",
-      "ExtraField2": "accusamus",
-      "ExtraField3": "quam",
-      "ExtraField4": "non",
-      "ExtraField5": "vel",
+      "VATInfo": "reiciendis",
+      "VAT": 14927.242,
+      "EarningPercent": 5935.7959999999994,
+      "EarningAmount": 8953.838,
+      "SubTotal": 12495.258,
+      "TotalPrice": 24457.736,
+      "ExtraField1": "nisi",
+      "ExtraField2": "dicta",
+      "ExtraField3": "est",
+      "ExtraField4": "nostrum",
+      "ExtraField5": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 686
+          "FieldLength": 851
         }
       }
     }
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldLength": 890
     }
   }
 }

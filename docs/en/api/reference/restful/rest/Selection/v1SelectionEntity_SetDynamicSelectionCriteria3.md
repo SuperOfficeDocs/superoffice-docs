@@ -94,34 +94,34 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Weissnat-O'Reilly",
-    "Operator": "ipsam",
+    "Name": "Schuster-Grant",
+    "Operator": "omnis",
     "Values": [
-      "praesentium",
-      "sit"
+      "amet",
+      "et"
     ],
     "DisplayValues": [
-      "in",
-      "repellendus"
+      "voluptatem",
+      "aut"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Mann-Upton",
-        "Operator": "voluptates",
+        "Name": "Thiel Group",
+        "Operator": "quia",
         "Values": [
-          "aut",
-          "qui"
+          "atque",
+          "amet"
         ],
         "DisplayValues": [
-          "earum",
-          "voluptas"
+          "dolorum",
+          "dolores"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -129,14 +129,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 45,
+        "InterParenthesis": 345,
         "InterOperator": "And",
-        "UniqueHash": 440
+        "UniqueHash": 553
       }
     ],
-    "InterParenthesis": 840,
+    "InterParenthesis": 2,
     "InterOperator": "And",
-    "UniqueHash": 196
+    "UniqueHash": 882
   }
 ]
 ```
@@ -149,29 +149,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mosciski, O'Reilly and Satterfield",
-    "Operator": "debitis",
+    "Name": "Klocko-Gerhold",
+    "Operator": "et",
     "Values": [
-      "delectus",
-      "eveniet"
+      "saepe",
+      "veritatis"
     ],
     "DisplayValues": [
-      "et",
-      "id"
+      "rerum",
+      "autem"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Harber, Wuckert and Bernhard",
-        "Operator": "asperiores",
+        "Name": "Block-Larson",
+        "Operator": "repellat",
         "Values": [
-          "et",
-          "deserunt"
+          "sunt",
+          "inventore"
         ],
         "DisplayValues": [
-          "qui",
-          "quod"
+          "et",
+          "voluptas"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -179,14 +179,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 295,
+        "InterParenthesis": 155,
         "InterOperator": "And",
-        "UniqueHash": 351
+        "UniqueHash": 92
       }
     ],
-    "InterParenthesis": 916,
+    "InterParenthesis": 855,
     "InterOperator": "And",
-    "UniqueHash": 186
+    "UniqueHash": 404
   }
 ]
 ```

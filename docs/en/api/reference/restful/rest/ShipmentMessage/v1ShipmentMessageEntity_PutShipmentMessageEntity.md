@@ -118,31 +118,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 222,
-  "PlainMessage": "quo",
-  "HtmlMessage": "provident",
-  "SmsMessage": "doloremque",
-  "Description": "Open-source transitional groupware",
-  "Subject": "neque",
-  "FolderId": 309,
-  "HeaderField": "et",
-  "Design": "porro",
+  "ShipmentMessageId": 938,
+  "PlainMessage": "provident",
+  "HtmlMessage": "quidem",
+  "SmsMessage": "expedita",
+  "Description": "Intuitive attitude-oriented benchmark",
+  "Subject": "nostrum",
+  "FolderId": 117,
+  "HeaderField": "dolor",
+  "Design": "non",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "User-friendly 4th generation circuit",
-  "AccessKey": "aliquam",
-  "DocumentMessage": 468,
-  "Registered": "2007-09-17T11:22:45.225579+02:00",
-  "RegisteredAssociateId": 470,
-  "Updated": "2013-04-10T11:22:45.225579+02:00",
-  "UpdatedAssociateId": 465,
-  "UpdatedCount": 893
+  "InlineImages": true,
+  "LongDescription": "Versatile zero defect hierarchy",
+  "AccessKey": "id",
+  "DocumentMessage": 385,
+  "Registered": "2018-12-16T14:19:10.7873511+01:00",
+  "RegisteredAssociateId": 534,
+  "Updated": "1996-01-25T14:19:10.7873511+01:00",
+  "UpdatedAssociateId": 439,
+  "UpdatedCount": 290
 }
 ```
 
@@ -153,38 +153,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 792,
-  "PlainMessage": "ex",
-  "HtmlMessage": "odio",
-  "SmsMessage": "aut",
-  "Description": "Self-enabling uniform secured line",
-  "Subject": "dolor",
-  "FolderId": 496,
-  "HeaderField": "quas",
-  "Design": "fuga",
+  "ShipmentMessageId": 919,
+  "PlainMessage": "fugiat",
+  "HtmlMessage": "sit",
+  "SmsMessage": "nobis",
+  "Description": "Multi-layered multi-tasking workforce",
+  "Subject": "illum",
+  "FolderId": 981,
+  "HeaderField": "et",
+  "Design": "quia",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Face to face bifurcated approach",
-  "AccessKey": "vel",
-  "DocumentMessage": 882,
-  "Registered": "2021-09-05T11:22:45.225579+02:00",
-  "RegisteredAssociateId": 497,
-  "Updated": "1996-04-15T11:22:45.225579+02:00",
-  "UpdatedAssociateId": 136,
-  "UpdatedCount": 48,
+  "LongDescription": "Object-based optimal functionalities",
+  "AccessKey": "enim",
+  "DocumentMessage": 685,
+  "Registered": "2010-08-22T14:19:10.7873511+02:00",
+  "RegisteredAssociateId": 867,
+  "Updated": "2019-11-12T14:19:10.7873511+01:00",
+  "UpdatedAssociateId": 676,
+  "UpdatedCount": 196,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 2
+      "FieldType": "System.Int32",
+      "FieldLength": 265
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

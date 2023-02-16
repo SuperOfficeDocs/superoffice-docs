@@ -73,6 +73,8 @@ title: Ticket_Agent
 
 * [POST Agents/Ticket/BatchReply](v1TicketAgent_BatchReply.md)
 
+* [POST Agents/Ticket/ClearNotify](v1TicketAgent_ClearNotify.md)
+
 * [POST Agents/Ticket/GetTicketMessage](v1TicketAgent_GetTicketMessage.md)
 
 * [POST Agents/Ticket/GetTicketMessageEntity](v1TicketAgent_GetTicketMessageEntity.md)

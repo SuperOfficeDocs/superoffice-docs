@@ -71,8 +71,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 897,
-  "Type": "fugiat",
+  "AssociateId": 582,
+  "Type": "et",
   "Credentials": null
 }
 ```

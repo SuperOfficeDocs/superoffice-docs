@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 258
+  "ProductId": 830
 }
 ```
 
@@ -120,73 +120,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 144,
-  "ERPProductKey": "commodi",
-  "ERPPriceListKey": "rem",
-  "Name": "Deckow Group",
-  "Description": "Operative disintermediate info-mediaries",
-  "Code": "aspernatur",
-  "PriceUnit": "dolorem",
-  "QuantityUnit": "accusantium",
+  "ProductId": 664,
+  "ERPProductKey": "saepe",
+  "ERPPriceListKey": "impedit",
+  "Name": "Lynch LLC",
+  "Description": "Programmable client-driven task-force",
+  "Code": "quasi",
+  "PriceUnit": "quasi",
+  "QuantityUnit": "in",
   "IsSubscription": false,
-  "SubscriptionUnit": "ipsam",
-  "DefaultSubscriptionQuantity": 319.668,
-  "ItemNumber": "460626",
+  "SubscriptionUnit": "vel",
+  "DefaultSubscriptionQuantity": 16068.018,
+  "ItemNumber": "583223",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "repellendus",
-  "ProductTypeKey": "labore",
-  "VAT": 5565.9839999999995,
-  "VATInfo": "sed",
-  "UnitCost": 24391.922,
-  "UnitMinimumPrice": 28271.814,
-  "UnitListPrice": 28118.248,
-  "InAssortment": false,
-  "Supplier": "possimus",
-  "SupplierCode": "dolore",
-  "Rights": "provident",
-  "Rule": "quis",
+  "ProductFamilyKey": "quos",
+  "ProductTypeKey": "totam",
+  "VAT": 18252.416,
+  "VATInfo": "ea",
+  "UnitCost": 26961.802,
+  "UnitMinimumPrice": 15018.127999999999,
+  "UnitListPrice": 30894.971999999998,
+  "InAssortment": true,
+  "Supplier": "quibusdam",
+  "SupplierCode": "iure",
+  "Rights": "iusto",
+  "Rule": "molestiae",
   "ExtraInfo": [
     {
-      "Name": "Stokes-Wolf",
-      "Value": "eum",
+      "Name": "Keebler, Predovic and Barton",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 513
+          "FieldType": "System.String",
+          "FieldLength": 974
         }
       }
     },
     {
-      "Name": "Stokes-Wolf",
-      "Value": "eum",
+      "Name": "Keebler, Predovic and Barton",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 513
+          "FieldType": "System.String",
+          "FieldLength": 974
         }
       }
     }
   ],
-  "RawExtraInfo": "tempore",
-  "ExtraField1": "vero",
-  "ExtraField2": "eius",
-  "ExtraField3": "quam",
-  "ExtraField4": "quasi",
-  "ExtraField5": "iste",
-  "InStock": 28716.842,
+  "RawExtraInfo": "consequatur",
+  "ExtraField1": "quia",
+  "ExtraField2": "et",
+  "ExtraField3": "nam",
+  "ExtraField4": "et",
+  "ExtraField5": "distinctio",
+  "InStock": 3948.8399999999997,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 353
+      "FieldType": "System.String",
+      "FieldLength": 822
     }
   }
 }

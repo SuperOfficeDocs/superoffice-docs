@@ -124,7 +124,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 880
+  "QuoteAlternativeId": 142
 }
 ```
 
@@ -136,88 +136,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 77,
-    "ERPQuoteLineKey": "eligendi",
-    "QuoteAlternativeId": 888,
-    "ERPProductKey": "perspiciatis",
+    "QuoteLineId": 664,
+    "ERPQuoteLineKey": "rerum",
+    "QuoteAlternativeId": 290,
+    "ERPProductKey": "quaerat",
     "Status": "Error",
-    "Reason": "",
-    "Quantity": 20928.852,
-    "DeliveredQuantity": 14037.186,
-    "Rank": 585,
-    "Name": "Moore-Spinka",
-    "Description": "Inverse even-keeled adapter",
-    "Code": "tempora",
-    "QuantityUnit": "maxime",
-    "PriceUnit": "cumque",
-    "ItemNumber": "820462",
+    "Reason": "matrix interactive e-commerce",
+    "Quantity": 30622.314,
+    "DeliveredQuantity": 24464.004,
+    "Rank": 568,
+    "Name": "Marquardt, Baumbach and Hartmann",
+    "Description": "Persistent non-volatile structure",
+    "Code": "aut",
+    "QuantityUnit": "sunt",
+    "PriceUnit": "nemo",
+    "ItemNumber": "251044",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "ipsum",
-    "ProductTypeKey": "est",
-    "Supplier": "eos",
-    "SupplierCode": "amet",
-    "Thumbnail": "ullam",
-    "VATInfo": "consequatur",
-    "VAT": 10323.395999999999,
-    "UnitCost": 19590.634,
-    "UnitMinimumPrice": 13049.975999999999,
-    "UnitListPrice": 25645.522,
+    "ProductFamilyKey": "qui",
+    "ProductTypeKey": "ut",
+    "Supplier": "amet",
+    "SupplierCode": "iure",
+    "Thumbnail": "vel",
+    "VATInfo": "aut",
+    "VAT": 31302.392,
+    "UnitCost": 8029.308,
+    "UnitMinimumPrice": 25394.802,
+    "UnitListPrice": 382.348,
     "ExtraInfo": [
       {
-        "Name": "Jenkins, Williamson and Fritsch",
-        "Value": "nihil",
+        "Name": "Hagenes, Gorczany and Upton",
+        "Value": "dolores",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 119
+            "FieldLength": 38
           }
         }
       },
       {
-        "Name": "Jenkins, Williamson and Fritsch",
-        "Value": "nihil",
+        "Name": "Hagenes, Gorczany and Upton",
+        "Value": "dolores",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 119
+            "FieldLength": 38
           }
         }
       }
     ],
-    "RawExtraInfo": "amet",
+    "RawExtraInfo": "atque",
     "IsSubscription": false,
-    "SubscriptionUnit": "voluptatem",
-    "SubscriptionQuantity": 8856.684,
-    "SubscriptionStart": "2007-07-17T11:22:38.9458129+02:00",
-    "ERPDiscountPercent": 27773.507999999998,
-    "ERPDiscountAmount": 20314.588,
-    "DiscountPercent": 8850.416,
-    "DiscountAmount": 3983.314,
+    "SubscriptionUnit": "magni",
+    "SubscriptionQuantity": 1708.03,
+    "SubscriptionStart": "2000-11-01T14:19:04.0469597+01:00",
+    "ERPDiscountPercent": 26360.074,
+    "ERPDiscountAmount": 2585.5499999999997,
+    "DiscountPercent": 24934.104,
+    "DiscountAmount": 11225.988,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 9270.372,
-    "EarningAmount": 19819.416,
-    "SubTotal": 27707.694,
-    "TotalPrice": 2789.2599999999998,
-    "Rights": "debitis",
-    "Rule": "veniam",
-    "ExtraField1": "qui",
-    "ExtraField2": "necessitatibus",
-    "ExtraField3": "eligendi",
-    "ExtraField4": "totam",
-    "ExtraField5": "mollitia",
+    "EarningPercent": 12821.194,
+    "EarningAmount": 19857.023999999998,
+    "SubTotal": 20696.935999999998,
+    "TotalPrice": 1560.732,
+    "Rights": "officiis",
+    "Rule": "corporis",
+    "ExtraField1": "saepe",
+    "ExtraField2": "saepe",
+    "ExtraField3": "maxime",
+    "ExtraField4": "vel",
+    "ExtraField5": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 793
+        "FieldLength": 464
       }
     }
   }

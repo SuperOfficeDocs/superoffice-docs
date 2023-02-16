@@ -90,16 +90,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "aut",
-  "Name": "Russel Inc and Sons",
-  "Description": "Digitized high-level artificial intelligence",
-  "IncludeId": "dignissimos",
-  "Source": "unde",
-  "Registered": "2021-05-25T11:22:45.4754809+02:00",
-  "RegisteredBy": "voluptatem",
-  "Updated": "2000-12-07T11:22:45.4754809+01:00",
-  "UpdatedBy": "illum",
-  "Path": "voluptatibus"
+  "UniqueIdentifier": "perspiciatis",
+  "Name": "Hegmann Group",
+  "Description": "Profit-focused multi-state data-warehouse",
+  "IncludeId": "voluptatem",
+  "Source": "dolores",
+  "Registered": "2002-03-09T14:19:11.0061042+01:00",
+  "RegisteredBy": "sed",
+  "Updated": "2002-09-05T14:19:11.0061042+02:00",
+  "UpdatedBy": "ad",
+  "Path": "voluptas"
 }
 ```
 
@@ -110,22 +110,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "mollitia",
-  "Name": "Lakin LLC",
-  "Description": "Adaptive context-sensitive support",
-  "IncludeId": "doloribus",
-  "Source": "eos",
-  "Registered": "2022-11-30T11:22:45.4754809+01:00",
-  "RegisteredBy": "illo",
-  "Updated": "2009-09-24T11:22:45.4754809+02:00",
-  "UpdatedBy": "qui",
-  "Path": "ut",
+  "UniqueIdentifier": "corporis",
+  "Name": "Konopelski LLC",
+  "Description": "Optional human-resource model",
+  "IncludeId": "mollitia",
+  "Source": "laudantium",
+  "Registered": "2015-11-04T14:19:11.0061042+01:00",
+  "RegisteredBy": "quasi",
+  "Updated": "2010-11-14T14:19:11.0061042+01:00",
+  "UpdatedBy": "vero",
+  "Path": "quas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 769
+      "FieldType": "System.Int32",
+      "FieldLength": 672
     }
   }
 }

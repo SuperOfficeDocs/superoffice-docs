@@ -25,7 +25,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=182
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=342
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,37 +100,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 568,
-  "Name": "McCullough, Cartwright and Schneider",
-  "Tooltip": "enim",
-  "SaveInDb": 407,
-  "Filename": "sapiente",
-  "DefaultOref": "nisi",
+  "DocumentTemplateId": 972,
+  "Name": "Little Inc and Sons",
+  "Tooltip": "sint",
+  "SaveInDb": 789,
+  "Filename": "ipsum",
+  "DefaultOref": "aut",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 275,
-  "IntentId": 698,
-  "IsDefaultPublished": false,
-  "Rank": 832,
-  "LoadTemplateFromPlugin": 791,
-  "MimeType": "architecto",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 191,
+  "AutoeventId": 838,
+  "IntentId": 694,
+  "IsDefaultPublished": true,
+  "Rank": 361,
+  "LoadTemplateFromPlugin": 489,
+  "MimeType": "dolores",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 223,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "palma_quigley@howellwyman.us",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
+  "EmailSubject": "carolanne_flatley@mertz.name",
+  "IncludeSignature": false,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "alia@walsh.us",
+  "SenderEmailAddress": "dalton@stracke.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 865
+      "FieldType": "System.Int32",
+      "FieldLength": 420
     }
   }
 }

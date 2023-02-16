@@ -91,54 +91,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 95,
-    "ERPName": "Cassin LLC",
-    "DisplayName": "Dach, Wilkinson and Schroeder",
-    "DisplayDescription": "Implemented explicit archive",
-    "Rank": 786,
-    "ConnectorName": "Batz Group",
-    "ErpConnectionId": 739,
-    "ExtraData": "quibusdam",
+    "QuoteConnectionId": 429,
+    "ERPName": "Oberbrunner Inc and Sons",
+    "DisplayName": "Wunsch-Schaefer",
+    "DisplayDescription": "Multi-tiered coherent parallelism",
+    "Rank": 180,
+    "ConnectorName": "Torp-Schowalter",
+    "ErpConnectionId": 312,
+    "ExtraData": "est",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 965,
-        "ERPPriceListKey": "ullam",
-        "QuoteConnectionId": 888,
-        "Name": "Greenholt Group",
-        "Description": "Expanded directional instruction set",
-        "Currency": "itaque",
-        "CurrencyName": "Koss, Glover and Strosin",
-        "ValidFrom": "2012-07-28T11:22:38.9145676+02:00",
-        "ValidTo": "2014-11-25T11:22:38.9145676+01:00",
-        "IsActive": true,
+        "PriceListId": 461,
+        "ERPPriceListKey": "et",
+        "QuoteConnectionId": 842,
+        "Name": "Fahey Inc and Sons",
+        "Description": "Proactive didactic focus group",
+        "Currency": "tempore",
+        "CurrencyName": "Collins, Jerde and Heathcote",
+        "ValidFrom": "2010-12-05T14:19:04.0157096+01:00",
+        "ValidTo": "2011-08-20T14:19:04.0157096+02:00",
+        "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 971
+            "FieldLength": 565
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": false,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      738,
-      378
+      589,
+      956
     ],
     "AssociateAccessIds": [
-      523,
-      270
+      831,
+      654
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 888
+        "FieldLength": 224
       }
     }
   }

@@ -84,15 +84,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 258,
-  "Name": "Dach, Kerluke and Lowe",
-  "Tooltip": "voluptatem",
+  "Id": 660,
+  "Name": "Tillman Inc and Sons",
+  "Tooltip": "deserunt",
   "Deleted": false,
-  "Rank": 299,
+  "Rank": 561,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "odit",
+  "UseGroupsAndHeadings": true,
+  "ListType": "incidunt",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 910,
-  "Name": "Funk LLC",
-  "Tooltip": "amet",
+  "Id": 305,
+  "Name": "Mohr, Rowe and Steuber",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 907,
+  "Rank": 431,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dicta",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "rem",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 81
+      "FieldLength": 894
     }
   }
 }

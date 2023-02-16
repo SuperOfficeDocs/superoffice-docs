@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 643,
-    "Value": "quo",
-    "Tooltip": "impedit",
+    "Id": 676,
+    "Value": "id",
+    "Tooltip": "facilis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldLength": 815
       }
     }
   },
   {
-    "Id": 643,
-    "Value": "quo",
-    "Tooltip": "impedit",
+    "Id": 676,
+    "Value": "id",
+    "Tooltip": "facilis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldLength": 815
       }
     }
   }

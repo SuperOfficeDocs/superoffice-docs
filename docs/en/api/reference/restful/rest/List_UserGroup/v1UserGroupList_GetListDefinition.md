@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 883,
-  "Name": "McCullough, Fadel and Schmidt",
-  "Tooltip": "maxime",
-  "Deleted": false,
-  "Rank": 641,
+  "Id": 970,
+  "Name": "Lowe-Hilll",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 941,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quos",
+  "UseGroupsAndHeadings": true,
+  "ListType": "sapiente",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldLength": 765
     }
   },
   "_Links": {

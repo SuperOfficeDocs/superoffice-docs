@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 506,
-  "Name": "Moen-DuBuque",
-  "Tooltip": "nesciunt",
-  "Deleted": true,
-  "Rank": 861,
-  "IsCustomList": true,
+  "Id": 564,
+  "Name": "Johnson-Tremblay",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 879,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "officia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 983
+      "FieldLength": 480
     }
   },
   "_Links": {

@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 65,
-  "Name": "D'Amore Inc and Sons",
-  "Tooltip": "rerum",
+  "Id": 126,
+  "Name": "Medhurst, Romaguera and Walter",
+  "Tooltip": "iusto",
   "Deleted": false,
-  "Rank": 760,
-  "IsCustomList": true,
+  "Rank": 480,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ipsam",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "reprehenderit",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 406,
-  "Name": "Lind-McClure",
-  "Tooltip": "nisi",
+  "Id": 12,
+  "Name": "Hyatt Inc and Sons",
+  "Tooltip": "expedita",
   "Deleted": false,
-  "Rank": 885,
+  "Rank": 852,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ex",
+  "ListType": "doloremque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 880
+      "FieldLength": 412
     }
   }
 }

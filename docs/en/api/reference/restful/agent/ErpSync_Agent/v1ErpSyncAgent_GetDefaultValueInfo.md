@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 763
+  "ErpFieldId": 669
 }
 ```
 
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 110,
-  "DefaultValue": "sed",
+  "ErpFieldId": 141,
+  "DefaultValue": "sunt",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "delectus",
-  "PromptUser": false,
+  "FirstSyncDefaultValue": "qui",
+  "PromptUser": true,
   "Mandatory": false,
-  "ErpFieldKey": "nesciunt",
+  "ErpFieldKey": "voluptate",
   "FieldType": "Checkbox",
-  "ListName": "Bins Inc and Sons",
+  "ListName": "Osinski Group",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 616
+      "FieldLength": 427
     }
   }
 }

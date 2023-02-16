@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 852
+  "ShipmentAddrId": 510
 }
 ```
 
@@ -101,27 +101,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "1999-03-03T11:22:38.5708923+01:00",
+  "SendingTime": "2022-08-27T14:19:03.7176242+02:00",
   "Status": "Blocked",
-  "ShipmentId": 903,
-  "ShipmentDescription": "Monitored systematic data-warehouse",
-  "FromAddress": "temporibus",
-  "ContactId": 74,
-  "ContactName": "Kuhn, Ziemann and Terry",
-  "PersonId": 977,
-  "PersonFullName": "Telly Kuphal",
-  "ShipmentType": "tempore",
-  "MessageId": 507,
-  "MessageSubject": "quia",
-  "DocumentMessageId": 627,
-  "Opened": "2006-02-28T11:22:38.5708923+01:00",
-  "LinkClicks": 412,
+  "ShipmentId": 920,
+  "ShipmentDescription": "Pre-emptive next generation interface",
+  "FromAddress": "ad",
+  "ContactId": 591,
+  "ContactName": "Borer-Doyle",
+  "PersonId": 608,
+  "PersonFullName": "Adrianna Rohan",
+  "ShipmentType": "minus",
+  "MessageId": 237,
+  "MessageSubject": "ut",
+  "DocumentMessageId": 858,
+  "Opened": "2000-01-27T14:19:03.7176242+01:00",
+  "LinkClicks": 910,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 852
+      "FieldType": "System.Int32",
+      "FieldLength": 101
     }
   }
 }

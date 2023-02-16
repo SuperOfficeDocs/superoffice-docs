@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 628,
-    "Name": "Nikolaus, Ryan and Volkman",
-    "Description": "Digitized analyzing projection",
+    "ProjectId": 343,
+    "Name": "Williamson, Kling and Labadie",
+    "Description": "Open-source didactic portal",
     "URL": "http://www.example.com/",
-    "Type": "qui",
-    "AssociateId": 256,
-    "AssociateFullName": "Prof. Zachary Lebsack Sr.",
-    "TypeId": 892,
-    "Updated": "2013-11-30T11:22:38.8520826+01:00",
-    "StatusId": 74,
-    "Status": "rerum",
-    "TextId": 808,
-    "PublishTo": "2015-12-13T11:22:38.8520826+01:00",
-    "PublishFrom": "2018-04-06T11:22:38.8520826+02:00",
-    "IsPublished": false,
+    "Type": "ea",
+    "AssociateId": 877,
+    "AssociateFullName": "Blaise Schumm",
+    "TypeId": 930,
+    "Updated": "2020-08-20T14:19:03.9688343+02:00",
+    "StatusId": 225,
+    "Status": "doloremque",
+    "TextId": 624,
+    "PublishTo": "2002-08-14T14:19:03.9688343+02:00",
+    "PublishFrom": "2015-11-21T14:19:03.9688343+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1331898",
-    "ActiveErpLinks": 936,
+    "ProjectNumber": "1062176",
+    "ActiveErpLinks": 282,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 220
+        "FieldType": "System.Int32",
+        "FieldLength": 34
       }
     }
   }

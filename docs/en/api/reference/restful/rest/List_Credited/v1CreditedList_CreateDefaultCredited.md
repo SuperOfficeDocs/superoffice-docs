@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/Credited/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 750,
-  "Name": "Schneider, Waters and Farrell",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "UdListDefinitionId": 438,
-  "Rank": 778,
+  "Id": 526,
+  "Name": "Kirlin-Purdy",
+  "Tooltip": "sed",
+  "Deleted": false,
+  "UdListDefinitionId": 472,
+  "Rank": 941,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 226
+      "FieldType": "System.Int32",
+      "FieldLength": 218
     }
   }
 }

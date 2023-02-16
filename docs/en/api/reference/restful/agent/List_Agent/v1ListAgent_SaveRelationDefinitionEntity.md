@@ -76,16 +76,16 @@ OK
 POST /api/v1/Agents/List/SaveRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 31,
-  "Name": "Rutherford, Jacobs and Rosenbaum",
-  "Tooltip": "praesentium",
-  "PassiveText": "necessitatibus",
+  "ReldefId": 281,
+  "Name": "Gaylord-Kunze",
+  "Tooltip": "illum",
+  "PassiveText": "impedit",
   "Deleted": false,
-  "Rank": 341,
+  "Rank": 173,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 314,
-  "Name": "Goodwin LLC",
-  "Tooltip": "esse",
-  "PassiveText": "enim",
-  "Deleted": true,
-  "Rank": 305,
+  "ReldefId": 451,
+  "Name": "Rohan Group",
+  "Tooltip": "omnis",
+  "PassiveText": "est",
+  "Deleted": false,
+  "Rank": 195,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 984
+      "FieldType": "System.String",
+      "FieldLength": 735
     }
   }
 }

@@ -84,36 +84,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 460,
-    "ParentId": 786,
-    "Name": "Terry LLC",
+    "TicketCategoryId": 426,
+    "ParentId": 953,
+    "Name": "Windler, Ledner and Jerde",
     "Fullname": "non",
-    "CategoryMaster": 831,
+    "CategoryMaster": 322,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Carroll-Skiles",
+    "ExternalName": "Wisoky Group",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 959,
-    "ReplyTemplate": 27,
-    "NotificationEmail": "kiara@kriswaters.name",
+    "AssignmentLag": 997,
+    "ReplyTemplate": 77,
+    "NotificationEmail": "hector@greenbernhard.biz",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 943,
+    "EffectiveReplyTemplateId": 463,
     "ExtraFields": {
-      "ExtraFields1": "deleniti",
-      "ExtraFields2": "officiis"
+      "ExtraFields1": "cumque",
+      "ExtraFields2": "ipsam"
     },
     "CustomFields": {
-      "CustomFields1": "delectus",
-      "CustomFields2": "impedit"
+      "CustomFields1": "dolores",
+      "CustomFields2": "hic"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 534
+        "FieldLength": 86
       }
     }
   }

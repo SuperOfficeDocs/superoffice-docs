@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 302,
-  "Name": "Sanford, Thiel and McKenzie",
-  "Tooltip": "eius",
-  "Deleted": true,
-  "Rank": 322,
-  "UdListDefinitionId": 27
+  "HeadingId": 486,
+  "Name": "Green Inc and Sons",
+  "Tooltip": "ratione",
+  "Deleted": false,
+  "Rank": 536,
+  "UdListDefinitionId": 411
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 69,
-  "Name": "Ziemann-Lubowitz",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 584,
-  "UdListDefinitionId": 805,
+  "HeadingId": 228,
+  "Name": "Jakubowski, Corkery and Pfannerstill",
+  "Tooltip": "sint",
+  "Deleted": true,
+  "Rank": 887,
+  "UdListDefinitionId": 962,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 342
+      "FieldLength": 465
     }
   }
 }

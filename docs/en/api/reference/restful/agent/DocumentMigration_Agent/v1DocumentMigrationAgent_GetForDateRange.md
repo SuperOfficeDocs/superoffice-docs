@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 918,
-  "MinDate": "2022-09-17T11:22:38.1646944+02:00",
-  "MaxDate": "2000-03-08T11:22:38.1803656+01:00",
-  "IncludeEmails": true
+  "DocumentPluginId": 346,
+  "MinDate": "2013-06-13T14:19:03.3727451+02:00",
+  "MaxDate": "2014-01-13T14:19:03.3727451+01:00",
+  "IncludeEmails": false
 }
 ```
 
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 807,
-  "NumDocumentsAlreadyMigrated": 668,
+  "NumDocumentsOmitted": 742,
+  "NumDocumentsAlreadyMigrated": 671,
   "Documents": [
     {
-      "DocumentId": 331,
-      "ContactId": 174,
-      "PersonId": 314,
-      "SaleId": 182,
-      "ProjectId": 717,
-      "DocTmplId": 781,
-      "AssociateId": 906,
-      "UserGroupId": 404,
-      "VisibleForId": 22
+      "DocumentId": 793,
+      "ContactId": 810,
+      "PersonId": 236,
+      "SaleId": 896,
+      "ProjectId": 785,
+      "DocTmplId": 850,
+      "AssociateId": 760,
+      "UserGroupId": 954,
+      "VisibleForId": 982
     }
   ],
   "Associates": [
     {
-      "AssociateId": 759,
-      "EmailAddress": "camilla_dooley@lynch.info"
+      "AssociateId": 403,
+      "EmailAddress": "velda_hodkiewicz@quitzonabshire.info"
     },
     {
-      "AssociateId": 759,
-      "EmailAddress": "camilla_dooley@lynch.info"
+      "AssociateId": 403,
+      "EmailAddress": "velda_hodkiewicz@quitzonabshire.info"
     }
   ]
 }

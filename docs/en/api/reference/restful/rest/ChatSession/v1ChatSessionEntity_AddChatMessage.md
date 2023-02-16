@@ -84,15 +84,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 490,
-  "ChatSessionId": 304,
+  "ChatMessageId": 728,
+  "ChatSessionId": 403,
   "Type": "Invalid",
-  "Message": "neque",
-  "Author": "ea",
-  "ReadByCustomer": 818,
+  "Message": "illo",
+  "Author": "adipisci",
+  "ReadByCustomer": 215,
   "SpecialType": "Block",
-  "SpecialParam": "quia",
-  "WhenPosted": "2017-11-27T11:22:44.4132819+01:00"
+  "SpecialParam": "cum",
+  "WhenPosted": "2018-10-03T14:19:10.0998102+02:00"
 }
 ```
 
@@ -103,14 +103,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 321,
-  "ChatSessionId": 679,
+  "ChatMessageId": 520,
+  "ChatSessionId": 23,
   "Type": "Invalid",
-  "Message": "sit",
-  "Author": "quia",
-  "ReadByCustomer": 897,
+  "Message": "accusamus",
+  "Author": "est",
+  "ReadByCustomer": 101,
   "SpecialType": "Block",
-  "SpecialParam": "aliquid",
-  "WhenPosted": "2003-06-28T11:22:44.4132819+02:00"
+  "SpecialParam": "numquam",
+  "WhenPosted": "2003-07-25T14:19:10.0998102+02:00"
 }
 ```

@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Aufderhar-Spinka",
-  "DeviceName": "Wunsch-Abbott"
+  "ApplicationName": "McClure LLC",
+  "DeviceName": "Denesik Inc and Sons"
 }
 ```
 
@@ -97,20 +97,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "sed",
-    "Value": "incidunt",
-    "RecordId": 133,
-    "CreatedDate": "1997-09-07T11:22:38.3834434+02:00",
-    "UpdatedDate": "2013-08-18T11:22:38.3834434+02:00",
-    "UpdatedBy": "officiis",
-    "CreatedBy": "et",
-    "TableName": "Stokes-Cremin",
+    "Key": "minus",
+    "Value": "vitae",
+    "RecordId": 341,
+    "CreatedDate": "2013-04-16T14:19:03.5602728+02:00",
+    "UpdatedDate": "2016-05-19T14:19:03.5602728+02:00",
+    "UpdatedBy": "repellendus",
+    "CreatedBy": "distinctio",
+    "TableName": "Dickinson LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 346
+        "FieldType": "System.String",
+        "FieldLength": 921
       }
     }
   }

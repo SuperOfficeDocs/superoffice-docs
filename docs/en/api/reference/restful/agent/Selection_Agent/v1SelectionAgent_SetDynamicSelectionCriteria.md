@@ -86,28 +86,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 82,
+  "SelectionId": 638,
   "Criteria": [
     {
-      "Name": "Kassulke, Farrell and Armstrong",
-      "Operator": "officia",
+      "Name": "Goyette LLC",
+      "Operator": "explicabo",
       "Values": [
-        "eos",
-        "rerum"
+        "est",
+        "aut"
       ],
       "DisplayValues": [
-        "doloremque",
-        "earum"
+        "enim",
+        "sunt"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 887,
+      "InterParenthesis": 138,
       "InterOperator": "And",
-      "UniqueHash": 997
+      "UniqueHash": 456
     }
   ]
 }
@@ -121,29 +121,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bradtke, Brekke and Hahn",
-    "Operator": "modi",
+    "Name": "Crona-Hayes",
+    "Operator": "sed",
     "Values": [
-      "rerum",
-      "exercitationem"
+      "minima",
+      "velit"
     ],
     "DisplayValues": [
-      "neque",
-      "explicabo"
+      "et",
+      "nostrum"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Wisoky-Cole",
-        "Operator": "eaque",
+        "Name": "Herman Group",
+        "Operator": "est",
         "Values": [
-          "quae",
-          "est"
+          "sint",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "sequi",
-          "minus"
+          "nam",
+          "quidem"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -151,14 +151,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 411,
+        "InterParenthesis": 849,
         "InterOperator": "And",
-        "UniqueHash": 178
+        "UniqueHash": 283
       }
     ],
-    "InterParenthesis": 475,
+    "InterParenthesis": 748,
     "InterOperator": "And",
-    "UniqueHash": 194
+    "UniqueHash": 80
   }
 ]
 ```

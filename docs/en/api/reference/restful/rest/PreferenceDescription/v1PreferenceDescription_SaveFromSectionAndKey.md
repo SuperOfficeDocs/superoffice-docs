@@ -101,28 +101,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 338,
-  "Section": "mollitia",
-  "Key": "minus",
-  "Name": "Parisian-Williamson",
+  "PrefDescId": 813,
+  "Section": "amet",
+  "Key": "aut",
+  "Name": "Reynolds, Okuneva and Lemke",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Sharable dynamic circuit",
+  "Description": "Intuitive systematic access",
   "IsBuiltin": false,
-  "TableName": "Huels-Abernathy",
-  "UserDefinedListId": 341,
-  "Rank": 84,
-  "SubGroup": "ex",
-  "MinLevel": 705,
-  "MaxValue": 832,
-  "MinValue": 917,
-  "RequiredLicense": "quidem"
+  "TableName": "Haley-Blanda",
+  "UserDefinedListId": 582,
+  "Rank": 392,
+  "SubGroup": "exercitationem",
+  "MinLevel": 984,
+  "MaxValue": 232,
+  "MinValue": 397,
+  "RequiredLicense": "culpa"
 }
 ```
 
@@ -133,30 +133,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 295,
-  "Section": "sit",
-  "Key": "et",
-  "Name": "Kunde Group",
+  "PrefDescId": 218,
+  "Section": "dolore",
+  "Key": "excepturi",
+  "Name": "Corwin-Schuppe",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Pre-emptive transitional product",
-  "IsBuiltin": true,
-  "TableName": "Koch Group",
-  "UserDefinedListId": 868,
-  "Rank": 583,
-  "SubGroup": "aut",
-  "MinLevel": 208,
-  "MaxValue": 161,
-  "MinValue": 521,
-  "RequiredLicense": "earum",
+  "Description": "Enhanced attitude-oriented support",
+  "IsBuiltin": false,
+  "TableName": "Quitzon LLC",
+  "UserDefinedListId": 184,
+  "Rank": 644,
+  "SubGroup": "eum",
+  "MinLevel": 487,
+  "MaxValue": 153,
+  "MinValue": 117,
+  "RequiredLicense": "dicta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 201
+      "FieldLength": 290
     }
   }
 }

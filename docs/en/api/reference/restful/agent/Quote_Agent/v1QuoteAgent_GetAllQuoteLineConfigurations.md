@@ -83,21 +83,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 283,
-    "FieldName": "Rolfson-Heathcote",
-    "Label": "et",
-    "Tooltip": "rem",
+    "QuoteLineConfigurationId": 786,
+    "FieldName": "Roberts, Okuneva and Schaden",
+    "Label": "ab",
+    "Tooltip": "magni",
     "Editable": true,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 146,
+    "Rank": 447,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 879
+        "FieldType": "System.String",
+        "FieldLength": 435
       }
     }
   }

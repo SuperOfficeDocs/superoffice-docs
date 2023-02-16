@@ -88,22 +88,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 120,
-  "Name": "Klocko-Marquardt",
-  "ConsentText": "suscipit",
-  "FormText": "minus",
-  "Key": "architecto",
-  "Tooltip": "qui",
-  "Active": 320,
-  "UpdatedDate": "2004-08-18T11:22:45.803528+02:00",
+  "ConsentPurposeId": 322,
+  "Name": "Kreiger-Kuphal",
+  "ConsentText": "vero",
+  "FormText": "dolor",
+  "Key": "a",
+  "Tooltip": "reprehenderit",
+  "Active": 85,
+  "UpdatedDate": "2000-02-04T14:19:11.163718+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 190,
-  "PrivacyStatementDesc": "cum",
+  "Rank": 893,
+  "PrivacyStatementDesc": "perspiciatis",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -115,25 +115,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 908,
-  "Name": "Nitzsche-Eichmann",
-  "ConsentText": "iste",
-  "FormText": "dolorem",
-  "Key": "et",
-  "Tooltip": "magnam",
-  "Active": 978,
-  "UpdatedDate": "2004-07-05T11:22:45.803528+02:00",
+  "ConsentPurposeId": 870,
+  "Name": "Zieme, Waters and Will",
+  "ConsentText": "quod",
+  "FormText": "quo",
+  "Key": "esse",
+  "Tooltip": "atque",
+  "Active": 936,
+  "UpdatedDate": "2009-08-27T14:19:11.163718+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 467,
-  "PrivacyStatementDesc": "officiis",
+  "Deleted": false,
+  "Rank": 462,
+  "PrivacyStatementDesc": "maiores",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 991
+      "FieldType": "System.Int32",
+      "FieldLength": 650
     }
   }
 }

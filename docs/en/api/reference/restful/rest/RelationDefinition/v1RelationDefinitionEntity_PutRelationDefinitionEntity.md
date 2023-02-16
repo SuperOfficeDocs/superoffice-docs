@@ -92,16 +92,16 @@ RelationDefinitionEntity updated.
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 126,
-  "Name": "Ritchie, Leannon and Miller",
-  "Tooltip": "qui",
-  "PassiveText": "voluptatem",
-  "Deleted": true,
-  "Rank": 101,
+  "ReldefId": 773,
+  "Name": "Ebert-Schmitt",
+  "Tooltip": "quia",
+  "PassiveText": "debitis",
+  "Deleted": false,
+  "Rank": 374,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -114,20 +114,20 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 374,
-  "Name": "Brekke, Denesik and Bartoletti",
-  "Tooltip": "quia",
-  "PassiveText": "ea",
+  "ReldefId": 808,
+  "Name": "Bosco-Farrell",
+  "Tooltip": "nihil",
+  "PassiveText": "et",
   "Deleted": false,
-  "Rank": 5,
+  "Rank": 628,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldType": "System.String",
+      "FieldLength": 449
     }
   },
   "_Links": {

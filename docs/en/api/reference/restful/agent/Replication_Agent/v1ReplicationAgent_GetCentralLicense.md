@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,30 +80,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bartell, Brakus and Brown",
-    "Description": "Progressive system-worthy pricing structure",
+    "Name": "Kerluke LLC",
+    "Description": "Self-enabling solution-oriented circuit",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 405,
-        "Tooltip": "et",
-        "CanAssign": true,
-        "Free": 487,
-        "InUse": 876,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 110,
-        "Name": "Weber-McGlynn",
-        "Description": "Upgradable multi-tasking utilisation",
-        "PrerequisiteModuleName": "Koepp LLC",
-        "SortOrder": 976,
-        "ExtraFlags": 768,
+        "Unrestricted": true,
+        "Total": 334,
+        "Tooltip": "consectetur",
+        "CanAssign": false,
+        "Free": 599,
+        "InUse": 479,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 936,
+        "Name": "Gorczany Group",
+        "Description": "Monitored motivating circuit",
+        "PrerequisiteModuleName": "King, Hills and Romaguera",
+        "SortOrder": 990,
+        "ExtraFlags": 901,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 140
+            "FieldLength": 823
           }
         }
       }
@@ -111,25 +111,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 362,
-        "Tooltip": "voluptates",
-        "CanAssign": false,
-        "Free": 481,
-        "InUse": 561,
+        "Total": 762,
+        "Tooltip": "officiis",
+        "CanAssign": true,
+        "Free": 694,
+        "InUse": 454,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 364,
-        "Name": "Aufderhar Inc and Sons",
-        "Description": "Reverse-engineered motivating model",
-        "PrerequisiteModuleName": "Raynor Inc and Sons",
-        "SortOrder": 205,
-        "ExtraFlags": 825,
+        "ModuleLicenseId": 704,
+        "Name": "Blick LLC",
+        "Description": "Automated logistical strategy",
+        "PrerequisiteModuleName": "Muller-Dach",
+        "SortOrder": 715,
+        "ExtraFlags": 345,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 370
+            "FieldType": "System.String",
+            "FieldLength": 116
           }
         }
       }
@@ -138,36 +138,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 692
+        "FieldType": "System.Int32",
+        "FieldLength": 16
       }
     }
   },
   {
-    "Name": "Bartell, Brakus and Brown",
-    "Description": "Progressive system-worthy pricing structure",
+    "Name": "Kerluke LLC",
+    "Description": "Self-enabling solution-oriented circuit",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 405,
-        "Tooltip": "et",
-        "CanAssign": true,
-        "Free": 487,
-        "InUse": 876,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 110,
-        "Name": "Weber-McGlynn",
-        "Description": "Upgradable multi-tasking utilisation",
-        "PrerequisiteModuleName": "Koepp LLC",
-        "SortOrder": 976,
-        "ExtraFlags": 768,
+        "Unrestricted": true,
+        "Total": 334,
+        "Tooltip": "consectetur",
+        "CanAssign": false,
+        "Free": 599,
+        "InUse": 479,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 936,
+        "Name": "Gorczany Group",
+        "Description": "Monitored motivating circuit",
+        "PrerequisiteModuleName": "King, Hills and Romaguera",
+        "SortOrder": 990,
+        "ExtraFlags": 901,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 140
+            "FieldLength": 823
           }
         }
       }
@@ -175,25 +175,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 362,
-        "Tooltip": "voluptates",
-        "CanAssign": false,
-        "Free": 481,
-        "InUse": 561,
+        "Total": 762,
+        "Tooltip": "officiis",
+        "CanAssign": true,
+        "Free": 694,
+        "InUse": 454,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 364,
-        "Name": "Aufderhar Inc and Sons",
-        "Description": "Reverse-engineered motivating model",
-        "PrerequisiteModuleName": "Raynor Inc and Sons",
-        "SortOrder": 205,
-        "ExtraFlags": 825,
+        "ModuleLicenseId": 704,
+        "Name": "Blick LLC",
+        "Description": "Automated logistical strategy",
+        "PrerequisiteModuleName": "Muller-Dach",
+        "SortOrder": 715,
+        "ExtraFlags": 345,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 370
+            "FieldType": "System.String",
+            "FieldLength": 116
           }
         }
       }
@@ -202,8 +202,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 692
+        "FieldType": "System.Int32",
+        "FieldLength": 16
       }
     }
   }

@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 480,
-    "Name": "Kuhlman Group",
-    "Tooltip": "debitis",
+    "HeadingId": 488,
+    "Name": "Emmerich, Stehr and Hilll",
+    "Tooltip": "fugit",
     "Deleted": false,
-    "Rank": 96,
-    "UdListDefinitionId": 416
+    "Rank": 253,
+    "UdListDefinitionId": 950
   },
   {
-    "HeadingId": 480,
-    "Name": "Kuhlman Group",
-    "Tooltip": "debitis",
+    "HeadingId": 488,
+    "Name": "Emmerich, Stehr and Hilll",
+    "Tooltip": "fugit",
     "Deleted": false,
-    "Rank": 96,
-    "UdListDefinitionId": 416
+    "Rank": 253,
+    "UdListDefinitionId": 950
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 465,
-    "Name": "Erdman LLC",
-    "Tooltip": "delectus",
-    "Deleted": true,
-    "Rank": 102,
-    "UdListDefinitionId": 457,
+    "HeadingId": 284,
+    "Name": "Schamberger, Kuhic and Ortiz",
+    "Tooltip": "repellat",
+    "Deleted": false,
+    "Rank": 674,
+    "UdListDefinitionId": 258,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 537
+        "FieldLength": 340
       }
     }
   }

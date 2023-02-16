@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "soluta"
+  "Section": "voluptas"
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 841,
-    "Section": "laborum",
-    "Key": "minus",
-    "Name": "O'Conner, Lesch and Tillman",
+    "PrefDescId": 842,
+    "Section": "facere",
+    "Key": "quaerat",
+    "Name": "Walsh-Mosciski",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Optional intangible collaboration",
-    "IsBuiltin": true,
-    "TableName": "Anderson Group",
-    "UserDefinedListId": 468,
-    "Rank": 686,
-    "SubGroup": "ut",
-    "MinLevel": 765,
-    "MaxValue": 186,
-    "MinValue": 339,
-    "RequiredLicense": "quas",
+    "Description": "Profound assymetric moratorium",
+    "IsBuiltin": false,
+    "TableName": "Hilll-Glover",
+    "UserDefinedListId": 80,
+    "Rank": 312,
+    "SubGroup": "non",
+    "MinLevel": 11,
+    "MaxValue": 135,
+    "MinValue": 743,
+    "RequiredLicense": "iusto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 865
+        "FieldLength": 421
       }
     }
   }

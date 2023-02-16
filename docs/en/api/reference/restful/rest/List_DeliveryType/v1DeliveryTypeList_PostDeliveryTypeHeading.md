@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 723,
-  "Name": "Johnston Inc and Sons",
-  "Tooltip": "ea",
-  "Deleted": true,
-  "Rank": 123,
-  "UdListDefinitionId": 384
+  "HeadingId": 946,
+  "Name": "Hessel-VonRueden",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 550,
+  "UdListDefinitionId": 652
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 173,
-  "Name": "Gibson LLC",
-  "Tooltip": "corrupti",
+  "HeadingId": 887,
+  "Name": "Schuppe-Quitzon",
+  "Tooltip": "dicta",
   "Deleted": false,
-  "Rank": 244,
-  "UdListDefinitionId": 766,
+  "Rank": 454,
+  "UdListDefinitionId": 297,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 117
+      "FieldType": "System.String",
+      "FieldLength": 315
     }
   }
 }

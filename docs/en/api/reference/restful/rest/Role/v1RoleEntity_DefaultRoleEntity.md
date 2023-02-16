@@ -70,7 +70,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,16 +80,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 199,
-  "Name": "Orn-Rempel",
-  "Tooltip": "molestiae",
+  "RoleId": 112,
+  "Name": "Nienow Inc and Sons",
+  "Tooltip": "id",
   "RoleType": "Anonymous",
-  "Deleted": 252,
-  "Rank": 913,
-  "Created": "1998-04-27T11:22:45.0693694+02:00",
-  "UseCategories": 596,
+  "Deleted": 322,
+  "Rank": 248,
+  "Created": "1996-02-05T14:19:10.6467484+01:00",
+  "UseCategories": 967,
   "CreatedBy": null,
-  "Updated": "2006-10-25T11:22:45.0693694+02:00",
+  "Updated": "1998-05-02T14:19:10.6467484+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 668
+      "FieldLength": 932
     }
   }
 }

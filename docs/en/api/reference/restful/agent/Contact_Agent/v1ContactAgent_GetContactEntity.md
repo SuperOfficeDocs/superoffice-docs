@@ -25,7 +25,7 @@ Gets a ContactEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=670
+POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=721
 POST /api/v1/Agents/Contact/GetContactEntity?$select=name,department,category/id
 ```
 
@@ -109,7 +109,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -119,124 +119,124 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 565,
-  "Name": "Nolan-Champlin",
+  "ContactId": 245,
+  "Name": "Williamson, Braun and Collier",
   "Department": "",
-  "OrgNr": "1213265",
-  "Number1": "129029",
-  "Number2": "772169",
-  "UpdatedDate": "1998-01-17T11:22:37.664863+01:00",
-  "CreatedDate": "2020-11-20T11:22:37.664863+01:00",
+  "OrgNr": "857987",
+  "Number1": "1206193",
+  "Number2": "1211918",
+  "UpdatedDate": "1997-08-20T14:19:02.9792785+02:00",
+  "CreatedDate": "2006-06-01T14:19:02.9792785+02:00",
   "Emails": [
     {
-      "Value": "repudiandae",
-      "StrippedValue": "explicabo",
-      "Description": "Optimized transitional core",
+      "Value": "ad",
+      "StrippedValue": "saepe",
+      "Description": "Front-line dynamic productivity",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 905
+          "FieldType": "System.Int32",
+          "FieldLength": 121
         }
       }
     },
     {
-      "Value": "repudiandae",
-      "StrippedValue": "explicabo",
-      "Description": "Optimized transitional core",
+      "Value": "ad",
+      "StrippedValue": "saepe",
+      "Description": "Front-line dynamic productivity",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 905
+          "FieldType": "System.Int32",
+          "FieldLength": 121
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 888,
-      "Name": "Farrell, Ernser and Krajcik",
-      "ToolTip": "Nihil modi quos reiciendis.",
+      "Id": 176,
+      "Name": "Champlin-Thompson",
+      "ToolTip": "Iure vitae.",
       "Deleted": true,
-      "Rank": 487,
-      "Type": "dolorum",
-      "ColorBlock": 712,
-      "IconHint": "atque",
+      "Rank": 14,
+      "Type": "fugiat",
+      "ColorBlock": 676,
+      "IconHint": "non",
       "Selected": true,
-      "LastChanged": "2019-12-01T11:22:37.664863+01:00",
+      "LastChanged": "2008-06-08T14:19:02.9792785+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "rerum",
-      "StyleHint": "excepturi",
-      "Hidden": false,
-      "FullName": "Halle Hermiston II",
+      "ExtraInfo": "ut",
+      "StyleHint": "dolores",
+      "Hidden": true,
+      "FullName": "Charlene Coy Bogan III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 700
+          "FieldLength": 162
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "nemo",
-      "StrippedValue": "fugiat",
-      "Description": "Switchable fault-tolerant array",
+      "Value": "temporibus",
+      "StrippedValue": "rerum",
+      "Description": "Customer-focused bifurcated hub",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 463
+          "FieldType": "System.Int32",
+          "FieldLength": 364
         }
       }
     },
     {
-      "Value": "nemo",
-      "StrippedValue": "fugiat",
-      "Description": "Switchable fault-tolerant array",
+      "Value": "temporibus",
+      "StrippedValue": "rerum",
+      "Description": "Customer-focused bifurcated hub",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 463
+          "FieldType": "System.Int32",
+          "FieldLength": 364
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "in",
-      "StrippedValue": "odio",
-      "Description": "Right-sized multimedia circuit",
+      "Value": "sit",
+      "StrippedValue": "sunt",
+      "Description": "Front-line multimedia customer loyalty",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 665
+          "FieldType": "System.Int32",
+          "FieldLength": 3
         }
       }
     },
     {
-      "Value": "in",
-      "StrippedValue": "odio",
-      "Description": "Right-sized multimedia circuit",
+      "Value": "sit",
+      "StrippedValue": "sunt",
+      "Description": "Front-line multimedia customer loyalty",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 665
+          "FieldType": "System.Int32",
+          "FieldLength": 3
         }
       }
     }
@@ -244,32 +244,32 @@ Content-Type: application/json; charset=utf-8
   "Faxes": [
     {
       "Value": "quia",
-      "StrippedValue": "eos",
-      "Description": "Progressive executive projection",
+      "StrippedValue": "ex",
+      "Description": "Operative needs-based policy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 45
+          "FieldLength": 268
         }
       }
     },
     {
       "Value": "quia",
-      "StrippedValue": "eos",
-      "Description": "Progressive executive projection",
+      "StrippedValue": "ex",
+      "Description": "Operative needs-based policy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 45
+          "FieldLength": 268
         }
       }
     }
   ],
-  "Description": "Progressive homogeneous productivity",
+  "Description": "Progressive stable middleware",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -278,100 +278,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "magnam",
-      "PersonId": 133,
-      "Mrmrs": "libero",
-      "Firstname": "Tia",
-      "Lastname": "Fahey",
-      "MiddleName": "Zemlak, Torp and Weissnat",
-      "Title": "expedita",
-      "Description": "Multi-channelled multi-state extranet",
-      "Email": "brain@buckridgetreutel.com",
-      "FullName": "Bessie Reynold Jewess MD",
-      "DirectPhone": "1-225-694-8387 x4308",
-      "FormalName": "Moen-Runte",
-      "CountryId": 527,
-      "ContactId": 84,
-      "ContactName": "Osinski Group",
-      "Retired": 714,
-      "Rank": 901,
-      "ActiveInterests": 212,
+      "Position": "iste",
+      "PersonId": 603,
+      "Mrmrs": "a",
+      "Firstname": "Stephan",
+      "Lastname": "Reinger",
+      "MiddleName": "Rosenbaum, Stanton and Koepp",
+      "Title": "et",
+      "Description": "Intuitive even-keeled implementation",
+      "Email": "odie_bailey@harber.ca",
+      "FullName": "Mrs. Misael Bogisich",
+      "DirectPhone": "941-885-9343 x055",
+      "FormalName": "Rodriguez-Bernhard",
+      "CountryId": 39,
+      "ContactId": 587,
+      "ContactName": "Lehner-Johnson",
+      "Retired": 75,
+      "Rank": 29,
+      "ActiveInterests": 43,
       "ContactDepartment": "",
-      "ContactCountryId": 597,
-      "ContactOrgNr": "1019019",
-      "FaxPhone": "(203)138-8472 x12827",
-      "MobilePhone": "154-347-9378 x1252",
-      "ContactPhone": "027-292-9774",
-      "AssociateName": "Hauck-Boyle",
-      "AssociateId": 847,
+      "ContactCountryId": 703,
+      "ContactOrgNr": "386698",
+      "FaxPhone": "(214)295-7399 x827",
+      "MobilePhone": "673.045.2622 x160",
+      "ContactPhone": "795-020-5677 x989",
+      "AssociateName": "Spencer Group",
+      "AssociateId": 526,
       "UsePersonAddress": true,
-      "ContactFax": "eum",
-      "Kanafname": "quam",
-      "Kanalname": "placeat",
-      "Post1": "dicta",
-      "Post2": "veritatis",
-      "Post3": "illum",
-      "EmailName": "merle_pollich@gradymclaughlin.uk",
-      "ContactFullName": "Kayli Klocko",
-      "ActiveErpLinks": 425,
-      "TicketPriorityId": 371,
-      "SupportLanguageId": 229,
-      "SupportAssociateId": 232,
+      "ContactFax": "optio",
+      "Kanafname": "cupiditate",
+      "Kanalname": "eum",
+      "Post1": "numquam",
+      "Post2": "expedita",
+      "Post3": "a",
+      "EmailName": "otis@kuhlmanlindgren.ca",
+      "ContactFullName": "Billy Batz",
+      "ActiveErpLinks": 285,
+      "TicketPriorityId": 40,
+      "SupportLanguageId": 779,
+      "SupportAssociateId": 732,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 227
+          "FieldType": "System.Int32",
+          "FieldLength": 761
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "incidunt",
-  "Xstop": false,
-  "ActiveInterests": 554,
-  "GroupId": 217,
-  "ActiveStatusMonitorId": 857,
+  "Kananame": "quos",
+  "Xstop": true,
+  "ActiveInterests": 686,
+  "GroupId": 350,
+  "ActiveStatusMonitorId": 469,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 883,
-  "DbiAgentId": 285,
-  "DbiLastSyncronized": "2019-03-12T11:22:37.664863+01:00",
-  "DbiKey": "corrupti",
-  "DbiLastModified": "2001-09-09T11:22:37.664863+02:00",
+  "Deleted": 125,
+  "DbiAgentId": 499,
+  "DbiLastSyncronized": "2013-08-27T14:19:02.9792785+02:00",
+  "DbiKey": "optio",
+  "DbiLastModified": "2017-02-28T14:19:02.9792785+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 993,
-  "ActiveErpLinks": 218,
+  "Source": 853,
+  "ActiveErpLinks": 843,
   "BounceEmails": [
-    "cornell.collier@lednerdicki.info",
-    "nona@starkluettgen.us"
+    "verdie.funk@kohler.uk",
+    "gillian@vonrueden.ca"
   ],
   "Domains": [
-    "qui",
-    "sequi"
+    "sed",
+    "eaque"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Tony Romaguera",
-    "SuperOffice:2": "Jon Beatty"
+    "SuperOffice:1": "Jamaal O'Keefe",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "asperiores",
-    "ExtraFields2": "occaecati"
+    "ExtraFields1": "occaecati",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "error",
-    "CustomFields2": "id"
+    "CustomFields1": "quam",
+    "CustomFields2": "quis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 562
+      "FieldLength": 478
     }
   }
 }

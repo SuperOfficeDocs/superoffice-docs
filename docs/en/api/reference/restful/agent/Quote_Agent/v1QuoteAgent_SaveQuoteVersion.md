@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,75 +125,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 249,
-  "ERPQuoteVersionKey": "at",
-  "QuoteId": 11,
-  "Description": "Front-line encompassing intranet",
-  "Number": "773200",
+  "QuoteVersionId": 940,
+  "ERPQuoteVersionKey": "nihil",
+  "QuoteId": 47,
+  "Description": "Synchronised disintermediate conglomeration",
+  "Number": "817660",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 545,
-  "SentDate": "2014-03-18T11:22:38.8833285+01:00",
-  "FollowupId": 617,
-  "ExpirationDate": "1997-10-31T11:22:38.8833285+01:00",
-  "DeliveryCountryId": 368,
+  "LikelyQuoteAlternativeId": 414,
+  "SentDate": "2023-01-18T14:19:03.984459+01:00",
+  "FollowupId": 609,
+  "ExpirationDate": "2017-04-24T14:19:03.984459+02:00",
+  "DeliveryCountryId": 496,
   "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 540,
-  "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "laborum",
-  "ERPPaymentTypeKey": "et",
-  "ERPDeliveryTermsKey": "aut",
-  "ERPDeliveryTypeKey": "a",
-  "Rank": 203,
-  "ApprovedBy": 914,
-  "ApprovedText": "nihil",
-  "ApprovedRegisteredBy": 302,
-  "ApprovedRegisteredDate": "1995-12-06T11:22:38.8833285+01:00",
-  "ExtraField1": "minima",
-  "ExtraField2": "aut",
-  "ExtraField3": "tenetur",
-  "ExtraField4": "non",
-  "ExtraField5": "quia",
-  "LastRecalculated": "2006-12-03T11:22:38.8833285+01:00",
-  "Updated": "1997-10-21T11:22:38.8833285+02:00",
-  "UpdatedAssociateId": 130,
-  "Registered": "2013-11-27T11:22:38.8833285+01:00",
-  "RegisteredAssociateId": 715,
-  "RequestAssociateId": 367,
-  "RequestComment": "sunt",
+  "InvoiceCountryId": 103,
+  "HasOwnInvoiceAddress": true,
+  "ERPPaymentTermsKey": "velit",
+  "ERPPaymentTypeKey": "magni",
+  "ERPDeliveryTermsKey": "non",
+  "ERPDeliveryTypeKey": "rerum",
+  "Rank": 243,
+  "ApprovedBy": 202,
+  "ApprovedText": "consequatur",
+  "ApprovedRegisteredBy": 13,
+  "ApprovedRegisteredDate": "2001-05-10T14:19:03.984459+02:00",
+  "ExtraField1": "beatae",
+  "ExtraField2": "est",
+  "ExtraField3": "qui",
+  "ExtraField4": "ut",
+  "ExtraField5": "quod",
+  "LastRecalculated": "2014-01-04T14:19:03.984459+01:00",
+  "Updated": "2000-12-23T14:19:03.984459+01:00",
+  "UpdatedAssociateId": 421,
+  "Registered": "1997-11-15T14:19:03.984459+01:00",
+  "RegisteredAssociateId": 50,
+  "RequestAssociateId": 737,
+  "RequestComment": "corrupti",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 144,
-      "ERPQuoteAlternativeKey": "ad",
-      "QuoteVersionId": 786,
-      "Name": "Gerlach, Carroll and Braun",
-      "Description": "Phased bifurcated installation",
+      "QuoteAlternativeId": 40,
+      "ERPQuoteAlternativeKey": "et",
+      "QuoteVersionId": 341,
+      "Name": "Zieme-Jaskolski",
+      "Description": "Pre-emptive foreground access",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 26560.649999999998,
-      "ERPDiscountAmount": 31311.793999999998,
-      "DiscountPercent": 27516.52,
-      "DiscountAmount": 19534.221999999998,
+      "ERPDiscountPercent": 29412.59,
+      "ERPDiscountAmount": 20458.752,
+      "DiscountPercent": 31274.185999999998,
+      "DiscountAmount": 8449.264,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "corrupti",
-      "VAT": 10777.826,
-      "EarningPercent": 3485.008,
-      "EarningAmount": 12072.168,
-      "SubTotal": 30866.766,
-      "TotalPrice": 6957.48,
-      "ExtraField1": "corrupti",
-      "ExtraField2": "optio",
-      "ExtraField3": "quis",
-      "ExtraField4": "error",
-      "ExtraField5": "quibusdam",
+      "VATInfo": "minus",
+      "VAT": 9693.462,
+      "EarningPercent": 9862.698,
+      "EarningAmount": 17177.453999999998,
+      "SubTotal": 10354.735999999999,
+      "TotalPrice": 7985.432,
+      "ExtraField1": "expedita",
+      "ExtraField2": "dignissimos",
+      "ExtraField3": "nam",
+      "ExtraField4": "rerum",
+      "ExtraField5": "odio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 951
+          "FieldLength": 460
         }
       }
     }
@@ -202,8 +202,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 525
+      "FieldType": "System.Int32",
+      "FieldLength": 834
     }
   }
 }

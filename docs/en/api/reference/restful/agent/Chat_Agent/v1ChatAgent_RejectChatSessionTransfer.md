@@ -104,11 +104,11 @@ OK
 POST /api/v1/Agents/Chat/RejectChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 405
+  "ChatSessionId": 122
 }
 ```
 
@@ -119,29 +119,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 564,
-  "TopicId": 865,
+  "ChatSessionId": 432,
+  "TopicId": 226,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptatem",
-  "CustomerHost": "sunt",
-  "CustomerName": "Glover, Stanton and Bailey",
-  "CustomerEmail": "lincoln.renner@kirlin.ca",
-  "CustomerPhone": "1-336-880-9275",
+  "CustomerAlias": "temporibus",
+  "CustomerHost": "occaecati",
+  "CustomerName": "Brekke-Schinner",
+  "CustomerEmail": "jude.hauck@mante.us",
+  "CustomerPhone": "573.042.4388 x057",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Blanda Group",
+  "CustomerCompanyName": "Mohr, Williamson and Frami",
   "Status": "Closed",
-  "FirstMessage": "quaerat",
-  "LastMessage": "non",
-  "WhenRequested": "2014-03-14T11:22:37.5398862+01:00",
-  "WhenStarted": "2019-11-15T11:22:37.5398862+01:00",
-  "WhenEnded": "2005-05-04T11:22:37.5398862+02:00",
-  "WhenIdle": "2000-05-09T11:22:37.5398862+02:00",
-  "WhenFetched": "2014-11-24T11:22:37.5398862+01:00",
-  "SessionKey": "sapiente",
-  "InitialQueuePos": 18,
-  "AlertLevel": 326,
-  "Rank": 449,
+  "FirstMessage": "inventore",
+  "LastMessage": "praesentium",
+  "WhenRequested": "2001-05-02T14:19:02.8542773+02:00",
+  "WhenStarted": "1998-07-28T14:19:02.8542773+02:00",
+  "WhenEnded": "1997-09-04T14:19:02.8542773+02:00",
+  "WhenIdle": "2006-10-02T14:19:02.8542773+02:00",
+  "WhenFetched": "2006-03-24T14:19:02.8542773+01:00",
+  "SessionKey": "magnam",
+  "InitialQueuePos": 407,
+  "AlertLevel": 141,
+  "Rank": 538,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -149,13 +149,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 826,
+  "Rating": 261,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 799
+      "FieldType": "System.String",
+      "FieldLength": 986
     }
   }
 }

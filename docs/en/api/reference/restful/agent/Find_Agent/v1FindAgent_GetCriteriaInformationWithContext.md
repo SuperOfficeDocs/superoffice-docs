@@ -81,18 +81,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quo",
-  "ProviderName": "Schiller, Bergstrom and Skiles",
-  "StorageKey": "repellat",
+  "StorageType": "et",
+  "ProviderName": "Huels, Kozey and Hand",
+  "StorageKey": "quos",
   "StaticColumns": [
-    "eos",
-    "dolore"
+    "iusto",
+    "dolor"
   ],
-  "Context": "necessitatibus"
+  "Context": "itaque"
 }
 ```
 
@@ -105,81 +105,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Brown-Willms",
-      "Operator": "aspernatur",
+      "Name": "Paucek, Bode and Harber",
+      "Operator": "tempora",
       "Values": [
-        "cum",
-        "labore"
+        "velit",
+        "molestias"
       ],
       "DisplayValues": [
-        "id",
-        "est"
+        "maxime",
+        "doloribus"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 246,
+      "InterParenthesis": 803,
       "InterOperator": "And",
-      "UniqueHash": 748
+      "UniqueHash": 523
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Jewess Inc and Sons",
-      "DisplayTooltip": "autem",
-      "DisplayType": "optio",
-      "CanOrderBy": true,
-      "Name": "Bartell Group",
+      "DisplayName": "Reynolds LLC",
+      "DisplayTooltip": "nobis",
+      "DisplayType": "eligendi",
+      "CanOrderBy": false,
+      "Name": "Runte-Murray",
       "CanRestrictBy": false,
-      "RestrictionType": "ut",
-      "RestrictionListName": "Schmitt-Schroeder",
+      "RestrictionType": "voluptatibus",
+      "RestrictionListName": "Renner, Nikolaus and Zieme",
       "IsVisible": false,
-      "ExtraInfo": "laudantium",
-      "Width": "et",
-      "IconHint": "quaerat",
-      "HeadingIconHint": "sunt"
+      "ExtraInfo": "earum",
+      "Width": "quidem",
+      "IconHint": "excepturi",
+      "HeadingIconHint": "eveniet"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Pollich Group",
-      "PrimaryKey": 140,
+      "EntityName": "Koepp Group",
+      "PrimaryKey": 275,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "accusantium",
-          "TooltipHint": "eum",
-          "LinkHint": "voluptatem"
+          "DisplayValue": "omnis",
+          "TooltipHint": "in",
+          "LinkHint": "recusandae"
         }
       },
-      "LinkHint": "consequatur",
-      "StyleHint": "asperiores",
+      "LinkHint": "dolorem",
+      "StyleHint": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 421
+          "FieldType": "System.Int32",
+          "FieldLength": 641
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Harber Inc and Sons",
-      "Description": "Secured actuating orchestration",
-      "Rank": 625,
+      "Name": "Runolfsdottir, Wehner and King",
+      "Description": "Adaptive analyzing hub",
+      "Rank": 972,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Harber Inc and Sons",
-      "Description": "Secured actuating orchestration",
-      "Rank": 625,
+      "Name": "Runolfsdottir, Wehner and King",
+      "Description": "Adaptive analyzing hub",
+      "Rank": 972,
       "Restrictions": [
         {},
         {}
@@ -191,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 553
+      "FieldLength": 223
     }
   }
 }

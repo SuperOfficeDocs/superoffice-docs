@@ -86,30 +86,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 452,
-  "Section": "et",
-  "Key": "doloremque",
-  "Name": "Von-Kemmer",
+  "PrefDescId": 137,
+  "Section": "vel",
+  "Key": "vel",
+  "Name": "Larson, Rosenbaum and Powlowski",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Total modular flexibility",
+  "Description": "Pre-emptive next generation Graphic Interface",
   "IsBuiltin": false,
-  "TableName": "Keeling LLC",
-  "UserDefinedListId": 719,
-  "Rank": 171,
-  "SubGroup": "qui",
-  "MinLevel": 423,
-  "MaxValue": 595,
-  "MinValue": 432,
-  "RequiredLicense": "qui",
+  "TableName": "Orn-Cole",
+  "UserDefinedListId": 138,
+  "Rank": 938,
+  "SubGroup": "doloremque",
+  "MinLevel": 786,
+  "MaxValue": 863,
+  "MinValue": 39,
+  "RequiredLicense": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 103
+      "FieldLength": 607
     }
   }
 }

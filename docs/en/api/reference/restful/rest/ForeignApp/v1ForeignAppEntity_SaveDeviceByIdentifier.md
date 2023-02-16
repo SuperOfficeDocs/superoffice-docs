@@ -84,19 +84,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 990,
-  "Name": "Cartwright-Yost",
-  "CreatedDate": "2000-08-29T11:22:44.8662479+02:00",
-  "UpdatedDate": "1996-12-08T11:22:44.8662479+01:00",
-  "AssociateFullName": "Caleigh Emard",
+  "ForeignDeviceId": 127,
+  "Name": "Bradtke, Toy and Schiller",
+  "CreatedDate": "2003-03-19T14:19:10.3654771+01:00",
+  "UpdatedDate": "2008-03-02T14:19:10.3654771+01:00",
+  "AssociateFullName": "Hyman Sawayn",
   "CreatedBy": "aut",
-  "UpdatedBy": "repellendus",
-  "DeviceIdentifier": "accusamus",
-  "ForeignAppId": 460
+  "UpdatedBy": "consequatur",
+  "DeviceIdentifier": "in",
+  "ForeignAppId": 133
 }
 ```
 
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 16,
-  "Name": "Strosin Group",
-  "CreatedDate": "1999-11-10T11:22:44.8818691+01:00",
-  "UpdatedDate": "2015-09-16T11:22:44.8818691+02:00",
-  "AssociateFullName": "Bradley Schaefer",
-  "CreatedBy": "necessitatibus",
-  "UpdatedBy": "nemo",
-  "DeviceIdentifier": "nesciunt",
-  "ForeignAppId": 38,
+  "ForeignDeviceId": 395,
+  "Name": "Fisher-Pfannerstill",
+  "CreatedDate": "2019-02-12T14:19:10.3654771+01:00",
+  "UpdatedDate": "2006-11-22T14:19:10.3654771+01:00",
+  "AssociateFullName": "Sydnie Mertz",
+  "CreatedBy": "nulla",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "dolor",
+  "ForeignAppId": 204,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 930
+      "FieldLength": 914
     }
   }
 }

@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 219,
-  "LanguageId": 364
+  "ReplyTemplateId": 347,
+  "LanguageId": 456
 }
 ```
 
@@ -95,34 +95,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 759,
-  "PlainParsed": "numquam",
-  "HtmlParsed": "consequatur",
+  "ReplyTemplateId": 902,
+  "PlainParsed": "dolor",
+  "HtmlParsed": "illum",
   "Attachments": [
     {
-      "AttachmentId": 663,
-      "Name": "Balistreri-Ward",
-      "ContentType": "recusandae",
-      "AttSize": 473,
-      "InlineImage": false,
-      "ContentId": "ut",
+      "AttachmentId": 240,
+      "Name": "Lakin, Hansen and Lesch",
+      "ContentType": "accusamus",
+      "AttSize": 192,
+      "InlineImage": true,
+      "ContentId": "explicabo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 18
+          "FieldLength": 136
         }
       }
     }
   ],
-  "Subject": "velit",
+  "Subject": "nulla",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 264
+      "FieldLength": 524
     }
   }
 }

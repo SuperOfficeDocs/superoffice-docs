@@ -74,17 +74,17 @@ OK
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 837,
-  "Name": "Heaney LLC",
-  "Rank": 378,
-  "Tooltip": "magni",
+  "ResourceId": 204,
+  "Name": "Bernier, Schroeder and Feil",
+  "Rank": 977,
+  "Tooltip": "ut",
   "Deleted": false,
-  "IsLocation": true,
-  "LocationAddress": "sit"
+  "IsLocation": false,
+  "LocationAddress": "labore"
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 437,
-  "Name": "Ankunding Group",
-  "Rank": 499,
-  "Tooltip": "incidunt",
+  "ResourceId": 755,
+  "Name": "Leffler Inc and Sons",
+  "Rank": 952,
+  "Tooltip": "quis",
   "Deleted": true,
-  "IsLocation": true,
-  "LocationAddress": "porro",
+  "IsLocation": false,
+  "LocationAddress": "suscipit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 132
+      "FieldLength": 174
     }
   }
 }

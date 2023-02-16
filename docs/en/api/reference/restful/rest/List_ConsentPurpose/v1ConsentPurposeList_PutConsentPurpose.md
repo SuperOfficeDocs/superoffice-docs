@@ -97,18 +97,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 835,
-  "Name": "Bergstrom-Pfeffer",
-  "ConsentText": "mollitia",
-  "FormText": "pariatur",
-  "Key": "velit",
-  "Tooltip": "at",
-  "Active": 259,
-  "UpdatedDate": "2003-08-16T11:22:45.8191493+02:00",
+  "ConsentPurposeId": 946,
+  "Name": "Beatty-Gerhold",
+  "ConsentText": "qui",
+  "FormText": "mollitia",
+  "Key": "fugit",
+  "Tooltip": "nisi",
+  "Active": 171,
+  "UpdatedDate": "2003-07-20T14:19:11.163718+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 88,
-  "PrivacyStatementDesc": "inventore",
+  "Rank": 566,
+  "PrivacyStatementDesc": "occaecati",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 23,
-  "Name": "Zemlak, Bauch and Mills",
-  "ConsentText": "et",
-  "FormText": "corrupti",
-  "Key": "praesentium",
-  "Tooltip": "dolor",
-  "Active": 777,
-  "UpdatedDate": "2005-11-17T11:22:45.8191493+01:00",
+  "ConsentPurposeId": 619,
+  "Name": "Durgan, Runolfsdottir and Braun",
+  "ConsentText": "nostrum",
+  "FormText": "molestiae",
+  "Key": "occaecati",
+  "Tooltip": "quam",
+  "Active": 362,
+  "UpdatedDate": "2001-10-05T14:19:11.163718+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 248,
-  "PrivacyStatementDesc": "quaerat",
+  "Deleted": true,
+  "Rank": 91,
+  "PrivacyStatementDesc": "omnis",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldType": "System.String",
+      "FieldLength": 670
     }
   }
 }

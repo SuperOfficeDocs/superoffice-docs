@@ -104,32 +104,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 896,
-  "Name": "Macejkovic, Tremblay and Langworth",
-  "Tooltip": "autem",
+  "ExtAppId": 795,
+  "Name": "Yost-Funk",
+  "Tooltip": "non",
   "Deleted": false,
-  "Rank": 875,
-  "Filename": "at",
-  "Parameters": "rerum",
-  "Workdir": "temporibus",
+  "Rank": 999,
+  "Filename": "sunt",
+  "Parameters": "id",
+  "Workdir": "minima",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
+  "OnSatellite": false,
+  "OnTravel": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 15,
-  "WaitToFinish": true,
+  "Icon": 82,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "suscipit"
+  "Path": "voluptas"
 }
 ```
 
@@ -140,34 +140,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 185,
-  "Name": "Gutmann-McLaughlin",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 438,
-  "Filename": "neque",
-  "Parameters": "reprehenderit",
-  "Workdir": "sequi",
+  "ExtAppId": 480,
+  "Name": "Dach, Rutherford and Sauer",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 606,
+  "Filename": "sunt",
+  "Parameters": "excepturi",
+  "Workdir": "dolorem",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
+  "OnCentral": false,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": true,
-  "Icon": 524,
+  "Icon": 326,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "perspiciatis",
+  "Path": "minus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 599
+      "FieldLength": 358
     }
   }
 }

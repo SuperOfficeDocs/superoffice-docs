@@ -72,7 +72,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -103,7 +103,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 473,
+  "Id": 271,
   "EmbedImages": "Inline"
 }
 ```
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 884,
+  "EjMessageId": 562,
   "Ticket": null,
-  "CreatedAt": "2016-12-19T11:22:39.5550468+01:00",
+  "CreatedAt": "2014-08-20T14:19:04.5172011+02:00",
   "CreatedBy": null,
-  "Author": "deleniti",
+  "Author": "quaerat",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 632,
-  "Body": "labore",
-  "HtmlBody": "dolorem",
-  "EmailHeader": "woodrow.yost@wisoky.ca",
-  "DebugInfo": "et",
-  "MailSorter": "ut",
+  "MessageId": "aut",
+  "TimeSpent": 636,
+  "Body": "qui",
+  "HtmlBody": "ab",
+  "EmailHeader": "rosa@grimesheidenreich.uk",
+  "DebugInfo": "rerum",
+  "MailSorter": "dicta",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "qui",
+  "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 31,
-      "Name": "Schaden LLC",
-      "Value": "vel",
+      "Id": 786,
+      "Name": "Conroy, Bergstrom and Simonis",
+      "Value": "eos",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,47 +144,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 670
+          "FieldLength": 839
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "quibusdam",
-  "Sentiment": 94,
-  "SentimentConfidence": 435,
+  "Important": true,
+  "Language": "minima",
+  "Sentiment": 109,
+  "SentimentConfidence": 833,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 357,
-      "Name": "Volkman Group",
-      "ContentType": "aspernatur",
-      "AttSize": 836,
+      "AttachmentId": 272,
+      "Name": "Kris Inc and Sons",
+      "ContentType": "non",
+      "AttSize": 782,
       "InlineImage": false,
-      "ContentId": "pariatur",
+      "ContentId": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 28
+          "FieldLength": 862
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "amet",
-    "ExtraFields2": "eum"
+    "ExtraFields1": "tempore",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "fuga",
-    "CustomFields2": "sit"
+    "CustomFields1": "doloribus",
+    "CustomFields2": "sunt"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 44
+      "FieldLength": 306
     }
   }
 }

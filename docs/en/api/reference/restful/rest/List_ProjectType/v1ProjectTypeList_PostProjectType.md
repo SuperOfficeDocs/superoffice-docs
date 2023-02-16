@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 93,
-  "Name": "Crooks Group",
-  "Tooltip": "numquam",
+  "Id": 115,
+  "Name": "Fay, Gulgowski and Donnelly",
+  "Tooltip": "unde",
   "Deleted": false,
-  "UdListDefinitionId": 106,
-  "Rank": 74
+  "UdListDefinitionId": 661,
+  "Rank": 628
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 307,
-  "Name": "Cartwright, Murazik and Rempel",
-  "Tooltip": "reprehenderit",
-  "Deleted": true,
-  "UdListDefinitionId": 374,
-  "Rank": 261,
+  "Id": 918,
+  "Name": "Sawayn, Vandervort and Jaskolski",
+  "Tooltip": "deleniti",
+  "Deleted": false,
+  "UdListDefinitionId": 711,
+  "Rank": 561,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 295
+      "FieldType": "System.String",
+      "FieldLength": 294
     }
   }
 }

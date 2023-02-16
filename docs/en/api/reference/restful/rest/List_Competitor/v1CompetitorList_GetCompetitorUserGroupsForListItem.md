@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 392,
-    "Name": "Corkery, Schuppe and Gottlieb",
-    "ToolTip": "Fugiat perspiciatis sunt quidem nihil et delectus.",
+    "Id": 134,
+    "Name": "Bechtelar LLC",
+    "ToolTip": "Voluptatibus ut aut voluptatem.",
     "Deleted": true,
-    "Rank": 292,
-    "Type": "odit",
-    "ColorBlock": 195,
-    "IconHint": "unde",
+    "Rank": 94,
+    "Type": "illum",
+    "ColorBlock": 188,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2013-08-10T11:22:45.803528+02:00",
+    "LastChanged": "2003-11-06T14:19:11.1480931+01:00",
     "ChildItems": [
       {
-        "Id": 693,
-        "Name": "Davis, Wisozk and Lowe",
-        "ToolTip": "Unde expedita eum est earum vitae.",
+        "Id": 775,
+        "Name": "McGlynn, Bartoletti and Hansen",
+        "ToolTip": "Exercitationem enim explicabo nobis explicabo recusandae perferendis.",
         "Deleted": false,
-        "Rank": 331,
-        "Type": "hic",
-        "ColorBlock": 886,
-        "IconHint": "animi",
-        "Selected": true,
-        "LastChanged": "2010-07-05T11:22:45.803528+02:00",
+        "Rank": 22,
+        "Type": "sed",
+        "ColorBlock": 516,
+        "IconHint": "nisi",
+        "Selected": false,
+        "LastChanged": "1996-11-30T14:19:11.1480931+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "architecto",
-        "Hidden": false,
-        "FullName": "Zakary Strosin",
+        "ExtraInfo": "atque",
+        "StyleHint": "tempora",
+        "Hidden": true,
+        "FullName": "Tod Cremin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 551
+            "FieldLength": 804
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "ullam",
-    "Hidden": true,
-    "FullName": "Prof. Naomi Elwin Harvey V",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "adipisci",
+    "Hidden": false,
+    "FullName": "Alexie Abernathy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldLength": 108
       }
     }
   }

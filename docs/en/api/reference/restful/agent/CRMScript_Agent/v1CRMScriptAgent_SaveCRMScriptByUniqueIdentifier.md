@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "omnis",
+  "UniqueIdentifier": "tempora",
   "Crmscript": null
 }
 ```
@@ -100,22 +100,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "beatae",
-  "Name": "Effertz, Gislason and Stiedemann",
-  "Description": "Universal object-oriented core",
-  "IncludeId": "ea",
-  "Source": "pariatur",
-  "Registered": "2001-04-21T11:22:37.7742144+02:00",
-  "RegisteredBy": "odit",
-  "Updated": "2003-03-17T11:22:37.7742144+01:00",
-  "UpdatedBy": "molestias",
-  "Path": "voluptatem",
+  "UniqueIdentifier": "ex",
+  "Name": "Becker, Nikolaus and Thiel",
+  "Description": "Progressive client-driven algorithm",
+  "IncludeId": "magni",
+  "Source": "ut",
+  "Registered": "2013-04-17T14:19:03.0730293+02:00",
+  "RegisteredBy": "harum",
+  "Updated": "1999-01-08T14:19:03.0730293+01:00",
+  "UpdatedBy": "vel",
+  "Path": "occaecati",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 150
+      "FieldLength": 555
     }
   }
 }

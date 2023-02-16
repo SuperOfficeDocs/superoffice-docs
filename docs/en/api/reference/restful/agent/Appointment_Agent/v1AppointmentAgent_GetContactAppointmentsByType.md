@@ -126,14 +126,14 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 258,
-  "StartTime": "2005-12-05T11:22:37.2274146+01:00",
-  "EndTime": "2011-12-21T11:22:37.2274146+01:00",
-  "Count": 380,
+  "ContactId": 220,
+  "StartTime": "1999-05-12T14:19:02.3262466+02:00",
+  "EndTime": "2021-07-18T14:19:02.3262466+02:00",
+  "Count": 945,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 562,
-    "StartDate": "2000-02-27T11:22:37.2274146+01:00",
-    "EndDate": "2016-03-25T11:22:37.2274146+01:00",
+    "AppointmentId": 348,
+    "StartDate": "1998-05-21T14:19:02.3262466+02:00",
+    "EndDate": "1998-11-18T14:19:02.3262466+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quas",
-    "AssociateFullName": "Pauline Hand",
-    "ContactName": "Kulas Inc and Sons",
-    "Description": "Monitored discrete Graphic Interface",
-    "PersonFullName": "Jessika Shanahan",
-    "PersonId": 447,
-    "ContactId": 621,
-    "ProjectId": 771,
-    "ProjectName": "Koss Inc and Sons",
+    "Task": "et",
+    "AssociateFullName": "Chadrick Abbie Conn II",
+    "ContactName": "Krajcik-Goyette",
+    "Description": "Triple-buffered intangible local area network",
+    "PersonFullName": "Thomas Leannon",
+    "PersonId": 775,
+    "ContactId": 903,
+    "ProjectId": 155,
+    "ProjectName": "Koss-Walsh",
     "IsPublished": false,
-    "AssociateId": 619,
-    "ColorIndex": 983,
+    "AssociateId": 627,
+    "ColorIndex": 149,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 508,
-    "PriorityName": "Schoen Group",
+    "PriorityId": 125,
+    "PriorityName": "Kertzmann LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2011-11-22T11:22:37.368005+01:00",
+    "ActiveDate": "2021-09-12T14:19:02.3262466+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-12-13T11:22:37.368005+01:00",
-    "RecurringEndDate": "2003-03-05T11:22:37.368005+01:00",
-    "MotherId": 833,
-    "AssignedBy": 610,
-    "AssignedByFullName": "Chelsie Hackett",
+    "RecurringStartDate": "2019-12-04T14:19:02.3262466+01:00",
+    "RecurringEndDate": "2000-03-14T14:19:02.3262466+01:00",
+    "MotherId": 374,
+    "AssignedBy": 670,
+    "AssignedByFullName": "Maverick Haley III",
     "RejectReason": "",
-    "Location": "dolorum",
-    "AlarmLeadTime": "consequatur",
-    "SaleId": 947,
-    "SaleName": "Schmeler-Stiedemann",
-    "AssociateName": "Gulgowski-Stokes",
-    "CreatedDate": "2019-08-22T11:22:37.368005+02:00",
-    "CreatedBy": "asperiores",
-    "CreatedByFullName": "Ms. Levi Purdy",
-    "CreatedByAssociateId": 549,
+    "Location": "laborum",
+    "AlarmLeadTime": "qui",
+    "SaleId": 357,
+    "SaleName": "Herzog-Herzog",
+    "AssociateName": "Kuhic-Orn",
+    "CreatedDate": "2008-01-08T14:19:02.3262466+01:00",
+    "CreatedBy": "esse",
+    "CreatedByFullName": "Lillian Bergstrom",
+    "CreatedByAssociateId": 210,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 242
+        "FieldLength": 382
       }
     }
   }

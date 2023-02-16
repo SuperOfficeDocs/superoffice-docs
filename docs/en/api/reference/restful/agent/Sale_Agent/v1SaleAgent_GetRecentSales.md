@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 38,
-  "Count": 995
+  "AmountLimit": 764,
+  "Count": 591
 }
 ```
 
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Grant-Labadie",
-    "SaleDate": "2014-08-12T11:22:39.2425669+02:00",
-    "SaleId": 197,
-    "Probability": 235,
-    "Title": "accusantium",
-    "Amount": 1313.146,
-    "Currency": "quidem",
-    "ProjectName": "Cummerata, Ernser and Nicolas",
-    "AssociateFullName": "Isom Oberbrunner V",
-    "Description": "Multi-tiered object-oriented complexity",
+    "ContactName": "Okuneva, Boehm and Spinka",
+    "SaleDate": "2005-12-28T14:19:04.1410858+01:00",
+    "SaleId": 324,
+    "Probability": 69,
+    "Title": "repellat",
+    "Amount": 26996.275999999998,
+    "Currency": "neque",
+    "ProjectName": "Ward-Carroll",
+    "AssociateFullName": "Dr. Emmy Strosin",
+    "Description": "Polarised context-sensitive conglomeration",
     "Status": "Lost",
-    "WeightedAmount": 23473.66,
-    "ProjectId": 614,
-    "EarningPercent": 26698.546,
-    "Earning": 702.016,
-    "ContactId": 473,
-    "AssociateId": 468,
-    "PersonId": 343,
-    "SaleTypeId": 898,
-    "SaleTypeName": "Hilpert LLC",
-    "PersonFullName": "Alyce Rempel",
+    "WeightedAmount": 9088.6,
+    "ProjectId": 487,
+    "EarningPercent": 17384.298,
+    "Earning": 830.51,
+    "ContactId": 773,
+    "AssociateId": 652,
+    "PersonId": 491,
+    "SaleTypeId": 551,
+    "SaleTypeName": "Reinger Inc and Sons",
+    "PersonFullName": "Jevon Emard",
     "Completed": "Completed",
-    "ActiveErpLinks": 991,
-    "NextDueDate": "2012-08-27T11:22:39.2425669+02:00",
-    "Number": "961542",
+    "ActiveErpLinks": 539,
+    "NextDueDate": "2020-06-04T14:19:04.1410858+02:00",
+    "Number": "1544814",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 990
+        "FieldLength": 173
       }
     }
   }

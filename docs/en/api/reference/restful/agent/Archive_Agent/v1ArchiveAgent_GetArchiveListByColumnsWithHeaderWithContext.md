@@ -102,56 +102,56 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Skiles, Cassin and White",
+  "ProviderName": "Ryan LLC",
   "Columns": [
-    "optio",
-    "velit"
+    "quam",
+    "et"
   ],
   "SortOrder": [
     {
-      "Name": "Buckridge LLC",
+      "Name": "Tromp-Bins",
       "Direction": "ASC"
     },
     {
-      "Name": "Buckridge LLC",
+      "Name": "Tromp-Bins",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Johnston, Cormier and Koelpin",
-      "Operator": "vel",
+      "Name": "Funk Inc and Sons",
+      "Operator": "ut",
       "Values": [
-        "dolor",
-        "est"
+        "velit",
+        "quae"
       ],
       "DisplayValues": [
-        "tenetur",
-        "et"
+        "vel",
+        "dignissimos"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 743,
+      "InterParenthesis": 322,
       "InterOperator": "And",
-      "UniqueHash": 807
+      "UniqueHash": 85
     }
   ],
   "Entities": [
-    "nostrum",
-    "aliquam"
+    "cumque",
+    "omnis"
   ],
-  "Page": 80,
-  "PageSize": 755,
-  "Options": "ex",
-  "Context": "odit"
+  "Page": 252,
+  "PageSize": 386,
+  "Options": "minima",
+  "Context": "natus"
 }
 ```
 
@@ -162,26 +162,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 65,
+  "RowCount": 478,
   "Rows": [
     {
-      "EntityName": "Keeling, Hane and O'Kon",
-      "PrimaryKey": 621,
+      "EntityName": "Rempel, Kshlerin and Hermann",
+      "PrimaryKey": 753,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "est",
-          "TooltipHint": "voluptatem",
-          "LinkHint": "vitae"
+          "DisplayValue": "et",
+          "TooltipHint": "eligendi",
+          "LinkHint": "deserunt"
         }
       },
-      "LinkHint": "quo",
-      "StyleHint": "explicabo",
+      "LinkHint": "et",
+      "StyleHint": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 874
+          "FieldType": "System.String",
+          "FieldLength": 166
         }
       }
     }
@@ -190,8 +190,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 339
+      "FieldType": "System.Int32",
+      "FieldLength": 205
     }
   }
 }

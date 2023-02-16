@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Appointment/RequestForInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 910,
-  "Channel": "unde",
-  "Regarding": "sint",
-  "ContactName": "Kihn-Bergnaum",
-  "PersonFirstname": "Catalina",
-  "PersonLastname": "Bartoletti",
-  "EmailAddress": "ottilie.price@schmidtbogan.biz",
-  "PhoneNumber": "1002724"
+  "AssociateIdForNewContact": 378,
+  "Channel": "esse",
+  "Regarding": "saepe",
+  "ContactName": "McKenzie Inc and Sons",
+  "PersonFirstname": "Cali",
+  "PersonLastname": "Bernhard",
+  "EmailAddress": "ines.nolan@grimesblanda.name",
+  "PhoneNumber": "1423753"
 }
 ```
 
@@ -107,36 +107,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 550,
-      "Name": "Greenholt-Hermann",
-      "OrgNr": "1049187",
+      "ContactId": 294,
+      "Name": "Kuhn Group",
+      "OrgNr": "1642970",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "inventore",
-      "DirectPhone": "(978)269-2545",
-      "AssociateId": 504,
-      "CountryId": 472,
-      "EmailAddress": "titus@koss.info",
-      "Kananame": "architecto",
-      "EmailAddressName": "vicenta@eberthauck.com",
+      "City": "vel",
+      "DirectPhone": "(623)553-4319",
+      "AssociateId": 533,
+      "CountryId": 706,
+      "EmailAddress": "eliseo_jacobi@grimeslegros.biz",
+      "Kananame": "repellat",
+      "EmailAddressName": "madeline.conroy@durganreynolds.info",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Uriah Bernier",
+      "AssociateFullName": "Julie Roma O'Connell III",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "est",
-      "FullName": "Mrs. Estell Kertzmann II",
+      "FormattedAddress": "dolorem",
+      "FullName": "Eli Dare",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 872,
-      "Number1": "310916",
-      "Number2": "1039037",
+      "ActiveErpLinks": 193,
+      "Number1": "999713",
+      "Number2": "951161",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 410
+          "FieldType": "System.String",
+          "FieldLength": 885
         }
       }
     }
@@ -148,7 +148,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 834
+      "FieldLength": 860
     }
   }
 }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/Selection/{selectionId}/ShadowMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,19 +85,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quaerat",
+  "odata.nextLink": "sit",
   "value": [
     {
-      "PrimaryKey": 8443,
+      "PrimaryKey": 3882,
       "EntityName": "person",
-      "personId": 8443,
-      "fullName": "Anjali Fahey"
+      "personId": 3882,
+      "fullName": "Mrs. Gaetano Aurelio Reynolds"
     },
     {
-      "PrimaryKey": 4506,
+      "PrimaryKey": 1515,
       "EntityName": "person",
-      "personId": 4506,
-      "fullName": "Tommie Parker"
+      "personId": 1515,
+      "fullName": "Ms. Sebastian Gleason I"
     }
   ]
 }

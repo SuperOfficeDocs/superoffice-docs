@@ -25,7 +25,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=406
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=91
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 404,
-  "AssociateId": 60,
-  "Caption": "at",
+  "DashboardId": 973,
+  "AssociateId": 312,
+  "Caption": "nemo",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 586,
-      "Caption": "alias",
-      "Description": "Profit-focused bottom-line frame",
-      "ChartName": "Witting, Gislason and Stamm",
-      "ChartId": "excepturi",
+      "DashboardTileId": 117,
+      "Caption": "atque",
+      "Description": "Re-engineered eco-centric artificial intelligence",
+      "ChartName": "Breitenberg-Lakin",
+      "ChartId": "culpa",
       "IsDefault": false,
-      "AssociateId": 379,
-      "GroupId": 434,
-      "SelectionId": 187,
-      "Config": "ut",
+      "AssociateId": 714,
+      "GroupId": 651,
+      "SelectionId": 293,
+      "Config": "sint",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 505
+          "FieldType": "System.Int32",
+          "FieldLength": 759
         }
       }
     }
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 920
+      "FieldLength": 316
     }
   }
 }

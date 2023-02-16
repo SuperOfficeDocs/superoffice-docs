@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/User/GetUserCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kerluke Inc and Sons",
-    "DisplayName": "Wisozk, Kling and Turcotte",
-    "Description": "Function-based foreground software",
-    "ToolTip": "Ut laboriosam maiores accusantium aperiam.",
+    "Name": "Howe, Keeling and Hane",
+    "DisplayName": "Borer-Pagac",
+    "Description": "Innovative solution-oriented function",
+    "ToolTip": "Numquam et id ea vitae qui.",
     "Actions": "Implicit",
-    "ActionData": "voluptas",
+    "ActionData": "aspernatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 971
+        "FieldType": "System.Int32",
+        "FieldLength": 13
       }
     }
   }

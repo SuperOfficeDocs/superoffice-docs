@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 164,
-  "Name": "Reinger Group",
-  "Tooltip": "commodi",
-  "Deleted": true,
-  "UdListDefinitionId": 416,
-  "Rank": 657
+  "Id": 680,
+  "Name": "Gutmann-Beatty",
+  "Tooltip": "nemo",
+  "Deleted": false,
+  "UdListDefinitionId": 259,
+  "Rank": 241
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 589,
-  "Name": "Cronin-Hackett",
-  "Tooltip": "asperiores",
+  "Id": 682,
+  "Name": "Hickle-Bahringer",
+  "Tooltip": "doloremque",
   "Deleted": false,
-  "UdListDefinitionId": 812,
-  "Rank": 622,
+  "UdListDefinitionId": 775,
+  "Rank": 887,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldLength": 615
     }
   }
 }

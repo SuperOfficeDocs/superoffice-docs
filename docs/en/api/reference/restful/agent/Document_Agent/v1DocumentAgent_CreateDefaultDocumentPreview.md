@@ -69,16 +69,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Stamm, Koepp and Donnelly",
-  "Type": "vitae",
-  "Size": 261,
+  "Name": "Ernser LLC",
+  "Type": "minima",
+  "Size": 183,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 398
+      "FieldLength": 754
     }
   }
 }

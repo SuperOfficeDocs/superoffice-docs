@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Bailey, Murazik and Spencer"
+  "ConnectorName": "Langosh LLC"
 }
 ```
 
@@ -101,34 +101,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 414,
-  "ERPName": "Upton-Skiles",
-  "DisplayName": "Schinner, Williamson and Hane",
-  "DisplayDescription": "Triple-buffered 24 hour solution",
-  "Rank": 471,
-  "ConnectorName": "Glover Inc and Sons",
-  "ErpConnectionId": 139,
-  "ExtraData": "est",
+  "QuoteConnectionId": 861,
+  "ERPName": "Schumm-Bartoletti",
+  "DisplayName": "Ruecker-Raynor",
+  "DisplayDescription": "De-engineered leading edge throughput",
+  "Rank": 394,
+  "ConnectorName": "Hintz Group",
+  "ErpConnectionId": 842,
+  "ExtraData": "aliquam",
   "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 933,
-      "ERPPriceListKey": "mollitia",
-      "QuoteConnectionId": 730,
-      "Name": "Sanford-Halvorson",
-      "Description": "Virtual attitude-oriented contingency",
-      "Currency": "tempore",
-      "CurrencyName": "Rolfson LLC",
-      "ValidFrom": "2014-11-26T11:22:38.9301893+01:00",
-      "ValidTo": "1995-11-10T11:22:38.9301893+01:00",
-      "IsActive": true,
+      "PriceListId": 90,
+      "ERPPriceListKey": "et",
+      "QuoteConnectionId": 987,
+      "Name": "Treutel-Grant",
+      "Description": "Secured reciprocal core",
+      "Currency": "ut",
+      "CurrencyName": "Zboncak-Barrows",
+      "ValidFrom": "2011-04-22T14:19:04.0157096+02:00",
+      "ValidTo": "2018-09-05T14:19:04.0157096+02:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 463
+          "FieldLength": 668
         }
       }
     }
@@ -136,19 +136,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    139,
-    667
+    700,
+    664
   ],
   "AssociateAccessIds": [
-    62,
-    880
+    756,
+    568
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 875
+      "FieldLength": 554
     }
   }
 }

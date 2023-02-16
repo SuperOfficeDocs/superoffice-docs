@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 103,
-    "Name": "Hayes LLC",
-    "Tooltip": "nostrum",
+    "Id": 11,
+    "Name": "Hilll-Sporer",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "UdListDefinitionId": 936,
-    "Rank": 620
+    "UdListDefinitionId": 959,
+    "Rank": 926
   },
   {
-    "Id": 103,
-    "Name": "Hayes LLC",
-    "Tooltip": "nostrum",
+    "Id": 11,
+    "Name": "Hilll-Sporer",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "UdListDefinitionId": 936,
-    "Rank": 620
+    "UdListDefinitionId": 959,
+    "Rank": 926
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 492,
-    "Name": "Douglas Inc and Sons",
-    "Tooltip": "quis",
-    "Deleted": false,
-    "UdListDefinitionId": 928,
-    "Rank": 120,
+    "Id": 907,
+    "Name": "Corkery-Kuhn",
+    "Tooltip": "pariatur",
+    "Deleted": true,
+    "UdListDefinitionId": 84,
+    "Rank": 716,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 10
+        "FieldLength": 1000
       }
     }
   }

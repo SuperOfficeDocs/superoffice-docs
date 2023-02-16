@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 580,
-  "Name": "Casper-Morar",
-  "Tooltip": "reprehenderit",
-  "SaveInDb": 687,
-  "Filename": "consectetur",
-  "DefaultOref": "et",
+  "DocumentTemplateId": 829,
+  "Name": "Goyette LLC",
+  "Tooltip": "voluptas",
+  "SaveInDb": 531,
+  "Filename": "reprehenderit",
+  "DefaultOref": "dolorum",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 127,
-  "IntentId": 437,
-  "IsDefaultPublished": false,
-  "Rank": 522,
-  "LoadTemplateFromPlugin": 529,
-  "MimeType": "tenetur",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 386,
+  "AutoeventId": 836,
+  "IntentId": 94,
+  "IsDefaultPublished": true,
+  "Rank": 294,
+  "LoadTemplateFromPlugin": 209,
+  "MimeType": "labore",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 907,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "cloyd.streich@haley.info",
+  "EmailSubject": "columbus@gerhold.biz",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "katarina@king.co.uk",
+  "SenderEmailAddress": "danny@corkery.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldLength": 312
     }
   }
 }

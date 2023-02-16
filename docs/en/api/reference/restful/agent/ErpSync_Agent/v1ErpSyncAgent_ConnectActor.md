@@ -70,30 +70,30 @@ No Content
 POST /api/v1/Agents/ErpSync/ConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 7,
-  "CrmRecordId": 861,
+  "ErpConnectionId": 824,
+  "CrmRecordId": 749,
   "CrmActorType": "Contact",
-  "ErpKey": "et",
+  "ErpKey": "molestias",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Osinski, Hudson and Adams",
-      "CrmFieldKey": "aperiam",
-      "Value": "consequatur",
-      "DisplayValue": "soluta",
-      "SyncToCrm": false,
+      "DisplayName": "Daniel-Nolan",
+      "CrmFieldKey": "atque",
+      "Value": "est",
+      "DisplayValue": "tempora",
+      "SyncToCrm": true,
       "SyncToErp": false
     },
     {
-      "DisplayName": "Osinski, Hudson and Adams",
-      "CrmFieldKey": "aperiam",
-      "Value": "consequatur",
-      "DisplayValue": "soluta",
-      "SyncToCrm": false,
+      "DisplayName": "Daniel-Nolan",
+      "CrmFieldKey": "atque",
+      "Value": "est",
+      "DisplayValue": "tempora",
+      "SyncToCrm": true,
       "SyncToErp": false
     }
   ]

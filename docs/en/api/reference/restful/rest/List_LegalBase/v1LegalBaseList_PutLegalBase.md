@@ -83,11 +83,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 842,
-  "Name": "Heller-Leffler",
-  "Tooltip": "voluptate",
-  "Rank": 835,
-  "Key": "aperiam",
+  "LegalBaseId": 148,
+  "Name": "Wintheiser Inc and Sons",
+  "Tooltip": "laborum",
+  "Rank": 778,
+  "Key": "voluptatum",
   "Deleted": false
 }
 ```
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 184,
-  "Name": "Ward Inc and Sons",
-  "Tooltip": "et",
-  "Rank": 949,
-  "Key": "culpa",
+  "LegalBaseId": 899,
+  "Name": "Crona-Fisher",
+  "Tooltip": "quam",
+  "Rank": 966,
+  "Key": "eum",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 541
+      "FieldType": "System.String",
+      "FieldLength": 754
     }
   }
 }

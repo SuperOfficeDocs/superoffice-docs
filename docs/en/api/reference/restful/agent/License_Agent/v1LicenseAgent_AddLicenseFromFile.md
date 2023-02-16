@@ -79,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "harum"
+  "FileContent": "ratione"
 }
 ```
 
@@ -91,21 +91,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 462,
-      "NumberOfLicensesFree": 161,
-      "NumberOfLicensesAdded": 922,
-      "NumberOfLicensesNewTotal": 365,
-      "NumberOfLicensesNewFree": 133,
-      "NumberOfLicensesTotal": 463
+      "NumberOfLicensesInUse": 216,
+      "NumberOfLicensesFree": 203,
+      "NumberOfLicensesAdded": 433,
+      "NumberOfLicensesNewTotal": 584,
+      "NumberOfLicensesNewFree": 190,
+      "NumberOfLicensesTotal": 475
     }
   ],
-  "AccumulatedNextCheckDate": "2005-12-02T11:22:38.4146877+01:00"
+  "AccumulatedNextCheckDate": "2016-03-30T14:19:03.5769906+02:00"
 }
 ```

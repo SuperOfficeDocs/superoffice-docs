@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 854,
-  "Name": "Koepp, Blanda and Parker",
-  "Tooltip": "eius",
+  "Id": 906,
+  "Name": "Klein-Braun",
+  "Tooltip": "doloribus",
   "Deleted": false,
-  "UdListDefinitionId": 405,
-  "Rank": 230,
+  "UdListDefinitionId": 108,
+  "Rank": 153,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 590
+      "FieldLength": 455
     }
   }
 }

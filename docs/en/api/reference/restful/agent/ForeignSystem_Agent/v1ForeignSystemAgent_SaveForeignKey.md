@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Fadel LLC",
-  "DeviceName": "Schmeler-Reilly",
-  "DeviceIdentifier": "architecto"
+  "ApplicationName": "Deckow, Kemmer and Swaniawski",
+  "DeviceName": "Haag-Beatty",
+  "DeviceIdentifier": "dolor"
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "molestias",
-  "Value": "sed",
-  "RecordId": 601,
-  "CreatedDate": "2006-03-31T11:22:38.3834434+02:00",
-  "UpdatedDate": "2014-08-22T11:22:38.3834434+02:00",
-  "UpdatedBy": "qui",
-  "CreatedBy": "distinctio",
-  "TableName": "Jakubowski-Considine",
+  "Key": "error",
+  "Value": "soluta",
+  "RecordId": 967,
+  "CreatedDate": "2009-02-22T14:19:03.5602728+01:00",
+  "UpdatedDate": "2013-02-25T14:19:03.5602728+01:00",
+  "UpdatedBy": "necessitatibus",
+  "CreatedBy": "perferendis",
+  "TableName": "Beatty LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldLength": 507
     }
   }
 }

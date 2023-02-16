@@ -117,18 +117,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "tempore",
-      "HTMLBody": "natus",
+      "Subject": "voluptas",
+      "HTMLBody": "incidunt",
       "From": null,
-      "Sent": "2020-07-04T11:22:38.1803656+02:00",
-      "Size": 874,
+      "Sent": "2014-08-25T14:19:03.3883958+02:00",
+      "Size": 228,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "esse",
-      "PlainBody": "exercitationem",
+      "MessageID": "eum",
+      "PlainBody": "commodi",
       "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 397,
+      "ServerId": 944,
       "Attachments": [
         {},
         {}
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Stamm Group",
-      "EmailItemId": 44,
-      "AccountId": 902,
-      "ReceivedAt": "2020-10-14T11:22:38.1803656+02:00",
+      "FolderName": "Konopelski-Satterfield",
+      "EmailItemId": 775,
+      "AccountId": 99,
+      "ReceivedAt": "2020-02-28T14:19:03.3883958+01:00",
       "InReplyTo": null,
-      "RepliedAt": "2008-02-01T11:22:38.1803656+01:00",
-      "HasCalendarData": true,
+      "RepliedAt": "2000-09-27T14:19:03.3883958+02:00",
+      "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
     }
@@ -161,147 +161,147 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 580,
-        "ContactName": "Kilback-Swift",
-        "PersonId": 765,
-        "PersonName": "Padberg Group",
-        "AssociateId": 948,
-        "Address": "officia",
-        "EmailId": 468,
+        "ContactId": 506,
+        "ContactName": "Gleason-Senger",
+        "PersonId": 124,
+        "PersonName": "Reichert-Cronin",
+        "AssociateId": 351,
+        "Address": "amet",
+        "EmailId": 54,
         "DuplicatePersonIds": [
-          243,
-          1002
+          6,
+          63
         ],
-        "Name": "Bergstrom Inc and Sons",
+        "Name": "Kassulke Group",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 122
+            "FieldLength": 447
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 314,
-        "ContactName": "Bednar Group",
-        "PersonId": 779,
-        "PersonName": "Wilderman-Fahey",
-        "AssociateId": 484,
-        "Address": "qui",
-        "EmailId": 163,
+        "ContactId": 678,
+        "ContactName": "Swift-Waters",
+        "PersonId": 950,
+        "PersonName": "Batz Inc and Sons",
+        "AssociateId": 274,
+        "Address": "blanditiis",
+        "EmailId": 661,
         "DuplicatePersonIds": [
-          138,
-          584
+          12,
+          311
         ],
-        "Name": "Daugherty, McClure and Moen",
+        "Name": "Ziemann-Halvorson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 337
+            "FieldType": "System.Int32",
+            "FieldLength": 31
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 725,
-        "ContactName": "Wolff Group",
-        "PersonId": 994,
-        "PersonName": "Lemke-Johns",
-        "AssociateId": 476,
-        "Address": "dolorem",
-        "EmailId": 892,
+        "ContactId": 63,
+        "ContactName": "Schiller Inc and Sons",
+        "PersonId": 804,
+        "PersonName": "Reinger, Greenfelder and Schamberger",
+        "AssociateId": 88,
+        "Address": "rerum",
+        "EmailId": 834,
         "DuplicatePersonIds": [
-          952,
-          552
+          826,
+          248
         ],
-        "Name": "Kuphal LLC",
+        "Name": "Herman, Schuster and Klocko",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 560
+            "FieldType": "System.String",
+            "FieldLength": 374
           }
         }
       }
     ],
-    "Subject": "numquam",
-    "HTMLBody": "expedita",
+    "Subject": "rem",
+    "HTMLBody": "et",
     "From": null,
-    "Sent": "2015-01-13T11:22:38.1803656+01:00",
-    "Size": 985,
+    "Sent": "2018-02-28T14:19:03.3883958+01:00",
+    "Size": 537,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "possimus",
-    "PlainBody": "a",
-    "IsSent": false,
+    "MessageID": "et",
+    "PlainBody": "voluptatem",
+    "IsSent": true,
     "EMailSOInfo": null,
-    "ServerId": 766,
+    "ServerId": 370,
     "Attachments": [
       {
-        "Description": "Proactive 5th generation contingency",
-        "Filename": "distinctio",
-        "Size": 942,
-        "Type": "est",
-        "Encoding": "neque",
-        "Id": "voluptatem",
-        "Disposition": "voluptatem",
+        "Description": "Persevering 4th generation function",
+        "Filename": "nobis",
+        "Size": 168,
+        "Type": "praesentium",
+        "Encoding": "harum",
+        "Id": "alias",
+        "Disposition": "consequatur",
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 744
+            "FieldType": "System.String",
+            "FieldLength": 593
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "DuBuque, Shields and Tromp",
+        "Name": "Murray-Breitenberg",
         "Values": [
-          "porro",
-          "repellendus"
+          "cupiditate",
+          "molestiae"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 607
+            "FieldType": "System.String",
+            "FieldLength": 780
           }
         }
       },
       {
-        "Name": "DuBuque, Shields and Tromp",
+        "Name": "Murray-Breitenberg",
         "Values": [
-          "porro",
-          "repellendus"
+          "cupiditate",
+          "molestiae"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 607
+            "FieldType": "System.String",
+            "FieldLength": 780
           }
         }
       }
     ],
-    "FolderName": "Jewess Group",
-    "EmailItemId": 606,
-    "AccountId": 307,
-    "ReceivedAt": "2014-06-13T11:22:38.1803656+02:00",
+    "FolderName": "Blanda-Lang",
+    "EmailItemId": 556,
+    "AccountId": 529,
+    "ReceivedAt": "2014-08-24T14:19:03.3883958+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2012-07-27T11:22:38.1803656+02:00",
-    "HasCalendarData": false,
+    "RepliedAt": "1995-11-25T14:19:03.3883958+01:00",
+    "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
@@ -309,7 +309,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 732
+        "FieldLength": 916
       }
     }
   }

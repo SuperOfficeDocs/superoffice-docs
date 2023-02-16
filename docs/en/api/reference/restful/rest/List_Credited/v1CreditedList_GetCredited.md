@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 739,
-  "Name": "Lockman-Waelchi",
-  "Tooltip": "blanditiis",
+  "Id": 769,
+  "Name": "Wisoky-Ziemann",
+  "Tooltip": "sed",
   "Deleted": false,
-  "UdListDefinitionId": 529,
-  "Rank": 983,
+  "UdListDefinitionId": 245,
+  "Rank": 722,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 200
+      "FieldLength": 519
     }
   }
 }

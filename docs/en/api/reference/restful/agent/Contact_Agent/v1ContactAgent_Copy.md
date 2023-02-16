@@ -76,8 +76,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 101,
-  "DestinationContactName": "Hartmann-Lynch",
+  "SourceContactId": 844,
+  "DestinationContactName": "Ledner, Mayer and Abshire",
   "DestinationContactDepartment": "",
   "CopyPersons": false
 }
@@ -89,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-467
+6
 ```

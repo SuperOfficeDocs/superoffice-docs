@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 336
+  "QuoteVersionId": 773
 }
 ```
 
@@ -110,35 +110,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 164,
-    "ERPQuoteAlternativeKey": "quos",
-    "QuoteVersionId": 598,
-    "Name": "Schmitt LLC",
-    "Description": "Compatible even-keeled moderator",
+    "QuoteAlternativeId": 774,
+    "ERPQuoteAlternativeKey": "et",
+    "QuoteVersionId": 716,
+    "Name": "Boehm Inc and Sons",
+    "Description": "Devolved national success",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 6941.8099999999995,
-    "ERPDiscountAmount": 6615.874,
-    "DiscountPercent": 5440.624,
-    "DiscountAmount": 2748.518,
+    "ERPDiscountPercent": 5606.726,
+    "ERPDiscountAmount": 19810.014,
+    "DiscountPercent": 6634.678,
+    "DiscountAmount": 7662.63,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "voluptatem",
-    "VAT": 15337.796,
-    "EarningPercent": 9674.658,
-    "EarningAmount": 29694.649999999998,
-    "SubTotal": 27898.868,
-    "TotalPrice": 21775.032,
-    "ExtraField1": "perspiciatis",
-    "ExtraField2": "et",
-    "ExtraField3": "et",
-    "ExtraField4": "eaque",
-    "ExtraField5": "et",
+    "VATInfo": "iure",
+    "VAT": 4102.406,
+    "EarningPercent": 15369.135999999999,
+    "EarningAmount": 19202.018,
+    "SubTotal": 13469.931999999999,
+    "TotalPrice": 18355.838,
+    "ExtraField1": "earum",
+    "ExtraField2": "dolorem",
+    "ExtraField3": "quis",
+    "ExtraField4": "iure",
+    "ExtraField5": "suscipit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldType": "System.String",
+        "FieldLength": 980
       }
     }
   }

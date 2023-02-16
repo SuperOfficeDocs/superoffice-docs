@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 816,
-  "Name": "Lockman-Hodkiewicz",
-  "Tooltip": "velit",
+  "Id": 674,
+  "Name": "Rolfson Inc and Sons",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "UdListDefinitionId": 733,
-  "Rank": 736,
+  "UdListDefinitionId": 625,
+  "Rank": 517,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 784
+      "FieldLength": 627
     }
   }
 }

@@ -76,15 +76,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 447,
-  "AssociateId": 197,
+  "DocumentId": 850,
+  "AssociateId": 586,
   "CustomTags": [
-    "exercitationem",
-    "iusto"
+    "cum",
+    "sed"
   ],
   "CustomValues": [
-    "ut",
-    "est"
+    "sed",
+    "nihil"
   ]
 }
 ```

@@ -119,18 +119,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "necessitatibus",
+    "path": "voluptate",
     "value": {}
   },
   {
     "op": "add",
-    "path": "necessitatibus",
+    "path": "voluptate",
     "value": {}
   }
 ]
@@ -143,27 +143,27 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 146,
-  "Name": "Dach LLC",
+  "ScreenChooserId": 314,
+  "Name": "Ullrich-Kuvalis",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "culpa",
-  "Source": "sint",
-  "Registered": "2011-06-05T11:22:45.3661887+02:00",
-  "RegisteredAssociateId": 303,
-  "Updated": "2005-02-05T11:22:45.3661887+01:00",
-  "UpdatedAssociateId": 724,
+  "UniqueIdentifier": "eum",
+  "Source": "aut",
+  "Registered": "1998-05-22T14:19:10.912356+02:00",
+  "RegisteredAssociateId": 154,
+  "Updated": "2007-03-19T14:19:10.912356+01:00",
+  "UpdatedAssociateId": 123,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 731
+      "FieldLength": 263
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

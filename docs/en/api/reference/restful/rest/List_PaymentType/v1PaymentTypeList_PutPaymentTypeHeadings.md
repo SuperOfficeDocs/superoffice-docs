@@ -79,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 4,
-    "Name": "Ziemann, Baumbach and Skiles",
-    "Tooltip": "consequatur",
+    "HeadingId": 79,
+    "Name": "Mitchell-Hickle",
+    "Tooltip": "voluptatem",
     "Deleted": true,
-    "Rank": 849,
-    "UdListDefinitionId": 668
+    "Rank": 612,
+    "UdListDefinitionId": 861
   },
   {
-    "HeadingId": 4,
-    "Name": "Ziemann, Baumbach and Skiles",
-    "Tooltip": "consequatur",
+    "HeadingId": 79,
+    "Name": "Mitchell-Hickle",
+    "Tooltip": "voluptatem",
     "Deleted": true,
-    "Rank": 849,
-    "UdListDefinitionId": 668
+    "Rank": 612,
+    "UdListDefinitionId": 861
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 855,
-    "Name": "Towne-White",
-    "Tooltip": "deleniti",
+    "HeadingId": 599,
+    "Name": "Pagac-Abshire",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 273,
-    "UdListDefinitionId": 21,
+    "Rank": 851,
+    "UdListDefinitionId": 972,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 418
+        "FieldType": "System.Int32",
+        "FieldLength": 130
       }
     }
   }

@@ -98,29 +98,29 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 761,
-  "Name": "Powlowski, Olson and Ernser",
-  "Description": "Open-architected bi-directional approach",
-  "DefaultHeight": 720,
-  "DefaultWidth": 795,
+  "DashboardTileDefinitionId": 784,
+  "Name": "Witting, Brown and Hermann",
+  "Description": "Streamlined clear-thinking projection",
+  "DefaultHeight": 295,
+  "DefaultWidth": 197,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Reynolds, Schoen and Dicki",
-  "SelectionId": 1001,
+  "EntityName": "Batz-Hudson",
+  "SelectionId": 860,
   "CurrencyMode": "Base",
-  "CurrencyCode": "animi",
+  "CurrencyCode": "qui",
   "Measure": "Average",
-  "MeasureField": "doloremque",
-  "SortBy": "quas",
-  "LayoutConfig": "deleniti",
-  "SecondarySelectionId": 726,
-  "MeasureByField": "voluptate",
+  "MeasureField": "consequatur",
+  "SortBy": "velit",
+  "LayoutConfig": "soluta",
+  "SecondarySelectionId": 126,
+  "MeasureByField": "saepe",
   "Usage": "Dashboard",
-  "ProviderName": "Cummerata, Lemke and Lockman"
+  "ProviderName": "Murazik Group"
 }
 ```
 
@@ -131,31 +131,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 723,
-  "Name": "Huel Group",
-  "Description": "Re-contextualized holistic algorithm",
-  "DefaultHeight": 317,
-  "DefaultWidth": 143,
+  "DashboardTileDefinitionId": 582,
+  "Name": "Cassin-Rutherford",
+  "Description": "Synergistic 6th generation budgetary management",
+  "DefaultHeight": 676,
+  "DefaultWidth": 465,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "McCullough-Walter",
-  "SelectionId": 336,
+  "EntityName": "Gleason-Fadel",
+  "SelectionId": 393,
   "CurrencyMode": "Base",
-  "CurrencyCode": "dolor",
+  "CurrencyCode": "consequatur",
   "Measure": "Average",
-  "MeasureField": "autem",
-  "SortBy": "magni",
-  "LayoutConfig": "quia",
-  "SecondarySelectionId": 639,
-  "MeasureByField": "ut",
+  "MeasureField": "explicabo",
+  "SortBy": "qui",
+  "LayoutConfig": "corrupti",
+  "SecondarySelectionId": 338,
+  "MeasureByField": "pariatur",
   "Usage": "Dashboard",
-  "ProviderName": "Haley-Flatley",
+  "ProviderName": "Grimes LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 746
+      "FieldLength": 685
     }
   }
 }

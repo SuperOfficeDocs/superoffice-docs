@@ -73,7 +73,7 @@ OK
 GET /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,22 +84,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 766,
-    "Name": "Rau-Luettgen",
-    "Tooltip": "ducimus",
-    "Deleted": false,
-    "Rank": 71,
+    "Id": 737,
+    "Name": "Brekke-Stoltenberg",
+    "Tooltip": "autem",
+    "Deleted": true,
+    "Rank": 558,
     "IsCustomList": false,
-    "IsMDOList": true,
-    "UseGroupsAndHeadings": false,
-    "ListType": "nemo",
+    "IsMDOList": false,
+    "UseGroupsAndHeadings": true,
+    "ListType": "reiciendis",
     "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 696
+        "FieldLength": 669
       }
     }
   }

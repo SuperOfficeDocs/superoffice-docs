@@ -72,63 +72,63 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stracke, Greenfelder and Jacobi",
-    "Description": "Distributed high-level task-force",
-    "Rank": 409,
+    "Name": "McClure, Pfannerstill and Abbott",
+    "Description": "Multi-lateral contextually-based Graphical User Interface",
+    "Rank": 375,
     "Restrictions": [
       {
-        "Name": "Braun-Hoeger",
-        "Operator": "harum",
+        "Name": "Kunde-Douglas",
+        "Operator": "vero",
         "Values": [
-          "accusantium",
-          "autem"
+          "accusamus",
+          "esse"
         ],
         "DisplayValues": [
-          "cupiditate",
-          "aliquid"
+          "sequi",
+          "distinctio"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 888,
+        "InterParenthesis": 480,
         "InterOperator": "And",
-        "UniqueHash": 844
+        "UniqueHash": 568
       }
     ]
   },
   {
-    "Name": "Stracke, Greenfelder and Jacobi",
-    "Description": "Distributed high-level task-force",
-    "Rank": 409,
+    "Name": "McClure, Pfannerstill and Abbott",
+    "Description": "Multi-lateral contextually-based Graphical User Interface",
+    "Rank": 375,
     "Restrictions": [
       {
-        "Name": "Braun-Hoeger",
-        "Operator": "harum",
+        "Name": "Kunde-Douglas",
+        "Operator": "vero",
         "Values": [
-          "accusantium",
-          "autem"
+          "accusamus",
+          "esse"
         ],
         "DisplayValues": [
-          "cupiditate",
-          "aliquid"
+          "sequi",
+          "distinctio"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 888,
+        "InterParenthesis": 480,
         "InterOperator": "And",
-        "UniqueHash": 844
+        "UniqueHash": 568
       }
     ]
   }
@@ -143,20 +143,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lowe, Thiel and Kling",
-    "Description": "Open-source tangible monitoring",
-    "Rank": 201,
+    "Name": "Oberbrunner-Harvey",
+    "Description": "Polarised object-oriented system engine",
+    "Rank": 404,
     "Restrictions": [
       {
-        "Name": "Larson, Gutmann and Haley",
-        "Operator": "aut",
+        "Name": "Corkery-Monahan",
+        "Operator": "corporis",
         "Values": [
-          "sed",
-          "itaque"
+          "quasi",
+          "eaque"
         ],
         "DisplayValues": [
-          "ut",
-          "et"
+          "dolores",
+          "blanditiis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -164,27 +164,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 540,
+        "InterParenthesis": 688,
         "InterOperator": "And",
-        "UniqueHash": 943
+        "UniqueHash": 29
       }
     ]
   },
   {
-    "Name": "Lowe, Thiel and Kling",
-    "Description": "Open-source tangible monitoring",
-    "Rank": 201,
+    "Name": "Oberbrunner-Harvey",
+    "Description": "Polarised object-oriented system engine",
+    "Rank": 404,
     "Restrictions": [
       {
-        "Name": "Larson, Gutmann and Haley",
-        "Operator": "aut",
+        "Name": "Corkery-Monahan",
+        "Operator": "corporis",
         "Values": [
-          "sed",
-          "itaque"
+          "quasi",
+          "eaque"
         ],
         "DisplayValues": [
-          "ut",
-          "et"
+          "dolores",
+          "blanditiis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -192,9 +192,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 540,
+        "InterParenthesis": 688,
         "InterOperator": "And",
-        "UniqueHash": 943
+        "UniqueHash": 29
       }
     ]
   }

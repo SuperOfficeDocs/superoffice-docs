@@ -25,8 +25,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=quo
+GET /api/v1/List/Credited/MDOItems?flat=True
+GET /api/v1/List/Credited/MDOItems?query=nisi
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 267,
-    "Name": "Schiller-Durgan",
-    "ToolTip": "Voluptatem temporibus et minus beatae quaerat deleniti.",
+    "Id": 1002,
+    "Name": "Ritchie Inc and Sons",
+    "ToolTip": "In ipsum adipisci.",
     "Deleted": false,
-    "Rank": 238,
-    "Type": "totam",
+    "Rank": 188,
+    "Type": "occaecati",
     "ChildItems": [
       {
-        "Id": 107,
-        "Name": "Rempel-Williamson",
-        "ToolTip": "Cupiditate reiciendis.",
-        "Deleted": false,
-        "Rank": 950,
-        "Type": "et",
+        "Id": 462,
+        "Name": "Rath, Nikolaus and Fritsch",
+        "ToolTip": "Quia consectetur voluptas velit ullam.",
+        "Deleted": true,
+        "Rank": 8,
+        "Type": "consequuntur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "natus",
-        "ColorBlock": 449,
-        "ExtraInfo": "sunt",
-        "StyleHint": "harum",
-        "FullName": "Janessa Becker",
+        "IconHint": "quis",
+        "ColorBlock": 268,
+        "ExtraInfo": "aut",
+        "StyleHint": "maiores",
+        "FullName": "Terrell Dickinson DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 135
+            "FieldType": "System.Int32",
+            "FieldLength": 618
           }
         }
       }
     ],
-    "IconHint": "voluptatum",
-    "ColorBlock": 332,
-    "ExtraInfo": "vitae",
-    "StyleHint": "totam",
-    "FullName": "Rodolfo Cronin",
+    "IconHint": "dolores",
+    "ColorBlock": 116,
+    "ExtraInfo": "qui",
+    "StyleHint": "porro",
+    "FullName": "Antonia Beer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 233
+        "FieldLength": 429
       }
     }
   }

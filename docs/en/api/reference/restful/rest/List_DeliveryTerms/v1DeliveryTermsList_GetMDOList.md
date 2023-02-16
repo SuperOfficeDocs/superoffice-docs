@@ -26,7 +26,7 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=eos
+GET /api/v1/List/DeliveryTerm/MDOItems?query=et
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 60,
-    "Name": "Trantow LLC",
-    "ToolTip": "Et nam illo et voluptas sequi veritatis quidem.",
-    "Deleted": false,
-    "Rank": 577,
-    "Type": "praesentium",
+    "Id": 34,
+    "Name": "Hackett Inc and Sons",
+    "ToolTip": "Corrupti qui numquam sit.",
+    "Deleted": true,
+    "Rank": 33,
+    "Type": "id",
     "ChildItems": [
       {
-        "Id": 154,
-        "Name": "Hansen, Weber and Hagenes",
-        "ToolTip": "Quidem quo quasi voluptatem.",
+        "Id": 462,
+        "Name": "Feest LLC",
+        "ToolTip": "Iusto odio.",
         "Deleted": false,
-        "Rank": 281,
-        "Type": "omnis",
+        "Rank": 740,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sint",
-        "ColorBlock": 98,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "voluptatibus",
-        "FullName": "Sophie Wiza",
+        "IconHint": "placeat",
+        "ColorBlock": 385,
+        "ExtraInfo": "a",
+        "StyleHint": "harum",
+        "FullName": "Jaida Bailey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 768
+            "FieldLength": 265
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 969,
-    "ExtraInfo": "quis",
-    "StyleHint": "nostrum",
-    "FullName": "Clyde Kuphal",
+    "IconHint": "quia",
+    "ColorBlock": 306,
+    "ExtraInfo": "id",
+    "StyleHint": "iusto",
+    "FullName": "Vivienne Bergnaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 450
+        "FieldType": "System.Int32",
+        "FieldLength": 464
       }
     }
   }

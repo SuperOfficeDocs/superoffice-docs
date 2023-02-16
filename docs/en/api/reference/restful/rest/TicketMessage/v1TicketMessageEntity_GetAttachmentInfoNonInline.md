@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 318,
-    "Name": "Goodwin, Miller and Gerhold",
-    "ContentType": "non",
-    "AttSize": 200,
-    "InlineImage": false,
-    "ContentId": "asperiores",
+    "AttachmentId": 345,
+    "Name": "Rice Inc and Sons",
+    "ContentType": "quas",
+    "AttSize": 318,
+    "InlineImage": true,
+    "ContentId": "reprehenderit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 615
+        "FieldType": "System.Int32",
+        "FieldLength": 987
       }
     }
   }

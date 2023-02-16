@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 984,
-  "Name": "Gleason, Hilpert and Schneider",
-  "Tooltip": "veniam",
+  "Id": 971,
+  "Name": "Mayer-Stanton",
+  "Tooltip": "eius",
   "Deleted": true,
-  "Rank": 755,
+  "Rank": 905,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "facilis",
-  "InUseByUserDefinedFields": false,
+  "ListType": "vel",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 767
+      "FieldType": "System.Int32",
+      "FieldLength": 710
     }
   },
   "_Links": {

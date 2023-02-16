@@ -80,20 +80,20 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 534,
-  "ERPPriceListKey": "ea",
-  "QuoteConnectionId": 226,
-  "Name": "Jacobi-Corwin",
-  "Description": "Secured mobile website",
-  "Currency": "ex",
-  "CurrencyName": "Quitzon Group",
-  "ValidFrom": "2005-04-16T11:22:38.8989499+02:00",
-  "ValidTo": "2003-11-12T11:22:38.8989499+01:00",
-  "IsActive": true
+  "PriceListId": 980,
+  "ERPPriceListKey": "voluptatem",
+  "QuoteConnectionId": 592,
+  "Name": "Macejkovic-Williamson",
+  "Description": "Open-source bottom-line local area network",
+  "Currency": "iusto",
+  "CurrencyName": "Kutch Group",
+  "ValidFrom": "1996-09-28T14:19:04.0000842+02:00",
+  "ValidTo": "2019-11-06T14:19:04.0000842+01:00",
+  "IsActive": false
 }
 ```
 
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 584,
-  "ERPPriceListKey": "omnis",
-  "QuoteConnectionId": 415,
-  "Name": "Predovic Inc and Sons",
-  "Description": "Digitized system-worthy orchestration",
-  "Currency": "autem",
-  "CurrencyName": "Hoeger-Little",
-  "ValidFrom": "2018-08-20T11:22:38.8989499+02:00",
-  "ValidTo": "2018-11-08T11:22:38.8989499+01:00",
-  "IsActive": false,
+  "PriceListId": 17,
+  "ERPPriceListKey": "et",
+  "QuoteConnectionId": 257,
+  "Name": "Prohaska-Cremin",
+  "Description": "Decentralized asynchronous encryption",
+  "Currency": "blanditiis",
+  "CurrencyName": "Anderson-Legros",
+  "ValidFrom": "2021-07-24T14:19:04.0000842+02:00",
+  "ValidTo": "2016-04-16T14:19:04.0000842+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldType": "System.String",
+      "FieldLength": 620
     }
   }
 }

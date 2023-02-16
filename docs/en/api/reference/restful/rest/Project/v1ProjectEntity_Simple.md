@@ -88,30 +88,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 303,
-  "Name": "Reynolds, Deckow and Ortiz",
-  "Description": "Versatile fault-tolerant approach",
+  "ProjectId": 118,
+  "Name": "Kuhic LLC",
+  "Description": "Team-oriented explicit installation",
   "URL": "http://www.example.com/",
-  "Type": "tempore",
-  "AssociateId": 501,
-  "AssociateFullName": "Mrs. Gilberto Timothy Schumm",
-  "TypeId": 447,
-  "Updated": "2012-11-26T11:22:45.0537619+01:00",
-  "StatusId": 728,
-  "Status": "aut",
-  "TextId": 266,
-  "PublishTo": "2003-05-11T11:22:45.0537619+02:00",
-  "PublishFrom": "1998-02-16T11:22:45.0537619+01:00",
-  "IsPublished": true,
+  "Type": "adipisci",
+  "AssociateId": 618,
+  "AssociateFullName": "Adrianna Klocko",
+  "TypeId": 625,
+  "Updated": "1998-03-14T14:19:10.521726+01:00",
+  "StatusId": 330,
+  "Status": "et",
+  "TextId": 967,
+  "PublishTo": "2021-08-06T14:19:10.521726+02:00",
+  "PublishFrom": "2007-09-20T14:19:10.521726+02:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "708779",
-  "ActiveErpLinks": 717,
+  "ProjectNumber": "955084",
+  "ActiveErpLinks": 811,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 946
+      "FieldType": "System.Int32",
+      "FieldLength": 162
     }
   }
 }

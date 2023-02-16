@@ -25,7 +25,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=628
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=678
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,23 +93,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 722,
-  "CreatedAt": "2008-05-05T11:22:39.523803+02:00",
+  "TicketMessageId": 841,
+  "CreatedAt": "2019-06-26T14:19:04.485951+02:00",
   "Slevel": "External",
-  "Important": true,
-  "Author": "vel",
-  "PersonId": 801,
-  "PersonFullName": "Gene Orie Witting III",
-  "ContactId": 397,
-  "ContactName": "Batz-Funk",
+  "Important": false,
+  "Author": "veritatis",
+  "PersonId": 606,
+  "PersonFullName": "Virgil Bosco",
+  "ContactId": 451,
+  "ContactName": "Fritsch-Fisher",
   "ContactDepartment": "",
-  "NumAttachments": 747,
-  "EmailHeader": "kris@hilll.name",
+  "NumAttachments": 88,
+  "EmailHeader": "concepcion@gleason.info",
   "MessageHeaders": [
     {
-      "Id": 69,
-      "Name": "Lynch LLC",
-      "Value": "molestiae",
+      "Id": 370,
+      "Name": "Cummerata, Ullrich and Rogahn",
+      "Value": "non",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -117,22 +117,22 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 569
+          "FieldLength": 193
         }
       }
     }
   ],
-  "Language": "nemo",
-  "Sentiment": 955,
-  "SentimentConfidence": 243,
-  "CreatedBy": 511,
-  "ChangedAt": "1998-07-24T11:22:39.523803+02:00",
+  "Language": "vero",
+  "Sentiment": 819,
+  "SentimentConfidence": 245,
+  "CreatedBy": 735,
+  "ChangedAt": "2001-10-15T14:19:04.485951+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 976
+      "FieldType": "System.Int32",
+      "FieldLength": 54
     }
   }
 }

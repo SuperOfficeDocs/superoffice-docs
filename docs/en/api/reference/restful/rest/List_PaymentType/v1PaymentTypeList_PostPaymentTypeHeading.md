@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 727,
-  "Name": "Kulas-Carter",
-  "Tooltip": "praesentium",
+  "HeadingId": 213,
+  "Name": "Lemke Inc and Sons",
+  "Tooltip": "id",
   "Deleted": false,
-  "Rank": 533,
-  "UdListDefinitionId": 897
+  "Rank": 781,
+  "UdListDefinitionId": 523
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 377,
-  "Name": "McDermott, Orn and Zemlak",
-  "Tooltip": "inventore",
+  "HeadingId": 299,
+  "Name": "Ortiz, Yost and Carroll",
+  "Tooltip": "non",
   "Deleted": false,
-  "Rank": 973,
-  "UdListDefinitionId": 244,
+  "Rank": 728,
+  "UdListDefinitionId": 254,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldType": "System.String",
+      "FieldLength": 223
     }
   }
 }

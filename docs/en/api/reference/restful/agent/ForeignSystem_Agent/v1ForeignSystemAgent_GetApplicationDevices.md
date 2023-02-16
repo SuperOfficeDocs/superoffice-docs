@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Paucek-Reilly"
+  "ApplicationName": "Kuhic Group"
 }
 ```
 
@@ -96,21 +96,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 841,
-    "Name": "Ritchie-Rutherford",
-    "CreatedDate": "2014-10-18T11:22:38.3678241+02:00",
-    "UpdatedDate": "2010-06-07T11:22:38.3678241+02:00",
-    "AssociateFullName": "Dorthy Ellis Strosin II",
-    "CreatedBy": "minima",
-    "UpdatedBy": "dolores",
-    "DeviceIdentifier": "nisi",
-    "ForeignAppId": 623,
+    "ForeignDeviceId": 87,
+    "Name": "Hettinger Group",
+    "CreatedDate": "2013-03-19T14:19:03.5602728+01:00",
+    "UpdatedDate": "1997-05-18T14:19:03.5602728+02:00",
+    "AssociateFullName": "Abigayle Grant",
+    "CreatedBy": "nemo",
+    "UpdatedBy": "sint",
+    "DeviceIdentifier": "explicabo",
+    "ForeignAppId": 959,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 119
+        "FieldType": "System.String",
+        "FieldLength": 848
       }
     }
   }

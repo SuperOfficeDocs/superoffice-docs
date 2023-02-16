@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 334
+  "ErpSyncConnectionId": 617
 }
 ```
 
@@ -94,37 +94,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Howell-Bode",
-  "DisplayDescription": "Operative eco-centric hardware",
+  "DisplayName": "Kunde-Nolan",
+  "DisplayDescription": "Diverse dynamic open system",
   "Active": false,
   "Deleted": true,
-  "LastSync": "1998-05-19T11:22:38.3053393+02:00",
+  "LastSync": "2002-08-10T14:19:03.4977716+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "assumenda",
-      "Mappings": "minima",
+      "Defaults": "totam",
+      "Mappings": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 42
+          "FieldLength": 265
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "assumenda",
-      "Mappings": "minima",
+      "Defaults": "totam",
+      "Mappings": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 42
+          "FieldLength": 265
         }
       }
     }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 247
+      "FieldType": "System.String",
+      "FieldLength": 701
     }
   }
 }

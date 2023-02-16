@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 285
+  "QuoteVersionId": 763
 }
 ```
 
@@ -95,41 +95,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 12852.534,
-    "Wgs84Longitude": 1614.01,
+    "Wgs84Latitude": 18076.912,
+    "Wgs84Longitude": 14231.493999999999,
     "LocalizedAddress": [
       [
         {
-          "Name": "Daugherty-Wyman",
-          "Value": "exercitationem",
-          "Tooltip": "excepturi",
-          "Label": "culpa",
-          "ValueLength": 208,
-          "AddressType": "nobis",
+          "Name": "Heaney LLC",
+          "Value": "deleniti",
+          "Tooltip": "soluta",
+          "Label": "minus",
+          "ValueLength": 380,
+          "AddressType": "quisquam",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 136
+              "FieldType": "System.Int32",
+              "FieldLength": 940
             }
           }
         }
       ],
       [
         {
-          "Name": "Jacobs-Tremblay",
-          "Value": "aut",
-          "Tooltip": "porro",
-          "Label": "nihil",
-          "ValueLength": 755,
-          "AddressType": "quod",
+          "Name": "Bahringer, Green and Carter",
+          "Value": "nam",
+          "Tooltip": "veritatis",
+          "Label": "error",
+          "ValueLength": 880,
+          "AddressType": "deserunt",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 299
+              "FieldType": "System.Int32",
+              "FieldLength": 674
             }
           }
         }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "labore",
+    "Formatted": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 662
+        "FieldLength": 631
       }
     }
   }

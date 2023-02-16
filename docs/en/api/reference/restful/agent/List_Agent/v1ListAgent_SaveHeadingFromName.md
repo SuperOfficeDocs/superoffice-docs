@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Weissnat LLC",
+  "Name": "Volkman-Donnelly",
   "Entity": null
 }
 ```
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 264,
-  "Name": "Nienow Inc and Sons",
-  "Tooltip": "quaerat",
+  "HeadingId": 415,
+  "Name": "Russel Inc and Sons",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "Rank": 775,
-  "UdListDefinitionId": 497,
+  "Rank": 826,
+  "UdListDefinitionId": 821,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 212
+      "FieldLength": 624
     }
   }
 }

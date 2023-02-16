@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 677,
-  "Name": "Johnston-Upton",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 541,
+  "Id": 784,
+  "Name": "Conroy-Labadie",
+  "Tooltip": "vel",
+  "Deleted": false,
+  "Rank": 390,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "eos",
-  "InUseByUserDefinedFields": true,
+  "ListType": "earum",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldLength": 652
     }
   },
   "_Links": {

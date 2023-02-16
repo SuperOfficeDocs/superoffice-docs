@@ -101,13 +101,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2009-09-16T11:22:39.2425669+02:00",
-  "ToDate": "2003-03-02T11:22:39.2425669+01:00",
-  "AmountLimit": 895,
+  "FromDate": "1998-04-13T14:19:04.1410858+02:00",
+  "ToDate": "2005-08-04T14:19:04.1410858+02:00",
+  "AmountLimit": 443,
   "Status": "Lost"
 }
 ```
@@ -120,37 +120,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Bernhard LLC",
-    "SaleDate": "2017-10-28T11:22:39.2425669+02:00",
-    "SaleId": 871,
-    "Probability": 818,
-    "Title": "dolores",
-    "Amount": 21220.314,
-    "Currency": "et",
-    "ProjectName": "Torphy-Rippin",
-    "AssociateFullName": "Miss Jeromy Leffler DVM",
-    "Description": "Cloned dedicated process improvement",
+    "ContactName": "Mertz, Hickle and Glover",
+    "SaleDate": "2022-10-14T14:19:04.1410858+02:00",
+    "SaleId": 474,
+    "Probability": 651,
+    "Title": "saepe",
+    "Amount": 5277.656,
+    "Currency": "qui",
+    "ProjectName": "Conroy LLC",
+    "AssociateFullName": "Zackary Emard",
+    "Description": "Assimilated impactful orchestration",
     "Status": "Lost",
-    "WeightedAmount": 12539.134,
-    "ProjectId": 783,
-    "EarningPercent": 12517.196,
-    "Earning": 24717.858,
-    "ContactId": 100,
-    "AssociateId": 642,
-    "PersonId": 502,
-    "SaleTypeId": 136,
-    "SaleTypeName": "Gutmann Group",
-    "PersonFullName": "Kennedi Alex Rempel Sr.",
+    "WeightedAmount": 11012.876,
+    "ProjectId": 416,
+    "EarningPercent": 9098.002,
+    "Earning": 3970.778,
+    "ContactId": 374,
+    "AssociateId": 548,
+    "PersonId": 421,
+    "SaleTypeId": 408,
+    "SaleTypeName": "Becker, Braun and Blick",
+    "PersonFullName": "Loren Kilback",
     "Completed": "Completed",
-    "ActiveErpLinks": 87,
-    "NextDueDate": "1996-09-06T11:22:39.2425669+02:00",
-    "Number": "1500666",
+    "ActiveErpLinks": 297,
+    "NextDueDate": "2018-07-20T14:19:04.1410858+02:00",
+    "Number": "1342145",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 797
+        "FieldType": "System.String",
+        "FieldLength": 256
       }
     }
   }

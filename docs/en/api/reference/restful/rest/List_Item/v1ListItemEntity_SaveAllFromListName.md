@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 554,
-    "Name": "Howe Group",
-    "Tooltip": "nam",
+    "Id": 363,
+    "Name": "Bernhard-Veum",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 451,
-    "Rank": 64
+    "UdListDefinitionId": 817,
+    "Rank": 530
   },
   {
-    "Id": 554,
-    "Name": "Howe Group",
-    "Tooltip": "nam",
+    "Id": 363,
+    "Name": "Bernhard-Veum",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 451,
-    "Rank": 64
+    "UdListDefinitionId": 817,
+    "Rank": 530
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 979,
-    "Name": "Breitenberg Inc and Sons",
-    "Tooltip": "veritatis",
+    "Id": 17,
+    "Name": "Wilderman Inc and Sons",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "UdListDefinitionId": 356,
-    "Rank": 362,
+    "UdListDefinitionId": 940,
+    "Rank": 526,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 725
+        "FieldLength": 762
       }
     }
   }

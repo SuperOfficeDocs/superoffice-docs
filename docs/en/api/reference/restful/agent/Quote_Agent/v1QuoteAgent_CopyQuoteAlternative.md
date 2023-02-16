@@ -96,13 +96,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 209,
-  "QuoteAlternativeId": 462,
-  "QuoteAlternativeName": "Skiles-McClure"
+  "QuoteVersionId": 644,
+  "QuoteAlternativeId": 475,
+  "QuoteAlternativeName": "Shanahan Group"
 }
 ```
 
@@ -113,35 +113,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 179,
-  "ERPQuoteAlternativeKey": "ut",
-  "QuoteVersionId": 353,
-  "Name": "Considine LLC",
-  "Description": "Devolved exuding paradigm",
+  "QuoteAlternativeId": 812,
+  "ERPQuoteAlternativeKey": "nostrum",
+  "QuoteVersionId": 459,
+  "Name": "Legros-Tillman",
+  "Description": "Compatible client-driven circuit",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 11786.974,
-  "ERPDiscountAmount": 29660.176,
-  "DiscountPercent": 5356.0059999999994,
-  "DiscountAmount": 17757.244,
+  "ERPDiscountPercent": 401.152,
+  "ERPDiscountAmount": 17760.378,
+  "DiscountPercent": 15989.668,
+  "DiscountAmount": 29697.784,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "rem",
-  "VAT": 11765.036,
-  "EarningPercent": 4149.416,
-  "EarningAmount": 7142.3859999999995,
-  "SubTotal": 24316.706,
-  "TotalPrice": 23348.3,
-  "ExtraField1": "est",
-  "ExtraField2": "blanditiis",
-  "ExtraField3": "exercitationem",
-  "ExtraField4": "qui",
-  "ExtraField5": "dolore",
+  "VATInfo": "ipsum",
+  "VAT": 6421.566,
+  "EarningPercent": 3177.8759999999997,
+  "EarningAmount": 12285.279999999999,
+  "SubTotal": 3550.8219999999997,
+  "TotalPrice": 5744.6219999999994,
+  "ExtraField1": "occaecati",
+  "ExtraField2": "nobis",
+  "ExtraField3": "saepe",
+  "ExtraField4": "omnis",
+  "ExtraField5": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 722
+      "FieldLength": 470
     }
   }
 }

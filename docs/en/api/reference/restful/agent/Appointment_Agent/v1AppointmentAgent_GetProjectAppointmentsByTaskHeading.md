@@ -126,15 +126,15 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 756,
-  "StartTime": "2013-06-10T11:22:36.9306587+02:00",
-  "EndTime": "2013-03-12T11:22:36.9306587+01:00",
-  "Count": 98,
-  "TaskHeadingId": 538
+  "ProjectId": 707,
+  "StartTime": "2021-03-30T14:19:02.3418722+02:00",
+  "EndTime": "2002-04-28T14:19:02.3418722+02:00",
+  "Count": 223,
+  "TaskHeadingId": 304
 }
 ```
 
@@ -146,61 +146,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 458,
-    "StartDate": "2011-08-04T11:22:36.9306587+02:00",
-    "EndDate": "2007-07-14T11:22:36.9306587+02:00",
+    "AppointmentId": 551,
+    "StartDate": "2007-01-23T14:19:02.3418722+01:00",
+    "EndDate": "2022-05-26T14:19:02.3418722+02:00",
     "Type": "BookingForChecklist",
-    "Task": "sit",
-    "AssociateFullName": "Declan Oberbrunner",
-    "ContactName": "Robel Group",
-    "Description": "Persevering mobile definition",
-    "PersonFullName": "Ali Wehner",
-    "PersonId": 688,
-    "ContactId": 899,
-    "ProjectId": 901,
-    "ProjectName": "Huel Group",
-    "IsPublished": false,
-    "AssociateId": 502,
-    "ColorIndex": 221,
+    "Task": "perspiciatis",
+    "AssociateFullName": "Lucas Murazik",
+    "ContactName": "Kovacek Inc and Sons",
+    "Description": "Synergistic 3rd generation contingency",
+    "PersonFullName": "Dr. Raymond Mertz",
+    "PersonId": 722,
+    "ContactId": 799,
+    "ProjectId": 324,
+    "ProjectName": "McClure Group",
+    "IsPublished": true,
+    "AssociateId": 845,
+    "ColorIndex": 292,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 279,
-    "PriorityName": "Nikolaus, Feest and Wyman",
+    "PriorityId": 599,
+    "PriorityName": "Klocko Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2018-02-01T11:22:36.9306587+01:00",
+    "ActiveDate": "2017-04-27T14:19:02.3418722+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-04-19T11:22:36.9306587+02:00",
-    "RecurringEndDate": "1996-02-24T11:22:36.9306587+01:00",
-    "MotherId": 259,
-    "AssignedBy": 770,
-    "AssignedByFullName": "Dr. Jordyn Borer",
+    "RecurringStartDate": "2019-07-11T14:19:02.3418722+02:00",
+    "RecurringEndDate": "2010-08-25T14:19:02.3418722+02:00",
+    "MotherId": 464,
+    "AssignedBy": 445,
+    "AssignedByFullName": "Delfina Lowe",
     "RejectReason": "",
-    "Location": "illo",
-    "AlarmLeadTime": "sint",
-    "SaleId": 965,
-    "SaleName": "Wyman-Cartwright",
-    "AssociateName": "Torphy LLC",
-    "CreatedDate": "2004-07-04T11:22:36.9306587+02:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Miss Ubaldo Reinger DVM",
-    "CreatedByAssociateId": 145,
+    "Location": "veritatis",
+    "AlarmLeadTime": "rerum",
+    "SaleId": 181,
+    "SaleName": "Streich Inc and Sons",
+    "AssociateName": "Daniel, Tremblay and Fritsch",
+    "CreatedDate": "2018-01-17T14:19:02.3418722+01:00",
+    "CreatedBy": "recusandae",
+    "CreatedByFullName": "Henderson Metz",
+    "CreatedByAssociateId": 70,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 684
+        "FieldType": "System.String",
+        "FieldLength": 368
       }
     }
   }

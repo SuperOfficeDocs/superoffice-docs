@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 705,
-    "Name": "Braun, Krajcik and Kiehn",
-    "ToolTip": "Nihil laboriosam natus eos exercitationem dolor aliquid.",
-    "Deleted": true,
-    "Rank": 191,
-    "Type": "quia",
-    "ColorBlock": 292,
-    "IconHint": "animi",
-    "Selected": false,
-    "LastChanged": "2012-01-25T11:22:45.9285426+01:00",
+    "Id": 125,
+    "Name": "Gottlieb-Russel",
+    "ToolTip": "Voluptas cupiditate.",
+    "Deleted": false,
+    "Rank": 99,
+    "Type": "ex",
+    "ColorBlock": 783,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2021-07-04T14:19:11.2730964+02:00",
     "ChildItems": [
       {
-        "Id": 49,
-        "Name": "DuBuque Group",
-        "ToolTip": "Et consequatur alias dicta culpa.",
+        "Id": 760,
+        "Name": "Homenick LLC",
+        "ToolTip": "Aut fuga animi beatae dolor ut.",
         "Deleted": false,
-        "Rank": 584,
-        "Type": "sapiente",
-        "ColorBlock": 612,
-        "IconHint": "vero",
+        "Rank": 293,
+        "Type": "quae",
+        "ColorBlock": 168,
+        "IconHint": "velit",
         "Selected": true,
-        "LastChanged": "2018-06-28T11:22:45.9285426+02:00",
+        "LastChanged": "2017-09-16T14:19:11.2730964+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "corporis",
+        "ExtraInfo": "possimus",
+        "StyleHint": "aut",
         "Hidden": true,
-        "FullName": "Marlen Emmerich",
+        "FullName": "Armani Rippin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 641
+            "FieldType": "System.String",
+            "FieldLength": 704
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "distinctio",
-    "Hidden": true,
-    "FullName": "Ms. Marcelino Adam Runte",
+    "ExtraInfo": "dolorum",
+    "StyleHint": "magni",
+    "Hidden": false,
+    "FullName": "Rebekah Schowalter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 465
+        "FieldLength": 3
       }
     }
   }

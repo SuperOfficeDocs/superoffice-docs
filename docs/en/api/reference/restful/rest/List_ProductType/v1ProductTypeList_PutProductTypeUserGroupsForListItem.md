@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 818,
-    "Name": "Renner-Mann",
-    "ToolTip": "Tempora eveniet sequi necessitatibus.",
-    "Deleted": false,
-    "Rank": 451,
-    "Type": "eum",
-    "ColorBlock": 332,
-    "IconHint": "aut",
+    "Id": 853,
+    "Name": "West, Cruickshank and Parisian",
+    "ToolTip": "Est aut nihil possimus.",
+    "Deleted": true,
+    "Rank": 881,
+    "Type": "placeat",
+    "ColorBlock": 815,
+    "IconHint": "tempore",
     "Selected": false,
-    "LastChanged": "1996-07-01T11:22:46.0535201+02:00",
+    "LastChanged": "2013-04-19T14:19:11.3836521+02:00",
     "ChildItems": [
       {
-        "Id": 43,
-        "Name": "Simonis-Greenfelder",
-        "ToolTip": "Doloremque facilis.",
-        "Deleted": false,
-        "Rank": 607,
-        "Type": "debitis",
-        "ColorBlock": 718,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2014-06-30T11:22:46.0535201+02:00",
+        "Id": 342,
+        "Name": "Orn-Gutkowski",
+        "ToolTip": "Qui sit dolorum natus delectus in vel.",
+        "Deleted": true,
+        "Rank": 597,
+        "Type": "vel",
+        "ColorBlock": 798,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2014-05-30T14:19:11.3836521+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "reiciendis",
+        "ExtraInfo": "autem",
+        "StyleHint": "nam",
         "Hidden": false,
-        "FullName": "Malachi Schroeder MD"
+        "FullName": "Ms. Howard Powlowski III"
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "nihil",
-    "Hidden": false,
-    "FullName": "Max Addie Von I"
+    "ExtraInfo": "odit",
+    "StyleHint": "mollitia",
+    "Hidden": true,
+    "FullName": "Miss Luna Zola Prosacco MD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 553,
-    "Name": "Renner, Lemke and Kshlerin",
-    "ToolTip": "Nisi non aut est recusandae repudiandae.",
-    "Deleted": false,
-    "Rank": 850,
-    "Type": "est",
-    "ColorBlock": 86,
-    "IconHint": "voluptate",
+    "Id": 934,
+    "Name": "Lubowitz, Zulauf and Gleason",
+    "ToolTip": "Exercitationem enim enim incidunt.",
+    "Deleted": true,
+    "Rank": 553,
+    "Type": "totam",
+    "ColorBlock": 491,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2005-10-15T11:22:46.0535201+02:00",
+    "LastChanged": "2006-07-12T14:19:11.3836521+02:00",
     "ChildItems": [
       {
-        "Id": 760,
-        "Name": "Morar, Swaniawski and Gibson",
-        "ToolTip": "Dolores magnam repudiandae ut earum tempore blanditiis.",
-        "Deleted": false,
-        "Rank": 519,
-        "Type": "molestiae",
-        "ColorBlock": 187,
-        "IconHint": "modi",
-        "Selected": false,
-        "LastChanged": "2018-06-24T11:22:46.0535201+02:00",
+        "Id": 587,
+        "Name": "Koelpin-Harvey",
+        "ToolTip": "Delectus quidem culpa ex et.",
+        "Deleted": true,
+        "Rank": 710,
+        "Type": "sed",
+        "ColorBlock": 475,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2002-06-05T14:19:11.3836521+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "facere",
-        "Hidden": true,
-        "FullName": "Efren Bernhard",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "eaque",
+        "Hidden": false,
+        "FullName": "Virgie Lubowitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 185
+            "FieldType": "System.Int32",
+            "FieldLength": 633
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "ea",
-    "Hidden": true,
-    "FullName": "Jeanne Turcotte",
+    "ExtraInfo": "optio",
+    "StyleHint": "molestiae",
+    "Hidden": false,
+    "FullName": "Emie Kunze",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 548
+        "FieldType": "System.String",
+        "FieldLength": 163
       }
     }
   }

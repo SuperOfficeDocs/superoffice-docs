@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 260
+  "SaleId": 587
 }
 ```
 
@@ -109,32 +109,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 835,
-    "Attention": "at",
-    "Header": "facilis",
-    "Name": "Mueller LLC",
-    "OurRef": "similique",
-    "YourRef": "ut",
-    "Description": "Persistent eco-centric intranet",
-    "DocumentTemplate": "recusandae",
-    "IsPublished": true,
-    "PersonId": 592,
-    "PersonFullName": "Miss Ahmed Carley Daniel",
-    "AssociateFullName": "Jadon Wisozk",
-    "ContactId": 747,
-    "ContactName": "Maggio, Langworth and Beahan",
-    "ProjectId": 61,
-    "ProjectName": "Schultz, Kerluke and Gutkowski",
-    "AssociateId": 350,
-    "Snum": 145,
-    "SaleId": 838,
-    "SaleName": "Powlowski Inc and Sons",
+    "DocumentId": 505,
+    "Attention": "ducimus",
+    "Header": "tenetur",
+    "Name": "Reynolds-Blick",
+    "OurRef": "saepe",
+    "YourRef": "exercitationem",
+    "Description": "Reverse-engineered full-range Graphic Interface",
+    "DocumentTemplate": "libero",
+    "IsPublished": false,
+    "PersonId": 37,
+    "PersonFullName": "Shaun Adell Jacobi I",
+    "AssociateFullName": "Ms. Gayle Mann III",
+    "ContactId": 793,
+    "ContactName": "Harris, Grady and Stroman",
+    "ProjectId": 619,
+    "ProjectName": "Harvey, Smith and Waelchi",
+    "AssociateId": 714,
+    "Snum": 638,
+    "SaleId": 515,
+    "SaleName": "Kuhlman-Thiel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 270
+        "FieldLength": 12
       }
     }
   }

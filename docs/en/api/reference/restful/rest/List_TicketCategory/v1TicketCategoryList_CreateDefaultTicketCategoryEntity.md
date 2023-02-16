@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,36 +81,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 513,
-  "ParentId": 518,
-  "Name": "Friesen-Purdy",
-  "Fullname": "minima",
-  "CategoryMaster": 886,
+  "TicketCategoryId": 590,
+  "ParentId": 133,
+  "Name": "Orn-Ledner",
+  "Fullname": "illo",
+  "CategoryMaster": 291,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Kuphal-Christiansen",
+  "ExternalName": "Christiansen-Connelly",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 871,
-  "ReplyTemplate": 480,
-  "NotificationEmail": "lindsay@kihn.biz",
+  "AssignmentLag": 931,
+  "ReplyTemplate": 190,
+  "NotificationEmail": "lenora_kuhlman@lynchfeest.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 236,
+  "EffectiveReplyTemplateId": 733,
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "nam"
+    "ExtraFields1": "odit",
+    "ExtraFields2": "asperiores"
   },
   "CustomFields": {
-    "CustomFields1": "vero",
-    "CustomFields2": "explicabo"
+    "CustomFields1": "quisquam",
+    "CustomFields2": "itaque"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 31
+      "FieldLength": 323
     }
   }
 }

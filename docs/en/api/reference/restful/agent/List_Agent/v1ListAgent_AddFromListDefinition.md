@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 244,
+  "UdListDefinitionId": 405,
   "Item": null
 }
 ```
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 487,
-  "Name": "Bernhard Inc and Sons",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "UdListDefinitionId": 135,
-  "Rank": 127,
+  "Id": 5,
+  "Name": "Koelpin, Bernhard and Crooks",
+  "Tooltip": "occaecati",
+  "Deleted": true,
+  "UdListDefinitionId": 184,
+  "Rank": 445,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 137
+      "FieldLength": 82
     }
   }
 }

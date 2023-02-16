@@ -30,7 +30,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=844
+PUT /api/v1/Project/{id}/ImageInfo?projectId=730
 ```
 
 
@@ -103,23 +103,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 897,
-  "BlobSize": 522,
-  "Description": "Team-oriented dynamic toolset",
-  "ExtraInfo": "molestias",
-  "IsEncrypted": false,
+  "BlobId": 489,
+  "BlobSize": 883,
+  "Description": "Synergistic multi-state portal",
+  "ExtraInfo": "et",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "quod",
-  "OriginalSize": 440,
-  "CreatedDate": "1998-08-31T11:22:45.0537619+02:00",
-  "UpdatedDate": "2014-09-13T11:22:45.0537619+02:00",
+  "MimeType": "sapiente",
+  "OriginalSize": 823,
+  "CreatedDate": "2007-10-01T14:19:10.5373508+02:00",
+  "UpdatedDate": "2014-11-09T14:19:10.5373508+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "laborum"
+  "ConceptualType": "doloribus"
 }
 ```
 
@@ -130,25 +130,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 356,
-  "BlobSize": 353,
-  "Description": "Horizontal tangible artificial intelligence",
-  "ExtraInfo": "qui",
+  "BlobId": 141,
+  "BlobSize": 382,
+  "Description": "Diverse dynamic paradigm",
+  "ExtraInfo": "nihil",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "perferendis",
-  "OriginalSize": 405,
-  "CreatedDate": "2000-04-14T11:22:45.0693694+02:00",
-  "UpdatedDate": "1997-11-17T11:22:45.0693694+01:00",
+  "IsZipped": false,
+  "MimeType": "nulla",
+  "OriginalSize": 142,
+  "CreatedDate": "1997-08-12T14:19:10.5685937+02:00",
+  "UpdatedDate": "1996-12-04T14:19:10.5685937+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "molestiae",
+  "ConceptualType": "fugiat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 118
+      "FieldLength": 901
     }
   }
 }

@@ -79,8 +79,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    945,
-    572
+    923,
+    770
   ]
 }
 ```
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 93,
-    "Name": "Toy Inc and Sons",
-    "TargetTable": "ut",
-    "Registered": "1996-05-25T11:22:39.3363444+02:00",
-    "ProviderName": "Runte-Brakus"
+    "SelectionId": 55,
+    "Name": "Mohr, Ebert and VonRueden",
+    "TargetTable": "in",
+    "Registered": "2013-06-02T14:19:04.2192297+02:00",
+    "ProviderName": "Beier-Schroeder"
   },
   {
-    "SelectionId": 93,
-    "Name": "Toy Inc and Sons",
-    "TargetTable": "ut",
-    "Registered": "1996-05-25T11:22:39.3363444+02:00",
-    "ProviderName": "Runte-Brakus"
+    "SelectionId": 55,
+    "Name": "Mohr, Ebert and VonRueden",
+    "TargetTable": "in",
+    "Registered": "2013-06-02T14:19:04.2192297+02:00",
+    "ProviderName": "Beier-Schroeder"
   }
 ]
 ```

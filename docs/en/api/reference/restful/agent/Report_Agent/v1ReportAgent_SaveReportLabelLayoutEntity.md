@@ -84,22 +84,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 120,
-  "Name": "Daugherty-Schoen",
-  "Description": "Re-engineered composite product",
+  "ReportLabelLayoutId": 927,
+  "Name": "Hahn, Hermann and Flatley",
+  "Description": "Secured neutral parallelism",
   "Orientation": "Landscape",
-  "PaperWidth": 117,
-  "PaperHeight": 312,
-  "LeftMargin": 34,
-  "RightMargin": 263,
-  "TopMargin": 924,
-  "BottomMargin": 993,
-  "CountColumns": 765,
-  "CountRows": 473
+  "PaperWidth": 478,
+  "PaperHeight": 581,
+  "LeftMargin": 928,
+  "RightMargin": 689,
+  "TopMargin": 503,
+  "BottomMargin": 664,
+  "CountColumns": 543,
+  "CountRows": 351
 }
 ```
 
@@ -110,24 +110,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 713,
-  "Name": "Wiegand, Torphy and Treutel",
-  "Description": "Synergistic disintermediate circuit",
+  "ReportLabelLayoutId": 372,
+  "Name": "Rosenbaum-Lehner",
+  "Description": "Horizontal leading edge knowledge base",
   "Orientation": "Landscape",
-  "PaperWidth": 690,
-  "PaperHeight": 70,
-  "LeftMargin": 972,
-  "RightMargin": 982,
-  "TopMargin": 766,
-  "BottomMargin": 524,
-  "CountColumns": 751,
-  "CountRows": 40,
+  "PaperWidth": 817,
+  "PaperHeight": 98,
+  "LeftMargin": 704,
+  "RightMargin": 562,
+  "TopMargin": 112,
+  "BottomMargin": 406,
+  "CountColumns": 952,
+  "CountRows": 493,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldType": "System.String",
+      "FieldLength": 337
     }
   }
 }

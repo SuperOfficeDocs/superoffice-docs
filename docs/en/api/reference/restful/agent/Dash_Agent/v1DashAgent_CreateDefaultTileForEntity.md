@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Dare LLC"
+  "EntityName": "Bahringer, Maggio and D'Amore"
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 746,
-  "DashboardId": 437,
-  "Height": 823,
-  "Width": 111,
-  "Rank": 781,
+  "DashboardTileId": 953,
+  "DashboardId": 696,
+  "Height": 812,
+  "Width": 150,
+  "Rank": 270,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 459
+      "FieldLength": 428
     }
   }
 }

@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "et"
+  "SearchString": "officiis"
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "245-651-4079 x8314",
-    "PersonCellPhone": "881-791-6617 x5678",
-    "PersonPrivatePhone": "(604)841-9327 x362",
-    "PersonFaxNumber": "294310",
-    "PersonPagerNumber": "658465",
-    "PersonEmail": "juana.schumm@abernathy.uk",
-    "Id": 839,
-    "Name": "Wisozk Group",
-    "Tooltip": "quod",
-    "UniqueId": "deleniti",
+    "PersonDirectPhone": "(965)228-8649 x5483",
+    "PersonCellPhone": "977-358-2547",
+    "PersonPrivatePhone": "491-049-0290 x7479",
+    "PersonFaxNumber": "1295185",
+    "PersonPagerNumber": "1111430",
+    "PersonEmail": "carmella_bogan@rohan.biz",
+    "Id": 723,
+    "Name": "Krajcik-Abbott",
+    "Tooltip": "sed",
+    "UniqueId": "totam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 661
+        "FieldType": "System.String",
+        "FieldLength": 821
       }
     }
   }

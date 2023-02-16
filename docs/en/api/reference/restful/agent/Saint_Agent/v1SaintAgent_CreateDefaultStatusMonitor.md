@@ -80,27 +80,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 403,
-  "Rank": 207,
-  "DefaultTask": 643,
-  "DefaultTaskText": "explicabo",
-  "IsVisual": true,
-  "LastGenerated": "2008-12-24T11:22:38.9770545+01:00",
-  "Description": "Decentralized interactive focus group",
-  "Name": "Lind, Lehner and Beatty",
-  "StatusMonitorId": 223,
-  "PictureId": 719,
-  "NeedsUpdate": true,
+  "OwnerTable": 859,
+  "Rank": 961,
+  "DefaultTask": 677,
+  "DefaultTaskText": "suscipit",
+  "IsVisual": false,
+  "LastGenerated": "2000-02-20T14:19:04.0782101+01:00",
+  "Description": "Progressive analyzing projection",
+  "Name": "Bernhard-Mraz",
+  "StatusMonitorId": 613,
+  "PictureId": 923,
+  "NeedsUpdate": false,
   "Deleted": true,
-  "NumMatches": 265,
-  "NumNeedUpdate": 31,
-  "GenerationStart": "2005-08-14T11:22:38.9770545+02:00",
+  "NumMatches": 920,
+  "NumNeedUpdate": 96,
+  "GenerationStart": "2000-03-22T14:19:04.0782101+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldLength": 645
     }
   }
 }

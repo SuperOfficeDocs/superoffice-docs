@@ -556,6 +556,21 @@ title: Services88.MarketingAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetFormSubmissionsCount">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="FormId" type="xs:int" />
+            <xs:element minOccurs="0" name="Status" type="tns:FormSubmissionStatus" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetFormSubmissionsCountResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetPreviewMailing">
         <xs:complexType>
           <xs:sequence>
@@ -1041,6 +1056,23 @@ title: Services88.MarketingAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetFormSubmissionsCountRequest">
+    <wsdl:part name="parameters" element="tns:GetFormSubmissionsCount" />
+  </wsdl:message>
+  <wsdl:message name="GetFormSubmissionsCountRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetFormSubmissionsCountResponse">
+    <wsdl:part name="parameters" element="tns:GetFormSubmissionsCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFormSubmissionsCountResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetPreviewMailingRequest">
     <wsdl:part name="parameters" element="tns:GetPreviewMailing" />
   </wsdl:message>
@@ -1190,6 +1222,10 @@ title: Services88.MarketingAgent WSDL
     <wsdl:operation name="CalculateMailingStatistics">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/CalculateMailingStatistics" name="CalculateMailingStatisticsRequest" message="tns:CalculateMailingStatisticsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/CalculateMailingStatisticsResponse" name="CalculateMailingStatisticsResponse" message="tns:CalculateMailingStatisticsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFormSubmissionsCount">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetFormSubmissionsCount" name="GetFormSubmissionsCountRequest" message="tns:GetFormSubmissionsCountRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetFormSubmissionsCountResponse" name="GetFormSubmissionsCountResponse" message="tns:GetFormSubmissionsCountResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPreviewMailing">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetPreviewMailing" name="GetPreviewMailingRequest" message="tns:GetPreviewMailingRequest" />
@@ -1467,6 +1503,22 @@ title: Services88.MarketingAgent WSDL
         <soap:header message="tns:CalculateMailingStatisticsResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:CalculateMailingStatisticsResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:CalculateMailingStatisticsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFormSubmissionsCount">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetFormSubmissionsCount" style="document" />
+      <wsdl:input name="GetFormSubmissionsCountRequest">
+        <soap:header message="tns:GetFormSubmissionsCountRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetFormSubmissionsCountRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetFormSubmissionsCountRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetFormSubmissionsCountResponse">
+        <soap:header message="tns:GetFormSubmissionsCountResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetFormSubmissionsCountResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetFormSubmissionsCountResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetFormSubmissionsCountResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

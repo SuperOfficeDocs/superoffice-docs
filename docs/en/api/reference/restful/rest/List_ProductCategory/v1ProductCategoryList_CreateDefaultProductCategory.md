@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 987,
-  "Name": "Bauch, Kozey and Maggio",
-  "Tooltip": "reiciendis",
-  "Deleted": false,
-  "UdListDefinitionId": 716,
-  "Rank": 620,
+  "Id": 780,
+  "Name": "Schroeder-Considine",
+  "Tooltip": "quaerat",
+  "Deleted": true,
+  "UdListDefinitionId": 828,
+  "Rank": 664,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldLength": 594
     }
   }
 }

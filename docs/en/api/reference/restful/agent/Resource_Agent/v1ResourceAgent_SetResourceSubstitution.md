@@ -70,9 +70,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Dibbert, Gusikowski and Auer",
-  "ResourceValues": "sit",
-  "Culture": "odit",
+  "ResourceName": "Price-Hermann",
+  "ResourceValues": "ad",
+  "Culture": "illum",
   "IsActive": false
 }
 ```

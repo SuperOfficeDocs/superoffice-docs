@@ -29,7 +29,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=False
+GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=True
 ```
 
 
@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,56 +94,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 780,
-    "Name": "Schmidt Inc and Sons",
-    "ToolTip": "Ad rerum vero est omnis facere.",
+    "Id": 731,
+    "Name": "Renner-Effertz",
+    "ToolTip": "Et unde sed.",
     "Deleted": false,
-    "Rank": 814,
-    "Type": "quia",
-    "ColorBlock": 421,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2018-12-03T11:22:45.5692589+01:00",
+    "Rank": 73,
+    "Type": "asperiores",
+    "ColorBlock": 377,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "2013-08-23T14:19:11.1012251+02:00",
     "ChildItems": [
       {
-        "Id": 348,
-        "Name": "Rohan-White",
-        "ToolTip": "Sit nulla itaque quibusdam.",
+        "Id": 90,
+        "Name": "Weber LLC",
+        "ToolTip": "Facere repudiandae quia et dolor.",
         "Deleted": false,
-        "Rank": 871,
-        "Type": "et",
-        "ColorBlock": 375,
-        "IconHint": "recusandae",
+        "Rank": 297,
+        "Type": "doloribus",
+        "ColorBlock": 849,
+        "IconHint": "impedit",
         "Selected": false,
-        "LastChanged": "2012-01-19T11:22:45.5692589+01:00",
+        "LastChanged": "2013-01-24T14:19:11.1012251+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "possimus",
+        "ExtraInfo": "ut",
+        "StyleHint": "amet",
         "Hidden": false,
-        "FullName": "Aglae Glover",
+        "FullName": "Miss Meghan Wiza",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 392
+            "FieldLength": 458
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "perferendis",
+    "ExtraInfo": "nobis",
+    "StyleHint": "repudiandae",
     "Hidden": false,
-    "FullName": "Mr. Ottis Addie Lowe",
+    "FullName": "Jamaal Jenkins MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 559
+        "FieldLength": 402
       }
     }
   }

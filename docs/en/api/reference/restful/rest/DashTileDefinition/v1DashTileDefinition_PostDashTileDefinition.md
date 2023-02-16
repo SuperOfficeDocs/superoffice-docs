@@ -111,29 +111,29 @@ OK
 POST /api/v1/DashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 804,
-  "Name": "Kunze-Swift",
-  "Description": "Extended tangible migration",
-  "DefaultHeight": 298,
-  "DefaultWidth": 893,
+  "DashboardTileDefinitionId": 887,
+  "Name": "Braun, Nicolas and Toy",
+  "Description": "Organized attitude-oriented migration",
+  "DefaultHeight": 843,
+  "DefaultWidth": 885,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Champlin Group",
-  "SelectionId": 989,
+  "EntityName": "Kuhn, Boehm and Yost",
+  "SelectionId": 411,
   "CurrencyMode": "Base",
-  "CurrencyCode": "aut",
+  "CurrencyCode": "explicabo",
   "Measure": "Average",
-  "MeasureField": "adipisci",
-  "SortBy": "saepe",
-  "LayoutConfig": "id",
-  "SecondarySelectionId": 599,
-  "MeasureByField": "qui",
+  "MeasureField": "facere",
+  "SortBy": "libero",
+  "LayoutConfig": "tempore",
+  "SecondarySelectionId": 950,
+  "MeasureByField": "neque",
   "Usage": "Dashboard",
-  "ProviderName": "Goyette Group"
+  "ProviderName": "Schaden Group"
 }
 ```
 
@@ -144,31 +144,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 649,
-  "Name": "Spencer Group",
-  "Description": "Managed executive toolset",
-  "DefaultHeight": 391,
-  "DefaultWidth": 436,
+  "DashboardTileDefinitionId": 901,
+  "Name": "Mueller-Hilpert",
+  "Description": "Fully-configurable client-server interface",
+  "DefaultHeight": 209,
+  "DefaultWidth": 193,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Blick, Mueller and Rowe",
-  "SelectionId": 507,
+  "EntityName": "Balistreri-Waters",
+  "SelectionId": 912,
   "CurrencyMode": "Base",
-  "CurrencyCode": "voluptatem",
+  "CurrencyCode": "illo",
   "Measure": "Average",
-  "MeasureField": "autem",
-  "SortBy": "non",
-  "LayoutConfig": "voluptatem",
-  "SecondarySelectionId": 530,
-  "MeasureByField": "omnis",
+  "MeasureField": "adipisci",
+  "SortBy": "culpa",
+  "LayoutConfig": "laborum",
+  "SecondarySelectionId": 783,
+  "MeasureByField": "est",
   "Usage": "Dashboard",
-  "ProviderName": "McClure Inc and Sons",
+  "ProviderName": "Fadel, Armstrong and Ebert",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 504
+      "FieldType": "System.Int32",
+      "FieldLength": 75
     }
   },
   "_Links": {

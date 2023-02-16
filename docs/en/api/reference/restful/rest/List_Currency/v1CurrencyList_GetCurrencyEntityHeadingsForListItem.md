@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 538,
-    "Name": "Grimes, Toy and Kirlin",
-    "ToolTip": "Nam qui ab.",
-    "Deleted": false,
-    "Rank": 43,
-    "Type": "sed",
-    "ColorBlock": 601,
-    "IconHint": "velit",
-    "Selected": false,
-    "LastChanged": "2011-11-03T11:22:45.8816758+01:00",
+    "Id": 369,
+    "Name": "Schinner, Kuhn and Corkery",
+    "ToolTip": "Rerum consequatur minus unde quia consequatur tempora.",
+    "Deleted": true,
+    "Rank": 226,
+    "Type": "iure",
+    "ColorBlock": 491,
+    "IconHint": "occaecati",
+    "Selected": true,
+    "LastChanged": "2002-10-19T14:19:11.2262177+02:00",
     "ChildItems": [
       {
-        "Id": 181,
-        "Name": "Hickle-Harvey",
-        "ToolTip": "Dolores facere sint enim fugit rerum enim.",
-        "Deleted": false,
-        "Rank": 943,
-        "Type": "corrupti",
-        "ColorBlock": 938,
-        "IconHint": "praesentium",
+        "Id": 561,
+        "Name": "Hoeger Inc and Sons",
+        "ToolTip": "Corporis quibusdam qui incidunt eos et distinctio delectus.",
+        "Deleted": true,
+        "Rank": 645,
+        "Type": "quis",
+        "ColorBlock": 296,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2013-02-03T11:22:45.8816758+01:00",
+        "LastChanged": "2021-03-04T14:19:11.2262177+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "aut",
+        "ExtraInfo": "aut",
+        "StyleHint": "earum",
         "Hidden": false,
-        "FullName": "Bryon Bernhard III",
+        "FullName": "Ed Frami",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 414
+            "FieldType": "System.String",
+            "FieldLength": 904
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "officia",
-    "Hidden": false,
-    "FullName": "Lowell Rempel",
+    "ExtraInfo": "sit",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Ms. Chandler Jewess II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldType": "System.String",
+        "FieldLength": 501
       }
     }
   }

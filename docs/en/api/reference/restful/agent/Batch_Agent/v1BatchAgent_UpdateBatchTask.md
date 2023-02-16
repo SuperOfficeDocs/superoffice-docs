@@ -95,7 +95,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 404,
-  "Name": "Jast-McKenzie",
-  "AssociateId": 734,
-  "DetailsTable": 606,
-  "DetailsRecord": 832,
+  "Id": 440,
+  "Name": "Corkery Group",
+  "AssociateId": 967,
+  "DetailsTable": 509,
+  "DetailsRecord": 412,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "cumque",
+    "ParameterObject1": "tempore",
     "ParameterObject2": "voluptatem"
   },
-  "LastStarted": "1999-03-05T11:22:37.4461725+01:00",
-  "Created": "2016-06-27T11:22:37.4461725+02:00",
-  "StartCount": 185,
-  "DatabaseSerialNumber": "1004424",
-  "Context": "et",
-  "Result": "autem",
+  "LastStarted": "2006-09-04T14:19:02.7594283+02:00",
+  "Created": "2012-05-20T14:19:02.7594283+02:00",
+  "StartCount": 911,
+  "DatabaseSerialNumber": "477188",
+  "Context": "earum",
+  "Result": "nihil",
   "State": "All",
-  "Description": "Face to face 24 hour toolset",
-  "Response": "sapiente",
-  "Request": "laboriosam",
-  "ProgressDescription": "Innovative exuding concept",
-  "ProgressPercent": 66,
-  "FileName": "Carter Group",
+  "Description": "Monitored dynamic standardization",
+  "Response": "perferendis",
+  "Request": "atque",
+  "ProgressDescription": "Automated zero tolerance circuit",
+  "ProgressPercent": 40,
+  "FileName": "Erdman LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 580
+      "FieldLength": 550
     }
   }
 }

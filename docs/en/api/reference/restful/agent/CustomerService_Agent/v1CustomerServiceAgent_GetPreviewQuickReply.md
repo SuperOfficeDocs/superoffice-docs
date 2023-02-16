@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewQuickReply
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 85
+  "QuickReplyId": 780
 }
 ```
 
@@ -90,16 +90,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hamill, Lubowitz and Harris",
-  "UpdatedByFullName": "Ralph Nicolas MD",
-  "Updated": "2014-08-10T11:22:37.7898385+02:00",
-  "HtmlBody": "neque",
+  "Name": "Shields, Corwin and Nicolas",
+  "UpdatedByFullName": "Dr. Ted Efren Wiegand",
+  "Updated": "2019-05-30T14:19:03.0886547+02:00",
+  "HtmlBody": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 266
+      "FieldLength": 499
     }
   }
 }

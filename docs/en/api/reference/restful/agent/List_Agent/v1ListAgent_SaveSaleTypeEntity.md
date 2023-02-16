@@ -104,51 +104,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 760,
-  "Name": "Kling-Balistreri",
-  "Tooltip": "sed",
-  "Rank": 727,
+  "SaleTypeId": 798,
+  "Name": "Greenholt Inc and Sons",
+  "Tooltip": "consequuntur",
+  "Rank": 701,
   "DurationUnit": "Century",
-  "SaleDuration": 785,
-  "SaleTypeCatId": 914,
-  "Deleted": true,
+  "SaleDuration": 698,
+  "SaleTypeCatId": 845,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 917,
-  "QuoteLinesTemplate": 179,
-  "ConfirmationLinesTemplate": 333,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 344,
+  "QuoteLinesTemplate": 648,
+  "ConfirmationLinesTemplate": 498,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 145,
-  "MinEarningPercent": 845,
-  "GroupQuoteLinesBy": 334,
-  "SortGroupLinesBy": 862,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 463,
+  "MinEarningPercent": 693,
+  "GroupQuoteLinesBy": 197,
+  "SortGroupLinesBy": 643,
   "Stages": [
     {
-      "Id": 736,
-      "Name": "Cummings-Herman",
-      "ToolTip": "Libero eius.",
-      "Deleted": false,
-      "Rank": 925,
-      "Type": "porro",
-      "ColorBlock": 865,
-      "IconHint": "esse",
+      "Id": 150,
+      "Name": "Ziemann-Will",
+      "ToolTip": "Esse aperiam itaque dicta aut et.",
+      "Deleted": true,
+      "Rank": 33,
+      "Type": "officia",
+      "ColorBlock": 372,
+      "IconHint": "impedit",
       "Selected": false,
-      "LastChanged": "2011-11-19T11:22:38.5396587+01:00",
+      "LastChanged": "1996-04-23T14:19:03.6863742+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nihil",
+      "ExtraInfo": "ab",
       "StyleHint": "rerum",
-      "Hidden": false,
-      "FullName": "Jamarcus Cummings"
+      "Hidden": true,
+      "FullName": "Ms. Glennie Leilani Carroll"
     }
   ]
 }
@@ -161,53 +161,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 205,
-  "Name": "Bosco, Wisozk and Kub",
-  "Tooltip": "sapiente",
-  "Rank": 799,
+  "SaleTypeId": 773,
+  "Name": "Heaney Inc and Sons",
+  "Tooltip": "aut",
+  "Rank": 834,
   "DurationUnit": "Century",
-  "SaleDuration": 981,
-  "SaleTypeCatId": 566,
-  "Deleted": false,
+  "SaleDuration": 111,
+  "SaleTypeCatId": 182,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 91,
-  "QuoteLinesTemplate": 416,
-  "ConfirmationLinesTemplate": 879,
-  "MaxDiscountPercentSet": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 985,
+  "QuoteLinesTemplate": 520,
+  "ConfirmationLinesTemplate": 388,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 874,
-  "MinEarningPercent": 466,
-  "GroupQuoteLinesBy": 785,
-  "SortGroupLinesBy": 763,
+  "MaxDiscountPercent": 952,
+  "MinEarningPercent": 148,
+  "GroupQuoteLinesBy": 42,
+  "SortGroupLinesBy": 403,
   "Stages": [
     {
-      "Id": 554,
-      "Name": "Pfannerstill, Waters and Schoen",
-      "ToolTip": "Asperiores quasi qui molestiae.",
+      "Id": 23,
+      "Name": "Koch-Reichert",
+      "ToolTip": "Earum repudiandae enim aut occaecati corporis sunt.",
       "Deleted": false,
-      "Rank": 567,
-      "Type": "omnis",
-      "ColorBlock": 255,
-      "IconHint": "ut",
-      "Selected": false,
-      "LastChanged": "2005-03-30T11:22:38.5396587+02:00",
+      "Rank": 448,
+      "Type": "non",
+      "ColorBlock": 836,
+      "IconHint": "sunt",
+      "Selected": true,
+      "LastChanged": "2009-02-04T14:19:03.6863742+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eius",
-      "StyleHint": "est",
+      "ExtraInfo": "eos",
+      "StyleHint": "dolores",
       "Hidden": false,
-      "FullName": "Krystal Hegmann",
+      "FullName": "Vernice Langworth",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 161
+          "FieldLength": 77
         }
       }
     }
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 858
+      "FieldType": "System.String",
+      "FieldLength": 901
     }
   }
 }

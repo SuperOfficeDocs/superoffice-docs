@@ -92,23 +92,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 21,
-  "BlobSize": 69,
-  "Description": "Enterprise-wide static hub",
-  "ExtraInfo": "sequi",
-  "IsEncrypted": false,
+  "BlobId": 414,
+  "BlobSize": 670,
+  "Description": "Upgradable upward-trending intranet",
+  "ExtraInfo": "voluptatibus",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "sed",
-  "OriginalSize": 684,
-  "CreatedDate": "2011-11-20T11:22:45.4442386+01:00",
-  "UpdatedDate": "2004-03-03T11:22:45.4442386+01:00",
+  "MimeType": "enim",
+  "OriginalSize": 198,
+  "CreatedDate": "2014-09-12T14:19:10.9748549+02:00",
+  "UpdatedDate": "2006-05-14T14:19:10.9748549+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sequi"
+  "ConceptualType": "suscipit"
 }
 ```
 
@@ -119,25 +119,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 595,
-  "BlobSize": 471,
-  "Description": "Future-proofed human-resource parallelism",
-  "ExtraInfo": "voluptatibus",
-  "IsEncrypted": true,
+  "BlobId": 78,
+  "BlobSize": 355,
+  "Description": "Up-sized tertiary analyzer",
+  "ExtraInfo": "id",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 446,
-  "CreatedDate": "2007-09-03T11:22:45.4442386+02:00",
-  "UpdatedDate": "2018-10-17T11:22:45.4442386+02:00",
+  "MimeType": "a",
+  "OriginalSize": 849,
+  "CreatedDate": "1998-05-17T14:19:10.9748549+02:00",
+  "UpdatedDate": "2010-05-05T14:19:10.9748549+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "accusamus",
+  "ConceptualType": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldType": "System.String",
+      "FieldLength": 668
     }
   }
 }

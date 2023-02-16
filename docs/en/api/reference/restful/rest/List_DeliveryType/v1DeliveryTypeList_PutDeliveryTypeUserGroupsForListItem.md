@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 835,
-    "Name": "Swift-Botsford",
-    "ToolTip": "Placeat harum molestias.",
-    "Deleted": true,
-    "Rank": 1000,
-    "Type": "recusandae",
-    "ColorBlock": 549,
-    "IconHint": "sapiente",
+    "Id": 54,
+    "Name": "Cronin Inc and Sons",
+    "ToolTip": "Ut nulla debitis et fugit.",
+    "Deleted": false,
+    "Rank": 173,
+    "Type": "modi",
+    "ColorBlock": 7,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2022-10-19T11:22:45.8973017+02:00",
+    "LastChanged": "2010-08-19T14:19:11.2418468+02:00",
     "ChildItems": [
       {
-        "Id": 308,
-        "Name": "Marquardt Inc and Sons",
-        "ToolTip": "Aspernatur ullam vel nostrum ex dolore.",
-        "Deleted": false,
-        "Rank": 804,
-        "Type": "error",
-        "ColorBlock": 235,
-        "IconHint": "eos",
-        "Selected": true,
-        "LastChanged": "2015-09-16T11:22:45.8973017+02:00",
+        "Id": 163,
+        "Name": "Trantow, Tromp and Prosacco",
+        "ToolTip": "Quia voluptatem voluptas velit autem sapiente aliquid.",
+        "Deleted": true,
+        "Rank": 527,
+        "Type": "est",
+        "ColorBlock": 776,
+        "IconHint": "vitae",
+        "Selected": false,
+        "LastChanged": "2021-11-19T14:19:11.2418468+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "quis",
+        "ExtraInfo": "quod",
+        "StyleHint": "velit",
         "Hidden": true,
-        "FullName": "Judge Mueller"
+        "FullName": "Miss Henry Brown"
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "occaecati",
-    "Hidden": true,
-    "FullName": "Mrs. Therese Steve Tillman"
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "asperiores",
+    "Hidden": false,
+    "FullName": "Wilber Hessel"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 468,
-    "Name": "Dietrich Inc and Sons",
-    "ToolTip": "Eum temporibus eaque explicabo sit.",
+    "Id": 333,
+    "Name": "Runolfsdottir-Crist",
+    "ToolTip": "Animi mollitia molestias.",
     "Deleted": false,
-    "Rank": 655,
-    "Type": "laboriosam",
-    "ColorBlock": 709,
-    "IconHint": "dolores",
+    "Rank": 618,
+    "Type": "voluptates",
+    "ColorBlock": 68,
+    "IconHint": "veniam",
     "Selected": true,
-    "LastChanged": "2003-02-22T11:22:45.8973017+01:00",
+    "LastChanged": "2020-03-15T14:19:11.2418468+01:00",
     "ChildItems": [
       {
-        "Id": 806,
-        "Name": "Koss-Kohler",
-        "ToolTip": "Atque unde omnis eveniet adipisci in deserunt fuga.",
-        "Deleted": false,
-        "Rank": 580,
-        "Type": "consequatur",
-        "ColorBlock": 964,
-        "IconHint": "suscipit",
+        "Id": 247,
+        "Name": "Ratke Group",
+        "ToolTip": "Inventore quidem et eaque omnis earum quia quisquam.",
+        "Deleted": true,
+        "Rank": 143,
+        "Type": "illo",
+        "ColorBlock": 338,
+        "IconHint": "debitis",
         "Selected": true,
-        "LastChanged": "2011-02-01T11:22:45.8973017+01:00",
+        "LastChanged": "2008-02-12T14:19:11.2418468+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "autem",
+        "ExtraInfo": "animi",
+        "StyleHint": "repellat",
         "Hidden": false,
-        "FullName": "Declan Hardy Roob MD",
+        "FullName": "Miss Davion Bruen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 851
+            "FieldType": "System.Int32",
+            "FieldLength": 454
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "quos",
+    "ExtraInfo": "veniam",
+    "StyleHint": "facilis",
     "Hidden": true,
-    "FullName": "Angie Monahan",
+    "FullName": "Dr. Anais O'Hara I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 404
+        "FieldLength": 70
       }
     }
   }

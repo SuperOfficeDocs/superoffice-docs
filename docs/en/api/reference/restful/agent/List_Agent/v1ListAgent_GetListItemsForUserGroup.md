@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 114,
-  "GroupId": 990
+  "UdListDefinitionId": 225,
+  "GroupId": 560
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 714,
-    "Name": "Schneider-Lindgren",
-    "ToolTip": "Velit nostrum molestias similique expedita.",
+    "Id": 666,
+    "Name": "Lehner, Barton and Jacobs",
+    "ToolTip": "Reprehenderit quas sit fugit minus sed autem aliquam.",
     "Deleted": false,
-    "Rank": 12,
-    "Type": "consequuntur",
-    "ColorBlock": 296,
-    "IconHint": "qui",
+    "Rank": 501,
+    "Type": "voluptatem",
+    "ColorBlock": 623,
+    "IconHint": "temporibus",
     "Selected": false,
-    "LastChanged": "2009-10-05T11:22:38.4615502+02:00",
+    "LastChanged": "2003-12-15T14:19:03.6238736+01:00",
     "ChildItems": [
       {
-        "Id": 79,
-        "Name": "Dach, Orn and Jewess",
-        "ToolTip": "Ut cumque.",
+        "Id": 730,
+        "Name": "Heller-Stehr",
+        "ToolTip": "Quibusdam culpa porro repellat et.",
         "Deleted": true,
-        "Rank": 510,
-        "Type": "quia",
-        "ColorBlock": 695,
-        "IconHint": "consequatur",
+        "Rank": 264,
+        "Type": "vitae",
+        "ColorBlock": 182,
+        "IconHint": "doloribus",
         "Selected": false,
-        "LastChanged": "2016-07-01T11:22:38.4615502+02:00",
+        "LastChanged": "2001-09-09T14:19:03.6238736+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Dr. Prudence Koepp",
+        "ExtraInfo": "dolor",
+        "StyleHint": "officiis",
+        "Hidden": false,
+        "FullName": "Yessenia Ellis Stiedemann PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 275
+            "FieldLength": 495
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "perspiciatis",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "recusandae",
     "Hidden": false,
-    "FullName": "Elza Christiansen",
+    "FullName": "Prof. Gillian O'Keefe PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 111
+        "FieldLength": 938
       }
     }
   }

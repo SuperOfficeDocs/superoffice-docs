@@ -79,7 +79,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "quis"
+  "FileContent": "earum"
 }
 ```
 
@@ -98,14 +98,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 339,
-      "NumberOfLicensesFree": 916,
-      "NumberOfLicensesAdded": 675,
-      "NumberOfLicensesNewTotal": 458,
-      "NumberOfLicensesNewFree": 42,
-      "NumberOfLicensesTotal": 887
+      "NumberOfLicensesInUse": 64,
+      "NumberOfLicensesFree": 729,
+      "NumberOfLicensesAdded": 988,
+      "NumberOfLicensesNewTotal": 943,
+      "NumberOfLicensesNewFree": 918,
+      "NumberOfLicensesTotal": 833
     }
   ],
-  "AccumulatedNextCheckDate": "2020-11-09T11:22:38.3990648+01:00"
+  "AccumulatedNextCheckDate": "2000-10-04T14:19:03.5769906+02:00"
 }
 ```

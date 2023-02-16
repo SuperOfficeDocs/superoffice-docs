@@ -89,8 +89,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 58,
-  "Name": "Dicki, Simonis and Klein"
+  "DashboardId": 495,
+  "Name": "Labadie-Mills"
 }
 ```
 
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 516,
-  "UniqueId": "est",
-  "Name": "Carroll Inc and Sons",
-  "Description": "Open-architected systematic productivity",
-  "AssociateId": 730,
-  "Columns": 345,
+  "DashboardId": 574,
+  "UniqueId": "vel",
+  "Name": "Feeney Group",
+  "Description": "Decentralized optimal ability",
+  "AssociateId": 10,
+  "Columns": 968,
   "Theme": null,
-  "VisibleForAll": 810,
+  "VisibleForAll": 181,
   "VisibleForAssociates": [
-    980,
-    411
+    655,
+    868
   ],
   "VisibleForGroups": [
-    164,
-    610
+    300,
+    914
   ],
-  "PinForAll": 14,
+  "PinForAll": 84,
   "PinForAssociates": [
-    610,
-    807
+    113,
+    449
   ],
   "PinForGroups": [
-    333,
-    202
+    939,
+    21
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 59
+      "FieldType": "System.Int32",
+      "FieldLength": 362
     }
   }
 }

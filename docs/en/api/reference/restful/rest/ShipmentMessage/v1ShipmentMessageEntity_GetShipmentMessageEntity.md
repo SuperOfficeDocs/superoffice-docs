@@ -92,7 +92,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,38 +102,38 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 186,
-  "PlainMessage": "illum",
-  "HtmlMessage": "commodi",
-  "SmsMessage": "et",
-  "Description": "Synchronised transitional frame",
-  "Subject": "et",
-  "FolderId": 526,
-  "HeaderField": "ut",
-  "Design": "dolorum",
+  "ShipmentMessageId": 472,
+  "PlainMessage": "in",
+  "HtmlMessage": "nihil",
+  "SmsMessage": "temporibus",
+  "Description": "Networked content-based process improvement",
+  "Subject": "labore",
+  "FolderId": 281,
+  "HeaderField": "voluptas",
+  "Design": "itaque",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Fully-configurable systematic parallelism",
-  "AccessKey": "ipsa",
-  "DocumentMessage": 899,
-  "Registered": "2011-05-28T11:22:45.225579+02:00",
-  "RegisteredAssociateId": 282,
-  "Updated": "2015-07-02T11:22:45.225579+02:00",
-  "UpdatedAssociateId": 391,
-  "UpdatedCount": 564,
+  "InlineImages": true,
+  "LongDescription": "Monitored actuating function",
+  "AccessKey": "qui",
+  "DocumentMessage": 678,
+  "Registered": "2014-08-22T14:19:10.7873511+02:00",
+  "RegisteredAssociateId": 822,
+  "Updated": "2007-07-18T14:19:10.7873511+02:00",
+  "UpdatedAssociateId": 47,
+  "UpdatedCount": 257,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 991
+      "FieldLength": 246
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

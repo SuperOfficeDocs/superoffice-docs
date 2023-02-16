@@ -70,14 +70,14 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 689,
-  "TemplateName": "Reilly, Fay and Keeling",
-  "UseContacts": false,
-  "OrderBy": "sed"
+  "SelectionId": 1001,
+  "TemplateName": "Cormier, Tremblay and Vandervort",
+  "UseContacts": true,
+  "OrderBy": "voluptatibus"
 }
 ```
 

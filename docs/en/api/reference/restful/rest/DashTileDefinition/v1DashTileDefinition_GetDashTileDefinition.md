@@ -90,7 +90,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,31 +100,31 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 424,
-  "Name": "Gutmann-Grant",
-  "Description": "Seamless discrete ability",
-  "DefaultHeight": 839,
-  "DefaultWidth": 809,
+  "DashboardTileDefinitionId": 527,
+  "Name": "Anderson-Pfannerstill",
+  "Description": "Operative explicit instruction set",
+  "DefaultHeight": 462,
+  "DefaultWidth": 186,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Ortiz-Bednar",
-  "SelectionId": 928,
+  "EntityName": "Halvorson, Gibson and Wyman",
+  "SelectionId": 207,
   "CurrencyMode": "Base",
-  "CurrencyCode": "facilis",
+  "CurrencyCode": "temporibus",
   "Measure": "Average",
-  "MeasureField": "consectetur",
-  "SortBy": "sint",
-  "LayoutConfig": "vero",
-  "SecondarySelectionId": 30,
-  "MeasureByField": "corrupti",
+  "MeasureField": "amet",
+  "SortBy": "aut",
+  "LayoutConfig": "aut",
+  "SecondarySelectionId": 473,
+  "MeasureByField": "doloremque",
   "Usage": "Dashboard",
-  "ProviderName": "Johnston-Hirthe",
+  "ProviderName": "Rowe, Mante and Schroeder",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 886
+      "FieldType": "System.Int32",
+      "FieldLength": 973
     }
   },
   "_Links": {

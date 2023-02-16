@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 53
+  "MailItemId": 866
 }
 ```
 
@@ -98,10 +98,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 219,
-  "StartDate": "2016-07-10T11:22:38.2116073+02:00",
-  "EndDate": "1997-02-12T11:22:38.2116073+01:00",
-  "RecurrenceCounter": 741,
+  "RecurrenceId": 756,
+  "StartDate": "1999-12-28T14:19:03.4040208+01:00",
+  "EndDate": "2003-12-11T14:19:03.4040208+01:00",
+  "RecurrenceCounter": 518,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -110,20 +110,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2017-07-11T11:22:38.2116073+02:00",
+      "Date": "2010-03-12T14:19:03.4040208+01:00",
       "IsConflict": false,
-      "Description": "Profit-focused intangible secured line",
-      "DescriptionStyleHint": "Re-contextualized assymetric open system",
-      "Tooltip": "sint"
+      "Description": "Expanded exuding time-frame",
+      "DescriptionStyleHint": "Function-based composite emulation",
+      "Tooltip": "dolor"
     },
     {
-      "Date": "2017-07-11T11:22:38.2116073+02:00",
+      "Date": "2010-03-12T14:19:03.4040208+01:00",
       "IsConflict": false,
-      "Description": "Profit-focused intangible secured line",
-      "DescriptionStyleHint": "Re-contextualized assymetric open system",
-      "Tooltip": "sint"
+      "Description": "Expanded exuding time-frame",
+      "DescriptionStyleHint": "Function-based composite emulation",
+      "Tooltip": "dolor"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

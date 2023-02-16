@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,41 +75,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 292,
-  "Name": "Runolfsson, Corwin and O'Connell",
-  "Tooltip": "recusandae",
-  "Rank": 665,
+  "ProjTypeId": 530,
+  "Name": "Hauck-Abbott",
+  "Tooltip": "dignissimos",
+  "Rank": 962,
   "DurationUnit": "Century",
-  "ProjectDuration": 637,
-  "Deleted": false,
-  "HasGuide": true,
+  "ProjectDuration": 941,
+  "Deleted": true,
+  "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 825,
-      "Name": "Dickens Inc and Sons",
-      "ToolTip": "Dolores officia tempore eum dolor iure.",
+      "Id": 916,
+      "Name": "Treutel, Lakin and Rowe",
+      "ToolTip": "Est doloribus ipsam et maxime vero.",
       "Deleted": false,
-      "Rank": 820,
-      "Type": "accusantium",
-      "ColorBlock": 852,
-      "IconHint": "voluptatem",
+      "Rank": 475,
+      "Type": "quia",
+      "ColorBlock": 135,
+      "IconHint": "sint",
       "Selected": false,
-      "LastChanged": "2017-04-12T11:22:38.5240368+02:00",
+      "LastChanged": "2013-04-17T14:19:03.6863742+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "perspiciatis",
+      "ExtraInfo": "quam",
+      "StyleHint": "corporis",
       "Hidden": false,
-      "FullName": "Cody Rogahn MD",
+      "FullName": "Prof. Mossie Reichel III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 384
+          "FieldType": "System.Int32",
+          "FieldLength": 773
         }
       }
     }
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 619
+      "FieldLength": 120
     }
   }
 }

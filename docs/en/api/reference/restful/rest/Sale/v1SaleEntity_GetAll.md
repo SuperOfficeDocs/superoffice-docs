@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale?$select=name,department,category/id
 GET /api/v1/Sale?$filter=name begins 'S'
 GET /api/v1/Sale?$orderBy=name asc
-GET /api/v1/Sale?$entities=autem
-GET /api/v1/Sale?$top=551
-GET /api/v1/Sale?$skip=213
+GET /api/v1/Sale?$entities=reprehenderit
+GET /api/v1/Sale?$top=552
+GET /api/v1/Sale?$skip=530
 GET /api/v1/Sale?$mode=Full
 GET /api/v1/Sale?$options=GrandTotal=true
-GET /api/v1/Sale?$context=aliquid
+GET /api/v1/Sale?$context=ut
 GET /api/v1/Sale?$format=JSON
 GET /api/v1/Sale?$jsonSafe=False
 GET /api/v1/Sale?$output=Display
@@ -128,19 +128,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quidem",
+  "odata.nextLink": "est",
   "value": [
     {
-      "PrimaryKey": 8188,
+      "PrimaryKey": 8264,
       "EntityName": "person",
-      "personId": 8188,
-      "fullName": "Marquis Hamill"
+      "personId": 8264,
+      "fullName": "Mittie Hand Jr."
     },
     {
-      "PrimaryKey": 1000,
+      "PrimaryKey": 6784,
       "EntityName": "person",
-      "personId": 1000,
-      "fullName": "Miss Sadye Rohan"
+      "personId": 6784,
+      "fullName": "Enrico Boyer"
     }
   ]
 }

@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 691,
-  "Currency": "ipsam"
+  "QuoteConnectionId": 363,
+  "Currency": "atque"
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 932,
-    "ERPPriceListKey": "expedita",
-    "QuoteConnectionId": 516,
-    "Name": "Mills, Cummerata and Emmerich",
-    "Description": "User-centric even-keeled flexibility",
-    "Currency": "veritatis",
-    "CurrencyName": "West-Collins",
-    "ValidFrom": "2018-05-28T11:22:38.9301893+02:00",
-    "ValidTo": "2018-06-10T11:22:38.9301893+02:00",
+    "PriceListId": 855,
+    "ERPPriceListKey": "est",
+    "QuoteConnectionId": 68,
+    "Name": "Schiller Inc and Sons",
+    "Description": "Object-based high-level success",
+    "Currency": "omnis",
+    "CurrencyName": "Ledner, Pacocha and Klocko",
+    "ValidFrom": "2022-06-23T14:19:04.0313341+02:00",
+    "ValidTo": "2020-05-29T14:19:04.0313341+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 89
+        "FieldType": "System.Int32",
+        "FieldLength": 484
       }
     }
   }

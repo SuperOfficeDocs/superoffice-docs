@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 124,
-    "Name": "Mann, Skiles and Herman",
-    "Tooltip": "fugiat",
-    "Deleted": false,
-    "Rank": 680,
-    "UdListDefinitionId": 891
+    "HeadingId": 873,
+    "Name": "Cummerata LLC",
+    "Tooltip": "nesciunt",
+    "Deleted": true,
+    "Rank": 639,
+    "UdListDefinitionId": 823
   },
   {
-    "HeadingId": 124,
-    "Name": "Mann, Skiles and Herman",
-    "Tooltip": "fugiat",
-    "Deleted": false,
-    "Rank": 680,
-    "UdListDefinitionId": 891
+    "HeadingId": 873,
+    "Name": "Cummerata LLC",
+    "Tooltip": "nesciunt",
+    "Deleted": true,
+    "Rank": 639,
+    "UdListDefinitionId": 823
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 981,
-    "Name": "Rath-Turcotte",
-    "Tooltip": "est",
-    "Deleted": false,
-    "Rank": 623,
-    "UdListDefinitionId": 426,
+    "HeadingId": 574,
+    "Name": "Weber, Ruecker and Mitchell",
+    "Tooltip": "delectus",
+    "Deleted": true,
+    "Rank": 255,
+    "UdListDefinitionId": 217,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 627
+        "FieldType": "System.Int32",
+        "FieldLength": 419
       }
     }
   }

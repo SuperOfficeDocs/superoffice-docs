@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Brakus Group"
+  "TargetTableName": "Armstrong-Abshire"
 }
 ```
 
@@ -127,70 +127,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Realigned fault-tolerant moratorium",
-  "Postit": "eaque",
+  "Description": "User-friendly grid-enabled system engine",
+  "Postit": "id",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 104,
-  "IncludePerson": 301,
-  "MemberCount": 198,
-  "Name": "Sawayn-Haley",
-  "PostitTextId": 849,
-  "CreatedDate": "2016-08-09T11:22:39.2738622+02:00",
-  "SelectionId": 418,
-  "SoundEx": "omnis",
-  "Source": 128,
-  "TextId": 259,
-  "UpdatedDate": "2017-11-24T11:22:39.2738622+01:00",
-  "UpdatedCount": 914,
-  "Visibility": 280,
+  "GroupIdx": 386,
+  "IncludePerson": 970,
+  "MemberCount": 898,
+  "Name": "Pagac-Veum",
+  "PostitTextId": 609,
+  "CreatedDate": "2010-08-27T14:19:04.1723543+02:00",
+  "SelectionId": 42,
+  "SoundEx": "rerum",
+  "Source": 720,
+  "TextId": 680,
+  "UpdatedDate": "1995-12-11T14:19:04.1723543+01:00",
+  "UpdatedCount": 818,
+  "Visibility": 918,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 133,
-  "TargetTableName": "Jakubowski Inc and Sons",
+  "TargetTableNumber": 376,
+  "TargetTableName": "Ledner-Runte",
   "Completed": false,
-  "LeftSelectionId": 916,
-  "RightSelectionId": 328,
+  "LeftSelectionId": 32,
+  "RightSelectionId": 662,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Auer-Koch",
-  "ShadowProviderName": "Pacocha, Lakin and Treutel",
-  "ChartKey": "dolor",
-  "LastLoaded": "2022-12-04T11:22:39.2738622+01:00",
-  "LastLoadedBy": 345,
+  "MainProviderName": "Watsica Group",
+  "ShadowProviderName": "Hahn-Parker",
+  "ChartKey": "dolorum",
+  "LastLoaded": "2012-05-03T14:19:04.1723543+02:00",
+  "LastLoadedBy": 130,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1997-10-12T11:22:39.2738622+02:00",
-  "LastMembershipChangeBy": 203,
+  "LastMembershipChange": "2021-04-27T14:19:04.1723543+02:00",
+  "LastMembershipChangeBy": 894,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "adipisci",
-  "MemberTabHeading": "quis",
-  "MailingsProviderName": "Cassin, Torphy and Abshire",
-  "DashboardTileDefinitionId": 589,
+  "MainHeading": "at",
+  "MemberTabHeading": "doloremque",
+  "MailingsProviderName": "Gutkowski Group",
+  "DashboardTileDefinitionId": 300,
   "VisibleFor": [
     {
-      "VisibleId": 992,
+      "VisibleId": 784,
       "Visibility": "All",
-      "DisplayValue": "cupiditate",
+      "DisplayValue": "similique",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 63
+          "FieldLength": 12
         }
       }
     },
     {
-      "VisibleId": 992,
+      "VisibleId": 784,
       "Visibility": "All",
-      "DisplayValue": "cupiditate",
+      "DisplayValue": "similique",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 63
+          "FieldLength": 12
         }
       }
     }
@@ -199,8 +199,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 306
+      "FieldType": "System.String",
+      "FieldLength": 616
     }
   }
 }

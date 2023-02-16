@@ -25,8 +25,8 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=doloribus
+GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=consequuntur
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 260,
-    "Name": "Legros Inc and Sons",
-    "ToolTip": "Magnam et.",
+    "Id": 128,
+    "Name": "Olson Inc and Sons",
+    "ToolTip": "Nam et et.",
     "Deleted": false,
-    "Rank": 48,
-    "Type": "in",
+    "Rank": 938,
+    "Type": "veritatis",
     "ChildItems": [
       {
-        "Id": 385,
-        "Name": "Turcotte LLC",
-        "ToolTip": "Eaque est distinctio dolores.",
-        "Deleted": false,
-        "Rank": 892,
-        "Type": "et",
+        "Id": 644,
+        "Name": "Marvin-Douglas",
+        "ToolTip": "Aperiam consequatur quo magnam impedit esse voluptas veritatis.",
+        "Deleted": true,
+        "Rank": 561,
+        "Type": "tenetur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fugit",
-        "ColorBlock": 66,
-        "ExtraInfo": "doloremque",
-        "StyleHint": "neque",
-        "FullName": "Madisyn Bruen",
+        "IconHint": "maxime",
+        "ColorBlock": 249,
+        "ExtraInfo": "ducimus",
+        "StyleHint": "cupiditate",
+        "FullName": "Bernadine Hessel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 436
+            "FieldLength": 827
           }
         }
       }
     ],
-    "IconHint": "voluptatum",
-    "ColorBlock": 844,
-    "ExtraInfo": "ab",
-    "StyleHint": "occaecati",
-    "FullName": "Maureen Mraz",
+    "IconHint": "ex",
+    "ColorBlock": 296,
+    "ExtraInfo": "minima",
+    "StyleHint": "omnis",
+    "FullName": "Sydnie Kilback",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 550
+        "FieldType": "System.Int32",
+        "FieldLength": 26
       }
     }
   }

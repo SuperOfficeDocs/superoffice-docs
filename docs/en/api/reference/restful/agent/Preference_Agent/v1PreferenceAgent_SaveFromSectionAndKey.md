@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "praesentium",
-  "Key": "quam",
+  "Section": "et",
+  "Key": "ducimus",
   "PreferenceDescription": null
 }
 ```
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 274,
-  "Section": "tempore",
-  "Key": "atque",
-  "Name": "Cormier Group",
+  "PrefDescId": 356,
+  "Section": "non",
+  "Key": "nesciunt",
+  "Name": "Kshlerin Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Secured demand-driven hub",
+  "Description": "Multi-channelled tangible info-mediaries",
   "IsBuiltin": false,
-  "TableName": "Lueilwitz Inc and Sons",
-  "UserDefinedListId": 289,
-  "Rank": 183,
-  "SubGroup": "officia",
-  "MinLevel": 582,
-  "MaxValue": 600,
-  "MinValue": 780,
-  "RequiredLicense": "dicta",
+  "TableName": "Corkery LLC",
+  "UserDefinedListId": 444,
+  "Rank": 291,
+  "SubGroup": "cumque",
+  "MinLevel": 498,
+  "MaxValue": 701,
+  "MinValue": 978,
+  "RequiredLicense": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldLength": 402
     }
   }
 }

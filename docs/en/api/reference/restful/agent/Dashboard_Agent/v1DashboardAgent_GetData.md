@@ -72,12 +72,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 436,
-  "Restrictions": "corrupti"
+  "DashboardTileId": 91,
+  "Restrictions": "quis"
 }
 ```
 
@@ -91,19 +91,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Mohr-Cruickshank",
-        "DisplayTooltip": "ut",
-        "DisplayType": "quae",
-        "CanOrderBy": false,
-        "Name": "Williamson Inc and Sons",
+        "DisplayName": "Gutmann Group",
+        "DisplayTooltip": "quisquam",
+        "DisplayType": "aut",
+        "CanOrderBy": true,
+        "Name": "Wolf Inc and Sons",
         "CanRestrictBy": false,
-        "RestrictionType": "recusandae",
-        "RestrictionListName": "Moore, Mosciski and Schultz",
-        "IsVisible": false,
-        "ExtraInfo": "voluptas",
-        "Width": "et",
-        "IconHint": "error",
-        "HeadingIconHint": "sit"
+        "RestrictionType": "voluptate",
+        "RestrictionListName": "Mueller, Howell and Veum",
+        "IsVisible": true,
+        "ExtraInfo": "ea",
+        "Width": "in",
+        "IconHint": "ut",
+        "HeadingIconHint": "quis"
       }
     ],
     "Result": null
@@ -111,19 +111,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Mohr-Cruickshank",
-        "DisplayTooltip": "ut",
-        "DisplayType": "quae",
-        "CanOrderBy": false,
-        "Name": "Williamson Inc and Sons",
+        "DisplayName": "Gutmann Group",
+        "DisplayTooltip": "quisquam",
+        "DisplayType": "aut",
+        "CanOrderBy": true,
+        "Name": "Wolf Inc and Sons",
         "CanRestrictBy": false,
-        "RestrictionType": "recusandae",
-        "RestrictionListName": "Moore, Mosciski and Schultz",
-        "IsVisible": false,
-        "ExtraInfo": "voluptas",
-        "Width": "et",
-        "IconHint": "error",
-        "HeadingIconHint": "sit"
+        "RestrictionType": "voluptate",
+        "RestrictionListName": "Mueller, Howell and Veum",
+        "IsVisible": true,
+        "ExtraInfo": "ea",
+        "Width": "in",
+        "IconHint": "ut",
+        "HeadingIconHint": "quis"
       }
     ],
     "Result": null

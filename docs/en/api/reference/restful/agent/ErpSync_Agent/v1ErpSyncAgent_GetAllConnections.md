@@ -92,7 +92,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -104,33 +104,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 870,
-    "ErpConnectorId": 478,
-    "DisplayName": "Brakus LLC",
-    "DisplayDescription": "Operative analyzing moderator",
+    "ErpConnectionId": 51,
+    "ErpConnectorId": 344,
+    "DisplayName": "Yost LLC",
+    "DisplayDescription": "Right-sized interactive benchmark",
     "Active": false,
-    "ConnectionId": "unde",
-    "MostRecentTimestamp": "doloribus",
+    "ConnectionId": "et",
+    "MostRecentTimestamp": "molestiae",
     "ConfigFields": {
-      "ConfigFields1": "nihil",
-      "ConfigFields2": "id"
+      "ConfigFields1": "et",
+      "ConfigFields2": "consequuntur"
     },
     "Deleted": false,
-    "AllAccess": false,
+    "AllAccess": true,
     "UserGroupAccessIds": [
-      708,
-      175
+      499,
+      773
     ],
     "AssociateAccessIds": [
-      928,
-      730
+      787,
+      922
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 174
+        "FieldLength": 874
       }
     }
   }

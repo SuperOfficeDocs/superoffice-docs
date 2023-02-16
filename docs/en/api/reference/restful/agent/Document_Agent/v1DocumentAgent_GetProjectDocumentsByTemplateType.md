@@ -97,15 +97,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 913,
-  "StartTime": "2011-02-08T11:22:37.8523182+01:00",
-  "EndTime": "1998-04-17T11:22:37.8523182+02:00",
-  "Count": 389,
-  "DocumentTemplateId": 376
+  "ProjectId": 7,
+  "StartTime": "2002-08-23T14:19:03.2449054+02:00",
+  "EndTime": "2004-10-12T14:19:03.2449054+02:00",
+  "Count": 110,
+  "DocumentTemplateId": 407
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 130,
-    "Attention": "aspernatur",
-    "Header": "et",
-    "Name": "Marquardt Inc and Sons",
-    "OurRef": "illum",
-    "YourRef": "sit",
-    "Description": "Enterprise-wide global task-force",
-    "DocumentTemplate": "nostrum",
-    "IsPublished": false,
-    "PersonId": 572,
-    "PersonFullName": "Faustino Ziemann",
-    "AssociateFullName": "Lennie Russel",
-    "ContactId": 921,
-    "ContactName": "McCullough Group",
-    "ProjectId": 521,
-    "ProjectName": "Walker, White and Jast",
-    "AssociateId": 656,
-    "Snum": 222,
-    "SaleId": 539,
-    "SaleName": "DuBuque-Hane",
+    "DocumentId": 387,
+    "Attention": "voluptatem",
+    "Header": "quia",
+    "Name": "Konopelski LLC",
+    "OurRef": "soluta",
+    "YourRef": "sunt",
+    "Description": "Digitized incremental conglomeration",
+    "DocumentTemplate": "aut",
+    "IsPublished": true,
+    "PersonId": 473,
+    "PersonFullName": "Ms. Joan Owen Cassin Jr.",
+    "AssociateFullName": "Alysha Hackett",
+    "ContactId": 726,
+    "ContactName": "Botsford-Mraz",
+    "ProjectId": 29,
+    "ProjectName": "Mertz-Goldner",
+    "AssociateId": 718,
+    "Snum": 411,
+    "SaleId": 733,
+    "SaleName": "Okuneva, Shanahan and Auer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 598
+        "FieldLength": 838
       }
     }
   }

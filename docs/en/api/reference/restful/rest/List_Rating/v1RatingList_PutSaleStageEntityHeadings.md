@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 190,
-    "Name": "Koss Inc and Sons",
-    "Tooltip": "autem",
+    "HeadingId": 999,
+    "Name": "Bernier Group",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 765,
-    "UdListDefinitionId": 799
+    "Rank": 382,
+    "UdListDefinitionId": 491
   },
   {
-    "HeadingId": 190,
-    "Name": "Koss Inc and Sons",
-    "Tooltip": "autem",
+    "HeadingId": 999,
+    "Name": "Bernier Group",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 765,
-    "UdListDefinitionId": 799
+    "Rank": 382,
+    "UdListDefinitionId": 491
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 471,
-    "Name": "Wyman-Kertzmann",
-    "Tooltip": "quia",
+    "HeadingId": 368,
+    "Name": "O'Conner Group",
+    "Tooltip": "non",
     "Deleted": true,
-    "Rank": 877,
-    "UdListDefinitionId": 481,
+    "Rank": 889,
+    "UdListDefinitionId": 365,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 570
+        "FieldType": "System.String",
+        "FieldLength": 427
       }
     }
   }

@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    378,
-    742
+    442,
+    50
   ]
 }
 ```
@@ -104,45 +104,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 537,
-    "MessageId": "dignissimos",
-    "Subject": "molestiae",
+    "ServerId": 828,
+    "MessageId": "voluptatem",
+    "Subject": "explicabo",
     "From": null,
     "To": [
       {
-        "ContactId": 576,
-        "ContactName": "Glover, Morar and Hauck",
-        "PersonId": 136,
-        "PersonName": "Gibson Group",
-        "AssociateId": 635,
-        "Address": "culpa",
-        "EmailId": 129,
+        "ContactId": 83,
+        "ContactName": "Reinger Group",
+        "PersonId": 93,
+        "PersonName": "Koss-Goodwin",
+        "AssociateId": 262,
+        "Address": "sit",
+        "EmailId": 689,
         "DuplicatePersonIds": [
-          52,
-          184
+          741,
+          211
         ],
-        "Name": "Kovacek, Goodwin and Mertz",
+        "Name": "Graham-Vandervort",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 924
+            "FieldLength": 821
           }
         }
       }
     ],
-    "Sent": "2007-07-02T11:22:38.2740943+02:00",
+    "Sent": "2003-04-10T14:19:03.466522+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 203,
+    "Size": 637,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 293
+        "FieldType": "System.Int32",
+        "FieldLength": 919
       }
     }
   }

@@ -93,16 +93,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 208,
-  "Name": "Witting-McCullough",
+  "ScreenChooserId": 694,
+  "Name": "Weber, Abshire and Welch",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "sed",
-  "Source": "harum",
-  "Registered": "2021-11-04T11:22:45.3661887+01:00",
-  "RegisteredAssociateId": 548,
-  "Updated": "1999-10-04T11:22:45.3661887+02:00",
-  "UpdatedAssociateId": 219
+  "Enabled": true,
+  "UniqueIdentifier": "numquam",
+  "Source": "qui",
+  "Registered": "1997-08-29T14:19:10.912356+02:00",
+  "RegisteredAssociateId": 711,
+  "Updated": "2015-05-19T14:19:10.912356+02:00",
+  "UpdatedAssociateId": 982
 }
 ```
 
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 952,
-  "Name": "Harber LLC",
+  "ScreenChooserId": 904,
+  "Name": "Bergnaum, Kovacek and Heller",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "commodi",
-  "Source": "pariatur",
-  "Registered": "1996-09-15T11:22:45.3661887+02:00",
-  "RegisteredAssociateId": 832,
-  "Updated": "1999-12-03T11:22:45.3661887+01:00",
-  "UpdatedAssociateId": 761,
+  "Enabled": true,
+  "UniqueIdentifier": "iste",
+  "Source": "in",
+  "Registered": "2010-05-05T14:19:10.912356+02:00",
+  "RegisteredAssociateId": 998,
+  "Updated": "2010-03-10T14:19:10.912356+01:00",
+  "UpdatedAssociateId": 877,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 464
+      "FieldLength": 852
     }
   }
 }

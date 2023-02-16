@@ -69,14 +69,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/CRMScript?$select=name,department,category/id
 GET /api/v1/CRMScript?$filter=name begins 'S'
 GET /api/v1/CRMScript?$orderBy=name asc
-GET /api/v1/CRMScript?$entities=ipsam
-GET /api/v1/CRMScript?$top=391
-GET /api/v1/CRMScript?$skip=523
+GET /api/v1/CRMScript?$entities=eos
+GET /api/v1/CRMScript?$top=197
+GET /api/v1/CRMScript?$skip=118
 GET /api/v1/CRMScript?$mode=Full
 GET /api/v1/CRMScript?$options=GrandTotal=true
-GET /api/v1/CRMScript?$context=expedita
+GET /api/v1/CRMScript?$context=ratione
 GET /api/v1/CRMScript?$format=JSON
-GET /api/v1/CRMScript?$jsonSafe=False
+GET /api/v1/CRMScript?$jsonSafe=True
 GET /api/v1/CRMScript?$output=Display
 ```
 
@@ -128,19 +128,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "maxime",
+  "odata.nextLink": "velit",
   "value": [
     {
-      "PrimaryKey": 386,
+      "PrimaryKey": 6807,
       "EntityName": "person",
-      "personId": 386,
-      "fullName": "Prof. Brooks O'Reilly II"
+      "personId": 6807,
+      "fullName": "Ms. Minnie Turner"
     },
     {
-      "PrimaryKey": 6955,
+      "PrimaryKey": 8376,
       "EntityName": "person",
-      "personId": 6955,
-      "fullName": "Marian Johns"
+      "personId": 8376,
+      "fullName": "Bobby Lebsack"
     }
   ]
 }

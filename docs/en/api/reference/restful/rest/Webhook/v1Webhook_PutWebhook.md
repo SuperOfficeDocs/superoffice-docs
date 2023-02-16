@@ -102,30 +102,30 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 277,
-  "Name": "Spencer-Brekke",
+  "WebhookId": 787,
+  "Name": "Hartmann-Stark",
   "Events": [
-    "qui",
-    "cumque"
+    "error",
+    "quia"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "ullam",
+  "Secret": "sit",
   "State": "Active",
-  "Type": "dolor",
+  "Type": "nobis",
   "Headers": {
-    "Headers1": "et",
-    "Headers2": "quo"
+    "Headers1": "unde",
+    "Headers2": "neque"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1996-11-10T11:22:45.5379661+01:00",
+  "Registered": "2004-08-10T14:19:11.0855578+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2021-01-12T11:22:45.5379661+01:00",
+  "Updated": "2022-01-11T14:19:11.0855578+01:00",
   "UpdatedAssociate": null
 }
 ```
@@ -137,26 +137,26 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 179,
-  "Name": "Breitenberg-Kutch",
+  "WebhookId": 357,
+  "Name": "Bahringer LLC",
   "Events": [
-    "reprehenderit",
-    "repudiandae"
+    "labore",
+    "quo"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "in",
+  "Secret": "aut",
   "State": "Active",
-  "Type": "sapiente",
+  "Type": "voluptas",
   "Headers": {
-    "Headers1": "iure",
-    "Headers2": "sit"
+    "Headers1": "dicta",
+    "Headers2": "sapiente"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2014-03-17T11:22:45.5536344+01:00",
+  "Registered": "1999-12-22T14:19:11.0855578+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2002-07-31T11:22:45.5536344+02:00",
+  "Updated": "2011-09-07T14:19:11.0855578+02:00",
   "UpdatedAssociate": null,
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",

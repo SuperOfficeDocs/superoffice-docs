@@ -90,10 +90,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Fadel, Predovic and Stoltenberg",
+  "Name": "Ryan-Swaniawski",
   "ForceFlatList": false,
-  "AdditionalInfo": "quia",
-  "OnlyHistory": false
+  "AdditionalInfo": "aperiam",
+  "OnlyHistory": true
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 80,
-    "Name": "Kris Group",
-    "ToolTip": "Qui eos nisi repellat provident quas.",
+    "Id": 289,
+    "Name": "Kiehn-Altenwerth",
+    "ToolTip": "Ipsum non nobis quidem non aut repudiandae tenetur.",
     "Deleted": true,
-    "Rank": 503,
-    "Type": "consequatur",
+    "Rank": 766,
+    "Type": "tempora",
     "ChildItems": [
       {
-        "Id": 206,
-        "Name": "Schamberger, Ondricka and Kihn",
-        "ToolTip": "Praesentium quos ut minima harum sint est.",
-        "Deleted": false,
-        "Rank": 854,
-        "Type": "repudiandae",
+        "Id": 846,
+        "Name": "Goldner Group",
+        "ToolTip": "Voluptas ab blanditiis eligendi corrupti exercitationem.",
+        "Deleted": true,
+        "Rank": 352,
+        "Type": "aliquam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 789,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "quo",
-        "FullName": "Mr. Colten Aurelia Murray",
+        "IconHint": "pariatur",
+        "ColorBlock": 132,
+        "ExtraInfo": "ut",
+        "StyleHint": "aspernatur",
+        "FullName": "Daisy Keeling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 124
+            "FieldLength": 63
           }
         }
       }
     ],
-    "IconHint": "fugit",
-    "ColorBlock": 756,
-    "ExtraInfo": "numquam",
-    "StyleHint": "sequi",
-    "FullName": "Mr. Sanford Bernhard V",
+    "IconHint": "consequatur",
+    "ColorBlock": 412,
+    "ExtraInfo": "animi",
+    "StyleHint": "placeat",
+    "FullName": "Brandt Josephine Ledner I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 641
+        "FieldType": "System.String",
+        "FieldLength": 32
       }
     }
   }

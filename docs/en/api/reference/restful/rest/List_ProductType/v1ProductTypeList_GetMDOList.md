@@ -25,8 +25,8 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductType/MDOItems?flat=True
-GET /api/v1/List/ProductType/MDOItems?query=incidunt
+GET /api/v1/List/ProductType/MDOItems?flat=False
+GET /api/v1/List/ProductType/MDOItems?query=dolores
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 277,
-    "Name": "Crona-O'Connell",
-    "ToolTip": "Hic voluptatem ducimus accusantium.",
-    "Deleted": true,
-    "Rank": 77,
-    "Type": "iure",
+    "Id": 300,
+    "Name": "Bosco-Robel",
+    "ToolTip": "Voluptatem fugit consequatur aliquam dicta ut.",
+    "Deleted": false,
+    "Rank": 337,
+    "Type": "dolores",
     "ChildItems": [
       {
-        "Id": 613,
-        "Name": "Spinka, Leuschke and Nikolaus",
-        "ToolTip": "Non doloribus.",
+        "Id": 634,
+        "Name": "Green LLC",
+        "ToolTip": "Molestiae itaque praesentium enim at.",
         "Deleted": false,
-        "Rank": 891,
-        "Type": "ratione",
+        "Rank": 64,
+        "Type": "repudiandae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequuntur",
-        "ColorBlock": 831,
-        "ExtraInfo": "illum",
-        "StyleHint": "cumque",
-        "FullName": "Mr. Antwon Merle Zemlak IV",
+        "IconHint": "ea",
+        "ColorBlock": 157,
+        "ExtraInfo": "quidem",
+        "StyleHint": "dolore",
+        "FullName": "Stefanie Lehner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 260
+            "FieldLength": 497
           }
         }
       }
     ],
-    "IconHint": "nihil",
-    "ColorBlock": 314,
-    "ExtraInfo": "et",
-    "StyleHint": "eum",
-    "FullName": "Raven Daugherty",
+    "IconHint": "ipsum",
+    "ColorBlock": 75,
+    "ExtraInfo": "neque",
+    "StyleHint": "enim",
+    "FullName": "Jimmy Abbott",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 264
+        "FieldLength": 839
       }
     }
   }

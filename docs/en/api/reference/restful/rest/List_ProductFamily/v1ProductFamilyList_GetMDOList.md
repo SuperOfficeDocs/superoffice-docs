@@ -25,8 +25,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=magnam
+GET /api/v1/List/ProductFamily/MDOItems?flat=False
+GET /api/v1/List/ProductFamily/MDOItems?query=ratione
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 879,
-    "Name": "Ruecker-Bartell",
-    "ToolTip": "Suscipit et.",
+    "Id": 115,
+    "Name": "Stanton Group",
+    "ToolTip": "Quia quo quos.",
     "Deleted": true,
-    "Rank": 700,
-    "Type": "iste",
+    "Rank": 997,
+    "Type": "non",
     "ChildItems": [
       {
-        "Id": 93,
-        "Name": "Heathcote LLC",
-        "ToolTip": "Praesentium culpa perspiciatis rerum.",
-        "Deleted": false,
-        "Rank": 310,
-        "Type": "alias",
+        "Id": 554,
+        "Name": "Bechtelar-Gleason",
+        "ToolTip": "Qui aut facilis eaque et.",
+        "Deleted": true,
+        "Rank": 313,
+        "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "unde",
-        "ColorBlock": 942,
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "distinctio",
-        "FullName": "Jackie Ondricka",
+        "IconHint": "ullam",
+        "ColorBlock": 918,
+        "ExtraInfo": "architecto",
+        "StyleHint": "earum",
+        "FullName": "Ruth Blick",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 63
+            "FieldLength": 738
           }
         }
       }
     ],
-    "IconHint": "maxime",
-    "ColorBlock": 270,
-    "ExtraInfo": "impedit",
-    "StyleHint": "beatae",
-    "FullName": "Vaughn Kshlerin II",
+    "IconHint": "modi",
+    "ColorBlock": 88,
+    "ExtraInfo": "sed",
+    "StyleHint": "molestiae",
+    "FullName": "Prof. Alvah Grady",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 77
+        "FieldType": "System.Int32",
+        "FieldLength": 905
       }
     }
   }

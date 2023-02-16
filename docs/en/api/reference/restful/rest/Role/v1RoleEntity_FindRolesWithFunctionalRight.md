@@ -74,7 +74,7 @@ OK
 GET /api/v1/Role/WithFunctionRight/{functionalRightName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,50 +85,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 947,
-    "Name": "Zemlak, Keebler and Corwin",
-    "ToolTip": "Quis soluta.",
+    "Id": 312,
+    "Name": "Schimmel, Farrell and Hartmann",
+    "ToolTip": "Adipisci dolor aliquam est natus.",
     "Deleted": true,
-    "Rank": 725,
-    "Type": "aliquam",
+    "Rank": 29,
+    "Type": "ea",
     "ChildItems": [
       {
-        "Id": 909,
-        "Name": "Pfeffer LLC",
-        "ToolTip": "Veniam deleniti occaecati in aliquid dignissimos.",
-        "Deleted": false,
-        "Rank": 376,
-        "Type": "eos",
+        "Id": 642,
+        "Name": "Balistreri-Reinger",
+        "ToolTip": "Ex architecto est aut excepturi quis.",
+        "Deleted": true,
+        "Rank": 436,
+        "Type": "quos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nemo",
-        "ColorBlock": 233,
-        "ExtraInfo": "fugit",
-        "StyleHint": "beatae",
-        "FullName": "Reynold Yundt",
+        "IconHint": "quis",
+        "ColorBlock": 944,
+        "ExtraInfo": "eaque",
+        "StyleHint": "dicta",
+        "FullName": "Mr. Loraine Zieme",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 619
+            "FieldLength": 483
           }
         }
       }
     ],
-    "IconHint": "dolores",
-    "ColorBlock": 931,
-    "ExtraInfo": "ex",
-    "StyleHint": "dicta",
-    "FullName": "Maximillian Terrell Kassulke Jr.",
+    "IconHint": "ratione",
+    "ColorBlock": 279,
+    "ExtraInfo": "est",
+    "StyleHint": "quis",
+    "FullName": "Elisha McLaughlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 418
+        "FieldLength": 989
       }
     }
   }

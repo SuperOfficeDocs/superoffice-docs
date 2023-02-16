@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 749,
-  "Name": "Kihn-Prohaska",
-  "Tooltip": "nemo",
+  "Id": 995,
+  "Name": "Baumbach-Kovacek",
+  "Tooltip": "saepe",
   "Deleted": true,
-  "UdListDefinitionId": 46,
-  "Rank": 650,
+  "UdListDefinitionId": 858,
+  "Rank": 381,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 951
+      "FieldType": "System.String",
+      "FieldLength": 438
     }
   }
 }

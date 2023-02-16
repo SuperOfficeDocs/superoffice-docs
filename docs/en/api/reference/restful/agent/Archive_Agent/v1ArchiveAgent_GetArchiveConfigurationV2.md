@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Douglas-Jones",
-  "ProviderName": "Mueller Group",
-  "Context": "sunt",
-  "OwnerKeys": "voluptas"
+  "GuiName": "Sporer LLC",
+  "ProviderName": "Mertz-Little",
+  "Context": "aut",
+  "OwnerKeys": "ea"
 }
 ```
 
@@ -100,68 +100,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Windler, Wilkinson and Schultz",
-      "DisplayTooltip": "quaerat",
-      "DisplayType": "omnis",
+      "DisplayName": "Tillman Inc and Sons",
+      "DisplayTooltip": "dolore",
+      "DisplayType": "asperiores",
       "CanOrderBy": false,
-      "Name": "Rice-McDermott",
+      "Name": "Cormier-Kiehn",
       "CanRestrictBy": true,
-      "RestrictionType": "atque",
-      "RestrictionListName": "Reilly Inc and Sons",
-      "IsVisible": false,
-      "ExtraInfo": "vero",
-      "Width": "consequuntur",
-      "IconHint": "saepe",
-      "HeadingIconHint": "ipsum"
+      "RestrictionType": "aliquam",
+      "RestrictionListName": "Murazik, Watsica and Bartell",
+      "IsVisible": true,
+      "ExtraInfo": "nihil",
+      "Width": "corporis",
+      "IconHint": "et",
+      "HeadingIconHint": "commodi"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 510,
-      "Name": "Leffler Group",
-      "ToolTip": "Ullam optio.",
-      "Deleted": true,
-      "Rank": 669,
-      "Type": "dolorem",
-      "ColorBlock": 466,
-      "IconHint": "qui",
+      "Id": 279,
+      "Name": "Stehr-Kiehn",
+      "ToolTip": "Tempora eum aut inventore quo labore suscipit.",
+      "Deleted": false,
+      "Rank": 25,
+      "Type": "qui",
+      "ColorBlock": 378,
+      "IconHint": "nulla",
       "Selected": false,
-      "LastChanged": "2014-03-28T11:22:37.3992475+01:00",
+      "LastChanged": "2021-04-25T14:19:02.7281785+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "modi",
-      "StyleHint": "et",
+      "ExtraInfo": "sit",
+      "StyleHint": "mollitia",
       "Hidden": false,
-      "FullName": "Dr. Jerel Heidenreich",
+      "FullName": "Claudine Jordyn Goldner V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 29
+          "FieldType": "System.Int32",
+          "FieldLength": 336
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Ledner Inc and Sons",
+      "Name": "Schamberger-Ortiz",
       "Direction": "ASC"
     },
     {
-      "Name": "Ledner Inc and Sons",
+      "Name": "Schamberger-Ortiz",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "ea",
+  "OwnerKeys": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldLength": 346
     }
   }
 }

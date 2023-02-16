@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 93,
-    "Name": "Beer, Buckridge and Jacobs",
-    "ToolTip": "Libero harum maiores iusto vero qui et.",
+    "Id": 692,
+    "Name": "Orn Group",
+    "ToolTip": "Voluptates deleniti.",
     "Deleted": true,
-    "Rank": 672,
-    "Type": "maxime",
-    "ColorBlock": 551,
-    "IconHint": "fugit",
+    "Rank": 764,
+    "Type": "quia",
+    "ColorBlock": 724,
+    "IconHint": "tempora",
     "Selected": false,
-    "LastChanged": "2016-08-11T11:22:46.0222797+02:00",
+    "LastChanged": "2013-08-28T14:19:11.3524087+02:00",
     "ChildItems": [
       {
-        "Id": 394,
-        "Name": "Waelchi-Halvorson",
-        "ToolTip": "Debitis sed et laborum.",
+        "Id": 72,
+        "Name": "Lind, Yost and King",
+        "ToolTip": "Debitis quos rerum.",
         "Deleted": false,
-        "Rank": 610,
-        "Type": "autem",
-        "ColorBlock": 836,
-        "IconHint": "excepturi",
-        "Selected": false,
-        "LastChanged": "2009-02-03T11:22:46.0222797+01:00",
+        "Rank": 617,
+        "Type": "quas",
+        "ColorBlock": 298,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2018-04-08T14:19:11.3524087+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "nihil",
+        "ExtraInfo": "nihil",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Kelli Vaughn Auer I",
+        "FullName": "Chanel Turner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 679
+            "FieldLength": 396
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "possimus",
+    "ExtraInfo": "autem",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Danika Stan Murray III",
+    "FullName": "Adrienne Jerde",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 493
+        "FieldLength": 934
       }
     }
   }

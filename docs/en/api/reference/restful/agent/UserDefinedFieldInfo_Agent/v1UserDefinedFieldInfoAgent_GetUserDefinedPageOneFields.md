@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 627
+  "UserGroupId": 374
 }
 ```
 
@@ -123,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 749,
-    "ColumnId": 1001,
-    "FieldDefault": "ipsa",
-    "FieldHeight": 348,
-    "FieldLabel": "iure",
-    "FieldLeft": 465,
-    "FieldTop": 605,
+    "UDefFieldId": 213,
+    "ColumnId": 536,
+    "FieldDefault": "rerum",
+    "FieldHeight": 364,
+    "FieldLabel": "aut",
+    "FieldLeft": 296,
+    "FieldTop": 801,
     "FieldType": "Checkbox",
-    "FieldWidth": 580,
-    "FormatMask": "et",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 329,
-    "LabelLeft": 190,
-    "LabelTop": 571,
-    "LabelWidth": 855,
-    "LastVersionId": 83,
-    "ListTableId": 464,
+    "FieldWidth": 533,
+    "FormatMask": "ut",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 800,
+    "LabelLeft": 992,
+    "LabelTop": 578,
+    "LabelWidth": 967,
+    "LastVersionId": 942,
+    "ListTableId": 324,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 970,
-    "ProgId": "autem",
+    "Page1LineNo": 885,
+    "ProgId": "sed",
     "IsReadOnly": false,
-    "ShortLabel": "blanditiis",
-    "TabOrder": 103,
-    "TextLength": 659,
-    "Tooltip": "explicabo",
-    "UdefIdentity": 83,
-    "UDListDefinitionId": 183,
+    "ShortLabel": "aut",
+    "TabOrder": 926,
+    "TextLength": 546,
+    "Tooltip": "vel",
+    "UdefIdentity": 489,
+    "UDListDefinitionId": 980,
     "Justification": "Center",
-    "Version": 798,
-    "TemplateVariableName": "Lehner, Thiel and Kovacek",
+    "Version": 594,
+    "TemplateVariableName": "Ritchie, Feeney and Veum",
     "HasBeenPublished": false,
-    "MdoListName": "McClure-Moen",
+    "MdoListName": "Ankunding-Sanford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 13
+        "FieldLength": 607
       }
     }
   }

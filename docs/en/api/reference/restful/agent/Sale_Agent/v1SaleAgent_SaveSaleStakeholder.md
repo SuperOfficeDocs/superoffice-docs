@@ -98,29 +98,29 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Schroeder, Hahn and Bernier",
-  "Comment": "cupiditate",
-  "StakeholderRoleId": 795,
-  "CountryId": 25,
-  "PersonId": 759,
-  "EmailDescription": "donald_steuber@brown.name",
-  "EmailId": 935,
-  "EmailAddress": "nash.kiehn@reichert.com",
-  "PhoneId": 740,
-  "ContactName": "Walker, Kulas and Medhurst",
-  "ContactId": 421,
-  "SaleId": 589,
-  "Mrmrs": "nihil",
-  "Firstname": "Camryn",
-  "MiddleName": "Kutch, Kilback and Wiegand",
-  "Lastname": "Brakus",
-  "SaleStakeholderId": 297,
-  "Rank": 677,
-  "Phone": "1-803-510-7389 x635"
+  "StakeholderRoleName": "Block Inc and Sons",
+  "Comment": "est",
+  "StakeholderRoleId": 37,
+  "CountryId": 518,
+  "PersonId": 731,
+  "EmailDescription": "conrad_kunze@bednargoyette.com",
+  "EmailId": 184,
+  "EmailAddress": "kyle.heidenreich@gutkowskikilback.info",
+  "PhoneId": 689,
+  "ContactName": "Borer-Tillman",
+  "ContactId": 891,
+  "SaleId": 269,
+  "Mrmrs": "minima",
+  "Firstname": "Deshaun",
+  "MiddleName": "Cummings-Stoltenberg",
+  "Lastname": "Hilpert",
+  "SaleStakeholderId": 322,
+  "Rank": 457,
+  "Phone": "(140)413-1450 x4493"
 }
 ```
 
@@ -131,31 +131,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Mueller, Mante and Rohan",
-  "Comment": "natus",
-  "StakeholderRoleId": 347,
-  "CountryId": 609,
-  "PersonId": 875,
-  "EmailDescription": "keith@king.biz",
-  "EmailId": 468,
-  "EmailAddress": "napoleon.dicki@kemmer.name",
-  "PhoneId": 894,
-  "ContactName": "Rath-Wiegand",
-  "ContactId": 217,
-  "SaleId": 53,
-  "Mrmrs": "totam",
-  "Firstname": "Noemy",
-  "MiddleName": "Block Inc and Sons",
-  "Lastname": "Lesch",
-  "SaleStakeholderId": 555,
-  "Rank": 860,
-  "Phone": "(510)224-7825 x5779",
+  "StakeholderRoleName": "Weimann Inc and Sons",
+  "Comment": "dolor",
+  "StakeholderRoleId": 19,
+  "CountryId": 644,
+  "PersonId": 58,
+  "EmailDescription": "valerie.mcclure@bartonkris.com",
+  "EmailId": 504,
+  "EmailAddress": "rossie_konopelski@schmidt.ca",
+  "PhoneId": 979,
+  "ContactName": "Cremin, Cummerata and Lindgren",
+  "ContactId": 149,
+  "SaleId": 593,
+  "Mrmrs": "nisi",
+  "Firstname": "Zakary",
+  "MiddleName": "Goldner-Herman",
+  "Lastname": "Renner",
+  "SaleStakeholderId": 126,
+  "Rank": 889,
+  "Phone": "(020)925-1700 x99832",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 293
+      "FieldLength": 66
     }
   }
 }

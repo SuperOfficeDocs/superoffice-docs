@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 43,
-  "ListItemId": 817
+  "UdListDefinitionId": 253,
+  "ListItemId": 475
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 826,
-    "Name": "Sipes LLC",
-    "ToolTip": "Dolores sit.",
-    "Deleted": true,
-    "Rank": 962,
-    "Type": "recusandae",
-    "ColorBlock": 435,
-    "IconHint": "ex",
-    "Selected": true,
-    "LastChanged": "2000-05-12T11:22:38.4615502+02:00",
+    "Id": 325,
+    "Name": "Stark-Fritsch",
+    "ToolTip": "Rerum cum similique asperiores officia placeat.",
+    "Deleted": false,
+    "Rank": 735,
+    "Type": "rerum",
+    "ColorBlock": 357,
+    "IconHint": "vel",
+    "Selected": false,
+    "LastChanged": "2000-09-21T14:19:03.6238736+02:00",
     "ChildItems": [
       {
-        "Id": 979,
-        "Name": "Treutel-McLaughlin",
-        "ToolTip": "Fugiat est nemo odit aperiam.",
+        "Id": 586,
+        "Name": "Block-Emard",
+        "ToolTip": "Similique vel ullam veritatis aut qui voluptatem quae.",
         "Deleted": false,
-        "Rank": 366,
-        "Type": "neque",
-        "ColorBlock": 624,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2000-12-11T11:22:38.4615502+01:00",
+        "Rank": 660,
+        "Type": "doloribus",
+        "ColorBlock": 837,
+        "IconHint": "accusamus",
+        "Selected": true,
+        "LastChanged": "2006-09-10T14:19:03.6238736+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "ullam",
+        "ExtraInfo": "dolores",
+        "StyleHint": "tenetur",
         "Hidden": true,
-        "FullName": "Mrs. Donny Anderson MD",
+        "FullName": "Darrell Cronin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 7
+            "FieldLength": 837
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "earum",
-    "Hidden": true,
-    "FullName": "Ursula Smitham",
+    "ExtraInfo": "nihil",
+    "StyleHint": "sed",
+    "Hidden": false,
+    "FullName": "Ms. Adelle Ericka Nitzsche",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 584
+        "FieldType": "System.String",
+        "FieldLength": 603
       }
     }
   }

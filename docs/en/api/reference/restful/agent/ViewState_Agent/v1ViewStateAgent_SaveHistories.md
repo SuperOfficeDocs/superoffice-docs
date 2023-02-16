@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Lebsack-O'Hara",
+  "HistoryName": "Paucek, Wilderman and Harber",
   "History": [
     {
-      "Rank": 562,
-      "Id": 958,
-      "HistoryName": "Greenholt, Morissette and Rice",
-      "HistoryId": 940,
-      "AssociateId": 432,
-      "Name": "Kihn, Schuster and Von",
-      "ItemInfo": "voluptas"
+      "Rank": 6,
+      "Id": 446,
+      "HistoryName": "Brakus-Erdman",
+      "HistoryId": 837,
+      "AssociateId": 937,
+      "Name": "Tremblay, Emmerich and Friesen",
+      "ItemInfo": "molestiae"
     }
   ]
 }
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 917,
-    "Id": 908,
-    "HistoryName": "Crist Group",
-    "HistoryId": 331,
-    "AssociateId": 483,
-    "Name": "Hammes, Wolf and Schamberger",
-    "ItemInfo": "dignissimos",
+    "Rank": 487,
+    "Id": 971,
+    "HistoryName": "Nolan, Cole and Purdy",
+    "HistoryId": 623,
+    "AssociateId": 377,
+    "Name": "Harber-Miller",
+    "ItemInfo": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 18
+        "FieldLength": 238
       }
     }
   }

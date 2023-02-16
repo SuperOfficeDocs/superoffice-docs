@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 107,
+  "ErpConnectionId": 973,
   "ActorType": "Customer"
 }
 ```
@@ -95,33 +95,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 62,
-  "IsActive": true,
+  "ErpConnectionId": 976,
+  "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 636,
-      "CrmFieldKey": "enim",
-      "CrmDisplayName": "Murray Inc and Sons",
-      "CrmDisplayTooltip": "qui",
-      "ErpFieldKey": "dolores",
+      "ErpFieldId": 21,
+      "CrmFieldKey": "iusto",
+      "CrmDisplayName": "Jerde Inc and Sons",
+      "CrmDisplayTooltip": "labore",
+      "ErpFieldKey": "suscipit",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Prohaska, Beahan and Feest",
-      "ErpDisplayTooltip": "atque",
+      "ErpDisplayName": "Wintheiser-Dicki",
+      "ErpDisplayTooltip": "illum",
       "SyncToCrm": false,
       "SyncToErp": true,
-      "ShowInGui": false,
-      "ShowInSearch": false,
-      "AlreadyMapped": false,
+      "ShowInGui": true,
+      "ShowInSearch": true,
+      "AlreadyMapped": true,
       "MissingInERP": true,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "est",
+      "ListReference": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 671
+          "FieldType": "System.String",
+          "FieldLength": 445
         }
       }
     }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 703
+      "FieldLength": 752
     }
   }
 }

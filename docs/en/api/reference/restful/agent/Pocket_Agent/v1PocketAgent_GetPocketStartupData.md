@@ -81,15 +81,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "totam",
-    "iure"
+    "officia",
+    "nemo"
   ],
-  "CurrentClientTime": "2005-01-16T11:22:38.7739723+01:00"
+  "CurrentClientTime": "2013-08-28T14:19:03.8895009+02:00"
 }
 ```
 
@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "voluptatem",
-    "ab"
+    "mollitia",
+    "est"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 865,
-  "NotificationsCount": 220,
+  "OverdueSalesCount": 244,
+  "NotificationsCount": 581,
   "SystemWebPanels": [
     {
-      "WebPanelId": 459,
-      "Name": "Johnston-Cronin",
-      "Tooltip": "ratione",
+      "WebPanelId": 393,
+      "Name": "Bashirian, Mante and Monahan",
+      "Tooltip": "maxime",
       "Deleted": false,
-      "Rank": 757,
+      "Rank": 996,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": false,
       "OnSatellite": false,
       "OnTravel": false,
-      "OnSalesMarketingWeb": true,
+      "OnSalesMarketingWeb": false,
       "OnSalesMarketingPocket": false,
       "ShowInMenuBar": false,
-      "ShowInToolBar": true,
-      "ShowInAddressBar": true,
+      "ShowInToolBar": false,
+      "ShowInAddressBar": false,
       "ShowInStatusBar": false,
-      "WindowName": "Schroeder LLC",
+      "WindowName": "Boyle-Schuster",
       "Url": "http://www.example.com/",
-      "ProgId": "nemo",
-      "Icon": 980,
-      "AlwaysReloadOnShow": true,
+      "ProgId": "aspernatur",
+      "Icon": 93,
+      "AlwaysReloadOnShow": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 74
+          "FieldLength": 486
         }
       }
     }
@@ -144,34 +144,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "unde",
+      "RawValue": "sapiente",
       "Specification": null,
-      "DisplayValue": "dolor",
-      "DisplayTooltip": "accusantium",
+      "DisplayValue": "fugit",
+      "DisplayTooltip": "culpa",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 47,
-      "PrefDescId": 525,
-      "TableName": "West, Kub and Jerde",
-      "UserPreferenceId": 861,
+      "TargetId": 890,
+      "PrefDescId": 380,
+      "TableName": "Braun, Towne and Howe",
+      "UserPreferenceId": 373,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 862
+          "FieldLength": 882
         }
       }
     }
   ],
   "IsPushNotificationEnabled": false,
-  "CustomData": "ipsa",
+  "CustomData": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 613
+      "FieldType": "System.String",
+      "FieldLength": 348
     }
   }
 }

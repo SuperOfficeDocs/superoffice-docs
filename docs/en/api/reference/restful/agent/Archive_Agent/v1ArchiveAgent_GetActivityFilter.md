@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,91 +78,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2000-05-05T11:22:37.3836264+02:00",
-  "ToDate": "2001-07-17T11:22:37.3836264+02:00",
+  "FromDate": "2012-09-14T14:19:02.7125533+02:00",
+  "ToDate": "2005-09-10T14:19:02.7125533+02:00",
   "AssociateList": [
     {
-      "Id": 511,
-      "Name": "Littel Group",
-      "ToolTip": "Odio minus sit architecto esse qui mollitia ad.",
-      "Deleted": false,
-      "Rank": 346,
-      "Type": "repudiandae",
-      "ColorBlock": 33,
-      "IconHint": "quasi",
+      "Id": 872,
+      "Name": "Walker LLC",
+      "ToolTip": "Id fugit sed deleniti omnis.",
+      "Deleted": true,
+      "Rank": 585,
+      "Type": "occaecati",
+      "ColorBlock": 849,
+      "IconHint": "quia",
       "Selected": false,
-      "LastChanged": "1999-10-13T11:22:37.3836264+02:00",
+      "LastChanged": "2006-07-27T14:19:02.7125533+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dicta",
-      "StyleHint": "reiciendis",
-      "Hidden": true,
-      "FullName": "Prof. Sonny Oliver Cartwright DDS",
+      "ExtraInfo": "praesentium",
+      "StyleHint": "quam",
+      "Hidden": false,
+      "FullName": "Ms. Emmalee Erica Graham IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 320
+          "FieldType": "System.String",
+          "FieldLength": 270
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 519,
-      "Name": "Cassin, Bosco and Kling",
-      "ToolTip": "Suscipit ipsam eos ut temporibus consequatur.",
+      "Id": 256,
+      "Name": "Gibson, Schuppe and Reichert",
+      "ToolTip": "Dolorem inventore nesciunt nobis laboriosam rerum.",
       "Deleted": false,
-      "Rank": 985,
-      "Type": "magnam",
-      "ColorBlock": 853,
-      "IconHint": "libero",
-      "Selected": false,
-      "LastChanged": "1997-06-08T11:22:37.3836264+02:00",
+      "Rank": 610,
+      "Type": "illo",
+      "ColorBlock": 922,
+      "IconHint": "ullam",
+      "Selected": true,
+      "LastChanged": "2002-12-06T14:19:02.7125533+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolores",
-      "StyleHint": "harum",
-      "Hidden": false,
-      "FullName": "Pascale VonRueden",
+      "ExtraInfo": "nemo",
+      "StyleHint": "porro",
+      "Hidden": true,
+      "FullName": "Branson Wintheiser",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 305
+          "FieldLength": 441
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 366,
-      "Name": "Wiza-Greenfelder",
-      "ToolTip": "Suscipit consequuntur.",
-      "Deleted": true,
-      "Rank": 705,
-      "Type": "illo",
+      "Id": 464,
+      "Name": "Larson, O'Hara and Bernier",
+      "ToolTip": "Odit ipsum.",
+      "Deleted": false,
+      "Rank": 97,
+      "Type": "molestiae",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolorem",
-      "ColorBlock": 217,
-      "ExtraInfo": "ullam",
-      "StyleHint": "mollitia",
-      "FullName": "Miss Bethany Loyal Durgan",
+      "IconHint": "dolores",
+      "ColorBlock": 589,
+      "ExtraInfo": "tenetur",
+      "StyleHint": "quidem",
+      "FullName": "River Collier",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 693
+          "FieldLength": 391
         }
       }
     }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 37
+      "FieldLength": 481
     }
   }
 }

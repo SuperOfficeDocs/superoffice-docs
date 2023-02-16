@@ -84,7 +84,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,36 +94,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 377,
-  "Name": "Schowalter-Padberg",
-  "OrgNr": "1278618",
+  "ContactId": 334,
+  "Name": "Schroeder, Bosco and Cremin",
+  "OrgNr": "1443935",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "nesciunt",
-  "DirectPhone": "1-316-615-3206",
-  "AssociateId": 911,
-  "CountryId": 381,
-  "EmailAddress": "briana@jewess.co.uk",
-  "Kananame": "porro",
-  "EmailAddressName": "annabel@kovacek.us",
+  "City": "perspiciatis",
+  "DirectPhone": "570.053.3406",
+  "AssociateId": 373,
+  "CountryId": 268,
+  "EmailAddress": "chanelle_mueller@bernier.com",
+  "Kananame": "accusamus",
+  "EmailAddressName": "luz@carterdubuque.co.uk",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Prof. Claire Cronin DVM",
+  "AssociateFullName": "Lilla Maggio",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "et",
-  "FullName": "Dr. Santina Brakus",
+  "FormattedAddress": "corporis",
+  "FullName": "Dr. Cleo Cremin",
   "IsOwnerContact": false,
-  "ActiveErpLinks": 617,
-  "Number1": "1473342",
-  "Number2": "1351523",
+  "ActiveErpLinks": 662,
+  "Number1": "968687",
+  "Number2": "376719",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 849
+      "FieldType": "System.Int32",
+      "FieldLength": 153
     }
   }
 }

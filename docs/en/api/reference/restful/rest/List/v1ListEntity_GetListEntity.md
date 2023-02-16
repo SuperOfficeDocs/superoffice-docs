@@ -91,22 +91,22 @@ HTTP/1.1 200 ListEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 278,
-  "Name": "Ondricka-Herman",
-  "Tooltip": "dolorum",
+  "Id": 634,
+  "Name": "Kilback, Larkin and Nienow",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 812,
-  "IsCustomList": false,
+  "Rank": 397,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quaerat",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 498
+      "FieldType": "System.String",
+      "FieldLength": 907
     }
   },
   "_Links": {

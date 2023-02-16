@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 123,
-    "Name": "Wehner Inc and Sons",
-    "ToolTip": "Recusandae qui.",
-    "Deleted": true,
-    "Rank": 143,
-    "Type": "laborum",
-    "ColorBlock": 665,
-    "IconHint": "repellat",
+    "Id": 119,
+    "Name": "Predovic-Frami",
+    "ToolTip": "Omnis sed omnis soluta et possimus numquam.",
+    "Deleted": false,
+    "Rank": 722,
+    "Type": "accusantium",
+    "ColorBlock": 956,
+    "IconHint": "atque",
     "Selected": false,
-    "LastChanged": "1998-07-02T11:22:45.803528+02:00",
+    "LastChanged": "2017-09-06T14:19:11.1480931+02:00",
     "ChildItems": [
       {
-        "Id": 784,
-        "Name": "Effertz, McKenzie and Ryan",
-        "ToolTip": "Vel qui debitis laboriosam quia.",
+        "Id": 152,
+        "Name": "Dickinson-Borer",
+        "ToolTip": "Rem a et.",
         "Deleted": false,
-        "Rank": 185,
-        "Type": "architecto",
-        "ColorBlock": 678,
-        "IconHint": "doloremque",
+        "Rank": 174,
+        "Type": "corporis",
+        "ColorBlock": 454,
+        "IconHint": "fugit",
         "Selected": true,
-        "LastChanged": "2001-05-11T11:22:45.803528+02:00",
+        "LastChanged": "2017-11-07T14:19:11.1480931+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "ducimus",
-        "Hidden": true,
-        "FullName": "Dale Littel",
+        "ExtraInfo": "facilis",
+        "StyleHint": "unde",
+        "Hidden": false,
+        "FullName": "Mr. Cierra Saul Powlowski DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 463
+            "FieldLength": 361
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "sit",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Theresa Bertram Kozey II",
+    "FullName": "Ms. Reagan Bartoletti MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 865
+        "FieldLength": 366
       }
     }
   }

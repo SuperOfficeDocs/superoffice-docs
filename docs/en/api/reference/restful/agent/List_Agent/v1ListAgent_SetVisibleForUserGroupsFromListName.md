@@ -88,32 +88,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Lockman-Green",
-  "ListItemId": 830,
+  "UdListDefinitionName": "Corwin LLC",
+  "ListItemId": 598,
   "UserGroups": [
     {
-      "Id": 498,
-      "Name": "Haley, Mitchell and Volkman",
-      "ToolTip": "Aperiam voluptatibus laudantium sed sit.",
+      "Id": 179,
+      "Name": "Effertz LLC",
+      "ToolTip": "Atque numquam odit culpa non id.",
       "Deleted": true,
-      "Rank": 945,
-      "Type": "aperiam",
-      "ColorBlock": 352,
-      "IconHint": "sit",
+      "Rank": 642,
+      "Type": "architecto",
+      "ColorBlock": 418,
+      "IconHint": "voluptas",
       "Selected": false,
-      "LastChanged": "2007-02-15T11:22:38.4615502+01:00",
+      "LastChanged": "2010-06-27T14:19:03.6238736+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eum",
-      "StyleHint": "occaecati",
+      "ExtraInfo": "ad",
+      "StyleHint": "est",
       "Hidden": false,
-      "FullName": "Ezekiel Emard"
+      "FullName": "Jillian Goodwin"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 384,
-    "Name": "Kovacek-Stark",
-    "ToolTip": "Aspernatur maxime recusandae deserunt animi.",
+    "Id": 697,
+    "Name": "Gerhold LLC",
+    "ToolTip": "Consequatur dignissimos.",
     "Deleted": false,
-    "Rank": 811,
-    "Type": "quia",
-    "ColorBlock": 860,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2006-10-19T11:22:38.4615502+02:00",
+    "Rank": 546,
+    "Type": "incidunt",
+    "ColorBlock": 550,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2010-04-19T14:19:03.6238736+02:00",
     "ChildItems": [
       {
-        "Id": 915,
-        "Name": "Hand, Zieme and Fisher",
-        "ToolTip": "Sit velit et velit.",
+        "Id": 280,
+        "Name": "Dach, Doyle and Gulgowski",
+        "ToolTip": "Magnam qui aut rerum.",
         "Deleted": false,
-        "Rank": 28,
-        "Type": "et",
-        "ColorBlock": 372,
-        "IconHint": "voluptatum",
-        "Selected": true,
-        "LastChanged": "1999-08-04T11:22:38.4615502+02:00",
+        "Rank": 802,
+        "Type": "est",
+        "ColorBlock": 712,
+        "IconHint": "adipisci",
+        "Selected": false,
+        "LastChanged": "2019-04-09T14:19:03.6238736+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "quis",
-        "Hidden": false,
-        "FullName": "Mrs. Ray Trever Jenkins II",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "debitis",
+        "Hidden": true,
+        "FullName": "Nellie Cronin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 817
+            "FieldLength": 992
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "vel",
+    "ExtraInfo": "neque",
+    "StyleHint": "rem",
     "Hidden": false,
-    "FullName": "Yoshiko Greenholt",
+    "FullName": "Joy Veum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 834
+        "FieldType": "System.Int32",
+        "FieldLength": 391
       }
     }
   }

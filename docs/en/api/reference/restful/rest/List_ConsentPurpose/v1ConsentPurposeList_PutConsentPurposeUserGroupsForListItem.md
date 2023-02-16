@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 213,
-    "Name": "Leuschke, Nikolaus and Monahan",
-    "ToolTip": "Quibusdam id.",
+    "Id": 230,
+    "Name": "Lowe Group",
+    "ToolTip": "Deserunt aliquam consequuntur soluta nulla.",
     "Deleted": true,
-    "Rank": 883,
-    "Type": "quia",
-    "ColorBlock": 25,
-    "IconHint": "consequuntur",
-    "Selected": false,
-    "LastChanged": "1997-06-01T11:22:45.8191493+02:00",
+    "Rank": 363,
+    "Type": "perferendis",
+    "ColorBlock": 427,
+    "IconHint": "nam",
+    "Selected": true,
+    "LastChanged": "2021-02-14T14:19:11.163718+01:00",
     "ChildItems": [
       {
-        "Id": 488,
-        "Name": "Jaskolski-Morissette",
-        "ToolTip": "Illum quas nemo odio ea cum aut.",
-        "Deleted": true,
-        "Rank": 817,
-        "Type": "pariatur",
-        "ColorBlock": 391,
-        "IconHint": "officiis",
+        "Id": 241,
+        "Name": "Dare-Schmeler",
+        "ToolTip": "Dolorem sed.",
+        "Deleted": false,
+        "Rank": 275,
+        "Type": "illum",
+        "ColorBlock": 406,
+        "IconHint": "porro",
         "Selected": false,
-        "LastChanged": "2012-08-20T11:22:45.8191493+02:00",
+        "LastChanged": "2017-11-05T14:19:11.163718+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "non",
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Lionel Carter III"
+        "FullName": "Orland Berge II"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Alfredo Volkman"
+    "ExtraInfo": "nam",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Eliezer Frami"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 435,
-    "Name": "Nader Group",
-    "ToolTip": "Doloribus quaerat laudantium et natus qui labore.",
+    "Id": 557,
+    "Name": "Bogan LLC",
+    "ToolTip": "Molestias exercitationem sit ipsum repudiandae quisquam culpa.",
     "Deleted": false,
-    "Rank": 657,
-    "Type": "quam",
-    "ColorBlock": 687,
-    "IconHint": "ex",
+    "Rank": 418,
+    "Type": "eligendi",
+    "ColorBlock": 742,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "1997-07-01T11:22:45.8191493+02:00",
+    "LastChanged": "2003-08-03T14:19:11.163718+02:00",
     "ChildItems": [
       {
-        "Id": 226,
-        "Name": "Cole LLC",
-        "ToolTip": "Sunt natus ea autem iusto nihil ratione deserunt.",
+        "Id": 538,
+        "Name": "Predovic-Reichert",
+        "ToolTip": "Rerum qui praesentium ut doloremque impedit ab.",
         "Deleted": false,
-        "Rank": 235,
-        "Type": "ut",
-        "ColorBlock": 835,
-        "IconHint": "nihil",
+        "Rank": 655,
+        "Type": "ullam",
+        "ColorBlock": 188,
+        "IconHint": "sint",
         "Selected": true,
-        "LastChanged": "2001-08-31T11:22:45.8191493+02:00",
+        "LastChanged": "2022-11-02T14:19:11.163718+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "deserunt",
-        "Hidden": true,
-        "FullName": "Hilario Greenfelder",
+        "ExtraInfo": "nihil",
+        "StyleHint": "ipsa",
+        "Hidden": false,
+        "FullName": "Veronica Dakota Kautzer V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 276
+            "FieldLength": 172
           }
         }
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "eveniet",
-    "Hidden": false,
-    "FullName": "Katelin Zboncak",
+    "ExtraInfo": "beatae",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Monique Harris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 85
+        "FieldType": "System.Int32",
+        "FieldLength": 557
       }
     }
   }

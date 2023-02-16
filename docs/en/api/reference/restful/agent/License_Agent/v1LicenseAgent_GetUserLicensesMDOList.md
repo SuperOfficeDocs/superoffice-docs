@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 856,
-    "Name": "Mayer, Marquardt and Flatley",
-    "ToolTip": "Alias sit voluptatibus.",
+    "Id": 654,
+    "Name": "Schamberger, Kozey and Heaney",
+    "ToolTip": "Aut quos quasi laboriosam rerum.",
     "Deleted": false,
-    "Rank": 340,
-    "Type": "rem",
-    "ColorBlock": 746,
-    "IconHint": "vel",
-    "Selected": false,
-    "LastChanged": "1999-08-30T11:22:38.3990648+02:00",
+    "Rank": 435,
+    "Type": "qui",
+    "ColorBlock": 751,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2016-05-08T14:19:03.5769906+02:00",
     "ChildItems": [
       {
-        "Id": 226,
-        "Name": "Botsford, Kling and Bruen",
-        "ToolTip": "Deleniti maiores id.",
+        "Id": 563,
+        "Name": "Kreiger Group",
+        "ToolTip": "Qui ut incidunt.",
         "Deleted": false,
-        "Rank": 971,
-        "Type": "nam",
-        "ColorBlock": 309,
-        "IconHint": "enim",
-        "Selected": true,
-        "LastChanged": "2010-08-20T11:22:38.3990648+02:00",
+        "Rank": 460,
+        "Type": "reiciendis",
+        "ColorBlock": 22,
+        "IconHint": "quaerat",
+        "Selected": false,
+        "LastChanged": "2012-12-01T14:19:03.5769906+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "corrupti",
-        "Hidden": false,
-        "FullName": "Twila Fadel",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "nobis",
+        "Hidden": true,
+        "FullName": "Rita Strosin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 817
+            "FieldLength": 105
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "nam",
+    "ExtraInfo": "provident",
+    "StyleHint": "accusamus",
     "Hidden": false,
-    "FullName": "Leanne Ryan",
+    "FullName": "Destiny Prosacco Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 831
+        "FieldLength": 59
       }
     }
   }

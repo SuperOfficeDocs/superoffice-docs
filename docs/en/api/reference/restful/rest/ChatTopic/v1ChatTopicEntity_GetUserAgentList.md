@@ -27,7 +27,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 | onlyPresent | bool |  Only show users who are present |
 
 ```http
-GET /api/v1/ChatTopic/UserAgents?flat=False
+GET /api/v1/ChatTopic/UserAgents?flat=True
 GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 832,
-    "Name": "Brown, Armstrong and Lubowitz",
-    "ToolTip": "Eum ducimus rerum impedit.",
-    "Deleted": true,
-    "Rank": 103,
-    "Type": "eum",
+    "Id": 864,
+    "Name": "O'Kon, Ortiz and Williamson",
+    "ToolTip": "Fugiat quidem.",
+    "Deleted": false,
+    "Rank": 262,
+    "Type": "fugit",
     "ChildItems": [
       {
-        "Id": 55,
-        "Name": "Rippin-Murphy",
-        "ToolTip": "Voluptate hic a vitae accusantium aliquam laudantium.",
+        "Id": 9,
+        "Name": "Moen-Crooks",
+        "ToolTip": "Debitis iusto libero rerum incidunt placeat.",
         "Deleted": false,
-        "Rank": 325,
-        "Type": "accusantium",
+        "Rank": 668,
+        "Type": "maxime",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolores",
-        "ColorBlock": 989,
-        "ExtraInfo": "fuga",
-        "StyleHint": "neque",
-        "FullName": "Kali Stamm DVM",
+        "IconHint": "optio",
+        "ColorBlock": 141,
+        "ExtraInfo": "doloremque",
+        "StyleHint": "assumenda",
+        "FullName": "Miss Luisa Agnes Jenkins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 130
+            "FieldType": "System.String",
+            "FieldLength": 15
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 958,
-    "ExtraInfo": "occaecati",
-    "StyleHint": "id",
-    "FullName": "Ms. Garth Hackett DVM",
+    "IconHint": "qui",
+    "ColorBlock": 560,
+    "ExtraInfo": "iusto",
+    "StyleHint": "cumque",
+    "FullName": "Graham Rippin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 732
+        "FieldLength": 980
       }
     }
   }

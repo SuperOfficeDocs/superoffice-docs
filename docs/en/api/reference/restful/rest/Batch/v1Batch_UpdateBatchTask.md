@@ -110,34 +110,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 993,
-  "Name": "Hamill LLC",
-  "AssociateId": 365,
-  "DetailsTable": 294,
-  "DetailsRecord": 550,
-  "IsSystemTask": true,
+  "Id": 600,
+  "Name": "Morar-Sauer",
+  "AssociateId": 353,
+  "DetailsTable": 998,
+  "DetailsRecord": 842,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "nostrum",
-    "ParameterObject2": "aut"
+    "ParameterObject1": "molestias",
+    "ParameterObject2": "rerum"
   },
-  "LastStarted": "2017-01-09T11:22:45.3817553+01:00",
-  "Created": "2016-04-22T11:22:45.3817553+02:00",
-  "StartCount": 728,
-  "DatabaseSerialNumber": "1217713",
-  "Context": "et",
-  "Result": "explicabo",
+  "LastStarted": "2011-12-25T14:19:10.9279769+01:00",
+  "Created": "1996-10-02T14:19:10.9279769+02:00",
+  "StartCount": 139,
+  "DatabaseSerialNumber": "998673",
+  "Context": "architecto",
+  "Result": "molestiae",
   "State": "All",
-  "Description": "De-engineered web-enabled standardization",
-  "Response": "velit",
-  "Request": "molestiae",
-  "ProgressDescription": "Configurable coherent strategy",
-  "ProgressPercent": 434,
-  "FileName": "Berge, Batz and Torphy",
+  "Description": "Inverse bifurcated archive",
+  "Response": "earum",
+  "Request": "eaque",
+  "ProgressDescription": "Mandatory contextually-based database",
+  "ProgressPercent": 649,
+  "FileName": "Brekke, Hirthe and Larkin",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -149,37 +149,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 299,
-  "Name": "Nikolaus, Smith and O'Reilly",
-  "AssociateId": 809,
-  "DetailsTable": 710,
-  "DetailsRecord": 129,
-  "IsSystemTask": true,
+  "Id": 815,
+  "Name": "Reichel Inc and Sons",
+  "AssociateId": 257,
+  "DetailsTable": 626,
+  "DetailsRecord": 713,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "perferendis",
-    "ParameterObject2": "et"
+    "ParameterObject1": "reprehenderit",
+    "ParameterObject2": "beatae"
   },
-  "LastStarted": "2017-08-19T11:22:45.3817553+02:00",
-  "Created": "2020-12-28T11:22:45.3817553+01:00",
-  "StartCount": 170,
-  "DatabaseSerialNumber": "613732",
-  "Context": "doloremque",
-  "Result": "ad",
+  "LastStarted": "2007-04-27T14:19:10.9279769+02:00",
+  "Created": "2002-02-16T14:19:10.9279769+01:00",
+  "StartCount": 463,
+  "DatabaseSerialNumber": "475835",
+  "Context": "praesentium",
+  "Result": "illo",
   "State": "All",
-  "Description": "Cloned foreground instruction set",
-  "Response": "aut",
-  "Request": "cum",
-  "ProgressDescription": "Programmable dynamic interface",
-  "ProgressPercent": 720,
-  "FileName": "Wolf Group",
+  "Description": "Cross-platform context-sensitive support",
+  "Response": "commodi",
+  "Request": "optio",
+  "ProgressDescription": "Fundamental even-keeled projection",
+  "ProgressPercent": 216,
+  "FileName": "Pacocha-McCullough",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldLength": 436
     }
   }
 }

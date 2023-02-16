@@ -103,7 +103,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,52 +114,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "recusandae",
-    "PersonId": 980,
-    "Mrmrs": "aut",
-    "Firstname": "Mallie",
-    "Lastname": "Borer",
-    "MiddleName": "Wunsch, Schulist and Renner",
-    "Title": "deserunt",
-    "Description": "Switchable leading edge secured line",
-    "Email": "abraham@harris.ca",
-    "FullName": "Dale Hackett",
-    "DirectPhone": "492-560-7206",
-    "FormalName": "McKenzie-Hoeger",
-    "CountryId": 574,
-    "ContactId": 952,
-    "ContactName": "Smitham-O'Hara",
-    "Retired": 464,
-    "Rank": 747,
-    "ActiveInterests": 79,
+    "Position": "aperiam",
+    "PersonId": 911,
+    "Mrmrs": "iusto",
+    "Firstname": "Erna",
+    "Lastname": "Bayer",
+    "MiddleName": "Fay LLC",
+    "Title": "blanditiis",
+    "Description": "Centralized modular help-desk",
+    "Email": "jasmin.conroy@fahey.us",
+    "FullName": "Prof. Casey Powlowski DDS",
+    "DirectPhone": "251.634.9765 x763",
+    "FormalName": "Konopelski-Cruickshank",
+    "CountryId": 503,
+    "ContactId": 17,
+    "ContactName": "Johnson-Schuster",
+    "Retired": 398,
+    "Rank": 931,
+    "ActiveInterests": 351,
     "ContactDepartment": "",
-    "ContactCountryId": 14,
-    "ContactOrgNr": "722154",
-    "FaxPhone": "632-929-1104",
-    "MobilePhone": "479.970.7658 x186",
-    "ContactPhone": "(971)178-0869 x7266",
-    "AssociateName": "Johns-Dach",
-    "AssociateId": 726,
+    "ContactCountryId": 687,
+    "ContactOrgNr": "1515865",
+    "FaxPhone": "(838)938-3455",
+    "MobilePhone": "(266)958-8350 x254",
+    "ContactPhone": "785.959.0647",
+    "AssociateName": "Keeling Group",
+    "AssociateId": 274,
     "UsePersonAddress": false,
-    "ContactFax": "est",
-    "Kanafname": "officiis",
-    "Kanalname": "fuga",
-    "Post1": "explicabo",
-    "Post2": "id",
-    "Post3": "quam",
-    "EmailName": "giuseppe@sauer.info",
-    "ContactFullName": "Shayna Purdy II",
-    "ActiveErpLinks": 832,
-    "TicketPriorityId": 530,
-    "SupportLanguageId": 449,
-    "SupportAssociateId": 420,
+    "ContactFax": "quam",
+    "Kanafname": "et",
+    "Kanalname": "et",
+    "Post1": "ut",
+    "Post2": "unde",
+    "Post3": "debitis",
+    "EmailName": "viola.kirlin@mohr.ca",
+    "ContactFullName": "Dina Gerlach",
+    "ActiveErpLinks": 283,
+    "TicketPriorityId": 828,
+    "SupportLanguageId": 974,
+    "SupportAssociateId": 7,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 379
+        "FieldType": "System.Int32",
+        "FieldLength": 503
       }
     }
   }

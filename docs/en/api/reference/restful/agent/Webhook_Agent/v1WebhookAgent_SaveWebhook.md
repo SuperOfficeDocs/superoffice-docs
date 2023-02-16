@@ -86,30 +86,30 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 897,
-  "Name": "Kessler, Considine and Kshlerin",
+  "WebhookId": 119,
+  "Name": "Stamm Group",
   "Events": [
-    "iure",
-    "ut"
+    "commodi",
+    "temporibus"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "nesciunt",
+  "Secret": "illum",
   "State": "Active",
-  "Type": "et",
+  "Type": "ut",
   "Headers": {
-    "Headers1": "qui",
-    "Headers2": "minus"
+    "Headers1": "nemo",
+    "Headers2": "qui"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2010-04-23T11:22:39.6956364+02:00",
+  "Registered": "2001-09-30T14:19:04.6422019+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2014-09-20T11:22:39.6956364+02:00",
+  "Updated": "2007-08-14T14:19:04.6422019+02:00",
   "UpdatedAssociate": null
 }
 ```
@@ -121,26 +121,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 952,
-  "Name": "Osinski, Lueilwitz and Wunsch",
+  "WebhookId": 803,
+  "Name": "Schmidt-Wintheiser",
   "Events": [
-    "non",
-    "necessitatibus"
+    "voluptatem",
+    "nihil"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "doloribus",
+  "Secret": "praesentium",
   "State": "Active",
-  "Type": "magnam",
+  "Type": "quibusdam",
   "Headers": {
-    "Headers1": "nemo",
-    "Headers2": "cupiditate"
+    "Headers1": "qui",
+    "Headers2": "dignissimos"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2012-04-03T11:22:39.7112593+02:00",
+  "Registered": "2016-11-11T14:19:04.6422019+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2015-04-22T11:22:39.7112593+02:00",
+  "Updated": "2001-12-06T14:19:04.6422019+01:00",
   "UpdatedAssociate": null
 }
 ```

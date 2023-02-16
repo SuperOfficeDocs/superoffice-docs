@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/List/GetListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Becker, Ondricka and Towne"
+  "Name": "Altenwerth Group"
 }
 ```
 
@@ -96,22 +96,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 17,
-  "Name": "Jenkins-Haag",
-  "Tooltip": "aliquam",
-  "Deleted": true,
-  "Rank": 864,
+  "Id": 24,
+  "Name": "Luettgen-Leannon",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 279,
   "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "temporibus",
-  "InUseByUserDefinedFields": true,
+  "ListType": "adipisci",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldType": "System.String",
+      "FieldLength": 410
     }
   }
 }

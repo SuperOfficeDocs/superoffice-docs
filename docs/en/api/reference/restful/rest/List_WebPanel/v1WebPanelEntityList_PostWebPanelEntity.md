@@ -104,30 +104,30 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 478,
-  "Name": "Haley Group",
-  "Tooltip": "autem",
+  "WebPanelId": 192,
+  "Name": "Hintz-Batz",
+  "Tooltip": "eos",
   "Deleted": true,
-  "Rank": 504,
+  "Rank": 424,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": true,
-  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Towne LLC",
+  "WindowName": "Schaden Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "perspiciatis",
-  "Icon": 86,
+  "ProgId": "suscipit",
+  "Icon": 787,
   "AlwaysReloadOnShow": false
 }
 ```
@@ -139,33 +139,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 59,
-  "Name": "Hahn, Leffler and Hagenes",
-  "Tooltip": "quam",
+  "WebPanelId": 955,
+  "Name": "Dooley LLC",
+  "Tooltip": "sequi",
   "Deleted": false,
-  "Rank": 544,
+  "Rank": 605,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
+  "OnSatellite": false,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Jacobson LLC",
+  "ShowInToolBar": true,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "WindowName": "Macejkovic-Cummerata",
   "Url": "http://www.example.com/",
-  "ProgId": "delectus",
-  "Icon": 350,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "est",
+  "Icon": 82,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 617
+      "FieldLength": 391
     }
   }
 }

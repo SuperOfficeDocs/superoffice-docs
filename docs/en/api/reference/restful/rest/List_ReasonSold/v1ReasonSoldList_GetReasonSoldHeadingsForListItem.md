@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 248,
-    "Name": "Mann, Lynch and King",
-    "ToolTip": "Minima iusto enim dolorum magnam.",
+    "Id": 672,
+    "Name": "Kreiger, Von and Gusikowski",
+    "ToolTip": "Ut repellendus.",
     "Deleted": true,
-    "Rank": 635,
-    "Type": "quas",
-    "ColorBlock": 350,
-    "IconHint": "velit",
-    "Selected": false,
-    "LastChanged": "2002-07-18T11:22:46.1472512+02:00",
+    "Rank": 97,
+    "Type": "minus",
+    "ColorBlock": 695,
+    "IconHint": "cum",
+    "Selected": true,
+    "LastChanged": "2004-07-18T14:19:11.4714393+02:00",
     "ChildItems": [
       {
-        "Id": 888,
-        "Name": "Jerde-Volkman",
-        "ToolTip": "Debitis culpa eos blanditiis voluptate.",
-        "Deleted": false,
-        "Rank": 613,
-        "Type": "rerum",
-        "ColorBlock": 340,
-        "IconHint": "libero",
-        "Selected": false,
-        "LastChanged": "1997-09-23T11:22:46.1472512+02:00",
+        "Id": 969,
+        "Name": "Funk Group",
+        "ToolTip": "Et et repellendus ullam.",
+        "Deleted": true,
+        "Rank": 759,
+        "Type": "est",
+        "ColorBlock": 227,
+        "IconHint": "distinctio",
+        "Selected": true,
+        "LastChanged": "1996-10-14T14:19:11.4714393+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "commodi",
-        "Hidden": false,
-        "FullName": "Vida Kuphal",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "voluptatibus",
+        "Hidden": true,
+        "FullName": "Dr. Kevin Frieda Hirthe PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 895
+            "FieldType": "System.String",
+            "FieldLength": 962
           }
         }
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "odit",
+    "ExtraInfo": "aut",
+    "StyleHint": "vitae",
     "Hidden": false,
-    "FullName": "Prof. Doyle Dwight Wolff",
+    "FullName": "Lyla Murphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 319
+        "FieldType": "System.String",
+        "FieldLength": 711
       }
     }
   }

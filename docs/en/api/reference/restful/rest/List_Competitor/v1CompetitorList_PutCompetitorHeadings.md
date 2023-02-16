@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 958,
-    "Name": "Raynor Inc and Sons",
-    "Tooltip": "voluptates",
+    "HeadingId": 228,
+    "Name": "Dickinson Group",
+    "Tooltip": "quidem",
     "Deleted": false,
-    "Rank": 878,
-    "UdListDefinitionId": 995
+    "Rank": 896,
+    "UdListDefinitionId": 875
   },
   {
-    "HeadingId": 958,
-    "Name": "Raynor Inc and Sons",
-    "Tooltip": "voluptates",
+    "HeadingId": 228,
+    "Name": "Dickinson Group",
+    "Tooltip": "quidem",
     "Deleted": false,
-    "Rank": 878,
-    "UdListDefinitionId": 995
+    "Rank": 896,
+    "UdListDefinitionId": 875
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 452,
-    "Name": "Feest LLC",
-    "Tooltip": "non",
-    "Deleted": true,
-    "Rank": 324,
-    "UdListDefinitionId": 918,
+    "HeadingId": 70,
+    "Name": "Barton, Hegmann and Pagac",
+    "Tooltip": "velit",
+    "Deleted": false,
+    "Rank": 872,
+    "UdListDefinitionId": 349,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 620
+        "FieldLength": 625
       }
     }
   }

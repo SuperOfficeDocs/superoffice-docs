@@ -70,31 +70,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 413,
-  "Name": "Kuvalis, Kemmer and Greenfelder",
-  "TZLocationCode": "quibusdam",
-  "TZLocationCities": "eum",
-  "IsoNumber": 744,
+  "TZLocationID": 880,
+  "Name": "Dietrich, Friesen and Gaylord",
+  "TZLocationCode": "iusto",
+  "TZLocationCities": "ipsum",
+  "IsoNumber": 6,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 442,
-      "StartMonth": 319,
-      "EndDay": 85,
-      "EndMonth": 20,
-      "TZOffset": 440,
-      "StartRulePattern": "veritatis",
-      "EndRulePattern": "animi"
+      "StartDay": 677,
+      "StartMonth": 64,
+      "EndDay": 1000,
+      "EndMonth": 931,
+      "TZOffset": 798,
+      "StartRulePattern": "optio",
+      "EndRulePattern": "numquam"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 334,
-      "StartMonth": 222,
-      "EndDay": 871,
-      "EndMonth": 948,
-      "TZOffset": 116,
-      "StartRulePattern": "qui",
-      "EndRulePattern": "soluta"
+      "StartDay": 485,
+      "StartMonth": 51,
+      "EndDay": 591,
+      "EndMonth": 54,
+      "TZOffset": 632,
+      "StartRulePattern": "eaque",
+      "EndRulePattern": "porro"
     }
   }
 }

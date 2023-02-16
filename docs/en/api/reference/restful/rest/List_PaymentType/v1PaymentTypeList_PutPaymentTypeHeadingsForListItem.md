@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 827,
-    "Name": "Carter, Johnston and Marquardt",
-    "ToolTip": "Rerum quisquam libero quisquam consequatur dolores neque sed.",
+    "Id": 500,
+    "Name": "Ziemann-Weimann",
+    "ToolTip": "Molestiae ut consectetur.",
     "Deleted": false,
-    "Rank": 696,
-    "Type": "unde",
-    "ColorBlock": 659,
-    "IconHint": "fugit",
-    "Selected": false,
-    "LastChanged": "2011-09-04T11:22:45.9754127+02:00",
+    "Rank": 442,
+    "Type": "sed",
+    "ColorBlock": 31,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2014-09-08T14:19:11.3211603+02:00",
     "ChildItems": [
       {
-        "Id": 659,
-        "Name": "Aufderhar Inc and Sons",
-        "ToolTip": "Eaque sed in.",
-        "Deleted": true,
-        "Rank": 736,
-        "Type": "et",
-        "ColorBlock": 504,
-        "IconHint": "esse",
-        "Selected": true,
-        "LastChanged": "2019-01-18T11:22:45.9754127+01:00",
+        "Id": 252,
+        "Name": "Bogan LLC",
+        "ToolTip": "Eveniet culpa natus.",
+        "Deleted": false,
+        "Rank": 849,
+        "Type": "deserunt",
+        "ColorBlock": 845,
+        "IconHint": "rerum",
+        "Selected": false,
+        "LastChanged": "2009-05-25T14:19:11.3211603+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "debitis",
-        "Hidden": false,
-        "FullName": "Prof. Winona Axel Mann"
+        "ExtraInfo": "eum",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Elliott Pfannerstill"
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "rem",
-    "Hidden": true,
-    "FullName": "Mr. Elenora Bashirian DVM"
+    "ExtraInfo": "molestiae",
+    "StyleHint": "labore",
+    "Hidden": false,
+    "FullName": "Katelynn Lang"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 844,
-    "Name": "O'Connell LLC",
-    "ToolTip": "Officia aut quo dolor sit facere.",
-    "Deleted": false,
-    "Rank": 730,
+    "Id": 313,
+    "Name": "Stehr-Gutkowski",
+    "ToolTip": "Dolores necessitatibus commodi cumque consequatur sunt libero eos.",
+    "Deleted": true,
+    "Rank": 801,
     "Type": "ut",
-    "ColorBlock": 72,
-    "IconHint": "eius",
-    "Selected": true,
-    "LastChanged": "2022-03-21T11:22:45.9754127+01:00",
+    "ColorBlock": 462,
+    "IconHint": "similique",
+    "Selected": false,
+    "LastChanged": "2017-08-15T14:19:11.3211603+02:00",
     "ChildItems": [
       {
-        "Id": 764,
-        "Name": "O'Keefe Group",
-        "ToolTip": "Nam doloribus et quibusdam vel fuga non quasi.",
-        "Deleted": false,
-        "Rank": 410,
-        "Type": "quisquam",
-        "ColorBlock": 973,
-        "IconHint": "ipsam",
-        "Selected": false,
-        "LastChanged": "1995-12-24T11:22:45.9754127+01:00",
+        "Id": 715,
+        "Name": "Rogahn, Greenfelder and Simonis",
+        "ToolTip": "Beatae debitis autem.",
+        "Deleted": true,
+        "Rank": 911,
+        "Type": "quo",
+        "ColorBlock": 105,
+        "IconHint": "vero",
+        "Selected": true,
+        "LastChanged": "2016-01-25T14:19:11.3211603+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Ms. Junior Kulas MD",
+        "ExtraInfo": "quos",
+        "StyleHint": "repellat",
+        "Hidden": true,
+        "FullName": "Juanita Skiles",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 825
+            "FieldLength": 41
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "placeat",
+    "ExtraInfo": "porro",
+    "StyleHint": "nisi",
     "Hidden": false,
-    "FullName": "Mr. Candido Bergnaum II",
+    "FullName": "Angelica Rowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldType": "System.String",
+        "FieldLength": 488
       }
     }
   }

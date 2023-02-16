@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 797,
-  "Name": "Bosco, Stokes and Boyer",
-  "Tooltip": "modi",
-  "Deleted": false,
-  "UdListDefinitionId": 276,
-  "Rank": 446,
+  "Id": 873,
+  "Name": "Hettinger Inc and Sons",
+  "Tooltip": "facilis",
+  "Deleted": true,
+  "UdListDefinitionId": 62,
+  "Rank": 140,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 632
+      "FieldType": "System.Int32",
+      "FieldLength": 893
     }
   }
 }

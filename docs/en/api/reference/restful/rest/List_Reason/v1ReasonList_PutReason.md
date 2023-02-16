@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 780,
-  "Name": "Grimes-Mante",
-  "Tooltip": "voluptatibus",
+  "Id": 516,
+  "Name": "Mohr Group",
+  "Tooltip": "suscipit",
   "Deleted": true,
-  "UdListDefinitionId": 769,
-  "Rank": 300
+  "UdListDefinitionId": 935,
+  "Rank": 755
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 773,
-  "Name": "Satterfield, Nader and Hyatt",
-  "Tooltip": "occaecati",
+  "Id": 411,
+  "Name": "Veum Inc and Sons",
+  "Tooltip": "architecto",
   "Deleted": false,
-  "UdListDefinitionId": 751,
-  "Rank": 274,
+  "UdListDefinitionId": 943,
+  "Rank": 158,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 182
+      "FieldType": "System.Int32",
+      "FieldLength": 949
     }
   }
 }

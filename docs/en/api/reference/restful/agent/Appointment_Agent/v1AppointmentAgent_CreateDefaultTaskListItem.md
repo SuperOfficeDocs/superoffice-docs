@@ -78,25 +78,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 419,
-  "Value": "sed",
+  "TaskListItemId": 459,
+  "Value": "molestiae",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "sed",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "IntentId": 52,
-  "Rank": 557,
+  "IntentId": 713,
+  "Rank": 349,
   "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": true,
-  "IsDefaultPublished": false,
+  "IsDefaultFree": false,
+  "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 835
+      "FieldType": "System.String",
+      "FieldLength": 287
     }
   }
 }

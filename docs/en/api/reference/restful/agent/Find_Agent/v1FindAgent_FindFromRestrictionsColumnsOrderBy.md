@@ -81,50 +81,50 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Kohler-Walker",
-      "Operator": "praesentium",
+      "Name": "Williamson Inc and Sons",
+      "Operator": "autem",
       "Values": [
-        "molestias",
-        "unde"
+        "possimus",
+        "sunt"
       ],
       "DisplayValues": [
-        "praesentium",
-        "saepe"
+        "accusamus",
+        "culpa"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 85,
+      "InterParenthesis": 260,
       "InterOperator": "And",
-      "UniqueHash": 396
+      "UniqueHash": 544
     }
   ],
-  "ProviderName": "Bahringer-Gerlach",
+  "ProviderName": "Rempel, Marquardt and Schuppe",
   "DesiredColumns": [
-    "qui",
-    "aperiam"
+    "nulla",
+    "reiciendis"
   ],
   "OrderBy": [
     {
-      "Name": "Gusikowski, Dibbert and Kuhn",
+      "Name": "Upton-Frami",
       "Direction": "ASC"
     },
     {
-      "Name": "Gusikowski, Dibbert and Kuhn",
+      "Name": "Upton-Frami",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 60,
-  "PageNumber": 638
+  "PageSize": 331,
+  "PageNumber": 178
 }
 ```
 
@@ -137,51 +137,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hirthe-Tromp",
-      "DisplayTooltip": "repellendus",
-      "DisplayType": "qui",
+      "DisplayName": "Emard-Douglas",
+      "DisplayTooltip": "tenetur",
+      "DisplayType": "pariatur",
       "CanOrderBy": false,
-      "Name": "Roob, Stroman and Adams",
-      "CanRestrictBy": true,
-      "RestrictionType": "quia",
-      "RestrictionListName": "Friesen Group",
+      "Name": "Marvin-Reynolds",
+      "CanRestrictBy": false,
+      "RestrictionType": "in",
+      "RestrictionListName": "Hagenes, Gerlach and Sanford",
       "IsVisible": false,
-      "ExtraInfo": "laborum",
-      "Width": "sit",
-      "IconHint": "et",
-      "HeadingIconHint": "et"
+      "ExtraInfo": "nulla",
+      "Width": "voluptas",
+      "IconHint": "quasi",
+      "HeadingIconHint": "explicabo"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Wisoky-Kris",
-      "PrimaryKey": 570,
+      "EntityName": "Wilderman-Rau",
+      "PrimaryKey": 35,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aliquid",
-          "TooltipHint": "ut",
-          "LinkHint": "officiis"
+          "DisplayValue": "sunt",
+          "TooltipHint": "voluptatibus",
+          "LinkHint": "aut"
         }
       },
-      "LinkHint": "veniam",
-      "StyleHint": "quidem",
+      "LinkHint": "culpa",
+      "StyleHint": "facere",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 644
+          "FieldType": "System.Int32",
+          "FieldLength": 49
         }
       }
     }
   ],
-  "RowCount": 876,
+  "RowCount": 754,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 169
+      "FieldType": "System.String",
+      "FieldLength": 438
     }
   }
 }

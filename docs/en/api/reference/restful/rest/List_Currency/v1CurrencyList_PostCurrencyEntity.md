@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 90,
-  "Name": "Ankunding, Bernier and Volkman",
-  "Tooltip": "a",
-  "Rank": 482,
-  "Rate": 7831.866,
-  "Units": 11492.377999999999,
+  "CurrencyId": 962,
+  "Name": "Champlin, Monahan and Russel",
+  "Tooltip": "reprehenderit",
+  "Rank": 353,
+  "Rate": 20822.296,
+  "Units": 30280.708,
   "Deleted": false
 }
 ```
@@ -97,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 741,
-  "Name": "Roberts Inc and Sons",
-  "Tooltip": "tenetur",
-  "Rank": 609,
-  "Rate": 3716.924,
-  "Units": 24827.548,
+  "CurrencyId": 379,
+  "Name": "Veum Group",
+  "Tooltip": "enim",
+  "Rank": 166,
+  "Rate": 18152.128,
+  "Units": 13021.77,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldType": "System.String",
+      "FieldLength": 348
     }
   }
 }

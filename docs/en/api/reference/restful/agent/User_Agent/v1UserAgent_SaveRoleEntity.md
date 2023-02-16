@@ -86,20 +86,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 92,
-  "Name": "Botsford Inc and Sons",
-  "Tooltip": "delectus",
+  "RoleId": 244,
+  "Name": "Carroll, Herzog and Crist",
+  "Tooltip": "architecto",
   "RoleType": "Anonymous",
-  "Deleted": 227,
-  "Rank": 746,
-  "Created": "2006-11-08T11:22:39.5862974+01:00",
-  "UseCategories": 772,
+  "Deleted": 252,
+  "Rank": 929,
+  "Created": "1999-03-26T14:19:04.5484513+01:00",
+  "UseCategories": 914,
   "CreatedBy": null,
-  "Updated": "2011-05-18T11:22:39.5862974+02:00",
+  "Updated": "2010-05-03T14:19:04.5484513+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -112,24 +112,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 471,
-  "Name": "Ziemann-Nikolaus",
-  "Tooltip": "consequatur",
+  "RoleId": 353,
+  "Name": "Windler, Gutmann and Kuvalis",
+  "Tooltip": "sequi",
   "RoleType": "Anonymous",
-  "Deleted": 36,
-  "Rank": 945,
-  "Created": "2013-08-01T11:22:39.5862974+02:00",
-  "UseCategories": 916,
+  "Deleted": 646,
+  "Rank": 73,
+  "Created": "2015-02-12T14:19:04.5484513+01:00",
+  "UseCategories": 472,
   "CreatedBy": null,
-  "Updated": "2000-10-09T11:22:39.5862974+02:00",
+  "Updated": "2007-08-26T14:19:04.5484513+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldType": "System.String",
+      "FieldLength": 470
     }
   }
 }

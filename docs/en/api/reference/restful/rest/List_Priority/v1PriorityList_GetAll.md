@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 781,
-    "Name": "Wisoky LLC",
+    "Id": 494,
+    "Name": "Jones Group",
     "Tooltip": "omnis",
     "Deleted": false,
-    "UdListDefinitionId": 785,
-    "Rank": 468,
+    "UdListDefinitionId": 553,
+    "Rank": 122,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 645
+        "FieldLength": 878
       }
     }
   }

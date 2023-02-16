@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Nader, Hintz and Bednar",
-  "IncludeStandard": false
+  "TableName": "Brakus, Satterfield and Mayert",
+  "IncludeStandard": true
 }
 ```
 
@@ -101,18 +101,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Kassulke-Grimes",
-    "DisplayName": "Lockman, Rohan and Keeling",
-    "Description": "Advanced even-keeled product",
-    "ShortLabel": "quidem",
+    "FieldName": "Kuhlman Inc and Sons",
+    "DisplayName": "Brown Inc and Sons",
+    "Description": "Vision-oriented multimedia methodology",
+    "ShortLabel": "est",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 59,
-    "TemplateVariableName": "Gusikowski-Douglas"
+    "Rank": 94,
+    "TemplateVariableName": "Turcotte, Nicolas and Dietrich"
   }
 ]
 ```

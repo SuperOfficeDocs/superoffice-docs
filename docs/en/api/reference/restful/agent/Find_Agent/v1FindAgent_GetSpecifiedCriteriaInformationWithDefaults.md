@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aut",
-  "ProviderName": "Brakus, Tillman and O'Hara",
-  "StorageKey": "aut",
+  "StorageType": "beatae",
+  "ProviderName": "Roberts-Roob",
+  "StorageKey": "hic",
   "DesiredColumnNames": [
-    "Thiel-Kozey",
-    "Kling-Purdy"
+    "Denesik, Harris and Volkman",
+    "Hayes LLC"
   ],
   "StaticColumns": [
-    "eos",
-    "sequi"
+    "quam",
+    "exercitationem"
   ]
 }
 ```
@@ -108,81 +108,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Harris-Weimann",
-      "Operator": "vel",
+      "Name": "Wunsch-Wisozk",
+      "Operator": "porro",
       "Values": [
-        "occaecati",
-        "ut"
+        "est",
+        "impedit"
       ],
       "DisplayValues": [
-        "consequatur",
-        "nihil"
+        "quo",
+        "nemo"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 125,
+      "InterParenthesis": 715,
       "InterOperator": "And",
-      "UniqueHash": 500
+      "UniqueHash": 990
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Blick-Collier",
-      "DisplayTooltip": "sunt",
-      "DisplayType": "est",
-      "CanOrderBy": false,
-      "Name": "Zboncak LLC",
+      "DisplayName": "Pfannerstill, Hansen and Cummerata",
+      "DisplayTooltip": "quasi",
+      "DisplayType": "tenetur",
+      "CanOrderBy": true,
+      "Name": "Brakus-Klein",
       "CanRestrictBy": false,
-      "RestrictionType": "dicta",
-      "RestrictionListName": "Abshire, Purdy and Skiles",
+      "RestrictionType": "aut",
+      "RestrictionListName": "Fadel Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "porro",
-      "Width": "esse",
-      "IconHint": "cum",
-      "HeadingIconHint": "aut"
+      "ExtraInfo": "dolores",
+      "Width": "assumenda",
+      "IconHint": "maxime",
+      "HeadingIconHint": "et"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "King-Olson",
-      "PrimaryKey": 103,
+      "EntityName": "Greenholt-Upton",
+      "PrimaryKey": 333,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "tempore",
-          "TooltipHint": "nesciunt",
-          "LinkHint": "laborum"
+          "DisplayValue": "et",
+          "TooltipHint": "ab",
+          "LinkHint": "aut"
         }
       },
-      "LinkHint": "minus",
-      "StyleHint": "sapiente",
+      "LinkHint": "consequatur",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 897
+          "FieldLength": 426
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Conroy-Rowe",
-      "Description": "Down-sized user-facing installation",
-      "Rank": 250,
+      "Name": "Wiza, Dach and Pouros",
+      "Description": "Realigned holistic customer loyalty",
+      "Rank": 205,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Conroy-Rowe",
-      "Description": "Down-sized user-facing installation",
-      "Rank": 250,
+      "Name": "Wiza, Dach and Pouros",
+      "Description": "Realigned holistic customer loyalty",
+      "Rank": 205,
       "Restrictions": [
         {},
         {}
@@ -193,8 +193,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 666
+      "FieldType": "System.Int32",
+      "FieldLength": 825
     }
   }
 }

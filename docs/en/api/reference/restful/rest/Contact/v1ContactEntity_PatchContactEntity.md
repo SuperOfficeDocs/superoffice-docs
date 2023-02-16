@@ -150,18 +150,18 @@ ContactEntity  updated.
 PATCH /api/v1/Contact/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "asperiores",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "asperiores",
     "value": {}
   }
 ]
@@ -174,157 +174,157 @@ HTTP/1.1 200 ContactEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 65,
-  "Name": "Ullrich, Goldner and Armstrong",
+  "ContactId": 814,
+  "Name": "Robel-Kessler",
   "Department": "",
-  "OrgNr": "798983",
-  "Number1": "1006741",
-  "Number2": "978790",
-  "UpdatedDate": "2004-02-03T11:22:44.5226294+01:00",
-  "CreatedDate": "2022-04-14T11:22:44.5226294+02:00",
+  "OrgNr": "1446250",
+  "Number1": "840561",
+  "Number2": "984465",
+  "UpdatedDate": "2018-03-30T14:19:10.1935974+02:00",
+  "CreatedDate": "2022-09-16T14:19:10.1935974+02:00",
   "Emails": [
     {
-      "Value": "corrupti",
-      "StrippedValue": "et",
-      "Description": "Secured executive customer loyalty",
+      "Value": "repudiandae",
+      "StrippedValue": "nisi",
+      "Description": "Secured intermediate implementation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 886
+          "FieldType": "System.Int32",
+          "FieldLength": 845
         }
       }
     },
     {
-      "Value": "corrupti",
-      "StrippedValue": "et",
-      "Description": "Secured executive customer loyalty",
+      "Value": "repudiandae",
+      "StrippedValue": "nisi",
+      "Description": "Secured intermediate implementation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 886
+          "FieldType": "System.Int32",
+          "FieldLength": 845
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 884,
-      "Name": "Bailey-Pagac",
-      "ToolTip": "Non eos autem omnis voluptatem.",
+      "Id": 813,
+      "Name": "Buckridge Group",
+      "ToolTip": "Omnis cumque autem accusamus et.",
       "Deleted": false,
-      "Rank": 494,
-      "Type": "sed",
-      "ColorBlock": 471,
-      "IconHint": "libero",
-      "Selected": false,
-      "LastChanged": "2010-01-03T11:22:44.5226294+01:00",
+      "Rank": 364,
+      "Type": "non",
+      "ColorBlock": 866,
+      "IconHint": "ullam",
+      "Selected": true,
+      "LastChanged": "2012-07-09T14:19:10.1935974+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "dicta",
+      "ExtraInfo": "nobis",
+      "StyleHint": "qui",
       "Hidden": false,
-      "FullName": "Dr. Theresia Senger Jr.",
+      "FullName": "Mckenna Bailey",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 657
+          "FieldLength": 676
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "animi",
-      "StrippedValue": "corporis",
-      "Description": "Balanced logistical solution",
+      "Value": "numquam",
+      "StrippedValue": "aut",
+      "Description": "Distributed didactic solution",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 418
+          "FieldType": "System.Int32",
+          "FieldLength": 479
         }
       }
     },
     {
-      "Value": "animi",
-      "StrippedValue": "corporis",
-      "Description": "Balanced logistical solution",
+      "Value": "numquam",
+      "StrippedValue": "aut",
+      "Description": "Distributed didactic solution",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 418
+          "FieldType": "System.Int32",
+          "FieldLength": 479
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "numquam",
-      "StrippedValue": "at",
-      "Description": "Fully-configurable impactful migration",
+      "Value": "non",
+      "StrippedValue": "est",
+      "Description": "Multi-channelled modular instruction set",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 989
+          "FieldLength": 316
         }
       }
     },
     {
-      "Value": "numquam",
-      "StrippedValue": "at",
-      "Description": "Fully-configurable impactful migration",
+      "Value": "non",
+      "StrippedValue": "est",
+      "Description": "Multi-channelled modular instruction set",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 989
+          "FieldLength": 316
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "illum",
-      "StrippedValue": "repellat",
-      "Description": "Cross-platform bifurcated task-force",
+      "Value": "et",
+      "StrippedValue": "necessitatibus",
+      "Description": "Organic analyzing definition",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 724
+          "FieldLength": 845
         }
       }
     },
     {
-      "Value": "illum",
-      "StrippedValue": "repellat",
-      "Description": "Cross-platform bifurcated task-force",
+      "Value": "et",
+      "StrippedValue": "necessitatibus",
+      "Description": "Organic analyzing definition",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 724
+          "FieldLength": 845
         }
       }
     }
   ],
-  "Description": "Right-sized next generation leverage",
+  "Description": "Switchable cohesive moderator",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -333,100 +333,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "inventore",
-      "PersonId": 191,
-      "Mrmrs": "ducimus",
-      "Firstname": "Joyce",
-      "Lastname": "Schuster",
-      "MiddleName": "Hansen, Pacocha and McClure",
-      "Title": "nobis",
-      "Description": "Inverse zero tolerance toolset",
-      "Email": "reginald@borer.com",
-      "FullName": "Prof. Jedediah Renner",
-      "DirectPhone": "687.777.7806",
-      "FormalName": "Smitham Inc and Sons",
-      "CountryId": 187,
-      "ContactId": 998,
-      "ContactName": "Wunsch Inc and Sons",
-      "Retired": 294,
-      "Rank": 571,
-      "ActiveInterests": 142,
+      "Position": "est",
+      "PersonId": 88,
+      "Mrmrs": "quas",
+      "Firstname": "Patricia",
+      "Lastname": "Weimann",
+      "MiddleName": "Cassin Inc and Sons",
+      "Title": "minima",
+      "Description": "Customizable exuding encryption",
+      "Email": "rory@weimann.info",
+      "FullName": "Mrs. Verlie Wehner II",
+      "DirectPhone": "336-865-8063 x57004",
+      "FormalName": "Doyle, Ebert and Brekke",
+      "CountryId": 913,
+      "ContactId": 327,
+      "ContactName": "Koepp-Pollich",
+      "Retired": 586,
+      "Rank": 954,
+      "ActiveInterests": 816,
       "ContactDepartment": "",
-      "ContactCountryId": 702,
-      "ContactOrgNr": "1268025",
-      "FaxPhone": "836.499.7224 x6123",
-      "MobilePhone": "231.550.4618 x3503",
-      "ContactPhone": "(188)964-6177 x56810",
-      "AssociateName": "Fay-Kilback",
-      "AssociateId": 397,
+      "ContactCountryId": 483,
+      "ContactOrgNr": "522809",
+      "FaxPhone": "(502)398-8292 x0627",
+      "MobilePhone": "730.097.1008 x244",
+      "ContactPhone": "1-460-348-7790 x97773",
+      "AssociateName": "Daniel, O'Conner and Leffler",
+      "AssociateId": 357,
       "UsePersonAddress": false,
-      "ContactFax": "laborum",
-      "Kanafname": "hic",
-      "Kanalname": "rerum",
-      "Post1": "reiciendis",
-      "Post2": "nesciunt",
-      "Post3": "cumque",
-      "EmailName": "trevion@fritschweber.uk",
-      "ContactFullName": "Dr. Rhianna Dayna Okuneva",
-      "ActiveErpLinks": 960,
-      "TicketPriorityId": 159,
-      "SupportLanguageId": 915,
-      "SupportAssociateId": 161,
+      "ContactFax": "nihil",
+      "Kanafname": "in",
+      "Kanalname": "autem",
+      "Post1": "quaerat",
+      "Post2": "debitis",
+      "Post3": "sed",
+      "EmailName": "vicenta@rath.info",
+      "ContactFullName": "Mariana Kunze",
+      "ActiveErpLinks": 339,
+      "TicketPriorityId": 931,
+      "SupportLanguageId": 503,
+      "SupportAssociateId": 698,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 141
+          "FieldLength": 862
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "explicabo",
+  "Kananame": "qui",
   "Xstop": false,
-  "ActiveInterests": 366,
-  "GroupId": 816,
-  "ActiveStatusMonitorId": 534,
+  "ActiveInterests": 59,
+  "GroupId": 253,
+  "ActiveStatusMonitorId": 727,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 277,
-  "DbiAgentId": 482,
-  "DbiLastSyncronized": "2010-09-23T11:22:44.5226294+02:00",
-  "DbiKey": "aspernatur",
-  "DbiLastModified": "2019-08-25T11:22:44.5226294+02:00",
+  "Deleted": 762,
+  "DbiAgentId": 474,
+  "DbiLastSyncronized": "2006-05-10T14:19:10.1935974+02:00",
+  "DbiKey": "sed",
+  "DbiLastModified": "2001-01-15T14:19:10.1935974+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 909,
-  "ActiveErpLinks": 627,
+  "Source": 876,
+  "ActiveErpLinks": 879,
   "BounceEmails": [
-    "elmer@gaylord.info",
-    "nicholaus_rogahn@windlerglover.name"
+    "rasheed@legros.com",
+    "minerva@hagenes.info"
   ],
   "Domains": [
-    "quos",
-    "vero"
+    "sed",
+    "reprehenderit"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Nelson Quigley",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Demetris Dach",
+    "SuperOffice:2": "1005330426"
   },
   "ExtraFields": {
-    "ExtraFields1": "eaque",
-    "ExtraFields2": "totam"
+    "ExtraFields1": "dolore",
+    "ExtraFields2": "id"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "repellendus"
+    "CustomFields1": "unde",
+    "CustomFields2": "tempora"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 250
+      "FieldType": "System.Int32",
+      "FieldLength": 806
     }
   },
   "_Links": {

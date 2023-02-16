@@ -90,12 +90,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "nostrum",
-      "Key": "ut"
+      "Section": "pariatur",
+      "Key": "sint"
     },
     {
-      "Section": "nostrum",
-      "Key": "ut"
+      "Section": "pariatur",
+      "Key": "sint"
     }
   ]
 }
@@ -110,22 +110,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "quia",
+    "RawValue": "sed",
     "Specification": null,
-    "DisplayValue": "mollitia",
-    "DisplayTooltip": "totam",
+    "DisplayValue": "ratione",
+    "DisplayTooltip": "nemo",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 884,
-    "PrefDescId": 283,
-    "TableName": "Kiehn Inc and Sons",
-    "UserPreferenceId": 74,
+    "TargetId": 669,
+    "PrefDescId": 884,
+    "TableName": "Simonis Group",
+    "UserPreferenceId": 564,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 123
+        "FieldLength": 122
       }
     }
   }

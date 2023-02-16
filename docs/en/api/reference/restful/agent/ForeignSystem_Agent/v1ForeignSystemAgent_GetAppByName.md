@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Christiansen Inc and Sons"
+  "ApplicationName": "Mohr, Greenfelder and Koch"
 }
 ```
 
@@ -93,29 +93,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 484,
-  "Name": "Lesch, Carter and Collier",
-  "CreatedDate": "2018-03-13T11:22:38.3678241+01:00",
-  "UpdatedDate": "2012-04-11T11:22:38.3678241+02:00",
+  "ForeignAppId": 73,
+  "Name": "Becker, Mosciski and Weber",
+  "CreatedDate": "2018-10-01T14:19:03.5602728+02:00",
+  "UpdatedDate": "2012-05-23T14:19:03.5602728+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 856,
-      "Name": "Kiehn-Watsica",
-      "CreatedDate": "1999-04-08T11:22:38.3678241+02:00",
-      "UpdatedDate": "2021-03-29T11:22:38.3678241+02:00",
-      "AssociateFullName": "Khalid Glover",
-      "CreatedBy": "adipisci",
-      "UpdatedBy": "quod",
-      "DeviceIdentifier": "beatae",
-      "ForeignAppId": 531,
+      "ForeignDeviceId": 343,
+      "Name": "Reichel, Feest and Dietrich",
+      "CreatedDate": "2011-04-18T14:19:03.5602728+02:00",
+      "UpdatedDate": "2003-05-31T14:19:03.5602728+02:00",
+      "AssociateFullName": "Winston Wehner",
+      "CreatedBy": "quos",
+      "UpdatedBy": "sint",
+      "DeviceIdentifier": "quas",
+      "ForeignAppId": 421,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 973
+          "FieldType": "System.Int32",
+          "FieldLength": 414
         }
       }
     }
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 373
+      "FieldLength": 896
     }
   }
 }

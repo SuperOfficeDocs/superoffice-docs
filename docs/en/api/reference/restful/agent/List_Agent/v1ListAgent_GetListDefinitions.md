@@ -97,22 +97,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 109,
-    "Name": "Franecki Inc and Sons",
-    "Tooltip": "ex",
+    "Id": 257,
+    "Name": "Marquardt, Keeling and Beahan",
+    "Tooltip": "non",
     "Deleted": true,
-    "Rank": 678,
+    "Rank": 270,
     "IsCustomList": true,
     "IsMDOList": false,
-    "UseGroupsAndHeadings": false,
-    "ListType": "qui",
-    "InUseByUserDefinedFields": false,
+    "UseGroupsAndHeadings": true,
+    "ListType": "repudiandae",
+    "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 441
+        "FieldLength": 672
       }
     }
   }

@@ -88,14 +88,14 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 519,
-      "FieldName": "Turner, Altenwerth and Schoen",
-      "Label": "aut",
-      "Tooltip": "excepturi",
+      "QuoteLineConfigurationId": 923,
+      "FieldName": "Hills LLC",
+      "Label": "totam",
+      "Tooltip": "laudantium",
       "Editable": false,
-      "InUse": false,
-      "Mandatory": false,
-      "Rank": 144,
+      "InUse": true,
+      "Mandatory": true,
+      "Rank": 87,
       "RestrictEdit": true
     }
   ]
@@ -110,21 +110,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 631,
-    "FieldName": "Powlowski-Goodwin",
-    "Label": "non",
-    "Tooltip": "aspernatur",
-    "Editable": true,
+    "QuoteLineConfigurationId": 599,
+    "FieldName": "Parker-Schimmel",
+    "Label": "totam",
+    "Tooltip": "natus",
+    "Editable": false,
     "InUse": false,
-    "Mandatory": true,
-    "Rank": 81,
-    "RestrictEdit": true,
+    "Mandatory": false,
+    "Rank": 79,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 912
+        "FieldType": "System.String",
+        "FieldLength": 477
       }
     }
   }

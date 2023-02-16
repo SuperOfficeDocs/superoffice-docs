@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 66,
-  "Name": "Kassulke Inc and Sons",
-  "Tooltip": "ea",
+  "Id": 748,
+  "Name": "Schiller-Lindgren",
+  "Tooltip": "quis",
   "Deleted": false,
-  "Rank": 767,
+  "Rank": 194,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false
+  "ListType": "qui",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 784,
-  "Name": "Funk-Franecki",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 973,
+  "Id": 528,
+  "Name": "Vandervort-Champlin",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 8,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolorem",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "possimus",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 201
+      "FieldLength": 658
     }
   }
 }

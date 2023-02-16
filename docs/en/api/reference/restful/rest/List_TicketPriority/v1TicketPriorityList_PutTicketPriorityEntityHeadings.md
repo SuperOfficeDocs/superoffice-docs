@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 499,
-    "Name": "Marvin-Torp",
-    "Tooltip": "qui",
+    "HeadingId": 54,
+    "Name": "D'Amore, Gutkowski and Schaefer",
+    "Tooltip": "sit",
     "Deleted": false,
-    "Rank": 893,
-    "UdListDefinitionId": 318
+    "Rank": 616,
+    "UdListDefinitionId": 935
   },
   {
-    "HeadingId": 499,
-    "Name": "Marvin-Torp",
-    "Tooltip": "qui",
+    "HeadingId": 54,
+    "Name": "D'Amore, Gutkowski and Schaefer",
+    "Tooltip": "sit",
     "Deleted": false,
-    "Rank": 893,
-    "UdListDefinitionId": 318
+    "Rank": 616,
+    "UdListDefinitionId": 935
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 606,
-    "Name": "Cassin Group",
-    "Tooltip": "dolorem",
+    "HeadingId": 63,
+    "Name": "Wuckert, Quitzon and Marks",
+    "Tooltip": "earum",
     "Deleted": false,
-    "Rank": 388,
-    "UdListDefinitionId": 124,
+    "Rank": 936,
+    "UdListDefinitionId": 554,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 846
+        "FieldType": "System.String",
+        "FieldLength": 993
       }
     }
   }

@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,28 +97,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "optio",
-    "InputValues2": "eligendi"
+    "InputValues1": "culpa",
+    "InputValues2": "numquam"
   },
   "BlockExecution": false,
-  "NavigateTo": "corrupti",
-  "Message": "ratione",
-  "ShowDialog": "iure",
+  "NavigateTo": "voluptates",
+  "Message": "aliquam",
+  "ShowDialog": "ut",
   "OutputValues": {
-    "OutputValues1": "et",
-    "OutputValues2": "cupiditate"
+    "OutputValues1": "id",
+    "OutputValues2": "animi"
   },
   "StateValues": {
-    "StateValues1": "consectetur",
-    "StateValues2": "et"
+    "StateValues1": "et",
+    "StateValues2": "accusantium"
   },
-  "Exception": "quo",
+  "Exception": "libero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldType": "System.String",
+      "FieldLength": 709
     }
   }
 }

@@ -32,10 +32,10 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=11/11/1998 11:22:47
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=05/23/2018 11:22:47
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=771
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=True
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=12/06/2014 14:19:12
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=03/11/2004 14:19:12
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=277
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
 
 
@@ -94,22 +94,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 278,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 840,
-  "Name": "Ryan Group",
-  "Description": "Future-proofed holistic architecture",
-  "Currency": "dolores",
-  "CurrencyName": "Goyette-Okuneva",
-  "ValidFrom": "2013-02-02T11:22:46.0066565+01:00",
-  "ValidTo": "2000-10-29T11:22:46.0066565+01:00",
-  "IsActive": true,
+  "PriceListId": 21,
+  "ERPPriceListKey": "sunt",
+  "QuoteConnectionId": 228,
+  "Name": "Feest, Hettinger and Johnston",
+  "Description": "Cross-platform eco-centric ability",
+  "Currency": "harum",
+  "CurrencyName": "Ferry, Cormier and Brown",
+  "ValidFrom": "2003-02-22T14:19:11.3367817+01:00",
+  "ValidTo": "2011-01-03T14:19:11.3367817+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 958
+      "FieldType": "System.String",
+      "FieldLength": 488
     }
   }
 }

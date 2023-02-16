@@ -127,18 +127,18 @@ ProjectMember  updated.
 PATCH /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "itaque",
+    "path": "consequuntur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "itaque",
+    "path": "consequuntur",
     "value": {}
   }
 ]
@@ -151,33 +151,33 @@ HTTP/1.1 200 ProjectMember  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 393,
-  "ContactId": 550,
-  "ProjectId": 348,
-  "ContactName": "Dicki, Swift and Oberbrunner",
+  "ProjectmemberId": 132,
+  "ContactId": 188,
+  "ProjectId": 599,
+  "ContactName": "Abbott Inc and Sons",
   "ContactDepartment": "",
-  "ProjectName": "Schmitt Group",
-  "EmailId": 263,
-  "EmailAddress": "ezekiel@carter.us",
-  "CountryId": 222,
-  "Firstname": "Marjorie",
-  "MiddleName": "Schowalter LLC",
-  "Lastname": "Cummings",
-  "PersonId": 824,
-  "Mrmrs": "eius",
-  "ProjectMemberTypeName": "Kemmer-Hartmann",
-  "Phone": "(385)458-9508",
-  "PhoneId": 48,
-  "ProjectMemberTypeId": 482,
-  "EmailAddressName": "immanuel@effertz.ca",
-  "Comment": "similique",
-  "FullName": "Emerson Reichel",
+  "ProjectName": "Champlin-VonRueden",
+  "EmailId": 871,
+  "EmailAddress": "kenyon@conroy.info",
+  "CountryId": 278,
+  "Firstname": "Golda",
+  "MiddleName": "Ebert-Ruecker",
+  "Lastname": "Purdy",
+  "PersonId": 185,
+  "Mrmrs": "est",
+  "ProjectMemberTypeName": "Rempel LLC",
+  "Phone": "(888)272-8423",
+  "PhoneId": 397,
+  "ProjectMemberTypeId": 615,
+  "EmailAddressName": "julius.pollich@jones.name",
+  "Comment": "est",
+  "FullName": "Helga Kovacek",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 362
+      "FieldType": "System.Int32",
+      "FieldLength": 856
     }
   },
   "_Links": {

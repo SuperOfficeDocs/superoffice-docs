@@ -164,16 +164,16 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "dicta",
-  "ProviderName": "Kiehn, Rodriguez and Cole",
-  "DesiredColumns": "autem",
-  "OrderBy": "distinctio",
-  "PageSize": 61,
-  "PageNumber": 951
+  "Restrictions": "tempore",
+  "ProviderName": "Hane, Stamm and Hermiston",
+  "DesiredColumns": "consectetur",
+  "OrderBy": "doloribus",
+  "PageSize": 995,
+  "PageNumber": 634
 }
 ```
 
@@ -186,51 +186,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Skiles, Smitham and McDermott",
-      "DisplayTooltip": "animi",
-      "DisplayType": "officiis",
+      "DisplayName": "Waters-Roob",
+      "DisplayTooltip": "ab",
+      "DisplayType": "accusantium",
       "CanOrderBy": false,
-      "Name": "Olson, Langosh and Berge",
+      "Name": "Breitenberg-McCullough",
       "CanRestrictBy": true,
-      "RestrictionType": "quasi",
-      "RestrictionListName": "Douglas Inc and Sons",
-      "IsVisible": false,
-      "ExtraInfo": "distinctio",
-      "Width": "rerum",
-      "IconHint": "inventore",
-      "HeadingIconHint": "voluptatibus"
+      "RestrictionType": "et",
+      "RestrictionListName": "Mayer-Bednar",
+      "IsVisible": true,
+      "ExtraInfo": "quod",
+      "Width": "aut",
+      "IconHint": "deserunt",
+      "HeadingIconHint": "officiis"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Schimmel Inc and Sons",
-      "PrimaryKey": 744,
+      "EntityName": "Tromp LLC",
+      "PrimaryKey": 272,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptates",
-          "TooltipHint": "totam",
-          "LinkHint": "omnis"
+          "DisplayValue": "voluptatem",
+          "TooltipHint": "officia",
+          "LinkHint": "voluptatem"
         }
       },
-      "LinkHint": "est",
-      "StyleHint": "et",
+      "LinkHint": "aperiam",
+      "StyleHint": "ab",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 995
+          "FieldType": "System.Int32",
+          "FieldLength": 982
         }
       }
     }
   ],
-  "RowCount": 565,
+  "RowCount": 361,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 81
+      "FieldLength": 782
     }
   }
 }

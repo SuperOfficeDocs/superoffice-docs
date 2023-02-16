@@ -86,30 +86,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 595,
-    "Section": "unde",
-    "Key": "corporis",
-    "Name": "Stamm, Streich and Cormier",
+    "PrefDescId": 325,
+    "Section": "laboriosam",
+    "Key": "harum",
+    "Name": "Balistreri Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Decentralized directional groupware",
+    "Description": "Configurable methodical implementation",
     "IsBuiltin": false,
-    "TableName": "Lindgren, Lubowitz and Pfannerstill",
-    "UserDefinedListId": 589,
-    "Rank": 497,
+    "TableName": "Spencer-Brakus",
+    "UserDefinedListId": 396,
+    "Rank": 957,
     "SubGroup": "et",
-    "MinLevel": 225,
-    "MaxValue": 233,
-    "MinValue": 249,
-    "RequiredLicense": "voluptatem",
+    "MinLevel": 567,
+    "MaxValue": 336,
+    "MinValue": 117,
+    "RequiredLicense": "laboriosam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 301
+        "FieldLength": 383
       }
     }
   }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 349,
-  "ERPPriceListKey": "commodi",
-  "QuoteConnectionId": 878,
-  "Name": "Steuber, Quitzon and Mills",
-  "Description": "Exclusive explicit time-frame",
-  "Currency": "cupiditate",
-  "CurrencyName": "Macejkovic-Yundt",
-  "ValidFrom": "2003-12-29T11:22:45.991037+01:00",
-  "ValidTo": "1998-05-12T11:22:45.991037+02:00",
-  "IsActive": false,
+  "PriceListId": 948,
+  "ERPPriceListKey": "aliquam",
+  "QuoteConnectionId": 874,
+  "Name": "Rowe-Balistreri",
+  "Description": "Re-engineered multi-tasking service-desk",
+  "Currency": "ut",
+  "CurrencyName": "Reichert, Heaney and Funk",
+  "ValidFrom": "2011-08-03T14:19:11.3367817+02:00",
+  "ValidTo": "2006-05-27T14:19:11.3367817+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 250
+      "FieldType": "System.Int32",
+      "FieldLength": 602
     }
   }
 }

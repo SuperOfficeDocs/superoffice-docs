@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 742
+  "ErpConnectorId": 550
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "error",
-    "Rank": 250,
-    "DisplayName": "Fisher LLC",
-    "DisplayDescription": "Versatile leading edge product",
+    "FieldKey": "cumque",
+    "Rank": 31,
+    "DisplayName": "Simonis-Tillman",
+    "DisplayDescription": "Digitized transitional paradigm",
     "FieldType": "Checkbox",
-    "ListName": "Hoppe Inc and Sons",
-    "DefaultValue": "enim",
-    "MaxLength": 609,
+    "ListName": "Little, Rath and Dickens",
+    "DefaultValue": "numquam",
+    "MaxLength": 37,
     "Access": "Mandatory",
     "ShowInSearch": true,
     "TableRight": null,
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 631
+        "FieldLength": 959
       }
     }
   }

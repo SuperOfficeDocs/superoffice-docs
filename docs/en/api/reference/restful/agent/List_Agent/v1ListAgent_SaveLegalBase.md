@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/SaveLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 160,
-  "Name": "Abernathy Group",
-  "Tooltip": "molestiae",
-  "Rank": 802,
-  "Key": "fuga",
-  "Deleted": true,
+  "LegalBaseId": 817,
+  "Name": "Hauck, Adams and Denesik",
+  "Tooltip": "quis",
+  "Rank": 8,
+  "Key": "rerum",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 145
+      "FieldLength": 182
     }
   }
 }

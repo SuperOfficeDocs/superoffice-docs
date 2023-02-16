@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 796,
-  "Name": "Heidenreich-Daugherty",
-  "Tooltip": "eligendi",
+  "Id": 348,
+  "Name": "Gulgowski-Von",
+  "Tooltip": "eos",
   "Deleted": false,
-  "UdListDefinitionId": 395,
-  "Rank": 664,
+  "UdListDefinitionId": 347,
+  "Rank": 837,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldLength": 202
     }
   }
 }

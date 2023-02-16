@@ -70,26 +70,26 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 930,
-  "AssociateId": 855,
-  "Caption": "ducimus",
+  "DashboardId": 424,
+  "AssociateId": 345,
+  "Caption": "dolor",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 229,
-      "Caption": "qui",
-      "Description": "Profound mission-critical task-force",
-      "ChartName": "Marquardt, Conn and Smitham",
-      "ChartId": "hic",
+      "DashboardTileId": 729,
+      "Caption": "id",
+      "Description": "Configurable 3rd generation hub",
+      "ChartName": "O'Connell, Nitzsche and Bruen",
+      "ChartId": "dolorem",
       "IsDefault": false,
-      "AssociateId": 393,
-      "GroupId": 494,
-      "SelectionId": 124,
-      "Config": "perspiciatis",
+      "AssociateId": 478,
+      "GroupId": 512,
+      "SelectionId": 680,
+      "Config": "magnam",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -112,22 +112,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 430,
-  "AssociateId": 674,
-  "Caption": "commodi",
+  "DashboardId": 337,
+  "AssociateId": 153,
+  "Caption": "temporibus",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 959,
-      "Caption": "laudantium",
-      "Description": "Self-enabling mission-critical intranet",
-      "ChartName": "Mills Group",
-      "ChartId": "sunt",
+      "DashboardTileId": 229,
+      "Caption": "ea",
+      "Description": "Total uniform complexity",
+      "ChartName": "Schmeler, Kling and Jaskolski",
+      "ChartId": "dolor",
       "IsDefault": false,
-      "AssociateId": 501,
-      "GroupId": 317,
-      "SelectionId": 118,
-      "Config": "reprehenderit",
+      "AssociateId": 941,
+      "GroupId": 753,
+      "SelectionId": 255,
+      "Config": "dolorem",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -142,8 +142,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 269
+          "FieldType": "System.Int32",
+          "FieldLength": 585
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 9
+      "FieldLength": 656
     }
   }
 }

@@ -90,8 +90,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Heaney, Simonis and O'Reilly",
-  "EventFilter": "sed",
+  "NameFilter": "Collier, Erdman and Witting",
+  "EventFilter": "laudantium",
   "StatusFilter": "Active"
 }
 ```
@@ -104,26 +104,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 16,
-    "Name": "Mante Group",
+    "WebhookId": 430,
+    "Name": "Mosciski-Stroman",
     "Events": [
-      "possimus",
-      "repellendus"
+      "quod",
+      "dolorum"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "voluptatem",
+    "Secret": "tenetur",
     "State": "Active",
-    "Type": "perferendis",
+    "Type": "necessitatibus",
     "Headers": {
-      "Headers1": "blanditiis",
-      "Headers2": "aspernatur"
+      "Headers1": "dolores",
+      "Headers2": "dolorem"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2022-09-27T11:22:39.7112593+02:00",
+    "Registered": "1997-05-09T14:19:04.6422019+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2010-11-17T11:22:39.7112593+01:00",
+    "Updated": "2002-12-09T14:19:04.6422019+01:00",
     "UpdatedAssociate": null
   }
 ]

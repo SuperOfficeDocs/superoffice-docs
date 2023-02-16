@@ -112,28 +112,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 347,
-  "Section": "sunt",
-  "Key": "cupiditate",
-  "Name": "Gerlach LLC",
+  "PrefDescId": 127,
+  "Section": "culpa",
+  "Key": "nostrum",
+  "Name": "Stehr, Mertz and Marvin",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Innovative next generation challenge",
+  "Description": "Operative eco-centric open system",
   "IsBuiltin": true,
-  "TableName": "Mosciski, Hudson and Hand",
-  "UserDefinedListId": 336,
-  "Rank": 533,
-  "SubGroup": "earum",
-  "MinLevel": 631,
-  "MaxValue": 674,
-  "MinValue": 419,
-  "RequiredLicense": "quod"
+  "TableName": "Prohaska-Haley",
+  "UserDefinedListId": 465,
+  "Rank": 714,
+  "SubGroup": "perspiciatis",
+  "MinLevel": 305,
+  "MaxValue": 426,
+  "MinValue": 269,
+  "RequiredLicense": "sit"
 }
 ```
 
@@ -144,30 +144,30 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 366,
-  "Section": "sit",
-  "Key": "sed",
-  "Name": "Johns Inc and Sons",
+  "PrefDescId": 478,
+  "Section": "atque",
+  "Key": "occaecati",
+  "Name": "Abernathy, Johnston and Pfannerstill",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Customizable fresh-thinking success",
+  "Description": "Networked regional frame",
   "IsBuiltin": false,
-  "TableName": "Watsica-Abshire",
-  "UserDefinedListId": 520,
-  "Rank": 327,
-  "SubGroup": "esse",
-  "MinLevel": 178,
-  "MaxValue": 954,
-  "MinValue": 79,
+  "TableName": "Beatty-Lindgren",
+  "UserDefinedListId": 962,
+  "Rank": 298,
+  "SubGroup": "temporibus",
+  "MinLevel": 601,
+  "MaxValue": 232,
+  "MinValue": 824,
   "RequiredLicense": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 213
+      "FieldLength": 212
     }
   },
   "_Links": {

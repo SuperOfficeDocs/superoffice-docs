@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 836,
-    "Name": "Hackett LLC",
-    "ToolTip": "Occaecati voluptatem voluptate consectetur sed.",
-    "Deleted": true,
-    "Rank": 861,
-    "Type": "est",
-    "ColorBlock": 301,
-    "IconHint": "earum",
-    "Selected": false,
-    "LastChanged": "2004-06-06T11:22:39.617529+02:00",
+    "Id": 638,
+    "Name": "Corwin, Jewess and Gaylord",
+    "ToolTip": "Voluptatem in ut soluta ut corrupti fugit cupiditate.",
+    "Deleted": false,
+    "Rank": 399,
+    "Type": "culpa",
+    "ColorBlock": 350,
+    "IconHint": "tempora",
+    "Selected": true,
+    "LastChanged": "2003-01-23T14:19:04.5797015+01:00",
     "ChildItems": [
       {
-        "Id": 871,
-        "Name": "Rippin Group",
-        "ToolTip": "Sint cupiditate corporis rerum sunt omnis.",
+        "Id": 227,
+        "Name": "Reichel, Thompson and Runolfsdottir",
+        "ToolTip": "Ut non natus dolor ipsa repellat est.",
         "Deleted": false,
-        "Rank": 471,
-        "Type": "optio",
-        "ColorBlock": 748,
-        "IconHint": "quo",
+        "Rank": 418,
+        "Type": "ut",
+        "ColorBlock": 737,
+        "IconHint": "cumque",
         "Selected": false,
-        "LastChanged": "2001-01-17T11:22:39.617529+01:00",
+        "LastChanged": "2005-04-13T14:19:04.5797015+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "sit",
+        "ExtraInfo": "in",
+        "StyleHint": "corrupti",
         "Hidden": true,
-        "FullName": "Neil Wilderman",
+        "FullName": "Mr. Chanel Lesley Gottlieb",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 145
+            "FieldLength": 89
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "ut",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "ullam",
     "Hidden": false,
-    "FullName": "Elizabeth Homenick",
+    "FullName": "Dr. Nathaniel Horacio Will I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 535
+        "FieldLength": 697
       }
     }
   }

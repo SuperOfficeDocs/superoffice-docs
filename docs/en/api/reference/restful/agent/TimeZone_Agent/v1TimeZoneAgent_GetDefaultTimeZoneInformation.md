@@ -79,11 +79,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PreferenceId": 918,
-  "TZLocationId": 373,
-  "LocationCode": "in",
-  "Description": "Multi-channelled explicit superstructure",
+  "PreferenceId": 904,
+  "TZLocationId": 198,
+  "LocationCode": "et",
+  "Description": "Organic logistical paradigm",
   "Country": "Sokovia",
-  "Bias": 142
+  "Bias": 907
 }
 ```

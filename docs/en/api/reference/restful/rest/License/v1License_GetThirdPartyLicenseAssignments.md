@@ -72,7 +72,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,26 +83,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 301,
-    "Tooltip": "perspiciatis",
+    "Unrestricted": false,
+    "Total": 682,
+    "Tooltip": "consequuntur",
     "CanAssign": true,
-    "Free": 438,
-    "InUse": 936,
+    "Free": 151,
+    "InUse": 283,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 710,
-    "Name": "Kertzmann-Parisian",
-    "Description": "Front-line web-enabled benchmark",
-    "PrerequisiteModuleName": "Tremblay-Jewess",
-    "SortOrder": 129,
-    "ExtraFlags": 833,
+    "ModuleLicenseId": 21,
+    "Name": "Greenholt, Weber and Barton",
+    "Description": "Reduced background matrix",
+    "PrerequisiteModuleName": "Gleichner-Kuhn",
+    "SortOrder": 77,
+    "ExtraFlags": 618,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 631
+        "FieldLength": 201
       }
     }
   }

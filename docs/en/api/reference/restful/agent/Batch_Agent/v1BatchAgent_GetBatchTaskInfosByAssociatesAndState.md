@@ -99,8 +99,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    426,
-    283
+    169,
+    370
   ],
   "State": "All"
 }
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 299,
-    "Name": "Blanda, Lebsack and Christiansen",
-    "AssociateId": 946,
-    "DetailsTable": 232,
-    "DetailsRecord": 319,
-    "IsSystemTask": true,
+    "Id": 434,
+    "Name": "Bashirian-Labadie",
+    "AssociateId": 858,
+    "DetailsTable": 227,
+    "DetailsRecord": 94,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "minima",
-      "ParameterObject2": "quidem"
+      "ParameterObject1": "et",
+      "ParameterObject2": "qui"
     },
-    "LastStarted": "2014-06-10T11:22:37.4461725+02:00",
-    "Created": "2004-03-29T11:22:37.4461725+02:00",
-    "StartCount": 167,
-    "DatabaseSerialNumber": "1085033",
-    "Context": "voluptatibus",
-    "Result": "aut",
+    "LastStarted": "2012-04-16T14:19:02.7750538+02:00",
+    "Created": "2012-09-13T14:19:02.7750538+02:00",
+    "StartCount": 816,
+    "DatabaseSerialNumber": "591100",
+    "Context": "dicta",
+    "Result": "odit",
     "State": "All",
-    "Description": "Reactive client-driven software",
-    "Response": "ullam",
-    "Request": "magni",
-    "ProgressDescription": "Front-line 5th generation product",
-    "ProgressPercent": 86,
-    "FileName": "Huel, Okuneva and Hills",
+    "Description": "Cross-group mobile interface",
+    "Response": "iste",
+    "Request": "fugiat",
+    "ProgressDescription": "Pre-emptive eco-centric process improvement",
+    "ProgressPercent": 647,
+    "FileName": "Schmitt Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 153
+        "FieldType": "System.Int32",
+        "FieldLength": 157
       }
     }
   }

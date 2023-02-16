@@ -106,7 +106,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 323
+  "ChatTopicId": 880
 }
 ```
 
@@ -117,29 +117,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 163,
-  "TopicId": 651,
+  "ChatSessionId": 570,
+  "TopicId": 859,
   "User": null,
   "Person": null,
-  "CustomerAlias": "est",
-  "CustomerHost": "illum",
-  "CustomerName": "Lehner-Kozey",
-  "CustomerEmail": "elisha@lemke.biz",
-  "CustomerPhone": "578-046-7240",
+  "CustomerAlias": "ea",
+  "CustomerHost": "omnis",
+  "CustomerName": "Runolfsson LLC",
+  "CustomerEmail": "emelia.bechtelar@schmeler.co.uk",
+  "CustomerPhone": "100.780.9502 x3166",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Pagac-O'Connell",
+  "CustomerCompanyName": "Kuphal, Ward and Fahey",
   "Status": "Closed",
-  "FirstMessage": "sit",
-  "LastMessage": "repellendus",
-  "WhenRequested": "2012-01-29T11:22:37.6023765+01:00",
-  "WhenStarted": "2001-04-29T11:22:37.6023765+02:00",
-  "WhenEnded": "2018-09-14T11:22:37.6023765+02:00",
-  "WhenIdle": "2001-07-17T11:22:37.6023765+02:00",
-  "WhenFetched": "2008-03-21T11:22:37.6023765+01:00",
-  "SessionKey": "cumque",
-  "InitialQueuePos": 320,
-  "AlertLevel": 160,
-  "Rank": 468,
+  "FirstMessage": "corrupti",
+  "LastMessage": "molestiae",
+  "WhenRequested": "1996-08-27T14:19:02.9011532+02:00",
+  "WhenStarted": "2015-04-26T14:19:02.9011532+02:00",
+  "WhenEnded": "2001-10-04T14:19:02.9011532+02:00",
+  "WhenIdle": "2018-12-19T14:19:02.9011532+01:00",
+  "WhenFetched": "2008-07-11T14:19:02.9011532+02:00",
+  "SessionKey": "aliquid",
+  "InitialQueuePos": 304,
+  "AlertLevel": 283,
+  "Rank": 211,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -147,13 +147,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 896,
+  "Rating": 409,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 247
+      "FieldLength": 281
     }
   }
 }

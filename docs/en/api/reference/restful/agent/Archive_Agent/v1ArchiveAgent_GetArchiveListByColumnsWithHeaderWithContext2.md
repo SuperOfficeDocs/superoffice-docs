@@ -166,19 +166,19 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Mraz Group",
-  "Columns": "voluptas",
-  "SortOrder": "minima",
-  "Restriction": "necessitatibus",
-  "Entities": "tenetur",
-  "Page": 910,
-  "PageSize": 53,
-  "Options": "quia",
-  "Context": "aut"
+  "ProviderName": "Runolfsdottir, Medhurst and Turcotte",
+  "Columns": "aliquam",
+  "SortOrder": "perferendis",
+  "Restriction": "ex",
+  "Entities": "dolores",
+  "Page": 899,
+  "PageSize": 216,
+  "Options": "voluptas",
+  "Context": "deserunt"
 }
 ```
 
@@ -189,26 +189,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 757,
+  "RowCount": 221,
   "Rows": [
     {
-      "EntityName": "Strosin, Orn and Spinka",
-      "PrimaryKey": 481,
+      "EntityName": "Klocko-Rempel",
+      "PrimaryKey": 570,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "recusandae",
-          "TooltipHint": "incidunt",
-          "LinkHint": "id"
+          "DisplayValue": "natus",
+          "TooltipHint": "quo",
+          "LinkHint": "facilis"
         }
       },
-      "LinkHint": "sapiente",
-      "StyleHint": "explicabo",
+      "LinkHint": "reprehenderit",
+      "StyleHint": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 955
+          "FieldLength": 428
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldType": "System.String",
+      "FieldLength": 376
     }
   }
 }

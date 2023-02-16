@@ -68,14 +68,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/InsertRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Corkery-Heathcote",
+  "TableName": "Hermann, Brekke and Farrell",
   "Values": {
-    "Values1": "voluptatem",
-    "Values2": "iure"
+    "Values1": "voluptas",
+    "Values2": "inventore"
   }
 }
 ```
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-289
+1001
 ```

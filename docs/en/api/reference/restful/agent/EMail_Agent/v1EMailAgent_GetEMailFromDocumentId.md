@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 106
+  "DocumentId": 906
 }
 ```
 
@@ -116,146 +116,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 703,
-      "ContactName": "Boehm Inc and Sons",
-      "PersonId": 194,
-      "PersonName": "Stroman Inc and Sons",
-      "AssociateId": 279,
-      "Address": "error",
-      "EmailId": 489,
+      "ContactId": 451,
+      "ContactName": "Howe Group",
+      "PersonId": 151,
+      "PersonName": "Hoppe Group",
+      "AssociateId": 67,
+      "Address": "et",
+      "EmailId": 454,
       "DuplicatePersonIds": [
-        696,
-        954
+        453,
+        606
       ],
-      "Name": "Mayer, Fisher and Goldner",
+      "Name": "Stokes LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldLength": 912
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 587,
-      "ContactName": "Grimes-Olson",
-      "PersonId": 734,
-      "PersonName": "Yost-Skiles",
-      "AssociateId": 1000,
-      "Address": "sapiente",
-      "EmailId": 825,
+      "ContactId": 622,
+      "ContactName": "Feeney, Yost and Witting",
+      "PersonId": 564,
+      "PersonName": "Schroeder-Nienow",
+      "AssociateId": 111,
+      "Address": "eum",
+      "EmailId": 675,
       "DuplicatePersonIds": [
-        310,
-        934
+        997,
+        836
       ],
-      "Name": "Gaylord, Johnston and Nader",
+      "Name": "Feeney-Nienow",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 509
+          "FieldLength": 725
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 490,
-      "ContactName": "Huel, Lehner and Klocko",
-      "PersonId": 975,
-      "PersonName": "Gaylord Inc and Sons",
-      "AssociateId": 193,
-      "Address": "a",
-      "EmailId": 197,
+      "ContactId": 464,
+      "ContactName": "Stiedemann-Haag",
+      "PersonId": 36,
+      "PersonName": "Balistreri Inc and Sons",
+      "AssociateId": 982,
+      "Address": "repellendus",
+      "EmailId": 45,
       "DuplicatePersonIds": [
-        1002,
-        709
+        287,
+        69
       ],
-      "Name": "VonRueden Group",
+      "Name": "Cassin Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 861
+          "FieldType": "System.Int32",
+          "FieldLength": 946
         }
       }
     }
   ],
-  "Subject": "sed",
-  "HTMLBody": "ut",
+  "Subject": "corrupti",
+  "HTMLBody": "officiis",
   "From": null,
-  "Sent": "2004-05-24T11:22:38.2584721+02:00",
-  "Size": 593,
+  "Sent": "1996-05-03T14:19:03.466522+02:00",
+  "Size": 11,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "iure",
+  "MessageID": "et",
   "PlainBody": "consequatur",
-  "IsSent": false,
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 329,
+  "ServerId": 929,
   "Attachments": [
     {
-      "Description": "Polarised upward-trending definition",
-      "Filename": "sapiente",
-      "Size": 669,
-      "Type": "quia",
-      "Encoding": "non",
-      "Id": "possimus",
-      "Disposition": "itaque",
+      "Description": "Re-contextualized radical encryption",
+      "Filename": "ut",
+      "Size": 864,
+      "Type": "dignissimos",
+      "Encoding": "laboriosam",
+      "Id": "laudantium",
+      "Disposition": "aut",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 607
+          "FieldLength": 452
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Lubowitz-Barton",
+      "Name": "Hills-Pfeffer",
       "Values": [
-        "iure",
-        "eum"
+        "magnam",
+        "error"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 500
+          "FieldLength": 563
         }
       }
     },
     {
-      "Name": "Lubowitz-Barton",
+      "Name": "Hills-Pfeffer",
       "Values": [
-        "iure",
-        "eum"
+        "magnam",
+        "error"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 500
+          "FieldLength": 563
         }
       }
     }
   ],
-  "FolderName": "Jenkins Inc and Sons",
-  "EmailItemId": 327,
-  "AccountId": 158,
-  "ReceivedAt": "1997-06-18T11:22:38.2584721+02:00",
+  "FolderName": "Schamberger, Jenkins and Armstrong",
+  "EmailItemId": 809,
+  "AccountId": 530,
+  "ReceivedAt": "2009-03-25T14:19:03.466522+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2020-06-17T11:22:38.2584721+02:00",
+  "RepliedAt": "2012-07-31T14:19:03.466522+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -264,7 +264,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldLength": 453
     }
   }
 }

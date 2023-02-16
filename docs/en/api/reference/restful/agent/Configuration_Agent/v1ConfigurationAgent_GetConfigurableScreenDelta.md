@@ -25,7 +25,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=781
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=451
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,28 +88,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 168,
-  "Name": "Kshlerin-Schmidt",
-  "Description": "Reverse-engineered exuding knowledge base",
-  "DeltaJson": "repellendus",
+  "ConfigurableScreenDeltaId": 589,
+  "Name": "Luettgen Group",
+  "Description": "Polarised background open system",
+  "DeltaJson": "error",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "aut",
-  "UpdatedDate": "2002-06-05T11:22:37.6023765+02:00",
-  "CreatedDate": "2004-02-09T11:22:37.6023765+01:00",
+  "RecipeId": "itaque",
+  "UpdatedDate": "2006-10-05T14:19:02.916778+02:00",
+  "CreatedDate": "2000-07-05T14:19:02.916778+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    426,
-    602
+    221,
+    931
   ],
-  "AppliesToKey": "magni",
+  "AppliesToKey": "soluta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 527
+      "FieldLength": 678
     }
   }
 }

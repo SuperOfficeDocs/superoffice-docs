@@ -64,7 +64,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "alias",
-  "2": "tempore"
+  "1": "quia",
+  "2": "nostrum"
 }
 ```

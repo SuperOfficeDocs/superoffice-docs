@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 242,
-  "Name": "Heaney-Borer",
-  "Description": "Function-based global alliance",
-  "DefaultHeight": 226,
-  "DefaultWidth": 4,
+  "DashboardTileDefinitionId": 707,
+  "Name": "Nitzsche, White and Wuckert",
+  "Description": "Digitized tangible model",
+  "DefaultHeight": 465,
+  "DefaultWidth": 75,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "O'Hara Group",
-  "SelectionId": 902,
+  "EntityName": "Armstrong, Mayert and Kohler",
+  "SelectionId": 527,
   "CurrencyMode": "Base",
-  "CurrencyCode": "quod",
+  "CurrencyCode": "possimus",
   "Measure": "Average",
-  "MeasureField": "earum",
-  "SortBy": "sint",
-  "LayoutConfig": "vero",
-  "SecondarySelectionId": 372,
-  "MeasureByField": "consequatur",
+  "MeasureField": "eaque",
+  "SortBy": "inventore",
+  "LayoutConfig": "ut",
+  "SecondarySelectionId": 721,
+  "MeasureByField": "et",
   "Usage": "Dashboard",
-  "ProviderName": "Parisian LLC",
+  "ProviderName": "Kunze-Corkery",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 683
+      "FieldType": "System.Int32",
+      "FieldLength": 512
     }
   }
 }

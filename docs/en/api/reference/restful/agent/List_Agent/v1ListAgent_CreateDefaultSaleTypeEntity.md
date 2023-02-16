@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,53 +87,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 874,
-  "Name": "Rath, Ward and Powlowski",
-  "Tooltip": "autem",
-  "Rank": 474,
+  "SaleTypeId": 663,
+  "Name": "Watsica Inc and Sons",
+  "Tooltip": "quos",
+  "Rank": 407,
   "DurationUnit": "Century",
-  "SaleDuration": 300,
-  "SaleTypeCatId": 778,
-  "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "SaleDuration": 470,
+  "SaleTypeCatId": 631,
+  "Deleted": true,
+  "HasGuide": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 789,
-  "QuoteLinesTemplate": 352,
-  "ConfirmationLinesTemplate": 392,
+  "DefaultQuoteValidity": 804,
+  "QuoteLinesTemplate": 710,
+  "ConfirmationLinesTemplate": 706,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 51,
-  "MinEarningPercent": 475,
-  "GroupQuoteLinesBy": 308,
-  "SortGroupLinesBy": 544,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 783,
+  "MinEarningPercent": 630,
+  "GroupQuoteLinesBy": 626,
+  "SortGroupLinesBy": 193,
   "Stages": [
     {
-      "Id": 135,
-      "Name": "Brekke, Dicki and Mann",
-      "ToolTip": "Rem sit.",
+      "Id": 462,
+      "Name": "O'Keefe Inc and Sons",
+      "ToolTip": "Sapiente reprehenderit omnis consequatur.",
       "Deleted": true,
-      "Rank": 620,
-      "Type": "sed",
-      "ColorBlock": 431,
-      "IconHint": "enim",
+      "Rank": 190,
+      "Type": "exercitationem",
+      "ColorBlock": 626,
+      "IconHint": "repudiandae",
       "Selected": true,
-      "LastChanged": "2018-06-26T11:22:38.5396587+02:00",
+      "LastChanged": "2020-03-16T14:19:03.6863742+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quis",
-      "StyleHint": "veniam",
+      "ExtraInfo": "laboriosam",
+      "StyleHint": "magnam",
       "Hidden": false,
-      "FullName": "Prof. Joanny Reynolds II",
+      "FullName": "Prof. Molly Alberta Herzog V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 195
+          "FieldLength": 491
         }
       }
     }
@@ -142,8 +142,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 364
+      "FieldType": "System.String",
+      "FieldLength": 373
     }
   }
 }

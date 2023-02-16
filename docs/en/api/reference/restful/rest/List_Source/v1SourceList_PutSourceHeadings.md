@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 85,
-    "Name": "Sawayn, Hilll and Streich",
-    "Tooltip": "asperiores",
+    "HeadingId": 794,
+    "Name": "McDermott-Predovic",
+    "Tooltip": "at",
     "Deleted": false,
-    "Rank": 560,
-    "UdListDefinitionId": 125
+    "Rank": 213,
+    "UdListDefinitionId": 782
   },
   {
-    "HeadingId": 85,
-    "Name": "Sawayn, Hilll and Streich",
-    "Tooltip": "asperiores",
+    "HeadingId": 794,
+    "Name": "McDermott-Predovic",
+    "Tooltip": "at",
     "Deleted": false,
-    "Rank": 560,
-    "UdListDefinitionId": 125
+    "Rank": 213,
+    "UdListDefinitionId": 782
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 321,
-    "Name": "Price, Dickens and Dach",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "Rank": 36,
-    "UdListDefinitionId": 5,
+    "HeadingId": 714,
+    "Name": "Rice Group",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 435,
+    "UdListDefinitionId": 608,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 852
+        "FieldLength": 209
       }
     }
   }

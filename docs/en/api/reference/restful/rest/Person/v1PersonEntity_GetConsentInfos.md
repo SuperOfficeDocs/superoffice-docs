@@ -74,7 +74,7 @@ OK
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,27 +85,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 36,
-    "Comment": "quod",
-    "Registered": "2022-03-01T11:22:44.9756457+01:00",
-    "RegisteredAssociateId": 265,
-    "Updated": "2011-07-25T11:22:44.9756457+02:00",
-    "UpdatedAssociateId": 845,
-    "LegalBaseId": 938,
-    "LegalBaseKey": "vel",
-    "LegalBaseName": "Wolff-Dare",
-    "ConsentPurposeId": 942,
-    "ConsentPurposeKey": "eveniet",
-    "ConsentPurposeName": "Jaskolski, Hills and Cormier",
-    "ConsentSourceId": 615,
-    "ConsentSourceKey": "et",
-    "ConsentSourceName": "Bernhard-O'Reilly",
+    "ConsentPersonId": 269,
+    "Comment": "sunt",
+    "Registered": "2014-04-07T14:19:10.4592274+02:00",
+    "RegisteredAssociateId": 948,
+    "Updated": "2022-12-11T14:19:10.4592274+01:00",
+    "UpdatedAssociateId": 312,
+    "LegalBaseId": 416,
+    "LegalBaseKey": "aut",
+    "LegalBaseName": "Reinger, Heathcote and Bartoletti",
+    "ConsentPurposeId": 301,
+    "ConsentPurposeKey": "ex",
+    "ConsentPurposeName": "Funk LLC",
+    "ConsentSourceId": 215,
+    "ConsentSourceKey": "excepturi",
+    "ConsentSourceName": "Nienow, Harvey and Wyman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 593
+        "FieldType": "System.String",
+        "FieldLength": 301
       }
     }
   }

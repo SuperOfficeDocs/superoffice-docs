@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    633,
-    198
+    206,
+    352
   ]
 }
 ```
@@ -102,45 +102,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 438,
-    "MessageId": "expedita",
-    "Subject": "suscipit",
+    "ServerId": 526,
+    "MessageId": "cum",
+    "Subject": "sunt",
     "From": null,
     "To": [
       {
-        "ContactId": 369,
-        "ContactName": "Hane LLC",
-        "PersonId": 992,
-        "PersonName": "Halvorson-Weimann",
-        "AssociateId": 935,
-        "Address": "autem",
-        "EmailId": 497,
+        "ContactId": 789,
+        "ContactName": "Shanahan Group",
+        "PersonId": 318,
+        "PersonName": "Reichel Group",
+        "AssociateId": 695,
+        "Address": "sit",
+        "EmailId": 75,
         "DuplicatePersonIds": [
-          910,
-          633
+          507,
+          85
         ],
-        "Name": "Prohaska, Leuschke and Mills",
+        "Name": "Osinski LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 214
+            "FieldType": "System.Int32",
+            "FieldLength": 292
           }
         }
       }
     ],
-    "Sent": "2020-02-01T11:22:38.1959877+01:00",
+    "Sent": "2005-04-21T14:19:03.3883958+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 913,
+    "Size": 92,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 507
+        "FieldLength": 672
       }
     }
   }

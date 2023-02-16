@@ -81,12 +81,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 979,
-  "Name": "Okuneva Group",
-  "Tooltip": "reprehenderit",
+  "Id": 206,
+  "Name": "Spencer Group",
+  "Tooltip": "blanditiis",
   "Deleted": false,
-  "UdListDefinitionId": 229,
-  "Rank": 868
+  "UdListDefinitionId": 600,
+  "Rank": 930
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 247,
-  "Name": "Jaskolski, Treutel and Medhurst",
-  "Tooltip": "quos",
-  "Deleted": false,
-  "UdListDefinitionId": 1001,
-  "Rank": 445,
+  "Id": 642,
+  "Name": "Sawayn Group",
+  "Tooltip": "veniam",
+  "Deleted": true,
+  "UdListDefinitionId": 994,
+  "Rank": 694,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 256
+      "FieldType": "System.Int32",
+      "FieldLength": 5
     }
   }
 }

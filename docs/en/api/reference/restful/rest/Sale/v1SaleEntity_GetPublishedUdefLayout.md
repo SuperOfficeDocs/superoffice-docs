@@ -87,7 +87,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 700,
-    "ColumnId": 333,
-    "FieldDefault": "inventore",
-    "FieldHeight": 866,
-    "FieldLabel": "non",
-    "FieldLeft": 805,
-    "FieldTop": 382,
+    "UDefFieldId": 234,
+    "ColumnId": 561,
+    "FieldDefault": "veniam",
+    "FieldHeight": 247,
+    "FieldLabel": "et",
+    "FieldLeft": 145,
+    "FieldTop": 543,
     "FieldType": "Checkbox",
-    "FieldWidth": 483,
-    "FormatMask": "hic",
+    "FieldWidth": 586,
+    "FormatMask": "ad",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 527,
-    "LabelLeft": 732,
-    "LabelTop": 52,
-    "LabelWidth": 340,
-    "LastVersionId": 921,
-    "ListTableId": 912,
-    "IsMandatory": false,
+    "IsIndexed": true,
+    "LabelHeight": 808,
+    "LabelLeft": 342,
+    "LabelTop": 90,
+    "LabelWidth": 27,
+    "LastVersionId": 727,
+    "ListTableId": 162,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 748,
-    "ProgId": "eligendi",
+    "Page1LineNo": 482,
+    "ProgId": "eos",
     "IsReadOnly": false,
-    "ShortLabel": "fugiat",
-    "TabOrder": 234,
-    "TextLength": 626,
-    "Tooltip": "cum",
-    "UdefIdentity": 74,
-    "UDListDefinitionId": 669,
+    "ShortLabel": "quis",
+    "TabOrder": 978,
+    "TextLength": 550,
+    "Tooltip": "ut",
+    "UdefIdentity": 555,
+    "UDListDefinitionId": 95,
     "Justification": "Center",
-    "Version": 806,
-    "TemplateVariableName": "Hayes LLC",
-    "HasBeenPublished": false,
-    "MdoListName": "Ward, Gislason and Medhurst",
+    "Version": 134,
+    "TemplateVariableName": "Walsh, Greenfelder and Collins",
+    "HasBeenPublished": true,
+    "MdoListName": "Cassin LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 612
+        "FieldType": "System.String",
+        "FieldLength": 41
       }
     }
   }

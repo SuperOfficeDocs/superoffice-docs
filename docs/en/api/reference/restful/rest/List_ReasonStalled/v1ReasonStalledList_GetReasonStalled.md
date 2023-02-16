@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 491,
-  "Name": "Adams-Fisher",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "UdListDefinitionId": 455,
-  "Rank": 273,
+  "Id": 906,
+  "Name": "Heathcote, Runolfsdottir and Windler",
+  "Tooltip": "nobis",
+  "Deleted": false,
+  "UdListDefinitionId": 859,
+  "Rank": 596,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 38
+      "FieldType": "System.Int32",
+      "FieldLength": 158
     }
   }
 }

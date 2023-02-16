@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/EMail/CreateForwardEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,155 +116,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 142,
-      "ContactName": "Torphy Group",
-      "PersonId": 291,
-      "PersonName": "Kunde-Kassulke",
-      "AssociateId": 685,
-      "Address": "non",
-      "EmailId": 782,
+      "ContactId": 655,
+      "ContactName": "Hudson-Parisian",
+      "PersonId": 340,
+      "PersonName": "Ondricka Group",
+      "AssociateId": 62,
+      "Address": "debitis",
+      "EmailId": 586,
       "DuplicatePersonIds": [
-        674,
-        279
+        918,
+        497
       ],
-      "Name": "Friesen Group",
+      "Name": "Robel-Williamson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 338
+          "FieldType": "System.String",
+          "FieldLength": 275
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 535,
-      "ContactName": "Williamson, Thompson and Bednar",
-      "PersonId": 694,
-      "PersonName": "Walker-Renner",
-      "AssociateId": 195,
-      "Address": "esse",
-      "EmailId": 139,
+      "ContactId": 963,
+      "ContactName": "Yost, Block and Becker",
+      "PersonId": 554,
+      "PersonName": "Frami-Zieme",
+      "AssociateId": 251,
+      "Address": "dolorem",
+      "EmailId": 516,
       "DuplicatePersonIds": [
-        985,
-        264
+        35,
+        741
       ],
-      "Name": "Howe, Jacobi and Abernathy",
+      "Name": "Senger-Stokes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 153
+          "FieldType": "System.String",
+          "FieldLength": 942
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 825,
-      "ContactName": "Powlowski Inc and Sons",
-      "PersonId": 411,
-      "PersonName": "Greenfelder Inc and Sons",
-      "AssociateId": 949,
-      "Address": "voluptas",
-      "EmailId": 203,
+      "ContactId": 235,
+      "ContactName": "Feest-Goyette",
+      "PersonId": 502,
+      "PersonName": "Ritchie-Gusikowski",
+      "AssociateId": 599,
+      "Address": "illum",
+      "EmailId": 151,
       "DuplicatePersonIds": [
-        543,
-        155
+        800,
+        546
       ],
-      "Name": "Wolff, Rogahn and Koch",
+      "Name": "Leannon-Bahringer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 860
+          "FieldType": "System.String",
+          "FieldLength": 311
         }
       }
     }
   ],
-  "Subject": "eaque",
-  "HTMLBody": "et",
+  "Subject": "ullam",
+  "HTMLBody": "fugiat",
   "From": null,
-  "Sent": "2012-04-24T11:22:38.1803656+02:00",
-  "Size": 786,
+  "Sent": "1998-07-24T14:19:03.3883958+02:00",
+  "Size": 74,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "molestiae",
-  "PlainBody": "soluta",
-  "IsSent": true,
+  "MessageID": "eius",
+  "PlainBody": "quisquam",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 967,
+  "ServerId": 717,
   "Attachments": [
     {
-      "Description": "Enhanced zero tolerance instruction set",
-      "Filename": "magnam",
-      "Size": 149,
-      "Type": "repudiandae",
-      "Encoding": "nihil",
-      "Id": "expedita",
-      "Disposition": "voluptate",
+      "Description": "Mandatory bottom-line superstructure",
+      "Filename": "nesciunt",
+      "Size": 750,
+      "Type": "non",
+      "Encoding": "sit",
+      "Id": "occaecati",
+      "Disposition": "ab",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 346
+          "FieldLength": 124
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Koss, Zemlak and Cummerata",
+      "Name": "Hilpert, Wisoky and Leuschke",
       "Values": [
-        "quod",
-        "laborum"
+        "vel",
+        "sed"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 182
+          "FieldType": "System.String",
+          "FieldLength": 835
         }
       }
     },
     {
-      "Name": "Koss, Zemlak and Cummerata",
+      "Name": "Hilpert, Wisoky and Leuschke",
       "Values": [
-        "quod",
-        "laborum"
+        "vel",
+        "sed"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 182
+          "FieldType": "System.String",
+          "FieldLength": 835
         }
       }
     }
   ],
-  "FolderName": "Braun-Gerhold",
-  "EmailItemId": 795,
-  "AccountId": 485,
-  "ReceivedAt": "2016-04-23T11:22:38.1803656+02:00",
+  "FolderName": "Tromp, Hirthe and Casper",
+  "EmailItemId": 465,
+  "AccountId": 214,
+  "ReceivedAt": "2019-07-19T14:19:03.3883958+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-10-13T11:22:38.1803656+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2010-03-03T14:19:03.3883958+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 642
+      "FieldType": "System.String",
+      "FieldLength": 674
     }
   }
 }

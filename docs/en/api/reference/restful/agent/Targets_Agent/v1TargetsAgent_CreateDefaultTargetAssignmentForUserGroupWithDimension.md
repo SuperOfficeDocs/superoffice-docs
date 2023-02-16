@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 978,
-  "TargetDimensionId": 725
+  "UserGroupId": 558,
+  "TargetDimensionId": 180
 }
 ```
 
@@ -98,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 992,
+    "TargetAssignmentInfoId": 391,
     "Values": [
-      508,
-      413
+      490,
+      613
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 308,
-    "DimensionListItemDisplayName": "Kub-Pouros",
+    "DimensionListItem": 243,
+    "DimensionListItemDisplayName": "Hilpert-Welch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 34
+        "FieldLength": 234
       }
     }
   }

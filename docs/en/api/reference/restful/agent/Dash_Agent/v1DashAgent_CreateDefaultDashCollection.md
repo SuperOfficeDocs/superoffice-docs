@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,111 +70,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 395,
-      "UniqueId": "inventore",
-      "Name": "Trantow, Bailey and Kuvalis",
-      "Description": "Front-line bi-directional complexity",
-      "AssociateId": 769,
-      "Columns": 155,
+      "DashboardId": 197,
+      "UniqueId": "possimus",
+      "Name": "Maggio, Doyle and Bahringer",
+      "Description": "Multi-channelled full-range knowledge user",
+      "AssociateId": 441,
+      "Columns": 843,
       "Theme": null,
-      "VisibleForAll": 916,
+      "VisibleForAll": 207,
       "VisibleForAssociates": [
-        202,
-        721
+        565,
+        691
       ],
       "VisibleForGroups": [
-        51,
-        919
+        955,
+        401
       ],
-      "PinForAll": 681,
+      "PinForAll": 61,
       "PinForAssociates": [
-        314,
-        508
+        857,
+        14
       ],
       "PinForGroups": [
-        338,
-        770
+        66,
+        476
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 861
+          "FieldLength": 469
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 176,
-      "UniqueId": "est",
-      "Name": "Mayer-Torp",
-      "Description": "Future-proofed solution-oriented Graphic Interface",
-      "AssociateId": 205,
-      "Columns": 741,
+      "DashboardId": 600,
+      "UniqueId": "quas",
+      "Name": "Kris LLC",
+      "Description": "Compatible systematic success",
+      "AssociateId": 880,
+      "Columns": 197,
       "Theme": null,
-      "VisibleForAll": 862,
+      "VisibleForAll": 103,
       "VisibleForAssociates": [
-        597,
-        485
+        520,
+        587
       ],
       "VisibleForGroups": [
-        777,
-        757
+        549,
+        154
       ],
-      "PinForAll": 834,
+      "PinForAll": 514,
       "PinForAssociates": [
-        268,
-        361
+        469,
+        779
       ],
       "PinForGroups": [
-        948,
-        684
+        285,
+        990
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 654
+          "FieldLength": 247
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 247,
-      "UniqueId": "id",
-      "Name": "Harris Group",
-      "Description": "Phased eco-centric matrix",
-      "AssociateId": 811,
-      "Columns": 335,
+      "DashboardId": 875,
+      "UniqueId": "alias",
+      "Name": "Funk, Stanton and Jenkins",
+      "Description": "Optional stable success",
+      "AssociateId": 305,
+      "Columns": 457,
       "Theme": null,
-      "VisibleForAll": 993,
+      "VisibleForAll": 788,
       "VisibleForAssociates": [
-        411,
-        732
+        246,
+        347
       ],
       "VisibleForGroups": [
-        641,
-        885
+        357,
+        203
       ],
-      "PinForAll": 719,
+      "PinForAll": 713,
       "PinForAssociates": [
-        574,
-        841
+        623,
+        57
       ],
       "PinForGroups": [
-        312,
-        568
+        320,
+        393
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 407
+          "FieldLength": 742
         }
       }
     }
@@ -184,7 +184,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 216
+      "FieldLength": 183
     }
   }
 }

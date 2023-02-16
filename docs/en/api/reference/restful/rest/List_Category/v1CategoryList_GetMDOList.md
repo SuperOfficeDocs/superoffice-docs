@@ -26,7 +26,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=True
-GET /api/v1/List/Category/MDOItems?query=rerum
+GET /api/v1/List/Category/MDOItems?query=expedita
 ```
 
 
@@ -89,49 +89,49 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 727,
-    "Name": "Abernathy-Bosco",
-    "ToolTip": "Esse incidunt doloribus illo sapiente debitis.",
-    "Deleted": false,
-    "Rank": 999,
-    "Type": "perspiciatis",
+    "Name": "Little, Yundt and Turner",
+    "ToolTip": "Eligendi exercitationem labore alias.",
+    "Deleted": true,
+    "Rank": 206,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 611,
-        "Name": "Hauck-Cummings",
-        "ToolTip": "Explicabo itaque est.",
+        "Id": 693,
+        "Name": "Walter Inc and Sons",
+        "ToolTip": "Et sunt animi in consequatur qui.",
         "Deleted": false,
-        "Rank": 808,
-        "Type": "voluptate",
+        "Rank": 55,
+        "Type": "laboriosam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "delectus",
-        "ColorBlock": 80,
-        "ExtraInfo": "neque",
-        "StyleHint": "sint",
-        "FullName": "Wilburn Bogan",
+        "IconHint": "labore",
+        "ColorBlock": 381,
+        "ExtraInfo": "recusandae",
+        "StyleHint": "aut",
+        "FullName": "Bettie Baumbach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 635
+            "FieldType": "System.Int32",
+            "FieldLength": 159
           }
         }
       }
     ],
-    "IconHint": "enim",
-    "ColorBlock": 578,
-    "ExtraInfo": "minima",
-    "StyleHint": "enim",
-    "FullName": "Ms. Jaycee Sofia Greenholt",
+    "IconHint": "ipsam",
+    "ColorBlock": 540,
+    "ExtraInfo": "iusto",
+    "StyleHint": "pariatur",
+    "FullName": "Jamey Durgan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 426
+        "FieldType": "System.String",
+        "FieldLength": 143
       }
     }
   }

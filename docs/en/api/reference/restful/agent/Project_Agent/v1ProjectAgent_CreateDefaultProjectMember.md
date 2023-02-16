@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 263,
-  "ContactId": 809,
-  "ProjectId": 257,
-  "ContactName": "Prohaska-Strosin",
+  "ProjectmemberId": 54,
+  "ContactId": 648,
+  "ProjectId": 597,
+  "ContactName": "Vandervort-Bayer",
   "ContactDepartment": "",
-  "ProjectName": "Medhurst-Witting",
-  "EmailId": 985,
-  "EmailAddress": "newell_casper@pacocha.info",
-  "CountryId": 601,
-  "Firstname": "Mandy",
-  "MiddleName": "Roberts-Raynor",
-  "Lastname": "Mitchell",
-  "PersonId": 85,
-  "Mrmrs": "excepturi",
-  "ProjectMemberTypeName": "Hagenes Group",
-  "Phone": "892.937.1473 x835",
-  "PhoneId": 176,
-  "ProjectMemberTypeId": 885,
-  "EmailAddressName": "meagan_blick@kulasdaugherty.biz",
-  "Comment": "voluptatem",
-  "FullName": "Miss Maxine Devan Hayes",
+  "ProjectName": "Willms LLC",
+  "EmailId": 113,
+  "EmailAddress": "zella@wymangibson.co.uk",
+  "CountryId": 914,
+  "Firstname": "Andy",
+  "MiddleName": "Roob-Parisian",
+  "Lastname": "Kiehn",
+  "PersonId": 165,
+  "Mrmrs": "natus",
+  "ProjectMemberTypeName": "Kertzmann, Barton and Spinka",
+  "Phone": "280-365-7399 x86690",
+  "PhoneId": 316,
+  "ProjectMemberTypeId": 162,
+  "EmailAddressName": "hilda.dicki@morissetteboyer.ca",
+  "Comment": "labore",
+  "FullName": "Mr. Michel Vladimir Thompson PhD",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 74
+      "FieldType": "System.Int32",
+      "FieldLength": 315
     }
   }
 }

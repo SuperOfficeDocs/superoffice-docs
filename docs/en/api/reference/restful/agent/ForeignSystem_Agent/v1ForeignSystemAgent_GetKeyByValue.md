@@ -83,15 +83,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kiehn-Morissette",
-  "DeviceName": "Fisher Group",
-  "KeyName": "Vandervort-Rutherford",
-  "KeyValue": "laborum",
-  "TableName": "Kozey Group"
+  "ApplicationName": "Hills, Berge and Boyer",
+  "DeviceName": "Ankunding, Gutmann and Wintheiser",
+  "KeyName": "Gerlach Group",
+  "KeyValue": "eum",
+  "TableName": "Cartwright-Hilpert"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "velit",
-  "Value": "eius",
-  "RecordId": 185,
-  "CreatedDate": "2012-01-23T11:22:38.3834434+01:00",
-  "UpdatedDate": "2008-04-17T11:22:38.3834434+02:00",
-  "UpdatedBy": "soluta",
-  "CreatedBy": "eligendi",
-  "TableName": "Von, Beahan and Hodkiewicz",
+  "Key": "non",
+  "Value": "alias",
+  "RecordId": 842,
+  "CreatedDate": "2009-03-11T14:19:03.5602728+01:00",
+  "UpdatedDate": "2008-09-20T14:19:03.5602728+02:00",
+  "UpdatedBy": "architecto",
+  "CreatedBy": "fugiat",
+  "TableName": "Hyatt, Nicolas and Thompson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 143
+      "FieldLength": 206
     }
   }
 }

@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 322,
-  "Name": "Hilll Inc and Sons",
-  "Tooltip": "suscipit",
+  "Id": 528,
+  "Name": "Tillman Inc and Sons",
+  "Tooltip": "molestias",
   "Deleted": false,
-  "UdListDefinitionId": 434,
-  "Rank": 290,
+  "UdListDefinitionId": 540,
+  "Rank": 656,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldLength": 844
     }
   }
 }

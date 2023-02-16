@@ -142,60 +142,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Object-based executive installation",
-  "Postit": "nesciunt",
+  "Description": "Multi-tiered 24 hour paradigm",
+  "Postit": "temporibus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 665,
-  "IncludePerson": 530,
-  "MemberCount": 56,
-  "Name": "Marks, Kreiger and Gottlieb",
-  "PostitTextId": 323,
-  "CreatedDate": "2021-09-11T11:22:39.2582416+02:00",
-  "SelectionId": 578,
-  "SoundEx": "qui",
-  "Source": 953,
-  "TextId": 807,
-  "UpdatedDate": "2015-11-17T11:22:39.2582416+01:00",
-  "UpdatedCount": 303,
-  "Visibility": 859,
+  "GroupIdx": 510,
+  "IncludePerson": 229,
+  "MemberCount": 200,
+  "Name": "Lockman LLC",
+  "PostitTextId": 355,
+  "CreatedDate": "2017-11-29T14:19:04.1567293+01:00",
+  "SelectionId": 529,
+  "SoundEx": "eveniet",
+  "Source": 444,
+  "TextId": 315,
+  "UpdatedDate": "2011-08-13T14:19:04.1567293+02:00",
+  "UpdatedCount": 971,
+  "Visibility": 609,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 423,
-  "TargetTableName": "Stroman, Schroeder and Barton",
+  "CompanyUnique": false,
+  "TargetTableNumber": 488,
+  "TargetTableName": "Brekke-Yundt",
   "Completed": false,
-  "LeftSelectionId": 657,
-  "RightSelectionId": 787,
+  "LeftSelectionId": 41,
+  "RightSelectionId": 160,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hansen-Dach",
-  "ShadowProviderName": "Turner, Berge and Zieme",
-  "ChartKey": "perferendis",
-  "LastLoaded": "2010-01-13T11:22:39.2582416+01:00",
-  "LastLoadedBy": 372,
+  "MainProviderName": "Goyette-Cummerata",
+  "ShadowProviderName": "Luettgen, Cummings and Kozey",
+  "ChartKey": "assumenda",
+  "LastLoaded": "2011-01-15T14:19:04.1567293+01:00",
+  "LastLoadedBy": 713,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-07-16T11:22:39.2582416+02:00",
-  "LastMembershipChangeBy": 549,
+  "LastMembershipChange": "2019-01-16T14:19:04.1567293+01:00",
+  "LastMembershipChangeBy": 641,
   "LastMembershipChangeByAssociate": null,
   "MainHeading": "qui",
-  "MemberTabHeading": "a",
-  "MailingsProviderName": "Cremin-O'Hara",
-  "DashboardTileDefinitionId": 167,
+  "MemberTabHeading": "est",
+  "MailingsProviderName": "Abbott, Borer and Keeling",
+  "DashboardTileDefinitionId": 23,
   "VisibleFor": [
     {
-      "VisibleId": 219,
+      "VisibleId": 745,
       "Visibility": "All",
-      "DisplayValue": "est"
+      "DisplayValue": "voluptatibus"
     },
     {
-      "VisibleId": 219,
+      "VisibleId": 745,
       "Visibility": "All",
-      "DisplayValue": "est"
+      "DisplayValue": "voluptatibus"
     }
   ]
 }
@@ -208,70 +208,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Extended cohesive groupware",
-  "Postit": "sapiente",
+  "Description": "Automated human-resource success",
+  "Postit": "autem",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 682,
-  "IncludePerson": 144,
-  "MemberCount": 267,
-  "Name": "Braun-Kovacek",
-  "PostitTextId": 141,
-  "CreatedDate": "2004-01-11T11:22:39.2738622+01:00",
-  "SelectionId": 802,
-  "SoundEx": "dolorem",
-  "Source": 902,
-  "TextId": 288,
-  "UpdatedDate": "2003-09-23T11:22:39.2738622+02:00",
-  "UpdatedCount": 807,
-  "Visibility": 270,
+  "GroupIdx": 644,
+  "IncludePerson": 918,
+  "MemberCount": 729,
+  "Name": "Volkman LLC",
+  "PostitTextId": 747,
+  "CreatedDate": "2004-03-30T14:19:04.1723543+02:00",
+  "SelectionId": 787,
+  "SoundEx": "soluta",
+  "Source": 790,
+  "TextId": 754,
+  "UpdatedDate": "1998-06-01T14:19:04.1723543+02:00",
+  "UpdatedCount": 479,
+  "Visibility": 606,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 806,
-  "TargetTableName": "Kerluke, Dickens and Borer",
-  "Completed": false,
-  "LeftSelectionId": 256,
-  "RightSelectionId": 98,
+  "CompanyUnique": true,
+  "TargetTableNumber": 459,
+  "TargetTableName": "Heidenreich-Thiel",
+  "Completed": true,
+  "LeftSelectionId": 890,
+  "RightSelectionId": 671,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Smitham, Wilderman and Treutel",
-  "ShadowProviderName": "Paucek-Cormier",
-  "ChartKey": "molestiae",
-  "LastLoaded": "2019-10-29T11:22:39.2738622+01:00",
-  "LastLoadedBy": 445,
+  "MainProviderName": "Mayer, Goodwin and Ebert",
+  "ShadowProviderName": "Koch Inc and Sons",
+  "ChartKey": "id",
+  "LastLoaded": "2000-07-06T14:19:04.1723543+02:00",
+  "LastLoadedBy": 962,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-04-26T11:22:39.2738622+02:00",
-  "LastMembershipChangeBy": 405,
+  "LastMembershipChange": "2014-07-23T14:19:04.1723543+02:00",
+  "LastMembershipChangeBy": 962,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "assumenda",
-  "MemberTabHeading": "qui",
-  "MailingsProviderName": "Walker LLC",
-  "DashboardTileDefinitionId": 639,
+  "MainHeading": "qui",
+  "MemberTabHeading": "ab",
+  "MailingsProviderName": "Zboncak, Mayert and Pfeffer",
+  "DashboardTileDefinitionId": 626,
   "VisibleFor": [
     {
-      "VisibleId": 128,
+      "VisibleId": 425,
       "Visibility": "All",
-      "DisplayValue": "vel",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 140
+          "FieldType": "System.Int32",
+          "FieldLength": 529
         }
       }
     },
     {
-      "VisibleId": 128,
+      "VisibleId": 425,
       "Visibility": "All",
-      "DisplayValue": "vel",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 140
+          "FieldType": "System.Int32",
+          "FieldLength": 529
         }
       }
     }
@@ -281,7 +281,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 966
+      "FieldLength": 755
     }
   }
 }

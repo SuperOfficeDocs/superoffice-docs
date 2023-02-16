@@ -82,10 +82,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 225,
+  "AssociateId": 162,
   "Type": "AnonymousAssociate",
-  "PersonId": 316,
-  "UserName": "Little-Kreiger"
+  "PersonId": 528,
+  "UserName": "Labadie-Graham"
 }
 ```
 
@@ -102,8 +102,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 617
+      "FieldType": "System.Int32",
+      "FieldLength": 469
     }
   }
 }

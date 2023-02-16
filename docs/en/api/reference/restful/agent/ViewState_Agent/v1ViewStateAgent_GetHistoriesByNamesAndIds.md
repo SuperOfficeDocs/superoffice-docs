@@ -80,20 +80,20 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Reichel-Bins",
-      "EntityOrParentId": 550,
-      "RequestForNewRecord": false
+      "EntityName": "Mann Inc and Sons",
+      "EntityOrParentId": 291,
+      "RequestForNewRecord": true
     },
     {
-      "EntityName": "Reichel-Bins",
-      "EntityOrParentId": 550,
-      "RequestForNewRecord": false
+      "EntityName": "Mann Inc and Sons",
+      "EntityOrParentId": 291,
+      "RequestForNewRecord": true
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 913,
-    "Id": 396,
-    "HistoryName": "Schoen-Marquardt",
-    "HistoryId": 173,
-    "AssociateId": 656,
-    "Name": "Turcotte LLC",
-    "ItemInfo": "ut",
+    "Rank": 528,
+    "Id": 312,
+    "HistoryName": "Turcotte Inc and Sons",
+    "HistoryId": 88,
+    "AssociateId": 21,
+    "Name": "Hayes-Feil",
+    "ItemInfo": "incidunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 256
+        "FieldType": "System.Int32",
+        "FieldLength": 195
       }
     }
   }

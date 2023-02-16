@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 285,
-    "ColumnId": 519,
-    "FieldDefault": "ut",
-    "FieldHeight": 542,
-    "FieldLabel": "laboriosam",
-    "FieldLeft": 195,
-    "FieldTop": 316,
+    "UDefFieldId": 950,
+    "ColumnId": 24,
+    "FieldDefault": "nihil",
+    "FieldHeight": 183,
+    "FieldLabel": "ea",
+    "FieldLeft": 541,
+    "FieldTop": 81,
     "FieldType": "Checkbox",
-    "FieldWidth": 182,
-    "FormatMask": "sed",
-    "HideLabel": false,
+    "FieldWidth": 341,
+    "FormatMask": "accusantium",
+    "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 720,
-    "LabelLeft": 600,
-    "LabelTop": 185,
-    "LabelWidth": 749,
-    "LastVersionId": 944,
-    "ListTableId": 144,
-    "IsMandatory": true,
+    "LabelHeight": 241,
+    "LabelLeft": 224,
+    "LabelTop": 197,
+    "LabelWidth": 577,
+    "LastVersionId": 578,
+    "ListTableId": 514,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 937,
-    "ProgId": "occaecati",
+    "Page1LineNo": 258,
+    "ProgId": "alias",
     "IsReadOnly": false,
-    "ShortLabel": "atque",
-    "TabOrder": 103,
-    "TextLength": 819,
-    "Tooltip": "quo",
-    "UdefIdentity": 728,
-    "UDListDefinitionId": 519,
+    "ShortLabel": "neque",
+    "TabOrder": 567,
+    "TextLength": 219,
+    "Tooltip": "voluptas",
+    "UdefIdentity": 6,
+    "UDListDefinitionId": 944,
     "Justification": "Center",
-    "Version": 168,
-    "TemplateVariableName": "Will Inc and Sons",
-    "HasBeenPublished": true,
-    "MdoListName": "Skiles LLC",
+    "Version": 157,
+    "TemplateVariableName": "Bradtke Inc and Sons",
+    "HasBeenPublished": false,
+    "MdoListName": "Hettinger Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 415
+        "FieldLength": 509
       }
     }
   }

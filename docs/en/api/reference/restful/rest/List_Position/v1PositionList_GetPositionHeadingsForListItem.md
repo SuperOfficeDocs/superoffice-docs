@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 900,
-    "Name": "Mayer Inc and Sons",
-    "ToolTip": "Consequatur qui reprehenderit fugit suscipit veniam.",
+    "Id": 241,
+    "Name": "McKenzie-Morissette",
+    "ToolTip": "Et maxime soluta repudiandae et reiciendis doloremque aliquam.",
     "Deleted": false,
-    "Rank": 982,
-    "Type": "qui",
-    "ColorBlock": 795,
-    "IconHint": "aut",
+    "Rank": 975,
+    "Type": "doloribus",
+    "ColorBlock": 839,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "2003-03-24T11:22:45.991037+01:00",
+    "LastChanged": "2008-05-10T14:19:11.3367817+02:00",
     "ChildItems": [
       {
-        "Id": 712,
-        "Name": "Swift-Kessler",
-        "ToolTip": "Nesciunt corrupti perspiciatis voluptas eum accusantium ipsam ad.",
+        "Id": 47,
+        "Name": "Armstrong-Bode",
+        "ToolTip": "Nobis incidunt voluptate quam corporis.",
         "Deleted": false,
-        "Rank": 916,
-        "Type": "aut",
-        "ColorBlock": 867,
-        "IconHint": "quis",
+        "Rank": 287,
+        "Type": "minima",
+        "ColorBlock": 612,
+        "IconHint": "quasi",
         "Selected": false,
-        "LastChanged": "2016-08-15T11:22:45.991037+02:00",
+        "LastChanged": "2010-06-21T14:19:11.3367817+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "non",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "saepe",
         "Hidden": true,
-        "FullName": "Kristy Welch",
+        "FullName": "Prof. Tom Aurelie Schumm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 44
+            "FieldType": "System.String",
+            "FieldLength": 316
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "quas",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Ms. Shanna Fermin Dare PhD",
+    "FullName": "Hunter Parker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 366
+        "FieldType": "System.String",
+        "FieldLength": 169
       }
     }
   }

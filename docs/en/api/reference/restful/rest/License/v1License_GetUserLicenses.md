@@ -61,7 +61,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,56 +72,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Osinski LLC",
-    "Description": "Seamless multi-state circuit",
+    "Name": "Mayert Inc and Sons",
+    "Description": "Persevering grid-enabled knowledge user",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 916,
-        "Tooltip": "provident",
+        "Unrestricted": false,
+        "Total": 250,
+        "Tooltip": "dolorem",
         "CanAssign": false,
-        "Free": 82,
-        "InUse": 731,
+        "Free": 590,
+        "InUse": 58,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 8,
-        "Name": "Pollich, Willms and Nicolas",
-        "Description": "Enhanced neutral ability",
-        "PrerequisiteModuleName": "Bosco-Wisoky",
-        "SortOrder": 792,
-        "ExtraFlags": 847,
+        "Assigned": false,
+        "ModuleLicenseId": 307,
+        "Name": "Nitzsche-Hickle",
+        "Description": "Virtual mission-critical paradigm",
+        "PrerequisiteModuleName": "Schumm-Schoen",
+        "SortOrder": 519,
+        "ExtraFlags": 721,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 956
+            "FieldLength": 11
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 165,
-        "Tooltip": "neque",
-        "CanAssign": true,
-        "Free": 884,
-        "InUse": 413,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 234,
-        "Name": "Rosenbaum, O'Conner and Wehner",
-        "Description": "Multi-lateral next generation capacity",
-        "PrerequisiteModuleName": "Funk-Monahan",
-        "SortOrder": 283,
-        "ExtraFlags": 377,
+        "Unrestricted": true,
+        "Total": 838,
+        "Tooltip": "quo",
+        "CanAssign": false,
+        "Free": 762,
+        "InUse": 668,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 820,
+        "Name": "Marks Group",
+        "Description": "Seamless exuding moderator",
+        "PrerequisiteModuleName": "Williamson-Jaskolski",
+        "SortOrder": 530,
+        "ExtraFlags": 615,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 366
+            "FieldLength": 615
           }
         }
       }
@@ -131,61 +131,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldLength": 865
       }
     }
   },
   {
-    "Name": "Osinski LLC",
-    "Description": "Seamless multi-state circuit",
+    "Name": "Mayert Inc and Sons",
+    "Description": "Persevering grid-enabled knowledge user",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 916,
-        "Tooltip": "provident",
+        "Unrestricted": false,
+        "Total": 250,
+        "Tooltip": "dolorem",
         "CanAssign": false,
-        "Free": 82,
-        "InUse": 731,
+        "Free": 590,
+        "InUse": 58,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 8,
-        "Name": "Pollich, Willms and Nicolas",
-        "Description": "Enhanced neutral ability",
-        "PrerequisiteModuleName": "Bosco-Wisoky",
-        "SortOrder": 792,
-        "ExtraFlags": 847,
+        "Assigned": false,
+        "ModuleLicenseId": 307,
+        "Name": "Nitzsche-Hickle",
+        "Description": "Virtual mission-critical paradigm",
+        "PrerequisiteModuleName": "Schumm-Schoen",
+        "SortOrder": 519,
+        "ExtraFlags": 721,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 956
+            "FieldLength": 11
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 165,
-        "Tooltip": "neque",
-        "CanAssign": true,
-        "Free": 884,
-        "InUse": 413,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 234,
-        "Name": "Rosenbaum, O'Conner and Wehner",
-        "Description": "Multi-lateral next generation capacity",
-        "PrerequisiteModuleName": "Funk-Monahan",
-        "SortOrder": 283,
-        "ExtraFlags": 377,
+        "Unrestricted": true,
+        "Total": 838,
+        "Tooltip": "quo",
+        "CanAssign": false,
+        "Free": 762,
+        "InUse": 668,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 820,
+        "Name": "Marks Group",
+        "Description": "Seamless exuding moderator",
+        "PrerequisiteModuleName": "Williamson-Jaskolski",
+        "SortOrder": 530,
+        "ExtraFlags": 615,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 366
+            "FieldLength": 615
           }
         }
       }
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldLength": 865
       }
     }
   }

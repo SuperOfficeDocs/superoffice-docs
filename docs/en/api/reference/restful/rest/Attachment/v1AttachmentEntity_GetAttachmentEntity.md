@@ -77,7 +77,7 @@ AttachmentEntity found.
 GET /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,18 +87,18 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 851,
-  "Name": "Halvorson LLC",
-  "ContentType": "quas",
-  "AttSize": 961,
+  "AttachmentId": 543,
+  "Name": "Jakubowski-Ledner",
+  "ContentType": "ab",
+  "AttSize": 687,
   "InlineImage": false,
-  "ContentId": "possimus",
+  "ContentId": "repellendus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 803
+      "FieldLength": 385
     }
   },
   "_Links": {

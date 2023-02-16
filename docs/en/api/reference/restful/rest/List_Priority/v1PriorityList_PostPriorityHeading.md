@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 409,
-  "Name": "Nienow Group",
+  "HeadingId": 219,
+  "Name": "Swaniawski LLC",
   "Tooltip": "est",
   "Deleted": true,
-  "Rank": 507,
-  "UdListDefinitionId": 351
+  "Rank": 81,
+  "UdListDefinitionId": 98
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 595,
-  "Name": "Raynor-Mayer",
-  "Tooltip": "culpa",
+  "HeadingId": 585,
+  "Name": "Davis-Larkin",
+  "Tooltip": "similique",
   "Deleted": false,
-  "Rank": 204,
-  "UdListDefinitionId": 148,
+  "Rank": 150,
+  "UdListDefinitionId": 940,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 925
+      "FieldType": "System.Int32",
+      "FieldLength": 757
     }
   }
 }

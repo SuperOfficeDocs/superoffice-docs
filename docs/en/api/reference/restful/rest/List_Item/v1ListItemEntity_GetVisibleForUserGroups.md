@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,56 +84,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 832,
-    "Name": "Mante Inc and Sons",
-    "ToolTip": "Dolore est sequi voluptate sunt pariatur repellat quaerat.",
+    "Id": 160,
+    "Name": "Ziemann LLC",
+    "ToolTip": "Nihil quam expedita dolorem rerum vel.",
     "Deleted": true,
-    "Rank": 792,
-    "Type": "dicta",
-    "ColorBlock": 634,
-    "IconHint": "eaque",
+    "Rank": 245,
+    "Type": "ullam",
+    "ColorBlock": 769,
+    "IconHint": "distinctio",
     "Selected": false,
-    "LastChanged": "1998-03-03T11:22:45.5536344+01:00",
+    "LastChanged": "2015-11-12T14:19:11.0855578+01:00",
     "ChildItems": [
       {
-        "Id": 516,
-        "Name": "Berge Inc and Sons",
-        "ToolTip": "Non quas occaecati debitis provident perferendis aut.",
-        "Deleted": false,
-        "Rank": 516,
-        "Type": "nemo",
-        "ColorBlock": 998,
-        "IconHint": "veritatis",
-        "Selected": false,
-        "LastChanged": "2008-03-30T11:22:45.5536344+02:00",
+        "Id": 18,
+        "Name": "Kshlerin-Ebert",
+        "ToolTip": "Aut dolores illo recusandae maxime quae.",
+        "Deleted": true,
+        "Rank": 697,
+        "Type": "consequatur",
+        "ColorBlock": 95,
+        "IconHint": "eum",
+        "Selected": true,
+        "LastChanged": "2004-01-01T14:19:11.0855578+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "praesentium",
-        "Hidden": true,
-        "FullName": "Rafaela Moore",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Deanna Crona",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 231
+            "FieldLength": 371
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "aut",
+    "ExtraInfo": "aut",
+    "StyleHint": "enim",
     "Hidden": true,
-    "FullName": "Miss Mae Kevon Hoeger",
+    "FullName": "Prof. Tomasa Stokes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 225
+        "FieldLength": 802
       }
     }
   }

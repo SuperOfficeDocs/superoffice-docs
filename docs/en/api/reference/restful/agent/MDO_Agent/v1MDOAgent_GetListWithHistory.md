@@ -87,18 +87,18 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Reynolds, Pagac and Moen",
+  "Name": "Stoltenberg-Mayert",
   "ForceFlatList": false,
-  "AdditionalInfo": "distinctio",
+  "AdditionalInfo": "omnis",
   "HistoryItems": [
-    843,
-    151
+    737,
+    651
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 
@@ -110,50 +110,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 17,
-    "Name": "Dicki-Rosenbaum",
-    "ToolTip": "Error inventore eius.",
+    "Id": 954,
+    "Name": "Rath Inc and Sons",
+    "ToolTip": "Nobis fugit repudiandae quia alias culpa illum.",
     "Deleted": false,
-    "Rank": 54,
-    "Type": "voluptatem",
+    "Rank": 278,
+    "Type": "excepturi",
     "ChildItems": [
       {
-        "Id": 246,
-        "Name": "Wiza LLC",
-        "ToolTip": "Et alias sit.",
-        "Deleted": true,
-        "Rank": 137,
-        "Type": "deleniti",
+        "Id": 43,
+        "Name": "Konopelski, Braun and Harvey",
+        "ToolTip": "Et tempora ipsum odio magni placeat voluptatem qui.",
+        "Deleted": false,
+        "Rank": 164,
+        "Type": "id",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 247,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "unde",
-        "FullName": "Miss D'angelo Braun",
+        "IconHint": "animi",
+        "ColorBlock": 556,
+        "ExtraInfo": "tempora",
+        "StyleHint": "autem",
+        "FullName": "Jamaal Keebler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 385
+            "FieldLength": 774
           }
         }
       }
     ],
-    "IconHint": "voluptate",
-    "ColorBlock": 615,
-    "ExtraInfo": "maiores",
-    "StyleHint": "eveniet",
-    "FullName": "Mr. Waldo Hosea Jacobs III",
+    "IconHint": "aliquid",
+    "ColorBlock": 852,
+    "ExtraInfo": "nisi",
+    "StyleHint": "ullam",
+    "FullName": "Mae Halvorson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 483
+        "FieldType": "System.Int32",
+        "FieldLength": 159
       }
     }
   }

@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/List/SaveListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schroeder LLC",
+  "Name": "Jacobi, Altenwerth and Gibson",
   "ListEntity": null
 }
 ```
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 301,
-  "Name": "Pagac-Zemlak",
-  "Tooltip": "fugit",
-  "Deleted": false,
-  "Rank": 888,
+  "Id": 940,
+  "Name": "Kuhic Inc and Sons",
+  "Tooltip": "iusto",
+  "Deleted": true,
+  "Rank": 142,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sed",
-  "InUseByUserDefinedFields": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldLength": 69
     }
   }
 }

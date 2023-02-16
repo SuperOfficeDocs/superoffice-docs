@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "libero",
-  "Name": "Hoeger LLC"
+  "Path": "ut",
+  "Name": "Metz Inc and Sons"
 }
 ```
 
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 911,
+  "HierarchyId": 744,
   "Domain": "Dashboards",
-  "Name": "Hammes LLC",
-  "Fullname": "excepturi",
-  "ParentId": 856,
+  "Name": "Stracke LLC",
+  "Fullname": "nostrum",
+  "ParentId": 614,
   "Children": [
     {
-      "HierarchyId": 452,
+      "HierarchyId": 544,
       "Domain": "Dashboards",
-      "Name": "Ferry Group",
-      "Fullname": "reprehenderit",
-      "ParentId": 318,
+      "Name": "Kerluke, Stracke and Hahn",
+      "Fullname": "harum",
+      "ParentId": 321,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2005-06-06T11:22:38.5084132+02:00",
-      "RegisteredAssociateId": 556,
-      "Updated": "2015-07-01T11:22:38.5084132+02:00",
-      "UpdatedAssociateId": 955,
+      "Registered": "2019-12-27T14:19:03.6707496+01:00",
+      "RegisteredAssociateId": 503,
+      "Updated": "2015-08-23T14:19:03.6707496+02:00",
+      "UpdatedAssociateId": 373,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 400
+          "FieldLength": 923
         }
       }
     }
   ],
-  "Registered": "2016-09-02T11:22:38.5084132+02:00",
-  "RegisteredAssociateId": 461,
-  "Updated": "1998-11-01T11:22:38.5084132+01:00",
-  "UpdatedAssociateId": 927,
+  "Registered": "2006-05-24T14:19:03.6707496+02:00",
+  "RegisteredAssociateId": 226,
+  "Updated": "2005-02-14T14:19:03.6707496+01:00",
+  "UpdatedAssociateId": 853,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 118
+      "FieldType": "System.Int32",
+      "FieldLength": 904
     }
   }
 }

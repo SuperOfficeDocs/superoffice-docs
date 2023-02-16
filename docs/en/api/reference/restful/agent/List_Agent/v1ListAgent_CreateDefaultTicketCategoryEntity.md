@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,36 +83,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 371,
-  "ParentId": 658,
-  "Name": "Johns LLC",
-  "Fullname": "id",
-  "CategoryMaster": 787,
+  "TicketCategoryId": 729,
+  "ParentId": 139,
+  "Name": "Gaylord Inc and Sons",
+  "Fullname": "quos",
+  "CategoryMaster": 455,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "McDermott-Douglas",
+  "ExternalName": "Windler, Hammes and Deckow",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 735,
-  "ReplyTemplate": 182,
-  "NotificationEmail": "chelsea_shields@spencernienow.name",
+  "AssignmentLag": 491,
+  "ReplyTemplate": 353,
+  "NotificationEmail": "tomas.lesch@hand.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 623,
+  "EffectiveReplyTemplateId": 340,
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "laborum"
+    "ExtraFields1": "tenetur",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "officia"
+    "CustomFields1": "cum",
+    "CustomFields2": "dolorem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 960
+      "FieldType": "System.Int32",
+      "FieldLength": 899
     }
   }
 }

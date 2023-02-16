@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 65,
-  "Name": "Kris-Wolf",
-  "Tooltip": "blanditiis",
+  "Id": 869,
+  "Name": "Sauer, Abernathy and Bauch",
+  "Tooltip": "id",
   "Deleted": true,
-  "Rank": 620,
+  "Rank": 49,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false
+  "ListType": "quis",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 532,
-  "Name": "Beer-Schuppe",
-  "Tooltip": "reiciendis",
-  "Deleted": false,
-  "Rank": 899,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 470,
+  "Name": "Kuhn-Grimes",
+  "Tooltip": "dolor",
+  "Deleted": true,
+  "Rank": 554,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ipsam",
+  "ListType": "autem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 788
+      "FieldLength": 579
     }
   }
 }

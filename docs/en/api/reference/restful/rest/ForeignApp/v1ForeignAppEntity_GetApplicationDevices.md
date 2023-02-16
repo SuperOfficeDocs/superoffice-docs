@@ -66,7 +66,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,25 +74,25 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 10 Feb 2016 11:22:44 G2T
+Last-Modified: Wed, 29 Nov 2000 14:19:10 G11T
 
 [
   {
-    "ForeignDeviceId": 764,
-    "Name": "McCullough Group",
-    "CreatedDate": "2006-05-13T11:22:44.8662479+02:00",
-    "UpdatedDate": "2016-02-10T11:22:44.8662479+01:00",
-    "AssociateFullName": "Dr. Elaina Reichel PhD",
-    "CreatedBy": "distinctio",
-    "UpdatedBy": "quo",
-    "DeviceIdentifier": "eos",
-    "ForeignAppId": 935,
+    "ForeignDeviceId": 191,
+    "Name": "Harvey-Braun",
+    "CreatedDate": "2010-02-02T14:19:10.3498478+01:00",
+    "UpdatedDate": "2000-11-29T14:19:10.3498478+01:00",
+    "AssociateFullName": "Bryce Wayne Deckow MD",
+    "CreatedBy": "aspernatur",
+    "UpdatedBy": "sunt",
+    "DeviceIdentifier": "sit",
+    "ForeignAppId": 40,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 180
+        "FieldType": "System.String",
+        "FieldLength": 420
       }
     }
   }

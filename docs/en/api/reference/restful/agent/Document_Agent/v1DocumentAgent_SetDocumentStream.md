@@ -109,13 +109,13 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "OverwriteExistingData": false
+  "OverwriteExistingData": true
 }
 ```
 
@@ -126,88 +126,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 607,
+  "DocumentId": 35,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "omnis",
-  "Header": "est",
-  "Name": "Nader, Osinski and Mosciski",
-  "OurRef": "hic",
-  "YourRef": "explicabo",
-  "CreatedDate": "1996-09-24T11:22:37.9148054+02:00",
-  "UpdatedDate": "2001-01-06T11:22:37.9148054+01:00",
-  "Description": "Re-engineered exuding standardization",
+  "Attention": "beatae",
+  "Header": "voluptas",
+  "Name": "Bernhard-Mante",
+  "OurRef": "enim",
+  "YourRef": "harum",
+  "CreatedDate": "2010-04-23T14:19:03.291782+02:00",
+  "UpdatedDate": "2014-07-12T14:19:03.291782+02:00",
+  "Description": "Quality-focused 3rd generation internet solution",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2020-09-18T11:22:37.9148054+02:00",
-  "ExternalRef": "saepe",
+  "Date": "2012-11-12T14:19:03.291782+01:00",
+  "ExternalRef": "inventore",
   "Completed": "Completed",
-  "ActiveLinks": 261,
+  "ActiveLinks": 253,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Balistreri LLC",
-      "Id": 94,
-      "Description": "Reactive even-keeled time-frame",
-      "ExtraInfo": "qui",
-      "LinkId": 955,
+      "EntityName": "Purdy-Murray",
+      "Id": 617,
+      "Description": "Realigned user-facing capability",
+      "ExtraInfo": "nemo",
+      "LinkId": 78,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 64
+          "FieldLength": 860
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 85,
-  "Snum": 646,
+  "SuggestedDocumentId": 467,
+  "Snum": 82,
   "UserDefinedFields": {
-    "SuperOffice:1": "Nina O'Conner",
-    "SuperOffice:2": "Adolph Strosin"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "maxime",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "laboriosam"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "magni"
+    "CustomFields1": "expedita",
+    "CustomFields2": "quos"
   },
-  "PublishEventDate": "2005-03-03T11:22:37.9148054+01:00",
-  "PublishTo": "2003-09-07T11:22:37.9148054+02:00",
-  "PublishFrom": "2021-01-15T11:22:37.9148054+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2008-12-27T14:19:03.291782+01:00",
+  "PublishTo": "2010-12-05T14:19:03.291782+01:00",
+  "PublishFrom": "1995-11-01T14:19:03.291782+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 75,
+      "VisibleId": 632,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 334
+          "FieldType": "System.Int32",
+          "FieldLength": 853
         }
       }
     },
     {
-      "VisibleId": 75,
+      "VisibleId": 632,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 334
+          "FieldType": "System.Int32",
+          "FieldLength": 853
         }
       }
     }
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 368
+      "FieldType": "System.Int32",
+      "FieldLength": 676
     }
   }
 }

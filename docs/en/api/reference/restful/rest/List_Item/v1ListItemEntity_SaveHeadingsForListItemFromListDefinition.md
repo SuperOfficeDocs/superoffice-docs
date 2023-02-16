@@ -95,47 +95,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 509,
-    "Name": "Cruickshank, Conn and Jacobi",
-    "ToolTip": "Exercitationem veritatis praesentium accusantium natus accusantium aliquid.",
-    "Deleted": false,
-    "Rank": 975,
-    "Type": "neque",
-    "ColorBlock": 824,
-    "IconHint": "porro",
-    "Selected": false,
-    "LastChanged": "2002-12-10T11:22:45.5692589+01:00",
+    "Id": 220,
+    "Name": "Kling, Towne and Waters",
+    "ToolTip": "Ex ad ea veritatis cumque ab ullam reiciendis.",
+    "Deleted": true,
+    "Rank": 170,
+    "Type": "id",
+    "ColorBlock": 180,
+    "IconHint": "modi",
+    "Selected": true,
+    "LastChanged": "1997-02-26T14:19:11.1012251+01:00",
     "ChildItems": [
       {
-        "Id": 70,
-        "Name": "Grady, Watsica and Hintz",
-        "ToolTip": "In aut.",
+        "Id": 695,
+        "Name": "O'Connell-Hahn",
+        "ToolTip": "Commodi beatae inventore ea qui.",
         "Deleted": false,
-        "Rank": 78,
-        "Type": "non",
-        "ColorBlock": 93,
-        "IconHint": "ipsa",
+        "Rank": 209,
+        "Type": "excepturi",
+        "ColorBlock": 391,
+        "IconHint": "consectetur",
         "Selected": false,
-        "LastChanged": "1999-03-05T11:22:45.5692589+01:00",
+        "LastChanged": "1998-04-12T14:19:11.1012251+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "sed",
-        "Hidden": false,
-        "FullName": "Afton Mayert"
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "consectetur",
+        "Hidden": true,
+        "FullName": "Mckenna Hane"
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "maiores",
-    "Hidden": true,
-    "FullName": "Prof. Ashly Dicki"
+    "ExtraInfo": "in",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Anabel Jenkins"
   }
 ]
 ```
@@ -148,56 +148,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 565,
-    "Name": "Hessel LLC",
-    "ToolTip": "Inventore error dicta temporibus velit incidunt.",
+    "Id": 584,
+    "Name": "Bartell, Brekke and Labadie",
+    "ToolTip": "Possimus amet ratione in.",
     "Deleted": false,
-    "Rank": 373,
-    "Type": "unde",
-    "ColorBlock": 125,
-    "IconHint": "iusto",
+    "Rank": 646,
+    "Type": "ex",
+    "ColorBlock": 529,
+    "IconHint": "blanditiis",
     "Selected": true,
-    "LastChanged": "2003-11-25T11:22:45.5692589+01:00",
+    "LastChanged": "1999-12-29T14:19:11.1012251+01:00",
     "ChildItems": [
       {
-        "Id": 99,
-        "Name": "Bogisich-Pfeffer",
-        "ToolTip": "Eligendi quos quia.",
-        "Deleted": true,
-        "Rank": 216,
-        "Type": "incidunt",
-        "ColorBlock": 193,
-        "IconHint": "odit",
+        "Id": 951,
+        "Name": "Beer Inc and Sons",
+        "ToolTip": "Maiores id assumenda et et nostrum iure recusandae.",
+        "Deleted": false,
+        "Rank": 942,
+        "Type": "cupiditate",
+        "ColorBlock": 919,
+        "IconHint": "quas",
         "Selected": false,
-        "LastChanged": "1996-04-18T11:22:45.5692589+02:00",
+        "LastChanged": "2021-05-24T14:19:11.1012251+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "aut",
+        "ExtraInfo": "omnis",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Allan Kris",
+        "FullName": "Janis Hodkiewicz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 669
+            "FieldLength": 767
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "asperiores",
-    "Hidden": true,
-    "FullName": "Amparo Gregoria Lockman DDS",
+    "ExtraInfo": "similique",
+    "StyleHint": "optio",
+    "Hidden": false,
+    "FullName": "Duane Ebert Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 907
+        "FieldType": "System.String",
+        "FieldLength": 119
       }
     }
   }

@@ -90,7 +90,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 621,
+  "CRMScriptId": 122,
   "EventData": null
 }
 ```
@@ -104,28 +104,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "est",
-    "InputValues2": "eligendi"
+    "InputValues1": "quibusdam",
+    "InputValues2": "neque"
   },
   "BlockExecution": false,
-  "NavigateTo": "beatae",
+  "NavigateTo": "est",
   "Message": "et",
-  "ShowDialog": "modi",
+  "ShowDialog": "esse",
   "OutputValues": {
-    "OutputValues1": "ea",
-    "OutputValues2": "maxime"
+    "OutputValues1": "dolor",
+    "OutputValues2": "fugiat"
   },
   "StateValues": {
-    "StateValues1": "assumenda",
-    "StateValues2": "nobis"
+    "StateValues1": "omnis",
+    "StateValues2": "et"
   },
-  "Exception": "sed",
+  "Exception": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldType": "System.String",
+      "FieldLength": 190
     }
   }
 }

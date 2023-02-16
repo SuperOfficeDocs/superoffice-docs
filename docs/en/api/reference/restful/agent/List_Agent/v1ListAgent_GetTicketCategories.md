@@ -92,36 +92,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 314,
-    "ParentId": 800,
-    "Name": "Bauch-Greenfelder",
-    "Fullname": "dolorem",
-    "CategoryMaster": 534,
+    "TicketCategoryId": 735,
+    "ParentId": 165,
+    "Name": "Rice, Eichmann and Cremin",
+    "Fullname": "quis",
+    "CategoryMaster": 999,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Reichel-Luettgen",
+    "ExternalName": "Pfeffer, Carter and Mayer",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 630,
-    "ReplyTemplate": 907,
-    "NotificationEmail": "marcus.hand@farrellwunsch.name",
+    "AssignmentLag": 223,
+    "ReplyTemplate": 783,
+    "NotificationEmail": "tianna@hegmannstrosin.biz",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 967,
+    "EffectiveReplyTemplateId": 362,
     "ExtraFields": {
-      "ExtraFields1": "et",
-      "ExtraFields2": "omnis"
+      "ExtraFields1": "sapiente",
+      "ExtraFields2": "qui"
     },
     "CustomFields": {
-      "CustomFields1": "nemo",
-      "CustomFields2": "et"
+      "CustomFields1": "perferendis",
+      "CustomFields2": "deserunt"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 748
+        "FieldLength": 136
       }
     }
   }

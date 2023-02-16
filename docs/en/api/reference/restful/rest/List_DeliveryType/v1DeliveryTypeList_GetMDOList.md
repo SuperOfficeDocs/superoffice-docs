@@ -25,8 +25,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=True
-GET /api/v1/List/DeliveryType/MDOItems?query=et
+GET /api/v1/List/DeliveryType/MDOItems?flat=False
+GET /api/v1/List/DeliveryType/MDOItems?query=fugit
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Leannon, Simonis and Hickle",
-    "ToolTip": "Sint omnis.",
-    "Deleted": true,
-    "Rank": 796,
-    "Type": "hic",
+    "Id": 916,
+    "Name": "Kilback LLC",
+    "ToolTip": "Qui fuga eum quisquam.",
+    "Deleted": false,
+    "Rank": 871,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 379,
-        "Name": "Nienow Inc and Sons",
-        "ToolTip": "Cupiditate voluptatem voluptatem dolore rerum occaecati.",
+        "Id": 199,
+        "Name": "Hodkiewicz-Mann",
+        "ToolTip": "Animi iste perspiciatis.",
         "Deleted": false,
-        "Rank": 142,
+        "Rank": 151,
         "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "odit",
-        "ColorBlock": 472,
-        "ExtraInfo": "quis",
-        "StyleHint": "cum",
-        "FullName": "Prof. Ignatius Marion Kihn",
+        "IconHint": "placeat",
+        "ColorBlock": 317,
+        "ExtraInfo": "in",
+        "StyleHint": "ullam",
+        "FullName": "Miss Israel Vern Marvin III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 596
+            "FieldLength": 870
           }
         }
       }
     ],
-    "IconHint": "a",
-    "ColorBlock": 362,
-    "ExtraInfo": "harum",
-    "StyleHint": "sed",
-    "FullName": "Vanessa Cummings",
+    "IconHint": "provident",
+    "ColorBlock": 570,
+    "ExtraInfo": "sequi",
+    "StyleHint": "quisquam",
+    "FullName": "Kayleigh Welch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 143
+        "FieldType": "System.String",
+        "FieldLength": 582
       }
     }
   }

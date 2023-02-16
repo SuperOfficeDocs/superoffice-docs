@@ -68,9 +68,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Appointment:Alarms xsi:type="Appointment:ArrayOfAlarmData">
      <Appointment:AlarmData xsi:type="Appointment:AlarmData">
       <Appointment:AppointmentId xsi:type="xsd:int">0</Appointment:AppointmentId>
-      <Appointment:StartTime xsi:type="xsd:dateTime">2023-01-23T10:12:03Z</Appointment:StartTime>
-      <Appointment:EndDate xsi:type="xsd:dateTime">2023-01-23T10:12:03Z</Appointment:EndDate>
-      <Appointment:AlarmTime xsi:type="xsd:dateTime">2023-01-23T10:12:03Z</Appointment:AlarmTime>
+      <Appointment:StartTime xsi:type="xsd:dateTime">2023-02-15T13:08:49Z</Appointment:StartTime>
+      <Appointment:EndDate xsi:type="xsd:dateTime">2023-02-15T13:08:49Z</Appointment:EndDate>
+      <Appointment:AlarmTime xsi:type="xsd:dateTime">2023-02-15T13:08:49Z</Appointment:AlarmTime>
       <Appointment:PersonId xsi:type="xsd:int">0</Appointment:PersonId>
       <Appointment:PersonFullName xsi:type="xsd:string"></Appointment:PersonFullName>
       <Appointment:ContactName xsi:type="xsd:string"></Appointment:ContactName>

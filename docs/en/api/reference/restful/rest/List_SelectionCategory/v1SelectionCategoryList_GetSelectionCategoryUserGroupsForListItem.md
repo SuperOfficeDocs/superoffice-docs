@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 199,
-    "Name": "Gottlieb-Haley",
-    "ToolTip": "Modi a.",
+    "Id": 590,
+    "Name": "Upton-Cronin",
+    "ToolTip": "Molestias eos iure.",
     "Deleted": true,
-    "Rank": 174,
-    "Type": "repudiandae",
-    "ColorBlock": 92,
-    "IconHint": "minima",
+    "Rank": 857,
+    "Type": "illo",
+    "ColorBlock": 485,
+    "IconHint": "quasi",
     "Selected": false,
-    "LastChanged": "2016-08-23T11:22:46.1941157+02:00",
+    "LastChanged": "2020-08-20T14:19:11.6120888+02:00",
     "ChildItems": [
       {
-        "Id": 528,
-        "Name": "Haley, Kuhn and Glover",
-        "ToolTip": "Dicta necessitatibus facere tempora eos voluptatem qui.",
+        "Id": 945,
+        "Name": "Robel LLC",
+        "ToolTip": "Distinctio ipsum et placeat.",
         "Deleted": false,
-        "Rank": 100,
-        "Type": "numquam",
-        "ColorBlock": 215,
-        "IconHint": "illum",
+        "Rank": 377,
+        "Type": "dolore",
+        "ColorBlock": 947,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "1999-12-19T11:22:46.1941157+01:00",
+        "LastChanged": "2003-06-12T14:19:11.6120888+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "nam",
+        "ExtraInfo": "unde",
+        "StyleHint": "non",
         "Hidden": true,
-        "FullName": "Darrick Alanis Kub II",
+        "FullName": "Alysha Corkery",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 177
+            "FieldLength": 297
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "ex",
+    "ExtraInfo": "aliquid",
+    "StyleHint": "sed",
     "Hidden": true,
-    "FullName": "Mauricio Wilkinson",
+    "FullName": "Dusty Gislason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 979
+        "FieldType": "System.Int32",
+        "FieldLength": 798
       }
     }
   }

@@ -95,23 +95,23 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 132,
-  "UniqueIdentifier": "aut",
-  "Name": "Hyatt Inc and Sons",
-  "Description": "Re-engineered client-server infrastructure",
-  "IncludeId": "eius",
-  "HierarchyId": 924,
-  "Source": "blanditiis",
-  "Registered": "2007-05-18T11:22:44.5694964+02:00",
-  "RegisteredAssociateId": 149,
-  "Updated": "1998-03-30T11:22:44.5694964+02:00",
-  "UpdatedAssociateId": 603,
+  "EjscriptId": 737,
+  "UniqueIdentifier": "nesciunt",
+  "Name": "Maggio, Gusikowski and Quitzon",
+  "Description": "User-friendly directional emulation",
+  "IncludeId": "magni",
+  "HierarchyId": 977,
+  "Source": "ut",
+  "Registered": "2008-02-20T14:19:10.240473+01:00",
+  "RegisteredAssociateId": 467,
+  "Updated": "2011-07-22T14:19:10.240473+02:00",
+  "UpdatedAssociateId": 507,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 238
+      "FieldLength": 968
     }
   },
   "_Links": {

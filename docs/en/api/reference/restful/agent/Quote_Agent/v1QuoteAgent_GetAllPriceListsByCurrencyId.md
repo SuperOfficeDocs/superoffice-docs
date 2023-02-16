@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 657,
-  "CurrencyId": 166
+  "QuoteConnectionId": 681,
+  "CurrencyId": 743
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 695,
-    "ERPPriceListKey": "non",
-    "QuoteConnectionId": 193,
-    "Name": "Skiles LLC",
-    "Description": "Organized incremental flexibility",
-    "Currency": "quis",
-    "CurrencyName": "Abernathy-Bruen",
-    "ValidFrom": "2020-02-28T11:22:38.9301893+01:00",
-    "ValidTo": "1997-02-01T11:22:38.9301893+01:00",
+    "PriceListId": 419,
+    "ERPPriceListKey": "deleniti",
+    "QuoteConnectionId": 997,
+    "Name": "O'Conner-Hoppe",
+    "Description": "Virtual dynamic project",
+    "Currency": "sapiente",
+    "CurrencyName": "Runolfsson Inc and Sons",
+    "ValidFrom": "2010-02-01T14:19:04.0313341+01:00",
+    "ValidTo": "2004-04-23T14:19:04.0313341+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 162
+        "FieldType": "System.String",
+        "FieldLength": 253
       }
     }
   }

@@ -89,12 +89,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 842,
-  "Name": "Hackett, Heidenreich and Boehm",
-  "ContentType": "eius",
-  "AttSize": 24,
+  "AttachmentId": 531,
+  "Name": "Satterfield LLC",
+  "ContentType": "consequuntur",
+  "AttSize": 611,
   "InlineImage": false,
-  "ContentId": "odit"
+  "ContentId": "modi"
 }
 ```
 
@@ -105,23 +105,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 677,
-  "Name": "Runte, Tromp and Stiedemann",
-  "ContentType": "sit",
-  "AttSize": 239,
+  "AttachmentId": 312,
+  "Name": "Metz-Zboncak",
+  "ContentType": "ullam",
+  "AttSize": 199,
   "InlineImage": false,
-  "ContentId": "autem",
+  "ContentId": "aspernatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 47
+      "FieldLength": 686
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

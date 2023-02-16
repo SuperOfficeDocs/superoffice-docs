@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 545,
-  "Name": "Conn Group",
-  "Tooltip": "eaque",
-  "Deleted": false,
-  "UdListDefinitionId": 504,
-  "Rank": 762
+  "Id": 856,
+  "Name": "Stroman LLC",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 914,
+  "Rank": 978
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 204,
-  "Name": "Murazik LLC",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 571,
-  "Rank": 482,
+  "Id": 855,
+  "Name": "Schmeler-Goodwin",
+  "Tooltip": "iusto",
+  "Deleted": false,
+  "UdListDefinitionId": 862,
+  "Rank": 355,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 714
+      "FieldLength": 666
     }
   }
 }

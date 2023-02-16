@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 677,
-    "Name": "Lind Inc and Sons",
-    "ToolTip": "Officia voluptatem repellendus natus quis odit.",
-    "Deleted": false,
-    "Rank": 517,
-    "Type": "porro",
-    "ColorBlock": 839,
-    "IconHint": "reprehenderit",
-    "Selected": true,
-    "LastChanged": "2014-03-21T11:22:46.1316279+01:00",
+    "Id": 214,
+    "Name": "Cole Inc and Sons",
+    "ToolTip": "Dolores laboriosam quia.",
+    "Deleted": true,
+    "Rank": 759,
+    "Type": "eum",
+    "ColorBlock": 857,
+    "IconHint": "odit",
+    "Selected": false,
+    "LastChanged": "2001-02-22T14:19:11.4557858+01:00",
     "ChildItems": [
       {
-        "Id": 476,
-        "Name": "Ryan LLC",
-        "ToolTip": "Incidunt et.",
+        "Id": 142,
+        "Name": "Lindgren Inc and Sons",
+        "ToolTip": "Magnam aut.",
         "Deleted": false,
-        "Rank": 944,
-        "Type": "suscipit",
-        "ColorBlock": 397,
-        "IconHint": "quaerat",
+        "Rank": 850,
+        "Type": "consequatur",
+        "ColorBlock": 467,
+        "IconHint": "adipisci",
         "Selected": true,
-        "LastChanged": "1996-08-16T11:22:46.1316279+02:00",
+        "LastChanged": "2016-05-10T14:19:11.4557858+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
+        "ExtraInfo": "suscipit",
         "StyleHint": "sed",
-        "Hidden": false,
-        "FullName": "Ms. Jakob Dicki I"
+        "Hidden": true,
+        "FullName": "Christy Huels"
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "voluptatibus",
+    "ExtraInfo": "qui",
+    "StyleHint": "odit",
     "Hidden": false,
-    "FullName": "Samson Hartmann"
+    "FullName": "Malvina Conroy PhD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Nienow Group",
-    "ToolTip": "Voluptatem vel eius.",
-    "Deleted": false,
-    "Rank": 9,
-    "Type": "qui",
-    "ColorBlock": 830,
-    "IconHint": "enim",
-    "Selected": false,
-    "LastChanged": "2011-02-20T11:22:46.1316279+01:00",
+    "Id": 365,
+    "Name": "White, Connelly and Wiza",
+    "ToolTip": "Dolorum sit dolorem iure nostrum.",
+    "Deleted": true,
+    "Rank": 525,
+    "Type": "commodi",
+    "ColorBlock": 468,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "1998-03-20T14:19:11.4557858+01:00",
     "ChildItems": [
       {
-        "Id": 212,
-        "Name": "Greenfelder-Witting",
-        "ToolTip": "Nulla ducimus harum consectetur.",
+        "Id": 46,
+        "Name": "Schroeder, Cassin and Williamson",
+        "ToolTip": "Consectetur soluta.",
         "Deleted": false,
-        "Rank": 90,
-        "Type": "sit",
-        "ColorBlock": 529,
-        "IconHint": "quia",
+        "Rank": 201,
+        "Type": "modi",
+        "ColorBlock": 356,
+        "IconHint": "excepturi",
         "Selected": false,
-        "LastChanged": "1997-10-01T11:22:46.1316279+02:00",
+        "LastChanged": "2021-08-12T14:19:11.4557858+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "incidunt",
-        "Hidden": false,
-        "FullName": "Jessie Boyle",
+        "ExtraInfo": "in",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Miss Dortha Bryana Rohan IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 31
+            "FieldLength": 743
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "in",
-    "Hidden": false,
-    "FullName": "Mr. Krystal Wehner V",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "maiores",
+    "Hidden": true,
+    "FullName": "Graham Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 556
+        "FieldType": "System.String",
+        "FieldLength": 458
       }
     }
   }

@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 58
+  "TicketEntityId": 165
 }
 ```
 
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 550,
-    "Name": "Legros, Hane and Mohr",
-    "ContentType": "ea",
-    "AttSize": 871,
-    "InlineImage": true,
-    "ContentId": "minima",
+    "AttachmentId": 541,
+    "Name": "Weissnat LLC",
+    "ContentType": "eum",
+    "AttSize": 822,
+    "InlineImage": false,
+    "ContentId": "repudiandae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 333
+        "FieldLength": 828
       }
     }
   }

@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBaseList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 471,
-    "Name": "Brekke Group",
-    "Tooltip": "voluptate",
-    "Rank": 476,
-    "Key": "aut",
+    "LegalBaseId": 514,
+    "Name": "Schumm-Klocko",
+    "Tooltip": "quia",
+    "Rank": 2,
+    "Key": "eos",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 673
+        "FieldLength": 341
       }
     }
   }

@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 800,
-    "Name": "Koepp-Hoeger",
-    "ToolTip": "Sunt modi corrupti est ut possimus.",
-    "Deleted": true,
-    "Rank": 316,
-    "Type": "fuga",
-    "ColorBlock": 75,
-    "IconHint": "nulla",
+    "Id": 373,
+    "Name": "Daniel, Murazik and Christiansen",
+    "ToolTip": "Soluta sed repudiandae perspiciatis reiciendis illum sunt sit.",
+    "Deleted": false,
+    "Rank": 508,
+    "Type": "ab",
+    "ColorBlock": 367,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "1999-01-27T11:22:46.0535201+01:00",
+    "LastChanged": "2008-04-14T14:19:11.3836521+02:00",
     "ChildItems": [
       {
-        "Id": 476,
-        "Name": "Dooley, Deckow and Ferry",
-        "ToolTip": "Non voluptatem.",
-        "Deleted": true,
-        "Rank": 470,
-        "Type": "ex",
-        "ColorBlock": 133,
-        "IconHint": "rerum",
+        "Id": 32,
+        "Name": "Jerde, Howell and Toy",
+        "ToolTip": "Ut exercitationem.",
+        "Deleted": false,
+        "Rank": 660,
+        "Type": "omnis",
+        "ColorBlock": 330,
+        "IconHint": "ea",
         "Selected": false,
-        "LastChanged": "2022-05-22T11:22:46.0535201+02:00",
+        "LastChanged": "1997-11-12T14:19:11.3836521+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "fuga",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "totam",
         "Hidden": false,
-        "FullName": "Dr. Kathlyn Zackary Veum DDS",
+        "FullName": "Alexander Rice",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 458
+            "FieldType": "System.Int32",
+            "FieldLength": 785
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "doloribus",
+    "ExtraInfo": "quia",
+    "StyleHint": "dicta",
     "Hidden": true,
-    "FullName": "Mr. Brayan Kautzer",
+    "FullName": "Clyde Joany Herman III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 46
+        "FieldLength": 243
       }
     }
   }

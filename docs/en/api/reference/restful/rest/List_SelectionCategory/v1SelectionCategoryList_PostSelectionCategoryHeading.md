@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 793,
-  "Name": "Williamson Inc and Sons",
-  "Tooltip": "et",
+  "HeadingId": 12,
+  "Name": "Christiansen LLC",
+  "Tooltip": "id",
   "Deleted": false,
-  "Rank": 926,
-  "UdListDefinitionId": 156
+  "Rank": 718,
+  "UdListDefinitionId": 47
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 561,
-  "Name": "Wolf, Rodriguez and Farrell",
-  "Tooltip": "ducimus",
-  "Deleted": false,
-  "Rank": 938,
-  "UdListDefinitionId": 954,
+  "HeadingId": 342,
+  "Name": "Bins-Mayert",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 730,
+  "UdListDefinitionId": 993,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 680
+      "FieldLength": 769
     }
   }
 }

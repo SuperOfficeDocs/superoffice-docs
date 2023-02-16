@@ -78,28 +78,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 174,
-  "Name": "Runte LLC",
-  "Description": "Down-sized next generation methodology",
-  "DeltaJson": "odio",
+  "ConfigurableScreenDeltaId": 95,
+  "Name": "Fay, Collier and Johns",
+  "Description": "Multi-lateral stable matrix",
+  "DeltaJson": "eius",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "aspernatur",
-  "UpdatedDate": "2018-02-27T11:22:37.6023765+01:00",
-  "CreatedDate": "1997-04-07T11:22:37.6023765+02:00",
+  "RecipeId": "iure",
+  "UpdatedDate": "2002-03-30T14:19:02.916778+01:00",
+  "CreatedDate": "2022-11-28T14:19:02.916778+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    803,
-    219
+    207,
+    207
   ],
-  "AppliesToKey": "qui",
+  "AppliesToKey": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 232
+      "FieldLength": 296
     }
   }
 }

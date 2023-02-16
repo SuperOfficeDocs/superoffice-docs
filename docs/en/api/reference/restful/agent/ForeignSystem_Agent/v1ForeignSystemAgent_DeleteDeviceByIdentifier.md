@@ -69,9 +69,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kilback LLC",
-  "DeviceName": "Powlowski-Langosh",
-  "DeviceIdentifier": "molestiae"
+  "ApplicationName": "Zulauf-McCullough",
+  "DeviceName": "Stark-Ullrich",
+  "DeviceIdentifier": "rem"
 }
 ```
 

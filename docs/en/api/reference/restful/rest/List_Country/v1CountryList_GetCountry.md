@@ -88,30 +88,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 876,
-  "Name": "Bins-Marquardt",
-  "CurrencyId": 524,
-  "EnglishName": "Kunze LLC",
+  "CountryId": 952,
+  "Name": "Rice-Crist",
+  "CurrencyId": 646,
+  "EnglishName": "Cremin-Orn",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Self-enabling secondary encoding",
-  "OrgNrText": "1042172",
-  "InterAreaPrefix": "necessitatibus",
-  "DialInPrefix": "iste",
-  "ZipPrefix": "nulla",
-  "DomainName": "Hermiston-Wolf",
-  "AddressLayoutId": 605,
-  "DomesticAddressLayoutId": 4,
-  "ForeignAddressLayoutId": 368,
-  "Rank": 375,
-  "Tooltip": "cum",
+  "ImageDescription": "Versatile attitude-oriented support",
+  "OrgNrText": "1323196",
+  "InterAreaPrefix": "aut",
+  "DialInPrefix": "sequi",
+  "ZipPrefix": "repudiandae",
+  "DomainName": "Ziemann LLC",
+  "AddressLayoutId": 503,
+  "DomesticAddressLayoutId": 618,
+  "ForeignAddressLayoutId": 230,
+  "Rank": 526,
+  "Tooltip": "soluta",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 127
+      "FieldType": "System.String",
+      "FieldLength": 84
     }
   }
 }

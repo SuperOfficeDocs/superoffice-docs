@@ -165,18 +165,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Jacobson LLC",
-  "Columns": "eos",
-  "SortOrder": "eum",
-  "Restriction": "inventore",
-  "Entities": "magni",
-  "Page": 910,
-  "PageSize": 430,
-  "Options": "omnis"
+  "ProviderName": "Carroll, Wintheiser and Gleichner",
+  "Columns": "magni",
+  "SortOrder": "dolorem",
+  "Restriction": "harum",
+  "Entities": "consequatur",
+  "Page": 628,
+  "PageSize": 683,
+  "Options": "laborum"
 }
 ```
 
@@ -187,26 +187,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 755,
+  "RowCount": 270,
   "Rows": [
     {
-      "EntityName": "Becker, Boyle and Mosciski",
-      "PrimaryKey": 765,
+      "EntityName": "Durgan-Block",
+      "PrimaryKey": 515,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "debitis",
-          "TooltipHint": "distinctio",
-          "LinkHint": "consequatur"
+          "DisplayValue": "officia",
+          "TooltipHint": "qui",
+          "LinkHint": "iste"
         }
       },
-      "LinkHint": "accusamus",
-      "StyleHint": "odit",
+      "LinkHint": "consectetur",
+      "StyleHint": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 976
+          "FieldLength": 111
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 982
+      "FieldLength": 788
     }
   }
 }

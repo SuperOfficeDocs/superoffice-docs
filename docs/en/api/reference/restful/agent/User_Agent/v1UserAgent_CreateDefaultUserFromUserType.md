@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 313,
-  "Name": "Reynolds, Hauck and Rolfson",
-  "Rank": 242,
-  "Tooltip": "illo",
+  "AssociateId": 728,
+  "Name": "Hahn, Runte and Gislason",
+  "Rank": 889,
+  "Tooltip": "molestiae",
   "LicenseOwners": [
     {
-      "Name": "Block-Kassulke",
-      "Description": "Reduced methodical encryption",
+      "Name": "Schmidt Inc and Sons",
+      "Description": "Quality-focused hybrid Graphical User Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,14 +136,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 151
+          "FieldType": "System.String",
+          "FieldLength": 149
         }
       }
     },
     {
-      "Name": "Block-Kassulke",
-      "Description": "Reduced methodical encryption",
+      "Name": "Schmidt Inc and Sons",
+      "Description": "Quality-focused hybrid Graphical User Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 151
+          "FieldType": "System.String",
+          "FieldLength": 149
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "explicabo",
-      "Tooltip": "est",
-      "Id": 685,
-      "Rank": 420,
-      "Deleted": true,
+      "Value": "officia",
+      "Tooltip": "amet",
+      "Id": 267,
+      "Rank": 21,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 59
+          "FieldLength": 216
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2014-01-13T11:22:39.6643951+01:00",
-  "Lastlogout": "1996-08-14T11:22:39.6643951+02:00",
-  "EjUserId": 786,
-  "RequestSignature": "aperiam",
+  "Deleted": false,
+  "Lastlogin": "2018-11-07T14:19:04.6109516+01:00",
+  "Lastlogout": "2007-11-10T14:19:04.6109516+01:00",
+  "EjUserId": 113,
+  "RequestSignature": "dolores",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "reiciendis",
-      "DisplayValue": "animi",
+      "Value": "voluptas",
+      "DisplayValue": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 198
+          "FieldType": "System.String",
+          "FieldLength": 227
         }
       }
     },
     {
       "Type": null,
-      "Value": "reiciendis",
-      "DisplayValue": "animi",
+      "Value": "voluptas",
+      "DisplayValue": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 198
+          "FieldType": "System.String",
+          "FieldLength": 227
         }
       }
     }
   ],
-  "UserName": "O'Keefe, Dooley and Runolfsdottir",
+  "UserName": "Metz LLC",
   "TicketCategories": [
     {
-      "Id": 117,
-      "Name": "Mante Group",
-      "ToolTip": "Aliquam totam ea voluptatem.",
+      "Id": 933,
+      "Name": "Gerlach-Botsford",
+      "ToolTip": "Qui voluptatum corrupti minus.",
       "Deleted": false,
-      "Rank": 192,
-      "Type": "commodi",
+      "Rank": 510,
+      "Type": "saepe",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "itaque",
-      "ColorBlock": 140,
-      "ExtraInfo": "quas",
-      "StyleHint": "omnis",
-      "FullName": "Carlos Morar",
+      "IconHint": "dolorem",
+      "ColorBlock": 458,
+      "ExtraInfo": "numquam",
+      "StyleHint": "inventore",
+      "FullName": "Miss Colleen Mack Hodkiewicz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 674
+          "FieldLength": 415
         }
       }
     }
   ],
-  "NickName": "Okuneva, Casper and Hagenes",
+  "NickName": "Rath LLC",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "perferendis",
-    "ExtraFields2": "labore"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "voluptates"
   },
   "CustomFields": {
-    "CustomFields1": "vero",
-    "CustomFields2": "reprehenderit"
+    "CustomFields1": "nihil",
+    "CustomFields2": "et"
   },
   "PostSaveCommands": [
     {
-      "Name": "Breitenberg-Kessler",
-      "DisplayName": "Dicki LLC",
-      "Description": "Team-oriented radical knowledge base",
-      "ToolTip": "Sit eaque.",
+      "Name": "Jacobi, Murazik and Block",
+      "DisplayName": "Monahan LLC",
+      "Description": "Enterprise-wide well-modulated superstructure",
+      "ToolTip": "Delectus expedita qui dolor assumenda.",
       "Actions": "Implicit",
-      "ActionData": "laborum",
+      "ActionData": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 99
+          "FieldType": "System.String",
+          "FieldLength": 883
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldType": "System.String",
+      "FieldLength": 983
     }
   }
 }

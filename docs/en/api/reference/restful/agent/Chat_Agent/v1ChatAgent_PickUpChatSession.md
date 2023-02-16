@@ -108,7 +108,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 89
+  "ChatSessionId": 634
 }
 ```
 
@@ -119,29 +119,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 477,
-  "TopicId": 694,
+  "ChatSessionId": 581,
+  "TopicId": 276,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aut",
-  "CustomerHost": "quo",
-  "CustomerName": "Schmidt Inc and Sons",
-  "CustomerEmail": "zion@hammes.us",
-  "CustomerPhone": "(159)854-6628",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Conroy, Stiedemann and Marks",
+  "CustomerAlias": "qui",
+  "CustomerHost": "labore",
+  "CustomerName": "Littel-Johnston",
+  "CustomerEmail": "howell.reichel@kriskihn.biz",
+  "CustomerPhone": "388.282.0855 x337",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Kertzmann, Dickinson and Howe",
   "Status": "Closed",
-  "FirstMessage": "in",
-  "LastMessage": "aut",
-  "WhenRequested": "1996-03-06T11:22:37.555502+01:00",
-  "WhenStarted": "2008-09-18T11:22:37.555502+02:00",
-  "WhenEnded": "2016-10-11T11:22:37.555502+02:00",
-  "WhenIdle": "2003-08-10T11:22:37.555502+02:00",
-  "WhenFetched": "2002-10-12T11:22:37.555502+02:00",
-  "SessionKey": "atque",
-  "InitialQueuePos": 221,
-  "AlertLevel": 968,
-  "Rank": 536,
+  "FirstMessage": "voluptatem",
+  "LastMessage": "consectetur",
+  "WhenRequested": "2007-08-02T14:19:02.8699025+02:00",
+  "WhenStarted": "2011-10-12T14:19:02.8699025+02:00",
+  "WhenEnded": "2021-03-17T14:19:02.8699025+01:00",
+  "WhenIdle": "1996-04-24T14:19:02.8699025+02:00",
+  "WhenFetched": "2003-06-28T14:19:02.8699025+02:00",
+  "SessionKey": "unde",
+  "InitialQueuePos": 435,
+  "AlertLevel": 257,
+  "Rank": 737,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -149,13 +149,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 553,
+  "Rating": 19,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 167
+      "FieldLength": 712
     }
   }
 }

@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 301,
-    "Name": "Tromp, Halvorson and Daugherty",
-    "Tooltip": "in",
+    "HeadingId": 220,
+    "Name": "Zulauf-Gottlieb",
+    "Tooltip": "consequuntur",
     "Deleted": false,
-    "Rank": 616,
-    "UdListDefinitionId": 101
+    "Rank": 551,
+    "UdListDefinitionId": 505
   },
   {
-    "HeadingId": 301,
-    "Name": "Tromp, Halvorson and Daugherty",
-    "Tooltip": "in",
+    "HeadingId": 220,
+    "Name": "Zulauf-Gottlieb",
+    "Tooltip": "consequuntur",
     "Deleted": false,
-    "Rank": 616,
-    "UdListDefinitionId": 101
+    "Rank": 551,
+    "UdListDefinitionId": 505
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 528,
-    "Name": "Corkery-Kirlin",
-    "Tooltip": "placeat",
-    "Deleted": false,
-    "Rank": 302,
-    "UdListDefinitionId": 448,
+    "HeadingId": 429,
+    "Name": "Hackett, Kovacek and Funk",
+    "Tooltip": "sapiente",
+    "Deleted": true,
+    "Rank": 889,
+    "UdListDefinitionId": 57,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 278
+        "FieldLength": 458
       }
     }
   }

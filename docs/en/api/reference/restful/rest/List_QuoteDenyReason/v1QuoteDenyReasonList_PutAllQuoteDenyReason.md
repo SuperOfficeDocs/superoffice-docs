@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 940,
-    "Name": "Larkin, Pfannerstill and Veum",
-    "Tooltip": "dolorum",
-    "Deleted": true,
-    "UdListDefinitionId": 775,
-    "Rank": 459
+    "Id": 883,
+    "Name": "Collier Inc and Sons",
+    "Tooltip": "voluptates",
+    "Deleted": false,
+    "UdListDefinitionId": 498,
+    "Rank": 362
   },
   {
-    "Id": 940,
-    "Name": "Larkin, Pfannerstill and Veum",
-    "Tooltip": "dolorum",
-    "Deleted": true,
-    "UdListDefinitionId": 775,
-    "Rank": 459
+    "Id": 883,
+    "Name": "Collier Inc and Sons",
+    "Tooltip": "voluptates",
+    "Deleted": false,
+    "UdListDefinitionId": 498,
+    "Rank": 362
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 981,
-    "Name": "Kub, Kassulke and Rogahn",
-    "Tooltip": "vel",
+    "Id": 752,
+    "Name": "Haley-Pacocha",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "UdListDefinitionId": 822,
-    "Rank": 589,
+    "UdListDefinitionId": 593,
+    "Rank": 644,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 530
+        "FieldLength": 213
       }
     }
   }

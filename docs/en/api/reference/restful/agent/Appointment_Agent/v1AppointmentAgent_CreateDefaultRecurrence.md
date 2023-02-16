@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,10 +83,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 571,
-  "StartDate": "2016-05-20T11:22:37.071254+02:00",
-  "EndDate": "2016-04-22T11:22:37.071254+02:00",
-  "RecurrenceCounter": 811,
+  "RecurrenceId": 450,
+  "StartDate": "1997-05-22T14:19:02.5786514+02:00",
+  "EndDate": "2007-11-26T14:19:02.5786514+01:00",
+  "RecurrenceCounter": 47,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2005-06-20T11:22:37.071254+02:00",
+      "Date": "2022-09-13T14:19:02.5786514+02:00",
       "IsConflict": false,
-      "Description": "Configurable assymetric conglomeration",
-      "DescriptionStyleHint": "Multi-channelled secondary capacity",
-      "Tooltip": "autem"
+      "Description": "Enhanced reciprocal flexibility",
+      "DescriptionStyleHint": "Multi-tiered intangible installation",
+      "Tooltip": "porro"
     },
     {
-      "Date": "2005-06-20T11:22:37.071254+02:00",
+      "Date": "2022-09-13T14:19:02.5786514+02:00",
       "IsConflict": false,
-      "Description": "Configurable assymetric conglomeration",
-      "DescriptionStyleHint": "Multi-channelled secondary capacity",
-      "Tooltip": "autem"
+      "Description": "Enhanced reciprocal flexibility",
+      "DescriptionStyleHint": "Multi-tiered intangible installation",
+      "Tooltip": "porro"
     }
   ],
   "IsRecurrence": false

@@ -92,7 +92,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 264,
-  "ColumnId": 414,
-  "FieldDefault": "dolores",
-  "FieldHeight": 897,
-  "FieldLabel": "repudiandae",
-  "FieldLeft": 856,
-  "FieldTop": 975,
+  "UDefFieldId": 968,
+  "ColumnId": 975,
+  "FieldDefault": "qui",
+  "FieldHeight": 284,
+  "FieldLabel": "quod",
+  "FieldLeft": 89,
+  "FieldTop": 65,
   "FieldType": "Checkbox",
-  "FieldWidth": 343,
-  "FormatMask": "perferendis",
+  "FieldWidth": 684,
+  "FormatMask": "officia",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 391,
-  "LabelLeft": 707,
-  "LabelTop": 378,
-  "LabelWidth": 211,
-  "LastVersionId": 335,
-  "ListTableId": 239,
+  "IsIndexed": true,
+  "LabelHeight": 212,
+  "LabelLeft": 861,
+  "LabelTop": 519,
+  "LabelWidth": 990,
+  "LastVersionId": 110,
+  "ListTableId": 423,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 388,
-  "ProgId": "est",
+  "Page1LineNo": 16,
+  "ProgId": "eligendi",
   "IsReadOnly": false,
-  "ShortLabel": "sapiente",
-  "TabOrder": 278,
-  "TextLength": 690,
-  "Tooltip": "inventore",
-  "UdefIdentity": 1001,
-  "UDListDefinitionId": 620,
+  "ShortLabel": "neque",
+  "TabOrder": 659,
+  "TextLength": 474,
+  "Tooltip": "voluptatem",
+  "UdefIdentity": 61,
+  "UDListDefinitionId": 793,
   "Justification": "Center",
-  "Version": 948,
-  "TemplateVariableName": "West-Gleason",
-  "HasBeenPublished": false,
-  "MdoListName": "Jacobs-Cruickshank",
+  "Version": 414,
+  "TemplateVariableName": "Hackett Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "Tremblay-Feil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 142
+      "FieldLength": 478
     }
   }
 }

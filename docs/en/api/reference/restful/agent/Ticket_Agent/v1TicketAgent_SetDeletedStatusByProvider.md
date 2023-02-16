@@ -70,32 +70,32 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Stoltenberg LLC",
+  "ProviderName": "Beer, Hirthe and Champlin",
   "Restrictions": [
     {
-      "Name": "Walsh Inc and Sons",
-      "Operator": "ipsa",
+      "Name": "Krajcik-Gaylord",
+      "Operator": "et",
       "Values": [
-        "consectetur",
-        "laudantium"
+        "praesentium",
+        "rerum"
       ],
       "DisplayValues": [
-        "quibusdam",
-        "dolorem"
+        "architecto",
+        "deserunt"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 242,
+      "InterParenthesis": 505,
       "InterOperator": "And",
-      "UniqueHash": 692
+      "UniqueHash": 844
     }
   ]
 }
@@ -108,7 +108,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  739,
-  311
+  465,
+  481
 ]
 ```

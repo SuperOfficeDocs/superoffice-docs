@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    875,
-    713
+    8,
+    191
   ]
 }
 ```
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 600,
-    "Name": "Harber-Denesik",
-    "Description": "Cross-group explicit hardware",
+    "ProjectId": 541,
+    "Name": "Hane, Ledner and Hayes",
+    "Description": "Upgradable leading edge attitude",
     "URL": "http://www.example.com/",
-    "Type": "repudiandae",
-    "AssociateId": 312,
-    "AssociateFullName": "Nina Ledner",
-    "TypeId": 968,
-    "Updated": "2007-01-28T11:22:38.8520826+01:00",
-    "StatusId": 68,
-    "Status": "a",
-    "TextId": 663,
-    "PublishTo": "2003-01-13T11:22:38.8520826+01:00",
-    "PublishFrom": "1998-05-06T11:22:38.8520826+02:00",
-    "IsPublished": false,
+    "Type": "maiores",
+    "AssociateId": 301,
+    "AssociateFullName": "Robyn Wyman",
+    "TypeId": 613,
+    "Updated": "2013-05-21T14:19:03.9688343+02:00",
+    "StatusId": 622,
+    "Status": "placeat",
+    "TextId": 101,
+    "PublishTo": "2007-07-31T14:19:03.9688343+02:00",
+    "PublishFrom": "2019-12-19T14:19:03.9688343+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1318605",
-    "ActiveErpLinks": 992,
+    "ProjectNumber": "681214",
+    "ActiveErpLinks": 3,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 650
+        "FieldLength": 426
       }
     }
   }

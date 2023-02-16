@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 333,
-  "Name": "Abbott-Nolan",
-  "Tooltip": "corrupti",
+  "Id": 330,
+  "Name": "Hoppe, Crona and Halvorson",
+  "Tooltip": "cumque",
   "Deleted": true,
-  "Rank": 304,
-  "IsCustomList": true,
+  "Rank": 516,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quae",
-  "InUseByUserDefinedFields": true,
+  "ListType": "sed",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 575
+      "FieldLength": 763
     }
   },
   "_Links": {

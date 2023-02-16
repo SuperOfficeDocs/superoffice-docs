@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 768
+  "TargetDimensionId": 354
 }
 ```
 
@@ -96,24 +96,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 496,
+    "TargetAssignmentInfoId": 905,
     "Values": [
-      691,
-      972
+      237,
+      322
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 344,
-    "DimensionListItemDisplayName": "DuBuque-Gaylord",
+    "DimensionListItem": 165,
+    "DimensionListItemDisplayName": "Abshire LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 147
+        "FieldType": "System.String",
+        "FieldLength": 455
       }
     }
   }

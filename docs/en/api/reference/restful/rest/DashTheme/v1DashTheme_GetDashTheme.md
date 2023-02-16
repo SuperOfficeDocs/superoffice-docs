@@ -87,18 +87,18 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 237,
-  "Name": "Schowalter Group",
-  "Config": "rerum",
-  "Rank": 944,
-  "Client": "suscipit",
-  "Style": "itaque",
+  "DashboardThemeId": 32,
+  "Name": "Feil LLC",
+  "Config": "ut",
+  "Rank": 105,
+  "Client": "et",
+  "Style": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 114
+      "FieldLength": 997
     }
   },
   "_Links": {

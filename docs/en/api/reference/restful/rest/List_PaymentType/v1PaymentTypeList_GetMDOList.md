@@ -25,8 +25,8 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentType/MDOItems?flat=True
-GET /api/v1/List/PaymentType/MDOItems?query=aut
+GET /api/v1/List/PaymentType/MDOItems?flat=False
+GET /api/v1/List/PaymentType/MDOItems?query=et
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 478,
-    "Name": "Reynolds Inc and Sons",
-    "ToolTip": "Et quis nihil provident itaque unde perspiciatis ex.",
-    "Deleted": true,
-    "Rank": 382,
-    "Type": "iste",
+    "Id": 825,
+    "Name": "Willms-Stracke",
+    "ToolTip": "Esse adipisci quaerat.",
+    "Deleted": false,
+    "Rank": 522,
+    "Type": "officia",
     "ChildItems": [
       {
-        "Id": 864,
-        "Name": "Harber LLC",
-        "ToolTip": "Consequuntur tenetur libero non voluptas cupiditate reprehenderit.",
+        "Id": 989,
+        "Name": "Rutherford LLC",
+        "ToolTip": "Reiciendis enim ipsum quibusdam ut dolore.",
         "Deleted": false,
-        "Rank": 812,
-        "Type": "a",
+        "Rank": 436,
+        "Type": "nisi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 508,
-        "ExtraInfo": "quia",
-        "StyleHint": "quasi",
-        "FullName": "Emmet Quitzon",
+        "IconHint": "qui",
+        "ColorBlock": 72,
+        "ExtraInfo": "rerum",
+        "StyleHint": "illum",
+        "FullName": "Dortha Mann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 43
+            "FieldLength": 347
           }
         }
       }
     ],
-    "IconHint": "rem",
-    "ColorBlock": 310,
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "deserunt",
-    "FullName": "Dr. Esteban Flavie Pouros II",
+    "IconHint": "et",
+    "ColorBlock": 48,
+    "ExtraInfo": "ab",
+    "StyleHint": "qui",
+    "FullName": "Nick Morar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 25
+        "FieldLength": 365
       }
     }
   }

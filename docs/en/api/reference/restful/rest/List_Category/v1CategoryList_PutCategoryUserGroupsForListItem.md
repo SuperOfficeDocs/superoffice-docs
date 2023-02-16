@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 156,
-    "Name": "Hermiston LLC",
-    "ToolTip": "Cumque quia.",
+    "Id": 403,
+    "Name": "Kohler-Renner",
+    "ToolTip": "In hic tenetur quis rerum laudantium reprehenderit quia.",
     "Deleted": false,
-    "Rank": 758,
-    "Type": "cumque",
-    "ColorBlock": 174,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2006-01-08T11:22:45.7879071+01:00",
+    "Rank": 342,
+    "Type": "sunt",
+    "ColorBlock": 598,
+    "IconHint": "molestiae",
+    "Selected": true,
+    "LastChanged": "2004-08-06T14:19:11.1324679+02:00",
     "ChildItems": [
       {
-        "Id": 131,
-        "Name": "Morissette-Mayer",
-        "ToolTip": "Et quia eligendi esse tenetur.",
+        "Id": 977,
+        "Name": "Kling LLC",
+        "ToolTip": "Commodi ut magnam.",
         "Deleted": false,
-        "Rank": 321,
-        "Type": "laboriosam",
-        "ColorBlock": 555,
-        "IconHint": "eligendi",
+        "Rank": 423,
+        "Type": "accusamus",
+        "ColorBlock": 651,
+        "IconHint": "quisquam",
         "Selected": true,
-        "LastChanged": "2003-03-26T11:22:45.7879071+01:00",
+        "LastChanged": "2012-09-08T14:19:11.1324679+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Palma Thompson"
+        "ExtraInfo": "recusandae",
+        "StyleHint": "praesentium",
+        "Hidden": true,
+        "FullName": "Lesly Kautzer"
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "asperiores",
+    "ExtraInfo": "minus",
+    "StyleHint": "culpa",
     "Hidden": false,
-    "FullName": "Hans Langosh IV"
+    "FullName": "Yesenia Halvorson"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 361,
-    "Name": "Beer Group",
-    "ToolTip": "Dolorum ut sunt.",
-    "Deleted": true,
-    "Rank": 978,
-    "Type": "sed",
-    "ColorBlock": 893,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2004-05-16T11:22:45.7879071+02:00",
+    "Id": 525,
+    "Name": "Leffler-Hane",
+    "ToolTip": "Cum laudantium aut.",
+    "Deleted": false,
+    "Rank": 209,
+    "Type": "repudiandae",
+    "ColorBlock": 1002,
+    "IconHint": "porro",
+    "Selected": true,
+    "LastChanged": "2020-03-19T14:19:11.1324679+01:00",
     "ChildItems": [
       {
-        "Id": 806,
-        "Name": "McGlynn, Jacobson and Bartoletti",
-        "ToolTip": "Voluptate eligendi sapiente laboriosam quibusdam officia non porro.",
-        "Deleted": false,
-        "Rank": 723,
-        "Type": "quasi",
-        "ColorBlock": 842,
-        "IconHint": "deleniti",
+        "Id": 516,
+        "Name": "Pfeffer, Orn and Gulgowski",
+        "ToolTip": "Est quasi sapiente incidunt consequatur.",
+        "Deleted": true,
+        "Rank": 35,
+        "Type": "sequi",
+        "ColorBlock": 736,
+        "IconHint": "perferendis",
         "Selected": false,
-        "LastChanged": "2018-04-11T11:22:45.7879071+02:00",
+        "LastChanged": "2004-07-09T14:19:11.1324679+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "velit",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "debitis",
         "Hidden": false,
-        "FullName": "Ollie Ondricka",
+        "FullName": "Annabelle Gulgowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 908
+            "FieldType": "System.String",
+            "FieldLength": 116
           }
         }
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "ipsam",
-    "Hidden": false,
-    "FullName": "Rasheed Keeling",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "molestias",
+    "Hidden": true,
+    "FullName": "Florence Hansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 570
+        "FieldLength": 320
       }
     }
   }

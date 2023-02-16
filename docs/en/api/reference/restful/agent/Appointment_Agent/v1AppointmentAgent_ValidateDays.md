@@ -81,8 +81,8 @@ Content-Type: application/json; charset=utf-8
 {
   "AppointmentEntity": null,
   "Dates": [
-    "incidunt",
-    "voluptas"
+    "et",
+    "voluptates"
   ]
 }
 ```
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2018-07-20T11:22:37.071254+02:00",
-    "IsConflict": false,
-    "Description": "Automated client-server encryption",
-    "DescriptionStyleHint": "Customizable client-server help-desk",
-    "Tooltip": "beatae"
+    "Date": "2021-12-09T14:19:02.5786514+01:00",
+    "IsConflict": true,
+    "Description": "Adaptive foreground budgetary management",
+    "DescriptionStyleHint": "Cross-platform assymetric approach",
+    "Tooltip": "non"
   },
   {
-    "Date": "2018-07-20T11:22:37.071254+02:00",
-    "IsConflict": false,
-    "Description": "Automated client-server encryption",
-    "DescriptionStyleHint": "Customizable client-server help-desk",
-    "Tooltip": "beatae"
+    "Date": "2021-12-09T14:19:02.5786514+01:00",
+    "IsConflict": true,
+    "Description": "Adaptive foreground budgetary management",
+    "DescriptionStyleHint": "Cross-platform assymetric approach",
+    "Tooltip": "non"
   }
 ]
 ```

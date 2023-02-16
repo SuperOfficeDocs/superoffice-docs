@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 779,
-    "Name": "Kovacek-Jenkins",
-    "ToolTip": "Et corrupti ducimus veritatis nesciunt sed expedita.",
-    "Deleted": true,
-    "Rank": 112,
-    "Type": "id",
-    "ColorBlock": 19,
-    "IconHint": "odit",
+    "Id": 894,
+    "Name": "Borer, Strosin and Smitham",
+    "ToolTip": "Occaecati labore et est eum ut sed.",
+    "Deleted": false,
+    "Rank": 441,
+    "Type": "itaque",
+    "ColorBlock": 417,
+    "IconHint": "earum",
     "Selected": true,
-    "LastChanged": "2000-03-05T11:22:46.0066565+01:00",
+    "LastChanged": "2000-10-12T14:19:11.3524087+02:00",
     "ChildItems": [
       {
-        "Id": 1002,
-        "Name": "Crooks Inc and Sons",
-        "ToolTip": "Incidunt similique.",
+        "Id": 908,
+        "Name": "Swift, Stamm and Hyatt",
+        "ToolTip": "Qui repudiandae ullam doloremque similique qui.",
         "Deleted": false,
-        "Rank": 765,
-        "Type": "exercitationem",
-        "ColorBlock": 103,
-        "IconHint": "voluptas",
+        "Rank": 340,
+        "Type": "repellendus",
+        "ColorBlock": 784,
+        "IconHint": "cupiditate",
         "Selected": false,
-        "LastChanged": "2020-10-06T11:22:46.0066565+02:00",
+        "LastChanged": "2014-01-10T14:19:11.3524087+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "neque",
+        "StyleHint": "voluptatibus",
         "Hidden": false,
-        "FullName": "Iliana Sarina Dickinson DDS",
+        "FullName": "Sandrine Walker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 426
+            "FieldLength": 314
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "vel",
+    "ExtraInfo": "sunt",
+    "StyleHint": "quo",
     "Hidden": false,
-    "FullName": "Mr. Diana Kendrick Cassin DDS",
+    "FullName": "Katelyn O'Connell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 489
+        "FieldType": "System.Int32",
+        "FieldLength": 852
       }
     }
   }

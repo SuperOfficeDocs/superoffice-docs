@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 94,
-    "Name": "Mayert, Kuvalis and Walsh",
-    "Tooltip": "id",
+    "Id": 516,
+    "Name": "Bahringer Group",
+    "Tooltip": "in",
     "Deleted": false,
-    "UdListDefinitionId": 978,
-    "Rank": 993,
+    "UdListDefinitionId": 896,
+    "Rank": 82,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 317
+        "FieldType": "System.Int32",
+        "FieldLength": 262
       }
     }
   }

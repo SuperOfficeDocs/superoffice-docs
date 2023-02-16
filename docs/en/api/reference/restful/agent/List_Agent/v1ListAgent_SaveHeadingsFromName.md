@@ -78,27 +78,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Shanahan, Anderson and Ziemann",
+  "Name": "Dicki-Bayer",
   "Entities": [
     {
-      "HeadingId": 584,
-      "Name": "Hilll, Gerlach and Abshire",
-      "Tooltip": "aut",
+      "HeadingId": 866,
+      "Name": "Rau LLC",
+      "Tooltip": "hic",
       "Deleted": true,
-      "Rank": 415,
-      "UdListDefinitionId": 547
+      "Rank": 224,
+      "UdListDefinitionId": 634
     },
     {
-      "HeadingId": 584,
-      "Name": "Hilll, Gerlach and Abshire",
-      "Tooltip": "aut",
+      "HeadingId": 866,
+      "Name": "Rau LLC",
+      "Tooltip": "hic",
       "Deleted": true,
-      "Rank": 415,
-      "UdListDefinitionId": 547
+      "Rank": 224,
+      "UdListDefinitionId": 634
     }
   ]
 }
@@ -112,18 +112,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 104,
-    "Name": "Lakin LLC",
-    "Tooltip": "magnam",
+    "HeadingId": 289,
+    "Name": "Friesen Group",
+    "Tooltip": "ex",
     "Deleted": false,
-    "Rank": 299,
-    "UdListDefinitionId": 762,
+    "Rank": 260,
+    "UdListDefinitionId": 436,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 331
+        "FieldType": "System.Int32",
+        "FieldLength": 533
       }
     }
   }

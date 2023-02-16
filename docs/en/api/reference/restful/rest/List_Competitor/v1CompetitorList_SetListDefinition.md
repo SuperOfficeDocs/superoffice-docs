@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 153,
-  "Name": "Kshlerin Inc and Sons",
-  "Tooltip": "blanditiis",
+  "Id": 816,
+  "Name": "Jerde Group",
+  "Tooltip": "necessitatibus",
   "Deleted": false,
-  "Rank": 906,
+  "Rank": 980,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptatum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 363,
-  "Name": "Wisozk Group",
-  "Tooltip": "officiis",
+  "Id": 381,
+  "Name": "Wolf-Spinka",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 166,
+  "Rank": 633,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "reprehenderit",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "culpa",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 666
+      "FieldType": "System.Int32",
+      "FieldLength": 387
     }
   }
 }

@@ -25,8 +25,8 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectStatus/MDOItems?flat=True
-GET /api/v1/List/ProjectStatus/MDOItems?query=amet
+GET /api/v1/List/ProjectStatus/MDOItems?flat=False
+GET /api/v1/List/ProjectStatus/MDOItems?query=voluptates
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 54,
-    "Name": "Rowe, Christiansen and Erdman",
-    "ToolTip": "Qui sint modi molestiae ut.",
+    "Id": 860,
+    "Name": "Gottlieb-Moore",
+    "ToolTip": "Magni beatae sint quo distinctio quam ducimus.",
     "Deleted": true,
-    "Rank": 35,
-    "Type": "excepturi",
+    "Rank": 713,
+    "Type": "voluptatum",
     "ChildItems": [
       {
-        "Id": 835,
-        "Name": "Grimes-Leuschke",
-        "ToolTip": "Eum dicta voluptatem possimus dicta.",
-        "Deleted": true,
-        "Rank": 5,
-        "Type": "ea",
+        "Id": 108,
+        "Name": "Wisozk-Blick",
+        "ToolTip": "Tempora commodi.",
+        "Deleted": false,
+        "Rank": 916,
+        "Type": "consequatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusamus",
-        "ColorBlock": 211,
-        "ExtraInfo": "maiores",
-        "StyleHint": "quo",
-        "FullName": "Aracely Koss",
+        "IconHint": "blanditiis",
+        "ColorBlock": 279,
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "voluptates",
+        "FullName": "Jaqueline O'Kon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 939
+            "FieldType": "System.Int32",
+            "FieldLength": 111
           }
         }
       }
     ],
-    "IconHint": "accusamus",
-    "ColorBlock": 446,
-    "ExtraInfo": "fugit",
-    "StyleHint": "nemo",
-    "FullName": "Maria Gislason DVM",
+    "IconHint": "ratione",
+    "ColorBlock": 473,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "magni",
+    "FullName": "Arnulfo Corene Parker DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 634
+        "FieldLength": 782
       }
     }
   }

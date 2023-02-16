@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 886
+  "TicketMessageEntityId": 924
 }
 ```
 
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 397,
-    "Name": "McClure LLC",
-    "ContentType": "dicta",
-    "AttSize": 31,
-    "InlineImage": false,
-    "ContentId": "quae",
+    "AttachmentId": 56,
+    "Name": "Labadie, Rohan and Konopelski",
+    "ContentType": "aperiam",
+    "AttSize": 80,
+    "InlineImage": true,
+    "ContentId": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 166
+        "FieldType": "System.Int32",
+        "FieldLength": 515
       }
     }
   }

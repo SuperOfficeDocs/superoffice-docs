@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 278,
-  "Name": "Renner, Crona and Stanton",
-  "Tooltip": "rerum",
+  "HeadingId": 464,
+  "Name": "Orn-Thompson",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 722,
-  "UdListDefinitionId": 274
+  "Rank": 42,
+  "UdListDefinitionId": 700
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 271,
-  "Name": "O'Kon Inc and Sons",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "Rank": 628,
-  "UdListDefinitionId": 160,
+  "HeadingId": 3,
+  "Name": "Emmerich-Koelpin",
+  "Tooltip": "architecto",
+  "Deleted": true,
+  "Rank": 716,
+  "UdListDefinitionId": 600,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldType": "System.String",
+      "FieldLength": 920
     }
   }
 }

@@ -87,15 +87,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 238,
-  "Name": "Satterfield Group",
-  "Tooltip": "saepe",
+  "Id": 829,
+  "Name": "Ernser LLC",
+  "Tooltip": "praesentium",
   "Deleted": false,
-  "Rank": 578,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 747,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "soluta",
+  "ListType": "quis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 64,
-  "Name": "Huel, Wilderman and Abbott",
-  "Tooltip": "molestiae",
+  "Id": 438,
+  "Name": "Toy Inc and Sons",
+  "Tooltip": "cupiditate",
   "Deleted": false,
-  "Rank": 593,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "doloribus",
-  "InUseByUserDefinedFields": true,
+  "Rank": 696,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "non",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 479
+      "FieldType": "System.String",
+      "FieldLength": 136
     }
   }
 }

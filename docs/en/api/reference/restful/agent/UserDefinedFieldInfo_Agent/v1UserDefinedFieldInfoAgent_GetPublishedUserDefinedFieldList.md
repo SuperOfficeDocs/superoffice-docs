@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,46 +121,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 654,
-    "ColumnId": 326,
-    "FieldDefault": "rerum",
-    "FieldHeight": 161,
-    "FieldLabel": "incidunt",
-    "FieldLeft": 173,
-    "FieldTop": 274,
+    "UDefFieldId": 609,
+    "ColumnId": 89,
+    "FieldDefault": "totam",
+    "FieldHeight": 486,
+    "FieldLabel": "deserunt",
+    "FieldLeft": 179,
+    "FieldTop": 765,
     "FieldType": "Checkbox",
-    "FieldWidth": 165,
-    "FormatMask": "labore",
+    "FieldWidth": 841,
+    "FormatMask": "voluptatem",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 526,
-    "LabelLeft": 315,
-    "LabelTop": 347,
-    "LabelWidth": 135,
-    "LastVersionId": 149,
-    "ListTableId": 996,
-    "IsMandatory": true,
+    "LabelHeight": 939,
+    "LabelLeft": 723,
+    "LabelTop": 140,
+    "LabelWidth": 637,
+    "LastVersionId": 886,
+    "ListTableId": 282,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 266,
-    "ProgId": "aspernatur",
-    "IsReadOnly": false,
-    "ShortLabel": "doloribus",
-    "TabOrder": 54,
-    "TextLength": 733,
-    "Tooltip": "veritatis",
-    "UdefIdentity": 111,
-    "UDListDefinitionId": 336,
+    "Page1LineNo": 117,
+    "ProgId": "exercitationem",
+    "IsReadOnly": true,
+    "ShortLabel": "et",
+    "TabOrder": 635,
+    "TextLength": 92,
+    "Tooltip": "facere",
+    "UdefIdentity": 146,
+    "UDListDefinitionId": 809,
     "Justification": "Center",
-    "Version": 11,
-    "TemplateVariableName": "Bahringer-Botsford",
-    "HasBeenPublished": false,
-    "MdoListName": "Dooley, Volkman and Stiedemann",
+    "Version": 335,
+    "TemplateVariableName": "Hickle Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Gulgowski-Kihn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 351
+        "FieldLength": 928
       }
     }
   }

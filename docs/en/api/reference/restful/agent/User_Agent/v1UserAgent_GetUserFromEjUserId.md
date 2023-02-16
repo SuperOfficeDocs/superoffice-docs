@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromEjUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjUserId": 662
+  "EjUserId": 267
 }
 ```
 
@@ -114,14 +114,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 143,
-    "Name": "Rath-Schumm",
-    "Rank": 144,
-    "Tooltip": "ea",
+    "AssociateId": 313,
+    "Name": "Durgan-Heidenreich",
+    "Rank": 515,
+    "Tooltip": "in",
     "LicenseOwners": [
       {
-        "Name": "Kutch, Erdman and Zemlak",
-        "Description": "Fully-configurable disintermediate product",
+        "Name": "Blanda Inc and Sons",
+        "Description": "Inverse well-modulated moderator",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -134,14 +134,14 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 520
+            "FieldType": "System.Int32",
+            "FieldLength": 791
           }
         }
       },
       {
-        "Name": "Kutch, Erdman and Zemlak",
-        "Description": "Fully-configurable disintermediate product",
+        "Name": "Blanda Inc and Sons",
+        "Description": "Inverse well-modulated moderator",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 520
+            "FieldType": "System.Int32",
+            "FieldLength": 791
           }
         }
       }
@@ -164,110 +164,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "ab",
-        "Tooltip": "sint",
-        "Id": 526,
-        "Rank": 897,
+        "Value": "corporis",
+        "Tooltip": "eligendi",
+        "Id": 262,
+        "Rank": 158,
         "Deleted": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 842
+            "FieldType": "System.String",
+            "FieldLength": 175
           }
         }
       }
     ],
     "Person": null,
-    "Deleted": false,
-    "Lastlogin": "2022-02-04T11:22:39.6800331+01:00",
-    "Lastlogout": "2019-03-07T11:22:39.6800331+01:00",
-    "EjUserId": 893,
-    "RequestSignature": "tenetur",
+    "Deleted": true,
+    "Lastlogin": "1999-10-15T14:19:04.6265768+02:00",
+    "Lastlogout": "2015-12-29T14:19:04.6265768+01:00",
+    "EjUserId": 293,
+    "RequestSignature": "aut",
     "Type": "AnonymousAssociate",
     "IsPersonRetired": true,
-    "IsOnTravel": false,
+    "IsOnTravel": true,
     "Credentials": [
       {
         "Type": null,
-        "Value": "dolores",
-        "DisplayValue": "assumenda",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 654
-          }
-        }
-      },
-      {
-        "Type": null,
-        "Value": "dolores",
-        "DisplayValue": "assumenda",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 654
-          }
-        }
-      }
-    ],
-    "UserName": "Rowe, Lueilwitz and Marvin",
-    "TicketCategories": [
-      {
-        "Id": 557,
-        "Name": "Graham Group",
-        "ToolTip": "Porro facere consequatur sapiente dolores.",
-        "Deleted": true,
-        "Rank": 360,
-        "Type": "doloribus",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "expedita",
-        "ColorBlock": 637,
-        "ExtraInfo": "delectus",
-        "StyleHint": "odit",
-        "FullName": "Norma Gutkowski DDS",
+        "Value": "dolorem",
+        "DisplayValue": "rem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 390
+            "FieldLength": 861
+          }
+        }
+      },
+      {
+        "Type": null,
+        "Value": "dolorem",
+        "DisplayValue": "rem",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 861
           }
         }
       }
     ],
-    "NickName": "Steuber, Jaskolski and Becker",
+    "UserName": "Collier, Hartmann and Will",
+    "TicketCategories": [
+      {
+        "Id": 450,
+        "Name": "Conn, Volkman and Rogahn",
+        "ToolTip": "Omnis magni dolorem ut deserunt quibusdam quasi.",
+        "Deleted": false,
+        "Rank": 231,
+        "Type": "sunt",
+        "ChildItems": [
+          {},
+          {}
+        ],
+        "IconHint": "fugiat",
+        "ColorBlock": 693,
+        "ExtraInfo": "dolores",
+        "StyleHint": "ad",
+        "FullName": "Korey Hagenes",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 527
+          }
+        }
+      }
+    ],
+    "NickName": "Price-Kessler",
     "WaitingForApproval": false,
     "ExtraFields": {
-      "ExtraFields1": "autem",
-      "ExtraFields2": "quae"
+      "ExtraFields1": "aspernatur",
+      "ExtraFields2": "quia"
     },
     "CustomFields": {
-      "CustomFields1": "expedita",
-      "CustomFields2": "at"
+      "CustomFields1": "itaque",
+      "CustomFields2": "aut"
     },
     "PostSaveCommands": [
       {
-        "Name": "Nolan Inc and Sons",
-        "DisplayName": "Crona-Witting",
-        "Description": "Down-sized demand-driven archive",
-        "ToolTip": "Omnis consequatur quisquam eligendi id vero voluptas.",
+        "Name": "Prosacco, Bednar and Cruickshank",
+        "DisplayName": "Nader Inc and Sons",
+        "Description": "Ergonomic well-modulated system engine",
+        "ToolTip": "Est expedita quo.",
         "Actions": "Implicit",
-        "ActionData": "eaque",
+        "ActionData": "incidunt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 201
+            "FieldLength": 796
           }
         }
       }
@@ -277,7 +277,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 587
+        "FieldLength": 496
       }
     }
   }

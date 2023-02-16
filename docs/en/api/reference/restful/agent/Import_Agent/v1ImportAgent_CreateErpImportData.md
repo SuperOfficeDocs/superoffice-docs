@@ -76,21 +76,21 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Zulauf, Upton and Murazik",
-      "Operator": "perferendis",
+      "Name": "Zulauf, Zboncak and Miller",
+      "Operator": "omnis",
       "Values": [
-        "commodi",
-        "nihil"
+        "aut",
+        "suscipit"
       ],
       "DisplayValues": [
-        "repudiandae",
-        "enim"
+        "ut",
+        "est"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -98,16 +98,16 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 13,
+      "InterParenthesis": 201,
       "InterOperator": "And",
-      "UniqueHash": 27
+      "UniqueHash": 206
     }
   ],
   "Columns": [
-    "voluptas",
-    "rem"
+    "velit",
+    "et"
   ],
-  "ConnectionId": 928,
+  "ConnectionId": 93,
   "ErpActorType": "Customer"
 }
 ```
@@ -122,47 +122,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "voluptatem",
-        "quo"
+        "dolorem",
+        "aut"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "ad",
+      "ExternalKey": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 200
+          "FieldLength": 432
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Macejkovic-Quigley",
-      "DisplayName": "Hoeger LLC",
+      "Name": "Kunze, Schiller and Stroman",
+      "DisplayName": "Lind-Lubowitz",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 403
+          "FieldType": "System.String",
+          "FieldLength": 827
         }
       }
     },
     {
-      "Name": "Macejkovic-Quigley",
-      "DisplayName": "Hoeger LLC",
+      "Name": "Kunze, Schiller and Stroman",
+      "DisplayName": "Lind-Lubowitz",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 403
+          "FieldType": "System.String",
+          "FieldLength": 827
         }
       }
     }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 199
+      "FieldLength": 16
     }
   }
 }

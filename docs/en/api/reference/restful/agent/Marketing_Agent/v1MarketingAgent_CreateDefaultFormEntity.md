@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,34 +87,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 419,
-  "FormKey": "ipsum",
-  "Name": "Howell Inc and Sons",
-  "Description": "Object-based intermediate moratorium",
-  "Config": "similique",
-  "FolderId": 236,
-  "ScriptId": 221,
-  "ResponseShipmentId": 669,
-  "Active": true,
-  "Expires": "2008-10-12T11:22:38.5552678+02:00",
-  "MaxSubmits": 215,
+  "FormId": 325,
+  "FormKey": "quia",
+  "Name": "Prosacco, Schamberger and Balistreri",
+  "Description": "Streamlined 5th generation contingency",
+  "Config": "eum",
+  "FolderId": 575,
+  "ScriptId": 571,
+  "ResponseShipmentId": 654,
+  "Active": false,
+  "Expires": "1999-05-13T14:19:03.7019992+02:00",
+  "MaxSubmits": 488,
   "Type": "Normal",
-  "Recipe": "unde",
-  "GroupId": 913,
+  "Recipe": "et",
+  "GroupId": 797,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2003-09-29T11:22:38.5552678+02:00",
-  "RegisteredAssociateId": 304,
-  "Updated": "2007-06-10T11:22:38.5552678+02:00",
-  "UpdatedAssociateId": 647,
-  "UpdatedCount": 526,
-  "FolderName": "Dooley-Skiles",
+  "Registered": "1999-03-10T14:19:03.7019992+01:00",
+  "RegisteredAssociateId": 874,
+  "Updated": "2014-09-09T14:19:03.7019992+02:00",
+  "UpdatedAssociateId": 24,
+  "UpdatedCount": 288,
+  "FolderName": "Mohr-Luettgen",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 30
+      "FieldType": "System.Int32",
+      "FieldLength": 508
     }
   }
 }

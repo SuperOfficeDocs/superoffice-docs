@@ -78,7 +78,7 @@ OK
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,46 +88,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 476,
+  "HierarchyId": 634,
   "Domain": "Dashboards",
-  "Name": "Flatley-Ortiz",
-  "Fullname": "itaque",
-  "ParentId": 150,
+  "Name": "Hyatt-Bailey",
+  "Fullname": "quisquam",
+  "ParentId": 705,
   "Children": [
     {
-      "HierarchyId": 269,
+      "HierarchyId": 599,
       "Domain": "Dashboards",
-      "Name": "Gleichner, Howe and Schmeler",
-      "Fullname": "et",
-      "ParentId": 347,
+      "Name": "Hettinger, Spencer and Hoppe",
+      "Fullname": "tempore",
+      "ParentId": 713,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2003-06-22T11:22:44.8818691+02:00",
-      "RegisteredAssociateId": 357,
-      "Updated": "2018-05-25T11:22:44.8818691+02:00",
-      "UpdatedAssociateId": 252,
+      "Registered": "2016-09-08T14:19:10.3654771+02:00",
+      "RegisteredAssociateId": 121,
+      "Updated": "2005-11-17T14:19:10.3654771+01:00",
+      "UpdatedAssociateId": 738,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 540
+          "FieldLength": 924
         }
       }
     }
   ],
-  "Registered": "2007-08-26T11:22:44.8818691+02:00",
-  "RegisteredAssociateId": 20,
-  "Updated": "2020-10-09T11:22:44.8818691+02:00",
-  "UpdatedAssociateId": 401,
+  "Registered": "2014-06-04T14:19:10.3654771+02:00",
+  "RegisteredAssociateId": 953,
+  "Updated": "2001-11-20T14:19:10.3654771+01:00",
+  "UpdatedAssociateId": 967,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldLength": 364
     }
   }
 }

@@ -103,27 +103,27 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 897,
-  "Name": "Schaefer-Schiller",
-  "CurrencyId": 238,
-  "EnglishName": "Franecki, Fahey and Boehm",
+  "CountryId": 448,
+  "Name": "Bergstrom, Senger and Barrows",
+  "CurrencyId": 247,
+  "EnglishName": "Feeney, Hoppe and Will",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Business-focused 5th generation contingency",
-  "OrgNrText": "1233970",
-  "InterAreaPrefix": "sunt",
-  "DialInPrefix": "ut",
-  "ZipPrefix": "consequatur",
-  "DomainName": "Bartoletti, Kutch and Rath",
-  "AddressLayoutId": 142,
-  "DomesticAddressLayoutId": 401,
-  "ForeignAddressLayoutId": 499,
-  "Rank": 875,
-  "Tooltip": "et",
+  "ImageDescription": "Virtual analyzing superstructure",
+  "OrgNrText": "1102649",
+  "InterAreaPrefix": "eum",
+  "DialInPrefix": "velit",
+  "ZipPrefix": "qui",
+  "DomainName": "Cartwright-O'Reilly",
+  "AddressLayoutId": 90,
+  "DomesticAddressLayoutId": 843,
+  "ForeignAddressLayoutId": 219,
+  "Rank": 286,
+  "Tooltip": "reiciendis",
   "Deleted": false
 }
 ```
@@ -135,30 +135,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 816,
-  "Name": "Altenwerth Inc and Sons",
-  "CurrencyId": 208,
-  "EnglishName": "Raynor, Kreiger and Dietrich",
+  "CountryId": 357,
+  "Name": "Adams-Conroy",
+  "CurrencyId": 903,
+  "EnglishName": "Huels-Yost",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Robust empowering matrices",
-  "OrgNrText": "1442021",
-  "InterAreaPrefix": "molestiae",
-  "DialInPrefix": "dolor",
-  "ZipPrefix": "necessitatibus",
-  "DomainName": "Okuneva, Kub and Waelchi",
-  "AddressLayoutId": 210,
-  "DomesticAddressLayoutId": 606,
-  "ForeignAddressLayoutId": 299,
-  "Rank": 417,
-  "Tooltip": "vitae",
-  "Deleted": false,
+  "ImageDescription": "Programmable national help-desk",
+  "OrgNrText": "1043875",
+  "InterAreaPrefix": "aut",
+  "DialInPrefix": "accusantium",
+  "ZipPrefix": "quae",
+  "DomainName": "Rodriguez, Haley and Tromp",
+  "AddressLayoutId": 218,
+  "DomesticAddressLayoutId": 364,
+  "ForeignAddressLayoutId": 369,
+  "Rank": 771,
+  "Tooltip": "ipsam",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 736
+      "FieldType": "System.String",
+      "FieldLength": 748
     }
   }
 }

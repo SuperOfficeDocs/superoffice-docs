@@ -81,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 164,
+  "DocumentId": 988,
   "AllowedReturnTypes": [
-    "officiis",
-    "at"
+    "aut",
+    "fugit"
   ]
 }
 ```
@@ -97,17 +97,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Greenfelder Group",
-    "DisplayName": "Medhurst, Sipes and Schultz",
+    "Name": "Luettgen-D'Amore",
+    "DisplayName": "Considine LLC",
     "DisplayTooltip": "inventore",
-    "IconHint": "harum",
+    "IconHint": "fugiat",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Greenfelder Group",
-    "DisplayName": "Medhurst, Sipes and Schultz",
+    "Name": "Luettgen-D'Amore",
+    "DisplayName": "Considine LLC",
     "DisplayTooltip": "inventore",
-    "IconHint": "harum",
+    "IconHint": "fugiat",
     "ReturnType": "CustomGui"
   }
 ]

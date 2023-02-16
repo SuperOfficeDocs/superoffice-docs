@@ -86,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Address": "est"
+  "Address": "maxime"
 }
 ```
 
@@ -98,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 373,
-    "ContactName": "Paucek-Kreiger",
-    "PersonId": 128,
-    "PersonName": "Baumbach-Wunsch",
-    "AssociateId": 40,
-    "Address": "sunt",
-    "EmailId": 363,
+    "ContactId": 925,
+    "ContactName": "Franecki Inc and Sons",
+    "PersonId": 604,
+    "PersonName": "Runolfsson-Lindgren",
+    "AssociateId": 476,
+    "Address": "ad",
+    "EmailId": 87,
     "DuplicatePersonIds": [
-      335,
-      918
+      210,
+      655
     ],
-    "Name": "Lockman-Borer",
+    "Name": "Collier-Mills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 4
+        "FieldType": "System.Int32",
+        "FieldLength": 1001
       }
     }
   }

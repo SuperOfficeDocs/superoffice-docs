@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 494,
-    "Name": "Runte Inc and Sons",
-    "ToolTip": "Quis dignissimos repellendus dignissimos velit quia.",
-    "Deleted": true,
-    "Rank": 415,
-    "Type": "modi",
-    "ColorBlock": 689,
-    "IconHint": "velit",
+    "Id": 167,
+    "Name": "Effertz-Gutkowski",
+    "ToolTip": "Eum debitis incidunt non.",
+    "Deleted": false,
+    "Rank": 322,
+    "Type": "molestiae",
+    "ColorBlock": 763,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2010-09-21T11:22:46.0535201+02:00",
+    "LastChanged": "2009-12-01T14:19:11.3836521+01:00",
     "ChildItems": [
       {
-        "Id": 643,
-        "Name": "Bradtke-Gulgowski",
-        "ToolTip": "Nobis et suscipit debitis aspernatur placeat omnis.",
-        "Deleted": true,
-        "Rank": 278,
-        "Type": "adipisci",
-        "ColorBlock": 303,
-        "IconHint": "sint",
-        "Selected": true,
-        "LastChanged": "2021-01-20T11:22:46.0535201+01:00",
+        "Id": 578,
+        "Name": "Prohaska Inc and Sons",
+        "ToolTip": "Voluptatem sint.",
+        "Deleted": false,
+        "Rank": 970,
+        "Type": "at",
+        "ColorBlock": 295,
+        "IconHint": "rem",
+        "Selected": false,
+        "LastChanged": "2021-10-13T14:19:11.3836521+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "provident",
-        "Hidden": true,
-        "FullName": "Miss Mathias Jamel Schaefer",
+        "ExtraInfo": "possimus",
+        "StyleHint": "nihil",
+        "Hidden": false,
+        "FullName": "Nelson Lynch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 39
+            "FieldLength": 78
           }
         }
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "molestiae",
-    "Hidden": true,
-    "FullName": "Jo Reichert",
+    "ExtraInfo": "ut",
+    "StyleHint": "porro",
+    "Hidden": false,
+    "FullName": "Desiree Kessler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 911
+        "FieldType": "System.String",
+        "FieldLength": 512
       }
     }
   }

@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 816,
-    "Name": "Lakin, Fisher and Schroeder",
-    "Tooltip": "voluptatum",
-    "Deleted": true,
-    "UdListDefinitionId": 890,
-    "Rank": 901
+    "Id": 603,
+    "Name": "Boyle-Ruecker",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "UdListDefinitionId": 563,
+    "Rank": 398
   },
   {
-    "Id": 816,
-    "Name": "Lakin, Fisher and Schroeder",
-    "Tooltip": "voluptatum",
-    "Deleted": true,
-    "UdListDefinitionId": 890,
-    "Rank": 901
+    "Id": 603,
+    "Name": "Boyle-Ruecker",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "UdListDefinitionId": 563,
+    "Rank": 398
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 328,
-    "Name": "Hodkiewicz, Thompson and Ullrich",
-    "Tooltip": "neque",
+    "Id": 914,
+    "Name": "Gislason LLC",
+    "Tooltip": "aut",
     "Deleted": true,
-    "UdListDefinitionId": 944,
-    "Rank": 979,
+    "UdListDefinitionId": 698,
+    "Rank": 486,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 966
+        "FieldType": "System.String",
+        "FieldLength": 195
       }
     }
   }

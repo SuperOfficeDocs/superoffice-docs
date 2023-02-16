@@ -119,8 +119,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 131,
-  "Name": "Mills, Bartell and Collier",
+  "SelectionId": 979,
+  "Name": "Goyette-Krajcik",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Networked intangible success",
-  "Postit": "aut",
+  "Description": "Programmable methodical info-mediaries",
+  "Postit": "nemo",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 674,
-  "IncludePerson": 348,
-  "MemberCount": 227,
-  "Name": "Paucek-Grant",
-  "PostitTextId": 348,
-  "CreatedDate": "1996-06-14T11:22:39.2894808+02:00",
-  "SelectionId": 777,
-  "SoundEx": "officiis",
-  "Source": 129,
-  "TextId": 500,
-  "UpdatedDate": "2004-03-23T11:22:39.2894808+01:00",
-  "UpdatedCount": 473,
-  "Visibility": 228,
+  "GroupIdx": 923,
+  "IncludePerson": 603,
+  "MemberCount": 346,
+  "Name": "Wilderman LLC",
+  "PostitTextId": 8,
+  "CreatedDate": "2003-06-06T14:19:04.1723543+02:00",
+  "SelectionId": 648,
+  "SoundEx": "accusamus",
+  "Source": 966,
+  "TextId": 821,
+  "UpdatedDate": "2011-07-27T14:19:04.1723543+02:00",
+  "UpdatedCount": 667,
+  "Visibility": 492,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 905,
-  "TargetTableName": "Goldner-Schinner",
+  "TargetTableNumber": 303,
+  "TargetTableName": "Hills, Bayer and Beier",
   "Completed": false,
-  "LeftSelectionId": 560,
-  "RightSelectionId": 900,
+  "LeftSelectionId": 729,
+  "RightSelectionId": 197,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Block-Kling",
-  "ShadowProviderName": "Schaden, Becker and Hermann",
-  "ChartKey": "ratione",
-  "LastLoaded": "2005-02-06T11:22:39.2894808+01:00",
-  "LastLoadedBy": 993,
+  "MainProviderName": "Romaguera Group",
+  "ShadowProviderName": "Jacobs-Hansen",
+  "ChartKey": "et",
+  "LastLoaded": "1997-02-05T14:19:04.1723543+01:00",
+  "LastLoadedBy": 251,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-12-07T11:22:39.2894808+01:00",
-  "LastMembershipChangeBy": 453,
+  "LastMembershipChange": "2008-07-14T14:19:04.1723543+02:00",
+  "LastMembershipChangeBy": 125,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aut",
-  "MemberTabHeading": "est",
-  "MailingsProviderName": "Stamm-Anderson",
-  "DashboardTileDefinitionId": 92,
+  "MainHeading": "doloremque",
+  "MemberTabHeading": "expedita",
+  "MailingsProviderName": "Russel-Lemke",
+  "DashboardTileDefinitionId": 112,
   "VisibleFor": [
     {
-      "VisibleId": 466,
+      "VisibleId": 559,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 489
+          "FieldLength": 975
         }
       }
     },
     {
-      "VisibleId": 466,
+      "VisibleId": 559,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 489
+          "FieldLength": 975
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldLength": 932
     }
   }
 }

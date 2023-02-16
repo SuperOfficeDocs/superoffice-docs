@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/Business/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 253,
-  "Name": "Langworth-Kessler",
-  "Tooltip": "laboriosam",
-  "Deleted": false,
-  "UdListDefinitionId": 37,
-  "Rank": 433,
+  "Id": 876,
+  "Name": "Stokes Group",
+  "Tooltip": "culpa",
+  "Deleted": true,
+  "UdListDefinitionId": 787,
+  "Rank": 232,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 58
+      "FieldLength": 698
     }
   }
 }

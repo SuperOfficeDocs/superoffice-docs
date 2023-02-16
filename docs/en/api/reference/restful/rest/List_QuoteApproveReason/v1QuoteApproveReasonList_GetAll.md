@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 629,
-    "Name": "Lehner LLC",
-    "Tooltip": "nulla",
+    "Id": 41,
+    "Name": "Dibbert LLC",
+    "Tooltip": "rem",
     "Deleted": false,
-    "UdListDefinitionId": 685,
-    "Rank": 615,
+    "UdListDefinitionId": 163,
+    "Rank": 110,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 833
+        "FieldLength": 277
       }
     }
   }

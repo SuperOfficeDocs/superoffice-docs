@@ -25,7 +25,7 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=225
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=135
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Relation/GetContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 17,
-  "SourcePersonId": 656,
-  "DestinationContactId": 785,
-  "DestinationPersonId": 11,
-  "RelationId": 482,
-  "Comment": "vero",
-  "RelationDefinitionId": 333,
-  "Reversed": 869,
-  "UpdatedDate": "2001-06-08T11:22:38.9614314+02:00",
-  "CreatedDate": "2015-07-24T11:22:38.9614314+02:00",
+  "SourceContactId": 811,
+  "SourcePersonId": 368,
+  "DestinationContactId": 631,
+  "DestinationPersonId": 77,
+  "RelationId": 782,
+  "Comment": "incidunt",
+  "RelationDefinitionId": 604,
+  "Reversed": 131,
+  "UpdatedDate": "2007-02-11T14:19:04.0469597+01:00",
+  "CreatedDate": "1995-10-27T14:19:04.0469597+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Ondricka Group",
-  "SourcePersonName": "McDermott Inc and Sons",
-  "DestinationContactName": "Hayes Inc and Sons",
-  "DestinationPersonName": "Schulist-Reichel",
-  "ActiveText": "atque",
-  "PassiveText": "quia",
+  "SourceContactName": "King-Johns",
+  "SourcePersonName": "Bruen, Schroeder and Greenholt",
+  "DestinationContactName": "Strosin Group",
+  "DestinationPersonName": "Pollich-Prosacco",
+  "ActiveText": "et",
+  "PassiveText": "debitis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 948
+      "FieldType": "System.Int32",
+      "FieldLength": 876
     }
   }
 }

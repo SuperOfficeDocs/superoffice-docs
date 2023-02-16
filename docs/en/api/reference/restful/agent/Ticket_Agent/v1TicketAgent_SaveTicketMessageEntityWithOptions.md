@@ -71,7 +71,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
   "Notify": false,
   "AttachmentIds": [
-    850,
-    185
+    18,
+    266
   ]
 }
 ```
@@ -118,28 +118,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 270,
+  "EjMessageId": 607,
   "Ticket": null,
-  "CreatedAt": "2022-06-27T11:22:39.5550468+02:00",
+  "CreatedAt": "2011-04-16T14:19:04.501577+02:00",
   "CreatedBy": null,
-  "Author": "suscipit",
+  "Author": "vitae",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "omnis",
-  "TimeSpent": 142,
-  "Body": "dignissimos",
-  "HtmlBody": "laborum",
-  "EmailHeader": "orpha@harvey.com",
-  "DebugInfo": "consequatur",
-  "MailSorter": "odio",
+  "MessageId": "ut",
+  "TimeSpent": 462,
+  "Body": "voluptate",
+  "HtmlBody": "et",
+  "EmailHeader": "fabiola@hirthewalsh.com",
+  "DebugInfo": "porro",
+  "MailSorter": "et",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "explicabo",
+  "SearchTitle": "vel",
   "MessageHeaders": [
     {
-      "Id": 444,
-      "Name": "Rempel Inc and Sons",
-      "Value": "quia",
+      "Id": 94,
+      "Name": "Friesen LLC",
+      "Value": "vel",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -147,47 +147,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 425
+          "FieldLength": 280
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "amet",
-  "Sentiment": 85,
-  "SentimentConfidence": 444,
+  "Important": false,
+  "Language": "repudiandae",
+  "Sentiment": 260,
+  "SentimentConfidence": 2,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 557,
-      "Name": "Jacobs, Schaden and Conroy",
-      "ContentType": "repudiandae",
-      "AttSize": 900,
+      "AttachmentId": 810,
+      "Name": "Kunde-Abernathy",
+      "ContentType": "aut",
+      "AttSize": 549,
       "InlineImage": true,
-      "ContentId": "quis",
+      "ContentId": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 286
+          "FieldType": "System.String",
+          "FieldLength": 903
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "eveniet",
-    "ExtraFields2": "id"
+    "ExtraFields1": "non",
+    "ExtraFields2": "voluptatibus"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "doloribus"
+    "CustomFields1": "libero",
+    "CustomFields2": "modi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldLength": 373
     }
   }
 }

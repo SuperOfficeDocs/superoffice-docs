@@ -61,7 +61,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,30 +72,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gislason, Bechtelar and Lebsack",
-    "Description": "Phased incremental utilisation",
+    "Name": "Kuhlman Inc and Sons",
+    "Description": "Front-line homogeneous algorithm",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 771,
-        "Tooltip": "exercitationem",
-        "CanAssign": false,
-        "Free": 743,
-        "InUse": 511,
+        "Total": 609,
+        "Tooltip": "nemo",
+        "CanAssign": true,
+        "Free": 880,
+        "InUse": 428,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 419,
-        "Name": "Senger Group",
-        "Description": "Balanced impactful structure",
-        "PrerequisiteModuleName": "Goodwin, Littel and Weissnat",
-        "SortOrder": 852,
-        "ExtraFlags": 771,
+        "ModuleLicenseId": 331,
+        "Name": "Ziemann Group",
+        "Description": "Public-key bandwidth-monitored concept",
+        "PrerequisiteModuleName": "Haley-Daniel",
+        "SortOrder": 290,
+        "ExtraFlags": 475,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 495
+            "FieldLength": 307
           }
         }
       }
@@ -103,25 +103,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 761,
-        "Tooltip": "et",
+        "Total": 535,
+        "Tooltip": "nesciunt",
         "CanAssign": false,
-        "Free": 225,
-        "InUse": 88,
-        "IsHidden": false,
+        "Free": 20,
+        "InUse": 191,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 548,
-        "Name": "Nikolaus Inc and Sons",
-        "Description": "Public-key value-added structure",
-        "PrerequisiteModuleName": "Johnson Group",
-        "SortOrder": 95,
-        "ExtraFlags": 77,
+        "ModuleLicenseId": 280,
+        "Name": "Turcotte Inc and Sons",
+        "Description": "Cloned context-sensitive matrix",
+        "PrerequisiteModuleName": "Sipes Group",
+        "SortOrder": 821,
+        "ExtraFlags": 179,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 379
+            "FieldLength": 311
           }
         }
       }
@@ -131,35 +131,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 755
+        "FieldLength": 55
       }
     }
   },
   {
-    "Name": "Gislason, Bechtelar and Lebsack",
-    "Description": "Phased incremental utilisation",
+    "Name": "Kuhlman Inc and Sons",
+    "Description": "Front-line homogeneous algorithm",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 771,
-        "Tooltip": "exercitationem",
-        "CanAssign": false,
-        "Free": 743,
-        "InUse": 511,
+        "Total": 609,
+        "Tooltip": "nemo",
+        "CanAssign": true,
+        "Free": 880,
+        "InUse": 428,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 419,
-        "Name": "Senger Group",
-        "Description": "Balanced impactful structure",
-        "PrerequisiteModuleName": "Goodwin, Littel and Weissnat",
-        "SortOrder": 852,
-        "ExtraFlags": 771,
+        "ModuleLicenseId": 331,
+        "Name": "Ziemann Group",
+        "Description": "Public-key bandwidth-monitored concept",
+        "PrerequisiteModuleName": "Haley-Daniel",
+        "SortOrder": 290,
+        "ExtraFlags": 475,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 495
+            "FieldLength": 307
           }
         }
       }
@@ -167,25 +167,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 761,
-        "Tooltip": "et",
+        "Total": 535,
+        "Tooltip": "nesciunt",
         "CanAssign": false,
-        "Free": 225,
-        "InUse": 88,
-        "IsHidden": false,
+        "Free": 20,
+        "InUse": 191,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 548,
-        "Name": "Nikolaus Inc and Sons",
-        "Description": "Public-key value-added structure",
-        "PrerequisiteModuleName": "Johnson Group",
-        "SortOrder": 95,
-        "ExtraFlags": 77,
+        "ModuleLicenseId": 280,
+        "Name": "Turcotte Inc and Sons",
+        "Description": "Cloned context-sensitive matrix",
+        "PrerequisiteModuleName": "Sipes Group",
+        "SortOrder": 821,
+        "ExtraFlags": 179,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 379
+            "FieldLength": 311
           }
         }
       }
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 755
+        "FieldLength": 55
       }
     }
   }

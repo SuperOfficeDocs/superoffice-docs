@@ -78,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 863,
-  "Name": "Williamson, McGlynn and Lind",
-  "Tooltip": "animi",
-  "Deleted": false,
-  "Rank": 405,
-  "UdListDefinitionId": 514
+  "HeadingId": 563,
+  "Name": "Stanton, Ratke and Marquardt",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 145,
+  "UdListDefinitionId": 992
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 782,
-  "Name": "Jewess Group",
-  "Tooltip": "dolor",
-  "Deleted": false,
-  "Rank": 655,
-  "UdListDefinitionId": 138,
+  "HeadingId": 113,
+  "Name": "Christiansen, Mraz and Kulas",
+  "Tooltip": "dolores",
+  "Deleted": true,
+  "Rank": 134,
+  "UdListDefinitionId": 129,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldType": "System.String",
+      "FieldLength": 132
     }
   }
 }

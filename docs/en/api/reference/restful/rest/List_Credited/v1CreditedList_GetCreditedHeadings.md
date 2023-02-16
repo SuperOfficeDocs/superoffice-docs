@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 579,
-    "Name": "Windler LLC",
-    "Tooltip": "possimus",
+    "HeadingId": 323,
+    "Name": "Thompson Group",
+    "Tooltip": "ea",
     "Deleted": false,
-    "Rank": 709,
-    "UdListDefinitionId": 173,
+    "Rank": 789,
+    "UdListDefinitionId": 731,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 983
+        "FieldType": "System.Int32",
+        "FieldLength": 168
       }
     }
   }

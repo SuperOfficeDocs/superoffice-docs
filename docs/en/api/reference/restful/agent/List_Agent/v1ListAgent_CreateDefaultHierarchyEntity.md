@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,46 +75,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 781,
+  "HierarchyId": 344,
   "Domain": "Dashboards",
-  "Name": "Wiegand, Daugherty and Fadel",
-  "Fullname": "et",
-  "ParentId": 284,
+  "Name": "Green LLC",
+  "Fullname": "iure",
+  "ParentId": 679,
   "Children": [
     {
-      "HierarchyId": 593,
+      "HierarchyId": 614,
       "Domain": "Dashboards",
-      "Name": "Jast, Ledner and Homenick",
-      "Fullname": "et",
-      "ParentId": 209,
+      "Name": "Paucek Inc and Sons",
+      "Fullname": "neque",
+      "ParentId": 384,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2013-06-21T11:22:38.5240368+02:00",
-      "RegisteredAssociateId": 743,
-      "Updated": "2018-10-21T11:22:38.5240368+02:00",
-      "UpdatedAssociateId": 279,
+      "Registered": "2014-08-20T14:19:03.6863742+02:00",
+      "RegisteredAssociateId": 724,
+      "Updated": "2014-12-20T14:19:03.6863742+01:00",
+      "UpdatedAssociateId": 840,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 659
+          "FieldType": "System.String",
+          "FieldLength": 851
         }
       }
     }
   ],
-  "Registered": "2008-05-26T11:22:38.5240368+02:00",
-  "RegisteredAssociateId": 812,
-  "Updated": "2008-04-25T11:22:38.5240368+02:00",
-  "UpdatedAssociateId": 708,
+  "Registered": "2005-01-03T14:19:03.6863742+01:00",
+  "RegisteredAssociateId": 830,
+  "Updated": "2017-02-19T14:19:03.6863742+01:00",
+  "UpdatedAssociateId": 558,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 794
+      "FieldType": "System.String",
+      "FieldLength": 74
     }
   }
 }

@@ -92,12 +92,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 83,
-  "Name": "Kulas, Sporer and Lynch",
-  "ContentType": "ipsa",
-  "AttSize": 174,
+  "AttachmentId": 858,
+  "Name": "Price-Sanford",
+  "ContentType": "non",
+  "AttSize": 185,
   "InlineImage": false,
-  "ContentId": "soluta"
+  "ContentId": "nam"
 }
 ```
 
@@ -108,23 +108,23 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 346,
-  "Name": "Torphy-Harvey",
-  "ContentType": "saepe",
-  "AttSize": 532,
+  "AttachmentId": 769,
+  "Name": "Sanford-Schulist",
+  "ContentType": "enim",
+  "AttSize": 994,
   "InlineImage": false,
-  "ContentId": "assumenda",
+  "ContentId": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 721
+      "FieldLength": 434
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

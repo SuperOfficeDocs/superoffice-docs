@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 406,
-  "SourcePersonId": 602,
-  "DestinationContactId": 619,
-  "DestinationPersonId": 823,
-  "RelationId": 453,
-  "Comment": "minima",
-  "RelationDefinitionId": 838,
-  "Reversed": 250,
-  "UpdatedDate": "2002-03-30T11:22:38.9458129+01:00",
-  "CreatedDate": "2007-11-25T11:22:38.9458129+01:00",
+  "SourceContactId": 908,
+  "SourcePersonId": 652,
+  "DestinationContactId": 835,
+  "DestinationPersonId": 609,
+  "RelationId": 673,
+  "Comment": "explicabo",
+  "RelationDefinitionId": 535,
+  "Reversed": 817,
+  "UpdatedDate": "2021-04-22T14:19:04.0469597+02:00",
+  "CreatedDate": "2014-01-13T14:19:04.0469597+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Leuschke, Ankunding and Schmidt",
-  "SourcePersonName": "Smitham-McKenzie",
-  "DestinationContactName": "Lubowitz LLC",
-  "DestinationPersonName": "Eichmann Group",
-  "ActiveText": "molestiae",
-  "PassiveText": "esse",
+  "SourceContactName": "Abbott, Bergnaum and Rowe",
+  "SourcePersonName": "Boyle-Heller",
+  "DestinationContactName": "Rippin Inc and Sons",
+  "DestinationPersonName": "Blanda, Collins and Mohr",
+  "ActiveText": "ut",
+  "PassiveText": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldLength": 168
     }
   }
 }

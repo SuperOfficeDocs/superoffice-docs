@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -108,37 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 886,
-  "Name": "Altenwerth-Zemlak",
-  "AssociateId": 923,
-  "DetailsTable": 564,
-  "DetailsRecord": 450,
-  "IsSystemTask": true,
+  "Id": 651,
+  "Name": "Jacobson, Kris and Predovic",
+  "AssociateId": 169,
+  "DetailsTable": 484,
+  "DetailsRecord": 397,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "magni",
-    "ParameterObject2": "in"
+    "ParameterObject1": "aut",
+    "ParameterObject2": "suscipit"
   },
-  "LastStarted": "2010-07-31T11:22:38.9926773+02:00",
-  "Created": "2009-07-10T11:22:38.9926773+02:00",
-  "StartCount": 735,
-  "DatabaseSerialNumber": "1259747",
-  "Context": "et",
-  "Result": "ipsa",
+  "LastStarted": "2021-03-08T14:19:04.0782101+01:00",
+  "Created": "1999-05-27T14:19:04.0782101+02:00",
+  "StartCount": 191,
+  "DatabaseSerialNumber": "1301678",
+  "Context": "reprehenderit",
+  "Result": "quia",
   "State": "All",
-  "Description": "Open-architected executive internet solution",
-  "Response": "vel",
-  "Request": "laudantium",
-  "ProgressDescription": "Persevering real-time capability",
-  "ProgressPercent": 826,
-  "FileName": "Rogahn Inc and Sons",
+  "Description": "Devolved tangible implementation",
+  "Response": "ipsum",
+  "Request": "ea",
+  "ProgressDescription": "Cross-group needs-based contingency",
+  "ProgressPercent": 679,
+  "FileName": "McGlynn-Walter",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 945
+      "FieldType": "System.Int32",
+      "FieldLength": 841
     }
   }
 }

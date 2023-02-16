@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 746,
-  "Name": "Farrell, Raynor and Krajcik",
+  "ScreenChooserId": 134,
+  "Name": "Ward-Harris",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "excepturi",
-  "Source": "aspernatur",
-  "Registered": "2000-10-17T11:22:45.3661887+02:00",
-  "RegisteredAssociateId": 880,
-  "Updated": "2014-08-22T11:22:45.3661887+02:00",
-  "UpdatedAssociateId": 26,
+  "UniqueIdentifier": "nobis",
+  "Source": "deserunt",
+  "Registered": "1997-11-22T14:19:10.912356+01:00",
+  "RegisteredAssociateId": 723,
+  "Updated": "2004-08-30T14:19:10.912356+02:00",
+  "UpdatedAssociateId": 224,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 556
+      "FieldType": "System.Int32",
+      "FieldLength": 897
     }
   }
 }

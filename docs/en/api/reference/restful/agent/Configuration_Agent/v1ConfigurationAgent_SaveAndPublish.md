@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,28 +99,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 622,
-  "Name": "Schimmel LLC",
-  "Description": "Sharable encompassing info-mediaries",
-  "DeltaJson": "omnis",
+  "ConfigurableScreenDeltaId": 15,
+  "Name": "Bechtelar-Cummings",
+  "Description": "User-centric non-volatile parallelism",
+  "DeltaJson": "tenetur",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "error",
-  "UpdatedDate": "2020-10-01T11:22:37.6179991+02:00",
-  "CreatedDate": "2002-12-16T11:22:37.6179991+01:00",
+  "RecipeId": "autem",
+  "UpdatedDate": "1999-02-14T14:19:02.9324043+01:00",
+  "CreatedDate": "2000-07-29T14:19:02.9324043+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    420,
-    808
+    563,
+    822
   ],
-  "AppliesToKey": "id",
+  "AppliesToKey": "veritatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 926
+      "FieldType": "System.Int32",
+      "FieldLength": 624
     }
   }
 }

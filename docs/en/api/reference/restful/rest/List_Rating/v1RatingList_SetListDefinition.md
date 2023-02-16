@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 449,
-  "Name": "Thiel, Williamson and Nicolas",
-  "Tooltip": "et",
+  "Id": 918,
+  "Name": "Balistreri-Schuster",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 549,
-  "IsCustomList": false,
+  "Rank": 592,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "at",
+  "UseGroupsAndHeadings": false,
+  "ListType": "dolores",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 139,
-  "Name": "Cummerata-Klein",
-  "Tooltip": "nihil",
+  "Id": 102,
+  "Name": "Mueller-Lind",
+  "Tooltip": "fugiat",
   "Deleted": false,
-  "Rank": 262,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 204,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "architecto",
+  "ListType": "non",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 675
+      "FieldLength": 669
     }
   }
 }

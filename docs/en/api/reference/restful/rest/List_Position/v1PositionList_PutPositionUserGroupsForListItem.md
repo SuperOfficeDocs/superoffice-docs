@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 700,
-    "Name": "Barton, Crooks and Luettgen",
-    "ToolTip": "Est molestiae consequatur consequatur aut fuga dolor.",
+    "Id": 945,
+    "Name": "Raynor Inc and Sons",
+    "ToolTip": "Consequatur provident quo consequuntur ea ratione doloribus.",
     "Deleted": false,
-    "Rank": 988,
-    "Type": "libero",
-    "ColorBlock": 602,
-    "IconHint": "qui",
+    "Rank": 886,
+    "Type": "assumenda",
+    "ColorBlock": 713,
+    "IconHint": "eaque",
     "Selected": false,
-    "LastChanged": "2020-04-01T11:22:45.991037+02:00",
+    "LastChanged": "2011-07-21T14:19:11.3367817+02:00",
     "ChildItems": [
       {
-        "Id": 50,
-        "Name": "Lemke-Harber",
-        "ToolTip": "Est numquam architecto eaque.",
-        "Deleted": true,
-        "Rank": 531,
-        "Type": "veritatis",
-        "ColorBlock": 653,
-        "IconHint": "qui",
+        "Id": 129,
+        "Name": "Denesik-Larkin",
+        "ToolTip": "Quod aut quae amet consequuntur sint.",
+        "Deleted": false,
+        "Rank": 68,
+        "Type": "voluptatem",
+        "ColorBlock": 187,
+        "IconHint": "repudiandae",
         "Selected": false,
-        "LastChanged": "2013-03-30T11:22:45.991037+01:00",
+        "LastChanged": "2014-09-23T14:19:11.3367817+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "nostrum",
-        "Hidden": false,
-        "FullName": "Miss Andreane Rutherford"
+        "ExtraInfo": "consequatur",
+        "StyleHint": "exercitationem",
+        "Hidden": true,
+        "FullName": "Ulices Nikolaus"
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "ut",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "molestias",
     "Hidden": false,
-    "FullName": "Maxwell Crona"
+    "FullName": "Susanna Schoen"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 441,
-    "Name": "Stroman, Block and Hettinger",
-    "ToolTip": "Sit et optio consequatur necessitatibus inventore totam est.",
+    "Id": 900,
+    "Name": "McCullough, Heller and Sauer",
+    "ToolTip": "Quibusdam est sed tempora sit.",
     "Deleted": false,
-    "Rank": 643,
-    "Type": "id",
-    "ColorBlock": 670,
-    "IconHint": "perferendis",
-    "Selected": true,
-    "LastChanged": "2001-09-19T11:22:45.991037+02:00",
+    "Rank": 656,
+    "Type": "occaecati",
+    "ColorBlock": 922,
+    "IconHint": "assumenda",
+    "Selected": false,
+    "LastChanged": "2005-04-04T14:19:11.3367817+02:00",
     "ChildItems": [
       {
-        "Id": 97,
-        "Name": "Towne-Konopelski",
-        "ToolTip": "Et porro quos possimus facilis quia rerum voluptate.",
+        "Id": 16,
+        "Name": "Jones Inc and Sons",
+        "ToolTip": "Blanditiis dolorum.",
         "Deleted": false,
-        "Rank": 263,
-        "Type": "quae",
-        "ColorBlock": 254,
-        "IconHint": "perspiciatis",
-        "Selected": false,
-        "LastChanged": "2010-04-02T11:22:45.991037+02:00",
+        "Rank": 746,
+        "Type": "et",
+        "ColorBlock": 773,
+        "IconHint": "aspernatur",
+        "Selected": true,
+        "LastChanged": "2003-05-03T14:19:11.3367817+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "quia",
+        "ExtraInfo": "sed",
+        "StyleHint": "similique",
         "Hidden": false,
-        "FullName": "Rosendo Waters",
+        "FullName": "Micaela Hayes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 738
+            "FieldType": "System.Int32",
+            "FieldLength": 862
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "suscipit",
+    "ExtraInfo": "dolor",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Bennie Rosenbaum",
+    "FullName": "Laura Rogahn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 862
+        "FieldLength": 799
       }
     }
   }

@@ -69,13 +69,13 @@ OK
 POST /api/v1/Agents/Document/GetTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Bergnaum LLC",
+  "TemplateName": "Wiza, O'Keefe and Yundt",
   "AllowPersonal": false,
-  "UiCulture": "aut"
+  "UiCulture": "quibusdam"
 }
 ```
 

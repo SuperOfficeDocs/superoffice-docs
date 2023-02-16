@@ -67,15 +67,15 @@ No Content
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 295,
-  "EmailAddress": "jarvis_labadie@lakin.name",
-  "EmailTemplateId": 794,
-  "CultureLcidId": 44,
-  "Subject": "nostrum"
+  "PersonId": 260,
+  "EmailAddress": "alvah_swift@wiegand.name",
+  "EmailTemplateId": 618,
+  "CultureLcidId": 358,
+  "Subject": "et"
 }
 ```
 

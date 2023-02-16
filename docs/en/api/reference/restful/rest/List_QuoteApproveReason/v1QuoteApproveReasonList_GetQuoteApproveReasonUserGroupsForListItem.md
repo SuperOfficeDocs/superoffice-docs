@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 862,
-    "Name": "Bechtelar-Gorczany",
-    "ToolTip": "Nesciunt voluptas neque ducimus voluptatum.",
+    "Id": 499,
+    "Name": "Reichel LLC",
+    "ToolTip": "Sapiente omnis vel quia sunt deleniti.",
     "Deleted": false,
-    "Rank": 778,
-    "Type": "consequatur",
-    "ColorBlock": 579,
-    "IconHint": "quia",
+    "Rank": 74,
+    "Type": "qui",
+    "ColorBlock": 247,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "2003-03-24T11:22:46.0847653+01:00",
+    "LastChanged": "2018-09-10T14:19:11.4149038+02:00",
     "ChildItems": [
       {
-        "Id": 800,
-        "Name": "Swaniawski Group",
-        "ToolTip": "Qui et soluta laboriosam aut non sed velit.",
-        "Deleted": false,
-        "Rank": 185,
-        "Type": "deleniti",
-        "ColorBlock": 28,
-        "IconHint": "commodi",
-        "Selected": true,
-        "LastChanged": "2006-03-10T11:22:46.0847653+01:00",
+        "Id": 221,
+        "Name": "Runolfsdottir-Spencer",
+        "ToolTip": "Recusandae quidem maiores est voluptas facilis.",
+        "Deleted": true,
+        "Rank": 84,
+        "Type": "velit",
+        "ColorBlock": 667,
+        "IconHint": "quod",
+        "Selected": false,
+        "LastChanged": "2013-06-05T14:19:11.4149038+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "perferendis",
+        "ExtraInfo": "rerum",
+        "StyleHint": "soluta",
         "Hidden": false,
-        "FullName": "Miss Jaqueline Rempel III",
+        "FullName": "Chelsie Bahringer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 924
+            "FieldType": "System.Int32",
+            "FieldLength": 954
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "vel",
+    "ExtraInfo": "vel",
+    "StyleHint": "ex",
     "Hidden": true,
-    "FullName": "Sarah Rolfson",
+    "FullName": "Genoveva Rau",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldLength": 693
       }
     }
   }

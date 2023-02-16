@@ -103,7 +103,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 235,
-  "ColumnId": 796,
-  "FieldDefault": "modi",
-  "FieldHeight": 38,
-  "FieldLabel": "pariatur",
-  "FieldLeft": 201,
-  "FieldTop": 107,
+  "UDefFieldId": 426,
+  "ColumnId": 912,
+  "FieldDefault": "non",
+  "FieldHeight": 735,
+  "FieldLabel": "quidem",
+  "FieldLeft": 195,
+  "FieldTop": 762,
   "FieldType": "Checkbox",
-  "FieldWidth": 491,
-  "FormatMask": "recusandae",
-  "HideLabel": true,
+  "FieldWidth": 578,
+  "FormatMask": "sunt",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 870,
-  "LabelLeft": 825,
-  "LabelTop": 657,
-  "LabelWidth": 693,
-  "LastVersionId": 394,
-  "ListTableId": 499,
-  "IsMandatory": false,
+  "LabelHeight": 251,
+  "LabelLeft": 532,
+  "LabelTop": 7,
+  "LabelWidth": 48,
+  "LastVersionId": 594,
+  "ListTableId": 853,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 448,
-  "ProgId": "enim",
-  "IsReadOnly": true,
-  "ShortLabel": "illo",
-  "TabOrder": 174,
-  "TextLength": 59,
-  "Tooltip": "quis",
-  "UdefIdentity": 854,
-  "UDListDefinitionId": 695,
+  "Page1LineNo": 461,
+  "ProgId": "est",
+  "IsReadOnly": false,
+  "ShortLabel": "sed",
+  "TabOrder": 766,
+  "TextLength": 281,
+  "Tooltip": "libero",
+  "UdefIdentity": 454,
+  "UDListDefinitionId": 210,
   "Justification": "Center",
-  "Version": 351,
-  "TemplateVariableName": "Little-Kuphal",
+  "Version": 594,
+  "TemplateVariableName": "Parisian, Jerde and Heaney",
   "HasBeenPublished": false,
-  "MdoListName": "Leuschke-O'Keefe",
+  "MdoListName": "Gutmann, Corwin and Batz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 156
+      "FieldType": "System.Int32",
+      "FieldLength": 503
     }
   }
 }

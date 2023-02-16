@@ -104,16 +104,16 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 750,
+  "DocId": 221,
   "AttachmentIds": [
-    "ipsa",
-    "quas"
+    "inventore",
+    "error"
   ],
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -126,154 +126,154 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 422,
-      "ContactName": "Hodkiewicz Inc and Sons",
-      "PersonId": 938,
-      "PersonName": "Marquardt-Wiegand",
-      "AssociateId": 60,
-      "Address": "eum",
-      "EmailId": 649,
+      "ContactId": 370,
+      "ContactName": "Barton-Ziemann",
+      "PersonId": 675,
+      "PersonName": "O'Reilly-Batz",
+      "AssociateId": 521,
+      "Address": "aliquid",
+      "EmailId": 425,
       "DuplicatePersonIds": [
-        87,
-        960
+        619,
+        631
       ],
-      "Name": "Aufderhar, Wilkinson and Hilll",
+      "Name": "Batz, Bergstrom and Kuphal",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 448
+          "FieldType": "System.String",
+          "FieldLength": 901
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 922,
-      "ContactName": "Purdy-Quigley",
-      "PersonId": 470,
-      "PersonName": "Wiegand-Pfeffer",
-      "AssociateId": 239,
-      "Address": "deleniti",
-      "EmailId": 841,
+      "ContactId": 948,
+      "ContactName": "Nitzsche, Friesen and Olson",
+      "PersonId": 279,
+      "PersonName": "Jones, Kshlerin and Greenholt",
+      "AssociateId": 111,
+      "Address": "eum",
+      "EmailId": 149,
       "DuplicatePersonIds": [
-        302,
-        875
+        69,
+        677
       ],
-      "Name": "Considine, Rogahn and Moen",
+      "Name": "Aufderhar LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 814
+          "FieldLength": 102
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 858,
-      "ContactName": "Quitzon-McDermott",
-      "PersonId": 364,
-      "PersonName": "Osinski-Purdy",
-      "AssociateId": 553,
-      "Address": "consequuntur",
-      "EmailId": 436,
+      "ContactId": 470,
+      "ContactName": "Beer, Rowe and Von",
+      "PersonId": 944,
+      "PersonName": "Keeling-Bosco",
+      "AssociateId": 277,
+      "Address": "molestiae",
+      "EmailId": 56,
       "DuplicatePersonIds": [
-        65,
-        357
+        756,
+        128
       ],
-      "Name": "Connelly Group",
+      "Name": "Armstrong Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 497
+          "FieldLength": 868
         }
       }
     }
   ],
-  "Subject": "ducimus",
-  "HTMLBody": "laudantium",
+  "Subject": "exercitationem",
+  "HTMLBody": "pariatur",
   "From": null,
-  "Sent": "1997-06-30T11:22:38.2740943+02:00",
-  "Size": 627,
+  "Sent": "1999-05-24T14:19:03.466522+02:00",
+  "Size": 444,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "in",
-  "PlainBody": "eos",
-  "IsSent": true,
+  "MessageID": "quo",
+  "PlainBody": "illo",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 359,
+  "ServerId": 607,
   "Attachments": [
     {
-      "Description": "Intuitive logistical throughput",
-      "Filename": "saepe",
-      "Size": 554,
-      "Type": "voluptates",
-      "Encoding": "nostrum",
-      "Id": "non",
-      "Disposition": "aliquam",
+      "Description": "Re-engineered explicit leverage",
+      "Filename": "officiis",
+      "Size": 878,
+      "Type": "sed",
+      "Encoding": "repellat",
+      "Id": "et",
+      "Disposition": "ea",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 611
+          "FieldLength": 915
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Berge Inc and Sons",
+      "Name": "Littel Inc and Sons",
       "Values": [
-        "rerum",
-        "aut"
+        "incidunt",
+        "quos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 562
+          "FieldLength": 790
         }
       }
     },
     {
-      "Name": "Berge Inc and Sons",
+      "Name": "Littel Inc and Sons",
       "Values": [
-        "rerum",
-        "aut"
+        "incidunt",
+        "quos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 562
+          "FieldLength": 790
         }
       }
     }
   ],
-  "FolderName": "Emard-Hilll",
-  "EmailItemId": 986,
-  "AccountId": 680,
-  "ReceivedAt": "2010-10-04T11:22:38.2740943+02:00",
+  "FolderName": "Luettgen, Towne and Rolfson",
+  "EmailItemId": 932,
+  "AccountId": 866,
+  "ReceivedAt": "2001-11-10T14:19:03.466522+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-10-16T11:22:38.2740943+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2022-10-29T14:19:03.466522+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
+      "FieldType": "System.String",
       "FieldLength": 374
     }
   }

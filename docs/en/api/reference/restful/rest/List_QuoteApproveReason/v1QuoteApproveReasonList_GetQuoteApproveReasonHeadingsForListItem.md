@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 778,
-    "Name": "Littel, Zieme and Macejkovic",
-    "ToolTip": "Nisi sunt similique omnis quis perferendis quod voluptates.",
+    "Id": 901,
+    "Name": "Ryan, Renner and Schneider",
+    "ToolTip": "Et deleniti magnam pariatur.",
     "Deleted": false,
-    "Rank": 182,
-    "Type": "est",
-    "ColorBlock": 769,
-    "IconHint": "sit",
+    "Rank": 591,
+    "Type": "incidunt",
+    "ColorBlock": 394,
+    "IconHint": "dolore",
     "Selected": false,
-    "LastChanged": "1997-03-08T11:22:46.1003835+01:00",
+    "LastChanged": "2007-04-04T14:19:11.430529+02:00",
     "ChildItems": [
       {
-        "Id": 163,
-        "Name": "Schaefer Inc and Sons",
-        "ToolTip": "Dolorum ad.",
+        "Id": 601,
+        "Name": "Goodwin-Koch",
+        "ToolTip": "Magni quibusdam voluptate et aliquam sed.",
         "Deleted": true,
-        "Rank": 559,
-        "Type": "non",
-        "ColorBlock": 366,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2010-11-15T11:22:46.1003835+01:00",
+        "Rank": 430,
+        "Type": "omnis",
+        "ColorBlock": 610,
+        "IconHint": "eius",
+        "Selected": false,
+        "LastChanged": "2015-07-19T14:19:11.430529+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "libero",
-        "Hidden": false,
-        "FullName": "Andy Klein",
+        "ExtraInfo": "dolore",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Leta Ratke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 248
+            "FieldLength": 91
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "vel",
+    "ExtraInfo": "ab",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Delmer Jacobs",
+    "FullName": "Miss Cathrine Bashirian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 765
+        "FieldType": "System.String",
+        "FieldLength": 134
       }
     }
   }

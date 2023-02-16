@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 427,
-  "Name": "Johnson-Thompson",
-  "Tooltip": "excepturi",
+  "Id": 491,
+  "Name": "Price-Kling",
+  "Tooltip": "non",
   "Deleted": false,
-  "Rank": 69,
-  "IsCustomList": false,
+  "Rank": 113,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "cum",
+  "ListType": "inventore",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 602,
-  "Name": "Runolfsdottir Group",
-  "Tooltip": "doloremque",
-  "Deleted": false,
-  "Rank": 414,
+  "Id": 511,
+  "Name": "Waelchi LLC",
+  "Tooltip": "veritatis",
+  "Deleted": true,
+  "Rank": 265,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ex",
+  "UseGroupsAndHeadings": false,
+  "ListType": "porro",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 163
+      "FieldType": "System.Int32",
+      "FieldLength": 378
     }
   }
 }

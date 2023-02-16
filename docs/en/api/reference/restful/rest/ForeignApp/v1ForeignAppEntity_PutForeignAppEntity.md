@@ -91,27 +91,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 649,
-  "Name": "Torphy-Gutkowski",
-  "CreatedDate": "2018-06-13T11:22:44.8662479+02:00",
-  "UpdatedDate": "2017-08-28T11:22:44.8662479+02:00",
+  "ForeignAppId": 559,
+  "Name": "Howe-Jakubowski",
+  "CreatedDate": "1998-04-30T14:19:10.3498478+02:00",
+  "UpdatedDate": "1995-12-18T14:19:10.3498478+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 195,
-      "Name": "Kuvalis Group",
-      "CreatedDate": "2016-02-15T11:22:44.8662479+01:00",
-      "UpdatedDate": "1999-11-01T11:22:44.8662479+01:00",
-      "AssociateFullName": "Mr. Percy Teresa Mann",
-      "CreatedBy": "laudantium",
-      "UpdatedBy": "incidunt",
-      "DeviceIdentifier": "possimus",
-      "ForeignAppId": 429
+      "ForeignDeviceId": 621,
+      "Name": "Ullrich, Kassulke and Gerlach",
+      "CreatedDate": "1996-01-27T14:19:10.3498478+01:00",
+      "UpdatedDate": "2002-09-29T14:19:10.3498478+02:00",
+      "AssociateFullName": "Irving Austyn Crist Sr.",
+      "CreatedBy": "repellat",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "molestiae",
+      "ForeignAppId": 946
     }
   ]
 }
@@ -124,29 +124,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 301,
-  "Name": "Upton, Walter and Jacobson",
-  "CreatedDate": "2010-09-21T11:22:44.8662479+02:00",
-  "UpdatedDate": "2001-04-01T11:22:44.8662479+02:00",
+  "ForeignAppId": 76,
+  "Name": "Hintz, Corwin and Armstrong",
+  "CreatedDate": "1998-02-08T14:19:10.3498478+01:00",
+  "UpdatedDate": "2009-06-09T14:19:10.3498478+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 514,
-      "Name": "Nikolaus Inc and Sons",
-      "CreatedDate": "2007-01-31T11:22:44.8662479+01:00",
-      "UpdatedDate": "2016-12-27T11:22:44.8662479+01:00",
-      "AssociateFullName": "Dane Herzog",
-      "CreatedBy": "veritatis",
-      "UpdatedBy": "non",
-      "DeviceIdentifier": "deserunt",
-      "ForeignAppId": 592,
+      "ForeignDeviceId": 964,
+      "Name": "Hayes-Satterfield",
+      "CreatedDate": "2001-01-27T14:19:10.3498478+01:00",
+      "UpdatedDate": "1996-06-18T14:19:10.3498478+02:00",
+      "AssociateFullName": "Baylee West",
+      "CreatedBy": "laborum",
+      "UpdatedBy": "mollitia",
+      "DeviceIdentifier": "repudiandae",
+      "ForeignAppId": 878,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 401
+          "FieldLength": 973
         }
       }
     }
@@ -156,12 +156,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldLength": 751
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

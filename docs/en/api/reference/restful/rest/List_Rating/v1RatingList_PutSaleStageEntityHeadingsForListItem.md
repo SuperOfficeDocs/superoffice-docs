@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 611,
-    "Name": "Durgan, Kuhic and White",
-    "ToolTip": "Praesentium excepturi et distinctio a ullam et.",
-    "Deleted": false,
-    "Rank": 217,
-    "Type": "voluptatem",
-    "ColorBlock": 298,
-    "IconHint": "reprehenderit",
+    "Id": 298,
+    "Name": "Hamill Group",
+    "ToolTip": "Nemo facilis in illo in itaque harum.",
+    "Deleted": true,
+    "Rank": 121,
+    "Type": "eum",
+    "ColorBlock": 213,
+    "IconHint": "vero",
     "Selected": false,
-    "LastChanged": "2019-05-20T11:22:46.1160093+02:00",
+    "LastChanged": "2000-09-13T14:19:11.4557858+02:00",
     "ChildItems": [
       {
-        "Id": 935,
-        "Name": "Johnston Group",
-        "ToolTip": "Quidem quo.",
-        "Deleted": true,
-        "Rank": 923,
-        "Type": "fuga",
-        "ColorBlock": 168,
-        "IconHint": "et",
+        "Id": 690,
+        "Name": "O'Kon-Dietrich",
+        "ToolTip": "Et aut deleniti ipsa sunt placeat voluptatum qui.",
+        "Deleted": false,
+        "Rank": 862,
+        "Type": "doloremque",
+        "ColorBlock": 322,
+        "IconHint": "aliquam",
         "Selected": false,
-        "LastChanged": "1998-05-23T11:22:46.1160093+02:00",
+        "LastChanged": "2010-09-23T14:19:11.4557858+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "officiis",
-        "Hidden": true,
-        "FullName": "Lysanne Feest"
+        "ExtraInfo": "aut",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Perry Dickinson"
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "tempora",
+    "ExtraInfo": "autem",
+    "StyleHint": "animi",
     "Hidden": true,
-    "FullName": "Zackary Schmidt"
+    "FullName": "Tremayne Elmira Botsford PhD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 730,
-    "Name": "Kemmer, Dooley and Lueilwitz",
-    "ToolTip": "Quasi omnis beatae iusto autem nobis.",
+    "Id": 944,
+    "Name": "Boehm-Wiegand",
+    "ToolTip": "Odio qui consectetur error voluptate.",
     "Deleted": true,
-    "Rank": 156,
-    "Type": "quia",
-    "ColorBlock": 226,
-    "IconHint": "consequuntur",
-    "Selected": true,
-    "LastChanged": "2002-06-14T11:22:46.1316279+02:00",
+    "Rank": 369,
+    "Type": "nostrum",
+    "ColorBlock": 369,
+    "IconHint": "animi",
+    "Selected": false,
+    "LastChanged": "2009-04-11T14:19:11.4557858+02:00",
     "ChildItems": [
       {
-        "Id": 749,
-        "Name": "Buckridge-Fadel",
-        "ToolTip": "Expedita alias aliquam ut molestiae asperiores et.",
-        "Deleted": true,
-        "Rank": 750,
-        "Type": "unde",
-        "ColorBlock": 303,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2019-03-21T11:22:46.1316279+01:00",
+        "Id": 13,
+        "Name": "Zemlak-Morar",
+        "ToolTip": "Ipsum quo asperiores aut repudiandae.",
+        "Deleted": false,
+        "Rank": 369,
+        "Type": "non",
+        "ColorBlock": 250,
+        "IconHint": "totam",
+        "Selected": false,
+        "LastChanged": "1998-02-08T14:19:11.4557858+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "eaque",
+        "ExtraInfo": "qui",
+        "StyleHint": "delectus",
         "Hidden": false,
-        "FullName": "Pearline Waelchi Sr.",
+        "FullName": "Mr. Evert Spencer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 900
+            "FieldType": "System.String",
+            "FieldLength": 889
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "dolore",
+    "ExtraInfo": "accusantium",
+    "StyleHint": "labore",
     "Hidden": false,
-    "FullName": "Green Cremin",
+    "FullName": "Howell West Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 826
+        "FieldLength": 87
       }
     }
   }

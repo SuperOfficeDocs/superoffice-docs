@@ -68,7 +68,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,56 +79,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 263,
-    "Name": "Jenkins-Daugherty",
-    "ToolTip": "Quo officia commodi aut ut et odio.",
-    "Deleted": false,
-    "Rank": 774,
-    "Type": "est",
-    "ColorBlock": 351,
-    "IconHint": "natus",
+    "Id": 144,
+    "Name": "Turcotte, Turcotte and Collier",
+    "ToolTip": "Molestiae sint.",
+    "Deleted": true,
+    "Rank": 951,
+    "Type": "eius",
+    "ColorBlock": 510,
+    "IconHint": "voluptatibus",
     "Selected": false,
-    "LastChanged": "1998-06-29T11:22:45.412996+02:00",
+    "LastChanged": "2018-02-17T14:19:10.9592286+01:00",
     "ChildItems": [
       {
-        "Id": 476,
-        "Name": "DuBuque Group",
-        "ToolTip": "Aut hic quaerat molestias dolorem error.",
-        "Deleted": false,
-        "Rank": 947,
-        "Type": "nobis",
-        "ColorBlock": 65,
-        "IconHint": "mollitia",
-        "Selected": false,
-        "LastChanged": "2013-09-23T11:22:45.412996+02:00",
+        "Id": 427,
+        "Name": "Mohr, Brakus and Greenfelder",
+        "ToolTip": "Expedita eligendi aperiam nemo quis nam quia.",
+        "Deleted": true,
+        "Rank": 810,
+        "Type": "tenetur",
+        "ColorBlock": 806,
+        "IconHint": "beatae",
+        "Selected": true,
+        "LastChanged": "2003-02-02T14:19:10.9592286+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "animi",
-        "Hidden": false,
-        "FullName": "Dr. Amie Kacey Stehr",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Brayan Bernhard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 407
+            "FieldLength": 280
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "unde",
-    "Hidden": true,
-    "FullName": "Prof. Roel Florencio O'Reilly",
+    "ExtraInfo": "nihil",
+    "StyleHint": "minima",
+    "Hidden": false,
+    "FullName": "Soledad Darrin Ortiz I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 490
+        "FieldType": "System.String",
+        "FieldLength": 149
       }
     }
   }

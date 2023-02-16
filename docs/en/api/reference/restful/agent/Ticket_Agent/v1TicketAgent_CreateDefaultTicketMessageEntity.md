@@ -53,7 +53,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,28 +90,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 40,
+  "EjMessageId": 744,
   "Ticket": null,
-  "CreatedAt": "2005-06-26T11:22:39.4144523+02:00",
+  "CreatedAt": "2001-12-12T14:19:04.3922008+01:00",
   "CreatedBy": null,
-  "Author": "a",
+  "Author": "est",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 587,
-  "Body": "in",
-  "HtmlBody": "illo",
-  "EmailHeader": "leanne_koelpin@kochcrist.biz",
-  "DebugInfo": "quo",
-  "MailSorter": "similique",
+  "MessageId": "eos",
+  "TimeSpent": 30,
+  "Body": "pariatur",
+  "HtmlBody": "omnis",
+  "EmailHeader": "loyce@hackettdenesik.us",
+  "DebugInfo": "beatae",
+  "MailSorter": "sunt",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "et",
+  "SearchTitle": "odio",
   "MessageHeaders": [
     {
-      "Id": 339,
-      "Name": "Boyer, Kunde and Dietrich",
-      "Value": "aut",
+      "Id": 701,
+      "Name": "Baumbach-Fritsch",
+      "Value": "debitis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -119,47 +119,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 405
+          "FieldLength": 305
         }
       }
     }
   ],
   "Important": false,
-  "Language": "asperiores",
-  "Sentiment": 407,
-  "SentimentConfidence": 295,
+  "Language": "quo",
+  "Sentiment": 806,
+  "SentimentConfidence": 277,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 419,
-      "Name": "DuBuque, Hauck and Schulist",
-      "ContentType": "impedit",
-      "AttSize": 640,
+      "AttachmentId": 976,
+      "Name": "Mosciski, Brown and Jones",
+      "ContentType": "sint",
+      "AttSize": 920,
       "InlineImage": false,
-      "ContentId": "consequatur",
+      "ContentId": "reiciendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 5
+          "FieldType": "System.Int32",
+          "FieldLength": 918
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "totam",
-    "ExtraFields2": "autem"
+    "ExtraFields1": "magnam",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "eligendi",
-    "CustomFields2": "est"
+    "CustomFields1": "ut",
+    "CustomFields2": "exercitationem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 611
+      "FieldLength": 41
     }
   }
 }

@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Brown LLC",
-  "ProviderName": "Ondricka LLC"
+  "GuiName": "Kihn-Kautzer",
+  "ProviderName": "Windler Inc and Sons"
 }
 ```
 
@@ -96,68 +96,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Brown-Bernhard",
-      "DisplayTooltip": "consectetur",
-      "DisplayType": "repudiandae",
+      "DisplayName": "Kutch, Bechtelar and Schmitt",
+      "DisplayTooltip": "expedita",
+      "DisplayType": "aut",
       "CanOrderBy": false,
-      "Name": "Hammes-Gleichner",
-      "CanRestrictBy": false,
-      "RestrictionType": "ea",
-      "RestrictionListName": "Johns Inc and Sons",
-      "IsVisible": true,
-      "ExtraInfo": "earum",
-      "Width": "expedita",
-      "IconHint": "animi",
-      "HeadingIconHint": "quod"
+      "Name": "Zieme-Weber",
+      "CanRestrictBy": true,
+      "RestrictionType": "consequatur",
+      "RestrictionListName": "Greenholt Group",
+      "IsVisible": false,
+      "ExtraInfo": "ut",
+      "Width": "explicabo",
+      "IconHint": "sint",
+      "HeadingIconHint": "culpa"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 979,
-      "Name": "Steuber Inc and Sons",
-      "ToolTip": "Officia vel dolorem mollitia at neque.",
+      "Id": 128,
+      "Name": "Morissette Inc and Sons",
+      "ToolTip": "Vel dolores ipsam quis dolore natus velit.",
       "Deleted": false,
-      "Rank": 32,
-      "Type": "ut",
-      "ColorBlock": 82,
-      "IconHint": "nisi",
-      "Selected": false,
-      "LastChanged": "2001-12-23T11:22:37.3836264+01:00",
+      "Rank": 359,
+      "Type": "facere",
+      "ColorBlock": 680,
+      "IconHint": "in",
+      "Selected": true,
+      "LastChanged": "2002-10-04T14:19:02.7281785+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "aliquid",
+      "ExtraInfo": "sint",
+      "StyleHint": "ut",
       "Hidden": true,
-      "FullName": "Stacy Armstrong",
+      "FullName": "Ms. Elvera Mitchell",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 904
+          "FieldType": "System.Int32",
+          "FieldLength": 109
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Torp-Little",
+      "Name": "Ratke-Parisian",
       "Direction": "ASC"
     },
     {
-      "Name": "Torp-Little",
+      "Name": "Ratke-Parisian",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "in",
+  "OwnerKeys": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 285
+      "FieldLength": 502
     }
   }
 }

@@ -98,33 +98,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 357,
-  "ParentId": 89,
-  "Name": "Kihn Inc and Sons",
-  "Fullname": "et",
-  "CategoryMaster": 977,
+  "TicketCategoryId": 797,
+  "ParentId": 805,
+  "Name": "Steuber-Schuppe",
+  "Fullname": "rerum",
+  "CategoryMaster": 882,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Collins, Ziemann and Marks",
+  "ExternalName": "Rempel LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 744,
-  "ReplyTemplate": 894,
-  "NotificationEmail": "jon@morar.co.uk",
+  "AssignmentLag": 730,
+  "ReplyTemplate": 804,
+  "NotificationEmail": "arlene@reilly.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 524,
+  "EffectiveReplyTemplateId": 38,
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "praesentium"
+    "ExtraFields1": "non",
+    "ExtraFields2": "nulla"
   },
   "CustomFields": {
-    "CustomFields1": "suscipit",
-    "CustomFields2": "aut"
+    "CustomFields1": "inventore",
+    "CustomFields2": "est"
   }
 }
 ```
@@ -136,36 +136,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 654,
-  "ParentId": 74,
-  "Name": "O'Conner-Schultz",
-  "Fullname": "omnis",
-  "CategoryMaster": 59,
+  "TicketCategoryId": 426,
+  "ParentId": 758,
+  "Name": "White-Kohler",
+  "Fullname": "ipsam",
+  "CategoryMaster": 353,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Crist, Connelly and White",
+  "ExternalName": "Raynor-Adams",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 460,
-  "ReplyTemplate": 240,
-  "NotificationEmail": "leilani_leffler@prosaccomorissette.co.uk",
+  "AssignmentLag": 984,
+  "ReplyTemplate": 347,
+  "NotificationEmail": "keara.schowalter@borerhuels.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 618,
+  "EffectiveReplyTemplateId": 30,
   "ExtraFields": {
-    "ExtraFields1": "quo",
-    "ExtraFields2": "laborum"
+    "ExtraFields1": "minus",
+    "ExtraFields2": "magni"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "sequi"
+    "CustomFields1": "ea",
+    "CustomFields2": "voluptas"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 346
+      "FieldType": "System.Int32",
+      "FieldLength": 265
     }
   }
 }

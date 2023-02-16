@@ -91,7 +91,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "alias",
+  "TriggerScriptUniqueId": "voluptas",
   "Entity": null
 }
 ```
@@ -103,22 +103,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 955,
-  "Name": "Brekke, Smitham and Upton",
+  "ScreenChooserId": 202,
+  "Name": "Thompson-Beier",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "eum",
-  "Source": "est",
-  "Registered": "2010-12-23T11:22:37.7742144+01:00",
-  "RegisteredAssociateId": 751,
-  "Updated": "2020-07-13T11:22:37.7742144+02:00",
-  "UpdatedAssociateId": 426,
+  "UniqueIdentifier": "eveniet",
+  "Source": "et",
+  "Registered": "2002-04-12T14:19:03.0730293+02:00",
+  "RegisteredAssociateId": 432,
+  "Updated": "2010-05-02T14:19:03.0730293+02:00",
+  "UpdatedAssociateId": 303,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 835
+      "FieldType": "System.String",
+      "FieldLength": 397
     }
   }
 }

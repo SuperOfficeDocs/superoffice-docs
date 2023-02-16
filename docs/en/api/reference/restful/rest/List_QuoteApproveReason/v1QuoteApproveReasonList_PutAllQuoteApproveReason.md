@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Name": "Medhurst, Kub and Heller",
-    "Tooltip": "optio",
+    "Id": 256,
+    "Name": "Balistreri, Rutherford and Rempel",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "UdListDefinitionId": 444,
-    "Rank": 993
+    "UdListDefinitionId": 182,
+    "Rank": 421
   },
   {
-    "Id": 477,
-    "Name": "Medhurst, Kub and Heller",
-    "Tooltip": "optio",
+    "Id": 256,
+    "Name": "Balistreri, Rutherford and Rempel",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "UdListDefinitionId": 444,
-    "Rank": 993
+    "UdListDefinitionId": 182,
+    "Rank": 421
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 450,
-    "Name": "Feest-Dicki",
-    "Tooltip": "consequatur",
+    "Id": 520,
+    "Name": "Cronin, Barrows and Bechtelar",
+    "Tooltip": "velit",
     "Deleted": false,
-    "UdListDefinitionId": 346,
-    "Rank": 550,
+    "UdListDefinitionId": 957,
+    "Rank": 789,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 93
+        "FieldLength": 166
       }
     }
   }

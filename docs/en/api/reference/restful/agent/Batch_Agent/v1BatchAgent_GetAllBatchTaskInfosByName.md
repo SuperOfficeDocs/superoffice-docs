@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Morar Inc and Sons"
+  "TaskName": "Thompson Inc and Sons"
 }
 ```
 
@@ -109,37 +109,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 285,
-    "Name": "Parisian-O'Reilly",
-    "AssociateId": 71,
-    "DetailsTable": 492,
-    "DetailsRecord": 125,
+    "Id": 646,
+    "Name": "Bradtke Inc and Sons",
+    "AssociateId": 97,
+    "DetailsTable": 985,
+    "DetailsRecord": 970,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "inventore",
-      "ParameterObject2": "dignissimos"
+      "ParameterObject1": "voluptatum",
+      "ParameterObject2": "aliquam"
     },
-    "LastStarted": "2007-09-09T11:22:37.4461725+02:00",
-    "Created": "2002-03-07T11:22:37.4461725+01:00",
-    "StartCount": 168,
-    "DatabaseSerialNumber": "1282018",
-    "Context": "nihil",
-    "Result": "incidunt",
+    "LastStarted": "2008-05-25T14:19:02.7750538+02:00",
+    "Created": "1998-05-26T14:19:02.7750538+02:00",
+    "StartCount": 620,
+    "DatabaseSerialNumber": "1138925",
+    "Context": "occaecati",
+    "Result": "voluptas",
     "State": "All",
-    "Description": "Optimized local instruction set",
-    "Response": "maxime",
-    "Request": "illum",
-    "ProgressDescription": "Operative motivating local area network",
-    "ProgressPercent": 167,
-    "FileName": "Fadel Inc and Sons",
+    "Description": "Operative neutral secured line",
+    "Response": "quibusdam",
+    "Request": "harum",
+    "ProgressDescription": "Monitored maximized challenge",
+    "ProgressPercent": 11,
+    "FileName": "Dare-Wunsch",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1000
+        "FieldLength": 278
       }
     }
   }

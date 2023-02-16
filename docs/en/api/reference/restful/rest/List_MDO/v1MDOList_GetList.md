@@ -30,9 +30,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=sint
-GET /api/v1/MDOList/{listname}?query=est
+GET /api/v1/MDOList/{listname}?flat=True
+GET /api/v1/MDOList/{listname}?additional=sed
+GET /api/v1/MDOList/{listname}?query=nam
 ```
 
 
@@ -94,50 +94,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 182,
-    "Name": "Dare-Friesen",
-    "ToolTip": "Omnis culpa beatae hic dicta.",
-    "Deleted": true,
-    "Rank": 290,
-    "Type": "excepturi",
+    "Id": 110,
+    "Name": "Mosciski Inc and Sons",
+    "ToolTip": "Hic labore non nostrum nam quisquam.",
+    "Deleted": false,
+    "Rank": 201,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 93,
-        "Name": "Kub, Parisian and Purdy",
-        "ToolTip": "Voluptates sed qui in numquam quidem sed voluptatem.",
-        "Deleted": true,
-        "Rank": 786,
-        "Type": "voluptatem",
+        "Id": 870,
+        "Name": "Terry-Kovacek",
+        "ToolTip": "Vero et recusandae mollitia similique ut laborum libero.",
+        "Deleted": false,
+        "Rank": 574,
+        "Type": "nihil",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quo",
-        "ColorBlock": 585,
-        "ExtraInfo": "amet",
-        "StyleHint": "non",
-        "FullName": "Jaylin Kris",
+        "IconHint": "quia",
+        "ColorBlock": 813,
+        "ExtraInfo": "et",
+        "StyleHint": "quia",
+        "FullName": "Dr. Susie Loyce Russel V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 779
+            "FieldType": "System.String",
+            "FieldLength": 905
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 699,
-    "ExtraInfo": "mollitia",
-    "StyleHint": "et",
-    "FullName": "Kiel Lindgren",
+    "IconHint": "consequatur",
+    "ColorBlock": 230,
+    "ExtraInfo": "optio",
+    "StyleHint": "omnis",
+    "FullName": "Dudley Fisher",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 219
+        "FieldType": "System.String",
+        "FieldLength": 822
       }
     }
   }

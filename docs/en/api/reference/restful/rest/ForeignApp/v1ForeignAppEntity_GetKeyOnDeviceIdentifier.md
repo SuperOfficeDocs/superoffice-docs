@@ -80,23 +80,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 26 Jun 1997 11:22:44 G6T
+Last-Modified: Wed, 13 Jan 2010 14:19:10 G1T
 
 {
-  "Key": "minima",
-  "Value": "est",
-  "RecordId": 417,
-  "CreatedDate": "2010-07-16T11:22:44.8818691+02:00",
-  "UpdatedDate": "1997-06-26T11:22:44.8818691+02:00",
-  "UpdatedBy": "libero",
-  "CreatedBy": "est",
-  "TableName": "Hilll, Bruen and Kulas",
+  "Key": "qui",
+  "Value": "eos",
+  "RecordId": 406,
+  "CreatedDate": "2007-09-30T14:19:10.3654771+02:00",
+  "UpdatedDate": "2010-01-13T14:19:10.3654771+01:00",
+  "UpdatedBy": "voluptas",
+  "CreatedBy": "eaque",
+  "TableName": "O'Kon-Koelpin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 147
+      "FieldType": "System.Int32",
+      "FieldLength": 403
     }
   }
 }

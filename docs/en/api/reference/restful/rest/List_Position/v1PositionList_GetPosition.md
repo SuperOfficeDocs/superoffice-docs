@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 911,
-  "Name": "Koch Inc and Sons",
-  "Tooltip": "est",
-  "Deleted": false,
-  "UdListDefinitionId": 920,
-  "Rank": 940,
+  "Id": 668,
+  "Name": "Kuhic, Lesch and Cummings",
+  "Tooltip": "eum",
+  "Deleted": true,
+  "UdListDefinitionId": 737,
+  "Rank": 770,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldLength": 164
     }
   }
 }

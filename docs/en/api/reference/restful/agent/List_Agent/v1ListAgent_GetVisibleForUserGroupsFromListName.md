@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Pfannerstill-Funk",
-  "ListItemId": 60
+  "UdListDefinitionName": "Hilll, Cremin and Maggio",
+  "ListItemId": 103
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 124,
-    "Name": "Schumm, Nicolas and Stanton",
-    "ToolTip": "Dolores recusandae possimus asperiores sit ea repellat ut.",
-    "Deleted": true,
-    "Rank": 840,
-    "Type": "ducimus",
-    "ColorBlock": 72,
-    "IconHint": "non",
+    "Id": 363,
+    "Name": "Paucek-Kunze",
+    "ToolTip": "Ratione unde id debitis id quam.",
+    "Deleted": false,
+    "Rank": 924,
+    "Type": "debitis",
+    "ColorBlock": 686,
+    "IconHint": "ipsam",
     "Selected": true,
-    "LastChanged": "2014-02-27T11:22:38.4615502+01:00",
+    "LastChanged": "2009-09-13T14:19:03.6238736+02:00",
     "ChildItems": [
       {
-        "Id": 620,
-        "Name": "Bailey-Koss",
-        "ToolTip": "Harum est impedit esse culpa.",
-        "Deleted": true,
-        "Rank": 880,
-        "Type": "delectus",
-        "ColorBlock": 941,
-        "IconHint": "omnis",
-        "Selected": false,
-        "LastChanged": "2000-06-14T11:22:38.4615502+02:00",
+        "Id": 168,
+        "Name": "Swaniawski, Corwin and Harber",
+        "ToolTip": "Sapiente mollitia laboriosam ratione voluptatibus.",
+        "Deleted": false,
+        "Rank": 535,
+        "Type": "numquam",
+        "ColorBlock": 67,
+        "IconHint": "laborum",
+        "Selected": true,
+        "LastChanged": "2002-12-31T14:19:03.6238736+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "qui",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Erin Pfannerstill Sr.",
+        "FullName": "Muriel Cummerata",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 273
+            "FieldType": "System.String",
+            "FieldLength": 387
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "aut",
+    "ExtraInfo": "facilis",
+    "StyleHint": "repellat",
     "Hidden": true,
-    "FullName": "Dr. Sonny Adeline Lindgren II",
+    "FullName": "Emiliano Leannon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 14
+        "FieldType": "System.String",
+        "FieldLength": 508
       }
     }
   }

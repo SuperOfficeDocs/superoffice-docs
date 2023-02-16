@@ -100,89 +100,89 @@ OK
 POST /api/v1/Contact/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 932,
-  "Name": "Gorczany-Feest",
+  "ContactId": 756,
+  "Name": "Hansen, Hudson and Hand",
   "Department": "",
-  "OrgNr": "973546",
-  "Number1": "1395415",
-  "Number2": "597791",
-  "UpdatedDate": "2021-12-20T11:22:44.5382515+01:00",
-  "CreatedDate": "2004-06-29T11:22:44.5382515+02:00",
+  "OrgNr": "1604034",
+  "Number1": "893964",
+  "Number2": "1087504",
+  "UpdatedDate": "2009-07-06T14:19:10.2092258+02:00",
+  "CreatedDate": "2020-10-20T14:19:10.2092258+02:00",
   "Emails": [
     {
-      "Value": "amet",
-      "StrippedValue": "inventore",
-      "Description": "Right-sized grid-enabled policy"
+      "Value": "perferendis",
+      "StrippedValue": "aut",
+      "Description": "Synergistic stable customer loyalty"
     },
     {
-      "Value": "amet",
-      "StrippedValue": "inventore",
-      "Description": "Right-sized grid-enabled policy"
+      "Value": "perferendis",
+      "StrippedValue": "aut",
+      "Description": "Synergistic stable customer loyalty"
     }
   ],
   "Interests": [
     {
-      "Id": 883,
-      "Name": "Kreiger Group",
-      "ToolTip": "Quia adipisci animi autem consequatur quis autem.",
-      "Deleted": true,
-      "Rank": 195,
-      "Type": "ut",
-      "ColorBlock": 503,
-      "IconHint": "occaecati",
+      "Id": 458,
+      "Name": "Kulas-Goldner",
+      "ToolTip": "Saepe iure dolor est debitis sequi nostrum beatae.",
+      "Deleted": false,
+      "Rank": 124,
+      "Type": "sint",
+      "ColorBlock": 974,
+      "IconHint": "voluptates",
       "Selected": false,
-      "LastChanged": "2009-10-13T11:22:44.5382515+02:00",
+      "LastChanged": "2021-11-11T14:19:10.2092258+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "eum",
+      "ExtraInfo": "consequatur",
+      "StyleHint": "temporibus",
       "Hidden": true,
-      "FullName": "Talia Fahey"
+      "FullName": "Lauren Langosh"
     }
   ],
   "Urls": [
     {
       "Value": "qui",
-      "StrippedValue": "quia",
-      "Description": "Compatible contextually-based matrix"
+      "StrippedValue": "iste",
+      "Description": "Digitized didactic algorithm"
     },
     {
       "Value": "qui",
-      "StrippedValue": "quia",
-      "Description": "Compatible contextually-based matrix"
+      "StrippedValue": "iste",
+      "Description": "Digitized didactic algorithm"
     }
   ],
   "Phones": [
     {
-      "Value": "velit",
-      "StrippedValue": "doloribus",
-      "Description": "Self-enabling upward-trending software"
+      "Value": "deserunt",
+      "StrippedValue": "voluptatem",
+      "Description": "Profound analyzing data-warehouse"
     },
     {
-      "Value": "velit",
-      "StrippedValue": "doloribus",
-      "Description": "Self-enabling upward-trending software"
+      "Value": "deserunt",
+      "StrippedValue": "voluptatem",
+      "Description": "Profound analyzing data-warehouse"
     }
   ],
   "Faxes": [
     {
-      "Value": "expedita",
-      "StrippedValue": "quaerat",
-      "Description": "Horizontal fault-tolerant matrix"
+      "Value": "ullam",
+      "StrippedValue": "corrupti",
+      "Description": "Phased foreground orchestration"
     },
     {
-      "Value": "expedita",
-      "StrippedValue": "quaerat",
-      "Description": "Horizontal fault-tolerant matrix"
+      "Value": "ullam",
+      "StrippedValue": "corrupti",
+      "Description": "Phased foreground orchestration"
     }
   ],
-  "Description": "Business-focused 24/7 interface",
+  "Description": "Proactive 24 hour attitude",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -191,85 +191,85 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "laudantium",
-      "PersonId": 44,
-      "Mrmrs": "id",
-      "Firstname": "Orrin",
-      "Lastname": "King",
-      "MiddleName": "Tillman-Moen",
-      "Title": "iure",
-      "Description": "Team-oriented homogeneous pricing structure",
-      "Email": "monte@gerlachcole.com",
-      "FullName": "Miss Steve Dare DDS",
-      "DirectPhone": "403-310-1849 x55792",
-      "FormalName": "Schmidt-Gislason",
-      "CountryId": 405,
-      "ContactId": 457,
-      "ContactName": "Waelchi-Hettinger",
-      "Retired": 10,
-      "Rank": 726,
-      "ActiveInterests": 374,
+      "Position": "expedita",
+      "PersonId": 411,
+      "Mrmrs": "velit",
+      "Firstname": "Melisa",
+      "Lastname": "Farrell",
+      "MiddleName": "Bogan-Heller",
+      "Title": "labore",
+      "Description": "Horizontal cohesive approach",
+      "Email": "hassan.batz@metz.uk",
+      "FullName": "Ibrahim Aufderhar III",
+      "DirectPhone": "954.867.0210 x75495",
+      "FormalName": "Walter, Howe and Bosco",
+      "CountryId": 625,
+      "ContactId": 554,
+      "ContactName": "Hane-Spencer",
+      "Retired": 338,
+      "Rank": 572,
+      "ActiveInterests": 435,
       "ContactDepartment": "",
-      "ContactCountryId": 700,
-      "ContactOrgNr": "817832",
-      "FaxPhone": "1-392-929-4245 x0067",
-      "MobilePhone": "442-000-7542 x35118",
-      "ContactPhone": "237-488-6439 x6927",
-      "AssociateName": "Rutherford LLC",
-      "AssociateId": 210,
+      "ContactCountryId": 380,
+      "ContactOrgNr": "214785",
+      "FaxPhone": "270-668-3645",
+      "MobilePhone": "1-347-683-2955",
+      "ContactPhone": "1-446-874-6553 x54111",
+      "AssociateName": "Kautzer, Ward and Purdy",
+      "AssociateId": 655,
       "UsePersonAddress": false,
-      "ContactFax": "iure",
-      "Kanafname": "voluptatibus",
-      "Kanalname": "fugiat",
-      "Post1": "dolores",
-      "Post2": "voluptas",
-      "Post3": "eum",
-      "EmailName": "frederic@hodkiewiczchristiansen.ca",
-      "ContactFullName": "Kiera Ebert IV",
-      "ActiveErpLinks": 503,
-      "TicketPriorityId": 372,
-      "SupportLanguageId": 698,
-      "SupportAssociateId": 886,
+      "ContactFax": "reiciendis",
+      "Kanafname": "sed",
+      "Kanalname": "delectus",
+      "Post1": "earum",
+      "Post2": "rerum",
+      "Post3": "neque",
+      "EmailName": "kurtis.lubowitz@aufderhar.uk",
+      "ContactFullName": "Kim Crooks",
+      "ActiveErpLinks": 294,
+      "TicketPriorityId": 142,
+      "SupportLanguageId": 754,
+      "SupportAssociateId": 204,
       "CategoryName": "VIP Customer"
     }
   ],
   "NoMailing": false,
-  "Kananame": "corrupti",
-  "Xstop": true,
-  "ActiveInterests": 18,
-  "GroupId": 956,
-  "ActiveStatusMonitorId": 726,
+  "Kananame": "adipisci",
+  "Xstop": false,
+  "ActiveInterests": 478,
+  "GroupId": 324,
+  "ActiveStatusMonitorId": 191,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 42,
-  "DbiAgentId": 73,
-  "DbiLastSyncronized": "2019-03-25T11:22:44.5382515+01:00",
-  "DbiKey": "esse",
-  "DbiLastModified": "1999-11-25T11:22:44.5382515+01:00",
+  "Deleted": 871,
+  "DbiAgentId": 66,
+  "DbiLastSyncronized": "2011-06-24T14:19:10.2248533+02:00",
+  "DbiKey": "corporis",
+  "DbiLastModified": "2022-09-02T14:19:10.2248533+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 252,
-  "ActiveErpLinks": 900,
+  "Source": 150,
+  "ActiveErpLinks": 334,
   "BounceEmails": [
-    "alan_schaden@hettinger.name",
-    "gracie@jacobs.co.uk"
+    "reese.raynor@welch.info",
+    "christiana.champlin@mckenzie.name"
   ],
   "Domains": [
-    "velit",
-    "sunt"
+    "impedit",
+    "odio"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Kory Ralph Ortiz PhD",
-    "SuperOffice:2": "Johan Stamm"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Mrs. Nolan Willms MD"
   },
   "ExtraFields": {
-    "ExtraFields1": "possimus",
-    "ExtraFields2": "vel"
+    "ExtraFields1": "sunt",
+    "ExtraFields2": "alias"
   },
   "CustomFields": {
-    "CustomFields1": "odio",
-    "CustomFields2": "natus"
+    "CustomFields1": "voluptatibus",
+    "CustomFields2": "enim"
   }
 }
 ```
@@ -281,7 +281,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ducimus",
-  "2": "sit"
+  "1": "ea",
+  "2": "est"
 }
 ```

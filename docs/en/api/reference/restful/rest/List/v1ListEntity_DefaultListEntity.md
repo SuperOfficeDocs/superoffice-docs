@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 32,
-  "Name": "Flatley, Hilll and Jerde",
-  "Tooltip": "temporibus",
-  "Deleted": false,
-  "Rank": 857,
+  "Id": 908,
+  "Name": "Paucek, Kreiger and Stroman",
+  "Tooltip": "voluptas",
+  "Deleted": true,
+  "Rank": 768,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "molestias",
+  "UseGroupsAndHeadings": true,
+  "ListType": "ullam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldLength": 100
     }
   }
 }

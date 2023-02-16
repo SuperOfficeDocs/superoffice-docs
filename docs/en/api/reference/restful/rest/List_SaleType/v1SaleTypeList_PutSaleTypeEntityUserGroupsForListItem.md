@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 353,
-    "Name": "Hahn LLC",
-    "ToolTip": "Nostrum adipisci impedit repudiandae et et.",
-    "Deleted": false,
-    "Rank": 259,
-    "Type": "quia",
-    "ColorBlock": 425,
-    "IconHint": "eos",
+    "Id": 259,
+    "Name": "Hackett, Grady and Boyle",
+    "ToolTip": "Debitis porro repellat quis repellat.",
+    "Deleted": true,
+    "Rank": 493,
+    "Type": "deleniti",
+    "ColorBlock": 185,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2006-11-05T11:22:46.1784934+01:00",
+    "LastChanged": "2009-11-02T14:19:11.549573+01:00",
     "ChildItems": [
       {
-        "Id": 513,
-        "Name": "Kohler, Armstrong and Macejkovic",
-        "ToolTip": "Natus magni nobis voluptas ut.",
+        "Id": 889,
+        "Name": "Hackett-Baumbach",
+        "ToolTip": "Vitae placeat quia aperiam fugiat necessitatibus.",
         "Deleted": false,
-        "Rank": 543,
-        "Type": "soluta",
-        "ColorBlock": 203,
-        "IconHint": "nihil",
+        "Rank": 444,
+        "Type": "ipsam",
+        "ColorBlock": 488,
+        "IconHint": "delectus",
         "Selected": false,
-        "LastChanged": "2019-11-05T11:22:46.1784934+01:00",
+        "LastChanged": "2015-01-24T14:19:11.549573+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "dolores",
+        "ExtraInfo": "autem",
+        "StyleHint": "explicabo",
         "Hidden": true,
-        "FullName": "Miss Kennedy Collier"
+        "FullName": "Mr. Kaden Ortiz"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "a",
+    "StyleHint": "molestias",
     "Hidden": false,
-    "FullName": "Easter Anderson"
+    "FullName": "Tom Fletcher Nitzsche Jr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 279,
-    "Name": "Kutch LLC",
-    "ToolTip": "Aspernatur corporis saepe eos temporibus.",
+    "Id": 539,
+    "Name": "Little, Kuvalis and Cummerata",
+    "ToolTip": "Amet doloribus eum.",
     "Deleted": false,
-    "Rank": 80,
-    "Type": "illum",
-    "ColorBlock": 892,
-    "IconHint": "aperiam",
+    "Rank": 968,
+    "Type": "necessitatibus",
+    "ColorBlock": 828,
+    "IconHint": "assumenda",
     "Selected": true,
-    "LastChanged": "1997-04-18T11:22:46.1784934+02:00",
+    "LastChanged": "1999-01-03T14:19:11.580827+01:00",
     "ChildItems": [
       {
-        "Id": 901,
-        "Name": "Kohler Group",
-        "ToolTip": "Omnis voluptatem id.",
+        "Id": 261,
+        "Name": "Tromp, Cormier and Ondricka",
+        "ToolTip": "Eos sit soluta laudantium voluptate.",
         "Deleted": true,
-        "Rank": 198,
-        "Type": "est",
-        "ColorBlock": 694,
-        "IconHint": "facere",
-        "Selected": true,
-        "LastChanged": "2018-06-13T11:22:46.1784934+02:00",
+        "Rank": 355,
+        "Type": "natus",
+        "ColorBlock": 922,
+        "IconHint": "ipsam",
+        "Selected": false,
+        "LastChanged": "2004-05-08T14:19:11.580827+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "numquam",
-        "Hidden": true,
-        "FullName": "Anjali Gene Nolan V",
+        "ExtraInfo": "inventore",
+        "StyleHint": "inventore",
+        "Hidden": false,
+        "FullName": "Mr. Garnett Immanuel Maggio",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 697
+            "FieldType": "System.Int32",
+            "FieldLength": 425
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "iusto",
-    "Hidden": true,
-    "FullName": "Carmella Kshlerin",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Arthur Heaney",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 8
+        "FieldType": "System.Int32",
+        "FieldLength": 113
       }
     }
   }

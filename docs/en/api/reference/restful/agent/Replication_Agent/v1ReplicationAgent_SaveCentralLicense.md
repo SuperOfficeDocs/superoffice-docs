@@ -83,8 +83,8 @@ Content-Type: application/json; charset=utf-8
 {
   "License": [
     {
-      "Name": "McDermott Group",
-      "Description": "Cloned object-oriented circuit",
+      "Name": "Gleason-Mosciski",
+      "Description": "Horizontal disintermediate hub",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -95,8 +95,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "McDermott Group",
-      "Description": "Cloned object-oriented circuit",
+      "Name": "Gleason-Mosciski",
+      "Description": "Horizontal disintermediate hub",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -118,56 +118,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pfeffer-Fadel",
-    "Description": "Implemented systematic neural-net",
+    "Name": "Corkery, Ernser and Lebsack",
+    "Description": "Self-enabling bifurcated flexibility",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 40,
-        "Tooltip": "voluptate",
+        "Unrestricted": true,
+        "Total": 750,
+        "Tooltip": "nemo",
         "CanAssign": true,
-        "Free": 491,
-        "InUse": 465,
+        "Free": 131,
+        "InUse": 790,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 153,
-        "Name": "Hintz, Volkman and Ritchie",
-        "Description": "Multi-lateral background extranet",
-        "PrerequisiteModuleName": "Conroy Group",
-        "SortOrder": 913,
-        "ExtraFlags": 65,
+        "ModuleLicenseId": 391,
+        "Name": "Heathcote Group",
+        "Description": "Implemented global core",
+        "PrerequisiteModuleName": "Jacobi Inc and Sons",
+        "SortOrder": 380,
+        "ExtraFlags": 685,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 298
+            "FieldType": "System.String",
+            "FieldLength": 622
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 221,
-        "Tooltip": "tenetur",
+        "Unrestricted": true,
+        "Total": 152,
+        "Tooltip": "nemo",
         "CanAssign": false,
-        "Free": 546,
-        "InUse": 700,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 187,
-        "Name": "Zemlak Inc and Sons",
-        "Description": "Multi-channelled interactive infrastructure",
-        "PrerequisiteModuleName": "Nikolaus-O'Reilly",
-        "SortOrder": 313,
-        "ExtraFlags": 699,
+        "Free": 529,
+        "InUse": 103,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 338,
+        "Name": "Considine-Ledner",
+        "Description": "Business-focused analyzing function",
+        "PrerequisiteModuleName": "Schumm-Crona",
+        "SortOrder": 356,
+        "ExtraFlags": 735,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 628
+            "FieldLength": 265
           }
         }
       }
@@ -177,61 +177,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 655
+        "FieldLength": 799
       }
     }
   },
   {
-    "Name": "Pfeffer-Fadel",
-    "Description": "Implemented systematic neural-net",
+    "Name": "Corkery, Ernser and Lebsack",
+    "Description": "Self-enabling bifurcated flexibility",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 40,
-        "Tooltip": "voluptate",
+        "Unrestricted": true,
+        "Total": 750,
+        "Tooltip": "nemo",
         "CanAssign": true,
-        "Free": 491,
-        "InUse": 465,
+        "Free": 131,
+        "InUse": 790,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 153,
-        "Name": "Hintz, Volkman and Ritchie",
-        "Description": "Multi-lateral background extranet",
-        "PrerequisiteModuleName": "Conroy Group",
-        "SortOrder": 913,
-        "ExtraFlags": 65,
+        "ModuleLicenseId": 391,
+        "Name": "Heathcote Group",
+        "Description": "Implemented global core",
+        "PrerequisiteModuleName": "Jacobi Inc and Sons",
+        "SortOrder": 380,
+        "ExtraFlags": 685,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 298
+            "FieldType": "System.String",
+            "FieldLength": 622
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 221,
-        "Tooltip": "tenetur",
+        "Unrestricted": true,
+        "Total": 152,
+        "Tooltip": "nemo",
         "CanAssign": false,
-        "Free": 546,
-        "InUse": 700,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 187,
-        "Name": "Zemlak Inc and Sons",
-        "Description": "Multi-channelled interactive infrastructure",
-        "PrerequisiteModuleName": "Nikolaus-O'Reilly",
-        "SortOrder": 313,
-        "ExtraFlags": 699,
+        "Free": 529,
+        "InUse": 103,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 338,
+        "Name": "Considine-Ledner",
+        "Description": "Business-focused analyzing function",
+        "PrerequisiteModuleName": "Schumm-Crona",
+        "SortOrder": 356,
+        "ExtraFlags": 735,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 628
+            "FieldLength": 265
           }
         }
       }
@@ -241,7 +241,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 655
+        "FieldLength": 799
       }
     }
   }

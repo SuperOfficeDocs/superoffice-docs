@@ -124,15 +124,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 142,
-  "GroupType": 851,
-  "StartTime": "1998-01-02T11:22:36.946279+01:00",
-  "EndTime": "1998-04-19T11:22:36.946279+02:00",
-  "Count": 284
+  "GroupId": 993,
+  "GroupType": 441,
+  "StartTime": "2020-12-04T14:19:02.3731222+01:00",
+  "EndTime": "2012-11-23T14:19:02.3731222+01:00",
+  "Count": 697
 }
 ```
 
@@ -144,61 +144,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 616,
-    "StartDate": "2008-12-26T11:22:36.946279+01:00",
-    "EndDate": "2013-05-25T11:22:36.946279+02:00",
+    "AppointmentId": 49,
+    "StartDate": "1998-04-03T14:19:02.3731222+02:00",
+    "EndDate": "2015-07-06T14:19:02.3731222+02:00",
     "Type": "BookingForChecklist",
-    "Task": "illo",
-    "AssociateFullName": "Nichole Dooley",
-    "ContactName": "Muller-Metz",
-    "Description": "Horizontal reciprocal policy",
-    "PersonFullName": "Jade Bruen",
-    "PersonId": 183,
-    "ContactId": 831,
-    "ProjectId": 726,
-    "ProjectName": "Schaden Group",
-    "IsPublished": true,
-    "AssociateId": 733,
-    "ColorIndex": 887,
-    "IsFree": false,
+    "Task": "quis",
+    "AssociateFullName": "Cristian Mayert",
+    "ContactName": "Dicki Inc and Sons",
+    "Description": "Reverse-engineered impactful monitoring",
+    "PersonFullName": "Kennith Rowe",
+    "PersonId": 946,
+    "ContactId": 433,
+    "ProjectId": 962,
+    "ProjectName": "Welch-Jaskolski",
+    "IsPublished": false,
+    "AssociateId": 493,
+    "ColorIndex": 214,
+    "IsFree": true,
     "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 81,
-    "PriorityName": "Cummerata, O'Keefe and Kuphal",
+    "PriorityId": 592,
+    "PriorityName": "Pollich, Buckridge and Ryan",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2015-10-27T11:22:36.946279+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2001-04-29T14:19:02.3731222+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2006-07-24T11:22:36.946279+02:00",
-    "RecurringEndDate": "2001-06-27T11:22:36.946279+02:00",
-    "MotherId": 160,
-    "AssignedBy": 249,
-    "AssignedByFullName": "Katelynn Wintheiser",
+    "RecurringStartDate": "2002-10-20T14:19:02.3731222+02:00",
+    "RecurringEndDate": "2004-07-29T14:19:02.3731222+02:00",
+    "MotherId": 50,
+    "AssignedBy": 155,
+    "AssignedByFullName": "Mr. Missouri Bergnaum DDS",
     "RejectReason": "",
-    "Location": "excepturi",
-    "AlarmLeadTime": "aut",
-    "SaleId": 801,
-    "SaleName": "Zieme, Schoen and Fadel",
-    "AssociateName": "Murazik, Walter and Rolfson",
-    "CreatedDate": "2012-12-30T11:22:36.946279+01:00",
-    "CreatedBy": "est",
-    "CreatedByFullName": "Trycia Jalyn Erdman Jr.",
-    "CreatedByAssociateId": 935,
+    "Location": "dolores",
+    "AlarmLeadTime": "impedit",
+    "SaleId": 940,
+    "SaleName": "Gorczany-Koss",
+    "AssociateName": "Ernser-Hills",
+    "CreatedDate": "2001-09-10T14:19:02.3731222+02:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Neha Schmeler",
+    "CreatedByAssociateId": 445,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 524
+        "FieldType": "System.Int32",
+        "FieldLength": 949
       }
     }
   }

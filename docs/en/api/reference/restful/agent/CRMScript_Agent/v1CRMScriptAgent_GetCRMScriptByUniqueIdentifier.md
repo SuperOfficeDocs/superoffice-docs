@@ -87,7 +87,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "nobis"
+  "UniqueIdentifier": "eos"
 }
 ```
 
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "ut",
-  "Name": "Langosh, Goodwin and Haley",
-  "Description": "Cloned static moderator",
-  "IncludeId": "nobis",
-  "Source": "voluptas",
-  "Registered": "1996-01-17T11:22:37.7742144+01:00",
-  "RegisteredBy": "hic",
-  "Updated": "2014-10-30T11:22:37.7742144+01:00",
-  "UpdatedBy": "velit",
-  "Path": "amet",
+  "UniqueIdentifier": "accusamus",
+  "Name": "Fahey-Nolan",
+  "Description": "Future-proofed bottom-line flexibility",
+  "IncludeId": "tenetur",
+  "Source": "omnis",
+  "Registered": "1998-05-23T14:19:03.0730293+02:00",
+  "RegisteredBy": "maiores",
+  "Updated": "2019-10-16T14:19:03.0730293+02:00",
+  "UpdatedBy": "libero",
+  "Path": "distinctio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 505
+      "FieldType": "System.Int32",
+      "FieldLength": 73
     }
   }
 }

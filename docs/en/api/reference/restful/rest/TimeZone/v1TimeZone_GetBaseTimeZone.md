@@ -60,7 +60,7 @@ OK
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,31 +70,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 729,
-  "Name": "Cremin Inc and Sons",
-  "TZLocationCode": "quibusdam",
-  "TZLocationCities": "aliquid",
-  "IsoNumber": 561,
+  "TZLocationID": 533,
+  "Name": "Langworth LLC",
+  "TZLocationCode": "assumenda",
+  "TZLocationCities": "natus",
+  "IsoNumber": 319,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 14,
-      "StartMonth": 607,
-      "EndDay": 592,
-      "EndMonth": 177,
-      "TZOffset": 19,
-      "StartRulePattern": "in",
-      "EndRulePattern": "nemo"
+      "StartDay": 809,
+      "StartMonth": 704,
+      "EndDay": 270,
+      "EndMonth": 230,
+      "TZOffset": 645,
+      "StartRulePattern": "est",
+      "EndRulePattern": "dignissimos"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 398,
-      "StartMonth": 468,
-      "EndDay": 466,
-      "EndMonth": 161,
-      "TZOffset": 285,
-      "StartRulePattern": "provident",
-      "EndRulePattern": "quasi"
+      "StartDay": 75,
+      "StartMonth": 389,
+      "EndDay": 604,
+      "EndMonth": 410,
+      "TZOffset": 683,
+      "StartRulePattern": "quos",
+      "EndRulePattern": "laudantium"
     }
   }
 }

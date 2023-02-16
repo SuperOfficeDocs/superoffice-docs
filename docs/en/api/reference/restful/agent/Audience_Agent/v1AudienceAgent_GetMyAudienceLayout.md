@@ -80,11 +80,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 6,
-  "InstanceLayout": "nobis",
-  "InstanceName": "Grady Group",
-  "CreatedDate": "2020-11-14T11:22:37.4304911+01:00",
-  "UpdatedDate": "2020-12-05T11:22:37.4304911+01:00",
+  "AudienceLayoutId": 170,
+  "InstanceLayout": "cumque",
+  "InstanceName": "Rempel-Turcotte",
+  "CreatedDate": "2014-05-24T14:19:02.7594283+02:00",
+  "UpdatedDate": "2014-07-26T14:19:02.7594283+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldLength": 691
     }
   }
 }

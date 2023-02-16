@@ -76,7 +76,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 375,
-  "PlainMessage": "consequatur",
-  "HtmlMessage": "et",
-  "SmsMessage": "ratione",
-  "Description": "Open-architected full-range open architecture",
-  "Subject": "natus",
-  "FolderId": 438,
-  "HeaderField": "neque",
-  "Design": "aspernatur",
+  "ShipmentMessageId": 381,
+  "PlainMessage": "repellat",
+  "HtmlMessage": "vitae",
+  "SmsMessage": "quia",
+  "Description": "Public-key optimizing challenge",
+  "Subject": "quia",
+  "FolderId": 108,
+  "HeaderField": "iusto",
+  "Design": "qui",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Balanced transitional data-warehouse",
-  "AccessKey": "assumenda",
-  "DocumentMessage": 780,
-  "Registered": "2021-10-13T11:22:45.225579+02:00",
-  "RegisteredAssociateId": 629,
-  "Updated": "2000-10-26T11:22:45.225579+02:00",
-  "UpdatedAssociateId": 32,
-  "UpdatedCount": 808,
+  "LongDescription": "Balanced context-sensitive knowledge user",
+  "AccessKey": "aperiam",
+  "DocumentMessage": 62,
+  "Registered": "2008-04-09T14:19:10.7873511+02:00",
+  "RegisteredAssociateId": 79,
+  "Updated": "2013-07-21T14:19:10.7873511+02:00",
+  "UpdatedAssociateId": 678,
+  "UpdatedCount": 830,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 973
+      "FieldLength": 544
     }
   }
 }

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 11.29.2022
+so.date: 02.15.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -36,6 +36,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IListAgent'>Lis
 * [CreateDefaultResourceEntity](createdefaultresourceentity.md)
 * [CreateDefaultSaleStageEntity](createdefaultsalestageentity.md)
 * [CreateDefaultSaleTypeEntity](createdefaultsaletypeentity.md)
+* [CreateDefaultTaskMenu](createdefaulttaskmenu.md)
 * [CreateDefaultTicketCategoryEntity](createdefaultticketcategoryentity.md)
 * [CreateDefaultTicketPriorityEntity](createdefaultticketpriorityentity.md)
 * [CreateDefaultTicketStatusEntity](createdefaultticketstatusentity.md)
@@ -44,6 +45,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IListAgent'>Lis
 * [DeleteAllFromListName](deleteallfromlistname.md)
 * [DeleteAllHeadingsFromListDefinition](deleteallheadingsfromlistdefinition.md)
 * [DeleteAllHeadingsFromName](deleteallheadingsfromname.md)
+* [DeleteAppTaskMenus](deleteapptaskmenus.md)
 * [DeleteAppWebPanels](deleteappwebpanels.md)
 * [DeleteDocumentTemplateLanguage](deletedocumenttemplatelanguage.md)
 * [DeleteFromListDefinition](deletefromlistdefinition.md)
@@ -54,6 +56,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IListAgent'>Lis
 * [DeleteListEntityByName](deletelistentitybyname.md)
 * [DeleteProjectStatus](deleteprojectstatus.md)
 * [DeleteResourceEntity](deleteresourceentity.md)
+* [DeleteTaskMenu](deletetaskmenu.md)
 * [DeleteTicketCategoryEntity](deleteticketcategoryentity.md)
 * [DeleteTicketPriorityEntity](deleteticketpriorityentity.md)
 * [DeleteTicketStatusEntity](deleteticketstatusentity.md)
@@ -77,6 +80,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IListAgent'>Lis
 * [GetAllTasks](getalltasks.md)
 * [GetAllTicketPriorities](getallticketpriorities.md)
 * [GetAmountClassEntity](getamountclassentity.md)
+* [GetAppTaskMenus](getapptaskmenus.md)
 * [GetAppWebPanels](getappwebpanels.md)
 * [GetBaseCurrency](getbasecurrency.md)
 * [GetBusiness](getbusiness.md)
@@ -220,6 +224,8 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IListAgent'>Lis
 * [GetSources](getsources.md)
 * [GetTask](gettask.md)
 * [GetTaskList](gettasklist.md)
+* [GetTaskMenu](gettaskmenu.md)
+* [GetTaskMenuByProgId](gettaskmenubyprogid.md)
 * [GetTasks](gettasks.md)
 * [GetTicketCategories](getticketcategories.md)
 * [GetTicketCategoriesForUserGroups](getticketcategoriesforusergroups.md)
@@ -272,6 +278,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IListAgent'>Lis
 * [SaveResourceEntity](saveresourceentity.md)
 * [SaveSaleStageEntity](savesalestageentity.md)
 * [SaveSaleTypeEntity](savesaletypeentity.md)
+* [SaveTaskMenu](savetaskmenu.md)
 * [SaveTicketCategoryEntity](saveticketcategoryentity.md)
 * [SaveTicketPriorityEntity](saveticketpriorityentity.md)
 * [SaveTicketStatusEntity](saveticketstatusentity.md)

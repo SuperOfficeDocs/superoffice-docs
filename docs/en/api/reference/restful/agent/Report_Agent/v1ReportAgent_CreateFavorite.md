@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/Report/CreateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 54,
-  "Name": "Walker, Farrell and Sawayn",
-  "Description": "Stand-alone regional contingency"
+  "SourceId": 276,
+  "Name": "Pacocha-Brakus",
+  "Description": "Adaptive human-resource software"
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 72,
+  "ReportId": 708,
   "ReportCategory": "All",
-  "Description": "Up-sized object-oriented knowledge base",
+  "Description": "Re-contextualized upward-trending contingency",
   "ReportLayout": "CalendarMonth",
-  "Name": "Becker-Hintz",
-  "AssociateId": 420,
-  "TemplateId": 782,
+  "Name": "Collins-Runte",
+  "AssociateId": 903,
+  "TemplateId": 957,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldLength": 278
     }
   }
 }

@@ -74,27 +74,27 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 545,
-  "Name": "Torp-Ebert",
-  "CreatedDate": "1996-07-21T11:22:38.3678241+02:00",
-  "UpdatedDate": "2016-02-14T11:22:38.3678241+01:00",
+  "ForeignAppId": 381,
+  "Name": "Ward-Carter",
+  "CreatedDate": "2014-08-06T14:19:03.5446477+02:00",
+  "UpdatedDate": "2000-03-01T14:19:03.5446477+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 519,
-      "Name": "Raynor, Lind and Wisoky",
-      "CreatedDate": "2006-11-18T11:22:38.3678241+01:00",
-      "UpdatedDate": "2000-03-21T11:22:38.3678241+01:00",
-      "AssociateFullName": "Nikki Walton Langworth PhD",
-      "CreatedBy": "eaque",
-      "UpdatedBy": "dolore",
-      "DeviceIdentifier": "dicta",
-      "ForeignAppId": 810
+      "ForeignDeviceId": 573,
+      "Name": "Yost-Treutel",
+      "CreatedDate": "2021-09-02T14:19:03.5446477+02:00",
+      "UpdatedDate": "2015-06-26T14:19:03.5446477+02:00",
+      "AssociateFullName": "Vern Price",
+      "CreatedBy": "enim",
+      "UpdatedBy": "fuga",
+      "DeviceIdentifier": "accusantium",
+      "ForeignAppId": 305
     }
   ]
 }
@@ -107,29 +107,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 393,
-  "Name": "Terry LLC",
-  "CreatedDate": "2010-05-05T11:22:38.3678241+02:00",
-  "UpdatedDate": "1998-01-21T11:22:38.3678241+01:00",
+  "ForeignAppId": 339,
+  "Name": "Fritsch Group",
+  "CreatedDate": "2020-06-18T14:19:03.5446477+02:00",
+  "UpdatedDate": "2017-01-04T14:19:03.5446477+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 459,
-      "Name": "Schamberger, Hoppe and Deckow",
-      "CreatedDate": "2022-08-14T11:22:38.3678241+02:00",
-      "UpdatedDate": "2002-08-16T11:22:38.3678241+02:00",
-      "AssociateFullName": "Joshuah Hauck",
-      "CreatedBy": "itaque",
-      "UpdatedBy": "ut",
-      "DeviceIdentifier": "est",
-      "ForeignAppId": 119,
+      "ForeignDeviceId": 635,
+      "Name": "Klocko-Mayer",
+      "CreatedDate": "2001-01-30T14:19:03.5446477+01:00",
+      "UpdatedDate": "2018-02-12T14:19:03.5446477+01:00",
+      "AssociateFullName": "Naomi Ryan Casper II",
+      "CreatedBy": "modi",
+      "UpdatedBy": "exercitationem",
+      "DeviceIdentifier": "nihil",
+      "ForeignAppId": 619,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 194
+          "FieldLength": 571
         }
       }
     }
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 988
+      "FieldLength": 86
     }
   }
 }

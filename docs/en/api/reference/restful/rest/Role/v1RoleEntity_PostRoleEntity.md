@@ -100,20 +100,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 854,
-  "Name": "Brakus, Kertzmann and O'Keefe",
-  "Tooltip": "et",
+  "RoleId": 342,
+  "Name": "Watsica, Schamberger and Yundt",
+  "Tooltip": "quaerat",
   "RoleType": "Anonymous",
-  "Deleted": 550,
-  "Rank": 216,
-  "Created": "2019-03-28T11:22:45.0693694+01:00",
-  "UseCategories": 201,
+  "Deleted": 484,
+  "Rank": 136,
+  "Created": "2004-01-01T14:19:10.6467484+01:00",
+  "UseCategories": 919,
   "CreatedBy": null,
-  "Updated": "2007-06-21T11:22:45.0693694+02:00",
+  "Updated": "2011-04-10T14:19:10.6467484+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -126,16 +126,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 143,
-  "Name": "Nolan, Pacocha and Vandervort",
-  "Tooltip": "ratione",
+  "RoleId": 188,
+  "Name": "Heidenreich-Wilkinson",
+  "Tooltip": "quo",
   "RoleType": "Anonymous",
-  "Deleted": 868,
-  "Rank": 593,
-  "Created": "2020-06-27T11:22:45.0693694+02:00",
-  "UseCategories": 577,
+  "Deleted": 654,
+  "Rank": 80,
+  "Created": "2021-03-28T14:19:10.6467484+02:00",
+  "UseCategories": 573,
   "CreatedBy": null,
-  "Updated": "1995-10-04T11:22:45.0693694+02:00",
+  "Updated": "1997-11-18T14:19:10.6467484+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -143,7 +143,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 602
+      "FieldLength": 231
     }
   },
   "_Links": {

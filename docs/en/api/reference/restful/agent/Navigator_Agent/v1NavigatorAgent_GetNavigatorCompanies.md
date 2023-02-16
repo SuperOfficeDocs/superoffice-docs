@@ -74,11 +74,11 @@ OK
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Will Inc and Sons"
+  "Name": "Ullrich, Cruickshank and Rohan"
 }
 ```
 
@@ -90,28 +90,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 120,
-    "Value": "officiis",
-    "Tooltip": "quia",
+    "Id": 492,
+    "Value": "consequatur",
+    "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 963
+        "FieldLength": 825
       }
     }
   },
   {
-    "Id": 120,
-    "Value": "officiis",
-    "Tooltip": "quia",
+    "Id": 492,
+    "Value": "consequatur",
+    "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 963
+        "FieldLength": 825
       }
     }
   }

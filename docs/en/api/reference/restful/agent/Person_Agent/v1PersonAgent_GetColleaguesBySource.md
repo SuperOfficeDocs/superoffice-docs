@@ -114,12 +114,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 337
+  "Count": 18
 }
 ```
 
@@ -131,52 +131,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "qui",
-    "PersonId": 926,
-    "Mrmrs": "corporis",
-    "Firstname": "Clifford",
-    "Lastname": "Koss",
-    "MiddleName": "Zboncak-Luettgen",
-    "Title": "quia",
-    "Description": "Persistent even-keeled installation",
-    "Email": "mae@zulaufhessel.ca",
-    "FullName": "Dr. Anne Zieme",
-    "DirectPhone": "1-590-857-1214 x7869",
-    "FormalName": "Kris Group",
-    "CountryId": 818,
-    "ContactId": 346,
-    "ContactName": "Gerhold-Flatley",
-    "Retired": 723,
-    "Rank": 209,
-    "ActiveInterests": 834,
+    "Position": "facere",
+    "PersonId": 30,
+    "Mrmrs": "possimus",
+    "Firstname": "Lacy",
+    "Lastname": "Bernhard",
+    "MiddleName": "Kozey LLC",
+    "Title": "alias",
+    "Description": "Future-proofed eco-centric neural-net",
+    "Email": "kay.purdy@bogan.biz",
+    "FullName": "Darwin Smitham",
+    "DirectPhone": "1-480-630-7842 x86379",
+    "FormalName": "Sporer-Wilderman",
+    "CountryId": 88,
+    "ContactId": 345,
+    "ContactName": "Stokes, Hane and Cormier",
+    "Retired": 542,
+    "Rank": 250,
+    "ActiveInterests": 315,
     "ContactDepartment": "",
-    "ContactCountryId": 676,
-    "ContactOrgNr": "1183361",
-    "FaxPhone": "1-372-173-6688",
-    "MobilePhone": "933.767.9536",
-    "ContactPhone": "624.344.9472",
-    "AssociateName": "Hoeger-Trantow",
-    "AssociateId": 752,
+    "ContactCountryId": 264,
+    "ContactOrgNr": "939014",
+    "FaxPhone": "458.591.5289",
+    "MobilePhone": "388-630-4567 x38710",
+    "ContactPhone": "(118)760-3340",
+    "AssociateName": "Bednar-Flatley",
+    "AssociateId": 973,
     "UsePersonAddress": false,
-    "ContactFax": "sed",
-    "Kanafname": "voluptatum",
-    "Kanalname": "debitis",
-    "Post1": "iusto",
-    "Post2": "perspiciatis",
-    "Post3": "enim",
-    "EmailName": "dallas.howe@blickstanton.ca",
-    "ContactFullName": "Mrs. Luz Kaleigh Kuhic",
-    "ActiveErpLinks": 958,
-    "TicketPriorityId": 881,
-    "SupportLanguageId": 594,
-    "SupportAssociateId": 383,
+    "ContactFax": "quos",
+    "Kanafname": "saepe",
+    "Kanalname": "in",
+    "Post1": "dignissimos",
+    "Post2": "ut",
+    "Post3": "accusamus",
+    "EmailName": "dagmar.gottlieb@kovacekrutherford.info",
+    "ContactFullName": "Donnell Keeling",
+    "ActiveErpLinks": 341,
+    "TicketPriorityId": 564,
+    "SupportLanguageId": 912,
+    "SupportAssociateId": 601,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 467
+        "FieldLength": 525
       }
     }
   }

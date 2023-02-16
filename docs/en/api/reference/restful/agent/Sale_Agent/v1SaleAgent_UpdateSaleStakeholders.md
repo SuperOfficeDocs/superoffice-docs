@@ -90,31 +90,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Lubowitz-Yundt",
-      "Comment": "illum",
-      "StakeholderRoleId": 139,
-      "CountryId": 924,
-      "PersonId": 609,
-      "EmailDescription": "katharina_gorczany@dickensrath.com",
-      "EmailId": 811,
-      "EmailAddress": "anna@heller.com",
-      "PhoneId": 278,
-      "ContactName": "Kemmer, McKenzie and Friesen",
-      "ContactId": 986,
-      "SaleId": 192,
-      "Mrmrs": "commodi",
-      "Firstname": "Royce",
-      "MiddleName": "Champlin LLC",
-      "Lastname": "Greenholt",
-      "SaleStakeholderId": 630,
-      "Rank": 676,
-      "Phone": "(766)214-7543 x85082"
+      "StakeholderRoleName": "Nienow, Gutkowski and King",
+      "Comment": "perferendis",
+      "StakeholderRoleId": 607,
+      "CountryId": 81,
+      "PersonId": 967,
+      "EmailDescription": "vince_grant@gerhold.biz",
+      "EmailId": 153,
+      "EmailAddress": "dax_hodkiewicz@bergeraynor.biz",
+      "PhoneId": 289,
+      "ContactName": "Johnston, Shanahan and Green",
+      "ContactId": 315,
+      "SaleId": 93,
+      "Mrmrs": "qui",
+      "Firstname": "Nyah",
+      "MiddleName": "McKenzie Inc and Sons",
+      "Lastname": "Rau",
+      "SaleStakeholderId": 554,
+      "Rank": 382,
+      "Phone": "346-473-0645 x9948"
     }
   ]
 }
@@ -128,31 +128,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Ruecker, Lubowitz and Mohr",
-    "Comment": "accusantium",
-    "StakeholderRoleId": 611,
-    "CountryId": 997,
-    "PersonId": 583,
-    "EmailDescription": "rubye@feestlowe.ca",
-    "EmailId": 698,
-    "EmailAddress": "coralie_hane@lang.us",
-    "PhoneId": 839,
-    "ContactName": "Russel, Towne and Littel",
-    "ContactId": 122,
-    "SaleId": 113,
-    "Mrmrs": "ut",
-    "Firstname": "Hudson",
-    "MiddleName": "Mertz-Krajcik",
-    "Lastname": "O'Connell",
-    "SaleStakeholderId": 611,
-    "Rank": 891,
-    "Phone": "620.765.7260 x040",
+    "StakeholderRoleName": "Parisian, Keebler and Leffler",
+    "Comment": "est",
+    "StakeholderRoleId": 60,
+    "CountryId": 56,
+    "PersonId": 838,
+    "EmailDescription": "candice.bosco@reicheltowne.uk",
+    "EmailId": 158,
+    "EmailAddress": "ubaldo@bartell.us",
+    "PhoneId": 665,
+    "ContactName": "Fisher, Farrell and Aufderhar",
+    "ContactId": 242,
+    "SaleId": 250,
+    "Mrmrs": "architecto",
+    "Firstname": "Maximo",
+    "MiddleName": "Streich-Lindgren",
+    "Lastname": "Miller",
+    "SaleStakeholderId": 328,
+    "Rank": 906,
+    "Phone": "(269)639-9484",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 96
+        "FieldLength": 285
       }
     }
   }

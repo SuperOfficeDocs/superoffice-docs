@@ -65,23 +65,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "minus",
+      "RawValue": "et",
       "Specification": null,
-      "DisplayValue": "blanditiis",
-      "DisplayTooltip": "quia",
+      "DisplayValue": "cumque",
+      "DisplayTooltip": "aut",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 702,
-      "PrefDescId": 71,
-      "TableName": "Goyette-Quigley",
-      "UserPreferenceId": 903
+      "TargetId": 824,
+      "PrefDescId": 629,
+      "TableName": "Keebler, Feeney and Hauck",
+      "UserPreferenceId": 557
     }
   ]
 }

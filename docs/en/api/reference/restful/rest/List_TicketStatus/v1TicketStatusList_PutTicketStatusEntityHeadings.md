@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 226,
-    "Name": "VonRueden-Bahringer",
-    "Tooltip": "in",
-    "Deleted": true,
-    "Rank": 347,
-    "UdListDefinitionId": 381
+    "HeadingId": 370,
+    "Name": "Rogahn-Kihn",
+    "Tooltip": "blanditiis",
+    "Deleted": false,
+    "Rank": 495,
+    "UdListDefinitionId": 478
   },
   {
-    "HeadingId": 226,
-    "Name": "VonRueden-Bahringer",
-    "Tooltip": "in",
-    "Deleted": true,
-    "Rank": 347,
-    "UdListDefinitionId": 381
+    "HeadingId": 370,
+    "Name": "Rogahn-Kihn",
+    "Tooltip": "blanditiis",
+    "Deleted": false,
+    "Rank": 495,
+    "UdListDefinitionId": 478
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 362,
-    "Name": "Bins-Mayer",
-    "Tooltip": "amet",
-    "Deleted": true,
-    "Rank": 650,
-    "UdListDefinitionId": 991,
+    "HeadingId": 168,
+    "Name": "Hauck Group",
+    "Tooltip": "dolorem",
+    "Deleted": false,
+    "Rank": 618,
+    "UdListDefinitionId": 849,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 685
+        "FieldLength": 167
       }
     }
   }

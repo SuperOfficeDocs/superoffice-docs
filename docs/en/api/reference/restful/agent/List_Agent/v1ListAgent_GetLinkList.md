@@ -84,17 +84,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kub-Friesen",
-    "Id": 101,
-    "Description": "Fundamental radical knowledge user",
-    "ExtraInfo": "dolores",
-    "LinkId": 401,
+    "EntityName": "Tillman Group",
+    "Id": 252,
+    "Description": "Open-source solution-oriented moderator",
+    "ExtraInfo": "numquam",
+    "LinkId": 466,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldLength": 931
       }
     }
   }

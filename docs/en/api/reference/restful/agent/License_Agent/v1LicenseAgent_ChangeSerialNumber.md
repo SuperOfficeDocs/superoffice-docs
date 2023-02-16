@@ -76,12 +76,12 @@ OK
 POST /api/v1/Agents/License/ChangeSerialNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Glover-Ruecker",
-  "NewSerialNumber": "1013386"
+  "NewCompanyName": "Schmidt LLC",
+  "NewSerialNumber": "1542502"
 }
 ```
 
@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 173
+      "FieldType": "System.Int32",
+      "FieldLength": 7
     }
   }
 }

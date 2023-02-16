@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Denesik-Waters",
+  "ConnectorName": "Erdman LLC",
   "ConnectionData": {
-    "ConnectionData1": "voluptatum",
-    "ConnectionData2": "repudiandae"
+    "ConnectionData1": "explicabo",
+    "ConnectionData2": "aut"
   }
 }
 ```
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "eveniet",
-  "TechExplanation": "tenetur",
-  "ErrorCode": "saepe",
+  "IsOk": true,
+  "UserExplanation": "dolorem",
+  "TechExplanation": "eum",
+  "ErrorCode": "illo",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 706
+      "FieldType": "System.Int32",
+      "FieldLength": 11
     }
   }
 }

@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 554,
-  "Name": "Eichmann-Nienow",
-  "Tooltip": "laudantium",
-  "Deleted": true,
-  "Rank": 104,
-  "UdListDefinitionId": 499
+  "HeadingId": 770,
+  "Name": "Predovic, McLaughlin and Pagac",
+  "Tooltip": "asperiores",
+  "Deleted": false,
+  "Rank": 179,
+  "UdListDefinitionId": 1001
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 351,
-  "Name": "White-Stracke",
-  "Tooltip": "et",
+  "HeadingId": 880,
+  "Name": "Cole, Armstrong and Jaskolski",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 812,
-  "UdListDefinitionId": 263,
+  "Rank": 292,
+  "UdListDefinitionId": 503,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 105
+      "FieldType": "System.String",
+      "FieldLength": 85
     }
   }
 }

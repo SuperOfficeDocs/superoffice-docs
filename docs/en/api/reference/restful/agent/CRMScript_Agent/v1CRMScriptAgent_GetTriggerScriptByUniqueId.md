@@ -87,7 +87,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "a"
+  "TriggerScriptUniqueId": "et"
 }
 ```
 
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 466,
-  "Name": "Zemlak-Welch",
+  "ScreenChooserId": 377,
+  "Name": "Kirlin Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "facilis",
-  "Source": "quia",
-  "Registered": "1999-06-08T11:22:37.7742144+02:00",
-  "RegisteredAssociateId": 176,
-  "Updated": "2017-05-03T11:22:37.7742144+02:00",
-  "UpdatedAssociateId": 165,
+  "Enabled": false,
+  "UniqueIdentifier": "eum",
+  "Source": "saepe",
+  "Registered": "2011-12-21T14:19:03.0730293+01:00",
+  "RegisteredAssociateId": 13,
+  "Updated": "2017-06-17T14:19:03.0730293+02:00",
+  "UpdatedAssociateId": 338,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldType": "System.String",
+      "FieldLength": 618
     }
   }
 }

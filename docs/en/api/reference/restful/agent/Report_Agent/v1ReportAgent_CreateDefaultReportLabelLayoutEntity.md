@@ -77,24 +77,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 902,
-  "Name": "Denesik-Powlowski",
-  "Description": "Extended client-server parallelism",
+  "ReportLabelLayoutId": 157,
+  "Name": "Toy-Gerlach",
+  "Description": "Robust systemic hub",
   "Orientation": "Landscape",
-  "PaperWidth": 464,
-  "PaperHeight": 811,
-  "LeftMargin": 810,
-  "RightMargin": 130,
-  "TopMargin": 567,
-  "BottomMargin": 130,
-  "CountColumns": 832,
-  "CountRows": 904,
+  "PaperWidth": 807,
+  "PaperHeight": 812,
+  "LeftMargin": 29,
+  "RightMargin": 17,
+  "TopMargin": 249,
+  "BottomMargin": 632,
+  "CountColumns": 285,
+  "CountRows": 794,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldLength": 929
     }
   }
 }

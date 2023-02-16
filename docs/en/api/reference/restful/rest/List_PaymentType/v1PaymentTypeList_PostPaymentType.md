@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 466,
-  "Name": "Trantow LLC",
-  "Tooltip": "unde",
+  "Id": 14,
+  "Name": "Yundt-Kerluke",
+  "Tooltip": "pariatur",
   "Deleted": true,
-  "UdListDefinitionId": 342,
-  "Rank": 912
+  "UdListDefinitionId": 694,
+  "Rank": 284
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 306,
-  "Name": "Wehner, Huel and DuBuque",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "UdListDefinitionId": 252,
-  "Rank": 642,
+  "Id": 985,
+  "Name": "Hane, McDermott and Hauck",
+  "Tooltip": "facere",
+  "Deleted": true,
+  "UdListDefinitionId": 282,
+  "Rank": 87,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 769
+      "FieldType": "System.Int32",
+      "FieldLength": 208
     }
   }
 }

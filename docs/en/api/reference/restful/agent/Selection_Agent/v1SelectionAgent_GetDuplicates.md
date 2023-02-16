@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Pollich Inc and Sons"
+  "Name": "Gutkowski Group"
 }
 ```
 
@@ -92,17 +92,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Ebert, Robel and Wisoky",
-    "SoPrimaryKey": 221,
-    "EntryName": "Kreiger, Mann and Zboncak",
-    "EntryIdentifier": "quia",
-    "RuleDisplayName": "Metz, Sanford and Huel",
+    "RuleName": "Muller LLC",
+    "SoPrimaryKey": 818,
+    "EntryName": "Sauer Inc and Sons",
+    "EntryIdentifier": "voluptatum",
+    "RuleDisplayName": "Nader-Schmitt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 3
+        "FieldType": "System.String",
+        "FieldLength": 942
       }
     }
   }

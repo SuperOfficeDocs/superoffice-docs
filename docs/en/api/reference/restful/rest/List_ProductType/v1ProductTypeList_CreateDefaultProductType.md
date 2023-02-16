@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 867,
-  "Name": "Barton Inc and Sons",
-  "Tooltip": "nam",
+  "Id": 941,
+  "Name": "Hudson Group",
+  "Tooltip": "est",
   "Deleted": false,
-  "UdListDefinitionId": 151,
-  "Rank": 518,
+  "UdListDefinitionId": 818,
+  "Rank": 15,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 374
+      "FieldType": "System.String",
+      "FieldLength": 136
     }
   }
 }

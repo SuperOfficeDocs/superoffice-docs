@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Sanford, Reynolds and Bradtke",
-  "DeviceName": "Pollich LLC",
-  "KeyName": "Ullrich Inc and Sons",
-  "TableName": "Walter LLC",
-  "RecordId": 660
+  "ApplicationName": "Pollich Inc and Sons",
+  "DeviceName": "Schaden Inc and Sons",
+  "KeyName": "Gerlach-Cremin",
+  "TableName": "Kihn-Kiehn",
+  "RecordId": 502
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "possimus",
-  "Value": "voluptatem",
-  "RecordId": 518,
-  "CreatedDate": "2003-05-07T11:22:38.3834434+02:00",
-  "UpdatedDate": "2015-06-28T11:22:38.3834434+02:00",
-  "UpdatedBy": "laudantium",
-  "CreatedBy": "officiis",
-  "TableName": "Gulgowski, McCullough and Bode",
+  "Key": "neque",
+  "Value": "fugit",
+  "RecordId": 646,
+  "CreatedDate": "2016-04-04T14:19:03.5602728+02:00",
+  "UpdatedDate": "2020-04-21T14:19:03.5602728+02:00",
+  "UpdatedBy": "dignissimos",
+  "CreatedBy": "eligendi",
+  "TableName": "Lindgren Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 444
+      "FieldType": "System.String",
+      "FieldLength": 380
     }
   }
 }

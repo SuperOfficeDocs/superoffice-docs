@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 544,
-  "Name": "Schiller-Little",
-  "Tooltip": "laudantium",
+  "Id": 662,
+  "Name": "Jakubowski Inc and Sons",
+  "Tooltip": "error",
   "Deleted": false,
-  "Rank": 175,
+  "Rank": 610,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "doloribus",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "deserunt",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 234,
-  "Name": "Mayer-Hermiston",
-  "Tooltip": "unde",
-  "Deleted": false,
-  "Rank": 502,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eum",
-  "InUseByUserDefinedFields": false,
+  "Id": 509,
+  "Name": "Huels-Fay",
+  "Tooltip": "corrupti",
+  "Deleted": true,
+  "Rank": 955,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "est",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 991
+      "FieldLength": 774
     }
   }
 }

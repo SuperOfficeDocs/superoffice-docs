@@ -25,7 +25,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=527
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=539
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,53 +97,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 684,
-  "Name": "Klocko-Nienow",
-  "Tooltip": "nihil",
-  "Rank": 794,
+  "SaleTypeId": 345,
+  "Name": "Mayert, Schuppe and Willms",
+  "Tooltip": "et",
+  "Rank": 643,
   "DurationUnit": "Century",
-  "SaleDuration": 937,
-  "SaleTypeCatId": 525,
+  "SaleDuration": 211,
+  "SaleTypeCatId": 822,
   "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": false,
+  "HasGuide": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 126,
-  "QuoteLinesTemplate": 724,
-  "ConfirmationLinesTemplate": 69,
+  "DefaultQuoteValidity": 130,
+  "QuoteLinesTemplate": 622,
+  "ConfirmationLinesTemplate": 343,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 222,
-  "MinEarningPercent": 374,
-  "GroupQuoteLinesBy": 41,
-  "SortGroupLinesBy": 557,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 526,
+  "MinEarningPercent": 603,
+  "GroupQuoteLinesBy": 411,
+  "SortGroupLinesBy": 426,
   "Stages": [
     {
-      "Id": 255,
-      "Name": "Corwin, Greenholt and Sawayn",
-      "ToolTip": "Adipisci ea autem est eius nobis.",
-      "Deleted": false,
-      "Rank": 251,
-      "Type": "quas",
-      "ColorBlock": 277,
-      "IconHint": "magni",
-      "Selected": false,
-      "LastChanged": "2009-10-20T11:22:38.445931+02:00",
+      "Id": 281,
+      "Name": "Lowe Group",
+      "ToolTip": "In ut sunt.",
+      "Deleted": true,
+      "Rank": 173,
+      "Type": "delectus",
+      "ColorBlock": 245,
+      "IconHint": "possimus",
+      "Selected": true,
+      "LastChanged": "2000-11-10T14:19:03.6082484+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sint",
-      "StyleHint": "excepturi",
-      "Hidden": true,
-      "FullName": "Dr. Meagan Jast",
+      "ExtraInfo": "inventore",
+      "StyleHint": "veniam",
+      "Hidden": false,
+      "FullName": "Mrs. Abagail Gunner Ankunding V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 108
+          "FieldType": "System.Int32",
+          "FieldLength": 20
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 742
+      "FieldLength": 938
     }
   }
 }

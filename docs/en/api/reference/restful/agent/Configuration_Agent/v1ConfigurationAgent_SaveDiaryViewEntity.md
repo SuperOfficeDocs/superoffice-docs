@@ -76,39 +76,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 506,
-  "Name": "Weimann LLC",
-  "Tooltip": "ipsam",
-  "VisibleColumns": 837,
-  "Rank": 424,
-  "AssocId": 879,
+  "DiaryViewId": 340,
+  "Name": "Bayer LLC",
+  "Tooltip": "est",
+  "VisibleColumns": 243,
+  "Rank": 953,
+  "AssocId": 182,
   "AssociateList": [
     {
-      "Id": 976,
-      "Name": "Emard Group",
-      "ToolTip": "Necessitatibus impedit voluptatem quia atque.",
+      "Id": 839,
+      "Name": "Leffler-O'Reilly",
+      "ToolTip": "Vel rem esse.",
       "Deleted": false,
-      "Rank": 129,
-      "Type": "et",
-      "ColorBlock": 241,
-      "IconHint": "iure",
+      "Rank": 31,
+      "Type": "aliquam",
+      "ColorBlock": 5,
+      "IconHint": "hic",
       "Selected": true,
-      "LastChanged": "2006-10-15T11:22:37.6023765+02:00",
+      "LastChanged": "2019-05-28T14:19:02.916778+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quia",
-      "StyleHint": "et",
+      "ExtraInfo": "eum",
+      "StyleHint": "voluptas",
       "Hidden": false,
-      "FullName": "Prof. Jennyfer Reece Kemmer II"
+      "FullName": "Prof. Immanuel Garett Swift Sr."
     }
   ],
-  "TzLocationId": 996
+  "TzLocationId": 26
 }
 ```
 
@@ -119,38 +119,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 773,
-  "Name": "Botsford Group",
-  "Tooltip": "quibusdam",
-  "VisibleColumns": 568,
-  "Rank": 771,
-  "AssocId": 413,
+  "DiaryViewId": 262,
+  "Name": "Halvorson-Durgan",
+  "Tooltip": "eligendi",
+  "VisibleColumns": 159,
+  "Rank": 285,
+  "AssocId": 34,
   "AssociateList": [
     {
-      "Id": 936,
-      "Name": "O'Reilly, Dickens and Kub",
-      "ToolTip": "Reiciendis maxime.",
-      "Deleted": false,
-      "Rank": 552,
-      "Type": "minima",
-      "ColorBlock": 315,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2004-03-12T11:22:37.6023765+01:00",
+      "Id": 934,
+      "Name": "Grimes, Aufderhar and Stoltenberg",
+      "ToolTip": "In tenetur repellat explicabo nemo.",
+      "Deleted": true,
+      "Rank": 36,
+      "Type": "consequatur",
+      "ColorBlock": 640,
+      "IconHint": "quia",
+      "Selected": false,
+      "LastChanged": "2015-01-20T14:19:02.916778+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "alias",
+      "ExtraInfo": "doloremque",
+      "StyleHint": "consequuntur",
       "Hidden": false,
-      "FullName": "Mrs. Wilma Ceasar Gleason III",
+      "FullName": "Jeffery Schiller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 246
+          "FieldLength": 937
         }
       }
     }
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 386
+      "FieldLength": 660
     }
   }
 }

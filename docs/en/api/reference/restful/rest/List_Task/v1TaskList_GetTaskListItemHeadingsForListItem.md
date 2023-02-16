@@ -30,7 +30,7 @@ Calls the Appointment agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 20,
-    "Name": "Prosacco, Conroy and Romaguera",
-    "ToolTip": "Minima maiores et illum.",
+    "Id": 838,
+    "Name": "Lockman Inc and Sons",
+    "ToolTip": "Quos iste accusantium.",
     "Deleted": false,
-    "Rank": 28,
-    "Type": "error",
-    "ColorBlock": 281,
-    "IconHint": "fugit",
+    "Rank": 554,
+    "Type": "rem",
+    "ColorBlock": 638,
+    "IconHint": "tempore",
     "Selected": true,
-    "LastChanged": "2003-01-11T11:22:46.2253576+01:00",
+    "LastChanged": "2015-06-12T14:19:11.6433214+02:00",
     "ChildItems": [
       {
-        "Id": 591,
-        "Name": "Tremblay Inc and Sons",
-        "ToolTip": "Sit sed sunt.",
-        "Deleted": false,
-        "Rank": 465,
-        "Type": "voluptate",
-        "ColorBlock": 904,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "2022-03-16T11:22:46.2253576+01:00",
+        "Id": 603,
+        "Name": "Weber LLC",
+        "ToolTip": "Alias blanditiis ut totam commodi itaque qui.",
+        "Deleted": true,
+        "Rank": 648,
+        "Type": "facere",
+        "ColorBlock": 524,
+        "IconHint": "inventore",
+        "Selected": false,
+        "LastChanged": "2007-07-14T14:19:11.6433214+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "delectus",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Elza Moore",
+        "FullName": "Sadye Feeney",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 954
+            "FieldType": "System.String",
+            "FieldLength": 71
           }
         }
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "delectus",
-    "Hidden": false,
-    "FullName": "Dr. Katharina Davion Gulgowski",
+    "ExtraInfo": "numquam",
+    "StyleHint": "distinctio",
+    "Hidden": true,
+    "FullName": "Guadalupe Kuhn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 147
+        "FieldLength": 560
       }
     }
   }

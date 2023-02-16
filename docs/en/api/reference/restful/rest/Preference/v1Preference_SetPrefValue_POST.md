@@ -75,16 +75,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "est",
+  "RawValue": "voluptatem",
   "Specification": null,
-  "DisplayValue": "sapiente",
-  "DisplayTooltip": "consequatur",
+  "DisplayValue": "odio",
+  "DisplayTooltip": "nostrum",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 556,
-  "PrefDescId": 891,
-  "TableName": "Hoppe-Hyatt",
-  "UserPreferenceId": 658
+  "TargetId": 7,
+  "PrefDescId": 110,
+  "TableName": "Strosin Inc and Sons",
+  "UserPreferenceId": 684
 }
 ```
 

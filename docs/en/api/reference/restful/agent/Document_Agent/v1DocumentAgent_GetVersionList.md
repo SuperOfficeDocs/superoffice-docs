@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 391
+  "DocumentId": 572
 }
 ```
 
@@ -94,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "amet",
-    "DocumentId": 734,
-    "VersionId": "quasi",
-    "CheckedInDate": "2018-04-17T11:22:38.1334506+02:00",
-    "CheckedInByName": "Senger Inc and Sons",
-    "CheckedInByAssociateId": 426,
-    "Description": "Upgradable asynchronous paradigm",
-    "DisplayText": "est",
+    "ExternalReference": "officia",
+    "DocumentId": 92,
+    "VersionId": "eius",
+    "CheckedInDate": "2002-07-01T14:19:03.3386569+02:00",
+    "CheckedInByName": "Stokes, Ondricka and Luettgen",
+    "CheckedInByAssociateId": 477,
+    "Description": "Networked fault-tolerant architecture",
+    "DisplayText": "veniam",
     "ExtraFields": [
-      "odit",
-      "culpa"
+      "odio",
+      "modi"
     ]
   }
 ]

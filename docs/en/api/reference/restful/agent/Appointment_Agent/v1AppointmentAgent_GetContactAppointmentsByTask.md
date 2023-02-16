@@ -126,15 +126,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 348,
-  "StartTime": "2009-10-31T11:22:36.9306587+01:00",
-  "EndTime": "2016-08-27T11:22:36.9306587+02:00",
-  "Count": 97,
-  "TaskId": 409
+  "ContactId": 102,
+  "StartTime": "2007-06-14T14:19:02.3418722+02:00",
+  "EndTime": "2020-08-26T14:19:02.3418722+02:00",
+  "Count": 844,
+  "TaskId": 184
 }
 ```
 
@@ -146,61 +146,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 567,
-    "StartDate": "2011-06-26T11:22:36.9306587+02:00",
-    "EndDate": "2022-05-04T11:22:36.9306587+02:00",
+    "AppointmentId": 13,
+    "StartDate": "2009-03-12T14:19:02.3574969+01:00",
+    "EndDate": "2013-12-27T14:19:02.3574969+01:00",
     "Type": "BookingForChecklist",
-    "Task": "vel",
-    "AssociateFullName": "Alysson Dach",
-    "ContactName": "Baumbach, Hoppe and O'Hara",
-    "Description": "Future-proofed radical projection",
-    "PersonFullName": "Mozell Kling I",
-    "PersonId": 294,
-    "ContactId": 832,
-    "ProjectId": 909,
-    "ProjectName": "Maggio-Predovic",
+    "Task": "sit",
+    "AssociateFullName": "Marvin Lilyan Ruecker DDS",
+    "ContactName": "Armstrong, McDermott and Yost",
+    "Description": "Profound assymetric attitude",
+    "PersonFullName": "Pedro Parker",
+    "PersonId": 122,
+    "ContactId": 809,
+    "ProjectId": 68,
+    "ProjectName": "Ziemann-Ernser",
     "IsPublished": false,
-    "AssociateId": 591,
-    "ColorIndex": 205,
+    "AssociateId": 904,
+    "ColorIndex": 713,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 479,
-    "PriorityName": "O'Hara Group",
+    "PriorityId": 562,
+    "PriorityName": "Morissette Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": true,
     "IsBooking": true,
-    "ActiveDate": "2019-01-12T11:22:36.9306587+01:00",
+    "ActiveDate": "2004-04-01T14:19:02.3574969+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-03-01T11:22:36.9306587+01:00",
-    "RecurringEndDate": "2017-09-30T11:22:36.9306587+02:00",
-    "MotherId": 133,
-    "AssignedBy": 708,
-    "AssignedByFullName": "Neal Grant",
+    "RecurringStartDate": "2021-07-19T14:19:02.3574969+02:00",
+    "RecurringEndDate": "2001-09-22T14:19:02.3574969+02:00",
+    "MotherId": 592,
+    "AssignedBy": 689,
+    "AssignedByFullName": "Florence O'Kon",
     "RejectReason": "",
-    "Location": "qui",
-    "AlarmLeadTime": "quam",
-    "SaleId": 197,
-    "SaleName": "Ryan, Wintheiser and Cummerata",
-    "AssociateName": "Feil-Kuphal",
-    "CreatedDate": "2013-09-17T11:22:36.9306587+02:00",
-    "CreatedBy": "harum",
-    "CreatedByFullName": "Felton Bartoletti",
-    "CreatedByAssociateId": 589,
+    "Location": "quo",
+    "AlarmLeadTime": "molestias",
+    "SaleId": 785,
+    "SaleName": "Hilpert, Harber and Corkery",
+    "AssociateName": "Langworth, Wuckert and Farrell",
+    "CreatedDate": "2016-05-21T14:19:02.3574969+02:00",
+    "CreatedBy": "quia",
+    "CreatedByFullName": "Coby Kutch",
+    "CreatedByAssociateId": 230,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldType": "System.String",
+        "FieldLength": 539
       }
     }
   }

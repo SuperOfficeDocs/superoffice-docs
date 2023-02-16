@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 579,
-  "Id": 818,
-  "HistoryName": "Crist Inc and Sons",
-  "HistoryId": 372,
-  "AssociateId": 663,
-  "Name": "Hirthe, Tromp and Tillman",
-  "ItemInfo": "animi",
+  "Rank": 172,
+  "Id": 162,
+  "HistoryName": "Torp, Weissnat and Jast",
+  "HistoryId": 597,
+  "AssociateId": 860,
+  "Name": "Reinger, Berge and Mayer",
+  "ItemInfo": "quos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 608
+      "FieldType": "System.String",
+      "FieldLength": 173
     }
   }
 }

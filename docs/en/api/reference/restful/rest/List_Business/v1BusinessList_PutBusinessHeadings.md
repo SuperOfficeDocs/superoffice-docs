@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 695,
-    "Name": "Willms LLC",
-    "Tooltip": "recusandae",
+    "HeadingId": 435,
+    "Name": "Cruickshank, Marvin and Kertzmann",
+    "Tooltip": "magni",
     "Deleted": false,
-    "Rank": 225,
-    "UdListDefinitionId": 107
+    "Rank": 214,
+    "UdListDefinitionId": 684
   },
   {
-    "HeadingId": 695,
-    "Name": "Willms LLC",
-    "Tooltip": "recusandae",
+    "HeadingId": 435,
+    "Name": "Cruickshank, Marvin and Kertzmann",
+    "Tooltip": "magni",
     "Deleted": false,
-    "Rank": 225,
-    "UdListDefinitionId": 107
+    "Rank": 214,
+    "UdListDefinitionId": 684
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 300,
-    "Name": "Ferry LLC",
-    "Tooltip": "provident",
-    "Deleted": true,
-    "Rank": 392,
-    "UdListDefinitionId": 683,
+    "HeadingId": 593,
+    "Name": "Mante-Sawayn",
+    "Tooltip": "similique",
+    "Deleted": false,
+    "Rank": 600,
+    "UdListDefinitionId": 114,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 810
+        "FieldType": "System.Int32",
+        "FieldLength": 365
       }
     }
   }

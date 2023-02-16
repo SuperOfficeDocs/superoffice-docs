@@ -88,7 +88,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "occaecati",
+  "Path": "recusandae",
   "Entity": null
 }
 ```
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 393,
+  "HierarchyId": 365,
   "Domain": "Dashboards",
-  "Name": "Lehner, Senger and Armstrong",
-  "Fullname": "quis",
-  "ParentId": 593,
+  "Name": "Kemmer LLC",
+  "Fullname": "id",
+  "ParentId": 788,
   "Children": [
     {
-      "HierarchyId": 685,
+      "HierarchyId": 569,
       "Domain": "Dashboards",
-      "Name": "Grady, Jacobson and Koss",
-      "Fullname": "modi",
-      "ParentId": 191,
+      "Name": "Kreiger Group",
+      "Fullname": "tempora",
+      "ParentId": 924,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2014-01-21T11:22:38.5084132+01:00",
-      "RegisteredAssociateId": 143,
-      "Updated": "2002-07-31T11:22:38.5084132+02:00",
-      "UpdatedAssociateId": 852,
+      "Registered": "2019-04-07T14:19:03.6707496+02:00",
+      "RegisteredAssociateId": 496,
+      "Updated": "2004-01-10T14:19:03.6707496+01:00",
+      "UpdatedAssociateId": 633,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 222
+          "FieldLength": 309
         }
       }
     }
   ],
-  "Registered": "2014-09-14T11:22:38.5084132+02:00",
-  "RegisteredAssociateId": 131,
-  "Updated": "2014-12-25T11:22:38.5084132+01:00",
-  "UpdatedAssociateId": 374,
+  "Registered": "2000-05-20T14:19:03.6707496+02:00",
+  "RegisteredAssociateId": 653,
+  "Updated": "1999-07-07T14:19:03.6707496+02:00",
+  "UpdatedAssociateId": 865,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 745
+      "FieldLength": 908
     }
   }
 }

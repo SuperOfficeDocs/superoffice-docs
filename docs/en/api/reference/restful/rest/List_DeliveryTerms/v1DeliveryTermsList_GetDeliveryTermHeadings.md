@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 445,
-    "Name": "Renner, Emard and Kertzmann",
-    "Tooltip": "illum",
+    "HeadingId": 349,
+    "Name": "Pouros-Erdman",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 543,
-    "UdListDefinitionId": 3,
+    "Rank": 501,
+    "UdListDefinitionId": 281,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 970
+        "FieldType": "System.String",
+        "FieldLength": 121
       }
     }
   }

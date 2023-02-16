@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 11.29.2022
+so.date: 02.15.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,6 +24,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IAppointmentAge
 * [CalculateDays](calculatedays.md)
 * [CanAssignToProjectMember](canassigntoprojectmember.md)
 * [CleanUpBookingDeleted](cleanupbookingdeleted.md)
+* [CleanUpBookingDeletedWithUpdateMode](cleanupbookingdeletedwithupdatemode.md)
 * [CleanUpRecurringBookingDeleted](cleanuprecurringbookingdeleted.md)
 * [CreateAndAccept](createandaccept.md)
 * [CreateAndAcceptWithEmailConfirmation](createandacceptwithemailconfirmation.md)
@@ -105,6 +106,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IAppointmentAge
 * [SaveTaskListItem](savetasklistitem.md)
 * [SetActivityStatus](setactivitystatus.md)
 * [SetSeen](setseen.md)
+* [SetSeenMany](setseenmany.md)
 * [ToggleActivities](toggleactivities.md)
 * [ToggleActivity](toggleactivity.md)
 * [ToggleAndSetActivities](toggleandsetactivities.md)

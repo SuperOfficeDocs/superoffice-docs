@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Howe, Jewess and Murphy",
-  "GroupId": 412
+  "UdListDefinitionName": "Rolfson Group",
+  "GroupId": 961
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 539,
-    "Name": "Haley-Ullrich",
-    "ToolTip": "Rerum quia illo repellat.",
+    "Id": 650,
+    "Name": "Reichert Inc and Sons",
+    "ToolTip": "Et culpa est velit quae blanditiis consectetur corporis.",
     "Deleted": false,
-    "Rank": 601,
-    "Type": "voluptas",
-    "ColorBlock": 5,
-    "IconHint": "aperiam",
-    "Selected": true,
-    "LastChanged": "2013-11-09T11:22:38.4615502+01:00",
+    "Rank": 824,
+    "Type": "quia",
+    "ColorBlock": 151,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2015-04-18T14:19:03.6238736+02:00",
     "ChildItems": [
       {
-        "Id": 739,
-        "Name": "Trantow, Quigley and Witting",
-        "ToolTip": "Officia ut minus est.",
-        "Deleted": true,
-        "Rank": 135,
-        "Type": "aut",
-        "ColorBlock": 472,
-        "IconHint": "aperiam",
-        "Selected": false,
-        "LastChanged": "2018-01-26T11:22:38.4615502+01:00",
+        "Id": 957,
+        "Name": "Runolfsdottir, Greenholt and Gleichner",
+        "ToolTip": "Qui eos ducimus enim ratione facere dolore et.",
+        "Deleted": false,
+        "Rank": 372,
+        "Type": "tempore",
+        "ColorBlock": 839,
+        "IconHint": "laboriosam",
+        "Selected": true,
+        "LastChanged": "2004-12-13T14:19:03.6238736+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "est",
+        "ExtraInfo": "quo",
+        "StyleHint": "a",
         "Hidden": false,
-        "FullName": "Maxine Block",
+        "FullName": "Winona Murray",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 518
+            "FieldLength": 359
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "voluptatibus",
+    "ExtraInfo": "sint",
+    "StyleHint": "unde",
     "Hidden": false,
-    "FullName": "Miss Jeff West Jr.",
+    "FullName": "Elvis Grady",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 569
+        "FieldType": "System.String",
+        "FieldLength": 90
       }
     }
   }

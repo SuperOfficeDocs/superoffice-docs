@@ -113,28 +113,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 827,
-  "SourcePersonId": 501,
-  "DestinationContactId": 286,
-  "DestinationPersonId": 323,
-  "RelationId": 956,
-  "Comment": "fugit",
-  "RelationDefinitionId": 121,
-  "Reversed": 188,
-  "UpdatedDate": "2002-04-25T11:22:44.5694964+02:00",
-  "CreatedDate": "2006-11-29T11:22:44.5694964+01:00",
+  "SourceContactId": 752,
+  "SourcePersonId": 799,
+  "DestinationContactId": 771,
+  "DestinationPersonId": 253,
+  "RelationId": 340,
+  "Comment": "ex",
+  "RelationDefinitionId": 177,
+  "Reversed": 4,
+  "UpdatedDate": "2022-06-24T14:19:10.240473+02:00",
+  "CreatedDate": "2020-04-02T14:19:10.240473+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Grady Group",
-  "SourcePersonName": "Jakubowski, Yundt and Klein",
-  "DestinationContactName": "Bartoletti, Hermann and Schultz",
-  "DestinationPersonName": "Dicki Group",
-  "ActiveText": "consequatur",
-  "PassiveText": "consequatur"
+  "SourceContactName": "Dicki Inc and Sons",
+  "SourcePersonName": "Balistreri Inc and Sons",
+  "DestinationContactName": "Pfannerstill Inc and Sons",
+  "DestinationPersonName": "Mohr-Swaniawski",
+  "ActiveText": "ut",
+  "PassiveText": "ut"
 }
 ```
 
@@ -145,35 +145,35 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 923,
-  "SourcePersonId": 521,
-  "DestinationContactId": 137,
-  "DestinationPersonId": 109,
-  "RelationId": 565,
-  "Comment": "quidem",
-  "RelationDefinitionId": 432,
-  "Reversed": 922,
-  "UpdatedDate": "2014-12-29T11:22:44.5694964+01:00",
-  "CreatedDate": "1998-12-24T11:22:44.5694964+01:00",
+  "SourceContactId": 450,
+  "SourcePersonId": 141,
+  "DestinationContactId": 216,
+  "DestinationPersonId": 137,
+  "RelationId": 352,
+  "Comment": "neque",
+  "RelationDefinitionId": 49,
+  "Reversed": 859,
+  "UpdatedDate": "2016-09-26T14:19:10.240473+02:00",
+  "CreatedDate": "2014-07-27T14:19:10.240473+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Schulist-Abbott",
-  "SourcePersonName": "Carter-O'Reilly",
-  "DestinationContactName": "Herman-Sauer",
-  "DestinationPersonName": "Schamberger-Monahan",
-  "ActiveText": "laborum",
-  "PassiveText": "deleniti",
+  "SourceContactName": "Stanton, Powlowski and Bayer",
+  "SourcePersonName": "Barrows-Bartell",
+  "DestinationContactName": "Harvey LLC",
+  "DestinationPersonName": "Ledner, Effertz and Ledner",
+  "ActiveText": "suscipit",
+  "PassiveText": "corrupti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 431
+      "FieldLength": 378
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 447,
-  "Name": "Spencer-Braun",
-  "Tooltip": "excepturi",
+  "Id": 609,
+  "Name": "Bashirian-Schmitt",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 436,
+  "Rank": 20,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "molestiae",
+  "ListType": "aut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 544
+      "FieldLength": 900
     }
   },
   "_Links": {

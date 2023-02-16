@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 134,
-    "Name": "Stehr-Walsh",
-    "ToolTip": "Tenetur voluptas quia nostrum ea maiores asperiores perspiciatis.",
+    "Id": 997,
+    "Name": "Cummerata Group",
+    "ToolTip": "Quam et.",
     "Deleted": true,
-    "Rank": 158,
-    "Type": "sint",
-    "ColorBlock": 116,
-    "IconHint": "distinctio",
+    "Rank": 425,
+    "Type": "nihil",
+    "ColorBlock": 585,
+    "IconHint": "nobis",
     "Selected": false,
-    "LastChanged": "2010-04-02T11:22:45.8816758+02:00",
+    "LastChanged": "2013-12-28T14:19:11.2262177+01:00",
     "ChildItems": [
       {
-        "Id": 975,
-        "Name": "Aufderhar LLC",
-        "ToolTip": "Quis dolores beatae consequatur est delectus.",
+        "Id": 253,
+        "Name": "Bauch, Homenick and Hartmann",
+        "ToolTip": "Magni adipisci.",
         "Deleted": false,
-        "Rank": 397,
-        "Type": "rerum",
-        "ColorBlock": 123,
-        "IconHint": "minus",
-        "Selected": true,
-        "LastChanged": "2016-09-10T11:22:45.8816758+02:00",
+        "Rank": 820,
+        "Type": "quia",
+        "ColorBlock": 753,
+        "IconHint": "officiis",
+        "Selected": false,
+        "LastChanged": "2011-09-24T14:19:11.2262177+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
+        "ExtraInfo": "quia",
         "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Geraldine Hudson"
+        "FullName": "Mr. Adrian Devan Bartell"
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "eveniet",
+    "ExtraInfo": "est",
+    "StyleHint": "deserunt",
     "Hidden": false,
-    "FullName": "Zola Zemlak"
+    "FullName": "Lucio Edward Watsica Sr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 879,
-    "Name": "Bogisich, Wilderman and Doyle",
-    "ToolTip": "Voluptate ipsum officia nisi qui sit assumenda.",
+    "Id": 692,
+    "Name": "Mayer-Hermiston",
+    "ToolTip": "Ea optio consequatur quibusdam.",
     "Deleted": false,
-    "Rank": 384,
-    "Type": "et",
-    "ColorBlock": 269,
-    "IconHint": "ipsa",
+    "Rank": 707,
+    "Type": "aliquam",
+    "ColorBlock": 235,
+    "IconHint": "voluptatibus",
     "Selected": false,
-    "LastChanged": "2019-04-24T11:22:45.8816758+02:00",
+    "LastChanged": "2002-08-31T14:19:11.2262177+02:00",
     "ChildItems": [
       {
-        "Id": 687,
-        "Name": "Lowe Inc and Sons",
-        "ToolTip": "Vel facere libero in ipsa.",
+        "Id": 216,
+        "Name": "Kirlin-Spinka",
+        "ToolTip": "Quam ut repellendus ipsa nihil voluptas aut labore.",
         "Deleted": false,
-        "Rank": 51,
-        "Type": "nulla",
-        "ColorBlock": 649,
-        "IconHint": "quasi",
+        "Rank": 767,
+        "Type": "labore",
+        "ColorBlock": 661,
+        "IconHint": "aliquam",
         "Selected": false,
-        "LastChanged": "2005-09-07T11:22:45.8816758+02:00",
+        "LastChanged": "2003-07-19T14:19:11.2262177+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "reiciendis",
-        "Hidden": false,
-        "FullName": "Perry Cummerata",
+        "ExtraInfo": "dicta",
+        "StyleHint": "sapiente",
+        "Hidden": true,
+        "FullName": "Connor Hauck",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 211
+            "FieldLength": 409
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "nihil",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "minus",
     "Hidden": false,
-    "FullName": "Tyreek Windler",
+    "FullName": "Miss Pearlie Bernice Hackett Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 59
+        "FieldType": "System.String",
+        "FieldLength": 895
       }
     }
   }

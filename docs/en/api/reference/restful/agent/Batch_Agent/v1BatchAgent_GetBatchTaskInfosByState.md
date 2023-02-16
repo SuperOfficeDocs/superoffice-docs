@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,37 +109,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 893,
-    "Name": "McCullough-Wyman",
-    "AssociateId": 646,
-    "DetailsTable": 756,
-    "DetailsRecord": 164,
-    "IsSystemTask": false,
+    "Id": 343,
+    "Name": "Kuhic, Prosacco and King",
+    "AssociateId": 491,
+    "DetailsTable": 302,
+    "DetailsRecord": 424,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "cupiditate",
-      "ParameterObject2": "quas"
+      "ParameterObject1": "non",
+      "ParameterObject2": "autem"
     },
-    "LastStarted": "2006-05-13T11:22:37.4461725+02:00",
-    "Created": "2005-05-26T11:22:37.4461725+02:00",
-    "StartCount": 894,
-    "DatabaseSerialNumber": "1323860",
-    "Context": "qui",
-    "Result": "minima",
+    "LastStarted": "2010-08-16T14:19:02.7594283+02:00",
+    "Created": "2007-09-23T14:19:02.7594283+02:00",
+    "StartCount": 202,
+    "DatabaseSerialNumber": "1472675",
+    "Context": "rerum",
+    "Result": "dolor",
     "State": "All",
-    "Description": "Seamless high-level pricing structure",
-    "Response": "consectetur",
-    "Request": "molestias",
-    "ProgressDescription": "Compatible 24/7 utilisation",
-    "ProgressPercent": 726,
-    "FileName": "Fadel, Keeling and Adams",
+    "Description": "Intuitive contextually-based collaboration",
+    "Response": "qui",
+    "Request": "nobis",
+    "ProgressDescription": "Synchronised heuristic software",
+    "ProgressPercent": 608,
+    "FileName": "Hettinger, Moore and Bayer",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 232
+        "FieldType": "System.Int32",
+        "FieldLength": 227
       }
     }
   }

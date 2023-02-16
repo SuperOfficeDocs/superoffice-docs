@@ -89,10 +89,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "deserunt",
-  "PrefKey": "aut",
+  "PrefSection": "consequuntur",
+  "PrefKey": "quas",
   "PrefLevel": "Database",
-  "OwnerId": 20
+  "OwnerId": 931
 }
 ```
 
@@ -104,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "commodi",
+  "RawValue": "vel",
   "Specification": null,
-  "DisplayValue": "eum",
-  "DisplayTooltip": "nostrum",
+  "DisplayValue": "ducimus",
+  "DisplayTooltip": "est",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 278,
-  "PrefDescId": 198,
-  "TableName": "Gottlieb Group",
-  "UserPreferenceId": 680,
+  "TargetId": 679,
+  "PrefDescId": 603,
+  "TableName": "Bergnaum Group",
+  "UserPreferenceId": 52,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 32
+      "FieldLength": 386
     }
   }
 }

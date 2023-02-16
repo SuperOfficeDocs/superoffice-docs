@@ -96,13 +96,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 566,
-  "QuoteAlternativeName": "Zulauf-Powlowski",
-  "QuoteAlternativeDescription": "Virtual needs-based intranet"
+  "QuoteVersionId": 653,
+  "QuoteAlternativeName": "Wilkinson LLC",
+  "QuoteAlternativeDescription": "Reactive multi-tasking challenge"
 }
 ```
 
@@ -113,35 +113,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 767,
-  "ERPQuoteAlternativeKey": "non",
-  "QuoteVersionId": 655,
-  "Name": "Hane, Schmidt and Schultz",
-  "Description": "Advanced secondary help-desk",
+  "QuoteAlternativeId": 936,
+  "ERPQuoteAlternativeKey": "voluptate",
+  "QuoteVersionId": 82,
+  "Name": "Stoltenberg-Corkery",
+  "Description": "Customizable solution-oriented architecture",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 17409.37,
-  "ERPDiscountAmount": 30415.469999999998,
-  "DiscountPercent": 10245.046,
-  "DiscountAmount": 24225.82,
+  "ERPDiscountPercent": 20747.079999999998,
+  "ERPDiscountAmount": 15948.926,
+  "DiscountPercent": 1748.772,
+  "DiscountAmount": 4879.638,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "nulla",
-  "VAT": 13802.136,
-  "EarningPercent": 19581.232,
-  "EarningAmount": 9038.456,
-  "SubTotal": 26432.156,
-  "TotalPrice": 13131.46,
-  "ExtraField1": "qui",
-  "ExtraField2": "autem",
-  "ExtraField3": "doloribus",
-  "ExtraField4": "deleniti",
-  "ExtraField5": "deserunt",
+  "VATInfo": "dolor",
+  "VAT": 7474.59,
+  "EarningPercent": 28184.061999999998,
+  "EarningAmount": 1353.888,
+  "SubTotal": 7499.6619999999994,
+  "TotalPrice": 26081.147999999997,
+  "ExtraField1": "quasi",
+  "ExtraField2": "sunt",
+  "ExtraField3": "ipsam",
+  "ExtraField4": "et",
+  "ExtraField5": "harum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 328
+      "FieldLength": 99
     }
   }
 }

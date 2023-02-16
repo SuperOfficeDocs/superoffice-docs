@@ -25,7 +25,7 @@ Gets a ProjectEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=337
+POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=192
 POST /api/v1/Agents/Project/GetProjectEventEntity?$select=name,department,category/id
 ```
 
@@ -105,94 +105,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "voluptatem",
-  "SignOffText": "non",
-  "SignOnConfirmationText": "hic",
-  "SignOnText": "sunt",
-  "EventDate": "2005-10-27T11:22:38.8520826+02:00",
+  "SignOffConfirmationText": "rerum",
+  "SignOffText": "provident",
+  "SignOnConfirmationText": "repudiandae",
+  "SignOnText": "quae",
+  "EventDate": "2011-08-25T14:19:03.9532088+02:00",
   "Enabled": false,
-  "CreatedDate": "2012-11-08T11:22:38.8520826+01:00",
+  "CreatedDate": "1996-11-30T14:19:03.9532088+01:00",
   "SignOff": true,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 679,
+  "SignOffTaskId": 711,
   "SignOffTriggersAssign": false,
   "SignOn": true,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 708,
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 335,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2009-06-20T11:22:38.8520826+02:00",
+  "UpdatedDate": "1997-01-21T14:19:03.9532088+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 815,
-  "Id": 393,
-  "PublishFrom": "2009-04-18T11:22:38.8520826+02:00",
+  "ProjectId": 103,
+  "Id": 64,
+  "PublishFrom": "2002-01-21T14:19:03.9532088+01:00",
   "PublishType": "External",
-  "PublishTo": "2019-11-22T11:22:38.8520826+01:00",
+  "PublishTo": "2001-07-11T14:19:03.9532088+02:00",
   "VisibleForCategories": [
     {
-      "Id": 962,
-      "Name": "Lueilwitz Inc and Sons",
-      "ToolTip": "Accusamus eos pariatur officiis ipsam quis.",
-      "Deleted": true,
-      "Rank": 108,
-      "Type": "et",
+      "Id": 566,
+      "Name": "Lindgren LLC",
+      "ToolTip": "Non tempora optio vel consectetur consectetur.",
+      "Deleted": false,
+      "Rank": 771,
+      "Type": "consequatur",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "non",
-      "ColorBlock": 748,
-      "ExtraInfo": "molestias",
-      "StyleHint": "beatae",
-      "FullName": "Felipa Waelchi",
+      "IconHint": "repellendus",
+      "ColorBlock": 74,
+      "ExtraInfo": "qui",
+      "StyleHint": "voluptatibus",
+      "FullName": "Kacie Ledner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 225
+          "FieldType": "System.String",
+          "FieldLength": 48
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 267,
-      "Name": "Cormier-Mertz",
-      "ToolTip": "Non nihil eius.",
+      "Id": 834,
+      "Name": "Bauch, Wilderman and Altenwerth",
+      "ToolTip": "Earum quis cumque aut soluta dolores.",
       "Deleted": false,
-      "Rank": 892,
-      "Type": "ducimus",
+      "Rank": 187,
+      "Type": "quos",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quos",
-      "ColorBlock": 770,
-      "ExtraInfo": "illum",
-      "StyleHint": "quia",
-      "FullName": "Selina Burley Spencer V",
+      "IconHint": "similique",
+      "ColorBlock": 786,
+      "ExtraInfo": "distinctio",
+      "StyleHint": "quidem",
+      "FullName": "Bethany Cole",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 835
+          "FieldType": "System.String",
+          "FieldLength": 223
         }
       }
     }
   ],
-  "IsPublished": false,
-  "IsVisibleForMembers": true,
-  "IsVisibleForCategories": true,
-  "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 444,
+  "IsPublished": true,
+  "IsVisibleForMembers": false,
+  "IsVisibleForCategories": false,
+  "IsVisibleForPersonInterests": true,
+  "ProjectEventId": 603,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 487
+      "FieldType": "System.String",
+      "FieldLength": 259
     }
   }
 }

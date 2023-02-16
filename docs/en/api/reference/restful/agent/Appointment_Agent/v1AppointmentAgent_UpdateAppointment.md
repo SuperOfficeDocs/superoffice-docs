@@ -125,16 +125,16 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 795,
-  "StartTime": "2022-11-18T11:22:36.946279+01:00",
-  "EndTime": "2003-09-11T11:22:36.946279+02:00",
-  "Status": 232,
-  "Type": 799,
-  "AssociateId": 487
+  "Id": 583,
+  "StartTime": "2017-10-13T14:19:02.3731222+02:00",
+  "EndTime": "2017-07-11T14:19:02.3731222+02:00",
+  "Status": 96,
+  "Type": 30,
+  "AssociateId": 849
 }
 ```
 
@@ -145,61 +145,61 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 850,
-  "StartDate": "2001-07-19T11:22:36.9619023+02:00",
-  "EndDate": "2004-08-24T11:22:36.9619023+02:00",
+  "AppointmentId": 534,
+  "StartDate": "2000-05-09T14:19:02.3731222+02:00",
+  "EndDate": "1995-10-21T14:19:02.3731222+02:00",
   "Type": "BookingForChecklist",
-  "Task": "inventore",
-  "AssociateFullName": "Merritt Schultz",
-  "ContactName": "Romaguera Group",
-  "Description": "Open-architected optimizing application",
-  "PersonFullName": "Dr. Jayden Jay Schaefer",
-  "PersonId": 333,
-  "ContactId": 1002,
-  "ProjectId": 888,
-  "ProjectName": "Koelpin LLC",
-  "IsPublished": true,
-  "AssociateId": 145,
-  "ColorIndex": 732,
-  "IsFree": true,
+  "Task": "facere",
+  "AssociateFullName": "Dr. Arianna Bradtke II",
+  "ContactName": "Ritchie-Beahan",
+  "Description": "Function-based needs-based data-warehouse",
+  "PersonFullName": "Dr. Veda Lionel Nicolas",
+  "PersonId": 931,
+  "ContactId": 883,
+  "ProjectId": 337,
+  "ProjectName": "Keeling Group",
+  "IsPublished": false,
+  "AssociateId": 81,
+  "ColorIndex": 237,
+  "IsFree": false,
   "HasAlarm": true,
-  "IsAlldayEvent": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 3,
-  "PriorityName": "Armstrong-Jakubowski",
+  "PriorityId": 969,
+  "PriorityName": "Dach-Hamill",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
+  "IsBookingMain": true,
   "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2013-06-11T11:22:36.9619023+02:00",
+  "ActiveDate": "2020-08-18T14:19:02.3731222+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2001-06-25T11:22:36.9619023+02:00",
-  "RecurringEndDate": "2002-03-09T11:22:36.9619023+01:00",
-  "MotherId": 679,
-  "AssignedBy": 345,
-  "AssignedByFullName": "Kailee Helene Gerlach I",
+  "RecurringStartDate": "1999-02-23T14:19:02.3731222+01:00",
+  "RecurringEndDate": "2017-07-09T14:19:02.3731222+02:00",
+  "MotherId": 345,
+  "AssignedBy": 435,
+  "AssignedByFullName": "Olaf Ken Mohr I",
   "RejectReason": "",
-  "Location": "saepe",
-  "AlarmLeadTime": "doloremque",
-  "SaleId": 839,
-  "SaleName": "Kemmer Group",
-  "AssociateName": "Ratke-Buckridge",
-  "CreatedDate": "2021-12-29T11:22:36.9619023+01:00",
-  "CreatedBy": "dolores",
-  "CreatedByFullName": "Sigrid Labadie",
-  "CreatedByAssociateId": 446,
+  "Location": "repellat",
+  "AlarmLeadTime": "quia",
+  "SaleId": 332,
+  "SaleName": "Hodkiewicz-Hagenes",
+  "AssociateName": "Stoltenberg LLC",
+  "CreatedDate": "2023-01-23T14:19:02.3731222+01:00",
+  "CreatedBy": "veniam",
+  "CreatedByFullName": "Zella Schultz DVM",
+  "CreatedByAssociateId": 767,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 594
+      "FieldType": "System.Int32",
+      "FieldLength": 990
     }
   }
 }

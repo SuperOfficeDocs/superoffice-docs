@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 319,
-  "Name": "Moen Inc and Sons",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 313,
-  "UdListDefinitionId": 398
+  "HeadingId": 67,
+  "Name": "Koss Inc and Sons",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 407,
+  "UdListDefinitionId": 509
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 219,
-  "Name": "Nienow, O'Reilly and Rutherford",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 155,
-  "UdListDefinitionId": 317,
+  "HeadingId": 9,
+  "Name": "Sawayn, Cronin and Lesch",
+  "Tooltip": "in",
+  "Deleted": true,
+  "Rank": 76,
+  "UdListDefinitionId": 193,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 268
+      "FieldType": "System.Int32",
+      "FieldLength": 475
     }
   }
 }

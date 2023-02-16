@@ -76,20 +76,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 555,
-  "AppointmentId": 88,
-  "ProjectId": 92,
-  "SaleId": 362,
+  "DocumentId": 744,
+  "AppointmentId": 685,
+  "ProjectId": 157,
+  "SaleId": 641,
   "Archived": false,
-  "ArchivedAt": "2003-05-22T11:22:38.2272328+02:00",
-  "ArchivedBy": 362,
-  "ArchivedDisplayName": "Harris-Kihn",
+  "ArchivedAt": "2001-10-05T14:19:03.4352715+02:00",
+  "ArchivedBy": 659,
+  "ArchivedDisplayName": "Maggio-Grant",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldLength": 599
     }
   }
 }

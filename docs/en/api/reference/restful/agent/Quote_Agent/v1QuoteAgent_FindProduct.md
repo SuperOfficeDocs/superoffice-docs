@@ -107,13 +107,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 411,
-  "UserInput": "aut",
-  "PriceListKey": "quis"
+  "QuoteAlternativeId": 589,
+  "UserInput": "perspiciatis",
+  "PriceListKey": "necessitatibus"
 }
 ```
 
@@ -125,73 +125,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 907,
-    "ERPProductKey": "nulla",
-    "ERPPriceListKey": "numquam",
-    "Name": "Rowe-Leffler",
-    "Description": "Persistent demand-driven extranet",
-    "Code": "quis",
-    "PriceUnit": "eos",
-    "QuantityUnit": "earum",
+    "ProductId": 824,
+    "ERPProductKey": "eaque",
+    "ERPPriceListKey": "ipsum",
+    "Name": "Kessler-Abshire",
+    "Description": "Upgradable reciprocal firmware",
+    "Code": "laudantium",
+    "PriceUnit": "animi",
+    "QuantityUnit": "laboriosam",
     "IsSubscription": false,
-    "SubscriptionUnit": "molestias",
-    "DefaultSubscriptionQuantity": 28557.007999999998,
-    "ItemNumber": "1291662",
+    "SubscriptionUnit": "eum",
+    "DefaultSubscriptionQuantity": 896.324,
+    "ItemNumber": "390879",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "omnis",
-    "ProductTypeKey": "sed",
-    "VAT": 9072.93,
-    "VATInfo": "quisquam",
-    "UnitCost": 20283.248,
-    "UnitMinimumPrice": 17356.092,
-    "UnitListPrice": 25833.561999999998,
+    "ProductFamilyKey": "ea",
+    "ProductTypeKey": "consectetur",
+    "VAT": 6982.552,
+    "VATInfo": "neque",
+    "UnitCost": 14632.645999999999,
+    "UnitMinimumPrice": 5318.398,
+    "UnitListPrice": 8399.119999999999,
     "InAssortment": true,
-    "Supplier": "quo",
-    "SupplierCode": "voluptas",
-    "Rights": "iste",
-    "Rule": "illo",
+    "Supplier": "soluta",
+    "SupplierCode": "enim",
+    "Rights": "distinctio",
+    "Rule": "saepe",
     "ExtraInfo": [
       {
-        "Name": "Metz-Cummings",
-        "Value": "qui",
+        "Name": "Gaylord, Eichmann and Abshire",
+        "Value": "iste",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 394
+            "FieldType": "System.String",
+            "FieldLength": 350
           }
         }
       },
       {
-        "Name": "Metz-Cummings",
-        "Value": "qui",
+        "Name": "Gaylord, Eichmann and Abshire",
+        "Value": "iste",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 394
+            "FieldType": "System.String",
+            "FieldLength": 350
           }
         }
       }
     ],
-    "RawExtraInfo": "temporibus",
-    "ExtraField1": "corporis",
-    "ExtraField2": "aut",
-    "ExtraField3": "pariatur",
-    "ExtraField4": "eveniet",
-    "ExtraField5": "est",
-    "InStock": 2695.24,
+    "RawExtraInfo": "omnis",
+    "ExtraField1": "delectus",
+    "ExtraField2": "maxime",
+    "ExtraField3": "rerum",
+    "ExtraField4": "ducimus",
+    "ExtraField5": "et",
+    "InStock": 4506.692,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 924
+        "FieldLength": 543
       }
     }
   }

@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/User/ExecuteUserCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CommandName": "Emard LLC",
+  "CommandName": "Wintheiser-Shields",
   "ActionResult": "Cancel",
   "User": null
 }
@@ -86,14 +86,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "velit",
+  "Message": "tempora",
   "Result": "Cancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldLength": 248
     }
   }
 }

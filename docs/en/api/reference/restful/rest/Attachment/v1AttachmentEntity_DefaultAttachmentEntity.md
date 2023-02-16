@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 133,
-  "Name": "Nicolas, Reynolds and Will",
-  "ContentType": "ratione",
-  "AttSize": 801,
-  "InlineImage": true,
-  "ContentId": "saepe",
+  "AttachmentId": 403,
+  "Name": "Reinger-Kozey",
+  "ContentType": "qui",
+  "AttSize": 821,
+  "InlineImage": false,
+  "ContentId": "ratione",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 980
+      "FieldType": "System.Int32",
+      "FieldLength": 626
     }
   }
 }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Kessler, Toy and Von",
-    "ToolTip": "Ut ut ipsum cupiditate ut esse aliquam hic.",
-    "Deleted": true,
-    "Rank": 800,
-    "Type": "quam",
-    "ColorBlock": 331,
-    "IconHint": "quam",
+    "Id": 810,
+    "Name": "Wunsch, Cummings and Christiansen",
+    "ToolTip": "Assumenda et.",
+    "Deleted": false,
+    "Rank": 643,
+    "Type": "ab",
+    "ColorBlock": 240,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2007-09-27T11:22:45.803528+02:00",
+    "LastChanged": "2016-03-08T14:19:11.1480931+01:00",
     "ChildItems": [
       {
-        "Id": 366,
-        "Name": "Kozey-Welch",
-        "ToolTip": "Qui laudantium laudantium pariatur ipsum consequuntur.",
+        "Id": 346,
+        "Name": "Boyer-Beer",
+        "ToolTip": "Voluptates autem magnam eaque.",
         "Deleted": false,
-        "Rank": 41,
-        "Type": "sequi",
-        "ColorBlock": 623,
-        "IconHint": "occaecati",
+        "Rank": 881,
+        "Type": "quasi",
+        "ColorBlock": 825,
+        "IconHint": "odit",
         "Selected": false,
-        "LastChanged": "2004-03-24T11:22:45.803528+01:00",
+        "LastChanged": "2010-09-04T14:19:11.1480931+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "commodi",
+        "ExtraInfo": "vero",
+        "StyleHint": "nesciunt",
         "Hidden": false,
-        "FullName": "Prof. Kurtis Nikolaus Jr."
+        "FullName": "Mabel Shakira Bergnaum Sr."
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "earum",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "modi",
     "Hidden": true,
-    "FullName": "Viviane Hamill"
+    "FullName": "Dorris Parker"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 813,
-    "Name": "Osinski Group",
-    "ToolTip": "Aspernatur unde impedit id cumque.",
+    "Id": 684,
+    "Name": "Pollich, Gusikowski and Spencer",
+    "ToolTip": "Aut consectetur consequatur iste corrupti qui.",
     "Deleted": false,
-    "Rank": 386,
-    "Type": "sint",
-    "ColorBlock": 861,
-    "IconHint": "ullam",
+    "Rank": 745,
+    "Type": "in",
+    "ColorBlock": 806,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2004-09-18T11:22:45.803528+02:00",
+    "LastChanged": "2006-10-01T14:19:11.1480931+02:00",
     "ChildItems": [
       {
-        "Id": 179,
-        "Name": "Stoltenberg, Littel and Reichel",
-        "ToolTip": "Eos omnis est consectetur quis.",
-        "Deleted": false,
-        "Rank": 973,
-        "Type": "nesciunt",
-        "ColorBlock": 504,
-        "IconHint": "magnam",
-        "Selected": false,
-        "LastChanged": "2022-06-28T11:22:45.803528+02:00",
+        "Id": 722,
+        "Name": "Larkin, Monahan and Leffler",
+        "ToolTip": "Dolor quam.",
+        "Deleted": true,
+        "Rank": 679,
+        "Type": "quae",
+        "ColorBlock": 65,
+        "IconHint": "pariatur",
+        "Selected": true,
+        "LastChanged": "1997-01-25T14:19:11.1480931+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "sed",
+        "ExtraInfo": "qui",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Trycia Bruen",
+        "FullName": "Prof. Shakira D'Amore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 309
+            "FieldLength": 276
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
+    "ExtraInfo": "sed",
     "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Prof. Mathias Cronin",
+    "Hidden": true,
+    "FullName": "Marjorie Douglas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 593
+        "FieldLength": 900
       }
     }
   }

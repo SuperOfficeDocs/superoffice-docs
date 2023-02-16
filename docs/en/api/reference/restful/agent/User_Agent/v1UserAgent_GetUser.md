@@ -27,7 +27,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=340
+POST /api/v1/Agents/User/GetUser?userId=829
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -102,14 +102,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 891,
-  "Name": "Ledner Inc and Sons",
-  "Rank": 294,
-  "Tooltip": "illo",
+  "AssociateId": 319,
+  "Name": "Schamberger Inc and Sons",
+  "Rank": 612,
+  "Tooltip": "aperiam",
   "LicenseOwners": [
     {
-      "Name": "Ryan LLC",
-      "Description": "Compatible full-range forecast",
+      "Name": "D'Amore, Crist and Harris",
+      "Description": "Proactive human-resource time-frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -123,13 +123,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 639
+          "FieldLength": 519
         }
       }
     },
     {
-      "Name": "Ryan LLC",
-      "Description": "Compatible full-range forecast",
+      "Name": "D'Amore, Crist and Harris",
+      "Description": "Proactive human-resource time-frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,7 +143,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 639
+          "FieldLength": 519
         }
       }
     }
@@ -152,110 +152,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "porro",
-      "Tooltip": "expedita",
-      "Id": 24,
-      "Rank": 870,
-      "Deleted": true,
+      "Value": "quo",
+      "Tooltip": "porro",
+      "Id": 962,
+      "Rank": 272,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 374
+          "FieldLength": 371
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "1996-09-17T11:22:39.6331547+02:00",
-  "Lastlogout": "2002-07-25T11:22:39.6331547+02:00",
-  "EjUserId": 984,
-  "RequestSignature": "voluptatem",
+  "Lastlogin": "1995-10-28T14:19:04.5797015+02:00",
+  "Lastlogout": "2005-12-02T14:19:04.5797015+01:00",
+  "EjUserId": 372,
+  "RequestSignature": "perferendis",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "dolores",
-      "DisplayValue": "magni",
+      "Value": "at",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 32
+          "FieldType": "System.String",
+          "FieldLength": 150
         }
       }
     },
     {
       "Type": null,
-      "Value": "dolores",
-      "DisplayValue": "magni",
+      "Value": "at",
+      "DisplayValue": "voluptas",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 150
+        }
+      }
+    }
+  ],
+  "UserName": "Keebler LLC",
+  "TicketCategories": [
+    {
+      "Id": 441,
+      "Name": "Runolfsdottir-Robel",
+      "ToolTip": "Facilis natus vitae laborum ipsam eum incidunt adipisci.",
+      "Deleted": true,
+      "Rank": 525,
+      "Type": "dolorem",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "ea",
+      "ColorBlock": 776,
+      "ExtraInfo": "exercitationem",
+      "StyleHint": "qui",
+      "FullName": "Gussie Legros",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 206
+        }
+      }
+    }
+  ],
+  "NickName": "Hyatt, McCullough and Rogahn",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "hic",
+    "ExtraFields2": "est"
+  },
+  "CustomFields": {
+    "CustomFields1": "quam",
+    "CustomFields2": "vel"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Parisian-Kuhlman",
+      "DisplayName": "Goodwin LLC",
+      "Description": "Right-sized uniform Graphic Interface",
+      "ToolTip": "Pariatur autem.",
+      "Actions": "Implicit",
+      "ActionData": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 32
-        }
-      }
-    }
-  ],
-  "UserName": "Lind-Champlin",
-  "TicketCategories": [
-    {
-      "Id": 308,
-      "Name": "Schumm, Lockman and Schowalter",
-      "ToolTip": "Velit culpa odit dolores.",
-      "Deleted": false,
-      "Rank": 790,
-      "Type": "sed",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "totam",
-      "ColorBlock": 754,
-      "ExtraInfo": "ut",
-      "StyleHint": "eaque",
-      "FullName": "Bonnie Mosciski DDS",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 734
-        }
-      }
-    }
-  ],
-  "NickName": "Grimes Group",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "vero",
-    "ExtraFields2": "enim"
-  },
-  "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "debitis"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Hegmann LLC",
-      "DisplayName": "Daniel-Christiansen",
-      "Description": "Distributed didactic conglomeration",
-      "ToolTip": "Totam est adipisci officia adipisci vel quae.",
-      "Actions": "Implicit",
-      "ActionData": "aut",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 809
+          "FieldLength": 75
         }
       }
     }
@@ -264,8 +264,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldType": "System.String",
+      "FieldLength": 535
     }
   }
 }

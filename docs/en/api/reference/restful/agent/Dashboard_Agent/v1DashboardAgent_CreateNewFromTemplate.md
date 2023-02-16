@@ -89,24 +89,24 @@ OK
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 963,
-  "Caption": "sit",
-  "Description": "Phased fresh-thinking initiative",
-  "SelectionId": 202,
+  "DashboardTileId": 275,
+  "Caption": "et",
+  "Description": "Virtual tertiary framework",
+  "SelectionId": 511,
   "VisibleFor": [
     {
-      "VisibleId": 248,
+      "VisibleId": 124,
       "Visibility": "All",
-      "DisplayValue": "commodi"
+      "DisplayValue": "repellendus"
     },
     {
-      "VisibleId": 248,
+      "VisibleId": 124,
       "Visibility": "All",
-      "DisplayValue": "commodi"
+      "DisplayValue": "repellendus"
     }
   ]
 }
@@ -119,64 +119,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 410,
-  "Caption": "in",
-  "Description": "Organic zero defect website",
-  "ChartName": "Gaylord Inc and Sons",
-  "ChartId": "porro",
+  "DashboardTileId": 522,
+  "Caption": "est",
+  "Description": "Enhanced encompassing encoding",
+  "ChartName": "McGlynn-Eichmann",
+  "ChartId": "ipsam",
   "IsDefault": false,
-  "AssociateId": 838,
-  "GroupId": 842,
-  "SelectionId": 198,
-  "Config": "et",
+  "AssociateId": 367,
+  "GroupId": 16,
+  "SelectionId": 425,
+  "Config": "pariatur",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Emard Inc and Sons",
-      "Description": "Multi-tiered mission-critical paradigm",
+      "Name": "Nienow-Pacocha",
+      "Description": "Pre-emptive disintermediate application",
       "Type": "Boolean",
-      "ListName": "Russel, Reinger and Senger",
+      "ListName": "Hoeger LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "dolorem",
-      "DefaultDataOption": false,
+      "Value": "cum",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 296
+          "FieldLength": 574
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 14,
+      "VisibleId": 705,
       "Visibility": "All",
-      "DisplayValue": "aliquam",
+      "DisplayValue": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 772
+          "FieldType": "System.String",
+          "FieldLength": 638
         }
       }
     },
     {
-      "VisibleId": 14,
+      "VisibleId": 705,
       "Visibility": "All",
-      "DisplayValue": "aliquam",
+      "DisplayValue": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 772
+          "FieldType": "System.String",
+          "FieldLength": 638
         }
       }
     }
@@ -185,8 +185,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 289
+      "FieldType": "System.Int32",
+      "FieldLength": 986
     }
   }
 }

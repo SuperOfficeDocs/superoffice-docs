@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 148
+  "PersonId": 994
 }
 ```
 
@@ -104,27 +104,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 538,
-    "Comment": "nesciunt",
-    "Registered": "2013-09-03T11:22:38.7271093+02:00",
-    "RegisteredAssociateId": 880,
-    "Updated": "1998-11-27T11:22:38.7271093+01:00",
-    "UpdatedAssociateId": 754,
-    "LegalBaseId": 863,
-    "LegalBaseKey": "velit",
-    "LegalBaseName": "Haag LLC",
-    "ConsentPurposeId": 192,
-    "ConsentPurposeKey": "deleniti",
-    "ConsentPurposeName": "Parisian, Lowe and Rosenbaum",
-    "ConsentSourceId": 225,
-    "ConsentSourceKey": "mollitia",
-    "ConsentSourceName": "Cruickshank-Nicolas",
+    "ConsentPersonId": 319,
+    "Comment": "unde",
+    "Registered": "2019-01-26T14:19:03.8582508+01:00",
+    "RegisteredAssociateId": 578,
+    "Updated": "2000-11-16T14:19:03.8582508+01:00",
+    "UpdatedAssociateId": 644,
+    "LegalBaseId": 385,
+    "LegalBaseKey": "quasi",
+    "LegalBaseName": "Botsford-Buckridge",
+    "ConsentPurposeId": 252,
+    "ConsentPurposeKey": "accusamus",
+    "ConsentPurposeName": "Gerhold-Ledner",
+    "ConsentSourceId": 139,
+    "ConsentSourceKey": "laudantium",
+    "ConsentSourceName": "Gerhold, Kertzmann and Quigley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 869
+        "FieldType": "System.String",
+        "FieldLength": 395
       }
     }
   }

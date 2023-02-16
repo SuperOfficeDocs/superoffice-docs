@@ -66,22 +66,22 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hintz LLC",
+  "ProviderName": "McKenzie-Rolfson",
   "Restrictions": [
     {
-      "Name": "Sauer-Lehner",
-      "Operator": "tenetur",
+      "Name": "Johnson, Emmerich and Hyatt",
+      "Operator": "laboriosam",
       "Values": [
-        "cumque",
-        "perferendis"
+        "doloremque",
+        "assumenda"
       ],
       "DisplayValues": [
-        "vel",
-        "sit"
+        "vitae",
+        "quod"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -89,13 +89,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 275,
+      "InterParenthesis": 35,
       "InterOperator": "And",
-      "UniqueHash": 832
+      "UniqueHash": 167
     }
   ],
-  "AssociateId": 884,
-  "ExtraInfo": "fugiat"
+  "AssociateId": 861,
+  "ExtraInfo": "in"
 }
 ```
 

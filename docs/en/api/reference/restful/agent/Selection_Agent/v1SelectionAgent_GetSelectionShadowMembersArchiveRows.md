@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 526,
-  "Select": "vel"
+  "SelectionId": 624,
+  "Select": "eos"
 }
 ```
 
@@ -96,23 +96,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Prosacco-Kiehn",
-    "PrimaryKey": 179,
+    "EntityName": "Batz-Schumm",
+    "PrimaryKey": 211,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "nam",
-        "TooltipHint": "maxime",
-        "LinkHint": "quas"
+        "DisplayValue": "voluptatem",
+        "TooltipHint": "omnis",
+        "LinkHint": "et"
       }
     },
-    "LinkHint": "nulla",
-    "StyleHint": "sunt",
+    "LinkHint": "voluptas",
+    "StyleHint": "labore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 328
+        "FieldLength": 937
       }
     }
   }

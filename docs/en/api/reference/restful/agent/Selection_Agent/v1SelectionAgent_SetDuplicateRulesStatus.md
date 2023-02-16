@@ -69,16 +69,16 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Douglas Group",
-      "DisplayName": "Gorczany-Kovacek",
-      "DisplayTooltip": "nostrum",
-      "IsActive": false
+      "Name": "Dare Inc and Sons",
+      "DisplayName": "Considine LLC",
+      "DisplayTooltip": "nobis",
+      "IsActive": true
     },
     {
-      "Name": "Douglas Group",
-      "DisplayName": "Gorczany-Kovacek",
-      "DisplayTooltip": "nostrum",
-      "IsActive": false
+      "Name": "Dare Inc and Sons",
+      "DisplayName": "Considine LLC",
+      "DisplayTooltip": "nobis",
+      "IsActive": true
     }
   ]
 }

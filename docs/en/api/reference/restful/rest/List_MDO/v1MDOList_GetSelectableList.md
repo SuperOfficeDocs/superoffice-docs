@@ -29,8 +29,8 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=non
-GET /api/v1/MDOList/{listname}/selectable?flat=True
+GET /api/v1/MDOList/{listname}/selectable?additional=consequuntur
+GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 372,
-    "Name": "Schuppe Group",
-    "ToolTip": "Sit rerum.",
+    "Id": 525,
+    "Name": "Nikolaus, Herman and Haley",
+    "ToolTip": "Tempore doloremque nostrum quasi vitae.",
     "Deleted": true,
-    "Rank": 447,
-    "Type": "voluptatem",
-    "ColorBlock": 905,
-    "IconHint": "pariatur",
-    "Selected": true,
-    "LastChanged": "2002-07-17T11:22:45.9441645+02:00",
+    "Rank": 456,
+    "Type": "et",
+    "ColorBlock": 340,
+    "IconHint": "nemo",
+    "Selected": false,
+    "LastChanged": "2009-11-11T14:19:11.2898728+01:00",
     "ChildItems": [
       {
-        "Id": 109,
-        "Name": "Walsh-Bosco",
-        "ToolTip": "Aut ut cumque.",
-        "Deleted": false,
-        "Rank": 639,
-        "Type": "adipisci",
-        "ColorBlock": 499,
-        "IconHint": "nisi",
+        "Id": 204,
+        "Name": "Kiehn, Conn and Kuhlman",
+        "ToolTip": "Doloribus cupiditate accusamus sit quisquam dolore similique.",
+        "Deleted": true,
+        "Rank": 688,
+        "Type": "et",
+        "ColorBlock": 460,
+        "IconHint": "repellendus",
         "Selected": true,
-        "LastChanged": "2018-02-18T11:22:45.9441645+01:00",
+        "LastChanged": "2010-07-29T14:19:11.2898728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "quia",
+        "ExtraInfo": "similique",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Marley Emmerich I",
+        "FullName": "Dane Heidenreich I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 183
+            "FieldLength": 213
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "aut",
+    "ExtraInfo": "totam",
+    "StyleHint": "occaecati",
     "Hidden": false,
-    "FullName": "Jaleel Weber",
+    "FullName": "Griffin Welch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 345
+        "FieldType": "System.Int32",
+        "FieldLength": 816
       }
     }
   }

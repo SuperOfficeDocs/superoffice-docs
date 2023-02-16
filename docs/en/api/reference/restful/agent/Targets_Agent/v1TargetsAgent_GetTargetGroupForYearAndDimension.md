@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 2,
-  "DimensionId": 685
+  "TargetYear": 330,
+  "DimensionId": 706
 }
 ```
 
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 295,
-  "Year": 254,
+  "TargetGroupId": 809,
+  "Year": 239,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 532,
+      "TargetAssignmentInfoId": 107,
       "Values": [
-        737,
-        677
+        871,
+        289
       ],
       "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 875,
-      "DimensionListItemDisplayName": "Beer, Botsford and Stokes",
+      "DimensionListItem": 712,
+      "DimensionListItemDisplayName": "Monahan-Lueilwitz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 661
+          "FieldType": "System.Int32",
+          "FieldLength": 575
         }
       }
     }
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldLength": 451
     }
   }
 }

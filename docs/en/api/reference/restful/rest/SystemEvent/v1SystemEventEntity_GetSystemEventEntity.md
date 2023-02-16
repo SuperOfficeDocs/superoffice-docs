@@ -91,22 +91,22 @@ HTTP/1.1 200 SystemEventEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 265,
+  "SystemEventId": 910,
   "Scope": "Database",
-  "Eta": "2011-12-10T11:22:45.225579+01:00",
-  "Eventkey": "iusto",
-  "Eventmess": "est",
-  "ExtraInfo": 296,
-  "Owner": 279,
-  "UpdatedCount": 482,
-  "Registered": "2021-08-31T11:22:45.225579+02:00",
+  "Eta": "2007-04-18T14:19:10.7873511+02:00",
+  "Eventkey": "sed",
+  "Eventmess": "ut",
+  "ExtraInfo": 799,
+  "Owner": 940,
+  "UpdatedCount": 478,
+  "Registered": "2022-08-28T14:19:10.7873511+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 988
+      "FieldType": "System.String",
+      "FieldLength": 132
     }
   },
   "_Links": {

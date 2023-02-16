@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,30 +107,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 436,
-    "Name": "Ward-Mante",
-    "Description": "Integrated 6th generation database",
+    "ProjectId": 745,
+    "Name": "Daniel, Waelchi and Stiedemann",
+    "Description": "Vision-oriented systemic strategy",
     "URL": "http://www.example.com/",
-    "Type": "qui",
-    "AssociateId": 699,
-    "AssociateFullName": "Prof. Kim Ortiz",
-    "TypeId": 512,
-    "Updated": "1997-07-25T11:22:38.8520826+02:00",
-    "StatusId": 62,
-    "Status": "laborum",
-    "TextId": 654,
-    "PublishTo": "2008-10-08T11:22:38.8520826+02:00",
-    "PublishFrom": "2014-04-16T11:22:38.8520826+02:00",
+    "Type": "pariatur",
+    "AssociateId": 288,
+    "AssociateFullName": "Amparo Brakus",
+    "TypeId": 571,
+    "Updated": "2018-11-25T14:19:03.9688343+01:00",
+    "StatusId": 169,
+    "Status": "ullam",
+    "TextId": 921,
+    "PublishTo": "2009-04-16T14:19:03.9688343+02:00",
+    "PublishFrom": "1997-01-04T14:19:03.9688343+01:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1016237",
-    "ActiveErpLinks": 322,
+    "ProjectNumber": "1102342",
+    "ActiveErpLinks": 614,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 85
+        "FieldLength": 914
       }
     }
   }

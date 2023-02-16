@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/List/GetHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "ea",
+  "Path": "assumenda",
   "Children": true
 }
 ```
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 13,
+  "HierarchyId": 555,
   "Domain": "Dashboards",
-  "Name": "Keeling Group",
-  "Fullname": "id",
-  "ParentId": 144,
+  "Name": "Olson, Konopelski and Hartmann",
+  "Fullname": "soluta",
+  "ParentId": 565,
   "Children": [
     {
-      "HierarchyId": 970,
+      "HierarchyId": 60,
       "Domain": "Dashboards",
-      "Name": "Beier, Lowe and Quitzon",
-      "Fullname": "cum",
-      "ParentId": 672,
+      "Name": "Quitzon Group",
+      "Fullname": "fugit",
+      "ParentId": 327,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2013-12-14T11:22:38.5084132+01:00",
-      "RegisteredAssociateId": 657,
-      "Updated": "2003-11-09T11:22:38.5084132+01:00",
-      "UpdatedAssociateId": 919,
+      "Registered": "2018-07-02T14:19:03.6707496+02:00",
+      "RegisteredAssociateId": 620,
+      "Updated": "2019-05-04T14:19:03.6707496+02:00",
+      "UpdatedAssociateId": 241,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 639
+          "FieldLength": 148
         }
       }
     }
   ],
-  "Registered": "2018-08-19T11:22:38.5084132+02:00",
-  "RegisteredAssociateId": 438,
-  "Updated": "2011-11-02T11:22:38.5084132+01:00",
-  "UpdatedAssociateId": 147,
+  "Registered": "2022-06-06T14:19:03.6707496+02:00",
+  "RegisteredAssociateId": 915,
+  "Updated": "2009-05-25T14:19:03.6707496+02:00",
+  "UpdatedAssociateId": 524,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 680
+      "FieldType": "System.Int32",
+      "FieldLength": 916
     }
   }
 }

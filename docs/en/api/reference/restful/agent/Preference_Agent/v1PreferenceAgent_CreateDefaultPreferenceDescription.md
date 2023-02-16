@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 636,
-  "Section": "numquam",
-  "Key": "corrupti",
-  "Name": "Rolfson, Davis and Bednar",
+  "PrefDescId": 552,
+  "Section": "nobis",
+  "Key": "aperiam",
+  "Name": "Kuphal-Ferry",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Total heuristic intranet",
+  "Description": "Function-based next generation alliance",
   "IsBuiltin": false,
-  "TableName": "McGlynn Inc and Sons",
-  "UserDefinedListId": 63,
-  "Rank": 473,
-  "SubGroup": "odit",
-  "MinLevel": 667,
-  "MaxValue": 686,
-  "MinValue": 506,
-  "RequiredLicense": "officia",
+  "TableName": "Bayer, Zboncak and Johnston",
+  "UserDefinedListId": 549,
+  "Rank": 192,
+  "SubGroup": "illum",
+  "MinLevel": 553,
+  "MaxValue": 585,
+  "MinValue": 852,
+  "RequiredLicense": "fugiat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldLength": 434
     }
   }
 }

@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Senger-Von",
+  "ProviderName": "King Group",
   "Restrictions": [
     {
-      "Name": "Lindgren Inc and Sons",
-      "Operator": "odio",
+      "Name": "Schaefer-Jenkins",
+      "Operator": "ut",
       "Values": [
-        "libero",
-        "sequi"
+        "enim",
+        "corporis"
       ],
       "DisplayValues": [
-        "est",
-        "earum"
+        "exercitationem",
+        "quasi"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 129,
+      "InterParenthesis": 333,
       "InterOperator": "And",
-      "UniqueHash": 201
+      "UniqueHash": 57
     }
   ]
 }
@@ -124,19 +124,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Rutherford Group",
-    "DisplayTooltip": "qui",
-    "DisplayType": "consectetur",
-    "CanOrderBy": false,
-    "Name": "Predovic Group",
+    "DisplayName": "McLaughlin Inc and Sons",
+    "DisplayTooltip": "ipsa",
+    "DisplayType": "eligendi",
+    "CanOrderBy": true,
+    "Name": "Berge LLC",
     "CanRestrictBy": false,
-    "RestrictionType": "quia",
-    "RestrictionListName": "Mitchell-Johnston",
+    "RestrictionType": "ipsum",
+    "RestrictionListName": "Rosenbaum, Zulauf and Swaniawski",
     "IsVisible": true,
-    "ExtraInfo": "earum",
-    "Width": "nesciunt",
-    "IconHint": "veritatis",
-    "HeadingIconHint": "ipsum"
+    "ExtraInfo": "error",
+    "Width": "modi",
+    "IconHint": "nostrum",
+    "HeadingIconHint": "qui"
   }
 ]
 ```

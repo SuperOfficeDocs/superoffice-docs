@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,36 +97,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 506,
-    "ParentId": 962,
-    "Name": "Rath, Luettgen and Weissnat",
-    "Fullname": "hic",
-    "CategoryMaster": 120,
+    "TicketCategoryId": 169,
+    "ParentId": 835,
+    "Name": "Grant, Davis and Strosin",
+    "Fullname": "eius",
+    "CategoryMaster": 319,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Barrows, Fay and Sporer",
+    "ExternalName": "Terry-Koch",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 998,
-    "ReplyTemplate": 64,
-    "NotificationEmail": "milton@gleichner.uk",
+    "AssignmentLag": 436,
+    "ReplyTemplate": 709,
+    "NotificationEmail": "clint_stiedemann@greenholt.info",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 91,
+    "EffectiveReplyTemplateId": 271,
     "ExtraFields": {
-      "ExtraFields1": "quis",
-      "ExtraFields2": "voluptas"
+      "ExtraFields1": "temporibus",
+      "ExtraFields2": "atque"
     },
     "CustomFields": {
-      "CustomFields1": "atque",
-      "CustomFields2": "recusandae"
+      "CustomFields1": "recusandae",
+      "CustomFields2": "ducimus"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 882
+        "FieldLength": 971
       }
     }
   }

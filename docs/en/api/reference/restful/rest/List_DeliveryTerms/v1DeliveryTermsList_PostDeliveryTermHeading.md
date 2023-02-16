@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 827,
-  "Name": "Gaylord-McKenzie",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 108,
-  "UdListDefinitionId": 497
+  "HeadingId": 371,
+  "Name": "Pouros, Toy and Dibbert",
+  "Tooltip": "ullam",
+  "Deleted": false,
+  "Rank": 58,
+  "UdListDefinitionId": 489
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 195,
-  "Name": "Maggio LLC",
-  "Tooltip": "error",
-  "Deleted": true,
-  "Rank": 152,
-  "UdListDefinitionId": 930,
+  "HeadingId": 14,
+  "Name": "Kiehn LLC",
+  "Tooltip": "harum",
+  "Deleted": false,
+  "Rank": 348,
+  "UdListDefinitionId": 146,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 765
+      "FieldType": "System.Int32",
+      "FieldLength": 98
     }
   }
 }

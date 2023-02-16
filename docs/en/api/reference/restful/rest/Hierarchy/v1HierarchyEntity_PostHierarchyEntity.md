@@ -93,36 +93,36 @@ OK
 POST /api/v1/Hierarchy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 507,
+  "HierarchyId": 39,
   "Domain": "Dashboards",
-  "Name": "Pfeffer-Weber",
-  "Fullname": "aut",
-  "ParentId": 594,
+  "Name": "Auer-Schaden",
+  "Fullname": "cupiditate",
+  "ParentId": 313,
   "Children": [
     {
-      "HierarchyId": 856,
+      "HierarchyId": 92,
       "Domain": "Dashboards",
-      "Name": "Ratke, Hermann and Farrell",
-      "Fullname": "dolorum",
-      "ParentId": 245,
+      "Name": "Stroman Inc and Sons",
+      "Fullname": "occaecati",
+      "ParentId": 697,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2012-01-07T11:22:44.8818691+01:00",
-      "RegisteredAssociateId": 910,
-      "Updated": "2001-05-28T11:22:44.8818691+02:00",
-      "UpdatedAssociateId": 45
+      "Registered": "2018-09-28T14:19:10.3654771+02:00",
+      "RegisteredAssociateId": 496,
+      "Updated": "2020-11-06T14:19:10.3654771+01:00",
+      "UpdatedAssociateId": 994
     }
   ],
-  "Registered": "2013-03-23T11:22:44.8818691+01:00",
-  "RegisteredAssociateId": 766,
-  "Updated": "2019-02-19T11:22:44.8818691+01:00",
-  "UpdatedAssociateId": 419
+  "Registered": "2018-02-14T14:19:10.3654771+01:00",
+  "RegisteredAssociateId": 407,
+  "Updated": "2008-02-11T14:19:10.3654771+01:00",
+  "UpdatedAssociateId": 385
 }
 ```
 
@@ -133,46 +133,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 215,
+  "HierarchyId": 67,
   "Domain": "Dashboards",
-  "Name": "Stoltenberg, Watsica and Hintz",
-  "Fullname": "repellendus",
-  "ParentId": 191,
+  "Name": "Champlin-Skiles",
+  "Fullname": "perferendis",
+  "ParentId": 534,
   "Children": [
     {
-      "HierarchyId": 552,
+      "HierarchyId": 350,
       "Domain": "Dashboards",
-      "Name": "Kshlerin, Hand and Jakubowski",
-      "Fullname": "inventore",
-      "ParentId": 310,
+      "Name": "Gleichner Group",
+      "Fullname": "illo",
+      "ParentId": 86,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-12-08T11:22:44.8818691+01:00",
-      "RegisteredAssociateId": 144,
-      "Updated": "2007-06-05T11:22:44.8818691+02:00",
-      "UpdatedAssociateId": 306,
+      "Registered": "2000-11-28T14:19:10.3654771+01:00",
+      "RegisteredAssociateId": 262,
+      "Updated": "2018-11-19T14:19:10.3654771+01:00",
+      "UpdatedAssociateId": 74,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 84
+          "FieldLength": 828
         }
       }
     }
   ],
-  "Registered": "2012-03-24T11:22:44.8818691+01:00",
-  "RegisteredAssociateId": 461,
-  "Updated": "2008-01-14T11:22:44.8818691+01:00",
-  "UpdatedAssociateId": 957,
+  "Registered": "2022-01-28T14:19:10.3654771+01:00",
+  "RegisteredAssociateId": 824,
+  "Updated": "2009-07-04T14:19:10.3654771+02:00",
+  "UpdatedAssociateId": 727,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 44
+      "FieldLength": 278
     }
   },
   "_Links": {

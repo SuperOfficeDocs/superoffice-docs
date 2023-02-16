@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,37 +90,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 897,
-  "Name": "Beatty, Bogan and Auer",
-  "Tooltip": "minus",
-  "SaveInDb": 136,
-  "Filename": "itaque",
-  "DefaultOref": "similique",
+  "DocumentTemplateId": 206,
+  "Name": "Morar LLC",
+  "Tooltip": "molestiae",
+  "SaveInDb": 597,
+  "Filename": "dicta",
+  "DefaultOref": "rerum",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 603,
-  "IntentId": 257,
-  "IsDefaultPublished": false,
-  "Rank": 984,
-  "LoadTemplateFromPlugin": 463,
-  "MimeType": "veritatis",
+  "AutoeventId": 796,
+  "IntentId": 862,
+  "IsDefaultPublished": true,
+  "Rank": 242,
+  "LoadTemplateFromPlugin": 266,
+  "MimeType": "quia",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 734,
+  "DocumentTypeKey": 438,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "edgar_ritchie@aufderharshields.uk",
+  "EmailSubject": "theodore.bauch@shields.co.uk",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "noelia.hermiston@glovermetz.info",
+  "SenderEmailAddress": "maxine@paucekreilly.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 88
+      "FieldType": "System.Int32",
+      "FieldLength": 907
     }
   }
 }

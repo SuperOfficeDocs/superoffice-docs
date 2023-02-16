@@ -115,22 +115,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 28,
-  "PersonId": 175,
-  "AppointmentId": 111,
-  "DocumentId": 620,
-  "SaleId": 894,
-  "SelectionId": 362,
-  "ProjectId": 240,
+  "ContactId": 110,
+  "PersonId": 554,
+  "AppointmentId": 510,
+  "DocumentId": 13,
+  "SaleId": 729,
+  "SelectionId": 540,
+  "ProjectId": 359,
   "CustomTags": {
-    "CustomTags1": "a",
-    "CustomTags2": "esse"
+    "CustomTags1": "ex",
+    "CustomTags2": "sed"
   },
-  "UiCulture": "ut"
+  "UiCulture": "non"
 }
 ```
 
@@ -141,88 +141,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 620,
+  "DocumentId": 680,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "et",
-  "Header": "culpa",
-  "Name": "Murphy, Robel and Tromp",
-  "OurRef": "aut",
-  "YourRef": "dolor",
-  "CreatedDate": "2006-08-05T11:22:37.946046+02:00",
-  "UpdatedDate": "2003-10-15T11:22:37.946046+02:00",
-  "Description": "Mandatory modular frame",
+  "Attention": "hic",
+  "Header": "rerum",
+  "Name": "Bogan LLC",
+  "OurRef": "et",
+  "YourRef": "quos",
+  "CreatedDate": "2014-01-21T14:19:03.3230322+01:00",
+  "UpdatedDate": "2001-09-05T14:19:03.3230322+02:00",
+  "Description": "Profound eco-centric attitude",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2016-04-18T11:22:37.946046+02:00",
-  "ExternalRef": "quo",
+  "Date": "2016-03-27T14:19:03.3230322+02:00",
+  "ExternalRef": "amet",
   "Completed": "Completed",
-  "ActiveLinks": 950,
+  "ActiveLinks": 609,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Berge Inc and Sons",
-      "Id": 396,
-      "Description": "Assimilated solution-oriented solution",
-      "ExtraInfo": "autem",
-      "LinkId": 956,
+      "EntityName": "Bayer, Kautzer and Vandervort",
+      "Id": 543,
+      "Description": "Ergonomic value-added analyzer",
+      "ExtraInfo": "qui",
+      "LinkId": 529,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldLength": 316
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 54,
-  "Snum": 143,
+  "SuggestedDocumentId": 232,
+  "Snum": 744,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "996025160"
+    "SuperOffice:1": "Kirk Bogan",
+    "SuperOffice:2": "Hanna Fisher"
   },
   "ExtraFields": {
-    "ExtraFields1": "culpa",
-    "ExtraFields2": "recusandae"
+    "ExtraFields1": "fugiat",
+    "ExtraFields2": "aliquid"
   },
   "CustomFields": {
-    "CustomFields1": "nulla",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "quia",
+    "CustomFields2": "id"
   },
-  "PublishEventDate": "1998-03-25T11:22:37.946046+01:00",
-  "PublishTo": "2010-11-05T11:22:37.946046+01:00",
-  "PublishFrom": "2021-07-02T11:22:37.946046+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2007-11-03T14:19:03.3230322+01:00",
+  "PublishTo": "2006-11-07T14:19:03.3230322+01:00",
+  "PublishFrom": "1997-01-09T14:19:03.3230322+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 453,
+      "VisibleId": 831,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 767
+          "FieldType": "System.String",
+          "FieldLength": 104
         }
       }
     },
     {
-      "VisibleId": 453,
+      "VisibleId": 831,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 767
+          "FieldType": "System.String",
+          "FieldLength": 104
         }
       }
     }
@@ -232,7 +232,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 731
+      "FieldLength": 558
     }
   }
 }

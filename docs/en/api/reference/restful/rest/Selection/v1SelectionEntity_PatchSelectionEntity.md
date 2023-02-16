@@ -147,18 +147,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nisi",
+    "path": "distinctio",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nisi",
+    "path": "distinctio",
     "value": {}
   }
 ]
@@ -171,70 +171,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "User-friendly secondary synergy",
-  "Postit": "ut",
+  "Description": "Intuitive demand-driven website",
+  "Postit": "eum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 319,
-  "IncludePerson": 844,
-  "MemberCount": 38,
-  "Name": "Beatty LLC",
-  "PostitTextId": 393,
-  "CreatedDate": "2002-12-28T11:22:45.2099615+01:00",
-  "SelectionId": 488,
-  "SoundEx": "quod",
-  "Source": 914,
-  "TextId": 311,
-  "UpdatedDate": "2007-03-05T11:22:45.2099615+01:00",
-  "UpdatedCount": 51,
-  "Visibility": 970,
+  "GroupIdx": 44,
+  "IncludePerson": 342,
+  "MemberCount": 141,
+  "Name": "Leuschke, Lehner and Howell",
+  "PostitTextId": 766,
+  "CreatedDate": "2013-03-28T14:19:10.7717284+01:00",
+  "SelectionId": 490,
+  "SoundEx": "ipsum",
+  "Source": 173,
+  "TextId": 362,
+  "UpdatedDate": "2006-12-23T14:19:10.7717284+01:00",
+  "UpdatedCount": 614,
+  "Visibility": 808,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 244,
-  "TargetTableName": "Wunsch LLC",
-  "Completed": true,
-  "LeftSelectionId": 309,
-  "RightSelectionId": 814,
+  "CompanyUnique": true,
+  "TargetTableNumber": 638,
+  "TargetTableName": "Torp-Hessel",
+  "Completed": false,
+  "LeftSelectionId": 257,
+  "RightSelectionId": 713,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Herzog, Krajcik and Harris",
-  "ShadowProviderName": "Brekke, Collier and Zboncak",
-  "ChartKey": "sint",
-  "LastLoaded": "2020-12-14T11:22:45.2099615+01:00",
-  "LastLoadedBy": 900,
+  "MainProviderName": "Howell LLC",
+  "ShadowProviderName": "Lindgren-Orn",
+  "ChartKey": "doloremque",
+  "LastLoaded": "2017-09-13T14:19:10.7717284+02:00",
+  "LastLoadedBy": 295,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-06-06T11:22:45.2099615+02:00",
-  "LastMembershipChangeBy": 662,
+  "LastMembershipChange": "2012-11-25T14:19:10.7717284+01:00",
+  "LastMembershipChangeBy": 643,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "velit",
-  "MemberTabHeading": "non",
-  "MailingsProviderName": "Kessler, Haag and Mertz",
-  "DashboardTileDefinitionId": 114,
+  "MainHeading": "harum",
+  "MemberTabHeading": "ex",
+  "MailingsProviderName": "Skiles LLC",
+  "DashboardTileDefinitionId": 58,
   "VisibleFor": [
     {
-      "VisibleId": 828,
+      "VisibleId": 923,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 570
+          "FieldLength": 491
         }
       }
     },
     {
-      "VisibleId": 828,
+      "VisibleId": 923,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 570
+          "FieldLength": 491
         }
       }
     }
@@ -243,13 +243,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 857
+      "FieldType": "System.Int32",
+      "FieldLength": 13
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

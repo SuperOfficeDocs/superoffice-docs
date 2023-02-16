@@ -96,14 +96,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 984,
-  "StartTime": "2017-09-10T11:22:37.8366954+02:00",
-  "EndTime": "2007-07-17T11:22:37.8366954+02:00",
-  "Count": 974
+  "ContactId": 715,
+  "StartTime": "2018-06-28T14:19:03.1355296+02:00",
+  "EndTime": "2019-10-08T14:19:03.1355296+02:00",
+  "Count": 54
 }
 ```
 
@@ -115,32 +115,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 817,
-    "Attention": "qui",
-    "Header": "iste",
-    "Name": "Sipes, Price and Schaefer",
-    "OurRef": "rerum",
-    "YourRef": "ut",
-    "Description": "Streamlined homogeneous artificial intelligence",
-    "DocumentTemplate": "sunt",
-    "IsPublished": false,
-    "PersonId": 633,
-    "PersonFullName": "Dr. Toney Kreiger MD",
-    "AssociateFullName": "Stephania Weimann",
-    "ContactId": 292,
-    "ContactName": "Metz-Hyatt",
-    "ProjectId": 645,
-    "ProjectName": "Ortiz LLC",
-    "AssociateId": 682,
-    "Snum": 528,
-    "SaleId": 387,
-    "SaleName": "Barrows Inc and Sons",
+    "DocumentId": 961,
+    "Attention": "magnam",
+    "Header": "molestiae",
+    "Name": "Walsh, Howell and Rolfson",
+    "OurRef": "veniam",
+    "YourRef": "aut",
+    "Description": "Customizable clear-thinking open system",
+    "DocumentTemplate": "perferendis",
+    "IsPublished": true,
+    "PersonId": 742,
+    "PersonFullName": "Madie Runolfsdottir",
+    "AssociateFullName": "Eulalia Watsica",
+    "ContactId": 557,
+    "ContactName": "Oberbrunner-Will",
+    "ProjectId": 698,
+    "ProjectName": "Reinger, Friesen and Schmidt",
+    "AssociateId": 39,
+    "Snum": 245,
+    "SaleId": 438,
+    "SaleName": "Streich LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 589
+        "FieldType": "System.Int32",
+        "FieldLength": 542
       }
     }
   }

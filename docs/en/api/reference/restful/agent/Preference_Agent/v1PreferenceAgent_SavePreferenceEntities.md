@@ -64,23 +64,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "cumque",
+      "RawValue": "aliquam",
       "Specification": null,
-      "DisplayValue": "et",
-      "DisplayTooltip": "tenetur",
+      "DisplayValue": "quos",
+      "DisplayTooltip": "non",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 486,
-      "PrefDescId": 605,
-      "TableName": "Bogan, Prohaska and Langosh",
-      "UserPreferenceId": 274
+      "TargetId": 708,
+      "PrefDescId": 130,
+      "TableName": "Schowalter-Dickens",
+      "UserPreferenceId": 670
     }
   ],
   "RemoveLowerLevels": false

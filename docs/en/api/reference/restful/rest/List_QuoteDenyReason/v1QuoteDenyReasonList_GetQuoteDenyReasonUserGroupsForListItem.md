@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 887,
-    "Name": "Bruen-Hodkiewicz",
-    "ToolTip": "Animi quisquam ex.",
+    "Id": 922,
+    "Name": "Buckridge-Pagac",
+    "ToolTip": "Quis excepturi.",
     "Deleted": false,
-    "Rank": 921,
-    "Type": "nobis",
-    "ColorBlock": 94,
-    "IconHint": "sed",
-    "Selected": true,
-    "LastChanged": "2000-04-07T11:22:46.1003835+02:00",
+    "Rank": 203,
+    "Type": "dignissimos",
+    "ColorBlock": 292,
+    "IconHint": "architecto",
+    "Selected": false,
+    "LastChanged": "2010-09-26T14:19:11.430529+02:00",
     "ChildItems": [
       {
-        "Id": 122,
-        "Name": "Schroeder, Konopelski and Dare",
-        "ToolTip": "Sed eos quibusdam numquam et sequi non.",
-        "Deleted": false,
-        "Rank": 41,
-        "Type": "suscipit",
-        "ColorBlock": 129,
-        "IconHint": "ipsa",
-        "Selected": false,
-        "LastChanged": "2000-08-04T11:22:46.1003835+02:00",
+        "Id": 658,
+        "Name": "Blanda, Altenwerth and Armstrong",
+        "ToolTip": "Illo itaque debitis rerum.",
+        "Deleted": true,
+        "Rank": 356,
+        "Type": "recusandae",
+        "ColorBlock": 398,
+        "IconHint": "modi",
+        "Selected": true,
+        "LastChanged": "2020-08-13T14:19:11.430529+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "perspiciatis",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "nulla",
         "Hidden": false,
-        "FullName": "King Langworth",
+        "FullName": "Darrell Schaefer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 53
+            "FieldType": "System.Int32",
+            "FieldLength": 772
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "assumenda",
-    "Hidden": false,
-    "FullName": "Sasha Romaguera",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "dicta",
+    "Hidden": true,
+    "FullName": "Jaida Steuber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 84
+        "FieldType": "System.Int32",
+        "FieldLength": 340
       }
     }
   }

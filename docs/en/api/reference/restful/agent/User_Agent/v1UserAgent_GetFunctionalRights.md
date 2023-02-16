@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 105
+  "RoleId": 962
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 964,
-    "Name": "Abbott, Hane and Spinka",
-    "ToolTip": "Fugiat omnis aut est odit tempore.",
+    "Id": 263,
+    "Name": "Considine-Schiller",
+    "ToolTip": "Rem est et dolor.",
     "Deleted": false,
-    "Rank": 181,
-    "Type": "aperiam",
-    "ColorBlock": 378,
-    "IconHint": "doloribus",
-    "Selected": false,
-    "LastChanged": "1998-02-26T11:22:39.617529+01:00",
+    "Rank": 931,
+    "Type": "dolor",
+    "ColorBlock": 372,
+    "IconHint": "sit",
+    "Selected": true,
+    "LastChanged": "2005-10-27T14:19:04.5797015+02:00",
     "ChildItems": [
       {
-        "Id": 700,
-        "Name": "Mitchell-Paucek",
-        "ToolTip": "Dolores quidem.",
-        "Deleted": true,
-        "Rank": 921,
-        "Type": "velit",
-        "ColorBlock": 150,
-        "IconHint": "enim",
-        "Selected": true,
-        "LastChanged": "1996-06-03T11:22:39.617529+02:00",
+        "Id": 272,
+        "Name": "Buckridge-Senger",
+        "ToolTip": "Enim et vero fuga et.",
+        "Deleted": false,
+        "Rank": 417,
+        "Type": "qui",
+        "ColorBlock": 395,
+        "IconHint": "aliquid",
+        "Selected": false,
+        "LastChanged": "2009-06-15T14:19:04.5797015+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "at",
+        "ExtraInfo": "animi",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Miss Lafayette Stephany Bednar",
+        "FullName": "Annabelle Leffler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 116
+            "FieldLength": 693
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "praesentium",
-    "Hidden": false,
-    "FullName": "Mafalda Gottlieb",
+    "ExtraInfo": "tempora",
+    "StyleHint": "recusandae",
+    "Hidden": true,
+    "FullName": "Marco Terry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 347
+        "FieldLength": 83
       }
     }
   }

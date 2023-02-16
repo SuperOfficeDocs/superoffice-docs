@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,23 +79,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 659,
-  "UniqueIdentifier": "natus",
-  "Name": "Cronin LLC",
-  "Description": "Switchable bandwidth-monitored encoding",
-  "IncludeId": "officiis",
-  "HierarchyId": 106,
-  "Source": "blanditiis",
-  "Registered": "2002-11-14T11:22:37.7742144+01:00",
-  "RegisteredAssociateId": 822,
-  "Updated": "2007-11-22T11:22:37.7742144+01:00",
-  "UpdatedAssociateId": 538,
+  "EjscriptId": 819,
+  "UniqueIdentifier": "excepturi",
+  "Name": "Kreiger-Glover",
+  "Description": "Streamlined multi-state website",
+  "IncludeId": "vitae",
+  "HierarchyId": 735,
+  "Source": "nostrum",
+  "Registered": "2011-04-24T14:19:03.0730293+02:00",
+  "RegisteredAssociateId": 1002,
+  "Updated": "1997-09-22T14:19:03.0730293+02:00",
+  "UpdatedAssociateId": 831,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 660
+      "FieldLength": 510
     }
   }
 }

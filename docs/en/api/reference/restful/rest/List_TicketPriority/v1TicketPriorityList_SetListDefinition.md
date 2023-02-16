@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 111,
-  "Name": "Mann, Hane and Ryan",
-  "Tooltip": "necessitatibus",
+  "Id": 71,
+  "Name": "Robel LLC",
+  "Tooltip": "sed",
   "Deleted": true,
-  "Rank": 7,
+  "Rank": 605,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "reprehenderit",
-  "InUseByUserDefinedFields": true
+  "ListType": "unde",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 560,
-  "Name": "Botsford-Bartell",
-  "Tooltip": "eos",
-  "Deleted": false,
-  "Rank": 738,
+  "Id": 702,
+  "Name": "Cronin-Bernier",
+  "Tooltip": "facere",
+  "Deleted": true,
+  "Rank": 260,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
+  "UseGroupsAndHeadings": false,
+  "ListType": "est",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 533
+      "FieldType": "System.Int32",
+      "FieldLength": 945
     }
   }
 }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 529,
-    "Name": "Tromp Inc and Sons",
-    "ToolTip": "Quia dicta voluptatem fuga excepturi ad.",
-    "Deleted": true,
-    "Rank": 843,
-    "Type": "impedit",
-    "ColorBlock": 966,
-    "IconHint": "aspernatur",
-    "Selected": false,
-    "LastChanged": "2017-12-19T11:22:46.0535201+01:00",
+    "Id": 313,
+    "Name": "Connelly, Lehner and Gorczany",
+    "ToolTip": "Ad ut neque rem et fugit.",
+    "Deleted": false,
+    "Rank": 29,
+    "Type": "omnis",
+    "ColorBlock": 131,
+    "IconHint": "corrupti",
+    "Selected": true,
+    "LastChanged": "2001-11-06T14:19:11.3836521+01:00",
     "ChildItems": [
       {
-        "Id": 173,
-        "Name": "Herman Inc and Sons",
-        "ToolTip": "Illum quam quas animi dicta facere aut.",
+        "Id": 464,
+        "Name": "Lockman, Dare and Abbott",
+        "ToolTip": "Est soluta officia exercitationem ea officiis quidem ut.",
         "Deleted": false,
-        "Rank": 530,
-        "Type": "natus",
-        "ColorBlock": 454,
-        "IconHint": "ut",
+        "Rank": 317,
+        "Type": "quos",
+        "ColorBlock": 642,
+        "IconHint": "cupiditate",
         "Selected": true,
-        "LastChanged": "2018-11-08T11:22:46.0535201+01:00",
+        "LastChanged": "1999-07-08T14:19:11.3836521+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "optio",
+        "ExtraInfo": "dolores",
+        "StyleHint": "iste",
         "Hidden": false,
-        "FullName": "Dr. Cindy Martina Strosin V"
+        "FullName": "Destiny Sanford"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "ad",
+    "ExtraInfo": "et",
+    "StyleHint": "vitae",
     "Hidden": true,
-    "FullName": "Deja Fahey I"
+    "FullName": "Geovanny Gleason"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 159,
-    "Name": "Murazik LLC",
-    "ToolTip": "Rerum et et quaerat animi quas minima.",
+    "Id": 95,
+    "Name": "Schinner Inc and Sons",
+    "ToolTip": "Nihil quia dolor.",
     "Deleted": false,
-    "Rank": 440,
-    "Type": "in",
-    "ColorBlock": 192,
-    "IconHint": "et",
+    "Rank": 994,
+    "Type": "accusamus",
+    "ColorBlock": 495,
+    "IconHint": "id",
     "Selected": true,
-    "LastChanged": "2012-02-27T11:22:46.0535201+01:00",
+    "LastChanged": "2018-12-18T14:19:11.3836521+01:00",
     "ChildItems": [
       {
-        "Id": 771,
-        "Name": "Berge, Reynolds and Lubowitz",
-        "ToolTip": "Aliquam quis maiores nobis sed non.",
-        "Deleted": true,
-        "Rank": 652,
-        "Type": "itaque",
-        "ColorBlock": 13,
-        "IconHint": "recusandae",
+        "Id": 772,
+        "Name": "Walsh Inc and Sons",
+        "ToolTip": "Est ut amet.",
+        "Deleted": false,
+        "Rank": 310,
+        "Type": "est",
+        "ColorBlock": 31,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2001-08-26T11:22:46.0535201+02:00",
+        "LastChanged": "2020-03-21T14:19:11.3836521+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "modi",
-        "Hidden": true,
-        "FullName": "Miss Zora Barton",
+        "ExtraInfo": "omnis",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Mr. Clyde Reece O'Connell V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 67
+            "FieldLength": 988
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "aperiam",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "doloribus",
     "Hidden": false,
-    "FullName": "Jennifer Ondricka",
+    "FullName": "Cody Johnson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 653
+        "FieldType": "System.Int32",
+        "FieldLength": 255
       }
     }
   }

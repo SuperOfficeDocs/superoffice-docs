@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 182,
-    "Value": "consequuntur",
-    "Tooltip": "earum",
+    "Id": 415,
+    "Value": "quia",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 31
+        "FieldType": "System.String",
+        "FieldLength": 779
       }
     }
   },
   {
-    "Id": 182,
-    "Value": "consequuntur",
-    "Tooltip": "earum",
+    "Id": 415,
+    "Value": "quia",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 31
+        "FieldType": "System.String",
+        "FieldLength": 779
       }
     }
   }

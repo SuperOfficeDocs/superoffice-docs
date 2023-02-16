@@ -71,7 +71,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,30 +82,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 779,
-    "Section": "nemo",
-    "Key": "voluptates",
-    "Name": "Pouros, Kuhlman and Bins",
+    "PrefDescId": 162,
+    "Section": "ea",
+    "Key": "ut",
+    "Name": "Beier-Senger",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Distributed needs-based database",
-    "IsBuiltin": false,
-    "TableName": "Donnelly Group",
-    "UserDefinedListId": 694,
-    "Rank": 222,
-    "SubGroup": "error",
-    "MinLevel": 638,
-    "MaxValue": 559,
-    "MinValue": 155,
-    "RequiredLicense": "quas",
+    "Description": "Stand-alone transitional moderator",
+    "IsBuiltin": true,
+    "TableName": "Morar-Frami",
+    "UserDefinedListId": 580,
+    "Rank": 455,
+    "SubGroup": "perferendis",
+    "MinLevel": 601,
+    "MaxValue": 232,
+    "MinValue": 879,
+    "RequiredLicense": "optio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 865
+        "FieldLength": 845
       }
     }
   }

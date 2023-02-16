@@ -26,7 +26,7 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/PaymentTerm/MDOItems?flat=True
-GET /api/v1/List/PaymentTerm/MDOItems?query=voluptatem
+GET /api/v1/List/PaymentTerm/MDOItems?query=cumque
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 525,
-    "Name": "Renner Inc and Sons",
-    "ToolTip": "Sunt sequi quisquam sint quo.",
+    "Id": 861,
+    "Name": "Simonis-Robel",
+    "ToolTip": "Rerum consequuntur veniam a asperiores.",
     "Deleted": false,
-    "Rank": 850,
-    "Type": "et",
+    "Rank": 5,
+    "Type": "laudantium",
     "ChildItems": [
       {
-        "Id": 418,
-        "Name": "Ebert Group",
-        "ToolTip": "Pariatur eum molestiae.",
+        "Id": 665,
+        "Name": "West Inc and Sons",
+        "ToolTip": "Illo error.",
         "Deleted": false,
-        "Rank": 796,
-        "Type": "voluptate",
+        "Rank": 392,
+        "Type": "atque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nulla",
-        "ColorBlock": 396,
+        "IconHint": "omnis",
+        "ColorBlock": 708,
         "ExtraInfo": "et",
-        "StyleHint": "similique",
-        "FullName": "Miss Tomas Lockman",
+        "StyleHint": "quis",
+        "FullName": "Miss Camille Arielle West",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 305
+            "FieldLength": 356
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 747,
-    "ExtraInfo": "sed",
-    "StyleHint": "et",
-    "FullName": "Ahmad Oberbrunner",
+    "IconHint": "aut",
+    "ColorBlock": 767,
+    "ExtraInfo": "veritatis",
+    "StyleHint": "sed",
+    "FullName": "Miss Jarrod Zella Wintheiser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldLength": 991
       }
     }
   }

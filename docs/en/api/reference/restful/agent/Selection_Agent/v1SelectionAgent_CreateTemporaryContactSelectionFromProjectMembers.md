@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 365
+  "ProjectId": 916
 }
 ```
 
@@ -127,70 +127,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Assimilated homogeneous capacity",
-  "Postit": "ut",
+  "Description": "Self-enabling discrete infrastructure",
+  "Postit": "aut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 900,
-  "IncludePerson": 93,
-  "MemberCount": 549,
-  "Name": "Swaniawski-Blanda",
-  "PostitTextId": 95,
-  "CreatedDate": "2021-01-23T11:22:39.2894808+01:00",
-  "SelectionId": 797,
-  "SoundEx": "fuga",
-  "Source": 106,
-  "TextId": 274,
-  "UpdatedDate": "2016-08-16T11:22:39.2894808+02:00",
-  "UpdatedCount": 958,
-  "Visibility": 2,
+  "GroupIdx": 272,
+  "IncludePerson": 594,
+  "MemberCount": 722,
+  "Name": "Boyle, Emmerich and Schneider",
+  "PostitTextId": 560,
+  "CreatedDate": "2020-07-17T14:19:04.1879797+02:00",
+  "SelectionId": 732,
+  "SoundEx": "amet",
+  "Source": 112,
+  "TextId": 444,
+  "UpdatedDate": "2009-11-25T14:19:04.1879797+01:00",
+  "UpdatedCount": 415,
+  "Visibility": 759,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 491,
-  "TargetTableName": "Paucek Group",
+  "TargetTableNumber": 864,
+  "TargetTableName": "Runolfsson LLC",
   "Completed": false,
-  "LeftSelectionId": 401,
-  "RightSelectionId": 622,
+  "LeftSelectionId": 118,
+  "RightSelectionId": 442,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Barton LLC",
-  "ShadowProviderName": "Miller, Corwin and Wehner",
-  "ChartKey": "enim",
-  "LastLoaded": "2006-09-05T11:22:39.2894808+02:00",
-  "LastLoadedBy": 79,
+  "MainProviderName": "Haag-Prosacco",
+  "ShadowProviderName": "Lakin Inc and Sons",
+  "ChartKey": "molestias",
+  "LastLoaded": "2009-09-24T14:19:04.1879797+02:00",
+  "LastLoadedBy": 45,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-02-24T11:22:39.2894808+01:00",
-  "LastMembershipChangeBy": 390,
+  "LastMembershipChange": "2018-03-10T14:19:04.1879797+01:00",
+  "LastMembershipChangeBy": 979,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ut",
-  "MemberTabHeading": "rerum",
-  "MailingsProviderName": "Tremblay Group",
-  "DashboardTileDefinitionId": 113,
+  "MainHeading": "quo",
+  "MemberTabHeading": "aut",
+  "MailingsProviderName": "Stracke LLC",
+  "DashboardTileDefinitionId": 676,
   "VisibleFor": [
     {
-      "VisibleId": 379,
+      "VisibleId": 171,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldType": "System.String",
+          "FieldLength": 844
         }
       }
     },
     {
-      "VisibleId": 379,
+      "VisibleId": 171,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldType": "System.String",
+          "FieldLength": 844
         }
       }
     }
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldLength": 605
     }
   }
 }

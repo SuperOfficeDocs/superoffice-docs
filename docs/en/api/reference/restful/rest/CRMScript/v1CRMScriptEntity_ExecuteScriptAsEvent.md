@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quidem",
-    "InputValues2": "amet"
+    "InputValues1": "harum",
+    "InputValues2": "quos"
   },
-  "BlockExecution": true,
-  "NavigateTo": "animi",
-  "Message": "libero",
-  "ShowDialog": "repellat",
+  "BlockExecution": false,
+  "NavigateTo": "nobis",
+  "Message": "placeat",
+  "ShowDialog": "sunt",
   "OutputValues": {
-    "OutputValues1": "aut",
-    "OutputValues2": "nulla"
+    "OutputValues1": "laudantium",
+    "OutputValues2": "unde"
   },
   "StateValues": {
-    "StateValues1": "quidem",
-    "StateValues2": "expedita"
+    "StateValues1": "odio",
+    "StateValues2": "id"
   },
-  "Exception": "ducimus"
+  "Exception": "omnis"
 }
 ```
 
@@ -121,28 +121,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "totam",
-    "InputValues2": "accusamus"
+    "InputValues1": "quisquam",
+    "InputValues2": "quo"
   },
-  "BlockExecution": true,
-  "NavigateTo": "voluptatibus",
-  "Message": "quia",
-  "ShowDialog": "in",
+  "BlockExecution": false,
+  "NavigateTo": "vel",
+  "Message": "similique",
+  "ShowDialog": "commodi",
   "OutputValues": {
-    "OutputValues1": "et",
+    "OutputValues1": "mollitia",
     "OutputValues2": "quis"
   },
   "StateValues": {
-    "StateValues1": "mollitia",
-    "StateValues2": "voluptas"
+    "StateValues1": "provident",
+    "StateValues2": "aperiam"
   },
-  "Exception": "recusandae",
+  "Exception": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 236
+      "FieldLength": 24
     }
   }
 }

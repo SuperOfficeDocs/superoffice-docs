@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 345,
-  "Name": "Fadel, Cronin and Gutkowski",
-  "Tooltip": "sed",
+  "HeadingId": 128,
+  "Name": "Cassin-McClure",
+  "Tooltip": "ea",
   "Deleted": false,
-  "Rank": 787,
-  "UdListDefinitionId": 892
+  "Rank": 60,
+  "UdListDefinitionId": 384
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 727,
-  "Name": "Schimmel-Klocko",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 548,
-  "UdListDefinitionId": 876,
+  "HeadingId": 277,
+  "Name": "Stroman Inc and Sons",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 978,
+  "UdListDefinitionId": 367,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 566
+      "FieldType": "System.Int32",
+      "FieldLength": 475
     }
   }
 }

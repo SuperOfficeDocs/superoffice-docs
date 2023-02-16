@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Balistreri Inc and Sons",
-    "ToolTip": "Possimus voluptatum.",
+    "Id": 471,
+    "Name": "Zemlak Inc and Sons",
+    "ToolTip": "Non rem dolor.",
     "Deleted": true,
-    "Rank": 653,
-    "Type": "tempora",
-    "ColorBlock": 453,
-    "IconHint": "vero",
-    "Selected": false,
-    "LastChanged": "2013-03-07T11:22:45.8347706+01:00",
+    "Rank": 961,
+    "Type": "nam",
+    "ColorBlock": 721,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2003-07-20T14:19:11.1793474+02:00",
     "ChildItems": [
       {
-        "Id": 858,
-        "Name": "Steuber-Collins",
-        "ToolTip": "Consequatur aut molestiae.",
+        "Id": 28,
+        "Name": "Dare LLC",
+        "ToolTip": "Nihil animi.",
         "Deleted": false,
-        "Rank": 799,
-        "Type": "est",
-        "ColorBlock": 877,
-        "IconHint": "quas",
+        "Rank": 534,
+        "Type": "accusamus",
+        "ColorBlock": 458,
+        "IconHint": "dolore",
         "Selected": false,
-        "LastChanged": "2012-09-11T11:22:45.8347706+02:00",
+        "LastChanged": "2020-08-15T14:19:11.1793474+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "quos",
+        "ExtraInfo": "dolor",
+        "StyleHint": "facere",
         "Hidden": true,
-        "FullName": "Edgar Ruecker"
+        "FullName": "Danielle Corkery"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "beatae",
+    "ExtraInfo": "quo",
+    "StyleHint": "culpa",
     "Hidden": false,
-    "FullName": "Rubie Cronin"
+    "FullName": "Shaun Janie Toy MD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 40,
-    "Name": "Dickinson-Nolan",
-    "ToolTip": "Corrupti enim qui numquam ut praesentium architecto.",
-    "Deleted": true,
-    "Rank": 81,
-    "Type": "consequuntur",
-    "ColorBlock": 378,
-    "IconHint": "facere",
-    "Selected": true,
-    "LastChanged": "2007-07-10T11:22:45.8347706+02:00",
+    "Id": 284,
+    "Name": "Hills-Hayes",
+    "ToolTip": "Ea voluptate qui voluptatibus assumenda.",
+    "Deleted": false,
+    "Rank": 82,
+    "Type": "cupiditate",
+    "ColorBlock": 499,
+    "IconHint": "totam",
+    "Selected": false,
+    "LastChanged": "2022-03-09T14:19:11.1793474+01:00",
     "ChildItems": [
       {
-        "Id": 428,
-        "Name": "Lakin-Ferry",
-        "ToolTip": "Magnam soluta.",
+        "Id": 255,
+        "Name": "Armstrong LLC",
+        "ToolTip": "Rerum nemo sed aut saepe repellat ratione ipsa.",
         "Deleted": false,
-        "Rank": 69,
-        "Type": "possimus",
-        "ColorBlock": 773,
-        "IconHint": "enim",
+        "Rank": 960,
+        "Type": "molestias",
+        "ColorBlock": 625,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2004-11-12T11:22:45.8347706+01:00",
+        "LastChanged": "2014-11-06T14:19:11.1793474+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "autem",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Mr. Gerardo Eduardo Rempel",
+        "FullName": "Ms. Sherwood Carleton Spinka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 289
+            "FieldLength": 819
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ea",
-    "Hidden": true,
-    "FullName": "Ron Moen",
+    "ExtraInfo": "eligendi",
+    "StyleHint": "molestias",
+    "Hidden": false,
+    "FullName": "Noemi Stiedemann IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 558
+        "FieldLength": 348
       }
     }
   }

@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 328,
-    "Name": "Wisoky, Muller and Raynor",
-    "Tooltip": "deleniti",
-    "Deleted": true,
-    "Rank": 854,
-    "UdListDefinitionId": 928,
+    "HeadingId": 380,
+    "Name": "Lubowitz LLC",
+    "Tooltip": "aliquam",
+    "Deleted": false,
+    "Rank": 180,
+    "UdListDefinitionId": 976,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 362
+        "FieldLength": 235
       }
     }
   }

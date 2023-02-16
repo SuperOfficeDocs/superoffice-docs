@@ -115,12 +115,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 173,
-  "Name": "Toy-Walsh"
+  "SelectionId": 582,
+  "Name": "Lockman Group"
 }
 ```
 
@@ -131,70 +131,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Versatile zero tolerance open system",
-  "Postit": "sit",
+  "Description": "Universal maximized archive",
+  "Postit": "iusto",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 417,
-  "IncludePerson": 539,
-  "MemberCount": 782,
-  "Name": "Sawayn, Torp and Towne",
-  "PostitTextId": 265,
-  "CreatedDate": "2011-12-31T11:22:39.3207231+01:00",
-  "SelectionId": 926,
-  "SoundEx": "ut",
-  "Source": 551,
-  "TextId": 73,
-  "UpdatedDate": "2020-10-17T11:22:39.3207231+02:00",
-  "UpdatedCount": 408,
-  "Visibility": 381,
+  "GroupIdx": 330,
+  "IncludePerson": 525,
+  "MemberCount": 630,
+  "Name": "Legros LLC",
+  "PostitTextId": 259,
+  "CreatedDate": "2014-02-24T14:19:04.2036046+01:00",
+  "SelectionId": 807,
+  "SoundEx": "beatae",
+  "Source": 160,
+  "TextId": 843,
+  "UpdatedDate": "2019-07-17T14:19:04.2036046+02:00",
+  "UpdatedCount": 46,
+  "Visibility": 86,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 119,
-  "TargetTableName": "Schroeder, Lindgren and Ritchie",
-  "Completed": true,
-  "LeftSelectionId": 806,
-  "RightSelectionId": 222,
+  "CompanyUnique": true,
+  "TargetTableNumber": 968,
+  "TargetTableName": "Doyle-Keeling",
+  "Completed": false,
+  "LeftSelectionId": 535,
+  "RightSelectionId": 766,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Wintheiser, Moen and Schowalter",
-  "ShadowProviderName": "Reichert, Bartell and Heller",
-  "ChartKey": "aliquam",
-  "LastLoaded": "2013-02-01T11:22:39.3207231+01:00",
-  "LastLoadedBy": 485,
+  "MainProviderName": "Brakus, Morar and Welch",
+  "ShadowProviderName": "Mayert, Feil and Prohaska",
+  "ChartKey": "est",
+  "LastLoaded": "2001-12-11T14:19:04.2036046+01:00",
+  "LastLoadedBy": 545,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-04-30T11:22:39.3207231+02:00",
-  "LastMembershipChangeBy": 593,
+  "LastMembershipChange": "2007-02-07T14:19:04.2036046+01:00",
+  "LastMembershipChangeBy": 559,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "odio",
-  "MemberTabHeading": "ut",
-  "MailingsProviderName": "Collier Inc and Sons",
-  "DashboardTileDefinitionId": 430,
+  "MainHeading": "commodi",
+  "MemberTabHeading": "officiis",
+  "MailingsProviderName": "Langworth Group",
+  "DashboardTileDefinitionId": 133,
   "VisibleFor": [
     {
-      "VisibleId": 309,
+      "VisibleId": 266,
       "Visibility": "All",
-      "DisplayValue": "eligendi",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 767
+          "FieldLength": 234
         }
       }
     },
     {
-      "VisibleId": 309,
+      "VisibleId": 266,
       "Visibility": "All",
-      "DisplayValue": "eligendi",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 767
+          "FieldLength": 234
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 269
+      "FieldLength": 65
     }
   }
 }

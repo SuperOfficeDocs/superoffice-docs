@@ -84,7 +84,7 @@ Dash found.
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,37 +94,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 708,
-  "UniqueId": "sequi",
-  "Name": "Friesen Inc and Sons",
-  "Description": "Digitized neutral system engine",
-  "AssociateId": 276,
-  "Columns": 261,
+  "DashboardId": 241,
+  "UniqueId": "quia",
+  "Name": "Zieme, Christiansen and Dickinson",
+  "Description": "Decentralized 5th generation complexity",
+  "AssociateId": 768,
+  "Columns": 538,
   "Theme": null,
-  "VisibleForAll": 626,
+  "VisibleForAll": 305,
   "VisibleForAssociates": [
-    60,
-    393
+    838,
+    648
   ],
   "VisibleForGroups": [
-    49,
-    745
+    377,
+    32
   ],
-  "PinForAll": 627,
+  "PinForAll": 469,
   "PinForAssociates": [
-    445,
-    557
+    683,
+    101
   ],
   "PinForGroups": [
-    630,
-    967
+    905,
+    59
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldType": "System.String",
+      "FieldLength": 855
     }
   },
   "_Links": {

@@ -108,37 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 870,
-  "Name": "McClure, Rice and Sawayn",
-  "AssociateId": 975,
-  "DetailsTable": 200,
-  "DetailsRecord": 2,
+  "Id": 422,
+  "Name": "Sipes-Donnelly",
+  "AssociateId": 465,
+  "DetailsTable": 211,
+  "DetailsRecord": 455,
   "IsSystemTask": false,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "dolor",
-    "ParameterObject2": "fuga"
+    "ParameterObject1": "ex",
+    "ParameterObject2": "ut"
   },
-  "LastStarted": "1997-01-28T11:22:38.9926773+01:00",
-  "Created": "2019-07-26T11:22:38.9926773+02:00",
-  "StartCount": 337,
-  "DatabaseSerialNumber": "1280415",
-  "Context": "at",
-  "Result": "totam",
+  "LastStarted": "2015-03-07T14:19:04.0782101+01:00",
+  "Created": "2004-11-06T14:19:04.0782101+01:00",
+  "StartCount": 686,
+  "DatabaseSerialNumber": "1611462",
+  "Context": "eligendi",
+  "Result": "in",
   "State": "All",
-  "Description": "Focused tertiary paradigm",
-  "Response": "magnam",
-  "Request": "nesciunt",
-  "ProgressDescription": "Managed impactful encoding",
-  "ProgressPercent": 492,
-  "FileName": "Wunsch-Stokes",
+  "Description": "Configurable 4th generation application",
+  "Response": "et",
+  "Request": "corporis",
+  "ProgressDescription": "Re-contextualized incremental customer loyalty",
+  "ProgressPercent": 378,
+  "FileName": "Lemke Inc and Sons",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldType": "System.String",
+      "FieldLength": 289
     }
   }
 }

@@ -102,7 +102,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -112,48 +112,48 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 579,
-  "TopicId": 555,
+  "ChatSessionId": 828,
+  "TopicId": 547,
   "User": null,
   "Person": null,
-  "CustomerAlias": "occaecati",
-  "CustomerHost": "repellat",
-  "CustomerName": "Balistreri-O'Conner",
-  "CustomerEmail": "lucile@feest.uk",
-  "CustomerPhone": "(887)252-8167",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Little, Quigley and Gerlach",
+  "CustomerAlias": "quis",
+  "CustomerHost": "velit",
+  "CustomerName": "Bechtelar-Bashirian",
+  "CustomerEmail": "mittie.wehner@barrows.com",
+  "CustomerPhone": "1-214-236-3864",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Hauck, Bogan and Abernathy",
   "Status": "Closed",
-  "FirstMessage": "consequatur",
-  "LastMessage": "maiores",
-  "WhenRequested": "2007-07-10T11:22:44.3195524+02:00",
-  "WhenStarted": "2022-10-13T11:22:44.3195524+02:00",
-  "WhenEnded": "1996-11-15T11:22:44.3195524+01:00",
-  "WhenIdle": "2018-07-03T11:22:44.3195524+02:00",
-  "WhenFetched": "2020-05-29T11:22:44.3195524+02:00",
-  "SessionKey": "ut",
-  "InitialQueuePos": 690,
-  "AlertLevel": 628,
-  "Rank": 682,
+  "FirstMessage": "est",
+  "LastMessage": "molestiae",
+  "WhenRequested": "2009-07-10T14:19:10.0048864+02:00",
+  "WhenStarted": "2006-03-13T14:19:10.0048864+01:00",
+  "WhenEnded": "2010-11-11T14:19:10.0048864+01:00",
+  "WhenIdle": "2021-10-12T14:19:10.0048864+02:00",
+  "WhenFetched": "1998-06-28T14:19:10.0048864+02:00",
+  "SessionKey": "consequatur",
+  "InitialQueuePos": 983,
+  "AlertLevel": 707,
+  "Rank": 394,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 87,
+  "ChatbotIsActive": false,
+  "Rating": 946,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 410
+      "FieldLength": 817
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

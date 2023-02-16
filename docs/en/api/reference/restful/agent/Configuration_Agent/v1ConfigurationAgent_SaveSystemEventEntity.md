@@ -80,19 +80,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 112,
+  "SystemEventId": 611,
   "Scope": "Database",
-  "Eta": "2006-12-15T11:22:37.6023765+01:00",
-  "Eventkey": "voluptatem",
-  "Eventmess": "eum",
-  "ExtraInfo": 494,
-  "Owner": 69,
-  "UpdatedCount": 345,
-  "Registered": "2007-07-22T11:22:37.6023765+02:00",
+  "Eta": "2007-06-07T14:19:02.916778+02:00",
+  "Eventkey": "rerum",
+  "Eventmess": "magni",
+  "ExtraInfo": 391,
+  "Owner": 651,
+  "UpdatedCount": 688,
+  "Registered": "2020-12-23T14:19:02.916778+01:00",
   "ActivatedBy": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 905,
+  "SystemEventId": 924,
   "Scope": "Database",
-  "Eta": "2002-12-25T11:22:37.6023765+01:00",
-  "Eventkey": "quod",
-  "Eventmess": "nostrum",
-  "ExtraInfo": 147,
-  "Owner": 64,
-  "UpdatedCount": 433,
-  "Registered": "2018-10-10T11:22:37.6023765+02:00",
+  "Eta": "2018-11-23T14:19:02.916778+01:00",
+  "Eventkey": "in",
+  "Eventmess": "porro",
+  "ExtraInfo": 22,
+  "Owner": 32,
+  "UpdatedCount": 847,
+  "Registered": "2000-08-13T14:19:02.916778+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 277
+      "FieldLength": 610
     }
   }
 }

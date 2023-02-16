@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 154,
-    "Name": "Harber, Roberts and Brekke",
-    "ToolTip": "Et omnis.",
+    "Id": 892,
+    "Name": "Labadie Inc and Sons",
+    "ToolTip": "Occaecati iure saepe velit aperiam sed.",
     "Deleted": true,
-    "Rank": 273,
-    "Type": "dolor",
-    "ColorBlock": 274,
-    "IconHint": "et",
+    "Rank": 812,
+    "Type": "necessitatibus",
+    "ColorBlock": 999,
+    "IconHint": "dolorem",
     "Selected": true,
-    "LastChanged": "2003-08-31T11:22:45.8660551+02:00",
+    "LastChanged": "2007-04-14T14:19:11.2105958+02:00",
     "ChildItems": [
       {
-        "Id": 272,
-        "Name": "Wintheiser, McGlynn and Williamson",
-        "ToolTip": "Eveniet id recusandae dolor hic.",
+        "Id": 523,
+        "Name": "Bode, Crona and Stoltenberg",
+        "ToolTip": "Quis officiis quos molestiae tempora veritatis aut similique.",
         "Deleted": false,
-        "Rank": 782,
-        "Type": "asperiores",
-        "ColorBlock": 327,
-        "IconHint": "aperiam",
-        "Selected": true,
-        "LastChanged": "2008-03-15T11:22:45.8660551+01:00",
+        "Rank": 313,
+        "Type": "repellendus",
+        "ColorBlock": 557,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "2022-03-16T14:19:11.2105958+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "ex",
-        "Hidden": false,
-        "FullName": "Gina Bailey",
+        "ExtraInfo": "modi",
+        "StyleHint": "sapiente",
+        "Hidden": true,
+        "FullName": "Lysanne Armstrong",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 297
+            "FieldLength": 785
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "voluptas",
-    "Hidden": false,
-    "FullName": "Eden O'Connell",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "ipsa",
+    "Hidden": true,
+    "FullName": "Mrs. Jace Pacocha IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 696
+        "FieldLength": 37
       }
     }
   }

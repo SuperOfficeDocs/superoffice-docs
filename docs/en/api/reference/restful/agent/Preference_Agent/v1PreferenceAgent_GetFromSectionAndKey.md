@@ -90,12 +90,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "occaecati",
-  "Key": "laudantium"
+  "Section": "et",
+  "Key": "et"
 }
 ```
 
@@ -106,30 +106,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 133,
-  "Section": "sunt",
-  "Key": "facilis",
-  "Name": "O'Hara-Nader",
+  "PrefDescId": 232,
+  "Section": "soluta",
+  "Key": "omnis",
+  "Name": "Aufderhar Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Managed uniform concept",
-  "IsBuiltin": true,
-  "TableName": "Cassin-Kemmer",
-  "UserDefinedListId": 756,
-  "Rank": 197,
-  "SubGroup": "dolorem",
-  "MinLevel": 2,
-  "MaxValue": 107,
-  "MinValue": 520,
-  "RequiredLicense": "autem",
+  "Description": "Compatible composite challenge",
+  "IsBuiltin": false,
+  "TableName": "Glover, Gottlieb and Rosenbaum",
+  "UserDefinedListId": 918,
+  "Rank": 925,
+  "SubGroup": "quia",
+  "MinLevel": 311,
+  "MaxValue": 475,
+  "MinValue": 585,
+  "RequiredLicense": "deleniti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 710
+      "FieldLength": 885
     }
   }
 }

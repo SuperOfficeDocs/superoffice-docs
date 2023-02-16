@@ -68,7 +68,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -95,7 +95,7 @@ OK
 GET /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -105,76 +105,76 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 636,
+  "EjMessageId": 54,
   "Ticket": null,
-  "CreatedAt": "2011-06-15T11:22:45.3349401+02:00",
+  "CreatedAt": "1995-12-30T14:19:10.8967282+01:00",
   "CreatedBy": null,
-  "Author": "porro",
+  "Author": "quod",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "vel",
-  "TimeSpent": 231,
-  "Body": "laudantium",
-  "HtmlBody": "omnis",
-  "EmailHeader": "griffin@bruen.us",
-  "DebugInfo": "pariatur",
-  "MailSorter": "quo",
+  "MessageId": "nostrum",
+  "TimeSpent": 411,
+  "Body": "eum",
+  "HtmlBody": "repellat",
+  "EmailHeader": "brennon_funk@dickinson.biz",
+  "DebugInfo": "quae",
+  "MailSorter": "aspernatur",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "reprehenderit",
+  "SearchTitle": "tempora",
   "MessageHeaders": [
     {
-      "Id": 69,
-      "Name": "O'Conner, Wisozk and Kirlin",
-      "Value": "optio",
+      "Id": 532,
+      "Name": "Kozey Inc and Sons",
+      "Value": "rem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 834
+          "FieldType": "System.String",
+          "FieldLength": 494
         }
       }
     }
   ],
   "Important": false,
-  "Language": "eos",
-  "Sentiment": 755,
-  "SentimentConfidence": 55,
+  "Language": "libero",
+  "Sentiment": 74,
+  "SentimentConfidence": 451,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 177,
-      "Name": "Hammes, Cummerata and Schowalter",
-      "ContentType": "expedita",
-      "AttSize": 984,
-      "InlineImage": true,
-      "ContentId": "delectus",
+      "AttachmentId": 988,
+      "Name": "Kutch, Ondricka and Wuckert",
+      "ContentType": "accusantium",
+      "AttSize": 173,
+      "InlineImage": false,
+      "ContentId": "consectetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 610
+          "FieldType": "System.Int32",
+          "FieldLength": 40
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "nemo",
-    "ExtraFields2": "fuga"
+    "ExtraFields1": "laboriosam",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "alias"
+    "CustomFields1": "cupiditate",
+    "CustomFields2": "error"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 882
+      "FieldType": "System.String",
+      "FieldLength": 617
     }
   }
 }

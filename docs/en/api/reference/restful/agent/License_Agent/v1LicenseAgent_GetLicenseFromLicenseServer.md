@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Monahan-Rath"
+  "OwnerName": "Smith-Murphy"
 }
 ```
 
@@ -98,14 +98,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 971,
-      "NumberOfLicensesFree": 357,
-      "NumberOfLicensesAdded": 184,
-      "NumberOfLicensesNewTotal": 727,
-      "NumberOfLicensesNewFree": 897,
-      "NumberOfLicensesTotal": 5
+      "NumberOfLicensesInUse": 13,
+      "NumberOfLicensesFree": 898,
+      "NumberOfLicensesAdded": 724,
+      "NumberOfLicensesNewTotal": 123,
+      "NumberOfLicensesNewFree": 148,
+      "NumberOfLicensesTotal": 990
     }
   ],
-  "AccumulatedNextCheckDate": "2013-06-01T11:22:38.3990648+02:00"
+  "AccumulatedNextCheckDate": "2000-06-30T14:19:03.5769906+02:00"
 }
 ```

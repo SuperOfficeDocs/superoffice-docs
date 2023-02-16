@@ -91,10 +91,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 881,
-  "AttachmentId": "fuga",
-  "AttachmentType": "dolores",
-  "AttachmentFilename": "ullam"
+  "MailItemId": 977,
+  "AttachmentId": "dolorem",
+  "AttachmentType": "qui",
+  "AttachmentFilename": "nesciunt"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Phased high-level matrix",
-  "Filename": "possimus",
-  "Size": 180,
-  "Type": "ipsum",
-  "Encoding": "nemo",
-  "Id": "et",
-  "Disposition": "libero",
+  "Description": "Fully-configurable fault-tolerant model",
+  "Filename": "aliquam",
+  "Size": 944,
+  "Type": "aliquid",
+  "Encoding": "itaque",
+  "Id": "molestias",
+  "Disposition": "eum",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 653
+      "FieldLength": 832
     }
   }
 }

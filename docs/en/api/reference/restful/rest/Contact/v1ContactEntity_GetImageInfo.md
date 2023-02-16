@@ -72,7 +72,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,28 +80,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 23 Aug 1999 11:22:44 G8T
+Last-Modified: Fri, 20 Apr 2007 14:19:10 G4T
 
 {
-  "BlobId": 642,
-  "BlobSize": 271,
-  "Description": "Total uniform definition",
-  "ExtraInfo": "dolor",
+  "BlobId": 382,
+  "BlobSize": 646,
+  "Description": "Triple-buffered next generation hierarchy",
+  "ExtraInfo": "quia",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "nihil",
-  "OriginalSize": 331,
-  "CreatedDate": "2011-03-16T11:22:44.4445217+01:00",
-  "UpdatedDate": "1999-08-23T11:22:44.4445217+02:00",
+  "IsZipped": true,
+  "MimeType": "sed",
+  "OriginalSize": 227,
+  "CreatedDate": "2015-10-08T14:19:10.1310974+02:00",
+  "UpdatedDate": "2007-04-20T14:19:10.1310974+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "hic",
+  "ConceptualType": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldLength": 724
     }
   }
 }

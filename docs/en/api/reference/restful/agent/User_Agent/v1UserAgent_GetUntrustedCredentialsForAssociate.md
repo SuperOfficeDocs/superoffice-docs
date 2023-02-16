@@ -87,8 +87,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 394,
-  "Type": "ex"
+  "AssociateId": 71,
+  "Type": "aliquid"
 }
 ```
 
@@ -100,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2007-06-12T11:22:39.6487731+02:00",
-    "ValidTo": "2001-05-01T11:22:39.6487731+02:00",
-    "Comment": "ea",
-    "SecretValue": "sit",
-    "PublicValue": "autem",
+    "ValidFrom": "2001-04-20T14:19:04.5953265+02:00",
+    "ValidTo": "2001-07-01T14:19:04.5953265+02:00",
+    "Comment": "deserunt",
+    "SecretValue": "magni",
+    "PublicValue": "et",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 839
+        "FieldLength": 876
       }
     }
   }

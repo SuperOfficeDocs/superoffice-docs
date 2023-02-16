@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 300
+  "AssociateId": 893
 }
 ```
 
@@ -93,14 +93,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Lesch-Kovacek",
-    "DeviceIdentifier": "reiciendis",
-    "PocketVersion": "dignissimos",
-    "Language": "ut",
-    "PNSHandle": "minus",
+    "DeviceName": "Beier, Farrell and Carroll",
+    "DeviceIdentifier": "laborum",
+    "PocketVersion": "exercitationem",
+    "Language": "tempore",
+    "PNSHandle": "dolor",
     "Platform": "Apple",
-    "OSVersion": "tempore",
-    "TimeZoneId": 203
+    "OSVersion": "dolor",
+    "TimeZoneId": 409
   }
 ]
 ```

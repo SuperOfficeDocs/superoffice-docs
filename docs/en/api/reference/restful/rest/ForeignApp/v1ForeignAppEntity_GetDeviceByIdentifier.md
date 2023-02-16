@@ -76,24 +76,24 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 01 Mar 2000 11:22:44 G3T
+Last-Modified: Sun, 21 Oct 2018 14:19:10 G10T
 
 {
-  "ForeignDeviceId": 613,
-  "Name": "Dare-Ratke",
-  "CreatedDate": "2003-11-29T11:22:44.8662479+01:00",
-  "UpdatedDate": "2000-03-01T11:22:44.8662479+01:00",
-  "AssociateFullName": "Jovan Schroeder DDS",
-  "CreatedBy": "repellat",
-  "UpdatedBy": "debitis",
-  "DeviceIdentifier": "sit",
-  "ForeignAppId": 278,
+  "ForeignDeviceId": 183,
+  "Name": "Kassulke, Howe and Jacobi",
+  "CreatedDate": "1999-08-23T14:19:10.3654771+02:00",
+  "UpdatedDate": "2018-10-21T14:19:10.3654771+02:00",
+  "AssociateFullName": "May Cormier",
+  "CreatedBy": "provident",
+  "UpdatedBy": "cupiditate",
+  "DeviceIdentifier": "velit",
+  "ForeignAppId": 199,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 899
+      "FieldLength": 990
     }
   }
 }

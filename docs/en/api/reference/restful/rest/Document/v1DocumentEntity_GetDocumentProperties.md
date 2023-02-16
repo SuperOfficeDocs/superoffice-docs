@@ -75,7 +75,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "et",
-  "2": "at"
+  "1": "quae",
+  "2": "in"
 }
 ```

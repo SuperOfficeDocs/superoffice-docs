@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 93,
-    "Name": "Stokes, Auer and Wilderman",
-    "ToolTip": "Enim dolorem voluptatem voluptatibus exercitationem molestiae.",
+    "Id": 557,
+    "Name": "Vandervort-Morar",
+    "ToolTip": "Et modi quam.",
     "Deleted": false,
-    "Rank": 547,
-    "Type": "magnam",
-    "ColorBlock": 647,
-    "IconHint": "praesentium",
+    "Rank": 134,
+    "Type": "minima",
+    "ColorBlock": 902,
+    "IconHint": "nostrum",
     "Selected": false,
-    "LastChanged": "2009-11-14T11:22:46.1160093+01:00",
+    "LastChanged": "2000-03-26T14:19:11.450869+02:00",
     "ChildItems": [
       {
-        "Id": 144,
-        "Name": "Aufderhar, Bauch and Marvin",
-        "ToolTip": "Omnis cupiditate consequatur voluptatem voluptatem sint necessitatibus.",
-        "Deleted": true,
-        "Rank": 701,
-        "Type": "officiis",
-        "ColorBlock": 69,
-        "IconHint": "maxime",
-        "Selected": false,
-        "LastChanged": "2020-01-20T11:22:46.1160093+01:00",
+        "Id": 917,
+        "Name": "Bahringer-Nader",
+        "ToolTip": "Similique asperiores accusantium.",
+        "Deleted": false,
+        "Rank": 740,
+        "Type": "recusandae",
+        "ColorBlock": 173,
+        "IconHint": "consequuntur",
+        "Selected": true,
+        "LastChanged": "2018-12-11T14:19:11.4519743+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "enim",
-        "Hidden": true,
-        "FullName": "Mr. Haley Madisen Fahey",
+        "ExtraInfo": "nihil",
+        "StyleHint": "debitis",
+        "Hidden": false,
+        "FullName": "Prof. Dan Zieme Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 586
+            "FieldLength": 24
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "vitae",
-    "Hidden": true,
-    "FullName": "Prof. Rowland Anthony Kihn",
+    "ExtraInfo": "eaque",
+    "StyleHint": "sed",
+    "Hidden": false,
+    "FullName": "Nigel Friesen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldType": "System.String",
+        "FieldLength": 646
       }
     }
   }

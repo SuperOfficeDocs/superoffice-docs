@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 214,
-  "SelectionId": 45,
-  "Restrictions": "incidunt"
+  "DashboardTileId": 657,
+  "SelectionId": 414,
+  "Restrictions": "aut"
 }
 ```
 
@@ -93,19 +93,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Fritsch, Yost and Grimes",
-        "DisplayTooltip": "consequatur",
-        "DisplayType": "aut",
-        "CanOrderBy": true,
-        "Name": "Rohan, Schowalter and Hyatt",
-        "CanRestrictBy": true,
-        "RestrictionType": "consequatur",
-        "RestrictionListName": "Koepp, Adams and Corwin",
+        "DisplayName": "Brekke, Reilly and Aufderhar",
+        "DisplayTooltip": "in",
+        "DisplayType": "quas",
+        "CanOrderBy": false,
+        "Name": "Kunde Inc and Sons",
+        "CanRestrictBy": false,
+        "RestrictionType": "nihil",
+        "RestrictionListName": "Tillman-Little",
         "IsVisible": false,
-        "ExtraInfo": "quo",
-        "Width": "recusandae",
-        "IconHint": "enim",
-        "HeadingIconHint": "quo"
+        "ExtraInfo": "fugit",
+        "Width": "ullam",
+        "IconHint": "illum",
+        "HeadingIconHint": "recusandae"
       }
     ],
     "Result": null
@@ -113,19 +113,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Fritsch, Yost and Grimes",
-        "DisplayTooltip": "consequatur",
-        "DisplayType": "aut",
-        "CanOrderBy": true,
-        "Name": "Rohan, Schowalter and Hyatt",
-        "CanRestrictBy": true,
-        "RestrictionType": "consequatur",
-        "RestrictionListName": "Koepp, Adams and Corwin",
+        "DisplayName": "Brekke, Reilly and Aufderhar",
+        "DisplayTooltip": "in",
+        "DisplayType": "quas",
+        "CanOrderBy": false,
+        "Name": "Kunde Inc and Sons",
+        "CanRestrictBy": false,
+        "RestrictionType": "nihil",
+        "RestrictionListName": "Tillman-Little",
         "IsVisible": false,
-        "ExtraInfo": "quo",
-        "Width": "recusandae",
-        "IconHint": "enim",
-        "HeadingIconHint": "quo"
+        "ExtraInfo": "fugit",
+        "Width": "ullam",
+        "IconHint": "illum",
+        "HeadingIconHint": "recusandae"
       }
     ],
     "Result": null

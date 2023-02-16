@@ -25,7 +25,7 @@ Gets a DiaryViewEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=366
+POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=399
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,49 +83,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 1002,
-  "Name": "Flatley-Hartmann",
-  "Tooltip": "impedit",
-  "VisibleColumns": 268,
-  "Rank": 30,
-  "AssocId": 491,
+  "DiaryViewId": 581,
+  "Name": "Hermiston Group",
+  "Tooltip": "in",
+  "VisibleColumns": 729,
+  "Rank": 244,
+  "AssocId": 994,
   "AssociateList": [
     {
-      "Id": 235,
-      "Name": "Stiedemann Group",
-      "ToolTip": "Inventore natus sequi natus perspiciatis culpa sint ullam.",
-      "Deleted": false,
-      "Rank": 229,
-      "Type": "suscipit",
-      "ColorBlock": 356,
-      "IconHint": "ipsum",
-      "Selected": false,
-      "LastChanged": "2001-03-28T11:22:37.6179991+02:00",
+      "Id": 661,
+      "Name": "Renner, Larkin and Ratke",
+      "ToolTip": "Officia voluptas ut.",
+      "Deleted": true,
+      "Rank": 81,
+      "Type": "qui",
+      "ColorBlock": 305,
+      "IconHint": "consequatur",
+      "Selected": true,
+      "LastChanged": "2009-04-17T14:19:02.9324043+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nihil",
-      "StyleHint": "recusandae",
-      "Hidden": false,
-      "FullName": "Consuelo Rolfson",
+      "ExtraInfo": "saepe",
+      "StyleHint": "non",
+      "Hidden": true,
+      "FullName": "Eugenia Rosenbaum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 692
+          "FieldLength": 643
         }
       }
     }
   ],
-  "TzLocationId": 445,
+  "TzLocationId": 411,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldLength": 206
     }
   }
 }

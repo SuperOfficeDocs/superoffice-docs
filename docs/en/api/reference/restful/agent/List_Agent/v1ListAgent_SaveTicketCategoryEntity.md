@@ -96,33 +96,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 215,
-  "ParentId": 418,
-  "Name": "Romaguera Group",
-  "Fullname": "enim",
-  "CategoryMaster": 424,
+  "TicketCategoryId": 470,
+  "ParentId": 377,
+  "Name": "Wehner-Keebler",
+  "Fullname": "et",
+  "CategoryMaster": 8,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Howe, Kemmer and Hahn",
+  "ExternalName": "Marvin-Hahn",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 89,
-  "ReplyTemplate": 22,
-  "NotificationEmail": "berniece@bahringer.com",
+  "AssignmentLag": 694,
+  "ReplyTemplate": 173,
+  "NotificationEmail": "sigmund@schuppe.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 151,
+  "EffectiveReplyTemplateId": 436,
   "ExtraFields": {
-    "ExtraFields1": "cupiditate",
-    "ExtraFields2": "velit"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "laboriosam"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "expedita"
+    "CustomFields1": "illum",
+    "CustomFields2": "nam"
   }
 }
 ```
@@ -134,36 +134,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 185,
-  "ParentId": 441,
-  "Name": "Casper, White and Romaguera",
-  "Fullname": "eum",
-  "CategoryMaster": 683,
+  "TicketCategoryId": 223,
+  "ParentId": 344,
+  "Name": "Harber-Klein",
+  "Fullname": "sed",
+  "CategoryMaster": 230,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Cole-Legros",
+  "ExternalName": "Nienow, Haag and Lowe",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 697,
-  "ReplyTemplate": 823,
-  "NotificationEmail": "lauryn@greenfelder.com",
+  "AssignmentLag": 636,
+  "ReplyTemplate": 631,
+  "NotificationEmail": "alan.ziemann@gottlieb.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 214,
+  "EffectiveReplyTemplateId": 980,
   "ExtraFields": {
-    "ExtraFields1": "officia",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "perspiciatis",
+    "ExtraFields2": "animi"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "deserunt"
+    "CustomFields1": "sit",
+    "CustomFields2": "provident"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldType": "System.String",
+      "FieldLength": 323
     }
   }
 }

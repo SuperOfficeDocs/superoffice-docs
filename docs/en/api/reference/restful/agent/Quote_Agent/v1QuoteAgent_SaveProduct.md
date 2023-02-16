@@ -132,51 +132,51 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 227,
-  "ERPProductKey": "et",
-  "ERPPriceListKey": "cupiditate",
-  "Name": "Kassulke-Moore",
-  "Description": "Innovative hybrid functionalities",
-  "Code": "natus",
-  "PriceUnit": "qui",
-  "QuantityUnit": "voluptatem",
+  "ProductId": 755,
+  "ERPProductKey": "quis",
+  "ERPPriceListKey": "et",
+  "Name": "Konopelski, Kautzer and Beatty",
+  "Description": "Re-contextualized assymetric circuit",
+  "Code": "sunt",
+  "PriceUnit": "non",
+  "QuantityUnit": "aperiam",
   "IsSubscription": false,
-  "SubscriptionUnit": "sint",
-  "DefaultSubscriptionQuantity": 14497.884,
-  "ItemNumber": "980168",
+  "SubscriptionUnit": "voluptate",
+  "DefaultSubscriptionQuantity": 4917.246,
+  "ItemNumber": "559799",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sed",
-  "ProductTypeKey": "consequatur",
-  "VAT": 18114.52,
-  "VATInfo": "eos",
-  "UnitCost": 14532.358,
-  "UnitMinimumPrice": 21336.272,
-  "UnitListPrice": 7838.134,
-  "InAssortment": true,
-  "Supplier": "ut",
-  "SupplierCode": "omnis",
-  "Rights": "consequatur",
-  "Rule": "illum",
+  "ProductFamilyKey": "numquam",
+  "ProductTypeKey": "sed",
+  "VAT": 7114.1799999999994,
+  "VATInfo": "officiis",
+  "UnitCost": 28234.206,
+  "UnitMinimumPrice": 16726.158,
+  "UnitListPrice": 2735.982,
+  "InAssortment": false,
+  "Supplier": "doloribus",
+  "SupplierCode": "mollitia",
+  "Rights": "doloribus",
+  "Rule": "pariatur",
   "ExtraInfo": [
     {
-      "Name": "Hamill LLC",
-      "Value": "autem",
+      "Name": "Trantow, Cassin and Runte",
+      "Value": "porro",
       "Type": "Image"
     },
     {
-      "Name": "Hamill LLC",
-      "Value": "autem",
+      "Name": "Trantow, Cassin and Runte",
+      "Value": "porro",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "ad",
-  "ExtraField1": "quod",
-  "ExtraField2": "inventore",
-  "ExtraField3": "tempora",
-  "ExtraField4": "ullam",
-  "ExtraField5": "sed",
-  "InStock": 614.264
+  "RawExtraInfo": "et",
+  "ExtraField1": "suscipit",
+  "ExtraField2": "aut",
+  "ExtraField3": "soluta",
+  "ExtraField4": "ipsum",
+  "ExtraField5": "voluptates",
+  "InStock": 14877.098
 }
 ```
 
@@ -187,73 +187,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 774,
-  "ERPProductKey": "excepturi",
-  "ERPPriceListKey": "incidunt",
-  "Name": "Breitenberg, McLaughlin and Volkman",
-  "Description": "Re-engineered national project",
-  "Code": "aperiam",
-  "PriceUnit": "eveniet",
-  "QuantityUnit": "saepe",
-  "IsSubscription": false,
-  "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 1808.318,
-  "ItemNumber": "299347",
+  "ProductId": 416,
+  "ERPProductKey": "laborum",
+  "ERPPriceListKey": "dolor",
+  "Name": "Kihn, Bins and Bahringer",
+  "Description": "Ameliorated background database",
+  "Code": "illum",
+  "PriceUnit": "eaque",
+  "QuantityUnit": "adipisci",
+  "IsSubscription": true,
+  "SubscriptionUnit": "quam",
+  "DefaultSubscriptionQuantity": 17193.124,
+  "ItemNumber": "727203",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "qui",
-  "ProductTypeKey": "et",
-  "VAT": 23248.012,
-  "VATInfo": "explicabo",
-  "UnitCost": 25698.8,
-  "UnitMinimumPrice": 12523.464,
-  "UnitListPrice": 13946.3,
-  "InAssortment": false,
-  "Supplier": "vitae",
-  "SupplierCode": "optio",
-  "Rights": "reiciendis",
-  "Rule": "molestiae",
+  "ProductFamilyKey": "tenetur",
+  "ProductTypeKey": "odio",
+  "VAT": 26723.618,
+  "VATInfo": "vel",
+  "UnitCost": 5772.8279999999995,
+  "UnitMinimumPrice": 47.01,
+  "UnitListPrice": 17932.748,
+  "InAssortment": true,
+  "Supplier": "ullam",
+  "SupplierCode": "eveniet",
+  "Rights": "ab",
+  "Rule": "sit",
   "ExtraInfo": [
     {
-      "Name": "Green Group",
-      "Value": "dignissimos",
+      "Name": "Swift-Price",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 896
+          "FieldLength": 32
         }
       }
     },
     {
-      "Name": "Green Group",
-      "Value": "dignissimos",
+      "Name": "Swift-Price",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 896
+          "FieldLength": 32
         }
       }
     }
   ],
-  "RawExtraInfo": "esse",
-  "ExtraField1": "aperiam",
-  "ExtraField2": "aliquam",
-  "ExtraField3": "iure",
-  "ExtraField4": "voluptates",
-  "ExtraField5": "beatae",
-  "InStock": 22903.272,
+  "RawExtraInfo": "optio",
+  "ExtraField1": "impedit",
+  "ExtraField2": "ullam",
+  "ExtraField3": "modi",
+  "ExtraField4": "voluptatem",
+  "ExtraField5": "et",
+  "InStock": 14598.171999999999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 183
+      "FieldType": "System.Int32",
+      "FieldLength": 592
     }
   }
 }

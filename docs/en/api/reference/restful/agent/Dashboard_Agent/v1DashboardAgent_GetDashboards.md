@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 635
+  "AssociateId": 595
 }
 ```
 
@@ -92,22 +92,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 878,
-    "AssociateId": 646,
-    "Caption": "porro",
+    "DashboardId": 543,
+    "AssociateId": 907,
+    "Caption": "quia",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 67,
-        "Caption": "et",
-        "Description": "Polarised 24 hour moderator",
-        "ChartName": "Kunze, Gleason and Rowe",
-        "ChartId": "aut",
-        "IsDefault": true,
-        "AssociateId": 206,
-        "GroupId": 983,
-        "SelectionId": 887,
-        "Config": "quia",
+        "DashboardTileId": 953,
+        "Caption": "odit",
+        "Description": "Triple-buffered motivating frame",
+        "ChartName": "Hickle-Kreiger",
+        "ChartId": "modi",
+        "IsDefault": false,
+        "AssociateId": 700,
+        "GroupId": 963,
+        "SelectionId": 717,
+        "Config": "mollitia",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 439
+            "FieldType": "System.String",
+            "FieldLength": 214
           }
         }
       }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 474
+        "FieldLength": 573
       }
     }
   }

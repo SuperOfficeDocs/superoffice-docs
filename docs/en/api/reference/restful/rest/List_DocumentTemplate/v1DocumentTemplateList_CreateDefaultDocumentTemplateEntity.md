@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,37 +88,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 718,
-  "Name": "Grant, Goldner and Vandervort",
-  "Tooltip": "magnam",
-  "SaveInDb": 20,
-  "Filename": "dolorem",
-  "DefaultOref": "vitae",
+  "DocumentTemplateId": 278,
+  "Name": "Kassulke Group",
+  "Tooltip": "dolor",
+  "SaveInDb": 944,
+  "Filename": "et",
+  "DefaultOref": "similique",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 618,
-  "IntentId": 555,
-  "IsDefaultPublished": false,
-  "Rank": 230,
-  "LoadTemplateFromPlugin": 206,
-  "MimeType": "qui",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 57,
+  "AutoeventId": 269,
+  "IntentId": 857,
+  "IsDefaultPublished": true,
+  "Rank": 686,
+  "LoadTemplateFromPlugin": 422,
+  "MimeType": "voluptatum",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 726,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "kurtis@auerrath.us",
+  "EmailSubject": "yesenia@ratkeleannon.uk",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "amani@schummbrekke.co.uk",
+  "SenderEmailAddress": "mustafa_torphy@harvey.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 634
+      "FieldType": "System.String",
+      "FieldLength": 395
     }
   }
 }

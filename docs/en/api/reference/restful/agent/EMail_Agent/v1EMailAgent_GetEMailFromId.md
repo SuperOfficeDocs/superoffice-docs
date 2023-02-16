@@ -103,15 +103,15 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 191,
-  "LookupAddresses": false,
+  "MessageServerId": 574,
+  "LookupAddresses": true,
   "Flags": "Answered",
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -124,146 +124,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 859,
-      "ContactName": "Kiehn, Stroman and Bode",
-      "PersonId": 588,
-      "PersonName": "Medhurst, Oberbrunner and King",
-      "AssociateId": 978,
-      "Address": "et",
-      "EmailId": 586,
+      "ContactId": 852,
+      "ContactName": "Beahan Inc and Sons",
+      "PersonId": 629,
+      "PersonName": "Ryan, Stehr and Borer",
+      "AssociateId": 647,
+      "Address": "dolores",
+      "EmailId": 482,
       "DuplicatePersonIds": [
-        938,
-        4
+        818,
+        483
       ],
-      "Name": "White, Schaden and Stoltenberg",
+      "Name": "Bahringer Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 745
+          "FieldType": "System.Int32",
+          "FieldLength": 483
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 54,
-      "ContactName": "Streich, Baumbach and Rempel",
-      "PersonId": 175,
-      "PersonName": "Monahan LLC",
-      "AssociateId": 275,
-      "Address": "iure",
-      "EmailId": 756,
+      "ContactId": 147,
+      "ContactName": "Johnson Inc and Sons",
+      "PersonId": 566,
+      "PersonName": "Okuneva Inc and Sons",
+      "AssociateId": 332,
+      "Address": "minus",
+      "EmailId": 495,
       "DuplicatePersonIds": [
-        555,
-        736
+        947,
+        142
       ],
-      "Name": "Waelchi, Cole and Ankunding",
+      "Name": "Greenholt LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 190
+          "FieldLength": 545
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 166,
-      "ContactName": "Olson-Orn",
-      "PersonId": 421,
-      "PersonName": "D'Amore, Buckridge and Paucek",
-      "AssociateId": 915,
-      "Address": "soluta",
-      "EmailId": 7,
+      "ContactId": 420,
+      "ContactName": "Mante-Carroll",
+      "PersonId": 830,
+      "PersonName": "Larkin LLC",
+      "AssociateId": 502,
+      "Address": "beatae",
+      "EmailId": 301,
       "DuplicatePersonIds": [
-        292,
-        964
+        958,
+        428
       ],
-      "Name": "Block, Lehner and Prohaska",
+      "Name": "Lynch-McKenzie",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 644
+          "FieldLength": 569
         }
       }
     }
   ],
-  "Subject": "in",
-  "HTMLBody": "ut",
+  "Subject": "et",
+  "HTMLBody": "eius",
   "From": null,
-  "Sent": "2007-04-21T11:22:38.242853+02:00",
-  "Size": 675,
+  "Sent": "2006-07-09T14:19:03.4508967+02:00",
+  "Size": 777,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "pariatur",
-  "PlainBody": "occaecati",
+  "MessageID": "et",
+  "PlainBody": "totam",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 12,
+  "ServerId": 273,
   "Attachments": [
     {
-      "Description": "Exclusive motivating matrices",
-      "Filename": "incidunt",
-      "Size": 796,
-      "Type": "ut",
-      "Encoding": "alias",
-      "Id": "culpa",
-      "Disposition": "officia",
+      "Description": "Optional next generation website",
+      "Filename": "molestias",
+      "Size": 685,
+      "Type": "dicta",
+      "Encoding": "eveniet",
+      "Id": "voluptatem",
+      "Disposition": "aspernatur",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 184
+          "FieldLength": 935
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Gleason LLC",
+      "Name": "Waelchi-Windler",
       "Values": [
-        "velit",
-        "veniam"
+        "sit",
+        "quod"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 819
+          "FieldType": "System.Int32",
+          "FieldLength": 557
         }
       }
     },
     {
-      "Name": "Gleason LLC",
+      "Name": "Waelchi-Windler",
       "Values": [
-        "velit",
-        "veniam"
+        "sit",
+        "quod"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 819
+          "FieldType": "System.Int32",
+          "FieldLength": 557
         }
       }
     }
   ],
-  "FolderName": "Borer Inc and Sons",
-  "EmailItemId": 110,
-  "AccountId": 290,
-  "ReceivedAt": "2020-05-31T11:22:38.2584721+02:00",
+  "FolderName": "Erdman, Russel and Towne",
+  "EmailItemId": 664,
+  "AccountId": 620,
+  "ReceivedAt": "2015-08-20T14:19:03.4508967+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2016-03-26T11:22:38.2584721+01:00",
+  "RepliedAt": "2019-09-04T14:19:03.4508967+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -271,8 +271,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 280
+      "FieldType": "System.Int32",
+      "FieldLength": 559
     }
   }
 }

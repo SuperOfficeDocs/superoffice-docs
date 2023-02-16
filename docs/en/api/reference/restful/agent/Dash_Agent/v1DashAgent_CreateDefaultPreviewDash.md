@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,32 +70,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Klocko Inc and Sons",
-  "Description": "Compatible demand-driven software",
-  "OwnedByFullName": "Lavinia Bailey II",
-  "Registered": "2008-06-23T11:22:37.8054533+02:00",
+  "Name": "Jewess-Stark",
+  "Description": "Multi-tiered value-added circuit",
+  "OwnedByFullName": "Dr. Jonathon Kassandra Johnston MD",
+  "Registered": "1997-02-28T14:19:03.1042793+01:00",
   "Tiles": [
     {
-      "Name": "Greenholt-DuBuque",
+      "Name": "Koss-Powlowski",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 237
+          "FieldType": "System.String",
+          "FieldLength": 462
         }
       }
     },
     {
-      "Name": "Greenholt-DuBuque",
+      "Name": "Koss-Powlowski",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 237
+          "FieldType": "System.String",
+          "FieldLength": 462
         }
       }
     }
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldType": "System.String",
+      "FieldLength": 943
     }
   }
 }

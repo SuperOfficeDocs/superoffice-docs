@@ -102,30 +102,30 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 194,
-  "Name": "Ratke-Leannon",
-  "Tooltip": "impedit",
+  "WebPanelId": 691,
+  "Name": "Gerhold, Grant and King",
+  "Tooltip": "nisi",
   "Deleted": false,
-  "Rank": 595,
+  "Rank": 517,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Wilderman, Dickinson and Crist",
+  "WindowName": "Schultz-Emmerich",
   "Url": "http://www.example.com/",
-  "ProgId": "consequatur",
-  "Icon": 290,
+  "ProgId": "id",
+  "Icon": 760,
   "AlwaysReloadOnShow": false
 }
 ```
@@ -137,33 +137,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 293,
-  "Name": "Hessel Group",
-  "Tooltip": "eos",
-  "Deleted": false,
-  "Rank": 373,
+  "WebPanelId": 143,
+  "Name": "Turner-Smith",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 418,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Lynch-Harber",
+  "WindowName": "Cormier-Franecki",
   "Url": "http://www.example.com/",
-  "ProgId": "et",
-  "Icon": 432,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "omnis",
+  "Icon": 8,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldType": "System.String",
+      "FieldLength": 648
     }
   }
 }

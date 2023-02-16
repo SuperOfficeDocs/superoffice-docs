@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 646,
-    "Name": "Bernier LLC",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "UdListDefinitionId": 514,
-    "Rank": 882
+    "Id": 16,
+    "Name": "Rolfson Inc and Sons",
+    "Tooltip": "veniam",
+    "Deleted": false,
+    "UdListDefinitionId": 252,
+    "Rank": 648
   },
   {
-    "Id": 646,
-    "Name": "Bernier LLC",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "UdListDefinitionId": 514,
-    "Rank": 882
+    "Id": 16,
+    "Name": "Rolfson Inc and Sons",
+    "Tooltip": "veniam",
+    "Deleted": false,
+    "UdListDefinitionId": 252,
+    "Rank": 648
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 500,
-    "Name": "Friesen, Prosacco and Goyette",
-    "Tooltip": "laborum",
+    "Id": 911,
+    "Name": "Berge, Lindgren and McClure",
+    "Tooltip": "dolore",
     "Deleted": false,
-    "UdListDefinitionId": 812,
-    "Rank": 495,
+    "UdListDefinitionId": 264,
+    "Rank": 876,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 481
+        "FieldLength": 836
       }
     }
   }

@@ -83,26 +83,26 @@ OK
 POST /api/v1/Dashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 407,
-  "AssociateId": 180,
-  "Caption": "eum",
+  "DashboardId": 78,
+  "AssociateId": 383,
+  "Caption": "nobis",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 280,
-      "Caption": "qui",
-      "Description": "Customizable contextually-based website",
-      "ChartName": "Kihn, Schinner and Heller",
-      "ChartId": "ut",
-      "IsDefault": false,
-      "AssociateId": 834,
-      "GroupId": 334,
-      "SelectionId": 568,
-      "Config": "accusantium",
+      "DashboardTileId": 581,
+      "Caption": "quia",
+      "Description": "User-friendly executive model",
+      "ChartName": "Wisoky Inc and Sons",
+      "ChartId": "quia",
+      "IsDefault": true,
+      "AssociateId": 943,
+      "GroupId": 431,
+      "SelectionId": 381,
+      "Config": "quibusdam",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -125,22 +125,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 760,
-  "AssociateId": 470,
-  "Caption": "similique",
+  "DashboardId": 591,
+  "AssociateId": 642,
+  "Caption": "voluptate",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 905,
-      "Caption": "quaerat",
-      "Description": "Pre-emptive scalable installation",
-      "ChartName": "Hermann-Jaskolski",
-      "ChartId": "delectus",
+      "DashboardTileId": 446,
+      "Caption": "occaecati",
+      "Description": "Optional encompassing access",
+      "ChartName": "Treutel-Herman",
+      "ChartId": "odit",
       "IsDefault": false,
-      "AssociateId": 634,
-      "GroupId": 445,
-      "SelectionId": 979,
-      "Config": "qui",
+      "AssociateId": 35,
+      "GroupId": 526,
+      "SelectionId": 383,
+      "Config": "voluptatem",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 890
+          "FieldLength": 929
         }
       }
     }
@@ -165,8 +165,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 171
+      "FieldType": "System.Int32",
+      "FieldLength": 749
     }
   },
   "_Links": {

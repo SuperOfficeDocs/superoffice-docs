@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 382,
-    "Value": "repellat",
-    "Tooltip": "quidem",
+    "Id": 361,
+    "Value": "sed",
+    "Tooltip": "optio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 604
+        "FieldType": "System.Int32",
+        "FieldLength": 302
       }
     }
   },
   {
-    "Id": 382,
-    "Value": "repellat",
-    "Tooltip": "quidem",
+    "Id": 361,
+    "Value": "sed",
+    "Tooltip": "optio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 604
+        "FieldType": "System.Int32",
+        "FieldLength": 302
       }
     }
   }

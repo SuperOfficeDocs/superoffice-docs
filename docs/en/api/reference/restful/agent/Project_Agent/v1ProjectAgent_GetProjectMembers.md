@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 55
+  "ProjectId": 13
 }
 ```
 
@@ -108,33 +108,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 341,
-    "ContactId": 33,
-    "ProjectId": 4,
-    "ContactName": "Jacobson, Waelchi and Kling",
+    "ProjectmemberId": 230,
+    "ContactId": 530,
+    "ProjectId": 704,
+    "ContactName": "Funk-Flatley",
     "ContactDepartment": "",
-    "ProjectName": "Gorczany-Jerde",
-    "EmailId": 593,
-    "EmailAddress": "eugenia.considine@labadie.ca",
-    "CountryId": 556,
-    "Firstname": "Elroy",
-    "MiddleName": "Halvorson, Schoen and Berge",
-    "Lastname": "Walker",
-    "PersonId": 358,
-    "Mrmrs": "exercitationem",
-    "ProjectMemberTypeName": "Halvorson LLC",
-    "Phone": "843-640-2627 x240",
-    "PhoneId": 859,
-    "ProjectMemberTypeId": 426,
-    "EmailAddressName": "kristopher@goodwin.name",
-    "Comment": "sed",
-    "FullName": "Dr. Amara Sam Shields Jr.",
+    "ProjectName": "D'Amore LLC",
+    "EmailId": 615,
+    "EmailAddress": "madge@hicklebecker.biz",
+    "CountryId": 734,
+    "Firstname": "Stephan",
+    "MiddleName": "Mraz LLC",
+    "Lastname": "Boyle",
+    "PersonId": 440,
+    "Mrmrs": "quaerat",
+    "ProjectMemberTypeName": "Weber-Bartoletti",
+    "Phone": "505-384-9920 x815",
+    "PhoneId": 214,
+    "ProjectMemberTypeId": 705,
+    "EmailAddressName": "hilton@wyman.com",
+    "Comment": "incidunt",
+    "FullName": "Shanny Fay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 115
+        "FieldLength": 11
       }
     }
   }

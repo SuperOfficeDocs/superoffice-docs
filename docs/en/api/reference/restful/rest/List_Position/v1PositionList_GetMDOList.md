@@ -25,8 +25,8 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=praesentium
+GET /api/v1/List/Position/MDOItems?flat=True
+GET /api/v1/List/Position/MDOItems?query=libero
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 699,
-    "Name": "Carroll, McGlynn and McDermott",
-    "ToolTip": "Ipsum et rem reiciendis corrupti odit sed.",
-    "Deleted": true,
-    "Rank": 164,
-    "Type": "nostrum",
+    "Id": 674,
+    "Name": "Parker Group",
+    "ToolTip": "Dolores quis praesentium quam.",
+    "Deleted": false,
+    "Rank": 122,
+    "Type": "animi",
     "ChildItems": [
       {
-        "Id": 805,
-        "Name": "Sporer Inc and Sons",
-        "ToolTip": "Ducimus minus aliquam aperiam distinctio soluta.",
+        "Id": 879,
+        "Name": "Thiel-Bergnaum",
+        "ToolTip": "Id voluptatum.",
         "Deleted": false,
-        "Rank": 474,
-        "Type": "quibusdam",
+        "Rank": 40,
+        "Type": "hic",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "repellat",
-        "ColorBlock": 211,
-        "ExtraInfo": "praesentium",
-        "StyleHint": "adipisci",
-        "FullName": "Juvenal Emard Jr.",
+        "IconHint": "culpa",
+        "ColorBlock": 143,
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "atque",
+        "FullName": "Javier Hoeger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 354
+            "FieldLength": 991
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 296,
-    "ExtraInfo": "fugiat",
-    "StyleHint": "officia",
-    "FullName": "Ms. Reece Elbert Senger",
+    "IconHint": "possimus",
+    "ColorBlock": 918,
+    "ExtraInfo": "neque",
+    "StyleHint": "molestias",
+    "FullName": "Dr. Phoebe Cormier Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 723
+        "FieldType": "System.Int32",
+        "FieldLength": 125
       }
     }
   }

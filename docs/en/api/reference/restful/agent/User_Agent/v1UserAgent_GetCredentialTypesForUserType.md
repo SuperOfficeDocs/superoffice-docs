@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "alias",
-    "Type": "in",
-    "Description": "Multi-tiered systematic analyzer",
+    "DisplayType": "omnis",
+    "Type": "libero",
+    "Description": "Extended mobile projection",
     "ValueControl": "Edit",
-    "CanCreatePerson": false,
+    "CanCreatePerson": true,
     "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 261
+        "FieldLength": 351
       }
     }
   }

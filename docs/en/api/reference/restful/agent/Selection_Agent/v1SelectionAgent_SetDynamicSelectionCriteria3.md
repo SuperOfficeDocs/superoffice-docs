@@ -87,31 +87,31 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 715,
+  "SelectionId": 149,
   "Criteria": [
     {
-      "Name": "Champlin, Jerde and Boyle",
-      "Operator": "sed",
+      "Name": "Doyle LLC",
+      "Operator": "doloremque",
       "Values": [
-        "et",
-        "corrupti"
+        "eum",
+        "rerum"
       ],
       "DisplayValues": [
-        "consequatur",
-        "sint"
+        "qui",
+        "eos"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 809,
+      "InterParenthesis": 456,
       "InterOperator": "And",
-      "UniqueHash": 599
+      "UniqueHash": 906
     }
   ],
-  "Filter": "incidunt"
+  "Filter": "consectetur"
 }
 ```
 
@@ -123,44 +123,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "White Group",
-    "Operator": "dolorem",
+    "Name": "Runte-Stracke",
+    "Operator": "quia",
     "Values": [
-      "modi",
-      "quo"
+      "ut",
+      "tempore"
     ],
     "DisplayValues": [
-      "nisi",
-      "eos"
+      "ut",
+      "labore"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Nader Inc and Sons",
-        "Operator": "qui",
+        "Name": "Ruecker, Stanton and Ritchie",
+        "Operator": "rerum",
         "Values": [
-          "ex",
-          "recusandae"
+          "maiores",
+          "illo"
         ],
         "DisplayValues": [
-          "est",
-          "ab"
+          "aut",
+          "reprehenderit"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 359,
+        "InterParenthesis": 984,
         "InterOperator": "And",
-        "UniqueHash": 309
+        "UniqueHash": 26
       }
     ],
-    "InterParenthesis": 323,
+    "InterParenthesis": 28,
     "InterOperator": "And",
-    "UniqueHash": 476
+    "UniqueHash": 1000
   }
 ]
 ```

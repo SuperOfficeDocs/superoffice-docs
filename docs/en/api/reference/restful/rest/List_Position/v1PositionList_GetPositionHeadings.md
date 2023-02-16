@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 570,
-    "Name": "Robel LLC",
-    "Tooltip": "maxime",
+    "HeadingId": 350,
+    "Name": "Boehm Inc and Sons",
+    "Tooltip": "ullam",
     "Deleted": false,
-    "Rank": 737,
-    "UdListDefinitionId": 563,
+    "Rank": 415,
+    "UdListDefinitionId": 421,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 766
+        "FieldType": "System.Int32",
+        "FieldLength": 889
       }
     }
   }

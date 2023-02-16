@@ -95,47 +95,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 448,
-    "Name": "Murazik, Mitchell and Monahan",
-    "ToolTip": "Repudiandae minus delectus asperiores nobis sint assumenda.",
+    "Id": 53,
+    "Name": "Stark Inc and Sons",
+    "ToolTip": "Omnis esse aut sunt vel consequatur.",
     "Deleted": false,
-    "Rank": 784,
-    "Type": "tenetur",
-    "ColorBlock": 950,
-    "IconHint": "sapiente",
+    "Rank": 320,
+    "Type": "officia",
+    "ColorBlock": 312,
+    "IconHint": "dolore",
     "Selected": false,
-    "LastChanged": "2000-01-15T11:22:45.5536344+01:00",
+    "LastChanged": "2014-11-02T14:19:11.1012251+01:00",
     "ChildItems": [
       {
-        "Id": 492,
-        "Name": "Murray-Corkery",
-        "ToolTip": "Voluptatibus placeat occaecati incidunt.",
-        "Deleted": false,
-        "Rank": 25,
-        "Type": "beatae",
-        "ColorBlock": 80,
-        "IconHint": "sunt",
-        "Selected": false,
-        "LastChanged": "2010-04-25T11:22:45.5536344+02:00",
+        "Id": 245,
+        "Name": "Lynch-Morar",
+        "ToolTip": "Eius optio ullam quia.",
+        "Deleted": true,
+        "Rank": 330,
+        "Type": "suscipit",
+        "ColorBlock": 320,
+        "IconHint": "laudantium",
+        "Selected": true,
+        "LastChanged": "2009-09-15T14:19:11.1012251+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "sunt",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Candice Sawayn"
+        "FullName": "Prof. Laverna Hickle"
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "ipsam",
-    "Hidden": false,
-    "FullName": "Jay Rolfson PhD"
+    "ExtraInfo": "et",
+    "StyleHint": "molestiae",
+    "Hidden": true,
+    "FullName": "Mellie Kshlerin"
   }
 ]
 ```
@@ -148,56 +148,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 836,
-    "Name": "Kuhn, Dibbert and Brown",
-    "ToolTip": "At dolor quasi reprehenderit excepturi.",
-    "Deleted": true,
-    "Rank": 725,
-    "Type": "libero",
-    "ColorBlock": 999,
-    "IconHint": "illo",
+    "Id": 32,
+    "Name": "Hoeger Inc and Sons",
+    "ToolTip": "Deleniti id.",
+    "Deleted": false,
+    "Rank": 704,
+    "Type": "velit",
+    "ColorBlock": 830,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2000-12-02T11:22:45.5536344+01:00",
+    "LastChanged": "2004-05-05T14:19:11.1012251+02:00",
     "ChildItems": [
       {
-        "Id": 196,
-        "Name": "DuBuque-Lockman",
-        "ToolTip": "Sint facere.",
-        "Deleted": true,
-        "Rank": 719,
-        "Type": "blanditiis",
-        "ColorBlock": 498,
-        "IconHint": "veritatis",
-        "Selected": false,
-        "LastChanged": "2009-05-05T11:22:45.5536344+02:00",
+        "Id": 37,
+        "Name": "Von Group",
+        "ToolTip": "Dignissimos velit id consequatur est.",
+        "Deleted": false,
+        "Rank": 427,
+        "Type": "placeat",
+        "ColorBlock": 383,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2012-07-28T14:19:11.1012251+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "ea",
+        "ExtraInfo": "a",
+        "StyleHint": "ullam",
         "Hidden": false,
-        "FullName": "Prof. Columbus Mohr",
+        "FullName": "Prof. Mckayla Koss",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 692
+            "FieldType": "System.String",
+            "FieldLength": 104
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "ea",
-    "Hidden": false,
-    "FullName": "Leatha Paucek",
+    "ExtraInfo": "dolores",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Norwood Cartwright",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 857
+        "FieldLength": 801
       }
     }
   }

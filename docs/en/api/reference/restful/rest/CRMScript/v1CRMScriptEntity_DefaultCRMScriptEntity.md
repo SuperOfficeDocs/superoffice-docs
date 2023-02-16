@@ -69,7 +69,7 @@ OK
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,23 +79,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 169,
-  "UniqueIdentifier": "vel",
-  "Name": "Huel-Bergnaum",
-  "Description": "Diverse upward-trending customer loyalty",
-  "IncludeId": "eum",
-  "HierarchyId": 742,
-  "Source": "ut",
-  "Registered": "2009-06-11T11:22:44.5694964+02:00",
-  "RegisteredAssociateId": 625,
-  "Updated": "2018-10-21T11:22:44.5694964+02:00",
-  "UpdatedAssociateId": 709,
+  "EjscriptId": 438,
+  "UniqueIdentifier": "voluptas",
+  "Name": "Tillman-Botsford",
+  "Description": "Quality-focused logistical matrices",
+  "IncludeId": "quo",
+  "HierarchyId": 168,
+  "Source": "voluptatem",
+  "Registered": "2005-03-24T14:19:10.240473+01:00",
+  "RegisteredAssociateId": 709,
+  "Updated": "2022-07-22T14:19:10.240473+02:00",
+  "UpdatedAssociateId": 879,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 242
+      "FieldLength": 554
     }
   }
 }

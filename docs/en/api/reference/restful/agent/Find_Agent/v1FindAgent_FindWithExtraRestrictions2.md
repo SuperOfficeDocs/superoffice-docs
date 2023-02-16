@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ullam",
-  "ProviderName": "Koelpin, Labadie and Monahan",
-  "StorageKey": "adipisci",
-  "ExtraRestrictions": "aperiam",
-  "OrderBy": "et",
-  "DesiredColumns": "qui",
-  "PageSize": 137,
-  "PageNumber": 465
+  "StorageType": "facere",
+  "ProviderName": "Thompson, Spencer and Hane",
+  "StorageKey": "qui",
+  "ExtraRestrictions": "qui",
+  "OrderBy": "qui",
+  "DesiredColumns": "dignissimos",
+  "PageSize": 950,
+  "PageNumber": 656
 }
 ```
 
@@ -190,51 +190,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Ondricka-Nikolaus",
-      "DisplayTooltip": "illo",
-      "DisplayType": "cumque",
-      "CanOrderBy": true,
-      "Name": "Cronin Group",
-      "CanRestrictBy": true,
-      "RestrictionType": "harum",
-      "RestrictionListName": "Hills-Volkman",
-      "IsVisible": true,
-      "ExtraInfo": "voluptatem",
-      "Width": "vel",
-      "IconHint": "iusto",
-      "HeadingIconHint": "distinctio"
+      "DisplayName": "Conroy LLC",
+      "DisplayTooltip": "veritatis",
+      "DisplayType": "et",
+      "CanOrderBy": false,
+      "Name": "Considine, Beatty and Hyatt",
+      "CanRestrictBy": false,
+      "RestrictionType": "amet",
+      "RestrictionListName": "Berge-Wintheiser",
+      "IsVisible": false,
+      "ExtraInfo": "fuga",
+      "Width": "ducimus",
+      "IconHint": "et",
+      "HeadingIconHint": "labore"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Langworth-Huel",
-      "PrimaryKey": 25,
+      "EntityName": "Metz Inc and Sons",
+      "PrimaryKey": 175,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "explicabo",
-          "TooltipHint": "repellendus",
-          "LinkHint": "est"
+          "DisplayValue": "ut",
+          "TooltipHint": "sed",
+          "LinkHint": "aut"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "aut",
+      "LinkHint": "inventore",
+      "StyleHint": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 759
+          "FieldLength": 904
         }
       }
     }
   ],
-  "RowCount": 342,
+  "RowCount": 15,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 231
+      "FieldType": "System.Int32",
+      "FieldLength": 130
     }
   }
 }

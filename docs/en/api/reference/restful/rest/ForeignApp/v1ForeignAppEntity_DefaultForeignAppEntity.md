@@ -62,7 +62,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,32 +70,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 07 Jan 2003 11:22:44 G1T
+Last-Modified: Thu, 02 May 1996 14:19:10 G5T
 
 {
-  "ForeignAppId": 875,
-  "Name": "Baumbach Inc and Sons",
-  "CreatedDate": "2002-01-13T11:22:44.8506265+01:00",
-  "UpdatedDate": "2003-01-07T11:22:44.8506265+01:00",
+  "ForeignAppId": 564,
+  "Name": "Nicolas-Mraz",
+  "CreatedDate": "2019-01-02T14:19:10.3498478+01:00",
+  "UpdatedDate": "1996-05-02T14:19:10.3498478+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 454,
-      "Name": "Willms, Haag and Gaylord",
-      "CreatedDate": "2013-10-30T11:22:44.8506265+01:00",
-      "UpdatedDate": "2015-05-30T11:22:44.8506265+02:00",
-      "AssociateFullName": "Mrs. Brook Hermann Hoeger Jr.",
-      "CreatedBy": "laborum",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "odit",
-      "ForeignAppId": 75,
+      "ForeignDeviceId": 18,
+      "Name": "Davis, Mitchell and Zemlak",
+      "CreatedDate": "2014-10-16T14:19:10.3498478+02:00",
+      "UpdatedDate": "2001-07-22T14:19:10.3498478+02:00",
+      "AssociateFullName": "Lela Heaney",
+      "CreatedBy": "ducimus",
+      "UpdatedBy": "optio",
+      "DeviceIdentifier": "enim",
+      "ForeignAppId": 404,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 838
+          "FieldType": "System.Int32",
+          "FieldLength": 420
         }
       }
     }
@@ -105,7 +105,7 @@ Last-Modified: Tue, 07 Jan 2003 11:22:44 G1T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldLength": 126
     }
   }
 }

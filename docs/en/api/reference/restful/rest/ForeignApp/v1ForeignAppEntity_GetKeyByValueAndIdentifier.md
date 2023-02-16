@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=qui
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=sint
 ```
 
 
@@ -87,23 +87,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 06 Dec 2011 11:22:44 G12T
+Last-Modified: Sun, 15 Jun 2014 14:19:10 G6T
 
 {
-  "Key": "sequi",
-  "Value": "est",
-  "RecordId": 201,
-  "CreatedDate": "2005-10-26T11:22:44.8818691+02:00",
-  "UpdatedDate": "2011-12-06T11:22:44.8818691+01:00",
-  "UpdatedBy": "voluptate",
-  "CreatedBy": "et",
-  "TableName": "Langworth-Sipes",
+  "Key": "sunt",
+  "Value": "adipisci",
+  "RecordId": 235,
+  "CreatedDate": "2016-03-18T14:19:10.3654771+01:00",
+  "UpdatedDate": "2014-06-15T14:19:10.3654771+02:00",
+  "UpdatedBy": "sunt",
+  "CreatedBy": "modi",
+  "TableName": "Corkery Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 365
+      "FieldType": "System.Int32",
+      "FieldLength": 106
     }
   }
 }

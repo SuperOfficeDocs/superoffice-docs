@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 23
+  "SaleId": 20
 }
 ```
 
@@ -100,26 +100,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 594,
-  "SaleId": 805,
-  "QuoteConnectionId": 529,
-  "ERPQuoteKey": "autem",
-  "ERPOrderKey": "deleniti",
-  "ActiveQuoteVersionId": 849,
-  "AcceptedQuoteAlternativeId": 629,
-  "UseValuesFromQuote": 424,
-  "DocumentId": 278,
-  "PoNumber": "698827",
-  "OrderComment": "sunt",
-  "PreferredEmailCulture": "piper@bartell.info",
+  "QuoteId": 536,
+  "SaleId": 156,
+  "QuoteConnectionId": 582,
+  "ERPQuoteKey": "fugiat",
+  "ERPOrderKey": "sapiente",
+  "ActiveQuoteVersionId": 945,
+  "AcceptedQuoteAlternativeId": 835,
+  "UseValuesFromQuote": 995,
+  "DocumentId": 749,
+  "PoNumber": "1056657",
+  "OrderComment": "laudantium",
+  "PreferredEmailCulture": "marta.abbott@hamill.com",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 488
+      "FieldType": "System.String",
+      "FieldLength": 391
     }
   }
 }

@@ -113,7 +113,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -121,73 +121,73 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 01 Apr 1999 11:22:45 G4T
+Last-Modified: Sat, 14 Jun 2003 14:19:10 G6T
 
 {
-  "Description": "Focused analyzing challenge",
-  "Postit": "ipsam",
+  "Description": "Team-oriented empowering structure",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 57,
-  "IncludePerson": 923,
-  "MemberCount": 679,
-  "Name": "Walsh Group",
-  "PostitTextId": 989,
-  "CreatedDate": "2019-07-09T11:22:45.1943375+02:00",
-  "SelectionId": 193,
-  "SoundEx": "iure",
-  "Source": 31,
-  "TextId": 586,
-  "UpdatedDate": "1999-04-01T11:22:45.1943375+02:00",
-  "UpdatedCount": 369,
-  "Visibility": 117,
+  "GroupIdx": 897,
+  "IncludePerson": 365,
+  "MemberCount": 207,
+  "Name": "Grady LLC",
+  "PostitTextId": 570,
+  "CreatedDate": "1998-07-24T14:19:10.7717284+02:00",
+  "SelectionId": 731,
+  "SoundEx": "nemo",
+  "Source": 363,
+  "TextId": 575,
+  "UpdatedDate": "2003-06-14T14:19:10.7717284+02:00",
+  "UpdatedCount": 328,
+  "Visibility": 823,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 401,
-  "TargetTableName": "Schuppe LLC",
+  "TargetTableNumber": 524,
+  "TargetTableName": "Block LLC",
   "Completed": false,
-  "LeftSelectionId": 259,
-  "RightSelectionId": 581,
+  "LeftSelectionId": 832,
+  "RightSelectionId": 591,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Jacobson Group",
-  "ShadowProviderName": "Mayer LLC",
-  "ChartKey": "autem",
-  "LastLoaded": "2018-10-03T11:22:45.1943375+02:00",
-  "LastLoadedBy": 627,
+  "MainProviderName": "Klocko, VonRueden and Corwin",
+  "ShadowProviderName": "Friesen-Green",
+  "ChartKey": "deleniti",
+  "LastLoaded": "2004-12-05T14:19:10.7717284+01:00",
+  "LastLoadedBy": 441,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-01-28T11:22:45.1943375+01:00",
-  "LastMembershipChangeBy": 105,
+  "LastMembershipChange": "1996-08-13T14:19:10.7717284+02:00",
+  "LastMembershipChangeBy": 417,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "culpa",
-  "MemberTabHeading": "veritatis",
-  "MailingsProviderName": "Harvey, Swaniawski and Block",
-  "DashboardTileDefinitionId": 158,
+  "MainHeading": "omnis",
+  "MemberTabHeading": "doloribus",
+  "MailingsProviderName": "Rutherford, Hoppe and Wyman",
+  "DashboardTileDefinitionId": 87,
   "VisibleFor": [
     {
-      "VisibleId": 95,
+      "VisibleId": 205,
       "Visibility": "All",
-      "DisplayValue": "repellendus",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 63
+          "FieldType": "System.String",
+          "FieldLength": 634
         }
       }
     },
     {
-      "VisibleId": 95,
+      "VisibleId": 205,
       "Visibility": "All",
-      "DisplayValue": "repellendus",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 63
+          "FieldType": "System.String",
+          "FieldLength": 634
         }
       }
     }
@@ -197,7 +197,7 @@ Last-Modified: Thu, 01 Apr 1999 11:22:45 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 857
+      "FieldLength": 628
     }
   },
   "_Links": {

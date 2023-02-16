@@ -25,8 +25,8 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=ducimus
+GET /api/v1/List/Task/MDOItems?flat=False
+GET /api/v1/List/Task/MDOItems?query=dolor
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 687,
-    "Name": "Johnston-Ondricka",
-    "ToolTip": "Accusamus autem enim aut perferendis.",
+    "Id": 546,
+    "Name": "Wiegand, Gulgowski and Steuber",
+    "ToolTip": "Libero quisquam nihil repellendus laudantium.",
     "Deleted": false,
-    "Rank": 7,
-    "Type": "est",
+    "Rank": 28,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 51,
-        "Name": "Jaskolski Group",
-        "ToolTip": "Asperiores voluptatem.",
-        "Deleted": false,
-        "Rank": 757,
-        "Type": "facilis",
+        "Id": 396,
+        "Name": "Kuphal LLC",
+        "ToolTip": "Quaerat autem omnis nostrum minus aut nam est.",
+        "Deleted": true,
+        "Rank": 274,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "id",
-        "ColorBlock": 226,
-        "ExtraInfo": "et",
-        "StyleHint": "ut",
-        "FullName": "Fabiola Durgan",
+        "IconHint": "velit",
+        "ColorBlock": 673,
+        "ExtraInfo": "nobis",
+        "StyleHint": "dolor",
+        "FullName": "Theodore Waters",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 278
+            "FieldLength": 28
           }
         }
       }
     ],
-    "IconHint": "eaque",
-    "ColorBlock": 705,
-    "ExtraInfo": "qui",
-    "StyleHint": "eaque",
-    "FullName": "Emmy Kunde",
+    "IconHint": "veritatis",
+    "ColorBlock": 76,
+    "ExtraInfo": "nam",
+    "StyleHint": "doloremque",
+    "FullName": "Isobel Collins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 913
+        "FieldLength": 692
       }
     }
   }

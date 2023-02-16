@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 357,
-  "Name": "Reynolds, McKenzie and Schmidt",
-  "Tooltip": "non",
+  "Id": 838,
+  "Name": "Weber-D'Amore",
+  "Tooltip": "temporibus",
   "Deleted": false,
-  "UdListDefinitionId": 487,
-  "Rank": 340,
+  "UdListDefinitionId": 150,
+  "Rank": 965,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 111
+      "FieldType": "System.String",
+      "FieldLength": 30
     }
   }
 }

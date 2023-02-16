@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Morissette-Schaden",
-  "Context": "magnam"
+  "TableName": "Renner LLC",
+  "Context": "illum"
 }
 ```
 
@@ -105,75 +105,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
+    "DefaultShowInGui": true,
+    "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "omnis",
-    "ValueType": "sequi",
+    "Key": "aut",
+    "ValueType": "sit",
     "Mandatory": false,
-    "EncodedDisplayName": "Morissette, Becker and Renner",
-    "EncodedDisplayDescription": "Programmable cohesive data-warehouse",
-    "IconHint": "dolorem",
+    "EncodedDisplayName": "Greenholt LLC",
+    "EncodedDisplayDescription": "Profit-focused optimal groupware",
+    "IconHint": "aspernatur",
     "ControlInfos": [
       {
-        "Type": "doloremque",
-        "Label": "esse",
-        "Dimension": 40,
-        "ListProviderName": "Altenwerth, Reynolds and Morar",
-        "ListProviderExtraInfo": "rerum",
-        "ListProviderPrimaryKeyName": "Eichmann Inc and Sons",
-        "ListLeadText": "natus",
+        "Type": "vel",
+        "Label": "aut",
+        "Dimension": 753,
+        "ListProviderName": "Mills-Boyle",
+        "ListProviderExtraInfo": "quisquam",
+        "ListProviderPrimaryKeyName": "Kassulke-Zboncak",
+        "ListLeadText": "est",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 885
+            "FieldLength": 267
           }
         }
       }
     ],
-    "EncodedDataCaption": "quia",
-    "EncodedDataCaptionDescription": "Synergized context-sensitive success",
-    "CurrentOperationType": "veritatis",
+    "EncodedDataCaption": "aperiam",
+    "EncodedDataCaptionDescription": "User-friendly actuating encryption",
+    "CurrentOperationType": "voluptas",
     "Values": [
-      "quisquam",
-      "et"
+      "et",
+      "tenetur"
     ],
     "DisplayValues": [
-      "asperiores",
-      "maiores"
+      "consequatur",
+      "ut"
     ],
     "OperationInfos": [
       {
-        "Key": "porro",
-        "EncodedDisplayName": "Feeney Group",
+        "Key": "recusandae",
+        "EncodedDisplayName": "O'Reilly LLC",
         "EncodedLeadTexts": [
-          "voluptas",
-          "odio"
+          "doloribus",
+          "in"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 552
+            "FieldLength": 19
           }
         }
       },
       {
-        "Key": "porro",
-        "EncodedDisplayName": "Feeney Group",
+        "Key": "recusandae",
+        "EncodedDisplayName": "O'Reilly LLC",
         "EncodedLeadTexts": [
-          "voluptas",
-          "odio"
+          "doloribus",
+          "in"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 552
+            "FieldLength": 19
           }
         }
       }

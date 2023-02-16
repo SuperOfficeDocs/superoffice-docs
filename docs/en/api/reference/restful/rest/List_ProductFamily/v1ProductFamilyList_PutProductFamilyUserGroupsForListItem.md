@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 617,
-    "Name": "Towne LLC",
-    "ToolTip": "Quia laboriosam ut ut aliquid.",
-    "Deleted": true,
-    "Rank": 379,
-    "Type": "est",
-    "ColorBlock": 443,
-    "IconHint": "provident",
+    "Id": 594,
+    "Name": "Rogahn, Streich and Haag",
+    "ToolTip": "Aliquam unde corrupti similique est molestiae.",
+    "Deleted": false,
+    "Rank": 665,
+    "Type": "quia",
+    "ColorBlock": 635,
+    "IconHint": "esse",
     "Selected": false,
-    "LastChanged": "2013-07-29T11:22:46.0379014+02:00",
+    "LastChanged": "2007-09-19T14:19:11.3680268+02:00",
     "ChildItems": [
       {
-        "Id": 653,
-        "Name": "Dare LLC",
-        "ToolTip": "A laudantium perferendis adipisci hic harum explicabo.",
-        "Deleted": true,
-        "Rank": 422,
-        "Type": "ipsum",
-        "ColorBlock": 283,
-        "IconHint": "enim",
-        "Selected": false,
-        "LastChanged": "2004-03-25T11:22:46.0379014+01:00",
+        "Id": 969,
+        "Name": "Lynch LLC",
+        "ToolTip": "Maxime quod et qui laboriosam dolore sequi.",
+        "Deleted": false,
+        "Rank": 514,
+        "Type": "neque",
+        "ColorBlock": 163,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2003-11-17T14:19:11.3680268+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "autem",
+        "ExtraInfo": "tempora",
+        "StyleHint": "ab",
         "Hidden": false,
-        "FullName": "Jace Hudson"
+        "FullName": "Dr. Rickie Welch II"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "a",
-    "Hidden": true,
-    "FullName": "Prof. Dustin Hayes DDS"
+    "ExtraInfo": "in",
+    "StyleHint": "quis",
+    "Hidden": false,
+    "FullName": "Jerel Edwin Ankunding PhD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 169,
-    "Name": "Cummings, Stokes and Spencer",
-    "ToolTip": "Molestias impedit quis ullam velit quis.",
-    "Deleted": false,
-    "Rank": 406,
-    "Type": "ex",
-    "ColorBlock": 596,
-    "IconHint": "debitis",
-    "Selected": false,
-    "LastChanged": "2017-06-25T11:22:46.0379014+02:00",
+    "Id": 604,
+    "Name": "Ullrich Inc and Sons",
+    "ToolTip": "Placeat qui.",
+    "Deleted": true,
+    "Rank": 309,
+    "Type": "deleniti",
+    "ColorBlock": 876,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2018-09-05T14:19:11.3680268+02:00",
     "ChildItems": [
       {
-        "Id": 233,
-        "Name": "Shanahan LLC",
-        "ToolTip": "Reiciendis ut fugiat voluptas excepturi non perferendis libero.",
+        "Id": 403,
+        "Name": "Haley-Johns",
+        "ToolTip": "Modi et incidunt dolore.",
         "Deleted": false,
-        "Rank": 517,
-        "Type": "qui",
-        "ColorBlock": 551,
-        "IconHint": "sint",
+        "Rank": 339,
+        "Type": "corrupti",
+        "ColorBlock": 730,
+        "IconHint": "saepe",
         "Selected": false,
-        "LastChanged": "2021-03-19T11:22:46.0379014+01:00",
+        "LastChanged": "1996-02-11T14:19:11.3680268+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "inventore",
-        "Hidden": true,
-        "FullName": "Dr. Sydnee Merritt Daugherty",
+        "ExtraInfo": "sint",
+        "StyleHint": "cum",
+        "Hidden": false,
+        "FullName": "Liana Weber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 399
+            "FieldType": "System.String",
+            "FieldLength": 642
           }
         }
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "quia",
+    "ExtraInfo": "quo",
+    "StyleHint": "quis",
     "Hidden": true,
-    "FullName": "Marcel Thiel",
+    "FullName": "Hudson Howell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 687
+        "FieldType": "System.Int32",
+        "FieldLength": 201
       }
     }
   }

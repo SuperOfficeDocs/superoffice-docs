@@ -125,12 +125,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "omnis",
+    "path": "aut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "omnis",
+    "path": "aut",
     "value": {}
   }
 ]
@@ -143,42 +143,42 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 306,
-  "UniqueId": "saepe",
-  "Name": "Kunze, Runolfsson and Bartoletti",
-  "Description": "Stand-alone mobile Graphical User Interface",
-  "AssociateId": 53,
-  "Columns": 96,
+  "DashboardId": 243,
+  "UniqueId": "dolorum",
+  "Name": "Sipes, Stokes and Leffler",
+  "Description": "Front-line needs-based challenge",
+  "AssociateId": 255,
+  "Columns": 238,
   "Theme": null,
-  "VisibleForAll": 696,
+  "VisibleForAll": 28,
   "VisibleForAssociates": [
-    999,
-    867
+    512,
+    939
   ],
   "VisibleForGroups": [
-    299,
-    997
+    902,
+    821
   ],
-  "PinForAll": 529,
+  "PinForAll": 615,
   "PinForAssociates": [
-    490,
-    438
+    576,
+    548
   ],
   "PinForGroups": [
-    815,
-    382
+    351,
+    773
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 856
+      "FieldLength": 172
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

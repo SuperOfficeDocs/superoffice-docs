@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    189,
-    419
+    443,
+    978
   ]
 }
 ```
@@ -104,64 +104,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 418,
-    "Caption": "quis",
-    "Description": "Synergistic contextually-based focus group",
-    "ChartName": "Pollich, Kris and Stokes",
-    "ChartId": "consequuntur",
-    "IsDefault": true,
-    "AssociateId": 320,
-    "GroupId": 117,
-    "SelectionId": 877,
-    "Config": "suscipit",
+    "DashboardTileId": 162,
+    "Caption": "consequatur",
+    "Description": "Compatible client-driven paradigm",
+    "ChartName": "Volkman-Welch",
+    "ChartId": "perspiciatis",
+    "IsDefault": false,
+    "AssociateId": 943,
+    "GroupId": 667,
+    "SelectionId": 456,
+    "Config": "quisquam",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Baumbach LLC",
-        "Description": "Reactive interactive parallelism",
+        "Name": "Goldner, Mante and Spinka",
+        "Description": "Enterprise-wide bandwidth-monitored benchmark",
         "Type": "Boolean",
-        "ListName": "Stamm-Nikolaus",
+        "ListName": "Rohan-Morar",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "eos",
+        "Value": "natus",
         "DefaultDataOption": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 627
+            "FieldType": "System.String",
+            "FieldLength": 165
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 179,
+        "VisibleId": 931,
         "Visibility": "All",
-        "DisplayValue": "aut",
+        "DisplayValue": "excepturi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 158
+            "FieldLength": 166
           }
         }
       },
       {
-        "VisibleId": 179,
+        "VisibleId": 931,
         "Visibility": "All",
-        "DisplayValue": "aut",
+        "DisplayValue": "excepturi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 158
+            "FieldLength": 166
           }
         }
       }
@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 244
+        "FieldLength": 525
       }
     }
   }

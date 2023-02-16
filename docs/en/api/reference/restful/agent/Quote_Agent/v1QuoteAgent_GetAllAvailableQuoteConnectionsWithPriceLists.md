@@ -91,54 +91,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 582,
-    "ERPName": "Treutel, Reilly and Koss",
-    "DisplayName": "Kemmer, Fahey and Reilly",
-    "DisplayDescription": "Enterprise-wide fault-tolerant access",
-    "Rank": 374,
-    "ConnectorName": "Johns, Grady and Terry",
-    "ErpConnectionId": 166,
-    "ExtraData": "tempore",
-    "IsAvailable": true,
+    "QuoteConnectionId": 643,
+    "ERPName": "Miller, Denesik and Sauer",
+    "DisplayName": "Lemke LLC",
+    "DisplayDescription": "Face to face 24/7 budgetary management",
+    "Rank": 715,
+    "ConnectorName": "McCullough-Kulas",
+    "ErpConnectionId": 516,
+    "ExtraData": "minus",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 965,
-        "ERPPriceListKey": "quia",
-        "QuoteConnectionId": 379,
-        "Name": "Rempel, Treutel and Stracke",
-        "Description": "Realigned dedicated groupware",
-        "Currency": "est",
+        "PriceListId": 296,
+        "ERPPriceListKey": "magnam",
+        "QuoteConnectionId": 30,
+        "Name": "Torp, Miller and Torp",
+        "Description": "Stand-alone needs-based task-force",
+        "Currency": "ut",
         "CurrencyName": "Zemlak LLC",
-        "ValidFrom": "2007-11-24T11:22:38.9301893+01:00",
-        "ValidTo": "1997-07-20T11:22:38.9301893+02:00",
+        "ValidFrom": "2000-05-30T14:19:04.0157096+02:00",
+        "ValidTo": "2000-03-20T14:19:04.0157096+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 516
+            "FieldLength": 134
           }
         }
       }
     ],
-    "AllAccess": true,
+    "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      360,
-      714
+      135,
+      613
     ],
     "AssociateAccessIds": [
-      28,
-      307
+      12,
+      42
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 242
+        "FieldLength": 883
       }
     }
   }

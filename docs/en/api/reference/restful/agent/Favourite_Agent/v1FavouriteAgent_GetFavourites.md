@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Wuckert Inc and Sons",
-  "AssociateId": 616
+  "TableName": "Rippin, Botsford and Ebert",
+  "AssociateId": 430
 }
 ```
 
@@ -94,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "McGlynn Group",
-    "RecordId": 22,
-    "AssociateId": 328,
-    "ExtraInfo": "molestiae",
-    "Rank": 802,
+    "TableName": "Denesik-Emard",
+    "RecordId": 643,
+    "AssociateId": 319,
+    "ExtraInfo": "porro",
+    "Rank": 503,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 369
+        "FieldType": "System.Int32",
+        "FieldLength": 820
       }
     }
   }

@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ProjectType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 5,
-  "Name": "Carter, Stehr and Monahan",
-  "Tooltip": "soluta",
+  "Id": 241,
+  "Name": "Becker, Ryan and Mueller",
+  "Tooltip": "eligendi",
   "Deleted": false,
-  "Rank": 501,
-  "IsCustomList": false,
+  "Rank": 863,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "officiis",
-  "InUseByUserDefinedFields": false,
+  "ListType": "commodi",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldLength": 646
     }
   },
   "_Links": {

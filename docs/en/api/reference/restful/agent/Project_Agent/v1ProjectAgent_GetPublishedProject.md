@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 543
+  "ProjectId": 235
 }
 ```
 
@@ -104,30 +104,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 727,
-  "Name": "Corwin Inc and Sons",
-  "Description": "Switchable systematic product",
+  "ProjectId": 206,
+  "Name": "Corwin-Haag",
+  "Description": "Multi-tiered heuristic artificial intelligence",
   "URL": "http://www.example.com/",
-  "Type": "et",
-  "AssociateId": 958,
-  "AssociateFullName": "Brody Hermiston",
-  "TypeId": 587,
-  "Updated": "1996-03-02T11:22:38.8520826+01:00",
-  "StatusId": 923,
-  "Status": "qui",
-  "TextId": 451,
-  "PublishTo": "2006-07-09T11:22:38.8520826+02:00",
-  "PublishFrom": "2012-06-14T11:22:38.8520826+02:00",
-  "IsPublished": false,
+  "Type": "debitis",
+  "AssociateId": 513,
+  "AssociateFullName": "Kavon Volkman",
+  "TypeId": 488,
+  "Updated": "2002-03-13T14:19:03.9688343+01:00",
+  "StatusId": 315,
+  "Status": "accusamus",
+  "TextId": 758,
+  "PublishTo": "2004-12-31T14:19:03.9688343+01:00",
+  "PublishFrom": "2008-01-08T14:19:03.9688343+01:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "491637",
-  "ActiveErpLinks": 348,
+  "ProjectNumber": "421150",
+  "ActiveErpLinks": 687,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldType": "System.String",
+      "FieldLength": 289
     }
   }
 }

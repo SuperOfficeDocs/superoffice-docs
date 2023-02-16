@@ -82,18 +82,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sint",
-  "Value": "officiis",
-  "RecordId": 51,
-  "CreatedDate": "2014-11-17T11:22:44.8818691+01:00",
-  "UpdatedDate": "2016-12-01T11:22:44.8818691+01:00",
-  "UpdatedBy": "sed",
-  "CreatedBy": "sunt",
-  "TableName": "Kemmer LLC"
+  "Key": "sunt",
+  "Value": "repellendus",
+  "RecordId": 468,
+  "CreatedDate": "2018-06-08T14:19:10.3654771+02:00",
+  "UpdatedDate": "2010-09-28T14:19:10.3654771+02:00",
+  "UpdatedBy": "occaecati",
+  "CreatedBy": "rerum",
+  "TableName": "Kautzer-Simonis"
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "optio",
-  "Value": "atque",
-  "RecordId": 673,
-  "CreatedDate": "1998-10-09T11:22:44.8818691+02:00",
-  "UpdatedDate": "2005-03-19T11:22:44.8818691+01:00",
-  "UpdatedBy": "sed",
-  "CreatedBy": "est",
-  "TableName": "Lowe-Grimes",
+  "Key": "velit",
+  "Value": "aperiam",
+  "RecordId": 163,
+  "CreatedDate": "1998-12-08T14:19:10.3654771+01:00",
+  "UpdatedDate": "2018-03-31T14:19:10.3654771+02:00",
+  "UpdatedBy": "ducimus",
+  "CreatedBy": "repellat",
+  "TableName": "Turner Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 313
+      "FieldLength": 92
     }
   }
 }

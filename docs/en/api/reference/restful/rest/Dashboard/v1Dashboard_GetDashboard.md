@@ -76,7 +76,7 @@ Dashboard found.
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 561,
-  "AssociateId": 185,
-  "Caption": "animi",
+  "DashboardId": 645,
+  "AssociateId": 27,
+  "Caption": "molestiae",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 457,
-      "Caption": "labore",
-      "Description": "Mandatory bottom-line analyzer",
-      "ChartName": "Lockman, Dare and Ankunding",
-      "ChartId": "et",
-      "IsDefault": true,
-      "AssociateId": 471,
-      "GroupId": 450,
-      "SelectionId": 234,
-      "Config": "cumque",
+      "DashboardTileId": 511,
+      "Caption": "delectus",
+      "Description": "Enhanced multi-tasking customer loyalty",
+      "ChartName": "Monahan LLC",
+      "ChartId": "omnis",
+      "IsDefault": false,
+      "AssociateId": 477,
+      "GroupId": 63,
+      "SelectionId": 927,
+      "Config": "voluptas",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 812
+          "FieldType": "System.String",
+          "FieldLength": 152
         }
       }
     }
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldLength": 116
     }
   },
   "_Links": {

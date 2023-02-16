@@ -74,7 +74,7 @@ OK
 GET /api/v1/Role/{type}/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,24 +84,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 136,
-  "Name": "Cormier Group",
-  "Tooltip": "quod",
+  "RoleId": 208,
+  "Name": "Wisoky Group",
+  "Tooltip": "dignissimos",
   "RoleType": "Anonymous",
-  "Deleted": 741,
-  "Rank": 245,
-  "Created": "2005-01-06T11:22:45.0849869+01:00",
-  "UseCategories": 547,
+  "Deleted": 369,
+  "Rank": 159,
+  "Created": "2011-11-02T14:19:10.6623446+01:00",
+  "UseCategories": 342,
   "CreatedBy": null,
-  "Updated": "2017-06-23T11:22:45.0849869+02:00",
+  "Updated": "2006-12-07T14:19:10.6623446+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldType": "System.String",
+      "FieldLength": 786
     }
   }
 }

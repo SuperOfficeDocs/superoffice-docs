@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 799,
-    "Name": "Breitenberg, Rodriguez and VonRueden",
-    "ToolTip": "Ut quia sequi voluptas dolorem.",
-    "Deleted": true,
-    "Rank": 665,
-    "Type": "magnam",
-    "ColorBlock": 234,
-    "IconHint": "reprehenderit",
+    "Id": 243,
+    "Name": "Monahan Inc and Sons",
+    "ToolTip": "Minus id quisquam libero fugit qui qui quam.",
+    "Deleted": false,
+    "Rank": 479,
+    "Type": "quo",
+    "ColorBlock": 671,
+    "IconHint": "natus",
     "Selected": false,
-    "LastChanged": "2002-05-24T11:22:46.0847653+02:00",
+    "LastChanged": "2022-06-25T14:19:11.4149038+02:00",
     "ChildItems": [
       {
-        "Id": 967,
-        "Name": "Kemmer, Cormier and Pacocha",
-        "ToolTip": "Architecto temporibus nobis cumque.",
-        "Deleted": false,
-        "Rank": 21,
-        "Type": "laudantium",
-        "ColorBlock": 295,
-        "IconHint": "sint",
+        "Id": 846,
+        "Name": "Moen, Morissette and Grant",
+        "ToolTip": "Laudantium nesciunt sunt natus consequuntur.",
+        "Deleted": true,
+        "Rank": 968,
+        "Type": "nihil",
+        "ColorBlock": 152,
+        "IconHint": "molestias",
         "Selected": false,
-        "LastChanged": "2014-02-01T11:22:46.0847653+01:00",
+        "LastChanged": "2021-02-03T14:19:11.4149038+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "cum",
+        "ExtraInfo": "qui",
+        "StyleHint": "odit",
         "Hidden": true,
-        "FullName": "Alison Schmeler"
+        "FullName": "Elyssa Braun"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "quibusdam",
-    "Hidden": true,
-    "FullName": "June Hand"
+    "ExtraInfo": "accusamus",
+    "StyleHint": "repellendus",
+    "Hidden": false,
+    "FullName": "Marlin Kulas"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 995,
-    "Name": "Mayer Group",
-    "ToolTip": "Cum mollitia minus et esse.",
-    "Deleted": false,
-    "Rank": 806,
-    "Type": "assumenda",
-    "ColorBlock": 850,
-    "IconHint": "et",
+    "Id": 718,
+    "Name": "Bahringer-Kshlerin",
+    "ToolTip": "Aut sit voluptas.",
+    "Deleted": true,
+    "Rank": 752,
+    "Type": "molestiae",
+    "ColorBlock": 618,
+    "IconHint": "blanditiis",
     "Selected": false,
-    "LastChanged": "2004-11-30T11:22:46.0847653+01:00",
+    "LastChanged": "2003-08-16T14:19:11.4149038+02:00",
     "ChildItems": [
       {
-        "Id": 430,
-        "Name": "Quitzon-Block",
-        "ToolTip": "Molestias odit ut repudiandae voluptatum omnis eligendi.",
+        "Id": 541,
+        "Name": "Hand-Gibson",
+        "ToolTip": "Laborum consectetur et est.",
         "Deleted": false,
-        "Rank": 159,
-        "Type": "saepe",
-        "ColorBlock": 46,
-        "IconHint": "rem",
-        "Selected": true,
-        "LastChanged": "2022-06-22T11:22:46.0847653+02:00",
+        "Rank": 946,
+        "Type": "voluptate",
+        "ColorBlock": 172,
+        "IconHint": "harum",
+        "Selected": false,
+        "LastChanged": "2010-11-27T14:19:11.4149038+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "blanditiis",
+        "ExtraInfo": "minima",
+        "StyleHint": "nihil",
         "Hidden": true,
-        "FullName": "Mrs. Guiseppe Melba Haag PhD",
+        "FullName": "Mrs. Deven Theodore Turcotte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 937
+            "FieldLength": 817
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "doloremque",
+    "ExtraInfo": "qui",
+    "StyleHint": "magni",
     "Hidden": false,
-    "FullName": "Corene Upton",
+    "FullName": "Enid Bergstrom",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 380
+        "FieldType": "System.String",
+        "FieldLength": 737
       }
     }
   }

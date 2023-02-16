@@ -99,30 +99,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 901,
-  "Section": "alias",
-  "Key": "sed",
-  "Name": "Prosacco-Stehr",
+  "PrefDescId": 294,
+  "Section": "eligendi",
+  "Key": "reiciendis",
+  "Name": "Aufderhar Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Organized responsive service-desk",
-  "IsBuiltin": false,
-  "TableName": "West Inc and Sons",
-  "UserDefinedListId": 681,
-  "Rank": 747,
-  "SubGroup": "tempora",
-  "MinLevel": 658,
-  "MaxValue": 465,
-  "MinValue": 473,
-  "RequiredLicense": "ipsa",
+  "Description": "Re-contextualized attitude-oriented benchmark",
+  "IsBuiltin": true,
+  "TableName": "Blick, Becker and Pagac",
+  "UserDefinedListId": 268,
+  "Rank": 849,
+  "SubGroup": "officia",
+  "MinLevel": 150,
+  "MaxValue": 269,
+  "MinValue": 282,
+  "RequiredLicense": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 231
+      "FieldType": "System.Int32",
+      "FieldLength": 940
     }
   },
   "_Links": {

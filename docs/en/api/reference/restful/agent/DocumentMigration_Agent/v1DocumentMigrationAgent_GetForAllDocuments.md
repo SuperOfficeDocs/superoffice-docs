@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 193,
-  "IncludeEmails": false
+  "DocumentPluginId": 373,
+  "IncludeEmails": true
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 612,
-  "NumDocumentsAlreadyMigrated": 862,
+  "NumDocumentsOmitted": 727,
+  "NumDocumentsAlreadyMigrated": 831,
   "Documents": [
     {
-      "DocumentId": 983,
-      "ContactId": 194,
-      "PersonId": 33,
-      "SaleId": 267,
-      "ProjectId": 522,
-      "DocTmplId": 540,
-      "AssociateId": 749,
-      "UserGroupId": 618,
-      "VisibleForId": 157
+      "DocumentId": 910,
+      "ContactId": 768,
+      "PersonId": 690,
+      "SaleId": 348,
+      "ProjectId": 533,
+      "DocTmplId": 298,
+      "AssociateId": 268,
+      "UserGroupId": 241,
+      "VisibleForId": 393
     }
   ],
   "Associates": [
     {
-      "AssociateId": 22,
-      "EmailAddress": "osvaldo@thiel.info"
+      "AssociateId": 473,
+      "EmailAddress": "lacey@auer.co.uk"
     },
     {
-      "AssociateId": 22,
-      "EmailAddress": "osvaldo@thiel.info"
+      "AssociateId": 473,
+      "EmailAddress": "lacey@auer.co.uk"
     }
   ]
 }

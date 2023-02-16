@@ -88,32 +88,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 148,
-  "ListItemId": 389,
+  "UdListDefinitionId": 228,
+  "ListItemId": 894,
   "Headings": [
     {
-      "Id": 593,
-      "Name": "Sipes, Von and Pfannerstill",
-      "ToolTip": "Natus assumenda aut tenetur quidem aliquam itaque laborum.",
+      "Id": 557,
+      "Name": "Cassin-Ward",
+      "ToolTip": "Dignissimos qui tempora consequatur modi sint temporibus.",
       "Deleted": false,
-      "Rank": 456,
-      "Type": "illo",
-      "ColorBlock": 613,
-      "IconHint": "deserunt",
-      "Selected": false,
-      "LastChanged": "1998-09-13T11:22:38.4771746+02:00",
+      "Rank": 136,
+      "Type": "possimus",
+      "ColorBlock": 851,
+      "IconHint": "sit",
+      "Selected": true,
+      "LastChanged": "2007-06-22T14:19:03.6394986+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quam",
-      "StyleHint": "occaecati",
-      "Hidden": false,
-      "FullName": "Felicita Hilll"
+      "ExtraInfo": "omnis",
+      "StyleHint": "quas",
+      "Hidden": true,
+      "FullName": "Watson Doyle"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 545,
-    "Name": "Collins, Prosacco and Zulauf",
-    "ToolTip": "Ut dolores.",
+    "Id": 79,
+    "Name": "Nicolas-Bergstrom",
+    "ToolTip": "Accusamus aut et quaerat sequi minima quaerat.",
     "Deleted": false,
-    "Rank": 806,
-    "Type": "sint",
-    "ColorBlock": 921,
-    "IconHint": "eos",
-    "Selected": false,
-    "LastChanged": "2010-04-26T11:22:38.4771746+02:00",
+    "Rank": 978,
+    "Type": "sit",
+    "ColorBlock": 340,
+    "IconHint": "consequuntur",
+    "Selected": true,
+    "LastChanged": "1996-09-30T14:19:03.6394986+02:00",
     "ChildItems": [
       {
-        "Id": 638,
-        "Name": "Heller-Ernser",
-        "ToolTip": "Ut soluta quae nesciunt.",
+        "Id": 897,
+        "Name": "Schaefer, Reichert and Nicolas",
+        "ToolTip": "Molestiae qui possimus et natus distinctio est.",
         "Deleted": false,
-        "Rank": 23,
-        "Type": "voluptatem",
-        "ColorBlock": 156,
-        "IconHint": "earum",
-        "Selected": false,
-        "LastChanged": "1996-04-08T11:22:38.4771746+02:00",
+        "Rank": 401,
+        "Type": "officia",
+        "ColorBlock": 810,
+        "IconHint": "quasi",
+        "Selected": true,
+        "LastChanged": "2020-04-14T14:19:03.6394986+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "ipsam",
-        "Hidden": true,
-        "FullName": "Ottilie Kuphal",
+        "ExtraInfo": "hic",
+        "StyleHint": "voluptates",
+        "Hidden": false,
+        "FullName": "Lavon Armstrong",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 684
+            "FieldType": "System.Int32",
+            "FieldLength": 236
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "similique",
+    "StyleHint": "exercitationem",
     "Hidden": false,
-    "FullName": "Ms. Boris Kunde II",
+    "FullName": "Burdette Collier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 345
+        "FieldLength": 855
       }
     }
   }

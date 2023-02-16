@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "porro",
-  "ProviderName": "Boehm, Howell and Kshlerin",
-  "StorageKey": "non",
-  "Context": "voluptatem"
+  "StorageType": "eius",
+  "ProviderName": "Bernier, Bednar and Champlin",
+  "StorageKey": "accusamus",
+  "Context": "eos"
 }
 ```
 
@@ -95,20 +95,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bins-Baumbach",
-    "Description": "Synchronised even-keeled paradigm",
-    "Rank": 153,
+    "Name": "Keebler-Roberts",
+    "Description": "Reactive global database",
+    "Rank": 248,
     "Restrictions": [
       {
-        "Name": "Blick-Breitenberg",
-        "Operator": "iusto",
+        "Name": "Schmitt Inc and Sons",
+        "Operator": "quisquam",
         "Values": [
-          "aut",
-          "est"
+          "quaerat",
+          "porro"
         ],
         "DisplayValues": [
-          "necessitatibus",
-          "voluptatem"
+          "velit",
+          "magni"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -116,27 +116,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 128,
+        "InterParenthesis": 142,
         "InterOperator": "And",
-        "UniqueHash": 506
+        "UniqueHash": 206
       }
     ]
   },
   {
-    "Name": "Bins-Baumbach",
-    "Description": "Synchronised even-keeled paradigm",
-    "Rank": 153,
+    "Name": "Keebler-Roberts",
+    "Description": "Reactive global database",
+    "Rank": 248,
     "Restrictions": [
       {
-        "Name": "Blick-Breitenberg",
-        "Operator": "iusto",
+        "Name": "Schmitt Inc and Sons",
+        "Operator": "quisquam",
         "Values": [
-          "aut",
-          "est"
+          "quaerat",
+          "porro"
         ],
         "DisplayValues": [
-          "necessitatibus",
-          "voluptatem"
+          "velit",
+          "magni"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -144,9 +144,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 128,
+        "InterParenthesis": 142,
         "InterOperator": "And",
-        "UniqueHash": 506
+        "UniqueHash": 206
       }
     ]
   }

@@ -108,11 +108,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "libero",
+  "ProgId": "tenetur",
   "OwnerType": "Appointment"
 }
 ```
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 765,
-  "ColumnId": 713,
-  "FieldDefault": "ad",
-  "FieldHeight": 950,
-  "FieldLabel": "voluptatum",
-  "FieldLeft": 100,
-  "FieldTop": 51,
+  "UDefFieldId": 458,
+  "ColumnId": 423,
+  "FieldDefault": "ut",
+  "FieldHeight": 953,
+  "FieldLabel": "suscipit",
+  "FieldLeft": 104,
+  "FieldTop": 648,
   "FieldType": "Checkbox",
-  "FieldWidth": 779,
-  "FormatMask": "voluptate",
+  "FieldWidth": 196,
+  "FormatMask": "quia",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 957,
-  "LabelLeft": 561,
-  "LabelTop": 218,
-  "LabelWidth": 755,
-  "LastVersionId": 71,
-  "ListTableId": 959,
+  "LabelHeight": 105,
+  "LabelLeft": 648,
+  "LabelTop": 558,
+  "LabelWidth": 631,
+  "LastVersionId": 187,
+  "ListTableId": 578,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 505,
-  "ProgId": "unde",
+  "Page1LineNo": 468,
+  "ProgId": "praesentium",
   "IsReadOnly": false,
-  "ShortLabel": "sed",
-  "TabOrder": 985,
-  "TextLength": 799,
-  "Tooltip": "quas",
-  "UdefIdentity": 163,
-  "UDListDefinitionId": 996,
+  "ShortLabel": "saepe",
+  "TabOrder": 743,
+  "TextLength": 767,
+  "Tooltip": "tempora",
+  "UdefIdentity": 202,
+  "UDListDefinitionId": 216,
   "Justification": "Center",
-  "Version": 232,
-  "TemplateVariableName": "Gislason Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Homenick LLC",
+  "Version": 400,
+  "TemplateVariableName": "Shields-Lemke",
+  "HasBeenPublished": true,
+  "MdoListName": "Rosenbaum-Johns",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 486
+      "FieldLength": 890
     }
   }
 }

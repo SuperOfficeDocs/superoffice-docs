@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 400,
-    "Name": "Casper LLC",
-    "ToolTip": "Officiis et natus officiis.",
+    "Id": 897,
+    "Name": "Eichmann-Schmidt",
+    "ToolTip": "Blanditiis architecto magni aut aut sit voluptatem.",
     "Deleted": false,
-    "Rank": 517,
-    "Type": "porro",
-    "ColorBlock": 805,
-    "IconHint": "sed",
-    "Selected": false,
-    "LastChanged": "2008-10-27T11:22:46.0222797+01:00",
+    "Rank": 93,
+    "Type": "odio",
+    "ColorBlock": 90,
+    "IconHint": "perferendis",
+    "Selected": true,
+    "LastChanged": "1997-05-06T14:19:11.3680268+02:00",
     "ChildItems": [
       {
-        "Id": 849,
-        "Name": "Ledner Group",
-        "ToolTip": "Provident aliquam.",
+        "Id": 217,
+        "Name": "Bogisich-Bayer",
+        "ToolTip": "Autem sint rem.",
         "Deleted": false,
-        "Rank": 563,
-        "Type": "necessitatibus",
-        "ColorBlock": 728,
-        "IconHint": "architecto",
-        "Selected": false,
-        "LastChanged": "1998-07-13T11:22:46.0222797+02:00",
+        "Rank": 300,
+        "Type": "deserunt",
+        "ColorBlock": 551,
+        "IconHint": "voluptatum",
+        "Selected": true,
+        "LastChanged": "2020-06-29T14:19:11.3680268+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "aspernatur",
-        "Hidden": false,
-        "FullName": "Lucius Jacobi",
+        "ExtraInfo": "aut",
+        "StyleHint": "consequatur",
+        "Hidden": true,
+        "FullName": "Jaiden Camilla Vandervort II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 2
+            "FieldLength": 251
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "reprehenderit",
+    "ExtraInfo": "id",
+    "StyleHint": "id",
     "Hidden": false,
-    "FullName": "Miss Bobbie Thurman Dare II",
+    "FullName": "Brady Schmidt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 372
+        "FieldLength": 934
       }
     }
   }

@@ -82,17 +82,17 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 22,
-  "Created": "2004-01-14T11:22:38.9614314+01:00",
+  "SatelliteId": 742,
+  "Created": "1998-10-26T14:19:04.0625865+01:00",
   "CreatedBy": null,
-  "Updated": "2008-12-14T11:22:38.9614314+01:00",
+  "Updated": "2017-12-25T14:19:04.0625865+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Auer, Hessel and Hilll",
-      "Description": "Programmable mission-critical circuit",
+      "Name": "Dach Group",
+      "Description": "Customizable needs-based orchestration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -103,8 +103,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Auer, Hessel and Hilll",
-      "Description": "Programmable mission-critical circuit",
+      "Name": "Dach Group",
+      "Description": "Customizable needs-based orchestration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -125,17 +125,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 765,
-  "Created": "2022-09-30T11:22:38.9614314+02:00",
+  "SatelliteId": 189,
+  "Created": "2019-09-11T14:19:04.0625865+02:00",
   "CreatedBy": null,
-  "Updated": "2010-01-09T11:22:38.9614314+01:00",
+  "Updated": "2010-10-27T14:19:04.0625865+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "King, Langosh and Armstrong",
-      "Description": "Future-proofed cohesive methodology",
+      "Name": "Simonis, Cremin and Marks",
+      "Description": "Realigned grid-enabled Graphical User Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,13 +149,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 589
+          "FieldLength": 253
         }
       }
     },
     {
-      "Name": "King, Langosh and Armstrong",
-      "Description": "Future-proofed cohesive methodology",
+      "Name": "Simonis, Cremin and Marks",
+      "Description": "Realigned grid-enabled Graphical User Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -169,7 +169,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 589
+          "FieldLength": 253
         }
       }
     }
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 771
+      "FieldType": "System.Int32",
+      "FieldLength": 191
     }
   }
 }

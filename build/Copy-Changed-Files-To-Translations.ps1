@@ -60,7 +60,7 @@ foreach ($lang in $langs)
 
       Copy-Item -Path $itemToCopy -Destination $targetPathAndFile 
 
-      if( $itemToCopy -like "*.md" )
+      if( $itemToCopy -like "*.md" -or $itemToCopy -like "*.yml" )
       {
         # Write-Output "$itemToCopy --> $targetPathAndFile"
         # Update language code

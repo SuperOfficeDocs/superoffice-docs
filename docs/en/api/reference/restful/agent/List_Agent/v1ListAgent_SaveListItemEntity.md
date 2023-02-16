@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 978,
-  "Name": "Pfannerstill, Muller and Kozey",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "UdListDefinitionId": 885,
-  "Rank": 190,
+  "Id": 986,
+  "Name": "Rempel-Carroll",
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "UdListDefinitionId": 992,
+  "Rank": 825,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 250
+      "FieldLength": 251
     }
   }
 }

@@ -67,11 +67,11 @@ OK
 POST /api/v1/Agents/Sale/OfferAutoNextStageOnApppointmentCompleted
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 152
+  "AppointmentId": 430
 }
 ```
 

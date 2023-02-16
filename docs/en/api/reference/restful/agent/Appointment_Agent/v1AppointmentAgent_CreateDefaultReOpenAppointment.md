@@ -126,11 +126,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 896
+  "SaleId": 520
 }
 ```
 
@@ -145,63 +145,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2000-01-24T11:22:37.1493561+01:00",
-  "AppointmentId": 726,
-  "Description": "Open-source eco-centric encoding",
-  "StartDate": "2015-06-22T11:22:37.1493561+02:00",
-  "EndDate": "2016-11-24T11:22:37.1493561+01:00",
+  "CreatedDate": "2016-09-24T14:19:02.6500523+02:00",
+  "AppointmentId": 646,
+  "Description": "Team-oriented cohesive extranet",
+  "StartDate": "2002-06-11T14:19:02.6500523+02:00",
+  "EndDate": "2000-06-13T14:19:02.6500523+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 181,
+  "MotherId": 408,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1996-09-08T11:22:37.1493561+02:00",
+  "UpdatedDate": "2021-01-08T14:19:02.6500523+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 640,
+  "ActiveLinks": 286,
   "Links": [
     {
-      "EntityName": "Swift, Willms and Moen",
-      "Id": 659,
-      "Description": "Right-sized neutral encryption",
-      "ExtraInfo": "dignissimos",
-      "LinkId": 660,
+      "EntityName": "Kohler, Bode and Stroman",
+      "Id": 754,
+      "Description": "Organic zero administration policy",
+      "ExtraInfo": "blanditiis",
+      "LinkId": 498,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 867
+          "FieldType": "System.String",
+          "FieldLength": 227
         }
       }
     }
   ],
-  "AlarmLeadTime": "ad",
+  "AlarmLeadTime": "assumenda",
   "HasAlarm": false,
-  "ColorIndex": 252,
-  "IsFree": true,
+  "ColorIndex": 303,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "culpa",
-  "LeadTime": "dignissimos",
-  "Location": "qui",
-  "RejectCounter": 737,
+  "LagTime": "minus",
+  "LeadTime": "repudiandae",
+  "Location": "ut",
+  "RejectCounter": 654,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 519,
-      "PersonId": 429,
-      "ContactId": 496,
-      "EmailId": 117,
+      "AssociateId": 808,
+      "PersonId": 770,
+      "ContactId": 418,
+      "EmailId": 363,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 519,
-      "PersonId": 429,
-      "ContactId": 496,
-      "EmailId": 117,
+      "AssociateId": 808,
+      "PersonId": 770,
+      "ContactId": 418,
+      "EmailId": 363,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -209,58 +209,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2004-07-03T11:22:37.1493561+02:00",
-  "HasConflict": true,
+  "ActiveDate": "1998-05-12T14:19:02.6500523+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 550,
+  "PreferredTZLocation": 806,
   "Sale": null,
-  "SuggestedAppointmentId": 484,
+  "SuggestedAppointmentId": 721,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "cum",
+  "CentralserviceVideomeetId": "adipisci",
   "UserDefinedFields": {
-    "SuperOffice:1": "Judd Metz MD",
-    "SuperOffice:2": "Mrs. Emmet Walker Sr."
+    "SuperOffice:1": "Alize Kyra Hoeger III",
+    "SuperOffice:2": "Hoyt Pfeffer"
   },
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "consequuntur"
+    "ExtraFields1": "autem",
+    "ExtraFields2": "recusandae"
   },
   "CustomFields": {
-    "CustomFields1": "corrupti",
-    "CustomFields2": "nesciunt"
+    "CustomFields1": "voluptate",
+    "CustomFields2": "voluptas"
   },
-  "PublishEventDate": "2021-11-16T11:22:37.1493561+01:00",
-  "PublishTo": "2017-12-01T11:22:37.1493561+01:00",
-  "PublishFrom": "2017-02-06T11:22:37.1493561+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "1995-10-09T14:19:02.6656777+02:00",
+  "PublishTo": "2007-07-03T14:19:02.6656777+02:00",
+  "PublishFrom": "2004-07-27T14:19:02.6656777+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 241,
+      "VisibleId": 46,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 229
+          "FieldType": "System.Int32",
+          "FieldLength": 246
         }
       }
     },
     {
-      "VisibleId": 241,
+      "VisibleId": 46,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 229
+          "FieldType": "System.Int32",
+          "FieldLength": 246
         }
       }
     }
@@ -270,7 +270,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 764
+      "FieldLength": 977
     }
   }
 }

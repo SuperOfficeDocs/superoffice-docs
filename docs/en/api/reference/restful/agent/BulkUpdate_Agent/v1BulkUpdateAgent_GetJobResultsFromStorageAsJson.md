@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetJobResultsFromStorageAsJson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,7 +69,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "ad",
-  "voluptates"
+  "hic",
+  "error"
 ]
 ```

@@ -78,34 +78,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 779,
-  "Name": "Paucek-Wyman",
-  "AssociateId": 726,
-  "DetailsTable": 581,
-  "DetailsRecord": 377,
+  "Id": 901,
+  "Name": "Gulgowski LLC",
+  "AssociateId": 34,
+  "DetailsTable": 544,
+  "DetailsRecord": 247,
   "IsSystemTask": false,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "blanditiis",
-    "ParameterObject2": "vero"
+    "ParameterObject1": "maiores",
+    "ParameterObject2": "cumque"
   },
-  "LastStarted": "2009-04-09T11:22:45.3817553+02:00",
-  "Created": "2001-03-04T11:22:45.3817553+01:00",
-  "StartCount": 202,
-  "DatabaseSerialNumber": "962501",
-  "Context": "nihil",
-  "Result": "quibusdam",
+  "LastStarted": "2017-05-30T14:19:10.912356+02:00",
+  "Created": "2001-02-14T14:19:10.912356+01:00",
+  "StartCount": 346,
+  "DatabaseSerialNumber": "663873",
+  "Context": "enim",
+  "Result": "id",
   "State": "All",
-  "Description": "User-centric logistical solution",
-  "Response": "totam",
-  "Request": "provident",
-  "ProgressDescription": "Ergonomic non-volatile artificial intelligence",
-  "ProgressPercent": 327,
-  "FileName": "Spinka, Kiehn and Corkery",
+  "Description": "Diverse explicit complexity",
+  "Response": "odio",
+  "Request": "voluptatem",
+  "ProgressDescription": "Re-contextualized systemic benchmark",
+  "ProgressPercent": 572,
+  "FileName": "Welch-Considine",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -116,5 +116,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-89
+991
 ```

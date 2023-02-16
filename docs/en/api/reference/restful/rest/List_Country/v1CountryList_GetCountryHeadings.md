@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 772,
-    "Name": "Walsh, McClure and Keeling",
-    "Tooltip": "facere",
-    "Deleted": true,
-    "Rank": 152,
-    "UdListDefinitionId": 618,
+    "HeadingId": 246,
+    "Name": "Beier, Keeling and Powlowski",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 215,
+    "UdListDefinitionId": 920,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 398
+        "FieldLength": 520
       }
     }
   }
