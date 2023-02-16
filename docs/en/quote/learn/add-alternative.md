@@ -1,11 +1,11 @@
 ---
 uid: help-en-quote-add-alternative
 title: quote add alternative
-description: quote add alternative
+description: In SuperOffice Quote you can create alternatives of any quote, offering your customers different options to choose from. This how-to guide will show you how to create alternative quotes for a proposal.
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 02.16.2023
 keywords: quote
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -42,7 +42,7 @@ If you create several alternatives in a quote, the first one (usually the **Prod
 
 If you want another alternative to be the favorite, select its tab, and click ![icon][img3] **Favorite alternative** at the bottom.
 
-When sending the quote, you can select to only include the favorite alternative.
+When [sending the quote][3], you can select to only include the favorite alternative.
 
 ## Delete alternatives
 
@@ -51,6 +51,7 @@ You can delete an alternative by selecting ![icon][img1] **Task** > **Delete \[a
 <!-- Referenced links -->
 [1]: create.md
 [2]: add-product.md
+[3]: send.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

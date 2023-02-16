@@ -21,7 +21,9 @@ items:
     href: use-side-panel.md
   - name: Working with sales guide
     href: sales-guide/working-with-sales-guide.md
+  - name: Forecasting
+    href: forecasting.md
 - name: Quote
   href: ../../quote/learn/toc.yml
 - name: Sales targets
-  href: sales-targets.md
+  href: sales-targets/toc.yml

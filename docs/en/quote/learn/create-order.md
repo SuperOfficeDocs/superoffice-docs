@@ -1,11 +1,11 @@
 ---
 uid: help-en-quote-create-order
 title: quote create order
-description: quote create order
+description: After your customer has accepted the quote, you can create the order with the correct quote or its alternative in the Edit quote dialog. The pdf with the order confirmation is created and you can send it to the customer by email. In this how-to guide you’ll learn how place an order.
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 02.16.2023
 keywords: quote
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -19,7 +19,7 @@ Once the customer accepts the quote, you can place the order, so that it is sent
 1. Click **Place order** in the **Edit quote** dialog. The **Create order based on quote version** dialog appears. The dialog title shows the quote version that the order is based on.
 
     > [!NOTE]
-    > You cannot place the order if the quote has not been approved (see [Approve quote before sending][1]) or contains errors or warnings (see [Deal with warnings and messages when adding products to a quote][2]).
+    > You cannot place the order if the [quote has not been approved][1] or [quote contains errors or warnings][2].
 
 1. If the quote contains multiple alternatives, select the one you want in the **Select alternative to use** field.
 1. To send the order by email, check **Send order confirmation via email**, and choose the email template and language in the lists underneath.

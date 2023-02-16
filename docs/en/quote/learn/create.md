@@ -1,15 +1,21 @@
 ---
 uid: help-en-quote-create
 title: Create a quote
-description: Create a quote
+description: Creating and sending quotes in SuperOffice CRM is a quick and effective way to push your sale towards completion. In this how-to guide you will learn how to create a quote, add and edit a product inside the quote and how to send a quote.
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 02.16.2023
 keywords: quote
-so.topic: help
+so.topic: howto
 language: en
 ---
 
 # Create a quote
+
+Follow the GIF or steps below to see how you create and send a quote:
+
+![After clicking on the button create a quote, you can start adding your products and services to the quote -screenshot][img1]
+
+## Steps
 
 1. [Create a new sale][1] or open an existing sale (one that is not sold or lost).
 
@@ -43,3 +49,4 @@ language: en
 [8]: create-order.md
 
 <!-- Referenced images -->
+[img1]: media/quote-create-send.gif

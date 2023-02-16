@@ -5,7 +5,7 @@ description: quote send
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: quote
-so.topic: help
+so.topic: howto
 language: en
 ---
 

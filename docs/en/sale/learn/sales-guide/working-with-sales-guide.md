@@ -3,13 +3,22 @@ uid: help-en-working-with-sales-guide
 title: Working with sales guide
 description: Working with sales guide
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 02.16.2023
 keywords: sale
-so.topic: help
+so.topic: howto
 language: en
 ---
 
 # Work with sales guides
+
+The Sales guide will take you through the different stages of a predefined sales process, automatically provide suggestions and templates for documents that need to be created along the way, and highlight follow-up activities that need to be performed.
+
+If you haven’t already done so, learn how to set up a Sales guide here. You can use the SuperOffice Sales guide or set up your own.
+
+Watch this video to learn how easy it is to use the Sales guide (video length - 1:24):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://youtu.be/IyETjAtn3po]
 
 ## Behavior when a sale has a guide
 
@@ -167,10 +176,15 @@ You can now change the stage to **Sold**. After all the required follow-ups and 
 > [!TIP]
 > If you want the sale to remain visible in, for example, the **Activities** section tab in the **Sale** screen and the **Sales** section tab in the **Diary** screen, you must not set the sale to completed.
 
+## Related
+
+* [Set up a sales guide in Settings and maintenance][4]
+
 <!-- Referenced links -->
 [1]: ../../../document/learn/screen/index.md
 [2]: ../../../diary/learn/screen/dialog-for-followups.md
 [3]: ../../../document/learn/edit.md
+[4]: create.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/personal-settings-small.png
