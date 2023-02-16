@@ -150,5 +150,15 @@
 			"#- Focus on the steps the user needs to take​",
 		],
 		"description": "Template for tutorial articles."
+	},
+	//video
+	"Embed video": {
+		"scope": "markdown",
+		"prefix": "video, YouTube",
+		"body": [
+			"<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->",
+			"> [!Video URL]"
+		],
+		"description": "Insert video link"
 	}
 }
