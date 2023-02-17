@@ -12,7 +12,7 @@ language: en
 # Delete requests
 
 > [!NOTE]
-> To access this function, your user must belong to a role with the functional right **Service administration**.
+> To access this function, your user must belong to a role with the functional right **Service administration** or **General Administrator**.
 
 In general, it is not recommended to delete a request. However, you may have to delete a request to comply with your company's privacy policy. All messages and attachments/files linked to the request are also deleted.
 
@@ -21,7 +21,7 @@ In general, it is not recommended to delete a request. However, you may have to 
 1. Confirm whether you really want to delete the request by clicking **Yes** or **No**.
 
 > [!NOTE]
-> The request is not deleted from the database immediately. The status of the request is set to Deleted, so it is still possible to open and edit the request. The request will then be permanently deleted from the database after x days (system setting).
+> The request is not deleted from the database immediately. The status of the request is set to Deleted, so it is still possible to open and edit the request. The request will then be permanently deleted from the database after 14 days (system setting). You can access the deleted request in the [Recycle bin][?].
 
 ## What would you like to do now?
 

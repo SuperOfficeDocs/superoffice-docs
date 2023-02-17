@@ -28,10 +28,6 @@ You can add a message to several requests in a single operation. For example, if
     * **Text toolbar / Attachment**: Use the ![icon][img3] text format options and add relevant ![icon][img4] attachment(s).
     * **Add text**: Click the button for ![icon][img2] **Add text** to add predefined text like **FAQ** or **Reply templates**.
 
-    * ?**Language** / **Spell check**: Select a language and click **Spell check** to check the message for errors.
-    * ?**Reply template** / **Language**: From this list box, you can select a reply template from the reply template hierarchy. If the template is available in several languages, you must select the correct language. Remember to click **Insert**.
-    * ?**Insert**: Click here to paste the selected reply template into the text area.
-
 1. Click **Reply** when you are finished and ready to send the comment.
 
 <!-- Referenced links -->
