@@ -15,5 +15,4 @@ After responding to the request, you can set its status to **Closed** by selecti
 
 <!-- Referenced links -->
 
-
 <!-- Referenced images -->

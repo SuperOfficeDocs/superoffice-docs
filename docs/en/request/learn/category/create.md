@@ -88,4 +88,3 @@ language: en
 [6]: ../find.md#category
 
 <!-- Referenced images -->
-[img2]: ../../../../media/icons/settings-small.png
