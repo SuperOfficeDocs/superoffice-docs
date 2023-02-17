@@ -24,7 +24,7 @@ You can merge two or more requests. For example, if multiple contacts in the sam
 
 1. In the search field for **Merge request(s)**, start typing a request name or enter a request ID. Enter **%** to display all requests.
 
-1. Select a request from the list of search results. The selected request opens in a new column in the table.
+1. Select a request from the list of search results. The selected request is added in the field.
 
 1. To add more requests to the field for **Merge request(s)**, repeat the previous steps.
 
@@ -34,7 +34,7 @@ You can merge two or more requests. For example, if multiple contacts in the sam
 
 1. Click **Merge**. The requests are merged.
 
-The request IDs that were overwritten will no longer be available in favorites and history lists and regular search. If you enter an overwritten request ID in the [quick search][2] field, you are redirected to the merged request.
+The request IDs that were overwritten will no longer be available in favorites and history lists and regular search. If you enter an overwritten request ID in the [freetext search][2] field, you are redirected to the merged request.
 
 ## What would you like to do now?
 

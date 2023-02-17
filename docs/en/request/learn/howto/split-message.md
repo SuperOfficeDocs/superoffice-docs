@@ -39,7 +39,7 @@ If a message contains two issues that should be handled separately, you can spli
 
 1. Go to the **Messages** tab, and edit the message texts for the new and the existing requests.
 
-1. In the **Attachments** tab (if there are any attachments), select the attachment(s) that should be included in the new request. The attachments will be deleted from the existing request.
+1. In the **Attachments** tab (if there are any attachments), select the attachment(s) that should be included in the new request. The attachments will be moved from the existing request.
 
 1. Click **OK**. The message is split and the new request opens.
 

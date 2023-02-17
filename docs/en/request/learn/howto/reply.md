@@ -30,16 +30,12 @@ When you respond to an customer enquiry, you can save time by using a reply temp
 
 1. Click the **Add text** button ![icon][img3] , and select what to insert in the message.
 
-    ?Optional: Select a language in the language list. If available, the text is inserted in the selected language. Otherwise the default language is used.
-
 1. In the list that appears, first click **Reply template** and then the entry you want.
-
-1. Click **Paste at cursor position**. The reply template text is inserted.
 
 1. Review the text and make any adjustments.
 
 > [!TIP]
-> You can also click ![icon][img4] **Preview** to display the selected item onscreen.
+> You can also hover the reply template (or FAQ) to preview the selected item before you paste it.
 
 ## What would you like to do now?
 
