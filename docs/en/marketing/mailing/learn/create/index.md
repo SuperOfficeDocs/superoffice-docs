@@ -1,11 +1,11 @@
 ---
 uid: help-en-mailing-create
-title:  Create new mailing
-description:  Create new mailing
+title: Create new mailing
+description: Create new mailing
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Marketing
-so.topic: help
+keywords: Marketing, mailing
+so.topic: howto
 language: en
 ---
 

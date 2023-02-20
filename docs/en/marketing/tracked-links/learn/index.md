@@ -1,17 +1,29 @@
 ---
 uid: help-en-mailing-tracked-links
 title: Tracked links
-description: Tracked links
+description: A link that you include in a mailing can be used to track responses from your customers and prospects. When your mailing’s recipients click on the link an action is being triggered. 
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Marketing
-so.topic: help
+so.topic: concept
 language: en
 ---
 
 # Tracked links
 
 [!include[Requirement](includes/req-marketing.md)]
+
+The goal of your newsletter or email campaign will determine what links you should use. Each goal will have its own call-to-action to trigger a response from the recipient that you want to track. This way you can follow up on your recipients after you have received all the results.
+
+For example, clicking on a link may open a new website or update your recipient's Contact card. The action can also add a service request in Service and in the Request section tab on the Contact card. The use of links is only available for users who subscribe to the Marketing plan.
+
+Before you start the actual mailing, you can set up the links you will frequently use in your mailings. Once you set them up, you can use them again and again which will help you save time. Most common links to use are, for example:
+
+* Unsubscribe pages
+* Contact forms
+* Social media channels
+
+![In the Link properties screen you can add links you want to track -screenshot][img4]
 
 You can include links (URLs) in a message and track them. In other words, you can see how many recipients have clicked them.
 
@@ -51,6 +63,7 @@ When setting up a mailing, you have the option of using Google Analytics as the 
 * [Include links you want to track][3]
 * [Add subscription links][4]
 * [Simple Google Analytics email tracking][6]
+* [Define link actions][7]
 
 <!-- Referenced links -->
 [1]: create-links.md
@@ -59,8 +72,10 @@ When setting up a mailing, you have the option of using Google Analytics as the 
 [4]: ../../mailing/learn/create/add-unsubscribe-link.md
 [5]: ../../learn/create-folder.md
 [6]: https://community.superoffice.com/en/technical/blogs/archive/simple-google-analytics-email-tracking/
+[7]: define-link-actions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/btn-add.png
 [img3]: ../../../../../common/icons/folder.png
+[img4]: media/link-properties.png

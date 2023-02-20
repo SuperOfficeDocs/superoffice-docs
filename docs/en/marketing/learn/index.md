@@ -1,11 +1,11 @@
 ---
 uid: help-en-marketing
 title: SuperOffice Marketing
-description: SuperOffice Marketing
+description: The features for marketing includes mailings and web forms, and help users to gather information and to communicate better with prospects and customers. Combined, they can help you generate more leads, sell more to existing customers, and build customer loyalty.
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.16.2023
 keywords: Marketing
-so.topic: help
+so.topic: concept
 language: en
 ---
 
@@ -19,6 +19,11 @@ Using SuperOffice Marketing you can create the following:
 
 * **Mailings** (emails, SMS, documents and form responses). [Get started with your first mailing][5].
 * **Forms**. [Get started on your first form][1].
+
+Watch this product tour video and get an introduction to the SuperOffice Marketing features (video length - 2:31):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://youtu.be/tFHXsDQIpvA]
 
 ## About mailings
 
@@ -46,6 +51,10 @@ SuperOffice Marketing also deals with what happens after the mailing. You can ge
 
 SMS mailing is not available if you are using CRM Online.
 
+## Necessary skills
+
+To benefit from SuperOffice marketing features, you need a basic understanding of how to register basic CRM data, such as categories on company and contacts, interests and subscription types on contacts (read more about GDPR and privacy), and how to use selections. These steps of registering data help you segment your customer base and create an effective target list. If you want to know how to configure marketing related functions, please see the section for Manage lists in Settings and maintenance.
+
 ## Differences between onsite and online installations
 
 SuperOffice Marketing is available as an online application (cloud-based) and as an onsite application (installed on the customer's premises). There are minor differences between the two. Specific functional differences are indicated by the icons in the procedures themselves or in topic titles.
@@ -55,11 +64,13 @@ SuperOffice Marketing is available as an online application (cloud-based) and as
 * [Create new mailing][5]
 * [Follow up mailings][6]
 * [Create a new form][1]
+* [View mailings and forms in dashboards][4]
 
 <!-- Referenced links -->
 [1]: ../forms/learn/create.md
 [2]: editor/index.md#variables
 [3]: ../tracked-links/learn/define-link-actions.md
+[4]: ../../dashboard/learn/show-marketing.md
 [5]: ../mailing/learn/create/index.md
 [6]: ../mailing/learn/follow-up/index.md
 

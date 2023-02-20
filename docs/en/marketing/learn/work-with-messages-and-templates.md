@@ -1,19 +1,37 @@
 ---
 uid: help-en-work-with-messages-and-templates
 title: work with messages and templates
-description: work with messages and templates
+description: Just like your business card, your mailing should make a good impression. That’s why creating a master (corporate) template is the best way to ensure all your mailings look good, have the same design and represent your brand.
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Marketing
-so.topic: help
+so.date: 02.16.2023
+keywords: marketing
+so.topic: howto
 language: en
 ---
 
 # Work with the message templates
 
-Save yourself some time and create your mailing using one of the free message templates in the **Online template library**.
+Just like your business card, your mailing should make a good impression. That’s why creating a master (corporate) template is the best way to ensure all your mailings look good, have the same design and represent your brand.
+
+It will also help you prevent CRM users from designing their own, disjointed styles that may not reflect your brand or marketing strategy.
+
+You can design a master template for each type of mailing you send. For example, you can create a newsletter template, an email campaign template, or even a Christmas card template.
+
+SuperOffice CRM offers more than **100 templates for mailing** that you can download and use as a starting point or inspiration for your own mailing template that will reflect your company’s branding.
 
 [!include[Note about 2 editor versions](includes/note-old-or-new-editor.md)]
+
+## Where to find templates for mailing
+
+To check out the standard templates, you should go to the **Message templates** tab in the Marketing section. Here you’ll find the Online template library, which contains more than 100 online templates that you can download to use.
+
+You can open the message template you like by clicking on it. To download this template, click on the **Import template** button.
+
+The message template is now available in your Message templates archive. You can start editing the template right away. All the templates in the Online library are grouped by themes and layouts for easy search.
+
+![Online template library contains message templates that you can download to use -screenshot][img3]
+
+You can find additional message templates in the tab All templates, if you like to use a more “retro look”.
 
 ## Using templates from the Online template library
 
@@ -40,6 +58,18 @@ In addition to the templates created by your and your colleagues, you have acces
 4. Click the ![icon][img1] menu button next to the template you want to use.
 
 5. Select **Create mailing**. The template opens in the [mailings wizard][1].
+
+## Things to include in your corporate master template
+
+* Add your [company’s logo][4] at the top of the newsletter and link it to your website.
+
+* Add a link to display the message in a browser. If a person has problems viewing the message in his/her email program, they should get a link to display the mailing in a browser. All SuperOffice CRM templates come with a link that allows the recipient to open a mailing in a browser.
+
+* Add your contact information, such as your company's address, email, website, and phone number.
+
+* Add the unsubscribe link. According to new data protection and privacy regulation (GDPR), you must add a clearly visible unsubscribe link and make it easy for recipients to opt out of your mailings.
+
+* Add [merge tags][3] (also called template variables). You can include each recipient’s data to personalize your message. This will help you increase the opening and click-through rates. For example, you can address your reader by their first or full name or the name of the company they work in. SuperOffice CRM offers a variety of merge tags you can use to personalize your mailings.
 
 ## Create a new email template
 
@@ -95,7 +125,9 @@ In addition to the templates created by your and your colleagues, you have acces
 [1]: ../mailing/learn/create/index.md
 [2]: editor/drag-and-drop/edit-paragraph.md
 [3]: editor/drag-and-drop/add-merge-tag.md
+[4]: add-images.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/btn-add.png
+[img3]: media/work-with-templates.png

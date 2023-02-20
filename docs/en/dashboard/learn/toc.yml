@@ -22,3 +22,5 @@ items:
     href: remove-tile.md
   - name: Using sales targets in tiles
     href: show-sales-targets.md
+  - name: Using mailing and forms in tiles
+    href: show-marketing.md
