@@ -54,6 +54,17 @@ To [view all the links in a mailing][4], open the mailing in view mode and selec
 
 When setting up a mailing, you have the option of using Google Analytics as the tracking system. The setup in mailings allows you to define a more accurate tracking of emails using the provided fields, which results in more detailed Google Channel reports.
 
+Google Analytics is the most popular digital analytics software available. By tracking how website visitors find and use your website, the service provides your company with useful insights that help you improve the success of your online marketing strategies.
+
+By default, Google Analytics does not identify visitors coming from specific mailings. You have to add a tag to the links in your email to be able to:
+
+* Identify which links your recipients have clicked,
+* See which website pages they visited once they landed on your website.
+
+When you add a link to your website in your mailing without a tag, you’ll see that your visitors come from a mailing, but you won’t know which specific mailing. As a result, you are left in the dark about how the recipients of specific mailings behave on your website.
+
+The Google Analytics feature in SuperOffice Marketing identifies your mailings in the reports. By adding a unique tag to all the links you use in your mailing, Google Analytics will recognize your mailing as the source where the website visitors come from. Google Analytics also gives you insight into the visitors’ path through your website.
+
 **Medium**: "Email" is the pre-defined medium in automated UTM tags. This means that tracked links in mailings sent from SuperOffice can be found in Google Channel reports under "Emails" (as opposed to "other").
 
 **Source** and **Campaign**: These fields identify this specific mailing as the source, and allows for a more accurate tracking and reporting in Google.
@@ -62,7 +73,7 @@ When setting up a mailing, you have the option of using Google Analytics as the 
 
 * [Include links you want to track][3]
 * [Add subscription links][4]
-* [Simple Google Analytics email tracking][6]
+* [Simple Google Analytics email tracking][6] -blog
 * [Define link actions][7]
 
 <!-- Referenced links -->

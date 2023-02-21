@@ -3,9 +3,9 @@ uid: help-en-editor
 title: Drag and drop editor
 description: Drag and drop editor
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Marketing
-so.topic: help
+so.date: 02.20.2023
+keywords: marketing, editor, template variable, merge tag
+so.topic: concept
 language: en
 ---
 
@@ -35,8 +35,6 @@ A blue frame is shown around the selected element, so that you always know which
 If you click text content, a text editing toolbar is displayed.
 
 The global menu is always displayed at the bottom left of the content area.
-
-See [Edit content][5].
 
 ## Edit text and images
 
@@ -73,7 +71,7 @@ See also [Add content][1].
 
 ### Global menu
 
-From the global menu, you can preview, undo or repeat actions, and se how the message looks on desktop or mobile. This menu is always displayed at the bottom left in the content area (see [Edit message content – overview][9]).
+From the global menu, you can preview, undo or repeat actions, and se how the message looks on desktop or mobile. This menu is always displayed at the bottom left in the content area.
 
 | Icon | Name | Function |
 |:-:|---|---|
@@ -93,6 +91,43 @@ When you click a section in a message, you get access to various functions for t
 | ![icon][img8] | Duplicate | Click here to create a copy of the section. |
 | ![icon][img9] | Save block | Click here to save the selected section as a block. Lets you reuse content (like headers and footers) across messages. |
 
+## <a id="variables" />Template variables
+
+To give the message a more personal touch, you can use placeholders to insert customer-specific information such as the customer's first name. In this way, you can customize the content for each individual customer.
+
+These placeholders are called **template variables** in the old editor and **merge tags** in the Drag and drop editor.
+
+[!include[Note](../includes/note-imported-recipients.md)]
+
+There are several types of merge tags:
+
+* Merge tags linked to contacts. For example, **\[\[customer.name\]\]** inserts the contact's full name.
+* Merge tags linked to companies. For example, **\[\[company.name\]\]** inserts the name of the company the contact belongs to.
+
+### Example
+
+Instead of this text:
+
+"Dear Customer. Would you like to know more about how our product can help your company win new customers? Please call us at SuperShop."
+
+You can send this one:
+
+"Dear Chris. Would you like to know more about how our product can help Car Care Ltd win new customers? Please call Ryan Webster at SuperShop."
+
+The text you enter will look like this:
+
+"Dear **\[\[customer.firstname\]\]**. Would you like to know more about how our product can help **\[\[company.name\]\]** win new customers? Please call **\[\[company.ourSalesContact.name\]\]** at SuperShop."
+
+## Two different editors
+
+Are you using the new Drag & drop editor or the previous version of the editor?
+
+In early 2021 SuperOffice added a new message editor (the "Drag & drop editor") to replace the old one (the "Editor"). The message editor is used when creating email mailings and form responses. The old message editor will still be available to edit messages and templates created in the old version. All new mailings and templates use the new message editor.
+
+### Editor (old)
+
+![Editor (old) -screenshot][img13]
+
 ## What would you like to do now?
 
 * [Add content][1]
@@ -100,6 +135,7 @@ When you click a section in a message, you get access to various functions for t
 * [Include links you want to track][8]
 * [Use merge tags in messages][7]
 * [Insert images in the message][6]
+* [Read about the old editor][2]
 
 <!-- Referenced links -->
 [1]: add-content.md
@@ -109,16 +145,18 @@ When you click a section in a message, you get access to various functions for t
 [7]: add-merge-tag.md
 [8]: ../../../tracked-links/learn/add-tracked-link-to-msg.md
 [9]: ../../work-with-messages-and-templates.md
+[2]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Mailing%2FHelptopics%2Foldeditor%2FStep_3__Content_-_Formatted_e-mail.htm
 
 <!-- Referenced images -->
 [img1]: media/edit-template.png
-[img2]: ../../../../../media/icons/marketing-and-forms/preview.png
-[img3]: ../../../../../media/icons/marketing-and-forms/desktop.png
-[img4]: ../../../../../media/icons/marketing-and-forms/mobile-2.png
-[img5]: ../../../../../media/icons/marketing-and-forms/add-row.png
-[img6]: ../../../../../media/icons/marketing-and-forms/move-2.png
-[img7]: ../../../../../media/icons/marketing-and-forms/cancel.png
-[img8]: ../../../../../media/icons/marketing-and-forms/copy.jpg
-[img9]: ../../../../../media/icons/marketing-and-forms/save-block.png
-[img11]: ../../../../../media/icons/marketing-and-forms/undo-redo.png
-[img12]: ../../../../../media/icons/marketing-and-forms/side-panel-body-small.png
+[img2]: ../../../media/icons/marketing-and-forms/preview.png
+[img3]: ../../../media/icons/marketing-and-forms/desktop.png
+[img4]: ../../../media/icons/marketing-and-forms/mobile-2.png
+[img5]: ../../../media/icons/marketing-and-forms/add-row.png
+[img6]: ../../../media/icons/marketing-and-forms/move-2.png
+[img7]: ../../../media/icons/marketing-and-forms/cancel.png
+[img8]: ../../../media/icons/marketing-and-forms/copy.jpg
+[img9]: ../../../media/icons/marketing-and-forms/save-block.png
+[img11]: ../../../media/icons/marketing-and-forms/undo-redo.png
+[img12]: ../../../media/icons/marketing-and-forms/side-panel-body-small.png
+[img13]: media/template-edit-overview-old.png

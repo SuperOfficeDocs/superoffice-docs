@@ -7,6 +7,8 @@ items:
     href: define-link-actions.md
   - name: Add tracked link to message
     href: add-tracked-link-to-msg.md
+  - name: Add Google Analytics tags
+    href: add-google-analytics-tags.md
   - name: Examples of use
     href: examples.md
   - name: Explore clicks after sending

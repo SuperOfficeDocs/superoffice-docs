@@ -1,17 +1,23 @@
 ---
 uid: help-en-insert-images-in-message
 title: Insert images in the message
-description: Insert images in the message
+description: Using carefully chosen images in your mailings can make a powerful impact on your results. You can upload your own images, or use one of the millions of images powered by Unsplash, Pexels, Pixabay in the online image library.
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Marketing
-so.topic: help
+so.date: 02.20.2023
+keywords: Marketing, image
+so.topic: howto
 language: en
 ---
 
 # Insert images in the message
 
 Create a stylish mailing using images. You can add images from the SuperOffice database, upload your own images, or use images from a royalty-free online image library.
+
+![Insert image with drag and drop from the online image library -screenshot][img3]
+
+Once you have added an image, you can add properties, such as a certain action, when the image is clicked on in the mailing
+
+![Once you have added an image, you can add properties, such as a certain action, when the image is clicked on in the mailing -screenshot][img4]
 
 ## How to set an image as background
 
@@ -67,10 +73,35 @@ Choose among millions of images from the royalty-free online image library.
 
     To add a regular link (untracked): Select the image, and enter the link in the **URL** field.
 
+## Resize your image
+
+The image you want to use for your mailing might not always be the correct size. In our mailing editor you can also resize your images or add effects to make sure the image is optimal for your mailing and brand design.
+
+1. Once you've selected the placeholder image inside your email template, you see that you have the option to upload and apply effects on your image.
+
+    ![Upload an image and click the apply effects and more button to adjust image size, resolution and more -screenshot][img5]
+
+2. Once you've uploaded the image, you'll be able to see how it looks inside your email template. If you are not happy with the size, you can adjust the image size, or resolution, by clicking the **Apply Effects and More** button.
+
+    ![Click the resize button to resize your image -screenshot][img6]
+
+3. You are now in the Effect dialogue. The toolbar at the top give you a wide range of options to change and adjust your image. The second button on from the left, is called Resize.
+
+4. When you click the Resize button, you'll be able to adjust the size of your image. You can change the widt and height. In addition, you have the option to Maintain the Aspect ration and to use Percentages instead of pixcels.
+
+    ![In the Resize screen you can adjust the size of your image, and you also have the option tick of the box Maintain the Aspect ration or use Percentages][img7]
+
+5. When you are happy with the new size of your image or you want to check how it looks in your email template after you've made your changes, you can click the **Apply** button.
+
 <!-- Referenced links -->
-[1]: ../../add-images.md
-[2]: ../../../tracked-links/learn/add-tracked-link-to-msg.md
+[1]: add-images.md
+[2]: ../tracked-links/learn/add-tracked-link-to-msg.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/marketing-and-forms/side-panel-content-small.png
-[img2]: ../../../../../media/icons/marketing-and-forms/side-panel-images-small.png
+[img1]: ../../../media/icons/marketing-and-forms/side-panel-content-small.png
+[img2]: ../../../media/icons/marketing-and-forms/side-panel-images-small.png
+[img3]: media/mailing-image-add-from-onlinelibrary.png
+[img4]: media/add-action-properties.png
+[img5]: media/apply-effects.png
+[img6]: media/resize-image.png
+[img7]: media/change-size-of-your-image.png

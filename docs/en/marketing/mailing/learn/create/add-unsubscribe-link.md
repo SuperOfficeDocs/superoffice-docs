@@ -64,7 +64,7 @@ In SuperOffice CRM, you can register interests (such as "Monthly newsletter") to
 You do this by [creating a link that removes the interest][4] in question from recipients who click the link. The same method can be used to register interests.
 
 <!-- Referenced links -->
-[1]: ../../../learn/editor/drag-and-drop/edit-paragraph.md
+[1]: ../../../learn/edit-paragraph.md
 [2]: ../../../tracked-links/learn/examples.md
 [4]: ../../../tracked-links/learn/define-link-actions.md#interests
 

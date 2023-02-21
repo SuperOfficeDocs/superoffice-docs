@@ -3,9 +3,9 @@ uid: help-en-mailing-edit-paragraph
 title: Edit a paragraph
 description: Edit a paragraph
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.20.2023
 keywords: Marketing
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -77,13 +77,13 @@ Click **Next** if you are done editing.
 [3]: add-link-to-display-message-in-browser.md
 [4]: insert-images-in-message.md
 [5]: add-content.md
-[7]: ../../../mailing/learn/create/add-unsubscribe-link.md
-[8]: ../../../tracked-links/learn/add-tracked-link-to-msg.md
+[7]: ../mailing/learn/create/add-unsubscribe-link.md
+[8]: ../tracked-links/learn/add-tracked-link-to-msg.md
 
 <!-- Referenced images -->
 [img1]: media/edit-section.png
-[img2]: ../../../../../media/icons/marketing-and-forms/side-panel-body-small.png
-[img3]: ../../../../../media/icons/marketing-and-forms/desktop-2.png
-[img4]: ../../../../../media/icons/marketing-and-forms/mobile.png
+[img2]: ../../../media/icons/marketing-and-forms/side-panel-body-small.png
+[img3]: ../../../media/icons/marketing-and-forms/desktop-2.png
+[img4]: ../../../media/icons/marketing-and-forms/mobile.png
 [img5]: media/toolbar.png
-[img6]: ../../../../../media/icons/marketing-and-forms/link.png
+[img6]: ../../../media/icons/marketing-and-forms/link.png

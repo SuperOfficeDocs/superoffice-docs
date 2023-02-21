@@ -25,7 +25,41 @@ If you tailor your message specifically to that group, your chances of them doin
 
 ### Define your goal
 
+To ensure that your mailing is a success, you need, first and foremost, to reach out to the right people. The more you can narrow down your target group, the higher your chances are that the right message will reach the right person.
+
+What do you want to achieve with your mailing? Do you want to:
+
+* Get more leads?
+* Sell more new products or services to your existing customers?
+* Improve customer loyalty and retain customers?
+* Inform of new developments, milestones or propositions?
+
+SuperOffice CRM offers many ways of how to create a solid target list. You can use selections, projects or a single contact saved in the system. Any contacts that are not yet available in SuperOffice CRM database, can be added by importing an Excel list, provided that you have their consent to be sent marketing messages by your company.
+
+You can also build a mailing list with the help of [online web forms][3]. Not only can you capture new leads among the visitors to your website who fill out a web form, but you can also use web forms to invite people to subscribe or sign up for different mailings.
+
+Find out more information on how to [create and use web forms in Marketing][4].
+
 ### Make sure you follow GDPR
+
+The General Data Protection Regulation (GDPR) is the digital privacy regulation that was introduced on **May 25, 2018**.
+
+Watch this video to learn what GDPR is:
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/watch?v=S0aTpvBmVnY]
+
+Not only is the GDPR a law, but it is also a great opportunity for you to create highly targeted marketing campaigns for people who are engaged with your brand. This way your chances of acquiring new customers grow exponentially!
+
+**Checklist for marketing campaign:**
+
+* Obtain explicit consent from your existing and potential contacts to receive marketing communication from your company. One way of asking for a permission is via mailings or web forms. Seeking permission and storing a record of it are the cornerstones of the GDPR.
+
+* [Document any consents you obtain][5] regarding the lawful storage of personal data and sending e-marketing messages.
+
+* Offer a simple and straight-forward way for your contacts to opt-out of your email marketing campaigns, by including clearly visible unsubscribe links in your mailings. Another way to make sure you contact only the people that want to hear from you is by creating a subscription management centre where data subjects can choose the content they want to receive.
+
+* Obtain re-permissions from your existing customer base. This means that if you’re not sure whether or not you have the necessary permissions, and if you haven’t provided your contacts with the possibility to opt-out, it may be necessary to obtain re-permissions. Sending a “re-permission” campaign is also a great away to update your existing records.
 
 ## 4 ways to create your target lists
 
@@ -90,6 +124,12 @@ Use dynamic selections when you need to work with the most up-to-date data when 
 <!-- Referenced links -->
 [1]: https://www.superoffice.com/blog/email-marketing-segmentation-mistake/
 [2]: ../../../../search-options/selection/learn/create/index.md
+[3]: (https://www.superoffice.co.uk/resources/articles/integrated-web-forms/
+[4]: ../../../forms/learn/create.md
+
+[5]:
+<!-- /en/learning/admin-guide/gdpr-privacy-settings/ -->
+
 [6]: ../follow-up/index.md
 [7]: ../follow-up/view-statistics.md
 [8]: ../follow-up/look-at-recipient-list.md

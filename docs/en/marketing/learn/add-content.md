@@ -3,9 +3,9 @@ uid: help-en-add-content
 title: Add content
 description: Add content
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Marketing
-so.topic: help
+so.date: 02.20.2023
+keywords: Marketing, mailing, column, text block
+so.topic: howto
 language: en
 ---
 
@@ -16,15 +16,13 @@ Add content to your message by using the side-panel.
 > [!NOTE]
 > If specific properties for individual sections are defined, these are not overridden by global properties.
 
-## Adding columns, text blocks, images
+## Adding columns, text blocks, images ![icon][img1]
 
-|   |   |
-|---|---|
-|![icon][img1] | From the **Content** section you can add all types of content, such as columns, text blocks, images, menus/buttons and SoMe links. Drag and drop content from this section to the message. Click the content to [edit][2] it in the side panel. |
+From the **Content** section you can add all types of content, such as columns, text blocks, images, menus/buttons and SoMe links. Drag and drop content from this section to the message. Click the content to [edit][2] it in the side panel.
 
 | Icon | Name | Function |
 |------|------|----------|
-| ![icon][img2] | Columns | Use columns to structure your message into columns and rows.   |
+| ![icon][img2] | Columns | Use columns to structure your message into columns and rows. |
 | ![icon][img3] | Button | Use buttons to add tracked links, regular URLs, or subscribe links. |
 | ![icon][img4] | Divider | Use divider lines to separate text blocks and other content. |
 | ![icon][img5] | Heading | Add a heading to your message. |
@@ -57,17 +55,17 @@ Add images from the SuperOffice database or from the royalty-free online image d
 [2]: edit-paragraph.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/marketing-and-forms/side-panel-content.png
-[img2]: ../../../../../media/icons/marketing-and-forms/side-panel-content-columns.png
-[img3]: ../../../../../media/icons/marketing-and-forms/side-panel-content-button.png
-[img4]: ../../../../../media/icons/marketing-and-forms/side-panel-content-divider.png
-[img5]: ../../../../../media/icons/marketing-and-forms/side-panel-content-heading.png
-[img6]: ../../../../../media/icons/marketing-and-forms/side-panel-content-html.png
-[img7]: ../../../../../media/icons/marketing-and-forms/side-panel-content-image.png
-[img8]: ../../../../../media/icons/marketing-and-forms/side-panel-content-menu.png
-[img9]: ../../../../../media/icons/marketing-and-forms/side-panel-content-social.png
-[img10]: ../../../../../media/icons/marketing-and-forms/side-panel-content-text.png
-[img11]: ../../../../../media/icons/marketing-and-forms/side-panel-content-receipt.png
-[img12]: ../../../../../media/icons/marketing-and-forms/side-panel-blocks.png
-[img13]: ../../../../../media/icons/marketing-and-forms/save-block.png
-[img14]: ../../../../../media/icons/marketing-and-forms/side-panel-body.png
+[img1]: ../../../media/icons/marketing-and-forms/side-panel-content.png
+[img2]: ../../../media/icons/marketing-and-forms/side-panel-content-columns.png
+[img3]: ../../../media/icons/marketing-and-forms/side-panel-content-button.png
+[img4]: ../../../media/icons/marketing-and-forms/side-panel-content-divider.png
+[img5]: ../../../media/icons/marketing-and-forms/side-panel-content-heading.png
+[img6]: ../../../media/icons/marketing-and-forms/side-panel-content-html.png
+[img7]: ../../../media/icons/marketing-and-forms/side-panel-content-image.png
+[img8]: ../../../media/icons/marketing-and-forms/side-panel-content-menu.png
+[img9]: ../../../media/icons/marketing-and-forms/side-panel-content-social.png
+[img10]: ../../../media/icons/marketing-and-forms/side-panel-content-text.png
+[img11]: ../../../media/icons/marketing-and-forms/side-panel-content-receipt.png
+[img12]: ../../../media/icons/marketing-and-forms/side-panel-blocks.png
+[img13]: ../../../media/icons/marketing-and-forms/save-block.png
+[img14]: ../../../media/icons/marketing-and-forms/side-panel-body.png

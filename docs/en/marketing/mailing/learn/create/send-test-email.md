@@ -1,17 +1,23 @@
 ---
 uid: help-en-mailing-send-test
 title: Test mailing by sending a test email
-description: Test mailing by sending a test email
+description: Once you have created a punchy subject line, added your text, inserted links and images into your email template, you are ready to test your mailing and check what it will look like for your recipients. In this how-to guide you’ll learn how to send a test mailing.
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.20.2023
 keywords: Marketing
-so.topic: help
+so.topic: howto
 language: en
 ---
 
 # Send a test email for email mailings and form responses
 
 When you create a new mailing, you can also do a few tests to check that the mailing is working properly and that the layout looks OK. In the **Content** step you can send a test email. This is not relevant for document and SMS.
+
+Create a small selection that consists of you and some of your colleagues. You can send the mailing you’ve prepared to yourself and colleagues to get feedback and approval before sending it to your target group.
+
+![Test your mailing before sending it to the public -screenshot][img2]
+
+## Steps
 
 1. Go to the **Content** step.
 2. Click the **Send test** button in the lower left corner.
@@ -39,7 +45,8 @@ When you have sent a test mailing, you must reset the counters for the link(s) i
 2. Click the menu button ( ![icon][img1] ) next to the relevant link and select **Reset**. The **Clicks** column is set to **0**. Data about which customers clicked the link are also removed.
 
 <!-- Referenced links -->
-[1]: ../../../learn/editor/drag-and-drop/customize-for-mobile.md
+[1]: ../../../learn/customize-for-mobile.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-menu.png
+[img2]: media/test-mailing.png

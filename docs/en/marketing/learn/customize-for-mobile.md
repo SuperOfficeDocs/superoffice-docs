@@ -1,11 +1,11 @@
 ---
 uid: help-en-mailing-customize-for-mobile
-title: Customise the message for display on mobile devices
-description: Customise the message for display on mobile devices
+title: Customize the message for display on mobile devices
+description: Customize the message for display on mobile devices
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.20.2023
 keywords: Marketing
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -20,4 +20,4 @@ To adjust mobile-specific settings for a message, select a section in the messag
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/marketing-and-forms/mobile.png
+[img1]: ../../../media/icons/marketing-and-forms/mobile.png

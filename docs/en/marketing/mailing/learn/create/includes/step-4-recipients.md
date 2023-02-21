@@ -1,6 +1,14 @@
 <!-- markdownlint-disable-file MD041 -->
 When creating a mailing, you must select the recipients of the mailing. You can add recipients from multiple sources. In addition, you can set various mailing options here and also preview the mailing.
 
+Your target list is the group of people you believe will respond best to your message. If you tailor your marketing message specifically to that group, you get a better chance of success, and don’t waste time and effort on people who are not interested.
+
+You can use selections, projects or add single contacts in SuperOffice CRM.
+
+Due to the GDPR legislation, only the contacts that have expressed consent to be legally saved in SuperOffice CRM database and receive information can be added as recipients.
+
+![You can add your recipients from either selection, project, a single contact or an external list that you need to import -screenshot][img3]
+
 ## Add recipients from selections and projects
 
 You can add recipients from selections (from both SuperOffice CRM and SuperOffice Service) and projects (from SuperOffice CRM).
@@ -37,6 +45,8 @@ You can add individual contacts from SuperOffice.
 You can add recipients to a mailing by importing them from an external comma-separated file (for example a .txt file created in Notepad or a .csv file created in Excel).
 
 When you import a list of names and email addresses, SuperOffice Marketing will try to locate the imported recipients in the SuperOffice database. If matches are found, the recipients' companies are listed in the **Company** column in the **Recipients** list. Any names or email addresses that are **not** found in SuperOffice, are filtered out and not included in the mailing. This is due to GDPR regulations.
+
+### Steps
 
 1. Click **Select file**.
 
@@ -124,3 +134,4 @@ Click **Next** to go to Step 5: Confirm. You can still revisit the **Recipients*
 <!-- Referenced images -->
 [img1]: ../../../../../../media/icons/btn-add.png
 [img2]: ../../../../../../../common/icons/salelost.png
+[img3]: media/add-target-list.png

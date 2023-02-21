@@ -1,11 +1,11 @@
 ---
 uid: help-en-marketing-add-fav
-title: Add favourite
-description: Add favourite
+title: Add favouite
+description: Add favorite
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Marketing, favourite, favorite
-so.topic: help
+keywords: Marketing, favorite, favourite
+so.topic: howto
 language: en
 ---
 
