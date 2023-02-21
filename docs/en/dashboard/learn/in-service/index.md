@@ -16,6 +16,14 @@ A dashboard can contain up to four tiles (panels) that provide an instant overvi
 > [!NOTE]
 > By default, only one dashboard tab exists. It is called **Dashboard**. It contains four tiles with pre-defined charts. You can select which tiles you want to display here. You can also [create your own dashboards][1] with the tiles/charts of your choice.
 
+It’s common practice to start your day getting an overview of the current status of the open requests in your service system.
+
+To get an overview of the requests you will be working with, Service offers you a dashboard that contains four panels with 17 different tiles with graphs and tables to choose from.
+
+To make sure you get the information that is relevant for you, these panels can be customized. And when you need more than four panels to get the information you need, you can create and design additional panels.
+
+![Get quick overview on important numbers with dashboard -screenshot][img1]
+
 ## Choose the content of the tiles
 
 If you or your role have sufficient rights, you can choose the content you want to display in the tiles on the dashboard.
@@ -95,3 +103,4 @@ Lists requests that no-one is assigned responsibility for. To [take responsibili
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/settings-small.png
+[img2]: media/customize-dashboard-service.gif

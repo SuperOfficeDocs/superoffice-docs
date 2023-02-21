@@ -1,11 +1,11 @@
 ---
 uid: help-en-privacy
-title: privacy
+title: Privacy
 description: privacy
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance, privacy, GDPR
-so.topic: help
+so.topic: concept
 language: en
 ---
 

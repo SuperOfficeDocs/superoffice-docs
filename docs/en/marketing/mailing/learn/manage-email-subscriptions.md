@@ -62,7 +62,7 @@ Sometimes, people change their mind about what emails they want to receive. When
 
 Clicking this link will take your recipients to their subscription preferences page, where they can select the type of mailings they want to receive. The changes your contacts make are saved as soon as they confirm the new settings.
 
-![Select the mailings you would like to receive on the subscription preferences page. -screenshotf][img4]
+![Select the mailings you would like to receive on the subscription preferences page. -screenshot][img4]
 
 Your customer is in control of the mailings they receive and you can make sure you only send your mailings to the people who are interested.
 
@@ -70,13 +70,16 @@ With SuperOffice CRM, you’ll respect your contacts’ communication preference
 
 ## Related
 
-* GDPR & privacy
-* Send privacy email
+* [GDPR and privacy][2]
+* [Send privacy email][3]
 * GDPR privacy settings in Settings and maintenance
-* SuperOffice privacy statement
+* [SuperOffice privacy statement][4]
 
 <!-- Referenced links -->
 [1]: create/target-list.md
+[2]: ../../../security/privacy/learn/privacy.md
+[3]: ../../../security/privacy/learn/send-privacy-confirmation-email.md
+[4]: https://www.superoffice.com/company/privacy/
 
 <!-- Referenced images -->
 [img1]: media/setup-type-drop-down.png

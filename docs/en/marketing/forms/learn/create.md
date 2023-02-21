@@ -1,19 +1,29 @@
 ---
 uid: help-en-form-create
 title: Create a new form
-description: Create a new form
+description: Learn how you can create a web form in this how-to guide.
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Forms
+so.date: 02.21.2023
+keywords: form, opt-in
 so.topic: howto
 language: en
 ---
 
 # Create a new form
 
+Web forms make it easier to interact with customers and prospects via your website or customer centre.
+
+You can either create your own form from scratch, use a template from the form templates or choose one from our Online template library.
+
+Watch this video to learn how you can create a web form (video length - 7:49) or follow the steps below.
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://youtu.be/18m6Dx1t9wI]
+
+## Create new
+
 1. Go to the **Forms** tab.
 2. If required, click **Add folder** to [create a folder for the form][8].
-
 3. Select **Form** under **Create new** on the right side of the screen. The **Edit form** screen displays.
 4. Enter a descriptive name for the template in the **Form name** field.
 5. Fill in the fields as described below.
@@ -112,10 +122,17 @@ The preview on the right is updated automatically when you change any settings. 
 
 ### Activate double opt-in
 
-This option adds an extra layer of security to the form. If you activate this option, the person submitting the form must also confirm their email address. This is done by sending them an email when they submit the form. The email contains a link they must click to confirm that the email address is correct.
+Double opt-in is an extra step in the form submission process, where a person has to confirm their email address to complete their form submission. They get an email with a link they must click to confirm that the email address is correct.
 
 > [!NOTE]
 > The link is valid for 30 minutes by default.
+
+Using the double opt-in feature will guarantee that people submit the right email address. This means that your mailing list will be more reliable, which will help raise the opening rates of your mailings. As an added bonus, you won’t have to spend time correcting spelling mistakes in email addresses or deleting email addresses that don’t exist. And it also will help you in your effort to stay GDPR-compliant.
+
+Watch this video to learn how to use the double opt-in feature on your web form (video length - 3:45) or follow the steps below.
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://youtu.be/o7mkk3n7zuw]
 
 **Steps:**
 
@@ -135,7 +152,18 @@ If double opt-in is activated for a form, all [submissions for this form][5] hav
 
 ### Thank you page
 
-When a person completes and submits a form, you should thank them and let them know what will happen next. Choose one of the following options:
+When a person completes and submits a form, you should thank them and let them know what will happen next. It’s always nice to say thank you. People really appreciate it.
+
+Besides saying thank you, you can use this page to inform your visitors about other products or events. Simply add your inspirational copy to the page and link it to specific places on your website. This way the customer can continue to explore your website after they’ve submitted their details.
+
+The effect will be uplifting – a “Thank you” page will both elevate their customer experience and boost your customer loyalty.
+
+Watch this video to learn how to add a “Thank you” page to your web form (video length - 1:48) or follow the steps below.
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://youtu.be/xaVXR-Ltfuo]
+
+Choose one of the following options:
 
 * **Redirect to external website**: Enter the link to the web page with more information.
 * **Show this message**: Enter the text to display.

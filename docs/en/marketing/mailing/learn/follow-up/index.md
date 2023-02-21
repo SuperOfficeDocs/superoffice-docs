@@ -1,15 +1,19 @@
 ---
 uid: help-en-mailings-follow-up
 title: Follow up mailings
-description: Follow up mailings
+description: Once your mailing is sent, it’s always exciting to see how well your mailing has performed.
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.21.2023
 keywords: Marketing
-so.topic: help
+so.topic: concept
 language: en
 ---
 
 # Follow up mailings
+
+Once your mailing is sent, it’s always exciting to see how well your mailing has performed. To see if all your hard work has paid off. At the same time, it’s a great opportunity to check and improve the quality of the information registered in your CRM database. The number of bounced emails, especially, is a key indicator.
+
+Updating bounced email addresses will help you increase the success rate of future mailings. Once you’ve updated the email addresses of all the recipients that bounced, you can reload your recipients list and resend your mailing to all updated contacts.
 
 After the mailing was sent, SuperOffice Marketing collects data about the status of each sent email. In the **Recipients** tab, you can view the status for each recipient of the mailing.
 
