@@ -1,9 +1,9 @@
 ---
 uid: help-en-user-add
-title: Adding users
-description: Adding users
+title: Add user
+description: In this how-to guide, you’ll learn how to add a new user in SuperOffice CRM.
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.21.2023
 keywords: user, associate
 so.topic: howto
 language: en
@@ -11,7 +11,19 @@ language: en
 
 # Add users
 
-This procedure describes how to add one user at a time. To add multiple users, see [Import users][1].
+Once your SuperOffice CRM solution is configured and customized, it’s time to give your users access to their CRM solution.
+
+Administrators are responsible for providing new users with a user plan, a username, a password and the user group the user belongs to. You can add users to SuperOffice CRM in Settings and maintenance.
+
+> [!NOTE]
+> If you provided information on users when you ordered SuperOffice CRM, you don’t have to add users. Users will have received login information from SuperOffice by email. Check if users are in the system in the menu Users in Settings and Maintenance.
+>
+> This procedure describes how to add one user at a time. To add multiple users, see [Import users][1].
+
+Follow the guided steps or watch the video below to see how you can add a new user in SuperOffice CRM (video length - 1:46):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://youtu.be/oLlfTrCAqCU]
 
 ## Add a new SuperOffice CRM user
 
@@ -22,6 +34,9 @@ This procedure describes how to add one user at a time. To add multiple users, s
 5. If more than one owner company is available in your SuperOffice installation, you can select this below the **Email** field.
 6. Enter the relevant information in the **Details** and **Licences** tabs.
 7. Click **Save**. The name of the new user will now be displayed in the list.
+
+> [!TIP]
+> If active users need a different user plan, you can [assign user plans][4] in Settings and maintenance. How to change user plan for active users.
 
 ## The Details tab
 
@@ -70,5 +85,6 @@ In the lower part of the user card, you can activate or deactivate the login rig
 [1]: import-users.md
 [2]: visibility.md
 [3]: role/index.md
+[4]: change-user-plan.md
 
 <!-- Referenced images -->

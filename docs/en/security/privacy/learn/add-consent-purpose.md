@@ -1,15 +1,22 @@
 ---
 uid: help-en-add-consent-purpose
 title: Add consent purpose
-description: Add consent purpose
+description: Learn how to set up the privacy settings for your company.
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.21.2023
 keywords: Settings and maintenance, privacy, consent
-so.topic: help
+so.topic: howto
 language: en
 ---
 
-# Add purpose
+# Set up privacy settings for GDPR - Add purpose
+
+Watch this video and find out how to add and edit purposes for processing personal data, activate default settings for the Legal Basis, and activate the E-marketing privacy settings in mailings (video length - 4:59):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://youtu.be/1e0ZIUwX3IY?list=PL9fefjwA0X290ZZ8bMUHWh_d6s3Y2P0Jr]
+
+## Steps
 
 1. Go to **Settings and maintenance** and click the **Privacy** button in the Navigator (![icon][img2]).
 
@@ -45,7 +52,7 @@ language: en
 
 5. Click **Save** when you are done.
 
-## See also
+## Related
 
 * [Privacy - Legal basis][2]
 * [Privacy - Source][3]

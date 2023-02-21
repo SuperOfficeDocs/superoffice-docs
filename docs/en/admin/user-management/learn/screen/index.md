@@ -3,15 +3,17 @@ uid: help-en-users-screen
 title: Users screen
 description: Users screen
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.21.2023
 keywords: user
-so.topic: help
+so.topic: concept
 language: en
 ---
 
 # Users screen
 
 In the **Users** screen you can add and edit different types of users.
+
+![An overview of the User screen in Settings and maintenance -screenshot][img1]
 
 [**Our companies:**][2] For a person to be registered as a SuperOffice CRM user, this person must be registered with a company displayed in the **Company** list box in the **Users** screen. And for a company to be displayed in the **Company** list box in the **Users** screen, the company must appear on the company list in the **Our companies** tab.
 
@@ -34,3 +36,4 @@ In the **Users** screen you can add and edit different types of users.
 [3]: associates-tab.md
 
 <!-- Referenced images -->
+[img1]: media/admin-users-overview.png

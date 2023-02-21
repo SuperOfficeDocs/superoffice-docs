@@ -1,15 +1,17 @@
 ---
 uid: help-en-users
 title: Users
-description: Users
+description: Learn how to add new users, how to assign the right user roles and groups, and help the users with setup and web tools.
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.21.2023
 keywords: user
 so.topic: concept
 language: en
 ---
 
 # Users
+
+As an administrator you’re in charge of adding and managing your users. In this section you’ll learn how to add new users, how to assign the right user roles and groups, and help the users with setup and web tools.
 
 ## User types
 
@@ -37,8 +39,17 @@ For a person to be registered as a SuperOffice CRM user, this person must be reg
 ## Related content
 
 * [The Users screen][5]
+* [Manage your roles][1]
+* [Add a new user][2]
+* [Change user plans for active users][3]
+* Complete the setup of Service users
+* Set notifications
+* Install Web Tools for your users
 
 <!-- Referenced links -->
+[1]: role/index.md
+[2]: add-associate.md
+[3]: change-user-plan.md
 [4]: role/edit-rights-for-anonymous-users.md
 [5]: screen/index.md
 [6]: ../../license/learn/activate.md
