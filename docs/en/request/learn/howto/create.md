@@ -30,10 +30,6 @@ A request can arrive in the system via an email from the customer, or you can re
 
     In the **To** field, start typing the name (or phone number) of the contact. In the list of search results, use the up/down arrow keys on your keyboard to select a contact and press **ENTER**.
 
-    <details><summary>What if the person is not a registered contact?</summary>
-
-    To register a new contact, click ![icon][img1] in the **Contacts** field in the **Properties** tab.
-
     Optionally, enter an email address to add a recipient without registering them in the system. In this case, they will not be added as contacts for the request.
     </details>
 
@@ -42,13 +38,11 @@ A request can arrive in the system via an email from the customer, or you can re
 
 1. Optional: Click the **Cc/Bcc** button on the far right to add contacts as copy or blind copy.
 
-1. Go to the **Properties panel** on the right-hand side of the screen and enter request iformation like status, owner, [category][10], priority, access level and tags. See [Properties](#properties).
+1. Go to the **Properties panel** on the right-hand side of the screen and enter request information like status, owner, [category][10], priority, access level, and tags. See [Properties](#properties).
 
-1. Go to the **Messages** tab and enter the actual [message](#message) you want to add to the request.
+1. In the **Messages** tab, enter the actual [message](#message) you want to add to the request.
 
-1. Go to the **Invoice information** tab and [enter any invoice lines](#invoice-information).
-
-1. Click **Save** to save the request. See also [Autosave](#autosave).
+1. Click **Send** to save the request.
 
 ## Properties
 
@@ -60,8 +54,7 @@ Here you enter information to correctly assign and prioritise the request.
   * **Postponed**: To postpone handling of this request, select this option and specify a date and time in the **Specified** field or a preset time in the list below. On this date and time, the request is set back to **Open**.
 
 * In the **Owner** field, select one of the following options:
-  * To assign the request to a specific person, select the name you require.
-  * **(Active user)**: Select this option to assign the request to yourself.
+  * To assign the request to a specific person, select the name you require. Select your own name to assign the ticket to yourself.
   * **(Automatically assigned)**: If you select this option, the system assigns the request in accordance with the applicable assignment rules.
   * **(Unassigned)**: You can also choose not to assign the request. The members of the relevant category then become responsible for dealing with the request.
 
