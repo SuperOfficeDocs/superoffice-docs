@@ -1,7 +1,7 @@
 ---
 uid: help-en-languages-add
 title: Work with customer languages
-description: Work with customer languages
+description: Learn how to set up Customer languages in this how-to guide.
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: language
@@ -18,6 +18,8 @@ language: en
 2. Select the **Customer languages** tab.
 
 3. Click the **New customer language** button. This takes you to the **Customer language properties** screen.
+
+    ![You can set up a new language in the Customer language properties dialog -screenshot][img1]
 
 4. In the **Name** field, enter the name of the language to use as label in language-selection fields.
 
@@ -52,3 +54,4 @@ language: en
 [2]: select-language.md
 
 <!-- Referenced images -->
+[img1]: media/customer-centre-language.png
