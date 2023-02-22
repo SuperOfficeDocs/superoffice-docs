@@ -3,13 +3,16 @@ uid: help-en-import-settings
 title: Import settings
 description: Import settings
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance, import
-so.topic: help
+so.date: 02.22.2023
+keywords: import
+so.topic: howto
+so.user: admin
 language: en
 ---
 
 # Configure import settings
+
+Adjusting the import settings will save you time and make it easier to import your data correctly.
 
 [!include[Back up database before import](includes/caution-backup-before-import.md)]
 
@@ -21,6 +24,12 @@ This applies to the following, among other things:
 * Contacts that are not linked to companies.
 * Legal basis and consent source for contacts.
 * Lists: Select the preferred method for managing list elements in the import. For example, new categories, business types and phone numbers, new product categories, product families and product types.
+
+## What to consider before you import your contact or product information
+
+* You can define what the system should do if you import contacts that already exist in SuperOffice CRM. The system can overwrite or skip updating – it’s your choice.
+
+* You can choose to have the system create new categories automatically, if you use a category that doesn’t exist in SuperOffice CRM in your import file.
 
 ## Typical scenarios
 
