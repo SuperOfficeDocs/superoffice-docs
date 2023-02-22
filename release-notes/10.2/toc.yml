@@ -20,6 +20,8 @@ items:
   items:
   - name: 10.2.2 update
     href: marketing/10.2.2-update.md
+  - name: 10.2.3 update
+    href: marketing/10.2.3-update.md
 - name: CEP
   href: cep/index.md
 - name: Mobile
@@ -29,6 +31,8 @@ items:
     href: mobile/10.2.1-update.md
   - name: 10.2.2 update
     href: mobile/10.2.2-update.md
+  - name: 10.2.3 update
+    href: mobile/10.2.3-update.md
 - name: Office integrations
   href: office-integrations/index.md
 - name: API
