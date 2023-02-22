@@ -3,9 +3,10 @@ uid: help-en-manage-status-monitors
 title: Manage status monitors
 description: Manage status monitors
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.22.2023
 keywords: sale, SAINT
-so.topic: help
+so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -13,7 +14,9 @@ language: en
 
 [!include[Requirement](../includes/note-saint-req.md)]
 
-The sections below contain information about how to enable and disable status monitors and how to regenerate statuses and counters. [!include[Define counter](../../../learn/includes/def-counter.md)] See also **Counter fields** in [Use search criteria][1]).
+When you set up multiple status monitors and different periods/counters, it’s important to have a regular check on them to make sure that the counters and statuses are regenerated and updated, and the criteria are correct on the different statuses.
+
+The sections below contain information about how to enable and disable status monitors and how to regenerate statuses and counters. [!include[Define counter](../../../learn/includes/def-counter.md)]
 
 ## General information about updating and regenerating statuses and counters
 
@@ -39,6 +42,10 @@ You must then regenerate these statuses by clicking one of these buttons:
 ## Regenerate counter values
 
 ![icon][img2] **Regenerate all counters**: Click here to regenerate all counters.
+
+## Related
+
+* See **Counter fields** in [Use search criteria][1]
 
 <!-- Referenced links -->
 [1]: ../../../../admin/options/learn/using-search-criteria.md

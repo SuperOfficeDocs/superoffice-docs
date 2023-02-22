@@ -3,9 +3,10 @@ uid: help-en-select-image-for-status
 title: Select image for status
 description: Select image for status
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance, sale, SAINT
-so.topic: help
+so.date: 02.22.2023
+keywords: sale, SAINT
+so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -14,6 +15,8 @@ language: en
 [!include[Requirement](../includes/note-saint-req.md)]
 
 You can select an image to be displayed in SuperOffice CRM on a company card, contact card or project card that fulfils the criteria set for a specific status. The images are displayed as watermarks, so as not to hide the contents of the card.
+
+Adding an image is a good idea as it draws attention and prompts you to take action, every time you come across a company (contact or project) that has this specific status. Use an image that symbolically illustrates the type of action you need to take.
 
 ## Is it a requirement to have an image?
 

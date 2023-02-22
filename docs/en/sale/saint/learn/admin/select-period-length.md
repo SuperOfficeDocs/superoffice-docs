@@ -3,9 +3,10 @@ uid: help-en-select-period-length
 title: Select period length
 description: Select period length
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance, sale, SAINT
-so.topic: help
+so.date: 02.22.2023
+keywords: sale, SAINT, counter
+so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -23,11 +24,15 @@ You can specify the period (duration in days) for the following [counters][1]:
 
 You can specify up to three different periods, so that you can choose between shorter or longer periods for the various SAINT criteria. For example: If you set **Period 1** to 30 days and **Period 2** to 90 days, you can for example choose between the SAINT criteria "Number of sales last 30 days" AND "Number of sales last 90 days".
 
+## Steps
+
 1. Open the **SAINT** screen.
 
 2. Select the **Counters** tab.
 
 3. Under **Counter settings on...** you specify the periods for companies, contacts and projects. The **From** date is displayed next to each period.
+
+    ![Edit the counter settings in the Counters tab -screenshot][img1]
 
     The changes are automatically saved.
 
@@ -39,3 +44,4 @@ You can specify up to three different periods, so that you can choose between sh
 [2]: manage-status-monitors.md
 
 <!-- Referenced images -->
+[img1]: media/admin-saint-counters.png

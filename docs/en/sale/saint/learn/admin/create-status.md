@@ -3,15 +3,24 @@ uid: help-en-saint-status-create
 title: Create new status
 description: Create new status
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.22.2023
 keywords: sale, SAINT
 so.topic: howto
+so.user: admin
 language: en
 ---
 
 # Create a new status
 
 [!include[Requirement](../includes/note-saint-req.md)]
+
+## Why should you create a status monitor?
+
+You want to monitor companies that you have very few activities with, to avoid unhappy customers and churn. With this status monitor, you easily see all the customers who need attention.
+
+![Create a status monitor by clicking the add button on the screen -screenshot][img1]
+
+## Steps
 
 <!-- markdownlint-disable-file MD029 -->
 [!include[Open SAINT](includes/open-saint-select-tab.md)]
@@ -77,3 +86,4 @@ If a company, contact or project has several active statuses, the lower priority
 [img4]: ../../../../../media/icons/admin/red-x.bmp
 [img5]: ../../../../../media/icons/arrow-up.png
 [img6]: ../../../../../media/icons/arrow-down.png
+[img1]: media/admin-saint-company.png

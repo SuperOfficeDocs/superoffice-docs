@@ -3,15 +3,22 @@ uid: help-en-select-default-follow-up-type-for-status
 title: Select default follow-up type for status
 description: Select default follow-up type for status
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance, sale, SAINT
-so.topic: help
+so.date: 02.22.2023
+keywords: sale, SAINT
+so.topic: howto
+so.user: admin
 language: en
 ---
 
 # Select a default follow-up type for a status
 
 [!include[Requirement](../includes/note-saint-req.md)]
+
+## Why set up a default follow-up type?
+
+When you come across a company (contact or project) with a status that requires your attention, you’d be able to click in the middle of the card and a new follow-up will open. This default follow-up could contain text that clearly states what you need to do with a company (contact or project) that has this specific status.
+
+## Steps
 
 You can specify a default follow-up type and descriptive text to be displayed in SuperOffice CRM when the user clicks **Create follow-up** in the status dialog.
 

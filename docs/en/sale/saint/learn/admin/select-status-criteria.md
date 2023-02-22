@@ -3,9 +3,10 @@ uid: help-en-select-status-criteria
 title: Select status criteria
 description: Select status criteria
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance, sale, SAINT
-so.topic: help
+so.date: 02.22.2023
+keywords: sale, SAINT
+so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -15,10 +16,9 @@ language: en
 
 A status is only active for companies, contacts or projects that fulfil all the criteria specified for the status. You must specify one or more criteria for each status you create.
 
-<details><summary>Click here to see some examples of criteria,</summary>
+Spend some time to set up the correct status criteria, as you need to make sure that these criteria accurately filter the group of companies (contacts or projects) that you want to monitor.
 
-[!include[Examples](../../../../learn/includes/status-examples.md)]
-</details>
+## Steps
 
 [!include[Open SAINT](includes/open-saint-select-tab.md)]
 
