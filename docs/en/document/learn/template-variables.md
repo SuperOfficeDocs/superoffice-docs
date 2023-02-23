@@ -1,17 +1,17 @@
 ---
 uid: help-en-template-variables
 title: Template variables
-description: Template variables
+description: With template variables you can personalise and automate the input of customer data
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: document
-so.topic: help
+so.date: 02.23.2023
+keywords: document, template, fariable
+so.topic: concept
 language: en
 ---
 
 # Template variables
 
-Template variables are used to insert data from SuperOffice into emails, quotes, meeting notifications, document templates, and so on. You can use template variables to personalise messages to customers and set up complex quotes.
+Template variables are used to insert data from SuperOffice into emails, quotes, meeting notifications, document templates, and so on. You can use template variables to personalize and automate the input of customer data (or data from contact, sale and other) into your content and set up complex quotes
 
 ## Examples
 
@@ -20,7 +20,7 @@ Here we show you some examples of how to use template variables.
 > [!NOTE]
 > Most of the examples below are available in the default templates in SuperOffice.
 
-### How to personalise an email using template variables
+### How to personalize an email using template variables
 
 Instead of this text:
 
@@ -133,6 +133,16 @@ When you use address variables from the company card, the system will select add
 1. If the **Use as postal address** option is active for a contact in the company, the contact's address data is used.
 2. If the above option is not active, the company's address data is used.
 3. If the company's postal address is empty, the company street address is used.
+
+## Quote template variables
+
+When using quote and products in SuperOffice, you need to set up quote templates and the variables is found in a pdf that also shows how to work with quote templates.
+
+The templates for quote documents, quote details and order confirmations differ from ordinary document templates, as they use "mergefields" in addition to standard template variables.
+
+## Service and Marketing template variables
+
+When generating e-mail templates for requests and mailings (and message templates) in Marketing, you can personalize the email or mailing with template variables. Those variables are slightly different from the ones used in documents.
 
 ## Reference
 

@@ -1,11 +1,12 @@
 ---
 uid: help-en-add-template
 title: Add a template
-description: Add a template
+description: In this how-to guide, you’ll learn how to add a new document template to SuperOffice CRM.
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+so.date: 02.23.2023
+keywords: document, template
+so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -18,6 +19,20 @@ Before you can use templates you created, you must link them to SuperOffice CRM.
 If you create new templates or change a standard template and saved it with a different file name, you must link the templates to SuperOffice CRM, so that the program can find them when you write documents using SuperOffice CRM.
 
 Templates are displayed as items in the **Document - Template** list and you link a template to SuperOffice CRM by entering it as an item in the list.
+
+To make sure everyone in your company uses the same documents, you can create and add your own document templates for different file types.
+
+Here you’ll find all the template variables available in SuperOffice CRM. Use them to personalize and automate the input of customer information to your documents.
+
+Watch this video or follow the guided steps below to learn how you can add a document template in SuperOffice CRM (video length - 2:30):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://youtu.be/FnhcmjP-TgE]
+
+## Steps
+
+> [!TIP]
+> To add new templates, you can easily copy an existing document template file and edit this to fit your needs.
 
 [!include[Edit list item](includes/edit-list-item.md)] when the items are document templates:
 
@@ -87,10 +102,15 @@ Here you can add translated versions of the document template.
 4. Click **Add**. The language is listed in the **Languages** tab.
 5. Repeat the steps above to add additional languages.
 
+## Related
+
+* [How do I upload and use document templates in SuperOffice CRM?][3] - FAQ
+
 <!-- Referenced links -->
 [2]: ../../../document/learn/template-variables.md
 [1]: replace-existing-template.md
 [4]: ../../../sale/saint/learn/index.md
+[3]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-upload-and-use-document-templates-in-superoffice-crm/
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-down.png

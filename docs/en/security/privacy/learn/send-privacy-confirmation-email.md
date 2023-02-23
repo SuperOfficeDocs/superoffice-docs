@@ -64,9 +64,10 @@ The email can also contain a link to a customer centre where the contact can man
 
 ## Related
 
-* Edit the privacy confirmation email in Settings and maintenance
+* [Edit the privacy confirmation email in Settings and maintenance][1]
 
 <!-- Referenced links -->
+[1]: edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

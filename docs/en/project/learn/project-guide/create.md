@@ -3,10 +3,10 @@ uid: help-en-project-guide-create
 title: Create new project guide
 description: How to create a new project guide in SuperOffice
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: project, guide
+so.date: 02.23.2023
+keywords: project, guide, workflow
 so.topic: howto
-so.audience: settings
+so.audience: admin
 so.audience.tooltip: Settings and maintenance
 language: en
 ---
@@ -30,6 +30,8 @@ This procedure shows you how to create a project guide from scratch.
 1. Define [statuses](#create-stage) to include in the project guide.
 2. Define the [project type](#create-type) (with associated statuses) to link the project guide to.
 3. Design the [project guide](#create-guide).
+
+![Go to the Workflow section and create your own project routines in SuperOffice CRM -screenshot][img2]
 
 ## <a id="create-stage" /> Create statuses for the project guide
 
@@ -155,11 +157,19 @@ Planning meeting:
 8. Click **Save**.
 9. Repeat this procedure to add more documents in this or other statuses.
 
+## Related
+
+* [Edit a project guide][5]
+* [Deactivate project guide][6]
+
 <!-- Referenced links -->
 [1]: ../../../document/templates/variables/from-project-card.md
 [2]: ../../../admin/lists/learn/project-status.md
 [3]: ../../../admin/lists/learn/project-type.md
 [4]: ../../../admin/lists/learn/document-template.md
+[5]: edit.md
+[6]: deactivate.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-workflow-active.png
+[img2]: media/create-project-guide.png

@@ -1,15 +1,17 @@
 ---
 uid: help-en-document
 title: Work with documents
-description: Storing all documents in one place helps you and your team to access up-to-date information and stay in control of customer relations. This how-to guide will show you how you can create and store documents in SuperOffice CRM, and how you can send and receive documents directly in your CRM solution.
+description: This how-to guide will show you how you can create and store documents in SuperOffice CRM, and how you can send and receive documents directly in your CRM solution.
 author: SuperOffice RnD
-so.date: 02.10.2023
+so.date: 02.23.2023
 keywords: document
-so.topic: help
+so.topic: concept
 language: en
 ---
 
 # Work with documents
+
+Storing all documents in one place helps you and your team to access up-to-date information and stay in control of customer relations.
 
 ![icon][img1]
 
@@ -28,6 +30,26 @@ Documents can be letters, quotations or memos, and they can be displayed in seve
 
 > [!TIP]
 > To open and examine an existing document, double-click the required row on the section tab.
+
+## Standardize your documents
+
+When working with customers, there are often documents that you create and send out repeatedly. Usually they contain the same basic elements, but different content. By creating your own templates, you can be certain that the documents your employees create all look the same.
+
+You can add any type of document template to SuperOffice CRM, whether it’s a contract, a quotation, a project description, or your own version of the Privacy confirmation email.
+
+Creating templates for frequently used documents and making them available for everyone will save your CRM users’ time and ensure the unified look across your organization.
+
+In SuperOffice CRM, you can easily create document templates for Word, Email, Excel, PowerPoint and other file types.
+
+### Benefits of creating document templates
+
+* Everyone saves time whenever they create a new document, as they don’t have to enter information that is typically repeated in each document, like customer name, address and so on. By using template variables, SuperOffice CRM will automatically add the customer’s information when you create your next document.
+
+* You make sure that your contacts receive documents that have a unified, professional look, including your logo and corporate identity.
+
+* You ensure that all users can access and use legal text that is important to your business, such as terms and conditions and similar.
+
+* You can even create lists and find companies that have a document template in common.
 
 ## How SuperOffice CRM selects the correct language template
 
@@ -62,7 +84,7 @@ To ensure that you can communicate with your clients in their own language (wher
 [5]: send-as-email.md
 [6]: delete.md
 [7]: lock.md
-[8]:
+[8]: ../../email/mail-link/learn/archive.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/document-h32.png

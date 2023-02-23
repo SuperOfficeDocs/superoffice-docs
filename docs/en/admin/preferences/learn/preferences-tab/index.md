@@ -1,11 +1,11 @@
 ---
 uid: help-en-preferences-tab
 title: Preferences tab
-description: Preferences tab
+description: Administrators can set preferences for various functions in the system for specific users, user groups, or for the entire SuperOffice CRM (global preferences).
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+so.date: 02.23.2023
+keywords: preference, setting
+so.topic: concept
 language: en
 ---
 
@@ -29,6 +29,27 @@ The rest of the **Preferences** tab is divided into three main sections:
 
 * At the top right, the description field shows a description of the preference currently selected in the **Preferences** list.
 * Below, the **Active settings** field shows the settings specified for the preference currently selected in the **Preferences** list. See [Active settings][2].
+
+## Groups of preferences
+
+* Contact
+* Default values
+* Diary
+* Email
+* Filter Dialog
+* Free-text search
+* Functions
+* Grouped lists
+* Marketing
+* Notifications via email + popup + SMS
+* Request
+* Sale
+* Sorting
+* System
+* Tooltip
+* Visual effects
+* Web server
+* Web Services
 
 ## Related topics
 

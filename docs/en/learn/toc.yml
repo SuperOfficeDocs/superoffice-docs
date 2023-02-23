@@ -107,7 +107,7 @@ items:
     - name: Privacy
       href: ../security/privacy/learn/toc.yml
     - name: Quote/Sync
-      href: ../quote/learn/quote-sync/toc.yml  
+      href: ../quote/learn/admin/toc.yml  
 
     - name: Workflow
       items:

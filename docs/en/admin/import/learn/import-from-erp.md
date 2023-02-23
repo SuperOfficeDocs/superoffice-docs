@@ -56,7 +56,7 @@ Above each list is a link to the selection containing the new/updated actors.
 
 <!-- Referenced links -->
 [1]: ../../options/learn/using-search-criteria.md
-[2]: ../../../quote/learn/quote-sync/sync/index.md
+[2]: ../../../quote/learn/admin/sync/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/admin/import-erp-small.bmp

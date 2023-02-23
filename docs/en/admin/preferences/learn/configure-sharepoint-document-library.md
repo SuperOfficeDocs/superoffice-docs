@@ -20,7 +20,7 @@ When you are finished and have confirmed that you will use SharePoint, the state
 
 It is possible to change some of the settings in the Wizard later
 
-**Steps:**
+Steps:**
 
 1. [!include[Open preferences](includes/open-preferences.md)]
 2. Select the **Document library** tab.

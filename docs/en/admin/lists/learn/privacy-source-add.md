@@ -1,11 +1,12 @@
 ---
 uid: help-en-privacy-source-add
-title: Privacy Source add
-description: Privacy Source add
+title: Add items to the Privacy - Source list
+description: Add items to the Privacy - Source list
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance, privacy, consent
-so.topic: help
+so.date: 02.23.2023
+keywords: privacy, consent
+so.topic: howto
+so.user: admin
 language: en
 ---
 
