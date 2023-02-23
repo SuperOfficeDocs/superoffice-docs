@@ -1,17 +1,22 @@
 ---
 uid: help-en-request-create
-title: ticket newTicket
-description: ticket newTicket
+title: Create a request
+description: Create a request
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.20.2023
 keywords: request
-so.topic: help
+so.topic: howto
 language: en
 ---
 
 # Create a request
 
 A request can arrive in the system via an email from the customer, or you can register it manually via the **New request** screen. This would be the case if a customer makes an enquiry by phone.
+
+In this video, you can see how you can add and edit any of the lists available as tags. The example used in this video is of the Company - Category list which has similar setup as Tag (video length - 3:00):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://youtu.be/2fIAT0-EjX0]
 
 ## Workflow
 
