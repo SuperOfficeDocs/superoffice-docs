@@ -2,6 +2,10 @@ items:
 - name: Introduction
   href: index.md
   items:
+  - name: 10.2.1 update summary
+    href: 10.2.1-update.md
+  - name: 10.2.2 update summary
+    href: 10.2.2-update.md
   - name: 10.2.3 update summary
     href: 10.2.3-update.md
 - name: Core CRM
@@ -16,6 +20,8 @@ items:
     href: admin/10.2.1-update.md
   - name: 10.2.2 update
     href: admin/10.2.2-update.md
+  - name: 10.2.3 update
+    href: admin/10.2.3-update.md
 - name: Service
   href: service/index.md
 - name: Marketing
