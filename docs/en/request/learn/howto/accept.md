@@ -14,7 +14,7 @@ language: en
 This is particularly relevant for unassigned requests (those without a defined owner). To take over a request, it is important to follow the procedure below to identify that you have taken it over. Otherwise there is a risk of others answering the request at the same time.
 
 1. [Open the request][1].
-2. Accept:
+1. Accept:
 
     * Click the ![icon][img1] **Task** button and select **Accept**. Or,
     * In the **Owner** field, select yourself.

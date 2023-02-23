@@ -38,35 +38,31 @@ A request can arrive in the system via an email from the customer, or you can re
 
 1. Optional: Click the **Cc/Bcc** button on the far right to add contacts as copy or blind copy.
 
-1. Go to the **Properties panel** on the right-hand side of the screen and enter request information like status, owner, [category][10], priority, access level, and tags. See [Properties](#properties).
+1. Go to the **Properties panel** on the right-hand side of the screen and enter information to correctly assign and prioritise the request.
+
+   * In the **Status** list box, choose one of the following:
+     * **Open**: Select this option if the request is in progress.
+     * **Closed**: Select this option if the request is completed.
+     * **Postponed**: To postpone handling of this request, select this option and specify a date and time in the **Specified** field or a preset time in the list below. On this date and time, the request is set back to **Open**.
+
+   * In the **Owner** field, select one of the following options:
+     * To assign the request to a specific person, select the name you require. Select your own name to assign the ticket to yourself.
+     * **(Automatically assigned)**: If you select this option, the system assigns the request in accordance with the applicable assignment rules.
+     * **(Unassigned)**: You can also choose not to assign the request. The members of the relevant category then become responsible for dealing with the request.
+
+   * In the **Category** field, and select the category you want from the list that appears.
+
+   * In the **Priority** list box, you can choose between **Low**, **Medium** and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels][3] set for different contacts and companies.
+
+   * In the **Access level for request** list box, select one of the following options:
+     * **External**: Select this option if the contact is to have access to the request via SuperOffice Customer Centre.
+     * **Internal**: Select this option if the contact is not to have access to the request. The request will be listed in SuperOffice Customer Centre, but the contact cannot view the request details or messages.
+
+   * In the **Tags** list box, [select relevant tags][4] for this request.
 
 1. In the **Messages** tab, enter the actual [message](#message) you want to add to the request.
 
 1. Click **Send** to save the request.
-
-## Properties
-
-Here you enter information to correctly assign and prioritise the request.
-
-* In the **Status** list box, choose one of the following:
-  * **Open**: Select this option if the request is in progress.
-  * **Closed**: Select this option if the request is completed.
-  * **Postponed**: To postpone handling of this request, select this option and specify a date and time in the **Specified** field or a preset time in the list below. On this date and time, the request is set back to **Open**.
-
-* In the **Owner** field, select one of the following options:
-  * To assign the request to a specific person, select the name you require. Select your own name to assign the ticket to yourself.
-  * **(Automatically assigned)**: If you select this option, the system assigns the request in accordance with the applicable assignment rules.
-  * **(Unassigned)**: You can also choose not to assign the request. The members of the relevant category then become responsible for dealing with the request.
-
-* In the **Category** field, and select the category you want from the list that appears.
-
-* In the **Priority** list box, you can choose between **Low**, **Medium** and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels][3] set for different contacts and companies.
-
-* In the **Access level for request** list box, select one of the following options:
-  * **External**: Select this option if the contact is to have access to the request via SuperOffice Customer Centre.
-  * **Internal**: Select this option if the contact is not to have access to the request. The request will be listed in SuperOffice Customer Centre, but the contact cannot view the request details or messages.
-
-* In the **Tags** list box, [select relevant tags][4] for this request.
 
 ## <a id="message" />Message
 
@@ -77,39 +73,32 @@ Here you type in the message you want to add to the request. This works in the s
 
 The section at the bottom contains the following options:
 
-* ![icon][img2] – Click here to show or hide the toolbar in the message editor
-* ![icon][img3] – Click here to show the attachments options. Here you can add relevant documents as attachments to the request.
+* ![icon][img1] – Click here to show or hide the toolbar in the message editor
+* ![icon][img2] – Click here to show the attachments options. Here you can add relevant documents as attachments to the request.
   * Click **Upload files (or drag here)** to browse to and add a file from a disk or server.
   * Drag and drop a file from Windows Explorer to the attachments field.
   * Click **Choose a CRM document** to select a document in SuperOffice CRM.
-* **Insert**: Click the list button ![icon][img4], and select what to insert in the message. You can add a reply template, an FAQ entry, a previous message, or an attachment. Optional: You can also [add reply templates in other languages][7]. Select a language in the language list. If available, the text will be inserted in the selected language. Otherwise the default language will be used.
+* **Insert**: Click the list button ![icon][img3], and select what to insert in the message. You can add a reply template, an FAQ entry, a previous message, or an attachment. Optional: You can also [add reply templates in other languages][7]. Select a language in the language list. If available, the text will be inserted in the selected language. Otherwise the default language will be used.
 * **Internal/External**: Here you can select **External** if the contact is to have access to the message via SuperOffice Customer Centre, or **Internal** if the contact is not to have access to the message.
-* **Time spent**: Here you can record how much time was spent dealing with the message. The clock starts automatically when you create the request. You can stop the clock by clicking the stop button ![icon][img5], and also re-start the clock by clicking the start button ![icon][img6]. Click ![icon][img7] (**Select time span**) button to register time spent.
+* **Time spent**: Here you can record how much time was spent dealing with the message. The clock starts automatically when you create the request. You can stop the clock by clicking the stop button ![icon][img4], and also re-start the clock by clicking the start button ![icon][img5]. Click ![icon][img6] (**Select time span**) button to register time spent.
 
 > [!NOTE]
 > The default request signature will be added to the message. You can edit the signature directly or
 
-## <a id="invoice" />Invoice information
+## <a id="details" />Details
 
-> [!NOTE]
-> The invoice feature is only available if you have registered [invoice types][8] and have the required feature toggle.
+The **Details** tab contains further details on the request. Here you will find information like when the request was created, when it was last changed, closed or replied to, and when it was read by the owner or contact. This information is updated automatically during the lifespan of the request, but there are some fields that can be edited when the request is created:
 
-Here you can add invoice lines as internal information for the request.
-
-1. In the list box at the top left, select the type of invoice. The price is updated in accordance with the invoice you select.
-1. In the **Description** field, enter a more detailed description of what the invoice line relates to.
-1. In the next fields, enter the unit price, quantity, any discount (percent or amount) and the date.
-1. Click ![icon][img1] to add the invoice line.
-
-## Extra fields
-
-This tab contains any extra fields defined for requests. These will vary from company to company.
+* **Relation**: Here you can choose to link the request to another request, if the new request is related to another existing one.
+* **Access level**: This is another way to set the access level for the request. This can also be done on the **Properties panel**. If you change the access level here, it will change automatically on the **Properties panel** as well.
+* **Sale**: Here you can link the request to an existing sale by searching for the sale you want or selecting it from the list.
+* **Project**: Here you can link the request to an existing project by searching for the project you want or selecting it from the list.
 
 ## Autosave
 
 Whenever you are working on a request and suddenly receive a more urgent request, you’ll have to leave the request you are working on to solve the prioritised request.
 
-The autosave function will automatically save your changes until you click **Save** to send or cancel the changes to your request.
+The autosave function will automatically save your changes until you click **Send** or cancel the changes to your request.
 
 Autosaved information is placed in the local storage of your browser, so your data will even survive a browser crash, reboot, logout and login.
 
@@ -126,22 +115,19 @@ The autosave feature is activated by default when you view and edit requests and
 
 ## What would you like to do now?
 
-* [Process requests][9]
+* [Process requests][8]
 
 <!-- Referenced links -->
 [3]: ../priority/escalation-levels.md
 [4]: ../tags.md
 [6]: ../../../ui/blogic/learn/screen-properties.md
 [7]: ../../../service/reply-templates/learn/new-language.md
-[8]: ../invoice/index.md
-[9]: index.md
-[10]: ../category/index.md
+[8]: index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-add.png
-[img2]: ../../../../media/icons/service/msg-toolbar.png
-[img3]: ../../../../media/icons/service/msg-attachment.png
-[img4]: ../../../../../common/icons/dropdown-arrow.png
-[img5]: ../../../../../common/icons/stop.png
-[img6]: ../../../../../common/icons/play.png
-[img7]: ../../../../../common/icons/timespan.png
+[img1]: ../../../../media/icons/service/msg-toolbar.png
+[img2]: ../../../../media/icons/service/msg-attachment.png
+[img3]: ../../../../../common/icons/dropdown-arrow.png
+[img4]: ../../../../../common/icons/stop.png
+[img5]: ../../../../../common/icons/play.png
+[img6]: ../../../../../common/icons/timespan.png
