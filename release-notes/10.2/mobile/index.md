@@ -13,7 +13,9 @@ so.topic: reference
 
 * [Custom tasks in Mobile CRM (10.2.1)][1]
 * [Custom tasks with CRMScript (10.2.2)][2]
+* [Floating + new-button, Create SharePoint documents (10.2.3)][3]
 
 <!-- Referenced links-->
 [1]: 10.2.1-update.md
 [2]: 10.2.2-update.md
+[3]: 10.2.3-update.md

@@ -13,6 +13,8 @@ so.topic: reference
 
 * Nothing new in release 10.2.1
 * [Email domain validation (10.2.2)][1]
+* [Mailing Magic AI on heading, button and image (10.2.3)][2]
 
 <!-- Referenced links-->
 [1]: 10.2.2-update.md
+[1]: 10.2.3-update.md
