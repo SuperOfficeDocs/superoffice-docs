@@ -3,7 +3,7 @@ title: Custom objects
 uid: help-en-custom-objects
 description: Custom objects
 author: Bergfrid Dias
-so.date: 09.13.2022
+so.date: 02.23.2023
 keywords: custom object
 so.topic: concept
 so.version: 10
@@ -14,10 +14,36 @@ so.client:
 
 # Custom objects
 
+A good example of a custom field you can use on the customer’s Contact card is a field called “Satisfied customer”, where the value of the field is Yes or No.
+
+For example, you can send your customers a mailing (with link actions) where they can state whether they are satisfied with your services. This will give you valuable insight into the general customer satisfaction rate.
+
+Of course, you can add a wide range of tables and fields to SuperOffice Service to save any information your customer service agents need.
+
+![In the Tables screen, you can either choose to (a) create an extra field or (b) create a new table -screenshot][img1]
+
 ## Custom fields
+
+All companies and organizations have their own requirements for the information they need to register. This could be for customers, sales, projects, and so on. As an administrator, you can add your own fields in Settings and maintenance.
 
 * [User-defined fields][1]
 * [Extra fields][2]
+
+### The benefits of adding fields
+
+Using the Find function, you can search for the information you register in these fields and make selections.
+
+For example, if you register the expiry date of the maintenance agreement that you have with customers, you can create a dynamic selection that shows the customers for which the agreement expires in less than one month.
+
+You can reuse the information from these fields in documents and emails using template variables. Each field that you add gets its own unique ID (Prog ID), which can be used in documents to merge customer-specific information.
+
+So, if you want to send an email to your customers that says that their maintenance agreement will expire soon, you can use the template variable for expiry date to show the correct expiry date of their agreement in the message.
+
+### Positioning
+
+Any custom screen layouts (created in the Screen Designer) using screen designer may override the settings on fields.
+
+If you don't have license to Configurable screens, use the rank of the different fields.
 
 ## Extra tables
 
@@ -36,3 +62,4 @@ so.client:
 [5]: ../../ui/screen-designer/learn/index.md
 
 <!-- Referenced images -->
+[img1]: media/create-extra-tables-and-fields.png

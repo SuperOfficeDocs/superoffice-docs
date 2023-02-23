@@ -5,7 +5,7 @@ description: Define extra fields
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: extra field, custom field
-so.topic: help
+so.topic: howto
 language: en
 ---
 

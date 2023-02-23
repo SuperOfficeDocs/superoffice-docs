@@ -23,6 +23,13 @@ This screen displays both standard tables (predefined in the system and form the
 > [!NOTE]
 > If your company uses SuperOffice CRM, you will see a message that NetServer must be restarted every time you add new fields or tables. If Travel is activated, you will also see a message that a new Travel database must be generated.
 
+## Where to find the screen
+
+There are two ways of accessing the Tables screen:
+
+* In SuperOffice Settings and maintenance, click **System design** in the navigator and select the **Tables** tab.
+* In SuperOffice Service, select **System settings** > **System design** > **Tables**.
+
 ## Table folder properties
 
 This screen is used to edit the properties of a new or existing table folder. Table folders are used to organize your custom tables.

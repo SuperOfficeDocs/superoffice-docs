@@ -1,11 +1,11 @@
 ---
-uid: help-en-screendesigner-edit-layout
-title: ScreenDesigner Edit layout
-description: ScreenDesigner Edit layout
+uid: help-en-screen-designer-edit-layout
+title: Edit main cards layout
+description: In this how-to guide, you’ll learn how to edit a layout.
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: screen designer, layout, field
+so.topic: howto
 language: en
 ---
 
@@ -13,7 +13,13 @@ language: en
 
 When you have [created a new layout][4], it is time to customize it according to the needs of the assigned user group(s). If you are customizing a layout for the sales team, you should have a clear plan of what their needs are with regards to the layout and formatting of the tabs, fields, elements and columns on the main card. Which information should be first and easiest to find? Do they need all fields and tabs? What is the logical order of the fields?
 
-**Steps:**
+Personalize the layout for the main cards and archives to match your organization’s information needs. In this how-to guide, you’ll learn how to edit a layout.
+
+When you edit the layout on a main card, you can add and remove fields, or rearrange the order to fit your team's needs. First, you need to know what information is most important for the team.
+
+Watch this video and find out how to use the screen designer to configure your screens in SuperOffice CRM or follow the step-by-step guide below (video length - 6:41):
+
+## Steps
 
 [!include[Go to screen designer](includes/goto-screen-designer.md)]
 
@@ -42,6 +48,8 @@ When you have [created a new layout][4], it is time to customize it according to
     * Delete fields by holding the mouse-pointer over a field and clicking ![icon][img2]. Deleted fields can be re-added from the **Fields** section. Mandatory fields cannot be deleted, and the **Delete** button will not appear for such fields. See [Fields](#fields).
 
     * Edit field formatting (such as font format) and other settings by clicking the field. The **Settings** section opens in the left part of the window. See [Settings](#settings).
+
+    ![Remove, add and move the different fields in the layout -screenshot][img3]
 
 3. [Change the number of columns in a tab](#columns) from the **Columns** section.
 
@@ -152,3 +160,4 @@ If you need to revert to an earlier version of the screen, you can access the fo
 [img2]: ../../../../../common/icons/delete-circle-red.png
 [img4]: ../../../../media/icons/criteria-move.png
 [img5]: ../../../../../common/icons/add-icon.png
+[img3]: media/edit-the-screen-layout-of-companies-and-contacts.png

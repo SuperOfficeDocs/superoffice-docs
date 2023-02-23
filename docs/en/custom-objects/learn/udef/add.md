@@ -3,13 +3,21 @@ uid: help-en-udef-add
 title: Adding fields
 description: Adding fields
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: udef, custom field
-so.topic: help
+so.date: 02.23.2023
+keywords: udef, user-defined, custom field
+so.topic: howto
+so.user> admin
 language: en
 ---
 
 # Add user-defined field
+
+Watch this video to find out how you can create your own extra fields in SuperOffice CRM (video length - 2:51):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://youtu.be/SpeZVxpxeMM]
+
+## Steps
 
 [!include[Go to fields and select tab](includes/goto-fields.md)]
 
@@ -66,6 +74,7 @@ Four of each type of field (Short text, Long text, Number, Decimal) are searchab
 * [Edit fields][4]
 * [Edit the TAB order of fields][5]
 * [Maximum number of fields][1]
+* [Screen designer][7]
 
 <!-- Referenced links -->
 [1]: limitations.md
@@ -74,6 +83,7 @@ Four of each type of field (Short text, Long text, Number, Decimal) are searchab
 [4]: edit.md
 [5]: change-tab-order.md
 [6]: index.md#field-types
+[7]: ../../../ui/screen-designer/learn/index.md
 
 <!-- Referenced links -->
 [img1]: ../../../../media/icons/admin/fields-unpublish-new.png
