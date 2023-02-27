@@ -3,8 +3,8 @@ uid: help-en-find-dialog
 title: Find dialog
 description: Find dialog
 author: SuperOffice RnD
-so.date: 02.15.2023
-keywords: CRM
+so.date: 02.27.2023
+keywords: search, find
 so.topic: howto
 language: en
 ---

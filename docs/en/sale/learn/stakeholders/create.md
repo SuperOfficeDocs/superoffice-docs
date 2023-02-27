@@ -57,7 +57,7 @@ language: en
     > You can select multiple companies and/or contacts on the right side of the window by holding down **CTRL** or **SHIFT** as you select. Changes you then make in the **Sales role** field and **Comments** text box will apply to all the selected companies/contacts.
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/find-dialog.md
+[1]: ../../../search-options/learn/find-screen.md
 [2]: ../../../project/learn/project-members/add.md
 [3]: ../../../contact/learn/create.md
 

@@ -5,7 +5,7 @@ description: Document dialog
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: document
-so.topic: help
+so.topic: concept
 language: en
 ---
 
@@ -14,7 +14,7 @@ language: en
 The central feature of the document function is the **Document** dialog, which you can open in different ways:
 
 * By selecting **New** > **Document**.
-* By opening an existing document][1].
+* By [opening an existing document][1].
 
 The dialog consists of a main section with general information about the document, and the following tabs with additional information:
 

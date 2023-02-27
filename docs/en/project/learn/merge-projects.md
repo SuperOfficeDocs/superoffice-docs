@@ -44,7 +44,7 @@ If you have two nearly identical projects, it is possible to merge them, includi
 * [Merge companies][2]
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/find-dialog.md
+[1]: ../../search-options/learn/find-screen.md
 [2]: ../../company/learn/merge-companies.md
 [3]: edit.md
 

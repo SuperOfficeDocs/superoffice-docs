@@ -38,7 +38,7 @@ language: en
 * [Add members to static selections][3]
 
 <!-- Referenced links -->
-[1]: ../../../learn/find-dialog.md
+[1]: ../../../learn/find-screen.md
 [2]: ../../../learn/using-search-criteria.md
 [3]: add-members-to-static.md
 

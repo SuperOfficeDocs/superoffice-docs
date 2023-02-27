@@ -72,7 +72,7 @@ You can add project members and stakeholders from the contact lists in different
 
 <!-- Referenced links -->
 [2]: ../../../contact/learn/create.md
-[3]: ../../../search-options/learn/find-dialog.md
+[3]: ../../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.bmp

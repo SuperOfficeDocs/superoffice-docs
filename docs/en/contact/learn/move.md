@@ -39,7 +39,7 @@ You can move a contact - including their activities and memberships - from one c
 <!-- Referenced links -->
 [1]: ../../search-options/learn/using-fastsearcher.md
 [2]: ../../search-options/learn/using-history-list.md
-[3]: ../../search-options/learn/find-dialog.md
+[3]: ../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->
 [img2]: ../../../media/icons/btn-menu.png

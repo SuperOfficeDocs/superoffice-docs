@@ -154,7 +154,7 @@ The criteria lists contain a set of default criteria you can edit or remove as r
 * [Use the Find screen][1]
 
 <!-- Referenced links -->
-[1]: find-dialog.md
+[1]: find-screen.md
 [2]: using-fastsearcher.md
 
 <!-- Referenced images -->

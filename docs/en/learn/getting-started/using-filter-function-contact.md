@@ -55,7 +55,7 @@ Click **Show count** at the bottom right of the section tab, to see how many rec
 * [Grouping lists][3]
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/find-dialog.md
+[1]: ../../search-options/learn/find-screen.md
 [2]: use-filters-in-section-tabs.md
 [3]: sections-tabs-grouping-lists.md
 

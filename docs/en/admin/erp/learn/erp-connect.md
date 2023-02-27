@@ -43,7 +43,7 @@ You can connect a SuperOffice company to a customer/supplier in the ERP system. 
 * [Disable synchronization][3]
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/find-dialog.md
+[1]: ../../../search-options/learn/find-screen.md
 [2]: erp-create-new-actor.md
 [3]: erp-sync-disconnect.md
 

@@ -130,7 +130,7 @@ Watch this video or follow the steps below to learn how you can create a search 
 * Broaden your search using the OR function
 
 <!-- Referenced links -->
-[1]: find-dialog.md
+[1]: find-screen.md
 [2]: freetext-search.md
 [3]: using-fastsearcher.md
 [4]: ../../learn/getting-started/fav.md

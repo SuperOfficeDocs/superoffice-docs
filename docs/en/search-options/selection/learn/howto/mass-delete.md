@@ -106,7 +106,7 @@ You’ll find the Recycle bin in your personal Preferences menu. You can see all
 * [Bulk update contact info][5]
 
 <!-- Referenced links -->
-[1]: ../../../learn/find-dialog.md
+[1]: ../../../learn/find-screen.md
 [2]: https://community.superoffice.com/no/learning/best-practices-tips/standard-crm/saint-proactive-customer-follow-up/
 [3]:
 [4]: ../../../../learn/getting-started/recycle-bin.md

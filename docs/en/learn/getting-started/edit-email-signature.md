@@ -3,7 +3,7 @@ title: Edit email signature
 uid: help-en-edit-email-signature
 description: Edit email signature
 author: Bergfrid Dias
-so.date: 09.14.2022
+so.date: 02.27.2023
 keywords: email, signature
 so.topic: howto
 so.version: 10
@@ -27,8 +27,12 @@ so.client:
 8. Click **Save** when you are done.
 9. Optional: Test the signature by sending an email to yourself or by creating a new request. Check that all information is displayed correctly, and the links work and images are displayed as intended.
 
-<!-- Referenced links -->
+## Related Topics
 
+* [Change default mail client in SuperOffice][1]
+
+<!-- Referenced links -->
+[1]: ../../email/learn/change-default-mail-client.md
 [3]: ../../document/templates/variables/for-selected-contact.md
 
 <!-- Referenced images -->

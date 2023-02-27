@@ -3,7 +3,7 @@ uid: help-en-customer-center-config
 title: Customer centre configuration
 description: Learn how to configure your Customer centre in this how-to guide.
 author: SuperOffice RnD
-so.date: 02.22.2023
+so.date: 02.27.2023
 keywords: Service, Customer centre, CEP
 so.topic: howto
 language: en
@@ -13,11 +13,11 @@ language: en
 
 [!include[Requirement](../../../learn/includes/req-cep.md)]
 
-In the **Customer centre configuration** screen, you can edit the styling and layout of your customer centre. You can see your changes in the preview on the right side of the screen.
+You can edit the styling and layout of your customer centre and preview the changes.
 
 ![Set up the chat widget on your Customer centre so that customers can chat with you while they visit your website -screenshot][img2]
 
-If multiple languages are configured for your customer centre, you can set the options individually for each language. Options such as welcome text, opening hours and phone numbers can be specified for each language.
+If your customer centre is multi-lingual, you can set options (such as welcome text, opening hours, and phone numbers) individually for each language.
 
 > [!NOTE]
 > To edit the HTML code for the various pages, [update the source files][1].
@@ -26,20 +26,17 @@ If multiple languages are configured for your customer centre, you can set the o
 
 You can configure your Customer Centre either in Settings and maintenance or in SuperOffice Service.
 
-1. Click **Customer centre** in the navigator and select the **Configure** tab. On the **Customer centre** screen you’ll see two tabs, one for **Styling** and one for **Options**. At the top of this page, you’ll find a link to the Customer Centre page where you can preview your Customer Centre.
-
-    > [!TIP]
-    > You can also access the **Customer centre** screen from SuperOffice Service: Select ![icon][img1] **System settings** > **Customer centre config**.
+1. Select ![icon][img1] **Settings and maintenance** > **Customer centre** > **Configure**. On the **Customer centre** screen you’ll see two tabs, one for **Styling** and one for **Options**. At the top of this page, you’ll find a link to the Customer Centre page where you can preview your Customer Centre.
 
 2. In the **Styling** tab, you can edit various settings for the look and feel of the customer centre: Logo, preferred width, colors and fonts. The preview is updated automatically.
 
     ![You check the preview on your Customer centre to see what it will look like -screenshot][img3]
 
-3. Go to the **Options** tab. Here you can edit the options for each language version of the customer centre.
+3. Go to the **Options** tab.
 
-4. Start page options: Select the language version you want to edit.
+4. Select the language version you want to edit.
 
-5. Edit the various options. See details about each option below.
+5. Edit the options. See details about each option below.
 
 6. Click **Save**.
 

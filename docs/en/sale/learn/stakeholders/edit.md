@@ -40,7 +40,7 @@ You can edit the details in the **Sales role** and **Comment** field for stakeho
 To remove one or more stakeholders from the sale, select them and click the **Remove** button below the section tab. In the dialog that appears, click **Yes**.
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/find-dialog.md
+[1]: ../../../search-options/learn/find-screen.md
 [2]: create.md
 
 <!-- Referenced images -->

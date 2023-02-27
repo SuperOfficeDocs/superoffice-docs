@@ -31,7 +31,7 @@ You move between the main sections of SuperOffice CRM and Service using the Navi
 | ![icon][img11] | Opens the **Chat** screen, where you can respond to inquiries sent via the chat feature on you company's web page. | [Chat][9] |
 | ![icon][img12] | Opens the **Reports** screen. In this report generator you will find a set of standard reports, which you can use to print reports based on data from SuperOffice CRM. | [Reports][10] |
 | ![icon][img13] | Opens the **Marketing** screen. From here you can create and send mailings (emails, SMS and documents) and create and publish forms. | [Marketing][11] |
-| ![icon][img14] | Opens **Service**, a web-based system for handling customer requests. This application requires a Service User license. | [SuperOffice Service][12] |
+| ![icon][img14] | Opens **Service** (legacy) | |
 | ![icon][img15] | Opens a menu that gives you access to external applications and websites. The items available to you are defined in SuperOffice Settings and maintenance. | |
 
 ## The navigator in Service
@@ -108,7 +108,6 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [9]: ../../../chat/learn/index.md
 [10]: ../../../reports/learn/index.md
 [11]: ../../../marketing/learn/index.md
-[12]: ../about-service.md
 [15]: ../fav.md
 [31]: ../../../request/learn/index.md#customers
 [32]: ../../../search-options/selection/learn/in-service/index.md

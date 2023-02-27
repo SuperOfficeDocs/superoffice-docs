@@ -79,7 +79,7 @@ Choose the wanted chart type and the settings needed. The output of the tile is 
 [2]: ../../search-options/selection/learn/howto/display-as-charts.md
 [3]: remove-tile.md
 [4]: ../../search-options/learn/using-search-criteria.md
-[5]: ../../search-options/learn/find-dialog.md
+[5]: ../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->
 [img1]: media/dashboard-add-tile-sale.png

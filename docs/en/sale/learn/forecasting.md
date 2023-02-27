@@ -107,7 +107,7 @@ You’ve now created a list containing all open sales worth over €5000 made th
 [2]: ../../dashboard/learn/index.md
 [3]: ../../reports/learn/index.md
 [4]: ../../reports/learn/search-criteria/index.md
-[5]: ../../search-options/learn/find-dialog.md
+[5]: ../../search-options/learn/find-screen.md
 [6]: ../../search-options/selection/learn/howto/display-as-charts.md
 [7]:  ../../dashboard/learn/show-sales-targets.md
 
