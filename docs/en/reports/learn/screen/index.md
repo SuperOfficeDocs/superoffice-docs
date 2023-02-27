@@ -22,7 +22,7 @@ Each tab consists of the following:
 
 * A report description to make it easy to find out information about the selected report. If the report is on your favorites list, you can amend this description.
 
-* A thumbnail of the report. [The thumbnail][1] is located on the far right of the **Reports** screen and indicates the selected report type: label, list, group list, cross table, calendar or text export.
+* A thumbnail of the report. [The thumbnail][1] is located on the right side of the **Reports** screen and indicates the selected report type: label, list, group list, cross table, calendar or text export.
 
 * A [criteria list](#criteria) where you can add, edit and delete criteria and display the criterion/criteria specified for the report.
 

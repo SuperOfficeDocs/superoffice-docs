@@ -14,7 +14,7 @@ language: en
 The main screen in SuperOffice CRM consists of five main elements:
 
 * **The Navigator**
-    The vertical row of buttons on the far left of the screen is called [the Navigator][1]. These buttons make it easy to navigate around in SuperOffice CRM.
+    The vertical row of buttons along the left edge of the screen is called [the Navigator][1]. These buttons make it easy to navigate around in SuperOffice CRM.
 
 * **The Top bar**
     At the very top of the screen is the Top bar. The [buttons on the menu bar][2] gives fast and easy access to creating new records and activities, and managing personal settings and various system options.

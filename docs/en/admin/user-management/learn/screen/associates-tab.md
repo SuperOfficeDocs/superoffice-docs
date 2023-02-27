@@ -28,7 +28,7 @@ By default, the list in the **Associates** tab consists of the following columns
 
 ## User information
 
-On the right-hand side of the window, there is detailed information about the user selected in the list of associates.
+On the rightmost side of the window, there is detailed information about the user selected in the list of associates.
 
 The full name, email address and owning company is displayed at the top. At the bottom of this section, you can activate/deactivate the user in SuperOffice using the **Can log in** button. Click the **Task** button to access functions such as **Move user** and for sending welcome emails and emails for resetting passwords.
 

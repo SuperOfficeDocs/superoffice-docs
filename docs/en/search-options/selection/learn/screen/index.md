@@ -30,7 +30,7 @@ The appearance of the list of members varies slightly depending on what the sele
 | Mailings | Create a mailing to contacts in a selection. [View the mailings](#mailing) that are archived on this selection. |
 
 > [!TIP]
-> Click ![icon][img3] on the far right of the column headers in a selection to group and filter records, and add/remove columns. These settings can be saved for the active selection by selecting **Save columns for current selection only**. See also [The section tabs][9 ] for additional functions.
+> Click ![icon][img3] to the right of the column headers in a selection to group and filter records, and add/remove columns. These settings can be saved for the active selection by selecting **Save columns for current selection only**. See also [The section tabs][9 ] for additional functions.
 
 To move between selections, click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the top right of the screen.
 
@@ -39,7 +39,7 @@ To move between selections, click the previous/next buttons ( ![icon][img2] ![ic
 > [!NOTE]
 > Before you filter the list of members (for instance sales or follow-ups), you must click **Show all** in the tab footer. This ensures that the tab displays all records in the selection. To optimize performance when working with large selections, only the first 100 records are usually loaded in the list of members.
 
-To activate the column filter, click ![icon][img3] on the far right of the column headers in a section tab and click **Enable filter**. The filter button (![icon][img7]) is now displayed on column which can be [filtered][8].
+To activate the column filter, click ![icon][img3] to the right of the column headers and click **Enable filter**. The filter button (![icon][img7]) is now displayed on column which can be [filtered][8].
 
 ### The Task button
 

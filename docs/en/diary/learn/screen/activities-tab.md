@@ -45,7 +45,7 @@ Open an activity directly from the activities list by double-clicking it. This b
 
 ## Move between activities in the activities list
 
-Use the scroll arrows on the right-hand side to scroll up and down in the activities list.
+Use the scroll arrows to scroll up and down in the activities list.
 
 To view the details of several activities from the activities list, without having to open each individual activity:
 

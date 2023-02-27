@@ -21,16 +21,16 @@ When you create or edit selections, you can adjust how many columns to display i
 
 3. If there is a **View functions** button below the list, simply go to the next item. But if there is a **Show fields** button, click this first.
 
-4. In the left-hand field below the **Columns** list, enter the required column name (label).
+4. Below the **Columns** list, enter the required column name (label) in the leftmost field.
 
-5. In the next field, click the list button ( ![icon][img3] ), and select which field in the database you want to get data from.
+5. In the next field, click ![icon][img3] and select which field in the database you want to get data from.
 
 6. In the **Field size** field, set the desired column width in characters.
 
 7. Click **Add column**. The new column is added at the bottom of the column list.
 
     > [!TIP]
-    > It is also displayed on the far right under **Sample table**.
+    > It is also displayed under **Sample table**.
 
 8. To move the column farther to the left of the table view, click the up arrow ( ![icon][img4] ) to the right of the relevant entry under **Columns**, until it is correctly positioned.
 
@@ -46,7 +46,7 @@ You can also add functions, for example, a summary column in the selection. We w
 
 3. Click the **View functions** button.
 
-4. In the field on the far left below the list, enter the name you want to give the column that will contain the function.
+4. In the field below the list, enter the name you want to give the column that will contain the function.
 
 5. In the list box on the right of the name field, select the **Time difference** function.
 

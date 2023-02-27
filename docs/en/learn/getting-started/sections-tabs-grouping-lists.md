@@ -15,7 +15,7 @@ You can group a list on one or more data types to get a better overview of the r
 
 **Examples**: Group a list of **activities** on category, so you can view all your appointments or web forms. Group a list of **requests** on category and status, so you can get an overview of request statuses per category.
 
-* To activate the grouping, click ![icon][img1] on the far right of the column headers in a section tab and click **Enable grouping**. A new row is now displayed above the column headers.
+* To activate the grouping, click ![icon][img1] to the right of the column header and click **Enable grouping**. A new row is now displayed above the column headers.
 
 * To group a list, click and drag a column header to the row above the column headers. The list now displays a row per value in the selected column. If you selected a category column, each available category in the column is displayed on a separate row. Click the row to expand the group and show the records.
 

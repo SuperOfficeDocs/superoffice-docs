@@ -21,7 +21,7 @@ The section tabs appear below the main card. These contain, for example, lists o
 Some lists may contain hundreds of records. To prevent slow loading of long lists, only a specified number of records are displayed when opening a section tab. To show all records, click **Show all** at the bottom of the section tab.
 
 1. Go to the section tab you want to edit.
-2. Click ![icon][img1] on the far right of the column headers in a section tab. A dialog is displayed.
+2. Click ![icon][img1] to the right of the column headers. A dialog is displayed.
 3. Click the **Page size** list and select a value.
 4. Click **OK**.
 

@@ -15,11 +15,11 @@ Personal profiles apply to a single user. You configure personal profiles by cli
 
 1. Open the **Request** screen and select the **Details** tab.
 
-2. Click ![icon][img1] on the far right of the request's properties. The **Edit element profile** screen appears.
+2. Click ![icon][img1] beside the request's properties. The **Edit element profile** screen appears.
 
 3. Next to **New field** are two empty fields.
-    * In the left-hand field enter the field name.
-    * Click the list button ![icon][img2] next to the field on the right, and select which field in the database you want to get data from.
+    * In the leftmost box, enter the field name.
+    * Click ![icon][img2] and select which field in the database you want to get data from.
 
 4. Click **Add** next to the two fields you have just completed. This new field is added under the preview at the top of the screen.
 

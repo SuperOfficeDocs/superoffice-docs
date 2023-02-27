@@ -69,7 +69,7 @@ To send emails from SuperOffice CRM, enter your SMTP server details.
 
 ## Change email configuration in SuperOffice Inbox
 
-1. If you want to edit or remove your associated email account, simply click on your profile icon in the top right-hand corner in SuperOffice CRM and choose **Email options**.
+1. If you want to edit or remove your associated email account, click on your profile icon in the upper-right corner and choose **Email options**.
 
     ![Email options -screenshot][img5]
 

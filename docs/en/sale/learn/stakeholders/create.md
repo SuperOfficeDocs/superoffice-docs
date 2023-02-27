@@ -34,7 +34,7 @@ language: en
     * To select a contact from a company: Click the arrow and select the company you want in the list that appears, or type the name of the company. By default the company that is active in the **Company** screen is shown.
     * To select a contact directly: Type the name of the contact (this applies to both contacts with and without an associated company), and click the name in the results list.
 
-6. To add the company as a stakeholder, click the top arrow button (to the right of the company). The company is then displayed on the right-hand side of the window.
+6. To add the company as a stakeholder, click the top arrow button (to the right of the company). The company appears on the rightmost side of the window.
 
 7. To add contacts as stakeholders, select the contact(s) and click the bottom arrow button ( ![icon][img2] ). The contact(s) will then be displayed on the right of the dialog.
 

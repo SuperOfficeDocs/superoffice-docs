@@ -11,7 +11,7 @@ language: en
 
 # The side panel
 
-The side panel is a multifunctional screen that is available in every screen in SuperOffice CRM. You can find the side panel on the right-hand side of your screen. The panel is available in all screens except for the **Inbox**.
+The side panel is a multifunctional screen that is available in every screen in SuperOffice CRM. You can find the side panel on the rightmost side of your screen. The panel is available in all screens except for the **Inbox**.
 
 The side panel allows you to view and use information from other parts of your CRM solution. This will help you, for example, to work your way through lists of contacts to call, sales to update, or sales proposals to follow up.
 

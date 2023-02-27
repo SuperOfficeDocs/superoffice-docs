@@ -35,9 +35,9 @@ Start by opening the mailing you wish to resend and go to the **Recipients** tab
 
 Here you can filter and select the recipients with the status **Bounced** and **Sent**, for example.
 
-You can filter the recipients list by using the filter button in the bottom-right corner of the screen. And you can select the recipients you want to resend your mailing to by clicking the box in the far-left column of the recipients list.
+You can filter the recipients list by using the filter button in the bottom-right corner of the screen. And you can select the recipients you want to resend your mailing to by clicking the box in leftmost column of the recipients list.
 
-![To resend a mailing, you can filter the status of the contacts by clicking the Filter button in the bottom-right corner, and select them in the column on the left-hand side -screenshot][img2]
+![Filter the status of the contacts when resending a mailing -screenshot][img2]
 
 Once you’ve selected all the recipients, click on the **Actions** button and select **Resend to selected**.
 

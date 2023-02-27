@@ -20,7 +20,7 @@ To change the order of the columns in a section tab, click and drag a column hea
 ## Adding or removing columns
 
 1. Go to the section tab you want to edit.
-2. Click ![icon][img1] on the far right of the column headers in a section tab. A dialog is displayed.
+2. Click ![icon][img1] to the right of the column headers. A dialog is displayed.
 3. Select or deselect the relevant columns. Use the **Filter columns** fields to filter the columns that are displayed.
 4. Click **OK**.
 

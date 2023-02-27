@@ -69,19 +69,19 @@ In the list box, select the field you want to search for information in. The fie
 
     **To add a value:**
 
-    Select the required value(s) in the pane on the left, and click the right arrow ( ![icon][img1] ). The selected value(s) are displayed under **Selected values** in the pane on the right.
+    Select the required values in the leftmost pane and click ![icon][img1]. The selected values are displayed under **Selected values**.
 
     To remove a value:
 
-    Select the required value(s) in the pane on the right, and click the left arrow ( ![icon][img2] ).
+    Select the required values in the rightmost pane and click ![icon][img2].
 
     **To add all values:**
 
-    Click **Select all** ( ![icon][img4] ) at the bottom of the left-hand pane, and then click the right arrow ( ![icon][img1] ). The values are displayed under **Selected values** in the pane on the right.
+    Click **Select all** ![icon][img4] at the bottom of the left pane, and then click ![icon][img1].
 
     **To remove all selected values:**
 
-    Click **Select all** ( ![icon][img4] ) at the bottom of the right-hand pane, and then click the left arrow ( ![icon][img2] ). All the selected values are removed.
+    Click **Select all** ![icon][img4] at the bottom of the rightmost pane, and then click ![icon][img2]. All the selected values are removed.
 
   </details>
 

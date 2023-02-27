@@ -21,7 +21,7 @@ In the view, you have these options:
 
 * Double-click a product to edit it. See [Add products to a price list][1].
 
-* Click the checkbox in the column at the far left to activate/deactivate a product. See [Delete/deactivate price lists or products][3].
+* Click the checkbox in the leftmost column to activate/deactivate a product. See [Delete/deactivate price lists or products][3].
 
 * Click **Add** to add a product to the price list. See [Add products to a price list][1].
 

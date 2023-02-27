@@ -36,7 +36,7 @@ The buttons in Windows Client settings activate their associated functions with 
 
 ## The Navigator
 
-The Navigator on the far left of the main screen contains the following buttons:
+The left-side Navigator contains the following buttons:
 
 | Button | Function | Read more |
 |:-:|---|---|

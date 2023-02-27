@@ -79,7 +79,7 @@ Fill in the following information in the **Properties** category:
 
 ### Add fields to the form
 
-In the **Fields** category you add the fields that should be included in the form. As you add and edit fields, the preview on the right-hand side is automatically updated.
+In the **Fields** category you add the fields that should be included in the form. As you add and edit fields, the preview is automatically updated.
 
 1. Go to the **Fields** category. By default, the **Contact - name** field and **OK** button are added to the new form.
 

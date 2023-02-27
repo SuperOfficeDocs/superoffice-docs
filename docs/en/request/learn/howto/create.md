@@ -40,7 +40,7 @@ In this video, you can see how you can add and edit any of the lists available a
     > [!NOTE]
     > You can leave this field empty if you do not want to send the message to anyone, but then you must enter the contact in the **Contacts** field in the **Properties** tab.
 
-3. Optional: Click the **Cc/Bcc** button on the far right to add contacts as copy or blind copy.
+3. Optional: Click **Cc/Bcc** to add contacts as copy or blind copy.
 
 4. Go to the **Properties** tab and enter request information like title, [category][10], priority and status. See [Properties](#properties).
 

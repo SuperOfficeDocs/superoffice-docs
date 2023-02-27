@@ -20,7 +20,7 @@ When synchronizing data between SuperOffice and ERP systems, you must specify wh
 
 1. Select the ERP connection, and click the **List mapping** button at the bottom. The **List mapping** dialog displays the lists that are available for mapping. If no lists are displayed, you have not mapped any lists in [Configure field mapping][1].
 
-1. Select a list on the left-hand side of the dialog. The available field items are displayed on the right-hand side of the dialog.
+1. Select a list. The available field items are displayed on the right side of the dialog.
 
 1. Select the corresponding CRM item for each ERP item.
 

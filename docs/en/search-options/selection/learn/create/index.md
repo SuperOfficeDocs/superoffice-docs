@@ -30,7 +30,7 @@ Static and dynamic selections are created in a similar way:
 Step 1 is different for combined selections because you start with two existing selections instead of looking for data.
 
 > [!TIP]
-> Click ![icon][img4] on the far right of the column headers in a selection. Here you can group and filter records, and add/remove columns. These settings can be saved for the active selection by selecting **Save columns for current selection only**. See also [The section tabs][4] for additional functions.
+> Click ![icon][img4] to the right of the column headers. Here you can group and filter records, and add/remove columns. These settings can be saved for the active selection by selecting **Save columns for current selection only**. See also [The section tabs][4] for additional functions.
 
 ## What do you want to do?
 

@@ -26,12 +26,12 @@ language: en
 1. Select what the filter applies to:
 
     * **All incoming email**: If you select this option, the email filter is used for all incoming emails.
-    * **Email which contains**: If you select this option, emails containing the fixed expression (regexp) specified in the fields to the right will trigger the email filter. In the list box on the far right, you can choose between the email header and/or email body.
+    * **Email which contains**: If you select this option, emails containing the fixed expression (regexp) specified in the fields to the right will trigger the email filter. You can choose between the email header and/or email body.
 
 1. In the **Find regular expressions** tab, you can define regular expressions that find text in emails, and save them as variables. To assign the value from a regular expression to a variable named myVariable, use the following format: myVariable = &lt;regexp&gt;.
 
 1. In the **Set links** tab, you can specify how incoming email is linked to a request and/or a contact on the basis of the email content:
-    * **Link to contact where**: Here you can link the generated request to a contact based on information from the email. You define these by selecting one of the contact fields in the left-hand list box, and then entering a regular expression that returns the value that identifies the contact.
+    * **Link to contact where**: To link the generated request to a contact based on information from the email, select one of the contact fields from the list, and then enter a regular expression that returns the value that identifies the contact.
     * **Link to request where**: Here you can link the email to an existing request based on a regular expression that extracts data from the email.
 
 1. In the **Set values** tab, you can add or replace values for contacts, companies and requests, based on the content of the email:

@@ -56,7 +56,7 @@ Watch this video to learn how to do a typical search and modify it by adding new
 
         [!include[Search criteria](../../learn/includes/list-date-criteria.md)]
 
-        Select the required option. Depending on what you select, the field at the far right of the line is automatically filled with a date or date range, or you can enter the date you want. You can also select a date in the calendar which is displayed when you click the arrow button ![icon][img1].
+        Select the required option. Depending on what you select, the field is automatically filled with a date or date range, or you can enter the date you want. You can also select a date in the calendar which is displayed when you click the arrow button ![icon][img1].
 
     </details>
 

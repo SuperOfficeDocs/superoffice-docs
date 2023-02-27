@@ -11,7 +11,7 @@ language: en
 
 # The Navigator
 
-You move between the main sections of SuperOffice CRM and Service using the Navigator on the far left of the main screen.
+You move between the main sections of SuperOffice CRM and Service using the left-side Navigator.
 
 > [!TIP]
 > You can change the width of the navigator by clicking ![icon][img21] and ![icon][img22] above the navigator.

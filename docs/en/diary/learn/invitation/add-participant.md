@@ -33,7 +33,7 @@ Invite a contact to an appointment from the participants tab by clicking the **A
     * If you selected **Associates** or **Resource** in step 3, you can choose **All** in the list box to display the associates or resources in all groups.
     * If you selected **Company/contact**, **Project** or **Selection** in step 3, you can search for the required company, contact, project or selection from this field.
 
-5. Once you select the required source, a list of all available entries for this source is displayed. Select the users or resources to include in the follow-up and click the arrow button to the right of the list ( ![icon][img2] ). They are then displayed on the right-hand side of the window. You can also select users and resources individually by double-clicking them.
+5. Once you select the required source, a list of all available entries for this source is displayed. Select the users or resources to include in the follow-up and click the arrow button to the right of the list ( ![icon][img2] ). They are then displayed on the right side of the window. You can also select users and resources individually by double-clicking them.
 
     > [!NOTE]
     > If any of the people are busy at the time you specified, their name is shown in red, so you can easily see if you should find a different time for the follow-up. You can still invite them to this new appointment, and their entry will then be shown in red with the word "CONFLICT" in the dialog for follow-ups.
@@ -44,7 +44,7 @@ Invite a contact to an appointment from the participants tab by clicking the **A
     If any of the contacts you selected do not have a valid email address recorded in SuperOffice CRM, the ![icon][img1] icon changes to inactive ( ![icon][img3] ) in the **Participants** tab.
 
     > [!NOTE]
-    > If you selected users or resources by mistake, remove them by selecting them in the right-hand list and clicking the **Delete** button.
+    > If you selected users or resources by mistake, select them in the rightmost list and click **Delete** to remove them.
 
 8. After choosing participants and resources, click **Save** to save your selections or **Cancel** to exit the dialog without saving.
 

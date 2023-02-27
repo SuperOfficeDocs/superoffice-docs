@@ -27,7 +27,7 @@ By configuring columns, you can customize displayed information and work with CR
 
 A great way to find information quickly is by using filters. Using a filter will reduce the amount of information you are looking at. Making it faster to find what you are looking for. Learn how you can filter the information you need from any archive in SuperOffice in the how-to.
 
-Every archive in SuperOffice contains a Settings button on the right-hand side. When you click the Settings button a new dialog will appear. This dialog allows you to enable filters for this archive.
+Every archive in SuperOffice contains a Settings button. When you click the Settings button a new dialog will appear. This dialog allows you to enable filters for this archive.
 
 The filters you use, are only visible for you and you can add and remove filters at any time.
 
@@ -42,7 +42,7 @@ You can filter information in all archives in SuperOffice CRM.
 
 1. Open the archive that contains the information you are looking for.
 
-    ![Click the Settings button on the right-hand side of the archive you've selected. -screenshot][img1]
+    ![Click the Settings button on the archive you've selected. -screenshot][img1]
 
 1. Check **Enable filters** at the top of the dialogue that appears. Then click **OK**.
 
@@ -68,7 +68,7 @@ You can filter information in all archives in SuperOffice CRM.
 
 A great way to order information to find, review, and access information efficiently is by grouping the information. Grouping information means you sort information as a set of people or things, that have something in common.
 
-Every archive in SuperOffice contains a Settings button on the right-hand side. When you click it, a new dialog will appear. This dialog allows you to enable for this archive.
+Every archive in SuperOffice contains a Settings button. When you click it, a new dialog will appear. This dialog allows you to enable for this archive.
 
 The columns you use to group your information, are only visible for you and you can add and remove as many groups as you like.
 
@@ -85,7 +85,7 @@ You can group the information in an archive by all the fields/columns in the arc
 
     ![Click the settings button to enable grouping and select Enable grouping -screenshot][img5]
 
-1. Click the **Settings** button on the right-hand side of the archive you've selected. Check **Enable** at the top of the dialogue that appears. Then click **OK**.
+1. Click the **Settings** button on the archive you've selected. Check **Enable** at the top of the dialogue that appears. Then click **OK**.
 
     ![A line on top of the archive is now available: Drag a column header and rop it here to group by that column -screenshot][img6]
 

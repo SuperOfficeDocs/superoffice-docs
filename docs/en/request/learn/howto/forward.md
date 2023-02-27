@@ -18,7 +18,7 @@ As a request handler, you, even aided by your colleagues, are not always able to
 1. [Open the request][1].
 2. Click the **Messages** tab.
 3. Click ![icon][img1] on the message you want to forward, and select **Forward**. A new message opens in edit mode.
-4. Add a recipient in the **To** field. Click the **Cc/Bcc** button (on the right-hand side of the message) to add recipients on copy or blind copy.
+4. Add a recipient in the **To** field. Click the **Cc/Bcc** button (to the right of the message) to add recipients on copy or blind copy.
 5. [Edit the message][2].
 6. Click ![icon][img2] in the toolbar and add any relevant documents as attachments to the request.
 7. Click **Send**. The message is sent.

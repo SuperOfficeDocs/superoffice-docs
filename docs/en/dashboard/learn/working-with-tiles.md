@@ -39,7 +39,7 @@ Follow the steps in this GIF or the steps below to see how you can access the da
 
 4. Here you have the following options:
 
-    * Click a record to see a preview on the right-hand side of the window.
+    * Select a record to preview it.
 
     * Double-click a record to open it (or select a record and click **Open**).
 

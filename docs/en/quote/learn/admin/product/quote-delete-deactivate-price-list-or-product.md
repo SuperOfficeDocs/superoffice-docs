@@ -32,6 +32,6 @@ In the **SuperOffice products** tab in the **Quote/Sync** screen, you can delete
 
 1. Select the price list containing the product you want to deactivate, in the **Price list** list. The products in the price list are shown in the list at the bottom.
 
-2. Uncheck the checkbox at the far left for each product you want to deactivate.
+2. Clear the checkbox for each product you want to deactivate.
 
 Deactivated products are not available when the users are creating quotes.

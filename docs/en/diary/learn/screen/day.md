@@ -3,21 +3,19 @@ uid: help-en-diary-screen-day
 title: Day tab
 description: Day tab
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 02.27.2023
 keywords: diary, follow-up
-so.topic: help
+so.topic: reference
 language: en
 ---
 
 # The Day tab
 
-The **Day** tab displays one day at a time.
+The **Day** tab displays one day at a time, with hourly time intervals along the left edge.
 
 ![Diary screen, the Day tab -screenshot][img1]
 
-Along the left-hand edge of the **Day** tab, there are hourly time intervals. You can scroll up and down the time intervals.
-
-At the bottom left of the **Day** tab is a field for selecting a [time zone][1], if time zones have been enabled in SuperOffice Settings and maintenance.
+If [time zones][1] are enabled, you can switch time zone in the lower-left corner.
 
 <!-- Referenced links -->
 [1]: ../../../globalization-and-localization/learn/time-zones.md

@@ -17,7 +17,7 @@ When you create a new contact, they appear at the bottom of the **Contacts** sec
 
     <details><summary>How?</summary>
 
-    On the far right of the list is a column with numerical values that show the ranking of the various contacts. If these are in ascending order, so that the contact at the top of the list is numbered 1 and the number increases down the list, they are sorted correctly.
+    The rightmost column contains numerical values that show the ranking of the various contacts. If these are in ascending order, so that the contact at the top of the list is numbered 1 and the number increases down the list, they are sorted correctly.
 
     If you cannot see the number column, you must first [add the Rank column][1].
 

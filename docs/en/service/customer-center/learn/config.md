@@ -52,8 +52,8 @@ You can configure your Customer Centre either in Settings and maintenance or in 
 | Site name | The title of the web page. |
 | Welcome, header | Title text displayed in the header field. |
 | Welcome, body text | Body text displayed in the header field. |
-| Show opening hours | Select this option to display opening hours on the right-hand side of the header field. Enter the opening hours in the field below. |
-| Show phone number | Select this option to display your phone number on the right-hand side of the header field. Enter the phone number in the field below. |
+| Show opening hours | Select this option to display opening hours beside the header field. Enter the opening hours in the field below. |
+| Show phone number | Select this option to display your phone number beside of the header field. Enter the phone number in the field below. |
 | Enable search in welcome page | Select this option to display the FAQ search field in the header field. Enter placeholder text in the field below. Example: "enter text here to search the FAQ". |
 | Enable information on welcome page | Select this option to display a text field below the header field. Click **Edit** to enter text. |
 | Show most common FAQs on the welcome page | Select this option to display the most popular questions and latest questions. |

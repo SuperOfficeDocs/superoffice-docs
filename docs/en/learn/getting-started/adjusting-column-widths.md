@@ -26,7 +26,7 @@ There are different lists in SuperOffice CRM, for example, the **Contacts** and 
 You can set columns widths to be adjusted automatically according to the content of the columns. When columns are added or removed, all column widths are adjusted to a best fit every time. If there are too many columns to fit within the available space, a horizontal scrollbar is displayed.
 
 1. Go to the section tab you want to edit.
-2. Click ![icon][img1] on the far right of the column headers in a section tab. A dialog is displayed.
+2. Click ![icon][img1] to the right of the column headers. A dialog is displayed.
 3. Select **Auto-fit column width**.
 4. Click **OK**.
 
