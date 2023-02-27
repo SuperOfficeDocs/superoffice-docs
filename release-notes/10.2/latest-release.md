@@ -9,7 +9,7 @@ so.version: 10.2.3
 so.topic: reference
 ---
 
-# Overview of 10.2.3 update
+# Overview of 10.2.3 update - Latest release
 
 See below the different changes that has been release in version 10.2.3 for SuperOffice.
 - - -
