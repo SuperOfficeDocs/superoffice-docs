@@ -24,6 +24,31 @@ The target list can contain of the following sections:
 
 It is optional to add the company target and to have user specific targets (go to Target settings to change). The sum of all targets in one user group is not editable. It shows the sum for all the users in one user group and is a guideline to make it easier to set up the target for the whole user group. You can add and edit the company target, since the target for the whole company is not necessarily the same as the sum of all user groups.
 
+## Requirements
+
+> [!NOTE]
+>**ONLINE** customers only. (Not available for Onsite customers.)
+
+### Licenses
+
+This feature requires the Sales Premium licence.
+The following functions are only available with the Sales Targets Unlimited licence in addition to the Sales Premium licence:
+
+* Adding additional target types (dimensions)
+* Creating targets for multiple groups/teams
+
+### Access
+
+Access to the **Targets** feature is set by your administrator in SuperOffice Settings and maintenance.
+
+### Data rights
+
+To access this feature, you need data rights for **Target**.
+
+### Functional rights
+
+Only users with the functional right **Can lock and unlock targets** can lock and unlock targets.
+
 ## Before you start
 
 Before you start using the sales targets feature, you must set up a few things in SuperOffice Settings and Maintenance:

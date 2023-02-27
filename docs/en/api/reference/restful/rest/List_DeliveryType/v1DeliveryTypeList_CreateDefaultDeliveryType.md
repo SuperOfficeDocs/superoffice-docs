@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 132,
-  "Name": "Muller-Dietrich",
-  "Tooltip": "enim",
+  "Id": 665,
+  "Name": "Kirlin-King",
+  "Tooltip": "placeat",
   "Deleted": true,
-  "UdListDefinitionId": 584,
-  "Rank": 885,
+  "UdListDefinitionId": 916,
+  "Rank": 707,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 399
+      "FieldType": "System.Int32",
+      "FieldLength": 932
     }
   }
 }

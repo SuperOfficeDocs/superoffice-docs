@@ -103,7 +103,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "quae"
+  "MessageId": "et"
 }
 ```
 
@@ -116,155 +116,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 386,
-      "ContactName": "Moen, Jaskolski and Gleason",
-      "PersonId": 42,
-      "PersonName": "Leannon-Kihn",
-      "AssociateId": 225,
-      "Address": "velit",
-      "EmailId": 575,
+      "ContactId": 524,
+      "ContactName": "Gibson, Moen and Green",
+      "PersonId": 293,
+      "PersonName": "O'Keefe, Mueller and Thiel",
+      "AssociateId": 239,
+      "Address": "esse",
+      "EmailId": 552,
       "DuplicatePersonIds": [
-        749,
-        355
+        656,
+        721
       ],
-      "Name": "Goyette Inc and Sons",
+      "Name": "Yost Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 504
+          "FieldLength": 290
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 564,
-      "ContactName": "Mohr Group",
-      "PersonId": 709,
-      "PersonName": "Armstrong Group",
-      "AssociateId": 734,
-      "Address": "esse",
-      "EmailId": 942,
+      "ContactId": 485,
+      "ContactName": "Hickle, D'Amore and Kautzer",
+      "PersonId": 457,
+      "PersonName": "Spinka, Bernhard and Hodkiewicz",
+      "AssociateId": 915,
+      "Address": "ut",
+      "EmailId": 25,
       "DuplicatePersonIds": [
-        455,
-        843
+        302,
+        341
       ],
-      "Name": "Quitzon, Ledner and Watsica",
+      "Name": "Hartmann Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 795
+          "FieldLength": 847
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 562,
-      "ContactName": "Bins, Miller and Mitchell",
-      "PersonId": 549,
-      "PersonName": "Ebert Group",
-      "AssociateId": 895,
-      "Address": "nam",
-      "EmailId": 892,
+      "ContactId": 241,
+      "ContactName": "Corwin Group",
+      "PersonId": 116,
+      "PersonName": "Abernathy-Kertzmann",
+      "AssociateId": 689,
+      "Address": "impedit",
+      "EmailId": 225,
       "DuplicatePersonIds": [
-        947,
-        430
+        983,
+        816
       ],
-      "Name": "Miller, Wisoky and Cormier",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 934
-        }
-      }
-    }
-  ],
-  "Subject": "nemo",
-  "HTMLBody": "in",
-  "From": null,
-  "Sent": "2010-02-07T11:22:38.1959877+01:00",
-  "Size": 227,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "quo",
-  "PlainBody": "a",
-  "IsSent": true,
-  "EMailSOInfo": null,
-  "ServerId": 258,
-  "Attachments": [
-    {
-      "Description": "Monitored non-volatile intranet",
-      "Filename": "alias",
-      "Size": 347,
-      "Type": "aut",
-      "Encoding": "officia",
-      "Id": "mollitia",
-      "Disposition": "est",
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Schmitt-Koss",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 31
+          "FieldLength": 793
+        }
+      }
+    }
+  ],
+  "Subject": "est",
+  "HTMLBody": "et",
+  "From": null,
+  "Sent": "2012-07-18T14:19:03.3883958+02:00",
+  "Size": 117,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "voluptatem",
+  "PlainBody": "voluptas",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 639,
+  "Attachments": [
+    {
+      "Description": "Synergized background productivity",
+      "Filename": "sunt",
+      "Size": 463,
+      "Type": "labore",
+      "Encoding": "iusto",
+      "Id": "laudantium",
+      "Disposition": "excepturi",
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 483
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Boyer Inc and Sons",
+      "Name": "Wolf LLC",
       "Values": [
-        "impedit",
-        "aut"
+        "veniam",
+        "ad"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 129
+          "FieldType": "System.String",
+          "FieldLength": 221
         }
       }
     },
     {
-      "Name": "Boyer Inc and Sons",
+      "Name": "Wolf LLC",
       "Values": [
-        "impedit",
-        "aut"
+        "veniam",
+        "ad"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 129
+          "FieldType": "System.String",
+          "FieldLength": 221
         }
       }
     }
   ],
-  "FolderName": "Treutel Group",
-  "EmailItemId": 984,
-  "AccountId": 798,
-  "ReceivedAt": "2006-03-11T11:22:38.1959877+01:00",
+  "FolderName": "Shanahan Group",
+  "EmailItemId": 44,
+  "AccountId": 807,
+  "ReceivedAt": "2018-12-17T14:19:03.3883958+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2006-03-26T11:22:38.1959877+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2020-04-14T14:19:03.3883958+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 633
+      "FieldType": "System.Int32",
+      "FieldLength": 16
     }
   }
 }

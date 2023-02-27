@@ -72,7 +72,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,28 +80,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 11 Jun 2006 11:22:45 G6T
+Last-Modified: Wed, 03 Dec 2008 14:19:10 G12T
 
 {
-  "BlobId": 341,
-  "BlobSize": 890,
-  "Description": "Front-line grid-enabled superstructure",
-  "ExtraInfo": "inventore",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "laudantium",
-  "OriginalSize": 555,
-  "CreatedDate": "2003-12-27T11:22:45.4442386+01:00",
-  "UpdatedDate": "2006-06-11T11:22:45.4442386+02:00",
+  "BlobId": 807,
+  "BlobSize": 531,
+  "Description": "Visionary global adapter",
+  "ExtraInfo": "eum",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "sunt",
+  "OriginalSize": 875,
+  "CreatedDate": "2005-05-17T14:19:10.9748549+02:00",
+  "UpdatedDate": "2008-12-03T14:19:10.9748549+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nam",
+  "ConceptualType": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldLength": 512
     }
   }
 }

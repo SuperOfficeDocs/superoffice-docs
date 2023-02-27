@@ -69,22 +69,22 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "adipisci",
+  "Provider": "quas",
   "Restrictions": [
     {
-      "Name": "Kunde-Mohr",
-      "Operator": "sed",
+      "Name": "Mante, Herman and Pacocha",
+      "Operator": "tempora",
       "Values": [
-        "quos",
-        "nihil"
+        "eos",
+        "in"
       ],
       "DisplayValues": [
-        "dolorum",
-        "voluptates"
+        "delectus",
+        "numquam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -92,9 +92,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 682,
+      "InterParenthesis": 983,
       "InterOperator": "And",
-      "UniqueHash": 11
+      "UniqueHash": 380
     }
   ],
   "NewStatus": "Green"
@@ -108,7 +108,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  926,
-  958
+  876,
+  836
 ]
 ```

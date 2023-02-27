@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 60,
-    "Name": "Conn-Reichert",
+    "HeadingId": 323,
+    "Name": "Eichmann, Nienow and Koelpin",
     "Tooltip": "quia",
-    "Deleted": false,
-    "Rank": 205,
-    "UdListDefinitionId": 583
+    "Deleted": true,
+    "Rank": 426,
+    "UdListDefinitionId": 150
   },
   {
-    "HeadingId": 60,
-    "Name": "Conn-Reichert",
+    "HeadingId": 323,
+    "Name": "Eichmann, Nienow and Koelpin",
     "Tooltip": "quia",
-    "Deleted": false,
-    "Rank": 205,
-    "UdListDefinitionId": 583
+    "Deleted": true,
+    "Rank": 426,
+    "UdListDefinitionId": 150
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 517,
-    "Name": "Fay Inc and Sons",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 918,
-    "UdListDefinitionId": 521,
+    "HeadingId": 226,
+    "Name": "Swift, Corkery and Kunze",
+    "Tooltip": "eius",
+    "Deleted": false,
+    "Rank": 903,
+    "UdListDefinitionId": 254,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 619
+        "FieldLength": 635
       }
     }
   }

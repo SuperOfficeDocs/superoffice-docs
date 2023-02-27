@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 193,
-    "Name": "Cruickshank, Brown and Weissnat",
-    "ToolTip": "Perspiciatis commodi quis consectetur velit provident sequi.",
-    "Deleted": false,
-    "Rank": 771,
-    "Type": "vel",
-    "ColorBlock": 62,
-    "IconHint": "dolores",
-    "Selected": false,
-    "LastChanged": "2008-09-17T11:22:46.1628721+02:00",
+    "Id": 232,
+    "Name": "Hessel-Gerhold",
+    "ToolTip": "Et accusamus officia ut reiciendis.",
+    "Deleted": true,
+    "Rank": 528,
+    "Type": "sit",
+    "ColorBlock": 529,
+    "IconHint": "error",
+    "Selected": true,
+    "LastChanged": "2001-03-04T14:19:11.4870653+01:00",
     "ChildItems": [
       {
-        "Id": 86,
-        "Name": "Crist LLC",
-        "ToolTip": "Est dicta consequatur.",
+        "Id": 445,
+        "Name": "Wyman-Schulist",
+        "ToolTip": "Natus optio eum eveniet.",
         "Deleted": false,
-        "Rank": 229,
-        "Type": "ipsum",
-        "ColorBlock": 794,
-        "IconHint": "fugit",
-        "Selected": false,
-        "LastChanged": "2002-10-26T11:22:46.1628721+02:00",
+        "Rank": 618,
+        "Type": "architecto",
+        "ColorBlock": 97,
+        "IconHint": "consectetur",
+        "Selected": true,
+        "LastChanged": "2019-11-11T14:19:11.4870653+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Josue Stehr",
+        "ExtraInfo": "ea",
+        "StyleHint": "tempore",
+        "Hidden": false,
+        "FullName": "Kiley Wilderman V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 122
+            "FieldType": "System.Int32",
+            "FieldLength": 855
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "veniam",
-    "Hidden": true,
-    "FullName": "Darian Gerlach",
+    "ExtraInfo": "non",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Imogene Ankunding",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 561
+        "FieldType": "System.String",
+        "FieldLength": 396
       }
     }
   }

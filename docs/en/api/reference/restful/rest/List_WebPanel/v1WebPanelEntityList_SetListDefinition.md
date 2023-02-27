@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 345,
-  "Name": "Stark-Willms",
-  "Tooltip": "officiis",
+  "Id": 253,
+  "Name": "Gutmann LLC",
+  "Tooltip": "officia",
   "Deleted": false,
-  "Rank": 681,
+  "Rank": 902,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "excepturi",
+  "ListType": "amet",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 20,
-  "Name": "Gusikowski Inc and Sons",
-  "Tooltip": "dolorum",
-  "Deleted": false,
-  "Rank": 582,
+  "Id": 442,
+  "Name": "Hartmann-Greenholt",
+  "Tooltip": "quibusdam",
+  "Deleted": true,
+  "Rank": 395,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "cum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 780
+      "FieldLength": 238
     }
   }
 }

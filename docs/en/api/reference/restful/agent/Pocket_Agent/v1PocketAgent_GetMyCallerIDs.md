@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/Pocket/GetMyCallerIDs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LastHash": "illum",
-  "MinDate": "2005-09-03T11:22:38.7739723+02:00",
-  "MaxDate": "2013-01-12T11:22:38.7739723+01:00"
+  "LastHash": "alias",
+  "MinDate": "2011-11-04T14:19:03.8895009+01:00",
+  "MaxDate": "2011-02-06T14:19:03.8895009+01:00"
 }
 ```
 
@@ -90,16 +90,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "quod",
+  "CallerIDHash": "tempore",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 963,
-      "PersonId": 45,
-      "PersonName": "Wuckert LLC",
-      "Mrmrs": "et",
-      "ContactId": 472,
-      "ContactName": "Kerluke Inc and Sons"
+      "DialInPrefix": 43,
+      "PersonId": 4,
+      "PersonName": "Reynolds-Marks",
+      "Mrmrs": "facilis",
+      "ContactId": 768,
+      "ContactName": "Parker-Beer"
     }
   ]
 }

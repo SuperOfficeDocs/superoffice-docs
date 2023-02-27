@@ -72,15 +72,15 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 250,
-  "PrefDescId": 875,
-  "PrefValue": "consequatur",
-  "PrefShowValue": "vitae",
-  "Description": "Virtual background hierarchy",
+  "PrefDescLineId": 292,
+  "PrefDescId": 274,
+  "PrefValue": "qui",
+  "PrefShowValue": "occaecati",
+  "Description": "Pre-emptive context-sensitive portal",
   "IsBuiltin": false
 }
 ```
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 815,
-  "PrefDescId": 341,
-  "PrefValue": "excepturi",
-  "PrefShowValue": "ut",
-  "Description": "Implemented uniform structure",
-  "IsBuiltin": true,
+  "PrefDescLineId": 768,
+  "PrefDescId": 145,
+  "PrefValue": "sint",
+  "PrefShowValue": "sit",
+  "Description": "Streamlined national complexity",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldLength": 984
     }
   }
 }

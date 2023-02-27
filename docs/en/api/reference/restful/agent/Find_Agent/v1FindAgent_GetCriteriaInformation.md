@@ -80,16 +80,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "iste",
-  "ProviderName": "Daugherty LLC",
-  "StorageKey": "recusandae",
+  "StorageType": "mollitia",
+  "ProviderName": "Hayes-Stehr",
+  "StorageKey": "nesciunt",
   "StaticColumns": [
-    "cupiditate",
-    "maiores"
+    "aut",
+    "iure"
   ]
 }
 ```
@@ -103,81 +103,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hilll-Kohler",
-      "Operator": "eos",
+      "Name": "Watsica-Gibson",
+      "Operator": "ullam",
       "Values": [
-        "sint",
-        "consequuntur"
+        "nobis",
+        "veritatis"
       ],
       "DisplayValues": [
-        "voluptate",
-        "dicta"
+        "ipsa",
+        "a"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 369,
+      "InterParenthesis": 923,
       "InterOperator": "And",
-      "UniqueHash": 937
+      "UniqueHash": 539
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Denesik-O'Kon",
-      "DisplayTooltip": "omnis",
-      "DisplayType": "ab",
-      "CanOrderBy": false,
-      "Name": "Brakus, Oberbrunner and Crona",
+      "DisplayName": "Roob-Rolfson",
+      "DisplayTooltip": "est",
+      "DisplayType": "dicta",
+      "CanOrderBy": true,
+      "Name": "Marks Group",
       "CanRestrictBy": false,
-      "RestrictionType": "quia",
-      "RestrictionListName": "Thompson Group",
-      "IsVisible": false,
-      "ExtraInfo": "sapiente",
-      "Width": "doloribus",
-      "IconHint": "omnis",
-      "HeadingIconHint": "voluptatibus"
+      "RestrictionType": "commodi",
+      "RestrictionListName": "Botsford-Stark",
+      "IsVisible": true,
+      "ExtraInfo": "libero",
+      "Width": "quae",
+      "IconHint": "ut",
+      "HeadingIconHint": "molestias"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Conroy LLC",
-      "PrimaryKey": 684,
+      "EntityName": "Walter-Turcotte",
+      "PrimaryKey": 435,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ab",
-          "TooltipHint": "occaecati",
-          "LinkHint": "asperiores"
+          "DisplayValue": "et",
+          "TooltipHint": "repudiandae",
+          "LinkHint": "quo"
         }
       },
-      "LinkHint": "accusamus",
-      "StyleHint": "amet",
+      "LinkHint": "autem",
+      "StyleHint": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 756
+          "FieldLength": 279
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Stehr, Walker and Williamson",
-      "Description": "Programmable logistical toolset",
-      "Rank": 29,
+      "Name": "Stiedemann-Corkery",
+      "Description": "Enterprise-wide full-range internet solution",
+      "Rank": 970,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Stehr, Walker and Williamson",
-      "Description": "Programmable logistical toolset",
-      "Rank": 29,
+      "Name": "Stiedemann-Corkery",
+      "Description": "Enterprise-wide full-range internet solution",
+      "Rank": 970,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 56
+      "FieldLength": 825
     }
   }
 }

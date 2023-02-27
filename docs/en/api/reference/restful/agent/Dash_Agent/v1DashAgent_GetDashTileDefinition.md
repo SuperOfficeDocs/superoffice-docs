@@ -25,7 +25,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=38
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=65
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,31 +94,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 95,
-  "Name": "Shields-D'Amore",
-  "Description": "Persistent neutral migration",
-  "DefaultHeight": 568,
-  "DefaultWidth": 647,
+  "DashboardTileDefinitionId": 968,
+  "Name": "Denesik, Hyatt and Ratke",
+  "Description": "Virtual multimedia software",
+  "DefaultHeight": 517,
+  "DefaultWidth": 197,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Bergstrom-Graham",
-  "SelectionId": 578,
+  "EntityName": "Goldner, Mills and Davis",
+  "SelectionId": 769,
   "CurrencyMode": "Base",
-  "CurrencyCode": "laborum",
+  "CurrencyCode": "et",
   "Measure": "Average",
-  "MeasureField": "qui",
+  "MeasureField": "quaerat",
   "SortBy": "et",
-  "LayoutConfig": "quo",
-  "SecondarySelectionId": 824,
-  "MeasureByField": "sed",
+  "LayoutConfig": "eum",
+  "SecondarySelectionId": 295,
+  "MeasureByField": "doloremque",
   "Usage": "Dashboard",
-  "ProviderName": "Lebsack, Von and Lowe",
+  "ProviderName": "Bosco-Johns",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 414
+      "FieldLength": 800
     }
   }
 }

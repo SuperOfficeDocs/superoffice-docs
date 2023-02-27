@@ -106,27 +106,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 518,
-  "PlainMessage": "et",
-  "HtmlMessage": "qui",
-  "SmsMessage": "consequatur",
-  "Description": "Reduced local archive",
-  "Subject": "vel",
-  "FolderId": 33,
-  "HeaderField": "beatae",
-  "Design": "molestias",
+  "ShipmentMessageId": 12,
+  "PlainMessage": "dolor",
+  "HtmlMessage": "eveniet",
+  "SmsMessage": "voluptatem",
+  "Description": "Cross-platform full-range infrastructure",
+  "Subject": "animi",
+  "FolderId": 644,
+  "HeaderField": "quia",
+  "Design": "harum",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Reactive uniform focus group",
-  "AccessKey": "totam",
-  "DocumentMessage": 356,
-  "Registered": "2013-08-03T11:22:38.5552678+02:00",
-  "RegisteredAssociateId": 511,
-  "Updated": "2008-01-17T11:22:38.5552678+01:00",
-  "UpdatedAssociateId": 500,
-  "UpdatedCount": 138
+  "LongDescription": "Future-proofed impactful core",
+  "AccessKey": "accusamus",
+  "DocumentMessage": 800,
+  "Registered": "2011-03-21T14:19:03.7176242+01:00",
+  "RegisteredAssociateId": 960,
+  "Updated": "2014-10-12T14:19:03.7176242+02:00",
+  "UpdatedAssociateId": 136,
+  "UpdatedCount": 6
 }
 ```
 
@@ -137,33 +137,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 280,
-  "PlainMessage": "accusantium",
-  "HtmlMessage": "illum",
-  "SmsMessage": "aliquid",
-  "Description": "Robust discrete algorithm",
-  "Subject": "ut",
-  "FolderId": 342,
-  "HeaderField": "nemo",
-  "Design": "maxime",
+  "ShipmentMessageId": 840,
+  "PlainMessage": "ut",
+  "HtmlMessage": "quia",
+  "SmsMessage": "est",
+  "Description": "Operative directional groupware",
+  "Subject": "voluptas",
+  "FolderId": 595,
+  "HeaderField": "dolorem",
+  "Design": "dignissimos",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Synchronised discrete migration",
-  "AccessKey": "vitae",
-  "DocumentMessage": 752,
-  "Registered": "2021-10-28T11:22:38.5552678+02:00",
-  "RegisteredAssociateId": 30,
-  "Updated": "2007-12-24T11:22:38.5552678+01:00",
-  "UpdatedAssociateId": 977,
-  "UpdatedCount": 814,
+  "LongDescription": "Persevering regional contingency",
+  "AccessKey": "et",
+  "DocumentMessage": 756,
+  "Registered": "2011-02-20T14:19:03.7176242+01:00",
+  "RegisteredAssociateId": 984,
+  "Updated": "2017-02-05T14:19:03.7176242+01:00",
+  "UpdatedAssociateId": 331,
+  "UpdatedCount": 734,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 168
+      "FieldLength": 188
     }
   }
 }

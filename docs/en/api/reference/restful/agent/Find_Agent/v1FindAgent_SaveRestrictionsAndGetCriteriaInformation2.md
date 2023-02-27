@@ -81,15 +81,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Johnston-Krajcik",
-  "StorageKey": "dicta",
-  "Restrictions": "a",
-  "StaticColumns": "commodi"
+  "StorageType": "aut",
+  "ProviderName": "Prosacco LLC",
+  "StorageKey": "dolorum",
+  "Restrictions": "temporibus",
+  "StaticColumns": "excepturi"
 }
 ```
 
@@ -102,15 +102,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Wisoky, Haag and Wehner",
-      "Operator": "sunt",
+      "Name": "Kautzer-Wunsch",
+      "Operator": "deserunt",
       "Values": [
-        "autem",
-        "reiciendis"
+        "in",
+        "dignissimos"
       ],
       "DisplayValues": [
-        "eum",
-        "consequuntur"
+        "aliquam",
+        "quos"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -118,65 +118,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 645,
+      "InterParenthesis": 147,
       "InterOperator": "And",
-      "UniqueHash": 305
+      "UniqueHash": 118
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "McDermott-Nienow",
-      "DisplayTooltip": "sit",
-      "DisplayType": "repellendus",
-      "CanOrderBy": false,
-      "Name": "Heller, Schmitt and Crona",
-      "CanRestrictBy": false,
-      "RestrictionType": "nihil",
-      "RestrictionListName": "Toy LLC",
-      "IsVisible": false,
-      "ExtraInfo": "assumenda",
-      "Width": "ea",
-      "IconHint": "rerum",
-      "HeadingIconHint": "et"
+      "DisplayName": "Hirthe, Kerluke and Barrows",
+      "DisplayTooltip": "in",
+      "DisplayType": "officiis",
+      "CanOrderBy": true,
+      "Name": "Funk-Casper",
+      "CanRestrictBy": true,
+      "RestrictionType": "aliquid",
+      "RestrictionListName": "Wolf, Doyle and Grant",
+      "IsVisible": true,
+      "ExtraInfo": "culpa",
+      "Width": "provident",
+      "IconHint": "quia",
+      "HeadingIconHint": "quasi"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Rau, Walter and Weber",
-      "PrimaryKey": 875,
+      "EntityName": "Kozey LLC",
+      "PrimaryKey": 487,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "illum",
-          "LinkHint": "eos"
+          "DisplayValue": "tenetur",
+          "TooltipHint": "itaque",
+          "LinkHint": "quod"
         }
       },
-      "LinkHint": "magnam",
-      "StyleHint": "unde",
+      "LinkHint": "soluta",
+      "StyleHint": "ipsam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 674
+          "FieldLength": 591
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Tillman Inc and Sons",
-      "Description": "Right-sized multimedia archive",
-      "Rank": 708,
+      "Name": "Kozey Group",
+      "Description": "Persevering heuristic circuit",
+      "Rank": 597,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Tillman Inc and Sons",
-      "Description": "Right-sized multimedia archive",
-      "Rank": 708,
+      "Name": "Kozey Group",
+      "Description": "Persevering heuristic circuit",
+      "Rank": 597,
       "Restrictions": [
         {},
         {}
@@ -188,7 +188,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldLength": 790
     }
   }
 }

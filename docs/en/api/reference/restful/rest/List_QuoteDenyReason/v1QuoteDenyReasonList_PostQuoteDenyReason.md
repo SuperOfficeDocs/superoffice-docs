@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 303,
-  "Name": "Strosin, Leffler and Cartwright",
-  "Tooltip": "eius",
+  "Id": 363,
+  "Name": "Borer LLC",
+  "Tooltip": "hic",
   "Deleted": false,
-  "UdListDefinitionId": 212,
-  "Rank": 32
+  "UdListDefinitionId": 163,
+  "Rank": 614
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 587,
-  "Name": "Beier, Reichert and Zieme",
-  "Tooltip": "alias",
-  "Deleted": true,
-  "UdListDefinitionId": 54,
-  "Rank": 153,
+  "Id": 379,
+  "Name": "Reinger Group",
+  "Tooltip": "blanditiis",
+  "Deleted": false,
+  "UdListDefinitionId": 11,
+  "Rank": 615,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 720
+      "FieldLength": 320
     }
   }
 }

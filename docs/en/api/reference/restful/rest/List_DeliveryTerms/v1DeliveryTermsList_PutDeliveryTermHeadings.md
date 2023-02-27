@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 594,
-    "Name": "Purdy, Lakin and Robel",
-    "Tooltip": "eos",
-    "Deleted": true,
-    "Rank": 967,
-    "UdListDefinitionId": 572
+    "HeadingId": 627,
+    "Name": "Buckridge-Lebsack",
+    "Tooltip": "provident",
+    "Deleted": false,
+    "Rank": 57,
+    "UdListDefinitionId": 43
   },
   {
-    "HeadingId": 594,
-    "Name": "Purdy, Lakin and Robel",
-    "Tooltip": "eos",
-    "Deleted": true,
-    "Rank": 967,
-    "UdListDefinitionId": 572
+    "HeadingId": 627,
+    "Name": "Buckridge-Lebsack",
+    "Tooltip": "provident",
+    "Deleted": false,
+    "Rank": 57,
+    "UdListDefinitionId": 43
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 603,
-    "Name": "Sanford LLC",
-    "Tooltip": "libero",
-    "Deleted": false,
-    "Rank": 852,
-    "UdListDefinitionId": 297,
+    "HeadingId": 981,
+    "Name": "Smith-Blick",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 755,
+    "UdListDefinitionId": 590,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 891
+        "FieldLength": 766
       }
     }
   }

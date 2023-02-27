@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 329,
-    "Name": "Keebler-Grimes",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 130,
-    "Rank": 380,
+    "Id": 524,
+    "Name": "Berge Group",
+    "Tooltip": "deserunt",
+    "Deleted": true,
+    "UdListDefinitionId": 453,
+    "Rank": 373,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 805
+        "FieldType": "System.Int32",
+        "FieldLength": 663
       }
     }
   }

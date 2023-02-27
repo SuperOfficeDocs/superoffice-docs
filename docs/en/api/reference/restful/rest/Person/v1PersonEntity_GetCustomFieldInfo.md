@@ -70,7 +70,7 @@ OK
 GET /api/v1/Person/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Langosh LLC",
-  "DisplayName": "Rau-Skiles",
-  "Description": "Inverse global concept",
-  "ShortLabel": "in",
-  "HideLabel": false,
-  "HideField": true,
-  "IsIndexed": false,
-  "IsMandatory": true,
+  "FieldName": "Skiles-Schmidt",
+  "DisplayName": "Zulauf, Zulauf and Donnelly",
+  "Description": "Profit-focused object-oriented algorithm",
+  "ShortLabel": "adipisci",
+  "HideLabel": true,
+  "HideField": false,
+  "IsIndexed": true,
+  "IsMandatory": false,
   "IsReadOnly": true,
   "IsExternal": false,
-  "Rank": 933,
-  "TemplateVariableName": "Harvey, Lubowitz and Crona"
+  "Rank": 835,
+  "TemplateVariableName": "Pagac Group"
 }
 ```

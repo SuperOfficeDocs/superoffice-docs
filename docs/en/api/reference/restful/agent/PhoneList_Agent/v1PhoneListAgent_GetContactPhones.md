@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 68
+  "ContactId": 866
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "667-977-5420 x21357",
-    "PersonCellPhone": "477.546.3835 x6836",
-    "PersonPrivatePhone": "248.057.7010",
-    "PersonFaxNumber": "665801",
-    "PersonPagerNumber": "1052146",
-    "PersonEmail": "kailee.yundt@schulist.biz",
-    "Id": 953,
-    "Name": "Hahn Group",
-    "Tooltip": "ipsa",
-    "UniqueId": "repellendus",
+    "PersonDirectPhone": "432.533.5872",
+    "PersonCellPhone": "123.099.1202",
+    "PersonPrivatePhone": "924-200-4462 x08075",
+    "PersonFaxNumber": "1772122",
+    "PersonPagerNumber": "779724",
+    "PersonEmail": "jarrell@monahan.biz",
+    "Id": 302,
+    "Name": "Gerhold Group",
+    "Tooltip": "ut",
+    "UniqueId": "delectus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 839
+        "FieldType": "System.String",
+        "FieldLength": 763
       }
     }
   }

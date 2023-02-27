@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 979,
-    "Name": "Ferry-Beer",
-    "ToolTip": "Vero enim cumque et.",
-    "Deleted": false,
-    "Rank": 422,
-    "Type": "quo",
-    "ColorBlock": 483,
-    "IconHint": "tempore",
-    "Selected": true,
-    "LastChanged": "1998-12-17T11:22:46.2253576+01:00",
+    "Id": 151,
+    "Name": "Crist LLC",
+    "ToolTip": "Tempora molestiae in tempora commodi.",
+    "Deleted": true,
+    "Rank": 391,
+    "Type": "maiores",
+    "ColorBlock": 598,
+    "IconHint": "porro",
+    "Selected": false,
+    "LastChanged": "2022-06-05T14:19:11.6433214+02:00",
     "ChildItems": [
       {
-        "Id": 308,
-        "Name": "Brown, Rodriguez and Lindgren",
-        "ToolTip": "Eaque animi debitis.",
-        "Deleted": true,
-        "Rank": 708,
-        "Type": "quia",
-        "ColorBlock": 558,
-        "IconHint": "repudiandae",
+        "Id": 205,
+        "Name": "Kautzer-Bode",
+        "ToolTip": "Dolorem aperiam laudantium.",
+        "Deleted": false,
+        "Rank": 807,
+        "Type": "et",
+        "ColorBlock": 995,
+        "IconHint": "atque",
         "Selected": false,
-        "LastChanged": "2001-02-22T11:22:46.2253576+01:00",
+        "LastChanged": "2013-04-19T14:19:11.6433214+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "in",
-        "Hidden": false,
-        "FullName": "Prof. Westley Serenity Prohaska II",
+        "ExtraInfo": "eius",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Uriah Rice",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 433
+            "FieldLength": 150
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Dessie Shanahan",
+    "ExtraInfo": "assumenda",
+    "StyleHint": "mollitia",
+    "Hidden": false,
+    "FullName": "Imogene Osinski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 375
+        "FieldType": "System.Int32",
+        "FieldLength": 843
       }
     }
   }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 791,
-    "Name": "Dicki-Kuhn",
-    "ToolTip": "Doloribus qui voluptate commodi.",
-    "Deleted": false,
-    "Rank": 803,
-    "Type": "nostrum",
-    "ColorBlock": 291,
-    "IconHint": "temporibus",
-    "Selected": true,
-    "LastChanged": "2016-12-30T11:22:46.0691442+01:00",
+    "Id": 989,
+    "Name": "Littel, Zemlak and Gleichner",
+    "ToolTip": "Et autem.",
+    "Deleted": true,
+    "Rank": 573,
+    "Type": "atque",
+    "ColorBlock": 410,
+    "IconHint": "sed",
+    "Selected": false,
+    "LastChanged": "2012-07-01T14:19:11.3992772+02:00",
     "ChildItems": [
       {
-        "Id": 334,
-        "Name": "Zboncak Group",
-        "ToolTip": "Illum tempore sit.",
+        "Id": 248,
+        "Name": "Shanahan, Kirlin and Waters",
+        "ToolTip": "Rerum tempore maxime recusandae sequi incidunt.",
         "Deleted": false,
-        "Rank": 523,
-        "Type": "neque",
-        "ColorBlock": 598,
-        "IconHint": "adipisci",
-        "Selected": true,
-        "LastChanged": "2001-04-16T11:22:46.0691442+02:00",
+        "Rank": 533,
+        "Type": "temporibus",
+        "ColorBlock": 237,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2003-09-29T14:19:11.3992772+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "pariatur",
-        "Hidden": false,
-        "FullName": "Jessica Goldner",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Howell Mitchell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 1000
+            "FieldLength": 69
           }
         }
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "commodi",
+    "ExtraInfo": "assumenda",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Silas Denesik",
+    "FullName": "Giovanna Feeney",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 605
+        "FieldLength": 167
       }
     }
   }

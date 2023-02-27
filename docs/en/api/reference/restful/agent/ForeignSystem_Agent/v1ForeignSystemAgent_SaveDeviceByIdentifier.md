@@ -87,9 +87,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Stokes, Prohaska and Mohr",
-  "DeviceName": "Bartell Inc and Sons",
-  "DeviceIdentifier": "in",
+  "ApplicationName": "Cummerata Group",
+  "DeviceName": "Yundt Inc and Sons",
+  "DeviceIdentifier": "sapiente",
   "ForeignDevice": null
 }
 ```
@@ -101,21 +101,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 368,
-  "Name": "McClure-Nolan",
-  "CreatedDate": "2011-01-18T11:22:38.3834434+01:00",
-  "UpdatedDate": "2002-08-03T11:22:38.3834434+02:00",
-  "AssociateFullName": "Concepcion Ritchie II",
-  "CreatedBy": "ea",
-  "UpdatedBy": "libero",
-  "DeviceIdentifier": "quia",
-  "ForeignAppId": 70,
+  "ForeignDeviceId": 280,
+  "Name": "Kutch-Mayert",
+  "CreatedDate": "2007-10-31T14:19:03.5602728+01:00",
+  "UpdatedDate": "2017-03-25T14:19:03.5602728+01:00",
+  "AssociateFullName": "Clovis Hettie Miller Sr.",
+  "CreatedBy": "voluptatem",
+  "UpdatedBy": "iste",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 692,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 626
+      "FieldLength": 622
     }
   }
 }

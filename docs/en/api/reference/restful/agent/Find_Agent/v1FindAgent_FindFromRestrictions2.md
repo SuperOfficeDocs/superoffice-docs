@@ -162,14 +162,14 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "repudiandae",
-  "ProviderName": "Olson-Skiles",
-  "PageSize": 133,
-  "PageNumber": 718
+  "Restrictions": "quos",
+  "ProviderName": "Sporer, Paucek and Gutkowski",
+  "PageSize": 498,
+  "PageNumber": 125
 }
 ```
 
@@ -182,51 +182,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Kautzer Inc and Sons",
-      "DisplayTooltip": "amet",
-      "DisplayType": "accusamus",
-      "CanOrderBy": true,
-      "Name": "Ernser, Lehner and Cummings",
+      "DisplayName": "Herman, Cartwright and Leannon",
+      "DisplayTooltip": "ut",
+      "DisplayType": "saepe",
+      "CanOrderBy": false,
+      "Name": "Renner Inc and Sons",
       "CanRestrictBy": false,
-      "RestrictionType": "eveniet",
-      "RestrictionListName": "Mohr-Lang",
+      "RestrictionType": "quaerat",
+      "RestrictionListName": "Davis-Roberts",
       "IsVisible": true,
-      "ExtraInfo": "fugiat",
-      "Width": "enim",
-      "IconHint": "maxime",
-      "HeadingIconHint": "est"
+      "ExtraInfo": "eius",
+      "Width": "neque",
+      "IconHint": "rerum",
+      "HeadingIconHint": "illum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Hackett LLC",
-      "PrimaryKey": 65,
+      "EntityName": "Crooks Inc and Sons",
+      "PrimaryKey": 542,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "ipsam",
-          "LinkHint": "beatae"
+          "DisplayValue": "quisquam",
+          "TooltipHint": "maxime",
+          "LinkHint": "libero"
         }
       },
-      "LinkHint": "beatae",
-      "StyleHint": "nesciunt",
+      "LinkHint": "omnis",
+      "StyleHint": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 374
+          "FieldType": "System.Int32",
+          "FieldLength": 459
         }
       }
     }
   ],
-  "RowCount": 410,
+  "RowCount": 443,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 766
     }
   }
 }

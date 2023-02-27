@@ -67,37 +67,37 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "laboriosam",
-  "ProviderName": "Davis, Hand and Davis",
-  "StorageKey": "enim",
+  "StorageType": "aliquam",
+  "ProviderName": "Orn, Schowalter and Gusikowski",
+  "StorageKey": "culpa",
   "Restrictions": [
     {
-      "Name": "O'Kon-Reinger",
-      "Operator": "repellendus",
+      "Name": "Schneider-Ankunding",
+      "Operator": "voluptas",
       "Values": [
-        "praesentium",
-        "ut"
+        "tenetur",
+        "numquam"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "necessitatibus"
+        "itaque",
+        "ipsa"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 807,
+      "InterParenthesis": 666,
       "InterOperator": "And",
-      "UniqueHash": 801
+      "UniqueHash": 709
     }
   ],
-  "Context": "ut"
+  "Context": "et"
 }
 ```
 

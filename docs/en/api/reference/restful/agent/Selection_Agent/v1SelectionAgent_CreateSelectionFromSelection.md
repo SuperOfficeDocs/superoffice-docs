@@ -115,14 +115,14 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 216,
-  "Name": "Huel Group",
+  "SelectionId": 52,
+  "Name": "Ryan-Marvin",
   "TargetSelectionType": "Combined",
-  "CopyMembers": false
+  "CopyMembers": true
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Open-source even-keeled ability",
-  "Postit": "veniam",
+  "Description": "Extended background synergy",
+  "Postit": "est",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 330,
-  "IncludePerson": 824,
-  "MemberCount": 948,
-  "Name": "Stark, Jenkins and Price",
-  "PostitTextId": 82,
-  "CreatedDate": "2009-03-08T11:22:39.3207231+01:00",
-  "SelectionId": 373,
-  "SoundEx": "voluptas",
-  "Source": 732,
-  "TextId": 270,
-  "UpdatedDate": "2006-11-15T11:22:39.3207231+01:00",
-  "UpdatedCount": 729,
-  "Visibility": 206,
+  "GroupIdx": 867,
+  "IncludePerson": 944,
+  "MemberCount": 250,
+  "Name": "Deckow-Kirlin",
+  "PostitTextId": 48,
+  "CreatedDate": "2002-06-26T14:19:04.2036046+02:00",
+  "SelectionId": 966,
+  "SoundEx": "et",
+  "Source": 338,
+  "TextId": 476,
+  "UpdatedDate": "2000-09-20T14:19:04.2036046+02:00",
+  "UpdatedCount": 137,
+  "Visibility": 275,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 949,
-  "TargetTableName": "Nicolas, Hahn and Barton",
-  "Completed": true,
-  "LeftSelectionId": 837,
-  "RightSelectionId": 889,
+  "TargetTableNumber": 120,
+  "TargetTableName": "Wiegand Inc and Sons",
+  "Completed": false,
+  "LeftSelectionId": 529,
+  "RightSelectionId": 653,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Stoltenberg LLC",
-  "ShadowProviderName": "Stroman-Tillman",
-  "ChartKey": "eius",
-  "LastLoaded": "1996-09-26T11:22:39.3207231+02:00",
-  "LastLoadedBy": 75,
+  "MainProviderName": "Jast, Ondricka and Wilkinson",
+  "ShadowProviderName": "Torphy Inc and Sons",
+  "ChartKey": "molestiae",
+  "LastLoaded": "2013-01-12T14:19:04.2036046+01:00",
+  "LastLoadedBy": 831,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-01-10T11:22:39.3207231+01:00",
-  "LastMembershipChangeBy": 559,
+  "LastMembershipChange": "2020-11-26T14:19:04.2036046+01:00",
+  "LastMembershipChangeBy": 766,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "enim",
-  "MemberTabHeading": "vel",
-  "MailingsProviderName": "Nicolas, Graham and Nicolas",
-  "DashboardTileDefinitionId": 680,
+  "MainHeading": "blanditiis",
+  "MemberTabHeading": "reprehenderit",
+  "MailingsProviderName": "Cummings-Kling",
+  "DashboardTileDefinitionId": 229,
   "VisibleFor": [
     {
-      "VisibleId": 941,
+      "VisibleId": 250,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 554
+          "FieldLength": 681
         }
       }
     },
     {
-      "VisibleId": 941,
+      "VisibleId": 250,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 554
+          "FieldLength": 681
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 75
+      "FieldType": "System.Int32",
+      "FieldLength": 987
     }
   }
 }

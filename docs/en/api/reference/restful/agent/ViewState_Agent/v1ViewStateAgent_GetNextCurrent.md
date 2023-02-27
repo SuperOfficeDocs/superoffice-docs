@@ -85,8 +85,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Padberg Inc and Sons",
-  "Id": 582
+  "HistoryName": "Cremin LLC",
+  "Id": 286
 }
 ```
 
@@ -97,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 114,
-  "Id": 48,
-  "HistoryName": "Schumm, Schmitt and Ullrich",
-  "HistoryId": 370,
-  "AssociateId": 591,
-  "Name": "Gerlach-Feeney",
-  "ItemInfo": "ducimus",
+  "Rank": 637,
+  "Id": 834,
+  "HistoryName": "Hudson-Littel",
+  "HistoryId": 122,
+  "AssociateId": 764,
+  "Name": "Moore-Runolfsson",
+  "ItemInfo": "a",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 125
+      "FieldType": "System.String",
+      "FieldLength": 825
     }
   }
 }

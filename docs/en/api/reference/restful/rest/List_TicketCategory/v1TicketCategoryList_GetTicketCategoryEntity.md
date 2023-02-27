@@ -88,36 +88,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 907,
-  "ParentId": 35,
-  "Name": "Gutkowski LLC",
-  "Fullname": "aliquam",
-  "CategoryMaster": 424,
+  "TicketCategoryId": 964,
+  "ParentId": 400,
+  "Name": "Kuhlman-McClure",
+  "Fullname": "eos",
+  "CategoryMaster": 475,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Nitzsche LLC",
+  "ExternalName": "Johnson, Grimes and Smitham",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 104,
-  "ReplyTemplate": 782,
-  "NotificationEmail": "jeffery_frami@boyleromaguera.biz",
+  "AssignmentLag": 151,
+  "ReplyTemplate": 699,
+  "NotificationEmail": "jazmyne.witting@roob.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 934,
+  "EffectiveReplyTemplateId": 676,
   "ExtraFields": {
-    "ExtraFields1": "sequi",
-    "ExtraFields2": "vitae"
+    "ExtraFields1": "distinctio",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "sed"
+    "CustomFields1": "neque",
+    "CustomFields2": "consequatur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldLength": 46
     }
   }
 }

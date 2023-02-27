@@ -66,7 +66,7 @@ OK
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Schamberger-Boehm",
-    "DisplayName": "Marquardt-Bartell",
-    "Description": "Automated dedicated methodology",
-    "ShortLabel": "labore",
+    "FieldName": "Yost, Olson and Franecki",
+    "DisplayName": "Schulist Group",
+    "Description": "Customizable bottom-line emulation",
+    "ShortLabel": "aut",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsMandatory": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 938,
-    "TemplateVariableName": "Lakin, Hilpert and Wiza"
+    "Rank": 654,
+    "TemplateVariableName": "Murphy Group"
   }
 ]
 ```

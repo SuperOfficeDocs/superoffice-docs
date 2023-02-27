@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 979
+  "QuoteId": 893
 }
 ```
 
@@ -100,26 +100,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 281,
-  "SaleId": 783,
-  "QuoteConnectionId": 584,
-  "ERPQuoteKey": "a",
-  "ERPOrderKey": "nihil",
-  "ActiveQuoteVersionId": 801,
-  "AcceptedQuoteAlternativeId": 975,
-  "UseValuesFromQuote": 905,
-  "DocumentId": 789,
-  "PoNumber": "728715",
-  "OrderComment": "voluptatem",
-  "PreferredEmailCulture": "deborah@schneider.info",
+  "QuoteId": 716,
+  "SaleId": 794,
+  "QuoteConnectionId": 143,
+  "ERPQuoteKey": "earum",
+  "ERPOrderKey": "est",
+  "ActiveQuoteVersionId": 333,
+  "AcceptedQuoteAlternativeId": 380,
+  "UseValuesFromQuote": 744,
+  "DocumentId": 369,
+  "PoNumber": "1318003",
+  "OrderComment": "provident",
+  "PreferredEmailCulture": "terry@leffler.us",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 227
+      "FieldType": "System.String",
+      "FieldLength": 275
     }
   }
 }

@@ -66,7 +66,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,29 +76,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 269,
-  "Name": "Wehner, Lesch and Wehner",
-  "CreatedDate": "2018-10-28T11:22:44.6788474+01:00",
-  "UpdatedDate": "2006-11-07T11:22:44.6788474+01:00",
+  "ForeignAppId": 180,
+  "Name": "Kuhlman, Waelchi and Kub",
+  "CreatedDate": "2017-12-10T14:19:10.3498478+01:00",
+  "UpdatedDate": "2017-02-26T14:19:10.3498478+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 541,
-      "Name": "Rutherford-Kuvalis",
-      "CreatedDate": "2011-07-16T11:22:44.8506265+02:00",
-      "UpdatedDate": "2005-06-02T11:22:44.8506265+02:00",
-      "AssociateFullName": "Moises Stiedemann",
-      "CreatedBy": "animi",
-      "UpdatedBy": "quo",
-      "DeviceIdentifier": "accusamus",
-      "ForeignAppId": 640,
+      "ForeignDeviceId": 1001,
+      "Name": "Friesen-Kuhlman",
+      "CreatedDate": "2003-06-02T14:19:10.3498478+02:00",
+      "UpdatedDate": "2011-07-05T14:19:10.3498478+02:00",
+      "AssociateFullName": "Mario Strosin",
+      "CreatedBy": "aut",
+      "UpdatedBy": "qui",
+      "DeviceIdentifier": "ut",
+      "ForeignAppId": 980,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 623
+          "FieldType": "System.Int32",
+          "FieldLength": 937
         }
       }
     }
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 292
+      "FieldLength": 19
     }
   }
 }

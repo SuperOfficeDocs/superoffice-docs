@@ -112,18 +112,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 254,
-      "ContactId": 579
+      "PersonId": 142,
+      "ContactId": 544
     },
     {
-      "PersonId": 254,
-      "ContactId": 579
+      "PersonId": 142,
+      "ContactId": 544
     }
   ]
 }
@@ -136,70 +136,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Persistent solution-oriented strategy",
-  "Postit": "consequatur",
+  "Description": "Progressive web-enabled emulation",
+  "Postit": "natus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 543,
-  "IncludePerson": 517,
-  "MemberCount": 405,
-  "Name": "Conroy-Hamill",
-  "PostitTextId": 599,
-  "CreatedDate": "2010-05-18T11:22:39.2894808+02:00",
-  "SelectionId": 824,
-  "SoundEx": "veniam",
-  "Source": 402,
-  "TextId": 173,
-  "UpdatedDate": "2013-07-07T11:22:39.2894808+02:00",
-  "UpdatedCount": 696,
-  "Visibility": 107,
+  "GroupIdx": 728,
+  "IncludePerson": 56,
+  "MemberCount": 339,
+  "Name": "Wuckert, Bins and Wiza",
+  "PostitTextId": 684,
+  "CreatedDate": "2008-12-29T14:19:04.1879797+01:00",
+  "SelectionId": 583,
+  "SoundEx": "occaecati",
+  "Source": 446,
+  "TextId": 487,
+  "UpdatedDate": "2016-05-15T14:19:04.1879797+02:00",
+  "UpdatedCount": 924,
+  "Visibility": 146,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 67,
-  "TargetTableName": "Daugherty, Bergnaum and Boehm",
+  "TargetTableNumber": 554,
+  "TargetTableName": "Mueller Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 331,
-  "RightSelectionId": 410,
+  "LeftSelectionId": 597,
+  "RightSelectionId": 8,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Herman LLC",
-  "ShadowProviderName": "Wiegand LLC",
-  "ChartKey": "dolorum",
-  "LastLoaded": "2003-02-25T11:22:39.2894808+01:00",
-  "LastLoadedBy": 615,
+  "MainProviderName": "Okuneva-Keeling",
+  "ShadowProviderName": "Connelly, Crist and Kub",
+  "ChartKey": "voluptatem",
+  "LastLoaded": "2017-11-06T14:19:04.1879797+01:00",
+  "LastLoadedBy": 669,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-08-02T11:22:39.2894808+02:00",
-  "LastMembershipChangeBy": 998,
+  "LastMembershipChange": "2006-01-16T14:19:04.1879797+01:00",
+  "LastMembershipChangeBy": 187,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sed",
-  "MemberTabHeading": "optio",
-  "MailingsProviderName": "McCullough-Rice",
-  "DashboardTileDefinitionId": 462,
+  "MainHeading": "non",
+  "MemberTabHeading": "harum",
+  "MailingsProviderName": "Cummerata, Hilpert and Gleason",
+  "DashboardTileDefinitionId": 538,
   "VisibleFor": [
     {
-      "VisibleId": 629,
+      "VisibleId": 756,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldType": "System.String",
+          "FieldLength": 553
         }
       }
     },
     {
-      "VisibleId": 629,
+      "VisibleId": 756,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldType": "System.String",
+          "FieldLength": 553
         }
       }
     }
@@ -208,8 +208,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 634
+      "FieldType": "System.String",
+      "FieldLength": 897
     }
   }
 }

@@ -170,7 +170,7 @@ OK
 POST /api/v1/Agents/Appointment/SaveAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -178,62 +178,62 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1999-02-01T11:22:37.0087674+01:00",
-  "AppointmentId": 790,
-  "Description": "Mandatory didactic standardization",
-  "StartDate": "1996-10-12T11:22:37.0087674+02:00",
-  "EndDate": "2019-01-08T11:22:37.0087674+01:00",
+  "CreatedDate": "2023-02-01T14:19:02.516142+01:00",
+  "AppointmentId": 330,
+  "Description": "Front-line value-added moderator",
+  "StartDate": "2015-03-16T14:19:02.516142+01:00",
+  "EndDate": "2009-12-11T14:19:02.516142+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 578,
+  "MotherId": 500,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2020-12-12T11:22:37.0087674+01:00",
+  "UpdatedDate": "2020-06-16T14:19:02.516142+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 94,
+  "ActiveLinks": 69,
   "Links": [
     {
-      "EntityName": "Cummings, Bins and Dooley",
-      "Id": 668,
-      "Description": "Intuitive uniform algorithm",
-      "ExtraInfo": "corporis",
-      "LinkId": 229
+      "EntityName": "Krajcik Inc and Sons",
+      "Id": 46,
+      "Description": "Reverse-engineered fresh-thinking local area network",
+      "ExtraInfo": "eius",
+      "LinkId": 566
     },
     {
-      "EntityName": "Cummings, Bins and Dooley",
-      "Id": 668,
-      "Description": "Intuitive uniform algorithm",
-      "ExtraInfo": "corporis",
-      "LinkId": 229
+      "EntityName": "Krajcik Inc and Sons",
+      "Id": 46,
+      "Description": "Reverse-engineered fresh-thinking local area network",
+      "ExtraInfo": "eius",
+      "LinkId": 566
     }
   ],
-  "AlarmLeadTime": "corrupti",
-  "HasAlarm": true,
-  "ColorIndex": 657,
-  "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "odit",
-  "LeadTime": "eos",
-  "Location": "modi",
-  "RejectCounter": 38,
+  "AlarmLeadTime": "ullam",
+  "HasAlarm": false,
+  "ColorIndex": 334,
+  "IsFree": false,
+  "IsAlldayEvent": true,
+  "LagTime": "beatae",
+  "LeadTime": "aliquam",
+  "Location": "eos",
+  "RejectCounter": 856,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 674,
-      "PersonId": 622,
-      "ContactId": 789,
-      "EmailId": 798,
+      "AssociateId": 852,
+      "PersonId": 498,
+      "ContactId": 63,
+      "EmailId": 578,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 674,
-      "PersonId": 622,
-      "ContactId": 789,
-      "EmailId": 798,
+      "AssociateId": 852,
+      "PersonId": 498,
+      "ContactId": 63,
+      "EmailId": 578,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -241,44 +241,44 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2000-12-11T11:22:37.0087674+01:00",
-  "HasConflict": true,
+  "ActiveDate": "1999-08-15T14:19:02.516142+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 648,
+  "PreferredTZLocation": 642,
   "Sale": null,
-  "SuggestedAppointmentId": 833,
+  "SuggestedAppointmentId": 554,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "est",
+  "CentralserviceVideomeetId": "quia",
   "UserDefinedFields": {
-    "SuperOffice:1": "Deja Bauch",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Margarette Feil PhD"
   },
   "ExtraFields": {
-    "ExtraFields1": "adipisci",
-    "ExtraFields2": "reiciendis"
+    "ExtraFields1": "doloribus",
+    "ExtraFields2": "quos"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "neque"
+    "CustomFields1": "facilis",
+    "CustomFields2": "labore"
   },
-  "PublishEventDate": "1997-06-02T11:22:37.0087674+02:00",
-  "PublishTo": "2007-10-28T11:22:37.0087674+01:00",
-  "PublishFrom": "2017-04-07T11:22:37.0087674+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2004-01-25T14:19:02.516142+01:00",
+  "PublishTo": "2023-02-05T14:19:02.516142+01:00",
+  "PublishFrom": "1998-07-08T14:19:02.516142+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 8,
+      "VisibleId": 119,
       "Visibility": "All",
-      "DisplayValue": "nemo"
+      "DisplayValue": "et"
     },
     {
-      "VisibleId": 8,
+      "VisibleId": 119,
       "Visibility": "All",
-      "DisplayValue": "nemo"
+      "DisplayValue": "et"
     }
   ]
 }
@@ -295,122 +295,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2001-01-10T11:22:37.0087674+01:00",
-  "AppointmentId": 422,
-  "Description": "Grass-roots incremental emulation",
-  "StartDate": "1997-07-07T11:22:37.0087674+02:00",
-  "EndDate": "1997-10-25T11:22:37.0087674+02:00",
+  "CreatedDate": "2020-11-10T14:19:02.5317757+01:00",
+  "AppointmentId": 808,
+  "Description": "Horizontal cohesive array",
+  "StartDate": "2013-09-09T14:19:02.5317757+02:00",
+  "EndDate": "2005-09-07T14:19:02.5317757+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 721,
+  "MotherId": 716,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2021-06-23T11:22:37.0243878+02:00",
+  "UpdatedDate": "1999-09-14T14:19:02.5317757+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 536,
+  "ActiveLinks": 329,
   "Links": [
     {
-      "EntityName": "Barton-Marks",
-      "Id": 214,
-      "Description": "Secured 5th generation structure",
-      "ExtraInfo": "consequatur",
-      "LinkId": 892,
+      "EntityName": "DuBuque-Emmerich",
+      "Id": 930,
+      "Description": "Front-line analyzing middleware",
+      "ExtraInfo": "odio",
+      "LinkId": 411,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 782
+          "FieldType": "System.Int32",
+          "FieldLength": 962
         }
       }
     }
   ],
-  "AlarmLeadTime": "ut",
-  "HasAlarm": true,
-  "ColorIndex": 426,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "perspiciatis",
-  "LeadTime": "occaecati",
-  "Location": "consequatur",
-  "RejectCounter": 690,
+  "AlarmLeadTime": "occaecati",
+  "HasAlarm": false,
+  "ColorIndex": 753,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "totam",
+  "LeadTime": "sit",
+  "Location": "sunt",
+  "RejectCounter": 970,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 238,
-      "PersonId": 384,
-      "ContactId": 406,
-      "EmailId": 740,
-      "SendEmail": false,
+      "AssociateId": 791,
+      "PersonId": 311,
+      "ContactId": 794,
+      "EmailId": 805,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 238,
-      "PersonId": 384,
-      "ContactId": 406,
-      "EmailId": 740,
-      "SendEmail": false,
+      "AssociateId": 791,
+      "PersonId": 311,
+      "ContactId": 794,
+      "EmailId": 805,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2022-11-18T11:22:37.0243878+01:00",
+  "ActiveDate": "1996-07-17T14:19:02.5317757+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 424,
+  "PreferredTZLocation": 56,
   "Sale": null,
-  "SuggestedAppointmentId": 819,
+  "SuggestedAppointmentId": 983,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quis",
+  "CentralserviceVideomeetId": "qui",
   "UserDefinedFields": {
-    "SuperOffice:1": "Madeline Schuppe",
-    "SuperOffice:2": "Darrion Camden Leannon DDS"
+    "SuperOffice:1": "Elnora Stanton",
+    "SuperOffice:2": "Maybelle Welch"
   },
   "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "optio",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "libero",
-    "CustomFields2": "provident"
+    "CustomFields1": "quis",
+    "CustomFields2": "officia"
   },
-  "PublishEventDate": "2004-09-25T11:22:37.0243878+02:00",
-  "PublishTo": "2019-05-19T11:22:37.0243878+02:00",
-  "PublishFrom": "2002-05-04T11:22:37.0243878+02:00",
+  "PublishEventDate": "1998-08-28T14:19:02.5317757+02:00",
+  "PublishTo": "2010-05-14T14:19:02.5317757+02:00",
+  "PublishFrom": "2009-02-13T14:19:02.5317757+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 719,
+      "VisibleId": 879,
       "Visibility": "All",
-      "DisplayValue": "aliquam",
+      "DisplayValue": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 682
+          "FieldType": "System.Int32",
+          "FieldLength": 527
         }
       }
     },
     {
-      "VisibleId": 719,
+      "VisibleId": 879,
       "Visibility": "All",
-      "DisplayValue": "aliquam",
+      "DisplayValue": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 682
+          "FieldType": "System.Int32",
+          "FieldLength": 527
         }
       }
     }
@@ -419,8 +419,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 204
+      "FieldType": "System.String",
+      "FieldLength": 401
     }
   }
 }

@@ -66,20 +66,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Armstrong-Kling",
-      "Delimiter": "accusantium",
-      "Flags": "rerum",
-      "TotalItems": 1000,
-      "UnreadItems": 601,
-      "Subscribed": false,
-      "EmailFolderId": 83
+      "Name": "Bins LLC",
+      "Delimiter": "omnis",
+      "Flags": "harum",
+      "TotalItems": 169,
+      "UnreadItems": 677,
+      "Subscribed": true,
+      "EmailFolderId": 937
     }
   ]
 }

@@ -68,8 +68,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 561,
-  "Username": "velit"
+  "ChatTopicId": 309,
+  "Username": "aliquam"
 }
 ```
 

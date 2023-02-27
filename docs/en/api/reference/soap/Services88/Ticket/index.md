@@ -18,6 +18,7 @@ Download [WSDL file for Services88/Ticket](../Services88-Ticket.md) if you need 
 * [BatchForward](BatchForward.md)
 * [BatchReply](BatchReply.md)
 * [CalculateMessageRecipients](CalculateMessageRecipients.md)
+* [ClearNotify](ClearNotify.md)
 * [CreateDefaultAttachmentEntity](CreateDefaultAttachmentEntity.md)
 * [CreateDefaultTicketEntity](CreateDefaultTicketEntity.md)
 * [CreateDefaultTicketMessageEntity](CreateDefaultTicketMessageEntity.md)

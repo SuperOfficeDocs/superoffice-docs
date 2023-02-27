@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 388
+  "ContactId": 644
 }
 ```
 
@@ -92,41 +92,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 780.366,
-  "Wgs84Longitude": 27406.829999999998,
+  "Wgs84Latitude": 20490.092,
+  "Wgs84Longitude": 29578.692,
   "LocalizedAddress": [
     [
       {
-        "Name": "Toy Inc and Sons",
-        "Value": "id",
-        "Tooltip": "nulla",
-        "Label": "dolorem",
-        "ValueLength": 979,
-        "AddressType": "libero",
+        "Name": "Fadel, Stehr and Hahn",
+        "Value": "est",
+        "Tooltip": "eveniet",
+        "Label": "est",
+        "ValueLength": 485,
+        "AddressType": "sint",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 415
+            "FieldType": "System.String",
+            "FieldLength": 130
           }
         }
       }
     ],
     [
       {
-        "Name": "Huel LLC",
-        "Value": "velit",
-        "Tooltip": "asperiores",
-        "Label": "ea",
-        "ValueLength": 960,
-        "AddressType": "totam",
+        "Name": "Sporer Group",
+        "Value": "sequi",
+        "Tooltip": "ut",
+        "Label": "necessitatibus",
+        "ValueLength": 459,
+        "AddressType": "veniam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 359
+            "FieldType": "System.Int32",
+            "FieldLength": 122
           }
         }
       }
@@ -134,13 +134,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "praesentium",
+  "Formatted": "officia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldType": "System.String",
+      "FieldLength": 36
     }
   }
 }

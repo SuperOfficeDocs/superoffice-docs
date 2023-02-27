@@ -138,25 +138,25 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 617,
-  "Name": "Rice Inc and Sons",
-  "Description": "Synergized human-resource data-warehouse",
-  "WelcomeMessage": "aut",
+  "ChatTopicId": 85,
+  "Name": "Stokes Group",
+  "Description": "Up-sized responsive groupware",
+  "WelcomeMessage": "ullam",
   "Language": null,
-  "LastAccept": "2004-04-20T11:22:44.4132819+02:00",
-  "SecondsPrAccept": 637,
-  "AlertRecipient": "voluptas",
+  "LastAccept": "2022-11-29T14:19:10.0998102+01:00",
+  "SecondsPrAccept": 212,
+  "AlertRecipient": "officiis",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "excepturi",
+  "BadgeHeader": "aut",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "omnis",
-  "WarnNewChatMinutes": 840,
-  "WarnManagerNewChatMinutes": 460,
+  "CustomQueueText": "est",
+  "WarnNewChatMinutes": 882,
+  "WarnManagerNewChatMinutes": 12,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -166,13 +166,13 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 467,
-  "WarnManagerChatMessageMinutes": 745,
+  "WarnChatMessageMinutes": 538,
+  "WarnManagerChatMessageMinutes": 943,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 560,
-  "OfflineFormQueueLength": 829,
+  "OfflineFormTimeLimit": 140,
+  "OfflineFormQueueLength": 43,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "neque"
+  "WidgetRatingText": "enim"
 }
 ```
 
@@ -183,43 +183,43 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 399,
-  "Name": "Homenick, Sanford and Blick",
-  "Description": "Down-sized actuating leverage",
-  "WelcomeMessage": "animi",
+  "ChatTopicId": 16,
+  "Name": "Roob Inc and Sons",
+  "Description": "Distributed client-driven frame",
+  "WelcomeMessage": "omnis",
   "Language": null,
-  "LastAccept": "2011-08-22T11:22:44.4289042+02:00",
-  "SecondsPrAccept": 112,
-  "AlertRecipient": "recusandae",
+  "LastAccept": "2018-12-11T14:19:10.0998102+01:00",
+  "SecondsPrAccept": 569,
+  "AlertRecipient": "in",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "dolores",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "et",
-  "WarnNewChatMinutes": 192,
-  "WarnManagerNewChatMinutes": 656,
+  "CollectConsent": false,
+  "BadgeHeader": "animi",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "reiciendis",
+  "WarnNewChatMinutes": 237,
+  "WarnManagerNewChatMinutes": 861,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 700,
-  "WarnManagerChatMessageMinutes": 540,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 774,
+  "WarnManagerChatMessageMinutes": 548,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 175,
-  "OfflineFormQueueLength": 705,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "non",
+  "OfflineFormTimeLimit": 948,
+  "OfflineFormQueueLength": 177,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "maiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 112
+      "FieldType": "System.Int32",
+      "FieldLength": 24
     }
   },
   "_Links": {

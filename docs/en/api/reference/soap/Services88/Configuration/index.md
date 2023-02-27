@@ -47,6 +47,7 @@ Download [WSDL file for Services88/Configuration](../Services88-Configuration.md
 * [GetRefreshedPageConfiguration](GetRefreshedPageConfiguration.md)
 * [GetScreenConfigurationDelta](GetScreenConfigurationDelta.md)
 * [GetScreenConfigurationDeltas](GetScreenConfigurationDeltas.md)
+* [GetSpfDomain](GetSpfDomain.md)
 * [GetSystemEventEntity](GetSystemEventEntity.md)
 * [GetWindowPosSize](GetWindowPosSize.md)
 * [GetWindowPosSizeList](GetWindowPosSizeList.md)

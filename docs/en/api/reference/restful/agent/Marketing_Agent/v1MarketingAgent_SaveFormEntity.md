@@ -104,32 +104,32 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 138,
-  "FormKey": "cum",
-  "Name": "Weissnat-Smitham",
-  "Description": "Multi-lateral 24 hour orchestration",
-  "Config": "recusandae",
-  "FolderId": 742,
-  "ScriptId": 339,
-  "ResponseShipmentId": 879,
+  "FormId": 241,
+  "FormKey": "provident",
+  "Name": "Quitzon Group",
+  "Description": "Compatible zero defect benchmark",
+  "Config": "ut",
+  "FolderId": 599,
+  "ScriptId": 383,
+  "ResponseShipmentId": 93,
   "Active": false,
-  "Expires": "2005-02-13T11:22:38.5552678+01:00",
-  "MaxSubmits": 110,
+  "Expires": "2005-12-23T14:19:03.7019992+01:00",
+  "MaxSubmits": 112,
   "Type": "Normal",
-  "Recipe": "magnam",
-  "GroupId": 119,
-  "NewTicket": true,
+  "Recipe": "rerum",
+  "GroupId": 898,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2007-04-08T11:22:38.5552678+02:00",
-  "RegisteredAssociateId": 768,
-  "Updated": "2022-04-11T11:22:38.5552678+02:00",
-  "UpdatedAssociateId": 528,
-  "UpdatedCount": 572,
-  "FolderName": "McClure, Zieme and Haley"
+  "Registered": "1998-05-08T14:19:03.7019992+02:00",
+  "RegisteredAssociateId": 853,
+  "Updated": "1996-05-23T14:19:03.7019992+02:00",
+  "UpdatedAssociateId": 972,
+  "UpdatedCount": 458,
+  "FolderName": "Hartmann, Halvorson and Greenholt"
 }
 ```
 
@@ -140,34 +140,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 979,
-  "FormKey": "voluptatem",
-  "Name": "Wiegand, Kihn and Raynor",
-  "Description": "Virtual foreground matrices",
-  "Config": "eveniet",
-  "FolderId": 757,
-  "ScriptId": 771,
-  "ResponseShipmentId": 731,
-  "Active": true,
-  "Expires": "1999-10-21T11:22:38.5552678+02:00",
-  "MaxSubmits": 138,
+  "FormId": 628,
+  "FormKey": "sed",
+  "Name": "Hand LLC",
+  "Description": "Assimilated secondary portal",
+  "Config": "aliquam",
+  "FolderId": 625,
+  "ScriptId": 6,
+  "ResponseShipmentId": 223,
+  "Active": false,
+  "Expires": "2010-09-07T14:19:03.7019992+02:00",
+  "MaxSubmits": 166,
   "Type": "Normal",
-  "Recipe": "similique",
-  "GroupId": 985,
-  "NewTicket": false,
+  "Recipe": "maxime",
+  "GroupId": 289,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2023-01-02T11:22:38.5552678+01:00",
-  "RegisteredAssociateId": 942,
-  "Updated": "2010-10-24T11:22:38.5552678+02:00",
-  "UpdatedAssociateId": 906,
-  "UpdatedCount": 846,
-  "FolderName": "Homenick, Douglas and Gutkowski",
+  "Registered": "1998-02-22T14:19:03.7019992+01:00",
+  "RegisteredAssociateId": 526,
+  "Updated": "2008-08-29T14:19:03.7019992+02:00",
+  "UpdatedAssociateId": 907,
+  "UpdatedCount": 653,
+  "FolderName": "Pfeffer LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 64
+      "FieldType": "System.String",
+      "FieldLength": 850
     }
   }
 }

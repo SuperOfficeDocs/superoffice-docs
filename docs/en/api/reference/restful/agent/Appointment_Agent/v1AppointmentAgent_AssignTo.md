@@ -128,11 +128,11 @@ OK
 POST /api/v1/Agents/Appointment/AssignTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 323,
+  "AppointmentId": 236,
   "Participant": null,
   "UpdateMode": "OnlyThis"
 }
@@ -149,122 +149,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2020-03-21T11:22:37.071254+01:00",
-  "AppointmentId": 238,
-  "Description": "Front-line contextually-based strategy",
-  "StartDate": "2008-05-10T11:22:37.071254+02:00",
-  "EndDate": "2018-01-01T11:22:37.071254+01:00",
+  "CreatedDate": "2002-08-28T14:19:02.5942767+02:00",
+  "AppointmentId": 799,
+  "Description": "Persevering executive algorithm",
+  "StartDate": "2002-08-18T14:19:02.5942767+02:00",
+  "EndDate": "2018-10-15T14:19:02.5942767+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 606,
+  "MotherId": 614,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2003-01-13T11:22:37.0868736+01:00",
+  "UpdatedDate": "1996-08-09T14:19:02.5942767+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 571,
+  "ActiveLinks": 622,
   "Links": [
     {
-      "EntityName": "Stroman, Schmitt and Kemmer",
-      "Id": 658,
-      "Description": "User-friendly modular neural-net",
-      "ExtraInfo": "harum",
-      "LinkId": 145,
+      "EntityName": "Balistreri-Daugherty",
+      "Id": 352,
+      "Description": "Enterprise-wide systematic structure",
+      "ExtraInfo": "dolor",
+      "LinkId": 791,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 616
+          "FieldLength": 172
         }
       }
     }
   ],
-  "AlarmLeadTime": "molestiae",
+  "AlarmLeadTime": "magnam",
   "HasAlarm": false,
-  "ColorIndex": 579,
+  "ColorIndex": 674,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "tempora",
-  "LeadTime": "odio",
-  "Location": "assumenda",
-  "RejectCounter": 547,
+  "IsAlldayEvent": false,
+  "LagTime": "quaerat",
+  "LeadTime": "ex",
+  "Location": "velit",
+  "RejectCounter": 666,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 836,
-      "PersonId": 826,
-      "ContactId": 72,
-      "EmailId": 695,
-      "SendEmail": false,
+      "AssociateId": 454,
+      "PersonId": 757,
+      "ContactId": 904,
+      "EmailId": 125,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 836,
-      "PersonId": 826,
-      "ContactId": 72,
-      "EmailId": 695,
-      "SendEmail": false,
+      "AssociateId": 454,
+      "PersonId": 757,
+      "ContactId": 904,
+      "EmailId": 125,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2006-01-19T11:22:37.0868736+01:00",
+  "ActiveDate": "1999-03-22T14:19:02.5942767+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 570,
+  "PreferredTZLocation": 237,
   "Sale": null,
-  "SuggestedAppointmentId": 248,
+  "SuggestedAppointmentId": 441,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ab",
+  "CentralserviceVideomeetId": "nulla",
   "UserDefinedFields": {
-    "SuperOffice:1": "Crawford Schuppe",
-    "SuperOffice:2": "Frankie Lubowitz"
+    "SuperOffice:1": "1998829868",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "ratione",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "aperiam"
   },
   "CustomFields": {
-    "CustomFields1": "magnam",
-    "CustomFields2": "modi"
+    "CustomFields1": "nisi",
+    "CustomFields2": "distinctio"
   },
-  "PublishEventDate": "2003-01-14T11:22:37.0868736+01:00",
-  "PublishTo": "2004-02-16T11:22:37.0868736+01:00",
-  "PublishFrom": "2015-06-05T11:22:37.0868736+02:00",
+  "PublishEventDate": "2009-06-21T14:19:02.5942767+02:00",
+  "PublishTo": "2021-06-29T14:19:02.5942767+02:00",
+  "PublishFrom": "2020-09-04T14:19:02.5942767+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 465,
+      "VisibleId": 350,
       "Visibility": "All",
-      "DisplayValue": "expedita",
+      "DisplayValue": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 904
+          "FieldLength": 520
         }
       }
     },
     {
-      "VisibleId": 465,
+      "VisibleId": 350,
       "Visibility": "All",
-      "DisplayValue": "expedita",
+      "DisplayValue": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 904
+          "FieldLength": 520
         }
       }
     }
@@ -273,8 +273,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 846
+      "FieldType": "System.Int32",
+      "FieldLength": 825
     }
   }
 }

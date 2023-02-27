@@ -106,50 +106,50 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Boehm-Jacobson",
+  "ProviderName": "Wilderman, Smitham and Haley",
   "Columns": [
-    "nulla",
-    "corrupti"
+    "nostrum",
+    "iusto"
   ],
   "SortOrder": [
     {
-      "Name": "Dicki-Hodkiewicz",
+      "Name": "Frami Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Dicki-Hodkiewicz",
+      "Name": "Frami Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Cremin, Homenick and Kulas",
-      "Operator": "repellat",
+      "Name": "Larson-Wyman",
+      "Operator": "aut",
       "Values": [
-        "sit",
-        "nulla"
+        "laborum",
+        "eligendi"
       ],
       "DisplayValues": [
-        "mollitia",
-        "iste"
+        "et",
+        "ratione"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 394,
+      "InterParenthesis": 589,
       "InterOperator": "And",
-      "UniqueHash": 69
+      "UniqueHash": 223
     }
   ],
   "Entities": [
-    "impedit",
-    "consequatur"
+    "aut",
+    "optio"
   ],
-  "Page": 935,
-  "PageSize": 206
+  "Page": 494,
+  "PageSize": 706
 }
 ```
 
@@ -161,23 +161,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Beatty-Hyatt",
-    "PrimaryKey": 229,
+    "EntityName": "Champlin, Senger and Witting",
+    "PrimaryKey": 165,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "accusantium",
-        "TooltipHint": "voluptatem",
-        "LinkHint": "quod"
+        "DisplayValue": "doloremque",
+        "TooltipHint": "et",
+        "LinkHint": "est"
       }
     },
-    "LinkHint": "error",
-    "StyleHint": "rerum",
+    "LinkHint": "ut",
+    "StyleHint": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 687
+        "FieldLength": 493
       }
     }
   }

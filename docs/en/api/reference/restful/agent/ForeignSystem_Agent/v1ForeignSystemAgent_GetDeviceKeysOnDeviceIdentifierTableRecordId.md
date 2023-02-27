@@ -83,15 +83,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Monahan-Harvey",
-  "DeviceName": "Schmeler Group",
-  "DeviceIdentifier": "ut",
-  "TableName": "Pollich-McLaughlin",
-  "RecordId": 274
+  "ApplicationName": "Koch Group",
+  "DeviceName": "Friesen-Kirlin",
+  "DeviceIdentifier": "ex",
+  "TableName": "Ortiz, Deckow and Funk",
+  "RecordId": 729
 }
 ```
 
@@ -103,20 +103,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "ratione",
-    "Value": "qui",
-    "RecordId": 459,
-    "CreatedDate": "2008-04-07T11:22:38.3990648+02:00",
-    "UpdatedDate": "2018-04-20T11:22:38.3990648+02:00",
-    "UpdatedBy": "asperiores",
-    "CreatedBy": "libero",
-    "TableName": "Kuphal Inc and Sons",
+    "Key": "est",
+    "Value": "sed",
+    "RecordId": 201,
+    "CreatedDate": "2010-06-09T14:19:03.5759842+02:00",
+    "UpdatedDate": "2008-07-23T14:19:03.5759842+02:00",
+    "UpdatedBy": "fuga",
+    "CreatedBy": "accusamus",
+    "TableName": "Feest Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 814
+        "FieldLength": 435
       }
     }
   }

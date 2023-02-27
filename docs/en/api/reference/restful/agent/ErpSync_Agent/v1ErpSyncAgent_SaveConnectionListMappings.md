@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Christiansen LLC",
+      "ErpListName": "Ullrich, Keeling and Aufderhar",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Schmidt, Rau and Veum",
-      "ErpFieldId": 908,
+      "ErpActorTypeName": "Leuschke, Harvey and Hermiston",
+      "ErpFieldId": 505,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 522
+          "FieldLength": 825
         }
       }
     }
   ],
-  "ErpConnectionId": 278,
-  "ErpConnectionName": "Breitenberg Group",
+  "ErpConnectionId": 821,
+  "ErpConnectionName": "Hettinger-Becker",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 531
+      "FieldType": "System.Int32",
+      "FieldLength": 294
     }
   }
 }

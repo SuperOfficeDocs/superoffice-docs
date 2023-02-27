@@ -78,15 +78,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 385,
-  "Value": "eligendi",
-  "Tooltip": "quia",
+  "Id": 27,
+  "Value": "magni",
+  "Tooltip": "possimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 425
+      "FieldType": "System.Int32",
+      "FieldLength": 548
     }
   }
 }

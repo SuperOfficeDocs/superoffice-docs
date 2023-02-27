@@ -25,7 +25,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=769
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=566
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 677,
+  "DocumentId": 777,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "dignissimos",
-  "Header": "quas",
-  "Name": "Jacobs Inc and Sons",
-  "OurRef": "qui",
-  "YourRef": "dolorem",
-  "CreatedDate": "2012-09-28T11:22:37.8991839+02:00",
-  "UpdatedDate": "2009-12-13T11:22:37.8991839+01:00",
-  "Description": "Secured grid-enabled projection",
+  "Attention": "itaque",
+  "Header": "asperiores",
+  "Name": "Hermiston-Gorczany",
+  "OurRef": "voluptatum",
+  "YourRef": "est",
+  "CreatedDate": "2021-07-15T14:19:03.2761568+02:00",
+  "UpdatedDate": "2021-03-13T14:19:03.2761568+01:00",
+  "Description": "Organic zero administration function",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1996-06-03T11:22:37.8991839+02:00",
-  "ExternalRef": "ut",
+  "Date": "2015-09-09T14:19:03.291782+02:00",
+  "ExternalRef": "corrupti",
   "Completed": "Completed",
-  "ActiveLinks": 104,
+  "ActiveLinks": 88,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Pouros, Towne and Mann",
-      "Id": 940,
-      "Description": "Ameliorated composite solution",
-      "ExtraInfo": "tempore",
-      "LinkId": 800,
+      "EntityName": "Leuschke, Ratke and Medhurst",
+      "Id": 799,
+      "Description": "Configurable mobile parallelism",
+      "ExtraInfo": "autem",
+      "LinkId": 570,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 683
+          "FieldType": "System.Int32",
+          "FieldLength": 687
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 1000,
-  "Snum": 443,
+  "SuggestedDocumentId": 729,
+  "Snum": 504,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Haley Smith",
-    "SuperOffice:2": "1820840019"
+    "SuperOffice:1": "Major Douglas",
+    "SuperOffice:2": "Camren Cristal Hackett II"
   },
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "repellendus",
+    "ExtraFields2": "perferendis"
   },
   "CustomFields": {
-    "CustomFields1": "maiores",
-    "CustomFields2": "et"
+    "CustomFields1": "in",
+    "CustomFields2": "itaque"
   },
-  "PublishEventDate": "1996-12-07T11:22:37.8991839+01:00",
-  "PublishTo": "2021-01-25T11:22:37.8991839+01:00",
-  "PublishFrom": "1997-05-04T11:22:37.8991839+02:00",
+  "PublishEventDate": "2002-09-27T14:19:03.291782+02:00",
+  "PublishTo": "2016-11-30T14:19:03.291782+01:00",
+  "PublishFrom": "1999-07-03T14:19:03.291782+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 983,
+      "VisibleId": 566,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "excepturi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 185
+          "FieldLength": 209
         }
       }
     },
     {
-      "VisibleId": 983,
+      "VisibleId": 566,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "excepturi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 185
+          "FieldLength": 209
         }
       }
     }
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 279
+      "FieldLength": 481
     }
   }
 }

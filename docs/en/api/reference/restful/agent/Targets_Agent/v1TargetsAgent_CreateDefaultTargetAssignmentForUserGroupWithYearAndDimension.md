@@ -86,9 +86,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 826,
-  "Year": 248,
-  "TargetDimensionId": 783
+  "UserGroupId": 63,
+  "Year": 731,
+  "TargetDimensionId": 919
 }
 ```
 
@@ -100,24 +100,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 267,
+    "TargetAssignmentInfoId": 198,
     "Values": [
-      163,
-      143
+      516,
+      422
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 981,
-    "DimensionListItemDisplayName": "McGlynn, Schuster and Kreiger",
+    "DimensionListItem": 228,
+    "DimensionListItemDisplayName": "Von LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 349
+        "FieldType": "System.Int32",
+        "FieldLength": 76
       }
     }
   }

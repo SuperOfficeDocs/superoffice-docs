@@ -114,29 +114,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Shields-Lowe",
-  "Comment": "cumque",
-  "StakeholderRoleId": 411,
-  "CountryId": 637,
-  "PersonId": 878,
-  "EmailDescription": "shania_botsford@goldner.biz",
-  "EmailId": 63,
-  "EmailAddress": "myles@bernhardthompson.us",
-  "PhoneId": 191,
-  "ContactName": "McClure Inc and Sons",
-  "ContactId": 664,
-  "SaleId": 567,
-  "Mrmrs": "suscipit",
-  "Firstname": "Fannie",
-  "MiddleName": "Harris, Rath and Tromp",
-  "Lastname": "Sipes",
-  "SaleStakeholderId": 419,
-  "Rank": 357,
-  "Phone": "039.972.5366 x069"
+  "StakeholderRoleName": "Roberts Group",
+  "Comment": "sunt",
+  "StakeholderRoleId": 835,
+  "CountryId": 833,
+  "PersonId": 142,
+  "EmailDescription": "murphy@smitham.com",
+  "EmailId": 929,
+  "EmailAddress": "theo@jaskolski.ca",
+  "PhoneId": 476,
+  "ContactName": "Wolff-Morar",
+  "ContactId": 33,
+  "SaleId": 30,
+  "Mrmrs": "ea",
+  "Firstname": "Lonzo",
+  "MiddleName": "Kozey, VonRueden and McDermott",
+  "Lastname": "Turcotte",
+  "SaleStakeholderId": 559,
+  "Rank": 201,
+  "Phone": "543-976-9760"
 }
 ```
 
@@ -147,31 +147,31 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Thompson-Windler",
-  "Comment": "ducimus",
-  "StakeholderRoleId": 753,
-  "CountryId": 874,
-  "PersonId": 26,
-  "EmailDescription": "bert@hyatt.com",
-  "EmailId": 873,
-  "EmailAddress": "sydni@kunde.name",
-  "PhoneId": 141,
-  "ContactName": "Stoltenberg, Kerluke and Keeling",
-  "ContactId": 934,
-  "SaleId": 683,
-  "Mrmrs": "aut",
-  "Firstname": "Justice",
-  "MiddleName": "Blanda-Rempel",
-  "Lastname": "Abshire",
-  "SaleStakeholderId": 276,
-  "Rank": 374,
-  "Phone": "1-255-658-5519",
+  "StakeholderRoleName": "Kerluke, Walsh and Mosciski",
+  "Comment": "fugit",
+  "StakeholderRoleId": 74,
+  "CountryId": 986,
+  "PersonId": 620,
+  "EmailDescription": "kailyn_herzog@shields.co.uk",
+  "EmailId": 456,
+  "EmailAddress": "ilene.rowe@jewess.us",
+  "PhoneId": 878,
+  "ContactName": "Balistreri, Willms and Haag",
+  "ContactId": 518,
+  "SaleId": 568,
+  "Mrmrs": "repudiandae",
+  "Firstname": "Kristina",
+  "MiddleName": "Koss Group",
+  "Lastname": "Grady",
+  "SaleStakeholderId": 857,
+  "Rank": 653,
+  "Phone": "1-787-983-6481",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldLength": 996
     }
   },
   "_Links": {

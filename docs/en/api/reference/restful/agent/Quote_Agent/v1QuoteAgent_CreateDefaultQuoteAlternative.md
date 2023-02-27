@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,35 +88,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 992,
-  "ERPQuoteAlternativeKey": "saepe",
-  "QuoteVersionId": 587,
-  "Name": "Gerhold, Hackett and Conn",
-  "Description": "Networked multi-tasking conglomeration",
+  "QuoteAlternativeId": 49,
+  "ERPQuoteAlternativeKey": "officiis",
+  "QuoteVersionId": 558,
+  "Name": "Heaney-Flatley",
+  "Description": "Multi-channelled heuristic capacity",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 23304.424,
-  "ERPDiscountAmount": 20816.028,
-  "DiscountPercent": 20950.79,
-  "DiscountAmount": 23906.152,
+  "ERPDiscountPercent": 20769.018,
+  "ERPDiscountAmount": 9151.2799999999988,
+  "DiscountPercent": 12253.939999999999,
+  "DiscountAmount": 26240.982,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "et",
-  "VAT": 5142.894,
-  "EarningPercent": 14848.892,
-  "EarningAmount": 5920.126,
-  "SubTotal": 17750.976,
-  "TotalPrice": 21339.406,
-  "ExtraField1": "in",
-  "ExtraField2": "non",
-  "ExtraField3": "voluptas",
-  "ExtraField4": "repudiandae",
-  "ExtraField5": "eum",
+  "VATInfo": "beatae",
+  "VAT": 22445.708,
+  "EarningPercent": 1244.1979999999999,
+  "EarningAmount": 5230.646,
+  "SubTotal": 18315.095999999998,
+  "TotalPrice": 19831.952,
+  "ExtraField1": "sunt",
+  "ExtraField2": "eveniet",
+  "ExtraField3": "ea",
+  "ExtraField4": "placeat",
+  "ExtraField5": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 339
+      "FieldType": "System.String",
+      "FieldLength": 557
     }
   }
 }

@@ -80,19 +80,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 83,
-  "Name": "Moen-Rodriguez",
-  "Tooltip": "quas",
-  "Rank": 979,
-  "Rate": 29845.082,
-  "Units": 9123.074,
+  "CurrencyId": 75,
+  "Name": "Schmeler, Gislason and Yost",
+  "Tooltip": "laborum",
+  "Rank": 295,
+  "Rate": 2002.626,
+  "Units": 11614.604,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 157
+      "FieldLength": 569
     }
   }
 }

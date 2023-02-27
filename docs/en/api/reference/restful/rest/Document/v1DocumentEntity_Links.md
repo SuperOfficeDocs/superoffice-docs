@@ -74,13 +74,13 @@ GET /api/v1/Document/{id}/Links?$select=name,department,category/id
 GET /api/v1/Document/{id}/Links?$filter=name begins 'S'
 GET /api/v1/Document/{id}/Links?$orderBy=name asc
 GET /api/v1/Document/{id}/Links?$entities=maiores
-GET /api/v1/Document/{id}/Links?$top=170
-GET /api/v1/Document/{id}/Links?$skip=257
+GET /api/v1/Document/{id}/Links?$top=112
+GET /api/v1/Document/{id}/Links?$skip=604
 GET /api/v1/Document/{id}/Links?$mode=Full
 GET /api/v1/Document/{id}/Links?$options=GrandTotal=true
-GET /api/v1/Document/{id}/Links?$context=vitae
+GET /api/v1/Document/{id}/Links?$context=eos
 GET /api/v1/Document/{id}/Links?$format=JSON
-GET /api/v1/Document/{id}/Links?$jsonSafe=True
+GET /api/v1/Document/{id}/Links?$jsonSafe=False
 GET /api/v1/Document/{id}/Links?$output=Display
 ```
 
@@ -122,7 +122,7 @@ OK
 GET /api/v1/Document/{id}/Links
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -133,19 +133,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "adipisci",
   "value": [
     {
-      "PrimaryKey": 1909,
+      "PrimaryKey": 7807,
       "EntityName": "person",
-      "personId": 1909,
-      "fullName": "Javon Johns"
+      "personId": 7807,
+      "fullName": "Leonard Tremblay"
     },
     {
-      "PrimaryKey": 4248,
+      "PrimaryKey": 5077,
       "EntityName": "person",
-      "personId": 4248,
-      "fullName": "Trycia Barton"
+      "personId": 5077,
+      "fullName": "Susan Nikolaus"
     }
   ]
 }

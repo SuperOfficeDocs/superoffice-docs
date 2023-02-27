@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 251,
-    "Value": "fuga",
-    "Tooltip": "magnam",
+    "Id": 257,
+    "Value": "asperiores",
+    "Tooltip": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 119
+        "FieldLength": 95
       }
     }
   },
   {
-    "Id": 251,
-    "Value": "fuga",
-    "Tooltip": "magnam",
+    "Id": 257,
+    "Value": "asperiores",
+    "Tooltip": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 119
+        "FieldLength": 95
       }
     }
   }

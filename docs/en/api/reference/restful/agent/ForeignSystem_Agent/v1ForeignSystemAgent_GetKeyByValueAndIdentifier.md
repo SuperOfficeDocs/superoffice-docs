@@ -84,16 +84,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Simonis-Jerde",
-  "DeviceName": "Farrell, Wiza and Miller",
-  "DeviceIdentifier": "qui",
-  "KeyName": "Cummerata, Purdy and Smitham",
-  "KeyValue": "facere",
-  "TableName": "Erdman-Renner"
+  "ApplicationName": "Connelly, Weber and Cassin",
+  "DeviceName": "Veum, Koepp and Stokes",
+  "DeviceIdentifier": "quibusdam",
+  "KeyName": "Brakus Group",
+  "KeyValue": "deleniti",
+  "TableName": "Schmitt-Corwin"
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "eos",
-  "Value": "non",
-  "RecordId": 261,
-  "CreatedDate": "2006-10-08T11:22:38.3834434+02:00",
-  "UpdatedDate": "2019-11-11T11:22:38.3834434+01:00",
-  "UpdatedBy": "animi",
-  "CreatedBy": "perferendis",
-  "TableName": "Hills-Windler",
+  "Key": "vel",
+  "Value": "molestiae",
+  "RecordId": 364,
+  "CreatedDate": "2014-03-04T14:19:03.5602728+01:00",
+  "UpdatedDate": "2007-07-02T14:19:03.5602728+02:00",
+  "UpdatedBy": "sint",
+  "CreatedBy": "eos",
+  "TableName": "Trantow, Runolfsson and Gleichner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldLength": 876
     }
   }
 }

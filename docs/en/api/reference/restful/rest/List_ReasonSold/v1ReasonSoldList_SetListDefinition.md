@@ -87,15 +87,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 53,
-  "Name": "Lemke-Hartmann",
-  "Tooltip": "voluptate",
-  "Deleted": true,
-  "Rank": 990,
+  "Id": 668,
+  "Name": "Durgan-Barton",
+  "Tooltip": "quos",
+  "Deleted": false,
+  "Rank": 506,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eveniet",
+  "ListType": "repellendus",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 125,
-  "Name": "Hermiston-Skiles",
-  "Tooltip": "alias",
-  "Deleted": true,
-  "Rank": 590,
+  "Id": 648,
+  "Name": "Mitchell, Graham and Franecki",
+  "Tooltip": "non",
+  "Deleted": false,
+  "Rank": 857,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "blanditiis",
+  "UseGroupsAndHeadings": true,
+  "ListType": "debitis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 331
+      "FieldType": "System.String",
+      "FieldLength": 705
     }
   }
 }

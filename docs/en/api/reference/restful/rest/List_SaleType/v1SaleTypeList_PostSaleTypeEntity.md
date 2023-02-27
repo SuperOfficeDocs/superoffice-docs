@@ -106,51 +106,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 766,
-  "Name": "Mills-Leuschke",
-  "Tooltip": "ipsa",
-  "Rank": 892,
+  "SaleTypeId": 446,
+  "Name": "Purdy, Mraz and Hickle",
+  "Tooltip": "explicabo",
+  "Rank": 446,
   "DurationUnit": "Century",
-  "SaleDuration": 389,
-  "SaleTypeCatId": 275,
+  "SaleDuration": 925,
+  "SaleTypeCatId": 796,
   "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 302,
-  "QuoteLinesTemplate": 682,
-  "ConfirmationLinesTemplate": 983,
-  "MaxDiscountPercentSet": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 674,
+  "QuoteLinesTemplate": 373,
+  "ConfirmationLinesTemplate": 730,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 383,
-  "MinEarningPercent": 596,
-  "GroupQuoteLinesBy": 560,
-  "SortGroupLinesBy": 334,
+  "MaxDiscountPercent": 10,
+  "MinEarningPercent": 451,
+  "GroupQuoteLinesBy": 292,
+  "SortGroupLinesBy": 494,
   "Stages": [
     {
-      "Id": 41,
-      "Name": "Jast Inc and Sons",
-      "ToolTip": "Quo et id quia in sequi temporibus.",
-      "Deleted": false,
-      "Rank": 940,
-      "Type": "nisi",
-      "ColorBlock": 5,
-      "IconHint": "eos",
+      "Id": 813,
+      "Name": "Keebler Inc and Sons",
+      "ToolTip": "Adipisci dolorem voluptatem qui voluptate accusantium.",
+      "Deleted": true,
+      "Rank": 922,
+      "Type": "omnis",
+      "ColorBlock": 429,
+      "IconHint": "suscipit",
       "Selected": false,
-      "LastChanged": "2015-05-20T11:22:46.1628721+02:00",
+      "LastChanged": "2011-07-28T14:19:11.4870653+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "veniam",
-      "StyleHint": "nam",
-      "Hidden": true,
-      "FullName": "Deanna Torphy PhD"
+      "ExtraInfo": "aut",
+      "StyleHint": "suscipit",
+      "Hidden": false,
+      "FullName": "Kiarra Farrell"
     }
   ]
 }
@@ -163,53 +163,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 655,
-  "Name": "Wilkinson Group",
-  "Tooltip": "sapiente",
-  "Rank": 712,
+  "SaleTypeId": 972,
+  "Name": "Haley, Johnston and Padberg",
+  "Tooltip": "enim",
+  "Rank": 458,
   "DurationUnit": "Century",
-  "SaleDuration": 560,
-  "SaleTypeCatId": 268,
-  "Deleted": false,
+  "SaleDuration": 368,
+  "SaleTypeCatId": 289,
+  "Deleted": true,
   "HasGuide": true,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 895,
-  "QuoteLinesTemplate": 610,
-  "ConfirmationLinesTemplate": 524,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 845,
+  "QuoteLinesTemplate": 322,
+  "ConfirmationLinesTemplate": 670,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 802,
-  "MinEarningPercent": 584,
-  "GroupQuoteLinesBy": 267,
-  "SortGroupLinesBy": 5,
+  "MaxDiscountPercent": 961,
+  "MinEarningPercent": 823,
+  "GroupQuoteLinesBy": 66,
+  "SortGroupLinesBy": 739,
   "Stages": [
     {
-      "Id": 629,
-      "Name": "Rolfson LLC",
-      "ToolTip": "Provident similique dolor totam nulla fugit qui.",
-      "Deleted": true,
-      "Rank": 915,
-      "Type": "ducimus",
-      "ColorBlock": 654,
-      "IconHint": "magnam",
+      "Id": 967,
+      "Name": "Hoeger Inc and Sons",
+      "ToolTip": "Temporibus aut et occaecati eveniet voluptatem eveniet et.",
+      "Deleted": false,
+      "Rank": 700,
+      "Type": "reiciendis",
+      "ColorBlock": 218,
+      "IconHint": "sequi",
       "Selected": true,
-      "LastChanged": "2021-05-11T11:22:46.1784934+02:00",
+      "LastChanged": "2002-10-19T14:19:11.4870653+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "fugit",
-      "StyleHint": "delectus",
-      "Hidden": true,
-      "FullName": "Carleton Zulauf",
+      "ExtraInfo": "odit",
+      "StyleHint": "quia",
+      "Hidden": false,
+      "FullName": "Cheyanne Lynch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 187
+          "FieldLength": 810
         }
       }
     }
@@ -218,8 +218,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 822
+      "FieldType": "System.String",
+      "FieldLength": 393
     }
   }
 }

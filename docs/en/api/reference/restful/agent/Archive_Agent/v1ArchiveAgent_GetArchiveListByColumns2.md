@@ -165,17 +165,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Gutmann-Stracke",
-  "Columns": "repellat",
-  "SortOrder": "ratione",
-  "Restrictions": "et",
-  "Entities": "qui",
-  "Page": 307,
-  "PageSize": 978
+  "ProviderName": "Bradtke, Jenkins and Schneider",
+  "Columns": "unde",
+  "SortOrder": "molestiae",
+  "Restrictions": "molestiae",
+  "Entities": "enim",
+  "Page": 272,
+  "PageSize": 243
 }
 ```
 
@@ -187,23 +187,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Beer-Muller",
-    "PrimaryKey": 148,
+    "EntityName": "Jacobi, Kovacek and Stanton",
+    "PrimaryKey": 78,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quisquam",
-        "TooltipHint": "esse",
-        "LinkHint": "reprehenderit"
+        "DisplayValue": "ab",
+        "TooltipHint": "accusantium",
+        "LinkHint": "maxime"
       }
     },
-    "LinkHint": "ducimus",
-    "StyleHint": "nesciunt",
+    "LinkHint": "illo",
+    "StyleHint": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 117
+        "FieldLength": 805
       }
     }
   }

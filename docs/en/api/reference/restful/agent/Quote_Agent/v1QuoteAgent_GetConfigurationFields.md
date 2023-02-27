@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 364,
-  "ConnectorName": "Reynolds Inc and Sons"
+  "ConnectionId": 268,
+  "ConnectorName": "Swaniawski, Volkman and Brekke"
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "in",
-    "Rank": 62,
-    "DisplayName": "Corkery Inc and Sons",
-    "DisplayDescription": "Robust upward-trending leverage",
+    "FieldKey": "eos",
+    "Rank": 895,
+    "DisplayName": "Schowalter Group",
+    "DisplayDescription": "Multi-layered optimizing emulation",
     "FieldType": "Checkbox",
-    "ListName": "Robel-Boyle",
-    "DefaultValue": "deleniti",
-    "MaxLength": 811,
+    "ListName": "Barrows, Bruen and Hessel",
+    "DefaultValue": "et",
+    "MaxLength": 45,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 308
+        "FieldLength": 820
       }
     }
   }

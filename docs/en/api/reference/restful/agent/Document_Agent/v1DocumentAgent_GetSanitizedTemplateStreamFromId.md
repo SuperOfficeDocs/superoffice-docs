@@ -74,8 +74,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateId": 194,
-  "UiCulture": "doloribus"
+  "TemplateId": 711,
+  "UiCulture": "aliquid"
 }
 ```
 

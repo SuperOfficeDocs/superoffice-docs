@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Nikolaus, Sauer and Krajcik",
+  "Name": "Hartmann, Pagac and Mann",
   "Department": ""
 }
 ```
@@ -94,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Macejkovic Inc and Sons",
-    "SoPrimaryKey": 55,
-    "EntryName": "Weissnat, Brown and Torp",
-    "EntryIdentifier": "vitae",
-    "RuleDisplayName": "Hoppe Group",
+    "RuleName": "Shields Inc and Sons",
+    "SoPrimaryKey": 149,
+    "EntryName": "Jacobson Group",
+    "EntryIdentifier": "consequatur",
+    "RuleDisplayName": "Kilback, Mayert and Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 406
+        "FieldType": "System.Int32",
+        "FieldLength": 397
       }
     }
   }

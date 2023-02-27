@@ -67,15 +67,15 @@ No Content
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "excepturi",
-  "ProviderName": "Medhurst, Kshlerin and Walter",
-  "StorageKey": "sunt",
-  "Rank": 496,
-  "Context": "aspernatur"
+  "StorageType": "consectetur",
+  "ProviderName": "D'Amore LLC",
+  "StorageKey": "esse",
+  "Rank": 313,
+  "Context": "quae"
 }
 ```
 

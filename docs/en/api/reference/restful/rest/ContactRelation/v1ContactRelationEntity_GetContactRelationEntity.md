@@ -90,7 +90,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,38 +98,38 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 23 Oct 2016 11:22:44 G10T
+Last-Modified: Wed, 11 Jun 2008 14:19:10 G6T
 
 {
-  "SourceContactId": 625,
-  "SourcePersonId": 524,
-  "DestinationContactId": 320,
-  "DestinationPersonId": 570,
-  "RelationId": 655,
-  "Comment": "qui",
-  "RelationDefinitionId": 409,
-  "Reversed": 468,
-  "UpdatedDate": "2016-10-23T11:22:44.5694964+02:00",
-  "CreatedDate": "1998-05-19T11:22:44.5694964+02:00",
+  "SourceContactId": 891,
+  "SourcePersonId": 391,
+  "DestinationContactId": 51,
+  "DestinationPersonId": 69,
+  "RelationId": 796,
+  "Comment": "id",
+  "RelationDefinitionId": 114,
+  "Reversed": 630,
+  "UpdatedDate": "2008-06-11T14:19:10.240473+02:00",
+  "CreatedDate": "1999-03-14T14:19:10.240473+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Bogisich LLC",
-  "SourcePersonName": "Feil, Champlin and Friesen",
-  "DestinationContactName": "Farrell, Beer and Moore",
-  "DestinationPersonName": "Stracke Group",
-  "ActiveText": "sed",
-  "PassiveText": "corrupti",
+  "SourceContactName": "McDermott Inc and Sons",
+  "SourcePersonName": "Greenfelder Group",
+  "DestinationContactName": "Huels, Gutmann and Nicolas",
+  "DestinationPersonName": "Sauer LLC",
+  "ActiveText": "sit",
+  "PassiveText": "maxime",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 930
+      "FieldType": "System.String",
+      "FieldLength": 252
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

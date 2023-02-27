@@ -96,11 +96,11 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 393,
-    "Name": "Lind Inc and Sons",
-    "Tooltip": "omnis",
-    "SaveInDb": 334,
-    "Filename": "non",
-    "DefaultOref": "sit",
+    "DocumentTemplateId": 712,
+    "Name": "Lindgren-Franecki",
+    "Tooltip": "tempore",
+    "SaveInDb": 417,
+    "Filename": "laudantium",
+    "DefaultOref": "earum",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 313,
-    "IntentId": 825,
-    "IsDefaultPublished": true,
-    "Rank": 523,
-    "LoadTemplateFromPlugin": 71,
-    "MimeType": "et",
-    "IsInUseInGuides": true,
-    "DocumentTypeKey": 175,
+    "AutoeventId": 731,
+    "IntentId": 618,
+    "IsDefaultPublished": false,
+    "Rank": 636,
+    "LoadTemplateFromPlugin": 582,
+    "MimeType": "repellendus",
+    "IsInUseInGuides": false,
+    "DocumentTypeKey": 357,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "reynold@okuneva.co.uk",
+    "EmailSubject": "zita_greenfelder@beier.biz",
     "IncludeSignature": true,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "freddy@torphycruickshank.name",
+    "SenderEmailAddress": "bessie@renner.us",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldLength": 383
       }
     }
   }

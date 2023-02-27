@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 653,
-    "Name": "Rippin Inc and Sons",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "UdListDefinitionId": 746,
-    "Rank": 8
+    "Id": 872,
+    "Name": "Lehner Inc and Sons",
+    "Tooltip": "dignissimos",
+    "Deleted": true,
+    "UdListDefinitionId": 949,
+    "Rank": 569
   },
   {
-    "Id": 653,
-    "Name": "Rippin Inc and Sons",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "UdListDefinitionId": 746,
-    "Rank": 8
+    "Id": 872,
+    "Name": "Lehner Inc and Sons",
+    "Tooltip": "dignissimos",
+    "Deleted": true,
+    "UdListDefinitionId": 949,
+    "Rank": 569
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 184,
-    "Name": "Kohler-Erdman",
-    "Tooltip": "necessitatibus",
+    "Id": 985,
+    "Name": "Doyle-Cole",
+    "Tooltip": "ratione",
     "Deleted": false,
-    "UdListDefinitionId": 14,
-    "Rank": 667,
+    "UdListDefinitionId": 973,
+    "Rank": 237,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 969
+        "FieldType": "System.String",
+        "FieldLength": 752
       }
     }
   }

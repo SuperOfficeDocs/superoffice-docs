@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,37 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 415,
-  "Name": "Monahan-Keeling",
-  "AssociateId": 465,
-  "DetailsTable": 840,
-  "DetailsRecord": 341,
-  "IsSystemTask": true,
+  "Id": 396,
+  "Name": "Boyle, Larkin and Lubowitz",
+  "AssociateId": 407,
+  "DetailsTable": 653,
+  "DetailsRecord": 992,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "minima",
-    "ParameterObject2": "placeat"
+    "ParameterObject1": "tenetur",
+    "ParameterObject2": "distinctio"
   },
-  "LastStarted": "2001-09-15T11:22:38.3990648+02:00",
-  "Created": "2020-08-19T11:22:38.3990648+02:00",
-  "StartCount": 970,
-  "DatabaseSerialNumber": "1654104",
-  "Context": "aliquid",
-  "Result": "iusto",
+  "LastStarted": "2022-02-21T14:19:03.5769906+01:00",
+  "Created": "2010-12-19T14:19:03.5769906+01:00",
+  "StartCount": 120,
+  "DatabaseSerialNumber": "1368305",
+  "Context": "animi",
+  "Result": "occaecati",
   "State": "All",
-  "Description": "Focused intangible alliance",
-  "Response": "sunt",
-  "Request": "quia",
-  "ProgressDescription": "Operative systematic open system",
-  "ProgressPercent": 509,
-  "FileName": "Bogan-Kuhic",
+  "Description": "Ameliorated real-time service-desk",
+  "Response": "molestiae",
+  "Request": "quo",
+  "ProgressDescription": "Persevering client-driven definition",
+  "ProgressPercent": 42,
+  "FileName": "Auer, Reichel and Hettinger",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 301
+      "FieldLength": 969
     }
   }
 }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 863,
-    "Name": "Mraz, Borer and Hodkiewicz",
-    "ToolTip": "Illo cupiditate qui.",
-    "Deleted": true,
-    "Rank": 228,
-    "Type": "aspernatur",
-    "ColorBlock": 928,
-    "IconHint": "magnam",
-    "Selected": false,
-    "LastChanged": "1996-12-30T11:22:46.1628721+01:00",
+    "Id": 660,
+    "Name": "Raynor, Sanford and Schroeder",
+    "ToolTip": "Nemo ex sed et iste sequi tenetur voluptates.",
+    "Deleted": false,
+    "Rank": 531,
+    "Type": "autem",
+    "ColorBlock": 200,
+    "IconHint": "molestiae",
+    "Selected": true,
+    "LastChanged": "2014-11-28T14:19:11.4870653+01:00",
     "ChildItems": [
       {
-        "Id": 188,
-        "Name": "Treutel-Bergstrom",
-        "ToolTip": "Id maxime sapiente iste recusandae doloribus dolores.",
+        "Id": 76,
+        "Name": "Johns-Thompson",
+        "ToolTip": "Aut maiores amet perferendis fugit.",
         "Deleted": false,
-        "Rank": 500,
-        "Type": "a",
-        "ColorBlock": 835,
+        "Rank": 394,
+        "Type": "iure",
+        "ColorBlock": 528,
         "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2000-01-05T11:22:46.1628721+01:00",
+        "LastChanged": "2022-08-20T14:19:11.4870653+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "inventore",
+        "StyleHint": "alias",
         "Hidden": false,
-        "FullName": "Mervin Batz PhD",
+        "FullName": "Miss Name Raynor",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 368
+            "FieldLength": 46
           }
         }
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "in",
+    "ExtraInfo": "nam",
+    "StyleHint": "praesentium",
     "Hidden": true,
-    "FullName": "Leslie Purdy",
+    "FullName": "Leonard Runolfsson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 878
+        "FieldType": "System.String",
+        "FieldLength": 468
       }
     }
   }

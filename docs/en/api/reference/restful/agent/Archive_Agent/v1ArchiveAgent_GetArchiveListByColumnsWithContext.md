@@ -103,54 +103,54 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Ratke, Johns and Keebler",
+  "ProviderName": "Kemmer-Hand",
   "Columns": [
-    "non",
-    "labore"
+    "impedit",
+    "est"
   ],
   "SortOrder": [
     {
-      "Name": "Nicolas, Hayes and Mann",
+      "Name": "Konopelski Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Nicolas, Hayes and Mann",
+      "Name": "Konopelski Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Brown, Becker and Willms",
-      "Operator": "qui",
+      "Name": "Berge-Hammes",
+      "Operator": "debitis",
       "Values": [
-        "magni",
-        "et"
+        "quaerat",
+        "distinctio"
       ],
       "DisplayValues": [
-        "vero",
-        "aut"
+        "eum",
+        "voluptatem"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 250,
+      "InterParenthesis": 992,
       "InterOperator": "And",
-      "UniqueHash": 430
+      "UniqueHash": 368
     }
   ],
   "Entities": [
-    "eius",
-    "aut"
+    "ullam",
+    "fugiat"
   ],
-  "Page": 775,
-  "PageSize": 462,
+  "Page": 614,
+  "PageSize": 520,
   "Context": "omnis"
 }
 ```
@@ -163,23 +163,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Pagac Group",
-    "PrimaryKey": 364,
+    "EntityName": "Kessler, Sauer and Dietrich",
+    "PrimaryKey": 740,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quia",
-        "TooltipHint": "odit",
-        "LinkHint": "doloribus"
+        "DisplayValue": "dignissimos",
+        "TooltipHint": "et",
+        "LinkHint": "eos"
       }
     },
-    "LinkHint": "quaerat",
-    "StyleHint": "qui",
+    "LinkHint": "repellat",
+    "StyleHint": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldLength": 531
       }
     }
   }

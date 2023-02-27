@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 414,
-  "Name": "Hyatt, Frami and Brown",
-  "Tooltip": "nisi",
-  "Deleted": true,
-  "UdListDefinitionId": 310,
-  "Rank": 248,
+  "Id": 422,
+  "Name": "Johnston-Kertzmann",
+  "Tooltip": "modi",
+  "Deleted": false,
+  "UdListDefinitionId": 788,
+  "Rank": 696,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 547
+      "FieldType": "System.Int32",
+      "FieldLength": 756
     }
   }
 }

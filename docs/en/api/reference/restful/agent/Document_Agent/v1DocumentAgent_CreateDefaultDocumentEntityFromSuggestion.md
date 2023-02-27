@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 838
+  "SuggestedDocumentId": 254
 }
 ```
 
@@ -120,88 +120,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 801,
+  "DocumentId": 324,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "placeat",
-  "Header": "id",
-  "Name": "Upton LLC",
-  "OurRef": "earum",
-  "YourRef": "doloribus",
-  "CreatedDate": "2015-02-15T11:22:38.1490728+01:00",
-  "UpdatedDate": "2009-02-21T11:22:38.1490728+01:00",
-  "Description": "Operative regional success",
+  "Attention": "commodi",
+  "Header": "quaerat",
+  "Name": "Bogisich, Abernathy and Skiles",
+  "OurRef": "eius",
+  "YourRef": "quod",
+  "CreatedDate": "1996-01-19T14:19:03.3386569+01:00",
+  "UpdatedDate": "2020-05-21T14:19:03.3386569+02:00",
+  "Description": "Horizontal scalable groupware",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-05-18T11:22:38.1490728+02:00",
-  "ExternalRef": "est",
+  "Date": "1999-11-12T14:19:03.3386569+01:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 677,
+  "ActiveLinks": 284,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Considine Group",
-      "Id": 832,
-      "Description": "Implemented zero administration support",
-      "ExtraInfo": "exercitationem",
-      "LinkId": 628,
+      "EntityName": "Kling-Beier",
+      "Id": 601,
+      "Description": "Organized bandwidth-monitored hub",
+      "ExtraInfo": "minus",
+      "LinkId": 138,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 804
+          "FieldType": "System.Int32",
+          "FieldLength": 242
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 754,
-  "Snum": 623,
+  "SuggestedDocumentId": 65,
+  "Snum": 517,
   "UserDefinedFields": {
-    "SuperOffice:1": "Alvina Murphy III",
-    "SuperOffice:2": "Lynn Muller"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "enim",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "fuga",
+    "ExtraFields2": "natus"
   },
   "CustomFields": {
-    "CustomFields1": "quisquam",
-    "CustomFields2": "consectetur"
+    "CustomFields1": "rerum",
+    "CustomFields2": "delectus"
   },
-  "PublishEventDate": "2021-09-27T11:22:38.1490728+02:00",
-  "PublishTo": "2021-10-24T11:22:38.1490728+02:00",
-  "PublishFrom": "1998-05-25T11:22:38.1490728+02:00",
+  "PublishEventDate": "2016-03-23T14:19:03.3386569+01:00",
+  "PublishTo": "1997-04-15T14:19:03.3386569+02:00",
+  "PublishFrom": "2015-03-16T14:19:03.3386569+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 78,
+      "VisibleId": 342,
       "Visibility": "All",
-      "DisplayValue": "temporibus",
+      "DisplayValue": "aspernatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 882
+          "FieldLength": 320
         }
       }
     },
     {
-      "VisibleId": 78,
+      "VisibleId": 342,
       "Visibility": "All",
-      "DisplayValue": "temporibus",
+      "DisplayValue": "aspernatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 882
+          "FieldLength": 320
         }
       }
     }
@@ -210,8 +210,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 604
+      "FieldType": "System.Int32",
+      "FieldLength": 322
     }
   }
 }

@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 393,
-    "Name": "Abbott-Schamberger",
-    "ToolTip": "Quibusdam maxime laboriosam voluptas voluptatem perspiciatis.",
+    "Id": 690,
+    "Name": "Okuneva, Russel and Stoltenberg",
+    "ToolTip": "Tenetur sit quis.",
     "Deleted": false,
-    "Rank": 211,
-    "Type": "aut",
-    "ColorBlock": 367,
-    "IconHint": "molestias",
-    "Selected": true,
-    "LastChanged": "1998-06-29T11:22:45.8973017+02:00",
+    "Rank": 533,
+    "Type": "voluptas",
+    "ColorBlock": 707,
+    "IconHint": "aspernatur",
+    "Selected": false,
+    "LastChanged": "1998-03-31T14:19:11.2418468+02:00",
     "ChildItems": [
       {
-        "Id": 540,
-        "Name": "Bartell Inc and Sons",
-        "ToolTip": "Commodi atque alias delectus.",
+        "Id": 259,
+        "Name": "Gusikowski-Gislason",
+        "ToolTip": "Rerum non ea.",
         "Deleted": false,
-        "Rank": 173,
-        "Type": "laboriosam",
-        "ColorBlock": 623,
-        "IconHint": "excepturi",
+        "Rank": 411,
+        "Type": "alias",
+        "ColorBlock": 355,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "1998-06-18T11:22:45.8973017+02:00",
+        "LastChanged": "1997-09-17T14:19:11.2418468+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "temporibus",
-        "Hidden": false,
-        "FullName": "Ebba Klocko",
+        "ExtraInfo": "aut",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Miss Kenna Ola Hagenes DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 689
+            "FieldType": "System.String",
+            "FieldLength": 464
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "error",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "corrupti",
     "Hidden": false,
-    "FullName": "Zoey Purdy",
+    "FullName": "Rosalee Russel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 687
+        "FieldLength": 798
       }
     }
   }

@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 192
+  "UserGroupId": 803
 }
 ```
 
@@ -96,24 +96,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 882,
+    "TargetAssignmentInfoId": 827,
     "Values": [
-      908,
-      394
+      266,
+      868
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 996,
-    "DimensionListItemDisplayName": "Kerluke, Simonis and Tremblay",
+    "DimensionListItem": 739,
+    "DimensionListItemDisplayName": "Fisher Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 815
+        "FieldLength": 287
       }
     }
   }

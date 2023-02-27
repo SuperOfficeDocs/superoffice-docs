@@ -80,7 +80,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,76 +91,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "ducimus",
-  "AssociateId": 623,
+  "Associate": "at",
+  "AssociateId": 94,
   "IsPerson": false,
-  "PersonId": 402,
-  "CountryId": 429,
-  "HomeCountryId": 873,
-  "ContactId": 558,
-  "GroupId": 409,
-  "BusinessId": 432,
-  "CategoryId": 346,
-  "ContactOwner": 491,
-  "RoleId": 961,
-  "RoleName": "Olson, Witting and Heidenreich",
-  "RoleDescription": "De-engineered methodical workforce",
+  "PersonId": 768,
+  "CountryId": 769,
+  "HomeCountryId": 125,
+  "ContactId": 491,
+  "GroupId": 243,
+  "BusinessId": 767,
+  "CategoryId": 625,
+  "ContactOwner": 586,
+  "RoleId": 462,
+  "RoleName": "Windler-Franecki",
+  "RoleDescription": "Vision-oriented maximized pricing structure",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 787,
-      "OwnerName": "Dicki, Thiel and Schumm",
-      "OwnerDescription": "Networked modular initiative",
-      "ModuleId": 581,
-      "Name": "Luettgen, Stroman and Berge",
-      "Description": "Distributed multi-tasking function",
-      "Version": "eos",
+      "OwnerId": 669,
+      "OwnerName": "Runolfsdottir-Wiegand",
+      "OwnerDescription": "Synergized incremental hierarchy",
+      "ModuleId": 892,
+      "Name": "Murazik-Cronin",
+      "Description": "Multi-tiered explicit superstructure",
+      "Version": "qui",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 320,
-      "ExtraInfo": "dignissimos",
-      "SortOrder": 382,
-      "LicenseNumber": 818,
-      "IsHidden": false,
+      "ExtraFlags": 21,
+      "ExtraInfo": "qui",
+      "SortOrder": 372,
+      "LicenseNumber": 704,
+      "IsHidden": true,
       "IsUnrestricted": false,
-      "ExpiryDate": "1996-03-19T11:22:45.5379661+01:00",
+      "ExpiryDate": "2001-05-03T14:19:11.0686043+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 252
+          "FieldType": "System.String",
+          "FieldLength": 143
         }
       }
     }
   ],
-  "FullName": "Guillermo Olson",
-  "EMailAddress": "sunt",
+  "FullName": "Evans Murphy",
+  "EMailAddress": "quas",
   "FunctionRights": [
-    "iste",
-    "et"
+    "sint",
+    "ullam"
   ],
-  "EjUserId": 497,
-  "EjAccessLevel": 929,
+  "EjUserId": 669,
+  "EjAccessLevel": 305,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "id",
-      "SearchName": "Shields, Stamm and Schowalter",
-      "DisplayName": "Krajcik-Ernser",
-      "CredentialId": 362
+      "Type": "optio",
+      "SearchName": "Dietrich-Kuhlman",
+      "DisplayName": "Boyer-Kuhic",
+      "CredentialId": 562
     },
     {
-      "Type": "id",
-      "SearchName": "Shields, Stamm and Schowalter",
-      "DisplayName": "Krajcik-Ernser",
-      "CredentialId": 362
+      "Type": "optio",
+      "SearchName": "Dietrich-Kuhlman",
+      "DisplayName": "Boyer-Kuhic",
+      "CredentialId": 562
     }
   ],
   "SecondaryGroups": [
-    338,
-    460
+    329,
+    144
   ],
-  "DatabaseContextIdentifier": "quasi",
-  "UserName": "Sporer Inc and Sons"
+  "DatabaseContextIdentifier": "iure",
+  "UserName": "Keebler Group"
 }
 ```

@@ -113,18 +113,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "non",
+    "path": "ullam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "non",
+    "path": "ullam",
     "value": {}
   }
 ]
@@ -137,29 +137,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 573,
-  "Name": "Greenfelder Inc and Sons",
-  "CreatedDate": "2015-06-19T11:22:44.8662479+02:00",
-  "UpdatedDate": "2001-11-03T11:22:44.8662479+01:00",
+  "ForeignAppId": 973,
+  "Name": "Fadel Inc and Sons",
+  "CreatedDate": "2023-02-08T14:19:10.3498478+01:00",
+  "UpdatedDate": "1997-10-11T14:19:10.3498478+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 494,
-      "Name": "Thompson Inc and Sons",
-      "CreatedDate": "2007-03-17T11:22:44.8662479+01:00",
-      "UpdatedDate": "1999-05-25T11:22:44.8662479+02:00",
-      "AssociateFullName": "Angel Harvey MD",
-      "CreatedBy": "quae",
-      "UpdatedBy": "veniam",
-      "DeviceIdentifier": "facere",
-      "ForeignAppId": 858,
+      "ForeignDeviceId": 792,
+      "Name": "Smitham Inc and Sons",
+      "CreatedDate": "2001-06-26T14:19:10.3498478+02:00",
+      "UpdatedDate": "1999-08-28T14:19:10.3498478+02:00",
+      "AssociateFullName": "Ewell Ortiz",
+      "CreatedBy": "inventore",
+      "UpdatedBy": "doloremque",
+      "DeviceIdentifier": "dicta",
+      "ForeignAppId": 107,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 231
+          "FieldLength": 753
         }
       }
     }
@@ -169,7 +169,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldLength": 97
     }
   },
   "_Links": {

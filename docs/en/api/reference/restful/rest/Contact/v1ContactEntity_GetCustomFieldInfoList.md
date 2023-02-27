@@ -66,7 +66,7 @@ OK
 GET /api/v1/Contact/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Beer Group",
-    "DisplayName": "Reichert-McGlynn",
-    "Description": "Up-sized hybrid hardware",
-    "ShortLabel": "labore",
-    "HideLabel": true,
-    "HideField": true,
-    "IsIndexed": false,
-    "IsMandatory": false,
+    "FieldName": "Price LLC",
+    "DisplayName": "Fadel Inc and Sons",
+    "Description": "Upgradable interactive strategy",
+    "ShortLabel": "sed",
+    "HideLabel": false,
+    "HideField": false,
+    "IsIndexed": true,
+    "IsMandatory": true,
     "IsReadOnly": false,
     "IsExternal": true,
-    "Rank": 338,
-    "TemplateVariableName": "O'Connell, O'Connell and Quigley"
+    "Rank": 445,
+    "TemplateVariableName": "Mraz, Leffler and Lueilwitz"
   }
 ]
 ```

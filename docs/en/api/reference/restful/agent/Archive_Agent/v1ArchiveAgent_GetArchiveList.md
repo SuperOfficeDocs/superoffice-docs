@@ -103,51 +103,51 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Larson-Ward",
-  "ProviderName": "Hyatt, O'Connell and Romaguera",
+  "GuiName": "Daugherty, Considine and Glover",
+  "ProviderName": "Hand, Kerluke and Goldner",
   "SortOrder": [
     {
-      "Name": "Reinger, Stracke and Bartoletti",
+      "Name": "Koelpin LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Reinger, Stracke and Bartoletti",
+      "Name": "Koelpin LLC",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Bartoletti Inc and Sons",
-      "Operator": "sint",
+      "Name": "Howell Group",
+      "Operator": "necessitatibus",
       "Values": [
-        "quia",
-        "vel"
+        "est",
+        "et"
       ],
       "DisplayValues": [
-        "optio",
-        "aut"
+        "ipsum",
+        "voluptatem"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 381,
+      "InterParenthesis": 147,
       "InterOperator": "And",
-      "UniqueHash": 130
+      "UniqueHash": 349
     }
   ],
   "Entities": [
-    "corporis",
-    "ut"
+    "consequatur",
+    "neque"
   ],
-  "Page": 525,
-  "PageSize": 97
+  "Page": 915,
+  "PageSize": 237
 }
 ```
 
@@ -159,23 +159,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Macejkovic Group",
-    "PrimaryKey": 161,
+    "EntityName": "Hahn-Goyette",
+    "PrimaryKey": 489,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "tempore",
-        "TooltipHint": "voluptatibus",
-        "LinkHint": "voluptates"
+        "DisplayValue": "enim",
+        "TooltipHint": "ratione",
+        "LinkHint": "voluptas"
       }
     },
-    "LinkHint": "alias",
-    "StyleHint": "fugit",
+    "LinkHint": "blanditiis",
+    "StyleHint": "illo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 674
+        "FieldLength": 190
       }
     }
   }

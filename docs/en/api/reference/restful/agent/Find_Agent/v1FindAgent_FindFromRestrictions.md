@@ -104,30 +104,30 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Stokes-Bosco",
-      "Operator": "incidunt",
+      "Name": "McLaughlin, Goyette and Crona",
+      "Operator": "autem",
       "Values": [
-        "quasi",
-        "in"
+        "dolores",
+        "quos"
       ],
       "DisplayValues": [
-        "tempore",
-        "eum"
+        "ut",
+        "exercitationem"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 135,
+      "InterParenthesis": 352,
       "InterOperator": "And",
-      "UniqueHash": 300
+      "UniqueHash": 270
     }
   ],
-  "ProviderName": "Beier, Heller and Daniel",
-  "PageSize": 85,
-  "PageNumber": 183
+  "ProviderName": "Herman Group",
+  "PageSize": 955,
+  "PageNumber": 128
 }
 ```
 
@@ -140,51 +140,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Funk, Walter and Simonis",
-      "DisplayTooltip": "tempora",
-      "DisplayType": "nisi",
-      "CanOrderBy": true,
-      "Name": "Wintheiser-Adams",
+      "DisplayName": "Volkman, Windler and Okuneva",
+      "DisplayTooltip": "hic",
+      "DisplayType": "est",
+      "CanOrderBy": false,
+      "Name": "Mayer LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "minima",
-      "RestrictionListName": "Schmidt, Purdy and Little",
-      "IsVisible": false,
-      "ExtraInfo": "autem",
-      "Width": "dolores",
-      "IconHint": "eius",
-      "HeadingIconHint": "quos"
+      "RestrictionType": "sit",
+      "RestrictionListName": "Will-Ziemann",
+      "IsVisible": true,
+      "ExtraInfo": "optio",
+      "Width": "dolorum",
+      "IconHint": "enim",
+      "HeadingIconHint": "sit"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "O'Reilly-Goyette",
-      "PrimaryKey": 154,
+      "EntityName": "Swaniawski, Nienow and Gleason",
+      "PrimaryKey": 989,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "est",
-          "TooltipHint": "rerum",
-          "LinkHint": "amet"
+          "DisplayValue": "excepturi",
+          "TooltipHint": "voluptatum",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "aut",
-      "StyleHint": "assumenda",
+      "LinkHint": "dolor",
+      "StyleHint": "ipsum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 747
+          "FieldType": "System.Int32",
+          "FieldLength": 230
         }
       }
     }
   ],
-  "RowCount": 241,
+  "RowCount": 662,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 899
+      "FieldLength": 9
     }
   }
 }

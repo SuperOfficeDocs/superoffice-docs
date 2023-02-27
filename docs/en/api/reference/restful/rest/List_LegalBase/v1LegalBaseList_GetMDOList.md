@@ -26,7 +26,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=pariatur
+GET /api/v1/List/LegalBase/MDOItems?query=et
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 526,
-    "Name": "Stehr LLC",
-    "ToolTip": "Natus et quia hic accusamus corrupti ipsum.",
+    "Id": 377,
+    "Name": "Will-Johns",
+    "ToolTip": "Dicta consequatur vel aliquid voluptatibus ab.",
     "Deleted": false,
-    "Rank": 827,
-    "Type": "distinctio",
+    "Rank": 546,
+    "Type": "commodi",
     "ChildItems": [
       {
-        "Id": 923,
-        "Name": "Kertzmann, O'Hara and Simonis",
-        "ToolTip": "Aspernatur eum et id.",
-        "Deleted": true,
-        "Rank": 210,
-        "Type": "id",
+        "Id": 95,
+        "Name": "Nienow-Rogahn",
+        "ToolTip": "Id dolorem voluptatem.",
+        "Deleted": false,
+        "Rank": 381,
+        "Type": "sint",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "corporis",
-        "ColorBlock": 322,
-        "ExtraInfo": "quia",
-        "StyleHint": "aut",
-        "FullName": "Karl Hodkiewicz Sr.",
+        "IconHint": "ut",
+        "ColorBlock": 143,
+        "ExtraInfo": "sunt",
+        "StyleHint": "temporibus",
+        "FullName": "Haleigh Murray",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 15
+            "FieldType": "System.Int32",
+            "FieldLength": 956
           }
         }
       }
     ],
-    "IconHint": "dolores",
-    "ColorBlock": 467,
-    "ExtraInfo": "quidem",
-    "StyleHint": "nihil",
-    "FullName": "Tyreek Hegmann",
+    "IconHint": "a",
+    "ColorBlock": 187,
+    "ExtraInfo": "eum",
+    "StyleHint": "aut",
+    "FullName": "Mrs. Sallie Taryn Kshlerin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 955
+        "FieldLength": 303
       }
     }
   }

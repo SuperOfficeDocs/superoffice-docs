@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 590,
-    "Name": "Cormier LLC",
-    "ToolTip": "Sed minus.",
+    "Id": 728,
+    "Name": "Mann Inc and Sons",
+    "ToolTip": "Ullam nihil perspiciatis ut nihil optio voluptas.",
     "Deleted": false,
-    "Rank": 75,
-    "Type": "sunt",
-    "ColorBlock": 859,
-    "IconHint": "esse",
+    "Rank": 27,
+    "Type": "autem",
+    "ColorBlock": 562,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2001-11-24T11:22:46.0222797+01:00",
+    "LastChanged": "2014-12-25T14:19:11.3680268+01:00",
     "ChildItems": [
       {
-        "Id": 403,
-        "Name": "Gaylord, Jacobi and Kohler",
-        "ToolTip": "Dolorum molestiae non culpa libero facilis.",
-        "Deleted": false,
-        "Rank": 980,
-        "Type": "magnam",
-        "ColorBlock": 274,
-        "IconHint": "quam",
+        "Id": 51,
+        "Name": "Quitzon-Goldner",
+        "ToolTip": "Cumque rerum itaque.",
+        "Deleted": true,
+        "Rank": 33,
+        "Type": "quia",
+        "ColorBlock": 932,
+        "IconHint": "minus",
         "Selected": true,
-        "LastChanged": "2007-07-09T11:22:46.0222797+02:00",
+        "LastChanged": "2012-03-03T14:19:11.3680268+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "esse",
+        "ExtraInfo": "quis",
+        "StyleHint": "sequi",
         "Hidden": false,
-        "FullName": "Miss Merle Carmella Ward"
+        "FullName": "Mrs. Glenda Emerald Sanford"
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "maiores",
-    "Hidden": true,
-    "FullName": "Ms. Unique Macey Marquardt I"
+    "ExtraInfo": "nihil",
+    "StyleHint": "assumenda",
+    "Hidden": false,
+    "FullName": "Earnest Yundt"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 410,
-    "Name": "Schowalter Inc and Sons",
-    "ToolTip": "Porro fuga corporis.",
+    "Id": 397,
+    "Name": "Kreiger-Klocko",
+    "ToolTip": "Maiores quibusdam earum fugiat.",
     "Deleted": false,
-    "Rank": 593,
-    "Type": "ab",
-    "ColorBlock": 155,
-    "IconHint": "molestiae",
-    "Selected": true,
-    "LastChanged": "2021-03-13T11:22:46.0222797+01:00",
+    "Rank": 853,
+    "Type": "ea",
+    "ColorBlock": 714,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2002-03-18T14:19:11.3680268+01:00",
     "ChildItems": [
       {
-        "Id": 804,
-        "Name": "Braun, Mraz and Blick",
-        "ToolTip": "Dolore qui voluptatem nihil veniam hic officia.",
+        "Id": 203,
+        "Name": "Flatley Inc and Sons",
+        "ToolTip": "Numquam vel accusantium aspernatur voluptatem autem.",
         "Deleted": false,
-        "Rank": 284,
-        "Type": "quia",
-        "ColorBlock": 192,
-        "IconHint": "tempora",
-        "Selected": false,
-        "LastChanged": "1998-08-22T11:22:46.0222797+02:00",
+        "Rank": 371,
+        "Type": "recusandae",
+        "ColorBlock": 72,
+        "IconHint": "inventore",
+        "Selected": true,
+        "LastChanged": "2011-09-04T14:19:11.3680268+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "enim",
-        "Hidden": true,
-        "FullName": "Dr. Lenna Rico Dicki DVM",
+        "ExtraInfo": "qui",
+        "StyleHint": "rerum",
+        "Hidden": false,
+        "FullName": "Ms. Syble O'Hara I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 316
+            "FieldLength": 192
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "maxime",
-    "Hidden": true,
-    "FullName": "Prof. Deborah Lesch Jr.",
+    "ExtraInfo": "dolor",
+    "StyleHint": "libero",
+    "Hidden": false,
+    "FullName": "Marcia Alexander Sporer DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 529
+        "FieldType": "System.Int32",
+        "FieldLength": 672
       }
     }
   }

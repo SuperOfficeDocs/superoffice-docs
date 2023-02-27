@@ -77,7 +77,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,56 +88,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 721,
-    "Name": "Reichel-Herzog",
-    "ToolTip": "Consequuntur voluptatum officia asperiores et et veniam.",
-    "Deleted": true,
-    "Rank": 136,
-    "Type": "quo",
-    "ColorBlock": 399,
-    "IconHint": "blanditiis",
-    "Selected": true,
-    "LastChanged": "2013-12-30T11:22:45.0849869+01:00",
+    "Id": 138,
+    "Name": "Spinka Inc and Sons",
+    "ToolTip": "Saepe delectus iusto dolorem reprehenderit nobis.",
+    "Deleted": false,
+    "Rank": 35,
+    "Type": "reprehenderit",
+    "ColorBlock": 241,
+    "IconHint": "fugiat",
+    "Selected": false,
+    "LastChanged": "2006-06-13T14:19:10.6623446+02:00",
     "ChildItems": [
       {
-        "Id": 471,
-        "Name": "Ferry Inc and Sons",
-        "ToolTip": "Quos molestiae et officia nihil aut.",
-        "Deleted": false,
-        "Rank": 556,
-        "Type": "nihil",
-        "ColorBlock": 71,
-        "IconHint": "omnis",
+        "Id": 99,
+        "Name": "Abshire, Weissnat and Lakin",
+        "ToolTip": "Id eos placeat nostrum qui quis.",
+        "Deleted": true,
+        "Rank": 864,
+        "Type": "incidunt",
+        "ColorBlock": 300,
+        "IconHint": "eum",
         "Selected": false,
-        "LastChanged": "2017-05-15T11:22:45.0849869+02:00",
+        "LastChanged": "1996-10-01T14:19:10.6623446+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "laboriosam",
-        "Hidden": true,
-        "FullName": "Hayden Christiansen",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "animi",
+        "Hidden": false,
+        "FullName": "Dr. Davon Wunsch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 252
+            "FieldLength": 206
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "fuga",
-    "Hidden": true,
-    "FullName": "Osbaldo Friesen",
+    "ExtraInfo": "fuga",
+    "StyleHint": "dignissimos",
+    "Hidden": false,
+    "FullName": "Mr. Melany Kitty Cummerata",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 862
+        "FieldLength": 288
       }
     }
   }

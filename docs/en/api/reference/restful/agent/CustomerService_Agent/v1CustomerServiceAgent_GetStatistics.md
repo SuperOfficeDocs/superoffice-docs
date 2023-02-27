@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "qui",
-    "sint"
+    "velit",
+    "doloremque"
   ]
 }
 ```
@@ -93,82 +93,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "recusandae",
+    "Label": "quidem",
     "Values": [
       {
-        "Label": "labore",
-        "Value": 16312.47,
-        "Description": "Team-oriented 24/7 capability",
+        "Label": "consequatur",
+        "Value": 14848.892,
+        "Description": "Ameliorated systematic access",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 648
+            "FieldLength": 76
           }
         }
       },
       {
-        "Label": "labore",
-        "Value": 16312.47,
-        "Description": "Team-oriented 24/7 capability",
+        "Label": "consequatur",
+        "Value": 14848.892,
+        "Description": "Ameliorated systematic access",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 648
+            "FieldLength": 76
           }
         }
       }
     ],
-    "Description": "Front-line bifurcated analyzer",
+    "Description": "De-engineered dynamic info-mediaries",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 79
+        "FieldLength": 395
       }
     }
   },
   {
-    "Label": "recusandae",
+    "Label": "quidem",
     "Values": [
       {
-        "Label": "labore",
-        "Value": 16312.47,
-        "Description": "Team-oriented 24/7 capability",
+        "Label": "consequatur",
+        "Value": 14848.892,
+        "Description": "Ameliorated systematic access",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 648
+            "FieldLength": 76
           }
         }
       },
       {
-        "Label": "labore",
-        "Value": 16312.47,
-        "Description": "Team-oriented 24/7 capability",
+        "Label": "consequatur",
+        "Value": 14848.892,
+        "Description": "Ameliorated systematic access",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 648
+            "FieldLength": 76
           }
         }
       }
     ],
-    "Description": "Front-line bifurcated analyzer",
+    "Description": "De-engineered dynamic info-mediaries",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 79
+        "FieldLength": 395
       }
     }
   }

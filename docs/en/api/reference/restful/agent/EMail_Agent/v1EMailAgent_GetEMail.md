@@ -104,8 +104,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 904,
-  "IncludeAttachments": true
+  "Id": 290,
+  "IncludeAttachments": false
 }
 ```
 
@@ -118,98 +118,130 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 995,
-      "ContactName": "Waelchi-Terry",
-      "PersonId": 913,
-      "PersonName": "Kozey Group",
-      "AssociateId": 858,
-      "Address": "sed",
-      "EmailId": 104,
+      "ContactId": 305,
+      "ContactName": "Brown-Bradtke",
+      "PersonId": 247,
+      "PersonName": "Trantow Inc and Sons",
+      "AssociateId": 905,
+      "Address": "odio",
+      "EmailId": 992,
       "DuplicatePersonIds": [
-        337,
-        808
+        332,
+        201
       ],
-      "Name": "Runolfsson, McKenzie and Hickle",
+      "Name": "Bradtke Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 744
+          "FieldType": "System.Int32",
+          "FieldLength": 724
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 817,
-      "ContactName": "Schroeder, Flatley and Kirlin",
-      "PersonId": 888,
-      "PersonName": "Beier, Braun and Mills",
-      "AssociateId": 562,
-      "Address": "totam",
-      "EmailId": 902,
+      "ContactId": 546,
+      "ContactName": "Bode Group",
+      "PersonId": 834,
+      "PersonName": "Gutmann-Beer",
+      "AssociateId": 769,
+      "Address": "voluptatem",
+      "EmailId": 16,
       "DuplicatePersonIds": [
-        265,
-        54
+        486,
+        680
       ],
-      "Name": "Dicki-Glover",
+      "Name": "Watsica LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 904
+          "FieldType": "System.String",
+          "FieldLength": 67
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 342,
-      "ContactName": "Osinski LLC",
-      "PersonId": 719,
-      "PersonName": "Fisher Inc and Sons",
-      "AssociateId": 198,
-      "Address": "incidunt",
-      "EmailId": 722,
+      "ContactId": 97,
+      "ContactName": "Turner, Auer and Hirthe",
+      "PersonId": 378,
+      "PersonName": "White Inc and Sons",
+      "AssociateId": 815,
+      "Address": "earum",
+      "EmailId": 494,
       "DuplicatePersonIds": [
-        522,
-        872
+        329,
+        172
       ],
-      "Name": "Grady-Stehr",
+      "Name": "Emard, Bahringer and Ernser",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 789
+        }
+      }
+    }
+  ],
+  "Subject": "exercitationem",
+  "HTMLBody": "omnis",
+  "From": null,
+  "Sent": "2011-09-02T14:19:03.4821464+02:00",
+  "Size": 721,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "autem",
+  "PlainBody": "quas",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 765,
+  "Attachments": [
+    {
+      "Description": "Reverse-engineered contextually-based parallelism",
+      "Filename": "voluptatem",
+      "Size": 951,
+      "Type": "omnis",
+      "Encoding": "sed",
+      "Id": "magnam",
+      "Disposition": "qui",
+      "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 415
+          "FieldLength": 263
         }
       }
     }
   ],
-  "Subject": "autem",
-  "HTMLBody": "et",
-  "From": null,
-  "Sent": "2021-05-11T11:22:38.289718+02:00",
-  "Size": 808,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "atque",
-  "PlainBody": "dolore",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 65,
-  "Attachments": [
+  "CustomHeaderList": [
     {
-      "Description": "Innovative user-facing local area network",
-      "Filename": "assumenda",
-      "Size": 968,
-      "Type": "est",
-      "Encoding": "iste",
-      "Id": "atque",
-      "Disposition": "dolorem",
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Ward, Lesch and Rath",
+      "Values": [
+        "ea",
+        "blanditiis"
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 140
+        }
+      }
+    },
+    {
+      "Name": "Ward, Lesch and Rath",
+      "Values": [
+        "ea",
+        "blanditiis"
+      ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -220,44 +252,12 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "CustomHeaderList": [
-    {
-      "Name": "Will LLC",
-      "Values": [
-        "velit",
-        "quibusdam"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 188
-        }
-      }
-    },
-    {
-      "Name": "Will LLC",
-      "Values": [
-        "velit",
-        "quibusdam"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 188
-        }
-      }
-    }
-  ],
-  "FolderName": "Hartmann Inc and Sons",
-  "EmailItemId": 440,
-  "AccountId": 914,
-  "ReceivedAt": "2014-10-19T11:22:38.289718+02:00",
+  "FolderName": "Mosciski-Walsh",
+  "EmailItemId": 362,
+  "AccountId": 80,
+  "ReceivedAt": "2017-11-18T14:19:03.4821464+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-05-19T11:22:38.289718+02:00",
+  "RepliedAt": "2000-01-09T14:19:03.4821464+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldType": "System.String",
+      "FieldLength": 985
     }
   }
 }

@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 23,
-    "Name": "Jakubowski, Collins and Aufderhar",
-    "Tooltip": "placeat",
+    "HeadingId": 560,
+    "Name": "Leuschke Inc and Sons",
+    "Tooltip": "fugiat",
     "Deleted": false,
-    "Rank": 549,
-    "UdListDefinitionId": 424,
+    "Rank": 52,
+    "UdListDefinitionId": 77,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 974
+        "FieldLength": 248
       }
     }
   }

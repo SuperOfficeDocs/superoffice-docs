@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 602
+  "DepartmentId": 360
 }
 ```
 
@@ -129,52 +129,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "sed",
-    "PersonId": 752,
-    "Mrmrs": "vel",
-    "Firstname": "Prince",
-    "Lastname": "Corkery",
-    "MiddleName": "Beatty, Heaney and Donnelly",
-    "Title": "ut",
-    "Description": "Self-enabling intangible budgetary management",
-    "Email": "max@goyette.ca",
-    "FullName": "Amiya Hahn",
-    "DirectPhone": "233-203-1846",
-    "FormalName": "Boyle-Schulist",
-    "CountryId": 799,
-    "ContactId": 142,
-    "ContactName": "Bernhard, Buckridge and Mante",
-    "Retired": 425,
-    "Rank": 755,
-    "ActiveInterests": 632,
+    "Position": "qui",
+    "PersonId": 374,
+    "Mrmrs": "perferendis",
+    "Firstname": "Paige",
+    "Lastname": "Cormier",
+    "MiddleName": "Casper, Ferry and Rolfson",
+    "Title": "est",
+    "Description": "Extended eco-centric model",
+    "Email": "santina@swaniawski.info",
+    "FullName": "Chelsie Hilpert",
+    "DirectPhone": "447.365.7322 x511",
+    "FormalName": "Bashirian, Fritsch and Lindgren",
+    "CountryId": 15,
+    "ContactId": 427,
+    "ContactName": "Dooley Inc and Sons",
+    "Retired": 421,
+    "Rank": 920,
+    "ActiveInterests": 843,
     "ContactDepartment": "",
-    "ContactCountryId": 862,
-    "ContactOrgNr": "918411",
-    "FaxPhone": "378.949.3807 x832",
-    "MobilePhone": "1-535-513-3697 x81748",
-    "ContactPhone": "1-364-715-6825",
-    "AssociateName": "Davis-Carter",
-    "AssociateId": 562,
+    "ContactCountryId": 802,
+    "ContactOrgNr": "1530349",
+    "FaxPhone": "(917)911-4486 x15678",
+    "MobilePhone": "(885)179-3294 x275",
+    "ContactPhone": "1-388-701-5177 x508",
+    "AssociateName": "Kunde, Murphy and Fritsch",
+    "AssociateId": 950,
     "UsePersonAddress": false,
     "ContactFax": "et",
-    "Kanafname": "mollitia",
-    "Kanalname": "nulla",
-    "Post1": "consequatur",
-    "Post2": "eius",
-    "Post3": "ullam",
-    "EmailName": "lafayette@douglasjohnston.uk",
-    "ContactFullName": "Laurine Heathcote",
-    "ActiveErpLinks": 64,
-    "TicketPriorityId": 56,
-    "SupportLanguageId": 536,
-    "SupportAssociateId": 587,
+    "Kanafname": "sint",
+    "Kanalname": "dolorem",
+    "Post1": "sit",
+    "Post2": "qui",
+    "Post3": "assumenda",
+    "EmailName": "carmela@crist.uk",
+    "ContactFullName": "Leann Lesch",
+    "ActiveErpLinks": 667,
+    "TicketPriorityId": 799,
+    "SupportLanguageId": 890,
+    "SupportAssociateId": 621,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 561
+        "FieldLength": 390
       }
     }
   }

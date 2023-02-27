@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 920,
-    "Name": "Gleichner, Hackett and Shields",
-    "Description": "Quality-focused optimal extranet",
+    "ProjectId": 215,
+    "Name": "Hickle-Pollich",
+    "Description": "Multi-lateral 24 hour toolset",
     "URL": "http://www.example.com/",
-    "Type": "et",
-    "AssociateId": 316,
-    "AssociateFullName": "Clark Monahan",
-    "TypeId": 548,
-    "Updated": "2009-09-13T11:22:38.8520826+02:00",
-    "StatusId": 401,
-    "Status": "omnis",
-    "TextId": 842,
-    "PublishTo": "2016-03-27T11:22:38.8520826+02:00",
-    "PublishFrom": "2007-04-11T11:22:38.8520826+02:00",
+    "Type": "deleniti",
+    "AssociateId": 847,
+    "AssociateFullName": "Keeley Bechtelar",
+    "TypeId": 916,
+    "Updated": "2008-06-30T14:19:03.9688343+02:00",
+    "StatusId": 630,
+    "Status": "illum",
+    "TextId": 489,
+    "PublishTo": "2006-07-06T14:19:03.9688343+02:00",
+    "PublishFrom": "1996-05-08T14:19:03.9688343+02:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1305730",
-    "ActiveErpLinks": 68,
+    "ProjectNumber": "746762",
+    "ActiveErpLinks": 632,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 808
+        "FieldType": "System.Int32",
+        "FieldLength": 96
       }
     }
   }

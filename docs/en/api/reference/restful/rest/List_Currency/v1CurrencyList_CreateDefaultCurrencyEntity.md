@@ -70,19 +70,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 600,
-  "Name": "VonRueden, Hodkiewicz and Bernier",
-  "Tooltip": "aperiam",
-  "Rank": 591,
-  "Rate": 30349.656,
-  "Units": 6349.4839999999995,
-  "Deleted": false,
+  "CurrencyId": 42,
+  "Name": "Kris, Barrows and Bartell",
+  "Tooltip": "laboriosam",
+  "Rank": 634,
+  "Rate": 20859.904,
+  "Units": 19734.798,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 106
+      "FieldType": "System.Int32",
+      "FieldLength": 408
     }
   }
 }

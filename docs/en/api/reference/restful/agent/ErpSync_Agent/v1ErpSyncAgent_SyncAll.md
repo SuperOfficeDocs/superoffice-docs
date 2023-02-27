@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/ErpSync/SyncAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,10 +81,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "quod",
-  "TechExplanation": "aliquam",
-  "ErrorCode": "sint",
+  "IsOk": false,
+  "UserExplanation": "odit",
+  "TechExplanation": "repellendus",
+  "ErrorCode": "expedita",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 194
+      "FieldLength": 189
     }
   }
 }

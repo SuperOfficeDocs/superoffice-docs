@@ -94,20 +94,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 254,
+  "ReportId": 432,
   "ReportCategory": "All",
-  "Description": "Seamless bandwidth-monitored database",
+  "Description": "Automated grid-enabled neural-net",
   "ReportLayout": "CalendarMonth",
-  "Name": "Hahn, Beatty and Aufderhar",
-  "AssociateId": 851,
-  "TemplateId": 737,
-  "Published": false,
+  "Name": "Romaguera, Kozey and Armstrong",
+  "AssociateId": 153,
+  "TemplateId": 533,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 586
+      "FieldType": "System.String",
+      "FieldLength": 346
     }
   }
 }

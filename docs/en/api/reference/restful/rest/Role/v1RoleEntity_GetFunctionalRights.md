@@ -77,7 +77,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,56 +88,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 593,
-    "Name": "Murazik LLC",
-    "ToolTip": "Molestias sit.",
-    "Deleted": false,
-    "Rank": 716,
-    "Type": "delectus",
-    "ColorBlock": 997,
-    "IconHint": "et",
+    "Id": 270,
+    "Name": "Koepp, Baumbach and Gleason",
+    "ToolTip": "Dolor sequi quam vel blanditiis est voluptatum.",
+    "Deleted": true,
+    "Rank": 229,
+    "Type": "error",
+    "ColorBlock": 529,
+    "IconHint": "iste",
     "Selected": false,
-    "LastChanged": "1998-11-24T11:22:45.0849869+01:00",
+    "LastChanged": "2017-10-22T14:19:10.6623446+02:00",
     "ChildItems": [
       {
-        "Id": 927,
-        "Name": "Berge-Jones",
-        "ToolTip": "Ratione est qui.",
+        "Id": 336,
+        "Name": "Schmitt-Rempel",
+        "ToolTip": "Iure consequatur quia est voluptatem sit doloremque.",
         "Deleted": false,
-        "Rank": 40,
-        "Type": "perspiciatis",
-        "ColorBlock": 583,
-        "IconHint": "eaque",
+        "Rank": 849,
+        "Type": "earum",
+        "ColorBlock": 929,
+        "IconHint": "provident",
         "Selected": true,
-        "LastChanged": "2020-12-19T11:22:45.0849869+01:00",
+        "LastChanged": "2017-06-09T14:19:10.6623446+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "numquam",
         "Hidden": false,
-        "FullName": "Ms. Jett Stephany Turner PhD",
+        "FullName": "Leon Grimes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 525
+            "FieldLength": 990
           }
         }
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "et",
+    "ExtraInfo": "quia",
+    "StyleHint": "excepturi",
     "Hidden": true,
-    "FullName": "Christina Satterfield",
+    "FullName": "Opal Bailey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 806
+        "FieldLength": 542
       }
     }
   }

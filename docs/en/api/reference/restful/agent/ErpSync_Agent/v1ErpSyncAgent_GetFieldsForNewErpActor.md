@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 877,
+  "ErpConnectionId": 672,
   "ErpActorType": "Customer"
 }
 ```
@@ -101,14 +101,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "animi",
-    "Rank": 77,
-    "DisplayName": "Schroeder, Greenfelder and Kiehn",
-    "DisplayDescription": "Automated composite standardization",
+    "FieldKey": "laborum",
+    "Rank": 981,
+    "DisplayName": "Lubowitz Group",
+    "DisplayDescription": "Progressive discrete info-mediaries",
     "FieldType": "Checkbox",
-    "ListName": "Okuneva, Bashirian and Fadel",
-    "DefaultValue": "veniam",
-    "MaxLength": 908,
+    "ListName": "Medhurst, Roberts and Williamson",
+    "DefaultValue": "explicabo",
+    "MaxLength": 128,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 727
+        "FieldLength": 1002
       }
     }
   }

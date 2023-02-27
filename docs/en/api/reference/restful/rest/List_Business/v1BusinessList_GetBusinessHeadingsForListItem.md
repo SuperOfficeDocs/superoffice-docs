@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 825,
-    "Name": "Fisher, Weissnat and Tremblay",
-    "ToolTip": "Dolorum et dignissimos asperiores corrupti aut.",
-    "Deleted": true,
-    "Rank": 39,
-    "Type": "modi",
-    "ColorBlock": 828,
-    "IconHint": "quibusdam",
-    "Selected": true,
-    "LastChanged": "2016-10-20T11:22:45.5848828+02:00",
+    "Id": 894,
+    "Name": "Prohaska-Wehner",
+    "ToolTip": "Consequatur rerum autem enim quis.",
+    "Deleted": false,
+    "Rank": 380,
+    "Type": "tempore",
+    "ColorBlock": 671,
+    "IconHint": "veniam",
+    "Selected": false,
+    "LastChanged": "1997-12-27T14:19:11.1324679+01:00",
     "ChildItems": [
       {
-        "Id": 90,
-        "Name": "Tremblay, Sipes and Orn",
-        "ToolTip": "Ratione et cumque.",
+        "Id": 393,
+        "Name": "Kihn Inc and Sons",
+        "ToolTip": "Atque cum reprehenderit magni veritatis ut quae.",
         "Deleted": false,
-        "Rank": 864,
-        "Type": "qui",
-        "ColorBlock": 310,
-        "IconHint": "at",
+        "Rank": 566,
+        "Type": "aut",
+        "ColorBlock": 810,
+        "IconHint": "esse",
         "Selected": false,
-        "LastChanged": "2004-02-08T11:22:45.5848828+01:00",
+        "LastChanged": "2004-01-05T14:19:11.1324679+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "voluptate",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "maxime",
         "Hidden": false,
-        "FullName": "Miss Thaddeus Sporer IV",
+        "FullName": "Candelario Gulgowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 960
+            "FieldType": "System.Int32",
+            "FieldLength": 995
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "quia",
+    "ExtraInfo": "corrupti",
+    "StyleHint": "nostrum",
     "Hidden": false,
-    "FullName": "Glenda Jennyfer Grant MD",
+    "FullName": "Jacquelyn Clarissa Ullrich Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 813
+        "FieldLength": 891
       }
     }
   }

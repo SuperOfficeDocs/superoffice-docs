@@ -109,33 +109,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 741,
-  "CustomerCustomerReplyTemplateId": 975,
-  "CustomerPasswordTemplateId": 637,
-  "CustomerConfirmEmailTemplateId": 36,
-  "CustomerChatLogTemplateId": 33,
-  "NewLinkTemplateId": 31,
-  "HotlistNewMessageTemplateId": 515,
-  "HotlistTicketActivatedTemplateId": 914,
-  "UserTicketAlarmTemplateId": 794,
-  "HotlistTicketTakenOverTemplateId": 194,
-  "UserActiveTicketsTemplateId": 637,
-  "UserNewMessageTemplateId": 598,
-  "UserTicketActivatedTemplateId": 139,
-  "UserNewTicketTemplateId": 313,
-  "PublishKbQuestionTemplateId": 676,
-  "PublishKbAnswerTemplateId": 819,
-  "UserTicketTakenOverTemplateId": 44,
-  "PrintTicketTemplateId": 362,
-  "WeekStatTemplateId": 831,
-  "TicketAlarmHotlistTemplateId": 461,
-  "EmailAddresses": "kailee.homenick@botsfordfriesen.biz",
+  "CustomerNewCustomerTemplateId": 505,
+  "CustomerCustomerReplyTemplateId": 844,
+  "CustomerPasswordTemplateId": 567,
+  "CustomerConfirmEmailTemplateId": 931,
+  "CustomerChatLogTemplateId": 12,
+  "NewLinkTemplateId": 848,
+  "HotlistNewMessageTemplateId": 799,
+  "HotlistTicketActivatedTemplateId": 942,
+  "UserTicketAlarmTemplateId": 585,
+  "HotlistTicketTakenOverTemplateId": 830,
+  "UserActiveTicketsTemplateId": 131,
+  "UserNewMessageTemplateId": 659,
+  "UserTicketActivatedTemplateId": 240,
+  "UserNewTicketTemplateId": 515,
+  "PublishKbQuestionTemplateId": 325,
+  "PublishKbAnswerTemplateId": 684,
+  "UserTicketTakenOverTemplateId": 218,
+  "PrintTicketTemplateId": 544,
+  "WeekStatTemplateId": 776,
+  "TicketAlarmHotlistTemplateId": 292,
+  "EmailAddresses": "vivianne@okonreynolds.uk",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 37
+      "FieldType": "System.Int32",
+      "FieldLength": 286
     }
   }
 }

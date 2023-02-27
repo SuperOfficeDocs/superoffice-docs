@@ -100,21 +100,21 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 543,
-  "UniqueIdentifier": "aliquid",
-  "Name": "Pouros, Wunsch and Frami",
-  "Description": "De-engineered cohesive throughput",
-  "IncludeId": "quaerat",
-  "HierarchyId": 2,
-  "Source": "sapiente",
-  "Registered": "2020-08-04T11:22:44.5694964+02:00",
-  "RegisteredAssociateId": 424,
-  "Updated": "2004-04-26T11:22:44.5694964+02:00",
-  "UpdatedAssociateId": 2
+  "EjscriptId": 392,
+  "UniqueIdentifier": "voluptatem",
+  "Name": "Luettgen Inc and Sons",
+  "Description": "Decentralized content-based knowledge base",
+  "IncludeId": "qui",
+  "HierarchyId": 341,
+  "Source": "quis",
+  "Registered": "2013-11-30T14:19:10.240473+01:00",
+  "RegisteredAssociateId": 869,
+  "Updated": "2018-05-01T14:19:10.240473+02:00",
+  "UpdatedAssociateId": 558
 }
 ```
 
@@ -125,23 +125,23 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 74,
+  "EjscriptId": 587,
   "UniqueIdentifier": "sunt",
-  "Name": "D'Amore, Buckridge and Cummerata",
-  "Description": "Ameliorated reciprocal installation",
-  "IncludeId": "itaque",
-  "HierarchyId": 921,
-  "Source": "sapiente",
-  "Registered": "2011-08-11T11:22:44.5694964+02:00",
-  "RegisteredAssociateId": 518,
-  "Updated": "1996-04-28T11:22:44.5694964+02:00",
-  "UpdatedAssociateId": 642,
+  "Name": "Cole Group",
+  "Description": "Upgradable uniform implementation",
+  "IncludeId": "maxime",
+  "HierarchyId": 564,
+  "Source": "et",
+  "Registered": "2001-08-20T14:19:10.240473+02:00",
+  "RegisteredAssociateId": 96,
+  "Updated": "2002-01-31T14:19:10.240473+01:00",
+  "UpdatedAssociateId": 101,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 458
+      "FieldLength": 326
     }
   },
   "_Links": {

@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 831,
-  "Name": "Stoltenberg, Huels and Grimes",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "UdListDefinitionId": 185,
-  "Rank": 153,
+  "Id": 287,
+  "Name": "Hodkiewicz, Treutel and Rath",
+  "Tooltip": "animi",
+  "Deleted": true,
+  "UdListDefinitionId": 427,
+  "Rank": 249,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 60
+      "FieldType": "System.Int32",
+      "FieldLength": 670
     }
   }
 }

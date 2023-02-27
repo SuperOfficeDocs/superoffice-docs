@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 66,
-    "Name": "Hagenes, Metz and Collier",
-    "ToolTip": "Qui sed illo non illum dolorem.",
+    "Id": 195,
+    "Name": "Torphy-Gutmann",
+    "ToolTip": "Aut id.",
     "Deleted": true,
-    "Rank": 697,
-    "Type": "animi",
-    "ColorBlock": 229,
-    "IconHint": "dolorum",
-    "Selected": true,
-    "LastChanged": "2018-04-16T11:22:45.9441645+02:00",
+    "Rank": 389,
+    "Type": "rerum",
+    "ColorBlock": 902,
+    "IconHint": "corporis",
+    "Selected": false,
+    "LastChanged": "2002-06-02T14:19:11.2898728+02:00",
     "ChildItems": [
       {
-        "Id": 353,
-        "Name": "Ritchie, Wintheiser and Steuber",
-        "ToolTip": "Odio voluptate dolores.",
+        "Id": 436,
+        "Name": "Beier, Romaguera and Klocko",
+        "ToolTip": "Vitae eos exercitationem vel explicabo.",
         "Deleted": true,
-        "Rank": 581,
-        "Type": "aliquid",
-        "ColorBlock": 707,
-        "IconHint": "soluta",
-        "Selected": false,
-        "LastChanged": "2006-08-23T11:22:45.9597902+02:00",
+        "Rank": 881,
+        "Type": "alias",
+        "ColorBlock": 86,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2001-07-09T14:19:11.2898728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "dolor",
-        "Hidden": true,
-        "FullName": "Kristopher Jenkins",
+        "ExtraInfo": "quod",
+        "StyleHint": "quo",
+        "Hidden": false,
+        "FullName": "Alessia Ondricka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 520
+            "FieldLength": 594
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "error",
-    "Hidden": true,
-    "FullName": "Ms. Kiera Williamson",
+    "ExtraInfo": "architecto",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Mrs. Hettie Rachelle Stokes PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 871
+        "FieldType": "System.String",
+        "FieldLength": 968
       }
     }
   }

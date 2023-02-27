@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 524,
-    "Section": "excepturi",
-    "Key": "sapiente",
-    "Name": "Jacobs Inc and Sons",
+    "PrefDescId": 360,
+    "Section": "voluptatem",
+    "Key": "at",
+    "Name": "Kovacek Group",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Diverse mission-critical support",
-    "IsBuiltin": true,
-    "TableName": "Bayer-Koss",
-    "UserDefinedListId": 62,
-    "Rank": 457,
-    "SubGroup": "iure",
-    "MinLevel": 299,
-    "MaxValue": 140,
-    "MinValue": 446,
-    "RequiredLicense": "eos",
+    "Description": "Persevering foreground strategy",
+    "IsBuiltin": false,
+    "TableName": "Hettinger, Crist and Morar",
+    "UserDefinedListId": 939,
+    "Rank": 200,
+    "SubGroup": "sit",
+    "MinLevel": 755,
+    "MaxValue": 595,
+    "MinValue": 347,
+    "RequiredLicense": "quam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 723
+        "FieldLength": 357
       }
     }
   }

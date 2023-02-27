@@ -108,11 +108,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "dolorem",
+  "FieldLabel": "unde",
   "OwnerType": "Appointment"
 }
 ```
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 394,
-  "ColumnId": 423,
-  "FieldDefault": "tenetur",
-  "FieldHeight": 996,
-  "FieldLabel": "incidunt",
-  "FieldLeft": 603,
-  "FieldTop": 477,
+  "UDefFieldId": 962,
+  "ColumnId": 574,
+  "FieldDefault": "suscipit",
+  "FieldHeight": 125,
+  "FieldLabel": "nobis",
+  "FieldLeft": 469,
+  "FieldTop": 734,
   "FieldType": "Checkbox",
-  "FieldWidth": 671,
-  "FormatMask": "non",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 142,
-  "LabelLeft": 886,
+  "FieldWidth": 326,
+  "FormatMask": "ratione",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 928,
+  "LabelLeft": 831,
   "LabelTop": 896,
-  "LabelWidth": 122,
-  "LastVersionId": 951,
-  "ListTableId": 308,
+  "LabelWidth": 501,
+  "LastVersionId": 523,
+  "ListTableId": 440,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 895,
-  "ProgId": "est",
-  "IsReadOnly": false,
-  "ShortLabel": "molestiae",
-  "TabOrder": 238,
-  "TextLength": 293,
-  "Tooltip": "omnis",
-  "UdefIdentity": 297,
-  "UDListDefinitionId": 301,
+  "Page1LineNo": 275,
+  "ProgId": "ea",
+  "IsReadOnly": true,
+  "ShortLabel": "qui",
+  "TabOrder": 99,
+  "TextLength": 38,
+  "Tooltip": "ut",
+  "UdefIdentity": 364,
+  "UDListDefinitionId": 79,
   "Justification": "Center",
-  "Version": 815,
-  "TemplateVariableName": "Ebert LLC",
+  "Version": 252,
+  "TemplateVariableName": "Larkin-McDermott",
   "HasBeenPublished": false,
-  "MdoListName": "Rau LLC",
+  "MdoListName": "Ferry, Hegmann and Orn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 958
+      "FieldType": "System.Int32",
+      "FieldLength": 398
     }
   }
 }

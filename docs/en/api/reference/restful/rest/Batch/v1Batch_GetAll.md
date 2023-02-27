@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/BatchTask?$select=name,department,category/id
 GET /api/v1/BatchTask?$filter=name begins 'S'
 GET /api/v1/BatchTask?$orderBy=name asc
-GET /api/v1/BatchTask?$entities=perferendis
-GET /api/v1/BatchTask?$top=243
-GET /api/v1/BatchTask?$skip=486
+GET /api/v1/BatchTask?$entities=dolores
+GET /api/v1/BatchTask?$top=455
+GET /api/v1/BatchTask?$skip=417
 GET /api/v1/BatchTask?$mode=Full
 GET /api/v1/BatchTask?$options=GrandTotal=true
-GET /api/v1/BatchTask?$context=rerum
+GET /api/v1/BatchTask?$context=fuga
 GET /api/v1/BatchTask?$format=JSON
 GET /api/v1/BatchTask?$jsonSafe=False
 GET /api/v1/BatchTask?$output=Display
@@ -117,7 +117,7 @@ OK
 GET /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -131,16 +131,16 @@ Content-Type: application/json; charset=utf-8
   "odata.nextLink": "voluptatem",
   "value": [
     {
-      "PrimaryKey": 8354,
+      "PrimaryKey": 7268,
       "EntityName": "person",
-      "personId": 8354,
-      "fullName": "Arnulfo Claud Kohler Jr."
+      "personId": 7268,
+      "fullName": "Narciso Fisher"
     },
     {
-      "PrimaryKey": 6670,
+      "PrimaryKey": 9162,
       "EntityName": "person",
-      "personId": 6670,
-      "fullName": "Mr. Carlo Rippin"
+      "personId": 9162,
+      "fullName": "Tyreek Yoshiko Bode Jr."
     }
   ]
 }

@@ -108,12 +108,12 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 318,
-  "UiCulture": "qui"
+  "DocumentId": 238,
+  "UiCulture": "dolor"
 }
 ```
 
@@ -124,88 +124,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 952,
+  "DocumentId": 924,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ipsam",
-  "Header": "laborum",
-  "Name": "Kautzer, Gusikowski and Stamm",
-  "OurRef": "non",
-  "YourRef": "laboriosam",
-  "CreatedDate": "2005-05-16T11:22:37.9148054+02:00",
-  "UpdatedDate": "2011-03-05T11:22:37.9148054+01:00",
-  "Description": "Advanced logistical emulation",
+  "Attention": "temporibus",
+  "Header": "est",
+  "Name": "Cruickshank, Mueller and Robel",
+  "OurRef": "ipsum",
+  "YourRef": "vel",
+  "CreatedDate": "2011-06-24T14:19:03.3074068+02:00",
+  "UpdatedDate": "2020-04-18T14:19:03.3074068+02:00",
+  "Description": "Balanced real-time superstructure",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-03-04T11:22:37.9304245+01:00",
-  "ExternalRef": "ut",
+  "Date": "2001-12-16T14:19:03.3074068+01:00",
+  "ExternalRef": "non",
   "Completed": "Completed",
-  "ActiveLinks": 195,
+  "ActiveLinks": 167,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Sipes Inc and Sons",
-      "Id": 723,
-      "Description": "Self-enabling 3rd generation moratorium",
-      "ExtraInfo": "et",
-      "LinkId": 919,
+      "EntityName": "Klein Group",
+      "Id": 617,
+      "Description": "Balanced client-driven database",
+      "ExtraInfo": "nisi",
+      "LinkId": 138,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 561
+          "FieldType": "System.Int32",
+          "FieldLength": 796
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 367,
-  "Snum": 639,
+  "SuggestedDocumentId": 524,
+  "Snum": 181,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Jadon Rodriguez",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Tyrique Bennett Hackett MD",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "nam",
-    "ExtraFields2": "maxime"
+    "ExtraFields1": "illo",
+    "ExtraFields2": "eum"
   },
   "CustomFields": {
-    "CustomFields1": "aliquam",
-    "CustomFields2": "est"
+    "CustomFields1": "quo",
+    "CustomFields2": "vel"
   },
-  "PublishEventDate": "2019-06-26T11:22:37.9304245+02:00",
-  "PublishTo": "2006-04-04T11:22:37.9304245+02:00",
-  "PublishFrom": "2002-09-23T11:22:37.9304245+02:00",
+  "PublishEventDate": "2000-08-13T14:19:03.3074068+02:00",
+  "PublishTo": "2018-12-25T14:19:03.3074068+01:00",
+  "PublishFrom": "2014-11-06T14:19:03.3074068+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 178,
+      "VisibleId": 378,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 733
+          "FieldLength": 456
         }
       }
     },
     {
-      "VisibleId": 178,
+      "VisibleId": 378,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 733
+          "FieldLength": 456
         }
       }
     }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 181
+      "FieldType": "System.Int32",
+      "FieldLength": 223
     }
   }
 }

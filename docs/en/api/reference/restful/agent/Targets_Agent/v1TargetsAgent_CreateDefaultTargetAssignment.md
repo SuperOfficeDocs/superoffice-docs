@@ -74,24 +74,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 951,
+  "TargetAssignmentInfoId": 719,
   "Values": [
-    149,
-    302
+    584,
+    184
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 553,
-  "DimensionListItemDisplayName": "Hettinger-Halvorson",
+  "DimensionListItem": 171,
+  "DimensionListItemDisplayName": "Daniel Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 639
+      "FieldLength": 479
     }
   }
 }

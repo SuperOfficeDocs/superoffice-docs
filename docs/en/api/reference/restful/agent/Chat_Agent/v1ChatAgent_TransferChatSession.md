@@ -109,8 +109,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 866,
-  "ToAssociate": "cumque"
+  "ChatSessionId": 250,
+  "ToAssociate": "ipsam"
 }
 ```
 
@@ -121,43 +121,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 994,
-  "TopicId": 733,
+  "ChatSessionId": 739,
+  "TopicId": 65,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "qui",
-  "CustomerName": "McKenzie Inc and Sons",
-  "CustomerEmail": "salvador@mante.info",
-  "CustomerPhone": "755.905.7946 x86037",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Bahringer, Crona and Runte",
+  "CustomerAlias": "dolor",
+  "CustomerHost": "velit",
+  "CustomerName": "Murphy Group",
+  "CustomerEmail": "orlo@schinnerstark.info",
+  "CustomerPhone": "(362)041-0961 x3624",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Prohaska LLC",
   "Status": "Closed",
-  "FirstMessage": "sit",
-  "LastMessage": "esse",
-  "WhenRequested": "2007-03-20T11:22:37.5242625+01:00",
-  "WhenStarted": "2004-01-08T11:22:37.5242625+01:00",
-  "WhenEnded": "1999-02-03T11:22:37.5242625+01:00",
-  "WhenIdle": "2013-01-16T11:22:37.5242625+01:00",
-  "WhenFetched": "2015-08-06T11:22:37.5242625+02:00",
-  "SessionKey": "voluptatibus",
-  "InitialQueuePos": 568,
-  "AlertLevel": 468,
-  "Rank": 742,
+  "FirstMessage": "odio",
+  "LastMessage": "sunt",
+  "WhenRequested": "2004-11-02T14:19:02.8386521+01:00",
+  "WhenStarted": "2012-12-18T14:19:02.8386521+01:00",
+  "WhenEnded": "2019-12-30T14:19:02.8386521+01:00",
+  "WhenIdle": "2019-09-05T14:19:02.8386521+02:00",
+  "WhenFetched": "2018-08-14T14:19:02.8386521+02:00",
+  "SessionKey": "aut",
+  "InitialQueuePos": 303,
+  "AlertLevel": 450,
+  "Rank": 360,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 770,
+  "ChatbotIsActive": false,
+  "Rating": 378,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 392
+      "FieldLength": 456
     }
   }
 }

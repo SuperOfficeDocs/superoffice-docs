@@ -77,8 +77,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 796,
-  "TableName": "Koepp-Orn"
+  "RoleId": 727,
+  "TableName": "Stark-Bednar"
 }
 ```
 
@@ -89,7 +89,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "hic",
-  "2": "a"
+  "1": "officia",
+  "2": "explicabo"
 }
 ```

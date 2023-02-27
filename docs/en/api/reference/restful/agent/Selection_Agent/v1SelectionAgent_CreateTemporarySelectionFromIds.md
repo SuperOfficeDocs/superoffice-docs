@@ -113,15 +113,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    821,
-    375
+    239,
+    507
   ],
-  "TargetTableNumber": 271
+  "TargetTableNumber": 935
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Upgradable zero administration solution",
-  "Postit": "eligendi",
+  "Description": "Synchronised 4th generation synergy",
+  "Postit": "sed",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 996,
-  "IncludePerson": 424,
-  "MemberCount": 918,
-  "Name": "Boyle, Legros and Hyatt",
-  "PostitTextId": 429,
-  "CreatedDate": "1997-08-16T11:22:39.3207231+02:00",
-  "SelectionId": 889,
-  "SoundEx": "laboriosam",
-  "Source": 470,
-  "TextId": 566,
-  "UpdatedDate": "2008-02-10T11:22:39.3207231+01:00",
-  "UpdatedCount": 348,
-  "Visibility": 969,
+  "GroupIdx": 90,
+  "IncludePerson": 810,
+  "MemberCount": 454,
+  "Name": "Schowalter, Emard and Marks",
+  "PostitTextId": 196,
+  "CreatedDate": "2002-11-23T14:19:04.2036046+01:00",
+  "SelectionId": 527,
+  "SoundEx": "magni",
+  "Source": 118,
+  "TextId": 13,
+  "UpdatedDate": "2006-05-27T14:19:04.2036046+02:00",
+  "UpdatedCount": 784,
+  "Visibility": 342,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 714,
-  "TargetTableName": "Mayert LLC",
+  "CompanyUnique": true,
+  "TargetTableNumber": 24,
+  "TargetTableName": "Johnson, Heller and Bartell",
   "Completed": false,
-  "LeftSelectionId": 316,
-  "RightSelectionId": 94,
+  "LeftSelectionId": 574,
+  "RightSelectionId": 469,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Larson, Sanford and Abernathy",
-  "ShadowProviderName": "Senger Inc and Sons",
-  "ChartKey": "sed",
-  "LastLoaded": "2004-05-07T11:22:39.3207231+02:00",
-  "LastLoadedBy": 632,
+  "MainProviderName": "Bernier-VonRueden",
+  "ShadowProviderName": "Leannon, Erdman and Wolff",
+  "ChartKey": "et",
+  "LastLoaded": "2015-11-08T14:19:04.2036046+01:00",
+  "LastLoadedBy": 311,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2018-11-05T11:22:39.3207231+01:00",
-  "LastMembershipChangeBy": 973,
+  "LastMembershipChange": "2018-07-26T14:19:04.2036046+02:00",
+  "LastMembershipChangeBy": 389,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptate",
-  "MemberTabHeading": "maiores",
-  "MailingsProviderName": "Fadel, Terry and Johnston",
-  "DashboardTileDefinitionId": 740,
+  "MainHeading": "aut",
+  "MemberTabHeading": "magnam",
+  "MailingsProviderName": "Denesik Inc and Sons",
+  "DashboardTileDefinitionId": 813,
   "VisibleFor": [
     {
-      "VisibleId": 902,
+      "VisibleId": 538,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 622
+          "FieldLength": 862
         }
       }
     },
     {
-      "VisibleId": 902,
+      "VisibleId": 538,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 622
+          "FieldLength": 862
         }
       }
     }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 408
+      "FieldLength": 597
     }
   }
 }

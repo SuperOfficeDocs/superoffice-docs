@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 903,
-  "Name": "Pfeffer Inc and Sons",
-  "Tooltip": "reprehenderit",
+  "Id": 470,
+  "Name": "Ebert, Nicolas and Brakus",
+  "Tooltip": "at",
   "Deleted": true,
-  "Rank": 403,
+  "Rank": 539,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "tenetur",
+  "ListType": "incidunt",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldType": "System.String",
+      "FieldLength": 947
     }
   },
   "_Links": {

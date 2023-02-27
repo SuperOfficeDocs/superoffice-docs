@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,34 +101,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 397,
-  "ERPName": "Hayes LLC",
-  "DisplayName": "Satterfield, Weimann and Jaskolski",
-  "DisplayDescription": "Phased regional conglomeration",
-  "Rank": 626,
-  "ConnectorName": "Lueilwitz Group",
-  "ErpConnectionId": 328,
-  "ExtraData": "velit",
-  "IsAvailable": true,
+  "QuoteConnectionId": 622,
+  "ERPName": "Ledner-Schamberger",
+  "DisplayName": "Leffler, Jones and Brekke",
+  "DisplayDescription": "Mandatory stable database",
+  "Rank": 345,
+  "ConnectorName": "Romaguera, Gusikowski and Bode",
+  "ErpConnectionId": 736,
+  "ExtraData": "inventore",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 182,
-      "ERPPriceListKey": "aut",
-      "QuoteConnectionId": 28,
-      "Name": "Fay LLC",
-      "Description": "Vision-oriented impactful internet solution",
-      "Currency": "earum",
-      "CurrencyName": "Kling, Runte and Gutkowski",
-      "ValidFrom": "2000-12-16T11:22:38.9301893+01:00",
-      "ValidTo": "2017-04-29T11:22:38.9301893+02:00",
+      "PriceListId": 334,
+      "ERPPriceListKey": "aspernatur",
+      "QuoteConnectionId": 577,
+      "Name": "Shanahan, Langworth and Nolan",
+      "Description": "Reduced demand-driven infrastructure",
+      "Currency": "accusantium",
+      "CurrencyName": "Becker-Leannon",
+      "ValidFrom": "2013-05-30T14:19:04.0313341+02:00",
+      "ValidTo": "1998-10-23T14:19:04.0313341+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 603
+          "FieldLength": 34
         }
       }
     }
@@ -136,19 +136,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    866,
-    204
+    584,
+    489
   ],
   "AssociateAccessIds": [
-    548,
-    802
+    810,
+    253
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 104
+      "FieldType": "System.String",
+      "FieldLength": 491
     }
   }
 }

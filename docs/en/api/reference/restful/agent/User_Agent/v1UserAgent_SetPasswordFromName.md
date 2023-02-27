@@ -74,8 +74,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Welch Inc and Sons",
-  "Password": "facere"
+  "AssociateName": "Boyer LLC",
+  "Password": "molestiae"
 }
 ```
 

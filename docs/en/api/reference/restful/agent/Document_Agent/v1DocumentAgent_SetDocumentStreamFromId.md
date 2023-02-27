@@ -108,11 +108,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 776,
+  "DocumentId": 797,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -124,88 +124,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 131,
+  "DocumentId": 583,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "qui",
-  "Header": "saepe",
-  "Name": "Hirthe Group",
-  "OurRef": "excepturi",
-  "YourRef": "facilis",
-  "CreatedDate": "2001-06-23T11:22:38.1490728+02:00",
-  "UpdatedDate": "1999-07-12T11:22:38.1490728+02:00",
-  "Description": "Future-proofed radical instruction set",
+  "Attention": "nihil",
+  "Header": "beatae",
+  "Name": "Eichmann-Heidenreich",
+  "OurRef": "laborum",
+  "YourRef": "aliquid",
+  "CreatedDate": "1998-02-12T14:19:03.3542824+01:00",
+  "UpdatedDate": "2000-02-12T14:19:03.3542824+01:00",
+  "Description": "Balanced human-resource orchestration",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2004-04-24T11:22:38.1646944+02:00",
-  "ExternalRef": "sint",
+  "Date": "2020-05-04T14:19:03.3542824+02:00",
+  "ExternalRef": "velit",
   "Completed": "Completed",
-  "ActiveLinks": 719,
+  "ActiveLinks": 145,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Muller Inc and Sons",
-      "Id": 581,
-      "Description": "Triple-buffered reciprocal success",
-      "ExtraInfo": "et",
-      "LinkId": 651,
+      "EntityName": "Marquardt Group",
+      "Id": 67,
+      "Description": "Adaptive local firmware",
+      "ExtraInfo": "odit",
+      "LinkId": 739,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 374
+          "FieldType": "System.String",
+          "FieldLength": 507
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 411,
-  "Snum": 812,
+  "SuggestedDocumentId": 668,
+  "Snum": 814,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Garrison Walter",
-    "SuperOffice:2": "Jeffery Jones"
+    "SuperOffice:1": "Riley Bruen",
+    "SuperOffice:2": "Calista Ruecker"
   },
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "deleniti"
+    "ExtraFields1": "error",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "hic"
+    "CustomFields1": "velit",
+    "CustomFields2": "eius"
   },
-  "PublishEventDate": "2012-12-11T11:22:38.1646944+01:00",
-  "PublishTo": "2019-06-22T11:22:38.1646944+02:00",
-  "PublishFrom": "1998-09-06T11:22:38.1646944+02:00",
+  "PublishEventDate": "1996-10-20T14:19:03.3542824+02:00",
+  "PublishTo": "2021-07-22T14:19:03.3542824+02:00",
+  "PublishFrom": "2015-10-22T14:19:03.3542824+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 530,
+      "VisibleId": 868,
       "Visibility": "All",
-      "DisplayValue": "suscipit",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 671
+          "FieldLength": 37
         }
       }
     },
     {
-      "VisibleId": 530,
+      "VisibleId": 868,
       "Visibility": "All",
-      "DisplayValue": "suscipit",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 671
+          "FieldLength": 37
         }
       }
     }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 671
     }
   }
 }

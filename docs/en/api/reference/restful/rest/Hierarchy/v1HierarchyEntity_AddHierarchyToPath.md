@@ -83,46 +83,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 254,
+  "HierarchyId": 231,
   "Domain": "Dashboards",
-  "Name": "Cassin-Sanford",
-  "Fullname": "enim",
-  "ParentId": 498,
+  "Name": "Durgan LLC",
+  "Fullname": "ipsam",
+  "ParentId": 827,
   "Children": [
     {
-      "HierarchyId": 688,
+      "HierarchyId": 867,
       "Domain": "Dashboards",
-      "Name": "Klein Inc and Sons",
-      "Fullname": "architecto",
-      "ParentId": 607,
+      "Name": "Larson, Hilll and Effertz",
+      "Fullname": "et",
+      "ParentId": 574,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1997-05-28T11:22:44.8818691+02:00",
-      "RegisteredAssociateId": 161,
-      "Updated": "2000-01-31T11:22:44.8818691+01:00",
-      "UpdatedAssociateId": 547,
+      "Registered": "2000-05-16T14:19:10.3654771+02:00",
+      "RegisteredAssociateId": 239,
+      "Updated": "2006-08-29T14:19:10.3654771+02:00",
+      "UpdatedAssociateId": 875,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 620
+          "FieldLength": 754
         }
       }
     }
   ],
-  "Registered": "2016-05-17T11:22:44.8818691+02:00",
-  "RegisteredAssociateId": 529,
-  "Updated": "2006-11-18T11:22:44.8818691+01:00",
-  "UpdatedAssociateId": 158,
+  "Registered": "2016-05-18T14:19:10.3654771+02:00",
+  "RegisteredAssociateId": 829,
+  "Updated": "2021-01-05T14:19:10.3654771+01:00",
+  "UpdatedAssociateId": 378,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 967
+      "FieldType": "System.Int32",
+      "FieldLength": 787
     }
   }
 }

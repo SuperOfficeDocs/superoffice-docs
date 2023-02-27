@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 966,
-    "Name": "Lehner-Reynolds",
-    "Tooltip": "aut",
-    "Rank": 525,
-    "Rate": 27961.548,
-    "Units": 12981.028,
+    "CurrencyId": 192,
+    "Name": "Bergnaum-Wuckert",
+    "Tooltip": "ut",
+    "Rank": 986,
+    "Rate": 23492.464,
+    "Units": 3892.428,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 3
+        "FieldLength": 320
       }
     }
   }

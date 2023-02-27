@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBases
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 280,
-    "Name": "Keebler-Pacocha",
-    "Tooltip": "quia",
-    "Rank": 603,
-    "Key": "est",
+    "LegalBaseId": 194,
+    "Name": "Walter-Mertz",
+    "Tooltip": "sapiente",
+    "Rank": 499,
+    "Key": "assumenda",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 362
+        "FieldType": "System.Int32",
+        "FieldLength": 467
       }
     }
   }

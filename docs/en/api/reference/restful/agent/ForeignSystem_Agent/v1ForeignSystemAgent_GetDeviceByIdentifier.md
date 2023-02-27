@@ -86,9 +86,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Feeney Group",
-  "DeviceName": "Aufderhar-Strosin",
-  "DeviceIdentifier": "minus"
+  "ApplicationName": "Bruen-Hagenes",
+  "DeviceName": "Shields, Rolfson and Reinger",
+  "DeviceIdentifier": "ut"
 }
 ```
 
@@ -99,21 +99,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 989,
-  "Name": "Vandervort, Wisoky and Donnelly",
-  "CreatedDate": "2001-02-16T11:22:38.3834434+01:00",
-  "UpdatedDate": "2006-03-08T11:22:38.3834434+01:00",
-  "AssociateFullName": "Mrs. Naomie Jabari Sauer",
-  "CreatedBy": "quam",
-  "UpdatedBy": "atque",
-  "DeviceIdentifier": "aspernatur",
-  "ForeignAppId": 273,
+  "ForeignDeviceId": 761,
+  "Name": "Ullrich, Kiehn and Hermiston",
+  "CreatedDate": "2014-11-21T14:19:03.5602728+01:00",
+  "UpdatedDate": "2012-06-29T14:19:03.5602728+02:00",
+  "AssociateFullName": "Aryanna Roberts",
+  "CreatedBy": "aliquid",
+  "UpdatedBy": "quo",
+  "DeviceIdentifier": "consequatur",
+  "ForeignAppId": 487,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 56
+      "FieldLength": 993
     }
   }
 }

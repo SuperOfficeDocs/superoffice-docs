@@ -73,9 +73,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Bayer, Crooks and Willms",
-  "EntityId": 776,
-  "TargetLanguage": "facilis"
+  "EntityName": "Wilderman-Beier",
+  "EntityId": 33,
+  "TargetLanguage": "autem"
 }
 ```
 
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"natus"
+"aliquid"
 ```

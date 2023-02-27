@@ -85,7 +85,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,37 +95,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Beer-Vandervort",
-  "SaleDate": "2011-01-15T11:22:45.1787253+01:00",
-  "SaleId": 596,
-  "Probability": 14,
-  "Title": "dolores",
-  "Amount": 8521.346,
-  "Currency": "in",
-  "ProjectName": "Wolf, Reilly and Koch",
-  "AssociateFullName": "Mr. Aaron Tremblay",
-  "Description": "Re-engineered mission-critical standardization",
+  "ContactName": "Pollich Inc and Sons",
+  "SaleDate": "2013-06-10T14:19:10.7404799+02:00",
+  "SaleId": 493,
+  "Probability": 905,
+  "Title": "quis",
+  "Amount": 4744.876,
+  "Currency": "sapiente",
+  "ProjectName": "Dickinson, Ferry and Daugherty",
+  "AssociateFullName": "Dr. Jaden Upton",
+  "Description": "Adaptive scalable workforce",
   "Status": "Lost",
-  "WeightedAmount": 4973.6579999999994,
-  "ProjectId": 262,
-  "EarningPercent": 22790.448,
-  "Earning": 4165.086,
-  "ContactId": 690,
-  "AssociateId": 4,
-  "PersonId": 639,
-  "SaleTypeId": 102,
-  "SaleTypeName": "Cremin, King and Ondricka",
-  "PersonFullName": "Miss Julius Freeda Price",
+  "WeightedAmount": 4760.546,
+  "ProjectId": 331,
+  "EarningPercent": 7245.808,
+  "Earning": 4450.28,
+  "ContactId": 991,
+  "AssociateId": 235,
+  "PersonId": 915,
+  "SaleTypeId": 289,
+  "SaleTypeName": "Jacobson Group",
+  "PersonFullName": "Dr. Micah Arturo Hudson",
   "Completed": "Completed",
-  "ActiveErpLinks": 149,
-  "NextDueDate": "2015-02-28T11:22:45.1787253+01:00",
-  "Number": "570433",
+  "ActiveErpLinks": 657,
+  "NextDueDate": "2009-10-29T14:19:10.7404799+01:00",
+  "Number": "1096500",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 121
+      "FieldLength": 683
     }
   }
 }

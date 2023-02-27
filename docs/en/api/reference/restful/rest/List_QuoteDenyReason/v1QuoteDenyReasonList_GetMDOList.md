@@ -25,8 +25,8 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=dolorem
+GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=animi
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 716,
-    "Name": "Renner-Larson",
-    "ToolTip": "Ut nulla voluptates voluptate quas.",
+    "Id": 821,
+    "Name": "Hodkiewicz-Bartoletti",
+    "ToolTip": "Provident aliquam.",
     "Deleted": false,
-    "Rank": 484,
-    "Type": "voluptatem",
+    "Rank": 334,
+    "Type": "odit",
     "ChildItems": [
       {
-        "Id": 479,
-        "Name": "Jast-Kautzer",
-        "ToolTip": "Ab reprehenderit dolorem.",
-        "Deleted": false,
-        "Rank": 527,
-        "Type": "ipsa",
+        "Id": 788,
+        "Name": "Cronin-Nitzsche",
+        "ToolTip": "Repudiandae a qui.",
+        "Deleted": true,
+        "Rank": 397,
+        "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "laudantium",
-        "ColorBlock": 951,
-        "ExtraInfo": "officia",
+        "IconHint": "ab",
+        "ColorBlock": 278,
+        "ExtraInfo": "voluptatem",
         "StyleHint": "id",
-        "FullName": "Moshe Lueilwitz",
+        "FullName": "Narciso Casper",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 364
+            "FieldLength": 146
           }
         }
       }
     ],
-    "IconHint": "voluptatum",
-    "ColorBlock": 727,
-    "ExtraInfo": "corrupti",
-    "StyleHint": "rerum",
-    "FullName": "Otilia Witting",
+    "IconHint": "eum",
+    "ColorBlock": 417,
+    "ExtraInfo": "nihil",
+    "StyleHint": "aut",
+    "FullName": "Dr. Romaine Elijah Swaniawski III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldLength": 168
       }
     }
   }

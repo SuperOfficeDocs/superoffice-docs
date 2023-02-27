@@ -98,21 +98,21 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 182,
-  "UniqueIdentifier": "libero",
-  "Name": "Cummerata-O'Hara",
-  "Description": "Distributed grid-enabled application",
-  "IncludeId": "non",
-  "HierarchyId": 32,
-  "Source": "qui",
-  "Registered": "1999-05-08T11:22:44.5694964+02:00",
-  "RegisteredAssociateId": 772,
-  "Updated": "2002-08-04T11:22:44.5694964+02:00",
-  "UpdatedAssociateId": 735
+  "EjscriptId": 618,
+  "UniqueIdentifier": "est",
+  "Name": "Schmitt, Bins and Cartwright",
+  "Description": "De-engineered asynchronous budgetary management",
+  "IncludeId": "ullam",
+  "HierarchyId": 381,
+  "Source": "iusto",
+  "Registered": "2012-06-27T14:19:10.240473+02:00",
+  "RegisteredAssociateId": 685,
+  "Updated": "1997-03-17T14:19:10.240473+01:00",
+  "UpdatedAssociateId": 380
 }
 ```
 
@@ -123,23 +123,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 412,
-  "UniqueIdentifier": "cupiditate",
-  "Name": "Thiel, Kerluke and Collins",
-  "Description": "Horizontal intangible initiative",
-  "IncludeId": "unde",
-  "HierarchyId": 561,
-  "Source": "impedit",
-  "Registered": "2013-10-24T11:22:44.5694964+02:00",
-  "RegisteredAssociateId": 731,
-  "Updated": "2015-06-17T11:22:44.5694964+02:00",
-  "UpdatedAssociateId": 62,
+  "EjscriptId": 468,
+  "UniqueIdentifier": "necessitatibus",
+  "Name": "Murray, O'Kon and Parisian",
+  "Description": "Networked tangible matrices",
+  "IncludeId": "cum",
+  "HierarchyId": 868,
+  "Source": "fugiat",
+  "Registered": "2006-11-09T14:19:10.240473+01:00",
+  "RegisteredAssociateId": 851,
+  "Updated": "2015-04-26T14:19:10.240473+02:00",
+  "UpdatedAssociateId": 770,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 780
+      "FieldType": "System.Int32",
+      "FieldLength": 57
     }
   },
   "_Links": {

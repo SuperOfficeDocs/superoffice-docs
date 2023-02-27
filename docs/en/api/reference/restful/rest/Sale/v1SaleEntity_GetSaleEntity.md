@@ -32,7 +32,7 @@ Calls the Sale agent service GetSaleEntity.
 
 ```http
 GET /api/v1/Sale/{id}?$select=name,department,category/id
-GET /api/v1/Sale/{id}?fk=False
+GET /api/v1/Sale/{id}?fk=True
 ```
 
 
@@ -126,7 +126,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 21 Feb 2001 11:22:45 G2T
+Last-Modified: Wed, 09 Aug 2006 14:19:10 G8T
 
 {
   "Appointment": null,
@@ -135,7 +135,7 @@ Last-Modified: Wed, 21 Feb 2001 11:22:45 G2T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "sed",
+  "SaleText": "assumenda",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -144,113 +144,113 @@ Last-Modified: Wed, 21 Feb 2001 11:22:45 G2T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2021-10-07T11:22:45.1318555+02:00",
-  "Amount": 141.03,
-  "SaleId": 917,
-  "Earning": 12636.288,
-  "EarningPercent": 23363.969999999998,
-  "Heading": "non",
-  "Number": "931168",
-  "Probability": 49,
-  "CreatedDate": "2019-01-10T11:22:45.1318555+01:00",
-  "UpdatedDate": "2001-02-21T11:22:45.1318555+01:00",
+  "Saledate": "2012-07-01T14:19:10.6935962+02:00",
+  "Amount": 30127.142,
+  "SaleId": 583,
+  "Earning": 24579.962,
+  "EarningPercent": 5283.924,
+  "Heading": "eius",
+  "Number": "1119008",
+  "Probability": 918,
+  "CreatedDate": "2010-11-16T14:19:10.6935962+01:00",
+  "UpdatedDate": "2006-08-09T14:19:10.6935962+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 207,
+  "ActiveLinks": 967,
   "Links": [
     {
-      "EntityName": "Ward-Upton",
-      "Id": 572,
-      "Description": "Proactive zero defect portal",
-      "ExtraInfo": "ipsa",
-      "LinkId": 447,
+      "EntityName": "Farrell Group",
+      "Id": 173,
+      "Description": "Optional empowering customer loyalty",
+      "ExtraInfo": "officiis",
+      "LinkId": 775,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 599
+          "FieldLength": 694
         }
       }
     }
   ],
-  "NextDueDate": "2000-09-02T11:22:45.1318555+02:00",
-  "Postit": "quisquam",
+  "NextDueDate": "2005-06-13T14:19:10.6935962+02:00",
+  "Postit": "tempora",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2014-05-19T11:22:45.1318555+02:00",
+  "ReopenDate": "2011-05-26T14:19:10.6935962+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Konopelski-Franecki",
-      "Comment": "voluptas",
-      "StakeholderRoleId": 468,
-      "CountryId": 979,
-      "PersonId": 738,
-      "EmailDescription": "deshawn_pacocha@larkin.biz",
-      "EmailId": 488,
-      "EmailAddress": "shayne@hauck.name",
-      "PhoneId": 530,
-      "ContactName": "Kihn-Harvey",
-      "ContactId": 713,
-      "SaleId": 889,
-      "Mrmrs": "ut",
-      "Firstname": "Silas",
-      "MiddleName": "Muller-Maggio",
-      "Lastname": "Murazik",
-      "SaleStakeholderId": 635,
-      "Rank": 479,
-      "Phone": "174.196.5901 x489",
+      "StakeholderRoleName": "Bernier-Dare",
+      "Comment": "vero",
+      "StakeholderRoleId": 635,
+      "CountryId": 805,
+      "PersonId": 264,
+      "EmailDescription": "mireille.purdy@williamson.name",
+      "EmailId": 412,
+      "EmailAddress": "rachelle.goldner@vonrueden.us",
+      "PhoneId": 919,
+      "ContactName": "Mayer-Gleichner",
+      "ContactId": 492,
+      "SaleId": 953,
+      "Mrmrs": "nihil",
+      "Firstname": "Kitty",
+      "MiddleName": "Brekke, Koss and Lindgren",
+      "Lastname": "Upton",
+      "SaleStakeholderId": 822,
+      "Rank": 422,
+      "Phone": "1-973-527-2236 x9730",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 790
+          "FieldLength": 359
         }
       }
     }
   ],
-  "ActiveErpLinks": 805,
+  "ActiveErpLinks": 823,
   "UserDefinedFields": {
-    "SuperOffice:1": "579285552",
-    "SuperOffice:2": "Athena Langworth"
+    "SuperOffice:1": "Emmett Emard",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "soluta",
-    "ExtraFields2": "veniam"
+    "ExtraFields1": "itaque",
+    "ExtraFields2": "quas"
   },
   "CustomFields": {
-    "CustomFields1": "libero",
-    "CustomFields2": "iste"
+    "CustomFields1": "magnam",
+    "CustomFields2": "beatae"
   },
-  "PublishEventDate": "2007-01-08T11:22:45.1318555+01:00",
-  "PublishTo": "2015-07-24T11:22:45.1318555+02:00",
-  "PublishFrom": "2021-09-26T11:22:45.1318555+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2001-09-30T14:19:10.6935962+02:00",
+  "PublishTo": "1999-05-26T14:19:10.6935962+02:00",
+  "PublishFrom": "2015-02-17T14:19:10.6935962+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 287,
+      "VisibleId": 451,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 558
+          "FieldType": "System.String",
+          "FieldLength": 41
         }
       }
     },
     {
-      "VisibleId": 287,
+      "VisibleId": 451,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 558
+          "FieldType": "System.String",
+          "FieldLength": 41
         }
       }
     }
@@ -260,12 +260,12 @@ Last-Modified: Wed, 21 Feb 2001 11:22:45 G2T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 122
+      "FieldLength": 775
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

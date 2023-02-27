@@ -112,7 +112,7 @@ DashTheme  updated.
 PATCH /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
@@ -136,18 +136,18 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 483,
-  "Name": "Wisoky-Corkery",
-  "Config": "corporis",
-  "Rank": 359,
-  "Client": "facilis",
-  "Style": "beatae",
+  "DashboardThemeId": 232,
+  "Name": "Torphy-Rohan",
+  "Config": "illo",
+  "Rank": 334,
+  "Client": "est",
+  "Style": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 843
+      "FieldLength": 266
     }
   },
   "_Links": {

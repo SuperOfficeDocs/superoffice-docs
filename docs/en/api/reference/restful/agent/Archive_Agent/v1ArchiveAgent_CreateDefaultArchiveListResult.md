@@ -57,7 +57,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -67,26 +67,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 32,
+  "RowCount": 386,
   "Rows": [
     {
-      "EntityName": "Turcotte-Harber",
-      "PrimaryKey": 169,
+      "EntityName": "McKenzie LLC",
+      "PrimaryKey": 845,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "error",
-          "TooltipHint": "ipsum",
-          "LinkHint": "accusantium"
+          "DisplayValue": "molestiae",
+          "TooltipHint": "hic",
+          "LinkHint": "eius"
         }
       },
-      "LinkHint": "labore",
-      "StyleHint": "cum",
+      "LinkHint": "architecto",
+      "StyleHint": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 707
+          "FieldLength": 471
         }
       }
     }
@@ -95,8 +95,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 782
+      "FieldType": "System.String",
+      "FieldLength": 640
     }
   }
 }

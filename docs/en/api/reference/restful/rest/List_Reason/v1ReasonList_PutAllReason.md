@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 809,
-    "Name": "Hermiston Inc and Sons",
-    "Tooltip": "ea",
+    "Id": 78,
+    "Name": "Mitchell-Hirthe",
+    "Tooltip": "ut",
     "Deleted": true,
-    "UdListDefinitionId": 20,
-    "Rank": 489
+    "UdListDefinitionId": 258,
+    "Rank": 130
   },
   {
-    "Id": 809,
-    "Name": "Hermiston Inc and Sons",
-    "Tooltip": "ea",
+    "Id": 78,
+    "Name": "Mitchell-Hirthe",
+    "Tooltip": "ut",
     "Deleted": true,
-    "UdListDefinitionId": 20,
-    "Rank": 489
+    "UdListDefinitionId": 258,
+    "Rank": 130
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 726,
-    "Name": "Leuschke Group",
-    "Tooltip": "porro",
+    "Id": 646,
+    "Name": "Haag Group",
+    "Tooltip": "totam",
     "Deleted": false,
-    "UdListDefinitionId": 138,
-    "Rank": 76,
+    "UdListDefinitionId": 10,
+    "Rank": 948,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 232
+        "FieldLength": 422
       }
     }
   }

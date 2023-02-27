@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 131,
-    "Name": "Watsica-Skiles",
-    "ToolTip": "Tenetur harum.",
+    "Id": 810,
+    "Name": "Herman Group",
+    "ToolTip": "Suscipit aut.",
     "Deleted": true,
-    "Rank": 150,
-    "Type": "voluptate",
-    "ColorBlock": 873,
-    "IconHint": "eos",
-    "Selected": true,
-    "LastChanged": "2010-03-15T11:22:46.1784934+01:00",
+    "Rank": 82,
+    "Type": "perspiciatis",
+    "ColorBlock": 639,
+    "IconHint": "dolores",
+    "Selected": false,
+    "LastChanged": "2013-04-03T14:19:11.533946+02:00",
     "ChildItems": [
       {
-        "Id": 964,
-        "Name": "Johns Group",
-        "ToolTip": "Iste in ipsam quisquam eum.",
-        "Deleted": false,
-        "Rank": 376,
-        "Type": "perspiciatis",
-        "ColorBlock": 356,
-        "IconHint": "tempore",
-        "Selected": true,
-        "LastChanged": "2000-02-26T11:22:46.1784934+01:00",
+        "Id": 424,
+        "Name": "Senger, Rippin and Wilderman",
+        "ToolTip": "Consequuntur animi eveniet fugiat sequi.",
+        "Deleted": true,
+        "Rank": 782,
+        "Type": "sed",
+        "ColorBlock": 198,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "1999-05-04T14:19:11.533946+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "ea",
-        "Hidden": false,
-        "FullName": "Prof. Mireille Goyette",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "sed",
+        "Hidden": true,
+        "FullName": "Bennett Dietrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 322
+            "FieldLength": 528
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ex",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "pariatur",
     "Hidden": false,
-    "FullName": "Mrs. Martina Casper Kemmer",
+    "FullName": "Prof. Cassidy Hirthe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 114
+        "FieldType": "System.Int32",
+        "FieldLength": 367
       }
     }
   }

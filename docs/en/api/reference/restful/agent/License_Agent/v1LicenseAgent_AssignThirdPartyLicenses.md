@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 484,
-  "ModuleOwner": "tempore",
+  "AssociateId": 32,
+  "ModuleOwner": "perferendis",
   "ModuleLicenseNames": [
-    "Barton-Pagac",
-    "Johns LLC"
+    "McCullough, Baumbach and Bailey",
+    "Gusikowski-Schultz"
   ]
 }
 ```
@@ -109,25 +109,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 265,
-    "Tooltip": "enim",
+    "Total": 79,
+    "Tooltip": "qui",
     "CanAssign": false,
-    "Free": 540,
-    "InUse": 622,
+    "Free": 15,
+    "InUse": 980,
     "IsHidden": true,
     "Assigned": true,
-    "ModuleLicenseId": 680,
-    "Name": "Feest LLC",
-    "Description": "Multi-channelled neutral time-frame",
-    "PrerequisiteModuleName": "Schuster Inc and Sons",
-    "SortOrder": 858,
-    "ExtraFlags": 667,
+    "ModuleLicenseId": 81,
+    "Name": "Feil Inc and Sons",
+    "Description": "Progressive content-based frame",
+    "PrerequisiteModuleName": "Jacobs, Hansen and Murray",
+    "SortOrder": 4,
+    "ExtraFlags": 75,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 267
+        "FieldType": "System.Int32",
+        "FieldLength": 379
       }
     }
   }

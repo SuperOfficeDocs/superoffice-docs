@@ -74,11 +74,11 @@ OK
 POST /api/v1/Agents/Quote/GetExtraInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineExtraData": "ut"
+  "QuoteLineExtraData": "voluptatem"
 }
 ```
 
@@ -90,28 +90,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Emard, Crooks and Jewess",
-    "Value": "voluptas",
+    "Name": "Hoppe, Jacobs and Welch",
+    "Value": "mollitia",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 485
+        "FieldType": "System.Int32",
+        "FieldLength": 542
       }
     }
   },
   {
-    "Name": "Emard, Crooks and Jewess",
-    "Value": "voluptas",
+    "Name": "Hoppe, Jacobs and Welch",
+    "Value": "mollitia",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 485
+        "FieldType": "System.Int32",
+        "FieldLength": 542
       }
     }
   }

@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 475,
-    "Name": "Schiller, Maggio and Schmeler",
-    "CurrencyId": 583,
-    "EnglishName": "O'Reilly-Wyman",
+    "CountryId": 892,
+    "Name": "Moore, Anderson and Nienow",
+    "CurrencyId": 602,
+    "EnglishName": "Dare-Dickinson",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Ergonomic clear-thinking alliance",
-    "OrgNrText": "1366286",
-    "InterAreaPrefix": "sapiente",
-    "DialInPrefix": "sunt",
-    "ZipPrefix": "sint",
-    "DomainName": "Spinka Group",
-    "AddressLayoutId": 474,
-    "DomesticAddressLayoutId": 807,
-    "ForeignAddressLayoutId": 935,
-    "Rank": 325,
-    "Tooltip": "sequi",
+    "ImageDescription": "Diverse upward-trending matrix",
+    "OrgNrText": "949922",
+    "InterAreaPrefix": "in",
+    "DialInPrefix": "aut",
+    "ZipPrefix": "velit",
+    "DomainName": "Hauck, Gorczany and Johnson",
+    "AddressLayoutId": 351,
+    "DomesticAddressLayoutId": 339,
+    "ForeignAddressLayoutId": 2,
+    "Rank": 739,
+    "Tooltip": "et",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 313
+        "FieldLength": 112
       }
     }
   }

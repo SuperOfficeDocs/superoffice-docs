@@ -65,7 +65,7 @@ OK
 GET /api/v1/Hierarchy/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,46 +75,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 593,
+  "HierarchyId": 676,
   "Domain": "Dashboards",
-  "Name": "Bednar, Hudson and Weissnat",
-  "Fullname": "omnis",
-  "ParentId": 418,
+  "Name": "Gleason, Murazik and Quigley",
+  "Fullname": "dolores",
+  "ParentId": 575,
   "Children": [
     {
-      "HierarchyId": 380,
+      "HierarchyId": 515,
       "Domain": "Dashboards",
-      "Name": "Mann, Conn and Hermiston",
-      "Fullname": "officia",
-      "ParentId": 754,
+      "Name": "McCullough LLC",
+      "Fullname": "accusantium",
+      "ParentId": 844,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2006-11-01T11:22:44.8818691+01:00",
-      "RegisteredAssociateId": 430,
-      "Updated": "2001-10-01T11:22:44.8818691+02:00",
-      "UpdatedAssociateId": 174,
+      "Registered": "2005-08-04T14:19:10.3654771+02:00",
+      "RegisteredAssociateId": 902,
+      "Updated": "2007-05-05T14:19:10.3654771+02:00",
+      "UpdatedAssociateId": 758,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 525
+          "FieldType": "System.Int32",
+          "FieldLength": 263
         }
       }
     }
   ],
-  "Registered": "2007-06-13T11:22:44.8818691+02:00",
-  "RegisteredAssociateId": 975,
-  "Updated": "2020-09-19T11:22:44.8818691+02:00",
-  "UpdatedAssociateId": 813,
+  "Registered": "2010-12-11T14:19:10.3654771+01:00",
+  "RegisteredAssociateId": 161,
+  "Updated": "2005-12-19T14:19:10.3654771+01:00",
+  "UpdatedAssociateId": 408,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldLength": 199
     }
   }
 }

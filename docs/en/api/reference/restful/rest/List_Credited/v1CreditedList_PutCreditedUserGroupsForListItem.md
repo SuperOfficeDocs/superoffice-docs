@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 628,
-    "Name": "Botsford LLC",
-    "ToolTip": "Facere quia possimus aut aut non.",
+    "Id": 689,
+    "Name": "Rippin LLC",
+    "ToolTip": "Assumenda omnis ea sequi.",
     "Deleted": false,
-    "Rank": 106,
-    "Type": "ut",
-    "ColorBlock": 273,
-    "IconHint": "minima",
-    "Selected": false,
-    "LastChanged": "2000-04-05T11:22:45.8504363+02:00",
+    "Rank": 98,
+    "Type": "non",
+    "ColorBlock": 568,
+    "IconHint": "earum",
+    "Selected": true,
+    "LastChanged": "2016-11-09T14:19:11.2105958+01:00",
     "ChildItems": [
       {
-        "Id": 328,
-        "Name": "Baumbach, Cartwright and Runolfsdottir",
-        "ToolTip": "Minima recusandae aperiam et optio occaecati.",
+        "Id": 83,
+        "Name": "Sawayn-Cummings",
+        "ToolTip": "Omnis debitis eveniet nulla.",
         "Deleted": true,
-        "Rank": 422,
-        "Type": "ea",
-        "ColorBlock": 277,
-        "IconHint": "dolor",
+        "Rank": 733,
+        "Type": "reiciendis",
+        "ColorBlock": 906,
+        "IconHint": "perferendis",
         "Selected": false,
-        "LastChanged": "1997-11-28T11:22:45.8504363+01:00",
+        "LastChanged": "2002-07-07T14:19:11.2105958+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ex",
-        "StyleHint": "exercitationem",
-        "Hidden": false,
-        "FullName": "Reinhold Kautzer IV"
+        "ExtraInfo": "explicabo",
+        "StyleHint": "nostrum",
+        "Hidden": true,
+        "FullName": "Paolo Abbott PhD"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Sophie Dooley"
+    "ExtraInfo": "eaque",
+    "StyleHint": "pariatur",
+    "Hidden": true,
+    "FullName": "Hollie Franecki"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 744,
-    "Name": "Farrell-Wyman",
-    "ToolTip": "Nesciunt quia laboriosam quod tenetur expedita aspernatur sed.",
+    "Id": 781,
+    "Name": "Tremblay Group",
+    "ToolTip": "Similique enim blanditiis eum autem.",
     "Deleted": false,
-    "Rank": 419,
-    "Type": "minus",
-    "ColorBlock": 845,
-    "IconHint": "distinctio",
+    "Rank": 336,
+    "Type": "labore",
+    "ColorBlock": 279,
+    "IconHint": "nisi",
     "Selected": false,
-    "LastChanged": "2020-07-25T11:22:45.8660551+02:00",
+    "LastChanged": "1996-04-10T14:19:11.2105958+02:00",
     "ChildItems": [
       {
-        "Id": 398,
-        "Name": "Stehr LLC",
-        "ToolTip": "Aut dolorem eligendi distinctio quia sapiente aut iste.",
+        "Id": 194,
+        "Name": "Denesik, Daugherty and Rodriguez",
+        "ToolTip": "Quas quasi optio omnis quod voluptatem.",
         "Deleted": false,
-        "Rank": 17,
-        "Type": "eius",
-        "ColorBlock": 232,
-        "IconHint": "qui",
+        "Rank": 344,
+        "Type": "dolorum",
+        "ColorBlock": 778,
+        "IconHint": "nostrum",
         "Selected": false,
-        "LastChanged": "1997-09-08T11:22:45.8660551+02:00",
+        "LastChanged": "2015-04-21T14:19:11.2105958+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Corine Schroeder",
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "iusto",
+        "Hidden": true,
+        "FullName": "Brandt Raynor PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 983
+            "FieldLength": 390
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "impedit",
+    "ExtraInfo": "velit",
+    "StyleHint": "corrupti",
     "Hidden": false,
-    "FullName": "Kacie Bailey",
+    "FullName": "Ryley Huel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldType": "System.String",
+        "FieldLength": 412
       }
     }
   }

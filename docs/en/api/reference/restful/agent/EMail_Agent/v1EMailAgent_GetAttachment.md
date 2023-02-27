@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/EMail/GetAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 846,
-  "AttachmentId": "itaque"
+  "MessageServerId": 350,
+  "AttachmentId": "consequatur"
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Advanced local standardization",
-  "Filename": "ratione",
-  "Size": 56,
-  "Type": "aliquam",
-  "Encoding": "assumenda",
-  "Id": "amet",
-  "Disposition": "eos",
+  "Description": "Proactive attitude-oriented emulation",
+  "Filename": "rerum",
+  "Size": 51,
+  "Type": "voluptate",
+  "Encoding": "consequatur",
+  "Id": "minima",
+  "Disposition": "ut",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldType": "System.String",
+      "FieldLength": 903
     }
   }
 }

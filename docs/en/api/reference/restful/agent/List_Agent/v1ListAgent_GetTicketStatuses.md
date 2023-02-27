@@ -81,8 +81,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 561,
-    "Name": "Sporer-Spencer",
+    "TicketStatusId": 539,
+    "Name": "Koch Inc and Sons",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": true,
@@ -93,7 +93,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 94
+        "FieldLength": 406
       }
     }
   }

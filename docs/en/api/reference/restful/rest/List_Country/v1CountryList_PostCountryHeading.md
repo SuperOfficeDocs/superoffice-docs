@@ -78,12 +78,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 710,
-  "Name": "Blick-Roob",
-  "Tooltip": "dolores",
+  "HeadingId": 714,
+  "Name": "Beahan-Stoltenberg",
+  "Tooltip": "voluptates",
   "Deleted": false,
-  "Rank": 818,
-  "UdListDefinitionId": 381
+  "Rank": 488,
+  "UdListDefinitionId": 374
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 119,
-  "Name": "Keebler-Schimmel",
-  "Tooltip": "debitis",
-  "Deleted": true,
-  "Rank": 265,
-  "UdListDefinitionId": 130,
+  "HeadingId": 504,
+  "Name": "Fahey LLC",
+  "Tooltip": "dolorem",
+  "Deleted": false,
+  "Rank": 545,
+  "UdListDefinitionId": 391,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 779
+      "FieldType": "System.Int32",
+      "FieldLength": 340
     }
   }
 }

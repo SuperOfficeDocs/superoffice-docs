@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,22 +84,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "409-907-4813 x992",
-    "PersonCellPhone": "092-105-0867 x31921",
-    "PersonPrivatePhone": "741-263-7469 x78746",
-    "PersonFaxNumber": "684319",
-    "PersonPagerNumber": "1375057",
-    "PersonEmail": "micheal.osinski@treutel.biz",
-    "Id": 701,
-    "Name": "Welch LLC",
-    "Tooltip": "doloremque",
-    "UniqueId": "necessitatibus",
+    "PersonDirectPhone": "(341)193-8131 x235",
+    "PersonCellPhone": "1-762-281-1159 x44428",
+    "PersonPrivatePhone": "542.088.0547 x264",
+    "PersonFaxNumber": "1124809",
+    "PersonPagerNumber": "1263840",
+    "PersonEmail": "josiah@lesch.us",
+    "Id": 93,
+    "Name": "Schulist, Yundt and Heaney",
+    "Tooltip": "reprehenderit",
+    "UniqueId": "iusto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 286
+        "FieldLength": 267
       }
     }
   }

@@ -122,16 +122,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    596,
-    337
+    361,
+    73
   ],
-  "StartTime": "2009-05-27T11:22:36.9619023+02:00",
-  "EndTime": "1998-03-25T11:22:36.9619023+01:00"
+  "StartTime": "2010-05-10T14:19:02.3731222+02:00",
+  "EndTime": "2003-08-15T14:19:02.3731222+02:00"
 }
 ```
 
@@ -143,61 +143,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 262,
-    "StartDate": "1996-01-29T11:22:36.9619023+01:00",
-    "EndDate": "2005-12-18T11:22:36.9619023+01:00",
+    "AppointmentId": 349,
+    "StartDate": "1999-07-13T14:19:02.4682131+02:00",
+    "EndDate": "2004-05-27T14:19:02.4682131+02:00",
     "Type": "BookingForChecklist",
-    "Task": "impedit",
-    "AssociateFullName": "Dr. Alice Bernadette Harris III",
-    "ContactName": "Flatley Inc and Sons",
-    "Description": "Ergonomic dynamic artificial intelligence",
-    "PersonFullName": "Dr. Kaelyn Jordy Veum V",
-    "PersonId": 529,
-    "ContactId": 140,
-    "ProjectId": 894,
-    "ProjectName": "Erdman-Nolan",
-    "IsPublished": false,
-    "AssociateId": 523,
-    "ColorIndex": 522,
+    "Task": "unde",
+    "AssociateFullName": "Frederique Kihn II",
+    "ContactName": "Rolfson LLC",
+    "Description": "Realigned client-server concept",
+    "PersonFullName": "Prof. Jude Renee McCullough",
+    "PersonId": 898,
+    "ContactId": 827,
+    "ProjectId": 600,
+    "ProjectName": "Langworth Inc and Sons",
+    "IsPublished": true,
+    "AssociateId": 473,
+    "ColorIndex": 370,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 853,
-    "PriorityName": "Hodkiewicz-Turner",
+    "PriorityId": 328,
+    "PriorityName": "O'Conner Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2009-10-19T11:22:36.9619023+02:00",
+    "ActiveDate": "2009-01-02T14:19:02.4682131+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-07-25T11:22:36.9619023+02:00",
-    "RecurringEndDate": "1997-05-18T11:22:36.9619023+02:00",
-    "MotherId": 182,
-    "AssignedBy": 443,
-    "AssignedByFullName": "Ms. Janie Volkman DVM",
+    "RecurringStartDate": "2021-06-06T14:19:02.4682131+02:00",
+    "RecurringEndDate": "2000-08-23T14:19:02.4682131+02:00",
+    "MotherId": 585,
+    "AssignedBy": 320,
+    "AssignedByFullName": "Leanna Ferry",
     "RejectReason": "",
-    "Location": "iste",
-    "AlarmLeadTime": "qui",
-    "SaleId": 116,
-    "SaleName": "Koelpin LLC",
-    "AssociateName": "Boehm, Anderson and Prohaska",
-    "CreatedDate": "2021-07-28T11:22:36.9619023+02:00",
-    "CreatedBy": "totam",
-    "CreatedByFullName": "Delfina Kuhn",
-    "CreatedByAssociateId": 38,
+    "Location": "eum",
+    "AlarmLeadTime": "ullam",
+    "SaleId": 262,
+    "SaleName": "Torp LLC",
+    "AssociateName": "Greenholt-Cassin",
+    "CreatedDate": "1997-05-19T14:19:02.4682131+02:00",
+    "CreatedBy": "facere",
+    "CreatedByFullName": "Lynn Nikolaus",
+    "CreatedByAssociateId": 554,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 850
+        "FieldType": "System.String",
+        "FieldLength": 837
       }
     }
   }

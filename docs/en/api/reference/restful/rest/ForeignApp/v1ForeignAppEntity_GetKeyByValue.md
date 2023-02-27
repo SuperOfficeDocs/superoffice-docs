@@ -31,7 +31,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=cumque
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=dolorem
 ```
 
 
@@ -86,23 +86,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 26 May 2005 11:22:44 G5T
+Last-Modified: Sat, 02 Dec 2000 14:19:10 G12T
 
 {
-  "Key": "itaque",
-  "Value": "officiis",
-  "RecordId": 846,
-  "CreatedDate": "2003-06-06T11:22:44.8818691+02:00",
-  "UpdatedDate": "2005-05-26T11:22:44.8818691+02:00",
-  "UpdatedBy": "ea",
-  "CreatedBy": "id",
-  "TableName": "Wolf-Towne",
+  "Key": "quam",
+  "Value": "consectetur",
+  "RecordId": 415,
+  "CreatedDate": "2016-08-20T14:19:10.3654771+02:00",
+  "UpdatedDate": "2000-12-02T14:19:10.3654771+01:00",
+  "UpdatedBy": "deleniti",
+  "CreatedBy": "perspiciatis",
+  "TableName": "Stark LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 307
+      "FieldLength": 149
     }
   }
 }

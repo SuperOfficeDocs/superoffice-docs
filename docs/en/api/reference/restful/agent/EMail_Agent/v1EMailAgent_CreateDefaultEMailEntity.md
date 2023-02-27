@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,155 +96,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 963,
-      "ContactName": "Hudson Inc and Sons",
-      "PersonId": 268,
-      "PersonName": "Goodwin-Nolan",
-      "AssociateId": 631,
-      "Address": "eveniet",
-      "EmailId": 274,
+      "ContactId": 312,
+      "ContactName": "Hoppe, Ziemann and Auer",
+      "PersonId": 335,
+      "PersonName": "Marquardt LLC",
+      "AssociateId": 376,
+      "Address": "laboriosam",
+      "EmailId": 935,
       "DuplicatePersonIds": [
-        821,
-        174
+        456,
+        758
       ],
-      "Name": "Hilpert Inc and Sons",
+      "Name": "Jakubowski, Botsford and Connelly",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 930
+          "FieldLength": 521
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 838,
-      "ContactName": "Torp LLC",
-      "PersonId": 90,
-      "PersonName": "Conn-O'Conner",
-      "AssociateId": 679,
-      "Address": "eveniet",
-      "EmailId": 464,
+      "ContactId": 992,
+      "ContactName": "Raynor LLC",
+      "PersonId": 466,
+      "PersonName": "Dietrich-Gleason",
+      "AssociateId": 169,
+      "Address": "dignissimos",
+      "EmailId": 692,
       "DuplicatePersonIds": [
-        975,
-        310
+        31,
+        568
       ],
-      "Name": "Quitzon-Hintz",
+      "Name": "Schamberger-Swaniawski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 615
+          "FieldType": "System.Int32",
+          "FieldLength": 600
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 88,
-      "ContactName": "Welch Group",
-      "PersonId": 547,
-      "PersonName": "Carter-Streich",
-      "AssociateId": 684,
-      "Address": "eaque",
-      "EmailId": 713,
+      "ContactId": 498,
+      "ContactName": "Crooks-Grimes",
+      "PersonId": 137,
+      "PersonName": "Beer, Olson and Huel",
+      "AssociateId": 884,
+      "Address": "corporis",
+      "EmailId": 446,
       "DuplicatePersonIds": [
-        737,
-        622
+        178,
+        70
       ],
-      "Name": "Littel Inc and Sons",
+      "Name": "Ledner Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 966
+          "FieldLength": 682
         }
       }
     }
   ],
-  "Subject": "dignissimos",
-  "HTMLBody": "recusandae",
+  "Subject": "fugiat",
+  "HTMLBody": "eligendi",
   "From": null,
-  "Sent": "2019-01-03T11:22:38.2272328+01:00",
-  "Size": 244,
+  "Sent": "2010-06-16T14:19:03.4196462+02:00",
+  "Size": 643,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aut",
-  "PlainBody": "ipsam",
-  "IsSent": false,
+  "MessageID": "aperiam",
+  "PlainBody": "omnis",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 14,
+  "ServerId": 855,
   "Attachments": [
     {
-      "Description": "Optional bandwidth-monitored open architecture",
-      "Filename": "voluptatem",
-      "Size": 913,
-      "Type": "non",
-      "Encoding": "laborum",
-      "Id": "autem",
-      "Disposition": "et",
+      "Description": "Down-sized web-enabled encryption",
+      "Filename": "sed",
+      "Size": 785,
+      "Type": "et",
+      "Encoding": "quo",
+      "Id": "sed",
+      "Disposition": "laboriosam",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 976
+          "FieldType": "System.String",
+          "FieldLength": 522
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "O'Hara, Schultz and Hahn",
+      "Name": "O'Hara-Lemke",
       "Values": [
-        "quasi",
-        "et"
+        "dolorem",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 699
+          "FieldLength": 981
         }
       }
     },
     {
-      "Name": "O'Hara, Schultz and Hahn",
+      "Name": "O'Hara-Lemke",
       "Values": [
-        "quasi",
-        "et"
+        "dolorem",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 699
+          "FieldLength": 981
         }
       }
     }
   ],
-  "FolderName": "Cole Group",
-  "EmailItemId": 658,
-  "AccountId": 145,
-  "ReceivedAt": "2015-12-23T11:22:38.2272328+01:00",
+  "FolderName": "McLaughlin, Schinner and Lakin",
+  "EmailItemId": 503,
+  "AccountId": 840,
+  "ReceivedAt": "1997-01-26T14:19:03.4196462+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2012-03-08T11:22:38.2272328+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "1999-10-14T14:19:03.4196462+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 178
+      "FieldType": "System.Int32",
+      "FieldLength": 172
     }
   }
 }

@@ -71,7 +71,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,20 +81,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Wehner Inc and Sons",
-  "ModuleName": "Oberbrunner LLC",
-  "ModuleDescription": "Diverse transitional encryption",
-  "ModuleTooltip": "numquam",
-  "ModuleVersion": "sed",
+  "OwnerName": "Rolfson-Maggio",
+  "ModuleName": "Mraz, Strosin and O'Conner",
+  "ModuleDescription": "Optional local contingency",
+  "ModuleTooltip": "repudiandae",
+  "ModuleVersion": "quis",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": false,
+  "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 275,
-  "ExtraFlags": 413,
-  "ExtraInfo": "explicabo",
-  "SortOrder": 145,
+  "NumberOfLicenses": 379,
+  "ExtraFlags": 388,
+  "ExtraInfo": "quo",
+  "SortOrder": 786,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Willms, Bahringer and Schinner",
-  "Signature": "assumenda"
+  "PrerequisiteModuleName": "Kertzmann, Towne and Goldner",
+  "Signature": "dolor"
 }
 ```

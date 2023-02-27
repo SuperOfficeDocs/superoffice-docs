@@ -25,7 +25,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=177
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=331
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -114,7 +114,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -124,53 +124,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 906,
-  "StartDate": "2009-11-14T11:22:37.0243878+01:00",
-  "EndDate": "2021-11-10T11:22:37.0243878+01:00",
+  "AppointmentId": 85,
+  "StartDate": "1996-09-08T14:19:02.5317757+02:00",
+  "EndDate": "1997-06-24T14:19:02.5317757+02:00",
   "Type": "BookingForChecklist",
-  "Task": "sint",
-  "AssociateFullName": "Hailee Mertie Terry Jr.",
-  "ContactName": "Turcotte-Champlin",
-  "Description": "Realigned exuding intranet",
-  "PersonFullName": "Alyson Koepp",
-  "PersonId": 639,
+  "Task": "et",
+  "AssociateFullName": "Eusebio Christiansen PhD",
+  "ContactName": "Jacobs LLC",
+  "Description": "Synergized multi-tasking alliance",
+  "PersonFullName": "Mr. Felix Sporer",
+  "PersonId": 424,
   "ContactId": 173,
-  "ProjectId": 449,
-  "ProjectName": "Hoppe, Ritchie and Romaguera",
-  "IsPublished": true,
-  "AssociateId": 585,
-  "ColorIndex": 241,
-  "IsFree": true,
+  "ProjectId": 949,
+  "ProjectName": "Walsh, Hirthe and O'Hara",
+  "IsPublished": false,
+  "AssociateId": 911,
+  "ColorIndex": 414,
+  "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 674,
-  "PriorityName": "Bins-Herzog",
+  "PriorityId": 380,
+  "PriorityName": "Lakin-Ferry",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
-  "IsRecurrence": true,
-  "IsBooking": false,
-  "ActiveDate": "1996-08-05T11:22:37.0243878+02:00",
+  "IsBookingMain": true,
+  "IsRecurrence": false,
+  "IsBooking": true,
+  "ActiveDate": "2010-08-11T14:19:02.5317757+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2015-10-20T11:22:37.0243878+02:00",
-  "RecurringEndDate": "2014-10-23T11:22:37.0243878+02:00",
-  "MotherId": 976,
-  "AssignedBy": 420,
-  "AssignedByFullName": "Maureen Abshire",
+  "RecurringStartDate": "2010-06-08T14:19:02.5317757+02:00",
+  "RecurringEndDate": "1998-01-13T14:19:02.5317757+01:00",
+  "MotherId": 195,
+  "AssignedBy": 318,
+  "AssignedByFullName": "Ms. Meta Erling Considine",
   "RejectReason": "",
-  "Location": "vel",
-  "AlarmLeadTime": "dolore",
-  "SaleId": 489,
-  "SaleName": "Bruen Group",
-  "AssociateName": "Reinger-Zieme",
-  "CreatedDate": "2016-02-09T11:22:37.0243878+01:00",
-  "CreatedBy": "at",
-  "CreatedByFullName": "Timothy Franecki",
-  "CreatedByAssociateId": 833,
+  "Location": "ipsum",
+  "AlarmLeadTime": "voluptatem",
+  "SaleId": 779,
+  "SaleName": "Abshire, Blick and Conn",
+  "AssociateName": "Williamson Group",
+  "CreatedDate": "2012-07-21T14:19:02.5317757+02:00",
+  "CreatedBy": "vitae",
+  "CreatedByFullName": "Dr. Melvin Gus Beer III",
+  "CreatedByAssociateId": 515,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
@@ -178,7 +178,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldLength": 642
     }
   }
 }

@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 480,
-    "Name": "Hahn Group",
-    "ToolTip": "Consequuntur est in at recusandae.",
+    "Id": 67,
+    "Name": "Douglas-Jewess",
+    "ToolTip": "Numquam aperiam.",
     "Deleted": false,
-    "Rank": 636,
-    "Type": "modi",
-    "ColorBlock": 215,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2014-11-02T11:22:45.9285426+01:00",
+    "Rank": 120,
+    "Type": "accusantium",
+    "ColorBlock": 99,
+    "IconHint": "officia",
+    "Selected": true,
+    "LastChanged": "2020-07-28T14:19:11.2730964+02:00",
     "ChildItems": [
       {
-        "Id": 469,
-        "Name": "Bradtke, O'Connell and Sanford",
-        "ToolTip": "Earum debitis voluptatem.",
+        "Id": 132,
+        "Name": "Terry, Johns and Langworth",
+        "ToolTip": "Incidunt expedita suscipit explicabo sint sequi quis.",
         "Deleted": false,
-        "Rank": 907,
-        "Type": "qui",
-        "ColorBlock": 723,
-        "IconHint": "beatae",
-        "Selected": true,
-        "LastChanged": "1998-03-07T11:22:45.9285426+01:00",
+        "Rank": 656,
+        "Type": "minima",
+        "ColorBlock": 333,
+        "IconHint": "vero",
+        "Selected": false,
+        "LastChanged": "2020-10-15T14:19:11.2730964+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "a",
+        "ExtraInfo": "quia",
+        "StyleHint": "nisi",
         "Hidden": false,
-        "FullName": "Jairo Stokes",
+        "FullName": "Reilly Kuhn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 284
+            "FieldLength": 169
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "sunt",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "illo",
     "Hidden": false,
-    "FullName": "Prof. Ashlee Bartoletti",
+    "FullName": "Makenna Senger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 767
+        "FieldType": "System.Int32",
+        "FieldLength": 703
       }
     }
   }

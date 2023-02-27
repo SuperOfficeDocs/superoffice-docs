@@ -66,17 +66,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Harber, Daugherty and Bayer",
+  "TableName": "Vandervort, Heller and Okuneva",
   "RecordIds": [
-    766,
-    576
+    630,
+    259
   ],
-  "AssociateId": 832,
-  "ExtraInfo": "officiis"
+  "AssociateId": 164,
+  "ExtraInfo": "et"
 }
 ```
 

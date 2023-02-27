@@ -76,23 +76,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 563,
-  "TypeId": 627,
-  "StartDate": "2006-10-05T11:22:39.2582416+02:00",
-  "Duration": 251,
-  "Description": "Implemented eco-centric knowledge base",
-  "PriorityId": 138,
+  "ProjectId": 768,
+  "TypeId": 176,
+  "StartDate": "2001-12-11T14:19:04.1567293+01:00",
+  "Duration": 351,
+  "Description": "Vision-oriented discrete access",
+  "PriorityId": 325,
   "VisibleFor": null,
   "Completed": "Completed",
-  "OwnerAssociateId": 718,
+  "OwnerAssociateId": 80,
   "SingleEntryOnEachCompany": false,
-  "SaleId": 478,
+  "SaleId": 468,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 651
+      "FieldLength": 187
     }
   }
 }

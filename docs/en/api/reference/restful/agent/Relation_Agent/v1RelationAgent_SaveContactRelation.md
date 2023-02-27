@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,30 +104,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 37,
-  "SourcePersonId": 196,
-  "DestinationContactId": 509,
-  "DestinationPersonId": 130,
-  "RelationId": 472,
-  "Comment": "at",
-  "RelationDefinitionId": 54,
-  "Reversed": 963,
-  "UpdatedDate": "2021-03-22T11:22:38.9614314+01:00",
-  "CreatedDate": "2013-10-19T11:22:38.9614314+02:00",
+  "SourceContactId": 401,
+  "SourcePersonId": 58,
+  "DestinationContactId": 245,
+  "DestinationPersonId": 683,
+  "RelationId": 316,
+  "Comment": "autem",
+  "RelationDefinitionId": 127,
+  "Reversed": 701,
+  "UpdatedDate": "2009-04-05T14:19:04.0625865+02:00",
+  "CreatedDate": "2020-02-27T14:19:04.0625865+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kihn LLC",
-  "SourcePersonName": "Rau-Keeling",
-  "DestinationContactName": "Jacobs, Kemmer and Von",
-  "DestinationPersonName": "Bergnaum Inc and Sons",
-  "ActiveText": "inventore",
-  "PassiveText": "vitae",
+  "SourceContactName": "Mertz Group",
+  "SourcePersonName": "White LLC",
+  "DestinationContactName": "Schulist Group",
+  "DestinationPersonName": "Emmerich-Stiedemann",
+  "ActiveText": "non",
+  "PassiveText": "occaecati",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 714
+      "FieldType": "System.String",
+      "FieldLength": 306
     }
   }
 }

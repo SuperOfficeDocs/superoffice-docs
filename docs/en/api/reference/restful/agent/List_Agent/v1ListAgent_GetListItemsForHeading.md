@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 14,
-  "HeadingId": 682
+  "UdListDefinitionId": 331,
+  "HeadingId": 593
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 941,
-    "Name": "Lubowitz Group",
-    "ToolTip": "Earum ipsam soluta aspernatur aut sed esse sed.",
+    "Id": 521,
+    "Name": "Schulist Group",
+    "ToolTip": "Quia at distinctio est mollitia voluptates laudantium.",
     "Deleted": false,
-    "Rank": 78,
-    "Type": "architecto",
-    "ColorBlock": 104,
-    "IconHint": "est",
+    "Rank": 324,
+    "Type": "reiciendis",
+    "ColorBlock": 690,
+    "IconHint": "a",
     "Selected": false,
-    "LastChanged": "2020-10-08T11:22:38.4771746+02:00",
+    "LastChanged": "2014-10-16T14:19:03.6394986+02:00",
     "ChildItems": [
       {
-        "Id": 382,
-        "Name": "Mosciski Group",
-        "ToolTip": "Odio natus laboriosam.",
-        "Deleted": true,
-        "Rank": 309,
-        "Type": "aperiam",
-        "ColorBlock": 708,
-        "IconHint": "et",
+        "Id": 633,
+        "Name": "Larkin, Wolf and Sawayn",
+        "ToolTip": "Tempora facilis.",
+        "Deleted": false,
+        "Rank": 737,
+        "Type": "quia",
+        "ColorBlock": 896,
+        "IconHint": "nisi",
         "Selected": false,
-        "LastChanged": "2006-02-15T11:22:38.4771746+01:00",
+        "LastChanged": "2002-12-19T14:19:03.6394986+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "ut",
+        "ExtraInfo": "qui",
+        "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Mrs. Emmet Blaise Herman",
+        "FullName": "Prof. Audie Klein",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 340
+            "FieldLength": 226
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "autem",
-    "Hidden": false,
-    "FullName": "Lou Ziemann DDS",
+    "ExtraInfo": "sed",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Ashlynn O'Conner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 801
+        "FieldType": "System.Int32",
+        "FieldLength": 239
       }
     }
   }

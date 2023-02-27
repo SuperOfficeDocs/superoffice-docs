@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 499,
-    "Name": "Gulgowski, Murray and Orn",
-    "Tooltip": "eius",
-    "Deleted": true,
-    "Rank": 303,
-    "UdListDefinitionId": 227,
+    "HeadingId": 384,
+    "Name": "Becker, Schinner and Aufderhar",
+    "Tooltip": "molestiae",
+    "Deleted": false,
+    "Rank": 67,
+    "UdListDefinitionId": 602,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 387
+        "FieldType": "System.Int32",
+        "FieldLength": 449
       }
     }
   }

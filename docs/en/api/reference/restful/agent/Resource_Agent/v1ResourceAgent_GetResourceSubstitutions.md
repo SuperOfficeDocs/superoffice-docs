@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Hamill, Casper and Kertzmann",
-    "Kilback Group"
+    "Runolfsson LLC",
+    "Metz-Toy"
   ],
-  "Culture": "libero",
+  "Culture": "autem",
   "ActiveOnly": true
 }
 ```
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Bergstrom LLC",
-    "ResourceValue": "nam",
-    "Culture": "aliquid",
+    "ResourceName": "Mueller-Bode",
+    "ResourceValue": "et",
+    "Culture": "voluptas",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 301
+        "FieldType": "System.Int32",
+        "FieldLength": 789
       }
     }
   },
   {
-    "ResourceName": "Bergstrom LLC",
-    "ResourceValue": "nam",
-    "Culture": "aliquid",
+    "ResourceName": "Mueller-Bode",
+    "ResourceValue": "et",
+    "Culture": "voluptas",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 301
+        "FieldType": "System.Int32",
+        "FieldLength": 789
       }
     }
   }

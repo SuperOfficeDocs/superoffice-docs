@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Russel-Tillman",
+  "TaskName": "Abbott, Armstrong and Bernhard",
   "State": "All"
 }
 ```
@@ -111,37 +111,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 647,
-    "Name": "Bahringer Group",
-    "AssociateId": 213,
-    "DetailsTable": 237,
-    "DetailsRecord": 391,
-    "IsSystemTask": true,
+    "Id": 791,
+    "Name": "Luettgen Group",
+    "AssociateId": 324,
+    "DetailsTable": 847,
+    "DetailsRecord": 401,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "aut",
-      "ParameterObject2": "aliquam"
+      "ParameterObject1": "unde",
+      "ParameterObject2": "est"
     },
-    "LastStarted": "2004-03-14T11:22:37.4461725+01:00",
-    "Created": "2022-12-17T11:22:37.4461725+01:00",
-    "StartCount": 472,
-    "DatabaseSerialNumber": "799280",
-    "Context": "officiis",
-    "Result": "labore",
+    "LastStarted": "2009-09-07T14:19:02.7750538+02:00",
+    "Created": "2017-09-27T14:19:02.7750538+02:00",
+    "StartCount": 394,
+    "DatabaseSerialNumber": "481071",
+    "Context": "qui",
+    "Result": "minima",
     "State": "All",
-    "Description": "Universal mission-critical intranet",
-    "Response": "et",
-    "Request": "neque",
-    "ProgressDescription": "Digitized executive contingency",
-    "ProgressPercent": 544,
-    "FileName": "Larson-Mraz",
+    "Description": "Total regional algorithm",
+    "Response": "voluptatem",
+    "Request": "fuga",
+    "ProgressDescription": "Persistent fresh-thinking customer loyalty",
+    "ProgressPercent": 318,
+    "FileName": "Bogisich, Prosacco and O'Reilly",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 244
+        "FieldLength": 531
       }
     }
   }

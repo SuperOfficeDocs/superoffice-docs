@@ -83,19 +83,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 659,
-    "Name": "Denesik-Schimmel",
-    "Tooltip": "molestiae",
-    "Rank": 921,
-    "Rate": 19023.38,
-    "Units": 109.69,
-    "Deleted": false,
+    "CurrencyId": 541,
+    "Name": "Champlin-Harris",
+    "Tooltip": "esse",
+    "Rank": 589,
+    "Rate": 28604.018,
+    "Units": 6412.164,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 723
+        "FieldLength": 440
       }
     }
   }

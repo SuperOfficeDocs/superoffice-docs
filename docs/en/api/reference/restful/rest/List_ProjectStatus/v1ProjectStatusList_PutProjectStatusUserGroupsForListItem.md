@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 291,
-    "Name": "Mosciski-Bogan",
-    "ToolTip": "Atque consequuntur sit ut.",
+    "Id": 631,
+    "Name": "Schaefer-Balistreri",
+    "ToolTip": "Magnam aut.",
     "Deleted": false,
-    "Rank": 328,
-    "Type": "maiores",
-    "ColorBlock": 18,
-    "IconHint": "incidunt",
+    "Rank": 906,
+    "Type": "vel",
+    "ColorBlock": 847,
+    "IconHint": "quo",
     "Selected": true,
-    "LastChanged": "2018-03-26T11:22:46.0691442+02:00",
+    "LastChanged": "2002-12-24T14:19:11.3992772+01:00",
     "ChildItems": [
       {
-        "Id": 990,
-        "Name": "Botsford, Kovacek and Douglas",
-        "ToolTip": "Commodi provident animi praesentium.",
-        "Deleted": false,
-        "Rank": 48,
-        "Type": "fugit",
-        "ColorBlock": 786,
-        "IconHint": "et",
+        "Id": 439,
+        "Name": "Schiller, Hand and Koch",
+        "ToolTip": "Quia unde atque totam.",
+        "Deleted": true,
+        "Rank": 958,
+        "Type": "itaque",
+        "ColorBlock": 11,
+        "IconHint": "provident",
         "Selected": false,
-        "LastChanged": "2000-10-01T11:22:46.0691442+02:00",
+        "LastChanged": "2015-05-19T14:19:11.3992772+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "necessitatibus",
-        "Hidden": true,
-        "FullName": "Shaina Klocko"
+        "ExtraInfo": "ut",
+        "StyleHint": "saepe",
+        "Hidden": false,
+        "FullName": "Dave Fay"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "officiis",
-    "Hidden": false,
-    "FullName": "Ms. Michel VonRueden PhD"
+    "ExtraInfo": "maxime",
+    "StyleHint": "repellendus",
+    "Hidden": true,
+    "FullName": "Avery Willms"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 879,
-    "Name": "Batz-Thompson",
-    "ToolTip": "Id reiciendis tempore.",
+    "Id": 954,
+    "Name": "Mraz-Moore",
+    "ToolTip": "Eligendi magni ullam nulla totam non.",
     "Deleted": false,
-    "Rank": 336,
-    "Type": "possimus",
-    "ColorBlock": 860,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2012-12-02T11:22:46.0691442+01:00",
+    "Rank": 870,
+    "Type": "repellat",
+    "ColorBlock": 270,
+    "IconHint": "adipisci",
+    "Selected": true,
+    "LastChanged": "2020-01-28T14:19:11.3992772+01:00",
     "ChildItems": [
       {
-        "Id": 564,
-        "Name": "Hodkiewicz, Cormier and Schoen",
-        "ToolTip": "Ipsam fugiat quos.",
+        "Id": 486,
+        "Name": "Grady Group",
+        "ToolTip": "Nulla rerum porro ea repellat velit aperiam.",
         "Deleted": true,
-        "Rank": 318,
-        "Type": "veritatis",
-        "ColorBlock": 850,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2015-12-03T11:22:46.0691442+01:00",
+        "Rank": 526,
+        "Type": "quasi",
+        "ColorBlock": 12,
+        "IconHint": "quo",
+        "Selected": false,
+        "LastChanged": "2012-06-18T14:19:11.3992772+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "aut",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Ms. Lauretta Goyette",
+        "FullName": "Frank Hilll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 426
+            "FieldLength": 115
           }
         }
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "quaerat",
+    "ExtraInfo": "quos",
+    "StyleHint": "consequuntur",
     "Hidden": false,
-    "FullName": "Josefa Jaskolski",
+    "FullName": "Cyril Wunsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 475
+        "FieldType": "System.Int32",
+        "FieldLength": 113
       }
     }
   }

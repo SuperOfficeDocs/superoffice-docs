@@ -79,7 +79,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,32 +87,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 26 Sep 1998 11:22:44 G9T
+Last-Modified: Thu, 16 Nov 2000 14:19:10 G11T
 
 {
-  "ForeignAppId": 103,
-  "Name": "Bruen-Zemlak",
-  "CreatedDate": "1998-06-07T11:22:44.8662479+02:00",
-  "UpdatedDate": "1998-09-26T11:22:44.8662479+02:00",
+  "ForeignAppId": 180,
+  "Name": "Wiegand-Reilly",
+  "CreatedDate": "2004-06-30T14:19:10.3498478+02:00",
+  "UpdatedDate": "2000-11-16T14:19:10.3498478+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 604,
-      "Name": "Bosco, Kuphal and Boehm",
-      "CreatedDate": "2001-11-13T11:22:44.8662479+01:00",
-      "UpdatedDate": "2014-06-11T11:22:44.8662479+02:00",
-      "AssociateFullName": "Dorothea Effertz",
-      "CreatedBy": "qui",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "commodi",
-      "ForeignAppId": 533,
+      "ForeignDeviceId": 776,
+      "Name": "Goodwin-Schaden",
+      "CreatedDate": "2015-09-26T14:19:10.3498478+02:00",
+      "UpdatedDate": "1998-08-27T14:19:10.3498478+02:00",
+      "AssociateFullName": "Piper Bogisich",
+      "CreatedBy": "nisi",
+      "UpdatedBy": "illo",
+      "DeviceIdentifier": "incidunt",
+      "ForeignAppId": 947,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 941
+          "FieldLength": 881
         }
       }
     }
@@ -122,7 +122,7 @@ Last-Modified: Sat, 26 Sep 1998 11:22:44 G9T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 262
+      "FieldLength": 593
     }
   },
   "_Links": {

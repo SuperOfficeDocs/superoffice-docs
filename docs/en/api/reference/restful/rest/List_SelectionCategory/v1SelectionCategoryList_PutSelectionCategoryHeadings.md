@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 504,
-    "Name": "Kuhn, Johnston and Tillman",
-    "Tooltip": "id",
-    "Deleted": true,
-    "Rank": 54,
-    "UdListDefinitionId": 337
+    "HeadingId": 155,
+    "Name": "Cole, Kilback and Franecki",
+    "Tooltip": "accusamus",
+    "Deleted": false,
+    "Rank": 739,
+    "UdListDefinitionId": 708
   },
   {
-    "HeadingId": 504,
-    "Name": "Kuhn, Johnston and Tillman",
-    "Tooltip": "id",
-    "Deleted": true,
-    "Rank": 54,
-    "UdListDefinitionId": 337
+    "HeadingId": 155,
+    "Name": "Cole, Kilback and Franecki",
+    "Tooltip": "accusamus",
+    "Deleted": false,
+    "Rank": 739,
+    "UdListDefinitionId": 708
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 56,
-    "Name": "Watsica Group",
-    "Tooltip": "consequatur",
+    "HeadingId": 185,
+    "Name": "Moen Inc and Sons",
+    "Tooltip": "recusandae",
     "Deleted": false,
-    "Rank": 403,
-    "UdListDefinitionId": 965,
+    "Rank": 914,
+    "UdListDefinitionId": 581,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 672
+        "FieldLength": 212
       }
     }
   }

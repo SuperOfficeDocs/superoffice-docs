@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 302,
-    "Name": "Lebsack-Wisoky",
-    "Tooltip": "esse",
+    "Id": 691,
+    "Name": "Considine, Mann and Connelly",
+    "Tooltip": "unde",
     "Deleted": false,
-    "UdListDefinitionId": 583,
-    "Rank": 552,
+    "UdListDefinitionId": 531,
+    "Rank": 670,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldType": "System.String",
+        "FieldLength": 140
       }
     }
   }

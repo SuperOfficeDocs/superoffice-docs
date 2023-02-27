@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 145,
-  "Name": "Gibson LLC",
-  "Tooltip": "fugit",
+  "Id": 738,
+  "Name": "Mills Group",
+  "Tooltip": "aut",
   "Deleted": true,
-  "UdListDefinitionId": 144,
-  "Rank": 203
+  "UdListDefinitionId": 782,
+  "Rank": 16
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 583,
-  "Name": "Borer LLC",
-  "Tooltip": "et",
+  "Id": 361,
+  "Name": "Gusikowski, Casper and King",
+  "Tooltip": "laudantium",
   "Deleted": true,
-  "UdListDefinitionId": 490,
-  "Rank": 795,
+  "UdListDefinitionId": 584,
+  "Rank": 427,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldType": "System.String",
+      "FieldLength": 591
     }
   }
 }

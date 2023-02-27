@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 770,
-    "Name": "Pagac, Braun and Heaney",
-    "ToolTip": "Sed dolor et debitis et maiores.",
+    "Id": 235,
+    "Name": "Gulgowski-Wiza",
+    "ToolTip": "Voluptatem voluptatum aut et aut.",
     "Deleted": false,
-    "Rank": 608,
-    "Type": "perferendis",
+    "Rank": 23,
+    "Type": "porro",
     "ChildItems": [
       {
-        "Id": 908,
-        "Name": "Simonis-Goldner",
-        "ToolTip": "Harum et nulla ad.",
-        "Deleted": true,
-        "Rank": 521,
-        "Type": "temporibus",
+        "Id": 271,
+        "Name": "Cruickshank, Bartell and Cartwright",
+        "ToolTip": "Omnis et et sit maiores.",
+        "Deleted": false,
+        "Rank": 990,
+        "Type": "ex",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "doloremque",
-        "ColorBlock": 957,
-        "ExtraInfo": "qui",
-        "StyleHint": "quae",
-        "FullName": "Jamal Schaden",
+        "IconHint": "quos",
+        "ColorBlock": 430,
+        "ExtraInfo": "eius",
+        "StyleHint": "deleniti",
+        "FullName": "Prof. Dedric McLaughlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 535
+            "FieldLength": 427
           }
         }
       }
     ],
-    "IconHint": "repudiandae",
-    "ColorBlock": 289,
-    "ExtraInfo": "voluptatem",
+    "IconHint": "et",
+    "ColorBlock": 279,
+    "ExtraInfo": "impedit",
     "StyleHint": "odio",
-    "FullName": "Dr. Mohammed Turcotte",
+    "FullName": "Theo Lehner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 162
+        "FieldType": "System.String",
+        "FieldLength": 16
       }
     }
   }

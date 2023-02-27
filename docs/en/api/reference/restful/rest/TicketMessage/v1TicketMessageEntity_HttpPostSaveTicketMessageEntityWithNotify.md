@@ -24,7 +24,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-POST /api/v1/TicketMessage?notify=True
+POST /api/v1/TicketMessage?notify=False
 ```
 
 
@@ -55,7 +55,7 @@ The ticket message to save
 | Author | String | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | String | The securitylevel of the message. |
 | Type | String | The type of the message (plaintext/html). |
-| MessageId | String | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | String | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | Integer | The time spent (minutes) for this message. |
 | Body | String | The textbody for the message. |
 | HtmlBody | String | The html body for the message (if any). |
@@ -93,7 +93,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -120,72 +120,72 @@ OK
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 898,
+  "EjMessageId": 319,
   "Ticket": null,
-  "CreatedAt": "2004-09-21T11:22:45.3349401+02:00",
+  "CreatedAt": "2009-05-03T14:19:10.8811066+02:00",
   "CreatedBy": null,
-  "Author": "eveniet",
+  "Author": "optio",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "autem",
-  "TimeSpent": 597,
-  "Body": "eum",
-  "HtmlBody": "in",
-  "EmailHeader": "alf.franecki@schumm.name",
-  "DebugInfo": "quidem",
-  "MailSorter": "quia",
+  "MessageId": "veniam",
+  "TimeSpent": 125,
+  "Body": "praesentium",
+  "HtmlBody": "nihil",
+  "EmailHeader": "dameon@binskuvalis.ca",
+  "DebugInfo": "consequatur",
+  "MailSorter": "officiis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "eius",
+  "SearchTitle": "sed",
   "MessageHeaders": [
     {
-      "Id": 280,
-      "Name": "Carter, Lind and Harvey",
-      "Value": "rerum",
+      "Id": 490,
+      "Name": "Kunde-Crooks",
+      "Value": "vel",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 280,
-      "Name": "Carter, Lind and Harvey",
-      "Value": "rerum",
+      "Id": 490,
+      "Name": "Kunde-Crooks",
+      "Value": "vel",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "nisi",
-  "Sentiment": 59,
-  "SentimentConfidence": 437,
+  "Important": true,
+  "Language": "est",
+  "Sentiment": 423,
+  "SentimentConfidence": 306,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 40,
-      "Name": "Cormier-Labadie",
-      "ContentType": "nam",
-      "AttSize": 103,
+      "AttachmentId": 538,
+      "Name": "Ankunding-Feeney",
+      "ContentType": "cum",
+      "AttSize": 517,
       "InlineImage": false,
-      "ContentId": "natus"
+      "ContentId": "odio"
     },
     {
-      "AttachmentId": 40,
-      "Name": "Cormier-Labadie",
-      "ContentType": "nam",
-      "AttSize": 103,
+      "AttachmentId": 538,
+      "Name": "Ankunding-Feeney",
+      "ContentType": "cum",
+      "AttSize": 517,
       "InlineImage": false,
-      "ContentId": "natus"
+      "ContentId": "odio"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
+    "ExtraFields1": "illum",
     "ExtraFields2": "nulla"
   },
   "CustomFields": {
-    "CustomFields1": "provident",
-    "CustomFields2": "ut"
+    "CustomFields1": "ut",
+    "CustomFields2": "rerum"
   }
 }
 ```
@@ -197,76 +197,76 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 206,
+  "EjMessageId": 393,
   "Ticket": null,
-  "CreatedAt": "2009-06-22T11:22:45.3349401+02:00",
+  "CreatedAt": "2006-11-30T14:19:10.8811066+01:00",
   "CreatedBy": null,
-  "Author": "accusamus",
+  "Author": "magni",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "molestias",
-  "TimeSpent": 204,
-  "Body": "aut",
-  "HtmlBody": "quas",
-  "EmailHeader": "talia.hills@blanda.us",
-  "DebugInfo": "beatae",
-  "MailSorter": "veniam",
+  "MessageId": "dicta",
+  "TimeSpent": 607,
+  "Body": "veniam",
+  "HtmlBody": "eos",
+  "EmailHeader": "lafayette@dach.ca",
+  "DebugInfo": "iste",
+  "MailSorter": "perspiciatis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "aperiam",
+  "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 739,
-      "Name": "Goodwin-Wiegand",
-      "Value": "adipisci",
+      "Id": 308,
+      "Name": "Nader, Halvorson and Reinger",
+      "Value": "officia",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 528
+          "FieldType": "System.String",
+          "FieldLength": 857
         }
       }
     }
   ],
   "Important": false,
-  "Language": "cupiditate",
-  "Sentiment": 362,
-  "SentimentConfidence": 178,
+  "Language": "vel",
+  "Sentiment": 86,
+  "SentimentConfidence": 116,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 666,
-      "Name": "Cremin LLC",
-      "ContentType": "maiores",
-      "AttSize": 30,
+      "AttachmentId": 566,
+      "Name": "Hessel-Gutmann",
+      "ContentType": "sunt",
+      "AttSize": 470,
       "InlineImage": false,
-      "ContentId": "dignissimos",
+      "ContentId": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 438
+          "FieldLength": 615
         }
       }
     }
   ],
   "ExtraFields": {
     "ExtraFields1": "et",
-    "ExtraFields2": "modi"
+    "ExtraFields2": "maiores"
   },
   "CustomFields": {
-    "CustomFields1": "accusamus",
-    "CustomFields2": "et"
+    "CustomFields1": "vitae",
+    "CustomFields2": "id"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 284
+      "FieldLength": 471
     }
   }
 }

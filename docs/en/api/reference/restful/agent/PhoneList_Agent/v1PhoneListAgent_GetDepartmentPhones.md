@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 491
+  "DepartmentId": 180
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "668-424-9801 x763",
-    "PersonCellPhone": "1-950-021-4994",
-    "PersonPrivatePhone": "518.074.4691 x0098",
-    "PersonFaxNumber": "1243217",
-    "PersonPagerNumber": "1036526",
-    "PersonEmail": "herbert_kreiger@donnelly.us",
-    "Id": 981,
-    "Name": "Bernhard Group",
-    "Tooltip": "nisi",
-    "UniqueId": "consectetur",
+    "PersonDirectPhone": "(479)717-1836 x50871",
+    "PersonCellPhone": "(712)523-3141 x2295",
+    "PersonPrivatePhone": "(049)851-5817 x41716",
+    "PersonFaxNumber": "1190398",
+    "PersonPagerNumber": "576258",
+    "PersonEmail": "haleigh_lebsack@dietrich.com",
+    "Id": 906,
+    "Name": "Mann LLC",
+    "Tooltip": "ipsum",
+    "UniqueId": "tempore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 478
+        "FieldType": "System.String",
+        "FieldLength": 933
       }
     }
   }

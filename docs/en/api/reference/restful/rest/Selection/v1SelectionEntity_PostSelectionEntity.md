@@ -155,60 +155,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Stand-alone non-volatile knowledge user",
-  "Postit": "possimus",
+  "Description": "Secured secondary internet solution",
+  "Postit": "voluptate",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 972,
-  "IncludePerson": 619,
-  "MemberCount": 362,
-  "Name": "Beer-Pollich",
-  "PostitTextId": 60,
-  "CreatedDate": "2014-06-15T11:22:45.1943375+02:00",
-  "SelectionId": 533,
-  "SoundEx": "necessitatibus",
-  "Source": 70,
-  "TextId": 425,
-  "UpdatedDate": "2004-06-20T11:22:45.1943375+02:00",
-  "UpdatedCount": 566,
-  "Visibility": 63,
+  "GroupIdx": 418,
+  "IncludePerson": 526,
+  "MemberCount": 258,
+  "Name": "Jones-Lind",
+  "PostitTextId": 867,
+  "CreatedDate": "2021-03-17T14:19:10.7561021+01:00",
+  "SelectionId": 196,
+  "SoundEx": "neque",
+  "Source": 613,
+  "TextId": 906,
+  "UpdatedDate": "2002-04-16T14:19:10.7561021+02:00",
+  "UpdatedCount": 298,
+  "Visibility": 879,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 387,
-  "TargetTableName": "Rodriguez, Bergnaum and Rutherford",
-  "Completed": true,
-  "LeftSelectionId": 751,
-  "RightSelectionId": 245,
+  "TargetTableNumber": 552,
+  "TargetTableName": "Schultz-Pfannerstill",
+  "Completed": false,
+  "LeftSelectionId": 542,
+  "RightSelectionId": 694,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Conroy Group",
-  "ShadowProviderName": "Marvin Inc and Sons",
-  "ChartKey": "consectetur",
-  "LastLoaded": "2021-07-02T11:22:45.1943375+02:00",
-  "LastLoadedBy": 225,
+  "MainProviderName": "Langworth Inc and Sons",
+  "ShadowProviderName": "Aufderhar Group",
+  "ChartKey": "omnis",
+  "LastLoaded": "2016-10-12T14:19:10.7561021+02:00",
+  "LastLoadedBy": 402,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1997-02-05T11:22:45.1943375+01:00",
-  "LastMembershipChangeBy": 251,
+  "LastMembershipChange": "2006-07-15T14:19:10.7561021+02:00",
+  "LastMembershipChangeBy": 80,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "commodi",
-  "MemberTabHeading": "cum",
-  "MailingsProviderName": "Zulauf LLC",
-  "DashboardTileDefinitionId": 64,
+  "MainHeading": "aliquam",
+  "MemberTabHeading": "provident",
+  "MailingsProviderName": "Volkman-Dare",
+  "DashboardTileDefinitionId": 11,
   "VisibleFor": [
     {
-      "VisibleId": 846,
+      "VisibleId": 229,
       "Visibility": "All",
-      "DisplayValue": "eos"
+      "DisplayValue": "aut"
     },
     {
-      "VisibleId": 846,
+      "VisibleId": 229,
       "Visibility": "All",
-      "DisplayValue": "eos"
+      "DisplayValue": "aut"
     }
   ]
 }
@@ -221,70 +221,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Intuitive contextually-based focus group",
-  "Postit": "dolores",
+  "Description": "Versatile full-range middleware",
+  "Postit": "blanditiis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 807,
-  "IncludePerson": 31,
-  "MemberCount": 981,
-  "Name": "Waters-Stehr",
-  "PostitTextId": 637,
-  "CreatedDate": "2016-11-27T11:22:45.1943375+01:00",
-  "SelectionId": 974,
-  "SoundEx": "dolor",
-  "Source": 892,
-  "TextId": 749,
-  "UpdatedDate": "2003-10-15T11:22:45.1943375+02:00",
-  "UpdatedCount": 290,
-  "Visibility": 854,
+  "GroupIdx": 688,
+  "IncludePerson": 2,
+  "MemberCount": 705,
+  "Name": "Thompson LLC",
+  "PostitTextId": 758,
+  "CreatedDate": "2005-11-23T14:19:10.7561021+01:00",
+  "SelectionId": 104,
+  "SoundEx": "fugit",
+  "Source": 773,
+  "TextId": 779,
+  "UpdatedDate": "2013-01-28T14:19:10.7561021+01:00",
+  "UpdatedCount": 718,
+  "Visibility": 319,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 641,
-  "TargetTableName": "Quitzon, Mills and Bode",
-  "Completed": true,
-  "LeftSelectionId": 730,
-  "RightSelectionId": 74,
+  "TargetTableNumber": 399,
+  "TargetTableName": "Lindgren Group",
+  "Completed": false,
+  "LeftSelectionId": 613,
+  "RightSelectionId": 277,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Price Group",
-  "ShadowProviderName": "Hayes, Ledner and Lebsack",
-  "ChartKey": "vel",
-  "LastLoaded": "2011-11-17T11:22:45.1943375+01:00",
-  "LastLoadedBy": 543,
+  "MainProviderName": "Maggio, Torp and Moore",
+  "ShadowProviderName": "Jerde, Wolf and Jenkins",
+  "ChartKey": "autem",
+  "LastLoaded": "1997-06-18T14:19:10.7561021+02:00",
+  "LastLoadedBy": 340,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-03-02T11:22:45.1943375+01:00",
-  "LastMembershipChangeBy": 158,
+  "LastMembershipChange": "1999-11-06T14:19:10.7561021+01:00",
+  "LastMembershipChangeBy": 857,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "atque",
-  "MemberTabHeading": "consequuntur",
-  "MailingsProviderName": "Brown, Wuckert and Kshlerin",
-  "DashboardTileDefinitionId": 236,
+  "MainHeading": "iste",
+  "MemberTabHeading": "nostrum",
+  "MailingsProviderName": "Zemlak LLC",
+  "DashboardTileDefinitionId": 58,
   "VisibleFor": [
     {
-      "VisibleId": 679,
+      "VisibleId": 624,
       "Visibility": "All",
-      "DisplayValue": "iure",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldType": "System.String",
+          "FieldLength": 831
         }
       }
     },
     {
-      "VisibleId": 679,
+      "VisibleId": 624,
       "Visibility": "All",
-      "DisplayValue": "iure",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldType": "System.String",
+          "FieldLength": 831
         }
       }
     }
@@ -294,7 +294,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldLength": 513
     }
   },
   "_Links": {

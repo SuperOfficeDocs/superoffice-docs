@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 260,
-  "Name": "Tremblay-Klocko",
-  "Tooltip": "ut",
+  "Id": 291,
+  "Name": "Torp Group",
+  "Tooltip": "maiores",
   "Deleted": false,
-  "Rank": 224,
-  "IsCustomList": true,
+  "Rank": 197,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quas",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "repellat",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 611,
-  "Name": "Conn-Morissette",
-  "Tooltip": "laboriosam",
-  "Deleted": true,
-  "Rank": 573,
+  "Id": 351,
+  "Name": "Gibson Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 847,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": true,
+  "ListType": "dolores",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 720
+      "FieldLength": 452
     }
   }
 }

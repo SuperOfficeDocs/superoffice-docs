@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 819,
-    "Name": "McKenzie-Sawayn",
-    "ToolTip": "Blanditiis voluptates.",
+    "Id": 810,
+    "Name": "Ziemann, Kub and Waters",
+    "ToolTip": "Beatae maxime.",
     "Deleted": true,
-    "Rank": 507,
-    "Type": "enim",
-    "ColorBlock": 901,
-    "IconHint": "ratione",
-    "Selected": false,
-    "LastChanged": "2021-02-09T11:22:46.0847653+01:00",
+    "Rank": 220,
+    "Type": "ut",
+    "ColorBlock": 850,
+    "IconHint": "accusamus",
+    "Selected": true,
+    "LastChanged": "2022-11-25T14:19:11.4149038+01:00",
     "ChildItems": [
       {
-        "Id": 910,
-        "Name": "Nader, Gleason and Keeling",
-        "ToolTip": "Voluptatibus dolorem ut.",
-        "Deleted": true,
-        "Rank": 697,
-        "Type": "et",
-        "ColorBlock": 414,
-        "IconHint": "ut",
+        "Id": 166,
+        "Name": "Veum-Baumbach",
+        "ToolTip": "Doloribus commodi fugiat qui similique repellat omnis repellat.",
+        "Deleted": false,
+        "Rank": 181,
+        "Type": "sed",
+        "ColorBlock": 181,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2018-04-07T11:22:46.0847653+02:00",
+        "LastChanged": "2002-09-24T14:19:11.4149038+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "asperiores",
         "Hidden": false,
-        "FullName": "Ms. Jordane Alessia Beier",
+        "FullName": "Jamar Kreiger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 762
+            "FieldLength": 884
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "aut",
+    "ExtraInfo": "nobis",
+    "StyleHint": "harum",
     "Hidden": false,
-    "FullName": "Brody D'Amore",
+    "FullName": "Myah Vernon Schaden I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 736
+        "FieldLength": 793
       }
     }
   }

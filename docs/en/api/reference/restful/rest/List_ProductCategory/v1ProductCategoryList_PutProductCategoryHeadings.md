@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 332,
-    "Name": "Smitham-Buckridge",
-    "Tooltip": "modi",
+    "HeadingId": 662,
+    "Name": "Leffler-Schmeler",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 14,
-    "UdListDefinitionId": 38
+    "Rank": 701,
+    "UdListDefinitionId": 768
   },
   {
-    "HeadingId": 332,
-    "Name": "Smitham-Buckridge",
-    "Tooltip": "modi",
+    "HeadingId": 662,
+    "Name": "Leffler-Schmeler",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 14,
-    "UdListDefinitionId": 38
+    "Rank": 701,
+    "UdListDefinitionId": 768
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 691,
-    "Name": "Leuschke, Pollich and Turner",
-    "Tooltip": "voluptas",
+    "HeadingId": 547,
+    "Name": "Corwin LLC",
+    "Tooltip": "debitis",
     "Deleted": false,
-    "Rank": 946,
-    "UdListDefinitionId": 523,
+    "Rank": 504,
+    "UdListDefinitionId": 310,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 335
+        "FieldLength": 413
       }
     }
   }

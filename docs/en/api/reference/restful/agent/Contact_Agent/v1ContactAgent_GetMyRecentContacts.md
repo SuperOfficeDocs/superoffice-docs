@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,36 +113,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 919,
-    "Name": "Zulauf Inc and Sons",
-    "OrgNr": "1397781",
+    "ContactId": 784,
+    "Name": "O'Connell, Schamberger and Simonis",
+    "OrgNr": "1821952",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "aut",
-    "DirectPhone": "(391)615-1161 x56005",
-    "AssociateId": 530,
-    "CountryId": 386,
-    "EmailAddress": "martina@wiegandbode.com",
-    "Kananame": "voluptas",
-    "EmailAddressName": "lon_mcclure@green.name",
+    "City": "aperiam",
+    "DirectPhone": "283.835.1865 x140",
+    "AssociateId": 357,
+    "CountryId": 451,
+    "EmailAddress": "dewayne.nienow@corwinheaney.uk",
+    "Kananame": "quas",
+    "EmailAddressName": "stanton.cormier@robel.co.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Mrs. Mazie Marquardt IV",
+    "AssociateFullName": "Estella Feeney",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "dolorem",
-    "FullName": "Mackenzie Heathcote",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 651,
-    "Number1": "1094240",
-    "Number2": "1540097",
+    "FormattedAddress": "est",
+    "FullName": "Katelyn Marge Ward Jr.",
+    "IsOwnerContact": false,
+    "ActiveErpLinks": 339,
+    "Number1": "1563469",
+    "Number2": "1187082",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 321
+        "FieldType": "System.Int32",
+        "FieldLength": 449
       }
     }
   }

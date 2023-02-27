@@ -123,12 +123,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 842,
-  "RecurrenceRuleId": 145
+  "MotherId": 965,
+  "RecurrenceRuleId": 795
 }
 ```
 
@@ -140,53 +140,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 983,
-    "StartDate": "2021-10-28T11:22:36.9619023+02:00",
-    "EndDate": "2009-06-12T11:22:36.9619023+02:00",
+    "AppointmentId": 414,
+    "StartDate": "2000-10-28T14:19:02.4682131+02:00",
+    "EndDate": "2013-10-15T14:19:02.4682131+02:00",
     "Type": "BookingForChecklist",
-    "Task": "suscipit",
-    "AssociateFullName": "Ms. Uriah Breitenberg DDS",
-    "ContactName": "Johnson-Krajcik",
-    "Description": "Digitized client-server challenge",
-    "PersonFullName": "Queenie Considine",
-    "PersonId": 268,
-    "ContactId": 66,
-    "ProjectId": 136,
-    "ProjectName": "Quitzon-D'Amore",
-    "IsPublished": true,
-    "AssociateId": 952,
-    "ColorIndex": 228,
-    "IsFree": true,
+    "Task": "assumenda",
+    "AssociateFullName": "Beaulah Wiza",
+    "ContactName": "Kerluke-Jones",
+    "Description": "Self-enabling empowering portal",
+    "PersonFullName": "Prof. Jeffry Liliane Wilkinson DDS",
+    "PersonId": 96,
+    "ContactId": 980,
+    "ProjectId": 843,
+    "ProjectName": "DuBuque, Pfeffer and Yundt",
+    "IsPublished": false,
+    "AssociateId": 8,
+    "ColorIndex": 408,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 22,
-    "PriorityName": "Wolf, Becker and Kemmer",
+    "PriorityId": 393,
+    "PriorityName": "Mayer, Feeney and Koss",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2011-12-16T11:22:36.9619023+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2000-11-19T14:19:02.4682131+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-03-27T11:22:36.9619023+01:00",
-    "RecurringEndDate": "2007-05-13T11:22:36.9619023+02:00",
-    "MotherId": 119,
-    "AssignedBy": 664,
-    "AssignedByFullName": "Martina Durgan",
-    "RejectReason": "",
-    "Location": "dolor",
-    "AlarmLeadTime": "ea",
-    "SaleId": 486,
-    "SaleName": "Stoltenberg, Kertzmann and Harvey",
-    "AssociateName": "Beer-Wisoky",
-    "CreatedDate": "2022-07-02T11:22:36.9619023+02:00",
-    "CreatedBy": "consequatur",
-    "CreatedByFullName": "Alisha Keebler",
-    "CreatedByAssociateId": 152,
+    "RecurringStartDate": "2021-01-25T14:19:02.4682131+01:00",
+    "RecurringEndDate": "2009-02-05T14:19:02.4682131+01:00",
+    "MotherId": 251,
+    "AssignedBy": 516,
+    "AssignedByFullName": "Prof. Sterling Antonia Stoltenberg",
+    "RejectReason": "disintermediate impactful partnerships",
+    "Location": "earum",
+    "AlarmLeadTime": "accusantium",
+    "SaleId": 492,
+    "SaleName": "Kling Group",
+    "AssociateName": "Simonis Inc and Sons",
+    "CreatedDate": "2014-03-01T14:19:02.4838092+01:00",
+    "CreatedBy": "in",
+    "CreatedByFullName": "Mrs. Alena McGlynn DVM",
+    "CreatedByAssociateId": 946,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -194,7 +194,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 960
+        "FieldLength": 418
       }
     }
   }

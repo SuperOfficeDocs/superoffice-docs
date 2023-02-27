@@ -73,9 +73,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HtmlReport": "ut",
-  "Title": "explicabo",
-  "PersonId": 826
+  "HtmlReport": "sunt",
+  "Title": "et",
+  "PersonId": 70
 }
 ```
 
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-759
+260
 ```

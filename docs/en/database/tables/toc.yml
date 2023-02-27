@@ -415,6 +415,8 @@ items:
   href: mail-in-filter.md
 - name: mail_in_uidl
   href: mail-in-uidl.md
+- name: MailingDomains
+  href: mailingdomains.md
 - name: MergeMoveLog
   href: mergemovelog.md
 - name: Message
@@ -1239,6 +1241,8 @@ items:
     href: enums/ticketcategorydelegatemethod.md
   - name: TicketCategoryFlags
     href: enums/ticketcategoryflags.md
+  - name: TicketLogAction
+    href: enums/ticketlogaction.md
   - name: TicketMessageCategory
     href: enums/ticketmessagecategory.md
   - name: TicketMessageType

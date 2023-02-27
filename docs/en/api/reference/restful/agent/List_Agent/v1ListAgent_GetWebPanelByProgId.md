@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "non"
+  "ProgId": "est"
 }
 ```
 
@@ -107,33 +107,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 355,
-  "Name": "Morar, Stokes and Kshlerin",
-  "Tooltip": "laborum",
+  "WebPanelId": 440,
+  "Name": "Kuhic, Raynor and Brown",
+  "Tooltip": "nulla",
   "Deleted": true,
-  "Rank": 446,
+  "Rank": 165,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
+  "OnCentral": true,
+  "OnSatellite": false,
   "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Reichel, Cartwright and Volkman",
+  "WindowName": "Champlin, Ryan and Frami",
   "Url": "http://www.example.com/",
-  "ProgId": "cum",
-  "Icon": 975,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "omnis",
+  "Icon": 50,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 766
+      "FieldLength": 300
     }
   }
 }

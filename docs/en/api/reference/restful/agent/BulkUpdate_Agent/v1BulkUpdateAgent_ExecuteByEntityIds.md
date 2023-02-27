@@ -70,36 +70,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
       "CanSupportMultiUse": false,
-      "DefaultShowInGui": false,
-      "DefaultShowInSelector": true,
+      "DefaultShowInGui": true,
+      "DefaultShowInSelector": false,
       "IsActive": false,
-      "Key": "consectetur",
-      "ValueType": "non",
-      "Mandatory": false,
-      "EncodedDisplayName": "Schaden, Herzog and Stiedemann",
-      "EncodedDisplayDescription": "Persevering national algorithm",
-      "IconHint": "optio",
+      "Key": "repellendus",
+      "ValueType": "laudantium",
+      "Mandatory": true,
+      "EncodedDisplayName": "Goldner, Gulgowski and Greenholt",
+      "EncodedDisplayDescription": "Versatile client-driven structure",
+      "IconHint": "sed",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "eos",
-      "EncodedDataCaptionDescription": "Synergized tertiary open system",
-      "CurrentOperationType": "nobis",
+      "EncodedDataCaption": "sed",
+      "EncodedDataCaptionDescription": "Proactive local info-mediaries",
+      "CurrentOperationType": "consequatur",
       "Values": [
-        "qui",
-        "ad"
+        "dolorem",
+        "deleniti"
       ],
       "DisplayValues": [
-        "iste",
-        "itaque"
+        "et",
+        "aut"
       ],
       "OperationInfos": [
         {},
@@ -107,9 +107,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Stanton-Strosin",
-  "Context": "doloribus",
-  "Ids": "modi"
+  "TableName": "Grady, Heller and Ziemann",
+  "Context": "ut",
+  "Ids": "soluta"
 }
 ```
 
@@ -119,5 +119,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-26
+527
 ```

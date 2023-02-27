@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 210,
-    "Name": "Pollich LLC",
-    "ToolTip": "Aut architecto est sequi doloremque ut.",
+    "Id": 687,
+    "Name": "Bosco-Purdy",
+    "ToolTip": "Excepturi a quas quasi error.",
     "Deleted": false,
-    "Rank": 207,
-    "Type": "exercitationem",
-    "ColorBlock": 825,
-    "IconHint": "dolores",
-    "Selected": true,
-    "LastChanged": "2007-01-08T11:22:46.1160093+01:00",
+    "Rank": 38,
+    "Type": "cum",
+    "ColorBlock": 953,
+    "IconHint": "eveniet",
+    "Selected": false,
+    "LastChanged": "2000-07-06T14:19:11.4557858+02:00",
     "ChildItems": [
       {
-        "Id": 668,
-        "Name": "Gleason, Bailey and Hodkiewicz",
-        "ToolTip": "Voluptatum dolorem suscipit debitis.",
+        "Id": 335,
+        "Name": "Fahey-Wiza",
+        "ToolTip": "Voluptatem quia harum quibusdam labore exercitationem porro.",
         "Deleted": true,
-        "Rank": 767,
-        "Type": "nihil",
-        "ColorBlock": 225,
-        "IconHint": "laborum",
-        "Selected": true,
-        "LastChanged": "1996-12-23T11:22:46.1160093+01:00",
+        "Rank": 760,
+        "Type": "iste",
+        "ColorBlock": 848,
+        "IconHint": "ducimus",
+        "Selected": false,
+        "LastChanged": "2013-11-14T14:19:11.4557858+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "minima",
-        "Hidden": true,
-        "FullName": "Darron Hahn",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "harum",
+        "Hidden": false,
+        "FullName": "Maiya Dibbert V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 747
+            "FieldType": "System.String",
+            "FieldLength": 421
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "aut",
+    "ExtraInfo": "numquam",
+    "StyleHint": "quis",
     "Hidden": false,
-    "FullName": "Blaze Aileen Casper V",
+    "FullName": "Mayra O'Keefe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 522
+        "FieldLength": 406
       }
     }
   }

@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Block, Kuhic and Raynor",
+  "Name": "Flatley Group",
   "ForceFlatList": false,
-  "AdditionalInfo": "unde",
+  "AdditionalInfo": "rem",
   "OnlyHistory": false
 }
 ```
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 924,
-    "Name": "Hoppe Inc and Sons",
-    "ToolTip": "Similique illo et quasi aut.",
-    "Deleted": true,
-    "Rank": 623,
-    "Type": "et",
-    "ColorBlock": 957,
-    "IconHint": "velit",
-    "Selected": false,
-    "LastChanged": "2004-06-14T11:22:38.5865114+02:00",
+    "Id": 195,
+    "Name": "Crist, Buckridge and Schneider",
+    "ToolTip": "Non delectus est incidunt.",
+    "Deleted": false,
+    "Rank": 318,
+    "Type": "at",
+    "ColorBlock": 790,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2011-05-02T14:19:03.7332495+02:00",
     "ChildItems": [
       {
-        "Id": 677,
-        "Name": "Dach-Hagenes",
-        "ToolTip": "Illum minima architecto sunt dolorum recusandae.",
+        "Id": 319,
+        "Name": "Hodkiewicz-Wolff",
+        "ToolTip": "Accusamus nisi.",
         "Deleted": false,
-        "Rank": 639,
-        "Type": "voluptates",
-        "ColorBlock": 444,
-        "IconHint": "enim",
-        "Selected": true,
-        "LastChanged": "2005-09-08T11:22:38.5865114+02:00",
+        "Rank": 743,
+        "Type": "laborum",
+        "ColorBlock": 54,
+        "IconHint": "ipsam",
+        "Selected": false,
+        "LastChanged": "2013-02-25T14:19:03.7332495+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "debitis",
-        "StyleHint": "alias",
+        "ExtraInfo": "omnis",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Miss Asha Wyatt Streich IV",
+        "FullName": "Israel Leola Wyman Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 15
+            "FieldType": "System.Int32",
+            "FieldLength": 128
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "quidem",
+    "ExtraInfo": "harum",
+    "StyleHint": "sit",
     "Hidden": true,
-    "FullName": "Domingo Mante",
+    "FullName": "Mrs. Rosamond Mozelle Mertz DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldType": "System.String",
+        "FieldLength": 618
       }
     }
   }

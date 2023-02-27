@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Runolfsson, Upton and Russel"
+  "ApplicationName": "Hermiston LLC"
 }
 ```
 
@@ -95,20 +95,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "nihil",
-    "Value": "vero",
-    "RecordId": 859,
-    "CreatedDate": "2011-06-29T11:22:38.3834434+02:00",
-    "UpdatedDate": "1999-10-25T11:22:38.3834434+02:00",
-    "UpdatedBy": "expedita",
-    "CreatedBy": "eum",
-    "TableName": "Quigley-O'Conner",
+    "Key": "atque",
+    "Value": "est",
+    "RecordId": 599,
+    "CreatedDate": "1995-10-29T14:19:03.5602728+01:00",
+    "UpdatedDate": "2000-01-29T14:19:03.5602728+01:00",
+    "UpdatedBy": "consequatur",
+    "CreatedBy": "maiores",
+    "TableName": "Emmerich, Heaney and Hegmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 707
+        "FieldLength": 439
       }
     }
   }

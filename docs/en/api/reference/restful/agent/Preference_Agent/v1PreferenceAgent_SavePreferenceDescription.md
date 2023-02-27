@@ -96,28 +96,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 277,
-  "Section": "voluptas",
-  "Key": "voluptas",
-  "Name": "Walker, Bergstrom and Hessel",
+  "PrefDescId": 617,
+  "Section": "sit",
+  "Key": "fugit",
+  "Name": "Kunde, Moore and Hessel",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Decentralized heuristic flexibility",
+  "Description": "Inverse holistic archive",
   "IsBuiltin": true,
-  "TableName": "Feest-Franecki",
-  "UserDefinedListId": 257,
-  "Rank": 335,
-  "SubGroup": "quis",
-  "MinLevel": 852,
-  "MaxValue": 450,
-  "MinValue": 867,
-  "RequiredLicense": "quia"
+  "TableName": "Miller, Breitenberg and Lehner",
+  "UserDefinedListId": 491,
+  "Rank": 225,
+  "SubGroup": "perferendis",
+  "MinLevel": 714,
+  "MaxValue": 868,
+  "MinValue": 547,
+  "RequiredLicense": "vel"
 }
 ```
 
@@ -128,30 +128,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 382,
-  "Section": "pariatur",
-  "Key": "aut",
-  "Name": "Braun Inc and Sons",
+  "PrefDescId": 605,
+  "Section": "debitis",
+  "Key": "esse",
+  "Name": "Lesch LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Horizontal multimedia archive",
-  "IsBuiltin": false,
-  "TableName": "Pagac LLC",
-  "UserDefinedListId": 670,
-  "Rank": 224,
-  "SubGroup": "ut",
-  "MinLevel": 562,
-  "MaxValue": 768,
-  "MinValue": 547,
-  "RequiredLicense": "exercitationem",
+  "Description": "Pre-emptive assymetric Graphic Interface",
+  "IsBuiltin": true,
+  "TableName": "Zieme, Berge and Spencer",
+  "UserDefinedListId": 586,
+  "Rank": 148,
+  "SubGroup": "aliquid",
+  "MinLevel": 139,
+  "MaxValue": 32,
+  "MinValue": 355,
+  "RequiredLicense": "cumque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 706
+      "FieldType": "System.String",
+      "FieldLength": 286
     }
   }
 }

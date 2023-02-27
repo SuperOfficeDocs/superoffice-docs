@@ -26,7 +26,7 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=ab
+GET /api/v1/List/Priority/MDOItems?query=recusandae
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 803,
-    "Name": "Brakus-Runte",
-    "ToolTip": "Est accusamus totam repellat.",
-    "Deleted": false,
-    "Rank": 717,
-    "Type": "tempore",
+    "Id": 308,
+    "Name": "Feil, Ziemann and Mayert",
+    "ToolTip": "Ut amet voluptas rem facilis sit.",
+    "Deleted": true,
+    "Rank": 148,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 434,
-        "Name": "Lesch Inc and Sons",
-        "ToolTip": "Qui autem assumenda.",
-        "Deleted": false,
-        "Rank": 582,
-        "Type": "veniam",
+        "Id": 170,
+        "Name": "Goyette-Stracke",
+        "ToolTip": "Doloribus explicabo voluptatem qui.",
+        "Deleted": true,
+        "Rank": 988,
+        "Type": "rerum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quo",
-        "ColorBlock": 771,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "est",
-        "FullName": "Jailyn Koss",
+        "IconHint": "hic",
+        "ColorBlock": 348,
+        "ExtraInfo": "aliquid",
+        "StyleHint": "corrupti",
+        "FullName": "Pierre Pfannerstill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 362
+            "FieldType": "System.Int32",
+            "FieldLength": 765
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 260,
-    "ExtraInfo": "nulla",
-    "StyleHint": "ex",
-    "FullName": "Prof. Jeanette Beatty Jr.",
+    "IconHint": "sunt",
+    "ColorBlock": 917,
+    "ExtraInfo": "ab",
+    "StyleHint": "nihil",
+    "FullName": "Mrs. Estevan Adelia Jacobs",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 579
+        "FieldLength": 973
       }
     }
   }

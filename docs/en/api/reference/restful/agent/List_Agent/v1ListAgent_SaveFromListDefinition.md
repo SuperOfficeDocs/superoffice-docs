@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 856,
-  "UdListDefinitionId": 878,
+  "Id": 407,
+  "UdListDefinitionId": 342,
   "Item": null
 }
 ```
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 481,
-  "Name": "Heller-Brekke",
-  "Tooltip": "corporis",
-  "Deleted": false,
-  "UdListDefinitionId": 529,
-  "Rank": 702,
+  "Id": 436,
+  "Name": "King-Bradtke",
+  "Tooltip": "fuga",
+  "Deleted": true,
+  "UdListDefinitionId": 794,
+  "Rank": 682,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 154
+      "FieldType": "System.String",
+      "FieldLength": 534
     }
   }
 }

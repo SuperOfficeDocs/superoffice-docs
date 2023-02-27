@@ -130,12 +130,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "vel",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "vel",
     "value": {}
   }
 ]
@@ -148,30 +148,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 405,
-  "Section": "est",
-  "Key": "non",
-  "Name": "Jenkins, Hyatt and Turcotte",
+  "PrefDescId": 244,
+  "Section": "voluptas",
+  "Key": "qui",
+  "Name": "Reichert Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Team-oriented radical knowledge user",
+  "Description": "Organic transitional product",
   "IsBuiltin": false,
-  "TableName": "Cruickshank Inc and Sons",
-  "UserDefinedListId": 811,
-  "Rank": 773,
-  "SubGroup": "rem",
-  "MinLevel": 389,
-  "MaxValue": 761,
-  "MinValue": 465,
-  "RequiredLicense": "repellendus",
+  "TableName": "Jerde LLC",
+  "UserDefinedListId": 843,
+  "Rank": 16,
+  "SubGroup": "harum",
+  "MinLevel": 440,
+  "MaxValue": 379,
+  "MinValue": 860,
+  "RequiredLicense": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 401
+      "FieldType": "System.Int32",
+      "FieldLength": 183
     }
   },
   "_Links": {

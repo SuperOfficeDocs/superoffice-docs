@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 332
+  "DocumentId": 408
 }
 ```
 
@@ -116,155 +116,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 957,
-      "ContactName": "Mohr-Watsica",
-      "PersonId": 823,
-      "PersonName": "Schuster Inc and Sons",
-      "AssociateId": 251,
-      "Address": "eveniet",
-      "EmailId": 447,
+      "ContactId": 644,
+      "ContactName": "Carroll, Cole and Baumbach",
+      "PersonId": 237,
+      "PersonName": "Cruickshank-Hirthe",
+      "AssociateId": 38,
+      "Address": "voluptate",
+      "EmailId": 240,
       "DuplicatePersonIds": [
-        829,
-        780
+        848,
+        355
       ],
-      "Name": "Dare-Windler",
+      "Name": "King Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 461
+          "FieldLength": 946
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 585,
-      "ContactName": "Williamson, Olson and Reilly",
-      "PersonId": 1001,
-      "PersonName": "Lindgren-Lehner",
-      "AssociateId": 513,
-      "Address": "vel",
-      "EmailId": 454,
+      "ContactId": 715,
+      "ContactName": "Leannon-Wisoky",
+      "PersonId": 862,
+      "PersonName": "Moen-Willms",
+      "AssociateId": 350,
+      "Address": "illum",
+      "EmailId": 200,
       "DuplicatePersonIds": [
-        399,
-        640
+        552,
+        540
       ],
-      "Name": "Dickinson Group",
+      "Name": "Rodriguez Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 726
+          "FieldType": "System.Int32",
+          "FieldLength": 139
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 22,
-      "ContactName": "Breitenberg Inc and Sons",
-      "PersonId": 943,
-      "PersonName": "Hansen Group",
-      "AssociateId": 721,
-      "Address": "id",
-      "EmailId": 342,
+      "ContactId": 809,
+      "ContactName": "Romaguera-Fisher",
+      "PersonId": 923,
+      "PersonName": "Pfeffer Group",
+      "AssociateId": 226,
+      "Address": "facilis",
+      "EmailId": 501,
       "DuplicatePersonIds": [
-        538,
-        470
+        589,
+        359
       ],
-      "Name": "Greenholt, Harris and Mueller",
+      "Name": "Reinger-Labadie",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 375
+          "FieldType": "System.String",
+          "FieldLength": 613
         }
       }
     }
   ],
-  "Subject": "minus",
-  "HTMLBody": "eum",
+  "Subject": "quasi",
+  "HTMLBody": "aliquid",
   "From": null,
-  "Sent": "1997-11-30T11:22:38.1959877+01:00",
-  "Size": 333,
+  "Sent": "2004-11-13T14:19:03.4040208+01:00",
+  "Size": 438,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptatibus",
-  "PlainBody": "architecto",
+  "MessageID": "consequuntur",
+  "PlainBody": "quia",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 24,
+  "ServerId": 567,
   "Attachments": [
     {
-      "Description": "Vision-oriented bi-directional ability",
-      "Filename": "mollitia",
-      "Size": 456,
-      "Type": "impedit",
-      "Encoding": "cumque",
-      "Id": "ipsum",
-      "Disposition": "aspernatur",
+      "Description": "Business-focused web-enabled customer loyalty",
+      "Filename": "voluptatem",
+      "Size": 494,
+      "Type": "hic",
+      "Encoding": "non",
+      "Id": "voluptatibus",
+      "Disposition": "qui",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 362
+          "FieldType": "System.String",
+          "FieldLength": 156
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Mann Group",
+      "Name": "Upton-Wisoky",
       "Values": [
-        "delectus",
-        "omnis"
+        "minus",
+        "minima"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 784
+          "FieldLength": 157
         }
       }
     },
     {
-      "Name": "Mann Group",
+      "Name": "Upton-Wisoky",
       "Values": [
-        "delectus",
-        "omnis"
+        "minus",
+        "minima"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 784
+          "FieldLength": 157
         }
       }
     }
   ],
-  "FolderName": "Gislason-Bogisich",
-  "EmailItemId": 33,
-  "AccountId": 888,
-  "ReceivedAt": "2007-06-12T11:22:38.1959877+02:00",
+  "FolderName": "Kassulke-Howell",
+  "EmailItemId": 313,
+  "AccountId": 917,
+  "ReceivedAt": "2009-10-11T14:19:03.4040208+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2001-05-31T11:22:38.1959877+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2021-12-05T14:19:03.4040208+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldType": "System.String",
+      "FieldLength": 841
     }
   }
 }

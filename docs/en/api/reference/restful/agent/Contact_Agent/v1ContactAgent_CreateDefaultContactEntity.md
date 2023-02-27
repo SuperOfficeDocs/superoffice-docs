@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Contact/CreateDefaultContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -109,157 +109,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 57,
-  "Name": "Shanahan, O'Conner and Lang",
+  "ContactId": 309,
+  "Name": "Homenick-Klein",
   "Department": "",
-  "OrgNr": "781897",
-  "Number1": "1189412",
-  "Number2": "1007240",
-  "UpdatedDate": "2016-07-07T11:22:37.6336208+02:00",
-  "CreatedDate": "2020-03-02T11:22:37.6336208+01:00",
+  "OrgNr": "1573904",
+  "Number1": "874078",
+  "Number2": "388412",
+  "UpdatedDate": "2012-08-09T14:19:02.9480279+02:00",
+  "CreatedDate": "2019-10-18T14:19:02.9480279+02:00",
   "Emails": [
     {
-      "Value": "eos",
-      "StrippedValue": "fuga",
-      "Description": "Enterprise-wide analyzing circuit",
+      "Value": "consequatur",
+      "StrippedValue": "ut",
+      "Description": "Optional interactive approach",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 946
+          "FieldLength": 86
         }
       }
     },
     {
-      "Value": "eos",
-      "StrippedValue": "fuga",
-      "Description": "Enterprise-wide analyzing circuit",
+      "Value": "consequatur",
+      "StrippedValue": "ut",
+      "Description": "Optional interactive approach",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 946
+          "FieldLength": 86
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 821,
-      "Name": "Dare, Wilderman and Kohler",
-      "ToolTip": "Consequuntur illum quia quo vero praesentium sunt.",
+      "Id": 900,
+      "Name": "Cartwright Inc and Sons",
+      "ToolTip": "Ut minus provident.",
       "Deleted": false,
-      "Rank": 431,
-      "Type": "consectetur",
-      "ColorBlock": 648,
-      "IconHint": "omnis",
+      "Rank": 718,
+      "Type": "voluptas",
+      "ColorBlock": 640,
+      "IconHint": "est",
       "Selected": true,
-      "LastChanged": "1996-03-02T11:22:37.6336208+01:00",
+      "LastChanged": "2005-02-13T14:19:02.9480279+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolorum",
-      "StyleHint": "consequuntur",
+      "ExtraInfo": "aut",
+      "StyleHint": "cupiditate",
       "Hidden": true,
-      "FullName": "Candida Smitham",
+      "FullName": "Pattie Rippin Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 580
+          "FieldLength": 15
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "asperiores",
-      "StrippedValue": "consequatur",
-      "Description": "Synergized zero tolerance Graphic Interface",
+      "Value": "cumque",
+      "StrippedValue": "accusantium",
+      "Description": "Synchronised scalable Graphic Interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 243
+          "FieldLength": 453
         }
       }
     },
     {
-      "Value": "asperiores",
-      "StrippedValue": "consequatur",
-      "Description": "Synergized zero tolerance Graphic Interface",
+      "Value": "cumque",
+      "StrippedValue": "accusantium",
+      "Description": "Synchronised scalable Graphic Interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 243
+          "FieldLength": 453
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "aspernatur",
-      "StrippedValue": "et",
-      "Description": "Mandatory responsive synergy",
+      "Value": "nam",
+      "StrippedValue": "at",
+      "Description": "Phased 4th generation conglomeration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 304
+          "FieldLength": 333
         }
       }
     },
     {
-      "Value": "aspernatur",
-      "StrippedValue": "et",
-      "Description": "Mandatory responsive synergy",
+      "Value": "nam",
+      "StrippedValue": "at",
+      "Description": "Phased 4th generation conglomeration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 304
+          "FieldLength": 333
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "necessitatibus",
-      "StrippedValue": "ea",
-      "Description": "Focused clear-thinking knowledge user",
+      "Value": "incidunt",
+      "StrippedValue": "qui",
+      "Description": "Progressive systemic implementation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 498
+          "FieldLength": 636
         }
       }
     },
     {
-      "Value": "necessitatibus",
-      "StrippedValue": "ea",
-      "Description": "Focused clear-thinking knowledge user",
+      "Value": "incidunt",
+      "StrippedValue": "qui",
+      "Description": "Progressive systemic implementation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 498
+          "FieldLength": 636
         }
       }
     }
   ],
-  "Description": "Profit-focused object-oriented solution",
+  "Description": "Diverse next generation hub",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -268,100 +268,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "atque",
-      "PersonId": 928,
-      "Mrmrs": "quo",
-      "Firstname": "Juston",
-      "Lastname": "Stracke",
-      "MiddleName": "Purdy-Flatley",
-      "Title": "magnam",
-      "Description": "Robust motivating concept",
-      "Email": "itzel_macejkovic@marksharris.biz",
-      "FullName": "Prof. Cleve Emmet Grimes II",
-      "DirectPhone": "013.488.7700",
-      "FormalName": "Mraz-Daugherty",
-      "CountryId": 249,
-      "ContactId": 855,
-      "ContactName": "Mertz Inc and Sons",
-      "Retired": 181,
-      "Rank": 51,
-      "ActiveInterests": 134,
+      "Position": "iste",
+      "PersonId": 657,
+      "Mrmrs": "hic",
+      "Firstname": "Judson",
+      "Lastname": "Dickinson",
+      "MiddleName": "Fay, Schuppe and Beer",
+      "Title": "quis",
+      "Description": "Grass-roots logistical projection",
+      "Email": "jewel.jacobs@kundeledner.co.uk",
+      "FullName": "Vivien Buckridge",
+      "DirectPhone": "(665)229-5091",
+      "FormalName": "Maggio, Wehner and Huel",
+      "CountryId": 326,
+      "ContactId": 342,
+      "ContactName": "Marvin-Wisoky",
+      "Retired": 482,
+      "Rank": 407,
+      "ActiveInterests": 945,
       "ContactDepartment": "",
-      "ContactCountryId": 384,
-      "ContactOrgNr": "1397224",
-      "FaxPhone": "1-204-048-8082 x3153",
-      "MobilePhone": "1-884-755-5406 x0484",
-      "ContactPhone": "065-542-1684",
-      "AssociateName": "Blick, Ledner and Osinski",
-      "AssociateId": 741,
-      "UsePersonAddress": true,
-      "ContactFax": "nihil",
-      "Kanafname": "ut",
-      "Kanalname": "possimus",
-      "Post1": "quis",
-      "Post2": "qui",
-      "Post3": "aut",
-      "EmailName": "maeve@conn.com",
-      "ContactFullName": "Mrs. Haskell Upton",
-      "ActiveErpLinks": 26,
-      "TicketPriorityId": 374,
-      "SupportLanguageId": 106,
-      "SupportAssociateId": 627,
+      "ContactCountryId": 118,
+      "ContactOrgNr": "1799128",
+      "FaxPhone": "1-643-575-1055 x1664",
+      "MobilePhone": "1-046-361-7100 x06353",
+      "ContactPhone": "617.774.9334",
+      "AssociateName": "Zulauf, Kunde and Abernathy",
+      "AssociateId": 82,
+      "UsePersonAddress": false,
+      "ContactFax": "et",
+      "Kanafname": "magni",
+      "Kanalname": "vel",
+      "Post1": "sed",
+      "Post2": "animi",
+      "Post3": "deserunt",
+      "EmailName": "malinda@okeefe.ca",
+      "ContactFullName": "Constantin Von",
+      "ActiveErpLinks": 934,
+      "TicketPriorityId": 647,
+      "SupportLanguageId": 390,
+      "SupportAssociateId": 41,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 214
+          "FieldLength": 258
         }
       }
     }
   ],
-  "NoMailing": false,
-  "Kananame": "temporibus",
-  "Xstop": false,
-  "ActiveInterests": 858,
-  "GroupId": 158,
-  "ActiveStatusMonitorId": 220,
+  "NoMailing": true,
+  "Kananame": "quae",
+  "Xstop": true,
+  "ActiveInterests": 962,
+  "GroupId": 245,
+  "ActiveStatusMonitorId": 433,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 454,
-  "DbiAgentId": 998,
-  "DbiLastSyncronized": "2022-10-16T11:22:37.6336208+02:00",
-  "DbiKey": "unde",
-  "DbiLastModified": "2000-04-24T11:22:37.6336208+02:00",
+  "Deleted": 917,
+  "DbiAgentId": 121,
+  "DbiLastSyncronized": "2011-04-20T14:19:02.9480279+02:00",
+  "DbiKey": "et",
+  "DbiLastModified": "1999-12-05T14:19:02.9480279+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 590,
-  "ActiveErpLinks": 857,
+  "Source": 383,
+  "ActiveErpLinks": 563,
   "BounceEmails": [
-    "bertha.kuhlman@cruickshankpurdy.info",
-    "nedra@oconnercassin.name"
+    "derrick_franecki@donnelly.info",
+    "kaleigh.harris@schultzjones.biz"
   ],
   "Domains": [
-    "et",
-    "voluptatem"
+    "deleniti",
+    "nostrum"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "1669129689",
-    "SuperOffice:2": "Ms. Dedric Zechariah Breitenberg"
+    "SuperOffice:1": "1707225030",
+    "SuperOffice:2": "Efrain Bayer"
   },
   "ExtraFields": {
-    "ExtraFields1": "ex",
-    "ExtraFields2": "a"
+    "ExtraFields1": "alias",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "similique",
-    "CustomFields2": "ut"
+    "CustomFields1": "blanditiis",
+    "CustomFields2": "sint"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 878
+      "FieldLength": 638
     }
   }
 }

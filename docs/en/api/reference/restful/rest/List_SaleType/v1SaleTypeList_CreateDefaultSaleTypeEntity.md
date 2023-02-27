@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,53 +85,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 80,
-  "Name": "Schneider Group",
-  "Tooltip": "placeat",
-  "Rank": 852,
+  "SaleTypeId": 475,
+  "Name": "Klein-Glover",
+  "Tooltip": "architecto",
+  "Rank": 870,
   "DurationUnit": "Century",
-  "SaleDuration": 804,
-  "SaleTypeCatId": 552,
+  "SaleDuration": 856,
+  "SaleTypeCatId": 144,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 496,
-  "QuoteLinesTemplate": 758,
-  "ConfirmationLinesTemplate": 169,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 225,
+  "QuoteLinesTemplate": 244,
+  "ConfirmationLinesTemplate": 487,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 425,
-  "MinEarningPercent": 108,
-  "GroupQuoteLinesBy": 484,
-  "SortGroupLinesBy": 859,
+  "MaxDiscountPercent": 805,
+  "MinEarningPercent": 428,
+  "GroupQuoteLinesBy": 879,
+  "SortGroupLinesBy": 758,
   "Stages": [
     {
-      "Id": 824,
-      "Name": "Daniel-Hilpert",
-      "ToolTip": "Vel et saepe eos illum incidunt ipsum repellat.",
-      "Deleted": true,
-      "Rank": 945,
-      "Type": "similique",
-      "ColorBlock": 619,
-      "IconHint": "illum",
+      "Id": 474,
+      "Name": "Wilderman-Windler",
+      "ToolTip": "Optio ullam.",
+      "Deleted": false,
+      "Rank": 699,
+      "Type": "sequi",
+      "ColorBlock": 248,
+      "IconHint": "labore",
       "Selected": true,
-      "LastChanged": "2011-09-30T11:22:46.1784934+02:00",
+      "LastChanged": "2020-09-12T14:19:11.5026887+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptas",
-      "StyleHint": "vero",
+      "ExtraInfo": "repudiandae",
+      "StyleHint": "minus",
       "Hidden": false,
-      "FullName": "Mr. Myles Mercedes Heidenreich",
+      "FullName": "Adrain Cali Marquardt DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 336
+          "FieldType": "System.String",
+          "FieldLength": 262
         }
       }
     }
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 627
+      "FieldType": "System.Int32",
+      "FieldLength": 857
     }
   }
 }

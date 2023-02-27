@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 734
+  "QuoteLineConfigurationId": 270
 }
 ```
 
@@ -95,21 +95,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 954,
-  "FieldName": "Waelchi Inc and Sons",
-  "Label": "eos",
-  "Tooltip": "neque",
-  "Editable": true,
+  "QuoteLineConfigurationId": 650,
+  "FieldName": "Glover LLC",
+  "Label": "itaque",
+  "Tooltip": "voluptas",
+  "Editable": false,
   "InUse": false,
   "Mandatory": false,
-  "Rank": 117,
-  "RestrictEdit": true,
+  "Rank": 470,
+  "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 700
+      "FieldType": "System.Int32",
+      "FieldLength": 441
     }
   }
 }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 959,
-    "Name": "Nikolaus Inc and Sons",
-    "ToolTip": "Laborum modi assumenda dolorem quidem saepe.",
+    "Id": 944,
+    "Name": "Conroy LLC",
+    "ToolTip": "Doloribus inventore.",
     "Deleted": false,
-    "Rank": 864,
-    "Type": "rem",
-    "ColorBlock": 148,
-    "IconHint": "voluptates",
+    "Rank": 690,
+    "Type": "alias",
+    "ColorBlock": 569,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "1997-05-07T11:22:45.9285426+02:00",
+    "LastChanged": "2004-06-06T14:19:11.2730964+02:00",
     "ChildItems": [
       {
-        "Id": 259,
-        "Name": "Herzog, McCullough and Raynor",
-        "ToolTip": "Non quasi quam vel.",
+        "Id": 716,
+        "Name": "Crist-Runolfsdottir",
+        "ToolTip": "Optio quas non velit ut sapiente.",
         "Deleted": true,
-        "Rank": 418,
-        "Type": "officiis",
-        "ColorBlock": 740,
-        "IconHint": "omnis",
+        "Rank": 811,
+        "Type": "quam",
+        "ColorBlock": 336,
+        "IconHint": "doloribus",
         "Selected": false,
-        "LastChanged": "2003-05-06T11:22:45.9285426+02:00",
+        "LastChanged": "1997-04-19T14:19:11.2730964+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "nihil",
+        "ExtraInfo": "rerum",
+        "StyleHint": "adipisci",
         "Hidden": true,
-        "FullName": "Willy Morissette"
+        "FullName": "Ewald Stracke"
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "vel",
-    "Hidden": true,
-    "FullName": "Dr. Edyth Heathcote"
+    "ExtraInfo": "debitis",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Anahi Waters"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 626,
-    "Name": "Kerluke Inc and Sons",
-    "ToolTip": "Doloribus corrupti itaque cum pariatur distinctio.",
-    "Deleted": false,
-    "Rank": 99,
-    "Type": "quae",
-    "ColorBlock": 103,
+    "Id": 693,
+    "Name": "Quitzon, Halvorson and Fay",
+    "ToolTip": "Autem aut ad.",
+    "Deleted": true,
+    "Rank": 131,
+    "Type": "commodi",
+    "ColorBlock": 70,
     "IconHint": "magni",
     "Selected": false,
-    "LastChanged": "2008-11-30T11:22:45.9285426+01:00",
+    "LastChanged": "2000-11-26T14:19:11.2730964+01:00",
     "ChildItems": [
       {
-        "Id": 707,
-        "Name": "Pollich LLC",
-        "ToolTip": "Eum aliquam ad voluptatibus minus sit nesciunt.",
-        "Deleted": false,
-        "Rank": 853,
-        "Type": "sed",
-        "ColorBlock": 621,
-        "IconHint": "nihil",
+        "Id": 740,
+        "Name": "Jewess Group",
+        "ToolTip": "Adipisci dolorem et dolorem non et.",
+        "Deleted": true,
+        "Rank": 466,
+        "Type": "et",
+        "ColorBlock": 328,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2006-11-20T11:22:45.9285426+01:00",
+        "LastChanged": "2013-05-02T14:19:11.2730964+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "excepturi",
+        "ExtraInfo": "inventore",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Miss Kylee Leuschke",
+        "FullName": "Giles Grant",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 309
+            "FieldLength": 995
           }
         }
       }
     ],
-    "ExtraInfo": "quae",
-    "StyleHint": "a",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "voluptates",
     "Hidden": false,
-    "FullName": "Ole Eichmann",
+    "FullName": "Adele DuBuque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 554
+        "FieldType": "System.Int32",
+        "FieldLength": 4
       }
     }
   }

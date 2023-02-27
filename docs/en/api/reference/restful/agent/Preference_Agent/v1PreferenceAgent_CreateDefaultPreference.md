@@ -77,22 +77,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "quas",
+  "RawValue": "consequuntur",
   "Specification": null,
-  "DisplayValue": "eligendi",
-  "DisplayTooltip": "quibusdam",
+  "DisplayValue": "consequatur",
+  "DisplayTooltip": "neque",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 471,
-  "PrefDescId": 566,
-  "TableName": "Brown Group",
-  "UserPreferenceId": 531,
+  "TargetId": 703,
+  "PrefDescId": 532,
+  "TableName": "Wiza-Lowe",
+  "UserPreferenceId": 505,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 141
+      "FieldLength": 544
     }
   }
 }

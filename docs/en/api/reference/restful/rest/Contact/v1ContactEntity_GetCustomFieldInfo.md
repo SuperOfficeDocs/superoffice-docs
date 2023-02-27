@@ -70,7 +70,7 @@ OK
 GET /api/v1/Contact/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Jaskolski-Johnson",
-  "DisplayName": "Ratke Group",
-  "Description": "Public-key explicit website",
-  "ShortLabel": "est",
-  "HideLabel": false,
-  "HideField": true,
-  "IsIndexed": true,
-  "IsMandatory": false,
+  "FieldName": "Tremblay Inc and Sons",
+  "DisplayName": "Wintheiser-Kautzer",
+  "Description": "Open-source logistical analyzer",
+  "ShortLabel": "error",
+  "HideLabel": true,
+  "HideField": false,
+  "IsIndexed": false,
+  "IsMandatory": true,
   "IsReadOnly": true,
-  "IsExternal": false,
-  "Rank": 738,
-  "TemplateVariableName": "Yundt-Pfeffer"
+  "IsExternal": true,
+  "Rank": 53,
+  "TemplateVariableName": "Dach Group"
 }
 ```

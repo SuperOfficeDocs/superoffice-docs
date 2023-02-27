@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 123,
+  "SourceDocumentTemplateId": 314,
   "DocumentTemplateEntity": null
 }
 ```
@@ -113,37 +113,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 36,
-  "Name": "Heidenreich, Cruickshank and Sporer",
-  "Tooltip": "dolor",
-  "SaveInDb": 668,
-  "Filename": "ea",
-  "DefaultOref": "et",
+  "DocumentTemplateId": 316,
+  "Name": "Fay, Feeney and Dooley",
+  "Tooltip": "odio",
+  "SaveInDb": 960,
+  "Filename": "accusantium",
+  "DefaultOref": "aliquam",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 409,
-  "IntentId": 699,
+  "AutoeventId": 284,
+  "IntentId": 100,
   "IsDefaultPublished": true,
-  "Rank": 503,
-  "LoadTemplateFromPlugin": 82,
-  "MimeType": "qui",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 599,
+  "Rank": 805,
+  "LoadTemplateFromPlugin": 308,
+  "MimeType": "autem",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 258,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "sarai@turner.ca",
+  "EmailSubject": "myrtis.predovic@jacobs.biz",
   "IncludeSignature": false,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "bennie_lang@batzborer.info",
+  "SenderEmailAddress": "freeda@boyle.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 300
+      "FieldLength": 851
     }
   }
 }

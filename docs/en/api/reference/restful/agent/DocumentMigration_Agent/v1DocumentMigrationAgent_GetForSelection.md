@@ -81,9 +81,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 778,
-  "SelectionId": 798,
-  "IncludeEmails": false
+  "DocumentPluginId": 931,
+  "SelectionId": 415,
+  "IncludeEmails": true
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 906,
-  "NumDocumentsAlreadyMigrated": 347,
+  "NumDocumentsOmitted": 885,
+  "NumDocumentsAlreadyMigrated": 688,
   "Documents": [
     {
-      "DocumentId": 485,
-      "ContactId": 258,
-      "PersonId": 301,
-      "SaleId": 752,
-      "ProjectId": 127,
-      "DocTmplId": 974,
-      "AssociateId": 819,
-      "UserGroupId": 221,
-      "VisibleForId": 31
+      "DocumentId": 422,
+      "ContactId": 72,
+      "PersonId": 208,
+      "SaleId": 130,
+      "ProjectId": 104,
+      "DocTmplId": 996,
+      "AssociateId": 281,
+      "UserGroupId": 932,
+      "VisibleForId": 671
     }
   ],
   "Associates": [
     {
-      "AssociateId": 504,
-      "EmailAddress": "kyler.wiegand@carterdibbert.info"
+      "AssociateId": 618,
+      "EmailAddress": "edison.abshire@gleason.uk"
     },
     {
-      "AssociateId": 504,
-      "EmailAddress": "kyler.wiegand@carterdibbert.info"
+      "AssociateId": 618,
+      "EmailAddress": "edison.abshire@gleason.uk"
     }
   ]
 }

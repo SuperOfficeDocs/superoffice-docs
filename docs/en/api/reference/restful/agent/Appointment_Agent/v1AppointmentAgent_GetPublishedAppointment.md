@@ -120,11 +120,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 788
+  "AppointmentId": 719
 }
 ```
 
@@ -135,53 +135,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 700,
-  "StartDate": "2002-09-24T11:22:36.946279+02:00",
-  "EndDate": "2015-02-26T11:22:36.946279+01:00",
+  "AppointmentId": 104,
+  "StartDate": "2015-10-17T14:19:02.3574969+02:00",
+  "EndDate": "2014-12-09T14:19:02.3574969+01:00",
   "Type": "BookingForChecklist",
-  "Task": "quia",
-  "AssociateFullName": "Kade Jovan Abernathy DDS",
-  "ContactName": "Stamm-Boehm",
-  "Description": "Multi-channelled maximized leverage",
-  "PersonFullName": "Mr. Janis Tom Jacobi",
-  "PersonId": 919,
-  "ContactId": 960,
-  "ProjectId": 865,
-  "ProjectName": "McKenzie LLC",
-  "IsPublished": true,
-  "AssociateId": 253,
-  "ColorIndex": 157,
+  "Task": "eligendi",
+  "AssociateFullName": "Karl Considine",
+  "ContactName": "Renner, Mohr and Heaney",
+  "Description": "Operative 6th generation conglomeration",
+  "PersonFullName": "Macy Marisol Kulas MD",
+  "PersonId": 291,
+  "ContactId": 672,
+  "ProjectId": 589,
+  "ProjectName": "Streich, McLaughlin and Glover",
+  "IsPublished": false,
+  "AssociateId": 115,
+  "ColorIndex": 809,
   "IsFree": false,
-  "HasAlarm": true,
-  "IsAlldayEvent": true,
+  "HasAlarm": false,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 889,
-  "PriorityName": "Treutel, Mertz and Flatley",
+  "PriorityId": 714,
+  "PriorityName": "Raynor, Nikolaus and Medhurst",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
+  "IsBookingMain": false,
   "IsRecurrence": true,
   "IsBooking": true,
-  "ActiveDate": "2016-05-01T11:22:36.946279+02:00",
+  "ActiveDate": "2001-03-02T14:19:02.3574969+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2007-03-08T11:22:36.946279+01:00",
-  "RecurringEndDate": "1998-12-11T11:22:36.946279+01:00",
-  "MotherId": 702,
-  "AssignedBy": 981,
-  "AssignedByFullName": "Mr. Jazlyn Justus Kuhic PhD",
+  "RecurringStartDate": "2017-06-17T14:19:02.3574969+02:00",
+  "RecurringEndDate": "2021-06-09T14:19:02.3574969+02:00",
+  "MotherId": 75,
+  "AssignedBy": 651,
+  "AssignedByFullName": "Lafayette Wisozk",
   "RejectReason": "",
-  "Location": "pariatur",
-  "AlarmLeadTime": "illo",
-  "SaleId": 380,
-  "SaleName": "Koch LLC",
-  "AssociateName": "Reinger-Braun",
-  "CreatedDate": "2010-04-01T11:22:36.946279+02:00",
-  "CreatedBy": "atque",
-  "CreatedByFullName": "Malika Kautzer",
-  "CreatedByAssociateId": 880,
+  "Location": "cum",
+  "AlarmLeadTime": "suscipit",
+  "SaleId": 880,
+  "SaleName": "Schowalter, King and Schmidt",
+  "AssociateName": "Buckridge-Howe",
+  "CreatedDate": "2003-04-26T14:19:02.3574969+02:00",
+  "CreatedBy": "aperiam",
+  "CreatedByFullName": "Wilburn Hayes",
+  "CreatedByAssociateId": 40,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 353
+      "FieldLength": 987
     }
   }
 }

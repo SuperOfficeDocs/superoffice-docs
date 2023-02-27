@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,23 +90,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 945,
-    "Name": "Boyle LLC",
-    "Tooltip": "ea",
-    "SaveInDb": 803,
-    "Filename": "qui",
-    "DefaultOref": "earum",
+    "DocumentTemplateId": 712,
+    "Name": "Langworth-Funk",
+    "Tooltip": "odit",
+    "SaveInDb": 214,
+    "Filename": "eius",
+    "DefaultOref": "enim",
     "RecordType": "Appointment",
-    "Deleted": 216,
+    "Deleted": 929,
     "Direction": "Incoming",
-    "AutoeventId": 216,
+    "AutoeventId": 160,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 812
+        "FieldType": "System.String",
+        "FieldLength": 919
       }
     }
   }

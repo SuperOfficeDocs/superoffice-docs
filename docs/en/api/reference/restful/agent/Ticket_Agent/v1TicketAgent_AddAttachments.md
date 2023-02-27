@@ -66,14 +66,14 @@ No Content
 POST /api/v1/Agents/Ticket/AddAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 952,
+  "TicketMessageEntityId": 108,
   "AttachmentIds": [
-    155,
-    95
+    493,
+    619
   ]
 }
 ```

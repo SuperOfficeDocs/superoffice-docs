@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 761,
-    "ResourceId": 420,
-    "Text": "voluptatum",
+    "LanguageId": 1002,
+    "ResourceId": 363,
+    "Text": "totam",
     "Type": "Column",
-    "LocalizedTextId": 766,
+    "LocalizedTextId": 953,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 528
+        "FieldLength": 268
       }
     }
   }

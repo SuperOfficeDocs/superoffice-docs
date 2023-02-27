@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 606,
-    "Name": "White Group",
-    "ToolTip": "Vel nostrum expedita culpa.",
-    "Deleted": true,
-    "Rank": 91,
-    "Type": "id",
-    "ColorBlock": 926,
-    "IconHint": "qui",
+    "Id": 739,
+    "Name": "Hackett LLC",
+    "ToolTip": "Cumque quibusdam id non repellat magnam occaecati veritatis.",
+    "Deleted": false,
+    "Rank": 448,
+    "Type": "vel",
+    "ColorBlock": 699,
+    "IconHint": "voluptatem",
     "Selected": true,
-    "LastChanged": "2011-08-04T11:22:46.1316279+02:00",
+    "LastChanged": "2003-08-19T14:19:11.4557858+02:00",
     "ChildItems": [
       {
-        "Id": 991,
-        "Name": "Donnelly-Crooks",
-        "ToolTip": "Voluptates mollitia totam sit.",
+        "Id": 385,
+        "Name": "Stehr LLC",
+        "ToolTip": "Atque aut est iure repellendus qui praesentium.",
         "Deleted": true,
-        "Rank": 903,
-        "Type": "ad",
-        "ColorBlock": 442,
-        "IconHint": "accusamus",
+        "Rank": 991,
+        "Type": "reiciendis",
+        "ColorBlock": 29,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2010-01-22T11:22:46.1316279+01:00",
+        "LastChanged": "2022-05-11T14:19:11.4557858+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "optio",
-        "Hidden": true,
-        "FullName": "Kyla Reinger",
+        "ExtraInfo": "est",
+        "StyleHint": "modi",
+        "Hidden": false,
+        "FullName": "Kareem Dibbert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 585
+            "FieldLength": 26
           }
         }
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "molestias",
-    "Hidden": false,
-    "FullName": "Gus Upton",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "accusamus",
+    "Hidden": true,
+    "FullName": "Simone Aimee Gibson DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 260
+        "FieldLength": 434
       }
     }
   }

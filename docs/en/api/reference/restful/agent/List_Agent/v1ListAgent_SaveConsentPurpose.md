@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 251,
-  "Name": "Huels, Nienow and Carter",
-  "ConsentText": "aliquid",
-  "FormText": "quis",
-  "Key": "sit",
-  "Tooltip": "voluptas",
-  "Active": 738,
-  "UpdatedDate": "2012-01-01T11:22:38.5552678+01:00",
+  "ConsentPurposeId": 918,
+  "Name": "Goldner Inc and Sons",
+  "ConsentText": "possimus",
+  "FormText": "eum",
+  "Key": "saepe",
+  "Tooltip": "quasi",
+  "Active": 846,
+  "UpdatedDate": "2023-02-11T14:19:03.7019992+01:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 722,
-  "PrivacyStatementDesc": "aut",
+  "Deleted": false,
+  "Rank": 338,
+  "PrivacyStatementDesc": "qui",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 197
+      "FieldType": "System.String",
+      "FieldLength": 970
     }
   }
 }

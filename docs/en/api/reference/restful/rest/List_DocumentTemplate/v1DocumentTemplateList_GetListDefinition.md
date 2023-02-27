@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 563,
-  "Name": "Koepp, Cremin and Beatty",
-  "Tooltip": "ex",
+  "Id": 915,
+  "Name": "Jakubowski-Gutmann",
+  "Tooltip": "excepturi",
   "Deleted": false,
-  "Rank": 42,
-  "IsCustomList": false,
+  "Rank": 931,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "provident",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sed",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 787
+      "FieldType": "System.String",
+      "FieldLength": 812
     }
   },
   "_Links": {

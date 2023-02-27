@@ -78,21 +78,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 788,
+  "TargetDimensionId": 707,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "quas",
-  "DimensionListName": "Kunde, Lind and Nicolas",
-  "DimensionListId": 968,
-  "DimensionListLabel": "nesciunt",
+  "DimensionListField": "aut",
+  "DimensionListName": "Dach LLC",
+  "DimensionListId": 650,
+  "DimensionListLabel": "dolorem",
   "SelectedDimensions": [
-    71,
-    50
+    110,
+    204
   ]
 }
 ```
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 803,
+  "TargetDimensionId": 277,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "blanditiis",
-  "DimensionListName": "Mertz, Schuster and Cronin",
-  "DimensionListId": 165,
-  "DimensionListLabel": "quisquam",
+  "DimensionListField": "dignissimos",
+  "DimensionListName": "Berge Group",
+  "DimensionListId": 371,
+  "DimensionListLabel": "perferendis",
   "SelectedDimensions": [
-    646,
-    573
+    889,
+    476
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldType": "System.String",
+      "FieldLength": 776
     }
   }
 }

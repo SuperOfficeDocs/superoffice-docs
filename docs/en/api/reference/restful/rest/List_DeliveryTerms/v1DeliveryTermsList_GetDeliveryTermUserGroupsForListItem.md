@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 760,
-    "Name": "Kuvalis Group",
-    "ToolTip": "Odio suscipit voluptatem maxime.",
+    "Id": 451,
+    "Name": "Hodkiewicz Inc and Sons",
+    "ToolTip": "Totam aperiam consectetur dolorem ut in quidem.",
     "Deleted": false,
-    "Rank": 918,
-    "Type": "eius",
-    "ColorBlock": 572,
-    "IconHint": "exercitationem",
-    "Selected": false,
-    "LastChanged": "2001-01-19T11:22:45.8816758+01:00",
+    "Rank": 228,
+    "Type": "nesciunt",
+    "ColorBlock": 708,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2006-06-29T14:19:11.2262177+02:00",
     "ChildItems": [
       {
-        "Id": 885,
-        "Name": "Murphy-Marvin",
-        "ToolTip": "Libero praesentium.",
+        "Id": 13,
+        "Name": "Mueller Group",
+        "ToolTip": "Autem quia sint impedit necessitatibus voluptatem aperiam est.",
         "Deleted": true,
-        "Rank": 288,
-        "Type": "corporis",
-        "ColorBlock": 888,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "1996-09-17T11:22:45.8816758+02:00",
+        "Rank": 962,
+        "Type": "dolore",
+        "ColorBlock": 269,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2017-02-03T14:19:11.2262177+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "suscipit",
+        "ExtraInfo": "harum",
+        "StyleHint": "animi",
         "Hidden": false,
-        "FullName": "Kylee Lindgren",
+        "FullName": "Germaine Hamill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 97
+            "FieldType": "System.Int32",
+            "FieldLength": 86
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "quas",
+    "ExtraInfo": "est",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Tracy Yundt",
+    "FullName": "Bernhard Mueller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 660
+        "FieldType": "System.String",
+        "FieldLength": 806
       }
     }
   }

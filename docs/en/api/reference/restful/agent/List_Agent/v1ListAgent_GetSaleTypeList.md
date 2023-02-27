@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 954,
-    "Value": "placeat",
-    "Tooltip": "dolorem",
+    "Id": 122,
+    "Value": "facilis",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldType": "System.String",
+        "FieldLength": 16
       }
     }
   },
   {
-    "Id": 954,
-    "Value": "placeat",
-    "Tooltip": "dolorem",
+    "Id": 122,
+    "Value": "facilis",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldType": "System.String",
+        "FieldLength": 16
       }
     }
   }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 167,
-    "Name": "Wuckert-Reichert",
-    "ToolTip": "Mollitia ut alias reprehenderit impedit provident.",
-    "Deleted": true,
-    "Rank": 718,
-    "Type": "aut",
-    "ColorBlock": 739,
-    "IconHint": "ex",
-    "Selected": true,
-    "LastChanged": "2004-09-25T11:22:45.5848828+02:00",
+    "Id": 910,
+    "Name": "Witting-Kunde",
+    "ToolTip": "Minus ipsam aut.",
+    "Deleted": false,
+    "Rank": 56,
+    "Type": "occaecati",
+    "ColorBlock": 805,
+    "IconHint": "autem",
+    "Selected": false,
+    "LastChanged": "2021-10-30T14:19:11.1324679+02:00",
     "ChildItems": [
       {
-        "Id": 55,
-        "Name": "Parker, Keeling and Barton",
-        "ToolTip": "Vel repellendus corrupti earum eum dolor et.",
+        "Id": 302,
+        "Name": "Towne-Mayert",
+        "ToolTip": "Mollitia sint quis ut nam.",
         "Deleted": false,
-        "Rank": 371,
-        "Type": "facilis",
-        "ColorBlock": 403,
-        "IconHint": "id",
+        "Rank": 597,
+        "Type": "rem",
+        "ColorBlock": 341,
+        "IconHint": "ea",
         "Selected": true,
-        "LastChanged": "2014-01-25T11:22:45.5848828+01:00",
+        "LastChanged": "2002-04-26T14:19:11.1324679+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "adipisci",
-        "Hidden": true,
-        "FullName": "Wayne Hoeger"
+        "ExtraInfo": "tenetur",
+        "StyleHint": "atque",
+        "Hidden": false,
+        "FullName": "Mrs. Guadalupe Elmer Goldner III"
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "odit",
+    "ExtraInfo": "modi",
+    "StyleHint": "dolorum",
     "Hidden": false,
-    "FullName": "Mr. Jillian Rowan Davis"
+    "FullName": "Miss Savanah Mann"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 531,
-    "Name": "Casper, Gutkowski and Renner",
-    "ToolTip": "Explicabo soluta est.",
+    "Id": 72,
+    "Name": "Kassulke, Mraz and Walsh",
+    "ToolTip": "Culpa eligendi et.",
     "Deleted": false,
-    "Rank": 248,
-    "Type": "sequi",
-    "ColorBlock": 497,
-    "IconHint": "rerum",
+    "Rank": 1000,
+    "Type": "ipsum",
+    "ColorBlock": 429,
+    "IconHint": "veniam",
     "Selected": true,
-    "LastChanged": "1995-12-02T11:22:45.5848828+01:00",
+    "LastChanged": "2009-04-21T14:19:11.1324679+02:00",
     "ChildItems": [
       {
-        "Id": 553,
-        "Name": "Bergstrom, Hyatt and Kshlerin",
-        "ToolTip": "Magnam temporibus illum debitis adipisci labore sapiente fugit.",
+        "Id": 757,
+        "Name": "Huels Group",
+        "ToolTip": "Qui quod distinctio quasi.",
         "Deleted": false,
-        "Rank": 506,
-        "Type": "tempora",
-        "ColorBlock": 112,
-        "IconHint": "voluptate",
+        "Rank": 411,
+        "Type": "recusandae",
+        "ColorBlock": 843,
+        "IconHint": "vitae",
         "Selected": false,
-        "LastChanged": "2007-10-21T11:22:45.5848828+02:00",
+        "LastChanged": "2013-11-12T14:19:11.1324679+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "aspernatur",
+        "ExtraInfo": "expedita",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Maxwell Marquardt V",
+        "FullName": "Sydnee Zulauf",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 26
+            "FieldType": "System.String",
+            "FieldLength": 4
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Giovanna Wisoky IV",
+    "ExtraInfo": "eum",
+    "StyleHint": "optio",
+    "Hidden": true,
+    "FullName": "Mrs. Sadie Joshua Boyle II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 644
+        "FieldType": "System.String",
+        "FieldLength": 618
       }
     }
   }

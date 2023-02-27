@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,39 +76,39 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 243,
-  "Field": "ratione",
-  "RecordId": 219,
+  "RefCountsId": 742,
+  "Field": "doloribus",
+  "RecordId": 229,
   "SuggestedRecords": [
     {
-      "Id": 870,
-      "Name": "Dooley LLC",
-      "ToolTip": "Autem et in culpa illum.",
+      "Id": 699,
+      "Name": "Stoltenberg-Dach",
+      "ToolTip": "Odio quibusdam sint sit beatae laboriosam.",
       "Deleted": false,
-      "Rank": 92,
-      "Type": "mollitia",
+      "Rank": 629,
+      "Type": "sed",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "atque",
-      "ColorBlock": 87,
-      "ExtraInfo": "sunt",
-      "StyleHint": "consequatur",
-      "FullName": "Melvin Cynthia McGlynn Sr.",
+      "IconHint": "quas",
+      "ColorBlock": 266,
+      "ExtraInfo": "officiis",
+      "StyleHint": "suscipit",
+      "FullName": "Frank Metz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 66
+          "FieldLength": 886
         }
       }
     }
   ],
-  "CurrentValue": 784,
-  "TravelPrefix": 534,
-  "SatPrefix": 225,
+  "CurrentValue": 418,
+  "TravelPrefix": 130,
+  "SatPrefix": 567,
   "Allocate": false,
   "Unique": false,
   "ReadOnly": true,
@@ -117,8 +117,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 946
+      "FieldType": "System.Int32",
+      "FieldLength": 164
     }
   }
 }

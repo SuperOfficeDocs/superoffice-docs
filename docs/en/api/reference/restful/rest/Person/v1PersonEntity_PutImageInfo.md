@@ -92,23 +92,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 695,
-  "BlobSize": 150,
-  "Description": "Mandatory bottom-line synergy",
-  "ExtraInfo": "numquam",
-  "IsEncrypted": true,
+  "BlobId": 604,
+  "BlobSize": 741,
+  "Description": "Extended contextually-based protocol",
+  "ExtraInfo": "ut",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "minima",
-  "OriginalSize": 874,
-  "CreatedDate": "2007-02-14T11:22:45.0068982+01:00",
-  "UpdatedDate": "2008-12-15T11:22:45.0068982+01:00",
+  "MimeType": "autem",
+  "OriginalSize": 601,
+  "CreatedDate": "1996-02-21T14:19:10.4748485+01:00",
+  "UpdatedDate": "2005-11-18T14:19:10.4748485+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ipsum"
+  "ConceptualType": "eum"
 }
 ```
 
@@ -119,25 +119,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 172,
-  "BlobSize": 734,
-  "Description": "Customer-focused 24 hour groupware",
-  "ExtraInfo": "in",
-  "IsEncrypted": false,
+  "BlobId": 311,
+  "BlobSize": 944,
+  "Description": "Virtual interactive utilisation",
+  "ExtraInfo": "qui",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "possimus",
+  "MimeType": "illo",
   "OriginalSize": 462,
-  "CreatedDate": "2007-03-11T11:22:45.0068982+01:00",
-  "UpdatedDate": "2021-11-11T11:22:45.0068982+01:00",
+  "CreatedDate": "2014-10-31T14:19:10.4748485+01:00",
+  "UpdatedDate": "1999-05-04T14:19:10.4748485+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "magnam",
+  "ConceptualType": "minima",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 309
+      "FieldType": "System.Int32",
+      "FieldLength": 760
     }
   }
 }

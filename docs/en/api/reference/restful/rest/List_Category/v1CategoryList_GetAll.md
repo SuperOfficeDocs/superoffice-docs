@@ -24,7 +24,7 @@ Gets all the Category items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Category/Items?includeDeleted=True
+GET /api/v1/List/Category/Items?includeDeleted=False
 ```
 
 
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 84,
-    "Name": "Fay, Tremblay and Mraz",
-    "Tooltip": "modi",
+    "Id": 665,
+    "Name": "Spinka Inc and Sons",
+    "Tooltip": "quae",
     "Deleted": true,
-    "UdListDefinitionId": 864,
-    "Rank": 169,
+    "UdListDefinitionId": 923,
+    "Rank": 701,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 991
+        "FieldLength": 752
       }
     }
   }

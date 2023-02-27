@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,15 +83,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 601,
-    "FieldName": "Wunsch Inc and Sons",
-    "Label": "dolor",
-    "Tooltip": "omnis",
+    "QuoteLineConfigurationId": 251,
+    "FieldName": "Leffler, Green and Muller",
+    "Label": "voluptatem",
+    "Tooltip": "autem",
     "Editable": false,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 640,
-    "RestrictEdit": true,
+    "Rank": 664,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

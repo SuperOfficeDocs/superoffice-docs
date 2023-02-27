@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 3,
-    "Name": "Romaguera Group",
-    "ToolTip": "Et quo voluptatem temporibus.",
-    "Deleted": true,
-    "Rank": 608,
-    "Type": "nostrum",
-    "ColorBlock": 299,
-    "IconHint": "est",
+    "Id": 151,
+    "Name": "Thompson Group",
+    "ToolTip": "Inventore non ut laboriosam.",
+    "Deleted": false,
+    "Rank": 818,
+    "Type": "iusto",
+    "ColorBlock": 786,
+    "IconHint": "ipsum",
     "Selected": true,
-    "LastChanged": "2006-08-22T11:22:45.9285426+02:00",
+    "LastChanged": "2000-01-02T14:19:11.2730964+01:00",
     "ChildItems": [
       {
-        "Id": 763,
-        "Name": "Kautzer-Kassulke",
-        "ToolTip": "Odit error odit quis eveniet consequatur.",
+        "Id": 328,
+        "Name": "Kirlin, Pagac and Collins",
+        "ToolTip": "Ad et sint eaque quas cupiditate.",
         "Deleted": false,
-        "Rank": 815,
-        "Type": "consequuntur",
-        "ColorBlock": 299,
-        "IconHint": "laborum",
+        "Rank": 268,
+        "Type": "ipsam",
+        "ColorBlock": 309,
+        "IconHint": "rem",
         "Selected": true,
-        "LastChanged": "2009-04-20T11:22:45.9285426+02:00",
+        "LastChanged": "2012-04-05T14:19:11.2730964+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "ipsam",
+        "ExtraInfo": "corporis",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Mr. Harrison Ernser"
+        "FullName": "Mrs. Salvatore Pagac Sr."
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "velit",
+    "ExtraInfo": "magni",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Dr. Dan Abernathy"
+    "FullName": "Ms. Sigmund Gleichner Sr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 985,
-    "Name": "Cormier LLC",
-    "ToolTip": "Vel nobis iste nostrum labore illum dolores.",
-    "Deleted": true,
-    "Rank": 265,
-    "Type": "illum",
-    "ColorBlock": 523,
-    "IconHint": "ut",
+    "Id": 439,
+    "Name": "Koelpin, Gleichner and Reichert",
+    "ToolTip": "Et est et temporibus voluptas fuga.",
+    "Deleted": false,
+    "Rank": 686,
+    "Type": "aut",
+    "ColorBlock": 286,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2009-05-22T11:22:45.9441645+02:00",
+    "LastChanged": "2021-05-19T14:19:11.2730964+02:00",
     "ChildItems": [
       {
-        "Id": 90,
-        "Name": "Bosco LLC",
-        "ToolTip": "Debitis sint.",
+        "Id": 343,
+        "Name": "O'Reilly-Rohan",
+        "ToolTip": "Rem rem laboriosam provident.",
         "Deleted": false,
-        "Rank": 888,
-        "Type": "perferendis",
-        "ColorBlock": 860,
-        "IconHint": "repellendus",
+        "Rank": 451,
+        "Type": "qui",
+        "ColorBlock": 938,
+        "IconHint": "repellat",
         "Selected": false,
-        "LastChanged": "2013-02-22T11:22:45.9441645+01:00",
+        "LastChanged": "2016-09-16T14:19:11.2730964+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "aut",
+        "ExtraInfo": "magni",
+        "StyleHint": "veniam",
         "Hidden": false,
-        "FullName": "Miss Rosendo Daniel PhD",
+        "FullName": "Thea Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 479
+            "FieldLength": 940
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "necessitatibus",
+    "ExtraInfo": "nam",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Jazmyn Mitchell",
+    "FullName": "Fay Schmidt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 565
+        "FieldLength": 801
       }
     }
   }

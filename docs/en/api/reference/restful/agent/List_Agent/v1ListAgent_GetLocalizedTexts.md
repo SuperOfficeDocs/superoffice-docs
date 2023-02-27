@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 761,
-    "ResourceId": 22,
-    "Text": "fugit",
+    "LanguageId": 805,
+    "ResourceId": 883,
+    "Text": "quia",
     "Type": "Column",
-    "LocalizedTextId": 98,
+    "LocalizedTextId": 37,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 906
+        "FieldLength": 366
       }
     }
   }

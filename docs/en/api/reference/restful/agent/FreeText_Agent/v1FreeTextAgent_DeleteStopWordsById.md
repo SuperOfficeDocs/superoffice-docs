@@ -68,8 +68,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "StopWordIds": [
-    169,
-    5
+    2,
+    86
   ]
 }
 ```

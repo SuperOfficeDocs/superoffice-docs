@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,30 +91,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 691,
-  "Name": "Murazik-Harber",
-  "CurrencyId": 561,
-  "EnglishName": "Lang, Corwin and Kerluke",
+  "CountryId": 115,
+  "Name": "Hickle-Kilback",
+  "CurrencyId": 200,
+  "EnglishName": "Roob LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Networked zero administration data-warehouse",
-  "OrgNrText": "1675081",
-  "InterAreaPrefix": "labore",
-  "DialInPrefix": "sunt",
-  "ZipPrefix": "at",
-  "DomainName": "Walker-Bauch",
-  "AddressLayoutId": 666,
-  "DomesticAddressLayoutId": 384,
-  "ForeignAddressLayoutId": 474,
-  "Rank": 899,
-  "Tooltip": "totam",
-  "Deleted": false,
+  "ImageDescription": "Polarised incremental complexity",
+  "OrgNrText": "1355040",
+  "InterAreaPrefix": "atque",
+  "DialInPrefix": "et",
+  "ZipPrefix": "qui",
+  "DomainName": "Kautzer LLC",
+  "AddressLayoutId": 225,
+  "DomesticAddressLayoutId": 125,
+  "ForeignAddressLayoutId": 628,
+  "Rank": 845,
+  "Tooltip": "corporis",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 405
+      "FieldType": "System.String",
+      "FieldLength": 219
     }
   }
 }

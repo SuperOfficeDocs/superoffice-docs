@@ -168,12 +168,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Brakus-Greenholt",
-  "Restrictions": "numquam"
+  "ProviderName": "Cassin, Stark and Marquardt",
+  "Restrictions": "eum"
 }
 ```
 
@@ -185,19 +185,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "McGlynn-Kiehn",
-    "DisplayTooltip": "non",
-    "DisplayType": "voluptas",
-    "CanOrderBy": true,
-    "Name": "Wuckert, Quitzon and Klein",
-    "CanRestrictBy": true,
-    "RestrictionType": "voluptatem",
-    "RestrictionListName": "O'Connell, Fritsch and Schiller",
+    "DisplayName": "Hirthe, Luettgen and Wiegand",
+    "DisplayTooltip": "amet",
+    "DisplayType": "molestiae",
+    "CanOrderBy": false,
+    "Name": "Moen-Runte",
+    "CanRestrictBy": false,
+    "RestrictionType": "hic",
+    "RestrictionListName": "Turner, Schimmel and Kuvalis",
     "IsVisible": false,
-    "ExtraInfo": "voluptate",
-    "Width": "ut",
-    "IconHint": "sit",
-    "HeadingIconHint": "veniam"
+    "ExtraInfo": "fugiat",
+    "Width": "illo",
+    "IconHint": "recusandae",
+    "HeadingIconHint": "error"
   }
 ]
 ```

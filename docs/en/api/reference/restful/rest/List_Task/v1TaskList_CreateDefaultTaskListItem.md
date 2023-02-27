@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Task/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,14 +76,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 366,
-  "Value": "tempore",
+  "TaskListItemId": 140,
+  "Value": "ipsa",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "nesciunt",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "IntentId": 410,
-  "Rank": 791,
+  "IntentId": 36,
+  "Rank": 475,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
   "IsDefaultPublished": false,
@@ -94,7 +94,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 873
+      "FieldLength": 612
     }
   }
 }

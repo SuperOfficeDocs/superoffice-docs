@@ -28,7 +28,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-PUT /api/v1/TicketMessage/{id}?notify=False
+PUT /api/v1/TicketMessage/{id}?notify=True
 ```
 
 
@@ -59,7 +59,7 @@ The ticket message to save
 | Author | String | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | String | The securitylevel of the message. |
 | Type | String | The type of the message (plaintext/html). |
-| MessageId | String | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | String | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | Integer | The time spent (minutes) for this message. |
 | Body | String | The textbody for the message. |
 | HtmlBody | String | The html body for the message (if any). |
@@ -98,7 +98,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -125,72 +125,72 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 295,
+  "EjMessageId": 63,
   "Ticket": null,
-  "CreatedAt": "2002-12-03T11:22:45.3505592+01:00",
+  "CreatedAt": "2013-09-10T14:19:10.8967282+02:00",
   "CreatedBy": null,
-  "Author": "maxime",
+  "Author": "rerum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "voluptatibus",
-  "TimeSpent": 461,
-  "Body": "ipsum",
-  "HtmlBody": "voluptatem",
-  "EmailHeader": "orie@cormier.info",
-  "DebugInfo": "odit",
-  "MailSorter": "consequatur",
+  "MessageId": "corporis",
+  "TimeSpent": 350,
+  "Body": "consequatur",
+  "HtmlBody": "qui",
+  "EmailHeader": "elfrieda@herzogmarks.info",
+  "DebugInfo": "iste",
+  "MailSorter": "non",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "incidunt",
+  "SearchTitle": "accusantium",
   "MessageHeaders": [
     {
-      "Id": 11,
-      "Name": "VonRueden-Schaden",
-      "Value": "ducimus",
+      "Id": 36,
+      "Name": "Sanford, Langosh and Schamberger",
+      "Value": "non",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 11,
-      "Name": "VonRueden-Schaden",
-      "Value": "ducimus",
+      "Id": 36,
+      "Name": "Sanford, Langosh and Schamberger",
+      "Value": "non",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "officiis",
-  "Sentiment": 591,
-  "SentimentConfidence": 960,
+  "Important": true,
+  "Language": "quidem",
+  "Sentiment": 642,
+  "SentimentConfidence": 173,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 25,
-      "Name": "Sauer, McKenzie and Reinger",
-      "ContentType": "molestias",
-      "AttSize": 922,
-      "InlineImage": false,
-      "ContentId": "aut"
+      "AttachmentId": 352,
+      "Name": "Jast Inc and Sons",
+      "ContentType": "qui",
+      "AttSize": 263,
+      "InlineImage": true,
+      "ContentId": "accusamus"
     },
     {
-      "AttachmentId": 25,
-      "Name": "Sauer, McKenzie and Reinger",
-      "ContentType": "molestias",
-      "AttSize": 922,
-      "InlineImage": false,
-      "ContentId": "aut"
+      "AttachmentId": 352,
+      "Name": "Jast Inc and Sons",
+      "ContentType": "qui",
+      "AttSize": 263,
+      "InlineImage": true,
+      "ContentId": "accusamus"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "at",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "eligendi",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "corporis",
-    "CustomFields2": "dignissimos"
+    "CustomFields1": "commodi",
+    "CustomFields2": "occaecati"
   }
 }
 ```
@@ -202,28 +202,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 59,
+  "EjMessageId": 106,
   "Ticket": null,
-  "CreatedAt": "2014-01-20T11:22:45.3505592+01:00",
+  "CreatedAt": "2009-11-10T14:19:10.8967282+01:00",
   "CreatedBy": null,
-  "Author": "reiciendis",
+  "Author": "ea",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ullam",
-  "TimeSpent": 828,
-  "Body": "dicta",
-  "HtmlBody": "ipsam",
-  "EmailHeader": "craig@oconner.name",
-  "DebugInfo": "quisquam",
-  "MailSorter": "at",
+  "MessageId": "nam",
+  "TimeSpent": 523,
+  "Body": "qui",
+  "HtmlBody": "nobis",
+  "EmailHeader": "eloise.hilll@nienow.uk",
+  "DebugInfo": "nesciunt",
+  "MailSorter": "voluptatem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "eligendi",
+  "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 666,
-      "Name": "Schoen-Spinka",
-      "Value": "autem",
+      "Id": 222,
+      "Name": "Douglas Group",
+      "Value": "culpa",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -231,47 +231,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 858
+          "FieldLength": 804
         }
       }
     }
   ],
   "Important": false,
-  "Language": "et",
-  "Sentiment": 523,
-  "SentimentConfidence": 230,
+  "Language": "animi",
+  "Sentiment": 493,
+  "SentimentConfidence": 297,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 478,
-      "Name": "Bauch Group",
-      "ContentType": "exercitationem",
-      "AttSize": 487,
+      "AttachmentId": 296,
+      "Name": "Botsford-Stamm",
+      "ContentType": "quo",
+      "AttSize": 894,
       "InlineImage": false,
-      "ContentId": "ut",
+      "ContentId": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 133
+          "FieldType": "System.String",
+          "FieldLength": 564
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "unde",
-    "ExtraFields2": "molestias"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "molestiae"
   },
   "CustomFields": {
-    "CustomFields1": "repudiandae",
-    "CustomFields2": "qui"
+    "CustomFields1": "fugiat",
+    "CustomFields2": "expedita"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 239
+      "FieldLength": 662
     }
   }
 }

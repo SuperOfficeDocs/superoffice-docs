@@ -81,33 +81,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 28 Nov 2009 11:22:44 G11T
+Last-Modified: Sun, 27 Jan 2013 14:19:10 G1T
 
 {
-  "SourceContactId": 650,
-  "SourcePersonId": 861,
-  "DestinationContactId": 272,
-  "DestinationPersonId": 675,
-  "RelationId": 441,
-  "Comment": "ipsam",
-  "RelationDefinitionId": 470,
-  "Reversed": 439,
-  "UpdatedDate": "2009-11-28T11:22:44.5538748+01:00",
-  "CreatedDate": "2018-12-25T11:22:44.5538748+01:00",
+  "SourceContactId": 497,
+  "SourcePersonId": 582,
+  "DestinationContactId": 398,
+  "DestinationPersonId": 934,
+  "RelationId": 309,
+  "Comment": "placeat",
+  "RelationDefinitionId": 59,
+  "Reversed": 6,
+  "UpdatedDate": "2013-01-27T14:19:10.2248533+01:00",
+  "CreatedDate": "2016-11-24T14:19:10.2248533+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Sanford, Macejkovic and Erdman",
-  "SourcePersonName": "Ernser Group",
-  "DestinationContactName": "Witting-Fay",
-  "DestinationPersonName": "Kuhn Group",
-  "ActiveText": "iusto",
-  "PassiveText": "quam",
+  "SourceContactName": "Dare, Macejkovic and Beier",
+  "SourcePersonName": "Reichert, O'Connell and Mayert",
+  "DestinationContactName": "Schoen Inc and Sons",
+  "DestinationPersonName": "Braun, Johnston and Bartell",
+  "ActiveText": "qui",
+  "PassiveText": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 63
+      "FieldLength": 584
     }
   }
 }

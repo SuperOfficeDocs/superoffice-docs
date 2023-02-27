@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 227,
-  "Name": "Stiedemann-Morar",
-  "Tooltip": "aperiam",
-  "Deleted": false,
-  "Rank": 899,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 451,
+  "Name": "Lubowitz-Pagac",
+  "Tooltip": "nisi",
+  "Deleted": true,
+  "Rank": 89,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "veritatis",
+  "ListType": "rem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 284
+      "FieldType": "System.Int32",
+      "FieldLength": 552
     }
   },
   "_Links": {

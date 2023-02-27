@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 437
+  "ProductId": 588
 }
 ```
 
@@ -99,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 369,
-  "BlobSize": 988,
-  "Description": "Upgradable scalable extranet",
-  "ExtraInfo": "repudiandae",
+  "BlobId": 934,
+  "BlobSize": 638,
+  "Description": "Synergized heuristic complexity",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "modi",
-  "OriginalSize": 451,
-  "CreatedDate": "2000-11-29T11:22:37.4617868+01:00",
-  "UpdatedDate": "2021-03-06T11:22:37.4617868+01:00",
+  "IsZipped": true,
+  "MimeType": "consequatur",
+  "OriginalSize": 332,
+  "CreatedDate": "2002-01-12T14:19:02.7750538+01:00",
+  "UpdatedDate": "2010-05-17T14:19:02.7750538+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptatibus",
+  "ConceptualType": "laboriosam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldLength": 236
     }
   }
 }

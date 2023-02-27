@@ -26,7 +26,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=hic
+GET /api/v1/List/Country/MDOItems?query=ad
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 782,
-    "Name": "Roberts-Kuphal",
-    "ToolTip": "Ad ea corrupti harum dolore sunt.",
-    "Deleted": true,
-    "Rank": 367,
-    "Type": "repellendus",
+    "Id": 142,
+    "Name": "Ullrich-McCullough",
+    "ToolTip": "Non ut assumenda optio et.",
+    "Deleted": false,
+    "Rank": 814,
+    "Type": "perspiciatis",
     "ChildItems": [
       {
-        "Id": 832,
-        "Name": "Homenick, Wunsch and Monahan",
-        "ToolTip": "Qui ut.",
+        "Id": 263,
+        "Name": "Kuvalis, Runolfsdottir and Lindgren",
+        "ToolTip": "Eos optio.",
         "Deleted": false,
-        "Rank": 717,
-        "Type": "sit",
+        "Rank": 994,
+        "Type": "sunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolor",
-        "ColorBlock": 119,
-        "ExtraInfo": "id",
-        "StyleHint": "autem",
-        "FullName": "Heaven Gorczany",
+        "IconHint": "nam",
+        "ColorBlock": 37,
+        "ExtraInfo": "voluptas",
+        "StyleHint": "fugit",
+        "FullName": "Prof. Zoey Angela Cummings II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 829
+            "FieldLength": 257
           }
         }
       }
     ],
-    "IconHint": "vero",
-    "ColorBlock": 666,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "ullam",
-    "FullName": "Ms. Neil Kuhlman III",
+    "IconHint": "labore",
+    "ColorBlock": 516,
+    "ExtraInfo": "sequi",
+    "StyleHint": "sit",
+    "FullName": "Jordi O'Hara",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 907
+        "FieldType": "System.String",
+        "FieldLength": 588
       }
     }
   }

@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 465,
+  "TargetYear": 723,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 209,
-  "DimensionId": 328
+  "Id": 602,
+  "DimensionId": 722
 }
 ```
 
@@ -103,24 +103,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 274,
+  "TargetAssignmentInfoId": 356,
   "Values": [
-    895,
-    431
+    415,
+    151
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 702,
-  "DimensionListItemDisplayName": "Hermiston-DuBuque",
+  "DimensionListItem": 122,
+  "DimensionListItemDisplayName": "Kutch, Carter and Runolfsson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 196
+      "FieldLength": 952
     }
   }
 }

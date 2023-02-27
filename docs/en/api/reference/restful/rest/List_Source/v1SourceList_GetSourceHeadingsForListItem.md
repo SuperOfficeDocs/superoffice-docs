@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 746,
-    "Name": "Turcotte, Nienow and Cruickshank",
-    "ToolTip": "Nostrum non facilis voluptate aut eius dolor omnis.",
+    "Id": 33,
+    "Name": "Strosin, Streich and Wuckert",
+    "ToolTip": "Quos mollitia earum rem.",
     "Deleted": false,
-    "Rank": 233,
-    "Type": "mollitia",
-    "ColorBlock": 251,
-    "IconHint": "vel",
+    "Rank": 715,
+    "Type": "molestias",
+    "ColorBlock": 904,
+    "IconHint": "labore",
     "Selected": false,
-    "LastChanged": "2011-07-06T11:22:46.2097354+02:00",
+    "LastChanged": "1995-12-18T14:19:11.6276984+01:00",
     "ChildItems": [
       {
-        "Id": 474,
-        "Name": "Ernser-Wisoky",
-        "ToolTip": "Voluptatibus fugit.",
+        "Id": 822,
+        "Name": "Lehner-Leuschke",
+        "ToolTip": "Dicta in exercitationem qui ea omnis animi et.",
         "Deleted": false,
-        "Rank": 774,
-        "Type": "quas",
-        "ColorBlock": 816,
-        "IconHint": "veniam",
-        "Selected": true,
-        "LastChanged": "2015-07-09T11:22:46.2097354+02:00",
+        "Rank": 858,
+        "Type": "aliquam",
+        "ColorBlock": 201,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2004-04-30T14:19:11.6276984+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Charlene Mills",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "distinctio",
+        "Hidden": false,
+        "FullName": "Tina Konopelski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 248
+            "FieldType": "System.Int32",
+            "FieldLength": 619
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "vitae",
-    "Hidden": false,
-    "FullName": "Prof. Milo Shawn Watsica",
+    "ExtraInfo": "et",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Jared Ward",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 374
+        "FieldType": "System.String",
+        "FieldLength": 29
       }
     }
   }

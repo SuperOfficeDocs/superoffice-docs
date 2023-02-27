@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 999,
-    "Name": "Considine, Metz and Flatley",
-    "Description": "Monitored exuding matrix",
-    "DeltaJson": "rem",
+    "ConfigurableScreenDeltaId": 497,
+    "Name": "Jones, Cassin and Gusikowski",
+    "Description": "Synergized encompassing service-desk",
+    "DeltaJson": "quaerat",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "sed",
-    "UpdatedDate": "2011-09-17T11:22:37.6179991+02:00",
-    "CreatedDate": "2007-11-19T11:22:37.6179991+01:00",
+    "RecipeId": "architecto",
+    "UpdatedDate": "2017-06-07T14:19:02.9324043+02:00",
+    "CreatedDate": "2015-02-11T14:19:02.9324043+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      578,
-      923
+      752,
+      831
     ],
-    "AppliesToKey": "inventore",
+    "AppliesToKey": "quae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 857
+        "FieldType": "System.String",
+        "FieldLength": 410
       }
     }
   }

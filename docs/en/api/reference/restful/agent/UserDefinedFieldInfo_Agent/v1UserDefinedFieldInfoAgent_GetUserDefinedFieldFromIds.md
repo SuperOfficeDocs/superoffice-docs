@@ -105,13 +105,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    106,
-    719
+    721,
+    368
   ]
 }
 ```
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 215,
-    "ColumnId": 53,
-    "FieldDefault": "aut",
-    "FieldHeight": 935,
-    "FieldLabel": "suscipit",
-    "FieldLeft": 722,
-    "FieldTop": 341,
+    "UDefFieldId": 387,
+    "ColumnId": 149,
+    "FieldDefault": "maxime",
+    "FieldHeight": 17,
+    "FieldLabel": "et",
+    "FieldLeft": 176,
+    "FieldTop": 233,
     "FieldType": "Checkbox",
-    "FieldWidth": 342,
-    "FormatMask": "expedita",
+    "FieldWidth": 309,
+    "FormatMask": "modi",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 776,
-    "LabelLeft": 51,
-    "LabelTop": 763,
-    "LabelWidth": 434,
-    "LastVersionId": 504,
-    "ListTableId": 722,
+    "IsIndexed": true,
+    "LabelHeight": 419,
+    "LabelLeft": 331,
+    "LabelTop": 240,
+    "LabelWidth": 496,
+    "LastVersionId": 729,
+    "ListTableId": 1000,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 860,
-    "ProgId": "sit",
-    "IsReadOnly": true,
-    "ShortLabel": "aperiam",
-    "TabOrder": 162,
-    "TextLength": 339,
-    "Tooltip": "sint",
-    "UdefIdentity": 770,
-    "UDListDefinitionId": 819,
+    "Page1LineNo": 691,
+    "ProgId": "molestiae",
+    "IsReadOnly": false,
+    "ShortLabel": "enim",
+    "TabOrder": 11,
+    "TextLength": 526,
+    "Tooltip": "perspiciatis",
+    "UdefIdentity": 526,
+    "UDListDefinitionId": 1001,
     "Justification": "Center",
-    "Version": 66,
-    "TemplateVariableName": "Parisian-Haley",
-    "HasBeenPublished": false,
-    "MdoListName": "Hodkiewicz, Nicolas and Johns",
+    "Version": 946,
+    "TemplateVariableName": "Carter, Herzog and Mayert",
+    "HasBeenPublished": true,
+    "MdoListName": "Greenholt-Abernathy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 299
+        "FieldLength": 624
       }
     }
   }

@@ -108,48 +108,48 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Hagenes-Balistreri",
-  "ProviderName": "Hahn Inc and Sons",
+  "GuiName": "Weimann, Champlin and Hansen",
+  "ProviderName": "Kovacek-Turner",
   "SortOrder": [
     {
-      "Name": "Skiles Group",
+      "Name": "Dooley Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Skiles Group",
+      "Name": "Dooley Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Turcotte LLC",
-      "Operator": "vitae",
+      "Name": "Rolfson-Lakin",
+      "Operator": "minus",
       "Values": [
-        "veritatis",
-        "doloribus"
+        "ut",
+        "ad"
       ],
       "DisplayValues": [
-        "est",
-        "maiores"
+        "dolores",
+        "accusamus"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 117,
+      "InterParenthesis": 234,
       "InterOperator": "And",
-      "UniqueHash": 368
+      "UniqueHash": 264
     }
   ],
   "Entities": [
-    "odit",
-    "sequi"
+    "et",
+    "veritatis"
   ],
-  "Page": 662,
-  "PageSize": 756,
-  "Context": "eaque"
+  "Page": 917,
+  "PageSize": 563,
+  "Context": "distinctio"
 }
 ```
 
@@ -161,23 +161,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Jenkins Inc and Sons",
-    "PrimaryKey": 212,
+    "EntityName": "O'Kon Group",
+    "PrimaryKey": 389,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "veniam",
-        "TooltipHint": "ut",
-        "LinkHint": "doloremque"
+        "DisplayValue": "assumenda",
+        "TooltipHint": "minus",
+        "LinkHint": "qui"
       }
     },
-    "LinkHint": "eum",
-    "StyleHint": "labore",
+    "LinkHint": "est",
+    "StyleHint": "quam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 1000
+        "FieldType": "System.Int32",
+        "FieldLength": 15
       }
     }
   }

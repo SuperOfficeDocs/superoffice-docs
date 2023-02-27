@@ -78,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 674,
-  "Name": "Kihn-Fisher",
-  "Tooltip": "ut",
+  "HeadingId": 978,
+  "Name": "Kuhn Group",
+  "Tooltip": "animi",
   "Deleted": false,
-  "Rank": 934,
-  "UdListDefinitionId": 365
+  "Rank": 105,
+  "UdListDefinitionId": 915
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 696,
-  "Name": "O'Conner LLC",
-  "Tooltip": "sed",
-  "Deleted": true,
-  "Rank": 922,
-  "UdListDefinitionId": 233,
+  "HeadingId": 89,
+  "Name": "Mann Group",
+  "Tooltip": "tenetur",
+  "Deleted": false,
+  "Rank": 260,
+  "UdListDefinitionId": 956,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 705
+      "FieldType": "System.String",
+      "FieldLength": 145
     }
   }
 }

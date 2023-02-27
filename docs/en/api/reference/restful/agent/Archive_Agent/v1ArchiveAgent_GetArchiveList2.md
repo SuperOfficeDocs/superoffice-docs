@@ -167,17 +167,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Greenholt-Turner",
-  "ProviderName": "Stanton Inc and Sons",
-  "SortOrder": "labore",
-  "Restriction": "iure",
-  "Entities": "debitis",
-  "Page": 68,
-  "PageSize": 135
+  "GuiName": "Zulauf-Swift",
+  "ProviderName": "VonRueden LLC",
+  "SortOrder": "blanditiis",
+  "Restriction": "dolorem",
+  "Entities": "eos",
+  "Page": 217,
+  "PageSize": 425
 }
 ```
 
@@ -189,23 +189,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Weber-Johns",
-    "PrimaryKey": 368,
+    "EntityName": "Ebert Inc and Sons",
+    "PrimaryKey": 895,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "asperiores",
-        "TooltipHint": "dolor",
-        "LinkHint": "nam"
+        "DisplayValue": "qui",
+        "TooltipHint": "necessitatibus",
+        "LinkHint": "illum"
       }
     },
-    "LinkHint": "ratione",
-    "StyleHint": "ut",
+    "LinkHint": "sed",
+    "StyleHint": "quae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 472
+        "FieldType": "System.String",
+        "FieldLength": 761
       }
     }
   }

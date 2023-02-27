@@ -98,16 +98,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 754,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2005-07-12T11:22:37.8523182+02:00",
-  "EndTime": "2019-04-18T11:22:37.8523182+02:00",
-  "Count": 51,
-  "DocumentTemplateId": 479
+  "PersonId": 778,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2010-07-31T14:19:03.2449054+02:00",
+  "EndTime": "2017-08-10T14:19:03.2449054+02:00",
+  "Count": 277,
+  "DocumentTemplateId": 541
 }
 ```
 
@@ -119,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 174,
-    "Attention": "nostrum",
-    "Header": "doloremque",
-    "Name": "Nikolaus, VonRueden and Bahringer",
-    "OurRef": "laborum",
-    "YourRef": "reiciendis",
-    "Description": "Customizable bandwidth-monitored focus group",
-    "DocumentTemplate": "adipisci",
-    "IsPublished": false,
-    "PersonId": 495,
-    "PersonFullName": "Keyshawn Gorczany",
-    "AssociateFullName": "Hettie Robel",
-    "ContactId": 303,
-    "ContactName": "Bartoletti Inc and Sons",
-    "ProjectId": 58,
-    "ProjectName": "Schumm Inc and Sons",
-    "AssociateId": 714,
-    "Snum": 979,
-    "SaleId": 377,
-    "SaleName": "Bosco Group",
+    "DocumentId": 389,
+    "Attention": "pariatur",
+    "Header": "ut",
+    "Name": "Mosciski, Tillman and Rippin",
+    "OurRef": "quia",
+    "YourRef": "et",
+    "Description": "Mandatory neutral methodology",
+    "DocumentTemplate": "possimus",
+    "IsPublished": true,
+    "PersonId": 851,
+    "PersonFullName": "Alanis Fritsch",
+    "AssociateFullName": "Mathew Kautzer",
+    "ContactId": 549,
+    "ContactName": "McCullough Inc and Sons",
+    "ProjectId": 563,
+    "ProjectName": "Mueller, Mann and Wisoky",
+    "AssociateId": 518,
+    "Snum": 617,
+    "SaleId": 627,
+    "SaleName": "Carter Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 119
+        "FieldLength": 400
       }
     }
   }

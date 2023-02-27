@@ -102,24 +102,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 606,
-  "Name": "Zboncak Inc and Sons",
-  "CurrencyId": 918,
-  "EnglishName": "Deckow, Schowalter and Reichert",
+  "CountryId": 610,
+  "Name": "Bartoletti LLC",
+  "CurrencyId": 360,
+  "EnglishName": "Hahn Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Operative impactful neural-net",
-  "OrgNrText": "1031070",
-  "InterAreaPrefix": "est",
-  "DialInPrefix": "cupiditate",
-  "ZipPrefix": "odit",
-  "DomainName": "Gusikowski, Yundt and Kshlerin",
-  "AddressLayoutId": 105,
-  "DomesticAddressLayoutId": 582,
-  "ForeignAddressLayoutId": 374,
-  "Rank": 994,
-  "Tooltip": "aut",
-  "Deleted": false
+  "ImageDescription": "Team-oriented tangible process improvement",
+  "OrgNrText": "851156",
+  "InterAreaPrefix": "sint",
+  "DialInPrefix": "rem",
+  "ZipPrefix": "recusandae",
+  "DomainName": "Lebsack Inc and Sons",
+  "AddressLayoutId": 583,
+  "DomesticAddressLayoutId": 210,
+  "ForeignAddressLayoutId": 476,
+  "Rank": 691,
+  "Tooltip": "eius",
+  "Deleted": true
 }
 ```
 
@@ -130,30 +130,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 956,
-  "Name": "Reichel-Morar",
-  "CurrencyId": 957,
-  "EnglishName": "Gerlach, Nicolas and Rolfson",
+  "CountryId": 424,
+  "Name": "Smith Group",
+  "CurrencyId": 680,
+  "EnglishName": "Kertzmann-Huel",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Front-line 24/7 moratorium",
-  "OrgNrText": "1520672",
-  "InterAreaPrefix": "voluptate",
-  "DialInPrefix": "porro",
-  "ZipPrefix": "qui",
-  "DomainName": "Olson Inc and Sons",
-  "AddressLayoutId": 790,
-  "DomesticAddressLayoutId": 637,
-  "ForeignAddressLayoutId": 27,
-  "Rank": 299,
-  "Tooltip": "commodi",
+  "ImageDescription": "Face to face optimal application",
+  "OrgNrText": "1097123",
+  "InterAreaPrefix": "ipsam",
+  "DialInPrefix": "iure",
+  "ZipPrefix": "consequatur",
+  "DomainName": "Herzog-Douglas",
+  "AddressLayoutId": 15,
+  "DomesticAddressLayoutId": 952,
+  "ForeignAddressLayoutId": 102,
+  "Rank": 239,
+  "Tooltip": "et",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 335
+      "FieldLength": 402
     }
   }
 }

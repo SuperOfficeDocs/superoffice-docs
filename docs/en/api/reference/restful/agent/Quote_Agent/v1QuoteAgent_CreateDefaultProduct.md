@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,73 +99,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 666,
-  "ERPProductKey": "quos",
-  "ERPPriceListKey": "iste",
-  "Name": "Balistreri LLC",
-  "Description": "Self-enabling interactive customer loyalty",
-  "Code": "omnis",
-  "PriceUnit": "expedita",
-  "QuantityUnit": "in",
+  "ProductId": 42,
+  "ERPProductKey": "dicta",
+  "ERPPriceListKey": "eos",
+  "Name": "Osinski, Kutch and Crooks",
+  "Description": "Multi-lateral contextually-based time-frame",
+  "Code": "earum",
+  "PriceUnit": "et",
+  "QuantityUnit": "inventore",
   "IsSubscription": false,
-  "SubscriptionUnit": "neque",
-  "DefaultSubscriptionQuantity": 949.602,
-  "ItemNumber": "927048",
+  "SubscriptionUnit": "ex",
+  "DefaultSubscriptionQuantity": 12106.642,
+  "ItemNumber": "576386",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "officia",
-  "ProductTypeKey": "error",
-  "VAT": 10511.436,
-  "VATInfo": "alias",
-  "UnitCost": 20126.548,
-  "UnitMinimumPrice": 19715.994,
-  "UnitListPrice": 23696.174,
+  "ProductFamilyKey": "illo",
+  "ProductTypeKey": "est",
+  "VAT": 2657.632,
+  "VATInfo": "delectus",
+  "UnitCost": 30753.942,
+  "UnitMinimumPrice": 4212.096,
+  "UnitListPrice": 27071.492,
   "InAssortment": false,
-  "Supplier": "eos",
-  "SupplierCode": "qui",
-  "Rights": "placeat",
-  "Rule": "quos",
+  "Supplier": "provident",
+  "SupplierCode": "fugiat",
+  "Rights": "quis",
+  "Rule": "laboriosam",
   "ExtraInfo": [
     {
-      "Name": "Wiegand, Jacobson and Fadel",
-      "Value": "et",
+      "Name": "Kuvalis LLC",
+      "Value": "sed",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 786
+          "FieldLength": 117
         }
       }
     },
     {
-      "Name": "Wiegand, Jacobson and Fadel",
-      "Value": "et",
+      "Name": "Kuvalis LLC",
+      "Value": "sed",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 786
+          "FieldLength": 117
         }
       }
     }
   ],
-  "RawExtraInfo": "accusantium",
-  "ExtraField1": "hic",
-  "ExtraField2": "ipsam",
-  "ExtraField3": "enim",
-  "ExtraField4": "provident",
-  "ExtraField5": "odio",
-  "InStock": 6114.434,
+  "RawExtraInfo": "corrupti",
+  "ExtraField1": "aut",
+  "ExtraField2": "aliquid",
+  "ExtraField3": "quia",
+  "ExtraField4": "laudantium",
+  "ExtraField5": "veritatis",
+  "InStock": 7161.19,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 537
+      "FieldLength": 150
     }
   }
 }

@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Dickens, Fay and Reynolds",
-  "ListItemId": 151,
-  "ShowDeleted": true
+  "UdListDefinitionName": "Streich LLC",
+  "ListItemId": 807,
+  "ShowDeleted": false
 }
 ```
 
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 87,
-    "Name": "Bartoletti, Effertz and Rowe",
-    "ToolTip": "Voluptatem voluptas aut maxime cum ut impedit.",
-    "Deleted": true,
-    "Rank": 665,
-    "Type": "labore",
-    "ColorBlock": 155,
-    "IconHint": "maiores",
-    "Selected": false,
-    "LastChanged": "2018-08-26T11:22:38.4771746+02:00",
+    "Id": 73,
+    "Name": "Kuhn Group",
+    "ToolTip": "Repudiandae et.",
+    "Deleted": false,
+    "Rank": 189,
+    "Type": "sit",
+    "ColorBlock": 969,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2009-03-21T14:19:03.6394986+01:00",
     "ChildItems": [
       {
-        "Id": 152,
-        "Name": "Zieme-Wolff",
-        "ToolTip": "Consequatur consequuntur qui non maxime sunt eos.",
+        "Id": 452,
+        "Name": "Klocko Inc and Sons",
+        "ToolTip": "Aut molestiae reiciendis dolor.",
         "Deleted": false,
-        "Rank": 726,
-        "Type": "voluptas",
-        "ColorBlock": 284,
-        "IconHint": "modi",
-        "Selected": false,
-        "LastChanged": "2016-07-21T11:22:38.4771746+02:00",
+        "Rank": 28,
+        "Type": "consequatur",
+        "ColorBlock": 911,
+        "IconHint": "magni",
+        "Selected": true,
+        "LastChanged": "2012-04-09T14:19:03.6394986+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "maiores",
+        "ExtraInfo": "harum",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Travis Glover",
+        "FullName": "Marina Abshire",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 755
+            "FieldLength": 350
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "repudiandae",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "dignissimos",
     "Hidden": false,
-    "FullName": "Ms. May Hills Jr.",
+    "FullName": "Dorcas Ferne Wunsch DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 423
+        "FieldType": "System.String",
+        "FieldLength": 1000
       }
     }
   }

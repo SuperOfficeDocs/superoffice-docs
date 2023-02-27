@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 981,
-    "Value": "consequuntur",
-    "Tooltip": "delectus",
+    "Id": 839,
+    "Value": "nemo",
+    "Tooltip": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 685
+        "FieldLength": 362
       }
     }
   },
   {
-    "Id": 981,
-    "Value": "consequuntur",
-    "Tooltip": "delectus",
+    "Id": 839,
+    "Value": "nemo",
+    "Tooltip": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 685
+        "FieldLength": 362
       }
     }
   }

@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 215,
-  "Name": "McLaughlin-Hills",
-  "Tooltip": "sequi",
+  "Id": 788,
+  "Name": "Goodwin Group",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "UdListDefinitionId": 681,
-  "Rank": 236,
+  "UdListDefinitionId": 678,
+  "Rank": 85,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 687
+      "FieldType": "System.Int32",
+      "FieldLength": 212
     }
   }
 }

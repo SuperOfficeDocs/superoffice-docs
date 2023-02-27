@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 489,
-  "Name": "Fay Inc and Sons",
-  "Tooltip": "dolorem",
-  "Deleted": true,
-  "UdListDefinitionId": 438,
-  "Rank": 916
+  "Id": 879,
+  "Name": "Legros, Schiller and Dicki",
+  "Tooltip": "veniam",
+  "Deleted": false,
+  "UdListDefinitionId": 79,
+  "Rank": 697
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 563,
-  "Name": "Emard-Graham",
-  "Tooltip": "sint",
+  "Id": 510,
+  "Name": "Weissnat, Kohler and Weber",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "UdListDefinitionId": 194,
-  "Rank": 616,
+  "UdListDefinitionId": 641,
+  "Rank": 948,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 411
+      "FieldType": "System.String",
+      "FieldLength": 837
     }
   }
 }

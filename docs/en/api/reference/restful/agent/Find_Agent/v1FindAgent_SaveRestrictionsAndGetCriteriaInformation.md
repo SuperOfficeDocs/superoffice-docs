@@ -85,20 +85,20 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "cumque",
-  "ProviderName": "Rodriguez LLC",
-  "StorageKey": "ad",
+  "StorageType": "totam",
+  "ProviderName": "Wehner LLC",
+  "StorageKey": "sit",
   "Restrictions": [
     {
-      "Name": "Daniel Inc and Sons",
-      "Operator": "magni",
+      "Name": "Balistreri-Mertz",
+      "Operator": "architecto",
       "Values": [
-        "vel",
-        "possimus"
+        "cumque",
+        "dolorem"
       ],
       "DisplayValues": [
-        "reprehenderit",
-        "quos"
+        "vitae",
+        "voluptatem"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -106,14 +106,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 625,
+      "InterParenthesis": 457,
       "InterOperator": "And",
-      "UniqueHash": 220
+      "UniqueHash": 563
     }
   ],
   "StaticColumns": [
-    "nihil",
-    "et"
+    "quidem",
+    "voluptas"
   ]
 }
 ```
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Sauer Group",
-      "Operator": "enim",
+      "Name": "O'Kon LLC",
+      "Operator": "est",
       "Values": [
-        "molestiae",
-        "velit"
+        "delectus",
+        "et"
       ],
       "DisplayValues": [
-        "culpa",
-        "eveniet"
+        "tenetur",
+        "soluta"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -143,65 +143,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 806,
+      "InterParenthesis": 825,
       "InterOperator": "And",
-      "UniqueHash": 628
+      "UniqueHash": 774
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Prohaska Inc and Sons",
-      "DisplayTooltip": "excepturi",
-      "DisplayType": "sit",
+      "DisplayName": "Muller, Rath and Rath",
+      "DisplayTooltip": "eum",
+      "DisplayType": "ut",
       "CanOrderBy": false,
-      "Name": "Lebsack, Orn and Heathcote",
+      "Name": "Pagac-Rogahn",
       "CanRestrictBy": false,
-      "RestrictionType": "deserunt",
-      "RestrictionListName": "Deckow Group",
+      "RestrictionType": "rerum",
+      "RestrictionListName": "Witting Inc and Sons",
       "IsVisible": true,
-      "ExtraInfo": "mollitia",
-      "Width": "autem",
-      "IconHint": "ut",
-      "HeadingIconHint": "velit"
+      "ExtraInfo": "eos",
+      "Width": "asperiores",
+      "IconHint": "ex",
+      "HeadingIconHint": "vitae"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Ernser LLC",
-      "PrimaryKey": 818,
+      "EntityName": "Sanford, Leannon and Ferry",
+      "PrimaryKey": 813,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "laborum",
-          "TooltipHint": "sapiente",
-          "LinkHint": "consequatur"
+          "DisplayValue": "distinctio",
+          "TooltipHint": "magni",
+          "LinkHint": "sed"
         }
       },
-      "LinkHint": "omnis",
-      "StyleHint": "nostrum",
+      "LinkHint": "animi",
+      "StyleHint": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 840
+          "FieldType": "System.String",
+          "FieldLength": 285
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Stoltenberg Group",
-      "Description": "Self-enabling uniform infrastructure",
-      "Rank": 583,
+      "Name": "Walsh LLC",
+      "Description": "Configurable next generation application",
+      "Rank": 318,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Stoltenberg Group",
-      "Description": "Self-enabling uniform infrastructure",
-      "Rank": 583,
+      "Name": "Walsh LLC",
+      "Description": "Configurable next generation application",
+      "Rank": 318,
       "Restrictions": [
         {},
         {}
@@ -213,7 +213,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 590
+      "FieldLength": 324
     }
   }
 }

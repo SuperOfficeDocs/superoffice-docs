@@ -71,7 +71,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,23 +79,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 29 Jul 2015 11:22:44 G7T
+Last-Modified: Mon, 15 Jan 2018 14:19:10 G1T
 
 {
-  "Key": "voluptates",
-  "Value": "quia",
-  "RecordId": 133,
-  "CreatedDate": "2022-05-20T11:22:44.8818691+02:00",
-  "UpdatedDate": "2015-07-29T11:22:44.8818691+02:00",
-  "UpdatedBy": "aut",
-  "CreatedBy": "optio",
-  "TableName": "Fadel LLC",
+  "Key": "unde",
+  "Value": "ea",
+  "RecordId": 532,
+  "CreatedDate": "2014-11-04T14:19:10.3654771+01:00",
+  "UpdatedDate": "2018-01-15T14:19:10.3654771+01:00",
+  "UpdatedBy": "repudiandae",
+  "CreatedBy": "odio",
+  "TableName": "Hegmann-Gutmann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 209
+      "FieldLength": 693
     }
   }
 }

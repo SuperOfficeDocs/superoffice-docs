@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromMimeMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MimeMessage": "molestiae"
+  "MimeMessage": "voluptate"
 }
 ```
 
@@ -116,155 +116,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 605,
-      "ContactName": "Langworth, Bradtke and Prohaska",
-      "PersonId": 135,
-      "PersonName": "Yost Group",
-      "AssociateId": 213,
-      "Address": "doloremque",
-      "EmailId": 665,
+      "ContactId": 574,
+      "ContactName": "Runte-Goyette",
+      "PersonId": 365,
+      "PersonName": "Swaniawski Group",
+      "AssociateId": 170,
+      "Address": "ad",
+      "EmailId": 660,
       "DuplicatePersonIds": [
-        834,
-        44
+        603,
+        269
       ],
-      "Name": "Dickens, Wuckert and Donnelly",
+      "Name": "Lindgren, Upton and Davis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 572
+          "FieldLength": 455
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 411,
-      "ContactName": "Denesik LLC",
-      "PersonId": 434,
-      "PersonName": "Windler-Schultz",
-      "AssociateId": 614,
-      "Address": "laudantium",
-      "EmailId": 926,
+      "ContactId": 743,
+      "ContactName": "O'Connell LLC",
+      "PersonId": 653,
+      "PersonName": "Walker-Carter",
+      "AssociateId": 923,
+      "Address": "voluptas",
+      "EmailId": 348,
       "DuplicatePersonIds": [
-        1001,
-        349
+        579,
+        644
       ],
-      "Name": "Kunze, Bruen and Crooks",
+      "Name": "Schinner-Welch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 574
+          "FieldLength": 515
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 295,
-      "ContactName": "Jenkins Group",
-      "PersonId": 73,
-      "PersonName": "Lockman-Yost",
-      "AssociateId": 144,
-      "Address": "minima",
-      "EmailId": 937,
+      "ContactId": 498,
+      "ContactName": "Lindgren, Medhurst and Greenfelder",
+      "PersonId": 732,
+      "PersonName": "Hamill-Rutherford",
+      "AssociateId": 44,
+      "Address": "aliquam",
+      "EmailId": 456,
       "DuplicatePersonIds": [
-        691,
-        669
+        249,
+        545
       ],
-      "Name": "Waters, Parisian and Effertz",
+      "Name": "Jones-Frami",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 969
+          "FieldLength": 154
         }
       }
     }
   ],
-  "Subject": "et",
-  "HTMLBody": "qui",
+  "Subject": "qui",
+  "HTMLBody": "nesciunt",
   "From": null,
-  "Sent": "2017-04-19T11:22:38.289718+02:00",
-  "Size": 863,
+  "Sent": "2019-08-26T14:19:03.4821464+02:00",
+  "Size": 426,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "molestiae",
-  "PlainBody": "provident",
+  "MessageID": "veniam",
+  "PlainBody": "magnam",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 725,
+  "ServerId": 431,
   "Attachments": [
     {
-      "Description": "Configurable analyzing archive",
-      "Filename": "quia",
-      "Size": 842,
-      "Type": "qui",
-      "Encoding": "placeat",
-      "Id": "numquam",
-      "Disposition": "nesciunt",
+      "Description": "Organic directional project",
+      "Filename": "optio",
+      "Size": 279,
+      "Type": "officia",
+      "Encoding": "perspiciatis",
+      "Id": "iusto",
+      "Disposition": "laboriosam",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 156
+          "FieldType": "System.Int32",
+          "FieldLength": 430
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Green-Conroy",
+      "Name": "Tremblay-Jewess",
       "Values": [
-        "consequatur",
-        "omnis"
+        "veniam",
+        "sequi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 234
+          "FieldType": "System.String",
+          "FieldLength": 246
         }
       }
     },
     {
-      "Name": "Green-Conroy",
+      "Name": "Tremblay-Jewess",
       "Values": [
-        "consequatur",
-        "omnis"
+        "veniam",
+        "sequi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 234
+          "FieldType": "System.String",
+          "FieldLength": 246
         }
       }
     }
   ],
-  "FolderName": "Walter-Hand",
-  "EmailItemId": 317,
-  "AccountId": 584,
-  "ReceivedAt": "1999-04-22T11:22:38.289718+02:00",
+  "FolderName": "Kirlin, Considine and Spencer",
+  "EmailItemId": 161,
+  "AccountId": 159,
+  "ReceivedAt": "1998-05-05T14:19:03.4821464+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2020-06-17T11:22:38.289718+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2016-03-28T14:19:03.4821464+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 53
+      "FieldType": "System.Int32",
+      "FieldLength": 354
     }
   }
 }

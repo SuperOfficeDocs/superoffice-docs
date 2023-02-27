@@ -69,9 +69,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Miller-Gulgowski",
-  "RecordId": 907,
-  "AssociateId": 86
+  "TableName": "Zemlak LLC",
+  "RecordId": 57,
+  "AssociateId": 972
 }
 ```
 

@@ -100,30 +100,30 @@ OK
 POST /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 229,
-  "Name": "Steuber Inc and Sons",
+  "WebhookId": 988,
+  "Name": "Bechtelar-Hills",
   "Events": [
-    "cumque",
-    "doloremque"
+    "odit",
+    "quaerat"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "ea",
+  "Secret": "modi",
   "State": "Active",
-  "Type": "iste",
+  "Type": "neque",
   "Headers": {
-    "Headers1": "vel",
-    "Headers2": "numquam"
+    "Headers1": "enim",
+    "Headers2": "est"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2008-05-29T11:22:45.5379661+02:00",
+  "Registered": "2002-09-13T14:19:11.0845209+02:00",
   "RegisteredAssociate": null,
-  "Updated": "1998-03-24T11:22:45.5379661+01:00",
+  "Updated": "2022-06-15T14:19:11.0845209+02:00",
   "UpdatedAssociate": null
 }
 ```
@@ -135,30 +135,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 705,
-  "Name": "Quitzon Inc and Sons",
+  "WebhookId": 424,
+  "Name": "Wintheiser Group",
   "Events": [
-    "quo",
-    "sapiente"
+    "error",
+    "totam"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "libero",
+  "Secret": "excepturi",
   "State": "Active",
-  "Type": "enim",
+  "Type": "esse",
   "Headers": {
-    "Headers1": "rerum",
-    "Headers2": "similique"
+    "Headers1": "temporibus",
+    "Headers2": "provident"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2016-06-28T11:22:45.5379661+02:00",
+  "Registered": "2016-07-31T14:19:11.0855578+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2020-01-01T11:22:45.5379661+01:00",
+  "Updated": "2003-05-23T14:19:11.0855578+02:00",
   "UpdatedAssociate": null,
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

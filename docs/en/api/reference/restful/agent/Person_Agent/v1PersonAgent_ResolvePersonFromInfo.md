@@ -78,19 +78,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 869,
-  "PersonName": "Maggio LLC",
+  "ContactId": 740,
+  "PersonName": "Bashirian-Grimes",
   "PhoneNumbers": [
-    "725293",
-    "642385"
+    "1036409",
+    "901253"
   ],
   "Emails": [
-    "jennifer@lebsackhagenes.com",
-    "christopher@carter.us"
+    "deborah@monahanfeil.uk",
+    "dasia@crooks.com"
   ]
 }
 ```
@@ -103,13 +103,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Person": null,
-  "PersonCreated": false,
+  "PersonCreated": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 513
+      "FieldType": "System.String",
+      "FieldLength": 166
     }
   }
 }

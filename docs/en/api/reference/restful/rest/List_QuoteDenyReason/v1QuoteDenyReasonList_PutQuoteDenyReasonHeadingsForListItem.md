@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 8,
-    "Name": "Hammes, Legros and Lueilwitz",
-    "ToolTip": "Rem ab et officia fugit.",
+    "Id": 953,
+    "Name": "Daugherty-Rath",
+    "ToolTip": "Ut fugiat.",
     "Deleted": false,
-    "Rank": 959,
-    "Type": "ipsam",
-    "ColorBlock": 545,
-    "IconHint": "sit",
+    "Rank": 188,
+    "Type": "sapiente",
+    "ColorBlock": 472,
+    "IconHint": "quia",
     "Selected": true,
-    "LastChanged": "2001-03-22T11:22:46.1160093+01:00",
+    "LastChanged": "1998-01-02T14:19:11.430529+01:00",
     "ChildItems": [
       {
-        "Id": 614,
-        "Name": "Mraz-Yost",
-        "ToolTip": "Magni voluptates laudantium iure vel natus sed voluptas.",
+        "Id": 821,
+        "Name": "Franecki-Thompson",
+        "ToolTip": "Molestiae voluptas maiores quo magni voluptas reiciendis labore.",
         "Deleted": false,
-        "Rank": 119,
-        "Type": "distinctio",
-        "ColorBlock": 465,
-        "IconHint": "voluptatum",
+        "Rank": 94,
+        "Type": "sed",
+        "ColorBlock": 583,
+        "IconHint": "ducimus",
         "Selected": true,
-        "LastChanged": "2011-01-22T11:22:46.1160093+01:00",
+        "LastChanged": "2000-06-02T14:19:11.430529+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "eligendi",
+        "ExtraInfo": "minima",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Isaac Hamill"
+        "FullName": "Mr. Vivien Kuhn"
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "id",
+    "ExtraInfo": "dolores",
+    "StyleHint": "magnam",
     "Hidden": false,
-    "FullName": "Mrs. Ricardo Gloria Jakubowski DVM"
+    "FullName": "Anastasia Reinger PhD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 864,
-    "Name": "Schamberger LLC",
-    "ToolTip": "Ea consequatur rerum molestiae velit neque dolor.",
-    "Deleted": true,
-    "Rank": 649,
-    "Type": "et",
-    "ColorBlock": 189,
-    "IconHint": "et",
+    "Id": 270,
+    "Name": "Wolff-Altenwerth",
+    "ToolTip": "Magnam deserunt.",
+    "Deleted": false,
+    "Rank": 142,
+    "Type": "at",
+    "ColorBlock": 87,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "2000-03-16T11:22:46.1160093+01:00",
+    "LastChanged": "2013-08-11T14:19:11.430529+02:00",
     "ChildItems": [
       {
-        "Id": 380,
-        "Name": "Senger LLC",
-        "ToolTip": "Omnis esse qui sunt veniam ad voluptas occaecati.",
-        "Deleted": false,
-        "Rank": 397,
-        "Type": "illo",
-        "ColorBlock": 861,
-        "IconHint": "ea",
-        "Selected": false,
-        "LastChanged": "2017-05-24T11:22:46.1160093+02:00",
+        "Id": 794,
+        "Name": "Little, Stamm and Huel",
+        "ToolTip": "Nemo illo esse eos.",
+        "Deleted": true,
+        "Rank": 88,
+        "Type": "ipsam",
+        "ColorBlock": 510,
+        "IconHint": "quo",
+        "Selected": true,
+        "LastChanged": "2012-01-15T14:19:11.430529+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Joshua Abshire",
+        "ExtraInfo": "repellat",
+        "StyleHint": "itaque",
+        "Hidden": false,
+        "FullName": "Miss Emmy Laurence Stiedemann II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 1000
+            "FieldType": "System.String",
+            "FieldLength": 394
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "repellat",
-    "Hidden": false,
-    "FullName": "Ms. Alvera Auer",
+    "ExtraInfo": "esse",
+    "StyleHint": "quo",
+    "Hidden": true,
+    "FullName": "Cody Bahringer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 346
+        "FieldLength": 298
       }
     }
   }

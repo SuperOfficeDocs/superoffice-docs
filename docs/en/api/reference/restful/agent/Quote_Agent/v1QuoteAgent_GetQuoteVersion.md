@@ -110,11 +110,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 40
+  "QuoteVersionId": 110
 }
 ```
 
@@ -125,75 +125,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 826,
-  "ERPQuoteVersionKey": "qui",
-  "QuoteId": 852,
-  "Description": "Quality-focused object-oriented open system",
-  "Number": "1125802",
+  "QuoteVersionId": 513,
+  "ERPQuoteVersionKey": "adipisci",
+  "QuoteId": 818,
+  "Description": "Exclusive directional model",
+  "Number": "715283",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 616,
-  "SentDate": "2002-05-21T11:22:38.8833285+02:00",
-  "FollowupId": 744,
-  "ExpirationDate": "2018-07-08T11:22:38.8833285+02:00",
-  "DeliveryCountryId": 934,
+  "LikelyQuoteAlternativeId": 512,
+  "SentDate": "1996-12-01T14:19:03.984459+01:00",
+  "FollowupId": 134,
+  "ExpirationDate": "2008-02-07T14:19:03.984459+01:00",
+  "DeliveryCountryId": 301,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 708,
+  "InvoiceCountryId": 957,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "deserunt",
-  "ERPPaymentTypeKey": "itaque",
-  "ERPDeliveryTermsKey": "rerum",
-  "ERPDeliveryTypeKey": "sint",
-  "Rank": 407,
-  "ApprovedBy": 40,
-  "ApprovedText": "necessitatibus",
-  "ApprovedRegisteredBy": 354,
-  "ApprovedRegisteredDate": "2018-08-24T11:22:38.8833285+02:00",
-  "ExtraField1": "ut",
-  "ExtraField2": "aperiam",
-  "ExtraField3": "laborum",
-  "ExtraField4": "dignissimos",
-  "ExtraField5": "dolorem",
-  "LastRecalculated": "2004-09-22T11:22:38.8833285+02:00",
-  "Updated": "2003-06-30T11:22:38.8833285+02:00",
-  "UpdatedAssociateId": 310,
-  "Registered": "2000-11-21T11:22:38.8833285+01:00",
-  "RegisteredAssociateId": 121,
-  "RequestAssociateId": 654,
-  "RequestComment": "voluptas",
+  "ERPPaymentTermsKey": "alias",
+  "ERPPaymentTypeKey": "minus",
+  "ERPDeliveryTermsKey": "ut",
+  "ERPDeliveryTypeKey": "unde",
+  "Rank": 158,
+  "ApprovedBy": 202,
+  "ApprovedText": "ad",
+  "ApprovedRegisteredBy": 742,
+  "ApprovedRegisteredDate": "2006-11-14T14:19:03.984459+01:00",
+  "ExtraField1": "dolor",
+  "ExtraField2": "rerum",
+  "ExtraField3": "nisi",
+  "ExtraField4": "necessitatibus",
+  "ExtraField5": "eos",
+  "LastRecalculated": "1998-02-04T14:19:03.984459+01:00",
+  "Updated": "1997-06-24T14:19:03.984459+02:00",
+  "UpdatedAssociateId": 872,
+  "Registered": "2005-06-23T14:19:03.984459+02:00",
+  "RegisteredAssociateId": 812,
+  "RequestAssociateId": 930,
+  "RequestComment": "quo",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 440,
-      "ERPQuoteAlternativeKey": "excepturi",
-      "QuoteVersionId": 372,
-      "Name": "Nitzsche, McDermott and Kuhn",
-      "Description": "Stand-alone coherent secured line",
+      "QuoteAlternativeId": 637,
+      "ERPQuoteAlternativeKey": "esse",
+      "QuoteVersionId": 713,
+      "Name": "Halvorson, Nienow and Will",
+      "Description": "Universal multi-state intranet",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 23432.917999999998,
-      "ERPDiscountAmount": 12432.578,
-      "DiscountPercent": 20276.98,
-      "DiscountAmount": 20784.688,
+      "ERPDiscountPercent": 3027.444,
+      "ERPDiscountAmount": 1711.164,
+      "DiscountPercent": 7697.1039999999994,
+      "DiscountAmount": 7333.5599999999995,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "facilis",
-      "VAT": 18374.642,
-      "EarningPercent": 5841.776,
-      "EarningAmount": 25579.708,
-      "SubTotal": 12310.351999999999,
-      "TotalPrice": 3441.132,
-      "ExtraField1": "voluptatum",
-      "ExtraField2": "quae",
-      "ExtraField3": "repudiandae",
-      "ExtraField4": "incidunt",
-      "ExtraField5": "eum",
+      "VATInfo": "saepe",
+      "VAT": 8464.934,
+      "EarningPercent": 29484.672,
+      "EarningAmount": 13636.034,
+      "SubTotal": 21912.928,
+      "TotalPrice": 21897.257999999998,
+      "ExtraField1": "dolorum",
+      "ExtraField2": "quis",
+      "ExtraField3": "ea",
+      "ExtraField4": "cupiditate",
+      "ExtraField5": "quae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 697
+          "FieldType": "System.String",
+          "FieldLength": 390
         }
       }
     }
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 733
+      "FieldLength": 273
     }
   }
 }

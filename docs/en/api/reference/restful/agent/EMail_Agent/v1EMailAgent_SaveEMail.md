@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,147 +118,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 118,
-      "ContactName": "Little, Marquardt and Kub",
-      "PersonId": 103,
-      "PersonName": "Wehner Inc and Sons",
-      "AssociateId": 393,
-      "Address": "itaque",
-      "EmailId": 969,
+      "ContactId": 521,
+      "ContactName": "Schoen, Gottlieb and Muller",
+      "PersonId": 520,
+      "PersonName": "Jones-Ernser",
+      "AssociateId": 643,
+      "Address": "esse",
+      "EmailId": 199,
       "DuplicatePersonIds": [
-        777,
-        902
+        900,
+        923
       ],
-      "Name": "Graham-Predovic",
+      "Name": "Bradtke-Thiel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 481
+          "FieldLength": 629
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 397,
-      "ContactName": "Kilback-Jewess",
-      "PersonId": 559,
-      "PersonName": "Upton Inc and Sons",
-      "AssociateId": 132,
-      "Address": "et",
-      "EmailId": 244,
+      "ContactId": 51,
+      "ContactName": "Pollich, Wiza and Marvin",
+      "PersonId": 815,
+      "PersonName": "Walter Inc and Sons",
+      "AssociateId": 18,
+      "Address": "dolorum",
+      "EmailId": 632,
       "DuplicatePersonIds": [
-        850,
-        711
+        361,
+        590
       ],
-      "Name": "Boehm Group",
+      "Name": "Fadel LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 845
+          "FieldLength": 650
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 917,
-      "ContactName": "Champlin, Pacocha and Wolff",
-      "PersonId": 958,
-      "PersonName": "Bartoletti-Huels",
-      "AssociateId": 502,
-      "Address": "nobis",
-      "EmailId": 398,
+      "ContactId": 980,
+      "ContactName": "Reichert Inc and Sons",
+      "PersonId": 502,
+      "PersonName": "Baumbach, Bechtelar and Abernathy",
+      "AssociateId": 459,
+      "Address": "qui",
+      "EmailId": 417,
       "DuplicatePersonIds": [
-        876,
-        237
+        178,
+        895
       ],
-      "Name": "Parisian-Howe",
+      "Name": "Mraz, Emmerich and Beier",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 691
+          "FieldLength": 776
         }
       }
     }
   ],
-  "Subject": "rerum",
-  "HTMLBody": "aliquid",
+  "Subject": "similique",
+  "HTMLBody": "sit",
   "From": null,
-  "Sent": "1999-11-19T11:22:38.2584721+01:00",
-  "Size": 382,
+  "Sent": "2014-01-03T14:19:03.4508967+01:00",
+  "Size": 181,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quia",
-  "PlainBody": "architecto",
+  "MessageID": "facilis",
+  "PlainBody": "sed",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 755,
+  "ServerId": 701,
   "Attachments": [
     {
-      "Description": "Configurable leading edge synergy",
-      "Filename": "voluptate",
-      "Size": 865,
-      "Type": "dolor",
-      "Encoding": "facilis",
-      "Id": "saepe",
-      "Disposition": "fugiat",
+      "Description": "Mandatory transitional project",
+      "Filename": "non",
+      "Size": 397,
+      "Type": "delectus",
+      "Encoding": "sint",
+      "Id": "numquam",
+      "Disposition": "autem",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 425
+          "FieldLength": 494
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Ernser-Kub",
+      "Name": "Johnson-Watsica",
       "Values": [
-        "ipsum",
-        "fugit"
+        "non",
+        "illo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 466
+          "FieldLength": 708
         }
       }
     },
     {
-      "Name": "Ernser-Kub",
+      "Name": "Johnson-Watsica",
       "Values": [
-        "ipsum",
-        "fugit"
+        "non",
+        "illo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 466
+          "FieldLength": 708
         }
       }
     }
   ],
-  "FolderName": "Konopelski, Mayer and Zboncak",
-  "EmailItemId": 813,
-  "AccountId": 96,
-  "ReceivedAt": "1999-07-04T11:22:38.2584721+02:00",
+  "FolderName": "Gerlach Group",
+  "EmailItemId": 991,
+  "AccountId": 161,
+  "ReceivedAt": "2018-10-23T14:19:03.4508967+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2000-06-27T11:22:38.2584721+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2018-03-07T14:19:03.4508967+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldLength": 45
     }
   }
 }

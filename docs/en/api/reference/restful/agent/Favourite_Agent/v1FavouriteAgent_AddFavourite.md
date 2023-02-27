@@ -66,14 +66,14 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Zboncak-Abernathy",
-  "RecordId": 852,
-  "AssociateId": 982,
-  "ExtraInfo": "dolores"
+  "TableName": "Sauer, Veum and Waelchi",
+  "RecordId": 749,
+  "AssociateId": 333,
+  "ExtraInfo": "non"
 }
 ```
 

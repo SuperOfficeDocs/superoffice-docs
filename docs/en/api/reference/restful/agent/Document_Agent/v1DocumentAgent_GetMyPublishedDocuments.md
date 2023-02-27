@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,32 +94,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 125,
-    "Attention": "suscipit",
-    "Header": "illum",
-    "Name": "Marquardt-Dare",
-    "OurRef": "et",
-    "YourRef": "at",
-    "Description": "Triple-buffered tangible initiative",
-    "DocumentTemplate": "reprehenderit",
+    "DocumentId": 886,
+    "Attention": "fuga",
+    "Header": "sunt",
+    "Name": "Walsh-Mertz",
+    "OurRef": "magni",
+    "YourRef": "non",
+    "Description": "Robust zero administration customer loyalty",
+    "DocumentTemplate": "aperiam",
     "IsPublished": false,
-    "PersonId": 888,
-    "PersonFullName": "Izaiah Larson",
-    "AssociateFullName": "Ms. Ellie Grimes III",
-    "ContactId": 371,
-    "ContactName": "Breitenberg, Batz and Pouros",
-    "ProjectId": 613,
-    "ProjectName": "Gutkowski Group",
-    "AssociateId": 787,
-    "Snum": 897,
-    "SaleId": 577,
-    "SaleName": "Kreiger LLC",
+    "PersonId": 102,
+    "PersonFullName": "Dr. Sherwood Stamm",
+    "AssociateFullName": "Lolita Moore",
+    "ContactId": 974,
+    "ContactName": "Skiles Group",
+    "ProjectId": 553,
+    "ProjectName": "Bernier-Bartell",
+    "AssociateId": 606,
+    "Snum": 589,
+    "SaleId": 63,
+    "SaleName": "Smitham-Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1001
+        "FieldLength": 126
       }
     }
   }

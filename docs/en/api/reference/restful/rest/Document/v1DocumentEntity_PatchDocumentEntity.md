@@ -146,12 +146,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "assumenda",
+    "path": "libero",
     "value": {}
   },
   {
     "op": "add",
-    "path": "assumenda",
+    "path": "libero",
     "value": {}
   }
 ]
@@ -164,88 +164,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 468,
+  "DocumentId": 511,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "corrupti",
-  "Header": "eos",
-  "Name": "Bins-Abernathy",
-  "OurRef": "velit",
-  "YourRef": "blanditiis",
-  "CreatedDate": "2008-06-17T11:22:44.6319818+02:00",
-  "UpdatedDate": "2014-10-28T11:22:44.6319818+01:00",
-  "Description": "Reduced reciprocal forecast",
+  "Attention": "natus",
+  "Header": "dicta",
+  "Name": "Hoppe-Hand",
+  "OurRef": "eos",
+  "YourRef": "delectus",
+  "CreatedDate": "2019-10-19T14:19:10.3029734+02:00",
+  "UpdatedDate": "1996-09-24T14:19:10.3029734+02:00",
+  "Description": "Synergistic transitional software",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2000-01-30T11:22:44.6319818+01:00",
-  "ExternalRef": "voluptas",
+  "Date": "2004-07-03T14:19:10.3029734+02:00",
+  "ExternalRef": "corrupti",
   "Completed": "Completed",
-  "ActiveLinks": 349,
+  "ActiveLinks": 458,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Jones Group",
-      "Id": 855,
-      "Description": "Programmable neutral open architecture",
-      "ExtraInfo": "culpa",
-      "LinkId": 563,
+      "EntityName": "Daniel, Lockman and Kassulke",
+      "Id": 619,
+      "Description": "Re-contextualized user-facing migration",
+      "ExtraInfo": "est",
+      "LinkId": 722,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 27
+          "FieldType": "System.String",
+          "FieldLength": 148
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 213,
-  "Snum": 966,
+  "SuggestedDocumentId": 500,
+  "Snum": 535,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "332280383"
+    "SuperOffice:1": "1842579445",
+    "SuperOffice:2": "Modesta Orn"
   },
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "quae"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "odit"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
+    "CustomFields1": "delectus",
     "CustomFields2": "cupiditate"
   },
-  "PublishEventDate": "2019-03-03T11:22:44.6319818+01:00",
-  "PublishTo": "2008-07-29T11:22:44.6319818+02:00",
-  "PublishFrom": "2009-07-03T11:22:44.6319818+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2006-03-18T14:19:10.3029734+01:00",
+  "PublishTo": "2018-11-16T14:19:10.3029734+01:00",
+  "PublishFrom": "2020-04-17T14:19:10.3029734+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 626,
+      "VisibleId": 884,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 701
+          "FieldType": "System.Int32",
+          "FieldLength": 571
         }
       }
     },
     {
-      "VisibleId": 626,
+      "VisibleId": 884,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 701
+          "FieldType": "System.Int32",
+          "FieldLength": 571
         }
       }
     }
@@ -255,12 +255,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 112
+      "FieldLength": 765
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

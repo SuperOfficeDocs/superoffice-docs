@@ -74,15 +74,15 @@ OK
 POST /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 526,
-  "Name": "Stiedemann Inc and Sons",
-  "Tooltip": "aut",
-  "Rank": 39,
-  "Key": "porro",
+  "LegalBaseId": 342,
+  "Name": "Yundt, Luettgen and Strosin",
+  "Tooltip": "sit",
+  "Rank": 474,
+  "Key": "aut",
   "Deleted": true
 }
 ```
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 93,
-  "Name": "Connelly-Fay",
-  "Tooltip": "atque",
-  "Rank": 188,
-  "Key": "ullam",
-  "Deleted": true,
+  "LegalBaseId": 360,
+  "Name": "Purdy, Lemke and Hackett",
+  "Tooltip": "vel",
+  "Rank": 88,
+  "Key": "qui",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldLength": 38
     }
   }
 }

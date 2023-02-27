@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 60,
-    "Name": "Reichert LLC",
-    "Tooltip": "non",
+    "HeadingId": 913,
+    "Name": "McCullough, Pfeffer and Price",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 874,
-    "UdListDefinitionId": 275,
+    "Rank": 907,
+    "UdListDefinitionId": 998,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 459
+        "FieldType": "System.String",
+        "FieldLength": 825
       }
     }
   }

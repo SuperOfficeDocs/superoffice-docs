@@ -83,8 +83,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HistoryNames": [
-    "Franecki-Hegmann",
-    "Jacobi-Kuhn"
+    "Stanton, Cummings and Franecki",
+    "Feest-Paucek"
   ]
 }
 ```
@@ -97,19 +97,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 707,
-    "Id": 313,
-    "HistoryName": "Spinka Inc and Sons",
-    "HistoryId": 530,
-    "AssociateId": 229,
-    "Name": "Kunze-Wolff",
-    "ItemInfo": "expedita",
+    "Rank": 545,
+    "Id": 176,
+    "HistoryName": "Beatty-Cummings",
+    "HistoryId": 961,
+    "AssociateId": 23,
+    "Name": "Block, McKenzie and Hagenes",
+    "ItemInfo": "sapiente",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 335
+        "FieldType": "System.Int32",
+        "FieldLength": 17
       }
     }
   }

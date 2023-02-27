@@ -143,12 +143,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "dignissimos",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dignissimos",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -161,48 +161,48 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 712,
-  "Name": "Stanton Inc and Sons",
-  "Description": "Cross-platform local leverage",
-  "WelcomeMessage": "rerum",
+  "ChatTopicId": 602,
+  "Name": "Turner, Hansen and Wyman",
+  "Description": "Front-line transitional monitoring",
+  "WelcomeMessage": "reprehenderit",
   "Language": null,
-  "LastAccept": "2005-12-07T11:22:44.4289042+01:00",
-  "SecondsPrAccept": 729,
-  "AlertRecipient": "laborum",
+  "LastAccept": "2007-07-21T14:19:10.0998102+02:00",
+  "SecondsPrAccept": 682,
+  "AlertRecipient": "libero",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "possimus",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "aperiam",
-  "WarnNewChatMinutes": 609,
-  "WarnManagerNewChatMinutes": 296,
-  "TicketEnabled": false,
+  "BadgeHeader": "expedita",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "nihil",
+  "WarnNewChatMinutes": 316,
+  "WarnManagerNewChatMinutes": 529,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 730,
-  "WarnManagerChatMessageMinutes": 491,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 354,
-  "OfflineFormQueueLength": 640,
+  "WarnChatMessageMinutes": 915,
+  "WarnManagerChatMessageMinutes": 305,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 897,
+  "OfflineFormQueueLength": 496,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "architecto",
+  "WidgetRatingText": "iusto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldType": "System.String",
+      "FieldLength": 435
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

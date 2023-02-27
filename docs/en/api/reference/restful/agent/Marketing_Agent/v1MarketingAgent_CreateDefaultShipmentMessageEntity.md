@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 548,
-  "PlainMessage": "nihil",
-  "HtmlMessage": "eum",
-  "SmsMessage": "sed",
-  "Description": "User-centric web-enabled firmware",
-  "Subject": "nemo",
-  "FolderId": 927,
-  "HeaderField": "nam",
-  "Design": "id",
+  "ShipmentMessageId": 17,
+  "PlainMessage": "sint",
+  "HtmlMessage": "itaque",
+  "SmsMessage": "cumque",
+  "Description": "Exclusive regional policy",
+  "Subject": "libero",
+  "FolderId": 261,
+  "HeaderField": "omnis",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Synchronised attitude-oriented knowledge user",
-  "AccessKey": "deleniti",
-  "DocumentMessage": 889,
-  "Registered": "2021-08-25T11:22:38.5552678+02:00",
-  "RegisteredAssociateId": 537,
-  "Updated": "1995-09-08T11:22:38.5552678+02:00",
-  "UpdatedAssociateId": 692,
-  "UpdatedCount": 140,
+  "LongDescription": "Universal next generation protocol",
+  "AccessKey": "odit",
+  "DocumentMessage": 635,
+  "Registered": "2020-09-15T14:19:03.7176242+02:00",
+  "RegisteredAssociateId": 816,
+  "Updated": "2015-10-03T14:19:03.7176242+02:00",
+  "UpdatedAssociateId": 569,
+  "UpdatedCount": 199,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 784
+      "FieldType": "System.Int32",
+      "FieldLength": 229
     }
   }
 }

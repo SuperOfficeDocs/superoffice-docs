@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,94 +95,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "incidunt",
-  "SignOffText": "quia",
-  "SignOnConfirmationText": "quis",
-  "SignOnText": "aut",
-  "EventDate": "2020-03-11T11:22:38.8208433+01:00",
+  "SignOffConfirmationText": "eius",
+  "SignOffText": "sed",
+  "SignOnConfirmationText": "est",
+  "SignOnText": "suscipit",
+  "EventDate": "2012-06-11T14:19:03.9219591+02:00",
   "Enabled": false,
-  "CreatedDate": "1996-06-11T11:22:38.8208433+02:00",
+  "CreatedDate": "2008-04-29T14:19:03.9219591+02:00",
   "SignOff": false,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 674,
-  "SignOffTriggersAssign": true,
-  "SignOn": true,
+  "SignOffTaskEnable": true,
+  "SignOffTaskId": 491,
+  "SignOffTriggersAssign": false,
+  "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 609,
+  "SignOnTaskId": 990,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "2003-10-24T11:22:38.8208433+02:00",
+  "UpdatedDate": "2013-09-09T14:19:03.9219591+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 303,
-  "Id": 680,
-  "PublishFrom": "2004-10-18T11:22:38.8208433+02:00",
+  "ProjectId": 615,
+  "Id": 657,
+  "PublishFrom": "2009-05-09T14:19:03.9219591+02:00",
   "PublishType": "External",
-  "PublishTo": "1998-07-28T11:22:38.8208433+02:00",
+  "PublishTo": "2021-09-24T14:19:03.9219591+02:00",
   "VisibleForCategories": [
     {
-      "Id": 823,
-      "Name": "Harris, Tremblay and Mann",
-      "ToolTip": "Et fuga.",
-      "Deleted": true,
-      "Rank": 939,
-      "Type": "ipsam",
+      "Id": 276,
+      "Name": "Little-Moen",
+      "ToolTip": "Repellendus sint vitae qui.",
+      "Deleted": false,
+      "Rank": 537,
+      "Type": "quisquam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ea",
-      "ColorBlock": 359,
-      "ExtraInfo": "eum",
-      "StyleHint": "distinctio",
-      "FullName": "Flavie Madonna Gerhold Sr.",
+      "IconHint": "sed",
+      "ColorBlock": 524,
+      "ExtraInfo": "assumenda",
+      "StyleHint": "debitis",
+      "FullName": "Mr. Aaliyah Denesik I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 465
+          "FieldLength": 819
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 50,
-      "Name": "Moen Inc and Sons",
-      "ToolTip": "Voluptatem ratione non voluptates sint aut eum occaecati.",
+      "Id": 437,
+      "Name": "Kulas, Boehm and Kutch",
+      "ToolTip": "Impedit provident iure.",
       "Deleted": false,
-      "Rank": 576,
-      "Type": "id",
+      "Rank": 327,
+      "Type": "illo",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "accusamus",
-      "ColorBlock": 455,
-      "ExtraInfo": "excepturi",
-      "StyleHint": "sed",
-      "FullName": "Dr. Christy Murazik",
+      "IconHint": "reprehenderit",
+      "ColorBlock": 459,
+      "ExtraInfo": "asperiores",
+      "StyleHint": "labore",
+      "FullName": "Logan Cruickshank II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 755
+          "FieldLength": 86
         }
       }
     }
   ],
-  "IsPublished": false,
-  "IsVisibleForMembers": true,
-  "IsVisibleForCategories": true,
+  "IsPublished": true,
+  "IsVisibleForMembers": false,
+  "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 111,
+  "ProjectEventId": 467,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 437
+      "FieldLength": 547
     }
   }
 }

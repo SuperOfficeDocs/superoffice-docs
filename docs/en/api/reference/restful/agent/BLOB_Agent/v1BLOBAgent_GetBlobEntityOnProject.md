@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 863
+  "ProjectId": 841
 }
 ```
 
@@ -99,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 544,
-  "BlobSize": 88,
-  "Description": "Cross-group intangible time-frame",
-  "ExtraInfo": "sed",
-  "IsEncrypted": false,
+  "BlobId": 833,
+  "BlobSize": 551,
+  "Description": "Future-proofed assymetric projection",
+  "ExtraInfo": "vel",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "doloribus",
-  "OriginalSize": 50,
-  "CreatedDate": "2011-04-03T11:22:37.4617868+02:00",
-  "UpdatedDate": "2014-09-22T11:22:37.4617868+02:00",
+  "MimeType": "dolore",
+  "OriginalSize": 345,
+  "CreatedDate": "2011-12-05T14:19:02.7750538+01:00",
+  "UpdatedDate": "2008-05-05T14:19:02.7750538+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "architecto",
+  "ConceptualType": "vero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 709
+      "FieldLength": 951
     }
   }
 }

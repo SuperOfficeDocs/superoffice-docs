@@ -69,12 +69,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hermann, Wolf and Gerlach",
+  "TableName": "Klein LLC",
   "RecordIds": [
-    17,
-    436
+    792,
+    603
   ],
-  "AssociateId": 379
+  "AssociateId": 424
 }
 ```
 

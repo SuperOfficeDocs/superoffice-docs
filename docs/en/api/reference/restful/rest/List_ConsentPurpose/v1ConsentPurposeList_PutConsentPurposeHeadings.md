@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 207,
-    "Name": "Lebsack-Roob",
-    "Tooltip": "libero",
+    "HeadingId": 608,
+    "Name": "Langworth-D'Amore",
+    "Tooltip": "reprehenderit",
     "Deleted": false,
-    "Rank": 821,
-    "UdListDefinitionId": 886
+    "Rank": 635,
+    "UdListDefinitionId": 518
   },
   {
-    "HeadingId": 207,
-    "Name": "Lebsack-Roob",
-    "Tooltip": "libero",
+    "HeadingId": 608,
+    "Name": "Langworth-D'Amore",
+    "Tooltip": "reprehenderit",
     "Deleted": false,
-    "Rank": 821,
-    "UdListDefinitionId": 886
+    "Rank": 635,
+    "UdListDefinitionId": 518
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 326,
-    "Name": "Kuhlman LLC",
-    "Tooltip": "sint",
+    "HeadingId": 317,
+    "Name": "Torp, Mitchell and Ullrich",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 832,
-    "UdListDefinitionId": 844,
+    "Rank": 948,
+    "UdListDefinitionId": 423,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 60
+        "FieldLength": 414
       }
     }
   }

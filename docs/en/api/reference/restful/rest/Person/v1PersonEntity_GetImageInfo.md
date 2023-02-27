@@ -72,7 +72,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,28 +80,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 02 Apr 2004 11:22:45 G4T
+Last-Modified: Wed, 07 Jan 1998 14:19:10 G1T
 
 {
-  "BlobId": 82,
-  "BlobSize": 766,
-  "Description": "Total zero defect internet solution",
-  "ExtraInfo": "earum",
-  "IsEncrypted": true,
+  "BlobId": 281,
+  "BlobSize": 879,
+  "Description": "Reduced encompassing alliance",
+  "ExtraInfo": "non",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "adipisci",
-  "OriginalSize": 276,
-  "CreatedDate": "2019-08-06T11:22:45.0068982+02:00",
-  "UpdatedDate": "2004-04-02T11:22:45.0068982+02:00",
+  "MimeType": "eos",
+  "OriginalSize": 915,
+  "CreatedDate": "2009-07-01T14:19:10.4748485+02:00",
+  "UpdatedDate": "1998-01-07T14:19:10.4748485+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aut",
+  "ConceptualType": "commodi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 697
+      "FieldType": "System.Int32",
+      "FieldLength": 672
     }
   }
 }

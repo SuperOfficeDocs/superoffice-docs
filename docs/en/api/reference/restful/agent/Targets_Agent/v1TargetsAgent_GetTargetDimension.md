@@ -25,7 +25,7 @@ Gets a TargetDimension object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Targets/GetTargetDimension?targetDimensionId=866
+POST /api/v1/Agents/Targets/GetTargetDimension?targetDimensionId=435
 POST /api/v1/Agents/Targets/GetTargetDimension?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,24 +84,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 481,
+  "TargetDimensionId": 89,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "dolorem",
-  "DimensionListName": "Lemke LLC",
-  "DimensionListId": 49,
-  "DimensionListLabel": "reiciendis",
+  "DimensionListField": "aperiam",
+  "DimensionListName": "Reinger-Dooley",
+  "DimensionListId": 996,
+  "DimensionListLabel": "qui",
   "SelectedDimensions": [
-    197,
-    440
+    917,
+    731
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 620
+      "FieldType": "System.Int32",
+      "FieldLength": 768
     }
   }
 }

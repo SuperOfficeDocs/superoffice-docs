@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 393,
-  "UdListDefinitionId": 647
+  "Id": 403,
+  "UdListDefinitionId": 716
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 608,
-  "Name": "Ledner, Lockman and Hermann",
-  "Tooltip": "ut",
+  "Id": 693,
+  "Name": "Lehner Group",
+  "Tooltip": "eaque",
   "Deleted": false,
-  "UdListDefinitionId": 803,
-  "Rank": 236,
+  "UdListDefinitionId": 756,
+  "Rank": 430,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 126
+      "FieldType": "System.Int32",
+      "FieldLength": 71
     }
   }
 }

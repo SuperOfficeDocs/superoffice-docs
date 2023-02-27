@@ -90,18 +90,18 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hermiston, Stroman and Leffler",
+  "Name": "Kautzer-Robel",
   "ForceFlatList": false,
-  "AdditionalInfo": "error",
+  "AdditionalInfo": "quidem",
   "HistoryItems": [
-    981,
-    856
+    87,
+    486
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 
@@ -113,56 +113,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 521,
-    "Name": "Brakus-Bauch",
-    "ToolTip": "Expedita est qui quia labore incidunt.",
+    "Id": 132,
+    "Name": "Hansen-Jones",
+    "ToolTip": "Quo odit.",
     "Deleted": false,
-    "Rank": 653,
-    "Type": "qui",
-    "ColorBlock": 405,
-    "IconHint": "temporibus",
-    "Selected": false,
-    "LastChanged": "1999-03-21T11:22:38.5865114+01:00",
+    "Rank": 929,
+    "Type": "voluptas",
+    "ColorBlock": 232,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2014-06-24T14:19:03.7332495+02:00",
     "ChildItems": [
       {
-        "Id": 174,
-        "Name": "Bergnaum-Kovacek",
-        "ToolTip": "Et eos.",
-        "Deleted": true,
-        "Rank": 589,
-        "Type": "nihil",
-        "ColorBlock": 771,
-        "IconHint": "ipsam",
+        "Id": 317,
+        "Name": "Gleason, Littel and Ullrich",
+        "ToolTip": "Necessitatibus blanditiis totam harum temporibus molestias tempora nobis.",
+        "Deleted": false,
+        "Rank": 913,
+        "Type": "est",
+        "ColorBlock": 607,
+        "IconHint": "eveniet",
         "Selected": false,
-        "LastChanged": "2006-05-21T11:22:38.5865114+02:00",
+        "LastChanged": "2007-08-05T14:19:03.7332495+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "expedita",
-        "Hidden": true,
-        "FullName": "Ms. Jaron Aracely Ruecker",
+        "ExtraInfo": "odio",
+        "StyleHint": "similique",
+        "Hidden": false,
+        "FullName": "Ezra Schoen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 811
+            "FieldLength": 321
           }
         }
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "eveniet",
+    "ExtraInfo": "non",
+    "StyleHint": "nostrum",
     "Hidden": false,
-    "FullName": "Carlo Kuhlman",
+    "FullName": "Holly Anne Gaylord II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 761
+        "FieldLength": 668
       }
     }
   }

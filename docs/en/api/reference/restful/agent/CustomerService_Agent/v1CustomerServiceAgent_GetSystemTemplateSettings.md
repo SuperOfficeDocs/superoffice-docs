@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 379,
-  "CustomerCustomerReplyTemplateId": 488,
-  "CustomerPasswordTemplateId": 987,
-  "CustomerConfirmEmailTemplateId": 226,
-  "CustomerChatLogTemplateId": 500,
-  "NewLinkTemplateId": 782,
-  "HotlistNewMessageTemplateId": 509,
-  "HotlistTicketActivatedTemplateId": 664,
-  "UserTicketAlarmTemplateId": 698,
-  "HotlistTicketTakenOverTemplateId": 226,
-  "UserActiveTicketsTemplateId": 1000,
-  "UserNewMessageTemplateId": 126,
-  "UserTicketActivatedTemplateId": 616,
-  "UserNewTicketTemplateId": 540,
-  "PublishKbQuestionTemplateId": 328,
-  "PublishKbAnswerTemplateId": 514,
-  "UserTicketTakenOverTemplateId": 374,
-  "PrintTicketTemplateId": 687,
-  "WeekStatTemplateId": 797,
-  "TicketAlarmHotlistTemplateId": 47,
-  "EmailAddresses": "ronaldo@kiehn.ca",
+  "CustomerNewCustomerTemplateId": 227,
+  "CustomerCustomerReplyTemplateId": 119,
+  "CustomerPasswordTemplateId": 216,
+  "CustomerConfirmEmailTemplateId": 449,
+  "CustomerChatLogTemplateId": 924,
+  "NewLinkTemplateId": 637,
+  "HotlistNewMessageTemplateId": 600,
+  "HotlistTicketActivatedTemplateId": 223,
+  "UserTicketAlarmTemplateId": 710,
+  "HotlistTicketTakenOverTemplateId": 188,
+  "UserActiveTicketsTemplateId": 899,
+  "UserNewMessageTemplateId": 336,
+  "UserTicketActivatedTemplateId": 339,
+  "UserNewTicketTemplateId": 139,
+  "PublishKbQuestionTemplateId": 122,
+  "PublishKbAnswerTemplateId": 448,
+  "UserTicketTakenOverTemplateId": 243,
+  "PrintTicketTemplateId": 622,
+  "WeekStatTemplateId": 233,
+  "TicketAlarmHotlistTemplateId": 40,
+  "EmailAddresses": "cullen_carter@borer.info",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 601
+      "FieldLength": 262
     }
   }
 }

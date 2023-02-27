@@ -88,21 +88,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 940,
-  "Name": "Bradtke, Murray and Ebert",
-  "Tooltip": "voluptatibus",
-  "Rank": 325,
+  "SuggestedAppointmentId": 540,
+  "Name": "Ortiz Inc and Sons",
+  "Tooltip": "in",
+  "Rank": 822,
   "Deleted": false,
-  "DaysFuture": 671,
-  "Duration": "dicta",
+  "DaysFuture": 158,
+  "Duration": "et",
   "AutoSuggest": false,
   "IsMilestone": true,
-  "AssignToMember": true,
-  "Text": "eaque",
+  "AssignToMember": false,
+  "Text": "dolor",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -116,17 +116,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 685,
-  "Name": "Rau-Kuhlman",
-  "Tooltip": "est",
-  "Rank": 952,
-  "Deleted": true,
-  "DaysFuture": 793,
-  "Duration": "et",
+  "SuggestedAppointmentId": 254,
+  "Name": "Marvin, Ziemann and Vandervort",
+  "Tooltip": "cupiditate",
+  "Rank": 634,
+  "Deleted": false,
+  "DaysFuture": 183,
+  "Duration": "voluptatibus",
   "AutoSuggest": false,
-  "IsMilestone": false,
+  "IsMilestone": true,
   "AssignToMember": false,
-  "Text": "enim",
+  "Text": "quo",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 426
+      "FieldLength": 429
     }
   }
 }

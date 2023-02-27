@@ -117,10 +117,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 469,
+  "SelectionId": 216,
   "SelectionMemberIds": [
-    865,
-    696
+    96,
+    477
   ]
 }
 ```
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reactive background access",
-  "Postit": "aut",
+  "Description": "Multi-tiered incremental definition",
+  "Postit": "nemo",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 417,
-  "IncludePerson": 683,
-  "MemberCount": 6,
-  "Name": "O'Hara LLC",
-  "PostitTextId": 203,
-  "CreatedDate": "2007-04-03T11:22:39.3051036+02:00",
-  "SelectionId": 795,
-  "SoundEx": "cumque",
-  "Source": 185,
-  "TextId": 68,
-  "UpdatedDate": "1996-01-20T11:22:39.3051036+01:00",
-  "UpdatedCount": 69,
-  "Visibility": 324,
+  "GroupIdx": 77,
+  "IncludePerson": 229,
+  "MemberCount": 341,
+  "Name": "Harris LLC",
+  "PostitTextId": 444,
+  "CreatedDate": "2006-08-24T14:19:04.1879797+02:00",
+  "SelectionId": 590,
+  "SoundEx": "dolorem",
+  "Source": 78,
+  "TextId": 123,
+  "UpdatedDate": "2006-05-14T14:19:04.1879797+02:00",
+  "UpdatedCount": 888,
+  "Visibility": 66,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 560,
-  "TargetTableName": "Cummerata Group",
-  "Completed": false,
-  "LeftSelectionId": 952,
-  "RightSelectionId": 499,
+  "CompanyUnique": true,
+  "TargetTableNumber": 366,
+  "TargetTableName": "Kunze Inc and Sons",
+  "Completed": true,
+  "LeftSelectionId": 344,
+  "RightSelectionId": 558,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ebert-Homenick",
-  "ShadowProviderName": "Kris-Swift",
-  "ChartKey": "alias",
-  "LastLoaded": "2022-10-31T11:22:39.3051036+01:00",
-  "LastLoadedBy": 982,
+  "MainProviderName": "Kunze-Lueilwitz",
+  "ShadowProviderName": "Gerhold Inc and Sons",
+  "ChartKey": "quam",
+  "LastLoaded": "2000-01-16T14:19:04.1879797+01:00",
+  "LastLoadedBy": 349,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-04-29T11:22:39.3051036+02:00",
-  "LastMembershipChangeBy": 254,
+  "LastMembershipChange": "2007-04-25T14:19:04.2036046+02:00",
+  "LastMembershipChangeBy": 477,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "enim",
-  "MemberTabHeading": "dolores",
-  "MailingsProviderName": "Kerluke-Donnelly",
-  "DashboardTileDefinitionId": 822,
+  "MainHeading": "magni",
+  "MemberTabHeading": "omnis",
+  "MailingsProviderName": "Kertzmann, Langworth and Auer",
+  "DashboardTileDefinitionId": 421,
   "VisibleFor": [
     {
-      "VisibleId": 489,
+      "VisibleId": 684,
       "Visibility": "All",
-      "DisplayValue": "mollitia",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 946
+          "FieldLength": 329
         }
       }
     },
     {
-      "VisibleId": 489,
+      "VisibleId": 684,
       "Visibility": "All",
-      "DisplayValue": "mollitia",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 946
+          "FieldLength": 329
         }
       }
     }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 491
+      "FieldLength": 781
     }
   }
 }

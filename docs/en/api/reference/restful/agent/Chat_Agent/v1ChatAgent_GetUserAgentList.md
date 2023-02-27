@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 453,
-    "Name": "Turcotte-Halvorson",
-    "ToolTip": "Laudantium atque velit autem.",
-    "Deleted": false,
-    "Rank": 4,
-    "Type": "est",
+    "Id": 780,
+    "Name": "Hahn, Baumbach and Fisher",
+    "ToolTip": "Rerum rem dolore ex.",
+    "Deleted": true,
+    "Rank": 621,
+    "Type": "delectus",
     "ChildItems": [
       {
-        "Id": 536,
-        "Name": "Mosciski Inc and Sons",
-        "ToolTip": "Fugiat et enim voluptatem.",
-        "Deleted": true,
-        "Rank": 472,
-        "Type": "unde",
+        "Id": 762,
+        "Name": "Nolan, Schultz and Windler",
+        "ToolTip": "Quaerat facilis.",
+        "Deleted": false,
+        "Rank": 683,
+        "Type": "ea",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quibusdam",
-        "ColorBlock": 64,
-        "ExtraInfo": "vitae",
-        "StyleHint": "rem",
-        "FullName": "Miss Hallie Auer Jr.",
+        "IconHint": "officia",
+        "ColorBlock": 2,
+        "ExtraInfo": "est",
+        "StyleHint": "voluptatibus",
+        "FullName": "Mrs. Elta Kale Murazik IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 986
+            "FieldLength": 797
           }
         }
       }
     ],
-    "IconHint": "harum",
-    "ColorBlock": 303,
-    "ExtraInfo": "veritatis",
-    "StyleHint": "assumenda",
-    "FullName": "Bobby Tremblay",
+    "IconHint": "unde",
+    "ColorBlock": 474,
+    "ExtraInfo": "sunt",
+    "StyleHint": "minima",
+    "FullName": "Triston Miller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 910
+        "FieldLength": 837
       }
     }
   }

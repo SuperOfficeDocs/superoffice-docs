@@ -92,7 +92,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 833,
-  "ColumnId": 721,
-  "FieldDefault": "tempora",
-  "FieldHeight": 13,
-  "FieldLabel": "consequatur",
-  "FieldLeft": 24,
-  "FieldTop": 95,
+  "UDefFieldId": 421,
+  "ColumnId": 770,
+  "FieldDefault": "et",
+  "FieldHeight": 286,
+  "FieldLabel": "repudiandae",
+  "FieldLeft": 510,
+  "FieldTop": 431,
   "FieldType": "Checkbox",
-  "FieldWidth": 771,
-  "FormatMask": "voluptatem",
+  "FieldWidth": 541,
+  "FormatMask": "et",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 595,
-  "LabelLeft": 571,
-  "LabelTop": 396,
-  "LabelWidth": 268,
-  "LastVersionId": 556,
-  "ListTableId": 850,
-  "IsMandatory": false,
+  "LabelHeight": 557,
+  "LabelLeft": 157,
+  "LabelTop": 823,
+  "LabelWidth": 349,
+  "LastVersionId": 590,
+  "ListTableId": 164,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 714,
-  "ProgId": "asperiores",
+  "Page1LineNo": 454,
+  "ProgId": "aut",
   "IsReadOnly": true,
-  "ShortLabel": "tempore",
-  "TabOrder": 628,
-  "TextLength": 147,
-  "Tooltip": "consequatur",
-  "UdefIdentity": 150,
-  "UDListDefinitionId": 505,
+  "ShortLabel": "voluptatum",
+  "TabOrder": 319,
+  "TextLength": 865,
+  "Tooltip": "cupiditate",
+  "UdefIdentity": 441,
+  "UDListDefinitionId": 562,
   "Justification": "Center",
-  "Version": 883,
-  "TemplateVariableName": "Gutmann LLC",
+  "Version": 396,
+  "TemplateVariableName": "Kunde Group",
   "HasBeenPublished": false,
-  "MdoListName": "Moore Inc and Sons",
+  "MdoListName": "O'Conner Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 427
+      "FieldType": "System.Int32",
+      "FieldLength": 916
     }
   }
 }

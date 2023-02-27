@@ -65,46 +65,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 785,
-      "ColumnId": 327,
-      "FieldDefault": "ab",
-      "FieldHeight": 936,
-      "FieldLabel": "dolore",
-      "FieldLeft": 552,
-      "FieldTop": 608,
+      "UDefFieldId": 713,
+      "ColumnId": 471,
+      "FieldDefault": "doloribus",
+      "FieldHeight": 110,
+      "FieldLabel": "in",
+      "FieldLeft": 887,
+      "FieldTop": 280,
       "FieldType": "Checkbox",
-      "FieldWidth": 607,
-      "FormatMask": "nulla",
-      "HideLabel": true,
+      "FieldWidth": 741,
+      "FormatMask": "facere",
+      "HideLabel": false,
       "IsIndexed": false,
-      "LabelHeight": 844,
-      "LabelLeft": 943,
-      "LabelTop": 336,
-      "LabelWidth": 23,
-      "LastVersionId": 483,
-      "ListTableId": 415,
-      "IsMandatory": false,
+      "LabelHeight": 75,
+      "LabelLeft": 982,
+      "LabelTop": 41,
+      "LabelWidth": 999,
+      "LastVersionId": 474,
+      "ListTableId": 990,
+      "IsMandatory": true,
       "Type": "Appointment",
-      "Page1LineNo": 30,
-      "ProgId": "cum",
-      "IsReadOnly": true,
-      "ShortLabel": "veniam",
-      "TabOrder": 836,
-      "TextLength": 870,
-      "Tooltip": "inventore",
-      "UdefIdentity": 612,
-      "UDListDefinitionId": 846,
+      "Page1LineNo": 513,
+      "ProgId": "aut",
+      "IsReadOnly": false,
+      "ShortLabel": "est",
+      "TabOrder": 835,
+      "TextLength": 234,
+      "Tooltip": "corrupti",
+      "UdefIdentity": 254,
+      "UDListDefinitionId": 373,
       "Justification": "Center",
-      "Version": 988,
-      "TemplateVariableName": "Bailey, Kassulke and Schumm",
-      "HasBeenPublished": false,
-      "MdoListName": "Hartmann Group"
+      "Version": 251,
+      "TemplateVariableName": "Herzog, Kertzmann and Wuckert",
+      "HasBeenPublished": true,
+      "MdoListName": "Bosco-Blick"
     }
   ]
 }

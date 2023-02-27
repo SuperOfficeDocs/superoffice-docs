@@ -86,18 +86,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Kub LLC",
-  "StorageKey": "rem",
+  "StorageType": "reiciendis",
+  "ProviderName": "Toy, Nader and Walter",
+  "StorageKey": "mollitia",
   "DesiredColumnNames": [
-    "Baumbach Group",
-    "Pollich, Considine and Gorczany"
+    "Mayert, Cummings and Marks",
+    "Abernathy Group"
   ],
   "StaticColumns": [
-    "et",
-    "modi"
+    "qui",
+    "totam"
   ],
-  "Context": "voluptatem"
+  "Context": "numquam"
 }
 ```
 
@@ -110,15 +110,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Rempel-Kuvalis",
-      "Operator": "voluptatum",
+      "Name": "Moen LLC",
+      "Operator": "ipsum",
       "Values": [
-        "quia",
-        "totam"
+        "voluptatum",
+        "ducimus"
       ],
       "DisplayValues": [
-        "est",
-        "ratione"
+        "praesentium",
+        "fugiat"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -126,65 +126,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 959,
+      "InterParenthesis": 356,
       "InterOperator": "And",
-      "UniqueHash": 486
+      "UniqueHash": 406
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Buckridge, Wintheiser and Parker",
-      "DisplayTooltip": "ratione",
-      "DisplayType": "aut",
+      "DisplayName": "Marquardt, Beer and Abbott",
+      "DisplayTooltip": "iste",
+      "DisplayType": "facilis",
       "CanOrderBy": false,
-      "Name": "Graham-Abshire",
-      "CanRestrictBy": false,
-      "RestrictionType": "cum",
-      "RestrictionListName": "Bechtelar Group",
-      "IsVisible": true,
-      "ExtraInfo": "facere",
-      "Width": "praesentium",
-      "IconHint": "rerum",
-      "HeadingIconHint": "sunt"
+      "Name": "Greenholt LLC",
+      "CanRestrictBy": true,
+      "RestrictionType": "sit",
+      "RestrictionListName": "Fahey, Weissnat and Wisoky",
+      "IsVisible": false,
+      "ExtraInfo": "debitis",
+      "Width": "maiores",
+      "IconHint": "eligendi",
+      "HeadingIconHint": "repudiandae"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Goyette, Bergnaum and Streich",
-      "PrimaryKey": 521,
+      "EntityName": "Dicki, Windler and Barton",
+      "PrimaryKey": 391,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "similique",
-          "TooltipHint": "ullam",
-          "LinkHint": "eius"
+          "DisplayValue": "inventore",
+          "TooltipHint": "aliquam",
+          "LinkHint": "atque"
         }
       },
-      "LinkHint": "ipsa",
-      "StyleHint": "quia",
+      "LinkHint": "aliquam",
+      "StyleHint": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 785
+          "FieldType": "System.Int32",
+          "FieldLength": 167
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Steuber-Rohan",
-      "Description": "Front-line 3rd generation orchestration",
-      "Rank": 127,
+      "Name": "O'Keefe LLC",
+      "Description": "Customizable reciprocal collaboration",
+      "Rank": 482,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Steuber-Rohan",
-      "Description": "Front-line 3rd generation orchestration",
-      "Rank": 127,
+      "Name": "O'Keefe LLC",
+      "Description": "Customizable reciprocal collaboration",
+      "Rank": 482,
       "Restrictions": [
         {},
         {}
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 495
+      "FieldType": "System.Int32",
+      "FieldLength": 822
     }
   }
 }

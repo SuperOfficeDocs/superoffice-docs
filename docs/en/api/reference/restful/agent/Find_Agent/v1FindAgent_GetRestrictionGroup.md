@@ -81,11 +81,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "rerum",
-  "ProviderName": "Leuschke Group",
-  "StorageKey": "reprehenderit",
-  "Rank": 902,
-  "Context": "nostrum"
+  "StorageType": "nostrum",
+  "ProviderName": "Cruickshank-O'Hara",
+  "StorageKey": "aliquam",
+  "Rank": 905,
+  "Context": "dignissimos"
 }
 ```
 
@@ -96,20 +96,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kuhic Group",
-  "Description": "Progressive upward-trending groupware",
-  "Rank": 974,
+  "Name": "Kessler, Armstrong and Carter",
+  "Description": "Optional modular info-mediaries",
+  "Rank": 180,
   "Restrictions": [
     {
-      "Name": "Lesch-D'Amore",
-      "Operator": "in",
+      "Name": "Kiehn, Reichel and Reichel",
+      "Operator": "rerum",
       "Values": [
-        "similique",
-        "excepturi"
+        "dolorem",
+        "dignissimos"
       ],
       "DisplayValues": [
-        "porro",
-        "eum"
+        "error",
+        "autem"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -117,9 +117,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 551,
+      "InterParenthesis": 224,
       "InterOperator": "And",
-      "UniqueHash": 643
+      "UniqueHash": 998
     }
   ]
 }

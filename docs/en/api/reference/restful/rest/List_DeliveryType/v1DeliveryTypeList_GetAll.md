@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 416,
-    "Name": "Collins Group",
-    "Tooltip": "dignissimos",
+    "Id": 34,
+    "Name": "Bauch, Dickinson and Gutkowski",
+    "Tooltip": "iure",
     "Deleted": true,
-    "UdListDefinitionId": 242,
-    "Rank": 620,
+    "UdListDefinitionId": 606,
+    "Rank": 489,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 801
+        "FieldLength": 741
       }
     }
   }

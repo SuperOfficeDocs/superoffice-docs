@@ -112,18 +112,18 @@ PreferenceDescriptionLine  updated.
 PATCH /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "animi",
+    "path": "saepe",
     "value": {}
   },
   {
     "op": "add",
-    "path": "animi",
+    "path": "saepe",
     "value": {}
   }
 ]
@@ -136,18 +136,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 60,
-  "PrefDescId": 512,
-  "PrefValue": "et",
-  "PrefShowValue": "debitis",
-  "Description": "Secured foreground solution",
-  "IsBuiltin": true,
+  "PrefDescLineId": 651,
+  "PrefDescId": 476,
+  "PrefValue": "expedita",
+  "PrefShowValue": "dolorem",
+  "Description": "Automated fault-tolerant contingency",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 387
+      "FieldLength": 307
     }
   },
   "_Links": {

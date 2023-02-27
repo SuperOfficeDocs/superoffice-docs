@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 499,
-    "Name": "Hane Group",
-    "ToolTip": "Et quisquam sed laboriosam.",
+    "Id": 93,
+    "Name": "Cummings-Shanahan",
+    "ToolTip": "Id sit.",
     "Deleted": false,
-    "Rank": 830,
-    "Type": "libero",
-    "ColorBlock": 843,
-    "IconHint": "illum",
-    "Selected": true,
-    "LastChanged": "2009-10-23T11:22:45.8816758+02:00",
+    "Rank": 419,
+    "Type": "distinctio",
+    "ColorBlock": 971,
+    "IconHint": "laborum",
+    "Selected": false,
+    "LastChanged": "2017-12-05T14:19:11.2262177+01:00",
     "ChildItems": [
       {
-        "Id": 800,
-        "Name": "Rosenbaum, Schiller and Kihn",
-        "ToolTip": "Voluptates amet itaque.",
+        "Id": 587,
+        "Name": "Schaden, Corwin and Hudson",
+        "ToolTip": "Vero est ducimus et.",
         "Deleted": false,
-        "Rank": 62,
-        "Type": "rerum",
-        "ColorBlock": 202,
-        "IconHint": "distinctio",
+        "Rank": 791,
+        "Type": "ducimus",
+        "ColorBlock": 48,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "1997-11-13T11:22:45.8816758+01:00",
+        "LastChanged": "2015-09-25T14:19:11.2262177+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "earum",
+        "ExtraInfo": "enim",
+        "StyleHint": "illo",
         "Hidden": false,
-        "FullName": "Wanda Littel",
+        "FullName": "Ms. Eliezer Kerluke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 12
+            "FieldLength": 381
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "similique",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "quisquam",
     "Hidden": false,
-    "FullName": "Sylvester Abbott",
+    "FullName": "Miss Shirley Crist IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 74
+        "FieldLength": 946
       }
     }
   }

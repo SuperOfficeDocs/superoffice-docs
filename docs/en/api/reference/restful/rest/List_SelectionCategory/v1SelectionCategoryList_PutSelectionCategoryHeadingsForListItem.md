@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 552,
-    "Name": "Windler-Larson",
-    "ToolTip": "At optio est in molestiae.",
-    "Deleted": false,
-    "Rank": 141,
-    "Type": "saepe",
-    "ColorBlock": 381,
-    "IconHint": "facere",
+    "Id": 665,
+    "Name": "Johns-Gislason",
+    "ToolTip": "Autem quia veniam odio odio.",
+    "Deleted": true,
+    "Rank": 263,
+    "Type": "quisquam",
+    "ColorBlock": 999,
+    "IconHint": "totam",
     "Selected": false,
-    "LastChanged": "1995-09-25T11:22:46.1941157+02:00",
+    "LastChanged": "2012-07-04T14:19:11.6120888+02:00",
     "ChildItems": [
       {
-        "Id": 508,
-        "Name": "Conn, Wisozk and Marquardt",
-        "ToolTip": "Qui quibusdam non culpa ad.",
-        "Deleted": false,
-        "Rank": 995,
-        "Type": "dignissimos",
-        "ColorBlock": 178,
-        "IconHint": "laboriosam",
-        "Selected": true,
-        "LastChanged": "2016-10-09T11:22:46.1941157+02:00",
+        "Id": 856,
+        "Name": "Ward, Pagac and Hegmann",
+        "ToolTip": "Ad voluptatibus quia tenetur.",
+        "Deleted": true,
+        "Rank": 344,
+        "Type": "voluptas",
+        "ColorBlock": 925,
+        "IconHint": "dolorum",
+        "Selected": false,
+        "LastChanged": "2009-12-20T14:19:11.6120888+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "commodi",
-        "Hidden": false,
-        "FullName": "Ramon Rau"
+        "ExtraInfo": "fugiat",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Gerry Marvin"
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "iure",
-    "Hidden": false,
-    "FullName": "Lafayette Harris"
+    "ExtraInfo": "vel",
+    "StyleHint": "odit",
+    "Hidden": true,
+    "FullName": "Mrs. Dameon Dianna Spinka"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 479,
-    "Name": "Rutherford Group",
-    "ToolTip": "Dolorum est error dolorem eaque.",
+    "Id": 231,
+    "Name": "Schoen-Kirlin",
+    "ToolTip": "Voluptas assumenda rem.",
     "Deleted": false,
-    "Rank": 79,
-    "Type": "consequuntur",
-    "ColorBlock": 410,
-    "IconHint": "harum",
-    "Selected": false,
-    "LastChanged": "1999-05-21T11:22:46.1941157+02:00",
+    "Rank": 263,
+    "Type": "cumque",
+    "ColorBlock": 818,
+    "IconHint": "voluptas",
+    "Selected": true,
+    "LastChanged": "2014-05-23T14:19:11.6276984+02:00",
     "ChildItems": [
       {
-        "Id": 295,
-        "Name": "Bernier Inc and Sons",
-        "ToolTip": "Tempore aut sunt rerum.",
+        "Id": 476,
+        "Name": "Pagac-Harvey",
+        "ToolTip": "Et mollitia vel molestias.",
         "Deleted": false,
-        "Rank": 302,
-        "Type": "delectus",
-        "ColorBlock": 794,
-        "IconHint": "id",
+        "Rank": 888,
+        "Type": "expedita",
+        "ColorBlock": 906,
+        "IconHint": "minus",
         "Selected": false,
-        "LastChanged": "2015-04-23T11:22:46.1941157+02:00",
+        "LastChanged": "2003-01-05T14:19:11.6276984+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "in",
+        "ExtraInfo": "vel",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Zena Donnelly",
+        "FullName": "Miss Chase Crona",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 237
+            "FieldLength": 415
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "eum",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Randy Ryan",
+    "FullName": "Rupert Scarlett Nikolaus Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 918
+        "FieldType": "System.String",
+        "FieldLength": 152
       }
     }
   }

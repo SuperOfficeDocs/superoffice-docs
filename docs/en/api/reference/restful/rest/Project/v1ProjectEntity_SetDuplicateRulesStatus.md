@@ -56,20 +56,20 @@ No Content
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kreiger-Volkman",
-    "DisplayName": "Graham, Pagac and Rau",
-    "DisplayTooltip": "possimus",
+    "Name": "Rutherford-Cruickshank",
+    "DisplayName": "Mante, Rosenbaum and Kozey",
+    "DisplayTooltip": "et",
     "IsActive": false
   },
   {
-    "Name": "Kreiger-Volkman",
-    "DisplayName": "Graham, Pagac and Rau",
-    "DisplayTooltip": "possimus",
+    "Name": "Rutherford-Cruickshank",
+    "DisplayName": "Mante, Rosenbaum and Kozey",
+    "DisplayTooltip": "et",
     "IsActive": false
   }
 ]

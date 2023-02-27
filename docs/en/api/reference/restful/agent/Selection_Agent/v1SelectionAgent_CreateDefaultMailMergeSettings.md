@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 493,
-  "DocumentId": 548,
+  "SelectionId": 146,
+  "DocumentId": 628,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "quae",
-  "AlwaysUseCustomAttention": false,
-  "SaveDocument": true,
-  "CustomMailBody": "molestiae",
+  "CustomAttention": "vitae",
+  "AlwaysUseCustomAttention": true,
+  "SaveDocument": false,
+  "CustomMailBody": "dicta",
   "TaskEntity": null,
-  "AddCompanyInterest": 433,
-  "AddPersonInterest": 790,
-  "RemoveCompanyInterest": 74,
-  "RemovePersonInterest": 664,
-  "IncludeNoMailingsRecipient": false,
+  "AddCompanyInterest": 904,
+  "AddPersonInterest": 236,
+  "RemoveCompanyInterest": 678,
+  "RemovePersonInterest": 878,
+  "IncludeNoMailingsRecipient": true,
   "TestOnly": false,
-  "ProjectId": 309,
-  "IncludeRetiredRecipients": false,
-  "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "modi",
-  "ExtraInfo": "voluptas",
+  "ProjectId": 363,
+  "IncludeRetiredRecipients": true,
+  "IncludeStoppedRecipients": true,
+  "CustomMailSubject": "ut",
+  "ExtraInfo": "et",
   "Synchronous": false,
   "IsTemporarySelection": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldType": "System.String",
+      "FieldLength": 11
     }
   }
 }

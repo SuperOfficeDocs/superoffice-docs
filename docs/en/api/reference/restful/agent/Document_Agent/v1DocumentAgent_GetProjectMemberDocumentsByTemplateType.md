@@ -97,15 +97,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 488,
-  "StartTime": "2002-08-21T11:22:37.8523182+02:00",
-  "EndTime": "2005-09-01T11:22:37.8523182+02:00",
-  "Count": 608,
-  "DocumentTemplateId": 457
+  "PersonId": 924,
+  "StartTime": "2016-01-25T14:19:03.1355296+01:00",
+  "EndTime": "2009-01-02T14:19:03.1355296+01:00",
+  "Count": 277,
+  "DocumentTemplateId": 104
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 431,
-    "Attention": "facere",
-    "Header": "dolores",
-    "Name": "Powlowski Inc and Sons",
-    "OurRef": "unde",
-    "YourRef": "sit",
-    "Description": "Horizontal methodical website",
-    "DocumentTemplate": "laboriosam",
+    "DocumentId": 252,
+    "Attention": "dolorem",
+    "Header": "dolor",
+    "Name": "Reilly Group",
+    "OurRef": "adipisci",
+    "YourRef": "exercitationem",
+    "Description": "Devolved intermediate capacity",
+    "DocumentTemplate": "numquam",
     "IsPublished": false,
-    "PersonId": 422,
-    "PersonFullName": "Mariam Abernathy",
-    "AssociateFullName": "Mrs. Isaac Hardy Kozey",
-    "ContactId": 719,
-    "ContactName": "Koelpin Inc and Sons",
-    "ProjectId": 197,
-    "ProjectName": "Koss-Funk",
-    "AssociateId": 395,
-    "Snum": 728,
-    "SaleId": 534,
-    "SaleName": "Hills Inc and Sons",
+    "PersonId": 806,
+    "PersonFullName": "Brianne Amely Bruen II",
+    "AssociateFullName": "Yessenia Farrell",
+    "ContactId": 177,
+    "ContactName": "Herzog-Feil",
+    "ProjectId": 656,
+    "ProjectName": "Padberg, Hoeger and Gaylord",
+    "AssociateId": 913,
+    "Snum": 160,
+    "SaleId": 619,
+    "SaleName": "Kessler-Eichmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 711
+        "FieldType": "System.Int32",
+        "FieldLength": 853
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetLanguageInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,19 +86,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 617,
-    "LCID": 664,
-    "EnglishName": "Jacobi, Gleason and Windler",
-    "NativeName": "Reynolds-Williamson",
-    "ThreeLetterISOLanguageName": "Haley LLC",
-    "TwoLetterISOLanguageName": "Walker Inc and Sons",
-    "IsBuiltIn": false,
+    "LanguageInfoId": 551,
+    "LCID": 680,
+    "EnglishName": "Pollich LLC",
+    "NativeName": "Blick-Donnelly",
+    "ThreeLetterISOLanguageName": "Hoppe-Goodwin",
+    "TwoLetterISOLanguageName": "Schaden, Gutmann and Jenkins",
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldLength": 342
       }
     }
   }

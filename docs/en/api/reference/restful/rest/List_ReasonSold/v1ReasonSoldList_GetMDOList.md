@@ -26,7 +26,7 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 
 ```http
 GET /api/v1/List/ReasonSold/MDOItems?flat=False
-GET /api/v1/List/ReasonSold/MDOItems?query=facere
+GET /api/v1/List/ReasonSold/MDOItems?query=incidunt
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ReasonSold/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 662,
-    "Name": "Toy, Nitzsche and Larkin",
-    "ToolTip": "Nisi exercitationem voluptatibus in.",
+    "Id": 780,
+    "Name": "Cole Inc and Sons",
+    "ToolTip": "Et sunt officiis saepe.",
     "Deleted": false,
-    "Rank": 830,
-    "Type": "natus",
+    "Rank": 741,
+    "Type": "facilis",
     "ChildItems": [
       {
-        "Id": 776,
-        "Name": "VonRueden, Konopelski and Wuckert",
-        "ToolTip": "Distinctio corrupti quaerat aut dolore.",
-        "Deleted": false,
-        "Rank": 365,
-        "Type": "fugiat",
+        "Id": 656,
+        "Name": "Hayes Group",
+        "ToolTip": "Consequatur ex tempore dolorem sapiente.",
+        "Deleted": true,
+        "Rank": 138,
+        "Type": "id",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "placeat",
-        "ColorBlock": 685,
-        "ExtraInfo": "perferendis",
-        "StyleHint": "at",
-        "FullName": "Ms. Octavia Bernita Torphy III",
+        "IconHint": "qui",
+        "ColorBlock": 986,
+        "ExtraInfo": "aut",
+        "StyleHint": "delectus",
+        "FullName": "Rosella Rowe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 892
+            "FieldType": "System.Int32",
+            "FieldLength": 727
           }
         }
       }
     ],
-    "IconHint": "culpa",
-    "ColorBlock": 820,
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "qui",
-    "FullName": "Nedra Hills",
+    "IconHint": "praesentium",
+    "ColorBlock": 743,
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "natus",
+    "FullName": "Ms. Kimberly Hane DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 119
+        "FieldLength": 26
       }
     }
   }

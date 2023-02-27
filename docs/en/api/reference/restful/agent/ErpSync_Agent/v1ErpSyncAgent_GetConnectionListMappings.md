@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 47
+  "ErpConnectionId": 239
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Pacocha-Prosacco",
+      "ErpListName": "Streich-Pagac",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "McCullough Inc and Sons",
-      "ErpFieldId": 854,
+      "ErpActorTypeName": "Ritchie LLC",
+      "ErpFieldId": 767,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 551
+          "FieldLength": 378
         }
       }
     }
   ],
-  "ErpConnectionId": 622,
-  "ErpConnectionName": "Jacobi, Runolfsdottir and Hickle",
+  "ErpConnectionId": 214,
+  "ErpConnectionName": "Legros LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 416
+      "FieldLength": 621
     }
   }
 }

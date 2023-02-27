@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUntrustedCredentials
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ValidFrom": "2018-01-20T11:22:39.6019187+01:00",
-  "ValidTo": "2020-11-18T11:22:39.6019187+01:00",
-  "Comment": "corrupti",
-  "SecretValue": "vero",
-  "PublicValue": "asperiores",
+  "ValidFrom": "2009-01-06T14:19:04.5484513+01:00",
+  "ValidTo": "2016-09-12T14:19:04.5484513+02:00",
+  "Comment": "eligendi",
+  "SecretValue": "facere",
+  "PublicValue": "natus",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 610
+      "FieldType": "System.String",
+      "FieldLength": 328
     }
   }
 }

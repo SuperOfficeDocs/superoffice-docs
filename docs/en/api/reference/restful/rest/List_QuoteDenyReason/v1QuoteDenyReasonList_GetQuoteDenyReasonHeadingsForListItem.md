@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 130,
-    "Name": "Mayert, Tremblay and Mueller",
-    "ToolTip": "Molestiae aut.",
+    "Id": 160,
+    "Name": "Koch, Larkin and Douglas",
+    "ToolTip": "Facere culpa.",
     "Deleted": false,
-    "Rank": 458,
-    "Type": "ipsam",
-    "ColorBlock": 425,
-    "IconHint": "quo",
+    "Rank": 629,
+    "Type": "et",
+    "ColorBlock": 864,
+    "IconHint": "quas",
     "Selected": true,
-    "LastChanged": "2015-04-08T11:22:46.1160093+02:00",
+    "LastChanged": "2017-11-27T14:19:11.430529+01:00",
     "ChildItems": [
       {
-        "Id": 116,
-        "Name": "Weber-Kertzmann",
-        "ToolTip": "Aut accusantium amet earum saepe harum.",
-        "Deleted": true,
-        "Rank": 247,
-        "Type": "sed",
-        "ColorBlock": 156,
-        "IconHint": "explicabo",
-        "Selected": true,
-        "LastChanged": "2004-01-01T11:22:46.1160093+01:00",
+        "Id": 269,
+        "Name": "Hintz-Zemlak",
+        "ToolTip": "Ipsa voluptatem quo voluptatem rerum quae voluptas.",
+        "Deleted": false,
+        "Rank": 240,
+        "Type": "eaque",
+        "ColorBlock": 663,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2009-11-09T14:19:11.430529+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "recusandae",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "saepe",
         "Hidden": false,
-        "FullName": "Creola Grant",
+        "FullName": "Jeff Maurine Wehner MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 333
+            "FieldLength": 925
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "pariatur",
-    "Hidden": true,
-    "FullName": "Reina Kemmer",
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "totam",
+    "Hidden": false,
+    "FullName": "Maximus Morissette MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 429
+        "FieldLength": 858
       }
     }
   }

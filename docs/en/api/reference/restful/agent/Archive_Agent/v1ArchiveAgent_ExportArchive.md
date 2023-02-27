@@ -82,59 +82,59 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Parker-Streich",
-  "Context": "ex",
+  "ProviderName": "Lynch-Bergnaum",
+  "Context": "pariatur",
   "DesiredEntities": [
-    "recusandae",
-    "aspernatur"
+    "id",
+    "in"
   ],
   "Columns": [
-    "inventore",
-    "eveniet"
+    "ducimus",
+    "aspernatur"
   ],
   "SortOrder": [
     {
-      "Name": "Pouros, Rolfson and Leffler",
+      "Name": "McDermott Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Pouros, Rolfson and Leffler",
+      "Name": "McDermott Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Gutmann, Metz and Parisian",
+      "Name": "Bailey, Kertzmann and Okuneva",
       "Operator": "et",
       "Values": [
-        "odit",
-        "incidunt"
+        "dolor",
+        "corporis"
       ],
       "DisplayValues": [
-        "est",
-        "saepe"
+        "ea",
+        "molestiae"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 337,
+      "InterParenthesis": 79,
       "InterOperator": "And",
-      "UniqueHash": 176
+      "UniqueHash": 560
     }
   ],
-  "ExportType": "aut",
+  "ExportType": "quam",
   "SelectedRowIds": [
-    "velit",
-    "quia"
+    "ab",
+    "eligendi"
   ],
-  "EstimatedRowCount": 220
+  "EstimatedRowCount": 98
 }
 ```
 
@@ -145,15 +145,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 492,
-  "FileName": "Shields, Kirlin and McKenzie",
-  "Message": "in",
+  "BatchTaskId": 516,
+  "FileName": "Dooley, Conn and Bartell",
+  "Message": "saepe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 956
+      "FieldType": "System.String",
+      "FieldLength": 667
     }
   }
 }

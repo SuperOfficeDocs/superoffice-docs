@@ -68,8 +68,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecipeId": "ratione",
-  "AppliesToKey": "et"
+  "RecipeId": "et",
+  "AppliesToKey": "quaerat"
 }
 ```
 

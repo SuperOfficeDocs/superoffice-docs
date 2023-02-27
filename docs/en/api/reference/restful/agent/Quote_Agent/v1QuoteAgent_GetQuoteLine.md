@@ -124,7 +124,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 751
+  "QuoteLineId": 1002
 }
 ```
 
@@ -135,88 +135,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 772,
-  "ERPQuoteLineKey": "natus",
-  "QuoteAlternativeId": 875,
-  "ERPProductKey": "nihil",
+  "QuoteLineId": 129,
+  "ERPQuoteLineKey": "quia",
+  "QuoteAlternativeId": 505,
+  "ERPProductKey": "at",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 22947.148,
-  "DeliveredQuantity": 12921.482,
-  "Rank": 102,
-  "Name": "Dietrich-Herman",
-  "Description": "User-centric secondary utilisation",
-  "Code": "praesentium",
-  "QuantityUnit": "ut",
-  "PriceUnit": "atque",
-  "ItemNumber": "1994262",
+  "Quantity": 17089.702,
+  "DeliveredQuantity": 10263.85,
+  "Rank": 7,
+  "Name": "Green Group",
+  "Description": "Automated exuding pricing structure",
+  "Code": "laboriosam",
+  "QuantityUnit": "quas",
+  "PriceUnit": "pariatur",
+  "ItemNumber": "365288",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "libero",
-  "ProductTypeKey": "voluptate",
-  "Supplier": "eos",
-  "SupplierCode": "ut",
-  "Thumbnail": "ratione",
-  "VATInfo": "dolores",
-  "VAT": 27641.879999999997,
-  "UnitCost": 28980.097999999998,
-  "UnitMinimumPrice": 26338.136,
-  "UnitListPrice": 3845.4179999999997,
+  "ProductFamilyKey": "laboriosam",
+  "ProductTypeKey": "ea",
+  "Supplier": "similique",
+  "SupplierCode": "cupiditate",
+  "Thumbnail": "fugiat",
+  "VATInfo": "qui",
+  "VAT": 7910.2159999999994,
+  "UnitCost": 23135.188,
+  "UnitMinimumPrice": 9875.234,
+  "UnitListPrice": 8493.14,
   "ExtraInfo": [
     {
-      "Name": "Rowe-Streich",
-      "Value": "autem",
+      "Name": "Conn Group",
+      "Value": "consectetur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 181
+          "FieldType": "System.Int32",
+          "FieldLength": 695
         }
       }
     },
     {
-      "Name": "Rowe-Streich",
-      "Value": "autem",
+      "Name": "Conn Group",
+      "Value": "consectetur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 181
+          "FieldType": "System.Int32",
+          "FieldLength": 695
         }
       }
     }
   ],
-  "RawExtraInfo": "nihil",
-  "IsSubscription": false,
-  "SubscriptionUnit": "omnis",
-  "SubscriptionQuantity": 1021.684,
-  "SubscriptionStart": "2005-02-25T11:22:38.9458129+01:00",
-  "ERPDiscountPercent": 1595.206,
-  "ERPDiscountAmount": 31130.021999999997,
-  "DiscountPercent": 29628.836,
-  "DiscountAmount": 28400.307999999997,
+  "RawExtraInfo": "ipsam",
+  "IsSubscription": true,
+  "SubscriptionUnit": "fuga",
+  "SubscriptionQuantity": 30587.84,
+  "SubscriptionStart": "2014-06-30T14:19:04.0469597+02:00",
+  "ERPDiscountPercent": 24254.025999999998,
+  "ERPDiscountAmount": 5324.666,
+  "DiscountPercent": 15767.153999999999,
+  "DiscountAmount": 6017.28,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 20073.27,
-  "EarningAmount": 10505.168,
-  "SubTotal": 9298.578,
-  "TotalPrice": 2964.764,
-  "Rights": "iusto",
-  "Rule": "officia",
-  "ExtraField1": "qui",
-  "ExtraField2": "non",
-  "ExtraField3": "omnis",
-  "ExtraField4": "eaque",
-  "ExtraField5": "maiores",
+  "EarningPercent": 23514.402,
+  "EarningAmount": 25990.262,
+  "SubTotal": 8317.636,
+  "TotalPrice": 1488.6499999999999,
+  "Rights": "rerum",
+  "Rule": "repellat",
+  "ExtraField1": "ratione",
+  "ExtraField2": "quia",
+  "ExtraField3": "nihil",
+  "ExtraField4": "eveniet",
+  "ExtraField5": "voluptatum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 575
+      "FieldLength": 400
     }
   }
 }

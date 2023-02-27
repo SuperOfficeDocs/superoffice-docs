@@ -82,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Torphy LLC",
-  "IncludeDeleted": true
+  "UdListDefinitionName": "Ebert-Mann",
+  "IncludeDeleted": false
 }
 ```
 
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 833,
-    "Name": "Conn Inc and Sons",
-    "Tooltip": "sunt",
-    "Deleted": false,
-    "UdListDefinitionId": 159,
-    "Rank": 648,
+    "Id": 965,
+    "Name": "Wehner Inc and Sons",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 30,
+    "Rank": 499,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 714
+        "FieldLength": 568
       }
     }
   }

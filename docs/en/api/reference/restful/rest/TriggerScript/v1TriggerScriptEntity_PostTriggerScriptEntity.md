@@ -100,16 +100,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 431,
-  "Name": "Abernathy-Medhurst",
+  "ScreenChooserId": 609,
+  "Name": "Witting-Hintz",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "totam",
-  "Source": "assumenda",
-  "Registered": "2015-12-13T11:22:45.3661887+01:00",
-  "RegisteredAssociateId": 676,
-  "Updated": "2008-07-18T11:22:45.3661887+02:00",
-  "UpdatedAssociateId": 52
+  "UniqueIdentifier": "est",
+  "Source": "minima",
+  "Registered": "2004-03-27T14:19:10.912356+01:00",
+  "RegisteredAssociateId": 219,
+  "Updated": "2009-12-23T14:19:10.912356+01:00",
+  "UpdatedAssociateId": 183
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 536,
-  "Name": "Koss-Labadie",
+  "ScreenChooserId": 321,
+  "Name": "O'Connell Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "velit",
-  "Source": "perspiciatis",
-  "Registered": "2020-04-21T11:22:45.3661887+02:00",
-  "RegisteredAssociateId": 754,
-  "Updated": "2012-12-27T11:22:45.3661887+01:00",
-  "UpdatedAssociateId": 889,
+  "UniqueIdentifier": "in",
+  "Source": "ipsum",
+  "Registered": "2011-01-08T14:19:10.912356+01:00",
+  "RegisteredAssociateId": 297,
+  "Updated": "2015-12-05T14:19:10.912356+01:00",
+  "UpdatedAssociateId": 283,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 882
+      "FieldLength": 62
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -89,7 +89,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,73 +99,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 30,
-  "ERPProductKey": "eligendi",
-  "ERPPriceListKey": "non",
-  "Name": "Bogisich, Gusikowski and Hauck",
-  "Description": "Multi-tiered discrete approach",
-  "Code": "et",
-  "PriceUnit": "ad",
-  "QuantityUnit": "asperiores",
-  "IsSubscription": false,
-  "SubscriptionUnit": "repudiandae",
-  "DefaultSubscriptionQuantity": 7997.968,
-  "ItemNumber": "973519",
+  "ProductId": 690,
+  "ERPProductKey": "inventore",
+  "ERPPriceListKey": "et",
+  "Name": "Hessel, Sanford and Conn",
+  "Description": "Programmable logistical challenge",
+  "Code": "delectus",
+  "PriceUnit": "dolorem",
+  "QuantityUnit": "ad",
+  "IsSubscription": true,
+  "SubscriptionUnit": "iusto",
+  "DefaultSubscriptionQuantity": 18308.827999999998,
+  "ItemNumber": "853234",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "consectetur",
-  "ProductTypeKey": "eaque",
-  "VAT": 25780.284,
-  "VATInfo": "nemo",
-  "UnitCost": 12639.422,
-  "UnitMinimumPrice": 10492.632,
-  "UnitListPrice": 13200.408,
-  "InAssortment": false,
-  "Supplier": "eos",
-  "SupplierCode": "nihil",
-  "Rights": "placeat",
-  "Rule": "voluptatibus",
+  "ProductFamilyKey": "aut",
+  "ProductTypeKey": "omnis",
+  "VAT": 9975.521999999999,
+  "VATInfo": "ut",
+  "UnitCost": 9351.856,
+  "UnitMinimumPrice": 23204.136,
+  "UnitListPrice": 2447.654,
+  "InAssortment": true,
+  "Supplier": "aut",
+  "SupplierCode": "et",
+  "Rights": "eos",
+  "Rule": "totam",
   "ExtraInfo": [
     {
-      "Name": "Jewess LLC",
-      "Value": "commodi",
+      "Name": "Glover, Schaefer and Renner",
+      "Value": "quae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 344
+          "FieldLength": 394
         }
       }
     },
     {
-      "Name": "Jewess LLC",
-      "Value": "commodi",
+      "Name": "Glover, Schaefer and Renner",
+      "Value": "quae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 344
+          "FieldLength": 394
         }
       }
     }
   ],
-  "RawExtraInfo": "in",
-  "ExtraField1": "esse",
-  "ExtraField2": "voluptatum",
-  "ExtraField3": "quasi",
-  "ExtraField4": "quam",
-  "ExtraField5": "earum",
-  "InStock": 30418.604,
+  "RawExtraInfo": "sapiente",
+  "ExtraField1": "laboriosam",
+  "ExtraField2": "soluta",
+  "ExtraField3": "corporis",
+  "ExtraField4": "facilis",
+  "ExtraField5": "eos",
+  "InStock": 11207.184,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 384
+      "FieldLength": 903
     }
   }
 }

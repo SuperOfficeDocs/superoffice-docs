@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 300,
-    "Name": "Wyman Group",
-    "ToolTip": "Illo quo autem et reprehenderit.",
-    "Deleted": false,
-    "Rank": 914,
-    "Type": "consectetur",
-    "ColorBlock": 386,
-    "IconHint": "suscipit",
-    "Selected": false,
-    "LastChanged": "2002-10-31T11:22:46.1941157+01:00",
+    "Id": 399,
+    "Name": "Jast, Sauer and Kemmer",
+    "ToolTip": "Voluptatum sit perspiciatis omnis natus omnis id ratione.",
+    "Deleted": true,
+    "Rank": 342,
+    "Type": "in",
+    "ColorBlock": 959,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2016-04-18T14:19:11.6120888+02:00",
     "ChildItems": [
       {
-        "Id": 382,
-        "Name": "Ondricka LLC",
-        "ToolTip": "Quod voluptate inventore.",
+        "Id": 466,
+        "Name": "Bradtke Group",
+        "ToolTip": "Quia labore nihil.",
         "Deleted": false,
-        "Rank": 9,
-        "Type": "unde",
-        "ColorBlock": 793,
-        "IconHint": "voluptates",
-        "Selected": false,
-        "LastChanged": "2011-09-17T11:22:46.1941157+02:00",
+        "Rank": 584,
+        "Type": "labore",
+        "ColorBlock": 508,
+        "IconHint": "debitis",
+        "Selected": true,
+        "LastChanged": "2015-03-13T14:19:11.6120888+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Mr. Leora Reinger"
+        "ExtraInfo": "ducimus",
+        "StyleHint": "asperiores",
+        "Hidden": true,
+        "FullName": "Karolann Reynolds I"
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "cumque",
+    "ExtraInfo": "est",
+    "StyleHint": "sapiente",
     "Hidden": false,
-    "FullName": "Dr. Connie Elmore Cartwright"
+    "FullName": "Aubree Fisher"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 568,
-    "Name": "Sauer LLC",
-    "ToolTip": "Temporibus in et itaque laborum et veniam ut.",
-    "Deleted": true,
-    "Rank": 940,
-    "Type": "aliquam",
-    "ColorBlock": 833,
-    "IconHint": "perferendis",
+    "Id": 268,
+    "Name": "Rempel-Bahringer",
+    "ToolTip": "Unde sint natus rerum in ut.",
+    "Deleted": false,
+    "Rank": 778,
+    "Type": "non",
+    "ColorBlock": 202,
+    "IconHint": "minima",
     "Selected": false,
-    "LastChanged": "1995-09-15T11:22:46.1941157+02:00",
+    "LastChanged": "2009-08-20T14:19:11.6120888+02:00",
     "ChildItems": [
       {
-        "Id": 234,
-        "Name": "Powlowski, Gutmann and Bernhard",
-        "ToolTip": "Nostrum qui voluptates adipisci sunt velit.",
-        "Deleted": true,
-        "Rank": 207,
-        "Type": "dicta",
-        "ColorBlock": 812,
-        "IconHint": "voluptate",
+        "Id": 787,
+        "Name": "Renner, Gulgowski and Wehner",
+        "ToolTip": "Quisquam mollitia.",
+        "Deleted": false,
+        "Rank": 304,
+        "Type": "cumque",
+        "ColorBlock": 689,
+        "IconHint": "praesentium",
         "Selected": true,
-        "LastChanged": "1996-09-09T11:22:46.1941157+02:00",
+        "LastChanged": "1998-07-31T14:19:11.6120888+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "quidem",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Talia Gleichner",
+        "FullName": "Neha Tillman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 476
+            "FieldType": "System.String",
+            "FieldLength": 561
           }
         }
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "quo",
-    "Hidden": true,
-    "FullName": "Miss Theron Elnora Huels DDS",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "consequuntur",
+    "Hidden": false,
+    "FullName": "Alessia Hermiston V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 127
+        "FieldLength": 379
       }
     }
   }

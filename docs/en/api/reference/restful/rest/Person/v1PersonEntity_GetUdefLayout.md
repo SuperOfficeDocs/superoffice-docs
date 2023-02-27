@@ -89,7 +89,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 717,
-    "ColumnId": 315,
-    "FieldDefault": "asperiores",
-    "FieldHeight": 885,
-    "FieldLabel": "blanditiis",
-    "FieldLeft": 818,
-    "FieldTop": 945,
+    "UDefFieldId": 22,
+    "ColumnId": 393,
+    "FieldDefault": "beatae",
+    "FieldHeight": 72,
+    "FieldLabel": "assumenda",
+    "FieldLeft": 132,
+    "FieldTop": 564,
     "FieldType": "Checkbox",
-    "FieldWidth": 727,
-    "FormatMask": "aliquid",
+    "FieldWidth": 911,
+    "FormatMask": "minima",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 56,
-    "LabelLeft": 170,
-    "LabelTop": 330,
-    "LabelWidth": 915,
-    "LastVersionId": 468,
-    "ListTableId": 705,
+    "IsIndexed": false,
+    "LabelHeight": 841,
+    "LabelLeft": 609,
+    "LabelTop": 778,
+    "LabelWidth": 21,
+    "LastVersionId": 813,
+    "ListTableId": 699,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 243,
-    "ProgId": "distinctio",
+    "Page1LineNo": 695,
+    "ProgId": "culpa",
     "IsReadOnly": false,
-    "ShortLabel": "magni",
-    "TabOrder": 957,
-    "TextLength": 450,
-    "Tooltip": "id",
-    "UdefIdentity": 441,
-    "UDListDefinitionId": 60,
+    "ShortLabel": "voluptatem",
+    "TabOrder": 794,
+    "TextLength": 301,
+    "Tooltip": "voluptas",
+    "UdefIdentity": 926,
+    "UDListDefinitionId": 746,
     "Justification": "Center",
-    "Version": 661,
-    "TemplateVariableName": "Hammes-Cummings",
-    "HasBeenPublished": false,
-    "MdoListName": "Ankunding-Muller",
+    "Version": 746,
+    "TemplateVariableName": "Roberts LLC",
+    "HasBeenPublished": true,
+    "MdoListName": "Turcotte LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 484
+        "FieldType": "System.String",
+        "FieldLength": 617
       }
     }
   }

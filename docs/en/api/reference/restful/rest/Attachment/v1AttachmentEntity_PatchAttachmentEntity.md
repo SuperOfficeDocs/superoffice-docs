@@ -112,18 +112,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "amet",
+    "path": "fuga",
     "value": {}
   },
   {
     "op": "add",
-    "path": "amet",
+    "path": "fuga",
     "value": {}
   }
 ]
@@ -136,18 +136,18 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 968,
-  "Name": "Terry, Mosciski and Schimmel",
-  "ContentType": "esse",
-  "AttSize": 433,
+  "AttachmentId": 11,
+  "Name": "Ondricka, Herzog and Ryan",
+  "ContentType": "quam",
+  "AttSize": 674,
   "InlineImage": false,
-  "ContentId": "saepe",
+  "ContentId": "harum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 125
+      "FieldLength": 703
     }
   },
   "_Links": {

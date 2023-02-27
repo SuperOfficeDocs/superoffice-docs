@@ -70,14 +70,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCsProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "voluptatem",
-  "ProgramName": "Goodwin-Hoeger",
-  "Action": "adipisci",
-  "ExtraParameters": "molestias"
+  "Language": "quia",
+  "ProgramName": "Wolf, Krajcik and Reinger",
+  "Action": "ex",
+  "ExtraParameters": "exercitationem"
 }
 ```
 

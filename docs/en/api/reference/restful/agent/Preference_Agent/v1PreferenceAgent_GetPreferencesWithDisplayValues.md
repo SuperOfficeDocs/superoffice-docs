@@ -88,12 +88,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "ut",
-      "Key": "voluptatem"
+      "Section": "similique",
+      "Key": "fugit"
     },
     {
-      "Section": "ut",
-      "Key": "voluptatem"
+      "Section": "similique",
+      "Key": "fugit"
     }
   ]
 }
@@ -108,22 +108,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "quidem",
+    "RawValue": "velit",
     "Specification": null,
-    "DisplayValue": "consectetur",
-    "DisplayTooltip": "et",
+    "DisplayValue": "sit",
+    "DisplayTooltip": "eius",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 387,
-    "PrefDescId": 387,
-    "TableName": "Dicki, Olson and Heidenreich",
-    "UserPreferenceId": 583,
+    "TargetId": 263,
+    "PrefDescId": 981,
+    "TableName": "Kemmer, Blanda and Lynch",
+    "UserPreferenceId": 150,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 253
+        "FieldLength": 541
       }
     }
   }

@@ -25,7 +25,7 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=734
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=866
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,31 +94,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Sanford, Hansen and Kessler",
-  "Comment": "accusamus",
-  "StakeholderRoleId": 859,
-  "CountryId": 420,
-  "PersonId": 450,
-  "EmailDescription": "jess@towne.co.uk",
-  "EmailId": 107,
-  "EmailAddress": "levi.bechtelar@kleincrist.co.uk",
-  "PhoneId": 332,
-  "ContactName": "Kub-Konopelski",
-  "ContactId": 849,
-  "SaleId": 739,
-  "Mrmrs": "qui",
-  "Firstname": "Scot",
-  "MiddleName": "Sipes-Turner",
-  "Lastname": "Rowe",
-  "SaleStakeholderId": 618,
-  "Rank": 271,
-  "Phone": "580.265.7057",
+  "StakeholderRoleName": "Crona-Schoen",
+  "Comment": "nobis",
+  "StakeholderRoleId": 131,
+  "CountryId": 949,
+  "PersonId": 167,
+  "EmailDescription": "camron@roobcollins.com",
+  "EmailId": 171,
+  "EmailAddress": "isabella_kuhic@weimannstark.co.uk",
+  "PhoneId": 136,
+  "ContactName": "Predovic-Dooley",
+  "ContactId": 332,
+  "SaleId": 62,
+  "Mrmrs": "voluptatem",
+  "Firstname": "Marquis",
+  "MiddleName": "Ferry-Howell",
+  "Lastname": "Rippin",
+  "SaleStakeholderId": 457,
+  "Rank": 275,
+  "Phone": "275.633.8185 x2428",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 538
+      "FieldType": "System.String",
+      "FieldLength": 703
     }
   }
 }

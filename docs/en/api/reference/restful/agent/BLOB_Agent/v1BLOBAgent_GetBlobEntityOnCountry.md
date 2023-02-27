@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 80
+  "CountryId": 333
 }
 ```
 
@@ -99,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 465,
-  "BlobSize": 637,
-  "Description": "Right-sized user-facing definition",
-  "ExtraInfo": "ullam",
+  "BlobId": 609,
+  "BlobSize": 986,
+  "Description": "Quality-focused logistical Graphic Interface",
+  "ExtraInfo": "quo",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "est",
-  "OriginalSize": 56,
-  "CreatedDate": "2000-07-12T11:22:37.4617868+02:00",
-  "UpdatedDate": "2022-02-27T11:22:37.4617868+01:00",
+  "IsZipped": true,
+  "MimeType": "expedita",
+  "OriginalSize": 387,
+  "CreatedDate": "2003-08-16T14:19:02.7750538+02:00",
+  "UpdatedDate": "2023-01-12T14:19:02.7750538+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "qui",
+  "ConceptualType": "aperiam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 285
+      "FieldLength": 917
     }
   }
 }

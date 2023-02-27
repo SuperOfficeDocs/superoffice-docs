@@ -24,7 +24,7 @@ Deletes the Product
 | ProductId | int32 | **Required** The id of the Product to be deleted. |
 
 ```http
-POST /api/v1/Agents/Quote/DeleteProduct?ProductId=887
+POST /api/v1/Agents/Quote/DeleteProduct?ProductId=571
 ```
 
 

@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 846,
-    "Name": "Harber Inc and Sons",
-    "ToolTip": "Et magni autem et.",
+    "Id": 683,
+    "Name": "Koelpin, Goodwin and Bernhard",
+    "ToolTip": "Voluptatem quasi quibusdam.",
     "Deleted": false,
-    "Rank": 664,
-    "Type": "maiores",
-    "ColorBlock": 990,
-    "IconHint": "et",
+    "Rank": 884,
+    "Type": "mollitia",
+    "ColorBlock": 409,
+    "IconHint": "saepe",
     "Selected": false,
-    "LastChanged": "1997-11-03T11:22:46.0691442+01:00",
+    "LastChanged": "2010-12-12T14:19:11.3992772+01:00",
     "ChildItems": [
       {
-        "Id": 147,
-        "Name": "Reinger, Fritsch and Ullrich",
-        "ToolTip": "Et eum qui dignissimos cupiditate perferendis sunt cupiditate.",
+        "Id": 270,
+        "Name": "Kirlin, Hodkiewicz and Hettinger",
+        "ToolTip": "Sint omnis distinctio quod quia.",
         "Deleted": false,
-        "Rank": 470,
-        "Type": "maxime",
-        "ColorBlock": 221,
-        "IconHint": "veniam",
-        "Selected": false,
-        "LastChanged": "2005-04-17T11:22:46.0691442+02:00",
+        "Rank": 643,
+        "Type": "perspiciatis",
+        "ColorBlock": 397,
+        "IconHint": "doloribus",
+        "Selected": true,
+        "LastChanged": "2015-06-16T14:19:11.3992772+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "fugiat",
-        "Hidden": true,
-        "FullName": "Shawn Marquardt",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "fugit",
+        "Hidden": false,
+        "FullName": "Dulce Kihn V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 843
+            "FieldLength": 296
           }
         }
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "ea",
+    "ExtraInfo": "amet",
+    "StyleHint": "numquam",
     "Hidden": true,
-    "FullName": "Alessandra Nick Gulgowski MD",
+    "FullName": "Oceane Satterfield",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 295
+        "FieldType": "System.Int32",
+        "FieldLength": 732
       }
     }
   }

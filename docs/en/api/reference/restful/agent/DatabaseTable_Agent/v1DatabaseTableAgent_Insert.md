@@ -81,13 +81,13 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schultz-Abshire",
+  "TableName": "Will Group",
   "Columns": [
-    "aut",
+    "voluptas",
     "qui"
   ],
   "Data": [
@@ -109,40 +109,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "corporis",
-  "Inserts": 593,
-  "Updates": 779,
-  "Deletes": 551,
+  "Message": "odio",
+  "Inserts": 264,
+  "Updates": 67,
+  "Deletes": 556,
   "RowStatus": [
     {
-      "PrimaryKey": 201,
+      "PrimaryKey": 491,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "eaque",
-        "nam"
+        "labore",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 70
+          "FieldLength": 757
         }
       }
     },
     {
-      "PrimaryKey": 201,
+      "PrimaryKey": 491,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "eaque",
-        "nam"
+        "labore",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 70
+          "FieldLength": 757
         }
       }
     }
@@ -151,8 +151,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 796
+      "FieldType": "System.Int32",
+      "FieldLength": 150
     }
   }
 }

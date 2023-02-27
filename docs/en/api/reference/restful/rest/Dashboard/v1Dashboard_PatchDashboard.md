@@ -111,18 +111,18 @@ Dashboard  updated.
 PATCH /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "cum",
+    "path": "alias",
     "value": {}
   },
   {
     "op": "add",
-    "path": "cum",
+    "path": "alias",
     "value": {}
   }
 ]
@@ -135,22 +135,22 @@ HTTP/1.1 200 Dashboard  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 518,
-  "AssociateId": 564,
-  "Caption": "voluptatibus",
+  "DashboardId": 658,
+  "AssociateId": 285,
+  "Caption": "beatae",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 763,
-      "Caption": "ut",
-      "Description": "Multi-tiered local standardization",
-      "ChartName": "Gorczany-Denesik",
-      "ChartId": "hic",
+      "DashboardTileId": 390,
+      "Caption": "soluta",
+      "Description": "Profit-focused mobile attitude",
+      "ChartName": "Bechtelar-Steuber",
+      "ChartId": "perspiciatis",
       "IsDefault": false,
-      "AssociateId": 571,
-      "GroupId": 719,
-      "SelectionId": 666,
-      "Config": "doloribus",
+      "AssociateId": 149,
+      "GroupId": 775,
+      "SelectionId": 32,
+      "Config": "et",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -165,8 +165,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 831
+          "FieldType": "System.Int32",
+          "FieldLength": 200
         }
       }
     }
@@ -175,13 +175,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldType": "System.String",
+      "FieldLength": 644
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

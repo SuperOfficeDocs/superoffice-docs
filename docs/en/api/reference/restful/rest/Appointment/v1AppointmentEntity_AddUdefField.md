@@ -97,7 +97,7 @@ OK
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 54,
-  "ColumnId": 309,
-  "FieldDefault": "et",
-  "FieldHeight": 698,
-  "FieldLabel": "iusto",
-  "FieldLeft": 584,
-  "FieldTop": 548,
+  "UDefFieldId": 565,
+  "ColumnId": 518,
+  "FieldDefault": "aut",
+  "FieldHeight": 479,
+  "FieldLabel": "voluptas",
+  "FieldLeft": 378,
+  "FieldTop": 136,
   "FieldType": "Checkbox",
-  "FieldWidth": 419,
-  "FormatMask": "aliquam",
+  "FieldWidth": 797,
+  "FormatMask": "libero",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 41,
-  "LabelLeft": 657,
-  "LabelTop": 226,
-  "LabelWidth": 920,
-  "LastVersionId": 363,
-  "ListTableId": 625,
-  "IsMandatory": false,
+  "IsIndexed": false,
+  "LabelHeight": 848,
+  "LabelLeft": 137,
+  "LabelTop": 138,
+  "LabelWidth": 205,
+  "LastVersionId": 780,
+  "ListTableId": 855,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 121,
-  "ProgId": "veritatis",
+  "Page1LineNo": 758,
+  "ProgId": "placeat",
   "IsReadOnly": false,
-  "ShortLabel": "rerum",
-  "TabOrder": 701,
-  "TextLength": 168,
-  "Tooltip": "sed",
-  "UdefIdentity": 412,
-  "UDListDefinitionId": 246,
+  "ShortLabel": "tempore",
+  "TabOrder": 926,
+  "TextLength": 458,
+  "Tooltip": "beatae",
+  "UdefIdentity": 60,
+  "UDListDefinitionId": 926,
   "Justification": "Center",
-  "Version": 59,
-  "TemplateVariableName": "Rippin Group",
+  "Version": 190,
+  "TemplateVariableName": "O'Connell Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Hackett-Zulauf",
+  "MdoListName": "Hermann, Mraz and Rowe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 315
+      "FieldType": "System.String",
+      "FieldLength": 500
     }
   }
 }

@@ -63,11 +63,11 @@ No Content
 POST /api/v1/Agents/Quote/ToggleProductInAssortment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 236
+  "ProductId": 760
 }
 ```
 

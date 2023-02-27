@@ -78,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 176,
-  "Name": "Gaylord Group",
-  "Tooltip": "voluptatum",
-  "Deleted": false,
-  "Rank": 653,
-  "UdListDefinitionId": 646
+  "HeadingId": 190,
+  "Name": "Ruecker Inc and Sons",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "Rank": 263,
+  "UdListDefinitionId": 955
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 698,
-  "Name": "Corkery Group",
-  "Tooltip": "laudantium",
-  "Deleted": false,
-  "Rank": 507,
-  "UdListDefinitionId": 311,
+  "HeadingId": 711,
+  "Name": "Gleichner-Fisher",
+  "Tooltip": "ex",
+  "Deleted": true,
+  "Rank": 967,
+  "UdListDefinitionId": 393,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 120
+      "FieldType": "System.Int32",
+      "FieldLength": 530
     }
   }
 }

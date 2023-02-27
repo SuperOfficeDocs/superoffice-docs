@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 466,
-    "Name": "Wintheiser Group",
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "Rank": 429,
-    "UdListDefinitionId": 89
+    "HeadingId": 148,
+    "Name": "Price-McGlynn",
+    "Tooltip": "eaque",
+    "Deleted": false,
+    "Rank": 447,
+    "UdListDefinitionId": 918
   },
   {
-    "HeadingId": 466,
-    "Name": "Wintheiser Group",
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "Rank": 429,
-    "UdListDefinitionId": 89
+    "HeadingId": 148,
+    "Name": "Price-McGlynn",
+    "Tooltip": "eaque",
+    "Deleted": false,
+    "Rank": 447,
+    "UdListDefinitionId": 918
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 879,
-    "Name": "West, Funk and Champlin",
-    "Tooltip": "amet",
+    "HeadingId": 818,
+    "Name": "Mosciski Group",
+    "Tooltip": "illum",
     "Deleted": false,
-    "Rank": 338,
-    "UdListDefinitionId": 38,
+    "Rank": 49,
+    "UdListDefinitionId": 848,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 590
+        "FieldLength": 26
       }
     }
   }

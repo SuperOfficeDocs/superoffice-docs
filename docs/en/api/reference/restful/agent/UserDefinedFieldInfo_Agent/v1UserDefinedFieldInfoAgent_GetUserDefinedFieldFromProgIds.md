@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "sunt",
-    "iure"
+    "provident",
+    "exercitationem"
   ],
   "OwnerType": "Appointment"
 }
@@ -128,46 +128,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 411,
-    "ColumnId": 722,
-    "FieldDefault": "reprehenderit",
-    "FieldHeight": 413,
-    "FieldLabel": "at",
-    "FieldLeft": 455,
-    "FieldTop": 171,
+    "UDefFieldId": 623,
+    "ColumnId": 298,
+    "FieldDefault": "deleniti",
+    "FieldHeight": 547,
+    "FieldLabel": "dolorum",
+    "FieldLeft": 465,
+    "FieldTop": 873,
     "FieldType": "Checkbox",
-    "FieldWidth": 258,
-    "FormatMask": "nemo",
-    "HideLabel": true,
+    "FieldWidth": 543,
+    "FormatMask": "sit",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 492,
-    "LabelLeft": 321,
-    "LabelTop": 191,
-    "LabelWidth": 787,
-    "LastVersionId": 592,
-    "ListTableId": 657,
+    "LabelHeight": 160,
+    "LabelLeft": 198,
+    "LabelTop": 108,
+    "LabelWidth": 375,
+    "LastVersionId": 642,
+    "ListTableId": 92,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 251,
-    "ProgId": "in",
+    "Page1LineNo": 53,
+    "ProgId": "voluptatem",
     "IsReadOnly": false,
-    "ShortLabel": "expedita",
-    "TabOrder": 37,
-    "TextLength": 497,
+    "ShortLabel": "soluta",
+    "TabOrder": 528,
+    "TextLength": 184,
     "Tooltip": "sunt",
-    "UdefIdentity": 900,
-    "UDListDefinitionId": 314,
+    "UdefIdentity": 754,
+    "UDListDefinitionId": 822,
     "Justification": "Center",
-    "Version": 941,
-    "TemplateVariableName": "Oberbrunner Group",
+    "Version": 610,
+    "TemplateVariableName": "Muller LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Schaefer-Steuber",
+    "MdoListName": "Murazik LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 64
+        "FieldLength": 808
       }
     }
   }

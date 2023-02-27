@@ -86,26 +86,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 762,
-  "Name": "Williamson, Rice and Mraz",
-  "Description": "Visionary motivating complexity",
-  "DeltaJson": "nihil",
+  "ConfigurableScreenDeltaId": 152,
+  "Name": "Walter Inc and Sons",
+  "Description": "Customizable assymetric service-desk",
+  "DeltaJson": "omnis",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
   "RecipeId": "et",
-  "UpdatedDate": "2011-11-26T11:22:37.6023765+01:00",
-  "CreatedDate": "2013-11-10T11:22:37.6023765+01:00",
+  "UpdatedDate": "1998-12-13T14:19:02.916778+01:00",
+  "CreatedDate": "2008-08-23T14:19:02.916778+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    809,
-    268
+    273,
+    453
   ],
-  "AppliesToKey": "quibusdam"
+  "AppliesToKey": "eos"
 }
 ```
 
@@ -116,28 +116,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 349,
-  "Name": "Rath-Gibson",
-  "Description": "Monitored context-sensitive Graphical User Interface",
-  "DeltaJson": "vel",
+  "ConfigurableScreenDeltaId": 720,
+  "Name": "Weissnat, Heller and Rohan",
+  "Description": "Seamless hybrid matrices",
+  "DeltaJson": "dolorem",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "et",
-  "UpdatedDate": "2002-08-01T11:22:37.6023765+02:00",
-  "CreatedDate": "2009-01-30T11:22:37.6023765+01:00",
+  "RecipeId": "reiciendis",
+  "UpdatedDate": "2004-04-28T14:19:02.916778+02:00",
+  "CreatedDate": "2013-05-22T14:19:02.916778+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    43,
-    1000
+    139,
+    989
   ],
-  "AppliesToKey": "dolores",
+  "AppliesToKey": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldType": "System.Int32",
+      "FieldLength": 852
     }
   }
 }

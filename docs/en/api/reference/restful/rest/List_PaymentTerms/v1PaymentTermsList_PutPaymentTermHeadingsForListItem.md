@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "Mitchell-Hintz",
-    "ToolTip": "Libero voluptas et aut explicabo.",
-    "Deleted": true,
-    "Rank": 32,
-    "Type": "eius",
-    "ColorBlock": 733,
-    "IconHint": "architecto",
+    "Id": 195,
+    "Name": "Yundt-Watsica",
+    "ToolTip": "Quos voluptatum eius tempora non non.",
+    "Deleted": false,
+    "Rank": 733,
+    "Type": "sint",
+    "ColorBlock": 201,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2016-12-13T11:22:45.9597902+01:00",
+    "LastChanged": "2021-12-05T14:19:11.305533+01:00",
     "ChildItems": [
       {
-        "Id": 296,
-        "Name": "Kozey-Runolfsdottir",
-        "ToolTip": "Nisi dolores sit.",
+        "Id": 413,
+        "Name": "Kling-Howell",
+        "ToolTip": "Perspiciatis pariatur qui tempore.",
         "Deleted": false,
-        "Rank": 55,
-        "Type": "vel",
-        "ColorBlock": 203,
-        "IconHint": "dignissimos",
+        "Rank": 604,
+        "Type": "sit",
+        "ColorBlock": 764,
+        "IconHint": "voluptas",
         "Selected": true,
-        "LastChanged": "2009-11-09T11:22:45.9597902+01:00",
+        "LastChanged": "2021-03-26T14:19:11.305533+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "ex",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Colten Pacocha"
+        "FullName": "Miss Micheal Zieme Sr."
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "quam",
+    "ExtraInfo": "architecto",
+    "StyleHint": "ipsum",
     "Hidden": false,
-    "FullName": "Miss Angel Rory Balistreri DDS"
+    "FullName": "Miss Alexane Zieme"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 25,
-    "Name": "Abernathy LLC",
-    "ToolTip": "Quasi in quia est consequatur.",
-    "Deleted": false,
-    "Rank": 774,
-    "Type": "nihil",
-    "ColorBlock": 218,
-    "IconHint": "eos",
+    "Id": 561,
+    "Name": "Boyle, Windler and Homenick",
+    "ToolTip": "Est aut.",
+    "Deleted": true,
+    "Rank": 760,
+    "Type": "voluptatem",
+    "ColorBlock": 307,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2002-06-08T11:22:45.9754127+02:00",
+    "LastChanged": "1997-11-26T14:19:11.305533+01:00",
     "ChildItems": [
       {
-        "Id": 945,
-        "Name": "Smith, Bauch and Kohler",
-        "ToolTip": "Qui voluptate soluta vero vel magnam eius.",
-        "Deleted": false,
-        "Rank": 54,
-        "Type": "harum",
-        "ColorBlock": 733,
-        "IconHint": "non",
+        "Id": 850,
+        "Name": "Hintz-Nolan",
+        "ToolTip": "Deleniti laborum officia et magni consectetur.",
+        "Deleted": true,
+        "Rank": 933,
+        "Type": "ea",
+        "ColorBlock": 740,
+        "IconHint": "sequi",
         "Selected": true,
-        "LastChanged": "2011-08-07T11:22:45.9754127+02:00",
+        "LastChanged": "2018-05-29T14:19:11.305533+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "commodi",
-        "Hidden": true,
-        "FullName": "Kitty Olson",
+        "ExtraInfo": "eum",
+        "StyleHint": "fuga",
+        "Hidden": false,
+        "FullName": "Kristina Torphy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 136
+            "FieldLength": 600
           }
         }
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Ms. Samantha Dena Abshire DDS",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "rerum",
+    "Hidden": false,
+    "FullName": "Harley Burdette Thiel V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 340
+        "FieldType": "System.Int32",
+        "FieldLength": 471
       }
     }
   }

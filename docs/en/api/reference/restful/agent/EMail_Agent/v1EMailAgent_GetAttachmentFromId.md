@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 256,
-  "AttachmentId": "sit"
+  "MailItemId": 468,
+  "AttachmentId": "et"
 }
 ```
 
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-channelled logistical methodology",
-  "Filename": "vel",
-  "Size": 722,
-  "Type": "libero",
-  "Encoding": "ut",
-  "Id": "fugit",
-  "Disposition": "perspiciatis",
+  "Description": "Exclusive composite definition",
+  "Filename": "deleniti",
+  "Size": 731,
+  "Type": "est",
+  "Encoding": "quas",
+  "Id": "qui",
+  "Disposition": "possimus",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 311
+      "FieldType": "System.String",
+      "FieldLength": 688
     }
   }
 }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 945,
-    "Name": "Heller Inc and Sons",
-    "ToolTip": "Repellat laborum.",
-    "Deleted": false,
-    "Rank": 228,
-    "Type": "aspernatur",
-    "ColorBlock": 936,
-    "IconHint": "veritatis",
-    "Selected": false,
-    "LastChanged": "2008-02-20T11:22:45.9597902+01:00",
+    "Id": 729,
+    "Name": "Graham Group",
+    "ToolTip": "Mollitia magni voluptas aspernatur odio.",
+    "Deleted": true,
+    "Rank": 214,
+    "Type": "quos",
+    "ColorBlock": 422,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2011-08-31T14:19:11.305533+02:00",
     "ChildItems": [
       {
-        "Id": 225,
-        "Name": "Jones, O'Connell and Cremin",
-        "ToolTip": "Eum voluptatem atque consequatur iste.",
+        "Id": 831,
+        "Name": "Braun Group",
+        "ToolTip": "In consequuntur ea quibusdam qui ut.",
         "Deleted": false,
-        "Rank": 82,
-        "Type": "qui",
-        "ColorBlock": 35,
-        "IconHint": "reprehenderit",
-        "Selected": false,
-        "LastChanged": "2017-04-22T11:22:45.9597902+02:00",
+        "Rank": 417,
+        "Type": "tenetur",
+        "ColorBlock": 433,
+        "IconHint": "quaerat",
+        "Selected": true,
+        "LastChanged": "2004-01-01T14:19:11.305533+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "voluptate",
-        "Hidden": true,
-        "FullName": "Jedidiah Kuhic",
+        "ExtraInfo": "dicta",
+        "StyleHint": "consequatur",
+        "Hidden": false,
+        "FullName": "Prof. Mose Reynolds PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 30
+            "FieldType": "System.Int32",
+            "FieldLength": 266
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "eum",
-    "Hidden": false,
-    "FullName": "Ms. Rafaela Glenda Reilly Jr.",
+    "ExtraInfo": "quis",
+    "StyleHint": "minima",
+    "Hidden": true,
+    "FullName": "Ms. Makayla Muller V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 104
+        "FieldLength": 908
       }
     }
   }

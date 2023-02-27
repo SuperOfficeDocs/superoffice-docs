@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 746,
-    "Name": "Koss Group",
-    "ToolTip": "Illo rerum.",
-    "Deleted": true,
-    "Rank": 970,
-    "Type": "voluptas",
-    "ColorBlock": 924,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2007-03-10T11:22:46.1784934+01:00",
+    "Id": 590,
+    "Name": "O'Reilly Group",
+    "ToolTip": "Aspernatur tempore aut aliquam nulla architecto rem.",
+    "Deleted": false,
+    "Rank": 243,
+    "Type": "et",
+    "ColorBlock": 77,
+    "IconHint": "ab",
+    "Selected": true,
+    "LastChanged": "2012-12-16T14:19:11.6120888+01:00",
     "ChildItems": [
       {
-        "Id": 114,
-        "Name": "Morissette-Larson",
-        "ToolTip": "Ea eaque optio ratione reprehenderit aut corporis sunt.",
-        "Deleted": true,
-        "Rank": 719,
-        "Type": "dicta",
-        "ColorBlock": 347,
-        "IconHint": "dolorem",
+        "Id": 869,
+        "Name": "Baumbach, Runolfsson and Weissnat",
+        "ToolTip": "Accusamus perspiciatis blanditiis sint ex possimus totam nesciunt.",
+        "Deleted": false,
+        "Rank": 837,
+        "Type": "corrupti",
+        "ColorBlock": 605,
+        "IconHint": "in",
         "Selected": false,
-        "LastChanged": "2013-02-20T11:22:46.1784934+01:00",
+        "LastChanged": "2016-12-05T14:19:11.6120888+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "velit",
+        "StyleHint": "deleniti",
         "Hidden": false,
-        "FullName": "Jadyn Ratke"
+        "FullName": "Luciano Rowe"
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "iste",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Alexzander Bode"
+    "FullName": "Idell Dare"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "Adams-Schiller",
-    "ToolTip": "Eum tempore consequatur ipsa aut tenetur et.",
-    "Deleted": false,
-    "Rank": 543,
-    "Type": "vitae",
-    "ColorBlock": 372,
-    "IconHint": "voluptatibus",
+    "Id": 595,
+    "Name": "Considine LLC",
+    "ToolTip": "Vitae quisquam incidunt saepe rem.",
+    "Deleted": true,
+    "Rank": 941,
+    "Type": "qui",
+    "ColorBlock": 685,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2013-08-01T11:22:46.1784934+02:00",
+    "LastChanged": "2004-01-31T14:19:11.6120888+01:00",
     "ChildItems": [
       {
-        "Id": 491,
-        "Name": "White, Morar and Kihn",
-        "ToolTip": "Dolores iusto voluptatem mollitia.",
+        "Id": 403,
+        "Name": "Flatley-Franecki",
+        "ToolTip": "Harum maxime voluptate qui iusto.",
         "Deleted": true,
-        "Rank": 303,
-        "Type": "qui",
-        "ColorBlock": 931,
-        "IconHint": "quas",
-        "Selected": true,
-        "LastChanged": "2013-07-11T11:22:46.1784934+02:00",
+        "Rank": 86,
+        "Type": "voluptatem",
+        "ColorBlock": 112,
+        "IconHint": "quisquam",
+        "Selected": false,
+        "LastChanged": "2006-05-27T14:19:11.6120888+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "voluptatibus",
-        "Hidden": true,
-        "FullName": "Carolyne Effertz",
+        "ExtraInfo": "saepe",
+        "StyleHint": "numquam",
+        "Hidden": false,
+        "FullName": "Rachel Dare",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 746
+            "FieldType": "System.String",
+            "FieldLength": 884
           }
         }
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "sed",
+    "ExtraInfo": "magni",
+    "StyleHint": "doloremque",
     "Hidden": false,
-    "FullName": "Shea Bode",
+    "FullName": "Arjun McLaughlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 425
+        "FieldType": "System.String",
+        "FieldLength": 384
       }
     }
   }

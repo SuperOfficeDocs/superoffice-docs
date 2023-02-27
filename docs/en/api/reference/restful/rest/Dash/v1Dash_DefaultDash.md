@@ -78,37 +78,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 908,
-  "UniqueId": "repellat",
-  "Name": "Zulauf-Vandervort",
-  "Description": "Vision-oriented attitude-oriented portal",
-  "AssociateId": 562,
-  "Columns": 639,
+  "DashboardId": 718,
+  "UniqueId": "maiores",
+  "Name": "Upton, Wehner and Dickinson",
+  "Description": "Self-enabling 3rd generation internet solution",
+  "AssociateId": 490,
+  "Columns": 680,
   "Theme": null,
-  "VisibleForAll": 804,
+  "VisibleForAll": 315,
   "VisibleForAssociates": [
-    415,
-    85
+    741,
+    729
   ],
   "VisibleForGroups": [
-    875,
-    866
+    796,
+    295
   ],
-  "PinForAll": 429,
+  "PinForAll": 148,
   "PinForAssociates": [
-    543,
-    163
+    437,
+    466
   ],
   "PinForGroups": [
-    172,
-    429
+    476,
+    942
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 613
+      "FieldType": "System.Int32",
+      "FieldLength": 792
     }
   }
 }

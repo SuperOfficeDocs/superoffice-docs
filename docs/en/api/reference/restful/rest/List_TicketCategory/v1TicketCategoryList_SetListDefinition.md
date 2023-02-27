@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 108,
-  "Name": "Graham-Kassulke",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 629,
+  "Id": 22,
+  "Name": "Hansen, Wisozk and Hermiston",
+  "Tooltip": "eos",
+  "Deleted": true,
+  "Rank": 460,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
+  "ListType": "nostrum",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 97,
-  "Name": "Thompson Group",
-  "Tooltip": "quis",
+  "Id": 511,
+  "Name": "Johns Inc and Sons",
+  "Tooltip": "adipisci",
   "Deleted": false,
-  "Rank": 168,
+  "Rank": 826,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "consectetur",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptas",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 399
+      "FieldType": "System.String",
+      "FieldLength": 933
     }
   }
 }

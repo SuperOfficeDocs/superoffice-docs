@@ -80,39 +80,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 261,
-  "Name": "Beatty, Kozey and Douglas",
-  "Tooltip": "blanditiis",
-  "Rank": 777,
+  "ProjTypeId": 677,
+  "Name": "Keeling Group",
+  "Tooltip": "officiis",
+  "Rank": 384,
   "DurationUnit": "Century",
-  "ProjectDuration": 471,
+  "ProjectDuration": 324,
   "Deleted": false,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 528,
-      "Name": "Jerde-Emard",
-      "ToolTip": "Enim quas.",
+      "Id": 701,
+      "Name": "Nader-Ziemann",
+      "ToolTip": "Autem quae nisi et quam quidem.",
       "Deleted": true,
-      "Rank": 217,
-      "Type": "voluptas",
-      "ColorBlock": 101,
-      "IconHint": "deleniti",
-      "Selected": false,
-      "LastChanged": "2006-08-23T11:22:38.5396587+02:00",
+      "Rank": 553,
+      "Type": "ut",
+      "ColorBlock": 456,
+      "IconHint": "numquam",
+      "Selected": true,
+      "LastChanged": "2007-04-02T14:19:03.6863742+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "magnam",
-      "StyleHint": "asperiores",
+      "ExtraInfo": "dicta",
+      "StyleHint": "quis",
       "Hidden": false,
-      "FullName": "Addie Hermann"
+      "FullName": "Burnice Balistreri"
     }
   ]
 }
@@ -125,41 +125,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 48,
-  "Name": "Carter-Nienow",
-  "Tooltip": "voluptas",
-  "Rank": 764,
+  "ProjTypeId": 695,
+  "Name": "Boyer Inc and Sons",
+  "Tooltip": "autem",
+  "Rank": 886,
   "DurationUnit": "Century",
-  "ProjectDuration": 927,
-  "Deleted": false,
+  "ProjectDuration": 951,
+  "Deleted": true,
   "HasGuide": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 805,
-      "Name": "Schmitt-Kshlerin",
-      "ToolTip": "Culpa non.",
+      "Id": 612,
+      "Name": "Wolf-Daniel",
+      "ToolTip": "Vel beatae qui aut voluptas quaerat quisquam.",
       "Deleted": false,
-      "Rank": 200,
-      "Type": "ea",
-      "ColorBlock": 838,
-      "IconHint": "modi",
-      "Selected": true,
-      "LastChanged": "2019-02-23T11:22:38.5396587+01:00",
+      "Rank": 560,
+      "Type": "voluptatem",
+      "ColorBlock": 951,
+      "IconHint": "eaque",
+      "Selected": false,
+      "LastChanged": "2020-05-23T14:19:03.6863742+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "doloremque",
-      "StyleHint": "quibusdam",
-      "Hidden": true,
-      "FullName": "Matilde Yost",
+      "ExtraInfo": "iure",
+      "StyleHint": "ratione",
+      "Hidden": false,
+      "FullName": "Garett Yost DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 908
+          "FieldLength": 290
         }
       }
     }
@@ -168,8 +168,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 231
+      "FieldType": "System.String",
+      "FieldLength": 797
     }
   }
 }

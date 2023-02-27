@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 797,
-    "Name": "Dach Inc and Sons",
-    "Tooltip": "dolorum",
+    "HeadingId": 430,
+    "Name": "Lesch-Bauch",
+    "Tooltip": "earum",
     "Deleted": false,
-    "Rank": 233,
-    "UdListDefinitionId": 146,
+    "Rank": 330,
+    "UdListDefinitionId": 818,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 745
+        "FieldType": "System.Int32",
+        "FieldLength": 880
       }
     }
   }

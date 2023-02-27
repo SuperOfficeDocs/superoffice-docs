@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Prohaska LLC"
+  "TableName": "O'Conner Group"
 }
 ```
 
@@ -94,41 +94,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "impedit",
-  "Inserts": 6,
-  "Updates": 28,
-  "Deletes": 608,
+  "Success": true,
+  "Message": "eum",
+  "Inserts": 503,
+  "Updates": 488,
+  "Deletes": 876,
   "RowStatus": [
     {
-      "PrimaryKey": 385,
+      "PrimaryKey": 760,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "nihil",
-        "culpa"
+        "dolorem",
+        "error"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 459
+          "FieldType": "System.Int32",
+          "FieldLength": 161
         }
       }
     },
     {
-      "PrimaryKey": 385,
+      "PrimaryKey": 760,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "nihil",
-        "culpa"
+        "dolorem",
+        "error"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 459
+          "FieldType": "System.Int32",
+          "FieldLength": 161
         }
       }
     }
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 765
+      "FieldType": "System.Int32",
+      "FieldLength": 755
     }
   }
 }

@@ -29,7 +29,7 @@ Change a AppointmentEntity user-defined field's type based on the prog-id or lab
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -113,46 +113,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 455,
-  "ColumnId": 406,
-  "FieldDefault": "doloribus",
-  "FieldHeight": 974,
-  "FieldLabel": "omnis",
-  "FieldLeft": 447,
-  "FieldTop": 768,
+  "UDefFieldId": 681,
+  "ColumnId": 822,
+  "FieldDefault": "eligendi",
+  "FieldHeight": 474,
+  "FieldLabel": "atque",
+  "FieldLeft": 381,
+  "FieldTop": 208,
   "FieldType": "Checkbox",
-  "FieldWidth": 169,
-  "FormatMask": "sit",
+  "FieldWidth": 941,
+  "FormatMask": "nesciunt",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 938,
-  "LabelLeft": 169,
-  "LabelTop": 372,
-  "LabelWidth": 444,
-  "LastVersionId": 324,
-  "ListTableId": 460,
+  "IsIndexed": true,
+  "LabelHeight": 132,
+  "LabelLeft": 594,
+  "LabelTop": 913,
+  "LabelWidth": 651,
+  "LastVersionId": 444,
+  "ListTableId": 501,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 923,
-  "ProgId": "nam",
+  "Page1LineNo": 916,
+  "ProgId": "debitis",
   "IsReadOnly": true,
-  "ShortLabel": "tenetur",
-  "TabOrder": 236,
-  "TextLength": 343,
-  "Tooltip": "officia",
-  "UdefIdentity": 390,
-  "UDListDefinitionId": 641,
+  "ShortLabel": "enim",
+  "TabOrder": 98,
+  "TextLength": 69,
+  "Tooltip": "ipsa",
+  "UdefIdentity": 515,
+  "UDListDefinitionId": 42,
   "Justification": "Center",
-  "Version": 80,
-  "TemplateVariableName": "Barton, McDermott and Cole",
-  "HasBeenPublished": true,
-  "MdoListName": "Schowalter, Rodriguez and Thiel",
+  "Version": 782,
+  "TemplateVariableName": "Vandervort-Legros",
+  "HasBeenPublished": false,
+  "MdoListName": "Von, Schultz and Cruickshank",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 71
+      "FieldType": "System.Int32",
+      "FieldLength": 906
     }
   }
 }

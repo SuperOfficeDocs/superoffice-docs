@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 806,
-  "Name": "Weissnat-Predovic",
-  "Tooltip": "nemo",
-  "Rank": 714,
-  "Rate": 30619.18,
-  "Units": 16259.192,
-  "Deleted": false,
+  "CurrencyId": 987,
+  "Name": "Simonis Group",
+  "Tooltip": "omnis",
+  "Rank": 307,
+  "Rate": 22727.768,
+  "Units": 20668.73,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 7
+      "FieldType": "System.Int32",
+      "FieldLength": 147
     }
   }
 }

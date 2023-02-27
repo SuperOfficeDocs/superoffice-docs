@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 827,
-  "Name": "Boehm Group",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "UdListDefinitionId": 955,
-  "Rank": 576
+  "Id": 541,
+  "Name": "Erdman, Lemke and Von",
+  "Tooltip": "provident",
+  "Deleted": false,
+  "UdListDefinitionId": 203,
+  "Rank": 134
 }
 ```
 
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 58,
-  "Name": "Nitzsche, Schmeler and Stroman",
-  "Tooltip": "laboriosam",
-  "Deleted": true,
-  "UdListDefinitionId": 284,
-  "Rank": 900,
+  "Name": "Wolf LLC",
+  "Tooltip": "reiciendis",
+  "Deleted": false,
+  "UdListDefinitionId": 690,
+  "Rank": 417,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 438
+      "FieldLength": 611
     }
   }
 }

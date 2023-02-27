@@ -86,16 +86,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 661,
-  "Name": "Bruen-Steuber",
+  "ScreenChooserId": 488,
+  "Name": "Lakin, Hudson and Kuhic",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "consequuntur",
-  "Source": "corporis",
-  "Registered": "1999-04-20T11:22:37.7742144+02:00",
-  "RegisteredAssociateId": 876,
-  "Updated": "1997-01-03T11:22:37.7742144+01:00",
-  "UpdatedAssociateId": 776
+  "UniqueIdentifier": "tempore",
+  "Source": "tenetur",
+  "Registered": "2014-01-18T14:19:03.0730293+01:00",
+  "RegisteredAssociateId": 491,
+  "Updated": "2012-08-03T14:19:03.0730293+02:00",
+  "UpdatedAssociateId": 399
 }
 ```
 
@@ -106,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 964,
-  "Name": "Considine Inc and Sons",
+  "ScreenChooserId": 309,
+  "Name": "Schroeder-Hammes",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "dicta",
-  "Source": "id",
-  "Registered": "2021-02-28T11:22:37.7742144+01:00",
-  "RegisteredAssociateId": 140,
-  "Updated": "2017-12-03T11:22:37.7742144+01:00",
-  "UpdatedAssociateId": 122,
+  "Enabled": false,
+  "UniqueIdentifier": "voluptatem",
+  "Source": "fuga",
+  "Registered": "2015-07-14T14:19:03.0730293+02:00",
+  "RegisteredAssociateId": 943,
+  "Updated": "2002-09-11T14:19:03.0730293+02:00",
+  "UpdatedAssociateId": 688,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 353
+      "FieldType": "System.Int32",
+      "FieldLength": 798
     }
   }
 }

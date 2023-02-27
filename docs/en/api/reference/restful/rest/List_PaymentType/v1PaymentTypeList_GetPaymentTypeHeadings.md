@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 187,
-    "Name": "Denesik-Abshire",
-    "Tooltip": "voluptatibus",
+    "HeadingId": 134,
+    "Name": "Heidenreich, Heller and Morar",
+    "Tooltip": "similique",
     "Deleted": false,
-    "Rank": 773,
-    "UdListDefinitionId": 331,
+    "Rank": 969,
+    "UdListDefinitionId": 450,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 158
+        "FieldType": "System.Int32",
+        "FieldLength": 329
       }
     }
   }

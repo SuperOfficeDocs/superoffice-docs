@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 75,
-  "LanguageId": 249,
-  "PersonId": 595,
-  "TicketId": 777
+  "ReplyTemplateId": 654,
+  "LanguageId": 190,
+  "PersonId": 333,
+  "TicketId": 243
 }
 ```
 
@@ -97,34 +97,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 566,
-  "PlainParsed": "voluptatem",
-  "HtmlParsed": "accusamus",
+  "ReplyTemplateId": 714,
+  "PlainParsed": "tenetur",
+  "HtmlParsed": "ipsa",
   "Attachments": [
     {
-      "AttachmentId": 454,
-      "Name": "Reynolds, Beer and Considine",
-      "ContentType": "qui",
-      "AttSize": 684,
+      "AttachmentId": 80,
+      "Name": "Swaniawski, Kovacek and Grady",
+      "ContentType": "ratione",
+      "AttSize": 700,
       "InlineImage": true,
-      "ContentId": "natus",
+      "ContentId": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 679
+          "FieldType": "System.Int32",
+          "FieldLength": 308
         }
       }
     }
   ],
-  "Subject": "qui",
+  "Subject": "laudantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 591
+      "FieldLength": 441
     }
   }
 }

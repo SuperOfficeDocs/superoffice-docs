@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Replication/CreateDefaultSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 926,
-  "Created": "2000-01-21T11:22:38.9614314+01:00",
+  "SatelliteId": 790,
+  "Created": "2006-03-11T14:19:04.0625865+01:00",
   "CreatedBy": null,
-  "Updated": "2019-08-14T11:22:38.9614314+02:00",
+  "Updated": "2008-03-12T14:19:04.0625865+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Von Inc and Sons",
-      "Description": "Total coherent framework",
+      "Name": "Crist, Kassulke and VonRueden",
+      "Description": "Automated directional knowledge user",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -100,13 +100,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 366
+          "FieldLength": 219
         }
       }
     },
     {
-      "Name": "Von Inc and Sons",
-      "Description": "Total coherent framework",
+      "Name": "Crist, Kassulke and VonRueden",
+      "Description": "Automated directional knowledge user",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 366
+          "FieldLength": 219
         }
       }
     }
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldLength": 975
     }
   }
 }

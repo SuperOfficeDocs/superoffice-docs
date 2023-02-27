@@ -97,7 +97,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -109,53 +109,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 908,
-    "Name": "Bradtke LLC",
-    "Tooltip": "laudantium",
-    "Rank": 874,
+    "SaleTypeId": 582,
+    "Name": "Franecki-Reinger",
+    "Tooltip": "eum",
+    "Rank": 198,
     "DurationUnit": "Century",
-    "SaleDuration": 184,
-    "SaleTypeCatId": 220,
+    "SaleDuration": 129,
+    "SaleTypeCatId": 340,
     "Deleted": false,
     "HasGuide": false,
-    "HasStakeholders": true,
-    "IsAutoAdvance": true,
-    "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 468,
-    "QuoteLinesTemplate": 732,
-    "ConfirmationLinesTemplate": 290,
-    "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 679,
-    "MinEarningPercent": 943,
-    "GroupQuoteLinesBy": 318,
-    "SortGroupLinesBy": 977,
+    "HasStakeholders": false,
+    "IsAutoAdvance": false,
+    "AllowQuoteAlternatives": false,
+    "DefaultQuoteValidity": 736,
+    "QuoteLinesTemplate": 44,
+    "ConfirmationLinesTemplate": 466,
+    "MaxDiscountPercentSet": true,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 449,
+    "MinEarningPercent": 775,
+    "GroupQuoteLinesBy": 364,
+    "SortGroupLinesBy": 760,
     "Stages": [
       {
-        "Id": 896,
-        "Name": "Aufderhar-Kuvalis",
-        "ToolTip": "Ea similique.",
-        "Deleted": true,
-        "Rank": 711,
-        "Type": "officiis",
-        "ColorBlock": 270,
-        "IconHint": "similique",
+        "Id": 618,
+        "Name": "Dare-Ondricka",
+        "ToolTip": "Incidunt et voluptatum ea natus aut itaque expedita.",
+        "Deleted": false,
+        "Rank": 823,
+        "Type": "minima",
+        "ColorBlock": 196,
+        "IconHint": "odit",
         "Selected": false,
-        "LastChanged": "2001-03-11T11:22:38.445931+01:00",
+        "LastChanged": "2001-11-03T14:19:03.6082484+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "cum",
+        "StyleHint": "ex",
         "Hidden": false,
-        "FullName": "Dr. Suzanne Estel Kertzmann",
+        "FullName": "Rosalind Lindgren",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 881
+            "FieldLength": 918
           }
         }
       }
@@ -165,7 +165,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 439
+        "FieldLength": 823
       }
     }
   }

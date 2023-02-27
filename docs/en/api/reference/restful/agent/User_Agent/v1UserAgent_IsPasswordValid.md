@@ -76,10 +76,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 210,
+  "AssociateId": 707,
   "Type": "AnonymousAssociate",
-  "PersonId": 903,
-  "Password": "minima"
+  "PersonId": 457,
+  "Password": "eum"
 }
 ```
 
@@ -89,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

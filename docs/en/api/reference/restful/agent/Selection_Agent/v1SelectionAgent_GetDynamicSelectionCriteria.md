@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 743
+  "SelectionId": 314
 }
 ```
 
@@ -95,29 +95,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Walker Group",
-    "Operator": "qui",
+    "Name": "Anderson-Ebert",
+    "Operator": "iure",
     "Values": [
-      "animi",
-      "sunt"
+      "vel",
+      "ea"
     ],
     "DisplayValues": [
-      "voluptatem",
-      "corrupti"
+      "in",
+      "quisquam"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Orn LLC",
-        "Operator": "minus",
+        "Name": "Cronin Inc and Sons",
+        "Operator": "omnis",
         "Values": [
-          "earum",
-          "impedit"
+          "est",
+          "qui"
         ],
         "DisplayValues": [
-          "quia",
-          "sapiente"
+          "rerum",
+          "quam"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -125,14 +125,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 681,
+        "InterParenthesis": 986,
         "InterOperator": "And",
-        "UniqueHash": 200
+        "UniqueHash": 322
       }
     ],
-    "InterParenthesis": 1002,
+    "InterParenthesis": 845,
     "InterOperator": "And",
-    "UniqueHash": 845
+    "UniqueHash": 187
   }
 ]
 ```

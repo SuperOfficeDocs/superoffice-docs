@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 11.29.2022
+so.date: 02.15.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -90,6 +90,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IEMailAgent'>EM
 * [GetUnsanitizedPreviewAttachmentFromId](getunsanitizedpreviewattachmentfromid.md)
 * [HasMXRecord](hasmxrecord.md)
 * [HasNewMail](hasnewmail.md)
+* [HasSPFRecord](hasspfrecord.md)
 * [LatestItemIdByFolder](latestitemidbyfolder.md)
 * [MarkAsRead](markasread.md)
 * [MarkEmailsAsRead](markemailsasread.md)

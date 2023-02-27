@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 428,
+  "QuoteVersionId": 382,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 351
+  "CountryId": 477
 }
 ```
 
@@ -98,41 +98,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 25780.284,
-  "Wgs84Longitude": 5450.026,
+  "Wgs84Latitude": 2375.572,
+  "Wgs84Longitude": 29249.622,
   "LocalizedAddress": [
     [
       {
-        "Name": "Bechtelar, Bogisich and Reinger",
-        "Value": "temporibus",
-        "Tooltip": "enim",
-        "Label": "enim",
-        "ValueLength": 979,
-        "AddressType": "dolores",
+        "Name": "O'Hara-Bergnaum",
+        "Value": "voluptatum",
+        "Tooltip": "ut",
+        "Label": "repellat",
+        "ValueLength": 175,
+        "AddressType": "iste",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 35
+            "FieldLength": 467
           }
         }
       }
     ],
     [
       {
-        "Name": "Heller Group",
-        "Value": "beatae",
-        "Tooltip": "ad",
-        "Label": "corrupti",
-        "ValueLength": 823,
-        "AddressType": "voluptatum",
+        "Name": "Reinger-Stehr",
+        "Value": "et",
+        "Tooltip": "odit",
+        "Label": "illum",
+        "ValueLength": 327,
+        "AddressType": "rerum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 547
+            "FieldLength": 471
           }
         }
       }
@@ -140,13 +140,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "mollitia",
+  "Formatted": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 392
+      "FieldType": "System.String",
+      "FieldLength": 262
     }
   }
 }

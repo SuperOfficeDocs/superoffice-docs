@@ -89,25 +89,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 201,
-    "Tooltip": "ea",
-    "CanAssign": true,
-    "Free": 711,
-    "InUse": 614,
+    "Total": 236,
+    "Tooltip": "minima",
+    "CanAssign": false,
+    "Free": 642,
+    "InUse": 818,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 32,
-    "Name": "Dibbert-Sipes",
-    "Description": "Enhanced assymetric encryption",
-    "PrerequisiteModuleName": "Fahey Inc and Sons",
-    "SortOrder": 103,
-    "ExtraFlags": 90,
+    "Assigned": true,
+    "ModuleLicenseId": 291,
+    "Name": "McCullough, Lehner and Stroman",
+    "Description": "Multi-lateral upward-trending productivity",
+    "PrerequisiteModuleName": "Steuber, Jerde and Ondricka",
+    "SortOrder": 260,
+    "ExtraFlags": 527,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 222
+        "FieldLength": 935
       }
     }
   }

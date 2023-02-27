@@ -65,15 +65,15 @@ No Content
 POST /api/v1/Agents/DatabaseTable/UpdateRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Wolff, Ankunding and Carroll",
-  "Id": 340,
+  "TableName": "McGlynn-Crona",
+  "Id": 468,
   "Values": {
-    "Values1": "aspernatur",
-    "Values2": "molestias"
+    "Values1": "facilis",
+    "Values2": "voluptatem"
   }
 }
 ```

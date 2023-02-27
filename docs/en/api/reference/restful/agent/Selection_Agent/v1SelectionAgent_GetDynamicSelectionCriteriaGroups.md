@@ -79,7 +79,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 172
+  "SelectionId": 87
 }
 ```
 
@@ -91,20 +91,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Fay, Deckow and Murphy",
-    "Description": "Extended dedicated matrices",
-    "Rank": 406,
+    "Name": "Wisoky Group",
+    "Description": "Re-contextualized background flexibility",
+    "Rank": 939,
     "Restrictions": [
       {
-        "Name": "Prohaska, Wunsch and Klocko",
-        "Operator": "iure",
+        "Name": "Sporer, Swift and Bins",
+        "Operator": "a",
         "Values": [
-          "ipsum",
-          "fugiat"
+          "ipsa",
+          "qui"
         ],
         "DisplayValues": [
-          "qui",
-          "voluptas"
+          "enim",
+          "vel"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -112,27 +112,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 956,
+        "InterParenthesis": 490,
         "InterOperator": "And",
-        "UniqueHash": 774
+        "UniqueHash": 829
       }
     ]
   },
   {
-    "Name": "Fay, Deckow and Murphy",
-    "Description": "Extended dedicated matrices",
-    "Rank": 406,
+    "Name": "Wisoky Group",
+    "Description": "Re-contextualized background flexibility",
+    "Rank": 939,
     "Restrictions": [
       {
-        "Name": "Prohaska, Wunsch and Klocko",
-        "Operator": "iure",
+        "Name": "Sporer, Swift and Bins",
+        "Operator": "a",
         "Values": [
-          "ipsum",
-          "fugiat"
+          "ipsa",
+          "qui"
         ],
         "DisplayValues": [
-          "qui",
-          "voluptas"
+          "enim",
+          "vel"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -140,9 +140,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 956,
+        "InterParenthesis": 490,
         "InterOperator": "And",
-        "UniqueHash": 774
+        "UniqueHash": 829
       }
     ]
   }

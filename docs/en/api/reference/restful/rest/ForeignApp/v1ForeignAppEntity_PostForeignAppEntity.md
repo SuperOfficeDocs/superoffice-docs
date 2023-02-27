@@ -87,27 +87,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 129,
-  "Name": "Rath-Jacobs",
-  "CreatedDate": "1999-02-03T11:22:44.8506265+01:00",
-  "UpdatedDate": "2021-02-14T11:22:44.8506265+01:00",
+  "ForeignAppId": 264,
+  "Name": "Marks Group",
+  "CreatedDate": "2002-04-08T14:19:10.3498478+02:00",
+  "UpdatedDate": "2001-02-05T14:19:10.3498478+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 246,
-      "Name": "Schinner, Simonis and Schuppe",
-      "CreatedDate": "2011-06-09T11:22:44.8506265+02:00",
-      "UpdatedDate": "2015-09-28T11:22:44.8506265+02:00",
-      "AssociateFullName": "Glenna D'Amore I",
-      "CreatedBy": "possimus",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "repellendus",
-      "ForeignAppId": 73
+      "ForeignDeviceId": 436,
+      "Name": "Gleichner-Osinski",
+      "CreatedDate": "2002-06-03T14:19:10.3498478+02:00",
+      "UpdatedDate": "2001-11-21T14:19:10.3498478+01:00",
+      "AssociateFullName": "Dr. Eulalia Jeremie Jones",
+      "CreatedBy": "libero",
+      "UpdatedBy": "debitis",
+      "DeviceIdentifier": "asperiores",
+      "ForeignAppId": 717
     }
   ]
 }
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 525,
-  "Name": "Crist-Effertz",
-  "CreatedDate": "2013-11-22T11:22:44.8662479+01:00",
-  "UpdatedDate": "1997-05-11T11:22:44.8662479+02:00",
+  "ForeignAppId": 904,
+  "Name": "Christiansen-Runolfsson",
+  "CreatedDate": "2011-03-10T14:19:10.3498478+01:00",
+  "UpdatedDate": "2016-05-08T14:19:10.3498478+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 537,
-      "Name": "Nicolas, McLaughlin and Johns",
-      "CreatedDate": "2007-05-14T11:22:44.8662479+02:00",
-      "UpdatedDate": "2001-02-14T11:22:44.8662479+01:00",
-      "AssociateFullName": "Junior Howe",
-      "CreatedBy": "rem",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "animi",
-      "ForeignAppId": 584,
+      "ForeignDeviceId": 655,
+      "Name": "Dickinson, Parker and Lueilwitz",
+      "CreatedDate": "2008-08-13T14:19:10.3498478+02:00",
+      "UpdatedDate": "2018-08-26T14:19:10.3498478+02:00",
+      "AssociateFullName": "Schuyler Jaylin Rodriguez I",
+      "CreatedBy": "est",
+      "UpdatedBy": "expedita",
+      "DeviceIdentifier": "quos",
+      "ForeignAppId": 860,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 41
+          "FieldType": "System.String",
+          "FieldLength": 499
         }
       }
     }
@@ -152,12 +152,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldLength": 86
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

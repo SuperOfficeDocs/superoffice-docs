@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 726,
-    "Name": "Rath, Ratke and Kuhic",
-    "ToolTip": "Consequatur iure praesentium veniam recusandae laudantium.",
-    "Deleted": true,
-    "Rank": 247,
-    "Type": "aut",
-    "ColorBlock": 803,
-    "IconHint": "quisquam",
+    "Id": 197,
+    "Name": "Boyer-Stark",
+    "ToolTip": "Eaque autem exercitationem eum aspernatur.",
+    "Deleted": false,
+    "Rank": 340,
+    "Type": "temporibus",
+    "ColorBlock": 554,
+    "IconHint": "possimus",
     "Selected": false,
-    "LastChanged": "2005-01-18T11:22:45.8816758+01:00",
+    "LastChanged": "1995-11-30T14:19:11.2262177+01:00",
     "ChildItems": [
       {
-        "Id": 463,
-        "Name": "Raynor LLC",
-        "ToolTip": "Reiciendis porro voluptas fuga.",
+        "Id": 237,
+        "Name": "Kozey, Murphy and Langworth",
+        "ToolTip": "Laboriosam veritatis neque itaque aut fugit.",
         "Deleted": false,
-        "Rank": 491,
-        "Type": "nemo",
-        "ColorBlock": 401,
-        "IconHint": "dolor",
+        "Rank": 633,
+        "Type": "eum",
+        "ColorBlock": 628,
+        "IconHint": "magnam",
         "Selected": true,
-        "LastChanged": "2019-02-03T11:22:45.8816758+01:00",
+        "LastChanged": "2014-11-28T14:19:11.2262177+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "non",
+        "ExtraInfo": "non",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Chauncey Feest"
+        "FullName": "Mr. Doyle Carol Schumm"
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "voluptate",
+    "ExtraInfo": "maxime",
+    "StyleHint": "voluptatibus",
     "Hidden": true,
-    "FullName": "Miss Jordane Tomas Reynolds"
+    "FullName": "Eduardo Koch"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 920,
-    "Name": "Haag, Rodriguez and King",
-    "ToolTip": "Molestiae veritatis laborum.",
-    "Deleted": true,
-    "Rank": 610,
-    "Type": "voluptas",
-    "ColorBlock": 44,
-    "IconHint": "sint",
-    "Selected": false,
-    "LastChanged": "2007-01-18T11:22:45.8973017+01:00",
+    "Id": 292,
+    "Name": "Waters LLC",
+    "ToolTip": "Tempora officiis magnam excepturi sequi ipsum sint et.",
+    "Deleted": false,
+    "Rank": 275,
+    "Type": "et",
+    "ColorBlock": 298,
+    "IconHint": "placeat",
+    "Selected": true,
+    "LastChanged": "1996-02-11T14:19:11.2418468+01:00",
     "ChildItems": [
       {
-        "Id": 225,
-        "Name": "Weissnat Inc and Sons",
-        "ToolTip": "Ut et laudantium velit sapiente.",
+        "Id": 792,
+        "Name": "Hammes, Hackett and Lowe",
+        "ToolTip": "Iste facilis.",
         "Deleted": true,
-        "Rank": 112,
-        "Type": "est",
-        "ColorBlock": 967,
-        "IconHint": "in",
+        "Rank": 227,
+        "Type": "numquam",
+        "ColorBlock": 85,
+        "IconHint": "illo",
         "Selected": false,
-        "LastChanged": "2019-02-21T11:22:45.8973017+01:00",
+        "LastChanged": "2011-04-24T14:19:11.2418468+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "et",
+        "ExtraInfo": "alias",
+        "StyleHint": "doloribus",
         "Hidden": true,
-        "FullName": "Elyse Predovic",
+        "FullName": "Destiney Cremin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 325
+            "FieldLength": 936
           }
         }
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "animi",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Earnestine Nikolaus",
+    "FullName": "Dawson Effertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 74
+        "FieldType": "System.Int32",
+        "FieldLength": 710
       }
     }
   }

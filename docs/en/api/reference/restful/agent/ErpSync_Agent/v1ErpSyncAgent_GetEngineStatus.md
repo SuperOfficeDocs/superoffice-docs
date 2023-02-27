@@ -79,14 +79,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsRunning": false,
-  "StatusMessage": "non",
-  "Interval": "ab",
+  "StatusMessage": "neque",
+  "Interval": "natus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldLength": 955
     }
   }
 }

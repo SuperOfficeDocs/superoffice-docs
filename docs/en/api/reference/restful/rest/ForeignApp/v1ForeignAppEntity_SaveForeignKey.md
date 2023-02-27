@@ -82,18 +82,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "rem",
-  "Value": "quia",
-  "RecordId": 231,
-  "CreatedDate": "2017-08-30T11:22:44.8818691+02:00",
-  "UpdatedDate": "1996-07-10T11:22:44.8818691+02:00",
-  "UpdatedBy": "labore",
+  "Key": "veritatis",
+  "Value": "ab",
+  "RecordId": 488,
+  "CreatedDate": "2003-05-31T14:19:10.3654771+02:00",
+  "UpdatedDate": "1996-12-06T14:19:10.3654771+01:00",
+  "UpdatedBy": "accusamus",
   "CreatedBy": "dolorum",
-  "TableName": "Cole-Will"
+  "TableName": "Heathcote Group"
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "aliquam",
-  "Value": "ut",
-  "RecordId": 928,
-  "CreatedDate": "2014-07-07T11:22:44.8818691+02:00",
-  "UpdatedDate": "2004-01-08T11:22:44.8818691+01:00",
-  "UpdatedBy": "vel",
-  "CreatedBy": "quisquam",
-  "TableName": "Murray, Hauck and Bogisich",
+  "Key": "in",
+  "Value": "occaecati",
+  "RecordId": 671,
+  "CreatedDate": "1995-10-26T14:19:10.3654771+02:00",
+  "UpdatedDate": "2003-05-18T14:19:10.3654771+02:00",
+  "UpdatedBy": "facilis",
+  "CreatedBy": "occaecati",
+  "TableName": "Green-Witting",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldLength": 694
     }
   }
 }

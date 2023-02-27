@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 195,
-    "Name": "Wiza, Hegmann and Kuvalis",
-    "Tooltip": "sunt",
+    "Id": 503,
+    "Name": "Cassin-Green",
+    "Tooltip": "ea",
     "Deleted": true,
-    "UdListDefinitionId": 699,
-    "Rank": 505
+    "UdListDefinitionId": 632,
+    "Rank": 264
   },
   {
-    "Id": 195,
-    "Name": "Wiza, Hegmann and Kuvalis",
-    "Tooltip": "sunt",
+    "Id": 503,
+    "Name": "Cassin-Green",
+    "Tooltip": "ea",
     "Deleted": true,
-    "UdListDefinitionId": 699,
-    "Rank": 505
+    "UdListDefinitionId": 632,
+    "Rank": 264
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 436,
-    "Name": "Koepp LLC",
-    "Tooltip": "quos",
-    "Deleted": true,
-    "UdListDefinitionId": 502,
-    "Rank": 350,
+    "Id": 773,
+    "Name": "Olson Inc and Sons",
+    "Tooltip": "earum",
+    "Deleted": false,
+    "UdListDefinitionId": 336,
+    "Rank": 785,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 586
+        "FieldLength": 499
       }
     }
   }

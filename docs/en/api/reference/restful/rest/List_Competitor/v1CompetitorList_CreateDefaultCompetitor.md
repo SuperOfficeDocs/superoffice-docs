@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 119,
-  "Name": "Terry, Johnson and Torp",
-  "Tooltip": "cumque",
+  "Id": 481,
+  "Name": "Renner, Steuber and Wehner",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "UdListDefinitionId": 235,
-  "Rank": 716,
+  "UdListDefinitionId": 775,
+  "Rank": 504,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 620
+      "FieldLength": 96
     }
   }
 }

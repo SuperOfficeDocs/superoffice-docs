@@ -28,7 +28,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=222
+GET /api/v1/Contact/{contactId}/Summary?limit=127
 ```
 
 
@@ -84,79 +84,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 350,
-      "TicketStatus": 652,
-      "Title": "beatae",
-      "Registered": "2010-03-18T11:22:44.5382515+01:00",
-      "IconHint": "eveniet"
+      "TicketId": 785,
+      "TicketStatus": 668,
+      "Title": "nihil",
+      "Registered": "2012-05-07T14:19:10.2092258+02:00",
+      "IconHint": "non"
     },
     {
-      "TicketId": 350,
-      "TicketStatus": 652,
-      "Title": "beatae",
-      "Registered": "2010-03-18T11:22:44.5382515+01:00",
-      "IconHint": "eveniet"
+      "TicketId": 785,
+      "TicketStatus": 668,
+      "Title": "nihil",
+      "Registered": "2012-05-07T14:19:10.2092258+02:00",
+      "IconHint": "non"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 652,
-      "DocumentId": 321,
-      "Date": "2002-02-02T11:22:44.5382515+01:00",
-      "Description": "Optimized systemic structure",
+      "AppointmentId": 494,
+      "DocumentId": 317,
+      "Date": "2002-11-25T14:19:10.2092258+01:00",
+      "Description": "Secured explicit encoding",
       "Completed": "Completed",
-      "Registered": "2004-05-10T11:22:44.5382515+02:00"
+      "Registered": "2000-09-23T14:19:10.2092258+02:00"
     },
     {
-      "AppointmentId": 652,
-      "DocumentId": 321,
-      "Date": "2002-02-02T11:22:44.5382515+01:00",
-      "Description": "Optimized systemic structure",
+      "AppointmentId": 494,
+      "DocumentId": 317,
+      "Date": "2002-11-25T14:19:10.2092258+01:00",
+      "Description": "Secured explicit encoding",
       "Completed": "Completed",
-      "Registered": "2004-05-10T11:22:44.5382515+02:00"
+      "Registered": "2000-09-23T14:19:10.2092258+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 81,
-      "DocumentId": 508,
-      "Date": "2017-03-22T11:22:44.5382515+01:00",
-      "Description": "Horizontal systemic customer loyalty",
+      "AppointmentId": 862,
+      "DocumentId": 886,
+      "Date": "2013-10-08T14:19:10.2092258+02:00",
+      "Description": "Enhanced directional ability",
       "Completed": "Completed",
-      "Registered": "2013-11-18T11:22:44.5382515+01:00"
+      "Registered": "2017-06-01T14:19:10.2092258+02:00"
     },
     {
-      "AppointmentId": 81,
-      "DocumentId": 508,
-      "Date": "2017-03-22T11:22:44.5382515+01:00",
-      "Description": "Horizontal systemic customer loyalty",
+      "AppointmentId": 862,
+      "DocumentId": 886,
+      "Date": "2013-10-08T14:19:10.2092258+02:00",
+      "Description": "Enhanced directional ability",
       "Completed": "Completed",
-      "Registered": "2013-11-18T11:22:44.5382515+01:00"
+      "Registered": "2017-06-01T14:19:10.2092258+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 106,
-      "SaleDate": "2010-08-04T11:22:44.5382515+02:00",
-      "Probability": 150,
-      "Heading": "id",
-      "Amount": 24222.685999999998,
-      "Currency": "sunt",
-      "AmountInBaseCurrency": 29914.03,
+      "SaleId": 410,
+      "SaleDate": "1996-06-20T14:19:10.2092258+02:00",
+      "Probability": 698,
+      "Heading": "veniam",
+      "Amount": 14187.618,
+      "Currency": "vitae",
+      "AmountInBaseCurrency": 2193.7999999999997,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2014-08-26T11:22:44.5382515+02:00"
+      "Registered": "2018-08-05T14:19:10.2092258+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 605,
-      "Name": "Medhurst-Wiza",
-      "CompanyName": "Eichmann, McClure and Nader",
-      "FirstMessage": "laborum",
-      "LastMessage": "qui",
-      "WhenRequested": "2010-12-05T11:22:44.5382515+01:00",
-      "WhenEnded": "2015-05-19T11:22:44.5382515+02:00"
+      "ChatSessionId": 304,
+      "Name": "Bayer Inc and Sons",
+      "CompanyName": "Douglas, Stehr and Leffler",
+      "FirstMessage": "voluptas",
+      "LastMessage": "est",
+      "WhenRequested": "2003-05-03T14:19:10.2092258+02:00",
+      "WhenEnded": "2013-10-05T14:19:10.2092258+02:00"
     }
   ]
 }

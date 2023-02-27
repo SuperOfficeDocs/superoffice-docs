@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Contact/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rempel, Lakin and Maggio"
+  "Name": "Raynor Group"
 }
 ```
 
@@ -92,17 +92,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Schowalter-Altenwerth",
-    "SoPrimaryKey": 654,
-    "EntryName": "Weissnat Group",
-    "EntryIdentifier": "quo",
-    "RuleDisplayName": "Blanda Group",
+    "RuleName": "Tremblay-Volkman",
+    "SoPrimaryKey": 890,
+    "EntryName": "Jacobi Inc and Sons",
+    "EntryIdentifier": "nisi",
+    "RuleDisplayName": "Deckow-Wyman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 614
+        "FieldType": "System.String",
+        "FieldLength": 350
       }
     }
   }

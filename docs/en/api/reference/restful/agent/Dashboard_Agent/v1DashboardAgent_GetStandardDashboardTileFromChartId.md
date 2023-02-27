@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "et"
+  "ChartId": "omnis"
 }
 ```
 
@@ -100,64 +100,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 726,
-  "Caption": "illum",
-  "Description": "Sharable system-worthy orchestration",
-  "ChartName": "Boyer-Powlowski",
-  "ChartId": "voluptatum",
+  "DashboardTileId": 133,
+  "Caption": "magni",
+  "Description": "Balanced dedicated conglomeration",
+  "ChartName": "Stark, Kohler and Mitchell",
+  "ChartId": "sapiente",
   "IsDefault": true,
-  "AssociateId": 807,
-  "GroupId": 129,
-  "SelectionId": 249,
-  "Config": "quibusdam",
+  "AssociateId": 274,
+  "GroupId": 49,
+  "SelectionId": 630,
+  "Config": "neque",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Macejkovic, Zulauf and Kuhlman",
-      "Description": "Fundamental disintermediate circuit",
+      "Name": "Jacobs, Reinger and Rosenbaum",
+      "Description": "Realigned object-oriented knowledge base",
       "Type": "Boolean",
-      "ListName": "Klein-Breitenberg",
+      "ListName": "Romaguera LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "dignissimos",
+      "Value": "magni",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 701
+          "FieldLength": 46
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 536,
+      "VisibleId": 350,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 908
+          "FieldType": "System.Int32",
+          "FieldLength": 264
         }
       }
     },
     {
-      "VisibleId": 536,
+      "VisibleId": 350,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 908
+          "FieldType": "System.Int32",
+          "FieldLength": 264
         }
       }
     }
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 420
+      "FieldLength": 569
     }
   }
 }

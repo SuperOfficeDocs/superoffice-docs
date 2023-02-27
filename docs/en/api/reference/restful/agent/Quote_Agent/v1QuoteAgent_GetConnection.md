@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 701
+  "QuoteConnectionId": 415
 }
 ```
 
@@ -101,54 +101,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 197,
-  "ERPName": "Funk-Schneider",
-  "DisplayName": "Trantow-Lakin",
-  "DisplayDescription": "Multi-tiered well-modulated matrices",
-  "Rank": 689,
-  "ConnectorName": "Purdy LLC",
-  "ErpConnectionId": 831,
-  "ExtraData": "necessitatibus",
+  "QuoteConnectionId": 973,
+  "ERPName": "Wunsch-Larkin",
+  "DisplayName": "Beatty, Bogisich and Steuber",
+  "DisplayDescription": "Re-engineered foreground framework",
+  "Rank": 723,
+  "ConnectorName": "Bosco-Lockman",
+  "ErpConnectionId": 954,
+  "ExtraData": "assumenda",
   "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 346,
-      "ERPPriceListKey": "beatae",
-      "QuoteConnectionId": 783,
-      "Name": "Reinger-Muller",
-      "Description": "Object-based bi-directional hardware",
-      "Currency": "sunt",
-      "CurrencyName": "Rutherford, Berge and Cruickshank",
-      "ValidFrom": "2013-09-23T11:22:38.9301893+02:00",
-      "ValidTo": "1999-05-27T11:22:38.9301893+02:00",
+      "PriceListId": 243,
+      "ERPPriceListKey": "aperiam",
+      "QuoteConnectionId": 407,
+      "Name": "Ratke-Jewess",
+      "Description": "Vision-oriented optimizing middleware",
+      "Currency": "voluptatem",
+      "CurrencyName": "Nader Group",
+      "ValidFrom": "1998-04-09T14:19:04.0157096+02:00",
+      "ValidTo": "2002-08-17T14:19:04.0157096+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldLength": 123
         }
       }
     }
   ],
   "AllAccess": false,
-  "Deleted": false,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    975,
-    986
+    872,
+    781
   ],
   "AssociateAccessIds": [
-    555,
-    379
+    827,
+    323
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldLength": 731
     }
   }
 }

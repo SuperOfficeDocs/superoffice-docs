@@ -89,7 +89,7 @@ OK
 GET /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 463,
-    "ColumnId": 2,
-    "FieldDefault": "quibusdam",
-    "FieldHeight": 343,
-    "FieldLabel": "ipsam",
-    "FieldLeft": 993,
-    "FieldTop": 772,
+    "UDefFieldId": 122,
+    "ColumnId": 99,
+    "FieldDefault": "cupiditate",
+    "FieldHeight": 331,
+    "FieldLabel": "quis",
+    "FieldLeft": 164,
+    "FieldTop": 448,
     "FieldType": "Checkbox",
-    "FieldWidth": 738,
-    "FormatMask": "sint",
+    "FieldWidth": 235,
+    "FormatMask": "nesciunt",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 123,
-    "LabelLeft": 922,
-    "LabelTop": 231,
-    "LabelWidth": 420,
-    "LastVersionId": 660,
-    "ListTableId": 490,
-    "IsMandatory": true,
+    "IsIndexed": true,
+    "LabelHeight": 62,
+    "LabelLeft": 440,
+    "LabelTop": 864,
+    "LabelWidth": 485,
+    "LastVersionId": 208,
+    "ListTableId": 75,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 928,
-    "ProgId": "facilis",
+    "Page1LineNo": 338,
+    "ProgId": "aut",
     "IsReadOnly": true,
-    "ShortLabel": "eveniet",
-    "TabOrder": 676,
-    "TextLength": 614,
-    "Tooltip": "cupiditate",
-    "UdefIdentity": 847,
-    "UDListDefinitionId": 306,
+    "ShortLabel": "voluptas",
+    "TabOrder": 762,
+    "TextLength": 299,
+    "Tooltip": "voluptas",
+    "UdefIdentity": 152,
+    "UDListDefinitionId": 614,
     "Justification": "Center",
-    "Version": 814,
-    "TemplateVariableName": "McGlynn, Schinner and Volkman",
+    "Version": 271,
+    "TemplateVariableName": "VonRueden-Ledner",
     "HasBeenPublished": false,
-    "MdoListName": "Prohaska-Runte",
+    "MdoListName": "Jewess Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 491
+        "FieldType": "System.Int32",
+        "FieldLength": 107
       }
     }
   }

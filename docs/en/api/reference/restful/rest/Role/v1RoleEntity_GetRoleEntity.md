@@ -86,7 +86,7 @@ RoleEntity found.
 GET /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,16 +96,16 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 958,
-  "Name": "Hammes-Feil",
-  "Tooltip": "laudantium",
+  "RoleId": 919,
+  "Name": "Harvey-Hessel",
+  "Tooltip": "possimus",
   "RoleType": "Anonymous",
-  "Deleted": 42,
-  "Rank": 22,
-  "Created": "2014-06-10T11:22:45.0693694+02:00",
-  "UseCategories": 832,
+  "Deleted": 697,
+  "Rank": 614,
+  "Created": "1996-11-15T14:19:10.6467484+01:00",
+  "UseCategories": 907,
   "CreatedBy": null,
-  "Updated": "2008-04-14T11:22:45.0693694+02:00",
+  "Updated": "2002-10-28T14:19:10.6467484+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 732
+      "FieldLength": 586
     }
   },
   "_Links": {

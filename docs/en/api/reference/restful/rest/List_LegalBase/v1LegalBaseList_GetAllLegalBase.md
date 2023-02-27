@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 30,
-    "Name": "Ryan, Klocko and Kirlin",
-    "Tooltip": "qui",
-    "Rank": 403,
-    "Key": "rerum",
+    "LegalBaseId": 87,
+    "Name": "Buckridge-Klocko",
+    "Tooltip": "aut",
+    "Rank": 201,
+    "Key": "dicta",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 521
+        "FieldType": "System.String",
+        "FieldLength": 609
       }
     }
   }

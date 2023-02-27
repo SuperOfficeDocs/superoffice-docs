@@ -71,11 +71,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kozey Group",
-  "ProviderName": "Bashirian-Nienow",
+  "GuiName": "Gerhold Group",
+  "ProviderName": "Vandervort-Kilback",
   "Entities": [
-    "eaque",
-    "labore"
+    "qui",
+    "dignissimos"
   ]
 }
 ```

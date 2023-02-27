@@ -106,33 +106,33 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 693,
-  "ERPQuoteAlternativeKey": "quia",
-  "QuoteVersionId": 791,
-  "Name": "Goldner LLC",
-  "Description": "Advanced bandwidth-monitored project",
+  "QuoteAlternativeId": 730,
+  "ERPQuoteAlternativeKey": "minus",
+  "QuoteVersionId": 67,
+  "Name": "Kutch-Runolfsson",
+  "Description": "Centralized zero defect help-desk",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 23363.969999999998,
-  "ERPDiscountAmount": 29606.897999999997,
-  "DiscountPercent": 26244.115999999998,
-  "DiscountAmount": 29631.969999999998,
+  "ERPDiscountPercent": 9314.248,
+  "ERPDiscountAmount": 29845.082,
+  "DiscountPercent": 25767.748,
+  "DiscountAmount": 28719.976,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "porro",
-  "VAT": 4227.766,
-  "EarningPercent": 28177.793999999998,
-  "EarningAmount": 7114.1799999999994,
-  "SubTotal": 11589.532,
-  "TotalPrice": 24564.291999999998,
-  "ExtraField1": "dolore",
-  "ExtraField2": "animi",
-  "ExtraField3": "quis",
-  "ExtraField4": "aperiam",
-  "ExtraField5": "omnis"
+  "VATInfo": "reprehenderit",
+  "VAT": 19784.942,
+  "EarningPercent": 4895.308,
+  "EarningAmount": 15870.576,
+  "SubTotal": 7020.16,
+  "TotalPrice": 14967.984,
+  "ExtraField1": "ratione",
+  "ExtraField2": "itaque",
+  "ExtraField3": "possimus",
+  "ExtraField4": "ut",
+  "ExtraField5": "inventore"
 }
 ```
 
@@ -143,35 +143,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 668,
-  "ERPQuoteAlternativeKey": "et",
-  "QuoteVersionId": 344,
-  "Name": "Blick Group",
-  "Description": "User-friendly zero defect array",
+  "QuoteAlternativeId": 29,
+  "ERPQuoteAlternativeKey": "ratione",
+  "QuoteVersionId": 191,
+  "Name": "Wiegand, Bahringer and O'Connell",
+  "Description": "Configurable context-sensitive instruction set",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 13946.3,
-  "ERPDiscountAmount": 10906.32,
-  "DiscountPercent": 28484.926,
-  "DiscountAmount": 17863.8,
+  "ERPDiscountPercent": 19239.626,
+  "ERPDiscountAmount": 25946.386,
+  "DiscountPercent": 27535.324,
+  "DiscountAmount": 12611.216,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "quaerat",
-  "VAT": 4281.044,
-  "EarningPercent": 8468.068,
-  "EarningAmount": 14253.431999999999,
-  "SubTotal": 30073.863999999998,
-  "TotalPrice": 7302.2199999999993,
-  "ExtraField1": "pariatur",
-  "ExtraField2": "nobis",
-  "ExtraField3": "consectetur",
-  "ExtraField4": "enim",
-  "ExtraField5": "voluptas",
+  "VATInfo": "necessitatibus",
+  "VAT": 8342.708,
+  "EarningPercent": 7352.364,
+  "EarningAmount": 22295.275999999998,
+  "SubTotal": 4196.4259999999995,
+  "TotalPrice": 4503.558,
+  "ExtraField1": "et",
+  "ExtraField2": "autem",
+  "ExtraField3": "iusto",
+  "ExtraField4": "esse",
+  "ExtraField5": "reprehenderit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 147
+      "FieldType": "System.Int32",
+      "FieldLength": 797
     }
   }
 }

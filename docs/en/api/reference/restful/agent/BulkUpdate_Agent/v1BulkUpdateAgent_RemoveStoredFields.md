@@ -68,12 +68,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Gibson, Effertz and Schulist",
-  "Context": "iusto"
+  "TableName": "Beier, Moore and Durgan",
+  "Context": "at"
 }
 ```
 

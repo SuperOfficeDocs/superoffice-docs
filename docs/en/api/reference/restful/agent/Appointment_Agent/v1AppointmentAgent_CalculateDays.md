@@ -98,10 +98,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 67,
-  "StartDate": "2016-03-09T11:22:37.071254+01:00",
-  "EndDate": "2006-09-29T11:22:37.071254+02:00",
-  "RecurrenceCounter": 368,
+  "RecurrenceId": 794,
+  "StartDate": "2009-12-04T14:19:02.5786514+01:00",
+  "EndDate": "2022-09-11T14:19:02.5786514+02:00",
+  "RecurrenceCounter": 186,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -110,20 +110,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2020-07-26T11:22:37.071254+02:00",
+      "Date": "2011-01-10T14:19:02.5786514+01:00",
       "IsConflict": true,
-      "Description": "Multi-lateral scalable superstructure",
-      "DescriptionStyleHint": "Enhanced needs-based Graphical User Interface",
-      "Tooltip": "aut"
+      "Description": "Virtual demand-driven parallelism",
+      "DescriptionStyleHint": "Customizable mission-critical hub",
+      "Tooltip": "quam"
     },
     {
-      "Date": "2020-07-26T11:22:37.071254+02:00",
+      "Date": "2011-01-10T14:19:02.5786514+01:00",
       "IsConflict": true,
-      "Description": "Multi-lateral scalable superstructure",
-      "DescriptionStyleHint": "Enhanced needs-based Graphical User Interface",
-      "Tooltip": "aut"
+      "Description": "Virtual demand-driven parallelism",
+      "DescriptionStyleHint": "Customizable mission-critical hub",
+      "Tooltip": "quam"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

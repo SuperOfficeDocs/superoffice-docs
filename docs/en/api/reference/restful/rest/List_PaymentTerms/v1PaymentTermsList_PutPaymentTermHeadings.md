@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 887,
-    "Name": "Lubowitz, Harris and Koelpin",
-    "Tooltip": "laborum",
+    "HeadingId": 643,
+    "Name": "Paucek, Yundt and Kub",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 803,
-    "UdListDefinitionId": 471
+    "Rank": 415,
+    "UdListDefinitionId": 805
   },
   {
-    "HeadingId": 887,
-    "Name": "Lubowitz, Harris and Koelpin",
-    "Tooltip": "laborum",
+    "HeadingId": 643,
+    "Name": "Paucek, Yundt and Kub",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 803,
-    "UdListDefinitionId": 471
+    "Rank": 415,
+    "UdListDefinitionId": 805
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 503,
-    "Name": "Conn-Ortiz",
-    "Tooltip": "deleniti",
+    "HeadingId": 484,
+    "Name": "Moore LLC",
+    "Tooltip": "animi",
     "Deleted": true,
-    "Rank": 30,
-    "UdListDefinitionId": 494,
+    "Rank": 967,
+    "UdListDefinitionId": 816,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 64
+        "FieldType": "System.String",
+        "FieldLength": 366
       }
     }
   }

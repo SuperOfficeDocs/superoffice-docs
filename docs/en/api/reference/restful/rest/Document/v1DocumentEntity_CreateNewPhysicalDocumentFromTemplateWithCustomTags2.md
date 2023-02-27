@@ -36,13 +36,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=476
-POST /api/v1/Document/{documentId}/Content?personId=348
-POST /api/v1/Document/{documentId}/Content?appointmentId=642
-POST /api/v1/Document/{documentId}/Content?saleId=187
-POST /api/v1/Document/{documentId}/Content?selectionId=888
-POST /api/v1/Document/{documentId}/Content?projectId=33
-POST /api/v1/Document/{documentId}/Content?uiCulture=autem
+POST /api/v1/Document/{documentId}/Content?contactId=357
+POST /api/v1/Document/{documentId}/Content?personId=529
+POST /api/v1/Document/{documentId}/Content?appointmentId=628
+POST /api/v1/Document/{documentId}/Content?saleId=618
+POST /api/v1/Document/{documentId}/Content?selectionId=296
+POST /api/v1/Document/{documentId}/Content?projectId=981
+POST /api/v1/Document/{documentId}/Content?uiCulture=debitis
 ```
 
 
@@ -120,7 +120,7 @@ OK
 POST /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -130,88 +130,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 621,
+  "DocumentId": 464,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptas",
-  "Header": "voluptatem",
-  "Name": "Corkery, Carroll and Rowe",
-  "OurRef": "exercitationem",
-  "YourRef": "nulla",
-  "CreatedDate": "2015-02-27T11:22:44.6632227+01:00",
-  "UpdatedDate": "2020-11-24T11:22:44.6632227+01:00",
-  "Description": "Optional composite artificial intelligence",
+  "Attention": "et",
+  "Header": "veniam",
+  "Name": "Beer-Olson",
+  "OurRef": "asperiores",
+  "YourRef": "velit",
+  "CreatedDate": "2015-10-14T14:19:10.3185986+02:00",
+  "UpdatedDate": "2003-09-30T14:19:10.3185986+02:00",
+  "Description": "Switchable fresh-thinking internet solution",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1999-10-22T11:22:44.6632227+02:00",
-  "ExternalRef": "dolor",
+  "Date": "1996-11-08T14:19:10.3185986+01:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 9,
+  "ActiveLinks": 188,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hahn-Mraz",
-      "Id": 806,
-      "Description": "Fundamental even-keeled circuit",
-      "ExtraInfo": "velit",
-      "LinkId": 512,
+      "EntityName": "Osinski-O'Hara",
+      "Id": 381,
+      "Description": "Realigned explicit orchestration",
+      "ExtraInfo": "similique",
+      "LinkId": 498,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 342
+          "FieldLength": 585
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 707,
-  "Snum": 849,
+  "SuggestedDocumentId": 196,
+  "Snum": 326,
   "UserDefinedFields": {
-    "SuperOffice:1": "Stewart Muller",
-    "SuperOffice:2": "1759572668"
+    "SuperOffice:1": "517033966",
+    "SuperOffice:2": "335483577"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "enim"
+    "ExtraFields1": "pariatur",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "officia"
+    "CustomFields1": "sit",
+    "CustomFields2": "repudiandae"
   },
-  "PublishEventDate": "2021-11-24T11:22:44.6632227+01:00",
-  "PublishTo": "2008-09-05T11:22:44.6632227+02:00",
-  "PublishFrom": "2014-10-28T11:22:44.6632227+01:00",
+  "PublishEventDate": "2017-07-02T14:19:10.3185986+02:00",
+  "PublishTo": "1998-09-15T14:19:10.3185986+02:00",
+  "PublishFrom": "2018-09-18T14:19:10.3185986+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 249,
+      "VisibleId": 51,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 32
+          "FieldType": "System.String",
+          "FieldLength": 652
         }
       }
     },
     {
-      "VisibleId": 249,
+      "VisibleId": 51,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 32
+          "FieldType": "System.String",
+          "FieldLength": 652
         }
       }
     }
@@ -221,7 +221,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldLength": 311
     }
   }
 }

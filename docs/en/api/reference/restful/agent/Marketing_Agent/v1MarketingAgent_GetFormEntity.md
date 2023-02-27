@@ -25,7 +25,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=954
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=921
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,34 +97,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 42,
-  "FormKey": "labore",
-  "Name": "Roob, Bergnaum and Hagenes",
-  "Description": "Profit-focused cohesive alliance",
-  "Config": "eos",
-  "FolderId": 145,
-  "ScriptId": 733,
-  "ResponseShipmentId": 983,
+  "FormId": 395,
+  "FormKey": "laborum",
+  "Name": "Friesen-Crona",
+  "Description": "Vision-oriented tertiary capacity",
+  "Config": "eveniet",
+  "FolderId": 955,
+  "ScriptId": 793,
+  "ResponseShipmentId": 108,
   "Active": false,
-  "Expires": "1996-06-13T11:22:38.5552678+02:00",
-  "MaxSubmits": 362,
+  "Expires": "2005-11-25T14:19:03.7176242+01:00",
+  "MaxSubmits": 792,
   "Type": "Normal",
-  "Recipe": "neque",
-  "GroupId": 231,
-  "NewTicket": false,
+  "Recipe": "animi",
+  "GroupId": 623,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2009-10-21T11:22:38.5552678+02:00",
-  "RegisteredAssociateId": 971,
-  "Updated": "2003-02-16T11:22:38.5552678+01:00",
-  "UpdatedAssociateId": 411,
-  "UpdatedCount": 430,
-  "FolderName": "Von-Ullrich",
+  "Registered": "1999-05-26T14:19:03.7176242+02:00",
+  "RegisteredAssociateId": 229,
+  "Updated": "1998-03-11T14:19:03.7176242+01:00",
+  "UpdatedAssociateId": 524,
+  "UpdatedCount": 138,
+  "FolderName": "Frami-O'Conner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 468
+      "FieldType": "System.Int32",
+      "FieldLength": 59
     }
   }
 }

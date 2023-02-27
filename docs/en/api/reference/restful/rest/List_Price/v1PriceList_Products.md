@@ -73,12 +73,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist/{id}/Products?$select=name,department,category/id
 GET /api/v1/Pricelist/{id}/Products?$filter=name begins 'S'
 GET /api/v1/Pricelist/{id}/Products?$orderBy=name asc
-GET /api/v1/Pricelist/{id}/Products?$entities=facilis
-GET /api/v1/Pricelist/{id}/Products?$top=970
-GET /api/v1/Pricelist/{id}/Products?$skip=594
+GET /api/v1/Pricelist/{id}/Products?$entities=sapiente
+GET /api/v1/Pricelist/{id}/Products?$top=295
+GET /api/v1/Pricelist/{id}/Products?$skip=968
 GET /api/v1/Pricelist/{id}/Products?$mode=Full
 GET /api/v1/Pricelist/{id}/Products?$options=GrandTotal=true
-GET /api/v1/Pricelist/{id}/Products?$context=repellat
+GET /api/v1/Pricelist/{id}/Products?$context=quia
 GET /api/v1/Pricelist/{id}/Products?$format=JSON
 GET /api/v1/Pricelist/{id}/Products?$jsonSafe=False
 GET /api/v1/Pricelist/{id}/Products?$output=Display
@@ -133,19 +133,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quia",
+  "odata.nextLink": "inventore",
   "value": [
     {
-      "PrimaryKey": 8307,
+      "PrimaryKey": 2210,
       "EntityName": "person",
-      "personId": 8307,
-      "fullName": "Ms. Salvatore Beahan"
+      "personId": 2210,
+      "fullName": "Prof. Alyce Monroe Thiel II"
     },
     {
-      "PrimaryKey": 5645,
+      "PrimaryKey": 3313,
       "EntityName": "person",
-      "personId": 5645,
-      "fullName": "Gaylord Lynch"
+      "personId": 3313,
+      "fullName": "Wilton Flatley"
     }
   ]
 }

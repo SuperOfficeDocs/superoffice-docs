@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Daniel, Effertz and Bogisich"
+  "FunctionalRightName": "Cremin-Bogan"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 365,
-    "Name": "Strosin Inc and Sons",
-    "ToolTip": "Eos id occaecati voluptatem.",
-    "Deleted": true,
-    "Rank": 211,
-    "Type": "ut",
+    "Id": 169,
+    "Name": "Deckow LLC",
+    "ToolTip": "Voluptatem dolorem ipsum totam.",
+    "Deleted": false,
+    "Rank": 69,
+    "Type": "nobis",
     "ChildItems": [
       {
-        "Id": 896,
-        "Name": "Donnelly Inc and Sons",
-        "ToolTip": "Sit nemo a.",
+        "Id": 633,
+        "Name": "McLaughlin-Walter",
+        "ToolTip": "Earum repellat rerum sit nisi non rerum.",
         "Deleted": false,
-        "Rank": 945,
-        "Type": "quia",
+        "Rank": 524,
+        "Type": "doloribus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 736,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "similique",
-        "FullName": "Jaeden Barton",
+        "IconHint": "aspernatur",
+        "ColorBlock": 652,
+        "ExtraInfo": "quia",
+        "StyleHint": "aut",
+        "FullName": "Linda Zulauf",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 765
+            "FieldLength": 652
           }
         }
       }
     ],
-    "IconHint": "magnam",
-    "ColorBlock": 774,
-    "ExtraInfo": "est",
-    "StyleHint": "illum",
-    "FullName": "Camylle Pfannerstill",
+    "IconHint": "omnis",
+    "ColorBlock": 194,
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "tempora",
+    "FullName": "Tanner Rice",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 276
+        "FieldLength": 664
       }
     }
   }

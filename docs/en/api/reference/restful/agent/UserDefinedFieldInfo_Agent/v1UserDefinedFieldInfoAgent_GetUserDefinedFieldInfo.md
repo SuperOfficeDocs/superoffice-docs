@@ -25,7 +25,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=608
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=164
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -109,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 945,
-  "ColumnId": 366,
-  "FieldDefault": "dicta",
-  "FieldHeight": 554,
-  "FieldLabel": "illum",
-  "FieldLeft": 536,
-  "FieldTop": 131,
+  "UDefFieldId": 171,
+  "ColumnId": 469,
+  "FieldDefault": "maiores",
+  "FieldHeight": 119,
+  "FieldLabel": "sit",
+  "FieldLeft": 103,
+  "FieldTop": 509,
   "FieldType": "Checkbox",
-  "FieldWidth": 253,
-  "FormatMask": "enim",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 22,
-  "LabelLeft": 260,
-  "LabelTop": 255,
-  "LabelWidth": 902,
-  "LastVersionId": 924,
-  "ListTableId": 253,
+  "FieldWidth": 193,
+  "FormatMask": "eius",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 642,
+  "LabelLeft": 78,
+  "LabelTop": 899,
+  "LabelWidth": 325,
+  "LastVersionId": 361,
+  "ListTableId": 723,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 599,
-  "ProgId": "qui",
-  "IsReadOnly": true,
-  "ShortLabel": "quia",
-  "TabOrder": 272,
-  "TextLength": 388,
-  "Tooltip": "nobis",
-  "UdefIdentity": 938,
-  "UDListDefinitionId": 267,
+  "Page1LineNo": 779,
+  "ProgId": "officia",
+  "IsReadOnly": false,
+  "ShortLabel": "id",
+  "TabOrder": 607,
+  "TextLength": 89,
+  "Tooltip": "provident",
+  "UdefIdentity": 582,
+  "UDListDefinitionId": 900,
   "Justification": "Center",
-  "Version": 847,
-  "TemplateVariableName": "Bosco, Stanton and Powlowski",
+  "Version": 731,
+  "TemplateVariableName": "Predovic, Sipes and Sipes",
   "HasBeenPublished": false,
-  "MdoListName": "Hickle-Rice",
+  "MdoListName": "Hahn-Conroy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 246
+      "FieldLength": 758
     }
   }
 }

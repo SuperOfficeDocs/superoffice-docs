@@ -78,12 +78,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 878,
-  "Name": "Huels Inc and Sons",
-  "Tooltip": "facilis",
-  "Deleted": true,
-  "Rank": 469,
-  "UdListDefinitionId": 930
+  "HeadingId": 772,
+  "Name": "Carter Group",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 366,
+  "UdListDefinitionId": 57
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 489,
-  "Name": "Grimes, Conn and Schimmel",
-  "Tooltip": "sed",
+  "HeadingId": 981,
+  "Name": "Boehm Group",
+  "Tooltip": "ab",
   "Deleted": false,
-  "Rank": 1002,
-  "UdListDefinitionId": 22,
+  "Rank": 267,
+  "UdListDefinitionId": 197,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 44
+      "FieldLength": 99
     }
   }
 }

@@ -25,8 +25,8 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentSource/MDOItems?flat=True
-GET /api/v1/List/ConsentSource/MDOItems?query=soluta
+GET /api/v1/List/ConsentSource/MDOItems?flat=False
+GET /api/v1/List/ConsentSource/MDOItems?query=ea
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 780,
-    "Name": "Hills-Kulas",
-    "ToolTip": "Aut beatae adipisci nulla provident quibusdam.",
+    "Id": 165,
+    "Name": "Kunze, Oberbrunner and Lesch",
+    "ToolTip": "Dolorem ducimus a eveniet.",
     "Deleted": false,
-    "Rank": 948,
-    "Type": "earum",
+    "Rank": 407,
+    "Type": "dolorum",
     "ChildItems": [
       {
-        "Id": 791,
-        "Name": "Brekke-Lang",
-        "ToolTip": "Id quisquam eum.",
+        "Id": 998,
+        "Name": "Spencer-Batz",
+        "ToolTip": "Enim iusto dolorem.",
         "Deleted": false,
-        "Rank": 431,
-        "Type": "et",
+        "Rank": 673,
+        "Type": "iste",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestiae",
-        "ColorBlock": 1000,
-        "ExtraInfo": "autem",
-        "StyleHint": "aut",
-        "FullName": "Keaton Glover",
+        "IconHint": "enim",
+        "ColorBlock": 780,
+        "ExtraInfo": "adipisci",
+        "StyleHint": "nesciunt",
+        "FullName": "Dr. Alexie Dare I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 427
+            "FieldType": "System.String",
+            "FieldLength": 207
           }
         }
       }
     ],
-    "IconHint": "recusandae",
-    "ColorBlock": 749,
-    "ExtraInfo": "et",
-    "StyleHint": "sequi",
-    "FullName": "Danika Friesen",
+    "IconHint": "aperiam",
+    "ColorBlock": 454,
+    "ExtraInfo": "tenetur",
+    "StyleHint": "corrupti",
+    "FullName": "Yolanda Hermiston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 360
+        "FieldLength": 826
       }
     }
   }

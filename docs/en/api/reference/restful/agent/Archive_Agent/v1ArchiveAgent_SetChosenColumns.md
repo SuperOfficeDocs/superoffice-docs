@@ -71,11 +71,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Sporer Group",
-  "ProviderName": "Sanford, Deckow and Schultz",
+  "GuiName": "Conn-Hessel",
+  "ProviderName": "Hane LLC",
   "ChosenColumns": [
-    "ullam",
-    "beatae"
+    "eligendi",
+    "modi"
   ]
 }
 ```

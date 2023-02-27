@@ -103,7 +103,7 @@ ProjectEntity found.
 POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 360,
-  "ColumnId": 648,
-  "FieldDefault": "et",
-  "FieldHeight": 111,
-  "FieldLabel": "sint",
-  "FieldLeft": 349,
-  "FieldTop": 640,
+  "UDefFieldId": 583,
+  "ColumnId": 755,
+  "FieldDefault": "quibusdam",
+  "FieldHeight": 682,
+  "FieldLabel": "commodi",
+  "FieldLeft": 586,
+  "FieldTop": 524,
   "FieldType": "Checkbox",
-  "FieldWidth": 106,
-  "FormatMask": "veniam",
+  "FieldWidth": 533,
+  "FormatMask": "fugiat",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 744,
-  "LabelLeft": 495,
-  "LabelTop": 779,
-  "LabelWidth": 959,
-  "LastVersionId": 728,
-  "ListTableId": 533,
-  "IsMandatory": true,
+  "LabelHeight": 129,
+  "LabelLeft": 652,
+  "LabelTop": 504,
+  "LabelWidth": 739,
+  "LastVersionId": 899,
+  "ListTableId": 741,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 547,
-  "ProgId": "dolorum",
+  "Page1LineNo": 864,
+  "ProgId": "facilis",
   "IsReadOnly": false,
-  "ShortLabel": "sunt",
-  "TabOrder": 965,
-  "TextLength": 890,
-  "Tooltip": "est",
-  "UdefIdentity": 831,
-  "UDListDefinitionId": 482,
+  "ShortLabel": "dolorum",
+  "TabOrder": 398,
+  "TextLength": 971,
+  "Tooltip": "numquam",
+  "UdefIdentity": 206,
+  "UDListDefinitionId": 996,
   "Justification": "Center",
-  "Version": 396,
-  "TemplateVariableName": "Aufderhar, Grimes and Keeling",
+  "Version": 394,
+  "TemplateVariableName": "Nikolaus, Lang and Rolfson",
   "HasBeenPublished": true,
-  "MdoListName": "Grimes-Johns",
+  "MdoListName": "Osinski Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 775
+      "FieldType": "System.Int32",
+      "FieldLength": 582
     }
   }
 }

@@ -70,21 +70,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "iste",
+  "RawValue": "iusto",
   "Specification": null,
-  "DisplayValue": "pariatur",
-  "DisplayTooltip": "ut",
+  "DisplayValue": "ea",
+  "DisplayTooltip": "illo",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 995,
-  "PrefDescId": 877,
-  "TableName": "Schmitt, Gislason and Flatley",
-  "UserPreferenceId": 126
+  "TargetId": 475,
+  "PrefDescId": 326,
+  "TableName": "Abbott LLC",
+  "UserPreferenceId": 887
 }
 ```
 

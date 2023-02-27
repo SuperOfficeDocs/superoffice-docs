@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 580,
-    "Name": "Mayer-McLaughlin",
-    "Description": "Triple-buffered context-sensitive encryption",
+    "ProjectId": 157,
+    "Name": "Nienow Inc and Sons",
+    "Description": "Enterprise-wide demand-driven conglomeration",
     "URL": "http://www.example.com/",
-    "Type": "voluptatum",
-    "AssociateId": 292,
-    "AssociateFullName": "Mason Ziemann",
-    "TypeId": 602,
-    "Updated": "2022-11-28T11:22:38.8520826+01:00",
-    "StatusId": 711,
-    "Status": "fuga",
-    "TextId": 325,
-    "PublishTo": "2019-03-10T11:22:38.8520826+01:00",
-    "PublishFrom": "2000-04-11T11:22:38.8520826+02:00",
-    "IsPublished": false,
+    "Type": "odit",
+    "AssociateId": 181,
+    "AssociateFullName": "Robb Runolfsdottir",
+    "TypeId": 992,
+    "Updated": "2017-04-23T14:19:03.9688343+02:00",
+    "StatusId": 888,
+    "Status": "ut",
+    "TextId": 452,
+    "PublishTo": "2019-03-30T14:19:03.9688343+01:00",
+    "PublishFrom": "2015-12-12T14:19:03.9688343+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "979106",
-    "ActiveErpLinks": 973,
+    "ProjectNumber": "1138746",
+    "ActiveErpLinks": 597,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 62
+        "FieldType": "System.Int32",
+        "FieldLength": 635
       }
     }
   }

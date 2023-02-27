@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 739,
-  "Name": "Torp, Jacobi and Howell",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 960,
-  "UdListDefinitionId": 616
+  "HeadingId": 235,
+  "Name": "Stracke-Jakubowski",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 34,
+  "UdListDefinitionId": 773
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 969,
-  "Name": "Ryan Inc and Sons",
-  "Tooltip": "adipisci",
+  "HeadingId": 326,
+  "Name": "Emmerich, Stracke and Witting",
+  "Tooltip": "delectus",
   "Deleted": false,
-  "Rank": 654,
-  "UdListDefinitionId": 456,
+  "Rank": 643,
+  "UdListDefinitionId": 673,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 782
+      "FieldType": "System.Int32",
+      "FieldLength": 720
     }
   }
 }

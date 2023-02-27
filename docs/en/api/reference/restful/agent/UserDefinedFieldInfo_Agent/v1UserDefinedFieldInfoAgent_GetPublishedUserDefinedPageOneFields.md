@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 45
+  "UserGroupId": 849
 }
 ```
 
@@ -123,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 941,
-    "ColumnId": 922,
-    "FieldDefault": "assumenda",
-    "FieldHeight": 345,
-    "FieldLabel": "quae",
-    "FieldLeft": 744,
-    "FieldTop": 202,
+    "UDefFieldId": 504,
+    "ColumnId": 15,
+    "FieldDefault": "consequuntur",
+    "FieldHeight": 221,
+    "FieldLabel": "rerum",
+    "FieldLeft": 643,
+    "FieldTop": 741,
     "FieldType": "Checkbox",
-    "FieldWidth": 428,
-    "FormatMask": "rerum",
-    "HideLabel": true,
+    "FieldWidth": 55,
+    "FormatMask": "eos",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 675,
-    "LabelLeft": 882,
-    "LabelTop": 758,
-    "LabelWidth": 463,
-    "LastVersionId": 675,
-    "ListTableId": 241,
-    "IsMandatory": false,
+    "LabelHeight": 335,
+    "LabelLeft": 919,
+    "LabelTop": 779,
+    "LabelWidth": 513,
+    "LastVersionId": 406,
+    "ListTableId": 882,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 509,
-    "ProgId": "rerum",
-    "IsReadOnly": false,
-    "ShortLabel": "eos",
-    "TabOrder": 73,
-    "TextLength": 736,
-    "Tooltip": "qui",
-    "UdefIdentity": 293,
-    "UDListDefinitionId": 440,
+    "Page1LineNo": 831,
+    "ProgId": "consequatur",
+    "IsReadOnly": true,
+    "ShortLabel": "eligendi",
+    "TabOrder": 190,
+    "TextLength": 897,
+    "Tooltip": "id",
+    "UdefIdentity": 736,
+    "UDListDefinitionId": 620,
     "Justification": "Center",
-    "Version": 735,
-    "TemplateVariableName": "Larson Inc and Sons",
+    "Version": 555,
+    "TemplateVariableName": "Christiansen Group",
     "HasBeenPublished": false,
-    "MdoListName": "Hodkiewicz LLC",
+    "MdoListName": "Fadel, Hintz and Thiel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 903
+        "FieldLength": 137
       }
     }
   }

@@ -90,19 +90,19 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 936,
-  "BlobSize": 492,
-  "Description": "Programmable background throughput",
-  "ExtraInfo": "aut",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "voluptate",
-  "OriginalSize": 192,
-  "CreatedDate": "2011-03-01T11:22:37.4461725+01:00",
-  "UpdatedDate": "2001-11-02T11:22:37.4461725+01:00",
+  "BlobId": 984,
+  "BlobSize": 719,
+  "Description": "User-friendly contextually-based moratorium",
+  "ExtraInfo": "odio",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "nemo",
+  "OriginalSize": 790,
+  "CreatedDate": "2003-12-24T14:19:02.7750538+01:00",
+  "UpdatedDate": "2015-04-13T14:19:02.7750538+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "perferendis"
+  "ConceptualType": "quia"
 }
 ```
 
@@ -113,25 +113,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 330,
-  "BlobSize": 707,
-  "Description": "Organic encompassing focus group",
-  "ExtraInfo": "quae",
-  "IsEncrypted": false,
+  "BlobId": 92,
+  "BlobSize": 463,
+  "Description": "Right-sized interactive emulation",
+  "ExtraInfo": "sapiente",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "eos",
-  "OriginalSize": 166,
-  "CreatedDate": "2015-08-11T11:22:37.4461725+02:00",
-  "UpdatedDate": "2000-08-04T11:22:37.4461725+02:00",
+  "MimeType": "placeat",
+  "OriginalSize": 636,
+  "CreatedDate": "2022-12-20T14:19:02.7750538+01:00",
+  "UpdatedDate": "2003-06-23T14:19:02.7750538+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nesciunt",
+  "ConceptualType": "corrupti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldLength": 671
     }
   }
 }

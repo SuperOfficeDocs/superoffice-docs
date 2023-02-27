@@ -25,8 +25,8 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductCategory/MDOItems?flat=True
-GET /api/v1/List/ProductCategory/MDOItems?query=deleniti
+GET /api/v1/List/ProductCategory/MDOItems?flat=False
+GET /api/v1/List/ProductCategory/MDOItems?query=quaerat
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 590,
-    "Name": "Zboncak, Rolfson and Hammes",
-    "ToolTip": "Aut nam molestiae nihil et provident.",
-    "Deleted": true,
-    "Rank": 141,
-    "Type": "molestias",
+    "Id": 360,
+    "Name": "Greenfelder-Halvorson",
+    "ToolTip": "Ut alias officia autem.",
+    "Deleted": false,
+    "Rank": 800,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 861,
-        "Name": "Franecki, McCullough and Ernser",
-        "ToolTip": "Inventore harum nemo et consequuntur officiis necessitatibus.",
+        "Id": 268,
+        "Name": "Rolfson Group",
+        "ToolTip": "Delectus quaerat aspernatur blanditiis possimus voluptate.",
         "Deleted": false,
-        "Rank": 738,
-        "Type": "molestias",
+        "Rank": 441,
+        "Type": "quis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 737,
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "quis",
-        "FullName": "Mr. Darrell Josue Dooley PhD",
+        "IconHint": "iure",
+        "ColorBlock": 681,
+        "ExtraInfo": "sed",
+        "StyleHint": "magnam",
+        "FullName": "Francis Bernhard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 375
+            "FieldLength": 137
           }
         }
       }
     ],
-    "IconHint": "ad",
-    "ColorBlock": 718,
-    "ExtraInfo": "sapiente",
-    "StyleHint": "cum",
-    "FullName": "Cody Boyer",
+    "IconHint": "ut",
+    "ColorBlock": 999,
+    "ExtraInfo": "quas",
+    "StyleHint": "omnis",
+    "FullName": "Ms. Kian Emmalee Torp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 832
+        "FieldLength": 715
       }
     }
   }

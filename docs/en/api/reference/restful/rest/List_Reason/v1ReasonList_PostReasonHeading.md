@@ -78,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 168,
-  "Name": "Harvey LLC",
-  "Tooltip": "quos",
-  "Deleted": true,
-  "Rank": 291,
-  "UdListDefinitionId": 272
+  "HeadingId": 239,
+  "Name": "Kuhic, Oberbrunner and Corwin",
+  "Tooltip": "architecto",
+  "Deleted": false,
+  "Rank": 872,
+  "UdListDefinitionId": 337
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 104,
-  "Name": "Waters-Feest",
-  "Tooltip": "vel",
-  "Deleted": false,
-  "Rank": 468,
-  "UdListDefinitionId": 891,
+  "HeadingId": 168,
+  "Name": "Wuckert, Batz and Sipes",
+  "Tooltip": "ad",
+  "Deleted": true,
+  "Rank": 373,
+  "UdListDefinitionId": 93,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 131
+      "FieldType": "System.Int32",
+      "FieldLength": 954
     }
   }
 }

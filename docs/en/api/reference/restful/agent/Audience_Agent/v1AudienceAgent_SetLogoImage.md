@@ -68,7 +68,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Morar Group",
+  "LayoutName": "Hammes-Stokes",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

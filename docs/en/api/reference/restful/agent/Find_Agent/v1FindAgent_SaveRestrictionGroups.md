@@ -77,34 +77,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eum",
-  "ProviderName": "West Group",
-  "StorageKey": "minus",
+  "StorageType": "qui",
+  "ProviderName": "O'Conner Inc and Sons",
+  "StorageKey": "ea",
   "RestrictionGroups": [
     {
-      "Name": "Gutkowski, Bosco and Luettgen",
-      "Description": "Mandatory encompassing application",
-      "Rank": 131,
+      "Name": "White LLC",
+      "Description": "Cross-group fresh-thinking moderator",
+      "Rank": 889,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gutkowski, Bosco and Luettgen",
-      "Description": "Mandatory encompassing application",
-      "Rank": 131,
+      "Name": "White LLC",
+      "Description": "Cross-group fresh-thinking moderator",
+      "Rank": 889,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "sapiente"
+  "Context": "et"
 }
 ```
 
@@ -116,20 +116,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bins Group",
-    "Description": "Operative value-added project",
-    "Rank": 203,
+    "Name": "Mann Inc and Sons",
+    "Description": "Front-line systematic website",
+    "Rank": 618,
     "Restrictions": [
       {
-        "Name": "Beier Inc and Sons",
-        "Operator": "modi",
+        "Name": "Boyer-Spinka",
+        "Operator": "odio",
         "Values": [
-          "repudiandae",
-          "recusandae"
+          "autem",
+          "soluta"
         ],
         "DisplayValues": [
-          "atque",
-          "quam"
+          "maiores",
+          "expedita"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -137,27 +137,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 242,
+        "InterParenthesis": 893,
         "InterOperator": "And",
-        "UniqueHash": 11
+        "UniqueHash": 465
       }
     ]
   },
   {
-    "Name": "Bins Group",
-    "Description": "Operative value-added project",
-    "Rank": 203,
+    "Name": "Mann Inc and Sons",
+    "Description": "Front-line systematic website",
+    "Rank": 618,
     "Restrictions": [
       {
-        "Name": "Beier Inc and Sons",
-        "Operator": "modi",
+        "Name": "Boyer-Spinka",
+        "Operator": "odio",
         "Values": [
-          "repudiandae",
-          "recusandae"
+          "autem",
+          "soluta"
         ],
         "DisplayValues": [
-          "atque",
-          "quam"
+          "maiores",
+          "expedita"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -165,9 +165,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 242,
+        "InterParenthesis": 893,
         "InterOperator": "And",
-        "UniqueHash": 11
+        "UniqueHash": 465
       }
     ]
   }

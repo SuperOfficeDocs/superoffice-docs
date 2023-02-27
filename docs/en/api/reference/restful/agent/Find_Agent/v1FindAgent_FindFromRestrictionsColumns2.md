@@ -167,11 +167,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "est",
-  "ProviderName": "Tremblay, Farrell and Collier",
-  "DesiredColumns": "assumenda",
-  "PageSize": 669,
-  "PageNumber": 68
+  "Restrictions": "qui",
+  "ProviderName": "Berge LLC",
+  "DesiredColumns": "omnis",
+  "PageSize": 603,
+  "PageNumber": 231
 }
 ```
 
@@ -184,51 +184,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Armstrong Inc and Sons",
-      "DisplayTooltip": "officiis",
-      "DisplayType": "eos",
+      "DisplayName": "VonRueden Inc and Sons",
+      "DisplayTooltip": "accusantium",
+      "DisplayType": "quae",
       "CanOrderBy": false,
-      "Name": "Auer Group",
+      "Name": "Welch Group",
       "CanRestrictBy": false,
-      "RestrictionType": "et",
-      "RestrictionListName": "Smitham LLC",
-      "IsVisible": false,
-      "ExtraInfo": "omnis",
-      "Width": "sequi",
-      "IconHint": "error",
-      "HeadingIconHint": "architecto"
+      "RestrictionType": "ipsa",
+      "RestrictionListName": "Funk, Walter and Veum",
+      "IsVisible": true,
+      "ExtraInfo": "temporibus",
+      "Width": "et",
+      "IconHint": "perferendis",
+      "HeadingIconHint": "in"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Beer Group",
-      "PrimaryKey": 598,
+      "EntityName": "Frami, O'Keefe and Homenick",
+      "PrimaryKey": 974,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quidem",
-          "TooltipHint": "nisi",
-          "LinkHint": "illo"
+          "DisplayValue": "amet",
+          "TooltipHint": "labore",
+          "LinkHint": "cum"
         }
       },
-      "LinkHint": "beatae",
-      "StyleHint": "possimus",
+      "LinkHint": "odio",
+      "StyleHint": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 178
+          "FieldLength": 500
         }
       }
     }
   ],
-  "RowCount": 317,
+  "RowCount": 787,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 294
+      "FieldType": "System.Int32",
+      "FieldLength": 1002
     }
   }
 }

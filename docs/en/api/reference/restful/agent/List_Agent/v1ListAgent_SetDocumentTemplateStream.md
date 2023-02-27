@@ -101,14 +101,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "aut",
-  "PluginId": 732
+  "LanguageCode": "atque",
+  "PluginId": 295
 }
 ```
 
@@ -119,37 +119,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 389,
-  "Name": "Predovic-Crooks",
-  "Tooltip": "aut",
-  "SaveInDb": 374,
-  "Filename": "enim",
-  "DefaultOref": "vel",
+  "DocumentTemplateId": 979,
+  "Name": "Anderson LLC",
+  "Tooltip": "temporibus",
+  "SaveInDb": 751,
+  "Filename": "facere",
+  "DefaultOref": "asperiores",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 340,
-  "IntentId": 398,
+  "AutoeventId": 332,
+  "IntentId": 598,
   "IsDefaultPublished": true,
-  "Rank": 836,
-  "LoadTemplateFromPlugin": 930,
-  "MimeType": "molestias",
+  "Rank": 815,
+  "LoadTemplateFromPlugin": 989,
+  "MimeType": "sed",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 735,
+  "DocumentTypeKey": 950,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "andy.murazik@parisianhilll.name",
+  "EmailSubject": "skyla.heaney@pricemurray.us",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "tyrese@oharalindgren.com",
+  "SenderEmailAddress": "creola@gottlieb.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldLength": 429
     }
   }
 }

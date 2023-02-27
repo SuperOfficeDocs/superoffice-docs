@@ -92,12 +92,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 878,
-  "PrefDescId": 223,
-  "PrefValue": "enim",
-  "PrefShowValue": "dolor",
-  "Description": "Total optimal collaboration",
-  "IsBuiltin": true
+  "PrefDescLineId": 194,
+  "PrefDescId": 560,
+  "PrefValue": "rerum",
+  "PrefShowValue": "nisi",
+  "Description": "Managed exuding adapter",
+  "IsBuiltin": false
 }
 ```
 
@@ -108,23 +108,23 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 886,
-  "PrefDescId": 863,
-  "PrefValue": "sed",
-  "PrefShowValue": "eos",
-  "Description": "Customizable 3rd generation time-frame",
-  "IsBuiltin": true,
+  "PrefDescLineId": 483,
+  "PrefDescId": 760,
+  "PrefValue": "quam",
+  "PrefShowValue": "ducimus",
+  "Description": "Sharable next generation orchestration",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 483
+      "FieldType": "System.String",
+      "FieldLength": 449
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

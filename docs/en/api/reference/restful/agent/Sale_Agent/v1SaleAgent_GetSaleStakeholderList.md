@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,31 +98,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Goldner Inc and Sons",
-    "Comment": "et",
-    "StakeholderRoleId": 38,
-    "CountryId": 900,
-    "PersonId": 596,
-    "EmailDescription": "chelsey_bechtelar@ruecker.co.uk",
-    "EmailId": 623,
-    "EmailAddress": "linnea_weissnat@friesenprohaska.co.uk",
-    "PhoneId": 987,
-    "ContactName": "Berge-Quitzon",
-    "ContactId": 846,
-    "SaleId": 795,
-    "Mrmrs": "est",
-    "Firstname": "Amanda",
-    "MiddleName": "Blanda, Homenick and Champlin",
-    "Lastname": "Koepp",
-    "SaleStakeholderId": 460,
-    "Rank": 690,
-    "Phone": "1-389-008-9329",
+    "StakeholderRoleName": "Bailey, Wilderman and Powlowski",
+    "Comment": "perspiciatis",
+    "StakeholderRoleId": 25,
+    "CountryId": 45,
+    "PersonId": 198,
+    "EmailDescription": "mireille.jerde@bernhardwisoky.info",
+    "EmailId": 388,
+    "EmailAddress": "rosalinda@oconner.name",
+    "PhoneId": 264,
+    "ContactName": "Dicki, Ullrich and Rath",
+    "ContactId": 139,
+    "SaleId": 971,
+    "Mrmrs": "culpa",
+    "Firstname": "Kieran",
+    "MiddleName": "Hickle-Schmidt",
+    "Lastname": "Raynor",
+    "SaleStakeholderId": 233,
+    "Rank": 158,
+    "Phone": "1-534-581-9930",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 793
+        "FieldLength": 276
       }
     }
   }

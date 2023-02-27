@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 615,
-  "ListItemId": 121,
+  "UdListDefinitionId": 670,
+  "ListItemId": 764,
   "ShowDeleted": false
 }
 ```
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Name": "Swaniawski, Metz and Little",
-    "ToolTip": "Dolores quia ut amet perferendis explicabo necessitatibus sequi.",
+    "Id": 329,
+    "Name": "Gorczany-Hansen",
+    "ToolTip": "Exercitationem architecto.",
     "Deleted": true,
-    "Rank": 753,
-    "Type": "illum",
-    "ColorBlock": 457,
-    "IconHint": "eum",
+    "Rank": 791,
+    "Type": "necessitatibus",
+    "ColorBlock": 783,
+    "IconHint": "laudantium",
     "Selected": false,
-    "LastChanged": "2018-03-27T11:22:38.4615502+02:00",
+    "LastChanged": "2003-02-01T14:19:03.6238736+01:00",
     "ChildItems": [
       {
-        "Id": 555,
-        "Name": "Senger, Murazik and Sawayn",
-        "ToolTip": "Dignissimos iure et officiis natus assumenda.",
-        "Deleted": false,
-        "Rank": 576,
-        "Type": "cumque",
-        "ColorBlock": 639,
-        "IconHint": "quis",
+        "Id": 125,
+        "Name": "Gorczany, Hickle and DuBuque",
+        "ToolTip": "Asperiores sapiente eligendi.",
+        "Deleted": true,
+        "Rank": 748,
+        "Type": "distinctio",
+        "ColorBlock": 667,
+        "IconHint": "praesentium",
         "Selected": false,
-        "LastChanged": "1998-11-14T11:22:38.4615502+01:00",
+        "LastChanged": "2019-02-11T14:19:03.6394986+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "illo",
+        "ExtraInfo": "laborum",
+        "StyleHint": "placeat",
         "Hidden": false,
-        "FullName": "Emie Schmidt",
+        "FullName": "Miss Isabella Diamond Eichmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 490
+            "FieldType": "System.Int32",
+            "FieldLength": 751
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "dolorum",
+    "ExtraInfo": "quam",
+    "StyleHint": "libero",
     "Hidden": false,
-    "FullName": "Brain Harry Schroeder MD",
+    "FullName": "Delpha Conroy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 887
+        "FieldLength": 42
       }
     }
   }

@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 665,
-    "Value": "sit",
-    "Tooltip": "aperiam",
+    "Id": 56,
+    "Value": "nesciunt",
+    "Tooltip": "consectetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldLength": 565
       }
     }
   },
   {
-    "Id": 665,
-    "Value": "sit",
-    "Tooltip": "aperiam",
+    "Id": 56,
+    "Value": "nesciunt",
+    "Tooltip": "consectetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldLength": 565
       }
     }
   }

@@ -26,7 +26,7 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=alias
+GET /api/v1/List/Currency/MDOItems?query=rerum
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Shields, Murray and Barrows",
-    "ToolTip": "Maxime vitae sed quo at minus.",
+    "Id": 738,
+    "Name": "Hermann Inc and Sons",
+    "ToolTip": "Nesciunt quod pariatur debitis quod eligendi.",
     "Deleted": true,
-    "Rank": 121,
-    "Type": "autem",
+    "Rank": 411,
+    "Type": "aspernatur",
     "ChildItems": [
       {
-        "Id": 577,
-        "Name": "Wilderman-Beatty",
-        "ToolTip": "Tempore praesentium at quos blanditiis quaerat.",
+        "Id": 535,
+        "Name": "Schneider-Fahey",
+        "ToolTip": "Magni ea quasi sunt.",
         "Deleted": true,
-        "Rank": 371,
-        "Type": "omnis",
+        "Rank": 409,
+        "Type": "harum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 179,
-        "ExtraInfo": "laborum",
-        "StyleHint": "dolor",
-        "FullName": "Wendell Parisian II",
+        "IconHint": "voluptas",
+        "ColorBlock": 801,
+        "ExtraInfo": "veritatis",
+        "StyleHint": "ut",
+        "FullName": "Vida Kozey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 233
+            "FieldType": "System.String",
+            "FieldLength": 354
           }
         }
       }
     ],
-    "IconHint": "similique",
-    "ColorBlock": 825,
-    "ExtraInfo": "fugiat",
-    "StyleHint": "repudiandae",
-    "FullName": "Prof. Marquise Efren Schuster II",
+    "IconHint": "magni",
+    "ColorBlock": 539,
+    "ExtraInfo": "dolorum",
+    "StyleHint": "temporibus",
+    "FullName": "Madelyn Baumbach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 854
+        "FieldLength": 421
       }
     }
   }

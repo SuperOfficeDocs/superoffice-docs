@@ -138,33 +138,33 @@ ChatSessionEntity updated.
 PUT /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 844,
-  "TopicId": 30,
+  "ChatSessionId": 24,
+  "TopicId": 187,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dignissimos",
-  "CustomerHost": "dolorum",
-  "CustomerName": "Brown, Christiansen and Beier",
-  "CustomerEmail": "alfredo.corkery@stanton.uk",
-  "CustomerPhone": "1-272-493-3710",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Schiller, Armstrong and Leannon",
+  "CustomerAlias": "ullam",
+  "CustomerHost": "consequatur",
+  "CustomerName": "Connelly, Bergnaum and Durgan",
+  "CustomerEmail": "garland@beahan.com",
+  "CustomerPhone": "1-883-069-8200 x35553",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Schowalter-Ritchie",
   "Status": "Closed",
-  "FirstMessage": "iure",
-  "LastMessage": "molestiae",
-  "WhenRequested": "2022-12-17T11:22:44.3195524+01:00",
-  "WhenStarted": "2013-10-23T11:22:44.3195524+02:00",
-  "WhenEnded": "2008-10-28T11:22:44.3195524+01:00",
-  "WhenIdle": "2011-05-04T11:22:44.3195524+02:00",
-  "WhenFetched": "2021-03-27T11:22:44.3195524+01:00",
-  "SessionKey": "ut",
-  "InitialQueuePos": 954,
-  "AlertLevel": 819,
-  "Rank": 817,
+  "FirstMessage": "labore",
+  "LastMessage": "aut",
+  "WhenRequested": "2014-06-29T14:19:10.0048864+02:00",
+  "WhenStarted": "2022-07-18T14:19:10.0048864+02:00",
+  "WhenEnded": "1998-10-23T14:19:10.0048864+02:00",
+  "WhenIdle": "2010-09-08T14:19:10.0048864+02:00",
+  "WhenFetched": "2013-10-23T14:19:10.0048864+02:00",
+  "SessionKey": "recusandae",
+  "InitialQueuePos": 199,
+  "AlertLevel": 574,
+  "Rank": 31,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 333
+  "Rating": 980
 }
 ```
 
@@ -183,29 +183,29 @@ HTTP/1.1 200 ChatSessionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 598,
-  "TopicId": 86,
+  "ChatSessionId": 776,
+  "TopicId": 970,
   "User": null,
   "Person": null,
-  "CustomerAlias": "velit",
-  "CustomerHost": "alias",
-  "CustomerName": "Wiza-Jacobi",
-  "CustomerEmail": "jalon@heller.ca",
-  "CustomerPhone": "1-128-321-0572",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Schmidt-Rodriguez",
+  "CustomerAlias": "recusandae",
+  "CustomerHost": "minus",
+  "CustomerName": "Bahringer-Russel",
+  "CustomerEmail": "nico_beahan@moorevon.name",
+  "CustomerPhone": "(441)074-9969 x75670",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "O'Connell LLC",
   "Status": "Closed",
-  "FirstMessage": "consequatur",
-  "LastMessage": "repudiandae",
-  "WhenRequested": "2000-10-22T11:22:44.335174+02:00",
-  "WhenStarted": "2013-10-03T11:22:44.335174+02:00",
-  "WhenEnded": "2014-09-02T11:22:44.335174+02:00",
-  "WhenIdle": "2021-02-18T11:22:44.335174+01:00",
-  "WhenFetched": "2000-12-17T11:22:44.335174+01:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 251,
-  "AlertLevel": 967,
-  "Rank": 220,
+  "FirstMessage": "recusandae",
+  "LastMessage": "qui",
+  "WhenRequested": "2015-02-09T14:19:10.0205104+01:00",
+  "WhenStarted": "2021-08-17T14:19:10.0205104+02:00",
+  "WhenEnded": "2012-11-27T14:19:10.0205104+01:00",
+  "WhenIdle": "2011-06-11T14:19:10.0205104+02:00",
+  "WhenFetched": "2016-10-23T14:19:10.0205104+02:00",
+  "SessionKey": "enim",
+  "InitialQueuePos": 831,
+  "AlertLevel": 509,
+  "Rank": 294,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -213,13 +213,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 526,
+  "Rating": 550,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldType": "System.String",
+      "FieldLength": 435
     }
   },
   "_Links": {

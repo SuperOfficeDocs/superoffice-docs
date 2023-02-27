@@ -71,7 +71,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Hostname": "expedita"
+  "Hostname": "cum"
 }
 ```
 
@@ -82,7 +82,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "corporis",
-  "autem"
+  "dolorem",
+  "voluptas"
 ]
 ```

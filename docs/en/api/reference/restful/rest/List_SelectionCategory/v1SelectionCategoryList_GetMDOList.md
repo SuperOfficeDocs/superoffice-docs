@@ -25,8 +25,8 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=dolor
+GET /api/v1/List/SelectionCategory/MDOItems?flat=True
+GET /api/v1/List/SelectionCategory/MDOItems?query=suscipit
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 221,
-    "Name": "Kling, Nienow and Legros",
-    "ToolTip": "Non ea accusamus.",
-    "Deleted": false,
-    "Rank": 456,
-    "Type": "est",
+    "Id": 19,
+    "Name": "Kling Inc and Sons",
+    "ToolTip": "Neque fuga.",
+    "Deleted": true,
+    "Rank": 534,
+    "Type": "doloribus",
     "ChildItems": [
       {
-        "Id": 288,
-        "Name": "Dach, Block and Bahringer",
-        "ToolTip": "Cum modi nihil.",
-        "Deleted": false,
-        "Rank": 426,
-        "Type": "aut",
+        "Id": 487,
+        "Name": "Emmerich, Emard and Beahan",
+        "ToolTip": "Nostrum nulla culpa inventore voluptas magnam.",
+        "Deleted": true,
+        "Rank": 146,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "itaque",
-        "ColorBlock": 213,
-        "ExtraInfo": "libero",
-        "StyleHint": "minus",
-        "FullName": "Jeramie Quitzon",
+        "IconHint": "fugit",
+        "ColorBlock": 778,
+        "ExtraInfo": "doloribus",
+        "StyleHint": "sed",
+        "FullName": "Wilma Rowe DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 859
+            "FieldType": "System.Int32",
+            "FieldLength": 245
           }
         }
       }
     ],
-    "IconHint": "asperiores",
-    "ColorBlock": 107,
-    "ExtraInfo": "voluptate",
-    "StyleHint": "a",
-    "FullName": "Dr. Shayna Hanna Champlin",
+    "IconHint": "ducimus",
+    "ColorBlock": 93,
+    "ExtraInfo": "nostrum",
+    "StyleHint": "quos",
+    "FullName": "Jovany Williamson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 20
+        "FieldType": "System.Int32",
+        "FieldLength": 284
       }
     }
   }

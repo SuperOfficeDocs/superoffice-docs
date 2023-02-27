@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Gleason-Dicki"
+  "HistoryName": "Schoen, Schaefer and Zemlak"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 61,
-    "Id": 279,
-    "HistoryName": "Conroy Group",
-    "HistoryId": 271,
-    "AssociateId": 96,
-    "Name": "Shields Inc and Sons",
-    "ItemInfo": "tempora",
+    "Rank": 728,
+    "Id": 996,
+    "HistoryName": "Bernier Group",
+    "HistoryId": 518,
+    "AssociateId": 65,
+    "Name": "Stroman LLC",
+    "ItemInfo": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 689
+        "FieldType": "System.Int32",
+        "FieldLength": 526
       }
     }
   }

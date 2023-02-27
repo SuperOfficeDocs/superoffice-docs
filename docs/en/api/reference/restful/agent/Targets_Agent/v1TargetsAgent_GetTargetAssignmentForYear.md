@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 826,
+  "TargetYear": 294,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 908
+  "Id": 656
 }
 ```
 
@@ -101,24 +101,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 25,
+  "TargetAssignmentInfoId": 524,
   "Values": [
-    505,
-    405
+    907,
+    169
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 27,
-  "DimensionListItemDisplayName": "Goodwin, Rogahn and Schultz",
+  "DimensionListItem": 951,
+  "DimensionListItemDisplayName": "Jenkins, Bins and Carter",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 96
+      "FieldType": "System.Int32",
+      "FieldLength": 613
     }
   }
 }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 891,
-    "Name": "Cronin Group",
-    "ToolTip": "Ut voluptatum eos.",
+    "Id": 600,
+    "Name": "Runolfsson-Daugherty",
+    "ToolTip": "Doloribus odio autem saepe eos.",
     "Deleted": true,
-    "Rank": 520,
-    "Type": "alias",
-    "ColorBlock": 717,
-    "IconHint": "rerum",
+    "Rank": 506,
+    "Type": "illum",
+    "ColorBlock": 339,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2003-08-31T11:22:46.2097354+02:00",
+    "LastChanged": "2004-01-05T14:19:11.6276984+01:00",
     "ChildItems": [
       {
-        "Id": 769,
-        "Name": "Raynor LLC",
-        "ToolTip": "Consequatur reprehenderit dolor.",
+        "Id": 262,
+        "Name": "Rowe Group",
+        "ToolTip": "Voluptatibus consequatur in.",
         "Deleted": false,
-        "Rank": 841,
-        "Type": "ut",
-        "ColorBlock": 447,
-        "IconHint": "itaque",
+        "Rank": 876,
+        "Type": "nulla",
+        "ColorBlock": 406,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2015-06-18T11:22:46.2097354+02:00",
+        "LastChanged": "2014-01-15T14:19:11.6276984+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "voluptates",
+        "ExtraInfo": "dolores",
+        "StyleHint": "modi",
         "Hidden": false,
-        "FullName": "Miss Valerie Addison VonRueden"
+        "FullName": "Mr. Elsa Rau"
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "ut",
+    "ExtraInfo": "quia",
+    "StyleHint": "tenetur",
     "Hidden": false,
-    "FullName": "Nyasia Maryam Renner IV"
+    "FullName": "Prof. Jerel Tiana Runolfsdottir"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 876,
-    "Name": "Rempel, Howell and Cassin",
-    "ToolTip": "Voluptatem dolorum.",
-    "Deleted": true,
-    "Rank": 941,
-    "Type": "quia",
-    "ColorBlock": 1001,
-    "IconHint": "ullam",
+    "Id": 686,
+    "Name": "Jenkins Inc and Sons",
+    "ToolTip": "Quo totam quas unde.",
+    "Deleted": false,
+    "Rank": 10,
+    "Type": "quisquam",
+    "ColorBlock": 747,
+    "IconHint": "aperiam",
     "Selected": false,
-    "LastChanged": "2013-06-12T11:22:46.2097354+02:00",
+    "LastChanged": "2008-01-29T14:19:11.6276984+01:00",
     "ChildItems": [
       {
-        "Id": 360,
-        "Name": "Bechtelar-Pouros",
-        "ToolTip": "Non est ipsam distinctio laudantium iusto distinctio temporibus.",
-        "Deleted": true,
-        "Rank": 266,
-        "Type": "aut",
-        "ColorBlock": 724,
-        "IconHint": "optio",
-        "Selected": false,
-        "LastChanged": "2009-11-19T11:22:46.2097354+01:00",
+        "Id": 273,
+        "Name": "Windler LLC",
+        "ToolTip": "Et aut repudiandae itaque omnis.",
+        "Deleted": false,
+        "Rank": 329,
+        "Type": "magni",
+        "ColorBlock": 918,
+        "IconHint": "vero",
+        "Selected": true,
+        "LastChanged": "2009-07-06T14:19:11.6276984+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "quisquam",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "maxime",
         "Hidden": false,
-        "FullName": "Guido Yost",
+        "FullName": "Miss Tracey Bayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 8
+            "FieldLength": 412
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "sed",
-    "Hidden": true,
-    "FullName": "Ms. Vallie Gladys Treutel",
+    "ExtraInfo": "qui",
+    "StyleHint": "tempora",
+    "Hidden": false,
+    "FullName": "Laurine Bergstrom MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 142
+        "FieldType": "System.String",
+        "FieldLength": 825
       }
     }
   }

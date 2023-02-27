@@ -100,7 +100,7 @@ OK
 POST /api/v1/Sale/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "aut",
+  "SaleText": "voluptatem",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -119,90 +119,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2015-12-03T11:22:45.1787253+01:00",
-  "Amount": 3159.072,
-  "SaleId": 746,
-  "Earning": 2444.52,
-  "EarningPercent": 2153.058,
-  "Heading": "similique",
-  "Number": "761457",
-  "Probability": 633,
-  "CreatedDate": "2007-01-03T11:22:45.1787253+01:00",
-  "UpdatedDate": "2012-09-30T11:22:45.1787253+02:00",
+  "Saledate": "2018-09-23T14:19:10.7404799+02:00",
+  "Amount": 6904.202,
+  "SaleId": 598,
+  "Earning": 6271.134,
+  "EarningPercent": 3068.1859999999997,
+  "Heading": "et",
+  "Number": "1135783",
+  "Probability": 204,
+  "CreatedDate": "2017-09-14T14:19:10.7404799+02:00",
+  "UpdatedDate": "2000-03-09T14:19:10.7404799+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 537,
+  "ActiveLinks": 368,
   "Links": [
     {
-      "EntityName": "Bernier-Fritsch",
-      "Id": 615,
-      "Description": "Multi-lateral coherent knowledge user",
-      "ExtraInfo": "nihil",
-      "LinkId": 507
+      "EntityName": "Stroman Group",
+      "Id": 203,
+      "Description": "Triple-buffered exuding paradigm",
+      "ExtraInfo": "praesentium",
+      "LinkId": 574
     },
     {
-      "EntityName": "Bernier-Fritsch",
-      "Id": 615,
-      "Description": "Multi-lateral coherent knowledge user",
-      "ExtraInfo": "nihil",
-      "LinkId": 507
+      "EntityName": "Stroman Group",
+      "Id": 203,
+      "Description": "Triple-buffered exuding paradigm",
+      "ExtraInfo": "praesentium",
+      "LinkId": 574
     }
   ],
-  "NextDueDate": "2022-02-08T11:22:45.1787253+01:00",
-  "Postit": "voluptatem",
+  "NextDueDate": "2006-08-26T14:19:10.7404799+02:00",
+  "Postit": "ad",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2002-10-24T11:22:45.1787253+02:00",
+  "ReopenDate": "1999-01-19T14:19:10.7404799+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Hand Inc and Sons",
-      "Comment": "sed",
-      "StakeholderRoleId": 513,
-      "CountryId": 354,
-      "PersonId": 723,
-      "EmailDescription": "andres.gulgowski@hackett.com",
-      "EmailId": 831,
-      "EmailAddress": "micheal.cartwright@rolfson.info",
-      "PhoneId": 844,
-      "ContactName": "Turner Inc and Sons",
-      "ContactId": 1002,
-      "SaleId": 143,
-      "Mrmrs": "eveniet",
-      "Firstname": "Neal",
-      "MiddleName": "Blanda-Stehr",
-      "Lastname": "Lowe",
-      "SaleStakeholderId": 542,
-      "Rank": 932,
-      "Phone": "266-667-0681 x08246"
+      "StakeholderRoleName": "Connelly LLC",
+      "Comment": "ut",
+      "StakeholderRoleId": 977,
+      "CountryId": 377,
+      "PersonId": 426,
+      "EmailDescription": "kennedy@ortizconnelly.biz",
+      "EmailId": 158,
+      "EmailAddress": "wilhelm@blick.ca",
+      "PhoneId": 945,
+      "ContactName": "Grady LLC",
+      "ContactId": 428,
+      "SaleId": 305,
+      "Mrmrs": "magnam",
+      "Firstname": "Krystal",
+      "MiddleName": "Ratke, Hahn and Bauch",
+      "Lastname": "Medhurst",
+      "SaleStakeholderId": 248,
+      "Rank": 986,
+      "Phone": "354-301-1036 x872"
     }
   ],
-  "ActiveErpLinks": 899,
+  "ActiveErpLinks": 478,
   "UserDefinedFields": {
-    "SuperOffice:1": "1264345208",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Dejuan Pfannerstill",
+    "SuperOffice:2": "Dayton Clair Stokes I"
   },
   "ExtraFields": {
-    "ExtraFields1": "optio",
-    "ExtraFields2": "facilis"
+    "ExtraFields1": "mollitia",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "modi"
+    "CustomFields1": "nisi",
+    "CustomFields2": "voluptatum"
   },
-  "PublishEventDate": "2007-06-13T11:22:45.1787253+02:00",
-  "PublishTo": "2013-03-29T11:22:45.1787253+01:00",
-  "PublishFrom": "2000-04-19T11:22:45.1787253+02:00",
+  "PublishEventDate": "1997-09-17T14:19:10.7404799+02:00",
+  "PublishTo": "2020-10-21T14:19:10.7404799+02:00",
+  "PublishFrom": "2002-08-17T14:19:10.7404799+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 967,
+      "VisibleId": 274,
       "Visibility": "All",
-      "DisplayValue": "aut"
+      "DisplayValue": "minima"
     },
     {
-      "VisibleId": 967,
+      "VisibleId": 274,
       "Visibility": "All",
-      "DisplayValue": "aut"
+      "DisplayValue": "minima"
     }
   ]
 }
@@ -215,7 +215,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quo",
-  "2": "cupiditate"
+  "1": "pariatur",
+  "2": "commodi"
 }
 ```

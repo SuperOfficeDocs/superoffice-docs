@@ -99,7 +99,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,7 +107,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 04 Oct 2007 11:22:45 G10T
+Last-Modified: Thu, 24 Jul 1997 14:19:10 G7T
 
 {
   "Appointment": null,
@@ -116,7 +116,7 @@ Last-Modified: Thu, 04 Oct 2007 11:22:45 G10T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "qui",
+  "SaleText": "provident",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Last-Modified: Thu, 04 Oct 2007 11:22:45 G10T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2020-08-17T11:22:45.1006098+02:00",
-  "Amount": 28992.634,
-  "SaleId": 56,
-  "Earning": 26529.309999999998,
-  "EarningPercent": 31220.908,
-  "Heading": "tempora",
-  "Number": "1531315",
-  "Probability": 779,
-  "CreatedDate": "2005-04-14T11:22:45.1006098+02:00",
-  "UpdatedDate": "2007-10-04T11:22:45.1006098+02:00",
+  "Saledate": "2012-07-31T14:19:10.6779731+02:00",
+  "Amount": 3785.872,
+  "SaleId": 805,
+  "Earning": 24084.79,
+  "EarningPercent": 19499.748,
+  "Heading": "sit",
+  "Number": "850568",
+  "Probability": 409,
+  "CreatedDate": "2021-05-02T14:19:10.6779731+02:00",
+  "UpdatedDate": "1997-07-24T14:19:10.6779731+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 366,
+  "ActiveLinks": 860,
   "Links": [
     {
-      "EntityName": "Altenwerth, Jast and Goodwin",
-      "Id": 827,
-      "Description": "Quality-focused analyzing installation",
-      "ExtraInfo": "ab",
-      "LinkId": 386,
+      "EntityName": "Jast, Kutch and Rau",
+      "Id": 321,
+      "Description": "Synergized contextually-based neural-net",
+      "ExtraInfo": "consequuntur",
+      "LinkId": 284,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldLength": 884
         }
       }
     }
   ],
-  "NextDueDate": "2015-06-07T11:22:45.1006098+02:00",
-  "Postit": "cum",
+  "NextDueDate": "2005-08-14T14:19:10.6779731+02:00",
+  "Postit": "nostrum",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2006-05-21T11:22:45.1006098+02:00",
+  "ReopenDate": "2008-03-13T14:19:10.6779731+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Prosacco-Kautzer",
-      "Comment": "dolor",
-      "StakeholderRoleId": 823,
-      "CountryId": 246,
-      "PersonId": 340,
-      "EmailDescription": "randy.halvorson@oconner.uk",
-      "EmailId": 764,
-      "EmailAddress": "dorthy_blanda@lynch.uk",
-      "PhoneId": 12,
-      "ContactName": "Schneider Inc and Sons",
-      "ContactId": 354,
-      "SaleId": 308,
-      "Mrmrs": "nisi",
-      "Firstname": "Oceane",
-      "MiddleName": "Friesen-Mann",
-      "Lastname": "Rippin",
-      "SaleStakeholderId": 421,
-      "Rank": 612,
-      "Phone": "(391)921-7403 x5790",
+      "StakeholderRoleName": "Considine Group",
+      "Comment": "odio",
+      "StakeholderRoleId": 841,
+      "CountryId": 432,
+      "PersonId": 818,
+      "EmailDescription": "bertram.koss@champlin.co.uk",
+      "EmailId": 76,
+      "EmailAddress": "leslie.doyle@tremblaykilback.co.uk",
+      "PhoneId": 737,
+      "ContactName": "Koepp, Hegmann and Cremin",
+      "ContactId": 112,
+      "SaleId": 936,
+      "Mrmrs": "neque",
+      "Firstname": "Antwon",
+      "MiddleName": "Flatley Inc and Sons",
+      "Lastname": "Kutch",
+      "SaleStakeholderId": 153,
+      "Rank": 126,
+      "Phone": "288.109.3563 x40133",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 554
+          "FieldType": "System.String",
+          "FieldLength": 651
         }
       }
     }
   ],
-  "ActiveErpLinks": 603,
+  "ActiveErpLinks": 281,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "1180335316"
+    "SuperOffice:1": "1858252206",
+    "SuperOffice:2": "147077856"
   },
   "ExtraFields": {
-    "ExtraFields1": "labore",
-    "ExtraFields2": "nisi"
+    "ExtraFields1": "eaque",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "aliquid",
-    "CustomFields2": "ipsam"
+    "CustomFields1": "pariatur",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "1999-12-21T11:22:45.1006098+01:00",
-  "PublishTo": "2002-09-13T11:22:45.1006098+02:00",
-  "PublishFrom": "2018-09-04T11:22:45.1006098+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2014-09-05T14:19:10.6779731+02:00",
+  "PublishTo": "2013-06-03T14:19:10.6779731+02:00",
+  "PublishFrom": "2006-03-31T14:19:10.6779731+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 473,
+      "VisibleId": 627,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 328
+          "FieldType": "System.String",
+          "FieldLength": 530
         }
       }
     },
     {
-      "VisibleId": 473,
+      "VisibleId": 627,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 328
+          "FieldType": "System.String",
+          "FieldLength": 530
         }
       }
     }
@@ -240,8 +240,8 @@ Last-Modified: Thu, 04 Oct 2007 11:22:45 G10T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 56
+      "FieldType": "System.String",
+      "FieldLength": 834
     }
   }
 }

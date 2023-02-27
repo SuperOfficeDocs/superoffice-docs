@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    942,
-    983
+    838,
+    140
   ]
 }
 ```
@@ -102,50 +102,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 317,
-    "Name": "Stanton Group",
-    "ToolTip": "In autem et exercitationem quas est.",
-    "Deleted": false,
-    "Rank": 738,
-    "Type": "doloremque",
+    "Id": 142,
+    "Name": "Turcotte Inc and Sons",
+    "ToolTip": "In excepturi et sed nisi maiores.",
+    "Deleted": true,
+    "Rank": 793,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 284,
-        "Name": "Douglas-Hermiston",
-        "ToolTip": "Iste consequatur aut perspiciatis possimus dolore nulla.",
+        "Id": 18,
+        "Name": "Christiansen-Pouros",
+        "ToolTip": "Odit excepturi quasi.",
         "Deleted": false,
-        "Rank": 202,
-        "Type": "libero",
+        "Rank": 815,
+        "Type": "quas",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fugit",
-        "ColorBlock": 202,
-        "ExtraInfo": "doloribus",
-        "StyleHint": "et",
-        "FullName": "Braeden Willow Wyman I",
+        "IconHint": "temporibus",
+        "ColorBlock": 258,
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "exercitationem",
+        "FullName": "Dr. Jamir Torphy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 692
+            "FieldLength": 668
           }
         }
       }
     ],
-    "IconHint": "velit",
-    "ColorBlock": 206,
-    "ExtraInfo": "ullam",
-    "StyleHint": "voluptatem",
-    "FullName": "Dianna Ramona Kautzer DDS",
+    "IconHint": "culpa",
+    "ColorBlock": 353,
+    "ExtraInfo": "qui",
+    "StyleHint": "consequuntur",
+    "FullName": "Gabriel Erdman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 289
+        "FieldLength": 758
       }
     }
   }

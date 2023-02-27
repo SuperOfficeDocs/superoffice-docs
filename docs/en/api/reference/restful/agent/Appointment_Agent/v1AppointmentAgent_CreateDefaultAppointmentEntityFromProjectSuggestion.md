@@ -129,14 +129,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromProjectSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 507,
-  "ProjectId": 619,
-  "CreateNow": true,
-  "OwnerId": 16
+  "SuggestedAppointmentId": 309,
+  "ProjectId": 632,
+  "CreateNow": false,
+  "OwnerId": 977
 }
 ```
 
@@ -151,122 +151,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2009-05-23T11:22:37.1649812+02:00",
-  "AppointmentId": 569,
-  "Description": "Seamless dynamic time-frame",
-  "StartDate": "2005-08-20T11:22:37.1649812+02:00",
-  "EndDate": "1997-04-06T11:22:37.1649812+02:00",
+  "CreatedDate": "1999-02-08T14:19:02.6656777+01:00",
+  "AppointmentId": 332,
+  "Description": "Decentralized 4th generation intranet",
+  "StartDate": "2013-04-07T14:19:02.6656777+02:00",
+  "EndDate": "2012-05-02T14:19:02.6656777+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 705,
+  "MotherId": 834,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2008-05-24T11:22:37.1649812+02:00",
+  "UpdatedDate": "1996-11-23T14:19:02.6656777+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 193,
+  "ActiveLinks": 505,
   "Links": [
     {
-      "EntityName": "Marquardt Inc and Sons",
-      "Id": 89,
-      "Description": "Streamlined coherent migration",
-      "ExtraInfo": "quidem",
-      "LinkId": 384,
+      "EntityName": "Leffler-Tremblay",
+      "Id": 120,
+      "Description": "Secured national forecast",
+      "ExtraInfo": "porro",
+      "LinkId": 454,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 769
+          "FieldType": "System.String",
+          "FieldLength": 251
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
-  "HasAlarm": false,
-  "ColorIndex": 760,
+  "AlarmLeadTime": "eveniet",
+  "HasAlarm": true,
+  "ColorIndex": 346,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "cum",
-  "LeadTime": "enim",
-  "Location": "dolorem",
-  "RejectCounter": 497,
+  "IsAlldayEvent": false,
+  "LagTime": "suscipit",
+  "LeadTime": "voluptatum",
+  "Location": "debitis",
+  "RejectCounter": 895,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 766,
-      "PersonId": 462,
-      "ContactId": 147,
-      "EmailId": 28,
-      "SendEmail": true,
+      "AssociateId": 784,
+      "PersonId": 433,
+      "ContactId": 675,
+      "EmailId": 351,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 766,
-      "PersonId": 462,
-      "ContactId": 147,
-      "EmailId": 28,
-      "SendEmail": true,
+      "AssociateId": 784,
+      "PersonId": 433,
+      "ContactId": 675,
+      "EmailId": 351,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-11-08T11:22:37.1649812+01:00",
-  "HasConflict": true,
+  "ActiveDate": "1998-06-20T14:19:02.6656777+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 865,
+  "PreferredTZLocation": 834,
   "Sale": null,
-  "SuggestedAppointmentId": 858,
+  "SuggestedAppointmentId": 673,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "rerum",
+  "CentralserviceVideomeetId": "doloremque",
   "UserDefinedFields": {
-    "SuperOffice:1": "Tina Abernathy",
-    "SuperOffice:2": "1548271267"
+    "SuperOffice:1": "Prof. Dina Modesto Quigley Sr.",
+    "SuperOffice:2": "Demario Mraz III"
   },
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "quisquam"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "sunt"
   },
   "CustomFields": {
-    "CustomFields1": "temporibus",
-    "CustomFields2": "dolorem"
+    "CustomFields1": "vero",
+    "CustomFields2": "soluta"
   },
-  "PublishEventDate": "2003-11-26T11:22:37.1649812+01:00",
-  "PublishTo": "2001-04-08T11:22:37.1649812+02:00",
-  "PublishFrom": "2011-04-05T11:22:37.1649812+02:00",
+  "PublishEventDate": "2012-03-17T14:19:02.6656777+01:00",
+  "PublishTo": "2020-10-24T14:19:02.6656777+02:00",
+  "PublishFrom": "2013-01-04T14:19:02.6656777+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 764,
+      "VisibleId": 86,
       "Visibility": "All",
-      "DisplayValue": "adipisci",
+      "DisplayValue": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 958
+          "FieldLength": 388
         }
       }
     },
     {
-      "VisibleId": 764,
+      "VisibleId": 86,
       "Visibility": "All",
-      "DisplayValue": "adipisci",
+      "DisplayValue": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 958
+          "FieldLength": 388
         }
       }
     }
@@ -275,8 +275,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 135
+      "FieldType": "System.Int32",
+      "FieldLength": 510
     }
   }
 }

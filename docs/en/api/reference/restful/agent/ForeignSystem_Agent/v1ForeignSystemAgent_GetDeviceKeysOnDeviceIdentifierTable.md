@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Grady, Hegmann and Veum",
-  "DeviceName": "Franecki Group",
-  "DeviceIdentifier": "temporibus",
-  "TableName": "Watsica, Friesen and Emmerich"
+  "ApplicationName": "Grimes, Schiller and Feest",
+  "DeviceName": "Weissnat Group",
+  "DeviceIdentifier": "nemo",
+  "TableName": "Morissette-Maggio"
 }
 ```
 
@@ -101,20 +101,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "consequuntur",
-    "Value": "quia",
-    "RecordId": 734,
-    "CreatedDate": "2004-08-19T11:22:38.3834434+02:00",
-    "UpdatedDate": "2013-10-24T11:22:38.3834434+02:00",
-    "UpdatedBy": "quasi",
-    "CreatedBy": "error",
-    "TableName": "Heidenreich, Wilderman and Weber",
+    "Key": "minima",
+    "Value": "consequatur",
+    "RecordId": 955,
+    "CreatedDate": "2006-03-09T14:19:03.5759842+01:00",
+    "UpdatedDate": "1997-02-06T14:19:03.5759842+01:00",
+    "UpdatedBy": "eum",
+    "CreatedBy": "sunt",
+    "TableName": "Kovacek LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 947
+        "FieldLength": 101
       }
     }
   }

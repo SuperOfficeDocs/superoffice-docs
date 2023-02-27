@@ -97,7 +97,7 @@ OK
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 331,
-  "ColumnId": 782,
-  "FieldDefault": "unde",
-  "FieldHeight": 607,
-  "FieldLabel": "minima",
-  "FieldLeft": 520,
-  "FieldTop": 184,
+  "UDefFieldId": 961,
+  "ColumnId": 956,
+  "FieldDefault": "soluta",
+  "FieldHeight": 169,
+  "FieldLabel": "explicabo",
+  "FieldLeft": 695,
+  "FieldTop": 939,
   "FieldType": "Checkbox",
-  "FieldWidth": 264,
-  "FormatMask": "ut",
+  "FieldWidth": 299,
+  "FormatMask": "iste",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 516,
-  "LabelLeft": 95,
-  "LabelTop": 380,
-  "LabelWidth": 694,
-  "LastVersionId": 283,
-  "ListTableId": 221,
+  "LabelHeight": 847,
+  "LabelLeft": 384,
+  "LabelTop": 807,
+  "LabelWidth": 390,
+  "LastVersionId": 195,
+  "ListTableId": 293,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 455,
-  "ProgId": "voluptatum",
-  "IsReadOnly": true,
-  "ShortLabel": "voluptatem",
-  "TabOrder": 181,
-  "TextLength": 196,
-  "Tooltip": "rerum",
-  "UdefIdentity": 584,
-  "UDListDefinitionId": 45,
+  "Page1LineNo": 818,
+  "ProgId": "quia",
+  "IsReadOnly": false,
+  "ShortLabel": "saepe",
+  "TabOrder": 323,
+  "TextLength": 373,
+  "Tooltip": "possimus",
+  "UdefIdentity": 412,
+  "UDListDefinitionId": 205,
   "Justification": "Center",
-  "Version": 274,
-  "TemplateVariableName": "Sanford LLC",
-  "HasBeenPublished": true,
-  "MdoListName": "Lang, Satterfield and Bergnaum",
+  "Version": 638,
+  "TemplateVariableName": "Hirthe, Bednar and Bartoletti",
+  "HasBeenPublished": false,
+  "MdoListName": "McClure LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldLength": 258
     }
   }
 }

@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -106,70 +106,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Mandatory zero tolerance analyzer",
-  "Postit": "quo",
+  "Description": "Phased explicit database",
+  "Postit": "laborum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 953,
-  "IncludePerson": 946,
-  "MemberCount": 506,
-  "Name": "Rohan-Turner",
-  "PostitTextId": 524,
-  "CreatedDate": "2018-05-28T11:22:39.2582416+02:00",
-  "SelectionId": 575,
-  "SoundEx": "incidunt",
-  "Source": 949,
-  "TextId": 411,
-  "UpdatedDate": "2012-05-15T11:22:39.2582416+02:00",
-  "UpdatedCount": 68,
-  "Visibility": 155,
+  "GroupIdx": 8,
+  "IncludePerson": 324,
+  "MemberCount": 555,
+  "Name": "O'Kon-McGlynn",
+  "PostitTextId": 526,
+  "CreatedDate": "2003-02-05T14:19:04.1567293+01:00",
+  "SelectionId": 164,
+  "SoundEx": "nemo",
+  "Source": 370,
+  "TextId": 275,
+  "UpdatedDate": "1996-04-22T14:19:04.1567293+02:00",
+  "UpdatedCount": 268,
+  "Visibility": 846,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 277,
-  "TargetTableName": "Kirlin, Dickens and Barton",
-  "Completed": true,
-  "LeftSelectionId": 918,
-  "RightSelectionId": 932,
+  "TargetTableNumber": 96,
+  "TargetTableName": "Jenkins Inc and Sons",
+  "Completed": false,
+  "LeftSelectionId": 646,
+  "RightSelectionId": 853,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Murphy, Crona and Fay",
-  "ShadowProviderName": "Morar-D'Amore",
-  "ChartKey": "quis",
-  "LastLoaded": "2011-06-30T11:22:39.2582416+02:00",
-  "LastLoadedBy": 439,
+  "MainProviderName": "Bradtke LLC",
+  "ShadowProviderName": "Huel-Welch",
+  "ChartKey": "sapiente",
+  "LastLoaded": "1998-12-19T14:19:04.1567293+01:00",
+  "LastLoadedBy": 85,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-08-10T11:22:39.2582416+02:00",
-  "LastMembershipChangeBy": 946,
+  "LastMembershipChange": "2021-01-22T14:19:04.1567293+01:00",
+  "LastMembershipChangeBy": 634,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "magni",
-  "MemberTabHeading": "sed",
-  "MailingsProviderName": "Koss, Eichmann and Shanahan",
-  "DashboardTileDefinitionId": 969,
+  "MainHeading": "sit",
+  "MemberTabHeading": "corporis",
+  "MailingsProviderName": "Schmitt, King and Jakubowski",
+  "DashboardTileDefinitionId": 431,
   "VisibleFor": [
     {
-      "VisibleId": 133,
+      "VisibleId": 839,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 227
+          "FieldLength": 22
         }
       }
     },
     {
-      "VisibleId": 133,
+      "VisibleId": 839,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 227
+          "FieldLength": 22
         }
       }
     }
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 824
+      "FieldLength": 812
     }
   }
 }

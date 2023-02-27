@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAlarms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeInvitations": true,
-  "IncludeAllAppointments": false,
-  "DefaultAlarmLeadTimeInMinutes": 116
+  "IncludeInvitations": false,
+  "IncludeAllAppointments": true,
+  "DefaultAlarmLeadTimeInMinutes": 580
 }
 ```
 
@@ -95,47 +95,47 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 95,
-      "StartTime": "2022-10-23T11:22:36.9619023+02:00",
-      "EndDate": "1997-07-20T11:22:36.9619023+02:00",
-      "AlarmTime": "2014-07-18T11:22:36.9619023+02:00",
-      "PersonId": 530,
-      "PersonFullName": "Ole Hermann",
-      "ContactName": "Ward-VonRueden",
-      "ProjectId": 109,
-      "ProjectName": "Pollich Inc and Sons",
-      "AppointmentText": "deleniti",
-      "SaleId": 159,
-      "SaleName": "Brakus LLC",
-      "Location": "nihil",
+      "AppointmentId": 185,
+      "StartTime": "2010-10-18T14:19:02.4838092+02:00",
+      "EndDate": "2016-01-24T14:19:02.4838092+01:00",
+      "AlarmTime": "2003-04-18T14:19:02.4838092+02:00",
+      "PersonId": 87,
+      "PersonFullName": "Hilbert Russel",
+      "ContactName": "Gleason-Torp",
+      "ProjectId": 454,
+      "ProjectName": "Smitham, Stracke and Pollich",
+      "AppointmentText": "repudiandae",
+      "SaleId": 587,
+      "SaleName": "Zieme-Boyer",
+      "Location": "et",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 961,
+      "ContactId": 860,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "Ortiz-Kirlin",
-      "TaskName": "D'Amore, Schumm and Sipes",
+      "FormalName": "Goyette, Hauck and Corwin",
+      "TaskName": "Sawayn, Ernser and Sanford",
       "ContactDepartment": "",
-      "ContactFullName": "Elena Adalberto O'Conner PhD",
+      "ContactFullName": "Jonas McCullough",
       "JoinVideomeetUrl": "http://www.example.com/",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 295
+          "FieldLength": 149
         }
       }
     }
   ],
-  "PollingInterval": 297,
-  "SilentAfter": 389,
+  "PollingInterval": 942,
+  "SilentAfter": 193,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldLength": 564
     }
   }
 }

@@ -25,7 +25,7 @@ Gets a TicketPriority object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriority?ticketPriorityId=777
+POST /api/v1/Agents/List/GetTicketPriority?ticketPriorityId=505
 POST /api/v1/Agents/List/GetTicketPriority?$select=name,department,category/id
 ```
 
@@ -78,15 +78,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 578,
-  "Value": "nihil",
-  "Tooltip": "in",
+  "Id": 192,
+  "Value": "neque",
+  "Tooltip": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldLength": 255
     }
   }
 }

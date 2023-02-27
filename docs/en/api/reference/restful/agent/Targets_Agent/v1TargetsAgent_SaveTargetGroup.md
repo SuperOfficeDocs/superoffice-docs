@@ -72,28 +72,28 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 179,
-  "Year": 717,
+  "TargetGroupId": 996,
+  "Year": 172,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 53,
+      "TargetAssignmentInfoId": 641,
       "Values": [
-        968,
-        345
+        544,
+        391
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 387,
-      "DimensionListItemDisplayName": "Roob-Simonis"
+      "DimensionListItem": 370,
+      "DimensionListItemDisplayName": "Heller LLC"
     }
   ],
   "TargetDimension": null
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 440,
-  "Year": 713,
+  "TargetGroupId": 121,
+  "Year": 238,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 885,
+      "TargetAssignmentInfoId": 980,
       "Values": [
-        296,
-        680
+        164,
+        90
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 80,
-      "DimensionListItemDisplayName": "Swift, Schimmel and Bergstrom",
+      "DimensionListItem": 671,
+      "DimensionListItemDisplayName": "Becker Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 969
+          "FieldType": "System.Int32",
+          "FieldLength": 881
         }
       }
     }
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 26
+      "FieldLength": 838
     }
   }
 }

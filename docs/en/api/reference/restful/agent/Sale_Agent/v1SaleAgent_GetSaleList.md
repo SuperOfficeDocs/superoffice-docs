@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Koepp-Hermann",
-    "SaleDate": "2020-05-29T11:22:39.2425669+02:00",
-    "SaleId": 711,
-    "Probability": 157,
-    "Title": "sunt",
-    "Amount": 8674.912,
-    "Currency": "et",
-    "ProjectName": "Shields LLC",
-    "AssociateFullName": "Ms. Franco Laura Weber",
-    "Description": "Assimilated global migration",
+    "ContactName": "Stroman Group",
+    "SaleDate": "2020-01-14T14:19:04.1410858+01:00",
+    "SaleId": 854,
+    "Probability": 546,
+    "Title": "voluptatem",
+    "Amount": 1802.05,
+    "Currency": "libero",
+    "ProjectName": "Renner, McDermott and Bruen",
+    "AssociateFullName": "Prof. Amelia Block V",
+    "Description": "Configurable multimedia capacity",
     "Status": "Lost",
-    "WeightedAmount": 15688.804,
-    "ProjectId": 951,
-    "EarningPercent": 28444.183999999997,
-    "Earning": 7618.754,
-    "ContactId": 794,
-    "AssociateId": 875,
-    "PersonId": 184,
-    "SaleTypeId": 666,
-    "SaleTypeName": "Skiles, Cummerata and Veum",
-    "PersonFullName": "Esperanza Jones",
+    "WeightedAmount": 14732.934,
+    "ProjectId": 226,
+    "EarningPercent": 20627.987999999998,
+    "Earning": 9392.598,
+    "ContactId": 950,
+    "AssociateId": 229,
+    "PersonId": 36,
+    "SaleTypeId": 38,
+    "SaleTypeName": "Wilkinson-Littel",
+    "PersonFullName": "Mr. Lisette Eusebio Walter MD",
     "Completed": "Completed",
-    "ActiveErpLinks": 132,
-    "NextDueDate": "2013-11-29T11:22:39.2425669+01:00",
-    "Number": "1199085",
+    "ActiveErpLinks": 469,
+    "NextDueDate": "2011-07-03T14:19:04.1410858+02:00",
+    "Number": "917537",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 660
+        "FieldLength": 176
       }
     }
   }

@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 645,
-  "Name": "Bogisich-Kilback",
-  "Tooltip": "suscipit",
-  "Deleted": true,
-  "Rank": 97,
+  "Id": 269,
+  "Name": "Watsica-Kiehn",
+  "Tooltip": "quidem",
+  "Deleted": false,
+  "Rank": 296,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false
+  "ListType": "temporibus",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 617,
-  "Name": "Toy-Schumm",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "Rank": 174,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "incidunt",
-  "InUseByUserDefinedFields": false,
+  "Id": 209,
+  "Name": "Murphy Group",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 686,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "aspernatur",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 127
+      "FieldType": "System.String",
+      "FieldLength": 429
     }
   }
 }

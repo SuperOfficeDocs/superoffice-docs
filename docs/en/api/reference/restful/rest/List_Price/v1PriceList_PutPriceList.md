@@ -96,19 +96,19 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 840,
-  "ERPPriceListKey": "voluptate",
-  "QuoteConnectionId": 447,
-  "Name": "Hoeger Inc and Sons",
-  "Description": "Down-sized solution-oriented protocol",
-  "Currency": "aut",
-  "CurrencyName": "Terry Inc and Sons",
-  "ValidFrom": "1995-12-15T11:22:46.0066565+01:00",
-  "ValidTo": "1998-06-10T11:22:46.0066565+02:00",
+  "PriceListId": 663,
+  "ERPPriceListKey": "aspernatur",
+  "QuoteConnectionId": 954,
+  "Name": "McCullough, Torp and Lindgren",
+  "Description": "Up-sized bandwidth-monitored methodology",
+  "Currency": "magni",
+  "CurrencyName": "Morissette, Altenwerth and Runte",
+  "ValidFrom": "2010-06-24T14:19:11.3367817+02:00",
+  "ValidTo": "2018-08-13T14:19:11.3367817+02:00",
   "IsActive": false
 }
 ```
@@ -120,22 +120,22 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 16,
-  "ERPPriceListKey": "ut",
-  "QuoteConnectionId": 581,
-  "Name": "Prohaska, Gulgowski and Keebler",
-  "Description": "Organized optimal service-desk",
-  "Currency": "delectus",
-  "CurrencyName": "Farrell-Nienow",
-  "ValidFrom": "2004-07-17T11:22:46.0066565+02:00",
-  "ValidTo": "1996-10-21T11:22:46.0066565+02:00",
+  "PriceListId": 440,
+  "ERPPriceListKey": "sequi",
+  "QuoteConnectionId": 396,
+  "Name": "Kuphal-Turcotte",
+  "Description": "Secured empowering initiative",
+  "Currency": "minima",
+  "CurrencyName": "Mante, Cruickshank and Roob",
+  "ValidFrom": "2018-01-28T14:19:11.3367817+01:00",
+  "ValidTo": "2021-12-19T14:19:11.3367817+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 709
+      "FieldLength": 810
     }
   },
   "_Links": {

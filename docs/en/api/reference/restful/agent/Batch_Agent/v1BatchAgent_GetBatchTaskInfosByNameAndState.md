@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cronin-Carter",
+  "Name": "Jenkins, Bogan and Monahan",
   "State": "All"
 }
 ```
@@ -111,37 +111,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 865,
-    "Name": "O'Keefe LLC",
-    "AssociateId": 220,
-    "DetailsTable": 773,
-    "DetailsRecord": 777,
-    "IsSystemTask": false,
-    "IsInternalTask": true,
+    "Id": 444,
+    "Name": "Langosh-Mann",
+    "AssociateId": 300,
+    "DetailsTable": 746,
+    "DetailsRecord": 40,
+    "IsSystemTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "iusto",
-      "ParameterObject2": "temporibus"
+      "ParameterObject1": "hic",
+      "ParameterObject2": "odio"
     },
-    "LastStarted": "2017-01-17T11:22:37.4461725+01:00",
-    "Created": "2004-04-18T11:22:37.4461725+02:00",
-    "StartCount": 327,
-    "DatabaseSerialNumber": "1194008",
-    "Context": "aliquid",
-    "Result": "incidunt",
+    "LastStarted": "2019-12-25T14:19:02.7594283+01:00",
+    "Created": "2005-01-25T14:19:02.7594283+01:00",
+    "StartCount": 531,
+    "DatabaseSerialNumber": "1616986",
+    "Context": "esse",
+    "Result": "autem",
     "State": "All",
-    "Description": "Cross-platform solution-oriented architecture",
-    "Response": "et",
-    "Request": "sed",
-    "ProgressDescription": "Inverse intangible groupware",
-    "ProgressPercent": 23,
-    "FileName": "Gusikowski-Rempel",
+    "Description": "Virtual grid-enabled focus group",
+    "Response": "unde",
+    "Request": "illum",
+    "ProgressDescription": "Open-architected tangible attitude",
+    "ProgressPercent": 991,
+    "FileName": "Rath, Bogisich and Christiansen",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 550
+        "FieldLength": 491
       }
     }
   }

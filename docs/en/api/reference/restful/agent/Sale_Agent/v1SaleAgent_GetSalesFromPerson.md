@@ -101,7 +101,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 256,
+  "PersonId": 77,
   "OnlyOpenSales": true
 }
 ```
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Robel, Jast and Braun",
-    "SaleDate": "2015-01-03T11:22:39.2425669+01:00",
-    "SaleId": 273,
-    "Probability": 959,
-    "Title": "enim",
-    "Amount": 15356.6,
-    "Currency": "fugit",
-    "ProjectName": "Leannon LLC",
-    "AssociateFullName": "Dr. Rosie Mills",
-    "Description": "Grass-roots fresh-thinking attitude",
+    "ContactName": "Simonis Inc and Sons",
+    "SaleDate": "2002-08-04T14:19:04.1410858+02:00",
+    "SaleId": 920,
+    "Probability": 415,
+    "Title": "nam",
+    "Amount": 1187.786,
+    "Currency": "tempore",
+    "ProjectName": "O'Connell-Balistreri",
+    "AssociateFullName": "Murphy Romaguera",
+    "Description": "Phased encompassing system engine",
     "Status": "Lost",
-    "WeightedAmount": 11677.284,
-    "ProjectId": 356,
-    "EarningPercent": 18111.386,
-    "Earning": 3199.814,
-    "ContactId": 847,
-    "AssociateId": 1000,
-    "PersonId": 706,
-    "SaleTypeId": 138,
-    "SaleTypeName": "Schowalter, Frami and Cole",
-    "PersonFullName": "Jillian Monahan",
+    "WeightedAmount": 22887.602,
+    "ProjectId": 475,
+    "EarningPercent": 19816.282,
+    "Earning": 11639.676,
+    "ContactId": 308,
+    "AssociateId": 530,
+    "PersonId": 662,
+    "SaleTypeId": 1001,
+    "SaleTypeName": "Spencer-Russel",
+    "PersonFullName": "Prof. Carter Isaiah Bayer III",
     "Completed": "Completed",
-    "ActiveErpLinks": 507,
-    "NextDueDate": "2002-01-21T11:22:39.2425669+01:00",
-    "Number": "1254389",
+    "ActiveErpLinks": 599,
+    "NextDueDate": "2008-02-03T14:19:04.1410858+01:00",
+    "Number": "683263",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 716
+        "FieldType": "System.Int32",
+        "FieldLength": 640
       }
     }
   }

@@ -135,41 +135,41 @@ OK
 POST /api/v1/ChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 362,
-  "TopicId": 252,
+  "ChatSessionId": 239,
+  "TopicId": 147,
   "User": null,
   "Person": null,
-  "CustomerAlias": "error",
-  "CustomerHost": "harum",
-  "CustomerName": "Walsh, Fritsch and Block",
-  "CustomerEmail": "pearline@russel.ca",
-  "CustomerPhone": "(493)982-5726 x239",
+  "CustomerAlias": "ut",
+  "CustomerHost": "minima",
+  "CustomerName": "Thompson-Yost",
+  "CustomerEmail": "ericka_effertz@balistreri.name",
+  "CustomerPhone": "(510)147-8562 x23501",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kertzmann, Hahn and Deckow",
+  "CustomerCompanyName": "Parker-Powlowski",
   "Status": "Closed",
-  "FirstMessage": "ut",
-  "LastMessage": "qui",
-  "WhenRequested": "2006-11-21T11:22:44.3039337+01:00",
-  "WhenStarted": "2004-03-03T11:22:44.3039337+01:00",
-  "WhenEnded": "2014-04-01T11:22:44.3039337+02:00",
-  "WhenIdle": "2018-08-05T11:22:44.3039337+02:00",
-  "WhenFetched": "2004-03-31T11:22:44.3039337+02:00",
-  "SessionKey": "est",
-  "InitialQueuePos": 562,
-  "AlertLevel": 166,
-  "Rank": 678,
+  "FirstMessage": "maxime",
+  "LastMessage": "iusto",
+  "WhenRequested": "2002-06-01T14:19:09.9892582+02:00",
+  "WhenStarted": "2001-04-13T14:19:09.9892582+02:00",
+  "WhenEnded": "2003-05-31T14:19:09.9892582+02:00",
+  "WhenIdle": "2008-10-19T14:19:09.9892582+02:00",
+  "WhenFetched": "2022-11-20T14:19:09.9892582+01:00",
+  "SessionKey": "ut",
+  "InitialQueuePos": 172,
+  "AlertLevel": 348,
+  "Rank": 624,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 214
+  "ChatbotIsActive": false,
+  "Rating": 849
 }
 ```
 
@@ -180,29 +180,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 806,
-  "TopicId": 227,
+  "ChatSessionId": 305,
+  "TopicId": 894,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ex",
-  "CustomerHost": "aut",
-  "CustomerName": "Emard-Wolf",
-  "CustomerEmail": "loyce@dickinson.info",
-  "CustomerPhone": "1-202-405-6200 x08422",
+  "CustomerAlias": "maiores",
+  "CustomerHost": "animi",
+  "CustomerName": "Stracke LLC",
+  "CustomerEmail": "pearl.marquardt@balistrerimckenzie.com",
+  "CustomerPhone": "(684)545-7627",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Rolfson-Toy",
+  "CustomerCompanyName": "Gibson-Reichert",
   "Status": "Closed",
-  "FirstMessage": "quisquam",
-  "LastMessage": "a",
-  "WhenRequested": "2014-12-08T11:22:44.3039337+01:00",
-  "WhenStarted": "2000-12-31T11:22:44.3039337+01:00",
-  "WhenEnded": "2006-09-25T11:22:44.3039337+02:00",
-  "WhenIdle": "1997-06-14T11:22:44.3039337+02:00",
-  "WhenFetched": "2015-08-30T11:22:44.3039337+02:00",
-  "SessionKey": "unde",
-  "InitialQueuePos": 226,
-  "AlertLevel": 532,
-  "Rank": 169,
+  "FirstMessage": "reprehenderit",
+  "LastMessage": "perspiciatis",
+  "WhenRequested": "2014-01-26T14:19:09.9892582+01:00",
+  "WhenStarted": "2014-09-30T14:19:09.9892582+02:00",
+  "WhenEnded": "2015-07-25T14:19:09.9892582+02:00",
+  "WhenIdle": "1999-09-16T14:19:09.9892582+02:00",
+  "WhenFetched": "2000-11-10T14:19:09.9892582+01:00",
+  "SessionKey": "asperiores",
+  "InitialQueuePos": 45,
+  "AlertLevel": 732,
+  "Rank": 784,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -210,13 +210,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 733,
+  "Rating": 964,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 515
+      "FieldLength": 128
     }
   },
   "_Links": {

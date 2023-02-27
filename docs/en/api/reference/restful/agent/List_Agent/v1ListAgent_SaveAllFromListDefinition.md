@@ -82,23 +82,23 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 26,
+  "UdListDefinitionId": 507,
   "Items": [
     {
-      "Id": 349,
-      "Name": "Kuhlman, Witting and Cruickshank",
-      "Tooltip": "molestiae",
-      "Deleted": false,
-      "UdListDefinitionId": 686,
-      "Rank": 664
+      "Id": 169,
+      "Name": "Schroeder-Haag",
+      "Tooltip": "ullam",
+      "Deleted": true,
+      "UdListDefinitionId": 627,
+      "Rank": 526
     },
     {
-      "Id": 349,
-      "Name": "Kuhlman, Witting and Cruickshank",
-      "Tooltip": "molestiae",
-      "Deleted": false,
-      "UdListDefinitionId": 686,
-      "Rank": 664
+      "Id": 169,
+      "Name": "Schroeder-Haag",
+      "Tooltip": "ullam",
+      "Deleted": true,
+      "UdListDefinitionId": 627,
+      "Rank": 526
     }
   ]
 }
@@ -112,18 +112,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 987,
-    "Name": "Cremin-Skiles",
-    "Tooltip": "eaque",
-    "Deleted": true,
-    "UdListDefinitionId": 277,
-    "Rank": 813,
+    "Id": 938,
+    "Name": "Stroman-Fadel",
+    "Tooltip": "reprehenderit",
+    "Deleted": false,
+    "UdListDefinitionId": 630,
+    "Rank": 866,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 375
+        "FieldType": "System.String",
+        "FieldLength": 475
       }
     }
   }

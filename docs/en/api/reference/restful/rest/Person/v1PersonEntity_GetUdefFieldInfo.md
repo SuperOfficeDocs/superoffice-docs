@@ -92,7 +92,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 946,
-  "ColumnId": 636,
-  "FieldDefault": "hic",
-  "FieldHeight": 753,
-  "FieldLabel": "sit",
-  "FieldLeft": 715,
-  "FieldTop": 979,
+  "UDefFieldId": 593,
+  "ColumnId": 946,
+  "FieldDefault": "voluptatem",
+  "FieldHeight": 723,
+  "FieldLabel": "distinctio",
+  "FieldLeft": 303,
+  "FieldTop": 471,
   "FieldType": "Checkbox",
-  "FieldWidth": 831,
-  "FormatMask": "ex",
+  "FieldWidth": 226,
+  "FormatMask": "aut",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 859,
-  "LabelLeft": 590,
-  "LabelTop": 240,
-  "LabelWidth": 812,
-  "LastVersionId": 439,
-  "ListTableId": 592,
+  "LabelHeight": 564,
+  "LabelLeft": 82,
+  "LabelTop": 408,
+  "LabelWidth": 445,
+  "LastVersionId": 833,
+  "ListTableId": 200,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 467,
-  "ProgId": "esse",
+  "Page1LineNo": 952,
+  "ProgId": "debitis",
   "IsReadOnly": false,
-  "ShortLabel": "ea",
-  "TabOrder": 459,
-  "TextLength": 856,
-  "Tooltip": "laborum",
-  "UdefIdentity": 482,
-  "UDListDefinitionId": 125,
+  "ShortLabel": "dolores",
+  "TabOrder": 943,
+  "TextLength": 365,
+  "Tooltip": "reprehenderit",
+  "UdefIdentity": 396,
+  "UDListDefinitionId": 391,
   "Justification": "Center",
-  "Version": 124,
-  "TemplateVariableName": "Bogan Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Windler-Brakus",
+  "Version": 319,
+  "TemplateVariableName": "Baumbach Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "Bernier, Herzog and Bogisich",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 835
+      "FieldType": "System.String",
+      "FieldLength": 527
     }
   }
 }

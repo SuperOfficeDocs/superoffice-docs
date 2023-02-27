@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 662
+  "SelectionId": 876
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 108,
-  "ValidPostalAddresses": 506,
-  "ValidEmailAddresses": 587,
-  "ValidFaxNumbers": 369,
-  "NoAddresses": 912,
-  "NoFaxOrEmails": 674,
+  "Total": 212,
+  "ValidPostalAddresses": 553,
+  "ValidEmailAddresses": 409,
+  "ValidFaxNumbers": 558,
+  "NoAddresses": 812,
+  "NoFaxOrEmails": 541,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 860
+      "FieldLength": 855
     }
   }
 }

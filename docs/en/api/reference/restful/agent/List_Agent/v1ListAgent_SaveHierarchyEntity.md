@@ -80,36 +80,36 @@ OK
 POST /api/v1/Agents/List/SaveHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 226,
+  "HierarchyId": 249,
   "Domain": "Dashboards",
-  "Name": "Jakubowski, Bartoletti and Herzog",
-  "Fullname": "qui",
-  "ParentId": 321,
+  "Name": "Osinski-O'Reilly",
+  "Fullname": "inventore",
+  "ParentId": 974,
   "Children": [
     {
-      "HierarchyId": 300,
+      "HierarchyId": 610,
       "Domain": "Dashboards",
-      "Name": "Schmeler-Kshlerin",
-      "Fullname": "eos",
-      "ParentId": 599,
+      "Name": "Cassin-Doyle",
+      "Fullname": "commodi",
+      "ParentId": 502,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2007-07-31T11:22:38.5240368+02:00",
-      "RegisteredAssociateId": 759,
-      "Updated": "2015-05-29T11:22:38.5240368+02:00",
-      "UpdatedAssociateId": 224
+      "Registered": "2016-04-01T14:19:03.6863742+02:00",
+      "RegisteredAssociateId": 798,
+      "Updated": "2008-12-07T14:19:03.6863742+01:00",
+      "UpdatedAssociateId": 630
     }
   ],
-  "Registered": "2000-03-10T11:22:38.5240368+01:00",
-  "RegisteredAssociateId": 131,
-  "Updated": "2006-11-18T11:22:38.5240368+01:00",
-  "UpdatedAssociateId": 290
+  "Registered": "2019-08-31T14:19:03.6863742+02:00",
+  "RegisteredAssociateId": 96,
+  "Updated": "2005-03-05T14:19:03.6863742+01:00",
+  "UpdatedAssociateId": 367
 }
 ```
 
@@ -120,46 +120,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 37,
+  "HierarchyId": 138,
   "Domain": "Dashboards",
-  "Name": "Herzog, Kub and Graham",
-  "Fullname": "in",
-  "ParentId": 401,
+  "Name": "Hagenes Group",
+  "Fullname": "illum",
+  "ParentId": 117,
   "Children": [
     {
-      "HierarchyId": 840,
+      "HierarchyId": 619,
       "Domain": "Dashboards",
-      "Name": "Hettinger-Bradtke",
-      "Fullname": "dolores",
-      "ParentId": 338,
+      "Name": "Hackett-Goyette",
+      "Fullname": "veniam",
+      "ParentId": 328,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2016-08-23T11:22:38.5240368+02:00",
-      "RegisteredAssociateId": 223,
-      "Updated": "1999-11-29T11:22:38.5240368+01:00",
-      "UpdatedAssociateId": 461,
+      "Registered": "2022-07-24T14:19:03.6863742+02:00",
+      "RegisteredAssociateId": 110,
+      "Updated": "2001-03-27T14:19:03.6863742+02:00",
+      "UpdatedAssociateId": 103,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 603
+          "FieldLength": 598
         }
       }
     }
   ],
-  "Registered": "2005-12-13T11:22:38.5240368+01:00",
-  "RegisteredAssociateId": 53,
-  "Updated": "1998-08-20T11:22:38.5240368+02:00",
-  "UpdatedAssociateId": 54,
+  "Registered": "2011-01-19T14:19:03.6863742+01:00",
+  "RegisteredAssociateId": 256,
+  "Updated": "2007-09-25T14:19:03.6863742+02:00",
+  "UpdatedAssociateId": 696,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldType": "System.String",
+      "FieldLength": 619
     }
   }
 }

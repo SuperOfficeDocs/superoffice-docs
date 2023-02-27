@@ -124,18 +124,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "laborum",
+    "path": "explicabo",
     "value": {}
   },
   {
     "op": "add",
-    "path": "laborum",
+    "path": "explicabo",
     "value": {}
   }
 ]
@@ -148,35 +148,35 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 160,
-  "SourcePersonId": 134,
-  "DestinationContactId": 168,
-  "DestinationPersonId": 494,
-  "RelationId": 774,
-  "Comment": "illum",
-  "RelationDefinitionId": 497,
-  "Reversed": 473,
-  "UpdatedDate": "2015-08-02T11:22:44.5694964+02:00",
-  "CreatedDate": "2009-01-31T11:22:44.5694964+01:00",
+  "SourceContactId": 670,
+  "SourcePersonId": 314,
+  "DestinationContactId": 685,
+  "DestinationPersonId": 842,
+  "RelationId": 124,
+  "Comment": "at",
+  "RelationDefinitionId": 898,
+  "Reversed": 484,
+  "UpdatedDate": "2021-07-14T14:19:10.240473+02:00",
+  "CreatedDate": "2001-04-09T14:19:10.240473+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Funk, Luettgen and Nicolas",
-  "SourcePersonName": "Powlowski, Wyman and Johnson",
-  "DestinationContactName": "Olson-Klein",
-  "DestinationPersonName": "Torp Group",
-  "ActiveText": "aperiam",
-  "PassiveText": "recusandae",
+  "SourceContactName": "DuBuque LLC",
+  "SourcePersonName": "Beahan, Langosh and Gorczany",
+  "DestinationContactName": "Wyman, Robel and Hegmann",
+  "DestinationPersonName": "O'Hara-Kemmer",
+  "ActiveText": "modi",
+  "PassiveText": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 423
+      "FieldLength": 322
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

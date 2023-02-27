@@ -87,15 +87,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Will LLC",
-      "Operator": "laboriosam",
+      "Name": "Bernier-Parisian",
+      "Operator": "est",
       "Values": [
-        "eaque",
-        "non"
+        "ut",
+        "in"
       ],
       "DisplayValues": [
-        "rerum",
-        "voluptate"
+        "voluptatem",
+        "recusandae"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -103,9 +103,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 716,
+      "InterParenthesis": 712,
       "InterOperator": "And",
-      "UniqueHash": 316
+      "UniqueHash": 575
     }
   ]
 }
@@ -119,29 +119,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Leuschke Group",
-    "Operator": "molestiae",
+    "Name": "Turner, D'Amore and Koepp",
+    "Operator": "ipsam",
     "Values": [
-      "ut",
-      "tenetur"
+      "animi",
+      "molestiae"
     ],
     "DisplayValues": [
-      "sit",
-      "recusandae"
+      "quia",
+      "assumenda"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Jenkins-Schuppe",
-        "Operator": "id",
+        "Name": "Predovic Inc and Sons",
+        "Operator": "accusamus",
         "Values": [
-          "aut",
-          "pariatur"
+          "occaecati",
+          "omnis"
         ],
         "DisplayValues": [
-          "minima",
-          "quisquam"
+          "magnam",
+          "dolor"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 578,
+        "InterParenthesis": 596,
         "InterOperator": "And",
-        "UniqueHash": 138
+        "UniqueHash": 111
       }
     ],
-    "InterParenthesis": 557,
+    "InterParenthesis": 565,
     "InterOperator": "And",
-    "UniqueHash": 370
+    "UniqueHash": 832
   }
 ]
 ```

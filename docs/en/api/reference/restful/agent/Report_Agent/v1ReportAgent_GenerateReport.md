@@ -76,32 +76,32 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 519,
-  "LabelLayoutId": 979,
-  "Filename": "voluptatem",
-  "Language": "perspiciatis",
-  "FileType": "velit",
+  "ReportId": 702,
+  "LabelLayoutId": 202,
+  "Filename": "eius",
+  "Language": "aut",
+  "FileType": "ut",
   "Restrictions": [
     {
-      "Name": "Schumm-Morar",
-      "Operator": "eaque",
+      "Name": "Wolff LLC",
+      "Operator": "culpa",
       "Values": [
-        "est",
-        "est"
+        "aperiam",
+        "autem"
       ],
       "DisplayValues": [
-        "fugit",
-        "soluta"
+        "asperiores",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 610,
+      "InterParenthesis": 833,
       "InterOperator": "And",
-      "UniqueHash": 678
+      "UniqueHash": 935
     }
   ]
 }
@@ -113,5 +113,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"autem"
+"aut"
 ```

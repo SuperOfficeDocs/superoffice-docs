@@ -114,70 +114,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reduced uniform portal",
-  "Postit": "ea",
+  "Description": "Optimized dedicated info-mediaries",
+  "Postit": "fuga",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 173,
-  "IncludePerson": 244,
-  "MemberCount": 662,
-  "Name": "Gutkowski Group",
-  "PostitTextId": 537,
-  "CreatedDate": "2009-08-25T11:22:39.3051036+02:00",
-  "SelectionId": 17,
-  "SoundEx": "et",
-  "Source": 895,
-  "TextId": 931,
-  "UpdatedDate": "2004-04-26T11:22:39.3051036+02:00",
-  "UpdatedCount": 425,
-  "Visibility": 387,
+  "GroupIdx": 116,
+  "IncludePerson": 242,
+  "MemberCount": 322,
+  "Name": "Simonis-Jaskolski",
+  "PostitTextId": 863,
+  "CreatedDate": "2021-07-06T14:19:04.1879797+02:00",
+  "SelectionId": 122,
+  "SoundEx": "repellat",
+  "Source": 371,
+  "TextId": 912,
+  "UpdatedDate": "2015-02-06T14:19:04.1879797+01:00",
+  "UpdatedCount": 431,
+  "Visibility": 820,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 534,
-  "TargetTableName": "Skiles, Lebsack and Bailey",
+  "CompanyUnique": true,
+  "TargetTableNumber": 689,
+  "TargetTableName": "Feeney-Cruickshank",
   "Completed": false,
-  "LeftSelectionId": 616,
-  "RightSelectionId": 355,
+  "LeftSelectionId": 179,
+  "RightSelectionId": 529,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Huel, Pouros and Schuster",
-  "ShadowProviderName": "Heidenreich-Adams",
-  "ChartKey": "suscipit",
-  "LastLoaded": "2018-05-22T11:22:39.3051036+02:00",
-  "LastLoadedBy": 965,
+  "MainProviderName": "Muller-Hirthe",
+  "ShadowProviderName": "Roberts, Auer and Hettinger",
+  "ChartKey": "voluptas",
+  "LastLoaded": "2002-05-23T14:19:04.1879797+02:00",
+  "LastLoadedBy": 206,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-05-21T11:22:39.3051036+02:00",
-  "LastMembershipChangeBy": 705,
+  "LastMembershipChange": "2017-08-02T14:19:04.1879797+02:00",
+  "LastMembershipChangeBy": 795,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ut",
-  "MemberTabHeading": "ab",
-  "MailingsProviderName": "Hermann-Rice",
-  "DashboardTileDefinitionId": 574,
+  "MainHeading": "et",
+  "MemberTabHeading": "rem",
+  "MailingsProviderName": "Wehner, Schimmel and Koch",
+  "DashboardTileDefinitionId": 33,
   "VisibleFor": [
     {
-      "VisibleId": 403,
+      "VisibleId": 928,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 661
+          "FieldType": "System.Int32",
+          "FieldLength": 897
         }
       }
     },
     {
-      "VisibleId": 403,
+      "VisibleId": 928,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 661
+          "FieldType": "System.Int32",
+          "FieldLength": 897
         }
       }
     }
@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 122
+      "FieldLength": 797
     }
   }
 }

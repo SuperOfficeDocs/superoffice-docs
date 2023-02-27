@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 599,
-  "ModuleOwner": "voluptatem",
+  "AssociateId": 353,
+  "ModuleOwner": "sint",
   "ModuleLicenseNames": [
-    "Harber, Kiehn and Pacocha",
-    "Schuster Group"
+    "Morissette Group",
+    "Heidenreich-Morar"
   ]
 }
 ```
@@ -109,25 +109,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 14,
-    "Tooltip": "sapiente",
-    "CanAssign": false,
-    "Free": 691,
-    "InUse": 791,
+    "Total": 674,
+    "Tooltip": "sit",
+    "CanAssign": true,
+    "Free": 946,
+    "InUse": 85,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 705,
-    "Name": "Gleichner, Mayert and Johnston",
-    "Description": "Networked secondary standardization",
-    "PrerequisiteModuleName": "Schmidt, Daniel and Bergnaum",
-    "SortOrder": 718,
-    "ExtraFlags": 743,
+    "Assigned": false,
+    "ModuleLicenseId": 24,
+    "Name": "O'Connell, Veum and Lang",
+    "Description": "Synergized 24 hour installation",
+    "PrerequisiteModuleName": "Huels, O'Conner and Koelpin",
+    "SortOrder": 41,
+    "ExtraFlags": 131,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldLength": 381
       }
     }
   }

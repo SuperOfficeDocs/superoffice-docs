@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 443
+  "SaleId": 600
 }
 ```
 
@@ -99,58 +99,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 128,
-  "SaleId": 449,
-  "QuoteConnectionId": 356,
-  "ERPQuoteKey": "molestias",
+  "QuoteId": 896,
+  "SaleId": 929,
+  "QuoteConnectionId": 64,
+  "ERPQuoteKey": "officia",
   "ERPOrderKey": "omnis",
-  "ActiveQuoteVersionId": 294,
-  "AcceptedQuoteAlternativeId": 345,
-  "UseValuesFromQuote": 730,
-  "DocumentId": 458,
-  "PoNumber": "788422",
-  "OrderComment": "similique",
-  "PreferredEmailCulture": "penelope@kemmer.info",
+  "ActiveQuoteVersionId": 574,
+  "AcceptedQuoteAlternativeId": 82,
+  "UseValuesFromQuote": 343,
+  "DocumentId": 412,
+  "PoNumber": "797569",
+  "OrderComment": "labore",
+  "PreferredEmailCulture": "kory.thiel@heaney.biz",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 592,
-      "ERPQuoteVersionKey": "omnis",
-      "QuoteId": 113,
-      "Description": "Managed 3rd generation help-desk",
-      "Number": "1017187",
+      "QuoteVersionId": 473,
+      "ERPQuoteVersionKey": "ut",
+      "QuoteId": 297,
+      "Description": "Cross-group intermediate workforce",
+      "Number": "371444",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 890,
-      "SentDate": "2006-12-07T11:22:38.9301893+01:00",
-      "FollowupId": 876,
-      "ExpirationDate": "2019-07-04T11:22:38.9301893+02:00",
-      "DeliveryCountryId": 670,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 125,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "soluta",
-      "ERPPaymentTypeKey": "dolores",
-      "ERPDeliveryTermsKey": "sed",
-      "ERPDeliveryTypeKey": "aut",
-      "Rank": 768,
-      "ApprovedBy": 933,
-      "ApprovedText": "et",
-      "ApprovedRegisteredBy": 550,
-      "ApprovedRegisteredDate": "1996-09-04T11:22:38.9301893+02:00",
-      "ExtraField1": "voluptas",
-      "ExtraField2": "voluptatem",
-      "ExtraField3": "minus",
-      "ExtraField4": "commodi",
-      "ExtraField5": "aliquid",
-      "LastRecalculated": "2013-10-10T11:22:38.9301893+02:00",
-      "Updated": "2013-01-29T11:22:38.9301893+01:00",
-      "UpdatedAssociateId": 246,
-      "Registered": "2005-12-05T11:22:38.9301893+01:00",
-      "RegisteredAssociateId": 479,
-      "RequestAssociateId": 437,
-      "RequestComment": "illum",
+      "LikelyQuoteAlternativeId": 357,
+      "SentDate": "2006-09-28T14:19:04.0313341+02:00",
+      "FollowupId": 922,
+      "ExpirationDate": "1997-01-27T14:19:04.0313341+01:00",
+      "DeliveryCountryId": 782,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 288,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "excepturi",
+      "ERPPaymentTypeKey": "quibusdam",
+      "ERPDeliveryTermsKey": "reiciendis",
+      "ERPDeliveryTypeKey": "cupiditate",
+      "Rank": 48,
+      "ApprovedBy": 855,
+      "ApprovedText": "molestiae",
+      "ApprovedRegisteredBy": 612,
+      "ApprovedRegisteredDate": "2017-06-10T14:19:04.0313341+02:00",
+      "ExtraField1": "ut",
+      "ExtraField2": "enim",
+      "ExtraField3": "qui",
+      "ExtraField4": "excepturi",
+      "ExtraField5": "voluptatum",
+      "LastRecalculated": "2000-11-05T14:19:04.0313341+01:00",
+      "Updated": "2006-06-08T14:19:04.0313341+02:00",
+      "UpdatedAssociateId": 813,
+      "Registered": "1996-04-14T14:19:04.0313341+02:00",
+      "RegisteredAssociateId": 796,
+      "RequestAssociateId": 851,
+      "RequestComment": "accusamus",
       "QuoteAlternatives": [
         {},
         {}
@@ -160,7 +160,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 413
+          "FieldLength": 794
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldType": "System.String",
+      "FieldLength": 505
     }
   }
 }

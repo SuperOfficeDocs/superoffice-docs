@@ -71,8 +71,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "cumque",
-  "Instance": "tempore",
+  "Application": "dolor",
+  "Instance": "dolores",
   "ForAllAssociates": false
 }
 ```

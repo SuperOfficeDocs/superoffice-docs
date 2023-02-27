@@ -63,17 +63,17 @@ No Content
 POST /api/v1/Agents/CustomerService/UpdateFeatureToggles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FeatureToggles": [
     {
-      "Name": "Grady, Casper and Feil",
+      "Name": "Hills LLC",
       "State": true
     },
     {
-      "Name": "Grady, Casper and Feil",
+      "Name": "Hills LLC",
       "State": true
     }
   ]

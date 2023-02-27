@@ -97,7 +97,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 126
+  "Id": 378
 }
 ```
 
@@ -108,37 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 323,
-  "Name": "Cole Inc and Sons",
-  "AssociateId": 416,
-  "DetailsTable": 321,
-  "DetailsRecord": 838,
+  "Id": 699,
+  "Name": "Mosciski-McLaughlin",
+  "AssociateId": 971,
+  "DetailsTable": 891,
+  "DetailsRecord": 368,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "sed",
-    "ParameterObject2": "animi"
+    "ParameterObject1": "neque",
+    "ParameterObject2": "quo"
   },
-  "LastStarted": "2002-11-10T11:22:37.4461725+01:00",
-  "Created": "2018-08-30T11:22:37.4461725+02:00",
-  "StartCount": 490,
-  "DatabaseSerialNumber": "1557530",
-  "Context": "vero",
-  "Result": "laudantium",
+  "LastStarted": "2004-11-05T14:19:02.7594283+01:00",
+  "Created": "2004-07-11T14:19:02.7594283+02:00",
+  "StartCount": 85,
+  "DatabaseSerialNumber": "909587",
+  "Context": "ut",
+  "Result": "quis",
   "State": "All",
-  "Description": "Multi-channelled eco-centric monitoring",
-  "Response": "nemo",
-  "Request": "deserunt",
-  "ProgressDescription": "Expanded assymetric time-frame",
-  "ProgressPercent": 305,
-  "FileName": "Gulgowski, Schinner and Koss",
+  "Description": "Synchronised transitional migration",
+  "Response": "eius",
+  "Request": "cum",
+  "ProgressDescription": "Universal stable protocol",
+  "ProgressPercent": 990,
+  "FileName": "Waters, Douglas and Gottlieb",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 292
+      "FieldLength": 618
     }
   }
 }

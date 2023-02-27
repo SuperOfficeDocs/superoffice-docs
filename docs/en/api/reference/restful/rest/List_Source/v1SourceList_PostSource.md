@@ -76,12 +76,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 478,
-  "Name": "Gutkowski, Leuschke and Kertzmann",
-  "Tooltip": "voluptates",
-  "Deleted": true,
-  "UdListDefinitionId": 843,
-  "Rank": 711
+  "Id": 422,
+  "Name": "Blanda Group",
+  "Tooltip": "neque",
+  "Deleted": false,
+  "UdListDefinitionId": 609,
+  "Rank": 371
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 697,
-  "Name": "Gorczany LLC",
-  "Tooltip": "recusandae",
+  "Id": 220,
+  "Name": "Kilback, Williamson and Russel",
+  "Tooltip": "quas",
   "Deleted": false,
-  "UdListDefinitionId": 857,
-  "Rank": 655,
+  "UdListDefinitionId": 998,
+  "Rank": 875,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 950
+      "FieldType": "System.String",
+      "FieldLength": 355
     }
   }
 }

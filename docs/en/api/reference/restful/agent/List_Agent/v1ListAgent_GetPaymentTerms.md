@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 732,
-    "Value": "rem",
-    "Tooltip": "reprehenderit",
+    "Id": 482,
+    "Value": "omnis",
+    "Tooltip": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 518
+        "FieldType": "System.Int32",
+        "FieldLength": 884
       }
     }
   },
   {
-    "Id": 732,
-    "Value": "rem",
-    "Tooltip": "reprehenderit",
+    "Id": 482,
+    "Value": "omnis",
+    "Tooltip": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 518
+        "FieldType": "System.Int32",
+        "FieldLength": 884
       }
     }
   }

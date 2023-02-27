@@ -88,46 +88,46 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 892,
-  "Caption": "debitis",
-  "Description": "Digitized stable installation",
-  "ChartName": "Nienow-Labadie",
-  "ChartId": "dolor",
+  "DashboardTileId": 434,
+  "Caption": "eligendi",
+  "Description": "Right-sized even-keeled budgetary management",
+  "ChartName": "Strosin Inc and Sons",
+  "ChartId": "alias",
   "IsDefault": false,
-  "AssociateId": 713,
-  "GroupId": 366,
-  "SelectionId": 261,
-  "Config": "voluptatem",
+  "AssociateId": 311,
+  "GroupId": 61,
+  "SelectionId": 492,
+  "Config": "fugit",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Tillman-Nader",
-      "Description": "Adaptive encompassing extranet",
+      "Name": "Gutmann, Kutch and Steuber",
+      "Description": "Intuitive system-worthy productivity",
       "Type": "Boolean",
-      "ListName": "Schinner Group",
+      "ListName": "Weimann, Kulas and Padberg",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "amet",
+      "Value": "qui",
       "DefaultDataOption": true
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 191,
+      "VisibleId": 830,
       "Visibility": "All",
-      "DisplayValue": "quo"
+      "DisplayValue": "laborum"
     },
     {
-      "VisibleId": 191,
+      "VisibleId": 830,
       "Visibility": "All",
-      "DisplayValue": "quo"
+      "DisplayValue": "laborum"
     }
   ]
 }
@@ -140,64 +140,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 26,
-  "Caption": "aut",
-  "Description": "Digitized dynamic emulation",
-  "ChartName": "Bosco Group",
-  "ChartId": "commodi",
-  "IsDefault": false,
-  "AssociateId": 57,
-  "GroupId": 760,
-  "SelectionId": 507,
-  "Config": "quas",
+  "DashboardTileId": 494,
+  "Caption": "animi",
+  "Description": "Enhanced client-driven model",
+  "ChartName": "Cronin-Dooley",
+  "ChartId": "numquam",
+  "IsDefault": true,
+  "AssociateId": 83,
+  "GroupId": 988,
+  "SelectionId": 961,
+  "Config": "quia",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Purdy, Runolfsson and Spencer",
-      "Description": "Programmable assymetric throughput",
+      "Name": "Schaefer, Bailey and Bashirian",
+      "Description": "Up-sized national intranet",
       "Type": "Boolean",
-      "ListName": "Mraz Group",
+      "ListName": "Sipes Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "error",
+      "Value": "sapiente",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 122
+          "FieldType": "System.Int32",
+          "FieldLength": 852
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 618,
+      "VisibleId": 938,
       "Visibility": "All",
-      "DisplayValue": "asperiores",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 786
+          "FieldLength": 967
         }
       }
     },
     {
-      "VisibleId": 618,
+      "VisibleId": 938,
       "Visibility": "All",
-      "DisplayValue": "asperiores",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 786
+          "FieldLength": 967
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 705
+      "FieldType": "System.Int32",
+      "FieldLength": 445
     }
   }
 }

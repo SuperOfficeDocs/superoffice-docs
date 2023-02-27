@@ -11,6 +11,8 @@ so.topic: reference
 
 # New and improved Marketing
 
-* Nothing new in this release (10.2.1)
+* Nothing new in release 10.2.1
+* [Email domain validation (10.2.2)][1]
 
 <!-- Referenced links-->
+[1]: 10.2.2-update.md

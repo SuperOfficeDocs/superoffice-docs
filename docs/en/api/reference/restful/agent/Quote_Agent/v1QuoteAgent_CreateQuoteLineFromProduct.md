@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 387,
+  "QuoteAlternativeId": 545,
   "Product": null
 }
 ```
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 64,
-  "ERPQuoteLineKey": "sapiente",
-  "QuoteAlternativeId": 547,
-  "ERPProductKey": "optio",
+  "QuoteLineId": 91,
+  "ERPQuoteLineKey": "aperiam",
+  "QuoteAlternativeId": 759,
+  "ERPProductKey": "doloremque",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 24739.796,
-  "DeliveredQuantity": 25495.09,
-  "Rank": 898,
-  "Name": "Armstrong, Kuhlman and Price",
-  "Description": "Distributed value-added parallelism",
-  "Code": "quis",
-  "QuantityUnit": "officia",
-  "PriceUnit": "aliquam",
-  "ItemNumber": "1567736",
+  "Quantity": 10151.026,
+  "DeliveredQuantity": 21890.989999999998,
+  "Rank": 988,
+  "Name": "Hermiston LLC",
+  "Description": "Fully-configurable reciprocal synergy",
+  "Code": "id",
+  "QuantityUnit": "aliquid",
+  "PriceUnit": "eaque",
+  "ItemNumber": "1656323",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "at",
-  "ProductTypeKey": "explicabo",
-  "Supplier": "dolorem",
-  "SupplierCode": "voluptas",
-  "Thumbnail": "consequuntur",
-  "VATInfo": "minus",
-  "VAT": 814.83999999999992,
-  "UnitCost": 17779.182,
-  "UnitMinimumPrice": 30080.131999999998,
-  "UnitListPrice": 29490.94,
+  "ProductFamilyKey": "dolorem",
+  "ProductTypeKey": "doloribus",
+  "Supplier": "et",
+  "SupplierCode": "dolorem",
+  "Thumbnail": "sequi",
+  "VATInfo": "natus",
+  "VAT": 20048.198,
+  "UnitCost": 3218.618,
+  "UnitMinimumPrice": 24125.532,
+  "UnitListPrice": 191.174,
   "ExtraInfo": [
     {
-      "Name": "Wintheiser, Conn and Bartoletti",
-      "Value": "temporibus",
+      "Name": "Runte Inc and Sons",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 475
+          "FieldType": "System.String",
+          "FieldLength": 323
         }
       }
     },
     {
-      "Name": "Wintheiser, Conn and Bartoletti",
-      "Value": "temporibus",
+      "Name": "Runte Inc and Sons",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 475
+          "FieldType": "System.String",
+          "FieldLength": 323
         }
       }
     }
   ],
-  "RawExtraInfo": "in",
+  "RawExtraInfo": "facilis",
   "IsSubscription": false,
-  "SubscriptionUnit": "facilis",
-  "SubscriptionQuantity": 30352.789999999997,
-  "SubscriptionStart": "2000-02-14T11:22:38.9458129+01:00",
-  "ERPDiscountPercent": 19763.004,
-  "ERPDiscountAmount": 17117.908,
-  "DiscountPercent": 1378.96,
-  "DiscountAmount": 8044.978,
+  "SubscriptionUnit": "sit",
+  "SubscriptionQuantity": 29083.52,
+  "SubscriptionStart": "2013-02-19T14:19:04.0469597+01:00",
+  "ERPDiscountPercent": 19750.468,
+  "ERPDiscountAmount": 29566.156,
+  "DiscountPercent": 17512.791999999998,
+  "DiscountAmount": 8812.8079999999991,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 4556.836,
-  "EarningAmount": 8389.7179999999989,
-  "SubTotal": 30735.138,
-  "TotalPrice": 4268.508,
-  "Rights": "et",
-  "Rule": "magni",
-  "ExtraField1": "ea",
-  "ExtraField2": "molestiae",
-  "ExtraField3": "et",
-  "ExtraField4": "molestiae",
-  "ExtraField5": "omnis",
+  "EarningPercent": 30155.347999999998,
+  "EarningAmount": 17174.32,
+  "SubTotal": 2106.048,
+  "TotalPrice": 22514.656,
+  "Rights": "saepe",
+  "Rule": "ex",
+  "ExtraField1": "natus",
+  "ExtraField2": "dolore",
+  "ExtraField3": "exercitationem",
+  "ExtraField4": "possimus",
+  "ExtraField5": "assumenda",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldType": "System.String",
+      "FieldLength": 10
     }
   }
 }

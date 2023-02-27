@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 310,
-  "ERPProductKey": "optio"
+  "QuoteConnectionId": 959,
+  "ERPProductKey": "delectus"
 }
 ```
 
@@ -122,73 +122,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 335,
-  "ERPProductKey": "quos",
-  "ERPPriceListKey": "iusto",
-  "Name": "Toy-Labadie",
-  "Description": "De-engineered foreground architecture",
-  "Code": "eius",
-  "PriceUnit": "neque",
-  "QuantityUnit": "voluptatem",
+  "ProductId": 635,
+  "ERPProductKey": "omnis",
+  "ERPPriceListKey": "doloribus",
+  "Name": "Pacocha Inc and Sons",
+  "Description": "Enterprise-wide clear-thinking process improvement",
+  "Code": "aut",
+  "PriceUnit": "porro",
+  "QuantityUnit": "et",
   "IsSubscription": false,
-  "SubscriptionUnit": "cumque",
-  "DefaultSubscriptionQuantity": 391.75,
-  "ItemNumber": "667311",
+  "SubscriptionUnit": "dolore",
+  "DefaultSubscriptionQuantity": 10082.078,
+  "ItemNumber": "1268231",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "odit",
-  "ProductTypeKey": "ipsum",
-  "VAT": 19333.646,
-  "VATInfo": "incidunt",
-  "UnitCost": 16691.684,
-  "UnitMinimumPrice": 24683.384,
-  "UnitListPrice": 4575.6399999999994,
-  "InAssortment": true,
-  "Supplier": "alias",
-  "SupplierCode": "aut",
-  "Rights": "deserunt",
-  "Rule": "voluptatibus",
+  "ProductFamilyKey": "amet",
+  "ProductTypeKey": "sunt",
+  "VAT": 18547.012,
+  "VATInfo": "accusantium",
+  "UnitCost": 21881.588,
+  "UnitMinimumPrice": 19455.872,
+  "UnitListPrice": 15995.936,
+  "InAssortment": false,
+  "Supplier": "optio",
+  "SupplierCode": "quis",
+  "Rights": "qui",
+  "Rule": "aut",
   "ExtraInfo": [
     {
-      "Name": "Marks Inc and Sons",
-      "Value": "sed",
+      "Name": "Keeling, Witting and Conn",
+      "Value": "error",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 413
+          "FieldType": "System.Int32",
+          "FieldLength": 797
         }
       }
     },
     {
-      "Name": "Marks Inc and Sons",
-      "Value": "sed",
+      "Name": "Keeling, Witting and Conn",
+      "Value": "error",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 413
+          "FieldType": "System.Int32",
+          "FieldLength": 797
         }
       }
     }
   ],
-  "RawExtraInfo": "ea",
+  "RawExtraInfo": "incidunt",
   "ExtraField1": "quod",
-  "ExtraField2": "debitis",
-  "ExtraField3": "deserunt",
-  "ExtraField4": "non",
+  "ExtraField2": "modi",
+  "ExtraField3": "minima",
+  "ExtraField4": "dicta",
   "ExtraField5": "sint",
-  "InStock": 26717.35,
+  "InStock": 22687.025999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 966
+      "FieldType": "System.Int32",
+      "FieldLength": 266
     }
   }
 }

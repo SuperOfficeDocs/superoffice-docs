@@ -66,7 +66,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,29 +76,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 655,
-  "Name": "Schoen-Lind",
-  "CreatedDate": "2013-02-07T11:22:44.6788474+01:00",
-  "UpdatedDate": "1997-10-20T11:22:44.6788474+02:00",
+  "ForeignAppId": 260,
+  "Name": "Emard Inc and Sons",
+  "CreatedDate": "2017-12-01T14:19:10.3342217+01:00",
+  "UpdatedDate": "2022-03-02T14:19:10.3342217+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 471,
-      "Name": "Legros-Kirlin",
-      "CreatedDate": "2002-06-10T11:22:44.6788474+02:00",
-      "UpdatedDate": "1999-10-26T11:22:44.6788474+02:00",
-      "AssociateFullName": "Robin Johnson",
-      "CreatedBy": "atque",
-      "UpdatedBy": "magnam",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 415,
+      "ForeignDeviceId": 26,
+      "Name": "Welch LLC",
+      "CreatedDate": "1998-04-05T14:19:10.3342217+02:00",
+      "UpdatedDate": "2021-06-04T14:19:10.3342217+02:00",
+      "AssociateFullName": "Heath Ullrich",
+      "CreatedBy": "est",
+      "UpdatedBy": "quod",
+      "DeviceIdentifier": "assumenda",
+      "ForeignAppId": 221,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 129
+          "FieldLength": 869
         }
       }
     }
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 918
+      "FieldLength": 435
     }
   }
 }

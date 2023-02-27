@@ -81,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 15,
+  "DocumentTemplateId": 38,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "incidunt",
-  "PluginId": 750
+  "LanguageCode": "voluptatum",
+  "PluginId": 48
 }
 ```
 
@@ -95,10 +95,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Marvin-Donnelly",
-  "Description": "Reactive 24/7 emulation",
-  "ExternalReference": "eius",
+  "Name": "Hermann, Boyle and Marks",
+  "Description": "Synchronised analyzing hub",
+  "ExternalReference": "sed",
   "MimeType": "rerum",
-  "PluginId": 985
+  "PluginId": 547
 }
 ```

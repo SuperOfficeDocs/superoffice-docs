@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,33 +100,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 420,
-  "ErpConnectorId": 867,
-  "DisplayName": "Schulist, Smitham and Schaden",
-  "DisplayDescription": "Open-architected system-worthy algorithm",
+  "ErpConnectionId": 921,
+  "ErpConnectorId": 244,
+  "DisplayName": "Berge, Renner and Senger",
+  "DisplayDescription": "Object-based holistic monitoring",
   "Active": true,
-  "ConnectionId": "eos",
-  "MostRecentTimestamp": "modi",
+  "ConnectionId": "laborum",
+  "MostRecentTimestamp": "minima",
   "ConfigFields": {
-    "ConfigFields1": "eum",
-    "ConfigFields2": "natus"
+    "ConfigFields1": "porro",
+    "ConfigFields2": "eligendi"
   },
-  "Deleted": false,
+  "Deleted": true,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    509,
-    179
+    289,
+    298
   ],
   "AssociateAccessIds": [
-    930,
-    965
+    142,
+    418
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 436
+      "FieldLength": 211
     }
   }
 }

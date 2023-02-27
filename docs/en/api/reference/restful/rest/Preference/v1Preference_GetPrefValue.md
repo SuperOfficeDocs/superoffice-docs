@@ -82,22 +82,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "nesciunt",
+  "RawValue": "maxime",
   "Specification": null,
-  "DisplayValue": "accusamus",
-  "DisplayTooltip": "dolor",
+  "DisplayValue": "et",
+  "DisplayTooltip": "asperiores",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 113,
-  "PrefDescId": 397,
-  "TableName": "Huel, Conroy and Waters",
-  "UserPreferenceId": 283,
+  "TargetId": 735,
+  "PrefDescId": 24,
+  "TableName": "Howell-Tremblay",
+  "UserPreferenceId": 473,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldLength": 143
     }
   }
 }

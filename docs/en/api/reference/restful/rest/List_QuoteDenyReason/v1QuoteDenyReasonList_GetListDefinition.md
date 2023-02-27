@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 396,
-  "Name": "Mann Inc and Sons",
-  "Tooltip": "amet",
+  "Id": 978,
+  "Name": "Christiansen, Tromp and Dietrich",
+  "Tooltip": "voluptatem",
   "Deleted": true,
-  "Rank": 224,
+  "Rank": 897,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "exercitationem",
-  "InUseByUserDefinedFields": true,
+  "ListType": "consequuntur",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 974
+      "FieldLength": 182
     }
   },
   "_Links": {

@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 513,
-    "Name": "Kuhic, Dibbert and Marvin",
-    "ToolTip": "Enim nulla molestias nihil.",
-    "Deleted": false,
-    "Rank": 317,
-    "Type": "laboriosam",
-    "ColorBlock": 178,
-    "IconHint": "eius",
+    "Id": 368,
+    "Name": "Bernhard LLC",
+    "ToolTip": "Ea aut enim omnis dicta dolorum alias.",
+    "Deleted": true,
+    "Rank": 500,
+    "Type": "non",
+    "ColorBlock": 905,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2000-06-21T11:22:45.8347706+02:00",
+    "LastChanged": "1996-01-31T14:19:11.1793474+01:00",
     "ChildItems": [
       {
-        "Id": 597,
-        "Name": "Flatley Group",
-        "ToolTip": "Sed ut soluta nobis tenetur distinctio.",
+        "Id": 772,
+        "Name": "Senger, Hettinger and Altenwerth",
+        "ToolTip": "Accusantium eaque quas voluptatibus ipsam vitae.",
         "Deleted": false,
-        "Rank": 572,
-        "Type": "esse",
-        "ColorBlock": 244,
-        "IconHint": "asperiores",
+        "Rank": 827,
+        "Type": "soluta",
+        "ColorBlock": 230,
+        "IconHint": "animi",
         "Selected": false,
-        "LastChanged": "2013-06-20T11:22:45.8347706+02:00",
+        "LastChanged": "2009-11-30T14:19:11.1793474+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "earum",
-        "Hidden": true,
-        "FullName": "Dorothy Keeling",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "nostrum",
+        "Hidden": false,
+        "FullName": "Ramiro Jenkins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 682
+            "FieldType": "System.Int32",
+            "FieldLength": 95
           }
         }
       }
     ],
-    "ExtraInfo": "error",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Mark Ariel Bahringer III",
+    "ExtraInfo": "omnis",
+    "StyleHint": "ea",
+    "Hidden": true,
+    "FullName": "Moses Rolfson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 749
+        "FieldLength": 160
       }
     }
   }

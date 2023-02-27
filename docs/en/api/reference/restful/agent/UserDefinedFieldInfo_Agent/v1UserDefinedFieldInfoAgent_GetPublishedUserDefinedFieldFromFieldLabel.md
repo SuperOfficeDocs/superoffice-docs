@@ -112,7 +112,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "quos",
+  "FieldLabel": "et",
   "OwnerType": "Appointment"
 }
 ```
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 982,
-  "ColumnId": 511,
-  "FieldDefault": "repudiandae",
-  "FieldHeight": 954,
-  "FieldLabel": "rem",
-  "FieldLeft": 691,
-  "FieldTop": 474,
+  "UDefFieldId": 122,
+  "ColumnId": 150,
+  "FieldDefault": "omnis",
+  "FieldHeight": 172,
+  "FieldLabel": "numquam",
+  "FieldLeft": 628,
+  "FieldTop": 477,
   "FieldType": "Checkbox",
-  "FieldWidth": 659,
-  "FormatMask": "omnis",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 193,
-  "LabelLeft": 456,
-  "LabelTop": 667,
-  "LabelWidth": 281,
-  "LastVersionId": 153,
-  "ListTableId": 629,
+  "FieldWidth": 621,
+  "FormatMask": "totam",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 468,
+  "LabelLeft": 699,
+  "LabelTop": 876,
+  "LabelWidth": 24,
+  "LastVersionId": 435,
+  "ListTableId": 917,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 402,
-  "ProgId": "nostrum",
-  "IsReadOnly": false,
-  "ShortLabel": "molestias",
-  "TabOrder": 377,
-  "TextLength": 88,
-  "Tooltip": "qui",
-  "UdefIdentity": 96,
-  "UDListDefinitionId": 658,
+  "Page1LineNo": 349,
+  "ProgId": "sed",
+  "IsReadOnly": true,
+  "ShortLabel": "quam",
+  "TabOrder": 282,
+  "TextLength": 660,
+  "Tooltip": "nemo",
+  "UdefIdentity": 973,
+  "UDListDefinitionId": 323,
   "Justification": "Center",
-  "Version": 903,
-  "TemplateVariableName": "Weimann LLC",
-  "HasBeenPublished": false,
-  "MdoListName": "Pfannerstill Inc and Sons",
+  "Version": 513,
+  "TemplateVariableName": "Lindgren LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "Wisozk Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 909
+      "FieldType": "System.String",
+      "FieldLength": 467
     }
   }
 }

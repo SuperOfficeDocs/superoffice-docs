@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 831
+  "EntityId": 729
 }
 ```
 
@@ -98,27 +98,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 293,
-    "ConnectionName": "Kub-Schaefer",
+    "ErpConnectionId": 453,
+    "ConnectionName": "Wehner LLC",
     "Connected": true,
     "ErpFields": [
       {
-        "FieldKey": "accusantium",
-        "Rank": 464,
-        "DisplayName": "Kirlin-Brekke",
-        "DisplayDescription": "Managed modular instruction set",
+        "FieldKey": "et",
+        "Rank": 78,
+        "DisplayName": "Grimes, Hodkiewicz and Hahn",
+        "DisplayDescription": "Universal secondary strategy",
         "FieldType": "Checkbox",
-        "ListName": "Balistreri Inc and Sons",
-        "DefaultValue": "quis",
-        "MaxLength": 337,
+        "ListName": "Wilkinson-Keebler",
+        "DefaultValue": "voluptates",
+        "MaxLength": 8,
         "Access": "Mandatory",
         "ShowInSearch": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 686
+            "FieldType": "System.String",
+            "FieldLength": 726
           }
         }
       }
@@ -126,15 +126,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "dignissimos",
-      "magni"
+      "maxime",
+      "qui"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 519
+        "FieldType": "System.String",
+        "FieldLength": 911
       }
     }
   }

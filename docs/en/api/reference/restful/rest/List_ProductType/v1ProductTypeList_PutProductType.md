@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 732,
-  "Name": "Cormier Inc and Sons",
-  "Tooltip": "veritatis",
+  "Id": 114,
+  "Name": "Reichert, Feest and Rutherford",
+  "Tooltip": "ut",
   "Deleted": true,
-  "UdListDefinitionId": 779,
-  "Rank": 996
+  "UdListDefinitionId": 234,
+  "Rank": 235
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 256,
-  "Name": "DuBuque-Koepp",
-  "Tooltip": "error",
-  "Deleted": false,
-  "UdListDefinitionId": 465,
-  "Rank": 58,
+  "Id": 986,
+  "Name": "Bartell, Von and Ullrich",
+  "Tooltip": "natus",
+  "Deleted": true,
+  "UdListDefinitionId": 204,
+  "Rank": 185,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 709
+      "FieldType": "System.String",
+      "FieldLength": 678
     }
   }
 }

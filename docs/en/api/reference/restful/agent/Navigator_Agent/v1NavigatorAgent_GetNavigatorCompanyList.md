@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 17,
-    "Value": "iste",
-    "Tooltip": "sed",
+    "Id": 137,
+    "Value": "dolorem",
+    "Tooltip": "recusandae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 631
+        "FieldLength": 133
       }
     }
   },
   {
-    "Id": 17,
-    "Value": "iste",
-    "Tooltip": "sed",
+    "Id": 137,
+    "Value": "dolorem",
+    "Tooltip": "recusandae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 631
+        "FieldLength": 133
       }
     }
   }

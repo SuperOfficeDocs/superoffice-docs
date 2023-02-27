@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 108,
-    "Name": "Runte-Emard",
-    "ToolTip": "Aut soluta.",
+    "Id": 601,
+    "Name": "Hyatt-Bergnaum",
+    "ToolTip": "Qui possimus quae.",
     "Deleted": false,
-    "Rank": 693,
-    "Type": "hic",
-    "ColorBlock": 39,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2015-11-08T11:22:45.9285426+01:00",
+    "Rank": 423,
+    "Type": "voluptas",
+    "ColorBlock": 315,
+    "IconHint": "consequatur",
+    "Selected": false,
+    "LastChanged": "2002-12-04T14:19:11.2574687+01:00",
     "ChildItems": [
       {
-        "Id": 249,
-        "Name": "Corwin Inc and Sons",
-        "ToolTip": "Consequatur pariatur.",
-        "Deleted": false,
-        "Rank": 185,
-        "Type": "iste",
-        "ColorBlock": 906,
-        "IconHint": "quas",
-        "Selected": true,
-        "LastChanged": "2014-02-03T11:22:45.9285426+01:00",
+        "Id": 857,
+        "Name": "Ruecker, Aufderhar and Stanton",
+        "ToolTip": "Harum architecto.",
+        "Deleted": true,
+        "Rank": 605,
+        "Type": "ut",
+        "ColorBlock": 55,
+        "IconHint": "natus",
+        "Selected": false,
+        "LastChanged": "2022-08-08T14:19:11.2574687+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "esse",
+        "ExtraInfo": "qui",
+        "StyleHint": "illo",
         "Hidden": true,
-        "FullName": "Melyna Gleason"
+        "FullName": "Prof. Nannie Dallas Lemke"
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "et",
+    "ExtraInfo": "molestias",
+    "StyleHint": "saepe",
     "Hidden": true,
-    "FullName": "Mr. Rebecca Heathcote Sr."
+    "FullName": "Leda Emmet Jacobs Jr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 931,
-    "Name": "Swaniawski, Jaskolski and VonRueden",
-    "ToolTip": "Sapiente rem aperiam saepe et neque optio.",
+    "Id": 406,
+    "Name": "Hoeger, Kautzer and White",
+    "ToolTip": "Explicabo est voluptas quidem fugit.",
     "Deleted": false,
-    "Rank": 587,
-    "Type": "ut",
-    "ColorBlock": 259,
-    "IconHint": "sint",
+    "Rank": 48,
+    "Type": "enim",
+    "ColorBlock": 961,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2006-06-12T11:22:45.9285426+02:00",
+    "LastChanged": "2019-10-11T14:19:11.2574687+02:00",
     "ChildItems": [
       {
-        "Id": 133,
-        "Name": "Purdy Inc and Sons",
-        "ToolTip": "Delectus repudiandae consequatur autem omnis inventore.",
-        "Deleted": false,
-        "Rank": 755,
-        "Type": "ullam",
-        "ColorBlock": 405,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2012-04-06T11:22:45.9285426+02:00",
+        "Id": 387,
+        "Name": "Swaniawski-O'Reilly",
+        "ToolTip": "Distinctio aut est quia.",
+        "Deleted": true,
+        "Rank": 124,
+        "Type": "aut",
+        "ColorBlock": 572,
+        "IconHint": "minus",
+        "Selected": true,
+        "LastChanged": "1997-05-27T14:19:11.2574687+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "soluta",
-        "Hidden": true,
-        "FullName": "Miss Evans Gislason",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "asperiores",
+        "Hidden": false,
+        "FullName": "Eli Ullrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 622
+            "FieldLength": 461
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "et",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Lilyan Kling",
+    "FullName": "Kenyon Rosenbaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 644
+        "FieldLength": 185
       }
     }
   }

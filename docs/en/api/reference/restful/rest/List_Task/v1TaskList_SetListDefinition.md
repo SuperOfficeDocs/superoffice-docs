@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 645,
-  "Name": "Fay-Ortiz",
-  "Tooltip": "atque",
+  "Id": 505,
+  "Name": "Stoltenberg, Bode and Schinner",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 958,
+  "Rank": 438,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true
+  "ListType": "aut",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 129,
-  "Name": "Lowe Group",
-  "Tooltip": "quam",
-  "Deleted": false,
-  "Rank": 191,
+  "Id": 277,
+  "Name": "Hirthe-Kozey",
+  "Tooltip": "inventore",
+  "Deleted": true,
+  "Rank": 846,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "accusamus",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "officia",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 146
+      "FieldLength": 977
     }
   }
 }

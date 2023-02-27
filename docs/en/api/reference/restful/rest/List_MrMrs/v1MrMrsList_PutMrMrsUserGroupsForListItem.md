@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 142,
-    "Name": "Fay-Bergnaum",
-    "ToolTip": "Velit reiciendis dolorem dolorem tempora.",
-    "Deleted": true,
-    "Rank": 794,
-    "Type": "dolores",
-    "ColorBlock": 924,
-    "IconHint": "voluptates",
+    "Id": 874,
+    "Name": "Rowe-Mayer",
+    "ToolTip": "Iste omnis accusantium ipsa deleniti aut sit in.",
+    "Deleted": false,
+    "Rank": 155,
+    "Type": "est",
+    "ColorBlock": 416,
+    "IconHint": "officia",
     "Selected": false,
-    "LastChanged": "2006-07-16T11:22:45.9441645+02:00",
+    "LastChanged": "2011-11-14T14:19:11.2898728+01:00",
     "ChildItems": [
       {
-        "Id": 294,
-        "Name": "Lowe-Bode",
-        "ToolTip": "Et corrupti ullam.",
-        "Deleted": true,
-        "Rank": 871,
-        "Type": "aut",
-        "ColorBlock": 66,
-        "IconHint": "eos",
+        "Id": 253,
+        "Name": "Daugherty-Harvey",
+        "ToolTip": "Tempora atque omnis eos quo reprehenderit laboriosam.",
+        "Deleted": false,
+        "Rank": 782,
+        "Type": "at",
+        "ColorBlock": 168,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "1999-12-22T11:22:45.9441645+01:00",
+        "LastChanged": "2016-10-03T14:19:11.2898728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "temporibus",
         "Hidden": false,
-        "FullName": "Prof. Leif Brooklyn Bartoletti"
+        "FullName": "Mr. Abagail Virginie Rutherford"
       }
     ],
-    "ExtraInfo": "laborum",
-    "StyleHint": "at",
-    "Hidden": true,
-    "FullName": "Maddison Anderson"
+    "ExtraInfo": "ab",
+    "StyleHint": "eveniet",
+    "Hidden": false,
+    "FullName": "Johnny Rohan Jr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 234,
-    "Name": "Rice, Herman and Krajcik",
-    "ToolTip": "Sed et repudiandae.",
+    "Id": 166,
+    "Name": "Steuber-Wisoky",
+    "ToolTip": "Praesentium rerum vel autem ratione aut temporibus rerum.",
     "Deleted": false,
-    "Rank": 315,
-    "Type": "aut",
-    "ColorBlock": 12,
-    "IconHint": "repellendus",
-    "Selected": false,
-    "LastChanged": "1997-06-08T11:22:45.9441645+02:00",
+    "Rank": 227,
+    "Type": "sapiente",
+    "ColorBlock": 370,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2008-08-28T14:19:11.2898728+02:00",
     "ChildItems": [
       {
-        "Id": 557,
-        "Name": "Williamson Group",
-        "ToolTip": "Aut aut laudantium eos nulla consequatur.",
+        "Id": 346,
+        "Name": "Jones, Waelchi and Raynor",
+        "ToolTip": "Quia accusantium ex aspernatur incidunt consequatur.",
         "Deleted": false,
-        "Rank": 423,
-        "Type": "velit",
-        "ColorBlock": 92,
-        "IconHint": "facere",
+        "Rank": 817,
+        "Type": "est",
+        "ColorBlock": 882,
+        "IconHint": "consequatur",
         "Selected": true,
-        "LastChanged": "2009-01-31T11:22:45.9441645+01:00",
+        "LastChanged": "1996-10-14T14:19:11.2898728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "ratione",
+        "ExtraInfo": "et",
+        "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Destiney Lubowitz",
+        "FullName": "Wilhelm Hilpert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 375
+            "FieldType": "System.Int32",
+            "FieldLength": 830
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "expedita",
-    "Hidden": false,
-    "FullName": "Misty Cummerata",
+    "ExtraInfo": "non",
+    "StyleHint": "doloremque",
+    "Hidden": true,
+    "FullName": "Alexa Harris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 985
+        "FieldLength": 892
       }
     }
   }

@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 987,
+  "ContactId": 580,
   "OnlyOpenSales": false
 }
 ```
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hegmann, Zulauf and Kulas",
-    "SaleDate": "1995-12-10T11:22:39.2425669+01:00",
-    "SaleId": 344,
-    "Probability": 889,
-    "Title": "qui",
-    "Amount": 29196.343999999997,
-    "Currency": "soluta",
-    "ProjectName": "Welch, Weber and Schumm",
-    "AssociateFullName": "Prof. Felicia Keeling",
-    "Description": "Public-key responsive system engine",
+    "ContactName": "Leannon Inc and Sons",
+    "SaleDate": "2016-02-02T14:19:04.1410858+01:00",
+    "SaleId": 13,
+    "Probability": 736,
+    "Title": "iste",
+    "Amount": 24160.005999999998,
+    "Currency": "eligendi",
+    "ProjectName": "Carter Group",
+    "AssociateFullName": "Leopold Abshire",
+    "Description": "Optimized content-based concept",
     "Status": "Lost",
-    "WeightedAmount": 23931.224,
-    "ProjectId": 943,
-    "EarningPercent": 26679.742,
-    "Earning": 3930.036,
-    "ContactId": 682,
-    "AssociateId": 97,
-    "PersonId": 918,
-    "SaleTypeId": 64,
-    "SaleTypeName": "Romaguera Group",
-    "PersonFullName": "Prof. Madelyn Dovie Hodkiewicz",
+    "WeightedAmount": 27858.126,
+    "ProjectId": 251,
+    "EarningPercent": 1914.874,
+    "Earning": 303.998,
+    "ContactId": 34,
+    "AssociateId": 361,
+    "PersonId": 600,
+    "SaleTypeId": 273,
+    "SaleTypeName": "Berge LLC",
+    "PersonFullName": "Brice Wisozk",
     "Completed": "Completed",
-    "ActiveErpLinks": 753,
-    "NextDueDate": "2014-01-05T11:22:39.2425669+01:00",
-    "Number": "930959",
+    "ActiveErpLinks": 37,
+    "NextDueDate": "2004-04-19T14:19:04.1410858+02:00",
+    "Number": "685742",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 503
+        "FieldLength": 892
       }
     }
   }

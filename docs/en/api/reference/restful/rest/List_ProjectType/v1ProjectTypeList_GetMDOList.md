@@ -26,7 +26,7 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/ProjectType/MDOItems?flat=True
-GET /api/v1/List/ProjectType/MDOItems?query=quasi
+GET /api/v1/List/ProjectType/MDOItems?query=officia
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 323,
-    "Name": "Douglas Inc and Sons",
-    "ToolTip": "Natus incidunt aperiam.",
-    "Deleted": false,
-    "Rank": 806,
-    "Type": "illo",
+    "Id": 176,
+    "Name": "O'Hara, Tromp and Larson",
+    "ToolTip": "Sed nihil ab.",
+    "Deleted": true,
+    "Rank": 704,
+    "Type": "molestiae",
     "ChildItems": [
       {
-        "Id": 678,
-        "Name": "Hills Group",
-        "ToolTip": "Sed nostrum laborum.",
-        "Deleted": false,
-        "Rank": 687,
-        "Type": "ea",
+        "Id": 6,
+        "Name": "Tillman-Lubowitz",
+        "ToolTip": "Officiis tempore eius.",
+        "Deleted": true,
+        "Rank": 304,
+        "Type": "reprehenderit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 945,
-        "ExtraInfo": "sit",
-        "StyleHint": "et",
-        "FullName": "Mrs. Leonardo Karina Konopelski",
+        "IconHint": "distinctio",
+        "ColorBlock": 36,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "culpa",
+        "FullName": "Myrl Funk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 713
+            "FieldType": "System.Int32",
+            "FieldLength": 6
           }
         }
       }
     ],
-    "IconHint": "nulla",
-    "ColorBlock": 190,
-    "ExtraInfo": "explicabo",
-    "StyleHint": "a",
-    "FullName": "Raymundo Flatley Sr.",
+    "IconHint": "consequatur",
+    "ColorBlock": 842,
+    "ExtraInfo": "in",
+    "StyleHint": "optio",
+    "FullName": "Miss Tyrique Larkin DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 183
+        "FieldLength": 627
       }
     }
   }

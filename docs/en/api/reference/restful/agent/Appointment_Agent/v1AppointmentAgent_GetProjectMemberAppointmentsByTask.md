@@ -126,15 +126,15 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 18,
-  "StartTime": "2015-12-22T11:22:36.9306587+01:00",
-  "EndTime": "2016-05-24T11:22:36.9306587+02:00",
-  "Count": 890,
-  "TaskId": 164
+  "PersonId": 46,
+  "StartTime": "2016-09-14T14:19:02.3418722+02:00",
+  "EndTime": "2009-07-18T14:19:02.3418722+02:00",
+  "Count": 526,
+  "TaskId": 756
 }
 ```
 
@@ -146,61 +146,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 840,
-    "StartDate": "2016-01-08T11:22:36.9306587+01:00",
-    "EndDate": "2001-09-17T11:22:36.9306587+02:00",
+    "AppointmentId": 906,
+    "StartDate": "2006-06-23T14:19:02.3418722+02:00",
+    "EndDate": "1998-09-30T14:19:02.3418722+02:00",
     "Type": "BookingForChecklist",
-    "Task": "eos",
-    "AssociateFullName": "Joanny Alia Yost V",
-    "ContactName": "Eichmann Inc and Sons",
-    "Description": "User-centric local focus group",
-    "PersonFullName": "Onie Jacobs",
-    "PersonId": 484,
-    "ContactId": 910,
-    "ProjectId": 583,
-    "ProjectName": "Carter-Friesen",
+    "Task": "sunt",
+    "AssociateFullName": "Alvera Dickinson",
+    "ContactName": "Rogahn LLC",
+    "Description": "Multi-channelled clear-thinking standardization",
+    "PersonFullName": "Bennett Feil I",
+    "PersonId": 538,
+    "ContactId": 45,
+    "ProjectId": 231,
+    "ProjectName": "Rolfson LLC",
     "IsPublished": true,
-    "AssociateId": 319,
-    "ColorIndex": 588,
-    "IsFree": false,
+    "AssociateId": 287,
+    "ColorIndex": 441,
+    "IsFree": true,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 70,
-    "PriorityName": "Feest, Denesik and Zboncak",
+    "PriorityId": 557,
+    "PriorityName": "Schowalter LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2008-08-22T11:22:36.9306587+02:00",
+    "ActiveDate": "2007-10-20T14:19:02.3418722+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-08-03T11:22:36.9306587+02:00",
-    "RecurringEndDate": "2022-10-02T11:22:36.9306587+02:00",
-    "MotherId": 863,
-    "AssignedBy": 9,
-    "AssignedByFullName": "Ms. Noemie Daugherty",
+    "RecurringStartDate": "1998-11-01T14:19:02.3418722+01:00",
+    "RecurringEndDate": "2005-05-03T14:19:02.3418722+02:00",
+    "MotherId": 653,
+    "AssignedBy": 62,
+    "AssignedByFullName": "Ms. Devonte Liza McLaughlin II",
     "RejectReason": "",
-    "Location": "aliquam",
-    "AlarmLeadTime": "fugiat",
-    "SaleId": 848,
-    "SaleName": "Homenick, Morissette and Nitzsche",
-    "AssociateName": "Lesch, Mohr and Sanford",
-    "CreatedDate": "2013-08-27T11:22:36.9306587+02:00",
-    "CreatedBy": "doloremque",
-    "CreatedByFullName": "Ali Boyle",
-    "CreatedByAssociateId": 368,
+    "Location": "et",
+    "AlarmLeadTime": "occaecati",
+    "SaleId": 162,
+    "SaleName": "Hand-Emard",
+    "AssociateName": "Hodkiewicz, Bartell and Krajcik",
+    "CreatedDate": "2006-03-21T14:19:02.3418722+01:00",
+    "CreatedBy": "nihil",
+    "CreatedByFullName": "Dr. Eda Colten Morissette",
+    "CreatedByAssociateId": 899,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 386
+        "FieldType": "System.String",
+        "FieldLength": 117
       }
     }
   }

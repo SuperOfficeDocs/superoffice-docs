@@ -97,15 +97,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 694,
+  "PersonId": 295,
   "IncludeProjectDocuments": false,
-  "StartTime": "2020-03-18T11:22:37.8366954+01:00",
-  "EndTime": "2021-09-04T11:22:37.8366954+02:00",
-  "Count": 859
+  "StartTime": "2016-06-18T14:19:03.1355296+02:00",
+  "EndTime": "2008-05-23T14:19:03.1355296+02:00",
+  "Count": 331
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 54,
-    "Attention": "nisi",
-    "Header": "quia",
-    "Name": "Schiller-Larson",
-    "OurRef": "qui",
-    "YourRef": "sed",
-    "Description": "Devolved contextually-based infrastructure",
-    "DocumentTemplate": "dolores",
-    "IsPublished": false,
-    "PersonId": 725,
-    "PersonFullName": "Ms. Quinten Xavier Schuster Sr.",
-    "AssociateFullName": "Kenneth Stamm",
-    "ContactId": 41,
-    "ContactName": "Kerluke-Upton",
-    "ProjectId": 641,
-    "ProjectName": "Collins, Watsica and Moore",
-    "AssociateId": 746,
-    "Snum": 787,
-    "SaleId": 177,
-    "SaleName": "Kovacek, Walter and Howell",
+    "DocumentId": 579,
+    "Attention": "sit",
+    "Header": "minima",
+    "Name": "Lockman, Kuphal and McClure",
+    "OurRef": "illum",
+    "YourRef": "dolor",
+    "Description": "Intuitive 24 hour service-desk",
+    "DocumentTemplate": "voluptatem",
+    "IsPublished": true,
+    "PersonId": 523,
+    "PersonFullName": "Donnell Rice",
+    "AssociateFullName": "Brendan Price Jr.",
+    "ContactId": 942,
+    "ContactName": "Tillman LLC",
+    "ProjectId": 502,
+    "ProjectName": "Doyle Group",
+    "AssociateId": 166,
+    "Snum": 96,
+    "SaleId": 602,
+    "SaleName": "Emmerich, Herzog and Jakubowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 231
+        "FieldLength": 111
       }
     }
   }

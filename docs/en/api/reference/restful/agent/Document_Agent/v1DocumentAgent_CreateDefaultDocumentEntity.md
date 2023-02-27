@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,88 +99,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 31,
+  "DocumentId": 980,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "iusto",
-  "Header": "maiores",
-  "Name": "Bahringer, Hagenes and Abshire",
-  "OurRef": "optio",
-  "YourRef": "quisquam",
-  "CreatedDate": "2010-08-08T11:22:37.8679408+02:00",
-  "UpdatedDate": "2013-06-12T11:22:37.8679408+02:00",
-  "Description": "Triple-buffered asynchronous flexibility",
+  "Attention": "perspiciatis",
+  "Header": "quia",
+  "Name": "Rohan Group",
+  "OurRef": "sint",
+  "YourRef": "dicta",
+  "CreatedDate": "2022-03-11T14:19:03.2605311+01:00",
+  "UpdatedDate": "1999-01-30T14:19:03.2605311+01:00",
+  "Description": "Decentralized eco-centric info-mediaries",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2005-05-29T11:22:37.8679408+02:00",
-  "ExternalRef": "sed",
+  "Date": "2013-11-13T14:19:03.2605311+01:00",
+  "ExternalRef": "pariatur",
   "Completed": "Completed",
-  "ActiveLinks": 349,
+  "ActiveLinks": 913,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Schinner, Senger and Boyer",
-      "Id": 965,
-      "Description": "Grass-roots multi-tasking installation",
-      "ExtraInfo": "laudantium",
-      "LinkId": 885,
+      "EntityName": "West-Reinger",
+      "Id": 466,
+      "Description": "Object-based intangible contingency",
+      "ExtraInfo": "exercitationem",
+      "LinkId": 20,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 235
+          "FieldType": "System.String",
+          "FieldLength": 507
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 839,
-  "Snum": 298,
+  "SuggestedDocumentId": 329,
+  "Snum": 255,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Mohammed Gottlieb"
+    "SuperOffice:1": "Fidel Brekke",
+    "SuperOffice:2": "Hellen Schmitt"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "odit",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "officia",
-    "CustomFields2": "quo"
+    "CustomFields1": "enim",
+    "CustomFields2": "omnis"
   },
-  "PublishEventDate": "2021-03-15T11:22:37.8679408+01:00",
-  "PublishTo": "2012-06-02T11:22:37.8679408+02:00",
-  "PublishFrom": "2012-08-30T11:22:37.8679408+02:00",
+  "PublishEventDate": "2019-02-03T14:19:03.2605311+01:00",
+  "PublishTo": "2002-10-26T14:19:03.2605311+02:00",
+  "PublishFrom": "2001-06-04T14:19:03.2605311+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 952,
+      "VisibleId": 719,
       "Visibility": "All",
-      "DisplayValue": "explicabo",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 607
+          "FieldLength": 426
         }
       }
     },
     {
-      "VisibleId": 952,
+      "VisibleId": 719,
       "Visibility": "All",
-      "DisplayValue": "explicabo",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 607
+          "FieldLength": 426
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 396
+      "FieldLength": 372
     }
   }
 }

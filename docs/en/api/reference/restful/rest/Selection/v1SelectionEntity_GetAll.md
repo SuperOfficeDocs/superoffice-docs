@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Selection?$select=name,department,category/id
 GET /api/v1/Selection?$filter=name begins 'S'
 GET /api/v1/Selection?$orderBy=name asc
-GET /api/v1/Selection?$entities=quaerat
-GET /api/v1/Selection?$top=200
-GET /api/v1/Selection?$skip=793
+GET /api/v1/Selection?$entities=error
+GET /api/v1/Selection?$top=180
+GET /api/v1/Selection?$skip=695
 GET /api/v1/Selection?$mode=Full
 GET /api/v1/Selection?$options=GrandTotal=true
-GET /api/v1/Selection?$context=omnis
+GET /api/v1/Selection?$context=nam
 GET /api/v1/Selection?$format=JSON
 GET /api/v1/Selection?$jsonSafe=False
 GET /api/v1/Selection?$output=Display
@@ -117,7 +117,7 @@ OK
 GET /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -128,19 +128,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quia",
+  "odata.nextLink": "excepturi",
   "value": [
     {
-      "PrimaryKey": 7386,
+      "PrimaryKey": 9515,
       "EntityName": "person",
-      "personId": 7386,
-      "fullName": "Ms. Lelah Zboncak II"
+      "personId": 9515,
+      "fullName": "Maurice Kuvalis"
     },
     {
-      "PrimaryKey": 9013,
+      "PrimaryKey": 3935,
       "EntityName": "person",
-      "personId": 9013,
-      "fullName": "Lavina Koepp"
+      "personId": 3935,
+      "fullName": "Minerva Green DVM"
     }
   ]
 }

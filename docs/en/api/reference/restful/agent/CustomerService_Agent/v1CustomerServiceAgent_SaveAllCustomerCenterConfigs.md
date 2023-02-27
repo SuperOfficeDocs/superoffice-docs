@@ -69,14 +69,14 @@ Content-Type: application/json; charset=utf-8
 {
   "CustConfigs": [
     {
-      "CustConfigId": 75,
+      "CustConfigId": 604,
       "Type": "Options",
-      "Config": "consequuntur",
-      "CustLangId": 577,
-      "Registered": "1999-06-23T11:22:37.7898385+02:00",
-      "RegisteredAssociateId": 440,
-      "Updated": "2020-10-20T11:22:37.7898385+02:00",
-      "UpdatedAssociateId": 443
+      "Config": "eum",
+      "CustLangId": 447,
+      "Registered": "1997-06-29T14:19:03.0886547+02:00",
+      "RegisteredAssociateId": 849,
+      "Updated": "2005-09-29T14:19:03.0886547+02:00",
+      "UpdatedAssociateId": 931
     }
   ]
 }

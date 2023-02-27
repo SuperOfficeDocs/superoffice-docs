@@ -64,7 +64,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,32 +72,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 15 Oct 2013 11:22:44 G10T
+Last-Modified: Sun, 03 May 2015 14:19:10 G5T
 
 {
-  "ForeignAppId": 684,
-  "Name": "Wunsch-Macejkovic",
-  "CreatedDate": "2010-11-07T11:22:44.8662479+01:00",
-  "UpdatedDate": "2013-10-15T11:22:44.8662479+02:00",
+  "ForeignAppId": 18,
+  "Name": "Cummerata-Kunze",
+  "CreatedDate": "2002-05-13T14:19:10.3498478+02:00",
+  "UpdatedDate": "2015-05-03T14:19:10.3498478+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 657,
-      "Name": "Schumm LLC",
-      "CreatedDate": "2003-12-16T11:22:44.8662479+01:00",
-      "UpdatedDate": "2001-06-03T11:22:44.8662479+02:00",
-      "AssociateFullName": "Mr. Myriam Alta Renner",
-      "CreatedBy": "sed",
-      "UpdatedBy": "nesciunt",
-      "DeviceIdentifier": "enim",
-      "ForeignAppId": 148,
+      "ForeignDeviceId": 706,
+      "Name": "Champlin, Schuppe and Kautzer",
+      "CreatedDate": "2009-05-26T14:19:10.3498478+02:00",
+      "UpdatedDate": "2010-04-10T14:19:10.3498478+02:00",
+      "AssociateFullName": "Caleigh Jakubowski",
+      "CreatedBy": "dolor",
+      "UpdatedBy": "quia",
+      "DeviceIdentifier": "aut",
+      "ForeignAppId": 501,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 632
+          "FieldType": "System.String",
+          "FieldLength": 787
         }
       }
     }
@@ -106,8 +106,8 @@ Last-Modified: Tue, 15 Oct 2013 11:22:44 G10T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldType": "System.String",
+      "FieldLength": 125
     }
   }
 }

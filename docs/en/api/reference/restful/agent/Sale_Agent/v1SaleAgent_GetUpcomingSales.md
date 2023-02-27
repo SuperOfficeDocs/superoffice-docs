@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 876,
-  "Count": 655
+  "WeightedAmountLimit": 128,
+  "Count": 160
 }
 ```
 
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Ratke, Herzog and Kulas",
-    "SaleDate": "2005-11-30T11:22:39.2425669+01:00",
-    "SaleId": 430,
-    "Probability": 328,
-    "Title": "labore",
-    "Amount": 15789.091999999999,
-    "Currency": "consequatur",
-    "ProjectName": "Vandervort-Greenfelder",
-    "AssociateFullName": "Emma Naomi Goldner MD",
-    "Description": "Ameliorated 24/7 software",
+    "ContactName": "Schoen LLC",
+    "SaleDate": "2022-10-24T14:19:04.1410858+02:00",
+    "SaleId": 947,
+    "Probability": 184,
+    "Title": "fugit",
+    "Amount": 8762.6639999999989,
+    "Currency": "nobis",
+    "ProjectName": "Torp-Fahey",
+    "AssociateFullName": "Teresa Metz",
+    "Description": "Cloned logistical concept",
     "Status": "Lost",
-    "WeightedAmount": 22398.698,
-    "ProjectId": 555,
-    "EarningPercent": 871.252,
-    "Earning": 31042.27,
-    "ContactId": 683,
-    "AssociateId": 218,
-    "PersonId": 554,
-    "SaleTypeId": 186,
-    "SaleTypeName": "Lemke-Leannon",
-    "PersonFullName": "Alvah Monahan",
+    "WeightedAmount": 1469.846,
+    "ProjectId": 88,
+    "EarningPercent": 20151.62,
+    "Earning": 6399.628,
+    "ContactId": 241,
+    "AssociateId": 989,
+    "PersonId": 516,
+    "SaleTypeId": 479,
+    "SaleTypeName": "Brekke LLC",
+    "PersonFullName": "Jordon Oberbrunner",
     "Completed": "Completed",
-    "ActiveErpLinks": 908,
-    "NextDueDate": "2016-03-07T11:22:39.2425669+01:00",
-    "Number": "1401333",
+    "ActiveErpLinks": 988,
+    "NextDueDate": "1995-10-23T14:19:04.1410858+02:00",
+    "Number": "1388235",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 599
+        "FieldType": "System.String",
+        "FieldLength": 689
       }
     }
   }

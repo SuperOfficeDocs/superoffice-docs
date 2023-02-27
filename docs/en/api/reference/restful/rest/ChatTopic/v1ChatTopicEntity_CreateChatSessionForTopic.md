@@ -88,7 +88,7 @@ OK
 POST /api/v1/ChatTopic/{chatTopicId}/Sessions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,43 +98,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 213,
-  "TopicId": 641,
+  "ChatSessionId": 773,
+  "TopicId": 514,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptas",
-  "CustomerHost": "velit",
-  "CustomerName": "Hayes Group",
-  "CustomerEmail": "hardy_tromp@kassulke.biz",
-  "CustomerPhone": "535-961-4183",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Olson-Auer",
+  "CustomerAlias": "aspernatur",
+  "CustomerHost": "enim",
+  "CustomerName": "O'Kon Group",
+  "CustomerEmail": "odell.morar@jonesprohaska.biz",
+  "CustomerPhone": "(762)318-7459",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Hodkiewicz-Waelchi",
   "Status": "Closed",
-  "FirstMessage": "ratione",
-  "LastMessage": "aut",
-  "WhenRequested": "2009-04-04T11:22:44.4445217+02:00",
-  "WhenStarted": "2007-07-13T11:22:44.4445217+02:00",
-  "WhenEnded": "2016-04-16T11:22:44.4445217+02:00",
-  "WhenIdle": "2006-09-26T11:22:44.4445217+02:00",
-  "WhenFetched": "2013-06-04T11:22:44.4445217+02:00",
-  "SessionKey": "quis",
-  "InitialQueuePos": 336,
-  "AlertLevel": 584,
-  "Rank": 595,
+  "FirstMessage": "est",
+  "LastMessage": "doloremque",
+  "WhenRequested": "2011-06-17T14:19:10.1310974+02:00",
+  "WhenStarted": "2000-03-18T14:19:10.1310974+01:00",
+  "WhenEnded": "2001-08-16T14:19:10.1310974+02:00",
+  "WhenIdle": "2022-05-22T14:19:10.1310974+02:00",
+  "WhenFetched": "2014-01-17T14:19:10.1310974+01:00",
+  "SessionKey": "aut",
+  "InitialQueuePos": 848,
+  "AlertLevel": 371,
+  "Rank": 148,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 543,
+  "ChatbotIsActive": true,
+  "Rating": 363,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 87
+      "FieldLength": 273
     }
   }
 }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 172,
-    "Name": "Eichmann-Feil",
-    "ToolTip": "Maiores deleniti dolor non quos.",
-    "Deleted": true,
-    "Rank": 526,
-    "Type": "quaerat",
-    "ColorBlock": 295,
-    "IconHint": "quo",
+    "Id": 238,
+    "Name": "Kuhic, Kovacek and Tillman",
+    "ToolTip": "Doloremque velit aliquam officia rem qui est.",
+    "Deleted": false,
+    "Rank": 607,
+    "Type": "placeat",
+    "ColorBlock": 332,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "2006-10-08T11:22:45.9441645+02:00",
+    "LastChanged": "2015-12-30T14:19:11.2898728+01:00",
     "ChildItems": [
       {
-        "Id": 519,
-        "Name": "Nicolas-Shanahan",
-        "ToolTip": "Autem vero quae est nihil.",
+        "Id": 189,
+        "Name": "Funk-Bode",
+        "ToolTip": "Voluptatibus omnis dolorem ut sit aspernatur aperiam.",
         "Deleted": false,
-        "Rank": 967,
-        "Type": "incidunt",
-        "ColorBlock": 340,
-        "IconHint": "eum",
+        "Rank": 858,
+        "Type": "culpa",
+        "ColorBlock": 518,
+        "IconHint": "provident",
         "Selected": false,
-        "LastChanged": "2010-06-04T11:22:45.9441645+02:00",
+        "LastChanged": "2010-06-23T14:19:11.2898728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "dicta",
-        "Hidden": false,
-        "FullName": "Ms. Mark Tremblay V",
+        "ExtraInfo": "officia",
+        "StyleHint": "tenetur",
+        "Hidden": true,
+        "FullName": "Hubert Kunde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 480
+            "FieldType": "System.String",
+            "FieldLength": 901
           }
         }
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "in",
-    "Hidden": true,
-    "FullName": "Archibald Zemlak Sr.",
+    "ExtraInfo": "quidem",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Mr. Jordan Lempi Gleason MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 459
+        "FieldLength": 942
       }
     }
   }

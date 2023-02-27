@@ -111,51 +111,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 263,
-  "Name": "Balistreri Inc and Sons",
-  "Tooltip": "modi",
-  "Rank": 767,
+  "SaleTypeId": 487,
+  "Name": "Klocko, Quitzon and Schmitt",
+  "Tooltip": "adipisci",
+  "Rank": 43,
   "DurationUnit": "Century",
-  "SaleDuration": 164,
-  "SaleTypeCatId": 527,
+  "SaleDuration": 971,
+  "SaleTypeCatId": 687,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 83,
-  "QuoteLinesTemplate": 525,
-  "ConfirmationLinesTemplate": 797,
+  "DefaultQuoteValidity": 657,
+  "QuoteLinesTemplate": 906,
+  "ConfirmationLinesTemplate": 691,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 400,
-  "MinEarningPercent": 210,
-  "GroupQuoteLinesBy": 351,
-  "SortGroupLinesBy": 692,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 478,
+  "MinEarningPercent": 160,
+  "GroupQuoteLinesBy": 936,
+  "SortGroupLinesBy": 784,
   "Stages": [
     {
-      "Id": 856,
-      "Name": "Swaniawski, Morissette and Abernathy",
-      "ToolTip": "Quaerat sunt amet ullam veritatis ut nihil.",
+      "Id": 891,
+      "Name": "Beer, Kshlerin and Botsford",
+      "ToolTip": "Ut odit vel maiores commodi nihil et quo.",
       "Deleted": false,
-      "Rank": 797,
-      "Type": "velit",
-      "ColorBlock": 762,
-      "IconHint": "recusandae",
-      "Selected": true,
-      "LastChanged": "2003-07-04T11:22:46.1784934+02:00",
+      "Rank": 191,
+      "Type": "provident",
+      "ColorBlock": 619,
+      "IconHint": "nihil",
+      "Selected": false,
+      "LastChanged": "2002-02-08T14:19:11.5026887+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "repudiandae",
-      "Hidden": false,
-      "FullName": "Dr. Name Coby Carroll V"
+      "ExtraInfo": "ratione",
+      "StyleHint": "aliquid",
+      "Hidden": true,
+      "FullName": "Ahmad Wilkinson"
     }
   ]
 }
@@ -168,53 +168,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 436,
-  "Name": "Kovacek-Mayer",
-  "Tooltip": "earum",
-  "Rank": 82,
+  "SaleTypeId": 549,
+  "Name": "Boehm, Reilly and Schumm",
+  "Tooltip": "temporibus",
+  "Rank": 153,
   "DurationUnit": "Century",
-  "SaleDuration": 782,
-  "SaleTypeCatId": 717,
-  "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "SaleDuration": 675,
+  "SaleTypeCatId": 574,
+  "Deleted": false,
+  "HasGuide": false,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 625,
-  "QuoteLinesTemplate": 896,
-  "ConfirmationLinesTemplate": 179,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 263,
+  "QuoteLinesTemplate": 402,
+  "ConfirmationLinesTemplate": 418,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 492,
-  "MinEarningPercent": 726,
-  "GroupQuoteLinesBy": 85,
-  "SortGroupLinesBy": 248,
+  "MaxDiscountPercent": 472,
+  "MinEarningPercent": 105,
+  "GroupQuoteLinesBy": 158,
+  "SortGroupLinesBy": 17,
   "Stages": [
     {
-      "Id": 567,
-      "Name": "Wilkinson, Schoen and Sawayn",
-      "ToolTip": "Quia unde.",
+      "Id": 856,
+      "Name": "Mayert LLC",
+      "ToolTip": "Minus nemo et est magnam molestias eum sunt.",
       "Deleted": false,
-      "Rank": 96,
-      "Type": "error",
-      "ColorBlock": 317,
-      "IconHint": "nesciunt",
-      "Selected": true,
-      "LastChanged": "2019-04-07T11:22:46.1784934+02:00",
+      "Rank": 741,
+      "Type": "praesentium",
+      "ColorBlock": 473,
+      "IconHint": "magnam",
+      "Selected": false,
+      "LastChanged": "2019-09-24T14:19:11.5026887+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eius",
-      "StyleHint": "ea",
+      "ExtraInfo": "magnam",
+      "StyleHint": "tempore",
       "Hidden": true,
-      "FullName": "Meaghan Torphy",
+      "FullName": "Johan Mertz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 215
+          "FieldType": "System.String",
+          "FieldLength": 523
         }
       }
     }
@@ -224,7 +224,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 875
+      "FieldLength": 375
     }
   }
 }

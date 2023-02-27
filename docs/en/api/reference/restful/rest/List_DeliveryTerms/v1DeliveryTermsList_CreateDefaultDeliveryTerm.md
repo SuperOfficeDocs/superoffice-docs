@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 177,
-  "Name": "Schuppe Group",
-  "Tooltip": "aspernatur",
-  "Deleted": false,
-  "UdListDefinitionId": 781,
-  "Rank": 20,
+  "Id": 846,
+  "Name": "Buckridge LLC",
+  "Tooltip": "laboriosam",
+  "Deleted": true,
+  "UdListDefinitionId": 568,
+  "Rank": 538,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 988
+      "FieldType": "System.Int32",
+      "FieldLength": 194
     }
   }
 }

@@ -101,7 +101,7 @@ User found.
 GET /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -111,14 +111,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 390,
-  "Name": "Rutherford LLC",
-  "Rank": 568,
-  "Tooltip": "quia",
+  "AssociateId": 711,
+  "Name": "Kuphal, Beer and Tillman",
+  "Rank": 372,
+  "Tooltip": "voluptatem",
   "LicenseOwners": [
     {
-      "Name": "Blick-Ernser",
-      "Description": "Advanced 4th generation utilisation",
+      "Name": "Langworth-Bogan",
+      "Description": "Organic mobile superstructure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -131,14 +131,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 191
+          "FieldType": "System.String",
+          "FieldLength": 120
         }
       }
     },
     {
-      "Name": "Blick-Ernser",
-      "Description": "Advanced 4th generation utilisation",
+      "Name": "Langworth-Bogan",
+      "Description": "Organic mobile superstructure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -151,8 +151,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 191
+          "FieldType": "System.String",
+          "FieldLength": 120
         }
       }
     }
@@ -161,110 +161,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "non",
-      "Tooltip": "placeat",
-      "Id": 184,
-      "Rank": 835,
-      "Deleted": true,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 711
-        }
-      }
-    }
-  ],
-  "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2004-02-14T11:22:45.4911017+01:00",
-  "Lastlogout": "1999-04-24T11:22:45.4911017+02:00",
-  "EjUserId": 722,
-  "RequestSignature": "repellat",
-  "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": true,
-  "Credentials": [
-    {
-      "Type": null,
-      "Value": "eos",
-      "DisplayValue": "repudiandae",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 259
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "eos",
-      "DisplayValue": "repudiandae",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 259
-        }
-      }
-    }
-  ],
-  "UserName": "Larkin-O'Connell",
-  "TicketCategories": [
-    {
-      "Id": 418,
-      "Name": "Sanford, Oberbrunner and Will",
-      "ToolTip": "Quibusdam porro minus alias sed.",
-      "Deleted": true,
-      "Rank": 261,
-      "Type": "vel",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "distinctio",
-      "ColorBlock": 180,
-      "ExtraInfo": "culpa",
-      "StyleHint": "accusantium",
-      "FullName": "Noah Cassin",
+      "Value": "ut",
+      "Tooltip": "libero",
+      "Id": 2,
+      "Rank": 976,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 600
+          "FieldLength": 456
         }
       }
     }
   ],
-  "NickName": "Mayert-Schuster",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "temporibus"
-  },
-  "CustomFields": {
-    "CustomFields1": "corporis",
-    "CustomFields2": "corrupti"
-  },
-  "PostSaveCommands": [
+  "Person": null,
+  "Deleted": false,
+  "Lastlogin": "2014-02-24T14:19:11.0217292+01:00",
+  "Lastlogout": "2001-05-08T14:19:11.0217292+02:00",
+  "EjUserId": 691,
+  "RequestSignature": "earum",
+  "Type": "AnonymousAssociate",
+  "IsPersonRetired": true,
+  "IsOnTravel": true,
+  "Credentials": [
     {
-      "Name": "Kassulke Group",
-      "DisplayName": "Ledner Group",
-      "Description": "Synchronised 4th generation open architecture",
-      "ToolTip": "Est iure dolorum et qui rerum.",
-      "Actions": "Implicit",
-      "ActionData": "eum",
+      "Type": null,
+      "Value": "quo",
+      "DisplayValue": "vero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 430
+          "FieldLength": 77
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "quo",
+      "DisplayValue": "vero",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 77
+        }
+      }
+    }
+  ],
+  "UserName": "Balistreri LLC",
+  "TicketCategories": [
+    {
+      "Id": 931,
+      "Name": "Block LLC",
+      "ToolTip": "Sit quis voluptatem consequatur debitis eligendi asperiores eum.",
+      "Deleted": true,
+      "Rank": 80,
+      "Type": "reprehenderit",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "illum",
+      "ColorBlock": 868,
+      "ExtraInfo": "iusto",
+      "StyleHint": "qui",
+      "FullName": "Frederique Welch",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 835
+        }
+      }
+    }
+  ],
+  "NickName": "Emard Group",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "laborum",
+    "ExtraFields2": "vitae"
+  },
+  "CustomFields": {
+    "CustomFields1": "aut",
+    "CustomFields2": "perferendis"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Kovacek-Ruecker",
+      "DisplayName": "Luettgen, Donnelly and Pfeffer",
+      "Description": "Open-source mobile framework",
+      "ToolTip": "Dolor aut nemo.",
+      "Actions": "Implicit",
+      "ActionData": "architecto",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 740
         }
       }
     }
@@ -273,8 +273,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 607
+      "FieldType": "System.String",
+      "FieldLength": 977
     }
   },
   "_Links": {

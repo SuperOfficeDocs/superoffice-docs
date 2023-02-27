@@ -70,8 +70,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 942,
-  "Tags": "quasi"
+  "AssociateId": 702,
+  "Tags": "rerum"
 }
 ```
 

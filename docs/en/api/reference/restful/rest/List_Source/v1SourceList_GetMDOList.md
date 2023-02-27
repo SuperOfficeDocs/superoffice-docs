@@ -25,8 +25,8 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=aspernatur
+GET /api/v1/List/Source/MDOItems?flat=True
+GET /api/v1/List/Source/MDOItems?query=consequatur
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 102,
-    "Name": "Ondricka-Stoltenberg",
-    "ToolTip": "Ea fugiat voluptas ea assumenda.",
+    "Id": 924,
+    "Name": "Greenfelder Group",
+    "ToolTip": "Officia quo.",
     "Deleted": false,
-    "Rank": 534,
-    "Type": "nihil",
+    "Rank": 519,
+    "Type": "quos",
     "ChildItems": [
       {
-        "Id": 596,
-        "Name": "Hartmann-Pollich",
-        "ToolTip": "Voluptas ab.",
-        "Deleted": false,
-        "Rank": 959,
-        "Type": "dolorem",
+        "Id": 625,
+        "Name": "Haag, Rempel and Dickinson",
+        "ToolTip": "Veritatis error rerum qui aut est.",
+        "Deleted": true,
+        "Rank": 921,
+        "Type": "debitis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ad",
-        "ColorBlock": 439,
-        "ExtraInfo": "eos",
-        "StyleHint": "ratione",
-        "FullName": "Miss Armando Kassulke",
+        "IconHint": "culpa",
+        "ColorBlock": 651,
+        "ExtraInfo": "non",
+        "StyleHint": "debitis",
+        "FullName": "Houston Barrows",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 64
+            "FieldLength": 406
           }
         }
       }
     ],
-    "IconHint": "saepe",
-    "ColorBlock": 118,
-    "ExtraInfo": "qui",
-    "StyleHint": "doloribus",
-    "FullName": "Kellen Batz",
+    "IconHint": "incidunt",
+    "ColorBlock": 389,
+    "ExtraInfo": "dolorem",
+    "StyleHint": "quo",
+    "FullName": "Mrs. Greyson Kris Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 789
+        "FieldLength": 393
       }
     }
   }

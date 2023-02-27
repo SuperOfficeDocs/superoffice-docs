@@ -61,7 +61,7 @@ OK
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,58 +72,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Erdman-Fahey",
-    "Description": "Ergonomic dynamic implementation",
-    "Rank": 765,
+    "Name": "Hilpert-Effertz",
+    "Description": "Future-proofed bifurcated software",
+    "Rank": 636,
     "Restrictions": [
       {
-        "Name": "Hodkiewicz Inc and Sons",
-        "Operator": "at",
+        "Name": "Wisozk-Sauer",
+        "Operator": "est",
         "Values": [
-          "et",
-          "consequatur"
+          "voluptatum",
+          "assumenda"
         ],
         "DisplayValues": [
-          "nihil",
-          "soluta"
+          "et",
+          "et"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 398,
+        "InterParenthesis": 410,
         "InterOperator": "And",
-        "UniqueHash": 313
+        "UniqueHash": 937
       }
     ]
   },
   {
-    "Name": "Erdman-Fahey",
-    "Description": "Ergonomic dynamic implementation",
-    "Rank": 765,
+    "Name": "Hilpert-Effertz",
+    "Description": "Future-proofed bifurcated software",
+    "Rank": 636,
     "Restrictions": [
       {
-        "Name": "Hodkiewicz Inc and Sons",
-        "Operator": "at",
+        "Name": "Wisozk-Sauer",
+        "Operator": "est",
         "Values": [
-          "et",
-          "consequatur"
+          "voluptatum",
+          "assumenda"
         ],
         "DisplayValues": [
-          "nihil",
-          "soluta"
+          "et",
+          "et"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 398,
+        "InterParenthesis": 410,
         "InterOperator": "And",
-        "UniqueHash": 313
+        "UniqueHash": 937
       }
     ]
   }

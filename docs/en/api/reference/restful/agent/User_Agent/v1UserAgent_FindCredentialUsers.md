@@ -80,8 +80,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "sit",
-  "SearchString": "quae"
+  "Type": "et",
+  "SearchString": "odit"
 }
 ```
 
@@ -93,16 +93,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "ullam",
-    "nihil"
+    "earum",
+    "quo"
   ],
   "Users": [
     {
-      "Value": "voluptas",
-      "DisplayValue": "deleniti",
+      "Value": "mollitia",
+      "DisplayValue": "ut",
       "Columns": [
-        "et",
-        "ut"
+        "est",
+        "dolores"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
@@ -110,16 +110,16 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldLength": 355
         }
       }
     },
     {
-      "Value": "voluptas",
-      "DisplayValue": "deleniti",
+      "Value": "mollitia",
+      "DisplayValue": "ut",
       "Columns": [
-        "et",
-        "ut"
+        "est",
+        "dolores"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldLength": 355
         }
       }
     }
@@ -136,8 +136,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 826
+      "FieldType": "System.Int32",
+      "FieldLength": 670
     }
   }
 }

@@ -126,14 +126,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 954,
-  "StartTime": "2006-01-25T11:22:36.8994158+01:00",
-  "EndTime": "2021-01-04T11:22:36.8994158+01:00",
-  "Count": 261,
+  "PersonId": 75,
+  "StartTime": "2000-08-31T14:19:02.3262466+02:00",
+  "EndTime": "2008-02-17T14:19:02.3262466+01:00",
+  "Count": 526,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 803,
-    "StartDate": "1996-09-17T11:22:36.9150392+02:00",
-    "EndDate": "1998-05-19T11:22:36.9150392+02:00",
+    "AppointmentId": 482,
+    "StartDate": "1999-10-19T14:19:02.3262466+02:00",
+    "EndDate": "2015-05-05T14:19:02.3262466+02:00",
     "Type": "BookingForChecklist",
-    "Task": "nisi",
-    "AssociateFullName": "Margret Ruecker",
-    "ContactName": "Reynolds, Sauer and Gislason",
-    "Description": "Team-oriented optimizing project",
-    "PersonFullName": "Miss Margaretta Jacobs",
-    "PersonId": 423,
-    "ContactId": 506,
-    "ProjectId": 576,
-    "ProjectName": "Hauck Inc and Sons",
+    "Task": "quam",
+    "AssociateFullName": "Kathleen Bergnaum V",
+    "ContactName": "Marks, Tremblay and Flatley",
+    "Description": "Universal neutral parallelism",
+    "PersonFullName": "Mrs. Van Ramiro Parisian I",
+    "PersonId": 563,
+    "ContactId": 11,
+    "ProjectId": 389,
+    "ProjectName": "Gusikowski, Jakubowski and Gutmann",
     "IsPublished": false,
-    "AssociateId": 776,
-    "ColorIndex": 477,
+    "AssociateId": 37,
+    "ColorIndex": 370,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 896,
-    "PriorityName": "Bernhard-Steuber",
+    "PriorityId": 917,
+    "PriorityName": "McLaughlin LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2018-09-08T11:22:36.9150392+02:00",
+    "ActiveDate": "2022-07-14T14:19:02.3262466+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2001-10-02T11:22:36.9150392+02:00",
-    "RecurringEndDate": "2000-03-28T11:22:36.9150392+02:00",
-    "MotherId": 928,
-    "AssignedBy": 502,
-    "AssignedByFullName": "Leif Grady",
-    "RejectReason": "deploy mission-critical schemas",
-    "Location": "inventore",
-    "AlarmLeadTime": "neque",
-    "SaleId": 813,
-    "SaleName": "Torp, DuBuque and Dooley",
-    "AssociateName": "Rice, Kuhlman and Watsica",
-    "CreatedDate": "2010-08-05T11:22:36.9150392+02:00",
-    "CreatedBy": "quisquam",
-    "CreatedByFullName": "Pinkie Olson II",
-    "CreatedByAssociateId": 873,
+    "RecurringStartDate": "2020-01-18T14:19:02.3262466+01:00",
+    "RecurringEndDate": "2001-10-12T14:19:02.3262466+02:00",
+    "MotherId": 656,
+    "AssignedBy": 192,
+    "AssignedByFullName": "Julien Stokes",
+    "RejectReason": "",
+    "Location": "sed",
+    "AlarmLeadTime": "est",
+    "SaleId": 640,
+    "SaleName": "Kirlin-Boyer",
+    "AssociateName": "Jacobi-Feest",
+    "CreatedDate": "2020-04-05T14:19:02.3262466+02:00",
+    "CreatedBy": "laudantium",
+    "CreatedByFullName": "Marley Mante",
+    "CreatedByAssociateId": 737,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 2
+        "FieldLength": 799
       }
     }
   }

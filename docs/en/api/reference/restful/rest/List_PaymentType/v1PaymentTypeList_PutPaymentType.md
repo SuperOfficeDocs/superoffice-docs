@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 745,
-  "Name": "Luettgen, Bosco and Gibson",
-  "Tooltip": "aut",
+  "Id": 467,
+  "Name": "Hauck-Toy",
+  "Tooltip": "non",
   "Deleted": true,
-  "UdListDefinitionId": 330,
-  "Rank": 829
+  "UdListDefinitionId": 456,
+  "Rank": 958
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 198,
-  "Name": "Schuster Inc and Sons",
-  "Tooltip": "expedita",
-  "Deleted": false,
-  "UdListDefinitionId": 220,
-  "Rank": 73,
+  "Id": 907,
+  "Name": "Streich, Sporer and Mraz",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "UdListDefinitionId": 565,
+  "Rank": 284,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldLength": 867
     }
   }
 }

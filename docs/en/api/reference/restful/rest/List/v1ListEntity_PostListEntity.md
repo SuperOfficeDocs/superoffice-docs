@@ -93,19 +93,19 @@ OK
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 361,
-  "Name": "Schmidt Group",
-  "Tooltip": "sit",
+  "Id": 536,
+  "Name": "Nitzsche, Hodkiewicz and Fadel",
+  "Tooltip": "rem",
   "Deleted": false,
-  "Rank": 3,
+  "Rank": 914,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "quasi",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -117,27 +117,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 752,
-  "Name": "Kuvalis-Feest",
-  "Tooltip": "qui",
+  "Id": 192,
+  "Name": "West LLC",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 402,
+  "Rank": 587,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "tenetur",
-  "InUseByUserDefinedFields": true,
+  "ListType": "aliquid",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 959
+      "FieldType": "System.String",
+      "FieldLength": 634
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

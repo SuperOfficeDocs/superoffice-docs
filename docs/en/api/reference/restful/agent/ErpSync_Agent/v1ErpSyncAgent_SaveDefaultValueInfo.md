@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 412,
-  "DefaultValue": "sunt",
+  "ErpFieldId": 164,
+  "DefaultValue": "officiis",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "reprehenderit",
+  "FirstSyncDefaultValue": "deleniti",
   "PromptUser": false,
-  "Mandatory": false,
-  "ErpFieldKey": "voluptates",
+  "Mandatory": true,
+  "ErpFieldKey": "minima",
   "FieldType": "Checkbox",
-  "ListName": "Reichert Inc and Sons",
+  "ListName": "Jacobi-Yost",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 416
+      "FieldType": "System.Int32",
+      "FieldLength": 291
     }
   }
 }

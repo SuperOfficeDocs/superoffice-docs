@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 589,
-    "Name": "Christiansen Group",
-    "ToolTip": "Et quibusdam explicabo non quidem expedita cupiditate soluta.",
-    "Deleted": true,
-    "Rank": 187,
-    "Type": "molestiae",
-    "ColorBlock": 862,
-    "IconHint": "sed",
-    "Selected": false,
-    "LastChanged": "2015-03-07T11:22:46.1003835+01:00",
+    "Id": 179,
+    "Name": "Jewess LLC",
+    "ToolTip": "Maiores quo neque pariatur sint eligendi.",
+    "Deleted": false,
+    "Rank": 66,
+    "Type": "qui",
+    "ColorBlock": 860,
+    "IconHint": "nihil",
+    "Selected": true,
+    "LastChanged": "1996-01-15T14:19:11.430529+01:00",
     "ChildItems": [
       {
-        "Id": 264,
-        "Name": "Swaniawski LLC",
-        "ToolTip": "Voluptas id.",
-        "Deleted": false,
-        "Rank": 380,
-        "Type": "autem",
-        "ColorBlock": 316,
-        "IconHint": "cum",
+        "Id": 443,
+        "Name": "Hane, Langworth and Paucek",
+        "ToolTip": "Culpa non quaerat recusandae nulla voluptate.",
+        "Deleted": true,
+        "Rank": 747,
+        "Type": "eaque",
+        "ColorBlock": 393,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2019-02-10T11:22:46.1003835+01:00",
+        "LastChanged": "2006-02-10T14:19:11.430529+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Ms. Dixie Bayer DVM"
+        "ExtraInfo": "eveniet",
+        "StyleHint": "quia",
+        "Hidden": false,
+        "FullName": "Geo Nienow"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "officiis",
+    "ExtraInfo": "aut",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Prof. Luna Jena Gerlach MD"
+    "FullName": "Dr. Eli Greenfelder"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 78,
-    "Name": "Trantow-Dach",
-    "ToolTip": "Nobis velit dolorem aut.",
-    "Deleted": false,
-    "Rank": 920,
-    "Type": "laborum",
-    "ColorBlock": 642,
-    "IconHint": "sed",
+    "Id": 699,
+    "Name": "Goodwin Group",
+    "ToolTip": "Voluptas consequatur.",
+    "Deleted": true,
+    "Rank": 7,
+    "Type": "eum",
+    "ColorBlock": 220,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2015-04-15T11:22:46.1003835+02:00",
+    "LastChanged": "2010-03-10T14:19:11.430529+01:00",
     "ChildItems": [
       {
-        "Id": 696,
-        "Name": "Buckridge-Mraz",
-        "ToolTip": "Adipisci ea voluptatem.",
+        "Id": 469,
+        "Name": "Paucek, Reynolds and Cruickshank",
+        "ToolTip": "Est natus dicta aperiam nihil.",
         "Deleted": false,
-        "Rank": 577,
-        "Type": "vitae",
-        "ColorBlock": 97,
-        "IconHint": "doloremque",
+        "Rank": 484,
+        "Type": "aperiam",
+        "ColorBlock": 759,
+        "IconHint": "nobis",
         "Selected": false,
-        "LastChanged": "1999-09-30T11:22:46.1003835+02:00",
+        "LastChanged": "2000-04-07T14:19:11.430529+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "et",
+        "ExtraInfo": "est",
+        "StyleHint": "est",
         "Hidden": true,
-        "FullName": "Mrs. Mariana Walker",
+        "FullName": "Clemmie Johnson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 23
+            "FieldLength": 969
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Ms. Araceli Wilhelm Kuhlman",
+    "ExtraInfo": "atque",
+    "StyleHint": "eum",
+    "Hidden": true,
+    "FullName": "Ted Cole",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 58
+        "FieldType": "System.Int32",
+        "FieldLength": 796
       }
     }
   }

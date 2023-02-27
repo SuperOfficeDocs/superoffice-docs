@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 410,
-  "Name": "Schinner Group",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 696,
-  "Rank": 865
+  "Id": 306,
+  "Name": "Ullrich-Muller",
+  "Tooltip": "quasi",
+  "Deleted": true,
+  "UdListDefinitionId": 363,
+  "Rank": 584
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 581,
-  "Name": "Gaylord-Brakus",
-  "Tooltip": "facilis",
+  "Id": 571,
+  "Name": "Emard, Lueilwitz and Ratke",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 169,
-  "Rank": 458,
+  "UdListDefinitionId": 389,
+  "Rank": 135,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 713
+      "FieldLength": 405
     }
   }
 }

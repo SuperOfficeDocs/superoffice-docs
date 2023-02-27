@@ -82,15 +82,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 173,
+  "DocumentId": 259,
   "AllowedReturnTypes": [
-    "aliquid",
-    "qui"
+    "praesentium",
+    "autem"
   ],
-  "VersionDescription": "Fully-configurable intermediate approach",
+  "VersionDescription": "Balanced bifurcated budgetary management",
   "VersionExtraFields": [
-    "doloribus",
-    "suscipit"
+    "incidunt",
+    "dolorem"
   ]
 }
 ```
@@ -102,11 +102,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "illo",
-  "VersionId": "voluptatem",
-  "Success": false,
+  "ExternalReference": "ad",
+  "VersionId": "facilis",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "error",
-  "AdditionalInfo": "assumenda"
+  "Value": "sint",
+  "AdditionalInfo": "tempora"
 }
 ```

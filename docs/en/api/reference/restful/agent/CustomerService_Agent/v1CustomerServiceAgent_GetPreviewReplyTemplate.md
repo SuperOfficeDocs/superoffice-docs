@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 341
+  "ReplyTemplateId": 80
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Feeney-Davis",
-  "Description": "Intuitive zero defect success",
-  "OwnedByFullName": "Charity Altenwerth",
-  "Updated": "2008-11-22T11:22:37.7898385+01:00",
-  "Body": "consectetur",
+  "Name": "O'Conner LLC",
+  "Description": "Multi-lateral encompassing middleware",
+  "OwnedByFullName": "Moises Blick",
+  "Updated": "1998-11-30T14:19:03.0886547+01:00",
+  "Body": "mollitia",
   "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 781
+      "FieldLength": 621
     }
   }
 }

@@ -91,10 +91,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 426,
-  "AttachmentId": "sunt",
-  "AttachmentType": "sed",
-  "AttachmentFilename": "et"
+  "MailItemId": 218,
+  "AttachmentId": "aut",
+  "AttachmentType": "itaque",
+  "AttachmentFilename": "tempora"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Open-source eco-centric open system",
-  "Filename": "animi",
-  "Size": 36,
-  "Type": "voluptatem",
-  "Encoding": "totam",
-  "Id": "id",
-  "Disposition": "qui",
+  "Description": "Reactive optimal migration",
+  "Filename": "sunt",
+  "Size": 482,
+  "Type": "rerum",
+  "Encoding": "dolorem",
+  "Id": "saepe",
+  "Disposition": "esse",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 352
+      "FieldType": "System.Int32",
+      "FieldLength": 228
     }
   }
 }

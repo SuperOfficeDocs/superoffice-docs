@@ -120,13 +120,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    283,
-    807
+    826,
+    57
   ]
 }
 ```
@@ -139,61 +139,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 695,
-    "StartDate": "2007-10-26T11:22:36.946279+02:00",
-    "EndDate": "2015-11-13T11:22:36.946279+01:00",
+    "AppointmentId": 439,
+    "StartDate": "2018-12-26T14:19:02.3574969+01:00",
+    "EndDate": "2022-07-28T14:19:02.3574969+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quia",
-    "AssociateFullName": "Marion Ankunding",
-    "ContactName": "Rowe-Lubowitz",
-    "Description": "Multi-layered responsive challenge",
-    "PersonFullName": "Coby Mertz",
-    "PersonId": 555,
-    "ContactId": 163,
-    "ProjectId": 547,
-    "ProjectName": "Schneider-Heathcote",
-    "IsPublished": false,
-    "AssociateId": 19,
-    "ColorIndex": 166,
+    "Task": "accusamus",
+    "AssociateFullName": "Prof. Jaylin Reilly V",
+    "ContactName": "Hammes, Nitzsche and Littel",
+    "Description": "Organized uniform matrices",
+    "PersonFullName": "Ephraim Balistreri",
+    "PersonId": 883,
+    "ContactId": 579,
+    "ProjectId": 282,
+    "ProjectName": "Kautzer LLC",
+    "IsPublished": true,
+    "AssociateId": 525,
+    "ColorIndex": 345,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 420,
-    "PriorityName": "Abshire-Hermiston",
+    "PriorityId": 786,
+    "PriorityName": "Rippin-Rau",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2019-07-23T11:22:36.946279+02:00",
+    "ActiveDate": "2009-07-03T14:19:02.3574969+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-11-08T11:22:36.946279+01:00",
-    "RecurringEndDate": "1998-11-01T11:22:36.946279+01:00",
-    "MotherId": 154,
-    "AssignedBy": 150,
-    "AssignedByFullName": "Felipe Veum",
+    "RecurringStartDate": "2021-05-14T14:19:02.3574969+02:00",
+    "RecurringEndDate": "2004-06-21T14:19:02.3574969+02:00",
+    "MotherId": 600,
+    "AssignedBy": 228,
+    "AssignedByFullName": "Orpha Stanton",
     "RejectReason": "",
-    "Location": "sed",
-    "AlarmLeadTime": "eos",
-    "SaleId": 475,
-    "SaleName": "Toy Inc and Sons",
-    "AssociateName": "Price-Ortiz",
-    "CreatedDate": "2010-11-04T11:22:36.946279+01:00",
-    "CreatedBy": "enim",
-    "CreatedByFullName": "Corine Alexandrine Altenwerth Jr.",
-    "CreatedByAssociateId": 344,
+    "Location": "praesentium",
+    "AlarmLeadTime": "corrupti",
+    "SaleId": 410,
+    "SaleName": "Feeney Inc and Sons",
+    "AssociateName": "Jewess Group",
+    "CreatedDate": "2001-03-31T14:19:02.3574969+02:00",
+    "CreatedBy": "ipsam",
+    "CreatedByFullName": "Dahlia Khalid Lesch Jr.",
+    "CreatedByAssociateId": 42,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 639
+        "FieldType": "System.String",
+        "FieldLength": 710
       }
     }
   }

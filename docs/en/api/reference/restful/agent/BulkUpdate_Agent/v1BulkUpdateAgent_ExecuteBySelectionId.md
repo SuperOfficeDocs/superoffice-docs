@@ -71,36 +71,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
+      "CanSupportMultiUse": false,
       "DefaultShowInGui": false,
-      "DefaultShowInSelector": true,
-      "IsActive": true,
-      "Key": "qui",
-      "ValueType": "velit",
+      "DefaultShowInSelector": false,
+      "IsActive": false,
+      "Key": "et",
+      "ValueType": "reiciendis",
       "Mandatory": false,
-      "EncodedDisplayName": "O'Hara Group",
-      "EncodedDisplayDescription": "Re-contextualized background focus group",
-      "IconHint": "maiores",
+      "EncodedDisplayName": "Nader LLC",
+      "EncodedDisplayDescription": "Proactive global circuit",
+      "IconHint": "explicabo",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "recusandae",
-      "EncodedDataCaptionDescription": "Cross-platform assymetric protocol",
-      "CurrentOperationType": "sint",
+      "EncodedDataCaption": "et",
+      "EncodedDataCaptionDescription": "Organic responsive alliance",
+      "CurrentOperationType": "asperiores",
       "Values": [
-        "et",
-        "quod"
+        "ex",
+        "ullam"
       ],
       "DisplayValues": [
-        "quo",
-        "natus"
+        "maiores",
+        "aut"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Franecki Inc and Sons",
-  "Context": "debitis",
-  "SelectionId": 513,
+  "TableName": "Jast Group",
+  "Context": "dolorem",
+  "SelectionId": 806,
   "IsShadow": false
 }
 ```
@@ -121,5 +121,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-293
+979
 ```

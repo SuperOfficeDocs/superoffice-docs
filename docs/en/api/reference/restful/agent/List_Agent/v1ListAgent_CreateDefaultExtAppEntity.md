@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,34 +87,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 151,
-  "Name": "Kessler LLC",
-  "Tooltip": "tenetur",
+  "ExtAppId": 30,
+  "Name": "Crona Inc and Sons",
+  "Tooltip": "esse",
   "Deleted": false,
-  "Rank": 988,
-  "Filename": "error",
-  "Parameters": "quas",
-  "Workdir": "animi",
+  "Rank": 11,
+  "Filename": "repellendus",
+  "Parameters": "quis",
+  "Workdir": "odio",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 818,
-  "WaitToFinish": false,
+  "Icon": 507,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "fugit",
+  "Path": "magnam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldLength": 36
     }
   }
 }

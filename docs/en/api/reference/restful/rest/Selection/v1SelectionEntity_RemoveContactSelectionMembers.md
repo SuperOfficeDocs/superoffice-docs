@@ -58,17 +58,17 @@ No Content
 POST /api/v1/Selection/{selectionId}/Members/RemovePerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 959,
-    "ContactId": 402
+    "PersonId": 942,
+    "ContactId": 198
   },
   {
-    "PersonId": 959,
-    "ContactId": 402
+    "PersonId": 942,
+    "ContactId": 198
   }
 ]
 ```

@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 81,
-    "Name": "Dibbert-Zboncak",
-    "Tooltip": "veritatis",
-    "Deleted": true,
-    "Rank": 2,
-    "UdListDefinitionId": 325,
+    "HeadingId": 246,
+    "Name": "Pacocha-Orn",
+    "Tooltip": "voluptas",
+    "Deleted": false,
+    "Rank": 765,
+    "UdListDefinitionId": 690,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 26
+        "FieldLength": 368
       }
     }
   }

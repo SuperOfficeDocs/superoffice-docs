@@ -1,0 +1,9 @@
+digraph MailingDomains  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+MailingDomains[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+MailingDomains -> associate [headlabel = "registered_associate_id"]
+MailingDomains -> associate [label = "updated_associate_id"]
+}

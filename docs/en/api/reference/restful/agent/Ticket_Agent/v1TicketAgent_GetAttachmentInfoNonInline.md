@@ -81,7 +81,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 222
+  "TicketMessageEntityId": 106
 }
 ```
 
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 207,
-    "Name": "Spencer, Hackett and Gutkowski",
-    "ContentType": "dicta",
-    "AttSize": 143,
+    "AttachmentId": 385,
+    "Name": "Kiehn-Bins",
+    "ContentType": "quis",
+    "AttSize": 895,
     "InlineImage": false,
-    "ContentId": "et",
+    "ContentId": "sint",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 120
+        "FieldLength": 938
       }
     }
   }

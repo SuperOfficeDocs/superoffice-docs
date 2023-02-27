@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,29 +72,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 633,
-  "Name": "Hauck-Grimes",
-  "CreatedDate": "2022-08-08T11:22:38.3678241+02:00",
-  "UpdatedDate": "2002-04-13T11:22:38.3678241+02:00",
+  "ForeignAppId": 42,
+  "Name": "Rempel Group",
+  "CreatedDate": "2021-09-26T14:19:03.5446477+02:00",
+  "UpdatedDate": "2001-09-02T14:19:03.5446477+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 246,
-      "Name": "Blick-O'Keefe",
-      "CreatedDate": "2000-11-27T11:22:38.3678241+01:00",
-      "UpdatedDate": "2004-06-29T11:22:38.3678241+02:00",
-      "AssociateFullName": "Mortimer Ward",
-      "CreatedBy": "velit",
-      "UpdatedBy": "omnis",
-      "DeviceIdentifier": "sed",
-      "ForeignAppId": 511,
+      "ForeignDeviceId": 1002,
+      "Name": "VonRueden LLC",
+      "CreatedDate": "2019-05-14T14:19:03.5446477+02:00",
+      "UpdatedDate": "2005-02-07T14:19:03.5446477+01:00",
+      "AssociateFullName": "Yessenia Hickle",
+      "CreatedBy": "minus",
+      "UpdatedBy": "recusandae",
+      "DeviceIdentifier": "quia",
+      "ForeignAppId": 368,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 742
+          "FieldLength": 132
         }
       }
     }
@@ -104,7 +104,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 749
+      "FieldLength": 579
     }
   }
 }

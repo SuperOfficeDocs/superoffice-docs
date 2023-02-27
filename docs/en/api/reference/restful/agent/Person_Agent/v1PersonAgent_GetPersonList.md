@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/Person/GetPersonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -119,52 +119,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "saepe",
-    "PersonId": 258,
-    "Mrmrs": "quos",
-    "Firstname": "Eva",
-    "Lastname": "O'Conner",
-    "MiddleName": "Kerluke-Franecki",
-    "Title": "consequuntur",
-    "Description": "Cloned methodical definition",
-    "Email": "kelley.fadel@leschkub.ca",
-    "FullName": "Greg Bahringer",
-    "DirectPhone": "(723)626-1846",
-    "FormalName": "Shanahan, Hilll and Wunsch",
-    "CountryId": 111,
-    "ContactId": 567,
-    "ContactName": "Abshire Inc and Sons",
-    "Retired": 400,
-    "Rank": 615,
-    "ActiveInterests": 988,
+    "Position": "dolor",
+    "PersonId": 307,
+    "Mrmrs": "quaerat",
+    "Firstname": "Andres",
+    "Lastname": "Deckow",
+    "MiddleName": "Herzog Inc and Sons",
+    "Title": "dolorem",
+    "Description": "Down-sized background circuit",
+    "Email": "may.monahan@ritchie.biz",
+    "FullName": "Lon Mayer III",
+    "DirectPhone": "121-055-1181",
+    "FormalName": "Schmidt, Satterfield and Kreiger",
+    "CountryId": 87,
+    "ContactId": 846,
+    "ContactName": "Padberg LLC",
+    "Retired": 997,
+    "Rank": 900,
+    "ActiveInterests": 187,
     "ContactDepartment": "",
-    "ContactCountryId": 676,
-    "ContactOrgNr": "1570968",
-    "FaxPhone": "313.906.9541",
-    "MobilePhone": "1-926-425-8031 x50858",
-    "ContactPhone": "1-532-917-2698",
-    "AssociateName": "Ledner-Ratke",
-    "AssociateId": 664,
+    "ContactCountryId": 569,
+    "ContactOrgNr": "653459",
+    "FaxPhone": "016-464-6163 x24797",
+    "MobilePhone": "506.235.2598 x114",
+    "ContactPhone": "(501)328-8919 x020",
+    "AssociateName": "Kuhic-Walsh",
+    "AssociateId": 153,
     "UsePersonAddress": false,
-    "ContactFax": "quis",
-    "Kanafname": "suscipit",
-    "Kanalname": "soluta",
-    "Post1": "vel",
-    "Post2": "iste",
-    "Post3": "qui",
-    "EmailName": "novella_predovic@watsica.biz",
-    "ContactFullName": "Dr. Gabriella Kuhic",
-    "ActiveErpLinks": 2,
-    "TicketPriorityId": 914,
-    "SupportLanguageId": 881,
-    "SupportAssociateId": 317,
+    "ContactFax": "aut",
+    "Kanafname": "voluptatem",
+    "Kanalname": "qui",
+    "Post1": "facilis",
+    "Post2": "non",
+    "Post3": "eum",
+    "EmailName": "madisen_pagac@macejkovic.co.uk",
+    "ContactFullName": "Zaria Deckow",
+    "ActiveErpLinks": 928,
+    "TicketPriorityId": 764,
+    "SupportLanguageId": 828,
+    "SupportAssociateId": 786,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 826
+        "FieldType": "System.Int32",
+        "FieldLength": 792
       }
     }
   }

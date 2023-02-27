@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 49,
-    "Name": "Grady, Metz and Conn",
-    "ToolTip": "Nihil aut facere molestias.",
+    "Id": 115,
+    "Name": "Hand-Daniel",
+    "ToolTip": "Odit optio.",
     "Deleted": false,
-    "Rank": 209,
-    "Type": "a",
-    "ColorBlock": 974,
-    "IconHint": "autem",
-    "Selected": true,
-    "LastChanged": "2016-01-13T11:22:45.9754127+01:00",
+    "Rank": 898,
+    "Type": "non",
+    "ColorBlock": 157,
+    "IconHint": "nam",
+    "Selected": false,
+    "LastChanged": "2013-09-11T14:19:11.3211603+02:00",
     "ChildItems": [
       {
-        "Id": 171,
-        "Name": "Franecki, Fahey and Maggio",
-        "ToolTip": "Non nisi.",
+        "Id": 753,
+        "Name": "O'Kon, Gottlieb and Larson",
+        "ToolTip": "Sapiente dolore porro nulla ab.",
         "Deleted": false,
-        "Rank": 862,
-        "Type": "laborum",
-        "ColorBlock": 361,
-        "IconHint": "qui",
+        "Rank": 207,
+        "Type": "velit",
+        "ColorBlock": 491,
+        "IconHint": "labore",
         "Selected": false,
-        "LastChanged": "2011-09-02T11:22:45.9754127+02:00",
+        "LastChanged": "2007-04-24T14:19:11.3211603+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "architecto",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Karelle Batz",
+        "FullName": "Hazle Kertzmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 717
+            "FieldType": "System.Int32",
+            "FieldLength": 932
           }
         }
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "facere",
-    "Hidden": true,
-    "FullName": "Dr. Elisa Ralph Braun",
+    "ExtraInfo": "enim",
+    "StyleHint": "nesciunt",
+    "Hidden": false,
+    "FullName": "Mrs. Modesta Chelsey Lakin MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldType": "System.String",
+        "FieldLength": 828
       }
     }
   }

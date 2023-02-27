@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 255,
-    "Name": "Raynor, Ziemann and Schmeler",
-    "ToolTip": "Vitae quis dicta reprehenderit dolorem porro.",
+    "Id": 593,
+    "Name": "Kiehn Group",
+    "ToolTip": "Deleniti et ut et.",
     "Deleted": false,
-    "Rank": 844,
-    "Type": "doloremque",
-    "ColorBlock": 242,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2013-01-29T11:22:46.0847653+01:00",
+    "Rank": 491,
+    "Type": "voluptas",
+    "ColorBlock": 285,
+    "IconHint": "sint",
+    "Selected": false,
+    "LastChanged": "2023-01-12T14:19:11.4149038+01:00",
     "ChildItems": [
       {
-        "Id": 561,
-        "Name": "Grady, Stehr and Turner",
-        "ToolTip": "Omnis non et ex.",
+        "Id": 332,
+        "Name": "Predovic LLC",
+        "ToolTip": "Quia et rerum dolor quo ut voluptates ut.",
         "Deleted": true,
-        "Rank": 53,
-        "Type": "vitae",
-        "ColorBlock": 837,
-        "IconHint": "ut",
+        "Rank": 750,
+        "Type": "omnis",
+        "ColorBlock": 441,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2005-02-08T11:22:46.0847653+01:00",
+        "LastChanged": "2004-05-20T14:19:11.4149038+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "odio",
+        "ExtraInfo": "totam",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Nicholas Hermann",
+        "FullName": "Prof. Emmy Aisha Kling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 851
+            "FieldLength": 674
           }
         }
       }
     ],
-    "ExtraInfo": "error",
-    "StyleHint": "aliquam",
+    "ExtraInfo": "iusto",
+    "StyleHint": "reiciendis",
     "Hidden": false,
-    "FullName": "Miss Emerson Jaiden Pollich",
+    "FullName": "Joelle Auer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 856
+        "FieldLength": 228
       }
     }
   }

@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 351
+  "CountWords": 606
 }
 ```
 
@@ -99,50 +99,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 73,
-    "Name": "Lynch-Stark",
-    "ToolTip": "Explicabo rem repellendus nisi culpa.",
+    "Id": 651,
+    "Name": "Jones, Feil and Bins",
+    "ToolTip": "Voluptatem repellat asperiores quia et.",
     "Deleted": false,
-    "Rank": 581,
-    "Type": "aliquid",
+    "Rank": 644,
+    "Type": "sed",
     "ChildItems": [
       {
-        "Id": 454,
-        "Name": "Medhurst Inc and Sons",
-        "ToolTip": "Quibusdam accusamus cupiditate porro modi.",
-        "Deleted": false,
-        "Rank": 138,
-        "Type": "ab",
+        "Id": 96,
+        "Name": "Kreiger Inc and Sons",
+        "ToolTip": "Molestiae dolores perspiciatis deserunt.",
+        "Deleted": true,
+        "Rank": 291,
+        "Type": "cum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusamus",
-        "ColorBlock": 230,
-        "ExtraInfo": "quisquam",
-        "StyleHint": "voluptatem",
-        "FullName": "Lucious Maritza Reichert Sr.",
+        "IconHint": "nostrum",
+        "ColorBlock": 881,
+        "ExtraInfo": "numquam",
+        "StyleHint": "id",
+        "FullName": "Ms. Celestino Demetrius Ziemann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 53
+            "FieldType": "System.String",
+            "FieldLength": 378
           }
         }
       }
     ],
-    "IconHint": "sed",
-    "ColorBlock": 441,
-    "ExtraInfo": "officiis",
-    "StyleHint": "totam",
-    "FullName": "Moises Koelpin",
+    "IconHint": "quaerat",
+    "ColorBlock": 347,
+    "ExtraInfo": "expedita",
+    "StyleHint": "qui",
+    "FullName": "Prof. Terry Altenwerth IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 766
+        "FieldLength": 178
       }
     }
   }

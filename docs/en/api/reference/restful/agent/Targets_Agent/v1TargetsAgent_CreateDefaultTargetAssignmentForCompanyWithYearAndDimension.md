@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 274,
-  "TargetDimensionId": 619
+  "Year": 273,
+  "TargetDimensionId": 62
 }
 ```
 
@@ -98,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 170,
+    "TargetAssignmentInfoId": 323,
     "Values": [
-      351,
-      497
+      95,
+      418
     ],
     "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 87,
-    "DimensionListItemDisplayName": "Tillman-Rowe",
+    "DimensionListItem": 84,
+    "DimensionListItemDisplayName": "Monahan Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 558
+        "FieldType": "System.Int32",
+        "FieldLength": 839
       }
     }
   }

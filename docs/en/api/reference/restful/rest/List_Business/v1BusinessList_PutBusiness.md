@@ -81,12 +81,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 91,
-  "Name": "Fritsch LLC",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "UdListDefinitionId": 342,
-  "Rank": 884
+  "Id": 738,
+  "Name": "Pagac-Jerde",
+  "Tooltip": "corrupti",
+  "Deleted": true,
+  "UdListDefinitionId": 69,
+  "Rank": 963
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 673,
-  "Name": "Haley LLC",
-  "Tooltip": "suscipit",
-  "Deleted": true,
-  "UdListDefinitionId": 783,
-  "Rank": 354,
+  "Id": 99,
+  "Name": "Bartell-Haag",
+  "Tooltip": "officiis",
+  "Deleted": false,
+  "UdListDefinitionId": 2,
+  "Rank": 783,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldType": "System.Int32",
+      "FieldLength": 654
     }
   }
 }

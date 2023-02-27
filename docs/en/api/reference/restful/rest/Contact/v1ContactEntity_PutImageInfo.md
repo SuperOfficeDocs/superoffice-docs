@@ -92,23 +92,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 264,
-  "BlobSize": 399,
-  "Description": "Profit-focused modular paradigm",
-  "ExtraInfo": "est",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "omnis",
-  "OriginalSize": 529,
-  "CreatedDate": "2005-09-11T11:22:44.4445217+02:00",
-  "UpdatedDate": "2002-05-14T11:22:44.4445217+02:00",
+  "BlobId": 538,
+  "BlobSize": 992,
+  "Description": "Virtual object-oriented data-warehouse",
+  "ExtraInfo": "facere",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "dignissimos",
+  "OriginalSize": 206,
+  "CreatedDate": "2001-08-23T14:19:10.1310974+02:00",
+  "UpdatedDate": "2019-02-28T14:19:10.1310974+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sint"
+  "ConceptualType": "a"
 }
 ```
 
@@ -119,25 +119,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 230,
-  "BlobSize": 799,
-  "Description": "Re-contextualized 24 hour customer loyalty",
-  "ExtraInfo": "qui",
+  "BlobId": 101,
+  "BlobSize": 594,
+  "Description": "Balanced value-added utilisation",
+  "ExtraInfo": "est",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "libero",
-  "OriginalSize": 307,
-  "CreatedDate": "2003-10-05T11:22:44.4445217+02:00",
-  "UpdatedDate": "1997-03-16T11:22:44.4445217+01:00",
+  "MimeType": "a",
+  "OriginalSize": 812,
+  "CreatedDate": "2021-11-27T14:19:10.1310974+01:00",
+  "UpdatedDate": "2019-10-12T14:19:10.1310974+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "enim",
+  "ConceptualType": "sequi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 831
+      "FieldLength": 978
     }
   }
 }

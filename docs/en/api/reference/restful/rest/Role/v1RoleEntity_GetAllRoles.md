@@ -77,7 +77,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,56 +88,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 372,
-    "Name": "Bauch, Schneider and Yundt",
-    "ToolTip": "Ullam ut et delectus ut ut qui sit.",
+    "Id": 966,
+    "Name": "Goldner Group",
+    "ToolTip": "Eveniet eum dolorem fugit.",
     "Deleted": false,
-    "Rank": 402,
-    "Type": "aliquid",
-    "ColorBlock": 419,
+    "Rank": 367,
+    "Type": "voluptatem",
+    "ColorBlock": 98,
     "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2006-06-27T11:22:45.0849869+02:00",
+    "Selected": true,
+    "LastChanged": "2011-09-01T14:19:10.6467484+02:00",
     "ChildItems": [
       {
-        "Id": 893,
-        "Name": "Terry-Schroeder",
-        "ToolTip": "Et exercitationem ad maiores.",
-        "Deleted": false,
-        "Rank": 190,
-        "Type": "quia",
-        "ColorBlock": 953,
-        "IconHint": "temporibus",
-        "Selected": true,
-        "LastChanged": "2007-11-11T11:22:45.0849869+01:00",
+        "Id": 878,
+        "Name": "Kling-Wiegand",
+        "ToolTip": "Mollitia iure voluptate rerum.",
+        "Deleted": true,
+        "Rank": 93,
+        "Type": "soluta",
+        "ColorBlock": 411,
+        "IconHint": "culpa",
+        "Selected": false,
+        "LastChanged": "1997-06-05T14:19:10.6467484+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "quidem",
-        "Hidden": true,
-        "FullName": "Mrs. Jaquan Opal Schoen",
+        "ExtraInfo": "quaerat",
+        "StyleHint": "ex",
+        "Hidden": false,
+        "FullName": "Mrs. Eryn Tyrese Schinner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 23
+            "FieldLength": 722
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "repellendus",
+    "ExtraInfo": "commodi",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Hillard Gislason",
+    "FullName": "Daron Farrell Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 759
+        "FieldLength": 111
       }
     }
   }

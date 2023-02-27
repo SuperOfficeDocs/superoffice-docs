@@ -25,7 +25,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=479
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=677
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -109,7 +109,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "molestiae",
+  "SaleText": "ut",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -134,113 +134,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1997-12-27T11:22:39.2269448+01:00",
-  "Amount": 4365.662,
-  "SaleId": 122,
-  "Earning": 14068.526,
-  "EarningPercent": 22530.326,
-  "Heading": "eos",
-  "Number": "829565",
-  "Probability": 622,
-  "CreatedDate": "2009-07-31T11:22:39.2269448+02:00",
-  "UpdatedDate": "2001-03-24T11:22:39.2269448+01:00",
+  "Saledate": "2004-05-24T14:19:04.1261993+02:00",
+  "Amount": 11996.952,
+  "SaleId": 215,
+  "Earning": 22755.974,
+  "EarningPercent": 6183.382,
+  "Heading": "officia",
+  "Number": "971929",
+  "Probability": 371,
+  "CreatedDate": "2007-06-07T14:19:04.1261993+02:00",
+  "UpdatedDate": "2021-03-26T14:19:04.1261993+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 674,
+  "ActiveLinks": 864,
   "Links": [
     {
-      "EntityName": "Heidenreich-Pouros",
-      "Id": 341,
-      "Description": "Networked discrete analyzer",
-      "ExtraInfo": "unde",
-      "LinkId": 130,
+      "EntityName": "Bosco Inc and Sons",
+      "Id": 720,
+      "Description": "Advanced dynamic capability",
+      "ExtraInfo": "exercitationem",
+      "LinkId": 658,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 961
+          "FieldLength": 642
         }
       }
     }
   ],
-  "NextDueDate": "1997-04-18T11:22:39.2269448+02:00",
-  "Postit": "commodi",
+  "NextDueDate": "2017-01-09T14:19:04.1261993+01:00",
+  "Postit": "voluptatibus",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2015-12-28T11:22:39.2269448+01:00",
+  "ReopenDate": "1999-08-29T14:19:04.1261993+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Koch Inc and Sons",
-      "Comment": "illum",
-      "StakeholderRoleId": 807,
-      "CountryId": 190,
-      "PersonId": 755,
-      "EmailDescription": "melissa_goldner@tremblay.com",
-      "EmailId": 979,
-      "EmailAddress": "kaleigh_parisian@schimmellynch.uk",
-      "PhoneId": 911,
-      "ContactName": "Roob-DuBuque",
-      "ContactId": 240,
-      "SaleId": 656,
-      "Mrmrs": "quo",
-      "Firstname": "Lyric",
-      "MiddleName": "Schinner, Balistreri and Bernhard",
-      "Lastname": "Osinski",
-      "SaleStakeholderId": 999,
-      "Rank": 314,
-      "Phone": "119.853.4747 x25357",
+      "StakeholderRoleName": "Cummings, Heathcote and Reinger",
+      "Comment": "et",
+      "StakeholderRoleId": 464,
+      "CountryId": 511,
+      "PersonId": 843,
+      "EmailDescription": "liliana.hartmann@schoen.info",
+      "EmailId": 769,
+      "EmailAddress": "jamil.welch@murphy.info",
+      "PhoneId": 503,
+      "ContactName": "Schmidt-Blick",
+      "ContactId": 414,
+      "SaleId": 458,
+      "Mrmrs": "quae",
+      "Firstname": "Cruz",
+      "MiddleName": "Aufderhar, Bosco and Cole",
+      "Lastname": "Terry",
+      "SaleStakeholderId": 522,
+      "Rank": 887,
+      "Phone": "(048)430-7608 x967",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 284
+          "FieldLength": 614
         }
       }
     }
   ],
-  "ActiveErpLinks": 410,
+  "ActiveErpLinks": 812,
   "UserDefinedFields": {
-    "SuperOffice:1": "678217013",
-    "SuperOffice:2": "Layla McCullough"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Laurie Emard"
   },
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "commodi"
+    "ExtraFields1": "aspernatur",
+    "ExtraFields2": "itaque"
   },
   "CustomFields": {
-    "CustomFields1": "eum",
-    "CustomFields2": "quidem"
+    "CustomFields1": "eius",
+    "CustomFields2": "ut"
   },
-  "PublishEventDate": "2019-05-05T11:22:39.2269448+02:00",
-  "PublishTo": "2003-11-16T11:22:39.2269448+01:00",
-  "PublishFrom": "2011-07-17T11:22:39.2269448+02:00",
+  "PublishEventDate": "1997-02-27T14:19:04.1261993+01:00",
+  "PublishTo": "2002-08-03T14:19:04.1261993+02:00",
+  "PublishFrom": "2015-03-10T14:19:04.1261993+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 963,
+      "VisibleId": 176,
       "Visibility": "All",
-      "DisplayValue": "minus",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 754
+          "FieldLength": 857
         }
       }
     },
     {
-      "VisibleId": 963,
+      "VisibleId": 176,
       "Visibility": "All",
-      "DisplayValue": "minus",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 754
+          "FieldLength": 857
         }
       }
     }
@@ -250,7 +250,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldLength": 375
     }
   }
 }

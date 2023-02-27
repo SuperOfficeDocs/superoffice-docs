@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Smith Group"
+  "OwnerName": "Abshire, Prosacco and Ankunding"
 }
 ```
 
@@ -98,14 +98,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 374,
-      "NumberOfLicensesFree": 258,
-      "NumberOfLicensesAdded": 352,
-      "NumberOfLicensesNewTotal": 871,
-      "NumberOfLicensesNewFree": 325,
-      "NumberOfLicensesTotal": 720
+      "NumberOfLicensesInUse": 481,
+      "NumberOfLicensesFree": 325,
+      "NumberOfLicensesAdded": 385,
+      "NumberOfLicensesNewTotal": 298,
+      "NumberOfLicensesNewFree": 328,
+      "NumberOfLicensesTotal": 240
     }
   ],
-  "AccumulatedNextCheckDate": "2006-12-05T11:22:38.3990648+01:00"
+  "AccumulatedNextCheckDate": "1996-06-23T14:19:03.5769906+02:00"
 }
 ```

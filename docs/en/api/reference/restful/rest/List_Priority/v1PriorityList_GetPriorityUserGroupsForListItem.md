@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 46,
-    "Name": "Murazik-Okuneva",
-    "ToolTip": "Animi provident rem vel impedit maxime.",
-    "Deleted": true,
-    "Rank": 472,
-    "Type": "sed",
-    "ColorBlock": 163,
-    "IconHint": "adipisci",
+    "Id": 558,
+    "Name": "Frami-Bernier",
+    "ToolTip": "Amet sapiente.",
+    "Deleted": false,
+    "Rank": 321,
+    "Type": "sit",
+    "ColorBlock": 655,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2017-05-03T11:22:46.0066565+02:00",
+    "LastChanged": "1998-07-26T14:19:11.3524087+02:00",
     "ChildItems": [
       {
-        "Id": 771,
-        "Name": "Waters, Dach and Predovic",
-        "ToolTip": "Odit temporibus rerum corrupti dolorum quos.",
+        "Id": 499,
+        "Name": "Schneider LLC",
+        "ToolTip": "Mollitia delectus.",
         "Deleted": false,
-        "Rank": 234,
-        "Type": "alias",
-        "ColorBlock": 994,
-        "IconHint": "nulla",
+        "Rank": 330,
+        "Type": "maiores",
+        "ColorBlock": 265,
+        "IconHint": "culpa",
         "Selected": false,
-        "LastChanged": "2016-12-23T11:22:46.0066565+01:00",
+        "LastChanged": "2012-02-24T14:19:11.3524087+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "recusandae",
-        "Hidden": true,
-        "FullName": "Cecil Zieme",
+        "ExtraInfo": "provident",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Milford Kunde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 320
+            "FieldLength": 141
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Rosalind Cronin",
+    "ExtraInfo": "et",
+    "StyleHint": "excepturi",
+    "Hidden": false,
+    "FullName": "Frederique Lesch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 24
+        "FieldType": "System.String",
+        "FieldLength": 795
       }
     }
   }

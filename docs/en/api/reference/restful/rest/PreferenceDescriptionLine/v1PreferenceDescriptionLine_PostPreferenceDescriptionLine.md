@@ -89,12 +89,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 434,
-  "PrefDescId": 360,
-  "PrefValue": "rem",
-  "PrefShowValue": "aliquid",
-  "Description": "Automated grid-enabled complexity",
-  "IsBuiltin": true
+  "PrefDescLineId": 726,
+  "PrefDescId": 449,
+  "PrefValue": "enim",
+  "PrefShowValue": "distinctio",
+  "Description": "Up-sized bi-directional functionalities",
+  "IsBuiltin": false
 }
 ```
 
@@ -105,23 +105,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 383,
-  "PrefDescId": 882,
-  "PrefValue": "corporis",
-  "PrefShowValue": "quo",
-  "Description": "Function-based coherent software",
+  "PrefDescLineId": 699,
+  "PrefDescId": 837,
+  "PrefValue": "quis",
+  "PrefShowValue": "labore",
+  "Description": "Vision-oriented optimizing monitoring",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 385
+      "FieldLength": 492
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

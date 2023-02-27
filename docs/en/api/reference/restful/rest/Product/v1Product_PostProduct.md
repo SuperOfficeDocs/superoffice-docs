@@ -140,55 +140,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 343,
-  "ERPProductKey": "labore",
-  "ERPPriceListKey": "odio",
-  "Name": "Veum Group",
-  "Description": "Visionary multimedia synergy",
-  "Code": "exercitationem",
-  "PriceUnit": "aliquid",
-  "QuantityUnit": "quia",
+  "ProductId": 80,
+  "ERPProductKey": "mollitia",
+  "ERPPriceListKey": "aut",
+  "Name": "Towne, Yost and Christiansen",
+  "Description": "Digitized solution-oriented hardware",
+  "Code": "dolorem",
+  "PriceUnit": "quia",
+  "QuantityUnit": "esse",
   "IsSubscription": true,
-  "SubscriptionUnit": "molestias",
-  "DefaultSubscriptionQuantity": 19446.47,
-  "ItemNumber": "1397935",
+  "SubscriptionUnit": "pariatur",
+  "DefaultSubscriptionQuantity": 4679.062,
+  "ItemNumber": "1308703",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "est",
-  "ProductTypeKey": "possimus",
-  "VAT": 14811.284,
-  "VATInfo": "aliquam",
-  "UnitCost": 2804.93,
-  "UnitMinimumPrice": 17534.73,
-  "UnitListPrice": 19377.522,
+  "ProductFamilyKey": "officia",
+  "ProductTypeKey": "et",
+  "VAT": 26175.167999999998,
+  "VATInfo": "est",
+  "UnitCost": 14447.74,
+  "UnitMinimumPrice": 16701.086,
+  "UnitListPrice": 5174.2339999999995,
   "InAssortment": false,
   "Supplier": "ut",
-  "SupplierCode": "amet",
-  "Rights": "in",
-  "Rule": "id",
+  "SupplierCode": "odit",
+  "Rights": "voluptatem",
+  "Rule": "aperiam",
   "ExtraInfo": [
     {
-      "Name": "Thompson LLC",
-      "Value": "voluptatibus",
+      "Name": "Gorczany-Emard",
+      "Value": "iste",
       "Type": "Image"
     },
     {
-      "Name": "Thompson LLC",
-      "Value": "voluptatibus",
+      "Name": "Gorczany-Emard",
+      "Value": "iste",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "quis",
-  "ExtraField1": "eaque",
-  "ExtraField2": "at",
-  "ExtraField3": "ipsum",
-  "ExtraField4": "et",
-  "ExtraField5": "aut",
-  "InStock": 26942.998
+  "RawExtraInfo": "rerum",
+  "ExtraField1": "voluptatum",
+  "ExtraField2": "mollitia",
+  "ExtraField3": "cum",
+  "ExtraField4": "quia",
+  "ExtraField5": "assumenda",
+  "InStock": 20787.822
 }
 ```
 
@@ -199,73 +199,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 814,
-  "ERPProductKey": "sit",
-  "ERPPriceListKey": "quibusdam",
-  "Name": "Rohan-Braun",
-  "Description": "Customizable responsive benchmark",
-  "Code": "eligendi",
-  "PriceUnit": "voluptatem",
-  "QuantityUnit": "omnis",
-  "IsSubscription": false,
-  "SubscriptionUnit": "atque",
-  "DefaultSubscriptionQuantity": 22041.422,
-  "ItemNumber": "1019878",
+  "ProductId": 61,
+  "ERPProductKey": "cum",
+  "ERPPriceListKey": "officia",
+  "Name": "Leannon-Farrell",
+  "Description": "Cross-platform leading edge attitude",
+  "Code": "enim",
+  "PriceUnit": "ullam",
+  "QuantityUnit": "velit",
+  "IsSubscription": true,
+  "SubscriptionUnit": "quisquam",
+  "DefaultSubscriptionQuantity": 1927.4099999999999,
+  "ItemNumber": "1064175",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sed",
-  "ProductTypeKey": "ratione",
-  "VAT": 31164.496,
-  "VATInfo": "alias",
-  "UnitCost": 8740.726,
-  "UnitMinimumPrice": 27162.378,
-  "UnitListPrice": 3757.6659999999997,
+  "ProductFamilyKey": "quia",
+  "ProductTypeKey": "saepe",
+  "VAT": 10486.364,
+  "VATInfo": "et",
+  "UnitCost": 7775.454,
+  "UnitMinimumPrice": 16986.28,
+  "UnitListPrice": 10229.376,
   "InAssortment": false,
-  "Supplier": "possimus",
-  "SupplierCode": "voluptatem",
-  "Rights": "fugiat",
-  "Rule": "autem",
+  "Supplier": "consequatur",
+  "SupplierCode": "quo",
+  "Rights": "tempora",
+  "Rule": "eligendi",
   "ExtraInfo": [
     {
-      "Name": "Jewess Group",
-      "Value": "fuga",
+      "Name": "Heathcote-Little",
+      "Value": "ab",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 542
+          "FieldLength": 957
         }
       }
     },
     {
-      "Name": "Jewess Group",
-      "Value": "fuga",
+      "Name": "Heathcote-Little",
+      "Value": "ab",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 542
+          "FieldLength": 957
         }
       }
     }
   ],
-  "RawExtraInfo": "molestiae",
-  "ExtraField1": "vel",
-  "ExtraField2": "ab",
-  "ExtraField3": "est",
-  "ExtraField4": "expedita",
-  "ExtraField5": "voluptatem",
-  "InStock": 17660.09,
+  "RawExtraInfo": "consectetur",
+  "ExtraField1": "delectus",
+  "ExtraField2": "voluptas",
+  "ExtraField3": "corporis",
+  "ExtraField4": "libero",
+  "ExtraField5": "odio",
+  "InStock": 31249.113999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 424
     }
   }
 }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 591
+  "PersonId": 768
 }
 ```
 
@@ -93,11 +93,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 822,
-  "InstanceLayout": "eaque",
-  "InstanceName": "Carter-Feest",
-  "CreatedDate": "2007-04-20T11:22:37.4461725+02:00",
-  "UpdatedDate": "2014-08-09T11:22:37.4461725+02:00",
+  "AudienceLayoutId": 135,
+  "InstanceLayout": "ipsam",
+  "InstanceName": "Feil, Lemke and McGlynn",
+  "CreatedDate": "2013-12-03T14:19:02.7594283+01:00",
+  "UpdatedDate": "2023-01-25T14:19:02.7594283+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 455
+      "FieldLength": 943
     }
   }
 }

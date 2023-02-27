@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 815,
-    "Name": "Gleichner, Effertz and Bins",
-    "Tooltip": "voluptatibus",
-    "Deleted": true,
-    "Rank": 51,
-    "UdListDefinitionId": 487
+    "HeadingId": 875,
+    "Name": "Hessel-Schaden",
+    "Tooltip": "sequi",
+    "Deleted": false,
+    "Rank": 780,
+    "UdListDefinitionId": 975
   },
   {
-    "HeadingId": 815,
-    "Name": "Gleichner, Effertz and Bins",
-    "Tooltip": "voluptatibus",
-    "Deleted": true,
-    "Rank": 51,
-    "UdListDefinitionId": 487
+    "HeadingId": 875,
+    "Name": "Hessel-Schaden",
+    "Tooltip": "sequi",
+    "Deleted": false,
+    "Rank": 780,
+    "UdListDefinitionId": 975
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 601,
-    "Name": "Sawayn, Collins and O'Conner",
-    "Tooltip": "ex",
-    "Deleted": false,
-    "Rank": 559,
-    "UdListDefinitionId": 892,
+    "HeadingId": 359,
+    "Name": "Bogisich-Marks",
+    "Tooltip": "sit",
+    "Deleted": true,
+    "Rank": 406,
+    "UdListDefinitionId": 844,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 123
+        "FieldLength": 846
       }
     }
   }

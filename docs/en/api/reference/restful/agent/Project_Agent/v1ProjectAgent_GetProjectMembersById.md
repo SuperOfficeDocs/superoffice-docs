@@ -92,13 +92,13 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembersById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    420,
-    512
+    362,
+    91
   ]
 }
 ```
@@ -111,33 +111,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 545,
-    "ContactId": 403,
-    "ProjectId": 734,
-    "ContactName": "McKenzie-Stehr",
+    "ProjectmemberId": 340,
+    "ContactId": 543,
+    "ProjectId": 453,
+    "ContactName": "Farrell-Schuster",
     "ContactDepartment": "",
-    "ProjectName": "Johns-Collier",
-    "EmailId": 616,
-    "EmailAddress": "alfonso_zemlak@nader.info",
-    "CountryId": 459,
-    "Firstname": "Manley",
-    "MiddleName": "Auer-Hodkiewicz",
-    "Lastname": "Considine",
-    "PersonId": 637,
-    "Mrmrs": "dolor",
-    "ProjectMemberTypeName": "Yost-Rice",
-    "Phone": "726.577.6750 x146",
-    "PhoneId": 504,
-    "ProjectMemberTypeId": 354,
-    "EmailAddressName": "leora_tremblay@rosenbaumgottlieb.co.uk",
-    "Comment": "omnis",
-    "FullName": "Mr. Ronaldo Gisselle Schmitt I",
+    "ProjectName": "Fahey Group",
+    "EmailId": 682,
+    "EmailAddress": "gilberto@goyetteborer.name",
+    "CountryId": 130,
+    "Firstname": "Nils",
+    "MiddleName": "Reilly-Glover",
+    "Lastname": "Huels",
+    "PersonId": 429,
+    "Mrmrs": "ad",
+    "ProjectMemberTypeName": "Bode-Walsh",
+    "Phone": "372-641-9427 x29405",
+    "PhoneId": 773,
+    "ProjectMemberTypeId": 951,
+    "EmailAddressName": "rolando_jacobs@kerlukejakubowski.com",
+    "Comment": "temporibus",
+    "FullName": "Kraig Simonis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 223
+        "FieldType": "System.Int32",
+        "FieldLength": 587
       }
     }
   }

@@ -26,7 +26,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=True
-GET /api/v1/List/MrMrs/MDOItems?query=nostrum
+GET /api/v1/List/MrMrs/MDOItems?query=saepe
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 293,
-    "Name": "Kling, Lind and Kutch",
-    "ToolTip": "Et quaerat et.",
-    "Deleted": false,
-    "Rank": 308,
-    "Type": "distinctio",
+    "Id": 360,
+    "Name": "Nienow-O'Keefe",
+    "ToolTip": "Odit quas velit unde non sed provident unde.",
+    "Deleted": true,
+    "Rank": 979,
+    "Type": "vel",
     "ChildItems": [
       {
-        "Id": 531,
-        "Name": "Auer-Schuster",
-        "ToolTip": "Ea rerum.",
-        "Deleted": true,
-        "Rank": 925,
-        "Type": "eos",
+        "Id": 32,
+        "Name": "Kovacek Group",
+        "ToolTip": "Corporis sed assumenda sint aliquid quia nulla.",
+        "Deleted": false,
+        "Rank": 990,
+        "Type": "dolor",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sapiente",
-        "ColorBlock": 904,
-        "ExtraInfo": "ut",
-        "StyleHint": "inventore",
-        "FullName": "Arely Grimes",
+        "IconHint": "dolor",
+        "ColorBlock": 971,
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "quia",
+        "FullName": "Mr. Rhianna Wilfrid Marquardt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 58
+            "FieldType": "System.Int32",
+            "FieldLength": 106
           }
         }
       }
     ],
-    "IconHint": "itaque",
-    "ColorBlock": 981,
-    "ExtraInfo": "quia",
-    "StyleHint": "quasi",
-    "FullName": "Joel Hayes MD",
+    "IconHint": "sint",
+    "ColorBlock": 380,
+    "ExtraInfo": "officiis",
+    "StyleHint": "dignissimos",
+    "FullName": "Ms. Lisandro Runolfsdottir III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 913
+        "FieldType": "System.String",
+        "FieldLength": 715
       }
     }
   }

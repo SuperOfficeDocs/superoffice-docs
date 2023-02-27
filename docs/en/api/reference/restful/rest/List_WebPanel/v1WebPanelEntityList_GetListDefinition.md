@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 10,
-  "Name": "Kunde-D'Amore",
-  "Tooltip": "fugiat",
-  "Deleted": true,
-  "Rank": 532,
-  "IsCustomList": true,
+  "Id": 256,
+  "Name": "Reichel-Stanton",
+  "Tooltip": "officia",
+  "Deleted": false,
+  "Rank": 926,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dignissimos",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 274
+      "FieldLength": 489
     }
   },
   "_Links": {

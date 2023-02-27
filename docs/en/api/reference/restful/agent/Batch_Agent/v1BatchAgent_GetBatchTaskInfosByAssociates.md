@@ -93,13 +93,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    111,
-    927
+    158,
+    221
   ]
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 997,
-    "Name": "Bahringer Inc and Sons",
-    "AssociateId": 728,
-    "DetailsTable": 738,
-    "DetailsRecord": 245,
-    "IsSystemTask": false,
+    "Id": 176,
+    "Name": "Lakin, Beatty and Hansen",
+    "AssociateId": 154,
+    "DetailsTable": 863,
+    "DetailsRecord": 317,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "error",
-      "ParameterObject2": "officia"
+      "ParameterObject1": "nihil",
+      "ParameterObject2": "possimus"
     },
-    "LastStarted": "2018-05-02T11:22:37.4461725+02:00",
-    "Created": "2013-12-06T11:22:37.4461725+01:00",
-    "StartCount": 108,
-    "DatabaseSerialNumber": "513064",
-    "Context": "dolore",
-    "Result": "explicabo",
+    "LastStarted": "2022-03-22T14:19:02.7594283+01:00",
+    "Created": "1998-08-09T14:19:02.7594283+02:00",
+    "StartCount": 597,
+    "DatabaseSerialNumber": "1438765",
+    "Context": "alias",
+    "Result": "qui",
     "State": "All",
-    "Description": "Operative radical matrix",
-    "Response": "et",
-    "Request": "expedita",
-    "ProgressDescription": "Profound secondary model",
-    "ProgressPercent": 767,
-    "FileName": "O'Hara-Smitham",
+    "Description": "Automated interactive migration",
+    "Response": "doloribus",
+    "Request": "sequi",
+    "ProgressDescription": "Programmable homogeneous data-warehouse",
+    "ProgressPercent": 662,
+    "FileName": "Bergnaum Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 159
+        "FieldLength": 505
       }
     }
   }

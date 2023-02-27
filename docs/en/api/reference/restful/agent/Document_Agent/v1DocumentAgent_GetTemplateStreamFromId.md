@@ -72,8 +72,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateId": 756,
-  "UiCulture": "at"
+  "TemplateId": 596,
+  "UiCulture": "velit"
 }
 ```
 

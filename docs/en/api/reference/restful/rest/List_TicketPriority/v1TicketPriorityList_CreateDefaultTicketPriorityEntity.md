@@ -81,7 +81,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,60 +91,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 171,
-  "Name": "Moore-Considine",
+  "TicketPriorityId": 713,
+  "Name": "Quitzon-Bashirian",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 427,
+  "SortOrder": 188,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 178,
-  "MonStart": "2012-05-10T11:22:46.2409792+02:00",
-  "MonStop": "2021-04-29T11:22:46.2409792+02:00",
-  "TueStart": "2015-12-16T11:22:46.2409792+01:00",
-  "TueStop": "1999-07-10T11:22:46.2409792+02:00",
-  "WedStart": "2020-11-14T11:22:46.2409792+01:00",
-  "WedStop": "2009-04-04T11:22:46.2409792+02:00",
-  "ThuStart": "2020-06-20T11:22:46.2409792+02:00",
-  "ThuStop": "1996-06-22T11:22:46.2409792+02:00",
-  "FriStart": "2007-02-18T11:22:46.2409792+01:00",
-  "FriStop": "2001-03-06T11:22:46.2409792+01:00",
-  "SatStart": "1999-07-18T11:22:46.2409792+02:00",
-  "SatStop": "2003-07-03T11:22:46.2409792+02:00",
-  "SunStart": "2017-04-22T11:22:46.2409792+02:00",
-  "SunStop": "1996-11-28T11:22:46.2409792+01:00",
+  "Deadline": 723,
+  "MonStart": "2019-03-30T14:19:11.660135+01:00",
+  "MonStop": "2022-09-12T14:19:11.660135+02:00",
+  "TueStart": "2012-06-28T14:19:11.660135+02:00",
+  "TueStop": "2021-12-22T14:19:11.660135+01:00",
+  "WedStart": "2008-06-09T14:19:11.660135+02:00",
+  "WedStop": "2013-05-01T14:19:11.660135+02:00",
+  "ThuStart": "2007-08-21T14:19:11.660135+02:00",
+  "ThuStop": "2005-04-22T14:19:11.660135+02:00",
+  "FriStart": "2010-05-17T14:19:11.660135+02:00",
+  "FriStop": "2022-05-06T14:19:11.660135+02:00",
+  "SatStart": "1999-01-02T14:19:11.660135+01:00",
+  "SatStop": "2001-11-12T14:19:11.660135+01:00",
+  "SunStart": "2014-04-28T14:19:11.660135+02:00",
+  "SunStop": "1998-02-12T14:19:11.660135+01:00",
   "NonDates": [
-    "aut",
-    "ut"
+    "perferendis",
+    "odit"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 131,
-      "AlertLevel": 682,
-      "AlertTimeout": 621,
-      "Action": 941,
-      "DelegateTo": 305,
-      "ScriptId": 80,
-      "EmailTo": "kendall_becker@gulgowski.us",
-      "SmsTo": "nihil",
-      "ReplyTemplateIdCustomer": 665,
-      "ReplyTemplateIdUser": 392,
-      "ReplyTemplateIdCatmast": 635,
-      "ReplyTemplateIdEmail": 798,
-      "RtiCustomerSms": 141,
-      "ReplyTemplateIdUserSms": 532,
-      "ReplyTemplateIdCatmastSms": 996,
-      "ReplyTemplateIdSms": 892,
+      "TicketAlertId": 866,
+      "AlertLevel": 787,
+      "AlertTimeout": 559,
+      "Action": 940,
+      "DelegateTo": 838,
+      "ScriptId": 859,
+      "EmailTo": "joe@mills.co.uk",
+      "SmsTo": "velit",
+      "ReplyTemplateIdCustomer": 416,
+      "ReplyTemplateIdUser": 60,
+      "ReplyTemplateIdCatmast": 310,
+      "ReplyTemplateIdEmail": 885,
+      "RtiCustomerSms": 948,
+      "ReplyTemplateIdUserSms": 17,
+      "ReplyTemplateIdCatmastSms": 920,
+      "ReplyTemplateIdSms": 789,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 14
+          "FieldType": "System.String",
+          "FieldLength": 78
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 725
+      "FieldType": "System.Int32",
+      "FieldLength": 551
     }
   }
 }

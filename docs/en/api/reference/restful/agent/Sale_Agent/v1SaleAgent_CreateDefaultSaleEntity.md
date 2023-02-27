@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "non",
+  "SaleText": "rerum",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -124,113 +124,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2018-11-18T11:22:38.9926773+01:00",
-  "Amount": 14275.369999999999,
-  "SaleId": 451,
-  "Earning": 17838.728,
-  "EarningPercent": 2052.77,
-  "Heading": "nulla",
-  "Number": "820119",
-  "Probability": 13,
-  "CreatedDate": "2007-10-15T11:22:38.9926773+02:00",
-  "UpdatedDate": "1997-09-07T11:22:38.9926773+02:00",
+  "Saledate": "2000-10-09T14:19:04.0938354+02:00",
+  "Amount": 28989.5,
+  "SaleId": 638,
+  "Earning": 9201.4239999999991,
+  "EarningPercent": 8897.426,
+  "Heading": "assumenda",
+  "Number": "1253285",
+  "Probability": 954,
+  "CreatedDate": "2018-07-14T14:19:04.0938354+02:00",
+  "UpdatedDate": "2013-02-23T14:19:04.0938354+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 999,
+  "ActiveLinks": 742,
   "Links": [
     {
-      "EntityName": "Bernhard Group",
-      "Id": 182,
-      "Description": "Re-engineered assymetric budgetary management",
-      "ExtraInfo": "officiis",
-      "LinkId": 816,
+      "EntityName": "DuBuque, Parisian and Bergstrom",
+      "Id": 826,
+      "Description": "Public-key encompassing moratorium",
+      "ExtraInfo": "laborum",
+      "LinkId": 283,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 652
+          "FieldLength": 527
         }
       }
     }
   ],
-  "NextDueDate": "2022-12-01T11:22:38.9926773+01:00",
-  "Postit": "animi",
+  "NextDueDate": "2000-04-02T14:19:04.0938354+02:00",
+  "Postit": "minima",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2022-03-28T11:22:38.9926773+02:00",
+  "ReopenDate": "2019-06-21T14:19:04.0938354+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Jewess Group",
-      "Comment": "et",
-      "StakeholderRoleId": 273,
-      "CountryId": 430,
-      "PersonId": 183,
-      "EmailDescription": "jamarcus@conroyherman.us",
-      "EmailId": 446,
-      "EmailAddress": "junius@markskemmer.name",
-      "PhoneId": 358,
-      "ContactName": "Daniel, Rippin and Reichert",
-      "ContactId": 52,
-      "SaleId": 84,
-      "Mrmrs": "ratione",
-      "Firstname": "Payton",
-      "MiddleName": "Gusikowski Group",
-      "Lastname": "Hudson",
-      "SaleStakeholderId": 539,
-      "Rank": 150,
-      "Phone": "813-771-6982",
+      "StakeholderRoleName": "Willms-Larkin",
+      "Comment": "nulla",
+      "StakeholderRoleId": 949,
+      "CountryId": 873,
+      "PersonId": 329,
+      "EmailDescription": "adonis.moen@hane.info",
+      "EmailId": 19,
+      "EmailAddress": "ted@dubuquepredovic.com",
+      "PhoneId": 29,
+      "ContactName": "Towne-Connelly",
+      "ContactId": 856,
+      "SaleId": 525,
+      "Mrmrs": "aliquid",
+      "Firstname": "Thalia",
+      "MiddleName": "Rippin-Metz",
+      "Lastname": "Connelly",
+      "SaleStakeholderId": 696,
+      "Rank": 595,
+      "Phone": "179.827.3849 x038",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 735
+          "FieldType": "System.Int32",
+          "FieldLength": 633
         }
       }
     }
   ],
-  "ActiveErpLinks": 537,
+  "ActiveErpLinks": 277,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Miles Katrina McLaughlin",
-    "SuperOffice:2": "Mr. Sim Brown DDS"
+    "SuperOffice:1": "1247819935",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "maiores",
-    "ExtraFields2": "nostrum"
+    "ExtraFields1": "odit",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "ad"
+    "CustomFields1": "nostrum",
+    "CustomFields2": "tempora"
   },
-  "PublishEventDate": "2020-05-07T11:22:38.9926773+02:00",
-  "PublishTo": "2007-08-03T11:22:38.9926773+02:00",
-  "PublishFrom": "2021-04-15T11:22:38.9926773+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2018-05-24T14:19:04.0938354+02:00",
+  "PublishTo": "2000-07-08T14:19:04.0938354+02:00",
+  "PublishFrom": "2009-12-11T14:19:04.0938354+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 298,
+      "VisibleId": 214,
       "Visibility": "All",
-      "DisplayValue": "sapiente",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 905
+          "FieldType": "System.Int32",
+          "FieldLength": 744
         }
       }
     },
     {
-      "VisibleId": 298,
+      "VisibleId": 214,
       "Visibility": "All",
-      "DisplayValue": "sapiente",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 905
+          "FieldType": "System.Int32",
+          "FieldLength": 744
         }
       }
     }
@@ -239,8 +239,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 854
+      "FieldType": "System.String",
+      "FieldLength": 731
     }
   }
 }

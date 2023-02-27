@@ -97,17 +97,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 657,
-  "StartTime": "2003-03-25T11:22:37.8366954+01:00",
-  "EndTime": "1995-12-19T11:22:37.8366954+01:00",
-  "Count": 386,
+  "ContactId": 397,
+  "StartTime": "2003-12-21T14:19:03.1355296+01:00",
+  "EndTime": "2009-08-24T14:19:03.1355296+02:00",
+  "Count": 793,
   "DocumentTemplateIds": [
-    510,
-    874
+    638,
+    849
   ]
 }
 ```
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 678,
-    "Attention": "quidem",
-    "Header": "autem",
-    "Name": "Kovacek, McGlynn and Nader",
-    "OurRef": "quibusdam",
-    "YourRef": "ut",
-    "Description": "Business-focused intermediate collaboration",
-    "DocumentTemplate": "sequi",
+    "DocumentId": 630,
+    "Attention": "qui",
+    "Header": "quis",
+    "Name": "Schamberger, Stiedemann and Durgan",
+    "OurRef": "molestiae",
+    "YourRef": "omnis",
+    "Description": "Profit-focused holistic contingency",
+    "DocumentTemplate": "enim",
     "IsPublished": false,
-    "PersonId": 493,
-    "PersonFullName": "Elissa Buckridge",
-    "AssociateFullName": "Mrs. Daphney Becker",
-    "ContactId": 963,
-    "ContactName": "Anderson Inc and Sons",
-    "ProjectId": 551,
-    "ProjectName": "Koss, Lesch and Jenkins",
-    "AssociateId": 782,
-    "Snum": 688,
-    "SaleId": 712,
-    "SaleName": "Becker Group",
+    "PersonId": 674,
+    "PersonFullName": "Shania Hegmann",
+    "AssociateFullName": "Lonie Smith",
+    "ContactId": 172,
+    "ContactName": "Champlin Group",
+    "ProjectId": 702,
+    "ProjectName": "Hintz LLC",
+    "AssociateId": 791,
+    "Snum": 228,
+    "SaleId": 660,
+    "SaleName": "Ankunding LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 506
+        "FieldLength": 685
       }
     }
   }

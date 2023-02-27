@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,56 +84,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 557,
-    "Name": "Kerluke, Ruecker and Schuster",
-    "ToolTip": "In molestias asperiores est voluptas.",
-    "Deleted": false,
-    "Rank": 695,
-    "Type": "officia",
-    "ColorBlock": 216,
-    "IconHint": "veritatis",
-    "Selected": true,
-    "LastChanged": "2022-05-18T11:22:45.5536344+02:00",
+    "Id": 899,
+    "Name": "Waters, Upton and Swaniawski",
+    "ToolTip": "Et quisquam.",
+    "Deleted": true,
+    "Rank": 728,
+    "Type": "sequi",
+    "ColorBlock": 96,
+    "IconHint": "nisi",
+    "Selected": false,
+    "LastChanged": "2007-04-22T14:19:11.1012251+02:00",
     "ChildItems": [
       {
-        "Id": 338,
-        "Name": "Miller, Swift and Cartwright",
-        "ToolTip": "Quis id animi perferendis omnis eius sit assumenda.",
-        "Deleted": true,
-        "Rank": 50,
-        "Type": "qui",
-        "ColorBlock": 302,
-        "IconHint": "accusamus",
-        "Selected": true,
-        "LastChanged": "2006-12-14T11:22:45.5536344+01:00",
+        "Id": 670,
+        "Name": "Bartell, Ryan and Rowe",
+        "ToolTip": "Unde mollitia aspernatur quos consectetur eaque autem.",
+        "Deleted": false,
+        "Rank": 955,
+        "Type": "culpa",
+        "ColorBlock": 517,
+        "IconHint": "maiores",
+        "Selected": false,
+        "LastChanged": "1997-07-22T14:19:11.1012251+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "laborum",
-        "Hidden": true,
-        "FullName": "Josephine Gibson",
+        "ExtraInfo": "nam",
+        "StyleHint": "quisquam",
+        "Hidden": false,
+        "FullName": "Hans Durgan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 358
+            "FieldLength": 400
           }
         }
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "temporibus",
+    "ExtraInfo": "sunt",
+    "StyleHint": "deserunt",
     "Hidden": false,
-    "FullName": "Kyler Schinner",
+    "FullName": "Chaya Runolfsson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 102
+        "FieldType": "System.Int32",
+        "FieldLength": 514
       }
     }
   }

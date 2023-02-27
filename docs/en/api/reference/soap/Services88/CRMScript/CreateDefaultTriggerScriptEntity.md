@@ -66,9 +66,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <CRMScript:Enabled xsi:type="xsd:boolean">false</CRMScript:Enabled>
     <CRMScript:UniqueIdentifier xsi:type="xsd:string"></CRMScript:UniqueIdentifier>
     <CRMScript:Source xsi:type="xsd:string"></CRMScript:Source>
-    <CRMScript:Registered xsi:type="xsd:dateTime">2023-01-23T10:20:25Z</CRMScript:Registered>
+    <CRMScript:Registered xsi:type="xsd:dateTime">2023-02-15T13:16:54Z</CRMScript:Registered>
     <CRMScript:RegisteredAssociateId xsi:type="xsd:int">0</CRMScript:RegisteredAssociateId>
-    <CRMScript:Updated xsi:type="xsd:dateTime">2023-01-23T10:20:25Z</CRMScript:Updated>
+    <CRMScript:Updated xsi:type="xsd:dateTime">2023-02-15T13:16:54Z</CRMScript:Updated>
     <CRMScript:UpdatedAssociateId xsi:type="xsd:int">0</CRMScript:UpdatedAssociateId>
    </CRMScript:Response>
   </CRMScript:CreateDefaultTriggerScriptEntityResponse>

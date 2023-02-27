@@ -88,32 +88,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 483,
-  "ListItemId": 636,
+  "UdListDefinitionId": 788,
+  "ListItemId": 804,
   "UserGroups": [
     {
-      "Id": 254,
-      "Name": "Mayer, Purdy and Denesik",
-      "ToolTip": "Perferendis pariatur non doloribus.",
+      "Id": 319,
+      "Name": "Wiegand LLC",
+      "ToolTip": "Temporibus doloribus explicabo est iusto.",
       "Deleted": false,
-      "Rank": 905,
-      "Type": "dolorem",
-      "ColorBlock": 687,
-      "IconHint": "natus",
+      "Rank": 828,
+      "Type": "dolores",
+      "ColorBlock": 763,
+      "IconHint": "id",
       "Selected": false,
-      "LastChanged": "2014-06-21T11:22:38.4615502+02:00",
+      "LastChanged": "2018-06-28T14:19:03.6238736+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "distinctio",
-      "StyleHint": "et",
-      "Hidden": false,
-      "FullName": "Prof. Hilda Ledner V"
+      "ExtraInfo": "a",
+      "StyleHint": "ea",
+      "Hidden": true,
+      "FullName": "Roma Hahn"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 302,
-    "Name": "Connelly Inc and Sons",
-    "ToolTip": "Facilis et et tenetur qui rerum sit.",
+    "Id": 581,
+    "Name": "Gusikowski-Mraz",
+    "ToolTip": "Officia quia explicabo quis nisi quo sequi.",
     "Deleted": false,
-    "Rank": 688,
-    "Type": "beatae",
-    "ColorBlock": 265,
-    "IconHint": "impedit",
+    "Rank": 496,
+    "Type": "repellat",
+    "ColorBlock": 526,
+    "IconHint": "alias",
     "Selected": true,
-    "LastChanged": "2010-01-09T11:22:38.4615502+01:00",
+    "LastChanged": "2005-11-23T14:19:03.6238736+01:00",
     "ChildItems": [
       {
-        "Id": 244,
-        "Name": "Boehm-Sanford",
-        "ToolTip": "Ducimus fuga corrupti voluptatem error.",
+        "Id": 258,
+        "Name": "Schmitt, Mann and Nienow",
+        "ToolTip": "Eos et et consectetur iusto voluptates.",
         "Deleted": false,
-        "Rank": 274,
-        "Type": "voluptatem",
-        "ColorBlock": 287,
-        "IconHint": "quisquam",
-        "Selected": false,
-        "LastChanged": "2004-11-19T11:22:38.4615502+01:00",
+        "Rank": 361,
+        "Type": "sunt",
+        "ColorBlock": 992,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2019-10-17T14:19:03.6238736+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "fuga",
+        "ExtraInfo": "eos",
+        "StyleHint": "occaecati",
         "Hidden": false,
-        "FullName": "Prof. Monte Giuseppe Wehner Jr.",
+        "FullName": "Julio McClure Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 813
+            "FieldLength": 740
           }
         }
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "fugit",
-    "Hidden": true,
-    "FullName": "Enola Fernando Crona I",
+    "ExtraInfo": "eos",
+    "StyleHint": "dolor",
+    "Hidden": false,
+    "FullName": "Presley Haley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldType": "System.String",
+        "FieldLength": 84
       }
     }
   }

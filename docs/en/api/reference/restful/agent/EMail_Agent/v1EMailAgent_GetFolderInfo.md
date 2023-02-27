@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "Folders": [
-    "sed",
-    "fugit"
+    "consequuntur",
+    "dolorum"
   ]
 }
 ```
@@ -104,19 +104,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bauch-Oberbrunner",
-    "Delimiter": "voluptatem",
-    "Flags": "minima",
-    "TotalItems": 105,
-    "UnreadItems": 209,
+    "Name": "Quigley Group",
+    "Delimiter": "inventore",
+    "Flags": "rem",
+    "TotalItems": 954,
+    "UnreadItems": 228,
     "Subscribed": false,
-    "EmailFolderId": 679,
+    "EmailFolderId": 309,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 427
+        "FieldLength": 780
       }
     }
   }

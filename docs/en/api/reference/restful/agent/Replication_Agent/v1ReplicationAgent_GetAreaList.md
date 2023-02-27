@@ -87,18 +87,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 370,
-    "Name": "Beahan, Wisozk and Franecki",
-    "MaxDataAge": 376,
-    "NumberOfUsers": 74,
-    "NumberOfLogins": 424,
-    "FreetextEnabeled": false,
+    "AreaId": 29,
+    "Name": "Koch-Greenholt",
+    "MaxDataAge": 461,
+    "NumberOfUsers": 535,
+    "NumberOfLogins": 264,
+    "FreetextEnabeled": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 288
+        "FieldLength": 919
       }
     }
   }

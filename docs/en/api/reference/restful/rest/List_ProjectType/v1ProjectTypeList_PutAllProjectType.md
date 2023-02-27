@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 304,
-    "Name": "King Inc and Sons",
-    "Tooltip": "laboriosam",
-    "Deleted": true,
-    "UdListDefinitionId": 24,
-    "Rank": 527
+    "Id": 457,
+    "Name": "Cartwright-Gottlieb",
+    "Tooltip": "nihil",
+    "Deleted": false,
+    "UdListDefinitionId": 215,
+    "Rank": 930
   },
   {
-    "Id": 304,
-    "Name": "King Inc and Sons",
-    "Tooltip": "laboriosam",
-    "Deleted": true,
-    "UdListDefinitionId": 24,
-    "Rank": 527
+    "Id": 457,
+    "Name": "Cartwright-Gottlieb",
+    "Tooltip": "nihil",
+    "Deleted": false,
+    "UdListDefinitionId": 215,
+    "Rank": 930
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 165,
-    "Name": "Swaniawski-Toy",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "UdListDefinitionId": 839,
-    "Rank": 974,
+    "Id": 805,
+    "Name": "Goldner, Bins and Batz",
+    "Tooltip": "sapiente",
+    "Deleted": false,
+    "UdListDefinitionId": 568,
+    "Rank": 669,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 62
+        "FieldType": "System.Int32",
+        "FieldLength": 542
       }
     }
   }

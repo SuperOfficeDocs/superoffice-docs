@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 861,
-  "Currency": "amet"
+  "QuoteConnectionId": 855,
+  "Currency": "voluptatem"
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 554,
-    "ERPPriceListKey": "rerum",
-    "QuoteConnectionId": 83,
-    "Name": "Brakus-Bergstrom",
-    "Description": "Versatile value-added hub",
-    "Currency": "distinctio",
-    "CurrencyName": "Ondricka, Kautzer and Walker",
-    "ValidFrom": "2022-02-03T11:22:38.9301893+01:00",
-    "ValidTo": "2008-02-05T11:22:38.9301893+01:00",
-    "IsActive": false,
+    "PriceListId": 382,
+    "ERPPriceListKey": "quasi",
+    "QuoteConnectionId": 477,
+    "Name": "Barton, Hoeger and Willms",
+    "Description": "Multi-tiered non-volatile process improvement",
+    "Currency": "quod",
+    "CurrencyName": "Hudson-Pfannerstill",
+    "ValidFrom": "2002-10-16T14:19:04.0313341+02:00",
+    "ValidTo": "2001-02-17T14:19:04.0313341+01:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 276
+        "FieldType": "System.String",
+        "FieldLength": 892
       }
     }
   }

@@ -121,12 +121,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 130,
-  "ERPProductKey": "enim"
+  "QuoteAlternativeId": 735,
+  "ERPProductKey": "voluptate"
 }
 ```
 
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 151,
-  "ERPQuoteLineKey": "recusandae",
-  "QuoteAlternativeId": 708,
-  "ERPProductKey": "eos",
+  "QuoteLineId": 296,
+  "ERPQuoteLineKey": "tempora",
+  "QuoteAlternativeId": 857,
+  "ERPProductKey": "ab",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 12097.24,
-  "DeliveredQuantity": 9085.466,
-  "Rank": 648,
-  "Name": "Zieme-Hessel",
-  "Description": "Synergized heuristic instruction set",
-  "Code": "magni",
-  "QuantityUnit": "asperiores",
-  "PriceUnit": "expedita",
-  "ItemNumber": "1077357",
+  "Quantity": 8797.137999999999,
+  "DeliveredQuantity": 8395.985999999999,
+  "Rank": 596,
+  "Name": "Jewess-West",
+  "Description": "Intuitive intermediate benchmark",
+  "Code": "fugiat",
+  "QuantityUnit": "sit",
+  "PriceUnit": "dolor",
+  "ItemNumber": "1716964",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "itaque",
-  "ProductTypeKey": "et",
-  "Supplier": "accusamus",
-  "SupplierCode": "quidem",
-  "Thumbnail": "nemo",
-  "VATInfo": "dolor",
-  "VAT": 25733.273999999998,
-  "UnitCost": 22721.5,
-  "UnitMinimumPrice": 19885.23,
-  "UnitListPrice": 529.646,
+  "ProductFamilyKey": "necessitatibus",
+  "ProductTypeKey": "voluptatum",
+  "Supplier": "nostrum",
+  "SupplierCode": "omnis",
+  "Thumbnail": "odio",
+  "VATInfo": "dignissimos",
+  "VAT": 15622.99,
+  "UnitCost": 22010.082,
+  "UnitMinimumPrice": 22364.224,
+  "UnitListPrice": 27720.23,
   "ExtraInfo": [
     {
-      "Name": "Rohan Group",
-      "Value": "qui",
+      "Name": "Herzog Group",
+      "Value": "provident",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 46
+          "FieldType": "System.Int32",
+          "FieldLength": 560
         }
       }
     },
     {
-      "Name": "Rohan Group",
-      "Value": "qui",
+      "Name": "Herzog Group",
+      "Value": "provident",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 46
+          "FieldType": "System.Int32",
+          "FieldLength": 560
         }
       }
     }
   ],
-  "RawExtraInfo": "quis",
+  "RawExtraInfo": "tempore",
   "IsSubscription": false,
-  "SubscriptionUnit": "omnis",
-  "SubscriptionQuantity": 9771.812,
-  "SubscriptionStart": "2001-12-01T11:22:38.9458129+01:00",
-  "ERPDiscountPercent": 27949.012,
-  "ERPDiscountAmount": 25664.326,
-  "DiscountPercent": 19255.296,
-  "DiscountAmount": 17240.134,
+  "SubscriptionUnit": "occaecati",
+  "SubscriptionQuantity": 21157.634,
+  "SubscriptionStart": "2020-02-20T14:19:04.0313341+01:00",
+  "ERPDiscountPercent": 17885.738,
+  "ERPDiscountAmount": 18647.3,
+  "DiscountPercent": 18114.52,
+  "DiscountAmount": 20772.152,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 8894.292,
-  "EarningAmount": 13137.728,
-  "SubTotal": 17268.34,
-  "TotalPrice": 17337.288,
-  "Rights": "minima",
-  "Rule": "dolorem",
-  "ExtraField1": "et",
-  "ExtraField2": "ut",
-  "ExtraField3": "qui",
-  "ExtraField4": "accusamus",
-  "ExtraField5": "ea",
+  "EarningPercent": 28466.122,
+  "EarningAmount": 27858.126,
+  "SubTotal": 15403.609999999999,
+  "TotalPrice": 25460.615999999998,
+  "Rights": "consequatur",
+  "Rule": "est",
+  "ExtraField1": "reprehenderit",
+  "ExtraField2": "sed",
+  "ExtraField3": "et",
+  "ExtraField4": "quis",
+  "ExtraField5": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 310
+      "FieldLength": 571
     }
   }
 }

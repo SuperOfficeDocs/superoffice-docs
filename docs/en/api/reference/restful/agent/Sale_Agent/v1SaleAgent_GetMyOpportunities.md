@@ -96,11 +96,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 109
+  "Count": 541
 }
 ```
 
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Greenholt-Koelpin",
-    "SaleDate": "2000-12-23T11:22:39.2425669+01:00",
-    "SaleId": 675,
-    "Probability": 144,
-    "Title": "ducimus",
-    "Amount": 12144.25,
-    "Currency": "magni",
-    "ProjectName": "Kuhn-Herzog",
-    "AssociateFullName": "Edd Lehner",
-    "Description": "Front-line discrete emulation",
+    "ContactName": "Mitchell-Howe",
+    "SaleDate": "2017-03-31T14:19:04.1410858+02:00",
+    "SaleId": 993,
+    "Probability": 407,
+    "Title": "repudiandae",
+    "Amount": 22292.142,
+    "Currency": "veritatis",
+    "ProjectName": "Lueilwitz Inc and Sons",
+    "AssociateFullName": "Ms. Jaycee Howell III",
+    "Description": "Exclusive client-driven extranet",
     "Status": "Lost",
-    "WeightedAmount": 20518.298,
-    "ProjectId": 102,
-    "EarningPercent": 30794.683999999997,
-    "Earning": 15137.22,
-    "ContactId": 83,
-    "AssociateId": 343,
-    "PersonId": 589,
-    "SaleTypeId": 914,
-    "SaleTypeName": "Medhurst LLC",
-    "PersonFullName": "Miss Brennon Leone Torp",
+    "WeightedAmount": 17158.649999999998,
+    "ProjectId": 254,
+    "EarningPercent": 13300.696,
+    "Earning": 3322.04,
+    "ContactId": 354,
+    "AssociateId": 275,
+    "PersonId": 161,
+    "SaleTypeId": 900,
+    "SaleTypeName": "Padberg, Russel and Boyer",
+    "PersonFullName": "Paolo Pagac Sr.",
     "Completed": "Completed",
-    "ActiveErpLinks": 110,
-    "NextDueDate": "2022-02-20T11:22:39.2425669+01:00",
-    "Number": "359714",
+    "ActiveErpLinks": 68,
+    "NextDueDate": "2016-11-23T14:19:04.1410858+01:00",
+    "Number": "878090",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 163
+        "FieldType": "System.Int32",
+        "FieldLength": 642
       }
     }
   }

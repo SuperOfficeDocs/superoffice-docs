@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 855,
-    "Name": "Runte, Cassin and Beier",
-    "Tooltip": "aut",
+    "HeadingId": 350,
+    "Name": "Tremblay, Denesik and Miller",
+    "Tooltip": "consectetur",
     "Deleted": false,
-    "Rank": 557,
-    "UdListDefinitionId": 349
+    "Rank": 923,
+    "UdListDefinitionId": 540
   },
   {
-    "HeadingId": 855,
-    "Name": "Runte, Cassin and Beier",
-    "Tooltip": "aut",
+    "HeadingId": 350,
+    "Name": "Tremblay, Denesik and Miller",
+    "Tooltip": "consectetur",
     "Deleted": false,
-    "Rank": 557,
-    "UdListDefinitionId": 349
+    "Rank": 923,
+    "UdListDefinitionId": 540
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 561,
-    "Name": "Johnston LLC",
-    "Tooltip": "eligendi",
-    "Deleted": true,
-    "Rank": 599,
-    "UdListDefinitionId": 439,
+    "HeadingId": 896,
+    "Name": "Crooks Group",
+    "Tooltip": "iste",
+    "Deleted": false,
+    "Rank": 94,
+    "UdListDefinitionId": 942,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 416
+        "FieldLength": 496
       }
     }
   }

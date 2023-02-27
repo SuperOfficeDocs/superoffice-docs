@@ -69,9 +69,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Zulauf Group",
-  "Culture": "itaque",
-  "IsActive": true
+  "ResourceName": "Daugherty-Ernser",
+  "Culture": "ipsum",
+  "IsActive": false
 }
 ```
 

@@ -26,7 +26,7 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=tenetur
+GET /api/v1/List/SaleType/MDOItems?query=ipsam
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 384,
-    "Name": "Bednar, Berge and Considine",
-    "ToolTip": "Repudiandae quasi aut ratione non magnam nulla.",
-    "Deleted": true,
-    "Rank": 257,
+    "Id": 948,
+    "Name": "Labadie Inc and Sons",
+    "ToolTip": "Ipsa rem.",
+    "Deleted": false,
+    "Rank": 571,
     "Type": "sed",
     "ChildItems": [
       {
-        "Id": 446,
-        "Name": "Romaguera Group",
-        "ToolTip": "Eligendi delectus sit assumenda.",
-        "Deleted": true,
-        "Rank": 106,
-        "Type": "id",
+        "Id": 600,
+        "Name": "Lang, Wiegand and Kris",
+        "ToolTip": "Odio fugit rerum dolores omnis voluptas accusantium delectus.",
+        "Deleted": false,
+        "Rank": 447,
+        "Type": "provident",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "assumenda",
-        "ColorBlock": 158,
-        "ExtraInfo": "ea",
-        "StyleHint": "sed",
-        "FullName": "Orval Kiehn",
+        "IconHint": "necessitatibus",
+        "ColorBlock": 920,
+        "ExtraInfo": "nam",
+        "StyleHint": "neque",
+        "FullName": "Marianna Haag",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 230
+            "FieldType": "System.Int32",
+            "FieldLength": 408
           }
         }
       }
     ],
-    "IconHint": "assumenda",
-    "ColorBlock": 677,
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "iusto",
-    "FullName": "Estrella Monique Wisozk II",
+    "IconHint": "facere",
+    "ColorBlock": 781,
+    "ExtraInfo": "delectus",
+    "StyleHint": "velit",
+    "FullName": "Mr. Genevieve Kerluke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 525
+        "FieldType": "System.Int32",
+        "FieldLength": 813
       }
     }
   }

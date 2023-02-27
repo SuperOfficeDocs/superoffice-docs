@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 666,
-  "Select": "odio"
+  "SelectionId": 243,
+  "Select": "sed"
 }
 ```
 
@@ -96,23 +96,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Oberbrunner-Cartwright",
-    "PrimaryKey": 216,
+    "EntityName": "Thompson, Stehr and Durgan",
+    "PrimaryKey": 204,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "vel",
-        "TooltipHint": "error",
-        "LinkHint": "sit"
+        "DisplayValue": "doloribus",
+        "TooltipHint": "odit",
+        "LinkHint": "ut"
       }
     },
-    "LinkHint": "dolor",
-    "StyleHint": "rerum",
+    "LinkHint": "deleniti",
+    "StyleHint": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 941
+        "FieldType": "System.Int32",
+        "FieldLength": 739
       }
     }
   }

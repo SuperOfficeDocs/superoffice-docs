@@ -108,7 +108,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 452
+  "ChatSessionId": 82
 }
 ```
 
@@ -119,43 +119,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 408,
-  "TopicId": 565,
+  "ChatSessionId": 601,
+  "TopicId": 460,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptas",
-  "CustomerHost": "fuga",
-  "CustomerName": "Heller-Denesik",
-  "CustomerEmail": "cathy_crooks@lueilwitz.info",
-  "CustomerPhone": "(713)997-0486 x79751",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Reichert, Kling and Romaguera",
+  "CustomerAlias": "vero",
+  "CustomerHost": "nihil",
+  "CustomerName": "Windler, Schmidt and Wunsch",
+  "CustomerEmail": "darion@corkerywolf.biz",
+  "CustomerPhone": "622-955-8381 x452",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Larkin, Ortiz and Schimmel",
   "Status": "Closed",
-  "FirstMessage": "odio",
-  "LastMessage": "fugit",
-  "WhenRequested": "2014-07-20T11:22:37.5711376+02:00",
-  "WhenStarted": "2021-01-20T11:22:37.5711376+01:00",
-  "WhenEnded": "2003-08-14T11:22:37.5711376+02:00",
-  "WhenIdle": "2010-06-11T11:22:37.5711376+02:00",
-  "WhenFetched": "1998-05-30T11:22:37.5711376+02:00",
-  "SessionKey": "est",
-  "InitialQueuePos": 702,
-  "AlertLevel": 550,
-  "Rank": 246,
+  "FirstMessage": "eius",
+  "LastMessage": "consequuntur",
+  "WhenRequested": "2003-06-01T14:19:02.8855274+02:00",
+  "WhenStarted": "2005-06-22T14:19:02.8855274+02:00",
+  "WhenEnded": "2014-12-15T14:19:02.8855274+01:00",
+  "WhenIdle": "2008-08-30T14:19:02.8855274+02:00",
+  "WhenFetched": "2018-05-12T14:19:02.8855274+02:00",
+  "SessionKey": "eveniet",
+  "InitialQueuePos": 16,
+  "AlertLevel": 339,
+  "Rank": 642,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 326,
+  "ChatbotIsActive": false,
+  "Rating": 372,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 157
+      "FieldType": "System.Int32",
+      "FieldLength": 952
     }
   }
 }

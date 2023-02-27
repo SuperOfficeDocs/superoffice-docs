@@ -76,15 +76,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Daugherty-Ebert",
-    "West LLC"
+    "Tremblay-Mayer",
+    "Boyer-Larson"
   ],
-  "Culture": "minima"
+  "Culture": "rerum"
 }
 ```
 
@@ -96,30 +96,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Goyette-Botsford",
-    "ResourceValue": "assumenda",
-    "Culture": "velit",
+    "ResourceName": "Hane-McClure",
+    "ResourceValue": "laudantium",
+    "Culture": "laboriosam",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 82
+        "FieldLength": 817
       }
     }
   },
   {
-    "ResourceName": "Goyette-Botsford",
-    "ResourceValue": "assumenda",
-    "Culture": "velit",
+    "ResourceName": "Hane-McClure",
+    "ResourceValue": "laudantium",
+    "Culture": "laboriosam",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 82
+        "FieldLength": 817
       }
     }
   }

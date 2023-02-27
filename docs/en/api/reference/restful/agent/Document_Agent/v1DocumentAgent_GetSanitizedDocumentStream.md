@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/Document/GetSanitizedDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 565
+  "DocumentId": 223
 }
 ```
 

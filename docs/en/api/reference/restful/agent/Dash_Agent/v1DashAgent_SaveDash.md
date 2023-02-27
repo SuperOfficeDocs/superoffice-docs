@@ -86,34 +86,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 219,
-  "UniqueId": "similique",
-  "Name": "Ledner Group",
-  "Description": "Face to face 24 hour customer loyalty",
-  "AssociateId": 894,
-  "Columns": 393,
+  "DashboardId": 181,
+  "UniqueId": "magnam",
+  "Name": "Jones-Green",
+  "Description": "Vision-oriented national model",
+  "AssociateId": 216,
+  "Columns": 425,
   "Theme": null,
-  "VisibleForAll": 195,
+  "VisibleForAll": 254,
   "VisibleForAssociates": [
-    72,
-    26
+    586,
+    434
   ],
   "VisibleForGroups": [
-    896,
-    998
+    370,
+    197
   ],
-  "PinForAll": 523,
+  "PinForAll": 636,
   "PinForAssociates": [
-    687,
-    811
+    263,
+    632
   ],
   "PinForGroups": [
-    345,
-    731
+    456,
+    233
   ]
 }
 ```
@@ -125,37 +125,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 439,
-  "UniqueId": "sunt",
-  "Name": "Weber, Abernathy and Dietrich",
-  "Description": "Assimilated uniform database",
-  "AssociateId": 205,
-  "Columns": 285,
+  "DashboardId": 533,
+  "UniqueId": "maiores",
+  "Name": "Mohr, Schiller and Jacobs",
+  "Description": "Customer-focused neutral algorithm",
+  "AssociateId": 660,
+  "Columns": 770,
   "Theme": null,
-  "VisibleForAll": 690,
+  "VisibleForAll": 442,
   "VisibleForAssociates": [
-    464,
-    985
+    165,
+    20
   ],
   "VisibleForGroups": [
-    981,
-    668
+    71,
+    912
   ],
-  "PinForAll": 340,
+  "PinForAll": 178,
   "PinForAssociates": [
-    618,
-    304
+    999,
+    433
   ],
   "PinForGroups": [
-    594,
-    801
+    450,
+    978
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 706
+      "FieldType": "System.Int32",
+      "FieldLength": 265
     }
   }
 }

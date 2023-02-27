@@ -127,10 +127,9 @@ services.AddLogging(a =>
 [5]: ../../../docs/en/api/mdo-providers/reference/taskmenudestination.md
 [6]: ../../../docs/en/api/mdo-providers/reference/taskmenugroup.md
 [7]: ../../../docs/en/api/mdo-providers/reference/urlencoding.md
-
 [8]: ../../../docs/en/api/reference/restful/agent/Archive_Agent/v1ArchiveAgent_GetRelatedData.md
 [9]: ../../../docs/en/api/reference/restful/agent/Archive_Agent/v1ArchiveAgent_GetRelatedData2.md
-[10]: ../../../docs/en/api/reference/restful/agent/Email_Agent/v1EmailAgent_HasSpfRecord.md
+[10]: ../../../docs/en/api/reference/restful/agent/EMail_Agent/v1EMailAgent_HasSPFRecord.md
 [11]: ../../../docs/en/api/reference/restful/agent/List_Agent/v1ListAgent_CreateDefaultTaskMenu.md
 [12]: ../../../docs/en/api/reference/restful/agent/List_Agent/v1ListAgent_Deleteapptaskmenus.md
 [13]: ../../../docs/en/api/reference/restful/agent/List_Agent/v1ListAgent_Deletetaskmenu.md
@@ -146,7 +145,6 @@ services.AddLogging(a =>
 [23]: ../../../docs/en/api/reference/restful/agent/User_Agent/v1UserAgent_getuserpresencestatus.md
 [24]: ../../../docs/en/api/reference/restful/agent/User_Agent/v1UserAgent_setuserpresencestatus.md
 [25]: ../../../docs/en/api/reference/restful/agent/UserDefinedFieldInfo_Agent/v1UserDefinedFieldInfoAgent_clearcaches.md
-
 [26]: ../../../docs/en/api/reference/soap/Services88/Archive/GetRelatedData.md
 [27]: ../../../docs/en/api/reference/soap/Services88/Archive/GetRelatedData2.md
 [28]: ../../../docs/en/api/reference/soap/Services88/Email/HasSpfRecord.md

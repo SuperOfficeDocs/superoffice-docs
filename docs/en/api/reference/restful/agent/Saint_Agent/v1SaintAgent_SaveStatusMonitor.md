@@ -94,21 +94,21 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 740,
-  "Rank": 440,
-  "DefaultTask": 397,
-  "DefaultTaskText": "occaecati",
+  "OwnerTable": 231,
+  "Rank": 603,
+  "DefaultTask": 956,
+  "DefaultTaskText": "consequatur",
   "IsVisual": true,
-  "LastGenerated": "1998-01-24T11:22:38.9770545+01:00",
-  "Description": "Horizontal 5th generation approach",
-  "Name": "Bashirian-Wisoky",
-  "StatusMonitorId": 62,
-  "PictureId": 915,
-  "NeedsUpdate": false,
+  "LastGenerated": "2021-12-19T14:19:04.0782101+01:00",
+  "Description": "Business-focused intangible help-desk",
+  "Name": "Cruickshank Group",
+  "StatusMonitorId": 667,
+  "PictureId": 970,
+  "NeedsUpdate": true,
   "Deleted": true,
-  "NumMatches": 955,
-  "NumNeedUpdate": 199,
-  "GenerationStart": "1998-06-24T11:22:38.9770545+02:00"
+  "NumMatches": 208,
+  "NumNeedUpdate": 474,
+  "GenerationStart": "1998-04-04T14:19:04.0782101+02:00"
 }
 ```
 
@@ -119,27 +119,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 601,
-  "Rank": 525,
-  "DefaultTask": 817,
-  "DefaultTaskText": "ipsum",
+  "OwnerTable": 480,
+  "Rank": 966,
+  "DefaultTask": 249,
+  "DefaultTaskText": "dignissimos",
   "IsVisual": false,
-  "LastGenerated": "1997-04-11T11:22:38.9770545+02:00",
-  "Description": "Total optimizing leverage",
-  "Name": "Robel, Ernser and Reichel",
-  "StatusMonitorId": 252,
-  "PictureId": 978,
-  "NeedsUpdate": false,
+  "LastGenerated": "2019-03-29T14:19:04.0782101+01:00",
+  "Description": "Up-sized foreground flexibility",
+  "Name": "Miller Inc and Sons",
+  "StatusMonitorId": 805,
+  "PictureId": 535,
+  "NeedsUpdate": true,
   "Deleted": false,
-  "NumMatches": 701,
-  "NumNeedUpdate": 758,
-  "GenerationStart": "2019-05-31T11:22:38.9770545+02:00",
+  "NumMatches": 22,
+  "NumNeedUpdate": 598,
+  "GenerationStart": "2021-02-28T14:19:04.0782101+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 850
+      "FieldType": "System.Int32",
+      "FieldLength": 338
     }
   }
 }

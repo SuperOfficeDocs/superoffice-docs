@@ -96,19 +96,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 1001,
+  "SystemEventId": 273,
   "Scope": "Database",
-  "Eta": "2010-05-10T11:22:45.225579+02:00",
-  "Eventkey": "sed",
-  "Eventmess": "quis",
-  "ExtraInfo": 704,
-  "Owner": 259,
-  "UpdatedCount": 988,
-  "Registered": "2019-11-10T11:22:45.225579+01:00",
+  "Eta": "2005-01-25T14:19:10.7873511+01:00",
+  "Eventkey": "voluptas",
+  "Eventmess": "facere",
+  "ExtraInfo": 210,
+  "Owner": 107,
+  "UpdatedCount": 729,
+  "Registered": "1998-12-02T14:19:10.7873511+01:00",
   "ActivatedBy": null
 }
 ```
@@ -120,22 +120,22 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 209,
+  "SystemEventId": 431,
   "Scope": "Database",
-  "Eta": "2004-04-03T11:22:45.225579+02:00",
-  "Eventkey": "et",
-  "Eventmess": "nisi",
-  "ExtraInfo": 181,
-  "Owner": 564,
-  "UpdatedCount": 859,
-  "Registered": "2011-04-29T11:22:45.225579+02:00",
+  "Eta": "2003-04-08T14:19:10.7873511+02:00",
+  "Eventkey": "modi",
+  "Eventmess": "amet",
+  "ExtraInfo": 193,
+  "Owner": 690,
+  "UpdatedCount": 26,
+  "Registered": "2019-04-23T14:19:10.7873511+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 20
+      "FieldType": "System.String",
+      "FieldLength": 457
     }
   },
   "_Links": {

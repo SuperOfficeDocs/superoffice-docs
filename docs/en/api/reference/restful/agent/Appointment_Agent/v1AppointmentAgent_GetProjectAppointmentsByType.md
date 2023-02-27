@@ -126,14 +126,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 486,
-  "StartTime": "2018-02-03T11:22:37.2274146+01:00",
-  "EndTime": "2016-05-02T11:22:37.2274146+02:00",
-  "Count": 183,
+  "ProjectId": 778,
+  "StartTime": "1997-02-16T14:19:02.7125533+01:00",
+  "EndTime": "1998-04-26T14:19:02.7125533+02:00",
+  "Count": 545,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 854,
-    "StartDate": "2009-01-01T11:22:37.2274146+01:00",
-    "EndDate": "2012-04-27T11:22:37.2274146+02:00",
+    "AppointmentId": 143,
+    "StartDate": "1999-07-17T14:19:02.7125533+02:00",
+    "EndDate": "2020-05-12T14:19:02.7125533+02:00",
     "Type": "BookingForChecklist",
-    "Task": "omnis",
-    "AssociateFullName": "Ford Hettie Mitchell DVM",
-    "ContactName": "Gusikowski Inc and Sons",
-    "Description": "Compatible well-modulated ability",
-    "PersonFullName": "Saul Cormier",
-    "PersonId": 866,
-    "ContactId": 47,
-    "ProjectId": 969,
-    "ProjectName": "Jakubowski LLC",
-    "IsPublished": true,
-    "AssociateId": 997,
-    "ColorIndex": 534,
-    "IsFree": true,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "Task": "odio",
+    "AssociateFullName": "Augusta Torp",
+    "ContactName": "Jaskolski LLC",
+    "Description": "Up-sized directional implementation",
+    "PersonFullName": "Miss Lillie Moen",
+    "PersonId": 705,
+    "ContactId": 438,
+    "ProjectId": 580,
+    "ProjectName": "Carter Group",
+    "IsPublished": false,
+    "AssociateId": 733,
+    "ColorIndex": 257,
+    "IsFree": false,
+    "HasAlarm": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 892,
-    "PriorityName": "Leannon-Jacobs",
+    "PriorityId": 73,
+    "PriorityName": "Kuphal-Hickle",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2000-07-29T11:22:37.2274146+02:00",
+    "ActiveDate": "2011-05-10T14:19:02.7125533+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-02-05T11:22:37.2274146+01:00",
-    "RecurringEndDate": "2014-05-03T11:22:37.2274146+02:00",
-    "MotherId": 562,
-    "AssignedBy": 464,
-    "AssignedByFullName": "Drake Goodwin",
+    "RecurringStartDate": "2003-09-02T14:19:02.7125533+02:00",
+    "RecurringEndDate": "2003-04-04T14:19:02.7125533+02:00",
+    "MotherId": 749,
+    "AssignedBy": 729,
+    "AssignedByFullName": "Watson Swaniawski",
     "RejectReason": "",
-    "Location": "totam",
-    "AlarmLeadTime": "et",
-    "SaleId": 840,
-    "SaleName": "Quigley, Anderson and Bayer",
-    "AssociateName": "Harber, Effertz and Considine",
-    "CreatedDate": "2021-05-09T11:22:37.2274146+02:00",
-    "CreatedBy": "voluptatem",
-    "CreatedByFullName": "Rosemary Cara Hessel V",
-    "CreatedByAssociateId": 194,
+    "Location": "facilis",
+    "AlarmLeadTime": "nobis",
+    "SaleId": 649,
+    "SaleName": "Bins Group",
+    "AssociateName": "Upton Group",
+    "CreatedDate": "2017-04-10T14:19:02.7125533+02:00",
+    "CreatedBy": "deleniti",
+    "CreatedByFullName": "Jamie Sipes",
+    "CreatedByAssociateId": 570,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 812
+        "FieldLength": 797
       }
     }
   }

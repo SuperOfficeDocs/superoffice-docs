@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/User/CreateUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,17 +80,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "qui",
-  "Tooltip": "et",
-  "Id": 774,
-  "Rank": 873,
-  "Deleted": false,
+  "Value": "natus",
+  "Tooltip": "alias",
+  "Id": 482,
+  "Rank": 369,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 627
+      "FieldLength": 584
     }
   }
 }

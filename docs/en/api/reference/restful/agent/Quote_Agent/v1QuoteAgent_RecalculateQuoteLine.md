@@ -123,14 +123,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "qui",
-    "modi"
+    "ipsum",
+    "voluptate"
   ]
 }
 ```
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 128,
-  "ERPQuoteLineKey": "vitae",
-  "QuoteAlternativeId": 740,
-  "ERPProductKey": "libero",
+  "QuoteLineId": 415,
+  "ERPQuoteLineKey": "ea",
+  "QuoteAlternativeId": 518,
+  "ERPProductKey": "dolores",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 7248.942,
-  "DeliveredQuantity": 13993.31,
-  "Rank": 494,
-  "Name": "Heidenreich LLC",
-  "Description": "Reverse-engineered discrete archive",
-  "Code": "ad",
-  "QuantityUnit": "sit",
-  "PriceUnit": "explicabo",
-  "ItemNumber": "158936",
+  "Quantity": 23288.754,
+  "DeliveredQuantity": 14269.101999999999,
+  "Rank": 525,
+  "Name": "Roberts-Leuschke",
+  "Description": "Reverse-engineered dedicated moratorium",
+  "Code": "atque",
+  "QuantityUnit": "aperiam",
+  "PriceUnit": "eius",
+  "ItemNumber": "860861",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quam",
-  "ProductTypeKey": "doloremque",
-  "Supplier": "quidem",
-  "SupplierCode": "maiores",
-  "Thumbnail": "magnam",
-  "VATInfo": "eaque",
-  "VAT": 28682.368,
-  "UnitCost": 26560.649999999998,
-  "UnitMinimumPrice": 9975.521999999999,
-  "UnitListPrice": 20881.842,
+  "ProductFamilyKey": "beatae",
+  "ProductTypeKey": "adipisci",
+  "Supplier": "facere",
+  "SupplierCode": "rem",
+  "Thumbnail": "et",
+  "VATInfo": "ipsam",
+  "VAT": 181.772,
+  "UnitCost": 8772.0659999999989,
+  "UnitMinimumPrice": 4976.7919999999995,
+  "UnitListPrice": 614.264,
   "ExtraInfo": [
     {
-      "Name": "Dicki Inc and Sons",
-      "Value": "atque",
+      "Name": "Hilpert-Rempel",
+      "Value": "porro",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldLength": 650
         }
       }
     },
     {
-      "Name": "Dicki Inc and Sons",
-      "Value": "atque",
+      "Name": "Hilpert-Rempel",
+      "Value": "porro",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldLength": 650
         }
       }
     }
   ],
-  "RawExtraInfo": "nemo",
+  "RawExtraInfo": "perferendis",
   "IsSubscription": false,
-  "SubscriptionUnit": "et",
-  "SubscriptionQuantity": 13943.166,
-  "SubscriptionStart": "2006-02-25T11:22:38.8677092+01:00",
-  "ERPDiscountPercent": 27397.428,
-  "ERPDiscountAmount": 8941.302,
-  "DiscountPercent": 10871.846,
-  "DiscountAmount": 19192.615999999998,
+  "SubscriptionUnit": "aut",
+  "SubscriptionQuantity": 28939.356,
+  "SubscriptionStart": "2000-03-26T14:19:03.984459+02:00",
+  "ERPDiscountPercent": 16907.93,
+  "ERPDiscountAmount": 21847.113999999998,
+  "DiscountPercent": 28306.288,
+  "DiscountAmount": 974.674,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 29678.98,
-  "EarningAmount": 31145.692,
-  "SubTotal": 15281.384,
-  "TotalPrice": 23163.394,
-  "Rights": "at",
-  "Rule": "voluptates",
-  "ExtraField1": "minima",
-  "ExtraField2": "veritatis",
-  "ExtraField3": "magnam",
-  "ExtraField4": "voluptate",
-  "ExtraField5": "id",
+  "EarningPercent": 25764.613999999998,
+  "EarningAmount": 14529.224,
+  "SubTotal": 29284.095999999998,
+  "TotalPrice": 26146.962,
+  "Rights": "sapiente",
+  "Rule": "facere",
+  "ExtraField1": "eligendi",
+  "ExtraField2": "iure",
+  "ExtraField3": "quia",
+  "ExtraField4": "at",
+  "ExtraField5": "dignissimos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 942
+      "FieldType": "System.Int32",
+      "FieldLength": 101
     }
   }
 }

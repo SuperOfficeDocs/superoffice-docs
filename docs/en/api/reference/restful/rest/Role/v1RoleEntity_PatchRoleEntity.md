@@ -127,12 +127,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "exercitationem",
+    "path": "beatae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "exercitationem",
+    "path": "beatae",
     "value": {}
   }
 ]
@@ -145,29 +145,29 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 385,
-  "Name": "Lowe-Kshlerin",
-  "Tooltip": "voluptatum",
+  "RoleId": 534,
+  "Name": "Hayes, Gleichner and Luettgen",
+  "Tooltip": "et",
   "RoleType": "Anonymous",
-  "Deleted": 943,
-  "Rank": 190,
-  "Created": "2021-10-19T11:22:45.0849869+02:00",
-  "UseCategories": 783,
+  "Deleted": 268,
+  "Rank": 387,
+  "Created": "2010-05-03T14:19:10.6467484+02:00",
+  "UseCategories": 810,
   "CreatedBy": null,
-  "Updated": "1998-04-23T11:22:45.0849869+02:00",
+  "Updated": "1998-07-02T14:19:10.6467484+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 34
+      "FieldType": "System.String",
+      "FieldLength": 754
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -78,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 920,
-  "Name": "Stiedemann-Koepp",
-  "Tooltip": "nostrum",
+  "HeadingId": 456,
+  "Name": "Herzog Group",
+  "Tooltip": "officiis",
   "Deleted": false,
-  "Rank": 44,
-  "UdListDefinitionId": 308
+  "Rank": 849,
+  "UdListDefinitionId": 99
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 632,
-  "Name": "Thiel, Sawayn and Ledner",
-  "Tooltip": "quidem",
-  "Deleted": true,
-  "Rank": 565,
-  "UdListDefinitionId": 313,
+  "HeadingId": 103,
+  "Name": "Marquardt Inc and Sons",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 753,
+  "UdListDefinitionId": 88,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 376
+      "FieldType": "System.String",
+      "FieldLength": 985
     }
   }
 }

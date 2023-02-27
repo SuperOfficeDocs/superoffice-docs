@@ -66,24 +66,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Davis-Simonis",
-  "StorageKey": "aut",
+  "StorageType": "non",
+  "ProviderName": "Nader LLC",
+  "StorageKey": "quia",
   "Restrictions": [
     {
-      "Name": "Hoppe-Bashirian",
-      "Operator": "eum",
+      "Name": "Jenkins, Olson and Hamill",
+      "Operator": "ut",
       "Values": [
-        "sit",
-        "qui"
+        "aliquid",
+        "numquam"
       ],
       "DisplayValues": [
-        "sit",
-        "modi"
+        "ut",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -91,9 +91,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 553,
+      "InterParenthesis": 985,
       "InterOperator": "And",
-      "UniqueHash": 565
+      "UniqueHash": 83
     }
   ]
 }

@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,111 +78,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 800,
-      "UniqueId": "dolores",
-      "Name": "Herzog-Gorczany",
-      "Description": "Polarised maximized function",
-      "AssociateId": 344,
-      "Columns": 505,
+      "DashboardId": 778,
+      "UniqueId": "veniam",
+      "Name": "Koss Group",
+      "Description": "Total uniform policy",
+      "AssociateId": 462,
+      "Columns": 722,
       "Theme": null,
-      "VisibleForAll": 818,
+      "VisibleForAll": 662,
       "VisibleForAssociates": [
-        373,
-        442
+        308,
+        438
       ],
       "VisibleForGroups": [
-        197,
-        25
+        32,
+        325
       ],
-      "PinForAll": 105,
+      "PinForAll": 471,
       "PinForAssociates": [
-        829,
-        53
+        842,
+        625
       ],
       "PinForGroups": [
-        971,
-        743
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 703
-        }
-      }
-    }
-  ],
-  "Favourites": [
-    {
-      "DashboardId": 589,
-      "UniqueId": "omnis",
-      "Name": "Shanahan LLC",
-      "Description": "Universal empowering middleware",
-      "AssociateId": 617,
-      "Columns": 648,
-      "Theme": null,
-      "VisibleForAll": 912,
-      "VisibleForAssociates": [
-        732,
-        975
-      ],
-      "VisibleForGroups": [
-        161,
-        349
-      ],
-      "PinForAll": 643,
-      "PinForAssociates": [
-        252,
-        993
-      ],
-      "PinForGroups": [
-        145,
-        955
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 923
-        }
-      }
-    }
-  ],
-  "Other": [
-    {
-      "DashboardId": 664,
-      "UniqueId": "enim",
-      "Name": "Tillman, Dickens and Wuckert",
-      "Description": "Reduced even-keeled task-force",
-      "AssociateId": 586,
-      "Columns": 630,
-      "Theme": null,
-      "VisibleForAll": 196,
-      "VisibleForAssociates": [
-        677,
-        205
-      ],
-      "VisibleForGroups": [
-        853,
-        659
-      ],
-      "PinForAll": 444,
-      "PinForAssociates": [
-        959,
-        652
-      ],
-      "PinForGroups": [
-        613,
-        758
+        104,
+        21
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 315
+          "FieldLength": 175
+        }
+      }
+    }
+  ],
+  "Favourites": [
+    {
+      "DashboardId": 973,
+      "UniqueId": "qui",
+      "Name": "Leffler, Swaniawski and Schulist",
+      "Description": "Centralized full-range budgetary management",
+      "AssociateId": 322,
+      "Columns": 917,
+      "Theme": null,
+      "VisibleForAll": 158,
+      "VisibleForAssociates": [
+        703,
+        904
+      ],
+      "VisibleForGroups": [
+        346,
+        838
+      ],
+      "PinForAll": 844,
+      "PinForAssociates": [
+        930,
+        332
+      ],
+      "PinForGroups": [
+        339,
+        693
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 440
+        }
+      }
+    }
+  ],
+  "Other": [
+    {
+      "DashboardId": 366,
+      "UniqueId": "quis",
+      "Name": "Dietrich Group",
+      "Description": "Self-enabling homogeneous definition",
+      "AssociateId": 180,
+      "Columns": 982,
+      "Theme": null,
+      "VisibleForAll": 783,
+      "VisibleForAssociates": [
+        822,
+        364
+      ],
+      "VisibleForGroups": [
+        922,
+        245
+      ],
+      "PinForAll": 512,
+      "PinForAssociates": [
+        844,
+        827
+      ],
+      "PinForGroups": [
+        357,
+        245
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 212
         }
       }
     }
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 218
+      "FieldLength": 925
     }
   }
 }

@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 482,
-  "Filter": "hic"
+  "SelectionId": 489,
+  "Filter": "voluptas"
 }
 ```
 
@@ -99,29 +99,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Denesik, Johns and McGlynn",
-    "Operator": "non",
+    "Name": "Stokes-Swaniawski",
+    "Operator": "similique",
     "Values": [
-      "sed",
-      "accusantium"
+      "accusantium",
+      "autem"
     ],
     "DisplayValues": [
-      "aut",
-      "minima"
+      "est",
+      "non"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Casper-Doyle",
-        "Operator": "eligendi",
+        "Name": "Hilll-Harber",
+        "Operator": "consectetur",
         "Values": [
-          "et",
-          "corrupti"
+          "sint",
+          "fuga"
         ],
         "DisplayValues": [
-          "ut",
-          "ut"
+          "omnis",
+          "quisquam"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -129,14 +129,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 320,
+        "InterParenthesis": 770,
         "InterOperator": "And",
-        "UniqueHash": 122
+        "UniqueHash": 441
       }
     ],
-    "InterParenthesis": 54,
+    "InterParenthesis": 389,
     "InterOperator": "And",
-    "UniqueHash": 384
+    "UniqueHash": 413
   }
 ]
 ```

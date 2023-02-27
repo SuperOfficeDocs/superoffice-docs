@@ -86,16 +86,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Beatty LLC",
-  "DeviceName": "Rau, Morar and Dickens",
-  "DeviceIdentifier": "rerum",
-  "KeyName": "Welch, Friesen and Nicolas",
-  "TableName": "O'Reilly, Sauer and Hahn",
-  "RecordId": 398
+  "ApplicationName": "Reynolds, Zboncak and Davis",
+  "DeviceName": "Lowe-Rau",
+  "DeviceIdentifier": "reprehenderit",
+  "KeyName": "Schumm-Renner",
+  "TableName": "Schaden-Dickinson",
+  "RecordId": 646
 }
 ```
 
@@ -106,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "reiciendis",
-  "Value": "quia",
-  "RecordId": 476,
-  "CreatedDate": "2004-10-31T11:22:38.3834434+01:00",
-  "UpdatedDate": "2021-02-26T11:22:38.3834434+01:00",
-  "UpdatedBy": "qui",
-  "CreatedBy": "labore",
-  "TableName": "Treutel, Parker and Gerhold",
+  "Key": "autem",
+  "Value": "dolorem",
+  "RecordId": 792,
+  "CreatedDate": "2017-04-09T14:19:03.5602728+02:00",
+  "UpdatedDate": "2021-09-09T14:19:03.5602728+02:00",
+  "UpdatedBy": "quisquam",
+  "CreatedBy": "numquam",
+  "TableName": "Skiles-Witting",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 62
+      "FieldLength": 964
     }
   }
 }

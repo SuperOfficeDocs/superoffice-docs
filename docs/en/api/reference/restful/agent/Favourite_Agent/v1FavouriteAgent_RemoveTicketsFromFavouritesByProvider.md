@@ -65,35 +65,35 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schultz, Connelly and Purdy",
+  "ProviderName": "Graham Group",
   "Restrictions": [
     {
-      "Name": "Conroy-Torphy",
-      "Operator": "sapiente",
+      "Name": "Padberg-Lubowitz",
+      "Operator": "delectus",
       "Values": [
-        "veniam",
-        "voluptatem"
+        "earum",
+        "illum"
       ],
       "DisplayValues": [
-        "laboriosam",
-        "hic"
+        "sit",
+        "sint"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 828,
+      "InterParenthesis": 273,
       "InterOperator": "And",
-      "UniqueHash": 55
+      "UniqueHash": 462
     }
   ],
-  "AssociateId": 999
+  "AssociateId": 175
 }
 ```
 

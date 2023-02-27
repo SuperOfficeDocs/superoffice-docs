@@ -26,7 +26,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=aut
+GET /api/v1/List/DocumentTemplate/MDOItems?query=et
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 192,
-    "Name": "Turcotte, Ratke and Schamberger",
-    "ToolTip": "Mollitia molestias et qui mollitia non.",
+    "Id": 632,
+    "Name": "Halvorson-Kautzer",
+    "ToolTip": "Sunt omnis quia culpa porro temporibus qui illum.",
     "Deleted": false,
-    "Rank": 996,
-    "Type": "quidem",
+    "Rank": 229,
+    "Type": "velit",
     "ChildItems": [
       {
-        "Id": 872,
-        "Name": "Lockman-Jaskolski",
-        "ToolTip": "Ut ut incidunt recusandae consequatur explicabo.",
-        "Deleted": false,
-        "Rank": 560,
-        "Type": "fuga",
+        "Id": 734,
+        "Name": "Bruen LLC",
+        "ToolTip": "Alias quis omnis iusto illo natus expedita.",
+        "Deleted": true,
+        "Rank": 868,
+        "Type": "quos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatum",
-        "ColorBlock": 264,
-        "ExtraInfo": "facilis",
-        "StyleHint": "sequi",
-        "FullName": "Dr. Helena Davonte Pfannerstill V",
+        "IconHint": "non",
+        "ColorBlock": 273,
+        "ExtraInfo": "quia",
+        "StyleHint": "cupiditate",
+        "FullName": "Johnathan Jenkins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 124
+            "FieldType": "System.Int32",
+            "FieldLength": 429
           }
         }
       }
     ],
-    "IconHint": "dolor",
-    "ColorBlock": 291,
-    "ExtraInfo": "natus",
-    "StyleHint": "odio",
-    "FullName": "Jarod McKenzie",
+    "IconHint": "qui",
+    "ColorBlock": 389,
+    "ExtraInfo": "eveniet",
+    "StyleHint": "et",
+    "FullName": "Sage Beahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 151
+        "FieldLength": 41
       }
     }
   }

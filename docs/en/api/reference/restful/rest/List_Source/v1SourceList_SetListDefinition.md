@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 838,
-  "Name": "Schowalter, Stanton and Buckridge",
-  "Tooltip": "est",
+  "Id": 898,
+  "Name": "Howe Group",
+  "Tooltip": "a",
   "Deleted": false,
-  "Rank": 674,
+  "Rank": 351,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quisquam",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 105,
-  "Name": "Schuppe Inc and Sons",
-  "Tooltip": "nihil",
+  "Id": 30,
+  "Name": "O'Hara Group",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 849,
+  "Rank": 87,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "fugit",
+  "ListType": "iste",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 620
+      "FieldType": "System.String",
+      "FieldLength": 731
     }
   }
 }

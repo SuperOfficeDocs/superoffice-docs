@@ -87,7 +87,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 194,
-    "Name": "Brekke LLC",
-    "Tooltip": "rerum",
-    "Rank": 24,
+    "SaleTypeId": 819,
+    "Name": "Fay, Krajcik and Bahringer",
+    "Tooltip": "doloribus",
+    "Rank": 154,
     "DurationUnit": "Century",
-    "SaleDuration": 919,
-    "SaleTypeCatId": 12,
+    "SaleDuration": 934,
+    "SaleTypeCatId": 69,
     "Deleted": false,
     "HasGuide": false,
-    "HasStakeholders": true,
+    "HasStakeholders": false,
     "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 72,
-    "QuoteLinesTemplate": 626,
-    "ConfirmationLinesTemplate": 284,
+    "DefaultQuoteValidity": 212,
+    "QuoteLinesTemplate": 76,
+    "ConfirmationLinesTemplate": 398,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 21,
-    "MinEarningPercent": 184,
-    "GroupQuoteLinesBy": 63,
-    "SortGroupLinesBy": 460,
+    "MinEarningPercentSet": true,
+    "MaxDiscountPercent": 41,
+    "MinEarningPercent": 625,
+    "GroupQuoteLinesBy": 478,
+    "SortGroupLinesBy": 544,
     "Stages": [
       {
-        "Id": 98,
-        "Name": "Pagac-Sporer",
-        "ToolTip": "Harum et deserunt at enim asperiores deleniti.",
+        "Id": 875,
+        "Name": "Schroeder LLC",
+        "ToolTip": "Dolores voluptatibus est ut.",
         "Deleted": false,
-        "Rank": 747,
-        "Type": "et",
-        "ColorBlock": 815,
-        "IconHint": "temporibus",
+        "Rank": 429,
+        "Type": "enim",
+        "ColorBlock": 655,
+        "IconHint": "voluptatum",
         "Selected": false,
-        "LastChanged": "2006-07-01T11:22:46.1628721+02:00",
+        "LastChanged": "2019-06-03T14:19:11.4870653+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "ex",
-        "Hidden": false,
-        "FullName": "Ansel Walker",
+        "ExtraInfo": "et",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Dewayne Franecki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 102
+            "FieldLength": 532
           }
         }
       }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 660
+        "FieldType": "System.Int32",
+        "FieldLength": 144
       }
     }
   }

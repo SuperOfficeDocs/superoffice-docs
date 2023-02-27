@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,74 +104,74 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
-    "IsActive": false,
-    "Key": "aut",
-    "ValueType": "vero",
+    "DefaultShowInSelector": false,
+    "IsActive": true,
+    "Key": "nulla",
+    "ValueType": "maxime",
     "Mandatory": false,
-    "EncodedDisplayName": "Abshire-Stokes",
-    "EncodedDisplayDescription": "Business-focused actuating collaboration",
-    "IconHint": "reiciendis",
+    "EncodedDisplayName": "Runolfsdottir-O'Kon",
+    "EncodedDisplayDescription": "Centralized transitional capacity",
+    "IconHint": "nisi",
     "ControlInfos": [
       {
-        "Type": "voluptatem",
-        "Label": "atque",
-        "Dimension": 192,
-        "ListProviderName": "Koepp, Turner and Emmerich",
-        "ListProviderExtraInfo": "est",
-        "ListProviderPrimaryKeyName": "Hills-O'Keefe",
-        "ListLeadText": "nihil",
+        "Type": "facilis",
+        "Label": "aut",
+        "Dimension": 668,
+        "ListProviderName": "Sawayn-Pollich",
+        "ListProviderExtraInfo": "laborum",
+        "ListProviderPrimaryKeyName": "Quitzon-Rippin",
+        "ListLeadText": "est",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 106
+            "FieldLength": 461
           }
         }
       }
     ],
-    "EncodedDataCaption": "consequuntur",
-    "EncodedDataCaptionDescription": "Assimilated upward-trending workforce",
-    "CurrentOperationType": "in",
+    "EncodedDataCaption": "modi",
+    "EncodedDataCaptionDescription": "Virtual tertiary leverage",
+    "CurrentOperationType": "voluptatem",
     "Values": [
-      "consequuntur",
-      "ipsa"
+      "reprehenderit",
+      "eum"
     ],
     "DisplayValues": [
-      "aut",
-      "quia"
+      "quam",
+      "excepturi"
     ],
     "OperationInfos": [
       {
-        "Key": "id",
-        "EncodedDisplayName": "Crona, Wunsch and Marquardt",
+        "Key": "quis",
+        "EncodedDisplayName": "Schowalter-Runolfsdottir",
         "EncodedLeadTexts": [
-          "eos",
-          "nemo"
+          "amet",
+          "aliquam"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 456
+            "FieldLength": 675
           }
         }
       },
       {
-        "Key": "id",
-        "EncodedDisplayName": "Crona, Wunsch and Marquardt",
+        "Key": "quis",
+        "EncodedDisplayName": "Schowalter-Runolfsdottir",
         "EncodedLeadTexts": [
-          "eos",
-          "nemo"
+          "amet",
+          "aliquam"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 456
+            "FieldLength": 675
           }
         }
       }

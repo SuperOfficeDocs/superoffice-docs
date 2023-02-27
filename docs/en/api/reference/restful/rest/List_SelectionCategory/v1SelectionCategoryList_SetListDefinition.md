@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 259,
-  "Name": "Baumbach Inc and Sons",
-  "Tooltip": "omnis",
+  "Id": 384,
+  "Name": "Zieme, Rath and Hickle",
+  "Tooltip": "commodi",
   "Deleted": false,
-  "Rank": 475,
+  "Rank": 132,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "consequatur",
-  "InUseByUserDefinedFields": false
+  "ListType": "eos",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 440,
-  "Name": "Padberg, Erdman and Hegmann",
-  "Tooltip": "corporis",
+  "Id": 945,
+  "Name": "Konopelski LLC",
+  "Tooltip": "in",
   "Deleted": true,
-  "Rank": 272,
+  "Rank": 557,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quia",
+  "ListType": "consequuntur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 761
+      "FieldType": "System.String",
+      "FieldLength": 293
     }
   }
 }

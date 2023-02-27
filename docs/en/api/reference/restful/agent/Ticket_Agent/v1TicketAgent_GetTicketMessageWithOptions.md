@@ -70,7 +70,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -101,7 +101,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 554,
+  "TicketMessageEntityId": 941,
   "IncludeNonInlineAttachmentsInfo": false
 }
 ```
@@ -113,76 +113,76 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 138,
+  "EjMessageId": 954,
   "Ticket": null,
-  "CreatedAt": "2001-04-13T11:22:39.5550468+02:00",
+  "CreatedAt": "2016-12-18T14:19:04.5172011+01:00",
   "CreatedBy": null,
-  "Author": "omnis",
+  "Author": "reiciendis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quo",
-  "TimeSpent": 925,
-  "Body": "beatae",
-  "HtmlBody": "vel",
-  "EmailHeader": "golda@thompson.co.uk",
-  "DebugInfo": "distinctio",
-  "MailSorter": "voluptates",
+  "MessageId": "et",
+  "TimeSpent": 506,
+  "Body": "fugit",
+  "HtmlBody": "suscipit",
+  "EmailHeader": "raphael@feestthiel.us",
+  "DebugInfo": "harum",
+  "MailSorter": "recusandae",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "earum",
+  "SearchTitle": "voluptatibus",
   "MessageHeaders": [
     {
-      "Id": 713,
-      "Name": "Moore Inc and Sons",
-      "Value": "aut",
+      "Id": 568,
+      "Name": "Huels, Haley and Will",
+      "Value": "perferendis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 795
+          "FieldType": "System.String",
+          "FieldLength": 922
         }
       }
     }
   ],
   "Important": true,
-  "Language": "id",
-  "Sentiment": 291,
-  "SentimentConfidence": 478,
+  "Language": "ipsum",
+  "Sentiment": 857,
+  "SentimentConfidence": 432,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 884,
-      "Name": "Brekke, Jewess and Windler",
-      "ContentType": "vero",
-      "AttSize": 126,
+      "AttachmentId": 364,
+      "Name": "Murray-Welch",
+      "ContentType": "ipsum",
+      "AttSize": 866,
       "InlineImage": true,
-      "ContentId": "quas",
+      "ContentId": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 291
+          "FieldLength": 77
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "excepturi"
+    "ExtraFields1": "est",
+    "ExtraFields2": "doloribus"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "vel"
+    "CustomFields1": "laboriosam",
+    "CustomFields2": "debitis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldLength": 670
     }
   }
 }

@@ -81,12 +81,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 236,
-  "Name": "Hagenes-Hodkiewicz",
-  "Tooltip": "nisi",
-  "Deleted": false,
-  "UdListDefinitionId": 68,
-  "Rank": 783
+  "Id": 621,
+  "Name": "Cummerata LLC",
+  "Tooltip": "quis",
+  "Deleted": true,
+  "UdListDefinitionId": 695,
+  "Rank": 237
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 232,
-  "Name": "Hessel Group",
-  "Tooltip": "libero",
+  "Id": 772,
+  "Name": "White-Collier",
+  "Tooltip": "non",
   "Deleted": false,
-  "UdListDefinitionId": 274,
-  "Rank": 731,
+  "UdListDefinitionId": 656,
+  "Rank": 506,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 217
+      "FieldType": "System.String",
+      "FieldLength": 793
     }
   }
 }

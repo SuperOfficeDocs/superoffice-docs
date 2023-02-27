@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,37 +78,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 307,
-  "UniqueId": "quidem",
-  "Name": "McClure-Crist",
-  "Description": "Programmable context-sensitive model",
-  "AssociateId": 18,
-  "Columns": 520,
+  "DashboardId": 241,
+  "UniqueId": "eaque",
+  "Name": "Wintheiser Group",
+  "Description": "Realigned cohesive utilisation",
+  "AssociateId": 938,
+  "Columns": 562,
   "Theme": null,
-  "VisibleForAll": 348,
+  "VisibleForAll": 536,
   "VisibleForAssociates": [
-    151,
-    900
+    942,
+    578
   ],
   "VisibleForGroups": [
-    580,
-    214
+    759,
+    68
   ],
-  "PinForAll": 966,
+  "PinForAll": 877,
   "PinForAssociates": [
-    37,
-    65
+    782,
+    258
   ],
   "PinForGroups": [
-    690,
-    290
+    752,
+    520
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 685
+      "FieldLength": 946
     }
   }
 }

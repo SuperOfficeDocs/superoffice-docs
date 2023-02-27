@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/User/GetUserInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Deleted": false,
-    "UserInfoId": 885,
-    "UserName": "Huel, Leuschke and Schuppe",
-    "PersonId": 464,
-    "Rank": 48,
-    "Tooltip": "accusantium",
-    "UserGroupId": 983,
-    "EjUserId": 812,
+    "UserInfoId": 550,
+    "UserName": "Stoltenberg-Yost",
+    "PersonId": 387,
+    "Rank": 826,
+    "Tooltip": "ut",
+    "UserGroupId": 956,
+    "EjUserId": 992,
     "UserType": "AnonymousAssociate",
     "GrantedLicenses": [
-      "velit",
-      "soluta"
+      "delectus",
+      "iure"
     ],
-    "CanLogon": false,
-    "RoleName": "Shields LLC",
-    "RoleTooltip": "id",
-    "UserGroupName": "Hamill LLC",
-    "UserGroupTooltip": "molestiae",
+    "CanLogon": true,
+    "RoleName": "Keeling-Larson",
+    "RoleTooltip": "et",
+    "UserGroupName": "Boyer LLC",
+    "UserGroupTooltip": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 28
+        "FieldLength": 192
       }
     }
   }

@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 24,
-  "Name": "Mayert Inc and Sons",
-  "Tooltip": "alias",
+  "Id": 925,
+  "Name": "Howe, VonRueden and Zemlak",
+  "Tooltip": "provident",
   "Deleted": false,
-  "UdListDefinitionId": 928,
-  "Rank": 253,
+  "UdListDefinitionId": 653,
+  "Rank": 266,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 542
+      "FieldType": "System.String",
+      "FieldLength": 925
     }
   }
 }

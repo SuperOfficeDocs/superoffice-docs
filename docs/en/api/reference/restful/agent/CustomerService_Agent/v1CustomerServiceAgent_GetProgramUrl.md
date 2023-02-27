@@ -72,7 +72,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgramName": "Marquardt, Jacobson and Yost",
+  "ProgramName": "Kassulke-Collier",
   "External": false
 }
 ```

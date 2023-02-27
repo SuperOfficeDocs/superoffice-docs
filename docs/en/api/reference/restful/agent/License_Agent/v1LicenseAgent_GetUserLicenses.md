@@ -79,7 +79,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 57
+  "AssociateId": 700
 }
 ```
 
@@ -91,56 +91,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Adams, Kirlin and Bayer",
-    "Description": "Expanded bifurcated data-warehouse",
+    "Name": "Kub Group",
+    "Description": "Devolved intangible Graphic Interface",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 153,
-        "Tooltip": "asperiores",
-        "CanAssign": false,
-        "Free": 905,
-        "InUse": 883,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 83,
-        "Name": "Murphy LLC",
-        "Description": "De-engineered 24 hour protocol",
-        "PrerequisiteModuleName": "Graham, Russel and Conn",
-        "SortOrder": 13,
-        "ExtraFlags": 416,
+        "Total": 179,
+        "Tooltip": "exercitationem",
+        "CanAssign": true,
+        "Free": 955,
+        "InUse": 99,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 227,
+        "Name": "Orn Inc and Sons",
+        "Description": "Compatible bi-directional extranet",
+        "PrerequisiteModuleName": "Oberbrunner Group",
+        "SortOrder": 321,
+        "ExtraFlags": 337,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 367
+            "FieldLength": 989
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 169,
-        "Tooltip": "a",
+        "Unrestricted": true,
+        "Total": 402,
+        "Tooltip": "debitis",
         "CanAssign": false,
-        "Free": 146,
-        "InUse": 736,
+        "Free": 853,
+        "InUse": 53,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 887,
-        "Name": "Dooley-Baumbach",
-        "Description": "Visionary exuding functionalities",
-        "PrerequisiteModuleName": "Strosin, Paucek and Schimmel",
-        "SortOrder": 268,
-        "ExtraFlags": 348,
+        "Assigned": false,
+        "ModuleLicenseId": 290,
+        "Name": "Reilly, Wiza and Senger",
+        "Description": "Cloned stable firmware",
+        "PrerequisiteModuleName": "Runolfsdottir, Padberg and Terry",
+        "SortOrder": 912,
+        "ExtraFlags": 112,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 311
+            "FieldLength": 270
           }
         }
       }
@@ -150,61 +150,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 245
+        "FieldLength": 357
       }
     }
   },
   {
-    "Name": "Adams, Kirlin and Bayer",
-    "Description": "Expanded bifurcated data-warehouse",
+    "Name": "Kub Group",
+    "Description": "Devolved intangible Graphic Interface",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 153,
-        "Tooltip": "asperiores",
-        "CanAssign": false,
-        "Free": 905,
-        "InUse": 883,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 83,
-        "Name": "Murphy LLC",
-        "Description": "De-engineered 24 hour protocol",
-        "PrerequisiteModuleName": "Graham, Russel and Conn",
-        "SortOrder": 13,
-        "ExtraFlags": 416,
+        "Total": 179,
+        "Tooltip": "exercitationem",
+        "CanAssign": true,
+        "Free": 955,
+        "InUse": 99,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 227,
+        "Name": "Orn Inc and Sons",
+        "Description": "Compatible bi-directional extranet",
+        "PrerequisiteModuleName": "Oberbrunner Group",
+        "SortOrder": 321,
+        "ExtraFlags": 337,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 367
+            "FieldLength": 989
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 169,
-        "Tooltip": "a",
+        "Unrestricted": true,
+        "Total": 402,
+        "Tooltip": "debitis",
         "CanAssign": false,
-        "Free": 146,
-        "InUse": 736,
+        "Free": 853,
+        "InUse": 53,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 887,
-        "Name": "Dooley-Baumbach",
-        "Description": "Visionary exuding functionalities",
-        "PrerequisiteModuleName": "Strosin, Paucek and Schimmel",
-        "SortOrder": 268,
-        "ExtraFlags": 348,
+        "Assigned": false,
+        "ModuleLicenseId": 290,
+        "Name": "Reilly, Wiza and Senger",
+        "Description": "Cloned stable firmware",
+        "PrerequisiteModuleName": "Runolfsdottir, Padberg and Terry",
+        "SortOrder": 912,
+        "ExtraFlags": 112,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 311
+            "FieldLength": 270
           }
         }
       }
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 245
+        "FieldLength": 357
       }
     }
   }

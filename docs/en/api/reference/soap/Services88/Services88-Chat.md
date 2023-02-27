@@ -578,6 +578,8 @@ title: Services88.ChatAgent WSDL
               <xs:element minOccurs="0" name="SentimentConfidence" type="xs:int" />
               <xs:element minOccurs="0" name="SaleId" type="xs:int" />
               <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
+              <xs:element minOccurs="0" name="SaleHeading" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ProjectName" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

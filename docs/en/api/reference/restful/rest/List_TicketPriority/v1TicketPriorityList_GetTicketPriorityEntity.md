@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,60 +98,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 514,
-  "Name": "Muller, Rath and Block",
+  "TicketPriorityId": 588,
+  "Name": "Bins-Schinner",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 79,
+  "SortOrder": 333,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 180,
-  "MonStart": "1996-09-22T11:22:46.2409792+02:00",
-  "MonStop": "1995-11-11T11:22:46.2409792+01:00",
-  "TueStart": "2021-12-07T11:22:46.2409792+01:00",
-  "TueStop": "2001-05-17T11:22:46.2409792+02:00",
-  "WedStart": "2018-09-20T11:22:46.2409792+02:00",
-  "WedStop": "2011-10-02T11:22:46.2409792+02:00",
-  "ThuStart": "2000-12-09T11:22:46.2409792+01:00",
-  "ThuStop": "2002-05-02T11:22:46.2409792+02:00",
-  "FriStart": "2017-12-28T11:22:46.2409792+01:00",
-  "FriStop": "1998-01-23T11:22:46.2409792+01:00",
-  "SatStart": "1997-05-05T11:22:46.2409792+02:00",
-  "SatStop": "2011-06-27T11:22:46.2409792+02:00",
-  "SunStart": "1999-11-16T11:22:46.2409792+01:00",
-  "SunStop": "1997-11-18T11:22:46.2409792+01:00",
+  "Deadline": 806,
+  "MonStart": "2003-08-31T14:19:11.660135+02:00",
+  "MonStop": "2010-12-11T14:19:11.660135+01:00",
+  "TueStart": "2016-07-09T14:19:11.660135+02:00",
+  "TueStop": "2010-05-05T14:19:11.660135+02:00",
+  "WedStart": "1998-09-04T14:19:11.660135+02:00",
+  "WedStop": "2002-10-25T14:19:11.660135+02:00",
+  "ThuStart": "2011-06-04T14:19:11.660135+02:00",
+  "ThuStop": "2015-08-06T14:19:11.660135+02:00",
+  "FriStart": "2007-03-19T14:19:11.660135+01:00",
+  "FriStop": "2010-02-17T14:19:11.660135+01:00",
+  "SatStart": "1997-02-17T14:19:11.660135+01:00",
+  "SatStop": "2010-02-17T14:19:11.660135+01:00",
+  "SunStart": "2010-01-15T14:19:11.660135+01:00",
+  "SunStop": "2020-04-11T14:19:11.660135+02:00",
   "NonDates": [
-    "officiis",
-    "sed"
+    "itaque",
+    "amet"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 362,
-      "AlertLevel": 254,
-      "AlertTimeout": 121,
-      "Action": 878,
-      "DelegateTo": 664,
-      "ScriptId": 790,
-      "EmailTo": "monserrate@kemmer.co.uk",
+      "TicketAlertId": 213,
+      "AlertLevel": 489,
+      "AlertTimeout": 537,
+      "Action": 203,
+      "DelegateTo": 328,
+      "ScriptId": 513,
+      "EmailTo": "irving@ankundingokuneva.com",
       "SmsTo": "dicta",
-      "ReplyTemplateIdCustomer": 725,
-      "ReplyTemplateIdUser": 479,
-      "ReplyTemplateIdCatmast": 331,
-      "ReplyTemplateIdEmail": 688,
-      "RtiCustomerSms": 355,
-      "ReplyTemplateIdUserSms": 593,
-      "ReplyTemplateIdCatmastSms": 889,
-      "ReplyTemplateIdSms": 242,
+      "ReplyTemplateIdCustomer": 849,
+      "ReplyTemplateIdUser": 304,
+      "ReplyTemplateIdCatmast": 180,
+      "ReplyTemplateIdEmail": 510,
+      "RtiCustomerSms": 71,
+      "ReplyTemplateIdUserSms": 547,
+      "ReplyTemplateIdCatmastSms": 546,
+      "ReplyTemplateIdSms": 842,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 157
+          "FieldLength": 30
         }
       }
     }
@@ -160,8 +160,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 227
+      "FieldType": "System.Int32",
+      "FieldLength": 368
     }
   }
 }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 331,
-    "Name": "Herman Inc and Sons",
-    "ToolTip": "Mollitia rerum sed dicta atque est sequi rem.",
+    "Id": 743,
+    "Name": "Stehr Group",
+    "ToolTip": "Praesentium est fugit velit qui.",
     "Deleted": true,
-    "Rank": 636,
-    "Type": "eum",
-    "ColorBlock": 534,
-    "IconHint": "labore",
+    "Rank": 635,
+    "Type": "quo",
+    "ColorBlock": 61,
+    "IconHint": "perferendis",
     "Selected": true,
-    "LastChanged": "2002-11-16T11:22:45.803528+01:00",
+    "LastChanged": "2016-10-11T14:19:11.1480931+02:00",
     "ChildItems": [
       {
-        "Id": 665,
-        "Name": "Grant, DuBuque and Jaskolski",
-        "ToolTip": "Beatae libero autem neque quia.",
+        "Id": 638,
+        "Name": "Huel, Murazik and Denesik",
+        "ToolTip": "Quis aliquam aliquid doloribus eveniet.",
         "Deleted": false,
-        "Rank": 828,
-        "Type": "sed",
-        "ColorBlock": 603,
-        "IconHint": "nemo",
+        "Rank": 71,
+        "Type": "voluptas",
+        "ColorBlock": 532,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2021-09-28T11:22:45.803528+02:00",
+        "LastChanged": "2019-09-29T14:19:11.1480931+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
+        "ExtraInfo": "illo",
         "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Zelma Yundt"
+        "Hidden": false,
+        "FullName": "Calista Little"
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "rerum",
+    "ExtraInfo": "quo",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Mr. Raul Ruby Conn DDS"
+    "FullName": "Cordelia Bednar"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 798,
-    "Name": "Padberg, Cremin and Thiel",
-    "ToolTip": "Est qui libero cupiditate voluptatibus impedit libero.",
+    "Id": 220,
+    "Name": "Morissette Inc and Sons",
+    "ToolTip": "Voluptates autem error omnis.",
     "Deleted": false,
-    "Rank": 899,
-    "Type": "itaque",
-    "ColorBlock": 362,
-    "IconHint": "aut",
+    "Rank": 665,
+    "Type": "aliquam",
+    "ColorBlock": 807,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "1997-09-08T11:22:45.803528+02:00",
+    "LastChanged": "2017-04-15T14:19:11.1480931+02:00",
     "ChildItems": [
       {
-        "Id": 842,
-        "Name": "Abbott, Hodkiewicz and Weimann",
-        "ToolTip": "Repudiandae fugiat et velit.",
-        "Deleted": true,
-        "Rank": 993,
-        "Type": "voluptas",
-        "ColorBlock": 627,
-        "IconHint": "nam",
+        "Id": 615,
+        "Name": "Trantow-Dicki",
+        "ToolTip": "Est quo nulla mollitia ipsa et.",
+        "Deleted": false,
+        "Rank": 64,
+        "Type": "culpa",
+        "ColorBlock": 95,
+        "IconHint": "magni",
         "Selected": true,
-        "LastChanged": "2019-11-20T11:22:45.803528+01:00",
+        "LastChanged": "1996-04-05T14:19:11.1480931+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Woodrow Leffler",
+        "ExtraInfo": "maxime",
+        "StyleHint": "maiores",
+        "Hidden": false,
+        "FullName": "Miss Delia Eladio Rodriguez",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 483
+            "FieldType": "System.Int32",
+            "FieldLength": 157
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "omnis",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Josh Dibbert",
+    "FullName": "Ms. Sarai Troy Blick Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 951
+        "FieldLength": 44
       }
     }
   }

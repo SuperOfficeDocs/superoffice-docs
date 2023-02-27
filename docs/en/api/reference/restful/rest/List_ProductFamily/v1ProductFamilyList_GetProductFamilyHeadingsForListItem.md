@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 919,
-    "Name": "Pollich LLC",
-    "ToolTip": "Dolor quia sed nam et rerum.",
+    "Id": 533,
+    "Name": "Abbott, McCullough and Muller",
+    "ToolTip": "Nisi occaecati.",
     "Deleted": false,
-    "Rank": 33,
-    "Type": "exercitationem",
-    "ColorBlock": 64,
-    "IconHint": "nobis",
+    "Rank": 233,
+    "Type": "maiores",
+    "ColorBlock": 807,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "1997-08-11T11:22:46.0379014+02:00",
+    "LastChanged": "2001-04-05T14:19:11.3680268+02:00",
     "ChildItems": [
       {
-        "Id": 788,
-        "Name": "Schinner, Schroeder and Carter",
-        "ToolTip": "Inventore dicta sed fugiat iste vero.",
+        "Id": 207,
+        "Name": "Murray, Bashirian and Gusikowski",
+        "ToolTip": "Doloribus eos est aliquid ut.",
         "Deleted": true,
-        "Rank": 519,
-        "Type": "voluptatum",
-        "ColorBlock": 306,
-        "IconHint": "sapiente",
+        "Rank": 800,
+        "Type": "ex",
+        "ColorBlock": 162,
+        "IconHint": "minus",
         "Selected": false,
-        "LastChanged": "2011-02-27T11:22:46.0379014+01:00",
+        "LastChanged": "1996-10-30T14:19:11.3680268+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "molestiae",
-        "Hidden": true,
-        "FullName": "Mr. Reuben Toy",
+        "ExtraInfo": "eum",
+        "StyleHint": "quis",
+        "Hidden": false,
+        "FullName": "Gwen Howell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 840
+            "FieldType": "System.String",
+            "FieldLength": 296
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "est",
+    "ExtraInfo": "facere",
+    "StyleHint": "expedita",
     "Hidden": true,
-    "FullName": "Katelin Mueller II",
+    "FullName": "Kraig Hermiston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 283
+        "FieldType": "System.String",
+        "FieldLength": 615
       }
     }
   }

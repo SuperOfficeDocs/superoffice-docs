@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 278,
-  "Name": "Carroll, Littel and Dare",
-  "Tooltip": "cum",
-  "Deleted": true,
-  "UdListDefinitionId": 118,
-  "Rank": 605,
+  "Id": 255,
+  "Name": "D'Amore Group",
+  "Tooltip": "tempore",
+  "Deleted": false,
+  "UdListDefinitionId": 319,
+  "Rank": 473,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 1000
+      "FieldLength": 18
     }
   }
 }

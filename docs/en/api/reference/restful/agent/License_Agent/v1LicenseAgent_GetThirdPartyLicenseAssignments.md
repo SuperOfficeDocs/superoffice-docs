@@ -90,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 125,
-  "ModuleOwner": "quia"
+  "AssociateId": 173,
+  "ModuleOwner": "atque"
 }
 ```
 
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 455,
-    "Tooltip": "fuga",
+    "Total": 726,
+    "Tooltip": "assumenda",
     "CanAssign": true,
-    "Free": 277,
-    "InUse": 556,
-    "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 412,
-    "Name": "Jerde LLC",
-    "Description": "Organic reciprocal Graphical User Interface",
-    "PrerequisiteModuleName": "Lubowitz LLC",
-    "SortOrder": 522,
-    "ExtraFlags": 100,
+    "Free": 965,
+    "InUse": 300,
+    "IsHidden": true,
+    "Assigned": true,
+    "ModuleLicenseId": 230,
+    "Name": "Flatley-Bosco",
+    "Description": "Implemented explicit complexity",
+    "PrerequisiteModuleName": "Buckridge-Reilly",
+    "SortOrder": 909,
+    "ExtraFlags": 578,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 665
+        "FieldType": "System.Int32",
+        "FieldLength": 319
       }
     }
   }

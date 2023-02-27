@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 822,
-    "Name": "Parisian-Reilly",
-    "ToolTip": "Eos est non laborum excepturi esse.",
+    "Id": 269,
+    "Name": "Feeney, Block and Kreiger",
+    "ToolTip": "In rem perferendis ad incidunt quia sit nostrum.",
     "Deleted": false,
-    "Rank": 466,
-    "Type": "eum",
-    "ColorBlock": 220,
-    "IconHint": "impedit",
-    "Selected": false,
-    "LastChanged": "2023-01-03T11:22:45.7879071+01:00",
+    "Rank": 536,
+    "Type": "impedit",
+    "ColorBlock": 669,
+    "IconHint": "ducimus",
+    "Selected": true,
+    "LastChanged": "2023-01-04T14:19:11.1480931+01:00",
     "ChildItems": [
       {
-        "Id": 347,
-        "Name": "Carroll-Champlin",
-        "ToolTip": "Dolor sunt iste blanditiis velit aspernatur.",
+        "Id": 733,
+        "Name": "Heidenreich, Stamm and Wolff",
+        "ToolTip": "Est minima ipsum quia incidunt eveniet.",
         "Deleted": false,
-        "Rank": 810,
-        "Type": "beatae",
-        "ColorBlock": 912,
-        "IconHint": "recusandae",
-        "Selected": false,
-        "LastChanged": "2010-03-25T11:22:45.7879071+01:00",
+        "Rank": 250,
+        "Type": "nihil",
+        "ColorBlock": 361,
+        "IconHint": "ipsam",
+        "Selected": true,
+        "LastChanged": "2002-05-28T14:19:11.1480931+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Avery Wilkinson",
+        "FullName": "Adolf Dach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 499
+            "FieldLength": 672
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "et",
+    "ExtraInfo": "delectus",
+    "StyleHint": "deserunt",
     "Hidden": false,
-    "FullName": "Camryn Wilkinson",
+    "FullName": "London Meredith Kirlin MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 534
+        "FieldType": "System.String",
+        "FieldLength": 315
       }
     }
   }

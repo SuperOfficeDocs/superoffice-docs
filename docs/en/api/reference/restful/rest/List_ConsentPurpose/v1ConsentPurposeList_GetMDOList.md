@@ -26,7 +26,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=ipsa
+GET /api/v1/List/ConsentPurpose/MDOItems?query=natus
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 528,
-    "Name": "Nikolaus-Stokes",
-    "ToolTip": "Quo reprehenderit quibusdam quos eaque est.",
+    "Id": 568,
+    "Name": "Huels Inc and Sons",
+    "ToolTip": "Nobis porro ipsum asperiores et.",
     "Deleted": false,
-    "Rank": 693,
-    "Type": "fugiat",
+    "Rank": 878,
+    "Type": "ipsam",
     "ChildItems": [
       {
-        "Id": 84,
-        "Name": "Funk Inc and Sons",
-        "ToolTip": "Consectetur doloremque quaerat.",
+        "Id": 891,
+        "Name": "Murazik, Wolff and Kirlin",
+        "ToolTip": "Perferendis quidem dolorem molestiae dicta.",
         "Deleted": false,
-        "Rank": 741,
-        "Type": "minus",
+        "Rank": 627,
+        "Type": "ipsam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "alias",
-        "ColorBlock": 908,
-        "ExtraInfo": "omnis",
-        "StyleHint": "dolores",
-        "FullName": "Deangelo Fisher",
+        "IconHint": "eos",
+        "ColorBlock": 871,
+        "ExtraInfo": "nostrum",
+        "StyleHint": "enim",
+        "FullName": "Vito Doyle I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 656
+            "FieldType": "System.Int32",
+            "FieldLength": 635
           }
         }
       }
     ],
-    "IconHint": "dolorem",
-    "ColorBlock": 136,
-    "ExtraInfo": "architecto",
-    "StyleHint": "aliquam",
-    "FullName": "Lauren Leannon",
+    "IconHint": "sunt",
+    "ColorBlock": 234,
+    "ExtraInfo": "et",
+    "StyleHint": "dicta",
+    "FullName": "Mr. Brown Tracey Kshlerin DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 929
+        "FieldType": "System.Int32",
+        "FieldLength": 420
       }
     }
   }

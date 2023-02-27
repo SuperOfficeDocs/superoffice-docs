@@ -80,24 +80,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 66,
-  "Name": "Ledner Group",
-  "Tooltip": "asperiores",
+  "RoleId": 864,
+  "Name": "O'Kon, Grady and Beatty",
+  "Tooltip": "id",
   "RoleType": "Anonymous",
-  "Deleted": 31,
-  "Rank": 946,
-  "Created": "2010-05-05T11:22:39.5862974+02:00",
-  "UseCategories": 779,
+  "Deleted": 710,
+  "Rank": 147,
+  "Created": "2020-12-31T14:19:04.5484513+01:00",
+  "UseCategories": 46,
   "CreatedBy": null,
-  "Updated": "2001-05-12T11:22:39.5862974+02:00",
+  "Updated": "2009-02-10T14:19:04.5484513+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 753
+      "FieldType": "System.Int32",
+      "FieldLength": 406
     }
   }
 }

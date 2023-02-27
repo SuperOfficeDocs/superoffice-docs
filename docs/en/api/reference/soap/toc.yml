@@ -12124,6 +12124,8 @@
       href: Services88/Appointment/CanAssignToProjectMember.md
     - name: CleanUpBookingDeleted
       href: Services88/Appointment/CleanUpBookingDeleted.md
+    - name: CleanUpBookingDeletedWithUpdateMode
+      href: Services88/Appointment/CleanUpBookingDeletedWithUpdateMode.md
     - name: CleanUpRecurringBookingDeleted
       href: Services88/Appointment/CleanUpRecurringBookingDeleted.md
     - name: CreateAndAccept
@@ -12286,6 +12288,8 @@
       href: Services88/Appointment/SetActivityStatus.md
     - name: SetSeen
       href: Services88/Appointment/SetSeen.md
+    - name: SetSeenMany
+      href: Services88/Appointment/SetSeenMany.md
     - name: ToggleActivities
       href: Services88/Appointment/ToggleActivities.md
     - name: ToggleActivity
@@ -12715,6 +12719,8 @@
       href: Services88/Configuration/GetScreenConfigurationDelta.md
     - name: GetScreenConfigurationDeltas
       href: Services88/Configuration/GetScreenConfigurationDeltas.md
+    - name: GetSpfDomain
+      href: Services88/Configuration/GetSpfDomain.md
     - name: GetSystemEventEntity
       href: Services88/Configuration/GetSystemEventEntity.md
     - name: GetWindowPosSize
@@ -14482,6 +14488,8 @@
       href: Services88/Marketing/GetFormEntity.md
     - name: GetFormSubmissionEntity
       href: Services88/Marketing/GetFormSubmissionEntity.md
+    - name: GetFormSubmissionsCount
+      href: Services88/Marketing/GetFormSubmissionsCount.md
     - name: GetPreviewMailing
       href: Services88/Marketing/GetPreviewMailing.md
     - name: GetPreviewMailingHeader
@@ -15512,6 +15520,8 @@
       href: Services88/Ticket/BatchReply.md
     - name: CalculateMessageRecipients
       href: Services88/Ticket/CalculateMessageRecipients.md
+    - name: ClearNotify
+      href: Services88/Ticket/ClearNotify.md
     - name: CreateDefaultAttachmentEntity
       href: Services88/Ticket/CreateDefaultAttachmentEntity.md
     - name: CreateDefaultTicketEntity

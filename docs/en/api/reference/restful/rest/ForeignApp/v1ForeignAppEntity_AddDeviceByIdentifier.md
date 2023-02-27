@@ -78,21 +78,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 720,
-  "Name": "McKenzie Group",
-  "CreatedDate": "1998-11-22T11:22:44.8818691+01:00",
-  "UpdatedDate": "2013-05-23T11:22:44.8818691+02:00",
-  "AssociateFullName": "Mr. Zoie Henri Huels",
-  "CreatedBy": "rerum",
-  "UpdatedBy": "labore",
-  "DeviceIdentifier": "molestiae",
-  "ForeignAppId": 554,
+  "ForeignDeviceId": 448,
+  "Name": "Wintheiser LLC",
+  "CreatedDate": "2015-12-08T14:19:10.3654771+01:00",
+  "UpdatedDate": "2020-04-23T14:19:10.3654771+02:00",
+  "AssociateFullName": "Verla Stoltenberg",
+  "CreatedBy": "eos",
+  "UpdatedBy": "quis",
+  "DeviceIdentifier": "consequatur",
+  "ForeignAppId": 199,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 624
+      "FieldLength": 290
     }
   }
 }

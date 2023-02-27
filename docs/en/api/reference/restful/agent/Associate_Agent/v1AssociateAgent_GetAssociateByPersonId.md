@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 590
+  "PersonId": 750
 }
 ```
 
@@ -98,24 +98,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 519,
-  "Name": "Christiansen, Streich and Stoltenberg",
-  "PersonId": 830,
-  "Rank": 418,
-  "Tooltip": "fugiat",
+  "AssociateId": 227,
+  "Name": "Ward LLC",
+  "PersonId": 779,
+  "Rank": 412,
+  "Tooltip": "illo",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 913,
-  "FullName": "Alta Harber",
-  "FormalName": "Kutch, McKenzie and Jakubowski",
+  "GroupIdx": 606,
+  "FullName": "Skylar Roob III",
+  "FormalName": "Kunde LLC",
   "Deleted": false,
-  "EjUserId": 494,
-  "UserName": "Pfeffer-Kiehn",
+  "EjUserId": 360,
+  "UserName": "Bechtelar, Predovic and Pouros",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 234
+      "FieldLength": 3
     }
   }
 }

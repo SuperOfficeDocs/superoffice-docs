@@ -80,21 +80,21 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 944,
+  "SelectionId": 805,
   "Criteria": [
     {
-      "Name": "Kreiger-Weimann",
-      "Description": "Versatile dedicated firmware",
-      "Rank": 424,
+      "Name": "Willms, Schinner and Thiel",
+      "Description": "Up-sized zero tolerance moratorium",
+      "Rank": 137,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kreiger-Weimann",
-      "Description": "Versatile dedicated firmware",
-      "Rank": 424,
+      "Name": "Willms, Schinner and Thiel",
+      "Description": "Up-sized zero tolerance moratorium",
+      "Rank": 137,
       "Restrictions": [
         {},
         {}
@@ -112,58 +112,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rosenbaum LLC",
-    "Description": "Polarised explicit internet solution",
-    "Rank": 109,
+    "Name": "Howell, Koch and Legros",
+    "Description": "Persistent motivating infrastructure",
+    "Rank": 835,
     "Restrictions": [
       {
-        "Name": "Ryan Inc and Sons",
-        "Operator": "itaque",
+        "Name": "Parker LLC",
+        "Operator": "rerum",
         "Values": [
-          "inventore",
-          "voluptate"
+          "nihil",
+          "iste"
         ],
         "DisplayValues": [
-          "facere",
-          "aut"
+          "veniam",
+          "eum"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 866,
+        "InterParenthesis": 925,
         "InterOperator": "And",
-        "UniqueHash": 842
+        "UniqueHash": 647
       }
     ]
   },
   {
-    "Name": "Rosenbaum LLC",
-    "Description": "Polarised explicit internet solution",
-    "Rank": 109,
+    "Name": "Howell, Koch and Legros",
+    "Description": "Persistent motivating infrastructure",
+    "Rank": 835,
     "Restrictions": [
       {
-        "Name": "Ryan Inc and Sons",
-        "Operator": "itaque",
+        "Name": "Parker LLC",
+        "Operator": "rerum",
         "Values": [
-          "inventore",
-          "voluptate"
+          "nihil",
+          "iste"
         ],
         "DisplayValues": [
-          "facere",
-          "aut"
+          "veniam",
+          "eum"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 866,
+        "InterParenthesis": 925,
         "InterOperator": "And",
-        "UniqueHash": 842
+        "UniqueHash": 647
       }
     ]
   }

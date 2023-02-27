@@ -28,8 +28,8 @@ Returns all webhooks, according to filter criteria
 | statusFilter | Enum: Unknown, Active, Stopped, TooManyErrors |  Only return hooks with this status. Default Unknown = no filter, returns all. |
 
 ```http
-GET /api/v1/Webhook?nameFilter=quis
-GET /api/v1/Webhook?eventFilter=et
+GET /api/v1/Webhook?nameFilter=unde
+GET /api/v1/Webhook?eventFilter=error
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,26 +91,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 53,
-    "Name": "Shanahan Group",
+    "WebhookId": 955,
+    "Name": "Bayer-Dare",
     "Events": [
-      "tempora",
-      "quaerat"
+      "corporis",
+      "harum"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "error",
+    "Secret": "ut",
     "State": "Active",
-    "Type": "hic",
+    "Type": "qui",
     "Headers": {
       "Headers1": "et",
-      "Headers2": "iure"
+      "Headers2": "odio"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "1998-07-19T11:22:45.5379661+02:00",
+    "Registered": "2021-10-15T14:19:11.0686043+02:00",
     "RegisteredAssociate": null,
-    "Updated": "1995-12-13T11:22:45.5379661+01:00",
+    "Updated": "2015-03-08T14:19:11.0842303+01:00",
     "UpdatedAssociate": null
   }
 ]

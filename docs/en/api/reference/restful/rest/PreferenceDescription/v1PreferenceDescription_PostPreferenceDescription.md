@@ -113,24 +113,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 353,
-  "Section": "dolores",
-  "Key": "amet",
-  "Name": "Herzog, Windler and Grady",
+  "PrefDescId": 305,
+  "Section": "quibusdam",
+  "Key": "beatae",
+  "Name": "Grady-Becker",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Persevering dynamic hierarchy",
-  "IsBuiltin": true,
-  "TableName": "Morar Inc and Sons",
-  "UserDefinedListId": 779,
-  "Rank": 402,
-  "SubGroup": "natus",
-  "MinLevel": 83,
-  "MaxValue": 680,
-  "MinValue": 578,
-  "RequiredLicense": "omnis"
+  "Description": "Reduced object-oriented firmware",
+  "IsBuiltin": false,
+  "TableName": "Blick, Kris and Hermann",
+  "UserDefinedListId": 278,
+  "Rank": 659,
+  "SubGroup": "nobis",
+  "MinLevel": 300,
+  "MaxValue": 215,
+  "MinValue": 263,
+  "RequiredLicense": "eveniet"
 }
 ```
 
@@ -141,35 +141,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 66,
-  "Section": "est",
-  "Key": "omnis",
-  "Name": "Green, Harvey and Daugherty",
+  "PrefDescId": 276,
+  "Section": "optio",
+  "Key": "perferendis",
+  "Name": "Klein, Connelly and Fay",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Visionary disintermediate model",
-  "IsBuiltin": true,
-  "TableName": "Nolan Inc and Sons",
-  "UserDefinedListId": 399,
-  "Rank": 275,
-  "SubGroup": "alias",
-  "MinLevel": 209,
-  "MaxValue": 513,
-  "MinValue": 211,
-  "RequiredLicense": "exercitationem",
+  "Description": "Upgradable optimizing orchestration",
+  "IsBuiltin": false,
+  "TableName": "Goyette, Carroll and Bergstrom",
+  "UserDefinedListId": 260,
+  "Rank": 869,
+  "SubGroup": "eos",
+  "MinLevel": 859,
+  "MaxValue": 145,
+  "MinValue": 639,
+  "RequiredLicense": "deserunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 439
+      "FieldType": "System.String",
+      "FieldLength": 669
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

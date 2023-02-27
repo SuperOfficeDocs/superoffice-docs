@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 37,
+    "HierarchyId": 656,
     "Domain": "Dashboards",
-    "Name": "Eichmann LLC",
-    "Fullname": "voluptas",
-    "ParentId": 862,
+    "Name": "Ondricka, Howe and Fadel",
+    "Fullname": "sint",
+    "ParentId": 243,
     "Children": [
       {
-        "HierarchyId": 40,
+        "HierarchyId": 31,
         "Domain": "Dashboards",
-        "Name": "Schaden, Kautzer and Borer",
-        "Fullname": "esse",
-        "ParentId": 202,
+        "Name": "Lemke, Buckridge and Quitzon",
+        "Fullname": "distinctio",
+        "ParentId": 913,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2005-06-20T11:22:38.5084132+02:00",
-        "RegisteredAssociateId": 647,
-        "Updated": "2017-01-30T11:22:38.5084132+01:00",
-        "UpdatedAssociateId": 20,
+        "Registered": "1996-03-06T14:19:03.6707496+01:00",
+        "RegisteredAssociateId": 566,
+        "Updated": "2021-07-05T14:19:03.6707496+02:00",
+        "UpdatedAssociateId": 198,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 590
+            "FieldLength": 788
           }
         }
       }
     ],
-    "Registered": "2015-08-27T11:22:38.5084132+02:00",
-    "RegisteredAssociateId": 340,
-    "Updated": "2021-10-23T11:22:38.5084132+02:00",
-    "UpdatedAssociateId": 484,
+    "Registered": "2022-04-08T14:19:03.6707496+02:00",
+    "RegisteredAssociateId": 618,
+    "Updated": "1995-11-05T14:19:03.6707496+01:00",
+    "UpdatedAssociateId": 150,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 427
+        "FieldLength": 198
       }
     }
   }

@@ -116,26 +116,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 839,
-  "PersonId": 759,
-  "AppointmentId": 931,
-  "DocumentId": 590,
-  "SaleId": 768,
-  "SelectionId": 169,
-  "ProjectId": 617,
+  "ContactId": 221,
+  "PersonId": 266,
+  "AppointmentId": 355,
+  "DocumentId": 127,
+  "SaleId": 77,
+  "SelectionId": 923,
+  "ProjectId": 828,
   "CustomTags": [
-    "et",
-    "amet"
+    "expedita",
+    "non"
   ],
   "CustomValues": [
-    "id",
-    "occaecati"
+    "culpa",
+    "aut"
   ],
-  "UiCulture": "illo"
+  "UiCulture": "vero"
 }
 ```
 
@@ -146,88 +146,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 458,
+  "DocumentId": 798,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quibusdam",
-  "Header": "vel",
-  "Name": "Fay, Labadie and Sauer",
-  "OurRef": "vitae",
-  "YourRef": "quia",
-  "CreatedDate": "2006-10-02T11:22:37.9304245+02:00",
-  "UpdatedDate": "2012-07-29T11:22:37.9304245+02:00",
-  "Description": "Configurable intermediate standardization",
+  "Attention": "ut",
+  "Header": "omnis",
+  "Name": "Durgan-Frami",
+  "OurRef": "in",
+  "YourRef": "blanditiis",
+  "CreatedDate": "2015-12-31T14:19:03.3074068+01:00",
+  "UpdatedDate": "2004-04-02T14:19:03.3074068+02:00",
+  "Description": "Face to face uniform installation",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2016-01-29T11:22:37.9304245+01:00",
-  "ExternalRef": "vero",
+  "Date": "2022-12-21T14:19:03.3074068+01:00",
+  "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 771,
+  "ActiveLinks": 340,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Koch, Borer and Kub",
-      "Id": 463,
-      "Description": "Multi-tiered asynchronous extranet",
-      "ExtraInfo": "porro",
-      "LinkId": 609,
+      "EntityName": "Becker Group",
+      "Id": 497,
+      "Description": "Cross-platform context-sensitive artificial intelligence",
+      "ExtraInfo": "qui",
+      "LinkId": 960,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 129
+          "FieldType": "System.String",
+          "FieldLength": 13
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 860,
-  "Snum": 101,
+  "SuggestedDocumentId": 399,
+  "Snum": 509,
   "UserDefinedFields": {
-    "SuperOffice:1": "Vesta Bartoletti",
-    "SuperOffice:2": "Keagan Robel"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "57384464"
   },
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "id"
+    "ExtraFields1": "unde",
+    "ExtraFields2": "architecto"
   },
   "CustomFields": {
-    "CustomFields1": "iste",
-    "CustomFields2": "recusandae"
+    "CustomFields1": "magnam",
+    "CustomFields2": "blanditiis"
   },
-  "PublishEventDate": "2002-09-22T11:22:37.9304245+02:00",
-  "PublishTo": "2003-01-25T11:22:37.9304245+01:00",
-  "PublishFrom": "1996-03-04T11:22:37.9304245+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2019-03-05T14:19:03.3074068+01:00",
+  "PublishTo": "2007-04-28T14:19:03.3074068+02:00",
+  "PublishFrom": "2006-11-07T14:19:03.3074068+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 119,
+      "VisibleId": 646,
       "Visibility": "All",
-      "DisplayValue": "maiores",
+      "DisplayValue": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 181
+          "FieldType": "System.String",
+          "FieldLength": 431
         }
       }
     },
     {
-      "VisibleId": 119,
+      "VisibleId": 646,
       "Visibility": "All",
-      "DisplayValue": "maiores",
+      "DisplayValue": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 181
+          "FieldType": "System.String",
+          "FieldLength": 431
         }
       }
     }
@@ -236,8 +236,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 512
+      "FieldType": "System.Int32",
+      "FieldLength": 968
     }
   }
 }

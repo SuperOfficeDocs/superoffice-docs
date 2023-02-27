@@ -82,39 +82,39 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 509,
-  "Field": "maxime",
-  "RecordId": 941,
+  "RefCountsId": 602,
+  "Field": "eum",
+  "RecordId": 110,
   "SuggestedRecords": [
     {
-      "Id": 356,
-      "Name": "Kuhlman, Sauer and Marvin",
-      "ToolTip": "Ut voluptatum omnis neque iste sit reprehenderit earum.",
-      "Deleted": true,
-      "Rank": 258,
-      "Type": "consequatur",
+      "Id": 748,
+      "Name": "Braun, Raynor and Treutel",
+      "ToolTip": "Aperiam eum aspernatur suscipit.",
+      "Deleted": false,
+      "Rank": 864,
+      "Type": "necessitatibus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "harum",
-      "ColorBlock": 921,
-      "ExtraInfo": "dolore",
-      "StyleHint": "rem",
-      "FullName": "Linda Goldner"
+      "IconHint": "aliquam",
+      "ColorBlock": 352,
+      "ExtraInfo": "id",
+      "StyleHint": "autem",
+      "FullName": "Petra Hoppe"
     }
   ],
-  "CurrentValue": 791,
-  "TravelPrefix": 387,
-  "SatPrefix": 105,
+  "CurrentValue": 720,
+  "TravelPrefix": 891,
+  "SatPrefix": 170,
   "Allocate": false,
   "Unique": false,
-  "ReadOnly": false,
-  "AllowBlank": true
+  "ReadOnly": true,
+  "AllowBlank": false
 }
 ```
 
@@ -125,49 +125,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 916,
-  "Field": "modi",
-  "RecordId": 825,
+  "RefCountsId": 830,
+  "Field": "autem",
+  "RecordId": 180,
   "SuggestedRecords": [
     {
-      "Id": 746,
-      "Name": "Steuber, O'Kon and Lindgren",
-      "ToolTip": "Aut dolorem aut minus numquam.",
+      "Id": 860,
+      "Name": "Leffler-Howell",
+      "ToolTip": "Et doloribus.",
       "Deleted": false,
-      "Rank": 31,
-      "Type": "rem",
+      "Rank": 685,
+      "Type": "asperiores",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "reiciendis",
-      "ColorBlock": 824,
-      "ExtraInfo": "laudantium",
-      "StyleHint": "fugit",
-      "FullName": "Lavonne Greenholt",
+      "IconHint": "velit",
+      "ColorBlock": 845,
+      "ExtraInfo": "recusandae",
+      "StyleHint": "officia",
+      "FullName": "Prof. Elyssa Gulgowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 468
+          "FieldType": "System.String",
+          "FieldLength": 258
         }
       }
     }
   ],
-  "CurrentValue": 615,
-  "TravelPrefix": 824,
-  "SatPrefix": 615,
-  "Allocate": true,
+  "CurrentValue": 180,
+  "TravelPrefix": 239,
+  "SatPrefix": 525,
+  "Allocate": false,
   "Unique": false,
-  "ReadOnly": false,
+  "ReadOnly": true,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 744
+      "FieldLength": 143
     }
   }
 }

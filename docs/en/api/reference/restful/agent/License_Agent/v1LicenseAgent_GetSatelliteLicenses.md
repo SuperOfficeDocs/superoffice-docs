@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 361
+  "SatelliteId": 498
 }
 ```
 
@@ -91,56 +91,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bergnaum-DuBuque",
-    "Description": "Operative clear-thinking moderator",
+    "Name": "Hauck-Fahey",
+    "Description": "Synergistic cohesive circuit",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 460,
-        "Tooltip": "qui",
-        "CanAssign": false,
-        "Free": 546,
-        "InUse": 548,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 509,
-        "Name": "Krajcik-Medhurst",
-        "Description": "Ameliorated optimizing protocol",
-        "PrerequisiteModuleName": "Wilderman Group",
-        "SortOrder": 791,
-        "ExtraFlags": 404,
+        "Total": 642,
+        "Tooltip": "beatae",
+        "CanAssign": true,
+        "Free": 190,
+        "InUse": 818,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 58,
+        "Name": "Hartmann, Rohan and Dare",
+        "Description": "Balanced holistic hub",
+        "PrerequisiteModuleName": "Buckridge, Haag and Dibbert",
+        "SortOrder": 689,
+        "ExtraFlags": 765,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 536
+            "FieldType": "System.Int32",
+            "FieldLength": 680
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 596,
-        "Tooltip": "placeat",
+        "Unrestricted": false,
+        "Total": 326,
+        "Tooltip": "sint",
         "CanAssign": true,
-        "Free": 230,
-        "InUse": 911,
+        "Free": 12,
+        "InUse": 708,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 20,
-        "Name": "Wisozk, Steuber and DuBuque",
-        "Description": "Upgradable encompassing conglomeration",
-        "PrerequisiteModuleName": "Brekke, Douglas and Okuneva",
-        "SortOrder": 777,
-        "ExtraFlags": 658,
+        "Assigned": false,
+        "ModuleLicenseId": 885,
+        "Name": "Roob LLC",
+        "Description": "Intuitive directional customer loyalty",
+        "PrerequisiteModuleName": "McDermott-Weimann",
+        "SortOrder": 528,
+        "ExtraFlags": 945,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 589
+            "FieldLength": 165
           }
         }
       }
@@ -150,61 +150,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldLength": 375
       }
     }
   },
   {
-    "Name": "Bergnaum-DuBuque",
-    "Description": "Operative clear-thinking moderator",
+    "Name": "Hauck-Fahey",
+    "Description": "Synergistic cohesive circuit",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 460,
-        "Tooltip": "qui",
-        "CanAssign": false,
-        "Free": 546,
-        "InUse": 548,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 509,
-        "Name": "Krajcik-Medhurst",
-        "Description": "Ameliorated optimizing protocol",
-        "PrerequisiteModuleName": "Wilderman Group",
-        "SortOrder": 791,
-        "ExtraFlags": 404,
+        "Total": 642,
+        "Tooltip": "beatae",
+        "CanAssign": true,
+        "Free": 190,
+        "InUse": 818,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 58,
+        "Name": "Hartmann, Rohan and Dare",
+        "Description": "Balanced holistic hub",
+        "PrerequisiteModuleName": "Buckridge, Haag and Dibbert",
+        "SortOrder": 689,
+        "ExtraFlags": 765,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 536
+            "FieldType": "System.Int32",
+            "FieldLength": 680
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 596,
-        "Tooltip": "placeat",
+        "Unrestricted": false,
+        "Total": 326,
+        "Tooltip": "sint",
         "CanAssign": true,
-        "Free": 230,
-        "InUse": 911,
+        "Free": 12,
+        "InUse": 708,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 20,
-        "Name": "Wisozk, Steuber and DuBuque",
-        "Description": "Upgradable encompassing conglomeration",
-        "PrerequisiteModuleName": "Brekke, Douglas and Okuneva",
-        "SortOrder": 777,
-        "ExtraFlags": 658,
+        "Assigned": false,
+        "ModuleLicenseId": 885,
+        "Name": "Roob LLC",
+        "Description": "Intuitive directional customer loyalty",
+        "PrerequisiteModuleName": "McDermott-Weimann",
+        "SortOrder": 528,
+        "ExtraFlags": 945,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 589
+            "FieldLength": 165
           }
         }
       }
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldLength": 375
       }
     }
   }

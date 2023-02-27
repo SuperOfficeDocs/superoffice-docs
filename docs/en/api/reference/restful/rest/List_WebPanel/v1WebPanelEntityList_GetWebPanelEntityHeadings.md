@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 698,
-    "Name": "Casper-Frami",
-    "Tooltip": "a",
+    "HeadingId": 690,
+    "Name": "Cronin, Stiedemann and Witting",
+    "Tooltip": "quasi",
     "Deleted": false,
-    "Rank": 572,
-    "UdListDefinitionId": 539,
+    "Rank": 429,
+    "UdListDefinitionId": 901,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 53
+        "FieldLength": 601
       }
     }
   }

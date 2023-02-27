@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 874,
-  "Name": "Reichert Group",
-  "Tooltip": "maiores",
-  "Deleted": true,
-  "Rank": 249,
-  "IsCustomList": true,
+  "Id": 927,
+  "Name": "Bashirian, Corwin and Kiehn",
+  "Tooltip": "odio",
+  "Deleted": false,
+  "Rank": 94,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eos",
-  "InUseByUserDefinedFields": true
+  "ListType": "harum",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 411,
-  "Name": "Okuneva LLC",
-  "Tooltip": "beatae",
+  "Id": 322,
+  "Name": "Luettgen, Leffler and Volkman",
+  "Tooltip": "dolorem",
   "Deleted": true,
-  "Rank": 309,
-  "IsCustomList": false,
+  "Rank": 595,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "porro",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldLength": 618
     }
   }
 }

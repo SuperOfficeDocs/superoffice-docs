@@ -99,34 +99,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 919,
-  "UniqueId": "aperiam",
-  "Name": "Hahn-Medhurst",
-  "Description": "User-centric disintermediate benchmark",
-  "AssociateId": 201,
-  "Columns": 779,
+  "DashboardId": 672,
+  "UniqueId": "id",
+  "Name": "Kling-Kris",
+  "Description": "Phased demand-driven monitoring",
+  "AssociateId": 958,
+  "Columns": 672,
   "Theme": null,
-  "VisibleForAll": 342,
+  "VisibleForAll": 308,
   "VisibleForAssociates": [
-    974,
-    107
+    302,
+    418
   ],
   "VisibleForGroups": [
-    64,
-    201
+    160,
+    827
   ],
-  "PinForAll": 232,
+  "PinForAll": 664,
   "PinForAssociates": [
-    222,
-    759
+    983,
+    266
   ],
   "PinForGroups": [
-    738,
-    980
+    965,
+    760
   ]
 }
 ```
@@ -138,37 +138,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 198,
-  "UniqueId": "cum",
-  "Name": "Heidenreich, Hansen and Bergnaum",
-  "Description": "Mandatory directional budgetary management",
-  "AssociateId": 28,
-  "Columns": 584,
+  "DashboardId": 48,
+  "UniqueId": "ratione",
+  "Name": "Walsh Group",
+  "Description": "Fundamental 3rd generation capability",
+  "AssociateId": 287,
+  "Columns": 355,
   "Theme": null,
-  "VisibleForAll": 832,
+  "VisibleForAll": 990,
   "VisibleForAssociates": [
-    732,
-    254
+    145,
+    95
   ],
   "VisibleForGroups": [
-    525,
-    112
+    633,
+    733
   ],
-  "PinForAll": 857,
+  "PinForAll": 395,
   "PinForAssociates": [
-    451,
-    739
+    790,
+    167
   ],
   "PinForGroups": [
-    725,
-    605
+    243,
+    338
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldType": "System.String",
+      "FieldLength": 317
     }
   },
   "_Links": {

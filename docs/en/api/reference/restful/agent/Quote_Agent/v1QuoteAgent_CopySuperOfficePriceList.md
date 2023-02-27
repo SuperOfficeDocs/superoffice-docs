@@ -90,11 +90,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 812,
-  "NewName": "Blick-Sawayn",
-  "ValidFrom": "2019-09-15T11:22:38.8989499+02:00",
-  "ValidTo": "2019-08-02T11:22:38.8989499+02:00",
-  "NewCurrencyId": 480,
+  "OriginalPriceListId": 707,
+  "NewName": "Emard, Wyman and Brekke",
+  "ValidFrom": "2016-09-14T14:19:04.0000842+02:00",
+  "ValidTo": "2012-09-25T14:19:04.0000842+02:00",
+  "NewCurrencyId": 339,
   "ConvertCurrency": false
 }
 ```
@@ -106,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 637,
-  "ERPPriceListKey": "illum",
-  "QuoteConnectionId": 475,
-  "Name": "Legros, Bartoletti and Hand",
-  "Description": "Proactive hybrid archive",
-  "Currency": "itaque",
-  "CurrencyName": "Senger, Hessel and Marks",
-  "ValidFrom": "1998-09-04T11:22:38.8989499+02:00",
-  "ValidTo": "2019-08-19T11:22:38.8989499+02:00",
-  "IsActive": false,
+  "PriceListId": 7,
+  "ERPPriceListKey": "aspernatur",
+  "QuoteConnectionId": 874,
+  "Name": "Brown Inc and Sons",
+  "Description": "Inverse motivating definition",
+  "Currency": "at",
+  "CurrencyName": "Dietrich-Windler",
+  "ValidFrom": "2005-02-01T14:19:04.0000842+01:00",
+  "ValidTo": "2002-09-23T14:19:04.0000842+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 331
+      "FieldLength": 14
     }
   }
 }
