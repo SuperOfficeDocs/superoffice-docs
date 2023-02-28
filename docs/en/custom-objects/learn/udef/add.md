@@ -55,7 +55,7 @@ Watch this video to find out how you can create your own extra fields in SuperOf
 1. When you have specified the required settings, click **Save**. The dialog box will close and the new field is displayed in the **Fields** list and in the grid.
 
 > [!TIP]
-> In the bottom right of the **Fields** dialog is the **Template variable name** followed by a code (ID), which can be used to reuse the information you enter in this field, for example, as [template variables][2] in documents and emails.
+> In the lower right of the **Fields** dialog is the **Template variable name** followed by a code (ID), which can be used to reuse the information you enter in this field, for example, as [template variables][2] in documents and emails.
 
 1. [Adjust the position of the field][3].
 2. Click **Publish** if you want the field to be available to SuperOffice CRM users. Unpublished fields ( ![icon][img1] ) and fields with unpublished changes ( ![icon][img2] ) are displayed in bold text in the **Fields** list.

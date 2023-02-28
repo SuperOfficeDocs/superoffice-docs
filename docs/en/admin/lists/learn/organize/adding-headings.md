@@ -17,7 +17,7 @@ Before linking a heading to an item, you must add the headings you require.
 
 2. [!include[Click arrow and select](../includes/expand-list.md)] the required list.
 
-3. Check **Use grouping and filtering by user group for this list** (top right).
+3. Check **Use grouping and filtering by user group for this list** (upper right).
 
 4. Go to the **Headings** tab.
 

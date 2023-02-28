@@ -13,7 +13,7 @@ language: en
 
 List items can be displayed at two levels. The higher level is called the item’s **heading**. A heading contains item groups that can be displayed under the selected item in SuperOffice CRM.
 
-The **Headings** list (in the bottom right of the **Lists** screen) shows which headings the individual items are displayed under. You can also go to the **Headings** tab to see which items appear under a specific heading.
+The **Headings** list (in the lower right of the **Lists** screen) shows which headings the individual items are displayed under. You can also go to the **Headings** tab to see which items appear under a specific heading.
 
 > [!TIP]
 > The same items can appear under several headings.

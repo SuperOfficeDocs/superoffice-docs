@@ -133,7 +133,7 @@ To do this:
 
 3. Copy the target data in the spreadsheet (amounts only). You can select any area.
 
-4. Select the top left cell in the relevant area in SuperOffice and paste the data. If some of the rows are locked, you will be unable to paste the data.
+4. Select the upper-left cell in the relevant area in SuperOffice and paste the data. If some of the rows are locked, you will be unable to paste the data.
 
 ## Revision history
 

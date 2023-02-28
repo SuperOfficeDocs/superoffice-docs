@@ -15,7 +15,7 @@ Do one of the following:
 
 * Use lists, which are actually predefined searches.
 * Use the search screen for requests.
-* Use the [quick search][3] in the top right corner.
+* Use the [quick search][3] in the upper right corner.
 
 > [!TIP]
 > Learn about [search in SuperOffice Service][4] in general.
@@ -102,7 +102,7 @@ Contains a list of requests that match the criteria specified above. Here you ca
 * Sort the requests by clicking the appropriate column heading.
 * Select a row to display the content of that request in the preview section.
 * [Open a request][3] by double-clicking the relevant row.
-* Click the ![icon][img1] menu button in the top right corner to access the change the view options.
+* Click the ![icon][img1] menu button in the upper right corner to access the change the view options.
 
 > [!TIP]
 > The status **Open** together with the **Read** column will give an overview if the request were **Read by owner**, **New information** or **Not read by owner**.
@@ -117,7 +117,7 @@ Under the list, you can click the ![icon][img1] menu button to access the follow
 
 This section of the screen displays the contents of the request selected under **Result**. You have the same options as when [processing requests][6].
 
-If the preview section is not visible, click the ![icon][img1] menu button in the top right corner and select **Show reading pane to the right** or **Show reading pane below**.
+If the preview section is not visible, click the ![icon][img1] menu button in the upper right corner and select **Show reading pane to the right** or **Show reading pane below**.
 
 ## What would you like to do now?
 

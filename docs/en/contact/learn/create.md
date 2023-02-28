@@ -31,9 +31,9 @@ There are many ways you can add contacts to SuperOffice CRM:
     * Contact's first name and/or last name. Mandatory: You must enter either a first name or a last name.
     * Salutation (***Mr/Ms***)
     * Company. Select a company in the list or start typing a company name to search. If the contact should not be connected to a company, select **(No Selection)**.
-    * Contact image. You can add a photo by dragging the image file from Windows Explorer and dropping it on the image field at the top left of the tab.
+    * Contact image. You can add a photo by dragging the image file from Windows Explorer and dropping it on the image field at the upper left of the tab.
 
-    You can also add a picture by right-clicking the picture field at the top left of the tab. Click the link and browse to the picture you require and click **Open** to add the picture.
+    You can also add a picture by right-clicking the picture field at the upper left of the tab. Click the link and browse to the picture you require and click **Open** to add the picture.
 
 3. Enter contact information in the **Contact** tab.
 

@@ -38,13 +38,13 @@ A combined selection is a combination of two or more existing selections. Here y
 
 6. Go to the **Selection** tab. Here you're going to choose which selections you want to combine.
 
-7. Click the list button ( ![icon][img1] ) next to **Add selection** at the bottom left, and select the option you want to use for combining the selections. The choice you make here is irrelevant for the first selection you add, so you can leave it at **All**.
+7. Click the list button ( ![icon][img1] ) next to **Add selection** at the lower left, and select the option you want to use for combining the selections. The choice you make here is irrelevant for the first selection you add, so you can leave it at **All**.
 
 8. Click the next list button ( ![icon][img1] ), and pick a selection.
 
 9. Click the **Add selection** button. The selection is added to the list above.
 
-10. You are now going to add selection number 2. Click the list button ( ![icon][img1] ) next to **Add selection** at the bottom left, and select the option you want to use for combining selection number 1 and selection number 2.
+10. You are now going to add selection number 2. Click the list button ( ![icon][img1] ) next to **Add selection** at the lower left, and select the option you want to use for combining selection number 1 and selection number 2.
     * **All**: Displays all records from both selections 1 and 2.
     * **Only in Selection 1**: Displays records in selection 1, excluding those which are in both selection 1 and selection 2.
     * **Difference**: Displays only records which are either in selection 1 and or in selection 2 (but not in both).

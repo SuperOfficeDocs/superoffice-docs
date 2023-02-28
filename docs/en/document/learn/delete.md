@@ -12,5 +12,5 @@ language: en
 # Delete documents
 
 1. Select the required document on the **Activities** section tab in the **Company**, **Contact**, **Diary**, **Sale** or **Project** screens.
-2. Click the **Delete** button at the bottom left of the list.
+2. Click the **Delete** button at the lower left of the list.
 3. In the **Delete Document** dialog, confirm or cancel the deletion.

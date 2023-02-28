@@ -21,7 +21,7 @@ When you specify an item in a list in the **Lists** screen, you can also specify
 
 2. [!include[Click arrow and select](../includes/expand-list.md)] the required list.
 
-3. Check **Use grouping and user group filtering for this list** in the top right corner.
+3. Check **Use grouping and user group filtering for this list** in the upper right corner.
 
     > [!NOTE]
     > If you do not check **Use grouping and user group filtering for this list**, all items in the list are visible for all user groups.
@@ -47,7 +47,7 @@ You can also specify available items for a user group:
 
 2. [!include[Click arrow and select](../includes/expand-list.md)] the required list.
 
-3. Check **Use grouping and user group filtering for this list** in the top right corner.
+3. Check **Use grouping and user group filtering for this list** in the upper right corner.
 
     > [!NOTE]
     > If you do not check **Use grouping and user group filtering for this list**, all items in the list will be visible for all user groups.

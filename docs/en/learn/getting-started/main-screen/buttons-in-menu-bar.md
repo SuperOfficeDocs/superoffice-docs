@@ -13,7 +13,7 @@ language: en
 
 ## The SuperOffice logo
 
-At the top left in SuperOffice CRM is the SuperOffice logo with the following functions:
+At the upper left in SuperOffice CRM is the SuperOffice logo with the following functions:
 
 ![SuperOffice logo][img9]
 
@@ -32,7 +32,7 @@ The items at the top of the screen vary slightly between SuperOffice CRM, Servic
 | ![icon][img2] | Personal settings | Click here to edit your personal settings, such as preferences, email signature and password. If you added an image in your own contact card, this image will appear on the button. (Options listed below) |
 | ![icon][img1] | Main menu | Click here to access general system settings (options listed below) and to switch between SuperOffice CRM and Settings and maintenance. |
 | Help | Help | Clicking this button gives you access to comprehensive and easily accessible information on how to use the system. Wherever you are in the program, no matter what you are doing, you can always get help about the precise task you are involved in. |
-| ![icon][img7] | Search | At the top right is the search field. You can use this field to quickly find data in the system. |
+| ![icon][img7] | Search | At the upper right is the search field. You can use this field to quickly find data in the system. |
 
 ## Options in the Personal settings menu
 

@@ -29,9 +29,9 @@
 
 14. In the **Main contact** field, select the contact who should be the main contact for this client. You must add contacts to the company first.
 
-15. At the bottom right of this tab, three of the fields from the **More** tab may be displayed, as defined in SuperOffice Settings and maintenance. The fields displayed can vary from user group to user group.
+15. At the lower right of this tab, three of the fields from the **More** tab may be displayed, as defined in SuperOffice Settings and maintenance. The fields displayed can vary from user group to user group.
 
-16. The bottom left corner of the company card contains two checkboxes: **Stop** and **No Mailings**.
+16. The lower left corner of the company card contains two checkboxes: **Stop** and **No Mailings**.
 
     * Check **Stop** to inform associates that they should pay particular attention to a certain company. A stop sign is displayed on the company card. It may also be useful to insert a note informing your associates why this company is marked with a stop. It is only possible to put a check in this field in edit mode.
 

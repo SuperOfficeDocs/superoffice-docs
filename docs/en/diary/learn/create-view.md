@@ -17,7 +17,7 @@ You can add a selection of users and resources in your organization to a view.
 
 1. Click the **View** tab in the **Diary** screen.
 
-1. Click the **Task** button (![icon][img1]) at the bottom right and choose **New group view**.
+1. Click the **Task** button (![icon][img1]) at the lower right and choose **New group view**.
 
     > [!TIP]
     > To edit an existing view, click **Edit**, and to copy an existing view, click **Copy**.
@@ -51,7 +51,7 @@ You can add a selection of users and resources in your organization to a view.
 You will then be returned to the **View** tab, where you can create appointments for associates, and so forth.
 
 > [!TIP]
-> To delete the active group view, click the **Task** button at the bottom right and select **Delete group view**.
+> To delete the active group view, click the **Task** button at the lower right and select **Delete group view**.
 
 ## What would you like to do now?
 

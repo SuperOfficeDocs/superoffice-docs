@@ -21,7 +21,7 @@ To use the [Google Analytics feature][2], you need a Google Analytics account co
 
 ## Steps
 
-1. Start by opening the mailing you want to track with Google Analytics or create a new mailing. Go to the first step of the mailing wizard (Setup). Here you’ll find the heading **Tracking** in the bottom right corner. Here you can check the boxes **Track all links** and **Use Google Analytics**. When you check Use Google Analytics, the Google Analytics text fields will appear.
+1. Start by opening the mailing you want to track with Google Analytics or create a new mailing. Go to the first step of the mailing wizard (Setup). Here you’ll find the heading **Tracking** in the bottomright corner. Here you can check the boxes **Track all links** and **Use Google Analytics**. When you check Use Google Analytics, the Google Analytics text fields will appear.
 
     ![Check off the box for Google Analytics and track all links -screenshot][img1]
 

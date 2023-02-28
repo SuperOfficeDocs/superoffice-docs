@@ -1,7 +1,7 @@
 <!-- markdownlint-disable-file MD041 -->
 <details><summary>Where is the preview?</summary>
 
-If the preview section is not visible, click the ![icon][img1] menu button in the top right corner and select **Show reading pane to the right** or **Show reading pane below**.
+If the preview section is not visible, click the ![icon][img1] menu button in the upper right corner and select **Show reading pane to the right** or **Show reading pane below**.
 
 </details>
 

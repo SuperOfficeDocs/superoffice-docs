@@ -62,7 +62,7 @@ The best way to define your own project or sales guides is to discuss and agree 
 ## Mobile CRM
 
 > [!NOTE]
-> To change the language in Mobile CRM, click the **Task** button in the bottom left corner. Then select **Settings**, click **Language** and select from the options.
+> To change the language in Mobile CRM, click the **Task** button in the bottom-left corner. Then select **Settings**, click **Language** and select from the options.
 
 ## Related
 

@@ -18,7 +18,7 @@ so.envir: onsite
 
 1. [!include[How to open import](includes/open-import.md)]
 
-2. Click the **New** button at the top right of the screen. The **Import** screen is cleared.
+2. Click the **New** button at the upper right of the screen. The **Import** screen is cleared.
 
 3. Specify a data file in the **Import file** field.
 

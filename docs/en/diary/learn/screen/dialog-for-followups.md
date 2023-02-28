@@ -147,7 +147,7 @@ Check here if you want the follow-up to be visible to external users.
 
 This tab contains a [list of participants][6] in the follow-up. Registered participants are marked with a dot.
 
-If you click the **View as group** button ![icon][img7] at the bottom right of the **Participants** tab, the **View** tab in the diary opens, giving you an overview of the [diaries of the invited associates][7] (SuperOffice users).
+If you click the **View as group** button ![icon][img7] at the lower right of the **Participants** tab, the **View** tab in the diary opens, giving you an overview of the [diaries of the invited associates][7] (SuperOffice users).
 
 ## The Links tab
 

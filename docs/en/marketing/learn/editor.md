@@ -34,7 +34,7 @@ A blue frame is shown around the selected element, so that you always know which
 
 If you click text content, a text editing toolbar is displayed.
 
-The global menu is always displayed at the bottom left of the content area.
+The global menu is always displayed at the lower left of the content area.
 
 ## Edit text and images
 
@@ -71,7 +71,7 @@ See also [Add content][1].
 
 ### Global menu
 
-From the global menu, you can preview, undo or repeat actions, and se how the message looks on desktop or mobile. This menu is always displayed at the bottom left in the content area.
+From the global menu, you can preview, undo or repeat actions, and se how the message looks on desktop or mobile. This menu is always displayed at the lower left in the content area.
 
 | Icon | Name | Function |
 |:-:|---|---|

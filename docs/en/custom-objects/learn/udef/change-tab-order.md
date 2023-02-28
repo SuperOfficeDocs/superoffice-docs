@@ -13,7 +13,7 @@ language: en
 
 The TAB order is the order that you move between the various fields when you press the TAB key. You can change the TAB order to reflect the logical sequence users normally enter data in fields.
 
-The TAB order is displayed in the **Name** list on the left of the screen. This order is not the same as the fields’ physical positions, which are shown in the preview field at the top right.
+The TAB order is displayed in the **Name** list on the left of the screen. This order is not the same as the fields’ physical positions, which are shown in the preview field at the upper right.
 
 **Steps:**
 

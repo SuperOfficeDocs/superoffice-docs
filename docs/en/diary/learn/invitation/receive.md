@@ -68,7 +68,7 @@ If you select **Show repetitions** below the list of invitations, all instances 
 There are two ways to see if a [follow-up is recurring][3]:
 
 * The status icon ![icon][img5] is shown in the list of invitations.
-* You will see a 'repeat' icon at the top left of the bottom section of the dialog.
+* You will see a 'repeat' icon at the upper left of the bottom section of the dialog.
 
 Click **Close** to close the dialog.
 

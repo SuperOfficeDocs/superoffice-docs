@@ -25,7 +25,7 @@ In Settings and maintenance, you can specify for most predefined and all user-de
 
 1. [!include[Go to Lists](../includes/goto-lists.md)]
 2. [!include[Click arrow and select](../includes/expand-list.md)] the required list.
-3. Check **Use grouping and user group filtering for this list** at the top right.
+3. Check **Use grouping and user group filtering for this list** at the upper right.
 
 > [!NOTE]
 > The grouping function is not available for some of the predefined lists (for example, the **General - User group** list). If a list cannot be grouped, this checkbox is disabled. [How to group items under headings][1].

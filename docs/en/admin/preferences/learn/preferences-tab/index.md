@@ -27,7 +27,7 @@ The rest of the **Preferences** tab is divided into three main sections:
 > [!NOTE]
 > Preferences with active individual settings are shown in bold text in the preferences list.
 
-* At the top right, the description field shows a description of the preference currently selected in the **Preferences** list.
+* At the upper right, the description field shows a description of the preference currently selected in the **Preferences** list.
 * Below, the **Active settings** field shows the settings specified for the preference currently selected in the **Preferences** list. See [Active settings][2].
 
 ## Groups of preferences

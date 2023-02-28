@@ -32,7 +32,7 @@ The appearance of the list of members varies slightly depending on what the sele
 > [!TIP]
 > Click ![icon][img3] to the right of the column headers in a selection to group and filter records, and add/remove columns. These settings can be saved for the active selection by selecting **Save columns for current selection only**. See also [The section tabs][9 ] for additional functions.
 
-To move between selections, click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the top right of the screen.
+To move between selections, click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the upper right of the screen.
 
 ### <a id="filter" />Filtering the list of members
 

@@ -15,7 +15,7 @@ The **Project** screen contains information about the projects entered into Supe
 
 ![Project screen -screenshot][img3]
 
-To move backwards and forwards between projects, click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the bottom right of the cards
+To move backwards and forwards between projects, click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the lower right of the cards
 
 If you select a project type for which a [project guide][1] is defined, the **Project guide** tab is displayed on the section tab.
 

@@ -20,7 +20,7 @@ The side panel allows you to view and use information from other parts of your C
 You can choose from different views by clicking the arrow (![icon][img3]) to the right of the side panel's view name.
 
 > [!TIP]
-> You can also minimize the side-panel by clicking the Minimize button (![icon][img4]) on the top right corner, to get more room for the main cards and archives.
+> You can also minimize the side-panel by clicking the Minimize button (![icon][img4]) on the upper right corner, to get more room for the main cards and archives.
 
 The side panel is useful for showing information complementary to the screen you are in. For example, you can display the monthly calendar at the same time as you are viewing the daily calendar in the **Diary** screen, to give you a better overview, or you can show the members of a selection linked to a project you are looking at in the **Project** screen.
 

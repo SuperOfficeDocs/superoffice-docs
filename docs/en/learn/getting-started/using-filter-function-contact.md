@@ -47,7 +47,7 @@ Hold the mouse pointer over the **Filter** button ![icon][img1] to display the a
 > [!NOTE]
 > In the **Activities** tab, you can also use pre-defined filters for documents, follow-ups, chats/forms (other) and mailings. See [Use filters in the section tabs][2].
 
-Click **Show count** at the bottom right of the section tab, to see how many records are displayed. The number changes according to active filter(s).
+Click **Show count** at the lower right of the section tab, to see how many records are displayed. The number changes according to active filter(s).
 
 ## Related topics
 

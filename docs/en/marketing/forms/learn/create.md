@@ -96,7 +96,7 @@ In the **Fields** category you add the fields that should be included in the for
 
 6. Click ![icon][img3] at the top of the field and drag it to the desired position in the form.
 
-7. Select the field and edit the field name if relevant. The original field name will always be displayed in the top right corner of the field.
+7. Select the field and edit the field name if relevant. The original field name will always be displayed in the upper right corner of the field.
 
 8. You can also edit these settings (optional):
 

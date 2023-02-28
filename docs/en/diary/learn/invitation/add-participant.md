@@ -22,7 +22,7 @@ Invite a contact to an appointment from the participants tab by clicking the **A
 
 1. Open the **Appointment**, **Task** or **Phone Call** dialog and [enter the required information][2].
 
-2. Open the **Participants** tab and click **Add** at the bottom left of the window. The **Invitation** dialog opens.
+2. Open the **Participants** tab and click **Add** at the lower left of the window. The **Invitation** dialog opens.
 
     > [!NOTE]
     > If you have the overviews of other users or resources open, they are automatically entered as participants in the **Participants** tab. Otherwise select them manually as described below.

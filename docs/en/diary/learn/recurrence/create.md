@@ -22,7 +22,7 @@ It may happen that you want to create a series of appointments to occur at regul
 
 3. Click the word **Never** to the right of the **Recurrence** field.
 
-4. At the top right of the **Repeating follow-ups** dialog, the start date and time for the follow-up as well as the end time are displayed.
+4. At the upper right of the **Repeating follow-ups** dialog, the start date and time for the follow-up as well as the end time are displayed.
 
     > [!NOTE]
     > You can change only the start date for the follow-up here. To change the time, first close the **Repeating follow-ups** dialog and then change the time in the **Appointment**, **Task**, or **Phone call** dialog.

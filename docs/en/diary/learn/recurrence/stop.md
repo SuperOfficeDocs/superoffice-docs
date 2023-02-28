@@ -17,7 +17,7 @@ language: en
 
 3. Click the link to the right of the **Recurrence** text.
 
-4. In the **Repeating follow-ups** dialog, click **Stop repeating** at the bottom left of the dialog.
+4. In the **Repeating follow-ups** dialog, click **Stop repeating** at the lower left of the dialog.
 
     The **Repeating follow-ups** dialog closes.
 

@@ -11,7 +11,7 @@ language: en
 
 # Use quick search
 
-No matter where you are in SuperOffice Service, the quick search field is always at the top right. You can use this field to quickly find data in the system. Quick search works slightly differently for requests and other records.
+No matter where you are in SuperOffice Service, the quick search field is always at the upper right. You can use this field to quickly find data in the system. Quick search works slightly differently for requests and other records.
 
 ## Search for requests
 

@@ -45,7 +45,7 @@ Contains a list of contacts that match the criteria specified above. Here you ca
 * Sort the contacts by clicking the appropriate column heading.
 * Select a row to display the requests linked to that contact in the preview section.
 * You can open a screen of [information about the contact][3] by double-clicking the relevant row.
-* Click the ![icon][img1] menu button in the top right corner to access the change the view options.
+* Click the ![icon][img1] menu button in the upper right corner to access the change the view options.
 
 Under the list, you can click the ![icon][img1] menu button to access the following options:
 

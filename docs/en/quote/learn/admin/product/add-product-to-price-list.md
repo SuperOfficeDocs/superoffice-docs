@@ -47,7 +47,7 @@ See [Select a product image][2].
 
 ## Add description
 
-In the field at the bottom left you can enter a description of the product.
+In the field at the lower left you can enter a description of the product.
 
 ## Add product information
 

@@ -11,7 +11,7 @@
 
 6. You can enter a more detailed description of the sale in the large text box on the left.
 
-7. At the top right of the **Sale** tab, you can enter an estimated amount for the sale.
+7. At the upper right of the **Sale** tab, you can enter an estimated amount for the sale.
 
 8. The **Owner** field automatically displays the user currently logged in. You can select a different user if required.
 

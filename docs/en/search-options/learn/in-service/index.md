@@ -91,10 +91,10 @@ If you click one of the column headings below **Result**, you get the following 
 * **Group by**: For example, if you have the "Category" column containing the values "Sales", "Support" and "Invoices", the records are divided into three groups with these headings.
 * **Functions**: If you click here you can choose between **Mathematical functions** and **Statistical functions**. An example of a mathematical function is summing a column consisting of numerical values. With regard to statistical functions, you can, for example, [add a column][7] showing request response times, and then use the **Average** statistical function to display the average response time for the displayed requests. If, instead, you select **Remove functions**, you remove any previously specified functions.
 
-At the top right corner of the search results list are the following buttons:
+At the upper right corner of the search results list are the following buttons:
 
 * **Update content** ![icon][img1]: Clicking this button updates the search result with any new records that also match the criteria.
-* Click the ![icon][img2] menu button in the top right corner to access the change the view options.
+* Click the ![icon][img2] menu button in the upper right corner to access the change the view options.
 * **Edit element profile** ![icon][img8]: Clicking this button takes you to the **Edit element profile** screen, where you can determine [how the search results should be presented][8].
 
 Under the list, you can click ![icon][img2] to access the following options:

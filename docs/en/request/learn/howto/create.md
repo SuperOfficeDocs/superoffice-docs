@@ -115,7 +115,7 @@ The section at the bottom contains the following options:
 
 Here you can add invoice lines as internal information for the request.
 
-1. In the list box at the top left, select the type of invoice. The price is updated in accordance with the invoice you select.
+1. In the list box at the upper left, select the type of invoice. The price is updated in accordance with the invoice you select.
 2. In the **Description** field, enter a more detailed description of what the invoice line relates to.
 3. In the next fields, enter the unit price, quantity, any discount (percent or amount) and the date.
 4. Click ![icon][img1] to add the invoice line.
