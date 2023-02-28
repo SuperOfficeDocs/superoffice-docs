@@ -56,7 +56,7 @@ To change document properties, such the project the document is linked to, use t
 
 1. [Double-click the required document][2].
 2. In the **Document** dialog, click **Open**.
-3. If a dialog box displays, click **Edit**.
+3. If a dialog opens, click **Edit**.
 4. In the file download dialog, select one of following options:
     * **Open**: When you click the option for opening, the document is opened in the text-editing application. Type in the contents of the document and select **File** > **Save As** to save it in the desired location on your PC.
     * **Save**: When you click the option for saving, the **Save As** dialog appears. Specify where on your PC you want to save the file, and save it. Then open the document, enter the required text and save the document.
@@ -76,7 +76,7 @@ To change document properties, such the project the document is linked to, use t
 ## Edit document content - using SuperOffice WebTools
 
 1. [Double-click the required document][2].
-2. If a dialog box displays, click **Edit**.
+2. If a dialog opens, click **Edit**.
 3. Save it and close the text-editing application.
 4. (if applicable) In the dialog that appears, click **Yes** if you are done editing the document. Click **No** to keep the document checked out.
 

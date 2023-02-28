@@ -57,7 +57,7 @@ language: en
     <details><summary>How?</summary>
 
     1. Click **Choose files**.
-    2. Browse to the document you require in the dialog box that appears.
+    2. In the dialog, browse to the document you require.
     3. Click **Add** to add the attachment.
     4. Repeat this procedure to add more attachments.
 

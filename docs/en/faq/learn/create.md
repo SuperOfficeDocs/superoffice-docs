@@ -56,7 +56,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
     To add an attachment to the FAQ entry:
 
     1. Click **Choose file** next to **Attachment**.
-    2. Browse to the document you require in the dialog box that appears.
+    2. In the dialog, browse to the document you require.
     3. Click ![icon][img1] to add the attachment.
     4. Repeat this procedure to add more attachments.
     </details>

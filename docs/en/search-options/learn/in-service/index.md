@@ -68,8 +68,8 @@ At the bottom of the **Criteria** screen, you have the following options:
 
 The search screen always shows the most relevant criteria for what you are searching for, for example requests or contacts. But you can add more criteria yourself.
 
-1. Click the **Add criteria** button in the **Criteria** screen. A dialog box displays with two empty fields.
-2. In the **Input the label for the field here** field, you can enter a custom name for the field. Otherwise the default name is used.
+1. Click the **Add criteria** button in the **Criteria** screen. A dialog opens.
+2. In the **Input the label for the field here** field, enter a custom name for the field. Otherwise the default name is used.
 3. In the **Choose field** list, select which field in the database the values are to be obtained from.
 4. Click **OK**. The new criterion is added below the others.
 

@@ -52,7 +52,7 @@ Watch this video to find out how you can create your own extra fields in SuperOf
     Choosing **Indexed** makes it quicker to search on these fields using **Find**. Non-indexed fields are also searchable, but the search takes longer. You should only index fields that are frequently searched and contain frequently used data.
     </details>
 
-1. When you have specified the required settings, click **Save**. The dialog box will close and the new field is displayed in the **Fields** list and in the grid.
+1. When you have specified the required settings, click **Save**. The dialog will close and the new field is displayed in the **Fields** list and in the grid.
 
 > [!TIP]
 > In the lower right of the **Fields** dialog is the **Template variable name** followed by a code (ID), which can be used to reuse the information you enter in this field, for example, as [template variables][2] in documents and emails.
