@@ -3,13 +3,11 @@ items:
   href: index.md
   items:
   - name: Latest release
-    href: 10.2.3-update.md
+    href: latest-release.md
   - name: 10.2.1 update overview
     href: 10.2.1-update.md
   - name: 10.2.2 update overview
     href: 10.2.2-update.md
-  - name: 10.2.3 update overview
-    href: 10.2.3-update.md
 - name: Core CRM
   href: core-crm/index.md
   items:
