@@ -14,13 +14,13 @@ so.topic: reference
 See below the different changes that has been release in version 10.2.3 for SuperOffice.
 - - -
 
-[!include[Mailing Magic AI](marketing/10.2.3-update.md)]
+[!include[Mailing Magic AI](10.2/marketing/10.2.3-update.md)]
 - - -
 
-[!include[Mobile CRM with floating +button and Sharepoint documents](mobile/10.2.3-update.md)]
+[!include[Mobile CRM with floating +button and Sharepoint documents](10.2/mobile/10.2.3-update.md)]
 - - -
 
-[!include[CRMScript with types](admin/10.2.3-update.md)]
+[!include[CRMScript with types](10.2/admin/10.2.3-update.md)]
 - - -
 
 <!-- Referenced links-->

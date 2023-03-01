@@ -1,6 +1,8 @@
 items:
 - name: Introduction
   href: index.md
+- name: Latest release
+  href: latest-release.md
 - name: "10.2"
   href: 10.2/toc.yml
 - name: "10.1"
