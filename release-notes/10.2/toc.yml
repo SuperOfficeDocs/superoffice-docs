@@ -3,7 +3,7 @@ items:
   href: index.md
   items:
   - name: Latest release
-    href: latest-release.md
+    href: ../latest-release.md
   - name: 10.2.1 update overview
     href: 10.2.1-update.md
   - name: 10.2.2 update overview
