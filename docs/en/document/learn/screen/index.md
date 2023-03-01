@@ -70,7 +70,7 @@ Enter your own reference. The default entry for each template is defined in Supe
 
 ### Your ref
 
-Enter the addressee’s reference from their communication.
+Enter the addressee's reference from their communication.
 
 ### Visible for
 

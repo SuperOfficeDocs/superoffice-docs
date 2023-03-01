@@ -46,9 +46,9 @@ To search for records and data in SuperOffice CRM, use the **Find** screen.
 
 ## Broaden your search using the OR function
 
-The Find feature allows you to perform a search by combining search criteria with the value operator “OR” between them. This way you can search for two sets of independent data and save it in one selection.
+The Find feature allows you to perform a search by combining search criteria with the value operator "OR" between them. This way you can search for two sets of independent data and save it in one selection.
 
-Let’s take a look at some practical examples of how you can use the OR function. You can search for all customers who bought “Product A” and customers who didn’t buy “Product B” to boost your cross-sales. Or you can search for all large customers based in Liverpool or Manchester, so you can contact them about an upcoming event in one of these cities.
+Let's take a look at some practical examples of how you can use the OR function. You can search for all customers who bought "Product A" and customers who did not buy "Product B" to boost your cross-sales. Or you can search for all large customers based in Liverpool or Manchester, so you can contact them about an upcoming event in one of these cities.
 
 Watch this video to learn how to create a search using the OR function (video length - 4:08):
 

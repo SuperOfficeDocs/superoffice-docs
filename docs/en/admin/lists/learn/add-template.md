@@ -1,7 +1,7 @@
 ---
 uid: help-en-add-template
 title: Add a template
-description: In this how-to guide, you’ll learn how to add a new document template to SuperOffice CRM.
+description: In this how-to guide, you will learn how to add a new document template to SuperOffice CRM.
 author: SuperOffice RnD
 so.date: 02.23.2023
 keywords: document, template
@@ -20,9 +20,7 @@ If you create new templates or change a standard template and saved it with a di
 
 Templates are displayed as items in the **Document - Template** list and you link a template to SuperOffice CRM by entering it as an item in the list.
 
-To make sure everyone in your company uses the same documents, you can create and add your own document templates for different file types.
-
-Here you’ll find all the template variables available in SuperOffice CRM. Use them to personalize and automate the input of customer information to your documents.
+To make sure everyone in your company uses the same documents, you can create and add your own document templates for different file types. Use the template variables available in SuperOffice CRM to personalize and automate the input of customer information to your documents.
 
 Watch this video or follow the guided steps below to learn how you can add a document template in SuperOffice CRM (video length - 2:30):
 
@@ -85,7 +83,7 @@ Enter the following information in the **Details** tab:
 
     [!include[Link to quote template docs](includes/learn-quote-templates.md)]
 
-8. Specify the default setting for the **Our reference (default)** field using the template variables, for example *auth* for the sender’s first and last names (see [Template variables][2]).
+8. Specify the default setting for the **Our reference (default)** field using the template variables, for example *auth* for the sender's first and last names (see [Template variables][2]).
 
 9. Optionally, type in a description of the template in the **Description** field.
 

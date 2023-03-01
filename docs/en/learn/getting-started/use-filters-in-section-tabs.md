@@ -5,7 +5,7 @@ description: Use filters in the section tabs
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: CRM
-so.topic: help
+so.topic: howto
 language: en
 ---
 

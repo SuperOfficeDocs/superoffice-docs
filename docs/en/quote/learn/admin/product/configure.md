@@ -14,7 +14,7 @@ language: en
 
 You can customize and configure the Quote Management features in Settings and maintenance to match the names and labels your users are familiar with.
 
-In the Settings tab, you’ll find the Configure product screen. Here you can change and customize all labels used in Quote management. In addition, you can check whether a field should be editable and/or mandatory.
+The Configure product screen is located in the Settings tab. Here you can change and customize all labels used in Quote management. In addition, you can check whether a field should be editable and/or mandatory.
 
 ![You can change all labels of the fields in the product menu in the Configure product screen -screenshot][img3]
 

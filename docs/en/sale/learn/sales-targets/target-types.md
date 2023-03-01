@@ -56,7 +56,7 @@ You can set up a target type for both users and groups, as well as set other tar
 * Company business
 * Company country
 
-You can also set targets for any of your own user-defined fields that contain lists. When a target type has been selected it's not possible to select that type of target again, to avoid creating target types duplicates.
+You can also set targets for any of your own user-defined fields that contain lists. After a target type is selected, it is not possible to select that type of target again, to avoid creating duplicates.
 
 ### Measurement unit
 
@@ -73,14 +73,14 @@ The list available will depend on the target type selected. For example:
 * If the Target type is set to Sale type, the target sub-types will show the list for sale types defined by your company.
 * If the target type is set to Source, the target sub-types will show the list for sale sources defined by your company.
 
-At the bottom of the dialogue, you'll find a checkbox for Available on company and group level only. When you mark this checkbox, the target type will only be added on the company and group level, and the different users will not appear in your target list.
+At the bottom of the dialogue is a checkbox for Available on company and group level only. When you mark this checkbox, the target type will only be added on the company and group level, and the different users will not appear in your target list.
 
 > [!NOTE]
-> When you have saved your new target, you can still go to Settings and change the Separate targets list and the checkbox for Available on company and group level only. Be aware that if you select Available on company and group level only after you have added numbers on the user level, you’ll get a warning that the user numbers will be deleted when saved.
+> When you have saved your new target, you can still go to Settings and change the Separate targets list and the checkbox for Available on company and group level only. Be aware that if you select Available on company and group level only after you have added numbers on the user level, you get a warning that the user numbers will be deleted when saved.
 
-When the new target type is saved, it's time to [add groups and users to your sales target][3].
+When the new target type is saved, it is time to [add groups and users to your sales target][3].
 
-![You’ll find the Add groups and users button in the Sales target overview -screenshot][img2]
+![You will find the Add groups and users button in the Sales target overview -screenshot][img2]
 
 ## Filter target types
 

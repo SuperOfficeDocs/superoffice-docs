@@ -11,9 +11,9 @@ language: en
 
 # Create selections
 
-You start off with a set of criteria from the **Find** screen by using a typical search or adding your own criteria. From there you can save the result as a dynamic or static selection. The difference between the two are a selection that keeps on updating the number of members (dynamic) or a selection that have the members frozen with a snapshot of today’s set of members (static).
+You start off with a set of criteria from the **Find** screen by using a typical search or adding your own criteria. From there you can save the result as a dynamic or static selection. The difference between the two are a selection that keeps on updating the number of members (dynamic) or a selection that have the members frozen with a snapshot of today's set of members (static).
 
-When you save your search to a selection, you have the option to save it as:
+When you save your search to a selection, you have 3 options:
 
 * Dynamic selection
 * Static selection

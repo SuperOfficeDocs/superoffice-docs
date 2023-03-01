@@ -13,7 +13,7 @@ language: en
 
 If [sales targets][4] are defined for your company, teams/groups and/or sales people, you can add these targets to your dashboard tiles. You will then get a visual presentation of your actual sales and your targets.
 
-To be able to visualize your targets in a dashboard, you first need to add or edit the tiles in the dashboard. After you have chosen the correct tile, you can edit the tiles’ layout and chart type.
+To be able to visualize your targets in a dashboard, you first need to add or edit the tiles in the dashboard. After you have chosen the correct tile, you can edit the tiles' layout and chart type.
 
 ![Choose the Layout tab and select Compare to target in the Grouping section -screenshot][img7]
 
@@ -70,9 +70,9 @@ To be able to visualize your targets in a dashboard, you first need to add or ed
 
 13. Click **Save**. Then click **Done**.
 
-## Why can’t I select Compare to target?
+## Why can't I select Compare to target?
 
-If you see the field Compare to target, but it’s disabled, you can hover your mouse over the field to see a tooltip that explains what you need to change in order to enable and select the field.
+If you see the field Compare to target, but it is disabled, you can hover your mouse over the field to see a tooltip that explains what you need to change to enable and select the field.
 
 ![Hover over the Compare to target field to see a tooltip -screenshot][img8]
 

@@ -29,7 +29,7 @@ The system also has other modules and functions. For example, there is a **Selec
 
 The **Diary** module helps you with your scheduling, and you can stay in touch with your customers using the **Chat** feature. The **Sale** and **Project** modules provides additional tools for effectively managing your business.
 
-Within the **Marketing** module you can send a mailing to a specific group of contacts to inform them about upcoming events, company news, campaigns and other product information. Here you can also create forms to be used on your web site or customer centre for easier feedback, content management and sign-up.
+Within the **Marketing** module you can send a mailing to a specific group of contacts to inform them about upcoming events, company news, campaigns and other product information. Here you can also create forms to be used on your website or customer centre for easier feedback, content management and sign-up.
 
 ### The same starting point for many tasks
 

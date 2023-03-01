@@ -61,7 +61,7 @@ There are several types of charts:
 
 ## Customize your dashboard
 
-You can pick from many pre-defined tiles to visualize and evaluate your work. You'll get a snapshot of activity levels, customer segments, product statistics, project details, and sales. By customizing your dashboard tiles, you get to show the graphs and overviews that are most valuable for you personally.
+You can pick from many pre-defined tiles to visualize and evaluate your work, with a snapshot of activity levels, customer segments, product statistics, project details, and sales. By customizing your dashboard tiles, you get to show the graphs and overviews that are most valuable for you personally.
 
 ![Customize your dashboard to make it more valuable for you -screenshot][img4]
 
@@ -78,7 +78,7 @@ By default, only one dashboard tab, called Status, is set up. It contains differ
 
 ### Edit or create your own tiles
 
-If you don't find the tile you need among the set of pre-defined tiles in SuperOffice Dashboard, you can always create your own.
+If you do not find the tile you need among the set of pre-defined tiles in SuperOffice Dashboard, you can always [create your own tile][4].
 
 ## Options in the Dashboard screen
 

@@ -4,8 +4,8 @@ title: Info box
 description: Info box
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: tooltip
+so.topic: concept
 language: en
 ---
 

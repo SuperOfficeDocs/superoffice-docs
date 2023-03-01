@@ -15,7 +15,7 @@ The side panel is a multifunctional screen that is available in every screen in 
 
 The side panel allows you to view and use information from other parts of your CRM solution. This will help you, for example, to work your way through lists of contacts to call, sales to update, or sales proposals to follow up.
 
-![You'll find the side panel on the right side of your SuperOffice CRM solution -screenshot][img10]
+![The side panel is located on the right side of SuperOffice CRM -screenshot][img10]
 
 You can choose from different views by clicking the arrow (![icon][img3]) to the right of the side panel's view name.
 

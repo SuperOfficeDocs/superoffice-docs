@@ -15,7 +15,7 @@ When you send a newsletter, for example, you must give the recipients the option
 
 The unsubscribe link is normally placed at the bottom of a message. If you use one of our mailing templates, this link is already added.
 
-You decide where this unsubscribe link appears and its phrasing, as well as what clicking on this link does. For example, you may simply take the viewer to their “unsubscribe” page where they can manage their preferences, or they can automatically be opted out from all your mailings.
+You decide where this unsubscribe link appears and its phrasing, as well as what clicking on this link does. For example, you may simply take the viewer to their "unsubscribe" page where they can manage their preferences, or they can automatically be opted out from all your mailings.
 
 ![From the Insert/edit link symbol, click Special links and add your unsubscribe link -screenshot][img4]
 

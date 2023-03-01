@@ -1,7 +1,7 @@
 ---
 uid: help-en-import-create-excel
 title: Create an import file
-description: In this how-to guide you’ll learn how to create an import file using the Excel template
+description: In this how-to guide you will learn how to create an import file using the Excel template.
 author: Bergfrid Dias
 so.date: 02.22.2023
 keywords: import, Excel, company, contact, product, spreadsheet

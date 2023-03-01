@@ -14,7 +14,7 @@ language: en
 
 [!include[Requirement](../includes/note-saint-req.md)]
 
-When you set up multiple status monitors and different periods/counters, it’s important to have a regular check on them to make sure that the counters and statuses are regenerated and updated, and the criteria are correct on the different statuses.
+When you set up multiple status monitors and different periods/counters, it is important to have a regular check on them to make sure that the counters and statuses are regenerated and updated, and the criteria are correct on the different statuses.
 
 The sections below contain information about how to enable and disable status monitors and how to regenerate statuses and counters. [!include[Define counter](../../../learn/includes/def-counter.md)]
 

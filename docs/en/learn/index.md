@@ -25,20 +25,11 @@ Watch this video to get a quick overview of what SuperOffice CRM can do for your
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/10VQCTgxODc]
 
-Ready to discover the power of SuperOffice CRM and learn more?
-
-Start from the very beginning and let us take you on an exciting CRM journey with how-to guides, or just jump straight to any specific topic in the menu.
-
-> [!NOTE]
-> Do you have a different CRM version then what's in the user guide? In your CRM system, click the **F1** button to open the topic based on your SuperOffice version and your language.
-
 ## SuperOffice CRM - Core system
 
-Whether you’re a marketer, a sales rep or a support agent – SuperOffice CRM is built for everyone. Our set of core features helps all teams organize their contact information, keep all data in one place, manage tasks, documents and emails, and follow up with customers!
+Whether you are a marketer, a sales rep or a support agent – SuperOffice CRM is built for everyone. Our set of core features helps all teams organize their contact information, keep all data in one place, manage tasks, documents and emails, and follow up with customers!
 
 A system to manage and follow up all contacts, sales and projects. The core of the system are the Company card and Contact card. All information and communication concerning a company and contact are stored in these cards.
-
-These guides provides you with comprehensive user assistance for the following SuperOffice modules:
 
 ## SuperOffice Sales
 
@@ -62,9 +53,9 @@ Settings and maintenance is the administration module for SuperOffice CRM. The n
 
 ## Adjust SuperOffice CRM to the way you work
 
-You can use SuperOffice CRM right out of the box. You don’t have to make any changes or customize it, to use it.
+You can use SuperOffice CRM right out of the box. You do not have to make any changes or customize it, to use it.
 
-However, when you’ve developed your own routines, your unique way of working, we understand that you may want to implement these processes in your CRM solution.
+However, when you've developed your own routines, your unique way of working, we understand that you may want to implement these processes in your CRM solution.
 
 Customizing SuperOffice CRM to the way your team works will help them get familiar with and adopt your CRM solution quicker. When the system supports your users in their daily work, they are more likely to embrace it.
 
@@ -80,12 +71,10 @@ Customizing SuperOffice CRM to the way your team works will help them get famili
 
 ## Are you ready to explore more?
 
-Just dive into the how-to guides in the menu to the right.
-
-For more advanced configuration where you need help from one of our professional consultants, please contact us to learn more.
+Ready to discover the power of SuperOffice CRM and learn more? Start from the very beginning and let us take you on an exciting CRM journey with how-to guides, or just jump straight to any specific topic in the menu.
 
 > [!NOTE]
-> Do you have a different CRM version then what’s in this guide? In your CRM system, click the F1 button to get help files based on your SuperOffice version and your language.
+> Do you have a different CRM version than what is in this guide? In your CRM system, select **F1** to get help topics based on your SuperOffice version and your language.
 
 <!-- Referenced links -->
 

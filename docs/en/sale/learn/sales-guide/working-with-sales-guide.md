@@ -13,7 +13,7 @@ language: en
 
 The Sales guide will take you through the different stages of a predefined sales process, automatically provide suggestions and templates for documents that need to be created along the way, and highlight follow-up activities that need to be performed.
 
-If you haven’t already done so, learn how to set up a Sales guide here. You can use the SuperOffice Sales guide or set up your own.
+If you haven't already done so, learn how to set up a Sales guide here. You can use the SuperOffice Sales guide or set up your own.
 
 Watch this video to learn how easy it is to use the Sales guide (video length - 1:24):
 

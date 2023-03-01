@@ -13,7 +13,7 @@ language: en
 
 The diary in SuperOffice CRM is fundamentally a personal diary. Your name is displayed at the upper right of the **Diary** screen.
 
-You can open another user’s diary, or the diary of an available resource, to see when they are free, for example, or to create follow-ups for them directly.
+You can open another user's diary, or the diary of an available resource, to see when they are free, for example, or to create follow-ups for them directly.
 
 You can also view the diaries of other users and resources in your organization by displaying group views in your diary.
 

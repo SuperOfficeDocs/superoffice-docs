@@ -11,7 +11,7 @@ language: en
 
 # Set alarms for follow-ups
 
-SuperOffice CRM can notify you before your meeting is about to start. When it’s time to start your meeting, a notification will pop up. If it is a video meeting, you can start your video meeting by clicking the notification pop-up.
+SuperOffice CRM can notify you before your meeting is about to start. When it is time to start your meeting, a notification will pop up. If it is a video meeting, you can start your video meeting by clicking the notification pop-up.
 
 ![You can set an alarm so you get a notification before your meeting begins -screenshot][img2]
 

@@ -10,7 +10,7 @@ language: en
 ---
 # Get your users on board
 
-A CRM system is only successful if it is used by the people it was intended for. To help you manage the changes within your organization that an introduction of a CRM system entails, and maximize the CRM user adoption rate, we’ve gathered a few tips that’ll help you get users on board.
+A CRM system is only successful if it is used by the people it was intended for. To help you manage the changes within your organization that an introduction of a CRM system entails, and maximize the CRM user adoption rate, we've gathered a few tips that'll help you get users on board.
 
 ## Tips and best practices
 
@@ -48,30 +48,26 @@ You can also contact our experienced consultants who will help you train your us
 
 Review how your employees have used the CRM system and think about rewarding those who use it well and often. The reward system is a great way to get all users moving in the same direction.
 
-For example, you could look at how many outbound calls a user has registered in the system, how many leads he or she has converted into a sale, and how accurate their data entry is. Then you could reward the best user and make others know what they did to achieve this reward.
+For example, you could look at how many outbound calls a user has registered in the system, how many leads they have converted into a sale, and how accurate their data entry is. Then you could reward the best user and make others know what they did to achieve this reward.
 
 ### Summary
 
-The fact that you’ve purchased and implemented a CRM system in your business is great! There are so many benefits that you’ll get from the solution.
+It is great that you have purchased and implemented a CRM system. You will get many benefits from the solution. The only thing you need to do now is to get your users to use it in the way that it was meant to be used, and in a way that supports your business processes.
 
-The only thing you need to do now is to get your users to use it in the way that it was meant to be used, and in a way that supports your business processes.
+Start with being a good example yourself, use SuperOffice CRM every day and adopt it to your daily routine. By following the six best practices above, we are sure that you will come far. Good luck!
 
-Start with being a good example yourself, use SuperOffice CRM every day and adopt it to your daily routine. By following the six best practices above, we are sure that you will come far.
+## Install WebTools for your users
 
-Good luck!
-
-## Install Web Tools for your users
-
-Web Tools need to be installed for all users to ensure the integration between SuperOffice and MS Office Outlook and documents. Every user will receive an email about how to do this when starting up with SuperOffice, but as an administrator, it is important to make sure it's done.
+WebTools must be installed for all users to ensure the integration between SuperOffice and MS Office Outlook and documents. Every user will receive an email with instructions when they start with SuperOffice, but as an administrator, it is important to make sure it is done.
 
 A great way to keep track of relevant email communication with customers is to store it in SuperOffice. That way everyone can see if someone has been in touch with a particular customer lately, and what this communication was about.
 
-By installing Web Tools you will get your email and documents integrated with SuperOffice. You can save any incoming or outgoing email with one click. The users need administrator rights to install the web tools, so help them install it correctly.
+By installing WebTools you will get your email and documents integrated with SuperOffice. You can save any incoming or outgoing email with one click. The users need administrator rights to install WebTools, so help them install it correctly.
 
 ## Related
 
-* [What is "SuperOffice Web Tools" and what does it do?][1] - FAQ
-* [Learn how to install Web Tools][2]
+* [What is SuperOffice WebTools and what does it do?][1] - FAQ
+* [Learn how to install WebTools][2]
 * [Read more about email and document integration][3]
 
 <!-- Referenced links -->

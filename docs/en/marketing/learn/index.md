@@ -48,13 +48,13 @@ SuperOffice Marketing also deals with what happens after the mailing. You can ge
 
 To achieve maximum success with your marketing activities you need to make sure you stay GDPR-compliant when addressing your customers and prospects.
 
-Following the GDPR requirements is not an option, it’s a law. Therefore, you need a system that helps you respect your customers’ privacy and stay GDPR-compliant in all your marketing activities.
+Following the GDPR requirements is not an option, it is a law. Therefore, you need a system that helps you respect your customers' privacy and stay GDPR-compliant in all your marketing activities.
 
 There are three key areas in which the GDPR affects the work of marketeers:
 
 * **Data permission:** Data permission is about how you manage email opt-ins – people who request to receive promotional material from you. Under the GDPR, people need to give you their consent, before you can send them anything or contact them.
 
-* **Data access:** The GDPR gives people more control over how their personal data is collected and used. This includes that they should have the ability to access or remove information. As a marketeer, it’s your responsibility to make sure that your prospects and customers can easily access their data and remove consent if they want to.
+* **Data access:** The GDPR gives people more control over how their personal data is collected and used. This includes that they should have the ability to access or remove information. As a marketeer, it is your responsibility to make sure that your prospects and customers can easily access their data and remove consent if they want to.
 
 * **Data focus:** You should always be able to legally justify the way you process the personal data you collect. So, only collect the information you really need to do your job.
 

@@ -25,7 +25,7 @@ The **My forecast** tiles will help you stay on track by showing you your closed
 
 ![Example of My forecast tile -screenshot][img1]
 
-The different **Big number** tiles will give you an overview of your pipeline with actual sales numbers and sales values. So, you’ll always know the exact value of what you’re working on.
+The different **Big number** tiles will give you an overview of your pipeline with actual sales numbers and sales values. So, you will always know the exact value of what you are working on.
 
 ![Example of Big number tile -screenshot][img2]
 
@@ -37,7 +37,7 @@ The **My activity pace** tile will let you see your activities sorted by type. T
 
 ![Example of My activity pace tile -screenshot][img4]
 
-The **Sales YTD compared to last year for my group tile** is a great way to keep an eye on if your teams’ sales are growing.
+The **Sales YTD compared to last year for my group tile** is a great way to keep an eye on if your teams' sales are growing.
 
 ![Example of the Sales YTD compared to last year for my group tile -screenshot][img5]
 
@@ -70,9 +70,7 @@ Here are some sales-related scenarios that demonstrate how can use the Find feat
 * I want a list of all sales proposals sent this month.
 * I want a list of customers who have purchased a product that we are planning to upgrade.
 
-To get you going, the Find screen contains some ready-made search templates, called **typical searches**. You’ll find them by clicking the **Find** button.
-
-These searches include overviews showing your sales opportunities and activities for the current month, as well as for the months ahead. There is also a selection of all sales that have been forgotten.
+To get you going, the Find screen contains some ready-made search templates, called **typical searches**. These searches include overviews showing your sales opportunities and activities for the current month, as well as for the months ahead. There is also a selection of all sales that have been forgotten. Click the **Find** button to start.
 
 ![Typical searches let's you choose from a list of ready made searches to start your search -screenshot][img7]
 
@@ -100,7 +98,7 @@ To demonstrate how you can use the Find feature for sales forecasting, here is a
 
 8. Press Find at the bottom of the screen to see all your open sales opportunities with a value larger than €5000.
 
-You’ve now created a list containing all open sales worth over €5000 made this year. You can use this list as it is, or you can use this list to present your finding in a different way. You can, for example, [visualize your list with a graph][6], and add it to your [personal sales dashboard][7].
+You've now created a list containing all open sales worth over €5000 made this year. You can use this list as it is, or you can use this list to present your finding in a different way. You can, for example, [visualize your list with a graph][6], and add it to your [personal sales dashboard][7].
 
 <!-- Referenced links -->
 [1]: create.md

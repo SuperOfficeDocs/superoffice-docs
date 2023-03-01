@@ -16,7 +16,7 @@ language: en
 
 ## Why set up a default follow-up type?
 
-When you come across a company (contact or project) with a status that requires your attention, you’d be able to click in the middle of the card and a new follow-up will open. This default follow-up could contain text that clearly states what you need to do with a company (contact or project) that has this specific status.
+When you come across a company (contact or project) with a status that requires your attention, you'd be able to click in the middle of the card and a new follow-up will open. This default follow-up could contain text that clearly states what you need to do with a company (contact or project) that has this specific status.
 
 ## Steps
 

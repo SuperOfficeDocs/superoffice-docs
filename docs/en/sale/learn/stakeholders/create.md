@@ -44,7 +44,7 @@ language: en
 8. In the **Sales role** field, specify the role each of the companies and/or contacts has in the sale. Select the company and/or contact and click the arrow. This brings up a list of predefined alternatives to choose from. These are defined in SuperOffice Settings and maintenance.
     A company/contact can be added as a stakeholder multiple times if different roles are specified in each case.
 
-9. In the large text box under **Comments**, enter a more detailed description of the company’s or contact's function within the sale, if required.
+9. In the large text box under **Comments**, enter a more detailed description of the company's or contact's function within the sale, if required.
 
     > [!NOTE]
     > If you enter anything in this text box, a paperclip symbol ( ![icon][img1] ) is displayed to the right of the **Sales role** column in the **Stakeholders** section tab. Position the mouse pointer over the paperclip to display a tooltip containing the comment.

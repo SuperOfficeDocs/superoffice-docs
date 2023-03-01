@@ -11,11 +11,11 @@ language: en
 
 # Send privacy confirmation email
 
-In the new GDPR world, individuals have the “Right to be Informed”. This means that they are entitled to know either in advance or within 30 days after their details have been collected. The GDPR stipulates that individuals are entitled to be informed (a) that an organization intends to store their personal data and (b) what the organization intends to use their data for.
+In the new GDPR world, individuals have the "Right to be Informed". This means that they are entitled to know either in advance or within 30 days after their details have been collected. The GDPR stipulates that individuals are entitled to be informed (a) that an organization intends to store their personal data and (b) what the organization intends to use their data for.
 
 ## Collect their consent upfront through forms
 
-By using integrated forms available in your CRM solution, you can collect a person’s consent at the same time they complete a web form and give you their personal details. This consent is automatically documented inside SuperOffice CRM using the Consent Management features.
+By using integrated forms available in your CRM solution, you can collect a person's consent at the same time they complete a web form and give you their personal details. This consent is automatically documented inside SuperOffice CRM using the Consent Management features.
 
 This video will show you how to create a basic web form and add it to your web page (video length - 7:49):
 

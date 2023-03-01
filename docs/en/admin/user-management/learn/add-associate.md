@@ -1,7 +1,7 @@
 ---
 uid: help-en-user-add
 title: Add user
-description: In this how-to guide, you’ll learn how to add a new user in SuperOffice CRM.
+description: In this how-to guide, you will learn how to add a new user in SuperOffice CRM.
 author: SuperOffice RnD
 so.date: 02.21.2023
 keywords: user, associate
@@ -11,12 +11,12 @@ language: en
 
 # Add users
 
-Once your SuperOffice CRM solution is configured and customized, it’s time to give your users access to their CRM solution.
+After your SuperOffice CRM solution is configured and customized, it is time to give your users access to their CRM solution.
 
 Administrators are responsible for providing new users with a user plan, a username, a password and the user group the user belongs to. You can add users to SuperOffice CRM in Settings and maintenance.
 
 > [!NOTE]
-> If you provided information on users when you ordered SuperOffice CRM, you don’t have to add users. Users will have received login information from SuperOffice by email. Check if users are in the system in the menu Users in Settings and Maintenance.
+> If you provided information on users when you ordered SuperOffice CRM, you do not have to add users. Users will have received login information from SuperOffice by email. Check if users are in the system in the menu Users in Settings and Maintenance.
 >
 > This procedure describes how to add one user at a time. To add multiple users, see [Import users][1].
 

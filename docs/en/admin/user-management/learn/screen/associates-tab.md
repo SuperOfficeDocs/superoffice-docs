@@ -16,8 +16,8 @@ By default, the list in the **Associates** tab consists of the following columns
 | Column | Description |
 |---|---|
 | User ID | The user name assigned to the associate. |
-| First name | The user’s first name. |
-| Last name | The user’s last name. |
+| First name | The user's first name. |
+| Last name | The user's last name. |
 | Primary group | The primary group of the user. |
 | Role | The [role][7] assigned to the user. The role determines the user's access rights to data in SuperOffice CRM. |
 | User plan | The user plan assigned to the user, |

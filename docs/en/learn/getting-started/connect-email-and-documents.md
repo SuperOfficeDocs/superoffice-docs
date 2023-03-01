@@ -66,10 +66,10 @@ Installing WebTools for Mac will allow you to connect your Microsoft documents w
 
 ## Various cloud applications
 
-If you’re using any of the services below, please find the application you need in our App Store.
+If you're using any of the services below, please find the application you need in our App Store.
 
 > [!NOTE]
-> You may need administrative rights to your computer, depending on your organization’s security settings,to make system connections.
+> You may need administrative rights to your computer, depending on your organization's security settings,to make system connections.
 >
 > If you are in a terminal server environment, for example using a Citrix connection, your IT team will need to make the connections for you.
 

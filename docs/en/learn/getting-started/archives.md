@@ -46,7 +46,7 @@ You can filter information in all archives in SuperOffice CRM.
 
 1. Check **Enable filters** at the top of the dialogue that appears. Then click **OK**.
 
-    You'll see that all the columns in your archive now have a funnel icon behind them. Click on the funnel of the column you wish to use to find the information you need.
+    Now, all the columns in your archive have a funnel icon behind them. Click on the funnel of the column you wish to use to find the information you need.
 
     ![You can click the filter icon on the column and select wanted filter -screenshot][img2]
 
@@ -89,7 +89,7 @@ You can group the information in an archive by all the fields/columns in the arc
 
     ![A line on top of the archive is now available: Drag a column header and rop it here to group by that column -screenshot][img6]
 
-1. You'll see that an extra bar is now visible that says: *Drag a column header and drop it here to group by that column*. You can click and drag any column into this bar to group the content of this archive after the information of this column.
+1. An extra bar is now visible that says: *Drag a column header and drop it here to group by that column*. You can click and drag any column into this bar to group the content of this archive after the information of this column.
 
     ![Click and drag columns to group your information -screenshot][img7]
 
@@ -110,8 +110,8 @@ You can group the information in an archive by all the fields/columns in the arc
 
 <!-- Referenced links -->
 [1]: changing-column-view.md
-[2]:
-[3]: ../../search-options/ selections/learn/index.md
+[2]: sorting-lists.md
+[3]: ../../search-options/selections/learn/index.md
 [4]: use-filters-in-section-tabs.md
 [5]: sections-tabs-grouping-lists.md
 

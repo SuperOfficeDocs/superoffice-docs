@@ -26,7 +26,7 @@ Watch this video or follow the steps below.
 
     ![Empty company card -screenshot][img1]
 
-1. In the **Country** field, enter the company’s country. The correct address format for this country is updated automatically in the **Company** tab. You can set your current home country from **System** in the preferences.
+1. In the **Country** field, enter the company's country. The correct address format for this country is updated automatically in the **Company** tab. You can set your current home country from **System** in the preferences.
 
 1. Enter the required information in the other fields.
 
@@ -61,7 +61,7 @@ Watch this video or follow the steps below.
     > [!NOTE]
     > When the tab is in view mode, only the selected interests are displayed. When you are in edit mode, there may well be further interests options available.
 
-3. If you select one or more interests in the **Interests** tab, a dot is displayed next to the tab’s name.
+3. If you select one or more interests in the **Interests** tab, a dot is displayed next to the tab's name.
 
     ![Company interests tab -screenshot][img2]
 

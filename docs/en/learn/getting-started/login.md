@@ -20,7 +20,7 @@ When you start SuperOffice CRM or Service, you will see a login screen where you
 
 Wait a moment while the program starts up.
 
-To use SuperOffice CRM, you must be assigned a user account that is unique for you. This user account contains your user identification and a password known only to you and the system, commonly referred to as your **user credentials**. Your user credentials allow the system to verify that you are you, which is necessary before allowing you to access your company’s CRM solution.
+To use SuperOffice CRM, you must be assigned a user account that is unique for you. This user account contains your user identification and a password known only to you and the system, commonly referred to as your **user credentials**. Your user credentials allow the system to verify that you are you, which is necessary before allowing you to access your company's CRM solution.
 
 ## What is my user ID?
 
@@ -30,7 +30,7 @@ Windows users must use their assigned user name.
 
 ## Activate account
 
-There are two ways you can log in to activate your SuperOffice CRM account for the first time. How you log in depends on your company’s preference.
+There are two ways you can log in to activate your SuperOffice CRM account for the first time. How you log in depends on your company's preference.
 
 * By using a SuperOffice CRM password that is unique when you log in to SuperOffice CRM.
 
@@ -95,7 +95,7 @@ When you are no longer signed in with your **Microsoft 365** or **Google Workspa
 
 ## <a id="forgot-password" />Forgot your password?
 
-CRM users often forget their login details, especially their password. Therefore, it might come in handy to know how to change or reset your SuperOffice CRM password. In this how-to guide, you’ll learn how to reset the log-in password both as a user and as an administrator.
+People often forget their credentials, especially their password. Therefore, it might come in handy to know how to change or reset your SuperOffice CRM password.
 
 Depending on what version of SuperOffice CRM you have – onsite or online – follow the corresponding instructions below to change your password.
 

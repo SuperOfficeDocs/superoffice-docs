@@ -15,7 +15,7 @@ In the **Macros and scripts** tab you will find a list of the scripts and macros
 
 ## About macros
 
-Macros are the user-friendly version of scripts: You don’t need extensive knowledge about scripting or CRMScript to create macros.
+Macros are the user-friendly version of scripts: You do not need extensive knowledge about scripting or CRMScript to create macros.
 
 With macros, you can customize and automate actions inside SuperOffice. It comes with an easy to use wizard that will help you setup your macro.
 

@@ -1,7 +1,7 @@
 ---
 uid: help-en-select-product-image
 title: Select product image
-description: In this how-to guide you’ll learn how you can add images for all the products you add to SuperOffice Quote.
+description: In this how-to guide, you will learn how you can add images for all the products you add to SuperOffice Quote.
 author: SuperOffice RnD
 so.date: 02.23.2023
 keywords: product, image
@@ -14,7 +14,7 @@ language: en
 
 Add high quality product images to your proposals to show your customers the products they are interested in.
 
-Once you’ve added your products, either manually or by import, you can add images of your products.
+Once you've added your products, either manually or by import, you can add images of your products.
 
 ![You can add an image to every product you add to your price list -screenshot][img1]
 

@@ -55,7 +55,7 @@ To get your emails imported into SuperOffice CRM, enter your IMAP server details
 
 * User name: your full email address
 * Password: your email account password
-* SSL: On/Off - depends on your emails provider’s settings (see settings for Outlook and Gmail)
+* SSL: On/Off - depends on your emails provider's settings (see settings for Outlook and Gmail)
 
 ### Outgoing email settings
 

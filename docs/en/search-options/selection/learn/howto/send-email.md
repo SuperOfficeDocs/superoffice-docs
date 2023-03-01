@@ -11,7 +11,7 @@ language: en
 
 # Send email to multiple recipients
 
-Let’s suppose you were inviting people to a meeting and needed to send them an agenda. It would then be useful if you could send a single email to several recipients in one go.
+Suppose you were inviting people to a meeting and needed to send them an agenda. It would then be useful if you could send a single email to several recipients in one go.
 
 1. To perform the task on only some of the contacts in the selection, select them in the **Company/contact** tab. The **Perform task on selected members only** option is then checked automatically.
 

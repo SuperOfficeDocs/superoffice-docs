@@ -19,9 +19,10 @@ Preparing the implementation of the CRM system involves, first of all, consideri
 
 Your role as an administrator is vital here, because it is the most important role in making a CRM implementation successful.
 
-When you’re planning your CRM configuration, it is important to define your data segmentation needs. You also need to outline which data fields you need to track in various reports.
+When you're planning your CRM configuration, it is important to define your data segmentation needs. You also need to outline which data fields you need to track in various reports.
 
-It’s important to note that you can use all the information you register in the system as search criteria when you create target groups for call lists or mailings. Therefore, you should decide what criteria you want to segment your contacts on.
+> [!NOTE]
+> You can use all the information you register in the system as search criteria when you create target groups for call lists or mailings. Therefore, you should decide what criteria you want to segment your contacts on.
 
 ## Common things to edit
 
@@ -31,17 +32,17 @@ It’s important to note that you can use all the information you register in th
 
 * **Interests:** On both company and contact you can edit the list for interests. It can be different types of accounts for company and type of roles for the contacts.
 
-* **Subscription type:** All contacts in your SuperOffice CRM have the option to maintain their own type of subscriptions. These types are much used when creating selections and sending out mailings.
+* **Subscription type:** All contacts in your SuperOffice CRM may maintain their own type of subscriptions. These types are much used when creating selections and sending out mailings.
 
-To review important considerations for the configuration, please [download your configuration preparation document][2]. When you have answered the questions in the document, you'll have the answers you need to configure your system.
+To review important considerations for the configuration, please [download your configuration preparation document][2]. After answering the questions in the document, you will have the information you need to configure your system.
 
-When you are done with the preparation for your CRM implementation, it’s time to create and [manage your CRM users][1].
+After preparing for your CRM implementation, it is time to create and [manage your CRM users][1].
 
 ## Create your own workflow guides
 
 Workflow guides, such as the [sales guide][4] and [project guide][5], help users stay in control and work according to best practices.
 
-Help your users to stay in control of every step in the process, ensure all projects are delivered on time and all sales opportunities are followed up. Without a pre-defined workflow guide, it’s easy to lose control, especially when juggling multiple projects or sales at the same time. You may lose sight of the things that need to be done during each stage of your project or sales, and as result – miss your deadline.
+Help your users to stay in control of every step in the process, ensure all projects are delivered on time and all sales opportunities are followed up. Without a pre-defined workflow guide, it is easy to lose control, especially when juggling multiple projects or sales at the same time. You may lose sight of the things that need to be done during each stage of your project or sales, and as result – miss your deadline.
 
 Every project and sales opportunity will have a status that indicates how far you are into your process. A project status can be "Planned", "In progress" and "Completed", for example. And a sale can have the stage: "Lead", "First meeting", "Proposal" or "Verbal acceptance".
 
@@ -49,7 +50,7 @@ Every status in your workflow guide contains the necessary follow-up activities 
 
 You can create a different guide for each type of project or sale you use. Your guide will be available when a new sale or project is created.
 
-When one of the stages in your guide is completed, SuperOffice CRM will automatically prompt the next step, so that you could plan your next activity straight away. This way you’ll know you are in control, and you’ll never miss another milestone.
+When one of the stages in your guide is completed, SuperOffice CRM will automatically prompt the next step, so that you could plan your next activity straight away. This keeps you in control, and you will never miss another milestone.
 
 ![The project guide screen in Project let you to easily get an overview of the projects progress. -screenshot][img1]
 

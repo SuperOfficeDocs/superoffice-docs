@@ -11,7 +11,7 @@ language: en
 
 # Search options
 
-Searching for information in your CRM database is something you do every day. Whether you’re looking for a phone number or a list of all of your open sales, the Find feature will help you locate the information faster.
+Searching for information in your CRM database is something you do every day. Whether you're looking for a phone number or a list of all of your open sales, the Find feature will help you locate the information faster.
 
 The following how-to guides will:
 
@@ -48,7 +48,7 @@ You can use [FastSearcher][3] or the [history list][5] to search for companies, 
 
 **FastSearcher** can be found either in the **Navigator** menu by pressing on the company, contact, sales, project or selection to open a search field, or within pop-up dialogs to search for companies, contacts, sales, projects and selections.
 
-It will quickly make you a list that match your search words and it’s a great feature to check your database for possible duplicates before adding a new company or contact.
+It will quickly make you a list that match your search words. Use it to check your database for possible duplicates before adding a new company or contact.
 
 ![Use the FastSearcher to navigate quick and easy in the Navigator -screenshot][img1]
 
@@ -77,21 +77,21 @@ Use the [free-text search][2] search field in the upper-right corner to search f
 ![You will find the free-text search to the right in the top bar -screenshot][img3]
 
 > [!TIP]
-> Want to see a list of all your contacts? Click on the **Selections** icon in the left-side navigator panel and search for “All Contacts” to see a pre-configured selection.
+> Want to see a list of all your contacts? Click on the **Selections** icon in the left-side navigator panel and search for "All Contacts" to see a pre-configured selection.
 
 ## Use typical searches as a starting point
 
-A typical search is a pre-defined search that we’ve set up for you, so you can see what other users typically search for. Each data set in the Find screen contains a list of typical searches that are ready to be used.
+A typical search is a pre-defined search that we've set up for you, so you can see what other users typically search for. Each data set in the Find screen contains a list of typical searches that are ready to be used.
 
 A typical search is a great way to start looking for data in SuperOffice CRM. You can find typical searches by clicking underneath the group of data you are interested in. Containing pre-set search criteria, typical searches can be used as they are, modified or expanded.
 
-As an example, let’s take a look at a typical search called "My overdue follow-ups". This search will give you a list of all the activities that you haven’t completed yet, which are as, a result, overdue.
+### Example: My overdue follow-ups
 
-When you set up the search criteria for this search, you can decide which type of activities you want to search for.
+This search will give you a list of all the activities that you have not completed yet. When you set up the criteria for this search, you can decide which type of activities you want to search for.
 
 ![Click the Find button in the top bar and select typical searches in the drop-down menu -screenshot][img5]
 
-Typical searches are there to help you get started and create your own search of CRM data. After you’ve selected a typical search, you can add and edit the search criteria. And once you’ve created a useful search that you’d like to use again, you can save it as a selection.
+Typical searches are there to help you get started and create your own search of CRM data. After you've selected a typical search, you can add and edit the search criteria. And once you've created a useful search that you'd like to use again, you can save it as a selection.
 
 Watch this video to learn how to do a typical search and modify it by adding new search criteria or follow the step-by-step guide below (video length – 3:01):
 
@@ -108,7 +108,7 @@ A selection is a great tool to extract useful information from your CRM database
 
 For example, as a sales manager, you may want to see a list of all sales over €5,000 that are ready to be closed each month. Or maybe you are a consultant and want a list of all the projects you are involved in. Or, you work in marketing and need a list of all customers that have signed up for your monthly newsletter.
 
-Creating a selection starts by performing a search. You can use a typical search and/or build your own search by adding the search criteria you need. Once you’ve found the information you were looking for, you can save your search results as a selection.
+Creating a selection starts by performing a search. You can use a typical search and/or build your own search by adding the search criteria you need. Once you've found the information you were looking for, you can save your search results as a selection.
 
 There are three ways to save you search results as selection:
 

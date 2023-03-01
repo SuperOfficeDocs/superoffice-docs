@@ -5,7 +5,7 @@ description: Adjusting column widths
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: CRM
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -16,7 +16,8 @@ There are different lists in SuperOffice CRM, for example, the **Contacts** and 
 ## Manually adjust column widths
 
 1. Hold the mouse pointer over the vertical dividing line to the left or right of a column heading. The mouse pointer changes into a double vertical line with arrows.
-2. Click down with the mouse button and drag the divider in the required direction to increase or decrease the column width. The column widths you set are retained between sessions.
+
+1. Click down with the mouse button and drag the divider in the required direction to increase or decrease the column width. The column widths you set are retained between sessions.
 
 > [!NOTE]
 > You cannot adjust column widths manually if **Auto-fit column width** is active.

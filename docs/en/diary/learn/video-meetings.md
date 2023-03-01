@@ -11,7 +11,7 @@ language: en
 
 # Work with video meetings
 
-The SuperOffice video meetings allow you to schedule and create video meetings directly from your diary. Let’s take a look at how you can set up a video meeting.
+The SuperOffice video meetings allow you to schedule and create video meetings directly from your diary. Let us take a look at how you can set up a video meeting.
 
 > [!NOTE]
 > Before you can use this feature, the [administrator must configure][1] your preferred video meeting service in SuperOffice Settings and Maintenance.
@@ -61,7 +61,7 @@ You can join a video meeting in SuperOffice in several ways:
 
 * Click **Join meeting** in the **Follow-up** dialog (appointment).
 * Click **Join meeting** in the side panel.
-* Click a browser notification (only available if the **Alarm** option has been activated).
+* Click a browser notification (only available if the **Alarm** option is active).
 * Right-click a video meeting in the diary and select **Join meeting**.
 
 Watch this video or follow the steps below (video length - 1:11):

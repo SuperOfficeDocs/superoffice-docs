@@ -1,7 +1,7 @@
 ---
 uid: help-en-edit-legal-base
 title: Edit legal base
-description: In this how-to guide you’ll learn about the GDPR features in SuperOffice Marketing that help you ensure that your marketing efforts are GDPR-compliant.
+description: In this how-to guide, you will learn about the GDPR features in SuperOffice Marketing that help you ensure that your marketing efforts are GDPR-compliant.
 author: SuperOffice RnD
 so.date: 02.21.2023
 keywords: privacy, consent, legal basis
@@ -14,11 +14,11 @@ language: en
 > [!NOTE]
 > This feature requires functional rights. Without the proper functional rights, you can only set **E-marketing** to on or off.
 
-As a company, you collect, store and handle people’s personal data. Under the GDPR, you now need to have a lawful reason for why you want to store this information.
+As a company, you collect, store and handle people's personal data. Under the GDPR, you now need to have a lawful reason for why you want to store this information.
 
 SuperOffice CRM has a feature called Consent management, that is designed to help you document when, how and why you want to register certain personal data in your CRM solution.
 
-Every time a person is registered in your SuperOffice CRM database, the consent they gave to save their details is also registered. This allows you to manage and track exactly which consent you’ve received from which person, at all times.
+Every time a person is registered in your SuperOffice CRM database, the consent they gave to save their details is also registered. This allows you to manage and track exactly which consent you've received from which person, at all times.
 
 [!include[Need concent](includes/why-consent.md)]
 
@@ -49,7 +49,7 @@ Every time a person is registered in your SuperOffice CRM database, the consent 
 
 2. Click **Legal basis** at the bottom of the contact card.
 
-    ![At the bottom of the Contact card you can open a person’s privacy page by clicking the Legal basis: Legitimate interest button -screenshot][img1]
+    ![At the bottom of the Contact card you can open a person's privacy page by clicking the Legal basis: Legitimate interest button -screenshot][img1]
 
 3. In the **Privacy** dialog, double-click a purpose where the **Legal basis** and **Source** columns are empty.
 

@@ -32,7 +32,7 @@ Here are some examples of different tiles you can add to your mailing or form su
 
 * Use the **Active forms this quarter** tile to get an overview of the forms that were submitted this quarter.
 
-* The **My customers form submissions this month** tile can help you keep track of your customers’ submissions each month.
+* The **My customers form submissions this month** tile can help you keep track of your customers' submissions each month.
 
 * The **Non-processed submissions** tile allows you to see which submissions that are not processed and need your attention.
 

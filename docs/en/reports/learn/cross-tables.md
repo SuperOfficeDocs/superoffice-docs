@@ -64,7 +64,7 @@ Saving reports as files works slightly differently for cross table reports than 
 | Icon | Description |
 |---|---|
 | ![icon][img2] | Click this button to display a list box containing the different options for showing and hiding rows/columns. |
-| ![icon][img3] | Remove the check from this box if you don’t want rows and columns to be displayed in the cross table. |
+| ![icon][img3] | Remove the check from this box if you do not want rows and columns to be displayed in the cross table. |
 | ![icon][img4] | Click the plus sign to choose to display all the rows/columns in the list. |
 | ![icon][img5] | Click the minus sign to choose to hide all the rows/columns in the list. |
 | ![icon][img6] | Click the star to toggle between showing and hiding rows/columns. |

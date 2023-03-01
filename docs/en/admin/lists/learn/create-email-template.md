@@ -43,7 +43,7 @@ You can create your own templates to use when creating emails from SuperOffice C
 
 15. Check the **Publish** box if you want it to be possible to specify, in the **Document** dialog in SuperOffice CRM, that the document template in question should be made available to external users.
 
-16. Specify the default setting for the **Our reference (default)** field using template variables, for example {auth} for the sender’s first and last names.
+16. Specify the default setting for the **Our reference (default)** field using template variables, for example {auth} for the sender's first and last names.
 
 17. In the **Save to database** field, choose **No**.
 

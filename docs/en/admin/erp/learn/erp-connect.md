@@ -29,7 +29,7 @@ You can connect a SuperOffice company to a customer/supplier in the ERP system. 
     > [!TIP]
     > If you search with a blank search field, all records in the ERP system are displayed.
 
-1. Select an item in the hit list. If you don't get any hits, you can [create a new actor in the ERP system][2] based on data from SuperOffice CRM.
+1. Select an item in the hit list. If you do not get any hits, you can [create a new actor in the ERP system][2] based on data from SuperOffice CRM.
 1. Click **Connect**. A dialog appears showing the data that will be synchronized between SuperOffice CRM and the ERP system. What data is displayed here is defined in SuperOffice Settings and maintenance.
 1. If the data in the two systems are different, select the data that are correct.
     For example: If the street addresses are different, select the correct one. The other data will be overwritten.

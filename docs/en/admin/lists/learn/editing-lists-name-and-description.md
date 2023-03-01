@@ -27,7 +27,7 @@ According to many European laws that govern local marketing practices, a busines
 
 By creating different subscription types for your mailings, you can send your target audiences relevant and expected communication at the right time and improve the results of your E-marketing campaigns.
 
-After a contact is registered in SuperOffice CRM, this person can subscribe to the marketing communications they wish to receive. They can do this by setting their subscription preferences. Basically, you add the subscription types your company offers, and remove those you don’t offer.
+After a contact is registered in SuperOffice CRM, this person can subscribe to the marketing communications they wish to receive. They can do this by setting their subscription preferences. Basically, you add the subscription types your company offers, and remove those you do not offer.
 
 Watch this video to learn how to add and edit subscription types (video length - 2:00):
 

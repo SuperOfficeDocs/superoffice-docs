@@ -35,15 +35,15 @@ Documents can be letters, quotations or memos, and they can be displayed in seve
 
 When working with customers, there are often documents that you create and send out repeatedly. Usually they contain the same basic elements, but different content. By creating your own templates, you can be certain that the documents your employees create all look the same.
 
-You can add any type of document template to SuperOffice CRM, whether it’s a contract, a quotation, a project description, or your own version of the Privacy confirmation email.
+You can add any type of document template to SuperOffice CRM, whether it is a contract, a quotation, a project description, or your own version of the Privacy confirmation email.
 
-Creating templates for frequently used documents and making them available for everyone will save your CRM users’ time and ensure the unified look across your organization.
+Creating templates for frequently used documents and making them available for everyone will save your CRM users' time and ensure the unified look across your organization.
 
 In SuperOffice CRM, you can easily create document templates for Word, Email, Excel, PowerPoint and other file types.
 
 ### Benefits of creating document templates
 
-* Everyone saves time whenever they create a new document, as they don’t have to enter information that is typically repeated in each document, like customer name, address and so on. By using template variables, SuperOffice CRM will automatically add the customer’s information when you create your next document.
+* Everyone saves time whenever they create a new document, because they do not have to enter information that is typically repeated in each document, such as customer name and address. By using template variables, SuperOffice CRM will automatically add the customer's information when you create your next document.
 
 * You make sure that your contacts receive documents that have a unified, professional look, including your logo and corporate identity.
 

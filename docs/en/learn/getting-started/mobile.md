@@ -1,7 +1,7 @@
 ---
 title: Mobile CRM - Access your CRM on the go
 uid: help-en-mobile-intro
-description: How to get started with the basic features in Mobile CRM.
+description: In this how-to guide, you will learn how to get started with the basic features in Mobile CRM.
 author: Bergfrid Dias
 so.date: 12.14.2022
 keywords: mobile, pocket
@@ -12,7 +12,7 @@ so.lang: en
 
 # Mobile CRM: Access your CRM on the go
 
-Mobile CRM gives you access to your entire SuperOffice CRM system on your smartphone or tablet. In this how-to guide, you’ll learn how to get started with the basic features in Mobile CRM.
+Mobile CRM gives you access to your entire SuperOffice CRM system on your smartphone or tablet.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/IPJHqn0THTY]

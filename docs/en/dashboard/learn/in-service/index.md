@@ -16,7 +16,7 @@ A dashboard can contain up to four tiles (panels) that provide an instant overvi
 > [!NOTE]
 > By default, only one dashboard tab exists. It is called **Dashboard**. It contains four tiles with pre-defined charts. You can select which tiles you want to display here. You can also [create your own dashboards][1] with the tiles/charts of your choice.
 
-It’s common practice to start your day getting an overview of the current status of the open requests in your service system.
+It is common practice to start your day getting an overview of the current status of the open requests in your service system.
 
 To get an overview of the requests you will be working with, Service offers you a dashboard that contains four panels with 17 different tiles with graphs and tables to choose from.
 

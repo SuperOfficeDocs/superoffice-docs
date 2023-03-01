@@ -17,9 +17,9 @@ Keep track of your budgets by setting up sales targets. This will help you to se
 
 The target list can contain of the following sections:
 
-* The company’s target
-* The user group’s target
-* The user’s target
+* The company's target
+* The user group's target
+* The user's target
 * The sum of targets for all users in one user group (not editable)
 
 It is optional to add the company target and to have user specific targets (go to Target settings to change). The sum of all targets in one user group is not editable. It shows the sum for all the users in one user group and is a guideline to make it easier to set up the target for the whole user group. You can add and edit the company target, since the target for the whole company is not necessarily the same as the sum of all user groups.
@@ -104,11 +104,11 @@ Before you start using the sales targets feature, you must set up a few things i
 
 ## Lock/unlock function
 
-Depending on your user role (the "Can lock/unlock targets" functional right), you can lock and unlock a sales target. When the sales target is approved, you can select the row to lock it, and then the row will be disabled for editing. If the sales target has been approved and locked, it should not be unlocked unless there are certain reasons to modify it.
+Depending on your user role (the "Can lock/unlock targets" functional right), you can lock and unlock a sales target. When the sales target is approved, you can select the row to lock it, and then the row will be disabled for editing. If the sales target was approved and locked, it should not be unlocked unless there are certain reasons to modify it.
 
-## Copy numbers from another user’s target
+## Copy numbers from another user's target
 
-To avoid having to set up the sales targets from scratch once again for a different user, you have the option to copy another user's sales target as they are (fixed numbers), adjust the target up or down with % or set the initial annual amount.
+To avoid having to set up the sales targets from scratch again for a different user, you can copy another user's sales target as they are (fixed numbers), adjust the target up or down with % or set the initial annual amount.
 
 ![Adjust numbers for a specific user, user group or the company target -screenshot][img6]
 

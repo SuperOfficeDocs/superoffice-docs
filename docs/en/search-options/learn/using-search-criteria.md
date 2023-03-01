@@ -15,7 +15,7 @@ You use search criteria to define what you are looking for, for example "compani
 
 Everywhere you can enter search criteria, you will find a criteria list containing the selected search criteria.
 
-Typical searches are there to help you get started and create your own search of CRM data. After you’ve selected a typical search, you can add and edit the search criteria. And once you’ve created a useful search that you’d like to use again, you can save it as a selection.
+Typical searches are there to help you get started and create your own search of CRM data. After you've selected a typical search, you can add and edit the search criteria. And once you've created a useful search that you'd like to use again, you can save it as a selection.
 
 Watch this video to learn how to do a typical search and modify it by adding new search criteria or follow the step-by-step guide below (video length – 3:01):
 

@@ -11,13 +11,13 @@ language: en
 
 # Look at recipient list after the mailing
 
-Once your mailing is sent, it’s always exciting to see how well your mailing performed. At the same time, it’s a great opportunity to check and improve the quality of the information registered in your database. The number of bounced emails, especially, is a key indicator. Learn how to filter your recipients list in this how-to guide.
+After your mailing is sent, it is always exciting to see how well your mailing performed. It is also a great opportunity to check and improve the quality of the information registered in your database. The number of bounced emails, especially, is a key indicator. Learn how to filter your recipients list in this how-to guide.
 
 The first few times you sent out your mailing, you might get a large number of bounced emails. This is good news, because it means you can update every email address that is misspelled or no longer in use.
 
 Updating bounced email addresses will help increase the success rate of your future mailings.
 
-After the mailing has been sent, SuperOffice Marketing collects data about the status of each sent e-mail. In the Recipients tab, you can view the status for each recipient of the mailing. You can also filter the list and export the results to selections and projects in SuperOffice CRM for further processing.
+After the mailing is sent, SuperOffice Marketing collects data about the status of each sent email. In the Recipients tab, you can view the status for each recipient of the mailing. You can also filter the list and export the results to selections and projects in SuperOffice CRM for further processing.
 
 ![You can see the status of the mailing in the Status field -screenshot][img4]
 

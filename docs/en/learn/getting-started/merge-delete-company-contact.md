@@ -18,7 +18,7 @@ When you add new companies and contacts, make sure you double check that they ar
 
 ## Merge companies and contacts
 
-If you find duplicated information, go on and merge them as soon as possible, to make sure that it's easier to find the correct company and contact. You can also move a contact if he/she are added on the wrong company card. This is to prevent duplicates in the future.
+If you find duplicated information, go on and merge them as soon as possible, to make sure that it is easier to find the correct company and contact. You can also move a contact if he/she are added on the wrong company card. This is to prevent duplicates in the future.
 
 > [!NOTE]
 > This functionality requires user rights, so contact your administrator to get sufficient functional rights.

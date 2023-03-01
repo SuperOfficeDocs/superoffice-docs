@@ -126,13 +126,11 @@ This tab contains any extra fields defined for requests. These will vary from co
 
 ## Autosave
 
-Whenever you are working on a request and suddenly receive a more urgent request, you’ll have to leave the request you are working on to solve the prioritized request.
+Whenever you are working on a request and suddenly receive a more urgent request, you should leave the request you are working on to solve the prioritized request.
 
-The autosave function will automatically save your changes until you click **OK** to send or cancel the changes to your request.
+The autosave function will automatically save your changes until you click **OK** to send or cancel the changes to your request. Autosaved information is placed in the local storage of your browser, so your data will even survive a browser crash, reboot, logout and login.
 
-Autosaved information is placed in the local storage of your browser, so your data will even survive a browser crash, reboot, logout and login.
-
-The autosave feature is activated by default when you view and edit requests and reply/reply all).
+The autosave feature is activated by default when you view and edit requests and reply/reply all.
 
 ### Limitations
 

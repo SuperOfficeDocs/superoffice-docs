@@ -52,7 +52,7 @@ Everything you want to find out about a company is available from a single scree
 [6]: delete.md
 [7]: print.md
 [8]: screen/index.md
-[9]: ../search-options/ selections/learn/howto/bulk-update.md
+[9]: ../search-options/selections/learn/howto/bulk-update.md
 [10]:
 [11]: ../getting-started/recycle-bin.md
 

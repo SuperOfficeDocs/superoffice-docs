@@ -24,7 +24,7 @@ If you spot a sales opportunity that is visible in red in the **Selection member
 
 In the same way you can use a selection of contacts as a calling list to follow up on them one by one. Or use a list of sales proposals to make sure you follow up on all outstanding proposals.
 
-Use the side panel, and you’ll be able to work in a well-organized and efficient way.
+Use the side panel to work in a well-organized and efficient way.
 
 ## Related content
 

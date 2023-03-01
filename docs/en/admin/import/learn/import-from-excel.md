@@ -1,7 +1,7 @@
 ---
 uid: help-en-import-from-excel
 title: Import from Excel
-description: In this how-to guide you’ll learn how you can import all your prospect, customers and their contacts.
+description: In this how-to guide you will learn how you can import all your prospect, customers and their contacts.
 author: Bergfrid Dias
 so.date: 02.22.2023
 keywords: import, Excel, company, contact, spreadsheet

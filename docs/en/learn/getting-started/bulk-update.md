@@ -4,8 +4,8 @@ title: Bulk update
 description: Bulk update
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: bulk update
+so.topic: howto
 language: en
 ---
 
@@ -88,7 +88,7 @@ You discover that the contact field **Position** is rarely used. To at least sta
 
 ## Update project
 
-You want to clean up all the “old” projects that have not been set to completed. Create a selection of all your old projects, for example all projects created more than 2 years ago and that has not been updated in the last year. Use **Bulk update** to set the **Completed** status for these projects to **Yes**.
+You want to clean up all the "old" projects that have not been set to completed. Create a selection of all your old projects, for example all projects created more than 2 years ago and that has not been updated in the last year. Use **Bulk update** to set the **Completed** status for these projects to **Yes**.
 
 <!-- Referenced links -->
 [1]: ../../search-options/learn/using-fastsearcher.md

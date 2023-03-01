@@ -4,8 +4,8 @@ title: The Section tabs
 description: The Section tabs
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: section tab
+so.topic: concept
 language: en
 ---
 

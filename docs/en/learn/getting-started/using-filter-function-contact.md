@@ -5,7 +5,7 @@ description: Using the Filter function Contact
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: company
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -15,7 +15,7 @@ language: en
 
 At the bottom of the **Activities** and **Sales** section tabs in the **Company**, **Contact**, **Sale** and **Project** screens is the **Filter** button.
 
-You use the filter function to specify which records to display on the **Activities** and **Sales** section tabs. You do this by specifying a date range for the records you want to see. The default in the **Filter** dialog is to display the previous year’s and the next six months’ activities or sales of the user currently logged in, but you can change these values as described below.
+You use the filter function to specify which records to display on the **Activities** and **Sales** section tabs. You do this by specifying a date range for the records you want to see. The default in the **Filter** dialog is to display the previous year's and the next six months' activities or sales of the user currently logged in, but you can change these values as described below.
 
 In addition to defining a time period, you can also choose if you want to see all the activities or sales that are defined in the organization, or only your own. You can also specify that you want to see information created by one or more user groups or by specific people.
 

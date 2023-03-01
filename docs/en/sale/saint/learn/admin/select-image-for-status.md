@@ -28,7 +28,7 @@ The image you choose should represent pictorially the status it stands for. The 
 
 [!include[File type and size](../../../learn/includes/image-type-and-size.md)]
 
-The images are used as watermarks for the company card, contact card or project card in SuperOffice CRM. The transparency is 40%, so that the image does not obscure the text. You should nonetheless use images with relatively light colors.
+The images are used as watermarks for the company card, contact card or project card in SuperOffice CRM. The transparency is 40 percent, so that the image does not obscure the text. You should nonetheless use images with relatively light colors.
 
 ## To select an image for the status
 

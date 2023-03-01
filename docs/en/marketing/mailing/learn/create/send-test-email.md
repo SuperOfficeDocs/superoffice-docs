@@ -1,7 +1,7 @@
 ---
 uid: help-en-mailing-send-test
 title: Test mailing by sending a test email
-description: Once you have created a punchy subject line, added your text, inserted links and images into your email template, you are ready to test your mailing and check what it will look like for your recipients. In this how-to guide you’ll learn how to send a test mailing.
+description: In this how-to guide you will learn how to send a test mailing.
 author: SuperOffice RnD
 so.date: 02.20.2023
 keywords: Marketing
@@ -11,9 +11,9 @@ language: en
 
 # Send a test email for email mailings and form responses
 
-When you create a new mailing, you can also do a few tests to check that the mailing is working properly and that the layout looks OK. In the **Content** step you can send a test email. This is not relevant for document and SMS.
+After you have created a punchy subject line, added your text, inserted links and images into your email template, you can do a few tests to check that the mailing is working properly and that the layout looks OK. In the **Content** step you can send a test email. This is not relevant for document and SMS.
 
-Create a small selection that consists of you and some of your colleagues. You can send the mailing you’ve prepared to yourself and colleagues to get feedback and approval before sending it to your target group.
+Create a small selection that consists of you and some of your colleagues. You can send the mailing you've prepared to yourself and colleagues to get feedback and approval before sending it to your target group.
 
 ![Test your mailing before sending it to the public -screenshot][img2]
 

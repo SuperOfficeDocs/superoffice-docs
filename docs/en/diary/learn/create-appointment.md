@@ -1,7 +1,7 @@
 ---
 uid: help-en-appointment-create
 title: Create appointment
-description: Creating appointments and scheduling all meetings and activities in your SuperOffice Diary help you to always have a complete overview of what’s happening, build up solid communication history, and keep your colleagues informed. This how-to guide will help you create appointments and see the different types of activity options available.
+description: This how-to guide will help you create appointments and see the different types of activity options available.
 author: SuperOffice RnD
 so.date: 02.10.2023
 keywords: diary, follow-up
@@ -10,6 +10,8 @@ language: en
 ---
 
 # Create appointment
+
+Creating appointments and scheduling all meetings and activities in your SuperOffice Diary help you to always have a complete overview of what is happening, build up solid communication history, and keep your colleagues informed.
 
 There are many ways to create an appointment. In all cases, you specify the [appointment details][2] the **Appointment** dialog.
 

@@ -32,7 +32,7 @@ language: en
     * **Printed address format (local)** and **(intl)**:
         Some countries use different address formats for letters depending on if they are posted at home or abroad. Specify the format to be used in each of these cases in these fields.
 
-6. The **Company** screen in SuperOffice CRM contains a field labelled **VAT No.**, for recording the company’s VAT number or similar number. You can change this field label in Settings and maintenance. Type in the desired text in the **Organization number field label** field, for example, *Org. nr* for Norway. When you enter a Norwegian company in SuperOffice CRM, the label for the company’s organization number will be *Org. nr* instead of *VAT No.*.
+6. The **Company** screen in SuperOffice CRM contains a field labelled **VAT No.**, for recording the company's VAT number or similar number. You can change this field label in Settings and maintenance. Type in the desired text in the **Organization number field label** field, for example, *Org. nr* for Norway. When you enter a Norwegian company in SuperOffice CRM, the label for the company's organization number will be *Org. nr* instead of *VAT No.*.
 
 7. Click the arrow ( ![icon][img1] ) next to the **Currency** field and select a currency from the list.
 

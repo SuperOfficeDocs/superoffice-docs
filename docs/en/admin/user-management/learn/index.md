@@ -11,7 +11,7 @@ language: en
 
 # Users
 
-As an administrator you’re in charge of adding and managing your users. In this section you’ll learn how to add new users, how to assign the right user roles and groups, and help the users with setup and web tools.
+As an administrator you're in charge of adding and managing your users. In this section you will learn how to add new users, how to assign the right user roles and groups, and help the users with setup and WebTools.
 
 ## User types
 

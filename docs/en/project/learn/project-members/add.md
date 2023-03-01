@@ -39,7 +39,7 @@ To link the project to a company, you must specify at least one project member.
 
 8. In the **Function** field, specify the function each person has in the project. Click the arrow to display a list of predefined alternatives to choose from. These are defined in SuperOffice Settings and maintenance.
 
-9. In the large text box under **Comment**, enter a more detailed description of the person’s function within the project, if required.
+9. In the large text box under **Comment**, enter a more detailed description of the person's function within the project, if required.
 
     > [!NOTE]
     > If you enter anything in this text box, a paperclip symbol ( ![icon][img1] ) is displayed in the **Project member information** column in the **Project Members** section tab. Position the mouse pointer over the paperclip to display a tooltip containing the comment.

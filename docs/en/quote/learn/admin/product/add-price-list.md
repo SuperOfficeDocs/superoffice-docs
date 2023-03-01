@@ -1,7 +1,7 @@
 ---
 uid: help-en-price-list-add
 title: Add price list
-description: In this how-to guide you’ll learn how to add and edit a price list in SuperOffice Quote.
+description: In this how-to guide you will learn how to add and edit a price list in SuperOffice Quote.
 author: SuperOffice RnD
 so.date: 02.23.2023
 keywords: produdct, price list
@@ -12,7 +12,7 @@ language: en
 
 # Add a price list
 
-It’s not uncommon to use different price lists for different times of the year or for specific campaigns you may want to run.
+It is not uncommon to use different price lists for different times of the year or for specific campaigns you may want to run.
 
 Customizing price lists helps your salespeople use the correct price details without having to waste time on double checking them. You, as an administrator, can determine when a certain price list should be used by using limited validity.
 
@@ -24,7 +24,7 @@ Customizing price lists helps your salespeople use the correct price details wit
 
 1. Click the **Add** button at the top of the tab. The **Add/Edit price list** dialog appears.
 
-1. Fill in the following fields :
+1. Fill in the following fields:
 
     * **Price list name**: Give the price list a descriptive name to make it easier to distinguish from any other price lists.
 

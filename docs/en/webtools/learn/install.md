@@ -40,7 +40,7 @@ Watch this video or follow the guide below to learn how to install WebTools for 
 7. Click **Continue**.
 8. Click **Install**.
 9. If you are asked for your user name and password to install, enter them and click **Install Software**.
-10. When the message “The installation was successful” is displayed, close the dialog.
+10. When the message "The installation was successful" is displayed, close the dialog.
 11. Finally, log out of SuperOffice CRM, close the web browser window, and reopen your browser window to log in again.
 
 With WebTools installed, you can start creating documents from inside SuperOffice

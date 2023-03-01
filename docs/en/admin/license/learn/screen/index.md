@@ -46,7 +46,7 @@ Metered services are services that are invoiced once you exceed a certain level/
 * Chat sessions started
 * Form submissions
 
-Administrators can keep track of exactly how much each service is used per month. Whenever your company exceeds the threshold, you’ll automatically be invoiced for these services on your next monthly invoice. The threshold depends on the number of users. The more users you have, the higher the threshold will be.
+Administrators can keep track of exactly how much each service is used per month. Whenever your company exceeds the threshold, you are automatically invoiced for these services on your next monthly invoice. The threshold depends on the number of users. The more users you have, the higher the threshold will be.
 
 ### System notifications
 

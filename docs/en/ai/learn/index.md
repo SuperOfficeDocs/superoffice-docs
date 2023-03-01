@@ -18,7 +18,7 @@ Save time and reduce manual work by automating various business processes, witho
 
 ![SuperOffice artificial intelligence services -screenshot][img1]
 
-AI and machine learning usually require a lot of a company's resources to draw benefits from them. The complexity of AI have often been a hurdle for companies. It's a common concern AI in modern business applications that it's too complex for everyday users contrary to expectations. Using AI doesn't always require coding knowledge and with our approach of embedding AI into SuperOffice CRM everything is simplified and everyone can benefit from it.
+AI and machine learning usually require a lot of a company's resources to draw benefits from them. The complexity of AI have often been a hurdle for companies. It is a common concern AI in modern business applications that it is too complex for everyday users contrary to expectations. Using AI does not always require coding knowledge and with our approach of embedding AI into SuperOffice CRM everything is simplified and everyone can benefit from it.
 
 AI can turn those enormous data collections into meaningful information, allowing workers to simplify their workload and gather more insights from data at their fingertips. Automated AI tools can also facilitate communication between your employees and your customers. This means you can significantly improve the overall customer experience by simply offering quicker responses to your customers.
 

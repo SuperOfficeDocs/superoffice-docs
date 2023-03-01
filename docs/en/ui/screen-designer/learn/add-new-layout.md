@@ -12,15 +12,15 @@ language: en
 
 # Add new screen layout
 
-If the default layout doesn’t reflect the needs of a user group, you can create a new layout to match the user group’s unique information needs. A customized layout for the contact and company cards and the different archive/section tabs lets your teams and organization work more efficient.
+If the default layout does not reflect the needs of a user group, you can create a new layout to match the user group's unique information needs. A customized layout for the contact and company cards and the different archive/section tabs lets your teams and organization work more efficient.
 
 With custom screen layouts for each of your teams, finding customer data will be easier than ever. The most relevant data will always be available and visible. Remove, move or hide irrelevant or less important data to unclutter the company, contact, sale and project screens. Add customized archives with the most relevant data for your teams. The result will be a cleaner and more tidy screen for your teams to work in.
 
 ## Main card layout
 
-A customized layout for the Contact and Company cards/screens lets your teams and organization work more efficiently, as it eliminates the distracting “information noise”.
+A customized layout for the Contact and Company cards/screens lets your teams and organization work more efficiently, as it eliminates the distracting "information noise".
 
-For example, if your Support team rarely uses the company address when they communicate with companies and contacts, you will want to make space for other fields that are more important on the first page (the Company tab). As we don’t want the address field on the first page, move it by clicking on the bars on the left side of the field and drag it over to the “More” tab.
+For example, if your Support team rarely uses the company address when they communicate with companies and contacts, you will want to make space for other fields that are more important on the first page (the Company tab). Move it by clicking on the bars on the left side of the field and drag it over to the **More** tab.
 
 Watch this video and find out how add a new layout or follow the step-by-step guide below (the video will start at 5:37):
 

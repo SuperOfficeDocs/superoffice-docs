@@ -1,7 +1,7 @@
 ---
 uid: help-en-request-tags
 title: Using tags in requests
-description: Using tags in requests
+description: Learn how to create and edit request tags in this how-to guide.
 author: SuperOffice RnD
 so.date: 02.23.2023
 keywords: request
@@ -11,9 +11,7 @@ language: en
 
 # Using tags in requests
 
-Each company will want to use their own specific customer service request tags. Learn how to create and edit request tags in this how-to guide.
-
-Let’s take a look at two types of tags that could be useful for you company:
+Each company will want to use their own specific customer service request tags. Let us take a look at two types of tags that could be useful for you company:
 
 * You can set up tags for the different customer stages your company uses such as, for example, Free trial, Onboarding, Existing or Terminating;
 

@@ -41,7 +41,7 @@ When the user opens the status dialog in SuperOffice CRM, they may also create a
 
 Statuses and counters can be used in searches and to create dynamic selections. For example, you can search for companies, contacts or projects that fulfil a status or a counter. [!include[Define counter](../../../learn/includes/def-counter.md)]
 
-You can set up 3 different counters/periods, these counters are the number of days you want to count on activities, sales and requests. The different periods are set on what is important for you. For example, you want to be notified if some of your customers haven’t had any activities the last month (30 days), or if there are unsolved requests on the customers that are older than 30 days.
+You can set up 3 different counters/periods, these counters are the number of days you want to count on activities, sales and requests. The different periods are set on what is important for you. For example, you want to be notified if some of your customers haven't had any activities the last month (30 days), or if there are unsolved requests on the customers that are older than 30 days.
 
 ## Periods
 

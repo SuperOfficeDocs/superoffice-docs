@@ -26,7 +26,7 @@ If your customer centre is multi-lingual, you can set options (such as welcome t
 
 You can configure your Customer Centre either in Settings and maintenance or in SuperOffice Service.
 
-1. Select ![icon][img1] **Settings and maintenance** > **Customer centre** > **Configure**. On the **Customer centre** screen you’ll see two tabs, one for **Styling** and one for **Options**. At the top of this page, you’ll find a link to the Customer Centre page where you can preview your Customer Centre.
+1. Select ![icon][img1] **Settings and maintenance** > **Customer centre** > **Configure**. There are 2 tabs on the **Customer centre** screen: **Styling** and **Options**. At the top of this page is a link to the Customer Centre page where you can preview your Customer Centre.
 
 2. In the **Styling** tab, you can edit various settings for the look and feel of the customer centre: Logo, preferred width, colors and fonts. The preview is updated automatically.
 
@@ -60,7 +60,7 @@ You can configure your Customer Centre either in Settings and maintenance or in 
 | Enable footer | Select this option to display a footer at the bottom of the page. Click **Edit** to enter text. |
 | Enable chat | Select this option to activate the chat window in the lower right corner of the page. Select **Always** if you want the chat window available for anyone accessing the customer centre. Otherwise select **Logged in customers** to require users to log in to access the chat window. |
 | Chat channel | Select the chat channel you want to use. If no chat channel is selected, the chat window will not be available. |
-| Use custom ”Contact us” form | Select this option to use a custom form instead of the default form. Select a form in the list.|
+| Use custom "Contact us" form | Select this option to use a custom form instead of the default form. Select a form in the list.|
 
 <!-- Referenced links -->
 [1]: edit.md

@@ -1,7 +1,7 @@
 ---
 uid: help-en-invitation-add-participant
 title: Add participants to follow-ups
-description: Inviting contacts to an appointment can be done in different ways, depending on whether it’s an internal or an external person, or a resource, such as a meeting room or special equipment. This how-to guide will show how you to add participants to an appointment.
+description: Inviting contacts to an appointment can be done in different ways, depending on whether it's an internal or an external person, or a resource, such as a meeting room or special equipment. This how-to guide will show how you to add participants to an appointment.
 author: SuperOffice RnD
 so.date: 02.10.2023
 keywords: diary, follow-up, invitation, participant
@@ -11,7 +11,7 @@ language: en
 
 # Add participants and resources to follow-ups
 
-When you create a follow-up that concerns other people, you can add them as participants to the follow-up. You can also book your organization’s conference rooms and equipment. People who are available as participants are defined in SuperOffice Settings and maintenance.
+When you create a follow-up that concerns other people, you can add them as participants to the follow-up. You can also book your organization's conference rooms and equipment. People who are available as participants are defined in SuperOffice Settings and maintenance.
 
 Invite a contact to an appointment from the participants tab by clicking the **Add** button.
 

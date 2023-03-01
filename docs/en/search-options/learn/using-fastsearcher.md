@@ -54,10 +54,10 @@ You can use FastSearcher in various ways:
 
 1. Put the mouse pointer in the country field.
 
-2. Enter the name of the city or country you want to find out the time zone for. If, for example, you don't know the time zone for Canberra, you can search for Canberra and bring up the relevant Australian time zone in the list.
+2. Enter the name of the city or country you want to find out the time zone for.
 
     > [!NOTE]
-    > Names of regions in the time zone selector will always be in English, while country names are dependent on the language settings in SuperOffice CRM. Don't forget this when searching for countries and regions.
+    > Names of regions in the time zone selector will always be in English, while country names depend on the language settings in SuperOffice CRM. Do not forget this when searching for countries and regions.
 
 3. Once you have found the required city or country, click the item to enable the required time zone.
 

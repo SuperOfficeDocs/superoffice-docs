@@ -17,7 +17,7 @@ To offer great customer experience you need to support your customers in their l
 
 By [setting up extra languages][1] you make it easy for your customers to register, comment on and check the status of their requests in their preferred language. In addition, they will have access to all the FAQs in their chosen language.
 
-Out of the box you can add 6 different languages. If the language you wish to use isn’t available, please contact us and our consultants will be able to help you add the additional languages you need.
+Out of the box you can add 6 different languages. If the language you wish to use isn't available, please contact us and our consultants will be able to help you add the additional languages you need.
 
 ## The Customer languages screen
 

@@ -11,9 +11,9 @@ language: en
 
 # Create a target list
 
-There are many ways you can create your target list. So, to make sure you know everything you need to know and remember when creating your target list, we’ve created a how-to guide.
+There are many ways you can create your target list. So, to make sure you know everything you need to know and remember when creating your target list, we've created a how-to guide.
 
-You can make two types of selections to create your target list. In the how-to guide you’ll learn how to create a static and a dynamic selection.
+You can make two types of selections to create your target list. In the how-to guide you will learn how to create a static and a dynamic selection.
 
 ## What to consider when creating a target list
 
@@ -59,11 +59,11 @@ Not only is the GDPR a law, but it is also a great opportunity for you to create
 
 * Offer a simple and straight-forward way for your contacts to opt-out of your email marketing campaigns, by including clearly visible unsubscribe links in your mailings. Another way to make sure you contact only the people that want to hear from you is by creating a subscription management centre where data subjects can choose the content they want to receive.
 
-* Obtain re-permissions from your existing customer base. This means that if you’re not sure whether or not you have the necessary permissions, and if you haven’t provided your contacts with the possibility to opt-out, it may be necessary to obtain re-permissions. Sending a “re-permission” campaign is also a great away to update your existing records.
+* Obtain re-permissions from your existing customer base. This means that if you're not sure whether or not you have the necessary permissions, and if you haven't provided your contacts with the possibility to opt-out, it may be necessary to obtain re-permissions. Sending a "re-permission" campaign is also a great away to update your existing records.
 
 ## 4 ways to create your target lists
 
-* **Selections:** This is a powerful tool that allows you to define your mailing’s target list with precision. You can make your own selection from scratch or you can use one of our pre-set selections. To find the pre-set selections, go to the Selection section and type Company. You will find 4 selections ready to use. If you prefer to make your own selection, you can learn how to create a selection.
+* **Selections:** This is a powerful tool that allows you to define your mailing's target list with precision. You can make your own selection from scratch or you can use one of our pre-set selections. To find the pre-set selections, go to the Selection section and type Company. You will find 4 selections ready to use. If you prefer to make your own selection, you can learn how to create a selection.
 
 * **Projects:** You can send mailings to people connected to a project in SuperOffice CRM. Add the people you want to the project and choose this project as a recipient list for your mailing.
 
@@ -73,7 +73,7 @@ Not only is the GDPR a law, but it is also a great opportunity for you to create
 
 ## Narrow down your target list
 
-By narrowing down your target list you’ll avoid sending emails to contacts that are not interested. This way you can save costs and prevent yourself from wasting marketing resources. [Don’t make the same mistake as 89% of all marketers][1], by sending your mailing to everybody in your database.
+By narrowing down your target list you avoid sending emails to contacts that are not interested. This way you can save costs and prevent yourself from wasting marketing resources. [Do not make the same mistake as 89 percent of all marketers][1], by sending your mailing to everybody in your database.
 
 What to think of when you want to segment your database:
 
@@ -81,14 +81,14 @@ What to think of when you want to segment your database:
 
 * The contacts you want to send mailings to need to have a consent for e-marketing. This means that you have a legal basis for sending them mailings in the first place, and they have not opted-out from this (e.g. withdrawn their consent).
 
-* In addition, you should consider using the Subscription management feature that lets you track what type of mailings your contact is happy to receive. Examples of subscriptions can be “newsletters”, “invitations”, “product updates”, or it can be specific content topics, and other. This allows you to send the right information to the right people.
+* In addition, you should consider using the Subscription management feature that lets you track what type of mailings your contact is happy to receive. Examples of subscriptions can be "newsletters", "invitations", "product updates", or it can be specific content topics, and other. This allows you to send the right information to the right people.
 
 * **Extra fields** are also important for your marketing routine. You can add extra fields to SuperOffice CRM that contain the information you need in order to create your perfect target list.
 
 > [!NOTE]
 > Ask your SuperOffice Administrator to edit/add lists and fields to further narrow down your target lists to fit any segmentation criteria and fields you need.
 
-![Check what a contact person’s interests are in the Interest tab on the Contact card -screenshot][img1]
+![Check what a contact person's interests are in the Interest tab on the Contact card -screenshot][img1]
 
 ## Selections as target lists
 
@@ -102,9 +102,9 @@ A static selection is a list of content that you create manually, by choosing ce
 
 The distinctive feature of a static selection is that it stays the same until you decide to change it – manually add new records to an existing selection or delete single records, unlike a dynamic selection. A dynamic selection will automatically update when records are added to or removed from your CRM database.
 
-You can use a static selection when you want absolute control of the content, for example, when you create a target list for a mailing. You’ll have full control over the contacts whom you want to send your next marketing mailing to.
+You can use a static selection when you want absolute control of the content, for example, when you create a target list for a mailing. You will have full control over the contacts whom you want to send your next marketing mailing to.
 
-Another way to use a static selection is to analyze performance in your organization – it’s easy to view the results from a specific area and period like last month, last quarter, and so on. By comparing the same static selection from different periods, you can see whether your company performed better or worse.
+Another way to use a static selection is to analyze performance in your organization – it is easy to view the results from a specific area and period like last month, last quarter, and so on. By comparing the same static selection from different periods, you can see whether your company performed better or worse.
 
 ### Dynamic selection
 

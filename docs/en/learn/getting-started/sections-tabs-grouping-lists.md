@@ -4,8 +4,8 @@ title: Sections tabs Grouping lists
 description: Sections tabs Grouping lists
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: section tab
+so.topic: howto
 language: en
 ---
 

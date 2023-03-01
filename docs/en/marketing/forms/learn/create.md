@@ -75,7 +75,7 @@ Fill in the following information in the **Properties** category:
   * **Until**: Select a date. The form will be deactivated on this date.
   * **Max**: Enter the number of responses. The form will be deactivated after the specified number of responses are received.
 
-* **Use Google Analytics**: Select this option to track the form and connect it to [Google Analytics][1] (if that is set up for your web site). In the field below this option, you can enter the Google Analytics tracking ID for this form.
+* **Use Google Analytics**: Select this option to track the form and connect it to [Google Analytics][1] (if that is set up for your website). In the field below this option, you can enter the Google Analytics tracking ID for this form.
 
 ### Add fields to the form
 
@@ -127,7 +127,7 @@ Double opt-in is an extra step in the form submission process, where a person ha
 > [!NOTE]
 > The link is valid for 30 minutes by default.
 
-Using the double opt-in feature will guarantee that people submit the right email address. This means that your mailing list will be more reliable, which will help raise the opening rates of your mailings. As an added bonus, you won’t have to spend time correcting spelling mistakes in email addresses or deleting email addresses that don’t exist. And it also will help you in your effort to stay GDPR-compliant.
+Using the double opt-in feature will guarantee that people submit the right email address. This means that your mailing list will be more reliable, which will help raise the opening rates of your mailings. As an added bonus, you won't have to spend time correcting spelling mistakes in email addresses or deleting email addresses that do not exist. And it also will help you in your effort to stay GDPR-compliant.
 
 Watch this video to learn how to use the double opt-in feature on your web form (video length - 3:45) or follow the steps below.
 
@@ -152,13 +152,13 @@ If double opt-in is activated for a form, all [submissions for this form][5] hav
 
 ### Thank you page
 
-When a person completes and submits a form, you should thank them and let them know what will happen next. It’s always nice to say thank you. People really appreciate it.
+When a person completes and submits a form, you should thank them and let them know what will happen next. It is always nice to say thank you. People really appreciate it.
 
-Besides saying thank you, you can use this page to inform your visitors about other products or events. Simply add your inspirational copy to the page and link it to specific places on your website. This way the customer can continue to explore your website after they’ve submitted their details.
+Besides saying thank you, you can use this page to inform your visitors about other products or events. Simply add your inspirational copy to the page and link it to specific places on your website. This way the customer can continue to explore your website after they've submitted their details.
 
-The effect will be uplifting – a “Thank you” page will both elevate their customer experience and boost your customer loyalty.
+The effect will be uplifting – a "Thank you" page will both elevate their customer experience and boost your customer loyalty.
 
-Watch this video to learn how to add a “Thank you” page to your web form (video length - 1:48) or follow the steps below.
+Watch this video to learn how to add a "Thank you" page to your web form (video length - 1:48) or follow the steps below.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://youtu.be/xaVXR-Ltfuo]

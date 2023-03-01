@@ -52,7 +52,7 @@ The items at the top of the screen vary slightly between SuperOffice CRM, Servic
 | Log out | Click here to log out of SuperOffice CRM. |
 
 > [!NOTE]
-> In Settings and maintenance, you'll only find **Local settings**, **Change password**, and **Log out**.
+> In Settings and maintenance, you have only **Local settings**, **Change password**, and **Log out**.
 
 ## Options in the Main menu
 

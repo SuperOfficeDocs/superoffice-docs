@@ -1,7 +1,7 @@
 ---
 uid: help-en-work-with-messages-and-templates
 title: work with messages and templates
-description: Just like your business card, your mailing should make a good impression. That’s why creating a master (corporate) template is the best way to ensure all your mailings look good, have the same design and represent your brand.
+description: Creating a master (corporate) template is the best way to ensure all your mailings look good, have the same design and represent your brand.
 author: SuperOffice RnD
 so.date: 02.16.2023
 keywords: marketing
@@ -11,19 +11,19 @@ language: en
 
 # Work with the message templates
 
-Just like your business card, your mailing should make a good impression. That’s why creating a master (corporate) template is the best way to ensure all your mailings look good, have the same design and represent your brand.
+Just like your business card, your mailing should make a good impression. That is why creating a master (corporate) template is the best way to ensure all your mailings look good, have the same design and represent your brand.
 
 It will also help you prevent CRM users from designing their own, disjointed styles that may not reflect your brand or marketing strategy.
 
 You can design a master template for each type of mailing you send. For example, you can create a newsletter template, an email campaign template, or even a Christmas card template.
 
-SuperOffice CRM offers more than **100 templates for mailing** that you can download and use as a starting point or inspiration for your own mailing template that will reflect your company’s branding.
+SuperOffice CRM offers more than **100 templates for mailing** that you can download and use as a starting point or inspiration for your own mailing template that will reflect your company's branding.
 
 [!include[Note about 2 editor versions](includes/note-old-or-new-editor.md)]
 
 ## Where to find templates for mailing
 
-To check out the standard templates, you should go to the **Message templates** tab in the Marketing section. Here you’ll find the Online template library, which contains more than 100 online templates that you can download to use.
+To check out the standard templates, go to the **Message templates** tab in the Marketing section. Here you will find the Online template library, which contains more than 100 online templates that you can download to use.
 
 You can open the message template you like by clicking on it. To download this template, click on the **Import template** button.
 
@@ -31,7 +31,7 @@ The message template is now available in your Message templates archive. You can
 
 ![Online template library contains message templates that you can download to use -screenshot][img3]
 
-You can find additional message templates in the tab All templates, if you like to use a more “retro look”.
+You can find additional message templates in the tab All templates, if you like to use a more "retro look".
 
 ## Using templates from the Online template library
 
@@ -61,7 +61,7 @@ In addition to the templates created by your and your colleagues, you have acces
 
 ## Things to include in your corporate master template
 
-* Add your [company’s logo][4] at the top of the newsletter and link it to your website.
+* Add your [company's logo][4] at the top of the newsletter and link it to your website.
 
 * Add a link to display the message in a browser. If a person has problems viewing the message in his/her email program, they should get a link to display the mailing in a browser. All SuperOffice CRM templates come with a link that allows the recipient to open a mailing in a browser.
 
@@ -69,7 +69,7 @@ In addition to the templates created by your and your colleagues, you have acces
 
 * Add the unsubscribe link. According to new data protection and privacy regulation (GDPR), you must add a clearly visible unsubscribe link and make it easy for recipients to opt out of your mailings.
 
-* Add [merge tags][3] (also called template variables). You can include each recipient’s data to personalize your message. This will help you increase the opening and click-through rates. For example, you can address your reader by their first or full name or the name of the company they work in. SuperOffice CRM offers a variety of merge tags you can use to personalize your mailings.
+* Add [merge tags][3] (also called template variables). You can include each recipient's data to personalize your message. This will help you increase the opening and click-through rates. For example, you can address your reader by their first or full name or the name of the company they work in. SuperOffice CRM offers a variety of merge tags you can use to personalize your mailings.
 
 ## Create a new email template
 

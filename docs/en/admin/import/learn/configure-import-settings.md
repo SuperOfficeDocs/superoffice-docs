@@ -27,9 +27,9 @@ This applies to the following, among other things:
 
 ## What to consider before you import your contact or product information
 
-* You can define what the system should do if you import contacts that already exist in SuperOffice CRM. The system can overwrite or skip updating – it’s your choice.
+* You can define what the system should do if you import contacts that already exist in SuperOffice CRM. The system can overwrite or skip updating – it is your choice.
 
-* You can choose to have the system create new categories automatically, if you use a category that doesn’t exist in SuperOffice CRM in your import file.
+* You can choose to have the system create new categories automatically, if you use a category that does not exist in SuperOffice CRM in your import file.
 
 ## Typical scenarios
 

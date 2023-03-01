@@ -13,7 +13,7 @@ language: en
 
 The free Google Workspace integration app for documents enables you to work effortlessly with documents from SuperOffice CRM.
 
-The Google Workspace app (previously called Google G Suite integration) integrates Workspace’s document management function with SuperOffice CRM, so that you can create, store, and find documents in SuperOffice CRM.
+The Google Workspace app (previously called Google G Suite integration) integrates Workspace's document management function with SuperOffice CRM, so that you can create, store, and find documents in SuperOffice CRM.
 
 The app also enables the single sign-on that allows you to sign in to SuperOffice CRM using your Google Workspace login details.
 
@@ -23,10 +23,10 @@ To start using the integration, you need to take 2 set-up steps:
 
 * Set up Google Workspace to integrate to SuperOffice CRM Online.
 
-* Configure the document templates for use, as documented in the article “Configure - Cloud Office document handling”.
+* Configure the document templates for use, as documented in the article "Configure - Cloud Office document handling".
 
 > [!NOTE]
-> You may need administrative rights to SuperOffice CRM, depending on your organization’s security settings, in order to make systems connections.
+> You may need administrative rights to SuperOffice CRM, depending on your organization's security settings, in order to make systems connections.
 
 ## Related
 

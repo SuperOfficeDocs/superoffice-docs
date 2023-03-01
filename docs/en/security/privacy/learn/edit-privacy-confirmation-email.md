@@ -12,7 +12,7 @@ language: en
 
 # Edit privacy confirmation email
 
-According to the GDPR, individuals have the “right to be informed”. This means that they are entitled to be notified either in advance or within 30 days after that their personal details have been collected.
+According to the GDPR, individuals have the "right to be informed". This means that they are entitled to be notified either in advance or within 30 days after that their personal details have been collected.
 
 The GDPR stipulates that individuals are entitled to be informed (a) that an organization intends to store their personal data, and (b) what the organization intends to use their data for.
 
@@ -24,7 +24,7 @@ The privacy confirmation email template is a **email template**, which is create
 
 ## Edit the default template
 
-1. Go to Settings and maintenance and click on **Lists**. Find the Email template list and the template for “Privacy confirmation e-mail”.
+1. Go to Settings and maintenance and click on **Lists**. Find the Email template list and the template for "Privacy confirmation e-mail".
 
 2. Double click to open the **Edit list item** dialog where you can change the name, description and so on.
 

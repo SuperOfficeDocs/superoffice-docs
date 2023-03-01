@@ -1,7 +1,7 @@
 ---
-uid: help-en-editing-items
-title: Editing items
-description: Editing items
+uid: help-en-edit-items
+title: Edit items
+description: In this how-to guide you'll learn how to edit a list item.
 author: SuperOffice RnD
 so.date: 02.23.2023
 keywords: list item
@@ -12,7 +12,7 @@ language: en
 
 # Edit name and/or description of item
 
-Every day you use different lists to save specific customer information. Examples of lists are: activity types, customer categories, business types, and many more. In this how-to guide you’ll learn how to edit a list item.
+Every day you use different lists to save specific customer information. Examples of lists are: activity types, customer categories, business types, and many more.
 
 The lists in SuperOffice CRM are designed to fit most businesses, but some companies may want to create their own. You can tailor each list in the system to meet your needs.
 

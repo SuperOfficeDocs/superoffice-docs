@@ -14,7 +14,7 @@ so.client:
 
 # Custom objects
 
-A good example of a custom field you can use on the customer’s Contact card is a field called “Satisfied customer”, where the value of the field is Yes or No.
+A good example of a custom field you can use on the customer's Contact card is a field called "Satisfied customer", where the value of the field is Yes or No.
 
 For example, you can send your customers a mailing (with link actions) where they can state whether they are satisfied with your services. This will give you valuable insight into the general customer satisfaction rate.
 
@@ -43,7 +43,7 @@ So, if you want to send an email to your customers that says that their maintena
 
 Any custom screen layouts (created in the Screen Designer) using screen designer may override the settings on fields.
 
-If you don't have license to Configurable screens, use the rank of the different fields.
+If you do not have license to Configurable screens, use the rank of the different fields.
 
 ## Extra tables
 

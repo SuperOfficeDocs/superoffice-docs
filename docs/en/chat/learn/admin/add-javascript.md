@@ -28,7 +28,7 @@ Now that you have [configured the chat widget][1], this step will show you how t
 1. Select a chat channel in the list.
 1. Click **View**. The JavaScript for the selected chat channel is displayed.
 1. Select and copy the script.
-1. Log in to the editor page of your web site.
+1. Log in to the editor page of your website.
 1. Go to the section where you can edit or add HTML code.
 1. Paste the JavaScript for your chat widget into the code of your web page.
 1. Save, upgrade or publish the changes (this depends on what system you use).

@@ -1,7 +1,7 @@
 ---
 uid: help-en-define-link-actions
 title: Define link actions
-description: You can speed up your work by processing the responses you get from a mailing with automated link actions. In this how-to guide you’ll learn how to use links in mailings to automate actions.
+description: In this how-to guide, you will learn how to use links in mailings to automate actions.
 author: SuperOffice RnD
 so.date: 02.20.2023
 keywords: Marketing
@@ -15,7 +15,7 @@ language: en
 
 You can speed up your work by processing the responses you get from a mailing with automated link actions.
 
-Imagine that your mailing has been a great success. Over 500 people have opened your message and clicked on the links you included. The task ahead of you is to process all these responses from your recipients. Think about the amount of time this would take if you had to do it manually.
+Imagine that your mailing is a great success. Over 500 people opened your message and clicked the links you included. The task ahead of you is to process all these responses from your recipients. Think about the amount of time this would take if you had to do it manually.
 
 In SuperOffice Marketing you can add actions to your links. These actions are triggered when the recipient clicks a link.
 
@@ -43,7 +43,7 @@ Depending on the goal and the call-to-action you use in your mailing you can upd
 
 * Give a custom response or redirect to web page,
 * Add a contact to a specific project or a selection,
-* Update a contact’s interest,
+* Update a contact's interest,
 * Add information to a field in the Contact card,
 * Create a follow-up activity for a contact,
 * Create a customer service request for a contact,
@@ -111,21 +111,21 @@ In the **Script** tab, you can choose a script or macro to be run when the recip
 
 ## Example
 
-Manually updating 500 contact cards will take you quite some time and is really unnecessary. Instead, let’s automate this process by using automated link actions.
+Manually updating 500 contact cards will take time and is really unnecessary. Instead, let us automate this process by using automated link actions.
 
 Examples of automated link actions in use:
 
 * When a recipient clicks on your call-to-action link, SuperOffice CRM automatically adds him or her to a selection or a project.
 
-* Alternatively, SuperOffice CRM automatically updates relevant information, such as interests, on the contact’s card.
+* Alternatively, SuperOffice CRM automatically updates relevant information, such as interests, on the contact's card.
 
 By automating these tasks, you save a lot of time you would otherwise spend on handling responses. When the reader clicks a link in your mailing, the system performs the link actions for you!
 
-You can use the information you’ve gathered in this mailing in a number of ways:
+You can use the information you've gathered in this mailing in a number of ways:
 
 * Automatically generate a selection based on people who clicked a specific link. Then, send a targeted follow-up mailing to this particular group with a tailored message.
 
-* Add follow-up activities to your team members’ diaries so that they could personally follow up on contacts that have responded.
+* Add follow-up activities to your team members' diaries so that they could personally follow up on contacts that have responded.
 
 * Generate service requests for your customer service team to pick up on and investigate the matter.
 

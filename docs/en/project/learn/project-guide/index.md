@@ -17,7 +17,7 @@ By creating a project guide, you can plan all the stages of your project ahead o
 
 By default, there are several project guides available that you can use as an inspiration. Or you can edit them to fit your needs.
 
-Each status of the project guide comes with specific activities like follow-ups and documents. This way, you’ll always know what activity or milestone is next.
+Each status of the project guide comes with specific activities like follow-ups and documents. This way, you will always know what activity or milestone is next.
 
 You can build your own process depending on the different types of projects your company engages in. The best way to define your own project guides is to first discuss and agree on the best practices for all your projects.
 

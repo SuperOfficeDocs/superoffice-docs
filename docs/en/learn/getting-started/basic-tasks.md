@@ -1,6 +1,6 @@
 ---
-title: Basic tasks to get started with
 uid: help-en-getting-started-tasks
+title: Basic tasks to get started with
 description: Basic tasks for beginners in SuperOffice CRM.
 author: Bergfrid Dias
 so.date: 12.14.2022
@@ -14,7 +14,7 @@ so.lang: en
 
 ## Manage companies and contacts
 
-The Company and Contact cards/screens hold all information related to your customers. Use these cards to get instant insight into a customer and all the communication, projects and purchases they have with you.
+The Company and Contact screens hold all information related to your customers and give instant insight into the communication, projects, and purchases they have with you.
 
 **Tasks:**
 
@@ -27,7 +27,7 @@ The Company and Contact cards/screens hold all information related to your custo
 * [Create selections for further action][6]
 
 > [!TIP]
-> Did you know that you can see all your companies or contacts in one place? Simply click on the **Selections** icon in the navigator panel and select **Company: All** or **All Contacts** from the drop-down list.
+> Did you know that you can see all your companies or contacts in one place? Click the **Selections** icon in the navigator panel and select **Company: All** or **All Contacts** from the list.
 
 ## Diary and appointments
 

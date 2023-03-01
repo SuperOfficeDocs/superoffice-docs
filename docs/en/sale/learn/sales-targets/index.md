@@ -31,12 +31,12 @@ The access to targets is set by your administrator in Settings and maintenance, 
 | Term | Description |
 |---|---|
 | User group | Also known as a team. |
-| Company | The company contains of one or more owner cards, depending on the structure of the company (such as different departments, locations, subsidiary and/or organizations). The company’s target will contain all user groups for all the different owner cards. |
+| Company | The company contains of one or more owner cards, depending on the structure of the company (such as different departments, locations, subsidiary and/or organizations). The company's target will contain all user groups for all the different owner cards. |
 | Company target | Target for the whole company (this might not be the same as the sum of all user groups). |
 | User group target | Target for the user group (this is not necessarily the same as the sum of all users). |
 | User target | Target for the individual user. |
 | Sum of all targets in one user group (not editable) | Shows the sum for all the users in one user group. This is a guideline to make it easier to set up the target for the whole user group. |
-| Target type | Dimensions to drive more precise goal management. **All sales - Amount** is the most common target type. For example, use “Sale type” or “Company - Category” as a dimension for a more specific way of segmenting and reaching different goals. |
+| Target type | Dimensions to drive more precise goal management. **All sales - Amount** is the most common target type. For example, use "Sale type" or "Company - Category" as a dimension for a more specific way of segmenting and reaching different goals. |
 | Measurement unit | The numeric value to measure the target, like Amount, Count or Profit. |
 | Separate targets| Add wanted list elements, this depends on the list chosen in the target type. |
 

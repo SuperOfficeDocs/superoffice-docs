@@ -11,7 +11,7 @@ language: en
 
 # Add alternatives to a quote
 
-You can add several alternatives to a quote, so that the customer can choose the most suitable one. Each alternative can contain different products, numbers of products, prices and discounts. You also have the option to include only one alternative in the quote.
+You can add several alternatives to a quote, so that the customer can choose the most suitable one. Each alternative can contain different products, numbers of products, prices and discounts. You can also include only one alternative in the quote.
 
 Alternatives are shown as tabs in the quote (in the **Edit quote** dialog).
 
@@ -19,7 +19,7 @@ Alternatives are shown as tabs in the quote (in the **Edit quote** dialog).
 
 1. Open an existing quote, or [create a new quote][1].
 
-2. If you haven't already done so, [add products][2] in the **Products** tab.
+2. If you have not already done so, [add products][2] in the **Products** tab.
 
 3. Click the **+** (plus sign) tab in the **Edit quote** dialog.
 

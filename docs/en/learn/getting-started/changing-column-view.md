@@ -4,8 +4,8 @@ title: Changing the column view
 description: Changing the column view
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: section tab, column
+so.topic: howto
 language: en
 ---
 
@@ -17,7 +17,7 @@ You can customize the lists in the section tabs in SuperOffice CRM to display pr
 
 To change the order of the columns in a section tab, click and drag a column header to a new location.
 
-## Adding or removing columns
+## Add or remove column
 
 1. Go to the section tab you want to edit.
 2. Click ![icon][img1] to the right of the column headers. A dialog is displayed.

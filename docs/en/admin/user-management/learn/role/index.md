@@ -56,7 +56,7 @@ In the Roles section, you can determine what type of access your users have to t
 
 ![The Roles section lets you determine what type of access your users have to the different parts of SuperOffice CRM -screenshot][img1]
 
-You can, for example, decide whether a person can delete, update, create, or read information on the Data rights tab. On the Functional rights tab you have the option to allow different functional rights on the different roles, like Allow bulk update, or List administrator, by moving them to the right column for "This role can".
+You can, for example, decide whether a person can delete, update, create, or read information on the Data rights tab. On the Functional rights tab you can allow different functional rights on the different roles, like Allow bulk update, or List administrator, by moving them to the right column for "This role can".
 
 ## Roles in Service
 

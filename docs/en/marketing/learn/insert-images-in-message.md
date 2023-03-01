@@ -77,17 +77,17 @@ Choose among millions of images from the royalty-free online image library.
 
 The image you want to use for your mailing might not always be the correct size. In our mailing editor you can also resize your images or add effects to make sure the image is optimal for your mailing and brand design.
 
-1. Once you've selected the placeholder image inside your email template, you see that you have the option to upload and apply effects on your image.
+1. After you select the placeholder image inside your email template, you can upload and apply effects on your image.
 
     ![Upload an image and click the apply effects and more button to adjust image size, resolution and more -screenshot][img5]
 
-2. Once you've uploaded the image, you'll be able to see how it looks inside your email template. If you are not happy with the size, you can adjust the image size, or resolution, by clicking the **Apply Effects and More** button.
+2. After you upload the image, you can see how it looks inside your email template. If you are not happy with the size, you can adjust the image size, or resolution, by clicking the **Apply Effects and More** button.
 
     ![Click the resize button to resize your image -screenshot][img6]
 
-3. You are now in the Effect dialogue. The toolbar at the top give you a wide range of options to change and adjust your image. The second button on from the left, is called Resize.
+3. You are now in the Effect dialogue. The toolbar at the top give you a wide range of options to change and adjust your image.
 
-4. When you click the Resize button, you'll be able to adjust the size of your image. You can change the widt and height. In addition, you have the option to Maintain the Aspect ration and to use Percentages instead of pixcels.
+4. Click the Resize button (second from the left) to adjust the size of your image. You can change the width and height, choose to keep the aspect ratio, and choose to use percentages instead of pixels.
 
     ![In the Resize screen you can adjust the size of your image, and you also have the option tick of the box Maintain the Aspect ration or use Percentages][img7]
 

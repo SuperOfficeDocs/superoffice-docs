@@ -54,7 +54,7 @@ To view the details of several activities from the activities list, without havi
 
 ## Preferences
 
-Once an activity is completed, it is removed from the activities list by the next day. By default, the **Activities** section tab displays tasks that you have not completed as of today’s date.
+Once an activity is completed, it is removed from the activities list by the next day. By default, the **Activities** section tab displays tasks that you have not completed as of today's date.
 
 ### Display future tasks
 

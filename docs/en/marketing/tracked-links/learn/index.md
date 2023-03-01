@@ -1,7 +1,7 @@
 ---
 uid: help-en-mailing-tracked-links
 title: Tracked links
-description: A link that you include in a mailing can be used to track responses from your customers and prospects. When your mailing’s recipients click on the link an action is being triggered. 
+description: A link that you include in a mailing can be used to track responses from your customers and prospects. When your mailing's recipients click on the link an action is being triggered. 
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Marketing
@@ -61,9 +61,9 @@ By default, Google Analytics does not identify visitors coming from specific mai
 * Identify which links your recipients have clicked,
 * See which website pages they visited once they landed on your website.
 
-When you add a link to your website in your mailing without a tag, you’ll see that your visitors come from a mailing, but you won’t know which specific mailing. As a result, you are left in the dark about how the recipients of specific mailings behave on your website.
+When you add a link to your website in your mailing without a tag, you can see that your visitors come from a mailing, but you will not know which specific mailing. As a result, you are left in the dark about how the recipients of specific mailings behave on your website.
 
-The Google Analytics feature in SuperOffice Marketing identifies your mailings in the reports. By adding a unique tag to all the links you use in your mailing, Google Analytics will recognize your mailing as the source where the website visitors come from. Google Analytics also gives you insight into the visitors’ path through your website.
+The Google Analytics feature in SuperOffice Marketing identifies your mailings in the reports. By adding a unique tag to all the links you use in your mailing, Google Analytics will recognize your mailing as the source where the website visitors come from. Google Analytics also gives you insight into the visitors' path through your website.
 
 **Medium**: "Email" is the pre-defined medium in automated UTM tags. This means that tracked links in mailings sent from SuperOffice can be found in Google Channel reports under "Emails" (as opposed to "other").
 

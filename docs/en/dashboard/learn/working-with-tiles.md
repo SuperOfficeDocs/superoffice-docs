@@ -1,7 +1,7 @@
 ---
 uid: help-en-dashboard-tiles
 title: Working with tiles
-description: It's the data that lies behind the tiles that makes a dashboard useful. In this how-to guide, you’ll learn how to access the information in your dashboard, so that you can get a clear overview and prioritize your next steps better.
+description: In this how-to guide, you will learn how to access the information in your dashboard, so that you can get a clear overview and prioritize your next steps better.
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: dashboard

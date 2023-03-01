@@ -1,7 +1,7 @@
 ---
 uid: help-en-dashboard-tile-add
 title: Add tile/edit layout in dashboard
-description: If you don't find the tile you need among the set of pre-defined tiles in SuperOffice Dashboard, you can always create your own. In this how-to guide, you’ll learn how to create a dashboard tile.
+description: In this how-to guide, you will learn how to create a dashboard tile.
 author: SuperOffice RnD
 so.date: 02.14.2023
 keywords: dashboard
@@ -11,12 +11,14 @@ language: en
 
 # Add tile / edit layout in dashboard
 
-Watch this video or the steps below to learn how to create your own dashboard tile (video length – 7:20):
+If you do not find the tile you need among the set of pre-defined tiles in SuperOffice Dashboard, you can always create your own.
+
+Watch this video or follow the steps below to learn how to create your own dashboard tile (video length – 7:20):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://youtu.be/zoAuq0IK_6k]
 
-To add a tile to a dashboard:
+## Steps
 
 1. Open the **Dashboard** screen.
 

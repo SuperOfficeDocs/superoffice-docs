@@ -4,6 +4,7 @@ items:
   - name: Get started
     href: getting-started/toc.yml
   - name: Learn the basics
+    href: getting-started/basic-tasks.md
     items:
     - name: Favourites
       href: getting-started/fav.md

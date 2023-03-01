@@ -4,8 +4,8 @@ title: Favorites
 description: Favorites
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: fav
+so.topic: concept
 language: en
 ---
 

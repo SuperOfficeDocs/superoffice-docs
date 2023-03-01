@@ -1,7 +1,7 @@
 ---
 uid: help-en-form-submissions-process
 title: Process form submissions
-description:  In this how-to guide you’ll learn how to process form submissions manually.
+description: In this how-to guide you will learn how to process form submissions manually.
 author: SuperOffice RnD
 so.date: 02.21.2023
 keywords: Forms
@@ -11,12 +11,12 @@ language: en
 
 # Process form submissions
 
-As soon as the form submissions start flooding in, it’s time to process them. Forms can be processed automatically, manually, or a combination of both.
+As soon as the form submissions start flooding in, it is time to process them. Forms can be processed automatically, manually, or a combination of both.
 
 > [!NOTE]
 > SuperOffice will check and validate the email address entered in the form to make sure it is an existing domain name. Basic email address syntax will also be checked.
 
-When you’ve set up your web form to automatically process all incoming submissions, you won’t have to lift a finger. SuperOffice CRM will process them for you and create a new contact when no match is found in your database.
+When you've set up your web form to automatically process all incoming submissions, you won't have to lift a finger. SuperOffice CRM will process them for you and create a new contact when no match is found in your database.
 
 * When you process form submissions manually you can prevent duplicate contacts by checking whether a person is already registered in your database or not.
 

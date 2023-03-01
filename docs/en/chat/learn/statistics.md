@@ -1,7 +1,7 @@
 ---
 uid: help-en-chat-statistics
 title: View chat statistics
-description: You can view general statistics on all chat sessions or statistics on a particular chat. To visualize the data, you can also create a dashboard for chat conversations. In this how-to guide, you’ll learn how to view chat statistics both in a dashboard and on the Chat screen.
+description: In this how-to guide, you will learn how to view chat statistics both in a dashboard and on the Chat screen.
 author: SuperOffice RnD
 so.date: 02.14.2023
 keywords: chat
@@ -11,7 +11,7 @@ language: en
 
 # View chat statistics
 
-The chat statistics can be used to improve the overall communication and agents’ performance, as well as shorten the response time. You can view them in the **Dashboard** tab in the **Chat** screen.
+The chat statistics can be used to improve the overall communication and agents' performance, as well as shorten the response time. You can view them in the **Dashboard** tab in the **Chat** screen.
 
 ![In the Chat Dashboard tab, you have a section showing the statistics of incoming chats -screenshot][img1]
 

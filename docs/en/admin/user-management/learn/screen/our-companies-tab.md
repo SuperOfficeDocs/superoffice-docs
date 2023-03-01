@@ -22,7 +22,7 @@ The object of the company list in the **Our companies** tab in the **Users** scr
 
 The company list consists of the following columns:
 
-* **Company name**: shows the company’s name.
+* **Company name**: shows the company's name.
 * **Department**: shows the name of the department in the company.
 * **City**: shows where the company is located.
 * **Associates**: shows how many associates have been created for the company. Associates are added in the **Users** screen.

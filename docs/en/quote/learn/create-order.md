@@ -1,7 +1,7 @@
 ---
 uid: help-en-quote-create-order
 title: quote create order
-description: After your customer has accepted the quote, you can create the order with the correct quote or its alternative in the Edit quote dialog. The pdf with the order confirmation is created and you can send it to the customer by email. In this how-to guide you’ll learn how place an order.
+description: In this how-to guide, you will learn how place an order.
 author: SuperOffice RnD
 so.date: 02.16.2023
 keywords: quote
@@ -11,7 +11,7 @@ language: en
 
 # Place an order
 
-Once the customer accepts the quote, you can place the order, so that it is sent on to order processing or a warehouse for further action.
+After the customer accepts the quote, you can place the order, so that it is sent on to order processing or a warehouse for further action.
 
 > [!TIP]
 > To place an order for an archived version of the quote, select this version in the **Version** field and click **Make active**. The archived quote will then be copied and made into the current version. Previous versions of the quote will be archived.

@@ -20,7 +20,7 @@ If your organization is using SharePoint, you can configure SuperOffice to use S
 
 ## SharePoint document library integration
 
-SuperOffice’s SharePoint document library integration lets you create, archive and share documents and emails effortlessly and securely.
+SuperOffice's SharePoint document library integration lets you create, archive and share documents and emails effortlessly and securely.
 
 This integration allows you to store all documents and emails in SharePoint Online, where they can be accessed by everyone in the company, including even those who do not use SuperOffice CRM. The access to your SuperOffice document site in SharePoint can be controlled through domain groups (AAD = Azure active directory authentication).
 

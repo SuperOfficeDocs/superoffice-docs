@@ -4,8 +4,8 @@ title: Restore deleted companies and contacts
 description: Restore deleted companies and contacts
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: company, contact, restore, recycle bin
+so.topic: howto
 language: en
 ---
 

@@ -5,7 +5,7 @@
 
 1. **Number:** In this field, SuperOffice CRM automatically enters the next available project number. The default setting is 10001 for the first project number and the value increases by 1 for each new project. These values can be changed in SuperOffice Settings and maintenance by administrators, so you do not have to worry about this.
 
-1. **Web site:** This field contains a table with columns for **Web Address (URL)** and **Title**.
+1. **Website:** This field contains a table with columns for **Web Address (URL)** and **Title**.
 
     Enter the address of a web page on the Internet and a brief description of the sort of page it is. You can enter several web addresses if required. Click outside the table when you are done, or press **TAB** until the table closes.
 

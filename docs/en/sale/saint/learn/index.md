@@ -32,7 +32,7 @@ If you have purchased a licence for SAINT ("SAles INTelligence"), you can specif
 
 ## A simple example
 
-Our imaginary company Bridgecom sells computers, laptops and office software. As you know, every computer needs to be updated with new software or at times it needs to be replaced altogether. But the team at Bridgecom struggles to get an overview of the companies that need new computers and a software update. They would love to have a list of companies that haven’t updated their computers in the last 2 years. This way they would know exactly what customers to follow up at the start of every month. But how do you find such information?
+Our imaginary company Bridgecom sells computers, laptops and office software. As you know, every computer needs to be updated with new software or at times it needs to be replaced altogether. But the team at Bridgecom struggles to get an overview of the companies that need new computers and a software update. They would love to have a list of companies that haven't updated their computers in the last 2 years. This way they would know exactly what customers to follow up at the start of every month. But how do you find such information?
 
 By using SAINT, Bridgecom can proactively search for all customers with no open or completed sales that were registered in the last 2 years on their Customer card. The SAINT selection will generate a list of these customers. Based on the information that is not present in the customer database – namely, there are no sales registered in the last 2 years.
 
@@ -53,7 +53,9 @@ SAINT provides both real-time and ad-hoc analysis of continuously updated CRM da
 
 With SuperOffice SAINT you are able to not only search for elements present in your database, but also search for elements that are missing.
 
-Let’s take a look at an example of the latter. You can search for contacts that have not had any activities of a specific type (or have not expressed any sales-related intention) within a specified period. SAINT will give you all customers without a follow-up (open or completed) activity for the last 6 months.
+### Example: search for missing elements
+
+You can search for contacts that have not had any activities of a specific type (or have not expressed any sales-related intention) within a specified period. SAINT will give you all customers without a follow-up (open or completed) activity for the last 6 months.
 
 ![saint criteria's screen to find customers without a follow-up -screenshot][img2]
 
@@ -71,7 +73,7 @@ SuperOffice SAINT uses visual Status Indicators on a customer, potential custome
 
 SAINT can be fun! You can use any background image, for example:
 
-* A crying baby to symbolize the customers that haven’t been followed up,
+* A crying baby to symbolize the customers that haven't been followed up,
 * A dollar sign for customers with overdue sales,
 * A lifebuoy for customers with too many service requests.
 
@@ -79,7 +81,7 @@ From the practical point of view, SAINT can provide an employee with suggested a
 
 ![Use a visual indicator like a crying baby to warn you that a customer needs to be followed up -screenshot][img3]
 
-The SAINT criteria that generate the analyses you use will automatically become searchable “fields”. Any user can use these fields to set up his or her customized list of actions or searches in SuperOffice Selection.
+The SAINT criteria that generate the analyses you use will automatically become searchable "fields". Any user can use these fields to set up his or her customized list of actions or searches in SuperOffice Selection.
 
 ## Action
 

@@ -1,7 +1,7 @@
 ---
 uid: help-en-chat-respond
 title: Respond to a chat
-description: When a customer sends a query via the chat widget on the website, it’s not only important to respond to it, but also to register it on their Contact card.
+description: When a customer sends a query via the chat widget on the website, it is not only important to respond to it, but also to register it on their Contact card.
 author: Bergfrid Dias
 so.date: 02.14.2023
 keywords: chat
@@ -58,13 +58,13 @@ In the top-right corner of the **Chat** screen, you can set your presence:
 9. When the conversation is over, you can click ![icon][img1] and select **End chat** (unless the customer closes the chat window first). The chat is moved to **Recent chat sessions**. You can also find a record of the chat in the **Activities** section tab in SuperOffice CRM.
 
 > [!NOTE]
-> If the post-chat form has been activated for this chat channel, the customer will have the option to return to the chat. The chat will be reactivated.
+> If the post-chat form is active for this chat channel, the customer may return to the chat. The chat will be reactivated.
 
 ## Be efficient with chat replies
 
-To make sure that you offer quick and professional answers to your customers’ chat queries, SuperOffice Chat offers a number of options to speed up and improve your chat replies.
+To make sure that you offer quick and professional answers to your customers' chat queries, SuperOffice Chat offers a number of options to speed up and improve your chat replies.
 
-Save time by using pre-defined texts when answering customer queries through chat. You can create and send a quick reply to a commonly asked question. In other situations, where quick replies aren’t sufficient, you can [include FAQs, customized reply templates][4], or [files][5].
+Save time by using pre-defined texts when answering customer queries through chat. You can create and send a quick reply to a commonly asked question. In other situations, where quick replies aren't sufficient, you can [include FAQs, customized reply templates][4], or [files][5].
 
 ![From the button for add predefined text, you can choose text from FAQ, Reply templates and Quick replies -screenshot][img6]
 

@@ -4,8 +4,8 @@ title: Export archives
 description: Export archives
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: section tab, archive
+so.topic: howto
 language: en
 ---
 

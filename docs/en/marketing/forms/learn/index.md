@@ -22,7 +22,7 @@ Examples of forms: start free trial, contact us, update data, consent management
 
 ## What can I use Web forms for
 
-You can use web forms to capture your website visitors’ details – their name, email address, preferences, comments, and feedback, and possibly convert them into customers. The data you get via web forms can be automatically imported to your SuperOffice CRM database, saving you time and effort.
+You can use web forms to capture your website visitors' details – their name, email address, preferences, comments, and feedback, and possibly convert them into customers. The data you get via web forms can be automatically imported to your SuperOffice CRM database, saving you time and effort.
 
 * **Capture contact information:** The information people submit on web forms is saved in SuperOffice CRM, so you can follow up on them later.
 
@@ -30,7 +30,7 @@ You can use web forms to capture your website visitors’ details – their name
 
 * **Gain consent:** When a person gives you permission to store information about them on a web form, you know they are truly interested in your marketing messages. Not only will it increase the success of your email campaigns, but you will also follow the rules set by the GDPR.
 
-* **Automate follow-ups:** Forms will help you speed up your work by automating manual tasks, such as creating follow-up activities, sending mailings, updating contacts’ interests, and adding contacts to a selection or a project.
+* **Automate follow-ups:** Forms will help you speed up your work by automating manual tasks, such as creating follow-up activities, sending mailings, updating contacts' interests, and adding contacts to a selection or a project.
 
 ## Where can you find forms?
 
@@ -38,11 +38,11 @@ There are several ways to find forms. Go to either the Forms tab, form templates
 
 ![There are several ways to find forms -screenshot][img2]
 
-* **Forms:** is where you can create new forms and you’ll see all the forms that have previously been created. In the Active forms tab, you’ll see which forms are currently being used. The red bubble in the top-right corner on a form shows you the number of form submissions that haven’t been processed yet.
+* **Forms:** is where you can create new forms and see all the forms that have previously been created. The Active forms tab, shows which forms are currently being used. The red bubble in the top-right corner on a form shows you the number of form submissions that haven't been processed yet.
 
-* **Form templates:* is where you’ll find all available form templates. When you open this tab for the first time, you’ll find different templates in the Online template library. You can also import and use templates from the Online template library, or you can use them as an inspiration to create your own. Just click on the template you like and press Import template to download it.
+* **Form templates:** is where you will find all available form templates. When you open this tab for the first time, you will find different templates in the Online template library. You can also import and use templates from the Online template library, or you can use them as an inspiration to create your own. Just click on the template you like and press Import template to download it.
 
-* **Form submissions:** is where you’ll see all the details of the contacts who have submitted a form, and what their current form status is.
+* **Form submissions:** shows all details of the contacts who have submitted a form, and what their current form status is.
 
 ## Workflow
 

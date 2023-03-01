@@ -1,7 +1,7 @@
 ---
 uid: help-en-customer-centre-faq
 title: Publish FAQs to the Customer centre
-description: In this how-to guide you’ll learn how to publish FAQs in the Customer centre.
+description: In this how-to guide, you will learn how to publish FAQs in the Customer centre.
 author: Bergfrid Dias
 so.date: 02.22.2023
 keywords: faq, customer center

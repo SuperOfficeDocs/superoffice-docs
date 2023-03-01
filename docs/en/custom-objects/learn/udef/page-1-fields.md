@@ -44,7 +44,7 @@ When you select a name in the **User group** list, the available page 1 fields f
 If you select **(all user groups)** in the **User group** list, select a field or fields and save the setup, the same selection of fields will apply to all user groups in SuperOffice CRM. If you then select a specific user group, you can override the existing field setup for just this group by using a different specification. If you do not specify anything in a field, it is left empty – since the override applies to all three fields irrespective of their contents.
 
 > [!NOTE]
-> You must publish an override for a single user group *after* you specify a setup for all user groups. If you don't, it will not take effect.
+> You must publish an override for a single user group *after* you specify a setup for all user groups. Otherwise, it will not take effect.
 
 <!-- Referenced links -->
 

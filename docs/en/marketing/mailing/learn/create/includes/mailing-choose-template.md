@@ -3,7 +3,7 @@ In the second step, **Template**, you must decide what your mailing should look 
 
 A good [message template][1] not only supports your message, but also looks good on any device. If you want to ensure consistency in email design across the whole company, using a template is your best bet. The message template will give you the company's look and feel with correct the fonts, colors, social media platforms, and overall layout of your mailing.
 
-Once you’ve figured out what design you want to use, you can choose the template to base your new mailing on with a few clicks.
+Once you've figured out what design you want to use, you can choose the template to base your new mailing on with a few clicks.
 
 ![Choose your corporate template from one of the many templates available in our online library before adding your content -screenshot][img2]
 

@@ -1,7 +1,7 @@
 ---
 uid: help-en-mailing-add-merge-tags
 title: Add merge tags to your message
-description: There’s nothing better than a personal touch in business. To personalize your communication, you can use merge tags (also called template variables) to insert customer-specific information into your mailing. Learn how to add merge tags to your mailing
+description: Learn how to add merge tags to your mailing
 author: SuperOffice RnD
 so.date: 02.20.2023
 keywords: Marketing
@@ -10,6 +10,8 @@ language: en
 ---
 
 # Add merge tags to your message
+
+There is nothing better than a personal touch in business. To personalize your communication, you can use merge tags (also called template variables) to insert customer-specific information into your mailing.
 
 Merge tags come in many forms: those might be the customer's first name, their company name, salutation, the name of the salesperson the customer was dealing with, etc. In other words, merge tags are your easy-to-use tools to personalize the content for each individual customer.
 

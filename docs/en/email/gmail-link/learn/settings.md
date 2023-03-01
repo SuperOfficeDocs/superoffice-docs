@@ -17,7 +17,7 @@ Open the **SuperOffice Gmail Link - Settings** dialog by clicking the SuperOffic
 
 ## Always show the archive dialog
 
-If unchecked, the dialog **Archive email in SuperOffice** will not be shown when you archive an email message by clicking the **Archive** button. All default values in settings will be used on this “quick archive” feature, even if the archive dialog is not displayed. After archiving the email message, a pop-up message is displayed.
+If unchecked, the dialog **Archive email in SuperOffice** will not be shown when you archive an email message by clicking the **Archive** button. All default values in settings will be used on this "quick archive" feature, even if the archive dialog is not displayed. After archiving the email message, a pop-up message is displayed.
 
 Sometimes, the dialog **Archive email in SuperOffice** is always displayed:
 

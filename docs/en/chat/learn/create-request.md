@@ -1,7 +1,7 @@
 ---
 uid: help-en-chat-create-request
 title: Create request in chat
-description: If a customer’s query cannot be solved in the chat, an agent can create a service request to be handled by another specialist. In this how-to guide, you’ll learn how to create a request in SuperOffice Chat.
+description: In this how-to guide, you will learn how to create a request in SuperOffice Chat.
 author: SuperOffice RnD
 so.date: 02.14.2023
 keywords: chat
