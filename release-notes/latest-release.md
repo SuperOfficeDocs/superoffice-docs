@@ -1,7 +1,7 @@
 ---
-title: 10.2.3 Summary
+title: 10.2.3 Overview
 uid: news-10.2.3
-description: Release notes. What's new in SuperOffice 10.2.3
+description: Release notes in SuperOffice 10.2.3
 author: SuperOffice AS – Research and Development
 so.date: 02.22.2023
 keywords: mailing, mobile crm, crmscript
@@ -9,9 +9,9 @@ so.version: 10.2.3
 so.topic: reference
 ---
 
-# Overview of 10.2.3 update - Latest release
+# Overview of 10.2.3 update - Latest release notes
 
-See below the different changes that has been release in version 10.2.3 for SuperOffice.
+See below for the different changes that has been released in the latest version 10.2.3 for SuperOffice.
 - - -
 
 [!include[Mailing Magic AI](10.2/marketing/10.2.3-update.md)]

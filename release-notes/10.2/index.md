@@ -17,11 +17,13 @@ so.version: 10.2
 
 ## Details of new features
 
-* 10.2.1: Task menu list, Custom tasks, Preferences, Batch management, Document preview with meta data.
-* 10.2.2: Marketing Email domain validation, From name in mailing, CRMScript on custom tasks in Mobile CRM.
-* [10.2.3][1]: Mailing AI Content, SharePoint documents in Mobile CRM, Floating + New-button in Mobile CRM
+* [10.2.1][1]: Task menu list, Custom tasks, Preferences, Batch management, Document preview with meta data.
+* [10.2.2][2]: Marketing Email domain validation, From name in mailing, CRMScript on custom tasks in Mobile CRM.
+* [10.2.3][3]: Mailing AI Content, SharePoint documents in Mobile CRM, Floating + New-button in Mobile CRM
 
 <!-- Referenced links -->
-[1]: 10.2.3-update.md
+[1]: 10.2.1-update.md
+[2]: 10.2.2-update.md
+[3]: 10.2.3-update.md
 
 <!-- Referenced images -->
