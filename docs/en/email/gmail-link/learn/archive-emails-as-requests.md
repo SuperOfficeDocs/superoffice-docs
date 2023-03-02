@@ -27,7 +27,7 @@ You can create a request in SuperOffice Service based on an email in your Gmail 
     * If the sender's email address is recognized, the request is automatically linked to the correct contact and company.
     * If the sender's email address is not recognized, the sender is automatically registered as a new contact in SuperOffice Service.
 
-6. In the confirmation message, optionally select **Click here to view it** to look closer at the request in SuperOffice Service.
+6. (optional) In the confirmation message, select **Click here to view it** to look closer at the request.
 
 ## What would you like to do now?
 

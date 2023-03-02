@@ -14,7 +14,7 @@ language: en
 
 Add high quality product images to your proposals to show your customers the products they are interested in.
 
-Once you've added your products, either manually or by import, you can add images of your products.
+After you have added your products, either manually or by import, you can add images of your products.
 
 ![You can add an image to every product you add to your price list -screenshot][img1]
 

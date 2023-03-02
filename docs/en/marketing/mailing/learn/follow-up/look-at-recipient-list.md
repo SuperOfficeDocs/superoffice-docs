@@ -42,7 +42,7 @@ After the mailing is sent, SuperOffice Marketing collects data about the status 
 
 6. Click **Close** to close the **View mailing** screen.
 
-If the status is **Ready to send**, you do not have to do anything. SuperOffice will send your mailing to the recipients. The status change to **Sent** once this is done.
+If the status is **Ready to send**, you do not have to do anything. SuperOffice will send your mailing to the recipients. The status change to **Sent** after this is done.
 
 ## Filters
 
@@ -65,7 +65,7 @@ If the status is **Ready to send**, you do not have to do anything. SuperOffice 
 
 **Recipient complained**: Activate this filter to show recipients who reported the mailing as spam/junk mail.
 
-If the status is **Ready to send**, you do not have to do anything. SuperOffice will send your mailing to the recipients. The status will be changed to **Sent** once this is done.
+If the status is **Ready to send**, you do not have to do anything. SuperOffice will send your mailing to the recipients. The status will be changed to **Sent** after this is done.
 
 ## Add recipients to selections or projects
 

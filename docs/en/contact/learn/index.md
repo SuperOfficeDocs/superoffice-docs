@@ -15,7 +15,7 @@ A Contact card stores valuable information on all your communication and interac
 
 [!include[Intro](includes/contacts-screen-intro.md)]
 
-The bottom of the **Contact** screen contains [default section tabs][1]:
+The bottom of the Contact screen contains [default section tabs][1]:
 
 * **Activities**
 * **Sales**

@@ -15,7 +15,7 @@ You can add a selection of users and resources in your organization to a view.
 
 ## Name and save this view
 
-1. Click the **View** tab in the **Diary** screen.
+1. Click the **View** tab in the Diary screen.
 
 1. Click the **Task** button (![icon][img1]) at the lower right and choose **New group view**.
 

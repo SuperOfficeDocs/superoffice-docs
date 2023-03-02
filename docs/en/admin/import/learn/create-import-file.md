@@ -12,7 +12,7 @@ language: en
 
 # Create an import file
 
-To make it easier for you to import contacts, we have created an import template you can download and use to import. In this Excel spreadsheet, we've set up the basic data fields in columns, and all you have to do is copy your contact details into the right cells.
+To make it easier for you to import contacts, we have created an import template you can download and use to import. In this Excel spreadsheet, we have set up the basic data fields in columns, and all you have to do is copy your contact details into the right cells.
 
 ## Companies and contacts
 

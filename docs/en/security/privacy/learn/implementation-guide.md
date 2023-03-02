@@ -62,7 +62,7 @@ This is what you achieve by using the consent management fields in SuperOffice C
 
 * **Source:** where you record how a contact's personal information was collected. This can be anything from getting a business card, to receiving an email or someone filling out a web form on your website.
 
-What types of purposes, legal bases and sources you need to use will depend upon how your business collects personal data and for what reasons and purposes. Once you have identified this, you are able to define these fields inside your SuperOffice CRM.
+What types of purposes, legal bases and sources you need to use will depend upon how your business collects personal data and for what reasons and purposes. After you have identified this, you are able to define these fields inside your SuperOffice CRM.
 
 ## Define privacy and consent requirements
 
@@ -139,7 +139,7 @@ You can find out what information your company saves by checking the Contact car
 * The More tab, which can contain user-defined fields you have added to your SuperOffice CRM solution;
 
 * The Interest tab, which can contain different types of communication, work-related events your company might organize or other personal interests like a person's hobby, for example.
-Once you know what information you already have in your database, you can determine which customer categories you need and which you do not need.
+After you know what information you already have in your database, you can determine which customer categories you need and which you do not need.
 
 Maybe new categories have to be added, while others should be deleted?
 
@@ -174,11 +174,11 @@ There are three ways in which contacts are added to your database:
 * Contact details can be collected from other systems. You can add contact details through a data import, integrations with other systems, such as your ERP solution, for example.
 When contact details are added digitally, you can ask for a person's consent on your website or via a web form, for example, while people fill in their details.
 
-When you register their details manually or through other systems, however, you have to ask for the person's consent to store and use their personal data separately after you've added their details to your CRM solution.
+When you register their details manually or through other systems, however, you have to ask for the person's consent to store and use their personal data separately after you have added their details to your CRM solution.
 
 To help you ask for this consent, SuperOffice CRM contains a privacy confirmation email. This email will be sent to contacts to inform them that you intend to store their details in your CRM database.
 
-In order to properly ask for consent from the contacts you plan to store in your CRM database, you need to, first of all, know how you've collected their details.
+In order to properly ask for consent from the contacts you plan to store in your CRM database, you need to, first of all, know how you have collected their details.
 
 You can make a list of all the sources from which you gather personal information. Write down a list of the web forms you use, the webpages where you use SuperOffice Chat, for example.
 
@@ -205,7 +205,7 @@ However, it is still your responsibility to make sure that you have the right se
 
 It is a good idea to create a workflow that contains a detailed description of all the steps you should take when a data breach is discovered or reported.
 
-When you've discovered a data breach, you need to [inform all contacts who are affected by it within 72 hours][4].
+When you have discovered a data breach, you need to [inform all contacts who are affected by it within 72 hours][4].
 
 SuperOffice Service can help you collect any reports of a possible data breach. You can set up Service to follow the workflow you designed to inform and contain the potential data breach.
 
@@ -236,7 +236,7 @@ Based on your privacy policies, you can now:
 * Set up privacy settings
 * Add and edit subscription types
 
-Once you know what personal data you intend to store in SuperOffice CRM, as well as why and when you will store it, you can configure your SuperOffice CRM inside the Settings and maintenance module to support your policies.
+After you know what personal data you intend to store in SuperOffice CRM, as well as why and when you will store it, you can configure your SuperOffice CRM inside the Settings and maintenance module to support your policies.
 
 To set up the GDPR functionality in your SuperOffice CRM solution, you can:
 
@@ -249,7 +249,7 @@ Each of these how-to pages contains both a how-to video and a step-by-step guide
 
 ### Allocate access rights
 
-Since the main goal of the GDPR is to protect people's privacy and to keep their personal data safe, not all GDPR-related functionality in SuperOffice CRM should be accessible to everyone in your company.
+because the main goal of the GDPR is to protect people's privacy and to keep their personal data safe, not all GDPR-related functionality in SuperOffice CRM should be accessible to everyone in your company.
 
 You need to assign access rights to perform the following functions:
 

@@ -15,7 +15,7 @@ language: en
 
 You can connect a SuperOffice company to a customer/supplier in the ERP system. Contacts who are registered on the SuperOffice company can then be linked to individuals in the ERP system. Similarly, SuperOffice projects can be linked to projects in the ERP system. Data will then be synchronized between SuperOffice and the ERP system.
 
-1. Go to the **Company** screen, **Contact** screen or **Project** screen, and select the **ERP** tab.
+1. Go to the Company screen, Contact screen or Project screen, and select the **ERP** tab.
 
     > [!NOTE]
     > If the **ERP** tab contains company, contact or project information, a connection has already been set up between SuperOffice and the ERP system.

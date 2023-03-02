@@ -18,7 +18,7 @@ As a company, you collect, store and handle people's personal data. Under the GD
 
 SuperOffice CRM has a feature called Consent management, that is designed to help you document when, how and why you want to register certain personal data in your CRM solution.
 
-Every time a person is registered in your SuperOffice CRM database, the consent they gave to save their details is also registered. This allows you to manage and track exactly which consent you've received from which person, at all times.
+Every time a person is registered in your SuperOffice CRM database, the consent they gave to save their details is also registered. This allows you to manage and track exactly which consent you have received from which person, at all times.
 
 [!include[Need concent](includes/why-consent.md)]
 
@@ -33,7 +33,7 @@ Every time a person is registered in your SuperOffice CRM database, the consent 
 
 ## Available purposes
 
-* **Sales and service**: This purpose *must* have a legal basis and source, since you need a person's consent to lawfully process and store their personal data in SuperOffice.
+* **Sales and service**: This purpose *must* have a legal basis and source, because you need a person's consent to lawfully process and store their personal data in SuperOffice.
 
 * **E-marketing**: You need a person's permission to send them e-marketing material. This purpose can also be set by using the **E-marketing** button in the **Interests** tab.
 
@@ -44,7 +44,7 @@ Every time a person is registered in your SuperOffice CRM database, the consent 
 > [!TIP]
 > To edit these settings for multiple contacts, use [Bulk update][2].
 
-1. Go to the contact in the **Contact** screen.
+1. Go to the contact in the Contact screen.
     At the bottom of the contact card, you can see whether a legal basis is set for the purpose **Sales and service**.
 
 2. Click **Legal basis** at the bottom of the contact card.

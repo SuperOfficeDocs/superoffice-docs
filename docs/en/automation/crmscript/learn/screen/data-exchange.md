@@ -22,7 +22,7 @@ This screen contains a list of any existing Data Exchange (database integrator) 
 
 | Element | Description |
 |---|---|
-| New agent | Click here to create a new agent. |
+| New agent | Used to create a new agent. |
 | Name | Displays the agent name. |
 | Protocol | Displays the communication protocol used to connect to the agent. |
 
@@ -32,9 +32,9 @@ This screen shows the properties of a Data Exchange agent.
 
 | Element | Description |
 |---|---|
-| Edit agent | Click here to edit the agent properties. |
-| New agent task | Click here to create a new agent task. |
-| Edit fields | Click here to specify fields that will should read-only in SuperOffice Service. |
+| Edit agent | Used to edit the agent properties. |
+| New agent task | Used to create a new agent task. |
+| Edit fields | Used to specify fields that will should read-only in SuperOffice Service. |
 | Agent | This pane lists different properties for the agent. |
 | Name | Name of the Data Exchange agent. |
 | Protocol | Select the protocol used to communicate with the Data Exchange agent. |
@@ -56,7 +56,7 @@ This screen is used to edit the properties of a new or existing Data Exchange ag
 | OK (Alt-O) | Click this button to save. |
 | Cancel | Click this button to cancel. |
 | Delete | Click this button to delete. |
-| Apply | Click here to use these settings. |
+| Apply | Select to use these settings. |
 
 ## Agent schedule properties
 

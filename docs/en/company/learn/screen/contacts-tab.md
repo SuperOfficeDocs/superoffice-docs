@@ -13,7 +13,7 @@ language: en
 
 ![Contacts section on company -screenshot][img1]
 
-**Contacts** is one of the section tabs at the bottom of the **Company** screen. It contains information about [employees of the active company][1]. Double-click on a name in the list to open the contact in the **Contact** screen.
+**Contacts** is one of the section tabs at the bottom of the Company screen. It contains information about [employees of the active company][1]. Double-click on a name in the list to open the contact in the Contact screen.
 
 ## <a id="columns" />Columns in the Contacts section tab
 
@@ -48,7 +48,7 @@ Displays the contact's email address. Click the email address to [send a message
 
 If you check this option, people who have left the company will also be displayed in the list of contacts.
 
-They will then be shown in a different color. They are also shown in this way on the **Project members** section tab in the **Project** screen and in the list of members in the **Selection** screen.
+They will then be shown in a different color. They are also shown in this way on the **Project members** section tab in the Project screen and in the list of members in the Selection screen.
 
 ## What would you like to do now?
 

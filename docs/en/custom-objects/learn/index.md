@@ -43,7 +43,7 @@ So, if you want to send an email to your customers that says that their maintena
 
 Any custom screen layouts (created in the Screen Designer) using screen designer may override the settings on fields.
 
-If you do not have license to Configurable screens, use the rank of the different fields.
+If you do not have license to Configurable Screens, use the rank of the different fields.
 
 ## Extra tables
 

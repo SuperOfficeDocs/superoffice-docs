@@ -89,7 +89,7 @@ For example, you can find all requests that you changed in the last week, regard
 
 ## View search results for requests
 
-Once you have a list of requests using one of the methods above, you will be in a screen containing the following sections:
+After you have a list of requests using one of the methods above, you will be in a screen containing the following sections:
 
 * **Result**: This contains all the requests that match your search criteria.
 
@@ -109,7 +109,7 @@ Contains a list of requests that match the criteria specified above. Here you ca
 
 Under the list, you can click the ![icon][img1] menu button to access the following options:
 
-* **Export**: Click here to export the list under **Result** to a file. You can choose from these formats: Excel, HTML and plain text.
+* **Export**: Used to export the list under **Result** to a file. You can choose from these formats: Excel, HTML and plain text.
 
 * **Batch management**: If you select one or more requests in the list, you can click this button and select an action to perform on all the selected requests simultaneously. For example, you can choose to [add the same message to multiple requests][4], [forward multiple requests][5] or delete several requests in a single operation.
 

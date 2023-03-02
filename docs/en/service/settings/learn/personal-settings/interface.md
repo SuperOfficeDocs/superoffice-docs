@@ -15,9 +15,9 @@ In the **Interface** tab in the **Edit users** screen, you can edit the followin
 
 * **Show the last message at the top**: Checking here causes the messages in a request to be sorted with the most recent at the top.
 
-* **Preview image attachments in messages**: Checking here causes images attached to messages to be previewed in the **Request** screen.
+* **Preview image attachments in messages**: Checking here causes images attached to messages to be previewed in the Request screen.
 
-* **No. of expanded messages**: Checking here allows you to specify, in the field next to the checkbox, the number of messages to be expanded in the **Request** screen.
+* **No. of expanded messages**: Checking here allows you to specify, in the field next to the checkbox, the number of messages to be expanded in the Request screen.
 
 * **New window when adding a message to a request**: Checking here causes a new browser window to be opened when the selected users click **Add message**.
 

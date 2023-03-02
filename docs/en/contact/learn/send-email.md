@@ -11,7 +11,7 @@ language: en
 
 # Send email to a contact
 
-You can prepare an email from both the **Contact** screen and the **Company** screen. Then, the steps to send the email are the same.
+You can prepare an email from both the Contact screen and the Company screen. Then, the steps to send the email are the same.
 
 ## Create email from Contact screen
 

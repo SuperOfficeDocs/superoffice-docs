@@ -13,7 +13,7 @@ language: en
 
 [!include[Intro](../includes/company-screen-intro.md)]
 
-In the **Company** screen, every record in the database is displayed like an index card, containing all information for that company.
+In the Company screen, every record in the database is displayed like an index card, containing all information for that company.
 
 To move between companies, click the previous/next buttons (![icon][img2] ![icon][img1]) at the lower right of the cards.
 
@@ -21,7 +21,7 @@ You can search for specific companies based on criteria that you specify. You ca
 
 ## Section tabs in the Company screen
 
-The **Company** screen contains the following section tabs:
+The Company screen contains the following section tabs:
 
 | Section tab | Description |
 |---|---|

@@ -13,7 +13,7 @@ language: en
 
 # Project - Status
 
-The **Project** tab in the **Project** screen in SuperOffice CRM contains the **Status** field. This field has a predefined list of options,project-status which are set up in the **Lists** screen in Settings and maintenance.
+The **Project** tab in the Project screen in SuperOffice CRM contains the **Status** field. This field has a predefined list of options,project-status which are set up in the **Lists** screen in Settings and maintenance.
 
 The statuses displayed in the list depend of the [project type][1]. You can select which statuses should be available for the different project types in the Project - Type, status list.
 

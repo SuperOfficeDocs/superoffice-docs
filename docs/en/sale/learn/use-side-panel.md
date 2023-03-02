@@ -14,7 +14,7 @@ so.lang: en
 
 In the guide [Use selections to forecast your sales][3], you learn how to make a selection of your sales opportunities.
 
-When you have selected the **Sale** screen in the **Navigator**, you can view **Sale selections** in the **Selection members** panel in the [side panel][1]. Click on any of the sales opportunities to view them inside the **Sale** screen.
+When you have selected the Sale screen in the **Navigator**, you can view **Sale selections** in the **Selection members** panel in the [side panel][1]. Click on any of the sales opportunities to view them inside the Sale screen.
 
 ![Use the side panel on the sale card to view selection members and the sale selection -screenshot][img1]
 

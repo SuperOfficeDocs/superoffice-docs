@@ -41,7 +41,7 @@ language: en
 
     * **Default status for new message**: Here you choose the default status to appear in a new message. This setting will override [user preferences][1], unless you select **User-defined**.
 
-    * **Default status for new request**: Here you choose the default status to appear in the **Request** screen. This setting will override [user preferences][1], unless you select **User-defined**.
+    * **Default status for new request**: Here you choose the default status to appear in the Request screen. This setting will override [user preferences][1], unless you select **User-defined**.
 
     * **Merge outbound emails for this category with reply template**: Select the reply template to use in messages sent to customers and others, for requests belonging to this category. This can be a reply template specifically created for this category, to give all replies from a category (such as support or accounting) a uniform appearance.
 

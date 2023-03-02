@@ -28,7 +28,7 @@ language: en
 
     * To show the reports for a specific group, select the required group in the **Groups** list. The members in the group will then be selected for you on the **Associates** list on the right.
 
-    * To show reports for one or more associates, simply select the required people in the **Associates** list. To select several at once, hold down the **CTRL** key as you select the people you want.
+    * To show reports for one or more associates, simply select the required people in the **Associates** list. To select several, hold down the **CTRL** key as you select the people you want.
 
     * To show your own reports, click the **Mine** button.
 

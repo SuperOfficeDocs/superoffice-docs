@@ -11,7 +11,7 @@ language: en
 
 # Create a macro - example from SuperOffice Service
 
-Many companies often receive requests relating to invoicing. Such requests should go straight to the accounts department. Instead of editing every request and changing category and owner, we can create a macro that performs all these actions. The macro can be assigned to ![icon][img1] **Actions** in the **Request** screen. Invoice questions can thus be delegated to the accounts department with just one click.
+Many companies often receive requests relating to invoicing. Such requests should go straight to the accounts department. Instead of editing every request and changing category and owner, we can create a macro that performs all these actions. The macro can be assigned to ![icon][img1] **Actions** in the Request screen. Invoice questions can thus be delegated to the accounts department with just one click.
 
 > [!TIP]
 > To fully automate this process, you can create an email filter to look for the word "invoice" in email subjects, and then run the macro to assign the request to the correct department.
@@ -29,7 +29,7 @@ We will now create a macro based on the example above.
 
 3. In the **Information** tab, enter "Send request to Accounts Dept." in the **Name** field and enter a description in the field below.
 
-4. Select the **New menu** option to make the macro available from the **Actions** button (![icon][img1]) in the **Company** screen, **Contact** screen or **Request** screen, or **Message** tab.
+4. Select the **New menu** option to make the macro available from the **Actions** button (![icon][img1]) in the Company screen, Contact screen or Request screen, or **Message** tab.
 
 5. Go to the **Actions** tab and select **Change a request** under **Choose action type**.
 

@@ -12,11 +12,11 @@ language: en
 # Add stakeholders
 
 > [!NOTE]
-> You can also [add stakeholders via the section tabs][2] containing contacts in the **Company** and **Selection** screens.
+> You can also [add stakeholders via the section tabs][2] containing contacts in the Company and Selection screens.
 
 ## Link the sale to stakeholders
 
-1. Go to the required sale in the **Sale** screen. (See [Use the Find screen][1].)
+1. Go to the required sale in the Sale screen. (See [Use the Find screen][1].)
 
 2. Select the **Stakeholders** section tab.
 
@@ -31,7 +31,7 @@ language: en
 
 5. In the **Company/contact** field:
 
-    * To select a contact from a company: Click the arrow and select the company you want in the list that appears, or type the name of the company. By default the company that is active in the **Company** screen is shown.
+    * To select a contact from a company: Click the arrow and select the company you want in the list that appears, or type the name of the company. By default the company that is active in the Company screen is shown.
     * To select a contact directly: Type the name of the contact (this applies to both contacts with and without an associated company), and click the name in the results list.
 
 6. To add the company as a stakeholder, click the top arrow button (to the right of the company). The company appears on the rightmost side of the window.

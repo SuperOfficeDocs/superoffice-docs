@@ -12,7 +12,7 @@ language: en
 
 # Add a document template
 
-Before you can use templates you created, you must link them to SuperOffice CRM. Once you link the templates, it is very easy to write letters, faxes and other documents you have created templates for using the **Document** function in SuperOffice CRM. More information about the **Document** function is available in the user help.
+Before you can use templates you created, you must link them to SuperOffice CRM. After you link the templates, it is very easy to write letters, faxes and other documents you have created templates for using the **Document** function in SuperOffice CRM. More information about the **Document** function is available in the user help.
 
 [Do you want to replace existing template][1]
 
@@ -77,7 +77,7 @@ Enter the following information in the **Details** tab:
 
 5. <!-- onsite-->Check the **Publish** option if you want it to be possible to specify, in the **Document** dialog in SuperOffice CRM, that the document template in question should be made available to external users.
 
-6. <!-- onsite-->Check the **Save to database** option to specify that documents that you create using this template are saved in the document database. If you checked this option, the document is displayed on the **Activities** section tab in SuperOffice CRM. If not, the document is not displayed in SuperOffice CRM once you have created it and you cannot access it from the program.
+6. <!-- onsite-->Check the **Save to database** option to specify that documents that you create using this template are saved in the document database. If you checked this option, the document is displayed on the **Activities** section tab in SuperOffice CRM. If not, the document is not displayed in SuperOffice CRM after you created it and you cannot access it from the program.
 
 7. Check the **Quote document type** option if the document should be available as a quote template or order confirmation template. You select the quote document type in the list below.
 

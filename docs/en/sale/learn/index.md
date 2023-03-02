@@ -22,21 +22,21 @@ Watch this video and see how easy pursuing sales opportunities can be with Super
 
 ## Where can I view sales?
 
-In addition to the [**Sale** screen][2], sales can be displayed in the following places in SuperOffice CRM:
+In addition to the [Sale screen][2], sales can be displayed in the following places in SuperOffice CRM:
 
-* On the **Sales** section tab in the **Company** screen
-* On the **Sales** section tab in the **Contact** screen
-* On the **Sales** section tab in the **Diary** screen
-* On the **Sales** section tab in the **Project** screen
+* On the **Sales** section tab in the Company screen
+* On the **Sales** section tab in the Contact screen
+* On the **Sales** section tab in the Diary screen
+* On the **Sales** section tab in the Project screen
 
 > [!TIP]
-> Double-click a sale in one of these locations to open the sale in the **Sale** screen.
+> Double-click a sale in one of these locations to open the sale in the Sale screen.
 
 ## Use sales overview to prioritize
 
 Keep your sales organized so that you are always focused on the sales that matter the most to you.
 
-Once you have registered all your sales in SuperOffice CRM, they will appear in your personal sales overview in the **Sales** tab and in your **Diary**.
+After you have registered all your sales in SuperOffice CRM, they will appear in your personal sales overview in the **Sales** tab and in your **Diary**.
 
 You can organize your sales list by [filtering, grouping and adding the columns][3] that are most important for you. The most used columns are: sales amount, sales date and sales stage.
 

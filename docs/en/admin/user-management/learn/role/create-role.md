@@ -74,7 +74,7 @@ To create a role for associates in the company or for external users:
 
 6. The **Role information** tab: You have already filled in the necessary information here.
 
-7. The **Members** tab: This tab is empty, since you have not added any members to the role yet. Members are added from the **Edit users** screen (see [User information][1]).
+7. The **Members** tab: This tab is empty, because you have not added any members to the role yet. Members are added from the **Edit users** screen (see [User information][1]).
 
 8. In the **Profiles** tab, you can link [element profiles][2] to this new role:
     1. In the **New element profile** list, select the required profile from the list that appears.

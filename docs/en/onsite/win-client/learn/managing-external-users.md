@@ -18,7 +18,7 @@ If you are assigned the **Allow administration of external users** right in Supe
 
 1. Go to the company card for the company you want to manage external users for.
 
-    There are several ways to open the **Company** screen:
+    There are several ways to open the Company screen:
 
     * By clicking the **Company** button in the Navigator.
     * By using the [history list][1] or [FastSearcher][2].

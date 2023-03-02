@@ -17,7 +17,7 @@ language: en
 
 1. Double-click the required contact.
 
-1. Click **Edit** in the contact card in the **Contact** screen.
+1. Click **Edit** in the contact card in the Contact screen.
 
 1. [Make the required changes][1].
 

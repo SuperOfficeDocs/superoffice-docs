@@ -11,7 +11,7 @@ language: en
 
 # Print contact info
 
-You can print information about a contact from both the **Contact** screen and the **Company** screen.
+You can print information about a contact from both the Contact screen and the Company screen.
 
 ## To print from the Contact screen
 

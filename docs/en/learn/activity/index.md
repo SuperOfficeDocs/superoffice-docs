@@ -69,7 +69,7 @@ The table below illustrates the different kinds of activities:
 | Diary screen | Displays all your uncompleted activities. | [Activities (Diary)][6] |
 
 > [!NOTE]
-> Activities are also displayed in the [different views][7] in the **Diary** screen.
+> Activities are also displayed in the [different views][7] in the Diary screen.
 
 ## Columns
 

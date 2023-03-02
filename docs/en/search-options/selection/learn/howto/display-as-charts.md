@@ -1,7 +1,7 @@
 ---
 uid: help-en-selection-display-as-charts
 title: Visualize selections with charts
-description: Once you have created a selection you can display your results visually for a more instant understanding of the data. This how-to guide will show you how to visualize selections with the help of charts in SuperOffice CRM.
+description: After you have created a selection you can display your results visually for a more instant understanding of the data. This how-to guide will show you how to visualize selections with the help of charts in SuperOffice CRM.
 author: SuperOffice RnD
 so.date: 02.15.2023
 keywords: selection
@@ -11,7 +11,7 @@ language: en
 
 # Display selection as a chart
 
-Once you have created a selection you can display your results visually for a more instant understanding of the data.
+After you have created a selection you can display your results visually for a more instant understanding of the data.
 
 In the **Charts** tab you can click a chart type to display the data in the active selection as a chart. The available chart types depend on the selection type (only sales-related charts are available for sale selections). Dynamic selections with charts can also be used in [dashboards][1].
 
@@ -31,9 +31,9 @@ In the **Charts** tab you can click a chart type to display the data in the acti
 
 * Click the data labels (legend) next to or under the chart to hide/show specific data in the charts. This can be useful for printing or saving the charts from the preview window.
 
-* ![icon][img1]: Click here to preview a chart. Here you can also see the data source table for the chart.
+* ![icon][img1]: Opens a preview of a chart. Here you can also see the data source table for the chart.
 
-* ![icon][img2]: Click here to refresh the chart with updated data.
+* ![icon][img2]: Refreshes the chart with updated data.
 
 > [!NOTE]
 > Go to **Dashboard** in the navigator to view charts of ALL SuperOffice data.

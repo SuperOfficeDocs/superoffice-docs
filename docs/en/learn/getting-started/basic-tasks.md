@@ -22,7 +22,7 @@ The Company and Contact screens hold all information related to your customers a
 * [Add contacts][3]
 * [Merge or delete companies and contacts][4]
 * [Use the Recycle bin to restore companies and contacts][9]
-* [Import multiple companies and/or contacts at once][1]
+* [Import multiple companies and/or contacts][1]
 * [Bulk update company and contact information][5]
 * [Create selections for further action][6]
 

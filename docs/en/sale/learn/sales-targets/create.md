@@ -22,7 +22,7 @@ The target list can contain of the following sections:
 * The user's target
 * The sum of targets for all users in one user group (not editable)
 
-It is optional to add the company target and to have user specific targets (go to Target settings to change). The sum of all targets in one user group is not editable. It shows the sum for all the users in one user group and is a guideline to make it easier to set up the target for the whole user group. You can add and edit the company target, since the target for the whole company is not necessarily the same as the sum of all user groups.
+It is optional to add the company target and to have user specific targets (go to Target settings to change). The sum of all targets in one user group is not editable. It shows the sum for all the users in one user group and is a guideline to make it easier to set up the target for the whole user group. You can add and edit the company target, because the target for the whole company is not necessarily the same as the sum of all user groups.
 
 ## Requirements
 

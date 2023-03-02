@@ -3,9 +3,9 @@ uid: help-en-sign-in-to-superoffice
 title: Logging in
 description: Log in to activate your SuperOffice CRM account using a SuperOffice CRM password or a single sign-on option.
 author: SuperOffice RnD
-so.date: 12.14.2022
+so.date: 03.02.2023
 keywords: CRM, sign in, login
-so.topic: concept
+so.topic: howto
 language: en
 ---
 
@@ -16,11 +16,9 @@ SuperOffice is a web-based system. This means you must be connected to the inter
 When you start SuperOffice CRM or Service, you will see a login screen where you must enter a user ID and password to open the program.
 
 1. Enter your user ID and password.
-2. Click **Log in**.
+2. Select **Log in**. Wait a moment while the program starts up.
 
-Wait a moment while the program starts up.
-
-To use SuperOffice CRM, you must be assigned a user account that is unique for you. This user account contains your user identification and a password known only to you and the system, commonly referred to as your **user credentials**. Your user credentials allow the system to verify that you are you, which is necessary before allowing you to access your company's CRM solution.
+To use SuperOffice CRM, you must be assigned a user account that is unique for you. This user account contains your user identification and a password known only to you and the system, commonly referred to as your *user credentials*. Your user credentials allow the system to verify that you are you, which is necessary before allowing you to access your company's CRM solution.
 
 ## What is my user ID?
 
@@ -36,19 +34,19 @@ There are two ways you can log in to activate your SuperOffice CRM account for t
 
 * By using a single sign-on system where you log in to SuperOffice CRM using your username and password from another solution, such as Microsoft 365 or Google Workspace.
 
-### Log in with a SuperOffice CRM password
+### Log in with a SuperOffice password
 
-1. Once your administrator adds you as a user to your SuperOffice CRM solution, you will receive an email asking to you activate your account.
+1. After your administrator adds you as a user to your SuperOffice CRM solution, you will receive an email asking to you activate your account.
 
     ![Activation email -screenshot][img5]
 
-1. Click the **Activate now** link in the email which opens a SuperOffice CRM login screen where you set your own password.
+1. Click the **Activate now** link in the email.In the SuperOffice CRM login screen, enter your own password.
 
     ![Enter password -screenshot][img6]
 
     ![Password strength -screenshot][img3]
 
-1. Once you have activated your account, you will enter SuperOffice CRM and can start using it.
+1. After you have activated your account, you will enter SuperOffice CRM and can start using it.
 
 1. After the first login, you can re-login using your user identification and the password you just set.
 
@@ -56,13 +54,13 @@ There are two ways you can log in to activate your SuperOffice CRM account for t
 
     * If you have problems activating your account, [contact our support][1].
 
-    * If you do not immediately get the option to create a SuperOffice password, then it is likely that your company is using a **single sign-on system** to manage your user credentials. See below to learn how to activate your account using the single sign-on option.
+    * If you do not immediately get the option to create a SuperOffice password, then it is likely that your company is using a [single sign-on system][7] to manage your user credentials. See below to learn how to activate your account using the single sign-on option.
 
 ### Log in with single sign-on
 
-1. If your company uses **Microsoft 365, Active Directory**, or **Workspace from Google** for user authentication, these can be connected to SuperOffice CRM so that the same system verifies you across all your different services. This is often referred to as **single sign-on**.
+1. If your company uses Microsoft 365, Active Directory, or Workspace from Google for user authentication, these can be connected to SuperOffice CRM so that the same system verifies you across all your different services. This is often referred to as single sign-on.
 
-1. Once your administrator adds you as a user to your SuperOffice CRM solution, you will receive an activation email.
+1. After your administrator adds you as a user to your SuperOffice CRM solution, you will receive an activation email.
 
     ![Activation email -screenshot][img5]
 
@@ -74,9 +72,9 @@ There are two ways you can log in to activate your SuperOffice CRM account for t
 
     SuperOffice will indicate whether you choose a strong or a weak password. We advise you to choose a strong password.
 
-1. Once you enter your login details, your account is activated and SuperOffice CRM will open. As long as you are logged in to your **Microsoft 365** or **Google Workspace**, you will not be asked to enter your user credentials in order to log in to SuperOffice CRM.
+1. After you enter your login details, your account is activated and SuperOffice CRM will open. As long as you are logged in to your Microsoft 365 or Google Workspace, you will not be asked to enter your user credentials in order to log in to SuperOffice CRM.
 
-When you are no longer signed in with your **Microsoft 365** or **Google Workspace** user credentials, SuperOffice CRM will ask you to verify who you are via your **Microsoft 365** or **Google Workspace** account.
+When you are no longer signed in with your Microsoft 365 or Google Workspace user credentials, SuperOffice CRM will ask you to verify who you are via your Microsoft 365 or Google Workspace account.
 
 **Microsoft 365:**
 
@@ -91,13 +89,11 @@ When you are no longer signed in with your **Microsoft 365** or **Google Workspa
 ![Log in Google -screenshot][img8]
 
 > [!NOTE]
-> If you have problems accessing SuperOffice CRM via your managed single sign-on system, you need to contact **your company's IT support** for help.
+> If you have problems accessing SuperOffice CRM via your managed single sign-on system, you need to contact your company's IT support for help.
 
 ## <a id="forgot-password" />Forgot your password?
 
-People often forget their credentials, especially their password. Therefore, it might come in handy to know how to change or reset your SuperOffice CRM password.
-
-Depending on what version of SuperOffice CRM you have – onsite or online – follow the corresponding instructions below to change your password.
+People often forget their credentials, especially their password. Therefore, it might come in handy to know how to change or reset your SuperOffice CRM password. Follow the instructions for your version of SuperOffice to change your password.
 
 ### Online
 
@@ -121,10 +117,10 @@ When you start Settings and maintenance, you will see a login screen where you m
 > [!NOTE]
 > The first time you run Settings and maintenance, a dialog displays an amendment to the Terms of Service. Please read this important information and click **Accept** and **OK** to continue using Settings and maintenance. This dialog will not be displayed again.
 
-You must belong to the **User level 0** role or another role that gives you login rights for Settings and maintenance. User IDs, passwords and user levels are all defined in the [Users screen][2].
+You must belong to the *User level 0* role or another role that gives you login rights for Settings and maintenance. User IDs, passwords and user levels are all defined in the [Users screen][2].
 
 > [!TIP]
-> You can also open Settings and maintenance via **Settings and maintenance** on the **File** menu in SuperOffice CRM for Windows, or from the main menu in SuperOffice CRM for Web.
+> You can also open Settings and maintenance via the **File** menu in SuperOffice CRM for Windows, or from the main menu in SuperOffice CRM for Web.
 
 ## How do I get to Service?
 
@@ -133,7 +129,7 @@ You must belong to the **User level 0** role or another role that gives you logi
 1. Click **Log in**. This takes you to the dashboard in SuperOffice Service.
 
 > [!TIP]
-> To log out of SuperOffice Service, click the ![icon][img1] **Personal settings** button at the top of the screen, and select **Log out**.
+> To log out of SuperOffice Service, click the ![icon][img1] Personal settings icon at the top of the screen, and select **Log out**.
 
 In SuperOffice Service you can also log in as the same user in several browsers / multiple sessions.
 
@@ -153,6 +149,7 @@ Have trouble logging in? [Check our FAQs][1] for different log-in issues for hel
 [4]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-a-newly-created-user-cannot-log-in-to-superoffice-crm/
 [5]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-change-a-forgotten-password-in-superoffice-crm-online/
 [6]: preferences.md#options
+[7]: ../../identity-management/single-sign-on/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png

@@ -18,7 +18,7 @@ When processing requests, you have the option of registering [invoice data][1] a
 
 **Steps:**
 
-1. Open the **Contact** screen.
+1. Open the Contact screen.
 
 2. Click the ![icon][img1] **Actions** button and select **Invoices**. The **Invoices for ...** screen appears. This contains both requests that include messages with invoiceable hours, and registered invoice items, in chronological order. Note in particular these columns:
     * **Credit**: Shows the total amount for invoicing.
@@ -29,7 +29,7 @@ When processing requests, you have the option of registering [invoice data][1] a
 
     [!include[How to add invoice item](includes/howto-add-invoice-to-request.md)]
 
-4. Click **Return to contact** to go back to the **Contact** screen.
+4. Click **Return to contact** to go back to the Contact screen.
 
 <!-- Referenced links -->
 [1]: ../howto/create.md#invoice

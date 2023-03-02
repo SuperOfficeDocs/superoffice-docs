@@ -22,7 +22,7 @@ The sections below contain information about how to enable and disable status mo
 
 At the bottom of the **Status monitors** tab, indicators (text which shows the date of the most recent generation, if the selected status or counter has never been generated, or if the selected status should be regenerated because of changes) are displayed for the regeneration of statuses or counters.
 
-You should regenerate statuses and/or counters if the indicators show that it is a long time since the last generation, or that the statuses and/or counters have never been generated. The same applies if statuses are amended. Statuses and counters that are not updated, will still be enabled and useable in SuperOffice CRM, but the dates returned will not necessarily be correct. The sections below described how to regenerate statuses and counters.
+You should regenerate statuses and/or counters if the indicators show that the last generation was a long time ago, or that the statuses and/or counters have never been generated. The same applies if statuses are amended. Statuses and counters that are not updated, will still be enabled and useable in SuperOffice CRM, but the dates returned will not necessarily be correct. The sections below described how to regenerate statuses and counters.
 
 <details><summary>How to tell if it is updated?</summary>
 
@@ -35,13 +35,13 @@ When you have added, edited or deleted a criterion (see [Select status criteria]
 
 You must then regenerate these statuses by clicking one of these buttons:
 
-![icon][img2] **Regenerate selected status monitor** (bottom of the **Company**, **Contact** or **Project** tab): Click here to regenerate the selected status.
+![icon][img2] **Regenerate selected status monitor** (bottom of the **Company**, **Contact** or **Project** tab): Select to regenerate the selected status.
 
-![icon][img2] **Regenerate all status monitors** (bottom of the **Status** tab): Click here to regenerate all statuses.
+![icon][img2] **Regenerate all status monitors** (bottom of the **Status** tab): Select to regenerate all statuses.
 
 ## Regenerate counter values
 
-![icon][img2] **Regenerate all counters**: Click here to regenerate all counters.
+![icon][img2] **Regenerate all counters**: Select to regenerate all counters.
 
 ## Related
 

@@ -35,7 +35,7 @@ You can create extra tables in SuperOffice Service to register different types o
 |---|---|
 | Folder | To place the table in an existing folder, select a folder from the list. |
 | Name | The name of the table. |
-| Database table   The name of the database table. Can be specified only at creation and cannot be changed. The table name may contain underscores, the letters a-z, and numbers only, and the name must start with "y_". A logical name is best, since it makes it easier to see what the database contains. |
+| Database table   The name of the database table. Can be specified only at creation and cannot be changed. The table name may contain underscores, the letters a-z, and numbers only, and the name must start with "y_". A logical name is best, because it makes it easier to see what the database contains. |
 | Search header | The header used in the search screen for this table. |
 | Header for viewing entry | The header used when you display an entry in this table. |
 | Header for new entry | The header used when you create a new entry in this table. |

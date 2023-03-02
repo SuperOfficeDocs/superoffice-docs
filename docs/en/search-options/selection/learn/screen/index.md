@@ -53,22 +53,22 @@ Use the **Task** button to perform different tasks for the members or some of th
 
 * **Count: number**, The number of members in the active selection.
 
-* **Show all**. Click here to display all selection members.
+* **Show all**. Used to display all selection members.
 
     > [!NOTE]
     > By default the list displays only the 100 first records in the selection. To change this value, go to ![icon][img4] **Personal settings** > **Preferences** > **Functions** > **Archive page size**.
 
-* ![icon][img5]: Click here to refresh the data in the list.
+* ![icon][img5]: Refreshes the data in the list.
 
 ### <a id="mailing" /> View mailings archived on selection
 
-Use the **Mailings** tab in the **Selection** screen to keep track of all mailings related to a selection.
+Use the **Mailings** tab in the Selection screen to keep track of all mailings related to a selection.
 
 Double-click a mailing to open it.
 
 **Create a mailing**: Click to [create a new mailing][7] to the contacts in this selection.
 
-**Export**: Click here to export the list to a spreadsheet.
+**Export**: Used to export the list to a spreadsheet.
 
 ## Related topics
 

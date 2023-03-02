@@ -31,11 +31,11 @@ To use the [Google Analytics feature][2], you need a Google Analytics account co
 
     * In the **Source** field you can add the source of your website traffic. Here you can choose to use the different E-marketing subscriptions, like, for example, Monthly newsletter, Promotion mailing, etc.
 
-    * In the **Campaign** field you can enter the name of the campaign you are running. This will make it easier to track and report the results of the mailing you've sent out. Here you can enter campaign names, like, for example, Christmas sales campaign or Autumn sales campaign, and so on.
+    * In the **Campaign** field you can enter the name of the campaign you are running. This will make it easier to track and report the results of the mailing you have sent out. Here you can enter campaign names, like, for example, Christmas sales campaign or Autumn sales campaign, and so on.
 
-4. Once you've set up all the details you want to use to track your mailing in Google Analytics, you can follow the steps of the mailing wizard. Click **Next** to choose your template, add content, add recipients and send your mailing.
+4. After you have set up all the details you want to use to track your mailing in Google Analytics, you can follow the steps of the mailing wizard. Click **Next** to choose your template, add content, add recipients and send your mailing.
 
-All the links you add in the third step (Content) will automatically be tracked because you've turned on the Google Analytics feature. As soon as your recipients click on the links to your website, you can track their visits to your website in Google Analytics.
+All the links you add in the third step (Content) will automatically be tracked because you have turned on the Google Analytics feature. As soon as your recipients click on the links to your website, you can track their visits to your website in Google Analytics.
 
 ## How to check your mailing's results in Google Analytics
 

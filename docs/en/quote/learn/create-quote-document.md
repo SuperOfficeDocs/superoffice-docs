@@ -11,7 +11,7 @@ language: en
 
 # Create a quote document
 
-Once you have created the quote and added the products you want, you can create the quote document to send to the customer. This is the "letter" that is sent to the customer. The list of products that are being offered is added when the quote is sent to the customer.
+After you have created the quote and added the products you want, you can create the quote document to send to the customer. This is the "letter" that is sent to the customer. The list of products that are being offered is added when the quote is sent to the customer.
 
 1. Open an existing quote, or [create a new quote][1].
 
@@ -21,7 +21,7 @@ Once you have created the quote and added the products you want, you can create 
 
 4. Click the **Create** button to create a new document based on the selected document template.
 
-5. Type in the document content, and save and close it in the usual way in the program. The document is then displayed on the **Activities** section tab in the **Sale** screen (and in the **Company** and **Diary** screens).
+5. Type in the document content, and save and close it in the usual way in the program. The document is then displayed on the **Activities** section tab in the Sale screen (and in the Company and Diary screens).
 
 > [!TIP]
 > There is a [list of the variables][3] you can insert into documents you create.

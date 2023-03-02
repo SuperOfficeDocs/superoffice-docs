@@ -34,10 +34,10 @@ The products in the quote are displayed on this tab.
     > [!NOTE]
     > Total discount must be enabled as an option in SuperOffice Settings and maintenance.
 * **Earnings/Total**: This shows the earnings and the total for the whole of the alternative.
-* **Add**: Click here to search for and [add products][6].
+* **Add**: Used to search for and [add products][6].
 * Double-click a product to edit it.
-* **Delete**: Click here to delete the selected product(s).
-* **Export**: Click here to [export the list][7] to a spreadsheet.
+* **Delete**: Deletes the selected product(s).
+* **Export**: Used to [export the list][7] to a spreadsheet.
 * Sort: Use the arrow keys ( ![icon][img2] / ![icon][img3] ) to change the order of the products.
 
 > [!TIP]
@@ -53,7 +53,7 @@ Here you can select one or more attachments to append to the quote. The attachme
 
 The bottom section of the dialog
 
-**Update prices**: Click here to update the prices in the quote from the price list(s).
+**Update prices**: Used to update the prices in the quote from the price list(s).
 
 <!-- Referenced links -->
 [1]: ../create-quote-document.md

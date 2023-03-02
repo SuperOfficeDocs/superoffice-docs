@@ -13,7 +13,7 @@ language: en
 
 # Sale - Type, Stages, Quote
 
-The **Sale** tab in the **Sale** screen in SuperOffice CRM contains the **Sale type** field. This field has a predefined list of options which are set up in the **Lists** screen in Settings and maintenance.
+The **Sale** tab in the Sale screen in SuperOffice CRM contains the **Sale type** field. This field has a predefined list of options which are set up in the **Lists** screen in Settings and maintenance.
 
 ## Stages
 

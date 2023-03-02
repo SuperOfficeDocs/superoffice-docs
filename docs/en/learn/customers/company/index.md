@@ -16,7 +16,7 @@ language: en
 Do one of the following:
 
 * Double-click a row under **Find companies** in the [search results screen][1].
-* Click the company's name in screens where this information is displayed, such as the **Request** screen.
+* Click the company's name in screens where this information is displayed, such as the Request screen.
 
 ## Sections in the screen
 
@@ -28,7 +28,7 @@ Do one of the following:
 
 ## Company header
 
-The header of the **Company** screen contains basic information about the company: company name, category and priority. In addition, you can click ![icon][img2] to set the company as a favorite ![icon][img4]. The company will then be accessible via the favorites list ![icon][img3] under **Customers** in the Navigator.
+The header of the Company screen contains basic information about the company: company name, category and priority. In addition, you can click ![icon][img2] to set the company as a favorite ![icon][img4]. The company will then be accessible via the favorites list ![icon][img3] under **Customers** in the Navigator.
 
 ## Task buttons for companies
 

@@ -13,7 +13,7 @@ language: en
 
 ![icon][img1]
 
-At the bottom of the **Activities** and **Sales** section tabs in the **Company**, **Contact**, **Sale** and **Project** screens is the **Filter** button.
+At the bottom of the **Activities** and **Sales** section tabs in the Company, Contact, Sale, and Project screens is the **Filter** button.
 
 You use the filter function to specify which records to display on the **Activities** and **Sales** section tabs. You do this by specifying a date range for the records you want to see. The default in the **Filter** dialog is to display the previous year's and the next six months' activities or sales of the user currently logged in, but you can change these values as described below.
 
@@ -21,7 +21,7 @@ In addition to defining a time period, you can also choose if you want to see al
 
 ## Use the Filter function
 
-1. Go to the **Company**, **Contact**, **Sale** or **Project** screen. (See [Use the Find screen][1].)
+1. Go to the **Company**, **Contact**, **Sale** or Project screen. (See [Use the Find screen][1].)
 
 2. Select the **Activities** or **Sales** section tab.
 
@@ -36,7 +36,7 @@ In addition to defining a time period, you can also choose if you want to see al
 
 6. You now have the following options:
     * To show the activities or sales for a specific group, select the required group in the **Groups** list. The members in the group will then be selected for you on the **Associates** list on the right.
-    * To show activities or sales for one or more associates, simply select the required contacts in the **Associates** list. To select several at once, hold down the **CTRL** key as you select the people you want.
+    * To show activities or sales for one or more associates, simply select the required contacts in the **Associates** list. To select several, hold down the **CTRL** key as you select the people you want.
     * To show your own activities or sales, click the **Mine** button.
     * To show all activities or sales for all groups and associates, click the **All** button.
 

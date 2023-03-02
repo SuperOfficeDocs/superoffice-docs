@@ -17,11 +17,11 @@ Select **Show sent emails** in the lower right corner to display also the last r
 
 The following options are also available from the **Actions** button (![icon][img1]):
 
-* **Export**: Click here to export the list to a file. You can choose from these formats: Excel, HTML and plain text.
+* **Export**: Used to export the list to a file. You can choose from these formats: Excel, HTML and plain text.
 
-* **Send**: Click here to resend the selected emails only if there was a fault with the automatic mailing.
+* **Send**: Used to resend the selected emails only if there was a fault with the automatic mailing.
 
-* **Delete**: Click here to delete the selected emails.
+* **Delete**: Used to delete the selected emails.
 
     > [!NOTE]
     > You cannot undo this operation.

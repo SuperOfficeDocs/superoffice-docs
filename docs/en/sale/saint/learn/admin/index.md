@@ -14,7 +14,7 @@ language: en
 
 You can follow up on your customers proactively by using SAINT, which stands for Sales Intelligence. SuperOffice SAINT can be used in many ways and for many different processes. Before successfully implementing the SAINT feature it is important to know what you wish to improve and how you can analyze this.
 
-Once you know what you want to improve, try to think of the action your company can take to improve on the existing situation. What action will you take?
+After you know what you want to improve, try to think of the action your company can take to improve on the existing situation. What action will you take?
 
 * Send out a group mailing using SuperOffice Mailings
 * Call all customers in the SAINT selection

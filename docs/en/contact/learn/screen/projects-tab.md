@@ -15,7 +15,7 @@ The **Projects** section tab shows all the projects where the active contact is 
 
 Click **Add to project** to add project members to a project.
 
-Double-click a project in the list to open the **Project** screen in SuperOffice CRM which contains information about the active project.
+Double-click a project in the list to open the Project screen in SuperOffice CRM which contains information about the active project.
 
 [!include[Contents of the Projects tab](../../../learn/includes/projects-tab.md)]
 

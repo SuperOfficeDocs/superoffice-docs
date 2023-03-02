@@ -121,7 +121,7 @@ Examples of automated link actions in use:
 
 By automating these tasks, you save a lot of time you would otherwise spend on handling responses. When the reader clicks a link in your mailing, the system performs the link actions for you!
 
-You can use the information you've gathered in this mailing in a number of ways:
+You can use the information you have gathered in this mailing in a number of ways:
 
 * Automatically generate a selection based on people who clicked a specific link. Then, send a targeted follow-up mailing to this particular group with a tailored message.
 

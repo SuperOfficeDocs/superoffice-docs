@@ -92,7 +92,7 @@ If the document is checked out for editing, one of the following icons are displ
 
 ### Completed
 
-By default, the document is marked as completed (![icon][img4]), but you can remove this check mark if you wish (![icon][img5]). The document will then be displayed on the **Activities** section tab in the **Diary** screen until it is marked as completed.
+By default, the document is marked as completed (![icon][img4]), but you can remove this check mark if you wish (![icon][img5]). The document will then be displayed on the **Activities** section tab in the Diary screen until it is marked as completed.
 
 > [!NOTE]
 > You cannot edit a completed document until you have undone its **Completed** status. [How to change Completed status of an activity][7].

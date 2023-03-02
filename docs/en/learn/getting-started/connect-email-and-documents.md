@@ -28,7 +28,7 @@ Watch this video to see how you can better manage your inbox and share informati
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/h23X9-utLi4]
 
-Ready to get connected? Choose your operating system below to learn how to connect your email and document management programs. Once you know which tools you need, jump to the installation how-to guide and follow the steps.
+Ready to get connected? Choose your operating system below to learn how to connect your email and document management programs. After you know which tools you need, jump to the installation how-to guide and follow the steps.
 
 ### Windows OS with Microsoft Outlook and Microsoft Office
 

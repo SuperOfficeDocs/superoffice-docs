@@ -10,7 +10,7 @@
 
 * Complete the address fields.
 
-* In the country field, specify where the contact is located. It is important to enter the correct country, since this will affect the format of the contact's mail address and phone number. The default country is the country recorded for the company.
+* In the country field, specify where the contact is located. It is important to enter the correct country, because this will affect the format of the contact's mail address and phone number. The default country is the country recorded for the company.
 
 * Check the **Use as postal address** field if you want direct mailings to be sent to the address entered above instead of the company's postal address.
 

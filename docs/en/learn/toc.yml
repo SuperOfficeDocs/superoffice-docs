@@ -6,7 +6,7 @@ items:
   - name: Learn the basics
     href: getting-started/basic-tasks.md
     items:
-    - name: Favourites
+    - name: Favorites
       href: getting-started/fav.md
     - name: Delete an element
       href: getting-started/deleting-elements.md

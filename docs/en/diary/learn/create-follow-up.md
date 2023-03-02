@@ -33,7 +33,7 @@ If no empty row is displayed at the bottom of the activities list, enlarge the a
 
 When you open the diary of an associate, you can create appointments for this person yourself.
 
-1. Click the **View** tab in the **Diary** screen.
+1. Click the **View** tab in the Diary screen.
 
 2. [Find the person's diary][4] in the **View**.
 
@@ -54,7 +54,7 @@ Follow-ups may overlap each other. When you try to record an overlapping follow-
 
 A suggestion for the first vacant time slot is shown. Click the proposed time to the right of **First available** to select this time instead.
 
-Overlapping follow-ups are displayed in the **Diary** screen so that you can see part of each follow-up.
+Overlapping follow-ups are displayed in the Diary screen so that you can see part of each follow-up.
 
 ## What would you like to do now?
 

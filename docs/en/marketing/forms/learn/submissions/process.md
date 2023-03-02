@@ -16,13 +16,13 @@ As soon as the form submissions start flooding in, it is time to process them. F
 > [!NOTE]
 > SuperOffice will check and validate the email address entered in the form to make sure it is an existing domain name. Basic email address syntax will also be checked.
 
-When you've set up your web form to automatically process all incoming submissions, you won't have to lift a finger. SuperOffice CRM will process them for you and create a new contact when no match is found in your database.
+When you have set up your web form to automatically process all incoming submissions, you won't have to lift a finger. SuperOffice CRM will process them for you and create a new contact when no match is found in your database.
 
 * When you process form submissions manually you can prevent duplicate contacts by checking whether a person is already registered in your database or not.
 
 * You could also choose this option "Manually if submitter is unknown. Automatically if submitter is known." Then you have more control of the contacts added to your database through form submissions.
 
-Form submissions with status **Submitted** must be processed manually. This means reviewing the form contents and linking the submitter to an existing or a new contact and/or company in SuperOffice. Processed forms are available in the **Activities** section tab in the **Company** and **Contact** screens in SuperOffice CRM. If you selected to be notified by new request, the processed forms will be available in the **Request** section tab.
+Form submissions with status **Submitted** must be processed manually. This means reviewing the form contents and linking the submitter to an existing or a new contact and/or company in SuperOffice. Processed forms are available in the **Activities** section tab in the Company and Contact screens in SuperOffice CRM. If you selected to be notified by new request, the processed forms will be available in the **Request** section tab.
 
 Watch this video (or follow the step-by-step guide below) to learn how you can manually process a submitted web form (video length - 4:30) or follow the steps below.
 
@@ -35,7 +35,7 @@ Watch this video (or follow the step-by-step guide below) to learn how you can m
     1. Open a form and go to the **Form submissions** tab or go to the **Form submissions** tab (in the main **Marketing** screen).
     2. At the bottom of the list of form submission, deselect all filters except **Submitted**. The list now displays only form submission that must be processed.
 
-    In SuperOffice CRM: Go to the **Contact** screen, search for the relevant person and select the **Activities** section tab.
+    In SuperOffice CRM: Go to the Contact screen, search for the relevant person and select the **Activities** section tab.
 
 2. Double-click a row.
 

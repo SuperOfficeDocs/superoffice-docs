@@ -18,7 +18,7 @@ The Screen designer feature allows you to configure your main screens in S
 > [!NOTE]
 > Screen designer (configurable screens) requires the Developer Tools licence.
 
-The Contact and Company cards/screens in SuperOffice CRM come with a default layout, but you can edit them or create your own layouts. Since different user groups often use the Contact and Company cards differently, it could be a good idea to create different layouts for each user group.
+The Contact and Company cards/screens in SuperOffice CRM come with a default layout, but you can edit them or create your own layouts. because different user groups often use the Contact and Company cards differently, it could be a good idea to create different layouts for each user group.
 
 Screen designer allows you to remove the unnecessary fields and/or create new, more relevant fields. You can also group the fields in tabs or columns and add your own headings (called "labels"). If you find some of the tabs unnecessary, you can easily remove them or replace them with the tabs that are more suitable for your organization.
 
@@ -32,7 +32,7 @@ Your sales team, support team and management team do not necessarily have the sa
 * Add links/buttons for looking up information in other websites or to manually trigger an automated process based on CRM Script.
 
 > [!NOTE]
-> When this feature is activated, the fields in your current **More** tab for the **Company**, **Contact**, **Sale** and **Project** screens will change to form two columns. You can edit these tabs in the screen designer (see [Edit layout][1]).
+> When this feature is activated, the fields in your current **More** tab for the Company, Contact, Sale, and Project screens will change to form two columns. You can edit these tabs in the screen designer (see [Edit layout][1]).
 
 You can create custom screen layouts for the company, contact, sale and project cards, as seen at the top of the screen. The **Layouts** list displays any existing screen layouts (usually the default layout), with a preview screen on the right.
 

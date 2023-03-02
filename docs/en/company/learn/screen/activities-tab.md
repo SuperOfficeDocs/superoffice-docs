@@ -11,7 +11,7 @@ language: en
 
 # Activities tab
 
-The **Activities** section tab in the **Company** screen contains all the activities linked to the active company.
+The **Activities** section tab in the Company screen contains all the activities linked to the active company.
 
 [!include[Intro to activities](../../../learn/includes/intro-activities.md)]
 

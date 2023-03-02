@@ -15,7 +15,7 @@ When you view a follow-up you are not the owner of, the usual **Appointment**, *
 
 **Note:**
 
-* Until you [accept or decline the invitation][2], the dialog has two extra buttons: **Accept** and **Decline**. Once you accept, the button is disabled.
+* Until you [accept or decline the invitation][2], the dialog has two extra buttons: **Accept** and **Decline**. After you accept, the button is disabled.
 
 * Because you did not create the appointment, task or phone call yourself, you may change only the **Priority**, **Alarm**, and **Completed** fields. All other options are disabled.
 

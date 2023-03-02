@@ -17,7 +17,7 @@ The goal of your newsletter or email campaign will determine what links you shou
 
 For example, clicking on a link may open a new website or update your recipient's Contact card. The action can also add a service request in Service and in the Request section tab on the Contact card. The use of links is only available for users who subscribe to the Marketing plan.
 
-Before you start the actual mailing, you can set up the links you will frequently use in your mailings. Once you set them up, you can use them again and again which will help you save time. Most common links to use are, for example:
+Before you start the actual mailing, you can set up the links you will frequently use in your mailings. After you set them up, you can use them again and again which will help you save time. Most common links to use are, for example:
 
 * Unsubscribe pages
 * Contact forms
@@ -43,8 +43,8 @@ Menu options:
 * **View**. [How to work with tracked links after the mailing][2].
 * **Edit**. [How to create tracked links][1].
 * **Reset**. [How to reset counters for links][2].
-* **Move to folder**. Click here to move the link to another folder.
-* **Delete**. Click here to delete the link.
+* **Move to folder**. Used to move the link to another folder.
+* **Delete**. Deletes the link.
 
 ## Which links am I tracking?
 
@@ -59,7 +59,7 @@ Google Analytics is the most popular digital analytics software available. By tr
 By default, Google Analytics does not identify visitors coming from specific mailings. You have to add a tag to the links in your email to be able to:
 
 * Identify which links your recipients have clicked,
-* See which website pages they visited once they landed on your website.
+* See which website pages they visited after they landed on your website.
 
 When you add a link to your website in your mailing without a tag, you can see that your visitors come from a mailing, but you will not know which specific mailing. As a result, you are left in the dark about how the recipients of specific mailings behave on your website.
 

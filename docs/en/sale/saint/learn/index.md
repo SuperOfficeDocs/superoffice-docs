@@ -42,7 +42,7 @@ With this overview, Bridgecom can decide how they wish to follow up on their cus
 
 With SuperOffice SAINT you can analyze your database to get an overview of customers, sales, requests, and documents. This can be done in the form of charts and reports. Then, the people responsible for the situation that you analyzed with SAINT can take action to improve the existing situation.
 
-<details><summary>Click here to see some examples of statuses.</summary>
+<details><summary>See examples of statuses.</summary>
 
 [!include[Examples](../../../learn/includes/status-examples.md)]
 </details>
@@ -85,7 +85,7 @@ The SAINT criteria that generate the analyses you use will automatically become 
 
 ## Action
 
-Once the background image (visual status indicator) on a Contact/Company card or selection has made the user aware that action is required, they can access the SAINT selection. This selection holds all the customers that need to be followed up.
+After the background image (visual status indicator) on a Contact/Company card or selection has made the user aware that action is required, they can access the SAINT selection. This selection holds all the customers that need to be followed up.
 
 Using your SAINT selection, you can take action in the form of proactive, personal follow-ups, personalized email campaigns, or scheduled calls in the diaries of account managers.
 

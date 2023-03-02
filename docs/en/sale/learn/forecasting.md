@@ -98,7 +98,7 @@ To demonstrate how you can use the Find feature for sales forecasting, here is a
 
 8. Press Find at the bottom of the screen to see all your open sales opportunities with a value larger than €5000.
 
-You've now created a list containing all open sales worth over €5000 made this year. You can use this list as it is, or you can use this list to present your finding in a different way. You can, for example, [visualize your list with a graph][6], and add it to your [personal sales dashboard][7].
+you have now created a list containing all open sales worth over €5000 made this year. You can use this list as it is, or you can use this list to present your finding in a different way. You can, for example, [visualize your list with a graph][6], and add it to your [personal sales dashboard][7].
 
 <!-- Referenced links -->
 [1]: create.md

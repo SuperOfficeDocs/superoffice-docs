@@ -13,8 +13,8 @@ language: en
 
 At the top of the **List selections** screen are two buttons:
 
-* **New selection**: Click here to create a new selection.
-* **New folder**: Click here to create a new folder. This applies if you have arranged your selections into a folder structure.
+* **New selection**: Used to create a new selection.
+* **New folder**: Used to create a new folder. This applies if you have arranged your selections into a folder structure.
 
 ## View existing selections
 
@@ -31,7 +31,7 @@ At the top of the **List selections** screen are two buttons:
 
 1. In the list, select as many records as you want.
 2. Click the ![icon][img1] menu button in the lower left corner, and select **Batch management**.
-3. Choose an action that you want to perform for all the records at once. Depending on the type of selection, you can, for example, add the same message to multiple requests, delete the selected records or merge records.
+3. Choose an action that you want to perform for all the records. Depending on the type of selection, you can, for example, add the same message to multiple requests, delete the selected records or merge records.
 
 ## What would you like to do now?
 

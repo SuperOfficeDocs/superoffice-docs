@@ -45,13 +45,13 @@ In the **Details** tab, you have the following options:
 * **User ID**: In the **User ID** field, edit the suggested ID for the user (if you do not want to use the automatically generated ID). You cannot specify a user ID that already exists in the database. There are no restrictions on the characters that can be used in the user ID.
 
     > [!NOTE]
-    > The user ID should not contain too many characters, since it is displayed in the ID columns in SuperOffice CRM, and space in these columns may be limited.
+    > The user ID should not contain too many characters, because it is displayed in the ID columns in SuperOffice CRM, and space in these columns may be limited.
 
 * **Nick name**: The nick name is the name visible to other users of SuperOffice, and is used for SuperOffice Service users only. You can edit the suggested nick name for the user (if you do not want to use the automatically generated name).
 
 * **Authentication**: If multiple authentication methods are available, you can select an authentication method here.
 
-* **User name**: Enter the SuperOffice user name. This should be the same name as in your identity provider's system (if you use Office 365 or Gmail for authentication). When you use SuperOffice for authentication, simply fill in your email address. Make sure the email address is valid, since it is used for account confirmation.
+* **User name**: Enter the SuperOffice user name. This should be the same name as in your identity provider's system (if you use Office 365 or Gmail for authentication). When you use SuperOffice for authentication, simply fill in your email address. Make sure the email address is valid, because it is used for account confirmation.
 
 * **Role**: Specify the [role][3] the user should have in the **Role** list box. The role determines the user's data access and functional rights. You cannot change your own role.
 

@@ -13,7 +13,7 @@ language: en
 
 [!include[Select ERP connection](includes/quote-select-erp.md)]
 
-Once you have selected an ERP connection, you can continue to [create a quote][1].
+After you have selected an ERP connection, you can continue to [create a quote][1].
 
 <!-- Referenced links -->
 [1]: create.md

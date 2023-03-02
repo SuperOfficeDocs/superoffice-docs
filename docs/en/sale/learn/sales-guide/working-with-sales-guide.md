@@ -37,7 +37,7 @@ Watch this video to learn how easy it is to use the Sales guide (video length - 
     > [!TIP]
     > To create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog][2] then opens.
 
-4. Once all follow-ups and documents for a stage are completed, go to the next stage on the main **Sale** card.
+4. After all follow-ups and documents for a stage are completed, go to the next stage on the main **Sale** card.
 
     > [!NOTE]
     > If you wish, you can go to the next stage without creating or performing all the follow-ups/documents in a stage.
@@ -104,12 +104,12 @@ You record a new sale and select the **Sale to new customer** sale type, which i
     2. Complete the rest of the information in the fields in the **Document** dialog.
     3. Click the **Create** button to create and send the email.
 
-3. Once the meeting has taken place, you want to confirm this in the sales guide.
+3. After the meeting has taken place, you want to confirm this in the sales guide.
 
     In the sales guide, check the box next to the **Customer meeting** follow-up.
 
     > [!TIP]
-    > You can also do this from the activities list in, for example, the **Diary** and the **Company** screens.
+    > You can also do this from the activities list in, for example, the Diary and the Company screens.
 
 ### The Quotation stage
 
@@ -174,7 +174,7 @@ You record a new sale and select the **Sale to new customer** sale type, which i
 You can now change the stage to **Sold**. After all the required follow-ups and documents for the sale are completed, you can set the sale status to completed.
 
 > [!TIP]
-> If you want the sale to remain visible in, for example, the **Activities** section tab in the **Sale** screen and the **Sales** section tab in the **Diary** screen, you must not set the sale to completed.
+> If you want the sale to remain visible in, for example, the **Activities** section tab in the Sale screen and the **Sales** section tab in the Diary screen, you must not set the sale to completed.
 
 ## Related
 

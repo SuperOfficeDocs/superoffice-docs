@@ -11,7 +11,7 @@ language: en
 
 # Invite your associates to a follow-up
 
-To allocate time for a meeting with one or more associates, use the **View** tab in the **Diary** screen. Here you can open your associates' diaries to see when your colleagues are available for a meeting. In addition, you can select to view resources such as conference rooms, to see when they are free and set up a joint reservation for everyone from within your own diary.
+To allocate time for a meeting with one or more associates, use the **View** tab in the Diary screen. Here you can open your associates' diaries to see when your colleagues are available for a meeting. In addition, you can select to view resources such as conference rooms, to see when they are free and set up a joint reservation for everyone from within your own diary.
 
 Follow-ups with associates are set up by linking them as participants to the follow-up.
 

@@ -15,7 +15,7 @@ You can edit the layout by adding or removing section tabs/archives on the diffe
 
 ## Disambiguation
 
-Section tabs are the tabs located at the bottom of most SuperOffice CRM screens. Example: The **Company** screen has section tabs containing contacts, activities, projects, and sales. These are also referred to as archives. There are also section tabs that are not considered as archives, such as section tabs containing sales guides, project guides, and quotes. For the purpose of this topic, we will refer to them as archives or archive tabs (when referring to the actual tab containing the archive).
+Section tabs are the tabs located at the bottom of most SuperOffice CRM screens. Example: The Company screen has section tabs containing contacts, activities, projects, and sales. These are also referred to as archives. There are also section tabs that are not considered as archives, such as section tabs containing sales guides, project guides, and quotes. For the purpose of this topic, we will refer to them as archives or archive tabs (when referring to the actual tab containing the archive).
 
 When you have created a new layout for archives (section tabs) as described in Add new layout, it is time to customize it according to the needs of the assigned user group(s). If you are customizing a layout for the sales team, you should have a clear plan of what their needs are with regards to the layout, formatting and contents of the archives. Do they need customized archives with filtered data? Which information should be first and easiest to find? Do they need all the archives?
 
@@ -88,7 +88,7 @@ To edit an existing archive, select it and edit the available fields and setting
 
 * Default tabs cannot be edited.
 
-* Some tabs, such as **Quote**, **Sales guide** and **Project guide**, cannot be edited, since they have specific functions.
+* Some tabs, such as **Quote**, **Sales guide** and **Project guide**, cannot be edited, because they have specific functions.
 
 ## Remove an archive
 
@@ -112,7 +112,7 @@ If you need to revert to an earlier version of the screen, you can access the fo
 
 ## Related
 
-* [How do I reorganize the fields in the More tab in Company and Contact screens/cards, after the upgrade to SuperOffice version 10?][3] - FAQ
+* [How do I reorganize the fields in the More tab in Company and Contact screens, after the upgrade to SuperOffice version 10?][3] - FAQ
 * [Create new layout][4]
 
 <!-- Referenced links -->

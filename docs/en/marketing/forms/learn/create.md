@@ -181,7 +181,7 @@ If a person opens a form that is inactive, you can either redirect them to anoth
 
 Here you can define how a submitted form should be processed. Fill in the following fields:
 
-**Notify of submissions by creating requests**: Select this option to create a request for every form that is submitted. Enter a title and select the category and priority for the request. Submitted forms will be available under **Requests** in SuperOffice Service and in the **Request** section tab in the **Company** and **Contact** screens in SuperOffice CRM.
+**Notify of submissions by creating requests**: Select this option to create a request for every form that is submitted. Enter a title and select the category and priority for the request. Submitted forms will be available under **Requests** in SuperOffice Service and in the **Request** section tab in the Company and Contact screens in SuperOffice CRM.
 
 **How should a form submission be processed?** Here you can define whether the submitted forms should be processed automatically.
 
@@ -195,7 +195,7 @@ Here you can define how a submitted form should be processed. Fill in the follow
 * **Add contact to project**: Select a project. Contacts who submit this form will be added to this project.
 * **Add interest to contact**: Select an interest. This interest will be added to contacts who submit this form.
 * **Email response**: Select a form response to send to contacts when their form is processed. [How to create a form response][7].
-* **Create request**: If you added a request field in the **Fields** category, you must also select a default category and priority for the requests that are create from this form. Submitted forms will be available under **Requests** in SuperOffice Service and in the **Request** section tab in the **Company** and **Contact** screens in SuperOffice CRM.
+* **Create request**: If you added a request field in the **Fields** category, you must also select a default category and priority for the requests that are create from this form. Submitted forms will be available under **Requests** in SuperOffice Service and in the **Request** section tab in the Company and Contact screens in SuperOffice CRM.
 * **Execute CRMScript**: Select a script or macro to run when a form submission is processed. See [CRMScript][9].
 * **Default category** / **Default business**: Select a default category and business for all contacts or companies that are added to SuperOffice based on submitted forms. With this option, you can group the form submissions and new contacts/companies to one specific category and/or business.
     For example, if you have a form for prospects, you select prospects as your category. You can then easily create selections based on this category and/or business.

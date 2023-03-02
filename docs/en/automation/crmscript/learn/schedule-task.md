@@ -48,7 +48,7 @@ Click a task in the list to edit its properties, such as when it was last execut
     * **Hourly**: The task runs hourly, at X minutes past the hour.
     * **Week interval**: The task runs weekly. Enter the time and on which day(s) the task should be run.
     * **Month interval**:The task runs monthly. Enter the time, on which day of the month, and in which month(s).
-    * **Once**: The task runs at the set date and time.
+    * **After**: The task runs at the set date and time.
     * **Run after schedule**: The task runs when the selected scheduled task is complete. You can use this option to chain tasks together.
 
 10. Set **Lock time in minutes** to prevent multiple tasks from the same schedule to run at the same time. You should set this value higher than the expected run time for your task. If your task takes more time than specified here, it is considered failed, and a new task from the same schedule is allowed to run.

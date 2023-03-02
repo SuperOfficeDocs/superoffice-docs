@@ -18,11 +18,11 @@ The **SMS outbox** tab contains all outgoing SMS messages that have not yet been
 
 The following options are also available from the ![icon][img1] menu button:
 
-* **Export**: Click here to export the list to a file. You can choose from these formats: Excel, HTML and plain text.
+* **Export**: Used to export the list to a file. You can choose from these formats: Excel, HTML and plain text.
 
-* **Send**: Click here to resend the selected messages only if there was a fault with the automatic mailing.
+* **Send**: Used to resend the selected messages only if there was a fault with the automatic mailing.
 
-* **Delete**: Click here to delete the selected messages.
+* **Delete**: Used to delete the selected messages.
 
     > [!NOTE]
     > You cannot undo this operation.

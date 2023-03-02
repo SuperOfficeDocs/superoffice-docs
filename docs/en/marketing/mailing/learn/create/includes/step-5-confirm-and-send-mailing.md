@@ -1,13 +1,13 @@
 <!-- markdownlint-disable-file MD041 -->
-Once you have created your target list, prepared the mailing and tested it, you've finally made it to the exciting part – it is time to send your mailing.
+After you have created your target list, prepared the mailing and tested it, you have finally made it to the exciting part – it is time to send your mailing.
 
 In the final step, **Confirm**, you can view a summary of the mailing and verify that these are correct. Any error messages displayed in this screen must be solved before the mailing can be sent. The send options are disabled if there are incomplete steps or missing information in your mailing. These are indicated in red.
 
 You can choose whether you want to send your mailing straight away or if you want to schedule the mailing. The advantage of scheduling your mailing is that you can choose the day and time to send your mailing. This means you can send it when you know most of your recipients will open and read your mailing.
 
-The Confirm screen will give you a summary of the previous steps you've taken and let you either send or schedule your mailing:
+The Confirm screen will give you a summary of the previous steps you have taken and let you either send or schedule your mailing:
 
-![The Confirm screen will give you a summary of the previous steps you've taken and let you either send or schedule your mailing -screenshot][img4]
+![The Confirm screen will give you a summary of the previous steps you have taken and let you either send or schedule your mailing -screenshot][img4]
 
 ## Send the mailing now
 

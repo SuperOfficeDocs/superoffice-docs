@@ -18,7 +18,7 @@ With custom screen layouts for each of your teams, finding customer data will be
 
 ## Main card layout
 
-A customized layout for the Contact and Company cards/screens lets your teams and organization work more efficiently, as it eliminates the distracting "information noise".
+A customized layout for the Contact and Company screens lets your teams and organization work more efficiently, as it eliminates the distracting "information noise".
 
 For example, if your Support team rarely uses the company address when they communicate with companies and contacts, you will want to make space for other fields that are more important on the first page (the Company tab). Move it by clicking on the bars on the left side of the field and drag it over to the **More** tab.
 
@@ -36,7 +36,7 @@ Watch this video and find out how add a new layout or follow the step-by-step gu
 1. If relevant, click the text next to **Assign layouts to**.
 
     By default, the layouts can be assigned to user groups.
-    If, however, you are adding main card layouts for the **Sale** or **Project** screens, you can assign the layouts to sale types or project types.
+    If, however, you are adding main card layouts for the Sale or Project screens, you can assign the layouts to sale types or project types.
 
 1. Click **Add** under **Layouts**.
 

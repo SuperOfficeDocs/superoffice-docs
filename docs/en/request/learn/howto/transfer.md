@@ -15,7 +15,7 @@ As a request handler, you are not always able to answer the request on your own.
 
 1. [Open the request][1].
 
-2. Click ![icon][img1] **Actions** and select **Edit request**. This takes you to the **Properties** tab in the **Request** screen.
+2. Click ![icon][img1] **Actions** and select **Edit request**. This takes you to the **Properties** tab in the Request screen.
 
 3. Select the person you want to help in the **Owner** list box. This means that you are transferring responsibility for the request to that person.
 

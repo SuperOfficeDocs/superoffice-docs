@@ -15,9 +15,9 @@ Create a stylish mailing using images. You can add images from the SuperOffice d
 
 ![Insert image with drag and drop from the online image library -screenshot][img3]
 
-Once you have added an image, you can add properties, such as a certain action, when the image is clicked on in the mailing
+After adding an image, you can add properties, such as a certain action, when the image is clicked on in the mailing
 
-![Once you have added an image, you can add properties, such as a certain action, when the image is clicked on in the mailing -screenshot][img4]
+![After adding an image, you can add properties, such as a certain action, when the image is clicked on in the mailing -screenshot][img4]
 
 ## How to set an image as background
 
@@ -91,7 +91,7 @@ The image you want to use for your mailing might not always be the correct size.
 
     ![In the Resize screen you can adjust the size of your image, and you also have the option tick of the box Maintain the Aspect ration or use Percentages][img7]
 
-5. When you are happy with the new size of your image or you want to check how it looks in your email template after you've made your changes, you can click the **Apply** button.
+5. When you are happy with the new size of your image or you want to check how it looks in your email template after you have made your changes, you can click the **Apply** button.
 
 <!-- Referenced links -->
 [1]: add-images.md

@@ -25,7 +25,7 @@ Many of the screens in Settings and maintenance consist of different tabs (such 
 ## Sort lists
 
 * Click the column heading you want to sort by, or right-click on a column heading and choose **Sort**.
-* Click the column heading once more to sort in reverse order.
+* Click the column heading again to sort in reverse order.
 * Right-click a column heading, and select **Configure sort order**. In the dialog that appears, you can select more sorting columns.
 
 ## Adjust column widths

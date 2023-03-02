@@ -40,11 +40,11 @@ language: en
     > If you include both plain text and HTML text, the receiving email program chooses the "best" version, which will normally be HTML. Remember that messages sent without a plain text version are readable only by email programs that support HTML.
 
     * In the large field in the centre of the screen, enter the reply template content itself. It is always this text that is used when you [add reply templates to messages][4].
-    * **Spell check**: Click here to spell check the message in the language specified in the **Language** list.
+    * **Spell check**: Starts a spell check of the message in the language specified in the **Language** list.
 
 8. In the **HTML text** tab, enter the following information:
 
-    * **Include HTML text**: Check this option to include the text underneath in an HTML version of the email. This is used for customers with email programs that can read HTML (such as Outlook). Your message will often come across more clearly if you send the email as HTML, since you can use images and colors in the text.
+    * **Include HTML text**: Check this option to include the text underneath in an HTML version of the email. This is used for customers with email programs that can read HTML (such as Outlook). Your message will often come across more clearly if you send the email as HTML, because you can use images and colors in the text.
     * In the large field in the middle of the screen, enter the HTML-formatted text you want to include in the message to the customer. Remember that images linked to here must be on a server accessible by recipients of the email. For example, you can add images that previously uploaded to **External documents**.
 
 9. In the **SMS text** tab, you can add reply template text for sending by SMS. Enter the following information here:

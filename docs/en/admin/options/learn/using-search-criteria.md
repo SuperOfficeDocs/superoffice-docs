@@ -106,7 +106,7 @@ In the list box, select the field you want to search for information in. The fie
 
     Counters can be, for example, the number of sales in a period or the date of the last completed sale.
 
-    <details><summary>Click here to see some examples of statuses.</summary>
+    <details><summary>See examples of statuses.</summary>
 
     [!include[Examples](../../../learn/includes/status-examples.md)]
 

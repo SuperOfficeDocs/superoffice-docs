@@ -15,8 +15,8 @@ In the top part of the **Number allocation** tab is a table showing the counters
 
 The table consists of the following columns:
 
-* **\[Icon\]**: Shows where in SuperOffice CRM the counter is used, for example, ![icon][img1] for the **Company** screen.
-* **Counter**: shows the name of the counter, for example, **Company number**, which applies to the **Number** field in the **Company** screen.
+* **\[Icon\]**: Shows where in SuperOffice CRM the counter is used, for example, ![icon][img1] for the Company screen.
+* **Counter**: shows the name of the counter, for example, **Company number**, which applies to the **Number** field in the Company screen.
 * **Next**: shows the next value for the counter.
 * **Allocate**: specifies if the automatic counter function is used, so that the system enters values for you.
 * **Unique**: specifies if the counter values must be unique. Useful when SuperOffice CRM users allocate values themselves.

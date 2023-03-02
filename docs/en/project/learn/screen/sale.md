@@ -11,7 +11,7 @@ language: en
 
 # Sales tab
 
-**Sales** is one of the section tabs at the bottom of the **Project** screen. It contains information about any sales linked to the project.
+**Sales** is one of the section tabs at the bottom of the Project screen. It contains information about any sales linked to the project.
 
 The columns of the **Sales** section tab contain the following information:
 
@@ -25,7 +25,7 @@ The columns of the **Sales** section tab contain the following information:
 * The name of the company the sale is linked to
 * Any contact the sale is linked to
 
-Double-click a sale in the list to open the **Sale** screen in SuperOffice CRM which contains information about that [sale][2].
+Double-click a sale in the list to open the Sale screen in SuperOffice CRM which contains information about that [sale][2].
 
 ## Related topics
 

@@ -52,9 +52,9 @@ When synchronizing data between SuperOffice and ERP systems, must specify which 
 
         <details><summary>Where is the ERP tab displayed?</summary>
 
-        * The **Company** screen
-        * The **Project** screen
-        * The **Contact** screen
+        * The Company screen
+        * The Project screen
+        * The Contact screen
         </details>
 
 1. Repeat steps 4 to 6 to configure field allocations for other actors.

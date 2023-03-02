@@ -13,7 +13,7 @@ language: en
 
 If you delete a company, it is not completely removed from the system. It is just marked as deleted.
 
-1. Open the **Company** screen.
+1. Open the Company screen.
 2. Click the ![icon][img1] **Actions** button and select **Edit company**. The **Company properties** screen appears.
 3. Click **Delete**.
 4. Click **OK** to confirm.

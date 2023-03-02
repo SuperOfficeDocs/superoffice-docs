@@ -22,7 +22,7 @@ In the **Users** screen you can add and edit different types of users.
 * In the **User groups** tab, you can see which users belong to the different user groups.
 
 > [!NOTE]
-> Changes you make in the **Users** screen do not come into effect until you click **Save** at the bottom of the screen, and confirm that you want to save the changes in the dialog that then appears. If you click **Cancel**, you will lose all changes you have made in this screen since your last save.
+> Changes you make in the **Users** screen do not come into effect until you click **Save** at the bottom of the screen, and confirm that you want to save the changes in the dialog that then appears. If you click **Cancel**, you will lose all changes you have made in this screen  your last save.
 
 ## What would you like to do now?
 

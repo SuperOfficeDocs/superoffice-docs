@@ -11,7 +11,7 @@ language: en
 
 # Send email to stakeholders or project members
 
-1. Go to the required sale in the **Sale** screen or to the required project in the **Project** screen.
+1. Go to the required sale in the Sale screen or to the required project in the Project screen.
 
 2. Choose the **Stakeholders** or **Project Members** section tab.
 

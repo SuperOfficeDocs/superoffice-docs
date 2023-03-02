@@ -25,7 +25,7 @@ Documents can be letters, quotations or memos, and they can be displayed in seve
 | Contact | Activities | All documents linked to the active contact |
 | Sale | Activities | All documents linked to the active sale |
 | Project | Activities | All documents linked to the active project |
-| Diary | Activities | All uncompleted documents plus those marked as completed since you last logged in to SuperOffice CRM. |
+| Diary | Activities | All uncompleted documents plus those marked as completed after you last logged in to SuperOffice CRM. |
 | Selection | Documents | A selection of documents |
 
 > [!TIP]

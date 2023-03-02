@@ -90,7 +90,7 @@ There are effectively no limits on what you can search for in SuperOffice CRM. T
 
 ## <a id="ex1" />Example 1: search for profitable customers
 
-Imagine that you are a sales department manager and you want to make a presentation to the rest of management, showing what you have achieved since the last meeting. You want to focus on profitable customers (customers you have recently sold a lot to).
+As a sales department manager, you want to give a presentation to the rest of management, showing what you have achieved after the last meeting. You want to focus on profitable customers (customers you have recently sold a lot to).
 
 1. Click the **Find** button.
 
@@ -139,7 +139,7 @@ Imagine that you are a sales department manager and you want to make a presentat
 
 22. You then decide what you want to use the search results for. Here are some suggestions:
 
-    * To open one of the records, double-click it. It is then displayed in the **Company** screen.
+    * To open one of the records, double-click it. It is then displayed in the Company screen.
 
     * Preview each company in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each company in the **Results** tab to preview them. See [The side panel][4].
 
@@ -183,7 +183,7 @@ Imagine you are going to attend a conference in Denmark. When you are there, you
 
 15. You then decide what you want to use the search results for. Here are some suggestions:
 
-    * To open one of the records, double-click it. It is then displayed in the **Company** screen.
+    * To open one of the records, double-click it. It is then displayed in the Company screen.
 
     * Preview each company in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each company in the **Results** tab to preview them. See [The side panel][4].
 
@@ -212,7 +212,7 @@ Let's assume you are the manager of a company and want to find out what types of
 9. All the results which match the search criteria you have specified are displayed in the **Results** tab.
 
 10. You then decide what you want to use the search results for. Here are some suggestions:
-    * To open one of the records, double-click it. It is then displayed in the **Sale** screen.
+    * To open one of the records, double-click it. It is then displayed in the Sale screen.
 
     * Preview each sale in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each sale in the **Results** tab to preview them. See [The side panel][4].
 
@@ -258,7 +258,7 @@ Imagine that the time for your pay review is approaching and you think you deser
 
 16. You then decide what you want to use the search results for. Here are some suggestions:
 
-    * To open one of the records, double-click it. It is then displayed in the **Project** screen.
+    * To open one of the records, double-click it. It is then displayed in the Project screen.
 
     * Preview each project in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each project in the **Results** tab to preview them. See [The side panel][4].
 
@@ -311,7 +311,7 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 
 20. You then decide what you want to use the search results for. Here are some suggestions:
 
-    * To open one of the records, double-click it. It is then displayed on the **Activities** section tab in the **Company** screen.
+    * To open one of the records, double-click it. It is then displayed on the **Activities** section tab in the Company screen.
 
     * Preview each follow-up in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each follow-up in the **Results** tab to preview them. See [The side panel][4].
 

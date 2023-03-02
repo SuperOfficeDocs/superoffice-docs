@@ -18,7 +18,7 @@ This means you are not allowed to save a person's details forever. As a company,
 To delete multiple records (contacts, companies, sales, projects, and so on), you can create a selection of these records and delete them in one operation.
 
 > [!NOTE]
-> This task is only available for users with administrator access. It is also a task you should think about carefully before performing, because it deletes all selected records permanently, both from the **Selection** screen and from the SuperOffice database.
+> This task is only available for users with administrator access. It is also a task you should think about carefully before performing, because it deletes all selected records permanently, both from the Selection screen and from the SuperOffice database.
 
 ## Determining what and when personal data needs to be deleted
 
@@ -30,7 +30,7 @@ Perhaps you decide that the time for storing personal data will be longer for pe
 
 All these conditions and terms you need to clarify and define as part of your GDPR strategy. It is recommended to seek legal advice on such matters to ensure compliance.
 
-Once you have determined the rules that apply for your company, you can use the Selection functionality and the [SAINT feature][2] in SuperOffice CRM to help you find the contacts that should be deleted, and them mass delete all contacts that you no longer want to keep in the system.
+After you have determined the rules that apply for your company, you can use the Selection functionality and the [SAINT feature][2] in SuperOffice CRM to help you find the contacts that should be deleted, and them mass delete all contacts that you no longer want to keep in the system.
 
 ## Find contacts who should be deleted or reviewed with Selections
 
@@ -47,7 +47,7 @@ You can, for example, create selections of all contacts defined as:
 
 You can search and find contacts that meet more than one criteria, or you can create several selections and then look for the data that is common or different by creating a combined selection.
 
-Selection is a very flexible and powerful tool, once you've mastered how to use it.
+Selection is a very flexible and powerful tool, after you have mastered how to use it.
 
 ## Use SuperOffice SAINT to review your contacts
 

@@ -37,7 +37,7 @@ When you have added wrong or duplicated information, it may be a good idea to de
 
 * [Delete a company and associated data][4]
 * [Delete a contact][5]
-* [Bulk delete contacts and/or companies at once with selection][6]
+* [Bulk delete contacts and/or companies with selection][6]
 
 When you have many contacts or companies you have to delete, the best way to mass delete them, is to add them into a new selection, and use the Delete tasks on the Task menu.
 

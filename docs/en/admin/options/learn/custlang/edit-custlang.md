@@ -25,7 +25,7 @@ language: en
 
 5. In the **Language code** field, enter a short code for the relevant language (or equivalent). The international, two-letter abbreviations are normally used (for example DE, DK, EN, NL, NO and SE).
 
-    <details><summary>Click here to see a complete list.</details>
+    <details><summary>See a complete list.</details>
 
     [!include[Language codes](includes/language-codes.md)]
 

@@ -23,7 +23,7 @@ By defining default values for fields that typically only have one relevant valu
 
 1. **ERP Field**: here you select which field in the ERP system you want to define a default value for.
 
-1. **Set default value**: Check here to set a default value for the ERP field you selected above. Once you have checked here, you set the default value underneath.
+1. **Set default value**: Check here to set a default value for the ERP field you selected above. After you have checked here, you set the default value underneath.
 
 1. **Ask user for value**: check here to allow the user to enter a value.
 

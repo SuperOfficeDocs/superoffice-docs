@@ -2,8 +2,8 @@
 uid: help-en-getting-started
 title: Getting started
 description: Learn how to activating your user account, connect your email and documents, and set your personal preferences.
-author: SuperOffice RnD
-so.date: 02.27.2023
+author: Bergfrid Dias
+so.date: 03.02.2023
 keywords: CRM
 so.topic: concept
 language: en
@@ -11,25 +11,23 @@ language: en
 
 # Getting started
 
-SuperOffice CRM is easy to get started with. It is extremely user-friendly with many new functions to make your working day more productive.
-
-Both new users and previous users of SuperOffice will benefit from reading this user guide. It gives an overview of the facilities and functions in SuperOffice CRM and explains how the program will benefit you and your company.
+SuperOffice CRM is easy to get started with. It is extremely user-friendly with many new functions to make your working day more productive. Both new users and previous users of SuperOffice will benefit from reading this user guide. It gives an overview of the facilities and functions in SuperOffice CRM and explains how the program will benefit you and your company.
 
 ![Go to your personal setting and choose the setting you want to change -screenshot][img1]
 
 ## About SuperOffice CRM
 
-SuperOffice CRM is a web-based system to manage and follow up on all contacts, sales and projects. The core of the system is the **Company** card. All information and communication concerning a company and contacts are stored here: contact details, emails, a phone call conversation or a planned meeting. This ensures that everybody within the organization can have access to the customer information they need. Instead of having their own contacts on their personal computers.
+SuperOffice CRM is a web-based system to manage and follow up on all contacts, sales, and projects. The core of the system is the Company card. All information and communication concerning a company and contacts are stored here: contact details, emails, a phone call conversation or a planned meeting. This ensures that everybody within the organization can have access to the customer information they need. Instead of having their own contacts on their personal computers.
 
-The **Company** card consists of different sub tabs (section tabs) that provides good overview and control of all your contacts, relations, activities and meetings, sales, projects and requests.
+The Company card consists of different sub tabs (section tabs) that provides good overview and control of all your contacts, relations, activities and meetings, sales, projects and requests.
 
-If you also deal with customers that are not (yet) associated with a company, the **Contact** card provides similar features to the **Company** card.
+If you also deal with customers that are not (yet) associated with a company, the Contact card provides similar features to the Company card.
 
-The system also has other modules and functions. For example, there is a **Selection** and **Report** module, where you can make selections and print reports to get an overview of contacts (based on categories, business or other criteria), sales, projects and activities. This is very helpful when you need to keep colleagues up to date on a weekly basis.
+The system also has other modules and functions. For example, there is a Selection and Report module, where you can make selections and print reports to get an overview of contacts (based on categories, business or other criteria), sales, projects and activities. This is very helpful when you need to keep colleagues up to date on a weekly basis.
 
-The **Diary** module helps you with your scheduling, and you can stay in touch with your customers using the **Chat** feature. The **Sale** and **Project** modules provides additional tools for effectively managing your business.
+The Diary module helps you with your scheduling, and you can stay in touch with your customers using the Chat feature. The Sale and Project modules provides additional tools for effectively managing your business.
 
-Within the **Marketing** module you can send a mailing to a specific group of contacts to inform them about upcoming events, company news, campaigns and other product information. Here you can also create forms to be used on your website or customer centre for easier feedback, content management and sign-up.
+Within the Marketing module you can send a mailing to a specific group of contacts to inform them about upcoming events, company news, campaigns and other product information. Here you can also create forms to be used on your website or customer centre for easier feedback, content management and sign-up.
 
 ### The same starting point for many tasks
 
@@ -61,7 +59,7 @@ When all employees in the company use SuperOffice CRM, they have access to all t
 * [Reports][17]
 * [Marketing][18]
 
-You can easily switch between these screens by clicking the buttons in the [Navigator][1]). Access to other useful functions is just a click away with the **New** button (in the [Top bar][2]) and the [global buttons][3].
+You can easily switch between these screens in the [Navigator][1]. Access other useful functions with the **New** button and the [global buttons][3].
 
 ## Settings and maintenance
 
@@ -69,9 +67,9 @@ Settings and maintenance is the administration client for SuperOffice CRM.
 
 The navigator buttons in Settings and maintenance activate their associated functions with a single click, making it easy to navigate quickly between the different parts of the system.
 
-The **App Store** navigator button opens the SuperOffice App Store, where you can explore standard apps, modules and integrations that can expand your SuperOffice CRM.
+Selecting **App Store** opens the SuperOffice App Store, where you can explore standard apps, modules and integrations that can expand your SuperOffice CRM.
 
-Certain features like import and scripting are only available from the [Windows-based administration client (onsite)][1].
+Certain features such as import and scripting are only available from the [Windows-based administration client (onsite)][1].
 
 ### Sections in Settings and maintenance
 
@@ -96,7 +94,7 @@ Certain features like import and scripting are only available from the [Windows-
 * [System design][24]
 * [App Store][41]
 
-You can easily switch between these screens by clicking the buttons in the Navigator.
+You can easily switch between these screens in the Navigator.
 
 To access SOLoader, advanced import, replication, Travel and scripting, see [Windows Client settings][40].
 
@@ -131,8 +129,7 @@ SuperOffice is available as an online application (cloud-based) and as an onsite
 
 <!-- Referenced links -->
 [1]: main-screen/navigator.md
-[2]: main-screen/buttons-in-menu-bar.md
-[3]: main-screen/global-buttons.md
+[3]: main-screen/index.md#global-buttons
 [4]: login.md
 [5]: main-screen/index.md
 [6]: ../../search-options/learn/index.md

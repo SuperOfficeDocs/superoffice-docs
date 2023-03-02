@@ -81,7 +81,7 @@ Use the [free-text search][2] search field in the upper-right corner to search f
 
 ## Use typical searches as a starting point
 
-A typical search is a pre-defined search that we've set up for you, so you can see what other users typically search for. Each data set in the Find screen contains a list of typical searches that are ready to be used.
+A typical search is a pre-defined search that we have set up for you, so you can see what other users typically search for. Each data set in the Find screen contains a list of typical searches that are ready to be used.
 
 A typical search is a great way to start looking for data in SuperOffice CRM. You can find typical searches by clicking underneath the group of data you are interested in. Containing pre-set search criteria, typical searches can be used as they are, modified or expanded.
 
@@ -91,7 +91,7 @@ This search will give you a list of all the activities that you have not complet
 
 ![Click the Find button in the top bar and select typical searches in the drop-down menu -screenshot][img5]
 
-Typical searches are there to help you get started and create your own search of CRM data. After you've selected a typical search, you can add and edit the search criteria. And once you've created a useful search that you'd like to use again, you can save it as a selection.
+Typical searches are there to help you get started and create your own search of CRM data. After you have selected a typical search, you can add and edit the search criteria. And after you have created a useful search that you'd like to use again, you can save it as a selection.
 
 Watch this video to learn how to do a typical search and modify it by adding new search criteria or follow the step-by-step guide below (video length – 3:01):
 
@@ -108,7 +108,7 @@ A selection is a great tool to extract useful information from your CRM database
 
 For example, as a sales manager, you may want to see a list of all sales over €5,000 that are ready to be closed each month. Or maybe you are a consultant and want a list of all the projects you are involved in. Or, you work in marketing and need a list of all customers that have signed up for your monthly newsletter.
 
-Creating a selection starts by performing a search. You can use a typical search and/or build your own search by adding the search criteria you need. Once you've found the information you were looking for, you can save your search results as a selection.
+Creating a selection starts by performing a search. You can use a typical search and/or build your own search by adding the search criteria you need. After you have found the information you were looking for, you can save your search results as a selection.
 
 There are three ways to save you search results as selection:
 

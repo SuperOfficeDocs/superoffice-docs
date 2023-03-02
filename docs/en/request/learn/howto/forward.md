@@ -40,7 +40,7 @@ In the request lists, you can forward multiple requests at the same time.
 
 5. Check the recipient(s) you want, and click **To**, **Cc** or **Bcc**, depending on which recipient field you want to put them in. The recipients are displayed in the list which appears underneath.
 
-6. If you check **Close request**, the requests are closed once they are forwarded.
+6. If you check **Close request**, the requests are closed after they are forwarded.
 
 7. Under **Comment**, you can enter a comment, which will then be added both to the email message and to the request as an internal message.
 

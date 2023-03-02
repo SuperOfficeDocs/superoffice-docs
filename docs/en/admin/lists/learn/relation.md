@@ -11,7 +11,7 @@ language: en
 
 # General - Relation
 
-Relations are displayed in the **Relations** section tab in the **Company** screen in SuperOffice CRM. The **Relations** section tab displays any connections existing between contacts. For example, information about ownership structure or about people who have been employed in different companies.
+Relations are displayed in the **Relations** section tab in the Company screen in SuperOffice CRM. The **Relations** section tab displays any connections existing between contacts. For example, information about ownership structure or about people who have been employed in different companies.
 
 ## What would you like to do now?
 

@@ -42,7 +42,7 @@ After you create an extra table, you must set up fields in the table, to allow y
 | Default value | The default value is used for this field. |
 | Description | The default description. |
 | Display value | Specify whether to display the value. |
-| External | If checked, the field is available from a customer centre. Relevant only for default tables, since extra tables are always displayed in customer centres. |
+| External | If checked, the field is available from a customer centre. Relevant only for default tables, because extra tables are always displayed in customer centres. |
 | Header for list | This field is used to specify a header for these entries when they are displayed as "sub-entries" in a list. In our example, this means the name of the new tab in the **View contact** screen, so we enter "Computers" here. |
 | Hide function buttons | (relations) Select this option to hide the function for adding new entries to relation tables. |
 | Hide the field | Specify whether to display the field. |

@@ -21,7 +21,7 @@ You need to [set up your chat widget][3] before you add it to your Customer cent
 
 To connect the chat widget to your Customer centre you need to log into the Settings and maintenance module in SuperOffice CRM or open the Customer centre config page in the System settings menu in the SuperOffice Service module.
 
-1. Once you are in the Customer centre page, open the **Options** tab.
+1. After you are in the Customer centre page, open the **Options** tab.
 
 1. Scroll down the list of options and check the box **Enable chat**.
 

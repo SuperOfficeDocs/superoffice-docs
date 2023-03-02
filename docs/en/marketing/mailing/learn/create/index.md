@@ -61,7 +61,7 @@ If you use Google Analytics to analyze traffic and user behavior on your website
 
 ## Send a mailing
 
-In step three, you can [test your mailing by][10] sending it to yourself and/or your colleagues to review the content you've added. This way you can make sure you are a 100 percent happy with your mailing before you dispatch it.
+In step three, you can [test your mailing by][10] sending it to yourself and/or your colleagues to review the content you have added. This way you can make sure you are a 100 percent happy with your mailing before you dispatch it.
 
 In step four you are ready to [add your target list][11] containing the recipients to your mailing.
 

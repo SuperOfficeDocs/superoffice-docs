@@ -10,7 +10,7 @@ language: en
 ---
 # Get your users on board
 
-A CRM system is only successful if it is used by the people it was intended for. To help you manage the changes within your organization that an introduction of a CRM system entails, and maximize the CRM user adoption rate, we've gathered a few tips that'll help you get users on board.
+A CRM system is only successful if it is used by the people it was intended for. To help you manage the changes within your organization that an introduction of a CRM system entails, and maximize the CRM user adoption rate, we have gathered a few tips that'll help you get users on board.
 
 ## Tips and best practices
 

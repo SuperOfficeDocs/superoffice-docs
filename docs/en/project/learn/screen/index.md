@@ -11,7 +11,7 @@ language: en
 
 # Project screen
 
-The **Project** screen contains information about the projects entered into SuperOffice CRM. Each project is displayed like an index card, showing all information about that project.
+The Project screen contains information about the projects entered into SuperOffice CRM. Each project is displayed like an index card, showing all information about that project.
 
 ![Project screen -screenshot][img3]
 
@@ -56,7 +56,7 @@ Three of the user-defined fields from the **More** tab can also be displayed in 
 
 ## Section tabs in the Project screen
 
-The lower part of the **Project** screen consists of section tabs.
+The lower part of the Project screen consists of section tabs.
 
 * [Project guide][4] (if one is defined for the current project type)
 * [Project members][5]

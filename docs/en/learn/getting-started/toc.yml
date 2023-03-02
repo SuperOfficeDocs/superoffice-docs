@@ -2,35 +2,21 @@ items:
 - name: Overview
   href: index.md
 - name: The layout elements
-  href: main-screen/index.md
-  items:
-  - name: Navigator
-    href: main-screen/navigator.md
-  - name: Buttons on the top bar
-    href: main-screen/buttons-in-menu-bar.md
-  - name: Global buttons
-    href: main-screen/global-buttons.md
-  - name: Side panels
-    href: main-screen/side-panel.md
-  - name: Resize screen elements
-    href: resizing-screen-elements.md
-  - name: Note and Notepad
-    href: notes.md
+  href: main-screen/toc.yml
 - name: Log in
   href: login.md
 - name: Preferences
   href: preferences.md
 - name: WebTools
-  href: ../../webtools/learn/index.md
-  items:
-  - name: Install
-    href: ../../webtools/learn/install.md
+  href: ../../webtools/learn/toc.yml
 - name: Edit email signature
   href: edit-email-signature.md
 - name: Connect email and documents
   href: connect-email-and-documents.md
 - name: Organize and filter your archives
   href: archives.md
+- name: Note and Notepad
+  href: notes.md
 - name: Recycle bin
   href: recycle-bin.md
 - name: Mobile access

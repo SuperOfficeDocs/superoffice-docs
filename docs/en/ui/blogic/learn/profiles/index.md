@@ -17,8 +17,8 @@ Profiles in the system are used for configuring the appearance and behavior of s
 
 For example:
 
-* Move or add columns in the list of requests in the **Contact** screen
-* Add or remove fields in the **Request** screen header (also **Contact** and **Company** screen headers)
+* Move or add columns in the list of requests in the Contact screen
+* Add or remove fields in the Request screen header (also **Contact** and Company screen headers)
 * Customize the search results screen to your needs
 
 Each screen element can have personal, common and global profiles.

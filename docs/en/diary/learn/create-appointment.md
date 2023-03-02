@@ -35,7 +35,7 @@ Do one of the following:
 
 * Right-click a time in the Diary and select **New**. The follow-ups dialog is displayed with a default duration for the follow-up.
 
-* Double-click an empty line in the **Activities** section tab at the bottom of the **Diary** screen.
+* Double-click an empty line in the **Activities** section tab at the bottom of the Diary screen.
 
 * Click **New** in the top bar and select **Appointment**, **Phone Call** or **Task**.
 

@@ -38,7 +38,7 @@ Shows the database owner, serial number, and type, which are specified on instal
 
 Click this button to open the dashboard for your metered services.
 
-Metered services are services that are invoiced once you exceed a certain level/number of
+Metered services are services that are invoiced after you exceed a certain level/number of
 
 * Storage space used
 * Emails sent via Mailings

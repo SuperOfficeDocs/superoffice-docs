@@ -13,7 +13,7 @@ language: en
 
 In the **Preferences** tab in the **Edit users** screen, you can edit the following details for your own user profile:
 
-* **Default status for new request**: Here you choose the default status to appear in the **Request** screen.
+* **Default status for new request**: Here you choose the default status to appear in the Request screen.
 
 * **Default status for new message**: Here you choose the default status for a new message.
 
@@ -21,11 +21,11 @@ In the **Preferences** tab in the **Edit users** screen, you can edit the follow
 
 * **Automatically quote the last message**: If checked, the last message in the request is automatically pasted into a new message.
 
-* **Only show open requests in my favorites list**: If checked, only open requests are shown in your favorites list. This is not recommended since, if you [transfer a request][1] to another request handler and this person closes the request, it disappears from your favorites list without you being notified.
+* **Only show open requests in my favorites list**: If checked, only open requests are shown in your favorites list. This is not recommended because, if you [transfer a request][1] to another request handler and this person closes the request, it disappears from your favorites list without you being notified.
 
 * **Show only own categories**: If checked, you can select only categories you are a member of.
 
-* **Use last category**: If checked, the default category in the **Request** screen is the same as last time.
+* **Use last category**: If checked, the default category in the Request screen is the same as last time.
 
 * **Default category**: Check this option and select the default category when you register a request.
 
@@ -40,7 +40,7 @@ In the **Preferences** tab in the **Edit users** screen, you can edit the follow
   * **Yourself**: Selecting this option makes you the default owner of all requests you create.
 
     > [!TIP]
-    > You can override this choice in the **Request** screen.
+    > You can override this choice in the Request screen.
 
 <!-- Referenced links -->
 [1]: ../../../../request/learn/howto/transfer.md

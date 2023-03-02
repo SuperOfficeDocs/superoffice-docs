@@ -11,12 +11,12 @@ language: en
 
 # User-defined fields
 
-Several sections of SuperOffice CRM, for example, the **Company** screen, contain a separate tab called **More**. Here you can enter your own fields to customize the program to your organization's requirements. These fields are defined in SuperOffice Settings and maintenance.
+Several sections of SuperOffice CRM, for example, the Company screen, contain a separate tab called **More**. Here you can enter your own fields to customize the program to your organization's requirements. These fields are defined in SuperOffice Settings and maintenance.
 
 All companies and organizations have their own requirements for the information they need to register concerning their customers, sales, projects, contracts, and so on. You can enter your own fields for SuperOffice CRM in the **Fields** screen. This way, you can customize the type of information that can be registered concerning companies, contacts, projects, sales, documents and follow-ups.
 
 > [!NOTE]
-> You can specify 3 fields that can be displayed on the "first page" in their respective screens or dialogs. [How][1]. Please note that this may not be applicable if you are using another layout via [Screen designer][8].
+> You can specify 3 fields that can be displayed on the "first page" in their respective screens or dialogs. [How][1]. Please note that this may not be applicable if you are using another layout via the [Screen designer][8].
 
 ## <a id="field-types" />Field types
 
@@ -49,7 +49,7 @@ You can specify *page 1 fields* (fields displayed on the "first page" in their r
 
 Your company sells software and user support services. The user support department needs to know how many employees and PCs the various customers have. They also need to know what sort of maintenance agreement the customers have and when they expire.
 
-You can then add these fields to the **Company** screen:
+You can then add these fields to the Company screen:
 
 | Field name | Type | Description |
 |---|---|---|
@@ -60,13 +60,13 @@ You can then add these fields to the **Company** screen:
 | Application A; Application B; Application C | Checkbox | Three checkboxes where you can check the applications that the customer has purchased. |
 
 > [!NOTE]
-> The fields you add are displayed in the **More** tab in the **Company** screen. To display them on the company card, [specify them as *page 1 fields*][1].
+> The fields you add are displayed in the **More** tab in the Company screen. To display them on the company card, [specify them as *page 1 fields*][1].
 
 ### User-defined fields for sales
 
 When you create a sale, it may be practical to enter the products you have sold and how many.
 
-You can then add these fields to the **Sale** screen:
+You can then add these fields to the Sale screen:
 
 | Field name | Type | Description |
 |---|---|---|
@@ -80,7 +80,7 @@ You can then add these fields to the **Sale** screen:
 
 You want the budget for a project to be easily visible to the project members.
 
-You can then add these fields to the **Project** screen:
+You can then add these fields to the Project screen:
 
 | Field name | Type | Description | Remarks |
 |---|---|---|---|

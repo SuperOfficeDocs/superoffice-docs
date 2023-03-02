@@ -179,7 +179,7 @@ When editing reply templates and mailings, you can insert template variables by 
 
 ## Variables for reply templates (user) (only SuperOffice Service)
 
-Please note that these variables will not work for automated replies sent by the system, since such replies are not linked to a user.
+Please note that these variables will not work for automated replies sent by the system, because such replies are not linked to a user.
 
 | Variable | Description|
 |---|---|

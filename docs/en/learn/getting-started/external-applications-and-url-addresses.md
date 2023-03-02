@@ -27,8 +27,8 @@ Linked applications and URL addresses that you have access to in SuperOffice CRM
 > [!NOTE]
 > Tools must be configured in SuperOffice Settings and maintenance.
 
-* Via the **WWW** tab in the **Company** screen (configured in SuperOffice Settings and maintenance): URL addresses can be displayed at the top of the **WWW** tab in the form of links that you can click to open the appropriate address.
-* Via extra section tabs in the **Company** and **Project** screens: You can add a URL address as an extra section tab to the **Company**, **Contact**, **Project** and/or **Sale** screens. You then open the URL address by clicking the tab itself.
+* Via the **WWW** tab in the Company screen (configured in SuperOffice Settings and maintenance): URL addresses can be displayed at the top of the **WWW** tab in the form of links that you can click to open the appropriate address.
+* Via extra section tabs in the Company and Project screens: You can add a URL address as an extra section tab to the Company, Contact, Project, and/or Sale screens. You then open the URL address by clicking the tab itself.
 
 <!-- Referenced links -->
 

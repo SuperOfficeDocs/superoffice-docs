@@ -22,7 +22,7 @@ The priority assigned to a case can be determined by, for example:
 * The mailbox
 * An email filter
 
-Once a request is assigned a priority, the priority can be used to control any escalation of the request.
+After a request is assigned a priority, the priority can be used to control any escalation of the request.
 
 For example: You can specify that requests from a specific company should have VIP priority and that you should be notified by email if the request has not been read by a specified deadline.
 
@@ -48,7 +48,7 @@ For example, user-support and SLA agreements specify that the supplier must begi
 
 Each priority has an accessibility property associated with it. If the request's priority is set to **External**, the priority will be accessible via SuperOffice Customer Centre.
 
-If more than two priorities are accessible externally, the customer can select which priority should apply to the request. This may cause the request to be given a higher priority than necessary, since the customer will want to get a reply as quickly as possible and is likely to select the highest available priority. The highest priorities should therefore be set to **Internal**, while **Medium** and **Low** priorities are made accessible externally.
+If more than two priorities are accessible externally, the customer can select which priority should apply to the request. This may cause the request to be given a higher priority than necessary, because the customer will want to get a reply as quickly as possible and is likely to select the highest available priority. The highest priorities should therefore be set to **Internal**, while **Medium** and **Low** priorities are made accessible externally.
 
 ## What do you want to do now?
 

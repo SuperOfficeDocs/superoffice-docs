@@ -18,7 +18,7 @@ Watch this video and find out how to add and edit purposes for processing person
 
 ## Steps
 
-1. Go to **Settings and maintenance** and click the **Privacy** button in the Navigator (![icon][img2]).
+1. Go to Settings and maintenance and click the **Privacy** button in the Navigator (![icon][img2]).
 
 2. Click **Add** below the list of purposes.
 
@@ -30,7 +30,7 @@ Watch this video and find out how to add and edit purposes for processing person
 
     * **Purpose ID**: An ID is automatically generated from the name of the purpose, but you can edit the ID later. Please note that some IDs are reserved.
 
-    * **Active**: Click here to activate this purpose and make it visible to users.
+    * **Active**: Used to activate this purpose and make it visible to users.
 
     * **External privacy statement**: The name/title of the privacy statement link. This text is used on a web page where customers can manage their subscriptions.
 

@@ -17,7 +17,7 @@ The diary in SuperOffice CRM is used much like a filofax and has separate pages 
 
 The diary is a useful tool when you want to plan and perform different types of tasks. From the diary, you can view, edit and delete [activities][16].
 
-You also get a [list of sales][13] to work on, using the **Sales** section tab in the **Diary** screen.
+You also get a [list of sales][13] to work on, using the **Sales** section tab in the Diary screen.
 
 Regular use of the diary helps you to automatically connect and share appointments and activities linked to a contact or a company, allowing you and your team to effortlessly stay on track and work productively.
 
@@ -27,12 +27,12 @@ In SuperOffice CRM, follow-up is a collective term for the [appointment][1], [ta
 
 > [!NOTE]
 > It is important to understand the distinction between activities and follow-ups (appointments, tasks and phone calls).
-When you create follow-ups from the **Diary** screen, by default they are defined as appointments. However, you can change the follow-up type to task or phone call in the type field in the [**Appointment** dialog][22].
+When you create follow-ups from the Diary screen, by default they are defined as appointments. However, you can change the follow-up type to task or phone call in the type field in the [**Appointment** dialog][22].
 
-Follow-ups are closely linked to the **Diary** screen, and some functions apply especially to the Diary.
+Follow-ups are closely linked to the Diary screen, and some functions apply especially to the Diary.
 
 > [!TIP]
-> In SuperOffice Settings and maintenance, you can define that all follow-ups of a specific type should be displayed in the **Diary** screen in SuperOffice CRM with the same background color.
+> In SuperOffice Settings and maintenance, you can define that all follow-ups of a specific type should be displayed in the Diary screen in SuperOffice CRM with the same background color.
 
 ## What would you like to do now?
 

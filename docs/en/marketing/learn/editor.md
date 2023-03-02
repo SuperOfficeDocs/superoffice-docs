@@ -75,9 +75,9 @@ From the global menu, you can preview, undo or repeat actions, and se how the me
 
 | Icon | Name | Function |
 |:-:|---|---|
-| ![icon][img11] | Undo/Redo | Click here to undo the last action or redo an undone action. |
-| ![icon][img2] | Preview | Click here to preview the message on a desktop or mobile display. |
-| ![icon][img3], ![icon][img4] | Toggle showing for desktop or mobile devices | Click here to see what the appearance is like on a desktop or smart phone. |
+| ![icon][img11] | Undo/Redo | Undoes the last action or redoes an undone action. |
+| ![icon][img2] | Preview | Opens a preview of the message on a desktop or mobile display. |
+| ![icon][img3], ![icon][img4] | Toggle showing for desktop or mobile devices | Used to see what the appearance is like on a desktop or smart phone. |
 
 ### Context menu
 
@@ -85,11 +85,11 @@ When you click a section in a message, you get access to various functions for t
 
 | Icon | Name | Function |
 |:-:|---|---|
-| ![icon][img5] | Add row | Click here to add a row below or above the selected section. |
+| ![icon][img5] | Add row | Adds a row below or above the selected section. |
 | ![icon][img6] | Move | Click and drag to move the section. |
-| ![icon][img7] | Delete | Click here to delete the section. |
-| ![icon][img8] | Duplicate | Click here to create a copy of the section. |
-| ![icon][img9] | Save block | Click here to save the selected section as a block. Lets you reuse content (like headers and footers) across messages. |
+| ![icon][img7] | Delete | Deletes the section. |
+| ![icon][img8] | Duplicate | Creates a copy of the section. |
+| ![icon][img9] | Save block | Saves the selected section as a block. Lets you reuse content (like headers and footers) across messages. |
 
 ## <a id="variables" />Template variables
 

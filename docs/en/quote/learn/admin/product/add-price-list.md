@@ -53,7 +53,7 @@ Customizing price lists helps your salespeople use the correct price details wit
 1. Click **OK**.
 
     > [!NOTE]
-    > Once the price list is created, you may no longer change its currency and validity.
+    > After the price list is created, you may no longer change its currency and validity.
 
 ## What would you like to do now?
 

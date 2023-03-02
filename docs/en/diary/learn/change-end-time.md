@@ -13,7 +13,7 @@ language: en
 
 [!include[Note](includes/note-edit-followup.md)]
 
-In the **Diary** screen, you can change the end time for a follow-up without having to open it:
+In the Diary screen, you can change the end time for a follow-up without having to open it:
 
 1. Click the follow-up in the **Day** tab, **Week** tab or **View** tab.
 

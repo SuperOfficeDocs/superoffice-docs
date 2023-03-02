@@ -3,7 +3,7 @@ title: Guides for SuperOffice CRM
 uid: help-en-start
 description: Start page for SuperOffice CRM guides
 author: Bergfrid Dias
-so.date: 02.21.2023
+so.date: 03.02.2023
 keywords: user guide, help
 so.topic: concept
 so.version: 10
@@ -14,11 +14,9 @@ so.client:
 
 # Guides for SuperOffice CRM
 
-## A platform for revenue growth
-
 SuperOffice CRM is your one platform for business growth. With all standard applications connected to the same customer base, SuperOffice CRM combines all your customer-facing processes – sales, marketing and customer service – into one technology stack.
 
-Organize all your marketing, sales, and customer service activities in one place. Since all customer-related information is stored in SuperOffice CRM solution, every user in your company will always get a 360-degree view of every prospect or customer. This will help you offer more relevant, personalized and timely communications and service.
+Organize all your marketing, sales, and customer service activities in one place. because all customer-related information is stored in SuperOffice CRM solution, every user in your company will always get a 360-degree view of every prospect or customer. This will help you offer more relevant, personalized and timely communications and service.
 
 Watch this video to get a quick overview of what SuperOffice CRM can do for your business (video length - 2:15):
 
@@ -55,7 +53,7 @@ Settings and maintenance is the administration module for SuperOffice CRM. The n
 
 You can use SuperOffice CRM right out of the box. You do not have to make any changes or customize it, to use it.
 
-However, when you've developed your own routines, your unique way of working, we understand that you may want to implement these processes in your CRM solution.
+However, when you have developed your own routines, your unique way of working, we understand that you may want to implement these processes in your CRM solution.
 
 Customizing SuperOffice CRM to the way your team works will help them get familiar with and adopt your CRM solution quicker. When the system supports your users in their daily work, they are more likely to embrace it.
 

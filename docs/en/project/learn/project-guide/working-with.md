@@ -29,7 +29,7 @@ If a project guide is defined for a project type that you specify for a project,
     > [!TIP]
     > To create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog][2] opens.
 
-4. Once all the required follow-ups and documents for a project status are completed, you move on to the next status.
+4. After all the required follow-ups and documents for a project status are completed, you move on to the next status.
 
     > [!NOTE]
     > If you wish, you can go to the next status without creating or performing all the follow-ups/documents in a status.
@@ -88,12 +88,12 @@ You record a new project and select the **Conference** project type, which is li
     2. Complete the rest of the information in the fields in the **Document** dialog.
     3. Click the **Create** button to create and save the memo.
 
-3. Once the meeting has taken place and the conference programme is ready, you want to confirm this in the project guide and move on to the next project status.
+3. After the meeting has taken place and the conference programme is ready, you want to confirm this in the project guide and move on to the next project status.
 
     In the project guide, check the box next to the **Planning meeting** follow-up.
 
     > [!TIP]
-    > You can also do this from the activities list in, for example, the **Diary** and the **Company** screens.
+    > You can also do this from the activities list in, for example, the Diary and the Company screens.
 
     1. The **Project guide - move the project to the next status** dialog opens.
     2. In this dialog, you are asked if you want to move the project to the next status, which is **In progress**.
@@ -118,7 +118,7 @@ You record a new project and select the **Conference** project type, which is li
 
     3. Enter the required information and click **Save**. (In the **Details** tab, you can see that your colleague is already defined as the owner.)
 
-    4. The follow-up is displayed in your colleague's diary, and once they have sett up the list, they will mark the follow-up as **Completed**.
+    4. The follow-up is displayed in your colleague's diary, and after they have sett up the list, they will mark the follow-up as **Completed**.
 
         > [!NOTE]
         > The **Assign task to project member** dialog opens because that is what is defined in SuperOffice Settings and maintenance.
@@ -151,7 +151,7 @@ You record a new project and select the **Conference** project type, which is li
 
     Click **Create** next to the **Evaluation report** document to create the document.
 
-Once all the required follow-ups and documents for the project are completed, you can set the project status to completed.
+After all the required follow-ups and documents for the project are completed, you can set the project status to completed.
 
 <!-- Referenced links -->
 [1]: ../../../document/learn/screen/index.md

@@ -96,8 +96,8 @@ Here you type in the message you want to add to the request. This works in the s
 
 The section at the bottom contains the following options:
 
-* ![icon][img2] – Click here to show or hide the toolbar in the message editor
-* ![icon][img3] – Click here to show the attachments options. Here you can add relevant documents as attachments to the request.
+* ![icon][img2] – Shows or hides the toolbar in the message editor
+* ![icon][img3] – Shows the attachments options. Here you can add relevant documents as attachments to the request.
   * Click **Upload files (or drag here)** to browse to and add a file from a disk or server.
   * Drag and drop a file from Windows Explorer to the attachments field.
   * Click **Choose a CRM document** to select a document in SuperOffice CRM.

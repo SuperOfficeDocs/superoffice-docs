@@ -20,7 +20,7 @@ language: en
 * [Favorites][14]
 * [Flagged messages][15]
 
-When you double-click a row in the [search results screen][13], you are taken to the **Request** screen.
+When you double-click a row in the [search results screen][13], you are taken to the Request screen.
 
 ## <a id="customers" />Customers
 

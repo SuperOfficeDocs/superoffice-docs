@@ -61,8 +61,8 @@ At the bottom of the **Criteria** screen, you have the following options:
 
 * **Clear search fields**: When you click this button, the values entered in the fields in the search screen are cleared. This is a quick way of emptying all the fields.
 * **Restore default**: When you click this button, all the [criteria you have added](#add-search-criteria) are removed.
-* **Save as selection**: Click here to [create a selection consisting of the records that meet the specified criteria][6].
-* **Advanced view**: Click here for access to more [advanced search options](#use-advanced-view).
+* **Save as selection**: Used to [create a selection consisting of the records that meet the specified criteria][6].
+* **Advanced view**: Opens more [advanced search options](#use-advanced-view).
 
 ## Add search criteria
 
@@ -86,8 +86,8 @@ You can also open a record by double-clicking the relevant row.
 
 If you click one of the column headings below **Result**, you get the following options:
 
-* **Sort ascending**: Clicking here sorts the records in ascending order, for example, alphabetically if the column contains text, based on the column in question.
-* **Sort descending**: Click here to sort the records in descending order, based on the column in question. If the column contains numbers (such as ID numbers), the highest is displayed at the top.
+* **Sort ascending**: Sorts the records in ascending order, for example, alphabetically if the column contains text, based on the column in question.
+* **Sort descending**: Sorts the records in descending order, based on the column in question. If the column contains numbers (such as ID numbers), the highest is displayed at the top.
 * **Group by**: For example, if you have the "Category" column containing the values "Sales", "Support" and "Invoices", the records are divided into three groups with these headings.
 * **Functions**: If you click here you can choose between **Mathematical functions** and **Statistical functions**. An example of a mathematical function is summing a column consisting of numerical values. With regard to statistical functions, you can, for example, [add a column][7] showing request response times, and then use the **Average** statistical function to display the average response time for the displayed requests. If, instead, you select **Remove functions**, you remove any previously specified functions.
 
@@ -99,7 +99,7 @@ At the upper right corner of the search results list are the following buttons:
 
 Under the list, you can click ![icon][img2] to access the following options:
 
-* **Export**: Click here to export the list under **Result** to a file. You can choose from these formats: Excel, HTML and plain text.
+* **Export**: Used to export the list under **Result** to a file. You can choose from these formats: Excel, HTML and plain text.
 * **Batch management**: If you select one or more records in the list, you can click this button and select an action to perform on all the selected records simultaneously.
 
 ## The preview section

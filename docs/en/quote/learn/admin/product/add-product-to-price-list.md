@@ -12,9 +12,9 @@ language: en
 
 # Add product to a price list
 
-Once you've added your price list to SuperOffice Quote, you want to populate it with your products, so your salespeople can use them when they create a new sales proposal.
+After you have added your price list to SuperOffice Quote, you want to populate it with your products, so your salespeople can use them when they create a new sales proposal.
 
-Once your products and the product information are added, your salespeople can use the same price details and follow the discount guidelines you have set up.
+After your products and the product information are added, your salespeople can use the same price details and follow the discount guidelines you have set up.
 
 ![You can add as many products and services to your price list as you need -screenshot][img2]
 

@@ -15,7 +15,7 @@ You use search criteria to define what you are looking for, for example "compani
 
 Everywhere you can enter search criteria, you will find a criteria list containing the selected search criteria.
 
-Typical searches are there to help you get started and create your own search of CRM data. After you've selected a typical search, you can add and edit the search criteria. And once you've created a useful search that you'd like to use again, you can save it as a selection.
+Typical searches are there to help you get started and create your own search of CRM data. After you have selected a typical search, you can add and edit the search criteria. And after you have created a useful search that you'd like to use again, you can save it as a selection.
 
 Watch this video to learn how to do a typical search and modify it by adding new search criteria or follow the step-by-step guide below (video length – 3:01):
 
@@ -46,7 +46,7 @@ Watch this video to learn how to do a typical search and modify it by adding new
 
     * <details><summary>Yes/No field</summary>
 
-        If the field you are searching in is a Yes/No field, for example, the **No mailings** field in the **Company** screen, two radio buttons are displayed. You can choose between **Yes** and **No**.
+        If the field you are searching in is a Yes/No field, for example, the **No mailings** field in the Company screen, two radio buttons are displayed. You can choose between **Yes** and **No**.
 
     </details>
 
@@ -62,7 +62,7 @@ Watch this video to learn how to do a typical search and modify it by adding new
 
     * <details><summary>Number field</summary>
 
-        If the field you are searching in contains a numerical value, for example, the **Amount** field in the **Sale** screen, a list box is displayed containing the following options:
+        If the field you are searching in contains a numerical value, for example, the **Amount** field in the Sale screen, a list box is displayed containing the following options:
 
         [!include[Search criteria](../../learn/includes/table-number-criteria.md)]
 
@@ -72,7 +72,7 @@ Watch this video to learn how to do a typical search and modify it by adding new
 
     * <details><summary>List field</summary>
 
-        If the field you are searching in is a field containing lists, for example, the **Business** field in the **Company** screen, a list box appears with the options **Is one of** and **Is not one of**.
+        If the field you are searching in is a field containing lists, for example, the **Business** field in the Company screen, a list box appears with the options **Is one of** and **Is not one of**.
 
         Click the **Select items** field to display the list of values.
 
@@ -96,7 +96,7 @@ Watch this video to learn how to do a typical search and modify it by adding new
 
         Counters can be, for example, the number of sales in a period or the date of the last completed sale.
 
-        <details><summary>Click here to see some examples of statuses.</summary>
+        <details><summary>See examples of statuses.</summary>
 
         [!include[Examples](../../learn/includes/status-examples.md)]
         </details>

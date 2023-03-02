@@ -27,7 +27,7 @@ When you [create your target list][1] for your next mailing, you can make a sele
 
 ## Choose a subscription type
 
-There are multiple ways of creating your target list using a selection. This means that you might not always use a subscription type as a selection criterion. When you do this, it is easy to lose sight of the fact that you've added the people who said "no" to receiving your mailings to your target list.
+There are multiple ways of creating your target list using a selection. This means that you might not always use a subscription type as a selection criterion. When you do this, it is easy to lose sight of the fact that you have added the people who said "no" to receiving your mailings to your target list.
 
 To prevent you from sending mailings to people who do not want to receive them, SuperOffice CRM can help you by filtering out the people who have not given you their consent.
 
@@ -35,7 +35,7 @@ When you create a new mailing, the mailing wizard will ask you to add the subscr
 
 ![Choose what type of mailing you are sending out in the setup step. -screenshot][img1]
 
-Once you've added your mailing type, SuperOffice CRM will check every contact you add as a recipient to see whether they have given you their consent to send them this mailing.
+After you have added your mailing type, SuperOffice CRM will check every contact you add as a recipient to see whether they have given you their consent to send them this mailing.
 
 In Step 4 of the Mailing wizard, called Recipients, you can see exactly who has and who hasn't given you their consent. When the feature E-Marketing privacy is turned on, SuperOffice CRM automatically filters out all recipients who haven't opted-in based on their e-marketing consent and active subscriptions.
 
@@ -55,7 +55,7 @@ To learn more, watch the video on how you can set up the privacy settings for GD
 
 ## Use the unsubscribe link
 
-Sometimes, people change their mind about what emails they want to receive. When this happens, they should have the option to opt-out from the type of mailing you've sent them. Therefore, all SuperOffice CRM mailing templates come with an unsubscribe link.
+Sometimes, people change their mind about what emails they want to receive. When this happens, they should have the option to opt-out from the type of mailing you have sent them. Therefore, all SuperOffice CRM mailing templates come with an unsubscribe link.
 
 > [!TIP]
 > To send the email for Manage subscription to a contact, see Send privacy email.

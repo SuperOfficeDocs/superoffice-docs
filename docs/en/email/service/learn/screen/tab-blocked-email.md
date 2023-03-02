@@ -20,9 +20,9 @@ In the **Blocked email** tab is a list of inbound emails blocked by an email fil
 
 The following options are also available from the **Actions** button (![icon][img2]):
 
-* **Export**: Click here to export the list to a file. You can choose from these formats: Excel, HTML and plain text.
-* **Import**: Click here to import the selected emails. The email filter that blocked the email will then be ignored, but other email filters may be enabled.
-* **Delete**: Click here to delete the selected blocked emails.
+* **Export**: Used to export the list to a file. You can choose from these formats: Excel, HTML and plain text.
+* **Import**: Used to import the selected emails. The email filter that blocked the email will then be ignored, but other email filters may be enabled.
+* **Delete**: Used to delete the selected blocked emails.
 
 <!-- Referenced links -->
 

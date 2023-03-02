@@ -33,7 +33,7 @@ Invite a contact to an appointment from the participants tab by clicking the **A
     * If you selected **Associates** or **Resource** in step 3, you can choose **All** in the list box to display the associates or resources in all groups.
     * If you selected **Company/contact**, **Project** or **Selection** in step 3, you can search for the required company, contact, project or selection from this field.
 
-5. Once you select the required source, a list of all available entries for this source is displayed. Select the users or resources to include in the follow-up and click the arrow button to the right of the list ( ![icon][img2] ). They are then displayed on the right side of the window. You can also select users and resources individually by double-clicking them.
+5. After you select the required source, a list of all available entries for this source is displayed. Select the users or resources to include in the follow-up and click the arrow button to the right of the list ( ![icon][img2] ). They are then displayed on the right side of the window. You can also select users and resources individually by double-clicking them.
 
     > [!NOTE]
     > If any of the people are busy at the time you specified, their name is shown in red, so you can easily see if you should find a different time for the follow-up. You can still invite them to this new appointment, and their entry will then be shown in red with the word "CONFLICT" in the dialog for follow-ups.
@@ -62,7 +62,7 @@ Using the SuperOffice Inbox: If you have not entered the requisite information i
 
 External participants are notified via email (if you selected this alternative in the invitation dialog). Invitation emails sent to external contacts will contain an iCal file (.ics) with the invitation data. When they respond to your invitation, the [status][1] will automatically be updated in SuperOffice.
 
-To manually accept or decline an invitation on behalf of someone, select the name in the list and click the **Toggle Status** button once to insert a green tick to show that the invitation was accepted, or click twice to insert a red cross for a declined invitation.
+To manually accept or decline an invitation on behalf of someone, select the name in the list and click the **Toggle Status** button one time to insert a green tick to show that the invitation was accepted, or click twice to insert a red cross for a declined invitation.
 
 ## Related content
 

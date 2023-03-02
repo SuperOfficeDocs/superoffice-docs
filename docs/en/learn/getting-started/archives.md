@@ -42,7 +42,7 @@ You can filter information in all archives in SuperOffice CRM.
 
 1. Open the archive that contains the information you are looking for.
 
-    ![Click the Settings button on the archive you've selected. -screenshot][img1]
+    ![Click the Settings button on the archive you have selected. -screenshot][img1]
 
 1. Check **Enable filters** at the top of the dialogue that appears. Then click **OK**.
 
@@ -56,11 +56,11 @@ You can filter information in all archives in SuperOffice CRM.
 
     ![Click Filter to set it and show the filtered archive -screenshot][img3]
 
-1. Once you've selected the contact name, activity type, or other, you wish to use, click **Filter**. SuperOffice will now show you all the records that match the filter you've selected. You can add as many filters as you want to use.
+1. After you have selected the contact name, activity type, or other, you wish to use, click **Filter**. SuperOffice will now show you all the records that match the filter you have selected. You can add as many filters as you want to use.
 
     ![See the archive with less entities. It can make it easier to find what you are after -screenshot][img4]
 
-1. To remove a filter you've selected, you click the funnel icon again and click **Clear**. Again, SuperOffice will update the list of records in the archive immediately.
+1. To remove a filter you have selected, you click the funnel icon again and click **Clear**. Again, SuperOffice will update the list of records in the archive immediately.
 
 [Read more][4]
 
@@ -85,7 +85,7 @@ You can group the information in an archive by all the fields/columns in the arc
 
     ![Click the settings button to enable grouping and select Enable grouping -screenshot][img5]
 
-1. Click the **Settings** button on the archive you've selected. Check **Enable** at the top of the dialogue that appears. Then click **OK**.
+1. Click the **Settings** button on the archive you have selected. Check **Enable** at the top of the dialogue that appears. Then click **OK**.
 
     ![A line on top of the archive is now available: Drag a column header and rop it here to group by that column -screenshot][img6]
 
@@ -95,9 +95,9 @@ You can group the information in an archive by all the fields/columns in the arc
 
     For example, if you are looking for a document connected to one of the contacts working for this company, you can drag and drop the Contact column into the bar. Then do the same for the Activity type column.
 
-    SuperOffice will now show you all the records group by and in the order of the columns you've selected. You can add as many columns as you want to use.
+    SuperOffice will now show you all the records group by and in the order of the columns you have selected. You can add as many columns as you want to use.
 
-1. To remove a grouping column you've selected, click the X behind the column. Again, SuperOffice will update the list of records in the archive immediately.
+1. To remove a grouping column you have selected, click the X behind the column. Again, SuperOffice will update the list of records in the archive immediately.
 
     ![Press the X to remove a grouping column -screenshot][img8]
 

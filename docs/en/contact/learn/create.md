@@ -15,16 +15,16 @@ There are many ways you can add contacts to SuperOffice CRM:
 
 * Add a contact from the top bar **or** the Company screen - see steps below.
 * [Scan a business card](#business-card) with the SuperOffice Mobile CRM app.
-* [Bulk import][2] larger numbers of contacts at once (requires Administrator rights).
+* [Bulk import][2] larger numbers of contacts (requires Administrator rights).
 
 ![You can add a contact from the company card in two steps -screenshot][img1]
 
 ## Steps
 
-1. Open the **Contact** screen.
+1. Open the Contact screen.
 
     * Click **New** on the Top bar and select **Contact**.
-    * Or, go to the required company in the **Company** screen, select the **Contacts** section tab, and click the **Add** button below the section tab.
+    * Or, go to the required company in the Company screen, select the **Contacts** section tab, and click the **Add** button below the section tab.
 
 2. In the top section of the tab, you enter the following information:
 
@@ -67,7 +67,7 @@ There are many ways you can add contacts to SuperOffice CRM:
 
 11. After entering the necessary information, click the **Save** button.
 
-    The contact information is then saved in the database and displayed in the contact card. If you linked the contact to a company, the contact will be displayed in the **Contacts** tab in the **Company** screen.
+    The contact information is then saved in the database and displayed in the contact card. If you linked the contact to a company, the contact will be displayed in the **Contacts** tab in the Company screen.
 
 12. Go to the **Relations** section tab. Here you can [add relations][8] between this contact and another contact or company.
 

@@ -59,7 +59,7 @@ You can use FastSearcher in various ways:
     > [!NOTE]
     > Names of regions in the time zone selector will always be in English, while country names depend on the language settings in SuperOffice CRM. Do not forget this when searching for countries and regions.
 
-3. Once you have found the required city or country, click the item to enable the required time zone.
+3. After you have found the required city or country, click the item to enable the required time zone.
 
 <!-- Referenced links -->
 [1]: using-history-list.md

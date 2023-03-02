@@ -31,7 +31,7 @@ All searches in SuperOffice Service, regardless of what you are searching for, a
 
 ## View search results for contacts
 
-Once you have a list of contacts, you will be in a screen containing the following sections:
+After you have a list of contacts, you will be in a screen containing the following sections:
 
 * **Result**: This contains all the contacts that match your search criteria.
 * **Preview**: Displays the requests linked to the contact selected under **Find contacts**.
@@ -49,7 +49,8 @@ Contains a list of contacts that match the criteria specified above. Here you ca
 
 Under the list, you can click the ![icon][img1] menu button to access the following options:
 
-* **Export**: Click here to export the list under **Find contacts** to a file. You can choose from these formats: Excel, HTML and plain text. If the list contains companies or contacts, you can also export it as a static selection to SuperOffice CRM.
+* **Export**: Used to export the list under **Find contacts** to a file. You can choose from these formats: Excel, HTML and plain text. If the list contains companies or contacts, you can also export it as a static selection to SuperOffice CRM.
+
 * **Batch management**: If you select one or more contacts under **Find contacts**, you can click this button and select an action to perform on all the selected contacts simultaneously. For example, you can choose to merge several entries if the same contact has sent emails from different sender addresses (such as j.smith@hotmail.com and j.smith@company.com).
 
 ## Preview

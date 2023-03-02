@@ -15,7 +15,7 @@ You can edit the details in the **Sales role** and **Comment** field for stakeho
 
 ## Update information
 
-1. Go to the required sale in the **Sale** screen. (See [Use the Find screen][1].)
+1. Go to the required sale in the Sale screen. (See [Use the Find screen][1].)
 
 1. Select the **Stakeholders** section tab.
 

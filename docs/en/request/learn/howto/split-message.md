@@ -11,7 +11,7 @@ language: en
 
 # Split message
 
-If a message contains two issues that should be handled separately, you can split the message in two and create a new request with one of the messages. This can be relevant if a message contains both a technical question and an invoice question, since these two issues are handled by two different departments.
+If a message contains two issues that should be handled separately, you can split the message in two and create a new request with one of the messages. This can be relevant if a message contains both a technical question and an invoice question, because these two issues are handled by two different departments.
 
 1. [Open the request][1].
 

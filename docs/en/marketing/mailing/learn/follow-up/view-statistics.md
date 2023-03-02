@@ -29,7 +29,7 @@ When is your mailing successful? This question can be hard to answer if you have
 
 To improve your future mailings, you have to find out what works for your contacts. The easiest way to do this, is to divide the target groups of your first few mailings into two or more groups. Then send them the same mailing, where you change the subject line, your call-to-action or other parts of the mailing.
 
-The statistics from each mailing will show you which mailing performed better, and will give you your benchmark. Then, you can compare any future mailings' results with the benchmark you've set.
+The statistics from each mailing will show you which mailing performed better, and will give you your benchmark. Then, you can compare any future mailings' results with the benchmark you have set.
 
 ## Steps
 
@@ -38,7 +38,7 @@ To view statistics about your mailing, go to the **Mailings** tab and click the 
 > [!TIP]
 > Click the **Refresh** button to update the mailing statistics.
 
-Once your mailing is finished, you can see how your mailing performed in the **Summary** tab.
+After your mailing is finished, you can see how your mailing performed in the **Summary** tab.
 
 ![After mailing is sent, check the Summary tab to get an overview over how well the mailing did -screenshot][img2]
 

@@ -30,7 +30,7 @@ Click **Create** next to the follow-ups and documents to create them. You can al
 ![Create options on project guide -screenshot][img5]
 
 > [!TIP]
-> All follow-ups and documents you create for a project guide are also displayed on the **Activities** section tab in the **Project** screen. This provides you with an overview of all activities linked to the project - both completed and uncompleted activities.
+> All follow-ups and documents you create for a project guide are also displayed on the **Activities** section tab in the Project screen. This provides you with an overview of all activities linked to the project - both completed and uncompleted activities.
 
 After a follow-up or document is created, you can delete or edit it by right-clicking the title of the follow-up/document and selecting from the menu that appears. Equally, you can also create a new follow-up or a new document of the same type.
 

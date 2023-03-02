@@ -11,7 +11,7 @@ language: en
 
 # Create a new company
 
-In the **Company** screen you can enter information about companies on several levels, represented by the three **Company**, **More** and **Interests** tabs. To insert a comment on a company, use the **Note** tab.
+In the Company screen you can enter information about companies on several levels, represented by the three **Company**, **More** and **Interests** tabs. To insert a comment on a company, use the **Note** tab.
 
 Watch this video or follow the steps below.
 
@@ -65,7 +65,7 @@ Watch this video or follow the steps below.
 
     ![Company interests tab -screenshot][img2]
 
-4. When you have entered the required information in all three tabs in the **Company** screen, click **Save**. This will create a company card for the new company.
+4. When you have entered the required information in all three tabs in the Company screen, click **Save**. This will create a company card for the new company.
 
 > [!TIP]
 > Interests can be useful for defining selections. If, for example, you defined *reference account* as an interest, you can create a selection that contains all your reference accounts. This makes it easy to produce a marketing campaign aimed at this customer group.

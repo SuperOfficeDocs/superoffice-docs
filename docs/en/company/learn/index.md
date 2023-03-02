@@ -18,7 +18,7 @@ All information related to a company – be it your customer, partner or supplie
 [!include[Intro](includes/company-screen-intro.md)]
 
 > [!NOTE]
-> [Contacts][1] that are not associated with a company, can be found in the **Contact** screen.
+> [Contacts][1] that are not associated with a company, can be found in the Contact screen.
 
 The bottom of the screen contains the following [default section tabs][8]:
 

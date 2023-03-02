@@ -26,7 +26,7 @@ You need to [create a web form][3] before you add it to your Customer centre. +
 
 To use a web form in your Customer centre you need to either log into the Settings and maintenance module in SuperOffice CRM or open the Customer centre config page in the System settings menu in the SuperOffice Service module.
 
-1. Once you are in the Customer centre page, open the **Options** tab.
+1. After you are in the Customer centre page, open the **Options** tab.
 
 2. Scroll down the list of options and check the Use custom "Contact us" form box.
 
@@ -36,7 +36,7 @@ To use a web form in your Customer centre you need to either log into the Settin
 
     ![Choose the web form you want to use from the form folder -screenshot][img3]
 
-4. Click Save to save your settings. The web form you've added will now be available on the Contact us page.
+4. Click Save to save your settings. The web form you have added will now be available on the Contact us page.
 
 When a customer completes this form, the information and details will automatically be saved in SuperOffice Service as a request under the category and the priority you have defined for this form.
 

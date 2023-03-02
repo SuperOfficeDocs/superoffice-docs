@@ -2,8 +2,8 @@
 | Button | Function | Description |Read more |
 |:-:|---|---|---|
 | ![icon][img1],![icon][img2] | Archive is ON / Archive is OFF | Indicates if the email will be archived when sent. Click the button to enable or disable this setting. The default setting is specified in the **Archive options** pane of the **SuperOffice CRM options** dialog. | [Archive options][3] |
-| ![icon][img3] | Add recipient | Click here to open the **Select recipients** dialog. | [Select recipients][4] |
-| ![icon][img4] | Attach document | Click here to open the **Include attachments** dialog. | [Add SuperOffice documents as attachments][5] |
+| ![icon][img3] | Add recipient | Opens the **Select recipients** dialog. | [Select recipients][4] |
+| ![icon][img4] | Attach document | Opens the **Include attachments** dialog. | [Add SuperOffice documents as attachments][5] |
 | ![icon][img5] | | Click the arrow to the right of the **SuperOffice** button to open the **SuperOffice CRM options** dialog. | [SuperOffice CRM options dialog][6] |
 
 <!-- Referenced links -->

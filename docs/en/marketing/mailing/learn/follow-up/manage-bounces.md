@@ -33,7 +33,7 @@ A **hard bounce** is when your mailing can't be delivered permanently, because t
 
 A **soft bounce** occurs when there is a temporary delivery issue. SuperOffice CRM will try to send the mailing again several times to deliver it when an email bounces. Only when the email can't be delivered after several times, it will be registered as a hard bounce.
 
-Use the filter buttons (Sent, Bounced, and Opened) to [filter you recipients list][1]. Once you've selected all contacts where the mailing bounced, you can gather them in a selection or project using the action menu button in the bottom-left corner.
+Use the filter buttons (Sent, Bounced, and Opened) to [filter you recipients list][1]. After you have selected all contacts where the mailing bounced, you can gather them in a selection or project using the action menu button in the bottom-left corner.
 
 ![Filter your bounced emails and choose what to do with them -screenshot][img2]
 

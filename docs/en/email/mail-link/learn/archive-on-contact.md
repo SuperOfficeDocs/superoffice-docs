@@ -21,7 +21,7 @@ It is possible to archive an email (including any attachments) in your mail clie
 
 2. Click the **Archive email** button on the toolbar, and **Archive email** from the dropdown. If you select more than one email, the procedure below is repeated for each email.
 
-3. If the [sender of the email is not listed in SuperOffice][1], a warning will appear at the top of the dialog for archiving email: **This sender's email address is not recognized. Click here to update SuperOffice with this email address**.
+3. If the [sender of the email is not listed in SuperOffice][1], a warning will appear at the top of the dialog for archiving email: "This sender's email address is not recognized. Click here to update SuperOffice with this email address".
 
 4. In the **Subject** field, the subject from the email is automatically inserted. However, you may enter any subject text that you would like to be shown in the **Activities** section tab of SuperOffice CRM.
 
