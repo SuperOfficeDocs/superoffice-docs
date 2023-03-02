@@ -45,8 +45,8 @@ Everything you want to find out about a contact is available from a single scree
 [5]: merge-contacts.md
 [6]: delete.md
 [7]: send-email.md
-[8]: ../search-options/selections/learn/howto/bulk-update.md
-[9]:
-[10]: ../getting-started/recycle-bin.md
+[8]: ../../search-options/selection/learn/howto/bulk-update.md
+[9]: ../../search-options/selection/learn/howto/mass-delete.md
+[10]: ../../learn/getting-started/recycle-bin.md
 
 <!-- Referenced images -->

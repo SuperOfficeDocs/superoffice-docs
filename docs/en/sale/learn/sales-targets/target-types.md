@@ -101,7 +101,7 @@ To delete a target type, click on the Target settings and click the Delete butto
 [3]: create.md
 
 <!-- Referenced images -->
-[img5]: ../../../../common/icons/cog-wheel.png
+[img5]: ../../../../../common/icons/cog-wheel.png
 [img1]: media/user-targets-new-target-type.png
 [img2]: media/user-targets-add-groups-users.png
 [img3]: media/user-targets-filter-type.png

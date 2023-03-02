@@ -26,4 +26,4 @@ Other identity providers are available on request if they support OpenID Connect
 
 <!-- Referenced links -->
 [1]: ../../document/cloud/g-suite/set-up.md
-[2]: ../../document/cloud/sharepoint-documents/index.html
+[2]: ../../document/cloud/sharepoint-documents/index.md

@@ -50,13 +50,13 @@ On the selection, click on the Task button and select one of the wanted Delete f
 * [Find and selections][8]
 
 <!-- Referenced links -->
-[1]: ../../person/learn/merge-contacts.md
-[2]: ../../person/learn/move.md
-[5]: ../../person/learn/delete.md
+[1]: ../../contact/learn/merge-contacts.md
+[2]: ../../contact/learn/move.md
+[5]: ../../contact/learn/delete.md
 [3]: ../../company/learn/merge-companies.md
 [4]: ../../company/learn/delete.md
-[6]: ../../search-options/selections/learn/howto/mass-delete.md
-[8]: ../../search-options/selections/learn/index.md
+[6]: ../../search-options/selection/learn/howto/mass-delete.md
+[8]: ../../search-options/selection/learn/index.md
 [7]: recycle-bin.md
 
 <!-- Referenced images -->

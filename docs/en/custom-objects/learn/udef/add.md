@@ -6,7 +6,7 @@ author: SuperOffice RnD
 so.date: 02.23.2023
 keywords: udef, user-defined, custom field
 so.topic: howto
-so.user> admin
+so.user: admin
 language: en
 ---
 

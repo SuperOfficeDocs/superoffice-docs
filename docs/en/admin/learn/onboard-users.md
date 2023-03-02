@@ -30,7 +30,7 @@ You can remove all this uncertainty by involving the end-users from the start, b
 
 SuperOffice CRM is supposed to make life easier for your users, not harder. Therefore, tailor the solution to reflect the way your users work and not the other way around. When you implement the workflows that bring results, your CRM solution will be easier to adopt.
 
-Users hate interfaces cluttered with irrelevant information, so leave only the information your team will need today. You can add more later, if needed. In addition, make sure all the users have installed Web Tools.
+Users hate interfaces cluttered with irrelevant information, so leave only the information your team will need today. You can add more later, if needed. In addition, make sure all the users have installed WebTools.
 
 ### Create a routine guide
 

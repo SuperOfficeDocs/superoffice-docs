@@ -120,7 +120,7 @@ In the **Interests** tab you have the following options:
 
 <!-- Referenced links -->
 [1]: ../../learn/getting-started/mobile.md
-[2]: ../../admin/import/index.md
+[2]: ../../admin/import/learn/index.md
 [7]: ../../security/privacy/learn/edit-legal-base.md
 [8]: add-relation.md
 

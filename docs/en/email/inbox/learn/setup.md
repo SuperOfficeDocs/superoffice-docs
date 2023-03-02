@@ -11,7 +11,7 @@ language: en
 
 # Set up SuperOffice Inbox
 
-The SuperOffice Inbox is an alternative way to connect your email to your SuperOffice CRM for email clients that cannot be connected via Web Tools.
+The SuperOffice Inbox is an alternative way to connect your email to your SuperOffice CRM for email clients that cannot be connected via WebTools.
 
 ## Before you begin
 

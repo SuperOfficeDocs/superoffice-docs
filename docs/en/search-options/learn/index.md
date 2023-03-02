@@ -136,7 +136,7 @@ Watch this video or follow the steps below to learn how you can create a search 
 [4]: ../../learn/getting-started/fav.md
 [5]: using-history-list.md
 [6]: using-search-criteria.md
-[7]: ../selections/learn/create/index.md
+[7]: ../selection/learn/create/index.md
 
 <!-- Referenced images -->
 [img1]: media/search-find-fastsearcher.png

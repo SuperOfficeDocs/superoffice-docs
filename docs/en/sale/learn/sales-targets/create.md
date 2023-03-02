@@ -145,13 +145,13 @@ To view the revision history for a sales target (row), click the menu button ![i
 * [Using sales targets in tiles][2]
 
 <!-- Referenced links -->
-[1]: ../../dashboard/learn/index.md
-[2]: ../../dashboard/learn/show-sales-targets.md
+[1]: ../../../dashboard/learn/index.md
+[2]: ../../../dashboard/learn/show-sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu-small.png
-[img2]: ../../../../common/icons/context-menu.png
-[img3]: ../../../../common/icons/lock-on.png
-[img4]: ../../../../common/icons/lock-off.png
+[img1]: ../../../../media/icons/main-menu-small.png
+[img2]: ../../../../../common/icons/context-menu.png
+[img3]: ../../../../../common/icons/lock-on.png
+[img4]: ../../../../../common/icons/lock-off.png
 [img5]: media/user-targets-salestargets.png
 [img6]: media/user-targets-salestargets-adjustnumbers.png

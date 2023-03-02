@@ -6,7 +6,7 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: sale, amount
 so.topic: howto
-so.audience: settings
+so.audience: admin
 so.audience.tooltip: Settings and maintenance
 language: en
 ---

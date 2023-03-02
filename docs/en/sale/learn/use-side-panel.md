@@ -32,9 +32,9 @@ Use the side panel to work in a well-organized and efficient way.
 * [What to do when I get "Document Closed" in the side panel of SuperOffice CRM when Document Viewer is used?][2] - FAQ
 
 <!-- Referenced links -->
-[1]: ../getting-started/main-screen/side-panel.md
+[1]: ../../learn/getting-started/main-screen/side-panel.md
 [2]: https://community.superoffice.com/no/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/
-[3]:
+[3]: forecasting.md
 
 <!-- Referenced images -->
 [img1]: media/getstarted-sidepanel-saleselection.png

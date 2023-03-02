@@ -34,7 +34,7 @@ Ready to get connected? Choose your operating system below to learn how to conne
 
 **Email and documents:**
 
-SuperOffice WebTools connects your email and your documents to your CRM. Web Tools consists of two components: Mail Link and Web Extensions.
+SuperOffice WebTools connects your email and your documents to your CRM. WebTools consists of two components: Mail Link and Web Extensions.
 
 Download SuperOffice WebTools to connect your email and your documents. WebTools will connect your Microsoft Outlook inbox to SuperOffice CRM, so you can easily attach documents from your CRM, and archive communication into your CRM through the SuperOffice CRM ribbon.
 

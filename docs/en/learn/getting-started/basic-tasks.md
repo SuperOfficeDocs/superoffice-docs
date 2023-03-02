@@ -39,9 +39,9 @@ Apart from the regular calendar functionality, SuperOffice Diary also gives you 
 
 **Tasks:**
 
-* Create appointments
-* Invite a contact to an appointment
-* Video meeting
+* [Create appointments][8]
+* [Invite a contact to an appointment][10]
+* [Video meeting][11]
 
 ## Manage your documents
 
@@ -70,16 +70,20 @@ Your administrator can [add and customize project guides][1] for you.
 
 **How-to guide:**
 
-* Create a project
+* [Create a project][7]
 
 <!-- Referenced links -->
 [1]: ../../project/learn/project-guide/create.md
+[7]: ../../project/learn/create.md
 [2]: ../../company/learn/create.md
-[3]: ../../conntact/learn/create.md
+[3]: ../../contact/learn/create.md
+[5]: ../../search-options/selection/learn/howto/bulk-update.md
+[6]: ../../search-options/selection/learn/howto/index.md
 [4]: merge-delete-company-contact.md
-[5]: ../../search-options/selections/learn/howto/bulk-update.md
 [9]: recycle-bin.md
-[6]:
+[8]: ../../diary/learn/create-appointment.md
+[10]: ../../diary/learn/invitation/add-participant.md
+[11]: ../../video-meeting/index.md
 
 <!-- Referenced images -->
 [img1]: media/diary.png

@@ -1,7 +1,7 @@
 ---
 uid: help-en-users
 title: Users
-description: Learn how to add new users, how to assign the right user roles and groups, and help the users with setup and web tools.
+description: Learn how to add new users, how to assign the right user roles and groups, and help the users with setup and WebTools.
 author: SuperOffice RnD
 so.date: 02.21.2023
 keywords: user
@@ -44,7 +44,7 @@ For a person to be registered as a SuperOffice CRM user, this person must be reg
 * [Change user plans for active users][3]
 * Complete the setup of Service users
 * Set notifications
-* Install Web Tools for your users
+* Install WebTools for your users
 
 <!-- Referenced links -->
 [1]: role/index.md

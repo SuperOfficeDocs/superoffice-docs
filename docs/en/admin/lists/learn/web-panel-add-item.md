@@ -6,7 +6,7 @@ author: SuperOffice RnD
 so.date: 01.20.2023
 keywords: Settings and maintenance, list, web panel
 so.topic: help
-so.audience: settings
+so.audience: admin
 so.audience.tooltip: Settings and maintenance
 language: en
 ---

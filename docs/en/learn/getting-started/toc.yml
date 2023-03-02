@@ -21,10 +21,10 @@ items:
 - name: Preferences
   href: preferences.md
 - name: WebTools
-  href: ../../../../webtools/learn/index.md
+  href: ../../webtools/learn/index.md
   items:
   - name: Install
-    href: ../../../../webtools/learn/install.md
+    href: ../../webtools/learn/install.md
 - name: Edit email signature
   href: edit-email-signature.md
 - name: Connect email and documents

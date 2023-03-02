@@ -97,7 +97,7 @@ To give the message a more personal touch, you can use placeholders to insert cu
 
 These placeholders are called **template variables** in the old editor and **merge tags** in the Drag and drop editor.
 
-[!include[Note](../includes/note-imported-recipients.md)]
+[!include[Note](includes/note-imported-recipients.md)]
 
 There are several types of merge tags:
 
@@ -143,8 +143,8 @@ In early 2021 SuperOffice added a new message editor (the "Drag & drop editor") 
 [5]: edit-paragraph.md
 [6]: insert-images-in-message.md
 [7]: add-merge-tag.md
-[8]: ../../../tracked-links/learn/add-tracked-link-to-msg.md
-[9]: ../../work-with-messages-and-templates.md
+[8]: ../tracked-links/learn/add-tracked-link-to-msg.md
+[9]: work-with-messages-and-templates.md
 [2]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Mailing%2FHelptopics%2Foldeditor%2FStep_3__Content_-_Formatted_e-mail.htm
 
 <!-- Referenced images -->

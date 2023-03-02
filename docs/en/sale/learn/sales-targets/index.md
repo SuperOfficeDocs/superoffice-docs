@@ -59,8 +59,8 @@ Only users with the functional right **Can lock and unlock targets** can lock an
 * [Using sales targets in tiles][2]
 
 <!-- Referenced links -->
-[1]: ../../dashboard/learn/index.md
-[2]: ../../dashboard/learn/show-sales-targets.md
+[1]: ../../../dashboard/learn/index.md
+[2]: ../../../dashboard/learn/show-sales-targets.md
 [4]: https://community.superoffice.com/no/learning/best-practices-tips/sales/reach-your-sales-targets-with-dashboard-reports/
 
 <!-- Referenced images -->
