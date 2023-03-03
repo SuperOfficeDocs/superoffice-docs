@@ -5,6 +5,8 @@ so.date: 04.04.2022
 
 # What's new in SuperOffice
 
+Here you will find all the small and big changes that has been released for SuperOffice in the different versions. We aim to give you an understanding on why we have created the feature and function and how to use it. Hope you will find this inspiring and try out our new functionality.
+
 ## Versions
 
 * [10.2][6]
