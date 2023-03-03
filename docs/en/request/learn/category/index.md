@@ -23,11 +23,11 @@ For example, main categories for User Support, Development, Sales and Invoicing 
 Users can be added as members in the categories individually or via the user groups they belong to.
 
 > [!TIP]
-> Looking for a more flexible way of organizing your request? Try [using tags in requests][1].
+> Looking for a more flexible way of organising your request? Try [using tags in requests][1].
 
 ## Where can I find the categories?
 
-* **In Settings and maintenance:** Select **Requests** in the navigator and then the **Categories** tab.
+* **In Settings and maintenance**, select **Requests** in the navigator and then the **Categories** tab.
 
 The categories are arranged in a tree structure.
 
