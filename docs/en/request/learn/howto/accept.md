@@ -3,7 +3,7 @@ uid: help-en-request-accept
 title: Take responsibility for requests
 description: Take responsibility for requests
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.13.2023
 keywords: request
 so.topic: howto
 language: en
@@ -16,8 +16,8 @@ This is particularly relevant for unassigned requests (those without a defined o
 1. [Open the request][1].
 1. Accept:
 
-    * Click the ![icon][img1] **Task** button and select **Accept**. Or,
-    * In the **Owner** field, select yourself.
+    * Click the ![icon][img1] **Task** button and select **Accept**.
+    * Or, in the **Owner** field, select yourself.
 
 [!include[Get next request in queue](includes/howto-get-next-request.md)]
 

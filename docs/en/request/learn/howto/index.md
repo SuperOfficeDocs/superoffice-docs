@@ -2,8 +2,13 @@
 uid: help-en-request-howto
 title: Request management
 description: Request management
+<<<<<<< HEAD
 author: HanneGunnarsson
 so.date: 06.29.2022
+=======
+author: SuperOffice RnD
+so.date: 02.14.2023
+>>>>>>> 12524e485807edd9647d7ffe0382f40dbcb340f9
 keywords: request
 so.topic: concept
 language: en
@@ -17,9 +22,9 @@ How request handling progresses will vary from request to request.
 
 * [Take responsibility for requests][1]
 * [Ask another request handler for help.][2]
-* [Forward messages or multiple requests to external parties][3]
 * [Reply to customer][4]
 * [Split requests][5]
+* [Forward messages or multiple requests to external parties][3]
 * [Add requests to the favorites list][6]
 * [Close requests][7]
 * [Add message][8]

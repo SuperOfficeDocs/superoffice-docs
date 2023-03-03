@@ -15,7 +15,11 @@ As a request handler, you are not always able to answer the request on your own.
 
 1. [Open the request][1].
 
+<<<<<<< HEAD
 1. Select the person you want to help in the **Owner** list box from the properties panel. This means that you are transferring responsibility for the request to that person.
+=======
+1. Select the person you want help from in the **Owner** list box from the properties panel (sidepanel). This means that you are transferring responsibility for the request to that person.
+>>>>>>> 12524e485807edd9647d7ffe0382f40dbcb340f9
 
     > [!NOTE]
     > If you do not know who should have responsibility for the request, you can select **(Automatically assigned)** in the **Owner** field and select the relevant [category][3] in the **Category** field. If, for example, the request relates to a payment question, you can change the category to "Invoicing". The request will then be automatically assigned to a request handler in the invoicing department in accordance with the applicable assignment rules.
@@ -39,4 +43,3 @@ As a request handler, you are not always able to answer the request on your own.
 [3]: ../category/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png

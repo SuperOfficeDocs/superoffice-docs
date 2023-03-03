@@ -2,8 +2,13 @@
 uid: help-en-request-fav
 title:  Add requests to the favourites list
 description:  Add requests to the favorites list
+<<<<<<< HEAD
 author: HanneGunnarsson
 so.date: 06.29.2022
+=======
+author: SuperOffice RnD
+so.date: 02.10.2023
+>>>>>>> 12524e485807edd9647d7ffe0382f40dbcb340f9
 keywords: request, fav
 so.topic: howto
 language: en
@@ -33,11 +38,9 @@ In SuperOffice there is a favourites list where you can add requests you want to
 
 ## View the favourites list
 
-Do one of the following:
+Do the following:
 
-* Select **Requests** in the Navigator, and click ![icon][img3].
-* Select **Requests** in the Navigator, and select **My favourites**.
-* Go to **Dashboard**, click the list button ![icon][img6] next to the title of a panel, and select **My favourites**.
+* Select **Requests** in the Navigator, and click ![icon][img3] .
 
 ## Remove requests from the favourites list
 
@@ -54,4 +57,3 @@ Do one of the following:
 [img2]: ../../../../../common/icons/favourite-yes.png
 [img3]: ../../../../../common/icons/nav-fav.png
 [img5]: ../../../../media/icons/btn-menu.png
-[img6]: ../../../../../common/icons/dropdown-arrow.png

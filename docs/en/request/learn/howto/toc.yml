@@ -5,9 +5,7 @@ items:
     href: ../find.md
   - name: Create a request
     href: create.md
-  - name: Automatic assignment
-    href: assign.md
-  - name: Get next request in the queue
+  - name: Next request in the queue
     href: ../next-in-queue.md
   - name: Take responsibility for request
     href: accept.md

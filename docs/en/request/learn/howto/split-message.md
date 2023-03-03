@@ -1,9 +1,15 @@
 ---
 uid: help-en-request-message-split
 title: Split message
+<<<<<<< HEAD
 description: Split message
 author: HanneGunnarsson
 so.date: 06.29.2022
+=======
+description: Split message to create a new request
+author: SuperOffice RnD
+so.date: 02.14.2023
+>>>>>>> 12524e485807edd9647d7ffe0382f40dbcb340f9
 keywords: request
 so.topic: howto
 language: en
@@ -15,9 +21,15 @@ If a message contains two issues that should be handled separately, you can spli
 
 1. [Open the request][1].
 
+<<<<<<< HEAD
 1. In the **Messages** tab, click the ![icon][img1] menu button next to the message you want to split.
 
 1. In the **Split message** screen in the **Title** field, enter a descriptive name for the new request.
+=======
+1. In the **Messages** tab, click the ![icon][img1] menu button and select **Split message**.
+
+1. In the **Split message** dialog and the **Title** field, enter a descriptive name for the new request.
+>>>>>>> 12524e485807edd9647d7ffe0382f40dbcb340f9
 
 1. In the **Category** field, select a category.
 
@@ -37,15 +49,21 @@ If a message contains two issues that should be handled separately, you can spli
     * **Closed**: Select this option if the request is completed.
     * **Postponed**: To postpone handling of this request, select this option and specify a date in the date field to the right. On this date, the request is set back to **Open**.
 
+<<<<<<< HEAD
 1. (if relevant) Under **Choose the attachments to move to the new request** select the attachment(s) that should be moved to the new request. The attachments will be deleted from the existing request.
 
 1. Go to the **Messages** tab, and edit the message texts for the existing and new requests.
+=======
+1. Go to the **Messages** tab, and edit the message texts for the new and the existing requests.
+
+1. In the **Attachments** tab (if there are any attachments), select the attachment(s) that should be included in the new request. The attachments will be moved from the existing request.
+>>>>>>> 12524e485807edd9647d7ffe0382f40dbcb340f9
 
 1. Click **OK**. The message is split and the new request opens.
 
 ## Related content
 
-* [Split requests][2]
+* [Split a requests][2]
 
 <!-- Referenced links -->
 [1]: ../index.md#open
