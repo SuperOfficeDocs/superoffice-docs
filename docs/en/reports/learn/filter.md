@@ -41,7 +41,7 @@ language: en
 * [Filter activities and sales][1]
 
 <!-- Referenced links -->
-[1]: ../../learn/getting-started/using-filter-function-contact.md
+[1]: ../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/filter-icon.png

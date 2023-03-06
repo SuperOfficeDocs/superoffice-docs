@@ -57,7 +57,7 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 
     * **Open**: When you click **Open**, the document is opened in the text editing application. Type in the contents of the document and select **File** > **Save As** to save it in the desired location on your PC.
 
-    * **Save**: When you click **Save**, the **Save As** dialog appears. Here you specify where on the PC you want to save the file, and then click **Save** to start the download. Click **Close** when the download is finished. Open Windows Explorer and browse to the document you have just saved. Open the document, enter the required text and save the document.
+    * **Save**: When you click **Save**, the **Save As** dialog appears. Specify where on the PC you want to save the file, and then click **Save** to start the download. Click **Close** when the download is finished. Open Windows Explorer and browse to the document you have just saved. Open the document, enter the required text and save the document.
 
 6. Close the text-editing program.
 

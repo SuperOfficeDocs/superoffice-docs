@@ -67,7 +67,7 @@ The **Sales** tab also acts like [a sales secretary][8] by highlighting all your
 <!-- Referenced links -->
 [1]: ../../quote/learn/create.md
 [2]: screen/index.md
-[3]: ../../learn/getting-started/archives.md
+[3]: ../../learn/section-tabs/index.md
 [4]: create.md
 [5]: stakeholders/create.md
 [6]: sales-guide/working-with-sales-guide.md

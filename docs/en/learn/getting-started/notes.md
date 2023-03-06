@@ -3,7 +3,7 @@ uid: help-en-notes
 title: Taking notes
 description: Taking notes
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 03.06.2023
 keywords: note, notepad
 so.topic: howto
 language: en
@@ -11,7 +11,7 @@ language: en
 
 # Taking notes
 
-In SuperOffice CRM, you can bring up a useful little notepad, regardless of where you are in the program. You can also attach individual notes to the current company, contact, sale, project or selection card.
+In SuperOffice CRM, you can bring up a useful little notepad, regardless of where you are in the program. You can also attach individual notes to the current company, contact, sale, project, or selection.
 
 * To attach an important comment to something specific, such as a company, create a **Note**.
 
@@ -19,7 +19,7 @@ In SuperOffice CRM, you can bring up a useful little notepad, regardless of wher
 
 ## Create a note
 
-1. Go to the required company, contact, sale, selection or project.
+1. Go to the required company, contact, sale, selection, or project.
 2. Select the **Note** tab and click **Edit**.
 3. Type in the required information on the note.
 4. Click **Save**.
@@ -43,12 +43,12 @@ When you display the Notepad on the screen, you can grab the top part of the not
 
 1. Position the mouse pointer in the Notepad.
 2. Type in your text as required.
-3. Press **TAB** to exit the Notepad, or click outside the Notepad window. The text is saved automatically and a new Notepad page created.
+3. To exit the Notepad, Press TAB or click outside the Notepad window. The text is saved automatically and a new Notepad page created.
 
 > [!TIP]
-> You can browse back and forth between the pages using the arrow buttons at the bottom of the Notepad. The current page number and total number of pages are displayed at the bottom of the Notepad.
+> You can browse between the pages using the arrow buttons at the bottom of the Notepad. The current page number and total number of pages are displayed at the bottom of the Notepad.
 
-If the Notepad is open when you close SuperOffice CRM, it will also be displayed when you next start the program, with all the text saved.
+If the Notepad is open when you close SuperOffice CRM, your changes are saved and the Notepad opens automatically when you return.
 
 <!-- Referenced links -->
 [1]: main-screen/side-panel.md

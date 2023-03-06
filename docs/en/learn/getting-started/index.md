@@ -110,8 +110,17 @@ For example, there is an internal knowledge base consisting of reply templates a
 
 SuperOffice is available as an online application (cloud-based) and as an onsite application (installed on the customer's premises). There are minor differences between the two. Specific functional differences are indicated by the icons in the procedures themselves or in topic titles.
 
+## Requirements for phone, fax, and email
+
+SuperOffice CRM is compatible with all the latest operating systems and browsers. It is possible to call, send faxes, and send emails direct from SuperOffice CRM.
+
+* To send email, you must have an email system that is certified by SuperOffice.
+
+* To [dial direct from SuperOffice CRM][51], your system must be correctly configured.
+
 ## Related topics
 
+* [System requirements][50]
 * [Log in and activate SuperOffice CRM][4]
 * [Change your password in SuperOffice CRM][19]
 * [The Main screen][5]
@@ -119,10 +128,9 @@ SuperOffice is available as an online application (cloud-based) and as an onsite
 * [Use side panel to work more efficiently][20]
 * [Set your personal preferences][22]
 * [Connect your email with SuperOffice CRM][33]
-* [Organize and filter your archives][42]
 * [Use the recycle bin][43]
 * [Mobile CRM: Access your CRM on the go][44]
-* [How do you work with section tabs and archives][46]
+* [Working with section tabs and archives][46]
 * [How do you work with activities like follow-ups, documents and emails][47]
 * [How to set up your account with the right language][48]
 * [Favorites][49]
@@ -149,7 +157,6 @@ SuperOffice is available as an online application (cloud-based) and as an onsite
 [20]: main-screen/side-panel.md
 [22]: preferences.md
 [33]: connect-email-and-documents.md
-[42]: archives.md
 [43]: recycle-bin.md
 [44]: mobile.md
 
@@ -174,10 +181,12 @@ SuperOffice is available as an online application (cloud-based) and as an onsite
 [40]: ../../onsite/win-client/learn/index.md
 [41]: https://online.superoffice.com/appstore
 [45]: ../../request/learn/index.md
-[46]: section-tabs.md
+[46]: ../section-tabs/index.md
 [47]: ../activity/index.md
 [48]: ../../globalization-and-localization/learn/change-language.md
 [49]: fav.md
+[50]: ../../onsite/requirements/index.md
+[51]: ../../diary/learn/phone-call/preferences.md
 
 <!-- Referenced images -->
 [img1]: media/getstarted-personalsettings.png

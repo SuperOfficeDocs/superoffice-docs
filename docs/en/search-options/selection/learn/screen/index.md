@@ -83,8 +83,8 @@ Double-click a mailing to open it.
 [3]: ../../../learn/using-search-criteria.md
 [6]: ../../../../dashboard/learn/create.md
 [7]: ../../../../marketing/mailing/learn/create/index.md
-[8]: ../../../../learn/getting-started/use-filters-in-section-tabs.md
-[9]: ../../../../learn/getting-started/section-tabs.md
+[8]: ../../../../learn/section-tabs/filter.md
+[9]: ../../../../learn/section-tabs/index.md
 [4]: ../../../../learn/getting-started/index.md
 
 <!-- Referenced images -->
@@ -93,5 +93,5 @@ Double-click a mailing to open it.
 [img2]: ../../../../../media/icons/arrow-left.png
 [img4]: ../../../../../media/icons/personal-settings-small.png
 [img5]: ../../../../../media/icons/refresh.png
-[img7]: ../../../../../media/icons/column-header-filter.png
+[img7]: ../../../../../media/icons/filter-column.png
 [img6]: ../../../../media/task.png

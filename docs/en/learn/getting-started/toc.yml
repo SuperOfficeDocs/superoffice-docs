@@ -5,6 +5,8 @@ items:
   href: main-screen/toc.yml
 - name: Log in
   href: login.md
+- name: Mobile access
+  href: mobile.md
 - name: Preferences
   href: preferences.md
 - name: WebTools
@@ -13,15 +15,3 @@ items:
   href: edit-email-signature.md
 - name: Connect email and documents
   href: connect-email-and-documents.md
-- name: Organize and filter your archives
-  href: archives.md
-- name: Note and Notepad
-  href: notes.md
-- name: Recycle bin
-  href: recycle-bin.md
-- name: Mobile access
-  href: mobile.md
-- name: Merge or delete companies and contacts
-  href: merge-delete-company-contact.md
-- name: Technical requirements
-  href: technical-requirements.md

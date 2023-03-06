@@ -81,7 +81,7 @@ The items at the top of the screen vary slightly between SuperOffice CRM, Servic
 
 <!-- Referenced links -->
 [1]: ../external-applications-and-url-addresses.md
-[2]: ../use-filters-in-section-tabs.md
+[2]: ../../section-tabs/filter.md
 [3]: ../restore-deleted-companies-and-contacts.md
 [6]: ../preferences.md
 [7]: ../edit-email-signature.md

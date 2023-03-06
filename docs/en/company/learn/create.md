@@ -54,7 +54,7 @@ Watch this video or follow the steps below.
 
 ## <a id="interests-tab" />The Interests tab (Company screen)
 
-1. Go to the **Interests** tab. Here you specify what interests a company has.
+1. Go to the **Interests** tab.
 
 2. In edit mode, specify interests by checking the relevant boxes. SuperOffice Settings and maintenance defines which interests are displayed.
 

@@ -21,9 +21,9 @@ In the **Interface** tab in the **Edit users** screen, you can edit the followin
 
 * **New window when adding a message to a request**: Checking here causes a new browser window to be opened when the selected users click **Add message**.
 
-* **Width of text area**: Here you specify (as number of characters) the width of the text box where messages are entered.
+* **Width of text area**: Specify (as number of characters) the width of the text box where messages are entered.
 
-* **Height of text area**: Here you specify (as number of characters) the height of the text box where messages are entered.
+* **Height of text area**: Specify (as number of characters) the height of the text box where messages are entered.
 
 * **Don't show warning when data might be lost**: Checking here causes a warning not to be shown if there is a risk of losing data you have entered, for example, when you are exiting a screen without having saved any changes first.
 

@@ -121,7 +121,7 @@ For notification of the follow-up, check **Alarm**. If an [alarm is specified][5
 
 ### Owner
 
-Here you specify who owns the follow-up. The default is the user currently logged in. If you click the name next to the **Owner** field, you can transfer the appointment to another SuperOffice user. The **Assign to** dialog opens. Under the **Assign this follow-up to** field is a list box where you can select the required user group. Select the required user and click **OK** to save the changes and close the dialog.
+Specify who owns the follow-up. The default is the user currently logged in. If you click the name next to the **Owner** field, you can transfer the appointment to another SuperOffice user. The **Assign to** dialog opens. Under the **Assign this follow-up to** field is a list box where you can select the required user group. Select the required user and click **OK** to save the changes and close the dialog.
 
 > [!NOTE]
 > If a user is already occupied at the time in question, the word **CONFLICT** is displayed in the **Status** field. To hide users with conflicts, check **Hide conflict** at the bottom of the dialog.

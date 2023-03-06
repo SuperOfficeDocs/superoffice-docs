@@ -47,12 +47,12 @@ Mobile CRM is free to download:
 * [Download SuperOffice mobile CRM in Apple App store][6]
 * [Download SuperOffice mobile CRM in Google Play][7]
 
+The Mobile CRM app is available for all users of SuperOffice CRM 9 or higher.
+
 > [!NOTE]
 > Before we launched SuperOffice CRM version 9, our app was called SuperOffice Pocket CRM. This app is still operational (not supported with NetServer 10.0 or higher) and used by users on SuperOffice CRM version 8.5 or lower.
 
-The Mobile CRM app is available for all users of SuperOffice CRM 9 or higher.
-
-When you upgrade from versions 8.5 or lower to version 9, you will be prompted inside Pocket CRM to update the app and switch to Mobile CRM. All you have to do is follow the instructions.
+When you upgrade from versions 8.5 or lower to version 9, you will be prompted inside Pocket CRM to update the app and switch to Mobile CRM.
 
 ## Start guide for Mobile CRM
 
@@ -60,7 +60,6 @@ A short PDF guide to show how you can use Mobile CRM: [Quick Guide for Mobile CR
 
 ## Related content
 
-* [Reply to a request on your mobile device][2]
 * [How to set up fingerprint authentication][3] - FAQ
 * [How to configure notifications on Mobile CRM][4] - FAQ
 * [How do I start using Caller ID for Mobile CRM][5] - FAQ
@@ -70,7 +69,6 @@ A short PDF guide to show how you can use Mobile CRM: [Quick Guide for Mobile CR
 [3]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-start-using-fingerprint-authentication-to-enter-my-mobile-crm-app/
 [4]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-configure-notifications-on-the-mobile-crm-app/
 [5]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-start-using-caller-id-for-mobile-crm/
-[2]:
 [6]: https://apps.apple.com/us/app/superoffice-mobile-crm/id1516435957
 [7]: https://play.google.com/store/apps/details?id=no.superoffice.mobile&hl=no&gl=US&pli=1
 

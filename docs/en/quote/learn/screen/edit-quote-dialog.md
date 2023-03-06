@@ -62,7 +62,7 @@ The bottom section of the dialog
 [6]: ../add-product.md
 [8]: ../index.md#status
 [9]: ../add-product.md#warning
-[7]: ../../../learn/getting-started/export-archives.md
+[7]: ../../../learn/section-tabs/export-archives.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/favourite-yes.png

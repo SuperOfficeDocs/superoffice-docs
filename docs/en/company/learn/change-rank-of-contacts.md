@@ -21,7 +21,7 @@ When you create a new contact, they appear at the bottom of the **Contacts** sec
 
     If you cannot see the number column, you must first [add the Rank column][1].
 
-    If the numbers are in a different order, you can click the column heading immediately above to [sort the list][2] correctly.
+    If the numbers are in a different order, you can click the column heading directly above to sort the list.
     </details>
 
 2. Select the required contact.
@@ -31,11 +31,9 @@ The changes you make here define the default ranking. They will not be reset the
 
 ## Related topics
 
-* [Sort lists][2]
 * [Configure columns][1]
 
 <!-- Referenced links -->
-[1]: ../../learn/getting-started/changing-column-view.md
-[2]: ../../learn/getting-started/sorting-lists.md
+[1]: ../../learn/section-tabs/configure-columns.md
 
 <!-- Referenced images -->

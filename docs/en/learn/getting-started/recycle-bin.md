@@ -4,7 +4,7 @@ title: Use the Recycle bin to restore
 description: You can restore stuff deleted from companies and contacts from your Recycle bin.
 author: Bergfrid Dias
 so.date: 12.14.2022
-keywords: restore, delete, recycle, bin
+keywords: restore, delete, recycle bin
 so.topic: concept
 so.version: 10
 so.lang: en
@@ -23,13 +23,13 @@ Deleted companies and contacts are by default kept in the recycle bin for 14 day
 ## Related content
 
 * [Restore deleted companies and contacts][1]
-* [Mass delete contacts and companies from selection][2]
-* [Merge or delete companies and contacts][3]
+* [Merge or delete companies and contacts][2]
+* [Mass delete contacts and companies from selection][3]
 
 <!-- Referenced links -->
 [1]: restore-deleted-companies-and-contacts.md
-[2]:
-[3]:
+[2]: merge-delete-company-contact.md
+[3]: ../../search-options/selection/learn/howto/mass-delete.md
 
 <!-- Referenced images -->
 [img1]: media/recycle-bin-personal-settings.png

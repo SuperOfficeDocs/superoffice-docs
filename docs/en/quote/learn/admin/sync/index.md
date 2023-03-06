@@ -24,7 +24,7 @@ The **Sync** tab in the **Quote/Sync** screen shows Sync Connectors and associat
 * [Add a Sync Connector][1]
 * [Add an ERP connection][2]
 * [Set Sync Priority][3]
-* [Configure field allocation][4] (Here you specify synchronization settings and which fields are displayed in the search window and in the **ERP** tab.)
+* [Configure field allocation][4] (Synchronization settings and which fields are displayed in the search window and in the **ERP** tab)
 * [Configure default values for synchronization][5]
 * [Rank fields shown in the ERP tab][6]
 * [Edit an ERP connection][7]

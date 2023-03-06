@@ -131,7 +131,7 @@ You must belong to the *User level 0* role or another role that gives you login 
 > [!TIP]
 > To log out of SuperOffice Service, click the ![icon][img1] Personal settings icon at the top of the screen, and select **Log out**.
 
-In SuperOffice Service you can also log in as the same user in several browsers / multiple sessions.
+In SuperOffice Service you can also log in as the same user in several browsers or multiple sessions.
 
 ## Related content
 

@@ -3,8 +3,8 @@ uid: help-en-connect-email-and-documents
 title: Connect email and documents
 description: Connect your emails and documents to SuperOffice CRM.
 author: Bergfrid Dias
-so.date: 12.14.2022
-keywords: email, document, getting started
+so.date: 03.06.2023
+keywords: email, document
 so.topic: howto
 so.version: 10
 so.lang: en
@@ -93,7 +93,7 @@ Sign in to SuperOffice CRM using your Google Workspace login details and enjoy t
 * [Google Workspace document integration][3]
 
 <!-- Referenced links -->
-[1]:
+[1]: ../../email/inbox/learn/archive.md
 [2]: ../../email/mail-link/index.md
 [3]: ../../document/cloud/g-suite/index.md
 
