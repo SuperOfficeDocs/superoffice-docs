@@ -28,8 +28,8 @@ Returns all webhooks, according to filter criteria
 | statusFilter | Enum: Unknown, Active, Stopped, TooManyErrors |  Only return hooks with this status. Default Unknown = no filter, returns all. |
 
 ```http
-GET /api/v1/Webhook?nameFilter=ea
-GET /api/v1/Webhook?eventFilter=pariatur
+GET /api/v1/Webhook?nameFilter=unde
+GET /api/v1/Webhook?eventFilter=error
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
@@ -91,26 +91,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 676,
-    "Name": "Herzog Group",
+    "WebhookId": 955,
+    "Name": "Bayer-Dare",
     "Events": [
-      "cupiditate",
-      "quia"
+      "corporis",
+      "harum"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "non",
+    "Secret": "ut",
     "State": "Active",
-    "Type": "sapiente",
+    "Type": "qui",
     "Headers": {
-      "Headers1": "accusantium",
-      "Headers2": "aut"
+      "Headers1": "et",
+      "Headers2": "odio"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2012-11-10T17:37:39.5964304+01:00",
+    "Registered": "2021-10-15T14:19:11.0686043+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2002-12-04T17:37:39.5984306+01:00",
+    "Updated": "2015-03-08T14:19:11.0842303+01:00",
     "UpdatedAssociate": null
   }
 ]

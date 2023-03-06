@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/DatabaseTable/ReadRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Sporer Group",
-  "Id": 193
+  "TableName": "Lang Inc and Sons",
+  "Id": 575
 }
 ```
 
@@ -90,15 +90,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "est",
-    "Values2": "assumenda"
+    "Values1": "et",
+    "Values2": "doloribus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 733
+      "FieldLength": 935
     }
   }
 }

@@ -98,7 +98,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,88 +108,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 511,
+  "DocumentId": 312,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "beatae",
-  "Header": "est",
-  "Name": "Bayer Inc and Sons",
-  "OurRef": "aperiam",
-  "YourRef": "distinctio",
-  "CreatedDate": "2001-03-08T17:37:38.5698595+01:00",
-  "UpdatedDate": "2004-11-29T17:37:38.5698595+01:00",
-  "Description": "Exclusive directional orchestration",
+  "Attention": "aut",
+  "Header": "dolorem",
+  "Name": "Wilderman, Rau and Emmerich",
+  "OurRef": "neque",
+  "YourRef": "est",
+  "CreatedDate": "2004-02-04T14:19:10.3185986+01:00",
+  "UpdatedDate": "2004-11-23T14:19:10.3185986+01:00",
+  "Description": "Organized foreground contingency",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2017-01-30T17:37:38.5718596+01:00",
-  "ExternalRef": "id",
+  "Date": "2012-01-18T14:19:10.3185986+01:00",
+  "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 601,
+  "ActiveLinks": 937,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Cummerata LLC",
-      "Id": 614,
-      "Description": "Configurable exuding data-warehouse",
-      "ExtraInfo": "earum",
-      "LinkId": 826,
+      "EntityName": "Gibson LLC",
+      "Id": 939,
+      "Description": "Re-engineered stable analyzer",
+      "ExtraInfo": "incidunt",
+      "LinkId": 12,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 14
+          "FieldLength": 294
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 89,
-  "Snum": 750,
+  "SuggestedDocumentId": 658,
+  "Snum": 406,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Keaton Considine"
+    "SuperOffice:1": "35459177",
+    "SuperOffice:2": "Timothy Mohr V"
   },
   "ExtraFields": {
-    "ExtraFields1": "quaerat",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "quis",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "aspernatur"
+    "CustomFields1": "amet",
+    "CustomFields2": "quia"
   },
-  "PublishEventDate": "1997-01-11T17:37:38.5738602+01:00",
-  "PublishTo": "1999-04-01T17:37:38.5738602+02:00",
-  "PublishFrom": "2007-01-08T17:37:38.5738602+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2003-01-08T14:19:10.3185986+01:00",
+  "PublishTo": "2008-11-02T14:19:10.3185986+01:00",
+  "PublishFrom": "1996-05-02T14:19:10.3185986+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 674,
+      "VisibleId": 867,
       "Visibility": "All",
-      "DisplayValue": "natus",
+      "DisplayValue": "vero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 446
+          "FieldType": "System.Int32",
+          "FieldLength": 292
         }
       }
     },
     {
-      "VisibleId": 674,
+      "VisibleId": 867,
       "Visibility": "All",
-      "DisplayValue": "natus",
+      "DisplayValue": "vero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 446
+          "FieldType": "System.Int32",
+          "FieldLength": 292
         }
       }
     }
@@ -199,7 +199,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldLength": 135
     }
   }
 }

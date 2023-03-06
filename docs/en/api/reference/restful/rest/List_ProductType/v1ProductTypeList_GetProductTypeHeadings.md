@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 416,
-    "Name": "Wisoky Group",
-    "Tooltip": "accusantium",
+    "HeadingId": 18,
+    "Name": "Will-Vandervort",
+    "Tooltip": "assumenda",
     "Deleted": false,
-    "Rank": 736,
-    "UdListDefinitionId": 652,
+    "Rank": 429,
+    "UdListDefinitionId": 340,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 595
+        "FieldType": "System.String",
+        "FieldLength": 674
       }
     }
   }

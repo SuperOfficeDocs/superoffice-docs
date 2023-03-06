@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "quotedocumentorderbyfields"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,6 @@ so.envir:
 ---
 
 # "quotedocumentorderbyfields" MDO List
-
 Possible choices for fields you can ORDER BY, within a group (or without grouping)
 
 Candidate fields have to be in the QuoteLine table. The double-buffering system in the document
@@ -23,6 +22,9 @@ production provider means you can sort on any field at all.
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.QuoteDocumentOrderByFields">QuoteDocumentOrderByFields</see> class.
 The name of the MDO list is 'quotedocumentorderbyfields'.
+
+
+
 
 ## Sample Request
 
@@ -35,7 +37,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("quotedocumentorderbyfields", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -56,6 +57,7 @@ foreach (var item in listProvider.RootItems) {
 |6|Product type||productTypeKey|
 |7|Subscription||isSubscription|
 |8|VAT info||vatInfo|
+
 
 ## Related MDO Lists
 

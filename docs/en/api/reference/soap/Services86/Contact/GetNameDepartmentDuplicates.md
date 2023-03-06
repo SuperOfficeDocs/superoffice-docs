@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IContactAgent.GetNameDepa
 
 ## GetNameDepartmentDuplicates
 
-Get duplicates based on the contact name and department
 
-* **name:** Name used for lookup
-* **department:** Department used for lookup (if any)
 
-**Returns:** Any records matching the specified name and department
+
 
 [WSDL file for Services86/Contact](../Services86-Contact.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetNameDepartmentDuplicates Response
 
 ```xml
@@ -79,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

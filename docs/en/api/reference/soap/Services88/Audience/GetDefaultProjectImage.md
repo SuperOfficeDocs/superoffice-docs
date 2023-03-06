@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IAudienceAgent.GetDefault
 
 ## GetDefaultProjectImage
 
-Returns the default project or event image that is displayed in Audience when no project/event image is found. The image belongs to a specific Audience layout instance.
 
-* **layoutName:** Name of the Audience layout instance
 
-**Returns:** The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+
 
 [WSDL file for Services88/Audience](../Services88-Audience.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDefaultProjectImage Response
 
 ```xml
@@ -67,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

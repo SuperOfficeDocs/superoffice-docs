@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IResourceAgent.IsResource
 
 ## IsResourceSubstitutionActive
 
-Determine if resource substitution/override is active, globally or for a subset of resources/cultures
 
-* **resourceNames:** Array of names of resources for which overrides are sought; if empty, then get the MASTER on/off
-* **culture:** .NET culture string; if empty, then get for all cultures (unless resourceName
 
-**Returns:** Array of override objects, empty if there are none; the ResourceValue member is not set by this call
+
 
 [WSDL file for Services85/Resource](../Services85-Resource.md)
 
@@ -53,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## IsResourceSubstitutionActive Response
 
 ```xml
@@ -80,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

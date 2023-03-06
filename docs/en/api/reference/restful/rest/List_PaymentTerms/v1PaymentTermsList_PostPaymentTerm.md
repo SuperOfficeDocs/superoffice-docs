@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 668,
-  "Name": "Gutmann-Blanda",
-  "Tooltip": "vel",
-  "Deleted": false,
-  "UdListDefinitionId": 328,
-  "Rank": 149
+  "Id": 823,
+  "Name": "Dickinson, Lemke and Raynor",
+  "Tooltip": "ullam",
+  "Deleted": true,
+  "UdListDefinitionId": 600,
+  "Rank": 97
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 888,
-  "Name": "Corkery LLC",
-  "Tooltip": "non",
+  "Id": 836,
+  "Name": "Gerhold-Schowalter",
+  "Tooltip": "enim",
   "Deleted": false,
-  "UdListDefinitionId": 313,
-  "Rank": 886,
+  "UdListDefinitionId": 671,
+  "Rank": 827,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 59
+      "FieldType": "System.String",
+      "FieldLength": 772
     }
   }
 }

@@ -70,21 +70,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "corporis",
+  "RawValue": "voluptatem",
   "Specification": null,
-  "DisplayValue": "doloremque",
-  "DisplayTooltip": "odio",
+  "DisplayValue": "odio",
+  "DisplayTooltip": "nostrum",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 760,
-  "PrefDescId": 892,
-  "TableName": "Schmitt LLC",
-  "UserPreferenceId": 268
+  "TargetId": 7,
+  "PrefDescId": 110,
+  "TableName": "Strosin Inc and Sons",
+  "UserPreferenceId": 684
 }
 ```
 

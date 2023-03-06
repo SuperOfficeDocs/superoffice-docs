@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 942,
-  "Name": "Larkin LLC",
-  "Tooltip": "veniam",
+  "HeadingId": 282,
+  "Name": "Cormier-Beer",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 718,
-  "UdListDefinitionId": 480
+  "Rank": 567,
+  "UdListDefinitionId": 645
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 462,
-  "Name": "Haley-Douglas",
-  "Tooltip": "vel",
-  "Deleted": true,
-  "Rank": 147,
-  "UdListDefinitionId": 269,
+  "HeadingId": 22,
+  "Name": "Gislason, Hand and Bins",
+  "Tooltip": "molestiae",
+  "Deleted": false,
+  "Rank": 538,
+  "UdListDefinitionId": 534,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 200
+      "FieldType": "System.String",
+      "FieldLength": 771
     }
   }
 }

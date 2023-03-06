@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDocumentMigrationAgent.C
 
 ## CreateDefaultDocumentMigrationItemList
 
-Loading default values into a new DocumentMigrationItemList.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-<para /><b>Online Restricted:</b> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
 
-**Returns:** New DocumentMigrationItemList with default values
+
+
 
 [WSDL file for Services88/DocumentMigration](../Services88-DocumentMigration.md)
 
@@ -47,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateDefaultDocumentMigrationItemList Response
 
@@ -90,3 +89,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

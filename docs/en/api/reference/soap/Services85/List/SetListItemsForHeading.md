@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.SetListItemsFo
 
 ## SetListItemsForHeading
 
-Update listItems that will be visible for this usergroup
 
-* **udListDefinitionId:** The id of the list. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
-* **headingId:** The id of the heading
-* **listItemIds:** The ids of the list items.
-* **enable:** True to enable, false to disable
+
+
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -55,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetListItemsForHeading Response
 
 ```xml
@@ -74,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

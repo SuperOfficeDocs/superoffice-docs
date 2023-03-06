@@ -85,16 +85,16 @@ OK
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 774,
-  "Name": "Friesen, Hand and Miller",
-  "ContentType": "sapiente",
-  "AttSize": 584,
-  "InlineImage": true,
-  "ContentId": "ab"
+  "AttachmentId": 531,
+  "Name": "Satterfield LLC",
+  "ContentType": "consequuntur",
+  "AttSize": 611,
+  "InlineImage": false,
+  "ContentId": "modi"
 }
 ```
 
@@ -105,18 +105,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 612,
-  "Name": "Gibson Group",
-  "ContentType": "fugit",
-  "AttSize": 288,
+  "AttachmentId": 312,
+  "Name": "Metz-Zboncak",
+  "ContentType": "ullam",
+  "AttSize": 199,
   "InlineImage": false,
-  "ContentId": "perferendis",
+  "ContentId": "aspernatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 558
+      "FieldType": "System.Int32",
+      "FieldLength": 686
     }
   },
   "_Links": {

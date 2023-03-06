@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 673,
-  "CurrencyId": 564
+  "QuoteConnectionId": 258,
+  "CurrencyId": 460
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 380,
-    "ERPPriceListKey": "deserunt",
-    "QuoteConnectionId": 332,
-    "Name": "Little-Schiller",
-    "Description": "Seamless systemic standardization",
-    "Currency": "qui",
-    "CurrencyName": "Rau Inc and Sons",
-    "ValidFrom": "2020-11-01T17:37:18.7462416+01:00",
-    "ValidTo": "1998-03-06T17:37:18.7462416+01:00",
+    "PriceListId": 534,
+    "ERPPriceListKey": "ipsa",
+    "QuoteConnectionId": 954,
+    "Name": "Koss, Mitchell and Ankunding",
+    "Description": "Grass-roots grid-enabled array",
+    "Currency": "ut",
+    "CurrencyName": "Reinger-Jacobs",
+    "ValidFrom": "1999-07-01T14:19:04.0313341+02:00",
+    "ValidTo": "2009-02-24T14:19:04.0313341+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 212
+        "FieldLength": 407
       }
     }
   }

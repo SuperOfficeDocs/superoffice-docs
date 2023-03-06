@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ProjectGuide"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,9 +24,8 @@ Provider for the Project Guide, common to both Appointment and Document guide it
 This provider is a trivial aggregation of the Appointment and Document providers
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"suggestedAppointment"|Follow-ups|
 |"onlyInstance"|Created only|
 |"appointment"|Follow-ups|
@@ -35,9 +34,8 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |"document"|Documents|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |projectId|int|Project ID: Database ID of project record| x |
@@ -97,6 +95,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/invitedPersonId| *None* |ID of invited person: appointment.invitedpersonid record - utility for rd|  |
 |appointmentInstance/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)|  |
 |appointmentInstance/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting|  |
+|appointmentInstance/duration| *None* |Duration: The duration of the chat session|  |
 |appointmentInstance/visibleFor| *None* |Visible for|  |
 |appointmentInstance/appointmentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |appointmentInstance/appointmentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -1345,11 +1344,14 @@ This provider is a trivial aggregation of the Appointment and Document providers
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuide?$select=appointmentInstance/project/projectAssociate/fullName,appointmentInstance/sale/associate/assocTooltip,appointmentInstance/associate/assocTooltip,documentInstance/person/personUdef/SuperOffice:11,documentInstance/person/personExtra/x_person_shorttext_list
+GET /api/v1/archive/ProjectGuide?$select=appointmentInstance/contact/activeErpLinks,appointmentInstance/contact/streetAddress/formattedAddress,appointmentInstance/contact/contactUdef/SuperOffice:8,appointmentInstance/person/personAssociate/middleName,appointmentInstance/project/projectAssociate/simultaneousEjUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

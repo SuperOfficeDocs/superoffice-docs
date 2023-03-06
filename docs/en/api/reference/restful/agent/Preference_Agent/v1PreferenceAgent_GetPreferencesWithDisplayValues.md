@@ -82,18 +82,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "voluptas",
-      "Key": "nam"
+      "Section": "similique",
+      "Key": "fugit"
     },
     {
-      "Section": "voluptas",
-      "Key": "nam"
+      "Section": "similique",
+      "Key": "fugit"
     }
   ]
 }
@@ -108,22 +108,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "consectetur",
+    "RawValue": "velit",
     "Specification": null,
-    "DisplayValue": "aspernatur",
-    "DisplayTooltip": "ut",
+    "DisplayValue": "sit",
+    "DisplayTooltip": "eius",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 969,
-    "PrefDescId": 910,
-    "TableName": "Pagac Inc and Sons",
-    "UserPreferenceId": 492,
+    "TargetId": 263,
+    "PrefDescId": 981,
+    "TableName": "Kemmer, Blanda and Lynch",
+    "UserPreferenceId": 150,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 454
+        "FieldLength": 541
       }
     }
   }

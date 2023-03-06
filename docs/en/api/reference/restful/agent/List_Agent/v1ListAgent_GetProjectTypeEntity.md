@@ -25,7 +25,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=222
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=756
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,41 +85,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 244,
-  "Name": "Bashirian, Zboncak and Bahringer",
-  "Tooltip": "aut",
-  "Rank": 740,
+  "ProjTypeId": 6,
+  "Name": "Hoeger-Russel",
+  "Tooltip": "beatae",
+  "Rank": 994,
   "DurationUnit": "Century",
-  "ProjectDuration": 467,
-  "Deleted": true,
-  "HasGuide": true,
-  "IsAutoAdvance": true,
+  "ProjectDuration": 51,
+  "Deleted": false,
+  "HasGuide": false,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 773,
-      "Name": "Nienow LLC",
-      "ToolTip": "Pariatur ad exercitationem neque.",
+      "Id": 496,
+      "Name": "Dach-Rau",
+      "ToolTip": "Distinctio id est.",
       "Deleted": false,
-      "Rank": 594,
-      "Type": "eveniet",
-      "ColorBlock": 353,
-      "IconHint": "libero",
+      "Rank": 441,
+      "Type": "sapiente",
+      "ColorBlock": 694,
+      "IconHint": "rerum",
       "Selected": false,
-      "LastChanged": "2000-10-17T17:37:18.1672422+02:00",
+      "LastChanged": "2018-04-22T14:19:03.6082484+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nihil",
-      "StyleHint": "voluptas",
+      "ExtraInfo": "culpa",
+      "StyleHint": "dolor",
       "Hidden": true,
-      "FullName": "Phoebe Alexanne Koch MD",
+      "FullName": "Ms. Leta Langworth",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 780
+          "FieldLength": 379
         }
       }
     }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldLength": 369
     }
   }
 }

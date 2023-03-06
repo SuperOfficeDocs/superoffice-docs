@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "PersonRelation"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -23,17 +23,15 @@ Data provider class for the 'Relation' archive under the person card. This class
 the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) into one data stream.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"relation"|[Relation]|
 |"retired"|Former employees|
 |"stop"|Companies flagged with Stop|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |relationName|string|Name: Name of relation, not taking into account the relation direction| x |
@@ -534,11 +532,14 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 ## Sample
 
 ```http!
-GET /api/v1/archive/PersonRelation?$select=source/personDirectFax/description,source/orgnr,target/registeredDate,target/streetAddress/wgs84longitude,fullName
+GET /api/v1/archive/PersonRelation?$select=target/contactAssociate/personId,target/contactExtra/x_contact_short_dropdown,target/LastTicket,target/personRegisteredBy,source/contactExtra/x_contact_date
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

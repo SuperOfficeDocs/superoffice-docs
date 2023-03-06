@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.DeleteAllHeadi
 
 ## DeleteAllHeadingsFromName
 
-Delete all headings for list resolved by the provided name.
 
-* **name:** The name of the list to look up.
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteAllHeadingsFromName Response
 
 ```xml
@@ -68,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

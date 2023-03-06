@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services84/List.
 
 Handled by the <see cref="T:SuperOffice.Services84.IListAgent">SuperOffice.Services84.IListAgent</see> interface.
 
-Interface for the List Agent
-Collection of all services that works with Lists. These are typical lists of data shown in dropdown list, checkbox lists, etc.
+
 
 Download [WSDL file for Services84/List](../Services84-List.md) if you need to generate your own proxy code.
 
@@ -244,3 +243,4 @@ Download [WSDL file for Services84/List](../Services84-List.md) if you need to g
 * [SetVisibleForUserGroups](SetVisibleForUserGroups.md)
 * [SetVisibleForUserGroupsFromListName](SetVisibleForUserGroupsFromListName.md)
 * [SortListItems](SortListItems.md)
+

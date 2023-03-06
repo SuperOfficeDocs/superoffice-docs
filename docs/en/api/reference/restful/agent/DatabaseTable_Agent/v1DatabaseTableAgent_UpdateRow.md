@@ -69,11 +69,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Gerhold, Pacocha and Feil",
-  "Id": 782,
+  "TableName": "McGlynn-Crona",
+  "Id": 468,
   "Values": {
-    "Values1": "error",
-    "Values2": "sit"
+    "Values1": "facilis",
+    "Values2": "voluptatem"
   }
 }
 ```

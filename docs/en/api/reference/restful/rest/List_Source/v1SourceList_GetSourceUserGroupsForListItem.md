@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 212,
-    "Name": "Olson Group",
-    "ToolTip": "Deserunt voluptatem.",
+    "Id": 627,
+    "Name": "Bednar LLC",
+    "ToolTip": "Est ut velit cupiditate.",
     "Deleted": true,
-    "Rank": 444,
-    "Type": "quia",
-    "ColorBlock": 52,
+    "Rank": 105,
+    "Type": "ea",
+    "ColorBlock": 651,
     "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2013-06-03T17:37:40.3725026+02:00",
+    "Selected": true,
+    "LastChanged": "2000-02-20T14:19:11.6276984+01:00",
     "ChildItems": [
       {
-        "Id": 217,
-        "Name": "Will Group",
-        "ToolTip": "Dolor fugit mollitia dolore id beatae.",
-        "Deleted": true,
-        "Rank": 926,
-        "Type": "aut",
-        "ColorBlock": 801,
-        "IconHint": "fuga",
+        "Id": 92,
+        "Name": "McGlynn, Dare and Wuckert",
+        "ToolTip": "Error perferendis similique dignissimos vero.",
+        "Deleted": false,
+        "Rank": 24,
+        "Type": "omnis",
+        "ColorBlock": 764,
+        "IconHint": "est",
         "Selected": true,
-        "LastChanged": "2021-06-25T17:37:40.3725026+02:00",
+        "LastChanged": "2011-08-17T14:19:11.6276984+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "sunt",
-        "Hidden": true,
-        "FullName": "Mr. Ahmed Kuphal",
+        "ExtraInfo": "et",
+        "StyleHint": "nesciunt",
+        "Hidden": false,
+        "FullName": "Ms. Lurline Yundt PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 221
+            "FieldLength": 968
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Giovani Huels",
+    "ExtraInfo": "delectus",
+    "StyleHint": "harum",
+    "Hidden": true,
+    "FullName": "Damian Parker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 243
+        "FieldType": "System.Int32",
+        "FieldLength": 732
       }
     }
   }

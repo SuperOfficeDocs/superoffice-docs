@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 447
+  "PersonId": 358
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 67,
-    "Name": "Kautzer-Orn",
-    "Description": "Focused assymetric encoding",
+    "ProjectId": 571,
+    "Name": "Cummings-Steuber",
+    "Description": "Face to face dedicated portal",
     "URL": "http://www.example.com/",
-    "Type": "magni",
-    "AssociateId": 991,
-    "AssociateFullName": "Emmy Halvorson",
-    "TypeId": 804,
-    "Updated": "2020-04-19T17:37:18.6662421+02:00",
-    "StatusId": 126,
-    "Status": "atque",
-    "TextId": 232,
-    "PublishTo": "2009-07-03T17:37:18.6662421+02:00",
-    "PublishFrom": "2018-07-05T17:37:18.6662421+02:00",
+    "Type": "et",
+    "AssociateId": 559,
+    "AssociateFullName": "Nels Mertz",
+    "TypeId": 879,
+    "Updated": "1997-02-21T14:19:03.9688343+01:00",
+    "StatusId": 971,
+    "Status": "voluptatem",
+    "TextId": 903,
+    "PublishTo": "2009-12-28T14:19:03.9688343+01:00",
+    "PublishFrom": "2021-01-12T14:19:03.9688343+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "311195",
-    "ActiveErpLinks": 101,
+    "ProjectNumber": "1409654",
+    "ActiveErpLinks": 770,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 831
+        "FieldLength": 587
       }
     }
   }

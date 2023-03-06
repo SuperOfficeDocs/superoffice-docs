@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 376,
-    "Name": "Kilback Inc and Sons",
-    "Tooltip": "ea",
-    "Deleted": true,
-    "UdListDefinitionId": 781,
-    "Rank": 816
+    "Id": 451,
+    "Name": "Walsh Group",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 905,
+    "Rank": 914
   },
   {
-    "Id": 376,
-    "Name": "Kilback Inc and Sons",
-    "Tooltip": "ea",
-    "Deleted": true,
-    "UdListDefinitionId": 781,
-    "Rank": 816
+    "Id": 451,
+    "Name": "Walsh Group",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 905,
+    "Rank": 914
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 920,
-    "Name": "Bradtke LLC",
-    "Tooltip": "sunt",
-    "Deleted": false,
-    "UdListDefinitionId": 714,
-    "Rank": 308,
+    "Id": 108,
+    "Name": "Johnston-Barton",
+    "Tooltip": "eveniet",
+    "Deleted": true,
+    "UdListDefinitionId": 790,
+    "Rank": 174,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 721
+        "FieldType": "System.String",
+        "FieldLength": 612
       }
     }
   }

@@ -95,33 +95,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 303,
-    "Name": "Schinner-Hackett",
-    "Tooltip": "provident",
+    "WebPanelId": 515,
+    "Name": "Emmerich LLC",
+    "Tooltip": "fugit",
     "Deleted": false,
-    "Rank": 974,
+    "Rank": 632,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
+    "OnCentral": false,
     "OnSatellite": true,
     "OnTravel": true,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": false,
+    "ShowInMenuBar": true,
     "ShowInToolBar": false,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Gorczany Inc and Sons",
+    "WindowName": "Hagenes-Zieme",
     "Url": "http://www.example.com/",
-    "ProgId": "nam",
-    "Icon": 32,
+    "ProgId": "molestiae",
+    "Icon": 653,
     "AlwaysReloadOnShow": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 384
+        "FieldLength": 181
       }
     }
   }

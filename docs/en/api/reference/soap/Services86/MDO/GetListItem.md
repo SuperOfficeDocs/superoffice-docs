@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IMDOAgent.GetListItem">Su
 
 ## GetListItem
 
-Returns a single list item
 
-* **listName:** Conceptual name of the MDO list
-* **id:** Id of list item
 
-**Returns:** Single MDO list item
+
 
 [WSDL file for Services86/MDO](../Services86-MDO.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetListItem Response
 
@@ -129,3 +127,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IPersonAgent.GetPersonLis
 
 ## GetPersonList
 
-Gets an array of Person objects.
 
-* **personIds:** The identifiers of the Person object
 
-**Returns:** Array of Person objects
+
 
 [WSDL file for Services85/Person](../Services85-Person.md)
 
@@ -50,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetPersonList Response
 
@@ -113,3 +112,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

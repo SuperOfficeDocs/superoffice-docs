@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 412
+  "ContactId": 300
 }
 ```
 
@@ -127,52 +127,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "vero",
-    "PersonId": 87,
-    "Mrmrs": "autem",
-    "Firstname": "Jessy",
-    "Lastname": "Abernathy",
-    "MiddleName": "Klocko-Hoppe",
-    "Title": "accusantium",
-    "Description": "Right-sized local utilisation",
-    "Email": "jaden@batz.uk",
-    "FullName": "Aiyana Borer",
-    "DirectPhone": "273.942.4153",
-    "FormalName": "Heathcote, Bode and Romaguera",
-    "CountryId": 345,
-    "ContactId": 423,
-    "ContactName": "Walter-Moore",
-    "Retired": 26,
-    "Rank": 810,
-    "ActiveInterests": 881,
+    "Position": "deserunt",
+    "PersonId": 238,
+    "Mrmrs": "dolores",
+    "Firstname": "Destin",
+    "Lastname": "Pacocha",
+    "MiddleName": "Beier-Skiles",
+    "Title": "in",
+    "Description": "Right-sized value-added hierarchy",
+    "Email": "emmanuelle@swaniawskibogan.biz",
+    "FullName": "Cydney Kiehn",
+    "DirectPhone": "(085)452-8210",
+    "FormalName": "Gleichner, Bode and Marquardt",
+    "CountryId": 189,
+    "ContactId": 546,
+    "ContactName": "Kshlerin Inc and Sons",
+    "Retired": 829,
+    "Rank": 566,
+    "ActiveInterests": 602,
     "ContactDepartment": "",
-    "ContactCountryId": 194,
-    "ContactOrgNr": "902429",
-    "FaxPhone": "(740)100-7907 x43811",
-    "MobilePhone": "1-081-370-4207",
-    "ContactPhone": "(822)230-0450 x44218",
-    "AssociateName": "Luettgen Group",
-    "AssociateId": 441,
-    "UsePersonAddress": false,
-    "ContactFax": "fuga",
-    "Kanafname": "est",
-    "Kanalname": "voluptatem",
-    "Post1": "voluptatem",
-    "Post2": "id",
-    "Post3": "atque",
-    "EmailName": "seamus_carroll@hermanquitzon.name",
-    "ContactFullName": "Ms. Marlee Sam Huel PhD",
-    "ActiveErpLinks": 923,
-    "TicketPriorityId": 170,
-    "SupportLanguageId": 362,
-    "SupportAssociateId": 389,
+    "ContactCountryId": 279,
+    "ContactOrgNr": "452732",
+    "FaxPhone": "(381)311-4862 x8506",
+    "MobilePhone": "1-362-253-0790",
+    "ContactPhone": "597.838.6227",
+    "AssociateName": "Hane-Rodriguez",
+    "AssociateId": 816,
+    "UsePersonAddress": true,
+    "ContactFax": "et",
+    "Kanafname": "qui",
+    "Kanalname": "eaque",
+    "Post1": "explicabo",
+    "Post2": "amet",
+    "Post3": "qui",
+    "EmailName": "ibrahim@schumm.com",
+    "ContactFullName": "Russ Schuster",
+    "ActiveErpLinks": 758,
+    "TicketPriorityId": 47,
+    "SupportLanguageId": 420,
+    "SupportAssociateId": 895,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 543
+        "FieldLength": 942
       }
     }
   }

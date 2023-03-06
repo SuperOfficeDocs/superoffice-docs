@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.ISelectionAgent.GetSelect
 
 ## GetSelectionEntity
 
-Gets a SelectionEntity object.
 
-* **selectionEntityId:** The identifier of the SelectionEntity object
 
-**Returns:** SelectionEntity
+
 
 [WSDL file for Services84/Selection](../Services84-Selection.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetSelectionEntity Response
 
@@ -115,12 +114,12 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Selection:MemberCount xsi:type="xsd:unsignedInt">0</Selection:MemberCount>
     <Selection:Name xsi:type="xsd:string"></Selection:Name>
     <Selection:PostitTextId xsi:type="xsd:int">0</Selection:PostitTextId>
-    <Selection:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:51:46Z</Selection:CreatedDate>
+    <Selection:CreatedDate xsi:type="xsd:dateTime">2023-02-15T13:10:19Z</Selection:CreatedDate>
     <Selection:SelectionId xsi:type="xsd:int">0</Selection:SelectionId>
     <Selection:SoundEx xsi:type="xsd:string"></Selection:SoundEx>
     <Selection:Source xsi:type="xsd:short">0</Selection:Source>
     <Selection:TextId xsi:type="xsd:int">0</Selection:TextId>
-    <Selection:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:51:46Z</Selection:UpdatedDate>
+    <Selection:UpdatedDate xsi:type="xsd:dateTime">2023-02-15T13:10:19Z</Selection:UpdatedDate>
     <Selection:UpdatedCount xsi:type="xsd:short">0</Selection:UpdatedCount>
     <Selection:Visibility xsi:type="xsd:short">0</Selection:Visibility>
     <Selection:SelectionType xsi:type="Selection:SelectionType">Static</Selection:SelectionType>
@@ -144,3 +143,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

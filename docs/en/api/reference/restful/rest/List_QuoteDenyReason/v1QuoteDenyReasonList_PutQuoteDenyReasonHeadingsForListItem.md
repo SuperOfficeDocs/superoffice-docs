@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 284,
-    "Name": "Runolfsdottir, O'Conner and Beier",
-    "ToolTip": "Eum rerum quia voluptas ut dignissimos hic non.",
+    "Id": 953,
+    "Name": "Daugherty-Rath",
+    "ToolTip": "Ut fugiat.",
     "Deleted": false,
-    "Rank": 380,
-    "Type": "id",
-    "ColorBlock": 65,
-    "IconHint": "nulla",
+    "Rank": 188,
+    "Type": "sapiente",
+    "ColorBlock": 472,
+    "IconHint": "quia",
     "Selected": true,
-    "LastChanged": "1995-10-16T17:37:40.2545004+02:00",
+    "LastChanged": "1998-01-02T14:19:11.430529+01:00",
     "ChildItems": [
       {
-        "Id": 302,
-        "Name": "Johns Inc and Sons",
-        "ToolTip": "Natus et est.",
-        "Deleted": true,
-        "Rank": 649,
-        "Type": "voluptatem",
-        "ColorBlock": 153,
-        "IconHint": "totam",
+        "Id": 821,
+        "Name": "Franecki-Thompson",
+        "ToolTip": "Molestiae voluptas maiores quo magni voluptas reiciendis labore.",
+        "Deleted": false,
+        "Rank": 94,
+        "Type": "sed",
+        "ColorBlock": 583,
+        "IconHint": "ducimus",
         "Selected": true,
-        "LastChanged": "2014-11-14T17:37:40.2545004+01:00",
+        "LastChanged": "2000-06-02T14:19:11.430529+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "veniam",
+        "ExtraInfo": "minima",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Mr. Ella Harris II"
+        "FullName": "Mr. Vivien Kuhn"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Cecile Dickens"
+    "ExtraInfo": "dolores",
+    "StyleHint": "magnam",
+    "Hidden": false,
+    "FullName": "Anastasia Reinger PhD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 900,
-    "Name": "Fadel-Kuphal",
-    "ToolTip": "Id mollitia officia iste impedit qui molestias architecto.",
+    "Id": 270,
+    "Name": "Wolff-Altenwerth",
+    "ToolTip": "Magnam deserunt.",
     "Deleted": false,
-    "Rank": 200,
-    "Type": "voluptas",
-    "ColorBlock": 941,
-    "IconHint": "voluptatem",
+    "Rank": 142,
+    "Type": "at",
+    "ColorBlock": 87,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "2002-07-14T17:37:40.2564719+02:00",
+    "LastChanged": "2013-08-11T14:19:11.430529+02:00",
     "ChildItems": [
       {
-        "Id": 350,
-        "Name": "Fadel, Dach and O'Connell",
-        "ToolTip": "Illum unde vitae optio sed sunt.",
+        "Id": 794,
+        "Name": "Little, Stamm and Huel",
+        "ToolTip": "Nemo illo esse eos.",
         "Deleted": true,
-        "Rank": 374,
-        "Type": "officia",
-        "ColorBlock": 730,
-        "IconHint": "maiores",
-        "Selected": false,
-        "LastChanged": "2005-02-15T17:37:40.2575002+01:00",
+        "Rank": 88,
+        "Type": "ipsam",
+        "ColorBlock": 510,
+        "IconHint": "quo",
+        "Selected": true,
+        "LastChanged": "2012-01-15T14:19:11.430529+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "repellat",
+        "StyleHint": "itaque",
         "Hidden": false,
-        "FullName": "Mrs. Larue Macy Blanda",
+        "FullName": "Miss Emmy Laurence Stiedemann II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 630
+            "FieldLength": 394
           }
         }
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "vel",
-    "Hidden": false,
-    "FullName": "Augustus Kozey",
+    "ExtraInfo": "esse",
+    "StyleHint": "quo",
+    "Hidden": true,
+    "FullName": "Cody Bahringer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 411
+        "FieldType": "System.Int32",
+        "FieldLength": 298
       }
     }
   }

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IContactAgent.GetContactL
 
 ## GetContactList
 
-Gets an array of Contact objects.
 
-* **contactIds:** The identifiers of the Contact object
 
-**Returns:** Array of Contact objects
+
 
 [WSDL file for Services86/Contact](../Services86-Contact.md)
 
@@ -50,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetContactList Response
 
@@ -131,3 +130,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

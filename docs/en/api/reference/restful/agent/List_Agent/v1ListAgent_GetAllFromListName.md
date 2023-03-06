@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Pfannerstill-Cronin",
+  "UdListDefinitionName": "Ebert-Mann",
   "IncludeDeleted": false
 }
 ```
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 449,
-    "Name": "Cummings LLC",
-    "Tooltip": "autem",
+    "Id": 965,
+    "Name": "Wehner Inc and Sons",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 954,
-    "Rank": 320,
+    "UdListDefinitionId": 30,
+    "Rank": 499,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 796
+        "FieldType": "System.Int32",
+        "FieldLength": 568
       }
     }
   }

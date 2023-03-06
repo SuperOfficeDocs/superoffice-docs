@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IErpSyncAgent.GetAllConne
 
 ## GetAllConnectors
 
-Returns all ERP Sync connectors. Uses the `ErpConnector` archive.
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
-**Returns:** The connector id, name, url
+
+
 
 [WSDL file for Services88/ErpSync](../Services88-ErpSync.md)
 
@@ -47,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAllConnectors Response
 
 ```xml
@@ -73,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

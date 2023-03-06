@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashboardAgent.GetData">
 
 ## GetData
 
-Get data for this tile
 
-* **dashboardTileId:** Tile Id
-* **restrictions:** Replacement restrictions
 
-**Returns:** The data
+
 
 [WSDL file for Services88/Dashboard](../Services88-Dashboard.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetData Response
 
@@ -108,3 +106,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,26 +79,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 1000,
-  "Name": "Reilly Inc and Sons",
+  "WebhookId": 886,
+  "Name": "Stracke-McClure",
   "Events": [
-    "molestiae",
-    "qui"
+    "quis",
+    "et"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "nulla",
+  "Secret": "velit",
   "State": "Active",
-  "Type": "omnis",
+  "Type": "ratione",
   "Headers": {
-    "Headers1": "aperiam",
-    "Headers2": "pariatur"
+    "Headers1": "unde",
+    "Headers2": "debitis"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2011-07-23T17:37:19.6430063+02:00",
+  "Registered": "2009-12-31T14:19:04.6422019+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2012-10-31T17:37:19.6430063+01:00",
+  "Updated": "2017-11-03T14:19:04.6422019+01:00",
   "UpdatedAssociate": null
 }
 ```

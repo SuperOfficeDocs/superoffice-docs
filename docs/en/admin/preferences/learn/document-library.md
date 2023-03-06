@@ -23,8 +23,10 @@ See [Configure SharePoint document library][1]
 ## Related topics
 
 * [Configure SharePoint document library][1]
+* [Microsoft 365 SharePoint and Google Workspace integration in SuperOffice CRM][2] - Technical documents
 
 <!-- Referenced links -->
 [1]: configure-sharepoint-document-library.md
+[2]: ../../../document/cloud/overview.md
 
 <!-- Referenced images -->

@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 980,
-  "Name": "Kling, Carroll and Feeney",
-  "Tooltip": "tenetur",
+  "Id": 289,
+  "Name": "Feil Inc and Sons",
+  "Tooltip": "odit",
   "Deleted": true,
-  "Rank": 626,
-  "IsCustomList": false,
+  "Rank": 791,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "a",
+  "ListType": "veniam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 144,
-  "Name": "Renner Inc and Sons",
-  "Tooltip": "deserunt",
+  "Id": 417,
+  "Name": "Kub-Klein",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 133,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 252,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "maiores",
-  "InUseByUserDefinedFields": true,
+  "ListType": "at",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 392
+      "FieldLength": 974
     }
   }
 }

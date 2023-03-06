@@ -1,5 +1,5 @@
 items:
-- name: Overview
+- name: Edit selection
   href: index.md
 - name: Add members to static selection
   href: add-members-to-static.md
@@ -7,5 +7,5 @@ items:
   href: remove-members-from-static.md
 - name: Copy members to another selection
   href: copy-members-to.md
-- name: Delete a selection
+- name: Delete selection
   href: delete.md

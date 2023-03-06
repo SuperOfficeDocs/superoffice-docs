@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 926,
-    "Name": "Crona Inc and Sons",
-    "Tooltip": "itaque",
+    "Id": 766,
+    "Name": "Ondricka Inc and Sons",
+    "Tooltip": "sit",
     "Deleted": false,
-    "UdListDefinitionId": 774,
-    "Rank": 50
+    "UdListDefinitionId": 953,
+    "Rank": 416
   },
   {
-    "Id": 926,
-    "Name": "Crona Inc and Sons",
-    "Tooltip": "itaque",
+    "Id": 766,
+    "Name": "Ondricka Inc and Sons",
+    "Tooltip": "sit",
     "Deleted": false,
-    "UdListDefinitionId": 774,
-    "Rank": 50
+    "UdListDefinitionId": 953,
+    "Rank": 416
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 138,
-    "Name": "Bahringer-Von",
-    "Tooltip": "sapiente",
+    "Id": 910,
+    "Name": "Berge-Gibson",
+    "Tooltip": "vero",
     "Deleted": false,
-    "UdListDefinitionId": 529,
-    "Rank": 937,
+    "UdListDefinitionId": 477,
+    "Rank": 606,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 651
+        "FieldLength": 730
       }
     }
   }

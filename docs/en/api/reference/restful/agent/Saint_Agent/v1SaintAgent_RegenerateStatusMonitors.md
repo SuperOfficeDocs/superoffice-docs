@@ -83,6 +83,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -92,11 +93,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -107,36 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 443,
-  "Name": "Denesik Group",
-  "AssociateId": 378,
-  "DetailsTable": 936,
-  "DetailsRecord": 359,
+  "Id": 422,
+  "Name": "Sipes-Donnelly",
+  "AssociateId": 465,
+  "DetailsTable": 211,
+  "DetailsRecord": 455,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "quia",
-    "ParameterObject2": "quia"
+    "ParameterObject1": "ex",
+    "ParameterObject2": "ut"
   },
-  "LastStarted": "2011-04-24T17:37:18.8152413+02:00",
-  "Created": "2006-08-31T17:37:18.8152413+02:00",
-  "StartCount": 217,
-  "DatabaseSerialNumber": "122572",
-  "Context": "architecto",
-  "Result": "vero",
+  "LastStarted": "2015-03-07T14:19:04.0782101+01:00",
+  "Created": "2004-11-06T14:19:04.0782101+01:00",
+  "StartCount": 686,
+  "DatabaseSerialNumber": "1611462",
+  "Context": "eligendi",
+  "Result": "in",
   "State": "All",
-  "Description": "Pre-emptive asynchronous product",
-  "Response": "nihil",
-  "Request": "optio",
-  "ProgressDescription": "Streamlined fresh-thinking utilisation",
-  "ProgressPercent": 630,
-  "FileName": "Emmerich LLC",
+  "Description": "Configurable 4th generation application",
+  "Response": "et",
+  "Request": "corporis",
+  "ProgressDescription": "Re-contextualized incremental customer loyalty",
+  "ProgressPercent": 378,
+  "FileName": "Lemke Inc and Sons",
+  "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 716
+      "FieldLength": 289
     }
   }
 }

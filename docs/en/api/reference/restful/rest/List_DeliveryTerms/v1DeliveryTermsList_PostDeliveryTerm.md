@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 408,
-  "Name": "Runolfsdottir Inc and Sons",
-  "Tooltip": "voluptas",
+  "Id": 226,
+  "Name": "Lakin-Fadel",
+  "Tooltip": "deserunt",
   "Deleted": false,
-  "UdListDefinitionId": 732,
-  "Rank": 828
+  "UdListDefinitionId": 701,
+  "Rank": 858
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 667,
-  "Name": "Rogahn-Gerhold",
-  "Tooltip": "rerum",
+  "Id": 792,
+  "Name": "Metz-Hettinger",
+  "Tooltip": "quis",
   "Deleted": false,
-  "UdListDefinitionId": 267,
-  "Rank": 861,
+  "UdListDefinitionId": 793,
+  "Rank": 13,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 443
+      "FieldType": "System.String",
+      "FieldLength": 475
     }
   }
 }

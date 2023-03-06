@@ -86,20 +86,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 949,
-  "Name": "Bailey, O'Connell and Hayes",
-  "Tooltip": "et",
+  "RoleId": 244,
+  "Name": "Carroll, Herzog and Crist",
+  "Tooltip": "architecto",
   "RoleType": "Anonymous",
-  "Deleted": 73,
-  "Rank": 343,
-  "Created": "1999-11-08T17:37:19.5159769+01:00",
-  "UseCategories": 893,
+  "Deleted": 252,
+  "Rank": 929,
+  "Created": "1999-03-26T14:19:04.5484513+01:00",
+  "UseCategories": 914,
   "CreatedBy": null,
-  "Updated": "2009-12-24T17:37:19.516976+01:00",
+  "Updated": "2010-05-03T14:19:04.5484513+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -112,24 +112,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 77,
-  "Name": "Reinger-Hilll",
-  "Tooltip": "ipsa",
+  "RoleId": 353,
+  "Name": "Windler, Gutmann and Kuvalis",
+  "Tooltip": "sequi",
   "RoleType": "Anonymous",
-  "Deleted": 575,
-  "Rank": 60,
-  "Created": "2002-12-26T17:37:19.5179764+01:00",
-  "UseCategories": 960,
+  "Deleted": 646,
+  "Rank": 73,
+  "Created": "2015-02-12T14:19:04.5484513+01:00",
+  "UseCategories": 472,
   "CreatedBy": null,
-  "Updated": "1996-06-11T17:37:19.5189767+02:00",
+  "Updated": "2007-08-26T14:19:04.5484513+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 494
+      "FieldType": "System.String",
+      "FieldLength": 470
     }
   }
 }

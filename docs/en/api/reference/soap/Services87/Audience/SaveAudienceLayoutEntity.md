@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IAudienceAgent.SaveAudien
 
 ## SaveAudienceLayoutEntity
 
-Updates the existing AudienceLayoutEntity or creates a new AudienceLayoutEntity if the id parameter is 0.
 
-* **audienceLayoutEntity:** The AudienceLayoutEntity that is saved.
 
-**Returns:** New or updated AudienceLayoutEntity
+
 
 [WSDL file for Services87/Audience](../Services87-Audience.md)
 
@@ -44,8 +42,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Audience:AudienceLayoutId xsi:type="xsd:int">0</Audience:AudienceLayoutId>
      <Audience:InstanceLayout xsi:type="xsd:string"></Audience:InstanceLayout>
      <Audience:InstanceName xsi:type="xsd:string"></Audience:InstanceName>
-     <Audience:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:56:19Z</Audience:CreatedDate>
-     <Audience:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:56:19Z</Audience:UpdatedDate>
+     <Audience:CreatedDate xsi:type="xsd:dateTime">2023-02-15T13:14:32Z</Audience:CreatedDate>
+     <Audience:UpdatedDate xsi:type="xsd:dateTime">2023-02-15T13:14:32Z</Audience:UpdatedDate>
      <Audience:CreatedBy xsi:type="Audience:Associate">
       <Audience:AssociateId xsi:type="xsd:int">0</Audience:AssociateId>
       <Audience:Name xsi:type="xsd:string"></Audience:Name>
@@ -82,6 +80,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveAudienceLayoutEntity Response
 
 ```xml
@@ -99,8 +98,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Audience:AudienceLayoutId xsi:type="xsd:int">0</Audience:AudienceLayoutId>
     <Audience:InstanceLayout xsi:type="xsd:string"></Audience:InstanceLayout>
     <Audience:InstanceName xsi:type="xsd:string"></Audience:InstanceName>
-    <Audience:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:56:19Z</Audience:CreatedDate>
-    <Audience:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:56:19Z</Audience:UpdatedDate>
+    <Audience:CreatedDate xsi:type="xsd:dateTime">2023-02-15T13:14:32Z</Audience:CreatedDate>
+    <Audience:UpdatedDate xsi:type="xsd:dateTime">2023-02-15T13:14:32Z</Audience:UpdatedDate>
     <Audience:CreatedBy xsi:type="Audience:Associate">
      <Audience:AssociateId xsi:type="xsd:int">0</Audience:AssociateId>
      <Audience:Name xsi:type="xsd:string"></Audience:Name>
@@ -135,3 +134,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -66,7 +66,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,29 +76,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 795,
-  "Name": "Hyatt LLC",
-  "CreatedDate": "2015-03-15T17:37:38.6098647+01:00",
-  "UpdatedDate": "2019-10-22T17:37:38.6098647+02:00",
+  "ForeignAppId": 180,
+  "Name": "Kuhlman, Waelchi and Kub",
+  "CreatedDate": "2017-12-10T14:19:10.3498478+01:00",
+  "UpdatedDate": "2017-02-26T14:19:10.3498478+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 230,
-      "Name": "Stracke Group",
-      "CreatedDate": "2005-03-05T17:37:38.6098647+01:00",
-      "UpdatedDate": "2013-10-16T17:37:38.6098647+02:00",
-      "AssociateFullName": "Mr. Estella Olson",
-      "CreatedBy": "veritatis",
-      "UpdatedBy": "ut",
-      "DeviceIdentifier": "quo",
-      "ForeignAppId": 468,
+      "ForeignDeviceId": 1001,
+      "Name": "Friesen-Kuhlman",
+      "CreatedDate": "2003-06-02T14:19:10.3498478+02:00",
+      "UpdatedDate": "2011-07-05T14:19:10.3498478+02:00",
+      "AssociateFullName": "Mario Strosin",
+      "CreatedBy": "aut",
+      "UpdatedBy": "qui",
+      "DeviceIdentifier": "ut",
+      "ForeignAppId": 980,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 437
+          "FieldLength": 937
         }
       }
     }
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 474
+      "FieldLength": 19
     }
   }
 }

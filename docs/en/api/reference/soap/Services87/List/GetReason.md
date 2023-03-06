@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetReason">Sup
 
 ## GetReason
 
-Gets a Reason object.
 
-* **reasonId:** The identifier of the Reason object
 
-**Returns:** Reason
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetReason Response
 
 ```xml
@@ -73,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

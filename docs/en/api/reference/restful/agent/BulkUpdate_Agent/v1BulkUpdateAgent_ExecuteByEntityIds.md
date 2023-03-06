@@ -70,36 +70,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
       "CanSupportMultiUse": false,
-      "DefaultShowInGui": false,
+      "DefaultShowInGui": true,
       "DefaultShowInSelector": false,
-      "IsActive": true,
-      "Key": "harum",
-      "ValueType": "totam",
-      "Mandatory": false,
-      "EncodedDisplayName": "Ferry-Sipes",
-      "EncodedDisplayDescription": "Ameliorated analyzing encoding",
-      "IconHint": "quam",
+      "IsActive": false,
+      "Key": "repellendus",
+      "ValueType": "laudantium",
+      "Mandatory": true,
+      "EncodedDisplayName": "Goldner, Gulgowski and Greenholt",
+      "EncodedDisplayDescription": "Versatile client-driven structure",
+      "IconHint": "sed",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "aut",
-      "EncodedDataCaptionDescription": "Persevering real-time system engine",
-      "CurrentOperationType": "vitae",
+      "EncodedDataCaption": "sed",
+      "EncodedDataCaptionDescription": "Proactive local info-mediaries",
+      "CurrentOperationType": "consequatur",
       "Values": [
-        "occaecati",
-        "sequi"
+        "dolorem",
+        "deleniti"
       ],
       "DisplayValues": [
-        "accusantium",
-        "modi"
+        "et",
+        "aut"
       ],
       "OperationInfos": [
         {},
@@ -107,9 +107,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Kling-Rosenbaum",
-  "Context": "praesentium",
-  "Ids": "omnis"
+  "TableName": "Grady, Heller and Ziemann",
+  "Context": "ut",
+  "Ids": "soluta"
 }
 ```
 
@@ -119,5 +119,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-944
+527
 ```

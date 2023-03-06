@@ -82,21 +82,21 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 885,
-      "FieldName": "Ebert Inc and Sons",
-      "Label": "aut",
-      "Tooltip": "sit",
-      "Editable": true,
+      "QuoteLineConfigurationId": 923,
+      "FieldName": "Hills LLC",
+      "Label": "totam",
+      "Tooltip": "laudantium",
+      "Editable": false,
       "InUse": true,
-      "Mandatory": false,
-      "Rank": 561,
-      "RestrictEdit": false
+      "Mandatory": true,
+      "Rank": 87,
+      "RestrictEdit": true
     }
   ]
 }
@@ -110,21 +110,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 773,
-    "FieldName": "Boyle, Davis and Bradtke",
-    "Label": "rem",
-    "Tooltip": "dolorum",
+    "QuoteLineConfigurationId": 599,
+    "FieldName": "Parker-Schimmel",
+    "Label": "totam",
+    "Tooltip": "natus",
     "Editable": false,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 28,
-    "RestrictEdit": true,
+    "Rank": 79,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldType": "System.String",
+        "FieldLength": 477
       }
     }
   }

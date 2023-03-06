@@ -80,7 +80,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,76 +91,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "quam",
-  "AssociateId": 600,
+  "Associate": "at",
+  "AssociateId": 94,
   "IsPerson": false,
-  "PersonId": 792,
-  "CountryId": 678,
-  "HomeCountryId": 538,
-  "ContactId": 844,
-  "GroupId": 333,
-  "BusinessId": 802,
-  "CategoryId": 109,
-  "ContactOwner": 208,
-  "RoleId": 831,
-  "RoleName": "Pollich, Spinka and Walker",
-  "RoleDescription": "Devolved assymetric matrix",
+  "PersonId": 768,
+  "CountryId": 769,
+  "HomeCountryId": 125,
+  "ContactId": 491,
+  "GroupId": 243,
+  "BusinessId": 767,
+  "CategoryId": 625,
+  "ContactOwner": 586,
+  "RoleId": 462,
+  "RoleName": "Windler-Franecki",
+  "RoleDescription": "Vision-oriented maximized pricing structure",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 378,
-      "OwnerName": "Wehner-Vandervort",
-      "OwnerDescription": "Devolved intangible parallelism",
-      "ModuleId": 515,
-      "Name": "Prosacco, Conroy and Fadel",
-      "Description": "Function-based cohesive knowledge user",
-      "Version": "culpa",
+      "OwnerId": 669,
+      "OwnerName": "Runolfsdottir-Wiegand",
+      "OwnerDescription": "Synergized incremental hierarchy",
+      "ModuleId": 892,
+      "Name": "Murazik-Cronin",
+      "Description": "Multi-tiered explicit superstructure",
+      "Version": "qui",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 648,
-      "ExtraInfo": "voluptatem",
-      "SortOrder": 93,
-      "LicenseNumber": 70,
-      "IsHidden": false,
+      "ExtraFlags": 21,
+      "ExtraInfo": "qui",
+      "SortOrder": 372,
+      "LicenseNumber": 704,
+      "IsHidden": true,
       "IsUnrestricted": false,
-      "ExpiryDate": "2021-11-28T17:37:39.5924394+01:00",
+      "ExpiryDate": "2001-05-03T14:19:11.0686043+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 486
+          "FieldLength": 143
         }
       }
     }
   ],
-  "FullName": "Abbey Franecki",
-  "EMailAddress": "est",
+  "FullName": "Evans Murphy",
+  "EMailAddress": "quas",
   "FunctionRights": [
-    "aut",
-    "adipisci"
+    "sint",
+    "ullam"
   ],
-  "EjUserId": 236,
-  "EjAccessLevel": 814,
+  "EjUserId": 669,
+  "EjAccessLevel": 305,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "delectus",
-      "SearchName": "Becker, Swaniawski and Reichel",
-      "DisplayName": "Collins, Lindgren and Labadie",
-      "CredentialId": 243
+      "Type": "optio",
+      "SearchName": "Dietrich-Kuhlman",
+      "DisplayName": "Boyer-Kuhic",
+      "CredentialId": 562
     },
     {
-      "Type": "delectus",
-      "SearchName": "Becker, Swaniawski and Reichel",
-      "DisplayName": "Collins, Lindgren and Labadie",
-      "CredentialId": 243
+      "Type": "optio",
+      "SearchName": "Dietrich-Kuhlman",
+      "DisplayName": "Boyer-Kuhic",
+      "CredentialId": 562
     }
   ],
   "SecondaryGroups": [
-    125,
-    176
+    329,
+    144
   ],
-  "DatabaseContextIdentifier": "in",
-  "UserName": "White Inc and Sons"
+  "DatabaseContextIdentifier": "iure",
+  "UserName": "Keebler Group"
 }
 ```

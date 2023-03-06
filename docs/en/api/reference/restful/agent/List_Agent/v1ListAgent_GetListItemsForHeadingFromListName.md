@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Klocko Inc and Sons",
-  "HeadingId": 18
+  "UdListDefinitionName": "Mosciski-Gorczany",
+  "HeadingId": 381
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 46,
-    "Name": "O'Hara Inc and Sons",
-    "ToolTip": "Velit similique ut et voluptas blanditiis dolore.",
+    "Id": 393,
+    "Name": "Koepp Inc and Sons",
+    "ToolTip": "Enim repudiandae ut.",
     "Deleted": false,
-    "Rank": 408,
-    "Type": "quam",
-    "ColorBlock": 890,
-    "IconHint": "rem",
+    "Rank": 424,
+    "Type": "consequatur",
+    "ColorBlock": 232,
+    "IconHint": "expedita",
     "Selected": false,
-    "LastChanged": "2012-07-06T17:37:18.2152437+02:00",
+    "LastChanged": "1997-11-23T14:19:03.6394986+01:00",
     "ChildItems": [
       {
-        "Id": 94,
-        "Name": "Hintz-Wunsch",
-        "ToolTip": "Sequi voluptatum voluptate qui harum ea qui.",
-        "Deleted": true,
-        "Rank": 722,
-        "Type": "quisquam",
-        "ColorBlock": 277,
-        "IconHint": "ex",
+        "Id": 799,
+        "Name": "Armstrong-Runolfsson",
+        "ToolTip": "Consequuntur eaque sed laudantium in laudantium neque illo.",
+        "Deleted": false,
+        "Rank": 993,
+        "Type": "in",
+        "ColorBlock": 539,
+        "IconHint": "voluptatum",
         "Selected": true,
-        "LastChanged": "2007-08-23T17:37:18.2152437+02:00",
+        "LastChanged": "1999-04-23T14:19:03.6394986+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Dallin Schuster",
+        "ExtraInfo": "et",
+        "StyleHint": "sed",
+        "Hidden": false,
+        "FullName": "Precious Swaniawski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 618
+            "FieldLength": 74
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "atque",
     "Hidden": false,
-    "FullName": "Georgianna McKenzie",
+    "FullName": "Alia Denesik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 523
+        "FieldType": "System.Int32",
+        "FieldLength": 380
       }
     }
   }

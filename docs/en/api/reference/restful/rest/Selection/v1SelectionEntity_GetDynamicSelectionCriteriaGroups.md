@@ -61,7 +61,7 @@ OK
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,20 +72,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rosenbaum-Runolfsdottir",
-    "Description": "Stand-alone 5th generation intranet",
-    "Rank": 568,
+    "Name": "Hilpert-Effertz",
+    "Description": "Future-proofed bifurcated software",
+    "Rank": 636,
     "Restrictions": [
       {
-        "Name": "Mraz, Streich and Parker",
-        "Operator": "et",
+        "Name": "Wisozk-Sauer",
+        "Operator": "est",
         "Values": [
-          "dolor",
-          "quae"
+          "voluptatum",
+          "assumenda"
         ],
         "DisplayValues": [
-          "assumenda",
-          "similique"
+          "et",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -93,27 +93,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 800,
+        "InterParenthesis": 410,
         "InterOperator": "And",
-        "UniqueHash": 340
+        "UniqueHash": 937
       }
     ]
   },
   {
-    "Name": "Rosenbaum-Runolfsdottir",
-    "Description": "Stand-alone 5th generation intranet",
-    "Rank": 568,
+    "Name": "Hilpert-Effertz",
+    "Description": "Future-proofed bifurcated software",
+    "Rank": 636,
     "Restrictions": [
       {
-        "Name": "Mraz, Streich and Parker",
-        "Operator": "et",
+        "Name": "Wisozk-Sauer",
+        "Operator": "est",
         "Values": [
-          "dolor",
-          "quae"
+          "voluptatum",
+          "assumenda"
         ],
         "DisplayValues": [
-          "assumenda",
-          "similique"
+          "et",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -121,9 +121,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 800,
+        "InterParenthesis": 410,
         "InterOperator": "And",
-        "UniqueHash": 340
+        "UniqueHash": 937
       }
     ]
   }

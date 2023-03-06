@@ -84,6 +84,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -93,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Turcotte, Funk and Satterfield",
+  "Name": "Jenkins, Bogan and Monahan",
   "State": "All"
 }
 ```
@@ -110,36 +111,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 790,
-    "Name": "Dibbert-Zulauf",
-    "AssociateId": 218,
-    "DetailsTable": 380,
-    "DetailsRecord": 821,
-    "IsSystemTask": false,
-    "IsInternalTask": true,
+    "Id": 444,
+    "Name": "Langosh-Mann",
+    "AssociateId": 300,
+    "DetailsTable": 746,
+    "DetailsRecord": 40,
+    "IsSystemTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "facere",
-      "ParameterObject2": "et"
+      "ParameterObject1": "hic",
+      "ParameterObject2": "odio"
     },
-    "LastStarted": "2017-04-10T17:37:16.9012407+02:00",
-    "Created": "2004-10-30T17:37:16.9012407+02:00",
-    "StartCount": 717,
-    "DatabaseSerialNumber": "1334588",
-    "Context": "officiis",
-    "Result": "nemo",
+    "LastStarted": "2019-12-25T14:19:02.7594283+01:00",
+    "Created": "2005-01-25T14:19:02.7594283+01:00",
+    "StartCount": 531,
+    "DatabaseSerialNumber": "1616986",
+    "Context": "esse",
+    "Result": "autem",
     "State": "All",
-    "Description": "Future-proofed systemic functionalities",
-    "Response": "accusantium",
-    "Request": "corporis",
-    "ProgressDescription": "Cross-group transitional definition",
-    "ProgressPercent": 816,
-    "FileName": "Mraz-Kassulke",
+    "Description": "Virtual grid-enabled focus group",
+    "Response": "unde",
+    "Request": "illum",
+    "ProgressDescription": "Open-architected tangible attitude",
+    "ProgressPercent": 991,
+    "FileName": "Rath, Bogisich and Christiansen",
+    "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 18
+        "FieldLength": 491
       }
     }
   }

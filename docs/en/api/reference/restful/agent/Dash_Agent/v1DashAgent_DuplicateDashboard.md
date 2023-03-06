@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 301,
-  "Name": "Price LLC"
+  "DashboardId": 495,
+  "Name": "Labadie-Mills"
 }
 ```
 
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 478,
-  "UniqueId": "ut",
-  "Name": "Little LLC",
-  "Description": "Vision-oriented leading edge adapter",
-  "AssociateId": 807,
-  "Columns": 309,
+  "DashboardId": 574,
+  "UniqueId": "vel",
+  "Name": "Feeney Group",
+  "Description": "Decentralized optimal ability",
+  "AssociateId": 10,
+  "Columns": 968,
   "Theme": null,
-  "VisibleForAll": 959,
+  "VisibleForAll": 181,
   "VisibleForAssociates": [
-    769,
-    236
+    655,
+    868
   ],
   "VisibleForGroups": [
-    720,
-    301
+    300,
+    914
   ],
-  "PinForAll": 481,
+  "PinForAll": 84,
   "PinForAssociates": [
-    15,
-    724
+    113,
+    449
   ],
   "PinForGroups": [
-    519,
-    64
+    939,
+    21
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 194
+      "FieldType": "System.Int32",
+      "FieldLength": 362
     }
   }
 }

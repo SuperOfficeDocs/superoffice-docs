@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IEMailAgent.CreateFolder"
 
 ## CreateFolder
 
-Create a new folder on the server
 
-* **connectionInfo:** All information needed to connect to the mailserver
+
+
 
 [WSDL file for Services84/EMail](../Services84-EMail.md)
 
@@ -53,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateFolder Response
 
 ```xml
@@ -72,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

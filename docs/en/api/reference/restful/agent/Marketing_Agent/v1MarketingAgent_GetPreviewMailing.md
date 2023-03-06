@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 265
+  "ShipmentAddrId": 510
 }
 ```
 
@@ -101,27 +101,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2009-02-18T17:37:18.3232419+01:00",
+  "SendingTime": "2022-08-27T14:19:03.7176242+02:00",
   "Status": "Blocked",
-  "ShipmentId": 635,
-  "ShipmentDescription": "Centralized 6th generation data-warehouse",
-  "FromAddress": "maxime",
-  "ContactId": 418,
-  "ContactName": "Kris, Hermann and Towne",
-  "PersonId": 959,
-  "PersonFullName": "Jamar Jenkins MD",
-  "ShipmentType": "optio",
-  "MessageId": 490,
-  "MessageSubject": "aut",
-  "DocumentMessageId": 836,
-  "Opened": "2000-12-17T17:37:18.3242416+01:00",
-  "LinkClicks": 516,
+  "ShipmentId": 920,
+  "ShipmentDescription": "Pre-emptive next generation interface",
+  "FromAddress": "ad",
+  "ContactId": 591,
+  "ContactName": "Borer-Doyle",
+  "PersonId": 608,
+  "PersonFullName": "Adrianna Rohan",
+  "ShipmentType": "minus",
+  "MessageId": 237,
+  "MessageSubject": "ut",
+  "DocumentMessageId": 858,
+  "Opened": "2000-01-27T14:19:03.7176242+01:00",
+  "LinkClicks": 910,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 339
+      "FieldLength": 101
     }
   }
 }

@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 765,
-    "Name": "Schumm Group",
-    "ToolTip": "Est error eos corporis.",
-    "Deleted": false,
-    "Rank": 727,
-    "Type": "laborum",
-    "ColorBlock": 466,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2004-02-06T17:37:19.5479753+01:00",
+    "Id": 761,
+    "Name": "Bartell-Volkman",
+    "ToolTip": "Magnam quis.",
+    "Deleted": true,
+    "Rank": 53,
+    "Type": "ducimus",
+    "ColorBlock": 680,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2018-05-13T14:19:04.5797015+02:00",
     "ChildItems": [
       {
-        "Id": 23,
-        "Name": "Grady, Sauer and Cole",
-        "ToolTip": "Quae quaerat similique a hic fuga assumenda provident.",
+        "Id": 902,
+        "Name": "Veum, Crooks and Kihn",
+        "ToolTip": "Aut fuga molestiae reiciendis.",
         "Deleted": false,
-        "Rank": 42,
-        "Type": "quos",
-        "ColorBlock": 339,
-        "IconHint": "quas",
+        "Rank": 761,
+        "Type": "dolorem",
+        "ColorBlock": 86,
+        "IconHint": "totam",
         "Selected": false,
-        "LastChanged": "2012-06-11T17:37:19.5479753+02:00",
+        "LastChanged": "1997-07-14T14:19:04.5797015+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "placeat",
-        "Hidden": true,
-        "FullName": "Easter Walker",
+        "ExtraInfo": "unde",
+        "StyleHint": "facere",
+        "Hidden": false,
+        "FullName": "Breana Vincenza Kovacek DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 8
+            "FieldType": "System.Int32",
+            "FieldLength": 490
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Pat Strosin",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "amet",
+    "Hidden": true,
+    "FullName": "Mrs. Billy Jaskolski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 174
+        "FieldType": "System.Int32",
+        "FieldLength": 962
       }
     }
   }

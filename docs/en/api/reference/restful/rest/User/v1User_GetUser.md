@@ -35,7 +35,7 @@ Calls the User agent service GetUser.
 
 ```http
 GET /api/v1/User/{id}?$select=name,department,category/id
-GET /api/v1/User/{id}?fk=True
+GET /api/v1/User/{id}?fk=False
 ```
 
 
@@ -101,7 +101,7 @@ User found.
 GET /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -111,14 +111,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 579,
-  "Name": "Schoen-Connelly",
-  "Rank": 894,
-  "Tooltip": "voluptas",
+  "AssociateId": 711,
+  "Name": "Kuphal, Beer and Tillman",
+  "Rank": 372,
+  "Tooltip": "voluptatem",
   "LicenseOwners": [
     {
-      "Name": "Mills, Krajcik and Rempel",
-      "Description": "Open-architected incremental algorithm",
+      "Name": "Langworth-Bogan",
+      "Description": "Organic mobile superstructure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,13 +132,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 553
+          "FieldLength": 120
         }
       }
     },
     {
-      "Name": "Mills, Krajcik and Rempel",
-      "Description": "Open-architected incremental algorithm",
+      "Name": "Langworth-Bogan",
+      "Description": "Organic mobile superstructure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 553
+          "FieldLength": 120
         }
       }
     }
@@ -161,110 +161,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "voluptatem",
-      "Tooltip": "fugit",
-      "Id": 856,
-      "Rank": 456,
+      "Value": "ut",
+      "Tooltip": "libero",
+      "Id": 2,
+      "Rank": 976,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 592
+          "FieldType": "System.String",
+          "FieldLength": 456
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2018-02-17T17:37:39.5354394+01:00",
-  "Lastlogout": "2001-09-24T17:37:39.5354394+02:00",
-  "EjUserId": 307,
-  "RequestSignature": "odio",
+  "Lastlogin": "2014-02-24T14:19:11.0217292+01:00",
+  "Lastlogout": "2001-05-08T14:19:11.0217292+02:00",
+  "EjUserId": 691,
+  "RequestSignature": "earum",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "aspernatur",
-      "DisplayValue": "laboriosam",
+      "Value": "quo",
+      "DisplayValue": "vero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 805
+          "FieldLength": 77
         }
       }
     },
     {
       "Type": null,
-      "Value": "aspernatur",
-      "DisplayValue": "laboriosam",
+      "Value": "quo",
+      "DisplayValue": "vero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 805
+          "FieldLength": 77
         }
       }
     }
   ],
-  "UserName": "Kris Group",
+  "UserName": "Balistreri LLC",
   "TicketCategories": [
     {
-      "Id": 30,
-      "Name": "Stehr, Goldner and Schmeler",
-      "ToolTip": "Dolor maxime sit sed iste rerum qui.",
+      "Id": 931,
+      "Name": "Block LLC",
+      "ToolTip": "Sit quis voluptatem consequatur debitis eligendi asperiores eum.",
       "Deleted": true,
-      "Rank": 525,
-      "Type": "voluptatem",
+      "Rank": 80,
+      "Type": "reprehenderit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "laudantium",
-      "ColorBlock": 587,
-      "ExtraInfo": "animi",
-      "StyleHint": "aut",
-      "FullName": "Mr. Marisol Wyman III",
+      "IconHint": "illum",
+      "ColorBlock": 868,
+      "ExtraInfo": "iusto",
+      "StyleHint": "qui",
+      "FullName": "Frederique Welch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 570
+          "FieldLength": 835
         }
       }
     }
   ],
-  "NickName": "Rath-Treutel",
+  "NickName": "Emard Group",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "laborum",
+    "ExtraFields2": "vitae"
   },
   "CustomFields": {
-    "CustomFields1": "debitis",
-    "CustomFields2": "nostrum"
+    "CustomFields1": "aut",
+    "CustomFields2": "perferendis"
   },
   "PostSaveCommands": [
     {
-      "Name": "Kirlin, Adams and Daniel",
-      "DisplayName": "Auer Inc and Sons",
-      "Description": "Phased mission-critical knowledge user",
-      "ToolTip": "Sit reiciendis earum nihil quod id est.",
+      "Name": "Kovacek-Ruecker",
+      "DisplayName": "Luettgen, Donnelly and Pfeffer",
+      "Description": "Open-source mobile framework",
+      "ToolTip": "Dolor aut nemo.",
       "Actions": "Implicit",
-      "ActionData": "ut",
+      "ActionData": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 398
+          "FieldType": "System.Int32",
+          "FieldLength": 740
         }
       }
     }
@@ -273,8 +273,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldType": "System.String",
+      "FieldLength": 977
     }
   },
   "_Links": {

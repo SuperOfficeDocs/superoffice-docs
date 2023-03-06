@@ -11,8 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserAgent.SetPasswordFro
 
 ## SetPasswordFromName
 
-* **associateName:**
-* **password:**
+
+
+
 
 [WSDL file for Services85/User](../Services85-User.md)
 
@@ -47,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetPasswordFromName Response
 
 ```xml
@@ -67,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

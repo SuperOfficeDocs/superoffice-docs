@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ICustomerServiceAgent.Sav
 
 ## SaveCustomerCenterConfig
 
-Updates the existing CustomerCenterConfig or creates a new CustomerCenterConfig if the id parameter is 0.
 
-* **customerCenterConfig:** The CustomerCenterConfig that is saved.
 
-**Returns:** New or updated CustomerCenterConfig
+
 
 [WSDL file for Services87/CustomerService](../Services87-CustomerService.md)
 
@@ -46,9 +44,9 @@ Application tokens must be specified if calling an Online installation. Applicat
      <CustomerService:Type xsi:type="CustomerService:ConfigType">Style</CustomerService:Type>
      <CustomerService:Config xsi:type="xsd:string"></CustomerService:Config>
      <CustomerService:CustLangId xsi:type="xsd:int">0</CustomerService:CustLangId>
-     <CustomerService:Registered xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</CustomerService:Registered>
+     <CustomerService:Registered xsi:type="xsd:dateTime">2023-02-15T13:14:53Z</CustomerService:Registered>
      <CustomerService:RegisteredAssociateId xsi:type="xsd:int">0</CustomerService:RegisteredAssociateId>
-     <CustomerService:Updated xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</CustomerService:Updated>
+     <CustomerService:Updated xsi:type="xsd:dateTime">2023-02-15T13:14:53Z</CustomerService:Updated>
      <CustomerService:UpdatedAssociateId xsi:type="xsd:int">0</CustomerService:UpdatedAssociateId>
     </CustomerService:CustomerCenterConfig>
    </CustomerService:SaveCustomerCenterConfig>
@@ -57,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveCustomerCenterConfig Response
 
@@ -77,9 +76,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <CustomerService:Type xsi:type="CustomerService:ConfigType">Style</CustomerService:Type>
     <CustomerService:Config xsi:type="xsd:string"></CustomerService:Config>
     <CustomerService:CustLangId xsi:type="xsd:int">0</CustomerService:CustLangId>
-    <CustomerService:Registered xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</CustomerService:Registered>
+    <CustomerService:Registered xsi:type="xsd:dateTime">2023-02-15T13:14:53Z</CustomerService:Registered>
     <CustomerService:RegisteredAssociateId xsi:type="xsd:int">0</CustomerService:RegisteredAssociateId>
-    <CustomerService:Updated xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</CustomerService:Updated>
+    <CustomerService:Updated xsi:type="xsd:dateTime">2023-02-15T13:14:53Z</CustomerService:Updated>
     <CustomerService:UpdatedAssociateId xsi:type="xsd:int">0</CustomerService:UpdatedAssociateId>
    </CustomerService:Response>
   </CustomerService:SaveCustomerCenterConfigResponse>
@@ -87,3 +86,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

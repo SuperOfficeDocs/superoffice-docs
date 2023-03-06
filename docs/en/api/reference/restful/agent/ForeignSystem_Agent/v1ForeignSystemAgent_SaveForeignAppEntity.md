@@ -78,23 +78,23 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 22,
-  "Name": "Stiedemann Group",
-  "CreatedDate": "2005-01-14T17:37:18.0902432+01:00",
-  "UpdatedDate": "2009-10-07T17:37:18.0902432+02:00",
+  "ForeignAppId": 381,
+  "Name": "Ward-Carter",
+  "CreatedDate": "2014-08-06T14:19:03.5446477+02:00",
+  "UpdatedDate": "2000-03-01T14:19:03.5446477+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 81,
-      "Name": "Yundt-Dach",
-      "CreatedDate": "2000-10-18T17:37:18.0912425+02:00",
-      "UpdatedDate": "2017-06-01T17:37:18.0912425+02:00",
-      "AssociateFullName": "Holden Weissnat",
-      "CreatedBy": "quasi",
-      "UpdatedBy": "ab",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 225
+      "ForeignDeviceId": 573,
+      "Name": "Yost-Treutel",
+      "CreatedDate": "2021-09-02T14:19:03.5446477+02:00",
+      "UpdatedDate": "2015-06-26T14:19:03.5446477+02:00",
+      "AssociateFullName": "Vern Price",
+      "CreatedBy": "enim",
+      "UpdatedBy": "fuga",
+      "DeviceIdentifier": "accusantium",
+      "ForeignAppId": 305
     }
   ]
 }
@@ -107,29 +107,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 228,
-  "Name": "Cronin, Jacobi and Bartoletti",
-  "CreatedDate": "2007-11-22T17:37:18.0922443+01:00",
-  "UpdatedDate": "2009-09-19T17:37:18.0922443+02:00",
+  "ForeignAppId": 339,
+  "Name": "Fritsch Group",
+  "CreatedDate": "2020-06-18T14:19:03.5446477+02:00",
+  "UpdatedDate": "2017-01-04T14:19:03.5446477+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 728,
-      "Name": "Ruecker-Ward",
-      "CreatedDate": "2004-01-31T17:37:18.0932444+01:00",
-      "UpdatedDate": "2013-04-24T17:37:18.0932444+02:00",
-      "AssociateFullName": "Turner Kutch",
-      "CreatedBy": "quae",
-      "UpdatedBy": "cumque",
-      "DeviceIdentifier": "nisi",
-      "ForeignAppId": 964,
+      "ForeignDeviceId": 635,
+      "Name": "Klocko-Mayer",
+      "CreatedDate": "2001-01-30T14:19:03.5446477+01:00",
+      "UpdatedDate": "2018-02-12T14:19:03.5446477+01:00",
+      "AssociateFullName": "Naomi Ryan Casper II",
+      "CreatedBy": "modi",
+      "UpdatedBy": "exercitationem",
+      "DeviceIdentifier": "nihil",
+      "ForeignAppId": 619,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 795
+          "FieldLength": 571
         }
       }
     }
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 299
+      "FieldLength": 86
     }
   }
 }

@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IResourceAgent.DeleteReso
 
 ## DeleteResourceSubstitution
 
-Permanentely delete a resource substitution for one or more cultures
 
-* **resourceName:** The name of the resource, without any brackets
-* **culture:** The .NET culture string; if blank, then ALL substitutions for this resource will be dropped
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services86/Resource](../Services86-Resource.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteResourceSubstitution Response
 
 ```xml
@@ -70,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

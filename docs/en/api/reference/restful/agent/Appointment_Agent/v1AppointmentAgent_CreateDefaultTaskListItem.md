@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultTaskListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,25 +78,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 1002,
-  "Value": "nobis",
+  "TaskListItemId": 459,
+  "Value": "molestiae",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "ex",
-  "Deleted": true,
-  "IntentId": 112,
-  "Rank": 426,
+  "Tooltip": "magnam",
+  "Deleted": false,
+  "IntentId": 713,
+  "Rank": 349,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
-  "IsDefaultPublished": false,
+  "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 408
+      "FieldType": "System.String",
+      "FieldLength": 287
     }
   }
 }

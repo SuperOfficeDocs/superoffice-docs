@@ -106,26 +106,26 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 778,
-  "Name": "Gutkowski, Schimmel and Daugherty",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 704,
+  "WebPanelId": 691,
+  "Name": "Gerhold, Grant and King",
+  "Tooltip": "nisi",
+  "Deleted": false,
+  "Rank": 517,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Quitzon-Raynor",
+  "WindowName": "Schultz-Emmerich",
   "Url": "http://www.example.com/",
-  "ProgId": "et",
-  "Icon": 515,
+  "ProgId": "id",
+  "Icon": 760,
   "AlwaysReloadOnShow": false
 }
 ```
@@ -137,33 +137,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 692,
-  "Name": "Bernhard, Greenholt and Lang",
-  "Tooltip": "occaecati",
-  "Deleted": false,
-  "Rank": 868,
+  "WebPanelId": 143,
+  "Name": "Turner-Smith",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 418,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Gulgowski Group",
+  "WindowName": "Cormier-Franecki",
   "Url": "http://www.example.com/",
-  "ProgId": "consequuntur",
-  "Icon": 841,
+  "ProgId": "omnis",
+  "Icon": 8,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldType": "System.String",
+      "FieldLength": 648
     }
   }
 }

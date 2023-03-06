@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 282,
-  "Name": "Gaylord LLC",
+  "ScreenChooserId": 134,
+  "Name": "Ward-Harris",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "dolorem",
-  "Source": "optio",
-  "Registered": "2002-03-26T17:37:39.3884259+01:00",
-  "RegisteredAssociateId": 286,
-  "Updated": "1999-04-17T17:37:39.3884259+02:00",
-  "UpdatedAssociateId": 897,
+  "UniqueIdentifier": "nobis",
+  "Source": "deserunt",
+  "Registered": "1997-11-22T14:19:10.912356+01:00",
+  "RegisteredAssociateId": 723,
+  "Updated": "2004-08-30T14:19:10.912356+02:00",
+  "UpdatedAssociateId": 224,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 257
+      "FieldType": "System.Int32",
+      "FieldLength": 897
     }
   }
 }

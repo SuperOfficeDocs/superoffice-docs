@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schulist Group"
+  "Name": "Raynor Group"
 }
 ```
 
@@ -92,17 +92,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Harris Group",
-    "SoPrimaryKey": 637,
-    "EntryName": "Feeney, Bogisich and Ratke",
-    "EntryIdentifier": "est",
-    "RuleDisplayName": "Kshlerin-Fisher",
+    "RuleName": "Tremblay-Volkman",
+    "SoPrimaryKey": 890,
+    "EntryName": "Jacobi Inc and Sons",
+    "EntryIdentifier": "nisi",
+    "RuleDisplayName": "Deckow-Wyman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 632
+        "FieldType": "System.String",
+        "FieldLength": 350
       }
     }
   }

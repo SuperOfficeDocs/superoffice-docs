@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 26,
-    "Name": "Goldner Group",
-    "Tooltip": "consequatur",
+    "HeadingId": 350,
+    "Name": "Boehm Inc and Sons",
+    "Tooltip": "ullam",
     "Deleted": false,
-    "Rank": 789,
-    "UdListDefinitionId": 855,
+    "Rank": 415,
+    "UdListDefinitionId": 421,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 627
+        "FieldLength": 889
       }
     }
   }

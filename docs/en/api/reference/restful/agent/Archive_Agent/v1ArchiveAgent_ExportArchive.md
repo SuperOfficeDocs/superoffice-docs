@@ -82,59 +82,59 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Nicolas, West and Lockman",
-  "Context": "quis",
+  "ProviderName": "Lynch-Bergnaum",
+  "Context": "pariatur",
   "DesiredEntities": [
-    "voluptatibus",
-    "omnis"
+    "id",
+    "in"
   ],
   "Columns": [
-    "iure",
-    "dolores"
+    "ducimus",
+    "aspernatur"
   ],
   "SortOrder": [
     {
-      "Name": "Berge LLC",
+      "Name": "McDermott Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Berge LLC",
+      "Name": "McDermott Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Flatley-Daugherty",
-      "Operator": "sunt",
+      "Name": "Bailey, Kertzmann and Okuneva",
+      "Operator": "et",
       "Values": [
-        "deserunt",
-        "atque"
+        "dolor",
+        "corporis"
       ],
       "DisplayValues": [
-        "esse",
-        "tempore"
+        "ea",
+        "molestiae"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 686,
+      "InterParenthesis": 79,
       "InterOperator": "And",
-      "UniqueHash": 720
+      "UniqueHash": 560
     }
   ],
-  "ExportType": "voluptas",
+  "ExportType": "quam",
   "SelectedRowIds": [
-    "corporis",
-    "libero"
+    "ab",
+    "eligendi"
   ],
-  "EstimatedRowCount": 810
+  "EstimatedRowCount": 98
 }
 ```
 
@@ -145,15 +145,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 800,
-  "FileName": "DuBuque-Zieme",
-  "Message": "sit",
+  "BatchTaskId": 516,
+  "FileName": "Dooley, Conn and Bartell",
+  "Message": "saepe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 974
+      "FieldType": "System.String",
+      "FieldLength": 667
     }
   }
 }

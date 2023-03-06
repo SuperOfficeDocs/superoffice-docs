@@ -5,21 +5,19 @@ items:
   href: screen/index.md
 - name: Work with document
   items:
-  - name: Creating new documents
+  - name: Create new document
     href: create.md
-  - name: Upload documents
+  - name: Upload document
     href: upload.md
-  - name: Opening documents
+  - name: Open document
     href: open.md
-  - name: Check in/out documents
+  - name: Check in/out document
     href: lock.md
-  - name: Editing documents
+  - name: Edit document
     href: edit.md
-  - name: Sending documents from the Activities section tab
+  - name: Send document as email
     href: send-as-email.md
-  - name: Deleting documents
+  - name: Delete documents
     href: delete.md
-  - name: Template variables
+  - name: Template variables examples
     href: template-variables.md
-  - name: WebTools
-    href: web-tools.md

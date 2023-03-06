@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IReportAgent.GetReportEnt
 
 ## GetReportEntity
 
-Gets a ReportEntity object.
 
-* **reportEntityId:** The identifier of the ReportEntity object
 
-**Returns:** ReportEntity
+
 
 [WSDL file for Services86/Report](../Services86-Report.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetReportEntity Response
 
 ```xml
@@ -78,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

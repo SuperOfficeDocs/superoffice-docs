@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 694,
-    "Name": "Rolfson Inc and Sons",
-    "ToolTip": "Laborum nobis molestiae dolorem.",
-    "Deleted": true,
-    "Rank": 394,
-    "Type": "harum",
-    "ColorBlock": 516,
-    "IconHint": "dicta",
-    "Selected": true,
-    "LastChanged": "2004-10-07T17:37:39.9995003+02:00",
+    "Id": 54,
+    "Name": "Cronin Inc and Sons",
+    "ToolTip": "Ut nulla debitis et fugit.",
+    "Deleted": false,
+    "Rank": 173,
+    "Type": "modi",
+    "ColorBlock": 7,
+    "IconHint": "omnis",
+    "Selected": false,
+    "LastChanged": "2010-08-19T14:19:11.2418468+02:00",
     "ChildItems": [
       {
-        "Id": 409,
-        "Name": "Miller, Macejkovic and Corwin",
-        "ToolTip": "Aliquid occaecati dolores ratione alias consectetur quod culpa.",
-        "Deleted": false,
-        "Rank": 872,
-        "Type": "tempore",
-        "ColorBlock": 335,
-        "IconHint": "ratione",
-        "Selected": true,
-        "LastChanged": "2017-06-18T17:37:39.9995003+02:00",
+        "Id": 163,
+        "Name": "Trantow, Tromp and Prosacco",
+        "ToolTip": "Quia voluptatem voluptas velit autem sapiente aliquid.",
+        "Deleted": true,
+        "Rank": 527,
+        "Type": "est",
+        "ColorBlock": 776,
+        "IconHint": "vitae",
+        "Selected": false,
+        "LastChanged": "2021-11-19T14:19:11.2418468+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "occaecati",
-        "Hidden": false,
-        "FullName": "Dante Dicki"
+        "ExtraInfo": "quod",
+        "StyleHint": "velit",
+        "Hidden": true,
+        "FullName": "Miss Henry Brown"
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "hic",
-    "Hidden": true,
-    "FullName": "Nicklaus Schaefer III"
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "asperiores",
+    "Hidden": false,
+    "FullName": "Wilber Hessel"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 810,
-    "Name": "Schinner LLC",
-    "ToolTip": "Veritatis id pariatur libero eaque id.",
-    "Deleted": true,
-    "Rank": 278,
-    "Type": "itaque",
-    "ColorBlock": 840,
-    "IconHint": "nam",
+    "Id": 333,
+    "Name": "Runolfsdottir-Crist",
+    "ToolTip": "Animi mollitia molestias.",
+    "Deleted": false,
+    "Rank": 618,
+    "Type": "voluptates",
+    "ColorBlock": 68,
+    "IconHint": "veniam",
     "Selected": true,
-    "LastChanged": "2019-10-16T17:37:40.0015007+02:00",
+    "LastChanged": "2020-03-15T14:19:11.2418468+01:00",
     "ChildItems": [
       {
-        "Id": 935,
-        "Name": "Greenholt Group",
-        "ToolTip": "Corporis perspiciatis.",
-        "Deleted": false,
-        "Rank": 684,
-        "Type": "ipsam",
-        "ColorBlock": 314,
-        "IconHint": "quo",
+        "Id": 247,
+        "Name": "Ratke Group",
+        "ToolTip": "Inventore quidem et eaque omnis earum quia quisquam.",
+        "Deleted": true,
+        "Rank": 143,
+        "Type": "illo",
+        "ColorBlock": 338,
+        "IconHint": "debitis",
         "Selected": true,
-        "LastChanged": "2020-10-13T17:37:40.0015007+02:00",
+        "LastChanged": "2008-02-12T14:19:11.2418468+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "animi",
+        "StyleHint": "repellat",
         "Hidden": false,
-        "FullName": "Hyman Monahan II",
+        "FullName": "Miss Davion Bruen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 79
+            "FieldLength": 454
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "fugit",
-    "Hidden": false,
-    "FullName": "Christopher Ratke",
+    "ExtraInfo": "veniam",
+    "StyleHint": "facilis",
+    "Hidden": true,
+    "FullName": "Dr. Anais O'Hara I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 952
+        "FieldLength": 70
       }
     }
   }

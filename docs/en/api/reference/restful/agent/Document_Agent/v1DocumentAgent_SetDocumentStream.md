@@ -109,13 +109,13 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "OverwriteExistingData": false
+  "OverwriteExistingData": true
 }
 ```
 
@@ -126,88 +126,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 545,
+  "DocumentId": 35,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quis",
-  "Header": "voluptatum",
-  "Name": "Hayes LLC",
-  "OurRef": "nesciunt",
-  "YourRef": "eaque",
-  "CreatedDate": "2012-11-09T17:37:17.5102424+01:00",
-  "UpdatedDate": "2002-01-02T17:37:17.5102424+01:00",
-  "Description": "Upgradable regional archive",
+  "Attention": "beatae",
+  "Header": "voluptas",
+  "Name": "Bernhard-Mante",
+  "OurRef": "enim",
+  "YourRef": "harum",
+  "CreatedDate": "2010-04-23T14:19:03.291782+02:00",
+  "UpdatedDate": "2014-07-12T14:19:03.291782+02:00",
+  "Description": "Quality-focused 3rd generation internet solution",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2021-05-02T17:37:17.5132419+02:00",
-  "ExternalRef": "sit",
+  "Date": "2012-11-12T14:19:03.291782+01:00",
+  "ExternalRef": "inventore",
   "Completed": "Completed",
-  "ActiveLinks": 372,
+  "ActiveLinks": 253,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Brekke-Glover",
-      "Id": 506,
-      "Description": "Exclusive global circuit",
-      "ExtraInfo": "eius",
-      "LinkId": 900,
+      "EntityName": "Purdy-Murray",
+      "Id": 617,
+      "Description": "Realigned user-facing capability",
+      "ExtraInfo": "nemo",
+      "LinkId": 78,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 461
+          "FieldLength": 860
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 206,
-  "Snum": 227,
+  "SuggestedDocumentId": 467,
+  "Snum": 82,
   "UserDefinedFields": {
-    "SuperOffice:1": "Furman Pollich",
-    "SuperOffice:2": "Dr. Dayne Nicolas DDS"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "exercitationem",
-    "ExtraFields2": "ducimus"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "laboriosam"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "expedita",
+    "CustomFields2": "quos"
   },
-  "PublishEventDate": "1998-02-06T17:37:17.5152419+01:00",
-  "PublishTo": "2012-02-17T17:37:17.5152419+01:00",
-  "PublishFrom": "2000-03-21T17:37:17.5152419+01:00",
+  "PublishEventDate": "2008-12-27T14:19:03.291782+01:00",
+  "PublishTo": "2010-12-05T14:19:03.291782+01:00",
+  "PublishFrom": "1995-11-01T14:19:03.291782+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 947,
+      "VisibleId": 632,
       "Visibility": "All",
-      "DisplayValue": "dolorum",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 562
+          "FieldLength": 853
         }
       }
     },
     {
-      "VisibleId": 947,
+      "VisibleId": 632,
       "Visibility": "All",
-      "DisplayValue": "dolorum",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 562
+          "FieldLength": 853
         }
       }
     }
@@ -217,7 +217,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 115
+      "FieldLength": 676
     }
   }
 }

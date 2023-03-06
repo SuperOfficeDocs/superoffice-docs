@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/Custo
 
 Handled by the <see cref="T:SuperOffice.Services88.ICustomerServiceAgent">SuperOffice.Services88.ICustomerServiceAgent</see> interface.
 
-Interface for the CustomerService Agent
-Agent used for Customer Service methods
+
 
 Download [WSDL file for Services88/CustomerService](../Services88-CustomerService.md) if you need to generate your own proxy code.
 
@@ -43,8 +42,10 @@ Download [WSDL file for Services88/CustomerService](../Services88-CustomerServic
 * [GetSmsConfig](GetSmsConfig.md)
 * [GetStatistics](GetStatistics.md)
 * [GetSystemTemplateSettings](GetSystemTemplateSettings.md)
+* [GetUnparsedTemplate](GetUnparsedTemplate.md)
 * [HasChatNotify](HasChatNotify.md)
 * [RemoveSession](RemoveSession.md)
+* [ReportSessionActive](ReportSessionActive.md)
 * [SaveAllCustomerCenterConfigs](SaveAllCustomerCenterConfigs.md)
 * [SaveCustomerCenterConfig](SaveCustomerCenterConfig.md)
 * [SaveMailboxEntity](SaveMailboxEntity.md)
@@ -53,3 +54,4 @@ Download [WSDL file for Services88/CustomerService](../Services88-CustomerServic
 * [SessionIsValid](SessionIsValid.md)
 * [TestSmtpServer](TestSmtpServer.md)
 * [UpdateFeatureToggles](UpdateFeatureToggles.md)
+

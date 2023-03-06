@@ -82,38 +82,38 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 272,
-  "Field": "inventore",
-  "RecordId": 657,
+  "RefCountsId": 602,
+  "Field": "eum",
+  "RecordId": 110,
   "SuggestedRecords": [
     {
-      "Id": 420,
-      "Name": "Lang, O'Connell and Abshire",
-      "ToolTip": "Est qui voluptates eos voluptas ut qui.",
-      "Deleted": true,
-      "Rank": 86,
-      "Type": "et",
+      "Id": 748,
+      "Name": "Braun, Raynor and Treutel",
+      "ToolTip": "Aperiam eum aspernatur suscipit.",
+      "Deleted": false,
+      "Rank": 864,
+      "Type": "necessitatibus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "est",
-      "ColorBlock": 209,
-      "ExtraInfo": "sint",
-      "StyleHint": "ducimus",
-      "FullName": "Karine Hackett"
+      "IconHint": "aliquam",
+      "ColorBlock": 352,
+      "ExtraInfo": "id",
+      "StyleHint": "autem",
+      "FullName": "Petra Hoppe"
     }
   ],
-  "CurrentValue": 549,
-  "TravelPrefix": 834,
-  "SatPrefix": 452,
-  "Allocate": true,
+  "CurrentValue": 720,
+  "TravelPrefix": 891,
+  "SatPrefix": 170,
+  "Allocate": false,
   "Unique": false,
-  "ReadOnly": false,
+  "ReadOnly": true,
   "AllowBlank": false
 }
 ```
@@ -125,49 +125,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 282,
-  "Field": "ut",
-  "RecordId": 956,
+  "RefCountsId": 830,
+  "Field": "autem",
+  "RecordId": 180,
   "SuggestedRecords": [
     {
-      "Id": 390,
-      "Name": "Kessler Group",
-      "ToolTip": "Deserunt delectus et.",
+      "Id": 860,
+      "Name": "Leffler-Howell",
+      "ToolTip": "Et doloribus.",
       "Deleted": false,
-      "Rank": 392,
-      "Type": "ut",
+      "Rank": 685,
+      "Type": "asperiores",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "animi",
-      "ColorBlock": 653,
-      "ExtraInfo": "pariatur",
-      "StyleHint": "et",
-      "FullName": "Cooper Bergstrom",
+      "IconHint": "velit",
+      "ColorBlock": 845,
+      "ExtraInfo": "recusandae",
+      "StyleHint": "officia",
+      "FullName": "Prof. Elyssa Gulgowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 857
+          "FieldType": "System.String",
+          "FieldLength": 258
         }
       }
     }
   ],
-  "CurrentValue": 798,
-  "TravelPrefix": 255,
-  "SatPrefix": 821,
+  "CurrentValue": 180,
+  "TravelPrefix": 239,
+  "SatPrefix": 525,
   "Allocate": false,
   "Unique": false,
-  "ReadOnly": false,
-  "AllowBlank": true,
+  "ReadOnly": true,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 830
+      "FieldType": "System.String",
+      "FieldLength": 143
     }
   }
 }

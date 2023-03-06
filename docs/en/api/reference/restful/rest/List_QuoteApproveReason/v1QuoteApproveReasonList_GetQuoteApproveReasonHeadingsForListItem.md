@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 128,
-    "Name": "Bashirian-Waelchi",
-    "ToolTip": "Blanditiis quidem perspiciatis architecto totam temporibus consequatur.",
+    "Id": 901,
+    "Name": "Ryan, Renner and Schneider",
+    "ToolTip": "Et deleniti magnam pariatur.",
     "Deleted": false,
-    "Rank": 698,
-    "Type": "laudantium",
-    "ColorBlock": 854,
-    "IconHint": "ut",
+    "Rank": 591,
+    "Type": "incidunt",
+    "ColorBlock": 394,
+    "IconHint": "dolore",
     "Selected": false,
-    "LastChanged": "2010-06-24T17:37:40.2344732+02:00",
+    "LastChanged": "2007-04-04T14:19:11.430529+02:00",
     "ChildItems": [
       {
-        "Id": 640,
-        "Name": "Rolfson, Wolff and Kunde",
-        "ToolTip": "Eum dolorum vel qui ut.",
-        "Deleted": false,
-        "Rank": 84,
-        "Type": "distinctio",
-        "ColorBlock": 890,
-        "IconHint": "ipsam",
+        "Id": 601,
+        "Name": "Goodwin-Koch",
+        "ToolTip": "Magni quibusdam voluptate et aliquam sed.",
+        "Deleted": true,
+        "Rank": 430,
+        "Type": "omnis",
+        "ColorBlock": 610,
+        "IconHint": "eius",
         "Selected": false,
-        "LastChanged": "2001-10-01T17:37:40.2354735+02:00",
+        "LastChanged": "2015-07-19T14:19:11.430529+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "saepe",
-        "Hidden": false,
-        "FullName": "Mr. Myron Welch Jr.",
+        "ExtraInfo": "dolore",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Leta Ratke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 873
+            "FieldLength": 91
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "esse",
+    "ExtraInfo": "ab",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Kaya Huels",
+    "FullName": "Miss Cathrine Bashirian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 734
+        "FieldType": "System.String",
+        "FieldLength": 134
       }
     }
   }

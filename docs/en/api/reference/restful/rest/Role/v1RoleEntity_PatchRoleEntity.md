@@ -127,12 +127,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "aut",
+    "path": "beatae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aut",
+    "path": "beatae",
     "value": {}
   }
 ]
@@ -145,29 +145,29 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 453,
-  "Name": "Roberts Group",
-  "Tooltip": "dolorem",
+  "RoleId": 534,
+  "Name": "Hayes, Gleichner and Luettgen",
+  "Tooltip": "et",
   "RoleType": "Anonymous",
-  "Deleted": 665,
-  "Rank": 965,
-  "Created": "2000-01-29T17:37:39.0533032+01:00",
-  "UseCategories": 525,
+  "Deleted": 268,
+  "Rank": 387,
+  "Created": "2010-05-03T14:19:10.6467484+02:00",
+  "UseCategories": 810,
   "CreatedBy": null,
-  "Updated": "2010-03-29T17:37:39.0533032+02:00",
+  "Updated": "1998-07-02T14:19:10.6467484+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 704
+      "FieldType": "System.String",
+      "FieldLength": 754
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

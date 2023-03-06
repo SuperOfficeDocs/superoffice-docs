@@ -150,18 +150,18 @@ ContactEntity  updated.
 PATCH /api/v1/Contact/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "blanditiis",
+    "path": "asperiores",
     "value": {}
   },
   {
     "op": "add",
-    "path": "blanditiis",
+    "path": "asperiores",
     "value": {}
   }
 ]
@@ -174,157 +174,157 @@ HTTP/1.1 200 ContactEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 13,
-  "Name": "Shields-Wilderman",
+  "ContactId": 814,
+  "Name": "Robel-Kessler",
   "Department": "",
-  "OrgNr": "552524",
-  "Number1": "505961",
-  "Number2": "1012078",
-  "UpdatedDate": "2014-10-25T17:37:38.4278598+02:00",
-  "CreatedDate": "2009-06-10T17:37:38.4278598+02:00",
+  "OrgNr": "1446250",
+  "Number1": "840561",
+  "Number2": "984465",
+  "UpdatedDate": "2018-03-30T14:19:10.1935974+02:00",
+  "CreatedDate": "2022-09-16T14:19:10.1935974+02:00",
   "Emails": [
     {
-      "Value": "sint",
-      "StrippedValue": "dolorum",
-      "Description": "Reverse-engineered needs-based time-frame",
+      "Value": "repudiandae",
+      "StrippedValue": "nisi",
+      "Description": "Secured intermediate implementation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 853
+          "FieldType": "System.Int32",
+          "FieldLength": 845
         }
       }
     },
     {
-      "Value": "sint",
-      "StrippedValue": "dolorum",
-      "Description": "Reverse-engineered needs-based time-frame",
+      "Value": "repudiandae",
+      "StrippedValue": "nisi",
+      "Description": "Secured intermediate implementation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 853
+          "FieldType": "System.Int32",
+          "FieldLength": 845
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 49,
-      "Name": "Mohr Inc and Sons",
-      "ToolTip": "Quia est cum sit in.",
-      "Deleted": true,
-      "Rank": 334,
-      "Type": "iure",
-      "ColorBlock": 282,
-      "IconHint": "repellat",
-      "Selected": false,
-      "LastChanged": "2000-04-14T17:37:38.4278598+02:00",
+      "Id": 813,
+      "Name": "Buckridge Group",
+      "ToolTip": "Omnis cumque autem accusamus et.",
+      "Deleted": false,
+      "Rank": 364,
+      "Type": "non",
+      "ColorBlock": 866,
+      "IconHint": "ullam",
+      "Selected": true,
+      "LastChanged": "2012-07-09T14:19:10.1935974+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "et",
-      "Hidden": true,
-      "FullName": "Mrs. Yasmeen Gibson Sr.",
+      "ExtraInfo": "nobis",
+      "StyleHint": "qui",
+      "Hidden": false,
+      "FullName": "Mckenna Bailey",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 285
+          "FieldLength": 676
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "ipsa",
-      "StrippedValue": "sequi",
-      "Description": "User-friendly cohesive success",
+      "Value": "numquam",
+      "StrippedValue": "aut",
+      "Description": "Distributed didactic solution",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 139
+          "FieldLength": 479
         }
       }
     },
     {
-      "Value": "ipsa",
-      "StrippedValue": "sequi",
-      "Description": "User-friendly cohesive success",
+      "Value": "numquam",
+      "StrippedValue": "aut",
+      "Description": "Distributed didactic solution",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 139
+          "FieldLength": 479
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "et",
-      "StrippedValue": "quis",
-      "Description": "Realigned mission-critical collaboration",
+      "Value": "non",
+      "StrippedValue": "est",
+      "Description": "Multi-channelled modular instruction set",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldLength": 316
         }
       }
     },
     {
-      "Value": "et",
-      "StrippedValue": "quis",
-      "Description": "Realigned mission-critical collaboration",
+      "Value": "non",
+      "StrippedValue": "est",
+      "Description": "Multi-channelled modular instruction set",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldLength": 316
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "qui",
-      "StrippedValue": "nihil",
-      "Description": "Adaptive national conglomeration",
+      "Value": "et",
+      "StrippedValue": "necessitatibus",
+      "Description": "Organic analyzing definition",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 375
+          "FieldLength": 845
         }
       }
     },
     {
-      "Value": "qui",
-      "StrippedValue": "nihil",
-      "Description": "Adaptive national conglomeration",
+      "Value": "et",
+      "StrippedValue": "necessitatibus",
+      "Description": "Organic analyzing definition",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 375
+          "FieldLength": 845
         }
       }
     }
   ],
-  "Description": "Configurable client-server adapter",
+  "Description": "Switchable cohesive moderator",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -333,105 +333,105 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "minima",
-      "PersonId": 608,
-      "Mrmrs": "sint",
-      "Firstname": "Riley",
-      "Lastname": "Rath",
-      "MiddleName": "Gerlach, Runte and Orn",
-      "Title": "qui",
-      "Description": "Vision-oriented mobile capability",
-      "Email": "michael_bruen@ohara.biz",
-      "FullName": "Frederick Ratke",
-      "DirectPhone": "(118)528-8305 x2468",
-      "FormalName": "Jones, Heidenreich and Reynolds",
-      "CountryId": 481,
-      "ContactId": 500,
-      "ContactName": "Fisher LLC",
-      "Retired": 794,
-      "Rank": 8,
-      "ActiveInterests": 930,
-      "ContactDepartment": "visualize global networks",
-      "ContactCountryId": 327,
-      "ContactOrgNr": "1049046",
-      "FaxPhone": "256-929-1294 x39786",
-      "MobilePhone": "082.833.1911 x844",
-      "ContactPhone": "1-092-441-0702",
-      "AssociateName": "Gleichner LLC",
-      "AssociateId": 317,
+      "Position": "est",
+      "PersonId": 88,
+      "Mrmrs": "quas",
+      "Firstname": "Patricia",
+      "Lastname": "Weimann",
+      "MiddleName": "Cassin Inc and Sons",
+      "Title": "minima",
+      "Description": "Customizable exuding encryption",
+      "Email": "rory@weimann.info",
+      "FullName": "Mrs. Verlie Wehner II",
+      "DirectPhone": "336-865-8063 x57004",
+      "FormalName": "Doyle, Ebert and Brekke",
+      "CountryId": 913,
+      "ContactId": 327,
+      "ContactName": "Koepp-Pollich",
+      "Retired": 586,
+      "Rank": 954,
+      "ActiveInterests": 816,
+      "ContactDepartment": "",
+      "ContactCountryId": 483,
+      "ContactOrgNr": "522809",
+      "FaxPhone": "(502)398-8292 x0627",
+      "MobilePhone": "730.097.1008 x244",
+      "ContactPhone": "1-460-348-7790 x97773",
+      "AssociateName": "Daniel, O'Conner and Leffler",
+      "AssociateId": 357,
       "UsePersonAddress": false,
-      "ContactFax": "quam",
-      "Kanafname": "magnam",
-      "Kanalname": "eum",
-      "Post1": "voluptatum",
-      "Post2": "dolorum",
-      "Post3": "laboriosam",
-      "EmailName": "terrill@windler.co.uk",
-      "ContactFullName": "Monserrate Waelchi",
-      "ActiveErpLinks": 342,
-      "TicketPriorityId": 113,
-      "SupportLanguageId": 720,
-      "SupportAssociateId": 696,
+      "ContactFax": "nihil",
+      "Kanafname": "in",
+      "Kanalname": "autem",
+      "Post1": "quaerat",
+      "Post2": "debitis",
+      "Post3": "sed",
+      "EmailName": "vicenta@rath.info",
+      "ContactFullName": "Mariana Kunze",
+      "ActiveErpLinks": 339,
+      "TicketPriorityId": 931,
+      "SupportLanguageId": 503,
+      "SupportAssociateId": 698,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 899
+          "FieldLength": 862
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "quam",
+  "Kananame": "qui",
   "Xstop": false,
-  "ActiveInterests": 555,
-  "GroupId": 329,
-  "ActiveStatusMonitorId": 899,
+  "ActiveInterests": 59,
+  "GroupId": 253,
+  "ActiveStatusMonitorId": 727,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 552,
-  "DbiAgentId": 292,
-  "DbiLastSyncronized": "2000-03-24T17:37:38.4308603+01:00",
-  "DbiKey": "et",
-  "DbiLastModified": "2002-02-15T17:37:38.4308603+01:00",
+  "Deleted": 762,
+  "DbiAgentId": 474,
+  "DbiLastSyncronized": "2006-05-10T14:19:10.1935974+02:00",
+  "DbiKey": "sed",
+  "DbiLastModified": "2001-01-15T14:19:10.1935974+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 425,
-  "ActiveErpLinks": 669,
+  "Source": 876,
+  "ActiveErpLinks": 879,
   "BounceEmails": [
-    "angela.oconnell@kilbackterry.ca",
-    "jaida@goyette.uk"
+    "rasheed@legros.com",
+    "minerva@hagenes.info"
   ],
   "Domains": [
-    "eligendi",
-    "rerum"
+    "sed",
+    "reprehenderit"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Josue Kihn",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Demetris Dach",
+    "SuperOffice:2": "1005330426"
   },
   "ExtraFields": {
-    "ExtraFields1": "veritatis",
-    "ExtraFields2": "corporis"
+    "ExtraFields1": "dolore",
+    "ExtraFields2": "id"
   },
   "CustomFields": {
-    "CustomFields1": "nisi",
-    "CustomFields2": "reprehenderit"
+    "CustomFields1": "unde",
+    "CustomFields2": "tempora"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 899
+      "FieldLength": 806
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -77,7 +77,7 @@ AttachmentEntity found.
 GET /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 26,
-  "Name": "Gorczany-Marks",
-  "ContentType": "molestiae",
-  "AttSize": 810,
-  "InlineImage": true,
-  "ContentId": "voluptas",
+  "AttachmentId": 543,
+  "Name": "Jakubowski-Ledner",
+  "ContentType": "ab",
+  "AttSize": 687,
+  "InlineImage": false,
+  "ContentId": "repellendus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 688
+      "FieldLength": 385
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

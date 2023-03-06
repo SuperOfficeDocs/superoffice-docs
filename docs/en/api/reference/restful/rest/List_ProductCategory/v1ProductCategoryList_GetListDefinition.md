@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 781,
-  "Name": "Rutherford, Hand and Purdy",
-  "Tooltip": "veniam",
-  "Deleted": false,
-  "Rank": 95,
+  "Id": 404,
+  "Name": "Smitham, Emard and Dickinson",
+  "Tooltip": "ipsam",
+  "Deleted": true,
+  "Rank": 737,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
   "ListType": "ut",
-  "InUseByUserDefinedFields": false,
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 865
+      "FieldType": "System.Int32",
+      "FieldLength": 474
     }
   },
   "_Links": {

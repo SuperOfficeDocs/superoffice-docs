@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,46 +122,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 587,
-  "ColumnId": 719,
-  "FieldDefault": "est",
-  "FieldHeight": 802,
-  "FieldLabel": "ducimus",
-  "FieldLeft": 227,
-  "FieldTop": 944,
+  "UDefFieldId": 58,
+  "ColumnId": 1001,
+  "FieldDefault": "modi",
+  "FieldHeight": 359,
+  "FieldLabel": "dolores",
+  "FieldLeft": 180,
+  "FieldTop": 156,
   "FieldType": "Checkbox",
-  "FieldWidth": 260,
-  "FormatMask": "veritatis",
+  "FieldWidth": 930,
+  "FormatMask": "perspiciatis",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 631,
-  "LabelLeft": 374,
-  "LabelTop": 473,
-  "LabelWidth": 794,
-  "LastVersionId": 710,
-  "ListTableId": 828,
-  "IsMandatory": false,
+  "LabelHeight": 642,
+  "LabelLeft": 466,
+  "LabelTop": 703,
+  "LabelWidth": 833,
+  "LastVersionId": 522,
+  "ListTableId": 812,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 101,
-  "ProgId": "facilis",
-  "IsReadOnly": true,
-  "ShortLabel": "eveniet",
-  "TabOrder": 768,
-  "TextLength": 843,
-  "Tooltip": "maiores",
-  "UdefIdentity": 5,
-  "UDListDefinitionId": 285,
+  "Page1LineNo": 509,
+  "ProgId": "qui",
+  "IsReadOnly": false,
+  "ShortLabel": "ratione",
+  "TabOrder": 470,
+  "TextLength": 18,
+  "Tooltip": "est",
+  "UdefIdentity": 177,
+  "UDListDefinitionId": 452,
   "Justification": "Center",
-  "Version": 36,
-  "TemplateVariableName": "Jacobson-Parker",
-  "HasBeenPublished": true,
-  "MdoListName": "Douglas Inc and Sons",
+  "Version": 847,
+  "TemplateVariableName": "Wehner Group",
+  "HasBeenPublished": false,
+  "MdoListName": "O'Reilly Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 799
+      "FieldType": "System.Int32",
+      "FieldLength": 666
     }
   }
 }

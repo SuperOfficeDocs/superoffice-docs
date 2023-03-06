@@ -81,7 +81,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,51 +91,51 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 965,
+  "HierarchyId": 920,
   "Domain": "Dashboards",
-  "Name": "Kohler Group",
-  "Fullname": "alias",
-  "ParentId": 800,
+  "Name": "Hahn Group",
+  "Fullname": "magni",
+  "ParentId": 633,
   "Children": [
     {
-      "HierarchyId": 882,
+      "HierarchyId": 790,
       "Domain": "Dashboards",
-      "Name": "Kessler, Shanahan and Jerde",
-      "Fullname": "distinctio",
-      "ParentId": 486,
+      "Name": "Abernathy, Fisher and Feeney",
+      "Fullname": "doloremque",
+      "ParentId": 447,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1999-08-14T17:37:38.8258599+02:00",
-      "RegisteredAssociateId": 338,
-      "Updated": "2009-08-18T17:37:38.8258599+02:00",
-      "UpdatedAssociateId": 915,
+      "Registered": "1996-05-07T14:19:10.3654771+02:00",
+      "RegisteredAssociateId": 952,
+      "Updated": "2003-10-07T14:19:10.3654771+02:00",
+      "UpdatedAssociateId": 232,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 8
+          "FieldLength": 230
         }
       }
     }
   ],
-  "Registered": "2003-06-16T17:37:38.8268636+02:00",
-  "RegisteredAssociateId": 957,
-  "Updated": "2011-10-06T17:37:38.8268636+02:00",
-  "UpdatedAssociateId": 887,
+  "Registered": "2003-05-28T14:19:10.3654771+02:00",
+  "RegisteredAssociateId": 570,
+  "Updated": "2010-06-15T14:19:10.3654771+02:00",
+  "UpdatedAssociateId": 481,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 443
+      "FieldLength": 498
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

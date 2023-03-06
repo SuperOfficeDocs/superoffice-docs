@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.FindProduct">
 
 ## FindProduct
 
-Gets a product, from the ProductProvider
 
-* **quoteAlternativeId:** Quote alternative to search in.
-* **userInput:** search string
-* **priceListKey:** If the pricelist is null or empty, the function will search in all active pricelists.
 
-**Returns:** Product array
+
 
 [WSDL file for Services84/Quote](../Services84-Quote.md)
 
@@ -52,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## FindProduct Response
 
@@ -116,3 +113,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

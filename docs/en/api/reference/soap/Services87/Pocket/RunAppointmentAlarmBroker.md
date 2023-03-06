@@ -11,7 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IPocketAgent.RunAppointme
 
 ## RunAppointmentAlarmBroker
 
-Execute the AppointmentAlarmBroker once
+
+
+
 
 [WSDL file for Services87/Pocket](../Services87-Pocket.md)
 
@@ -44,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RunAppointmentAlarmBroker Response
 
 ```xml
@@ -63,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

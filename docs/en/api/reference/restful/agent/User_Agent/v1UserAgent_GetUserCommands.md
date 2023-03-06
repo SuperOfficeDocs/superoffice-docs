@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/User/GetUserCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lakin, Volkman and Ferry",
-    "DisplayName": "Lubowitz Inc and Sons",
-    "Description": "Extended human-resource adapter",
-    "ToolTip": "Voluptas autem.",
+    "Name": "Howe, Keeling and Hane",
+    "DisplayName": "Borer-Pagac",
+    "Description": "Innovative solution-oriented function",
+    "ToolTip": "Numquam et id ea vitae qui.",
     "Actions": "Implicit",
-    "ActionData": "veniam",
+    "ActionData": "aspernatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 920
+        "FieldLength": 13
       }
     }
   }

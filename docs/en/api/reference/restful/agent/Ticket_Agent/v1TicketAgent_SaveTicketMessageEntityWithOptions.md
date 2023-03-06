@@ -71,7 +71,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
   "Entity": null,
   "Notify": false,
   "AttachmentIds": [
-    782,
-    574
+    18,
+    266
   ]
 }
 ```
@@ -118,76 +118,76 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 975,
+  "EjMessageId": 607,
   "Ticket": null,
-  "CreatedAt": "2000-12-10T17:37:19.4669794+01:00",
+  "CreatedAt": "2011-04-16T14:19:04.501577+02:00",
   "CreatedBy": null,
-  "Author": "minima",
+  "Author": "vitae",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "eaque",
-  "TimeSpent": 705,
-  "Body": "reprehenderit",
-  "HtmlBody": "ut",
-  "EmailHeader": "theresia@boylerowe.ca",
-  "DebugInfo": "rerum",
-  "MailSorter": "saepe",
+  "MessageId": "ut",
+  "TimeSpent": 462,
+  "Body": "voluptate",
+  "HtmlBody": "et",
+  "EmailHeader": "fabiola@hirthewalsh.com",
+  "DebugInfo": "porro",
+  "MailSorter": "et",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptatem",
+  "SearchTitle": "vel",
   "MessageHeaders": [
     {
-      "Id": 378,
-      "Name": "Kilback Inc and Sons",
-      "Value": "omnis",
+      "Id": 94,
+      "Name": "Friesen LLC",
+      "Value": "vel",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 388
+          "FieldType": "System.Int32",
+          "FieldLength": 280
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "dolor",
-  "Sentiment": 381,
-  "SentimentConfidence": 880,
+  "Important": false,
+  "Language": "repudiandae",
+  "Sentiment": 260,
+  "SentimentConfidence": 2,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 705,
-      "Name": "Kshlerin-Kemmer",
-      "ContentType": "corrupti",
-      "AttSize": 492,
+      "AttachmentId": 810,
+      "Name": "Kunde-Abernathy",
+      "ContentType": "aut",
+      "AttSize": 549,
       "InlineImage": true,
-      "ContentId": "qui",
+      "ContentId": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 110
+          "FieldLength": 903
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "explicabo",
-    "ExtraFields2": "voluptatum"
+    "ExtraFields1": "non",
+    "ExtraFields2": "voluptatibus"
   },
   "CustomFields": {
-    "CustomFields1": "quas",
-    "CustomFields2": "quibusdam"
+    "CustomFields1": "libero",
+    "CustomFields2": "modi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 195
+      "FieldType": "System.Int32",
+      "FieldLength": 373
     }
   }
 }

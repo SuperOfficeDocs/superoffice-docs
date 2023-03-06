@@ -69,14 +69,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/TriggerScript?$select=name,department,category/id
 GET /api/v1/TriggerScript?$filter=name begins 'S'
 GET /api/v1/TriggerScript?$orderBy=name asc
-GET /api/v1/TriggerScript?$entities=ut
-GET /api/v1/TriggerScript?$top=598
-GET /api/v1/TriggerScript?$skip=860
+GET /api/v1/TriggerScript?$entities=omnis
+GET /api/v1/TriggerScript?$top=338
+GET /api/v1/TriggerScript?$skip=736
 GET /api/v1/TriggerScript?$mode=Full
 GET /api/v1/TriggerScript?$options=GrandTotal=true
-GET /api/v1/TriggerScript?$context=similique
+GET /api/v1/TriggerScript?$context=hic
 GET /api/v1/TriggerScript?$format=JSON
-GET /api/v1/TriggerScript?$jsonSafe=False
+GET /api/v1/TriggerScript?$jsonSafe=True
 GET /api/v1/TriggerScript?$output=Display
 ```
 
@@ -128,21 +128,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "sit",
+  "odata.nextLink": "ad",
   "value": [
     {
-      "PrimaryKey": 3724,
-      "EntityName": "sale",
-      "saleId": 3724,
-      "contactId": 3464,
-      "name": "Reilly, Gerhold and Becker"
+      "PrimaryKey": 3991,
+      "EntityName": "person",
+      "personId": 3991,
+      "fullName": "Jalyn Lindgren"
     },
     {
-      "PrimaryKey": 1415,
-      "EntityName": "sale",
-      "saleId": 1415,
-      "contactId": 8905,
-      "name": "Pfeffer-Hansen"
+      "PrimaryKey": 2744,
+      "EntityName": "person",
+      "personId": 2744,
+      "fullName": "Austen Franecki"
     }
   ]
 }

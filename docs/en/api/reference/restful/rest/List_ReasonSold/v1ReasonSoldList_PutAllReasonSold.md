@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 889,
-    "Name": "Schowalter-Ullrich",
-    "Tooltip": "temporibus",
+    "Id": 961,
+    "Name": "Greenholt Inc and Sons",
+    "Tooltip": "officiis",
     "Deleted": true,
-    "UdListDefinitionId": 909,
-    "Rank": 563
+    "UdListDefinitionId": 353,
+    "Rank": 467
   },
   {
-    "Id": 889,
-    "Name": "Schowalter-Ullrich",
-    "Tooltip": "temporibus",
+    "Id": 961,
+    "Name": "Greenholt Inc and Sons",
+    "Tooltip": "officiis",
     "Deleted": true,
-    "UdListDefinitionId": 909,
-    "Rank": 563
+    "UdListDefinitionId": 353,
+    "Rank": 467
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 911,
-    "Name": "Jenkins Group",
-    "Tooltip": "quis",
+    "Id": 16,
+    "Name": "Lakin Inc and Sons",
+    "Tooltip": "nam",
     "Deleted": false,
-    "UdListDefinitionId": 326,
-    "Rank": 128,
+    "UdListDefinitionId": 321,
+    "Rank": 909,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 868
+        "FieldLength": 907
       }
     }
   }

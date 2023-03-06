@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetProductType
 
 ## GetProductType
 
-Gets a ProductType object.
 
-* **productTypeId:** The identifier of the ProductType object
 
-**Returns:** ProductType
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetProductType Response
 
 ```xml
@@ -73,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

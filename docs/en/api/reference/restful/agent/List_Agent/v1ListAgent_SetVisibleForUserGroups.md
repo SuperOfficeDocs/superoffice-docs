@@ -88,32 +88,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 622,
-  "ListItemId": 450,
+  "UdListDefinitionId": 788,
+  "ListItemId": 804,
   "UserGroups": [
     {
-      "Id": 412,
-      "Name": "Fritsch, Luettgen and Cartwright",
-      "ToolTip": "Voluptatem recusandae aspernatur quia aut.",
+      "Id": 319,
+      "Name": "Wiegand LLC",
+      "ToolTip": "Temporibus doloribus explicabo est iusto.",
       "Deleted": false,
-      "Rank": 553,
-      "Type": "distinctio",
-      "ColorBlock": 128,
-      "IconHint": "repellat",
+      "Rank": 828,
+      "Type": "dolores",
+      "ColorBlock": 763,
+      "IconHint": "id",
       "Selected": false,
-      "LastChanged": "1999-09-27T17:37:18.1952446+02:00",
+      "LastChanged": "2018-06-28T14:19:03.6238736+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "mollitia",
-      "StyleHint": "quas",
-      "Hidden": false,
-      "FullName": "Tyrese Senger"
+      "ExtraInfo": "a",
+      "StyleHint": "ea",
+      "Hidden": true,
+      "FullName": "Roma Hahn"
     }
   ]
 }
@@ -128,55 +128,55 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 581,
-    "Name": "Johnson-Upton",
-    "ToolTip": "Consequatur quaerat et magnam qui est omnis asperiores.",
+    "Name": "Gusikowski-Mraz",
+    "ToolTip": "Officia quia explicabo quis nisi quo sequi.",
     "Deleted": false,
-    "Rank": 697,
-    "Type": "necessitatibus",
-    "ColorBlock": 420,
-    "IconHint": "architecto",
+    "Rank": 496,
+    "Type": "repellat",
+    "ColorBlock": 526,
+    "IconHint": "alias",
     "Selected": true,
-    "LastChanged": "1999-01-28T17:37:18.1972447+01:00",
+    "LastChanged": "2005-11-23T14:19:03.6238736+01:00",
     "ChildItems": [
       {
-        "Id": 877,
-        "Name": "Champlin, Schmeler and Koepp",
-        "ToolTip": "Neque laboriosam et dolores tempore alias soluta.",
+        "Id": 258,
+        "Name": "Schmitt, Mann and Nienow",
+        "ToolTip": "Eos et et consectetur iusto voluptates.",
         "Deleted": false,
-        "Rank": 828,
-        "Type": "ut",
-        "ColorBlock": 323,
-        "IconHint": "dolor",
-        "Selected": false,
-        "LastChanged": "2014-04-13T17:37:18.1972447+02:00",
+        "Rank": 361,
+        "Type": "sunt",
+        "ColorBlock": 992,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2019-10-17T14:19:03.6238736+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "et",
+        "ExtraInfo": "eos",
+        "StyleHint": "occaecati",
         "Hidden": false,
-        "FullName": "Prof. Oran Kautzer",
+        "FullName": "Julio McClure Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 601
+            "FieldType": "System.Int32",
+            "FieldLength": 740
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Ms. Gaston Beaulah Torphy Jr.",
+    "ExtraInfo": "eos",
+    "StyleHint": "dolor",
+    "Hidden": false,
+    "FullName": "Presley Haley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 887
+        "FieldType": "System.String",
+        "FieldLength": 84
       }
     }
   }

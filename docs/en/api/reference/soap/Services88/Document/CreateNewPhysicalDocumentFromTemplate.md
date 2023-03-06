@@ -11,18 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.CreateNewP
 
 ## CreateNewPhysicalDocumentFromTemplate
 
-Create a new document content based on a document template and store it in the document archive.  Tags are substituted according to the provided id's.  Use GetDocumentStream to obtain the created document. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
 
-* **contactId:** Identifier for a contact. Defaults to document's contact if 0
-* **personId:** Identifier for a person. Defaults to document's person if 0
-* **appointmentId:** identifier for an appointment. Defaults to document if 0
-* **documentId:** Identifier for a document. The document defines the template to use.
-* **saleId:** Identifier for sale. Defaults to document's sale if 0.
-* **selectionId:** identifier for selection.
-* **projectId:** identifier for project. Defaults to document's project if 0
-* **uiCulture:** Language variation of template to use when creating document content. (ISO code "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang".
 
-**Returns:** The updated document entity, after creating the document content from the template.
+
 
 [WSDL file for Services88/Document](../Services88-Document.md)
 
@@ -62,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateNewPhysicalDocumentFromTemplate Response
 
@@ -112,8 +104,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Document:Name xsi:type="xsd:string"></Document:Name>
     <Document:OurRef xsi:type="xsd:string"></Document:OurRef>
     <Document:YourRef xsi:type="xsd:string"></Document:YourRef>
-    <Document:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:59:14Z</Document:CreatedDate>
-    <Document:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:59:14Z</Document:UpdatedDate>
+    <Document:CreatedDate xsi:type="xsd:dateTime">2023-02-15T13:17:15Z</Document:CreatedDate>
+    <Document:UpdatedDate xsi:type="xsd:dateTime">2023-02-15T13:17:15Z</Document:UpdatedDate>
     <Document:Description xsi:type="xsd:string"></Document:Description>
     <Document:DocumentTemplate xsi:type="Document:DocumentTemplate">
      <Document:DocumentTemplateId xsi:type="xsd:int">0</Document:DocumentTemplateId>
@@ -245,6 +237,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Document:FullName xsi:type="xsd:string"></Document:FullName>
      <Document:IsOwnerContact xsi:type="xsd:boolean">false</Document:IsOwnerContact>
      <Document:ActiveErpLinks xsi:type="xsd:int">0</Document:ActiveErpLinks>
+     <Document:Number1 xsi:type="xsd:string"></Document:Number1>
+     <Document:Number2 xsi:type="xsd:string"></Document:Number2>
     </Document:Contact>
     <Document:Project xsi:type="Document:Project">
      <Document:ProjectId xsi:type="xsd:int">0</Document:ProjectId>
@@ -255,18 +249,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Document:AssociateId xsi:type="xsd:int">0</Document:AssociateId>
      <Document:AssociateFullName xsi:type="xsd:string"></Document:AssociateFullName>
      <Document:TypeId xsi:type="xsd:int">0</Document:TypeId>
-     <Document:Updated xsi:type="xsd:dateTime">2022-08-26T08:59:14Z</Document:Updated>
+     <Document:Updated xsi:type="xsd:dateTime">2023-02-15T13:17:15Z</Document:Updated>
      <Document:StatusId xsi:type="xsd:int">0</Document:StatusId>
      <Document:Status xsi:type="xsd:string"></Document:Status>
      <Document:TextId xsi:type="xsd:int">0</Document:TextId>
-     <Document:PublishTo xsi:type="xsd:dateTime">2022-08-26T08:59:14Z</Document:PublishTo>
-     <Document:PublishFrom xsi:type="xsd:dateTime">2022-08-26T08:59:14Z</Document:PublishFrom>
+     <Document:PublishTo xsi:type="xsd:dateTime">2023-02-15T13:17:15Z</Document:PublishTo>
+     <Document:PublishFrom xsi:type="xsd:dateTime">2023-02-15T13:17:15Z</Document:PublishFrom>
      <Document:IsPublished xsi:type="xsd:boolean">false</Document:IsPublished>
      <Document:URLName xsi:type="xsd:string"></Document:URLName>
      <Document:ProjectNumber xsi:type="xsd:string"></Document:ProjectNumber>
      <Document:ActiveErpLinks xsi:type="xsd:int">0</Document:ActiveErpLinks>
     </Document:Project>
-    <Document:Date xsi:type="xsd:dateTime">2022-08-26T08:59:14Z</Document:Date>
+    <Document:Date xsi:type="xsd:dateTime">2023-02-15T13:17:15Z</Document:Date>
     <Document:ExternalRef xsi:type="xsd:string"></Document:ExternalRef>
     <Document:Completed xsi:type="Document:ActivityStatus">Unknown</Document:Completed>
     <Document:ActiveLinks xsi:type="xsd:int">0</Document:ActiveLinks>
@@ -283,7 +277,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Document:LockSemantics xsi:type="Document:DocumentLockSemantics">None</Document:LockSemantics>
     <Document:Sale xsi:type="Document:Sale">
      <Document:ContactName xsi:type="xsd:string"></Document:ContactName>
-     <Document:SaleDate xsi:type="xsd:dateTime">2022-08-26T08:59:14Z</Document:SaleDate>
+     <Document:SaleDate xsi:type="xsd:dateTime">2023-02-15T13:17:15Z</Document:SaleDate>
      <Document:SaleId xsi:type="xsd:int">0</Document:SaleId>
      <Document:Probability xsi:type="xsd:short">0</Document:Probability>
      <Document:Title xsi:type="xsd:string"></Document:Title>
@@ -305,7 +299,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Document:PersonFullName xsi:type="xsd:string"></Document:PersonFullName>
      <Document:Completed xsi:type="Document:ActivityStatus">Unknown</Document:Completed>
      <Document:ActiveErpLinks xsi:type="xsd:int">0</Document:ActiveErpLinks>
-     <Document:NextDueDate xsi:type="xsd:dateTime">2022-08-26T08:59:14Z</Document:NextDueDate>
+     <Document:NextDueDate xsi:type="xsd:dateTime">2023-02-15T13:17:15Z</Document:NextDueDate>
      <Document:Number xsi:type="xsd:string"></Document:Number>
     </Document:Sale>
     <Document:SuggestedDocumentId xsi:type="xsd:int">0</Document:SuggestedDocumentId>
@@ -328,9 +322,9 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Document:Value xsi:type="xsd:string"></Document:Value>
      </Document:StringKeyValuePair>
     </Document:CustomFields>
-    <Document:PublishEventDate xsi:type="xsd:dateTime">2022-08-26T08:59:14Z</Document:PublishEventDate>
-    <Document:PublishTo xsi:type="xsd:dateTime">2022-08-26T08:59:14Z</Document:PublishTo>
-    <Document:PublishFrom xsi:type="xsd:dateTime">2022-08-26T08:59:14Z</Document:PublishFrom>
+    <Document:PublishEventDate xsi:type="xsd:dateTime">2023-02-15T13:17:15Z</Document:PublishEventDate>
+    <Document:PublishTo xsi:type="xsd:dateTime">2023-02-15T13:17:15Z</Document:PublishTo>
+    <Document:PublishFrom xsi:type="xsd:dateTime">2023-02-15T13:17:15Z</Document:PublishFrom>
     <Document:IsPublished xsi:type="xsd:boolean">false</Document:IsPublished>
     <Document:VisibleFor xsi:type="Document:ArrayOfVisibleFor">
      <Document:VisibleFor xsi:type="Document:VisibleFor">
@@ -345,3 +339,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

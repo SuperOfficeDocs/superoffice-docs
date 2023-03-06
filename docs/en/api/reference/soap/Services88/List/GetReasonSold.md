@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetReasonSold"
 
 ## GetReasonSold
 
-Gets a ReasonSold object.
 
-* **reasonSoldId:** The identifier of the ReasonSold object
 
-**Returns:** ReasonSold
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetReasonSold Response
 
 ```xml
@@ -73,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

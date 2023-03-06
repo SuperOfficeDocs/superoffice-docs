@@ -117,12 +117,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "vel",
+    "path": "alias",
     "value": {}
   },
   {
     "op": "add",
-    "path": "vel",
+    "path": "alias",
     "value": {}
   }
 ]
@@ -135,22 +135,22 @@ HTTP/1.1 200 Dashboard  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 958,
-  "AssociateId": 552,
-  "Caption": "autem",
+  "DashboardId": 658,
+  "AssociateId": 285,
+  "Caption": "beatae",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 299,
-      "Caption": "doloremque",
-      "Description": "Persistent attitude-oriented emulation",
-      "ChartName": "Nitzsche, Runte and Hane",
-      "ChartId": "repellendus",
+      "DashboardTileId": 390,
+      "Caption": "soluta",
+      "Description": "Profit-focused mobile attitude",
+      "ChartName": "Bechtelar-Steuber",
+      "ChartId": "perspiciatis",
       "IsDefault": false,
-      "AssociateId": 58,
-      "GroupId": 779,
-      "SelectionId": 460,
-      "Config": "dolores",
+      "AssociateId": 149,
+      "GroupId": 775,
+      "SelectionId": 32,
+      "Config": "et",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -165,8 +165,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 132
+          "FieldType": "System.Int32",
+          "FieldLength": 200
         }
       }
     }
@@ -175,8 +175,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 410
+      "FieldType": "System.String",
+      "FieldLength": 644
     }
   },
   "_Links": {

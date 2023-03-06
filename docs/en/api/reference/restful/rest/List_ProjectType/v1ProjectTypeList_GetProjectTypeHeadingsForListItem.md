@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 21,
-    "Name": "Terry-Schmitt",
-    "ToolTip": "Laudantium iure deleniti asperiores odit.",
-    "Deleted": false,
-    "Rank": 176,
-    "Type": "quas",
-    "ColorBlock": 112,
-    "IconHint": "itaque",
+    "Id": 810,
+    "Name": "Ziemann, Kub and Waters",
+    "ToolTip": "Beatae maxime.",
+    "Deleted": true,
+    "Rank": 220,
+    "Type": "ut",
+    "ColorBlock": 850,
+    "IconHint": "accusamus",
     "Selected": true,
-    "LastChanged": "2020-08-20T17:37:40.2174708+02:00",
+    "LastChanged": "2022-11-25T14:19:11.4149038+01:00",
     "ChildItems": [
       {
-        "Id": 331,
-        "Name": "O'Connell-Raynor",
-        "ToolTip": "Id natus autem.",
+        "Id": 166,
+        "Name": "Veum-Baumbach",
+        "ToolTip": "Doloribus commodi fugiat qui similique repellat omnis repellat.",
         "Deleted": false,
-        "Rank": 756,
-        "Type": "voluptas",
-        "ColorBlock": 676,
-        "IconHint": "nihil",
-        "Selected": true,
-        "LastChanged": "2010-06-05T17:37:40.2174708+02:00",
+        "Rank": 181,
+        "Type": "sed",
+        "ColorBlock": 181,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2002-09-24T14:19:11.4149038+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "quibusdam",
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "asperiores",
         "Hidden": false,
-        "FullName": "Aylin Kutch",
+        "FullName": "Jamar Kreiger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 333
+            "FieldType": "System.Int32",
+            "FieldLength": 884
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "cumque",
-    "Hidden": true,
-    "FullName": "Declan Lang",
+    "ExtraInfo": "nobis",
+    "StyleHint": "harum",
+    "Hidden": false,
+    "FullName": "Myah Vernon Schaden I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 654
+        "FieldType": "System.String",
+        "FieldLength": 793
       }
     }
   }

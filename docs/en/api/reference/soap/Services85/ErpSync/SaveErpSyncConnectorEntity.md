@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IErpSyncAgent.SaveErpSync
 
 ## SaveErpSyncConnectorEntity
 
-Updates the existing ErpSyncConnectorEntity or creates a new ErpSyncConnectorEntity if the id parameter is 0.
 
-* **erpSyncConnectorEntity:** The ErpSyncConnectorEntity that is saved.
 
-**Returns:** New or updated ErpSyncConnectorEntity
+
 
 [WSDL file for Services85/ErpSync](../Services85-ErpSync.md)
 
@@ -54,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveErpSyncConnectorEntity Response
 
 ```xml
@@ -79,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

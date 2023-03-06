@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 181,
-  "ColumnId": 337,
-  "FieldDefault": "soluta",
-  "FieldHeight": 60,
-  "FieldLabel": "maxime",
-  "FieldLeft": 546,
-  "FieldTop": 165,
+  "UDefFieldId": 295,
+  "ColumnId": 607,
+  "FieldDefault": "quidem",
+  "FieldHeight": 840,
+  "FieldLabel": "sed",
+  "FieldLeft": 832,
+  "FieldTop": 386,
   "FieldType": "Checkbox",
-  "FieldWidth": 489,
-  "FormatMask": "omnis",
+  "FieldWidth": 872,
+  "FormatMask": "unde",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 740,
-  "LabelLeft": 619,
-  "LabelTop": 254,
-  "LabelWidth": 700,
-  "LastVersionId": 588,
-  "ListTableId": 437,
-  "IsMandatory": false,
+  "IsIndexed": true,
+  "LabelHeight": 57,
+  "LabelLeft": 787,
+  "LabelTop": 213,
+  "LabelWidth": 888,
+  "LastVersionId": 678,
+  "ListTableId": 651,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 75,
-  "ProgId": "optio",
+  "Page1LineNo": 309,
+  "ProgId": "similique",
   "IsReadOnly": false,
-  "ShortLabel": "quod",
-  "TabOrder": 925,
-  "TextLength": 768,
-  "Tooltip": "non",
-  "UdefIdentity": 530,
-  "UDListDefinitionId": 708,
+  "ShortLabel": "expedita",
+  "TabOrder": 43,
+  "TextLength": 875,
+  "Tooltip": "perspiciatis",
+  "UdefIdentity": 185,
+  "UDListDefinitionId": 40,
   "Justification": "Center",
-  "Version": 343,
-  "TemplateVariableName": "Quigley, Schmeler and Kautzer",
+  "Version": 28,
+  "TemplateVariableName": "Connelly-Kub",
   "HasBeenPublished": false,
-  "MdoListName": "Tremblay-Dooley",
+  "MdoListName": "Grant-Jones",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 55
+      "FieldType": "System.Int32",
+      "FieldLength": 584
     }
   }
 }

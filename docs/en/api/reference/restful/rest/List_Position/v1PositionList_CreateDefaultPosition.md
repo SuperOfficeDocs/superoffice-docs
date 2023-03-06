@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 80,
-  "Name": "Wisozk, Waters and Feeney",
-  "Tooltip": "fugiat",
+  "Id": 718,
+  "Name": "Littel, Hand and Davis",
+  "Tooltip": "amet",
   "Deleted": false,
-  "UdListDefinitionId": 167,
-  "Rank": 111,
+  "UdListDefinitionId": 94,
+  "Rank": 221,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 381
+      "FieldLength": 733
     }
   }
 }

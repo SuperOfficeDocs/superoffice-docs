@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Bernhard, Yundt and Emard",
-  "DisplayName": "DuBuque Inc and Sons",
-  "Description": "Streamlined modular extranet",
-  "ShortLabel": "officiis",
-  "HideLabel": true,
-  "HideField": false,
+  "FieldName": "Zboncak, Romaguera and Hane",
+  "DisplayName": "Abbott, Green and Hessel",
+  "Description": "Front-line national access",
+  "ShortLabel": "beatae",
+  "HideLabel": false,
+  "HideField": true,
   "IsIndexed": false,
   "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsReadOnly": true,
   "IsExternal": false,
-  "Rank": 961,
-  "TemplateVariableName": "Swift-Wunsch"
+  "Rank": 635,
+  "TemplateVariableName": "Hauck Group"
 }
 ```

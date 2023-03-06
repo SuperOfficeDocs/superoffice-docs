@@ -69,22 +69,22 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "enim",
+  "Provider": "quas",
   "Restrictions": [
     {
-      "Name": "Gutkowski Inc and Sons",
-      "Operator": "ratione",
+      "Name": "Mante, Herman and Pacocha",
+      "Operator": "tempora",
       "Values": [
-        "distinctio",
-        "ut"
+        "eos",
+        "in"
       ],
       "DisplayValues": [
-        "repellendus",
-        "et"
+        "delectus",
+        "numquam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -92,9 +92,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 275,
+      "InterParenthesis": 983,
       "InterOperator": "And",
-      "UniqueHash": 13
+      "UniqueHash": 380
     }
   ],
   "NewStatus": "Green"
@@ -108,7 +108,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  968,
-  686
+  876,
+  836
 ]
 ```

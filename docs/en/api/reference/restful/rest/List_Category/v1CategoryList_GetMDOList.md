@@ -25,8 +25,8 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=iste
+GET /api/v1/List/Category/MDOItems?flat=True
+GET /api/v1/List/Category/MDOItems?query=expedita
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 741,
-    "Name": "Lebsack, Blick and Crist",
-    "ToolTip": "Iusto repellendus.",
-    "Deleted": false,
-    "Rank": 327,
-    "Type": "dolorem",
+    "Id": 727,
+    "Name": "Little, Yundt and Turner",
+    "ToolTip": "Eligendi exercitationem labore alias.",
+    "Deleted": true,
+    "Rank": 206,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 417,
-        "Name": "King Group",
-        "ToolTip": "Itaque quae doloremque quibusdam voluptate nostrum.",
+        "Id": 693,
+        "Name": "Walter Inc and Sons",
+        "ToolTip": "Et sunt animi in consequatur qui.",
         "Deleted": false,
-        "Rank": 854,
-        "Type": "fugiat",
+        "Rank": 55,
+        "Type": "laboriosam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "praesentium",
-        "ColorBlock": 268,
-        "ExtraInfo": "quo",
-        "StyleHint": "non",
-        "FullName": "Elsie Schaefer",
+        "IconHint": "labore",
+        "ColorBlock": 381,
+        "ExtraInfo": "recusandae",
+        "StyleHint": "aut",
+        "FullName": "Bettie Baumbach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 527
+            "FieldLength": 159
           }
         }
       }
     ],
-    "IconHint": "minima",
-    "ColorBlock": 819,
-    "ExtraInfo": "dolorum",
-    "StyleHint": "tempora",
-    "FullName": "Dr. Micaela Herman MD",
+    "IconHint": "ipsam",
+    "ColorBlock": 540,
+    "ExtraInfo": "iusto",
+    "StyleHint": "pariatur",
+    "FullName": "Jamey Durgan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 482
+        "FieldType": "System.String",
+        "FieldLength": 143
       }
     }
   }

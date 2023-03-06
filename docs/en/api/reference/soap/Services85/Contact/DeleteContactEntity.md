@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IContactAgent.DeleteConta
 
 ## DeleteContactEntity
 
-Deletes the ContactEntity.
-This table supports Soft Delete; records will be marked as deleted and disappear from the GUI and API results, but will not be physically deleted by this (and any other) method.
 
-* **contactEntityId:** The identity of the ContactEntity
+
+
 
 [WSDL file for Services85/Contact](../Services85-Contact.md)
 
@@ -48,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteContactEntity Response
 
 ```xml
@@ -67,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -456,55 +456,31 @@ title: Services86.NumberAllocationAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="NumberAllocation">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for NumberAllocation</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultRefCountEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new RefCountEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/NumberAllocation/CreateDefaultRefCountEntity" name="CreateDefaultRefCountEntityRequest" message="tns:CreateDefaultRefCountEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/NumberAllocation/CreateDefaultRefCountEntityResponse" name="CreateDefaultRefCountEntityResponse" message="tns:CreateDefaultRefCountEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveRefCountEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing RefCountEntity or creates a new RefCountEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/NumberAllocation/SaveRefCountEntity" name="SaveRefCountEntityRequest" message="tns:SaveRefCountEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/NumberAllocation/SaveRefCountEntityResponse" name="SaveRefCountEntityResponse" message="tns:SaveRefCountEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteRefCountEntity">
-      <wsdl:documentation>
-        <summary>Deletes the RefCountEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/NumberAllocation/DeleteRefCountEntity" name="DeleteRefCountEntityRequest" message="tns:DeleteRefCountEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/NumberAllocation/DeleteRefCountEntityResponse" name="DeleteRefCountEntityResponse" message="tns:DeleteRefCountEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetRefCountEntity">
-      <wsdl:documentation>
-        <summary>Gets a RefCountEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/NumberAllocation/GetRefCountEntity" name="GetRefCountEntityRequest" message="tns:GetRefCountEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/NumberAllocation/GetRefCountEntityResponse" name="GetRefCountEntityResponse" message="tns:GetRefCountEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveDefaultNumbering">
-      <wsdl:documentation>
-        <summary>Saves default numbering values in preferences</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/NumberAllocation/SaveDefaultNumbering" name="SaveDefaultNumberingRequest" message="tns:SaveDefaultNumberingRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/NumberAllocation/SaveDefaultNumberingResponse" name="SaveDefaultNumberingResponse" message="tns:SaveDefaultNumberingResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetNumberEachTemplate">
-      <wsdl:documentation>
-        <summary>Returns true or false if Automatically create new counters for new document templates</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/NumberAllocation/GetNumberEachTemplate" name="GetNumberEachTemplateRequest" message="tns:GetNumberEachTemplateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/NumberAllocation/GetNumberEachTemplateResponse" name="GetNumberEachTemplateResponse" message="tns:GetNumberEachTemplateResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetNumberEachTemplate">
-      <wsdl:documentation>
-        <summary>Saves true or false if Automatically create new counters for new document templates</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/NumberAllocation/SetNumberEachTemplate" name="SetNumberEachTemplateRequest" message="tns:SetNumberEachTemplateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/NumberAllocation/SetNumberEachTemplateResponse" name="SetNumberEachTemplateResponse" message="tns:SetNumberEachTemplateResponse" />
     </wsdl:operation>
@@ -631,3 +607,4 @@ title: Services86.NumberAllocationAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

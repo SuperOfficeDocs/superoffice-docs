@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IMDOAgent.GetSelectableSi
 
 ## GetSelectableSimpleList
 
-Method returns a flat Selectable MDO List.
 
-* **name:** Conceptual name of the MDO list
 
-**Returns:** Array of SelectableMDOListItem
+
 
 [WSDL file for Services86/MDO](../Services86-MDO.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetSelectableSimpleList Response
 
 ```xml
@@ -74,7 +73,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <MDO:ColorBlock xsi:type="xsd:int">0</MDO:ColorBlock>
      <MDO:IconHint xsi:type="xsd:string"></MDO:IconHint>
      <MDO:Selected xsi:type="xsd:boolean">false</MDO:Selected>
-     <MDO:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:55:21Z</MDO:LastChanged>
+     <MDO:LastChanged xsi:type="xsd:dateTime">2023-02-15T13:13:39Z</MDO:LastChanged>
      <MDO:ChildItems xsi:type="MDO:ArrayOfSelectableMDOListItem">
       <MDO:SelectableMDOListItem xsi:type="MDO:SelectableMDOListItem">
        <MDO:Id xsi:type="xsd:int">0</MDO:Id>
@@ -86,7 +85,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <MDO:ColorBlock xsi:type="xsd:int">0</MDO:ColorBlock>
        <MDO:IconHint xsi:type="xsd:string"></MDO:IconHint>
        <MDO:Selected xsi:type="xsd:boolean">false</MDO:Selected>
-       <MDO:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:55:21Z</MDO:LastChanged>
+       <MDO:LastChanged xsi:type="xsd:dateTime">2023-02-15T13:13:39Z</MDO:LastChanged>
        <MDO:ChildItems xsi:type="MDO:ArrayOfSelectableMDOListItem">
         <MDO:SelectableMDOListItem xsi:type="MDO:SelectableMDOListItem">
          <MDO:Id xsi:type="xsd:int">0</MDO:Id>
@@ -98,7 +97,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <MDO:ColorBlock xsi:type="xsd:int">0</MDO:ColorBlock>
          <MDO:IconHint xsi:type="xsd:string"></MDO:IconHint>
          <MDO:Selected xsi:type="xsd:boolean">false</MDO:Selected>
-         <MDO:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:55:21Z</MDO:LastChanged>
+         <MDO:LastChanged xsi:type="xsd:dateTime">2023-02-15T13:13:39Z</MDO:LastChanged>
          <MDO:ChildItems xsi:type="MDO:ArrayOfSelectableMDOListItem">
           <MDO:SelectableMDOListItem xsi:nil="true"></MDO:SelectableMDOListItem>
          </MDO:ChildItems>
@@ -125,3 +124,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

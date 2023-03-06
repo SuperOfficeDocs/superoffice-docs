@@ -81,50 +81,50 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Lakin Inc and Sons",
-      "Operator": "dolorum",
+      "Name": "Williamson Inc and Sons",
+      "Operator": "autem",
       "Values": [
-        "asperiores",
-        "architecto"
+        "possimus",
+        "sunt"
       ],
       "DisplayValues": [
-        "voluptas",
-        "minus"
+        "accusamus",
+        "culpa"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 528,
+      "InterParenthesis": 260,
       "InterOperator": "And",
-      "UniqueHash": 489
+      "UniqueHash": 544
     }
   ],
-  "ProviderName": "Kunde Group",
+  "ProviderName": "Rempel, Marquardt and Schuppe",
   "DesiredColumns": [
-    "ipsam",
-    "exercitationem"
+    "nulla",
+    "reiciendis"
   ],
   "OrderBy": [
     {
-      "Name": "Johnston-Eichmann",
+      "Name": "Upton-Frami",
       "Direction": "ASC"
     },
     {
-      "Name": "Johnston-Eichmann",
+      "Name": "Upton-Frami",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 376,
-  "PageNumber": 315
+  "PageSize": 331,
+  "PageNumber": 178
 }
 ```
 
@@ -137,51 +137,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Nikolaus-Feeney",
-      "DisplayTooltip": "ipsam",
-      "DisplayType": "eum",
+      "DisplayName": "Emard-Douglas",
+      "DisplayTooltip": "tenetur",
+      "DisplayType": "pariatur",
       "CanOrderBy": false,
-      "Name": "Leuschke Group",
-      "CanRestrictBy": true,
-      "RestrictionType": "et",
-      "RestrictionListName": "Baumbach, O'Conner and O'Conner",
+      "Name": "Marvin-Reynolds",
+      "CanRestrictBy": false,
+      "RestrictionType": "in",
+      "RestrictionListName": "Hagenes, Gerlach and Sanford",
       "IsVisible": false,
-      "ExtraInfo": "ut",
-      "Width": "ad",
-      "IconHint": "reprehenderit",
-      "HeadingIconHint": "et"
+      "ExtraInfo": "nulla",
+      "Width": "voluptas",
+      "IconHint": "quasi",
+      "HeadingIconHint": "explicabo"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Murazik, Wiegand and Kerluke",
-      "PrimaryKey": 618,
+      "EntityName": "Wilderman-Rau",
+      "PrimaryKey": 35,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "praesentium",
-          "TooltipHint": "modi",
-          "LinkHint": "quo"
+          "DisplayValue": "sunt",
+          "TooltipHint": "voluptatibus",
+          "LinkHint": "aut"
         }
       },
-      "LinkHint": "voluptas",
-      "StyleHint": "eius",
+      "LinkHint": "culpa",
+      "StyleHint": "facere",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 691
+          "FieldLength": 49
         }
       }
     }
   ],
-  "RowCount": 343,
+  "RowCount": 754,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 897
+      "FieldLength": 438
     }
   }
 }

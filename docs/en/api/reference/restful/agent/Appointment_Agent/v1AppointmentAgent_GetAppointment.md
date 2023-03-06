@@ -25,7 +25,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=634
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=331
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -114,7 +114,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -124,61 +124,61 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 632,
-  "StartDate": "2020-12-22T17:37:16.3592418+01:00",
-  "EndDate": "2006-03-17T17:37:16.3592418+01:00",
+  "AppointmentId": 85,
+  "StartDate": "1996-09-08T14:19:02.5317757+02:00",
+  "EndDate": "1997-06-24T14:19:02.5317757+02:00",
   "Type": "BookingForChecklist",
-  "Task": "sed",
-  "AssociateFullName": "Isaiah Ernser",
-  "ContactName": "Ankunding-Breitenberg",
-  "Description": "Fully-configurable contextually-based model",
-  "PersonFullName": "Wilfredo Dietrich",
-  "PersonId": 632,
-  "ContactId": 605,
-  "ProjectId": 805,
-  "ProjectName": "Koepp Group",
+  "Task": "et",
+  "AssociateFullName": "Eusebio Christiansen PhD",
+  "ContactName": "Jacobs LLC",
+  "Description": "Synergized multi-tasking alliance",
+  "PersonFullName": "Mr. Felix Sporer",
+  "PersonId": 424,
+  "ContactId": 173,
+  "ProjectId": 949,
+  "ProjectName": "Walsh, Hirthe and O'Hara",
   "IsPublished": false,
-  "AssociateId": 104,
-  "ColorIndex": 146,
+  "AssociateId": 911,
+  "ColorIndex": 414,
   "IsFree": false,
-  "HasAlarm": true,
+  "HasAlarm": false,
   "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 163,
-  "PriorityName": "Abernathy Group",
+  "PriorityId": 380,
+  "PriorityName": "Lakin-Ferry",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
+  "IsBookingMain": true,
   "IsRecurrence": false,
-  "IsBooking": false,
-  "ActiveDate": "2009-01-12T17:37:16.3592418+01:00",
+  "IsBooking": true,
+  "ActiveDate": "2010-08-11T14:19:02.5317757+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2020-01-07T17:37:16.3592418+01:00",
-  "RecurringEndDate": "2016-10-29T17:37:16.3592418+02:00",
-  "MotherId": 803,
-  "AssignedBy": 921,
-  "AssignedByFullName": "Leann Kunze DVM",
+  "RecurringStartDate": "2010-06-08T14:19:02.5317757+02:00",
+  "RecurringEndDate": "1998-01-13T14:19:02.5317757+01:00",
+  "MotherId": 195,
+  "AssignedBy": 318,
+  "AssignedByFullName": "Ms. Meta Erling Considine",
   "RejectReason": "",
-  "Location": "rerum",
-  "AlarmLeadTime": "sit",
-  "SaleId": 655,
-  "SaleName": "Hansen, Grant and Green",
-  "AssociateName": "Runte-Steuber",
-  "CreatedDate": "2012-02-02T17:37:16.3592418+01:00",
-  "CreatedBy": "quisquam",
-  "CreatedByFullName": "Dr. Chesley Gideon Purdy DDS",
-  "CreatedByAssociateId": 43,
+  "Location": "ipsum",
+  "AlarmLeadTime": "voluptatem",
+  "SaleId": 779,
+  "SaleName": "Abshire, Blick and Conn",
+  "AssociateName": "Williamson Group",
+  "CreatedDate": "2012-07-21T14:19:02.5317757+02:00",
+  "CreatedBy": "vitae",
+  "CreatedByFullName": "Dr. Melvin Gus Beer III",
+  "CreatedByAssociateId": 515,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 791
+      "FieldType": "System.Int32",
+      "FieldLength": 642
     }
   }
 }

@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 143,
-  "ConnectionId": 213,
-  "FirstAlternativeName": "Hansen, Kohler and Gorczany"
+  "SaleId": 648,
+  "ConnectionId": 533,
+  "FirstAlternativeName": "Gleichner-Goodwin"
 }
 ```
 
@@ -103,58 +103,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 255,
-  "SaleId": 97,
-  "QuoteConnectionId": 940,
-  "ERPQuoteKey": "quis",
-  "ERPOrderKey": "numquam",
-  "ActiveQuoteVersionId": 312,
-  "AcceptedQuoteAlternativeId": 259,
-  "UseValuesFromQuote": 212,
-  "DocumentId": 483,
-  "PoNumber": "774417",
-  "OrderComment": "iure",
-  "PreferredEmailCulture": "estefania_kshlerin@ritchieledner.uk",
+  "QuoteId": 684,
+  "SaleId": 565,
+  "QuoteConnectionId": 868,
+  "ERPQuoteKey": "beatae",
+  "ERPOrderKey": "cum",
+  "ActiveQuoteVersionId": 194,
+  "AcceptedQuoteAlternativeId": 616,
+  "UseValuesFromQuote": 520,
+  "DocumentId": 767,
+  "PoNumber": "1258273",
+  "OrderComment": "provident",
+  "PreferredEmailCulture": "millie_conn@balistreri.name",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 903,
-      "ERPQuoteVersionKey": "dicta",
-      "QuoteId": 368,
-      "Description": "Decentralized executive productivity",
-      "Number": "261349",
+      "QuoteVersionId": 544,
+      "ERPQuoteVersionKey": "facilis",
+      "QuoteId": 320,
+      "Description": "Stand-alone empowering middleware",
+      "Number": "1587131",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 978,
-      "SentDate": "2021-08-27T17:37:18.7522418+02:00",
-      "FollowupId": 747,
-      "ExpirationDate": "1999-05-03T17:37:18.7522418+02:00",
-      "DeliveryCountryId": 53,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 797,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "est",
-      "ERPPaymentTypeKey": "deserunt",
-      "ERPDeliveryTermsKey": "deleniti",
-      "ERPDeliveryTypeKey": "consequatur",
-      "Rank": 177,
-      "ApprovedBy": 112,
-      "ApprovedText": "quaerat",
-      "ApprovedRegisteredBy": 584,
-      "ApprovedRegisteredDate": "2004-09-11T17:37:18.7522418+02:00",
-      "ExtraField1": "cum",
-      "ExtraField2": "quo",
-      "ExtraField3": "libero",
-      "ExtraField4": "vitae",
-      "ExtraField5": "in",
-      "LastRecalculated": "2007-01-30T17:37:18.7522418+01:00",
-      "Updated": "2002-06-16T17:37:18.7522418+02:00",
-      "UpdatedAssociateId": 156,
-      "Registered": "2011-09-18T17:37:18.7522418+02:00",
-      "RegisteredAssociateId": 355,
-      "RequestAssociateId": 71,
-      "RequestComment": "molestias",
+      "LikelyQuoteAlternativeId": 259,
+      "SentDate": "2002-04-12T14:19:04.0313341+02:00",
+      "FollowupId": 890,
+      "ExpirationDate": "2012-11-17T14:19:04.0313341+01:00",
+      "DeliveryCountryId": 160,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 682,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "inventore",
+      "ERPPaymentTypeKey": "culpa",
+      "ERPDeliveryTermsKey": "accusamus",
+      "ERPDeliveryTypeKey": "eius",
+      "Rank": 513,
+      "ApprovedBy": 595,
+      "ApprovedText": "non",
+      "ApprovedRegisteredBy": 429,
+      "ApprovedRegisteredDate": "2005-07-18T14:19:04.0313341+02:00",
+      "ExtraField1": "recusandae",
+      "ExtraField2": "sint",
+      "ExtraField3": "et",
+      "ExtraField4": "voluptatem",
+      "ExtraField5": "et",
+      "LastRecalculated": "2022-08-25T14:19:04.0313341+02:00",
+      "Updated": "1996-09-02T14:19:04.0313341+02:00",
+      "UpdatedAssociateId": 498,
+      "Registered": "2014-02-11T14:19:04.0313341+01:00",
+      "RegisteredAssociateId": 614,
+      "RequestAssociateId": 537,
+      "RequestComment": "voluptatem",
       "QuoteAlternatives": [
         {},
         {}
@@ -164,7 +164,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 100
+          "FieldLength": 763
         }
       }
     }
@@ -174,7 +174,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 303
+      "FieldLength": 292
     }
   }
 }

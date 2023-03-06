@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 833,
-  "Name": "Anderson, Gottlieb and Breitenberg",
-  "Tooltip": "cupiditate",
+  "HeadingId": 948,
+  "Name": "Lind-Schoen",
+  "Tooltip": "numquam",
   "Deleted": false,
-  "Rank": 156,
-  "UdListDefinitionId": 830
+  "Rank": 299,
+  "UdListDefinitionId": 424
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 764,
-  "Name": "Baumbach-Runolfsdottir",
-  "Tooltip": "a",
+  "HeadingId": 596,
+  "Name": "Erdman-Weimann",
+  "Tooltip": "suscipit",
   "Deleted": true,
-  "Rank": 71,
-  "UdListDefinitionId": 445,
+  "Rank": 939,
+  "UdListDefinitionId": 979,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 591
+      "FieldLength": 509
     }
   }
 }

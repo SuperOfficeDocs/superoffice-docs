@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.MoveEmailsToT
 
 ## MoveEmailsToTrash
 
-Delete specified mail items and move to the Trash folder
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-* **ids:** The e-mails to handle
+
+
 
 [WSDL file for Services88/EMail](../Services88-EMail.md)
 
@@ -50,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## MoveEmailsToTrash Response
 
 ```xml
@@ -69,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

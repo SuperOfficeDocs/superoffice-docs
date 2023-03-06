@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/Docum
 
 Handled by the <see cref="T:SuperOffice.Services88.IDocumentAgent">SuperOffice.Services88.IDocumentAgent</see> interface.
 
-Interface for the Document Agent
-Collection of all services that works with Document data. This is services for the document information, not the physical document themselves. These are handled by the BLOB service methods.
+
 
 Download [WSDL file for Services88/Document](../Services88-Document.md) if you need to generate your own proxy code.
 
@@ -99,3 +98,4 @@ Download [WSDL file for Services88/Document](../Services88-Document.md) if you n
 * [UndoCheckoutDocument](UndoCheckoutDocument.md)
 * [ValidateDocumentEntity](ValidateDocumentEntity.md)
 * [VerifyGetDocumentStream](VerifyGetDocumentStream.md)
+

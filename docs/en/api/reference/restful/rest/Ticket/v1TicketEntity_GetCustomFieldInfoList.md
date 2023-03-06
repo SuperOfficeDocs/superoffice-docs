@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Bahringer, Kemmer and Kunde",
-    "DisplayName": "Kunze, Ritchie and Moen",
-    "Description": "Operative disintermediate emulation",
-    "ShortLabel": "id",
+    "FieldName": "Purdy LLC",
+    "DisplayName": "Wuckert Inc and Sons",
+    "Description": "Ameliorated background array",
+    "ShortLabel": "adipisci",
     "HideLabel": false,
     "HideField": true,
-    "IsIndexed": false,
-    "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": true,
-    "Rank": 290,
-    "TemplateVariableName": "Graham Group"
+    "IsIndexed": true,
+    "IsMandatory": true,
+    "IsReadOnly": true,
+    "IsExternal": false,
+    "Rank": 680,
+    "TemplateVariableName": "Grimes-Ledner"
   }
 ]
 ```

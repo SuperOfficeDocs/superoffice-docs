@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/Selec
 
 Handled by the <see cref="T:SuperOffice.Services88.ISelectionAgent">SuperOffice.Services88.ISelectionAgent</see> interface.
 
-Interface for the Selection Agent
-Selections, entities, members and tasks
+
 
 Download [WSDL file for Services88/Selection](../Services88-Selection.md) if you need to generate your own proxy code.
 
@@ -70,3 +69,4 @@ Download [WSDL file for Services88/Selection](../Services88-Selection.md) if you
 * [SetDynamicSelectionCriteriaGroups](SetDynamicSelectionCriteriaGroups.md)
 * [StartMailMerge](StartMailMerge.md)
 * [UpdateTypicalSearch](UpdateTypicalSearch.md)
+

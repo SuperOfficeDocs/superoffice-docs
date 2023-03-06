@@ -76,12 +76,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 309,
-  "Name": "Emard LLC",
-  "Tooltip": "blanditiis",
-  "Deleted": true,
-  "UdListDefinitionId": 856,
-  "Rank": 351
+  "Id": 680,
+  "Name": "Gutmann-Beatty",
+  "Tooltip": "nemo",
+  "Deleted": false,
+  "UdListDefinitionId": 259,
+  "Rank": 241
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 836,
-  "Name": "Bayer-Skiles",
-  "Tooltip": "voluptas",
-  "Deleted": true,
-  "UdListDefinitionId": 22,
-  "Rank": 269,
+  "Id": 682,
+  "Name": "Hickle-Bahringer",
+  "Tooltip": "doloremque",
+  "Deleted": false,
+  "UdListDefinitionId": 775,
+  "Rank": 887,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 892
+      "FieldType": "System.Int32",
+      "FieldLength": 615
     }
   }
 }

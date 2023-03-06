@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDocumentMigrationAgent.H
 
 ## HasDocumentsToMigrate
 
-Checks if there are any documents in the current database stored using a non-default document-plugin, and which can be migrated.
-<para /><b>Online Restricted:</b> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
 
-**Returns:** True if there are documents available to migrate.
+
+
 
 [WSDL file for Services88/DocumentMigration](../Services88-DocumentMigration.md)
 
@@ -47,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## HasDocumentsToMigrate Response
 
 ```xml
@@ -67,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

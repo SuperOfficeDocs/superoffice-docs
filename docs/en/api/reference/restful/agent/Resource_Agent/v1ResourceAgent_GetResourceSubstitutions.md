@@ -82,11 +82,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Botsford-Hand",
-    "Haag, Hoppe and Kuphal"
+    "Runolfsson LLC",
+    "Metz-Toy"
   ],
-  "Culture": "recusandae",
-  "ActiveOnly": false
+  "Culture": "autem",
+  "ActiveOnly": true
 }
 ```
 
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Herman LLC",
-    "ResourceValue": "perspiciatis",
-    "Culture": "qui",
+    "ResourceName": "Mueller-Bode",
+    "ResourceValue": "et",
+    "Culture": "voluptas",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 191
+        "FieldLength": 789
       }
     }
   },
   {
-    "ResourceName": "Herman LLC",
-    "ResourceValue": "perspiciatis",
-    "Culture": "qui",
+    "ResourceName": "Mueller-Bode",
+    "ResourceValue": "et",
+    "Culture": "voluptas",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 191
+        "FieldLength": 789
       }
     }
   }

@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IViewStateAgent.GetPrevio
 
 ## GetPreviousCurrent
 
-Returns the previous current item. If no item exists a default value is returned. This is usually the first item in the table representing the history list.
 
-* **historyName:** Name of the history list, e.g. contact, project
-* **id:** Id of the history element, e.g. Contact id
 
-**Returns:** The current value.
+
 
 [WSDL file for Services85/ViewState](../Services85-ViewState.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetPreviousCurrent Response
 
 ```xml
@@ -79,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

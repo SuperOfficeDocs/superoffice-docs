@@ -133,10 +133,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 571,
-  "SaleId": 922,
-  "CreateNow": true,
-  "OwnerId": 75
+  "SuggestedAppointmentId": 284,
+  "SaleId": 560,
+  "CreateNow": false,
+  "OwnerId": 392
 }
 ```
 
@@ -151,122 +151,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2001-09-14T17:37:16.4952426+02:00",
-  "AppointmentId": 693,
-  "Description": "Universal zero defect data-warehouse",
-  "StartDate": "2014-03-27T17:37:16.4952426+01:00",
-  "EndDate": "2009-08-27T17:37:16.4952426+02:00",
+  "CreatedDate": "2009-07-14T14:19:02.6344205+02:00",
+  "AppointmentId": 490,
+  "Description": "Down-sized tertiary help-desk",
+  "StartDate": "1998-10-19T14:19:02.6344205+02:00",
+  "EndDate": "2020-03-18T14:19:02.6344205+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 978,
+  "MotherId": 462,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-02-13T17:37:16.4992419+01:00",
+  "UpdatedDate": "2009-08-24T14:19:02.6500523+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 597,
+  "ActiveLinks": 430,
   "Links": [
     {
-      "EntityName": "Lindgren-Larson",
-      "Id": 245,
-      "Description": "Customer-focused 3rd generation implementation",
-      "ExtraInfo": "fuga",
-      "LinkId": 489,
+      "EntityName": "Lockman Group",
+      "Id": 441,
+      "Description": "Business-focused directional support",
+      "ExtraInfo": "qui",
+      "LinkId": 972,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 205
+          "FieldType": "System.Int32",
+          "FieldLength": 785
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
+  "AlarmLeadTime": "delectus",
   "HasAlarm": false,
-  "ColorIndex": 850,
-  "IsFree": true,
+  "ColorIndex": 854,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "soluta",
-  "LeadTime": "at",
-  "Location": "praesentium",
-  "RejectCounter": 471,
+  "LagTime": "eum",
+  "LeadTime": "aspernatur",
+  "Location": "qui",
+  "RejectCounter": 599,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 772,
-      "PersonId": 304,
-      "ContactId": 425,
-      "EmailId": 483,
-      "SendEmail": true,
+      "AssociateId": 694,
+      "PersonId": 484,
+      "ContactId": 972,
+      "EmailId": 532,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 772,
-      "PersonId": 304,
-      "ContactId": 425,
-      "EmailId": 483,
-      "SendEmail": true,
+      "AssociateId": 694,
+      "PersonId": 484,
+      "ContactId": 972,
+      "EmailId": 532,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2006-10-27T17:37:16.4992419+02:00",
+  "ActiveDate": "2015-06-16T14:19:02.6500523+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 738,
+  "PreferredTZLocation": 314,
   "Sale": null,
-  "SuggestedAppointmentId": 499,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 484,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "at",
+  "CentralserviceVideomeetId": "illum",
   "UserDefinedFields": {
-    "SuperOffice:1": "492009319",
-    "SuperOffice:2": "Doyle Krajcik"
+    "SuperOffice:1": "Ms. Guadalupe Heidi Wehner DDS",
+    "SuperOffice:2": "Jennie Oral Keebler I"
   },
   "ExtraFields": {
-    "ExtraFields1": "iste",
-    "ExtraFields2": "excepturi"
+    "ExtraFields1": "eos",
+    "ExtraFields2": "harum"
   },
   "CustomFields": {
-    "CustomFields1": "repellendus",
-    "CustomFields2": "doloremque"
+    "CustomFields1": "deserunt",
+    "CustomFields2": "accusantium"
   },
-  "PublishEventDate": "2003-08-01T17:37:16.5012414+02:00",
-  "PublishTo": "2017-06-07T17:37:16.5012414+02:00",
-  "PublishFrom": "2011-08-10T17:37:16.5012414+02:00",
+  "PublishEventDate": "2000-07-31T14:19:02.6500523+02:00",
+  "PublishTo": "2007-04-15T14:19:02.6500523+02:00",
+  "PublishFrom": "2013-10-04T14:19:02.6500523+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 228,
+      "VisibleId": 68,
       "Visibility": "All",
-      "DisplayValue": "doloribus",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 355
+          "FieldLength": 907
         }
       }
     },
     {
-      "VisibleId": 228,
+      "VisibleId": 68,
       "Visibility": "All",
-      "DisplayValue": "doloribus",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 355
+          "FieldLength": 907
         }
       }
     }
@@ -275,8 +275,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 269
+      "FieldType": "System.Int32",
+      "FieldLength": 461
     }
   }
 }

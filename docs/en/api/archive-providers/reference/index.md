@@ -7,7 +7,7 @@ keywords:
   - "provider"
   - "archive provider"
 so.generated: true
-so.date: 11.29.2021
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -19,6 +19,7 @@ so.envir:
 This is a list of all the valid provider names, and the associated column names and types.
 
 * [Activity](Activity.md)
+* [AggregationWrapper2](AggregationWrapper2.md)
 * [AllUsers](AllUsers.md)
 * [Appointment](Appointment.md)
 * [AppointmentDynamicSelection](AppointmentDynamicSelection.md)
@@ -50,6 +51,7 @@ This is a list of all the valid provider names, and the associated column names 
 * [AssociateProjectStaticSelectionV2](AssociateProjectStaticSelectionV2.md)
 * [BatchTasks](BatchTasks.md)
 * [BookingResponseInvitation](BookingResponseInvitation.md)
+* [BulkUpdateResults](BulkUpdateResults.md)
 * [CancelledInvitation](CancelledInvitation.md)
 * [CategoryMembers](CategoryMembers.md)
 * [ChatConversationDynamicSelectionSingleCriteriaGroup](ChatConversationDynamicSelectionSingleCriteriaGroup.md)
@@ -64,6 +66,7 @@ This is a list of all the valid provider names, and the associated column names 
 * [ChatConversationStaticSelectionV2](ChatConversationStaticSelectionV2.md)
 * [ChatSession](ChatSession.md)
 * [ChecklistAppointment](ChecklistAppointment.md)
+* [ConfigurableArchive](ConfigurableArchive.md)
 * [ConfigurableArchiveProject](ConfigurableArchiveProject.md)
 * [ConfigurableArchiveQuoteLine](ConfigurableArchiveQuoteLine.md)
 * [ConsentPurpose](ConsentPurpose.md)
@@ -117,7 +120,6 @@ This is a list of all the valid provider names, and the associated column names 
 * [ErpField](ErpField.md)
 * [ErpSyncLog](ErpSyncLog.md)
 * [EventHandler](EventHandler.md)
-* [ExecutingServices](ExecutingServices.md)
 * [ExistingCategoryMembers](ExistingCategoryMembers.md)
 * [ExplicitInvitation](ExplicitInvitation.md)
 * [ExternalPersons](ExternalPersons.md)
@@ -130,10 +132,13 @@ This is a list of all the valid provider names, and the associated column names 
 * [FindContactWithoutPhoneAddressEmail](FindContactWithoutPhoneAddressEmail.md)
 * [FindDocument](FindDocument.md)
 * [FindErpEntity](FindErpEntity.md)
+* [FindErpProduct](FindErpProduct.md)
+* [FindProductViaConnectorProvider](FindProductViaConnectorProvider.md)
 * [FindProject](FindProject.md)
 * [FindQuoteLine](FindQuoteLine.md)
 * [FindSale](FindSale.md)
-* [FindSelection](FindSelectio* [FindTicket](FindTicket.md)
+* [FindSelection](FindSelection.md)
+* [FindTicket](FindTicket.md)
 * [ForeignKeys](ForeignKeys.md)
 * [FormSubmission](FormSubmission.md)
 * [FormSubmissionDynamicSelectionSingleCriteriaGroup](FormSubmissionDynamicSelectionSingleCriteriaGroup.md)
@@ -154,6 +159,7 @@ This is a list of all the valid provider names, and the associated column names 
 * [FreetextProject](FreetextProject.md)
 * [FreetextSale](FreetextSale.md)
 * [FreetextSelection](FreetextSelection.md)
+* [FreetextTicket](FreetextTicket.md)
 * [InnerSelectionStaticContactProvider](InnerSelectionStaticContactProvider.md)
 * [InnerSelectionStaticPersonProvider](InnerSelectionStaticPersonProvider.md)
 * [InternalUsers](InternalUsers.md)
@@ -249,9 +255,11 @@ This is a list of all the valid provider names, and the associated column names 
 * [QuoteVersionAttachment](QuoteVersionAttachment.md)
 * [RecycleContact](RecycleContact.md)
 * [RecyclePerson](RecyclePerson.md)
+* [RecycleTicket](RecycleTicket.md)
 * [RejectedInvitation](RejectedInvitation.md)
 * [Relation](Relation.md)
 * [ReportLabelLayout](ReportLabelLayout.md)
+* [ReportProvider](ReportProvider.md)
 * [Reports](Reports.md)
 * [Role](Role.md)
 * [SaintContact](SaintContact.md)

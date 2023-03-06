@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.SaveAttachme
 
 ## SaveAttachmentEntity
 
-Updates the existing AttachmentEntity or creates a new AttachmentEntity if the id parameter is 0.
 
-* **attachmentEntity:** The AttachmentEntity that is saved.
 
-**Returns:** New or updated AttachmentEntity
+
 
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
@@ -56,6 +54,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveAttachmentEntity Response
 
 ```xml
@@ -83,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

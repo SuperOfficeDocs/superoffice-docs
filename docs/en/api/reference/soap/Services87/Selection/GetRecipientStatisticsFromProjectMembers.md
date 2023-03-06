@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISelectionAgent.GetRecipi
 
 ## GetRecipientStatisticsFromProjectMembers
 
-Returns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses based on members in a project.
 
-* **projectId:** The id of the project to get the member statistics for.
 
-**Returns:** Returns a RecipientStatistics object.
+
 
 [WSDL file for Services87/Selection](../Services87-Selection.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetRecipientStatisticsFromProjectMembers Response
 
 ```xml
@@ -76,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

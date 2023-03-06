@@ -83,26 +83,26 @@ OK
 POST /api/v1/Dashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 638,
-  "AssociateId": 730,
-  "Caption": "est",
+  "DashboardId": 78,
+  "AssociateId": 383,
+  "Caption": "nobis",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 792,
-      "Caption": "recusandae",
-      "Description": "Customer-focused bifurcated project",
-      "ChartName": "Mosciski-Grant",
-      "ChartId": "nesciunt",
-      "IsDefault": false,
-      "AssociateId": 22,
-      "GroupId": 487,
-      "SelectionId": 961,
-      "Config": "voluptatem",
+      "DashboardTileId": 581,
+      "Caption": "quia",
+      "Description": "User-friendly executive model",
+      "ChartName": "Wisoky Inc and Sons",
+      "ChartId": "quia",
+      "IsDefault": true,
+      "AssociateId": 943,
+      "GroupId": 431,
+      "SelectionId": 381,
+      "Config": "quibusdam",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -125,22 +125,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 372,
-  "AssociateId": 628,
-  "Caption": "sit",
+  "DashboardId": 591,
+  "AssociateId": 642,
+  "Caption": "voluptate",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 619,
-      "Caption": "vero",
-      "Description": "Synergistic web-enabled time-frame",
-      "ChartName": "White, Wehner and Leffler",
-      "ChartId": "officia",
-      "IsDefault": true,
-      "AssociateId": 862,
-      "GroupId": 129,
-      "SelectionId": 412,
-      "Config": "doloremque",
+      "DashboardTileId": 446,
+      "Caption": "occaecati",
+      "Description": "Optional encompassing access",
+      "ChartName": "Treutel-Herman",
+      "ChartId": "odit",
+      "IsDefault": false,
+      "AssociateId": 35,
+      "GroupId": 526,
+      "SelectionId": 383,
+      "Config": "voluptatem",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 356
+          "FieldType": "System.Int32",
+          "FieldLength": 929
         }
       }
     }
@@ -166,12 +166,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 90
+      "FieldLength": 749
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

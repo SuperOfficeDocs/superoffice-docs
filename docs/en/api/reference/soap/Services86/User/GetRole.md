@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.GetRole">Super
 
 ## GetRole
 
-Gets a Role object.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **roleId:** The identifier of the Role object
 
-**Returns:** Role
+
 
 [WSDL file for Services86/User](../Services86-User.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetRole Response
 
 ```xml
@@ -74,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -81,12 +81,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 39,
-  "Name": "Kshlerin-Boyer",
-  "Tooltip": "eligendi",
+  "Id": 183,
+  "Name": "Ondricka LLC",
+  "Tooltip": "eaque",
   "Deleted": false,
-  "UdListDefinitionId": 550,
-  "Rank": 73
+  "UdListDefinitionId": 591,
+  "Rank": 62
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 642,
-  "Name": "Langosh, Tromp and Torp",
-  "Tooltip": "et",
+  "Id": 543,
+  "Name": "Lowe Group",
+  "Tooltip": "numquam",
   "Deleted": false,
-  "UdListDefinitionId": 285,
-  "Rank": 764,
+  "UdListDefinitionId": 93,
+  "Rank": 207,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 912
+      "FieldType": "System.Int32",
+      "FieldLength": 848
     }
   }
 }

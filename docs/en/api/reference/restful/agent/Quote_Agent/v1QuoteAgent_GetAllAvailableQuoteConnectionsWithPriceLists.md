@@ -91,54 +91,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 921,
-    "ERPName": "Hahn Inc and Sons",
-    "DisplayName": "Murphy-Kilback",
-    "DisplayDescription": "Virtual solution-oriented time-frame",
-    "Rank": 497,
-    "ConnectorName": "Welch-Buckridge",
-    "ErpConnectionId": 904,
-    "ExtraData": "ipsa",
+    "QuoteConnectionId": 643,
+    "ERPName": "Miller, Denesik and Sauer",
+    "DisplayName": "Lemke LLC",
+    "DisplayDescription": "Face to face 24/7 budgetary management",
+    "Rank": 715,
+    "ConnectorName": "McCullough-Kulas",
+    "ErpConnectionId": 516,
+    "ExtraData": "minus",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 408,
-        "ERPPriceListKey": "a",
-        "QuoteConnectionId": 458,
-        "Name": "Morissette Inc and Sons",
-        "Description": "Innovative reciprocal open architecture",
-        "Currency": "nihil",
-        "CurrencyName": "Ebert, Bruen and Lemke",
-        "ValidFrom": "2000-09-25T17:37:18.7392416+02:00",
-        "ValidTo": "2000-05-08T17:37:18.7392416+02:00",
+        "PriceListId": 296,
+        "ERPPriceListKey": "magnam",
+        "QuoteConnectionId": 30,
+        "Name": "Torp, Miller and Torp",
+        "Description": "Stand-alone needs-based task-force",
+        "Currency": "ut",
+        "CurrencyName": "Zemlak LLC",
+        "ValidFrom": "2000-05-30T14:19:04.0157096+02:00",
+        "ValidTo": "2000-03-20T14:19:04.0157096+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 689
+            "FieldLength": 134
           }
         }
       }
     ],
-    "AllAccess": true,
+    "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      583,
-      147
+      135,
+      613
     ],
     "AssociateAccessIds": [
-      154,
-      904
+      12,
+      42
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 388
+        "FieldType": "System.Int32",
+        "FieldLength": 883
       }
     }
   }

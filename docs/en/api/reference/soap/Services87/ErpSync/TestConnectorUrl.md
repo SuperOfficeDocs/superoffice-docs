@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.TestConnect
 
 ## TestConnectorUrl
 
-Test if connector urls anwers
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
-* **url:** The url to test connection on
 
-**Returns:** Enum response says ok or what is wrong
+
 
 [WSDL file for Services87/ErpSync](../Services87-ErpSync.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## TestConnectorUrl Response
 
 ```xml
@@ -70,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

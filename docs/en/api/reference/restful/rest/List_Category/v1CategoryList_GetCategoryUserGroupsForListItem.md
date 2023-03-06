@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 93,
-    "Name": "Reynolds, McDermott and Prosacco",
-    "ToolTip": "Sit labore totam ut qui.",
-    "Deleted": false,
-    "Rank": 866,
-    "Type": "quas",
-    "ColorBlock": 301,
-    "IconHint": "mollitia",
+    "Id": 167,
+    "Name": "Schoen Group",
+    "ToolTip": "Accusamus ut repudiandae.",
+    "Deleted": true,
+    "Rank": 996,
+    "Type": "rerum",
+    "ColorBlock": 11,
+    "IconHint": "optio",
     "Selected": false,
-    "LastChanged": "1997-11-10T17:37:39.6754355+01:00",
+    "LastChanged": "2000-10-24T14:19:11.1324679+02:00",
     "ChildItems": [
       {
-        "Id": 177,
-        "Name": "Torp-O'Kon",
-        "ToolTip": "Modi porro itaque voluptatem et.",
+        "Id": 837,
+        "Name": "Rogahn-Hermann",
+        "ToolTip": "Qui ducimus sequi necessitatibus voluptatem excepturi consectetur et.",
         "Deleted": false,
-        "Rank": 733,
-        "Type": "est",
-        "ColorBlock": 658,
-        "IconHint": "ipsam",
+        "Rank": 945,
+        "Type": "fugit",
+        "ColorBlock": 265,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2020-08-09T17:37:39.6754355+02:00",
+        "LastChanged": "1997-02-11T14:19:11.1324679+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "dolores",
-        "Hidden": false,
-        "FullName": "Ms. Zachery Willis Lueilwitz",
+        "ExtraInfo": "odit",
+        "StyleHint": "vitae",
+        "Hidden": true,
+        "FullName": "Yadira Trantow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 673
+            "FieldLength": 770
           }
         }
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "aliquid",
-    "Hidden": false,
-    "FullName": "Miss Cloyd Marlee Rippin",
+    "ExtraInfo": "ut",
+    "StyleHint": "molestiae",
+    "Hidden": true,
+    "FullName": "Ardella Hickle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 922
+        "FieldLength": 411
       }
     }
   }

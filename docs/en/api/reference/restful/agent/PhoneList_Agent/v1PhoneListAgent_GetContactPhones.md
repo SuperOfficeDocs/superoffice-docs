@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 682
+  "ContactId": 866
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "865-389-0293 x9973",
-    "PersonCellPhone": "(645)156-9435",
-    "PersonPrivatePhone": "1-372-927-2601 x3886",
-    "PersonFaxNumber": "833658",
-    "PersonPagerNumber": "1142472",
-    "PersonEmail": "audreanne@jewessveum.uk",
-    "Id": 919,
-    "Name": "Boyer Group",
-    "Tooltip": "amet",
-    "UniqueId": "sequi",
+    "PersonDirectPhone": "432.533.5872",
+    "PersonCellPhone": "123.099.1202",
+    "PersonPrivatePhone": "924-200-4462 x08075",
+    "PersonFaxNumber": "1772122",
+    "PersonPagerNumber": "779724",
+    "PersonEmail": "jarrell@monahan.biz",
+    "Id": 302,
+    "Name": "Gerhold Group",
+    "Tooltip": "ut",
+    "UniqueId": "delectus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 530
+        "FieldType": "System.String",
+        "FieldLength": 763
       }
     }
   }

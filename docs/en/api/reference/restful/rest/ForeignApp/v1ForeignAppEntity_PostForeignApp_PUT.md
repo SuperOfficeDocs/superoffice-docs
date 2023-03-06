@@ -76,29 +76,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 329,
-  "Name": "Rice Inc and Sons",
-  "CreatedDate": "1995-11-24T17:37:38.6078298+01:00",
-  "UpdatedDate": "2003-08-26T17:37:38.6078298+02:00",
+  "ForeignAppId": 260,
+  "Name": "Emard Inc and Sons",
+  "CreatedDate": "2017-12-01T14:19:10.3342217+01:00",
+  "UpdatedDate": "2022-03-02T14:19:10.3342217+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 850,
-      "Name": "Schumm, Klein and VonRueden",
-      "CreatedDate": "2002-11-19T17:37:38.6078298+01:00",
-      "UpdatedDate": "2007-09-06T17:37:38.6078298+02:00",
-      "AssociateFullName": "Mr. Tremaine Raynor DDS",
-      "CreatedBy": "rem",
-      "UpdatedBy": "magni",
-      "DeviceIdentifier": "quis",
-      "ForeignAppId": 773,
+      "ForeignDeviceId": 26,
+      "Name": "Welch LLC",
+      "CreatedDate": "1998-04-05T14:19:10.3342217+02:00",
+      "UpdatedDate": "2021-06-04T14:19:10.3342217+02:00",
+      "AssociateFullName": "Heath Ullrich",
+      "CreatedBy": "est",
+      "UpdatedBy": "quod",
+      "DeviceIdentifier": "assumenda",
+      "ForeignAppId": 221,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 819
+          "FieldLength": 869
         }
       }
     }
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 676
+      "FieldType": "System.Int32",
+      "FieldLength": 435
     }
   }
 }

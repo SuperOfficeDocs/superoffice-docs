@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.ISelectionAgent.EditConta
 
 ## EditContactSelectionMemberDetails
 
-Edit company and contact details in a selection based on contents in selectionMemberEditValues.
 
-* **selectionId:** The id of the selection to edit members from.
-* **selectionMemberEditValues:** An object of &lt;see cref="SelectionMemberEditValues"/&gt; describing what should be changed for companys and contacts.
+
+
 
 [WSDL file for Services86/Selection](../Services86-Selection.md)
 
@@ -72,6 +71,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## EditContactSelectionMemberDetails Response
 
 ```xml
@@ -91,3 +91,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

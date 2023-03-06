@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetCountryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 117,
-    "Name": "Padberg, Jenkins and Wisoky",
-    "CurrencyId": 191,
-    "EnglishName": "Johnston LLC",
+    "CountryId": 132,
+    "Name": "Hartmann, Flatley and Wintheiser",
+    "CurrencyId": 134,
+    "EnglishName": "Huels, Frami and Bashirian",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Down-sized demand-driven monitoring",
-    "OrgNrText": "753863",
-    "InterAreaPrefix": "esse",
-    "DialInPrefix": "omnis",
-    "ZipPrefix": "hic",
-    "DomainName": "Schowalter, Langworth and Boyer",
-    "AddressLayoutId": 846,
-    "DomesticAddressLayoutId": 989,
-    "ForeignAddressLayoutId": 179,
-    "Rank": 189,
-    "Tooltip": "provident",
-    "Deleted": true,
+    "ImageDescription": "Multi-layered client-server customer loyalty",
+    "OrgNrText": "236050",
+    "InterAreaPrefix": "aspernatur",
+    "DialInPrefix": "voluptate",
+    "ZipPrefix": "delectus",
+    "DomainName": "Little Inc and Sons",
+    "AddressLayoutId": 903,
+    "DomesticAddressLayoutId": 990,
+    "ForeignAddressLayoutId": 503,
+    "Rank": 310,
+    "Tooltip": "et",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 607
+        "FieldType": "System.String",
+        "FieldLength": 563
       }
     }
   }

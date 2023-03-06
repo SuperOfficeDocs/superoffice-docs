@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 891,
-  "Name": "Braun-Kohler",
-  "Tooltip": "architecto",
+  "Id": 255,
+  "Name": "D'Amore Group",
+  "Tooltip": "tempore",
   "Deleted": false,
-  "UdListDefinitionId": 416,
-  "Rank": 812,
+  "UdListDefinitionId": 319,
+  "Rank": 473,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldType": "System.String",
+      "FieldLength": 18
     }
   }
 }

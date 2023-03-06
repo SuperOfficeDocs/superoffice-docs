@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 553,
-  "Name": "Renner Group",
-  "Description": "Sharable web-enabled collaboration",
-  "WelcomeMessage": "alias",
+  "ChatTopicId": 288,
+  "Name": "Sporer, Champlin and Champlin",
+  "Description": "Triple-buffered value-added Graphic Interface",
+  "WelcomeMessage": "temporibus",
   "Language": null,
-  "LastAccept": "2021-11-02T17:37:16.9732418+01:00",
-  "SecondsPrAccept": 946,
-  "AlertRecipient": "iste",
+  "LastAccept": "2017-04-26T14:19:02.8220143+02:00",
+  "SecondsPrAccept": 396,
+  "AlertRecipient": "consequatur",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "sunt",
+  "BadgeHeader": "assumenda",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "ducimus",
-  "WarnNewChatMinutes": 737,
-  "WarnManagerNewChatMinutes": 85,
+  "CustomQueueText": "fugiat",
+  "WarnNewChatMinutes": 593,
+  "WarnManagerNewChatMinutes": 139,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 640,
-  "WarnManagerChatMessageMinutes": 512,
+  "WarnChatMessageMinutes": 416,
+  "WarnManagerChatMessageMinutes": 622,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 709,
-  "OfflineFormQueueLength": 82,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "quia",
+  "OfflineFormTimeLimit": 914,
+  "OfflineFormQueueLength": 390,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "maiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 969
+      "FieldLength": 993
     }
   }
 }

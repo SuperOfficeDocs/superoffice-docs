@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.MoveEmailsToF
 
 ## MoveEmailsToFolder
 
-Move one or more emails to the specified folder in the DB, and on the server
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-* **folderId:** The EmailFolderId of the folder to move to
-* **emailItemIds:** The emails to move
+
+
 
 [WSDL file for Services86/EMail](../Services86-EMail.md)
 
@@ -52,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## MoveEmailsToFolder Response
 
 ```xml
@@ -71,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDocumentMigrationAgent.G
 
 ## GetForAllDocuments
 
-Gets a migration summary for all documents stored in CRM. Warning: Expensive!
-<para /><b>Online Restricted:</b> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
 
-* **documentPluginId:** The ID of the document-plugin to migrate to.
-* **includeEmails:** True if documents to migrate should include emails.
 
-**Returns:** Never null.
+
 
 [WSDL file for Services88/DocumentMigration](../Services88-DocumentMigration.md)
 
@@ -51,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetForAllDocuments Response
 
@@ -94,3 +91,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

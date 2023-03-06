@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserDefinedFieldInfoAgen
 
 ## ChangeFieldType
 
-Create a UserDefinedFieldInfo based on a owner-entity id
 
-* **info:** The user-defined field info carrier to want to modify
-* **fieldType:** The new field type you want
-* **isIndexed:** The new indexed status you want
 
-**Returns:** Returns the user-defined field info carrier
+
 
 [WSDL file for Services88/UserDefinedFieldInfo](../Services88-UserDefinedFieldInfo.md)
 
@@ -88,6 +84,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ChangeFieldType Response
 
 ```xml
@@ -143,3 +140,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

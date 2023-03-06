@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 295,
-    "Name": "Huel Inc and Sons",
-    "ToolTip": "Temporibus ut similique.",
+    "Id": 167,
+    "Name": "Effertz-Gutkowski",
+    "ToolTip": "Eum debitis incidunt non.",
     "Deleted": false,
-    "Rank": 641,
-    "Type": "vel",
-    "ColorBlock": 166,
-    "IconHint": "iure",
+    "Rank": 322,
+    "Type": "molestiae",
+    "ColorBlock": 763,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2016-09-13T17:37:40.1804851+02:00",
+    "LastChanged": "2009-12-01T14:19:11.3836521+01:00",
     "ChildItems": [
       {
-        "Id": 36,
-        "Name": "Okuneva, Cartwright and DuBuque",
-        "ToolTip": "Et sunt.",
-        "Deleted": true,
-        "Rank": 411,
-        "Type": "quae",
-        "ColorBlock": 147,
-        "IconHint": "et",
+        "Id": 578,
+        "Name": "Prohaska Inc and Sons",
+        "ToolTip": "Voluptatem sint.",
+        "Deleted": false,
+        "Rank": 970,
+        "Type": "at",
+        "ColorBlock": 295,
+        "IconHint": "rem",
         "Selected": false,
-        "LastChanged": "1998-01-28T17:37:40.1804851+01:00",
+        "LastChanged": "2021-10-13T14:19:11.3836521+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "at",
+        "ExtraInfo": "possimus",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Mrs. Sarah Michelle Hayes",
+        "FullName": "Nelson Lynch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 372
+            "FieldLength": 78
           }
         }
       }
     ],
-    "ExtraInfo": "odit",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "Peter Michaela Schamberger IV",
+    "ExtraInfo": "ut",
+    "StyleHint": "porro",
+    "Hidden": false,
+    "FullName": "Desiree Kessler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 165
+        "FieldLength": 512
       }
     }
   }

@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 304
+  "MailItemId": 521
 }
 ```
 
@@ -99,20 +99,20 @@ Content-Type: application/json; charset=utf-8
   "Appointment": null,
   "CalMethod": "Add",
   "Participants": [
-    "sint",
-    "voluptatem"
+    "doloremque",
+    "nihil"
   ],
-  "Comment": "autem",
-  "Sequence": 892,
-  "DtStart": "2016-08-20T17:37:17.8972444+02:00",
-  "DtEnd": "2015-01-30T17:37:17.8972444+01:00",
+  "Comment": "magnam",
+  "Sequence": 907,
+  "DtStart": "2010-05-16T14:19:03.4040208+02:00",
+  "DtEnd": "2015-06-11T14:19:03.4040208+02:00",
   "Superseded": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 679
+      "FieldType": "System.Int32",
+      "FieldLength": 308
     }
   }
 }

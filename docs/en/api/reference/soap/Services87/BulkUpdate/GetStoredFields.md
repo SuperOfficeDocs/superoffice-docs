@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IBulkUpdateAgent.GetStore
 
 ## GetStoredFields
 
-Get all stored fields for a given tablename/entity and context
 
-* **tablename:** The name of the wanted tablename
-* **context:** Where is the function called for
 
-**Returns:** Returns array of the stored or default fields for the given entity
+
 
 [WSDL file for Services87/BulkUpdate](../Services87-BulkUpdate.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetStoredFields Response
 
@@ -113,3 +111,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

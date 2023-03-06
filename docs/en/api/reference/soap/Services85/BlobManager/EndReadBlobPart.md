@@ -11,6 +11,10 @@ Implemented by the <see cref="M:SuperOffice.Services85.IBlobManagerAgent.EndRead
 
 ## EndReadBlobPart
 
+
+
+
+
 [WSDL file for Services85/BlobManager](../Services85-BlobManager.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -42,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## EndReadBlobPart Response
 
 ```xml
@@ -60,3 +65,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

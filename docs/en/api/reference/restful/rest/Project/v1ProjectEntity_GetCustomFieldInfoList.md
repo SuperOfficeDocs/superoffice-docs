@@ -66,7 +66,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Swift Inc and Sons",
-    "DisplayName": "Roob-Parisian",
-    "Description": "Vision-oriented human-resource contingency",
-    "ShortLabel": "laboriosam",
+    "FieldName": "Ratke LLC",
+    "DisplayName": "Koepp-Bednar",
+    "Description": "Customer-focused responsive array",
+    "ShortLabel": "omnis",
     "HideLabel": false,
-    "HideField": true,
+    "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": true,
-    "Rank": 733,
-    "TemplateVariableName": "Frami Group"
+    "Rank": 988,
+    "TemplateVariableName": "Jacobson, Kiehn and Renner"
   }
 ]
 ```

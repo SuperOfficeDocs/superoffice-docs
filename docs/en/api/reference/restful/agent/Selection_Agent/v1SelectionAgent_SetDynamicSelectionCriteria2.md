@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 665,
-  "Filter": "fuga"
+  "SelectionId": 489,
+  "Filter": "voluptas"
 }
 ```
 
@@ -99,29 +99,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Goyette, Hudson and Wehner",
-    "Operator": "ea",
+    "Name": "Stokes-Swaniawski",
+    "Operator": "similique",
     "Values": [
-      "esse",
-      "omnis"
+      "accusantium",
+      "autem"
     ],
     "DisplayValues": [
-      "earum",
-      "est"
+      "est",
+      "non"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Wisoky-Gleichner",
-        "Operator": "soluta",
+        "Name": "Hilll-Harber",
+        "Operator": "consectetur",
         "Values": [
-          "et",
-          "molestiae"
+          "sint",
+          "fuga"
         ],
         "DisplayValues": [
-          "mollitia",
-          "hic"
+          "omnis",
+          "quisquam"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -129,14 +129,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 5,
+        "InterParenthesis": 770,
         "InterOperator": "And",
-        "UniqueHash": 771
+        "UniqueHash": 441
       }
     ],
-    "InterParenthesis": 480,
+    "InterParenthesis": 389,
     "InterOperator": "And",
-    "UniqueHash": 102
+    "UniqueHash": 413
   }
 ]
 ```

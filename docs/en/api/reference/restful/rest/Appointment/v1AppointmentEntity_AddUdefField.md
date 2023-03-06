@@ -97,7 +97,7 @@ OK
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 129,
-  "ColumnId": 577,
-  "FieldDefault": "sequi",
-  "FieldHeight": 832,
-  "FieldLabel": "quia",
-  "FieldLeft": 89,
-  "FieldTop": 301,
+  "UDefFieldId": 565,
+  "ColumnId": 518,
+  "FieldDefault": "aut",
+  "FieldHeight": 479,
+  "FieldLabel": "voluptas",
+  "FieldLeft": 378,
+  "FieldTop": 136,
   "FieldType": "Checkbox",
-  "FieldWidth": 26,
-  "FormatMask": "accusamus",
-  "HideLabel": false,
+  "FieldWidth": 797,
+  "FormatMask": "libero",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 342,
-  "LabelLeft": 775,
-  "LabelTop": 292,
-  "LabelWidth": 191,
-  "LastVersionId": 830,
-  "ListTableId": 381,
-  "IsMandatory": false,
+  "LabelHeight": 848,
+  "LabelLeft": 137,
+  "LabelTop": 138,
+  "LabelWidth": 205,
+  "LastVersionId": 780,
+  "ListTableId": 855,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 241,
-  "ProgId": "dolorum",
+  "Page1LineNo": 758,
+  "ProgId": "placeat",
   "IsReadOnly": false,
-  "ShortLabel": "dolorem",
-  "TabOrder": 802,
-  "TextLength": 133,
-  "Tooltip": "error",
-  "UdefIdentity": 91,
-  "UDListDefinitionId": 542,
+  "ShortLabel": "tempore",
+  "TabOrder": 926,
+  "TextLength": 458,
+  "Tooltip": "beatae",
+  "UdefIdentity": 60,
+  "UDListDefinitionId": 926,
   "Justification": "Center",
-  "Version": 446,
-  "TemplateVariableName": "King-Lindgren",
-  "HasBeenPublished": true,
-  "MdoListName": "Kirlin-Mraz",
+  "Version": 190,
+  "TemplateVariableName": "O'Connell Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Hermann, Mraz and Rowe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 712
+      "FieldLength": 500
     }
   }
 }

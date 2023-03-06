@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IAudienceAgent.GetConfigP
 
 ## GetConfigParameterValueOnPerson
 
-Gets the string value of an Audience configuration parameter with the specified configuration parameter name on the person specified
 
-* **parameterName:** The name of the Audience configuration parameter
-* **personId:** Id of the person the parameter belongs to
 
-**Returns:** The string value of the Audience configuration parameter.
+
 
 [WSDL file for Services86/Audience](../Services86-Audience.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetConfigParameterValueOnPerson Response
 
 ```xml
@@ -69,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 560,
-    "Name": "Parisian-Rempel",
-    "ToolTip": "Earum pariatur ea.",
-    "Deleted": false,
-    "Rank": 219,
-    "Type": "placeat",
-    "ColorBlock": 106,
-    "IconHint": "earum",
+    "Id": 134,
+    "Name": "Bechtelar LLC",
+    "ToolTip": "Voluptatibus ut aut voluptatem.",
+    "Deleted": true,
+    "Rank": 94,
+    "Type": "illum",
+    "ColorBlock": 188,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2022-01-31T17:37:39.8755003+01:00",
+    "LastChanged": "2003-11-06T14:19:11.1480931+01:00",
     "ChildItems": [
       {
-        "Id": 216,
-        "Name": "Stanton-Daniel",
-        "ToolTip": "Aut voluptatum nisi repellendus.",
-        "Deleted": true,
-        "Rank": 701,
-        "Type": "cupiditate",
-        "ColorBlock": 520,
-        "IconHint": "sint",
+        "Id": 775,
+        "Name": "McGlynn, Bartoletti and Hansen",
+        "ToolTip": "Exercitationem enim explicabo nobis explicabo recusandae perferendis.",
+        "Deleted": false,
+        "Rank": 22,
+        "Type": "sed",
+        "ColorBlock": 516,
+        "IconHint": "nisi",
         "Selected": false,
-        "LastChanged": "2014-04-17T17:37:39.8755003+02:00",
+        "LastChanged": "1996-11-30T14:19:11.1480931+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "numquam",
-        "Hidden": false,
-        "FullName": "Griffin McClure",
+        "ExtraInfo": "atque",
+        "StyleHint": "tempora",
+        "Hidden": true,
+        "FullName": "Tod Cremin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 830
+            "FieldType": "System.Int32",
+            "FieldLength": 804
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "et",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "adipisci",
     "Hidden": false,
-    "FullName": "Freddie Von",
+    "FullName": "Alexie Abernathy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 21
+        "FieldType": "System.Int32",
+        "FieldLength": 108
       }
     }
   }

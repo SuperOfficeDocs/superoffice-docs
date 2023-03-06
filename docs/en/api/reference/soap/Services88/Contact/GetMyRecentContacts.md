@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IContactAgent.GetMyRecent
 
 ## GetMyRecentContacts
 
-Method that returns a set of initial contacts. This could be the contacts in a favorites selection, the history list, the diary, or from all sources. If retrieved from the diary it will get appointments for the current and the next day.
 
-* **sourceType:** The source where the contacts are retrieved from (Favorites, History, Diary)
 
-**Returns:** Arrayof contacts
+
 
 [WSDL file for Services88/Contact](../Services88-Contact.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetMyRecentContacts Response
 
@@ -125,6 +124,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Contact:FullName xsi:type="xsd:string"></Contact:FullName>
      <Contact:IsOwnerContact xsi:type="xsd:boolean">false</Contact:IsOwnerContact>
      <Contact:ActiveErpLinks xsi:type="xsd:int">0</Contact:ActiveErpLinks>
+     <Contact:Number1 xsi:type="xsd:string"></Contact:Number1>
+     <Contact:Number2 xsi:type="xsd:string"></Contact:Number2>
     </Contact:Contact>
    </Contact:Response>
   </Contact:GetMyRecentContactsResponse>
@@ -132,3 +133,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

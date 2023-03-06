@@ -110,34 +110,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 98,
-  "Name": "O'Hara-Beahan",
-  "Tooltip": "quia",
-  "SaveInDb": 554,
-  "Filename": "non",
-  "DefaultOref": "error",
+  "DocumentTemplateId": 3,
+  "Name": "Bins-Shields",
+  "Tooltip": "dolorem",
+  "SaveInDb": 577,
+  "Filename": "fugit",
+  "DefaultOref": "quibusdam",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 827,
-  "IntentId": 2,
-  "IsDefaultPublished": true,
-  "Rank": 34,
-  "LoadTemplateFromPlugin": 263,
-  "MimeType": "officiis",
+  "AutoeventId": 436,
+  "IntentId": 827,
+  "IsDefaultPublished": false,
+  "Rank": 572,
+  "LoadTemplateFromPlugin": 880,
+  "MimeType": "ipsa",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 444,
+  "DocumentTypeKey": 106,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "verla@simonisokuneva.biz",
-  "IncludeSignature": true,
+  "EmailSubject": "abdullah_pouros@veumharris.name",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kennith.corkery@stehr.com",
+  "SenderEmailAddress": "corbin_feest@fisherherzog.com",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -149,37 +149,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 986,
-  "Name": "Mayer, Bauch and Weissnat",
-  "Tooltip": "facilis",
-  "SaveInDb": 621,
-  "Filename": "quam",
-  "DefaultOref": "sapiente",
+  "DocumentTemplateId": 959,
+  "Name": "Mayert LLC",
+  "Tooltip": "dolorem",
+  "SaveInDb": 595,
+  "Filename": "perspiciatis",
+  "DefaultOref": "molestiae",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 863,
-  "IntentId": 180,
-  "IsDefaultPublished": true,
-  "Rank": 856,
-  "LoadTemplateFromPlugin": 207,
-  "MimeType": "harum",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 694,
+  "AutoeventId": 883,
+  "IntentId": 277,
+  "IsDefaultPublished": false,
+  "Rank": 120,
+  "LoadTemplateFromPlugin": 455,
+  "MimeType": "qui",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 119,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "laury_wisoky@parker.biz",
+  "EmailSubject": "madisyn@emmerich.biz",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kelsi.thompson@turnerkoss.com",
+  "SenderEmailAddress": "myra@mcglynnpfeffer.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 663
+      "FieldType": "System.String",
+      "FieldLength": 47
     }
   }
 }

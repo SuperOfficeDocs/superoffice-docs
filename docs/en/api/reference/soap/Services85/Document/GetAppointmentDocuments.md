@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IDocumentAgent.GetAppoint
 
 ## GetAppointmentDocuments
 
-Get all documents that are linked to the appointment. I.e. the documents that are listed in the appointment dialog.
 
-* **appointmentId:** The appointment id.
 
-**Returns:** Array of documents
+
 
 [WSDL file for Services85/Document](../Services85-Document.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetAppointmentDocuments Response
 
@@ -89,3 +88,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

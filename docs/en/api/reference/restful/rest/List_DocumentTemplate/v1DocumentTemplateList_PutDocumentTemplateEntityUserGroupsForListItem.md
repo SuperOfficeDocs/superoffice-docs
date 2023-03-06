@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 69,
-    "Name": "Rodriguez, Pagac and Kuphal",
-    "ToolTip": "Veritatis earum.",
+    "Id": 616,
+    "Name": "Stark Inc and Sons",
+    "ToolTip": "Possimus qui laborum et pariatur enim ipsa aliquam.",
     "Deleted": false,
-    "Rank": 240,
-    "Type": "fuga",
-    "ColorBlock": 397,
-    "IconHint": "ut",
+    "Rank": 701,
+    "Type": "suscipit",
+    "ColorBlock": 240,
+    "IconHint": "provident",
     "Selected": false,
-    "LastChanged": "2008-07-18T17:37:40.0204701+02:00",
+    "LastChanged": "2018-12-19T14:19:11.2574687+01:00",
     "ChildItems": [
       {
-        "Id": 816,
-        "Name": "McLaughlin-Mraz",
-        "ToolTip": "Ullam reprehenderit.",
+        "Id": 702,
+        "Name": "Ankunding Group",
+        "ToolTip": "Nihil soluta numquam eveniet.",
         "Deleted": false,
-        "Rank": 969,
-        "Type": "deleniti",
-        "ColorBlock": 772,
-        "IconHint": "similique",
+        "Rank": 604,
+        "Type": "perspiciatis",
+        "ColorBlock": 783,
+        "IconHint": "quod",
         "Selected": false,
-        "LastChanged": "2008-07-25T17:37:40.0204701+02:00",
+        "LastChanged": "2017-05-18T14:19:11.2574687+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "ratione",
+        "ExtraInfo": "vel",
+        "StyleHint": "impedit",
         "Hidden": false,
-        "FullName": "Mr. Ahmad Medhurst DDS"
+        "FullName": "Markus Bechtelar"
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "eligendi",
-    "Hidden": true,
-    "FullName": "Carolina Rice"
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "sequi",
+    "Hidden": false,
+    "FullName": "Ms. Emile Kali Towne"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 996,
-    "Name": "Weissnat-Predovic",
-    "ToolTip": "Quia rerum placeat distinctio.",
+    "Id": 986,
+    "Name": "Klocko-Purdy",
+    "ToolTip": "Occaecati ipsam quia est magnam eos nemo nesciunt.",
     "Deleted": false,
-    "Rank": 129,
-    "Type": "dolorem",
-    "ColorBlock": 956,
-    "IconHint": "suscipit",
+    "Rank": 391,
+    "Type": "sapiente",
+    "ColorBlock": 238,
+    "IconHint": "ex",
     "Selected": false,
-    "LastChanged": "2002-10-15T17:37:40.0214701+02:00",
+    "LastChanged": "1998-09-21T14:19:11.2574687+02:00",
     "ChildItems": [
       {
-        "Id": 939,
-        "Name": "Daniel, Ortiz and Kovacek",
-        "ToolTip": "Officia ipsum dolores.",
-        "Deleted": true,
-        "Rank": 825,
-        "Type": "reprehenderit",
-        "ColorBlock": 487,
-        "IconHint": "consectetur",
+        "Id": 694,
+        "Name": "King Inc and Sons",
+        "ToolTip": "Magnam sed quisquam.",
+        "Deleted": false,
+        "Rank": 257,
+        "Type": "excepturi",
+        "ColorBlock": 175,
+        "IconHint": "mollitia",
         "Selected": true,
-        "LastChanged": "2006-05-12T17:37:40.0214701+02:00",
+        "LastChanged": "1998-08-29T14:19:11.2574687+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
+        "ExtraInfo": "corporis",
         "StyleHint": "consequatur",
-        "Hidden": false,
-        "FullName": "Avery Lang",
+        "Hidden": true,
+        "FullName": "Dr. Aditya Runolfsdottir Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 682
+            "FieldType": "System.Int32",
+            "FieldLength": 983
           }
         }
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "mollitia",
+    "ExtraInfo": "provident",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Mr. Deven Feest",
+    "FullName": "Jermain Hamill",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 931
+        "FieldType": "System.Int32",
+        "FieldLength": 752
       }
     }
   }

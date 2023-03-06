@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserAgent.DeleteExternal
 
 ## DeleteExternalUser
 
-Deletes an associate of type external user.
 
-* **associateId:** The associateId to delete the associate entry for.
+
+
 
 [WSDL file for Services85/User](../Services85-User.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteExternalUser Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

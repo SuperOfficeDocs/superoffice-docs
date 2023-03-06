@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashAgent.GetPreviewDash
 
 ## GetPreviewDash
 
-Get a dashboard from its id
 
-* **dashboardId:** Dashboard ID
 
-**Returns:** Dashboard suitable for preview
+
 
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetPreviewDash Response
 
 ```xml
@@ -67,7 +66,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Dash:Name xsi:type="xsd:string"></Dash:Name>
     <Dash:Description xsi:type="xsd:string"></Dash:Description>
     <Dash:OwnedByFullName xsi:type="xsd:string"></Dash:OwnedByFullName>
-    <Dash:Registered xsi:type="xsd:dateTime">2022-08-26T08:59:08Z</Dash:Registered>
+    <Dash:Registered xsi:type="xsd:dateTime">2023-02-15T13:17:09Z</Dash:Registered>
     <Dash:Tiles xsi:type="Dash:ArrayOfPreviewDashTile">
      <Dash:PreviewDashTile xsi:type="Dash:PreviewDashTile">
       <Dash:Name xsi:type="xsd:string"></Dash:Name>
@@ -80,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

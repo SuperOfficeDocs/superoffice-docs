@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IAssociateAgent.LogOffWin
 
 ## LogOffWindowsUsers
 
-Method that logs off associates that are logged on to the win client
 
-* **associateIds:** The ids of the associates that shall be logged off
 
-**Returns:** A void return
+
 
 [WSDL file for Services88/Associate](../Services88-Associate.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## LogOffWindowsUsers Response
 
 ```xml
@@ -70,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -167,17 +167,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Blick-Ondricka",
-  "ProviderName": "Jakubowski Inc and Sons",
-  "SortOrder": "perferendis",
-  "Restriction": "asperiores",
-  "Entities": "voluptas",
-  "Page": 45,
-  "PageSize": 415
+  "GuiName": "Zulauf-Swift",
+  "ProviderName": "VonRueden LLC",
+  "SortOrder": "blanditiis",
+  "Restriction": "dolorem",
+  "Entities": "eos",
+  "Page": 217,
+  "PageSize": 425
 }
 ```
 
@@ -189,23 +189,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Nicolas-Rath",
-    "PrimaryKey": 497,
+    "EntityName": "Ebert Inc and Sons",
+    "PrimaryKey": 895,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "voluptatibus",
-        "TooltipHint": "ducimus",
-        "LinkHint": "omnis"
+        "DisplayValue": "qui",
+        "TooltipHint": "necessitatibus",
+        "LinkHint": "illum"
       }
     },
-    "LinkHint": "ut",
-    "StyleHint": "occaecati",
+    "LinkHint": "sed",
+    "StyleHint": "quae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 318
+        "FieldType": "System.String",
+        "FieldLength": 761
       }
     }
   }

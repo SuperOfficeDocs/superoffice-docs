@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.ToggleSaleTyp
 
 ## ToggleSaleTypeQuoteAttachmentDefaultIncluded
 
-Toggle the 'default included' state of a sale type quote attachment
 
-* **saleTypeQuoteAttachmentId:** The ID of the sale type quote attachment row
 
-**Returns:** The new state
+
 
 [WSDL file for Services87/Quote](../Services87-Quote.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ToggleSaleTypeQuoteAttachmentDefaultIncluded Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 766,
-    "Name": "Okuneva-Daugherty",
-    "ToolTip": "Illo sunt ut eius harum.",
+    "Id": 151,
+    "Name": "Crist LLC",
+    "ToolTip": "Tempora molestiae in tempora commodi.",
     "Deleted": true,
-    "Rank": 137,
-    "Type": "nam",
-    "ColorBlock": 928,
-    "IconHint": "voluptates",
-    "Selected": true,
-    "LastChanged": "2001-10-01T17:37:40.388472+02:00",
+    "Rank": 391,
+    "Type": "maiores",
+    "ColorBlock": 598,
+    "IconHint": "porro",
+    "Selected": false,
+    "LastChanged": "2022-06-05T14:19:11.6433214+02:00",
     "ChildItems": [
       {
-        "Id": 616,
-        "Name": "Leannon, Dicki and Schowalter",
-        "ToolTip": "Aut molestiae asperiores quaerat.",
+        "Id": 205,
+        "Name": "Kautzer-Bode",
+        "ToolTip": "Dolorem aperiam laudantium.",
         "Deleted": false,
-        "Rank": 18,
-        "Type": "nulla",
-        "ColorBlock": 830,
-        "IconHint": "assumenda",
+        "Rank": 807,
+        "Type": "et",
+        "ColorBlock": 995,
+        "IconHint": "atque",
         "Selected": false,
-        "LastChanged": "2006-05-12T17:37:40.388472+02:00",
+        "LastChanged": "2013-04-19T14:19:11.6433214+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "veritatis",
-        "Hidden": false,
-        "FullName": "Treva Larson",
+        "ExtraInfo": "eius",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Uriah Rice",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 8
+            "FieldLength": 150
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "assumenda",
+    "StyleHint": "mollitia",
     "Hidden": false,
-    "FullName": "Godfrey Dickinson",
+    "FullName": "Imogene Osinski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 891
+        "FieldType": "System.Int32",
+        "FieldLength": 843
       }
     }
   }

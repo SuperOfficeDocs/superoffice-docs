@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.SortListItems"
 
 ## SortListItems
 
-Sort the list items in a given list alphabetically
 
-* **udListDefinitionId:** Id of the list you want to sort. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
-* **cultureName:** Sort list in this language
+
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -49,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SortListItems Response
 
 ```xml
@@ -68,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

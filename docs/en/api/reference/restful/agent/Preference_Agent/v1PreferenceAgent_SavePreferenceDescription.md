@@ -96,28 +96,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 407,
-  "Section": "qui",
-  "Key": "et",
-  "Name": "Corwin, Sporer and Ankunding",
+  "PrefDescId": 617,
+  "Section": "sit",
+  "Key": "fugit",
+  "Name": "Kunde, Moore and Hessel",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Front-line cohesive application",
-  "IsBuiltin": false,
-  "TableName": "Bosco, Hansen and Kautzer",
-  "UserDefinedListId": 557,
-  "Rank": 521,
-  "SubGroup": "optio",
-  "MinLevel": 458,
-  "MaxValue": 232,
-  "MinValue": 561,
-  "RequiredLicense": "nihil"
+  "Description": "Inverse holistic archive",
+  "IsBuiltin": true,
+  "TableName": "Miller, Breitenberg and Lehner",
+  "UserDefinedListId": 491,
+  "Rank": 225,
+  "SubGroup": "perferendis",
+  "MinLevel": 714,
+  "MaxValue": 868,
+  "MinValue": 547,
+  "RequiredLicense": "vel"
 }
 ```
 
@@ -128,30 +128,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 217,
-  "Section": "occaecati",
-  "Key": "ut",
-  "Name": "Veum Inc and Sons",
+  "PrefDescId": 605,
+  "Section": "debitis",
+  "Key": "esse",
+  "Name": "Lesch LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Adaptive logistical function",
-  "IsBuiltin": false,
-  "TableName": "Tromp, Trantow and Greenholt",
-  "UserDefinedListId": 174,
-  "Rank": 779,
-  "SubGroup": "laborum",
-  "MinLevel": 944,
-  "MaxValue": 471,
-  "MinValue": 690,
-  "RequiredLicense": "itaque",
+  "Description": "Pre-emptive assymetric Graphic Interface",
+  "IsBuiltin": true,
+  "TableName": "Zieme, Berge and Spencer",
+  "UserDefinedListId": 586,
+  "Rank": 148,
+  "SubGroup": "aliquid",
+  "MinLevel": 139,
+  "MaxValue": 32,
+  "MinValue": 355,
+  "RequiredLicense": "cumque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldType": "System.String",
+      "FieldLength": 286
     }
   }
 }

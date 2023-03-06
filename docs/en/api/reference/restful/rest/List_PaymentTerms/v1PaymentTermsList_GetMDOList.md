@@ -25,8 +25,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=consectetur
+GET /api/v1/List/PaymentTerm/MDOItems?flat=True
+GET /api/v1/List/PaymentTerm/MDOItems?query=cumque
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 637,
-    "Name": "Donnelly Inc and Sons",
-    "ToolTip": "Et aliquam sint.",
-    "Deleted": true,
-    "Rank": 761,
-    "Type": "nesciunt",
+    "Id": 861,
+    "Name": "Simonis-Robel",
+    "ToolTip": "Rerum consequuntur veniam a asperiores.",
+    "Deleted": false,
+    "Rank": 5,
+    "Type": "laudantium",
     "ChildItems": [
       {
-        "Id": 488,
-        "Name": "Dicki, Lebsack and Murray",
-        "ToolTip": "Necessitatibus id fugit.",
+        "Id": 665,
+        "Name": "West Inc and Sons",
+        "ToolTip": "Illo error.",
         "Deleted": false,
-        "Rank": 58,
-        "Type": "dolor",
+        "Rank": 392,
+        "Type": "atque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "pariatur",
-        "ColorBlock": 182,
-        "ExtraInfo": "veritatis",
-        "StyleHint": "aliquam",
-        "FullName": "Stacy Kassulke",
+        "IconHint": "omnis",
+        "ColorBlock": 708,
+        "ExtraInfo": "et",
+        "StyleHint": "quis",
+        "FullName": "Miss Camille Arielle West",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 917
+            "FieldType": "System.Int32",
+            "FieldLength": 356
           }
         }
       }
     ],
-    "IconHint": "fugit",
-    "ColorBlock": 515,
-    "ExtraInfo": "ad",
-    "StyleHint": "magnam",
-    "FullName": "Erika Fadel",
+    "IconHint": "aut",
+    "ColorBlock": 767,
+    "ExtraInfo": "veritatis",
+    "StyleHint": "sed",
+    "FullName": "Miss Jarrod Zella Wintheiser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldLength": 991
       }
     }
   }

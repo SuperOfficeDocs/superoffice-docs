@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.DeleteChatTopi
 
 ## DeleteChatTopicUserAgent
 
-Remove a user from a topic
 
-* **chatTopicId:** Id of the chat topic
-* **username:** Associate username or associate id to delete.
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteChatTopicUserAgent Response
 
 ```xml
@@ -70,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

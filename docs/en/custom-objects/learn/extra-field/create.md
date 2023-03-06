@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Define extra fields
+# Add extra fields
 
 After you create an extra table, you must set up fields in the table, to allow you to subsequently input data (entries) into the table. You can also create extra fields in standard tables.
 
@@ -18,12 +18,16 @@ After you create an extra table, you must set up fields in the table, to allow y
 
 **Steps:**
 
-1. Select ![icon][img1] **System settings** > **System design** > **Tables**.
-2. Browse to the table you want, point at the table name and click ![icon][img2].
-3. In the **New extra field** screen, select a field type in the **Type** list box.
-4. Click **OK**. The **Field properties** screen appears.
-5. In the **Field properties** screen, enter data about the new field. The available properties depend on the type of extra field (specified in step 4).
-6. Click **OK** to save, and then **Restart NetServer**.
+1. Go to the **Tables** screen.
+
+    * In Settings and maintenance: Click the **System design** button in the navigator. Then select the **Tables** tab.
+    * In Service: Select ![icon][img1] **System settings** > **System design** > **Tables**.
+
+1. Browse to the table you want, point at the table name and click ![icon][img2].
+1. In the **New extra field** screen, select a field type in the **Type** list box.
+1. Click **OK**. The **Field properties** screen appears.
+1. In the **Field properties** screen, enter data about the new field. The available properties depend on the type of extra field (specified in step 4).
+1. Click **OK** to save, and then **Restart NetServer**.
 
 ## Field properties
 

@@ -57,7 +57,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -67,26 +67,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 661,
+  "RowCount": 386,
   "Rows": [
     {
-      "EntityName": "Lemke, Murray and Wilderman",
-      "PrimaryKey": 694,
+      "EntityName": "McKenzie LLC",
+      "PrimaryKey": 845,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "necessitatibus",
-          "TooltipHint": "et",
-          "LinkHint": "quaerat"
+          "DisplayValue": "molestiae",
+          "TooltipHint": "hic",
+          "LinkHint": "eius"
         }
       },
-      "LinkHint": "officia",
-      "StyleHint": "qui",
+      "LinkHint": "architecto",
+      "StyleHint": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 93
+          "FieldType": "System.Int32",
+          "FieldLength": 471
         }
       }
     }
@@ -95,8 +95,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldType": "System.String",
+      "FieldLength": 640
     }
   }
 }

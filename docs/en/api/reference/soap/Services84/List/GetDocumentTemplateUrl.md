@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetDocumentTem
 
 ## GetDocumentTemplateUrl
 
-Get a url to the document template
 
-* **documentTemplateId:** The id of the template
-* **writableUrl:** Get a writeable url to the document template?
-* **languageCode:** The language code ('en-US', 'nb-NO', etc). Use empty string if not supported or used.
 
-**Returns:** The URL to the document template
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -53,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDocumentTemplateUrl Response
 
 ```xml
@@ -73,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

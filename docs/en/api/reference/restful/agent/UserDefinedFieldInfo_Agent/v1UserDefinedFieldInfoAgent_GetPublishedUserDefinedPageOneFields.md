@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 186
+  "UserGroupId": 849
 }
 ```
 
@@ -123,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 759,
-    "ColumnId": 340,
-    "FieldDefault": "est",
-    "FieldHeight": 827,
-    "FieldLabel": "beatae",
-    "FieldLeft": 693,
-    "FieldTop": 89,
+    "UDefFieldId": 504,
+    "ColumnId": 15,
+    "FieldDefault": "consequuntur",
+    "FieldHeight": 221,
+    "FieldLabel": "rerum",
+    "FieldLeft": 643,
+    "FieldTop": 741,
     "FieldType": "Checkbox",
-    "FieldWidth": 956,
-    "FormatMask": "placeat",
+    "FieldWidth": 55,
+    "FormatMask": "eos",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 164,
-    "LabelLeft": 947,
-    "LabelTop": 620,
-    "LabelWidth": 426,
-    "LastVersionId": 258,
-    "ListTableId": 644,
-    "IsMandatory": false,
+    "IsIndexed": false,
+    "LabelHeight": 335,
+    "LabelLeft": 919,
+    "LabelTop": 779,
+    "LabelWidth": 513,
+    "LastVersionId": 406,
+    "ListTableId": 882,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 424,
-    "ProgId": "nihil",
-    "IsReadOnly": false,
-    "ShortLabel": "rerum",
-    "TabOrder": 552,
-    "TextLength": 974,
-    "Tooltip": "corporis",
-    "UdefIdentity": 388,
-    "UDListDefinitionId": 197,
+    "Page1LineNo": 831,
+    "ProgId": "consequatur",
+    "IsReadOnly": true,
+    "ShortLabel": "eligendi",
+    "TabOrder": 190,
+    "TextLength": 897,
+    "Tooltip": "id",
+    "UdefIdentity": 736,
+    "UDListDefinitionId": 620,
     "Justification": "Center",
-    "Version": 517,
-    "TemplateVariableName": "Hoeger-Bauch",
+    "Version": 555,
+    "TemplateVariableName": "Christiansen Group",
     "HasBeenPublished": false,
-    "MdoListName": "Morissette-Wintheiser",
+    "MdoListName": "Fadel, Hintz and Thiel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 938
+        "FieldType": "System.String",
+        "FieldLength": 137
       }
     }
   }

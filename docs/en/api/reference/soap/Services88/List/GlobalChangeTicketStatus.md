@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GlobalChangeTi
 
 ## GlobalChangeTicketStatus
 
-This method will change all references from one ticket status to another. Typically used in conjuction with delete
 
-* **fromTicketStatusId:** The id of the ticket status to change from
-* **toTicketStatusId:** The id of the ticket status to change to
 
-**Returns:** Does not return anything
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GlobalChangeTicketStatus Response
 
 ```xml
@@ -70,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/User/GetUntrustedCredentials
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "nemo"
+  "Type": "perspiciatis"
 }
 ```
 
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2012-07-29T17:37:19.5829762+02:00",
-    "ValidTo": "1996-01-10T17:37:19.5829762+01:00",
-    "Comment": "occaecati",
-    "SecretValue": "architecto",
-    "PublicValue": "qui",
+    "ValidFrom": "2008-11-29T14:19:04.5953265+01:00",
+    "ValidTo": "2002-05-19T14:19:04.5953265+02:00",
+    "Comment": "quae",
+    "SecretValue": "quibusdam",
+    "PublicValue": "repellat",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 384
+        "FieldLength": 3
       }
     }
   }

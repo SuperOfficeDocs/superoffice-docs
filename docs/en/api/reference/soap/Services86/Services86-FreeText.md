@@ -646,76 +646,43 @@ title: Services86.FreeTextAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="FreeText">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for FreeText</summary>
-    </wsdl:documentation>
     <wsdl:operation name="GetStatus">
-      <wsdl:documentation>
-        <summary>Returns status for the freetext search words</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/FreeText/GetStatus" name="GetStatusRequest" message="tns:GetStatusRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/FreeText/GetStatusResponse" name="GetStatusResponse" message="tns:GetStatusResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetEnabled">
-      <wsdl:documentation>
-        <summary>Sets freetext search to enabled (true) or disabled (false)</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/FreeText/SetEnabled" name="SetEnabledRequest" message="tns:SetEnabledRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/FreeText/SetEnabledResponse" name="SetEnabledResponse" message="tns:SetEnabledResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetAutoEnableTravelAreas">
-      <wsdl:documentation>
-        <summary>Automatically enable freetext search for new travel areas? true or false</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/FreeText/SetAutoEnableTravelAreas" name="SetAutoEnableTravelAreasRequest" message="tns:SetAutoEnableTravelAreasRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/FreeText/SetAutoEnableTravelAreasResponse" name="SetAutoEnableTravelAreasResponse" message="tns:SetAutoEnableTravelAreasResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetSingleWordOperator">
-      <wsdl:documentation>
-        <summary>Sets the operator used when matching single words</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/FreeText/SetSingleWordOperator" name="SetSingleWordOperatorRequest" message="tns:SetSingleWordOperatorRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/FreeText/SetSingleWordOperatorResponse" name="SetSingleWordOperatorResponse" message="tns:SetSingleWordOperatorResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetMultiWordOperator">
-      <wsdl:documentation>
-        <summary>Sets the operator used when matching multiple words</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/FreeText/SetMultiWordOperator" name="SetMultiWordOperatorRequest" message="tns:SetMultiWordOperatorRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/FreeText/SetMultiWordOperatorResponse" name="SetMultiWordOperatorResponse" message="tns:SetMultiWordOperatorResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetStopWordList">
-      <wsdl:documentation>
-        <summary>Returns the list of stop words</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/FreeText/GetStopWordList" name="GetStopWordListRequest" message="tns:GetStopWordListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/FreeText/GetStopWordListResponse" name="GetStopWordListResponse" message="tns:GetStopWordListResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddWords">
-      <wsdl:documentation>
-        <summary>Adds the words in the string to the stop word list</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/FreeText/AddWords" name="AddWordsRequest" message="tns:AddWordsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/FreeText/AddWordsResponse" name="AddWordsResponse" message="tns:AddWordsResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteStopWordsById">
-      <wsdl:documentation>
-        <summary>Delete the stop words with these ids</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/FreeText/DeleteStopWordsById" name="DeleteStopWordsByIdRequest" message="tns:DeleteStopWordsByIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/FreeText/DeleteStopWordsByIdResponse" name="DeleteStopWordsByIdResponse" message="tns:DeleteStopWordsByIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSuggestedStopWords">
-      <wsdl:documentation>
-        <summary>Returns the top used words in the freetext index table, sorted as most used first</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/FreeText/GetSuggestedStopWords" name="GetSuggestedStopWordsRequest" message="tns:GetSuggestedStopWordsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/FreeText/GetSuggestedStopWordsResponse" name="GetSuggestedStopWordsResponse" message="tns:GetSuggestedStopWordsResponse" />
     </wsdl:operation>
     <wsdl:operation name="RegenerateIndex">
-      <wsdl:documentation>
-        <summary>Wipe and regenerate the freetext index by scanning the database (freetext search will be unavailable while this operation runs</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/FreeText/RegenerateIndex" name="RegenerateIndexRequest" message="tns:RegenerateIndexRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/FreeText/RegenerateIndexResponse" name="RegenerateIndexResponse" message="tns:RegenerateIndexResponse" />
     </wsdl:operation>
@@ -890,3 +857,4 @@ title: Services86.FreeTextAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

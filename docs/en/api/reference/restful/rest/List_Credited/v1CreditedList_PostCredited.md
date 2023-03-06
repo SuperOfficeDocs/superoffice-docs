@@ -76,12 +76,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 30,
-  "Name": "Tremblay Group",
-  "Tooltip": "ipsum",
+  "Id": 375,
+  "Name": "Sauer Group",
+  "Tooltip": "distinctio",
   "Deleted": true,
-  "UdListDefinitionId": 660,
-  "Rank": 807
+  "UdListDefinitionId": 318,
+  "Rank": 347
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 232,
-  "Name": "Cremin Group",
-  "Tooltip": "quibusdam",
-  "Deleted": false,
-  "UdListDefinitionId": 802,
-  "Rank": 24,
+  "Id": 427,
+  "Name": "Bahringer-Anderson",
+  "Tooltip": "eos",
+  "Deleted": true,
+  "UdListDefinitionId": 491,
+  "Rank": 68,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 703
+      "FieldType": "System.Int32",
+      "FieldLength": 363
     }
   }
 }

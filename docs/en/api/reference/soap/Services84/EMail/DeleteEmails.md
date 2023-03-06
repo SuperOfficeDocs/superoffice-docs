@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IEMailAgent.DeleteEmails"
 
 ## DeleteEmails
 
-Delete specified mail items and optionally move to the specified folder
 
-* **ids:** The e-mails to handle
-* **moveToFolder:** If set, move deleted items to this folder
+
+
 
 [WSDL file for Services84/EMail](../Services84-EMail.md)
 
@@ -51,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteEmails Response
 
 ```xml
@@ -70,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

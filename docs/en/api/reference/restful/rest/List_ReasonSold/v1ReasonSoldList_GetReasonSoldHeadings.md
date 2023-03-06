@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 777,
-    "Name": "Donnelly Inc and Sons",
-    "Tooltip": "dolorum",
-    "Deleted": true,
-    "Rank": 473,
-    "UdListDefinitionId": 16,
+    "HeadingId": 493,
+    "Name": "Eichmann-Jacobson",
+    "Tooltip": "tenetur",
+    "Deleted": false,
+    "Rank": 282,
+    "UdListDefinitionId": 628,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 736
+        "FieldType": "System.Int32",
+        "FieldLength": 43
       }
     }
   }

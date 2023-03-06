@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.SaveEMailAcco
 
 ## SaveEMailAccount
 
-Updates the existing EMailAccount or creates a new EMailAccount if the id parameter is 0.
 
-* **eMailAccount:** The EMailAccount that is saved.
 
-**Returns:** New or updated EMailAccount
+
 
 [WSDL file for Services85/EMail](../Services85-EMail.md)
 
@@ -72,6 +70,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveEMailAccount Response
 
 ```xml
@@ -115,3 +114,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

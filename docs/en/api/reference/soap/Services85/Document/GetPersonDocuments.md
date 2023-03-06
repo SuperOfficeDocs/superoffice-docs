@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IDocumentAgent.GetPersonD
 
 ## GetPersonDocuments
 
-Get all documents that are linked to the person. I.e. the documents that are listed in the person dialog.
 
-* **personId:** The person id.
 
-**Returns:** Array of documents
+
 
 [WSDL file for Services85/Document](../Services85-Document.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetPersonDocuments Response
 
@@ -89,3 +88,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

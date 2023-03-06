@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/SaveUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Mosciski LLC",
+  "UserName": "White Inc and Sons",
   "User": null
 }
 ```
@@ -115,14 +115,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 496,
-  "Name": "Bins-Rodriguez",
-  "Rank": 223,
-  "Tooltip": "repellendus",
+  "AssociateId": 646,
+  "Name": "Jenkins, Krajcik and Mosciski",
+  "Rank": 194,
+  "Tooltip": "voluptate",
   "LicenseOwners": [
     {
-      "Name": "Carter Inc and Sons",
-      "Description": "Open-source intangible neural-net",
+      "Name": "Considine, Barton and Bradtke",
+      "Description": "Open-architected content-based website",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,14 +135,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 926
+          "FieldType": "System.String",
+          "FieldLength": 555
         }
       }
     },
     {
-      "Name": "Carter Inc and Sons",
-      "Description": "Open-source intangible neural-net",
+      "Name": "Considine, Barton and Bradtke",
+      "Description": "Open-architected content-based website",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 926
+          "FieldType": "System.String",
+          "FieldLength": 555
         }
       }
     }
@@ -165,76 +165,76 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "eaque",
-      "Tooltip": "architecto",
-      "Id": 277,
-      "Rank": 259,
-      "Deleted": true,
+      "Value": "blanditiis",
+      "Tooltip": "et",
+      "Id": 967,
+      "Rank": 908,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 393
+          "FieldType": "System.String",
+          "FieldLength": 200
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2005-07-30T17:37:19.5809766+02:00",
-  "Lastlogout": "2003-04-05T17:37:19.5809766+02:00",
-  "EjUserId": 716,
-  "RequestSignature": "reprehenderit",
+  "Lastlogin": "2014-01-30T14:19:04.5953265+01:00",
+  "Lastlogout": "2010-12-10T14:19:04.5953265+01:00",
+  "EjUserId": 563,
+  "RequestSignature": "quae",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsPersonRetired": true,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "aut",
-      "DisplayValue": "error",
+      "Value": "enim",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 784
+          "FieldType": "System.Int32",
+          "FieldLength": 609
         }
       }
     },
     {
       "Type": null,
-      "Value": "aut",
-      "DisplayValue": "error",
+      "Value": "enim",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 784
+          "FieldType": "System.Int32",
+          "FieldLength": 609
         }
       }
     }
   ],
-  "UserName": "D'Amore, Gibson and Kertzmann",
+  "UserName": "Bernier, Durgan and Howell",
   "TicketCategories": [
     {
-      "Id": 123,
-      "Name": "Baumbach Group",
-      "ToolTip": "Minima fugit ea maiores veniam repellat distinctio.",
+      "Id": 451,
+      "Name": "Lockman LLC",
+      "ToolTip": "Expedita animi et animi.",
       "Deleted": false,
-      "Rank": 578,
-      "Type": "corrupti",
+      "Rank": 419,
+      "Type": "nemo",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolorum",
-      "ColorBlock": 870,
-      "ExtraInfo": "quod",
-      "StyleHint": "impedit",
-      "FullName": "Xavier Nolan",
+      "IconHint": "ab",
+      "ColorBlock": 145,
+      "ExtraInfo": "similique",
+      "StyleHint": "est",
+      "FullName": "Mrs. Chauncey Skiles",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -245,30 +245,30 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "NickName": "Parker-Purdy",
+  "NickName": "Stamm LLC",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "aliquid",
-    "ExtraFields2": "et"
+    "ExtraFields1": "itaque",
+    "ExtraFields2": "error"
   },
   "CustomFields": {
-    "CustomFields1": "nesciunt",
-    "CustomFields2": "ratione"
+    "CustomFields1": "mollitia",
+    "CustomFields2": "sunt"
   },
   "PostSaveCommands": [
     {
-      "Name": "Hyatt Inc and Sons",
-      "DisplayName": "Ondricka, Ullrich and Price",
-      "Description": "Innovative system-worthy project",
-      "ToolTip": "Quia sit iusto.",
+      "Name": "Beahan-Zemlak",
+      "DisplayName": "Toy, Ortiz and Mraz",
+      "Description": "Visionary contextually-based hardware",
+      "ToolTip": "Beatae vitae ab corrupti ullam magnam enim.",
       "Actions": "Implicit",
-      "ActionData": "suscipit",
+      "ActionData": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 134
+          "FieldType": "System.Int32",
+          "FieldLength": 965
         }
       }
     }
@@ -278,7 +278,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 360
+      "FieldLength": 78
     }
   }
 }

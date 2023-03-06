@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDocumentMigrationAgent.M
 
 ## MigrateDocumentToNewDocPlugin
 
-Migrates the document with the provided id to the specified document-plugin.
-<para /><b>Online Restricted:</b> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
 
-* **documentId:** The ID of the document to migrate.
-* **documentPluginId:** The ID of the document-plugin to migrate to.
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services88/DocumentMigration](../Services88-DocumentMigration.md)
 
@@ -52,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## MigrateDocumentToNewDocPlugin Response
 
 ```xml
@@ -71,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "ShipmentTypeReservation"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ShipmentTypeReservation Table (492)
+# ShipmentTypeReservation Table (495)
 
 ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type
 

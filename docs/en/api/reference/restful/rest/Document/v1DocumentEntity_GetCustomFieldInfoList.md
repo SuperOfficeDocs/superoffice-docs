@@ -66,7 +66,7 @@ OK
 GET /api/v1/Document/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Schultz, Hoeger and Cronin",
-    "DisplayName": "Muller-Braun",
-    "Description": "Business-focused even-keeled challenge",
-    "ShortLabel": "omnis",
+    "FieldName": "Jakubowski, Spencer and Littel",
+    "DisplayName": "Howell-Wolf",
+    "Description": "Innovative zero tolerance initiative",
+    "ShortLabel": "aut",
     "HideLabel": false,
-    "HideField": true,
+    "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 138,
-    "TemplateVariableName": "Moore Group"
+    "IsExternal": true,
+    "Rank": 270,
+    "TemplateVariableName": "Lakin, Murazik and Runolfsson"
   }
 ]
 ```

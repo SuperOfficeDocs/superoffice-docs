@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.GetDocumen
 
 ## GetDocumentsByTemplateHeading
 
-Method that returns document appointments, filtered by the document template heading. The heading represents a grouping or filtering of document templates.
 
-* **templateHeadingId:** The document template heading id. The heading represents a grouping or filtering of document templates.
 
-**Returns:** Array of Appointments.
+
 
 [WSDL file for Services88/Document](../Services88-Document.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetDocumentsByTemplateHeading Response
 
@@ -92,3 +91,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

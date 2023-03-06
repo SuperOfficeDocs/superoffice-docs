@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Display selections as charts
+# Display selection as a chart
 
 In the **Charts** tab you can click a chart type to display the data in the active selection as a chart. The available chart types depend on the selection type (only sales related charts are available for sale selections). Dynamic selections with charts can also be used in [dashboards][1].
 

@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 139,
-  "Name": "Greenholt-Wehner",
-  "Tooltip": "distinctio",
-  "Deleted": true,
-  "UdListDefinitionId": 396,
-  "Rank": 804,
+  "Id": 348,
+  "Name": "Gulgowski-Von",
+  "Tooltip": "eos",
+  "Deleted": false,
+  "UdListDefinitionId": 347,
+  "Rank": 837,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldLength": 202
     }
   }
 }

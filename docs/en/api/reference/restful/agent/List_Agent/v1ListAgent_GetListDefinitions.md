@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,22 +97,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 571,
-    "Name": "Bogan-Morar",
-    "Tooltip": "aliquid",
+    "Id": 257,
+    "Name": "Marquardt, Keeling and Beahan",
+    "Tooltip": "non",
     "Deleted": true,
-    "Rank": 505,
+    "Rank": 270,
     "IsCustomList": true,
     "IsMDOList": false,
-    "UseGroupsAndHeadings": false,
-    "ListType": "sunt",
-    "InUseByUserDefinedFields": false,
+    "UseGroupsAndHeadings": true,
+    "ListType": "repudiandae",
+    "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 20
+        "FieldLength": 672
       }
     }
   }

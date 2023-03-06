@@ -64,12 +64,12 @@ No Content
 POST /api/v1/Agents/Preference/DeleteFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "cupiditate",
-  "Key": "eum"
+  "Section": "nam",
+  "Key": "quidem"
 }
 ```
 

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDashboardAgent.GetDashbo
 
 ## GetDashboard
 
-Gets a Dashboard object.
 
-* **dashboardId:** The identifier of the Dashboard object
 
-**Returns:** Dashboard
+
 
 [WSDL file for Services87/Dashboard](../Services87-Dashboard.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetDashboard Response
 
@@ -123,3 +122,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

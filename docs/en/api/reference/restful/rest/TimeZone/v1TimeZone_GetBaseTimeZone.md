@@ -70,31 +70,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 5,
-  "Name": "Rutherford-Schneider",
-  "TZLocationCode": "ut",
-  "TZLocationCities": "et",
-  "IsoNumber": 271,
+  "TZLocationID": 533,
+  "Name": "Langworth LLC",
+  "TZLocationCode": "assumenda",
+  "TZLocationCities": "natus",
+  "IsoNumber": 319,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 470,
-      "StartMonth": 752,
-      "EndDay": 738,
-      "EndMonth": 740,
-      "TZOffset": 92,
-      "StartRulePattern": "ex",
-      "EndRulePattern": "enim"
+      "StartDay": 809,
+      "StartMonth": 704,
+      "EndDay": 270,
+      "EndMonth": 230,
+      "TZOffset": 645,
+      "StartRulePattern": "est",
+      "EndRulePattern": "dignissimos"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 321,
-      "StartMonth": 618,
-      "EndDay": 924,
-      "EndMonth": 737,
-      "TZOffset": 322,
-      "StartRulePattern": "quas",
-      "EndRulePattern": "sunt"
+      "StartDay": 75,
+      "StartMonth": 389,
+      "EndDay": 604,
+      "EndMonth": 410,
+      "TZOffset": 683,
+      "StartRulePattern": "quos",
+      "EndRulePattern": "laudantium"
     }
   }
 }

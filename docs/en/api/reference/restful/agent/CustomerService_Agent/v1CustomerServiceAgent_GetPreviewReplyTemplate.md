@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 151
+  "ReplyTemplateId": 80
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bailey LLC",
-  "Description": "Grass-roots explicit customer loyalty",
-  "OwnedByFullName": "Milo Walter",
-  "Updated": "2003-06-02T17:37:17.3522426+02:00",
-  "Body": "quia",
-  "IsHtml": true,
+  "Name": "O'Conner LLC",
+  "Description": "Multi-lateral encompassing middleware",
+  "OwnedByFullName": "Moises Blick",
+  "Updated": "1998-11-30T14:19:03.0886547+01:00",
+  "Body": "mollitia",
+  "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 264
+      "FieldLength": 621
     }
   }
 }

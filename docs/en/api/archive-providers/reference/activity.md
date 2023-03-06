@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Activity"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,20 +22,18 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 Activity archive provider that performs no filtering. This archive is not present anywhere in the standard six.web GUI.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"document"|Documents|
 |"appointment"|Follow-ups|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|icon|string|Category: Displays the icon for an activity type| x |
+|icon|listAny|Category: Displays the icon for an activity type| x |
 |date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |time| *None* |Time: Time|  |
 |type|listAny|Type: Displays the type of an activity| x |
@@ -578,7 +576,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 |documentUdef/SuperOffice:7|listAny|documentdropdownlistbox| x |
 |documentUdef/SuperOffice:8|decimal|documentdecimal| x |
 |sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|sale/icon|string|Category: Displays the icon for an activity type| x |
+|sale/icon|listAny|Category: Displays the icon for an activity type| x |
 |sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |sale/time| *None* |Time: Time|  |
 |sale/type|listAny|Type: Displays the type of an activity| x |
@@ -692,6 +690,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 |isMilestone|bool|Milestone: Shows whether or not the follow-ups in this row are milestones| x |
 |invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
 |joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
+|duration|timeSpan|Duration: The duration of the chat session|  |
 |appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -710,11 +709,14 @@ Activity archive provider that performs no filtering. This archive is not presen
 ## Sample
 
 ```http!
-GET /api/v1/archive/Activity?$select=person/personAssociate/role,person/subscription,contact/contactAssociate/contactFullName,contact/contactExtra/x_contact_short_dropdown,project/statusRank
+GET /api/v1/archive/Activity?$select=updatedDate,person/correspondingAssociate/isActiveText,contact/contactAssociate/assocType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

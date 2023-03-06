@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 102,
-  "Name": "Schmidt LLC",
-  "Tooltip": "sit",
+  "Id": 918,
+  "Name": "Balistreri-Schuster",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 39,
-  "IsCustomList": false,
+  "Rank": 592,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": true
+  "ListType": "dolores",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 865,
-  "Name": "Ernser-Hermann",
-  "Tooltip": "quis",
+  "Id": 102,
+  "Name": "Mueller-Lind",
+  "Tooltip": "fugiat",
   "Deleted": false,
-  "Rank": 743,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 204,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eum",
+  "ListType": "non",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 452
+      "FieldType": "System.Int32",
+      "FieldLength": 669
     }
   }
 }

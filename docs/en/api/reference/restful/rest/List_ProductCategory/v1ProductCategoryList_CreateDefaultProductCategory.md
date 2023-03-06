@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 218,
-  "Name": "Kling-Lubowitz",
-  "Tooltip": "est",
-  "Deleted": false,
-  "UdListDefinitionId": 876,
-  "Rank": 952,
+  "Id": 780,
+  "Name": "Schroeder-Considine",
+  "Tooltip": "quaerat",
+  "Deleted": true,
+  "UdListDefinitionId": 828,
+  "Rank": 664,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldLength": 594
     }
   }
 }

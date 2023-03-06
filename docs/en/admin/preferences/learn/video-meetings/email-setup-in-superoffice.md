@@ -37,3 +37,12 @@ To send an invitation by email to external users, you must:
 
     > [!NOTE]
     > The video meeting URL is automatically added to the appointment text ("Join meeting: ..."). If the **Location** field in the appointment is blank, the video meeting URL is added here.
+
+## Related topics
+
+* [How to configure email invitations for video meetings][1] - Technical documentation
+
+<!-- Referenced links -->
+[1]: ../../../../video-meeting/howto/configure-email-invitations.md
+
+<!-- Referenced images --

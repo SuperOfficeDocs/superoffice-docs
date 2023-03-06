@@ -25,7 +25,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=584
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=539
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,53 +97,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 739,
-  "Name": "Douglas-Nitzsche",
-  "Tooltip": "rerum",
-  "Rank": 225,
+  "SaleTypeId": 345,
+  "Name": "Mayert, Schuppe and Willms",
+  "Tooltip": "et",
+  "Rank": 643,
   "DurationUnit": "Century",
-  "SaleDuration": 268,
-  "SaleTypeCatId": 43,
+  "SaleDuration": 211,
+  "SaleTypeCatId": 822,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 374,
-  "QuoteLinesTemplate": 231,
-  "ConfirmationLinesTemplate": 641,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 130,
+  "QuoteLinesTemplate": 622,
+  "ConfirmationLinesTemplate": 343,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 663,
-  "MinEarningPercent": 97,
-  "GroupQuoteLinesBy": 213,
-  "SortGroupLinesBy": 605,
+  "MaxDiscountPercent": 526,
+  "MinEarningPercent": 603,
+  "GroupQuoteLinesBy": 411,
+  "SortGroupLinesBy": 426,
   "Stages": [
     {
-      "Id": 678,
-      "Name": "Tillman LLC",
-      "ToolTip": "Ducimus illum at dolores blanditiis.",
-      "Deleted": false,
-      "Rank": 219,
-      "Type": "officia",
-      "ColorBlock": 992,
-      "IconHint": "sequi",
+      "Id": 281,
+      "Name": "Lowe Group",
+      "ToolTip": "In ut sunt.",
+      "Deleted": true,
+      "Rank": 173,
+      "Type": "delectus",
+      "ColorBlock": 245,
+      "IconHint": "possimus",
       "Selected": true,
-      "LastChanged": "2017-02-02T17:37:18.1802416+01:00",
+      "LastChanged": "2000-11-10T14:19:03.6082484+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatibus",
-      "StyleHint": "aspernatur",
+      "ExtraInfo": "inventore",
+      "StyleHint": "veniam",
       "Hidden": false,
-      "FullName": "Lester Johns",
+      "FullName": "Mrs. Abagail Gunner Ankunding V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 105
+          "FieldLength": 20
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 984
+      "FieldType": "System.Int32",
+      "FieldLength": 938
     }
   }
 }

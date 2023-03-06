@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.AuthenticateI
 
 ## AuthenticateIncoming
 
-Authenticate against a mail-server to retrieve e-mails from
 
-* **connectionInfo:** All information needed to connect to the mailserver
 
-**Returns:** True if authentication was succcesfull
+
 
 [WSDL file for Services85/EMail](../Services85-EMail.md)
 
@@ -55,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## AuthenticateIncoming Response
 
 ```xml
@@ -75,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

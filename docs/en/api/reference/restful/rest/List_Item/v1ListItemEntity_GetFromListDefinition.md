@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 35,
-  "Name": "Wilkinson, Bergnaum and Blick",
-  "Tooltip": "earum",
-  "Deleted": true,
-  "UdListDefinitionId": 358,
-  "Rank": 647,
+  "Id": 288,
+  "Name": "Ritchie Group",
+  "Tooltip": "eaque",
+  "Deleted": false,
+  "UdListDefinitionId": 545,
+  "Rank": 868,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 849
+      "FieldType": "System.Int32",
+      "FieldLength": 895
     }
   }
 }

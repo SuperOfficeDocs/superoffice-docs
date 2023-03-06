@@ -86,7 +86,7 @@ OK
 GET /api/v1/ChatSession/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,43 +96,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 836,
-  "TopicId": 182,
+  "ChatSessionId": 54,
+  "TopicId": 332,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quia",
-  "CustomerHost": "illo",
-  "CustomerName": "Watsica Inc and Sons",
-  "CustomerEmail": "alva@schmidtwitting.com",
-  "CustomerPhone": "1-155-052-1493 x38470",
+  "CustomerAlias": "laboriosam",
+  "CustomerHost": "vitae",
+  "CustomerName": "Lubowitz-Rau",
+  "CustomerEmail": "anais@dietrichemard.info",
+  "CustomerPhone": "926.799.8965 x65586",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Kilback Group",
+  "CustomerCompanyName": "Hilll, Brakus and Gaylord",
   "Status": "Closed",
-  "FirstMessage": "quas",
-  "LastMessage": "vel",
-  "WhenRequested": "2005-04-16T17:37:38.154858+02:00",
-  "WhenStarted": "2017-04-26T17:37:38.154858+02:00",
-  "WhenEnded": "2002-03-09T17:37:38.154858+01:00",
-  "WhenIdle": "2001-05-21T17:37:38.154858+02:00",
-  "WhenFetched": "2020-05-26T17:37:38.154858+02:00",
-  "SessionKey": "at",
-  "InitialQueuePos": 879,
-  "AlertLevel": 631,
-  "Rank": 704,
+  "FirstMessage": "velit",
+  "LastMessage": "soluta",
+  "WhenRequested": "2001-08-02T14:19:09.9736332+02:00",
+  "WhenStarted": "2013-04-11T14:19:09.9736332+02:00",
+  "WhenEnded": "2018-03-24T14:19:09.9736332+01:00",
+  "WhenIdle": "2009-10-08T14:19:09.9736332+02:00",
+  "WhenFetched": "2019-06-10T14:19:09.9736332+02:00",
+  "SessionKey": "qui",
+  "InitialQueuePos": 563,
+  "AlertLevel": 269,
+  "Rank": 991,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 702,
+  "ChatbotIsActive": false,
+  "Rating": 12,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 109
+      "FieldType": "System.String",
+      "FieldLength": 295
     }
   }
 }

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetLocalizedTe
 
 ## GetLocalizedTextsByType
 
-Gets localized text by their type
 
-* **textTypes:** Array of LocalizedTextTypes. If null all texts are returned.
 
-**Returns:** Array of LocalizedText objects
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetLocalizedTextsByType Response
 
 ```xml
@@ -80,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

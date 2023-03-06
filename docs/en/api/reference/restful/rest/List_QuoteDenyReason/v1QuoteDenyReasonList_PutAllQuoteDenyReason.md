@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 210,
-    "Name": "Wolf-Bernier",
-    "Tooltip": "omnis",
+    "Id": 883,
+    "Name": "Collier Inc and Sons",
+    "Tooltip": "voluptates",
     "Deleted": false,
-    "UdListDefinitionId": 790,
-    "Rank": 145
+    "UdListDefinitionId": 498,
+    "Rank": 362
   },
   {
-    "Id": 210,
-    "Name": "Wolf-Bernier",
-    "Tooltip": "omnis",
+    "Id": 883,
+    "Name": "Collier Inc and Sons",
+    "Tooltip": "voluptates",
     "Deleted": false,
-    "UdListDefinitionId": 790,
-    "Rank": 145
+    "UdListDefinitionId": 498,
+    "Rank": 362
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 415,
-    "Name": "Lehner, Hilpert and Block",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 764,
-    "Rank": 732,
+    "Id": 752,
+    "Name": "Haley-Pacocha",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "UdListDefinitionId": 593,
+    "Rank": 644,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 628
+        "FieldType": "System.String",
+        "FieldLength": 213
       }
     }
   }

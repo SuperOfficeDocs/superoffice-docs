@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 599,
-    "Name": "Smith, Harris and Fisher",
-    "ToolTip": "Aut dolorem.",
-    "Deleted": false,
-    "Rank": 885,
-    "Type": "aut",
-    "ColorBlock": 127,
-    "IconHint": "cupiditate",
+    "Id": 471,
+    "Name": "Zemlak Inc and Sons",
+    "ToolTip": "Non rem dolor.",
+    "Deleted": true,
+    "Rank": 961,
+    "Type": "nam",
+    "ColorBlock": 721,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "2015-04-08T17:37:39.9125004+02:00",
+    "LastChanged": "2003-07-20T14:19:11.1793474+02:00",
     "ChildItems": [
       {
-        "Id": 658,
-        "Name": "Kilback-Price",
-        "ToolTip": "Et tenetur eos minima.",
+        "Id": 28,
+        "Name": "Dare LLC",
+        "ToolTip": "Nihil animi.",
         "Deleted": false,
-        "Rank": 131,
-        "Type": "aut",
-        "ColorBlock": 213,
-        "IconHint": "aut",
+        "Rank": 534,
+        "Type": "accusamus",
+        "ColorBlock": 458,
+        "IconHint": "dolore",
         "Selected": false,
-        "LastChanged": "2016-10-31T17:37:39.9125004+01:00",
+        "LastChanged": "2020-08-15T14:19:11.1793474+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "vel",
-        "Hidden": false,
-        "FullName": "Reggie Waelchi"
+        "ExtraInfo": "dolor",
+        "StyleHint": "facere",
+        "Hidden": true,
+        "FullName": "Danielle Corkery"
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "velit",
+    "ExtraInfo": "quo",
+    "StyleHint": "culpa",
     "Hidden": false,
-    "FullName": "Hipolito Huels"
+    "FullName": "Shaun Janie Toy MD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 859,
-    "Name": "Pagac, Jacobi and Dooley",
-    "ToolTip": "Totam omnis officia similique ut.",
-    "Deleted": true,
-    "Rank": 697,
-    "Type": "sunt",
-    "ColorBlock": 798,
-    "IconHint": "dolore",
-    "Selected": true,
-    "LastChanged": "2013-05-27T17:37:39.9135001+02:00",
+    "Id": 284,
+    "Name": "Hills-Hayes",
+    "ToolTip": "Ea voluptate qui voluptatibus assumenda.",
+    "Deleted": false,
+    "Rank": 82,
+    "Type": "cupiditate",
+    "ColorBlock": 499,
+    "IconHint": "totam",
+    "Selected": false,
+    "LastChanged": "2022-03-09T14:19:11.1793474+01:00",
     "ChildItems": [
       {
-        "Id": 261,
-        "Name": "Wunsch LLC",
-        "ToolTip": "Adipisci et fugit.",
+        "Id": 255,
+        "Name": "Armstrong LLC",
+        "ToolTip": "Rerum nemo sed aut saepe repellat ratione ipsa.",
         "Deleted": false,
-        "Rank": 498,
-        "Type": "reiciendis",
-        "ColorBlock": 40,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2009-11-08T17:37:39.9135001+01:00",
+        "Rank": 960,
+        "Type": "molestias",
+        "ColorBlock": 625,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2014-11-06T14:19:11.1793474+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "alias",
-        "Hidden": true,
-        "FullName": "Miss Ethyl Hilpert",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "ea",
+        "Hidden": false,
+        "FullName": "Ms. Sherwood Carleton Spinka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 236
+            "FieldLength": 819
           }
         }
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "ut",
+    "ExtraInfo": "eligendi",
+    "StyleHint": "molestias",
     "Hidden": false,
-    "FullName": "Mr. Orland Hand I",
+    "FullName": "Noemi Stiedemann IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 171
+        "FieldLength": 348
       }
     }
   }

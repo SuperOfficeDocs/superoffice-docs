@@ -96,7 +96,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -104,73 +104,73 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 15 Jun 1999 17:37:39 G6T
+Last-Modified: Wed, 14 Oct 2020 14:19:10 G10T
 
 {
-  "Description": "Assimilated responsive conglomeration",
-  "Postit": "eos",
+  "Description": "Adaptive zero defect installation",
+  "Postit": "deserunt",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 751,
-  "IncludePerson": 342,
-  "MemberCount": 340,
-  "Name": "Gaylord LLC",
-  "PostitTextId": 914,
-  "CreatedDate": "2012-05-06T17:37:39.1852752+02:00",
-  "SelectionId": 295,
-  "SoundEx": "provident",
-  "Source": 803,
-  "TextId": 845,
-  "UpdatedDate": "1999-06-15T17:37:39.1852752+02:00",
-  "UpdatedCount": 585,
-  "Visibility": 668,
+  "GroupIdx": 651,
+  "IncludePerson": 762,
+  "MemberCount": 103,
+  "Name": "Ferry-Waters",
+  "PostitTextId": 176,
+  "CreatedDate": "2015-03-09T14:19:10.7561021+01:00",
+  "SelectionId": 5,
+  "SoundEx": "natus",
+  "Source": 660,
+  "TextId": 409,
+  "UpdatedDate": "2020-10-14T14:19:10.7561021+02:00",
+  "UpdatedCount": 975,
+  "Visibility": 352,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 262,
-  "TargetTableName": "West LLC",
+  "TargetTableNumber": 599,
+  "TargetTableName": "Pfannerstill Group",
   "Completed": true,
-  "LeftSelectionId": 514,
-  "RightSelectionId": 863,
+  "LeftSelectionId": 410,
+  "RightSelectionId": 356,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Upton-Friesen",
-  "ShadowProviderName": "Gleason Group",
-  "ChartKey": "voluptas",
-  "LastLoaded": "2011-09-30T17:37:39.1863037+02:00",
-  "LastLoadedBy": 744,
+  "MainProviderName": "Littel-Walker",
+  "ShadowProviderName": "Ortiz-O'Connell",
+  "ChartKey": "soluta",
+  "LastLoaded": "2011-01-02T14:19:10.7561021+01:00",
+  "LastLoadedBy": 216,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-05-07T17:37:39.1863037+02:00",
-  "LastMembershipChangeBy": 618,
+  "LastMembershipChange": "1999-01-04T14:19:10.7561021+01:00",
+  "LastMembershipChangeBy": 57,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "eos",
-  "MemberTabHeading": "quisquam",
-  "MailingsProviderName": "Lueilwitz, Bernier and Boyer",
-  "DashboardTileDefinitionId": 308,
+  "MainHeading": "totam",
+  "MemberTabHeading": "consequatur",
+  "MailingsProviderName": "Stanton, White and Yundt",
+  "DashboardTileDefinitionId": 806,
   "VisibleFor": [
     {
-      "VisibleId": 921,
+      "VisibleId": 551,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "repudiandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 956
+          "FieldLength": 612
         }
       }
     },
     {
-      "VisibleId": 921,
+      "VisibleId": 551,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "repudiandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 956
+          "FieldLength": 612
         }
       }
     }
@@ -179,8 +179,8 @@ Last-Modified: Tue, 15 Jun 1999 17:37:39 G6T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldType": "System.String",
+      "FieldLength": 352
     }
   }
 }

@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IConfigurationAgent.Delet
 
 ## DeleteConfigurableScreenDelta
 
-Deletes the ConfigurableScreenDelta
 
-* **configurableScreenDeltaId:** The identity of the ConfigurableScreenDelta
+
+
 
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteConfigurableScreenDelta Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

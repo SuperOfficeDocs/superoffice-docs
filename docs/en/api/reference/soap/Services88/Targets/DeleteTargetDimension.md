@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITargetsAgent.DeleteTarge
 
 ## DeleteTargetDimension
 
-Deletes the TargetDimension
 
-* **targetDimensionId:** The identity of the TargetDimension
+
+
 
 [WSDL file for Services88/Targets](../Services88-Targets.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteTargetDimension Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -86,7 +86,7 @@ OK
 GET /api/v1/ChatTopic/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 41,
-    "Name": "Klocko, Heaney and Corkery",
-    "Description": "Team-oriented fault-tolerant database",
-    "WelcomeMessage": "numquam",
+    "ChatTopicId": 808,
+    "Name": "Pfannerstill-Pouros",
+    "Description": "Managed upward-trending collaboration",
+    "WelcomeMessage": "nobis",
     "Language": null,
-    "LastAccept": "2012-01-28T17:37:38.3108627+01:00",
-    "SecondsPrAccept": 948,
-    "AlertRecipient": "voluptas",
+    "LastAccept": "2012-10-24T14:19:10.1154727+02:00",
+    "SecondsPrAccept": 651,
+    "AlertRecipient": "sit",
     "AlertTemplate": null,
     "CollectConsent": false,
-    "BadgeHeader": "illo",
-    "CustomQueueTextEnabled": false,
-    "CustomQueueText": "nihil",
-    "WarnNewChatMinutes": 510,
-    "WarnManagerNewChatMinutes": 490,
+    "BadgeHeader": "nobis",
+    "CustomQueueTextEnabled": true,
+    "CustomQueueText": "omnis",
+    "WarnNewChatMinutes": 239,
+    "WarnManagerNewChatMinutes": 712,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
-    "OpeningHoursEnabled": true,
+    "OpeningHoursEnabled": false,
     "OpeningHours": null,
     "Widget": null,
     "BotEnabled": false,
     "BotSettings": null,
     "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 575,
-    "WarnManagerChatMessageMinutes": 151,
-    "UseQueueOfflineForm": true,
-    "OfflineFormTimeLimit": 22,
-    "OfflineFormQueueLength": 632,
+    "WarnChatMessageMinutes": 899,
+    "WarnManagerChatMessageMinutes": 35,
+    "UseQueueOfflineForm": false,
+    "OfflineFormTimeLimit": 253,
+    "OfflineFormQueueLength": 629,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "illo",
+    "WidgetRatingText": "quos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 203
+        "FieldLength": 405
       }
     }
   }

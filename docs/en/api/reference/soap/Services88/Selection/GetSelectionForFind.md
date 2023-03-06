@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ISelectionAgent.GetSelect
 
 ## GetSelectionForFind
 
-Obtain a selection for the given entity, for the current user, of type WorkingSetForFind. Optionally populate criteria from the TypicalSearches system
 
-* **entityName:** The name of the entity to make a selection for; examples 'sale', 'project', 'y\_equipment'
-* **typicalSearchId:** If 0, keep existing criteria; if -1, reset to entity default; &gt; 0 get criteria from given TypicalSearch
 
-**Returns:** Target selection id and provider name
+
 
 [WSDL file for Services88/Selection](../Services88-Selection.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetSelectionForFind Response
 
 ```xml
@@ -78,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -328,6 +328,8 @@ title: Services88.ChatAgent WSDL
               <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="IsOwnerContact" type="xs:boolean" />
               <xs:element minOccurs="0" name="ActiveErpLinks" type="xs:int" />
+              <xs:element minOccurs="0" name="Number1" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Number2" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -574,6 +576,10 @@ title: Services88.ChatAgent WSDL
               <xs:element minOccurs="0" name="Language" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Sentiment" type="xs:int" />
               <xs:element minOccurs="0" name="SentimentConfidence" type="xs:int" />
+              <xs:element minOccurs="0" name="SaleId" type="xs:int" />
+              <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
+              <xs:element minOccurs="0" name="SaleHeading" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ProjectName" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -1418,6 +1424,13 @@ title: Services88.ChatAgent WSDL
               </xs:appinfo>
             </xs:annotation>
           </xs:enumeration>
+          <xs:enumeration value="IllegalFileType">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">18</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="ChatMessageSpecialType" nillable="true" type="q120:ChatMessageSpecialType" xmlns:q120="http://www.superoffice.net/ws/crm/NetServer/Services88" />
@@ -2211,223 +2224,127 @@ title: Services88.ChatAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Chat">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Chat</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultChatSessionEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new ChatSessionEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/CreateDefaultChatSessionEntity" name="CreateDefaultChatSessionEntityRequest" message="tns:CreateDefaultChatSessionEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/CreateDefaultChatSessionEntityResponse" name="CreateDefaultChatSessionEntityResponse" message="tns:CreateDefaultChatSessionEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveChatSessionEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing ChatSessionEntity or creates a new ChatSessionEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/SaveChatSessionEntity" name="SaveChatSessionEntityRequest" message="tns:SaveChatSessionEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/SaveChatSessionEntityResponse" name="SaveChatSessionEntityResponse" message="tns:SaveChatSessionEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteChatSessionEntity">
-      <wsdl:documentation>
-        <summary>Deletes the ChatSessionEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/DeleteChatSessionEntity" name="DeleteChatSessionEntityRequest" message="tns:DeleteChatSessionEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/DeleteChatSessionEntityResponse" name="DeleteChatSessionEntityResponse" message="tns:DeleteChatSessionEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultChatTopicAgent">
-      <wsdl:documentation>
-        <summary>Loading default values into a new ChatTopicAgent.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/CreateDefaultChatTopicAgent" name="CreateDefaultChatTopicAgentRequest" message="tns:CreateDefaultChatTopicAgentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/CreateDefaultChatTopicAgentResponse" name="CreateDefaultChatTopicAgentResponse" message="tns:CreateDefaultChatTopicAgentResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultChatTopicEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new ChatTopicEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/CreateDefaultChatTopicEntity" name="CreateDefaultChatTopicEntityRequest" message="tns:CreateDefaultChatTopicEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/CreateDefaultChatTopicEntityResponse" name="CreateDefaultChatTopicEntityResponse" message="tns:CreateDefaultChatTopicEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveChatTopicEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing ChatTopicEntity or creates a new ChatTopicEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/SaveChatTopicEntity" name="SaveChatTopicEntityRequest" message="tns:SaveChatTopicEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/SaveChatTopicEntityResponse" name="SaveChatTopicEntityResponse" message="tns:SaveChatTopicEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteChatTopicEntity">
-      <wsdl:documentation>
-        <summary>Deletes the ChatTopicEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/DeleteChatTopicEntity" name="DeleteChatTopicEntityRequest" message="tns:DeleteChatTopicEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/DeleteChatTopicEntityResponse" name="DeleteChatTopicEntityResponse" message="tns:DeleteChatTopicEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetChatPresence">
-      <wsdl:documentation>
-        <summary>Get the chat presence status for all chat users</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/GetChatPresence" name="GetChatPresenceRequest" message="tns:GetChatPresenceRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/GetChatPresenceResponse" name="GetChatPresenceResponse" message="tns:GetChatPresenceResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveChatPresence">
-      <wsdl:documentation>
-        <summary>Save the chat presence for specified users</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/SaveChatPresence" name="SaveChatPresenceRequest" message="tns:SaveChatPresenceRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/SaveChatPresenceResponse" name="SaveChatPresenceResponse" message="tns:SaveChatPresenceResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetChatSessionEntity">
-      <wsdl:documentation>
-        <summary>Gets a ChatSessionEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/GetChatSessionEntity" name="GetChatSessionEntityRequest" message="tns:GetChatSessionEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/GetChatSessionEntityResponse" name="GetChatSessionEntityResponse" message="tns:GetChatSessionEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="ChatSessionsForUser">
-      <wsdl:documentation>
-        <summary>Get all chat sessions which this user is a member of. Members means that you have at least one of: Can Respond, Notifications, Listen or Manager</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/ChatSessionsForUser" name="ChatSessionsForUserRequest" message="tns:ChatSessionsForUserRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/ChatSessionsForUserResponse" name="ChatSessionsForUserResponse" message="tns:ChatSessionsForUserResponse" />
     </wsdl:operation>
     <wsdl:operation name="TransferChatSession">
-      <wsdl:documentation>
-        <summary>Request to send the session to another user. If the session does not belong to the user, nothing happens.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/TransferChatSession" name="TransferChatSessionRequest" message="tns:TransferChatSessionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/TransferChatSessionResponse" name="TransferChatSessionResponse" message="tns:TransferChatSessionResponse" />
     </wsdl:operation>
     <wsdl:operation name="AcceptChatSessionTransfer">
-      <wsdl:documentation>
-        <summary>Accept the transfer: assign the session to the user. If the session is not being transferred, nothing happens.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/AcceptChatSessionTransfer" name="AcceptChatSessionTransferRequest" message="tns:AcceptChatSessionTransferRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/AcceptChatSessionTransferResponse" name="AcceptChatSessionTransferResponse" message="tns:AcceptChatSessionTransferResponse" />
     </wsdl:operation>
     <wsdl:operation name="RejectChatSessionTransfer">
-      <wsdl:documentation>
-        <summary>Do not want. Deny the transfer to the user. If the session is not being transferred, nothing happens.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/RejectChatSessionTransfer" name="RejectChatSessionTransferRequest" message="tns:RejectChatSessionTransferRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/RejectChatSessionTransferResponse" name="RejectChatSessionTransferResponse" message="tns:RejectChatSessionTransferResponse" />
     </wsdl:operation>
     <wsdl:operation name="PickUpChatSession">
-      <wsdl:documentation>
-        <summary>'answer' the session: assign the session to the user. The welcome message is sent to the customer. Returns NULL if session was not in queue.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/PickUpChatSession" name="PickUpChatSessionRequest" message="tns:PickUpChatSessionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/PickUpChatSessionResponse" name="PickUpChatSessionResponse" message="tns:PickUpChatSessionResponse" />
     </wsdl:operation>
     <wsdl:operation name="PickUpFirstChatSession">
-      <wsdl:documentation>
-        <summary>'answer' the first available session from the queue: assign the session to the user. The welcome message is sent to the customer.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/PickUpFirstChatSession" name="PickUpFirstChatSessionRequest" message="tns:PickUpFirstChatSessionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/PickUpFirstChatSessionResponse" name="PickUpFirstChatSessionResponse" message="tns:PickUpFirstChatSessionResponse" />
     </wsdl:operation>
     <wsdl:operation name="ResetChatSession">
-      <wsdl:documentation>
-        <summary>Reset chat session, put it back on the queue for pickup. Used by bots to hand off a session to human</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/ResetChatSession" name="ResetChatSessionRequest" message="tns:ResetChatSessionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/ResetChatSessionResponse" name="ResetChatSessionResponse" message="tns:ResetChatSessionResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetChatTranscript">
-      <wsdl:documentation>
-        <summary>Get the chat transcript, formatted as plain text or html</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/GetChatTranscript" name="GetChatTranscriptRequest" message="tns:GetChatTranscriptRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/GetChatTranscriptResponse" name="GetChatTranscriptResponse" message="tns:GetChatTranscriptResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetChatMessages">
-      <wsdl:documentation>
-        <summary>Get all or some of the messages in a chat session</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/GetChatMessages" name="GetChatMessagesRequest" message="tns:GetChatMessagesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/GetChatMessagesResponse" name="GetChatMessagesResponse" message="tns:GetChatMessagesResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddChatMessage">
-      <wsdl:documentation>
-        <summary>Add a new message to a chat session</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/AddChatMessage" name="AddChatMessageRequest" message="tns:AddChatMessageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/AddChatMessageResponse" name="AddChatMessageResponse" message="tns:AddChatMessageResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetChatTopicEntity">
-      <wsdl:documentation>
-        <summary>Gets a ChatTopicEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/GetChatTopicEntity" name="GetChatTopicEntityRequest" message="tns:GetChatTopicEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/GetChatTopicEntityResponse" name="GetChatTopicEntityResponse" message="tns:GetChatTopicEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="IsWithinOpeningHours">
-      <wsdl:documentation>
-        <summary>Check if we are right now within the opening hours of the given topic. Will use timezones to calculate if configured.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/IsWithinOpeningHours" name="IsWithinOpeningHoursRequest" message="tns:IsWithinOpeningHoursRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/IsWithinOpeningHoursResponse" name="IsWithinOpeningHoursResponse" message="tns:IsWithinOpeningHoursResponse" />
     </wsdl:operation>
     <wsdl:operation name="ChatTopicsForUser">
-      <wsdl:documentation>
-        <summary>Get all chat topics which this user is a member of. Members means that you have at least one of: Can Respond, Notifications, Listen or Manager</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/ChatTopicsForUser" name="ChatTopicsForUserRequest" message="tns:ChatTopicsForUserRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/ChatTopicsForUserResponse" name="ChatTopicsForUserResponse" message="tns:ChatTopicsForUserResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUserAgentList">
-      <wsdl:documentation>
-        <summary>Get list of users that can be assigned to chat topics. Users with Chat-CALs from the MDO list 'chatuser'</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/GetUserAgentList" name="GetUserAgentListRequest" message="tns:GetUserAgentListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/GetUserAgentListResponse" name="GetUserAgentListResponse" message="tns:GetUserAgentListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetChatTopicUserAgentList">
-      <wsdl:documentation>
-        <summary>Get list of users assigned to a chat topic</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/GetChatTopicUserAgentList" name="GetChatTopicUserAgentListRequest" message="tns:GetChatTopicUserAgentListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/GetChatTopicUserAgentListResponse" name="GetChatTopicUserAgentListResponse" message="tns:GetChatTopicUserAgentListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetChatTopicUserAgent">
-      <wsdl:documentation>
-        <summary>Get a user assigned to a topic</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/GetChatTopicUserAgent" name="GetChatTopicUserAgentRequest" message="tns:GetChatTopicUserAgentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/GetChatTopicUserAgentResponse" name="GetChatTopicUserAgentResponse" message="tns:GetChatTopicUserAgentResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddChatTopicUserAgent">
-      <wsdl:documentation>
-        <summary>Add a user to a chat topic</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/AddChatTopicUserAgent" name="AddChatTopicUserAgentRequest" message="tns:AddChatTopicUserAgentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/AddChatTopicUserAgentResponse" name="AddChatTopicUserAgentResponse" message="tns:AddChatTopicUserAgentResponse" />
     </wsdl:operation>
     <wsdl:operation name="UpdateChatTopicUserAgent">
-      <wsdl:documentation>
-        <summary>Update a user's role in a chat topic</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/UpdateChatTopicUserAgent" name="UpdateChatTopicUserAgentRequest" message="tns:UpdateChatTopicUserAgentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/UpdateChatTopicUserAgentResponse" name="UpdateChatTopicUserAgentResponse" message="tns:UpdateChatTopicUserAgentResponse" />
     </wsdl:operation>
     <wsdl:operation name="UpdateChatTopicUserAgents">
-      <wsdl:documentation>
-        <summary>Update users roles in a chat topic</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/UpdateChatTopicUserAgents" name="UpdateChatTopicUserAgentsRequest" message="tns:UpdateChatTopicUserAgentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/UpdateChatTopicUserAgentsResponse" name="UpdateChatTopicUserAgentsResponse" message="tns:UpdateChatTopicUserAgentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteChatTopicUserAgent">
-      <wsdl:documentation>
-        <summary>Remove a user from a topic</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/DeleteChatTopicUserAgent" name="DeleteChatTopicUserAgentRequest" message="tns:DeleteChatTopicUserAgentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/DeleteChatTopicUserAgentResponse" name="DeleteChatTopicUserAgentResponse" message="tns:DeleteChatTopicUserAgentResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateChatSessionForTopic">
-      <wsdl:documentation>
-        <summary>Create a new session on a chat topic</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/CreateChatSessionForTopic" name="CreateChatSessionForTopicRequest" message="tns:CreateChatSessionForTopicRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Chat/CreateChatSessionForTopicResponse" name="CreateChatSessionForTopicResponse" message="tns:CreateChatSessionForTopicResponse" />
     </wsdl:operation>
@@ -2938,3 +2855,4 @@ title: Services88.ChatAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

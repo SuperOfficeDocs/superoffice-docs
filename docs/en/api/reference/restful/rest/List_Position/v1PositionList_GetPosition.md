@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 990,
-  "Name": "Bartell-Metz",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "UdListDefinitionId": 350,
-  "Rank": 236,
+  "Id": 668,
+  "Name": "Kuhic, Lesch and Cummings",
+  "Tooltip": "eum",
+  "Deleted": true,
+  "UdListDefinitionId": 737,
+  "Rank": 770,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 144
+      "FieldType": "System.Int32",
+      "FieldLength": 164
     }
   }
 }

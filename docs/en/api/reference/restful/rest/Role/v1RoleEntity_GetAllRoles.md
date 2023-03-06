@@ -77,7 +77,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,56 +88,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 882,
-    "Name": "Wisozk LLC",
-    "ToolTip": "Ipsam totam deserunt animi atque sequi unde ducimus.",
+    "Id": 966,
+    "Name": "Goldner Group",
+    "ToolTip": "Eveniet eum dolorem fugit.",
     "Deleted": false,
-    "Rank": 561,
-    "Type": "nihil",
-    "ColorBlock": 303,
-    "IconHint": "pariatur",
+    "Rank": 367,
+    "Type": "voluptatem",
+    "ColorBlock": 98,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "2009-05-07T17:37:39.0563038+02:00",
+    "LastChanged": "2011-09-01T14:19:10.6467484+02:00",
     "ChildItems": [
       {
-        "Id": 281,
-        "Name": "Champlin-Sawayn",
-        "ToolTip": "Voluptatem nam ea.",
-        "Deleted": false,
-        "Rank": 388,
-        "Type": "cupiditate",
-        "ColorBlock": 972,
-        "IconHint": "sint",
+        "Id": 878,
+        "Name": "Kling-Wiegand",
+        "ToolTip": "Mollitia iure voluptate rerum.",
+        "Deleted": true,
+        "Rank": 93,
+        "Type": "soluta",
+        "ColorBlock": 411,
+        "IconHint": "culpa",
         "Selected": false,
-        "LastChanged": "2008-10-24T17:37:39.0563038+02:00",
+        "LastChanged": "1997-06-05T14:19:10.6467484+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Ms. Leopoldo Imani Halvorson",
+        "ExtraInfo": "quaerat",
+        "StyleHint": "ex",
+        "Hidden": false,
+        "FullName": "Mrs. Eryn Tyrese Schinner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 953
+            "FieldLength": 722
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Brayan Kemmer",
+    "ExtraInfo": "commodi",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Daron Farrell Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 46
+        "FieldLength": 111
       }
     }
   }

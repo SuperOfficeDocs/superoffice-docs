@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetLocalizedTe
 
 ## GetLocalizedTextsByLanguageId
 
-Gets all localized text belonging to a specific language.
 
-* **languageId:** The LCID number of the language.
 
-**Returns:** Array of LocalizedText objects
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetLocalizedTextsByLanguageId Response
 
 ```xml
@@ -78,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

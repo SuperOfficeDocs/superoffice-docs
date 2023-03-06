@@ -27,7 +27,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 | onlyPresent | bool |  Only show users who are present |
 
 ```http
-GET /api/v1/ChatTopic/UserAgents?flat=False
+GET /api/v1/ChatTopic/UserAgents?flat=True
 GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 8,
-    "Name": "Carter Inc and Sons",
-    "ToolTip": "Qui sed sunt harum aliquid.",
+    "Id": 864,
+    "Name": "O'Kon, Ortiz and Williamson",
+    "ToolTip": "Fugiat quidem.",
     "Deleted": false,
-    "Rank": 626,
-    "Type": "voluptatem",
+    "Rank": 262,
+    "Type": "fugit",
     "ChildItems": [
       {
-        "Id": 635,
-        "Name": "Labadie-Macejkovic",
-        "ToolTip": "Sit saepe minus ea alias mollitia maxime.",
+        "Id": 9,
+        "Name": "Moen-Crooks",
+        "ToolTip": "Debitis iusto libero rerum incidunt placeat.",
         "Deleted": false,
-        "Rank": 372,
-        "Type": "ex",
+        "Rank": 668,
+        "Type": "maxime",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 884,
-        "ExtraInfo": "sed",
-        "StyleHint": "omnis",
-        "FullName": "Mr. Rebekah Gislason",
+        "IconHint": "optio",
+        "ColorBlock": 141,
+        "ExtraInfo": "doloremque",
+        "StyleHint": "assumenda",
+        "FullName": "Miss Luisa Agnes Jenkins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 809
+            "FieldType": "System.String",
+            "FieldLength": 15
           }
         }
       }
     ],
-    "IconHint": "adipisci",
-    "ColorBlock": 992,
-    "ExtraInfo": "ea",
-    "StyleHint": "aperiam",
-    "FullName": "Kallie Deckow",
+    "IconHint": "qui",
+    "ColorBlock": 560,
+    "ExtraInfo": "iusto",
+    "StyleHint": "cumque",
+    "FullName": "Graham Rippin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 237
+        "FieldLength": 980
       }
     }
   }

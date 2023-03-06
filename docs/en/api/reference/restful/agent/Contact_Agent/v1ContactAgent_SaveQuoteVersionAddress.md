@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 481,
+  "QuoteVersionId": 382,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 772
+  "CountryId": 477
 }
 ```
 
@@ -98,41 +98,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 24316.706,
-  "Wgs84Longitude": 5895.054,
+  "Wgs84Latitude": 2375.572,
+  "Wgs84Longitude": 29249.622,
   "LocalizedAddress": [
     [
       {
-        "Name": "Swaniawski Group",
-        "Value": "tempora",
-        "Tooltip": "natus",
-        "Label": "recusandae",
-        "ValueLength": 747,
-        "AddressType": "est",
+        "Name": "O'Hara-Bergnaum",
+        "Value": "voluptatum",
+        "Tooltip": "ut",
+        "Label": "repellat",
+        "ValueLength": 175,
+        "AddressType": "iste",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 992
+            "FieldLength": 467
           }
         }
       }
     ],
     [
       {
-        "Name": "Eichmann, Ullrich and Kunze",
-        "Value": "ipsam",
-        "Tooltip": "nisi",
-        "Label": "quisquam",
-        "ValueLength": 752,
-        "AddressType": "distinctio",
+        "Name": "Reinger-Stehr",
+        "Value": "et",
+        "Tooltip": "odit",
+        "Label": "illum",
+        "ValueLength": 327,
+        "AddressType": "rerum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 856
+            "FieldType": "System.Int32",
+            "FieldLength": 471
           }
         }
       }
@@ -140,13 +140,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "voluptas",
+  "Formatted": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 646
+      "FieldLength": 262
     }
   }
 }

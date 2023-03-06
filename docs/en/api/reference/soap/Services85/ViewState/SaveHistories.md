@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IViewStateAgent.SaveHisto
 
 ## SaveHistories
 
-Replaces the existing history-list for the currently logged in user. All elements must belong to the same history list. If not they are ignored.
 
-* **historyName:**
-* **history:** Array of new history items to save.
 
-**Returns:** Array of the saved History items
+
 
 [WSDL file for Services85/ViewState](../Services85-ViewState.md)
 
@@ -61,6 +58,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveHistories Response
 
 ```xml
@@ -91,3 +89,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

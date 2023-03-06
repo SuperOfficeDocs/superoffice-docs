@@ -84,6 +84,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -97,10 +98,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jakubowski, Hoeger and Herman",
+  "Name": "Kertzmann, Collins and Orn",
   "AssociateIds": [
-    528,
-    931
+    142,
+    713
   ]
 }
 ```
@@ -113,36 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 563,
-    "Name": "Schmidt-Labadie",
-    "AssociateId": 861,
-    "DetailsTable": 401,
-    "DetailsRecord": 864,
+    "Id": 341,
+    "Name": "Labadie LLC",
+    "AssociateId": 322,
+    "DetailsTable": 677,
+    "DetailsRecord": 922,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "totam",
-      "ParameterObject2": "illo"
+      "ParameterObject1": "commodi",
+      "ParameterObject2": "debitis"
     },
-    "LastStarted": "2017-12-21T17:37:16.9022429+01:00",
-    "Created": "2022-02-28T17:37:16.9022429+01:00",
-    "StartCount": 267,
-    "DatabaseSerialNumber": "890156",
-    "Context": "eum",
-    "Result": "modi",
+    "LastStarted": "2017-12-28T14:19:02.7594283+01:00",
+    "Created": "2014-04-08T14:19:02.7594283+02:00",
+    "StartCount": 18,
+    "DatabaseSerialNumber": "1163757",
+    "Context": "hic",
+    "Result": "nostrum",
     "State": "All",
-    "Description": "Streamlined national framework",
-    "Response": "error",
-    "Request": "repellat",
-    "ProgressDescription": "Multi-tiered systemic ability",
-    "ProgressPercent": 658,
-    "FileName": "Gaylord, Jones and Crona",
+    "Description": "Profit-focused needs-based approach",
+    "Response": "eligendi",
+    "Request": "aspernatur",
+    "ProgressDescription": "Re-engineered executive approach",
+    "ProgressPercent": 614,
+    "FileName": "Zemlak-Donnelly",
+    "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 421
+        "FieldType": "System.String",
+        "FieldLength": 196
       }
     }
   }

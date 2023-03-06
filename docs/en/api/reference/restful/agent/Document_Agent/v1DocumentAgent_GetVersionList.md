@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 191
+  "DocumentId": 572
 }
 ```
 
@@ -94,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "non",
-    "DocumentId": 939,
-    "VersionId": "sit",
-    "CheckedInDate": "2014-10-02T17:37:17.5692462+02:00",
-    "CheckedInByName": "Sporer-Robel",
-    "CheckedInByAssociateId": 778,
-    "Description": "Balanced context-sensitive intranet",
-    "DisplayText": "aut",
+    "ExternalReference": "officia",
+    "DocumentId": 92,
+    "VersionId": "eius",
+    "CheckedInDate": "2002-07-01T14:19:03.3386569+02:00",
+    "CheckedInByName": "Stokes, Ondricka and Luettgen",
+    "CheckedInByAssociateId": 477,
+    "Description": "Networked fault-tolerant architecture",
+    "DisplayText": "veniam",
     "ExtraFields": [
-      "amet",
-      "et"
+      "odio",
+      "modi"
     ]
   }
 ]

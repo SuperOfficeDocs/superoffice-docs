@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 896,
-    "Name": "Monahan, Walker and Hamill",
-    "ToolTip": "Qui voluptates rerum nesciunt sit et repellendus et.",
+    "Id": 885,
+    "Name": "Parisian LLC",
+    "ToolTip": "Quo dolorem ut.",
     "Deleted": false,
-    "Rank": 694,
-    "Type": "et",
-    "ColorBlock": 975,
-    "IconHint": "doloremque",
+    "Rank": 395,
+    "Type": "cum",
+    "ColorBlock": 126,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2022-12-30T17:37:39.6644005+01:00",
+    "LastChanged": "2015-08-05T14:19:11.1324679+02:00",
     "ChildItems": [
       {
-        "Id": 439,
-        "Name": "Stokes LLC",
-        "ToolTip": "Impedit eaque maxime rerum libero quas et eius.",
+        "Id": 373,
+        "Name": "Goyette Group",
+        "ToolTip": "Ut ea eaque aspernatur.",
         "Deleted": false,
-        "Rank": 199,
-        "Type": "veritatis",
-        "ColorBlock": 806,
-        "IconHint": "sint",
-        "Selected": true,
-        "LastChanged": "2001-05-02T17:37:39.6644005+02:00",
+        "Rank": 569,
+        "Type": "officiis",
+        "ColorBlock": 949,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2010-06-15T14:19:11.1324679+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Dr. Bill Joelle Koepp V"
+        "ExtraInfo": "et",
+        "StyleHint": "esse",
+        "Hidden": true,
+        "FullName": "Josh Wuckert"
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "non",
+    "ExtraInfo": "facilis",
+    "StyleHint": "quisquam",
     "Hidden": false,
-    "FullName": "Mr. Anissa Hermann Wolf"
+    "FullName": "Mr. Antonina Hettie Krajcik DVM"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 892,
-    "Name": "White-VonRueden",
-    "ToolTip": "Nihil autem ratione vitae consequatur non omnis sapiente.",
+    "Id": 935,
+    "Name": "Rodriguez, Gorczany and Skiles",
+    "ToolTip": "Ut doloribus amet.",
     "Deleted": false,
-    "Rank": 729,
-    "Type": "distinctio",
-    "ColorBlock": 387,
-    "IconHint": "eum",
+    "Rank": 288,
+    "Type": "quia",
+    "ColorBlock": 103,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "2001-05-23T17:37:39.666432+02:00",
+    "LastChanged": "2015-03-22T14:19:11.1324679+01:00",
     "ChildItems": [
       {
-        "Id": 159,
-        "Name": "Deckow, Stamm and Wolff",
-        "ToolTip": "Quibusdam veniam id recusandae ducimus est nesciunt.",
+        "Id": 834,
+        "Name": "Hauck-Wisoky",
+        "ToolTip": "Est culpa ab aliquid.",
         "Deleted": false,
-        "Rank": 749,
-        "Type": "deleniti",
-        "ColorBlock": 673,
-        "IconHint": "pariatur",
-        "Selected": false,
-        "LastChanged": "2011-12-09T17:37:39.666432+01:00",
+        "Rank": 715,
+        "Type": "et",
+        "ColorBlock": 193,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2004-07-30T14:19:11.1324679+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "enim",
+        "ExtraInfo": "et",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Orval Bernhard",
+        "FullName": "Francisco Hickle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 726
+            "FieldLength": 647
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "est",
+    "ExtraInfo": "quis",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Fannie Davis",
+    "FullName": "Maxime Abernathy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 145
+        "FieldLength": 513
       }
     }
   }

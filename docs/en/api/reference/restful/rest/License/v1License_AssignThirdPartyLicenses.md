@@ -77,7 +77,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,25 +89,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 8,
-    "Tooltip": "voluptas",
+    "Total": 236,
+    "Tooltip": "minima",
     "CanAssign": false,
-    "Free": 571,
-    "InUse": 865,
+    "Free": 642,
+    "InUse": 818,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 489,
-    "Name": "Murazik LLC",
-    "Description": "De-engineered demand-driven contingency",
-    "PrerequisiteModuleName": "Kulas Group",
-    "SortOrder": 389,
-    "ExtraFlags": 647,
+    "Assigned": true,
+    "ModuleLicenseId": 291,
+    "Name": "McCullough, Lehner and Stroman",
+    "Description": "Multi-lateral upward-trending productivity",
+    "PrerequisiteModuleName": "Steuber, Jerde and Ondricka",
+    "SortOrder": 260,
+    "ExtraFlags": 527,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 128
+        "FieldType": "System.Int32",
+        "FieldLength": 935
       }
     }
   }

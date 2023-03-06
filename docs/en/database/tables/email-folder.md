@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "email_folder"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# email\_folder Table (482)
+# email\_folder Table (485)
 
 Corresponds to an email folder on a mail server
 

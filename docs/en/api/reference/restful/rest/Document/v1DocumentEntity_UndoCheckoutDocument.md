@@ -77,11 +77,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "ipsa",
-  "VersionId": "ullam",
+  "ExternalReference": "dolore",
+  "VersionId": "asperiores",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "quos",
-  "AdditionalInfo": "ad"
+  "Value": "iusto",
+  "AdditionalInfo": "ut"
 }
 ```

@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 889
+  "SelectedListId": 906
 }
 ```
 
@@ -122,46 +122,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 163,
-  "ColumnId": 357,
-  "FieldDefault": "et",
-  "FieldHeight": 226,
-  "FieldLabel": "qui",
-  "FieldLeft": 35,
-  "FieldTop": 616,
+  "UDefFieldId": 288,
+  "ColumnId": 264,
+  "FieldDefault": "aut",
+  "FieldHeight": 193,
+  "FieldLabel": "dolorum",
+  "FieldLeft": 267,
+  "FieldTop": 9,
   "FieldType": "Checkbox",
-  "FieldWidth": 48,
-  "FormatMask": "eaque",
+  "FieldWidth": 332,
+  "FormatMask": "quam",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 269,
-  "LabelLeft": 221,
-  "LabelTop": 495,
-  "LabelWidth": 106,
-  "LastVersionId": 233,
-  "ListTableId": 386,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 234,
+  "LabelLeft": 457,
+  "LabelTop": 236,
+  "LabelWidth": 628,
+  "LastVersionId": 224,
+  "ListTableId": 482,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 426,
-  "ProgId": "aut",
-  "IsReadOnly": true,
-  "ShortLabel": "ea",
-  "TabOrder": 113,
-  "TextLength": 964,
-  "Tooltip": "et",
-  "UdefIdentity": 230,
-  "UDListDefinitionId": 945,
+  "Page1LineNo": 25,
+  "ProgId": "atque",
+  "IsReadOnly": false,
+  "ShortLabel": "pariatur",
+  "TabOrder": 230,
+  "TextLength": 842,
+  "Tooltip": "deserunt",
+  "UdefIdentity": 160,
+  "UDListDefinitionId": 17,
   "Justification": "Center",
-  "Version": 38,
-  "TemplateVariableName": "Dooley-Krajcik",
+  "Version": 771,
+  "TemplateVariableName": "Schaefer-Daugherty",
   "HasBeenPublished": false,
-  "MdoListName": "Jast Group",
+  "MdoListName": "Goodwin, Romaguera and Gleason",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 112
+      "FieldType": "System.String",
+      "FieldLength": 408
     }
   }
 }

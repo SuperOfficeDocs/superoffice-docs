@@ -129,8 +129,8 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "perferendis",
-    "odio"
+    "ipsum",
+    "voluptate"
   ]
 }
 ```
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 454,
-  "ERPQuoteLineKey": "modi",
-  "QuoteAlternativeId": 971,
-  "ERPProductKey": "est",
+  "QuoteLineId": 415,
+  "ERPQuoteLineKey": "ea",
+  "QuoteAlternativeId": 518,
+  "ERPProductKey": "dolores",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 17826.192,
-  "DeliveredQuantity": 14676.521999999999,
-  "Rank": 220,
-  "Name": "Feest, Stiedemann and Conn",
-  "Description": "Diverse zero defect hub",
-  "Code": "voluptas",
-  "QuantityUnit": "ut",
-  "PriceUnit": "adipisci",
-  "ItemNumber": "895413",
+  "Quantity": 23288.754,
+  "DeliveredQuantity": 14269.101999999999,
+  "Rank": 525,
+  "Name": "Roberts-Leuschke",
+  "Description": "Reverse-engineered dedicated moratorium",
+  "Code": "atque",
+  "QuantityUnit": "aperiam",
+  "PriceUnit": "eius",
+  "ItemNumber": "860861",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "non",
-  "ProductTypeKey": "sit",
-  "Supplier": "maiores",
-  "SupplierCode": "atque",
-  "Thumbnail": "est",
-  "VATInfo": "sed",
-  "VAT": 11432.832,
-  "UnitCost": 8211.08,
-  "UnitMinimumPrice": 7270.88,
-  "UnitListPrice": 8913.096,
+  "ProductFamilyKey": "beatae",
+  "ProductTypeKey": "adipisci",
+  "Supplier": "facere",
+  "SupplierCode": "rem",
+  "Thumbnail": "et",
+  "VATInfo": "ipsam",
+  "VAT": 181.772,
+  "UnitCost": 8772.0659999999989,
+  "UnitMinimumPrice": 4976.7919999999995,
+  "UnitListPrice": 614.264,
   "ExtraInfo": [
     {
-      "Name": "Sporer, Walter and Hettinger",
-      "Value": "sint",
+      "Name": "Hilpert-Rempel",
+      "Value": "porro",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 532
+          "FieldType": "System.Int32",
+          "FieldLength": 650
         }
       }
     },
     {
-      "Name": "Sporer, Walter and Hettinger",
-      "Value": "sint",
+      "Name": "Hilpert-Rempel",
+      "Value": "porro",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 532
+          "FieldType": "System.Int32",
+          "FieldLength": 650
         }
       }
     }
   ],
-  "RawExtraInfo": "est",
+  "RawExtraInfo": "perferendis",
   "IsSubscription": false,
-  "SubscriptionUnit": "eos",
-  "SubscriptionQuantity": 25006.185999999998,
-  "SubscriptionStart": "1996-09-13T17:37:18.6822417+02:00",
-  "ERPDiscountPercent": 29556.754,
-  "ERPDiscountAmount": 27391.16,
-  "DiscountPercent": 9781.214,
-  "DiscountAmount": 27058.956,
+  "SubscriptionUnit": "aut",
+  "SubscriptionQuantity": 28939.356,
+  "SubscriptionStart": "2000-03-26T14:19:03.984459+02:00",
+  "ERPDiscountPercent": 16907.93,
+  "ERPDiscountAmount": 21847.113999999998,
+  "DiscountPercent": 28306.288,
+  "DiscountAmount": 974.674,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 20255.041999999998,
-  "EarningAmount": 20051.332,
-  "SubTotal": 31042.27,
-  "TotalPrice": 8236.152,
-  "Rights": "aliquid",
-  "Rule": "animi",
-  "ExtraField1": "dicta",
-  "ExtraField2": "dolorem",
-  "ExtraField3": "dolores",
-  "ExtraField4": "ea",
-  "ExtraField5": "quia",
+  "EarningPercent": 25764.613999999998,
+  "EarningAmount": 14529.224,
+  "SubTotal": 29284.095999999998,
+  "TotalPrice": 26146.962,
+  "Rights": "sapiente",
+  "Rule": "facere",
+  "ExtraField1": "eligendi",
+  "ExtraField2": "iure",
+  "ExtraField3": "quia",
+  "ExtraField4": "at",
+  "ExtraField5": "dignissimos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 608
+      "FieldLength": 101
     }
   }
 }

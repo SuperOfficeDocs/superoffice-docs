@@ -62,7 +62,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,32 +70,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 11 May 2008 17:37:38 G5T
+Last-Modified: Thu, 02 May 1996 14:19:10 G5T
 
 {
-  "ForeignAppId": 407,
-  "Name": "Murphy-Bailey",
-  "CreatedDate": "2020-06-23T17:37:38.6118645+02:00",
-  "UpdatedDate": "2008-05-11T17:37:38.6118645+02:00",
+  "ForeignAppId": 564,
+  "Name": "Nicolas-Mraz",
+  "CreatedDate": "2019-01-02T14:19:10.3498478+01:00",
+  "UpdatedDate": "1996-05-02T14:19:10.3498478+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 771,
-      "Name": "Beier-Padberg",
-      "CreatedDate": "2015-08-15T17:37:38.6128664+02:00",
-      "UpdatedDate": "1998-02-16T17:37:38.6128664+01:00",
-      "AssociateFullName": "Damien Larkin",
-      "CreatedBy": "nihil",
-      "UpdatedBy": "non",
-      "DeviceIdentifier": "distinctio",
-      "ForeignAppId": 369,
+      "ForeignDeviceId": 18,
+      "Name": "Davis, Mitchell and Zemlak",
+      "CreatedDate": "2014-10-16T14:19:10.3498478+02:00",
+      "UpdatedDate": "2001-07-22T14:19:10.3498478+02:00",
+      "AssociateFullName": "Lela Heaney",
+      "CreatedBy": "ducimus",
+      "UpdatedBy": "optio",
+      "DeviceIdentifier": "enim",
+      "ForeignAppId": 404,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 122
+          "FieldLength": 420
         }
       }
     }
@@ -104,8 +104,8 @@ Last-Modified: Sun, 11 May 2008 17:37:38 G5T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 321
+      "FieldType": "System.Int32",
+      "FieldLength": 126
     }
   }
 }

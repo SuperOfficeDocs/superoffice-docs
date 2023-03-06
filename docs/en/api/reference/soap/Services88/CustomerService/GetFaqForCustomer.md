@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ICustomerServiceAgent.Get
 
 ## GetFaqForCustomer
 
-Get a FAQ entry, ment to be displayed for a customer. This can either be a link to the FAQ entry on Custom Center, or it can be the answer and question. This is dependent on Registry setting with reg\_id=157
 
-* **faqEntryId:** The id of the FAQ entry to get. Only FAQ entries with access level public (both for unauthenticated and autenticated customer) will be returned
 
-**Returns:** The FAQ to show to the customer. Either a clickable link or the question/answer itself.
+
 
 [WSDL file for Services88/CustomerService](../Services88-CustomerService.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetFaqForCustomer Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

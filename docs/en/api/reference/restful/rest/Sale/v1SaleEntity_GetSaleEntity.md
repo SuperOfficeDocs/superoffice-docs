@@ -118,7 +118,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 18 Jan 2022 17:37:39 G1T
+Last-Modified: Wed, 09 Aug 2006 14:19:10 G8T
 
 {
   "Appointment": null,
@@ -135,7 +135,7 @@ Last-Modified: Tue, 18 Jan 2022 17:37:39 G1T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "temporibus",
+  "SaleText": "assumenda",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -144,113 +144,113 @@ Last-Modified: Tue, 18 Jan 2022 17:37:39 G1T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2013-12-03T17:37:39.1163033+01:00",
-  "Amount": 13256.82,
-  "SaleId": 726,
-  "Earning": 13545.148,
-  "EarningPercent": 30402.933999999997,
-  "Heading": "facere",
-  "Number": "1084771",
-  "Probability": 950,
-  "CreatedDate": "2015-01-26T17:37:39.1163033+01:00",
-  "UpdatedDate": "2022-01-18T17:37:39.1163033+01:00",
+  "Saledate": "2012-07-01T14:19:10.6935962+02:00",
+  "Amount": 30127.142,
+  "SaleId": 583,
+  "Earning": 24579.962,
+  "EarningPercent": 5283.924,
+  "Heading": "eius",
+  "Number": "1119008",
+  "Probability": 918,
+  "CreatedDate": "2010-11-16T14:19:10.6935962+01:00",
+  "UpdatedDate": "2006-08-09T14:19:10.6935962+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 839,
+  "ActiveLinks": 967,
   "Links": [
     {
-      "EntityName": "Metz-Langworth",
-      "Id": 576,
-      "Description": "Ergonomic holistic array",
-      "ExtraInfo": "officia",
-      "LinkId": 125,
+      "EntityName": "Farrell Group",
+      "Id": 173,
+      "Description": "Optional empowering customer loyalty",
+      "ExtraInfo": "officiis",
+      "LinkId": 775,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 500
+          "FieldLength": 694
         }
       }
     }
   ],
-  "NextDueDate": "1998-09-26T17:37:39.1163033+02:00",
-  "Postit": "qui",
+  "NextDueDate": "2005-06-13T14:19:10.6935962+02:00",
+  "Postit": "tempora",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1996-11-21T17:37:39.117304+01:00",
+  "ReopenDate": "2011-05-26T14:19:10.6935962+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Emmerich, Bruen and Vandervort",
-      "Comment": "quasi",
-      "StakeholderRoleId": 823,
-      "CountryId": 450,
-      "PersonId": 886,
-      "EmailDescription": "demetris@schamberger.ca",
-      "EmailId": 86,
-      "EmailAddress": "queenie@trompabbott.biz",
-      "PhoneId": 941,
-      "ContactName": "Walsh, Hickle and Corkery",
-      "ContactId": 559,
-      "SaleId": 581,
-      "Mrmrs": "provident",
-      "Firstname": "Claudine",
-      "MiddleName": "Quitzon Group",
-      "Lastname": "Schuppe",
-      "SaleStakeholderId": 21,
-      "Rank": 727,
-      "Phone": "1-966-273-1302",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 940
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 988,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Layne Quigley",
-    "SuperOffice:2": "Mrs. Una Alessandra Kovacek III"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "earum",
-    "ExtraFields2": "quisquam"
-  },
-  "CustomFields": {
-    "CustomFields1": "deleniti",
-    "CustomFields2": "quasi"
-  },
-  "PublishEventDate": "2000-10-13T17:37:39.1183032+02:00",
-  "PublishTo": "2017-07-19T17:37:39.1183032+02:00",
-  "PublishFrom": "2004-10-04T17:37:39.1183032+02:00",
-  "IsPublished": true,
-  "VisibleFor": [
-    {
-      "VisibleId": 561,
-      "Visibility": "All",
-      "DisplayValue": "rerum",
+      "StakeholderRoleName": "Bernier-Dare",
+      "Comment": "vero",
+      "StakeholderRoleId": 635,
+      "CountryId": 805,
+      "PersonId": 264,
+      "EmailDescription": "mireille.purdy@williamson.name",
+      "EmailId": 412,
+      "EmailAddress": "rachelle.goldner@vonrueden.us",
+      "PhoneId": 919,
+      "ContactName": "Mayer-Gleichner",
+      "ContactId": 492,
+      "SaleId": 953,
+      "Mrmrs": "nihil",
+      "Firstname": "Kitty",
+      "MiddleName": "Brekke, Koss and Lindgren",
+      "Lastname": "Upton",
+      "SaleStakeholderId": 822,
+      "Rank": 422,
+      "Phone": "1-973-527-2236 x9730",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 770
+          "FieldLength": 359
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 823,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Emmett Emard",
+    "SuperOffice:2": "False"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "itaque",
+    "ExtraFields2": "quas"
+  },
+  "CustomFields": {
+    "CustomFields1": "magnam",
+    "CustomFields2": "beatae"
+  },
+  "PublishEventDate": "2001-09-30T14:19:10.6935962+02:00",
+  "PublishTo": "1999-05-26T14:19:10.6935962+02:00",
+  "PublishFrom": "2015-02-17T14:19:10.6935962+01:00",
+  "IsPublished": true,
+  "VisibleFor": [
+    {
+      "VisibleId": 451,
+      "Visibility": "All",
+      "DisplayValue": "veniam",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 41
         }
       }
     },
     {
-      "VisibleId": 561,
+      "VisibleId": 451,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 770
+          "FieldLength": 41
         }
       }
     }
@@ -259,8 +259,8 @@ Last-Modified: Tue, 18 Jan 2022 17:37:39 G1T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldType": "System.String",
+      "FieldLength": 775
     }
   },
   "_Links": {

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kuvalis LLC"
+  "ApplicationName": "Hermiston LLC"
 }
 ```
 
@@ -95,20 +95,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "tempore",
-    "Value": "et",
-    "RecordId": 178,
-    "CreatedDate": "2012-09-17T17:37:18.1142411+02:00",
-    "UpdatedDate": "2008-04-14T17:37:18.1142411+02:00",
-    "UpdatedBy": "optio",
-    "CreatedBy": "suscipit",
-    "TableName": "Feil-Rolfson",
+    "Key": "atque",
+    "Value": "est",
+    "RecordId": 599,
+    "CreatedDate": "1995-10-29T14:19:03.5602728+01:00",
+    "UpdatedDate": "2000-01-29T14:19:03.5602728+01:00",
+    "UpdatedBy": "consequatur",
+    "CreatedBy": "maiores",
+    "TableName": "Emmerich, Heaney and Hegmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 508
+        "FieldLength": 439
       }
     }
   }

@@ -90,16 +90,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 679,
-  "Value": "ea",
+  "TaskListItemId": 676,
+  "Value": "nihil",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "porro",
-  "Deleted": false,
-  "IntentId": 378,
-  "Rank": 151,
+  "Tooltip": "numquam",
+  "Deleted": true,
+  "IntentId": 593,
+  "Rank": 217,
   "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": true,
+  "IsDefaultFree": false,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange"
@@ -113,16 +113,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 680,
-  "Value": "deleniti",
+  "TaskListItemId": 869,
+  "Value": "tenetur",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "est",
+  "Tooltip": "laudantium",
   "Deleted": false,
-  "IntentId": 72,
-  "Rank": 292,
-  "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": false,
+  "IntentId": 324,
+  "Rank": 252,
+  "IsDefaultAlldayEvent": true,
+  "IsDefaultFree": true,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 496
+      "FieldType": "System.String",
+      "FieldLength": 98
     }
   }
 }

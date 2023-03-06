@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 626,
-    "Name": "Bednar-Barrows",
-    "ToolTip": "Possimus dolor tempora doloremque dolores voluptas unde.",
+    "Id": 368,
+    "Name": "Bernhard LLC",
+    "ToolTip": "Ea aut enim omnis dicta dolorum alias.",
     "Deleted": true,
-    "Rank": 26,
-    "Type": "voluptatem",
-    "ColorBlock": 312,
-    "IconHint": "facere",
-    "Selected": true,
-    "LastChanged": "2019-09-25T17:37:39.9145014+02:00",
+    "Rank": 500,
+    "Type": "non",
+    "ColorBlock": 905,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "1996-01-31T14:19:11.1793474+01:00",
     "ChildItems": [
       {
-        "Id": 769,
-        "Name": "Rippin Inc and Sons",
-        "ToolTip": "Ullam qui doloribus.",
+        "Id": 772,
+        "Name": "Senger, Hettinger and Altenwerth",
+        "ToolTip": "Accusantium eaque quas voluptatibus ipsam vitae.",
         "Deleted": false,
-        "Rank": 459,
-        "Type": "autem",
-        "ColorBlock": 259,
-        "IconHint": "optio",
+        "Rank": 827,
+        "Type": "soluta",
+        "ColorBlock": 230,
+        "IconHint": "animi",
         "Selected": false,
-        "LastChanged": "1996-04-03T17:37:39.9145014+02:00",
+        "LastChanged": "2009-11-30T14:19:11.1793474+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "nostrum",
         "Hidden": false,
-        "FullName": "Mrs. Elaina Bahringer",
+        "FullName": "Ramiro Jenkins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 520
+            "FieldLength": 95
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "totam",
-    "Hidden": false,
-    "FullName": "Madie Stokes",
+    "ExtraInfo": "omnis",
+    "StyleHint": "ea",
+    "Hidden": true,
+    "FullName": "Moses Rolfson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 262
+        "FieldType": "System.String",
+        "FieldLength": 160
       }
     }
   }

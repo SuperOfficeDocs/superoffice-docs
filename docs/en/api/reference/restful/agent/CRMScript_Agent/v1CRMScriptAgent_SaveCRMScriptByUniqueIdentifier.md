@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "et",
+  "UniqueIdentifier": "tempora",
   "Crmscript": null
 }
 ```
@@ -100,22 +100,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "fuga",
-  "Name": "Mante, Runolfsdottir and Stiedemann",
-  "Description": "Progressive 24/7 access",
-  "IncludeId": "dolores",
-  "Source": "sit",
-  "Registered": "2001-04-08T17:37:17.3282452+02:00",
-  "RegisteredBy": "et",
-  "Updated": "2008-08-29T17:37:17.3282452+02:00",
-  "UpdatedBy": "voluptas",
-  "Path": "earum",
+  "UniqueIdentifier": "ex",
+  "Name": "Becker, Nikolaus and Thiel",
+  "Description": "Progressive client-driven algorithm",
+  "IncludeId": "magni",
+  "Source": "ut",
+  "Registered": "2013-04-17T14:19:03.0730293+02:00",
+  "RegisteredBy": "harum",
+  "Updated": "1999-01-08T14:19:03.0730293+01:00",
+  "UpdatedBy": "vel",
+  "Path": "occaecati",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 657
+      "FieldType": "System.Int32",
+      "FieldLength": 555
     }
   }
 }

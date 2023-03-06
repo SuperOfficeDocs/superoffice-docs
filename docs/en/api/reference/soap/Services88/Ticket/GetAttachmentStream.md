@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.GetAttachmen
 
 ## GetAttachmentStream
 
-Get the content of an attachment
 
-* **attachmentId:** The id of the attachment to retrieve
 
-**Returns:** A stream to the attachment content
+
 
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAttachmentStream Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

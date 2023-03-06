@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Replication/GetAreaList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,18 +87,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 674,
-    "Name": "Simonis, Cremin and Beier",
-    "MaxDataAge": 463,
-    "NumberOfUsers": 507,
-    "NumberOfLogins": 779,
-    "FreetextEnabeled": false,
+    "AreaId": 29,
+    "Name": "Koch-Greenholt",
+    "MaxDataAge": 461,
+    "NumberOfUsers": 535,
+    "NumberOfLogins": 264,
+    "FreetextEnabeled": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 620
+        "FieldLength": 919
       }
     }
   }

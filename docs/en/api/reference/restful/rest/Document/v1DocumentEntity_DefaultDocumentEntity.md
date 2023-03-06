@@ -89,7 +89,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,91 +97,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 11 Sep 2001 17:37:38 G9T
+Last-Modified: Sun, 14 Oct 2012 14:19:10 G10T
 
 {
-  "DocumentId": 550,
+  "DocumentId": 656,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "aut",
-  "Header": "suscipit",
-  "Name": "Hegmann, Steuber and Daniel",
-  "OurRef": "odio",
-  "YourRef": "recusandae",
-  "CreatedDate": "2016-08-16T17:37:38.4968594+02:00",
-  "UpdatedDate": "2001-09-11T17:37:38.4968594+02:00",
-  "Description": "Implemented value-added application",
+  "Attention": "dolores",
+  "Header": "incidunt",
+  "Name": "Gleason, Will and Kshlerin",
+  "OurRef": "facere",
+  "YourRef": "accusamus",
+  "CreatedDate": "2017-01-25T14:19:10.2560985+01:00",
+  "UpdatedDate": "2012-10-14T14:19:10.2560985+02:00",
+  "Description": "Right-sized solution-oriented migration",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-02-20T17:37:38.5008602+01:00",
-  "ExternalRef": "necessitatibus",
+  "Date": "2018-11-08T14:19:10.2560985+01:00",
+  "ExternalRef": "fugiat",
   "Completed": "Completed",
-  "ActiveLinks": 168,
+  "ActiveLinks": 62,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kunze, Greenholt and Bruen",
-      "Id": 866,
-      "Description": "Reverse-engineered systemic analyzer",
-      "ExtraInfo": "eos",
-      "LinkId": 569,
+      "EntityName": "Kuvalis, O'Kon and Powlowski",
+      "Id": 370,
+      "Description": "Self-enabling multi-state analyzer",
+      "ExtraInfo": "et",
+      "LinkId": 200,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 213
+          "FieldType": "System.Int32",
+          "FieldLength": 968
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 957,
-  "Snum": 847,
+  "SuggestedDocumentId": 535,
+  "Snum": 329,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Deon Jalen Kirlin",
-    "SuperOffice:2": "Enid Grady Jr."
+    "SuperOffice:1": "Beatrice Myriam Gulgowski Sr.",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "expedita",
-    "ExtraFields2": "dolorum"
+    "ExtraFields1": "quae",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "ipsa",
-    "CustomFields2": "nisi"
+    "CustomFields1": "quia",
+    "CustomFields2": "culpa"
   },
-  "PublishEventDate": "2020-01-17T17:37:38.5018605+01:00",
-  "PublishTo": "2008-12-25T17:37:38.5018605+01:00",
-  "PublishFrom": "2012-08-17T17:37:38.5018605+02:00",
+  "PublishEventDate": "1998-11-01T14:19:10.2560985+01:00",
+  "PublishTo": "2021-04-11T14:19:10.2560985+02:00",
+  "PublishFrom": "2000-07-05T14:19:10.2560985+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 835,
+      "VisibleId": 612,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "exercitationem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 273
+          "FieldType": "System.Int32",
+          "FieldLength": 857
         }
       }
     },
     {
-      "VisibleId": 835,
+      "VisibleId": 612,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "exercitationem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 273
+          "FieldType": "System.Int32",
+          "FieldLength": 857
         }
       }
     }
@@ -190,8 +190,8 @@ Last-Modified: Tue, 11 Sep 2001 17:37:38 G9T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 244
+      "FieldType": "System.Int32",
+      "FieldLength": 60
     }
   }
 }

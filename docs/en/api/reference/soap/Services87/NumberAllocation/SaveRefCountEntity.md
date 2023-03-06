@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.INumberAllocationAgent.Sa
 
 ## SaveRefCountEntity
 
-Updates the existing RefCountEntity or creates a new RefCountEntity if the id parameter is 0.
 
-* **refCountEntity:** The RefCountEntity that is saved.
 
-**Returns:** New or updated RefCountEntity
+
 
 [WSDL file for Services87/NumberAllocation](../Services87-NumberAllocation.md)
 
@@ -91,6 +89,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveRefCountEntity Response
 
@@ -168,3 +167,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

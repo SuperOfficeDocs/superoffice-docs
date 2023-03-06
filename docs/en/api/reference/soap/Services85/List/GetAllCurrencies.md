@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetAllCurrenci
 
 ## GetAllCurrencies
 
-Returns all currencies
 
-* **includeDeleted:** Include deleted items in result?
 
-**Returns:** Array of currencies
+
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAllCurrencies Response
 
 ```xml
@@ -79,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

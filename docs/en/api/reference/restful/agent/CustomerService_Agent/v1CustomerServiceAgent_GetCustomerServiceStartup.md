@@ -77,14 +77,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TimezoneEnabled": true,
-  "TZOffset": 746,
-  "RecaptchaSiteKey": "placeat",
+  "TZOffset": 182,
+  "RecaptchaSiteKey": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 280
+      "FieldType": "System.Int32",
+      "FieldLength": 793
     }
   }
 }

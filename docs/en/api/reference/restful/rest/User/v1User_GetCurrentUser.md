@@ -80,7 +80,7 @@ OK
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,14 +90,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 919,
-  "Name": "Ratke-Carter",
-  "Rank": 841,
-  "Tooltip": "repudiandae",
+  "AssociateId": 959,
+  "Name": "Koepp LLC",
+  "Rank": 423,
+  "Tooltip": "quidem",
   "LicenseOwners": [
     {
-      "Name": "Block, Tremblay and Mosciski",
-      "Description": "Universal empowering open architecture",
+      "Name": "Wuckert, Bins and McKenzie",
+      "Description": "Progressive homogeneous ability",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -110,14 +110,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 959
+          "FieldType": "System.Int32",
+          "FieldLength": 522
         }
       }
     },
     {
-      "Name": "Block, Tremblay and Mosciski",
-      "Description": "Universal empowering open architecture",
+      "Name": "Wuckert, Bins and McKenzie",
+      "Description": "Progressive homogeneous ability",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 959
+          "FieldType": "System.Int32",
+          "FieldLength": 522
         }
       }
     }
@@ -140,110 +140,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "magni",
-      "Tooltip": "cupiditate",
-      "Id": 583,
-      "Rank": 784,
-      "Deleted": false,
+      "Value": "qui",
+      "Tooltip": "ducimus",
+      "Id": 546,
+      "Rank": 781,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 721
+          "FieldLength": 15
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2015-06-21T17:37:39.5884009+02:00",
-  "Lastlogout": "2014-06-06T17:37:39.5884009+02:00",
-  "EjUserId": 919,
-  "RequestSignature": "quam",
+  "Deleted": false,
+  "Lastlogin": "2014-07-27T14:19:11.0686043+02:00",
+  "Lastlogout": "2013-10-05T14:19:11.0686043+02:00",
+  "EjUserId": 246,
+  "RequestSignature": "est",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "sint",
-      "DisplayValue": "facere",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 34
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "sint",
-      "DisplayValue": "facere",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 34
-        }
-      }
-    }
-  ],
-  "UserName": "Glover, Shields and Toy",
-  "TicketCategories": [
-    {
-      "Id": 656,
-      "Name": "Cartwright, O'Reilly and Kirlin",
-      "ToolTip": "Iste maxime natus.",
-      "Deleted": true,
-      "Rank": 28,
-      "Type": "iusto",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "omnis",
-      "ColorBlock": 528,
-      "ExtraInfo": "voluptas",
-      "StyleHint": "a",
-      "FullName": "Lulu Larson Sr.",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 294
-        }
-      }
-    }
-  ],
-  "NickName": "Dooley, Fahey and Bernier",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "in",
-    "ExtraFields2": "aperiam"
-  },
-  "CustomFields": {
-    "CustomFields1": "beatae",
-    "CustomFields2": "beatae"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Farrell-Hilpert",
-      "DisplayName": "Pfannerstill-Koepp",
-      "Description": "Managed empowering product",
-      "ToolTip": "Quis doloribus culpa modi perferendis harum aliquam.",
-      "Actions": "Implicit",
-      "ActionData": "suscipit",
+      "Value": "id",
+      "DisplayValue": "odio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 19
+          "FieldLength": 956
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "id",
+      "DisplayValue": "odio",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 956
+        }
+      }
+    }
+  ],
+  "UserName": "Gaylord, Yundt and Botsford",
+  "TicketCategories": [
+    {
+      "Id": 910,
+      "Name": "Gusikowski Inc and Sons",
+      "ToolTip": "Cumque ut dolores rerum dolor mollitia voluptatibus architecto.",
+      "Deleted": false,
+      "Rank": 387,
+      "Type": "quia",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "minima",
+      "ColorBlock": 933,
+      "ExtraInfo": "saepe",
+      "StyleHint": "culpa",
+      "FullName": "Tomas Kaley Heidenreich PhD",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 954
+        }
+      }
+    }
+  ],
+  "NickName": "McDermott, Crooks and Zboncak",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "blanditiis",
+    "ExtraFields2": "voluptatibus"
+  },
+  "CustomFields": {
+    "CustomFields1": "quaerat",
+    "CustomFields2": "voluptatem"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Adams Inc and Sons",
+      "DisplayName": "Donnelly Group",
+      "Description": "Up-sized intangible concept",
+      "ToolTip": "Cum et sint sed.",
+      "Actions": "Implicit",
+      "ActionData": "et",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 992
         }
       }
     }
@@ -253,7 +253,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 964
+      "FieldLength": 348
     }
   }
 }

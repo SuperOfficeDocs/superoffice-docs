@@ -103,7 +103,7 @@ ContactEntity found.
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 906,
-  "ColumnId": 245,
-  "FieldDefault": "et",
-  "FieldHeight": 165,
-  "FieldLabel": "eos",
-  "FieldLeft": 887,
-  "FieldTop": 995,
+  "UDefFieldId": 459,
+  "ColumnId": 153,
+  "FieldDefault": "ut",
+  "FieldHeight": 412,
+  "FieldLabel": "repellat",
+  "FieldLeft": 243,
+  "FieldTop": 501,
   "FieldType": "Checkbox",
-  "FieldWidth": 794,
-  "FormatMask": "error",
+  "FieldWidth": 893,
+  "FormatMask": "assumenda",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 351,
-  "LabelLeft": 896,
-  "LabelTop": 638,
-  "LabelWidth": 321,
-  "LastVersionId": 163,
-  "ListTableId": 209,
+  "IsIndexed": true,
+  "LabelHeight": 181,
+  "LabelLeft": 628,
+  "LabelTop": 764,
+  "LabelWidth": 864,
+  "LastVersionId": 56,
+  "ListTableId": 646,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 975,
-  "ProgId": "odit",
+  "Page1LineNo": 790,
+  "ProgId": "aperiam",
   "IsReadOnly": false,
-  "ShortLabel": "aut",
-  "TabOrder": 53,
-  "TextLength": 102,
-  "Tooltip": "molestiae",
-  "UdefIdentity": 575,
-  "UDListDefinitionId": 967,
+  "ShortLabel": "in",
+  "TabOrder": 246,
+  "TextLength": 943,
+  "Tooltip": "et",
+  "UdefIdentity": 441,
+  "UDListDefinitionId": 502,
   "Justification": "Center",
-  "Version": 247,
-  "TemplateVariableName": "Beer, Leannon and Kovacek",
+  "Version": 547,
+  "TemplateVariableName": "Huel-Dach",
   "HasBeenPublished": false,
-  "MdoListName": "Johns-Kulas",
+  "MdoListName": "Walter Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 645
+      "FieldLength": 951
     }
   }
 }

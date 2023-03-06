@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IContactAgent.GetDuplicat
 
 ## GetDuplicateRules
 
-Retrieve all available duplicate rules for contact
 
-**Returns:** All available duplicate rules
+
+
 
 [WSDL file for Services84/Contact](../Services84-Contact.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDuplicateRules Response
 
 ```xml
@@ -73,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

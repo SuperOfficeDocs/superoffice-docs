@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetDocumentTem
 
 ## GetDocumentTemplateEntity
 
-Gets a DocumentTemplateEntity object.
 
-* **documentTemplateEntityId:** The identifier of the DocumentTemplateEntity object
 
-**Returns:** DocumentTemplateEntity
+
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetDocumentTemplateEntity Response
 
@@ -90,3 +89,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

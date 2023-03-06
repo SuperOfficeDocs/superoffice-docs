@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IPreferenceAgent.SaveTabO
 
 ## SaveTabOrder
 
-Saves the tab order. The order is saved pr. user.
 
-* **tabOrder:** Name of the tab control
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services84/Preference](../Services84-Preference.md)
 
@@ -54,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveTabOrder Response
 
 ```xml
@@ -73,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

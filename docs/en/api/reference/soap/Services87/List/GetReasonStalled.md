@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetReasonStall
 
 ## GetReasonStalled
 
-Gets a ReasonStalled object.
 
-* **reasonStalledId:** The identifier of the ReasonStalled object
 
-**Returns:** ReasonStalled
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetReasonStalled Response
 
 ```xml
@@ -73,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

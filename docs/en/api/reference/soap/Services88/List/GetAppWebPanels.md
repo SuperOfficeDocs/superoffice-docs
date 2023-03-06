@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetAppWebPanel
 
 ## GetAppWebPanels
 
-Get all web panels owned by your app; works in Online only, for registered Apps that send a valid ApplicationToken
 
-**Returns:** List of all web panels owned by the current App
+
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -45,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetAppWebPanels Response
 
@@ -90,3 +91,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

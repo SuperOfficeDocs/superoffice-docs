@@ -83,6 +83,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -92,7 +93,7 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,36 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 505,
-  "Name": "Senger LLC",
-  "AssociateId": 911,
-  "DetailsTable": 839,
-  "DetailsRecord": 796,
-  "IsSystemTask": true,
+  "Id": 396,
+  "Name": "Boyle, Larkin and Lubowitz",
+  "AssociateId": 407,
+  "DetailsTable": 653,
+  "DetailsRecord": 992,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "consequatur",
-    "ParameterObject2": "nobis"
+    "ParameterObject1": "tenetur",
+    "ParameterObject2": "distinctio"
   },
-  "LastStarted": "2021-10-22T17:37:18.119241+02:00",
-  "Created": "2002-02-03T17:37:18.119241+01:00",
-  "StartCount": 717,
-  "DatabaseSerialNumber": "1413428",
-  "Context": "assumenda",
-  "Result": "voluptatibus",
+  "LastStarted": "2022-02-21T14:19:03.5769906+01:00",
+  "Created": "2010-12-19T14:19:03.5769906+01:00",
+  "StartCount": 120,
+  "DatabaseSerialNumber": "1368305",
+  "Context": "animi",
+  "Result": "occaecati",
   "State": "All",
-  "Description": "Multi-tiered full-range alliance",
-  "Response": "facilis",
-  "Request": "ex",
-  "ProgressDescription": "Visionary homogeneous projection",
-  "ProgressPercent": 678,
-  "FileName": "Goldner Group",
+  "Description": "Ameliorated real-time service-desk",
+  "Response": "molestiae",
+  "Request": "quo",
+  "ProgressDescription": "Persevering client-driven definition",
+  "ProgressPercent": 42,
+  "FileName": "Auer, Reichel and Hettinger",
+  "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldType": "System.String",
+      "FieldLength": 969
     }
   }
 }

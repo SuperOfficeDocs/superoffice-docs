@@ -82,8 +82,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 467,
-  "UdListDefinitionId": 70
+  "Id": 403,
+  "UdListDefinitionId": 716
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 836,
-  "Name": "Halvorson, Schroeder and Bartoletti",
-  "Tooltip": "dolores",
+  "Id": 693,
+  "Name": "Lehner Group",
+  "Tooltip": "eaque",
   "Deleted": false,
-  "UdListDefinitionId": 931,
-  "Rank": 558,
+  "UdListDefinitionId": 756,
+  "Rank": 430,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 538
+      "FieldLength": 71
     }
   }
 }

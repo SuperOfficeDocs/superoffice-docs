@@ -81,7 +81,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,60 +91,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 741,
-  "Name": "Heller LLC",
+  "TicketPriorityId": 713,
+  "Name": "Quitzon-Bashirian",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 627,
+  "SortOrder": 188,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 681,
-  "MonStart": "2018-08-10T17:37:40.4175007+02:00",
-  "MonStop": "2003-06-25T17:37:40.4175007+02:00",
-  "TueStart": "2011-03-22T17:37:40.4175007+01:00",
-  "TueStop": "2004-07-08T17:37:40.4175007+02:00",
-  "WedStart": "2003-07-31T17:37:40.4175007+02:00",
-  "WedStop": "2017-12-30T17:37:40.4175007+01:00",
-  "ThuStart": "2000-06-01T17:37:40.4175007+02:00",
-  "ThuStop": "2000-12-13T17:37:40.4175007+01:00",
-  "FriStart": "2014-02-27T17:37:40.4175007+01:00",
-  "FriStop": "2018-07-05T17:37:40.4175007+02:00",
-  "SatStart": "2007-11-19T17:37:40.4175007+01:00",
-  "SatStop": "2004-07-08T17:37:40.4175007+02:00",
-  "SunStart": "2010-04-09T17:37:40.4175007+02:00",
-  "SunStop": "1997-10-16T17:37:40.4175007+02:00",
+  "Deadline": 723,
+  "MonStart": "2019-03-30T14:19:11.660135+01:00",
+  "MonStop": "2022-09-12T14:19:11.660135+02:00",
+  "TueStart": "2012-06-28T14:19:11.660135+02:00",
+  "TueStop": "2021-12-22T14:19:11.660135+01:00",
+  "WedStart": "2008-06-09T14:19:11.660135+02:00",
+  "WedStop": "2013-05-01T14:19:11.660135+02:00",
+  "ThuStart": "2007-08-21T14:19:11.660135+02:00",
+  "ThuStop": "2005-04-22T14:19:11.660135+02:00",
+  "FriStart": "2010-05-17T14:19:11.660135+02:00",
+  "FriStop": "2022-05-06T14:19:11.660135+02:00",
+  "SatStart": "1999-01-02T14:19:11.660135+01:00",
+  "SatStop": "2001-11-12T14:19:11.660135+01:00",
+  "SunStart": "2014-04-28T14:19:11.660135+02:00",
+  "SunStop": "1998-02-12T14:19:11.660135+01:00",
   "NonDates": [
-    "et",
-    "ipsam"
+    "perferendis",
+    "odit"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 794,
-      "AlertLevel": 829,
-      "AlertTimeout": 138,
-      "Action": 298,
-      "DelegateTo": 447,
-      "ScriptId": 700,
-      "EmailTo": "amie@will.ca",
-      "SmsTo": "non",
-      "ReplyTemplateIdCustomer": 483,
-      "ReplyTemplateIdUser": 632,
-      "ReplyTemplateIdCatmast": 405,
-      "ReplyTemplateIdEmail": 651,
-      "RtiCustomerSms": 484,
-      "ReplyTemplateIdUserSms": 986,
-      "ReplyTemplateIdCatmastSms": 195,
-      "ReplyTemplateIdSms": 142,
+      "TicketAlertId": 866,
+      "AlertLevel": 787,
+      "AlertTimeout": 559,
+      "Action": 940,
+      "DelegateTo": 838,
+      "ScriptId": 859,
+      "EmailTo": "joe@mills.co.uk",
+      "SmsTo": "velit",
+      "ReplyTemplateIdCustomer": 416,
+      "ReplyTemplateIdUser": 60,
+      "ReplyTemplateIdCatmast": 310,
+      "ReplyTemplateIdEmail": 885,
+      "RtiCustomerSms": 948,
+      "ReplyTemplateIdUserSms": 17,
+      "ReplyTemplateIdCatmastSms": 920,
+      "ReplyTemplateIdSms": 789,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 939
+          "FieldType": "System.String",
+          "FieldLength": 78
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 347
+      "FieldType": "System.Int32",
+      "FieldLength": 551
     }
   }
 }

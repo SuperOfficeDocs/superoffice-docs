@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IViewStateAgent.DeleteHis
 
 ## DeleteHistory
 
-Deletes the history element
 
-* **historyName:** Name of the history list, e.g. contact, project
-* **id:** Id of the history element, e.g. Contact id
+
+
 
 [WSDL file for Services85/ViewState](../Services85-ViewState.md)
 
@@ -49,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteHistory Response
 
 ```xml
@@ -68,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

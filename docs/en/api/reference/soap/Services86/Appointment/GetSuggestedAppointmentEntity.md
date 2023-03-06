@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IAppointmentAgent.GetSugg
 
 ## GetSuggestedAppointmentEntity
 
-Gets a SuggestedAppointmentEntity object.
 
-* **suggestedAppointmentEntityId:** The identifier of the SuggestedAppointmentEntity object
 
-**Returns:** SuggestedAppointmentEntity
+
 
 [WSDL file for Services86/Appointment](../Services86-Appointment.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetSuggestedAppointmentEntity Response
 
@@ -105,3 +104,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

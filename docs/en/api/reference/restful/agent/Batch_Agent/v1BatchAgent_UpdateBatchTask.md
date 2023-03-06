@@ -85,6 +85,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -94,7 +95,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,36 +110,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 837,
-  "Name": "Hammes-Nienow",
-  "AssociateId": 865,
-  "DetailsTable": 645,
-  "DetailsRecord": 75,
+  "Id": 440,
+  "Name": "Corkery Group",
+  "AssociateId": 967,
+  "DetailsTable": 509,
+  "DetailsRecord": 412,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "non",
-    "ParameterObject2": "natus"
+    "ParameterObject1": "tempore",
+    "ParameterObject2": "voluptatem"
   },
-  "LastStarted": "2022-10-08T17:37:16.9002422+02:00",
-  "Created": "2019-08-13T17:37:16.9002422+02:00",
-  "StartCount": 525,
-  "DatabaseSerialNumber": "688833",
-  "Context": "ducimus",
-  "Result": "doloremque",
+  "LastStarted": "2006-09-04T14:19:02.7594283+02:00",
+  "Created": "2012-05-20T14:19:02.7594283+02:00",
+  "StartCount": 911,
+  "DatabaseSerialNumber": "477188",
+  "Context": "earum",
+  "Result": "nihil",
   "State": "All",
-  "Description": "Cloned discrete algorithm",
-  "Response": "quibusdam",
-  "Request": "quasi",
-  "ProgressDescription": "Triple-buffered composite access",
-  "ProgressPercent": 341,
-  "FileName": "Bauch-Lind",
+  "Description": "Monitored dynamic standardization",
+  "Response": "perferendis",
+  "Request": "atque",
+  "ProgressDescription": "Automated zero tolerance circuit",
+  "ProgressPercent": 40,
+  "FileName": "Erdman LLC",
+  "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 292
+      "FieldType": "System.Int32",
+      "FieldLength": 550
     }
   }
 }

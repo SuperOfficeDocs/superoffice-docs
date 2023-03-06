@@ -82,24 +82,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 295,
+  "TargetAssignmentInfoId": 931,
   "Values": [
-    714,
-    2
+    779,
+    753
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 213,
-  "DimensionListItemDisplayName": "Zulauf, Shanahan and Fritsch",
+  "DimensionListItem": 630,
+  "DimensionListItemDisplayName": "Dach-Ernser",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 652
+      "FieldType": "System.Int32",
+      "FieldLength": 538
     }
   }
 }

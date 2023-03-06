@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 728,
-    "Name": "Hane-Fritsch",
-    "Description": "Extended value-added hardware",
+    "ProjectId": 343,
+    "Name": "Williamson, Kling and Labadie",
+    "Description": "Open-source didactic portal",
     "URL": "http://www.example.com/",
-    "Type": "et",
-    "AssociateId": 430,
-    "AssociateFullName": "Mr. Brittany Wuckert Jr.",
-    "TypeId": 233,
-    "Updated": "2004-08-10T17:37:18.663243+02:00",
-    "StatusId": 73,
-    "Status": "dolorem",
-    "TextId": 598,
-    "PublishTo": "2015-06-12T17:37:18.663243+02:00",
-    "PublishFrom": "2022-02-14T17:37:18.663243+01:00",
+    "Type": "ea",
+    "AssociateId": 877,
+    "AssociateFullName": "Blaise Schumm",
+    "TypeId": 930,
+    "Updated": "2020-08-20T14:19:03.9688343+02:00",
+    "StatusId": 225,
+    "Status": "doloremque",
+    "TextId": 624,
+    "PublishTo": "2002-08-14T14:19:03.9688343+02:00",
+    "PublishFrom": "2015-11-21T14:19:03.9688343+01:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1130241",
-    "ActiveErpLinks": 913,
+    "ProjectNumber": "1062176",
+    "ActiveErpLinks": 282,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 982
+        "FieldLength": 34
       }
     }
   }

@@ -11,14 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IQuoteAgent.RejectQuoteVe
 
 ## RejectQuoteVersion
 
-Rejects a quote version
 
-* **quoteVersionId:** QuoteVersionId to approve.
-* **rejectedByText:** 'Rejected by' prefix to RejectionText used when creating appointment task to log rejection. Must be passed since service does not know which language to use for 'Rejected By' string.
-* **rejectedByAssociateId:** AssociateId of the associate who rejected the quote version.
-* **rejectionText:** Rejection text.
 
-**Returns:** Response of the the operation
+
 
 [WSDL file for Services88/Quote](../Services88-Quote.md)
 
@@ -54,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## RejectQuoteVersion Response
 
@@ -95,6 +91,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        </Quote:ChangedDataItem>
       </Quote:DeletedRecords>
      </Quote:Changes>
+     <Quote:Status xsi:type="Quote:QuoteStatus">Ok</Quote:Status>
     </Quote:PluginResponse>
     <Quote:CreatedAppointmentId xsi:type="xsd:int">0</Quote:CreatedAppointmentId>
    </Quote:Response>
@@ -103,3 +100,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

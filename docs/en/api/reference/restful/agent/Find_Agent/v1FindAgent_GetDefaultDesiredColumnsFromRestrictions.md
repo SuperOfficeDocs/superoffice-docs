@@ -89,18 +89,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schaefer-Swaniawski",
+  "ProviderName": "King Group",
   "Restrictions": [
     {
-      "Name": "White, Huels and Cronin",
-      "Operator": "ab",
+      "Name": "Schaefer-Jenkins",
+      "Operator": "ut",
       "Values": [
-        "veniam",
-        "vel"
+        "enim",
+        "corporis"
       ],
       "DisplayValues": [
-        "in",
-        "et"
+        "exercitationem",
+        "quasi"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 375,
+      "InterParenthesis": 333,
       "InterOperator": "And",
-      "UniqueHash": 476
+      "UniqueHash": 57
     }
   ]
 }
@@ -124,19 +124,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Mann, Jones and D'Amore",
-    "DisplayTooltip": "rerum",
-    "DisplayType": "officia",
-    "CanOrderBy": false,
-    "Name": "Metz, Christiansen and Dare",
-    "CanRestrictBy": true,
-    "RestrictionType": "voluptatem",
-    "RestrictionListName": "Hodkiewicz, Walker and Yost",
+    "DisplayName": "McLaughlin Inc and Sons",
+    "DisplayTooltip": "ipsa",
+    "DisplayType": "eligendi",
+    "CanOrderBy": true,
+    "Name": "Berge LLC",
+    "CanRestrictBy": false,
+    "RestrictionType": "ipsum",
+    "RestrictionListName": "Rosenbaum, Zulauf and Swaniawski",
     "IsVisible": true,
-    "ExtraInfo": "delectus",
-    "Width": "autem",
-    "IconHint": "sapiente",
-    "HeadingIconHint": "harum"
+    "ExtraInfo": "error",
+    "Width": "modi",
+    "IconHint": "nostrum",
+    "HeadingIconHint": "qui"
   }
 ]
 ```

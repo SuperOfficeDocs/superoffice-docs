@@ -25,8 +25,8 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=voluptatem
+GET /api/v1/List/Source/MDOItems?flat=True
+GET /api/v1/List/Source/MDOItems?query=consequatur
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 795,
-    "Name": "Bailey LLC",
-    "ToolTip": "Reprehenderit iure.",
-    "Deleted": true,
-    "Rank": 515,
-    "Type": "modi",
+    "Id": 924,
+    "Name": "Greenfelder Group",
+    "ToolTip": "Officia quo.",
+    "Deleted": false,
+    "Rank": 519,
+    "Type": "quos",
     "ChildItems": [
       {
-        "Id": 757,
-        "Name": "Dietrich LLC",
-        "ToolTip": "Labore at suscipit ut et accusantium sed et.",
+        "Id": 625,
+        "Name": "Haag, Rempel and Dickinson",
+        "ToolTip": "Veritatis error rerum qui aut est.",
         "Deleted": true,
-        "Rank": 674,
-        "Type": "autem",
+        "Rank": 921,
+        "Type": "debitis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sit",
-        "ColorBlock": 382,
-        "ExtraInfo": "excepturi",
-        "StyleHint": "dignissimos",
-        "FullName": "Adela Schamberger",
+        "IconHint": "culpa",
+        "ColorBlock": 651,
+        "ExtraInfo": "non",
+        "StyleHint": "debitis",
+        "FullName": "Houston Barrows",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 53
+            "FieldLength": 406
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 495,
+    "IconHint": "incidunt",
+    "ColorBlock": 389,
     "ExtraInfo": "dolorem",
-    "StyleHint": "impedit",
-    "FullName": "Angel Hyatt",
+    "StyleHint": "quo",
+    "FullName": "Mrs. Greyson Kris Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 383
+        "FieldLength": 393
       }
     }
   }

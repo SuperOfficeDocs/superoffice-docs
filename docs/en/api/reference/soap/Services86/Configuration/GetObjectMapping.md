@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IConfigurationAgent.GetOb
 
 ## GetObjectMapping
 
-Get the object mappings, i.e., the what code objects should be instantiated to handle the entities of the client configuration.
 
-* **application:** The application name, for instance 'SixWeb'
-* **instance:** The instance name for the application, like 'MainInstance'
 
-**Returns:** XML containing the object mappings, including assembly and class names
+
 
 [WSDL file for Services86/Configuration](../Services86-Configuration.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetObjectMapping Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

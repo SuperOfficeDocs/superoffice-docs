@@ -78,8 +78,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 614,
-  "Name": "Ebert Inc and Sons",
+  "TicketStatusId": 512,
+  "Name": "Roob-Kovacek",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 758,
-  "Name": "Brekke, Wilderman and Schamberger",
+  "TicketStatusId": 128,
+  "Name": "Steuber, Mraz and McKenzie",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
+  "NoEmailReopen": false,
   "IsDefault": false,
   "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldType": "System.String",
+      "FieldLength": 684
     }
   }
 }

@@ -92,7 +92,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 571,
-  "ColumnId": 724,
-  "FieldDefault": "perspiciatis",
-  "FieldHeight": 805,
-  "FieldLabel": "nemo",
-  "FieldLeft": 309,
-  "FieldTop": 705,
+  "UDefFieldId": 421,
+  "ColumnId": 770,
+  "FieldDefault": "et",
+  "FieldHeight": 286,
+  "FieldLabel": "repudiandae",
+  "FieldLeft": 510,
+  "FieldTop": 431,
   "FieldType": "Checkbox",
-  "FieldWidth": 666,
-  "FormatMask": "expedita",
+  "FieldWidth": 541,
+  "FormatMask": "et",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 347,
-  "LabelLeft": 578,
-  "LabelTop": 943,
-  "LabelWidth": 71,
-  "LastVersionId": 805,
-  "ListTableId": 613,
-  "IsMandatory": false,
+  "LabelHeight": 557,
+  "LabelLeft": 157,
+  "LabelTop": 823,
+  "LabelWidth": 349,
+  "LastVersionId": 590,
+  "ListTableId": 164,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 756,
-  "ProgId": "nostrum",
-  "IsReadOnly": false,
-  "ShortLabel": "amet",
-  "TabOrder": 885,
-  "TextLength": 599,
-  "Tooltip": "libero",
-  "UdefIdentity": 282,
-  "UDListDefinitionId": 266,
+  "Page1LineNo": 454,
+  "ProgId": "aut",
+  "IsReadOnly": true,
+  "ShortLabel": "voluptatum",
+  "TabOrder": 319,
+  "TextLength": 865,
+  "Tooltip": "cupiditate",
+  "UdefIdentity": 441,
+  "UDListDefinitionId": 562,
   "Justification": "Center",
-  "Version": 666,
-  "TemplateVariableName": "Pacocha, Schowalter and Ankunding",
+  "Version": 396,
+  "TemplateVariableName": "Kunde Group",
   "HasBeenPublished": false,
-  "MdoListName": "Hagenes-Rutherford",
+  "MdoListName": "O'Conner Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 403
+      "FieldLength": 916
     }
   }
 }

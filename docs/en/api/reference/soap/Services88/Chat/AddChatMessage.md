@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.AddChatMessage
 
 ## AddChatMessage
 
-Add a new message to a chat session
 
-* **chatSessionId:** id of the chat session to add message to
-* **message:** Message to add
 
-**Returns:** The chat message added to the session
+
 
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
@@ -52,7 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Chat:ReadByCustomer xsi:type="xsd:short">0</Chat:ReadByCustomer>
      <Chat:SpecialType xsi:type="Chat:ChatMessageSpecialType">None</Chat:SpecialType>
      <Chat:SpecialParam xsi:type="xsd:string"></Chat:SpecialParam>
-     <Chat:WhenPosted xsi:type="xsd:dateTime">2022-08-26T08:58:42Z</Chat:WhenPosted>
+     <Chat:WhenPosted xsi:type="xsd:dateTime">2023-02-15T13:16:44Z</Chat:WhenPosted>
     </Chat:Message>
    </Chat:AddChatMessage>
 
@@ -60,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## AddChatMessage Response
 
@@ -84,10 +82,11 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Chat:ReadByCustomer xsi:type="xsd:short">0</Chat:ReadByCustomer>
     <Chat:SpecialType xsi:type="Chat:ChatMessageSpecialType">None</Chat:SpecialType>
     <Chat:SpecialParam xsi:type="xsd:string"></Chat:SpecialParam>
-    <Chat:WhenPosted xsi:type="xsd:dateTime">2022-08-26T08:58:42Z</Chat:WhenPosted>
+    <Chat:WhenPosted xsi:type="xsd:dateTime">2023-02-15T13:16:44Z</Chat:WhenPosted>
    </Chat:Response>
   </Chat:AddChatMessageResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+

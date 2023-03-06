@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ICustomerServiceAgent.Cre
 
 ## CreateTicketFromMailData
 
-This method create a new ticket in the same way as importMail would import an email. It accepts RFC822 formatted data
 
-* **mailboxId:** The id of the Service mailbox
-* **data:** RFC822 formatted data to import as a ticket
 
-**Returns:** An object containing some meta data for the created ticket
+
 
 [WSDL file for Services87/CustomerService](../Services87-CustomerService.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateTicketFromMailData Response
 
 ```xml
@@ -80,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

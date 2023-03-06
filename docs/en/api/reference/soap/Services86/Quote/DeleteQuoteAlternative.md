@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IQuoteAgent.DeleteQuoteAl
 
 ## DeleteQuoteAlternative
 
-Delete a quote alternative
 
-* **quoteAlternativeId:** Id of the quote alternative to delete.
 
-**Returns:** A void return
+
 
 [WSDL file for Services86/Quote](../Services86-Quote.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteQuoteAlternative Response
 
 ```xml
@@ -68,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

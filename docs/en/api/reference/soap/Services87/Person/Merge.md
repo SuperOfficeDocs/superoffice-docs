@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IPersonAgent.Merge">Super
 
 ## Merge
 
-Merge two persons. The destination person will remain. You must specify the date after which activities will be moved along with the person.
 
-* **sourcePersonId:** The identifier for the person which will be merged into the destination person. The source person is deleted/marked retired after the merge.
-* **destinationPersonId:** The identifier for the person which will remain after the merge. The target person is updated.
-* **moveAfterDate:** Merge activites after this date. Activities before this date are left alone.
-* **deleteSource:** If true, the source person will be deleted after the merge. If false, it will have its retired flag set
-* **replaceEmptyFieldsOnDestination:** If true, empty fields on destination will be replaced by values from source.
+
+
 
 [WSDL file for Services87/Person](../Services87-Person.md)
 
@@ -45,7 +41,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Person:Merge>
     <Person:SourcePersonId xsi:type="xsd:int">0</Person:SourcePersonId>
     <Person:DestinationPersonId xsi:type="xsd:int">0</Person:DestinationPersonId>
-    <Person:MoveAfterDate xsi:type="xsd:dateTime">2022-08-26T08:57:33Z</Person:MoveAfterDate>
+    <Person:MoveAfterDate xsi:type="xsd:dateTime">2023-02-15T13:15:40Z</Person:MoveAfterDate>
     <Person:DeleteSource xsi:type="xsd:boolean">false</Person:DeleteSource>
     <Person:ReplaceEmptyFieldsOnDestination xsi:type="xsd:boolean">false</Person:ReplaceEmptyFieldsOnDestination>
    </Person:Merge>
@@ -54,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## Merge Response
 
@@ -74,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

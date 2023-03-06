@@ -5,14 +5,16 @@ description: Sales targets
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: Service
-so.topic: help
+so.topic: help, online
 language: en
 ---
 
 # Targets
 
 > [!NOTE]
-> **Licenses**
+>**ONLINE** customers only. (Not available for Onsite customers.)
+>
+>**Licenses**
 > This feature requires the Sales Premium licence.
 > The following functions are only available with the Sales Targets Unlimited licence in addition to the Sales Premium licence:
 >

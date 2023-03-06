@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.GetQuoteLineC
 
 ## GetQuoteLineConfiguration
 
-Returns the configuration field with the given id
 
-* **quoteLineConfigurationId:** Id of the QuoteLineConfiguration to get.
 
-**Returns:** QuoteLineConfiguration
+
 
 [WSDL file for Services84/Quote](../Services84-Quote.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetQuoteLineConfiguration Response
 
 ```xml
@@ -79,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

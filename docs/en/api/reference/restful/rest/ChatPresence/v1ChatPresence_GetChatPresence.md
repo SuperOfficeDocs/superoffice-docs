@@ -58,7 +58,7 @@ OK
 GET /api/v1/Presence/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,20 +69,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 73,
-    "DisplayName": "Lubowitz Group",
-    "OngoingChats": 801,
-    "Present": true,
+    "UserId": 58,
+    "DisplayName": "Schmeler LLC",
+    "OngoingChats": 26,
+    "Present": false,
     "ChatTopics": [
-      578,
-      787
+      833,
+      549
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 168
+        "FieldLength": 646
       }
     }
   }

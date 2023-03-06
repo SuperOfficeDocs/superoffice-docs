@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "preferencekey"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,6 @@ so.envir:
 ---
 
 # "preferencekey" MDO List
-
 MDO Provider that retrieves a list of preference keys corresponding to a given section
 
 Preferences are described in the prefdesc table. This provider will retrieve descriptions for all keys
@@ -34,6 +33,10 @@ The name of the MDO list is 'preferencekey'.
 |-----|-----|------|
 |Preference section name, optionally followed by ;excludesystemwide to exclude preferences that belong in the System Settings gui| |Functions|
 
+
+
+
+
 ## Sample Request
 
 ```http!
@@ -45,7 +48,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("preferencekey", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -59,6 +61,7 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
+
 
 ## Related MDO Lists
 

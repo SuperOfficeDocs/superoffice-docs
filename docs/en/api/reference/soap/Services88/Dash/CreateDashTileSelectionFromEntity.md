@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashAgent.CreateDashTile
 
 ## CreateDashTileSelectionFromEntity
 
-Returns the id to a dashboard tile selection
 
-* **entityName:** The name of the entity to create a default selection for
 
-**Returns:** Selection Id
+
 
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDashTileSelectionFromEntity Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

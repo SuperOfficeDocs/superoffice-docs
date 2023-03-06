@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDiagnosticsAgent.GetCach
 
 ## GetCacheState
 
-Get the current generation value of the named caches. State is opaque.
 
-* **cacheNames:** Names of the caches to check
 
-**Returns:** Current state of the caches named. If not the same as previous value, then it is time to flush
+
 
 [WSDL file for Services88/Diagnostics](../Services88-Diagnostics.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetCacheState Response
 
 ```xml
@@ -71,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

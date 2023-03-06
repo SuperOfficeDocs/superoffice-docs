@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IAudienceAgent.GetMyConfi
 
 ## GetMyConfigParameterValue
 
-Gets the string value of an Audience configuration parameter belonging to the currently logged on user with the specified configuration parameter name.
 
-* **parameterName:** The name of the Audience configuration parameter
 
-**Returns:** The string value of the Audience configuration parameter.
+
 
 [WSDL file for Services85/Audience](../Services85-Audience.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetMyConfigParameterValue Response
 
 ```xml
@@ -67,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

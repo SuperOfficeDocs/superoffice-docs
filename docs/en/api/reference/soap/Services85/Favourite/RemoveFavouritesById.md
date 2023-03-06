@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IFavouriteAgent.RemoveFav
 
 ## RemoveFavouritesById
 
-Remove favourite using favourite id
 
-* **favouriteIds:** Ids of favourite rows to delete
+
+
 
 [WSDL file for Services85/Favourite](../Services85-Favourite.md)
 
@@ -49,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RemoveFavouritesById Response
 
 ```xml
@@ -68,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

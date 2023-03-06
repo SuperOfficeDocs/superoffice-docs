@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 22,
-  "Name": "Kihn Group",
-  "Tooltip": "ad",
+  "Id": 646,
+  "Name": "Ratke, Mante and Kessler",
+  "Tooltip": "odio",
   "Deleted": false,
-  "Rank": 998,
+  "Rank": 208,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "cupiditate",
+  "ListType": "id",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 958,
-  "Name": "Heidenreich-Bashirian",
-  "Tooltip": "temporibus",
+  "Id": 457,
+  "Name": "Fay-Kihn",
+  "Tooltip": "sapiente",
   "Deleted": true,
-  "Rank": 86,
+  "Rank": 830,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "et",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "distinctio",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 982
+      "FieldLength": 781
     }
   }
 }

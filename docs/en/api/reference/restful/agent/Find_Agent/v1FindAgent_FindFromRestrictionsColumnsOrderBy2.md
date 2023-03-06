@@ -164,16 +164,16 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "velit",
-  "ProviderName": "Swift, Harris and Armstrong",
-  "DesiredColumns": "alias",
-  "OrderBy": "sunt",
-  "PageSize": 267,
-  "PageNumber": 942
+  "Restrictions": "tempore",
+  "ProviderName": "Hane, Stamm and Hermiston",
+  "DesiredColumns": "consectetur",
+  "OrderBy": "doloribus",
+  "PageSize": 995,
+  "PageNumber": 634
 }
 ```
 
@@ -186,51 +186,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Wehner Group",
-      "DisplayTooltip": "officiis",
-      "DisplayType": "atque",
+      "DisplayName": "Waters-Roob",
+      "DisplayTooltip": "ab",
+      "DisplayType": "accusantium",
       "CanOrderBy": false,
-      "Name": "Lemke-Hagenes",
-      "CanRestrictBy": false,
-      "RestrictionType": "necessitatibus",
-      "RestrictionListName": "Wilderman-Fadel",
-      "IsVisible": false,
-      "ExtraInfo": "laudantium",
-      "Width": "error",
-      "IconHint": "reiciendis",
-      "HeadingIconHint": "non"
+      "Name": "Breitenberg-McCullough",
+      "CanRestrictBy": true,
+      "RestrictionType": "et",
+      "RestrictionListName": "Mayer-Bednar",
+      "IsVisible": true,
+      "ExtraInfo": "quod",
+      "Width": "aut",
+      "IconHint": "deserunt",
+      "HeadingIconHint": "officiis"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Ward Inc and Sons",
-      "PrimaryKey": 679,
+      "EntityName": "Tromp LLC",
+      "PrimaryKey": 272,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aut",
-          "TooltipHint": "qui",
-          "LinkHint": "sunt"
+          "DisplayValue": "voluptatem",
+          "TooltipHint": "officia",
+          "LinkHint": "voluptatem"
         }
       },
-      "LinkHint": "nostrum",
-      "StyleHint": "neque",
+      "LinkHint": "aperiam",
+      "StyleHint": "ab",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 849
+          "FieldType": "System.Int32",
+          "FieldLength": 982
         }
       }
     }
   ],
-  "RowCount": 446,
+  "RowCount": 361,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 199
+      "FieldType": "System.Int32",
+      "FieldLength": 782
     }
   }
 }

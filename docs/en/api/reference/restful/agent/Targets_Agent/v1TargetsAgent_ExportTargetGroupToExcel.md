@@ -74,11 +74,11 @@ OK
 POST /api/v1/Agents/Targets/ExportTargetGroupToExcel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 288
+  "TargetGroupId": 540
 }
 ```
 
@@ -89,15 +89,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 70,
-  "FileName": "Bogan, Volkman and Torphy",
-  "Message": "ut",
+  "BatchTaskId": 536,
+  "FileName": "Lindgren, Hand and Mertz",
+  "Message": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldType": "System.String",
+      "FieldLength": 229
     }
   }
 }

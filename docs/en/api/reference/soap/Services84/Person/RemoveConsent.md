@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IPersonAgent.RemoveConsen
 
 ## RemoveConsent
 
-Turn off consent for a specified person and purpose.
 
-* **personId:** The person id
-* **purpose:** The key of the purpose this affects
+
+
 
 [WSDL file for Services84/Person](../Services84-Person.md)
 
@@ -49,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RemoveConsent Response
 
 ```xml
@@ -68,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

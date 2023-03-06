@@ -70,7 +70,7 @@ OK
 GET /api/v1/Project/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Satterfield Group",
-  "DisplayName": "Koss LLC",
-  "Description": "Stand-alone multimedia structure",
-  "ShortLabel": "dolore",
+  "FieldName": "Cummings Group",
+  "DisplayName": "Yundt-Goldner",
+  "Description": "Polarised secondary artificial intelligence",
+  "ShortLabel": "sed",
   "HideLabel": false,
   "HideField": false,
-  "IsIndexed": false,
-  "IsMandatory": true,
-  "IsReadOnly": true,
+  "IsIndexed": true,
+  "IsMandatory": false,
+  "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 149,
-  "TemplateVariableName": "Leannon LLC"
+  "Rank": 997,
+  "TemplateVariableName": "Doyle-Pollich"
 }
 ```

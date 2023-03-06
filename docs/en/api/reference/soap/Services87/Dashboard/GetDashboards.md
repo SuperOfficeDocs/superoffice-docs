@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDashboardAgent.GetDashbo
 
 ## GetDashboards
 
-Gets all dashboards for an associate
 
-* **associateId:** Associate Id
 
-**Returns:** All the users dashboards
+
 
 [WSDL file for Services87/Dashboard](../Services87-Dashboard.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetDashboards Response
 
@@ -112,3 +111,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IArchiveAgent.GetGroupAss
 
 ## GetGroupAssociateIds
 
-Returns the  associate ids that belongs to the given groups
 
-* **groupIds:** Array of group ids
 
-**Returns:** Array of associate ids
+
 
 [WSDL file for Services88/Archive](../Services88-Archive.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetGroupAssociateIds Response
 
 ```xml
@@ -73,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

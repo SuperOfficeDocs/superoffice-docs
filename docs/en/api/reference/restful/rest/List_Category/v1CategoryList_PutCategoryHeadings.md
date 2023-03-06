@@ -79,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 730,
-    "Name": "Grady-Jewess",
-    "Tooltip": "non",
-    "Deleted": true,
-    "Rank": 144,
-    "UdListDefinitionId": 215
+    "HeadingId": 794,
+    "Name": "Braun-Dickens",
+    "Tooltip": "voluptatem",
+    "Deleted": false,
+    "Rank": 278,
+    "UdListDefinitionId": 440
   },
   {
-    "HeadingId": 730,
-    "Name": "Grady-Jewess",
-    "Tooltip": "non",
-    "Deleted": true,
-    "Rank": 144,
-    "UdListDefinitionId": 215
+    "HeadingId": 794,
+    "Name": "Braun-Dickens",
+    "Tooltip": "voluptatem",
+    "Deleted": false,
+    "Rank": 278,
+    "UdListDefinitionId": 440
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 67,
-    "Name": "Gibson, Cummings and Mann",
-    "Tooltip": "est",
-    "Deleted": false,
-    "Rank": 391,
-    "UdListDefinitionId": 128,
+    "HeadingId": 442,
+    "Name": "Emard, Beer and Lang",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 370,
+    "UdListDefinitionId": 404,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 552
+        "FieldType": "System.Int32",
+        "FieldLength": 300
       }
     }
   }

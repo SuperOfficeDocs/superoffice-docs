@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IContactAgent.CreateNewEn
 
 ## CreateNewEntry
 
-Creates a new contact based on external duplicate
 
-* **duplicate:** The duplicate to create a new entry based upon
 
-**Returns:** The database identity of the newly created entry
+
 
 [WSDL file for Services88/Contact](../Services88-Contact.md)
 
@@ -55,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateNewEntry Response
 
 ```xml
@@ -75,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

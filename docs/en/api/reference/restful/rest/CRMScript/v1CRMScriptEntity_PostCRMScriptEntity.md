@@ -102,17 +102,17 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 46,
-  "UniqueIdentifier": "dicta",
-  "Name": "Haley-Greenfelder",
-  "Description": "Sharable context-sensitive ability",
-  "IncludeId": "nulla",
-  "HierarchyId": 419,
-  "Source": "perferendis",
-  "Registered": "1997-10-01T17:37:38.4828612+02:00",
-  "RegisteredAssociateId": 778,
-  "Updated": "2011-11-16T17:37:38.4828612+01:00",
-  "UpdatedAssociateId": 16
+  "EjscriptId": 618,
+  "UniqueIdentifier": "est",
+  "Name": "Schmitt, Bins and Cartwright",
+  "Description": "De-engineered asynchronous budgetary management",
+  "IncludeId": "ullam",
+  "HierarchyId": 381,
+  "Source": "iusto",
+  "Registered": "2012-06-27T14:19:10.240473+02:00",
+  "RegisteredAssociateId": 685,
+  "Updated": "1997-03-17T14:19:10.240473+01:00",
+  "UpdatedAssociateId": 380
 }
 ```
 
@@ -123,23 +123,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 310,
-  "UniqueIdentifier": "id",
-  "Name": "Bechtelar Inc and Sons",
-  "Description": "Visionary optimizing installation",
-  "IncludeId": "vero",
-  "HierarchyId": 305,
-  "Source": "vel",
-  "Registered": "2008-10-11T17:37:38.4828612+02:00",
-  "RegisteredAssociateId": 1000,
-  "Updated": "2003-02-08T17:37:38.4828612+01:00",
-  "UpdatedAssociateId": 44,
+  "EjscriptId": 468,
+  "UniqueIdentifier": "necessitatibus",
+  "Name": "Murray, O'Kon and Parisian",
+  "Description": "Networked tangible matrices",
+  "IncludeId": "cum",
+  "HierarchyId": 868,
+  "Source": "fugiat",
+  "Registered": "2006-11-09T14:19:10.240473+01:00",
+  "RegisteredAssociateId": 851,
+  "Updated": "2015-04-26T14:19:10.240473+02:00",
+  "UpdatedAssociateId": 770,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 311
+      "FieldLength": 57
     }
   },
   "_Links": {

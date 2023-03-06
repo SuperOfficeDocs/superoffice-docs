@@ -30,9 +30,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=quo
-GET /api/v1/MDOList/{listname}?query=non
+GET /api/v1/MDOList/{listname}?flat=True
+GET /api/v1/MDOList/{listname}?additional=sed
+GET /api/v1/MDOList/{listname}?query=nam
 ```
 
 
@@ -83,7 +83,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,50 +94,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 102,
-    "Name": "Gerlach-Leannon",
-    "ToolTip": "Sed vero officia fugit voluptatem temporibus.",
-    "Deleted": true,
-    "Rank": 178,
-    "Type": "ipsa",
+    "Id": 110,
+    "Name": "Mosciski Inc and Sons",
+    "ToolTip": "Hic labore non nostrum nam quisquam.",
+    "Deleted": false,
+    "Rank": 201,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 571,
-        "Name": "King Group",
-        "ToolTip": "At dolorum ut ut dolorem.",
-        "Deleted": true,
-        "Rank": 313,
-        "Type": "amet",
+        "Id": 870,
+        "Name": "Terry-Kovacek",
+        "ToolTip": "Vero et recusandae mollitia similique ut laborum libero.",
+        "Deleted": false,
+        "Rank": 574,
+        "Type": "nihil",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquam",
-        "ColorBlock": 970,
-        "ExtraInfo": "cum",
-        "StyleHint": "laboriosam",
-        "FullName": "Ross Paucek",
+        "IconHint": "quia",
+        "ColorBlock": 813,
+        "ExtraInfo": "et",
+        "StyleHint": "quia",
+        "FullName": "Dr. Susie Loyce Russel V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 478
+            "FieldType": "System.String",
+            "FieldLength": 905
           }
         }
       }
     ],
-    "IconHint": "cupiditate",
-    "ColorBlock": 525,
-    "ExtraInfo": "quis",
-    "StyleHint": "fugit",
-    "FullName": "Kenny Mayer",
+    "IconHint": "consequatur",
+    "ColorBlock": 230,
+    "ExtraInfo": "optio",
+    "StyleHint": "omnis",
+    "FullName": "Dudley Fisher",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 888
+        "FieldLength": 822
       }
     }
   }

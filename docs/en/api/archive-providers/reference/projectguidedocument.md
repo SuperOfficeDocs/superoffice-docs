@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ProjectGuideDocument"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,17 +25,15 @@ This class provides the needed overrides and concrete implementations needed by 
 to drive the sentry calculations, as well as the specialization with the correct root extender
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"suggestedDocument"|Documents|
 |"onlyInstance"|Created only|
 |"document"|Documents|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |projectId|int|Project ID: Database ID of project record| x |
@@ -54,7 +52,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |hasInstance| *None* |Has instance: Does this suggested item have an instance?|  |
 |deleted|bool|Deleted: Has this suggestion been deleted by the administrator?| x |
 |documentInstance/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|documentInstance/icon|string|Category: Displays the icon for an activity type| x |
+|documentInstance/icon|listAny|Category: Displays the icon for an activity type| x |
 |documentInstance/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |documentInstance/time| *None* |Time: Time|  |
 |documentInstance/type|listAny|Type: Displays the type of an activity| x |
@@ -597,7 +595,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/documentUdef/SuperOffice:7|listAny|documentdropdownlistbox| x |
 |documentInstance/documentUdef/SuperOffice:8|decimal|documentdecimal| x |
 |documentInstance/sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|documentInstance/sale/icon|string|Category: Displays the icon for an activity type| x |
+|documentInstance/sale/icon|listAny|Category: Displays the icon for an activity type| x |
 |documentInstance/sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |documentInstance/sale/time| *None* |Time: Time|  |
 |documentInstance/sale/type|listAny|Type: Displays the type of an activity| x |
@@ -695,11 +693,14 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideDocument?$select=documentInstance/updatedByFullName,documentInstance/person/retired,documentInstance/person/birthYear,documentInstance/person/personPrivate/formattedNumber,documentInstance/person/correspondingAssociate/firstName
+GET /api/v1/archive/ProjectGuideDocument?$select=documentInstance/type,documentInstance/person/restrictionAddress/line2,documentInstance/contact/postAddress/city,documentInstance/contact/contactAssociate/userName,documentInstance/project/projectAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

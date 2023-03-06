@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 210
+  "ChatTopicId": 880
 }
 ```
 
@@ -117,29 +117,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 236,
-  "TopicId": 682,
+  "ChatSessionId": 570,
+  "TopicId": 859,
   "User": null,
   "Person": null,
-  "CustomerAlias": "eius",
-  "CustomerHost": "explicabo",
-  "CustomerName": "Mann LLC",
-  "CustomerEmail": "nicola@koepp.us",
-  "CustomerPhone": "1-224-540-7979",
+  "CustomerAlias": "ea",
+  "CustomerHost": "omnis",
+  "CustomerName": "Runolfsson LLC",
+  "CustomerEmail": "emelia.bechtelar@schmeler.co.uk",
+  "CustomerPhone": "100.780.9502 x3166",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Schultz-Runte",
+  "CustomerCompanyName": "Kuphal, Ward and Fahey",
   "Status": "Closed",
-  "FirstMessage": "velit",
-  "LastMessage": "non",
-  "WhenRequested": "1999-02-07T17:37:17.103241+01:00",
-  "WhenStarted": "2003-03-18T17:37:17.103241+01:00",
-  "WhenEnded": "2003-07-09T17:37:17.103241+02:00",
-  "WhenIdle": "2008-02-20T17:37:17.103241+01:00",
-  "WhenFetched": "2018-01-03T17:37:17.103241+01:00",
-  "SessionKey": "eaque",
-  "InitialQueuePos": 312,
-  "AlertLevel": 824,
-  "Rank": 521,
+  "FirstMessage": "corrupti",
+  "LastMessage": "molestiae",
+  "WhenRequested": "1996-08-27T14:19:02.9011532+02:00",
+  "WhenStarted": "2015-04-26T14:19:02.9011532+02:00",
+  "WhenEnded": "2001-10-04T14:19:02.9011532+02:00",
+  "WhenIdle": "2018-12-19T14:19:02.9011532+01:00",
+  "WhenFetched": "2008-07-11T14:19:02.9011532+02:00",
+  "SessionKey": "aliquid",
+  "InitialQueuePos": 304,
+  "AlertLevel": 283,
+  "Rank": 211,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -147,13 +147,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 886,
+  "Rating": 409,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 502
+      "FieldLength": 281
     }
   }
 }

@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetPaymentType
 
 ## GetPaymentTypes
 
-Returns all PaymentTypes in SuperOffice db.
 
-**Returns:** An array of all available PaymentTypes
+
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetPaymentTypes Response
 
 ```xml
@@ -72,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

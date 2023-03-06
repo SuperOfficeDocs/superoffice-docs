@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDiagnosticsAgent.WebAppU
 
 ## WebAppUsageExistsInPeriod
 
-Returns true if viewState has been clicked at least once since FromDate, if asscoiateId &lt; 0 or FromDate is DateTime.MinValue no restriction given for those parameters
 
-* **associateId:** The asscoiate id to look for webapp usage
-* **viewState:** The viewState to search for
-* **fromDate:** The datetime to restrict webapp usage on
 
-**Returns:** Returns true if viewState has been clicked at least once since FromDate
+
 
 [WSDL file for Services87/Diagnostics](../Services87-Diagnostics.md)
 
@@ -45,13 +41,14 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Diagnostics:WebAppUsageExistsInPeriod>
     <Diagnostics:AssociateId xsi:type="xsd:int">0</Diagnostics:AssociateId>
     <Diagnostics:ViewState xsi:type="xsd:string"></Diagnostics:ViewState>
-    <Diagnostics:FromDate xsi:type="xsd:dateTime">2022-08-26T08:56:47Z</Diagnostics:FromDate>
+    <Diagnostics:FromDate xsi:type="xsd:dateTime">2023-02-15T13:14:58Z</Diagnostics:FromDate>
    </Diagnostics:WebAppUsageExistsInPeriod>
 
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## WebAppUsageExistsInPeriod Response
 
@@ -73,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

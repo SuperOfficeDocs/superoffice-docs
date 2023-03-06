@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IMarketingAgent.CreateDef
 
 ## CreateDefaultShipmentMessageBlockEntity
 
-Loading default values into a new ShipmentMessageBlockEntity.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-**Returns:** New ShipmentMessageBlockEntity with default values
+
+
 
 [WSDL file for Services88/Marketing](../Services88-Marketing.md)
 
@@ -46,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultShipmentMessageBlockEntity Response
 
 ```xml
@@ -63,9 +63,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Marketing:ShipmentMessageBlockId xsi:type="xsd:int">0</Marketing:ShipmentMessageBlockId>
     <Marketing:AssociateId xsi:type="xsd:int">0</Marketing:AssociateId>
     <Marketing:Block xsi:type="xsd:string"></Marketing:Block>
-    <Marketing:Registered xsi:type="xsd:dateTime">2022-08-26T08:59:50Z</Marketing:Registered>
+    <Marketing:Registered xsi:type="xsd:dateTime">2023-02-15T13:17:47Z</Marketing:Registered>
     <Marketing:RegisteredAssociateId xsi:type="xsd:int">0</Marketing:RegisteredAssociateId>
-    <Marketing:Updated xsi:type="xsd:dateTime">2022-08-26T08:59:50Z</Marketing:Updated>
+    <Marketing:Updated xsi:type="xsd:dateTime">2023-02-15T13:17:47Z</Marketing:Updated>
     <Marketing:UpdatedAssociateId xsi:type="xsd:int">0</Marketing:UpdatedAssociateId>
     <Marketing:UpdatedCount xsi:type="xsd:short">0</Marketing:UpdatedCount>
    </Marketing:Response>
@@ -74,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

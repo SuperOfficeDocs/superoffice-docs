@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.SaveHeadingEnt
 
 ## SaveHeadingEntity
 
-Updates the existing HeadingEntity or creates a new HeadingEntity if the id parameter is 0.
 
-* **headingEntity:** The HeadingEntity that is saved.
 
-**Returns:** New or updated HeadingEntity
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -56,6 +54,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveHeadingEntity Response
 
 ```xml
@@ -83,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

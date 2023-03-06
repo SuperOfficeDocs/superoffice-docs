@@ -61,7 +61,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,56 +72,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "McKenzie, Crooks and Wolff",
-    "Description": "Extended attitude-oriented encoding",
+    "Name": "Mayert Inc and Sons",
+    "Description": "Persevering grid-enabled knowledge user",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 701,
-        "Tooltip": "reiciendis",
+        "Total": 250,
+        "Tooltip": "dolorem",
         "CanAssign": false,
-        "Free": 383,
-        "InUse": 780,
+        "Free": 590,
+        "InUse": 58,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 561,
-        "Name": "Eichmann Inc and Sons",
-        "Description": "Managed attitude-oriented structure",
-        "PrerequisiteModuleName": "Sanford, Wehner and Zemlak",
-        "SortOrder": 561,
-        "ExtraFlags": 653,
+        "ModuleLicenseId": 307,
+        "Name": "Nitzsche-Hickle",
+        "Description": "Virtual mission-critical paradigm",
+        "PrerequisiteModuleName": "Schumm-Schoen",
+        "SortOrder": 519,
+        "ExtraFlags": 721,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 577
+            "FieldLength": 11
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 868,
-        "Tooltip": "labore",
+        "Unrestricted": true,
+        "Total": 838,
+        "Tooltip": "quo",
         "CanAssign": false,
-        "Free": 39,
-        "InUse": 212,
+        "Free": 762,
+        "InUse": 668,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 294,
-        "Name": "Strosin Group",
-        "Description": "Object-based bifurcated collaboration",
-        "PrerequisiteModuleName": "Harris Inc and Sons",
-        "SortOrder": 447,
-        "ExtraFlags": 588,
+        "ModuleLicenseId": 820,
+        "Name": "Marks Group",
+        "Description": "Seamless exuding moderator",
+        "PrerequisiteModuleName": "Williamson-Jaskolski",
+        "SortOrder": 530,
+        "ExtraFlags": 615,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 526
+            "FieldLength": 615
           }
         }
       }
@@ -131,61 +131,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 52
+        "FieldLength": 865
       }
     }
   },
   {
-    "Name": "McKenzie, Crooks and Wolff",
-    "Description": "Extended attitude-oriented encoding",
+    "Name": "Mayert Inc and Sons",
+    "Description": "Persevering grid-enabled knowledge user",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 701,
-        "Tooltip": "reiciendis",
+        "Total": 250,
+        "Tooltip": "dolorem",
         "CanAssign": false,
-        "Free": 383,
-        "InUse": 780,
+        "Free": 590,
+        "InUse": 58,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 561,
-        "Name": "Eichmann Inc and Sons",
-        "Description": "Managed attitude-oriented structure",
-        "PrerequisiteModuleName": "Sanford, Wehner and Zemlak",
-        "SortOrder": 561,
-        "ExtraFlags": 653,
+        "ModuleLicenseId": 307,
+        "Name": "Nitzsche-Hickle",
+        "Description": "Virtual mission-critical paradigm",
+        "PrerequisiteModuleName": "Schumm-Schoen",
+        "SortOrder": 519,
+        "ExtraFlags": 721,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 577
+            "FieldLength": 11
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 868,
-        "Tooltip": "labore",
+        "Unrestricted": true,
+        "Total": 838,
+        "Tooltip": "quo",
         "CanAssign": false,
-        "Free": 39,
-        "InUse": 212,
+        "Free": 762,
+        "InUse": 668,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 294,
-        "Name": "Strosin Group",
-        "Description": "Object-based bifurcated collaboration",
-        "PrerequisiteModuleName": "Harris Inc and Sons",
-        "SortOrder": 447,
-        "ExtraFlags": 588,
+        "ModuleLicenseId": 820,
+        "Name": "Marks Group",
+        "Description": "Seamless exuding moderator",
+        "PrerequisiteModuleName": "Williamson-Jaskolski",
+        "SortOrder": 530,
+        "ExtraFlags": 615,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 526
+            "FieldLength": 615
           }
         }
       }
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 52
+        "FieldLength": 865
       }
     }
   }

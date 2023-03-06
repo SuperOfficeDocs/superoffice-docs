@@ -69,14 +69,14 @@ Content-Type: application/json; charset=utf-8
 {
   "QuickReplies": [
     {
-      "QuickReplyId": 371,
-      "Name": "Monahan Group",
-      "HtmlBody": "amet"
+      "QuickReplyId": 679,
+      "Name": "Hilll Inc and Sons",
+      "HtmlBody": "quod"
     },
     {
-      "QuickReplyId": 371,
-      "Name": "Monahan Group",
-      "HtmlBody": "amet"
+      "QuickReplyId": 679,
+      "Name": "Hilll Inc and Sons",
+      "HtmlBody": "quod"
     }
   ]
 }

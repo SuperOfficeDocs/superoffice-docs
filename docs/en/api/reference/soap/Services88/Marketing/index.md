@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/Marke
 
 Handled by the <see cref="T:SuperOffice.Services88.IMarketingAgent">SuperOffice.Services88.IMarketingAgent</see> interface.
 
-Interface for the Marketing Agent
-Agent used for Marketing functions, such as Forms
+
 
 Download [WSDL file for Services88/Marketing](../Services88-Marketing.md) if you need to generate your own proxy code.
 
@@ -26,6 +25,7 @@ Download [WSDL file for Services88/Marketing](../Services88-Marketing.md) if you
 * [DeleteShipmentMessageEntity](DeleteShipmentMessageEntity.md)
 * [GetFormEntity](GetFormEntity.md)
 * [GetFormSubmissionEntity](GetFormSubmissionEntity.md)
+* [GetFormSubmissionsCount](GetFormSubmissionsCount.md)
 * [GetPreviewMailing](GetPreviewMailing.md)
 * [GetPreviewMailingHeader](GetPreviewMailingHeader.md)
 * [GetShipmentMessageBlockEntity](GetShipmentMessageBlockEntity.md)
@@ -36,3 +36,4 @@ Download [WSDL file for Services88/Marketing](../Services88-Marketing.md) if you
 * [SaveShipmentMessageBlockEntity](SaveShipmentMessageBlockEntity.md)
 * [SaveShipmentMessageEntity](SaveShipmentMessageEntity.md)
 * [VerifyGoogleRecaptcha](VerifyGoogleRecaptcha.md)
+

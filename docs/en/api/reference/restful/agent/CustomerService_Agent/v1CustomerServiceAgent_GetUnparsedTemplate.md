@@ -83,8 +83,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 710,
-  "LanguageId": 437
+  "ReplyTemplateId": 347,
+  "LanguageId": 456
 }
 ```
 
@@ -95,34 +95,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 533,
-  "PlainParsed": "et",
-  "HtmlParsed": "vel",
+  "ReplyTemplateId": 902,
+  "PlainParsed": "dolor",
+  "HtmlParsed": "illum",
   "Attachments": [
     {
-      "AttachmentId": 6,
-      "Name": "Ruecker LLC",
-      "ContentType": "nihil",
-      "AttSize": 669,
-      "InlineImage": false,
-      "ContentId": "assumenda",
+      "AttachmentId": 240,
+      "Name": "Lakin, Hansen and Lesch",
+      "ContentType": "accusamus",
+      "AttSize": 192,
+      "InlineImage": true,
+      "ContentId": "explicabo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 426
+          "FieldLength": 136
         }
       }
     }
   ],
-  "Subject": "repudiandae",
+  "Subject": "nulla",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 369
+      "FieldLength": 524
     }
   }
 }

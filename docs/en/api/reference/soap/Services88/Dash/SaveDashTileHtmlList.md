@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashAgent.SaveDashTileHt
 
 ## SaveDashTileHtmlList
 
-Set the HTML data for a tile with TileType = HTML.
 
-* **dashboardTileDefinitionId:** The id of the dashboard tile definition
-* **languages:** List of HTML content per language
+
+
 
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
@@ -54,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveDashTileHtmlList Response
 
 ```xml
@@ -79,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

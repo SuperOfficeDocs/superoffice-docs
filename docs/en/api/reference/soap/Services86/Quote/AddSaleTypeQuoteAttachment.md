@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IQuoteAgent.AddSaleTypeQu
 
 ## AddSaleTypeQuoteAttachment
 
-Adds a new quote attachment document to a sale type
 
-* **saleTypeId:** The ID of the sale type
-* **documentId:** The ID of the document
 
-**Returns:** ID of the new sale type quote attachment row
+
 
 [WSDL file for Services86/Quote](../Services86-Quote.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## AddSaleTypeQuoteAttachment Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

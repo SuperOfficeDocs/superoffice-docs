@@ -128,11 +128,11 @@ OK
 POST /api/v1/Agents/Appointment/AssignTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 391,
+  "AppointmentId": 236,
   "Participant": null,
   "UpdateMode": "OnlyThis"
 }
@@ -149,122 +149,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2000-06-06T17:37:16.4302422+02:00",
-  "AppointmentId": 244,
-  "Description": "Integrated asynchronous algorithm",
-  "StartDate": "2011-11-03T17:37:16.4302422+01:00",
-  "EndDate": "2003-10-21T17:37:16.4302422+02:00",
+  "CreatedDate": "2002-08-28T14:19:02.5942767+02:00",
+  "AppointmentId": 799,
+  "Description": "Persevering executive algorithm",
+  "StartDate": "2002-08-18T14:19:02.5942767+02:00",
+  "EndDate": "2018-10-15T14:19:02.5942767+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 15,
+  "MotherId": 614,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2013-01-03T17:37:16.433243+01:00",
+  "UpdatedDate": "1996-08-09T14:19:02.5942767+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 669,
+  "ActiveLinks": 622,
   "Links": [
     {
-      "EntityName": "Schimmel Group",
-      "Id": 378,
-      "Description": "Fully-configurable optimal implementation",
-      "ExtraInfo": "ducimus",
-      "LinkId": 387,
+      "EntityName": "Balistreri-Daugherty",
+      "Id": 352,
+      "Description": "Enterprise-wide systematic structure",
+      "ExtraInfo": "dolor",
+      "LinkId": 791,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 675
+          "FieldLength": 172
         }
       }
     }
   ],
-  "AlarmLeadTime": "tenetur",
+  "AlarmLeadTime": "magnam",
   "HasAlarm": false,
-  "ColorIndex": 346,
+  "ColorIndex": 674,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "non",
-  "LeadTime": "impedit",
-  "Location": "dolores",
-  "RejectCounter": 106,
+  "LagTime": "quaerat",
+  "LeadTime": "ex",
+  "Location": "velit",
+  "RejectCounter": 666,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 673,
-      "PersonId": 244,
-      "ContactId": 143,
-      "EmailId": 29,
-      "SendEmail": false,
+      "AssociateId": 454,
+      "PersonId": 757,
+      "ContactId": 904,
+      "EmailId": 125,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 673,
-      "PersonId": 244,
-      "ContactId": 143,
-      "EmailId": 29,
-      "SendEmail": false,
+      "AssociateId": 454,
+      "PersonId": 757,
+      "ContactId": 904,
+      "EmailId": 125,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2009-07-02T17:37:16.433243+02:00",
+  "ActiveDate": "1999-03-22T14:19:02.5942767+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 434,
+  "PreferredTZLocation": 237,
   "Sale": null,
-  "SuggestedAppointmentId": 143,
+  "SuggestedAppointmentId": 441,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "maxime",
+  "CentralserviceVideomeetId": "nulla",
   "UserDefinedFields": {
-    "SuperOffice:1": "Arnaldo Mohr",
-    "SuperOffice:2": "Susanna Russel"
+    "SuperOffice:1": "1998829868",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "quam",
-    "ExtraFields2": "sunt"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "aperiam"
   },
   "CustomFields": {
-    "CustomFields1": "porro",
-    "CustomFields2": "est"
+    "CustomFields1": "nisi",
+    "CustomFields2": "distinctio"
   },
-  "PublishEventDate": "2006-07-16T17:37:16.4352417+02:00",
-  "PublishTo": "2003-10-20T17:37:16.4352417+02:00",
-  "PublishFrom": "2022-05-10T17:37:16.4352417+02:00",
+  "PublishEventDate": "2009-06-21T14:19:02.5942767+02:00",
+  "PublishTo": "2021-06-29T14:19:02.5942767+02:00",
+  "PublishFrom": "2020-09-04T14:19:02.5942767+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 950,
+      "VisibleId": 350,
       "Visibility": "All",
-      "DisplayValue": "exercitationem",
+      "DisplayValue": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 809
+          "FieldType": "System.String",
+          "FieldLength": 520
         }
       }
     },
     {
-      "VisibleId": 950,
+      "VisibleId": 350,
       "Visibility": "All",
-      "DisplayValue": "exercitationem",
+      "DisplayValue": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 809
+          "FieldType": "System.String",
+          "FieldLength": 520
         }
       }
     }
@@ -273,8 +273,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 897
+      "FieldType": "System.Int32",
+      "FieldLength": 825
     }
   }
 }

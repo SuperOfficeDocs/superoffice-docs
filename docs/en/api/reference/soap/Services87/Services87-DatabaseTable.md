@@ -355,34 +355,19 @@ title: Services87.DatabaseTableAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="DatabaseTable">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for DatabaseTable</summary>
-    </wsdl:documentation>
     <wsdl:operation name="ReadRow">
-      <wsdl:documentation>
-        <summary>Read a row from a table</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/DatabaseTable/ReadRow" name="ReadRowRequest" message="tns:ReadRowRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/DatabaseTable/ReadRowResponse" name="ReadRowResponse" message="tns:ReadRowResponse" />
     </wsdl:operation>
     <wsdl:operation name="InsertRow">
-      <wsdl:documentation>
-        <summary>Insert a row into a table</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/DatabaseTable/InsertRow" name="InsertRowRequest" message="tns:InsertRowRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/DatabaseTable/InsertRowResponse" name="InsertRowResponse" message="tns:InsertRowResponse" />
     </wsdl:operation>
     <wsdl:operation name="UpdateRow">
-      <wsdl:documentation>
-        <summary>Update a row in a table</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/DatabaseTable/UpdateRow" name="UpdateRowRequest" message="tns:UpdateRowRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/DatabaseTable/UpdateRowResponse" name="UpdateRowResponse" message="tns:UpdateRowResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteRow">
-      <wsdl:documentation>
-        <summary>Delete a row from a table</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/DatabaseTable/DeleteRow" name="DeleteRowRequest" message="tns:DeleteRowRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/DatabaseTable/DeleteRowResponse" name="DeleteRowResponse" message="tns:DeleteRowResponse" />
     </wsdl:operation>
@@ -461,3 +446,4 @@ title: Services87.DatabaseTableAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

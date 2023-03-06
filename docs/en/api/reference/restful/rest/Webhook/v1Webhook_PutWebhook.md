@@ -106,26 +106,26 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 41,
-  "Name": "Funk, Abernathy and Kulas",
+  "WebhookId": 787,
+  "Name": "Hartmann-Stark",
   "Events": [
-    "molestiae",
-    "et"
+    "error",
+    "quia"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "corrupti",
+  "Secret": "sit",
   "State": "Active",
-  "Type": "aspernatur",
+  "Type": "nobis",
   "Headers": {
-    "Headers1": "nesciunt",
-    "Headers2": "corrupti"
+    "Headers1": "unde",
+    "Headers2": "neque"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2013-01-04T17:37:39.6044312+01:00",
+  "Registered": "2004-08-10T14:19:11.0855578+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2022-10-07T17:37:39.6044312+02:00",
+  "Updated": "2022-01-11T14:19:11.0855578+01:00",
   "UpdatedAssociate": null
 }
 ```
@@ -137,26 +137,26 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 986,
-  "Name": "Rau, Sporer and Friesen",
+  "WebhookId": 357,
+  "Name": "Bahringer LLC",
   "Events": [
-    "et",
-    "beatae"
+    "labore",
+    "quo"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "voluptas",
+  "Secret": "aut",
   "State": "Active",
-  "Type": "rerum",
+  "Type": "voluptas",
   "Headers": {
-    "Headers1": "libero",
-    "Headers2": "fugit"
+    "Headers1": "dicta",
+    "Headers2": "sapiente"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1999-05-29T17:37:39.6064311+02:00",
+  "Registered": "1999-12-22T14:19:11.0855578+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2010-07-25T17:37:39.6064311+02:00",
+  "Updated": "2011-09-07T14:19:11.0855578+02:00",
   "UpdatedAssociate": null,
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",

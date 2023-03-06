@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/Sale.
 
 Handled by the <see cref="T:SuperOffice.Services88.ISaleAgent">SuperOffice.Services88.ISaleAgent</see> interface.
 
-Interface for the Sale Agent
-Sale data services
+
 
 Download [WSDL file for Services88/Sale](../Services88-Sale.md) if you need to generate your own proxy code.
 
@@ -54,3 +53,4 @@ Download [WSDL file for Services88/Sale](../Services88-Sale.md) if you need to g
 * [SetAsSold](SetAsSold.md)
 * [UpdateSaleStakeholders](UpdateSaleStakeholders.md)
 * [ValidateSaleEntity](ValidateSaleEntity.md)
+

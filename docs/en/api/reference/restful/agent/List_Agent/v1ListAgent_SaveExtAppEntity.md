@@ -104,32 +104,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 540,
-  "Name": "Stark-Yundt",
-  "Tooltip": "officiis",
+  "ExtAppId": 795,
+  "Name": "Yost-Funk",
+  "Tooltip": "non",
   "Deleted": false,
-  "Rank": 633,
-  "Filename": "numquam",
-  "Parameters": "dolorem",
-  "Workdir": "quae",
+  "Rank": 999,
+  "Filename": "sunt",
+  "Parameters": "id",
+  "Workdir": "minima",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 869,
-  "WaitToFinish": true,
+  "Icon": 82,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "aliquam"
+  "Path": "voluptas"
 }
 ```
 
@@ -140,34 +140,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 702,
-  "Name": "Kemmer LLC",
-  "Tooltip": "cumque",
-  "Deleted": false,
-  "Rank": 749,
-  "Filename": "in",
-  "Parameters": "amet",
-  "Workdir": "et",
+  "ExtAppId": 480,
+  "Name": "Dach, Rutherford and Sauer",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 606,
+  "Filename": "sunt",
+  "Parameters": "excepturi",
+  "Workdir": "dolorem",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "Icon": 853,
+  "ShowInStatusBar": true,
+  "Icon": 326,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "et",
+  "Path": "minus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldLength": 358
     }
   }
 }

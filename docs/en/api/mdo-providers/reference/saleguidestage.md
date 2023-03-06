@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "saleguidestage"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,6 @@ so.envir:
 ---
 
 # "saleguidestage" MDO List
-
 MDO provider for the stage list, customized for the sale guide stage button row
 
 AdditionalInfo is a name/value string, and can be either sale_id=&lt;id&gt; or saletype_id=&lt;id&gt;. If sale_id is given,
@@ -38,6 +37,10 @@ The name of the MDO list is 'saleguidestage'.
 
 Separator: &
 
+
+
+
+
 ## Sample Request
 
 ```http!
@@ -49,7 +52,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("saleguidestage", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -67,6 +69,7 @@ foreach (var item in listProvider.RootItems) {
 |5|Andre møte|||
 |2|Sluttforhandlinger|||
 |3|Muntlig aksept|||
+
 
 ## Related MDO Lists
 

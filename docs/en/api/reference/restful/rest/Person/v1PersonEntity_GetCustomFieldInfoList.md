@@ -66,7 +66,7 @@ OK
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "King-Hirthe",
-    "DisplayName": "Sanford, Gerlach and Purdy",
-    "Description": "Down-sized tertiary secured line",
-    "ShortLabel": "ipsa",
-    "HideLabel": false,
-    "HideField": true,
-    "IsIndexed": true,
+    "FieldName": "O'Kon Group",
+    "DisplayName": "White Group",
+    "Description": "Realigned bandwidth-monitored installation",
+    "ShortLabel": "nam",
+    "HideLabel": true,
+    "HideField": false,
+    "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 47,
-    "TemplateVariableName": "Bernhard Inc and Sons"
+    "Rank": 83,
+    "TemplateVariableName": "Lynch Group"
   }
 ]
 ```

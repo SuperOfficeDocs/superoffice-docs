@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 305,
-    "Name": "Prosacco-Ondricka",
-    "ToolTip": "Quia facilis vitae neque dolore consequatur doloribus.",
-    "Deleted": true,
-    "Rank": 160,
-    "Type": "eaque",
-    "ColorBlock": 881,
-    "IconHint": "est",
+    "Id": 15,
+    "Name": "Ankunding LLC",
+    "ToolTip": "Quia id omnis eum provident nulla quasi.",
+    "Deleted": false,
+    "Rank": 26,
+    "Type": "nostrum",
+    "ColorBlock": 569,
+    "IconHint": "dolor",
     "Selected": true,
-    "LastChanged": "2001-09-13T17:37:40.299506+02:00",
+    "LastChanged": "1998-07-31T14:19:11.4714393+02:00",
     "ChildItems": [
       {
-        "Id": 884,
-        "Name": "Kassulke LLC",
-        "ToolTip": "Velit hic dolor sint.",
+        "Id": 365,
+        "Name": "Windler, Jakubowski and Monahan",
+        "ToolTip": "Sit fugiat unde qui est maxime sit magnam.",
         "Deleted": false,
-        "Rank": 398,
-        "Type": "cupiditate",
-        "ColorBlock": 953,
-        "IconHint": "doloribus",
-        "Selected": true,
-        "LastChanged": "2018-05-17T17:37:40.299506+02:00",
+        "Rank": 478,
+        "Type": "distinctio",
+        "ColorBlock": 96,
+        "IconHint": "pariatur",
+        "Selected": false,
+        "LastChanged": "1999-08-24T14:19:11.4714393+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "aperiam",
-        "Hidden": false,
-        "FullName": "Miss Idella Friesen",
+        "ExtraInfo": "hic",
+        "StyleHint": "autem",
+        "Hidden": true,
+        "FullName": "Effie Maurine DuBuque Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 319
+            "FieldLength": 43
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "sunt",
+    "ExtraInfo": "harum",
+    "StyleHint": "corporis",
     "Hidden": false,
-    "FullName": "Prof. Celia Ines Swaniawski",
+    "FullName": "Kathleen Edison Romaguera DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 38
+        "FieldType": "System.String",
+        "FieldLength": 670
       }
     }
   }

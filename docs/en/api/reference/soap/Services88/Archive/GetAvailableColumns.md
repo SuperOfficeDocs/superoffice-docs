@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IArchiveAgent.GetAvailabl
 
 ## GetAvailableColumns
 
-Return list of all columns supported by an archive provider. See also GetArchiveConfiguration.
 
-* **providerName:** The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
-* **context:** Optional context parameter, url-encoded string context parameter for ArchiveProvider constructor
 
-**Returns:** Array of all columns supported by the archive provider.
+
 
 [WSDL file for Services88/Archive](../Services88-Archive.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetAvailableColumns Response
 
@@ -87,3 +85,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

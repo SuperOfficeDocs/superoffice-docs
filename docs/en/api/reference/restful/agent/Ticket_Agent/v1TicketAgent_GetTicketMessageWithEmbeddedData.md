@@ -72,7 +72,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -103,7 +103,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 542,
+  "Id": 271,
   "EmbedImages": "Inline"
 }
 ```
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 677,
+  "EjMessageId": 562,
   "Ticket": null,
-  "CreatedAt": "1997-07-23T17:37:19.4749791+02:00",
+  "CreatedAt": "2014-08-20T14:19:04.5172011+02:00",
   "CreatedBy": null,
-  "Author": "quisquam",
+  "Author": "quaerat",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "perferendis",
-  "TimeSpent": 624,
-  "Body": "id",
-  "HtmlBody": "cum",
-  "EmailHeader": "asia@feest.us",
-  "DebugInfo": "totam",
-  "MailSorter": "neque",
+  "MessageId": "aut",
+  "TimeSpent": 636,
+  "Body": "qui",
+  "HtmlBody": "ab",
+  "EmailHeader": "rosa@grimesheidenreich.uk",
+  "DebugInfo": "rerum",
+  "MailSorter": "dicta",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptatem",
+  "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 552,
-      "Name": "Emmerich, Raynor and Herzog",
-      "Value": "ad",
+      "Id": 786,
+      "Name": "Conroy, Bergstrom and Simonis",
+      "Value": "eos",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,47 +144,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 112
+          "FieldLength": 839
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "non",
-  "Sentiment": 231,
-  "SentimentConfidence": 851,
+  "Important": true,
+  "Language": "minima",
+  "Sentiment": 109,
+  "SentimentConfidence": 833,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 20,
-      "Name": "Murazik Inc and Sons",
-      "ContentType": "ipsam",
-      "AttSize": 548,
+      "AttachmentId": 272,
+      "Name": "Kris Inc and Sons",
+      "ContentType": "non",
+      "AttSize": 782,
       "InlineImage": false,
-      "ContentId": "voluptatem",
+      "ContentId": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 255
+          "FieldLength": 862
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aspernatur",
-    "ExtraFields2": "maxime"
+    "ExtraFields1": "tempore",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "eaque",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "doloribus",
+    "CustomFields2": "sunt"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 804
+      "FieldType": "System.Int32",
+      "FieldLength": 306
     }
   }
 }

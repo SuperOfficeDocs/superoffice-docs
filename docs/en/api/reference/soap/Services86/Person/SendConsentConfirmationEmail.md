@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IPersonAgent.SendConsentC
 
 ## SendConsentConfirmationEmail
 
-Send confirmation email to the provided person, email address (id), using the document template
 
-* **personId:** The person id
-* **emailAddress:** The email address to send to.
-* **emailTemplateId:** The id of the email template (doctmpl\_id)
-* **cultureLcidId:** The id of the culture (LCID)
-* **subject:** Optional email subject
+
+
 
 [WSDL file for Services86/Person](../Services86-Person.md)
 
@@ -55,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SendConsentConfirmationEmail Response
 
 ```xml
@@ -74,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

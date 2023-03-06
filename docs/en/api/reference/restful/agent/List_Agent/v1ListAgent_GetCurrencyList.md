@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 331,
-    "Value": "dicta",
-    "Tooltip": "id",
+    "Id": 775,
+    "Value": "nesciunt",
+    "Tooltip": "reprehenderit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 377
+        "FieldLength": 450
       }
     }
   },
   {
-    "Id": 331,
-    "Value": "dicta",
-    "Tooltip": "id",
+    "Id": 775,
+    "Value": "nesciunt",
+    "Tooltip": "reprehenderit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 377
+        "FieldLength": 450
       }
     }
   }

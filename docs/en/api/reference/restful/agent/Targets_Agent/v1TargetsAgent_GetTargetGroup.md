@@ -25,7 +25,7 @@ Gets a TargetGroup object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Targets/GetTargetGroup?targetGroupId=77
+POST /api/v1/Agents/Targets/GetTargetGroup?targetGroupId=178
 POST /api/v1/Agents/Targets/GetTargetGroup?$select=name,department,category/id
 ```
 
@@ -81,30 +81,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 312,
-  "Year": 730,
+  "TargetGroupId": 542,
+  "Year": 297,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 880,
+      "TargetAssignmentInfoId": 935,
       "Values": [
-        686,
-        981
+        584,
+        516
       ],
       "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 216,
-      "DimensionListItemDisplayName": "Dickinson-Marvin",
+      "DimensionListItem": 67,
+      "DimensionListItemDisplayName": "Bernier-Schmidt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 210
+          "FieldType": "System.String",
+          "FieldLength": 896
         }
       }
     }
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 304
+      "FieldLength": 332
     }
   }
 }

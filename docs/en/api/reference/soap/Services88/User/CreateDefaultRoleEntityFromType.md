@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.CreateDefaultR
 
 ## CreateDefaultRoleEntityFromType
 
-Create a new role entity of the specified role type. The role type cannot be changed after the entity is created.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **type:** Type of role (Employee/External/Anonymous/System)
 
-**Returns:** A blank role.
+
 
 [WSDL file for Services88/User](../Services88-User.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultRoleEntityFromType Response
 
 ```xml
@@ -71,7 +69,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <User:RoleType xsi:type="User:RoleType">Employee</User:RoleType>
     <User:Deleted xsi:type="xsd:short">0</User:Deleted>
     <User:Rank xsi:type="xsd:short">0</User:Rank>
-    <User:Created xsi:type="xsd:dateTime">2022-08-26T09:00:49Z</User:Created>
+    <User:Created xsi:type="xsd:dateTime">2023-02-15T13:18:40Z</User:Created>
     <User:UseCategories xsi:type="xsd:short">0</User:UseCategories>
     <User:CreatedBy xsi:type="User:Associate">
      <User:AssociateId xsi:type="xsd:int">0</User:AssociateId>
@@ -87,7 +85,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
      <User:UserName xsi:type="xsd:string"></User:UserName>
     </User:CreatedBy>
-    <User:Updated xsi:type="xsd:dateTime">2022-08-26T09:00:49Z</User:Updated>
+    <User:Updated xsi:type="xsd:dateTime">2023-02-15T13:18:40Z</User:Updated>
     <User:UpdatedBy xsi:type="User:Associate">
      <User:AssociateId xsi:type="xsd:int">0</User:AssociateId>
      <User:Name xsi:type="xsd:string"></User:Name>
@@ -131,3 +129,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

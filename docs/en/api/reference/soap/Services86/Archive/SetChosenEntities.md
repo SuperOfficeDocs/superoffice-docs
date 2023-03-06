@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IArchiveAgent.SetChosenEn
 
 ## SetChosenEntities
 
-Set the currently chosen entities for the given gui name/provider name combination. This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveEntities: plus the archive provider name and gui name as its additionalInfo.
 
-* **guiName:** String that identifies the archive in the GUI, must be the same when fetching and storing configurations, but does not otherwise have to match anything.
-* **providerName:** Name of archive provider, must match one of the plugins known to the ArchiveProviderFactory.
-* **entities:** Array of entity names
+
+
 
 [WSDL file for Services86/Archive](../Services86-Archive.md)
 
@@ -53,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetChosenEntities Response
 
 ```xml
@@ -72,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -75,9 +75,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "sed",
-  "Instance": "asperiores",
-  "Page": "beatae"
+  "Application": "et",
+  "Instance": "rem",
+  "Page": "excepturi"
 }
 ```
 
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"impedit"
+"quia"
 ```

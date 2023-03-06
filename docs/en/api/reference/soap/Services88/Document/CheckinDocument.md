@@ -11,14 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.CheckinDoc
 
 ## CheckinDocument
 
-Check in a currently checked-out document
 
-* **documentId:** SuperOffice document Id
-* **allowedReturnTypes:** List of return types that the client is prepared to handle, in case the document plugin needs to request additional processing.&lt;br/&gt;Standard allowed return types include 'None', 'Message', 'SoProtocol', 'CustomGui', 'Other'.&lt;br/&gt;An empty array implies that the client places no restriction on possible return action requests.
-* **versionDescription:** Optional textual description related to this version of the document; may be blank, and is discarded if the document/plugin do not support versioning.
-* **versionExtraFields:** Optional extra metadata related to the new version (as opposed to metadata related to the document as a whole). Discarded if the document/plugin do not support versioning.
 
-**Returns:** Return information, including possible requests for further processing ("Return Action"). Return actions are constrained by the allowedReturnTypes parameter.
+
 
 [WSDL file for Services88/Document](../Services88-Document.md)
 
@@ -59,6 +54,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CheckinDocument Response
 
 ```xml
@@ -86,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

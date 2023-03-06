@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,27 +80,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 15,
-  "Rank": 968,
-  "DefaultTask": 94,
-  "DefaultTaskText": "unde",
+  "OwnerTable": 859,
+  "Rank": 961,
+  "DefaultTask": 677,
+  "DefaultTaskText": "suscipit",
   "IsVisual": false,
-  "LastGenerated": "2017-08-27T17:37:18.8132409+02:00",
-  "Description": "Enhanced attitude-oriented Graphical User Interface",
-  "Name": "Yost, Balistreri and Hand",
-  "StatusMonitorId": 354,
-  "PictureId": 732,
+  "LastGenerated": "2000-02-20T14:19:04.0782101+01:00",
+  "Description": "Progressive analyzing projection",
+  "Name": "Bernhard-Mraz",
+  "StatusMonitorId": 613,
+  "PictureId": 923,
   "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 117,
-  "NumNeedUpdate": 326,
-  "GenerationStart": "2016-07-11T17:37:18.8132409+02:00",
+  "Deleted": true,
+  "NumMatches": 920,
+  "NumNeedUpdate": 96,
+  "GenerationStart": "2000-03-22T14:19:04.0782101+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldLength": 645
     }
   }
 }

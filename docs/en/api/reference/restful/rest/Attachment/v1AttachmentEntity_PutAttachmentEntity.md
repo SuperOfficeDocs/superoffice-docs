@@ -88,16 +88,16 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 470,
-  "Name": "Larkin, Hand and Blanda",
-  "ContentType": "dicta",
-  "AttSize": 771,
+  "AttachmentId": 858,
+  "Name": "Price-Sanford",
+  "ContentType": "non",
+  "AttSize": 185,
   "InlineImage": false,
-  "ContentId": "consectetur"
+  "ContentId": "nam"
 }
 ```
 
@@ -108,18 +108,18 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 20,
-  "Name": "Bailey Group",
-  "ContentType": "at",
-  "AttSize": 770,
+  "AttachmentId": 769,
+  "Name": "Sanford-Schulist",
+  "ContentType": "enim",
+  "AttSize": 994,
   "InlineImage": false,
-  "ContentId": "mollitia",
+  "ContentId": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldLength": 434
     }
   },
   "_Links": {

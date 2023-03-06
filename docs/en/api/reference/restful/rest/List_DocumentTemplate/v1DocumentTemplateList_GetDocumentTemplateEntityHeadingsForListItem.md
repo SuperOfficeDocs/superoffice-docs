@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 660,
-    "Name": "Morissette LLC",
-    "ToolTip": "Aperiam est esse dolorum.",
+    "Id": 729,
+    "Name": "Runolfsdottir Group",
+    "ToolTip": "Placeat dolorem quidem qui maxime doloribus.",
     "Deleted": false,
-    "Rank": 489,
-    "Type": "itaque",
-    "ColorBlock": 104,
-    "IconHint": "beatae",
+    "Rank": 854,
+    "Type": "dolorem",
+    "ColorBlock": 782,
+    "IconHint": "quae",
     "Selected": false,
-    "LastChanged": "1999-11-25T17:37:40.0234703+01:00",
+    "LastChanged": "2000-05-23T14:19:11.2574687+02:00",
     "ChildItems": [
       {
-        "Id": 624,
-        "Name": "Stehr, Rogahn and Walter",
-        "ToolTip": "Earum doloremque sunt illo sint aut.",
+        "Id": 951,
+        "Name": "Larkin, Gaylord and Moen",
+        "ToolTip": "Aut laboriosam vel.",
         "Deleted": true,
-        "Rank": 875,
-        "Type": "perferendis",
-        "ColorBlock": 193,
-        "IconHint": "natus",
-        "Selected": true,
-        "LastChanged": "2007-08-18T17:37:40.0234703+02:00",
+        "Rank": 961,
+        "Type": "perspiciatis",
+        "ColorBlock": 168,
+        "IconHint": "quibusdam",
+        "Selected": false,
+        "LastChanged": "1997-09-07T14:19:11.2574687+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "voluptatum",
+        "ExtraInfo": "error",
+        "StyleHint": "iste",
         "Hidden": true,
-        "FullName": "Ms. Tevin Desiree Jast",
+        "FullName": "Cassandra Grimes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 706
+            "FieldLength": 289
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "perspiciatis",
-    "Hidden": false,
-    "FullName": "Letitia Fisher",
+    "ExtraInfo": "est",
+    "StyleHint": "cupiditate",
+    "Hidden": true,
+    "FullName": "Karolann Huels",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 584
+        "FieldType": "System.Int32",
+        "FieldLength": 996
       }
     }
   }

@@ -133,12 +133,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "a",
+    "path": "voluptas",
     "value": {}
   },
   {
     "op": "add",
-    "path": "a",
+    "path": "voluptas",
     "value": {}
   }
 ]
@@ -151,33 +151,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 44,
-  "PlainMessage": "ut",
-  "HtmlMessage": "quo",
-  "SmsMessage": "vitae",
-  "Description": "Cross-platform reciprocal hub",
-  "Subject": "soluta",
-  "FolderId": 859,
-  "HeaderField": "odio",
-  "Design": "maxime",
+  "ShipmentMessageId": 221,
+  "PlainMessage": "nihil",
+  "HtmlMessage": "error",
+  "SmsMessage": "debitis",
+  "Description": "Re-engineered coherent methodology",
+  "Subject": "voluptatibus",
+  "FolderId": 93,
+  "HeaderField": "ex",
+  "Design": "saepe",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Pre-emptive 5th generation challenge",
-  "AccessKey": "ab",
-  "DocumentMessage": 669,
-  "Registered": "2017-11-21T17:37:39.2283033+01:00",
-  "RegisteredAssociateId": 118,
-  "Updated": "2003-02-23T17:37:39.2283033+01:00",
-  "UpdatedAssociateId": 416,
-  "UpdatedCount": 289,
+  "LongDescription": "Reactive national info-mediaries",
+  "AccessKey": "accusamus",
+  "DocumentMessage": 100,
+  "Registered": "1997-10-09T14:19:10.7873511+02:00",
+  "RegisteredAssociateId": 638,
+  "Updated": "2003-02-24T14:19:10.7873511+01:00",
+  "UpdatedAssociateId": 332,
+  "UpdatedCount": 155,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 359
+      "FieldLength": 586
     }
   },
   "_Links": {

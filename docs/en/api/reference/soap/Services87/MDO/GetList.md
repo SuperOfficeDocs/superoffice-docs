@@ -11,14 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IMDOAgent.GetList">SuperO
 
 ## GetList
 
-Method to get a MDO list.
 
-* **name:** Conceptual name of the MDO list-
-* **forceFlatList:** Force the list to be flat
-* **additionalInfo:** Additional info to the MDO provider
-* **onlyHistory:** If true, return only history items
 
-**Returns:** Array of MDOListItem
+
 
 [WSDL file for Services87/MDO](../Services87-MDO.md)
 
@@ -54,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetList Response
 
@@ -122,3 +118,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "target_period"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# target\_period Table (495)
+# target\_period Table (498)
 
 A set of periods linked with target amounts for users/usergroups and the target groups/years.
 

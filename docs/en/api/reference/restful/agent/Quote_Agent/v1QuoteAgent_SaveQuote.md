@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 345,
-  "SaleId": 624,
-  "QuoteConnectionId": 848,
-  "ERPQuoteKey": "repellat",
-  "ERPOrderKey": "neque",
-  "ActiveQuoteVersionId": 877,
-  "AcceptedQuoteAlternativeId": 858,
-  "UseValuesFromQuote": 817,
-  "DocumentId": 809,
-  "PoNumber": "1075164",
-  "OrderComment": "eum",
-  "PreferredEmailCulture": "bernardo.medhurst@mcculloughtorphy.ca",
+  "QuoteId": 599,
+  "SaleId": 940,
+  "QuoteConnectionId": 854,
+  "ERPQuoteKey": "nulla",
+  "ERPOrderKey": "explicabo",
+  "ActiveQuoteVersionId": 995,
+  "AcceptedQuoteAlternativeId": 833,
+  "UseValuesFromQuote": 764,
+  "DocumentId": 654,
+  "PoNumber": "1069944",
+  "OrderComment": "non",
+  "PreferredEmailCulture": "gilda@roberts.us",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldLength": 902
     }
   }
 }

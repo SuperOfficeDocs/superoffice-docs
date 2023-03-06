@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 309,
-  "Name": "Mills LLC",
-  "Tooltip": "vel",
-  "Deleted": false,
-  "Rank": 403,
+  "Id": 664,
+  "Name": "Funk LLC",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 119,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sequi",
-  "InUseByUserDefinedFields": false
+  "ListType": "porro",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 5,
-  "Name": "Barton-Pouros",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 121,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quas",
+  "Id": 144,
+  "Name": "Ward LLC",
+  "Tooltip": "neque",
+  "Deleted": true,
+  "Rank": 67,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "aliquid",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 39
+      "FieldType": "System.Int32",
+      "FieldLength": 750
     }
   }
 }

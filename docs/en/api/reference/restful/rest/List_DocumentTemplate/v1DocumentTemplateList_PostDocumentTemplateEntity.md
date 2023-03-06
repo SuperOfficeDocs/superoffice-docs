@@ -112,34 +112,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 682,
-  "Name": "Jaskolski-Hagenes",
-  "Tooltip": "vel",
-  "SaveInDb": 932,
-  "Filename": "facere",
-  "DefaultOref": "fugiat",
+  "DocumentTemplateId": 243,
+  "Name": "Hoeger-Runolfsson",
+  "Tooltip": "debitis",
+  "SaveInDb": 436,
+  "Filename": "nesciunt",
+  "DefaultOref": "sed",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 807,
-  "IntentId": 987,
+  "AutoeventId": 274,
+  "IntentId": 717,
   "IsDefaultPublished": false,
-  "Rank": 888,
-  "LoadTemplateFromPlugin": 871,
-  "MimeType": "dolor",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 333,
+  "Rank": 87,
+  "LoadTemplateFromPlugin": 221,
+  "MimeType": "quia",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 14,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "kelli_stokes@beatty.biz",
-  "IncludeSignature": true,
-  "ShowCurrents": false,
+  "EmailSubject": "pauline_thompson@westschmidt.com",
+  "IncludeSignature": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kayli@schuppe.biz",
+  "SenderEmailAddress": "jettie.hermann@russel.com",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -151,37 +151,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 343,
-  "Name": "Stokes, Armstrong and O'Kon",
-  "Tooltip": "tenetur",
-  "SaveInDb": 33,
-  "Filename": "sed",
-  "DefaultOref": "repudiandae",
+  "DocumentTemplateId": 849,
+  "Name": "Cassin-Schuppe",
+  "Tooltip": "ut",
+  "SaveInDb": 951,
+  "Filename": "dicta",
+  "DefaultOref": "sequi",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 516,
-  "IntentId": 60,
+  "AutoeventId": 364,
+  "IntentId": 390,
   "IsDefaultPublished": false,
-  "Rank": 267,
-  "LoadTemplateFromPlugin": 156,
-  "MimeType": "et",
+  "Rank": 84,
+  "LoadTemplateFromPlugin": 14,
+  "MimeType": "voluptates",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 613,
+  "DocumentTypeKey": 614,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "coy@shanahan.biz",
-  "IncludeSignature": false,
+  "EmailSubject": "sheila@hammes.name",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "ayla@steuberdooley.biz",
+  "SenderEmailAddress": "shakira@goldnersmitham.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldLength": 494
     }
   }
 }

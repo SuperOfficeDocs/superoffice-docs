@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,35 +93,35 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "TicketCategoryId": 735,
-    "ParentId": 576,
-    "Name": "Christiansen Inc and Sons",
-    "Fullname": "nihil",
-    "CategoryMaster": 808,
+    "ParentId": 165,
+    "Name": "Rice, Eichmann and Cremin",
+    "Fullname": "quis",
+    "CategoryMaster": 999,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Cassin, Rutherford and Schoen",
+    "ExternalName": "Pfeffer, Carter and Mayer",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 463,
-    "ReplyTemplate": 632,
-    "NotificationEmail": "carmel@effertz.info",
+    "AssignmentLag": 223,
+    "ReplyTemplate": 783,
+    "NotificationEmail": "tianna@hegmannstrosin.biz",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 606,
+    "EffectiveReplyTemplateId": 362,
     "ExtraFields": {
-      "ExtraFields1": "sunt",
-      "ExtraFields2": "exercitationem"
+      "ExtraFields1": "sapiente",
+      "ExtraFields2": "qui"
     },
     "CustomFields": {
-      "CustomFields1": "tempore",
-      "CustomFields2": "rerum"
+      "CustomFields1": "perferendis",
+      "CustomFields2": "deserunt"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 378
+        "FieldLength": 136
       }
     }
   }

@@ -103,15 +103,15 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 864,
-  "LookupAddresses": false,
+  "MessageServerId": 574,
+  "LookupAddresses": true,
   "Flags": "Answered",
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -124,146 +124,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 234,
-      "ContactName": "Ankunding LLC",
-      "PersonId": 45,
-      "PersonName": "Stoltenberg LLC",
-      "AssociateId": 646,
-      "Address": "dolorum",
-      "EmailId": 556,
+      "ContactId": 852,
+      "ContactName": "Beahan Inc and Sons",
+      "PersonId": 629,
+      "PersonName": "Ryan, Stehr and Borer",
+      "AssociateId": 647,
+      "Address": "dolores",
+      "EmailId": 482,
       "DuplicatePersonIds": [
-        97,
-        400
+        818,
+        483
       ],
-      "Name": "O'Keefe-Morar",
+      "Name": "Bahringer Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 946
+          "FieldType": "System.Int32",
+          "FieldLength": 483
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 161,
-      "ContactName": "Schroeder, Goodwin and Raynor",
-      "PersonId": 458,
-      "PersonName": "Ullrich-Walter",
-      "AssociateId": 745,
-      "Address": "est",
-      "EmailId": 600,
+      "ContactId": 147,
+      "ContactName": "Johnson Inc and Sons",
+      "PersonId": 566,
+      "PersonName": "Okuneva Inc and Sons",
+      "AssociateId": 332,
+      "Address": "minus",
+      "EmailId": 495,
       "DuplicatePersonIds": [
-        455,
-        345
+        947,
+        142
       ],
-      "Name": "Rath, Kutch and Durgan",
+      "Name": "Greenholt LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 728
+          "FieldLength": 545
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 460,
-      "ContactName": "Harris, Pfannerstill and Gutmann",
-      "PersonId": 370,
-      "PersonName": "Bernier Group",
-      "AssociateId": 42,
-      "Address": "odio",
-      "EmailId": 304,
+      "ContactId": 420,
+      "ContactName": "Mante-Carroll",
+      "PersonId": 830,
+      "PersonName": "Larkin LLC",
+      "AssociateId": 502,
+      "Address": "beatae",
+      "EmailId": 301,
       "DuplicatePersonIds": [
-        522,
-        903
+        958,
+        428
       ],
-      "Name": "Daniel, Howe and Prosacco",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 204
-        }
-      }
-    }
-  ],
-  "Subject": "soluta",
-  "HTMLBody": "autem",
-  "From": null,
-  "Sent": "2018-03-02T17:37:17.9462408+01:00",
-  "Size": 743,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "explicabo",
-  "PlainBody": "porro",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 628,
-  "Attachments": [
-    {
-      "Description": "Exclusive discrete capacity",
-      "Filename": "ipsum",
-      "Size": 843,
-      "Type": "dolor",
-      "Encoding": "possimus",
-      "Id": "in",
-      "Disposition": "magnam",
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Lynch-McKenzie",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 851
+          "FieldLength": 569
+        }
+      }
+    }
+  ],
+  "Subject": "et",
+  "HTMLBody": "eius",
+  "From": null,
+  "Sent": "2006-07-09T14:19:03.4508967+02:00",
+  "Size": 777,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "et",
+  "PlainBody": "totam",
+  "IsSent": true,
+  "EMailSOInfo": null,
+  "ServerId": 273,
+  "Attachments": [
+    {
+      "Description": "Optional next generation website",
+      "Filename": "molestias",
+      "Size": 685,
+      "Type": "dicta",
+      "Encoding": "eveniet",
+      "Id": "voluptatem",
+      "Disposition": "aspernatur",
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 935
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Vandervort, Gleason and Nitzsche",
+      "Name": "Waelchi-Windler",
       "Values": [
-        "debitis",
-        "aspernatur"
+        "sit",
+        "quod"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 30
+          "FieldLength": 557
         }
       }
     },
     {
-      "Name": "Vandervort, Gleason and Nitzsche",
+      "Name": "Waelchi-Windler",
       "Values": [
-        "debitis",
-        "aspernatur"
+        "sit",
+        "quod"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 30
+          "FieldLength": 557
         }
       }
     }
   ],
-  "FolderName": "Corwin LLC",
-  "EmailItemId": 60,
-  "AccountId": 745,
-  "ReceivedAt": "1999-01-31T17:37:17.9462408+01:00",
+  "FolderName": "Erdman, Russel and Towne",
+  "EmailItemId": 664,
+  "AccountId": 620,
+  "ReceivedAt": "2015-08-20T14:19:03.4508967+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2022-11-27T17:37:17.9462408+01:00",
+  "RepliedAt": "2019-09-04T14:19:03.4508967+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -272,7 +272,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldLength": 559
     }
   }
 }

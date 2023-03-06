@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 158,
-  "Name": "Hudson, Daugherty and Herman",
-  "Tooltip": "quisquam",
+  "Id": 937,
+  "Name": "Rolfson Group",
+  "Tooltip": "odio",
   "Deleted": false,
-  "UdListDefinitionId": 682,
-  "Rank": 236
+  "UdListDefinitionId": 326,
+  "Rank": 18
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 87,
-  "Name": "Jaskolski LLC",
-  "Tooltip": "autem",
+  "Id": 432,
+  "Name": "Mueller Group",
+  "Tooltip": "adipisci",
   "Deleted": false,
-  "UdListDefinitionId": 864,
-  "Rank": 185,
+  "UdListDefinitionId": 235,
+  "Rank": 105,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 536
+      "FieldType": "System.String",
+      "FieldLength": 284
     }
   }
 }

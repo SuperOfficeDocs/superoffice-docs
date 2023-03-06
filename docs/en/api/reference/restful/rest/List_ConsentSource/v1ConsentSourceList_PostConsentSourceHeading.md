@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 473,
-  "Name": "Greenfelder-Upton",
-  "Tooltip": "qui",
+  "HeadingId": 486,
+  "Name": "Green Inc and Sons",
+  "Tooltip": "ratione",
   "Deleted": false,
-  "Rank": 783,
-  "UdListDefinitionId": 658
+  "Rank": 536,
+  "UdListDefinitionId": 411
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 732,
-  "Name": "Brakus-Stokes",
-  "Tooltip": "natus",
-  "Deleted": false,
-  "Rank": 252,
-  "UdListDefinitionId": 122,
+  "HeadingId": 228,
+  "Name": "Jakubowski, Corkery and Pfannerstill",
+  "Tooltip": "sint",
+  "Deleted": true,
+  "Rank": 887,
+  "UdListDefinitionId": 962,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldLength": 465
     }
   }
 }

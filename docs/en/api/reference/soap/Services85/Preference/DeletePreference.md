@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IPreferenceAgent.DeletePr
 
 ## DeletePreference
 
-Delete a preference by id
 
-* **id:** The id of the preference to delete
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services85/Preference](../Services85-Preference.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeletePreference Response
 
 ```xml
@@ -68,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

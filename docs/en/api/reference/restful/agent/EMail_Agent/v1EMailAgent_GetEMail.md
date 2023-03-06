@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/EMail/GetEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 202,
-  "IncludeAttachments": true
+  "Id": 290,
+  "IncludeAttachments": false
 }
 ```
 
@@ -118,146 +118,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 456,
-      "ContactName": "Turner Group",
-      "PersonId": 403,
-      "PersonName": "Nader LLC",
-      "AssociateId": 469,
-      "Address": "ut",
-      "EmailId": 807,
+      "ContactId": 305,
+      "ContactName": "Brown-Bradtke",
+      "PersonId": 247,
+      "PersonName": "Trantow Inc and Sons",
+      "AssociateId": 905,
+      "Address": "odio",
+      "EmailId": 992,
       "DuplicatePersonIds": [
-        577,
-        663
+        332,
+        201
       ],
-      "Name": "Maggio-Yundt",
+      "Name": "Bradtke Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 131
+          "FieldLength": 724
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 115,
-      "ContactName": "Smitham Group",
-      "PersonId": 130,
-      "PersonName": "Bode Group",
-      "AssociateId": 107,
-      "Address": "omnis",
-      "EmailId": 75,
+      "ContactId": 546,
+      "ContactName": "Bode Group",
+      "PersonId": 834,
+      "PersonName": "Gutmann-Beer",
+      "AssociateId": 769,
+      "Address": "voluptatem",
+      "EmailId": 16,
       "DuplicatePersonIds": [
-        470,
-        833
+        486,
+        680
       ],
-      "Name": "Hoeger, Lang and Brakus",
+      "Name": "Watsica LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 388
+          "FieldType": "System.String",
+          "FieldLength": 67
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 119,
-      "ContactName": "Schamberger, Pouros and Adams",
-      "PersonId": 302,
-      "PersonName": "Kirlin, Bailey and Hintz",
-      "AssociateId": 207,
-      "Address": "nihil",
-      "EmailId": 149,
+      "ContactId": 97,
+      "ContactName": "Turner, Auer and Hirthe",
+      "PersonId": 378,
+      "PersonName": "White Inc and Sons",
+      "AssociateId": 815,
+      "Address": "earum",
+      "EmailId": 494,
       "DuplicatePersonIds": [
-        312,
-        246
+        329,
+        172
       ],
-      "Name": "Brown, Labadie and McLaughlin",
+      "Name": "Emard, Bahringer and Ernser",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 695
+          "FieldLength": 789
         }
       }
     }
   ],
-  "Subject": "molestias",
-  "HTMLBody": "porro",
+  "Subject": "exercitationem",
+  "HTMLBody": "omnis",
   "From": null,
-  "Sent": "2005-07-13T17:37:18.0052448+02:00",
-  "Size": 206,
+  "Sent": "2011-09-02T14:19:03.4821464+02:00",
+  "Size": 721,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "totam",
-  "PlainBody": "similique",
+  "MessageID": "autem",
+  "PlainBody": "quas",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 736,
+  "ServerId": 765,
   "Attachments": [
     {
-      "Description": "Diverse interactive infrastructure",
-      "Filename": "est",
-      "Size": 576,
-      "Type": "ut",
-      "Encoding": "sit",
-      "Id": "in",
-      "Disposition": "id",
+      "Description": "Reverse-engineered contextually-based parallelism",
+      "Filename": "voluptatem",
+      "Size": 951,
+      "Type": "omnis",
+      "Encoding": "sed",
+      "Id": "magnam",
+      "Disposition": "qui",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 580
+          "FieldType": "System.String",
+          "FieldLength": 263
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Doyle-Jewess",
+      "Name": "Ward, Lesch and Rath",
       "Values": [
-        "doloribus",
-        "nostrum"
+        "ea",
+        "blanditiis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 964
+          "FieldType": "System.String",
+          "FieldLength": 140
         }
       }
     },
     {
-      "Name": "Doyle-Jewess",
+      "Name": "Ward, Lesch and Rath",
       "Values": [
-        "doloribus",
-        "nostrum"
+        "ea",
+        "blanditiis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 964
+          "FieldType": "System.String",
+          "FieldLength": 140
         }
       }
     }
   ],
-  "FolderName": "Torp Group",
-  "EmailItemId": 718,
-  "AccountId": 558,
-  "ReceivedAt": "2008-07-03T17:37:18.0062443+02:00",
+  "FolderName": "Mosciski-Walsh",
+  "EmailItemId": 362,
+  "AccountId": 80,
+  "ReceivedAt": "2017-11-18T14:19:03.4821464+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1998-04-03T17:37:18.0062443+02:00",
+  "RepliedAt": "2000-01-09T14:19:03.4821464+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldType": "System.String",
+      "FieldLength": 985
     }
   }
 }

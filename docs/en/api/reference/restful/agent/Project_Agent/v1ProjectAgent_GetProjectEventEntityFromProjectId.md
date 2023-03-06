@@ -105,7 +105,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 456
+  "ProjectId": 553
 }
 ```
 
@@ -116,94 +116,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "id",
-  "SignOffText": "quo",
-  "SignOnConfirmationText": "exercitationem",
-  "SignOnText": "molestiae",
-  "EventDate": "2021-06-27T17:37:18.6522456+02:00",
+  "SignOffConfirmationText": "quam",
+  "SignOffText": "suscipit",
+  "SignOnConfirmationText": "consequatur",
+  "SignOnText": "dolorem",
+  "EventDate": "2011-08-22T14:19:03.9532088+02:00",
   "Enabled": false,
-  "CreatedDate": "2014-11-08T17:37:18.6522456+01:00",
+  "CreatedDate": "2004-10-02T14:19:03.9532088+02:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 77,
-  "SignOffTriggersAssign": false,
-  "SignOn": false,
+  "SignOffTaskId": 142,
+  "SignOffTriggersAssign": true,
+  "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 166,
-  "SignOnTriggersAssign": true,
-  "UpdatedDate": "2009-05-21T17:37:18.6522456+02:00",
+  "SignOnTaskId": 170,
+  "SignOnTriggersAssign": false,
+  "UpdatedDate": "1999-09-11T14:19:03.9532088+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 435,
-  "Id": 951,
-  "PublishFrom": "2016-09-25T17:37:18.6522456+02:00",
+  "ProjectId": 283,
+  "Id": 896,
+  "PublishFrom": "2008-12-08T14:19:03.9532088+01:00",
   "PublishType": "External",
-  "PublishTo": "2009-06-17T17:37:18.6522456+02:00",
+  "PublishTo": "2017-01-31T14:19:03.9532088+01:00",
   "VisibleForCategories": [
     {
-      "Id": 799,
-      "Name": "Jones-Schulist",
-      "ToolTip": "Aut nam et.",
-      "Deleted": true,
-      "Rank": 124,
-      "Type": "ratione",
+      "Id": 225,
+      "Name": "Johnston Group",
+      "ToolTip": "Soluta nostrum consequuntur pariatur.",
+      "Deleted": false,
+      "Rank": 555,
+      "Type": "eaque",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quod",
-      "ColorBlock": 32,
-      "ExtraInfo": "ex",
-      "StyleHint": "dolor",
-      "FullName": "Nyasia Justina Paucek MD",
+      "IconHint": "voluptatibus",
+      "ColorBlock": 778,
+      "ExtraInfo": "reiciendis",
+      "StyleHint": "quo",
+      "FullName": "Rae Walker",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 11
+          "FieldType": "System.String",
+          "FieldLength": 434
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 213,
-      "Name": "Kulas-Bartoletti",
-      "ToolTip": "Debitis quo quo magnam sed velit.",
-      "Deleted": true,
-      "Rank": 323,
-      "Type": "sed",
+      "Id": 624,
+      "Name": "Von LLC",
+      "ToolTip": "Odio ullam.",
+      "Deleted": false,
+      "Rank": 919,
+      "Type": "fuga",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sed",
-      "ColorBlock": 471,
-      "ExtraInfo": "odio",
-      "StyleHint": "ducimus",
-      "FullName": "Otis Moore",
+      "IconHint": "vero",
+      "ColorBlock": 294,
+      "ExtraInfo": "perspiciatis",
+      "StyleHint": "quia",
+      "FullName": "Vince Robel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 636
+          "FieldType": "System.Int32",
+          "FieldLength": 902
         }
       }
     }
   ],
-  "IsPublished": true,
-  "IsVisibleForMembers": false,
+  "IsPublished": false,
+  "IsVisibleForMembers": true,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 143,
+  "ProjectEventId": 325,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 493
+      "FieldType": "System.Int32",
+      "FieldLength": 850
     }
   }
 }

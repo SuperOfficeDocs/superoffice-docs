@@ -103,7 +103,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 859,
-  "ColumnId": 373,
-  "FieldDefault": "ut",
-  "FieldHeight": 192,
-  "FieldLabel": "eos",
-  "FieldLeft": 752,
-  "FieldTop": 44,
+  "UDefFieldId": 426,
+  "ColumnId": 912,
+  "FieldDefault": "non",
+  "FieldHeight": 735,
+  "FieldLabel": "quidem",
+  "FieldLeft": 195,
+  "FieldTop": 762,
   "FieldType": "Checkbox",
-  "FieldWidth": 307,
-  "FormatMask": "ipsum",
+  "FieldWidth": 578,
+  "FormatMask": "sunt",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 15,
-  "LabelLeft": 918,
-  "LabelTop": 974,
-  "LabelWidth": 290,
-  "LastVersionId": 326,
-  "ListTableId": 766,
-  "IsMandatory": false,
+  "IsIndexed": false,
+  "LabelHeight": 251,
+  "LabelLeft": 532,
+  "LabelTop": 7,
+  "LabelWidth": 48,
+  "LastVersionId": 594,
+  "ListTableId": 853,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 820,
-  "ProgId": "dicta",
-  "IsReadOnly": true,
-  "ShortLabel": "corrupti",
-  "TabOrder": 30,
-  "TextLength": 662,
-  "Tooltip": "maiores",
-  "UdefIdentity": 103,
-  "UDListDefinitionId": 330,
+  "Page1LineNo": 461,
+  "ProgId": "est",
+  "IsReadOnly": false,
+  "ShortLabel": "sed",
+  "TabOrder": 766,
+  "TextLength": 281,
+  "Tooltip": "libero",
+  "UdefIdentity": 454,
+  "UDListDefinitionId": 210,
   "Justification": "Center",
-  "Version": 914,
-  "TemplateVariableName": "Rippin-Hoeger",
+  "Version": 594,
+  "TemplateVariableName": "Parisian, Jerde and Heaney",
   "HasBeenPublished": false,
-  "MdoListName": "Harber, O'Keefe and Hagenes",
+  "MdoListName": "Gutmann, Corwin and Batz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 485
+      "FieldType": "System.Int32",
+      "FieldLength": 503
     }
   }
 }

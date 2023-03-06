@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/User/IsUserNameValidWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 926,
+  "AssociateId": 162,
   "Type": "AnonymousAssociate",
-  "PersonId": 898,
-  "UserName": "Keebler, Schuppe and Howell"
+  "PersonId": 528,
+  "UserName": "Labadie-Graham"
 }
 ```
 
@@ -97,13 +97,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "Result": true,
+  "Result": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 544
+      "FieldType": "System.Int32",
+      "FieldLength": 469
     }
   }
 }

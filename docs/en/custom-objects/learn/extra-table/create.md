@@ -9,7 +9,7 @@ so.topic: howto
 language: en
 ---
 
-# Define extra tables
+# Add extra tables
 
 You can create extra tables in SuperOffice Service to register different types of data. After you create the table and [create extra fields][1] in it, you can open the table to add content to it by going to ![icon][img3] **Requests** > **Tables**, point at the table and click ![icon][img1].
 
@@ -18,7 +18,10 @@ You can create extra tables in SuperOffice Service to register different types o
 
 **Steps:**
 
-1. Select ![icon][img2] **System settings** > **System design** > **Tables**.
+1. Go to the **Tables** screen.
+
+    * In Settings and maintenance: Click the **System design** button in the navigator. Then select the **Tables** tab.
+    * In Service: Select ![icon][img2] **System settings** > **System design** > **Tables**.
 
 2. Click ![icon][img4] **New table**. The **Table properties** screen appears.
 

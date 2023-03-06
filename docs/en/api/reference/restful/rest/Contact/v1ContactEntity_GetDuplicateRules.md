@@ -68,30 +68,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Batz-Kreiger",
-    "DisplayName": "Ryan-Lind",
-    "DisplayTooltip": "aut",
+    "Name": "Langworth Group",
+    "DisplayName": "Renner-Torp",
+    "DisplayTooltip": "enim",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 733
+        "FieldLength": 221
       }
     }
   },
   {
-    "Name": "Batz-Kreiger",
-    "DisplayName": "Ryan-Lind",
-    "DisplayTooltip": "aut",
+    "Name": "Langworth Group",
+    "DisplayName": "Renner-Torp",
+    "DisplayTooltip": "enim",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 733
+        "FieldLength": 221
       }
     }
   }

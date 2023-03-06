@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 995,
-    "Name": "Maggio-Greenholt",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 85,
-    "UdListDefinitionId": 829
+    "HeadingId": 873,
+    "Name": "Cummerata LLC",
+    "Tooltip": "nesciunt",
+    "Deleted": true,
+    "Rank": 639,
+    "UdListDefinitionId": 823
   },
   {
-    "HeadingId": 995,
-    "Name": "Maggio-Greenholt",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 85,
-    "UdListDefinitionId": 829
+    "HeadingId": 873,
+    "Name": "Cummerata LLC",
+    "Tooltip": "nesciunt",
+    "Deleted": true,
+    "Rank": 639,
+    "UdListDefinitionId": 823
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 244,
-    "Name": "Feil-Flatley",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 718,
-    "UdListDefinitionId": 844,
+    "HeadingId": 574,
+    "Name": "Weber, Ruecker and Mitchell",
+    "Tooltip": "delectus",
+    "Deleted": true,
+    "Rank": 255,
+    "UdListDefinitionId": 217,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 551
+        "FieldType": "System.Int32",
+        "FieldLength": 419
       }
     }
   }

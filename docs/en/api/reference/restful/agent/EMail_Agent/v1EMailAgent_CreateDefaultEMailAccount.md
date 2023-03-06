@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 815,
-  "EMailAddress": "exercitationem",
-  "AssociateId": 942,
+  "EMailAccountId": 598,
+  "EMailAddress": "rerum",
+  "AssociateId": 818,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 430,
-  "ErrorCount": 16,
+  "AccountStatus": 270,
+  "ErrorCount": 370,
   "ErrorReason": "",
-  "InboxFolder": "saepe",
-  "SentFolder": "perspiciatis",
+  "InboxFolder": "sed",
+  "SentFolder": "quas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 95
+      "FieldLength": 256
     }
   }
 }

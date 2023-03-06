@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 642,
-    "Name": "Feest-Wiegand",
-    "Tooltip": "alias",
+    "Id": 797,
+    "Name": "Lowe-Dicki",
+    "Tooltip": "ratione",
     "Deleted": false,
-    "UdListDefinitionId": 672,
-    "Rank": 745,
+    "UdListDefinitionId": 981,
+    "Rank": 916,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 434
+        "FieldLength": 888
       }
     }
   }

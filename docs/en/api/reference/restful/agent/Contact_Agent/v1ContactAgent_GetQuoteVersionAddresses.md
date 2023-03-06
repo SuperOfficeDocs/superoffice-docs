@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 939
+  "QuoteVersionId": 763
 }
 ```
 
@@ -95,41 +95,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 4177.622,
-    "Wgs84Longitude": 27704.559999999998,
+    "Wgs84Latitude": 18076.912,
+    "Wgs84Longitude": 14231.493999999999,
     "LocalizedAddress": [
       [
         {
-          "Name": "Cassin Group",
-          "Value": "commodi",
-          "Tooltip": "eum",
-          "Label": "nulla",
-          "ValueLength": 282,
-          "AddressType": "inventore",
+          "Name": "Heaney LLC",
+          "Value": "deleniti",
+          "Tooltip": "soluta",
+          "Label": "minus",
+          "ValueLength": 380,
+          "AddressType": "quisquam",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 270
+              "FieldLength": 940
             }
           }
         }
       ],
       [
         {
-          "Name": "Green-Donnelly",
-          "Value": "aut",
-          "Tooltip": "sequi",
-          "Label": "tempore",
-          "ValueLength": 89,
-          "AddressType": "ipsum",
+          "Name": "Bahringer, Green and Carter",
+          "Value": "nam",
+          "Tooltip": "veritatis",
+          "Label": "error",
+          "ValueLength": 880,
+          "AddressType": "deserunt",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 159
+              "FieldType": "System.Int32",
+              "FieldLength": 674
             }
           }
         }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "est",
+    "Formatted": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 574
+        "FieldLength": 631
       }
     }
   }

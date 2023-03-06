@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IBLOBAgent.ChangeProjectI
 
 ## ChangeProjectImage
 
-Changes the project image link. If the Binary object id is 0, any image link is removed from the project.
 
-* **projectId:** The project the image is linked to
-* **blobId:** The Binary object id. If the Binary object id is 0, any image link is removed from the project.
+
+
 
 [WSDL file for Services87/BLOB](../Services87-BLOB.md)
 
@@ -48,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ChangeProjectImage Response
 
 ```xml
@@ -66,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

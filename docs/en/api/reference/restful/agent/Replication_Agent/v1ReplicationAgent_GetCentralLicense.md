@@ -80,30 +80,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Weber, Bechtelar and Corkery",
-    "Description": "Function-based bandwidth-monitored function",
+    "Name": "Kerluke LLC",
+    "Description": "Self-enabling solution-oriented circuit",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 993,
-        "Tooltip": "qui",
-        "CanAssign": true,
-        "Free": 667,
-        "InUse": 699,
-        "IsHidden": true,
+        "Unrestricted": true,
+        "Total": 334,
+        "Tooltip": "consectetur",
+        "CanAssign": false,
+        "Free": 599,
+        "InUse": 479,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 241,
-        "Name": "Marquardt Group",
-        "Description": "Future-proofed system-worthy protocol",
-        "PrerequisiteModuleName": "Zboncak, McGlynn and Lockman",
-        "SortOrder": 779,
-        "ExtraFlags": 836,
+        "ModuleLicenseId": 936,
+        "Name": "Gorczany Group",
+        "Description": "Monitored motivating circuit",
+        "PrerequisiteModuleName": "King, Hills and Romaguera",
+        "SortOrder": 990,
+        "ExtraFlags": 901,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 714
+            "FieldLength": 823
           }
         }
       }
@@ -111,25 +111,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 72,
-        "Tooltip": "veniam",
-        "CanAssign": false,
-        "Free": 991,
-        "InUse": 823,
+        "Total": 762,
+        "Tooltip": "officiis",
+        "CanAssign": true,
+        "Free": 694,
+        "InUse": 454,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 281,
-        "Name": "Stanton LLC",
-        "Description": "Persevering leading edge task-force",
-        "PrerequisiteModuleName": "Bayer LLC",
-        "SortOrder": 206,
-        "ExtraFlags": 39,
+        "ModuleLicenseId": 704,
+        "Name": "Blick LLC",
+        "Description": "Automated logistical strategy",
+        "PrerequisiteModuleName": "Muller-Dach",
+        "SortOrder": 715,
+        "ExtraFlags": 345,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 750
+            "FieldLength": 116
           }
         }
       }
@@ -139,35 +139,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 238
+        "FieldLength": 16
       }
     }
   },
   {
-    "Name": "Weber, Bechtelar and Corkery",
-    "Description": "Function-based bandwidth-monitored function",
+    "Name": "Kerluke LLC",
+    "Description": "Self-enabling solution-oriented circuit",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 993,
-        "Tooltip": "qui",
-        "CanAssign": true,
-        "Free": 667,
-        "InUse": 699,
-        "IsHidden": true,
+        "Unrestricted": true,
+        "Total": 334,
+        "Tooltip": "consectetur",
+        "CanAssign": false,
+        "Free": 599,
+        "InUse": 479,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 241,
-        "Name": "Marquardt Group",
-        "Description": "Future-proofed system-worthy protocol",
-        "PrerequisiteModuleName": "Zboncak, McGlynn and Lockman",
-        "SortOrder": 779,
-        "ExtraFlags": 836,
+        "ModuleLicenseId": 936,
+        "Name": "Gorczany Group",
+        "Description": "Monitored motivating circuit",
+        "PrerequisiteModuleName": "King, Hills and Romaguera",
+        "SortOrder": 990,
+        "ExtraFlags": 901,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 714
+            "FieldLength": 823
           }
         }
       }
@@ -175,25 +175,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 72,
-        "Tooltip": "veniam",
-        "CanAssign": false,
-        "Free": 991,
-        "InUse": 823,
+        "Total": 762,
+        "Tooltip": "officiis",
+        "CanAssign": true,
+        "Free": 694,
+        "InUse": 454,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 281,
-        "Name": "Stanton LLC",
-        "Description": "Persevering leading edge task-force",
-        "PrerequisiteModuleName": "Bayer LLC",
-        "SortOrder": 206,
-        "ExtraFlags": 39,
+        "ModuleLicenseId": 704,
+        "Name": "Blick LLC",
+        "Description": "Automated logistical strategy",
+        "PrerequisiteModuleName": "Muller-Dach",
+        "SortOrder": 715,
+        "ExtraFlags": 345,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 750
+            "FieldLength": 116
           }
         }
       }
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 238
+        "FieldLength": 16
       }
     }
   }

@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "TypicalSearch"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# TypicalSearch Table (488)
+# TypicalSearch Table (491)
 
 Owner of a set of predefined selection criteria
 

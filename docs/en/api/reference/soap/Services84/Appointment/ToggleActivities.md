@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IAppointmentAgent.ToggleA
 
 ## ToggleActivities
 
-Toggle the completed status for an array of activities.
 
-* **activityIdentifier:** Contain of a mix of appointment\_id, sale\_id, document\_id and todo\_id.
 
-**Returns:** The resulting ActivityStatus of the first in the array
+
 
 [WSDL file for Services84/Appointment](../Services84-Appointment.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ToggleActivities Response
 
 ```xml
@@ -71,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

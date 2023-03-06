@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 520,
-    "Name": "Marks Inc and Sons",
-    "ToolTip": "Facilis et repudiandae nam dolores.",
-    "Deleted": true,
-    "Rank": 465,
-    "Type": "reprehenderit",
-    "ColorBlock": 797,
-    "IconHint": "ut",
+    "Id": 683,
+    "Name": "Koelpin, Goodwin and Bernhard",
+    "ToolTip": "Voluptatem quasi quibusdam.",
+    "Deleted": false,
+    "Rank": 884,
+    "Type": "mollitia",
+    "ColorBlock": 409,
+    "IconHint": "saepe",
     "Selected": false,
-    "LastChanged": "1997-02-18T17:37:40.2004719+01:00",
+    "LastChanged": "2010-12-12T14:19:11.3992772+01:00",
     "ChildItems": [
       {
-        "Id": 458,
-        "Name": "Volkman, Johnston and Kris",
-        "ToolTip": "Nobis ipsa consectetur eos omnis explicabo nostrum.",
-        "Deleted": true,
-        "Rank": 945,
-        "Type": "voluptates",
-        "ColorBlock": 65,
-        "IconHint": "quisquam",
+        "Id": 270,
+        "Name": "Kirlin, Hodkiewicz and Hettinger",
+        "ToolTip": "Sint omnis distinctio quod quia.",
+        "Deleted": false,
+        "Rank": 643,
+        "Type": "perspiciatis",
+        "ColorBlock": 397,
+        "IconHint": "doloribus",
         "Selected": true,
-        "LastChanged": "2008-02-03T17:37:40.2004719+01:00",
+        "LastChanged": "2015-06-16T14:19:11.3992772+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Fabiola Emmerich Jr.",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "fugit",
+        "Hidden": false,
+        "FullName": "Dulce Kihn V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 895
+            "FieldType": "System.Int32",
+            "FieldLength": 296
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "facilis",
-    "Hidden": false,
-    "FullName": "Carley Predovic",
+    "ExtraInfo": "amet",
+    "StyleHint": "numquam",
+    "Hidden": true,
+    "FullName": "Oceane Satterfield",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 204
+        "FieldLength": 732
       }
     }
   }

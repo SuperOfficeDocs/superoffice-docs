@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IConfigurationAgent.Rebui
 
 ## RebuildWebpanelDeltas
 
-Flush and rebuild webpanel deltas. Mostly used after adding/editing webpanels or change group visibility of them
 
-**Returns:** No return value
+
+
 
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RebuildWebpanelDeltas Response
 
 ```xml
@@ -65,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

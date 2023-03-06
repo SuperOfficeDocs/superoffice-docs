@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "MappedPreferences"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,16 +24,14 @@ Get all the mapped ('fake') Service preferences known to the <see cref="T:SuperO
 Anything else needs to be coded!
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"system"|[system]|
 |"user"|User|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |userpreferenceId|int|Database ID: The database ID of the row in the userpreference table| x |
 |deflevel|int|Level: The level at which the preference is defined; closest-to-the-user wins| x |
 |deflevelname|string|Level: The type of the preference value (string, company, yes/no etc)| x |
@@ -56,4 +54,7 @@ Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

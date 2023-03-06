@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IAIAgent.Translate">Super
 
 ## Translate
 
-Translate a text from one language to another. Language of the text is automatically detected.
 
-* **text:** Text to be translated. Language of the text is automatically detected.
-* **targetLanguage:** ISO Language code (such as FR) to translate the text into
 
-**Returns:** Translated text
+
 
 [WSDL file for Services88/AI](../Services88-AI.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## Translate Response
 
 ```xml
@@ -69,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

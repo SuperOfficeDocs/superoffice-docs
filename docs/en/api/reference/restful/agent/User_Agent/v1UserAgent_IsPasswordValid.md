@@ -72,14 +72,14 @@ OK
 POST /api/v1/Agents/User/IsPasswordValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 401,
+  "AssociateId": 707,
   "Type": "AnonymousAssociate",
-  "PersonId": 260,
-  "Password": "dolores"
+  "PersonId": 457,
+  "Password": "eum"
 }
 ```
 

@@ -25,8 +25,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=minus
+GET /api/v1/List/Credited/MDOItems?flat=True
+GET /api/v1/List/Credited/MDOItems?query=nisi
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 624,
-    "Name": "Price, Mayert and Hintz",
-    "ToolTip": "Veniam officia ut.",
-    "Deleted": true,
-    "Rank": 504,
-    "Type": "nemo",
+    "Id": 1002,
+    "Name": "Ritchie Inc and Sons",
+    "ToolTip": "In ipsum adipisci.",
+    "Deleted": false,
+    "Rank": 188,
+    "Type": "occaecati",
     "ChildItems": [
       {
-        "Id": 148,
-        "Name": "Batz-Jacobson",
-        "ToolTip": "Vel quia libero aut.",
-        "Deleted": false,
-        "Rank": 169,
-        "Type": "quaerat",
+        "Id": 462,
+        "Name": "Rath, Nikolaus and Fritsch",
+        "ToolTip": "Quia consectetur voluptas velit ullam.",
+        "Deleted": true,
+        "Rank": 8,
+        "Type": "consequuntur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 116,
-        "ExtraInfo": "asperiores",
-        "StyleHint": "rerum",
-        "FullName": "Janice Nicolas",
+        "IconHint": "quis",
+        "ColorBlock": 268,
+        "ExtraInfo": "aut",
+        "StyleHint": "maiores",
+        "FullName": "Terrell Dickinson DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 429
+            "FieldLength": 618
           }
         }
       }
     ],
-    "IconHint": "ducimus",
-    "ColorBlock": 999,
-    "ExtraInfo": "omnis",
-    "StyleHint": "rerum",
-    "FullName": "Matt Quitzon",
+    "IconHint": "dolores",
+    "ColorBlock": 116,
+    "ExtraInfo": "qui",
+    "StyleHint": "porro",
+    "FullName": "Antonia Beer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 246
+        "FieldType": "System.Int32",
+        "FieldLength": 429
       }
     }
   }

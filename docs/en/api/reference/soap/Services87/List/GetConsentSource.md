@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetConsentSour
 
 ## GetConsentSource
 
-Gets a ConsentSource object.
 
-* **consentSourceId:** The identifier of the ConsentSource object
 
-**Returns:** ConsentSource
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetConsentSource Response
 
 ```xml
@@ -77,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

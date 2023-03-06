@@ -76,7 +76,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Runolfsson Inc and Sons"
+  "OwnerName": "Haley Group"
 }
 ```
 
@@ -88,7 +88,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "ut",
+  "Message": "qui",
   "Url": "http://www.example.com/"
 }
 ```

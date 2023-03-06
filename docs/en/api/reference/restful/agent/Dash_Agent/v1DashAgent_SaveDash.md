@@ -86,34 +86,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 489,
-  "UniqueId": "nihil",
-  "Name": "Kuphal LLC",
-  "Description": "Centralized tertiary customer loyalty",
-  "AssociateId": 936,
-  "Columns": 12,
+  "DashboardId": 181,
+  "UniqueId": "magnam",
+  "Name": "Jones-Green",
+  "Description": "Vision-oriented national model",
+  "AssociateId": 216,
+  "Columns": 425,
   "Theme": null,
-  "VisibleForAll": 94,
+  "VisibleForAll": 254,
   "VisibleForAssociates": [
-    347,
-    808
+    586,
+    434
   ],
   "VisibleForGroups": [
-    1001,
-    201
+    370,
+    197
   ],
-  "PinForAll": 354,
+  "PinForAll": 636,
   "PinForAssociates": [
-    654,
-    378
+    263,
+    632
   ],
   "PinForGroups": [
-    996,
-    992
+    456,
+    233
   ]
 }
 ```
@@ -125,37 +125,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 100,
-  "UniqueId": "non",
-  "Name": "Wolff-Barton",
-  "Description": "Automated dedicated protocol",
-  "AssociateId": 609,
-  "Columns": 854,
+  "DashboardId": 533,
+  "UniqueId": "maiores",
+  "Name": "Mohr, Schiller and Jacobs",
+  "Description": "Customer-focused neutral algorithm",
+  "AssociateId": 660,
+  "Columns": 770,
   "Theme": null,
-  "VisibleForAll": 43,
+  "VisibleForAll": 442,
   "VisibleForAssociates": [
-    533,
-    612
+    165,
+    20
   ],
   "VisibleForGroups": [
-    549,
-    352
+    71,
+    912
   ],
-  "PinForAll": 511,
+  "PinForAll": 178,
   "PinForAssociates": [
-    666,
-    680
+    999,
+    433
   ],
   "PinForGroups": [
-    159,
-    286
+    450,
+    978
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 617
+      "FieldType": "System.Int32",
+      "FieldLength": 265
     }
   }
 }

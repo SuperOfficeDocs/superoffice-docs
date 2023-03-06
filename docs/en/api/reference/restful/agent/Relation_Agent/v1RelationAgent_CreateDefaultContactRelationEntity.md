@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 287,
-  "SourcePersonId": 433,
-  "DestinationContactId": 98,
-  "DestinationPersonId": 693,
-  "RelationId": 102,
-  "Comment": "qui",
-  "RelationDefinitionId": 11,
-  "Reversed": 42,
-  "UpdatedDate": "2003-07-14T17:37:18.7772428+02:00",
-  "CreatedDate": "2007-04-10T17:37:18.7772428+02:00",
+  "SourceContactId": 908,
+  "SourcePersonId": 652,
+  "DestinationContactId": 835,
+  "DestinationPersonId": 609,
+  "RelationId": 673,
+  "Comment": "explicabo",
+  "RelationDefinitionId": 535,
+  "Reversed": 817,
+  "UpdatedDate": "2021-04-22T14:19:04.0469597+02:00",
+  "CreatedDate": "2014-01-13T14:19:04.0469597+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Fay Group",
-  "SourcePersonName": "Balistreri-Hirthe",
-  "DestinationContactName": "Rath, Kerluke and Hammes",
-  "DestinationPersonName": "Sanford Group",
-  "ActiveText": "nisi",
-  "PassiveText": "deserunt",
+  "SourceContactName": "Abbott, Bergnaum and Rowe",
+  "SourcePersonName": "Boyle-Heller",
+  "DestinationContactName": "Rippin Inc and Sons",
+  "DestinationPersonName": "Blanda, Collins and Mohr",
+  "ActiveText": "ut",
+  "PassiveText": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 10
+      "FieldType": "System.Int32",
+      "FieldLength": 168
     }
   }
 }

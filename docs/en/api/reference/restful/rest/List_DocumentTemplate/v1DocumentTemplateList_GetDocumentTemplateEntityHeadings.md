@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 158,
-    "Name": "Kerluke-Kutch",
-    "Tooltip": "qui",
+    "HeadingId": 903,
+    "Name": "Hammes Inc and Sons",
+    "Tooltip": "perspiciatis",
     "Deleted": true,
-    "Rank": 892,
-    "UdListDefinitionId": 151,
+    "Rank": 334,
+    "UdListDefinitionId": 25,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 624
+        "FieldLength": 600
       }
     }
   }

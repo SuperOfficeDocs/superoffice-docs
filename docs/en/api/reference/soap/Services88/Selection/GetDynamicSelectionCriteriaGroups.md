@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ISelectionAgent.GetDynami
 
 ## GetDynamicSelectionCriteriaGroups
 
-Get the criteria for this dynamic selection. This call supports multiple criteria groups.
 
-* **selectionId:** The id of the selection to add members
 
-**Returns:** Criteria groups defining the selection result. NULL if selection does not exist, or if this is not a dynamic selection.
+
 
 [WSDL file for Services88/Selection](../Services88-Selection.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetDynamicSelectionCriteriaGroups Response
 
@@ -140,3 +139,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

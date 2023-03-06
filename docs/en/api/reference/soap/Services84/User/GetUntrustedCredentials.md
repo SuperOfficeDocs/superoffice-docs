@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.GetUntrustedCr
 
 ## GetUntrustedCredentials
 
-Get a set of credentials of a specified type for authenticated user.
 
-* **type:** Type of credential(Ex: "imap", "smtp").
 
-**Returns:** Array of credentials of the specified type.
+
 
 [WSDL file for Services84/User](../Services84-User.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetUntrustedCredentials Response
 
 ```xml
@@ -65,8 +64,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   <User:GetUntrustedCredentialsResponse>
    <User:Response xsi:type="User:ArrayOfUntrustedCredentials">
     <User:UntrustedCredentials xsi:type="User:UntrustedCredentials">
-     <User:ValidFrom xsi:type="xsd:dateTime">2022-08-26T08:51:57Z</User:ValidFrom>
-     <User:ValidTo xsi:type="xsd:dateTime">2022-08-26T08:51:57Z</User:ValidTo>
+     <User:ValidFrom xsi:type="xsd:dateTime">2023-02-15T13:10:29Z</User:ValidFrom>
+     <User:ValidTo xsi:type="xsd:dateTime">2023-02-15T13:10:29Z</User:ValidTo>
      <User:Comment xsi:type="xsd:string"></User:Comment>
      <User:SecretValue xsi:type="xsd:string"></User:SecretValue>
      <User:PublicValue xsi:type="xsd:string"></User:PublicValue>
@@ -78,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

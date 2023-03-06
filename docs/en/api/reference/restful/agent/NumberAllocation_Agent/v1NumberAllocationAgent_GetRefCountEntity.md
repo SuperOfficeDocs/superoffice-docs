@@ -25,7 +25,7 @@ Gets a RefCountEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=446
+POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=322
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,49 +86,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 293,
-  "Field": "ipsum",
-  "RecordId": 983,
+  "RefCountsId": 728,
+  "Field": "sed",
+  "RecordId": 457,
   "SuggestedRecords": [
     {
-      "Id": 620,
-      "Name": "Oberbrunner, Murazik and Blanda",
-      "ToolTip": "Velit nulla tenetur mollitia autem in.",
+      "Id": 804,
+      "Name": "Durgan-Sporer",
+      "ToolTip": "Laboriosam et voluptas dolor non rerum et consequatur.",
       "Deleted": false,
-      "Rank": 466,
-      "Type": "molestiae",
+      "Rank": 647,
+      "Type": "est",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "impedit",
-      "ColorBlock": 798,
-      "ExtraInfo": "totam",
-      "StyleHint": "eos",
-      "FullName": "Miss Loraine Lubowitz",
+      "IconHint": "quod",
+      "ColorBlock": 379,
+      "ExtraInfo": "eos",
+      "StyleHint": "aut",
+      "FullName": "Mrs. Favian Hyatt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 258
+          "FieldLength": 862
         }
       }
     }
   ],
-  "CurrentValue": 279,
-  "TravelPrefix": 990,
-  "SatPrefix": 30,
+  "CurrentValue": 239,
+  "TravelPrefix": 516,
+  "SatPrefix": 309,
   "Allocate": false,
-  "Unique": false,
+  "Unique": true,
   "ReadOnly": false,
-  "AllowBlank": true,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 363
+      "FieldLength": 95
     }
   }
 }

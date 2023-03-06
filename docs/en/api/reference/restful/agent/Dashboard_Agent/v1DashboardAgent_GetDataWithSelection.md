@@ -77,9 +77,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 338,
-  "SelectionId": 113,
-  "Restrictions": "voluptas"
+  "DashboardTileId": 657,
+  "SelectionId": 414,
+  "Restrictions": "aut"
 }
 ```
 
@@ -93,19 +93,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Bayer-Simonis",
-        "DisplayTooltip": "tempora",
-        "DisplayType": "nobis",
+        "DisplayName": "Brekke, Reilly and Aufderhar",
+        "DisplayTooltip": "in",
+        "DisplayType": "quas",
         "CanOrderBy": false,
-        "Name": "Graham Group",
-        "CanRestrictBy": true,
-        "RestrictionType": "sed",
-        "RestrictionListName": "Hauck, Reichel and Hauck",
+        "Name": "Kunde Inc and Sons",
+        "CanRestrictBy": false,
+        "RestrictionType": "nihil",
+        "RestrictionListName": "Tillman-Little",
         "IsVisible": false,
-        "ExtraInfo": "rerum",
-        "Width": "ad",
-        "IconHint": "maiores",
-        "HeadingIconHint": "et"
+        "ExtraInfo": "fugit",
+        "Width": "ullam",
+        "IconHint": "illum",
+        "HeadingIconHint": "recusandae"
       }
     ],
     "Result": null
@@ -113,19 +113,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Bayer-Simonis",
-        "DisplayTooltip": "tempora",
-        "DisplayType": "nobis",
+        "DisplayName": "Brekke, Reilly and Aufderhar",
+        "DisplayTooltip": "in",
+        "DisplayType": "quas",
         "CanOrderBy": false,
-        "Name": "Graham Group",
-        "CanRestrictBy": true,
-        "RestrictionType": "sed",
-        "RestrictionListName": "Hauck, Reichel and Hauck",
+        "Name": "Kunde Inc and Sons",
+        "CanRestrictBy": false,
+        "RestrictionType": "nihil",
+        "RestrictionListName": "Tillman-Little",
         "IsVisible": false,
-        "ExtraInfo": "rerum",
-        "Width": "ad",
-        "IconHint": "maiores",
-        "HeadingIconHint": "et"
+        "ExtraInfo": "fugit",
+        "Width": "ullam",
+        "IconHint": "illum",
+        "HeadingIconHint": "recusandae"
       }
     ],
     "Result": null

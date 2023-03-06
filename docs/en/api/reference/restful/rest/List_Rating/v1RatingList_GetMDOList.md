@@ -25,8 +25,8 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Rating/MDOItems?flat=True
-GET /api/v1/List/Rating/MDOItems?query=et
+GET /api/v1/List/Rating/MDOItems?flat=False
+GET /api/v1/List/Rating/MDOItems?query=aut
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 597,
-    "Name": "Considine, Blick and Hamill",
-    "ToolTip": "Consequuntur sint culpa sit culpa omnis omnis.",
-    "Deleted": false,
-    "Rank": 381,
-    "Type": "fugit",
+    "Id": 914,
+    "Name": "Feest-Wyman",
+    "ToolTip": "Veniam laboriosam assumenda veritatis et ipsa.",
+    "Deleted": true,
+    "Rank": 879,
+    "Type": "dolore",
     "ChildItems": [
       {
-        "Id": 460,
-        "Name": "Collier, Ondricka and Moen",
-        "ToolTip": "Fuga ut blanditiis nesciunt et accusamus incidunt repudiandae.",
-        "Deleted": false,
-        "Rank": 549,
-        "Type": "corporis",
+        "Id": 271,
+        "Name": "Grimes-Ruecker",
+        "ToolTip": "In et assumenda.",
+        "Deleted": true,
+        "Rank": 964,
+        "Type": "consectetur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sunt",
-        "ColorBlock": 910,
-        "ExtraInfo": "minima",
-        "StyleHint": "enim",
-        "FullName": "Madie DuBuque",
+        "IconHint": "veniam",
+        "ColorBlock": 469,
+        "ExtraInfo": "facere",
+        "StyleHint": "neque",
+        "FullName": "Miss Jason Harber Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 513
+            "FieldLength": 545
           }
         }
       }
     ],
-    "IconHint": "deserunt",
-    "ColorBlock": 129,
+    "IconHint": "eius",
+    "ColorBlock": 398,
     "ExtraInfo": "omnis",
-    "StyleHint": "ut",
-    "FullName": "Patience Paucek",
+    "StyleHint": "velit",
+    "FullName": "Jaunita Goodwin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 140
+        "FieldLength": 448
       }
     }
   }

@@ -70,7 +70,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,76 +113,76 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 110,
+  "EjMessageId": 111,
   "Ticket": null,
-  "CreatedAt": "2015-03-27T17:37:19.4589793+01:00",
+  "CreatedAt": "2021-08-14T14:19:04.501577+02:00",
   "CreatedBy": null,
-  "Author": "cumque",
+  "Author": "dignissimos",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quia",
-  "TimeSpent": 760,
-  "Body": "necessitatibus",
-  "HtmlBody": "vel",
-  "EmailHeader": "bryce@goldner.biz",
-  "DebugInfo": "ut",
-  "MailSorter": "mollitia",
+  "MessageId": "reiciendis",
+  "TimeSpent": 671,
+  "Body": "aperiam",
+  "HtmlBody": "commodi",
+  "EmailHeader": "lacey@nienow.ca",
+  "DebugInfo": "velit",
+  "MailSorter": "neque",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "commodi",
+  "SearchTitle": "possimus",
   "MessageHeaders": [
     {
-      "Id": 108,
-      "Name": "Nikolaus Group",
-      "Value": "et",
+      "Id": 11,
+      "Name": "Little-Kuhn",
+      "Value": "id",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 87
+          "FieldType": "System.Int32",
+          "FieldLength": 991
         }
       }
     }
   ],
   "Important": false,
-  "Language": "sunt",
-  "Sentiment": 887,
-  "SentimentConfidence": 164,
+  "Language": "corrupti",
+  "Sentiment": 764,
+  "SentimentConfidence": 284,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 911,
-      "Name": "Homenick-Gottlieb",
-      "ContentType": "vel",
-      "AttSize": 588,
-      "InlineImage": false,
-      "ContentId": "placeat",
+      "AttachmentId": 403,
+      "Name": "Erdman Inc and Sons",
+      "ContentType": "alias",
+      "AttSize": 620,
+      "InlineImage": true,
+      "ContentId": "facere",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 412
+          "FieldType": "System.Int32",
+          "FieldLength": 477
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "placeat"
+    "ExtraFields1": "dolorem",
+    "ExtraFields2": "sunt"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "ullam"
+    "CustomFields1": "vitae",
+    "CustomFields2": "sunt"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 784
+      "FieldType": "System.String",
+      "FieldLength": 895
     }
   }
 }

@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.ISaleAgent.GetNextSaleSta
 
 ## GetNextSaleStage
 
-Gets the next (not deleted) sale stage id if the current stage is deleted. If the current stage is not deleted, the CurrentStageId is returned
 
-* **saleId:**
-* **includeCurrentStage:**
+
+
 
 [WSDL file for Services86/Sale](../Services86-Sale.md)
 
@@ -49,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetNextSaleStage Response
 
 ```xml
@@ -69,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

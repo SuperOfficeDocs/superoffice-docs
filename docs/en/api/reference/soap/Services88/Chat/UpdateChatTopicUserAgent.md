@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.UpdateChatTopi
 
 ## UpdateChatTopicUserAgent
 
-Update a user's role in a chat topic
 
-* **chatTopicId:** Id of the chat topic
-* **username:** Associate username or associate id to get.
-* **useragent:** User's updated role within the chat topic.
 
-**Returns:** The user's role within the chat topic.
+
 
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
@@ -73,6 +69,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## UpdateChatTopicUserAgent Response
 
 ```xml
@@ -113,3 +110,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Chat/PickUpFirstChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -106,29 +106,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 198,
-  "TopicId": 930,
+  "ChatSessionId": 918,
+  "TopicId": 813,
   "User": null,
   "Person": null,
-  "CustomerAlias": "repudiandae",
-  "CustomerHost": "amet",
-  "CustomerName": "Spinka Group",
-  "CustomerEmail": "joany@kertzmann.ca",
-  "CustomerPhone": "(670)827-7058 x5172",
+  "CustomerAlias": "in",
+  "CustomerHost": "autem",
+  "CustomerName": "Bednar Inc and Sons",
+  "CustomerEmail": "beryl.terry@cruickshankschimmel.com",
+  "CustomerPhone": "629-081-7261 x070",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Bahringer Group",
+  "CustomerCompanyName": "Kohler, Hauck and Heller",
   "Status": "Closed",
-  "FirstMessage": "numquam",
-  "LastMessage": "et",
-  "WhenRequested": "2013-03-19T17:37:17.0622419+01:00",
-  "WhenStarted": "2016-03-29T17:37:17.0622419+02:00",
-  "WhenEnded": "2006-06-05T17:37:17.0622419+02:00",
-  "WhenIdle": "2002-12-03T17:37:17.0622419+01:00",
-  "WhenFetched": "2018-03-05T17:37:17.0622419+01:00",
-  "SessionKey": "corporis",
-  "InitialQueuePos": 477,
-  "AlertLevel": 925,
-  "Rank": 461,
+  "FirstMessage": "nihil",
+  "LastMessage": "ea",
+  "WhenRequested": "2000-12-02T14:19:02.8855274+01:00",
+  "WhenStarted": "2010-08-11T14:19:02.8855274+02:00",
+  "WhenEnded": "2016-04-12T14:19:02.8855274+02:00",
+  "WhenIdle": "2020-04-30T14:19:02.8855274+02:00",
+  "WhenFetched": "2016-11-01T14:19:02.8855274+01:00",
+  "SessionKey": "voluptas",
+  "InitialQueuePos": 674,
+  "AlertLevel": 631,
+  "Rank": 328,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 1000,
+  "Rating": 444,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldLength": 179
     }
   }
 }

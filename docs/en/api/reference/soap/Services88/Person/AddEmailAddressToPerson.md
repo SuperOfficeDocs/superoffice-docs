@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IPersonAgent.AddEmailAddr
 
 ## AddEmailAddressToPerson
 
-Sets the primary email address on person, possibly re-ranking email addresses accordingly.
 
-* **personId:** Person id of the person
-* **emailAddress:** The email address to set as primary email address
-* **setAsPrimaryEmail:** True if the address shall be primary email address (have rank == 1)
+
+
 
 [WSDL file for Services88/Person](../Services88-Person.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## AddEmailAddressToPerson Response
 
 ```xml
@@ -70,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

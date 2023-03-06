@@ -82,17 +82,17 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 326,
-  "Created": "2004-03-20T17:37:18.7882424+01:00",
+  "SatelliteId": 742,
+  "Created": "1998-10-26T14:19:04.0625865+01:00",
   "CreatedBy": null,
-  "Updated": "2017-10-18T17:37:18.7882424+02:00",
+  "Updated": "2017-12-25T14:19:04.0625865+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Russel, Lynch and Mills",
-      "Description": "Triple-buffered content-based toolset",
+      "Name": "Dach Group",
+      "Description": "Customizable needs-based orchestration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -103,8 +103,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Russel, Lynch and Mills",
-      "Description": "Triple-buffered content-based toolset",
+      "Name": "Dach Group",
+      "Description": "Customizable needs-based orchestration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -125,17 +125,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 284,
-  "Created": "2021-10-10T17:37:18.7932746+02:00",
+  "SatelliteId": 189,
+  "Created": "2019-09-11T14:19:04.0625865+02:00",
   "CreatedBy": null,
-  "Updated": "2019-12-25T17:37:18.7942718+01:00",
+  "Updated": "2010-10-27T14:19:04.0625865+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Koepp-Rutherford",
-      "Description": "Automated context-sensitive process improvement",
+      "Name": "Simonis, Cremin and Marks",
+      "Description": "Realigned grid-enabled Graphical User Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -148,14 +148,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 252
+          "FieldType": "System.String",
+          "FieldLength": 253
         }
       }
     },
     {
-      "Name": "Koepp-Rutherford",
-      "Description": "Automated context-sensitive process improvement",
+      "Name": "Simonis, Cremin and Marks",
+      "Description": "Realigned grid-enabled Graphical User Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -168,8 +168,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 252
+          "FieldType": "System.String",
+          "FieldLength": 253
         }
       }
     }
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 128
+      "FieldLength": 191
     }
   }
 }

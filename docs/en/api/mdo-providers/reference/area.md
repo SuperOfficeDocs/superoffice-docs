@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "area"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,13 +15,17 @@ so.envir:
 ---
 
 # "area" MDO List
-
 List provider for the Heading table. While this table looks like an MDO table,
 it lacks the standardized grouplink and headinglink companion tables for good reason,
 since it is the heading table itself.
 
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.AreaProvider">AreaProvider</see> class.
 The name of the MDO list is 'area'.
+
+
+
 
 ## Sample Request
 
@@ -34,7 +38,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("area", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -49,6 +52,7 @@ foreach (var item in listProvider.RootItems) {
 | --- | ----- | ------- | -------- |
 |1|TestArea1|||
 |2|TestArea2|||
+
 
 ## Related MDO Lists
 

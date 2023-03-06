@@ -25,7 +25,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=613
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=449
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -120,7 +120,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -134,63 +134,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2018-02-09T17:37:16.3722415+01:00",
-  "AppointmentId": 734,
-  "Description": "Assimilated composite intranet",
-  "StartDate": "1997-04-29T17:37:16.3722415+02:00",
-  "EndDate": "2011-03-27T17:37:16.3722415+02:00",
+  "CreatedDate": "2020-11-23T14:19:02.5474011+01:00",
+  "AppointmentId": 935,
+  "Description": "Exclusive 3rd generation encryption",
+  "StartDate": "2001-10-29T14:19:02.5474011+01:00",
+  "EndDate": "2011-02-23T14:19:02.5474011+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 791,
+  "MotherId": 524,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1995-11-12T17:37:16.3752416+01:00",
+  "UpdatedDate": "1995-11-11T14:19:02.5474011+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 779,
+  "ActiveLinks": 254,
   "Links": [
     {
-      "EntityName": "Lueilwitz LLC",
-      "Id": 286,
-      "Description": "Synchronised logistical utilisation",
-      "ExtraInfo": "sint",
-      "LinkId": 706,
+      "EntityName": "Huels Inc and Sons",
+      "Id": 27,
+      "Description": "Reduced methodical time-frame",
+      "ExtraInfo": "facilis",
+      "LinkId": 239,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 438
+          "FieldLength": 144
         }
       }
     }
   ],
-  "AlarmLeadTime": "porro",
-  "HasAlarm": false,
-  "ColorIndex": 142,
-  "IsFree": true,
+  "AlarmLeadTime": "modi",
+  "HasAlarm": true,
+  "ColorIndex": 278,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "dolores",
-  "LeadTime": "perspiciatis",
-  "Location": "sunt",
-  "RejectCounter": 149,
+  "LagTime": "et",
+  "LeadTime": "enim",
+  "Location": "ex",
+  "RejectCounter": 155,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 123,
-      "PersonId": 338,
-      "ContactId": 469,
-      "EmailId": 768,
+      "AssociateId": 192,
+      "PersonId": 322,
+      "ContactId": 747,
+      "EmailId": 333,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 123,
-      "PersonId": 338,
-      "ContactId": 469,
-      "EmailId": 768,
+      "AssociateId": 192,
+      "PersonId": 322,
+      "ContactId": 747,
+      "EmailId": 333,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -198,58 +198,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2013-04-02T17:37:16.3752416+02:00",
+  "ActiveDate": "2006-09-15T14:19:02.5474011+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 504,
+  "PreferredTZLocation": 23,
   "Sale": null,
-  "SuggestedAppointmentId": 48,
+  "SuggestedAppointmentId": 582,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "et",
+  "CentralserviceVideomeetId": "eius",
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Jamal Charlene Walker",
-    "SuperOffice:2": "Ms. Kayley Willms"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Stanton Windler"
   },
   "ExtraFields": {
-    "ExtraFields1": "delectus",
-    "ExtraFields2": "fuga"
+    "ExtraFields1": "placeat",
+    "ExtraFields2": "a"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "itaque"
+    "CustomFields1": "debitis",
+    "CustomFields2": "dolores"
   },
-  "PublishEventDate": "1996-12-24T17:37:16.3772416+01:00",
-  "PublishTo": "2005-07-19T17:37:16.3772416+02:00",
-  "PublishFrom": "1999-11-28T17:37:16.3772416+01:00",
+  "PublishEventDate": "2012-06-11T14:19:02.5474011+02:00",
+  "PublishTo": "2003-02-26T14:19:02.5474011+01:00",
+  "PublishFrom": "1999-06-04T14:19:02.5474011+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 207,
+      "VisibleId": 396,
       "Visibility": "All",
-      "DisplayValue": "vero",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 736
+          "FieldType": "System.String",
+          "FieldLength": 766
         }
       }
     },
     {
-      "VisibleId": 207,
+      "VisibleId": 396,
       "Visibility": "All",
-      "DisplayValue": "vero",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 736
+          "FieldType": "System.String",
+          "FieldLength": 766
         }
       }
     }
@@ -258,8 +258,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 631
+      "FieldType": "System.Int32",
+      "FieldLength": 719
     }
   }
 }

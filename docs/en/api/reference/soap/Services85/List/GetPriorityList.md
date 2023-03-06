@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetPriorityLis
 
 ## GetPriorityList
 
-Gets an array of Priority objects.
 
-* **priorityIds:** The identifiers of the Priority object
 
-**Returns:** Array of Priority objects
+
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetPriorityList Response
 
 ```xml
@@ -77,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

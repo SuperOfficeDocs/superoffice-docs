@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 826,
-  "Name": "Ledner LLC",
-  "Tooltip": "et",
+  "HeadingId": 128,
+  "Name": "Cassin-McClure",
+  "Tooltip": "ea",
   "Deleted": false,
-  "Rank": 102,
-  "UdListDefinitionId": 994
+  "Rank": 60,
+  "UdListDefinitionId": 384
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 788,
-  "Name": "Lehner-Weissnat",
-  "Tooltip": "enim",
-  "Deleted": false,
-  "Rank": 790,
-  "UdListDefinitionId": 930,
+  "HeadingId": 277,
+  "Name": "Stroman Inc and Sons",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 978,
+  "UdListDefinitionId": 367,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 445
+      "FieldLength": 475
     }
   }
 }

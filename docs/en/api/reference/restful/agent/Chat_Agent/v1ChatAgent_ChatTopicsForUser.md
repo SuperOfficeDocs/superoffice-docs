@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,22 +107,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 534,
-    "Name": "Mohr Inc and Sons",
-    "Description": "Object-based dynamic budgetary management",
-    "WelcomeMessage": "illum",
+    "ChatTopicId": 821,
+    "Name": "Wolf-Mraz",
+    "Description": "Horizontal user-facing ability",
+    "WelcomeMessage": "maiores",
     "Language": null,
-    "LastAccept": "2011-08-05T17:37:17.0842432+02:00",
-    "SecondsPrAccept": 885,
-    "AlertRecipient": "ea",
+    "LastAccept": "2007-10-28T14:19:02.9011532+01:00",
+    "SecondsPrAccept": 719,
+    "AlertRecipient": "sapiente",
     "AlertTemplate": null,
     "CollectConsent": true,
-    "BadgeHeader": "et",
+    "BadgeHeader": "saepe",
     "CustomQueueTextEnabled": false,
-    "CustomQueueText": "at",
-    "WarnNewChatMinutes": 264,
-    "WarnManagerNewChatMinutes": 247,
-    "TicketEnabled": false,
+    "CustomQueueText": "sunt",
+    "WarnNewChatMinutes": 1000,
+    "WarnManagerNewChatMinutes": 797,
+    "TicketEnabled": true,
     "TicketCategory": null,
     "TicketPriority": null,
     "OpeningHoursEnabled": false,
@@ -130,20 +130,20 @@ Content-Type: application/json; charset=utf-8
     "Widget": null,
     "BotEnabled": false,
     "BotSettings": null,
-    "OfflineCollectConsent": true,
-    "WarnChatMessageMinutes": 438,
-    "WarnManagerChatMessageMinutes": 53,
+    "OfflineCollectConsent": false,
+    "WarnChatMessageMinutes": 488,
+    "WarnManagerChatMessageMinutes": 328,
     "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 634,
-    "OfflineFormQueueLength": 301,
+    "OfflineFormTimeLimit": 125,
+    "OfflineFormQueueLength": 493,
     "WidgetEnableRating": true,
-    "WidgetRatingText": "sit",
+    "WidgetRatingText": "eos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 454
+        "FieldLength": 130
       }
     }
   }

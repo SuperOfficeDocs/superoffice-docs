@@ -100,9 +100,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 674,
-  "QuoteAlternativeName": "Bernhard-Hettinger",
-  "QuoteAlternativeDescription": "Advanced high-level open architecture"
+  "QuoteVersionId": 653,
+  "QuoteAlternativeName": "Wilkinson LLC",
+  "QuoteAlternativeDescription": "Reactive multi-tasking challenge"
 }
 ```
 
@@ -113,35 +113,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 641,
-  "ERPQuoteAlternativeKey": "eum",
-  "QuoteVersionId": 938,
-  "Name": "Torp, Howe and Marquardt",
-  "Description": "Digitized transitional approach",
+  "QuoteAlternativeId": 936,
+  "ERPQuoteAlternativeKey": "voluptate",
+  "QuoteVersionId": 82,
+  "Name": "Stoltenberg-Corkery",
+  "Description": "Customizable solution-oriented architecture",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 6506.184,
-  "ERPDiscountAmount": 10511.436,
-  "DiscountPercent": 29870.154,
-  "DiscountAmount": 2021.4299999999998,
+  "ERPDiscountPercent": 20747.079999999998,
+  "ERPDiscountAmount": 15948.926,
+  "DiscountPercent": 1748.772,
+  "DiscountAmount": 4879.638,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "ab",
-  "VAT": 12344.826,
-  "EarningPercent": 8815.942,
-  "EarningAmount": 29976.71,
-  "SubTotal": 4688.464,
-  "TotalPrice": 1034.22,
-  "ExtraField1": "ad",
-  "ExtraField2": "eligendi",
-  "ExtraField3": "tenetur",
-  "ExtraField4": "est",
-  "ExtraField5": "quibusdam",
+  "VATInfo": "dolor",
+  "VAT": 7474.59,
+  "EarningPercent": 28184.061999999998,
+  "EarningAmount": 1353.888,
+  "SubTotal": 7499.6619999999994,
+  "TotalPrice": 26081.147999999997,
+  "ExtraField1": "quasi",
+  "ExtraField2": "sunt",
+  "ExtraField3": "ipsam",
+  "ExtraField4": "et",
+  "ExtraField5": "harum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 302
+      "FieldLength": 99
     }
   }
 }

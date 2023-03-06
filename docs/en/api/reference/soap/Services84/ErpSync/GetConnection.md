@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.GetConnecti
 
 ## GetConnection
 
-Returns the specified connection.
 
-* **erpConnectionId:** Primary key of the connection
 
-**Returns:** The connection
+
 
 [WSDL file for Services84/ErpSync](../Services84-ErpSync.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetConnection Response
 
@@ -91,3 +90,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

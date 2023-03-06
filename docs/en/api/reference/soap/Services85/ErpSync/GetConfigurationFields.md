@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IErpSyncAgent.GetConfigur
 
 ## GetConfigurationFields
 
-Returns all fields needed to connect to the given connector
 
-* **erpConnectorId:** The id of the erp connector
 
-**Returns:** The fields
+
 
 [WSDL file for Services85/ErpSync](../Services85-ErpSync.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetConfigurationFields Response
 
@@ -82,3 +81,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

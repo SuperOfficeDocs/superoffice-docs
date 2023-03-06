@@ -278,46 +278,23 @@ title: Services87.BlobManagerAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="BlobManager">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for custom blob streaming</summary>
-    </wsdl:documentation>
     <wsdl:operation name="ReadBlob">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BlobManager/ReadBlob" name="ReadBlobRequest" message="tns:ReadBlobRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BlobManager/ReadBlobResponse" name="ReadBlobResponse" message="tns:ReadBlobResponse" />
     </wsdl:operation>
     <wsdl:operation name="WriteBlob">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BlobManager/WriteBlob" name="WriteBlobRequest" message="tns:WriteBlobRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BlobManager/WriteBlobResponse" name="WriteBlobResponse" message="tns:WriteBlobResponse" />
     </wsdl:operation>
     <wsdl:operation name="BeginReadBlobPart">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BlobManager/BeginReadBlobPart" name="BeginReadBlobPartRequest" message="tns:BeginReadBlobPartRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BlobManager/BeginReadBlobPartResponse" name="BeginReadBlobPartResponse" message="tns:BeginReadBlobPartResponse" />
     </wsdl:operation>
     <wsdl:operation name="ReadBlobPart">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BlobManager/ReadBlobPart" name="ReadBlobPartRequest" message="tns:ReadBlobPartRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BlobManager/ReadBlobPartResponse" name="ReadBlobPartResponse" message="tns:ReadBlobPartResponse" />
     </wsdl:operation>
     <wsdl:operation name="EndReadBlobPart">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BlobManager/EndReadBlobPart" name="EndReadBlobPartRequest" message="tns:EndReadBlobPartRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BlobManager/EndReadBlobPartResponse" name="EndReadBlobPartResponse" message="tns:EndReadBlobPartResponse" />
     </wsdl:operation>
@@ -412,3 +389,4 @@ title: Services87.BlobManagerAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

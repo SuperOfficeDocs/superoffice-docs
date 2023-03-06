@@ -78,7 +78,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,30 +88,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 533,
-  "Name": "Goyette, Nienow and Prosacco",
-  "Description": "Synchronised tangible hardware",
+  "ProjectId": 118,
+  "Name": "Kuhic LLC",
+  "Description": "Team-oriented explicit installation",
   "URL": "http://www.example.com/",
-  "Type": "quod",
-  "AssociateId": 596,
-  "AssociateFullName": "Nasir Shanahan",
-  "TypeId": 521,
-  "Updated": "2020-01-16T17:37:39.0233044+01:00",
-  "StatusId": 528,
-  "Status": "veniam",
-  "TextId": 500,
-  "PublishTo": "2014-03-18T17:37:39.0233044+01:00",
-  "PublishFrom": "2014-07-09T17:37:39.0233044+02:00",
-  "IsPublished": true,
+  "Type": "adipisci",
+  "AssociateId": 618,
+  "AssociateFullName": "Adrianna Klocko",
+  "TypeId": 625,
+  "Updated": "1998-03-14T14:19:10.521726+01:00",
+  "StatusId": 330,
+  "Status": "et",
+  "TextId": 967,
+  "PublishTo": "2021-08-06T14:19:10.521726+02:00",
+  "PublishFrom": "2007-09-20T14:19:10.521726+02:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "261007",
-  "ActiveErpLinks": 486,
+  "ProjectNumber": "955084",
+  "ActiveErpLinks": 811,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 782
+      "FieldType": "System.Int32",
+      "FieldLength": 162
     }
   }
 }

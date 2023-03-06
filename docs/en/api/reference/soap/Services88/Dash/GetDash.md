@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashAgent.GetDash">Super
 
 ## GetDash
 
-Gets a Dash object.
 
-* **dashId:** The identifier of the Dash object
 
-**Returns:** Dash
+
 
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetDash Response
 
@@ -98,3 +97,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

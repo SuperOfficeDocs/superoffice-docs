@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "dashboard"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,8 +15,9 @@ so.envir:
 ---
 
 # "dashboard" MDO List
-
 MDO list provider for Dashboard, can be used by Navigator.
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.DashboardProvider">DashboardProvider</see> class.
 The name of the MDO list is 'dashboard'.
@@ -31,6 +32,10 @@ The name of the MDO list is 'dashboard'.
 
 Separator: &
 
+
+
+
+
 ## Sample Request
 
 ```http!
@@ -42,7 +47,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("dashboard", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -56,6 +60,7 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 |1|Status|||
+
 
 ## Related MDO Lists
 

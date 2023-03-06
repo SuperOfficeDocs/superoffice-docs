@@ -90,7 +90,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,33 +98,33 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 22 Oct 2000 17:37:38 G10T
+Last-Modified: Wed, 11 Jun 2008 14:19:10 G6T
 
 {
-  "SourceContactId": 281,
-  "SourcePersonId": 539,
-  "DestinationContactId": 664,
-  "DestinationPersonId": 863,
-  "RelationId": 975,
-  "Comment": "ut",
-  "RelationDefinitionId": 659,
-  "Reversed": 238,
-  "UpdatedDate": "2000-10-22T17:37:38.47386+02:00",
-  "CreatedDate": "1997-10-16T17:37:38.47386+02:00",
+  "SourceContactId": 891,
+  "SourcePersonId": 391,
+  "DestinationContactId": 51,
+  "DestinationPersonId": 69,
+  "RelationId": 796,
+  "Comment": "id",
+  "RelationDefinitionId": 114,
+  "Reversed": 630,
+  "UpdatedDate": "2008-06-11T14:19:10.240473+02:00",
+  "CreatedDate": "1999-03-14T14:19:10.240473+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kris, Morar and Kiehn",
-  "SourcePersonName": "Mayert-Anderson",
-  "DestinationContactName": "Larson LLC",
-  "DestinationPersonName": "Kunze, Simonis and Champlin",
-  "ActiveText": "voluptatibus",
-  "PassiveText": "vel",
+  "SourceContactName": "McDermott Inc and Sons",
+  "SourcePersonName": "Greenfelder Group",
+  "DestinationContactName": "Huels, Gutmann and Nicolas",
+  "DestinationPersonName": "Sauer LLC",
+  "ActiveText": "sit",
+  "PassiveText": "maxime",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 889
+      "FieldLength": 252
     }
   },
   "_Links": {

@@ -26,7 +26,7 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/ProjectType/MDOItems?flat=True
-GET /api/v1/List/ProjectType/MDOItems?query=rerum
+GET /api/v1/List/ProjectType/MDOItems?query=officia
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 22,
-    "Name": "Mayer-Bahringer",
-    "ToolTip": "Ipsam aut quis.",
+    "Id": 176,
+    "Name": "O'Hara, Tromp and Larson",
+    "ToolTip": "Sed nihil ab.",
     "Deleted": true,
-    "Rank": 200,
-    "Type": "sint",
+    "Rank": 704,
+    "Type": "molestiae",
     "ChildItems": [
       {
-        "Id": 710,
-        "Name": "Hermiston LLC",
-        "ToolTip": "Ut quidem ullam non voluptatem.",
+        "Id": 6,
+        "Name": "Tillman-Lubowitz",
+        "ToolTip": "Officiis tempore eius.",
         "Deleted": true,
-        "Rank": 276,
-        "Type": "qui",
+        "Rank": 304,
+        "Type": "reprehenderit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 67,
-        "ExtraInfo": "modi",
-        "StyleHint": "rem",
-        "FullName": "Mrs. Adeline Dario Sipes",
+        "IconHint": "distinctio",
+        "ColorBlock": 36,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "culpa",
+        "FullName": "Myrl Funk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 913
+            "FieldLength": 6
           }
         }
       }
     ],
-    "IconHint": "occaecati",
-    "ColorBlock": 559,
-    "ExtraInfo": "occaecati",
-    "StyleHint": "rerum",
-    "FullName": "Prof. Claudine Brennon Mraz II",
+    "IconHint": "consequatur",
+    "ColorBlock": 842,
+    "ExtraInfo": "in",
+    "StyleHint": "optio",
+    "FullName": "Miss Tyrique Larkin DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 860
+        "FieldLength": 627
       }
     }
   }

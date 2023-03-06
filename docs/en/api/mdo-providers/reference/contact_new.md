@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "contact_new"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,6 @@ so.envir:
 ---
 
 # "contact_new" MDO List
-
 Provider for selecting a Contact - without person search.
 Does keyword matching and scoring across multiple
 string fields. Checks name, department, soundex fields.
@@ -32,6 +31,9 @@ Stopped contacts are marked with stylehint = "stop" (but item.deleted = false)
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ContactListProvider">ContactListProvider</see> class.
 The name of the MDO list is 'contact_new'.
 
+
+
+
 ## Sample Request
 
 ```http!
@@ -43,7 +45,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("contact_new", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -77,6 +78,7 @@ foreach (var item in listProvider.RootItems) {
 |20|Illinoise Market Fare INC, IAvdeling||20|
 |21|Jensen Madrasser, JAvdeling||21|
 |22|Juul & Hansen AS, JAvdeling||22|
+
 
 ## Related MDO Lists
 

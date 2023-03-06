@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IAppointmentAgent.ToggleA
 
 ## ToggleActivity
 
-Toggle the completed status for an activity. Activity may be sale, document or appointment. The changes are saved immediately.
 
-* **activityIdentifier:** May contain of a mix of appointment\_id, sale\_id, document\_id and todo\_id
 
-**Returns:** What the result after toggling was.
+
 
 [WSDL file for Services86/Appointment](../Services86-Appointment.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ToggleActivity Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

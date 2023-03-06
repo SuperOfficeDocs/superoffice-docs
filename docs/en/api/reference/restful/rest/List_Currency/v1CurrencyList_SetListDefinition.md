@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 202,
-  "Name": "Murazik-Braun",
-  "Tooltip": "voluptatum",
+  "Id": 950,
+  "Name": "Medhurst, Kertzmann and Dicki",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 82,
+  "Rank": 583,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dicta",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "atque",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 812,
-  "Name": "Mante, Mosciski and Koch",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 588,
-  "IsCustomList": true,
+  "Id": 548,
+  "Name": "Cummerata, Von and Wisoky",
+  "Tooltip": "ipsa",
+  "Deleted": true,
+  "Rank": 373,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true,
+  "ListType": "perspiciatis",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 274
+      "FieldLength": 638
     }
   }
 }

@@ -56,20 +56,20 @@ No Content
 PUT /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Frami, Gerlach and Kuhn",
-    "DisplayName": "Hackett, Luettgen and Reinger",
-    "DisplayTooltip": "ut",
+    "Name": "Pacocha Group",
+    "DisplayName": "Erdman, Lakin and Swaniawski",
+    "DisplayTooltip": "et",
     "IsActive": false
   },
   {
-    "Name": "Frami, Gerlach and Kuhn",
-    "DisplayName": "Hackett, Luettgen and Reinger",
-    "DisplayTooltip": "ut",
+    "Name": "Pacocha Group",
+    "DisplayName": "Erdman, Lakin and Swaniawski",
+    "DisplayTooltip": "et",
     "IsActive": false
   }
 ]

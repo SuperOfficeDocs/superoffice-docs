@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 292,
-  "Name": "Mills-Bogan",
-  "Tooltip": "ut",
+  "HeadingId": 213,
+  "Name": "Lemke Inc and Sons",
+  "Tooltip": "id",
   "Deleted": false,
-  "Rank": 454,
-  "UdListDefinitionId": 936
+  "Rank": 781,
+  "UdListDefinitionId": 523
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 473,
-  "Name": "Turner, Pfannerstill and Parisian",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 241,
-  "UdListDefinitionId": 204,
+  "HeadingId": 299,
+  "Name": "Ortiz, Yost and Carroll",
+  "Tooltip": "non",
+  "Deleted": false,
+  "Rank": 728,
+  "UdListDefinitionId": 254,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 661
+      "FieldLength": 223
     }
   }
 }

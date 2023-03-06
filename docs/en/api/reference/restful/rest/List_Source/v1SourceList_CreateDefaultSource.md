@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/Source/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 375,
-  "Name": "Mitchell LLC",
-  "Tooltip": "sapiente",
+  "Id": 15,
+  "Name": "Stroman, Swaniawski and Nienow",
+  "Tooltip": "doloribus",
   "Deleted": true,
-  "UdListDefinitionId": 354,
-  "Rank": 858,
+  "UdListDefinitionId": 587,
+  "Rank": 380,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 921
+      "FieldLength": 199
     }
   }
 }

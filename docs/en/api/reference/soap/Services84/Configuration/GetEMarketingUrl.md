@@ -11,7 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IConfigurationAgent.GetEM
 
 ## GetEMarketingUrl
 
-* **language:**
+
+
+
 
 [WSDL file for Services84/Configuration](../Services84-Configuration.md)
 
@@ -45,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetEMarketingUrl Response
 
 ```xml
@@ -65,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

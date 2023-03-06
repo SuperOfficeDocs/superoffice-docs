@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 860,
-    "Name": "Cummings, Stoltenberg and Gottlieb",
-    "Tooltip": "sapiente",
+    "Id": 363,
+    "Name": "Bernhard-Veum",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 500,
-    "Rank": 847
+    "UdListDefinitionId": 817,
+    "Rank": 530
   },
   {
-    "Id": 860,
-    "Name": "Cummings, Stoltenberg and Gottlieb",
-    "Tooltip": "sapiente",
+    "Id": 363,
+    "Name": "Bernhard-Veum",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 500,
-    "Rank": 847
+    "UdListDefinitionId": 817,
+    "Rank": 530
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 972,
-    "Name": "Armstrong-Gottlieb",
-    "Tooltip": "consequatur",
+    "Id": 17,
+    "Name": "Wilderman Inc and Sons",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "UdListDefinitionId": 397,
-    "Rank": 104,
+    "UdListDefinitionId": 940,
+    "Rank": 526,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 480
+        "FieldType": "System.Int32",
+        "FieldLength": 762
       }
     }
   }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 969,
+  "PriceListId": 647,
   "ERPPriceListKey": "omnis",
-  "QuoteConnectionId": 452,
-  "Name": "Thiel Inc and Sons",
-  "Description": "Organic heuristic moratorium",
-  "Currency": "culpa",
-  "CurrencyName": "Dooley Group",
-  "ValidFrom": "2007-12-11T17:37:18.7082418+01:00",
-  "ValidTo": "2000-07-14T17:37:18.7082418+02:00",
+  "QuoteConnectionId": 301,
+  "Name": "Toy LLC",
+  "Description": "User-friendly directional product",
+  "Currency": "unde",
+  "CurrencyName": "Schuppe-Heller",
+  "ValidFrom": "2008-06-21T14:19:04.0000842+02:00",
+  "ValidTo": "2008-07-27T14:19:04.0000842+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 123
+      "FieldType": "System.String",
+      "FieldLength": 34
     }
   }
 }

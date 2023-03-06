@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "BookingResponseInvitation"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,20 +26,18 @@ or <see cref="!:SuperOffice.Data.AppointmentStatus.BookingmentDeclined" />). The
 must be &gt;= start of today. This is an optional entity and is fetched if the user checks the corresponding checkbox.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"response"|Show responses|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |invitationTypeIcon| *None* |Invitation type icon|  |
 |completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|icon|string|Category: Displays the icon for an activity type| x |
+|icon|listAny|Category: Displays the icon for an activity type| x |
 |date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |time| *None* |Time: Time|  |
 |type|listAny|Type: Displays the type of an activity| x |
@@ -78,6 +76,7 @@ must be &gt;= start of today. This is an optional entity and is fetched if the u
 |invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
 |recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
+|duration|timeSpan|Duration: The duration of the chat session|  |
 |invitationStatusIcon| *None* |Status icon for the invitation| x |
 |invitationStatus| *None* |Status: Status| x |
 |visibleFor|listAny|Visible for|  |
@@ -562,7 +561,7 @@ must be &gt;= start of today. This is an optional entity and is fetched if the u
 |project/project/textId|int|Text ID| x |
 |project/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|sale/icon|string|Category: Displays the icon for an activity type| x |
+|sale/icon|listAny|Category: Displays the icon for an activity type| x |
 |sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |sale/time| *None* |Time: Time|  |
 |sale/type|listAny|Type: Displays the type of an activity| x |
@@ -690,11 +689,14 @@ must be &gt;= start of today. This is an optional entity and is fetched if the u
 ## Sample
 
 ```http!
-GET /api/v1/archive/BookingResponseInvitation?$select=registeredByFullName,contact/mainContact,contact/contactAssociate/contactName,person/personNumber,person/birthMonth
+GET /api/v1/archive/BookingResponseInvitation?$select=endDate,contact/associateId,contact/orgnr,person/personAddress/city,sale/date
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

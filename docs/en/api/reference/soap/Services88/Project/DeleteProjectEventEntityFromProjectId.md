@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IProjectAgent.DeleteProje
 
 ## DeleteProjectEventEntityFromProjectId
 
-Delete a project event based on a project id. Does not delete the project, but does delete the published and ExternalEvent and AudienceVisibility records.
 
-* **projectId:** The project id of the external event to delete.
 
-**Returns:** Nothing
+
 
 [WSDL file for Services88/Project](../Services88-Project.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteProjectEventEntityFromProjectId Response
 
 ```xml
@@ -68,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

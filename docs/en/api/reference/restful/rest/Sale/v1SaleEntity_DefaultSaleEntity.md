@@ -99,7 +99,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,7 +107,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 27 Sep 2018 17:37:39 G9T
+Last-Modified: Thu, 24 Jul 1997 14:19:10 G7T
 
 {
   "Appointment": null,
@@ -116,7 +116,7 @@ Last-Modified: Thu, 27 Sep 2018 17:37:39 G9T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "rem",
+  "SaleText": "provident",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Last-Modified: Thu, 27 Sep 2018 17:37:39 G9T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2016-07-05T17:37:39.0812982+02:00",
-  "Amount": 482.63599999999997,
-  "SaleId": 731,
-  "Earning": 19659.582,
-  "EarningPercent": 13871.083999999999,
-  "Heading": "est",
-  "Number": "454862",
-  "Probability": 730,
-  "CreatedDate": "2002-01-07T17:37:39.0833037+01:00",
-  "UpdatedDate": "2018-09-27T17:37:39.0833037+02:00",
+  "Saledate": "2012-07-31T14:19:10.6779731+02:00",
+  "Amount": 3785.872,
+  "SaleId": 805,
+  "Earning": 24084.79,
+  "EarningPercent": 19499.748,
+  "Heading": "sit",
+  "Number": "850568",
+  "Probability": 409,
+  "CreatedDate": "2021-05-02T14:19:10.6779731+02:00",
+  "UpdatedDate": "1997-07-24T14:19:10.6779731+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 126,
+  "ActiveLinks": 860,
   "Links": [
     {
-      "EntityName": "Brakus, Cruickshank and Kulas",
-      "Id": 911,
-      "Description": "Switchable background support",
-      "ExtraInfo": "dolor",
-      "LinkId": 422,
+      "EntityName": "Jast, Kutch and Rau",
+      "Id": 321,
+      "Description": "Synergized contextually-based neural-net",
+      "ExtraInfo": "consequuntur",
+      "LinkId": 284,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 382
+          "FieldLength": 884
         }
       }
     }
   ],
-  "NextDueDate": "2020-06-17T17:37:39.0833037+02:00",
-  "Postit": "consequatur",
+  "NextDueDate": "2005-08-14T14:19:10.6779731+02:00",
+  "Postit": "nostrum",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2021-11-27T17:37:39.0833037+01:00",
+  "ReopenDate": "2008-03-13T14:19:10.6779731+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Jenkins-Green",
-      "Comment": "placeat",
-      "StakeholderRoleId": 650,
-      "CountryId": 210,
-      "PersonId": 263,
-      "EmailDescription": "roel_kutch@carter.co.uk",
-      "EmailId": 524,
-      "EmailAddress": "ana_marquardt@eichmannpredovic.ca",
-      "PhoneId": 174,
-      "ContactName": "Hand, Runte and Skiles",
-      "ContactId": 567,
-      "SaleId": 647,
-      "Mrmrs": "repellat",
-      "Firstname": "Elenora",
-      "MiddleName": "Renner, Johnston and Durgan",
-      "Lastname": "Lockman",
-      "SaleStakeholderId": 589,
-      "Rank": 510,
-      "Phone": "1-735-354-8303 x715",
+      "StakeholderRoleName": "Considine Group",
+      "Comment": "odio",
+      "StakeholderRoleId": 841,
+      "CountryId": 432,
+      "PersonId": 818,
+      "EmailDescription": "bertram.koss@champlin.co.uk",
+      "EmailId": 76,
+      "EmailAddress": "leslie.doyle@tremblaykilback.co.uk",
+      "PhoneId": 737,
+      "ContactName": "Koepp, Hegmann and Cremin",
+      "ContactId": 112,
+      "SaleId": 936,
+      "Mrmrs": "neque",
+      "Firstname": "Antwon",
+      "MiddleName": "Flatley Inc and Sons",
+      "Lastname": "Kutch",
+      "SaleStakeholderId": 153,
+      "Rank": 126,
+      "Phone": "288.109.3563 x40133",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 118
+          "FieldType": "System.String",
+          "FieldLength": 651
         }
       }
     }
   ],
-  "ActiveErpLinks": 964,
+  "ActiveErpLinks": 281,
   "UserDefinedFields": {
-    "SuperOffice:1": "1539971697",
-    "SuperOffice:2": "Prof. Henriette Thompson I"
+    "SuperOffice:1": "1858252206",
+    "SuperOffice:2": "147077856"
   },
   "ExtraFields": {
-    "ExtraFields1": "explicabo",
-    "ExtraFields2": "error"
+    "ExtraFields1": "eaque",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "ullam"
+    "CustomFields1": "pariatur",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2010-07-08T17:37:39.0843042+02:00",
-  "PublishTo": "2006-06-04T17:37:39.0843042+02:00",
-  "PublishFrom": "2014-03-19T17:37:39.0843042+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2014-09-05T14:19:10.6779731+02:00",
+  "PublishTo": "2013-06-03T14:19:10.6779731+02:00",
+  "PublishFrom": "2006-03-31T14:19:10.6779731+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 254,
+      "VisibleId": 627,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 706
+          "FieldType": "System.String",
+          "FieldLength": 530
         }
       }
     },
     {
-      "VisibleId": 254,
+      "VisibleId": 627,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 706
+          "FieldType": "System.String",
+          "FieldLength": 530
         }
       }
     }
@@ -240,8 +240,8 @@ Last-Modified: Thu, 27 Sep 2018 17:37:39 G9T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 5
+      "FieldType": "System.String",
+      "FieldLength": 834
     }
   }
 }

@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISelectionAgent.AddSelect
 
 ## AddSelectionMembersFromSearch
 
-Adds members from the selection using the search result.
 
-* **selectionId:** The id of the selection to add members
-* **storageKey:** Storage key to be interpreted by the restriction storage provider, when it fetches criteria for the search
 
-**Returns:** Number of members added.
+
 
 [WSDL file for Services87/Selection](../Services87-Selection.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## AddSelectionMembersFromSearch Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

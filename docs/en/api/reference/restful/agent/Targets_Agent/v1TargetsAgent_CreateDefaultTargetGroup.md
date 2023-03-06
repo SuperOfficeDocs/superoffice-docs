@@ -71,30 +71,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 410,
-  "Year": 631,
+  "TargetGroupId": 334,
+  "Year": 750,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 833,
+      "TargetAssignmentInfoId": 534,
       "Values": [
-        741,
-        502
+        95,
+        311
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 685,
-      "DimensionListItemDisplayName": "Douglas, Altenwerth and Hayes",
+      "DimensionListItem": 558,
+      "DimensionListItemDisplayName": "Schimmel-Jaskolski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 411
+          "FieldType": "System.Int32",
+          "FieldLength": 873
         }
       }
     }
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 739
+      "FieldLength": 192
     }
   }
 }

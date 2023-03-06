@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "appointmenttask"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,12 +15,16 @@ so.envir:
 ---
 
 # "appointmenttask" MDO List
-
 MDO list provider for the task list of the AppointmentDialog. This list extends the basic <see cref="T:SuperOffice.CRM.Rows.TaskRow" /> with
 specialized icons based on the <see cref="T:SuperOffice.Data.TaskType" />.
 
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.AppointmentTaskProvider">AppointmentTaskProvider</see> class.
 The name of the MDO list is 'appointmenttask'.
+
+
+
 
 ## Sample Request
 
@@ -33,7 +37,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("appointmenttask", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -60,3 +63,4 @@ foreach (var item in listProvider.RootItems) {
 |4|Telefon inn||freebusy=0;allday=0;ispublished=0|
 |3|Telefon ut||freebusy=0;allday=0;ispublished=0|
 |9|Tilbud||freebusy=0;allday=0;ispublished=0|
+

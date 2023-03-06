@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.SetTicketStatu
 
 ## SetTicketStatusSortOrder
 
-This method will set sort order of ticket status in a list
 
-* **ticketStatusId:** Id of ticket status
-* **sortOrder:** Indicates the sort order for this status. 1 is first. Any records following this one will be renumbered automatically
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetTicketStatusSortOrder Response
 
 ```xml
@@ -70,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -25,7 +25,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=107
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=65
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,31 +94,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 526,
-  "Name": "Heaney, Auer and Medhurst",
-  "Description": "Diverse zero administration contingency",
-  "DefaultHeight": 687,
-  "DefaultWidth": 633,
+  "DashboardTileDefinitionId": 968,
+  "Name": "Denesik, Hyatt and Ratke",
+  "Description": "Virtual multimedia software",
+  "DefaultHeight": 517,
+  "DefaultWidth": 197,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "DuBuque-Howell",
-  "SelectionId": 126,
+  "EntityName": "Goldner, Mills and Davis",
+  "SelectionId": 769,
   "CurrencyMode": "Base",
-  "CurrencyCode": "fugit",
+  "CurrencyCode": "et",
   "Measure": "Average",
-  "MeasureField": "molestiae",
-  "SortBy": "sapiente",
-  "LayoutConfig": "aliquid",
-  "SecondarySelectionId": 934,
-  "MeasureByField": "corrupti",
+  "MeasureField": "quaerat",
+  "SortBy": "et",
+  "LayoutConfig": "eum",
+  "SecondarySelectionId": 295,
+  "MeasureByField": "doloremque",
   "Usage": "Dashboard",
-  "ProviderName": "O'Kon-Beer",
+  "ProviderName": "Bosco-Johns",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 403
+      "FieldLength": 800
     }
   }
 }

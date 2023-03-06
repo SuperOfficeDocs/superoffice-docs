@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bernier-Moore",
-  "Context": "odit"
+  "ProviderName": "Gleason Group",
+  "Context": "labore"
 }
 ```
 
@@ -186,50 +186,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 41,
-    "Name": "Howe, Macejkovic and Brakus",
-    "ToolTip": "Nulla nulla quaerat ad tempora a ad.",
-    "Deleted": false,
-    "Rank": 830,
-    "Type": "ipsam",
+    "Id": 319,
+    "Name": "VonRueden LLC",
+    "ToolTip": "Animi voluptas voluptas est.",
+    "Deleted": true,
+    "Rank": 479,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 937,
-        "Name": "Jaskolski Group",
-        "ToolTip": "Et ut voluptas et ut nulla excepturi.",
-        "Deleted": true,
-        "Rank": 858,
-        "Type": "quia",
+        "Id": 713,
+        "Name": "Abbott LLC",
+        "ToolTip": "Accusamus neque cupiditate vitae nihil.",
+        "Deleted": false,
+        "Rank": 102,
+        "Type": "consequatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptates",
-        "ColorBlock": 168,
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "omnis",
-        "FullName": "Corene Kling",
+        "IconHint": "consectetur",
+        "ColorBlock": 923,
+        "ExtraInfo": "unde",
+        "StyleHint": "culpa",
+        "FullName": "Mr. Russell Schaden DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 824
+            "FieldType": "System.String",
+            "FieldLength": 608
           }
         }
       }
     ],
-    "IconHint": "ducimus",
-    "ColorBlock": 904,
-    "ExtraInfo": "beatae",
-    "StyleHint": "ut",
-    "FullName": "Stan Marvin",
+    "IconHint": "autem",
+    "ColorBlock": 954,
+    "ExtraInfo": "nostrum",
+    "StyleHint": "voluptate",
+    "FullName": "Ralph Dickinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 945
+        "FieldType": "System.Int32",
+        "FieldLength": 761
       }
     }
   }

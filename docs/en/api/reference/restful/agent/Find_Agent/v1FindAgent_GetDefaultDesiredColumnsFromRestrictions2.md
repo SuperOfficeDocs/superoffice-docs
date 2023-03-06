@@ -168,12 +168,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hilpert, Adams and Spencer",
-  "Restrictions": "nulla"
+  "ProviderName": "Cassin, Stark and Marquardt",
+  "Restrictions": "eum"
 }
 ```
 
@@ -185,19 +185,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Johns LLC",
-    "DisplayTooltip": "et",
-    "DisplayType": "velit",
+    "DisplayName": "Hirthe, Luettgen and Wiegand",
+    "DisplayTooltip": "amet",
+    "DisplayType": "molestiae",
     "CanOrderBy": false,
-    "Name": "Abshire, Paucek and Jakubowski",
-    "CanRestrictBy": true,
-    "RestrictionType": "quis",
-    "RestrictionListName": "Douglas, Bahringer and Emmerich",
-    "IsVisible": true,
-    "ExtraInfo": "eum",
-    "Width": "quis",
-    "IconHint": "voluptatem",
-    "HeadingIconHint": "dolores"
+    "Name": "Moen-Runte",
+    "CanRestrictBy": false,
+    "RestrictionType": "hic",
+    "RestrictionListName": "Turner, Schimmel and Kuvalis",
+    "IsVisible": false,
+    "ExtraInfo": "fugiat",
+    "Width": "illo",
+    "IconHint": "recusandae",
+    "HeadingIconHint": "error"
   }
 ]
 ```

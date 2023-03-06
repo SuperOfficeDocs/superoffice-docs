@@ -26,7 +26,7 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=et
+GET /api/v1/List/SaleType/MDOItems?query=ipsam
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 356,
-    "Name": "Herman Group",
-    "ToolTip": "Facilis veritatis laudantium itaque et.",
+    "Id": 948,
+    "Name": "Labadie Inc and Sons",
+    "ToolTip": "Ipsa rem.",
     "Deleted": false,
-    "Rank": 466,
-    "Type": "ullam",
+    "Rank": 571,
+    "Type": "sed",
     "ChildItems": [
       {
-        "Id": 889,
-        "Name": "Carroll Group",
-        "ToolTip": "Doloribus magnam ipsam quidem consequatur quia rerum culpa.",
-        "Deleted": true,
-        "Rank": 450,
-        "Type": "consequatur",
+        "Id": 600,
+        "Name": "Lang, Wiegand and Kris",
+        "ToolTip": "Odio fugit rerum dolores omnis voluptas accusantium delectus.",
+        "Deleted": false,
+        "Rank": 447,
+        "Type": "provident",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "facere",
-        "ColorBlock": 871,
-        "ExtraInfo": "aut",
-        "StyleHint": "consequuntur",
-        "FullName": "Allie Kyler Goldner II",
+        "IconHint": "necessitatibus",
+        "ColorBlock": 920,
+        "ExtraInfo": "nam",
+        "StyleHint": "neque",
+        "FullName": "Marianna Haag",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 158
+            "FieldLength": 408
           }
         }
       }
     ],
-    "IconHint": "amet",
-    "ColorBlock": 9,
-    "ExtraInfo": "odio",
-    "StyleHint": "et",
-    "FullName": "Dixie Wyman",
+    "IconHint": "facere",
+    "ColorBlock": 781,
+    "ExtraInfo": "delectus",
+    "StyleHint": "velit",
+    "FullName": "Mr. Genevieve Kerluke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 807
+        "FieldLength": 813
       }
     }
   }

@@ -120,11 +120,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 396
+  "ProjectId": 839
 }
 ```
 
@@ -135,53 +135,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 361,
-  "StartDate": "2002-04-05T17:37:18.6412443+02:00",
-  "EndDate": "2014-05-22T17:37:18.6412443+02:00",
+  "AppointmentId": 496,
+  "StartDate": "2020-04-21T14:19:03.9532088+02:00",
+  "EndDate": "2004-10-10T14:19:03.9532088+02:00",
   "Type": "BookingForChecklist",
-  "Task": "sed",
-  "AssociateFullName": "Alec Beer",
-  "ContactName": "Champlin Group",
-  "Description": "Sharable fresh-thinking artificial intelligence",
-  "PersonFullName": "Fabian Rempel",
-  "PersonId": 918,
-  "ContactId": 497,
-  "ProjectId": 824,
-  "ProjectName": "Leannon-Daniel",
-  "IsPublished": false,
-  "AssociateId": 416,
-  "ColorIndex": 950,
-  "IsFree": false,
+  "Task": "dolores",
+  "AssociateFullName": "Mr. Amara Bahringer I",
+  "ContactName": "Beer, Franecki and Blanda",
+  "Description": "Triple-buffered directional product",
+  "PersonFullName": "Dawson Kub Jr.",
+  "PersonId": 824,
+  "ContactId": 780,
+  "ProjectId": 828,
+  "ProjectName": "Lynch-Heaney",
+  "IsPublished": true,
+  "AssociateId": 540,
+  "ColorIndex": 793,
+  "IsFree": true,
   "HasAlarm": true,
-  "IsAlldayEvent": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 134,
-  "PriorityName": "Pacocha, Hessel and Cummerata",
+  "PriorityId": 83,
+  "PriorityName": "Gerlach LLC",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
+  "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2004-09-30T17:37:18.6422443+02:00",
+  "ActiveDate": "2013-06-14T14:19:03.9532088+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2022-11-21T17:37:18.6422443+01:00",
-  "RecurringEndDate": "2022-07-03T17:37:18.6422443+02:00",
-  "MotherId": 22,
-  "AssignedBy": 270,
-  "AssignedByFullName": "Junior Weber",
+  "RecurringStartDate": "2012-04-19T14:19:03.9532088+02:00",
+  "RecurringEndDate": "2019-09-05T14:19:03.9532088+02:00",
+  "MotherId": 541,
+  "AssignedBy": 321,
+  "AssignedByFullName": "Ms. Aletha Champlin",
   "RejectReason": "",
-  "Location": "vitae",
-  "AlarmLeadTime": "aut",
-  "SaleId": 587,
-  "SaleName": "Bernhard Group",
-  "AssociateName": "Hyatt-Stoltenberg",
-  "CreatedDate": "1998-03-29T17:37:18.6422443+02:00",
-  "CreatedBy": "sit",
-  "CreatedByFullName": "Mrs. Kailyn Rippin",
-  "CreatedByAssociateId": 747,
+  "Location": "iusto",
+  "AlarmLeadTime": "qui",
+  "SaleId": 220,
+  "SaleName": "Mayert-Roob",
+  "AssociateName": "Funk-Wilkinson",
+  "CreatedDate": "2001-07-07T14:19:03.9532088+02:00",
+  "CreatedBy": "deserunt",
+  "CreatedByFullName": "Alanis Wilma Frami MD",
+  "CreatedByAssociateId": 549,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldLength": 49
     }
   }
 }

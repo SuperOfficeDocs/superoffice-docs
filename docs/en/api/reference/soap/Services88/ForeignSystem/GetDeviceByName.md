@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IForeignSystemAgent.GetDe
 
 ## GetDeviceByName
 
-Gets a ForeignDevice with deviceName that belongs to the application with applicationName.
 
-* **applicationName:** The name of the foreign application.
-* **deviceName:** The name of the foreign device.
 
-**Returns:** The ForeignDevice.
+
 
 [WSDL file for Services88/ForeignSystem](../Services88-ForeignSystem.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDeviceByName Response
 
 ```xml
@@ -66,8 +64,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <ForeignSystem:Response xsi:type="ForeignSystem:ForeignDevice">
     <ForeignSystem:ForeignDeviceId xsi:type="xsd:int">0</ForeignSystem:ForeignDeviceId>
     <ForeignSystem:Name xsi:type="xsd:string"></ForeignSystem:Name>
-    <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:59:32Z</ForeignSystem:CreatedDate>
-    <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:59:32Z</ForeignSystem:UpdatedDate>
+    <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2023-02-15T13:17:31Z</ForeignSystem:CreatedDate>
+    <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2023-02-15T13:17:31Z</ForeignSystem:UpdatedDate>
     <ForeignSystem:AssociateFullName xsi:type="xsd:string"></ForeignSystem:AssociateFullName>
     <ForeignSystem:CreatedBy xsi:type="xsd:string"></ForeignSystem:CreatedBy>
     <ForeignSystem:UpdatedBy xsi:type="xsd:string"></ForeignSystem:UpdatedBy>
@@ -79,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -25,7 +25,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=626
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=734
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -63,7 +63,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 551,
+  "EjMessageId": 916,
   "Ticket": null,
-  "CreatedAt": "2007-01-06T17:37:19.4479807+01:00",
+  "CreatedAt": "2003-02-26T14:19:04.501577+01:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "qui",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "tempora",
-  "TimeSpent": 796,
-  "Body": "laboriosam",
-  "HtmlBody": "nihil",
-  "EmailHeader": "kasandra@kerlukepagac.info",
-  "DebugInfo": "voluptas",
-  "MailSorter": "magnam",
+  "MessageId": "consequatur",
+  "TimeSpent": 847,
+  "Body": "tenetur",
+  "HtmlBody": "facere",
+  "EmailHeader": "ava_koch@ondrickakreiger.info",
+  "DebugInfo": "incidunt",
+  "MailSorter": "veritatis",
   "MessageCategory": "Bounce",
   "Person": null,
   "SearchTitle": "voluptatem",
   "MessageHeaders": [
     {
-      "Id": 442,
-      "Name": "Feeney, Nicolas and King",
-      "Value": "libero",
+      "Id": 935,
+      "Name": "Ziemann-Schmeler",
+      "Value": "eius",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -129,47 +129,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 440
+          "FieldLength": 706
         }
       }
     }
   ],
   "Important": false,
-  "Language": "laboriosam",
-  "Sentiment": 855,
-  "SentimentConfidence": 756,
+  "Language": "minus",
+  "Sentiment": 4,
+  "SentimentConfidence": 884,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 314,
-      "Name": "Bauch-Goldner",
-      "ContentType": "aspernatur",
-      "AttSize": 232,
+      "AttachmentId": 681,
+      "Name": "Anderson, Jones and Murray",
+      "ContentType": "est",
+      "AttSize": 615,
       "InlineImage": false,
-      "ContentId": "aut",
+      "ContentId": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 422
+          "FieldLength": 615
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "culpa",
-    "ExtraFields2": "explicabo"
+    "ExtraFields1": "odit",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "fugiat",
-    "CustomFields2": "perferendis"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "fugit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 897
+      "FieldType": "System.String",
+      "FieldLength": 79
     }
   }
 }

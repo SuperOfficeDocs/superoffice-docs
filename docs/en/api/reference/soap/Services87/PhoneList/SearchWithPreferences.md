@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IPhoneListAgent.SearchWit
 
 ## SearchWithPreferences
 
-Searching the phone list. Search is based on the supplied preferences.
 
-* **searchString:** The search string.
-* **preferences:** The search preferences
 
-**Returns:** The resulting phone list.
+
 
 [WSDL file for Services87/PhoneList](../Services87-PhoneList.md)
 
@@ -59,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SearchWithPreferences Response
 
 ```xml
@@ -91,3 +89,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

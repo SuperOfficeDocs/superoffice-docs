@@ -41,6 +41,8 @@ title: Marketing_Agent
 
 * [POST Agents/Marketing/CalculateMailingStatistics](v1MarketingAgent_CalculateMailingStatistics.md)
 
+* [POST Agents/Marketing/GetFormSubmissionsCount](v1MarketingAgent_GetFormSubmissionsCount.md)
+
 * [POST Agents/Marketing/GetPreviewMailing](v1MarketingAgent_GetPreviewMailing.md)
 
 * [POST Agents/Marketing/GetPreviewMailingHeader](v1MarketingAgent_GetPreviewMailingHeader.md)

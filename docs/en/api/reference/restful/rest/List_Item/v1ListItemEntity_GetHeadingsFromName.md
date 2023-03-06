@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 48,
-    "Name": "Streich-Littel",
-    "Tooltip": "nisi",
+    "HeadingId": 321,
+    "Name": "Lubowitz, Hermiston and Keebler",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 195,
-    "UdListDefinitionId": 349,
+    "Rank": 308,
+    "UdListDefinitionId": 836,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 100
+        "FieldType": "System.Int32",
+        "FieldLength": 1002
       }
     }
   }

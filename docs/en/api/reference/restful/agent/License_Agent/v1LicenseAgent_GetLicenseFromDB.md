@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Kub-Terry"
+  "OwnerName": "Abshire, Prosacco and Ankunding"
 }
 ```
 
@@ -91,21 +91,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 122,
-      "NumberOfLicensesFree": 311,
-      "NumberOfLicensesAdded": 641,
-      "NumberOfLicensesNewTotal": 879,
-      "NumberOfLicensesNewFree": 838,
-      "NumberOfLicensesTotal": 586
+      "NumberOfLicensesInUse": 481,
+      "NumberOfLicensesFree": 325,
+      "NumberOfLicensesAdded": 385,
+      "NumberOfLicensesNewTotal": 298,
+      "NumberOfLicensesNewFree": 328,
+      "NumberOfLicensesTotal": 240
     }
   ],
-  "AccumulatedNextCheckDate": "2015-05-27T17:37:18.1272419+02:00"
+  "AccumulatedNextCheckDate": "1996-06-23T14:19:03.5769906+02:00"
 }
 ```

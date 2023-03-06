@@ -69,7 +69,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "placeat"
+  "Path": "ut"
 }
 ```
 

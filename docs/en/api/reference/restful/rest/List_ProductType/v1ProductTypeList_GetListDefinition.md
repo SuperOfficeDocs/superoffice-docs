@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 76,
-  "Name": "Parisian-Harvey",
-  "Tooltip": "voluptatibus",
-  "Deleted": false,
-  "Rank": 342,
-  "IsCustomList": false,
+  "Id": 933,
+  "Name": "Mosciski, Abshire and Lesch",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 995,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
+  "ListType": "ut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldType": "System.String",
+      "FieldLength": 179
     }
   },
   "_Links": {

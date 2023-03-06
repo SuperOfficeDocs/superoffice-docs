@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.DeleteDocument
 
 ## DeleteDocumentTemplateLanguage
 
-Deletes language variant of the document template
 
-* **documentTemplateId:** The id of the document template
-* **languageCode:** The language code ('en-US, 'nb-NO', etc)
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteDocumentTemplateLanguage Response
 
 ```xml
@@ -70,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

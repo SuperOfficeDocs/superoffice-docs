@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 73,
-    "Name": "Hessel-Mitchell",
-    "Tooltip": "nesciunt",
+    "Id": 975,
+    "Name": "Will Group",
+    "Tooltip": "est",
     "Deleted": true,
-    "UdListDefinitionId": 792,
-    "Rank": 464,
+    "UdListDefinitionId": 757,
+    "Rank": 603,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 134
+        "FieldType": "System.Int32",
+        "FieldLength": 464
       }
     }
   }

@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IAIAgent.TrainCategoryGue
 
 ## TrainCategoryGuesser
 
-The category guesser training API will be called with an array of CategorizationTrainingItem during the (background, Batch) execution of this call
 
-* **selectionId:** Id of selection of tickets, to retrieve training data from
-* **maxItems:** Maximum number of tickets to retrieve data from
-* **maxTextLength:** Maximum length of PlainTextBody or any other large text, truncated to nearest word boundary
 
-**Returns:** Placeholder for result...  should this be a BatchTaskId?  maybe not useful?
+
 
 [WSDL file for Services88/AI](../Services88-AI.md)
 
@@ -52,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## TrainCategoryGuesser Response
 
 ```xml
@@ -71,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

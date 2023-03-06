@@ -78,7 +78,7 @@ OK
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,46 +88,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 730,
+  "HierarchyId": 634,
   "Domain": "Dashboards",
-  "Name": "Quitzon-Cruickshank",
-  "Fullname": "voluptatem",
-  "ParentId": 143,
+  "Name": "Hyatt-Bailey",
+  "Fullname": "quisquam",
+  "ParentId": 705,
   "Children": [
     {
-      "HierarchyId": 435,
+      "HierarchyId": 599,
       "Domain": "Dashboards",
-      "Name": "Kovacek LLC",
-      "Fullname": "aut",
-      "ParentId": 535,
+      "Name": "Hettinger, Spencer and Hoppe",
+      "Fullname": "tempore",
+      "ParentId": 713,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2000-03-27T17:37:38.8298601+02:00",
-      "RegisteredAssociateId": 959,
-      "Updated": "2009-12-27T17:37:38.8298601+01:00",
-      "UpdatedAssociateId": 796,
+      "Registered": "2016-09-08T14:19:10.3654771+02:00",
+      "RegisteredAssociateId": 121,
+      "Updated": "2005-11-17T14:19:10.3654771+01:00",
+      "UpdatedAssociateId": 738,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 295
+          "FieldLength": 924
         }
       }
     }
   ],
-  "Registered": "1997-12-20T17:37:38.8298601+01:00",
-  "RegisteredAssociateId": 228,
-  "Updated": "2021-10-22T17:37:38.8298601+02:00",
-  "UpdatedAssociateId": 268,
+  "Registered": "2014-06-04T14:19:10.3654771+02:00",
+  "RegisteredAssociateId": 953,
+  "Updated": "2001-11-20T14:19:10.3654771+01:00",
+  "UpdatedAssociateId": 967,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldLength": 364
     }
   }
 }

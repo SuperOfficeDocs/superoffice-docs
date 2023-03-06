@@ -482,55 +482,31 @@ title: Services88.AIAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="AI">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for AI</summary>
-    </wsdl:documentation>
     <wsdl:operation name="GetTrainingStatus">
-      <wsdl:documentation>
-        <summary>Calling the HugoAI endpoint to fetch the current training status.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/GetTrainingStatus" name="GetTrainingStatusRequest" message="tns:GetTrainingStatusRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/GetTrainingStatusResponse" name="GetTrainingStatusResponse" message="tns:GetTrainingStatusResponse" />
     </wsdl:operation>
     <wsdl:operation name="GuessCategory">
-      <wsdl:documentation>
-        <summary>Given a ticket's id, guess the ticket category it should be placed in. Currently this is based on the first message in the ticket</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/GuessCategory" name="GuessCategoryRequest" message="tns:GuessCategoryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/GuessCategoryResponse" name="GuessCategoryResponse" message="tns:GuessCategoryResponse" />
     </wsdl:operation>
     <wsdl:operation name="TrainCategoryGuesser">
-      <wsdl:documentation>
-        <summary>The category guesser training API will be called with an array of CategorizationTrainingItem during the (background, Batch) execution of this call</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/TrainCategoryGuesser" name="TrainCategoryGuesserRequest" message="tns:TrainCategoryGuesserRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/TrainCategoryGuesserResponse" name="TrainCategoryGuesserResponse" message="tns:TrainCategoryGuesserResponse" />
     </wsdl:operation>
     <wsdl:operation name="DetectLanguage">
-      <wsdl:documentation>
-        <summary>Given a (reasonably short) text, detect the language it is written in</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/DetectLanguage" name="DetectLanguageRequest" message="tns:DetectLanguageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/DetectLanguageResponse" name="DetectLanguageResponse" message="tns:DetectLanguageResponse" />
     </wsdl:operation>
     <wsdl:operation name="DetectSentiment">
-      <wsdl:documentation>
-        <summary>Detect the sentiment of a (reasonably short) text. Sentiment analysis may cause a translation to be made, since sentiment analysis only supports a limited set of languages</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/DetectSentiment" name="DetectSentimentRequest" message="tns:DetectSentimentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/DetectSentimentResponse" name="DetectSentimentResponse" message="tns:DetectSentimentResponse" />
     </wsdl:operation>
     <wsdl:operation name="Translate">
-      <wsdl:documentation>
-        <summary>Translate a text from one language to another. Language of the text is automatically detected.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/Translate" name="TranslateRequest" message="tns:TranslateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/TranslateResponse" name="TranslateResponse" message="tns:TranslateResponse" />
     </wsdl:operation>
     <wsdl:operation name="TranslateEntity">
-      <wsdl:documentation>
-        <summary>Retrieve, format and translate text for an entity to a specified language</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/TranslateEntity" name="TranslateEntityRequest" message="tns:TranslateEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/TranslateEntityResponse" name="TranslateEntityResponse" message="tns:TranslateEntityResponse" />
     </wsdl:operation>
@@ -657,3 +633,4 @@ title: Services88.AIAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

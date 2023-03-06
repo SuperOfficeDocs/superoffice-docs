@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IPreferenceAgent.SavePref
 
 ## SavePreferenceEntity
 
-Saves a complete preference object. Preference administrator rights are required to use this
 
-* **preference:** The preference object to be saved
-* **removeLowerLevels:** If this is true, all user preferences on lower levels will be deleted
 
-**Returns:** Returns the saved preference
+
 
 [WSDL file for Services86/Preference](../Services86-Preference.md)
 
@@ -71,6 +68,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SavePreferenceEntity Response
 
 ```xml
@@ -111,3 +109,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

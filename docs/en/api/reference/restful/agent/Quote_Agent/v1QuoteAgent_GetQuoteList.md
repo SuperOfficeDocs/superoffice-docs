@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "ea"
+  "QuoteListType": "sint"
 }
 ```
 
@@ -92,28 +92,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "ut",
-    "DisplayValue": "aut",
-    "DisplayDescription": "Future-proofed mission-critical solution",
+    "ERPQuoteListItemKey": "ad",
+    "DisplayValue": "exercitationem",
+    "DisplayDescription": "Persistent 24/7 middleware",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldLength": 524
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "ut",
-    "DisplayValue": "aut",
-    "DisplayDescription": "Future-proofed mission-critical solution",
+    "ERPQuoteListItemKey": "ad",
+    "DisplayValue": "exercitationem",
+    "DisplayDescription": "Persistent 24/7 middleware",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldLength": 524
       }
     }
   }

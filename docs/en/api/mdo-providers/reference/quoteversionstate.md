@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "quoteversionstate"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "quoteversionstate" MDO List
-
 List provider for the <see cref="T:SuperOffice.Data.QuoteVersionState" /> enum
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.QuoteVersionStateListProvider">QuoteVersionStateListProvider</see> class.
 The name of the MDO list is 'quoteversionstate'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("quoteversionstate", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -54,6 +57,7 @@ foreach (var item in listProvider.RootItems) {
 |7|Archived|||
 |8|Lost|||
 |9|Sold|||
+
 
 ## Related MDO Lists
 

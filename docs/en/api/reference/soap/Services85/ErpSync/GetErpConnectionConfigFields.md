@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IErpSyncAgent.GetErpConne
 
 ## GetErpConnectionConfigFields
 
-Returns the config fields for the connection.
 
-* **erpConnectionId:** Primary key of the erp connection
 
-**Returns:** Config Fields
+
 
 [WSDL file for Services85/ErpSync](../Services85-ErpSync.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetErpConnectionConfigFields Response
 
 ```xml
@@ -74,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

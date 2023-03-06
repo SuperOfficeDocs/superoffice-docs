@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 13,
-  "Name": "Larkin, Mills and Nader",
-  "ConsentText": "inventore",
-  "FormText": "voluptatum",
-  "Key": "veniam",
-  "Tooltip": "suscipit",
-  "Active": 663,
-  "UpdatedDate": "2017-06-24T17:37:18.3052415+02:00",
+  "ConsentPurposeId": 918,
+  "Name": "Goldner Inc and Sons",
+  "ConsentText": "possimus",
+  "FormText": "eum",
+  "Key": "saepe",
+  "Tooltip": "quasi",
+  "Active": 846,
+  "UpdatedDate": "2023-02-11T14:19:03.7019992+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 852,
-  "PrivacyStatementDesc": "molestias",
+  "Rank": 338,
+  "PrivacyStatementDesc": "qui",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldType": "System.String",
+      "FieldLength": 970
     }
   }
 }

@@ -61,7 +61,7 @@ OK
 GET /api/v1/PreferenceDescriptionLine/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 394,
-  "PrefDescId": 220,
-  "PrefValue": "aut",
-  "PrefShowValue": "pariatur",
-  "Description": "Front-line interactive alliance",
-  "IsBuiltin": false,
+  "PrefDescLineId": 687,
+  "PrefDescId": 978,
+  "PrefValue": "nam",
+  "PrefShowValue": "voluptas",
+  "Description": "Re-contextualized bandwidth-monitored knowledge user",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldLength": 249
     }
   }
 }

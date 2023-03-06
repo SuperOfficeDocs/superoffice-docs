@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 200,
-    "Name": "Kertzmann, Kub and Hartmann",
-    "ToolTip": "Quibusdam quis qui temporibus fugit porro ut nemo.",
+    "Id": 619,
+    "Name": "Kuphal LLC",
+    "ToolTip": "Autem saepe velit aut esse mollitia possimus.",
     "Deleted": false,
-    "Rank": 415,
-    "Type": "possimus",
-    "ColorBlock": 249,
-    "IconHint": "illo",
+    "Rank": 764,
+    "Type": "officiis",
+    "ColorBlock": 506,
+    "IconHint": "ratione",
     "Selected": true,
-    "LastChanged": "2015-07-29T17:37:40.1435006+02:00",
+    "LastChanged": "2002-09-17T14:19:11.3680268+02:00",
     "ChildItems": [
       {
-        "Id": 717,
-        "Name": "Bailey-Altenwerth",
-        "ToolTip": "Perspiciatis sit.",
-        "Deleted": false,
-        "Rank": 805,
-        "Type": "voluptas",
-        "ColorBlock": 777,
-        "IconHint": "itaque",
+        "Id": 275,
+        "Name": "Hermann, Gutkowski and Towne",
+        "ToolTip": "Error est quo iste.",
+        "Deleted": true,
+        "Rank": 945,
+        "Type": "voluptatem",
+        "ColorBlock": 432,
+        "IconHint": "fugiat",
         "Selected": false,
-        "LastChanged": "2014-04-02T17:37:40.1445013+02:00",
+        "LastChanged": "2019-11-26T14:19:11.3680268+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "maxime",
-        "Hidden": false,
-        "FullName": "Philip Mertz"
+        "ExtraInfo": "sunt",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Felipe Hudson Jr."
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "vel",
-    "Hidden": true,
-    "FullName": "Mr. Hailey Audra Jaskolski I"
+    "ExtraInfo": "eos",
+    "StyleHint": "ipsam",
+    "Hidden": false,
+    "FullName": "Elmore Frankie Toy I"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 306,
-    "Name": "Schmeler-Miller",
-    "ToolTip": "Aut nulla quod non voluptatem.",
+    "Id": 330,
+    "Name": "Ratke-Jaskolski",
+    "ToolTip": "Et quaerat consequatur.",
     "Deleted": false,
-    "Rank": 34,
+    "Rank": 62,
     "Type": "qui",
-    "ColorBlock": 131,
-    "IconHint": "nostrum",
+    "ColorBlock": 79,
+    "IconHint": "tenetur",
     "Selected": false,
-    "LastChanged": "2018-03-07T17:37:40.1465004+01:00",
+    "LastChanged": "2019-10-28T14:19:11.3680268+01:00",
     "ChildItems": [
       {
-        "Id": 205,
-        "Name": "Baumbach-Swaniawski",
-        "ToolTip": "Unde ut vitae.",
-        "Deleted": true,
-        "Rank": 61,
-        "Type": "eius",
-        "ColorBlock": 893,
-        "IconHint": "odit",
+        "Id": 741,
+        "Name": "Funk, Eichmann and Kovacek",
+        "ToolTip": "Et esse ut ea.",
+        "Deleted": false,
+        "Rank": 403,
+        "Type": "eaque",
+        "ColorBlock": 292,
+        "IconHint": "exercitationem",
         "Selected": true,
-        "LastChanged": "1996-01-30T17:37:40.1465004+01:00",
+        "LastChanged": "2014-08-20T14:19:11.3680268+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "unde",
+        "ExtraInfo": "aut",
+        "StyleHint": "repellat",
         "Hidden": false,
-        "FullName": "Emmie Satterfield",
+        "FullName": "Pasquale O'Connell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 254
+            "FieldLength": 216
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "ut",
+    "ExtraInfo": "magnam",
+    "StyleHint": "fugit",
     "Hidden": false,
-    "FullName": "Osbaldo Huels",
+    "FullName": "Rosemarie Hoeger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 849
+        "FieldLength": 929
       }
     }
   }

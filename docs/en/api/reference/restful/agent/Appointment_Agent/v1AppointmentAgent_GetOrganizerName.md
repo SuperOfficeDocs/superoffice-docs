@@ -67,11 +67,11 @@ OK
 POST /api/v1/Agents/Appointment/GetOrganizerName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherAppointmentId": 628
+  "MotherAppointmentId": 403
 }
 ```
 
@@ -81,5 +81,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Rath, Harris and Herzog"
+"Walker-Schuppe"
 ```

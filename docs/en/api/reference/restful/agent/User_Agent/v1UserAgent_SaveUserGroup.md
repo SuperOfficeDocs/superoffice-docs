@@ -96,17 +96,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "laudantium",
-  "Tooltip": "impedit",
-  "Id": 673,
-  "Rank": 758,
-  "Deleted": true,
+  "Value": "libero",
+  "Tooltip": "fuga",
+  "Id": 353,
+  "Rank": 677,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 342
     }
   }
 }

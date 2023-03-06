@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Langosh Group"
+  "ConnectorName": "Langosh LLC"
 }
 ```
 
@@ -101,54 +101,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 57,
-  "ERPName": "Jerde-Parisian",
-  "DisplayName": "Ortiz-Osinski",
-  "DisplayDescription": "Team-oriented uniform Graphic Interface",
-  "Rank": 484,
-  "ConnectorName": "Kerluke Group",
-  "ErpConnectionId": 174,
-  "ExtraData": "eligendi",
-  "IsAvailable": false,
+  "QuoteConnectionId": 861,
+  "ERPName": "Schumm-Bartoletti",
+  "DisplayName": "Ruecker-Raynor",
+  "DisplayDescription": "De-engineered leading edge throughput",
+  "Rank": 394,
+  "ConnectorName": "Hintz Group",
+  "ErpConnectionId": 842,
+  "ExtraData": "aliquam",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 766,
-      "ERPPriceListKey": "ut",
-      "QuoteConnectionId": 507,
-      "Name": "Roob, VonRueden and Torphy",
-      "Description": "Upgradable actuating task-force",
-      "Currency": "voluptas",
-      "CurrencyName": "Bechtelar Inc and Sons",
-      "ValidFrom": "1996-04-20T17:37:18.7402422+02:00",
-      "ValidTo": "2009-10-25T17:37:18.7402422+01:00",
+      "PriceListId": 90,
+      "ERPPriceListKey": "et",
+      "QuoteConnectionId": 987,
+      "Name": "Treutel-Grant",
+      "Description": "Secured reciprocal core",
+      "Currency": "ut",
+      "CurrencyName": "Zboncak-Barrows",
+      "ValidFrom": "2011-04-22T14:19:04.0157096+02:00",
+      "ValidTo": "2018-09-05T14:19:04.0157096+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 652
+          "FieldLength": 668
         }
       }
     }
   ],
-  "AllAccess": true,
+  "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    547,
-    753
+    700,
+    664
   ],
   "AssociateAccessIds": [
-    659,
-    4
+    756,
+    568
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 825
+      "FieldType": "System.Int32",
+      "FieldLength": 554
     }
   }
 }

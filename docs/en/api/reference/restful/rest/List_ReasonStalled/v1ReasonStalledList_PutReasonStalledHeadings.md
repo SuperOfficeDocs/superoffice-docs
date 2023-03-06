@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 145,
-    "Name": "Balistreri, Jaskolski and Conroy",
-    "Tooltip": "sint",
+    "HeadingId": 382,
+    "Name": "Streich Inc and Sons",
+    "Tooltip": "incidunt",
     "Deleted": true,
-    "Rank": 432,
-    "UdListDefinitionId": 210
+    "Rank": 777,
+    "UdListDefinitionId": 187
   },
   {
-    "HeadingId": 145,
-    "Name": "Balistreri, Jaskolski and Conroy",
-    "Tooltip": "sint",
+    "HeadingId": 382,
+    "Name": "Streich Inc and Sons",
+    "Tooltip": "incidunt",
     "Deleted": true,
-    "Rank": 432,
-    "UdListDefinitionId": 210
+    "Rank": 777,
+    "UdListDefinitionId": 187
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 535,
-    "Name": "Quigley LLC",
-    "Tooltip": "ut",
+    "HeadingId": 105,
+    "Name": "Ryan Group",
+    "Tooltip": "facilis",
     "Deleted": false,
-    "Rank": 328,
-    "UdListDefinitionId": 551,
+    "Rank": 141,
+    "UdListDefinitionId": 790,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 596
+        "FieldType": "System.Int32",
+        "FieldLength": 211
       }
     }
   }

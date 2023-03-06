@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ICustomerServiceAgent.Cre
 
 ## CreateDefaultCustomerCenterConfig
 
-Loading default values into a new CustomerCenterConfig.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-**Returns:** New CustomerCenterConfig with default values
+
+
 
 [WSDL file for Services87/CustomerService](../Services87-CustomerService.md)
 
@@ -47,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultCustomerCenterConfig Response
 
 ```xml
@@ -66,9 +66,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <CustomerService:Type xsi:type="CustomerService:ConfigType">Style</CustomerService:Type>
     <CustomerService:Config xsi:type="xsd:string"></CustomerService:Config>
     <CustomerService:CustLangId xsi:type="xsd:int">0</CustomerService:CustLangId>
-    <CustomerService:Registered xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</CustomerService:Registered>
+    <CustomerService:Registered xsi:type="xsd:dateTime">2023-02-15T13:14:53Z</CustomerService:Registered>
     <CustomerService:RegisteredAssociateId xsi:type="xsd:int">0</CustomerService:RegisteredAssociateId>
-    <CustomerService:Updated xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</CustomerService:Updated>
+    <CustomerService:Updated xsi:type="xsd:dateTime">2023-02-15T13:14:53Z</CustomerService:Updated>
     <CustomerService:UpdatedAssociateId xsi:type="xsd:int">0</CustomerService:UpdatedAssociateId>
    </CustomerService:Response>
   </CustomerService:CreateDefaultCustomerCenterConfigResponse>
@@ -76,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

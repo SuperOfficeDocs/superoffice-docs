@@ -97,15 +97,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 804,
-  "StartTime": "2003-05-04T17:37:17.4252447+02:00",
-  "EndTime": "2021-10-12T17:37:17.4252447+02:00",
-  "Count": 419,
-  "DocumentTemplateId": 600
+  "PersonId": 924,
+  "StartTime": "2016-01-25T14:19:03.1355296+01:00",
+  "EndTime": "2009-01-02T14:19:03.1355296+01:00",
+  "Count": 277,
+  "DocumentTemplateId": 104
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 735,
-    "Attention": "culpa",
-    "Header": "tenetur",
-    "Name": "Kshlerin, Douglas and Beier",
-    "OurRef": "minus",
-    "YourRef": "velit",
-    "Description": "Intuitive needs-based functionalities",
-    "DocumentTemplate": "dolor",
-    "IsPublished": true,
-    "PersonId": 793,
-    "PersonFullName": "Miss Bailee Garnett Homenick I",
-    "AssociateFullName": "Jonas Mohr",
-    "ContactId": 958,
-    "ContactName": "Bernier-Corwin",
-    "ProjectId": 683,
-    "ProjectName": "Moore-Orn",
-    "AssociateId": 546,
-    "Snum": 283,
-    "SaleId": 896,
-    "SaleName": "Goodwin Group",
+    "DocumentId": 252,
+    "Attention": "dolorem",
+    "Header": "dolor",
+    "Name": "Reilly Group",
+    "OurRef": "adipisci",
+    "YourRef": "exercitationem",
+    "Description": "Devolved intermediate capacity",
+    "DocumentTemplate": "numquam",
+    "IsPublished": false,
+    "PersonId": 806,
+    "PersonFullName": "Brianne Amely Bruen II",
+    "AssociateFullName": "Yessenia Farrell",
+    "ContactId": 177,
+    "ContactName": "Herzog-Feil",
+    "ProjectId": 656,
+    "ProjectName": "Padberg, Hoeger and Gaylord",
+    "AssociateId": 913,
+    "Snum": 160,
+    "SaleId": 619,
+    "SaleName": "Kessler-Eichmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 25
+        "FieldType": "System.Int32",
+        "FieldLength": 853
       }
     }
   }

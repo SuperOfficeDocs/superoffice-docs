@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 319
+  "AssociateId": 595
 }
 ```
 
@@ -92,22 +92,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 42,
-    "AssociateId": 222,
-    "Caption": "sed",
+    "DashboardId": 543,
+    "AssociateId": 907,
+    "Caption": "quia",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 95,
-        "Caption": "consequatur",
-        "Description": "Grass-roots global hierarchy",
-        "ChartName": "Bauch-Larkin",
-        "ChartId": "inventore",
+        "DashboardTileId": 953,
+        "Caption": "odit",
+        "Description": "Triple-buffered motivating frame",
+        "ChartName": "Hickle-Kreiger",
+        "ChartId": "modi",
         "IsDefault": false,
-        "AssociateId": 641,
-        "GroupId": 87,
-        "SelectionId": 374,
-        "Config": "voluptatem",
+        "AssociateId": 700,
+        "GroupId": 963,
+        "SelectionId": 717,
+        "Config": "mollitia",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 889
+            "FieldLength": 214
           }
         }
       }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldLength": 573
       }
     }
   }

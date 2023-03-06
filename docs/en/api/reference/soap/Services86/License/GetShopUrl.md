@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.ILicenseAgent.GetShopUrl"
 
 ## GetShopUrl
 
-Get the shop URL for the specified module owner. This can be used to redirect user to the web shop.
 
-* **ownerName:** Name of the module owner.
 
-**Returns:** The URL which contains the shop for the specified module owner.
+
 
 [WSDL file for Services86/License](../Services86-License.md)
 
@@ -50,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetShopUrl Response
 
 ```xml
@@ -71,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

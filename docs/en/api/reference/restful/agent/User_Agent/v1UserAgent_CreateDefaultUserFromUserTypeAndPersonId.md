@@ -102,12 +102,12 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "PersonId": 986
+  "PersonId": 954
 }
 ```
 
@@ -118,14 +118,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 599,
-  "Name": "Little LLC",
-  "Rank": 662,
-  "Tooltip": "nihil",
+  "AssociateId": 97,
+  "Name": "Heaney-Pacocha",
+  "Rank": 904,
+  "Tooltip": "accusantium",
   "LicenseOwners": [
     {
-      "Name": "Wisoky-Bahringer",
-      "Description": "Function-based transitional knowledge user",
+      "Name": "Jerde-Prohaska",
+      "Description": "Multi-lateral needs-based Graphical User Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -139,13 +139,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 294
+          "FieldLength": 789
         }
       }
     },
     {
-      "Name": "Wisoky-Bahringer",
-      "Description": "Function-based transitional knowledge user",
+      "Name": "Jerde-Prohaska",
+      "Description": "Multi-lateral needs-based Graphical User Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -159,7 +159,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 294
+          "FieldLength": 789
         }
       }
     }
@@ -168,110 +168,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "possimus",
-      "Tooltip": "provident",
-      "Id": 617,
-      "Rank": 866,
+      "Value": "rerum",
+      "Tooltip": "neque",
+      "Id": 913,
+      "Rank": 81,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 591
+          "FieldLength": 151
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2021-05-05T17:37:19.5999816+02:00",
-  "Lastlogout": "2001-06-04T17:37:19.5999816+02:00",
-  "EjUserId": 728,
-  "RequestSignature": "explicabo",
+  "Lastlogin": "2007-11-12T14:19:04.6109516+01:00",
+  "Lastlogout": "2017-08-27T14:19:04.6109516+02:00",
+  "EjUserId": 569,
+  "RequestSignature": "fugiat",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsPersonRetired": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "et",
-      "DisplayValue": "ut",
+      "Value": "deleniti",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 468
+          "FieldLength": 427
         }
       }
     },
     {
       "Type": null,
-      "Value": "et",
-      "DisplayValue": "ut",
+      "Value": "deleniti",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 468
+          "FieldLength": 427
         }
       }
     }
   ],
-  "UserName": "Murazik, Hagenes and Murray",
+  "UserName": "Hilll Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 206,
-      "Name": "Walter, Mertz and Kovacek",
-      "ToolTip": "Eaque possimus ut ducimus quasi fuga ipsam quis.",
+      "Id": 329,
+      "Name": "Bogisich-Hettinger",
+      "ToolTip": "Distinctio ut.",
       "Deleted": true,
-      "Rank": 151,
-      "Type": "omnis",
+      "Rank": 423,
+      "Type": "aut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "tempora",
-      "ColorBlock": 956,
-      "ExtraInfo": "eos",
-      "StyleHint": "delectus",
-      "FullName": "Christian West",
+      "IconHint": "quasi",
+      "ColorBlock": 85,
+      "ExtraInfo": "doloremque",
+      "StyleHint": "enim",
+      "FullName": "Vern Morissette",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 898
+          "FieldType": "System.String",
+          "FieldLength": 531
         }
       }
     }
   ],
-  "NickName": "Wilderman Group",
+  "NickName": "Wyman, Bahringer and Effertz",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "recusandae",
-    "ExtraFields2": "culpa"
+    "ExtraFields1": "eaque",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "eos"
+    "CustomFields1": "quis",
+    "CustomFields2": "voluptate"
   },
   "PostSaveCommands": [
     {
-      "Name": "Bechtelar Group",
-      "DisplayName": "Hartmann LLC",
-      "Description": "Configurable modular support",
-      "ToolTip": "Omnis magnam id qui.",
+      "Name": "Ryan, Medhurst and Bernhard",
+      "DisplayName": "Marvin Inc and Sons",
+      "Description": "Assimilated actuating knowledge base",
+      "ToolTip": "Aut consequatur unde ea pariatur illo odit dolore.",
       "Actions": "Implicit",
-      "ActionData": "sunt",
+      "ActionData": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 179
+          "FieldLength": 175
         }
       }
     }
@@ -280,8 +280,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 510
+      "FieldType": "System.Int32",
+      "FieldLength": 118
     }
   }
 }

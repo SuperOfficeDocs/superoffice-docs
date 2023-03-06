@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_dyn_criteria"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"

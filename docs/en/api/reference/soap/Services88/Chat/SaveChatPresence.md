@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.SaveChatPresen
 
 ## SaveChatPresence
 
-Save the chat presence for specified users
 
-* **chatPresence:** An array with ChatPresence objects. Only the UserId and Present information is used while saving
 
-**Returns:** void
+
 
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
@@ -59,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveChatPresence Response
 
 ```xml
@@ -78,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

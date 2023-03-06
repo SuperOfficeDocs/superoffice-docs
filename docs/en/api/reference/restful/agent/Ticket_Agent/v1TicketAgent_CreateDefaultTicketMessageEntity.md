@@ -53,7 +53,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -90,28 +90,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 432,
+  "EjMessageId": 744,
   "Ticket": null,
-  "CreatedAt": "2015-04-02T17:37:19.3062408+02:00",
+  "CreatedAt": "2001-12-12T14:19:04.3922008+01:00",
   "CreatedBy": null,
-  "Author": "id",
+  "Author": "est",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "delectus",
-  "TimeSpent": 185,
-  "Body": "provident",
-  "HtmlBody": "est",
-  "EmailHeader": "keshawn@buckridgerussel.co.uk",
-  "DebugInfo": "eum",
-  "MailSorter": "ut",
+  "MessageId": "eos",
+  "TimeSpent": 30,
+  "Body": "pariatur",
+  "HtmlBody": "omnis",
+  "EmailHeader": "loyce@hackettdenesik.us",
+  "DebugInfo": "beatae",
+  "MailSorter": "sunt",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "et",
+  "SearchTitle": "odio",
   "MessageHeaders": [
     {
-      "Id": 455,
-      "Name": "Kohler-Hilll",
-      "Value": "natus",
+      "Id": 701,
+      "Name": "Baumbach-Fritsch",
+      "Value": "debitis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -119,47 +119,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 916
+          "FieldLength": 305
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "est",
-  "Sentiment": 454,
-  "SentimentConfidence": 558,
+  "Important": false,
+  "Language": "quo",
+  "Sentiment": 806,
+  "SentimentConfidence": 277,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 630,
-      "Name": "Streich, Tillman and Wilkinson",
-      "ContentType": "aut",
-      "AttSize": 276,
-      "InlineImage": true,
-      "ContentId": "quasi",
+      "AttachmentId": 976,
+      "Name": "Mosciski, Brown and Jones",
+      "ContentType": "sint",
+      "AttSize": 920,
+      "InlineImage": false,
+      "ContentId": "reiciendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 587
+          "FieldType": "System.Int32",
+          "FieldLength": 918
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "tenetur",
-    "ExtraFields2": "quas"
+    "ExtraFields1": "magnam",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "libero",
-    "CustomFields2": "soluta"
+    "CustomFields1": "ut",
+    "CustomFields2": "exercitationem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 205
+      "FieldLength": 41
     }
   }
 }

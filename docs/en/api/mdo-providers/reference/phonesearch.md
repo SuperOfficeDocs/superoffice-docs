@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "phonesearch"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,6 @@ so.envir:
 ---
 
 # "phonesearch" MDO List
-
 Search phone numbers for matching stripped numbers, across person and contacts.
 Return company name + department, or person name.
 Use AdditionInfo to restrict search to just Person or Contact phone numbers using "P" or "C".
@@ -44,6 +43,10 @@ The name of the MDO list is 'phonesearch'.
 |Person only search| |P|
 |Company only search| |C|
 
+
+
+
+
 ## Sample Request
 
 ```http!
@@ -55,7 +58,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("phonesearch", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -89,6 +91,7 @@ foreach (var item in listProvider.RootItems) {
 |59|Kent Karlsen (Kavaler ASA, KAvdeling) 67865867|Person|+4767865867|
 |61|Kristine Krystad (Kongsberg Amunisjon, KAvdeling) 678567857|Person|+47678567857|
 |63|Lars Ludvigsen (Lena Trevare AS, LAvdeling) 678657856|Person|+47678657856|
+
 
 ## Related MDO Lists
 

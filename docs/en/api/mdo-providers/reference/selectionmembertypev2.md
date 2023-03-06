@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "selectionmembertypev2"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,14 +15,18 @@ so.envir:
 ---
 
 # "selectionmembertypev2" MDO List
-
 MDO provider for the selection archive providers types.
 The items will be added by scanning ArchiveProviderFactory.KnownArchiveProviders for this pattern;
 [TableName]Selection. If the prefix is a known table, the tablename will be added to list with the
 TableNumber as the ID.
 
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SelectionMemberTypeListV2">SelectionMemberTypeListV2</see> class.
 The name of the MDO list is 'selectionmembertypev2'.
+
+
+
 
 ## Sample Request
 
@@ -35,7 +39,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("selectionmembertypev2", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -57,6 +60,10 @@ foreach (var item in listProvider.RootItems) {
 |10|Find Document||document|
 |127|Find Product||QuoteLine|
 |262|Find Request||ticket|
+|332|Find Chat conversation||chat_session|
+|485|Find Form submission||form_submission|
+|334|Find Mailing||s_shipment|
+
 
 ## Related MDO Lists
 

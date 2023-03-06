@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 538,
-    "Name": "Franecki LLC",
-    "ToolTip": "Ad debitis.",
+    "Id": 41,
+    "Name": "Goldner-Hammes",
+    "ToolTip": "Sint id qui voluptatibus voluptas distinctio quo accusantium.",
     "Deleted": false,
-    "Rank": 808,
-    "Type": "minus",
-    "ColorBlock": 405,
-    "IconHint": "aut",
+    "Rank": 39,
+    "Type": "error",
+    "ColorBlock": 938,
+    "IconHint": "enim",
     "Selected": false,
-    "LastChanged": "2013-08-14T17:37:40.0744708+02:00",
+    "LastChanged": "2001-03-28T14:19:11.305533+02:00",
     "ChildItems": [
       {
-        "Id": 708,
-        "Name": "Pfannerstill-Dietrich",
-        "ToolTip": "Soluta ut commodi quo ipsum et molestias commodi.",
-        "Deleted": true,
-        "Rank": 513,
-        "Type": "dolor",
-        "ColorBlock": 993,
-        "IconHint": "sed",
-        "Selected": false,
-        "LastChanged": "2014-06-25T17:37:40.0765017+02:00",
+        "Id": 729,
+        "Name": "Nikolaus LLC",
+        "ToolTip": "Iusto necessitatibus sed recusandae qui velit ea.",
+        "Deleted": false,
+        "Rank": 599,
+        "Type": "sapiente",
+        "ColorBlock": 501,
+        "IconHint": "rem",
+        "Selected": true,
+        "LastChanged": "2017-03-27T14:19:11.305533+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "autem",
-        "Hidden": false,
-        "FullName": "Everett Feest"
+        "ExtraInfo": "in",
+        "StyleHint": "provident",
+        "Hidden": true,
+        "FullName": "Dr. Jesse Herminio Kutch"
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "delectus",
+    "StyleHint": "repellendus",
     "Hidden": false,
-    "FullName": "Ashleigh Shanahan"
+    "FullName": "Miss Yazmin Yessenia Russel IV"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 312,
-    "Name": "Kilback-Beier",
-    "ToolTip": "Pariatur numquam maiores recusandae velit molestiae dicta.",
+    "Id": 220,
+    "Name": "Fahey, Jast and Bernier",
+    "ToolTip": "Mollitia officiis.",
     "Deleted": false,
-    "Rank": 322,
-    "Type": "enim",
-    "ColorBlock": 969,
-    "IconHint": "est",
+    "Rank": 952,
+    "Type": "est",
+    "ColorBlock": 147,
+    "IconHint": "officia",
     "Selected": true,
-    "LastChanged": "2021-08-04T17:37:40.0775032+02:00",
+    "LastChanged": "2011-01-20T14:19:11.305533+01:00",
     "ChildItems": [
       {
-        "Id": 327,
-        "Name": "Schultz LLC",
-        "ToolTip": "Ad incidunt odit dolores eos.",
-        "Deleted": false,
-        "Rank": 692,
-        "Type": "eius",
-        "ColorBlock": 644,
-        "IconHint": "reiciendis",
-        "Selected": false,
-        "LastChanged": "2004-11-21T17:37:40.0775032+01:00",
+        "Id": 37,
+        "Name": "Brakus LLC",
+        "ToolTip": "Et alias non eum provident.",
+        "Deleted": true,
+        "Rank": 271,
+        "Type": "fugit",
+        "ColorBlock": 951,
+        "IconHint": "dolorum",
+        "Selected": true,
+        "LastChanged": "1998-07-27T14:19:11.305533+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "et",
+        "ExtraInfo": "quam",
+        "StyleHint": "illum",
         "Hidden": false,
-        "FullName": "Marcelino Eichmann DVM",
+        "FullName": "Freeman Kohler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 120
+            "FieldType": "System.String",
+            "FieldLength": 283
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "laudantium",
-    "Hidden": false,
-    "FullName": "Jaiden Carleton Mueller IV",
+    "ExtraInfo": "facere",
+    "StyleHint": "quasi",
+    "Hidden": true,
+    "FullName": "Jedidiah Bogan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 522
+        "FieldLength": 144
       }
     }
   }

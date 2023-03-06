@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,53 +85,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 689,
-  "Name": "Bartoletti LLC",
-  "Tooltip": "vero",
-  "Rank": 587,
+  "SaleTypeId": 475,
+  "Name": "Klein-Glover",
+  "Tooltip": "architecto",
+  "Rank": 870,
   "DurationUnit": "Century",
-  "SaleDuration": 405,
-  "SaleTypeCatId": 119,
+  "SaleDuration": 856,
+  "SaleTypeCatId": 144,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 644,
-  "QuoteLinesTemplate": 914,
-  "ConfirmationLinesTemplate": 925,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 225,
+  "QuoteLinesTemplate": 244,
+  "ConfirmationLinesTemplate": 487,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 742,
-  "MinEarningPercent": 513,
-  "GroupQuoteLinesBy": 482,
-  "SortGroupLinesBy": 835,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 805,
+  "MinEarningPercent": 428,
+  "GroupQuoteLinesBy": 879,
+  "SortGroupLinesBy": 758,
   "Stages": [
     {
-      "Id": 79,
-      "Name": "Konopelski, Gorczany and Wiegand",
-      "ToolTip": "Placeat nihil explicabo delectus temporibus enim placeat ex.",
+      "Id": 474,
+      "Name": "Wilderman-Windler",
+      "ToolTip": "Optio ullam.",
       "Deleted": false,
-      "Rank": 358,
-      "Type": "quia",
-      "ColorBlock": 335,
-      "IconHint": "tempore",
-      "Selected": false,
-      "LastChanged": "2020-02-11T17:37:40.3335033+01:00",
+      "Rank": 699,
+      "Type": "sequi",
+      "ColorBlock": 248,
+      "IconHint": "labore",
+      "Selected": true,
+      "LastChanged": "2020-09-12T14:19:11.5026887+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "laboriosam",
-      "StyleHint": "optio",
+      "ExtraInfo": "repudiandae",
+      "StyleHint": "minus",
       "Hidden": false,
-      "FullName": "Meagan Terrell Skiles III",
+      "FullName": "Adrain Cali Marquardt DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 789
+          "FieldLength": 262
         }
       }
     }
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 50
+      "FieldType": "System.Int32",
+      "FieldLength": 857
     }
   }
 }

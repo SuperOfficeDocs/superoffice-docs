@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "suggestedstopword"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,12 +15,16 @@ so.envir:
 ---
 
 # "suggestedstopword" MDO List
-
 Analyze free text records and suggest stop words based on word frequency.
 Return only words with more than 1000 instances.
 
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SuggestedStopWordProvider">SuggestedStopWordProvider</see> class.
 The name of the MDO list is 'suggestedstopword'.
+
+
+
 
 ## Sample Request
 
@@ -33,7 +37,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("suggestedstopword", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -49,6 +52,7 @@ foreach (var item in listProvider.RootItems) {
 |0|TEXT|||
 |1|SOME|||
 |2|TEST|||
+
 
 ## Related MDO Lists
 

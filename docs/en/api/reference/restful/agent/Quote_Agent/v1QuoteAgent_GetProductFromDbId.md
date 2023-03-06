@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 529
+  "ProductId": 830
 }
 ```
 
@@ -120,35 +120,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 229,
-  "ERPProductKey": "est",
-  "ERPPriceListKey": "asperiores",
-  "Name": "Bartoletti-Kirlin",
-  "Description": "Pre-emptive modular complexity",
-  "Code": "non",
-  "PriceUnit": "sed",
-  "QuantityUnit": "sint",
+  "ProductId": 664,
+  "ERPProductKey": "saepe",
+  "ERPPriceListKey": "impedit",
+  "Name": "Lynch LLC",
+  "Description": "Programmable client-driven task-force",
+  "Code": "quasi",
+  "PriceUnit": "quasi",
+  "QuantityUnit": "in",
   "IsSubscription": false,
-  "SubscriptionUnit": "iusto",
-  "DefaultSubscriptionQuantity": 814.83999999999992,
-  "ItemNumber": "929129",
+  "SubscriptionUnit": "vel",
+  "DefaultSubscriptionQuantity": 16068.018,
+  "ItemNumber": "583223",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quae",
-  "ProductTypeKey": "error",
-  "VAT": 28259.278,
-  "VATInfo": "quia",
-  "UnitCost": 27259.532,
-  "UnitMinimumPrice": 13012.368,
-  "UnitListPrice": 4954.854,
+  "ProductFamilyKey": "quos",
+  "ProductTypeKey": "totam",
+  "VAT": 18252.416,
+  "VATInfo": "ea",
+  "UnitCost": 26961.802,
+  "UnitMinimumPrice": 15018.127999999999,
+  "UnitListPrice": 30894.971999999998,
   "InAssortment": true,
-  "Supplier": "neque",
-  "SupplierCode": "eligendi",
-  "Rights": "placeat",
-  "Rule": "est",
+  "Supplier": "quibusdam",
+  "SupplierCode": "iure",
+  "Rights": "iusto",
+  "Rule": "molestiae",
   "ExtraInfo": [
     {
-      "Name": "Littel, Tremblay and Johnson",
+      "Name": "Keebler, Predovic and Barton",
       "Value": "aut",
       "Type": "Image",
       "TableRight": null,
@@ -156,12 +156,12 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 36
+          "FieldLength": 974
         }
       }
     },
     {
-      "Name": "Littel, Tremblay and Johnson",
+      "Name": "Keebler, Predovic and Barton",
       "Value": "aut",
       "Type": "Image",
       "TableRight": null,
@@ -169,24 +169,24 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 36
+          "FieldLength": 974
         }
       }
     }
   ],
-  "RawExtraInfo": "eos",
-  "ExtraField1": "beatae",
-  "ExtraField2": "enim",
-  "ExtraField3": "itaque",
-  "ExtraField4": "voluptates",
-  "ExtraField5": "quam",
-  "InStock": 698.882,
+  "RawExtraInfo": "consequatur",
+  "ExtraField1": "quia",
+  "ExtraField2": "et",
+  "ExtraField3": "nam",
+  "ExtraField4": "et",
+  "ExtraField5": "distinctio",
+  "InStock": 3948.8399999999997,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 300
+      "FieldType": "System.String",
+      "FieldLength": 822
     }
   }
 }

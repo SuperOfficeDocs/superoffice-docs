@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/Reason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 604,
-  "Name": "Paucek, Kuhlman and Hackett",
-  "Tooltip": "nihil",
-  "Deleted": false,
-  "UdListDefinitionId": 970,
-  "Rank": 303,
+  "Id": 873,
+  "Name": "Hettinger Inc and Sons",
+  "Tooltip": "facilis",
+  "Deleted": true,
+  "UdListDefinitionId": 62,
+  "Rank": 140,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldLength": 893
     }
   }
 }

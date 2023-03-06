@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.ISelectionAgent.AddRemove
 
 ## AddRemoveContactSelectionMemberInterests
 
-Adds or removes interests on companies and persons in a selection.
 
-* **selectionId:** The id of the selection to add or remove interests members from.
-* **addCompanyInterests:** Array of int containing the id's of the interests to add to the company.
-* **removeCompanyInterests:** Array of int containing the id's of the interests to remove from the company.
-* **addContactInterests:** Array of int containing the id's of the interests to add to the contact.
-* **removeContactInterests:** Array of int containing the id's of the interests to remove from the contact.
+
+
 
 [WSDL file for Services84/Selection](../Services84-Selection.md)
 
@@ -63,6 +59,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## AddRemoveContactSelectionMemberInterests Response
 
 ```xml
@@ -82,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

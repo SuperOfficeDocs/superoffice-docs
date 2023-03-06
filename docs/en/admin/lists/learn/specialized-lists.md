@@ -1,7 +1,7 @@
 ---
 uid: help-en-specialized-lists
-title: Specialized lists
-description: Specialized lists
+title: Specialised lists
+description: Specialised lists
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance
@@ -9,9 +9,9 @@ so.topic: help
 language: en
 ---
 
-# Specialized lists
+# Specialised lists
 
-It is generally very easy to add, edit and delete lists and items. Some lists, however, are more specialized and contain more options and greater functionality than ordinary lists.
+It is generally very easy to add, edit and delete lists and items. Some lists, however, are more specialised and contain more options and greater functionality than ordinary lists.
 
 * [Document - Template][1]
 * [Email - Template][2]

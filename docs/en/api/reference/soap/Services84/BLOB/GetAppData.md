@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IBLOBAgent.GetAppData">Su
 
 ## GetAppData
 
-Get a CLOB (limited to a reasonable size by the mechanics of Web Services) according to a string key; ALSO limits to the current ApplicationToken if any
 
-* **key:** The key string, less than 200 characters. Must be unique within each application.
 
-**Returns:** The applications value, suggested to be a JSON, XML or other readable structure
+
 
 [WSDL file for Services84/BLOB](../Services84-BLOB.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAppData Response
 
 ```xml
@@ -67,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

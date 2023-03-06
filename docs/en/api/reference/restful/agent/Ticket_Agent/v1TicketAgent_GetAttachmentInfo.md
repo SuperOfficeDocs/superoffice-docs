@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 448
+  "TicketMessageEntityId": 924
 }
 ```
 
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 531,
-    "Name": "Prosacco-Feil",
-    "ContentType": "sequi",
-    "AttSize": 32,
-    "InlineImage": false,
-    "ContentId": "natus",
+    "AttachmentId": 56,
+    "Name": "Labadie, Rohan and Konopelski",
+    "ContentType": "aperiam",
+    "AttSize": 80,
+    "InlineImage": true,
+    "ContentId": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 946
+        "FieldType": "System.Int32",
+        "FieldLength": 515
       }
     }
   }

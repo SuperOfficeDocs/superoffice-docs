@@ -76,39 +76,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 551,
-  "Name": "Larkin, Skiles and Mayer",
-  "Tooltip": "qui",
-  "VisibleColumns": 134,
-  "Rank": 345,
-  "AssocId": 837,
+  "DiaryViewId": 340,
+  "Name": "Bayer LLC",
+  "Tooltip": "est",
+  "VisibleColumns": 243,
+  "Rank": 953,
+  "AssocId": 182,
   "AssociateList": [
     {
-      "Id": 326,
-      "Name": "Kulas-Towne",
-      "ToolTip": "Voluptatibus dolores laudantium dolorum.",
-      "Deleted": true,
-      "Rank": 28,
-      "Type": "corrupti",
-      "ColorBlock": 143,
-      "IconHint": "aspernatur",
+      "Id": 839,
+      "Name": "Leffler-O'Reilly",
+      "ToolTip": "Vel rem esse.",
+      "Deleted": false,
+      "Rank": 31,
+      "Type": "aliquam",
+      "ColorBlock": 5,
+      "IconHint": "hic",
       "Selected": true,
-      "LastChanged": "2016-02-28T17:37:17.1162404+01:00",
+      "LastChanged": "2019-05-28T14:19:02.916778+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "expedita",
-      "StyleHint": "quo",
-      "Hidden": true,
-      "FullName": "Prof. Russ Christopher Conn"
+      "ExtraInfo": "eum",
+      "StyleHint": "voluptas",
+      "Hidden": false,
+      "FullName": "Prof. Immanuel Garett Swift Sr."
     }
   ],
-  "TzLocationId": 644
+  "TzLocationId": 26
 }
 ```
 
@@ -119,49 +119,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 413,
-  "Name": "Pollich, Daugherty and Boehm",
-  "Tooltip": "ea",
-  "VisibleColumns": 70,
-  "Rank": 178,
-  "AssocId": 650,
+  "DiaryViewId": 262,
+  "Name": "Halvorson-Durgan",
+  "Tooltip": "eligendi",
+  "VisibleColumns": 159,
+  "Rank": 285,
+  "AssocId": 34,
   "AssociateList": [
     {
-      "Id": 613,
-      "Name": "Gutkowski-Tromp",
-      "ToolTip": "Omnis suscipit.",
+      "Id": 934,
+      "Name": "Grimes, Aufderhar and Stoltenberg",
+      "ToolTip": "In tenetur repellat explicabo nemo.",
       "Deleted": true,
-      "Rank": 730,
-      "Type": "et",
-      "ColorBlock": 94,
-      "IconHint": "ducimus",
+      "Rank": 36,
+      "Type": "consequatur",
+      "ColorBlock": 640,
+      "IconHint": "quia",
       "Selected": false,
-      "LastChanged": "2005-02-05T17:37:17.1172801+01:00",
+      "LastChanged": "2015-01-20T14:19:02.916778+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "enim",
-      "StyleHint": "eius",
+      "ExtraInfo": "doloremque",
+      "StyleHint": "consequuntur",
       "Hidden": false,
-      "FullName": "Prof. Graham Sauer",
+      "FullName": "Jeffery Schiller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 444
+          "FieldLength": 937
         }
       }
     }
   ],
-  "TzLocationId": 930,
+  "TzLocationId": 411,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 192
+      "FieldType": "System.String",
+      "FieldLength": 660
     }
   }
 }

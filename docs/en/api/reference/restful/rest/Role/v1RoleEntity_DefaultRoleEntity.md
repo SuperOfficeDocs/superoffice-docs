@@ -70,7 +70,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,24 +80,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 984,
-  "Name": "Kuhlman, Romaguera and Muller",
-  "Tooltip": "excepturi",
+  "RoleId": 112,
+  "Name": "Nienow Inc and Sons",
+  "Tooltip": "id",
   "RoleType": "Anonymous",
-  "Deleted": 231,
-  "Rank": 711,
-  "Created": "2008-05-29T17:37:39.0403041+02:00",
-  "UseCategories": 744,
+  "Deleted": 322,
+  "Rank": 248,
+  "Created": "1996-02-05T14:19:10.6467484+01:00",
+  "UseCategories": 967,
   "CreatedBy": null,
-  "Updated": "2018-06-10T17:37:39.0403041+02:00",
+  "Updated": "1998-05-02T14:19:10.6467484+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 701
+      "FieldType": "System.Int32",
+      "FieldLength": 932
     }
   }
 }

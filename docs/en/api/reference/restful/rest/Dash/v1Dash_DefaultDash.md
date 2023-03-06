@@ -78,37 +78,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 420,
-  "UniqueId": "eum",
-  "Name": "Koelpin Group",
-  "Description": "Reactive zero tolerance encoding",
-  "AssociateId": 752,
-  "Columns": 728,
+  "DashboardId": 718,
+  "UniqueId": "maiores",
+  "Name": "Upton, Wehner and Dickinson",
+  "Description": "Self-enabling 3rd generation internet solution",
+  "AssociateId": 490,
+  "Columns": 680,
   "Theme": null,
-  "VisibleForAll": 683,
+  "VisibleForAll": 315,
   "VisibleForAssociates": [
-    956,
-    420
+    741,
+    729
   ],
   "VisibleForGroups": [
-    43,
-    4
+    796,
+    295
   ],
-  "PinForAll": 372,
+  "PinForAll": 148,
   "PinForAssociates": [
-    282,
-    949
+    437,
+    466
   ],
   "PinForGroups": [
-    660,
-    480
+    476,
+    942
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 97
+      "FieldType": "System.Int32",
+      "FieldLength": 792
     }
   }
 }

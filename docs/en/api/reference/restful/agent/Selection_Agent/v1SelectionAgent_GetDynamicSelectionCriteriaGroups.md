@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 574
+  "SelectionId": 87
 }
 ```
 
@@ -91,20 +91,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Zemlak Group",
-    "Description": "Mandatory mission-critical moderator",
-    "Rank": 735,
+    "Name": "Wisoky Group",
+    "Description": "Re-contextualized background flexibility",
+    "Rank": 939,
     "Restrictions": [
       {
-        "Name": "Pollich, Bartoletti and Ledner",
-        "Operator": "sapiente",
+        "Name": "Sporer, Swift and Bins",
+        "Operator": "a",
         "Values": [
-          "dolorem",
-          "praesentium"
+          "ipsa",
+          "qui"
         ],
         "DisplayValues": [
-          "voluptatem",
-          "ab"
+          "enim",
+          "vel"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -112,27 +112,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 763,
+        "InterParenthesis": 490,
         "InterOperator": "And",
-        "UniqueHash": 972
+        "UniqueHash": 829
       }
     ]
   },
   {
-    "Name": "Zemlak Group",
-    "Description": "Mandatory mission-critical moderator",
-    "Rank": 735,
+    "Name": "Wisoky Group",
+    "Description": "Re-contextualized background flexibility",
+    "Rank": 939,
     "Restrictions": [
       {
-        "Name": "Pollich, Bartoletti and Ledner",
-        "Operator": "sapiente",
+        "Name": "Sporer, Swift and Bins",
+        "Operator": "a",
         "Values": [
-          "dolorem",
-          "praesentium"
+          "ipsa",
+          "qui"
         ],
         "DisplayValues": [
-          "voluptatem",
-          "ab"
+          "enim",
+          "vel"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -140,9 +140,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 763,
+        "InterParenthesis": 490,
         "InterOperator": "And",
-        "UniqueHash": 972
+        "UniqueHash": 829
       }
     ]
   }

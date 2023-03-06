@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IConfigurationAgent.GetCR
 
 ## GetCRMUrl
 
-Returns a valid url based in the soprotocol provided
 
-* **soProtocol:** SoProtocol to display. Eg. contact.activityarchive.minipreview
-* **currents:** currents to set. Eg. contact\_id=100&amp;person\_id=299
-* **frameless:** If true frame is not rendered( Navigationbar, buttonbar and menu )
 
-**Returns:** Url with soprotocol
+
 
 [WSDL file for Services86/Configuration](../Services86-Configuration.md)
 
@@ -53,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetCRMUrl Response
 
 ```xml
@@ -73,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

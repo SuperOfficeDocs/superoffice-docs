@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Von-Ferry",
+  "ConnectorName": "Erdman LLC",
   "ConnectionData": {
-    "ConnectionData1": "fuga",
-    "ConnectionData2": "quam"
+    "ConnectionData1": "explicabo",
+    "ConnectionData2": "aut"
   }
 }
 ```
@@ -100,17 +100,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "blanditiis",
-  "TechExplanation": "illum",
-  "ErrorCode": "distinctio",
+  "UserExplanation": "dolorem",
+  "TechExplanation": "eum",
+  "ErrorCode": "illo",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 991
+      "FieldType": "System.Int32",
+      "FieldLength": 11
     }
   }
 }

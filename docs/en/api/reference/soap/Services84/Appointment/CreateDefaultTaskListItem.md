@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IAppointmentAgent.CreateD
 
 ## CreateDefaultTaskListItem
 
-Loading default values into a new TaskListItem.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-**Returns:** New TaskListItem with default values
+
+
 
 [WSDL file for Services84/Appointment](../Services84-Appointment.md)
 
@@ -46,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateDefaultTaskListItem Response
 
@@ -80,3 +80,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -92,7 +92,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,38 +102,38 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 790,
-  "PlainMessage": "est",
-  "HtmlMessage": "impedit",
-  "SmsMessage": "ut",
-  "Description": "Assimilated optimizing firmware",
-  "Subject": "voluptatibus",
-  "FolderId": 89,
-  "HeaderField": "exercitationem",
-  "Design": "nam",
+  "ShipmentMessageId": 472,
+  "PlainMessage": "in",
+  "HtmlMessage": "nihil",
+  "SmsMessage": "temporibus",
+  "Description": "Networked content-based process improvement",
+  "Subject": "labore",
+  "FolderId": 281,
+  "HeaderField": "voluptas",
+  "Design": "itaque",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": true,
-  "LongDescription": "Persevering explicit algorithm",
-  "AccessKey": "deleniti",
-  "DocumentMessage": 579,
-  "Registered": "2001-03-13T17:37:39.2273036+01:00",
-  "RegisteredAssociateId": 566,
-  "Updated": "2003-04-14T17:37:39.2273036+02:00",
-  "UpdatedAssociateId": 348,
-  "UpdatedCount": 734,
+  "LongDescription": "Monitored actuating function",
+  "AccessKey": "qui",
+  "DocumentMessage": 678,
+  "Registered": "2014-08-22T14:19:10.7873511+02:00",
+  "RegisteredAssociateId": 822,
+  "Updated": "2007-07-18T14:19:10.7873511+02:00",
+  "UpdatedAssociateId": 47,
+  "UpdatedCount": 257,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 111
+      "FieldLength": 246
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

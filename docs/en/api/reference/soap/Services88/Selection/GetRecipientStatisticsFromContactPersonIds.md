@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ISelectionAgent.GetRecipi
 
 ## GetRecipientStatisticsFromContactPersonIds
 
-Returns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses based on contact and persons in a collection of ContactPersonId.
 
-* **contactPersonIds:** A collection of ContactPersonId to get the statistics for.
 
-**Returns:** Returns a RecipientStatistics object.
+
 
 [WSDL file for Services88/Selection](../Services88-Selection.md)
 
@@ -54,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetRecipientStatisticsFromContactPersonIds Response
 
 ```xml
@@ -81,3 +80,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

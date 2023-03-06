@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.GetAllUserGrou
 
 ## GetAllUserGroups
 
-Get all user groups
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **includeDeleted:** Include user groups with Deleted set to true
 
-**Returns:** All user groups
+
 
 [WSDL file for Services88/User](../Services88-User.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAllUserGroups Response
 
 ```xml
@@ -78,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

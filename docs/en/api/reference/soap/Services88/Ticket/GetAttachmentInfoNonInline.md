@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.GetAttachmen
 
 ## GetAttachmentInfoNonInline
 
-Get a list with meta data for all attached attachments, EXCEPT those marked as inline
 
-* **ticketMessageEntityId:** The id of the ticket message to get attachment infos for
 
-**Returns:** An array with AttachmentEntity objects, describing each attachment; those marked as INLINE will be skipped
+
 
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAttachmentInfoNonInline Response
 
 ```xml
@@ -78,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

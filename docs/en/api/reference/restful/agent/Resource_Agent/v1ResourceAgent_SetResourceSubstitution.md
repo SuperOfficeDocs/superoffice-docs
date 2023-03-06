@@ -70,9 +70,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Koepp, Hoeger and Marvin",
-  "ResourceValues": "reiciendis",
-  "Culture": "nemo",
+  "ResourceName": "Price-Hermann",
+  "ResourceValues": "ad",
+  "Culture": "illum",
   "IsActive": false
 }
 ```

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 150,
-    "Name": "Zemlak, Schaefer and Veum",
-    "ToolTip": "Necessitatibus voluptatum voluptatibus perferendis doloribus.",
+    "Id": 195,
+    "Name": "Yundt-Watsica",
+    "ToolTip": "Quos voluptatum eius tempora non non.",
     "Deleted": false,
-    "Rank": 919,
-    "Type": "qui",
-    "ColorBlock": 847,
-    "IconHint": "occaecati",
+    "Rank": 733,
+    "Type": "sint",
+    "ColorBlock": 201,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2002-07-31T17:37:40.0805006+02:00",
+    "LastChanged": "2021-12-05T14:19:11.305533+01:00",
     "ChildItems": [
       {
-        "Id": 50,
-        "Name": "Zboncak-Graham",
-        "ToolTip": "Sint ipsa et.",
-        "Deleted": true,
-        "Rank": 347,
-        "Type": "quia",
-        "ColorBlock": 741,
-        "IconHint": "quisquam",
-        "Selected": false,
-        "LastChanged": "2002-12-19T17:37:40.0805006+01:00",
+        "Id": 413,
+        "Name": "Kling-Howell",
+        "ToolTip": "Perspiciatis pariatur qui tempore.",
+        "Deleted": false,
+        "Rank": 604,
+        "Type": "sit",
+        "ColorBlock": 764,
+        "IconHint": "voluptas",
+        "Selected": true,
+        "LastChanged": "2021-03-26T14:19:11.305533+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Ms. Kay Jaskolski Sr."
+        "FullName": "Miss Micheal Zieme Sr."
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "quasi",
+    "ExtraInfo": "architecto",
+    "StyleHint": "ipsum",
     "Hidden": false,
-    "FullName": "Cydney Rempel IV"
+    "FullName": "Miss Alexane Zieme"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 855,
-    "Name": "Becker-Fisher",
-    "ToolTip": "Quasi incidunt suscipit hic sed distinctio.",
-    "Deleted": false,
-    "Rank": 946,
-    "Type": "aut",
-    "ColorBlock": 423,
-    "IconHint": "impedit",
+    "Id": 561,
+    "Name": "Boyle, Windler and Homenick",
+    "ToolTip": "Est aut.",
+    "Deleted": true,
+    "Rank": 760,
+    "Type": "voluptatem",
+    "ColorBlock": 307,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2010-08-07T17:37:40.083507+02:00",
+    "LastChanged": "1997-11-26T14:19:11.305533+01:00",
     "ChildItems": [
       {
-        "Id": 461,
-        "Name": "Powlowski LLC",
-        "ToolTip": "Quaerat quis eius porro et at eligendi consequatur.",
-        "Deleted": false,
-        "Rank": 364,
-        "Type": "quo",
-        "ColorBlock": 394,
-        "IconHint": "voluptas",
-        "Selected": false,
-        "LastChanged": "2008-03-19T17:37:40.083507+01:00",
+        "Id": 850,
+        "Name": "Hintz-Nolan",
+        "ToolTip": "Deleniti laborum officia et magni consectetur.",
+        "Deleted": true,
+        "Rank": 933,
+        "Type": "ea",
+        "ColorBlock": 740,
+        "IconHint": "sequi",
+        "Selected": true,
+        "LastChanged": "2018-05-29T14:19:11.305533+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "ad",
+        "ExtraInfo": "eum",
+        "StyleHint": "fuga",
         "Hidden": false,
-        "FullName": "Leonor Vandervort",
+        "FullName": "Kristina Torphy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 264
+            "FieldType": "System.String",
+            "FieldLength": 600
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "autem",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Mr. Robb Murphy",
+    "FullName": "Harley Burdette Thiel V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 343
+        "FieldLength": 471
       }
     }
   }

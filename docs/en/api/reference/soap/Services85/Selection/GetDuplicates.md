@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.ISelectionAgent.GetDuplic
 
 ## GetDuplicates
 
-Get duplicates(exact or similar in the database) based on the name
 
-* **name:** Name used for lookup
 
-**Returns:** Any records matching the specified name
+
 
 [WSDL file for Services85/Selection](../Services85-Selection.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDuplicates Response
 
 ```xml
@@ -77,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "plugin"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "plugin" MDO List
-
 List of installed and available Document plugins
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.PluginProvider">PluginProvider</see> class.
 The name of the MDO list is 'plugin'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("plugin", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -46,6 +49,7 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 |0|SO Archive|||
+
 
 ## Related MDO Lists
 

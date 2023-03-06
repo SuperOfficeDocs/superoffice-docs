@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.ISaleAgent.SetAsLost">Sup
 
 ## SetAsLost
 
-Change the status of one or more sales to Lost. Note that this does not affect the Completed state of the sale.
 
-* **saleIds:** Array of sale ids to be marked as lost. All normal write access rules apply.
+
+
 
 [WSDL file for Services85/Sale](../Services85-Sale.md)
 
@@ -49,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetAsLost Response
 
 ```xml
@@ -68,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

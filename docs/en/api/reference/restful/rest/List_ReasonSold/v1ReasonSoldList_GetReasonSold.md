@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 62,
-  "Name": "Ankunding, Kutch and Jones",
-  "Tooltip": "recusandae",
+  "Id": 528,
+  "Name": "Tillman Inc and Sons",
+  "Tooltip": "molestias",
   "Deleted": false,
-  "UdListDefinitionId": 490,
-  "Rank": 748,
+  "UdListDefinitionId": 540,
+  "Rank": 656,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 508
+      "FieldType": "System.Int32",
+      "FieldLength": 844
     }
   }
 }

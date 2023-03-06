@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services87/Selec
 
 Handled by the <see cref="T:SuperOffice.Services87.ISelectionAgent">SuperOffice.Services87.ISelectionAgent</see> interface.
 
-Interface for the Selection Agent
-Selections, entities, members and tasks
+
 
 Download [WSDL file for Services87/Selection](../Services87-Selection.md) if you need to generate your own proxy code.
 
@@ -64,3 +63,4 @@ Download [WSDL file for Services87/Selection](../Services87-Selection.md) if you
 * [SetDynamicSelectionCriteria2](SetDynamicSelectionCriteria2.md)
 * [SetDynamicSelectionCriteria3](SetDynamicSelectionCriteria3.md)
 * [StartMailMerge](StartMailMerge.md)
+

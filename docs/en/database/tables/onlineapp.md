@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "OnlineApp"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# OnlineApp Table (489)
+# OnlineApp Table (492)
 
 Echo and track information about Online Apps and their usage
 

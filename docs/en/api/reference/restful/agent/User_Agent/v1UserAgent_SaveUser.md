@@ -112,18 +112,18 @@ OK
 POST /api/v1/Agents/User/SaveUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 951,
-  "Name": "Abbott LLC",
-  "Rank": 596,
-  "Tooltip": "ut",
+  "AssociateId": 147,
+  "Name": "Kuhn, Yundt and Beahan",
+  "Rank": 404,
+  "Tooltip": "earum",
   "LicenseOwners": [
     {
-      "Name": "Crist-Harber",
-      "Description": "Intuitive clear-thinking ability",
+      "Name": "Waelchi-Renner",
+      "Description": "Intuitive mission-critical hierarchy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Crist-Harber",
-      "Description": "Intuitive clear-thinking ability",
+      "Name": "Waelchi-Renner",
+      "Description": "Intuitive mission-critical hierarchy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -150,87 +150,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "enim",
-      "Tooltip": "amet",
-      "Id": 810,
-      "Rank": 564,
-      "Deleted": false
+      "Value": "assumenda",
+      "Tooltip": "aut",
+      "Id": 814,
+      "Rank": 994,
+      "Deleted": true
     },
     {
-      "Value": "enim",
-      "Tooltip": "amet",
-      "Id": 810,
-      "Rank": 564,
-      "Deleted": false
+      "Value": "assumenda",
+      "Tooltip": "aut",
+      "Id": 814,
+      "Rank": 994,
+      "Deleted": true
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2008-05-04T17:37:19.5299776+02:00",
-  "Lastlogout": "2022-07-12T17:37:19.5299776+02:00",
-  "EjUserId": 806,
-  "RequestSignature": "mollitia",
+  "Deleted": false,
+  "Lastlogin": "2000-12-17T14:19:04.5640766+01:00",
+  "Lastlogout": "2009-07-06T14:19:04.5640766+02:00",
+  "EjUserId": 100,
+  "RequestSignature": "et",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "voluptate",
-      "DisplayValue": "recusandae"
+      "Value": "consequuntur",
+      "DisplayValue": "atque"
     },
     {
       "Type": null,
-      "Value": "voluptate",
-      "DisplayValue": "recusandae"
+      "Value": "consequuntur",
+      "DisplayValue": "atque"
     }
   ],
-  "UserName": "Bergnaum-Pfannerstill",
+  "UserName": "Weissnat-Grady",
   "TicketCategories": [
     {
-      "Id": 91,
-      "Name": "Kuhic Group",
-      "ToolTip": "Dolorum aut.",
+      "Id": 405,
+      "Name": "Beier, Hand and Rath",
+      "ToolTip": "Et iure non sint.",
       "Deleted": false,
-      "Rank": 40,
-      "Type": "culpa",
+      "Rank": 761,
+      "Type": "quia",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "non",
-      "ColorBlock": 71,
-      "ExtraInfo": "ratione",
-      "StyleHint": "aut",
-      "FullName": "Giovanna Hilpert III"
+      "IconHint": "molestiae",
+      "ColorBlock": 41,
+      "ExtraInfo": "quo",
+      "StyleHint": "fugiat",
+      "FullName": "Mrs. Beth Bosco"
     }
   ],
-  "NickName": "Volkman, Morar and Ryan",
+  "NickName": "Towne, Harber and Beier",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "debitis",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "esse"
   },
   "CustomFields": {
-    "CustomFields1": "aspernatur",
-    "CustomFields2": "nihil"
+    "CustomFields1": "enim",
+    "CustomFields2": "praesentium"
   },
   "PostSaveCommands": [
     {
-      "Name": "Miller-Stanton",
-      "DisplayName": "Klocko, West and Denesik",
-      "Description": "Mandatory methodical core",
-      "ToolTip": "Maxime quas nobis magni.",
+      "Name": "Stoltenberg-Yost",
+      "DisplayName": "Yost-Turner",
+      "Description": "Multi-tiered 24/7 methodology",
+      "ToolTip": "Quo explicabo qui.",
       "Actions": "Implicit",
-      "ActionData": "corrupti"
+      "ActionData": "qui"
     },
     {
-      "Name": "Miller-Stanton",
-      "DisplayName": "Klocko, West and Denesik",
-      "Description": "Mandatory methodical core",
-      "ToolTip": "Maxime quas nobis magni.",
+      "Name": "Stoltenberg-Yost",
+      "DisplayName": "Yost-Turner",
+      "Description": "Multi-tiered 24/7 methodology",
+      "ToolTip": "Quo explicabo qui.",
       "Actions": "Implicit",
-      "ActionData": "corrupti"
+      "ActionData": "qui"
     }
   ]
 }
@@ -243,14 +243,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 448,
-  "Name": "Satterfield, Cruickshank and Oberbrunner",
-  "Rank": 355,
-  "Tooltip": "nisi",
+  "AssociateId": 108,
+  "Name": "White, Pacocha and O'Connell",
+  "Rank": 543,
+  "Tooltip": "qui",
   "LicenseOwners": [
     {
-      "Name": "Murray, Kemmer and Weissnat",
-      "Description": "Synchronised dynamic monitoring",
+      "Name": "Abshire LLC",
+      "Description": "Advanced high-level forecast",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -263,14 +263,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 259
+          "FieldType": "System.Int32",
+          "FieldLength": 698
         }
       }
     },
     {
-      "Name": "Murray, Kemmer and Weissnat",
-      "Description": "Synchronised dynamic monitoring",
+      "Name": "Abshire LLC",
+      "Description": "Advanced high-level forecast",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -283,8 +283,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 259
+          "FieldType": "System.Int32",
+          "FieldLength": 698
         }
       }
     }
@@ -293,110 +293,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "non",
-      "Tooltip": "est",
-      "Id": 808,
-      "Rank": 887,
+      "Value": "accusantium",
+      "Tooltip": "sed",
+      "Id": 984,
+      "Rank": 23,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 685
+          "FieldType": "System.String",
+          "FieldLength": 537
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "1995-08-30T17:37:19.5349769+02:00",
-  "Lastlogout": "2012-11-11T17:37:19.5349769+01:00",
-  "EjUserId": 113,
-  "RequestSignature": "voluptates",
+  "Deleted": false,
+  "Lastlogin": "1997-06-13T14:19:04.5640766+02:00",
+  "Lastlogout": "2018-07-30T14:19:04.5640766+02:00",
+  "EjUserId": 581,
+  "RequestSignature": "veritatis",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "repellat",
-      "DisplayValue": "deserunt",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 94
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "repellat",
-      "DisplayValue": "deserunt",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 94
-        }
-      }
-    }
-  ],
-  "UserName": "Pollich Group",
-  "TicketCategories": [
-    {
-      "Id": 821,
-      "Name": "Morissette LLC",
-      "ToolTip": "Consequatur labore quidem est corporis quia delectus fugit.",
-      "Deleted": false,
-      "Rank": 751,
-      "Type": "consequuntur",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "asperiores",
-      "ColorBlock": 752,
-      "ExtraInfo": "facilis",
-      "StyleHint": "non",
-      "FullName": "Kadin Crist",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 763
-        }
-      }
-    }
-  ],
-  "NickName": "Miller-Hudson",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "magni"
-  },
-  "CustomFields": {
-    "CustomFields1": "placeat",
-    "CustomFields2": "culpa"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Volkman Group",
-      "DisplayName": "Mohr Group",
-      "Description": "Reverse-engineered grid-enabled moratorium",
-      "ToolTip": "Libero minima est aut.",
-      "Actions": "Implicit",
-      "ActionData": "et",
+      "Value": "ipsam",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 415
+          "FieldLength": 893
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "ipsam",
+      "DisplayValue": "quo",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 893
+        }
+      }
+    }
+  ],
+  "UserName": "Jones-Hartmann",
+  "TicketCategories": [
+    {
+      "Id": 152,
+      "Name": "Weimann, Sanford and Krajcik",
+      "ToolTip": "Molestias voluptatem facere pariatur sint aperiam ut maxime.",
+      "Deleted": false,
+      "Rank": 865,
+      "Type": "et",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "doloribus",
+      "ColorBlock": 436,
+      "ExtraInfo": "voluptatibus",
+      "StyleHint": "reiciendis",
+      "FullName": "Duncan Kuhlman",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 870
+        }
+      }
+    }
+  ],
+  "NickName": "Eichmann Inc and Sons",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "quidem",
+    "ExtraFields2": "facere"
+  },
+  "CustomFields": {
+    "CustomFields1": "deserunt",
+    "CustomFields2": "commodi"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Zboncak-Cronin",
+      "DisplayName": "Nikolaus-Daugherty",
+      "Description": "User-friendly needs-based standardization",
+      "ToolTip": "Illum esse rem sit quaerat et.",
+      "Actions": "Implicit",
+      "ActionData": "aut",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 889
         }
       }
     }
@@ -405,8 +405,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 827
+      "FieldType": "System.Int32",
+      "FieldLength": 816
     }
   }
 }

@@ -87,7 +87,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 831,
-    "ColumnId": 717,
-    "FieldDefault": "id",
-    "FieldHeight": 598,
-    "FieldLabel": "aut",
-    "FieldLeft": 372,
-    "FieldTop": 420,
+    "UDefFieldId": 234,
+    "ColumnId": 561,
+    "FieldDefault": "veniam",
+    "FieldHeight": 247,
+    "FieldLabel": "et",
+    "FieldLeft": 145,
+    "FieldTop": 543,
     "FieldType": "Checkbox",
-    "FieldWidth": 961,
-    "FormatMask": "iure",
+    "FieldWidth": 586,
+    "FormatMask": "ad",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 480,
-    "LabelLeft": 625,
-    "LabelTop": 617,
-    "LabelWidth": 426,
-    "LastVersionId": 504,
-    "ListTableId": 704,
-    "IsMandatory": false,
+    "IsIndexed": true,
+    "LabelHeight": 808,
+    "LabelLeft": 342,
+    "LabelTop": 90,
+    "LabelWidth": 27,
+    "LastVersionId": 727,
+    "ListTableId": 162,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 80,
-    "ProgId": "iusto",
-    "IsReadOnly": true,
-    "ShortLabel": "dolores",
-    "TabOrder": 11,
-    "TextLength": 367,
-    "Tooltip": "voluptatibus",
-    "UdefIdentity": 186,
-    "UDListDefinitionId": 627,
+    "Page1LineNo": 482,
+    "ProgId": "eos",
+    "IsReadOnly": false,
+    "ShortLabel": "quis",
+    "TabOrder": 978,
+    "TextLength": 550,
+    "Tooltip": "ut",
+    "UdefIdentity": 555,
+    "UDListDefinitionId": 95,
     "Justification": "Center",
-    "Version": 706,
-    "TemplateVariableName": "Runolfsdottir-Berge",
-    "HasBeenPublished": false,
-    "MdoListName": "Senger Inc and Sons",
+    "Version": 134,
+    "TemplateVariableName": "Walsh, Greenfelder and Collins",
+    "HasBeenPublished": true,
+    "MdoListName": "Cassin LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 251
+        "FieldLength": 41
       }
     }
   }

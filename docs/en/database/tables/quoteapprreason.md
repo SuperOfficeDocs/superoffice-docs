@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "QuoteApprReason"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# QuoteApprReason Table (506)
+# QuoteApprReason Table (509)
 
 QuoteApprReason MDO list item table.
 Predefined reasons for quote approval

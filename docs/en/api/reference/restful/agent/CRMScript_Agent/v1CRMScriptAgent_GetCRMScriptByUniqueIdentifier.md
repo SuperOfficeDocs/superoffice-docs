@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "optio"
+  "UniqueIdentifier": "eos"
 }
 ```
 
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "numquam",
-  "Name": "Monahan, Herzog and Erdman",
-  "Description": "Integrated zero tolerance infrastructure",
-  "IncludeId": "iusto",
-  "Source": "minus",
-  "Registered": "2009-09-08T17:37:17.3272446+02:00",
-  "RegisteredBy": "voluptatum",
-  "Updated": "2001-07-20T17:37:17.3272446+02:00",
-  "UpdatedBy": "veritatis",
-  "Path": "dolorum",
+  "UniqueIdentifier": "accusamus",
+  "Name": "Fahey-Nolan",
+  "Description": "Future-proofed bottom-line flexibility",
+  "IncludeId": "tenetur",
+  "Source": "omnis",
+  "Registered": "1998-05-23T14:19:03.0730293+02:00",
+  "RegisteredBy": "maiores",
+  "Updated": "2019-10-16T14:19:03.0730293+02:00",
+  "UpdatedBy": "libero",
+  "Path": "distinctio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldLength": 73
     }
   }
 }

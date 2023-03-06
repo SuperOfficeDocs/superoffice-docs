@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "perferendis"
+  "Section": "voluptas"
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 659,
-    "Section": "quia",
-    "Key": "voluptas",
-    "Name": "Crist-Dickens",
+    "PrefDescId": 842,
+    "Section": "facere",
+    "Key": "quaerat",
+    "Name": "Walsh-Mosciski",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Reverse-engineered global budgetary management",
-    "IsBuiltin": true,
-    "TableName": "Donnelly, Ondricka and Rosenbaum",
-    "UserDefinedListId": 901,
-    "Rank": 386,
-    "SubGroup": "quos",
-    "MinLevel": 824,
-    "MaxValue": 70,
-    "MinValue": 581,
-    "RequiredLicense": "ut",
+    "Description": "Profound assymetric moratorium",
+    "IsBuiltin": false,
+    "TableName": "Hilll-Glover",
+    "UserDefinedListId": 80,
+    "Rank": 312,
+    "SubGroup": "non",
+    "MinLevel": 11,
+    "MaxValue": 135,
+    "MinValue": 743,
+    "RequiredLicense": "iusto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 719
+        "FieldLength": 421
       }
     }
   }

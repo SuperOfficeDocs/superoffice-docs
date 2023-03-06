@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITargetsAgent.ExportTarge
 
 ## ExportTargetGroupToExcel
 
-Renders the given targetgroup to excel, and returns the path to the temporary file.
 
-* **targetGroupId:** The id of the targetgroup to be rendered to excel.
+
+
 
 [WSDL file for Services88/Targets](../Services88-Targets.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ExportTargetGroupToExcel Response
 
 ```xml
@@ -71,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

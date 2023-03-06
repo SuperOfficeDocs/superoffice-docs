@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ISelectionAgent.GetSelect
 
 ## GetSelectionSummaries
 
-Get an array of summaryitem for the given selections
 
-* **selectionIds:** The selections to fetch summaries for
 
-**Returns:** Summary items for the given id's, in no particular order
+
 
 [WSDL file for Services88/Selection](../Services88-Selection.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetSelectionSummaries Response
 
 ```xml
@@ -70,7 +69,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Selection:SelectionId xsi:type="xsd:int">0</Selection:SelectionId>
      <Selection:Name xsi:type="xsd:string"></Selection:Name>
      <Selection:TargetTable xsi:type="xsd:string"></Selection:TargetTable>
-     <Selection:Registered xsi:type="xsd:dateTime">2022-08-26T09:00:32Z</Selection:Registered>
+     <Selection:Registered xsi:type="xsd:dateTime">2023-02-15T13:18:24Z</Selection:Registered>
      <Selection:ProviderName xsi:type="xsd:string"></Selection:ProviderName>
     </Selection:SelectionSummaryItem>
    </Selection:Response>
@@ -79,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

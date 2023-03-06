@@ -25,7 +25,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=440
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=164
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -109,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 581,
-  "ColumnId": 44,
-  "FieldDefault": "earum",
-  "FieldHeight": 1001,
-  "FieldLabel": "soluta",
-  "FieldLeft": 373,
-  "FieldTop": 623,
+  "UDefFieldId": 171,
+  "ColumnId": 469,
+  "FieldDefault": "maiores",
+  "FieldHeight": 119,
+  "FieldLabel": "sit",
+  "FieldLeft": 103,
+  "FieldTop": 509,
   "FieldType": "Checkbox",
-  "FieldWidth": 314,
-  "FormatMask": "eveniet",
+  "FieldWidth": 193,
+  "FormatMask": "eius",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 7,
-  "LabelLeft": 645,
-  "LabelTop": 410,
-  "LabelWidth": 979,
-  "LastVersionId": 112,
-  "ListTableId": 388,
+  "IsIndexed": true,
+  "LabelHeight": 642,
+  "LabelLeft": 78,
+  "LabelTop": 899,
+  "LabelWidth": 325,
+  "LastVersionId": 361,
+  "ListTableId": 723,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 759,
-  "ProgId": "aut",
+  "Page1LineNo": 779,
+  "ProgId": "officia",
   "IsReadOnly": false,
-  "ShortLabel": "nihil",
-  "TabOrder": 851,
-  "TextLength": 441,
-  "Tooltip": "sint",
-  "UdefIdentity": 693,
-  "UDListDefinitionId": 846,
+  "ShortLabel": "id",
+  "TabOrder": 607,
+  "TextLength": 89,
+  "Tooltip": "provident",
+  "UdefIdentity": 582,
+  "UDListDefinitionId": 900,
   "Justification": "Center",
-  "Version": 538,
-  "TemplateVariableName": "Nikolaus Group",
+  "Version": 731,
+  "TemplateVariableName": "Predovic, Sipes and Sipes",
   "HasBeenPublished": false,
-  "MdoListName": "Lang Inc and Sons",
+  "MdoListName": "Hahn-Conroy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldType": "System.String",
+      "FieldLength": 758
     }
   }
 }

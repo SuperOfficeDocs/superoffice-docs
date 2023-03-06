@@ -1601,265 +1601,151 @@ title: Services88.DashAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Dash">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Dash</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultDash">
-      <wsdl:documentation>
-        <summary>Loading default values into a new Dash.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultDash" name="CreateDefaultDashRequest" message="tns:CreateDefaultDashRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultDashResponse" name="CreateDefaultDashResponse" message="tns:CreateDefaultDashResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveDash">
-      <wsdl:documentation>
-        <summary>Updates the existing Dash or creates a new Dash if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/SaveDash" name="SaveDashRequest" message="tns:SaveDashRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/SaveDashResponse" name="SaveDashResponse" message="tns:SaveDashResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteDash">
-      <wsdl:documentation>
-        <summary>Deletes the Dash</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/DeleteDash" name="DeleteDashRequest" message="tns:DeleteDashRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/DeleteDashResponse" name="DeleteDashResponse" message="tns:DeleteDashResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultDashCollection">
-      <wsdl:documentation>
-        <summary>Loading default values into a new DashCollection.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultDashCollection" name="CreateDefaultDashCollectionRequest" message="tns:CreateDefaultDashCollectionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultDashCollectionResponse" name="CreateDefaultDashCollectionResponse" message="tns:CreateDefaultDashCollectionResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultDashTheme">
-      <wsdl:documentation>
-        <summary>Loading default values into a new DashTheme.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultDashTheme" name="CreateDefaultDashThemeRequest" message="tns:CreateDefaultDashThemeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultDashThemeResponse" name="CreateDefaultDashThemeResponse" message="tns:CreateDefaultDashThemeResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveDashTheme">
-      <wsdl:documentation>
-        <summary>Updates the existing DashTheme or creates a new DashTheme if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/SaveDashTheme" name="SaveDashThemeRequest" message="tns:SaveDashThemeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/SaveDashThemeResponse" name="SaveDashThemeResponse" message="tns:SaveDashThemeResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteDashTheme">
-      <wsdl:documentation>
-        <summary>Deletes the DashTheme</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/DeleteDashTheme" name="DeleteDashThemeRequest" message="tns:DeleteDashThemeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/DeleteDashThemeResponse" name="DeleteDashThemeResponse" message="tns:DeleteDashThemeResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultDashTile">
-      <wsdl:documentation>
-        <summary>Loading default values into a new DashTile.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultDashTile" name="CreateDefaultDashTileRequest" message="tns:CreateDefaultDashTileRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultDashTileResponse" name="CreateDefaultDashTileResponse" message="tns:CreateDefaultDashTileResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveDashTile">
-      <wsdl:documentation>
-        <summary>Updates the existing DashTile or creates a new DashTile if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/SaveDashTile" name="SaveDashTileRequest" message="tns:SaveDashTileRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/SaveDashTileResponse" name="SaveDashTileResponse" message="tns:SaveDashTileResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteDashTile">
-      <wsdl:documentation>
-        <summary>Deletes the DashTile</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/DeleteDashTile" name="DeleteDashTileRequest" message="tns:DeleteDashTileRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/DeleteDashTileResponse" name="DeleteDashTileResponse" message="tns:DeleteDashTileResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultDashTileDefinition">
-      <wsdl:documentation>
-        <summary>Loading default values into a new DashTileDefinition.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultDashTileDefinition" name="CreateDefaultDashTileDefinitionRequest" message="tns:CreateDefaultDashTileDefinitionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultDashTileDefinitionResponse" name="CreateDefaultDashTileDefinitionResponse" message="tns:CreateDefaultDashTileDefinitionResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveDashTileDefinition">
-      <wsdl:documentation>
-        <summary>Updates the existing DashTileDefinition or creates a new DashTileDefinition if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/SaveDashTileDefinition" name="SaveDashTileDefinitionRequest" message="tns:SaveDashTileDefinitionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/SaveDashTileDefinitionResponse" name="SaveDashTileDefinitionResponse" message="tns:SaveDashTileDefinitionResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteDashTileDefinition">
-      <wsdl:documentation>
-        <summary>Deletes the DashTileDefinition</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/DeleteDashTileDefinition" name="DeleteDashTileDefinitionRequest" message="tns:DeleteDashTileDefinitionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/DeleteDashTileDefinitionResponse" name="DeleteDashTileDefinitionResponse" message="tns:DeleteDashTileDefinitionResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultPreviewDash">
-      <wsdl:documentation>
-        <summary>Loading default values into a new PreviewDash.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultPreviewDash" name="CreateDefaultPreviewDashRequest" message="tns:CreateDefaultPreviewDashRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultPreviewDashResponse" name="CreateDefaultPreviewDashResponse" message="tns:CreateDefaultPreviewDashResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultPreviewDashTile">
-      <wsdl:documentation>
-        <summary>Loading default values into a new PreviewDashTile.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultPreviewDashTile" name="CreateDefaultPreviewDashTileRequest" message="tns:CreateDefaultPreviewDashTileRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultPreviewDashTileResponse" name="CreateDefaultPreviewDashTileResponse" message="tns:CreateDefaultPreviewDashTileResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDash">
-      <wsdl:documentation>
-        <summary>Gets a Dash object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDash" name="GetDashRequest" message="tns:GetDashRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashResponse" name="GetDashResponse" message="tns:GetDashResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddTileToDashboard">
-      <wsdl:documentation>
-        <summary>Add a tile to a dashboard with next rank</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/AddTileToDashboard" name="AddTileToDashboardRequest" message="tns:AddTileToDashboardRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/AddTileToDashboardResponse" name="AddTileToDashboardResponse" message="tns:AddTileToDashboardResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddNewTileToDashboard">
-      <wsdl:documentation>
-        <summary>Add a new tile to a dashboard with next rank</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/AddNewTileToDashboard" name="AddNewTileToDashboardRequest" message="tns:AddNewTileToDashboardRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/AddNewTileToDashboardResponse" name="AddNewTileToDashboardResponse" message="tns:AddNewTileToDashboardResponse" />
     </wsdl:operation>
     <wsdl:operation name="DuplicateDashboard">
-      <wsdl:documentation>
-        <summary>Duplicate for the dashboard and all the sub elements</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/DuplicateDashboard" name="DuplicateDashboardRequest" message="tns:DuplicateDashboardRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/DuplicateDashboardResponse" name="DuplicateDashboardResponse" message="tns:DuplicateDashboardResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDashList">
-      <wsdl:documentation>
-        <summary>Gets the ordered list of dashboards</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashList" name="GetDashListRequest" message="tns:GetDashListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashListResponse" name="GetDashListResponse" message="tns:GetDashListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDashCollection">
-      <wsdl:documentation>
-        <summary>Gets a collection of dashboards for the current associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashCollection" name="GetDashCollectionRequest" message="tns:GetDashCollectionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashCollectionResponse" name="GetDashCollectionResponse" message="tns:GetDashCollectionResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDashTheme">
-      <wsdl:documentation>
-        <summary>Gets a DashTheme object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashTheme" name="GetDashThemeRequest" message="tns:GetDashThemeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashThemeResponse" name="GetDashThemeResponse" message="tns:GetDashThemeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDashTile">
-      <wsdl:documentation>
-        <summary>Gets a DashTile object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashTile" name="GetDashTileRequest" message="tns:GetDashTileRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashTileResponse" name="GetDashTileResponse" message="tns:GetDashTileResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDashTiles">
-      <wsdl:documentation>
-        <summary>Gets the ordered list of tiles for a dashboard</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashTiles" name="GetDashTilesRequest" message="tns:GetDashTilesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashTilesResponse" name="GetDashTilesResponse" message="tns:GetDashTilesResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveDashTiles">
-      <wsdl:documentation>
-        <summary>Saves the ordered list of tiles for a dashboard</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/SaveDashTiles" name="SaveDashTilesRequest" message="tns:SaveDashTilesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/SaveDashTilesResponse" name="SaveDashTilesResponse" message="tns:SaveDashTilesResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDashTileSelectionFromEntity">
-      <wsdl:documentation>
-        <summary>Returns the id to a dashboard tile selection</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDashTileSelectionFromEntity" name="CreateDashTileSelectionFromEntityRequest" message="tns:CreateDashTileSelectionFromEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDashTileSelectionFromEntityResponse" name="CreateDashTileSelectionFromEntityResponse" message="tns:CreateDashTileSelectionFromEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CopyTileSelection">
-      <wsdl:documentation>
-        <summary>Copy Tile Selection for the dashboard</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CopyTileSelection" name="CopyTileSelectionRequest" message="tns:CopyTileSelectionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CopyTileSelectionResponse" name="CopyTileSelectionResponse" message="tns:CopyTileSelectionResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTempTileSelection">
-      <wsdl:documentation>
-        <summary>Copy selection to temporary personal tile selection</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetTempTileSelection" name="GetTempTileSelectionRequest" message="tns:GetTempTileSelectionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetTempTileSelectionResponse" name="GetTempTileSelectionResponse" message="tns:GetTempTileSelectionResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSecondaryTempTileSelection">
-      <wsdl:documentation>
-        <summary>Copy selection to secondary temporary personal tile selection</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetSecondaryTempTileSelection" name="GetSecondaryTempTileSelectionRequest" message="tns:GetSecondaryTempTileSelectionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetSecondaryTempTileSelectionResponse" name="GetSecondaryTempTileSelectionResponse" message="tns:GetSecondaryTempTileSelectionResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultTileForEntity">
-      <wsdl:documentation>
-        <summary>Set Measure to CountAll and MeasureField to primary key field</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultTileForEntity" name="CreateDefaultTileForEntityRequest" message="tns:CreateDefaultTileForEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultTileForEntityResponse" name="CreateDefaultTileForEntityResponse" message="tns:CreateDefaultTileForEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DuplicateTile">
-      <wsdl:documentation>
-        <summary>Duplicate for the tile and all the sub elements</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/DuplicateTile" name="DuplicateTileRequest" message="tns:DuplicateTileRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/DuplicateTileResponse" name="DuplicateTileResponse" message="tns:DuplicateTileResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDashTileDefinition">
-      <wsdl:documentation>
-        <summary>Gets a DashTileDefinition object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashTileDefinition" name="GetDashTileDefinitionRequest" message="tns:GetDashTileDefinitionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashTileDefinitionResponse" name="GetDashTileDefinitionResponse" message="tns:GetDashTileDefinitionResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultTileDefinitionForEntity">
-      <wsdl:documentation>
-        <summary>Set Measure to CountAll and MeasureField to primary key field</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultTileDefinitionForEntity" name="CreateDefaultTileDefinitionForEntityRequest" message="tns:CreateDefaultTileDefinitionForEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/CreateDefaultTileDefinitionForEntityResponse" name="CreateDefaultTileDefinitionForEntityResponse" message="tns:CreateDefaultTileDefinitionForEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDashTileHtml">
-      <wsdl:documentation>
-        <summary>Get HTML for a dashboard tile definition with TileType = HTML</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashTileHtml" name="GetDashTileHtmlRequest" message="tns:GetDashTileHtmlRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashTileHtmlResponse" name="GetDashTileHtmlResponse" message="tns:GetDashTileHtmlResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDashTileHtmlList">
-      <wsdl:documentation>
-        <summary>Get HTML for a dashboard tile definition with TileType = HTML. Retrieve a list with all registered languages.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashTileHtmlList" name="GetDashTileHtmlListRequest" message="tns:GetDashTileHtmlListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashTileHtmlListResponse" name="GetDashTileHtmlListResponse" message="tns:GetDashTileHtmlListResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveDashTileHtmlList">
-      <wsdl:documentation>
-        <summary>Set the HTML data for a tile with TileType = HTML.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/SaveDashTileHtmlList" name="SaveDashTileHtmlListRequest" message="tns:SaveDashTileHtmlListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/SaveDashTileHtmlListResponse" name="SaveDashTileHtmlListResponse" message="tns:SaveDashTileHtmlListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPreviewDash">
-      <wsdl:documentation>
-        <summary>Get a dashboard from its id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetPreviewDash" name="GetPreviewDashRequest" message="tns:GetPreviewDashRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetPreviewDashResponse" name="GetPreviewDashResponse" message="tns:GetPreviewDashResponse" />
     </wsdl:operation>
@@ -2466,3 +2352,4 @@ title: Services88.DashAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

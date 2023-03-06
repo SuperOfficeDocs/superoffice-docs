@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.AuthenticateO
 
 ## AuthenticateOutgoing
 
-Authenticate against a mail server to send items with
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-* **connectionInfo:** All information needed to connect to the mailserver
 
-**Returns:** True if authentication was succcesfull
+
 
 [WSDL file for Services88/EMail](../Services88-EMail.md)
 
@@ -56,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## AuthenticateOutgoing Response
 
 ```xml
@@ -76,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

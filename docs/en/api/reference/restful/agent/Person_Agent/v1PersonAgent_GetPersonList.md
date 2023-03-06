@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/Person/GetPersonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -119,52 +119,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "ipsa",
-    "PersonId": 969,
-    "Mrmrs": "harum",
-    "Firstname": "Orlo",
-    "Lastname": "Homenick",
-    "MiddleName": "Rutherford Group",
-    "Title": "earum",
-    "Description": "Multi-tiered encompassing groupware",
-    "Email": "sharon@brakus.com",
-    "FullName": "Ardith Farrell",
-    "DirectPhone": "1-902-434-9224 x0753",
-    "FormalName": "Bernhard-Ankunding",
-    "CountryId": 953,
-    "ContactId": 728,
-    "ContactName": "Dare Group",
-    "Retired": 182,
-    "Rank": 600,
-    "ActiveInterests": 621,
+    "Position": "dolor",
+    "PersonId": 307,
+    "Mrmrs": "quaerat",
+    "Firstname": "Andres",
+    "Lastname": "Deckow",
+    "MiddleName": "Herzog Inc and Sons",
+    "Title": "dolorem",
+    "Description": "Down-sized background circuit",
+    "Email": "may.monahan@ritchie.biz",
+    "FullName": "Lon Mayer III",
+    "DirectPhone": "121-055-1181",
+    "FormalName": "Schmidt, Satterfield and Kreiger",
+    "CountryId": 87,
+    "ContactId": 846,
+    "ContactName": "Padberg LLC",
+    "Retired": 997,
+    "Rank": 900,
+    "ActiveInterests": 187,
     "ContactDepartment": "",
-    "ContactCountryId": 645,
-    "ContactOrgNr": "193938",
-    "FaxPhone": "1-552-168-8243",
-    "MobilePhone": "1-564-570-3049 x2328",
-    "ContactPhone": "(960)712-3345 x94529",
-    "AssociateName": "Connelly Inc and Sons",
-    "AssociateId": 15,
-    "UsePersonAddress": true,
-    "ContactFax": "minima",
-    "Kanafname": "iusto",
-    "Kanalname": "rerum",
-    "Post1": "maxime",
-    "Post2": "eos",
-    "Post3": "ut",
-    "EmailName": "larry.kuhn@frami.name",
-    "ContactFullName": "Curt Parker",
-    "ActiveErpLinks": 264,
-    "TicketPriorityId": 657,
-    "SupportLanguageId": 919,
-    "SupportAssociateId": 668,
+    "ContactCountryId": 569,
+    "ContactOrgNr": "653459",
+    "FaxPhone": "016-464-6163 x24797",
+    "MobilePhone": "506.235.2598 x114",
+    "ContactPhone": "(501)328-8919 x020",
+    "AssociateName": "Kuhic-Walsh",
+    "AssociateId": 153,
+    "UsePersonAddress": false,
+    "ContactFax": "aut",
+    "Kanafname": "voluptatem",
+    "Kanalname": "qui",
+    "Post1": "facilis",
+    "Post2": "non",
+    "Post3": "eum",
+    "EmailName": "madisen_pagac@macejkovic.co.uk",
+    "ContactFullName": "Zaria Deckow",
+    "ActiveErpLinks": 928,
+    "TicketPriorityId": 764,
+    "SupportLanguageId": 828,
+    "SupportAssociateId": 786,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 319
+        "FieldLength": 792
       }
     }
   }

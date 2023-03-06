@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Aufderhar-Hahn",
+  "LayoutName": "Romaguera, Gutkowski and Klocko",
   "ConfigParameter": null
 }
 ```
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 169,
-  "Name": "Mohr LLC",
-  "Value": "rerum",
-  "CreatedDate": "2012-04-21T17:37:16.8812422+02:00",
-  "UpdatedDate": "1996-01-06T17:37:16.8812422+01:00",
-  "CreatedBy": "a",
-  "UpdatedBy": "soluta",
+  "AudienceLayoutId": 216,
+  "Name": "Torphy LLC",
+  "Value": "qui",
+  "CreatedDate": "2013-08-10T14:19:02.7594283+02:00",
+  "UpdatedDate": "2002-06-18T14:19:02.7594283+02:00",
+  "CreatedBy": "voluptatum",
+  "UpdatedBy": "aliquid",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 335
+      "FieldLength": 845
     }
   }
 }

@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "email_item"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# email\_item Table (484)
+# email\_item Table (487)
 
 Email data
 

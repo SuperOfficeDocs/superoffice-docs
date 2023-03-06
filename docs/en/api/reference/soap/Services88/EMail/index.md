@@ -10,9 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/EMail
 
 Handled by the <see cref="T:SuperOffice.Services88.IEMailAgent">SuperOffice.Services88.IEMailAgent</see> interface.
 
-Interface for the EMail Agent
-Email connection, reading, sending
-<para /><b>Online Restricted:</b> This agent is not available in Online by default. Access must be requested specifically when app is registered.
+
 
 Download [WSDL file for Services88/EMail](../Services88-EMail.md) if you need to generate your own proxy code.
 
@@ -67,6 +65,7 @@ Download [WSDL file for Services88/EMail](../Services88-EMail.md) if you need to
 * [GetEmailMessageIds](GetEmailMessageIds.md)
 * [GetEmailsAsString](GetEmailsAsString.md)
 * [GetEMailSOInfo](GetEMailSOInfo.md)
+* [GetExtendedEmailMessageIds](GetExtendedEmailMessageIds.md)
 * [GetFolderEMailCount](GetFolderEMailCount.md)
 * [GetFolderHasNewEMail](GetFolderHasNewEMail.md)
 * [GetFolderInfo](GetFolderInfo.md)
@@ -89,6 +88,7 @@ Download [WSDL file for Services88/EMail](../Services88-EMail.md) if you need to
 * [GetUnsanitizedPreviewAttachmentFromId](GetUnsanitizedPreviewAttachmentFromId.md)
 * [HasMXRecord](HasMXRecord.md)
 * [HasNewMail](HasNewMail.md)
+* [HasSPFRecord](HasSPFRecord.md)
 * [LatestItemIdByFolder](LatestItemIdByFolder.md)
 * [MarkAsRead](MarkAsRead.md)
 * [MarkEmailsAsRead](MarkEmailsAsRead.md)
@@ -113,3 +113,4 @@ Download [WSDL file for Services88/EMail](../Services88-EMail.md) if you need to
 * [SyncEmailAccounts](SyncEmailAccounts.md)
 * [TestAuthenticate](TestAuthenticate.md)
 * [ToggleSubscription](ToggleSubscription.md)
+

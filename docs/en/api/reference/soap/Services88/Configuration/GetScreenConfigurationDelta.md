@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IConfigurationAgent.GetSc
 
 ## GetScreenConfigurationDelta
 
-This method will return a json with all deltas for screen
 
-* **deltaType:** The recipe in json for this DeltaType: System, WebPanel, CustomFields, Custom...
-* **deltaState:** Draft or published or None
 
-**Returns:** A string with recipe delta in json for logged in associate of given deltatype
+
 
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetScreenConfigurationDelta Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

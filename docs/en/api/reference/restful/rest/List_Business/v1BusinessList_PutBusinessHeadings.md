@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 917,
-    "Name": "Swaniawski-Will",
-    "Tooltip": "modi",
-    "Deleted": true,
-    "Rank": 586,
-    "UdListDefinitionId": 635
+    "HeadingId": 435,
+    "Name": "Cruickshank, Marvin and Kertzmann",
+    "Tooltip": "magni",
+    "Deleted": false,
+    "Rank": 214,
+    "UdListDefinitionId": 684
   },
   {
-    "HeadingId": 917,
-    "Name": "Swaniawski-Will",
-    "Tooltip": "modi",
-    "Deleted": true,
-    "Rank": 586,
-    "UdListDefinitionId": 635
+    "HeadingId": 435,
+    "Name": "Cruickshank, Marvin and Kertzmann",
+    "Tooltip": "magni",
+    "Deleted": false,
+    "Rank": 214,
+    "UdListDefinitionId": 684
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 450,
-    "Name": "Sauer-Collins",
-    "Tooltip": "illum",
+    "HeadingId": 593,
+    "Name": "Mante-Sawayn",
+    "Tooltip": "similique",
     "Deleted": false,
-    "Rank": 162,
-    "UdListDefinitionId": 135,
+    "Rank": 600,
+    "UdListDefinitionId": 114,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 659
+        "FieldLength": 365
       }
     }
   }

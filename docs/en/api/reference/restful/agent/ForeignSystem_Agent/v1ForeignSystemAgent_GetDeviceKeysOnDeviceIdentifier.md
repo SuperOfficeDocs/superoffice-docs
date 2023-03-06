@@ -81,13 +81,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Prohaska LLC",
-  "DeviceName": "Kuhn-Dibbert",
-  "DeviceIdentifier": "beatae"
+  "ApplicationName": "Collier, McDermott and Gislason",
+  "DeviceName": "Rolfson Group",
+  "DeviceIdentifier": "assumenda"
 }
 ```
 
@@ -99,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "fuga",
-    "Value": "quibusdam",
-    "RecordId": 523,
-    "CreatedDate": "2022-04-07T17:37:18.1142411+02:00",
-    "UpdatedDate": "2021-10-02T17:37:18.1142411+02:00",
-    "UpdatedBy": "eos",
-    "CreatedBy": "voluptas",
-    "TableName": "Rolfson-Jast",
+    "Key": "exercitationem",
+    "Value": "earum",
+    "RecordId": 843,
+    "CreatedDate": "1999-03-08T14:19:03.5758974+01:00",
+    "UpdatedDate": "1996-11-14T14:19:03.5758974+01:00",
+    "UpdatedBy": "nihil",
+    "CreatedBy": "ut",
+    "TableName": "Stracke-Lind",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 851
+        "FieldLength": 290
       }
     }
   }

@@ -78,19 +78,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 497,
-  "PersonName": "Weissnat-Baumbach",
+  "ContactId": 740,
+  "PersonName": "Bashirian-Grimes",
   "PhoneNumbers": [
-    "818983",
-    "302687"
+    "1036409",
+    "901253"
   ],
   "Emails": [
-    "joaquin_turner@wildermanschmidt.uk",
-    "mae@roberts.info"
+    "deborah@monahanfeil.uk",
+    "dasia@crooks.com"
   ]
 }
 ```
@@ -103,13 +103,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Person": null,
-  "PersonCreated": false,
+  "PersonCreated": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldType": "System.String",
+      "FieldLength": 166
     }
   }
 }

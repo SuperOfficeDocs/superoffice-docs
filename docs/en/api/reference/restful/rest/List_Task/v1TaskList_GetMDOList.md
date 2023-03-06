@@ -25,8 +25,8 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=corporis
+GET /api/v1/List/Task/MDOItems?flat=False
+GET /api/v1/List/Task/MDOItems?query=dolor
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 791,
-    "Name": "Koch Group",
-    "ToolTip": "Eos minus impedit.",
+    "Id": 546,
+    "Name": "Wiegand, Gulgowski and Steuber",
+    "ToolTip": "Libero quisquam nihil repellendus laudantium.",
     "Deleted": false,
-    "Rank": 119,
-    "Type": "voluptatibus",
+    "Rank": 28,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 438,
-        "Name": "Reichel-Doyle",
-        "ToolTip": "Dolorum aut autem nostrum.",
-        "Deleted": false,
-        "Rank": 855,
-        "Type": "animi",
+        "Id": 396,
+        "Name": "Kuphal LLC",
+        "ToolTip": "Quaerat autem omnis nostrum minus aut nam est.",
+        "Deleted": true,
+        "Rank": 274,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "saepe",
-        "ColorBlock": 39,
-        "ExtraInfo": "rerum",
-        "StyleHint": "sunt",
-        "FullName": "Prof. Brandy Era Bednar Sr.",
+        "IconHint": "velit",
+        "ColorBlock": 673,
+        "ExtraInfo": "nobis",
+        "StyleHint": "dolor",
+        "FullName": "Theodore Waters",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 688
+            "FieldType": "System.Int32",
+            "FieldLength": 28
           }
         }
       }
     ],
-    "IconHint": "maiores",
-    "ColorBlock": 436,
-    "ExtraInfo": "eveniet",
-    "StyleHint": "qui",
-    "FullName": "Albin Farrell DDS",
+    "IconHint": "veritatis",
+    "ColorBlock": 76,
+    "ExtraInfo": "nam",
+    "StyleHint": "doloremque",
+    "FullName": "Isobel Collins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 291
+        "FieldLength": 692
       }
     }
   }

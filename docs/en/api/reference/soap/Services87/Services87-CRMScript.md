@@ -608,83 +608,47 @@ title: Services87.CRMScriptAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="CRMScript">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for CRMScript</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultCRMScriptEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new CRMScriptEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CRMScript/CreateDefaultCRMScriptEntity" name="CreateDefaultCRMScriptEntityRequest" message="tns:CreateDefaultCRMScriptEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CRMScript/CreateDefaultCRMScriptEntityResponse" name="CreateDefaultCRMScriptEntityResponse" message="tns:CreateDefaultCRMScriptEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveCRMScriptEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CRMScript/SaveCRMScriptEntity" name="SaveCRMScriptEntityRequest" message="tns:SaveCRMScriptEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CRMScript/SaveCRMScriptEntityResponse" name="SaveCRMScriptEntityResponse" message="tns:SaveCRMScriptEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteCRMScriptEntity">
-      <wsdl:documentation>
-        <summary>Deletes the CRMScriptEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CRMScript/DeleteCRMScriptEntity" name="DeleteCRMScriptEntityRequest" message="tns:DeleteCRMScriptEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CRMScript/DeleteCRMScriptEntityResponse" name="DeleteCRMScriptEntityResponse" message="tns:DeleteCRMScriptEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCRMScriptEntity">
-      <wsdl:documentation>
-        <summary>Gets a CRMScriptEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CRMScript/GetCRMScriptEntity" name="GetCRMScriptEntityRequest" message="tns:GetCRMScriptEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CRMScript/GetCRMScriptEntityResponse" name="GetCRMScriptEntityResponse" message="tns:GetCRMScriptEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="ExecuteScript">
-      <wsdl:documentation>
-        <summary>Execute a CRMScript with parameters</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CRMScript/ExecuteScript" name="ExecuteScriptRequest" message="tns:ExecuteScriptRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CRMScript/ExecuteScriptResponse" name="ExecuteScriptResponse" message="tns:ExecuteScriptResponse" />
     </wsdl:operation>
     <wsdl:operation name="ExecuteScriptByIncludeId">
-      <wsdl:documentation>
-        <summary>Execute a CRMScript with parameters</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CRMScript/ExecuteScriptByIncludeId" name="ExecuteScriptByIncludeIdRequest" message="tns:ExecuteScriptByIncludeIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CRMScript/ExecuteScriptByIncludeIdResponse" name="ExecuteScriptByIncludeIdResponse" message="tns:ExecuteScriptByIncludeIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="ValidateScript">
-      <wsdl:documentation>
-        <summary>Validate a CRMScript. This will check that the syntax is correct</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CRMScript/ValidateScript" name="ValidateScriptRequest" message="tns:ValidateScriptRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CRMScript/ValidateScriptResponse" name="ValidateScriptResponse" message="tns:ValidateScriptResponse" />
     </wsdl:operation>
     <wsdl:operation name="ValidateScriptByIncludeId">
-      <wsdl:documentation>
-        <summary>Validate a CRMScript. This will check that the syntax is correct</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CRMScript/ValidateScriptByIncludeId" name="ValidateScriptByIncludeIdRequest" message="tns:ValidateScriptByIncludeIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CRMScript/ValidateScriptByIncludeIdResponse" name="ValidateScriptByIncludeIdResponse" message="tns:ValidateScriptByIncludeIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCRMScriptByUniqueIdentifier">
-      <wsdl:documentation>
-        <summary>Get information about a script from a unique identifier</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CRMScript/GetCRMScriptByUniqueIdentifier" name="GetCRMScriptByUniqueIdentifierRequest" message="tns:GetCRMScriptByUniqueIdentifierRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CRMScript/GetCRMScriptByUniqueIdentifierResponse" name="GetCRMScriptByUniqueIdentifierResponse" message="tns:GetCRMScriptByUniqueIdentifierResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveCRMScriptByUniqueIdentifier">
-      <wsdl:documentation>
-        <summary>Create or Update the CRMScript information</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CRMScript/SaveCRMScriptByUniqueIdentifier" name="SaveCRMScriptByUniqueIdentifierRequest" message="tns:SaveCRMScriptByUniqueIdentifierRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CRMScript/SaveCRMScriptByUniqueIdentifierResponse" name="SaveCRMScriptByUniqueIdentifierResponse" message="tns:SaveCRMScriptByUniqueIdentifierResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteCRMScriptByUniqueIdentifier">
-      <wsdl:documentation>
-        <summary>Delete the CRMScript</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CRMScript/DeleteCRMScriptByUniqueIdentifier" name="DeleteCRMScriptByUniqueIdentifierRequest" message="tns:DeleteCRMScriptByUniqueIdentifierRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/CRMScript/DeleteCRMScriptByUniqueIdentifierResponse" name="DeleteCRMScriptByUniqueIdentifierResponse" message="tns:DeleteCRMScriptByUniqueIdentifierResponse" />
     </wsdl:operation>
@@ -875,3 +839,4 @@ title: Services87.CRMScriptAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

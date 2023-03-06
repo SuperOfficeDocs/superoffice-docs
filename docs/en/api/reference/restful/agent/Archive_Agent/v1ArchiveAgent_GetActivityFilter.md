@@ -78,91 +78,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2010-01-12T17:37:16.6112452+01:00",
-  "ToDate": "1997-06-26T17:37:16.6112452+02:00",
+  "FromDate": "2012-09-14T14:19:02.7125533+02:00",
+  "ToDate": "2005-09-10T14:19:02.7125533+02:00",
   "AssociateList": [
     {
-      "Id": 331,
-      "Name": "Bayer Inc and Sons",
-      "ToolTip": "Nostrum mollitia hic dolorem et tenetur iusto beatae.",
+      "Id": 872,
+      "Name": "Walker LLC",
+      "ToolTip": "Id fugit sed deleniti omnis.",
       "Deleted": true,
-      "Rank": 591,
-      "Type": "velit",
-      "ColorBlock": 555,
-      "IconHint": "voluptate",
-      "Selected": true,
-      "LastChanged": "2002-07-25T17:37:16.6112452+02:00",
+      "Rank": 585,
+      "Type": "occaecati",
+      "ColorBlock": 849,
+      "IconHint": "quia",
+      "Selected": false,
+      "LastChanged": "2006-07-27T14:19:02.7125533+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "delectus",
-      "StyleHint": "sed",
+      "ExtraInfo": "praesentium",
+      "StyleHint": "quam",
       "Hidden": false,
-      "FullName": "Delpha Satterfield",
+      "FullName": "Ms. Emmalee Erica Graham IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 307
+          "FieldLength": 270
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 494,
-      "Name": "Tromp LLC",
-      "ToolTip": "Suscipit quia.",
+      "Id": 256,
+      "Name": "Gibson, Schuppe and Reichert",
+      "ToolTip": "Dolorem inventore nesciunt nobis laboriosam rerum.",
       "Deleted": false,
-      "Rank": 313,
-      "Type": "fuga",
-      "ColorBlock": 446,
-      "IconHint": "repellat",
-      "Selected": false,
-      "LastChanged": "2017-11-22T17:37:16.6122443+01:00",
+      "Rank": 610,
+      "Type": "illo",
+      "ColorBlock": 922,
+      "IconHint": "ullam",
+      "Selected": true,
+      "LastChanged": "2002-12-06T14:19:02.7125533+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quo",
-      "StyleHint": "quasi",
-      "Hidden": false,
-      "FullName": "Josiah Cruickshank",
+      "ExtraInfo": "nemo",
+      "StyleHint": "porro",
+      "Hidden": true,
+      "FullName": "Branson Wintheiser",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 213
+          "FieldLength": 441
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 411,
-      "Name": "Dietrich-Gusikowski",
-      "ToolTip": "Cupiditate commodi.",
-      "Deleted": true,
-      "Rank": 480,
-      "Type": "voluptatem",
+      "Id": 464,
+      "Name": "Larson, O'Hara and Bernier",
+      "ToolTip": "Odit ipsum.",
+      "Deleted": false,
+      "Rank": 97,
+      "Type": "molestiae",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "autem",
-      "ColorBlock": 525,
-      "ExtraInfo": "cumque",
-      "StyleHint": "amet",
-      "FullName": "Kendra Hipolito Toy DVM",
+      "IconHint": "dolores",
+      "ColorBlock": 589,
+      "ExtraInfo": "tenetur",
+      "StyleHint": "quidem",
+      "FullName": "River Collier",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 594
+          "FieldType": "System.String",
+          "FieldLength": 391
         }
       }
     }
@@ -171,8 +171,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 462
+      "FieldType": "System.String",
+      "FieldLength": 481
     }
   }
 }

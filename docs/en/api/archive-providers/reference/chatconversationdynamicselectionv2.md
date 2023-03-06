@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ChatConversationDynamicSelectionV2"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,15 +22,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ChatConversation selection archive with OR-able selection groups. Each group is represented with the <see cref="T:SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionDynamicProviderSingleCriteriaGroup" />.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"chatConversations"|Chat conversation|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |selectionId|int|Selection ID: The database ID of the selection|  |
 |rowKind| *None* |Icon indicating whether the row comes from a static or a dynamic selection|  |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
@@ -41,7 +39,7 @@ ChatConversation selection archive with OR-able selection groups. Each group is 
 |whenRequested|datetime|Chat requested: When was this chat requested by the customer?| x |
 |whenStarted|datetime|Chat started: When was this chat started between the customer and the agent?| x |
 |whenEnded|datetime|Chat ended: When did this chat end?| x |
-|duration|timeSpan|Duration: The duration of the chat session| x |
+|duration|timeSpan|Duration: The duration of the chat session|  |
 |timeInQueue|timeSpan|Time in queue: The time spent waiting in the queue| x |
 |queueLength|int|Queue length: Queue length when the session was requested| x |
 |rating|int|Rating: Rating of chat session| x |
@@ -465,11 +463,14 @@ ChatConversation selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationDynamicSelectionV2?$select=person/personRegisteredBy,person/restrictionAddress/formattedMultiLineAddress,person/personAssociate/mrMrs,person/personAssociate/ejUserId,contact/contactAssociate/fullName
+GET /api/v1/archive/ChatConversationDynamicSelectionV2?$select=associate/credentialType,person/restrictionAddress/addressId,person/personAssociate/isActiveText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

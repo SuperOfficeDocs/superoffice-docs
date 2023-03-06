@@ -30,7 +30,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=467
+PUT /api/v1/Project/{id}/ImageInfo?projectId=730
 ```
 
 
@@ -103,23 +103,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 783,
-  "BlobSize": 574,
-  "Description": "Robust empowering infrastructure",
-  "ExtraInfo": "voluptatum",
-  "IsEncrypted": false,
+  "BlobId": 489,
+  "BlobSize": 883,
+  "Description": "Synergistic multi-state portal",
+  "ExtraInfo": "et",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "qui",
-  "OriginalSize": 316,
-  "CreatedDate": "2007-01-18T17:37:39.0333033+01:00",
-  "UpdatedDate": "1998-07-10T17:37:39.0333033+02:00",
+  "MimeType": "sapiente",
+  "OriginalSize": 823,
+  "CreatedDate": "2007-10-01T14:19:10.5373508+02:00",
+  "UpdatedDate": "2014-11-09T14:19:10.5373508+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "iure"
+  "ConceptualType": "doloribus"
 }
 ```
 
@@ -130,25 +130,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 895,
-  "BlobSize": 540,
-  "Description": "Cloned attitude-oriented local area network",
-  "ExtraInfo": "dolorem",
+  "BlobId": 141,
+  "BlobSize": 382,
+  "Description": "Diverse dynamic paradigm",
+  "ExtraInfo": "nihil",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "soluta",
-  "OriginalSize": 549,
-  "CreatedDate": "2006-03-29T17:37:39.0343059+02:00",
-  "UpdatedDate": "2018-09-16T17:37:39.0343059+02:00",
+  "MimeType": "nulla",
+  "OriginalSize": 142,
+  "CreatedDate": "1997-08-12T14:19:10.5685937+02:00",
+  "UpdatedDate": "1996-12-04T14:19:10.5685937+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "illum",
+  "ConceptualType": "fugiat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldLength": 901
     }
   }
 }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/Sale/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "King LLC",
-  "DisplayName": "Halvorson-Hane",
-  "Description": "Vision-oriented 5th generation function",
-  "ShortLabel": "vitae",
-  "HideLabel": true,
-  "HideField": true,
-  "IsIndexed": false,
+  "FieldName": "Bradtke Group",
+  "DisplayName": "Gutkowski-Feil",
+  "Description": "Configurable clear-thinking adapter",
+  "ShortLabel": "similique",
+  "HideLabel": false,
+  "HideField": false,
+  "IsIndexed": true,
   "IsMandatory": false,
   "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 805,
-  "TemplateVariableName": "Moore-Sauer"
+  "Rank": 62,
+  "TemplateVariableName": "Leannon-Koepp"
 }
 ```

@@ -96,14 +96,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 710,
-  "StartTime": "2017-11-21T17:37:17.4192455+01:00",
-  "EndTime": "2010-06-14T17:37:17.4192455+02:00",
-  "Count": 28
+  "ContactId": 715,
+  "StartTime": "2018-06-28T14:19:03.1355296+02:00",
+  "EndTime": "2019-10-08T14:19:03.1355296+02:00",
+  "Count": 54
 }
 ```
 
@@ -115,32 +115,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 628,
-    "Attention": "dolorum",
-    "Header": "nihil",
-    "Name": "Gutmann LLC",
-    "OurRef": "ab",
-    "YourRef": "voluptatibus",
-    "Description": "Advanced 3rd generation solution",
-    "DocumentTemplate": "harum",
-    "IsPublished": false,
-    "PersonId": 263,
-    "PersonFullName": "Bethany Lincoln Rau III",
-    "AssociateFullName": "Lenna Bahringer",
-    "ContactId": 336,
-    "ContactName": "Sauer Group",
-    "ProjectId": 146,
-    "ProjectName": "Schaden-Schmeler",
-    "AssociateId": 543,
-    "Snum": 236,
-    "SaleId": 646,
-    "SaleName": "Ebert LLC",
+    "DocumentId": 961,
+    "Attention": "magnam",
+    "Header": "molestiae",
+    "Name": "Walsh, Howell and Rolfson",
+    "OurRef": "veniam",
+    "YourRef": "aut",
+    "Description": "Customizable clear-thinking open system",
+    "DocumentTemplate": "perferendis",
+    "IsPublished": true,
+    "PersonId": 742,
+    "PersonFullName": "Madie Runolfsdottir",
+    "AssociateFullName": "Eulalia Watsica",
+    "ContactId": 557,
+    "ContactName": "Oberbrunner-Will",
+    "ProjectId": 698,
+    "ProjectName": "Reinger, Friesen and Schmidt",
+    "AssociateId": 39,
+    "Snum": 245,
+    "SaleId": 438,
+    "SaleName": "Streich LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 759
+        "FieldLength": 542
       }
     }
   }

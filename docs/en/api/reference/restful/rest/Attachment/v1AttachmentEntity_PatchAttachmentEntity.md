@@ -112,18 +112,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "molestiae",
+    "path": "fuga",
     "value": {}
   },
   {
     "op": "add",
-    "path": "molestiae",
+    "path": "fuga",
     "value": {}
   }
 ]
@@ -136,18 +136,18 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 729,
-  "Name": "Quigley Inc and Sons",
-  "ContentType": "molestiae",
-  "AttSize": 880,
+  "AttachmentId": 11,
+  "Name": "Ondricka, Herzog and Ryan",
+  "ContentType": "quam",
+  "AttSize": 674,
   "InlineImage": false,
-  "ContentId": "ipsum",
+  "ContentId": "harum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 351
+      "FieldLength": 703
     }
   },
   "_Links": {

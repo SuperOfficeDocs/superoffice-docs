@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Name": "Corkery, Blick and Jaskolski",
-    "ToolTip": "Fugit quae ullam praesentium corrupti nihil.",
-    "Deleted": true,
-    "Rank": 693,
-    "Type": "corrupti",
-    "ColorBlock": 135,
-    "IconHint": "maiores",
+    "Id": 93,
+    "Name": "Cummings-Shanahan",
+    "ToolTip": "Id sit.",
+    "Deleted": false,
+    "Rank": 419,
+    "Type": "distinctio",
+    "ColorBlock": 971,
+    "IconHint": "laborum",
     "Selected": false,
-    "LastChanged": "1996-05-03T17:37:39.9844712+02:00",
+    "LastChanged": "2017-12-05T14:19:11.2262177+01:00",
     "ChildItems": [
       {
-        "Id": 131,
-        "Name": "Berge-Hudson",
-        "ToolTip": "Animi laboriosam laborum.",
-        "Deleted": true,
-        "Rank": 511,
-        "Type": "architecto",
-        "ColorBlock": 740,
-        "IconHint": "culpa",
-        "Selected": true,
-        "LastChanged": "1998-07-24T17:37:39.9854698+02:00",
+        "Id": 587,
+        "Name": "Schaden, Corwin and Hudson",
+        "ToolTip": "Vero est ducimus et.",
+        "Deleted": false,
+        "Rank": 791,
+        "Type": "ducimus",
+        "ColorBlock": 48,
+        "IconHint": "quo",
+        "Selected": false,
+        "LastChanged": "2015-09-25T14:19:11.2262177+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "nulla",
+        "ExtraInfo": "enim",
+        "StyleHint": "illo",
         "Hidden": false,
-        "FullName": "Mrs. Russ Dax Schaden DVM",
+        "FullName": "Ms. Eliezer Kerluke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 202
+            "FieldLength": 381
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "autem",
-    "Hidden": true,
-    "FullName": "Pearl Rogahn",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "quisquam",
+    "Hidden": false,
+    "FullName": "Miss Shirley Crist IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 562
+        "FieldLength": 946
       }
     }
   }

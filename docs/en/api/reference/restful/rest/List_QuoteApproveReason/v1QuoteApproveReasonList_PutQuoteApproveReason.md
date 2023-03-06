@@ -81,12 +81,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 179,
-  "Name": "Davis LLC",
-  "Tooltip": "fugit",
+  "Id": 515,
+  "Name": "Rice-Wilderman",
+  "Tooltip": "accusantium",
   "Deleted": false,
-  "UdListDefinitionId": 872,
-  "Rank": 544
+  "UdListDefinitionId": 675,
+  "Rank": 93
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 427,
-  "Name": "Mitchell, Yundt and Crist",
-  "Tooltip": "itaque",
-  "Deleted": false,
-  "UdListDefinitionId": 106,
-  "Rank": 368,
+  "Id": 349,
+  "Name": "Satterfield-Mosciski",
+  "Tooltip": "quo",
+  "Deleted": true,
+  "UdListDefinitionId": 989,
+  "Rank": 618,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 41
+      "FieldType": "System.Int32",
+      "FieldLength": 86
     }
   }
 }

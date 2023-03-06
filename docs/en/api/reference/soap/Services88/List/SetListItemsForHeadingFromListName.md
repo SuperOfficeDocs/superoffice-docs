@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.SetListItemsFo
 
 ## SetListItemsForHeadingFromListName
 
-Update listItems under this heading
 
-* **udListDefinitionName:** The name of the list definition.
-* **headingId:** The id of the heading
-* **listItemIds:** The ids of the list items.
-* **enable:** True to enable, false to disable
+
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -55,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetListItemsForHeadingFromListName Response
 
 ```xml
@@ -74,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

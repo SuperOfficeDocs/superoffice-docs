@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "script_trace_run"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# script\_trace\_run Table (471)
+# script\_trace\_run Table (474)
 
 Traces of executed scripts
 

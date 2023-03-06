@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IReplicationAgent.GetSate
 
 ## GetSatellite
 
-Gets a Satellite object.
 
-* **satelliteId:** The identifier of the Satellite object
 
-**Returns:** Satellite
+
 
 [WSDL file for Services85/Replication](../Services85-Replication.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetSatellite Response
 
 ```xml
@@ -65,7 +64,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Replication:GetSatelliteResponse>
    <Replication:Response xsi:type="Replication:Satellite">
     <Replication:SatelliteId xsi:type="xsd:int">0</Replication:SatelliteId>
-    <Replication:Created xsi:type="xsd:dateTime">2022-08-26T08:53:39Z</Replication:Created>
+    <Replication:Created xsi:type="xsd:dateTime">2023-02-15T13:12:04Z</Replication:Created>
     <Replication:CreatedBy xsi:type="Replication:Associate">
      <Replication:AssociateId xsi:type="xsd:int">0</Replication:AssociateId>
      <Replication:Name xsi:type="xsd:string"></Replication:Name>
@@ -79,7 +78,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Replication:Deleted xsi:type="xsd:boolean">false</Replication:Deleted>
      <Replication:EjUserId xsi:type="xsd:int">0</Replication:EjUserId>
     </Replication:CreatedBy>
-    <Replication:Updated xsi:type="xsd:dateTime">2022-08-26T08:53:39Z</Replication:Updated>
+    <Replication:Updated xsi:type="xsd:dateTime">2023-02-15T13:12:04Z</Replication:Updated>
     <Replication:UpdatedBy xsi:type="Replication:Associate">
      <Replication:AssociateId xsi:type="xsd:int">0</Replication:AssociateId>
      <Replication:Name xsi:type="xsd:string"></Replication:Name>
@@ -184,3 +183,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

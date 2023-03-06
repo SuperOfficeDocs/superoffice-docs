@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetProductCate
 
 ## GetProductCategory
 
-Gets a ProductCategory object.
 
-* **productCategoryId:** The identifier of the ProductCategory object
 
-**Returns:** ProductCategory
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetProductCategory Response
 
 ```xml
@@ -73,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

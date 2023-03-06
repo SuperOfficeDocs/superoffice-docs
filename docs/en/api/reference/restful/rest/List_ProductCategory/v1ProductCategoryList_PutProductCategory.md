@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 745,
-  "Name": "Reilly Group",
-  "Tooltip": "quidem",
+  "Id": 492,
+  "Name": "Olson-Weber",
+  "Tooltip": "ratione",
   "Deleted": true,
-  "UdListDefinitionId": 600,
-  "Rank": 628
+  "UdListDefinitionId": 921,
+  "Rank": 348
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 95,
-  "Name": "Koelpin LLC",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "UdListDefinitionId": 822,
-  "Rank": 850,
+  "Id": 415,
+  "Name": "Kilback, Ankunding and Gulgowski",
+  "Tooltip": "ex",
+  "Deleted": false,
+  "UdListDefinitionId": 606,
+  "Rank": 129,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 124
+      "FieldLength": 170
     }
   }
 }

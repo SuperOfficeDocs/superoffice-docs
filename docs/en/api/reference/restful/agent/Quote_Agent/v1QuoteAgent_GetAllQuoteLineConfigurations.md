@@ -83,21 +83,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 888,
-    "FieldName": "Bayer-Romaguera",
-    "Label": "ratione",
-    "Tooltip": "tempora",
-    "Editable": false,
+    "QuoteLineConfigurationId": 786,
+    "FieldName": "Roberts, Okuneva and Schaden",
+    "Label": "ab",
+    "Tooltip": "magni",
+    "Editable": true,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 926,
+    "Rank": 447,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 884
+        "FieldType": "System.String",
+        "FieldLength": 435
       }
     }
   }

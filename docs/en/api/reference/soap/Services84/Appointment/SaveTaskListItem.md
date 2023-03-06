@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IAppointmentAgent.SaveTas
 
 ## SaveTaskListItem
 
-Updates the existing TaskListItem or creates a new TaskListItem if the id parameter is 0.
 
-* **taskListItem:** The TaskListItem that is saved.
 
-**Returns:** New or updated TaskListItem
+
 
 [WSDL file for Services84/Appointment](../Services84-Appointment.md)
 
@@ -62,6 +60,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveTaskListItem Response
 
 ```xml
@@ -95,3 +94,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

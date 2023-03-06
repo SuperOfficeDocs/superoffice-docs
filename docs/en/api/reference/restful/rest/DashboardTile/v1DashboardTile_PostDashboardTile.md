@@ -101,46 +101,46 @@ OK
 POST /api/v1/DashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 425,
-  "Caption": "qui",
-  "Description": "Seamless stable open system",
-  "ChartName": "Beier-Wolf",
-  "ChartId": "alias",
+  "DashboardTileId": 527,
+  "Caption": "consequuntur",
+  "Description": "Optimized content-based groupware",
+  "ChartName": "Waelchi, Ebert and Beier",
+  "ChartId": "sed",
   "IsDefault": false,
-  "AssociateId": 769,
-  "GroupId": 759,
-  "SelectionId": 192,
-  "Config": "et",
+  "AssociateId": 673,
+  "GroupId": 307,
+  "SelectionId": 347,
+  "Config": "tempore",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Fadel LLC",
-      "Description": "Decentralized heuristic support",
+      "Name": "Mertz, Hessel and Stamm",
+      "Description": "Reduced heuristic hierarchy",
       "Type": "Boolean",
-      "ListName": "Ward-Lubowitz",
+      "ListName": "Ferry-Rempel",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "dolores",
-      "DefaultDataOption": true
+      "Value": "eaque",
+      "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 594,
+      "VisibleId": 696,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "velit"
     },
     {
-      "VisibleId": 594,
+      "VisibleId": 696,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "velit"
     }
   ]
 }
@@ -153,64 +153,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 811,
-  "Caption": "laboriosam",
-  "Description": "User-centric 4th generation structure",
-  "ChartName": "Lubowitz Group",
-  "ChartId": "odit",
+  "DashboardTileId": 249,
+  "Caption": "totam",
+  "Description": "Upgradable global benchmark",
+  "ChartName": "Hayes LLC",
+  "ChartId": "sunt",
   "IsDefault": false,
-  "AssociateId": 182,
-  "GroupId": 371,
-  "SelectionId": 718,
-  "Config": "aliquam",
+  "AssociateId": 21,
+  "GroupId": 813,
+  "SelectionId": 598,
+  "Config": "occaecati",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Kuhic, Schuppe and Sauer",
-      "Description": "Profound static model",
+      "Name": "Spinka, Lebsack and Hudson",
+      "Description": "Networked logistical hub",
       "Type": "Boolean",
-      "ListName": "Hyatt-Waters",
+      "ListName": "McDermott, Hermiston and Beier",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "aut",
-      "DefaultDataOption": false,
+      "Value": "porro",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 480
+          "FieldLength": 189
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 615,
+      "VisibleId": 216,
       "Visibility": "All",
-      "DisplayValue": "natus",
+      "DisplayValue": "impedit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 19
+          "FieldLength": 615
         }
       }
     },
     {
-      "VisibleId": 615,
+      "VisibleId": 216,
       "Visibility": "All",
-      "DisplayValue": "natus",
+      "DisplayValue": "impedit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 19
+          "FieldLength": 615
         }
       }
     }
@@ -219,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldType": "System.String",
+      "FieldLength": 944
     }
   },
   "_Links": {

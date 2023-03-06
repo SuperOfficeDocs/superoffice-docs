@@ -86,26 +86,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 830,
-  "Name": "Dibbert, Hirthe and Zemlak",
-  "Description": "Reverse-engineered optimizing info-mediaries",
-  "DeltaJson": "sequi",
+  "ConfigurableScreenDeltaId": 152,
+  "Name": "Walter Inc and Sons",
+  "Description": "Customizable assymetric service-desk",
+  "DeltaJson": "omnis",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "necessitatibus",
-  "UpdatedDate": "2014-09-01T17:37:17.1102442+02:00",
-  "CreatedDate": "2013-10-22T17:37:17.1102442+02:00",
+  "RecipeId": "et",
+  "UpdatedDate": "1998-12-13T14:19:02.916778+01:00",
+  "CreatedDate": "2008-08-23T14:19:02.916778+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    551,
-    295
+    273,
+    453
   ],
-  "AppliesToKey": "ut"
+  "AppliesToKey": "eos"
 }
 ```
 
@@ -116,28 +116,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 861,
-  "Name": "Goyette Group",
-  "Description": "Proactive tertiary circuit",
-  "DeltaJson": "et",
+  "ConfigurableScreenDeltaId": 720,
+  "Name": "Weissnat, Heller and Rohan",
+  "Description": "Seamless hybrid matrices",
+  "DeltaJson": "dolorem",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "eos",
-  "UpdatedDate": "2005-11-07T17:37:17.112245+01:00",
-  "CreatedDate": "2018-03-26T17:37:17.112245+02:00",
+  "RecipeId": "reiciendis",
+  "UpdatedDate": "2004-04-28T14:19:02.916778+02:00",
+  "CreatedDate": "2013-05-22T14:19:02.916778+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    830,
-    339
+    139,
+    989
   ],
-  "AppliesToKey": "qui",
+  "AppliesToKey": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 362
+      "FieldLength": 852
     }
   }
 }

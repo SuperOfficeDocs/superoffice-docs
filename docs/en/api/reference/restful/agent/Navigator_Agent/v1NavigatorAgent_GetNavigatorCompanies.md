@@ -74,11 +74,11 @@ OK
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Oberbrunner-Hudson"
+  "Name": "Ullrich, Cruickshank and Rohan"
 }
 ```
 
@@ -90,28 +90,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 704,
-    "Value": "et",
-    "Tooltip": "commodi",
+    "Id": 492,
+    "Value": "consequatur",
+    "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 176
+        "FieldLength": 825
       }
     }
   },
   {
-    "Id": 704,
-    "Value": "et",
-    "Tooltip": "commodi",
+    "Id": 492,
+    "Value": "consequatur",
+    "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 176
+        "FieldLength": 825
       }
     }
   }

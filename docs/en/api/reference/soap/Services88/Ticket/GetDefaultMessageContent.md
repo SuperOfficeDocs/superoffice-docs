@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.GetDefaultMe
 
 ## GetDefaultMessageContent
 
-Generate a default message body (possibly including user signature, quoted message content) as sanitized HTML
 
-* **ticketId:** The id of the ticket
-* **messageActionType:** Message action type: None/Reply/ReplyAll/Forward
-* **ticketMessageId:** The id of the message to quote in the returned content. 0 to skip/ignore
 
-**Returns:** Sanitized HTML content including possibly user signature and quoted message
+
 
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
@@ -53,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDefaultMessageContent Response
 
 ```xml
@@ -73,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

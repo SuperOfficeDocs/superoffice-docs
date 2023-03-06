@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 618,
-    "Name": "Hayes Inc and Sons",
-    "Tooltip": "nobis",
+    "HeadingId": 267,
+    "Name": "Pagac, Schroeder and Johns",
+    "Tooltip": "sit",
     "Deleted": true,
-    "Rank": 689,
-    "UdListDefinitionId": 928,
+    "Rank": 302,
+    "UdListDefinitionId": 895,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 482
+        "FieldType": "System.Int32",
+        "FieldLength": 588
       }
     }
   }

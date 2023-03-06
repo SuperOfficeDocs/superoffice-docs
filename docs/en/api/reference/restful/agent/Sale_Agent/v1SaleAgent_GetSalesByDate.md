@@ -101,13 +101,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2016-07-25T17:37:18.8882422+02:00",
-  "ToDate": "1997-06-04T17:37:18.8892423+02:00",
-  "AmountLimit": 484,
+  "FromDate": "1998-04-13T14:19:04.1410858+02:00",
+  "ToDate": "2005-08-04T14:19:04.1410858+02:00",
+  "AmountLimit": 443,
   "Status": "Lost"
 }
 ```
@@ -120,37 +120,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Tremblay-Ritchie",
-    "SaleDate": "2004-08-01T17:37:18.8892423+02:00",
-    "SaleId": 81,
-    "Probability": 307,
-    "Title": "et",
-    "Amount": 25150.35,
-    "Currency": "aperiam",
-    "ProjectName": "Senger LLC",
-    "AssociateFullName": "Mr. Gayle Terence Ziemann",
-    "Description": "Re-contextualized content-based hardware",
+    "ContactName": "Mertz, Hickle and Glover",
+    "SaleDate": "2022-10-14T14:19:04.1410858+02:00",
+    "SaleId": 474,
+    "Probability": 651,
+    "Title": "saepe",
+    "Amount": 5277.656,
+    "Currency": "qui",
+    "ProjectName": "Conroy LLC",
+    "AssociateFullName": "Zackary Emard",
+    "Description": "Assimilated impactful orchestration",
     "Status": "Lost",
-    "WeightedAmount": 5973.4039999999995,
-    "ProjectId": 776,
-    "EarningPercent": 10787.228,
-    "Earning": 9264.104,
-    "ContactId": 126,
-    "AssociateId": 113,
-    "PersonId": 73,
-    "SaleTypeId": 106,
-    "SaleTypeName": "Schuster-Bailey",
-    "PersonFullName": "Ms. Adeline Schultz",
+    "WeightedAmount": 11012.876,
+    "ProjectId": 416,
+    "EarningPercent": 9098.002,
+    "Earning": 3970.778,
+    "ContactId": 374,
+    "AssociateId": 548,
+    "PersonId": 421,
+    "SaleTypeId": 408,
+    "SaleTypeName": "Becker, Braun and Blick",
+    "PersonFullName": "Loren Kilback",
     "Completed": "Completed",
-    "ActiveErpLinks": 352,
-    "NextDueDate": "2011-07-28T17:37:18.8902423+02:00",
-    "Number": "1626015",
+    "ActiveErpLinks": 297,
+    "NextDueDate": "2018-07-20T14:19:04.1410858+02:00",
+    "Number": "1342145",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 362
+        "FieldLength": 256
       }
     }
   }

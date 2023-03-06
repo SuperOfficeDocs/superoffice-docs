@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "usergroup"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,10 +15,11 @@ so.envir:
 ---
 
 # "usergroup" MDO List
-
 List provider for the UserGroup table. While this table looks like an MDO table,
 it lacks the standardized grouplink and headinglink companion tables (for good reason,
 since it is the group table itself).
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.UserGroupProvider">UserGroupProvider</see> class.
 The name of the MDO list is 'usergroup'.
@@ -32,6 +33,10 @@ The name of the MDO list is 'usergroup'.
 |Add a blank item| addblankstring|True|
 |Add a root target item| addRootTarget|False|
 
+
+
+
+
 ## Sample Request
 
 ```http!
@@ -43,7 +48,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("usergroup", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -63,6 +67,7 @@ foreach (var item in listProvider.RootItems) {
 |1|Administrasjon|||
 |6|Testgruppe1|||
 |7|Testgruppe2|||
+
 
 ## Related MDO Lists
 

@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 624,
-    "Name": "Harber, Bartoletti and O'Keefe",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "Rank": 292,
-    "UdListDefinitionId": 957
+    "HeadingId": 162,
+    "Name": "Anderson, Dare and Fay",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "Rank": 991,
+    "UdListDefinitionId": 804
   },
   {
-    "HeadingId": 624,
-    "Name": "Harber, Bartoletti and O'Keefe",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "Rank": 292,
-    "UdListDefinitionId": 957
+    "HeadingId": 162,
+    "Name": "Anderson, Dare and Fay",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "Rank": 991,
+    "UdListDefinitionId": 804
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 311,
-    "Name": "Lemke, Schroeder and Gutkowski",
-    "Tooltip": "dolorem",
+    "HeadingId": 995,
+    "Name": "Cronin Inc and Sons",
+    "Tooltip": "delectus",
     "Deleted": false,
-    "Rank": 464,
-    "UdListDefinitionId": 909,
+    "Rank": 65,
+    "UdListDefinitionId": 767,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 443
+        "FieldType": "System.Int32",
+        "FieldLength": 415
       }
     }
   }

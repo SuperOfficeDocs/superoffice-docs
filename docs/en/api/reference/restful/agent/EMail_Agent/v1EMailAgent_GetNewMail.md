@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    59,
-    965
+    206,
+    352
   ]
 }
 ```
@@ -102,45 +102,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 274,
-    "MessageId": "soluta",
-    "Subject": "voluptate",
+    "ServerId": 526,
+    "MessageId": "cum",
+    "Subject": "sunt",
     "From": null,
     "To": [
       {
-        "ContactId": 139,
-        "ContactName": "Morissette LLC",
-        "PersonId": 659,
-        "PersonName": "Rice Inc and Sons",
-        "AssociateId": 859,
-        "Address": "harum",
-        "EmailId": 299,
+        "ContactId": 789,
+        "ContactName": "Shanahan Group",
+        "PersonId": 318,
+        "PersonName": "Reichel Group",
+        "AssociateId": 695,
+        "Address": "sit",
+        "EmailId": 75,
         "DuplicatePersonIds": [
-          672,
-          79
+          507,
+          85
         ],
-        "Name": "Crona-Hegmann",
+        "Name": "Osinski LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 357
+            "FieldLength": 292
           }
         }
       }
     ],
-    "Sent": "2021-03-02T17:37:17.8682423+01:00",
+    "Sent": "2005-04-21T14:19:03.3883958+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 814,
+    "Size": 92,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 122
+        "FieldLength": 672
       }
     }
   }

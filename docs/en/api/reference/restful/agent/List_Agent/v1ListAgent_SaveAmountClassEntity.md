@@ -80,14 +80,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 37,
-  "Name": "Hayes-Schuppe",
-  "Tooltip": "ducimus",
-  "Rank": 812,
-  "AmountFrom": 20674.998,
-  "AmountTo": 30543.964,
+  "AmountClassId": 645,
+  "Name": "VonRueden, Collier and Denesik",
+  "Tooltip": "enim",
+  "Rank": 171,
+  "AmountFrom": 30261.904,
+  "AmountTo": 15347.198,
   "Deleted": false,
-  "CurrencyId": 802
+  "CurrencyId": 952
 }
 ```
 
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 151,
-  "Name": "Kuhn, Boyle and Hessel",
-  "Tooltip": "dolorem",
-  "Rank": 948,
-  "AmountFrom": 28911.149999999998,
-  "AmountTo": 24626.971999999998,
+  "AmountClassId": 370,
+  "Name": "Murphy, Becker and Schaefer",
+  "Tooltip": "dolore",
+  "Rank": 535,
+  "AmountFrom": 17870.068,
+  "AmountTo": 2842.538,
   "Deleted": false,
-  "CurrencyId": 543,
+  "CurrencyId": 864,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 955
+      "FieldType": "System.Int32",
+      "FieldLength": 989
     }
   }
 }

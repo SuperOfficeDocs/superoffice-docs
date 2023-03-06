@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IProjectAgent.DeleteProje
 
 ## DeleteProjectMemberByIds
 
-Deletes projectmembers rows.
 
-* **projectMemberIds:** An Array of projectmember ids.
+
+
 
 [WSDL file for Services88/Project](../Services88-Project.md)
 
@@ -49,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteProjectMemberByIds Response
 
 ```xml
@@ -68,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

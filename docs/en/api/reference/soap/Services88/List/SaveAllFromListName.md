@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.SaveAllFromLis
 
 ## SaveAllFromListName
 
-Save all list items for the specified list defintion
 
-* **udListDefinitionName:** The name of the list definition, indicating which list to save the items to.
-* **items:** The list items
 
-**Returns:** The list items
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -60,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveAllFromListName Response
 
 ```xml
@@ -89,3 +87,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

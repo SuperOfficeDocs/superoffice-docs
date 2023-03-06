@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IMessagingAgent.SendMessa
 
 ## SendMessagesWithConfig
 
-Send an array of messages using given config
 
-* **plugin:** Name of plugin to use.
-* **outgoingMessages:** Array of outgoing messages you want to send.
-* **config:** Config values used by the plugin.
 
-**Returns:** Array of MessageDeliveryStatus. Length of the array is equal to the number of outgoing messages.
+
 
 [WSDL file for Services85/Messaging](../Services85-Messaging.md)
 
@@ -67,6 +63,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SendMessagesWithConfig Response
 
 ```xml
@@ -93,3 +90,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

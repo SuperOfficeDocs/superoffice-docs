@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetDocumentTem
 
 ## GetDocumentTemplateLanguages
 
-Get the supported language variations for a document template
 
-* **documentTemplateId:** The id of the document template
 
-**Returns:** Returns the list of languages as ISO cultures (en-US, no, sv, etc)
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDocumentTemplateLanguages Response
 
 ```xml
@@ -71,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

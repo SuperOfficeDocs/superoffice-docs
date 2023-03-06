@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IConfigurationAgent.Delet
 
 ## DeleteSystemEventEntity
 
-Deletes the SystemEventEntity
 
-* **systemEventEntityId:** The identity of the SystemEventEntity
+
+
 
 [WSDL file for Services87/Configuration](../Services87-Configuration.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteSystemEventEntity Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

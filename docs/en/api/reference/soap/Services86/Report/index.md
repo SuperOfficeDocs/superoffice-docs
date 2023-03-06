@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services86/Repor
 
 Handled by the <see cref="T:SuperOffice.Services86.IReportAgent">SuperOffice.Services86.IReportAgent</see> interface.
 
-Interface for the Report Agent
-Run reports, set favourites, labels
+
 
 Download [WSDL file for Services86/Report](../Services86-Report.md) if you need to generate your own proxy code.
 
@@ -28,3 +27,4 @@ Download [WSDL file for Services86/Report](../Services86-Report.md) if you need 
 * [SaveReportEntity](SaveReportEntity.md)
 * [SaveReportLabelLayoutEntity](SaveReportLabelLayoutEntity.md)
 * [UpdateFavorite](UpdateFavorite.md)
+

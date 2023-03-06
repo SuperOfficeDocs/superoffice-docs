@@ -108,47 +108,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 731,
-  "Name": "Kovacek Group",
-  "Tooltip": "tempora",
-  "Rank": 863,
+  "SaleTypeId": 798,
+  "Name": "Greenholt Inc and Sons",
+  "Tooltip": "consequuntur",
+  "Rank": 701,
   "DurationUnit": "Century",
-  "SaleDuration": 44,
-  "SaleTypeCatId": 385,
+  "SaleDuration": 698,
+  "SaleTypeCatId": 845,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 576,
-  "QuoteLinesTemplate": 206,
-  "ConfirmationLinesTemplate": 380,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 344,
+  "QuoteLinesTemplate": 648,
+  "ConfirmationLinesTemplate": 498,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 581,
-  "MinEarningPercent": 190,
-  "GroupQuoteLinesBy": 527,
-  "SortGroupLinesBy": 23,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 463,
+  "MinEarningPercent": 693,
+  "GroupQuoteLinesBy": 197,
+  "SortGroupLinesBy": 643,
   "Stages": [
     {
-      "Id": 32,
-      "Name": "Orn-Harber",
-      "ToolTip": "Quod voluptatem id dolorem.",
+      "Id": 150,
+      "Name": "Ziemann-Will",
+      "ToolTip": "Esse aperiam itaque dicta aut et.",
       "Deleted": true,
-      "Rank": 837,
-      "Type": "fugiat",
-      "ColorBlock": 352,
-      "IconHint": "aspernatur",
-      "Selected": true,
-      "LastChanged": "2013-08-29T17:37:18.2872417+02:00",
+      "Rank": 33,
+      "Type": "officia",
+      "ColorBlock": 372,
+      "IconHint": "impedit",
+      "Selected": false,
+      "LastChanged": "1996-04-23T14:19:03.6863742+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "quis",
-      "Hidden": false,
-      "FullName": "Molly Hamill"
+      "ExtraInfo": "ab",
+      "StyleHint": "rerum",
+      "Hidden": true,
+      "FullName": "Ms. Glennie Leilani Carroll"
     }
   ]
 }
@@ -161,53 +161,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 761,
-  "Name": "Glover LLC",
-  "Tooltip": "illo",
-  "Rank": 503,
+  "SaleTypeId": 773,
+  "Name": "Heaney Inc and Sons",
+  "Tooltip": "aut",
+  "Rank": 834,
   "DurationUnit": "Century",
-  "SaleDuration": 955,
-  "SaleTypeCatId": 161,
+  "SaleDuration": 111,
+  "SaleTypeCatId": 182,
   "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 49,
-  "QuoteLinesTemplate": 914,
-  "ConfirmationLinesTemplate": 409,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 985,
+  "QuoteLinesTemplate": 520,
+  "ConfirmationLinesTemplate": 388,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 320,
-  "MinEarningPercent": 193,
-  "GroupQuoteLinesBy": 492,
-  "SortGroupLinesBy": 277,
+  "MaxDiscountPercent": 952,
+  "MinEarningPercent": 148,
+  "GroupQuoteLinesBy": 42,
+  "SortGroupLinesBy": 403,
   "Stages": [
     {
-      "Id": 90,
-      "Name": "Schultz-Lebsack",
-      "ToolTip": "Aliquam quam.",
+      "Id": 23,
+      "Name": "Koch-Reichert",
+      "ToolTip": "Earum repudiandae enim aut occaecati corporis sunt.",
       "Deleted": false,
-      "Rank": 957,
-      "Type": "placeat",
-      "ColorBlock": 366,
-      "IconHint": "architecto",
-      "Selected": false,
-      "LastChanged": "2022-11-16T17:37:18.288242+01:00",
+      "Rank": 448,
+      "Type": "non",
+      "ColorBlock": 836,
+      "IconHint": "sunt",
+      "Selected": true,
+      "LastChanged": "2009-02-04T14:19:03.6863742+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ducimus",
-      "StyleHint": "illo",
-      "Hidden": true,
-      "FullName": "Ayden McGlynn",
+      "ExtraInfo": "eos",
+      "StyleHint": "dolores",
+      "Hidden": false,
+      "FullName": "Vernice Langworth",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 716
+          "FieldLength": 77
         }
       }
     }
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldType": "System.String",
+      "FieldLength": 901
     }
   }
 }

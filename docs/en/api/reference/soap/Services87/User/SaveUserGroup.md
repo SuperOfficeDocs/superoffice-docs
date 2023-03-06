@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.SaveUserGroup"
 
 ## SaveUserGroup
 
-Save a user group.  Set UserGroup.Deleted to mark a user group as deleted and invisible in the user interface.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **userGroup:** UserGroup to save
 
-**Returns:** UserGroup as saved to the database
+
 
 [WSDL file for Services87/User](../Services87-User.md)
 
@@ -56,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveUserGroup Response
 
 ```xml
@@ -82,3 +80,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

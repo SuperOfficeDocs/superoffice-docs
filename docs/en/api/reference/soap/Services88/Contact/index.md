@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/Conta
 
 Handled by the <see cref="T:SuperOffice.Services88.IContactAgent">SuperOffice.Services88.IContactAgent</see> interface.
 
-Interface for the Contact Agent
-Contact (company) data services.
+
 
 Download [WSDL file for Services88/Contact](../Services88-Contact.md) if you need to generate your own proxy code.
 
@@ -19,6 +18,7 @@ Download [WSDL file for Services88/Contact](../Services88-Contact.md) if you nee
 * [ChangeCountry](ChangeCountry.md)
 * [Copy](Copy.md)
 * [CreateDefaultContactEntity](CreateDefaultContactEntity.md)
+* [CreateDefaultPreviewContact](CreateDefaultPreviewContact.md)
 * [CreateNewEntry](CreateNewEntry.md)
 * [DeleteContactEntity](DeleteContactEntity.md)
 * [DeleteExpired](DeleteExpired.md)
@@ -38,6 +38,7 @@ Download [WSDL file for Services88/Contact](../Services88-Contact.md) if you nee
 * [GetMyRecentContacts](GetMyRecentContacts.md)
 * [GetNameDepartmentDuplicates](GetNameDepartmentDuplicates.md)
 * [GetPersons](GetPersons.md)
+* [GetPreviewContact](GetPreviewContact.md)
 * [GetQuoteVersionAddresses](GetQuoteVersionAddresses.md)
 * [IsNumberValid](IsNumberValid.md)
 * [Merge](Merge.md)
@@ -46,3 +47,4 @@ Download [WSDL file for Services88/Contact](../Services88-Contact.md) if you nee
 * [SetDuplicateRulesStatus](SetDuplicateRulesStatus.md)
 * [Undelete](Undelete.md)
 * [ValidateContactEntity](ValidateContactEntity.md)
+

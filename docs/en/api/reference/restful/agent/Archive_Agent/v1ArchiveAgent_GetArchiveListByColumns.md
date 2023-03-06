@@ -102,36 +102,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Price, Hoeger and Bruen",
+  "ProviderName": "Wilderman, Smitham and Haley",
   "Columns": [
-    "pariatur",
-    "tempore"
+    "nostrum",
+    "iusto"
   ],
   "SortOrder": [
     {
-      "Name": "Heathcote-Howell",
+      "Name": "Frami Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Heathcote-Howell",
+      "Name": "Frami Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Kemmer, Johnston and Sawayn",
-      "Operator": "eius",
+      "Name": "Larson-Wyman",
+      "Operator": "aut",
       "Values": [
-        "enim",
-        "doloribus"
+        "laborum",
+        "eligendi"
       ],
       "DisplayValues": [
-        "laudantium",
-        "sit"
+        "et",
+        "ratione"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,17 +139,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 978,
+      "InterParenthesis": 589,
       "InterOperator": "And",
-      "UniqueHash": 695
+      "UniqueHash": 223
     }
   ],
   "Entities": [
-    "repellendus",
-    "in"
+    "aut",
+    "optio"
   ],
-  "Page": 852,
-  "PageSize": 662
+  "Page": 494,
+  "PageSize": 706
 }
 ```
 
@@ -161,23 +161,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Mante, Haley and Denesik",
-    "PrimaryKey": 285,
+    "EntityName": "Champlin, Senger and Witting",
+    "PrimaryKey": 165,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quisquam",
-        "TooltipHint": "veritatis",
+        "DisplayValue": "doloremque",
+        "TooltipHint": "et",
         "LinkHint": "est"
       }
     },
-    "LinkHint": "iusto",
-    "StyleHint": "facere",
+    "LinkHint": "ut",
+    "StyleHint": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 220
+        "FieldLength": 493
       }
     }
   }

@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 805,
-  "CountryId": 153
+  "ContactId": 474,
+  "CountryId": 701
 }
 ```
 
@@ -94,41 +94,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 5681.942,
-  "Wgs84Longitude": 2353.634,
+  "Wgs84Latitude": 18243.014,
+  "Wgs84Longitude": 17791.718,
   "LocalizedAddress": [
     [
       {
-        "Name": "Hansen-Kris",
-        "Value": "repudiandae",
-        "Tooltip": "recusandae",
-        "Label": "neque",
-        "ValueLength": 234,
-        "AddressType": "quia",
+        "Name": "Franecki LLC",
+        "Value": "velit",
+        "Tooltip": "exercitationem",
+        "Label": "amet",
+        "ValueLength": 879,
+        "AddressType": "repellendus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 235
+            "FieldType": "System.String",
+            "FieldLength": 299
           }
         }
       }
     ],
     [
       {
-        "Name": "O'Keefe Group",
-        "Value": "debitis",
-        "Tooltip": "sed",
-        "Label": "beatae",
-        "ValueLength": 178,
-        "AddressType": "voluptatibus",
+        "Name": "Schamberger-Hirthe",
+        "Value": "aut",
+        "Tooltip": "voluptas",
+        "Label": "quos",
+        "ValueLength": 910,
+        "AddressType": "quibusdam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 862
+            "FieldLength": 538
           }
         }
       }
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "quod",
+  "Formatted": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 351
+      "FieldType": "System.String",
+      "FieldLength": 82
     }
   }
 }

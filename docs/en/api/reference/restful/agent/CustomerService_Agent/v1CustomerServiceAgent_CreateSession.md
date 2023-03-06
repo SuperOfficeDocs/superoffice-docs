@@ -78,7 +78,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RemoteIp": "iste"
+  "RemoteIp": "cumque"
 }
 ```
 
@@ -89,15 +89,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ut",
-  "LoginId": 934,
-  "UserId": 87,
+  "Key": "facilis",
+  "LoginId": 104,
+  "UserId": 885,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 25
+      "FieldLength": 128
     }
   }
 }

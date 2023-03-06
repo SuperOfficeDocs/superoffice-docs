@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.CanConnectorP
 
 ## CanConnectorProvideCapability
 
-Can the connector provide the capability
 
-* **quoteConnectionId:** Primary key of the connection
-* **capabilityName:** Capability name
 
-**Returns:** Capability name
+
 
 [WSDL file for Services84/Quote](../Services84-Quote.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CanConnectorProvideCapability Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

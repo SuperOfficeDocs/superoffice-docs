@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 68,
-  "IncludeEmails": false
+  "DocumentPluginId": 373,
+  "IncludeEmails": true
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 352,
-  "NumDocumentsAlreadyMigrated": 154,
+  "NumDocumentsOmitted": 727,
+  "NumDocumentsAlreadyMigrated": 831,
   "Documents": [
     {
-      "DocumentId": 778,
-      "ContactId": 513,
-      "PersonId": 738,
-      "SaleId": 657,
-      "ProjectId": 110,
-      "DocTmplId": 351,
-      "AssociateId": 165,
-      "UserGroupId": 756,
-      "VisibleForId": 226
+      "DocumentId": 910,
+      "ContactId": 768,
+      "PersonId": 690,
+      "SaleId": 348,
+      "ProjectId": 533,
+      "DocTmplId": 298,
+      "AssociateId": 268,
+      "UserGroupId": 241,
+      "VisibleForId": 393
     }
   ],
   "Associates": [
     {
-      "AssociateId": 841,
-      "EmailAddress": "ivah@rippindaniel.uk"
+      "AssociateId": 473,
+      "EmailAddress": "lacey@auer.co.uk"
     },
     {
-      "AssociateId": 841,
-      "EmailAddress": "ivah@rippindaniel.uk"
+      "AssociateId": 473,
+      "EmailAddress": "lacey@auer.co.uk"
     }
   ]
 }

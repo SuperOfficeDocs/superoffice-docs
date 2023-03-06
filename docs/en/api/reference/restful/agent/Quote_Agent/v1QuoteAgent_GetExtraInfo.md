@@ -74,11 +74,11 @@ OK
 POST /api/v1/Agents/Quote/GetExtraInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineExtraData": "necessitatibus"
+  "QuoteLineExtraData": "voluptatem"
 }
 ```
 
@@ -90,28 +90,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Keebler LLC",
-    "Value": "nisi",
+    "Name": "Hoppe, Jacobs and Welch",
+    "Value": "mollitia",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 932
+        "FieldLength": 542
       }
     }
   },
   {
-    "Name": "Keebler LLC",
-    "Value": "nisi",
+    "Name": "Hoppe, Jacobs and Welch",
+    "Value": "mollitia",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 932
+        "FieldLength": 542
       }
     }
   }

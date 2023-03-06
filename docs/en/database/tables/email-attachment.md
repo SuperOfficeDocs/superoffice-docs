@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "email_attachment"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# email\_attachment Table (485)
+# email\_attachment Table (488)
 
 Attachment info related to an email_item
 

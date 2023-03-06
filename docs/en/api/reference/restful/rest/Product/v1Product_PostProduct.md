@@ -140,55 +140,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 626,
-  "ERPProductKey": "dolorem",
-  "ERPPriceListKey": "sint",
-  "Name": "Weber LLC",
-  "Description": "Multi-channelled analyzing migration",
-  "Code": "fugiat",
-  "PriceUnit": "totam",
-  "QuantityUnit": "vel",
-  "IsSubscription": false,
-  "SubscriptionUnit": "vero",
-  "DefaultSubscriptionQuantity": 30221.162,
-  "ItemNumber": "1389936",
+  "ProductId": 80,
+  "ERPProductKey": "mollitia",
+  "ERPPriceListKey": "aut",
+  "Name": "Towne, Yost and Christiansen",
+  "Description": "Digitized solution-oriented hardware",
+  "Code": "dolorem",
+  "PriceUnit": "quia",
+  "QuantityUnit": "esse",
+  "IsSubscription": true,
+  "SubscriptionUnit": "pariatur",
+  "DefaultSubscriptionQuantity": 4679.062,
+  "ItemNumber": "1308703",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quia",
-  "ProductTypeKey": "culpa",
-  "VAT": 2049.636,
-  "VATInfo": "molestiae",
-  "UnitCost": 13987.042,
-  "UnitMinimumPrice": 24363.716,
-  "UnitListPrice": 7458.92,
+  "ProductFamilyKey": "officia",
+  "ProductTypeKey": "et",
+  "VAT": 26175.167999999998,
+  "VATInfo": "est",
+  "UnitCost": 14447.74,
+  "UnitMinimumPrice": 16701.086,
+  "UnitListPrice": 5174.2339999999995,
   "InAssortment": false,
-  "Supplier": "hic",
-  "SupplierCode": "molestiae",
-  "Rights": "est",
-  "Rule": "sunt",
+  "Supplier": "ut",
+  "SupplierCode": "odit",
+  "Rights": "voluptatem",
+  "Rule": "aperiam",
   "ExtraInfo": [
     {
-      "Name": "Gerlach-Beier",
-      "Value": "id",
+      "Name": "Gorczany-Emard",
+      "Value": "iste",
       "Type": "Image"
     },
     {
-      "Name": "Gerlach-Beier",
-      "Value": "id",
+      "Name": "Gorczany-Emard",
+      "Value": "iste",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "nam",
-  "ExtraField1": "officiis",
-  "ExtraField2": "similique",
-  "ExtraField3": "aut",
-  "ExtraField4": "at",
-  "ExtraField5": "consequatur",
-  "InStock": 2701.508
+  "RawExtraInfo": "rerum",
+  "ExtraField1": "voluptatum",
+  "ExtraField2": "mollitia",
+  "ExtraField3": "cum",
+  "ExtraField4": "quia",
+  "ExtraField5": "assumenda",
+  "InStock": 20787.822
 }
 ```
 
@@ -199,73 +199,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 106,
-  "ERPProductKey": "qui",
-  "ERPPriceListKey": "neque",
-  "Name": "Prohaska, Heller and Hodkiewicz",
-  "Description": "Decentralized reciprocal artificial intelligence",
-  "Code": "et",
-  "PriceUnit": "a",
-  "QuantityUnit": "deserunt",
+  "ProductId": 61,
+  "ERPProductKey": "cum",
+  "ERPPriceListKey": "officia",
+  "Name": "Leannon-Farrell",
+  "Description": "Cross-platform leading edge attitude",
+  "Code": "enim",
+  "PriceUnit": "ullam",
+  "QuantityUnit": "velit",
   "IsSubscription": true,
-  "SubscriptionUnit": "sint",
-  "DefaultSubscriptionQuantity": 31.34,
-  "ItemNumber": "680672",
+  "SubscriptionUnit": "quisquam",
+  "DefaultSubscriptionQuantity": 1927.4099999999999,
+  "ItemNumber": "1064175",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptas",
-  "ProductTypeKey": "molestias",
-  "VAT": 16162.037999999999,
-  "VATInfo": "vitae",
-  "UnitCost": 29763.597999999998,
-  "UnitMinimumPrice": 11620.872,
-  "UnitListPrice": 11279.266,
+  "ProductFamilyKey": "quia",
+  "ProductTypeKey": "saepe",
+  "VAT": 10486.364,
+  "VATInfo": "et",
+  "UnitCost": 7775.454,
+  "UnitMinimumPrice": 16986.28,
+  "UnitListPrice": 10229.376,
   "InAssortment": false,
-  "Supplier": "quia",
-  "SupplierCode": "ex",
-  "Rights": "fuga",
-  "Rule": "minus",
+  "Supplier": "consequatur",
+  "SupplierCode": "quo",
+  "Rights": "tempora",
+  "Rule": "eligendi",
   "ExtraInfo": [
     {
-      "Name": "Schowalter-Little",
-      "Value": "iste",
+      "Name": "Heathcote-Little",
+      "Value": "ab",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 85
+          "FieldLength": 957
         }
       }
     },
     {
-      "Name": "Schowalter-Little",
-      "Value": "iste",
+      "Name": "Heathcote-Little",
+      "Value": "ab",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 85
+          "FieldLength": 957
         }
       }
     }
   ],
-  "RawExtraInfo": "eius",
-  "ExtraField1": "eum",
-  "ExtraField2": "natus",
-  "ExtraField3": "ea",
-  "ExtraField4": "blanditiis",
-  "ExtraField5": "officiis",
-  "InStock": 22915.808,
+  "RawExtraInfo": "consectetur",
+  "ExtraField1": "delectus",
+  "ExtraField2": "voluptas",
+  "ExtraField3": "corporis",
+  "ExtraField4": "libero",
+  "ExtraField5": "odio",
+  "InStock": 31249.113999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 450
+      "FieldLength": 424
     }
   }
 }

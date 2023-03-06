@@ -11,15 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IDocumentAgent.ExecuteDoc
 
 ## ExecuteDocumentCommand
 
-Execute a custom command on a particular document, optionally a particular version
 
-* **documentId:** SuperOffice document ID
-* **versionId:** Version ID if applicable/desired; a blank value implies "latest" version and is always acceptable.
-* **allowedReturnTypes:** List of return types that the client is prepared to handle, in case the document plugin needs to request additional processing.&lt;br/&gt;Standard allowed return types include 'None', 'Message', 'SoProtocol', 'CustomGui', 'Other'.&lt;br/&gt;An empty array implies that the client places no restriction on possible return action requests.
-* **command:** Command name, generally matching one of those returned from the GetDocumentCommands service. However, it is legal for document plugins to support commands that are not declared through GetDocumentCommands, for instance if a custom GUI needs to access plugin functionality.
-* **additionalData:** Any additional data that the document command needs. This parameter can be used as a tunnel between a custom-programmed GUI and its plugin.&lt;br/&gt;It is suggested that the format is name=value, with one such pair per array item.
 
-**Returns:** Return information, including possible requests for further processing ("Return Action"). Return actions are constrained by the allowedReturnTypes parameter.
+
 
 [WSDL file for Services86/Document](../Services86-Document.md)
 
@@ -61,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ExecuteDocumentCommand Response
 
 ```xml
@@ -88,3 +83,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

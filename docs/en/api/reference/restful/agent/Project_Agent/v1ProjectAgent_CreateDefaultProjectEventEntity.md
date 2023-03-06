@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,94 +95,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "voluptatum",
-  "SignOffText": "et",
-  "SignOnConfirmationText": "neque",
-  "SignOnText": "sed",
-  "EventDate": "2009-12-25T17:37:18.6152415+01:00",
-  "Enabled": true,
-  "CreatedDate": "2012-01-02T17:37:18.6152415+01:00",
-  "SignOff": true,
+  "SignOffConfirmationText": "eius",
+  "SignOffText": "sed",
+  "SignOnConfirmationText": "est",
+  "SignOnText": "suscipit",
+  "EventDate": "2012-06-11T14:19:03.9219591+02:00",
+  "Enabled": false,
+  "CreatedDate": "2008-04-29T14:19:03.9219591+02:00",
+  "SignOff": false,
   "SignOffTaskEnable": true,
-  "SignOffTaskId": 545,
-  "SignOffTriggersAssign": true,
-  "SignOn": true,
+  "SignOffTaskId": 491,
+  "SignOffTriggersAssign": false,
+  "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 989,
+  "SignOnTaskId": 990,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "1998-07-08T17:37:18.6152415+02:00",
+  "UpdatedDate": "2013-09-09T14:19:03.9219591+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 375,
-  "Id": 997,
-  "PublishFrom": "1998-07-03T17:37:18.6162445+02:00",
+  "ProjectId": 615,
+  "Id": 657,
+  "PublishFrom": "2009-05-09T14:19:03.9219591+02:00",
   "PublishType": "External",
-  "PublishTo": "1995-11-24T17:37:18.6162445+01:00",
+  "PublishTo": "2021-09-24T14:19:03.9219591+02:00",
   "VisibleForCategories": [
     {
-      "Id": 337,
-      "Name": "Stark-Towne",
-      "ToolTip": "Nulla at delectus earum dicta qui.",
+      "Id": 276,
+      "Name": "Little-Moen",
+      "ToolTip": "Repellendus sint vitae qui.",
       "Deleted": false,
-      "Rank": 331,
-      "Type": "corrupti",
+      "Rank": 537,
+      "Type": "quisquam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quis",
-      "ColorBlock": 457,
-      "ExtraInfo": "earum",
-      "StyleHint": "et",
-      "FullName": "Prof. Maddison Lindgren",
+      "IconHint": "sed",
+      "ColorBlock": 524,
+      "ExtraInfo": "assumenda",
+      "StyleHint": "debitis",
+      "FullName": "Mr. Aaliyah Denesik I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 806
+          "FieldType": "System.Int32",
+          "FieldLength": 819
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 156,
-      "Name": "Kiehn Group",
-      "ToolTip": "Provident esse quasi quod asperiores dignissimos quod earum.",
+      "Id": 437,
+      "Name": "Kulas, Boehm and Kutch",
+      "ToolTip": "Impedit provident iure.",
       "Deleted": false,
-      "Rank": 645,
-      "Type": "dignissimos",
+      "Rank": 327,
+      "Type": "illo",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "vitae",
-      "ColorBlock": 504,
-      "ExtraInfo": "ipsam",
-      "StyleHint": "odio",
-      "FullName": "Rashawn Hegmann",
+      "IconHint": "reprehenderit",
+      "ColorBlock": 459,
+      "ExtraInfo": "asperiores",
+      "StyleHint": "labore",
+      "FullName": "Logan Cruickshank II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 275
+          "FieldType": "System.Int32",
+          "FieldLength": 86
         }
       }
     }
   ],
-  "IsPublished": false,
+  "IsPublished": true,
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 172,
+  "ProjectEventId": 467,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 140
+      "FieldType": "System.String",
+      "FieldLength": 547
     }
   }
 }

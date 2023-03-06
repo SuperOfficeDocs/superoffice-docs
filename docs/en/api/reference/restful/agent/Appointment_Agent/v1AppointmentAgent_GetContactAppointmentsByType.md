@@ -126,14 +126,14 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 412,
-  "StartTime": "2006-04-07T17:37:16.607245+02:00",
-  "EndTime": "2016-05-21T17:37:16.607245+02:00",
-  "Count": 668,
+  "ContactId": 220,
+  "StartTime": "1999-05-12T14:19:02.3262466+02:00",
+  "EndTime": "2021-07-18T14:19:02.3262466+02:00",
+  "Count": 945,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 320,
-    "StartDate": "2017-03-24T17:37:16.6082446+01:00",
-    "EndDate": "2017-03-24T17:37:16.6082446+01:00",
+    "AppointmentId": 348,
+    "StartDate": "1998-05-21T14:19:02.3262466+02:00",
+    "EndDate": "1998-11-18T14:19:02.3262466+01:00",
     "Type": "BookingForChecklist",
-    "Task": "necessitatibus",
-    "AssociateFullName": "Maureen Quitzon",
-    "ContactName": "Emmerich Inc and Sons",
-    "Description": "Re-engineered fresh-thinking capacity",
-    "PersonFullName": "Miss Talon Stoltenberg",
-    "PersonId": 614,
-    "ContactId": 789,
-    "ProjectId": 510,
-    "ProjectName": "Jones, Willms and Sanford",
+    "Task": "et",
+    "AssociateFullName": "Chadrick Abbie Conn II",
+    "ContactName": "Krajcik-Goyette",
+    "Description": "Triple-buffered intangible local area network",
+    "PersonFullName": "Thomas Leannon",
+    "PersonId": 775,
+    "ContactId": 903,
+    "ProjectId": 155,
+    "ProjectName": "Koss-Walsh",
     "IsPublished": false,
-    "AssociateId": 675,
-    "ColorIndex": 22,
+    "AssociateId": 627,
+    "ColorIndex": 149,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 775,
-    "PriorityName": "Langworth Group",
+    "PriorityId": 125,
+    "PriorityName": "Kertzmann LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsBookingMain": false,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2011-10-11T17:37:16.6082446+02:00",
+    "ActiveDate": "2021-09-12T14:19:02.3262466+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-01-22T17:37:16.6082446+01:00",
-    "RecurringEndDate": "2020-10-03T17:37:16.6082446+02:00",
-    "MotherId": 652,
-    "AssignedBy": 721,
-    "AssignedByFullName": "Ariel Bradtke PhD",
-    "RejectReason": "incubate front-end initiatives",
-    "Location": "pariatur",
-    "AlarmLeadTime": "veniam",
-    "SaleId": 797,
-    "SaleName": "Carter Group",
-    "AssociateName": "White, Stracke and Marquardt",
-    "CreatedDate": "2000-12-10T17:37:16.6092445+01:00",
-    "CreatedBy": "illum",
-    "CreatedByFullName": "Mr. Ludwig Hane",
-    "CreatedByAssociateId": 734,
+    "RecurringStartDate": "2019-12-04T14:19:02.3262466+01:00",
+    "RecurringEndDate": "2000-03-14T14:19:02.3262466+01:00",
+    "MotherId": 374,
+    "AssignedBy": 670,
+    "AssignedByFullName": "Maverick Haley III",
+    "RejectReason": "",
+    "Location": "laborum",
+    "AlarmLeadTime": "qui",
+    "SaleId": 357,
+    "SaleName": "Herzog-Herzog",
+    "AssociateName": "Kuhic-Orn",
+    "CreatedDate": "2008-01-08T14:19:02.3262466+01:00",
+    "CreatedBy": "esse",
+    "CreatedByFullName": "Lillian Bergstrom",
+    "CreatedByAssociateId": 210,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 416
+        "FieldLength": 382
       }
     }
   }

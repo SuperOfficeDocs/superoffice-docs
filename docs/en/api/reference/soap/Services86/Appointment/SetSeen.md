@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IAppointmentAgent.SetSeen
 
 ## SetSeen
 
-Sets an appointment invitiation to seen.
 
-* **appointmentId:** The appointmentId. Both master and child record ids are accepted.
-* **updateMode:** Update mode for a recurring appointment.
+
+
 
 [WSDL file for Services86/Appointment](../Services86-Appointment.md)
 
@@ -49,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetSeen Response
 
 ```xml
@@ -68,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

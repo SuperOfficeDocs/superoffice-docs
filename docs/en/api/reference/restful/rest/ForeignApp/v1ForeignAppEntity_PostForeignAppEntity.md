@@ -87,27 +87,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 936,
-  "Name": "Gibson Group",
-  "CreatedDate": "2022-04-27T17:37:38.6138686+02:00",
-  "UpdatedDate": "2004-05-06T17:37:38.6138686+02:00",
+  "ForeignAppId": 264,
+  "Name": "Marks Group",
+  "CreatedDate": "2002-04-08T14:19:10.3498478+02:00",
+  "UpdatedDate": "2001-02-05T14:19:10.3498478+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 676,
-      "Name": "Wintheiser LLC",
-      "CreatedDate": "1996-11-25T17:37:38.6148667+01:00",
-      "UpdatedDate": "1997-02-19T17:37:38.6148667+01:00",
-      "AssociateFullName": "Rodrigo Keeling",
-      "CreatedBy": "totam",
-      "UpdatedBy": "rerum",
-      "DeviceIdentifier": "voluptatem",
-      "ForeignAppId": 870
+      "ForeignDeviceId": 436,
+      "Name": "Gleichner-Osinski",
+      "CreatedDate": "2002-06-03T14:19:10.3498478+02:00",
+      "UpdatedDate": "2001-11-21T14:19:10.3498478+01:00",
+      "AssociateFullName": "Dr. Eulalia Jeremie Jones",
+      "CreatedBy": "libero",
+      "UpdatedBy": "debitis",
+      "DeviceIdentifier": "asperiores",
+      "ForeignAppId": 717
     }
   ]
 }
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 151,
-  "Name": "Huels LLC",
-  "CreatedDate": "2001-12-05T17:37:38.6168674+01:00",
-  "UpdatedDate": "2019-03-19T17:37:38.6168674+01:00",
+  "ForeignAppId": 904,
+  "Name": "Christiansen-Runolfsson",
+  "CreatedDate": "2011-03-10T14:19:10.3498478+01:00",
+  "UpdatedDate": "2016-05-08T14:19:10.3498478+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 600,
-      "Name": "Marvin-Rohan",
-      "CreatedDate": "2016-12-19T17:37:38.6178659+01:00",
-      "UpdatedDate": "1996-02-17T17:37:38.6178659+01:00",
-      "AssociateFullName": "Nikki Weber",
-      "CreatedBy": "et",
-      "UpdatedBy": "ratione",
-      "DeviceIdentifier": "adipisci",
-      "ForeignAppId": 318,
+      "ForeignDeviceId": 655,
+      "Name": "Dickinson, Parker and Lueilwitz",
+      "CreatedDate": "2008-08-13T14:19:10.3498478+02:00",
+      "UpdatedDate": "2018-08-26T14:19:10.3498478+02:00",
+      "AssociateFullName": "Schuyler Jaylin Rodriguez I",
+      "CreatedBy": "est",
+      "UpdatedBy": "expedita",
+      "DeviceIdentifier": "quos",
+      "ForeignAppId": 860,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 972
+          "FieldType": "System.String",
+          "FieldLength": 499
         }
       }
     }
@@ -151,8 +151,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 361
+      "FieldType": "System.Int32",
+      "FieldLength": 86
     }
   },
   "_Links": {

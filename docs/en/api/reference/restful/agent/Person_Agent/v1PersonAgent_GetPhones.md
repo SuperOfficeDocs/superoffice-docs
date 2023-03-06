@@ -78,7 +78,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 804
+  "PersonId": 422
 }
 ```
 
@@ -90,28 +90,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "corrupti",
-    "StrippedValue": "dolor",
-    "Description": "Centralized executive structure",
+    "Value": "ad",
+    "StrippedValue": "ipsa",
+    "Description": "Re-contextualized systemic help-desk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 15
+        "FieldType": "System.Int32",
+        "FieldLength": 477
       }
     }
   },
   {
-    "Value": "corrupti",
-    "StrippedValue": "dolor",
-    "Description": "Centralized executive structure",
+    "Value": "ad",
+    "StrippedValue": "ipsa",
+    "Description": "Re-contextualized systemic help-desk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 15
+        "FieldType": "System.Int32",
+        "FieldLength": 477
       }
     }
   }

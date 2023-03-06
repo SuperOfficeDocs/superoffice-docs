@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.GetCredentialU
 
 ## GetCredentialUsersInGroup
 
-Get credential users within a user group
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **type:** Type of credentials, corresponding to name of plugin and type in the credentials table.
-* **groupName:** Name of user group needed to discover the users.
+
+
 
 [WSDL file for Services88/User](../Services88-User.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetCredentialUsersInGroup Response
 
@@ -84,3 +83,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IPreferenceAgent.SavePref
 
 ## SavePreferenceEntities
 
-Save this set of preferences.
 
-* **preferences:** Preferences to be saved. Note that all fields must be filled in.
-* **removeLowerLevels:** If this is true, all user preferences on lower levels will be deleted
+
+
 
 [WSDL file for Services87/Preference](../Services87-Preference.md)
 
@@ -71,6 +70,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SavePreferenceEntities Response
 
 ```xml
@@ -90,3 +90,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

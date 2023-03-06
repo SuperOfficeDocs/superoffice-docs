@@ -65,7 +65,7 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -74,14 +74,14 @@ Content-Type: application/json; charset=utf-8
       "Level": "Database",
       "RawValue": "et",
       "Specification": null,
-      "DisplayValue": "aut",
-      "DisplayTooltip": "dolorem",
+      "DisplayValue": "cumque",
+      "DisplayTooltip": "aut",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 295,
-      "PrefDescId": 525,
-      "TableName": "Bergstrom Group",
-      "UserPreferenceId": 748
+      "TargetId": 824,
+      "PrefDescId": 629,
+      "TableName": "Keebler, Feeney and Hauck",
+      "UserPreferenceId": 557
     }
   ]
 }

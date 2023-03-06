@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.GetOrRegisterA
 
 ## GetOrRegisterAccessGatewayInfo
 
-Returns accessgateway registration info and registers a new or adds the url if necessary
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **redirectUri:** This is the registered redirect\_uri for AccessGateway OIDC.
+
+
 
 [WSDL file for Services88/User](../Services88-User.md)
 
@@ -48,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetOrRegisterAccessGatewayInfo Response
 
 ```xml
@@ -71,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

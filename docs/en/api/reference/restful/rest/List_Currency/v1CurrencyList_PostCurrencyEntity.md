@@ -80,13 +80,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 176,
-  "Name": "Kessler-Bednar",
-  "Tooltip": "quidem",
-  "Rank": 711,
-  "Rate": 29255.89,
-  "Units": 13062.511999999999,
-  "Deleted": true
+  "CurrencyId": 962,
+  "Name": "Champlin, Monahan and Russel",
+  "Tooltip": "reprehenderit",
+  "Rank": 353,
+  "Rate": 20822.296,
+  "Units": 30280.708,
+  "Deleted": false
 }
 ```
 
@@ -97,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 11,
-  "Name": "Gislason LLC",
-  "Tooltip": "sed",
-  "Rank": 216,
-  "Rate": 7405.642,
-  "Units": 22527.192,
+  "CurrencyId": 379,
+  "Name": "Veum Group",
+  "Tooltip": "enim",
+  "Rank": 166,
+  "Rate": 18152.128,
+  "Units": 13021.77,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 132
+      "FieldLength": 348
     }
   }
 }

@@ -111,51 +111,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 555,
-  "Name": "Prohaska-Ankunding",
-  "Tooltip": "sed",
-  "Rank": 152,
+  "SaleTypeId": 487,
+  "Name": "Klocko, Quitzon and Schmitt",
+  "Tooltip": "adipisci",
+  "Rank": 43,
   "DurationUnit": "Century",
-  "SaleDuration": 800,
-  "SaleTypeCatId": 266,
-  "Deleted": true,
+  "SaleDuration": 971,
+  "SaleTypeCatId": 687,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 555,
-  "QuoteLinesTemplate": 585,
-  "ConfirmationLinesTemplate": 28,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 657,
+  "QuoteLinesTemplate": 906,
+  "ConfirmationLinesTemplate": 691,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 904,
-  "MinEarningPercent": 100,
-  "GroupQuoteLinesBy": 302,
-  "SortGroupLinesBy": 795,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 478,
+  "MinEarningPercent": 160,
+  "GroupQuoteLinesBy": 936,
+  "SortGroupLinesBy": 784,
   "Stages": [
     {
-      "Id": 387,
-      "Name": "Huels-Hegmann",
-      "ToolTip": "A totam quos.",
+      "Id": 891,
+      "Name": "Beer, Kshlerin and Botsford",
+      "ToolTip": "Ut odit vel maiores commodi nihil et quo.",
       "Deleted": false,
-      "Rank": 858,
-      "Type": "rerum",
-      "ColorBlock": 41,
-      "IconHint": "deserunt",
-      "Selected": true,
-      "LastChanged": "1996-07-26T17:37:40.3355007+02:00",
+      "Rank": 191,
+      "Type": "provident",
+      "ColorBlock": 619,
+      "IconHint": "nihil",
+      "Selected": false,
+      "LastChanged": "2002-02-08T14:19:11.5026887+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "asperiores",
-      "StyleHint": "repellat",
-      "Hidden": false,
-      "FullName": "Easter Little I"
+      "ExtraInfo": "ratione",
+      "StyleHint": "aliquid",
+      "Hidden": true,
+      "FullName": "Ahmad Wilkinson"
     }
   ]
 }
@@ -168,53 +168,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 468,
-  "Name": "Zulauf LLC",
-  "Tooltip": "molestiae",
-  "Rank": 521,
+  "SaleTypeId": 549,
+  "Name": "Boehm, Reilly and Schumm",
+  "Tooltip": "temporibus",
+  "Rank": 153,
   "DurationUnit": "Century",
-  "SaleDuration": 705,
-  "SaleTypeCatId": 287,
+  "SaleDuration": 675,
+  "SaleTypeCatId": 574,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 975,
-  "QuoteLinesTemplate": 439,
-  "ConfirmationLinesTemplate": 706,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 263,
+  "QuoteLinesTemplate": 402,
+  "ConfirmationLinesTemplate": 418,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 54,
-  "MinEarningPercent": 52,
-  "GroupQuoteLinesBy": 443,
-  "SortGroupLinesBy": 377,
+  "MaxDiscountPercent": 472,
+  "MinEarningPercent": 105,
+  "GroupQuoteLinesBy": 158,
+  "SortGroupLinesBy": 17,
   "Stages": [
     {
-      "Id": 256,
-      "Name": "Ernser-Ruecker",
-      "ToolTip": "Tenetur asperiores fuga sapiente dolore.",
+      "Id": 856,
+      "Name": "Mayert LLC",
+      "ToolTip": "Minus nemo et est magnam molestias eum sunt.",
       "Deleted": false,
-      "Rank": 912,
-      "Type": "debitis",
-      "ColorBlock": 348,
-      "IconHint": "ea",
-      "Selected": true,
-      "LastChanged": "1998-03-02T17:37:40.3355007+01:00",
+      "Rank": 741,
+      "Type": "praesentium",
+      "ColorBlock": 473,
+      "IconHint": "magnam",
+      "Selected": false,
+      "LastChanged": "2019-09-24T14:19:11.5026887+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "commodi",
-      "StyleHint": "minus",
-      "Hidden": false,
-      "FullName": "Marshall Bergnaum",
+      "ExtraInfo": "magnam",
+      "StyleHint": "tempore",
+      "Hidden": true,
+      "FullName": "Johan Mertz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 670
+          "FieldType": "System.String",
+          "FieldLength": 523
         }
       }
     }
@@ -223,8 +223,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 215
+      "FieldType": "System.Int32",
+      "FieldLength": 375
     }
   }
 }

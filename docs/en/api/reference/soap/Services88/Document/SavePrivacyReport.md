@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.SavePrivac
 
 ## SavePrivacyReport
 
-Generates a Pdf from HTML and makes a document
 
-* **htmlReport:** Html to convert
-* **title:** Title of report
-* **personId:** Person id associated with the report
 
-**Returns:** Document id of saved report
+
 
 [WSDL file for Services88/Document](../Services88-Document.md)
 
@@ -53,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SavePrivacyReport Response
 
 ```xml
@@ -73,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

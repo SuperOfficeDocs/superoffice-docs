@@ -91,8 +91,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Runte-Hoeger",
-  "GroupId": 709
+  "UdListDefinitionName": "Rolfson Group",
+  "GroupId": 961
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 843,
-    "Name": "Hoppe, Wunsch and Wilderman",
-    "ToolTip": "Rerum sit tempore veniam quasi eligendi dolorem vel.",
+    "Id": 650,
+    "Name": "Reichert Inc and Sons",
+    "ToolTip": "Et culpa est velit quae blanditiis consectetur corporis.",
     "Deleted": false,
-    "Rank": 507,
-    "Type": "sunt",
-    "ColorBlock": 394,
-    "IconHint": "incidunt",
+    "Rank": 824,
+    "Type": "quia",
+    "ColorBlock": 151,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2022-03-03T17:37:18.2032452+01:00",
+    "LastChanged": "2015-04-18T14:19:03.6238736+02:00",
     "ChildItems": [
       {
-        "Id": 545,
-        "Name": "Hartmann, Senger and Ebert",
-        "ToolTip": "Ut vitae voluptate blanditiis soluta expedita sunt rem.",
-        "Deleted": true,
-        "Rank": 195,
-        "Type": "blanditiis",
-        "ColorBlock": 898,
-        "IconHint": "enim",
-        "Selected": false,
-        "LastChanged": "2022-08-03T17:37:18.2032452+02:00",
+        "Id": 957,
+        "Name": "Runolfsdottir, Greenholt and Gleichner",
+        "ToolTip": "Qui eos ducimus enim ratione facere dolore et.",
+        "Deleted": false,
+        "Rank": 372,
+        "Type": "tempore",
+        "ColorBlock": 839,
+        "IconHint": "laboriosam",
+        "Selected": true,
+        "LastChanged": "2004-12-13T14:19:03.6238736+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "assumenda",
+        "ExtraInfo": "quo",
+        "StyleHint": "a",
         "Hidden": false,
-        "FullName": "Ignatius Abshire",
+        "FullName": "Winona Murray",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 608
+            "FieldType": "System.Int32",
+            "FieldLength": 359
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "distinctio",
-    "Hidden": true,
-    "FullName": "Kaylin Doyle",
+    "ExtraInfo": "sint",
+    "StyleHint": "unde",
+    "Hidden": false,
+    "FullName": "Elvis Grady",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 300
+        "FieldType": "System.String",
+        "FieldLength": 90
       }
     }
   }

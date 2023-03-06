@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 244,
-  "Name": "Luettgen, Weissnat and McLaughlin",
-  "Tooltip": "itaque",
-  "Rank": 961,
-  "Key": "et",
+  "LegalBaseId": 817,
+  "Name": "Hauck, Adams and Denesik",
+  "Tooltip": "quis",
+  "Rank": 8,
+  "Key": "rerum",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 308
+      "FieldType": "System.String",
+      "FieldLength": 182
     }
   }
 }

@@ -90,25 +90,25 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 629,
-  "Rank": 321,
-  "DefaultTask": 475,
-  "DefaultTaskText": "aut",
-  "IsVisual": false,
-  "LastGenerated": "1996-07-25T17:37:18.8132409+02:00",
-  "Description": "Ameliorated coherent groupware",
-  "Name": "Witting-Powlowski",
-  "StatusMonitorId": 461,
-  "PictureId": 544,
-  "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 377,
-  "NumNeedUpdate": 843,
-  "GenerationStart": "2007-04-03T17:37:18.8132409+02:00"
+  "OwnerTable": 231,
+  "Rank": 603,
+  "DefaultTask": 956,
+  "DefaultTaskText": "consequatur",
+  "IsVisual": true,
+  "LastGenerated": "2021-12-19T14:19:04.0782101+01:00",
+  "Description": "Business-focused intangible help-desk",
+  "Name": "Cruickshank Group",
+  "StatusMonitorId": 667,
+  "PictureId": 970,
+  "NeedsUpdate": true,
+  "Deleted": true,
+  "NumMatches": 208,
+  "NumNeedUpdate": 474,
+  "GenerationStart": "1998-04-04T14:19:04.0782101+02:00"
 }
 ```
 
@@ -119,27 +119,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 960,
-  "Rank": 188,
-  "DefaultTask": 590,
-  "DefaultTaskText": "dolorem",
+  "OwnerTable": 480,
+  "Rank": 966,
+  "DefaultTask": 249,
+  "DefaultTaskText": "dignissimos",
   "IsVisual": false,
-  "LastGenerated": "2016-03-15T17:37:18.8132409+01:00",
-  "Description": "Reduced client-driven application",
-  "Name": "Zieme, Connelly and Hirthe",
-  "StatusMonitorId": 34,
-  "PictureId": 113,
+  "LastGenerated": "2019-03-29T14:19:04.0782101+01:00",
+  "Description": "Up-sized foreground flexibility",
+  "Name": "Miller Inc and Sons",
+  "StatusMonitorId": 805,
+  "PictureId": 535,
   "NeedsUpdate": true,
   "Deleted": false,
-  "NumMatches": 987,
-  "NumNeedUpdate": 129,
-  "GenerationStart": "2000-09-21T17:37:18.8132409+02:00",
+  "NumMatches": 22,
+  "NumNeedUpdate": 598,
+  "GenerationStart": "2021-02-28T14:19:04.0782101+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 965
+      "FieldLength": 338
     }
   }
 }

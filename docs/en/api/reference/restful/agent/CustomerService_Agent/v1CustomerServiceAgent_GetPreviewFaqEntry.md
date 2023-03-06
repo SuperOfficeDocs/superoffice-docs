@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 318
+  "KbEntryId": 986
 }
 ```
 
@@ -91,17 +91,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "numquam",
-  "RegisteredByFullName": "Danielle Welch",
-  "Updated": "2022-07-05T17:37:17.3502415+02:00",
-  "Question": "temporibus",
-  "Answer": "ab",
+  "Title": "et",
+  "RegisteredByFullName": "Gladys Trantow",
+  "Updated": "2017-10-31T14:19:03.0886547+01:00",
+  "Question": "autem",
+  "Answer": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 477
+      "FieldType": "System.Int32",
+      "FieldLength": 37
     }
   }
 }

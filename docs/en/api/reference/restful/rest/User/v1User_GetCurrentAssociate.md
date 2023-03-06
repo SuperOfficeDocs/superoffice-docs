@@ -77,24 +77,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 463,
-  "Name": "Jewess, Mosciski and Donnelly",
-  "PersonId": 986,
-  "Rank": 102,
-  "Tooltip": "doloremque",
+  "AssociateId": 270,
+  "Name": "Bernhard, Rau and Reilly",
+  "PersonId": 554,
+  "Rank": 778,
+  "Tooltip": "illum",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 990,
-  "FullName": "Mrs. Luz Gladyce Wilderman",
-  "FormalName": "Ankunding Group",
+  "GroupIdx": 687,
+  "FullName": "Fabian Hammes",
+  "FormalName": "Purdy-West",
   "Deleted": true,
-  "EjUserId": 187,
-  "UserName": "Rutherford Group",
+  "EjUserId": 533,
+  "UserName": "Weber, Bayer and Dach",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 825
+      "FieldLength": 349
     }
   }
 }

@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.GetPreviewAtt
 
 ## GetPreviewAttachmentFromDocId
 
-Retrieve an attachment from an e-mail stored in the document archive. The returned data is intended to be use for a preview.
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-* **docId:** Unique ID for the e-mail in the document archive to retrieve the attachment from
-* **attachmentId:** Id of the attachment in the e-mail
 
-**Returns:** The attachment
+
 
 [WSDL file for Services87/EMail](../Services87-EMail.md)
 
@@ -52,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetPreviewAttachmentFromDocId Response
 
 ```xml
@@ -81,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

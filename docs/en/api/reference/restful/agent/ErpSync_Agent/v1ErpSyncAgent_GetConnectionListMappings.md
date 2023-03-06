@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 688
+  "ErpConnectionId": 239
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Bernier Group",
+      "ErpListName": "Streich-Pagac",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Connelly, Wilkinson and Dietrich",
-      "ErpFieldId": 745,
+      "ErpActorTypeName": "Ritchie LLC",
+      "ErpFieldId": 767,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 189
+          "FieldType": "System.String",
+          "FieldLength": 378
         }
       }
     }
   ],
-  "ErpConnectionId": 609,
-  "ErpConnectionName": "Price-Auer",
+  "ErpConnectionId": 214,
+  "ErpConnectionName": "Legros LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 76
+      "FieldLength": 621
     }
   }
 }

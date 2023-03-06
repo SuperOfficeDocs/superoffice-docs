@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetTicketCateg
 
 ## GetTicketCategoriesForUserGroups
 
-Ticket categories for user groups
 
-* **userGroupIds:** The ids of the user groups we want tickets categories from
+
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -48,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetTicketCategoriesForUserGroups Response
 
@@ -116,3 +117,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

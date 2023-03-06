@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "DuBuque LLC",
-  "Context": "non"
+  "TableName": "Renner LLC",
+  "Context": "illum"
 }
 ```
 
@@ -105,75 +105,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": false,
+    "DefaultShowInGui": true,
     "DefaultShowInSelector": false,
-    "IsActive": true,
-    "Key": "possimus",
-    "ValueType": "expedita",
+    "IsActive": false,
+    "Key": "aut",
+    "ValueType": "sit",
     "Mandatory": false,
-    "EncodedDisplayName": "Daugherty, Brown and Fadel",
-    "EncodedDisplayDescription": "Assimilated 24 hour workforce",
-    "IconHint": "eaque",
+    "EncodedDisplayName": "Greenholt LLC",
+    "EncodedDisplayDescription": "Profit-focused optimal groupware",
+    "IconHint": "aspernatur",
     "ControlInfos": [
       {
-        "Type": "aliquid",
-        "Label": "recusandae",
-        "Dimension": 553,
-        "ListProviderName": "Hodkiewicz LLC",
-        "ListProviderExtraInfo": "animi",
-        "ListProviderPrimaryKeyName": "Rippin, Homenick and Becker",
-        "ListLeadText": "qui",
+        "Type": "vel",
+        "Label": "aut",
+        "Dimension": 753,
+        "ListProviderName": "Mills-Boyle",
+        "ListProviderExtraInfo": "quisquam",
+        "ListProviderPrimaryKeyName": "Kassulke-Zboncak",
+        "ListLeadText": "est",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 321
+            "FieldLength": 267
           }
         }
       }
     ],
-    "EncodedDataCaption": "et",
-    "EncodedDataCaptionDescription": "Right-sized scalable system engine",
-    "CurrentOperationType": "consectetur",
+    "EncodedDataCaption": "aperiam",
+    "EncodedDataCaptionDescription": "User-friendly actuating encryption",
+    "CurrentOperationType": "voluptas",
     "Values": [
-      "eveniet",
-      "fuga"
+      "et",
+      "tenetur"
     ],
     "DisplayValues": [
-      "amet",
-      "saepe"
+      "consequatur",
+      "ut"
     ],
     "OperationInfos": [
       {
-        "Key": "ad",
-        "EncodedDisplayName": "O'Kon-Johnston",
+        "Key": "recusandae",
+        "EncodedDisplayName": "O'Reilly LLC",
         "EncodedLeadTexts": [
-          "aut",
-          "est"
+          "doloribus",
+          "in"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 122
+            "FieldLength": 19
           }
         }
       },
       {
-        "Key": "ad",
-        "EncodedDisplayName": "O'Kon-Johnston",
+        "Key": "recusandae",
+        "EncodedDisplayName": "O'Reilly LLC",
         "EncodedLeadTexts": [
-          "aut",
-          "est"
+          "doloribus",
+          "in"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 122
+            "FieldLength": 19
           }
         }
       }

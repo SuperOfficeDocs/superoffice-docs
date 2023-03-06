@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IAssociateAgent.GetAssoci
 
 ## GetAssociateByPersonId
 
-Returns the associate that belongs to this person if the person is an associate.
 
-* **personId:** The person id
 
-**Returns:** Associate if person is associate
+
 
 [WSDL file for Services84/Associate](../Services84-Associate.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAssociateByPersonId Response
 
 ```xml
@@ -81,3 +80,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -126,15 +126,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 112,
-  "StartTime": "2000-08-30T17:37:16.2422409+02:00",
-  "EndTime": "2000-04-08T17:37:16.2422409+02:00",
-  "Count": 271,
-  "TaskId": 319
+  "ContactId": 102,
+  "StartTime": "2007-06-14T14:19:02.3418722+02:00",
+  "EndTime": "2020-08-26T14:19:02.3418722+02:00",
+  "Count": 844,
+  "TaskId": 184
 }
 ```
 
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 150,
-    "StartDate": "2005-05-12T17:37:16.2432408+02:00",
-    "EndDate": "1999-12-05T17:37:16.2432408+01:00",
+    "AppointmentId": 13,
+    "StartDate": "2009-03-12T14:19:02.3574969+01:00",
+    "EndDate": "2013-12-27T14:19:02.3574969+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ut",
-    "AssociateFullName": "Mrs. Mustafa Beatty",
-    "ContactName": "O'Kon Group",
-    "Description": "Cross-group upward-trending ability",
-    "PersonFullName": "Chloe Little",
-    "PersonId": 105,
-    "ContactId": 556,
-    "ProjectId": 268,
-    "ProjectName": "Huel Group",
+    "Task": "sit",
+    "AssociateFullName": "Marvin Lilyan Ruecker DDS",
+    "ContactName": "Armstrong, McDermott and Yost",
+    "Description": "Profound assymetric attitude",
+    "PersonFullName": "Pedro Parker",
+    "PersonId": 122,
+    "ContactId": 809,
+    "ProjectId": 68,
+    "ProjectName": "Ziemann-Ernser",
     "IsPublished": false,
-    "AssociateId": 145,
-    "ColorIndex": 138,
-    "IsFree": true,
-    "HasAlarm": true,
+    "AssociateId": 904,
+    "ColorIndex": 713,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 101,
-    "PriorityName": "Hickle, Schaefer and Breitenberg",
+    "PriorityId": 562,
+    "PriorityName": "Morissette Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsBookingMain": true,
+    "IsRecurrence": true,
     "IsBooking": true,
-    "ActiveDate": "2016-02-18T17:37:16.2432408+01:00",
+    "ActiveDate": "2004-04-01T14:19:02.3574969+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2019-08-21T17:37:16.2432408+02:00",
-    "RecurringEndDate": "2006-03-01T17:37:16.2432408+01:00",
-    "MotherId": 800,
-    "AssignedBy": 36,
-    "AssignedByFullName": "Maggie Heller",
+    "RecurringStartDate": "2021-07-19T14:19:02.3574969+02:00",
+    "RecurringEndDate": "2001-09-22T14:19:02.3574969+02:00",
+    "MotherId": 592,
+    "AssignedBy": 689,
+    "AssignedByFullName": "Florence O'Kon",
     "RejectReason": "",
-    "Location": "facilis",
-    "AlarmLeadTime": "quia",
-    "SaleId": 485,
-    "SaleName": "Treutel, Hilpert and Tillman",
-    "AssociateName": "Pollich, Koelpin and Rosenbaum",
-    "CreatedDate": "2014-09-07T17:37:16.2432408+02:00",
-    "CreatedBy": "ut",
-    "CreatedByFullName": "Mr. Joshua Addison Roberts DVM",
-    "CreatedByAssociateId": 772,
+    "Location": "quo",
+    "AlarmLeadTime": "molestias",
+    "SaleId": 785,
+    "SaleName": "Hilpert, Harber and Corkery",
+    "AssociateName": "Langworth, Wuckert and Farrell",
+    "CreatedDate": "2016-05-21T14:19:02.3574969+02:00",
+    "CreatedBy": "quia",
+    "CreatedByFullName": "Coby Kutch",
+    "CreatedByAssociateId": 230,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 212
+        "FieldLength": 539
       }
     }
   }

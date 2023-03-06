@@ -84,6 +84,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -97,7 +98,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Jakubowski, Gottlieb and Fisher",
+  "TaskName": "Abbott, Armstrong and Bernhard",
   "State": "All"
 }
 ```
@@ -110,36 +111,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 543,
-    "Name": "Rutherford Inc and Sons",
-    "AssociateId": 85,
-    "DetailsTable": 915,
-    "DetailsRecord": 988,
-    "IsSystemTask": true,
+    "Id": 791,
+    "Name": "Luettgen Group",
+    "AssociateId": 324,
+    "DetailsTable": 847,
+    "DetailsRecord": 401,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "nesciunt",
-      "ParameterObject2": "ipsa"
+      "ParameterObject1": "unde",
+      "ParameterObject2": "est"
     },
-    "LastStarted": "2002-01-22T17:37:16.9062447+01:00",
-    "Created": "2022-08-22T17:37:16.9062447+02:00",
-    "StartCount": 406,
-    "DatabaseSerialNumber": "855257",
-    "Context": "expedita",
-    "Result": "voluptatem",
+    "LastStarted": "2009-09-07T14:19:02.7750538+02:00",
+    "Created": "2017-09-27T14:19:02.7750538+02:00",
+    "StartCount": 394,
+    "DatabaseSerialNumber": "481071",
+    "Context": "qui",
+    "Result": "minima",
     "State": "All",
-    "Description": "User-centric methodical software",
-    "Response": "facilis",
-    "Request": "reiciendis",
-    "ProgressDescription": "Innovative logistical hardware",
-    "ProgressPercent": 523,
-    "FileName": "Pfeffer, Sipes and Douglas",
+    "Description": "Total regional algorithm",
+    "Response": "voluptatem",
+    "Request": "fuga",
+    "ProgressDescription": "Persistent fresh-thinking customer loyalty",
+    "ProgressPercent": 318,
+    "FileName": "Bogisich, Prosacco and O'Reilly",
+    "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 179
+        "FieldLength": 531
       }
     }
   }

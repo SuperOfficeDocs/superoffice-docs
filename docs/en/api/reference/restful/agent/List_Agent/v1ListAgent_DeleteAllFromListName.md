@@ -67,7 +67,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Schuster Inc and Sons"
+  "UdListDefinitionName": "Kassulke, Krajcik and Deckow"
 }
 ```
 

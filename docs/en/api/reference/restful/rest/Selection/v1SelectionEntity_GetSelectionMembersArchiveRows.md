@@ -74,7 +74,7 @@ OK
 GET /api/v1/Selection/{selectionId}/Members
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,21 +85,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "rem",
+  "odata.nextLink": "quam",
   "value": [
     {
-      "PrimaryKey": 5947,
-      "EntityName": "sale",
-      "saleId": 5947,
-      "contactId": 9807,
-      "name": "McClure Inc and Sons"
+      "PrimaryKey": 9495,
+      "EntityName": "person",
+      "personId": 9495,
+      "fullName": "Mrs. Jordy Elda O'Kon IV"
     },
     {
-      "PrimaryKey": 4445,
-      "EntityName": "sale",
-      "saleId": 4445,
-      "contactId": 3667,
-      "name": "Sanford-Parker"
+      "PrimaryKey": 4485,
+      "EntityName": "person",
+      "personId": 4485,
+      "fullName": "Dianna Rex Roberts MD"
     }
   ]
 }

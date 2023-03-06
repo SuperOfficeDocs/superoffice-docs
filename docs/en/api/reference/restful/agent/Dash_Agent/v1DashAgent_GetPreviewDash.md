@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 734
+  "DashboardId": 86
 }
 ```
 
@@ -91,32 +91,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Frami-Veum",
-  "Description": "Open-source multi-state firmware",
-  "OwnedByFullName": "Maryjane McGlynn",
-  "Registered": "2004-08-07T17:37:17.3882428+02:00",
+  "Name": "Hartmann, Keebler and Wehner",
+  "Description": "Face to face responsive architecture",
+  "OwnedByFullName": "Miss Kiarra Aimee Wunsch",
+  "Registered": "2002-11-05T14:19:03.1042793+01:00",
   "Tiles": [
     {
-      "Name": "Altenwerth Group",
+      "Name": "Beahan Group",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 183
+          "FieldType": "System.String",
+          "FieldLength": 369
         }
       }
     },
     {
-      "Name": "Altenwerth Group",
+      "Name": "Beahan Group",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 183
+          "FieldType": "System.String",
+          "FieldLength": 369
         }
       }
     }
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 559
+      "FieldType": "System.Int32",
+      "FieldLength": 607
     }
   }
 }

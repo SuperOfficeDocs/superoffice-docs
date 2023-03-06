@@ -82,20 +82,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CustConfigId": 943,
+    "CustConfigId": 984,
     "Type": "Options",
-    "Config": "fuga",
-    "CustLangId": 471,
-    "Registered": "2019-05-20T17:37:17.345245+02:00",
-    "RegisteredAssociateId": 345,
-    "Updated": "1996-08-21T17:37:17.345245+02:00",
-    "UpdatedAssociateId": 186,
+    "Config": "quia",
+    "CustLangId": 785,
+    "Registered": "2004-02-05T14:19:03.0886547+01:00",
+    "RegisteredAssociateId": 752,
+    "Updated": "2015-01-16T14:19:03.0886547+01:00",
+    "UpdatedAssociateId": 530,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 330
+        "FieldLength": 629
       }
     }
   }

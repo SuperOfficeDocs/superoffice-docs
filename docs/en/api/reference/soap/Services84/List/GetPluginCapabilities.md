@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetPluginCapab
 
 ## GetPluginCapabilities
 
-Get a list of plugin-dependent capabilities for a given document archive plugin.&lt;br/&gt;A standard set of properties is defined in SuperOffice.CRM.Documents.Constants.Capabilities.
 
-* **pluginId:** Numeric document plugin id, corresponding to the document.archiveProvider id or doctmpl.AutoeventId.
 
-**Returns:** Dictionary mapping capability names=values
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetPluginCapabilities Response
 
 ```xml
@@ -74,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

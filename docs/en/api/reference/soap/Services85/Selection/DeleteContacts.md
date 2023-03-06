@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.ISelectionAgent.DeleteCon
 
 ## DeleteContacts
 
-Deletes all contacts from a selection. If a contact does not have delete rights, it will be skipped.
 
-* **selectionId:** Id of the selection the delete operation will be performed.
+
+
 
 [WSDL file for Services85/Selection](../Services85-Selection.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteContacts Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

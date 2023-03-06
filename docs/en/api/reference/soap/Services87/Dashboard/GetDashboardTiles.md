@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDashboardAgent.GetDashbo
 
 ## GetDashboardTiles
 
-Gets an array of dashboard tiles for the provided ids
 
-* **dashboardTileIds:** The ids of the tiles to get
 
-**Returns:** Dashboards
+
 
 [WSDL file for Services87/Dashboard](../Services87-Dashboard.md)
 
@@ -50,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetDashboardTiles Response
 
@@ -121,3 +120,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

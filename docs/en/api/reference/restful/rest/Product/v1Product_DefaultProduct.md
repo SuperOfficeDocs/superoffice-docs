@@ -99,73 +99,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 598,
-  "ERPProductKey": "officiis",
-  "ERPPriceListKey": "ex",
-  "Name": "Mann, Armstrong and Monahan",
-  "Description": "Re-engineered context-sensitive installation",
-  "Code": "provident",
-  "PriceUnit": "reprehenderit",
-  "QuantityUnit": "voluptatum",
-  "IsSubscription": false,
-  "SubscriptionUnit": "vel",
-  "DefaultSubscriptionQuantity": 8120.1939999999995,
-  "ItemNumber": "651445",
+  "ProductId": 690,
+  "ERPProductKey": "inventore",
+  "ERPPriceListKey": "et",
+  "Name": "Hessel, Sanford and Conn",
+  "Description": "Programmable logistical challenge",
+  "Code": "delectus",
+  "PriceUnit": "dolorem",
+  "QuantityUnit": "ad",
+  "IsSubscription": true,
+  "SubscriptionUnit": "iusto",
+  "DefaultSubscriptionQuantity": 18308.827999999998,
+  "ItemNumber": "853234",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "est",
-  "ProductTypeKey": "assumenda",
-  "VAT": 11912.333999999999,
-  "VATInfo": "atque",
-  "UnitCost": 1946.214,
-  "UnitMinimumPrice": 5428.088,
-  "UnitListPrice": 22461.378,
+  "ProductFamilyKey": "aut",
+  "ProductTypeKey": "omnis",
+  "VAT": 9975.521999999999,
+  "VATInfo": "ut",
+  "UnitCost": 9351.856,
+  "UnitMinimumPrice": 23204.136,
+  "UnitListPrice": 2447.654,
   "InAssortment": true,
-  "Supplier": "et",
-  "SupplierCode": "consequuntur",
-  "Rights": "quaerat",
-  "Rule": "nostrum",
+  "Supplier": "aut",
+  "SupplierCode": "et",
+  "Rights": "eos",
+  "Rule": "totam",
   "ExtraInfo": [
     {
-      "Name": "O'Reilly Group",
-      "Value": "molestiae",
+      "Name": "Glover, Schaefer and Renner",
+      "Value": "quae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 323
+          "FieldLength": 394
         }
       }
     },
     {
-      "Name": "O'Reilly Group",
-      "Value": "molestiae",
+      "Name": "Glover, Schaefer and Renner",
+      "Value": "quae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 323
+          "FieldLength": 394
         }
       }
     }
   ],
-  "RawExtraInfo": "dolores",
-  "ExtraField1": "occaecati",
-  "ExtraField2": "ut",
-  "ExtraField3": "tempore",
-  "ExtraField4": "laborum",
-  "ExtraField5": "expedita",
-  "InStock": 26501.104,
+  "RawExtraInfo": "sapiente",
+  "ExtraField1": "laboriosam",
+  "ExtraField2": "soluta",
+  "ExtraField3": "corporis",
+  "ExtraField4": "facilis",
+  "ExtraField5": "eos",
+  "InStock": 11207.184,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 785
+      "FieldType": "System.Int32",
+      "FieldLength": 903
     }
   }
 }

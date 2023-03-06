@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 637,
-    "Name": "McKenzie Inc and Sons",
-    "Tooltip": "ut",
+    "HeadingId": 168,
+    "Name": "Kris-Fadel",
+    "Tooltip": "quam",
     "Deleted": false,
-    "Rank": 244,
-    "UdListDefinitionId": 176
+    "Rank": 381,
+    "UdListDefinitionId": 267
   },
   {
-    "HeadingId": 637,
-    "Name": "McKenzie Inc and Sons",
-    "Tooltip": "ut",
+    "HeadingId": 168,
+    "Name": "Kris-Fadel",
+    "Tooltip": "quam",
     "Deleted": false,
-    "Rank": 244,
-    "UdListDefinitionId": 176
+    "Rank": 381,
+    "UdListDefinitionId": 267
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 141,
-    "Name": "Ryan, Corwin and Rice",
-    "Tooltip": "alias",
-    "Deleted": false,
-    "Rank": 7,
-    "UdListDefinitionId": 703,
+    "HeadingId": 288,
+    "Name": "Gleason-Murray",
+    "Tooltip": "omnis",
+    "Deleted": true,
+    "Rank": 82,
+    "UdListDefinitionId": 995,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 694
+        "FieldLength": 757
       }
     }
   }

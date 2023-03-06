@@ -81,15 +81,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "quia",
-    "consectetur"
+    "officia",
+    "nemo"
   ],
-  "CurrentClientTime": "2007-03-15T17:37:18.5672416+01:00"
+  "CurrentClientTime": "2013-08-28T14:19:03.8895009+02:00"
 }
 ```
 
@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "quia",
-    "sit"
+    "mollitia",
+    "est"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 222,
-  "NotificationsCount": 169,
+  "OverdueSalesCount": 244,
+  "NotificationsCount": 581,
   "SystemWebPanels": [
     {
-      "WebPanelId": 320,
-      "Name": "Klocko-Wolf",
-      "Tooltip": "rerum",
+      "WebPanelId": 393,
+      "Name": "Bashirian, Mante and Monahan",
+      "Tooltip": "maxime",
       "Deleted": false,
-      "Rank": 30,
+      "Rank": 996,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": false,
       "OnSatellite": false,
       "OnTravel": false,
       "OnSalesMarketingWeb": false,
-      "OnSalesMarketingPocket": true,
+      "OnSalesMarketingPocket": false,
       "ShowInMenuBar": false,
-      "ShowInToolBar": true,
+      "ShowInToolBar": false,
       "ShowInAddressBar": false,
       "ShowInStatusBar": false,
-      "WindowName": "Gutmann LLC",
+      "WindowName": "Boyle-Schuster",
       "Url": "http://www.example.com/",
-      "ProgId": "a",
-      "Icon": 180,
+      "ProgId": "aspernatur",
+      "Icon": 93,
       "AlwaysReloadOnShow": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 896
+          "FieldLength": 486
         }
       }
     }
@@ -144,34 +144,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "modi",
+      "RawValue": "sapiente",
       "Specification": null,
-      "DisplayValue": "adipisci",
-      "DisplayTooltip": "a",
+      "DisplayValue": "fugit",
+      "DisplayTooltip": "culpa",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 790,
-      "PrefDescId": 559,
-      "TableName": "Schultz, Hagenes and Douglas",
-      "UserPreferenceId": 123,
+      "TargetId": 890,
+      "PrefDescId": 380,
+      "TableName": "Braun, Towne and Howe",
+      "UserPreferenceId": 373,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 481
+          "FieldLength": 882
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": true,
-  "CustomData": "autem",
+  "IsPushNotificationEnabled": false,
+  "CustomData": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 552
+      "FieldType": "System.String",
+      "FieldLength": 348
     }
   }
 }

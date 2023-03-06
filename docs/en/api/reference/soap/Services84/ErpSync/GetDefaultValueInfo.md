@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.GetDefaultV
 
 ## GetDefaultValueInfo
 
-Get information about default value for an ERP field
 
-* **erpFieldId:** The id of the ERP field
 
-**Returns:** Object with information about default values
+
 
 [WSDL file for Services84/ErpSync](../Services84-ErpSync.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDefaultValueInfo Response
 
 ```xml
@@ -80,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

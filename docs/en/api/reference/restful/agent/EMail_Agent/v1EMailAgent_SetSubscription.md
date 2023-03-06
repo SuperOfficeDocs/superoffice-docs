@@ -66,20 +66,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Rosenbaum-Zemlak",
-      "Delimiter": "autem",
-      "Flags": "qui",
-      "TotalItems": 153,
-      "UnreadItems": 380,
+      "Name": "Bins LLC",
+      "Delimiter": "omnis",
+      "Flags": "harum",
+      "TotalItems": 169,
+      "UnreadItems": 677,
       "Subscribed": true,
-      "EmailFolderId": 396
+      "EmailFolderId": 937
     }
   ]
 }

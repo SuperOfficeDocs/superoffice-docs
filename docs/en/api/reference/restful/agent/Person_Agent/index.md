@@ -21,6 +21,8 @@ title: Person_Agent
 
 * [POST Agents/Person/DeletePersonEntity](v1PersonAgent_DeletePersonEntity.md)
 
+* [POST Agents/Person/CreateDefaultPersonImage](v1PersonAgent_CreateDefaultPersonImage.md)
+
 * [POST Agents/Person/GetConsentPerson](v1PersonAgent_GetConsentPerson.md)
 
 * [POST Agents/Person/GetPerson](v1PersonAgent_GetPerson.md)
@@ -88,6 +90,8 @@ title: Person_Agent
 * [POST Agents/Person/GetBestSoLanguageForTemplate](v1PersonAgent_GetBestSoLanguageForTemplate.md)
 
 * [POST Agents/Person/AddBounceWithDetails](v1PersonAgent_AddBounceWithDetails.md)
+
+* [POST Agents/Person/GetPersonImages](v1PersonAgent_GetPersonImages.md)
 
 * [POST Agents/Person/GetPersonList](v1PersonAgent_GetPersonList.md)
 

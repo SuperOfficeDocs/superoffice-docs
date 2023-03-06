@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Replication/CreateDefaultSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 713,
-  "Created": "2014-04-30T17:37:18.7852426+02:00",
+  "SatelliteId": 790,
+  "Created": "2006-03-11T14:19:04.0625865+01:00",
   "CreatedBy": null,
-  "Updated": "2017-01-30T17:37:18.7852426+01:00",
+  "Updated": "2008-03-12T14:19:04.0625865+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Fritsch Group",
-      "Description": "Reverse-engineered bandwidth-monitored forecast",
+      "Name": "Crist, Kassulke and VonRueden",
+      "Description": "Automated directional knowledge user",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -100,13 +100,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 169
+          "FieldLength": 219
         }
       }
     },
     {
-      "Name": "Fritsch Group",
-      "Description": "Reverse-engineered bandwidth-monitored forecast",
+      "Name": "Crist, Kassulke and VonRueden",
+      "Description": "Automated directional knowledge user",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 169
+          "FieldLength": 219
         }
       }
     }
@@ -129,8 +129,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 816
+      "FieldType": "System.Int32",
+      "FieldLength": 975
     }
   }
 }

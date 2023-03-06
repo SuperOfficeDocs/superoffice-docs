@@ -26,7 +26,7 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=consectetur
+GET /api/v1/List/DeliveryTerm/MDOItems?query=et
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 418,
-    "Name": "Rippin-Ferry",
-    "ToolTip": "Soluta sed non.",
-    "Deleted": false,
-    "Rank": 961,
-    "Type": "inventore",
+    "Id": 34,
+    "Name": "Hackett Inc and Sons",
+    "ToolTip": "Corrupti qui numquam sit.",
+    "Deleted": true,
+    "Rank": 33,
+    "Type": "id",
     "ChildItems": [
       {
-        "Id": 413,
-        "Name": "Gutmann LLC",
-        "ToolTip": "Voluptatibus voluptas vel aliquam explicabo quia.",
+        "Id": 462,
+        "Name": "Feest LLC",
+        "ToolTip": "Iusto odio.",
         "Deleted": false,
-        "Rank": 885,
-        "Type": "et",
+        "Rank": 740,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "saepe",
-        "ColorBlock": 163,
-        "ExtraInfo": "amet",
-        "StyleHint": "eveniet",
-        "FullName": "Maximus Raynor",
+        "IconHint": "placeat",
+        "ColorBlock": 385,
+        "ExtraInfo": "a",
+        "StyleHint": "harum",
+        "FullName": "Jaida Bailey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 306
+            "FieldLength": 265
           }
         }
       }
     ],
-    "IconHint": "fuga",
-    "ColorBlock": 183,
-    "ExtraInfo": "facilis",
-    "StyleHint": "vero",
-    "FullName": "Rahsaan Cummerata",
+    "IconHint": "quia",
+    "ColorBlock": 306,
+    "ExtraInfo": "id",
+    "StyleHint": "iusto",
+    "FullName": "Vivienne Bergnaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 567
+        "FieldLength": 464
       }
     }
   }

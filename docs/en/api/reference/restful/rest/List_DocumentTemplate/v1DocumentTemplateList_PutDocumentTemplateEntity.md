@@ -117,34 +117,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 617,
-  "Name": "Reynolds Inc and Sons",
-  "Tooltip": "quo",
-  "SaveInDb": 947,
-  "Filename": "cumque",
-  "DefaultOref": "qui",
+  "DocumentTemplateId": 837,
+  "Name": "Sanford, Nader and Von",
+  "Tooltip": "fugiat",
+  "SaveInDb": 280,
+  "Filename": "repellendus",
+  "DefaultOref": "omnis",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 855,
-  "IntentId": 876,
+  "AutoeventId": 654,
+  "IntentId": 61,
   "IsDefaultPublished": false,
-  "Rank": 151,
-  "LoadTemplateFromPlugin": 779,
-  "MimeType": "facere",
+  "Rank": 295,
+  "LoadTemplateFromPlugin": 806,
+  "MimeType": "voluptatibus",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 25,
+  "DocumentTypeKey": 891,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "johnathon.dickinson@denesik.com",
+  "EmailSubject": "carmella.weber@bosco.uk",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "nikita.jaskolski@franeckigorczany.us",
+  "SenderEmailAddress": "dominique.becker@armstrong.us",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -156,37 +156,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 583,
-  "Name": "Dibbert-Harvey",
-  "Tooltip": "odit",
-  "SaveInDb": 215,
-  "Filename": "iste",
-  "DefaultOref": "illum",
+  "DocumentTemplateId": 413,
+  "Name": "Nicolas, Kuhic and Predovic",
+  "Tooltip": "dolorum",
+  "SaveInDb": 231,
+  "Filename": "molestiae",
+  "DefaultOref": "quidem",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 973,
-  "IntentId": 889,
+  "AutoeventId": 329,
+  "IntentId": 641,
   "IsDefaultPublished": false,
-  "Rank": 945,
-  "LoadTemplateFromPlugin": 191,
-  "MimeType": "recusandae",
+  "Rank": 420,
+  "LoadTemplateFromPlugin": 541,
+  "MimeType": "voluptas",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 356,
+  "DocumentTypeKey": 611,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "tabitha@jacobson.ca",
+  "EmailSubject": "alvina_gerlach@feeneyokuneva.biz",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "albertha.price@fisher.info",
+  "SenderEmailAddress": "rod@parisian.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 967
+      "FieldLength": 964
     }
   }
 }

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 11.29.2022
+so.date: 02.15.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -77,6 +77,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IUserAgent'>Use
 * [GetUserGroupList](getusergrouplist.md)
 * [GetUserInfo](getuserinfo.md)
 * [GetUserInfoList](getuserinfolist.md)
+* [GetUserPresenceStatus](getuserpresencestatus.md)
 * [GetValidUserName](getvalidusername.md)
 * [GetValidUserNameForNewUser](getvalidusernamefornewuser.md)
 * [IsNickNameUnique](isnicknameunique.md)
@@ -108,5 +109,6 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IUserAgent'>Use
 * [SetGeneratedPasswordFromName](setgeneratedpasswordfromname.md)
 * [SetPassword](setpassword.md)
 * [SetPasswordFromName](setpasswordfromname.md)
+* [SetUserPresenceStatus](setuserpresencestatus.md)
 * [ValidateUser](validateuser.md)
 

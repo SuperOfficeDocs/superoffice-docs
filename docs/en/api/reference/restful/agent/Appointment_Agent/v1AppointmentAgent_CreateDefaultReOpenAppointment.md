@@ -126,11 +126,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 591
+  "SaleId": 520
 }
 ```
 
@@ -145,63 +145,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1999-10-31T17:37:16.5142412+01:00",
-  "AppointmentId": 962,
-  "Description": "Adaptive disintermediate contingency",
-  "StartDate": "2021-12-20T17:37:16.5142412+01:00",
-  "EndDate": "2005-04-25T17:37:16.5142412+02:00",
+  "CreatedDate": "2016-09-24T14:19:02.6500523+02:00",
+  "AppointmentId": 646,
+  "Description": "Team-oriented cohesive extranet",
+  "StartDate": "2002-06-11T14:19:02.6500523+02:00",
+  "EndDate": "2000-06-13T14:19:02.6500523+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 247,
+  "MotherId": 408,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2006-09-06T17:37:16.518242+02:00",
+  "UpdatedDate": "2021-01-08T14:19:02.6500523+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 622,
+  "ActiveLinks": 286,
   "Links": [
     {
-      "EntityName": "Hyatt-Hermann",
-      "Id": 524,
-      "Description": "Expanded bifurcated frame",
-      "ExtraInfo": "velit",
-      "LinkId": 947,
+      "EntityName": "Kohler, Bode and Stroman",
+      "Id": 754,
+      "Description": "Organic zero administration policy",
+      "ExtraInfo": "blanditiis",
+      "LinkId": 498,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 764
+          "FieldType": "System.String",
+          "FieldLength": 227
         }
       }
     }
   ],
-  "AlarmLeadTime": "ut",
+  "AlarmLeadTime": "assumenda",
   "HasAlarm": false,
-  "ColorIndex": 705,
-  "IsFree": true,
+  "ColorIndex": 303,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "rerum",
-  "LeadTime": "dolores",
-  "Location": "dolor",
-  "RejectCounter": 734,
+  "LagTime": "minus",
+  "LeadTime": "repudiandae",
+  "Location": "ut",
+  "RejectCounter": 654,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 704,
-      "PersonId": 753,
-      "ContactId": 984,
-      "EmailId": 670,
+      "AssociateId": 808,
+      "PersonId": 770,
+      "ContactId": 418,
+      "EmailId": 363,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 704,
-      "PersonId": 753,
-      "ContactId": 984,
-      "EmailId": 670,
+      "AssociateId": 808,
+      "PersonId": 770,
+      "ContactId": 418,
+      "EmailId": 363,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -209,58 +209,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2013-09-13T17:37:16.518242+02:00",
+  "ActiveDate": "1998-05-12T14:19:02.6500523+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 657,
+  "PreferredTZLocation": 806,
   "Sale": null,
-  "SuggestedAppointmentId": 960,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 721,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "dolores",
+  "CentralserviceVideomeetId": "adipisci",
   "UserDefinedFields": {
-    "SuperOffice:1": "Bryana Haley II",
-    "SuperOffice:2": "Kallie Toy DDS"
+    "SuperOffice:1": "Alize Kyra Hoeger III",
+    "SuperOffice:2": "Hoyt Pfeffer"
   },
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "autem",
+    "ExtraFields2": "recusandae"
   },
   "CustomFields": {
-    "CustomFields1": "quos",
-    "CustomFields2": "fugiat"
+    "CustomFields1": "voluptate",
+    "CustomFields2": "voluptas"
   },
-  "PublishEventDate": "2000-11-24T17:37:16.5202431+01:00",
-  "PublishTo": "2020-07-24T17:37:16.5202431+02:00",
-  "PublishFrom": "2002-05-09T17:37:16.5202431+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "1995-10-09T14:19:02.6656777+02:00",
+  "PublishTo": "2007-07-03T14:19:02.6656777+02:00",
+  "PublishFrom": "2004-07-27T14:19:02.6656777+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 231,
+      "VisibleId": 46,
       "Visibility": "All",
-      "DisplayValue": "hic",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 996
+          "FieldLength": 246
         }
       }
     },
     {
-      "VisibleId": 231,
+      "VisibleId": 46,
       "Visibility": "All",
-      "DisplayValue": "hic",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 996
+          "FieldLength": 246
         }
       }
     }
@@ -270,7 +270,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 580
+      "FieldLength": 977
     }
   }
 }

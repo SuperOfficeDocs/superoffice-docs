@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 917,
-  "Name": "Torp, Waters and Mitchell",
-  "Tooltip": "doloremque",
+  "Id": 662,
+  "Name": "Jakubowski Inc and Sons",
+  "Tooltip": "error",
   "Deleted": false,
-  "Rank": 915,
+  "Rank": 610,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "voluptates",
+  "ListType": "deserunt",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 856,
-  "Name": "Bashirian-Paucek",
-  "Tooltip": "quia",
+  "Id": 509,
+  "Name": "Huels-Fay",
+  "Tooltip": "corrupti",
   "Deleted": true,
-  "Rank": 115,
+  "Rank": 955,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": false,
+  "ListType": "est",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldType": "System.String",
+      "FieldLength": 774
     }
   }
 }

@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserAgent.SetDataRight">
 
 ## SetDataRight
 
-Set one specific data right at the given position. An exception will be thrown if non existing position is specified.
 
-* **roleId:** The role id to set the data right for
-* **tableName:** The name of the entity/table
-* **relationToOwner:** The id of the relation to owner
-* **dataRightValue:** The data right value to set at the specified position (CRUD)
+
+
 
 [WSDL file for Services85/User](../Services85-User.md)
 
@@ -53,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetDataRight Response
 
 ```xml
@@ -72,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

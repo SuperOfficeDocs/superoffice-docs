@@ -25,7 +25,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=115
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=677
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "dignissimos",
+  "SaleText": "ut",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -134,113 +134,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1997-09-22T17:37:18.8772416+02:00",
-  "Amount": 10665.002,
-  "SaleId": 890,
-  "Earning": 29403.188,
-  "EarningPercent": 15375.403999999999,
-  "Heading": "alias",
-  "Number": "548130",
-  "Probability": 15,
-  "CreatedDate": "2016-10-05T17:37:18.8772416+02:00",
-  "UpdatedDate": "2003-03-12T17:37:18.8772416+01:00",
+  "Saledate": "2004-05-24T14:19:04.1261993+02:00",
+  "Amount": 11996.952,
+  "SaleId": 215,
+  "Earning": 22755.974,
+  "EarningPercent": 6183.382,
+  "Heading": "officia",
+  "Number": "971929",
+  "Probability": 371,
+  "CreatedDate": "2007-06-07T14:19:04.1261993+02:00",
+  "UpdatedDate": "2021-03-26T14:19:04.1261993+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 43,
+  "ActiveLinks": 864,
   "Links": [
     {
-      "EntityName": "Parisian, Ullrich and Moore",
-      "Id": 737,
-      "Description": "Robust 4th generation complexity",
-      "ExtraInfo": "quae",
-      "LinkId": 23,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 332
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2002-11-26T17:37:18.8772416+01:00",
-  "Postit": "dolorum",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2020-11-03T17:37:18.8782418+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "O'Kon Group",
-      "Comment": "deserunt",
-      "StakeholderRoleId": 597,
-      "CountryId": 769,
-      "PersonId": 389,
-      "EmailDescription": "jerel@bailey.us",
-      "EmailId": 102,
-      "EmailAddress": "halie@olson.name",
-      "PhoneId": 735,
-      "ContactName": "Windler, Fay and Thompson",
-      "ContactId": 674,
-      "SaleId": 221,
-      "Mrmrs": "labore",
-      "Firstname": "Janessa",
-      "MiddleName": "Yost Group",
-      "Lastname": "Konopelski",
-      "SaleStakeholderId": 597,
-      "Rank": 868,
-      "Phone": "1-704-458-0218 x6391",
+      "EntityName": "Bosco Inc and Sons",
+      "Id": 720,
+      "Description": "Advanced dynamic capability",
+      "ExtraInfo": "exercitationem",
+      "LinkId": 658,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 910
+          "FieldLength": 642
         }
       }
     }
   ],
-  "ActiveErpLinks": 146,
-  "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1927085106"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "odit",
-    "ExtraFields2": "quo"
-  },
-  "CustomFields": {
-    "CustomFields1": "quos",
-    "CustomFields2": "sit"
-  },
-  "PublishEventDate": "2015-05-21T17:37:18.8782418+02:00",
-  "PublishTo": "2016-06-22T17:37:18.8782418+02:00",
-  "PublishFrom": "2021-08-08T17:37:18.8782418+02:00",
-  "IsPublished": true,
-  "VisibleFor": [
+  "NextDueDate": "2017-01-09T14:19:04.1261993+01:00",
+  "Postit": "voluptatibus",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "1999-08-29T14:19:04.1261993+02:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 590,
-      "Visibility": "All",
-      "DisplayValue": "laboriosam",
+      "StakeholderRoleName": "Cummings, Heathcote and Reinger",
+      "Comment": "et",
+      "StakeholderRoleId": 464,
+      "CountryId": 511,
+      "PersonId": 843,
+      "EmailDescription": "liliana.hartmann@schoen.info",
+      "EmailId": 769,
+      "EmailAddress": "jamil.welch@murphy.info",
+      "PhoneId": 503,
+      "ContactName": "Schmidt-Blick",
+      "ContactId": 414,
+      "SaleId": 458,
+      "Mrmrs": "quae",
+      "Firstname": "Cruz",
+      "MiddleName": "Aufderhar, Bosco and Cole",
+      "Lastname": "Terry",
+      "SaleStakeholderId": 522,
+      "Rank": 887,
+      "Phone": "(048)430-7608 x967",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 958
+          "FieldType": "System.Int32",
+          "FieldLength": 614
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 812,
+  "UserDefinedFields": {
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Laurie Emard"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "aspernatur",
+    "ExtraFields2": "itaque"
+  },
+  "CustomFields": {
+    "CustomFields1": "eius",
+    "CustomFields2": "ut"
+  },
+  "PublishEventDate": "1997-02-27T14:19:04.1261993+01:00",
+  "PublishTo": "2002-08-03T14:19:04.1261993+02:00",
+  "PublishFrom": "2015-03-10T14:19:04.1261993+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 176,
+      "Visibility": "All",
+      "DisplayValue": "ut",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 857
         }
       }
     },
     {
-      "VisibleId": 590,
+      "VisibleId": 176,
       "Visibility": "All",
-      "DisplayValue": "laboriosam",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 958
+          "FieldType": "System.Int32",
+          "FieldLength": 857
         }
       }
     }
@@ -249,8 +249,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 145
+      "FieldType": "System.Int32",
+      "FieldLength": 375
     }
   }
 }

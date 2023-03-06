@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IMessagingAgent.SendMessa
 
 ## SendMessages
 
-Send an array of messages
 
-* **plugin:** Name of plugin to use.
-* **outgoingMessages:** Array of outgoing messages you want to send.
 
-**Returns:** Array of MessageDeliveryStatus. Length of the array is equal to the number of outgoing messages.
+
 
 [WSDL file for Services85/Messaging](../Services85-Messaging.md)
 
@@ -60,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SendMessages Response
 
 ```xml
@@ -86,3 +84,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

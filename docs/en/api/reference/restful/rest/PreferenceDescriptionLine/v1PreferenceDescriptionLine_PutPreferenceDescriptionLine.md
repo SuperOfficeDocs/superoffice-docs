@@ -92,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 221,
-  "PrefDescId": 135,
-  "PrefValue": "voluptatem",
-  "PrefShowValue": "quo",
-  "Description": "Pre-emptive fresh-thinking internet solution",
+  "PrefDescLineId": 194,
+  "PrefDescId": 560,
+  "PrefValue": "rerum",
+  "PrefShowValue": "nisi",
+  "Description": "Managed exuding adapter",
   "IsBuiltin": false
 }
 ```
@@ -108,23 +108,23 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 515,
-  "PrefDescId": 150,
-  "PrefValue": "dolore",
-  "PrefShowValue": "minus",
-  "Description": "Face to face impactful concept",
+  "PrefDescLineId": 483,
+  "PrefDescId": 760,
+  "PrefValue": "quam",
+  "PrefShowValue": "ducimus",
+  "Description": "Sharable next generation orchestration",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldType": "System.String",
+      "FieldLength": 449
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

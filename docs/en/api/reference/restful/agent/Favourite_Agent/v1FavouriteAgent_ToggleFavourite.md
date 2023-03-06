@@ -70,14 +70,14 @@ OK
 POST /api/v1/Agents/Favourite/ToggleFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Dibbert Inc and Sons",
-  "RecordId": 995,
-  "AssociateId": 334,
-  "ExtraInfo": "veritatis"
+  "TableName": "Feest Inc and Sons",
+  "RecordId": 918,
+  "AssociateId": 940,
+  "ExtraInfo": "voluptatum"
 }
 ```
 

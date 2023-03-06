@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 677,
-    "Name": "Hammes-Champlin",
-    "ToolTip": "Omnis unde temporibus aliquam omnis.",
+    "Id": 217,
+    "Name": "Schultz, Becker and Shanahan",
+    "ToolTip": "Eveniet quia quis consequatur corrupti eaque.",
     "Deleted": true,
-    "Rank": 888,
-    "Type": "excepturi",
-    "ColorBlock": 215,
-    "IconHint": "delectus",
-    "Selected": true,
-    "LastChanged": "1997-09-08T17:37:39.6814321+02:00",
+    "Rank": 816,
+    "Type": "unde",
+    "ColorBlock": 31,
+    "IconHint": "debitis",
+    "Selected": false,
+    "LastChanged": "2007-11-23T14:19:11.1480931+01:00",
     "ChildItems": [
       {
-        "Id": 1002,
-        "Name": "Wuckert, Haley and Brown",
-        "ToolTip": "Qui consequatur est consequatur non.",
+        "Id": 563,
+        "Name": "Gerhold-Friesen",
+        "ToolTip": "Soluta qui labore.",
         "Deleted": false,
-        "Rank": 560,
-        "Type": "ut",
-        "ColorBlock": 919,
-        "IconHint": "optio",
+        "Rank": 952,
+        "Type": "soluta",
+        "ColorBlock": 419,
+        "IconHint": "quaerat",
         "Selected": false,
-        "LastChanged": "2002-07-14T17:37:39.6814321+02:00",
+        "LastChanged": "1996-08-28T14:19:11.1480931+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "nisi",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "nulla",
         "Hidden": false,
-        "FullName": "Rudolph Mosciski"
+        "FullName": "Ms. Liliana Quinton Ward V"
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "ipsam",
+    "ExtraInfo": "omnis",
+    "StyleHint": "quam",
     "Hidden": true,
-    "FullName": "Zora Leuschke"
+    "FullName": "Mr. Ryleigh Shayna Eichmann"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 107,
-    "Name": "Kuhlman, Stokes and Dibbert",
-    "ToolTip": "Dolores iusto.",
-    "Deleted": false,
-    "Rank": 403,
-    "Type": "ut",
-    "ColorBlock": 816,
-    "IconHint": "neque",
+    "Id": 78,
+    "Name": "Treutel-Gleason",
+    "ToolTip": "Rerum amet non commodi eaque modi.",
+    "Deleted": true,
+    "Rank": 909,
+    "Type": "sunt",
+    "ColorBlock": 152,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "2005-09-29T17:37:39.8644721+02:00",
+    "LastChanged": "2005-12-29T14:19:11.1480931+01:00",
     "ChildItems": [
       {
-        "Id": 3,
-        "Name": "Botsford-Wuckert",
-        "ToolTip": "Sint non labore.",
-        "Deleted": true,
-        "Rank": 534,
-        "Type": "sed",
-        "ColorBlock": 316,
-        "IconHint": "aspernatur",
-        "Selected": false,
-        "LastChanged": "1996-06-05T17:37:39.8655022+02:00",
+        "Id": 303,
+        "Name": "Bosco Group",
+        "ToolTip": "Delectus qui rerum repellat sit ut architecto nobis.",
+        "Deleted": false,
+        "Rank": 330,
+        "Type": "illo",
+        "ColorBlock": 35,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2010-07-24T14:19:11.1480931+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "repellat",
-        "Hidden": true,
-        "FullName": "Miss Ayana Ledner",
+        "ExtraInfo": "velit",
+        "StyleHint": "aperiam",
+        "Hidden": false,
+        "FullName": "Ms. Martina Jeanette Emmerich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 763
+            "FieldLength": 376
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "dolores",
-    "Hidden": true,
-    "FullName": "Javier Moen",
+    "ExtraInfo": "inventore",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Miss Elisabeth Emmitt Rohan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 581
+        "FieldType": "System.String",
+        "FieldLength": 409
       }
     }
   }

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IQuoteAgent.GetProductFro
 
 ## GetProductFromDbId
 
-Get a product with the given database id
 
-* **productId:** The database id of the product
 
-**Returns:** The product info
+
 
 [WSDL file for Services85/Quote](../Services85-Quote.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetProductFromDbId Response
 
@@ -110,3 +109,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

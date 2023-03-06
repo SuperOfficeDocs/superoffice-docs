@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IProjectAgent.DeleteProje
 
 ## DeleteProjectEntity
 
-Deletes the ProjectEntity
 
-* **projectEntityId:** The identity of the ProjectEntity
+
+
 
 [WSDL file for Services85/Project](../Services85-Project.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteProjectEntity Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

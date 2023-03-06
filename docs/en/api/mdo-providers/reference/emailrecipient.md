@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "emailrecipient"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,13 +15,15 @@ so.envir:
 ---
 
 # "emailrecipient" MDO List
-
 List of most recent e-mail recipients cached for the current user.
 
 List is stored in blob with associate id in blob's extraInfo field.
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.EMailRecipientProvider">EMailRecipientProvider</see> class.
 The name of the MDO list is 'emailrecipient'.
+
+
+
 
 ## Sample Request
 
@@ -34,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("emailrecipient", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -48,6 +49,7 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
+
 
 ## Related MDO Lists
 

@@ -124,13 +124,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2004-06-23T17:37:16.578245+02:00",
-  "EndTime": "1998-05-13T17:37:16.578245+02:00",
-  "Count": 68
+  "StartTime": "2006-02-20T14:19:02.6969287+01:00",
+  "EndTime": "2022-05-25T14:19:02.6969287+02:00",
+  "Count": 585
 }
 ```
 
@@ -142,61 +142,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 634,
-    "StartDate": "2011-12-20T17:37:16.5792446+01:00",
-    "EndDate": "2004-02-09T17:37:16.5792446+01:00",
+    "AppointmentId": 298,
+    "StartDate": "2014-06-23T14:19:02.6969287+02:00",
+    "EndDate": "2015-08-11T14:19:02.6969287+02:00",
     "Type": "BookingForChecklist",
-    "Task": "dolore",
-    "AssociateFullName": "Rickie Fritsch",
-    "ContactName": "Braun, Hoeger and Christiansen",
-    "Description": "Optimized systematic local area network",
-    "PersonFullName": "Ivah O'Keefe",
-    "PersonId": 253,
-    "ContactId": 112,
-    "ProjectId": 92,
-    "ProjectName": "Nikolaus, Hoeger and Shields",
+    "Task": "exercitationem",
+    "AssociateFullName": "Carson Windler",
+    "ContactName": "Parker-Lemke",
+    "Description": "Up-sized bifurcated encryption",
+    "PersonFullName": "Herman Bosco",
+    "PersonId": 442,
+    "ContactId": 403,
+    "ProjectId": 973,
+    "ProjectName": "Schuster Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 316,
-    "ColorIndex": 816,
+    "AssociateId": 1001,
+    "ColorIndex": 295,
     "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 755,
-    "PriorityName": "Schuster Group",
+    "PriorityId": 265,
+    "PriorityName": "Erdman, Simonis and Hilll",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "1999-11-17T17:37:16.5792446+01:00",
+    "ActiveDate": "1997-10-12T14:19:02.6969287+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2015-04-10T17:37:16.5792446+02:00",
-    "RecurringEndDate": "2017-11-12T17:37:16.5792446+01:00",
-    "MotherId": 455,
-    "AssignedBy": 219,
-    "AssignedByFullName": "Mr. Francisco Leonardo Renner DDS",
+    "RecurringStartDate": "1999-11-15T14:19:02.6969287+01:00",
+    "RecurringEndDate": "2015-06-17T14:19:02.6969287+02:00",
+    "MotherId": 113,
+    "AssignedBy": 715,
+    "AssignedByFullName": "Flavie Hammes",
     "RejectReason": "",
-    "Location": "perferendis",
-    "AlarmLeadTime": "dolores",
-    "SaleId": 364,
-    "SaleName": "Bogan LLC",
-    "AssociateName": "Olson, Roob and Rempel",
-    "CreatedDate": "2010-09-02T17:37:16.5802452+02:00",
-    "CreatedBy": "quidem",
-    "CreatedByFullName": "Dr. Darrin Hipolito Olson",
-    "CreatedByAssociateId": 23,
+    "Location": "sunt",
+    "AlarmLeadTime": "nulla",
+    "SaleId": 387,
+    "SaleName": "Kohler LLC",
+    "AssociateName": "Runolfsdottir-Paucek",
+    "CreatedDate": "2010-02-19T14:19:02.6969287+01:00",
+    "CreatedBy": "nihil",
+    "CreatedByFullName": "Mrs. Amber Geoffrey Mante",
+    "CreatedByAssociateId": 405,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 153
+        "FieldType": "System.Int32",
+        "FieldLength": 129
       }
     }
   }

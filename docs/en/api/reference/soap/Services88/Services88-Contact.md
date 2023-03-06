@@ -592,6 +592,35 @@ title: Services88.ContactAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="CreateDefaultPreviewContact">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultPreviewContactResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:PreviewContact" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="PreviewContact">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ContactId" type="xs:int" />
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Department" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CountryId" type="xs:int" />
+          <xs:element minOccurs="0" name="Number2" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DirectPhone" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="URL" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EmailAddress" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="BusinessName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CategoryName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="AssociateFullName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Address" nillable="true" type="tns:Address" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="PreviewContact" nillable="true" type="tns:PreviewContact" />
       <xs:element name="GetContact">
         <xs:complexType>
           <xs:sequence>
@@ -632,6 +661,8 @@ title: Services88.ContactAgent WSDL
               <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="IsOwnerContact" type="xs:boolean" />
               <xs:element minOccurs="0" name="ActiveErpLinks" type="xs:int" />
+              <xs:element minOccurs="0" name="Number1" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Number2" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -1376,6 +1407,20 @@ title: Services88.ContactAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetPreviewContact">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ContactId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetPreviewContactResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:PreviewContact" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
     </xs:schema>
     <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
       <xs:element name="anyType" nillable="true" type="xs:anyType" />
@@ -1479,6 +1524,23 @@ title: Services88.ContactAgent WSDL
     <wsdl:part name="parameters" element="tns:DeleteContactEntityResponse" />
   </wsdl:message>
   <wsdl:message name="DeleteContactEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultPreviewContactRequest">
+    <wsdl:part name="parameters" element="tns:CreateDefaultPreviewContact" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultPreviewContactRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultPreviewContactResponse">
+    <wsdl:part name="parameters" element="tns:CreateDefaultPreviewContactResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultPreviewContactResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -1960,226 +2022,155 @@ title: Services88.ContactAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetPreviewContactRequest">
+    <wsdl:part name="parameters" element="tns:GetPreviewContact" />
+  </wsdl:message>
+  <wsdl:message name="GetPreviewContactRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetPreviewContactResponse">
+    <wsdl:part name="parameters" element="tns:GetPreviewContactResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPreviewContactResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:portType name="Contact">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Contact</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultContactEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new ContactEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/CreateDefaultContactEntity" name="CreateDefaultContactEntityRequest" message="tns:CreateDefaultContactEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/CreateDefaultContactEntityResponse" name="CreateDefaultContactEntityResponse" message="tns:CreateDefaultContactEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveContactEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing ContactEntity or creates a new ContactEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/SaveContactEntity" name="SaveContactEntityRequest" message="tns:SaveContactEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/SaveContactEntityResponse" name="SaveContactEntityResponse" message="tns:SaveContactEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteContactEntity">
-      <wsdl:documentation>
-        <summary>Deletes the ContactEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/DeleteContactEntity" name="DeleteContactEntityRequest" message="tns:DeleteContactEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/DeleteContactEntityResponse" name="DeleteContactEntityResponse" message="tns:DeleteContactEntityResponse" />
     </wsdl:operation>
+    <wsdl:operation name="CreateDefaultPreviewContact">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/CreateDefaultPreviewContact" name="CreateDefaultPreviewContactRequest" message="tns:CreateDefaultPreviewContactRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/CreateDefaultPreviewContactResponse" name="CreateDefaultPreviewContactResponse" message="tns:CreateDefaultPreviewContactResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetContact">
-      <wsdl:documentation>
-        <summary>Gets a Contact object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetContact" name="GetContactRequest" message="tns:GetContactRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetContactResponse" name="GetContactResponse" message="tns:GetContactResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyActiveContacts">
-      <wsdl:documentation>
-        <summary>Returns the contacts where there has been activity since activityStartTime. If activityStartTime is larger than the current date, all contacts with activity since last log-out are returned. The result set can be filtered by category and action type.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetMyActiveContacts" name="GetMyActiveContactsRequest" message="tns:GetMyActiveContactsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetMyActiveContactsResponse" name="GetMyActiveContactsResponse" message="tns:GetMyActiveContactsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetContactEntity">
-      <wsdl:documentation>
-        <summary>Gets a ContactEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetContactEntity" name="GetContactEntityRequest" message="tns:GetContactEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetContactEntityResponse" name="GetContactEntityResponse" message="tns:GetContactEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="Undelete">
-      <wsdl:documentation>
-        <summary>This entity supports Soft Delete. Call this method to Undelete a previously soft-deleted record</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/Undelete" name="UndeleteRequest" message="tns:UndeleteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/UndeleteResponse" name="UndeleteResponse" message="tns:UndeleteResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersons">
-      <wsdl:documentation>
-        <summary>Returns an array of all the contact persons for the company card.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetPersons" name="GetPersonsRequest" message="tns:GetPersonsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetPersonsResponse" name="GetPersonsResponse" message="tns:GetPersonsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetContactWithPersons">
-      <wsdl:documentation>
-        <summary>Returns the contact with all the contact persons belonging to the contact</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetContactWithPersons" name="GetContactWithPersonsRequest" message="tns:GetContactWithPersonsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetContactWithPersonsResponse" name="GetContactWithPersonsResponse" message="tns:GetContactWithPersonsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyContact">
-      <wsdl:documentation>
-        <summary>Gets the contact belonging to the currently logged on user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetMyContact" name="GetMyContactRequest" message="tns:GetMyContactRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetMyContactResponse" name="GetMyContactResponse" message="tns:GetMyContactResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyBizCard">
-      <wsdl:documentation>
-        <summary>Returns all data needed to display the logged on person's business card. That is company, person, and company interest data.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetMyBizCard" name="GetMyBizCardRequest" message="tns:GetMyBizCardRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetMyBizCardResponse" name="GetMyBizCardResponse" message="tns:GetMyBizCardResponse" />
     </wsdl:operation>
     <wsdl:operation name="ChangeCountry">
-      <wsdl:documentation>
-        <summary>Change country regenerates the default values and localized information such as phone number and address format</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/ChangeCountry" name="ChangeCountryRequest" message="tns:ChangeCountryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/ChangeCountryResponse" name="ChangeCountryResponse" message="tns:ChangeCountryResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAddress">
-      <wsdl:documentation>
-        <summary>Gets the contact's localized address.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetAddress" name="GetAddressRequest" message="tns:GetAddressRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetAddressResponse" name="GetAddressResponse" message="tns:GetAddressResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAddressByCountry">
-      <wsdl:documentation>
-        <summary>Gets the contact's localized address.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetAddressByCountry" name="GetAddressByCountryRequest" message="tns:GetAddressByCountryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetAddressByCountryResponse" name="GetAddressByCountryResponse" message="tns:GetAddressByCountryResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddPerson">
-      <wsdl:documentation>
-        <summary>Add a person to the given contact</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/AddPerson" name="AddPersonRequest" message="tns:AddPersonRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/AddPersonResponse" name="AddPersonResponse" message="tns:AddPersonResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDuplicates">
-      <wsdl:documentation>
-        <summary>Get duplicates (exact or similar in the database) based on the name</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetDuplicates" name="GetDuplicatesRequest" message="tns:GetDuplicatesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetDuplicatesResponse" name="GetDuplicatesResponse" message="tns:GetDuplicatesResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateNewEntry">
-      <wsdl:documentation>
-        <summary>Creates a new contact based on external duplicate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/CreateNewEntry" name="CreateNewEntryRequest" message="tns:CreateNewEntryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/CreateNewEntryResponse" name="CreateNewEntryResponse" message="tns:CreateNewEntryResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDuplicateRules">
-      <wsdl:documentation>
-        <summary>Retrieve all available duplicate rules for contact</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetDuplicateRules" name="GetDuplicateRulesRequest" message="tns:GetDuplicateRulesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetDuplicateRulesResponse" name="GetDuplicateRulesResponse" message="tns:GetDuplicateRulesResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetDuplicateRulesStatus">
-      <wsdl:documentation>
-        <summary>Set which duplicate rules should be active or not</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/SetDuplicateRulesStatus" name="SetDuplicateRulesStatusRequest" message="tns:SetDuplicateRulesStatusRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/SetDuplicateRulesStatusResponse" name="SetDuplicateRulesStatusResponse" message="tns:SetDuplicateRulesStatusResponse" />
     </wsdl:operation>
     <wsdl:operation name="Merge">
-      <wsdl:documentation>
-        <summary>Merge two contacts. The destination contact will remain.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/Merge" name="MergeRequest" message="tns:MergeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/MergeResponse" name="MergeResponse" message="tns:MergeResponse" />
     </wsdl:operation>
     <wsdl:operation name="Copy">
-      <wsdl:documentation>
-        <summary>Copy a contact. Activities and related data will be ignored</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/Copy" name="CopyRequest" message="tns:CopyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/CopyResponse" name="CopyResponse" message="tns:CopyResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetNameDepartmentDuplicates">
-      <wsdl:documentation>
-        <summary>Get duplicates based on the contact name and department</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetNameDepartmentDuplicates" name="GetNameDepartmentDuplicatesRequest" message="tns:GetNameDepartmentDuplicatesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetNameDepartmentDuplicatesResponse" name="GetNameDepartmentDuplicatesResponse" message="tns:GetNameDepartmentDuplicatesResponse" />
     </wsdl:operation>
     <wsdl:operation name="IsNumberValid">
-      <wsdl:documentation>
-        <summary>Checks if the number is unique or required.  The setting is configured from admin under system options.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/IsNumberValid" name="IsNumberValidRequest" message="tns:IsNumberValidRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/IsNumberValidResponse" name="IsNumberValidResponse" message="tns:IsNumberValidResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetQuoteVersionAddresses">
-      <wsdl:documentation>
-        <summary>Get the associated billing and invoice quote version addresses. These addresses might be address on the contact, or a custom address.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetQuoteVersionAddresses" name="GetQuoteVersionAddressesRequest" message="tns:GetQuoteVersionAddressesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetQuoteVersionAddressesResponse" name="GetQuoteVersionAddressesResponse" message="tns:GetQuoteVersionAddressesResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveQuoteVersionAddress">
-      <wsdl:documentation>
-        <summary>Save a custom quote version address.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/SaveQuoteVersionAddress" name="SaveQuoteVersionAddressRequest" message="tns:SaveQuoteVersionAddressRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/SaveQuoteVersionAddressResponse" name="SaveQuoteVersionAddressResponse" message="tns:SaveQuoteVersionAddressResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteExpired">
-      <wsdl:documentation>
-        <summary>Trigger deletion of contacts (companies) that has been (soft) deleted and have timed out the expiry period (the SoftDeleteRetention preference).</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/DeleteExpired" name="DeleteExpiredRequest" message="tns:DeleteExpiredRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/DeleteExpiredResponse" name="DeleteExpiredResponse" message="tns:DeleteExpiredResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetContactSummary">
-      <wsdl:documentation>
-        <summary>Get summary of contact and its recent activity.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetContactSummary" name="GetContactSummaryRequest" message="tns:GetContactSummaryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetContactSummaryResponse" name="GetContactSummaryResponse" message="tns:GetContactSummaryResponse" />
     </wsdl:operation>
     <wsdl:operation name="ValidateContactEntity">
-      <wsdl:documentation>
-        <summary>Check that entity is ready for saving, return error messages by field.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/ValidateContactEntity" name="ValidateContactEntityRequest" message="tns:ValidateContactEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/ValidateContactEntityResponse" name="ValidateContactEntityResponse" message="tns:ValidateContactEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetContactList">
-      <wsdl:documentation>
-        <summary>Gets an array of Contact objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetContactList" name="GetContactListRequest" message="tns:GetContactListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetContactListResponse" name="GetContactListResponse" message="tns:GetContactListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyContacts">
-      <wsdl:documentation>
-        <summary>Getting the contacts where the user currently logged in is set as contact owner.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetMyContacts" name="GetMyContactsRequest" message="tns:GetMyContactsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetMyContactsResponse" name="GetMyContactsResponse" message="tns:GetMyContactsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyRecentContacts">
-      <wsdl:documentation>
-        <summary>Method that returns a set of initial contacts. This could be the contacts in a favorites selection, the history list, the diary, or from all sources. If retrieved from the diary it will get appointments for the current and the next day.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetMyRecentContacts" name="GetMyRecentContactsRequest" message="tns:GetMyRecentContactsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetMyRecentContactsResponse" name="GetMyRecentContactsResponse" message="tns:GetMyRecentContactsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPreviewContact">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetPreviewContact" name="GetPreviewContactRequest" message="tns:GetPreviewContactRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetPreviewContactResponse" name="GetPreviewContactResponse" message="tns:GetPreviewContactResponse" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_Contact" type="tns:Contact">
@@ -2229,6 +2220,22 @@ title: Services88.ContactAgent WSDL
         <soap:header message="tns:DeleteContactEntityResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:DeleteContactEntityResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:DeleteContactEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDefaultPreviewContact">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/CreateDefaultPreviewContact" style="document" />
+      <wsdl:input name="CreateDefaultPreviewContactRequest">
+        <soap:header message="tns:CreateDefaultPreviewContactRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateDefaultPreviewContactRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateDefaultPreviewContactRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateDefaultPreviewContactResponse">
+        <soap:header message="tns:CreateDefaultPreviewContactResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultPreviewContactResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultPreviewContactResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateDefaultPreviewContactResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -2680,6 +2687,22 @@ title: Services88.ContactAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="GetPreviewContact">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetPreviewContact" style="document" />
+      <wsdl:input name="GetPreviewContactRequest">
+        <soap:header message="tns:GetPreviewContactRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetPreviewContactRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetPreviewContactRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetPreviewContactResponse">
+        <soap:header message="tns:GetPreviewContactResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetPreviewContactResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetPreviewContactResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetPreviewContactResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
   </wsdl:binding>
   <wsdl:service name="WcfContactService">
     <wsdl:port name="BasicHttpBinding_Contact" binding="tns:BasicHttpBinding_Contact">
@@ -2688,3 +2711,4 @@ title: Services88.ContactAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

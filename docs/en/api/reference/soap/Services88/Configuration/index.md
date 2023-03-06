@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/Confi
 
 Handled by the <see cref="T:SuperOffice.Services88.IConfigurationAgent">SuperOffice.Services88.IConfigurationAgent</see> interface.
 
-Interface for the Configuration Agent
-User interface configuration - XMLs and other elements such as inter-client URLs
+
 
 Download [WSDL file for Services88/Configuration](../Services88-Configuration.md) if you need to generate your own proxy code.
 
@@ -48,6 +47,7 @@ Download [WSDL file for Services88/Configuration](../Services88-Configuration.md
 * [GetRefreshedPageConfiguration](GetRefreshedPageConfiguration.md)
 * [GetScreenConfigurationDelta](GetScreenConfigurationDelta.md)
 * [GetScreenConfigurationDeltas](GetScreenConfigurationDeltas.md)
+* [GetSpfDomain](GetSpfDomain.md)
 * [GetSystemEventEntity](GetSystemEventEntity.md)
 * [GetWindowPosSize](GetWindowPosSize.md)
 * [GetWindowPosSizeList](GetWindowPosSizeList.md)
@@ -64,3 +64,4 @@ Download [WSDL file for Services88/Configuration](../Services88-Configuration.md
 * [SaveWindowPosSize](SaveWindowPosSize.md)
 * [SaveWindowPosSizes](SaveWindowPosSizes.md)
 * [SetAppliesToKey](SetAppliesToKey.md)
+

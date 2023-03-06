@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 166,
-    "Name": "Koepp LLC",
-    "Tooltip": "facilis",
+    "Id": 513,
+    "Name": "Kunze LLC",
+    "Tooltip": "dolore",
     "Deleted": true,
     "UdListDefinitionId": 993,
-    "Rank": 327
+    "Rank": 172
   },
   {
-    "Id": 166,
-    "Name": "Koepp LLC",
-    "Tooltip": "facilis",
+    "Id": 513,
+    "Name": "Kunze LLC",
+    "Tooltip": "dolore",
     "Deleted": true,
     "UdListDefinitionId": 993,
-    "Rank": 327
+    "Rank": 172
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 175,
-    "Name": "Hansen Inc and Sons",
-    "Tooltip": "consectetur",
+    "Id": 879,
+    "Name": "Bashirian-Raynor",
+    "Tooltip": "porro",
     "Deleted": true,
-    "UdListDefinitionId": 195,
-    "Rank": 876,
+    "UdListDefinitionId": 845,
+    "Rank": 549,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 429
+        "FieldType": "System.Int32",
+        "FieldLength": 76
       }
     }
   }

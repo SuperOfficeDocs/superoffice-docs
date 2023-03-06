@@ -132,51 +132,51 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 483,
-  "ERPProductKey": "officia",
-  "ERPPriceListKey": "consequatur",
-  "Name": "Huels-Abshire",
-  "Description": "Future-proofed holistic approach",
-  "Code": "quis",
-  "PriceUnit": "recusandae",
-  "QuantityUnit": "officia",
+  "ProductId": 755,
+  "ERPProductKey": "quis",
+  "ERPPriceListKey": "et",
+  "Name": "Konopelski, Kautzer and Beatty",
+  "Description": "Re-contextualized assymetric circuit",
+  "Code": "sunt",
+  "PriceUnit": "non",
+  "QuantityUnit": "aperiam",
   "IsSubscription": false,
-  "SubscriptionUnit": "vel",
-  "DefaultSubscriptionQuantity": 13971.372,
-  "ItemNumber": "947574",
+  "SubscriptionUnit": "voluptate",
+  "DefaultSubscriptionQuantity": 4917.246,
+  "ItemNumber": "559799",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "illo",
-  "ProductTypeKey": "autem",
-  "VAT": 11103.761999999999,
-  "VATInfo": "eos",
-  "UnitCost": 17443.844,
-  "UnitMinimumPrice": 25748.944,
-  "UnitListPrice": 6474.844,
-  "InAssortment": true,
-  "Supplier": "unde",
-  "SupplierCode": "animi",
-  "Rights": "impedit",
-  "Rule": "et",
+  "ProductFamilyKey": "numquam",
+  "ProductTypeKey": "sed",
+  "VAT": 7114.1799999999994,
+  "VATInfo": "officiis",
+  "UnitCost": 28234.206,
+  "UnitMinimumPrice": 16726.158,
+  "UnitListPrice": 2735.982,
+  "InAssortment": false,
+  "Supplier": "doloribus",
+  "SupplierCode": "mollitia",
+  "Rights": "doloribus",
+  "Rule": "pariatur",
   "ExtraInfo": [
     {
-      "Name": "Abbott Inc and Sons",
-      "Value": "fugit",
+      "Name": "Trantow, Cassin and Runte",
+      "Value": "porro",
       "Type": "Image"
     },
     {
-      "Name": "Abbott Inc and Sons",
-      "Value": "fugit",
+      "Name": "Trantow, Cassin and Runte",
+      "Value": "porro",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "non",
-  "ExtraField1": "commodi",
-  "ExtraField2": "enim",
-  "ExtraField3": "quo",
-  "ExtraField4": "voluptatum",
-  "ExtraField5": "veniam",
-  "InStock": 28845.336
+  "RawExtraInfo": "et",
+  "ExtraField1": "suscipit",
+  "ExtraField2": "aut",
+  "ExtraField3": "soluta",
+  "ExtraField4": "ipsum",
+  "ExtraField5": "voluptates",
+  "InStock": 14877.098
 }
 ```
 
@@ -187,73 +187,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 589,
-  "ERPProductKey": "saepe",
-  "ERPPriceListKey": "explicabo",
-  "Name": "Maggio-Shanahan",
-  "Description": "Multi-channelled encompassing focus group",
-  "Code": "et",
-  "PriceUnit": "et",
-  "QuantityUnit": "eaque",
-  "IsSubscription": false,
-  "SubscriptionUnit": "placeat",
-  "DefaultSubscriptionQuantity": 6333.8139999999994,
-  "ItemNumber": "441535",
+  "ProductId": 416,
+  "ERPProductKey": "laborum",
+  "ERPPriceListKey": "dolor",
+  "Name": "Kihn, Bins and Bahringer",
+  "Description": "Ameliorated background database",
+  "Code": "illum",
+  "PriceUnit": "eaque",
+  "QuantityUnit": "adipisci",
+  "IsSubscription": true,
+  "SubscriptionUnit": "quam",
+  "DefaultSubscriptionQuantity": 17193.124,
+  "ItemNumber": "727203",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ut",
-  "ProductTypeKey": "nesciunt",
-  "VAT": 4014.654,
-  "VATInfo": "est",
-  "UnitCost": 5603.592,
-  "UnitMinimumPrice": 22389.296,
-  "UnitListPrice": 266.39,
-  "InAssortment": false,
-  "Supplier": "quos",
-  "SupplierCode": "et",
-  "Rights": "cumque",
-  "Rule": "totam",
+  "ProductFamilyKey": "tenetur",
+  "ProductTypeKey": "odio",
+  "VAT": 26723.618,
+  "VATInfo": "vel",
+  "UnitCost": 5772.8279999999995,
+  "UnitMinimumPrice": 47.01,
+  "UnitListPrice": 17932.748,
+  "InAssortment": true,
+  "Supplier": "ullam",
+  "SupplierCode": "eveniet",
+  "Rights": "ab",
+  "Rule": "sit",
   "ExtraInfo": [
     {
-      "Name": "Schneider LLC",
-      "Value": "maxime",
+      "Name": "Swift-Price",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 440
+          "FieldLength": 32
         }
       }
     },
     {
-      "Name": "Schneider LLC",
-      "Value": "maxime",
+      "Name": "Swift-Price",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 440
+          "FieldLength": 32
         }
       }
     }
   ],
-  "RawExtraInfo": "quod",
-  "ExtraField1": "velit",
-  "ExtraField2": "accusantium",
-  "ExtraField3": "hic",
-  "ExtraField4": "vel",
-  "ExtraField5": "magni",
-  "InStock": 11830.85,
+  "RawExtraInfo": "optio",
+  "ExtraField1": "impedit",
+  "ExtraField2": "ullam",
+  "ExtraField3": "modi",
+  "ExtraField4": "voluptatem",
+  "ExtraField5": "et",
+  "InStock": 14598.171999999999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 924
+      "FieldType": "System.Int32",
+      "FieldLength": 592
     }
   }
 }

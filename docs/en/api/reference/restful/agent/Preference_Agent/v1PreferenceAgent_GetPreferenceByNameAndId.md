@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "ut",
-  "PrefKey": "est",
+  "PrefSection": "consequuntur",
+  "PrefKey": "quas",
   "PrefLevel": "Database",
-  "OwnerId": 800
+  "OwnerId": 931
 }
 ```
 
@@ -104,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "sit",
+  "RawValue": "vel",
   "Specification": null,
-  "DisplayValue": "quisquam",
-  "DisplayTooltip": "perspiciatis",
+  "DisplayValue": "ducimus",
+  "DisplayTooltip": "est",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 151,
-  "PrefDescId": 434,
-  "TableName": "Gutmann-Ferry",
-  "UserPreferenceId": 982,
+  "TargetId": 679,
+  "PrefDescId": 603,
+  "TableName": "Bergnaum Group",
+  "UserPreferenceId": 52,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 494
+      "FieldType": "System.Int32",
+      "FieldLength": 386
     }
   }
 }

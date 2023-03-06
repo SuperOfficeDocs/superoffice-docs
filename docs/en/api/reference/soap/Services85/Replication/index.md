@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services85/Repli
 
 Handled by the <see cref="T:SuperOffice.Services85.IReplicationAgent">SuperOffice.Services85.IReplicationAgent</see> interface.
 
-Interface for the Replication Agent
-Replication/Travel administration
+
 
 Download [WSDL file for Services85/Replication](../Services85-Replication.md) if you need to generate your own proxy code.
 
@@ -23,3 +22,4 @@ Download [WSDL file for Services85/Replication](../Services85-Replication.md) if
 * [SaveCentralLicense](SaveCentralLicense.md)
 * [SaveSatellite](SaveSatellite.md)
 * [SetFreetextSearchEnabledOnArea](SetFreetextSearchEnabledOnArea.md)
+

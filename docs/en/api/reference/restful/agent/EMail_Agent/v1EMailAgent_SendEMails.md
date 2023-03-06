@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/EMail/SendEMails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -120,18 +120,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "occaecati",
-      "HTMLBody": "voluptatum",
+      "Subject": "facilis",
+      "HTMLBody": "commodi",
       "From": null,
-      "Sent": "2001-01-10T17:37:17.9472406+01:00",
-      "Size": 391,
+      "Sent": "2021-09-07T14:19:03.4508967+02:00",
+      "Size": 388,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "tempore",
-      "PlainBody": "nobis",
-      "IsSent": true,
+      "MessageID": "sunt",
+      "PlainBody": "quia",
+      "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 406,
+      "ServerId": 132,
       "Attachments": [
         {},
         {}
@@ -140,12 +140,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Stehr-Kertzmann",
-      "EmailItemId": 526,
-      "AccountId": 483,
-      "ReceivedAt": "2005-08-03T17:37:17.9472406+02:00",
+      "FolderName": "Williamson Group",
+      "EmailItemId": 301,
+      "AccountId": 90,
+      "ReceivedAt": "2016-08-03T14:19:03.4508967+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2003-03-24T17:37:17.9472406+01:00",
+      "RepliedAt": "2003-12-11T14:19:03.4508967+01:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -165,147 +165,147 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 443,
-        "ContactName": "Sauer Inc and Sons",
-        "PersonId": 681,
-        "PersonName": "Waelchi, Bosco and Willms",
-        "AssociateId": 910,
-        "Address": "quibusdam",
-        "EmailId": 970,
+        "ContactId": 298,
+        "ContactName": "Wolf-Von",
+        "PersonId": 965,
+        "PersonName": "Mraz-Armstrong",
+        "AssociateId": 977,
+        "Address": "repellendus",
+        "EmailId": 52,
         "DuplicatePersonIds": [
-          709,
-          589
+          588,
+          232
         ],
-        "Name": "Torphy-Hoeger",
+        "Name": "Jacobson-Murphy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 925
+            "FieldType": "System.String",
+            "FieldLength": 459
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 355,
-        "ContactName": "Nitzsche Group",
-        "PersonId": 97,
-        "PersonName": "Cartwright, Swift and Jerde",
-        "AssociateId": 325,
-        "Address": "fugit",
-        "EmailId": 949,
+        "ContactId": 976,
+        "ContactName": "Runte Group",
+        "PersonId": 64,
+        "PersonName": "Funk LLC",
+        "AssociateId": 485,
+        "Address": "pariatur",
+        "EmailId": 344,
         "DuplicatePersonIds": [
-          722,
-          134
+          101,
+          767
         ],
-        "Name": "Bergstrom, Welch and Schamberger",
+        "Name": "Goyette, Kulas and Cormier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 340
+            "FieldType": "System.Int32",
+            "FieldLength": 382
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 642,
-        "ContactName": "Toy LLC",
-        "PersonId": 379,
-        "PersonName": "Runolfsson, Dietrich and Deckow",
-        "AssociateId": 266,
-        "Address": "nihil",
-        "EmailId": 277,
+        "ContactId": 904,
+        "ContactName": "Gleichner Group",
+        "PersonId": 525,
+        "PersonName": "Mann-Hartmann",
+        "AssociateId": 481,
+        "Address": "sunt",
+        "EmailId": 394,
         "DuplicatePersonIds": [
-          651,
-          532
+          256,
+          157
         ],
-        "Name": "Mann, Corwin and Corwin",
+        "Name": "DuBuque LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 550
+            "FieldType": "System.String",
+            "FieldLength": 563
           }
         }
       }
     ],
-    "Subject": "consequatur",
-    "HTMLBody": "tempore",
+    "Subject": "ut",
+    "HTMLBody": "omnis",
     "From": null,
-    "Sent": "1999-03-08T17:37:17.9492415+01:00",
-    "Size": 425,
+    "Sent": "2006-08-31T14:19:03.4508967+02:00",
+    "Size": 253,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "ipsum",
-    "PlainBody": "inventore",
+    "MessageID": "vel",
+    "PlainBody": "amet",
     "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 940,
+    "ServerId": 381,
     "Attachments": [
       {
-        "Description": "Open-architected 3rd generation internet solution",
-        "Filename": "eius",
-        "Size": 381,
-        "Type": "accusantium",
-        "Encoding": "consectetur",
-        "Id": "sapiente",
-        "Disposition": "optio",
+        "Description": "Secured radical service-desk",
+        "Filename": "est",
+        "Size": 683,
+        "Type": "quia",
+        "Encoding": "numquam",
+        "Id": "quia",
+        "Disposition": "rerum",
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 620
+            "FieldLength": 165
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Goyette-Lemke",
+        "Name": "Emard, Bogan and Gerhold",
         "Values": [
-          "dicta",
-          "amet"
+          "quia",
+          "vel"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 158
+            "FieldType": "System.Int32",
+            "FieldLength": 533
           }
         }
       },
       {
-        "Name": "Goyette-Lemke",
+        "Name": "Emard, Bogan and Gerhold",
         "Values": [
-          "dicta",
-          "amet"
+          "quia",
+          "vel"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 158
+            "FieldType": "System.Int32",
+            "FieldLength": 533
           }
         }
       }
     ],
-    "FolderName": "Stanton Group",
-    "EmailItemId": 184,
-    "AccountId": 305,
-    "ReceivedAt": "1996-04-12T17:37:17.9502413+02:00",
+    "FolderName": "Farrell-Wolff",
+    "EmailItemId": 360,
+    "AccountId": 384,
+    "ReceivedAt": "2002-07-28T14:19:03.4508967+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2002-04-01T17:37:17.9502413+02:00",
-    "HasCalendarData": false,
+    "RepliedAt": "2015-11-11T14:19:03.4508967+01:00",
+    "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
@@ -313,7 +313,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 894
+        "FieldLength": 479
       }
     }
   }

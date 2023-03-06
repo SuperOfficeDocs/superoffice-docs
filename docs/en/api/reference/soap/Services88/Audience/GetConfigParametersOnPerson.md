@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IAudienceAgent.GetConfigP
 
 ## GetConfigParametersOnPerson
 
-Gets the Audience configuration parameters belonging to the person specified
 
-* **personId:** Id of the person the parameter belongs to
 
-**Returns:** Array of Audience configuration parameters.
+
 
 [WSDL file for Services88/Audience](../Services88-Audience.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetConfigParametersOnPerson Response
 
 ```xml
@@ -66,8 +65,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Audience:AudienceLayoutId xsi:type="xsd:int">0</Audience:AudienceLayoutId>
      <Audience:Name xsi:type="xsd:string"></Audience:Name>
      <Audience:Value xsi:type="xsd:string"></Audience:Value>
-     <Audience:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:58:26Z</Audience:CreatedDate>
-     <Audience:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:58:26Z</Audience:UpdatedDate>
+     <Audience:CreatedDate xsi:type="xsd:dateTime">2023-02-15T13:16:29Z</Audience:CreatedDate>
+     <Audience:UpdatedDate xsi:type="xsd:dateTime">2023-02-15T13:16:29Z</Audience:UpdatedDate>
      <Audience:CreatedBy xsi:type="xsd:string"></Audience:CreatedBy>
      <Audience:UpdatedBy xsi:type="xsd:string"></Audience:UpdatedBy>
     </Audience:AudienceConfigParameter>
@@ -77,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

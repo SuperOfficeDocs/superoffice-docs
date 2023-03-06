@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 719,
-    "Name": "Schneider-Bosco",
-    "Tooltip": "quas",
+    "HeadingId": 246,
+    "Name": "Beier, Keeling and Powlowski",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 231,
-    "UdListDefinitionId": 633,
+    "Rank": 215,
+    "UdListDefinitionId": 920,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 933
+        "FieldType": "System.Int32",
+        "FieldLength": 520
       }
     }
   }

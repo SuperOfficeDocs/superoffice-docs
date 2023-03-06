@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IPersonAgent.CreateDefaul
 
 ## CreateDefaultConsentPerson
 
-Loading default values into a new ConsentPerson.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-**Returns:** New ConsentPerson with default values
+
+
 
 [WSDL file for Services85/Person](../Services85-Person.md)
 
@@ -46,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateDefaultConsentPerson Response
 
@@ -89,7 +89,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Person:Key xsi:type="xsd:string"></Person:Key>
      <Person:Tooltip xsi:type="xsd:string"></Person:Tooltip>
      <Person:Active xsi:type="xsd:short">0</Person:Active>
-     <Person:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:53:17Z</Person:UpdatedDate>
+     <Person:UpdatedDate xsi:type="xsd:dateTime">2023-02-15T13:11:43Z</Person:UpdatedDate>
      <Person:UpdatedBy xsi:type="Person:Associate">
       <Person:AssociateId xsi:type="xsd:int">0</Person:AssociateId>
       <Person:Name xsi:type="xsd:string"></Person:Name>
@@ -115,3 +115,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

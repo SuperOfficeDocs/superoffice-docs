@@ -113,36 +113,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 854,
-    "Name": "Schiller LLC",
-    "OrgNr": "957173",
+    "ContactId": 784,
+    "Name": "O'Connell, Schamberger and Simonis",
+    "OrgNr": "1821952",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "ut",
-    "DirectPhone": "631-540-5637",
-    "AssociateId": 494,
-    "CountryId": 485,
-    "EmailAddress": "letitia@kutch.name",
-    "Kananame": "dicta",
-    "EmailAddressName": "genesis@collierokeefe.info",
+    "City": "aperiam",
+    "DirectPhone": "283.835.1865 x140",
+    "AssociateId": 357,
+    "CountryId": 451,
+    "EmailAddress": "dewayne.nienow@corwinheaney.uk",
+    "Kananame": "quas",
+    "EmailAddressName": "stanton.cormier@robel.co.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Dr. Vladimir Jerrold Fay Jr.",
+    "AssociateFullName": "Estella Feeney",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "magni",
-    "FullName": "Mackenzie Dudley Schaefer PhD",
+    "FormattedAddress": "est",
+    "FullName": "Katelyn Marge Ward Jr.",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 952,
-    "Number1": "1021367",
-    "Number2": "1587601",
+    "ActiveErpLinks": 339,
+    "Number1": "1563469",
+    "Number2": "1187082",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 378
+        "FieldType": "System.Int32",
+        "FieldLength": 449
       }
     }
   }

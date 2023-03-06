@@ -83,7 +83,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 815
+  "ErpSyncConnectionId": 617
 }
 ```
 
@@ -94,37 +94,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Ullrich Inc and Sons",
-  "DisplayDescription": "Business-focused secondary approach",
-  "Active": true,
-  "Deleted": false,
-  "LastSync": "2013-07-16T17:37:18.0242449+02:00",
+  "DisplayName": "Kunde-Nolan",
+  "DisplayDescription": "Diverse dynamic open system",
+  "Active": false,
+  "Deleted": true,
+  "LastSync": "2002-08-10T14:19:03.4977716+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "a",
-      "Mappings": "itaque",
+      "Defaults": "totam",
+      "Mappings": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 858
+          "FieldLength": 265
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "a",
-      "Mappings": "itaque",
+      "Defaults": "totam",
+      "Mappings": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 858
+          "FieldLength": 265
         }
       }
     }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 472
+      "FieldType": "System.String",
+      "FieldLength": 701
     }
   }
 }

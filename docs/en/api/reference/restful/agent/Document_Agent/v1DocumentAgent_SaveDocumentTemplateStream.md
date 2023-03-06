@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 140,
+  "DocumentTemplateId": 131,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "vero",
-  "PluginId": 956
+  "LanguageCode": "blanditiis",
+  "PluginId": 385
 }
 ```
 
@@ -95,10 +95,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hessel, Dach and Schumm",
-  "Description": "Persistent methodical definition",
-  "ExternalReference": "ut",
-  "MimeType": "quae",
-  "PluginId": 854
+  "Name": "Berge, Abbott and Koch",
+  "Description": "Fully-configurable multi-tasking open architecture",
+  "ExternalReference": "delectus",
+  "MimeType": "molestiae",
+  "PluginId": 315
 }
 ```

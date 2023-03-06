@@ -25,7 +25,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=387
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=320
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,35 +98,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 620,
-  "ERPQuoteAlternativeKey": "rerum",
-  "QuoteVersionId": 98,
-  "Name": "Russel-Lakin",
-  "Description": "Horizontal upward-trending strategy",
+  "QuoteAlternativeId": 361,
+  "ERPQuoteAlternativeKey": "cupiditate",
+  "QuoteVersionId": 391,
+  "Name": "Fahey-Schinner",
+  "Description": "Programmable systematic parallelism",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 13169.068,
-  "ERPDiscountAmount": 30315.182,
-  "DiscountPercent": 12332.289999999999,
-  "DiscountAmount": 1125.106,
+  "ERPDiscountPercent": 16334.408,
+  "ERPDiscountAmount": 10301.458,
+  "DiscountPercent": 29284.095999999998,
+  "DiscountAmount": 169.236,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "natus",
-  "VAT": 626.8,
-  "EarningPercent": 23260.548,
-  "EarningAmount": 24059.718,
-  "SubTotal": 382.348,
-  "TotalPrice": 17682.028,
-  "ExtraField1": "perferendis",
-  "ExtraField2": "similique",
-  "ExtraField3": "ut",
-  "ExtraField4": "quam",
-  "ExtraField5": "in",
+  "VATInfo": "voluptatibus",
+  "VAT": 18572.084,
+  "EarningPercent": 10721.413999999999,
+  "EarningAmount": 30938.847999999998,
+  "SubTotal": 29020.84,
+  "TotalPrice": 12326.021999999999,
+  "ExtraField1": "odio",
+  "ExtraField2": "ut",
+  "ExtraField3": "ratione",
+  "ExtraField4": "sit",
+  "ExtraField5": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldType": "System.String",
+      "FieldLength": 904
     }
   }
 }

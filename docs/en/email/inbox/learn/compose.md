@@ -14,7 +14,7 @@ language: en
 > [!TIP]
 > The procedure below describes how to compose an email message from the inbox. You can also compose an email message by clicking **New** > **Email** on the top bar.
 
-## Create email from the SuperOffice inbox
+## Create email from the SuperOffice Inbox
 
 [!include[How to compose an email](../../learn/includes/howto-compose-email.md)]
 

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IProjectAgent.SaveProject
 
 ## SaveProjectMember
 
-Updates the existing ProjectMember or creates a new ProjectMember if the id parameter is 0.
 
-* **projectMember:** The ProjectMember that is saved.
 
-**Returns:** New or updated ProjectMember
+
 
 [WSDL file for Services88/Project](../Services88-Project.md)
 
@@ -71,6 +69,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveProjectMember Response
 
 ```xml
@@ -113,3 +112,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

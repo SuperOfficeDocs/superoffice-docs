@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.GetFolderList
 
 ## GetFolderList
 
-Retrieve all folders for the mail account. String is separated in sections by the paragraph character.  First section contains the folder delimeter char. Next is folder name. Additional sections may be unread and total items.
 
-* **connectionInfo:** All information needed to connect to the mailserver
-* **includeItemCount:** If true, unread and total items are added to the foldername separated by a comma
 
-**Returns:** List of available folders as a string array
+
 
 [WSDL file for Services85/EMail](../Services85-EMail.md)
 
@@ -57,6 +54,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetFolderList Response
 
 ```xml
@@ -79,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

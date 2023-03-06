@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IFindAgent.GetAvailableRe
 
 ## GetAvailableRestrictionColumns
 
-Get a list of the column names corresponding to available restrictions for a certain archive provider and restriction storage provider. Such columns have CanRestrict set to true, and are supported by the given restriction storage provider.
 
-* **storageType:** Restriction storage type specification, either 'Criteria' or 'Reporter' (or possible extensions)
-* **providerName:** Name of archive provider that is to execute the search and return the result columns/rows
 
-**Returns:** Array of column names, corresponding to support restrictions for the given archive and restriction storage providers.
+
 
 [WSDL file for Services88/Find](../Services88-Find.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAvailableRestrictionColumns Response
 
 ```xml
@@ -73,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

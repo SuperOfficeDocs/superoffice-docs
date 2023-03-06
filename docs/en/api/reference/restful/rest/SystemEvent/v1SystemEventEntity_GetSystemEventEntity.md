@@ -81,7 +81,7 @@ SystemEventEntity found.
 GET /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,27 +91,27 @@ HTTP/1.1 200 SystemEventEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 673,
+  "SystemEventId": 910,
   "Scope": "Database",
-  "Eta": "2020-12-03T17:37:39.2333062+01:00",
-  "Eventkey": "atque",
-  "Eventmess": "esse",
-  "ExtraInfo": 61,
-  "Owner": 334,
-  "UpdatedCount": 996,
-  "Registered": "1997-09-25T17:37:39.2333062+02:00",
+  "Eta": "2007-04-18T14:19:10.7873511+02:00",
+  "Eventkey": "sed",
+  "Eventmess": "ut",
+  "ExtraInfo": 799,
+  "Owner": 940,
+  "UpdatedCount": 478,
+  "Registered": "2022-08-28T14:19:10.7873511+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 777
+      "FieldLength": 132
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

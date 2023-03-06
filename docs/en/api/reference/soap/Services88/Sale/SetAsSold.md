@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ISaleAgent.SetAsSold">Sup
 
 ## SetAsSold
 
-Change the status of one or more Sales to Sold. Note that this does not mark them as Completed.
 
-* **saleIds:** Array of sale ids to be marked as lost. All the normal write access rules apply.
+
+
 
 [WSDL file for Services88/Sale](../Services88-Sale.md)
 
@@ -49,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetAsSold Response
 
 ```xml
@@ -68,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

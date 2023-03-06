@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.GetEmailDocum
 
 ## GetEmailDocumentAsMimeStream
 
-Gets a particular document, and tries to parse it, and returns it in MIME/RFC822 format.
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-* **documentId:** SuperOffice document ID
 
-**Returns:** A document-stream representing the document in MIME/RFC822 format.
+
 
 [WSDL file for Services88/EMail](../Services88-EMail.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetEmailDocumentAsMimeStream Response
 
 ```xml
@@ -70,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

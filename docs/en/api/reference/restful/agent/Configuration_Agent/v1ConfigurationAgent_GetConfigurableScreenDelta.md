@@ -25,7 +25,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=476
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=451
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -88,28 +88,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 957,
-  "Name": "Howell Inc and Sons",
-  "Description": "Integrated motivating local area network",
-  "DeltaJson": "cum",
+  "ConfigurableScreenDeltaId": 589,
+  "Name": "Luettgen Group",
+  "Description": "Polarised background open system",
+  "DeltaJson": "error",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "qui",
-  "UpdatedDate": "1997-01-25T17:37:17.1222736+01:00",
-  "CreatedDate": "2019-11-19T17:37:17.1222736+01:00",
+  "RecipeId": "itaque",
+  "UpdatedDate": "2006-10-05T14:19:02.916778+02:00",
+  "CreatedDate": "2000-07-05T14:19:02.916778+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    558,
-    90
+    221,
+    931
   ],
-  "AppliesToKey": "placeat",
+  "AppliesToKey": "soluta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 61
+      "FieldType": "System.Int32",
+      "FieldLength": 678
     }
   }
 }

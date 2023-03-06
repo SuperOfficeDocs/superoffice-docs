@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IUserDefinedFieldInfoAgen
 
 ## GetUserDefinedFieldInfo
 
-Gets a UserDefinedFieldInfo object.
 
-* **userDefinedFieldInfoId:** The identifier of the UserDefinedFieldInfo object
 
-**Returns:** UserDefinedFieldInfo
+
 
 [WSDL file for Services87/UserDefinedFieldInfo](../Services87-UserDefinedFieldInfo.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetUserDefinedFieldInfo Response
 
@@ -104,3 +103,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

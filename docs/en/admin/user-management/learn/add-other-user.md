@@ -10,7 +10,7 @@ language: en
 so.envir: onsite
 ---
 
-# Add anonymous user or system user
+# Add anonymous user or system user (Onsite)
 
 [!include[Requirement](includes/note-users-that-req-es.md)]
 

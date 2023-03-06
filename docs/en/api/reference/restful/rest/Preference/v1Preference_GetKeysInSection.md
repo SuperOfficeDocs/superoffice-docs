@@ -71,7 +71,7 @@ OK
 GET /api/v1/Preference/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,50 +82,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 5,
-    "Name": "Prohaska LLC",
-    "ToolTip": "Placeat fuga aperiam qui.",
-    "Deleted": true,
-    "Rank": 670,
-    "Type": "sapiente",
+    "Id": 238,
+    "Name": "Stroman-Ondricka",
+    "ToolTip": "Odio dolor doloremque enim odit consequatur quia dolore.",
+    "Deleted": false,
+    "Rank": 669,
+    "Type": "temporibus",
     "ChildItems": [
       {
-        "Id": 572,
-        "Name": "Kunze LLC",
-        "ToolTip": "Tempore nemo repellat doloremque dolor.",
-        "Deleted": true,
-        "Rank": 782,
-        "Type": "rerum",
+        "Id": 972,
+        "Name": "Gorczany LLC",
+        "ToolTip": "Aspernatur nam quam.",
+        "Deleted": false,
+        "Rank": 213,
+        "Type": "esse",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatum",
-        "ColorBlock": 580,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "facere",
-        "FullName": "Litzy Bernier",
+        "IconHint": "ipsa",
+        "ColorBlock": 826,
+        "ExtraInfo": "rerum",
+        "StyleHint": "optio",
+        "FullName": "Chasity O'Hara",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 943
+            "FieldType": "System.String",
+            "FieldLength": 834
           }
         }
       }
     ],
-    "IconHint": "corrupti",
-    "ColorBlock": 826,
-    "ExtraInfo": "minima",
-    "StyleHint": "assumenda",
-    "FullName": "Myrtis McLaughlin",
+    "IconHint": "consectetur",
+    "ColorBlock": 568,
+    "ExtraInfo": "id",
+    "StyleHint": "quia",
+    "FullName": "Blanche Daugherty",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 548
+        "FieldLength": 454
       }
     }
   }

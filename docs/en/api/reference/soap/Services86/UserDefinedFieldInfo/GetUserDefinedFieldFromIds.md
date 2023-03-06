@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserDefinedFieldInfoAgen
 
 ## GetUserDefinedFieldFromIds
 
-Return an given array of user defined field identified by the ids.
 
-* **ids:** Array of user defined field ids
 
-**Returns:** Returns an array of user-defined field info carriers
+
 
 [WSDL file for Services86/UserDefinedFieldInfo](../Services86-UserDefinedFieldInfo.md)
 
@@ -50,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetUserDefinedFieldFromIds Response
 
@@ -108,3 +107,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

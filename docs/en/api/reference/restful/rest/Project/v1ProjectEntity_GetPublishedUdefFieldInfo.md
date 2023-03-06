@@ -92,7 +92,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 422,
-  "ColumnId": 871,
-  "FieldDefault": "aut",
-  "FieldHeight": 731,
-  "FieldLabel": "vitae",
-  "FieldLeft": 824,
-  "FieldTop": 694,
+  "UDefFieldId": 392,
+  "ColumnId": 607,
+  "FieldDefault": "distinctio",
+  "FieldHeight": 287,
+  "FieldLabel": "ratione",
+  "FieldLeft": 631,
+  "FieldTop": 475,
   "FieldType": "Checkbox",
-  "FieldWidth": 983,
-  "FormatMask": "incidunt",
+  "FieldWidth": 714,
+  "FormatMask": "vel",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 148,
-  "LabelLeft": 664,
-  "LabelTop": 142,
-  "LabelWidth": 974,
-  "LastVersionId": 555,
-  "ListTableId": 178,
-  "IsMandatory": false,
+  "IsIndexed": false,
+  "LabelHeight": 81,
+  "LabelLeft": 4,
+  "LabelTop": 233,
+  "LabelWidth": 470,
+  "LastVersionId": 551,
+  "ListTableId": 297,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 730,
-  "ProgId": "voluptas",
-  "IsReadOnly": true,
-  "ShortLabel": "quod",
-  "TabOrder": 890,
-  "TextLength": 782,
-  "Tooltip": "voluptatem",
-  "UdefIdentity": 835,
-  "UDListDefinitionId": 540,
+  "Page1LineNo": 49,
+  "ProgId": "sed",
+  "IsReadOnly": false,
+  "ShortLabel": "eos",
+  "TabOrder": 438,
+  "TextLength": 332,
+  "Tooltip": "dolorem",
+  "UdefIdentity": 349,
+  "UDListDefinitionId": 825,
   "Justification": "Center",
-  "Version": 418,
-  "TemplateVariableName": "Greenfelder Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Hoppe-Hane",
+  "Version": 753,
+  "TemplateVariableName": "Cummings, Ledner and Dooley",
+  "HasBeenPublished": true,
+  "MdoListName": "Pacocha-Rau",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 881
+      "FieldLength": 489
     }
   }
 }

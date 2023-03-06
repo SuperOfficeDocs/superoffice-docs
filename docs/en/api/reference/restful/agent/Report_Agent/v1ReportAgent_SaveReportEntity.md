@@ -76,17 +76,17 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 505,
+  "ReportId": 222,
   "ReportCategory": "All",
-  "Description": "Devolved bi-directional process improvement",
+  "Description": "Configurable background standardization",
   "ReportLayout": "CalendarMonth",
-  "Name": "Champlin Group",
-  "AssociateId": 496,
-  "TemplateId": 804,
+  "Name": "Schmidt-Runte",
+  "AssociateId": 618,
+  "TemplateId": 619,
   "Published": false
 }
 ```
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 424,
+  "ReportId": 25,
   "ReportCategory": "All",
-  "Description": "Enterprise-wide even-keeled frame",
+  "Description": "Advanced discrete support",
   "ReportLayout": "CalendarMonth",
-  "Name": "Walter Inc and Sons",
-  "AssociateId": 950,
-  "TemplateId": 743,
+  "Name": "Lynch, Volkman and Keeling",
+  "AssociateId": 201,
+  "TemplateId": 886,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 572
+      "FieldLength": 505
     }
   }
 }

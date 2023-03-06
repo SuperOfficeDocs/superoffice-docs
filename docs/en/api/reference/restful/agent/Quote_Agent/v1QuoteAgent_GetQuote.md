@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 197
+  "QuoteId": 893
 }
 ```
 
@@ -100,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 785,
-  "SaleId": 92,
-  "QuoteConnectionId": 345,
-  "ERPQuoteKey": "quo",
-  "ERPOrderKey": "aut",
-  "ActiveQuoteVersionId": 64,
-  "AcceptedQuoteAlternativeId": 16,
-  "UseValuesFromQuote": 618,
-  "DocumentId": 177,
-  "PoNumber": "1128688",
+  "QuoteId": 716,
+  "SaleId": 794,
+  "QuoteConnectionId": 143,
+  "ERPQuoteKey": "earum",
+  "ERPOrderKey": "est",
+  "ActiveQuoteVersionId": 333,
+  "AcceptedQuoteAlternativeId": 380,
+  "UseValuesFromQuote": 744,
+  "DocumentId": 369,
+  "PoNumber": "1318003",
   "OrderComment": "provident",
-  "PreferredEmailCulture": "luna@brakus.ca",
+  "PreferredEmailCulture": "terry@leffler.us",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 789
+      "FieldLength": 275
     }
   }
 }

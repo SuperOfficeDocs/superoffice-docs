@@ -108,7 +108,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 583
+  "ChatSessionId": 634
 }
 ```
 
@@ -119,29 +119,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 946,
-  "TopicId": 839,
+  "ChatSessionId": 581,
+  "TopicId": 276,
   "User": null,
   "Person": null,
-  "CustomerAlias": "doloremque",
-  "CustomerHost": "ut",
-  "CustomerName": "Wunsch Group",
-  "CustomerEmail": "presley.stamm@gerhold.co.uk",
-  "CustomerPhone": "1-060-054-9439",
+  "CustomerAlias": "qui",
+  "CustomerHost": "labore",
+  "CustomerName": "Littel-Johnston",
+  "CustomerEmail": "howell.reichel@kriskihn.biz",
+  "CustomerPhone": "388.282.0855 x337",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Gutmann Group",
+  "CustomerCompanyName": "Kertzmann, Dickinson and Howe",
   "Status": "Closed",
-  "FirstMessage": "voluptatum",
-  "LastMessage": "laudantium",
-  "WhenRequested": "2016-01-16T17:37:17.0502426+01:00",
-  "WhenStarted": "2017-03-03T17:37:17.0502426+01:00",
-  "WhenEnded": "2006-03-07T17:37:17.0502426+01:00",
-  "WhenIdle": "2014-06-29T17:37:17.0502426+02:00",
-  "WhenFetched": "2006-04-12T17:37:17.0502426+02:00",
-  "SessionKey": "rerum",
-  "InitialQueuePos": 560,
-  "AlertLevel": 641,
-  "Rank": 864,
+  "FirstMessage": "voluptatem",
+  "LastMessage": "consectetur",
+  "WhenRequested": "2007-08-02T14:19:02.8699025+02:00",
+  "WhenStarted": "2011-10-12T14:19:02.8699025+02:00",
+  "WhenEnded": "2021-03-17T14:19:02.8699025+01:00",
+  "WhenIdle": "1996-04-24T14:19:02.8699025+02:00",
+  "WhenFetched": "2003-06-28T14:19:02.8699025+02:00",
+  "SessionKey": "unde",
+  "InitialQueuePos": 435,
+  "AlertLevel": 257,
+  "Rank": 737,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -149,13 +149,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 7,
+  "Rating": 19,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 364
+      "FieldType": "System.Int32",
+      "FieldLength": 712
     }
   }
 }

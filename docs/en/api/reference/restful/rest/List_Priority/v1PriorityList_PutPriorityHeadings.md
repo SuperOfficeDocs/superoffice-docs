@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 43,
-    "Name": "Johnson-Morissette",
-    "Tooltip": "delectus",
+    "HeadingId": 272,
+    "Name": "Schinner, Kuhic and McGlynn",
+    "Tooltip": "cum",
     "Deleted": false,
-    "Rank": 245,
-    "UdListDefinitionId": 816
+    "Rank": 351,
+    "UdListDefinitionId": 814
   },
   {
-    "HeadingId": 43,
-    "Name": "Johnson-Morissette",
-    "Tooltip": "delectus",
+    "HeadingId": 272,
+    "Name": "Schinner, Kuhic and McGlynn",
+    "Tooltip": "cum",
     "Deleted": false,
-    "Rank": 245,
-    "UdListDefinitionId": 816
+    "Rank": 351,
+    "UdListDefinitionId": 814
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 39,
-    "Name": "Klein, Harris and Kilback",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 222,
-    "UdListDefinitionId": 142,
+    "HeadingId": 252,
+    "Name": "Pagac Group",
+    "Tooltip": "laboriosam",
+    "Deleted": false,
+    "Rank": 579,
+    "UdListDefinitionId": 113,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 439
+        "FieldLength": 380
       }
     }
   }

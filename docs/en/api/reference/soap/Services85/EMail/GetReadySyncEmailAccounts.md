@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.GetReadySyncE
 
 ## GetReadySyncEmailAccounts
 
-Gets the list of SyncUserAccounts that should be synced.
 
-**Returns:** List of accounts to sync
+
+
 
 [WSDL file for Services85/EMail](../Services85-EMail.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetReadySyncEmailAccounts Response
 
 ```xml
@@ -72,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

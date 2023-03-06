@@ -108,11 +108,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "ut",
+  "ProgId": "sapiente",
   "OwnerType": "Appointment"
 }
 ```
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 166,
-  "ColumnId": 191,
-  "FieldDefault": "eos",
-  "FieldHeight": 745,
-  "FieldLabel": "repellat",
-  "FieldLeft": 111,
-  "FieldTop": 473,
+  "UDefFieldId": 138,
+  "ColumnId": 598,
+  "FieldDefault": "eum",
+  "FieldHeight": 895,
+  "FieldLabel": "rerum",
+  "FieldLeft": 935,
+  "FieldTop": 989,
   "FieldType": "Checkbox",
-  "FieldWidth": 787,
-  "FormatMask": "ut",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 614,
-  "LabelLeft": 930,
-  "LabelTop": 401,
-  "LabelWidth": 20,
-  "LastVersionId": 305,
-  "ListTableId": 247,
+  "FieldWidth": 116,
+  "FormatMask": "consequatur",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 252,
+  "LabelLeft": 519,
+  "LabelTop": 772,
+  "LabelWidth": 890,
+  "LastVersionId": 185,
+  "ListTableId": 643,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 856,
-  "ProgId": "ut",
+  "Page1LineNo": 760,
+  "ProgId": "fuga",
   "IsReadOnly": false,
-  "ShortLabel": "itaque",
-  "TabOrder": 902,
-  "TextLength": 197,
-  "Tooltip": "vel",
-  "UdefIdentity": 578,
-  "UDListDefinitionId": 244,
+  "ShortLabel": "est",
+  "TabOrder": 491,
+  "TextLength": 720,
+  "Tooltip": "sit",
+  "UdefIdentity": 209,
+  "UDListDefinitionId": 753,
   "Justification": "Center",
-  "Version": 984,
-  "TemplateVariableName": "Romaguera, Beatty and Kerluke",
-  "HasBeenPublished": true,
-  "MdoListName": "Collins Inc and Sons",
+  "Version": 427,
+  "TemplateVariableName": "Nitzsche, Pollich and Ernser",
+  "HasBeenPublished": false,
+  "MdoListName": "Wilkinson, Hammes and Gorczany",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 285
+      "FieldType": "System.Int32",
+      "FieldLength": 223
     }
   }
 }

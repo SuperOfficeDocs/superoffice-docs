@@ -64,34 +64,34 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 922,
+  "ProjectEntityId": 440,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 574,
-      "ContactId": 421,
-      "ProjectId": 108,
-      "ContactName": "Davis Inc and Sons",
+      "ProjectmemberId": 867,
+      "ContactId": 640,
+      "ProjectId": 47,
+      "ContactName": "Runolfsdottir-Doyle",
       "ContactDepartment": "",
-      "ProjectName": "Hackett-Larkin",
-      "EmailId": 839,
-      "EmailAddress": "eloise.hartmann@toy.ca",
-      "CountryId": 600,
-      "Firstname": "Elsie",
-      "MiddleName": "Schmitt, Bauch and Labadie",
-      "Lastname": "Mante",
-      "PersonId": 761,
-      "Mrmrs": "vitae",
-      "ProjectMemberTypeName": "Kuhic-Ondricka",
-      "Phone": "900-541-7614",
-      "PhoneId": 523,
-      "ProjectMemberTypeId": 149,
-      "EmailAddressName": "jordyn@torp.com",
-      "Comment": "accusantium",
-      "FullName": "Mrs. Alana Moen II"
+      "ProjectName": "Hettinger, Reichel and Rempel",
+      "EmailId": 10,
+      "EmailAddress": "clementina@koss.name",
+      "CountryId": 239,
+      "Firstname": "Emanuel",
+      "MiddleName": "King Inc and Sons",
+      "Lastname": "Heller",
+      "PersonId": 189,
+      "Mrmrs": "et",
+      "ProjectMemberTypeName": "Hessel Inc and Sons",
+      "Phone": "257.854.0401",
+      "PhoneId": 900,
+      "ProjectMemberTypeId": 391,
+      "EmailAddressName": "kelton.kirlin@pfannerstillconroy.biz",
+      "Comment": "omnis",
+      "FullName": "Eleanora Prosacco"
     }
   ]
 }

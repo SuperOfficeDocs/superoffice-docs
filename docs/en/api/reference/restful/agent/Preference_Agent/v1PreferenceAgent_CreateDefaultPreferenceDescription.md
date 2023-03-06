@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 128,
-  "Section": "quos",
-  "Key": "dolore",
-  "Name": "Little, Schinner and Beer",
+  "PrefDescId": 552,
+  "Section": "nobis",
+  "Key": "aperiam",
+  "Name": "Kuphal-Ferry",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Streamlined contextually-based standardization",
+  "Description": "Function-based next generation alliance",
   "IsBuiltin": false,
-  "TableName": "Padberg Group",
-  "UserDefinedListId": 39,
-  "Rank": 982,
-  "SubGroup": "praesentium",
-  "MinLevel": 394,
-  "MaxValue": 382,
-  "MinValue": 612,
-  "RequiredLicense": "dolore",
+  "TableName": "Bayer, Zboncak and Johnston",
+  "UserDefinedListId": 549,
+  "Rank": 192,
+  "SubGroup": "illum",
+  "MinLevel": 553,
+  "MaxValue": 585,
+  "MinValue": 852,
+  "RequiredLicense": "fugiat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 430
+      "FieldLength": 434
     }
   }
 }

@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.SaveListEntity
 
 ## SaveListEntityByName
 
-Save a ListEntity resolved by the provided name.
 
-* **name:** The name of the list to save.
-* **listEntity:** The ListEntity to save.
 
-**Returns:** A ListEntity or null.
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -62,6 +59,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveListEntityByName Response
 
 ```xml
@@ -93,3 +91,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

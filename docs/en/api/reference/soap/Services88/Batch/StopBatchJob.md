@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IBatchAgent.StopBatchJob"
 
 ## StopBatchJob
 
-Stop a batch job based on Id.
 
-* **id:** Id of the batch job to stop.
 
-**Returns:** Returns true if the job was stopped successfully.
+
 
 [WSDL file for Services88/Batch](../Services88-Batch.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## StopBatchJob Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

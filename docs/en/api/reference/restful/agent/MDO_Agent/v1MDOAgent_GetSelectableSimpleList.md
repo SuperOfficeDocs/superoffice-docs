@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mohr Inc and Sons"
+  "Name": "Simonis Inc and Sons"
 }
 ```
 
@@ -102,56 +102,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 314,
-    "Name": "Becker, Volkman and Walsh",
-    "ToolTip": "Qui quae saepe dicta delectus ab.",
+    "Id": 474,
+    "Name": "Williamson-Schneider",
+    "ToolTip": "Dolores in ut aut consectetur similique impedit.",
     "Deleted": true,
-    "Rank": 215,
-    "Type": "excepturi",
-    "ColorBlock": 720,
-    "IconHint": "saepe",
-    "Selected": true,
-    "LastChanged": "1998-05-16T17:37:18.3382417+02:00",
+    "Rank": 631,
+    "Type": "accusamus",
+    "ColorBlock": 9,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2013-06-01T14:19:03.7176242+02:00",
     "ChildItems": [
       {
-        "Id": 828,
-        "Name": "Brakus-Bahringer",
-        "ToolTip": "Adipisci qui nisi dolore minima illum aliquam.",
+        "Id": 407,
+        "Name": "Jones, Windler and Casper",
+        "ToolTip": "Sequi quia veniam voluptas vel voluptatem quo.",
         "Deleted": false,
-        "Rank": 487,
-        "Type": "repellendus",
-        "ColorBlock": 745,
-        "IconHint": "nihil",
-        "Selected": true,
-        "LastChanged": "2018-12-05T17:37:18.3382417+01:00",
+        "Rank": 357,
+        "Type": "exercitationem",
+        "ColorBlock": 64,
+        "IconHint": "numquam",
+        "Selected": false,
+        "LastChanged": "2018-12-26T14:19:03.7176242+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "ea",
-        "Hidden": false,
-        "FullName": "Miss Scottie Hermann",
+        "ExtraInfo": "culpa",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Miss Abbey Dexter Breitenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 359
+            "FieldLength": 535
           }
         }
       }
     ],
-    "ExtraInfo": "culpa",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Ms. Lula Fay III",
+    "ExtraInfo": "dolor",
+    "StyleHint": "atque",
+    "Hidden": true,
+    "FullName": "Luis Price",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 817
+        "FieldLength": 376
       }
     }
   }

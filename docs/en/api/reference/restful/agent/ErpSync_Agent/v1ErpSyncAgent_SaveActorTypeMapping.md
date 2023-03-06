@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,33 +93,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 488,
-  "IsActive": true,
+  "ErpConnectionId": 30,
+  "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 503,
-      "CrmFieldKey": "et",
-      "CrmDisplayName": "Beahan, Bahringer and Larson",
+      "ErpFieldId": 834,
+      "CrmFieldKey": "numquam",
+      "CrmDisplayName": "O'Hara LLC",
       "CrmDisplayTooltip": "voluptas",
-      "ErpFieldKey": "aut",
+      "ErpFieldKey": "blanditiis",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Weissnat, Sauer and Greenfelder",
-      "ErpDisplayTooltip": "dignissimos",
+      "ErpDisplayName": "Wunsch, Gutkowski and Goldner",
+      "ErpDisplayTooltip": "aut",
       "SyncToCrm": false,
-      "SyncToErp": true,
+      "SyncToErp": false,
       "ShowInGui": false,
       "ShowInSearch": false,
       "AlreadyMapped": false,
       "MissingInERP": false,
-      "MissingInCRM": false,
+      "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "qui",
+      "ListReference": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 1000
+          "FieldType": "System.Int32",
+          "FieldLength": 962
         }
       }
     }
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 72
+      "FieldType": "System.String",
+      "FieldLength": 498
     }
   }
 }

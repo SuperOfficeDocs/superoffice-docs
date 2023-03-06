@@ -69,17 +69,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumnsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kshlerin Group",
-  "ProviderName": "Blanda, Ratke and Windler",
-  "Context": "itaque",
-  "OwnerKeys": "sit",
+  "GuiName": "Thompson-Erdman",
+  "ProviderName": "King, Lesch and Schamberger",
+  "Context": "perferendis",
+  "OwnerKeys": "iusto",
   "ChosenColumns": [
-    "hic",
-    "delectus"
+    "nisi",
+    "illo"
   ]
 }
 ```

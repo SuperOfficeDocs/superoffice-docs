@@ -58,6 +58,8 @@ OK
 | ArchiveBehaviour | string | None, rightclick on, multiselect |
 | Rank | int32 | Rank order |
 | Encoding | string | Encoding for url |
+| ProgId | string | String key that can be used to uniquely retrieve the task menu; particularly useful for partners and others who do not wish to store database ID's |
+| Deleted | bool | True if deleted |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -67,7 +69,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,24 +79,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 449,
-  "Name": "West-Schinner",
-  "Tooltip": "sed",
-  "TableName": "Schowalter-Treutel",
-  "Area": "ut",
+  "TaskMenuId": 625,
+  "Name": "Balistreri-Stehr",
+  "Tooltip": "praesentium",
+  "TableName": "Streich Group",
+  "Area": "earum",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 571,
+  "CrmScriptId": 659,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 902,
+  "Rank": 135,
   "Encoding": "ANSI",
+  "ProgId": "sed",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 881
+      "FieldLength": 741
     }
   }
 }

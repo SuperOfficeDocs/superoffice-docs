@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ICustomerServiceAgent.Get
 
 ## GetMailboxEntity
 
-Gets a MailboxEntity object.
 
-* **mailboxEntityId:** The identifier of the MailboxEntity object
 
-**Returns:** MailboxEntity
+
 
 [WSDL file for Services88/CustomerService](../Services88-CustomerService.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetMailboxEntity Response
 
 ```xml
@@ -77,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

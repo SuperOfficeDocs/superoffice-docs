@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.CanDeleteEr
 
 ## CanDeleteErpSyncConnectorEntity
 
-Can we delete the connector?
 
-* **erpSyncConnectorId:** The ID of the ErpSync connector to check if can be deleted
 
-**Returns:** Enum response says ok or what is wrong
+
 
 [WSDL file for Services84/ErpSync](../Services84-ErpSync.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CanDeleteErpSyncConnectorEntity Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

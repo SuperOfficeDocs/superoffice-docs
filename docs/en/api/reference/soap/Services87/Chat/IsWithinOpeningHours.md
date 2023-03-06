@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IChatAgent.IsWithinOpenin
 
 ## IsWithinOpeningHours
 
-Check if we are right now within the opening hours of the given topic. Will use timezones to calculate if configured.
 
-* **chatTopicId:** The id of the topic to check
 
-**Returns:** True if we are within opening hours, or if the topic does not use opening hours
+
 
 [WSDL file for Services87/Chat](../Services87-Chat.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## IsWithinOpeningHours Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

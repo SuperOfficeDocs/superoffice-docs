@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.GetQuoteVersi
 
 ## GetQuoteVersionWorkflowState
 
-Get all button states for the Quote version dialog. Packages ImageState, Button states and status info into one call. Collects most important warnings/errors from across all quotelines/alternatives in this quote version.
 
-* **quoteVersionId:** Id of the quote version to get the button states for.
-* **quoteAlternativeId:** Id of the active quote alternative id.
 
-**Returns:** Workflow state information
+
 
 [WSDL file for Services87/Quote](../Services87-Quote.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetQuoteVersionWorkflowState Response
 
@@ -101,3 +99,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

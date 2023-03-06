@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 62,
-    "Section": "expedita",
-    "Key": "vel",
-    "Name": "Marvin-Wisozk",
+    "PrefDescId": 360,
+    "Section": "voluptatem",
+    "Key": "at",
+    "Name": "Kovacek Group",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Future-proofed multimedia budgetary management",
-    "IsBuiltin": true,
-    "TableName": "Bauch-Upton",
-    "UserDefinedListId": 163,
-    "Rank": 939,
-    "SubGroup": "neque",
-    "MinLevel": 136,
-    "MaxValue": 681,
-    "MinValue": 712,
-    "RequiredLicense": "nemo",
+    "Description": "Persevering foreground strategy",
+    "IsBuiltin": false,
+    "TableName": "Hettinger, Crist and Morar",
+    "UserDefinedListId": 939,
+    "Rank": 200,
+    "SubGroup": "sit",
+    "MinLevel": 755,
+    "MaxValue": 595,
+    "MinValue": 347,
+    "RequiredLicense": "quam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 562
+        "FieldLength": 357
       }
     }
   }

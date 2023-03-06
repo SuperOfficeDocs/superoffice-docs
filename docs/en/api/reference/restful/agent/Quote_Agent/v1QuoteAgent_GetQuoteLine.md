@@ -120,11 +120,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 790
+  "QuoteLineId": 1002
 }
 ```
 
@@ -135,88 +135,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 377,
-  "ERPQuoteLineKey": "sit",
-  "QuoteAlternativeId": 577,
-  "ERPProductKey": "pariatur",
+  "QuoteLineId": 129,
+  "ERPQuoteLineKey": "quia",
+  "QuoteAlternativeId": 505,
+  "ERPProductKey": "at",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 29171.272,
-  "DeliveredQuantity": 19753.602,
-  "Rank": 166,
-  "Name": "Torp LLC",
-  "Description": "Vision-oriented foreground migration",
-  "Code": "voluptatem",
-  "QuantityUnit": "sunt",
-  "PriceUnit": "voluptas",
-  "ItemNumber": "256192",
+  "Quantity": 17089.702,
+  "DeliveredQuantity": 10263.85,
+  "Rank": 7,
+  "Name": "Green Group",
+  "Description": "Automated exuding pricing structure",
+  "Code": "laboriosam",
+  "QuantityUnit": "quas",
+  "PriceUnit": "pariatur",
+  "ItemNumber": "365288",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sint",
-  "ProductTypeKey": "voluptates",
-  "Supplier": "assumenda",
-  "SupplierCode": "est",
-  "Thumbnail": "reprehenderit",
-  "VATInfo": "aut",
-  "VAT": 5694.478,
-  "UnitCost": 26250.384,
-  "UnitMinimumPrice": 16641.54,
-  "UnitListPrice": 28441.05,
+  "ProductFamilyKey": "laboriosam",
+  "ProductTypeKey": "ea",
+  "Supplier": "similique",
+  "SupplierCode": "cupiditate",
+  "Thumbnail": "fugiat",
+  "VATInfo": "qui",
+  "VAT": 7910.2159999999994,
+  "UnitCost": 23135.188,
+  "UnitMinimumPrice": 9875.234,
+  "UnitListPrice": 8493.14,
   "ExtraInfo": [
     {
-      "Name": "Durgan LLC",
-      "Value": "quis",
+      "Name": "Conn Group",
+      "Value": "consectetur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 52
+          "FieldType": "System.Int32",
+          "FieldLength": 695
         }
       }
     },
     {
-      "Name": "Durgan LLC",
-      "Value": "quis",
+      "Name": "Conn Group",
+      "Value": "consectetur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 52
+          "FieldType": "System.Int32",
+          "FieldLength": 695
         }
       }
     }
   ],
-  "RawExtraInfo": "consequatur",
-  "IsSubscription": false,
-  "SubscriptionUnit": "neque",
-  "SubscriptionQuantity": 7255.21,
-  "SubscriptionStart": "2009-06-29T17:37:18.7732406+02:00",
-  "ERPDiscountPercent": 22846.86,
-  "ERPDiscountAmount": 3757.6659999999997,
-  "DiscountPercent": 16481.706,
-  "DiscountAmount": 24150.604,
+  "RawExtraInfo": "ipsam",
+  "IsSubscription": true,
+  "SubscriptionUnit": "fuga",
+  "SubscriptionQuantity": 30587.84,
+  "SubscriptionStart": "2014-06-30T14:19:04.0469597+02:00",
+  "ERPDiscountPercent": 24254.025999999998,
+  "ERPDiscountAmount": 5324.666,
+  "DiscountPercent": 15767.153999999999,
+  "DiscountAmount": 6017.28,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 13181.604,
-  "EarningAmount": 29033.376,
-  "SubTotal": 22213.791999999998,
-  "TotalPrice": 25817.892,
-  "Rights": "dolor",
-  "Rule": "adipisci",
-  "ExtraField1": "quos",
-  "ExtraField2": "sunt",
-  "ExtraField3": "perspiciatis",
-  "ExtraField4": "doloremque",
-  "ExtraField5": "est",
+  "EarningPercent": 23514.402,
+  "EarningAmount": 25990.262,
+  "SubTotal": 8317.636,
+  "TotalPrice": 1488.6499999999999,
+  "Rights": "rerum",
+  "Rule": "repellat",
+  "ExtraField1": "ratione",
+  "ExtraField2": "quia",
+  "ExtraField3": "nihil",
+  "ExtraField4": "eveniet",
+  "ExtraField5": "voluptatum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldType": "System.String",
+      "FieldLength": 400
     }
   }
 }

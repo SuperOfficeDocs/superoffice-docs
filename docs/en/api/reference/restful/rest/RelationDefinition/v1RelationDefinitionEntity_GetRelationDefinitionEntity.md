@@ -79,7 +79,7 @@ RelationDefinitionEntity found.
 GET /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,20 +89,20 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 476,
-  "Name": "Beatty, Bashirian and Kub",
-  "Tooltip": "laudantium",
-  "PassiveText": "voluptatem",
+  "ReldefId": 363,
+  "Name": "Morissette, Metz and D'Amore",
+  "Tooltip": "enim",
+  "PassiveText": "illo",
   "Deleted": false,
-  "Rank": 566,
+  "Rank": 596,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 824
+      "FieldType": "System.String",
+      "FieldLength": 413
     }
   },
   "_Links": {

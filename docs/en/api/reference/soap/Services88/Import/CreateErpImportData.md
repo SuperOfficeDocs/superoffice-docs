@@ -11,14 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IImportAgent.CreateErpImp
 
 ## CreateErpImportData
 
-Populates the ImportLines and columnDefs basedfrom erp system
 
-* **restriction:** Archive restrictions.
-* **columns:** Columns.
-* **connectionId:** Connection id for Erp system
-* **erpActorType:** Erp Actor type
 
-**Returns:** The ImportLines and ColumnDefs
+
 
 [WSDL file for Services88/Import](../Services88-Import.md)
 
@@ -132,6 +127,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateErpImportData Response
 
 ```xml
@@ -171,3 +167,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

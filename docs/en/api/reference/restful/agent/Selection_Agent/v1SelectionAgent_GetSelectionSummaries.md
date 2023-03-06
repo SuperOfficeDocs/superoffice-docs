@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    339,
-    50
+    923,
+    770
   ]
 }
 ```
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 266,
-    "Name": "Roberts, Botsford and Kuvalis",
-    "TargetTable": "nostrum",
-    "Registered": "2004-04-12T17:37:19.2142443+02:00",
-    "ProviderName": "Moore-Kshlerin"
+    "SelectionId": 55,
+    "Name": "Mohr, Ebert and VonRueden",
+    "TargetTable": "in",
+    "Registered": "2013-06-02T14:19:04.2192297+02:00",
+    "ProviderName": "Beier-Schroeder"
   },
   {
-    "SelectionId": 266,
-    "Name": "Roberts, Botsford and Kuvalis",
-    "TargetTable": "nostrum",
-    "Registered": "2004-04-12T17:37:19.2142443+02:00",
-    "ProviderName": "Moore-Kshlerin"
+    "SelectionId": 55,
+    "Name": "Mohr, Ebert and VonRueden",
+    "TargetTable": "in",
+    "Registered": "2013-06-02T14:19:04.2192297+02:00",
+    "ProviderName": "Beier-Schroeder"
   }
 ]
 ```

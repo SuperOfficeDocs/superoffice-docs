@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -81,26 +81,26 @@ Content-Type: application/json; charset=utf-8
       "DefaultShowInGui": false,
       "DefaultShowInSelector": false,
       "IsActive": false,
-      "Key": "impedit",
-      "ValueType": "quaerat",
+      "Key": "et",
+      "ValueType": "reiciendis",
       "Mandatory": false,
-      "EncodedDisplayName": "Pacocha Inc and Sons",
-      "EncodedDisplayDescription": "Quality-focused modular parallelism",
-      "IconHint": "omnis",
+      "EncodedDisplayName": "Nader LLC",
+      "EncodedDisplayDescription": "Proactive global circuit",
+      "IconHint": "explicabo",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "veniam",
-      "EncodedDataCaptionDescription": "Expanded exuding parallelism",
-      "CurrentOperationType": "et",
+      "EncodedDataCaption": "et",
+      "EncodedDataCaptionDescription": "Organic responsive alliance",
+      "CurrentOperationType": "asperiores",
       "Values": [
-        "maxime",
-        "similique"
+        "ex",
+        "ullam"
       ],
       "DisplayValues": [
-        "in",
-        "et"
+        "maiores",
+        "aut"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Cummerata, Bradtke and Kerluke",
-  "Context": "odio",
-  "SelectionId": 920,
+  "TableName": "Jast Group",
+  "Context": "dolorem",
+  "SelectionId": 806,
   "IsShadow": false
 }
 ```
@@ -121,5 +121,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-599
+979
 ```

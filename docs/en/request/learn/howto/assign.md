@@ -2,19 +2,14 @@
 uid: help-en-request-assign
 title: Assignment methods
 description: Assignment methods for requests
-<<<<<<< HEAD
 author: HanneGunnarsson
-so.date: 06.29.2022
-=======
-author: SuperOffice RnD
 so.date: 02.14.2023
->>>>>>> 12524e485807edd9647d7ffe0382f40dbcb340f9
 keywords: request
 so.topic: concept
 language: en
 ---
 
-# Receive requests
+# Automatic assignment methods for requests
 
 For a request to be your responsibility, your name must appear in the request's **Owner** field. This can be set manually, for example when the [request is created][2]. But it may also be the result of automatic assignment of requests. Such assignment depends on the category the request belongs to, and the assignment method specified for this category.
 
@@ -34,17 +29,10 @@ For a request to be your responsibility, your name must appear in the request's 
 A request handler with category administration rights can specify the assignment method for categories:
 
 1. Go to **Settings and maintenance > Requests > Categories**.
-<<<<<<< HEAD
-2. Select the required category.
-3. Select the **Assignment method** tab.
-4. Select the appropriate options.
-5. Click **Save**.
-=======
 1. Select the required category.
 1. Select the **Assignment method** tab.
 1. Select the appropriate options.
 1. Click **OK**.
->>>>>>> 12524e485807edd9647d7ffe0382f40dbcb340f9
 
 ## Example
 
@@ -61,8 +49,4 @@ Imagine that your company has created a category for each department in the comp
 [3]: ../category/create.md
 [4]: accept.md
 
-<<<<<<< HEAD
 <!-- Referenced images -->
-=======
-<!-- Referenced images -->
->>>>>>> 12524e485807edd9647d7ffe0382f40dbcb340f9

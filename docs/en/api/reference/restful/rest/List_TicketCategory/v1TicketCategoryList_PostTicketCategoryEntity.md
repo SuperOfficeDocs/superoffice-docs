@@ -98,32 +98,32 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 777,
-  "ParentId": 429,
-  "Name": "O'Hara-Murray",
-  "Fullname": "qui",
-  "CategoryMaster": 287,
+  "TicketCategoryId": 797,
+  "ParentId": 805,
+  "Name": "Steuber-Schuppe",
+  "Fullname": "rerum",
+  "CategoryMaster": 882,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Senger-Gislason",
+  "ExternalName": "Rempel LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 706,
-  "ReplyTemplate": 639,
-  "NotificationEmail": "doug@treuteldaniel.us",
+  "AssignmentLag": 730,
+  "ReplyTemplate": 804,
+  "NotificationEmail": "arlene@reilly.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 500,
+  "EffectiveReplyTemplateId": 38,
   "ExtraFields": {
-    "ExtraFields1": "doloribus",
-    "ExtraFields2": "magnam"
+    "ExtraFields1": "non",
+    "ExtraFields2": "nulla"
   },
   "CustomFields": {
-    "CustomFields1": "corrupti",
+    "CustomFields1": "inventore",
     "CustomFields2": "est"
   }
 }
@@ -136,36 +136,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 576,
-  "ParentId": 325,
-  "Name": "Heaney LLC",
-  "Fullname": "aut",
-  "CategoryMaster": 745,
+  "TicketCategoryId": 426,
+  "ParentId": 758,
+  "Name": "White-Kohler",
+  "Fullname": "ipsam",
+  "CategoryMaster": 353,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Tremblay Inc and Sons",
+  "ExternalName": "Raynor-Adams",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 653,
-  "ReplyTemplate": 759,
-  "NotificationEmail": "jadon.harber@marquardt.biz",
+  "AssignmentLag": 984,
+  "ReplyTemplate": 347,
+  "NotificationEmail": "keara.schowalter@borerhuels.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 224,
+  "EffectiveReplyTemplateId": 30,
   "ExtraFields": {
-    "ExtraFields1": "illo",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "minus",
+    "ExtraFields2": "magni"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "ex"
+    "CustomFields1": "ea",
+    "CustomFields2": "voluptas"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 933
+      "FieldLength": 265
     }
   }
 }

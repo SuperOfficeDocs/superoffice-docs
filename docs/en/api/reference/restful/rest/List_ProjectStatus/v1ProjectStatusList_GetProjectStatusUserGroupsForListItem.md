@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 468,
-    "Name": "Kuhic Inc and Sons",
-    "ToolTip": "Unde nihil consequatur.",
+    "Id": 989,
+    "Name": "Littel, Zemlak and Gleichner",
+    "ToolTip": "Et autem.",
     "Deleted": true,
-    "Rank": 494,
-    "Type": "sapiente",
-    "ColorBlock": 995,
-    "IconHint": "maiores",
-    "Selected": true,
-    "LastChanged": "2003-11-14T17:37:40.1965055+01:00",
+    "Rank": 573,
+    "Type": "atque",
+    "ColorBlock": 410,
+    "IconHint": "sed",
+    "Selected": false,
+    "LastChanged": "2012-07-01T14:19:11.3992772+02:00",
     "ChildItems": [
       {
-        "Id": 621,
-        "Name": "Schiller, Abshire and Dibbert",
-        "ToolTip": "Provident cumque mollitia rerum nesciunt.",
+        "Id": 248,
+        "Name": "Shanahan, Kirlin and Waters",
+        "ToolTip": "Rerum tempore maxime recusandae sequi incidunt.",
         "Deleted": false,
-        "Rank": 13,
-        "Type": "expedita",
-        "ColorBlock": 461,
-        "IconHint": "nostrum",
+        "Rank": 533,
+        "Type": "temporibus",
+        "ColorBlock": 237,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2007-12-17T17:37:40.1965055+01:00",
+        "LastChanged": "2003-09-29T14:19:11.3992772+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "voluptate",
-        "Hidden": false,
-        "FullName": "Mckenzie Borer PhD",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Howell Mitchell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 404
+            "FieldLength": 69
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "excepturi",
+    "ExtraInfo": "assumenda",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Mr. Eldon Kyle DuBuque V",
+    "FullName": "Giovanna Feeney",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldType": "System.String",
+        "FieldLength": 167
       }
     }
   }

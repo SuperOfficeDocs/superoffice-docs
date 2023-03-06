@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 899,
-  "Name": "Monahan Group",
-  "Tooltip": "ducimus",
+  "Id": 651,
+  "Name": "Heathcote, Funk and Zboncak",
+  "Tooltip": "accusamus",
   "Deleted": false,
-  "Rank": 901,
+  "Rank": 242,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "numquam",
+  "ListType": "ad",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 981
+      "FieldLength": 131
     }
   },
   "_Links": {

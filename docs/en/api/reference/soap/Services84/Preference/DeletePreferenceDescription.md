@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IPreferenceAgent.DeletePr
 
 ## DeletePreferenceDescription
 
-Deletes the PreferenceDescription
 
-* **preferenceDescriptionId:** The identity of the PreferenceDescription
+
+
 
 [WSDL file for Services84/Preference](../Services84-Preference.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeletePreferenceDescription Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

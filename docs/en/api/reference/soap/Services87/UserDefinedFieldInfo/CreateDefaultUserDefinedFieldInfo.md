@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IUserDefinedFieldInfoAgen
 
 ## CreateDefaultUserDefinedFieldInfo
 
-Loading default values into a new UserDefinedFieldInfo.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-**Returns:** New UserDefinedFieldInfo with default values
+
+
 
 [WSDL file for Services87/UserDefinedFieldInfo](../Services87-UserDefinedFieldInfo.md)
 
@@ -46,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateDefaultUserDefinedFieldInfo Response
 
@@ -102,3 +102,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

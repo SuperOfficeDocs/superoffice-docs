@@ -84,24 +84,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 119,
-  "Name": "Beahan, Braun and Pollich",
-  "Tooltip": "enim",
+  "RoleId": 208,
+  "Name": "Wisoky Group",
+  "Tooltip": "dignissimos",
   "RoleType": "Anonymous",
-  "Deleted": 874,
-  "Rank": 8,
-  "Created": "2006-09-24T17:37:39.064304+02:00",
-  "UseCategories": 150,
+  "Deleted": 369,
+  "Rank": 159,
+  "Created": "2011-11-02T14:19:10.6623446+01:00",
+  "UseCategories": 342,
   "CreatedBy": null,
-  "Updated": "2002-05-31T17:37:39.064304+02:00",
+  "Updated": "2006-12-07T14:19:10.6623446+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 817
+      "FieldType": "System.String",
+      "FieldLength": 786
     }
   }
 }

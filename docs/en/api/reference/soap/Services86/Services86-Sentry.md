@@ -343,48 +343,27 @@ title: Services86.SentryAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Sentry">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Sentry</summary>
-    </wsdl:documentation>
     <wsdl:operation name="GetNewTableRight">
-      <wsdl:documentation>
-        <summary>Returns a TableRight for a new row based on tableName parameter.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Sentry/GetNewTableRight" name="GetNewTableRightRequest" message="tns:GetNewTableRightRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Sentry/GetNewTableRightResponse" name="GetNewTableRightResponse" message="tns:GetNewTableRightResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTableRightByOwnership">
-      <wsdl:documentation>
-        <summary>Return the TableRight from the relationship between the current user and the given user and group.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Sentry/GetTableRightByOwnership" name="GetTableRightByOwnershipRequest" message="tns:GetTableRightByOwnershipRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Sentry/GetTableRightByOwnershipResponse" name="GetTableRightByOwnershipResponse" message="tns:GetTableRightByOwnershipResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFunctionRights">
-      <wsdl:documentation>
-        <summary>Get a string array of all functions rights for the role of the current associate.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Sentry/GetFunctionRights" name="GetFunctionRightsRequest" message="tns:GetFunctionRightsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Sentry/GetFunctionRightsResponse" name="GetFunctionRightsResponse" message="tns:GetFunctionRightsResponse" />
     </wsdl:operation>
     <wsdl:operation name="HasFunctionRight">
-      <wsdl:documentation>
-        <summary>Get a boolean value indicating if the current user has the functional right.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Sentry/HasFunctionRight" name="HasFunctionRightRequest" message="tns:HasFunctionRightRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Sentry/HasFunctionRightResponse" name="HasFunctionRightResponse" message="tns:HasFunctionRightResponse" />
     </wsdl:operation>
     <wsdl:operation name="CanCreateAppointmentInAssociateDiaries">
-      <wsdl:documentation>
-        <summary>CanCreateAppointmentInAssociateDiaries will check if the current associate can create appointments in diaries belonging to the associates listed in associateIds. CanCreateAppointmentInAssociateDiaries will only check against associates that are diary owners. If none of the associates listed in the associateIds parameter is a diary owner, the method will return true.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Sentry/CanCreateAppointmentInAssociateDiaries" name="CanCreateAppointmentInAssociateDiariesRequest" message="tns:CanCreateAppointmentInAssociateDiariesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Sentry/CanCreateAppointmentInAssociateDiariesResponse" name="CanCreateAppointmentInAssociateDiariesResponse" message="tns:CanCreateAppointmentInAssociateDiariesResponse" />
     </wsdl:operation>
     <wsdl:operation name="CanCreateAppointmentInAllDiaries">
-      <wsdl:documentation>
-        <summary>CanCreateAppointmentInAllDiaries will check if the current associate can create appointments in diaries belonging all other associates. CanCreateAppointmentInAssociateDiaries will only check against associates that are diary owners.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Sentry/CanCreateAppointmentInAllDiaries" name="CanCreateAppointmentInAllDiariesRequest" message="tns:CanCreateAppointmentInAllDiariesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Sentry/CanCreateAppointmentInAllDiariesResponse" name="CanCreateAppointmentInAllDiariesResponse" message="tns:CanCreateAppointmentInAllDiariesResponse" />
     </wsdl:operation>
@@ -495,3 +474,4 @@ title: Services86.SentryAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

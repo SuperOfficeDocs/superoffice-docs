@@ -113,14 +113,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 310,
+  "SelectionId": 216,
   "SelectionMemberIds": [
-    226,
-    954
+    96,
+    477
   ]
 }
 ```
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Inverse solution-oriented approach",
-  "Postit": "fuga",
+  "Description": "Multi-tiered incremental definition",
+  "Postit": "nemo",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 562,
-  "IncludePerson": 526,
-  "MemberCount": 63,
-  "Name": "Hilll-Bradtke",
-  "PostitTextId": 981,
-  "CreatedDate": "2015-11-22T17:37:19.1792425+01:00",
-  "SelectionId": 702,
-  "SoundEx": "sunt",
-  "Source": 102,
-  "TextId": 310,
-  "UpdatedDate": "2000-04-03T17:37:19.1792425+02:00",
-  "UpdatedCount": 499,
-  "Visibility": 123,
+  "GroupIdx": 77,
+  "IncludePerson": 229,
+  "MemberCount": 341,
+  "Name": "Harris LLC",
+  "PostitTextId": 444,
+  "CreatedDate": "2006-08-24T14:19:04.1879797+02:00",
+  "SelectionId": 590,
+  "SoundEx": "dolorem",
+  "Source": 78,
+  "TextId": 123,
+  "UpdatedDate": "2006-05-14T14:19:04.1879797+02:00",
+  "UpdatedCount": 888,
+  "Visibility": 66,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 120,
-  "TargetTableName": "Wyman, Fahey and Ward",
-  "Completed": false,
-  "LeftSelectionId": 822,
-  "RightSelectionId": 955,
+  "CompanyUnique": true,
+  "TargetTableNumber": 366,
+  "TargetTableName": "Kunze Inc and Sons",
+  "Completed": true,
+  "LeftSelectionId": 344,
+  "RightSelectionId": 558,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Nikolaus-Gleichner",
-  "ShadowProviderName": "Abernathy, Schinner and Fahey",
-  "ChartKey": "praesentium",
-  "LastLoaded": "1999-12-08T17:37:19.1792425+01:00",
-  "LastLoadedBy": 440,
+  "MainProviderName": "Kunze-Lueilwitz",
+  "ShadowProviderName": "Gerhold Inc and Sons",
+  "ChartKey": "quam",
+  "LastLoaded": "2000-01-16T14:19:04.1879797+01:00",
+  "LastLoadedBy": 349,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-02-01T17:37:19.1792425+01:00",
-  "LastMembershipChangeBy": 618,
+  "LastMembershipChange": "2007-04-25T14:19:04.2036046+02:00",
+  "LastMembershipChangeBy": 477,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "rerum",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Durgan, Hilll and Gleason",
-  "DashboardTileDefinitionId": 134,
+  "MainHeading": "magni",
+  "MemberTabHeading": "omnis",
+  "MailingsProviderName": "Kertzmann, Langworth and Auer",
+  "DashboardTileDefinitionId": 421,
   "VisibleFor": [
     {
-      "VisibleId": 884,
+      "VisibleId": 684,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 511
+          "FieldLength": 329
         }
       }
     },
     {
-      "VisibleId": 884,
+      "VisibleId": 684,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 511
+          "FieldLength": 329
         }
       }
     }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldLength": 781
     }
   }
 }

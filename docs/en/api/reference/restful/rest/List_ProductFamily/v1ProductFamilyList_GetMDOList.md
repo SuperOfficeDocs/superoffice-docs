@@ -25,8 +25,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=iusto
+GET /api/v1/List/ProductFamily/MDOItems?flat=False
+GET /api/v1/List/ProductFamily/MDOItems?query=ratione
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 977,
-    "Name": "Jerde-Jaskolski",
-    "ToolTip": "Error id iste laudantium.",
-    "Deleted": false,
-    "Rank": 135,
-    "Type": "aut",
+    "Id": 115,
+    "Name": "Stanton Group",
+    "ToolTip": "Quia quo quos.",
+    "Deleted": true,
+    "Rank": 997,
+    "Type": "non",
     "ChildItems": [
       {
-        "Id": 438,
-        "Name": "Corkery-Goldner",
-        "ToolTip": "Molestias tenetur saepe necessitatibus ad aut illo.",
-        "Deleted": false,
-        "Rank": 343,
+        "Id": 554,
+        "Name": "Bechtelar-Gleason",
+        "ToolTip": "Qui aut facilis eaque et.",
+        "Deleted": true,
+        "Rank": 313,
         "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cum",
-        "ColorBlock": 570,
-        "ExtraInfo": "odit",
-        "StyleHint": "porro",
-        "FullName": "Elda Koepp",
+        "IconHint": "ullam",
+        "ColorBlock": 918,
+        "ExtraInfo": "architecto",
+        "StyleHint": "earum",
+        "FullName": "Ruth Blick",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 394
+            "FieldLength": 738
           }
         }
       }
     ],
-    "IconHint": "a",
-    "ColorBlock": 879,
-    "ExtraInfo": "esse",
-    "StyleHint": "facilis",
-    "FullName": "Mrs. Camden Donavon Ledner DDS",
+    "IconHint": "modi",
+    "ColorBlock": 88,
+    "ExtraInfo": "sed",
+    "StyleHint": "molestiae",
+    "FullName": "Prof. Alvah Grady",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 655
+        "FieldLength": 905
       }
     }
   }

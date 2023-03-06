@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,10 +98,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 904,
-  "StartDate": "2020-11-28T17:37:16.4162407+01:00",
-  "EndDate": "2021-10-12T17:37:16.4162407+02:00",
-  "RecurrenceCounter": 805,
+  "RecurrenceId": 794,
+  "StartDate": "2009-12-04T14:19:02.5786514+01:00",
+  "EndDate": "2022-09-11T14:19:02.5786514+02:00",
+  "RecurrenceCounter": 186,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -110,18 +110,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1996-07-17T17:37:16.4162407+02:00",
+      "Date": "2011-01-10T14:19:02.5786514+01:00",
       "IsConflict": true,
-      "Description": "Centralized assymetric benchmark",
-      "DescriptionStyleHint": "Exclusive optimizing process improvement",
-      "Tooltip": "reprehenderit"
+      "Description": "Virtual demand-driven parallelism",
+      "DescriptionStyleHint": "Customizable mission-critical hub",
+      "Tooltip": "quam"
     },
     {
-      "Date": "1996-07-17T17:37:16.4162407+02:00",
+      "Date": "2011-01-10T14:19:02.5786514+01:00",
       "IsConflict": true,
-      "Description": "Centralized assymetric benchmark",
-      "DescriptionStyleHint": "Exclusive optimizing process improvement",
-      "Tooltip": "reprehenderit"
+      "Description": "Virtual demand-driven parallelism",
+      "DescriptionStyleHint": "Customizable mission-critical hub",
+      "Tooltip": "quam"
     }
   ],
   "IsRecurrence": false

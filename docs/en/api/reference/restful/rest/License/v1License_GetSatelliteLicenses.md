@@ -72,30 +72,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hagenes, Boyle and McDermott",
-    "Description": "Quality-focused 4th generation Graphical User Interface",
+    "Name": "Kuhlman Inc and Sons",
+    "Description": "Front-line homogeneous algorithm",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 907,
-        "Tooltip": "qui",
-        "CanAssign": false,
-        "Free": 27,
-        "InUse": 978,
+        "Total": 609,
+        "Tooltip": "nemo",
+        "CanAssign": true,
+        "Free": 880,
+        "InUse": 428,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 792,
-        "Name": "Pollich LLC",
-        "Description": "Switchable executive infrastructure",
-        "PrerequisiteModuleName": "Pouros, Crist and Gleason",
-        "SortOrder": 204,
-        "ExtraFlags": 188,
+        "ModuleLicenseId": 331,
+        "Name": "Ziemann Group",
+        "Description": "Public-key bandwidth-monitored concept",
+        "PrerequisiteModuleName": "Haley-Daniel",
+        "SortOrder": 290,
+        "ExtraFlags": 475,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 748
+            "FieldType": "System.Int32",
+            "FieldLength": 307
           }
         }
       }
@@ -103,25 +103,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 189,
-        "Tooltip": "itaque",
+        "Total": 535,
+        "Tooltip": "nesciunt",
         "CanAssign": false,
-        "Free": 424,
-        "InUse": 858,
+        "Free": 20,
+        "InUse": 191,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 331,
-        "Name": "Treutel, Friesen and Barton",
-        "Description": "Balanced zero defect open system",
-        "PrerequisiteModuleName": "Batz LLC",
-        "SortOrder": 188,
-        "ExtraFlags": 730,
+        "Assigned": false,
+        "ModuleLicenseId": 280,
+        "Name": "Turcotte Inc and Sons",
+        "Description": "Cloned context-sensitive matrix",
+        "PrerequisiteModuleName": "Sipes Group",
+        "SortOrder": 821,
+        "ExtraFlags": 179,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 950
+            "FieldLength": 311
           }
         }
       }
@@ -130,36 +130,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 91
+        "FieldType": "System.Int32",
+        "FieldLength": 55
       }
     }
   },
   {
-    "Name": "Hagenes, Boyle and McDermott",
-    "Description": "Quality-focused 4th generation Graphical User Interface",
+    "Name": "Kuhlman Inc and Sons",
+    "Description": "Front-line homogeneous algorithm",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 907,
-        "Tooltip": "qui",
-        "CanAssign": false,
-        "Free": 27,
-        "InUse": 978,
+        "Total": 609,
+        "Tooltip": "nemo",
+        "CanAssign": true,
+        "Free": 880,
+        "InUse": 428,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 792,
-        "Name": "Pollich LLC",
-        "Description": "Switchable executive infrastructure",
-        "PrerequisiteModuleName": "Pouros, Crist and Gleason",
-        "SortOrder": 204,
-        "ExtraFlags": 188,
+        "ModuleLicenseId": 331,
+        "Name": "Ziemann Group",
+        "Description": "Public-key bandwidth-monitored concept",
+        "PrerequisiteModuleName": "Haley-Daniel",
+        "SortOrder": 290,
+        "ExtraFlags": 475,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 748
+            "FieldType": "System.Int32",
+            "FieldLength": 307
           }
         }
       }
@@ -167,25 +167,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 189,
-        "Tooltip": "itaque",
+        "Total": 535,
+        "Tooltip": "nesciunt",
         "CanAssign": false,
-        "Free": 424,
-        "InUse": 858,
+        "Free": 20,
+        "InUse": 191,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 331,
-        "Name": "Treutel, Friesen and Barton",
-        "Description": "Balanced zero defect open system",
-        "PrerequisiteModuleName": "Batz LLC",
-        "SortOrder": 188,
-        "ExtraFlags": 730,
+        "Assigned": false,
+        "ModuleLicenseId": 280,
+        "Name": "Turcotte Inc and Sons",
+        "Description": "Cloned context-sensitive matrix",
+        "PrerequisiteModuleName": "Sipes Group",
+        "SortOrder": 821,
+        "ExtraFlags": 179,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 950
+            "FieldLength": 311
           }
         }
       }
@@ -194,8 +194,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 91
+        "FieldType": "System.Int32",
+        "FieldLength": 55
       }
     }
   }

@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserDefinedFieldInfoAgen
 
 ## SetUserDefinedPageOneField
 
-Sets a user defined fields as page one field.
 
-* **ownerType:** The user-defined field owner entity
-* **udefFieldId:** The id of the udeffield to set as page one field
-* **userGroupId:** The usergroup id to associate the page one field with.
-* **fieldLineNo:** Page one line number
+
+
 
 [WSDL file for Services85/UserDefinedFieldInfo](../Services85-UserDefinedFieldInfo.md)
 
@@ -53,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetUserDefinedPageOneField Response
 
 ```xml
@@ -72,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

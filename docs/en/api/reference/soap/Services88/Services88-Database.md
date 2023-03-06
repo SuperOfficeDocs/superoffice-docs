@@ -301,20 +301,11 @@ title: Services88.DatabaseAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Database">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Database</summary>
-    </wsdl:documentation>
     <wsdl:operation name="GetStepsInDatabase">
-      <wsdl:documentation>
-        <summary>Get information about the dictionary steps that are in the currently-loggedon database</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Database/GetStepsInDatabase" name="GetStepsInDatabaseRequest" message="tns:GetStepsInDatabaseRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Database/GetStepsInDatabaseResponse" name="GetStepsInDatabaseResponse" message="tns:GetStepsInDatabaseResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetStepsFromNetServerCode">
-      <wsdl:documentation>
-        <summary>Get information about the dictionary steps that NetServer was generated for</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Database/GetStepsFromNetServerCode" name="GetStepsFromNetServerCodeRequest" message="tns:GetStepsFromNetServerCodeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Database/GetStepsFromNetServerCodeResponse" name="GetStepsFromNetServerCodeResponse" message="tns:GetStepsFromNetServerCodeResponse" />
     </wsdl:operation>
@@ -361,3 +352,4 @@ title: Services88.DatabaseAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

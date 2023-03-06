@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IReportAgent.SaveReportLa
 
 ## SaveReportLabelLayoutEntity
 
-Updates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutEntity if the id parameter is 0.
 
-* **reportLabelLayoutEntity:** The ReportLabelLayoutEntity that is saved.
 
-**Returns:** New or updated ReportLabelLayoutEntity
+
 
 [WSDL file for Services86/Report](../Services86-Report.md)
 
@@ -62,6 +60,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveReportLabelLayoutEntity Response
 
 ```xml
@@ -95,3 +94,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

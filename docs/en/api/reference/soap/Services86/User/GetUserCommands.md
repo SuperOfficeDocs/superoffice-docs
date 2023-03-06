@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.GetUserCommand
 
 ## GetUserCommands
 
-Get registered custom commands for User
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **user:** The User
 
-**Returns:** Custom commands for the User
+
 
 [WSDL file for Services86/User](../Services86-User.md)
 
@@ -148,8 +145,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <User:SupportAssociateId xsi:type="xsd:int">0</User:SupportAssociateId>
      </User:Person>
      <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
-     <User:Lastlogin xsi:type="xsd:dateTime">2022-08-26T08:55:57Z</User:Lastlogin>
-     <User:Lastlogout xsi:type="xsd:dateTime">2022-08-26T08:55:57Z</User:Lastlogout>
+     <User:Lastlogin xsi:type="xsd:dateTime">2023-02-15T13:14:11Z</User:Lastlogin>
+     <User:Lastlogout xsi:type="xsd:dateTime">2023-02-15T13:14:11Z</User:Lastlogout>
      <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
      <User:Type xsi:type="User:UserType">Unknown</User:Type>
      <User:IsPersonRetired xsi:type="xsd:boolean">false</User:IsPersonRetired>
@@ -187,6 +184,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetUserCommands Response
 
 ```xml
@@ -216,3 +214,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

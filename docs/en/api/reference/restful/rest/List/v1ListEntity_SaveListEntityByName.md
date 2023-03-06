@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 571,
-  "Name": "Collins-Rutherford",
-  "Tooltip": "sit",
+  "Id": 930,
+  "Name": "Hamill-Senger",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 987,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "modi",
-  "InUseByUserDefinedFields": false
+  "Rank": 471,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "veritatis",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 761,
-  "Name": "Ankunding Group",
-  "Tooltip": "vitae",
-  "Deleted": false,
-  "Rank": 533,
+  "Id": 389,
+  "Name": "Emard, Paucek and Kilback",
+  "Tooltip": "vero",
+  "Deleted": true,
+  "Rank": 544,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "facilis",
+  "ListType": "eos",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 333
+      "FieldType": "System.Int32",
+      "FieldLength": 847
     }
   }
 }

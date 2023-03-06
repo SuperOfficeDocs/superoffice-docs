@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Mail"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,17 +24,15 @@ This subclass filter envelopes based on a provided string, only envelopes contai
 the string in either subject, sender, recipient or date are returned
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"companies"|Companies|
 |"associates"|Associates|
 |"others"|Others|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |id| *None* |ID: ID of the e-mail|  |
 |status| *None* |Status| x |
 |attachment| *None* |Attachment: Indicates whether the e-mail has one or more attachments| x |
@@ -58,4 +56,7 @@ Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

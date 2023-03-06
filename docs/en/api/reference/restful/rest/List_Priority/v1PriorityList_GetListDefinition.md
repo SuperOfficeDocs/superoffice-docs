@@ -74,27 +74,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 733,
-  "Name": "McKenzie Inc and Sons",
-  "Tooltip": "suscipit",
-  "Deleted": true,
-  "Rank": 762,
-  "IsCustomList": true,
+  "Id": 581,
+  "Name": "Larson LLC",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 969,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ea",
+  "ListType": "at",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 203
+      "FieldLength": 417
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

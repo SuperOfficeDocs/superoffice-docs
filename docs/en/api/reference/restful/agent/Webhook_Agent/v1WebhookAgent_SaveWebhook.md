@@ -86,30 +86,30 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 717,
-  "Name": "Veum-Rice",
+  "WebhookId": 119,
+  "Name": "Stamm Group",
   "Events": [
-    "est",
-    "quos"
+    "commodi",
+    "temporibus"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "iste",
+  "Secret": "illum",
   "State": "Active",
-  "Type": "molestiae",
+  "Type": "ut",
   "Headers": {
-    "Headers1": "dignissimos",
-    "Headers2": "illo"
+    "Headers1": "nemo",
+    "Headers2": "qui"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2016-10-25T17:37:19.6439772+02:00",
+  "Registered": "2001-09-30T14:19:04.6422019+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2004-12-19T17:37:19.6459756+01:00",
+  "Updated": "2007-08-14T14:19:04.6422019+02:00",
   "UpdatedAssociate": null
 }
 ```
@@ -121,26 +121,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 578,
-  "Name": "Kuhn, Pagac and Rice",
+  "WebhookId": 803,
+  "Name": "Schmidt-Wintheiser",
   "Events": [
-    "id",
-    "dolorum"
+    "voluptatem",
+    "nihil"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "excepturi",
+  "Secret": "praesentium",
   "State": "Active",
-  "Type": "voluptatem",
+  "Type": "quibusdam",
   "Headers": {
-    "Headers1": "modi",
-    "Headers2": "neque"
+    "Headers1": "qui",
+    "Headers2": "dignissimos"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2008-05-09T17:37:19.6469776+02:00",
+  "Registered": "2016-11-11T14:19:04.6422019+01:00",
   "RegisteredAssociate": null,
-  "Updated": "1999-12-24T17:37:19.6469776+01:00",
+  "Updated": "2001-12-06T14:19:04.6422019+01:00",
   "UpdatedAssociate": null
 }
 ```

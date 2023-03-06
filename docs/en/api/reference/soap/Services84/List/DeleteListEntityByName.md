@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.DeleteListEnti
 
 ## DeleteListEntityByName
 
-Delete a ListEntity resolved by the provided name.
 
-* **name:** The name of the list to delete.
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteListEntityByName Response
 
 ```xml
@@ -68,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

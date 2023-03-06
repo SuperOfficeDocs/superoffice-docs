@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "currentudeffields"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,12 +15,16 @@ so.envir:
 ---
 
 # "currentudeffields" MDO List
-
 Get a list of udef fields for a given type. Pass the type as AdditionalInfo.
 Optionally it is possible to exclude page one fields by adding extrainfo ( 'Contact,excludepageone' )
 
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.CurrentUdefFieldsProvider">CurrentUdefFieldsProvider</see> class.
 The name of the MDO list is 'currentudeffields'.
+
+
+
 
 ## Sample Request
 
@@ -33,7 +37,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("currentudeffields", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -47,6 +50,7 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
+
 
 ## Related MDO Lists
 

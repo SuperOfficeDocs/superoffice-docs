@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.GetDocumen
 
 ## GetDocumentLength
 
-Get length of the document content in bytes.
 
-* **documentId:** SuperOffice document id
-* **versionId:** Version ID if applicable; a blank value implies "latest" version and is always acceptable.
 
-**Returns:** The length of the document content in bytes.
+
 
 [WSDL file for Services88/Document](../Services88-Document.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDocumentLength Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

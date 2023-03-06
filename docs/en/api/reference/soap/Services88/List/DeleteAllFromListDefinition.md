@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.DeleteAllFromL
 
 ## DeleteAllFromListDefinition
 
-Marks all items in the list deleted
 
-* **udListDefinitionId:** The id of the list definition, indicating which list to delete the items from. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteAllFromListDefinition Response
 
 ```xml
@@ -68,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

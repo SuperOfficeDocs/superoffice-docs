@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 515,
-    "Name": "Jast LLC",
-    "Tooltip": "delectus",
+    "HeadingId": 389,
+    "Name": "Rau Inc and Sons",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 602,
-    "UdListDefinitionId": 56,
+    "Rank": 368,
+    "UdListDefinitionId": 15,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldLength": 864
       }
     }
   }

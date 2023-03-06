@@ -112,18 +112,18 @@ DashTheme  updated.
 PATCH /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quia",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quia",
+    "path": "ut",
     "value": {}
   }
 ]
@@ -136,18 +136,18 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 474,
-  "Name": "McCullough LLC",
-  "Config": "aut",
-  "Rank": 683,
-  "Client": "aspernatur",
-  "Style": "labore",
+  "DashboardThemeId": 232,
+  "Name": "Torphy-Rohan",
+  "Config": "illo",
+  "Rank": 334,
+  "Client": "est",
+  "Style": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 811
+      "FieldType": "System.Int32",
+      "FieldLength": 266
     }
   },
   "_Links": {

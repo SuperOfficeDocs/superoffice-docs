@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.FindRolesWithF
 
 ## FindRolesWithFunctionalRight
 
-Find all roles with a given functional right. The roles matched must contain the specified functional right.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **functionalRightName:** Functional right name to search for
 
-**Returns:** Roles that contains the given functional right
+
 
 [WSDL file for Services86/User](../Services86-User.md)
 
@@ -49,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## FindRolesWithFunctionalRight Response
 
@@ -117,3 +115,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

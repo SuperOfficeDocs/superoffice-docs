@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "fugiat",
-  "PrefKey": "praesentium",
+  "PrefSection": "aut",
+  "PrefKey": "eligendi",
   "PrefLevel": "Database"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "tempora",
+  "RawValue": "delectus",
   "Specification": null,
-  "DisplayValue": "omnis",
-  "DisplayTooltip": "amet",
+  "DisplayValue": "magni",
+  "DisplayTooltip": "porro",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 428,
-  "PrefDescId": 859,
-  "TableName": "Crooks Group",
-  "UserPreferenceId": 191,
+  "TargetId": 363,
+  "PrefDescId": 175,
+  "TableName": "Kulas-Huel",
+  "UserPreferenceId": 310,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 25
+      "FieldType": "System.Int32",
+      "FieldLength": 9
     }
   }
 }

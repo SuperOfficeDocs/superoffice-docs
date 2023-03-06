@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IAudienceAgent.DeleteAudi
 
 ## DeleteAudienceLayoutEntity
 
-Deletes the AudienceLayoutEntity
 
-* **audienceLayoutEntityId:** The identity of the AudienceLayoutEntity
+
+
 
 [WSDL file for Services87/Audience](../Services87-Audience.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteAudienceLayoutEntity Response
 
 ```xml
@@ -64,3 +65,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

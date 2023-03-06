@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.GetUserFromNam
 
 ## GetUserFromName
 
-Get a user, with lookup based on user name.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **userName:** User name of the user to get.
 
-**Returns:** User retrieved by name
+
 
 [WSDL file for Services88/User](../Services88-User.md)
 
@@ -49,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetUserFromName Response
 
@@ -175,8 +173,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:CategoryName xsi:type="xsd:string"></User:CategoryName>
     </User:Person>
     <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
-    <User:Lastlogin xsi:type="xsd:dateTime">2022-08-26T09:00:49Z</User:Lastlogin>
-    <User:Lastlogout xsi:type="xsd:dateTime">2022-08-26T09:00:49Z</User:Lastlogout>
+    <User:Lastlogin xsi:type="xsd:dateTime">2023-02-15T13:18:40Z</User:Lastlogin>
+    <User:Lastlogout xsi:type="xsd:dateTime">2023-02-15T13:18:40Z</User:Lastlogout>
     <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
     <User:RequestSignature xsi:type="xsd:string"></User:RequestSignature>
     <User:Type xsi:type="User:UserType">Unknown</User:Type>
@@ -273,3 +271,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

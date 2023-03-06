@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Botsford-Schumm",
+  "UdListDefinitionName": "Heidenreich-Effertz",
   "Item": null
 }
 ```
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 893,
-  "Name": "Abbott Group",
-  "Tooltip": "labore",
+  "Id": 281,
+  "Name": "Gottlieb, Trantow and Bernier",
+  "Tooltip": "accusamus",
   "Deleted": true,
-  "UdListDefinitionId": 716,
-  "Rank": 919,
+  "UdListDefinitionId": 858,
+  "Rank": 950,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 225
+      "FieldType": "System.Int32",
+      "FieldLength": 477
     }
   }
 }

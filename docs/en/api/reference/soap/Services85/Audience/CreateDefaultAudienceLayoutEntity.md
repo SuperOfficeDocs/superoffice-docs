@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IAudienceAgent.CreateDefa
 
 ## CreateDefaultAudienceLayoutEntity
 
-Loading default values into a new AudienceLayoutEntity.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-**Returns:** New AudienceLayoutEntity with default values
+
+
 
 [WSDL file for Services85/Audience](../Services85-Audience.md)
 
@@ -46,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultAudienceLayoutEntity Response
 
 ```xml
@@ -63,8 +63,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Audience:AudienceLayoutId xsi:type="xsd:int">0</Audience:AudienceLayoutId>
     <Audience:InstanceLayout xsi:type="xsd:string"></Audience:InstanceLayout>
     <Audience:InstanceName xsi:type="xsd:string"></Audience:InstanceName>
-    <Audience:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:52:14Z</Audience:CreatedDate>
-    <Audience:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:52:14Z</Audience:UpdatedDate>
+    <Audience:CreatedDate xsi:type="xsd:dateTime">2023-02-15T13:10:45Z</Audience:CreatedDate>
+    <Audience:UpdatedDate xsi:type="xsd:dateTime">2023-02-15T13:10:45Z</Audience:UpdatedDate>
     <Audience:CreatedBy xsi:type="Audience:Associate">
      <Audience:AssociateId xsi:type="xsd:int">0</Audience:AssociateId>
      <Audience:Name xsi:type="xsd:string"></Audience:Name>
@@ -97,3 +97,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

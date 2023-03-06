@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 852,
-  "Name": "Dietrich, Kessler and Rowe",
-  "Tooltip": "aperiam",
+  "Id": 511,
+  "Name": "Wyman-Schinner",
+  "Tooltip": "alias",
   "Deleted": false,
-  "Rank": 617,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 545,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quod",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 342
+      "FieldType": "System.Int32",
+      "FieldLength": 212
     }
   },
   "_Links": {

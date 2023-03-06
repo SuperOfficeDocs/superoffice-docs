@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 112,
-    "Name": "Balistreri, Bahringer and Christiansen",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 164,
-    "UdListDefinitionId": 428
+    "HeadingId": 370,
+    "Name": "Rogahn-Kihn",
+    "Tooltip": "blanditiis",
+    "Deleted": false,
+    "Rank": 495,
+    "UdListDefinitionId": 478
   },
   {
-    "HeadingId": 112,
-    "Name": "Balistreri, Bahringer and Christiansen",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 164,
-    "UdListDefinitionId": 428
+    "HeadingId": 370,
+    "Name": "Rogahn-Kihn",
+    "Tooltip": "blanditiis",
+    "Deleted": false,
+    "Rank": 495,
+    "UdListDefinitionId": 478
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 447,
-    "Name": "Ward-Carter",
-    "Tooltip": "atque",
+    "HeadingId": 168,
+    "Name": "Hauck Group",
+    "Tooltip": "dolorem",
     "Deleted": false,
-    "Rank": 315,
-    "UdListDefinitionId": 922,
+    "Rank": 618,
+    "UdListDefinitionId": 849,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 841
+        "FieldType": "System.String",
+        "FieldLength": 167
       }
     }
   }

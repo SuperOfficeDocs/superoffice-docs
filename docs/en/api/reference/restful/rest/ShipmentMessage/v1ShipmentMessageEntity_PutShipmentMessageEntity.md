@@ -118,31 +118,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 340,
-  "PlainMessage": "eligendi",
-  "HtmlMessage": "eum",
-  "SmsMessage": "maiores",
-  "Description": "Devolved zero tolerance moratorium",
-  "Subject": "et",
-  "FolderId": 765,
-  "HeaderField": "cumque",
-  "Design": "numquam",
+  "ShipmentMessageId": 938,
+  "PlainMessage": "provident",
+  "HtmlMessage": "quidem",
+  "SmsMessage": "expedita",
+  "Description": "Intuitive attitude-oriented benchmark",
+  "Subject": "nostrum",
+  "FolderId": 117,
+  "HeaderField": "dolor",
+  "Design": "non",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": true,
-  "LongDescription": "Secured zero defect local area network",
-  "AccessKey": "sint",
-  "DocumentMessage": 995,
-  "Registered": "2018-12-10T17:37:39.2273036+01:00",
-  "RegisteredAssociateId": 777,
-  "Updated": "2006-03-13T17:37:39.2273036+01:00",
-  "UpdatedAssociateId": 708,
-  "UpdatedCount": 204
+  "LongDescription": "Versatile zero defect hierarchy",
+  "AccessKey": "id",
+  "DocumentMessage": 385,
+  "Registered": "2018-12-16T14:19:10.7873511+01:00",
+  "RegisteredAssociateId": 534,
+  "Updated": "1996-01-25T14:19:10.7873511+01:00",
+  "UpdatedAssociateId": 439,
+  "UpdatedCount": 290
 }
 ```
 
@@ -153,33 +153,33 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 71,
-  "PlainMessage": "fugit",
-  "HtmlMessage": "et",
-  "SmsMessage": "quod",
-  "Description": "Enterprise-wide static customer loyalty",
-  "Subject": "voluptatem",
-  "FolderId": 956,
-  "HeaderField": "tenetur",
-  "Design": "architecto",
+  "ShipmentMessageId": 919,
+  "PlainMessage": "fugiat",
+  "HtmlMessage": "sit",
+  "SmsMessage": "nobis",
+  "Description": "Multi-layered multi-tasking workforce",
+  "Subject": "illum",
+  "FolderId": 981,
+  "HeaderField": "et",
+  "Design": "quia",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Stand-alone neutral hierarchy",
-  "AccessKey": "nulla",
-  "DocumentMessage": 154,
-  "Registered": "2022-01-06T17:37:39.2273036+01:00",
-  "RegisteredAssociateId": 785,
-  "Updated": "1996-05-27T17:37:39.2273036+02:00",
-  "UpdatedAssociateId": 913,
-  "UpdatedCount": 593,
+  "LongDescription": "Object-based optimal functionalities",
+  "AccessKey": "enim",
+  "DocumentMessage": 685,
+  "Registered": "2010-08-22T14:19:10.7873511+02:00",
+  "RegisteredAssociateId": 867,
+  "Updated": "2019-11-12T14:19:10.7873511+01:00",
+  "UpdatedAssociateId": 676,
+  "UpdatedCount": 196,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 266
+      "FieldType": "System.Int32",
+      "FieldLength": 265
     }
   },
   "_Links": {

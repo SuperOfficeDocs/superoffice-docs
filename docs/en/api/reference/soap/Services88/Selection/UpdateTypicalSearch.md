@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ISelectionAgent.UpdateTyp
 
 ## UpdateTypicalSearch
 
-Update (import) TypicalSearch information in the database
 
-* **searches:** TypicalSearch structures to import. If null, then the fileset is scanned for *TypicalSearch.json files and those are imported instead
 
-**Returns:** Message that can be shown to the user, summarizing what has been done, if anything.
+
 
 [WSDL file for Services88/Selection](../Services88-Selection.md)
 
@@ -75,6 +73,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## UpdateTypicalSearch Response
 
 ```xml
@@ -95,3 +94,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

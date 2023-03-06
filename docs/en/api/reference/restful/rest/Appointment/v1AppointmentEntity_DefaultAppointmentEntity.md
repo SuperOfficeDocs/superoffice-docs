@@ -110,7 +110,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -118,70 +118,70 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 17 Apr 2003 17:37:38 G4T
+Last-Modified: Sat, 01 Nov 2014 14:19:09 G11T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1998-04-22T17:37:38.0218022+02:00",
-  "AppointmentId": 407,
-  "Description": "Customizable executive info-mediaries",
-  "StartDate": "2020-01-03T17:37:38.0218022+01:00",
-  "EndDate": "2012-09-20T17:37:38.0218022+02:00",
+  "CreatedDate": "2016-12-09T14:19:09.8699582+01:00",
+  "AppointmentId": 58,
+  "Description": "Fundamental background core",
+  "StartDate": "2013-10-19T14:19:09.8699582+02:00",
+  "EndDate": "2022-06-06T14:19:09.8699582+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 830,
+  "MotherId": 882,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2003-04-17T17:37:38.0247972+02:00",
+  "UpdatedDate": "2014-11-01T14:19:09.8699582+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 789,
+  "ActiveLinks": 423,
   "Links": [
     {
-      "EntityName": "Mills Inc and Sons",
-      "Id": 667,
-      "Description": "Horizontal intangible implementation",
-      "ExtraInfo": "eius",
-      "LinkId": 638,
+      "EntityName": "Gaylord Group",
+      "Id": 184,
+      "Description": "Balanced regional info-mediaries",
+      "ExtraInfo": "et",
+      "LinkId": 656,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 311
+          "FieldType": "System.Int32",
+          "FieldLength": 970
         }
       }
     }
   ],
-  "AlarmLeadTime": "expedita",
+  "AlarmLeadTime": "ipsum",
   "HasAlarm": false,
-  "ColorIndex": 915,
-  "IsFree": true,
+  "ColorIndex": 489,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "fuga",
-  "LeadTime": "molestiae",
-  "Location": "est",
-  "RejectCounter": 899,
+  "LagTime": "eos",
+  "LeadTime": "sapiente",
+  "Location": "rem",
+  "RejectCounter": 541,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 896,
-      "PersonId": 885,
-      "ContactId": 313,
-      "EmailId": 964,
+      "AssociateId": 985,
+      "PersonId": 444,
+      "ContactId": 210,
+      "EmailId": 141,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 896,
-      "PersonId": 885,
-      "ContactId": 313,
-      "EmailId": 964,
+      "AssociateId": 985,
+      "PersonId": 444,
+      "ContactId": 210,
+      "EmailId": 141,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -189,58 +189,58 @@ Last-Modified: Thu, 17 Apr 2003 17:37:38 G4T
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2003-04-18T17:37:38.0247972+02:00",
-  "HasConflict": true,
+  "ActiveDate": "1997-09-11T14:19:09.8699582+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 385,
+  "PreferredTZLocation": 527,
   "Sale": null,
-  "SuggestedAppointmentId": 545,
+  "SuggestedAppointmentId": 712,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "nihil",
+  "CentralserviceVideomeetId": "non",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1247238296"
+    "SuperOffice:1": "Robert Hudson",
+    "SuperOffice:2": "Cydney O'Conner"
   },
   "ExtraFields": {
-    "ExtraFields1": "inventore",
-    "ExtraFields2": "totam"
+    "ExtraFields1": "occaecati",
+    "ExtraFields2": "facere"
   },
   "CustomFields": {
-    "CustomFields1": "maiores",
-    "CustomFields2": "ipsa"
+    "CustomFields1": "blanditiis",
+    "CustomFields2": "ducimus"
   },
-  "PublishEventDate": "2009-07-16T17:37:38.0257974+02:00",
-  "PublishTo": "2002-01-03T17:37:38.0257974+01:00",
-  "PublishFrom": "1999-11-18T17:37:38.0257974+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2018-11-05T14:19:09.8855807+01:00",
+  "PublishTo": "2021-03-14T14:19:09.8855807+01:00",
+  "PublishFrom": "2005-06-17T14:19:09.8855807+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 453,
+      "VisibleId": 993,
       "Visibility": "All",
-      "DisplayValue": "animi",
+      "DisplayValue": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 621
+          "FieldLength": 567
         }
       }
     },
     {
-      "VisibleId": 453,
+      "VisibleId": 993,
       "Visibility": "All",
-      "DisplayValue": "animi",
+      "DisplayValue": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 621
+          "FieldLength": 567
         }
       }
     }
@@ -250,7 +250,7 @@ Last-Modified: Thu, 17 Apr 2003 17:37:38 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 605
+      "FieldLength": 778
     }
   }
 }

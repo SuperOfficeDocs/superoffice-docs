@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IErpSyncAgent.ForceResync
 
 ## ForceResync
 
-Force resync from CRM or given Erp connection to all other connections
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
-* **erpConnectionId:** If positive, resync from the given erp connection
-* **internalKeyIds:** The internal keys of the entities to resync, or empty to resync all
 
-**Returns:** The response
+
 
 [WSDL file for Services88/ErpSync](../Services88-ErpSync.md)
 
@@ -53,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## ForceResync Response
 
@@ -93,9 +90,11 @@ Application tokens must be specified if calling an Online installation. Applicat
       </ErpSync:ChangedDataItem>
      </ErpSync:DeletedRecords>
     </ErpSync:Changes>
+    <ErpSync:Status xsi:type="ErpSync:QuoteStatus">Ok</ErpSync:Status>
    </ErpSync:Response>
   </ErpSync:ForceResyncResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+

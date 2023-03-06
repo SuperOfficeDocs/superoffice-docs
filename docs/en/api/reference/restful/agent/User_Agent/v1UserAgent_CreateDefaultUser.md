@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,14 +93,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 775,
-  "Name": "Lesch Inc and Sons",
-  "Rank": 470,
-  "Tooltip": "ducimus",
+  "AssociateId": 638,
+  "Name": "Dach, Waters and Hintz",
+  "Rank": 877,
+  "Tooltip": "accusantium",
   "LicenseOwners": [
     {
-      "Name": "Leannon LLC",
-      "Description": "Adaptive optimizing collaboration",
+      "Name": "Davis LLC",
+      "Description": "Object-based assymetric alliance",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -114,13 +114,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldLength": 542
         }
       }
     },
     {
-      "Name": "Leannon LLC",
-      "Description": "Adaptive optimizing collaboration",
+      "Name": "Davis LLC",
+      "Description": "Object-based assymetric alliance",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldLength": 542
         }
       }
     }
@@ -143,110 +143,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "et",
-      "Tooltip": "excepturi",
-      "Id": 421,
-      "Rank": 882,
-      "Deleted": true,
+      "Value": "ipsa",
+      "Tooltip": "vel",
+      "Id": 752,
+      "Rank": 920,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 158
+          "FieldLength": 610
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2009-10-09T17:37:19.5269763+02:00",
-  "Lastlogout": "2021-09-14T17:37:19.5269763+02:00",
-  "EjUserId": 400,
-  "RequestSignature": "perspiciatis",
+  "Lastlogin": "2017-05-23T14:19:04.5484513+02:00",
+  "Lastlogout": "2019-06-27T14:19:04.5484513+02:00",
+  "EjUserId": 482,
+  "RequestSignature": "et",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "laborum",
-      "DisplayValue": "officia",
+      "Value": "totam",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 86
+          "FieldLength": 881
         }
       }
     },
     {
       "Type": null,
-      "Value": "laborum",
-      "DisplayValue": "officia",
+      "Value": "totam",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 86
+          "FieldLength": 881
         }
       }
     }
   ],
-  "UserName": "Gutmann Group",
+  "UserName": "Fritsch, Schimmel and Wuckert",
   "TicketCategories": [
     {
-      "Id": 787,
-      "Name": "Thiel-O'Conner",
-      "ToolTip": "Ullam repudiandae soluta et minus qui.",
+      "Id": 568,
+      "Name": "McKenzie, Thiel and Kemmer",
+      "ToolTip": "Et molestiae qui perspiciatis id neque quis omnis.",
       "Deleted": true,
-      "Rank": 308,
-      "Type": "vel",
+      "Rank": 580,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolore",
-      "ColorBlock": 794,
-      "ExtraInfo": "alias",
-      "StyleHint": "autem",
-      "FullName": "Mrs. Nella Felton Ward",
+      "IconHint": "quis",
+      "ColorBlock": 828,
+      "ExtraInfo": "aut",
+      "StyleHint": "et",
+      "FullName": "Celia Toy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 581
+          "FieldLength": 222
         }
       }
     }
   ],
-  "NickName": "Fritsch, Ritchie and Borer",
+  "NickName": "Cassin, Schuppe and West",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "aperiam",
-    "ExtraFields2": "eveniet"
+    "ExtraFields1": "necessitatibus",
+    "ExtraFields2": "incidunt"
   },
   "CustomFields": {
     "CustomFields1": "praesentium",
-    "CustomFields2": "ratione"
+    "CustomFields2": "atque"
   },
   "PostSaveCommands": [
     {
-      "Name": "Keeling-Rolfson",
-      "DisplayName": "Hoeger, Goodwin and Hoeger",
-      "Description": "Networked local ability",
-      "ToolTip": "Sint vel molestiae culpa voluptatem quasi.",
+      "Name": "Becker-Altenwerth",
+      "DisplayName": "Gaylord Group",
+      "Description": "Reactive next generation encryption",
+      "ToolTip": "Non nulla voluptatibus alias asperiores quod ut qui.",
       "Actions": "Implicit",
-      "ActionData": "optio",
+      "ActionData": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 79
+          "FieldLength": 620
         }
       }
     }
@@ -256,7 +256,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 43
+      "FieldLength": 999
     }
   }
 }

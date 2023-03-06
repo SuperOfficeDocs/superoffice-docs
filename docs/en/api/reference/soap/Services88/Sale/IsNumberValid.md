@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ISaleAgent.IsNumberValid"
 
 ## IsNumberValid
 
-Checks if the number is unique or required.  The setting is configured from admin under system options.
 
-* **contactId:** SaleId
-* **number:** Number value to check for uniqueness/required
 
-**Returns:** True if the number is valid
+
 
 [WSDL file for Services88/Sale](../Services88-Sale.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## IsNumberValid Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

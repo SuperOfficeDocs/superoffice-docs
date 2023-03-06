@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.ISaleAgent.GetNextDueDate
 
 ## GetNextDueDate
 
-Gets the next due date for a sale. The next due date is the next future appointment that is not completed.
 
-* **saleId:** Sale id
 
-**Returns:** Next due date for the given sale.
+
 
 [WSDL file for Services85/Sale](../Services85-Sale.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetNextDueDate Response
 
 ```xml
@@ -63,9 +62,10 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:Sale="http://www.superoffice.net/ws/crm/NetServer/Services85">
  <SOAP-ENV:Body>
   <Sale:GetNextDueDateResponse>
-   <Sale:Response xsi:type="xsd:dateTime">2022-08-26T08:53:40Z</Sale:Response>
+   <Sale:Response xsi:type="xsd:dateTime">2023-02-15T13:12:05Z</Sale:Response>
   </Sale:GetNextDueDateResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+

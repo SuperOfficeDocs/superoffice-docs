@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IFreeTextAgent.SetEnabled
 
 ## SetEnabled
 
-Sets freetext search to enabled (true) or disabled (false)
 
-* **enabled:** If enabled true, else false
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services84/FreeText](../Services84-FreeText.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetEnabled Response
 
 ```xml
@@ -68,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

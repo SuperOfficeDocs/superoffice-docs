@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IAppointmentAgent.ToggleA
 
 ## ToggleAppointmentStatus
 
-Sets an appointment's status to Completed if the appointment had a different status, or sets the status to started if already set to completed.
 
-* **appointmentId:** The appointment id.
 
-**Returns:** The new AppointmentStatus
+
 
 [WSDL file for Services85/Appointment](../Services85-Appointment.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ToggleAppointmentStatus Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

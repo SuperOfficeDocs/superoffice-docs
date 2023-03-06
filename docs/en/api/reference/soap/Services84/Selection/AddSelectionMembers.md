@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.ISelectionAgent.AddSelect
 
 ## AddSelectionMembers
 
-Add selection members to a static selection of type others than contacts.
 
-* **selectionId:** The selection id to add the members to.
-* **ids:** Collection of ids to add to the selection.
 
-**Returns:** Returns number of members added to the selection.
+
 
 [WSDL file for Services84/Selection](../Services84-Selection.md)
 
@@ -53,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## AddSelectionMembers Response
 
 ```xml
@@ -73,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

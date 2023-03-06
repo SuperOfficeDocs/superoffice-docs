@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 914,
-  "Name": "Emard Group",
-  "Tooltip": "dolor",
+  "Id": 898,
+  "Name": "Howe Group",
+  "Tooltip": "a",
   "Deleted": false,
-  "Rank": 633,
+  "Rank": 351,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "velit",
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 674,
-  "Name": "Kozey Group",
-  "Tooltip": "culpa",
+  "Id": 30,
+  "Name": "O'Hara Group",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 572,
+  "Rank": 87,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "aliquam",
+  "ListType": "iste",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 753
+      "FieldType": "System.String",
+      "FieldLength": 731
     }
   }
 }

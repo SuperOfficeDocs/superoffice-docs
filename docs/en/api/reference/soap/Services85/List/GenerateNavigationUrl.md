@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GenerateNaviga
 
 ## GenerateNavigationUrl
 
-This methods generates the navigation URL to be used to navigate to the panel
 
-* **visibleIn:** The visble in/navigation to generate for
-* **windowName:** The name of the web panel window
 
-**Returns:** The navigation url
+
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GenerateNavigationUrl Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

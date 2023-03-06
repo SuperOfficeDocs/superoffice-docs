@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 11.29.2022
+so.date: 02.15.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,6 +27,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IMarketingAgent
 * [DeleteShipmentMessageEntity](deleteshipmentmessageentity.md)
 * [GetFormEntity](getformentity.md)
 * [GetFormSubmissionEntity](getformsubmissionentity.md)
+* [GetFormSubmissionsCount](getformsubmissionscount.md)
 * [GetPreviewMailing](getpreviewmailing.md)
 * [GetPreviewMailingHeader](getpreviewmailingheader.md)
 * [GetShipmentMessageBlockEntity](getshipmentmessageblockentity.md)

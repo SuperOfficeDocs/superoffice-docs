@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 950
+  "QuoteVersionId": 998
 }
 ```
 
@@ -95,10 +95,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "sit",
-  "TechExplanation": "praesentium",
-  "ErrorCode": "eligendi",
+  "IsOk": true,
+  "UserExplanation": "cum",
+  "TechExplanation": "perspiciatis",
+  "ErrorCode": "maxime",
   "ChangedSale": null,
   "ChangedQuote": null,
   "ChangedQuoteVersion": null,
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 53
+          "FieldType": "System.String",
+          "FieldLength": 502
         }
       }
     },
@@ -124,8 +124,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 53
+          "FieldType": "System.String",
+          "FieldLength": 502
         }
       }
     }
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldType": "System.String",
+      "FieldLength": 133
     }
   }
 }

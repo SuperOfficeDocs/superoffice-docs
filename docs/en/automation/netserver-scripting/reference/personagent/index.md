@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 11.29.2022
+so.date: 02.15.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,6 +27,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IPersonAgent'>P
 * [CreateDefaultConsentPerson](createdefaultconsentperson.md)
 * [CreateDefaultFromCredential](createdefaultfromcredential.md)
 * [CreateDefaultPersonEntity](createdefaultpersonentity.md)
+* [CreateDefaultPersonImage](createdefaultpersonimage.md)
 * [CreateTemporaryKey](createtemporarykey.md)
 * [DeleteConsentPerson](deleteconsentperson.md)
 * [DeleteExpired](deleteexpired.md)
@@ -46,6 +47,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IPersonAgent'>P
 * [GetPerson](getperson.md)
 * [GetPersonEntity](getpersonentity.md)
 * [GetPersonImage](getpersonimage.md)
+* [GetPersonImages](getpersonimages.md)
 * [GetPersonList](getpersonlist.md)
 * [GetPersonsFromContact](getpersonsfromcontact.md)
 * [GetPersonsFromProject](getpersonsfromproject.md)

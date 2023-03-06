@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetDocumentTem
 
 ## GetDocumentTemplateTask
 
-Returns a Document Template list item as a TaskListItem. The appointment's task is a Document template item when the appointment is a document.
 
-* **documentTemplateId:** Id of the document template, i.e. the Appointment.TaskIdx
 
-**Returns:** Document Template item as TaskListItem.
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDocumentTemplateTask Response
 
 ```xml
@@ -73,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

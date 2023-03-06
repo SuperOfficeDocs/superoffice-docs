@@ -102,16 +102,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 1001,
-  "Name": "Thompson, Purdy and Harris",
+  "ScreenChooserId": 895,
+  "Name": "Mohr, Goodwin and Toy",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "et",
-  "Source": "libero",
-  "Registered": "2022-09-11T17:37:39.3914264+02:00",
-  "RegisteredAssociateId": 555,
-  "Updated": "2017-08-15T17:37:39.3914264+02:00",
-  "UpdatedAssociateId": 510
+  "UniqueIdentifier": "consequatur",
+  "Source": "ut",
+  "Registered": "2013-09-26T14:19:10.912356+02:00",
+  "RegisteredAssociateId": 265,
+  "Updated": "2019-10-23T14:19:10.912356+02:00",
+  "UpdatedAssociateId": 550
 }
 ```
 
@@ -122,22 +122,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 868,
-  "Name": "Doyle-Glover",
+  "ScreenChooserId": 642,
+  "Name": "Ritchie-Hagenes",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "itaque",
-  "Source": "at",
-  "Registered": "2010-11-02T17:37:39.3924251+01:00",
-  "RegisteredAssociateId": 266,
-  "Updated": "2011-03-28T17:37:39.3924251+02:00",
-  "UpdatedAssociateId": 280,
+  "UniqueIdentifier": "sunt",
+  "Source": "praesentium",
+  "Registered": "2013-01-19T14:19:10.912356+01:00",
+  "RegisteredAssociateId": 180,
+  "Updated": "2011-04-30T14:19:10.912356+02:00",
+  "UpdatedAssociateId": 844,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 827
+      "FieldType": "System.Int32",
+      "FieldLength": 412
     }
   },
   "_Links": {

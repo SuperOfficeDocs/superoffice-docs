@@ -25,7 +25,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=747
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=542
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -106,43 +106,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 175,
-  "Name": "O'Keefe-Schmitt",
-  "Description": "Configurable logistical forecast",
-  "WelcomeMessage": "totam",
+  "ChatTopicId": 302,
+  "Name": "Feeney Group",
+  "Description": "Operative bottom-line collaboration",
+  "WelcomeMessage": "vero",
   "Language": null,
-  "LastAccept": "2011-12-03T17:37:17.0812447+01:00",
-  "SecondsPrAccept": 582,
-  "AlertRecipient": "omnis",
+  "LastAccept": "2019-02-19T14:19:02.8855274+01:00",
+  "SecondsPrAccept": 83,
+  "AlertRecipient": "ea",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "dolor",
+  "CollectConsent": true,
+  "BadgeHeader": "delectus",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "odio",
-  "WarnNewChatMinutes": 800,
-  "WarnManagerNewChatMinutes": 993,
+  "CustomQueueText": "eius",
+  "WarnNewChatMinutes": 954,
+  "WarnManagerNewChatMinutes": 429,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 489,
-  "WarnManagerChatMessageMinutes": 584,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 922,
-  "OfflineFormQueueLength": 689,
+  "WarnChatMessageMinutes": 831,
+  "WarnManagerChatMessageMinutes": 24,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 382,
+  "OfflineFormQueueLength": 874,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "quo",
+  "WidgetRatingText": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 720
+      "FieldLength": 395
     }
   }
 }

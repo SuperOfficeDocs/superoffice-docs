@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTexts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 36,
-    "ResourceId": 209,
-    "Text": "placeat",
+    "LanguageId": 805,
+    "ResourceId": 883,
+    "Text": "quia",
     "Type": "Column",
-    "LocalizedTextId": 387,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 37,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 902
+        "FieldLength": 366
       }
     }
   }

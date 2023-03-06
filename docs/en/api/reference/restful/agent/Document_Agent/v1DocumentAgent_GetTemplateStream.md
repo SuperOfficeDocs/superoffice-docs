@@ -69,13 +69,13 @@ OK
 POST /api/v1/Agents/Document/GetTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Streich Inc and Sons",
+  "TemplateName": "Wiza, O'Keefe and Yundt",
   "AllowPersonal": false,
-  "UiCulture": "blanditiis"
+  "UiCulture": "quibusdam"
 }
 ```
 

@@ -143,12 +143,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "eum",
+    "path": "in",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eum",
+    "path": "in",
     "value": {}
   }
 ]
@@ -161,29 +161,29 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 190,
-  "TopicId": 973,
+  "ChatSessionId": 505,
+  "TopicId": 491,
   "User": null,
   "Person": null,
-  "CustomerAlias": "autem",
-  "CustomerHost": "sed",
-  "CustomerName": "Schoen, Schinner and Deckow",
-  "CustomerEmail": "davion_green@kozeygreen.ca",
-  "CustomerPhone": "(157)723-5215",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Metz, Baumbach and Bailey",
+  "CustomerAlias": "mollitia",
+  "CustomerHost": "nulla",
+  "CustomerName": "Heidenreich-Kuphal",
+  "CustomerEmail": "monica.rogahn@herzogwyman.com",
+  "CustomerPhone": "323.435.1990 x544",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Zieme-Johns",
   "Status": "Closed",
-  "FirstMessage": "aliquid",
+  "FirstMessage": "rem",
   "LastMessage": "alias",
-  "WhenRequested": "2013-05-12T17:37:38.2078597+02:00",
-  "WhenStarted": "2012-11-27T17:37:38.2078597+01:00",
-  "WhenEnded": "2021-11-07T17:37:38.2078597+01:00",
-  "WhenIdle": "1997-11-18T17:37:38.2078597+01:00",
-  "WhenFetched": "2014-02-19T17:37:38.2078597+01:00",
-  "SessionKey": "tempora",
-  "InitialQueuePos": 324,
-  "AlertLevel": 752,
-  "Rank": 809,
+  "WhenRequested": "2022-07-09T14:19:10.0205104+02:00",
+  "WhenStarted": "2021-03-16T14:19:10.0205104+01:00",
+  "WhenEnded": "2004-04-24T14:19:10.0205104+02:00",
+  "WhenIdle": "2022-01-29T14:19:10.0205104+01:00",
+  "WhenFetched": "2008-02-18T14:19:10.0205104+01:00",
+  "SessionKey": "praesentium",
+  "InitialQueuePos": 940,
+  "AlertLevel": 941,
+  "Rank": 16,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -191,13 +191,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 799,
+  "Rating": 467,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldLength": 628
     }
   },
   "_Links": {

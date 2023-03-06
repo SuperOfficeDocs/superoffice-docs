@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/Forei
 
 Handled by the <see cref="T:SuperOffice.Services88.IForeignSystemAgent">SuperOffice.Services88.IForeignSystemAgent</see> interface.
 
-Interface for the ForeignSystem Agent
-Collection of all services that works with Foreign key data (Key/Value pairs)
+
 
 Download [WSDL file for Services88/ForeignSystem](../Services88-ForeignSystem.md) if you need to generate your own proxy code.
 
@@ -45,3 +44,4 @@ Download [WSDL file for Services88/ForeignSystem](../Services88-ForeignSystem.md
 * [SaveForeignAppEntity](SaveForeignAppEntity.md)
 * [SaveForeignDevice](SaveForeignDevice.md)
 * [SaveForeignKey](SaveForeignKey.md)
+

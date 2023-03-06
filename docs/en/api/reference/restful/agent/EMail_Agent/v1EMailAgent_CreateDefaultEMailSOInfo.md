@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,20 +76,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 365,
-  "AppointmentId": 635,
-  "ProjectId": 48,
-  "SaleId": 851,
+  "DocumentId": 744,
+  "AppointmentId": 685,
+  "ProjectId": 157,
+  "SaleId": 641,
   "Archived": false,
-  "ArchivedAt": "1998-10-10T17:37:17.9192408+02:00",
-  "ArchivedBy": 25,
-  "ArchivedDisplayName": "Gislason-Metz",
+  "ArchivedAt": "2001-10-05T14:19:03.4352715+02:00",
+  "ArchivedBy": 659,
+  "ArchivedDisplayName": "Maggio-Grant",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldLength": 599
     }
   }
 }

@@ -11,16 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IDiagnosticsAgent.ChangeL
 
 ## ChangeLogSettings
 
-Change NetServer log settings.
 
-* **logWarning:** Turn on warning log
-* **logInformation:** Turn on information log
-* **logSuccessAudit:** Turn on success audit log
-* **logFailureAudit:** Turn on failure audit log
-* **logToEventLog:** Log to event log
-* **logToSuperOffice:** Log to SuperOffice
-* **logToFile:** Log to file
-* **logToTrace:** Log to trace
+
+
 
 [WSDL file for Services85/Diagnostics](../Services85-Diagnostics.md)
 
@@ -61,6 +54,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ChangeLogSettings Response
 
 ```xml
@@ -80,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

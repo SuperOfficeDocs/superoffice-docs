@@ -106,27 +106,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 914,
-  "PlainMessage": "a",
-  "HtmlMessage": "perferendis",
-  "SmsMessage": "omnis",
-  "Description": "Multi-lateral actuating framework",
-  "Subject": "rerum",
-  "FolderId": 53,
-  "HeaderField": "laudantium",
-  "Design": "voluptate",
+  "ShipmentMessageId": 12,
+  "PlainMessage": "dolor",
+  "HtmlMessage": "eveniet",
+  "SmsMessage": "voluptatem",
+  "Description": "Cross-platform full-range infrastructure",
+  "Subject": "animi",
+  "FolderId": 644,
+  "HeaderField": "quia",
+  "Design": "harum",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "User-friendly optimizing policy",
-  "AccessKey": "debitis",
-  "DocumentMessage": 883,
-  "Registered": "1996-09-13T17:37:18.3192412+02:00",
-  "RegisteredAssociateId": 472,
-  "Updated": "1999-01-27T17:37:18.3192412+01:00",
-  "UpdatedAssociateId": 190,
-  "UpdatedCount": 882
+  "LongDescription": "Future-proofed impactful core",
+  "AccessKey": "accusamus",
+  "DocumentMessage": 800,
+  "Registered": "2011-03-21T14:19:03.7176242+01:00",
+  "RegisteredAssociateId": 960,
+  "Updated": "2014-10-12T14:19:03.7176242+02:00",
+  "UpdatedAssociateId": 136,
+  "UpdatedCount": 6
 }
 ```
 
@@ -137,33 +137,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 477,
-  "PlainMessage": "similique",
-  "HtmlMessage": "et",
-  "SmsMessage": "quia",
-  "Description": "Profit-focused 24/7 software",
-  "Subject": "voluptatem",
-  "FolderId": 970,
-  "HeaderField": "eveniet",
-  "Design": "minima",
+  "ShipmentMessageId": 840,
+  "PlainMessage": "ut",
+  "HtmlMessage": "quia",
+  "SmsMessage": "est",
+  "Description": "Operative directional groupware",
+  "Subject": "voluptas",
+  "FolderId": 595,
+  "HeaderField": "dolorem",
+  "Design": "dignissimos",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Managed zero tolerance superstructure",
-  "AccessKey": "magni",
-  "DocumentMessage": 557,
-  "Registered": "1999-11-24T17:37:18.3202415+01:00",
-  "RegisteredAssociateId": 878,
-  "Updated": "2019-08-06T17:37:18.3202415+02:00",
-  "UpdatedAssociateId": 494,
-  "UpdatedCount": 690,
+  "LongDescription": "Persevering regional contingency",
+  "AccessKey": "et",
+  "DocumentMessage": 756,
+  "Registered": "2011-02-20T14:19:03.7176242+01:00",
+  "RegisteredAssociateId": 984,
+  "Updated": "2017-02-05T14:19:03.7176242+01:00",
+  "UpdatedAssociateId": 331,
+  "UpdatedCount": 734,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldType": "System.String",
+      "FieldLength": 188
     }
   }
 }

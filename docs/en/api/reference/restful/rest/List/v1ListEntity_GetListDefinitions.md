@@ -73,7 +73,7 @@ OK
 GET /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,22 +84,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 227,
-    "Name": "Schiller LLC",
-    "Tooltip": "ullam",
-    "Deleted": false,
-    "Rank": 937,
-    "IsCustomList": true,
+    "Id": 737,
+    "Name": "Brekke-Stoltenberg",
+    "Tooltip": "autem",
+    "Deleted": true,
+    "Rank": 558,
+    "IsCustomList": false,
     "IsMDOList": false,
-    "UseGroupsAndHeadings": false,
-    "ListType": "ratione",
-    "InUseByUserDefinedFields": false,
+    "UseGroupsAndHeadings": true,
+    "ListType": "reiciendis",
+    "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 305
+        "FieldType": "System.String",
+        "FieldLength": 669
       }
     }
   }

@@ -10,9 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/Docum
 
 Handled by the <see cref="T:SuperOffice.Services88.IDocumentMigrationAgent">SuperOffice.Services88.IDocumentMigrationAgent</see> interface.
 
-Interface for the DocumentMigration Agent
-Agent used to support migrating documents between different document-plugins, as single documents or batches.
-<para /><b>Online Restricted:</b> This agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
+
 
 Download [WSDL file for Services88/DocumentMigration](../Services88-DocumentMigration.md) if you need to generate your own proxy code.
 
@@ -25,3 +23,4 @@ Download [WSDL file for Services88/DocumentMigration](../Services88-DocumentMigr
 * [HasDocumentsToMigrate](HasDocumentsToMigrate.md)
 * [MigrateDocumentToNewDocPlugin](MigrateDocumentToNewDocPlugin.md)
 * [MigrateTemplateToNewDocPlugin](MigrateTemplateToNewDocPlugin.md)
+

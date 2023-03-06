@@ -92,9 +92,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 672,
-  "ListItemId": 233,
-  "ShowDeleted": true
+  "UdListDefinitionId": 670,
+  "ListItemId": 764,
+  "ShowDeleted": false
 }
 ```
 
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 364,
-    "Name": "Anderson, Walker and Blick",
-    "ToolTip": "Consectetur corrupti officia mollitia asperiores.",
-    "Deleted": false,
-    "Rank": 617,
-    "Type": "rerum",
-    "ColorBlock": 87,
-    "IconHint": "aut",
+    "Id": 329,
+    "Name": "Gorczany-Hansen",
+    "ToolTip": "Exercitationem architecto.",
+    "Deleted": true,
+    "Rank": 791,
+    "Type": "necessitatibus",
+    "ColorBlock": 783,
+    "IconHint": "laudantium",
     "Selected": false,
-    "LastChanged": "2012-02-24T17:37:18.2052447+01:00",
+    "LastChanged": "2003-02-01T14:19:03.6238736+01:00",
     "ChildItems": [
       {
-        "Id": 85,
-        "Name": "Oberbrunner-Vandervort",
-        "ToolTip": "Cumque exercitationem quibusdam nulla.",
-        "Deleted": false,
-        "Rank": 237,
-        "Type": "expedita",
-        "ColorBlock": 47,
-        "IconHint": "enim",
-        "Selected": true,
-        "LastChanged": "2002-05-22T17:37:18.2052447+02:00",
+        "Id": 125,
+        "Name": "Gorczany, Hickle and DuBuque",
+        "ToolTip": "Asperiores sapiente eligendi.",
+        "Deleted": true,
+        "Rank": 748,
+        "Type": "distinctio",
+        "ColorBlock": 667,
+        "IconHint": "praesentium",
+        "Selected": false,
+        "LastChanged": "2019-02-11T14:19:03.6394986+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "sapiente",
+        "ExtraInfo": "laborum",
+        "StyleHint": "placeat",
         "Hidden": false,
-        "FullName": "Kirsten Howell",
+        "FullName": "Miss Isabella Diamond Eichmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 9
+            "FieldLength": 751
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "quam",
+    "StyleHint": "libero",
     "Hidden": false,
-    "FullName": "Estell Jast",
+    "FullName": "Delpha Conroy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 790
+        "FieldType": "System.Int32",
+        "FieldLength": 42
       }
     }
   }

@@ -75,46 +75,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 915,
+  "HierarchyId": 344,
   "Domain": "Dashboards",
-  "Name": "Weissnat, Kuhic and Jones",
-  "Fullname": "id",
-  "ParentId": 965,
+  "Name": "Green LLC",
+  "Fullname": "iure",
+  "ParentId": 679,
   "Children": [
     {
-      "HierarchyId": 235,
+      "HierarchyId": 614,
       "Domain": "Dashboards",
-      "Name": "White-Lang",
-      "Fullname": "repellat",
-      "ParentId": 731,
+      "Name": "Paucek Inc and Sons",
+      "Fullname": "neque",
+      "ParentId": 384,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-05-07T17:37:18.276242+02:00",
-      "RegisteredAssociateId": 449,
-      "Updated": "2018-03-24T17:37:18.276242+01:00",
-      "UpdatedAssociateId": 125,
+      "Registered": "2014-08-20T14:19:03.6863742+02:00",
+      "RegisteredAssociateId": 724,
+      "Updated": "2014-12-20T14:19:03.6863742+01:00",
+      "UpdatedAssociateId": 840,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 159
+          "FieldType": "System.String",
+          "FieldLength": 851
         }
       }
     }
   ],
-  "Registered": "1999-06-05T17:37:18.276242+02:00",
-  "RegisteredAssociateId": 87,
-  "Updated": "2020-09-14T17:37:18.276242+02:00",
-  "UpdatedAssociateId": 398,
+  "Registered": "2005-01-03T14:19:03.6863742+01:00",
+  "RegisteredAssociateId": 830,
+  "Updated": "2017-02-19T14:19:03.6863742+01:00",
+  "UpdatedAssociateId": 558,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 631
+      "FieldLength": 74
     }
   }
 }

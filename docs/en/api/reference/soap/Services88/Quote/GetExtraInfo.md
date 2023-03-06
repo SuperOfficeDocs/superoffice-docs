@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IQuoteAgent.GetExtraInfo"
 
 ## GetExtraInfo
 
-Converts an xml string into an object representation.
 
-* **quoteLineExtraData:** The extra data as xml.
 
-**Returns:** An object representation on the xml
+
 
 [WSDL file for Services88/Quote](../Services88-Quote.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetExtraInfo Response
 
 ```xml
@@ -75,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

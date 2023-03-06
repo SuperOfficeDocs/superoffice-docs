@@ -87,7 +87,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 164
+  "MailItemId": 866
 }
 ```
 
@@ -98,10 +98,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 720,
-  "StartDate": "2013-07-30T17:37:17.8972444+02:00",
-  "EndDate": "2006-02-20T17:37:17.8972444+01:00",
-  "RecurrenceCounter": 159,
+  "RecurrenceId": 756,
+  "StartDate": "1999-12-28T14:19:03.4040208+01:00",
+  "EndDate": "2003-12-11T14:19:03.4040208+01:00",
+  "RecurrenceCounter": 518,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -110,20 +110,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2006-02-21T17:37:17.8972444+01:00",
-      "IsConflict": true,
-      "Description": "Upgradable radical product",
-      "DescriptionStyleHint": "Managed fresh-thinking local area network",
-      "Tooltip": "aut"
+      "Date": "2010-03-12T14:19:03.4040208+01:00",
+      "IsConflict": false,
+      "Description": "Expanded exuding time-frame",
+      "DescriptionStyleHint": "Function-based composite emulation",
+      "Tooltip": "dolor"
     },
     {
-      "Date": "2006-02-21T17:37:17.8972444+01:00",
-      "IsConflict": true,
-      "Description": "Upgradable radical product",
-      "DescriptionStyleHint": "Managed fresh-thinking local area network",
-      "Tooltip": "aut"
+      "Date": "2010-03-12T14:19:03.4040208+01:00",
+      "IsConflict": false,
+      "Description": "Expanded exuding time-frame",
+      "DescriptionStyleHint": "Function-based composite emulation",
+      "Tooltip": "dolor"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

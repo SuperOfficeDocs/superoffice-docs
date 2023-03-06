@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.CreateDefaultA
 
 ## CreateDefaultAmountClassEntity
 
-Loading default values into a new AmountClassEntity.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-**Returns:** New AmountClassEntity with default values
+
+
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -47,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultAmountClassEntity Response
 
 ```xml
@@ -76,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

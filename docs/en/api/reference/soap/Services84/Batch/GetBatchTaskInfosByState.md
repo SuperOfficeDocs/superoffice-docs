@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IBatchAgent.GetBatchTaskI
 
 ## GetBatchTaskInfosByState
 
-Gets an array of BatchTaskInfo with state defined by a BatchTaskState.
 
-* **state:** The BatchTaskState to get batch tasks for.
 
-**Returns:** Returns an array of BatchTaskInfo.
+
 
 [WSDL file for Services84/Batch](../Services84-Batch.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetBatchTaskInfosByState Response
 
 ```xml
@@ -78,8 +77,8 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Batch:Value xsi:type="xsd:string"></Batch:Value>
       </Batch:StringKeyValuePair>
      </Batch:ParameterObject>
-     <Batch:LastStarted xsi:type="xsd:dateTime">2022-08-26T08:50:19Z</Batch:LastStarted>
-     <Batch:Created xsi:type="xsd:dateTime">2022-08-26T08:50:19Z</Batch:Created>
+     <Batch:LastStarted xsi:type="xsd:dateTime">2023-02-15T13:09:00Z</Batch:LastStarted>
+     <Batch:Created xsi:type="xsd:dateTime">2023-02-15T13:09:00Z</Batch:Created>
      <Batch:StartCount xsi:type="xsd:int">0</Batch:StartCount>
      <Batch:DatabaseSerialNumber xsi:type="xsd:string"></Batch:DatabaseSerialNumber>
      <Batch:Context xsi:type="xsd:string"></Batch:Context>
@@ -97,3 +96,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

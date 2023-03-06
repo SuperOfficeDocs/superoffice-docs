@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.UndoChecko
 
 ## UndoCheckoutDocument
 
-Undo (abandon) a checkout
 
-* **documentId:** SuperOffice document ID
-* **allowedReturnTypes:** List of return types that the client is prepared to handle, in case the document plugin needs to request additional processing.&lt;br/&gt;Standard allowed return types include 'None', 'Message', 'SoProtocol', 'CustomGui', 'Other'.&lt;br/&gt;An empty array implies that the client places no restriction on possible return action requests.
 
-**Returns:** Return information, including possible requests for further processing ("Return Action"). Return actions are constrained by the allowedReturnTypes parameter.
+
 
 [WSDL file for Services87/Document](../Services87-Document.md)
 
@@ -53,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## UndoCheckoutDocument Response
 
 ```xml
@@ -80,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

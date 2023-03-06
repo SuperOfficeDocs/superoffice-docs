@@ -96,7 +96,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "ullam"
+  "ProgId": "est"
 }
 ```
 
@@ -107,33 +107,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 564,
-  "Name": "Wuckert-Boyer",
-  "Tooltip": "provident",
-  "Deleted": false,
-  "Rank": 961,
+  "WebPanelId": 440,
+  "Name": "Kuhic, Raynor and Brown",
+  "Tooltip": "nulla",
+  "Deleted": true,
+  "Rank": 165,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Heathcote, Hyatt and Marvin",
+  "WindowName": "Champlin, Ryan and Frami",
   "Url": "http://www.example.com/",
-  "ProgId": "ut",
-  "Icon": 422,
+  "ProgId": "omnis",
+  "Icon": 50,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 106
+      "FieldType": "System.Int32",
+      "FieldLength": 300
     }
   }
 }

@@ -16,8 +16,8 @@ Some features are enabled by **feature toggles**.
 
 To enable toggled features - you need to add two sections manually in your NetServer configuration file.
 
-* Windows Application: *SuperOffice.config* and *SOUSER.INI*
-* Web Application: *web.config*
+* Web Application: [*web.config*][2]
+* For SupeOffice versions less than 10, and support the feature: Windows Application: [*SuperOffice.config*][4] and [*SOUSER.INI*][3]
 
 > [!NOTE]
 > If you have used feature toggles before and want to enable a new feature, simply add a new key to your existing configuration.
@@ -68,18 +68,25 @@ To enable toggled features - you need to add two sections manually in your NetSe
 
 ## Previous feature toggles
 
-| Feature | Toggle name | Available from version | Released in version | Pilot in version |
-|---|---|---|---|---|
-| Configurable Screens     | ConfigurableScreens | 10.0.2 |     | |
-| Dashboards 2.0           | NewDashboards       | 10.0.2 |     | |
-| OAuth 2.0 Authentication | NewAuthentication   | 10.x   |     | |
-| Bulk Update              | BulkUpdate          |        | 9.x | |
-| Consent Management       | ConsentManagement   |        | 9.x | |
-| New Invitation           | NewInvitation       |        | 9.x | |
-| Email Template           | EmailTemplate       |        | 9.x | |
-| User Management          | UserManagement      |        | 9.x | |
-| OAuth 2.0 Service        | NewAuth             | 10.0.x | 9.2 R10 ONSITE | |
-| Configurable Archives    | SCILHostedArchives,ConfigurableArchive | 10.1.3 |  | |
+| Feature                 | Toggle name |  Released in version | Available from version |
+|---|---|---|---|
+| Configurable Screens Sale| ConfigurableSale               |          | 10.2.1  |
+| Configurable Screens Proj| ConfigurableProject            |          | 10.2.1  |
+| Configurable Archives    | SCILHostedArchives,ConfigurableArchive | 10.1.5  | 10.2.1 |
+| Configurable Screens P&C | ConfigurableScreens            |  10.0.2  | 9.2 R12 |
+| Dashboards 2.0           | NewDashboards                  |  10.0.2  | 9.2 R12 |
+| OAuth 2.0 Service        | NewAuth                        |  10.0.6  | 9.2 R12 |
+| OAuth 2.0 Authentication | NewAuthentication              |  10.0.6  | 9.2 R10 |
+| Bulk Update              | BulkUpdate                     |  9.x     |  |
+| Consent Management       | ConsentManagement              |  9.x     |  |
+| New Invitation           | NewInvitation                  |  9.x     |  |
+| Email Template           | EmailTemplate                  |  9.x     |  |
+| User Management          | UserManagement                 |  9.x     |  |
+
+ Available from version = Version that support the FeatureToggle.
+ 
+ Released in version = Version that have the feaure automatic on, and does not support the FeatureToggle
+
 
 ## Look up enabled features
 
@@ -119,6 +126,8 @@ for (Integer i = 0; i < featureToggles.length(); i++)
 
 <!-- Referenced links -->
 [1]: ../api/config/featuretoggles.md
-
+[2]: ../api/config/index.md
+[3]: install/win-client/souser-ini.md
+[4]: install/win-client/superoffice-config.md
 <!-- Referenced images -->
 [img2]: media/feature-toggle-result.png

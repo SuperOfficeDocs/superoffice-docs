@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IDocumentAgent.GetCheckou
 
 ## GetCheckoutState
 
-Get the current checkout state for a document, relative to the user perforing the call.
 
-* **documentId:** SuperOffice document ID
 
-**Returns:** Current checkout state of the document
+
 
 [WSDL file for Services85/Document](../Services85-Document.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetCheckoutState Response
 
 ```xml
@@ -73,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

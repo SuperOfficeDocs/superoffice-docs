@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.CreateQuoteAl
 
 ## CreateQuoteAlternative
 
-Create a new quote alternative on a version.
 
-* **quoteVersionId:** QuoteVersionId of the version to create the alternative on.
-* **quoteAlternativeName:** The name to set on the new alternative.
-* **quoteAlternativeDescription:** The description to set on the new alternative.
 
-**Returns:** The newly created QuoteAlternative.
+
 
 [WSDL file for Services84/Quote](../Services84-Quote.md)
 
@@ -52,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateQuoteAlternative Response
 
@@ -97,3 +94,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

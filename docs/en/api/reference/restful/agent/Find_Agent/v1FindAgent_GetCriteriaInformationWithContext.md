@@ -81,18 +81,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eos",
-  "ProviderName": "Lemke-Stanton",
-  "StorageKey": "eveniet",
+  "StorageType": "et",
+  "ProviderName": "Huels, Kozey and Hand",
+  "StorageKey": "quos",
   "StaticColumns": [
-    "sit",
-    "in"
+    "iusto",
+    "dolor"
   ],
-  "Context": "dolor"
+  "Context": "itaque"
 }
 ```
 
@@ -105,81 +105,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Prohaska-Nader",
-      "Operator": "perspiciatis",
+      "Name": "Paucek, Bode and Harber",
+      "Operator": "tempora",
       "Values": [
-        "nihil",
-        "nesciunt"
+        "velit",
+        "molestias"
       ],
       "DisplayValues": [
-        "sed",
-        "enim"
+        "maxime",
+        "doloribus"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 863,
+      "InterParenthesis": 803,
       "InterOperator": "And",
-      "UniqueHash": 655
+      "UniqueHash": 523
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Bailey, Conn and Ankunding",
-      "DisplayTooltip": "labore",
-      "DisplayType": "minus",
-      "CanOrderBy": true,
-      "Name": "Goyette Group",
+      "DisplayName": "Reynolds LLC",
+      "DisplayTooltip": "nobis",
+      "DisplayType": "eligendi",
+      "CanOrderBy": false,
+      "Name": "Runte-Murray",
       "CanRestrictBy": false,
-      "RestrictionType": "incidunt",
-      "RestrictionListName": "Hegmann Group",
+      "RestrictionType": "voluptatibus",
+      "RestrictionListName": "Renner, Nikolaus and Zieme",
       "IsVisible": false,
-      "ExtraInfo": "amet",
-      "Width": "dolorem",
-      "IconHint": "veritatis",
-      "HeadingIconHint": "rerum"
+      "ExtraInfo": "earum",
+      "Width": "quidem",
+      "IconHint": "excepturi",
+      "HeadingIconHint": "eveniet"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Christiansen Group",
-      "PrimaryKey": 444,
+      "EntityName": "Koepp Group",
+      "PrimaryKey": 275,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "occaecati",
-          "TooltipHint": "ipsam",
-          "LinkHint": "enim"
+          "DisplayValue": "omnis",
+          "TooltipHint": "in",
+          "LinkHint": "recusandae"
         }
       },
-      "LinkHint": "est",
-      "StyleHint": "eaque",
+      "LinkHint": "dolorem",
+      "StyleHint": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 11
+          "FieldLength": 641
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Johns, Borer and Parker",
-      "Description": "Integrated intermediate analyzer",
-      "Rank": 64,
+      "Name": "Runolfsdottir, Wehner and King",
+      "Description": "Adaptive analyzing hub",
+      "Rank": 972,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Johns, Borer and Parker",
-      "Description": "Integrated intermediate analyzer",
-      "Rank": 64,
+      "Name": "Runolfsdottir, Wehner and King",
+      "Description": "Adaptive analyzing hub",
+      "Rank": 972,
       "Restrictions": [
         {},
         {}
@@ -191,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 533
+      "FieldLength": 223
     }
   }
 }

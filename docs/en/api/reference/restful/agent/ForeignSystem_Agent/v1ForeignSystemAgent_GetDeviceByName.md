@@ -85,8 +85,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Renner, Treutel and O'Hara",
-  "DeviceName": "Vandervort-Satterfield"
+  "ApplicationName": "Ritchie Inc and Sons",
+  "DeviceName": "Krajcik LLC"
 }
 ```
 
@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 331,
-  "Name": "Wuckert, Kunde and Torphy",
-  "CreatedDate": "1999-12-03T17:37:18.1002438+01:00",
-  "UpdatedDate": "1996-11-09T17:37:18.1002438+01:00",
-  "AssociateFullName": "Dr. Jailyn Godfrey Ondricka V",
-  "CreatedBy": "rerum",
-  "UpdatedBy": "exercitationem",
-  "DeviceIdentifier": "rerum",
-  "ForeignAppId": 665,
+  "ForeignDeviceId": 924,
+  "Name": "Buckridge LLC",
+  "CreatedDate": "2009-11-21T14:19:03.5602728+01:00",
+  "UpdatedDate": "2008-02-24T14:19:03.5602728+01:00",
+  "AssociateFullName": "Dr. Beatrice Robel",
+  "CreatedBy": "voluptates",
+  "UpdatedBy": "voluptas",
+  "DeviceIdentifier": "perspiciatis",
+  "ForeignAppId": 150,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 299
+      "FieldLength": 343
     }
   }
 }

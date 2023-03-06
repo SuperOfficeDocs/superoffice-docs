@@ -76,26 +76,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Crooks-Lakin",
-    "StepNumber": 62,
+    "Name": "Breitenberg Inc and Sons",
+    "StepNumber": 802,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 494
+        "FieldType": "System.String",
+        "FieldLength": 309
       }
     }
   },
   {
-    "Name": "Crooks-Lakin",
-    "StepNumber": 62,
+    "Name": "Breitenberg Inc and Sons",
+    "StepNumber": 802,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 494
+        "FieldType": "System.String",
+        "FieldLength": 309
       }
     }
   }

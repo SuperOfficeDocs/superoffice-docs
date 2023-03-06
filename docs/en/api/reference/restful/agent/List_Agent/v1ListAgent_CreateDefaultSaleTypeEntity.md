@@ -87,53 +87,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 135,
-  "Name": "Willms-Jewess",
-  "Tooltip": "eos",
-  "Rank": 438,
+  "SaleTypeId": 663,
+  "Name": "Watsica Inc and Sons",
+  "Tooltip": "quos",
+  "Rank": 407,
   "DurationUnit": "Century",
-  "SaleDuration": 409,
-  "SaleTypeCatId": 485,
+  "SaleDuration": 470,
+  "SaleTypeCatId": 631,
   "Deleted": true,
   "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 140,
-  "QuoteLinesTemplate": 539,
-  "ConfirmationLinesTemplate": 562,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 804,
+  "QuoteLinesTemplate": 710,
+  "ConfirmationLinesTemplate": 706,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 457,
-  "MinEarningPercent": 518,
-  "GroupQuoteLinesBy": 642,
-  "SortGroupLinesBy": 146,
+  "MaxDiscountPercent": 783,
+  "MinEarningPercent": 630,
+  "GroupQuoteLinesBy": 626,
+  "SortGroupLinesBy": 193,
   "Stages": [
     {
-      "Id": 425,
-      "Name": "Schuppe, Stark and Carroll",
-      "ToolTip": "Et eaque.",
+      "Id": 462,
+      "Name": "O'Keefe Inc and Sons",
+      "ToolTip": "Sapiente reprehenderit omnis consequatur.",
       "Deleted": true,
-      "Rank": 853,
-      "Type": "sunt",
-      "ColorBlock": 415,
-      "IconHint": "et",
-      "Selected": false,
-      "LastChanged": "2008-03-09T17:37:18.2862416+01:00",
+      "Rank": 190,
+      "Type": "exercitationem",
+      "ColorBlock": 626,
+      "IconHint": "repudiandae",
+      "Selected": true,
+      "LastChanged": "2020-03-16T14:19:03.6863742+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "cumque",
-      "StyleHint": "omnis",
-      "Hidden": true,
-      "FullName": "Judah Wiegand",
+      "ExtraInfo": "laboriosam",
+      "StyleHint": "magnam",
+      "Hidden": false,
+      "FullName": "Prof. Molly Alberta Herzog V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 81
+          "FieldLength": 491
         }
       }
     }
@@ -142,8 +142,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldType": "System.String",
+      "FieldLength": 373
     }
   }
 }

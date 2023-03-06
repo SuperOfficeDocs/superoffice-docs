@@ -60,7 +60,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,31 +70,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 978,
-  "Name": "Roob LLC",
-  "TZLocationCode": "eveniet",
-  "TZLocationCities": "quae",
-  "IsoNumber": 828,
+  "TZLocationID": 880,
+  "Name": "Dietrich, Friesen and Gaylord",
+  "TZLocationCode": "iusto",
+  "TZLocationCities": "ipsum",
+  "IsoNumber": 6,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 133,
-      "StartMonth": 71,
-      "EndDay": 821,
-      "EndMonth": 149,
-      "TZOffset": 648,
-      "StartRulePattern": "in",
-      "EndRulePattern": "libero"
+      "StartDay": 677,
+      "StartMonth": 64,
+      "EndDay": 1000,
+      "EndMonth": 931,
+      "TZOffset": 798,
+      "StartRulePattern": "optio",
+      "EndRulePattern": "numquam"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 201,
-      "StartMonth": 764,
-      "EndDay": 291,
-      "EndMonth": 387,
-      "TZOffset": 409,
-      "StartRulePattern": "facilis",
-      "EndRulePattern": "vel"
+      "StartDay": 485,
+      "StartMonth": 51,
+      "EndDay": 591,
+      "EndMonth": 54,
+      "TZOffset": 632,
+      "StartRulePattern": "eaque",
+      "EndRulePattern": "porro"
     }
   }
 }

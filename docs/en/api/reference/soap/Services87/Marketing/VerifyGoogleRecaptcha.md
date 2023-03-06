@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IMarketingAgent.VerifyGoo
 
 ## VerifyGoogleRecaptcha
 
-This method will try to verify a Google recaptcha token. The token is gained from the recaptcha frontend component
 
-* **token:** The token to be verified
-* **optionalSecretKey:** Use an optional secret key instead of the system wide
 
-**Returns:** Returns true if the recaptcha token verified successfully
+
 
 [WSDL file for Services87/Marketing](../Services87-Marketing.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## VerifyGoogleRecaptcha Response
 
 ```xml
@@ -69,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

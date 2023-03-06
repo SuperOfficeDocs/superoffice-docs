@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IReportAgent.DeleteReport
 
 ## DeleteReport
 
-Delete the report with the given id
 
-* **reportId:** The id of the report to delete
 
-**Returns:** Delete ok?
+
 
 [WSDL file for Services87/Report](../Services87-Report.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteReport Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

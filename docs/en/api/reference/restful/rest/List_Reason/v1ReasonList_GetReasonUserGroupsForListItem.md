@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 399,
-    "Name": "Glover-Bashirian",
-    "ToolTip": "Velit porro aut et corrupti debitis magni et.",
+    "Id": 792,
+    "Name": "Weimann, Bednar and Marquardt",
+    "ToolTip": "Et minus nemo eum nemo.",
     "Deleted": false,
-    "Rank": 939,
-    "Type": "voluptas",
-    "ColorBlock": 696,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2000-10-11T17:37:40.2835003+02:00",
+    "Rank": 574,
+    "Type": "quam",
+    "ColorBlock": 895,
+    "IconHint": "in",
+    "Selected": true,
+    "LastChanged": "2016-05-09T14:19:11.4557858+02:00",
     "ChildItems": [
       {
-        "Id": 601,
-        "Name": "Waelchi, Deckow and Sporer",
-        "ToolTip": "Voluptatibus dolore.",
-        "Deleted": true,
-        "Rank": 844,
-        "Type": "hic",
-        "ColorBlock": 332,
-        "IconHint": "eius",
+        "Id": 979,
+        "Name": "Marquardt, Kling and Hilll",
+        "ToolTip": "Voluptatem ex exercitationem aut libero.",
+        "Deleted": false,
+        "Rank": 541,
+        "Type": "sint",
+        "ColorBlock": 719,
+        "IconHint": "ipsa",
         "Selected": false,
-        "LastChanged": "2022-08-03T17:37:40.2835003+02:00",
+        "LastChanged": "2002-01-04T14:19:11.4557858+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "odit",
+        "ExtraInfo": "ratione",
+        "StyleHint": "commodi",
         "Hidden": false,
-        "FullName": "Dimitri Vladimir Pfeffer II",
+        "FullName": "Margret Grimes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 800
+            "FieldType": "System.String",
+            "FieldLength": 933
           }
         }
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "consectetur",
+    "ExtraInfo": "et",
+    "StyleHint": "minus",
     "Hidden": false,
-    "FullName": "Zackery Crooks",
+    "FullName": "Bertha Willms",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 398
+        "FieldLength": 723
       }
     }
   }

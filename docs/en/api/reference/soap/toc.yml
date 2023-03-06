@@ -12124,6 +12124,8 @@
       href: Services88/Appointment/CanAssignToProjectMember.md
     - name: CleanUpBookingDeleted
       href: Services88/Appointment/CleanUpBookingDeleted.md
+    - name: CleanUpBookingDeletedWithUpdateMode
+      href: Services88/Appointment/CleanUpBookingDeletedWithUpdateMode.md
     - name: CleanUpRecurringBookingDeleted
       href: Services88/Appointment/CleanUpRecurringBookingDeleted.md
     - name: CreateAndAccept
@@ -12286,6 +12288,8 @@
       href: Services88/Appointment/SetActivityStatus.md
     - name: SetSeen
       href: Services88/Appointment/SetSeen.md
+    - name: SetSeenMany
+      href: Services88/Appointment/SetSeenMany.md
     - name: ToggleActivities
       href: Services88/Appointment/ToggleActivities.md
     - name: ToggleActivity
@@ -12351,6 +12355,10 @@
       href: Services88/Archive/GetGroupAssociateIds.md
     - name: GetProviderNames
       href: Services88/Archive/GetProviderNames.md
+    - name: GetRelatedData
+      href: Services88/Archive/GetRelatedData.md
+    - name: GetRelatedData2
+      href: Services88/Archive/GetRelatedData2.md
     - name: SetActivityFilter
       href: Services88/Archive/SetActivityFilter.md
     - name: SetChosenColumns
@@ -12444,6 +12452,10 @@
       href: Services88/Batch/DeleteBatchTask.md
     - name: DeleteBatchTasks
       href: Services88/Batch/DeleteBatchTasks.md
+    - name: GetAllBatchTaskInfosByName
+      href: Services88/Batch/GetAllBatchTaskInfosByName.md
+    - name: GetAllBatchTaskInfosByNameAndState
+      href: Services88/Batch/GetAllBatchTaskInfosByNameAndState.md
     - name: GetBatchTaskInfo
       href: Services88/Batch/GetBatchTaskInfo.md
     - name: GetBatchTaskInfosByAssociates
@@ -12456,6 +12468,10 @@
       href: Services88/Batch/GetBatchTaskInfosByNameAndState.md
     - name: GetBatchTaskInfosByState
       href: Services88/Batch/GetBatchTaskInfosByState.md
+    - name: GetSystemBatchTaskInfosByName
+      href: Services88/Batch/GetSystemBatchTaskInfosByName.md
+    - name: GetSystemBatchTaskInfosByNameAndState
+      href: Services88/Batch/GetSystemBatchTaskInfosByNameAndState.md
     - name: StartBatchJob
       href: Services88/Batch/StartBatchJob.md
     - name: StopBatchJob
@@ -12703,6 +12719,8 @@
       href: Services88/Configuration/GetScreenConfigurationDelta.md
     - name: GetScreenConfigurationDeltas
       href: Services88/Configuration/GetScreenConfigurationDeltas.md
+    - name: GetSpfDomain
+      href: Services88/Configuration/GetSpfDomain.md
     - name: GetSystemEventEntity
       href: Services88/Configuration/GetSystemEventEntity.md
     - name: GetWindowPosSize
@@ -12746,6 +12764,8 @@
       href: Services88/Contact/Copy.md
     - name: CreateDefaultContactEntity
       href: Services88/Contact/CreateDefaultContactEntity.md
+    - name: CreateDefaultPreviewContact
+      href: Services88/Contact/CreateDefaultPreviewContact.md
     - name: CreateNewEntry
       href: Services88/Contact/CreateNewEntry.md
     - name: DeleteContactEntity
@@ -12784,6 +12804,8 @@
       href: Services88/Contact/GetNameDepartmentDuplicates.md
     - name: GetPersons
       href: Services88/Contact/GetPersons.md
+    - name: GetPreviewContact
+      href: Services88/Contact/GetPreviewContact.md
     - name: GetQuoteVersionAddresses
       href: Services88/Contact/GetQuoteVersionAddresses.md
     - name: IsNumberValid
@@ -12910,10 +12932,14 @@
       href: Services88/CustomerService/GetStatistics.md
     - name: GetSystemTemplateSettings
       href: Services88/CustomerService/GetSystemTemplateSettings.md
+    - name: GetUnparsedTemplate
+      href: Services88/CustomerService/GetUnparsedTemplate.md
     - name: HasChatNotify
       href: Services88/CustomerService/HasChatNotify.md
     - name: RemoveSession
       href: Services88/CustomerService/RemoveSession.md
+    - name: ReportSessionActive
+      href: Services88/CustomerService/ReportSessionActive.md
     - name: SaveAllCustomerCenterConfigs
       href: Services88/CustomerService/SaveAllCustomerCenterConfigs.md
     - name: SaveCustomerCenterConfig
@@ -13396,6 +13422,8 @@
       href: Services88/EMail/GetEmailsAsString.md
     - name: GetEMailSOInfo
       href: Services88/EMail/GetEMailSOInfo.md
+    - name: GetExtendedEmailMessageIds
+      href: Services88/EMail/GetExtendedEmailMessageIds.md
     - name: GetFolderEMailCount
       href: Services88/EMail/GetFolderEMailCount.md
     - name: GetFolderHasNewEMail
@@ -13440,6 +13468,8 @@
       href: Services88/EMail/HasMXRecord.md
     - name: HasNewMail
       href: Services88/EMail/HasNewMail.md
+    - name: HasSPFRecord
+      href: Services88/EMail/HasSPFRecord.md
     - name: LatestItemIdByFolder
       href: Services88/EMail/LatestItemIdByFolder.md
     - name: MarkAsRead
@@ -13596,6 +13626,8 @@
       href: Services88/Favourite/AddFavourite.md
     - name: AddFavourites
       href: Services88/Favourite/AddFavourites.md
+    - name: AddTicketsToFavouritesByProvider
+      href: Services88/Favourite/AddTicketsToFavouritesByProvider.md
     - name: GetFavourites
       href: Services88/Favourite/GetFavourites.md
     - name: IsFavourite
@@ -13604,8 +13636,12 @@
       href: Services88/Favourite/RemoveAllFavourites.md
     - name: RemoveFavourite
       href: Services88/Favourite/RemoveFavourite.md
+    - name: RemoveFavourites
+      href: Services88/Favourite/RemoveFavourites.md
     - name: RemoveFavouritesById
       href: Services88/Favourite/RemoveFavouritesById.md
+    - name: RemoveTicketsFromFavouritesByProvider
+      href: Services88/Favourite/RemoveTicketsFromFavouritesByProvider.md
     - name: ToggleFavourite
       href: Services88/Favourite/ToggleFavourite.md
   - name: FileManager
@@ -13774,6 +13810,8 @@
       href: Services88/FreeText/AddWords.md
     - name: DeleteStopWordsById
       href: Services88/FreeText/DeleteStopWordsById.md
+    - name: FreetextIndexRows
+      href: Services88/FreeText/FreetextIndexRows.md
     - name: GetStatus
       href: Services88/FreeText/GetStatus.md
     - name: GetStopWordList
@@ -13885,6 +13923,8 @@
       href: Services88/List/CreateDefaultSaleStageEntity.md
     - name: CreateDefaultSaleTypeEntity
       href: Services88/List/CreateDefaultSaleTypeEntity.md
+    - name: CreateDefaultTaskMenu
+      href: Services88/List/CreateDefaultTaskMenu.md
     - name: CreateDefaultTicketCategoryEntity
       href: Services88/List/CreateDefaultTicketCategoryEntity.md
     - name: CreateDefaultTicketPriorityEntity
@@ -13901,6 +13941,8 @@
       href: Services88/List/DeleteAllHeadingsFromListDefinition.md
     - name: DeleteAllHeadingsFromName
       href: Services88/List/DeleteAllHeadingsFromName.md
+    - name: DeleteAppTaskMenus
+      href: Services88/List/DeleteAppTaskMenus.md
     - name: DeleteAppWebPanels
       href: Services88/List/DeleteAppWebPanels.md
     - name: DeleteDocumentTemplateLanguage
@@ -13921,6 +13963,8 @@
       href: Services88/List/DeleteProjectStatus.md
     - name: DeleteResourceEntity
       href: Services88/List/DeleteResourceEntity.md
+    - name: DeleteTaskMenu
+      href: Services88/List/DeleteTaskMenu.md
     - name: DeleteTicketCategoryEntity
       href: Services88/List/DeleteTicketCategoryEntity.md
     - name: DeleteTicketPriorityEntity
@@ -13967,6 +14011,8 @@
       href: Services88/List/GetAllTicketPriorities.md
     - name: GetAmountClassEntity
       href: Services88/List/GetAmountClassEntity.md
+    - name: GetAppTaskMenus
+      href: Services88/List/GetAppTaskMenus.md
     - name: GetAppWebPanels
       href: Services88/List/GetAppWebPanels.md
     - name: GetBaseCurrency
@@ -14253,6 +14299,10 @@
       href: Services88/List/GetTask.md
     - name: GetTaskList
       href: Services88/List/GetTaskList.md
+    - name: GetTaskMenu
+      href: Services88/List/GetTaskMenu.md
+    - name: GetTaskMenuByProgId
+      href: Services88/List/GetTaskMenuByProgId.md
     - name: GetTasks
       href: Services88/List/GetTasks.md
     - name: GetTicketCategories
@@ -14357,6 +14407,8 @@
       href: Services88/List/SaveSaleStageEntity.md
     - name: SaveSaleTypeEntity
       href: Services88/List/SaveSaleTypeEntity.md
+    - name: SaveTaskMenu
+      href: Services88/List/SaveTaskMenu.md
     - name: SaveTicketCategoryEntity
       href: Services88/List/SaveTicketCategoryEntity.md
     - name: SaveTicketPriorityEntity
@@ -14436,6 +14488,8 @@
       href: Services88/Marketing/GetFormEntity.md
     - name: GetFormSubmissionEntity
       href: Services88/Marketing/GetFormSubmissionEntity.md
+    - name: GetFormSubmissionsCount
+      href: Services88/Marketing/GetFormSubmissionsCount.md
     - name: GetPreviewMailing
       href: Services88/Marketing/GetPreviewMailing.md
     - name: GetPreviewMailingHeader
@@ -14551,6 +14605,8 @@
       href: Services88/Person/CreateDefaultFromCredential.md
     - name: CreateDefaultPersonEntity
       href: Services88/Person/CreateDefaultPersonEntity.md
+    - name: CreateDefaultPersonImage
+      href: Services88/Person/CreateDefaultPersonImage.md
     - name: CreateTemporaryKey
       href: Services88/Person/CreateTemporaryKey.md
     - name: DeleteConsentPerson
@@ -14589,6 +14645,8 @@
       href: Services88/Person/GetPersonEntity.md
     - name: GetPersonImage
       href: Services88/Person/GetPersonImage.md
+    - name: GetPersonImages
+      href: Services88/Person/GetPersonImages.md
     - name: GetPersonList
       href: Services88/Person/GetPersonList.md
     - name: GetPersonsFromContact
@@ -15405,8 +15463,16 @@
       href: Services88/Targets/CreateDefaultTargetAssignment.md
     - name: CreateDefaultTargetAssignmentForCompany
       href: Services88/Targets/CreateDefaultTargetAssignmentForCompany.md
+    - name: CreateDefaultTargetAssignmentForCompanyWithDimension
+      href: Services88/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension.md
+    - name: CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
+      href: Services88/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension.md
     - name: CreateDefaultTargetAssignmentForUserGroup
       href: Services88/Targets/CreateDefaultTargetAssignmentForUserGroup.md
+    - name: CreateDefaultTargetAssignmentForUserGroupWithDimension
+      href: Services88/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension.md
+    - name: CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
+      href: Services88/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension.md
     - name: CreateDefaultTargetDimension
       href: Services88/Targets/CreateDefaultTargetDimension.md
     - name: CreateDefaultTargetGroup
@@ -15423,6 +15489,8 @@
       href: Services88/Targets/ExportTargetGroupToExcel.md
     - name: GetTargetAssignmentForYear
       href: Services88/Targets/GetTargetAssignmentForYear.md
+    - name: GetTargetAssignmentForYearAndDimension
+      href: Services88/Targets/GetTargetAssignmentForYearAndDimension.md
     - name: GetTargetDimension
       href: Services88/Targets/GetTargetDimension.md
     - name: GetTargetDimensionsForEntityType
@@ -15431,6 +15499,8 @@
       href: Services88/Targets/GetTargetGroup.md
     - name: GetTargetGroupForYear
       href: Services88/Targets/GetTargetGroupForYear.md
+    - name: GetTargetGroupForYearAndDimension
+      href: Services88/Targets/GetTargetGroupForYearAndDimension.md
     - name: GetTargetGroupIds
       href: Services88/Targets/GetTargetGroupIds.md
     - name: GetTargetRevisionHistory
@@ -15444,14 +15514,22 @@
     items:
     - name: AddAttachments
       href: Services88/Ticket/AddAttachments.md
+    - name: BatchForward
+      href: Services88/Ticket/BatchForward.md
+    - name: BatchReply
+      href: Services88/Ticket/BatchReply.md
     - name: CalculateMessageRecipients
       href: Services88/Ticket/CalculateMessageRecipients.md
+    - name: ClearNotify
+      href: Services88/Ticket/ClearNotify.md
     - name: CreateDefaultAttachmentEntity
       href: Services88/Ticket/CreateDefaultAttachmentEntity.md
     - name: CreateDefaultTicketEntity
       href: Services88/Ticket/CreateDefaultTicketEntity.md
     - name: CreateDefaultTicketMessageEntity
       href: Services88/Ticket/CreateDefaultTicketMessageEntity.md
+    - name: DeleteMessageHeaders
+      href: Services88/Ticket/DeleteMessageHeaders.md
     - name: DeleteTicketEntity
       href: Services88/Ticket/DeleteTicketEntity.md
     - name: DeleteTicketMessageEntity
@@ -15482,18 +15560,26 @@
       href: Services88/Ticket/GetTicketMessageEntity.md
     - name: GetTicketMessageWithEmbeddedData
       href: Services88/Ticket/GetTicketMessageWithEmbeddedData.md
+    - name: GetTicketMessageWithOptions
+      href: Services88/Ticket/GetTicketMessageWithOptions.md
     - name: GetTickets
       href: Services88/Ticket/GetTickets.md
     - name: GetTicketSummaries
       href: Services88/Ticket/GetTicketSummaries.md
     - name: Html2Text
       href: Services88/Ticket/Html2Text.md
+    - name: MergeTickets
+      href: Services88/Ticket/MergeTickets.md
     - name: NotifyNewTicket
       href: Services88/Ticket/NotifyNewTicket.md
     - name: NotifyNewTicketMessage
       href: Services88/Ticket/NotifyNewTicketMessage.md
     - name: ProcessTicketWhenRead
       href: Services88/Ticket/ProcessTicketWhenRead.md
+    - name: RemoveMessageAttachments
+      href: Services88/Ticket/RemoveMessageAttachments.md
+    - name: ResolveTicketId
+      href: Services88/Ticket/ResolveTicketId.md
     - name: SanitizeMailContent
       href: Services88/Ticket/SanitizeMailContent.md
     - name: SanitizeMailContents
@@ -15508,16 +15594,34 @@
       href: Services88/Ticket/SaveTicketMessageEntity.md
     - name: SaveTicketMessageEntityWithNotify
       href: Services88/Ticket/SaveTicketMessageEntityWithNotify.md
+    - name: SaveTicketMessageEntityWithOptions
+      href: Services88/Ticket/SaveTicketMessageEntityWithOptions.md
     - name: SendTicketMessage
       href: Services88/Ticket/SendTicketMessage.md
     - name: SendTicketMessageSms
       href: Services88/Ticket/SendTicketMessageSms.md
+    - name: SetDeletedStatusByIds
+      href: Services88/Ticket/SetDeletedStatusByIds.md
+    - name: SetDeletedStatusByProvider
+      href: Services88/Ticket/SetDeletedStatusByProvider.md
     - name: SetTicketMessageImportant
       href: Services88/Ticket/SetTicketMessageImportant.md
     - name: SetTicketReadByOwner
       href: Services88/Ticket/SetTicketReadByOwner.md
+    - name: SplitTicket
+      href: Services88/Ticket/SplitTicket.md
+    - name: SplitTicketMessage
+      href: Services88/Ticket/SplitTicketMessage.md
+    - name: UndeleteByIds
+      href: Services88/Ticket/UndeleteByIds.md
+    - name: UpdateTicketsReadStatus
+      href: Services88/Ticket/UpdateTicketsReadStatus.md
+    - name: UpdateTicketsReadStatusByProvider
+      href: Services88/Ticket/UpdateTicketsReadStatusByProvider.md
     - name: UploadAttachment
       href: Services88/Ticket/UploadAttachment.md
+    - name: ValidateAttachments
+      href: Services88/Ticket/ValidateAttachments.md
   - name: TimeZone
     href: Services88/TimeZone/index.md
     items:
@@ -15527,6 +15631,8 @@
       href: Services88/TimeZone/DeleteTimeZones.md
     - name: GetBaseTimeZoneId
       href: Services88/TimeZone/GetBaseTimeZoneId.md
+    - name: GetDefaultTimeZoneInformation
+      href: Services88/TimeZone/GetDefaultTimeZoneInformation.md
     - name: GetDefaultTimeZonePreference
       href: Services88/TimeZone/GetDefaultTimeZonePreference.md
     - name: InitializeTimeZoneData
@@ -15673,6 +15779,8 @@
       href: Services88/User/GetUserInfo.md
     - name: GetUserInfoList
       href: Services88/User/GetUserInfoList.md
+    - name: GetUserPresenceStatus
+      href: Services88/User/GetUserPresenceStatus.md
     - name: GetValidUserName
       href: Services88/User/GetValidUserName.md
     - name: GetValidUserNameForNewUser
@@ -15735,6 +15843,8 @@
       href: Services88/User/SetPassword.md
     - name: SetPasswordFromName
       href: Services88/User/SetPasswordFromName.md
+    - name: SetUserPresenceStatus
+      href: Services88/User/SetUserPresenceStatus.md
     - name: ValidateUser
       href: Services88/User/ValidateUser.md
   - name: UserDefinedFieldInfo
@@ -15742,6 +15852,8 @@
     items:
     - name: ChangeFieldType
       href: Services88/UserDefinedFieldInfo/ChangeFieldType.md
+    - name: ClearCaches
+      href: Services88/UserDefinedFieldInfo/ClearCaches.md
     - name: CreateDefaultUserDefinedFieldInfo
       href: Services88/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo.md
     - name: CreateUserDefinedFieldInfo

@@ -5,50 +5,34 @@ items:
   href: screen/index.md
 - name: Standard reports
   href: standard-reports.md
-- name: Working with reports
+- name: Work with reports
   href: working-with-reports.md
   items:
-  - name: Showing report properties
+  - name: Show report properties
     href: properties.md
-  - name: Create a report
+  - name: Create report
     href: create.md
-  - name: Running reports
+  - name: Run report
     href: run.md
-  - name: Viewing reports
-    href: view.md
-  - name: Preview
+  - name: Preview report
     href: preview.md
-  - name: Printing reports
+  - name: Print report
     href: print.md
-  - name: Saving reports as files
+  - name: Save report as file
     href: save.md
-  - name: Opening reports in the report archive
+  - name: Open reports in report archive
     href: open-from-archive.md
-  - name: Using the Filter function Reports
+  - name: Filter in report archive
     href: filter.md
-  - name: Deleting reports from the report archive
+  - name: Delete reports from report archive
     href: delete-from-archive.md
-- name: Search criteria
-  href: search-criteria/index.md
-  items:
-  - name: Add search criteria to reports
-    href: search-criteria/add.md
-  - name: Edit search criteria in reports
-    href: search-criteria/edit.md
-- name: Standard reports
-  href: standard-reports.md
-- name: Favorite reports
-  href: favorites/index.md
-  items:
-  - name: Adding a report to favorites
-    href: favorites/add.md
-  - name: Editing favorite reports
-    href: favorites/edit.md
-  - name: Deleting favorite reports
-    href: favorites/delete.md
-- name: Labels
+  - name: Cross tables
+    href: cross-tables.md
+- name: Work with labels
   href: labels/index.md
   items:
+  - name: Display labels
+    href: labels/index.md
   - name: Add label formats
     href: labels/add-format.md
   - name: Edit label formats
@@ -57,5 +41,19 @@ items:
     href: labels/remove-format.md
   - name: Print labels
     href: labels/print-labels.md
-- name: Cross tables
-  href: cross-tables.md
+- name: Search criteria
+  href: search-criteria/index.md
+  items:
+  - name: Add search criteria to reports
+    href: search-criteria/add.md
+  - name: Edit search criteria in reports
+    href: search-criteria/edit.md
+- name: Favourite reports
+  href: favorites/index.md
+  items:
+  - name: Add report to favourites
+    href: favorites/add.md
+  - name: Edit favourite report
+    href: favorites/edit.md
+  - name: Delete favourite reports
+    href: favorites/delete.md

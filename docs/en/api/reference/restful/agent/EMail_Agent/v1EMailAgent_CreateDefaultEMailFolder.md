@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,19 +75,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lowe Inc and Sons",
-  "Delimiter": "unde",
-  "Flags": "fugiat",
-  "TotalItems": 295,
-  "UnreadItems": 981,
+  "Name": "Treutel, Towne and Bashirian",
+  "Delimiter": "commodi",
+  "Flags": "maxime",
+  "TotalItems": 852,
+  "UnreadItems": 773,
   "Subscribed": false,
-  "EmailFolderId": 249,
+  "EmailFolderId": 937,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 909
+      "FieldType": "System.Int32",
+      "FieldLength": 878
     }
   }
 }

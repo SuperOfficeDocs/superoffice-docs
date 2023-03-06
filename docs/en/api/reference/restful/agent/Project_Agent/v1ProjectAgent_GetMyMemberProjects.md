@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 466,
-    "Name": "Stokes-Rogahn",
-    "Description": "Decentralized attitude-oriented leverage",
+    "ProjectId": 215,
+    "Name": "Hickle-Pollich",
+    "Description": "Multi-lateral 24 hour toolset",
     "URL": "http://www.example.com/",
-    "Type": "sed",
-    "AssociateId": 74,
-    "AssociateFullName": "Fleta Collier",
-    "TypeId": 412,
-    "Updated": "2005-08-14T17:37:18.6592449+02:00",
-    "StatusId": 161,
-    "Status": "provident",
-    "TextId": 645,
-    "PublishTo": "2018-02-09T17:37:18.6592449+01:00",
-    "PublishFrom": "2018-05-04T17:37:18.6592449+02:00",
+    "Type": "deleniti",
+    "AssociateId": 847,
+    "AssociateFullName": "Keeley Bechtelar",
+    "TypeId": 916,
+    "Updated": "2008-06-30T14:19:03.9688343+02:00",
+    "StatusId": 630,
+    "Status": "illum",
+    "TextId": 489,
+    "PublishTo": "2006-07-06T14:19:03.9688343+02:00",
+    "PublishFrom": "1996-05-08T14:19:03.9688343+02:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "428114",
-    "ActiveErpLinks": 445,
+    "ProjectNumber": "746762",
+    "ActiveErpLinks": 632,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 86
+        "FieldLength": 96
       }
     }
   }

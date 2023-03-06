@@ -32,7 +32,7 @@ Calls the Project agent service GetProjectEntity.
 
 ```http
 GET /api/v1/Project/{id}?$select=name,department,category/id
-GET /api/v1/Project/{id}?fk=True
+GET /api/v1/Project/{id}?fk=False
 ```
 
 
@@ -105,7 +105,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -113,135 +113,135 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 28 Sep 1996 17:37:38 G9T
+Last-Modified: Mon, 27 Oct 2014 14:19:10 G10T
 
 {
-  "ProjectId": 561,
-  "Name": "Wisoky, Rice and Padberg",
-  "ProjectNumber": "1346747",
+  "ProjectId": 235,
+  "Name": "Carter-Adams",
+  "ProjectNumber": "534461",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 429,
-      "ContactId": 43,
-      "ProjectId": 262,
-      "ContactName": "Hoeger-White",
-      "ContactDepartment": "disintermediate cross-media e-business",
-      "ProjectName": "Johnson Group",
-      "EmailId": 131,
-      "EmailAddress": "elinor_nolan@braunhalvorson.name",
-      "CountryId": 89,
-      "Firstname": "Mohammad",
-      "MiddleName": "Bartell, Skiles and Schimmel",
-      "Lastname": "Hermann",
-      "PersonId": 888,
-      "Mrmrs": "non",
-      "ProjectMemberTypeName": "Spencer-Langworth",
-      "Phone": "576-868-2397 x23945",
-      "PhoneId": 937,
-      "ProjectMemberTypeId": 926,
-      "EmailAddressName": "delphia.vonrueden@crist.us",
-      "Comment": "magni",
-      "FullName": "Shanny Adrien Corwin MD",
+      "ProjectmemberId": 487,
+      "ContactId": 202,
+      "ProjectId": 267,
+      "ContactName": "Walter, Kessler and Rodriguez",
+      "ContactDepartment": "synthesize open-source solutions",
+      "ProjectName": "Von-Lehner",
+      "EmailId": 354,
+      "EmailAddress": "jaeden_boyer@wymankassulke.uk",
+      "CountryId": 76,
+      "Firstname": "Maurice",
+      "MiddleName": "Nicolas-Kilback",
+      "Lastname": "Abernathy",
+      "PersonId": 943,
+      "Mrmrs": "sed",
+      "ProjectMemberTypeName": "Tromp, Bahringer and Bruen",
+      "Phone": "(909)699-3047",
+      "PhoneId": 9,
+      "ProjectMemberTypeId": 425,
+      "EmailAddressName": "alycia@cassinfeest.name",
+      "Comment": "iure",
+      "FullName": "Jennifer Stracke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 102
+          "FieldType": "System.String",
+          "FieldLength": 825
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "velit",
-      "StrippedValue": "eum",
-      "Description": "Versatile systemic encoding",
+      "Value": "soluta",
+      "StrippedValue": "officia",
+      "Description": "Progressive zero defect hardware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 876
+          "FieldType": "System.String",
+          "FieldLength": 470
         }
       }
     },
     {
-      "Value": "velit",
-      "StrippedValue": "eum",
-      "Description": "Versatile systemic encoding",
+      "Value": "soluta",
+      "StrippedValue": "officia",
+      "Description": "Progressive zero defect hardware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 876
+          "FieldType": "System.String",
+          "FieldLength": 470
         }
       }
     }
   ],
-  "CreatedDate": "2011-07-08T17:37:38.9903063+02:00",
-  "UpdatedDate": "1996-09-28T17:37:38.9903063+02:00",
-  "Description": "Cloned systemic Graphical User Interface",
-  "Postit": "voluptas",
+  "CreatedDate": "1998-07-17T14:19:10.4904756+02:00",
+  "UpdatedDate": "2014-10-27T14:19:10.4904756+01:00",
+  "Description": "Assimilated system-worthy system engine",
+  "Postit": "maiores",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
   "HasImage": false,
-  "ImageDescription": "Pre-emptive object-oriented paradigm",
-  "ActiveStatusMonitorId": 633,
+  "ImageDescription": "Ergonomic encompassing concept",
+  "ActiveStatusMonitorId": 835,
   "Links": [
     {
-      "EntityName": "Abernathy-Schuster",
-      "Id": 277,
-      "Description": "Switchable 6th generation website",
-      "ExtraInfo": "enim",
-      "LinkId": 937,
+      "EntityName": "Gibson, Hills and Legros",
+      "Id": 251,
+      "Description": "De-engineered bifurcated hardware",
+      "ExtraInfo": "quae",
+      "LinkId": 91,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 284
+          "FieldType": "System.Int32",
+          "FieldLength": 42
         }
       }
     }
   ],
-  "ActiveLinks": 918,
+  "ActiveLinks": 965,
   "Completed": false,
-  "NextMilestoneDate": "2019-08-08T17:37:38.9922978+02:00",
-  "NmdAppointmentId": 159,
-  "EndDate": "2006-08-24T17:37:38.9922978+02:00",
-  "ActiveErpLinks": 663,
+  "NextMilestoneDate": "1997-01-12T14:19:10.5061021+01:00",
+  "NmdAppointmentId": 862,
+  "EndDate": "1997-10-09T14:19:10.5061021+02:00",
+  "ActiveErpLinks": 166,
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Torrey Mann",
-    "SuperOffice:2": "1759044114"
+    "SuperOffice:1": "Ashlee Lisette Watsica Jr.",
+    "SuperOffice:2": "Vallie Howell"
   },
   "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "eveniet"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "aliquid"
+    "CustomFields1": "et",
+    "CustomFields2": "vel"
   },
-  "PublishEventDate": "2008-07-27T17:37:38.9922978+02:00",
-  "PublishTo": "2017-05-12T17:37:38.9922978+02:00",
-  "PublishFrom": "1996-04-16T17:37:38.9922978+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2021-10-31T14:19:10.5061021+01:00",
+  "PublishTo": "2005-05-11T14:19:10.5061021+02:00",
+  "PublishFrom": "2009-01-18T14:19:10.5061021+01:00",
+  "IsPublished": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 778
+      "FieldLength": 200
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

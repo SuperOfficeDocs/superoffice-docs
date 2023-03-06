@@ -40,19 +40,19 @@ When a form is submitted, SuperOffice will try to match the email address in the
 
 If no match is found, try to locate the correct contact or create a new contact (and company).
 
-## Use suggested contact
+### Use suggested contact
 
 If SuperOffice finds matching contacts in the database, they are listed under **This contact could be...**. Click a contact to view relevant information and to link the contact to this form submission.
 
-## Search for a contact
+### Search for a contact
 
 If SuperOffice cannot find the correct contact in the database, you can search for the contact using the search field. Here you can also select from the history list and favorites.
 
-## Change contact
+### Change contact
 
 If you selected the wrong contact, click **Change contact** at the bottom of the side panel to search for another contact.
 
-## Create new company and contact
+### Create new company and contact
 
 If the submitter is not found in SuperOffice, you can create a new contact and company in the side panel.
 

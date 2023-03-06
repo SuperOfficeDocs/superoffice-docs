@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserAgent.GenerateNewPas
 
 ## GenerateNewPasswordForExternalUser
 
-Generates a new password for an external user.
 
-* **associateName:** The name of the associate to change the password for.
 
-**Returns:** Returns the generated password.
+
 
 [WSDL file for Services85/User](../Services85-User.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GenerateNewPasswordForExternalUser Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -119,18 +119,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nulla",
+    "path": "aut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nulla",
+    "path": "aut",
     "value": {}
   }
 ]
@@ -143,42 +143,42 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 596,
-  "UniqueId": "voluptas",
-  "Name": "Morar-Mann",
-  "Description": "Seamless system-worthy productivity",
-  "AssociateId": 506,
-  "Columns": 189,
+  "DashboardId": 243,
+  "UniqueId": "dolorum",
+  "Name": "Sipes, Stokes and Leffler",
+  "Description": "Front-line needs-based challenge",
+  "AssociateId": 255,
+  "Columns": 238,
   "Theme": null,
-  "VisibleForAll": 159,
+  "VisibleForAll": 28,
   "VisibleForAssociates": [
-    743,
-    756
+    512,
+    939
   ],
   "VisibleForGroups": [
-    681,
-    525
+    902,
+    821
   ],
-  "PinForAll": 723,
+  "PinForAll": 615,
   "PinForAssociates": [
-    149,
-    58
+    576,
+    548
   ],
   "PinForGroups": [
-    79,
-    418
+    351,
+    773
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 753
+      "FieldType": "System.String",
+      "FieldLength": 172
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

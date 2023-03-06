@@ -98,28 +98,28 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 90,
-  "Name": "Hermann Group",
-  "CurrencyId": 547,
-  "EnglishName": "Schaden-Stracke",
+  "CountryId": 610,
+  "Name": "Bartoletti LLC",
+  "CurrencyId": 360,
+  "EnglishName": "Hahn Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Right-sized clear-thinking hierarchy",
-  "OrgNrText": "839090",
-  "InterAreaPrefix": "dolor",
-  "DialInPrefix": "eaque",
-  "ZipPrefix": "voluptas",
-  "DomainName": "Schmitt, Kling and Kihn",
-  "AddressLayoutId": 720,
-  "DomesticAddressLayoutId": 814,
-  "ForeignAddressLayoutId": 833,
-  "Rank": 495,
-  "Tooltip": "facere",
-  "Deleted": false
+  "ImageDescription": "Team-oriented tangible process improvement",
+  "OrgNrText": "851156",
+  "InterAreaPrefix": "sint",
+  "DialInPrefix": "rem",
+  "ZipPrefix": "recusandae",
+  "DomainName": "Lebsack Inc and Sons",
+  "AddressLayoutId": 583,
+  "DomesticAddressLayoutId": 210,
+  "ForeignAddressLayoutId": 476,
+  "Rank": 691,
+  "Tooltip": "eius",
+  "Deleted": true
 }
 ```
 
@@ -130,30 +130,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 784,
-  "Name": "Hand Inc and Sons",
-  "CurrencyId": 32,
-  "EnglishName": "Davis, Stroman and Brekke",
+  "CountryId": 424,
+  "Name": "Smith Group",
+  "CurrencyId": 680,
+  "EnglishName": "Kertzmann-Huel",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Exclusive eco-centric benchmark",
-  "OrgNrText": "1479133",
-  "InterAreaPrefix": "tempore",
-  "DialInPrefix": "dolor",
-  "ZipPrefix": "incidunt",
-  "DomainName": "Zieme-Gislason",
-  "AddressLayoutId": 79,
-  "DomesticAddressLayoutId": 503,
-  "ForeignAddressLayoutId": 882,
-  "Rank": 785,
-  "Tooltip": "quaerat",
+  "ImageDescription": "Face to face optimal application",
+  "OrgNrText": "1097123",
+  "InterAreaPrefix": "ipsam",
+  "DialInPrefix": "iure",
+  "ZipPrefix": "consequatur",
+  "DomainName": "Herzog-Douglas",
+  "AddressLayoutId": 15,
+  "DomesticAddressLayoutId": 952,
+  "ForeignAddressLayoutId": 102,
+  "Rank": 239,
+  "Tooltip": "et",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 41
+      "FieldType": "System.Int32",
+      "FieldLength": 402
     }
   }
 }

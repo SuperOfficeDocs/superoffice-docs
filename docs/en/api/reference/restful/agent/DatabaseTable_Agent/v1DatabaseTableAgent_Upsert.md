@@ -88,14 +88,14 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Luettgen-Upton",
+  "TableName": "Cummings LLC",
   "Columns": [
-    "omnis",
-    "quia"
+    "animi",
+    "a"
   ],
   "Keys": [
-    "consequatur",
-    "ipsam"
+    "consectetur",
+    "fuga"
   ],
   "Data": [
     [
@@ -117,41 +117,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "adipisci",
-  "Inserts": 198,
-  "Updates": 126,
-  "Deletes": 833,
+  "Success": true,
+  "Message": "provident",
+  "Inserts": 719,
+  "Updates": 280,
+  "Deletes": 715,
   "RowStatus": [
     {
-      "PrimaryKey": 892,
+      "PrimaryKey": 646,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "et",
-        "error"
+        "velit",
+        "impedit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 643
+          "FieldType": "System.Int32",
+          "FieldLength": 169
         }
       }
     },
     {
-      "PrimaryKey": 892,
+      "PrimaryKey": 646,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "et",
-        "error"
+        "velit",
+        "impedit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 643
+          "FieldType": "System.Int32",
+          "FieldLength": 169
         }
       }
     }
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 978
+      "FieldLength": 783
     }
   }
 }

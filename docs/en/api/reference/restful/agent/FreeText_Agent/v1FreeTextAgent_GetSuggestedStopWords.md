@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 924
+  "CountWords": 606
 }
 ```
 
@@ -99,50 +99,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 234,
-    "Name": "Schumm-Thiel",
-    "ToolTip": "Quo ea iure omnis.",
+    "Id": 651,
+    "Name": "Jones, Feil and Bins",
+    "ToolTip": "Voluptatem repellat asperiores quia et.",
     "Deleted": false,
-    "Rank": 4,
-    "Type": "tempora",
+    "Rank": 644,
+    "Type": "sed",
     "ChildItems": [
       {
-        "Id": 816,
-        "Name": "Bednar, Bernhard and Jenkins",
-        "ToolTip": "Quae nulla voluptatum.",
-        "Deleted": false,
-        "Rank": 559,
-        "Type": "dolores",
+        "Id": 96,
+        "Name": "Kreiger Inc and Sons",
+        "ToolTip": "Molestiae dolores perspiciatis deserunt.",
+        "Deleted": true,
+        "Rank": 291,
+        "Type": "cum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "at",
-        "ColorBlock": 816,
-        "ExtraInfo": "quaerat",
-        "StyleHint": "impedit",
-        "FullName": "Davin Schmeler",
+        "IconHint": "nostrum",
+        "ColorBlock": 881,
+        "ExtraInfo": "numquam",
+        "StyleHint": "id",
+        "FullName": "Ms. Celestino Demetrius Ziemann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 833
+            "FieldLength": 378
           }
         }
       }
     ],
-    "IconHint": "quis",
-    "ColorBlock": 772,
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "ea",
-    "FullName": "Maverick Robel",
+    "IconHint": "quaerat",
+    "ColorBlock": 347,
+    "ExtraInfo": "expedita",
+    "StyleHint": "qui",
+    "FullName": "Prof. Terry Altenwerth IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 975
+        "FieldLength": 178
       }
     }
   }

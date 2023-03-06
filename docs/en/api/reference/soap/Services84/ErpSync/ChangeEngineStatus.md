@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.ChangeEngin
 
 ## ChangeEngineStatus
 
-Change the current running/stopped status of the Sync engine
 
-* **run:** If true, then start the engine; otherwise stop it (requests to the Batch system, may not be immediately reflected)
 
-**Returns:** The current status of the engine
+
 
 [WSDL file for Services84/ErpSync](../Services84-ErpSync.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ChangeEngineStatus Response
 
 ```xml
@@ -73,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

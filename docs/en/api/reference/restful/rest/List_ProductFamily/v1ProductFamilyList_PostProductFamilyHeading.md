@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 634,
-  "Name": "Hessel Group",
-  "Tooltip": "fugiat",
-  "Deleted": true,
-  "Rank": 281,
-  "UdListDefinitionId": 115
+  "HeadingId": 464,
+  "Name": "Orn-Thompson",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 42,
+  "UdListDefinitionId": 700
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 977,
-  "Name": "Johnston, Schaefer and Block",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 417,
-  "UdListDefinitionId": 372,
+  "HeadingId": 3,
+  "Name": "Emmerich-Koelpin",
+  "Tooltip": "architecto",
+  "Deleted": true,
+  "Rank": 716,
+  "UdListDefinitionId": 600,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 926
+      "FieldLength": 920
     }
   }
 }

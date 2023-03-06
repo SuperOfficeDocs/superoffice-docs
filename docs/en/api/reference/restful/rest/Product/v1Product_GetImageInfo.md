@@ -72,7 +72,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 26 Jul 2010 17:37:39 G7T
+Last-Modified: Wed, 03 Dec 2008 14:19:10 G12T
 
 {
-  "BlobId": 422,
-  "BlobSize": 272,
-  "Description": "Re-engineered solution-oriented function",
-  "ExtraInfo": "omnis",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "facere",
-  "OriginalSize": 315,
-  "CreatedDate": "2007-09-09T17:37:39.4784004+02:00",
-  "UpdatedDate": "2010-07-26T17:37:39.4784004+02:00",
+  "BlobId": 807,
+  "BlobSize": 531,
+  "Description": "Visionary global adapter",
+  "ExtraInfo": "eum",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "sunt",
+  "OriginalSize": 875,
+  "CreatedDate": "2005-05-17T14:19:10.9748549+02:00",
+  "UpdatedDate": "2008-12-03T14:19:10.9748549+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "ConceptualType": "quia",
@@ -101,7 +101,7 @@ Last-Modified: Mon, 26 Jul 2010 17:37:39 G7T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 850
+      "FieldLength": 512
     }
   }
 }

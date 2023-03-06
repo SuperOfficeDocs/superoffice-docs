@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IConfigurationAgent.GetWi
 
 ## GetWindowPosSizesOnPersonId
 
-Gets the window and dialog position and size settings belonging to the specified person
 
-* **personId:** Person id of the associate owning these window settings
 
-**Returns:** Array of window and dialog position and size settings
+
 
 [WSDL file for Services85/Configuration](../Services85-Configuration.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetWindowPosSizesOnPersonId Response
 
@@ -83,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

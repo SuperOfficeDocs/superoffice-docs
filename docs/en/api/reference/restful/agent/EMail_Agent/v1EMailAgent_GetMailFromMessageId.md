@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "nostrum"
+  "MessageId": "et"
 }
 ```
 
@@ -116,147 +116,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 935,
-      "ContactName": "Von-Bednar",
-      "PersonId": 786,
-      "PersonName": "Schaden-Hamill",
-      "AssociateId": 804,
-      "Address": "laborum",
-      "EmailId": 11,
+      "ContactId": 524,
+      "ContactName": "Gibson, Moen and Green",
+      "PersonId": 293,
+      "PersonName": "O'Keefe, Mueller and Thiel",
+      "AssociateId": 239,
+      "Address": "esse",
+      "EmailId": 552,
       "DuplicatePersonIds": [
-        130,
-        172
+        656,
+        721
       ],
-      "Name": "Berge-Okuneva",
+      "Name": "Yost Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 470
+          "FieldType": "System.Int32",
+          "FieldLength": 290
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 644,
-      "ContactName": "Abernathy-Jast",
-      "PersonId": 863,
-      "PersonName": "Bergstrom, D'Amore and Metz",
-      "AssociateId": 150,
-      "Address": "necessitatibus",
-      "EmailId": 223,
+      "ContactId": 485,
+      "ContactName": "Hickle, D'Amore and Kautzer",
+      "PersonId": 457,
+      "PersonName": "Spinka, Bernhard and Hodkiewicz",
+      "AssociateId": 915,
+      "Address": "ut",
+      "EmailId": 25,
       "DuplicatePersonIds": [
-        27,
-        320
+        302,
+        341
       ],
-      "Name": "Goyette LLC",
+      "Name": "Hartmann Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 82
+          "FieldLength": 847
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 862,
-      "ContactName": "Kozey LLC",
-      "PersonId": 191,
-      "PersonName": "Veum, Heathcote and Boyle",
-      "AssociateId": 815,
-      "Address": "est",
-      "EmailId": 14,
+      "ContactId": 241,
+      "ContactName": "Corwin Group",
+      "PersonId": 116,
+      "PersonName": "Abernathy-Kertzmann",
+      "AssociateId": 689,
+      "Address": "impedit",
+      "EmailId": 225,
       "DuplicatePersonIds": [
-        443,
-        764
+        983,
+        816
       ],
-      "Name": "Cremin Group",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 729
-        }
-      }
-    }
-  ],
-  "Subject": "nam",
-  "HTMLBody": "amet",
-  "From": null,
-  "Sent": "2002-02-18T17:37:17.8712429+01:00",
-  "Size": 834,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "occaecati",
-  "PlainBody": "doloremque",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 829,
-  "Attachments": [
-    {
-      "Description": "Cross-group national access",
-      "Filename": "illum",
-      "Size": 426,
-      "Type": "et",
-      "Encoding": "iure",
-      "Id": "reiciendis",
-      "Disposition": "molestias",
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Schmitt-Koss",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldLength": 793
+        }
+      }
+    }
+  ],
+  "Subject": "est",
+  "HTMLBody": "et",
+  "From": null,
+  "Sent": "2012-07-18T14:19:03.3883958+02:00",
+  "Size": 117,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "voluptatem",
+  "PlainBody": "voluptas",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 639,
+  "Attachments": [
+    {
+      "Description": "Synergized background productivity",
+      "Filename": "sunt",
+      "Size": 463,
+      "Type": "labore",
+      "Encoding": "iusto",
+      "Id": "laudantium",
+      "Disposition": "excepturi",
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 483
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hauck Group",
+      "Name": "Wolf LLC",
       "Values": [
-        "sunt",
-        "quisquam"
+        "veniam",
+        "ad"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 457
+          "FieldType": "System.String",
+          "FieldLength": 221
         }
       }
     },
     {
-      "Name": "Hauck Group",
+      "Name": "Wolf LLC",
       "Values": [
-        "sunt",
-        "quisquam"
+        "veniam",
+        "ad"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 457
+          "FieldType": "System.String",
+          "FieldLength": 221
         }
       }
     }
   ],
-  "FolderName": "Gaylord Inc and Sons",
-  "EmailItemId": 31,
-  "AccountId": 417,
-  "ReceivedAt": "2022-03-20T17:37:17.8722416+01:00",
+  "FolderName": "Shanahan Group",
+  "EmailItemId": 44,
+  "AccountId": 807,
+  "ReceivedAt": "2018-12-17T14:19:03.3883958+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2008-01-30T17:37:17.8722416+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2020-04-14T14:19:03.3883958+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -264,7 +264,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldLength": 16
     }
   }
 }

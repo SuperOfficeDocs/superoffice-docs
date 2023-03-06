@@ -11,7 +11,7 @@ language: en
 
 # The Contact screen
 
-In the **Contact** screen, every record in the database is displayed like an index card, containing all information that for that contact.
+In the **Contact** screen, every record in the database is displayed like an index card, containing all information for that contact.
 
 To move between contacts, click the previous/next buttons (![icon][img2] ![icon][img1]) at the bottom right of the cards
 

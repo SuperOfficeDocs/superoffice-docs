@@ -63,11 +63,11 @@ No Content
 POST /api/v1/Agents/Document/DeleteTempFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "quibusdam"
+  "Filename": "similique"
 }
 ```
 

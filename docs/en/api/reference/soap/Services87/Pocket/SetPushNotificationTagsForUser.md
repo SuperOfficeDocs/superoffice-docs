@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IPocketAgent.SetPushNotif
 
 ## SetPushNotificationTagsForUser
 
-Specify what kind of notification events a user should receive push notifications for.  This will update all registerred devices for this user.
 
-* **associateId:** The associate to set tags for
-* **tags:** A comma separated list of events the associate should receive push events for
+
+
 
 [WSDL file for Services87/Pocket](../Services87-Pocket.md)
 
@@ -49,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetPushNotificationTagsForUser Response
 
 ```xml
@@ -68,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -95,47 +95,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 806,
-    "Name": "Lebsack-Howell",
-    "ToolTip": "Aperiam et fuga cupiditate dolor.",
+    "Id": 53,
+    "Name": "Stark Inc and Sons",
+    "ToolTip": "Omnis esse aut sunt vel consequatur.",
     "Deleted": false,
-    "Rank": 789,
-    "Type": "ipsam",
-    "ColorBlock": 868,
-    "IconHint": "est",
+    "Rank": 320,
+    "Type": "officia",
+    "ColorBlock": 312,
+    "IconHint": "dolore",
     "Selected": false,
-    "LastChanged": "1997-10-16T17:37:39.6244313+02:00",
+    "LastChanged": "2014-11-02T14:19:11.1012251+01:00",
     "ChildItems": [
       {
-        "Id": 824,
-        "Name": "Macejkovic-Homenick",
-        "ToolTip": "Maiores nam amet laudantium beatae alias impedit.",
-        "Deleted": false,
-        "Rank": 570,
-        "Type": "architecto",
-        "ColorBlock": 746,
-        "IconHint": "non",
+        "Id": 245,
+        "Name": "Lynch-Morar",
+        "ToolTip": "Eius optio ullam quia.",
+        "Deleted": true,
+        "Rank": 330,
+        "Type": "suscipit",
+        "ColorBlock": 320,
+        "IconHint": "laudantium",
         "Selected": true,
-        "LastChanged": "2006-08-28T17:37:39.6244313+02:00",
+        "LastChanged": "2009-09-15T14:19:11.1012251+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Prof. Emerald Ned Roob"
+        "ExtraInfo": "sunt",
+        "StyleHint": "consequatur",
+        "Hidden": false,
+        "FullName": "Prof. Laverna Hickle"
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "quia",
-    "Hidden": false,
-    "FullName": "Krystel Gleason"
+    "ExtraInfo": "et",
+    "StyleHint": "molestiae",
+    "Hidden": true,
+    "FullName": "Mellie Kshlerin"
   }
 ]
 ```
@@ -148,56 +148,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 662,
-    "Name": "Shanahan Group",
-    "ToolTip": "Soluta ad dolorum doloribus cumque voluptatibus praesentium et.",
+    "Id": 32,
+    "Name": "Hoeger Inc and Sons",
+    "ToolTip": "Deleniti id.",
     "Deleted": false,
-    "Rank": 974,
-    "Type": "consequuntur",
-    "ColorBlock": 605,
-    "IconHint": "quos",
-    "Selected": true,
-    "LastChanged": "2013-03-28T17:37:39.6264327+01:00",
+    "Rank": 704,
+    "Type": "velit",
+    "ColorBlock": 830,
+    "IconHint": "eum",
+    "Selected": false,
+    "LastChanged": "2004-05-05T14:19:11.1012251+02:00",
     "ChildItems": [
       {
-        "Id": 221,
-        "Name": "Turcotte-Little",
-        "ToolTip": "Qui ipsum molestias ut.",
+        "Id": 37,
+        "Name": "Von Group",
+        "ToolTip": "Dignissimos velit id consequatur est.",
         "Deleted": false,
-        "Rank": 435,
-        "Type": "deserunt",
-        "ColorBlock": 121,
-        "IconHint": "impedit",
-        "Selected": false,
-        "LastChanged": "2001-01-15T17:37:39.6264327+01:00",
+        "Rank": 427,
+        "Type": "placeat",
+        "ColorBlock": 383,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2012-07-28T14:19:11.1012251+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "voluptatibus",
-        "Hidden": true,
-        "FullName": "Kathryn Keebler",
+        "ExtraInfo": "a",
+        "StyleHint": "ullam",
+        "Hidden": false,
+        "FullName": "Prof. Mckayla Koss",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 587
+            "FieldLength": 104
           }
         }
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "natus",
+    "ExtraInfo": "dolores",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Catalina Denesik",
+    "FullName": "Norwood Cartwright",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 50
+        "FieldLength": 801
       }
     }
   }

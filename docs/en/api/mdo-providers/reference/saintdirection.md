@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "saintdirection"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,13 +15,17 @@ so.envir:
 ---
 
 # "saintdirection" MDO List
-
 This SoList provider generates the appointment/task direction list for the Saint criteria. This is a simple, hard-coded list corresponding
 to the direction field of the <see cref="!:SuperOffice.CRM.Rows.DocTmpl" /> and <see cref="!:SuperOffice.CRM.Rows.Task" /> tables. Tasks are both
 appointments and documents.
 
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.ArchiveLists.SaintDirectionProvider">SaintDirectionProvider</see> class.
 The name of the MDO list is 'saintdirection'.
+
+
+
 
 ## Sample Request
 
@@ -34,7 +38,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("saintdirection", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -50,6 +53,7 @@ foreach (var item in listProvider.RootItems) {
 |-1|All|||
 |1|Incoming|||
 |2|Outgoing|||
+
 
 ## Related MDO Lists
 

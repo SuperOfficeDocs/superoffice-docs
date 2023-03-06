@@ -96,11 +96,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 461
+  "ContactId": 979
 }
 ```
 
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Ebert-Marvin",
-    "SaleDate": "2021-06-28T17:37:18.8902423+02:00",
-    "SaleId": 478,
-    "Probability": 101,
-    "Title": "similique",
-    "Amount": 5390.48,
-    "Currency": "ipsum",
-    "ProjectName": "O'Reilly LLC",
-    "AssociateFullName": "Susanna Adams",
-    "Description": "Down-sized zero administration productivity",
+    "ContactName": "Walter LLC",
+    "SaleDate": "2017-10-14T14:19:04.1410858+02:00",
+    "SaleId": 791,
+    "Probability": 59,
+    "Title": "enim",
+    "Amount": 7013.892,
+    "Currency": "corrupti",
+    "ProjectName": "Yost, Feil and Ernser",
+    "AssociateFullName": "Maude Koss",
+    "Description": "Cloned regional collaboration",
     "Status": "Lost",
-    "WeightedAmount": 27541.592,
-    "ProjectId": 81,
-    "EarningPercent": 11777.572,
-    "Earning": 26491.701999999997,
-    "ContactId": 595,
-    "AssociateId": 742,
-    "PersonId": 788,
-    "SaleTypeId": 92,
-    "SaleTypeName": "Hyatt Inc and Sons",
-    "PersonFullName": "Vivien Carroll",
+    "WeightedAmount": 24952.908,
+    "ProjectId": 614,
+    "EarningPercent": 19800.612,
+    "Earning": 24871.424,
+    "ContactId": 545,
+    "AssociateId": 811,
+    "PersonId": 770,
+    "SaleTypeId": 17,
+    "SaleTypeName": "McCullough LLC",
+    "PersonFullName": "Rhett Bruen",
     "Completed": "Completed",
-    "ActiveErpLinks": 198,
-    "NextDueDate": "2013-02-07T17:37:18.8912422+01:00",
-    "Number": "447608",
+    "ActiveErpLinks": 778,
+    "NextDueDate": "1996-05-25T14:19:04.1410858+02:00",
+    "Number": "417354",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 321
+        "FieldLength": 48
       }
     }
   }

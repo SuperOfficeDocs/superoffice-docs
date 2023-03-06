@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 572
+  "ContactId": 314
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 886,
-    "Name": "Mraz-Adams",
-    "Description": "Multi-channelled client-driven function",
+    "ProjectId": 118,
+    "Name": "Jewess, Runte and Denesik",
+    "Description": "Face to face upward-trending extranet",
     "URL": "http://www.example.com/",
-    "Type": "quia",
-    "AssociateId": 48,
-    "AssociateFullName": "Cullen Strosin",
-    "TypeId": 466,
-    "Updated": "2010-07-22T17:37:18.6612448+02:00",
-    "StatusId": 536,
-    "Status": "nihil",
-    "TextId": 455,
-    "PublishTo": "2004-05-17T17:37:18.6612448+02:00",
-    "PublishFrom": "2005-10-30T17:37:18.6612448+01:00",
+    "Type": "omnis",
+    "AssociateId": 744,
+    "AssociateFullName": "Estrella Borer",
+    "TypeId": 92,
+    "Updated": "2006-12-07T14:19:03.9688343+01:00",
+    "StatusId": 694,
+    "Status": "quos",
+    "TextId": 274,
+    "PublishTo": "2018-03-30T14:19:03.9688343+02:00",
+    "PublishFrom": "2008-05-16T14:19:03.9688343+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1174534",
-    "ActiveErpLinks": 940,
+    "ProjectNumber": "848764",
+    "ActiveErpLinks": 156,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 691
+        "FieldLength": 763
       }
     }
   }

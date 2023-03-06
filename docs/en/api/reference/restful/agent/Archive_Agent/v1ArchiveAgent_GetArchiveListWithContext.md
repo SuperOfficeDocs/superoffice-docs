@@ -104,52 +104,52 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Von, Mante and Parisian",
-  "ProviderName": "Russel, Langosh and Corkery",
+  "GuiName": "Weimann, Champlin and Hansen",
+  "ProviderName": "Kovacek-Turner",
   "SortOrder": [
     {
-      "Name": "Wilderman Group",
+      "Name": "Dooley Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Wilderman Group",
+      "Name": "Dooley Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Ruecker-Dickinson",
-      "Operator": "dolorem",
+      "Name": "Rolfson-Lakin",
+      "Operator": "minus",
       "Values": [
-        "debitis",
-        "quos"
+        "ut",
+        "ad"
       ],
       "DisplayValues": [
-        "aspernatur",
-        "veritatis"
+        "dolores",
+        "accusamus"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 581,
+      "InterParenthesis": 234,
       "InterOperator": "And",
-      "UniqueHash": 935
+      "UniqueHash": 264
     }
   ],
   "Entities": [
-    "voluptatum",
-    "expedita"
+    "et",
+    "veritatis"
   ],
-  "Page": 195,
-  "PageSize": 325,
-  "Context": "vitae"
+  "Page": 917,
+  "PageSize": 563,
+  "Context": "distinctio"
 }
 ```
 
@@ -161,23 +161,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Roob-Tillman",
-    "PrimaryKey": 124,
+    "EntityName": "O'Kon Group",
+    "PrimaryKey": 389,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "odit",
-        "TooltipHint": "dolorem",
-        "LinkHint": "dolore"
+        "DisplayValue": "assumenda",
+        "TooltipHint": "minus",
+        "LinkHint": "qui"
       }
     },
-    "LinkHint": "et",
-    "StyleHint": "nihil",
+    "LinkHint": "est",
+    "StyleHint": "quam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 322
+        "FieldType": "System.Int32",
+        "FieldLength": 15
       }
     }
   }

@@ -96,20 +96,20 @@ ListEntity updated.
 PUT /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 269,
-  "Name": "Lehner, Gibson and Prohaska",
-  "Tooltip": "et",
+  "Id": 711,
+  "Name": "McGlynn-Schuster",
+  "Tooltip": "iste",
   "Deleted": false,
-  "Rank": 871,
+  "Rank": 560,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "reprehenderit",
-  "InUseByUserDefinedFields": true
+  "ListType": "veritatis",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -120,22 +120,22 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 805,
-  "Name": "Abbott LLC",
-  "Tooltip": "nesciunt",
+  "Id": 133,
+  "Name": "Hand, Gutmann and Connelly",
+  "Tooltip": "exercitationem",
   "Deleted": false,
-  "Rank": 797,
-  "IsCustomList": false,
+  "Rank": 773,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": false,
+  "ListType": "ipsum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 351
+      "FieldType": "System.Int32",
+      "FieldLength": 922
     }
   },
   "_Links": {

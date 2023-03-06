@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.GetPreview
 
 ## GetPreviewDocumentStream
 
-Get the preview version of the document content as a stream. Retrieves a sanitized version if possible
 
-* **documentId:** SuperOffice document id
 
-**Returns:** Preview version of the document
+
 
 [WSDL file for Services88/Document](../Services88-Document.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetPreviewDocumentStream Response
 
 ```xml
@@ -74,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/List/GetAllCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 385,
-    "Name": "Fay-Reynolds",
-    "CurrencyId": 124,
-    "EnglishName": "Lebsack-Krajcik",
+    "CountryId": 916,
+    "Name": "Zieme, Mohr and Adams",
+    "CurrencyId": 542,
+    "EnglishName": "Kub, Kuhn and Mann",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Customizable directional secured line",
-    "OrgNrText": "1069680",
-    "InterAreaPrefix": "voluptatem",
-    "DialInPrefix": "sed",
-    "ZipPrefix": "fugiat",
-    "DomainName": "Abbott, Reynolds and Leuschke",
-    "AddressLayoutId": 880,
-    "DomesticAddressLayoutId": 738,
-    "ForeignAddressLayoutId": 597,
-    "Rank": 697,
-    "Tooltip": "sed",
-    "Deleted": true,
+    "ImageDescription": "Re-engineered even-keeled interface",
+    "OrgNrText": "961808",
+    "InterAreaPrefix": "repudiandae",
+    "DialInPrefix": "impedit",
+    "ZipPrefix": "asperiores",
+    "DomainName": "Goyette Group",
+    "AddressLayoutId": 396,
+    "DomesticAddressLayoutId": 258,
+    "ForeignAddressLayoutId": 384,
+    "Rank": 616,
+    "Tooltip": "ut",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 135
+        "FieldLength": 345
       }
     }
   }

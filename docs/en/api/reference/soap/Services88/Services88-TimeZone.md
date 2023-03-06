@@ -11,7 +11,7 @@ title: Services88.TimeZoneAgent WSDL
 <wsdl:definitions name="WcfTimeZoneService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
   <wsdl:types>
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-      <xs:element name="InitializeTimeZoneData">
+      <xs:element name="GetDefaultTimeZoneInformation">
         <xs:complexType>
           <xs:sequence />
         </xs:complexType>
@@ -32,6 +32,80 @@ title: Services88.TimeZoneAgent WSDL
       </xs:complexType>
       <xs:element name="SoTimeZone" nillable="true" type="tns:SoTimeZone" />
       <xs:element name="TimeZone" nillable="true" type="tns:SoTimeZone" />
+      <xs:element name="GetDefaultTimeZoneInformationResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:PreferredTimeZone" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="PreferredTimeZone">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="PreferenceId" type="xs:int" />
+          <xs:element minOccurs="0" name="TZLocationId" type="xs:int" />
+          <xs:element minOccurs="0" name="LocationCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Country" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Bias" type="xs:short" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="PreferredTimeZone" nillable="true" type="tns:PreferredTimeZone" />
+      <xs:complexType name="SoExceptionInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="StackTrace" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FriendlyText" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ExceptionType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="InnerException" nillable="true" type="tns:SoExceptionInfo" />
+          <xs:element minOccurs="0" name="Parameters" nillable="true" type="tns:SoExceptionInfoParameters" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SoExceptionInfo" nillable="true" type="tns:SoExceptionInfo" />
+      <xs:complexType name="SoExceptionInfoParameters">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="SoExceptionInfoParametersKeyValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SoExceptionInfoParameters" nillable="true" type="tns:SoExceptionInfoParameters" />
+      <xs:element name="ExceptionInfo" nillable="true" type="tns:SoExceptionInfo" />
+      <xs:complexType name="SoExtraInfo">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ExtraInfoNameValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SoExtraInfo" nillable="true" type="tns:SoExtraInfo" />
+      <xs:element name="ExtraInfo" nillable="true" type="tns:SoExtraInfo" />
+      <xs:element name="Succeeded" type="xs:boolean" />
+      <xs:element name="InitializeTimeZoneData">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="InitializeTimeZoneDataResponse">
         <xs:complexType>
           <xs:sequence>
@@ -87,57 +161,6 @@ title: Services88.TimeZoneAgent WSDL
         </xs:sequence>
       </xs:complexType>
       <xs:element name="TimeZoneRule" nillable="true" type="tns:TimeZoneRule" />
-      <xs:complexType name="SoExceptionInfo">
-        <xs:sequence>
-          <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="StackTrace" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="FriendlyText" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="ExceptionType" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="InnerException" nillable="true" type="tns:SoExceptionInfo" />
-          <xs:element minOccurs="0" name="Parameters" nillable="true" type="tns:SoExceptionInfoParameters" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="SoExceptionInfo" nillable="true" type="tns:SoExceptionInfo" />
-      <xs:complexType name="SoExceptionInfoParameters">
-        <xs:annotation>
-          <xs:appinfo>
-            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
-          </xs:appinfo>
-        </xs:annotation>
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="SoExceptionInfoParametersKeyValuePair">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Key" nillable="true" type="xs:string" />
-                <xs:element name="Value" nillable="true" type="xs:string" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="SoExceptionInfoParameters" nillable="true" type="tns:SoExceptionInfoParameters" />
-      <xs:element name="ExceptionInfo" nillable="true" type="tns:SoExceptionInfo" />
-      <xs:complexType name="SoExtraInfo">
-        <xs:annotation>
-          <xs:appinfo>
-            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
-          </xs:appinfo>
-        </xs:annotation>
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ExtraInfoNameValuePair">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Key" nillable="true" type="xs:string" />
-                <xs:element name="Value" nillable="true" type="xs:string" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="SoExtraInfo" nillable="true" type="tns:SoExtraInfo" />
-      <xs:element name="ExtraInfo" nillable="true" type="tns:SoExtraInfo" />
-      <xs:element name="Succeeded" type="xs:boolean" />
       <xs:element name="GetBaseTimeZoneId">
         <xs:complexType>
           <xs:sequence />
@@ -303,6 +326,23 @@ title: Services88.TimeZoneAgent WSDL
       <xs:attribute name="Ref" type="xs:IDREF" />
     </xs:schema>
   </wsdl:types>
+  <wsdl:message name="GetDefaultTimeZoneInformationRequest">
+    <wsdl:part name="parameters" element="tns:GetDefaultTimeZoneInformation" />
+  </wsdl:message>
+  <wsdl:message name="GetDefaultTimeZoneInformationRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetDefaultTimeZoneInformationResponse">
+    <wsdl:part name="parameters" element="tns:GetDefaultTimeZoneInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDefaultTimeZoneInformationResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="InitializeTimeZoneDataRequest">
     <wsdl:part name="parameters" element="tns:InitializeTimeZoneData" />
   </wsdl:message>
@@ -491,89 +531,73 @@ title: Services88.TimeZoneAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="TimeZone">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for TimeZone</summary>
-    </wsdl:documentation>
+    <wsdl:operation name="GetDefaultTimeZoneInformation">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/GetDefaultTimeZoneInformation" name="GetDefaultTimeZoneInformationRequest" message="tns:GetDefaultTimeZoneInformationRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/GetDefaultTimeZoneInformationResponse" name="GetDefaultTimeZoneInformationResponse" message="tns:GetDefaultTimeZoneInformationResponse" />
+    </wsdl:operation>
     <wsdl:operation name="InitializeTimeZoneData">
-      <wsdl:documentation>
-        <summary>Initalizes the TimeZoneData</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/InitializeTimeZoneData" name="InitializeTimeZoneDataRequest" message="tns:InitializeTimeZoneDataRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/InitializeTimeZoneDataResponse" name="InitializeTimeZoneDataResponse" message="tns:InitializeTimeZoneDataResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBaseTimeZoneId">
-      <wsdl:documentation>
-        <summary>Get the base timezone id.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/GetBaseTimeZoneId" name="GetBaseTimeZoneIdRequest" message="tns:GetBaseTimeZoneIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/GetBaseTimeZoneIdResponse" name="GetBaseTimeZoneIdResponse" message="tns:GetBaseTimeZoneIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="UpdateTimeZoneData">
-      <wsdl:documentation>
-        <summary>Retrieve time zone data from the SuperOffice server and update TimeZone data in the database</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/UpdateTimeZoneData" name="UpdateTimeZoneDataRequest" message="tns:UpdateTimeZoneDataRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/UpdateTimeZoneDataResponse" name="UpdateTimeZoneDataResponse" message="tns:UpdateTimeZoneDataResponse" />
     </wsdl:operation>
     <wsdl:operation name="CheckNewTimeZoneDataAvailable">
-      <wsdl:documentation>
-        <summary>Check to see if new timezone data is available</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/CheckNewTimeZoneDataAvailable" name="CheckNewTimeZoneDataAvailableRequest" message="tns:CheckNewTimeZoneDataAvailableRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/CheckNewTimeZoneDataAvailableResponse" name="CheckNewTimeZoneDataAvailableResponse" message="tns:CheckNewTimeZoneDataAvailableResponse" />
     </wsdl:operation>
     <wsdl:operation name="ToggleActiveTimeZoneRow">
-      <wsdl:documentation>
-        <summary>Toggles active state of a single row in the TZLocation table</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/ToggleActiveTimeZoneRow" name="ToggleActiveTimeZoneRowRequest" message="tns:ToggleActiveTimeZoneRowRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/ToggleActiveTimeZoneRowResponse" name="ToggleActiveTimeZoneRowResponse" message="tns:ToggleActiveTimeZoneRowResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetActiveTimeZonesByFilter">
-      <wsdl:documentation>
-        <summary>Toggles active state of a single row in the TZLocation table</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/SetActiveTimeZonesByFilter" name="SetActiveTimeZonesByFilterRequest" message="tns:SetActiveTimeZonesByFilterRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/SetActiveTimeZonesByFilterResponse" name="SetActiveTimeZonesByFilterResponse" message="tns:SetActiveTimeZonesByFilterResponse" />
     </wsdl:operation>
     <wsdl:operation name="TimeOfLastTimeZoneUpdate">
-      <wsdl:documentation>
-        <summary>Get the time time zone data was last updated</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/TimeOfLastTimeZoneUpdate" name="TimeOfLastTimeZoneUpdateRequest" message="tns:TimeOfLastTimeZoneUpdateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/TimeOfLastTimeZoneUpdateResponse" name="TimeOfLastTimeZoneUpdateResponse" message="tns:TimeOfLastTimeZoneUpdateResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetBaseTimeZoneId">
-      <wsdl:documentation>
-        <summary>Set the base timezone id.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/SetBaseTimeZoneId" name="SetBaseTimeZoneIdRequest" message="tns:SetBaseTimeZoneIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/SetBaseTimeZoneIdResponse" name="SetBaseTimeZoneIdResponse" message="tns:SetBaseTimeZoneIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDefaultTimeZonePreference">
-      <wsdl:documentation>
-        <summary>Returns the id of the default timezone preference with deflevel system wide</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/GetDefaultTimeZonePreference" name="GetDefaultTimeZonePreferenceRequest" message="tns:GetDefaultTimeZonePreferenceRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/GetDefaultTimeZonePreferenceResponse" name="GetDefaultTimeZonePreferenceResponse" message="tns:GetDefaultTimeZonePreferenceResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteTimeZones">
-      <wsdl:documentation>
-        <summary>Deletes all time zone data (locations and rules) from the database</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/DeleteTimeZones" name="DeleteTimeZonesRequest" message="tns:DeleteTimeZonesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/DeleteTimeZonesResponse" name="DeleteTimeZonesResponse" message="tns:DeleteTimeZonesResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetActiveTimeZoneRow">
-      <wsdl:documentation>
-        <summary>Set active state of singe row in the TZLocation table</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/SetActiveTimeZoneRow" name="SetActiveTimeZoneRowRequest" message="tns:SetActiveTimeZoneRowRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/SetActiveTimeZoneRowResponse" name="SetActiveTimeZoneRowResponse" message="tns:SetActiveTimeZoneRowResponse" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_TimeZone" type="tns:TimeZone">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDefaultTimeZoneInformation">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/GetDefaultTimeZoneInformation" style="document" />
+      <wsdl:input name="GetDefaultTimeZoneInformationRequest">
+        <soap:header message="tns:GetDefaultTimeZoneInformationRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetDefaultTimeZoneInformationRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetDefaultTimeZoneInformationRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetDefaultTimeZoneInformationResponse">
+        <soap:header message="tns:GetDefaultTimeZoneInformationResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetDefaultTimeZoneInformationResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetDefaultTimeZoneInformationResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetDefaultTimeZoneInformationResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="InitializeTimeZoneData">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/TimeZone/InitializeTimeZoneData" style="document" />
       <wsdl:input name="InitializeTimeZoneDataRequest">
@@ -758,3 +782,4 @@ title: Services88.TimeZoneAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

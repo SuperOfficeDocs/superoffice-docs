@@ -72,7 +72,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,28 +80,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 31 May 2002 17:37:38 G5T
+Last-Modified: Fri, 20 Apr 2007 14:19:10 G4T
 
 {
-  "BlobId": 581,
-  "BlobSize": 406,
-  "Description": "Stand-alone client-driven complexity",
-  "ExtraInfo": "officia",
+  "BlobId": 382,
+  "BlobSize": 646,
+  "Description": "Triple-buffered next generation hierarchy",
+  "ExtraInfo": "quia",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "iste",
-  "OriginalSize": 798,
-  "CreatedDate": "2007-12-26T17:37:38.3378327+01:00",
-  "UpdatedDate": "2002-05-31T17:37:38.3378327+02:00",
+  "MimeType": "sed",
+  "OriginalSize": 227,
+  "CreatedDate": "2015-10-08T14:19:10.1310974+02:00",
+  "UpdatedDate": "2007-04-20T14:19:10.1310974+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "facilis",
+  "ConceptualType": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 527
+      "FieldType": "System.Int32",
+      "FieldLength": 724
     }
   }
 }

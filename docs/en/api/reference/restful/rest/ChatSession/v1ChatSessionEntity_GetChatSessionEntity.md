@@ -102,7 +102,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -112,43 +112,43 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 702,
-  "TopicId": 106,
+  "ChatSessionId": 828,
+  "TopicId": 547,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ea",
-  "CustomerHost": "cum",
-  "CustomerName": "Johnston-Walker",
-  "CustomerEmail": "savannah.schneider@ziemanngusikowski.com",
-  "CustomerPhone": "586-093-3821 x968",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Gleichner-Cruickshank",
+  "CustomerAlias": "quis",
+  "CustomerHost": "velit",
+  "CustomerName": "Bechtelar-Bashirian",
+  "CustomerEmail": "mittie.wehner@barrows.com",
+  "CustomerPhone": "1-214-236-3864",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Hauck, Bogan and Abernathy",
   "Status": "Closed",
-  "FirstMessage": "autem",
-  "LastMessage": "et",
-  "WhenRequested": "2004-06-14T17:37:38.1808597+02:00",
-  "WhenStarted": "2013-05-26T17:37:38.1808597+02:00",
-  "WhenEnded": "2022-03-20T17:37:38.1808597+01:00",
-  "WhenIdle": "2011-07-04T17:37:38.1808597+02:00",
-  "WhenFetched": "2007-11-22T17:37:38.1808597+01:00",
-  "SessionKey": "aut",
-  "InitialQueuePos": 375,
-  "AlertLevel": 223,
-  "Rank": 640,
+  "FirstMessage": "est",
+  "LastMessage": "molestiae",
+  "WhenRequested": "2009-07-10T14:19:10.0048864+02:00",
+  "WhenStarted": "2006-03-13T14:19:10.0048864+01:00",
+  "WhenEnded": "2010-11-11T14:19:10.0048864+01:00",
+  "WhenIdle": "2021-10-12T14:19:10.0048864+02:00",
+  "WhenFetched": "1998-06-28T14:19:10.0048864+02:00",
+  "SessionKey": "consequatur",
+  "InitialQueuePos": 983,
+  "AlertLevel": 707,
+  "Rank": 394,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 247,
+  "ChatbotIsActive": false,
+  "Rating": 946,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 555
+      "FieldType": "System.Int32",
+      "FieldLength": 817
     }
   },
   "_Links": {

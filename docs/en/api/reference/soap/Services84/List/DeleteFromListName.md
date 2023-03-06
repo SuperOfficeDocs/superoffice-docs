@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.DeleteFromList
 
 ## DeleteFromListName
 
-Delete a list item from the specified list defintion
 
-* **id:** The identity of the list item to delete
-* **udListDefinitionName:** The name of the list definition, indicating which list to delete the items from.
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteFromListName Response
 
 ```xml
@@ -70,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 934,
-    "Name": "Zemlak, Fritsch and Donnelly",
-    "Tooltip": "voluptatem",
+    "HeadingId": 413,
+    "Name": "Yundt Inc and Sons",
+    "Tooltip": "molestias",
     "Deleted": false,
-    "Rank": 835,
-    "UdListDefinitionId": 969,
+    "Rank": 418,
+    "UdListDefinitionId": 611,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 406
+        "FieldType": "System.Int32",
+        "FieldLength": 745
       }
     }
   }

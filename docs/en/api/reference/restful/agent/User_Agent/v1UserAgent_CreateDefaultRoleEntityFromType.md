@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,24 +103,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 883,
-  "Name": "Bogan, Little and Kihn",
-  "Tooltip": "praesentium",
+  "RoleId": 221,
+  "Name": "Jacobi, Leannon and Aufderhar",
+  "Tooltip": "quo",
   "RoleType": "Anonymous",
-  "Deleted": 837,
-  "Rank": 231,
-  "Created": "2003-08-20T17:37:19.5529764+02:00",
-  "UseCategories": 832,
+  "Deleted": 780,
+  "Rank": 525,
+  "Created": "1997-06-23T14:19:04.5797015+02:00",
+  "UseCategories": 830,
   "CreatedBy": null,
-  "Updated": "2004-04-02T17:37:19.5539762+02:00",
+  "Updated": "2009-10-22T14:19:04.5797015+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 610
+      "FieldType": "System.String",
+      "FieldLength": 795
     }
   }
 }

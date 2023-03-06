@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetWebPanelEnt
 
 ## GetWebPanelEntity
 
-Gets a WebPanelEntity object.
 
-* **webPanelEntityId:** The identifier of the WebPanelEntity object
 
-**Returns:** WebPanelEntity
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetWebPanelEntity Response
 
@@ -91,3 +90,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

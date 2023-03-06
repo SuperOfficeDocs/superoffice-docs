@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 577,
-    "Name": "Wuckert-D'Amore",
-    "Tooltip": "omnis",
+    "HeadingId": 157,
+    "Name": "Jast, Denesik and Bartell",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 331,
-    "UdListDefinitionId": 745
+    "Rank": 517,
+    "UdListDefinitionId": 368
   },
   {
-    "HeadingId": 577,
-    "Name": "Wuckert-D'Amore",
-    "Tooltip": "omnis",
+    "HeadingId": 157,
+    "Name": "Jast, Denesik and Bartell",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 331,
-    "UdListDefinitionId": 745
+    "Rank": 517,
+    "UdListDefinitionId": 368
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 524,
-    "Name": "Macejkovic Group",
-    "Tooltip": "non",
+    "HeadingId": 95,
+    "Name": "Goyette-Parker",
+    "Tooltip": "quis",
     "Deleted": false,
-    "Rank": 734,
-    "UdListDefinitionId": 194,
+    "Rank": 707,
+    "UdListDefinitionId": 664,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 508
+        "FieldType": "System.Int32",
+        "FieldLength": 441
       }
     }
   }

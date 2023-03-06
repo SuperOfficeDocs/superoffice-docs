@@ -101,14 +101,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "alias",
-  "PluginId": 732
+  "LanguageCode": "atque",
+  "PluginId": 295
 }
 ```
 
@@ -119,37 +119,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 318,
-  "Name": "Kub-Gleichner",
-  "Tooltip": "facere",
-  "SaveInDb": 67,
-  "Filename": "molestiae",
-  "DefaultOref": "error",
+  "DocumentTemplateId": 979,
+  "Name": "Anderson LLC",
+  "Tooltip": "temporibus",
+  "SaveInDb": 751,
+  "Filename": "facere",
+  "DefaultOref": "asperiores",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 983,
-  "IntentId": 705,
-  "IsDefaultPublished": false,
-  "Rank": 498,
-  "LoadTemplateFromPlugin": 907,
-  "MimeType": "excepturi",
+  "AutoeventId": 332,
+  "IntentId": 598,
+  "IsDefaultPublished": true,
+  "Rank": 815,
+  "LoadTemplateFromPlugin": 989,
+  "MimeType": "sed",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 811,
+  "DocumentTypeKey": 950,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "elliott@powlowski.name",
+  "EmailSubject": "skyla.heaney@pricemurray.us",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kellen@gulgowski.biz",
+  "SenderEmailAddress": "creola@gottlieb.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldLength": 429
     }
   }
 }

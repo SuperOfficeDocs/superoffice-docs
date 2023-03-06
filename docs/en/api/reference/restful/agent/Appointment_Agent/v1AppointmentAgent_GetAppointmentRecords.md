@@ -123,12 +123,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 259,
-  "RecurrenceRuleId": 33
+  "MotherId": 965,
+  "RecurrenceRuleId": 795
 }
 ```
 
@@ -140,53 +140,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 788,
-    "StartDate": "2020-06-30T17:37:16.2732416+02:00",
-    "EndDate": "2011-02-26T17:37:16.2732416+01:00",
+    "AppointmentId": 414,
+    "StartDate": "2000-10-28T14:19:02.4682131+02:00",
+    "EndDate": "2013-10-15T14:19:02.4682131+02:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptas",
-    "AssociateFullName": "Casey Anderson",
-    "ContactName": "Jast-Roob",
-    "Description": "Realigned client-server contingency",
-    "PersonFullName": "Cassandre Kessler",
-    "PersonId": 352,
-    "ContactId": 166,
-    "ProjectId": 75,
-    "ProjectName": "Kemmer-Gaylord",
+    "Task": "assumenda",
+    "AssociateFullName": "Beaulah Wiza",
+    "ContactName": "Kerluke-Jones",
+    "Description": "Self-enabling empowering portal",
+    "PersonFullName": "Prof. Jeffry Liliane Wilkinson DDS",
+    "PersonId": 96,
+    "ContactId": 980,
+    "ProjectId": 843,
+    "ProjectName": "DuBuque, Pfeffer and Yundt",
     "IsPublished": false,
-    "AssociateId": 529,
-    "ColorIndex": 587,
+    "AssociateId": 8,
+    "ColorIndex": 408,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 725,
-    "PriorityName": "Olson-Johns",
+    "PriorityId": 393,
+    "PriorityName": "Mayer, Feeney and Koss",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsBookingMain": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2016-01-13T17:37:16.2752421+01:00",
+    "ActiveDate": "2000-11-19T14:19:02.4682131+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-04-18T17:37:16.2752421+02:00",
-    "RecurringEndDate": "2022-03-14T17:37:16.2752421+01:00",
-    "MotherId": 385,
-    "AssignedBy": 291,
-    "AssignedByFullName": "Queen Gerhold",
-    "RejectReason": "",
-    "Location": "est",
-    "AlarmLeadTime": "aut",
-    "SaleId": 454,
-    "SaleName": "Padberg, Satterfield and Stracke",
-    "AssociateName": "Okuneva Inc and Sons",
-    "CreatedDate": "2003-08-05T17:37:16.2752421+02:00",
-    "CreatedBy": "quos",
-    "CreatedByFullName": "Tanner Conn IV",
-    "CreatedByAssociateId": 61,
+    "RecurringStartDate": "2021-01-25T14:19:02.4682131+01:00",
+    "RecurringEndDate": "2009-02-05T14:19:02.4682131+01:00",
+    "MotherId": 251,
+    "AssignedBy": 516,
+    "AssignedByFullName": "Prof. Sterling Antonia Stoltenberg",
+    "RejectReason": "disintermediate impactful partnerships",
+    "Location": "earum",
+    "AlarmLeadTime": "accusantium",
+    "SaleId": 492,
+    "SaleName": "Kling Group",
+    "AssociateName": "Simonis Inc and Sons",
+    "CreatedDate": "2014-03-01T14:19:02.4838092+01:00",
+    "CreatedBy": "in",
+    "CreatedByFullName": "Mrs. Alena McGlynn DVM",
+    "CreatedByAssociateId": 946,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -194,7 +194,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 422
+        "FieldLength": 418
       }
     }
   }

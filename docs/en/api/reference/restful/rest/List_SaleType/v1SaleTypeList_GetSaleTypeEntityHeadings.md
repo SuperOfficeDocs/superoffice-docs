@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 299,
-    "Name": "Conroy-Runolfsson",
-    "Tooltip": "quo",
+    "HeadingId": 905,
+    "Name": "Leffler, Nader and Koch",
+    "Tooltip": "quis",
     "Deleted": false,
-    "Rank": 120,
-    "UdListDefinitionId": 490,
+    "Rank": 779,
+    "UdListDefinitionId": 334,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 331
+        "FieldType": "System.String",
+        "FieldLength": 182
       }
     }
   }

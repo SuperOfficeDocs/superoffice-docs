@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "sale"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -114,6 +114,7 @@ Sales  For every Sale record edited through the SuperOffice GUI, a copy of the c
 |[SaleTypeCat](saletypecat.md)  |Category for sale type |
 |[Source](source.md)  |Source list table. Source for sale (list) |
 |[text](text.md)  |Long text fields from all over the system |
+|[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[udsalelarge](udsalelarge.md)  |User-defined fields |
 |[udsalesmall](udsalesmall.md)  |User-defined fields |
 |[UserGroup](usergroup.md)  |Secondary user groups |

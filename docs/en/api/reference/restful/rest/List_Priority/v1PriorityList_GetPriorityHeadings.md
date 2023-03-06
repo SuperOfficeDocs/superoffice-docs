@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 237,
-    "Name": "Brown, Heidenreich and Lindgren",
-    "Tooltip": "vel",
-    "Deleted": true,
-    "Rank": 283,
-    "UdListDefinitionId": 255,
+    "HeadingId": 560,
+    "Name": "Leuschke Inc and Sons",
+    "Tooltip": "fugiat",
+    "Deleted": false,
+    "Rank": 52,
+    "UdListDefinitionId": 77,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 938
+        "FieldType": "System.String",
+        "FieldLength": 248
       }
     }
   }

@@ -59,6 +59,7 @@ Use BatchTaskInfo to describe the new batch job.
 | ProgressDescription | String | Descriptive text for the current stage |
 | ProgressPercent | Integer | Task progress, in percent of estimated total |
 | FileName | String | The filename related to the batchtask. |
+| CancellationBehaviour | String | Indicate if the task can be stopped. |
 
 ## Response:int32
 
@@ -77,34 +78,35 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 399,
-  "Name": "Nader Inc and Sons",
-  "AssociateId": 372,
-  "DetailsTable": 956,
-  "DetailsRecord": 653,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
+  "Id": 901,
+  "Name": "Gulgowski LLC",
+  "AssociateId": 34,
+  "DetailsTable": 544,
+  "DetailsRecord": 247,
+  "IsSystemTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "voluptates",
-    "ParameterObject2": "dignissimos"
+    "ParameterObject1": "maiores",
+    "ParameterObject2": "cumque"
   },
-  "LastStarted": "1997-07-25T17:37:39.4004322+02:00",
-  "Created": "2004-12-01T17:37:39.4004322+01:00",
-  "StartCount": 326,
-  "DatabaseSerialNumber": "131217",
-  "Context": "voluptas",
-  "Result": "consequuntur",
+  "LastStarted": "2017-05-30T14:19:10.912356+02:00",
+  "Created": "2001-02-14T14:19:10.912356+01:00",
+  "StartCount": 346,
+  "DatabaseSerialNumber": "663873",
+  "Context": "enim",
+  "Result": "id",
   "State": "All",
-  "Description": "Enterprise-wide user-facing throughput",
-  "Response": "et",
-  "Request": "qui",
-  "ProgressDescription": "User-friendly human-resource productivity",
-  "ProgressPercent": 621,
-  "FileName": "Turner LLC"
+  "Description": "Diverse explicit complexity",
+  "Response": "odio",
+  "Request": "voluptatem",
+  "ProgressDescription": "Re-contextualized systemic benchmark",
+  "ProgressPercent": 572,
+  "FileName": "Welch-Considine",
+  "CancellationBehaviour": "CanCancel"
 }
 ```
 
@@ -114,5 +116,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-243
+991
 ```

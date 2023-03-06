@@ -9,6 +9,10 @@ title: Appointment_Agent
 
 
 
+* [POST Agents/Appointment/GetContactAppointments](v1AppointmentAgent_GetContactAppointments.md)
+
+* [POST Agents/Appointment/GetContactAppointmentsByType](v1AppointmentAgent_GetContactAppointmentsByType.md)
+
 * [POST Agents/Appointment/GetProjectMemberAppointments](v1AppointmentAgent_GetProjectMemberAppointments.md)
 
 * [POST Agents/Appointment/GetProjectMemberAppointmentsByType](v1AppointmentAgent_GetProjectMemberAppointmentsByType.md)
@@ -139,6 +143,8 @@ title: Appointment_Agent
 
 * [POST Agents/Appointment/SetSeen](v1AppointmentAgent_SetSeen.md)
 
+* [POST Agents/Appointment/SetSeenMany](v1AppointmentAgent_SetSeenMany.md)
+
 * [POST Agents/Appointment/Move](v1AppointmentAgent_Move.md)
 
 * [POST Agents/Appointment/AcceptRejected](v1AppointmentAgent_AcceptRejected.md)
@@ -146,6 +152,8 @@ title: Appointment_Agent
 * [POST Agents/Appointment/CreateDefaultRecurrenceByDate](v1AppointmentAgent_CreateDefaultRecurrenceByDate.md)
 
 * [POST Agents/Appointment/CleanUpBookingDeleted](v1AppointmentAgent_CleanUpBookingDeleted.md)
+
+* [POST Agents/Appointment/CleanUpBookingDeletedWithUpdateMode](v1AppointmentAgent_CleanUpBookingDeletedWithUpdateMode.md)
 
 * [POST Agents/Appointment/CleanUpRecurringBookingDeleted](v1AppointmentAgent_CleanUpRecurringBookingDeleted.md)
 
@@ -200,7 +208,3 @@ title: Appointment_Agent
 * [POST Agents/Appointment/GetProjectAppointments](v1AppointmentAgent_GetProjectAppointments.md)
 
 * [POST Agents/Appointment/GetProjectAppointmentsByType](v1AppointmentAgent_GetProjectAppointmentsByType.md)
-
-* [POST Agents/Appointment/GetContactAppointments](v1AppointmentAgent_GetContactAppointments.md)
-
-* [POST Agents/Appointment/GetContactAppointmentsByType](v1AppointmentAgent_GetContactAppointmentsByType.md)

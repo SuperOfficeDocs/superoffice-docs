@@ -11,14 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IBulkUpdateAgent.ExecuteB
 
 ## ExecuteByEntityIds
 
-Do the batchupdate on selected
 
-* **fieldValueInfos:** The name of the wanted tablename
-* **tableName:** The name of the table to bulk update
-* **context:** Where is the function called from
-* **ids:** Comma separated string of the ids of the entities to update
 
-**Returns:** Return batchtaskinfoid
+
 
 [WSDL file for Services84/BulkUpdate](../Services84-BulkUpdate.md)
 
@@ -97,6 +92,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ExecuteByEntityIds Response
 
 ```xml
@@ -117,3 +113,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

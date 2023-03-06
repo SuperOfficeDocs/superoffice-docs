@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 46
+  "ShipmentId": 325
 }
 ```
 
@@ -101,27 +101,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "1997-03-01T17:37:18.3242416+01:00",
+  "StartDate": "2020-02-23T14:19:03.7176242+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 426,
-  "ShipmentDescription": "Pre-emptive disintermediate migration",
-  "FromAddress": "placeat",
-  "PersonId": 17,
-  "PersonFullName": "Eden Kuhic",
-  "ShipmentType": "earum",
-  "MessageId": 635,
-  "MessageSubject": "nihil",
-  "DocumentMessageId": 796,
-  "NumSent": 969,
-  "NumOpened": 130,
-  "NumBounced": 24,
-  "NumClicks": 887,
+  "ShipmentId": 576,
+  "ShipmentDescription": "Automated content-based groupware",
+  "FromAddress": "recusandae",
+  "PersonId": 327,
+  "PersonFullName": "Dr. Reva Schaden V",
+  "ShipmentType": "necessitatibus",
+  "MessageId": 142,
+  "MessageSubject": "et",
+  "DocumentMessageId": 588,
+  "NumSent": 44,
+  "NumOpened": 586,
+  "NumBounced": 941,
+  "NumClicks": 922,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 110
+      "FieldLength": 805
     }
   }
 }

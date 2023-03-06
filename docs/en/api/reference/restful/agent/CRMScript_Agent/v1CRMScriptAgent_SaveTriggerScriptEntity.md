@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 200,
-  "Name": "Schneider Inc and Sons",
+  "ScreenChooserId": 488,
+  "Name": "Lakin, Hudson and Kuhic",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "ut",
-  "Source": "blanditiis",
-  "Registered": "1998-07-01T17:37:17.3262452+02:00",
-  "RegisteredAssociateId": 834,
-  "Updated": "2010-08-14T17:37:17.3262452+02:00",
-  "UpdatedAssociateId": 465
+  "UniqueIdentifier": "tempore",
+  "Source": "tenetur",
+  "Registered": "2014-01-18T14:19:03.0730293+01:00",
+  "RegisteredAssociateId": 491,
+  "Updated": "2012-08-03T14:19:03.0730293+02:00",
+  "UpdatedAssociateId": 399
 }
 ```
 
@@ -106,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 596,
-  "Name": "Walter Group",
+  "ScreenChooserId": 309,
+  "Name": "Schroeder-Hammes",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "quam",
-  "Source": "ea",
-  "Registered": "1997-05-04T17:37:17.3272446+02:00",
-  "RegisteredAssociateId": 308,
-  "Updated": "2012-12-18T17:37:17.3272446+01:00",
-  "UpdatedAssociateId": 128,
+  "UniqueIdentifier": "voluptatem",
+  "Source": "fuga",
+  "Registered": "2015-07-14T14:19:03.0730293+02:00",
+  "RegisteredAssociateId": 943,
+  "Updated": "2002-09-11T14:19:03.0730293+02:00",
+  "UpdatedAssociateId": 688,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 655
+      "FieldType": "System.Int32",
+      "FieldLength": 798
     }
   }
 }

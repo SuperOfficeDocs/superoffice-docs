@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetCurrency">S
 
 ## GetCurrency
 
-Gets a Currency object.
 
-* **currencyId:** The identifier of the Currency object
 
-**Returns:** Currency
+
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetCurrency Response
 
 ```xml
@@ -73,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.SaveCurrencyEn
 
 ## SaveCurrencyEntity
 
-Updates the existing CurrencyEntity or creates a new CurrencyEntity if the id parameter is 0.
 
-* **currencyEntity:** The CurrencyEntity that is saved.
 
-**Returns:** New or updated CurrencyEntity
+
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -57,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveCurrencyEntity Response
 
 ```xml
@@ -85,3 +84,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

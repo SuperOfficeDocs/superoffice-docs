@@ -91,54 +91,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 569,
-    "ERPName": "Sawayn-Yundt",
-    "DisplayName": "Russel LLC",
-    "DisplayDescription": "Persistent modular definition",
-    "Rank": 275,
-    "ConnectorName": "Bernier-Jacobs",
-    "ErpConnectionId": 458,
-    "ExtraData": "asperiores",
+    "QuoteConnectionId": 131,
+    "ERPName": "Hessel, Schumm and Stroman",
+    "DisplayName": "Hayes-Daugherty",
+    "DisplayDescription": "Function-based tertiary neural-net",
+    "Rank": 510,
+    "ConnectorName": "Reichert Group",
+    "ErpConnectionId": 421,
+    "ExtraData": "aliquam",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 476,
-        "ERPPriceListKey": "eum",
-        "QuoteConnectionId": 448,
-        "Name": "Romaguera, Bauch and Simonis",
-        "Description": "Digitized homogeneous time-frame",
-        "Currency": "id",
-        "CurrencyName": "Treutel-Hills",
-        "ValidFrom": "2007-03-31T17:37:18.7382418+02:00",
-        "ValidTo": "2018-02-23T17:37:18.7382418+01:00",
+        "PriceListId": 896,
+        "ERPPriceListKey": "omnis",
+        "QuoteConnectionId": 386,
+        "Name": "Prohaska, Daugherty and Murazik",
+        "Description": "Focused transitional access",
+        "Currency": "odit",
+        "CurrencyName": "Rempel-Prohaska",
+        "ValidFrom": "2009-11-09T14:19:04.0157096+01:00",
+        "ValidTo": "2010-04-23T14:19:04.0157096+02:00",
         "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 72
+            "FieldLength": 796
           }
         }
       }
     ],
-    "AllAccess": false,
+    "AllAccess": true,
     "Deleted": false,
     "UserGroupAccessIds": [
-      959,
-      266
+      218,
+      1001
     ],
     "AssociateAccessIds": [
-      51,
-      789
+      875,
+      397
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 31
+        "FieldType": "System.Int32",
+        "FieldLength": 283
       }
     }
   }

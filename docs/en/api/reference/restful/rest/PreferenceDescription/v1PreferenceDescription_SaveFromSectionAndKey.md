@@ -101,28 +101,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 466,
-  "Section": "culpa",
-  "Key": "recusandae",
-  "Name": "Barton, Gleason and Johnston",
+  "PrefDescId": 813,
+  "Section": "amet",
+  "Key": "aut",
+  "Name": "Reynolds, Okuneva and Lemke",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Re-contextualized mission-critical projection",
-  "IsBuiltin": true,
-  "TableName": "Lehner Group",
-  "UserDefinedListId": 268,
-  "Rank": 463,
-  "SubGroup": "quo",
-  "MinLevel": 548,
-  "MaxValue": 534,
-  "MinValue": 682,
-  "RequiredLicense": "velit"
+  "Description": "Intuitive systematic access",
+  "IsBuiltin": false,
+  "TableName": "Haley-Blanda",
+  "UserDefinedListId": 582,
+  "Rank": 392,
+  "SubGroup": "exercitationem",
+  "MinLevel": 984,
+  "MaxValue": 232,
+  "MinValue": 397,
+  "RequiredLicense": "culpa"
 }
 ```
 
@@ -133,30 +133,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 787,
-  "Section": "nulla",
-  "Key": "sapiente",
-  "Name": "Miller, Jacobs and Okuneva",
+  "PrefDescId": 218,
+  "Section": "dolore",
+  "Key": "excepturi",
+  "Name": "Corwin-Schuppe",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Seamless bottom-line website",
+  "Description": "Enhanced attitude-oriented support",
   "IsBuiltin": false,
-  "TableName": "Reilly, Doyle and Strosin",
-  "UserDefinedListId": 767,
-  "Rank": 302,
-  "SubGroup": "pariatur",
-  "MinLevel": 548,
-  "MaxValue": 705,
-  "MinValue": 274,
-  "RequiredLicense": "non",
+  "TableName": "Quitzon LLC",
+  "UserDefinedListId": 184,
+  "Rank": 644,
+  "SubGroup": "eum",
+  "MinLevel": 487,
+  "MaxValue": 153,
+  "MinValue": 117,
+  "RequiredLicense": "dicta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 453
+      "FieldLength": 290
     }
   }
 }

@@ -89,20 +89,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 438,
-  "AssociateId": 662,
-  "Block": "natus",
-  "Registered": "2011-11-20T17:37:39.2233032+01:00",
-  "RegisteredAssociateId": 992,
-  "Updated": "2015-02-27T17:37:39.2233032+01:00",
-  "UpdatedAssociateId": 451,
-  "UpdatedCount": 190,
+  "ShipmentMessageBlockId": 594,
+  "AssociateId": 802,
+  "Block": "commodi",
+  "Registered": "2004-12-07T14:19:10.7873511+01:00",
+  "RegisteredAssociateId": 153,
+  "Updated": "2002-11-24T14:19:10.7873511+01:00",
+  "UpdatedAssociateId": 71,
+  "UpdatedCount": 957,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 585
+      "FieldLength": 29
     }
   },
   "_Links": {

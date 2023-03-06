@@ -11,7 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.SaveLegalBase"
 
 ## SaveLegalBase
 
-* **legalBase:**
+
+
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -52,6 +54,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveLegalBase Response
 
 ```xml
@@ -79,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

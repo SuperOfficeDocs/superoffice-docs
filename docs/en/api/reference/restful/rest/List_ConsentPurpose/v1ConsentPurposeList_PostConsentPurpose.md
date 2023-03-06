@@ -88,22 +88,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 291,
-  "Name": "Marquardt Inc and Sons",
-  "ConsentText": "aut",
-  "FormText": "iure",
-  "Key": "odit",
-  "Tooltip": "aut",
-  "Active": 939,
-  "UpdatedDate": "2014-05-03T17:37:39.8895009+02:00",
+  "ConsentPurposeId": 322,
+  "Name": "Kreiger-Kuphal",
+  "ConsentText": "vero",
+  "FormText": "dolor",
+  "Key": "a",
+  "Tooltip": "reprehenderit",
+  "Active": 85,
+  "UpdatedDate": "2000-02-04T14:19:11.163718+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 897,
-  "PrivacyStatementDesc": "quia",
+  "Rank": 893,
+  "PrivacyStatementDesc": "perspiciatis",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -115,25 +115,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 5,
-  "Name": "Ziemann-Bashirian",
-  "ConsentText": "eaque",
-  "FormText": "eum",
-  "Key": "voluptatem",
-  "Tooltip": "laudantium",
-  "Active": 618,
-  "UpdatedDate": "2012-02-26T17:37:39.8905061+01:00",
+  "ConsentPurposeId": 870,
+  "Name": "Zieme, Waters and Will",
+  "ConsentText": "quod",
+  "FormText": "quo",
+  "Key": "esse",
+  "Tooltip": "atque",
+  "Active": 936,
+  "UpdatedDate": "2009-08-27T14:19:11.163718+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 546,
-  "PrivacyStatementDesc": "modi",
+  "Rank": 462,
+  "PrivacyStatementDesc": "maiores",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 846
+      "FieldType": "System.Int32",
+      "FieldLength": 650
     }
   }
 }

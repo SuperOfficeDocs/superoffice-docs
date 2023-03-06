@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 115,
-  "Name": "Steuber, Kub and Block",
-  "ContentType": "natus",
-  "AttSize": 498,
-  "InlineImage": true,
-  "ContentId": "ratione",
+  "AttachmentId": 440,
+  "Name": "Schneider-Rolfson",
+  "ContentType": "ipsa",
+  "AttSize": 670,
+  "InlineImage": false,
+  "ContentId": "maxime",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 758
+      "FieldLength": 625
     }
   }
 }

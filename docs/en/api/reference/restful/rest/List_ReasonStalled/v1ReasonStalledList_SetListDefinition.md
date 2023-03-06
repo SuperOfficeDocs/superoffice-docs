@@ -87,15 +87,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 709,
-  "Name": "Konopelski-Dietrich",
-  "Tooltip": "nulla",
-  "Deleted": true,
-  "Rank": 980,
+  "Id": 291,
+  "Name": "Torp Group",
+  "Tooltip": "maiores",
+  "Deleted": false,
+  "Rank": 197,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "explicabo",
+  "UseGroupsAndHeadings": false,
+  "ListType": "repellat",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 585,
-  "Name": "Stracke-Mayert",
-  "Tooltip": "fugit",
+  "Id": 351,
+  "Name": "Gibson Inc and Sons",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 565,
+  "Rank": 847,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "repellendus",
+  "ListType": "dolores",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 881
+      "FieldType": "System.String",
+      "FieldLength": 452
     }
   }
 }

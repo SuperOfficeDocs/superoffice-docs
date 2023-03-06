@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IConfigurationAgent.SetAp
 
 ## SetAppliesToKey
 
-Set the type of assignTo the deltas of the given recipe should have
 
-* **recipeId:** The recipeId that will use this apply to type
-* **appliesToKey:** The type we should use for differencing between delta layout. Like usergroup or project type. Saved in table ConfigurableScreenAppliesTo
 
-**Returns:** Returns nothing
+
 
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetAppliesToKey Response
 
 ```xml
@@ -70,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

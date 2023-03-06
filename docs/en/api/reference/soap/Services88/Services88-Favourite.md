@@ -126,6 +126,96 @@ title: Services88.FavouriteAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="AddTicketsToFavouritesByProvider">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ProviderName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Restrictions" nillable="true" type="tns:ArrayOfArchiveRestrictionInfo" />
+            <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
+            <xs:element minOccurs="0" name="ExtraInfo" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfArchiveRestrictionInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ArchiveRestrictionInfo" nillable="true" type="tns:ArchiveRestrictionInfo" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfArchiveRestrictionInfo" nillable="true" type="tns:ArrayOfArchiveRestrictionInfo" />
+      <xs:complexType name="ArchiveRestrictionInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Operator" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Values" nillable="true" type="q2:ArrayOfstring" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="DisplayValues" nillable="true" type="q3:ArrayOfstring" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="ColumnInfo" nillable="true" type="tns:ArchiveColumnInfo" />
+          <xs:element minOccurs="0" name="IsActive" type="xs:boolean" />
+          <xs:element minOccurs="0" name="SubRestrictions" nillable="true" type="tns:ArrayOfArchiveRestrictionInfo" />
+          <xs:element minOccurs="0" name="InterParenthesis" type="xs:int" />
+          <xs:element minOccurs="0" name="InterOperator" type="tns:InterRestrictionOperator" />
+          <xs:element minOccurs="0" name="UniqueHash" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArchiveRestrictionInfo" nillable="true" type="tns:ArchiveRestrictionInfo" />
+      <xs:complexType name="ArchiveColumnInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="DisplayName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DisplayTooltip" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DisplayType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CanOrderBy" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CanRestrictBy" type="xs:boolean" />
+          <xs:element minOccurs="0" name="RestrictionType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="RestrictionListName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IsVisible" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Width" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IconHint" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="HeadingIconHint" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ExtraInfo" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArchiveColumnInfo" nillable="true" type="tns:ArchiveColumnInfo" />
+      <xs:simpleType name="InterRestrictionOperator">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="None" />
+          <xs:enumeration value="And" />
+          <xs:enumeration value="Or" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="InterRestrictionOperator" nillable="true" type="tns:InterRestrictionOperator" />
+      <xs:element name="AddTicketsToFavouritesByProviderResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RemoveFavourites">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TableName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="RecordIds" nillable="true" type="q4:ArrayOfint" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RemoveFavouritesResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RemoveTicketsFromFavouritesByProvider">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ProviderName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Restrictions" nillable="true" type="tns:ArrayOfArchiveRestrictionInfo" />
+            <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RemoveTicketsFromFavouritesByProviderResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetFavourites">
         <xs:complexType>
           <xs:sequence>
@@ -311,7 +401,7 @@ title: Services88.FavouriteAgent WSDL
       <xs:element name="RemoveFavouritesById">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="FavouriteIds" nillable="true" type="q2:ArrayOfint" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="FavouriteIds" nillable="true" type="q5:ArrayOfint" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -369,6 +459,12 @@ title: Services88.FavouriteAgent WSDL
         </xs:sequence>
       </xs:complexType>
       <xs:element name="ArrayOfint" nillable="true" type="tns:ArrayOfint" />
+      <xs:complexType name="ArrayOfstring">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfstring" nillable="true" type="tns:ArrayOfstring" />
     </xs:schema>
   </wsdl:types>
   <wsdl:message name="IsFavouriteRequest">
@@ -417,6 +513,57 @@ title: Services88.FavouriteAgent WSDL
     <wsdl:part name="parameters" element="tns:AddFavouritesResponse" />
   </wsdl:message>
   <wsdl:message name="AddFavouritesResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="AddTicketsToFavouritesByProviderRequest">
+    <wsdl:part name="parameters" element="tns:AddTicketsToFavouritesByProvider" />
+  </wsdl:message>
+  <wsdl:message name="AddTicketsToFavouritesByProviderRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="AddTicketsToFavouritesByProviderResponse">
+    <wsdl:part name="parameters" element="tns:AddTicketsToFavouritesByProviderResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddTicketsToFavouritesByProviderResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="RemoveFavouritesRequest">
+    <wsdl:part name="parameters" element="tns:RemoveFavourites" />
+  </wsdl:message>
+  <wsdl:message name="RemoveFavouritesRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="RemoveFavouritesResponse">
+    <wsdl:part name="parameters" element="tns:RemoveFavouritesResponse" />
+  </wsdl:message>
+  <wsdl:message name="RemoveFavouritesResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="RemoveTicketsFromFavouritesByProviderRequest">
+    <wsdl:part name="parameters" element="tns:RemoveTicketsFromFavouritesByProvider" />
+  </wsdl:message>
+  <wsdl:message name="RemoveTicketsFromFavouritesByProviderRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="RemoveTicketsFromFavouritesByProviderResponse">
+    <wsdl:part name="parameters" element="tns:RemoveTicketsFromFavouritesByProviderResponse" />
+  </wsdl:message>
+  <wsdl:message name="RemoveTicketsFromFavouritesByProviderResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -508,62 +655,47 @@ title: Services88.FavouriteAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Favourite">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Favourite</summary>
-    </wsdl:documentation>
     <wsdl:operation name="IsFavourite">
-      <wsdl:documentation>
-        <summary>Checks if a record in a table is a favourite for an associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/IsFavourite" name="IsFavouriteRequest" message="tns:IsFavouriteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/IsFavouriteResponse" name="IsFavouriteResponse" message="tns:IsFavouriteResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddFavourite">
-      <wsdl:documentation>
-        <summary>Add a record in a table as a favourite for an associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/AddFavourite" name="AddFavouriteRequest" message="tns:AddFavouriteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/AddFavouriteResponse" name="AddFavouriteResponse" message="tns:AddFavouriteResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddFavourites">
-      <wsdl:documentation>
-        <summary>Add a list of record ids as favourites for an associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/AddFavourites" name="AddFavouritesRequest" message="tns:AddFavouritesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/AddFavouritesResponse" name="AddFavouritesResponse" message="tns:AddFavouritesResponse" />
     </wsdl:operation>
+    <wsdl:operation name="AddTicketsToFavouritesByProvider">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/AddTicketsToFavouritesByProvider" name="AddTicketsToFavouritesByProviderRequest" message="tns:AddTicketsToFavouritesByProviderRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/AddTicketsToFavouritesByProviderResponse" name="AddTicketsToFavouritesByProviderResponse" message="tns:AddTicketsToFavouritesByProviderResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveFavourites">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/RemoveFavourites" name="RemoveFavouritesRequest" message="tns:RemoveFavouritesRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/RemoveFavouritesResponse" name="RemoveFavouritesResponse" message="tns:RemoveFavouritesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveTicketsFromFavouritesByProvider">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/RemoveTicketsFromFavouritesByProvider" name="RemoveTicketsFromFavouritesByProviderRequest" message="tns:RemoveTicketsFromFavouritesByProviderRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/RemoveTicketsFromFavouritesByProviderResponse" name="RemoveTicketsFromFavouritesByProviderResponse" message="tns:RemoveTicketsFromFavouritesByProviderResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetFavourites">
-      <wsdl:documentation>
-        <summary>Get all favourites for a table and associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/GetFavourites" name="GetFavouritesRequest" message="tns:GetFavouritesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/GetFavouritesResponse" name="GetFavouritesResponse" message="tns:GetFavouritesResponse" />
     </wsdl:operation>
     <wsdl:operation name="RemoveFavourite">
-      <wsdl:documentation>
-        <summary>Remove favourite for a table, record id and associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/RemoveFavourite" name="RemoveFavouriteRequest" message="tns:RemoveFavouriteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/RemoveFavouriteResponse" name="RemoveFavouriteResponse" message="tns:RemoveFavouriteResponse" />
     </wsdl:operation>
     <wsdl:operation name="RemoveAllFavourites">
-      <wsdl:documentation>
-        <summary>Remove all favourites for a table and associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/RemoveAllFavourites" name="RemoveAllFavouritesRequest" message="tns:RemoveAllFavouritesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/RemoveAllFavouritesResponse" name="RemoveAllFavouritesResponse" message="tns:RemoveAllFavouritesResponse" />
     </wsdl:operation>
     <wsdl:operation name="ToggleFavourite">
-      <wsdl:documentation>
-        <summary>Toggle a record in a table as a favourite for an associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/ToggleFavourite" name="ToggleFavouriteRequest" message="tns:ToggleFavouriteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/ToggleFavouriteResponse" name="ToggleFavouriteResponse" message="tns:ToggleFavouriteResponse" />
     </wsdl:operation>
     <wsdl:operation name="RemoveFavouritesById">
-      <wsdl:documentation>
-        <summary>Remove favourite using favourite id </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/RemoveFavouritesById" name="RemoveFavouritesByIdRequest" message="tns:RemoveFavouritesByIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/RemoveFavouritesByIdResponse" name="RemoveFavouritesByIdResponse" message="tns:RemoveFavouritesByIdResponse" />
     </wsdl:operation>
@@ -615,6 +747,54 @@ title: Services88.FavouriteAgent WSDL
         <soap:header message="tns:AddFavouritesResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:AddFavouritesResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:AddFavouritesResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddTicketsToFavouritesByProvider">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/AddTicketsToFavouritesByProvider" style="document" />
+      <wsdl:input name="AddTicketsToFavouritesByProviderRequest">
+        <soap:header message="tns:AddTicketsToFavouritesByProviderRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:AddTicketsToFavouritesByProviderRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:AddTicketsToFavouritesByProviderRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="AddTicketsToFavouritesByProviderResponse">
+        <soap:header message="tns:AddTicketsToFavouritesByProviderResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:AddTicketsToFavouritesByProviderResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:AddTicketsToFavouritesByProviderResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:AddTicketsToFavouritesByProviderResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveFavourites">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/RemoveFavourites" style="document" />
+      <wsdl:input name="RemoveFavouritesRequest">
+        <soap:header message="tns:RemoveFavouritesRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:RemoveFavouritesRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:RemoveFavouritesRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="RemoveFavouritesResponse">
+        <soap:header message="tns:RemoveFavouritesResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:RemoveFavouritesResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:RemoveFavouritesResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:RemoveFavouritesResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveTicketsFromFavouritesByProvider">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Favourite/RemoveTicketsFromFavouritesByProvider" style="document" />
+      <wsdl:input name="RemoveTicketsFromFavouritesByProviderRequest">
+        <soap:header message="tns:RemoveTicketsFromFavouritesByProviderRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:RemoveTicketsFromFavouritesByProviderRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:RemoveTicketsFromFavouritesByProviderRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="RemoveTicketsFromFavouritesByProviderResponse">
+        <soap:header message="tns:RemoveTicketsFromFavouritesByProviderResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:RemoveTicketsFromFavouritesByProviderResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:RemoveTicketsFromFavouritesByProviderResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:RemoveTicketsFromFavouritesByProviderResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -706,3 +886,4 @@ title: Services88.FavouriteAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

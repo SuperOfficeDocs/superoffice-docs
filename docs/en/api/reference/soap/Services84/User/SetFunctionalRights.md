@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.SetFunctionalR
 
 ## SetFunctionalRights
 
-Set all functional rights for the given role. Functional rights not specified here will be removed from the role.
 
-* **roleId:** The role id to set the functional rights for
-* **functionalRightIds:** An array of functional rights ids to set for this role. Rights not included here are removed from the role.
+
+
 
 [WSDL file for Services84/User](../Services84-User.md)
 
@@ -51,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetFunctionalRights Response
 
 ```xml
@@ -70,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

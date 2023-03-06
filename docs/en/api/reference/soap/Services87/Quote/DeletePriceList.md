@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.DeletePriceLi
 
 ## DeletePriceList
 
-Deletes the PriceList
 
-* **priceListId:** The identity of the PriceList
+
+
 
 [WSDL file for Services87/Quote](../Services87-Quote.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeletePriceList Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

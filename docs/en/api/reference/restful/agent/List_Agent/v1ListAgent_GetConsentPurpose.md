@@ -25,7 +25,7 @@ Gets a ConsentPurpose object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=580
+POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=317
 POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,25 +88,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 471,
-  "Name": "Roob Inc and Sons",
-  "ConsentText": "nobis",
-  "FormText": "sit",
-  "Key": "non",
-  "Tooltip": "ut",
-  "Active": 265,
-  "UpdatedDate": "2000-10-11T17:37:18.3042414+02:00",
+  "ConsentPurposeId": 751,
+  "Name": "Hammes Group",
+  "ConsentText": "ut",
+  "FormText": "et",
+  "Key": "ut",
+  "Tooltip": "delectus",
+  "Active": 710,
+  "UpdatedDate": "1996-10-03T14:19:03.7019992+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 527,
-  "PrivacyStatementDesc": "sunt",
+  "Deleted": true,
+  "Rank": 181,
+  "PrivacyStatementDesc": "eum",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 888
+      "FieldLength": 721
     }
   }
 }

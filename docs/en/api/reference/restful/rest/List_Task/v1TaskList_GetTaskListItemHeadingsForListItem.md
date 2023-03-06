@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 169,
-    "Name": "Ullrich-Yost",
-    "ToolTip": "Qui esse possimus qui accusantium placeat.",
+    "Id": 838,
+    "Name": "Lockman Inc and Sons",
+    "ToolTip": "Quos iste accusantium.",
     "Deleted": false,
-    "Rank": 36,
-    "Type": "voluptatibus",
-    "ColorBlock": 532,
-    "IconHint": "libero",
-    "Selected": false,
-    "LastChanged": "2015-09-16T17:37:40.3944705+02:00",
+    "Rank": 554,
+    "Type": "rem",
+    "ColorBlock": 638,
+    "IconHint": "tempore",
+    "Selected": true,
+    "LastChanged": "2015-06-12T14:19:11.6433214+02:00",
     "ChildItems": [
       {
-        "Id": 302,
-        "Name": "Hermiston-Hirthe",
-        "ToolTip": "Temporibus expedita.",
+        "Id": 603,
+        "Name": "Weber LLC",
+        "ToolTip": "Alias blanditiis ut totam commodi itaque qui.",
         "Deleted": true,
-        "Rank": 390,
-        "Type": "reprehenderit",
-        "ColorBlock": 453,
-        "IconHint": "dolore",
+        "Rank": 648,
+        "Type": "facere",
+        "ColorBlock": 524,
+        "IconHint": "inventore",
         "Selected": false,
-        "LastChanged": "2008-01-11T17:37:40.3944705+01:00",
+        "LastChanged": "2007-07-14T14:19:11.6433214+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "fugiat",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Maximilian White",
+        "FullName": "Sadye Feeney",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 367
+            "FieldType": "System.String",
+            "FieldLength": 71
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "expedita",
-    "Hidden": false,
-    "FullName": "Josiane Dietrich",
+    "ExtraInfo": "numquam",
+    "StyleHint": "distinctio",
+    "Hidden": true,
+    "FullName": "Guadalupe Kuhn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 492
+        "FieldLength": 560
       }
     }
   }

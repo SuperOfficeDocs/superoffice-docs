@@ -115,14 +115,14 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 310,
-  "Name": "Jones, Mante and Emard",
+  "SelectionId": 52,
+  "Name": "Ryan-Marvin",
   "TargetSelectionType": "Combined",
-  "CopyMembers": false
+  "CopyMembers": true
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Grass-roots responsive moratorium",
-  "Postit": "qui",
+  "Description": "Extended background synergy",
+  "Postit": "est",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 79,
-  "IncludePerson": 294,
-  "MemberCount": 655,
-  "Name": "Koch-Reinger",
-  "PostitTextId": 769,
-  "CreatedDate": "2020-11-17T17:37:19.1962427+01:00",
-  "SelectionId": 108,
-  "SoundEx": "explicabo",
-  "Source": 891,
-  "TextId": 415,
-  "UpdatedDate": "2018-04-05T17:37:19.1962427+02:00",
-  "UpdatedCount": 984,
-  "Visibility": 918,
+  "GroupIdx": 867,
+  "IncludePerson": 944,
+  "MemberCount": 250,
+  "Name": "Deckow-Kirlin",
+  "PostitTextId": 48,
+  "CreatedDate": "2002-06-26T14:19:04.2036046+02:00",
+  "SelectionId": 966,
+  "SoundEx": "et",
+  "Source": 338,
+  "TextId": 476,
+  "UpdatedDate": "2000-09-20T14:19:04.2036046+02:00",
+  "UpdatedCount": 137,
+  "Visibility": 275,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 433,
-  "TargetTableName": "Pouros-Ebert",
+  "TargetTableNumber": 120,
+  "TargetTableName": "Wiegand Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 23,
-  "RightSelectionId": 777,
+  "LeftSelectionId": 529,
+  "RightSelectionId": 653,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Braun LLC",
-  "ShadowProviderName": "Botsford-Huels",
-  "ChartKey": "consequatur",
-  "LastLoaded": "2018-11-08T17:37:19.1962427+01:00",
-  "LastLoadedBy": 345,
+  "MainProviderName": "Jast, Ondricka and Wilkinson",
+  "ShadowProviderName": "Torphy Inc and Sons",
+  "ChartKey": "molestiae",
+  "LastLoaded": "2013-01-12T14:19:04.2036046+01:00",
+  "LastLoadedBy": 831,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-01-18T17:37:19.1972427+01:00",
-  "LastMembershipChangeBy": 732,
+  "LastMembershipChange": "2020-11-26T14:19:04.2036046+01:00",
+  "LastMembershipChangeBy": 766,
   "LastMembershipChangeByAssociate": null,
   "MainHeading": "blanditiis",
-  "MemberTabHeading": "commodi",
-  "MailingsProviderName": "Wisoky, Douglas and Macejkovic",
-  "DashboardTileDefinitionId": 619,
+  "MemberTabHeading": "reprehenderit",
+  "MailingsProviderName": "Cummings-Kling",
+  "DashboardTileDefinitionId": 229,
   "VisibleFor": [
     {
-      "VisibleId": 654,
+      "VisibleId": 250,
       "Visibility": "All",
-      "DisplayValue": "earum",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 848
+          "FieldType": "System.Int32",
+          "FieldLength": 681
         }
       }
     },
     {
-      "VisibleId": 654,
+      "VisibleId": 250,
       "Visibility": "All",
-      "DisplayValue": "earum",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 848
+          "FieldType": "System.Int32",
+          "FieldLength": 681
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 225
+      "FieldLength": 987
     }
   }
 }

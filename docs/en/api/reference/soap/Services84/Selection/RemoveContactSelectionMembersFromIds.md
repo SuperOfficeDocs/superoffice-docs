@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.ISelectionAgent.RemoveCon
 
 ## RemoveContactSelectionMembersFromIds
 
-Removes members from the selection using a collection a selectionmember id's. Members can only be removed from single selection.
 
-* **selectionId:** The id of the selection where to members will be removed.
-* **selectionMembersIds:** An array of selectionmember id's to remove from the selection.
+
+
 
 [WSDL file for Services84/Selection](../Services84-Selection.md)
 
@@ -51,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RemoveContactSelectionMembersFromIds Response
 
 ```xml
@@ -70,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

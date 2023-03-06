@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services84/Messa
 
 Handled by the <see cref="T:SuperOffice.Services84.IMessagingAgent">SuperOffice.Services84.IMessagingAgent</see> interface.
 
-Interface for the Messaging Agent
-SMS and other external messaging systems
+
 
 Download [WSDL file for Services84/Messaging](../Services84-Messaging.md) if you need to generate your own proxy code.
 
@@ -21,3 +20,4 @@ Download [WSDL file for Services84/Messaging](../Services84-Messaging.md) if you
 * [SendMessages](SendMessages.md)
 * [SendMessagesWithConfig](SendMessagesWithConfig.md)
 * [SetDeliveryStatus](SetDeliveryStatus.md)
+

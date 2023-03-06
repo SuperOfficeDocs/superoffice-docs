@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetDocumentTem
 
 ## GetDocumentTemplates
 
-Returns all available document templates
 
-**Returns:** Array of DocumentTemplates
+
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -45,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetDocumentTemplates Response
 
@@ -80,3 +81,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

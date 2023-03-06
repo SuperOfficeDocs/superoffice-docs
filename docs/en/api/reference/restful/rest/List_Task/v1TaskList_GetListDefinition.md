@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 107,
-  "Name": "Von, Kerluke and Greenholt",
-  "Tooltip": "aliquam",
+  "Id": 470,
+  "Name": "Ebert, Nicolas and Brakus",
+  "Tooltip": "at",
   "Deleted": true,
-  "Rank": 505,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 539,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "pariatur",
+  "ListType": "incidunt",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 305
+      "FieldLength": 947
     }
   },
   "_Links": {

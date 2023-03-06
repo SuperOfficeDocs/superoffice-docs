@@ -94,14 +94,14 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kunde Group",
-  "ForceFlatList": true,
-  "AdditionalInfo": "velit",
+  "Name": "Kautzer-Robel",
+  "ForceFlatList": false,
+  "AdditionalInfo": "quidem",
   "HistoryItems": [
-    714,
-    633
+    87,
+    486
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 
@@ -113,56 +113,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 505,
-    "Name": "Cummings-Aufderhar",
-    "ToolTip": "Itaque et quia recusandae et.",
-    "Deleted": true,
-    "Rank": 899,
-    "Type": "et",
-    "ColorBlock": 946,
-    "IconHint": "ipsam",
-    "Selected": false,
-    "LastChanged": "1997-02-12T17:37:18.3422426+01:00",
+    "Id": 132,
+    "Name": "Hansen-Jones",
+    "ToolTip": "Quo odit.",
+    "Deleted": false,
+    "Rank": 929,
+    "Type": "voluptas",
+    "ColorBlock": 232,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2014-06-24T14:19:03.7332495+02:00",
     "ChildItems": [
       {
-        "Id": 353,
-        "Name": "Lehner, Dietrich and Johnston",
-        "ToolTip": "Amet possimus odit.",
+        "Id": 317,
+        "Name": "Gleason, Littel and Ullrich",
+        "ToolTip": "Necessitatibus blanditiis totam harum temporibus molestias tempora nobis.",
         "Deleted": false,
-        "Rank": 52,
-        "Type": "architecto",
-        "ColorBlock": 572,
-        "IconHint": "sunt",
+        "Rank": 913,
+        "Type": "est",
+        "ColorBlock": 607,
+        "IconHint": "eveniet",
         "Selected": false,
-        "LastChanged": "2012-05-05T17:37:18.3442413+02:00",
+        "LastChanged": "2007-08-05T14:19:03.7332495+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "rerum",
+        "ExtraInfo": "odio",
+        "StyleHint": "similique",
         "Hidden": false,
-        "FullName": "Ezra Hermiston",
+        "FullName": "Ezra Schoen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 891
+            "FieldType": "System.Int32",
+            "FieldLength": 321
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "deleniti",
+    "ExtraInfo": "non",
+    "StyleHint": "nostrum",
     "Hidden": false,
-    "FullName": "Mr. Omari Gleichner Sr.",
+    "FullName": "Holly Anne Gaylord II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 13
+        "FieldType": "System.Int32",
+        "FieldLength": 668
       }
     }
   }

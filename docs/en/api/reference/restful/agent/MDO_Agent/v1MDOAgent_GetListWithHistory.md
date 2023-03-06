@@ -87,18 +87,18 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hodkiewicz-Thompson",
+  "Name": "Stoltenberg-Mayert",
   "ForceFlatList": false,
-  "AdditionalInfo": "cupiditate",
+  "AdditionalInfo": "omnis",
   "HistoryItems": [
-    581,
-    276
+    737,
+    651
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 
@@ -110,50 +110,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 147,
-    "Name": "Schowalter-Luettgen",
-    "ToolTip": "Veritatis rerum omnis.",
+    "Id": 954,
+    "Name": "Rath Inc and Sons",
+    "ToolTip": "Nobis fugit repudiandae quia alias culpa illum.",
     "Deleted": false,
-    "Rank": 588,
-    "Type": "qui",
+    "Rank": 278,
+    "Type": "excepturi",
     "ChildItems": [
       {
-        "Id": 166,
-        "Name": "Weimann Inc and Sons",
-        "ToolTip": "Ut tempora sint nostrum voluptatem est quis.",
+        "Id": 43,
+        "Name": "Konopelski, Braun and Harvey",
+        "ToolTip": "Et tempora ipsum odio magni placeat voluptatem qui.",
         "Deleted": false,
-        "Rank": 682,
-        "Type": "in",
+        "Rank": 164,
+        "Type": "id",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quo",
-        "ColorBlock": 648,
-        "ExtraInfo": "qui",
-        "StyleHint": "qui",
-        "FullName": "Valentin Stoltenberg",
+        "IconHint": "animi",
+        "ColorBlock": 556,
+        "ExtraInfo": "tempora",
+        "StyleHint": "autem",
+        "FullName": "Jamaal Keebler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 809
+            "FieldLength": 774
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 849,
-    "ExtraInfo": "id",
-    "StyleHint": "est",
-    "FullName": "Pamela Balistreri",
+    "IconHint": "aliquid",
+    "ColorBlock": 852,
+    "ExtraInfo": "nisi",
+    "StyleHint": "ullam",
+    "FullName": "Mae Halvorson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 589
+        "FieldLength": 159
       }
     }
   }

@@ -76,12 +76,12 @@ OK
 POST /api/v1/Agents/Contact/GetContactSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 326,
-  "Limit": 809
+  "ContactId": 716,
+  "Limit": 228
 }
 ```
 
@@ -95,79 +95,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 752,
-      "TicketStatus": 128,
-      "Title": "non",
-      "Registered": "2015-09-19T17:37:17.3072425+02:00",
-      "IconHint": "placeat"
+      "TicketId": 763,
+      "TicketStatus": 926,
+      "Title": "occaecati",
+      "Registered": "2016-09-03T14:19:03.0574043+02:00",
+      "IconHint": "exercitationem"
     },
     {
-      "TicketId": 752,
-      "TicketStatus": 128,
-      "Title": "non",
-      "Registered": "2015-09-19T17:37:17.3072425+02:00",
-      "IconHint": "placeat"
+      "TicketId": 763,
+      "TicketStatus": 926,
+      "Title": "occaecati",
+      "Registered": "2016-09-03T14:19:03.0574043+02:00",
+      "IconHint": "exercitationem"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 683,
-      "DocumentId": 795,
-      "Date": "2015-03-27T17:37:17.3072425+01:00",
-      "Description": "Multi-channelled background moderator",
+      "AppointmentId": 181,
+      "DocumentId": 757,
+      "Date": "2012-07-20T14:19:03.0574043+02:00",
+      "Description": "Quality-focused 24/7 time-frame",
       "Completed": "Completed",
-      "Registered": "2008-02-16T17:37:17.3072425+01:00"
+      "Registered": "1999-06-05T14:19:03.0574043+02:00"
     },
     {
-      "AppointmentId": 683,
-      "DocumentId": 795,
-      "Date": "2015-03-27T17:37:17.3072425+01:00",
-      "Description": "Multi-channelled background moderator",
+      "AppointmentId": 181,
+      "DocumentId": 757,
+      "Date": "2012-07-20T14:19:03.0574043+02:00",
+      "Description": "Quality-focused 24/7 time-frame",
       "Completed": "Completed",
-      "Registered": "2008-02-16T17:37:17.3072425+01:00"
+      "Registered": "1999-06-05T14:19:03.0574043+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 805,
-      "DocumentId": 794,
-      "Date": "2016-02-04T17:37:17.3072425+01:00",
-      "Description": "Focused 5th generation methodology",
+      "AppointmentId": 367,
+      "DocumentId": 633,
+      "Date": "2014-07-23T14:19:03.0574043+02:00",
+      "Description": "Versatile modular knowledge base",
       "Completed": "Completed",
-      "Registered": "2009-07-01T17:37:17.3072425+02:00"
+      "Registered": "2018-03-28T14:19:03.0574043+02:00"
     },
     {
-      "AppointmentId": 805,
-      "DocumentId": 794,
-      "Date": "2016-02-04T17:37:17.3072425+01:00",
-      "Description": "Focused 5th generation methodology",
+      "AppointmentId": 367,
+      "DocumentId": 633,
+      "Date": "2014-07-23T14:19:03.0574043+02:00",
+      "Description": "Versatile modular knowledge base",
       "Completed": "Completed",
-      "Registered": "2009-07-01T17:37:17.3072425+02:00"
+      "Registered": "2018-03-28T14:19:03.0574043+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 300,
-      "SaleDate": "2019-06-03T17:37:17.3072425+02:00",
-      "Probability": 394,
-      "Heading": "enim",
-      "Amount": 17446.978,
-      "Currency": "fuga",
-      "AmountInBaseCurrency": 4741.742,
+      "SaleId": 985,
+      "SaleDate": "2015-11-16T14:19:03.0574043+01:00",
+      "Probability": 854,
+      "Heading": "sapiente",
+      "Amount": 235.04999999999998,
+      "Currency": "error",
+      "AmountInBaseCurrency": 5356.0059999999994,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "1998-07-12T17:37:17.3072425+02:00"
+      "Registered": "2017-10-08T14:19:03.0574043+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 591,
-      "Name": "Runolfsson-Bednar",
-      "CompanyName": "Wyman-Jacobi",
-      "FirstMessage": "dolor",
-      "LastMessage": "nisi",
-      "WhenRequested": "2011-10-26T17:37:17.3072425+02:00",
-      "WhenEnded": "2021-11-14T17:37:17.3072425+01:00"
+      "ChatSessionId": 843,
+      "Name": "Lynch-Stoltenberg",
+      "CompanyName": "Howell-Hammes",
+      "FirstMessage": "doloremque",
+      "LastMessage": "quam",
+      "WhenRequested": "2020-12-21T14:19:03.0574043+01:00",
+      "WhenEnded": "2000-08-28T14:19:03.0574043+02:00"
     }
   ]
 }

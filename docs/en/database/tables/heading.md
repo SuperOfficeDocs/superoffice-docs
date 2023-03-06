@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Heading"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -96,6 +96,7 @@ Heading items for all MDO lists, lists that are grouped and filtered.
 |[SubscriptionUnitHeadingLink](subscriptionunitheadinglink.md)  |Heading link table for SubscriptionUnit, for MDO item headings |
 |[TagsHeadingLink](tagsheadinglink.md)  |Heading link table for Source, for MDO headers |
 |[TaskHeadingLink](taskheadinglink.md)  |Heading link table for Task, for MDO headers |
+|[TaskMenuHeadingLink](taskmenuheadinglink.md)  |Heading link table for TaskMenu, for MDO headers |
 |[UDListHeadingLink](udlistheadinglink.md)  |Heading link table for UDList, for MDO headers. Note - MDO mode for userdefinede lists are either turned on or off, you may not have it on for one userdefined list and off for the others. |
 
 

@@ -11,16 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IDocumentAgent.GetPersonD
 
 ## GetPersonDocumentsByTemplateTypes
 
-Method that returns a specified number of document appointments within a time range, filtered by document template types. The document appointments belong to the person specified.
 
-* **personId:** The person id of the SuperOffice user (associate).
-* **includeProjectDocuments:** If true, all appointments that belong to projects where the user is a project member are included as well as the appointments belonging to the person.
-* **startTime:** The start of the time interval we want appointments from. This will usually be the current time.
-* **endTime:** The end of the time interval.
-* **count:** The maximum number of appointments that should be returned. -1 means no count restrictions.
-* **documentTemplateIds:** Ids of the document template types to filter on.
 
-**Returns:** Array of Appointments.
+
 
 [WSDL file for Services86/Document](../Services86-Document.md)
 
@@ -48,8 +41,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Document:GetPersonDocumentsByTemplateTypes>
     <Document:PersonId xsi:type="xsd:int">0</Document:PersonId>
     <Document:IncludeProjectDocuments xsi:type="xsd:boolean">false</Document:IncludeProjectDocuments>
-    <Document:StartTime xsi:type="xsd:dateTime">2022-08-26T08:54:46Z</Document:StartTime>
-    <Document:EndTime xsi:type="xsd:dateTime">2022-08-26T08:54:46Z</Document:EndTime>
+    <Document:StartTime xsi:type="xsd:dateTime">2023-02-15T13:13:07Z</Document:StartTime>
+    <Document:EndTime xsi:type="xsd:dateTime">2023-02-15T13:13:07Z</Document:EndTime>
     <Document:Count xsi:type="xsd:int">0</Document:Count>
     <Document:DocumentTemplateIds xsi:type="NetServerServices862:ArrayOfint">
      <NetServerServices862:int xsi:type="xsd:int">0</NetServerServices862:int>
@@ -60,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetPersonDocumentsByTemplateTypes Response
 
@@ -101,3 +95,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

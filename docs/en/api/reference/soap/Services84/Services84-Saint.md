@@ -651,83 +651,47 @@ title: Services84.SaintAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Saint">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Saint</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultStatusMonitor">
-      <wsdl:documentation>
-        <summary>Loading default values into a new StatusMonitor.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Saint/CreateDefaultStatusMonitor" name="CreateDefaultStatusMonitorRequest" message="tns:CreateDefaultStatusMonitorRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Saint/CreateDefaultStatusMonitorResponse" name="CreateDefaultStatusMonitorResponse" message="tns:CreateDefaultStatusMonitorResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveStatusMonitor">
-      <wsdl:documentation>
-        <summary>Updates the existing StatusMonitor or creates a new StatusMonitor if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Saint/SaveStatusMonitor" name="SaveStatusMonitorRequest" message="tns:SaveStatusMonitorRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Saint/SaveStatusMonitorResponse" name="SaveStatusMonitorResponse" message="tns:SaveStatusMonitorResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultStatusMonitorPeriods">
-      <wsdl:documentation>
-        <summary>Loading default values into a new StatusMonitorPeriods.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Saint/CreateDefaultStatusMonitorPeriods" name="CreateDefaultStatusMonitorPeriodsRequest" message="tns:CreateDefaultStatusMonitorPeriodsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Saint/CreateDefaultStatusMonitorPeriodsResponse" name="CreateDefaultStatusMonitorPeriodsResponse" message="tns:CreateDefaultStatusMonitorPeriodsResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveStatusMonitorPeriods">
-      <wsdl:documentation>
-        <summary>Updates the existing StatusMonitorPeriods or creates a new StatusMonitorPeriods if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Saint/SaveStatusMonitorPeriods" name="SaveStatusMonitorPeriodsRequest" message="tns:SaveStatusMonitorPeriodsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Saint/SaveStatusMonitorPeriodsResponse" name="SaveStatusMonitorPeriodsResponse" message="tns:SaveStatusMonitorPeriodsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetStatusMonitors">
-      <wsdl:documentation>
-        <summary>Get all active status monitors for a specified target</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Saint/GetStatusMonitors" name="GetStatusMonitorsRequest" message="tns:GetStatusMonitorsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Saint/GetStatusMonitorsResponse" name="GetStatusMonitorsResponse" message="tns:GetStatusMonitorsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetStatusMonitor">
-      <wsdl:documentation>
-        <summary>Get a single status monitor based on its identity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Saint/GetStatusMonitor" name="GetStatusMonitorRequest" message="tns:GetStatusMonitorRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Saint/GetStatusMonitorResponse" name="GetStatusMonitorResponse" message="tns:GetStatusMonitorResponse" />
     </wsdl:operation>
     <wsdl:operation name="RegenerateStatusMonitors">
-      <wsdl:documentation>
-        <summary>Regenerate status monitors</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Saint/RegenerateStatusMonitors" name="RegenerateStatusMonitorsRequest" message="tns:RegenerateStatusMonitorsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Saint/RegenerateStatusMonitorsResponse" name="RegenerateStatusMonitorsResponse" message="tns:RegenerateStatusMonitorsResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetRankOnStatusMonitors">
-      <wsdl:documentation>
-        <summary>Set rank order on status monitors</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Saint/SetRankOnStatusMonitors" name="SetRankOnStatusMonitorsRequest" message="tns:SetRankOnStatusMonitorsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Saint/SetRankOnStatusMonitorsResponse" name="SetRankOnStatusMonitorsResponse" message="tns:SetRankOnStatusMonitorsResponse" />
     </wsdl:operation>
     <wsdl:operation name="RegenerateStatusMonitor">
-      <wsdl:documentation>
-        <summary>Regenerate the given status monitor</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Saint/RegenerateStatusMonitor" name="RegenerateStatusMonitorRequest" message="tns:RegenerateStatusMonitorRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Saint/RegenerateStatusMonitorResponse" name="RegenerateStatusMonitorResponse" message="tns:RegenerateStatusMonitorResponse" />
     </wsdl:operation>
     <wsdl:operation name="RegenerateCounters">
-      <wsdl:documentation>
-        <summary>Regenerate the Saint counters - this can take several minutes</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Saint/RegenerateCounters" name="RegenerateCountersRequest" message="tns:RegenerateCountersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Saint/RegenerateCountersResponse" name="RegenerateCountersResponse" message="tns:RegenerateCountersResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetStatusMonitorPeriods">
-      <wsdl:documentation>
-        <summary>Returns the StatusMonitorPeriods entity.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Saint/GetStatusMonitorPeriods" name="GetStatusMonitorPeriodsRequest" message="tns:GetStatusMonitorPeriodsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Saint/GetStatusMonitorPeriodsResponse" name="GetStatusMonitorPeriodsResponse" message="tns:GetStatusMonitorPeriodsResponse" />
     </wsdl:operation>
@@ -918,3 +882,4 @@ title: Services84.SaintAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

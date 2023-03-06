@@ -82,9 +82,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "non",
-    "Type": "aut",
-    "Description": "Extended even-keeled framework",
+    "DisplayType": "atque",
+    "Type": "saepe",
+    "Description": "Focused tangible analyzer",
     "ValueControl": "Edit",
     "CanCreatePerson": true,
     "IsUserNameSupported": false,
@@ -92,8 +92,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 788
+        "FieldType": "System.String",
+        "FieldLength": 590
       }
     }
   }

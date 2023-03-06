@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,45 +78,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 309,
-  "MessageId": "qui",
-  "Subject": "iure",
+  "ServerId": 643,
+  "MessageId": "molestias",
+  "Subject": "earum",
   "From": null,
   "To": [
     {
-      "ContactId": 556,
-      "ContactName": "Fahey Inc and Sons",
-      "PersonId": 80,
-      "PersonName": "Jacobi, McKenzie and Ernser",
-      "AssociateId": 610,
-      "Address": "est",
-      "EmailId": 897,
+      "ContactId": 209,
+      "ContactName": "Ullrich Group",
+      "PersonId": 763,
+      "PersonName": "Sporer-Smith",
+      "AssociateId": 459,
+      "Address": "soluta",
+      "EmailId": 41,
       "DuplicatePersonIds": [
-        571,
-        49
+        613,
+        350
       ],
-      "Name": "Mosciski-Turner",
+      "Name": "Kunze, Medhurst and Wilderman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 243
+          "FieldType": "System.Int32",
+          "FieldLength": 666
         }
       }
     }
   ],
-  "Sent": "2005-06-15T17:37:17.9192408+02:00",
+  "Sent": "2005-01-06T14:19:03.4196462+01:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 749,
+  "Size": 739,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 318
+      "FieldLength": 330
     }
   }
 }

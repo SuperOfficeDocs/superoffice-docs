@@ -63,22 +63,22 @@ No Content
 POST /api/v1/Agents/Selection/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Wunsch-Konopelski",
-      "DisplayName": "Carter LLC",
-      "DisplayTooltip": "et",
-      "IsActive": false
+      "Name": "Dare Inc and Sons",
+      "DisplayName": "Considine LLC",
+      "DisplayTooltip": "nobis",
+      "IsActive": true
     },
     {
-      "Name": "Wunsch-Konopelski",
-      "DisplayName": "Carter LLC",
-      "DisplayTooltip": "et",
-      "IsActive": false
+      "Name": "Dare Inc and Sons",
+      "DisplayName": "Considine LLC",
+      "DisplayTooltip": "nobis",
+      "IsActive": true
     }
   ]
 }

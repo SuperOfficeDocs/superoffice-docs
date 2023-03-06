@@ -79,31 +79,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 757,
-    "Name": "Padberg, Murazik and Hilll",
-    "TZLocationCode": "aspernatur",
-    "TZLocationCities": "hic",
-    "IsoNumber": 166,
+    "TZLocationID": 931,
+    "Name": "Kshlerin-Feeney",
+    "TZLocationCode": "et",
+    "TZLocationCities": "accusamus",
+    "IsoNumber": 524,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 378,
-        "StartMonth": 909,
-        "EndDay": 906,
-        "EndMonth": 971,
-        "TZOffset": 495,
-        "StartRulePattern": "sit",
-        "EndRulePattern": "itaque"
+        "StartDay": 718,
+        "StartMonth": 373,
+        "EndDay": 224,
+        "EndMonth": 333,
+        "TZOffset": 492,
+        "StartRulePattern": "odio",
+        "EndRulePattern": "rerum"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 477,
-        "StartMonth": 689,
-        "EndDay": 826,
-        "EndMonth": 189,
-        "TZOffset": 206,
-        "StartRulePattern": "magnam",
-        "EndRulePattern": "esse"
+        "StartDay": 374,
+        "StartMonth": 963,
+        "EndDay": 811,
+        "EndMonth": 939,
+        "TZOffset": 192,
+        "StartRulePattern": "vero",
+        "EndRulePattern": "voluptatem"
       }
     }
   }

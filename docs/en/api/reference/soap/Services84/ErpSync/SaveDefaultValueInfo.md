@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.SaveDefault
 
 ## SaveDefaultValueInfo
 
-Save information about a default value for an ERP field
 
-* **erpSyncDefaultValue:** The id of the ERPfield to save
 
-**Returns:** The newly saved ErpSyncDefaultValue
+
 
 [WSDL file for Services84/ErpSync](../Services84-ErpSync.md)
 
@@ -60,6 +58,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveDefaultValueInfo Response
 
 ```xml
@@ -91,3 +90,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

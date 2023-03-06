@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 892,
-    "Name": "Huel Inc and Sons",
-    "ToolTip": "Vel voluptate.",
-    "Deleted": true,
-    "Rank": 336,
-    "Type": "optio",
-    "ColorBlock": 24,
-    "IconHint": "reiciendis",
-    "Selected": false,
-    "LastChanged": "2019-04-07T17:37:40.0965012+02:00",
+    "Id": 544,
+    "Name": "Keebler Group",
+    "ToolTip": "Aut tenetur dolor harum.",
+    "Deleted": false,
+    "Rank": 38,
+    "Type": "dolor",
+    "ColorBlock": 103,
+    "IconHint": "reprehenderit",
+    "Selected": true,
+    "LastChanged": "2005-10-18T14:19:11.3211603+02:00",
     "ChildItems": [
       {
-        "Id": 881,
-        "Name": "Tremblay Inc and Sons",
-        "ToolTip": "Fugiat ut eligendi quas adipisci vero.",
-        "Deleted": false,
-        "Rank": 229,
-        "Type": "omnis",
-        "ColorBlock": 281,
-        "IconHint": "dolorum",
-        "Selected": true,
-        "LastChanged": "2007-03-03T17:37:40.0965012+01:00",
+        "Id": 899,
+        "Name": "Towne-Christiansen",
+        "ToolTip": "Quidem voluptatem suscipit corporis est ea qui.",
+        "Deleted": true,
+        "Rank": 239,
+        "Type": "occaecati",
+        "ColorBlock": 850,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "1999-05-18T14:19:11.3211603+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "dolor",
+        "ExtraInfo": "est",
+        "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Emery Stoltenberg",
+        "FullName": "Ansel Wisozk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 432
+            "FieldLength": 155
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "quibusdam",
-    "Hidden": true,
-    "FullName": "Hortense Krajcik",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "incidunt",
+    "Hidden": false,
+    "FullName": "Opal Hudson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 163
+        "FieldType": "System.Int32",
+        "FieldLength": 3
       }
     }
   }

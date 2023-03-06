@@ -51,7 +51,7 @@ OK
 POST /api/v1/Sale/UdefLayout/Publish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -60,5 +60,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-333
+582
 ```

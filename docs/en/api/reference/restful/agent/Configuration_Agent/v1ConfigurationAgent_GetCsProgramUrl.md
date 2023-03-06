@@ -70,14 +70,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCsProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "eaque",
-  "ProgramName": "Moen Group",
-  "Action": "omnis",
-  "ExtraParameters": "eaque"
+  "Language": "quia",
+  "ProgramName": "Wolf, Krajcik and Reinger",
+  "Action": "ex",
+  "ExtraParameters": "exercitationem"
 }
 ```
 

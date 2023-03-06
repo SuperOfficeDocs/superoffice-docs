@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Kertzmann-Fadel",
-  "DeviceName": "Boehm LLC",
-  "DeviceIdentifier": "eligendi"
+  "ApplicationName": "Deckow, Kemmer and Swaniawski",
+  "DeviceName": "Haag-Beatty",
+  "DeviceIdentifier": "dolor"
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quia",
-  "Value": "porro",
-  "RecordId": 462,
-  "CreatedDate": "2002-02-04T17:37:18.1082417+01:00",
-  "UpdatedDate": "2016-04-09T17:37:18.1082417+02:00",
-  "UpdatedBy": "vitae",
-  "CreatedBy": "illum",
-  "TableName": "Wilderman, McCullough and Mitchell",
+  "Key": "error",
+  "Value": "soluta",
+  "RecordId": 967,
+  "CreatedDate": "2009-02-22T14:19:03.5602728+01:00",
+  "UpdatedDate": "2013-02-25T14:19:03.5602728+01:00",
+  "UpdatedBy": "necessitatibus",
+  "CreatedBy": "perferendis",
+  "TableName": "Beatty LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 736
+      "FieldType": "System.Int32",
+      "FieldLength": 507
     }
   }
 }

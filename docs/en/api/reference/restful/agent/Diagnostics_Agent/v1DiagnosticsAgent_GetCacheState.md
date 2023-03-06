@@ -74,8 +74,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Brown, Ernser and Crooks",
-    "Torphy LLC"
+    "Macejkovic, Brown and Bergstrom",
+    "Weimann-Schaefer"
   ]
 }
 ```
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"porro"
+"aut"
 ```

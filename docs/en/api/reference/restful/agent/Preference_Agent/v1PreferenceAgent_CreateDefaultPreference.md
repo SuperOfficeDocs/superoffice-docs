@@ -77,22 +77,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "sint",
+  "RawValue": "consequuntur",
   "Specification": null,
-  "DisplayValue": "doloremque",
-  "DisplayTooltip": "nisi",
+  "DisplayValue": "consequatur",
+  "DisplayTooltip": "neque",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 325,
-  "PrefDescId": 58,
-  "TableName": "Toy, O'Kon and Wehner",
-  "UserPreferenceId": 892,
+  "TargetId": 703,
+  "PrefDescId": 532,
+  "TableName": "Wiza-Lowe",
+  "UserPreferenceId": 505,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 812
+      "FieldType": "System.String",
+      "FieldLength": 544
     }
   }
 }

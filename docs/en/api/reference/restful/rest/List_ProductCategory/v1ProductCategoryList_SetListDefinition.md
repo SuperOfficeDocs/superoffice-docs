@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 225,
-  "Name": "Rodriguez, Reilly and Cronin",
-  "Tooltip": "possimus",
+  "Id": 47,
+  "Name": "Leuschke Group",
+  "Tooltip": "vitae",
   "Deleted": false,
-  "Rank": 998,
-  "IsCustomList": true,
+  "Rank": 311,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "UseGroupsAndHeadings": true,
+  "ListType": "amet",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 662,
-  "Name": "Adams Group",
-  "Tooltip": "numquam",
-  "Deleted": false,
-  "Rank": 979,
+  "Id": 238,
+  "Name": "Cummings-Gutkowski",
+  "Tooltip": "quis",
+  "Deleted": true,
+  "Rank": 267,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "exercitationem",
+  "UseGroupsAndHeadings": false,
+  "ListType": "recusandae",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 194
+      "FieldType": "System.Int32",
+      "FieldLength": 447
     }
   }
 }

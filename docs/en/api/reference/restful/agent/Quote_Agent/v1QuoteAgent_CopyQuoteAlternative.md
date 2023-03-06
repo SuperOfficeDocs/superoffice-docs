@@ -96,13 +96,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 448,
-  "QuoteAlternativeId": 981,
-  "QuoteAlternativeName": "Bahringer, Armstrong and Rau"
+  "QuoteVersionId": 644,
+  "QuoteAlternativeId": 475,
+  "QuoteAlternativeName": "Shanahan Group"
 }
 ```
 
@@ -113,35 +113,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 415,
-  "ERPQuoteAlternativeKey": "laborum",
-  "QuoteVersionId": 667,
-  "Name": "Kreiger LLC",
-  "Description": "De-engineered bandwidth-monitored customer loyalty",
+  "QuoteAlternativeId": 812,
+  "ERPQuoteAlternativeKey": "nostrum",
+  "QuoteVersionId": 459,
+  "Name": "Legros-Tillman",
+  "Description": "Compatible client-driven circuit",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 27798.579999999998,
-  "ERPDiscountAmount": 20361.597999999998,
-  "DiscountPercent": 1062.426,
-  "DiscountAmount": 6095.63,
+  "ERPDiscountPercent": 401.152,
+  "ERPDiscountAmount": 17760.378,
+  "DiscountPercent": 15989.668,
+  "DiscountAmount": 29697.784,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "dolor",
-  "VAT": 21555.652,
-  "EarningPercent": 24442.066,
-  "EarningAmount": 6844.656,
-  "SubTotal": 5061.41,
-  "TotalPrice": 20856.77,
-  "ExtraField1": "impedit",
-  "ExtraField2": "quibusdam",
-  "ExtraField3": "cupiditate",
-  "ExtraField4": "voluptatum",
-  "ExtraField5": "sit",
+  "VATInfo": "ipsum",
+  "VAT": 6421.566,
+  "EarningPercent": 3177.8759999999997,
+  "EarningAmount": 12285.279999999999,
+  "SubTotal": 3550.8219999999997,
+  "TotalPrice": 5744.6219999999994,
+  "ExtraField1": "occaecati",
+  "ExtraField2": "nobis",
+  "ExtraField3": "saepe",
+  "ExtraField4": "omnis",
+  "ExtraField5": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldType": "System.String",
+      "FieldLength": 470
     }
   }
 }

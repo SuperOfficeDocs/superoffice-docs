@@ -11,15 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.GetErpField
 
 ## GetErpFieldValues
 
-Get the values for the specified fields from the ERP connection
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
-* **erpConnectionId:** The id of the connection
-* **crmActorType:** The type of the CRM entity
-* **entityId:** The id of the entity
-* **fieldKeys:** The fields for which you want to get the values
 
-**Returns:** An array containing the values for the specified fields, in the same order
+
 
 [WSDL file for Services86/ErpSync](../Services86-ErpSync.md)
 
@@ -58,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetErpFieldValues Response
 
 ```xml
@@ -80,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

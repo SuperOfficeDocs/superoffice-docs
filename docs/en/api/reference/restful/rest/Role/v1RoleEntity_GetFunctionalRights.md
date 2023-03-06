@@ -77,7 +77,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,56 +88,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 169,
-    "Name": "Jaskolski, Daugherty and Pacocha",
-    "ToolTip": "Mollitia nesciunt error suscipit enim laborum non.",
-    "Deleted": false,
-    "Rank": 28,
-    "Type": "ipsa",
-    "ColorBlock": 113,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "1999-08-22T17:37:39.0593033+02:00",
+    "Id": 270,
+    "Name": "Koepp, Baumbach and Gleason",
+    "ToolTip": "Dolor sequi quam vel blanditiis est voluptatum.",
+    "Deleted": true,
+    "Rank": 229,
+    "Type": "error",
+    "ColorBlock": 529,
+    "IconHint": "iste",
+    "Selected": false,
+    "LastChanged": "2017-10-22T14:19:10.6623446+02:00",
     "ChildItems": [
       {
-        "Id": 541,
-        "Name": "Wiegand, Weber and Toy",
-        "ToolTip": "In dolor tempora ad quaerat.",
-        "Deleted": true,
-        "Rank": 620,
-        "Type": "molestias",
-        "ColorBlock": 619,
-        "IconHint": "quasi",
+        "Id": 336,
+        "Name": "Schmitt-Rempel",
+        "ToolTip": "Iure consequatur quia est voluptatem sit doloremque.",
+        "Deleted": false,
+        "Rank": 849,
+        "Type": "earum",
+        "ColorBlock": 929,
+        "IconHint": "provident",
         "Selected": true,
-        "LastChanged": "2014-02-28T17:37:39.0603037+01:00",
+        "LastChanged": "2017-06-09T14:19:10.6623446+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "quo",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "numquam",
         "Hidden": false,
-        "FullName": "Prof. Winona Anderson",
+        "FullName": "Leon Grimes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 232
+            "FieldType": "System.Int32",
+            "FieldLength": 990
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "amet",
+    "ExtraInfo": "quia",
+    "StyleHint": "excepturi",
     "Hidden": true,
-    "FullName": "Dr. Jammie Tobin Bailey II",
+    "FullName": "Opal Bailey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 345
+        "FieldLength": 542
       }
     }
   }

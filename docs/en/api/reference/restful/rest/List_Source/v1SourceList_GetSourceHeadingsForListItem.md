@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 350,
-    "Name": "Walker Group",
-    "ToolTip": "Qui voluptates enim quidem omnis voluptates molestiae aliquam.",
+    "Id": 33,
+    "Name": "Strosin, Streich and Wuckert",
+    "ToolTip": "Quos mollitia earum rem.",
     "Deleted": false,
-    "Rank": 61,
-    "Type": "doloremque",
-    "ColorBlock": 21,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "1995-11-22T17:37:40.3765012+01:00",
+    "Rank": 715,
+    "Type": "molestias",
+    "ColorBlock": 904,
+    "IconHint": "labore",
+    "Selected": false,
+    "LastChanged": "1995-12-18T14:19:11.6276984+01:00",
     "ChildItems": [
       {
-        "Id": 220,
-        "Name": "Wilkinson LLC",
-        "ToolTip": "Voluptatum omnis rerum dolorem voluptatem assumenda dolor.",
+        "Id": 822,
+        "Name": "Lehner-Leuschke",
+        "ToolTip": "Dicta in exercitationem qui ea omnis animi et.",
         "Deleted": false,
-        "Rank": 244,
-        "Type": "aut",
-        "ColorBlock": 807,
-        "IconHint": "illum",
+        "Rank": 858,
+        "Type": "aliquam",
+        "ColorBlock": 201,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "1997-11-26T17:37:40.3765012+01:00",
+        "LastChanged": "2004-04-30T14:19:11.6276984+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "quam",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "distinctio",
         "Hidden": false,
-        "FullName": "Myles Dicki",
+        "FullName": "Tina Konopelski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 276
+            "FieldLength": 619
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "neque",
-    "Hidden": false,
-    "FullName": "Jocelyn Tremblay",
+    "ExtraInfo": "et",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Jared Ward",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 626
+        "FieldLength": 29
       }
     }
   }

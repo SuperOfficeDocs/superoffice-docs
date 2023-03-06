@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserDefinedFieldInfoAgen
 
 ## GetUserDefinedPageOneFields
 
-Get a list of page one fields for given Udef type and current user group
 
-* **ownerType:** The user-defined field owner-entity.
-* **userGroupId:** Id of UserGroup
 
-**Returns:** Returns an array of page one user-defined field info carriers.
+
 
 [WSDL file for Services85/UserDefinedFieldInfo](../Services85-UserDefinedFieldInfo.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetUserDefinedPageOneFields Response
 
@@ -107,3 +105,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

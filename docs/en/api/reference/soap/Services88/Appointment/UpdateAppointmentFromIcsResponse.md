@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IAppointmentAgent.UpdateA
 
 ## UpdateAppointmentFromIcsResponse
 
-Update the attendance to an appointment based on incoming ICS RSVPs.
 
-* **emailAddress:** The email-address of the person responding to our meeting-request.
-* **icsData:** The iCal ICS RSVP-content in byte-form.
 
-**Returns:** True if successfull.
+
 
 [WSDL file for Services88/Appointment](../Services88-Appointment.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## UpdateAppointmentFromIcsResponse Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IConfigurationAgent.GetRe
 
 ## GetRefreshedPageConfiguration
 
-Get the configuration for one whole web page, including all its panels etc.  totally asynchronous items like menus are not included, but all references are resolved and all special processing is applied. Does not use cache for fetching, but updates the cache with refreshed configuration.
 
-* **application:** The application name, for instance 'SixWeb
-* **instance:** The instance name for the application, like 'MainInstance'
-* **page:** Page name, must correspond to one of the pages in the Application Configuration
 
-**Returns:** XML containing the configuration for the given page, from the page down to the control level.
+
 
 [WSDL file for Services87/Configuration](../Services87-Configuration.md)
 
@@ -53,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetRefreshedPageConfiguration Response
 
 ```xml
@@ -73,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

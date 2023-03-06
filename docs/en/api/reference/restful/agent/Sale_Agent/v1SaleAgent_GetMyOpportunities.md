@@ -100,7 +100,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 819
+  "Count": 541
 }
 ```
 
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Bergnaum Inc and Sons",
-    "SaleDate": "2020-11-14T17:37:18.8852419+01:00",
-    "SaleId": 386,
-    "Probability": 821,
-    "Title": "aperiam",
-    "Amount": 13961.97,
-    "Currency": "et",
-    "ProjectName": "Vandervort Group",
-    "AssociateFullName": "Cecile Bartoletti",
-    "Description": "Grass-roots zero defect data-warehouse",
+    "ContactName": "Mitchell-Howe",
+    "SaleDate": "2017-03-31T14:19:04.1410858+02:00",
+    "SaleId": 993,
+    "Probability": 407,
+    "Title": "repudiandae",
+    "Amount": 22292.142,
+    "Currency": "veritatis",
+    "ProjectName": "Lueilwitz Inc and Sons",
+    "AssociateFullName": "Ms. Jaycee Howell III",
+    "Description": "Exclusive client-driven extranet",
     "Status": "Lost",
-    "WeightedAmount": 22533.46,
-    "ProjectId": 657,
-    "EarningPercent": 27641.879999999997,
-    "Earning": 11157.039999999999,
-    "ContactId": 739,
-    "AssociateId": 134,
-    "PersonId": 519,
-    "SaleTypeId": 76,
-    "SaleTypeName": "Weissnat LLC",
-    "PersonFullName": "Mrs. Bailee Cristobal Rodriguez",
+    "WeightedAmount": 17158.649999999998,
+    "ProjectId": 254,
+    "EarningPercent": 13300.696,
+    "Earning": 3322.04,
+    "ContactId": 354,
+    "AssociateId": 275,
+    "PersonId": 161,
+    "SaleTypeId": 900,
+    "SaleTypeName": "Padberg, Russel and Boyer",
+    "PersonFullName": "Paolo Pagac Sr.",
     "Completed": "Completed",
-    "ActiveErpLinks": 872,
-    "NextDueDate": "2015-02-02T17:37:18.8852419+01:00",
-    "Number": "590807",
+    "ActiveErpLinks": 68,
+    "NextDueDate": "2016-11-23T14:19:04.1410858+01:00",
+    "Number": "878090",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 659
+        "FieldType": "System.Int32",
+        "FieldLength": 642
       }
     }
   }

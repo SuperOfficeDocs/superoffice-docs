@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 1000,
-  "Name": "Abshire, Rice and Kris",
-  "Tooltip": "ipsum",
+  "Id": 363,
+  "Name": "Borer LLC",
+  "Tooltip": "hic",
   "Deleted": false,
-  "UdListDefinitionId": 335,
-  "Rank": 523
+  "UdListDefinitionId": 163,
+  "Rank": 614
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 488,
-  "Name": "Vandervort-Mitchell",
-  "Tooltip": "vero",
-  "Deleted": true,
-  "UdListDefinitionId": 615,
-  "Rank": 487,
+  "Id": 379,
+  "Name": "Reinger Group",
+  "Tooltip": "blanditiis",
+  "Deleted": false,
+  "UdListDefinitionId": 11,
+  "Rank": 615,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 772
+      "FieldLength": 320
     }
   }
 }

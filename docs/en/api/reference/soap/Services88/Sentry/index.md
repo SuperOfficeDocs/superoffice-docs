@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/Sentr
 
 Handled by the <see cref="T:SuperOffice.Services88.ISentryAgent">SuperOffice.Services88.ISentryAgent</see> interface.
 
-Interface for the Sentry Agent
-Data and function right queries
+
 
 Download [WSDL file for Services88/Sentry](../Services88-Sentry.md) if you need to generate your own proxy code.
 
@@ -22,3 +21,4 @@ Download [WSDL file for Services88/Sentry](../Services88-Sentry.md) if you need 
 * [GetTableRightByContactOwnership](GetTableRightByContactOwnership.md)
 * [GetTableRightByOwnership](GetTableRightByOwnership.md)
 * [HasFunctionRight](HasFunctionRight.md)
+

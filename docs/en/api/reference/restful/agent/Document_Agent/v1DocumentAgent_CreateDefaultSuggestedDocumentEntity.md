@@ -76,13 +76,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 89,
-  "Name": "Ratke-Kemmer",
-  "Tooltip": "incidunt",
-  "Rank": 908,
-  "DoctmplId": 100,
-  "Header": "minus",
-  "OurRef": "culpa",
+  "SuggestedDocumentId": 890,
+  "Name": "Rogahn, Orn and Brakus",
+  "Tooltip": "exercitationem",
+  "Rank": 478,
+  "DoctmplId": 157,
+  "Header": "impedit",
+  "OurRef": "nemo",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 967
+      "FieldType": "System.Int32",
+      "FieldLength": 10
     }
   }
 }

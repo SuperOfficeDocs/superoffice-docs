@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.SetListItemsFo
 
 ## SetListItemsForUserGroup
 
-Update listItems that will be visible for this usergroup
 
-* **udListDefinitionId:** The id of the list. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
-* **usergroupId:** The id of the userGroup
-* **listItemIds:** The id of the list items.
-* **enable:** True to enable, false to disable
+
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -55,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetListItemsForUserGroup Response
 
 ```xml
@@ -74,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

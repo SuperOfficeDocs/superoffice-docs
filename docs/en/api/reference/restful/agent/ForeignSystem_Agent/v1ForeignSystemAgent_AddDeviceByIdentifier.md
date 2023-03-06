@@ -86,9 +86,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Lebsack, Kris and Goodwin",
-  "DeviceName": "Johns-Klein",
-  "DeviceIdentifier": "assumenda"
+  "ApplicationName": "Mante, Ferry and McLaughlin",
+  "DeviceName": "Bins Inc and Sons",
+  "DeviceIdentifier": "laboriosam"
 }
 ```
 
@@ -99,21 +99,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 215,
-  "Name": "Mayer LLC",
-  "CreatedDate": "2007-07-07T17:37:18.1022436+02:00",
-  "UpdatedDate": "2016-04-20T17:37:18.1022436+02:00",
-  "AssociateFullName": "Wilhelmine Rutherford DVM",
-  "CreatedBy": "nam",
-  "UpdatedBy": "impedit",
-  "DeviceIdentifier": "voluptate",
-  "ForeignAppId": 626,
+  "ForeignDeviceId": 976,
+  "Name": "Shields LLC",
+  "CreatedDate": "2001-04-01T14:19:03.5602728+02:00",
+  "UpdatedDate": "2006-04-05T14:19:03.5602728+02:00",
+  "AssociateFullName": "Reta Dare",
+  "CreatedBy": "odio",
+  "UpdatedBy": "aut",
+  "DeviceIdentifier": "ad",
+  "ForeignAppId": 573,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldLength": 751
     }
   }
 }

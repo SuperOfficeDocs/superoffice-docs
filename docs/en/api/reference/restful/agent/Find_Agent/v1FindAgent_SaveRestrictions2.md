@@ -70,10 +70,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "necessitatibus",
-  "ProviderName": "Kuhic-Abshire",
-  "StorageKey": "aspernatur",
-  "Restrictions": "rerum"
+  "StorageType": "praesentium",
+  "ProviderName": "Larkin LLC",
+  "StorageKey": "et",
+  "Restrictions": "ad"
 }
 ```
 

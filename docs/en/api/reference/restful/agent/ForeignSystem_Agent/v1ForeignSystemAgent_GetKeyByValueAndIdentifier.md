@@ -88,12 +88,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Emard-Strosin",
-  "DeviceName": "Jacobi-Heaney",
-  "DeviceIdentifier": "ab",
-  "KeyName": "Kohler Group",
-  "KeyValue": "explicabo",
-  "TableName": "Moen Inc and Sons"
+  "ApplicationName": "Connelly, Weber and Cassin",
+  "DeviceName": "Veum, Koepp and Stokes",
+  "DeviceIdentifier": "quibusdam",
+  "KeyName": "Brakus Group",
+  "KeyValue": "deleniti",
+  "TableName": "Schmitt-Corwin"
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "amet",
-  "Value": "est",
-  "RecordId": 300,
-  "CreatedDate": "1999-11-19T17:37:18.1102411+01:00",
-  "UpdatedDate": "2018-04-19T17:37:18.1102411+02:00",
-  "UpdatedBy": "deleniti",
-  "CreatedBy": "cupiditate",
-  "TableName": "Feeney-Collins",
+  "Key": "vel",
+  "Value": "molestiae",
+  "RecordId": 364,
+  "CreatedDate": "2014-03-04T14:19:03.5602728+01:00",
+  "UpdatedDate": "2007-07-02T14:19:03.5602728+02:00",
+  "UpdatedBy": "sint",
+  "CreatedBy": "eos",
+  "TableName": "Trantow, Runolfsson and Gleichner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldLength": 876
     }
   }
 }

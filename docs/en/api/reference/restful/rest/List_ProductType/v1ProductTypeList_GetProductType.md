@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 284,
-  "Name": "Christiansen-Ritchie",
-  "Tooltip": "aliquam",
+  "Id": 330,
+  "Name": "Prohaska Inc and Sons",
+  "Tooltip": "occaecati",
   "Deleted": false,
-  "UdListDefinitionId": 501,
-  "Rank": 55,
+  "UdListDefinitionId": 571,
+  "Rank": 487,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldType": "System.String",
+      "FieldLength": 188
     }
   }
 }

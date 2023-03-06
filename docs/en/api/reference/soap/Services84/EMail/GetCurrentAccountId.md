@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IEMailAgent.GetCurrentAcc
 
 ## GetCurrentAccountId
 
-Get current accountId (last logged into should normally be current) for logged in associate
 
-**Returns:** Id of current account
+
+
 
 [WSDL file for Services84/EMail](../Services84-EMail.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetCurrentAccountId Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

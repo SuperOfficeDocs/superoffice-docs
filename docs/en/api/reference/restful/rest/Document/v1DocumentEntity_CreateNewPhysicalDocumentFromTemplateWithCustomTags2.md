@@ -36,13 +36,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=987
-POST /api/v1/Document/{documentId}/Content?personId=611
-POST /api/v1/Document/{documentId}/Content?appointmentId=466
-POST /api/v1/Document/{documentId}/Content?saleId=653
-POST /api/v1/Document/{documentId}/Content?selectionId=563
-POST /api/v1/Document/{documentId}/Content?projectId=395
-POST /api/v1/Document/{documentId}/Content?uiCulture=rerum
+POST /api/v1/Document/{documentId}/Content?contactId=357
+POST /api/v1/Document/{documentId}/Content?personId=529
+POST /api/v1/Document/{documentId}/Content?appointmentId=628
+POST /api/v1/Document/{documentId}/Content?saleId=618
+POST /api/v1/Document/{documentId}/Content?selectionId=296
+POST /api/v1/Document/{documentId}/Content?projectId=981
+POST /api/v1/Document/{documentId}/Content?uiCulture=debitis
 ```
 
 
@@ -120,7 +120,7 @@ OK
 POST /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -130,88 +130,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 505,
+  "DocumentId": 464,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "modi",
-  "Header": "mollitia",
-  "Name": "Bins Inc and Sons",
-  "OurRef": "voluptas",
-  "YourRef": "quisquam",
-  "CreatedDate": "2008-05-16T17:37:38.5838301+02:00",
-  "UpdatedDate": "2019-03-26T17:37:38.5838301+01:00",
-  "Description": "Implemented contextually-based frame",
+  "Attention": "et",
+  "Header": "veniam",
+  "Name": "Beer-Olson",
+  "OurRef": "asperiores",
+  "YourRef": "velit",
+  "CreatedDate": "2015-10-14T14:19:10.3185986+02:00",
+  "UpdatedDate": "2003-09-30T14:19:10.3185986+02:00",
+  "Description": "Switchable fresh-thinking internet solution",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2020-06-08T17:37:38.5868623+02:00",
-  "ExternalRef": "perferendis",
+  "Date": "1996-11-08T14:19:10.3185986+01:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 707,
+  "ActiveLinks": 188,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kihn, Blanda and Aufderhar",
-      "Id": 222,
-      "Description": "Devolved secondary strategy",
-      "ExtraInfo": "cum",
-      "LinkId": 597,
+      "EntityName": "Osinski-O'Hara",
+      "Id": 381,
+      "Description": "Realigned explicit orchestration",
+      "ExtraInfo": "similique",
+      "LinkId": 498,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 854
+          "FieldType": "System.Int32",
+          "FieldLength": 585
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 511,
-  "Snum": 294,
+  "SuggestedDocumentId": 196,
+  "Snum": 326,
   "UserDefinedFields": {
-    "SuperOffice:1": "869007175",
-    "SuperOffice:2": "1458844064"
+    "SuperOffice:1": "517033966",
+    "SuperOffice:2": "335483577"
   },
   "ExtraFields": {
-    "ExtraFields1": "odio",
-    "ExtraFields2": "exercitationem"
+    "ExtraFields1": "pariatur",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "minus",
-    "CustomFields2": "id"
+    "CustomFields1": "sit",
+    "CustomFields2": "repudiandae"
   },
-  "PublishEventDate": "2017-03-20T17:37:38.5878595+01:00",
-  "PublishTo": "2008-10-04T17:37:38.5878595+02:00",
-  "PublishFrom": "2008-12-13T17:37:38.5878595+01:00",
+  "PublishEventDate": "2017-07-02T14:19:10.3185986+02:00",
+  "PublishTo": "1998-09-15T14:19:10.3185986+02:00",
+  "PublishFrom": "2018-09-18T14:19:10.3185986+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 503,
+      "VisibleId": 51,
       "Visibility": "All",
-      "DisplayValue": "ullam",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 373
+          "FieldType": "System.String",
+          "FieldLength": 652
         }
       }
     },
     {
-      "VisibleId": 503,
+      "VisibleId": 51,
       "Visibility": "All",
-      "DisplayValue": "ullam",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 373
+          "FieldType": "System.String",
+          "FieldLength": 652
         }
       }
     }
@@ -220,8 +220,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 776
+      "FieldType": "System.Int32",
+      "FieldLength": 311
     }
   }
 }

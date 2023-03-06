@@ -88,21 +88,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 735,
-  "Name": "Hackett, McDermott and Corkery",
-  "Tooltip": "non",
-  "Rank": 118,
+  "SuggestedAppointmentId": 540,
+  "Name": "Ortiz Inc and Sons",
+  "Tooltip": "in",
+  "Rank": 822,
   "Deleted": false,
-  "DaysFuture": 263,
-  "Duration": "harum",
-  "AutoSuggest": true,
-  "IsMilestone": false,
-  "AssignToMember": true,
-  "Text": "ut",
+  "DaysFuture": 158,
+  "Duration": "et",
+  "AutoSuggest": false,
+  "IsMilestone": true,
+  "AssignToMember": false,
+  "Text": "dolor",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -116,17 +116,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 901,
-  "Name": "Donnelly, Dicki and Kris",
-  "Tooltip": "facilis",
-  "Rank": 678,
+  "SuggestedAppointmentId": 254,
+  "Name": "Marvin, Ziemann and Vandervort",
+  "Tooltip": "cupiditate",
+  "Rank": 634,
   "Deleted": false,
-  "DaysFuture": 819,
-  "Duration": "rerum",
-  "AutoSuggest": true,
+  "DaysFuture": 183,
+  "Duration": "voluptatibus",
+  "AutoSuggest": false,
   "IsMilestone": true,
   "AssignToMember": false,
-  "Text": "harum",
+  "Text": "quo",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 851
+      "FieldType": "System.Int32",
+      "FieldLength": 429
     }
   }
 }

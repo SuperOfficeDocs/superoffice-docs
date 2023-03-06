@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eius",
-  "ProviderName": "Nolan-Shields",
-  "StorageKey": "corrupti",
+  "StorageType": "totam",
+  "ProviderName": "Wehner LLC",
+  "StorageKey": "sit",
   "Restrictions": [
     {
-      "Name": "Lueilwitz, Blanda and Murazik",
-      "Operator": "nulla",
+      "Name": "Balistreri-Mertz",
+      "Operator": "architecto",
       "Values": [
-        "sint",
-        "facilis"
+        "cumque",
+        "dolorem"
       ],
       "DisplayValues": [
-        "amet",
-        "ut"
+        "vitae",
+        "voluptatem"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 388,
+      "InterParenthesis": 457,
       "InterOperator": "And",
-      "UniqueHash": 165
+      "UniqueHash": 563
     }
   ],
   "StaticColumns": [
-    "est",
-    "earum"
+    "quidem",
+    "voluptas"
   ]
 }
 ```
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Skiles LLC",
-      "Operator": "maiores",
+      "Name": "O'Kon LLC",
+      "Operator": "est",
       "Values": [
-        "ex",
-        "quod"
+        "delectus",
+        "et"
       ],
       "DisplayValues": [
-        "nam",
-        "expedita"
+        "tenetur",
+        "soluta"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -143,65 +143,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 353,
+      "InterParenthesis": 825,
       "InterOperator": "And",
-      "UniqueHash": 488
+      "UniqueHash": 774
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Schowalter Inc and Sons",
-      "DisplayTooltip": "et",
-      "DisplayType": "placeat",
+      "DisplayName": "Muller, Rath and Rath",
+      "DisplayTooltip": "eum",
+      "DisplayType": "ut",
       "CanOrderBy": false,
-      "Name": "Gibson LLC",
+      "Name": "Pagac-Rogahn",
       "CanRestrictBy": false,
-      "RestrictionType": "maxime",
-      "RestrictionListName": "Barrows-Ferry",
-      "IsVisible": false,
-      "ExtraInfo": "qui",
-      "Width": "consectetur",
-      "IconHint": "magni",
-      "HeadingIconHint": "perferendis"
+      "RestrictionType": "rerum",
+      "RestrictionListName": "Witting Inc and Sons",
+      "IsVisible": true,
+      "ExtraInfo": "eos",
+      "Width": "asperiores",
+      "IconHint": "ex",
+      "HeadingIconHint": "vitae"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "McClure-Pfannerstill",
-      "PrimaryKey": 412,
+      "EntityName": "Sanford, Leannon and Ferry",
+      "PrimaryKey": 813,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "esse",
-          "TooltipHint": "itaque",
-          "LinkHint": "ut"
+          "DisplayValue": "distinctio",
+          "TooltipHint": "magni",
+          "LinkHint": "sed"
         }
       },
-      "LinkHint": "omnis",
-      "StyleHint": "soluta",
+      "LinkHint": "animi",
+      "StyleHint": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 463
+          "FieldLength": 285
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Kshlerin, Goodwin and Greenfelder",
-      "Description": "Synergistic systemic encoding",
-      "Rank": 661,
+      "Name": "Walsh LLC",
+      "Description": "Configurable next generation application",
+      "Rank": 318,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kshlerin, Goodwin and Greenfelder",
-      "Description": "Synergistic systemic encoding",
-      "Rank": 661,
+      "Name": "Walsh LLC",
+      "Description": "Configurable next generation application",
+      "Rank": 318,
       "Restrictions": [
         {},
         {}
@@ -213,7 +213,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 427
+      "FieldLength": 324
     }
   }
 }

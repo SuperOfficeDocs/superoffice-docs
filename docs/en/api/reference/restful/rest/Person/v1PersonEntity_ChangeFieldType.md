@@ -29,7 +29,7 @@ Change a PersonEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -113,46 +113,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 21,
-  "ColumnId": 404,
-  "FieldDefault": "veritatis",
-  "FieldHeight": 810,
-  "FieldLabel": "mollitia",
-  "FieldLeft": 726,
-  "FieldTop": 448,
+  "UDefFieldId": 713,
+  "ColumnId": 550,
+  "FieldDefault": "qui",
+  "FieldHeight": 864,
+  "FieldLabel": "ea",
+  "FieldLeft": 884,
+  "FieldTop": 428,
   "FieldType": "Checkbox",
-  "FieldWidth": 997,
-  "FormatMask": "nesciunt",
-  "HideLabel": true,
+  "FieldWidth": 896,
+  "FormatMask": "et",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 576,
-  "LabelLeft": 328,
-  "LabelTop": 846,
-  "LabelWidth": 668,
-  "LastVersionId": 124,
-  "ListTableId": 734,
+  "LabelHeight": 327,
+  "LabelLeft": 693,
+  "LabelTop": 391,
+  "LabelWidth": 808,
+  "LastVersionId": 623,
+  "ListTableId": 826,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 194,
-  "ProgId": "est",
+  "Page1LineNo": 4,
+  "ProgId": "illum",
   "IsReadOnly": true,
-  "ShortLabel": "et",
-  "TabOrder": 854,
-  "TextLength": 783,
-  "Tooltip": "perspiciatis",
-  "UdefIdentity": 517,
+  "ShortLabel": "id",
+  "TabOrder": 96,
+  "TextLength": 110,
+  "Tooltip": "quae",
+  "UdefIdentity": 647,
   "UDListDefinitionId": 398,
   "Justification": "Center",
-  "Version": 168,
-  "TemplateVariableName": "Kuhlman-Nolan",
-  "HasBeenPublished": false,
-  "MdoListName": "Lesch, Jakubowski and Jacobson",
+  "Version": 454,
+  "TemplateVariableName": "Hirthe-Dietrich",
+  "HasBeenPublished": true,
+  "MdoListName": "Anderson LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 31
+      "FieldType": "System.Int32",
+      "FieldLength": 886
     }
   }
 }

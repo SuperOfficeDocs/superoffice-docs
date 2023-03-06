@@ -25,7 +25,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=599
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=91
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 48,
-  "AssociateId": 216,
-  "Caption": "esse",
+  "DashboardId": 973,
+  "AssociateId": 312,
+  "Caption": "nemo",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 242,
-      "Caption": "odio",
-      "Description": "Optional upward-trending synergy",
-      "ChartName": "Renner-Anderson",
-      "ChartId": "placeat",
-      "IsDefault": true,
-      "AssociateId": 341,
-      "GroupId": 411,
-      "SelectionId": 117,
-      "Config": "veniam",
+      "DashboardTileId": 117,
+      "Caption": "atque",
+      "Description": "Re-engineered eco-centric artificial intelligence",
+      "ChartName": "Breitenberg-Lakin",
+      "ChartId": "culpa",
+      "IsDefault": false,
+      "AssociateId": 714,
+      "GroupId": 651,
+      "SelectionId": 293,
+      "Config": "sint",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 42
+          "FieldLength": 759
         }
       }
     }
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 132
+      "FieldType": "System.String",
+      "FieldLength": 316
     }
   }
 }

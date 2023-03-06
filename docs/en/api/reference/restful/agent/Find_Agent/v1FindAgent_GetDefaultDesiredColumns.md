@@ -90,9 +90,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "officia",
-  "ProviderName": "Rempel LLC",
-  "StorageKey": "placeat"
+  "StorageType": "sed",
+  "ProviderName": "Halvorson LLC",
+  "StorageKey": "similique"
 }
 ```
 
@@ -104,19 +104,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Runolfsson-Fisher",
-    "DisplayTooltip": "dignissimos",
-    "DisplayType": "tempore",
+    "DisplayName": "Gorczany, Hettinger and Erdman",
+    "DisplayTooltip": "ipsum",
+    "DisplayType": "voluptatem",
     "CanOrderBy": false,
-    "Name": "Reynolds Group",
-    "CanRestrictBy": false,
-    "RestrictionType": "et",
-    "RestrictionListName": "Balistreri-Grimes",
-    "IsVisible": true,
+    "Name": "Schaden, Collier and Bechtelar",
+    "CanRestrictBy": true,
+    "RestrictionType": "consequatur",
+    "RestrictionListName": "Roob-Hudson",
+    "IsVisible": false,
     "ExtraInfo": "et",
-    "Width": "ipsa",
-    "IconHint": "quas",
-    "HeadingIconHint": "fuga"
+    "Width": "commodi",
+    "IconHint": "natus",
+    "HeadingIconHint": "ducimus"
   }
 ]
 ```

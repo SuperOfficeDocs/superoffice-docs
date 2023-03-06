@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 463,
-  "Name": "Konopelski, Gislason and Zulauf",
-  "Tooltip": "aut",
+  "Id": 568,
+  "Name": "Corwin-Sipes",
+  "Tooltip": "possimus",
   "Deleted": true,
-  "UdListDefinitionId": 790,
-  "Rank": 723,
+  "UdListDefinitionId": 622,
+  "Rank": 718,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 946
+      "FieldType": "System.Int32",
+      "FieldLength": 806
     }
   }
 }

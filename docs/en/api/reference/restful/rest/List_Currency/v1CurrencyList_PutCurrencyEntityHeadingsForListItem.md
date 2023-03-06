@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 968,
-    "Name": "Thompson LLC",
-    "ToolTip": "Odit odit placeat sed voluptas culpa.",
+    "Id": 997,
+    "Name": "Cummerata Group",
+    "ToolTip": "Quam et.",
     "Deleted": true,
-    "Rank": 422,
-    "Type": "voluptatem",
-    "ColorBlock": 353,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2010-06-04T17:37:39.9655025+02:00",
+    "Rank": 425,
+    "Type": "nihil",
+    "ColorBlock": 585,
+    "IconHint": "nobis",
+    "Selected": false,
+    "LastChanged": "2013-12-28T14:19:11.2262177+01:00",
     "ChildItems": [
       {
-        "Id": 28,
-        "Name": "Runolfsson-Mueller",
-        "ToolTip": "Voluptates aut nihil ad ullam dolorum voluptas.",
+        "Id": 253,
+        "Name": "Bauch, Homenick and Hartmann",
+        "ToolTip": "Magni adipisci.",
         "Deleted": false,
-        "Rank": 605,
-        "Type": "neque",
-        "ColorBlock": 549,
-        "IconHint": "a",
-        "Selected": true,
-        "LastChanged": "2007-07-31T17:37:39.9655025+02:00",
+        "Rank": 820,
+        "Type": "quia",
+        "ColorBlock": 753,
+        "IconHint": "officiis",
+        "Selected": false,
+        "LastChanged": "2011-09-24T14:19:11.2262177+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "id",
-        "Hidden": true,
-        "FullName": "Lilyan Wiegand"
+        "ExtraInfo": "quia",
+        "StyleHint": "sit",
+        "Hidden": false,
+        "FullName": "Mr. Adrian Devan Bartell"
       }
     ],
-    "ExtraInfo": "natus",
-    "StyleHint": "autem",
-    "Hidden": true,
-    "FullName": "Ashton Schmeler"
+    "ExtraInfo": "est",
+    "StyleHint": "deserunt",
+    "Hidden": false,
+    "FullName": "Lucio Edward Watsica Sr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 590,
-    "Name": "Moore-Ledner",
-    "ToolTip": "Natus iusto.",
-    "Deleted": true,
-    "Rank": 27,
-    "Type": "laboriosam",
-    "ColorBlock": 330,
-    "IconHint": "porro",
+    "Id": 692,
+    "Name": "Mayer-Hermiston",
+    "ToolTip": "Ea optio consequatur quibusdam.",
+    "Deleted": false,
+    "Rank": 707,
+    "Type": "aliquam",
+    "ColorBlock": 235,
+    "IconHint": "voluptatibus",
     "Selected": false,
-    "LastChanged": "2001-08-25T17:37:39.9665005+02:00",
+    "LastChanged": "2002-08-31T14:19:11.2262177+02:00",
     "ChildItems": [
       {
-        "Id": 185,
-        "Name": "Stehr Group",
-        "ToolTip": "Omnis expedita est atque.",
-        "Deleted": true,
-        "Rank": 487,
-        "Type": "laboriosam",
-        "ColorBlock": 600,
-        "IconHint": "rerum",
-        "Selected": true,
-        "LastChanged": "2002-08-31T17:37:39.9665005+02:00",
+        "Id": 216,
+        "Name": "Kirlin-Spinka",
+        "ToolTip": "Quam ut repellendus ipsa nihil voluptas aut labore.",
+        "Deleted": false,
+        "Rank": 767,
+        "Type": "labore",
+        "ColorBlock": 661,
+        "IconHint": "aliquam",
+        "Selected": false,
+        "LastChanged": "2003-07-19T14:19:11.2262177+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "minus",
+        "ExtraInfo": "dicta",
+        "StyleHint": "sapiente",
         "Hidden": true,
-        "FullName": "Kayleigh Boyer",
+        "FullName": "Connor Hauck",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 64
+            "FieldLength": 409
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "odit",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "minus",
     "Hidden": false,
-    "FullName": "Anahi Hansen",
+    "FullName": "Miss Pearlie Bernice Hackett Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 924
+        "FieldType": "System.String",
+        "FieldLength": 895
       }
     }
   }

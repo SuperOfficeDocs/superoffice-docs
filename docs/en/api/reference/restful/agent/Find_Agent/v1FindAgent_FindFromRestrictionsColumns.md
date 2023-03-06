@@ -99,21 +99,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Considine-McDermott",
-      "Operator": "quis",
+      "Name": "Schultz-Erdman",
+      "Operator": "nam",
       "Values": [
-        "odit",
-        "iure"
+        "dignissimos",
+        "explicabo"
       ],
       "DisplayValues": [
-        "vel",
-        "provident"
+        "deleniti",
+        "omnis"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -121,18 +121,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 955,
+      "InterParenthesis": 620,
       "InterOperator": "And",
-      "UniqueHash": 937
+      "UniqueHash": 953
     }
   ],
-  "ProviderName": "Goldner LLC",
+  "ProviderName": "Veum Group",
   "DesiredColumns": [
-    "repellat",
-    "aperiam"
+    "voluptates",
+    "dolores"
   ],
-  "PageSize": 803,
-  "PageNumber": 695
+  "PageSize": 418,
+  "PageNumber": 281
 }
 ```
 
@@ -145,51 +145,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Reynolds, Friesen and Gaylord",
-      "DisplayTooltip": "dicta",
-      "DisplayType": "repudiandae",
-      "CanOrderBy": true,
-      "Name": "Friesen-McGlynn",
-      "CanRestrictBy": false,
-      "RestrictionType": "quas",
-      "RestrictionListName": "McKenzie Inc and Sons",
-      "IsVisible": false,
-      "ExtraInfo": "doloremque",
-      "Width": "qui",
-      "IconHint": "architecto",
-      "HeadingIconHint": "odit"
+      "DisplayName": "Weissnat, Beier and Lueilwitz",
+      "DisplayTooltip": "commodi",
+      "DisplayType": "voluptatum",
+      "CanOrderBy": false,
+      "Name": "Kozey Group",
+      "CanRestrictBy": true,
+      "RestrictionType": "nihil",
+      "RestrictionListName": "Langosh, Schroeder and Kemmer",
+      "IsVisible": true,
+      "ExtraInfo": "eligendi",
+      "Width": "aut",
+      "IconHint": "voluptatibus",
+      "HeadingIconHint": "culpa"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Lang Inc and Sons",
-      "PrimaryKey": 309,
+      "EntityName": "Schimmel Inc and Sons",
+      "PrimaryKey": 296,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "beatae",
-          "TooltipHint": "velit",
-          "LinkHint": "ut"
+          "DisplayValue": "natus",
+          "TooltipHint": "illum",
+          "LinkHint": "ipsum"
         }
       },
-      "LinkHint": "quo",
-      "StyleHint": "aut",
+      "LinkHint": "sint",
+      "StyleHint": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 320
+          "FieldType": "System.Int32",
+          "FieldLength": 880
         }
       }
     }
   ],
-  "RowCount": 128,
+  "RowCount": 843,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldLength": 795
     }
   }
 }

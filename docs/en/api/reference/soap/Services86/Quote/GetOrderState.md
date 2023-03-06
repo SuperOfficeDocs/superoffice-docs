@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IQuoteAgent.GetOrderState
 
 ## GetOrderState
 
-If there is a problem with a quoteline, the error description shall be placed in the status and reason fields of the quoteline, if there is a problem with the alternative, the error description shall be placed in the status and reason fields of the alternative. A summary of all the problems (if any) should be placed in the response object. Requires that the Create-Order capability is true.
 
-* **quoteVersionId:** the QuoteVersionId of the ordered version.
 
-**Returns:** The order state. If a new quoteversion is created, the QuoteVersionId will be found in Changes.AddedRecords.
+
 
 [WSDL file for Services86/Quote](../Services86-Quote.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetOrderState Response
 
@@ -95,3 +94,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

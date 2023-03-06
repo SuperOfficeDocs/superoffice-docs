@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 365,
-  "Name": "Gorczany, Kuhn and O'Connell",
-  "Tooltip": "qui",
+  "Id": 516,
+  "Name": "Mohr Group",
+  "Tooltip": "suscipit",
   "Deleted": true,
-  "UdListDefinitionId": 205,
-  "Rank": 319
+  "UdListDefinitionId": 935,
+  "Rank": 755
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 500,
-  "Name": "Corkery Group",
-  "Tooltip": "qui",
+  "Id": 411,
+  "Name": "Veum Inc and Sons",
+  "Tooltip": "architecto",
   "Deleted": false,
-  "UdListDefinitionId": 441,
-  "Rank": 264,
+  "UdListDefinitionId": 943,
+  "Rank": 158,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 356
+      "FieldType": "System.Int32",
+      "FieldLength": 949
     }
   }
 }

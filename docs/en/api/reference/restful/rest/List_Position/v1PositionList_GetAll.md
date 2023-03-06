@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 833,
-    "Name": "Mosciski, Swaniawski and Davis",
-    "Tooltip": "neque",
-    "Deleted": false,
-    "UdListDefinitionId": 452,
-    "Rank": 811,
+    "Id": 65,
+    "Name": "Effertz Inc and Sons",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "UdListDefinitionId": 420,
+    "Rank": 104,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 30
+        "FieldLength": 501
       }
     }
   }

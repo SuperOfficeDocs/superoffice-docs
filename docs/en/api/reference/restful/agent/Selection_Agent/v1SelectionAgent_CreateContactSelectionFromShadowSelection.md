@@ -119,8 +119,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 257,
-  "Name": "Dickinson Inc and Sons"
+  "SelectionId": 582,
+  "Name": "Lockman Group"
 }
 ```
 
@@ -131,70 +131,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Assimilated bottom-line hierarchy",
-  "Postit": "incidunt",
+  "Description": "Universal maximized archive",
+  "Postit": "iusto",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 688,
-  "IncludePerson": 395,
-  "MemberCount": 924,
-  "Name": "Lockman-Rosenbaum",
-  "PostitTextId": 678,
-  "CreatedDate": "2000-12-12T17:37:19.202242+01:00",
-  "SelectionId": 610,
-  "SoundEx": "earum",
-  "Source": 277,
-  "TextId": 536,
-  "UpdatedDate": "2003-05-16T17:37:19.202242+02:00",
-  "UpdatedCount": 532,
-  "Visibility": 884,
+  "GroupIdx": 330,
+  "IncludePerson": 525,
+  "MemberCount": 630,
+  "Name": "Legros LLC",
+  "PostitTextId": 259,
+  "CreatedDate": "2014-02-24T14:19:04.2036046+01:00",
+  "SelectionId": 807,
+  "SoundEx": "beatae",
+  "Source": 160,
+  "TextId": 843,
+  "UpdatedDate": "2019-07-17T14:19:04.2036046+02:00",
+  "UpdatedCount": 46,
+  "Visibility": 86,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 74,
-  "TargetTableName": "Kuhn Group",
-  "Completed": true,
-  "LeftSelectionId": 633,
-  "RightSelectionId": 126,
+  "CompanyUnique": true,
+  "TargetTableNumber": 968,
+  "TargetTableName": "Doyle-Keeling",
+  "Completed": false,
+  "LeftSelectionId": 535,
+  "RightSelectionId": 766,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Moen, Dickinson and Koss",
-  "ShadowProviderName": "Buckridge, Keeling and Hackett",
-  "ChartKey": "nam",
-  "LastLoaded": "2006-09-19T17:37:19.202242+02:00",
-  "LastLoadedBy": 450,
+  "MainProviderName": "Brakus, Morar and Welch",
+  "ShadowProviderName": "Mayert, Feil and Prohaska",
+  "ChartKey": "est",
+  "LastLoaded": "2001-12-11T14:19:04.2036046+01:00",
+  "LastLoadedBy": 545,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-10-13T17:37:19.2032417+02:00",
-  "LastMembershipChangeBy": 481,
+  "LastMembershipChange": "2007-02-07T14:19:04.2036046+01:00",
+  "LastMembershipChangeBy": 559,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "numquam",
-  "MemberTabHeading": "quasi",
-  "MailingsProviderName": "Kerluke Inc and Sons",
-  "DashboardTileDefinitionId": 569,
+  "MainHeading": "commodi",
+  "MemberTabHeading": "officiis",
+  "MailingsProviderName": "Langworth Group",
+  "DashboardTileDefinitionId": 133,
   "VisibleFor": [
     {
-      "VisibleId": 997,
+      "VisibleId": 266,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 199
+          "FieldLength": 234
         }
       }
     },
     {
-      "VisibleId": 997,
+      "VisibleId": 266,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 199
+          "FieldLength": 234
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 571
+      "FieldType": "System.String",
+      "FieldLength": 65
     }
   }
 }

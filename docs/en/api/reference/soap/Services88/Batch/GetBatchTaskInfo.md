@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IBatchAgent.GetBatchTaskI
 
 ## GetBatchTaskInfo
 
-Get a single BatchTaskInfo based on Id.
 
-* **id:** Id of the BatchTaskInfo to get.
 
-**Returns:** Returns a BatchTaskInfo.
+
 
 [WSDL file for Services88/Batch](../Services88-Batch.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetBatchTaskInfo Response
 
 ```xml
@@ -77,8 +76,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Batch:Value xsi:type="xsd:string"></Batch:Value>
      </Batch:StringKeyValuePair>
     </Batch:ParameterObject>
-    <Batch:LastStarted xsi:type="xsd:dateTime">2022-08-26T08:58:31Z</Batch:LastStarted>
-    <Batch:Created xsi:type="xsd:dateTime">2022-08-26T08:58:31Z</Batch:Created>
+    <Batch:LastStarted xsi:type="xsd:dateTime">2023-02-15T13:16:34Z</Batch:LastStarted>
+    <Batch:Created xsi:type="xsd:dateTime">2023-02-15T13:16:34Z</Batch:Created>
     <Batch:StartCount xsi:type="xsd:int">0</Batch:StartCount>
     <Batch:DatabaseSerialNumber xsi:type="xsd:string"></Batch:DatabaseSerialNumber>
     <Batch:Context xsi:type="xsd:string"></Batch:Context>
@@ -90,9 +89,11 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Batch:ProgressDescription xsi:type="xsd:string"></Batch:ProgressDescription>
     <Batch:ProgressPercent xsi:type="xsd:short">0</Batch:ProgressPercent>
     <Batch:FileName xsi:type="xsd:string"></Batch:FileName>
+    <Batch:CancellationBehaviour xsi:type="Batch:BatchTaskCancellationBehaviour">CanCancel</Batch:CancellationBehaviour>
    </Batch:Response>
   </Batch:GetBatchTaskInfoResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+

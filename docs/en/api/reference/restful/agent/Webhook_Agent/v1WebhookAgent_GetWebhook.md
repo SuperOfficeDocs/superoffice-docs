@@ -27,7 +27,7 @@ Gets a Webhook object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Webhook/GetWebhook?webhookId=69
+POST /api/v1/Agents/Webhook/GetWebhook?webhookId=232
 POST /api/v1/Agents/Webhook/GetWebhook?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Webhook/GetWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,26 +88,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 969,
-  "Name": "Bartoletti Group",
+  "WebhookId": 434,
+  "Name": "Corkery-Jones",
   "Events": [
-    "suscipit",
-    "voluptas"
+    "accusantium",
+    "accusamus"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "nihil",
+  "Secret": "adipisci",
   "State": "Active",
-  "Type": "in",
+  "Type": "porro",
   "Headers": {
-    "Headers1": "ut",
-    "Headers2": "odit"
+    "Headers1": "ea",
+    "Headers2": "distinctio"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2011-04-04T17:37:19.6489764+02:00",
+  "Registered": "2008-02-22T14:19:04.6422019+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2001-01-04T17:37:19.6489764+01:00",
+  "Updated": "2019-01-18T14:19:04.6422019+01:00",
   "UpdatedAssociate": null
 }
 ```

@@ -10,12 +10,12 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/UserD
 
 Handled by the <see cref="T:SuperOffice.Services88.IUserDefinedFieldInfoAgent">SuperOffice.Services88.IUserDefinedFieldInfoAgent</see> interface.
 
-Interface for the UserDefinedFieldInfo Agent
-Returns information about user-defined fields, like field type, field size, field label text, default value. Does not return the actual values in the user-defined fields. The values are returned on the entity objects.
+
 
 Download [WSDL file for Services88/UserDefinedFieldInfo](../Services88-UserDefinedFieldInfo.md) if you need to generate your own proxy code.
 
 * [ChangeFieldType](ChangeFieldType.md)
+* [ClearCaches](ClearCaches.md)
 * [CreateDefaultUserDefinedFieldInfo](CreateDefaultUserDefinedFieldInfo.md)
 * [CreateUserDefinedFieldInfo](CreateUserDefinedFieldInfo.md)
 * [DeleteUserDefinedFieldInfo](DeleteUserDefinedFieldInfo.md)
@@ -47,3 +47,4 @@ Download [WSDL file for Services88/UserDefinedFieldInfo](../Services88-UserDefin
 * [SetPublishStartSystemEvent](SetPublishStartSystemEvent.md)
 * [SetRankOnFields](SetRankOnFields.md)
 * [SetUserDefinedPageOneField](SetUserDefinedPageOneField.md)
+

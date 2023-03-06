@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.DeleteConnect
 
 ## DeleteConnection
 
-Marks a connection as deleted.
 
-* **quoteConnectionId:** Primary key of the connection to delete
 
-**Returns:** A void return
+
 
 [WSDL file for Services84/Quote](../Services84-Quote.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteConnection Response
 
 ```xml
@@ -68,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

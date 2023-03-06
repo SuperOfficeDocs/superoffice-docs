@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserAgent.GetRoleEntity"
 
 ## GetRoleEntity
 
-Gets a RoleEntity object.
 
-* **roleEntityId:** The identifier of the RoleEntity object
 
-**Returns:** RoleEntity
+
 
 [WSDL file for Services85/User](../Services85-User.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetRoleEntity Response
 
 ```xml
@@ -70,7 +69,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <User:RoleType xsi:type="User:RoleType">Employee</User:RoleType>
     <User:Deleted xsi:type="xsd:short">0</User:Deleted>
     <User:Rank xsi:type="xsd:short">0</User:Rank>
-    <User:Created xsi:type="xsd:dateTime">2022-08-26T08:53:56Z</User:Created>
+    <User:Created xsi:type="xsd:dateTime">2023-02-15T13:12:20Z</User:Created>
     <User:UseCategories xsi:type="xsd:short">0</User:UseCategories>
     <User:CreatedBy xsi:type="User:Associate">
      <User:AssociateId xsi:type="xsd:int">0</User:AssociateId>
@@ -85,7 +84,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
      <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
     </User:CreatedBy>
-    <User:Updated xsi:type="xsd:dateTime">2022-08-26T08:53:56Z</User:Updated>
+    <User:Updated xsi:type="xsd:dateTime">2023-02-15T13:12:20Z</User:Updated>
     <User:UpdatedBy xsi:type="User:Associate">
      <User:AssociateId xsi:type="xsd:int">0</User:AssociateId>
      <User:Name xsi:type="xsd:string"></User:Name>
@@ -128,3 +127,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

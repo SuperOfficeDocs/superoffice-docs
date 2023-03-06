@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IErpSyncAgent.GetFieldVal
 
 ## GetFieldValuesFromCrm
 
-Get Crm Field values
 
-* **recordId:** The id of the CRM entity
-* **actorTypeCrm:** CRM Actor type
 
-**Returns:** The Crm Fields
+
 
 [WSDL file for Services85/ErpSync](../Services85-ErpSync.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetFieldValuesFromCrm Response
 
 ```xml
@@ -80,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -639,64 +639,35 @@ title: Services85.ReplicationAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Replication">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Replication</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultSatellite">
-      <wsdl:documentation>
-        <summary>Loading default values into a new Satellite.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Replication/CreateDefaultSatellite" name="CreateDefaultSatelliteRequest" message="tns:CreateDefaultSatelliteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Replication/CreateDefaultSatelliteResponse" name="CreateDefaultSatelliteResponse" message="tns:CreateDefaultSatelliteResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveSatellite">
-      <wsdl:documentation>
-        <summary>Updates the existing Satellite or creates a new Satellite if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Replication/SaveSatellite" name="SaveSatelliteRequest" message="tns:SaveSatelliteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Replication/SaveSatelliteResponse" name="SaveSatelliteResponse" message="tns:SaveSatelliteResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetArea">
-      <wsdl:documentation>
-        <summary>Gets a Area object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Replication/GetArea" name="GetAreaRequest" message="tns:GetAreaRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Replication/GetAreaResponse" name="GetAreaResponse" message="tns:GetAreaResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetFreetextSearchEnabledOnArea">
-      <wsdl:documentation>
-        <summary>Enable freetext search on this area</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Replication/SetFreetextSearchEnabledOnArea" name="SetFreetextSearchEnabledOnAreaRequest" message="tns:SetFreetextSearchEnabledOnAreaRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Replication/SetFreetextSearchEnabledOnAreaResponse" name="SetFreetextSearchEnabledOnAreaResponse" message="tns:SetFreetextSearchEnabledOnAreaResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAreaList">
-      <wsdl:documentation>
-        <summary>Gets an array of Area objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Replication/GetAreaList" name="GetAreaListRequest" message="tns:GetAreaListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Replication/GetAreaListResponse" name="GetAreaListResponse" message="tns:GetAreaListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSatellite">
-      <wsdl:documentation>
-        <summary>Gets a Satellite object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Replication/GetSatellite" name="GetSatelliteRequest" message="tns:GetSatelliteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Replication/GetSatelliteResponse" name="GetSatelliteResponse" message="tns:GetSatelliteResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCentralLicense">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Replication/GetCentralLicense" name="GetCentralLicenseRequest" message="tns:GetCentralLicenseRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Replication/GetCentralLicenseResponse" name="GetCentralLicenseResponse" message="tns:GetCentralLicenseResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveCentralLicense">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Replication/SaveCentralLicense" name="SaveCentralLicenseRequest" message="tns:SaveCentralLicenseRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Replication/SaveCentralLicenseResponse" name="SaveCentralLicenseResponse" message="tns:SaveCentralLicenseResponse" />
     </wsdl:operation>
@@ -839,3 +810,4 @@ title: Services85.ReplicationAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

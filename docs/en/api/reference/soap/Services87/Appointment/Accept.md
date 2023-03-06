@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IAppointmentAgent.Accept"
 
 ## Accept
 
-Accepting an appointment invitation.
 
-* **appointmentId:** The appointmentId. Both master and child record ids are accepted.
-* **updateMode:** Update mode for a recurring appointment.
 
-**Returns:** Updated AppointmentEntity
+
 
 [WSDL file for Services87/Appointment](../Services87-Appointment.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## Accept Response
 
 ```xml
@@ -70,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IFreeTextAgent.AddWords">
 
 ## AddWords
 
-Adds the words in the string to the stop word list
 
-* **stopWords:** The stop words to add
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services88/FreeText](../Services88-FreeText.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## AddWords Response
 
 ```xml
@@ -68,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

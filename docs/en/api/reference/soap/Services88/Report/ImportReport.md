@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IReportAgent.ImportReport
 
 ## ImportReport
 
-Takes the input stream and create a report. This stream must be on a valid xml format
 
-* **report:** The report to import in a correct xml format
 
-**Returns:** The id of the newly imported report
+
 
 [WSDL file for Services88/Report](../Services88-Report.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ImportReport Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IQuoteAgent.CancelApprova
 
 ## CancelApprovalRequest
 
-Cancel a pending quote approval request.
 
-* **quoteVersionId:** The quoteversion for which approval was previously sent.
 
-**Returns:** Response of the the operation
+
 
 [WSDL file for Services88/Quote](../Services88-Quote.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CancelApprovalRequest Response
 
@@ -88,9 +87,11 @@ Application tokens must be specified if calling an Online installation. Applicat
       </Quote:ChangedDataItem>
      </Quote:DeletedRecords>
     </Quote:Changes>
+    <Quote:Status xsi:type="Quote:QuoteStatus">Ok</Quote:Status>
    </Quote:Response>
   </Quote:CancelApprovalRequestResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+

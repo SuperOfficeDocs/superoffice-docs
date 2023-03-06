@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.SaveSaleStageE
 
 ## SaveSaleStageEntity
 
-Updates the existing SaleStageEntity or creates a new SaleStageEntity if the id parameter is 0.
 
-* **saleStageEntity:** The SaleStageEntity that is saved.
 
-**Returns:** New or updated SaleStageEntity
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -56,6 +54,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveSaleStageEntity Response
 
 ```xml
@@ -83,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

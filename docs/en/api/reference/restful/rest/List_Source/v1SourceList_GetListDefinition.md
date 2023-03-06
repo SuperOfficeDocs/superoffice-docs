@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 640,
-  "Name": "Glover-Dickinson",
-  "Tooltip": "pariatur",
-  "Deleted": false,
-  "Rank": 614,
+  "Id": 609,
+  "Name": "Hermann-D'Amore",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "Rank": 566,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "labore",
-  "InUseByUserDefinedFields": false,
+  "ListType": "cumque",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 165
+      "FieldType": "System.Int32",
+      "FieldLength": 673
     }
   },
   "_Links": {

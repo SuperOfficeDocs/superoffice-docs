@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,30 +88,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 140,
-  "Name": "Stehr Group",
-  "CurrencyId": 154,
-  "EnglishName": "Hauck Inc and Sons",
+  "CountryId": 952,
+  "Name": "Rice-Crist",
+  "CurrencyId": 646,
+  "EnglishName": "Cremin-Orn",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Business-focused mission-critical hardware",
-  "OrgNrText": "556624",
-  "InterAreaPrefix": "nam",
-  "DialInPrefix": "et",
-  "ZipPrefix": "eligendi",
-  "DomainName": "West Group",
-  "AddressLayoutId": 314,
-  "DomesticAddressLayoutId": 784,
-  "ForeignAddressLayoutId": 134,
-  "Rank": 439,
-  "Tooltip": "et",
-  "Deleted": true,
+  "ImageDescription": "Versatile attitude-oriented support",
+  "OrgNrText": "1323196",
+  "InterAreaPrefix": "aut",
+  "DialInPrefix": "sequi",
+  "ZipPrefix": "repudiandae",
+  "DomainName": "Ziemann LLC",
+  "AddressLayoutId": 503,
+  "DomesticAddressLayoutId": 618,
+  "ForeignAddressLayoutId": 230,
+  "Rank": 526,
+  "Tooltip": "soluta",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 305
+      "FieldType": "System.String",
+      "FieldLength": 84
     }
   }
 }

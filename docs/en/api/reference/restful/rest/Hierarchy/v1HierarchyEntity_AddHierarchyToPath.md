@@ -83,46 +83,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 791,
+  "HierarchyId": 231,
   "Domain": "Dashboards",
-  "Name": "Cormier Inc and Sons",
-  "Fullname": "est",
-  "ParentId": 1002,
+  "Name": "Durgan LLC",
+  "Fullname": "ipsam",
+  "ParentId": 827,
   "Children": [
     {
-      "HierarchyId": 921,
+      "HierarchyId": 867,
       "Domain": "Dashboards",
-      "Name": "Hoeger Inc and Sons",
+      "Name": "Larson, Hilll and Effertz",
       "Fullname": "et",
-      "ParentId": 564,
+      "ParentId": 574,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2014-12-06T17:37:38.8318593+01:00",
-      "RegisteredAssociateId": 824,
-      "Updated": "2000-05-12T17:37:38.8318593+02:00",
-      "UpdatedAssociateId": 731,
+      "Registered": "2000-05-16T14:19:10.3654771+02:00",
+      "RegisteredAssociateId": 239,
+      "Updated": "2006-08-29T14:19:10.3654771+02:00",
+      "UpdatedAssociateId": 875,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 854
+          "FieldLength": 754
         }
       }
     }
   ],
-  "Registered": "2019-01-29T17:37:38.8318593+01:00",
-  "RegisteredAssociateId": 289,
-  "Updated": "1999-05-16T17:37:38.8318593+02:00",
-  "UpdatedAssociateId": 866,
+  "Registered": "2016-05-18T14:19:10.3654771+02:00",
+  "RegisteredAssociateId": 829,
+  "Updated": "2021-01-05T14:19:10.3654771+01:00",
+  "UpdatedAssociateId": 378,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldLength": 787
     }
   }
 }

@@ -120,7 +120,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -135,88 +135,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 280,
-  "ERPQuoteLineKey": "sunt",
-  "QuoteAlternativeId": 867,
-  "ERPProductKey": "rerum",
+  "QuoteLineId": 433,
+  "ERPQuoteLineKey": "temporibus",
+  "QuoteAlternativeId": 612,
+  "ERPProductKey": "at",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 13379.046,
-  "DeliveredQuantity": 12128.58,
-  "Rank": 696,
-  "Name": "Bogisich, Hane and Lesch",
-  "Description": "Customizable uniform support",
-  "Code": "odit",
-  "QuantityUnit": "fugit",
-  "PriceUnit": "quis",
-  "ItemNumber": "1098359",
+  "Quantity": 24658.311999999998,
+  "DeliveredQuantity": 17625.615999999998,
+  "Rank": 892,
+  "Name": "Breitenberg, Davis and Murphy",
+  "Description": "Multi-layered bifurcated capacity",
+  "Code": "recusandae",
+  "QuantityUnit": "nulla",
+  "PriceUnit": "ipsa",
+  "ItemNumber": "871405",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eaque",
-  "ProductTypeKey": "autem",
-  "Supplier": "qui",
-  "SupplierCode": "quasi",
-  "Thumbnail": "sit",
-  "VATInfo": "eaque",
-  "VAT": 24717.858,
-  "UnitCost": 10583.518,
-  "UnitMinimumPrice": 4152.55,
-  "UnitListPrice": 8032.442,
+  "ProductFamilyKey": "odit",
+  "ProductTypeKey": "asperiores",
+  "Supplier": "praesentium",
+  "SupplierCode": "expedita",
+  "Thumbnail": "itaque",
+  "VATInfo": "sit",
+  "VAT": 8308.234,
+  "UnitCost": 2645.096,
+  "UnitMinimumPrice": 13751.992,
+  "UnitListPrice": 18872.948,
   "ExtraInfo": [
     {
-      "Name": "Jaskolski LLC",
-      "Value": "et",
+      "Name": "Moore Inc and Sons",
+      "Value": "quos",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 110
+          "FieldType": "System.String",
+          "FieldLength": 64
         }
       }
     },
     {
-      "Name": "Jaskolski LLC",
-      "Value": "et",
+      "Name": "Moore Inc and Sons",
+      "Value": "quos",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 110
+          "FieldType": "System.String",
+          "FieldLength": 64
         }
       }
     }
   ],
-  "RawExtraInfo": "debitis",
+  "RawExtraInfo": "aut",
   "IsSubscription": false,
-  "SubscriptionUnit": "quo",
-  "SubscriptionQuantity": 13432.323999999999,
-  "SubscriptionStart": "2010-02-12T17:37:18.7692404+01:00",
-  "ERPDiscountPercent": 3801.542,
-  "ERPDiscountAmount": 7819.33,
-  "DiscountPercent": 27093.43,
-  "DiscountAmount": 8894.292,
+  "SubscriptionUnit": "laudantium",
+  "SubscriptionQuantity": 2770.456,
+  "SubscriptionStart": "1998-02-08T14:19:04.0469597+01:00",
+  "ERPDiscountPercent": 25394.802,
+  "ERPDiscountAmount": 8853.55,
+  "DiscountPercent": 26278.59,
+  "DiscountAmount": 26783.164,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 9248.434,
-  "EarningAmount": 6957.48,
-  "SubTotal": 18249.282,
-  "TotalPrice": 15911.318,
-  "Rights": "hic",
-  "Rule": "vero",
-  "ExtraField1": "sunt",
-  "ExtraField2": "praesentium",
-  "ExtraField3": "corporis",
-  "ExtraField4": "iure",
-  "ExtraField5": "ipsum",
+  "EarningPercent": 23771.39,
+  "EarningAmount": 10332.797999999999,
+  "SubTotal": 20273.845999999998,
+  "TotalPrice": 21825.176,
+  "Rights": "ipsam",
+  "Rule": "doloribus",
+  "ExtraField1": "odio",
+  "ExtraField2": "repellat",
+  "ExtraField3": "tempora",
+  "ExtraField4": "sed",
+  "ExtraField5": "pariatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 805
+      "FieldLength": 446
     }
   }
 }

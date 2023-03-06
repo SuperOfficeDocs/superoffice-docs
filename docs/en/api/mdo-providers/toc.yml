@@ -160,7 +160,7 @@ items:
 - name: Documenttypes
   href: reference/documenttypes.md
 - name: Efd_6
-  href: reference/efd_6.md
+  href: reference/efd_13.md
 - name: Ejcategory
   href: reference/ejcategory.md
 - name: Ejuser
@@ -453,6 +453,8 @@ items:
   href: reference/recurrenceweekcycle.md
 - name: Rejectreason
   href: reference/RejectReason.md
+- name: Relateddatafields
+  href: reference/relateddatafields.md
 - name: Relationdefinition
   href: reference/relationdefinition.md
 - name: Relationssearchlistproviderappointmentactive
@@ -657,6 +659,12 @@ items:
   href: reference/targetyear.md
 - name: Task
   href: reference/Task.md
+- name: Task Menu
+  href: reference/taskmenu.md
+- name: Taskmenudestination
+  href: reference/taskmenudestination.md
+- name: Taskmenugroup
+  href: reference/taskmenugroup.md
 - name: Ticket
   href: reference/ticket.md
 - name: Ticketalert
@@ -707,6 +715,8 @@ items:
   href: reference/udlist28.md
 - name: Udlist30002
   href: reference/udlist30002.md
+- name: Urlencoding
+  href: reference/urlencoding.md
 - name: Usergroup
   href: reference/usergroup.md
 - name: Usergroupwithhistoryall

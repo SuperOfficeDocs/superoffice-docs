@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IFreeTextAgent.DeleteStop
 
 ## DeleteStopWordsById
 
-Delete the stop words with these ids
 
-* **stopWordIds:** The ids of the stopwords to delete
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services85/FreeText](../Services85-FreeText.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteStopWordsById Response
 
 ```xml
@@ -70,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

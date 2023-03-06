@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 813,
-  "Name": "Shanahan, Kihn and Walker",
-  "Tooltip": "est",
+  "HeadingId": 714,
+  "Name": "Beahan-Stoltenberg",
+  "Tooltip": "voluptates",
   "Deleted": false,
-  "Rank": 937,
-  "UdListDefinitionId": 941
+  "Rank": 488,
+  "UdListDefinitionId": 374
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 412,
-  "Name": "Mayert, Mayer and Shields",
-  "Tooltip": "voluptatem",
+  "HeadingId": 504,
+  "Name": "Fahey LLC",
+  "Tooltip": "dolorem",
   "Deleted": false,
-  "Rank": 761,
-  "UdListDefinitionId": 677,
+  "Rank": 545,
+  "UdListDefinitionId": 391,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 482
+      "FieldLength": 340
     }
   }
 }

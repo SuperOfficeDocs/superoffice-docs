@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,46 +121,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 206,
-    "ColumnId": 52,
-    "FieldDefault": "fuga",
-    "FieldHeight": 188,
-    "FieldLabel": "culpa",
-    "FieldLeft": 745,
-    "FieldTop": 192,
+    "UDefFieldId": 609,
+    "ColumnId": 89,
+    "FieldDefault": "totam",
+    "FieldHeight": 486,
+    "FieldLabel": "deserunt",
+    "FieldLeft": 179,
+    "FieldTop": 765,
     "FieldType": "Checkbox",
-    "FieldWidth": 565,
-    "FormatMask": "ut",
-    "HideLabel": false,
+    "FieldWidth": 841,
+    "FormatMask": "voluptatem",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 36,
-    "LabelLeft": 1002,
-    "LabelTop": 216,
-    "LabelWidth": 700,
-    "LastVersionId": 165,
-    "ListTableId": 620,
+    "LabelHeight": 939,
+    "LabelLeft": 723,
+    "LabelTop": 140,
+    "LabelWidth": 637,
+    "LastVersionId": 886,
+    "ListTableId": 282,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 430,
-    "ProgId": "dolores",
-    "IsReadOnly": false,
-    "ShortLabel": "enim",
-    "TabOrder": 660,
-    "TextLength": 293,
-    "Tooltip": "voluptatem",
-    "UdefIdentity": 443,
-    "UDListDefinitionId": 224,
+    "Page1LineNo": 117,
+    "ProgId": "exercitationem",
+    "IsReadOnly": true,
+    "ShortLabel": "et",
+    "TabOrder": 635,
+    "TextLength": 92,
+    "Tooltip": "facere",
+    "UdefIdentity": 146,
+    "UDListDefinitionId": 809,
     "Justification": "Center",
-    "Version": 355,
-    "TemplateVariableName": "Hermann Inc and Sons",
-    "HasBeenPublished": false,
-    "MdoListName": "Legros Inc and Sons",
+    "Version": 335,
+    "TemplateVariableName": "Hickle Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Gulgowski-Kihn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 611
+        "FieldLength": 928
       }
     }
   }

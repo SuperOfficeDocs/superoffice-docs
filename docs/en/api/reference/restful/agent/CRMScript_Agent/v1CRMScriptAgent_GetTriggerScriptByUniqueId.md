@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "perspiciatis"
+  "TriggerScriptUniqueId": "et"
 }
 ```
 
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 847,
-  "Name": "Hodkiewicz LLC",
+  "ScreenChooserId": 377,
+  "Name": "Kirlin Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "ad",
-  "Source": "et",
-  "Registered": "2002-03-27T17:37:17.3372453+01:00",
-  "RegisteredAssociateId": 709,
-  "Updated": "2004-01-13T17:37:17.3372453+01:00",
-  "UpdatedAssociateId": 858,
+  "Enabled": false,
+  "UniqueIdentifier": "eum",
+  "Source": "saepe",
+  "Registered": "2011-12-21T14:19:03.0730293+01:00",
+  "RegisteredAssociateId": 13,
+  "Updated": "2017-06-17T14:19:03.0730293+02:00",
+  "UpdatedAssociateId": 338,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 526
+      "FieldLength": 618
     }
   }
 }

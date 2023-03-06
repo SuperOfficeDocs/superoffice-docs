@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 760,
-    "Value": "error",
-    "Tooltip": "quia",
+    "Id": 801,
+    "Value": "ratione",
+    "Tooltip": "impedit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 601
+        "FieldLength": 618
       }
     }
   },
   {
-    "Id": 760,
-    "Value": "error",
-    "Tooltip": "quia",
+    "Id": 801,
+    "Value": "ratione",
+    "Tooltip": "impedit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 601
+        "FieldLength": 618
       }
     }
   }

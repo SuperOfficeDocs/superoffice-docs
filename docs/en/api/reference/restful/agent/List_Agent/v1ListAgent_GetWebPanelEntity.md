@@ -25,7 +25,7 @@ Gets a WebPanelEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=764
+POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=43
 POST /api/v1/Agents/List/GetWebPanelEntity?$select=name,department,category/id
 ```
 
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 706,
-  "Name": "Schmidt Group",
-  "Tooltip": "distinctio",
+  "WebPanelId": 74,
+  "Name": "O'Connell Inc and Sons",
+  "Tooltip": "consequatur",
   "Deleted": true,
-  "Rank": 639,
+  "Rank": 510,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Hahn-Bruen",
+  "WindowName": "Collier Group",
   "Url": "http://www.example.com/",
-  "ProgId": "et",
-  "Icon": 650,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "impedit",
+  "Icon": 461,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 109
+      "FieldType": "System.String",
+      "FieldLength": 883
     }
   }
 }

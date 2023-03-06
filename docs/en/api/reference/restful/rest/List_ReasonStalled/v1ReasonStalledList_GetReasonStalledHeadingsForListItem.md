@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 127,
-    "Name": "Kassulke LLC",
-    "ToolTip": "Earum id est doloribus quis unde optio quo.",
+    "Id": 232,
+    "Name": "Hessel-Gerhold",
+    "ToolTip": "Et accusamus officia ut reiciendis.",
     "Deleted": true,
-    "Rank": 816,
-    "Type": "unde",
-    "ColorBlock": 886,
-    "IconHint": "asperiores",
-    "Selected": false,
-    "LastChanged": "2011-06-23T17:37:40.3215019+02:00",
+    "Rank": 528,
+    "Type": "sit",
+    "ColorBlock": 529,
+    "IconHint": "error",
+    "Selected": true,
+    "LastChanged": "2001-03-04T14:19:11.4870653+01:00",
     "ChildItems": [
       {
-        "Id": 388,
-        "Name": "Walker, Turcotte and Wisozk",
-        "ToolTip": "Sapiente veniam doloremque placeat repellat iure sit quis.",
+        "Id": 445,
+        "Name": "Wyman-Schulist",
+        "ToolTip": "Natus optio eum eveniet.",
         "Deleted": false,
-        "Rank": 795,
-        "Type": "veritatis",
-        "ColorBlock": 279,
-        "IconHint": "voluptatem",
-        "Selected": false,
-        "LastChanged": "2021-04-28T17:37:40.3215019+02:00",
+        "Rank": 618,
+        "Type": "architecto",
+        "ColorBlock": 97,
+        "IconHint": "consectetur",
+        "Selected": true,
+        "LastChanged": "2019-11-11T14:19:11.4870653+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "iusto",
+        "ExtraInfo": "ea",
+        "StyleHint": "tempore",
         "Hidden": false,
-        "FullName": "Quinton Schaefer",
+        "FullName": "Kiley Wilderman V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 993
+            "FieldLength": 855
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "ut",
+    "ExtraInfo": "non",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Johnnie Lubowitz",
+    "FullName": "Imogene Ankunding",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 629
+        "FieldType": "System.String",
+        "FieldLength": 396
       }
     }
   }

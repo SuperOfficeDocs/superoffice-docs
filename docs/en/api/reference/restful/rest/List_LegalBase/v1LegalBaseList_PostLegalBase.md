@@ -74,15 +74,15 @@ OK
 POST /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 502,
-  "Name": "Nader Inc and Sons",
-  "Tooltip": "quisquam",
-  "Rank": 250,
-  "Key": "sapiente",
+  "LegalBaseId": 342,
+  "Name": "Yundt, Luettgen and Strosin",
+  "Tooltip": "sit",
+  "Rank": 474,
+  "Key": "aut",
   "Deleted": true
 }
 ```
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 505,
-  "Name": "Murazik-Skiles",
-  "Tooltip": "ipsa",
-  "Rank": 580,
-  "Key": "perferendis",
+  "LegalBaseId": 360,
+  "Name": "Purdy, Lemke and Hackett",
+  "Tooltip": "vel",
+  "Rank": 88,
+  "Key": "qui",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 43
+      "FieldLength": 38
     }
   }
 }

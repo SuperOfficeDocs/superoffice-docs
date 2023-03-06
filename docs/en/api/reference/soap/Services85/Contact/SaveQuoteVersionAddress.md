@@ -11,14 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IContactAgent.SaveQuoteVe
 
 ## SaveQuoteVersionAddress
 
-Save a custom quote version address.
 
-* **quoteVersionId:** The version to save the address on.
-* **address:** The address to save on the quote version.
-* **addressType:** Should be either QuoteBillingAddress or QuoteShippingAddress
-* **countryId:** The country for the custom address
 
-**Returns:** The saved addresses.
+
 
 [WSDL file for Services85/Contact](../Services85-Contact.md)
 
@@ -70,6 +65,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveQuoteVersionAddress Response
 
 ```xml
@@ -105,3 +101,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 128,
-  "Name": "West, Moore and Hermiston",
-  "Tooltip": "non",
-  "Deleted": true,
-  "UdListDefinitionId": 56,
-  "Rank": 483,
+  "Id": 608,
+  "Name": "Rohan, Kertzmann and Parisian",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "UdListDefinitionId": 188,
+  "Rank": 869,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 344
+      "FieldType": "System.Int32",
+      "FieldLength": 922
     }
   }
 }

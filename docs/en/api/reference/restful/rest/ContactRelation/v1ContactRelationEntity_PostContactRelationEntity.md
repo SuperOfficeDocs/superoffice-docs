@@ -109,28 +109,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 161,
-  "SourcePersonId": 388,
-  "DestinationContactId": 50,
-  "DestinationPersonId": 903,
-  "RelationId": 673,
-  "Comment": "consectetur",
-  "RelationDefinitionId": 289,
-  "Reversed": 337,
-  "UpdatedDate": "2009-05-27T17:37:38.4688603+02:00",
-  "CreatedDate": "2015-09-22T17:37:38.4688603+02:00",
+  "SourceContactId": 405,
+  "SourcePersonId": 431,
+  "DestinationContactId": 453,
+  "DestinationPersonId": 41,
+  "RelationId": 642,
+  "Comment": "mollitia",
+  "RelationDefinitionId": 693,
+  "Reversed": 267,
+  "UpdatedDate": "2001-06-07T14:19:10.240473+02:00",
+  "CreatedDate": "1999-07-08T14:19:10.240473+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Leffler, Marks and Towne",
-  "SourcePersonName": "Klocko, Ankunding and Senger",
-  "DestinationContactName": "Auer-Bahringer",
-  "DestinationPersonName": "Stark, Berge and Rempel",
-  "ActiveText": "veritatis",
-  "PassiveText": "inventore"
+  "SourceContactName": "Morissette, Bechtelar and Upton",
+  "SourcePersonName": "Labadie Inc and Sons",
+  "DestinationContactName": "Boyer-Ortiz",
+  "DestinationPersonName": "Hand Group",
+  "ActiveText": "deleniti",
+  "PassiveText": "qui"
 }
 ```
 
@@ -141,35 +141,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 872,
-  "SourcePersonId": 417,
-  "DestinationContactId": 189,
-  "DestinationPersonId": 63,
-  "RelationId": 84,
-  "Comment": "sit",
-  "RelationDefinitionId": 404,
-  "Reversed": 783,
-  "UpdatedDate": "2015-10-19T17:37:38.4718597+02:00",
-  "CreatedDate": "2001-08-11T17:37:38.4718597+02:00",
+  "SourceContactId": 530,
+  "SourcePersonId": 710,
+  "DestinationContactId": 76,
+  "DestinationPersonId": 748,
+  "RelationId": 793,
+  "Comment": "molestiae",
+  "RelationDefinitionId": 915,
+  "Reversed": 816,
+  "UpdatedDate": "1996-08-28T14:19:10.240473+02:00",
+  "CreatedDate": "2008-03-05T14:19:10.240473+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Padberg Group",
-  "SourcePersonName": "Shanahan, Lockman and Dibbert",
-  "DestinationContactName": "Pfeffer-Wisozk",
-  "DestinationPersonName": "Ondricka-Reinger",
-  "ActiveText": "voluptatibus",
-  "PassiveText": "dignissimos",
+  "SourceContactName": "Mohr-Nolan",
+  "SourcePersonName": "Keebler-Homenick",
+  "DestinationContactName": "Nolan LLC",
+  "DestinationPersonName": "Weissnat-Rice",
+  "ActiveText": "non",
+  "PassiveText": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 73
+      "FieldType": "System.Int32",
+      "FieldLength": 463
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

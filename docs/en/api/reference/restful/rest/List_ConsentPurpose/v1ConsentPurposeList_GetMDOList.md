@@ -26,7 +26,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=error
+GET /api/v1/List/ConsentPurpose/MDOItems?query=natus
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 316,
-    "Name": "Wyman, Durgan and Trantow",
-    "ToolTip": "Tenetur sit veniam.",
+    "Id": 568,
+    "Name": "Huels Inc and Sons",
+    "ToolTip": "Nobis porro ipsum asperiores et.",
     "Deleted": false,
-    "Rank": 766,
-    "Type": "animi",
+    "Rank": 878,
+    "Type": "ipsam",
     "ChildItems": [
       {
-        "Id": 576,
-        "Name": "Brakus, Ernser and Dare",
-        "ToolTip": "Architecto provident et.",
-        "Deleted": true,
-        "Rank": 598,
-        "Type": "numquam",
+        "Id": 891,
+        "Name": "Murazik, Wolff and Kirlin",
+        "ToolTip": "Perferendis quidem dolorem molestiae dicta.",
+        "Deleted": false,
+        "Rank": 627,
+        "Type": "ipsam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 501,
-        "ExtraInfo": "aut",
-        "StyleHint": "rerum",
-        "FullName": "Cortney Stamm",
+        "IconHint": "eos",
+        "ColorBlock": 871,
+        "ExtraInfo": "nostrum",
+        "StyleHint": "enim",
+        "FullName": "Vito Doyle I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 537
+            "FieldLength": 635
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 2,
-    "ExtraInfo": "beatae",
-    "StyleHint": "reprehenderit",
-    "FullName": "Ms. Leanna Kole Torp",
+    "IconHint": "sunt",
+    "ColorBlock": 234,
+    "ExtraInfo": "et",
+    "StyleHint": "dicta",
+    "FullName": "Mr. Brown Tracey Kshlerin DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 35
+        "FieldLength": 420
       }
     }
   }

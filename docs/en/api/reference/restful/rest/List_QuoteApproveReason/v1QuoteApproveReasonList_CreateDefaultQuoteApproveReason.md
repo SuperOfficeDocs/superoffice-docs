@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 958,
-  "Name": "Weissnat, Dicki and Kirlin",
-  "Tooltip": "aliquid",
-  "Deleted": false,
-  "UdListDefinitionId": 469,
-  "Rank": 552,
+  "Id": 165,
+  "Name": "Kshlerin Group",
+  "Tooltip": "sint",
+  "Deleted": true,
+  "UdListDefinitionId": 354,
+  "Rank": 450,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 964
+      "FieldLength": 954
     }
   }
 }

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.SaveUntrustedC
 
 ## SaveUntrustedCredentialsForAssociate
 
-Save credentials for a specified user.
 
-* **associateId:** Id of user to save credentials for.
-* **type:** Type of credential(Ex: "imap", "smtp")
-* **credentials:** Credentials to save.
+
+
 
 [WSDL file for Services84/User](../Services84-User.md)
 
@@ -44,8 +42,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <User:AssociateId xsi:type="xsd:int">0</User:AssociateId>
     <User:Type xsi:type="xsd:string"></User:Type>
     <User:Credentials xsi:type="User:UntrustedCredentials">
-     <User:ValidFrom xsi:type="xsd:dateTime">2022-08-26T08:51:57Z</User:ValidFrom>
-     <User:ValidTo xsi:type="xsd:dateTime">2022-08-26T08:51:57Z</User:ValidTo>
+     <User:ValidFrom xsi:type="xsd:dateTime">2023-02-15T13:10:29Z</User:ValidFrom>
+     <User:ValidTo xsi:type="xsd:dateTime">2023-02-15T13:10:29Z</User:ValidTo>
      <User:Comment xsi:type="xsd:string"></User:Comment>
      <User:SecretValue xsi:type="xsd:string"></User:SecretValue>
      <User:PublicValue xsi:type="xsd:string"></User:PublicValue>
@@ -57,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveUntrustedCredentialsForAssociate Response
 
@@ -77,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

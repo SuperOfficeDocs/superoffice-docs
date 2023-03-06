@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IPersonAgent.AddBounce">S
 
 ## AddBounce
 
-Add a bounce count on the email address if it exists
 
-* **emailAddress:** The email address which we want to add a bounce count to
+
+
 
 [WSDL file for Services87/Person](../Services87-Person.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## AddBounce Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

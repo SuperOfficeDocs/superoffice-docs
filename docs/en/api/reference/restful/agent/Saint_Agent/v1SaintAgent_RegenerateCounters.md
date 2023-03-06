@@ -83,6 +83,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -92,11 +93,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -107,36 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 518,
-  "Name": "Hagenes, Nikolaus and Smitham",
-  "AssociateId": 959,
-  "DetailsTable": 392,
-  "DetailsRecord": 762,
+  "Id": 651,
+  "Name": "Jacobson, Kris and Predovic",
+  "AssociateId": 169,
+  "DetailsTable": 484,
+  "DetailsRecord": 397,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "delectus",
-    "ParameterObject2": "architecto"
+    "ParameterObject1": "aut",
+    "ParameterObject2": "suscipit"
   },
-  "LastStarted": "2021-12-09T17:37:18.8172428+01:00",
-  "Created": "2019-09-24T17:37:18.8172428+02:00",
-  "StartCount": 122,
-  "DatabaseSerialNumber": "1187121",
-  "Context": "labore",
-  "Result": "dicta",
+  "LastStarted": "2021-03-08T14:19:04.0782101+01:00",
+  "Created": "1999-05-27T14:19:04.0782101+02:00",
+  "StartCount": 191,
+  "DatabaseSerialNumber": "1301678",
+  "Context": "reprehenderit",
+  "Result": "quia",
   "State": "All",
-  "Description": "Monitored 24/7 archive",
-  "Response": "ullam",
-  "Request": "porro",
-  "ProgressDescription": "Multi-lateral methodical hub",
-  "ProgressPercent": 54,
-  "FileName": "Pfeffer Group",
+  "Description": "Devolved tangible implementation",
+  "Response": "ipsum",
+  "Request": "ea",
+  "ProgressDescription": "Cross-group needs-based contingency",
+  "ProgressPercent": 679,
+  "FileName": "McGlynn-Walter",
+  "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldLength": 841
     }
   }
 }

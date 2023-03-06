@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 586,
-    "Name": "Bahringer LLC",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "UdListDefinitionId": 315,
-    "Rank": 143,
+    "Id": 871,
+    "Name": "Nikolaus LLC",
+    "Tooltip": "nihil",
+    "Deleted": false,
+    "UdListDefinitionId": 967,
+    "Rank": 543,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1001
+        "FieldLength": 202
       }
     }
   }

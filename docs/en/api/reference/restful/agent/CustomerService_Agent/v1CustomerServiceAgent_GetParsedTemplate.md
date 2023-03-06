@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 789,
-  "LanguageId": 970,
-  "PersonId": 165,
-  "TicketId": 491
+  "ReplyTemplateId": 654,
+  "LanguageId": 190,
+  "PersonId": 333,
+  "TicketId": 243
 }
 ```
 
@@ -97,34 +97,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 990,
-  "PlainParsed": "molestiae",
-  "HtmlParsed": "vel",
+  "ReplyTemplateId": 714,
+  "PlainParsed": "tenetur",
+  "HtmlParsed": "ipsa",
   "Attachments": [
     {
-      "AttachmentId": 12,
-      "Name": "Ritchie, Schuster and Wolf",
-      "ContentType": "delectus",
-      "AttSize": 876,
+      "AttachmentId": 80,
+      "Name": "Swaniawski, Kovacek and Grady",
+      "ContentType": "ratione",
+      "AttSize": 700,
       "InlineImage": true,
-      "ContentId": "suscipit",
+      "ContentId": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 41
+          "FieldType": "System.Int32",
+          "FieldLength": 308
         }
       }
     }
   ],
-  "Subject": "nihil",
+  "Subject": "laudantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldType": "System.String",
+      "FieldLength": 441
     }
   }
 }

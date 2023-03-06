@@ -79,7 +79,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,32 +87,32 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 05 May 2016 17:37:38 G5T
+Last-Modified: Thu, 16 Nov 2000 14:19:10 G11T
 
 {
-  "ForeignAppId": 774,
-  "Name": "Macejkovic Group",
-  "CreatedDate": "2011-09-18T17:37:38.6188654+02:00",
-  "UpdatedDate": "2016-05-05T17:37:38.6188654+02:00",
+  "ForeignAppId": 180,
+  "Name": "Wiegand-Reilly",
+  "CreatedDate": "2004-06-30T14:19:10.3498478+02:00",
+  "UpdatedDate": "2000-11-16T14:19:10.3498478+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 773,
-      "Name": "Wiza-Hayes",
-      "CreatedDate": "2014-04-01T17:37:38.619865+02:00",
-      "UpdatedDate": "2007-11-10T17:37:38.619865+01:00",
-      "AssociateFullName": "Merritt Paucek MD",
-      "CreatedBy": "autem",
-      "UpdatedBy": "nobis",
-      "DeviceIdentifier": "eum",
-      "ForeignAppId": 180,
+      "ForeignDeviceId": 776,
+      "Name": "Goodwin-Schaden",
+      "CreatedDate": "2015-09-26T14:19:10.3498478+02:00",
+      "UpdatedDate": "1998-08-27T14:19:10.3498478+02:00",
+      "AssociateFullName": "Piper Bogisich",
+      "CreatedBy": "nisi",
+      "UpdatedBy": "illo",
+      "DeviceIdentifier": "incidunt",
+      "ForeignAppId": 947,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 577
+          "FieldLength": 881
         }
       }
     }
@@ -122,7 +122,7 @@ Last-Modified: Thu, 05 May 2016 17:37:38 G5T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 709
+      "FieldLength": 593
     }
   },
   "_Links": {

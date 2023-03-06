@@ -73,7 +73,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,33 +81,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 20 Oct 1996 17:37:38 G10T
+Last-Modified: Sun, 27 Jan 2013 14:19:10 G1T
 
 {
-  "SourceContactId": 37,
-  "SourcePersonId": 745,
-  "DestinationContactId": 371,
-  "DestinationPersonId": 419,
-  "RelationId": 713,
-  "Comment": "laboriosam",
-  "RelationDefinitionId": 482,
-  "Reversed": 396,
-  "UpdatedDate": "1996-10-20T17:37:38.46686+02:00",
-  "CreatedDate": "2018-07-01T17:37:38.46686+02:00",
+  "SourceContactId": 497,
+  "SourcePersonId": 582,
+  "DestinationContactId": 398,
+  "DestinationPersonId": 934,
+  "RelationId": 309,
+  "Comment": "placeat",
+  "RelationDefinitionId": 59,
+  "Reversed": 6,
+  "UpdatedDate": "2013-01-27T14:19:10.2248533+01:00",
+  "CreatedDate": "2016-11-24T14:19:10.2248533+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Anderson-Emmerich",
-  "SourcePersonName": "Bartoletti Inc and Sons",
-  "DestinationContactName": "Schaden-Sauer",
-  "DestinationPersonName": "Hane-Beahan",
-  "ActiveText": "necessitatibus",
-  "PassiveText": "rem",
+  "SourceContactName": "Dare, Macejkovic and Beier",
+  "SourcePersonName": "Reichert, O'Connell and Mayert",
+  "DestinationContactName": "Schoen Inc and Sons",
+  "DestinationPersonName": "Braun, Johnston and Bartell",
+  "ActiveText": "qui",
+  "PassiveText": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 430
+      "FieldType": "System.Int32",
+      "FieldLength": 584
     }
   }
 }

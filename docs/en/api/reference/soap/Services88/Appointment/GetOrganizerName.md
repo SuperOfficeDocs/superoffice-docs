@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IAppointmentAgent.GetOrga
 
 ## GetOrganizerName
 
-Lookup the name / email of an event-organizer
 
-* **motherAppointmentId:** The id of the mother-appointment.
 
-**Returns:** The displayed name of the organizer: name or email
+
 
 [WSDL file for Services88/Appointment](../Services88-Appointment.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetOrganizerName Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

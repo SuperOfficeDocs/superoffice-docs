@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    611,
-    828
+    442,
+    50
   ]
 }
 ```
@@ -104,45 +104,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 67,
-    "MessageId": "id",
-    "Subject": "commodi",
+    "ServerId": 828,
+    "MessageId": "voluptatem",
+    "Subject": "explicabo",
     "From": null,
     "To": [
       {
-        "ContactId": 596,
-        "ContactName": "Hane, Roob and Sporer",
-        "PersonId": 277,
-        "PersonName": "Conn Inc and Sons",
-        "AssociateId": 965,
-        "Address": "inventore",
-        "EmailId": 688,
+        "ContactId": 83,
+        "ContactName": "Reinger Group",
+        "PersonId": 93,
+        "PersonName": "Koss-Goodwin",
+        "AssociateId": 262,
+        "Address": "sit",
+        "EmailId": 689,
         "DuplicatePersonIds": [
-          82,
-          190
+          741,
+          211
         ],
-        "Name": "Russel, Blick and Batz",
+        "Name": "Graham-Vandervort",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 397
+            "FieldType": "System.Int32",
+            "FieldLength": 821
           }
         }
       }
     ],
-    "Sent": "1999-04-11T17:37:17.9852431+02:00",
+    "Sent": "2003-04-10T14:19:03.466522+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 658,
+    "Size": 637,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 216
+        "FieldLength": 919
       }
     }
   }

@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IPocketAgent.SetPushNotif
 
 ## SetPushNotificationTagsForDevice
 
-Specify what kind of notification events a device should receive push notifications for
 
-* **deviceIdentifier:** The unique identifier for a device
-* **tags:** A comma separated list of events this device should receive push events for
+
+
 
 [WSDL file for Services86/Pocket](../Services86-Pocket.md)
 
@@ -49,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetPushNotificationTagsForDevice Response
 
 ```xml
@@ -68,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

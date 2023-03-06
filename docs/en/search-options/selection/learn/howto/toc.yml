@@ -7,11 +7,11 @@ items:
     href: send-email.md
   - name: Generate follow-ups
     href: generate-follow-ups.md
-  - name: Display selection as charts
+  - name: Display selection as chart
     href: display-as-charts.md
   - name: Bulk update
     href: bulk-update.md
-  - name: Printing labels Selection
+  - name: Print labels
     href: print-labels.md
   - name: Print company reports
     href: print-company-reports.md

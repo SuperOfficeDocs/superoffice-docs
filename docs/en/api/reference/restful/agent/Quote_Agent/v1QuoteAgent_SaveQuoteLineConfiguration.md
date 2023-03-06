@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 1002,
-  "FieldName": "Lowe, Greenholt and Ledner",
-  "Label": "quam",
-  "Tooltip": "eos",
-  "Editable": true,
+  "QuoteLineConfigurationId": 159,
+  "FieldName": "Welch, Waters and Hilpert",
+  "Label": "accusantium",
+  "Tooltip": "optio",
+  "Editable": false,
   "InUse": false,
   "Mandatory": true,
-  "Rank": 32,
+  "Rank": 599,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 563
+      "FieldType": "System.Int32",
+      "FieldLength": 948
     }
   }
 }

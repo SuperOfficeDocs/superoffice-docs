@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Jacobson-Brakus"
+  "TargetTableName": "Armstrong-Abshire"
 }
 ```
 
@@ -127,70 +127,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-tiered systematic moratorium",
-  "Postit": "consequatur",
+  "Description": "User-friendly grid-enabled system engine",
+  "Postit": "id",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 527,
-  "IncludePerson": 574,
-  "MemberCount": 687,
-  "Name": "Bayer-Schamberger",
-  "PostitTextId": 207,
-  "CreatedDate": "2007-04-01T17:37:18.9332431+02:00",
-  "SelectionId": 413,
-  "SoundEx": "sunt",
-  "Source": 666,
-  "TextId": 961,
-  "UpdatedDate": "2011-07-31T17:37:18.9332431+02:00",
-  "UpdatedCount": 841,
-  "Visibility": 7,
+  "GroupIdx": 386,
+  "IncludePerson": 970,
+  "MemberCount": 898,
+  "Name": "Pagac-Veum",
+  "PostitTextId": 609,
+  "CreatedDate": "2010-08-27T14:19:04.1723543+02:00",
+  "SelectionId": 42,
+  "SoundEx": "rerum",
+  "Source": 720,
+  "TextId": 680,
+  "UpdatedDate": "1995-12-11T14:19:04.1723543+01:00",
+  "UpdatedCount": 818,
+  "Visibility": 918,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 408,
-  "TargetTableName": "Armstrong, Stokes and Lueilwitz",
-  "Completed": true,
-  "LeftSelectionId": 679,
-  "RightSelectionId": 715,
+  "TargetTableNumber": 376,
+  "TargetTableName": "Ledner-Runte",
+  "Completed": false,
+  "LeftSelectionId": 32,
+  "RightSelectionId": 662,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schmitt Inc and Sons",
-  "ShadowProviderName": "Nitzsche-Rice",
-  "ChartKey": "eaque",
-  "LastLoaded": "2003-11-09T17:37:18.9342418+01:00",
-  "LastLoadedBy": 722,
+  "MainProviderName": "Watsica Group",
+  "ShadowProviderName": "Hahn-Parker",
+  "ChartKey": "dolorum",
+  "LastLoaded": "2012-05-03T14:19:04.1723543+02:00",
+  "LastLoadedBy": 130,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-04-27T17:37:18.9342418+02:00",
-  "LastMembershipChangeBy": 966,
+  "LastMembershipChange": "2021-04-27T14:19:04.1723543+02:00",
+  "LastMembershipChangeBy": 894,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "laudantium",
-  "MemberTabHeading": "in",
-  "MailingsProviderName": "D'Amore-Kertzmann",
-  "DashboardTileDefinitionId": 945,
+  "MainHeading": "at",
+  "MemberTabHeading": "doloremque",
+  "MailingsProviderName": "Gutkowski Group",
+  "DashboardTileDefinitionId": 300,
   "VisibleFor": [
     {
-      "VisibleId": 749,
+      "VisibleId": 784,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "similique",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 876
+          "FieldLength": 12
         }
       }
     },
     {
-      "VisibleId": 749,
+      "VisibleId": 784,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "similique",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 876
+          "FieldLength": 12
         }
       }
     }
@@ -199,8 +199,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldType": "System.String",
+      "FieldLength": 616
     }
   }
 }

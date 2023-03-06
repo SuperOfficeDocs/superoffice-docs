@@ -74,14 +74,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 511,
-  "Name": "Mills-McCullough",
-  "Tooltip": "in",
-  "Deleted": true,
-  "Rank": 303,
+  "Id": 850,
+  "Name": "Fadel, Hodkiewicz and Swaniawski",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 546,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
+  "UseGroupsAndHeadings": true,
   "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 950
+      "FieldLength": 29
     }
   },
   "_Links": {

@@ -95,23 +95,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 524,
-  "Name": "Abbott-Hane",
-  "CreatedDate": "2006-04-20T17:37:38.619865+02:00",
-  "UpdatedDate": "2001-10-18T17:37:38.619865+02:00",
+  "ForeignAppId": 559,
+  "Name": "Howe-Jakubowski",
+  "CreatedDate": "1998-04-30T14:19:10.3498478+02:00",
+  "UpdatedDate": "1995-12-18T14:19:10.3498478+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 991,
-      "Name": "Wilkinson-Kunze",
-      "CreatedDate": "2009-05-25T17:37:38.6208653+02:00",
-      "UpdatedDate": "2004-07-28T17:37:38.6208653+02:00",
-      "AssociateFullName": "Jeffrey Feeney",
-      "CreatedBy": "eos",
-      "UpdatedBy": "mollitia",
-      "DeviceIdentifier": "sed",
-      "ForeignAppId": 686
+      "ForeignDeviceId": 621,
+      "Name": "Ullrich, Kassulke and Gerlach",
+      "CreatedDate": "1996-01-27T14:19:10.3498478+01:00",
+      "UpdatedDate": "2002-09-29T14:19:10.3498478+02:00",
+      "AssociateFullName": "Irving Austyn Crist Sr.",
+      "CreatedBy": "repellat",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "molestiae",
+      "ForeignAppId": 946
     }
   ]
 }
@@ -124,29 +124,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 157,
-  "Name": "Ferry LLC",
-  "CreatedDate": "1998-12-07T17:37:38.6218657+01:00",
-  "UpdatedDate": "1999-06-09T17:37:38.6218657+02:00",
+  "ForeignAppId": 76,
+  "Name": "Hintz, Corwin and Armstrong",
+  "CreatedDate": "1998-02-08T14:19:10.3498478+01:00",
+  "UpdatedDate": "2009-06-09T14:19:10.3498478+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 454,
-      "Name": "Stamm-Lockman",
-      "CreatedDate": "2018-02-18T17:37:38.6228653+01:00",
-      "UpdatedDate": "2003-11-05T17:37:38.6228653+01:00",
-      "AssociateFullName": "Kristian Jones II",
-      "CreatedBy": "exercitationem",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "aut",
-      "ForeignAppId": 306,
+      "ForeignDeviceId": 964,
+      "Name": "Hayes-Satterfield",
+      "CreatedDate": "2001-01-27T14:19:10.3498478+01:00",
+      "UpdatedDate": "1996-06-18T14:19:10.3498478+02:00",
+      "AssociateFullName": "Baylee West",
+      "CreatedBy": "laborum",
+      "UpdatedBy": "mollitia",
+      "DeviceIdentifier": "repudiandae",
+      "ForeignAppId": 878,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 625
+          "FieldType": "System.String",
+          "FieldLength": 973
         }
       }
     }
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 350
+      "FieldLength": 751
     }
   },
   "_Links": {

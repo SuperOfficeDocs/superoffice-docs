@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kiehn, Hills and Medhurst",
+  "Name": "Ryan-Swaniawski",
   "ForceFlatList": false,
-  "AdditionalInfo": "dolor",
-  "OnlyHistory": false
+  "AdditionalInfo": "aperiam",
+  "OnlyHistory": true
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 677,
-    "Name": "Waters-Kunde",
-    "ToolTip": "Placeat optio neque nostrum.",
-    "Deleted": false,
-    "Rank": 905,
-    "Type": "molestiae",
+    "Id": 289,
+    "Name": "Kiehn-Altenwerth",
+    "ToolTip": "Ipsum non nobis quidem non aut repudiandae tenetur.",
+    "Deleted": true,
+    "Rank": 766,
+    "Type": "tempora",
     "ChildItems": [
       {
-        "Id": 687,
-        "Name": "Ankunding-Turner",
-        "ToolTip": "Nisi praesentium at ipsum.",
+        "Id": 846,
+        "Name": "Goldner Group",
+        "ToolTip": "Voluptas ab blanditiis eligendi corrupti exercitationem.",
         "Deleted": true,
-        "Rank": 536,
-        "Type": "cum",
+        "Rank": 352,
+        "Type": "aliquam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "tempora",
-        "ColorBlock": 46,
-        "ExtraInfo": "tempore",
-        "StyleHint": "quo",
-        "FullName": "Dr. Lorenza Bruen",
+        "IconHint": "pariatur",
+        "ColorBlock": 132,
+        "ExtraInfo": "ut",
+        "StyleHint": "aspernatur",
+        "FullName": "Daisy Keeling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 79
+            "FieldLength": 63
           }
         }
       }
     ],
-    "IconHint": "voluptas",
-    "ColorBlock": 393,
-    "ExtraInfo": "temporibus",
-    "StyleHint": "blanditiis",
-    "FullName": "Alexa Herman",
+    "IconHint": "consequatur",
+    "ColorBlock": 412,
+    "ExtraInfo": "animi",
+    "StyleHint": "placeat",
+    "FullName": "Brandt Josephine Ledner I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 982
+        "FieldLength": 32
       }
     }
   }

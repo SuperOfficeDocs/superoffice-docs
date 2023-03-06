@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IErpSyncAgent.UpdateConne
 
 ## UpdateConnectionFields
 
-Gets all supported actor types, and all fields for each actor type, and save this state to the CRM database
 
-* **erpConnectionId:** The ERP connection ID
 
-**Returns:** Success or fail
+
 
 [WSDL file for Services85/ErpSync](../Services85-ErpSync.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## UpdateConnectionFields Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

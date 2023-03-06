@@ -26,7 +26,7 @@ Calls the List agent service GetAllTicketPriorityEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/TicketPriority/Items?includeDeleted=False
+GET /api/v1/List/TicketPriority/Items?includeDeleted=True
 ```
 
 
@@ -104,60 +104,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 479,
-    "Name": "Becker, Howe and Heaney",
+    "TicketPriorityId": 738,
+    "Name": "Gutmann-Wilkinson",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 691,
+    "SortOrder": 430,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 913,
-    "MonStart": "2019-08-24T17:37:40.4145006+02:00",
-    "MonStop": "1996-09-30T17:37:40.4145006+02:00",
-    "TueStart": "2002-03-19T17:37:40.4145006+01:00",
-    "TueStop": "2006-07-31T17:37:40.4145006+02:00",
-    "WedStart": "2009-07-14T17:37:40.4145006+02:00",
-    "WedStop": "1996-11-27T17:37:40.4145006+01:00",
-    "ThuStart": "2004-12-31T17:37:40.4145006+01:00",
-    "ThuStop": "1996-10-01T17:37:40.4155002+02:00",
-    "FriStart": "2014-07-20T17:37:40.4155002+02:00",
-    "FriStop": "2021-08-11T17:37:40.4155002+02:00",
-    "SatStart": "2013-06-17T17:37:40.4155002+02:00",
-    "SatStop": "1996-12-10T17:37:40.4155002+01:00",
-    "SunStart": "2020-06-10T17:37:40.4155002+02:00",
-    "SunStop": "1998-04-06T17:37:40.4155002+02:00",
+    "Deadline": 915,
+    "MonStart": "2014-12-29T14:19:11.660135+01:00",
+    "MonStop": "1997-07-08T14:19:11.660135+02:00",
+    "TueStart": "2006-04-26T14:19:11.660135+02:00",
+    "TueStop": "2013-01-08T14:19:11.660135+01:00",
+    "WedStart": "1998-12-11T14:19:11.660135+01:00",
+    "WedStop": "2002-02-03T14:19:11.660135+01:00",
+    "ThuStart": "2017-04-15T14:19:11.660135+02:00",
+    "ThuStop": "2008-11-19T14:19:11.660135+01:00",
+    "FriStart": "2010-06-24T14:19:11.660135+02:00",
+    "FriStop": "2021-07-24T14:19:11.660135+02:00",
+    "SatStart": "2004-11-04T14:19:11.660135+01:00",
+    "SatStop": "2007-04-02T14:19:11.660135+02:00",
+    "SunStart": "2012-06-12T14:19:11.660135+02:00",
+    "SunStop": "2022-03-31T14:19:11.660135+02:00",
     "NonDates": [
-      "sed",
-      "ea"
+      "eum",
+      "eos"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 271,
-        "AlertLevel": 713,
-        "AlertTimeout": 339,
-        "Action": 889,
-        "DelegateTo": 995,
-        "ScriptId": 568,
-        "EmailTo": "mathew@roobjones.ca",
-        "SmsTo": "ex",
-        "ReplyTemplateIdCustomer": 621,
-        "ReplyTemplateIdUser": 402,
-        "ReplyTemplateIdCatmast": 661,
-        "ReplyTemplateIdEmail": 445,
-        "RtiCustomerSms": 792,
-        "ReplyTemplateIdUserSms": 324,
-        "ReplyTemplateIdCatmastSms": 858,
-        "ReplyTemplateIdSms": 88,
+        "TicketAlertId": 608,
+        "AlertLevel": 911,
+        "AlertTimeout": 659,
+        "Action": 999,
+        "DelegateTo": 610,
+        "ScriptId": 642,
+        "EmailTo": "chance@jenkins.co.uk",
+        "SmsTo": "nulla",
+        "ReplyTemplateIdCustomer": 668,
+        "ReplyTemplateIdUser": 318,
+        "ReplyTemplateIdCatmast": 745,
+        "ReplyTemplateIdEmail": 204,
+        "RtiCustomerSms": 866,
+        "ReplyTemplateIdUserSms": 343,
+        "ReplyTemplateIdCatmastSms": 984,
+        "ReplyTemplateIdSms": 416,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 312
+            "FieldType": "System.String",
+            "FieldLength": 902
           }
         }
       }
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 355
+        "FieldLength": 455
       }
     }
   }

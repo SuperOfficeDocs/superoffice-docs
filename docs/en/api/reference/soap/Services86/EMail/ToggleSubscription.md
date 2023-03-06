@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.ToggleSubscri
 
 ## ToggleSubscription
 
-Set subscription on or off on a set of folders
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-* **folderId:** The folder id to set subscription value on
-* **subscriptionStatus:** The subscription status to set
+
+
 
 [WSDL file for Services86/EMail](../Services86-EMail.md)
 
@@ -50,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ToggleSubscription Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

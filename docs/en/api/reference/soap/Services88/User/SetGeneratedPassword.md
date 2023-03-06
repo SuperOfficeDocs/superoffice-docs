@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.SetGeneratedPa
 
 ## SetGeneratedPassword
 
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **associateId:**
+
+
 
 [WSDL file for Services88/User](../Services88-User.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetGeneratedPassword Response
 
 ```xml
@@ -67,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

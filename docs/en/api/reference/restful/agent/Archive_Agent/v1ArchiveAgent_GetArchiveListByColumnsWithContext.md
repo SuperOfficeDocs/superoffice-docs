@@ -103,36 +103,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Windler, Borer and Volkman",
+  "ProviderName": "Kemmer-Hand",
   "Columns": [
-    "voluptas",
-    "et"
+    "impedit",
+    "est"
   ],
   "SortOrder": [
     {
-      "Name": "King-Anderson",
+      "Name": "Konopelski Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "King-Anderson",
+      "Name": "Konopelski Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Will-Berge",
-      "Operator": "libero",
+      "Name": "Berge-Hammes",
+      "Operator": "debitis",
       "Values": [
-        "necessitatibus",
-        "architecto"
+        "quaerat",
+        "distinctio"
       ],
       "DisplayValues": [
-        "porro",
-        "aut"
+        "eum",
+        "voluptatem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -140,18 +140,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 774,
+      "InterParenthesis": 992,
       "InterOperator": "And",
-      "UniqueHash": 842
+      "UniqueHash": 368
     }
   ],
   "Entities": [
-    "eligendi",
-    "at"
+    "ullam",
+    "fugiat"
   ],
-  "Page": 596,
-  "PageSize": 968,
-  "Context": "neque"
+  "Page": 614,
+  "PageSize": 520,
+  "Context": "omnis"
 }
 ```
 
@@ -163,23 +163,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Reinger, Kunze and McClure",
-    "PrimaryKey": 117,
+    "EntityName": "Kessler, Sauer and Dietrich",
+    "PrimaryKey": 740,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "amet",
-        "TooltipHint": "earum",
-        "LinkHint": "voluptates"
+        "DisplayValue": "dignissimos",
+        "TooltipHint": "et",
+        "LinkHint": "eos"
       }
     },
-    "LinkHint": "cum",
-    "StyleHint": "facilis",
+    "LinkHint": "repellat",
+    "StyleHint": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 746
+        "FieldLength": 531
       }
     }
   }

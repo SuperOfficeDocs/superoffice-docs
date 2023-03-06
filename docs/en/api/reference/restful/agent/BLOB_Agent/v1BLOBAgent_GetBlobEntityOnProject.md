@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 704
+  "ProjectId": 841
 }
 ```
 
@@ -99,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 146,
-  "BlobSize": 294,
-  "Description": "Synergistic disintermediate concept",
-  "ExtraInfo": "atque",
-  "IsEncrypted": false,
+  "BlobId": 833,
+  "BlobSize": 551,
+  "Description": "Future-proofed assymetric projection",
+  "ExtraInfo": "vel",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "sunt",
-  "OriginalSize": 488,
-  "CreatedDate": "2002-06-26T17:37:16.9182405+02:00",
-  "UpdatedDate": "2001-08-01T17:37:16.9182405+02:00",
+  "MimeType": "dolore",
+  "OriginalSize": 345,
+  "CreatedDate": "2011-12-05T14:19:02.7750538+01:00",
+  "UpdatedDate": "2008-05-05T14:19:02.7750538+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "autem",
+  "ConceptualType": "vero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 856
+      "FieldLength": 951
     }
   }
 }

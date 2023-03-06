@@ -137,18 +137,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "numquam",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "numquam",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -161,48 +161,48 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 477,
-  "Name": "Towne LLC",
-  "Description": "Secured composite groupware",
-  "WelcomeMessage": "dolorum",
+  "ChatTopicId": 602,
+  "Name": "Turner, Hansen and Wyman",
+  "Description": "Front-line transitional monitoring",
+  "WelcomeMessage": "reprehenderit",
   "Language": null,
-  "LastAccept": "2019-01-06T17:37:38.3068598+01:00",
-  "SecondsPrAccept": 621,
-  "AlertRecipient": "voluptas",
+  "LastAccept": "2007-07-21T14:19:10.0998102+02:00",
+  "SecondsPrAccept": 682,
+  "AlertRecipient": "libero",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "voluptatem",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "inventore",
-  "WarnNewChatMinutes": 378,
-  "WarnManagerNewChatMinutes": 67,
-  "TicketEnabled": false,
+  "CollectConsent": false,
+  "BadgeHeader": "expedita",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "nihil",
+  "WarnNewChatMinutes": 316,
+  "WarnManagerNewChatMinutes": 529,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 297,
-  "WarnManagerChatMessageMinutes": 948,
+  "WarnChatMessageMinutes": 915,
+  "WarnManagerChatMessageMinutes": 305,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 602,
-  "OfflineFormQueueLength": 476,
+  "OfflineFormTimeLimit": 897,
+  "OfflineFormQueueLength": 496,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "ut",
+  "WidgetRatingText": "iusto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldType": "System.String",
+      "FieldLength": 435
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

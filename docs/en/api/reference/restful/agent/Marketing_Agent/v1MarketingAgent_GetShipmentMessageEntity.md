@@ -25,7 +25,7 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=614
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=83
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
 
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 344,
-  "PlainMessage": "eaque",
-  "HtmlMessage": "sit",
-  "SmsMessage": "et",
-  "Description": "Persistent demand-driven implementation",
-  "Subject": "est",
-  "FolderId": 499,
-  "HeaderField": "fugit",
-  "Design": "soluta",
+  "ShipmentMessageId": 711,
+  "PlainMessage": "laboriosam",
+  "HtmlMessage": "iusto",
+  "SmsMessage": "eum",
+  "Description": "Multi-tiered 24 hour complexity",
+  "Subject": "error",
+  "FolderId": 821,
+  "HeaderField": "consequatur",
+  "Design": "voluptates",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Centralized regional emulation",
-  "AccessKey": "cupiditate",
-  "DocumentMessage": 426,
-  "Registered": "2014-04-22T17:37:18.3262413+02:00",
-  "RegisteredAssociateId": 316,
-  "Updated": "2018-09-05T17:37:18.3262413+02:00",
-  "UpdatedAssociateId": 418,
-  "UpdatedCount": 600,
+  "LongDescription": "Vision-oriented real-time collaboration",
+  "AccessKey": "consequatur",
+  "DocumentMessage": 577,
+  "Registered": "2011-09-15T14:19:03.7176242+02:00",
+  "RegisteredAssociateId": 591,
+  "Updated": "2006-05-24T14:19:03.7176242+02:00",
+  "UpdatedAssociateId": 622,
+  "UpdatedCount": 403,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 177
+      "FieldLength": 535
     }
   }
 }

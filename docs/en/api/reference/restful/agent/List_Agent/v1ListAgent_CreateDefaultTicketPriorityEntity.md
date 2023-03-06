@@ -93,60 +93,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 243,
-  "Name": "Moen, Kunde and Vandervort",
+  "TicketPriorityId": 805,
+  "Name": "Goldner, Streich and Lemke",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 488,
+  "SortOrder": 704,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 982,
-  "MonStart": "2012-12-24T17:37:18.2932417+01:00",
-  "MonStop": "2000-07-03T17:37:18.2932417+02:00",
-  "TueStart": "2003-03-07T17:37:18.2932417+01:00",
-  "TueStop": "2003-03-15T17:37:18.2932417+01:00",
-  "WedStart": "2016-01-30T17:37:18.2932417+01:00",
-  "WedStop": "2018-02-12T17:37:18.2932417+01:00",
-  "ThuStart": "2015-10-03T17:37:18.2932417+02:00",
-  "ThuStop": "2006-04-24T17:37:18.2932417+02:00",
-  "FriStart": "2014-11-27T17:37:18.2932417+01:00",
-  "FriStop": "2006-08-06T17:37:18.2932417+02:00",
-  "SatStart": "1995-12-28T17:37:18.2932417+01:00",
-  "SatStop": "2002-12-03T17:37:18.2932417+01:00",
-  "SunStart": "2008-01-28T17:37:18.2932417+01:00",
-  "SunStop": "2007-12-26T17:37:18.2932417+01:00",
+  "Deadline": 543,
+  "MonStart": "2005-02-26T14:19:03.7019992+01:00",
+  "MonStop": "2015-01-08T14:19:03.7019992+01:00",
+  "TueStart": "2015-06-27T14:19:03.7019992+02:00",
+  "TueStop": "2005-03-30T14:19:03.7019992+02:00",
+  "WedStart": "2006-12-31T14:19:03.7019992+01:00",
+  "WedStop": "1998-11-22T14:19:03.7019992+01:00",
+  "ThuStart": "2002-02-26T14:19:03.7019992+01:00",
+  "ThuStop": "2004-09-18T14:19:03.7019992+02:00",
+  "FriStart": "2004-09-11T14:19:03.7019992+02:00",
+  "FriStop": "2002-04-30T14:19:03.7019992+02:00",
+  "SatStart": "2012-08-19T14:19:03.7019992+02:00",
+  "SatStop": "2007-08-08T14:19:03.7019992+02:00",
+  "SunStart": "2022-10-13T14:19:03.7019992+02:00",
+  "SunStop": "2012-06-15T14:19:03.7019992+02:00",
   "NonDates": [
-    "numquam",
-    "laboriosam"
+    "fuga",
+    "id"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 857,
-      "AlertLevel": 414,
-      "AlertTimeout": 127,
-      "Action": 199,
-      "DelegateTo": 258,
-      "ScriptId": 217,
-      "EmailTo": "emely@gorczany.co.uk",
-      "SmsTo": "quia",
-      "ReplyTemplateIdCustomer": 997,
-      "ReplyTemplateIdUser": 935,
-      "ReplyTemplateIdCatmast": 83,
-      "ReplyTemplateIdEmail": 411,
-      "RtiCustomerSms": 47,
-      "ReplyTemplateIdUserSms": 736,
-      "ReplyTemplateIdCatmastSms": 529,
-      "ReplyTemplateIdSms": 415,
+      "TicketAlertId": 866,
+      "AlertLevel": 204,
+      "AlertTimeout": 136,
+      "Action": 156,
+      "DelegateTo": 874,
+      "ScriptId": 341,
+      "EmailTo": "tommie@cruickshank.biz",
+      "SmsTo": "perspiciatis",
+      "ReplyTemplateIdCustomer": 883,
+      "ReplyTemplateIdUser": 399,
+      "ReplyTemplateIdCatmast": 662,
+      "ReplyTemplateIdEmail": 21,
+      "RtiCustomerSms": 496,
+      "ReplyTemplateIdUserSms": 893,
+      "ReplyTemplateIdCatmastSms": 998,
+      "ReplyTemplateIdSms": 626,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 233
+          "FieldLength": 617
         }
       }
     }
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 453
+      "FieldType": "System.Int32",
+      "FieldLength": 944
     }
   }
 }

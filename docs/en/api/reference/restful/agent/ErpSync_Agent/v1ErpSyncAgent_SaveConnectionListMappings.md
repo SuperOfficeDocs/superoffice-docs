@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Marvin, Ernser and Beier",
+      "ErpListName": "Ullrich, Keeling and Aufderhar",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Schmitt LLC",
-      "ErpFieldId": 178,
+      "ErpActorTypeName": "Leuschke, Harvey and Hermiston",
+      "ErpFieldId": 505,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 128
+          "FieldLength": 825
         }
       }
     }
   ],
-  "ErpConnectionId": 277,
-  "ErpConnectionName": "Kovacek LLC",
+  "ErpConnectionId": 821,
+  "ErpConnectionName": "Hettinger-Becker",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 425
+      "FieldType": "System.Int32",
+      "FieldLength": 294
     }
   }
 }

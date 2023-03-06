@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 714,
-  "CurrentAppointmentId": 588,
+  "SaleId": 21,
+  "CurrentAppointmentId": 664,
   "SkipCompleteCheck": false
 }
 ```
@@ -104,26 +104,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 328,
-  "Deleted": 407,
-  "DaysFuture": 751,
-  "Tooltip": "ut",
-  "Text": "consequatur",
-  "TaskId": 218,
-  "SuggestedAppointmentId": 490,
-  "SaleTypeStageLinkId": 660,
-  "RegisteredAssociateId": 735,
-  "Rank": 960,
-  "ProjectTypeStatusLinkId": 562,
-  "Name": "Ledner, Hane and Christiansen",
-  "Duration": 488,
+  "AutoSuggest": 623,
+  "Deleted": 483,
+  "DaysFuture": 943,
+  "Tooltip": "labore",
+  "Text": "quis",
+  "TaskId": 748,
+  "SuggestedAppointmentId": 581,
+  "SaleTypeStageLinkId": 952,
+  "RegisteredAssociateId": 479,
+  "Rank": 15,
+  "ProjectTypeStatusLinkId": 478,
+  "Name": "Labadie-Hermiston",
+  "Duration": 226,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 79
+      "FieldLength": 678
     }
   }
 }

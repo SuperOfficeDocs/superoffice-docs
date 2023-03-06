@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IMarketingAgent.GetPrevie
 
 ## GetPreviewMailing
 
-Get a shipment message from its shipment address id
 
-* **shipmentAddrId:** Shipment address id
 
-**Returns:** PreviewMailing
+
 
 [WSDL file for Services88/Marketing](../Services88-Marketing.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetPreviewMailing Response
 
 ```xml
@@ -62,7 +61,7 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
   <Marketing:GetPreviewMailingResponse>
    <Marketing:Response xsi:type="Marketing:PreviewMailing">
-    <Marketing:SendingTime xsi:type="xsd:dateTime">2022-08-26T08:59:55Z</Marketing:SendingTime>
+    <Marketing:SendingTime xsi:type="xsd:dateTime">2023-02-15T13:17:52Z</Marketing:SendingTime>
     <Marketing:Status xsi:type="Marketing:ShipmentAddrStatus">Unknown</Marketing:Status>
     <Marketing:ShipmentId xsi:type="xsd:int">0</Marketing:ShipmentId>
     <Marketing:ShipmentDescription xsi:type="xsd:string"></Marketing:ShipmentDescription>
@@ -75,7 +74,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Marketing:MessageId xsi:type="xsd:int">0</Marketing:MessageId>
     <Marketing:MessageSubject xsi:type="xsd:string"></Marketing:MessageSubject>
     <Marketing:DocumentMessageId xsi:type="xsd:int">0</Marketing:DocumentMessageId>
-    <Marketing:Opened xsi:type="xsd:dateTime">2022-08-26T08:59:55Z</Marketing:Opened>
+    <Marketing:Opened xsi:type="xsd:dateTime">2023-02-15T13:17:52Z</Marketing:Opened>
     <Marketing:LinkClicks xsi:type="xsd:int">0</Marketing:LinkClicks>
    </Marketing:Response>
   </Marketing:GetPreviewMailingResponse>
@@ -83,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

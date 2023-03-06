@@ -126,17 +126,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactId": 861,
-  "StartTime": "2016-02-09T17:37:16.2442419+01:00",
-  "EndTime": "2004-03-18T17:37:16.2442419+01:00",
-  "Count": 701,
+  "StartTime": "2002-11-12T14:19:02.3574969+01:00",
+  "EndTime": "2009-03-09T14:19:02.3574969+01:00",
+  "Count": 162,
   "TaskIds": [
-    164,
-    25
+    120,
+    938
   ]
 }
 ```
@@ -149,61 +149,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 518,
-    "StartDate": "2008-01-02T17:37:16.2452417+01:00",
-    "EndDate": "2014-12-31T17:37:16.2452417+01:00",
+    "AppointmentId": 69,
+    "StartDate": "2009-04-28T14:19:02.3574969+02:00",
+    "EndDate": "2002-08-03T14:19:02.3574969+02:00",
     "Type": "BookingForChecklist",
-    "Task": "officia",
-    "AssociateFullName": "Willy Breanne Mraz PhD",
-    "ContactName": "Russel-Braun",
-    "Description": "Object-based impactful task-force",
-    "PersonFullName": "Jade Pfeffer",
-    "PersonId": 871,
-    "ContactId": 869,
-    "ProjectId": 771,
-    "ProjectName": "Ortiz-Grant",
+    "Task": "ea",
+    "AssociateFullName": "Trycia Douglas",
+    "ContactName": "Gerlach-Jaskolski",
+    "Description": "Triple-buffered local support",
+    "PersonFullName": "Ms. Felicia Leannon",
+    "PersonId": 706,
+    "ContactId": 71,
+    "ProjectId": 454,
+    "ProjectName": "Boehm Group",
     "IsPublished": false,
-    "AssociateId": 713,
-    "ColorIndex": 595,
-    "IsFree": false,
+    "AssociateId": 900,
+    "ColorIndex": 276,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 358,
-    "PriorityName": "Bernier, Ledner and Quigley",
+    "PriorityId": 602,
+    "PriorityName": "Goldner, Harvey and Rowe",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2021-09-15T17:37:16.2462423+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2010-03-12T14:19:02.3574969+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1997-07-23T17:37:16.2462423+02:00",
-    "RecurringEndDate": "2007-06-06T17:37:16.2462423+02:00",
-    "MotherId": 484,
-    "AssignedBy": 364,
-    "AssignedByFullName": "Miss Hector Bradtke",
+    "RecurringStartDate": "2007-08-12T14:19:02.3574969+02:00",
+    "RecurringEndDate": "1996-12-15T14:19:02.3574969+01:00",
+    "MotherId": 548,
+    "AssignedBy": 354,
+    "AssignedByFullName": "Barrett White Sr.",
     "RejectReason": "",
-    "Location": "quidem",
-    "AlarmLeadTime": "et",
-    "SaleId": 999,
-    "SaleName": "Bradtke, Turner and Beahan",
-    "AssociateName": "Orn LLC",
-    "CreatedDate": "2015-01-12T17:37:16.2462423+01:00",
-    "CreatedBy": "nihil",
-    "CreatedByFullName": "Mossie Blanda",
-    "CreatedByAssociateId": 857,
+    "Location": "quasi",
+    "AlarmLeadTime": "ut",
+    "SaleId": 667,
+    "SaleName": "Hessel-McDermott",
+    "AssociateName": "Runolfsdottir-Howell",
+    "CreatedDate": "2003-06-07T14:19:02.3574969+02:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Renee Hagenes",
+    "CreatedByAssociateId": 335,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 442
+        "FieldType": "System.String",
+        "FieldLength": 100
       }
     }
   }

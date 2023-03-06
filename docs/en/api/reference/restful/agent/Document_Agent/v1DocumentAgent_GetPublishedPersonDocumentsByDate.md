@@ -97,15 +97,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 673,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2017-07-07T17:37:17.4212441+02:00",
-  "EndTime": "1999-12-01T17:37:17.4212441+01:00",
-  "Count": 731
+  "PersonId": 386,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2019-06-13T14:19:03.1355296+02:00",
+  "EndTime": "1996-08-12T14:19:03.1355296+02:00",
+  "Count": 351
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 404,
-    "Attention": "dolor",
-    "Header": "maiores",
-    "Name": "Mertz, McDermott and Stokes",
-    "OurRef": "esse",
-    "YourRef": "consequatur",
-    "Description": "Profound upward-trending attitude",
-    "DocumentTemplate": "ut",
-    "IsPublished": true,
-    "PersonId": 399,
-    "PersonFullName": "Ms. Watson Courtney Connelly",
-    "AssociateFullName": "Jamir Mayer Sr.",
-    "ContactId": 821,
-    "ContactName": "Herzog, Lesch and Bogan",
-    "ProjectId": 128,
-    "ProjectName": "Kovacek Group",
-    "AssociateId": 499,
-    "Snum": 883,
-    "SaleId": 882,
-    "SaleName": "Wuckert-Runte",
+    "DocumentId": 587,
+    "Attention": "suscipit",
+    "Header": "eius",
+    "Name": "Satterfield-McClure",
+    "OurRef": "minima",
+    "YourRef": "minus",
+    "Description": "Triple-buffered bottom-line frame",
+    "DocumentTemplate": "dicta",
+    "IsPublished": false,
+    "PersonId": 241,
+    "PersonFullName": "Dr. Claudie Roberts",
+    "AssociateFullName": "Annie Dean Considine DDS",
+    "ContactId": 250,
+    "ContactName": "Runte-Donnelly",
+    "ProjectId": 658,
+    "ProjectName": "Rohan-Streich",
+    "AssociateId": 386,
+    "Snum": 893,
+    "SaleId": 266,
+    "SaleName": "Oberbrunner-Grimes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 879
+        "FieldLength": 113
       }
     }
   }

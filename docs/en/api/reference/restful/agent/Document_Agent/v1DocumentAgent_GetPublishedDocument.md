@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 877
+  "DocumentId": 365
 }
 ```
 
@@ -106,32 +106,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 234,
-  "Attention": "consequatur",
-  "Header": "suscipit",
-  "Name": "Bosco-Schuster",
-  "OurRef": "qui",
-  "YourRef": "qui",
-  "Description": "Compatible didactic algorithm",
-  "DocumentTemplate": "adipisci",
-  "IsPublished": false,
-  "PersonId": 855,
-  "PersonFullName": "Miss Carissa Swift DDS",
-  "AssociateFullName": "Dr. Merlin Krajcik",
-  "ContactId": 497,
-  "ContactName": "Grady-Klein",
-  "ProjectId": 569,
-  "ProjectName": "Kuhn-Hansen",
-  "AssociateId": 389,
-  "Snum": 474,
-  "SaleId": 29,
-  "SaleName": "Skiles, Smitham and Bogan",
+  "DocumentId": 653,
+  "Attention": "voluptatum",
+  "Header": "sit",
+  "Name": "Brakus-Kuphal",
+  "OurRef": "accusamus",
+  "YourRef": "culpa",
+  "Description": "Fully-configurable non-volatile paradigm",
+  "DocumentTemplate": "eaque",
+  "IsPublished": true,
+  "PersonId": 744,
+  "PersonFullName": "Petra Harris",
+  "AssociateFullName": "Dusty Padberg",
+  "ContactId": 14,
+  "ContactName": "Eichmann Group",
+  "ProjectId": 467,
+  "ProjectName": "Goyette LLC",
+  "AssociateId": 611,
+  "Snum": 383,
+  "SaleId": 958,
+  "SaleName": "Wisozk, Medhurst and Stracke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 752
+      "FieldType": "System.Int32",
+      "FieldLength": 982
     }
   }
 }

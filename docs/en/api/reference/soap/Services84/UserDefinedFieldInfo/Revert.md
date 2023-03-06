@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IUserDefinedFieldInfoAgen
 
 ## Revert
 
-Revert changed Udef fields for the given owner type - all unpublished changes will be lost
 
-* **ownerType:** The owner type to revert fields for
+
+
 
 [WSDL file for Services84/UserDefinedFieldInfo](../Services84-UserDefinedFieldInfo.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## Revert Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

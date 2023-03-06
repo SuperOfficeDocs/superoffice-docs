@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 759,
+  "ErpConnectionId": 973,
   "ActorType": "Customer"
 }
 ```
@@ -95,33 +95,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 708,
+  "ErpConnectionId": 976,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 172,
-      "CrmFieldKey": "ullam",
-      "CrmDisplayName": "Jast, Tremblay and Zemlak",
-      "CrmDisplayTooltip": "et",
-      "ErpFieldKey": "necessitatibus",
+      "ErpFieldId": 21,
+      "CrmFieldKey": "iusto",
+      "CrmDisplayName": "Jerde Inc and Sons",
+      "CrmDisplayTooltip": "labore",
+      "ErpFieldKey": "suscipit",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Renner, Moore and Champlin",
-      "ErpDisplayTooltip": "libero",
-      "SyncToCrm": true,
+      "ErpDisplayName": "Wintheiser-Dicki",
+      "ErpDisplayTooltip": "illum",
+      "SyncToCrm": false,
       "SyncToErp": true,
       "ShowInGui": true,
-      "ShowInSearch": false,
-      "AlreadyMapped": false,
+      "ShowInSearch": true,
+      "AlreadyMapped": true,
       "MissingInERP": true,
-      "MissingInCRM": true,
+      "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "quia",
+      "ListReference": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 568
+          "FieldType": "System.String",
+          "FieldLength": 445
         }
       }
     }
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 731
+      "FieldType": "System.String",
+      "FieldLength": 752
     }
   }
 }

@@ -69,7 +69,7 @@ OK
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 573,
-  "Name": "Johnston, Wintheiser and Raynor",
+  "ScreenChooserId": 751,
+  "Name": "Quitzon LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "voluptas",
-  "Source": "aliquid",
-  "Registered": "2019-07-26T17:37:39.3944306+02:00",
-  "RegisteredAssociateId": 984,
-  "Updated": "1996-03-09T17:37:39.3944306+01:00",
-  "UpdatedAssociateId": 63,
+  "UniqueIdentifier": "commodi",
+  "Source": "accusamus",
+  "Registered": "2005-07-21T14:19:10.912356+02:00",
+  "RegisteredAssociateId": 273,
+  "Updated": "2022-06-26T14:19:10.912356+02:00",
+  "UpdatedAssociateId": 809,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 979
+      "FieldType": "System.Int32",
+      "FieldLength": 746
     }
   }
 }

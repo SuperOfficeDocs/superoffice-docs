@@ -26,7 +26,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=True
-GET /api/v1/List/SelectionCategory/MDOItems?query=enim
+GET /api/v1/List/SelectionCategory/MDOItems?query=suscipit
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 174,
-    "Name": "Ortiz Inc and Sons",
-    "ToolTip": "Non earum recusandae.",
-    "Deleted": false,
-    "Rank": 863,
-    "Type": "non",
+    "Id": 19,
+    "Name": "Kling Inc and Sons",
+    "ToolTip": "Neque fuga.",
+    "Deleted": true,
+    "Rank": 534,
+    "Type": "doloribus",
     "ChildItems": [
       {
-        "Id": 195,
-        "Name": "Powlowski, Jerde and Klocko",
-        "ToolTip": "Ad dolores modi assumenda sed tenetur.",
-        "Deleted": false,
-        "Rank": 854,
-        "Type": "error",
+        "Id": 487,
+        "Name": "Emmerich, Emard and Beahan",
+        "ToolTip": "Nostrum nulla culpa inventore voluptas magnam.",
+        "Deleted": true,
+        "Rank": 146,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "iste",
-        "ColorBlock": 86,
-        "ExtraInfo": "inventore",
-        "StyleHint": "ea",
-        "FullName": "Salma Mayert",
+        "IconHint": "fugit",
+        "ColorBlock": 778,
+        "ExtraInfo": "doloribus",
+        "StyleHint": "sed",
+        "FullName": "Wilma Rowe DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 91
+            "FieldLength": 245
           }
         }
       }
     ],
-    "IconHint": "quas",
-    "ColorBlock": 753,
-    "ExtraInfo": "nisi",
-    "StyleHint": "tempore",
-    "FullName": "Magnolia Huels",
+    "IconHint": "ducimus",
+    "ColorBlock": 93,
+    "ExtraInfo": "nostrum",
+    "StyleHint": "quos",
+    "FullName": "Jovany Williamson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 835
+        "FieldLength": 284
       }
     }
   }

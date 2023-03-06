@@ -81,7 +81,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,22 +91,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 314,
-  "ERPPriceListKey": "provident",
-  "QuoteConnectionId": 192,
-  "Name": "Schroeder, Konopelski and Kuhlman",
-  "Description": "Organic local service-desk",
-  "Currency": "ducimus",
-  "CurrencyName": "Hessel Inc and Sons",
-  "ValidFrom": "2003-07-25T17:37:40.1185003+02:00",
-  "ValidTo": "2002-04-02T17:37:40.1185003+02:00",
+  "PriceListId": 75,
+  "ERPPriceListKey": "odio",
+  "QuoteConnectionId": 483,
+  "Name": "Mante, Klocko and Bergstrom",
+  "Description": "Organic content-based model",
+  "Currency": "impedit",
+  "CurrencyName": "Rodriguez, Nicolas and Thompson",
+  "ValidFrom": "2011-03-16T14:19:11.3367817+01:00",
+  "ValidTo": "2021-02-17T14:19:11.3367817+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 90
+      "FieldType": "System.Int32",
+      "FieldLength": 119
     }
   },
   "_Links": {

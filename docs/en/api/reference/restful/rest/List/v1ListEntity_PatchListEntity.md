@@ -122,12 +122,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "aut",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aut",
+    "path": "et",
     "value": {}
   }
 ]
@@ -140,22 +140,22 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 515,
-  "Name": "Morar-Jacobi",
-  "Tooltip": "dolor",
+  "Id": 85,
+  "Name": "VonRueden LLC",
+  "Tooltip": "non",
   "Deleted": false,
-  "Rank": 880,
+  "Rank": 43,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": false,
+  "ListType": "aspernatur",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 544
+      "FieldType": "System.Int32",
+      "FieldLength": 109
     }
   },
   "_Links": {

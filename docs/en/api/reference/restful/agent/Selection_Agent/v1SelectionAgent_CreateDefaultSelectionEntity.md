@@ -106,70 +106,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-platform modular product",
-  "Postit": "velit",
+  "Description": "Phased explicit database",
+  "Postit": "laborum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 306,
-  "IncludePerson": 975,
-  "MemberCount": 806,
-  "Name": "Rice LLC",
-  "PostitTextId": 679,
-  "CreatedDate": "2014-01-08T17:37:18.9142423+01:00",
-  "SelectionId": 900,
-  "SoundEx": "et",
-  "Source": 289,
-  "TextId": 376,
-  "UpdatedDate": "2013-03-27T17:37:18.9142423+01:00",
-  "UpdatedCount": 37,
-  "Visibility": 490,
+  "GroupIdx": 8,
+  "IncludePerson": 324,
+  "MemberCount": 555,
+  "Name": "O'Kon-McGlynn",
+  "PostitTextId": 526,
+  "CreatedDate": "2003-02-05T14:19:04.1567293+01:00",
+  "SelectionId": 164,
+  "SoundEx": "nemo",
+  "Source": 370,
+  "TextId": 275,
+  "UpdatedDate": "1996-04-22T14:19:04.1567293+02:00",
+  "UpdatedCount": 268,
+  "Visibility": 846,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 543,
-  "TargetTableName": "Friesen LLC",
+  "TargetTableNumber": 96,
+  "TargetTableName": "Jenkins Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 664,
-  "RightSelectionId": 135,
+  "LeftSelectionId": 646,
+  "RightSelectionId": 853,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Botsford Inc and Sons",
-  "ShadowProviderName": "Braun LLC",
-  "ChartKey": "voluptas",
-  "LastLoaded": "2006-08-08T17:37:18.9142423+02:00",
-  "LastLoadedBy": 660,
+  "MainProviderName": "Bradtke LLC",
+  "ShadowProviderName": "Huel-Welch",
+  "ChartKey": "sapiente",
+  "LastLoaded": "1998-12-19T14:19:04.1567293+01:00",
+  "LastLoadedBy": 85,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-09-08T17:37:18.9142423+02:00",
-  "LastMembershipChangeBy": 6,
+  "LastMembershipChange": "2021-01-22T14:19:04.1567293+01:00",
+  "LastMembershipChangeBy": 634,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "enim",
-  "MemberTabHeading": "sed",
-  "MailingsProviderName": "Bechtelar-Spinka",
-  "DashboardTileDefinitionId": 879,
+  "MainHeading": "sit",
+  "MemberTabHeading": "corporis",
+  "MailingsProviderName": "Schmitt, King and Jakubowski",
+  "DashboardTileDefinitionId": 431,
   "VisibleFor": [
     {
-      "VisibleId": 279,
+      "VisibleId": 839,
       "Visibility": "All",
-      "DisplayValue": "deleniti",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 467
+          "FieldLength": 22
         }
       }
     },
     {
-      "VisibleId": 279,
+      "VisibleId": 839,
       "Visibility": "All",
-      "DisplayValue": "deleniti",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 467
+          "FieldLength": 22
         }
       }
     }
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 177
+      "FieldType": "System.Int32",
+      "FieldLength": 812
     }
   }
 }

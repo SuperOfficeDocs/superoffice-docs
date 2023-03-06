@@ -64,7 +64,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,17 +75,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "saepe",
-    "DocumentId": 391,
-    "VersionId": "accusamus",
-    "CheckedInDate": "2004-10-25T17:37:38.5908308+02:00",
-    "CheckedInByName": "Kunze-Hagenes",
-    "CheckedInByAssociateId": 907,
-    "Description": "Optional uniform info-mediaries",
-    "DisplayText": "qui",
+    "ExternalReference": "eum",
+    "DocumentId": 913,
+    "VersionId": "harum",
+    "CheckedInDate": "2007-02-14T14:19:10.3342217+01:00",
+    "CheckedInByName": "Bogan-Bosco",
+    "CheckedInByAssociateId": 188,
+    "Description": "Progressive 24 hour Graphical User Interface",
+    "DisplayText": "maiores",
     "ExtraFields": [
-      "perspiciatis",
-      "possimus"
+      "provident",
+      "accusantium"
     ]
   }
 ]

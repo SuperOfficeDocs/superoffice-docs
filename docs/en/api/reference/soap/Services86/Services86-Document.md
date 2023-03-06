@@ -3446,540 +3446,307 @@ title: Services86.DocumentAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Document">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Document</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultDocumentEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new DocumentEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CreateDefaultDocumentEntity" name="CreateDefaultDocumentEntityRequest" message="tns:CreateDefaultDocumentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CreateDefaultDocumentEntityResponse" name="CreateDefaultDocumentEntityResponse" message="tns:CreateDefaultDocumentEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveDocumentEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing DocumentEntity or creates a new DocumentEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SaveDocumentEntity" name="SaveDocumentEntityRequest" message="tns:SaveDocumentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SaveDocumentEntityResponse" name="SaveDocumentEntityResponse" message="tns:SaveDocumentEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteDocumentEntity">
-      <wsdl:documentation>
-        <summary>Deletes the DocumentEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/DeleteDocumentEntity" name="DeleteDocumentEntityRequest" message="tns:DeleteDocumentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/DeleteDocumentEntityResponse" name="DeleteDocumentEntityResponse" message="tns:DeleteDocumentEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultSuggestedDocumentEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new SuggestedDocumentEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CreateDefaultSuggestedDocumentEntity" name="CreateDefaultSuggestedDocumentEntityRequest" message="tns:CreateDefaultSuggestedDocumentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CreateDefaultSuggestedDocumentEntityResponse" name="CreateDefaultSuggestedDocumentEntityResponse" message="tns:CreateDefaultSuggestedDocumentEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveSuggestedDocumentEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing SuggestedDocumentEntity or creates a new SuggestedDocumentEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SaveSuggestedDocumentEntity" name="SaveSuggestedDocumentEntityRequest" message="tns:SaveSuggestedDocumentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SaveSuggestedDocumentEntityResponse" name="SaveSuggestedDocumentEntityResponse" message="tns:SaveSuggestedDocumentEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultTemplateVariablesParameters">
-      <wsdl:documentation>
-        <summary>Loading default values into a new TemplateVariablesParameters.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CreateDefaultTemplateVariablesParameters" name="CreateDefaultTemplateVariablesParametersRequest" message="tns:CreateDefaultTemplateVariablesParametersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CreateDefaultTemplateVariablesParametersResponse" name="CreateDefaultTemplateVariablesParametersResponse" message="tns:CreateDefaultTemplateVariablesParametersResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocument">
-      <wsdl:documentation>
-        <summary>Gets a Document object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetDocument" name="GetDocumentRequest" message="tns:GetDocumentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetDocumentResponse" name="GetDocumentResponse" message="tns:GetDocumentResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentEntity">
-      <wsdl:documentation>
-        <summary>Gets a DocumentEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetDocumentEntity" name="GetDocumentEntityRequest" message="tns:GetDocumentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetDocumentEntityResponse" name="GetDocumentEntityResponse" message="tns:GetDocumentEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentStreamFromEntity">
-      <wsdl:documentation>
-        <summary>Get the document as a stream</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetDocumentStreamFromEntity" name="GetDocumentStreamFromEntityRequest" message="tns:GetDocumentStreamFromEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetDocumentStreamFromEntityResponse" name="GetDocumentStreamFromEntityResponse" message="tns:GetDocumentStreamFromEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetDocumentStream">
-      <wsdl:documentation>
-        <summary>Store a document's contents from its stream. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SetDocumentStream" name="SetDocumentStreamRequest" message="tns:SetDocumentStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SetDocumentStreamResponse" name="SetDocumentStreamResponse" message="tns:SetDocumentStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDocumentStream">
-      <wsdl:documentation>
-        <summary>Creates a new Stream that can be used to store the document in the file archive.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CreateDocumentStream" name="CreateDocumentStreamRequest" message="tns:CreateDocumentStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CreateDocumentStreamResponse" name="CreateDocumentStreamResponse" message="tns:CreateDocumentStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTemplateStream">
-      <wsdl:documentation>
-        <summary>Retrieve a stream to a mail template based on its name</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetTemplateStream" name="GetTemplateStreamRequest" message="tns:GetTemplateStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetTemplateStreamResponse" name="GetTemplateStreamResponse" message="tns:GetTemplateStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTemplateStreamFromId">
-      <wsdl:documentation>
-        <summary>Retrieve a stream to a document template based on its id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetTemplateStreamFromId" name="GetTemplateStreamFromIdRequest" message="tns:GetTemplateStreamFromIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetTemplateStreamFromIdResponse" name="GetTemplateStreamFromIdResponse" message="tns:GetTemplateStreamFromIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentStream">
-      <wsdl:documentation>
-        <summary>Get the document content as a stream</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetDocumentStream" name="GetDocumentStreamRequest" message="tns:GetDocumentStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetDocumentStreamResponse" name="GetDocumentStreamResponse" message="tns:GetDocumentStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateNewPhysicalMailMergeDocumentFromTemplate">
-      <wsdl:documentation>
-        <summary>Create a new physical document based on the documents template. Do not replace template tags, as the document is going to be used as a mail merge source. Use GetDocumentStream to obtain the created documents. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CreateNewPhysicalMailMergeDocumentFromTemplate" name="CreateNewPhysicalMailMergeDocumentFromTemplateRequest" message="tns:CreateNewPhysicalMailMergeDocumentFromTemplateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CreateNewPhysicalMailMergeDocumentFromTemplateResponse" name="CreateNewPhysicalMailMergeDocumentFromTemplateResponse" message="tns:CreateNewPhysicalMailMergeDocumentFromTemplateResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateNewPhysicalDocumentFromTemplateWithCustomTags">
-      <wsdl:documentation>
-        <summary>Create a new physical document based on a document template and store it in the document archive.  Tags are substituted according to the provided id's.  Use GetDocumentStream to obtain the created document content. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags" name="CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest" message="tns:CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTagsResponse" name="CreateNewPhysicalDocumentFromTemplateWithCustomTagsResponse" message="tns:CreateNewPhysicalDocumentFromTemplateWithCustomTagsResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateNewPhysicalDocumentFromTemplateWithCustomTags2">
-      <wsdl:documentation>
-        <summary>Create a new physical document based on a document template and store it in the document archive.  Tags are substituted according to the provided id's.  Use GetDocumentStream to obtain the created document content. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2" name="CreateNewPhysicalDocumentFromTemplateWithCustomTags2Request" message="tns:CreateNewPhysicalDocumentFromTemplateWithCustomTags2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2Response" name="CreateNewPhysicalDocumentFromTemplateWithCustomTags2Response" message="tns:CreateNewPhysicalDocumentFromTemplateWithCustomTags2Response" />
     </wsdl:operation>
     <wsdl:operation name="SubstituteTemplateVariables">
-      <wsdl:documentation>
-        <summary>Parse the source string, and replace any template variable tags with their values, based on the ID's given in the other parameters.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SubstituteTemplateVariables" name="SubstituteTemplateVariablesRequest" message="tns:SubstituteTemplateVariablesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SubstituteTemplateVariablesResponse" name="SubstituteTemplateVariablesResponse" message="tns:SubstituteTemplateVariablesResponse" />
     </wsdl:operation>
     <wsdl:operation name="SubstituteTemplateVariablesWithCustomTags">
-      <wsdl:documentation>
-        <summary>Parse the source string, and replace any template variable tags with their values, based on the ID's given in the other parameters.&lt;p/&gt;This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SubstituteTemplateVariablesWithCustomTags" name="SubstituteTemplateVariablesWithCustomTagsRequest" message="tns:SubstituteTemplateVariablesWithCustomTagsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SubstituteTemplateVariablesWithCustomTagsResponse" name="SubstituteTemplateVariablesWithCustomTagsResponse" message="tns:SubstituteTemplateVariablesWithCustomTagsResponse" />
     </wsdl:operation>
     <wsdl:operation name="SubstituteTemplateVariablesWithCustomTags2">
-      <wsdl:documentation>
-        <summary>Parse the source string, and replace any template variable tags with their values, based on the ID's given in the other parameters.&lt;p/&gt;This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SubstituteTemplateVariablesWithCustomTags2" name="SubstituteTemplateVariablesWithCustomTags2Request" message="tns:SubstituteTemplateVariablesWithCustomTags2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SubstituteTemplateVariablesWithCustomTags2Response" name="SubstituteTemplateVariablesWithCustomTags2Response" message="tns:SubstituteTemplateVariablesWithCustomTags2Response" />
     </wsdl:operation>
     <wsdl:operation name="CreateTempFile">
-      <wsdl:documentation>
-        <summary>Create a new temporary file based on the provided stream.  Specified filename may be overridden, and actual name is returned.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CreateTempFile" name="CreateTempFileRequest" message="tns:CreateTempFileRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CreateTempFileResponse" name="CreateTempFileResponse" message="tns:CreateTempFileResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTempFile">
-      <wsdl:documentation>
-        <summary>Get data stream for temporary file created with CreateTempFile.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetTempFile" name="GetTempFileRequest" message="tns:GetTempFileRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetTempFileResponse" name="GetTempFileResponse" message="tns:GetTempFileResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteTempFile">
-      <wsdl:documentation>
-        <summary>Delete a temporary file created with CreateTempFile.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/DeleteTempFile" name="DeleteTempFileRequest" message="tns:DeleteTempFileRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/DeleteTempFileResponse" name="DeleteTempFileResponse" message="tns:DeleteTempFileResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetTemplateStream">
-      <wsdl:documentation>
-        <summary>Save a mail signature template to the document archive</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SetTemplateStream" name="SetTemplateStreamRequest" message="tns:SetTemplateStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SetTemplateStreamResponse" name="SetTemplateStreamResponse" message="tns:SetTemplateStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateNewPhysicalDocumentFromTemplate">
-      <wsdl:documentation>
-        <summary>Create a new document content based on a document template and store it in the document archive.  Tags are substituted according to the provided id's.  Use GetDocumentStream to obtain the created document. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CreateNewPhysicalDocumentFromTemplate" name="CreateNewPhysicalDocumentFromTemplateRequest" message="tns:CreateNewPhysicalDocumentFromTemplateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CreateNewPhysicalDocumentFromTemplateResponse" name="CreateNewPhysicalDocumentFromTemplateResponse" message="tns:CreateNewPhysicalDocumentFromTemplateResponse" />
     </wsdl:operation>
     <wsdl:operation name="SubstituteMergeDocumentTemplateVariables">
-      <wsdl:documentation>
-        <summary>Parse the source document, and replace any template variable tags with their values, based on the associate Id.&lt;p/&gt; The source document should be of type MergeDraft. This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SubstituteMergeDocumentTemplateVariables" name="SubstituteMergeDocumentTemplateVariablesRequest" message="tns:SubstituteMergeDocumentTemplateVariablesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SubstituteMergeDocumentTemplateVariablesResponse" name="SubstituteMergeDocumentTemplateVariablesResponse" message="tns:SubstituteMergeDocumentTemplateVariablesResponse" />
     </wsdl:operation>
     <wsdl:operation name="SubstituteMergeDocumentTemplateVariables2">
-      <wsdl:documentation>
-        <summary>Parse the source document, and replace any template variable tags with their values, based on the associate Id.&lt;p/&gt; The source document should be of type MergeDraft. This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SubstituteMergeDocumentTemplateVariables2" name="SubstituteMergeDocumentTemplateVariables2Request" message="tns:SubstituteMergeDocumentTemplateVariables2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SubstituteMergeDocumentTemplateVariables2Response" name="SubstituteMergeDocumentTemplateVariables2Response" message="tns:SubstituteMergeDocumentTemplateVariables2Response" />
     </wsdl:operation>
     <wsdl:operation name="SubstituteTemplateVariablesEx">
-      <wsdl:documentation>
-        <summary>Parse the source string, and replace any template variable tags with their values, based on the identities, custom values and entities specified in the other parameters.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SubstituteTemplateVariablesEx" name="SubstituteTemplateVariablesExRequest" message="tns:SubstituteTemplateVariablesExRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SubstituteTemplateVariablesExResponse" name="SubstituteTemplateVariablesExResponse" message="tns:SubstituteTemplateVariablesExResponse" />
     </wsdl:operation>
     <wsdl:operation name="VerifyGetDocumentStream">
-      <wsdl:documentation>
-        <summary>Verify that the requested document stream exists, and that we can access it, without actually getting the stream.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/VerifyGetDocumentStream" name="VerifyGetDocumentStreamRequest" message="tns:VerifyGetDocumentStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/VerifyGetDocumentStreamResponse" name="VerifyGetDocumentStreamResponse" message="tns:VerifyGetDocumentStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="SubstituteMergeDocumentTemplateVariablesEx">
-      <wsdl:documentation>
-        <summary>Parse the source document, and replace any template variable tags with their values, based on the provided identifiers.&lt;p/&gt; The source document should be of type MergeDraft. This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SubstituteMergeDocumentTemplateVariablesEx" name="SubstituteMergeDocumentTemplateVariablesExRequest" message="tns:SubstituteMergeDocumentTemplateVariablesExRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SubstituteMergeDocumentTemplateVariablesExResponse" name="SubstituteMergeDocumentTemplateVariablesExResponse" message="tns:SubstituteMergeDocumentTemplateVariablesExResponse" />
     </wsdl:operation>
     <wsdl:operation name="SubstituteMergeDocumentTemplateVariablesEx2">
-      <wsdl:documentation>
-        <summary>Parse the source document, and replace any template variable tags with their values, based on the provided identifiers.&lt;p/&gt; The source document should be of type MergeDraft. This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SubstituteMergeDocumentTemplateVariablesEx2" name="SubstituteMergeDocumentTemplateVariablesEx2Request" message="tns:SubstituteMergeDocumentTemplateVariablesEx2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SubstituteMergeDocumentTemplateVariablesEx2Response" name="SubstituteMergeDocumentTemplateVariablesEx2Response" message="tns:SubstituteMergeDocumentTemplateVariablesEx2Response" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentUrl">
-      <wsdl:documentation>
-        <summary>Get a URL referring to the given document content.&lt;para/&gt;This URL may be passed to the ultimate client (text editor of some kind?), which is then responsible for all further operations.&lt;para/&gt;The returned string is a fully qualified URL.&lt;para/&gt;Not all documents and document plugins support this feature.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetDocumentUrl" name="GetDocumentUrlRequest" message="tns:GetDocumentUrlRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetDocumentUrlResponse" name="GetDocumentUrlResponse" message="tns:GetDocumentUrlResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeletePhysicalDocument">
-      <wsdl:documentation>
-        <summary>Delete the document contents</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/DeletePhysicalDocument" name="DeletePhysicalDocumentRequest" message="tns:DeletePhysicalDocumentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/DeletePhysicalDocumentResponse" name="DeletePhysicalDocumentResponse" message="tns:DeletePhysicalDocumentResponse" />
     </wsdl:operation>
     <wsdl:operation name="RenameDocument">
-      <wsdl:documentation>
-        <summary>Rename the physical document, i.e., change the file name or equivalent concept in the document archive.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/RenameDocument" name="RenameDocumentRequest" message="tns:RenameDocumentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/RenameDocumentResponse" name="RenameDocumentResponse" message="tns:RenameDocumentResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCheckoutState">
-      <wsdl:documentation>
-        <summary>Get the current checkout state for a document, relative to the user perforing the call.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetCheckoutState" name="GetCheckoutStateRequest" message="tns:GetCheckoutStateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetCheckoutStateResponse" name="GetCheckoutStateResponse" message="tns:GetCheckoutStateResponse" />
     </wsdl:operation>
     <wsdl:operation name="CheckoutDocument">
-      <wsdl:documentation>
-        <summary>Check out a document for editing by the current user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CheckoutDocument" name="CheckoutDocumentRequest" message="tns:CheckoutDocumentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CheckoutDocumentResponse" name="CheckoutDocumentResponse" message="tns:CheckoutDocumentResponse" />
     </wsdl:operation>
     <wsdl:operation name="CheckinDocument">
-      <wsdl:documentation>
-        <summary>Check in a currently checked-out document</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CheckinDocument" name="CheckinDocumentRequest" message="tns:CheckinDocumentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CheckinDocumentResponse" name="CheckinDocumentResponse" message="tns:CheckinDocumentResponse" />
     </wsdl:operation>
     <wsdl:operation name="UndoCheckoutDocument">
-      <wsdl:documentation>
-        <summary>Undo (abandon) a checkout</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/UndoCheckoutDocument" name="UndoCheckoutDocumentRequest" message="tns:UndoCheckoutDocumentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/UndoCheckoutDocumentResponse" name="UndoCheckoutDocumentResponse" message="tns:UndoCheckoutDocumentResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetVersionList">
-      <wsdl:documentation>
-        <summary>Get a list of existing, committed  versions for a given document</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetVersionList" name="GetVersionListRequest" message="tns:GetVersionListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetVersionListResponse" name="GetVersionListResponse" message="tns:GetVersionListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPluginList">
-      <wsdl:documentation>
-        <summary>Get a list of installed document plugins</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPluginList" name="GetPluginListRequest" message="tns:GetPluginListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPluginListResponse" name="GetPluginListResponse" message="tns:GetPluginListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPluginCapabilities">
-      <wsdl:documentation>
-        <summary>Get a list of plugin-dependent capabilities for a given document archive plugin.&lt;br/&gt;A standard set of properties is defined in SuperOffice.CRM.Documents.Constants.Capabilities.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPluginCapabilities" name="GetPluginCapabilitiesRequest" message="tns:GetPluginCapabilitiesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPluginCapabilitiesResponse" name="GetPluginCapabilitiesResponse" message="tns:GetPluginCapabilitiesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentProperties">
-      <wsdl:documentation>
-        <summary>Get plugin-dependent properties for the document. A number of standard properties that should be supported by all plugins are defined in SuperOffice.CRM.Documents.Constants.Properties.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetDocumentProperties" name="GetDocumentPropertiesRequest" message="tns:GetDocumentPropertiesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetDocumentPropertiesResponse" name="GetDocumentPropertiesResponse" message="tns:GetDocumentPropertiesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentCommands">
-      <wsdl:documentation>
-        <summary>Get a list of custom commands valid for the specific document at this time. This information should not be cached by clients, as it may change between documents and over time.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetDocumentCommands" name="GetDocumentCommandsRequest" message="tns:GetDocumentCommandsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetDocumentCommandsResponse" name="GetDocumentCommandsResponse" message="tns:GetDocumentCommandsResponse" />
     </wsdl:operation>
     <wsdl:operation name="ExecuteDocumentCommand">
-      <wsdl:documentation>
-        <summary>Execute a custom command on a particular document, optionally a particular version</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/ExecuteDocumentCommand" name="ExecuteDocumentCommandRequest" message="tns:ExecuteDocumentCommandRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/ExecuteDocumentCommandResponse" name="ExecuteDocumentCommandResponse" message="tns:ExecuteDocumentCommandResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultDocumentEntityFromSuggestion">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CreateDefaultDocumentEntityFromSuggestion" name="CreateDefaultDocumentEntityFromSuggestionRequest" message="tns:CreateDefaultDocumentEntityFromSuggestionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/CreateDefaultDocumentEntityFromSuggestionResponse" name="CreateDefaultDocumentEntityFromSuggestionResponse" message="tns:CreateDefaultDocumentEntityFromSuggestionResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveDocumentTemplateStream">
-      <wsdl:documentation>
-        <summary>Saves content in stream to document template file</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SaveDocumentTemplateStream" name="SaveDocumentTemplateStreamRequest" message="tns:SaveDocumentTemplateStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SaveDocumentTemplateStreamResponse" name="SaveDocumentTemplateStreamResponse" message="tns:SaveDocumentTemplateStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetDocumentStreamFromId">
-      <wsdl:documentation>
-        <summary>Store document content from stream. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SetDocumentStreamFromId" name="SetDocumentStreamFromIdRequest" message="tns:SetDocumentStreamFromIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SetDocumentStreamFromIdResponse" name="SetDocumentStreamFromIdResponse" message="tns:SetDocumentStreamFromIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="SavePrivacyReport">
-      <wsdl:documentation>
-        <summary>Generates a Pdf from HTML and makes a document</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SavePrivacyReport" name="SavePrivacyReportRequest" message="tns:SavePrivacyReportRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/SavePrivacyReportResponse" name="SavePrivacyReportResponse" message="tns:SavePrivacyReportResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentList">
-      <wsdl:documentation>
-        <summary>Gets an array of Document objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetDocumentList" name="GetDocumentListRequest" message="tns:GetDocumentListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetDocumentListResponse" name="GetDocumentListResponse" message="tns:GetDocumentListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAppointmentDocuments">
-      <wsdl:documentation>
-        <summary>Get all documents that are linked to the appointment. I.e. the documents that are listed in the appointment dialog.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetAppointmentDocuments" name="GetAppointmentDocumentsRequest" message="tns:GetAppointmentDocumentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetAppointmentDocumentsResponse" name="GetAppointmentDocumentsResponse" message="tns:GetAppointmentDocumentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSaleDocuments">
-      <wsdl:documentation>
-        <summary>Get all documents that are linked to the sale. I.e. the documents that are listed in the sale dialog.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetSaleDocuments" name="GetSaleDocumentsRequest" message="tns:GetSaleDocumentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetSaleDocumentsResponse" name="GetSaleDocumentsResponse" message="tns:GetSaleDocumentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonDocuments">
-      <wsdl:documentation>
-        <summary>Get all documents that are linked to the person. I.e. the documents that are listed in the person dialog.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPersonDocuments" name="GetPersonDocumentsRequest" message="tns:GetPersonDocumentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPersonDocumentsResponse" name="GetPersonDocumentsResponse" message="tns:GetPersonDocumentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPublishedDocument">
-      <wsdl:documentation>
-        <summary>Get the document if it's published</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPublishedDocument" name="GetPublishedDocumentRequest" message="tns:GetPublishedDocumentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPublishedDocumentResponse" name="GetPublishedDocumentResponse" message="tns:GetPublishedDocumentResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPublishedDocuments">
-      <wsdl:documentation>
-        <summary>Get the published documents from an array of doucment ids.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPublishedDocuments" name="GetPublishedDocumentsRequest" message="tns:GetPublishedDocumentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPublishedDocumentsResponse" name="GetPublishedDocumentsResponse" message="tns:GetPublishedDocumentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyPublishedDocuments">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetMyPublishedDocuments" name="GetMyPublishedDocumentsRequest" message="tns:GetMyPublishedDocumentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetMyPublishedDocumentsResponse" name="GetMyPublishedDocumentsResponse" message="tns:GetMyPublishedDocumentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPublishedDocumentsByDate">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of published document appointments within a time range. The document appointments is visible to the person specified or the document is in a project the person belongs to. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPublishedDocumentsByDate" name="GetPublishedDocumentsByDateRequest" message="tns:GetPublishedDocumentsByDateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPublishedDocumentsByDateResponse" name="GetPublishedDocumentsByDateResponse" message="tns:GetPublishedDocumentsByDateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetContactDocumentsByTemplateTypes">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of document appointments within a time range, filtered by document template types. The document appointments belong to the contact specified. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetContactDocumentsByTemplateTypes" name="GetContactDocumentsByTemplateTypesRequest" message="tns:GetContactDocumentsByTemplateTypesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetContactDocumentsByTemplateTypesResponse" name="GetContactDocumentsByTemplateTypesResponse" message="tns:GetContactDocumentsByTemplateTypesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetContactDocumentsByTemplateType">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of document appointments within a time range, filtered by document template type. The document appointments belong to the contact specified. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetContactDocumentsByTemplateType" name="GetContactDocumentsByTemplateTypeRequest" message="tns:GetContactDocumentsByTemplateTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetContactDocumentsByTemplateTypeResponse" name="GetContactDocumentsByTemplateTypeResponse" message="tns:GetContactDocumentsByTemplateTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetContactDocumentsByTemplateHeading">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of document appointments within a time range, filtered by the document template heading. The document appointments belong to the contact specified. The heading represents a grouping or filtering of document templates.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetContactDocumentsByTemplateHeading" name="GetContactDocumentsByTemplateHeadingRequest" message="tns:GetContactDocumentsByTemplateHeadingRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetContactDocumentsByTemplateHeadingResponse" name="GetContactDocumentsByTemplateHeadingResponse" message="tns:GetContactDocumentsByTemplateHeadingResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetContactDocuments">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of document appointments within a time range. The document appointments belong to the contact specified. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetContactDocuments" name="GetContactDocumentsRequest" message="tns:GetContactDocumentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetContactDocumentsResponse" name="GetContactDocumentsResponse" message="tns:GetContactDocumentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPublishedPersonDocumentsByDate">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of published document appointments within a time range. The document appointments belong to the person specified or the document is in a project the person belongs to. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPublishedPersonDocumentsByDate" name="GetPublishedPersonDocumentsByDateRequest" message="tns:GetPublishedPersonDocumentsByDateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPublishedPersonDocumentsByDateResponse" name="GetPublishedPersonDocumentsByDateResponse" message="tns:GetPublishedPersonDocumentsByDateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPublishedProjectDocuments">
-      <wsdl:documentation>
-        <summary>Get published appointment documents by project id.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPublishedProjectDocuments" name="GetPublishedProjectDocumentsRequest" message="tns:GetPublishedProjectDocumentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPublishedProjectDocumentsResponse" name="GetPublishedProjectDocumentsResponse" message="tns:GetPublishedProjectDocumentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectMemberDocumentsByTemplateTypes">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of document appointments within a time range, filtered by document template types. The document appointments belong to the project member specified. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetProjectMemberDocumentsByTemplateTypes" name="GetProjectMemberDocumentsByTemplateTypesRequest" message="tns:GetProjectMemberDocumentsByTemplateTypesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetProjectMemberDocumentsByTemplateTypesResponse" name="GetProjectMemberDocumentsByTemplateTypesResponse" message="tns:GetProjectMemberDocumentsByTemplateTypesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectMemberDocumentsByTemplateType">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of document appointments within a time range, filtered by document template type. The document appointments belong to the project member specified. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetProjectMemberDocumentsByTemplateType" name="GetProjectMemberDocumentsByTemplateTypeRequest" message="tns:GetProjectMemberDocumentsByTemplateTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetProjectMemberDocumentsByTemplateTypeResponse" name="GetProjectMemberDocumentsByTemplateTypeResponse" message="tns:GetProjectMemberDocumentsByTemplateTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectMemberDocumentsByTemplateHeading">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of document appointments within a time range, filtered by document template heading. The document appointments belong to the project member specified. The heading represents a grouping or filtering of document templates.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetProjectMemberDocumentsByTemplateHeading" name="GetProjectMemberDocumentsByTemplateHeadingRequest" message="tns:GetProjectMemberDocumentsByTemplateHeadingRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetProjectMemberDocumentsByTemplateHeadingResponse" name="GetProjectMemberDocumentsByTemplateHeadingResponse" message="tns:GetProjectMemberDocumentsByTemplateHeadingResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectMemberDocuments">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of document appointments within a time range. The document appointments belong to the project member specified. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetProjectMemberDocuments" name="GetProjectMemberDocumentsRequest" message="tns:GetProjectMemberDocumentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetProjectMemberDocumentsResponse" name="GetProjectMemberDocumentsResponse" message="tns:GetProjectMemberDocumentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectDocumentsByTemplateTypes">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of document appointments within a time range, filtered by document template types. The document appointments belong to the project specified. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetProjectDocumentsByTemplateTypes" name="GetProjectDocumentsByTemplateTypesRequest" message="tns:GetProjectDocumentsByTemplateTypesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetProjectDocumentsByTemplateTypesResponse" name="GetProjectDocumentsByTemplateTypesResponse" message="tns:GetProjectDocumentsByTemplateTypesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectDocumentsByTemplateType">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of document appointments within a time range, filtered by document template type. The document appointments belong to the project specified. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetProjectDocumentsByTemplateType" name="GetProjectDocumentsByTemplateTypeRequest" message="tns:GetProjectDocumentsByTemplateTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetProjectDocumentsByTemplateTypeResponse" name="GetProjectDocumentsByTemplateTypeResponse" message="tns:GetProjectDocumentsByTemplateTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectDocumentsByTemplateHeading">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of document appointments within a time range, filtered by document template heading. The document appointments belong to the project specified. The heading represents a grouping or filtering of document templates.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetProjectDocumentsByTemplateHeading" name="GetProjectDocumentsByTemplateHeadingRequest" message="tns:GetProjectDocumentsByTemplateHeadingRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetProjectDocumentsByTemplateHeadingResponse" name="GetProjectDocumentsByTemplateHeadingResponse" message="tns:GetProjectDocumentsByTemplateHeadingResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectDocuments">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of document appointments within a time range. The document appointments belong to the project specified. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetProjectDocuments" name="GetProjectDocumentsRequest" message="tns:GetProjectDocumentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetProjectDocumentsResponse" name="GetProjectDocumentsResponse" message="tns:GetProjectDocumentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonDocumentsByTemplateTypes">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of document appointments within a time range, filtered by document template types. The document appointments belong to the person specified. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPersonDocumentsByTemplateTypes" name="GetPersonDocumentsByTemplateTypesRequest" message="tns:GetPersonDocumentsByTemplateTypesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPersonDocumentsByTemplateTypesResponse" name="GetPersonDocumentsByTemplateTypesResponse" message="tns:GetPersonDocumentsByTemplateTypesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonDocumentsByTemplateType">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of document appointments within a time range, filtered by document template type. The document appointments belong to the person specified. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPersonDocumentsByTemplateType" name="GetPersonDocumentsByTemplateTypeRequest" message="tns:GetPersonDocumentsByTemplateTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPersonDocumentsByTemplateTypeResponse" name="GetPersonDocumentsByTemplateTypeResponse" message="tns:GetPersonDocumentsByTemplateTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonDocumentsByTemplateHeading">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of document appointments within a time range, filtered by document template heading. The document appointments belong to the person specified. The heading represents a grouping or filtering of document templates.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPersonDocumentsByTemplateHeading" name="GetPersonDocumentsByTemplateHeadingRequest" message="tns:GetPersonDocumentsByTemplateHeadingRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPersonDocumentsByTemplateHeadingResponse" name="GetPersonDocumentsByTemplateHeadingResponse" message="tns:GetPersonDocumentsByTemplateHeadingResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonDocumentsByDate">
-      <wsdl:documentation>
-        <summary>Method that returns a specified number of document appointments within a time range. The document appointments belong to the person specified. </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPersonDocumentsByDate" name="GetPersonDocumentsByDateRequest" message="tns:GetPersonDocumentsByDateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetPersonDocumentsByDateResponse" name="GetPersonDocumentsByDateResponse" message="tns:GetPersonDocumentsByDateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentsByTemplateHeading">
-      <wsdl:documentation>
-        <summary>Method that returns document appointments, filtered by the document template heading. The heading represents a grouping or filtering of document templates.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetDocumentsByTemplateHeading" name="GetDocumentsByTemplateHeadingRequest" message="tns:GetDocumentsByTemplateHeadingRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetDocumentsByTemplateHeadingResponse" name="GetDocumentsByTemplateHeadingResponse" message="tns:GetDocumentsByTemplateHeadingResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSuggestedDocumentEntity">
-      <wsdl:documentation>
-        <summary>Gets a SuggestedDocumentEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetSuggestedDocumentEntity" name="GetSuggestedDocumentEntityRequest" message="tns:GetSuggestedDocumentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Document/GetSuggestedDocumentEntityResponse" name="GetSuggestedDocumentEntityResponse" message="tns:GetSuggestedDocumentEntityResponse" />
     </wsdl:operation>
@@ -5210,3 +4977,4 @@ title: Services86.DocumentAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

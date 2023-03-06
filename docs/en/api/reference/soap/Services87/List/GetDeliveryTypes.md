@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetDeliveryTyp
 
 ## GetDeliveryTypes
 
-Returns all DeliveryTypes in SuperOffice db.
 
-**Returns:** An array of all available DeliveryType
+
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDeliveryTypes Response
 
 ```xml
@@ -72,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

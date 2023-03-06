@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.ILicenseAgent.ChangeSeria
 
 ## ChangeSerialNumber
 
-Change the new serial number for the installation. Requests a new license from SuperLicense, checks if change is authorized.
 
-* **newCompanyName:** The new company name
-* **newSerialNumber:** New serial number to change to.
 
-**Returns:** License after serial number/name change
+
 
 [WSDL file for Services84/License](../Services84-License.md)
 
@@ -52,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ChangeSerialNumber Response
 
 ```xml
@@ -76,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

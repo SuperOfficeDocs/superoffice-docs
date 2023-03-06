@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.SaveResourceEn
 
 ## SaveResourceEntity
 
-Updates the existing ResourceEntity or creates a new ResourceEntity if the id parameter is 0.
 
-* **resourceEntity:** The ResourceEntity that is saved.
 
-**Returns:** New or updated ResourceEntity
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -57,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveResourceEntity Response
 
 ```xml
@@ -85,3 +84,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

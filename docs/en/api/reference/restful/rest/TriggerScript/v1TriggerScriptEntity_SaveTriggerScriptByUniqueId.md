@@ -89,20 +89,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 436,
-  "Name": "Hagenes-Sporer",
+  "ScreenChooserId": 694,
+  "Name": "Weber, Abshire and Welch",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "dolor",
-  "Source": "est",
-  "Registered": "2016-11-02T17:37:39.3954275+01:00",
-  "RegisteredAssociateId": 555,
-  "Updated": "2017-02-12T17:37:39.3954275+01:00",
-  "UpdatedAssociateId": 489
+  "UniqueIdentifier": "numquam",
+  "Source": "qui",
+  "Registered": "1997-08-29T14:19:10.912356+02:00",
+  "RegisteredAssociateId": 711,
+  "Updated": "2015-05-19T14:19:10.912356+02:00",
+  "UpdatedAssociateId": 982
 }
 ```
 
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 306,
-  "Name": "Ernser-Langosh",
+  "ScreenChooserId": 904,
+  "Name": "Bergnaum, Kovacek and Heller",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "illo",
-  "Source": "ducimus",
-  "Registered": "2002-04-11T17:37:39.3964303+02:00",
-  "RegisteredAssociateId": 965,
-  "Updated": "2002-03-30T17:37:39.3964303+01:00",
-  "UpdatedAssociateId": 818,
+  "UniqueIdentifier": "iste",
+  "Source": "in",
+  "Registered": "2010-05-05T14:19:10.912356+02:00",
+  "RegisteredAssociateId": 998,
+  "Updated": "2010-03-10T14:19:10.912356+01:00",
+  "UpdatedAssociateId": 877,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 439
+      "FieldLength": 852
     }
   }
 }

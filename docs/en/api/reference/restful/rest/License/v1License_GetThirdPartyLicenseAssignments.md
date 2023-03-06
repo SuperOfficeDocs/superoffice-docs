@@ -72,7 +72,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,25 +84,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 775,
-    "Tooltip": "dignissimos",
-    "CanAssign": false,
-    "Free": 126,
-    "InUse": 445,
-    "IsHidden": true,
+    "Total": 682,
+    "Tooltip": "consequuntur",
+    "CanAssign": true,
+    "Free": 151,
+    "InUse": 283,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 315,
-    "Name": "Koelpin, Barton and Legros",
-    "Description": "Up-sized attitude-oriented interface",
-    "PrerequisiteModuleName": "Welch Group",
-    "SortOrder": 199,
-    "ExtraFlags": 744,
+    "ModuleLicenseId": 21,
+    "Name": "Greenholt, Weber and Barton",
+    "Description": "Reduced background matrix",
+    "PrerequisiteModuleName": "Gleichner-Kuhn",
+    "SortOrder": 77,
+    "ExtraFlags": 618,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 29
+        "FieldLength": 201
       }
     }
   }

@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IViewStateAgent.SetHistor
 
 ## SetHistoryLengthPrefValue
 
-Set the logged on user's preferred history list length.
 
-* **length:** The new history list lenght
+
+
 
 [WSDL file for Services88/ViewState](../Services88-ViewState.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetHistoryLengthPrefValue Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

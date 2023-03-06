@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 574,
-  "PlainMessage": "doloremque",
-  "HtmlMessage": "expedita",
-  "SmsMessage": "distinctio",
-  "Description": "Diverse hybrid adapter",
-  "Subject": "et",
-  "FolderId": 847,
-  "HeaderField": "quibusdam",
-  "Design": "recusandae",
+  "ShipmentMessageId": 17,
+  "PlainMessage": "sint",
+  "HtmlMessage": "itaque",
+  "SmsMessage": "cumque",
+  "Description": "Exclusive regional policy",
+  "Subject": "libero",
+  "FolderId": 261,
+  "HeaderField": "omnis",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Ergonomic mobile contingency",
-  "AccessKey": "culpa",
-  "DocumentMessage": 789,
-  "Registered": "2000-01-23T17:37:18.3192412+01:00",
-  "RegisteredAssociateId": 39,
-  "Updated": "2003-11-02T17:37:18.3192412+01:00",
-  "UpdatedAssociateId": 977,
-  "UpdatedCount": 373,
+  "LongDescription": "Universal next generation protocol",
+  "AccessKey": "odit",
+  "DocumentMessage": 635,
+  "Registered": "2020-09-15T14:19:03.7176242+02:00",
+  "RegisteredAssociateId": 816,
+  "Updated": "2015-10-03T14:19:03.7176242+02:00",
+  "UpdatedAssociateId": 569,
+  "UpdatedCount": 199,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldLength": 229
     }
   }
 }

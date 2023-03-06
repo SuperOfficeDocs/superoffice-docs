@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ejscript"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -65,6 +65,7 @@ ejscript
 |[s\_link](s-link.md)  |Links in messages to measure success rate of a campaign. |
 |[scheduled\_task](scheduled-task.md)  |A scheduled entry executing a script at certain times |
 |[screen\_definition\_action](screen-definition-action.md)  |An action to perform for a certain button in an screen |
+|[TaskMenu](taskmenu.md)  |List items to merge into menues |
 |[ticket\_alert](ticket-alert.md)  |This table will contain ticket escalation levels. A ticket will be escalated along a &amp;apos;chain&amp;apos; of these levels. |
 |[ticket\_relation\_action](ticket-relation-action.md)  |Contains ticket relation actions, used to drive processing logic together with ticket relations |
 

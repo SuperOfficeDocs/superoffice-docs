@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.SaveConnectio
 
 ## SaveConnectionConfigFields
 
-Saves the connection config fields
 
-* **quoteConnectionId:** Primary key of the connection
-* **connectionConfigFields:** ConnectionConfigFields to save.
 
-**Returns:** Config Fields
+
 
 [WSDL file for Services84/Quote](../Services84-Quote.md)
 
@@ -56,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveConnectionConfigFields Response
 
 ```xml
@@ -81,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

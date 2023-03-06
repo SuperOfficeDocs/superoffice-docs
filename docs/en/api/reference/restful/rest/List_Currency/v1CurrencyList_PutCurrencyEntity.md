@@ -85,13 +85,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 521,
-  "Name": "Klocko Group",
-  "Tooltip": "magnam",
-  "Rank": 91,
-  "Rate": 8906.828,
-  "Units": 19393.192,
-  "Deleted": true
+  "CurrencyId": 315,
+  "Name": "Christiansen Group",
+  "Tooltip": "iure",
+  "Rank": 596,
+  "Rate": 26378.878,
+  "Units": 14673.387999999999,
+  "Deleted": false
 }
 ```
 
@@ -102,19 +102,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 31,
-  "Name": "Gerlach-Wiegand",
-  "Tooltip": "fugit",
-  "Rank": 280,
-  "Rate": 17074.032,
-  "Units": 28738.78,
-  "Deleted": false,
+  "CurrencyId": 667,
+  "Name": "Rohan Inc and Sons",
+  "Tooltip": "et",
+  "Rank": 465,
+  "Rate": 2087.244,
+  "Units": 17412.504,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 455
+      "FieldType": "System.Int32",
+      "FieldLength": 36
     }
   }
 }

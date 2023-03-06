@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.GetChatTopicUs
 
 ## GetChatTopicUserAgent
 
-Get a user assigned to a topic
 
-* **chatTopicId:** Id of the chat topic
-* **username:** Associate username or associate id to get.
 
-**Returns:** The user's role within the chat topic.
+
 
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetChatTopicUserAgent Response
 
@@ -91,3 +89,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

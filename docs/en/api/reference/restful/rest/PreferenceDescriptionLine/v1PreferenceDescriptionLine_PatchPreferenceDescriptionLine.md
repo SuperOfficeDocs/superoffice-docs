@@ -112,18 +112,18 @@ PreferenceDescriptionLine  updated.
 PATCH /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "consectetur",
+    "path": "saepe",
     "value": {}
   },
   {
     "op": "add",
-    "path": "consectetur",
+    "path": "saepe",
     "value": {}
   }
 ]
@@ -136,23 +136,23 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 73,
-  "PrefDescId": 370,
-  "PrefValue": "veritatis",
-  "PrefShowValue": "est",
-  "Description": "Fully-configurable encompassing support",
+  "PrefDescLineId": 651,
+  "PrefDescId": 476,
+  "PrefValue": "expedita",
+  "PrefShowValue": "dolorem",
+  "Description": "Automated fault-tolerant contingency",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 634
+      "FieldLength": 307
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

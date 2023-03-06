@@ -53,6 +53,7 @@ title: Services88.TargetsAgent WSDL
               <xs:element minOccurs="0" name="TargetUserGroup" nillable="true" type="tns:UserGroup" />
               <xs:element minOccurs="0" name="Currency" nillable="true" type="tns:Currency" />
               <xs:element minOccurs="0" name="DimensionListItem" type="xs:int" />
+              <xs:element minOccurs="0" name="DimensionListItemDisplayName" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -219,6 +220,8 @@ title: Services88.TargetsAgent WSDL
               <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="IsOwnerContact" type="xs:boolean" />
               <xs:element minOccurs="0" name="ActiveErpLinks" type="xs:int" />
+              <xs:element minOccurs="0" name="Number1" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Number2" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -411,8 +414,10 @@ title: Services88.TargetsAgent WSDL
               <xs:element minOccurs="0" name="AssignmentLevel" type="tns:TargetAssignementLevel" />
               <xs:element minOccurs="0" name="EntityType" type="tns:TargetEntityType" />
               <xs:element minOccurs="0" name="MeasurementUnit" type="tns:TargetMeasurementUnit" />
-              <xs:element minOccurs="0" name="DimensionList" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="DimensionListField" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="DimensionListName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="DimensionListId" type="xs:int" />
+              <xs:element minOccurs="0" name="DimensionListLabel" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="SelectedDimensions" nillable="true" type="q2:ArrayOfint" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             </xs:sequence>
           </xs:extension>
@@ -704,6 +709,84 @@ title: Services88.TargetsAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="CreateDefaultTargetAssignmentForCompanyWithDimension">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TargetDimensionId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultTargetAssignmentForCompanyWithDimensionResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfTargetAssignment" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultTargetAssignmentForUserGroupWithDimension">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="UserGroupId" type="xs:int" />
+            <xs:element minOccurs="0" name="TargetDimensionId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultTargetAssignmentForUserGroupWithDimensionResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfTargetAssignment" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetTargetAssignmentForYearAndDimension">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TargetYear" type="xs:int" />
+            <xs:element minOccurs="0" name="EntityType" type="tns:TargetEntityType" />
+            <xs:element minOccurs="0" name="TargetLevel" type="tns:TargetLevel" />
+            <xs:element minOccurs="0" name="Id" type="xs:int" />
+            <xs:element minOccurs="0" name="DimensionId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetTargetAssignmentForYearAndDimensionResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:TargetAssignment" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultTargetAssignmentForCompanyWithYearAndDimension">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Year" type="xs:int" />
+            <xs:element minOccurs="0" name="TargetDimensionId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfTargetAssignment" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="UserGroupId" type="xs:int" />
+            <xs:element minOccurs="0" name="Year" type="xs:int" />
+            <xs:element minOccurs="0" name="TargetDimensionId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfTargetAssignment" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetTargetDimension">
         <xs:complexType>
           <xs:sequence>
@@ -807,6 +890,21 @@ title: Services88.TargetsAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="ExportArchiveResult" nillable="true" type="tns:ExportArchiveResult" />
+      <xs:element name="GetTargetGroupForYearAndDimension">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TargetYear" type="xs:int" />
+            <xs:element minOccurs="0" name="DimensionId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetTargetGroupForYearAndDimensionResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:TargetGroup" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetTargetRevisionHistory">
         <xs:complexType>
           <xs:sequence>
@@ -1082,6 +1180,91 @@ title: Services88.TargetsAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="CreateDefaultTargetAssignmentForCompanyWithDimensionRequest">
+    <wsdl:part name="parameters" element="tns:CreateDefaultTargetAssignmentForCompanyWithDimension" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultTargetAssignmentForCompanyWithDimensionRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultTargetAssignmentForCompanyWithDimensionResponse">
+    <wsdl:part name="parameters" element="tns:CreateDefaultTargetAssignmentForCompanyWithDimensionResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultTargetAssignmentForCompanyWithDimensionResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest">
+    <wsdl:part name="parameters" element="tns:CreateDefaultTargetAssignmentForUserGroupWithDimension" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultTargetAssignmentForUserGroupWithDimensionResponse">
+    <wsdl:part name="parameters" element="tns:CreateDefaultTargetAssignmentForUserGroupWithDimensionResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultTargetAssignmentForUserGroupWithDimensionResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetTargetAssignmentForYearAndDimensionRequest">
+    <wsdl:part name="parameters" element="tns:GetTargetAssignmentForYearAndDimension" />
+  </wsdl:message>
+  <wsdl:message name="GetTargetAssignmentForYearAndDimensionRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetTargetAssignmentForYearAndDimensionResponse">
+    <wsdl:part name="parameters" element="tns:GetTargetAssignmentForYearAndDimensionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTargetAssignmentForYearAndDimensionResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionRequest">
+    <wsdl:part name="parameters" element="tns:CreateDefaultTargetAssignmentForCompanyWithYearAndDimension" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionResponse">
+    <wsdl:part name="parameters" element="tns:CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest">
+    <wsdl:part name="parameters" element="tns:CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionResponse">
+    <wsdl:part name="parameters" element="tns:CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetTargetDimensionRequest">
     <wsdl:part name="parameters" element="tns:GetTargetDimension" />
   </wsdl:message>
@@ -1184,6 +1367,23 @@ title: Services88.TargetsAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetTargetGroupForYearAndDimensionRequest">
+    <wsdl:part name="parameters" element="tns:GetTargetGroupForYearAndDimension" />
+  </wsdl:message>
+  <wsdl:message name="GetTargetGroupForYearAndDimensionRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetTargetGroupForYearAndDimensionResponse">
+    <wsdl:part name="parameters" element="tns:GetTargetGroupForYearAndDimensionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTargetGroupForYearAndDimensionResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetTargetRevisionHistoryRequest">
     <wsdl:part name="parameters" element="tns:GetTargetRevisionHistory" />
   </wsdl:message>
@@ -1202,139 +1402,103 @@ title: Services88.TargetsAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Targets">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Targets</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultTargetAssignment">
-      <wsdl:documentation>
-        <summary>Loading default values into a new TargetAssignment.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetAssignment" name="CreateDefaultTargetAssignmentRequest" message="tns:CreateDefaultTargetAssignmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetAssignmentResponse" name="CreateDefaultTargetAssignmentResponse" message="tns:CreateDefaultTargetAssignmentResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultTargetDimension">
-      <wsdl:documentation>
-        <summary>Loading default values into a new TargetDimension.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetDimension" name="CreateDefaultTargetDimensionRequest" message="tns:CreateDefaultTargetDimensionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetDimensionResponse" name="CreateDefaultTargetDimensionResponse" message="tns:CreateDefaultTargetDimensionResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveTargetDimension">
-      <wsdl:documentation>
-        <summary>Updates the existing TargetDimension or creates a new TargetDimension if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/SaveTargetDimension" name="SaveTargetDimensionRequest" message="tns:SaveTargetDimensionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/SaveTargetDimensionResponse" name="SaveTargetDimensionResponse" message="tns:SaveTargetDimensionResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteTargetDimension">
-      <wsdl:documentation>
-        <summary>Deletes the TargetDimension</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/DeleteTargetDimension" name="DeleteTargetDimensionRequest" message="tns:DeleteTargetDimensionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/DeleteTargetDimensionResponse" name="DeleteTargetDimensionResponse" message="tns:DeleteTargetDimensionResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultTargetGroup">
-      <wsdl:documentation>
-        <summary>Loading default values into a new TargetGroup.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetGroup" name="CreateDefaultTargetGroupRequest" message="tns:CreateDefaultTargetGroupRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetGroupResponse" name="CreateDefaultTargetGroupResponse" message="tns:CreateDefaultTargetGroupResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveTargetGroup">
-      <wsdl:documentation>
-        <summary>Updates the existing TargetGroup or creates a new TargetGroup if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/SaveTargetGroup" name="SaveTargetGroupRequest" message="tns:SaveTargetGroupRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/SaveTargetGroupResponse" name="SaveTargetGroupResponse" message="tns:SaveTargetGroupResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteTargetGroup">
-      <wsdl:documentation>
-        <summary>Deletes the TargetGroup</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/DeleteTargetGroup" name="DeleteTargetGroupRequest" message="tns:DeleteTargetGroupRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/DeleteTargetGroupResponse" name="DeleteTargetGroupResponse" message="tns:DeleteTargetGroupResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultTargetRevision">
-      <wsdl:documentation>
-        <summary>Loading default values into a new TargetRevision.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetRevision" name="CreateDefaultTargetRevisionRequest" message="tns:CreateDefaultTargetRevisionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetRevisionResponse" name="CreateDefaultTargetRevisionResponse" message="tns:CreateDefaultTargetRevisionResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultTargetRevisionHistory">
-      <wsdl:documentation>
-        <summary>Loading default values into a new TargetRevisionHistory.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetRevisionHistory" name="CreateDefaultTargetRevisionHistoryRequest" message="tns:CreateDefaultTargetRevisionHistoryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetRevisionHistoryResponse" name="CreateDefaultTargetRevisionHistoryResponse" message="tns:CreateDefaultTargetRevisionHistoryResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultTargetAssignmentForCompany">
-      <wsdl:documentation>
-        <summary>Returns a default target assignment for the owner company.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetAssignmentForCompany" name="CreateDefaultTargetAssignmentForCompanyRequest" message="tns:CreateDefaultTargetAssignmentForCompanyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetAssignmentForCompanyResponse" name="CreateDefaultTargetAssignmentForCompanyResponse" message="tns:CreateDefaultTargetAssignmentForCompanyResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultTargetAssignmentForUserGroup">
-      <wsdl:documentation>
-        <summary>Returns a default target assignment for the specified usergroup.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetAssignmentForUserGroup" name="CreateDefaultTargetAssignmentForUserGroupRequest" message="tns:CreateDefaultTargetAssignmentForUserGroupRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetAssignmentForUserGroupResponse" name="CreateDefaultTargetAssignmentForUserGroupResponse" message="tns:CreateDefaultTargetAssignmentForUserGroupResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTargetAssignmentForYear">
-      <wsdl:documentation>
-        <summary>Returns the target assignment for the specified year and entity type.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/GetTargetAssignmentForYear" name="GetTargetAssignmentForYearRequest" message="tns:GetTargetAssignmentForYearRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/GetTargetAssignmentForYearResponse" name="GetTargetAssignmentForYearResponse" message="tns:GetTargetAssignmentForYearResponse" />
     </wsdl:operation>
+    <wsdl:operation name="CreateDefaultTargetAssignmentForCompanyWithDimension">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension" name="CreateDefaultTargetAssignmentForCompanyWithDimensionRequest" message="tns:CreateDefaultTargetAssignmentForCompanyWithDimensionRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetAssignmentForCompanyWithDimensionResponse" name="CreateDefaultTargetAssignmentForCompanyWithDimensionResponse" message="tns:CreateDefaultTargetAssignmentForCompanyWithDimensionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateDefaultTargetAssignmentForUserGroupWithDimension">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension" name="CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest" message="tns:CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimensionResponse" name="CreateDefaultTargetAssignmentForUserGroupWithDimensionResponse" message="tns:CreateDefaultTargetAssignmentForUserGroupWithDimensionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTargetAssignmentForYearAndDimension">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/GetTargetAssignmentForYearAndDimension" name="GetTargetAssignmentForYearAndDimensionRequest" message="tns:GetTargetAssignmentForYearAndDimensionRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/GetTargetAssignmentForYearAndDimensionResponse" name="GetTargetAssignmentForYearAndDimensionResponse" message="tns:GetTargetAssignmentForYearAndDimensionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateDefaultTargetAssignmentForCompanyWithYearAndDimension">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension" name="CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionRequest" message="tns:CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionResponse" name="CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionResponse" message="tns:CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension" name="CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest" message="tns:CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionResponse" name="CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionResponse" message="tns:CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetTargetDimension">
-      <wsdl:documentation>
-        <summary>Gets a TargetDimension object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/GetTargetDimension" name="GetTargetDimensionRequest" message="tns:GetTargetDimensionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/GetTargetDimensionResponse" name="GetTargetDimensionResponse" message="tns:GetTargetDimensionResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTargetDimensionsForEntityType">
-      <wsdl:documentation>
-        <summary>Returns the target dimensions for the given entity type.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/GetTargetDimensionsForEntityType" name="GetTargetDimensionsForEntityTypeRequest" message="tns:GetTargetDimensionsForEntityTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/GetTargetDimensionsForEntityTypeResponse" name="GetTargetDimensionsForEntityTypeResponse" message="tns:GetTargetDimensionsForEntityTypeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTargetGroupIds">
-      <wsdl:documentation>
-        <summary>Returns ids of the target groups that use this dimension.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/GetTargetGroupIds" name="GetTargetGroupIdsRequest" message="tns:GetTargetGroupIdsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/GetTargetGroupIdsResponse" name="GetTargetGroupIdsResponse" message="tns:GetTargetGroupIdsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTargetGroup">
-      <wsdl:documentation>
-        <summary>Gets a TargetGroup object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/GetTargetGroup" name="GetTargetGroupRequest" message="tns:GetTargetGroupRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/GetTargetGroupResponse" name="GetTargetGroupResponse" message="tns:GetTargetGroupResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTargetGroupForYear">
-      <wsdl:documentation>
-        <summary>Returns the target group for the specified year and entity type.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/GetTargetGroupForYear" name="GetTargetGroupForYearRequest" message="tns:GetTargetGroupForYearRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/GetTargetGroupForYearResponse" name="GetTargetGroupForYearResponse" message="tns:GetTargetGroupForYearResponse" />
     </wsdl:operation>
     <wsdl:operation name="ExportTargetGroupToExcel">
-      <wsdl:documentation>
-        <summary>Renders the given targetgroup to excel, and returns the path to the temporary file.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/ExportTargetGroupToExcel" name="ExportTargetGroupToExcelRequest" message="tns:ExportTargetGroupToExcelRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/ExportTargetGroupToExcelResponse" name="ExportTargetGroupToExcelResponse" message="tns:ExportTargetGroupToExcelResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GetTargetGroupForYearAndDimension">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/GetTargetGroupForYearAndDimension" name="GetTargetGroupForYearAndDimensionRequest" message="tns:GetTargetGroupForYearAndDimensionRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/GetTargetGroupForYearAndDimensionResponse" name="GetTargetGroupForYearAndDimensionResponse" message="tns:GetTargetGroupForYearAndDimensionResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetTargetRevisionHistory">
-      <wsdl:documentation>
-        <summary>Returns the revision history for a given TargetAssignmentInfo in chronological order.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/GetTargetRevisionHistory" name="GetTargetRevisionHistoryRequest" message="tns:GetTargetRevisionHistoryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/GetTargetRevisionHistoryResponse" name="GetTargetRevisionHistoryResponse" message="tns:GetTargetRevisionHistoryResponse" />
     </wsdl:operation>
@@ -1533,6 +1697,86 @@ title: Services88.TargetsAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="CreateDefaultTargetAssignmentForCompanyWithDimension">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension" style="document" />
+      <wsdl:input name="CreateDefaultTargetAssignmentForCompanyWithDimensionRequest">
+        <soap:header message="tns:CreateDefaultTargetAssignmentForCompanyWithDimensionRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateDefaultTargetAssignmentForCompanyWithDimensionRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateDefaultTargetAssignmentForCompanyWithDimensionRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateDefaultTargetAssignmentForCompanyWithDimensionResponse">
+        <soap:header message="tns:CreateDefaultTargetAssignmentForCompanyWithDimensionResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultTargetAssignmentForCompanyWithDimensionResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultTargetAssignmentForCompanyWithDimensionResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateDefaultTargetAssignmentForCompanyWithDimensionResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDefaultTargetAssignmentForUserGroupWithDimension">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension" style="document" />
+      <wsdl:input name="CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest">
+        <soap:header message="tns:CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateDefaultTargetAssignmentForUserGroupWithDimensionResponse">
+        <soap:header message="tns:CreateDefaultTargetAssignmentForUserGroupWithDimensionResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultTargetAssignmentForUserGroupWithDimensionResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultTargetAssignmentForUserGroupWithDimensionResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateDefaultTargetAssignmentForUserGroupWithDimensionResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTargetAssignmentForYearAndDimension">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/GetTargetAssignmentForYearAndDimension" style="document" />
+      <wsdl:input name="GetTargetAssignmentForYearAndDimensionRequest">
+        <soap:header message="tns:GetTargetAssignmentForYearAndDimensionRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetTargetAssignmentForYearAndDimensionRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetTargetAssignmentForYearAndDimensionRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetTargetAssignmentForYearAndDimensionResponse">
+        <soap:header message="tns:GetTargetAssignmentForYearAndDimensionResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetTargetAssignmentForYearAndDimensionResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetTargetAssignmentForYearAndDimensionResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetTargetAssignmentForYearAndDimensionResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDefaultTargetAssignmentForCompanyWithYearAndDimension">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension" style="document" />
+      <wsdl:input name="CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionRequest">
+        <soap:header message="tns:CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionResponse">
+        <soap:header message="tns:CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension" style="document" />
+      <wsdl:input name="CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest">
+        <soap:header message="tns:CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionResponse">
+        <soap:header message="tns:CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetTargetDimension">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/GetTargetDimension" style="document" />
       <wsdl:input name="GetTargetDimensionRequest">
@@ -1629,6 +1873,22 @@ title: Services88.TargetsAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="GetTargetGroupForYearAndDimension">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/GetTargetGroupForYearAndDimension" style="document" />
+      <wsdl:input name="GetTargetGroupForYearAndDimensionRequest">
+        <soap:header message="tns:GetTargetGroupForYearAndDimensionRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetTargetGroupForYearAndDimensionRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetTargetGroupForYearAndDimensionRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetTargetGroupForYearAndDimensionResponse">
+        <soap:header message="tns:GetTargetGroupForYearAndDimensionResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetTargetGroupForYearAndDimensionResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetTargetGroupForYearAndDimensionResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetTargetGroupForYearAndDimensionResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetTargetRevisionHistory">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Targets/GetTargetRevisionHistory" style="document" />
       <wsdl:input name="GetTargetRevisionHistoryRequest">
@@ -1653,3 +1913,4 @@ title: Services88.TargetsAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

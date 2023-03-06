@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "voluptas",
-  "TechExplanation": "animi",
-  "ErrorCode": "modi",
+  "UserExplanation": "odit",
+  "TechExplanation": "repellendus",
+  "ErrorCode": "expedita",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 661
+      "FieldType": "System.Int32",
+      "FieldLength": 189
     }
   }
 }

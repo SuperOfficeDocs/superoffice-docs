@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 789,
-  "Name": "Schmeler LLC",
-  "Tooltip": "saepe",
+  "Id": 717,
+  "Name": "Predovic Group",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 477,
-  "Rank": 382
+  "UdListDefinitionId": 757,
+  "Rank": 928
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 860,
-  "Name": "Auer-Dooley",
-  "Tooltip": "aut",
+  "Id": 632,
+  "Name": "Marquardt, Howell and Trantow",
+  "Tooltip": "ad",
   "Deleted": false,
-  "UdListDefinitionId": 927,
-  "Rank": 77,
+  "UdListDefinitionId": 10,
+  "Rank": 130,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 823
+      "FieldType": "System.Int32",
+      "FieldLength": 904
     }
   }
 }

@@ -1,0 +1,107 @@
+---
+title: POST Agents/Person/GetPersonImages
+uid: v1PersonAgent_GetPersonImages
+---
+
+# POST Agents/Person/GetPersonImages
+
+```http
+POST /api/v1/Agents/Person/GetPersonImages
+```
+
+Get the image for a set of persons scaled to a specific size.
+
+
+Returned images are in PNG format.
+
+
+
+
+
+
+## Query String Parameters
+
+| Parameter Name | Type |  Description |
+|----------------|------|--------------|
+| $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
+
+```http
+POST /api/v1/Agents/Person/GetPersonImages?$select=name,department,category/id
+```
+
+
+## Request Headers
+
+| Parameter Name | Description |
+|----------------|-------------|
+| Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
+| X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
+| Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
+| Accept         | Content-type(s) you would like the response in: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/json-patch+json`, `application/merge-patch+json` |
+| Accept-Language | Convert string references and multi-language values into a specified language (iso2) code. |
+| SO-Language | Convert string references and multi-language values into a specified language (iso2) code. Overrides Accept-Language value. |
+| SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
+| SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
+| SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
+
+## Request Body: request 
+
+PersonIds, ScaledWidth, ScaledHeight 
+
+| Property Name | Type |  Description |
+|----------------|------|--------------|
+| PersonIds | Array |  |
+| ScaledWidth | Integer |  |
+| ScaledHeight | Integer |  |
+
+## Response:array
+
+OK
+
+| Response | Description |
+|----------------|-------------|
+| 200 | OK |
+
+### Response body: array
+
+| Property Name | Type |  Description |
+|----------------|------|--------------|
+| PersonId | int32 | Primary key |
+| ImageData | byte | Image data in PNG format. |
+
+## Sample request
+
+```http!
+POST /api/v1/Agents/Person/GetPersonImages
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: en
+Content-Type: application/json; charset=utf-8
+
+{
+  "PersonIds": [
+    922,
+    36
+  ],
+  "ScaledWidth": 846,
+  "ScaledHeight": 232
+}
+```
+
+## Sample response
+
+```http_
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+[
+  {
+    "PersonId": 918,
+    "ImageData": "GIF89....File contents as raw bytes..."
+  },
+  {
+    "PersonId": 918,
+    "ImageData": "GIF89....File contents as raw bytes..."
+  }
+]
+```

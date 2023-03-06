@@ -111,29 +111,29 @@ OK
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Jenkins, Trantow and Nikolaus",
-  "Comment": "non",
-  "StakeholderRoleId": 419,
-  "CountryId": 169,
-  "PersonId": 752,
-  "EmailDescription": "dock_gutmann@predovic.biz",
-  "EmailId": 934,
-  "EmailAddress": "petra@durganleannon.uk",
-  "PhoneId": 716,
-  "ContactName": "Walsh Group",
-  "ContactId": 201,
-  "SaleId": 664,
-  "Mrmrs": "perspiciatis",
-  "Firstname": "Blake",
-  "MiddleName": "Ledner, Labadie and Gaylord",
-  "Lastname": "Christiansen",
-  "SaleStakeholderId": 725,
-  "Rank": 206,
-  "Phone": "832-858-8912 x86954"
+  "StakeholderRoleName": "Parker-Towne",
+  "Comment": "consequatur",
+  "StakeholderRoleId": 443,
+  "CountryId": 434,
+  "PersonId": 233,
+  "EmailDescription": "santino@dubuque.uk",
+  "EmailId": 951,
+  "EmailAddress": "doyle.weimann@glover.co.uk",
+  "PhoneId": 157,
+  "ContactName": "Bosco Group",
+  "ContactId": 363,
+  "SaleId": 200,
+  "Mrmrs": "error",
+  "Firstname": "Leanna",
+  "MiddleName": "Baumbach LLC",
+  "Lastname": "Littel",
+  "SaleStakeholderId": 963,
+  "Rank": 742,
+  "Phone": "628.705.4863 x53407"
 }
 ```
 
@@ -144,31 +144,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Koch-Jerde",
-  "Comment": "expedita",
-  "StakeholderRoleId": 724,
-  "CountryId": 669,
-  "PersonId": 958,
-  "EmailDescription": "shyann_volkman@sipes.biz",
-  "EmailId": 856,
-  "EmailAddress": "mireille@sanfordsenger.com",
-  "PhoneId": 125,
-  "ContactName": "Walter Inc and Sons",
-  "ContactId": 730,
-  "SaleId": 867,
-  "Mrmrs": "esse",
-  "Firstname": "Rosemarie",
-  "MiddleName": "Tillman Inc and Sons",
-  "Lastname": "Von",
-  "SaleStakeholderId": 544,
-  "Rank": 441,
-  "Phone": "(470)540-9172 x36902",
+  "StakeholderRoleName": "Rogahn Inc and Sons",
+  "Comment": "illo",
+  "StakeholderRoleId": 160,
+  "CountryId": 145,
+  "PersonId": 687,
+  "EmailDescription": "kay_oreilly@kuhic.info",
+  "EmailId": 684,
+  "EmailAddress": "jovan.olson@jones.com",
+  "PhoneId": 378,
+  "ContactName": "Hintz-Nolan",
+  "ContactId": 384,
+  "SaleId": 411,
+  "Mrmrs": "cumque",
+  "Firstname": "Ellsworth",
+  "MiddleName": "Schroeder, Ratke and Kautzer",
+  "Lastname": "Gottlieb",
+  "SaleStakeholderId": 3,
+  "Rank": 942,
+  "Phone": "259-567-5654 x943",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 463
+      "FieldType": "System.String",
+      "FieldLength": 797
     }
   },
   "_Links": {

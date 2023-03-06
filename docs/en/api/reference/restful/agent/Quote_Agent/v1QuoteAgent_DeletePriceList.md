@@ -24,7 +24,7 @@ Deletes the PriceList
 | PriceListId | int32 | **Required** The id of the PriceList to be deleted. |
 
 ```http
-POST /api/v1/Agents/Quote/DeletePriceList?PriceListId=430
+POST /api/v1/Agents/Quote/DeletePriceList?PriceListId=197
 ```
 
 

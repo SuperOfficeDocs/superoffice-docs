@@ -70,8 +70,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "quasi",
-  "PublicValue": "debitis"
+  "Type": "nobis",
+  "PublicValue": "iusto"
 }
 ```
 

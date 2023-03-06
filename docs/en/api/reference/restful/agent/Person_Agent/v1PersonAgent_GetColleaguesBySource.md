@@ -114,12 +114,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 192
+  "Count": 18
 }
 ```
 
@@ -131,52 +131,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "laudantium",
-    "PersonId": 407,
-    "Mrmrs": "eos",
-    "Firstname": "Samantha",
-    "Lastname": "Kessler",
-    "MiddleName": "Rau, Terry and Schmeler",
-    "Title": "voluptates",
-    "Description": "Networked background portal",
-    "Email": "betty@koepp.ca",
-    "FullName": "Monica McCullough",
-    "DirectPhone": "028-817-4032 x3192",
-    "FormalName": "Wilderman LLC",
-    "CountryId": 29,
-    "ContactId": 843,
-    "ContactName": "Cummerata-Bartoletti",
-    "Retired": 350,
-    "Rank": 775,
-    "ActiveInterests": 878,
-    "ContactDepartment": "synthesize plug-and-play vortals",
-    "ContactCountryId": 69,
-    "ContactOrgNr": "1335979",
-    "FaxPhone": "525-202-5683 x0794",
-    "MobilePhone": "860-594-1187",
-    "ContactPhone": "947.876.3132 x80127",
-    "AssociateName": "Wisoky, Roob and Ziemann",
-    "AssociateId": 381,
-    "UsePersonAddress": true,
-    "ContactFax": "et",
-    "Kanafname": "placeat",
-    "Kanalname": "id",
-    "Post1": "qui",
-    "Post2": "reprehenderit",
-    "Post3": "quas",
-    "EmailName": "veda.lebsack@quitzon.ca",
-    "ContactFullName": "Rosanna Langworth",
-    "ActiveErpLinks": 997,
-    "TicketPriorityId": 107,
-    "SupportLanguageId": 949,
-    "SupportAssociateId": 993,
+    "Position": "facere",
+    "PersonId": 30,
+    "Mrmrs": "possimus",
+    "Firstname": "Lacy",
+    "Lastname": "Bernhard",
+    "MiddleName": "Kozey LLC",
+    "Title": "alias",
+    "Description": "Future-proofed eco-centric neural-net",
+    "Email": "kay.purdy@bogan.biz",
+    "FullName": "Darwin Smitham",
+    "DirectPhone": "1-480-630-7842 x86379",
+    "FormalName": "Sporer-Wilderman",
+    "CountryId": 88,
+    "ContactId": 345,
+    "ContactName": "Stokes, Hane and Cormier",
+    "Retired": 542,
+    "Rank": 250,
+    "ActiveInterests": 315,
+    "ContactDepartment": "",
+    "ContactCountryId": 264,
+    "ContactOrgNr": "939014",
+    "FaxPhone": "458.591.5289",
+    "MobilePhone": "388-630-4567 x38710",
+    "ContactPhone": "(118)760-3340",
+    "AssociateName": "Bednar-Flatley",
+    "AssociateId": 973,
+    "UsePersonAddress": false,
+    "ContactFax": "quos",
+    "Kanafname": "saepe",
+    "Kanalname": "in",
+    "Post1": "dignissimos",
+    "Post2": "ut",
+    "Post3": "accusamus",
+    "EmailName": "dagmar.gottlieb@kovacekrutherford.info",
+    "ContactFullName": "Donnell Keeling",
+    "ActiveErpLinks": 341,
+    "TicketPriorityId": 564,
+    "SupportLanguageId": 912,
+    "SupportAssociateId": 601,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 721
+        "FieldLength": 525
       }
     }
   }

@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashAgent.AddTileToDashb
 
 ## AddTileToDashboard
 
-Add a tile to a dashboard with next rank
 
-* **dashboardId:** The id of the dashboard to add the tile to
-* **dashTileDefinitionId:** The id of the dashboard tile definition
 
-**Returns:** The newly added tile
+
 
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## AddTileToDashboard Response
 
@@ -98,3 +96,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

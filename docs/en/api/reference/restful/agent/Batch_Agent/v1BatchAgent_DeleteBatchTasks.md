@@ -63,13 +63,13 @@ No Content
 POST /api/v1/Agents/Batch/DeleteBatchTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "BatchTaskIds": [
-    986,
-    555
+    1002,
+    411
   ]
 }
 ```

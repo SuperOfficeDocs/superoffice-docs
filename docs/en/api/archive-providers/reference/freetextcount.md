@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FreetextCount"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -31,15 +31,13 @@ provided, this restriction will limit the entities searched. The <see cref="T:Su
 is an MDO provider for supported entities.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"freetextcount"|Number of matches|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |ownerEntityName|listAny|Owner: Owner (type) of freetext match| x |
 |count| *None* |Count: Number of matches for a certain owner entity| x |
 |entityLocalizedName| *None* |Owner: Owner of freetext match| x |
@@ -55,4 +53,7 @@ Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

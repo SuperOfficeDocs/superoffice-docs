@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IPersonAgent.GetAddress">
 
 ## GetAddress
 
-Gets the person's localized address.
 
-* **personId:** The person id
 
-**Returns:** The address as LocalizedField[][].
+
 
 [WSDL file for Services88/Person](../Services88-Person.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetAddress Response
 
@@ -107,3 +106,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

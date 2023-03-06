@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "a",
-    "Type": "alias",
-    "Description": "Focused multi-tasking internet solution",
+    "DisplayType": "quia",
+    "Type": "laudantium",
+    "Description": "Multi-tiered transitional matrices",
     "ValueControl": "Edit",
-    "CanCreatePerson": false,
+    "CanCreatePerson": true,
     "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 267
+        "FieldLength": 569
       }
     }
   }

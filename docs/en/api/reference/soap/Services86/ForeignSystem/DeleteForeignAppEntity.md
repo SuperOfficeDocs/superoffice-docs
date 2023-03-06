@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IForeignSystemAgent.Delet
 
 ## DeleteForeignAppEntity
 
-Deletes the ForeignAppEntity
 
-* **foreignAppEntityId:** The identity of the ForeignAppEntity
+
+
 
 [WSDL file for Services86/ForeignSystem](../Services86-ForeignSystem.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteForeignAppEntity Response
 
 ```xml
@@ -64,3 +65,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

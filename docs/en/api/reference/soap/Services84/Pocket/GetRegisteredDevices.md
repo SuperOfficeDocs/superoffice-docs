@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IPocketAgent.GetRegistere
 
 ## GetRegisteredDevices
 
-Retrieve all registered devices for an associate
 
-* **associateId:** The user to get devices for
+
+
 
 [WSDL file for Services84/Pocket](../Services84-Pocket.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetRegisteredDevices Response
 
 ```xml
@@ -77,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

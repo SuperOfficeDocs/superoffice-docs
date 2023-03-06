@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 246,
-  "Name": "Wiegand, Funk and Cartwright",
-  "Tooltip": "doloribus",
+  "Id": 784,
+  "Name": "Conroy-Labadie",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 601,
+  "Rank": 390,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "cum",
+  "UseGroupsAndHeadings": true,
+  "ListType": "earum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 451
+      "FieldType": "System.Int32",
+      "FieldLength": 652
     }
   },
   "_Links": {

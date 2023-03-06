@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 535,
-  "Name": "Jast-Blick",
-  "Tooltip": "praesentium",
+  "Id": 855,
+  "Name": "Price Group",
+  "Tooltip": "quis",
   "Deleted": true,
-  "Rank": 315,
-  "IsCustomList": false,
+  "Rank": 861,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "incidunt",
+  "ListType": "quis",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 455,
-  "Name": "Dicki, Funk and Shanahan",
-  "Tooltip": "soluta",
-  "Deleted": true,
-  "Rank": 888,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "perspiciatis",
+  "Id": 37,
+  "Name": "Lubowitz LLC",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 451,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "hic",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 831
+      "FieldLength": 237
     }
   }
 }

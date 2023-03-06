@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 620,
-  "Currency": "in"
+  "QuoteConnectionId": 855,
+  "Currency": "voluptatem"
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 584,
-    "ERPPriceListKey": "voluptatem",
-    "QuoteConnectionId": 410,
-    "Name": "Krajcik Group",
-    "Description": "Multi-channelled leading edge middleware",
-    "Currency": "esse",
-    "CurrencyName": "Gleichner-Spencer",
-    "ValidFrom": "2010-05-30T17:37:18.7472417+02:00",
-    "ValidTo": "2014-11-11T17:37:18.7472417+01:00",
+    "PriceListId": 382,
+    "ERPPriceListKey": "quasi",
+    "QuoteConnectionId": 477,
+    "Name": "Barton, Hoeger and Willms",
+    "Description": "Multi-tiered non-volatile process improvement",
+    "Currency": "quod",
+    "CurrencyName": "Hudson-Pfannerstill",
+    "ValidFrom": "2002-10-16T14:19:04.0313341+02:00",
+    "ValidTo": "2001-02-17T14:19:04.0313341+01:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 41
+        "FieldType": "System.String",
+        "FieldLength": 892
       }
     }
   }

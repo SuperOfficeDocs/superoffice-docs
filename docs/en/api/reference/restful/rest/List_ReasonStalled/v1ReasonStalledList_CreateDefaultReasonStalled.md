@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 504,
-  "Name": "Gusikowski LLC",
-  "Tooltip": "fuga",
-  "Deleted": true,
-  "UdListDefinitionId": 249,
-  "Rank": 634,
+  "Id": 475,
+  "Name": "Heathcote, Spinka and Shanahan",
+  "Tooltip": "enim",
+  "Deleted": false,
+  "UdListDefinitionId": 494,
+  "Rank": 920,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 733
+      "FieldLength": 900
     }
   }
 }

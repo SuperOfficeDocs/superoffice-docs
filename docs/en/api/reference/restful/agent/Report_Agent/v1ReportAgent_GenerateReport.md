@@ -72,36 +72,36 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 668,
-  "LabelLayoutId": 486,
-  "Filename": "illum",
-  "Language": "non",
-  "FileType": "rem",
+  "ReportId": 702,
+  "LabelLayoutId": 202,
+  "Filename": "eius",
+  "Language": "aut",
+  "FileType": "ut",
   "Restrictions": [
     {
-      "Name": "Medhurst, Gutkowski and Anderson",
-      "Operator": "sed",
+      "Name": "Wolff LLC",
+      "Operator": "culpa",
       "Values": [
-        "aut",
-        "error"
+        "aperiam",
+        "autem"
       ],
       "DisplayValues": [
-        "ea",
-        "repellendus"
+        "asperiores",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 829,
+      "InterParenthesis": 833,
       "InterOperator": "And",
-      "UniqueHash": 129
+      "UniqueHash": 935
     }
   ]
 }
@@ -113,5 +113,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"exercitationem"
+"aut"
 ```

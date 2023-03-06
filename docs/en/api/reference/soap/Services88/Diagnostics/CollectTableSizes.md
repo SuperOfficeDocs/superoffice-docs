@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDiagnosticsAgent.Collect
 
 ## CollectTableSizes
 
-Collect and transmit usage statistics: Table Sizes. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.
 
-**Returns:** This method has no return value
+
+
 
 [WSDL file for Services88/Diagnostics](../Services88-Diagnostics.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CollectTableSizes Response
 
 ```xml
@@ -65,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

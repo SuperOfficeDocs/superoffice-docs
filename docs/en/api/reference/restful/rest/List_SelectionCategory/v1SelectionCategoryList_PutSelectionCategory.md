@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 632,
-  "Name": "Bode LLC",
-  "Tooltip": "autem",
+  "Id": 891,
+  "Name": "Zboncak, Homenick and Hudson",
+  "Tooltip": "commodi",
   "Deleted": false,
-  "UdListDefinitionId": 371,
-  "Rank": 746
+  "UdListDefinitionId": 581,
+  "Rank": 135
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 318,
-  "Name": "Nader Group",
-  "Tooltip": "esse",
-  "Deleted": true,
-  "UdListDefinitionId": 753,
-  "Rank": 822,
+  "Id": 634,
+  "Name": "Balistreri, Dibbert and Wisozk",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "UdListDefinitionId": 815,
+  "Rank": 634,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 645
+      "FieldLength": 434
     }
   }
 }

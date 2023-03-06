@@ -83,6 +83,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -92,11 +93,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "O'Connell Group"
+  "TaskName": "Thompson Inc and Sons"
 }
 ```
 
@@ -108,36 +109,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 173,
-    "Name": "Nicolas Inc and Sons",
-    "AssociateId": 470,
-    "DetailsTable": 692,
-    "DetailsRecord": 33,
+    "Id": 646,
+    "Name": "Bradtke Inc and Sons",
+    "AssociateId": 97,
+    "DetailsTable": 985,
+    "DetailsRecord": 970,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "eum",
-      "ParameterObject2": "ut"
+      "ParameterObject1": "voluptatum",
+      "ParameterObject2": "aliquam"
     },
-    "LastStarted": "2002-10-28T17:37:16.9052417+01:00",
-    "Created": "2018-03-07T17:37:16.9052417+01:00",
-    "StartCount": 383,
-    "DatabaseSerialNumber": "1633458",
-    "Context": "voluptatibus",
-    "Result": "esse",
+    "LastStarted": "2008-05-25T14:19:02.7750538+02:00",
+    "Created": "1998-05-26T14:19:02.7750538+02:00",
+    "StartCount": 620,
+    "DatabaseSerialNumber": "1138925",
+    "Context": "occaecati",
+    "Result": "voluptas",
     "State": "All",
-    "Description": "Inverse context-sensitive Graphical User Interface",
-    "Response": "iste",
-    "Request": "omnis",
-    "ProgressDescription": "Ameliorated motivating capability",
-    "ProgressPercent": 796,
-    "FileName": "Paucek LLC",
+    "Description": "Operative neutral secured line",
+    "Response": "quibusdam",
+    "Request": "harum",
+    "ProgressDescription": "Monitored maximized challenge",
+    "ProgressPercent": 11,
+    "FileName": "Dare-Wunsch",
+    "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 118
+        "FieldType": "System.Int32",
+        "FieldLength": 278
       }
     }
   }

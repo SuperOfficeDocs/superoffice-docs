@@ -83,6 +83,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -92,7 +93,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,36 +109,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 26,
-    "Name": "Roob, Crist and Stanton",
-    "AssociateId": 419,
-    "DetailsTable": 924,
-    "DetailsRecord": 812,
+    "Id": 343,
+    "Name": "Kuhic, Prosacco and King",
+    "AssociateId": 491,
+    "DetailsTable": 302,
+    "DetailsRecord": 424,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "similique",
-      "ParameterObject2": "pariatur"
+      "ParameterObject1": "non",
+      "ParameterObject2": "autem"
     },
-    "LastStarted": "1998-09-16T17:37:16.8992424+02:00",
-    "Created": "2002-10-15T17:37:16.8992424+02:00",
-    "StartCount": 706,
-    "DatabaseSerialNumber": "572416",
-    "Context": "soluta",
-    "Result": "eos",
+    "LastStarted": "2010-08-16T14:19:02.7594283+02:00",
+    "Created": "2007-09-23T14:19:02.7594283+02:00",
+    "StartCount": 202,
+    "DatabaseSerialNumber": "1472675",
+    "Context": "rerum",
+    "Result": "dolor",
     "State": "All",
-    "Description": "Synergistic neutral methodology",
-    "Response": "velit",
-    "Request": "adipisci",
-    "ProgressDescription": "Business-focused web-enabled hierarchy",
-    "ProgressPercent": 675,
-    "FileName": "Ortiz, Graham and Stehr",
+    "Description": "Intuitive contextually-based collaboration",
+    "Response": "qui",
+    "Request": "nobis",
+    "ProgressDescription": "Synchronised heuristic software",
+    "ProgressPercent": 608,
+    "FileName": "Hettinger, Moore and Bayer",
+    "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 288
+        "FieldLength": 227
       }
     }
   }

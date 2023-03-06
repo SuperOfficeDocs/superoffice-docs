@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 112,
-  "Currency": "voluptatum"
+  "QuoteConnectionId": 363,
+  "Currency": "atque"
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 421,
-    "ERPPriceListKey": "ea",
-    "QuoteConnectionId": 585,
-    "Name": "Gleichner, Jacobs and Daugherty",
-    "Description": "Multi-channelled encompassing monitoring",
-    "Currency": "excepturi",
-    "CurrencyName": "Goyette-Weber",
-    "ValidFrom": "2000-08-29T17:37:18.7462416+02:00",
-    "ValidTo": "2020-10-07T17:37:18.7462416+02:00",
+    "PriceListId": 855,
+    "ERPPriceListKey": "est",
+    "QuoteConnectionId": 68,
+    "Name": "Schiller Inc and Sons",
+    "Description": "Object-based high-level success",
+    "Currency": "omnis",
+    "CurrencyName": "Ledner, Pacocha and Klocko",
+    "ValidFrom": "2022-06-23T14:19:04.0313341+02:00",
+    "ValidTo": "2020-05-29T14:19:04.0313341+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 367
+        "FieldType": "System.Int32",
+        "FieldLength": 484
       }
     }
   }

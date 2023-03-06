@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 187,
-    "Name": "Stanton-Lueilwitz",
-    "Tooltip": "reprehenderit",
+    "Id": 41,
+    "Name": "Dibbert LLC",
+    "Tooltip": "rem",
     "Deleted": false,
-    "UdListDefinitionId": 896,
-    "Rank": 729,
+    "UdListDefinitionId": 163,
+    "Rank": 110,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 532
+        "FieldType": "System.String",
+        "FieldLength": 277
       }
     }
   }

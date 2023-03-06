@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IQuoteAgent.SaveQuoteLine
 
 ## SaveQuoteLineConfigurations
 
-Save a collection of QuoteLineConfigurations. It is not possible to add a new configurations.
 
-* **quoteLineConfigurations:** The QuoteLineConfigurations to save.
 
-**Returns:** The saved QuoteLineConfigurations.
+
 
 [WSDL file for Services88/Quote](../Services88-Quote.md)
 
@@ -61,6 +59,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveQuoteLineConfigurations Response
 
 ```xml
@@ -93,3 +92,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

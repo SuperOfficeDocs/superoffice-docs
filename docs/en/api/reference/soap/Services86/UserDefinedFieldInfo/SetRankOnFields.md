@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserDefinedFieldInfoAgen
 
 ## SetRankOnFields
 
-Change rank of user defined fields
 
-* **ownerType:** The user-defined field owner-entity.
-* **rankedFieldsIds:** All IDs of this owner-entity in desired rank order
+
+
 
 [WSDL file for Services86/UserDefinedFieldInfo](../Services86-UserDefinedFieldInfo.md)
 
@@ -51,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetRankOnFields Response
 
 ```xml
@@ -70,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

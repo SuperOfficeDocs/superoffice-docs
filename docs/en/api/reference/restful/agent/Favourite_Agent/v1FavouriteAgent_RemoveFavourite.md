@@ -65,13 +65,13 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Mosciski, VonRueden and Cormier",
-  "RecordId": 208,
-  "AssociateId": 568
+  "TableName": "Zemlak LLC",
+  "RecordId": 57,
+  "AssociateId": 972
 }
 ```
 

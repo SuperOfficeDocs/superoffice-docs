@@ -66,7 +66,7 @@ OK
 GET /api/v1/Contact/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Bechtelar Group",
-    "DisplayName": "Sporer-Walter",
-    "Description": "Profound foreground algorithm",
-    "ShortLabel": "dolor",
-    "HideLabel": true,
+    "FieldName": "Price LLC",
+    "DisplayName": "Fadel Inc and Sons",
+    "Description": "Upgradable interactive strategy",
+    "ShortLabel": "sed",
+    "HideLabel": false,
     "HideField": false,
-    "IsIndexed": false,
+    "IsIndexed": true,
     "IsMandatory": true,
     "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 655,
-    "TemplateVariableName": "Pacocha, Durgan and Jerde"
+    "IsExternal": true,
+    "Rank": 445,
+    "TemplateVariableName": "Mraz, Leffler and Lueilwitz"
   }
 ]
 ```

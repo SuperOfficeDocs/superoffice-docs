@@ -116,18 +116,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "rerum",
+    "path": "necessitatibus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "rerum",
+    "path": "necessitatibus",
     "value": {}
   }
 ]
@@ -140,27 +140,27 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 47,
-  "ERPPriceListKey": "sit",
-  "QuoteConnectionId": 267,
-  "Name": "Cremin Inc and Sons",
-  "Description": "User-friendly multi-tasking matrices",
-  "Currency": "veritatis",
-  "CurrencyName": "Cormier, O'Connell and Zboncak",
-  "ValidFrom": "2005-11-22T17:37:40.1195086+01:00",
-  "ValidTo": "2012-03-23T17:37:40.1195086+01:00",
-  "IsActive": false,
+  "PriceListId": 386,
+  "ERPPriceListKey": "molestiae",
+  "QuoteConnectionId": 145,
+  "Name": "Thiel, Carter and Cormier",
+  "Description": "Multi-layered hybrid capability",
+  "Currency": "repudiandae",
+  "CurrencyName": "Keebler Inc and Sons",
+  "ValidFrom": "2017-03-20T14:19:11.3367817+01:00",
+  "ValidTo": "2015-05-31T14:19:11.3367817+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldLength": 333
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

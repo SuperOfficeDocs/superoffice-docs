@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 430,
-  "Name": "Aufderhar Inc and Sons",
-  "Tooltip": "illum",
+  "Id": 422,
+  "Name": "Johnston-Kertzmann",
+  "Tooltip": "modi",
   "Deleted": false,
-  "UdListDefinitionId": 326,
-  "Rank": 997,
+  "UdListDefinitionId": 788,
+  "Rank": 696,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldLength": 756
     }
   }
 }

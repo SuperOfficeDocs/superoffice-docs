@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IMessagingAgent.SetDelive
 
 ## SetDeliveryStatus
 
-Set or change the delivery status on an outgoing messsage.
 
-* **plugin:** Name of plugin
-* **externalMessageId:** External message id known to plugin.
-* **status:** Delivery status
-* **statusDescription:** String describing delivery status.
+
+
 
 [WSDL file for Services85/Messaging](../Services85-Messaging.md)
 
@@ -53,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetDeliveryStatus Response
 
 ```xml
@@ -72,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

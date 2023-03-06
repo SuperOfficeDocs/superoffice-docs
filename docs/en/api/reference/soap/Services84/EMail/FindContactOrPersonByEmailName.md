@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IEMailAgent.FindContactOr
 
 ## FindContactOrPersonByEmailName
 
-* **name:** The sender name
-* **emailAddress:** The sender email address
 
-**Returns:** Contacts and persons matching emailaddress and name
+
+
 
 [WSDL file for Services84/EMail](../Services84-EMail.md)
 
@@ -49,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## FindContactOrPersonByEmailName Response
 
 ```xml
@@ -79,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

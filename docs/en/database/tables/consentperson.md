@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "ConsentPerson"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ConsentPerson Table (468)
+# ConsentPerson Table (471)
 
 Link table that defines who has which consents
 

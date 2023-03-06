@@ -79,11 +79,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "sint",
-  "RecordId": 292,
+  "Table": "vero",
+  "RecordId": 371,
   "Fields": [
-    "quisquam",
-    "aut"
+    "doloremque",
+    "dolor"
   ]
 }
 ```
@@ -96,11 +96,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "cum",
+    "Field": "quaerat",
     "FieldValue": null
   },
   {
-    "Field": "cum",
+    "Field": "quaerat",
     "FieldValue": null
   }
 ]

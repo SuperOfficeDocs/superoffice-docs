@@ -11,14 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IResourceAgent.SetResourc
 
 ## SetResourceSubstitution
 
-Create or update a resource substitution
 
-* **resourceName:** The name of the resource, without any brackets
-* **resourceValues:** The new value of the resource
-* **culture:** The .NET culture string
-* **isActive:** Is the subsitution now active
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services85/Resource](../Services85-Resource.md)
 
@@ -55,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetResourceSubstitution Response
 
 ```xml
@@ -74,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

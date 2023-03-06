@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IDashboardAgent.SetTile">
 
 ## SetTile
 
-Sets tile in the given dashboard position
 
-* **dashboardId:** Dashboard Id
-* **tileId:** Tile Id
-* **position:** Tile position in the dashboard
 
-**Returns:** The new dashboard is returned after the tile change
+
 
 [WSDL file for Services84/Dashboard](../Services84-Dashboard.md)
 
@@ -52,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SetTile Response
 
@@ -127,3 +124,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

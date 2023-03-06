@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 717,
-  "Name": "Jacobs Inc and Sons",
-  "Tooltip": "quia",
+  "Id": 56,
+  "Name": "Waters, Schoen and Bailey",
+  "Tooltip": "minus",
   "Deleted": false,
-  "UdListDefinitionId": 729,
-  "Rank": 825,
+  "UdListDefinitionId": 243,
+  "Rank": 823,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 468
+      "FieldType": "System.Int32",
+      "FieldLength": 738
     }
   }
 }

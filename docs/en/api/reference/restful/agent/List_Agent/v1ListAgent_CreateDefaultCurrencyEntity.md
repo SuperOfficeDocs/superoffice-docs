@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 920,
-  "Name": "Keeling-Romaguera",
-  "Tooltip": "magnam",
-  "Rank": 324,
-  "Rate": 27055.822,
-  "Units": 20584.112,
-  "Deleted": false,
+  "CurrencyId": 987,
+  "Name": "Simonis Group",
+  "Tooltip": "omnis",
+  "Rank": 307,
+  "Rate": 22727.768,
+  "Units": 20668.73,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 967
+      "FieldLength": 147
     }
   }
 }

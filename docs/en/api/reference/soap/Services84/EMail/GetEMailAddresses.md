@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IEMailAgent.GetEMailAddre
 
 ## GetEMailAddresses
 
-Get information about one or more email addresses, identified by IDs
 
-* **emailIds:** Array of IDs from the email table, each identifying one email address
 
-**Returns:** Array of email information objects
+
 
 [WSDL file for Services84/EMail](../Services84-EMail.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetEMailAddresses Response
 
 ```xml
@@ -85,3 +84,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

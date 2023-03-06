@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITargetsAgent.GetTargetGr
 
 ## GetTargetGroupForYear
 
-Returns the target group for the specified year and entity type.
 
-* **targetYear:** Targeted year
-* **entityType:** Targeted entity type
 
-**Returns:** Target Group for year and entity type.
+
 
 [WSDL file for Services88/Targets](../Services88-Targets.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetTargetGroupForYear Response
 
@@ -145,6 +143,8 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Targets:FullName xsi:type="xsd:string"></Targets:FullName>
        <Targets:IsOwnerContact xsi:type="xsd:boolean">false</Targets:IsOwnerContact>
        <Targets:ActiveErpLinks xsi:type="xsd:int">0</Targets:ActiveErpLinks>
+       <Targets:Number1 xsi:type="xsd:string"></Targets:Number1>
+       <Targets:Number2 xsi:type="xsd:string"></Targets:Number2>
       </Targets:TargetContact>
       <Targets:TargetUserGroup xsi:type="Targets:UserGroup">
        <Targets:Value xsi:type="xsd:string"></Targets:Value>
@@ -159,6 +159,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Targets:Tooltip xsi:type="xsd:string"></Targets:Tooltip>
       </Targets:Currency>
       <Targets:DimensionListItem xsi:type="xsd:int">0</Targets:DimensionListItem>
+      <Targets:DimensionListItemDisplayName xsi:type="xsd:string"></Targets:DimensionListItemDisplayName>
      </Targets:TargetAssignment>
     </Targets:TargetAssignments>
     <Targets:TargetDimension xsi:type="Targets:TargetDimension">
@@ -166,8 +167,10 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Targets:AssignmentLevel xsi:type="Targets:TargetAssignementLevel">Company</Targets:AssignmentLevel>
      <Targets:EntityType xsi:type="Targets:TargetEntityType">None</Targets:EntityType>
      <Targets:MeasurementUnit xsi:type="Targets:TargetMeasurementUnit">None</Targets:MeasurementUnit>
-     <Targets:DimensionList xsi:type="xsd:string"></Targets:DimensionList>
+     <Targets:DimensionListField xsi:type="xsd:string"></Targets:DimensionListField>
      <Targets:DimensionListName xsi:type="xsd:string"></Targets:DimensionListName>
+     <Targets:DimensionListId xsi:type="xsd:int">0</Targets:DimensionListId>
+     <Targets:DimensionListLabel xsi:type="xsd:string"></Targets:DimensionListLabel>
      <Targets:SelectedDimensions xsi:type="NetServerServices882:ArrayOfint">
       <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
      </Targets:SelectedDimensions>
@@ -178,3 +181,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
