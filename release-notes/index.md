@@ -1,13 +1,19 @@
 ---
+uid: release-notes
+title: What's new in SuperOffice
+description: Release notes. Here you will find all the small and big changes that has been released for SuperOffice in the different versions.
 author: SuperOffice AS – Research and Development
-so.date: 04.04.2022
+so.date: 03.07.2023
+so.topic: reference
 ---
 
 # What's new in SuperOffice
 
 Here you will find all the small and big changes that has been released for SuperOffice in the different versions. We aim to give you an understanding on why we have created the feature and function and how to use it. Hope you will find this inspiring and try out our new functionality.
 
-### Latest release is [version 10.2.3][7]
+## The latest release
+
+[Version 10.2.3][6]
 
 ## Overview of the different versions
 

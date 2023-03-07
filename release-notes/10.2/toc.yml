@@ -1,13 +1,6 @@
 items:
 - name: Introduction
   href: index.md
-  items:
-  - name: 10.2.1 update overview
-    href: 10.2.1-update.md
-  - name: 10.2.2 update overview
-    href: 10.2.2-update.md
-  - name: 10.2.3 update overview
-    href: 10.2.3-update.md
 - name: Core CRM
   href: core-crm/index.md
   items:
@@ -22,8 +15,8 @@ items:
     href: admin/10.2.2-update.md
   - name: 10.2.3 update
     href: admin/10.2.3-update.md
-- name: Service
-  href: service/index.md
+#- name: Service
+#  href: service/index.md
 - name: Marketing
   href: marketing/index.md
   items:
@@ -31,8 +24,8 @@ items:
     href: marketing/10.2.2-update.md
   - name: 10.2.3 update
     href: marketing/10.2.3-update.md
-- name: CEP
-  href: cep/index.md
+#- name: CEP
+#  href: cep/index.md
 - name: Mobile
   href: mobile/index.md
   items:
@@ -42,8 +35,8 @@ items:
     href: mobile/10.2.2-update.md
   - name: 10.2.3 update
     href: mobile/10.2.3-update.md
-- name: Office integrations
-  href: office-integrations/index.md
+#- name: Office integrations
+#  href: office-integrations/index.md
 - name: API
   href: api/index.md
   items:
@@ -57,5 +50,5 @@ items:
     items:
     - name: Database changes 10.2.1
       href: ../database/changes-10.2.1.md
-- name: Developer Products
-  href: development-products/index.md
+#- name: Developer Products
+#  href: development-products/index.md
