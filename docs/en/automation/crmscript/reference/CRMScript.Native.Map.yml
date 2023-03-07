@@ -16,7 +16,7 @@ items:
   - CRMScript.Native.Map.get(String)
   - CRMScript.Native.Map.getKey()
   - CRMScript.Native.Map.getVal()
-  - CRMScript.Native.Map.getWithFallBack(String, String)
+  - CRMScript.Native.Map.getWithFallback(String, String)
   - CRMScript.Native.Map.increaseValueForKey(String, Float)
   - CRMScript.Native.Map.increaseValueForKey(String, Integer)
   - CRMScript.Native.Map.insert(String, String)
@@ -207,23 +207,23 @@ items:
     return:
       type: CRMScript.Global.String
       description: "The value pointed to by the internal iterator."
-- uid: CRMScript.Native.Map.getWithFallBack(String, String)
-  commentId: M:CRMScript.Native.Map.getWithFallBack(String, String)
-  id: getWithFallBack(String, String)
-  so.intellisense: Map.getWithFallBack
+- uid: CRMScript.Native.Map.getWithFallback(String, String)
+  commentId: M:CRMScript.Native.Map.getWithFallback(String, String)
+  id: getWithFallback(String, String)
+  so.intellisense: Map.getWithFallback
   so.version: 10.1.8
   langs:
   - crmscript
   parent: CRMScript.Native.Map
-  name: getWithFallBack(String, String)
-  nameWithType: Map.getWithFallBack(String, String)
-  fullName: CRMScript.Native.Map.getWithFallBack(String, String)
+  name: getWithFallback(String, String)
+  nameWithType: Map.getWithFallback(String, String)
+  fullName: CRMScript.Native.Map.getWithFallback(String, String)
   type: Method
   summary: "\nReturns the fallback value if key does not exist.\n"
   example:
-    - "\n<pre><code>Map m = Map(&quot;height=25\\nwidth=10&quot;);\nprintLine(m.getWithFallBack(&quot;foo&quot;, &quot;bar&quot;));</code></pre>\n"
+    - "\n<pre><code>Map m = Map(&quot;height=25\\nwidth=10&quot;);\nprintLine(m.getWithFallback(&quot;foo&quot;, &quot;bar&quot;));</code></pre>\n"
   syntax:
-    content: String getWithFallBack(String key, String fallback)
+    content: String getWithFallback(String key, String fallback)
     parameters: 
     - id: key
       type: CRMScript.Global.String
