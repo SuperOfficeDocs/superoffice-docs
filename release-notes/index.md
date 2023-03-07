@@ -1,11 +1,21 @@
 ---
+uid: release-notes
+title: What's new in SuperOffice
+description: Release notes. Here you will find all the small and big changes that has been released for SuperOffice in the different versions.
 author: SuperOffice AS – Research and Development
-so.date: 04.04.2022
+so.date: 03.07.2023
+so.topic: reference
 ---
 
 # What's new in SuperOffice
 
-## Versions
+Here you will find all the small and big changes that has been released for SuperOffice in the different versions. We aim to give you an understanding on why we have created the feature and function and how to use it. Hope you will find this inspiring and try out our new functionality.
+
+## The latest release
+
+[Version 10.2.3][6]
+
+## Overview of the different versions
 
 * [10.2][6]
 * [10.1][5]
@@ -14,9 +24,9 @@ so.date: 04.04.2022
 * [9.1][2]
 * [8.5][3]
 
-![what's new -screenshot][img4]
-
 ## How to navigate this section
+
+![what's new -screenshot][img4]
 
 * Choose a version from the above list. To change the version, return to this page and select a different version.
 
@@ -39,6 +49,7 @@ so.date: 04.04.2022
 [4]: 10.0/index.md
 [5]: 10.1/index.md
 [6]: 10.2/index.md
+[7]: 10.2/10.2.3-update.md
 
 <!-- Referenced images-->
 [img1]: media/expand-toc.png
