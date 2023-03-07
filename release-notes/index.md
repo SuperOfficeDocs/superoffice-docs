@@ -7,7 +7,7 @@ so.date: 04.04.2022
 
 Here you will find all the small and big changes that has been released for SuperOffice in the different versions. We aim to give you an understanding on why we have created the feature and function and how to use it. Hope you will find this inspiring and try out our new functionality.
 
-### Latest release is [version 10.2.3][7].
+### Latest release is [version 10.2.3][7]
 
 ## Overview of the different versions
 
