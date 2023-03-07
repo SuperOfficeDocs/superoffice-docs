@@ -4,8 +4,8 @@ title: Visibility
 description: Visibility
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance, user
-so.topic: help
+keywords: visibility, user, role, available
+so.topic: concept
 language: en
 ---
 

@@ -108,7 +108,7 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [9]: ../../../chat/learn/index.md
 [10]: ../../../reports/learn/index.md
 [11]: ../../../marketing/learn/index.md
-[15]: ../fav.md
+[15]: ../../basics/fav.md
 [31]: ../../../request/learn/index.md#customers
 [32]: ../../../search-options/selection/learn/in-service/index.md
 [33]: ../../../dashboard/learn/in-service/statistics/index.md

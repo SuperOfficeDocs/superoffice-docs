@@ -69,7 +69,7 @@ If you are brand new to SAINT, it may be helpful to use a SuperOffice CRM expert
 
 After you have created a list of all the contacts that need to be either updated or deleted, it is time to actually perform the changes you want.
 
-To mass update, say legal basis or similar, you can use the **Bulk update** feature in your selection's **Task** tab.
+To mass update, say legal basis or similar, select [bulk update][5] from your selection's **Task** tab.
 
 To mass delete contacts from a selection, you can choose the **Delete all contacts** feature from the **Task** button in the bottom-right corner of the main screen.
 
@@ -101,15 +101,11 @@ The Recycle bin is located in your personal Preferences menu. You can see all th
 
 ![You can restore items you have deleted by opening the Recycle bin in your Personal settings menu -screenshot][img3]
 
-## Related
-
-* [Bulk update contact info][5]
-
 <!-- Referenced links -->
 [1]: ../../../learn/find-screen.md
 [2]: https://community.superoffice.com/no/learning/best-practices-tips/standard-crm/saint-proactive-customer-follow-up/
-[3]:
-[4]: ../../../../learn/getting-started/recycle-bin.md
+[3]: ../../../../sale/saint/learn/using-status-monitors-in-dynamic-selections.md
+[4]: ../../../../learn/basics/deleting-elements.md#restore
 [5]: bulk-update.md
 
 <!-- Referenced images -->

@@ -39,7 +39,7 @@ Watch the video or follow the steps below to learn how to bulk update from the C
 * Mass delete contacts and companies from selection
 
 <!-- Referenced links -->
-[2]: ../../../../learn/getting-started/bulk-update.md
+[2]: ../../../../learn/basics/bulk-update.md
 [3]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-fill-in-the-legal-base-consent-source-and-purpose-fields-to-many-contacts-in-superoffice-crm-all-at-once/
 
 <!-- Referenced images -->

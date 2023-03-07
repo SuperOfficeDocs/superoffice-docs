@@ -1,0 +1,23 @@
+items:
+  - name: Overview
+    href: index.md
+  - name: Favorites
+    href: fav.md
+  - name: Taking notes
+    href: notes.md
+  - name: Duplicate checks
+    href: duplicates.md
+  - name: Visibility
+    href: ../../admin/user-management/learn/visibility.md
+  - name: Delete and restore
+    href: deleting-elements.md
+  - name: Bulk update
+    href: bulk-update.md
+  - name: Work with section tabs
+    href: ../section-tabs/toc.yml
+  - name: Work with activities
+    href: ../activity/toc.yml
+  - name: Language and translation
+    href: ../../globalization-and-localization/learn/toc.yml
+  - name: External applications and URL addresses
+    href: external-applications-and-url-addresses.md

@@ -133,7 +133,7 @@ Watch this video or follow the steps below to learn how you can create a search 
 [1]: find-screen.md
 [2]: freetext-search.md
 [3]: using-fastsearcher.md
-[4]: ../../learn/getting-started/fav.md
+[4]: ../../learn/basics/fav.md
 [5]: using-history-list.md
 [6]: using-search-criteria.md
 [7]: ../selection/learn/create/index.md

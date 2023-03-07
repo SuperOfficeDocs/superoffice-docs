@@ -66,7 +66,7 @@ The **Task** button contains tasks such as sending emails, mass-editing and expo
 [2]: create-mailings.md
 [3]: send-email.md
 [4]: generate-follow-ups.md
-[5]: ../../../../learn/getting-started/bulk-update.md
+[5]: ../../../../learn/basics/bulk-update.md
 [6]: ../update/index.md
 [7]: ../update/delete.md
 [9]: print-labels.md

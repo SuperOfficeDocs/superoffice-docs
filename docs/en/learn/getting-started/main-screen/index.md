@@ -87,7 +87,7 @@ Zoom in/out in the browser to get larger/smaller font.
 [2]: buttons-in-menu-bar.md
 [3]: side-panel.md
 [4]: ../../../search-options/learn/in-service/index.md
-[6]: ../fav.md
+[6]: ../../basics/fav.md
 [10]: ../../../company/learn/screen/index.md
 [11]: ../../../contact/learn/screen/index.md
 [13]: ../../../diary/learn/screen/activities-tab.md

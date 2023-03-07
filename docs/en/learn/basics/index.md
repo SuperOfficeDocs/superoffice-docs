@@ -1,9 +1,9 @@
 ---
-uid: help-en-getting-started-tasks
+uid: help-en-basic-tasks
 title: Basic tasks to get started with
 description: Basic tasks for beginners in SuperOffice CRM.
 author: Bergfrid Dias
-so.date: 12.14.2022
+so.date: 03.06.2023
 keywords:
 so.topic: concept
 so.version: 10
@@ -12,22 +12,37 @@ so.lang: en
 
 # Basic tasks to get started with
 
+## Tooltips
+
+In many places in SuperOffice CRM, a tooltip is used to show more information about an item. Tooltips are especially useful with lists to see more than the main information displayed for individual records, or, with narrow columns, to display more than the truncated information. The tooltip is displayed when you hold the mouse pointer over an item.
+
+> [!NOTE]
+> If you are unable to access a function, a text is displayed explaining why you cannot see the information in question.
+
+## Refresh data
+
+Each time you start SuperOffice CRM, the program is completely updated with all the changes other people have made in the main database and changes that have been made in SuperOffice Settings and maintenance.
+
+You can also refresh the data while you are using SuperOffice CRM. You do this by clicking **F5**.
+
+> [!NOTE]
+> Some changes in SuperOffice Settings and maintenance require a restart of the SuperOffice CRM client for the changes to take effect.
+
 ## Manage companies and contacts
 
 The Company and Contact screens hold all information related to your customers and give instant insight into the communication, projects, and purchases they have with you.
 
-**Tasks:**
+> [!TIP]
+> Did you know that you can see all your companies or contacts in one place? Click the Selections icon in the navigator panel and select **Company: All** or **All Contacts** from the list.
+
+### Tasks
 
 * [Add a company][2]
 * [Add contacts][3]
-* [Merge or delete companies and contacts][4]
-* [Use the Recycle bin to restore companies and contacts][9]
+* [Merge, delete or restore companies and contacts][4]
 * [Import multiple companies and/or contacts][1]
 * [Bulk update company and contact information][5]
 * [Create selections for further action][6]
-
-> [!TIP]
-> Did you know that you can see all your companies or contacts in one place? Click the **Selections** icon in the navigator panel and select **Company: All** or **All Contacts** from the list.
 
 ## Diary and appointments
 
@@ -37,7 +52,7 @@ The SuperOffice Diary is the heart of your CRM system. Regular use of the diary 
 
 Apart from the regular calendar functionality, SuperOffice Diary also gives you the possibility to connect and organize activities into projects and sales. This helps you and your team to enjoy a complete overview of all activities and communication connected to any project or sale.
 
-**Tasks:**
+### Tasks
 
 * [Create appointments][8]
 * [Invite a contact to an appointment][10]
@@ -47,7 +62,7 @@ Apart from the regular calendar functionality, SuperOffice Diary also gives you 
 
 Storing all documents in one place helps you and your team to access up-to-date information and stay in control of customer relations.
 
-**Tasks:**
+### Tasks
 
 * Create or upload a document
 * Save email attachments in SuperOffice CRM
@@ -68,19 +83,18 @@ SuperOffice Project also comes with a project guide that can be customized to ma
 
 Your administrator can [add and customize project guides][1] for you.
 
-**How-to guide:**
+### Tasks
 
 * [Create a project][7]
 
 <!-- Referenced links -->
 [1]: ../../project/learn/project-guide/create.md
-[7]: ../../project/learn/create.md
 [2]: ../../company/learn/create.md
 [3]: ../../contact/learn/create.md
 [5]: ../../search-options/selection/learn/howto/bulk-update.md
 [6]: ../../search-options/selection/learn/howto/index.md
-[4]: merge-delete-company-contact.md
-[9]: recycle-bin.md
+[4]: deleting-elements.md
+[7]: ../../project/learn/create.md
 [8]: ../../diary/learn/create-appointment.md
 [10]: ../../diary/learn/invitation/add-participant.md
 [11]: ../../video-meeting/index.md

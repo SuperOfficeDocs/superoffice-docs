@@ -73,7 +73,7 @@ Every time a person is registered in your SuperOffice CRM database, the consent 
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/learning/best-practices-tips/#gdpr
-[2]: ../../../learn/getting-started/bulk-update.md
+[2]: ../../../learn/basics/bulk-update.md
 
 <!-- Referenced images -->
 [img1]: media/legal-basisi.png

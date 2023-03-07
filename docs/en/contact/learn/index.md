@@ -47,6 +47,6 @@ Everything you want to find out about a contact is available from a single scree
 [7]: send-email.md
 [8]: ../../search-options/selection/learn/howto/bulk-update.md
 [9]: ../../search-options/selection/learn/howto/mass-delete.md
-[10]: ../../learn/getting-started/recycle-bin.md
+[10]: ../../learn/basics/deleting-elements.md#restore
 
 <!-- Referenced images -->

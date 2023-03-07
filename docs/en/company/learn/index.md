@@ -54,7 +54,7 @@ Everything you want to find out about a company is available from a single scree
 [8]: screen/index.md
 [9]: ../../search-options/selection/learn/howto/bulk-update.md
 [10]: ../../search-options/selection/learn/howto/mass-delete.md
-[11]: ../../learn/getting-started/recycle-bin.md
+[11]: ../../learn/basics/deleting-elements.md#restore
 
 <!-- Referenced images -->
 

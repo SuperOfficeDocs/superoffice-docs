@@ -51,7 +51,7 @@ When you display the Notepad on the screen, you can grab the top part of the not
 If the Notepad is open when you close SuperOffice CRM, your changes are saved and the Notepad opens automatically when you return.
 
 <!-- Referenced links -->
-[1]: main-screen/side-panel.md
+[1]: ../getting-started/main-screen/side-panel.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/main-menu-small.png

@@ -11,7 +11,7 @@ language: en
 
 # Update multiple records (bulk update)
 
-The **Bulk update** task allows you to change values across multiple records of the same type. You can perform the bulk update on all or selected records in section tabs (archives), selections and the **Find** screen. This task can also be used to delete multiple records.
+Bulk update allows you to change values across multiple records of the same type. You can perform the bulk update on all or selected records in section tabs (archives), selections and the **Find** screen. This task can also be used to delete multiple records.
 
 1. Open the selection, section tab (archive) or search results (**Find** screen) containing the records you want to update.
 
@@ -23,7 +23,7 @@ The **Bulk update** task allows you to change values across multiple records of 
     > [!NOTE]
     > If the selection contains both companies and contacts, there will be two tabs: **Company** and **Contact**.
 
-3. Select a field to update in the **Field** column. You can also type the name in the field (see [FastSearcher][1]). As you type in each letter, the list underneath displays all matches. The list only contains fields that are relevant to the selected records.
+3. Select a field to update in the **Field** column. You can also [type the name in the field][1]. As you type in each letter, the list underneath displays all matches. The list only contains fields that are relevant to the selected records.
 
 4. Select an action in the **Action** column. The available actions depends on the type of field you selected in the previous step. Examples:
 

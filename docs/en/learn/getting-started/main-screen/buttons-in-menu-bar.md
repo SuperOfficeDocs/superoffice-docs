@@ -80,13 +80,13 @@ The items at the top of the screen vary slightly between SuperOffice CRM, Servic
 | SuperOffice CRM | Opens SuperOffice CRM for Web. |
 
 <!-- Referenced links -->
-[1]: ../external-applications-and-url-addresses.md
+[1]: ../../basics/external-applications-and-url-addresses.md
+[3]: ../../basics/deleting-elements.md#restore
+[8]: ../../basics/duplicates.md
+[9]: ../../basics/notes.md
 [2]: ../../section-tabs/filter.md
-[3]: ../restore-deleted-companies-and-contacts.md
 [6]: ../preferences.md
 [7]: ../edit-email-signature.md
-[8]: ../duplicates.md
-[9]: ../notes.md
 [4]: ../../../diary/learn/invitation/receive.md
 [5]: ../../../search-options/learn/find-screen.md
 [15]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
