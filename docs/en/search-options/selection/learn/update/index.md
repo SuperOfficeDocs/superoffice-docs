@@ -5,7 +5,7 @@ description: Editing Selections
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: selection
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -44,12 +44,10 @@ After adding members to a selection, the following applies:
 
 ## What do you want to do?
 
-* [Remove members from a static selection][2]
-* [Add members to a static selection][3]
+* [Add and remove members in a static selection][2]
 
 <!-- Referenced links -->
 [1]: ../../../learn/find-screen.md
-[2]: remove-members-from-static.md
-[3]: add-members-to-static.md
+[2]: add-remove-members-static.md
 
 <!-- Referenced images -->

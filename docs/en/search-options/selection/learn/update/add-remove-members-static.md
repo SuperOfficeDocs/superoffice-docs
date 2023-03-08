@@ -1,15 +1,15 @@
 ---
-uid: help-en-selection-add-members
-title: Adding members to static selections
-description: Adding members to static selections
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: selection
-so.topic: help
+uid: help-en-selection-static-members
+title: Add and remove members in static selections
+description: How to manage members in static selections.
+author: Bergfrid Dias
+so.date: 03.08.2023
+keywords: selection, member
+so.topic: howto
 language: en
 ---
 
-# Add members to static selections
+# Add and remove members in static selections
 
 When you have [created a static selection][1], you can always add additional members to that selection. This can be done from any list containing the relevant records, such as search results and section tabs.
 
@@ -78,6 +78,28 @@ Use this option to add the selected records to an existing static selection.
 
 9. Click **OK**. The selection is updated.
 
+## Remove members using search criteria
+
+[!include[Open Selections](../includes/goto-selections.md)]
+
+1. Go to the required static selection. For example, [use the Find screen][2].
+
+1. Click the **Remove members** button in the tab.
+
+1. In the **Remove members matching** dialog, specify the desired [criteria][5].
+
+1. Click **OK**. All members that satisfy the specified search criteria are removed.
+
+## Remove a specific member
+
+[!include[Open Selections](../includes/goto-selections.md)]
+
+1. Go to the required static selection.
+
+1. Select one or more entries in the list of members.
+
+1. Right-click and select **Remove**. The members are instantly removed from the active selection.
+
 ## What would you like to do now?
 
 * [Copy into selections][3]
@@ -86,6 +108,7 @@ Use this option to add the selected records to an existing static selection.
 <!-- Referenced links -->
 [1]: ../create/create-dynamic.yml
 [2]: ../../../learn/find-screen.md
+[5]: ../../../learn/using-search-criteria.md
 [3]: copy-members-to.md
 [4]: ../../../../learn/getting-started/index.md
 

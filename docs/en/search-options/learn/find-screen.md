@@ -1,17 +1,19 @@
 ---
-uid: help-en-find-dialog
-title: Find dialog
-description: Find dialog
+uid: help-en-find-screen
+title: Find screen
+description: Find screen
 author: SuperOffice RnD
-so.date: 02.27.2023
+so.date: 03.08.2023
 keywords: search, find
 so.topic: howto
 language: en
 ---
 
-# Use the Find screen
+# The Find screen
 
 To search for records and data in SuperOffice CRM, use the **Find** screen.
+
+There are effectively no limits to what you can search for in SuperOffice CRM. At the end of this section, we have included examples to provide you with tips on searching.
 
 > [!NOTE]
 > If you have a licence for SuperOffice Integration Server, you can search for products in existing quotes. If you have a licence for SuperOffice Service, you can search for requests.
@@ -27,7 +29,7 @@ To search for records and data in SuperOffice CRM, use the **Find** screen.
     * Click ![icon][img3] to remove any criteria you do not want to use.
     * Click the **Add** button to add new search criteria. A new line is added to the criteria list.
 
-4. In the first list box on the line, select the field you want to search for information in. You can also [enter the start of the name in the appropriate field][2]). There are [different types of fields][3].
+4. In the first list box on the line, select the field you want to search for information in. You can also [enter the start of the name in the appropriate field][2]. There are [different types of fields][3].
 
     For example, select **Contact** and **Last name** to search for contacts, or **Project** and **Event date** to search for projects.
 
@@ -77,16 +79,6 @@ After following the above steps, and search results are displayed in the **Resul
 * **Add records to a selection:** Click the **Save as selection** button. See [Create selections][8].
 
 * Select records, right-click, and select **Add to selection**. See [Add members to static selections][9].
-
-## The search facility in SuperOffice CRM
-
-There are effectively no limits on what you can search for in SuperOffice CRM. The following specific examples of the search options in action are intended to provide you with tips on searching. In each case, we firstly describe a specific search requirement and then explain in detail how to perform the search. You can use these examples as inspiration for creating your own searches:
-
-* [Example 1: search for profitable customers](#ex1)
-* [Example 2: search for customers in Denmark who you are responsible for](#ex2)
-* [Example 3: search for sold sales](#ex3)
-* [Example 4: search for projects you have participated in during the last year](#ex4)
-* [Example 5: search for marketing initiatives undertaken](#ex5)
 
 ## <a id="ex1" />Example 1: search for profitable customers
 
@@ -334,7 +326,7 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 [6]: using-history-list.md
 [7]: ../selection/learn/howto/index.md
 [8]: ../selection/learn/create/index.md
-[9]: ../selection/learn/update/add-members-to-static.md
+[9]: ../selection/learn/update/add-remove-members-static.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/dropdown-icon.png

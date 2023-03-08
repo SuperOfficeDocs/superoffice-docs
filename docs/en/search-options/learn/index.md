@@ -79,6 +79,12 @@ Use the [free-text search][2] search field in the upper-right corner to search f
 > [!TIP]
 > Want to see a list of all your contacts? Click on the **Selections** icon in the left-side navigator panel and search for "All Contacts" to see a pre-configured selection.
 
+## Using wild cards
+
+Use **%** as a wild card when searching. The percent character (%) matches any string of 0 or more characters. For example: J%son matches Jackson, Johnson, Jason, and Json.
+
+[!include[Use wildcard in search](includes/tip-search-wildcard.md)]
+
 ## Use typical searches as a starting point
 
 A typical search is a pre-defined search that we have set up for you, so you can see what other users typically search for. Each data set in the Find screen contains a list of typical searches that are ready to be used.

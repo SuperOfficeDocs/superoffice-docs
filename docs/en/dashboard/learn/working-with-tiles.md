@@ -69,8 +69,8 @@ Click ![icon][img1] in the header of a tile to access the following options:
 [1]: create.md
 [2]: edit-tile.md
 [3]: remove-tile.md
-[4]: ../../search-options/selection/learn/update/add-members-to-static.md
-[5]:
+[4]: ../../search-options/selection/learn/update/add-remove-members-static.md
+[5]: show-sales-targets.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/context-menu.png

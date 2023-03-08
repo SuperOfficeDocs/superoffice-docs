@@ -4,8 +4,8 @@ title: Using the history list
 description: Using the history list
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: search, history
+so.topic: howto
 language: en
 ---
 

@@ -4,8 +4,8 @@ title: Sending email to several recipients simultaneously
 description: Sending email to several recipients simultaneously
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: selection
-so.topic: help
+keywords: selection, email
+so.topic: howto
 language: en
 ---
 

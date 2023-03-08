@@ -53,8 +53,7 @@ The **Task** button contains tasks such as sending emails, mass-editing and expo
 
 * [Print labels][9]
 * [Print company reports][10]
-* [Export to Excel][11]
-* [Export to file][12]
+* [Export to Excel or a file][12]
 
 ### Delete
 
@@ -71,8 +70,7 @@ The **Task** button contains tasks such as sending emails, mass-editing and expo
 [7]: ../update/delete.md
 [9]: print-labels.md
 [10]: print-company-reports.md
-[11]: export-to-excel.md
-[12]: export-to-file.md
+[12]: export.md
 [13]: mass-delete.md
 
 <!-- Referenced images -->

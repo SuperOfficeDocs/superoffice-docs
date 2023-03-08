@@ -4,8 +4,8 @@ title: Using search criteria
 description: Using search criteria
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: search, criteria, find
+so.topic: howto
 language: en
 ---
 

@@ -1,29 +1,29 @@
 ---
 uid: help-en-search-freetext
-title: Freetext search
-description: Freetext search
+title: Free-text search
+description: Free-text search
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: free-text, search
+so.topic: howto
 language: en
 ---
 
-# Freetext search
+# Free-text search
 
 > [!NOTE]
-> If the freetext search fields is not visible in the upper right corner, this option has not been activated in SuperOffice Settings and maintenance.
+> If the free-text search fields is not visible in the upper right corner, this option has not been activated in SuperOffice Settings and maintenance.
 
-The text field at the upper right in SuperOffice CRM is used for freetext searches.
+The text field at the upper right in SuperOffice CRM is used for free-text searches.
 
 This lets you search in SuperOffice CRM for any text that users have entered in the database, such as company name, department, information about contacts and follow-ups. You can search for text from the **Document** dialog, but you cannot search the actual contents of documents.
 
-![Freetext search -screenshot][img1]
+![Free-text search -screenshot][img1]
 
 > [!NOTE]
-> Certain words are ignored in a freetext search. These are defined in SuperOffice Settings and maintenance.
+> Certain words are ignored in a free-text search. These are defined in SuperOffice Settings and maintenance.
 
-## Freetext searched from the text field
+## Free-text searched from the text field
 
 1. Type in the text to search for, entering at least three letters.
 2. Press **ENTER** to start the search.
@@ -37,7 +37,7 @@ You can preview records in the [side panel][1]. Click the list at the top of the
 
 ## Why am I getting no hits for a search word that I know is in the database?
 
-If you get no hits for a search word that is in the SuperOffice database, this may be because you need to build the freetext search index in SuperOffice Settings and maintenance.
+If you get no hits for a search word that is in the SuperOffice database, this may be because you need to build the free-text search index in SuperOffice Settings and maintenance.
 
 [!include[Examples of searches](includes/freetext-search-examples.md)]
 

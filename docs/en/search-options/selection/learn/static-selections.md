@@ -18,13 +18,11 @@ Work with static selection gives you the option to manually add an delete select
 ## What would you like to do now?
 
 * [Create a static selection][2]
-* [Add members to static selections][3]
-* [Remove members from static selections][4]
+* [Add and remove members in static selections][3]
 
 <!-- Referenced links -->
 [1]: dynamic-selections.md
 [2]: create/create-static.yml
-[3]: update/add-members-to-static.md
-[4]: update/remove-members-from-static.md
+[3]: update/add-remove-members-static.md
 
 <!-- Referenced images -->

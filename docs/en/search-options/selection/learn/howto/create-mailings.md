@@ -4,8 +4,8 @@ title: Create mailings to all contacts in a selection
 description: Create mailings
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: selection
-so.topic: help
+keywords: selection, mailing
+so.topic: howto
 language: en
 ---
 

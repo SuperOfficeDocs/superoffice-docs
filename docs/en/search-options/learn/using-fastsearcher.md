@@ -4,8 +4,8 @@ title: Using FastSearcher
 description: Using FastSearcher
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: search, FastSearcher
+so.topic: howto
 language: en
 ---
 
@@ -23,7 +23,7 @@ You can use FastSearcher in various ways:
 
 1. Click the word **Company**, **Contact**, **Sale**, **Project** or **Selection** in the Navigator on the left of the window. An empty field is displayed at the top. Below this is a [list of records you have previously worked with][1].
 
-    ![icon][img1]
+    ![FastSearcher - screenshot][img1]
 
 2. Type in the empty field the name of the record to search for. As you type in each letter, the list underneath displays all matching records.
 
@@ -31,7 +31,7 @@ You can use FastSearcher in various ways:
 
     * You can search for a sale by entering the name of the sale or the name of a company linked to the sale, in the FastSearcher field for **Sales** in the Navigator.
 
-        ![icon][img2]
+        ![FastSearcher - screenshot][img2]
 
     * You can search for a contact in the FastSearcher field for **Companies** in the Navigator.
 
@@ -43,7 +43,7 @@ You can use FastSearcher in various ways:
 
 2. In the relevant field, type the name of the record to search for. As you type in each letter, the list underneath displays all matches.
 
-    ![icon][img3]
+    ![FastSearcher - screenshot][img3]
 
 3. Click the required company, contact, sale, project or selection to link to the record.
 

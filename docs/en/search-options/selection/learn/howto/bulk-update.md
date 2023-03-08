@@ -1,11 +1,11 @@
 ---
 uid: help-en-selection-bulk-update
 title: Selection task bulk update
-description: Bulk update allows you to change details for a large group of contacts, activities, sales, projects, and more – all in just a few clicks.
+description: Bulk update allows you to change details for a large group of contacts, activities, sales, projects, and more.
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: selection
-so.topic: help
+keywords: selection, bulk update
+so.topic: howto
 language: en
 ---
 
@@ -36,9 +36,10 @@ Watch the video or follow the steps below to learn how to bulk update from the C
 ## Related info
 
 * [How do I fill in the "Legal base", "Consent source" and "Purpose" fields to many contacts in SuperOffice CRM all at the same time?][3] - FAQ
-* Mass delete contacts and companies from selection
+* [Mass delete contacts and companies from selection][1]
 
 <!-- Referenced links -->
+[1]: mass-delete.md
 [2]: ../../../../learn/basics/bulk-update.md
 [3]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-fill-in-the-legal-base-consent-source-and-purpose-fields-to-many-contacts-in-superoffice-crm-all-at-once/
 

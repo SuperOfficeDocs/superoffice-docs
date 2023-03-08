@@ -78,7 +78,7 @@ Double-click a mailing to open it.
 
 <!-- Referenced links -->
 [1]: ../create/index.md
-[2]: ../update/remove-members-from-static.md
+[2]: ../update/add-remove-members-static.md
 [5]: ../howto/display-as-charts.md
 [3]: ../../../learn/using-search-criteria.md
 [6]: ../../../../dashboard/learn/create.md
