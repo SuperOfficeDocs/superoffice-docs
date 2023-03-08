@@ -89,14 +89,14 @@ printLine(m.get(key));
 
 `getKey()` and `getVal()` also retrieve data from the map. These methods depend on the internal iterator of the map and are described in the *Looping* section.
 
-### String getWithFallBack(String key, String fallback)
+### String getWithFallback(String key, String fallback)
 
 Returns the fallback value if key does not exist.
 
 ```crmscript!
 Map m = Map("height=25\nwidth=10");
 
-printLine(m.getWithFallBack("foo", "bar"));
+printLine(m.getWithFallback("foo", "bar"));
 ```
 
 ## Updating elements
