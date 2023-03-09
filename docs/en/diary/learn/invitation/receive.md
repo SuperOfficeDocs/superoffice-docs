@@ -5,7 +5,7 @@ description: Receive invitations
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: diary, follow-up
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -50,7 +50,7 @@ If you do not check any of these options, all that is displayed are follow-ups y
 
 ## <a id="accept" />Accept or decline invitations
 
-When you select one of the invitations in the top part of the dialog, its details are displayed underneath. The active follow-up is emboldened. Accept or decline the invitation by clicking **Accept** or **Decline**:
+When you select one of the invitations in the top part of the dialog, its details are displayed below. The active follow-up is emboldened. Accept or decline the invitation by clicking **Accept** or **Decline**:
 
 | Action | Description |
 |---|---|

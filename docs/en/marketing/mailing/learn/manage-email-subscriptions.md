@@ -77,7 +77,7 @@ With SuperOffice CRM, you will respect your contacts' communication preferences 
 
 <!-- Referenced links -->
 [1]: create/target-list.md
-[2]: ../../../security/privacy/learn/privacy.md
+[2]: ../../../security/privacy/learn/index.md
 [3]: ../../../security/privacy/learn/send-privacy-confirmation-email.md
 [4]: https://www.superoffice.com/company/privacy/
 

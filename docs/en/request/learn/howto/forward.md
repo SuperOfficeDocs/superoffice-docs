@@ -38,7 +38,7 @@ In the request lists, you can forward multiple requests at the same time.
     * At the top is the email address of the owner of the request and other request handlers who are or have been linked to the request.
     * In the next empty field, enter an email address to forward the message to someone who has not already been registered in the system.
 
-5. Check the recipient(s) you want, and click **To**, **Cc** or **Bcc**, depending on which recipient field you want to put them in. The recipients are displayed in the list which appears underneath.
+5. Check the recipient(s) you want, and click **To**, **Cc**, or **Bcc**, depending on which recipient field you want to put them in. The recipients are listed below.
 
 6. If you check **Close request**, the requests are closed after they are forwarded.
 

@@ -129,11 +129,11 @@ As a sales department manager, you want to give a presentation to the rest of ma
     > [!TIP]
     > If you get too many or too few hits, you can adjust the search criteria by selecting different values in the various list boxes.
 
-22. You then decide what you want to use the search results for. Here are some suggestions:
+22. You then decide what you want to use the search results for:
 
     * To open one of the records, double-click it. It is then displayed in the Company screen.
 
-    * Preview each company in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each company in the **Results** tab to preview them. See [The side panel][4].
+    * Preview each company in the [side panel][4]. Select **Preview** in the list at the top of the side panel. You can then click on each company in the **Results** tab to preview them.
 
     * You can create a selection containing these customers, by clicking **Save as selection** and following the procedure under [Create selections][8].
 
@@ -173,11 +173,11 @@ Imagine you are going to attend a conference in Denmark. When you are there, you
     > [!TIP]
     > If you get too many or too few hits, you can adjust the search criteria by selecting different values in the various list boxes.
 
-15. You then decide what you want to use the search results for. Here are some suggestions:
+15. You then decide what you want to use the search results for:
 
     * To open one of the records, double-click it. It is then displayed in the Company screen.
 
-    * Preview each company in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each company in the **Results** tab to preview them. See [The side panel][4].
+    * Preview each company in the [side panel][4]. Select **Preview** in the list at the top of the side panel. You can then click on each company in the **Results** tab to preview them.
 
     * You can create a selection containing these customers, by clicking **Save as selection** and following the procedure under [Create selections][8].
 
@@ -203,10 +203,10 @@ Let's assume you are the manager of a company and want to find out what types of
 
 9. All the results which match the search criteria you have specified are displayed in the **Results** tab.
 
-10. You then decide what you want to use the search results for. Here are some suggestions:
+10. You then decide what you want to use the search results for:
     * To open one of the records, double-click it. It is then displayed in the Sale screen.
 
-    * Preview each sale in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each sale in the **Results** tab to preview them. See [The side panel][4].
+    * Preview each sale in the [side panel][4]. Select **Preview** in the list at the top of the side panel. You can then click on each sale in the **Results** tab to preview them.
 
     * You can create a selection containing these sales, by clicking **Save as selection** and following the procedure under [Create selections][8].
 
@@ -248,11 +248,11 @@ Imagine that the time for your pay review is approaching and you think you deser
     > [!TIP]
     > If you get too many or too few hits, you can adjust the search criteria by selecting different values in the various list boxes.
 
-16. You then decide what you want to use the search results for. Here are some suggestions:
+16. You then decide what you want to use the search results for:
 
     * To open one of the records, double-click it. It is then displayed in the Project screen.
 
-    * Preview each project in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each project in the **Results** tab to preview them. See [The side panel][4].
+    * Preview each project in the [side panel][4]. Select **Preview** in the list at the top of the side panel. You can then click on each project in the **Results** tab to preview them.
 
     * You can create a selection containing these projects, by clicking **Save as selection** and following the procedure under [Create selections][8].
 
@@ -301,11 +301,11 @@ Imagine that you are a marketing department manager and you want to brainstorm a
     > [!TIP]
     > If you get too many or too few hits, you can adjust the search criteria by selecting different values in the various list boxes.
 
-20. You then decide what you want to use the search results for. Here are some suggestions:
+20. You then decide what you want to use the search results for:
 
     * To open one of the records, double-click it. It is then displayed on the **Activities** section tab in the Company screen.
 
-    * Preview each follow-up in the side panel. Select **Preview** in the list at the top of the side panel. You can then click on each follow-up in the **Results** tab to preview them. See [The side panel][4].
+    * Preview each follow-up in the [side panel][4]. Select **Preview** in the list at the top of the side panel. You can then click on each follow-up in the **Results** tab to preview them.
 
     * You can create a selection containing these follow-ups, by clicking **Save as selection** and following the procedure under [Create selections][8].
 

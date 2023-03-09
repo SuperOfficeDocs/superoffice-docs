@@ -5,7 +5,7 @@ description: Navigate in diary
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: diary, follow-up
-so.topic: help
+so.topic: howto
 language: en
 ---
 

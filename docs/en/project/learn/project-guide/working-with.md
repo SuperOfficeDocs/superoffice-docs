@@ -14,9 +14,10 @@ language: en
 If a project guide is defined for a project type that you specify for a project, the following happens:
 
 * The first status in the project guide is selected in the **Status** field on the main **Project** card.
+
 * Follow-ups and/or documents for the status are listed on the **Project guide** section tab.
 
-## The process
+## Steps
 
 1. Click the **Create** button in front of the follow-up/document name.
 

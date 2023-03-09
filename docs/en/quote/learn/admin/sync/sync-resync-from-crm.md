@@ -1,11 +1,12 @@
 ---
 uid: help-en-sync-resync-from-crm
-title: sync resync from CRM
-description: sync resync from CRM
+title: Resync from CRM
+description: Resync from CRM
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: quote, sync, connector, ERP
+so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -15,6 +16,6 @@ This function is used to fix problems, specifically if you know that the data in
 
 [!include[Back up database before import](../../../../admin/import/learn/includes/caution-backup-before-import.md)]
 
-1. Go to the **Sync** tab in the **Quote/Sync** screen.
+1. Go to the **Sync** tab in the Quote/Sync screen.
 2. Click **Resync from CRM** at the bottom of the **ERP connections** list.
 3. Click **Yes** to confirm.

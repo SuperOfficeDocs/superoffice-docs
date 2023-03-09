@@ -1,33 +1,31 @@
 ---
-uid: help-en-quotesync-tabs-so-products
-title: quotesync tabs SO products
-description: quotesync tabs SO products
+uid: help-en-product
+title: SuperOffice products
+description: SuperOffice products
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: sale, quote, product
+so.topic: concept
 language: en
 ---
 
 # SuperOffice products
 
-In the **SuperOffice products** tab in the **Quote/Sync** screen, you can add price lists and products. They are saved in the SuperOffice database, NOT in any ERP system connected to SuperOffice.
+In the **SuperOffice products** tab in the Quote/Sync screen, you can add price lists and products. They are saved in the SuperOffice database, NOT in any ERP system connected to SuperOffice.
 
-In the **Price list** list, select the required price list. The products in the price list are shown at the bottom of the view.
+In the **Price list** list, select the required price list. The products in the price list are shown at the bottom of the view. You can [adjust this view][6].
 
-You can [adjust this view][6].
-
-In the view, you have these options:
+## Options
 
 * Double-click a product to edit it. See [Add products to a price list][1].
 
-* Click the checkbox in the leftmost column to activate/deactivate a product. See [Delete/deactivate price lists or products][3].
+* Click the checkbox in the leftmost column to [activate/deactivate a product][3].
 
-* Click **Add** to add a product to the price list. See [Add products to a price list][1].
+* Click **Add** to [add a product to the price list][1].
 
-* Click **Remove** to delete a product. However, we recommend that you deactivate products rather than deleting them. See [Delete/deactivate price lists or products][3].
+* Click **Remove** to delete a product. However, we recommend that you [deactivate products rather than deleting them][3].
 
-* Click **Export** to export the list to a spreadsheet. See **Export a price list** below.
+* Click **Export** to export the list to a spreadsheet. See below.
 
 ## Export a price list
 
@@ -35,7 +33,7 @@ You can export an open price list by clicking ![icon][img1] **Export** at the bo
 
 <details><summary>Export not visible?</summary>
 
-Either you do not have access rights to the export function (see [Roles][4]), or this preference is not enabled (see [Preferences][5]).
+Either you do not have [access rights][4] to the export function, or this [preference][5] is not enabled.
 </details>
 
 > [!TIP]

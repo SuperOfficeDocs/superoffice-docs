@@ -184,7 +184,7 @@ You can make a list of all the sources from which you gather personal informatio
 
 When you ask for consent to store a person's details, you should also allow them to control their consent at all times.
 
-Here are some questions to check whether your contacts are able to manage their consent:
+Questions to check whether your contacts are able to manage their consent:
 
 * Do we offer a link to our Privacy Policy statement?
 * Can people easily accept and agree with our Privacy Policy?

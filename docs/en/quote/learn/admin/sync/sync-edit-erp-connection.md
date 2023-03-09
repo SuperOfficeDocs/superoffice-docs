@@ -1,17 +1,18 @@
 ---
 uid: help-en-sync-edit-erp-connection
-title: sync edit ERP connection
-description: sync edit ERP connection
+title: Edit ERP connection (Sync Connector)
+description: Edit ERP connection (Sync Connector)
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: quote, sync, connector, ERP
+so.topic: howto
+so.user: admin
 language: en
 ---
 
 # Edit ERP connection (Sync Connector)
 
-1. Go to the **Sync** tab in the **Quote/Sync** screen.
+1. Go to the **Sync** tab in the Quote/Sync screen.
 2. Uncheck the box in the **Active** column for the ERP connection you want to edit.
 3. Double-click the ERP connection.
 4. In the **Edit ERP connection** dialog, [edit the ERP connection][1].

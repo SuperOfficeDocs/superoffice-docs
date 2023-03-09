@@ -4,8 +4,8 @@ title: Phone call
 description: Phone call
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: diary, follow-up
-so.topic: help
+keywords: diary, follow-up, phone, call
+so.topic: concept
 language: en
 ---
 

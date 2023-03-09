@@ -11,7 +11,7 @@ language: en
 
 # Project guide section tab
 
-When you create a project and select a project type that has a guide, the **Project guide** section tab is displayed with the other section tabs underneath.
+When you create a project and select a project type that has a guide, the **Project guide** section tab is displayed beside the other section tabs.
 
 The buttons for the different statuses are displayed at the top of the section tab. The appearance of the buttons changes as you complete the statuses in the project guide:
 

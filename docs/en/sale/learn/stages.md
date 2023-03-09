@@ -11,9 +11,9 @@ language: en
 
 # Stalled, sold and lost sales
 
-In the **Stage** field in the Sale screen, you can set the sale to **Sold** or **Lost**. You can also check the **Stalled** checkbox below this field if you want put the sales process on hold. If you do this, the fields underneath change, along with the icon at the upper left of the Sale screen.
+In the **Stage** field in the Sale screen, you can set the sale to **Sold** or **Lost**. You can also check the **Stalled** checkbox below this field if you want put the sales process on hold. If you do this, the fields below change, along with the icon at the upper left of the Sale screen.
 
-For individual sale types, a list of stages, as defined in SuperOffice Settings and maintenance, is also displayed. [Read more about sales guides][1].
+For individual sale types, a list of stages is also displayed, as defined in SuperOffice Settings and maintenance. [Read more about sales guides][1].
 
 | Icon | Meaning |
 |---|---|

@@ -1,18 +1,19 @@
 ---
-uid: help-en-quotesync-tab-sync
-title: quotesync tab sync
-description: quotesync tab sync
+uid: help-en-quote-sync
+title: Sync
+description: The Sync tab in the Quote/Sync screen.
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: quote, sync, connector, ERP
+so.topic: concept
+so.user: admin
 language: en
 so.client: web
 ---
 
 # Sync
 
-The **Sync** tab in the **Quote/Sync** screen shows Sync Connectors and associated ERP connections. Sync Connectors handle the synchronization of data between SuperOffice and the ERP system, while the ERP connections provide the link between SuperOffice and Sync Connectors.
+The **Sync** tab in the Quote/Sync screen shows Sync Connectors and associated ERP connections. Sync Connectors handle the synchronization of data between SuperOffice and the ERP system, while the ERP connections provide the link between SuperOffice and Sync Connectors.
 
 <details><summary>How do I set up an ERP connection for SuperOffice CRM for Web (Online)? </summary>
 

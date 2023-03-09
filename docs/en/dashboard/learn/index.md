@@ -40,7 +40,7 @@ Dashboards are displayed as tabs at the top of the screen. Pinned dashboards and
 
 ## Tiles
 
-In SuperOffice Dashboard you have many of pre-defined standard tiles to choose from, and charts that are linked to dynamic selections. The tiles fall into eight different categories: Company, Contact, Follow-up, Sale, Project, Document, Product, and Request.
+In SuperOffice Dashboard you have many of [pre-defined standard tiles][6] to choose from, and charts that are linked to dynamic selections. The tiles fall into eight different categories: Company, Contact, Follow-up, Sale, Project, Document, Product, and Request.
 
 Each tile in a dashboard contains either a chart, a list or a number. A dashboard can contain multiple tiles.
 
@@ -96,10 +96,6 @@ If you do not find the tile you need among the set of pre-defined tiles in Super
 * [Edit a dashboard][3]
 * [Add tiles / Edit layout][4]
 * [Delete a dashboard][5]
-
-## Related topics
-
-* [Working with tiles][6]
 
 <!-- Referenced links -->
 [1]: create.md

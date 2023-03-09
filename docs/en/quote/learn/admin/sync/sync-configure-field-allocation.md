@@ -1,11 +1,12 @@
 ---
 uid: help-en-sync-configure-field-allocation
-title: sync configure field allocation
-description: sync configure field allocation
+title: Configure field mapping
+description: Configure field mapping
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: quote, sync, connector, ERP, mapping
+so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -59,7 +60,7 @@ When synchronizing data between SuperOffice and ERP systems, must specify which 
 
 1. Repeat steps 4 to 6 to configure field allocations for other actors.
 
-1. Click **Done** to finish. Underneath the **ERP connections** list, all the fields which are synchronized for the different actors are shown.
+1. Click **Done** to finish. Below the **ERP connections** list, all the fields that are synchronized for the different actors are shown.
 
 1. Check **Active** for the ERP connection you edited.
 

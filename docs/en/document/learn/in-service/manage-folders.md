@@ -4,8 +4,8 @@ title: document document editFolder
 description: document document editFolder
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: Service, document, folder
+so.topic: howto
 language: en
 ---
 

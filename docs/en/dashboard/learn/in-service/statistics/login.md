@@ -4,8 +4,8 @@ title: Login statistics
 description: Login statistics
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: Service, statistics, login, user
+so.topic: howto
 language: en
 ---
 

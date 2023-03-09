@@ -23,7 +23,7 @@ Bulk update allows you to change values across multiple records of the same type
     > [!NOTE]
     > If the selection contains both companies and contacts, there will be two tabs: **Company** and **Contact**.
 
-3. Select a field to update in the **Field** column. You can also [type the name in the field][1]. As you type in each letter, the list underneath displays all matches. The list only contains fields that are relevant to the selected records.
+3. Select a field to update in the **Field** column. You can also [type the name in the field][1]. As you type in each letter, the list below displays all matches relevant to the selected records.
 
 4. Select an action in the **Action** column. The available actions depends on the type of field you selected in the previous step. Examples:
 

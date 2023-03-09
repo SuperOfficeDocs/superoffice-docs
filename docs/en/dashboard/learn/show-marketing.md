@@ -9,7 +9,7 @@ so.topic: howto
 language: en
 ---
 
-# Using targets in tiles
+# Dashboard for mailings
 
 Create dashboards for your marketing tasks, such as form submissions and mailings, to track and analyze their performance, trends and productivity across all marketing activities.
 
@@ -18,7 +18,7 @@ When the dashboard is created, you want to add and edit tiles.
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/watch?v=lz9rEZI_2SY]
 
-Here are some examples of different tiles you can add to your mailing or form submission dashboard.
+Study the examples below to get ideas for tiles you can add to your mailing or form submission dashboard.
 
 ## Example of different tiles for mailings
 

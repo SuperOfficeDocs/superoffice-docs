@@ -1,17 +1,18 @@
 ---
-uid: help-en-quotesync-tab-settings
-title: quotesync tab settings
-description: quotesync tab settings
+uid: help-en-quote-settings
+title: Settings
+description: Settings in the Quote/Sync screen
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: sale, quote, settings
+so.topic: reference
+so.user: admin
 language: en
 ---
 
 # Settings
 
-In the **Settings** tab in the **Quote/Sync** screen, you can adjust the settings for quotes and configure the fields that are displayed for products.
+In the **Settings** tab in the Quote/Sync screen, you can adjust the settings for quotes and configure the fields that are displayed for products.
 
 ## Quote settings
 
@@ -26,7 +27,7 @@ In the **Settings** tab in the **Quote/Sync** screen, you can adjust the setting
 
 ## Product dialog settings
 
-Shows the fields used in each quote line in the quote. Click the field name links or the **Configure product** button to edit these fields. See [Configure products][2].
+Shows the fields used in each quote line in the quote. Click the field name links or the **Configure product** button to [edit these fields][2].
 
 <!-- Referenced links -->
 [1]: ../../../sale/learn/screen/sales-type-for-stages.md

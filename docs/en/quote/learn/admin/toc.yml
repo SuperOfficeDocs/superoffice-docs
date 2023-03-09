@@ -2,21 +2,9 @@ items:
 - name: Overview
   href: index.md
 - name: SuperOffice products
-  href: product/index.md
-  items:
-  - name: Add price list
-    href: product/add-price-list.md
-  - name: Add product to price-list
-    href: product/add-product-to-price-list.md
-  - name: Select product image
-    href: product/select-product-image.md
-  - name: Delete/deactivate price-lists or products
-    href: product/quote-delete-deactivate-price-list-or-product.md
+  href: product/toc.yml
 - name: Settings
   href: quotesync-tab-settings.md
-  items:
-  - name: Configure product
-    href: product/configure.md
 - name: ERP connections
   href: quotesync-tab-erp-connections.md
   items:

@@ -38,7 +38,7 @@ Alternatives are shown as tabs in the quote (in the **Edit quote** dialog).
 
 ## <a id="fav" />Favorite alternative
 
-If you create several alternatives in a quote, the first one (usually the **Products** tab) is marked as the favorite ( ![icon][img2]**Favorite alternative**). Estimated sales amounts for the sale (forecast) are obtained from the total amount for the favorite alternative.
+If you create several alternatives in a quote, the first one (usually the **Products** tab) is marked as the favorite ( ![icon][img2] **Favorite alternative**). Estimated sales amounts for the sale (forecast) are obtained from the total amount for the favorite alternative.
 
 If you want another alternative to be the favorite, select its tab, and click ![icon][img3] **Favorite alternative** at the bottom.
 

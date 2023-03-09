@@ -5,7 +5,7 @@ description: Print contact info
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: person, contact, print
-so.topic: help
+so.topic: howto
 language: en
 ---
 

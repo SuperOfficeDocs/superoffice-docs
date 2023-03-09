@@ -36,7 +36,7 @@ In addition to the [Sale screen][2], sales can be displayed in the following pla
 
 Keep your sales organized so that you are always focused on the sales that matter the most to you.
 
-After you have registered all your sales in SuperOffice CRM, they will appear in your personal sales overview in the **Sales** tab and in your **Diary**.
+After you have registered all your sales in SuperOffice CRM, they will appear in your personal sales overview in the **Sales** tab and in your Diary.
 
 You can organize your sales list by [filtering, grouping and adding the columns][3] that are most important for you. The most used columns are: sales amount, sales date and sales stage.
 

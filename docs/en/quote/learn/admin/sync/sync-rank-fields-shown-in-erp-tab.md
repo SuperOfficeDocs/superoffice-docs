@@ -1,11 +1,12 @@
 ---
 uid: help-en-sync-rank-fields-shown-in-erp-tab
-title: sync rank fields shown in the ERP tab
-description: sync rank fields shown in the ERP tab
+title: Rank fields shown in the ERP tab
+description: Rank fields shown in the ERP tab
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: quote, sync, connector, ERP
+so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -19,7 +20,7 @@ You can set the order of the ERP fields displayed in the ERP tab in SuperOffice 
 
 1. Select the tab for the actor you want to configure default values for. This tab shows all available fields for the actor (including both fields that are displayed in the **ERP** tab in SuperOffice CRM and those that are not).
 
-1. Select a field in the list, and use the arrows ![icon][img1] ![icon][img2] underneath to set the order you require.
+1. Select a field in the list, and use the ![icon][img1] ![icon][img2] arrows to set the fields's order.
 
 1. Repeat steps 4 and 5 to change the field ranking for other actors.
 

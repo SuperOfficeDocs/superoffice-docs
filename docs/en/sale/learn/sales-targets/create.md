@@ -27,7 +27,7 @@ It is optional to add the company target and to have user specific targets (go t
 ## Requirements
 
 > [!NOTE]
->**ONLINE** customers only. (Not available for Onsite customers.)
+> **ONLINE** customers only. (Not available to Onsite customers.)
 
 ### Licenses
 

@@ -4,8 +4,8 @@ title: Entering phone calls
 description: Entering phone calls
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: diary, follow-up
-so.topic: help
+keywords: diary, follow-up, call, phone
+so.topic: howto
 language: en
 ---
 

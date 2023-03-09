@@ -4,8 +4,8 @@ title: ERP connection add
 description: ERP connection add
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: quote, ERP, connector
+so.topic: howto
 language: en
 ---
 
@@ -20,13 +20,13 @@ Each Quote Connector must have an ERP connection with configuration data for lin
 
 ## To add an ERP connection
 
-1. Go to the **ERP connections** tab in the **Quote/Sync** screen.
+1. Go to the **ERP connections** tab in the Quote/Sync screen.
 
 [!include[Define new ERP connection](includes/step-define-new-erp-connection.md)]
 
 1. Selected the required **Quote Connector** in the list. This list is identical to **Available Quote Connectors**.
 
-1. Select the **Scope** you require:
+1. Select a **Scope**:
 
     * **All**: Select this option if all the users are to have access to and be allowed to use this ERP connection. This means that they can use the price lists accessible via this connection.
     * **Specific users + groups**: Click **Select users and groups** to choose which user groups and/or users should have access to this ERP connection.

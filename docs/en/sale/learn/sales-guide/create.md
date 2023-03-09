@@ -6,8 +6,8 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: sale, guide
 so.topic: howto
-so.audience: admin
-so.audience.tooltip: Settings and maintenance
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -47,7 +47,7 @@ After you have created stages and specified a sale type for the sales guide, you
 
 2. Select the **Sales guide** tab.
 
-3. In the list at the top, select the sale type you want to create a sales guide for. The stages selected for this sale type are displayed in the list underneath.
+3. In the list at the top, select the sale type you want to create a sales guide for. The stages selected for this sale type are displayed below.
 
     * If the sale type is not set up to have a sales guide, click **Click here to turn on guide** at the bottom of the screen.
 

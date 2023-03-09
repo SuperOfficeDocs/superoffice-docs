@@ -17,18 +17,15 @@ language: en
 * [Message/warning (with icons)][9].
 * **Version**: The current version of the quote is shown here. You can select previous versions from the list.
 * **Number**: The quote number.
-* **State**/status icon: Shows the [status of the quote][8] (for example **Draft**, **Needs Approval**, **Sent** or **Sold**)
-* **[Send][3]**: Click this button to send the quote.
-* **[Place order][4]**: Click this button to place the order.
+* **State**/status icon: Shows the [status of the quote][8] (for example **Draft**, **Needs Approval**, **Sent**, or **Sold**)
+* **Send**: Click this button to [send the quote][3].
+* **Place order**: Click this button to [place the order][4].
 
 ## Products tab (and any alternatives)
 
 The products in the quote are displayed on this tab.
 
-> [!NOTE]
-> If the quote contains several alternatives, the favorite alternative is indicated with ![icon][img1] next to the tab name.
->
-> If the alternative contains [warnings or messages][9] for one or more products, an icon is shown next to the tab name. A message is also displayed to explain the cause of the error.
+If the quote contains several alternatives, the favorite alternative is indicated with ![icon][img1] next to the tab name. If the alternative contains [warnings or messages][9] for one or more products, an icon is shown next to the tab name. A message is also displayed to explain the cause of the error.
 
 * **Discount**: Here you can enter a total discount (discount percent or discount amount) for the whole of the alternative. The total discount is applied in addition to any discounts applied to the different products.
     > [!NOTE]
@@ -38,7 +35,7 @@ The products in the quote are displayed on this tab.
 * Double-click a product to edit it.
 * **Delete**: Deletes the selected product(s).
 * **Export**: Used to [export the list][7] to a spreadsheet.
-* Sort: Use the arrow keys ( ![icon][img2] / ![icon][img3] ) to change the order of the products.
+* Sort: Use the ![icon][img2] / ![icon][img3] arrow keys to change the order of the products.
 
 > [!TIP]
 > You can double-click the tabs to change the names of the alternatives in the quote.

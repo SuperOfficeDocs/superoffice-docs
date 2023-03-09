@@ -4,7 +4,7 @@ title: Send privacy confirmation email
 description: Send privacy confirmation email
 author: SuperOffice RnD
 so.date: 02.21.2023
-keywords: GDPR, consent
+keywords: GDPR, consent, email, privacy
 so.topic: howto
 language: en
 ---

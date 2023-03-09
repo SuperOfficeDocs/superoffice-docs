@@ -59,7 +59,7 @@ items:
     - name: Preferences
       href: ../admin/preferences/learn/toc.yml
     - name: Privacy
-      href: ../security/privacy/learn/toc.yml
+      href: ../security/privacy/learn/admin/toc.yml
     - name: Quote/Sync
       href: ../quote/learn/admin/toc.yml  
 
@@ -144,7 +144,6 @@ items:
 
     - name: SAINT (Sales intelligence)
       href: ../sale/saint/learn/admin/toc.yml
-      topicHref: ../sale/saint/learn/admin/index.md
 
     - name: Onsite
       items:

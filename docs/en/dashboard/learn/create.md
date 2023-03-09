@@ -11,7 +11,7 @@ language: en
 
 # Create a new dashboard
 
-In the **Dashboard** screen you can have multiple dashboard tabs to display any number of charts and statistics.
+In the Dashboard screen you can have multiple dashboard tabs to display any number of charts and statistics.
 
 When you create your own dashboard, you can also choose whether you want to share it with others.
 
@@ -26,9 +26,9 @@ Watch this video or follow the steps below to learn how to add new dashboard tab
 
 2. Click the **Task** button and select **Create a new dashboard**.
 
-3. In the **Create a new dashboard** dialog, enter the name of the dashboard in the **Name** field. This becomes the name of the dashboard tab.
+3. In the dialog, enter the name of the dashboard. This becomes the name of the dashboard tab.
 
-4. Enter a description of the dashboard in the **Description** field. The description is displayed at the top of the dashboard.
+4. Enter a description of the dashboard. The description is displayed at the top of the dashboard.
 
     > [!TIP]
     > You can also add the name and description [in other languages][1] by clicking ![icon][img1].
@@ -55,7 +55,7 @@ There is a lot of standard tiles to choose from in the library, but you can also
 
 1. Open the **Dashboard** screen, and click the **+** tab.
 
-2. In yhe **Dashboard** dialog, enter the name of the dashboard in the **Title** field.
+2. In the, enter the name of the dashboard in the **Title** field.
 
 3. Select the layout of the dashboard.
 

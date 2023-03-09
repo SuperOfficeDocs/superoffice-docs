@@ -15,7 +15,7 @@ language: en
 
 You can merge duplicate database records of companies. Contacts and activities will be moved to the target company and the source company will be deleted.
 
-**Steps:**
+## Steps
 
 [!include[Go to company](../../learn/includes/goto-company.md)]
 

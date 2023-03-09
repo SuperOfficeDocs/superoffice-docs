@@ -5,7 +5,8 @@ description: Data Exchange
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service, Data Exchange
-so.topic: help
+so.topic: reference
+so.user: admin
 language: en
 so.envir: onsite
 ---

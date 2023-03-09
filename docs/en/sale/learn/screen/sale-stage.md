@@ -6,8 +6,8 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: sale, stage
 so.topic: reference
-so.audience: admin
-so.audience.tooltip: Settings and maintenance
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 

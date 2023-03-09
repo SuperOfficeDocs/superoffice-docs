@@ -25,9 +25,9 @@ You can use FastSearcher in various ways:
 
     ![FastSearcher - screenshot][img1]
 
-2. Type in the empty field the name of the record to search for. As you type in each letter, the list underneath displays all matching records.
+2. In the box, enter the name of the record to search for. While you type, the list below displays all matching records.
 
-    Here are some examples:
+    Examples:
 
     * You can search for a sale by entering the name of the sale or the name of a company linked to the sale, in the FastSearcher field for **Sales** in the Navigator.
 
@@ -41,7 +41,7 @@ You can use FastSearcher in various ways:
 
 1. Open the relevant dialog.
 
-2. In the relevant field, type the name of the record to search for. As you type in each letter, the list underneath displays all matches.
+2. In the relevant box, enter the name of the record to search for. While you type, the list below displays all matches.
 
     ![FastSearcher - screenshot][img3]
 

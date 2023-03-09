@@ -54,7 +54,7 @@ To reduce the loading time, only a specified number of records are displayed whe
 * [Work with dynamic and static selections][15]
 
 <!-- Referenced links -->
-[1]: preferences.md
+[1]: ../getting-started/preferences.md
 [3]: group.md
 [4]: filter.md
 [6]: configure-columns.md

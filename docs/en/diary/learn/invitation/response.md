@@ -4,8 +4,8 @@ title: Handle responses to invitations
 description: Handle responses to invitations
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: diary, follow-up
-so.topic: help
+keywords: diary, follow-up, invitation
+so.topic: howto
 language: en
 ---
 

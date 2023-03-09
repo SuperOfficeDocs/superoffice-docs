@@ -5,7 +5,7 @@ description: Move contact
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: company
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -15,7 +15,7 @@ language: en
 
 You can move a contact - including their activities and memberships - from one company to another, for example, if a contact was set up under the wrong company, or if they changed department. Alternatively, disconnect the contact from the company.
 
-**Steps:**
+## Steps
 
 1. Do one of the following:
 

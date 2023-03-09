@@ -6,8 +6,8 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: project, type
 so.topic: howto
-so.audience: admin
-so.audience.tooltip: Settings and maintenance
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 

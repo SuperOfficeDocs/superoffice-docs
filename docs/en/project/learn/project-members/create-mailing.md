@@ -14,6 +14,7 @@ language: en
 To send the same document to all the members of a project, you can use the ![icon][img1] **Marketing** feature in SuperOffice. Do one of the following:
 
 * Select ![icon][img2] **Selections** in the navigator, go to the **Task** tab and click **Create document mailing**.
+
 * Select ![icon][img1] **Marketing** in the navigator, select the **Mailings** tab and [create a new document mailing][1].
 
 > [!NOTE]

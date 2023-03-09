@@ -11,7 +11,7 @@ language: en
 
 # The Sales guide section tab
 
-When you create a sale and select a sale type with a guide, the **Sales guide** section tab is displayed with the activity list underneath.
+When you create a sale and select a sale type with a guide, the **Sales guide** section tab is displayed with the activity list below.
 
 The buttons for the different stages are displayed at the top of the section tab. The appearance of the buttons changes as you complete the stages in the sales guide:
 
@@ -25,14 +25,14 @@ Each stage in the sales guide contains different follow-ups and/or documents, wh
 
 Click **Create** next to the follow-ups and documents to create them. You can also click the title of the follow-up or document to create it.
 
-![icon][img4]
+![Create follow-up -screenshot][img4]
 
 > [!TIP]
 > All follow-ups and documents you create for a sales guide are also displayed on the **Activities** section tab in the Sale screen. This provides you with an overview of all activities linked to the sale - both completed and uncompleted activities.
 
 After a follow-up or document is created, you can subsequently delete or edit it by right-clicking the title of the follow-up/document and selecting from the menu that appears. Equally, you can also create a new follow-up or a new document of the same type.
 
-![icon][img5]
+![Create follow-up -screenshot][img5]
 
 ## What would you like to do now?
 

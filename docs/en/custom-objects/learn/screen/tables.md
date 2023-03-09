@@ -5,7 +5,7 @@ description: Tables screen in System Design
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: table, field, system design
-so.topic: help
+so.topic: concept
 language: en
 ---
 
@@ -13,7 +13,7 @@ language: en
 
 [!include[Requirement](../../../learn/includes/req-expander-services.md)]
 
-In the **Tables** screen in **System design** there is a list of the tables in the system. Here you can extend the SuperOffice Service by creating new tables and fields for different screens in the system.
+In the Tables screen in **System design** there is a list of the tables in the system. Here you can extend the SuperOffice Service by creating new tables and fields for different screens in the system.
 
 > [!TIP]
 > Extra fields can for instance be used as search criteria and columns in sales.

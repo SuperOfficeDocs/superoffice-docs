@@ -4,8 +4,9 @@ title: sync configure default values
 description: sync configure default values
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: quote, sync, connector, ERP
+so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -15,20 +16,20 @@ By defining default values for fields that typically only have one relevant valu
 
 [!include[Go to sync](../includes/goto-sync.md)]
 
-1. Select the ERP connection, and click the **Defaults** button at the bottom. The **Configure Sync Default Values** dialog displays the tabs for the available actors in the ERP system.
+1. Select the ERP connection, and click the **Defaults** button at the bottom.
 
-1. Select the tab for the actor you want to configure default values for.
+1. In the dialog, select the tab for the actor you want to configure default values for.
 
 1. Click **Add** at the bottom of the dialog. The **Add sync default value** dialog appears.
 
 1. **ERP Field**: here you select which field in the ERP system you want to define a default value for.
 
-1. **Set default value**: Check here to set a default value for the ERP field you selected above. After you have checked here, you set the default value underneath.
+    * **Set default value**: Check here to set a default value for the ERP field you selected above. After you have checked here, you set the default value below.
 
-1. **Ask user for value**: check here to allow the user to enter a value.
+    * **Ask user for value**: check here to allow the user to enter a value.
 
-1. **Mandatory - User must fill in value**: check here to require the user to enter a value in the field. If the selected ERP field is mandatory, this field is checked by default.
+    * **Mandatory - User must fill in value**: check here to require the user to enter a value in the field. If the selected ERP field is mandatory, this field is checked by default.
 
 1. Click **OK**.
 
-1. Repeat steps 5-10 to add more default values.
+1. Repeat steps 5-6 to add more default values.

@@ -4,8 +4,9 @@ title: quote delete deactivate price list or product
 description: quote delete deactivate price list or product
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: sale, quote, product, price list
+so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -14,11 +15,11 @@ language: en
 In the **SuperOffice products** tab in the **Quote/Sync** screen, you can delete or deactivate both price lists and products in the price lists. These price lists and products will then no longer be available when users are creating quotes.
 
 > [!NOTE]
-> We recommend that you **deactivate** price lists and products rather than deleting them permanently. If you delete them, problems may arise when updating prices and sending quotes.
+> We recommend that you deactivate price lists and products rather than deleting them permanently. If you delete them, problems may arise when updating prices and sending quotes.
 
 ## Deactivate price lists
 
-1. Select the price list you want to deactivate, in the **Price list** list.
+1. Select the price list you want to deactivate.
 2. Click **Edit**.
 3. Do one of the following:
     * Uncheck the **Active** checkbox.
@@ -30,7 +31,7 @@ In the **SuperOffice products** tab in the **Quote/Sync** screen, you can delete
 
 ## Deactivate products
 
-1. Select the price list containing the product you want to deactivate, in the **Price list** list. The products in the price list are shown in the list at the bottom.
+1. Select the price list containing the product you want to deactivate. The products in the price list are shown in the list at the bottom.
 
 2. Clear the checkbox for each product you want to deactivate.
 

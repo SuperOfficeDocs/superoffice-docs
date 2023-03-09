@@ -4,8 +4,8 @@ title: Appointment
 description: Appointment
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: diary, follow-up
-so.topic: help
+keywords: diary, follow-up, appointment, meeting
+so.topic: concept
 language: en
 ---
 

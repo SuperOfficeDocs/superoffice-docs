@@ -13,7 +13,7 @@ In this example, the following template variables are used to tailor the text to
 
 | Variable | Description |
 |---|---|
-| &lt;name&gt; | the name of the company is inserted here |
-| &lt;cont&gt; | the name of our contact for the company is inserted |
-| &lt;cpho&gt; | the company's phone number |
-| &lt;mail&gt; | the company's email address |
+| name | The name of the company |
+| cont | The name of our contact for the company |
+| cpho | The company's phone number |
+| mail | The company's email address |

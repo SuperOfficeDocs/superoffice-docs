@@ -28,9 +28,9 @@ You can specify a default follow-up type and descriptive text to be displayed in
 
 1. Click the **Create follow-up** tab.
 
-1. Click the arrow button (![icon][img1] ) to the right of the **Type** field, and select a follow-up.
+1. Click the ![icon][img1] arrow button to the right of the **Type** field, and select a follow-up.
 
-1. Enter the required description in the text field underneath.
+1. Enter the required description.
     <details><summary>Click here for an example</summary>
     [!include[Example](includes/example-status-description.md)]
     </details>

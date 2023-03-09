@@ -5,7 +5,7 @@ description: Relations tab (Contact screen)
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: person, contact
-so.topic: help
+so.topic: reference
 language: en
 ---
 

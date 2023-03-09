@@ -89,7 +89,7 @@ Use **%** as a wild card when searching. The percent character (%) matches any s
 
 A typical search is a pre-defined search that we have set up for you, so you can see what other users typically search for. Each data set in the Find screen contains a list of typical searches that are ready to be used.
 
-A typical search is a great way to start looking for data in SuperOffice CRM. You can find typical searches by clicking underneath the group of data you are interested in. Containing pre-set search criteria, typical searches can be used as they are, modified or expanded.
+A typical search is a great way to start looking for data in SuperOffice CRM. You can find typical searches by clicking below the group of data you are interested in. Containing pre-set search criteria, typical searches can be used as they are, modified or expanded.
 
 ### Example: My overdue follow-ups
 

@@ -5,7 +5,7 @@ description: How to edit the TAB order of fields in the More tab
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: udef, custom field
-so.topic: help
+so.topic: howto
 language: en
 ---
 

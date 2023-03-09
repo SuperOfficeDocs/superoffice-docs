@@ -11,7 +11,7 @@ language: en
 
 # System design screen
 
-To use your SuperOffice Service in a more efficient way and make the system even smarter, there are some advanced options available via the Expander Services Development Tools.
+To use your SuperOffice Service in a more efficient way and make the system even smarter, advanced options are available via the Expander Services Development Tools.
 
 Provided you have access to the Development Tools, you will see the System design menu in the System settings menu. You can create extra tables and fields, make customized workflows via CRM Script, and edit the different Service screens to fit your particular business needs. These tools help you customize SuperOffice Service in such a way that your request system becomes even more powerful and relevant to your company.
 

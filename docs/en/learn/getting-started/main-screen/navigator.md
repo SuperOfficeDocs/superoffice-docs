@@ -132,7 +132,7 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [45]: ../../../admin/license/learn/index.md
 [46]: ../../../admin/user-management/learn/index.md
 [47]: ../../../admin/user-management/learn/role/index.md
-[48]: ../../../security/privacy/learn/privacy.md
+[48]: ../../../security/privacy/learn/index.md
 [49]: ../../../sale/saint/learn/index.md
 
 <!-- Referenced images -->

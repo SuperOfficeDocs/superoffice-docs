@@ -58,10 +58,10 @@ Watch this video and find out how to add and edit purposes for processing person
 * [Privacy - Source][3]
 
 <!-- Referenced links -->
-[1]: ../../../globalization-and-localization/learn/translate-fields.md
-[2]: privacy.md#legal-basis
-[3]: privacy.md#source
+[1]: ../../../../globalization-and-localization/learn/translate-fields.md
+[2]: ../index.md#legal-basis
+[3]: ../index.md#source
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/az.png
-[img2]: ../../../../../common/icons/nav-admin-privacy-active.png
+[img1]: ../../../../../../common/icons/az.png
+[img2]: ../../../../../../common/icons/nav-admin-privacy-active.png

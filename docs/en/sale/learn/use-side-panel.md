@@ -12,19 +12,13 @@ so.lang: en
 
 # How to use the side panel efficiently for sales
 
-In the guide [Use selections to forecast your sales][3], you learn how to make a selection of your sales opportunities.
-
-When you have selected the Sale screen in the **Navigator**, you can view **Sale selections** in the **Selection members** panel in the [side panel][1]. Click on any of the sales opportunities to view them inside the Sale screen.
+In the [guide to sales forecasting][3], you learn how to make a selection of your sales opportunities. When you have selected the Sale screen in the **Navigator**, you can view **Sale selections** in the **Selection members** panel in the [side panel][1]. Click on any of the sales opportunities to view them inside the Sale screen.
 
 ![Use the side panel on the sale card to view selection members and the sale selection -screenshot][img1]
 
-By clicking through all your sales one by one, you can easily check them all to make sure you know what the current status of that sales is, and whether you have a follow-up activity in place.
-
-If you spot a sales opportunity that is visible in red in the **Selection members** list, this means this sales opportunity has an overdue activity or sale date, and you should have a look at it.
+By clicking through all your sales one by one, you can easily check them all to make sure you know what the current status of that sales is, and whether you have a follow-up activity in place. If you spot a sales opportunity that is visible in red in the **Selection members** list, this means this sales opportunity has an overdue activity or sale date, and you should have a look at it.
 
 In the same way you can use a selection of contacts as a calling list to follow up on them one by one. Or use a list of sales proposals to make sure you follow up on all outstanding proposals.
-
-Use the side panel to work in a well-organized and efficient way.
 
 ## Related content
 

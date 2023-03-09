@@ -1,7 +1,7 @@
 ---
 uid: help-en-sale-forecasting
 title: Monitor your pipeline and forecast sales
-description: Giving each sales rep the ability to manage and forecast their own sales pipeline is a great way to ensure effectiveness of your entire sales team. This section will show you how to monitor your sales pipeline and forecast your sales with the help of dashboards, selections and reports.
+description: How to monitor your sales pipeline and forecast your sales with the help of dashboards, selections, and reports.
 author: Bergfrid Dias
 so.date: 02.16.2023
 keywords: sale
@@ -63,7 +63,7 @@ There are many standard reports to choose from – like Actual Sales, Projected 
 
 The [Find feature][5] in SuperOffice CRM lets you search and find different types of data. This means that you can also use Find to forecast your sales. By using the Find feature you can filter out the data of any field in your SuperOffice CRM.
 
-Here are some sales-related scenarios that demonstrate how can use the Find feature:
+Examples:
 
 * I want a list of all sales over €5,000 due to be completed next month.
 * I want a list of all my stalled sales.

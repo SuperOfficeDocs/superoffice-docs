@@ -36,9 +36,9 @@ The images are used as watermarks for the company card, contact card or project 
 
 1. Select the required status in the status list on the left of the screen.
 
-1. Check **Visualize** (on the right side of the screen) to display the status image for companies, contacts or projects that fulfil the status criteria for this status. If **Visualize** is unchecked, status images will not be displayed in SuperOffice CRM for this status. This may be relevant if you only want to use a status to [search in SuperOffice CRM](#using-statuses-for-search).
+1. Check **Visualize** (on the right side of the screen) to display the status image for companies, contacts or projects that fulfil the status criteria for this status. If **Visualize** is unchecked, status images will not be displayed in SuperOffice CRM for this status. This may be relevant if you only want to use a status to search in SuperOffice CRM (see below).
 
-1. Click the **Change image** button.
+1. Click **Change image**.
 
 1. Select image. Do one of the following:
 
@@ -48,9 +48,7 @@ The images are used as watermarks for the company card, contact card or project 
 
     * Click **Add**, click **Upload** file, browse to the image you require and click **Open**. Enter a description of the image. Click **Save**.
 
-1. Click **OK** to close the dialog.
-
-1. The image is added to the database and displayed in the field on the right.
+1. Click **OK** to close the dialog. The image is added to the database and displayed in the field on the right.
 
 ## Using statuses for search
 

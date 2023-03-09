@@ -5,7 +5,7 @@ description: Add links from the Project screen
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: project
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -21,4 +21,6 @@ You can open links by clicking on them in the **Links** tab. URLs/websites open 
 
 ## Remove links
 
-To remove a link, go to the **Links** tab, click **Edit**, click the delete button next to the link. The link is deleted from the tab.
+1. Go to the **Links** tab.
+1. Click **Edit**.
+1. Click the delete button next to the link. The link is deleted from the tab.

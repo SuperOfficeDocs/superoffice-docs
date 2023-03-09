@@ -1,7 +1,7 @@
 ---
 uid: help-en-project-create
 title: Create a project
-description: Keep all your documents and follow-ups in one place and collaborate easier with the help of SuperOffice Projects. This how-to will show you how to create a project and be even more organized in your work.
+description: How to create a project and be even more organized in your work.
 author: SuperOffice RnD
 so.date: 02.10.2023
 keywords: project

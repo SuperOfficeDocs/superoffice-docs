@@ -4,8 +4,8 @@ title: Recurring follow-ups
 description: Recurring follow-ups
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: diary, follow-up
-so.topic: help
+keywords: diary, follow-up, repeat, recur, frequency
+so.topic: concept
 language: en
 ---
 

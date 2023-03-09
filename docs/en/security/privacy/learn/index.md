@@ -4,14 +4,14 @@ title: Privacy
 description: privacy
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance, privacy, GDPR
+keywords: privacy, GDPR, e-marketing, consent
 so.topic: concept
 language: en
 ---
 
 # Privacy
 
-The **Privacy** feature in SuperOffice will assist you in protecting the data privacy of your customers and complying with the EU'sGeneral Data Protection Regulation (GDPR).
+The **Privacy** feature in SuperOffice will assist you in protecting the data privacy of your customers and complying with the EU's General Data Protection Regulation (GDPR).
 
 [!include[Need concent](includes/why-consent.md)]
 
@@ -65,7 +65,7 @@ If you do *not* select this option, only persons with **E-marketing** set to **O
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/learning/best-practices-tips/gdpr/how-to-set-up-privacy-settings-for-gdpr-in-superoffice-crm/
-[2]: add-consent-purpose.md
+[2]: admin/add-consent-purpose.md
 [3]: ../../../admin/lists/learn/privacy-legal-base-add.md
 [4]: ../../../admin/lists/learn/privacy-source-add.md
 

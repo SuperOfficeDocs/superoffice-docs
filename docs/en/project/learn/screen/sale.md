@@ -16,7 +16,11 @@ language: en
 The columns of the **Sales** section tab contain the following information:
 
 * ![icon][img1] : The first column in the **Sales** section tab specifies the **Completed** status of a sale. A tick in the checkbox ![icon][img2] means that the sale is completed, while an empty box means that it is not completed.
-* A [status icon for the sale][1], showing if it is sold ![icon][img1], lost ![icon][img3] or stalled ![icon][img4] (if there is no icon, the sale is "open")
+* A [status icon for the sale][1]
+  * ![icon][img1] sold
+  * ![icon][img3] lost
+  * ![icon][img4] stalled
+  * if there is no icon, the sale is open
 * The date of the sale
 * The sale amount
 * The current stage of the sale

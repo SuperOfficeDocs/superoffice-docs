@@ -5,7 +5,7 @@ description: The Diary screen
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: diary, follow-up
-so.topic: help
+so.topic: reference
 language: en
 ---
 

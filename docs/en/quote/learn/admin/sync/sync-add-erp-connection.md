@@ -1,11 +1,12 @@
 ---
 uid: help-en-sync-add-erp-connection
-title: sync add erp connection
-description: sync add erp connection
+title: Add an ERP connection (Sync Connector)
+description: Add an ERP connection (Sync Connector)
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: quote, sync, connector, ERP
+so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -15,7 +16,7 @@ Each Sync Connector must have an ERP connection with configuration data for link
 
 ## To add an ERP connection
 
-1. Go to the **Sync** tab in the **Quote/Sync** screen.
+1. Go to the **Sync** tab in the Quote/Sync screen.
 
 [!include[Define new ERP connection](../includes/step-define-new-erp-connection.md)]
 
@@ -41,11 +42,11 @@ You must check the **Active** column to activate the connection, so that the **E
 
 * Specify synchronization settings, and choose which fields should be shown in the search window and in the **ERP** tab. See [Configure field mapping][1] and [Configure list mapping][2].
 
-* Define the required default values for fields which normally only have one relevant value, to save the user having to enter values in these fields. See [Configure default values for synchronization][3].
+* [Define the required default values][3] for fields which normally only have one relevant value, to save the user having to enter values in these fields.
 
-* Select the order of the ERP fields displayed in the ERP tab in SuperOffice CRM. See [Rank fields shown in the ERP tab][4].
+* [Select the order of the ERP fields][4] displayed in the ERP tab in SuperOffice CRM.
 
-* If you use several ERP connections, you can choose which connections should be prioritized when synchronizing. See [Set synchronization priority][5].
+* If you use several ERP connections, you can [set priority for connections][5].
 
 * [Import data from the ERP system][6]
 

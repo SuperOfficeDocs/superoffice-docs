@@ -5,7 +5,7 @@ description: Fields web
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: udef, custom field
-so.topic: help
+so.topic: concept
 language: en
 ---
 

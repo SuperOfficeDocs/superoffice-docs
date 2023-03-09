@@ -5,7 +5,7 @@ description:  Extra tables
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: extra table
-so.topic: help
+so.topic: howto
 language: en
 ---
 

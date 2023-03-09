@@ -14,7 +14,7 @@ language: en
 
 [!include[Requirement](../includes/note-saint-req.md)]
 
-When you set up multiple status monitors and different periods/counters, it is important to have a regular check on them to make sure that the counters and statuses are regenerated and updated, and the criteria are correct on the different statuses.
+When you set up multiple status monitors and different periods/counters, it is important to have a regular check on them to make sure that the counters and statuses are regenerated and updated, and the [criteria][1] are correct on the different statuses.
 
 The sections below contain information about how to enable and disable status monitors and how to regenerate statuses and counters. [!include[Define counter](../../../learn/includes/def-counter.md)]
 
@@ -31,21 +31,20 @@ If an item is not updated, it is shown as ![icon][img1] (statuses) and ![icon][i
 
 ## Regenerate statuses
 
-When you have added, edited or deleted a criterion (see [Select status criteria][2]), or if, for example, you have edited an intention for a task in SuperOffice CRM, a red cross ( ![icon][img6] ) is displayed in the status list to the left of the status(es) in question. Statuses marked with a red cross are not enabled.
+When you have [added, edited, or deleted a criterion][2], or if, for example, you have edited an intention for a task in SuperOffice CRM, a red cross ( ![icon][img6] ) is displayed in the status list to the left of the status(es) in question. Statuses marked with a red cross are not enabled.
 
 You must then regenerate these statuses by clicking one of these buttons:
 
-![icon][img2] **Regenerate selected status monitor** (bottom of the **Company**, **Contact** or **Project** tab): Select to regenerate the selected status.
-
-![icon][img2] **Regenerate all status monitors** (bottom of the **Status** tab): Select to regenerate all statuses.
+| Icon | Name | Description | Location
+|---|---|---|---|
+| ![icon][img2] | Regenerate selected status monitor | Select to regenerate the selected status | Bottom of the **Company**, **Contact**, or **Project** tab |
+| ![icon][img2] | Regenerate all status monitors | Select to regenerate all statuses | Bottom of the **Status** tab |
 
 ## Regenerate counter values
 
-![icon][img2] **Regenerate all counters**: Select to regenerate all counters.
-
-## Related
-
-* See **Counter fields** in [Use search criteria][1]
+| Icon | Name | Description |
+|---|---|---|
+| ![icon][img2] | Regenerate all counters | Select to regenerate all counters |
 
 <!-- Referenced links -->
 [1]: ../../../../admin/options/learn/using-search-criteria.md

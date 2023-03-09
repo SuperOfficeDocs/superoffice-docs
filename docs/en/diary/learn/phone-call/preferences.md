@@ -4,8 +4,8 @@ title: Phone preferences
 description: Phone preferences
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: diary, follow-up
-so.topic: help
+keywords: diary, follow-up, phone, call, dial
+so.topic: howto
 language: en
 ---
 

@@ -30,7 +30,8 @@ The best way to define your own workflow is, first and foremost, to discuss and 
 For example, you can have a sales type with guide for prospects, for existing customer and one for long-term sales processes that contain many stages and activities.
 
 The sales guide is defined in SuperOffice Settings and maintenance.
-![icon][img1]
+
+![sales guide -screenshot][img1]
 
 You can preview documents and activities in the **Preview** view in the side panel.
 
@@ -38,7 +39,6 @@ You can preview documents and activities in the **Preview** view in the side pan
 
 * [The Sales guide section tab][1]
 * [Work with sales guides][2]
-* Customize your sales lists
 * [Edit a sales guide][3]
 * [Deactivate a sales guide][4]
 

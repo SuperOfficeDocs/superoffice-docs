@@ -22,12 +22,12 @@ All information related to a company – be it your customer, partner or supplie
 
 The bottom of the screen contains the following [default section tabs][8]:
 
-* **Contacts**
-* **Relations**
-* **Projects**
-* **Activities**
-* **Sales**
-* **Requests**
+* Contacts
+* Relations
+* Projects
+* Activities
+* Sales
+* Requests
 
 Everything you want to find out about a company is available from a single screen.
 

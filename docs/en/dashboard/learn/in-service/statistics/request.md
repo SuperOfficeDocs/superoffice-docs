@@ -4,8 +4,8 @@ title: Request statistics
 description: Request statistics
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: Service, request, statistics
+so.topic: howto
 language: en
 ---
 

@@ -4,8 +4,9 @@ title:  Scheduled tasks
 description: Scheduled tasks
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: macro, script, schedule
+so.topic: howto
+so.user: admin
 language: en
 ---
 

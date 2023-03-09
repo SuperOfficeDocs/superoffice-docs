@@ -22,7 +22,7 @@ After the customer accepts the quote, you can place the order, so that it is sen
     > You cannot place the order if the [quote has not been approved][1] or [quote contains errors or warnings][2].
 
 1. If the quote contains multiple alternatives, select the one you want in the **Select alternative to use** field.
-1. To send the order by email, check **Send order confirmation via email**, and choose the email template and language in the lists underneath.
+1. To send the order by email, check **Send order confirmation via email**, and choose the email template and language.
 1. Enter the customer's **PO number** (purchase order number), if any, and an **Order comment**, if desired.
 1. Check **Mark sale as sold (100%)** to change the status of the sale.
 1. Click **OK**.

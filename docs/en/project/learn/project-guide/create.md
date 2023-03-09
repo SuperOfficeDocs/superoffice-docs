@@ -6,8 +6,8 @@ author: SuperOffice RnD
 so.date: 02.23.2023
 keywords: project, guide, workflow
 so.topic: howto
-so.audience: admin
-so.audience.tooltip: Settings and maintenance
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -37,7 +37,7 @@ This procedure shows you how to create a project guide from scratch.
 
 A project guide must be linked to a project type, which in turn consists of several statuses. [How to create a status][2].
 
-For example, a project guide for a project of the Conference type could have statuses "Planned", "In progress", and "Closing".
+For example, a project guide for a project of the Conference type could have statuses Planned, In progress, and Closing.
 
 Go to the next procedure to link the statuses to a project type.
 

@@ -5,7 +5,7 @@ description: contact delete
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: person, contact
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -15,9 +15,8 @@ Why would you delete contacts in SuperOffice? For example,a contact was added by
 
 There are three ways you can delete a contact from SuperOffice CRM:
 
-* Delete a contact from the Contact screen.
-* Delete a contact from the Company screen.
-* [Bulk delete][3] contacts.
+* [Delete one contact][1]
+* [Bulk delete contacts][3]
 
 > [!TIP]
 > Instead of deleting a contact, you can check **Former employee** in the contact card (see [Create new contact][6]). Then this person's name will not disappear from activities they are linked to.
@@ -53,6 +52,7 @@ There are three ways you can delete a contact from SuperOffice CRM:
 * [Restore deleted companies and contacts][5]
 
 <!-- Referenced links -->
+[1]: delete.md
 [2]: merge-contacts.md
 [3]: ../../learn/basics/bulk-update.md
 [5]: ../../learn/basics/deleting-elements.md#restore
