@@ -35,7 +35,7 @@ You can create a mailbox to use for importing email into SuperOffice Service. Be
 
 [!include[Import stuff](includes/step-import.md)]
 
-1. **AI services**: Here you can select the following options for categorization and text analysis using AI (see [AI services][4]):
+1. **AI services**: Here you can select the following options for categorization and text analysis using [AI][4]:
 
     * **Use AI to suggest categories**: Select this option to [let the AI suggest a category][3] for requests based on the content of email messages.
     * **Use text analysis**: Select this option to [let the AI analyze the text][2] in email messages to detect language (for translation) and perform sentiment analysis.

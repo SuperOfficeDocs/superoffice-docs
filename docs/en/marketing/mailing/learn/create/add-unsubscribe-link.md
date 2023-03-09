@@ -37,8 +37,8 @@ You decide where this unsubscribe link appears and its phrasing, as well as what
 
 ## In the old editor
 
-1. Go to the contents of the message and edit a paragraph (see [Edit a paragraph][1]) to open the editing view.
-    Or click the **Add a new paragraph** ( ![icon][img1] ) button to add a paragraph at the bottom.
+1. Go to the contents of the message and [edit a paragraph][1] to open the editing view.
+    Or click the ![icon][img1] **Add a new paragraph** button to add a paragraph at the bottom.
 2. Select the **Body** tab.
 3. Position the mouse pointer where you wish to insert the link.
 4. Click the ![icon][img2] **Subscription links** button in the toolbar.

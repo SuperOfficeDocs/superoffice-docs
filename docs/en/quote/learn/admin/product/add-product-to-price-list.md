@@ -64,9 +64,9 @@ In the list on the right you can add product information. This can include:
 
 * Number field: Here you enter a number, such as cost price, minimum price and quantity.
 
-* Lists: Here you select alternatives from the list such as units, product type and product group. You can add more alternatives to these lists in the **Lists** screen [Add items to a list][4]).
+* Lists: Here you select alternatives from the list such as units, product type and product group. You can add more alternatives to these lists in the **Lists** screen [Add items to a list][4].
 
-* Lists with search options ( ![icon][img1] ): Here you can choose from list of recent records, enter text to start a search, or click the search button ![icon][img1] to initiate an advanced search.
+* Lists with ![icon][img1] search options : Here you can choose from list of recent records, enter text to start a search, or click the search button ![icon][img1] to initiate an advanced search.
 
 <details><summary>Are all these fields displayed in SuperOffice CRM?</details>
 

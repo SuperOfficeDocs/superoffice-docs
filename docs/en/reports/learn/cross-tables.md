@@ -29,7 +29,7 @@ To view a cross table report (.Dcube file), you must install the **CrossTable vi
 
 1. [!include[How to-goto-reports](includes/goto-reports.md)]
 
-2. Select the required cross table report (see [Show report properties][1]).
+2. [Select the required cross table report][1].
 
 3. Click the **Preview** button under the criteria list. The cross table report is generated.
 

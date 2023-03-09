@@ -36,7 +36,7 @@ language: en
 
 The items are displayed in the order you entered them. To change the order, select an item and move it up or down using the arrow buttons below the list ( ![icon][img3] ![icon][img4] ).
 
-After adding items, you can specify details for each individual item. You can specify the user groups the item is visible to (see [User group filtering][2]), and the [headings][3] it will display under.
+After adding items, you can specify details for each individual item. You can specify the [user groups the item is visible to][2], and the [headings][3] it will display under.
 
 <!-- Referenced links -->
 [1]: specialized-lists.md

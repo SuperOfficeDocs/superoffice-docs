@@ -24,7 +24,7 @@ The privacy confirmation email template is a **email template**, which is create
 
 ## Edit the default template
 
-1. Go to Settings and maintenance and click on **Lists**. Find the Email template list and the template for "Privacy confirmation e-mail".
+1. Go to Settings and maintenance and click on **Lists**. Find the Email template list and the template for "Privacy confirmation email".
 
 2. Double click to open the **Edit list item** dialog where you can change the name, description and so on.
 

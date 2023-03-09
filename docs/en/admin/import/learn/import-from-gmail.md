@@ -17,7 +17,7 @@ language: en
 
 1. [!include[Open Import](includes/open-import.md)]
 
-2. Click the Gmail icon ( ![icon][img2] ) under **Select an import source**.
+2. Click the ![icon][img2] Gmail icon under **Select an import source**.
 
 3. Give access. The dialog shown depends on if you are already logged in to Gmail
 

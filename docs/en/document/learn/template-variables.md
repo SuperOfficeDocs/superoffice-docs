@@ -142,7 +142,7 @@ The templates for quote documents, quote details and order confirmations differ 
 
 ## Service and Marketing template variables
 
-When generating e-mail templates for requests and mailings (and message templates) in Marketing, you can personalize the email or mailing with template variables. Those variables are slightly different from the ones used in documents.
+When generating email templates for requests and mailings (and message templates) in Marketing, you can personalize the email or mailing with template variables. Those variables are slightly different from the ones used in documents.
 
 ## Reference
 

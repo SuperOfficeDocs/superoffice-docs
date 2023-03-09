@@ -18,7 +18,7 @@ Follow the steps below to import actors (customers, suppliers and individuals) f
 ## Select actors to be imported from the ERP system
 
 > [!NOTE]
-> If the **ERP Sync** icon ( ![icon][img1] ) is inactive, you must turn off synchronization in **Quote/Sync** > **Sync** tab.
+> If the ![icon][img1] ERP sync icon is inactive, you must turn off synchronization in **Quote/Sync** > **Sync** tab.
 
 1. [!include[Open Import](includes/open-import.md)]
 2. [!include[Select source](includes/select-source.md)]

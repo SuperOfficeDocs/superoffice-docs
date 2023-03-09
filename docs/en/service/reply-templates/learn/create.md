@@ -62,7 +62,7 @@ language: en
     4. Repeat this procedure to add more attachments.
 
     > [!TIP]
-    > You can delete an attachment by clicking **Delete** ( ![icon][img1] ) to the right of the row.
+    > You can delete an attachment by clicking **Delete** to the right of the row.
 
     </details>
 

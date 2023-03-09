@@ -6,7 +6,7 @@ The columns of the **Project** section tab contain the following information:
 * What type of project it is.
 * The project's status.
 * The project number.
-* The project description (if any). Hold the mouse-pointer over the paper-clip icon ( ![icon][img1] ) to display the description.
+* The project description (if any). Hold the mouse-pointer over the ![icon][img1] paper-clip icon to display the description.
 * Any link to a web page the project is connected to – a URL address to click on to go to the relevant web page.
 * User ID for the person who created the project.
 

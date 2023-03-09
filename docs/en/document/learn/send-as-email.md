@@ -11,7 +11,7 @@ language: en
 
 # Send a document as email
 
-![Find the document in SuperOffice CRM, right click and select Send as e-mail, the email dialog opens and you are ready to send -screenshot][img1]
+![Find the document in SuperOffice CRM, right click and select Send as email, the email dialog opens and you are ready to send -screenshot][img1]
 
 ## Steps
 

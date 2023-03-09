@@ -64,7 +64,7 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 7. Go to the **Document** dialog.
 
     > [!NOTE]
-    > If **Completed** is checked ( ![icon][img1] ) in the **Document** dialog, the upload options are disabled. In that case, remove the **Completed** check mark.
+    > If ![icon][img1] **Completed** is checked in the **Document** dialog, the upload options are disabled. In that case, remove the **Completed** check mark.
 
 8. Click the link to upload the document.
     or drag and drop the document from Windows Explorer to the **Document** dialog.

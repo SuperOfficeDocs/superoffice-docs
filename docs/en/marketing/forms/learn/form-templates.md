@@ -38,7 +38,7 @@ language: en
 3. Select **Copy to template**.
 4. In the **Edit form** screen, enter a descriptive name for the template in the **Form name** field.
 5. If required, click **Folder** to select a folder for the template.
-6. [Make any necessary changes][1]).
+6. [Make any necessary changes][1].
 7. Click **Save**.
 
 ![Create a template based on existing form -screenshot][img3]

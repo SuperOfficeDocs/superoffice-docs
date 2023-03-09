@@ -19,7 +19,7 @@ Under **Knowledge Base** > **Documents** you can create a folder structure for d
 2. Go to the folder you want to create a sub-folder under. You can create it directly under the **Documents** folder or under any of its sub-folders.
 3. Click the **New folder** button at the top of the screen. This takes you to the **Document folder properties** screen.
 4. Enter a descriptive name for the folder in the **Name** field.
-5. The **In folder** field automatically shows the name of the parent folder you chose. If you change your mind, you can click the list button ( ![icon][img1] ) and select a different folder in the list that appears.
+5. The **In folder** field automatically shows the name of the parent folder you chose. If you change your mind, you can click the ![icon][img1] list button and select a different folder in the list that appears.
 6. In the **Access** list box, you select who is to have access to read and edit the folder.
 7. Click **OK**. The new folder is created. You are now ready to [add documents][1] to the new folder.
 

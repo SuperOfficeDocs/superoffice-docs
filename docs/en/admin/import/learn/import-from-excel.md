@@ -46,7 +46,7 @@ Watch this video or follow the steps below to learn how to import your contacts 
 
 1. [!include[Open Import](includes/open-import.md)]
 
-2. Make sure that **Contacts** is selected under **Select an import source** and then click the Excel icon ( ![icon][img1] ).
+2. Make sure that **Contacts** is selected under **Select an import source** and then click the ![icon][img1] Excel icon.
 
 3. In the **Upload file** dialog, click **Upload file** to select the Excel spreadsheet you want to import.
 

@@ -73,7 +73,7 @@ To send emails from SuperOffice CRM, enter your SMTP server details.
 
     ![Email options -screenshot][img5]
 
-1. Select **E-mail account** tab and press the **Edit/remove** button.
+1. Select **Email account** tab and press the **Edit/remove** button.
 
     ![Email options -screenshot][img6]
 

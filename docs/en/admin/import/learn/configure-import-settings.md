@@ -56,7 +56,7 @@ This applies to the following, among other things:
 ## Existing data
 
 | **Company** | **Address** | **VAT No.** | **Code** |
-| **Import (Excel/Outlook/Gmail** | ACME Inc. | Broadway 123 | 11223344 | - |
+| **Import Excel/Outlook/Gmail** | ACME Inc. | Broadway 123 | 11223344 | - |
 | **SuperOffice** | ACME Inc. | Main street 456 | - | ACME1 |
 
 ## Action
@@ -73,7 +73,7 @@ A duplicate occurs if you have the same record in the import file and in the dat
 
 Under **Company**, and **Contact**, and **Product** in the **Import settings** dialog, specify how duplicates are to be managed.
 
-1. Click the **Duplicate match** list box and select the field(s) that are to be used to identify duplicate companies or contacts.
+1. Click the **Duplicate match** list box and select the fields that are to be used to identify duplicate companies or contacts.
 
     > [!NOTE]
     > To avoid the risk of overwriting data, you should choose the option that is unique for each company, contact, and product.

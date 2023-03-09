@@ -17,7 +17,7 @@ To change the criteria for including records in a selection:
 
 2. Point at the selection name, to make the icons appear to the right.
 
-3. Click **Edit selection** ( ![icon][img1] ). This takes you to the **Edit selection** screen.
+3. Click ![icon][img1] **Edit selection**. This takes you to the **Edit selection** screen.
 
 4. Make the required changes. The fields depend on the type of selection:
     * [Dynamic selection][1]

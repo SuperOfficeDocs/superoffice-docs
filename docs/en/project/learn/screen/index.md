@@ -29,7 +29,7 @@ In the **Event** tab, you can specify settings for publishing events.
 |---|---|
 | Event | Here you check to indicate that the current project is an event. |
 | Event date | This field shows the date of the event. Click the arrow to select a date for the event. |
-| Published (From date and To date) | Here you can specify a precise time period the event ia visible to Audience users (requires a separate licence). Click the arrow next to each of the date fields to select a start and end date for publishing. If you do not enter dates in these fields, the project is published until is either unpublished or deleted from SuperOffice CRM (see [Create projects][2]). |
+| Published (From date and To date) | Here you can specify a precise time period the event ia visible to Audience users (requires a separate licence). Click the arrow next to each of the date fields to select a start and end date for publishing. If you do not enter dates in these fields, the [project is published][2] until is either unpublished or deleted from SuperOffice CRM. |
 | Visible for category | Check here if you want the event to be visible only to specific categories. Click the button ( ![icon][img5] ) to the right of the field to select the categories that the event is visible for. |
 | Visible for contact interest | Check here if you want the event to be visible only to contacts with specific interests. Click the button ( ![icon][img5] ) to the right of the field to select the interests that the event is visible for. |
 | Visible for project members | If checked, the event is visible only in Audience for the [project members][3] specified on the **Project members** section tab. |

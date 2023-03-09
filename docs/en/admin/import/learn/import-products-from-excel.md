@@ -36,7 +36,7 @@ Watch this video or follow the steps to learn how to import your products into S
 
 3. In the **Import to price list**, select the price list you want to import the products to.
 
-4. Click the Excel icon ( ![icon][img1] ) under **Select an import source**.
+4. Click the ![icon][img1] Excel icon under **Select an import source**.
 
 5. In the **Upload file** dialog, click **Upload file** to select the Excel spreadsheet you want to import.
 

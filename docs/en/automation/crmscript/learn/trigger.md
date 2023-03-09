@@ -45,7 +45,7 @@ We will now create a series of actions based on the example above.
 1. Click **Apply**.
 1. Click **New action**, and select **Send an email or SMS**. We will now adapt the email that will be sent to the customer.
 1. Check **Subject**.
-1. Click the parameter icon ( ![icon][img1] ) to the right, and then click the **Choose parameter** field.
+1. Click the ![icon][img1] parameter icon to the right, and then click the **Choose parameter** field.
 1. Select **Change a request** > **Title**. This will put the request title in the subject of the email.
 1. Check **From** and select **Change a request** > **Owner**.
 1. Check **To** and select **Change a request** > **Contact: Email address**.

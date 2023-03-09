@@ -42,7 +42,7 @@ To link the project to a company, you must specify at least one project member.
 9. In the large text box under **Comment**, enter a more detailed description of the person's function within the project, if required.
 
     > [!NOTE]
-    > If you enter anything in this text box, a paperclip symbol ( ![icon][img1] ) is displayed in the **Project member information** column in the **Project Members** section tab. Position the mouse pointer over the paperclip to display a tooltip containing the comment.
+    > If you enter anything in this text box, a ![icon][img1] paperclip symbol is displayed in the **Project member information** column in the **Project Members** section tab. Position the mouse pointer over the paperclip to display a tooltip containing the comment.
 
 10. After entering the required information, click **OK**.
 

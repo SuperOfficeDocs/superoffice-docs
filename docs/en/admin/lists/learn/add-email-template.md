@@ -48,9 +48,9 @@ Templates are displayed as items in the **Email - Template** list and you can ad
 
 Enter the following information in the **Details** tab:
 
-1. (optional) Edit the name of the template in the **Name** field. You can also add the template name in other languages by clicking ![icon][img1] (see [Translation][1]).
+1. (optional) Edit the name of the template in the **Name** field. You can also [add the template name in other languages][1] by clicking ![icon][img1].
 
-2. Enter the title of the email in the **Subject** field. You can also add the subject in other languages by clicking ![icon][img1] (see [Translation]][1]).
+2. Enter the title of the email in the **Subject** field. You can also [add the subject in other languages][1] by clicking ![icon][img1].
 
 3. Select **Use signature in new email** to add your signature to new emails. If you do not have a personal signature, the system signature is used.
 

@@ -21,7 +21,7 @@ In the **Content** step you can edit the appearance and content of the message.
 
 * You can easily drag and drop content from the side-panel (menus, buttons, SoMe links, html content, and header and footer blocks).
 
-SuperOffice Marketing is supplied with many [ready-made message templates][9]), and you can easily move content around to get the appearance you want. Save frequently used content as blocks to save time.
+SuperOffice Marketing is supplied with many [ready-made message templates][9], and you can easily move content around to get the appearance you want. Save frequently used content as blocks to save time.
 
 > [!TIP]
 > We normally recommend a maximum width of 600 pixels for mailings. You can also check what the mailing will look like, on smart phones for example, by clicking **Mobile** (![icon][img4]) in the menu in the lower left corner. See also [Customize the message for display on mobile devices][3].

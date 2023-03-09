@@ -31,7 +31,7 @@ Watch this video or follow the guide below to learn how to install WebTools for 
 
 ### Steps
 
-1. Go to the Main menu ( ![icon][img1] ) in the top bar.
+1. Go to the ![icon][img1] Main menu in the top bar.
 2. Select **Download** > **SuperOffice WebTools**. The SuperOffice WebTools wizard is displayed.
 3. In the wizard, select **Personal Computer** > **SuperOffice**, and click **Download** to download the installation file
 4. Click **Next** and **Close** to close the WebTools wizard.

@@ -19,7 +19,7 @@ When you register email addresses under **Knowledge Base** > **Email addresses**
 
 3. Click the **New email address** button. This takes you to the **Email address properties** screen.
 
-4. The **Folder** field automatically shows the name of the folder you chose. If you change your mind, you can click the list button ( ![icon][img1] ) and select a different folder in the list that appears.
+4. The **Folder** field automatically shows the name of the folder you chose. If you change your mind, you can click the ![icon][img1] list button and select a different folder in the list that appears.
 
 5. In the **Name** field, enter the name of the person the email address belongs to.
 

@@ -22,7 +22,7 @@ The **Lists** screen contains descriptions and definitions of the lists in Super
 
 [!include[Find specific list](includes/tip-find-list.md)]
 
-You can also add your own user-defined lists which are displayed on the **More** tabs in SuperOffice CRM. You specify what is displayed in the **More** tabs in the **Fields** screen (see [Fields][10]).
+You can also add your own user-defined lists which are displayed on the **More** tabs in SuperOffice CRM. You specify what is displayed in the **More** tabs in the [Fields screen][10].
 
 The **Lists** screen is divided into the following parts:
 

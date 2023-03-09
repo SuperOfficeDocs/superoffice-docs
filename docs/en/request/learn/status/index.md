@@ -24,7 +24,7 @@ For example, you can create a new status called "Waiting for reply" as a more de
 | Track time as | Used to report time usage in various phases of request management. The system calculates time used both in relation to defined "opening hours" and the whole 24-hour period. Choose from: in queue and awaiting processing; at internal decision stage; at external decision stage |
 | Queue status | Indicates if requests with this status should be placed in the queue. Relevant if you use the **Get next request in queue** function. |
 | Default | Indicates if this is a default status for the internal status. |
-| Rank | The **Rank** column specifies the order in the **Status** list box in the **Properties** tab in the Request screen. You use the drag handle button ( ![icon][img1] ) to change the order. |
+| Rank | The **Rank** column specifies the order in the **Status** list box in the **Properties** tab in the Request screen. You use the ![icon][img1] drag handle button to change the order. |
 
 ## What do you want to do now?
 

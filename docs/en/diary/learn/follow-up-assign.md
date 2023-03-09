@@ -20,7 +20,7 @@ Examples: Your colleague is on vacation, but need to phone a client when they ge
 1. Select owner. Do one of the following:
 
     * Select the **Details** tab and click the name in the **Owner** field.
-    * Click the **Task** button ( ![icon][img1] ) and select **Assign to**.
+    * Click the ![icon][img1]**Task** button and select **Assign to**.
 
 1. In The **Assign to** dialog, click the list at the top to select which users to display (history list, all or groups).
 

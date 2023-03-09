@@ -74,7 +74,7 @@ In the **Weekly stats** tab, you have the following options:
 
 ## How to change template
 
-To select another template, click the list button ( ![icon][img1] ) next to the relevant field and select a template from the list that appears.
+To select another template, click the ![icon][img1] list button next to the relevant field and select a template from the list that appears.
 
 <!-- Referenced links -->
 [1]: ../../../email/service/learn/kb-aliases/index.md

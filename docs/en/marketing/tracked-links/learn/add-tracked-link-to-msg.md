@@ -26,7 +26,7 @@ You can also **add special links** to your mailing. To do so, select Special Lin
 
 ## Steps
 
-1. Go to the contents of the message and edit a section. [How?][2]).
+1. Go to the contents of the message and edit a section. [How?][2].
 
 2. Select the text or image that the recipient has to click.
 
@@ -39,9 +39,9 @@ You can also **add special links** to your mailing. To do so, select Special Lin
 
 ## Tips
 
-You can add regular (untracked) links. For text links, click the link button ( ![icon][img1] ) in the toolbar. For image links, use the **Image URL** field in the side-panel. If you later decide you want to track these links also, you can select the **Track all links** option under **Tracking** in Step 1: Setup. However, these links are tracked only for the mailing in question, and will not be available for other mailings.
+You can add regular (untracked) links. For text links, click the ![icon][img1] link button in the toolbar. For image links, use the **Image URL** field in the side-panel. If you later decide you want to track these links also, you can select the **Track all links** option under **Tracking** in Step 1: Setup. However, these links are tracked only for the mailing in question, and will not be available for other mailings.
 
-You can also add regular (untracked) links by clicking the link button ( ![icon][img1] ) in the toolbar. If you later decide you want to track these links also, you can select the **Track all links** option under **Tracking** in Step 1: Setup. However, these links are tracked only for the mailing in question, and will not be available for other mailings.
+You can also add regular (untracked) links by clicking the link button in the toolbar. If you later decide you want to track these links also, you can select the **Track all links** option under **Tracking** in Step 1: Setup. However, these links are tracked only for the mailing in question, and will not be available for other mailings.
 
 ## Related topics
 

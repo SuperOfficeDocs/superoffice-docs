@@ -34,7 +34,7 @@ The following data is displayed:
 
 * The sale date (estimated, sold or lost)
 
-* A status icon for the sale, showing if it is sold ![icon][img1], lost ![icon][img2] or stalled ![icon][img3] (if there is no icon, the sale is "open") (see [Stalled, sold and lost sales][4])
+* A [status icon for the sale][4], showing if it is sold ![icon][img1], lost ![icon][img2] or stalled ![icon][img3] (if there is no icon, the sale is "open")
 
 Sales not marked as completed are shown in this list.
 

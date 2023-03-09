@@ -132,7 +132,7 @@ Add more tabs for additional fields, or remove irrelevant tabs.
 
 1. Click ![icon][img5] **Add**. The **Columns** section opens to the left.
 2. Under **Tab title**, replace the text **New tab** with the new tab name.
-3. You can also add the tab name in other languages by clicking ![icon][img1] (see [Translation][2]).
+3. You can also [add the tab name in other languages][2] by clicking ![icon][img1].
 4. Select the number of columns you want to use in the new tab.
 
 > [!TIP]

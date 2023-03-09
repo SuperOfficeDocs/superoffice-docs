@@ -19,7 +19,7 @@ You can add new settings for each of the preferences in the **Preferences** list
 
 1. Click the **Add** button at the bottom of the window.
 
-1. In the **Setting** dialog under **This setting will apply to**, choose which level the setting will apply to – the whole system, one database, one user group or an individual user (see [Levels for preference settings][2]).
+1. In the **Setting** dialog under **This setting will apply to**, choose [which level][2] the setting will apply to – the whole system, one database, one user group or an individual user.
 
     > [!NOTE]
     > If any of the options are disabled, this setting cannot be applied to them.

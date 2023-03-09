@@ -19,7 +19,7 @@ This feature allows you to quickly add an activity in SuperOffice based on the s
 
 1. In the Gmail inbox, open an email.
 
-2. Click the **More** button ( ![icon][img1] ) in the email toolbar.
+2. Click the ![icon][img1] **More** button in the email toolbar.
 
 3. Select **Create activity**.
 

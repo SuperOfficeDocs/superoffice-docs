@@ -64,13 +64,13 @@ Watch this video or follow the guided steps below to learn how you can add a doc
 
 Enter the following information in the **Details** tab:
 
-1. In the **Direction** field, specify if the template is outgoing or incoming, by clicking the arrow (![icon][img1] ) and choosing from the list box.
+1. In the **Direction** field, specify if the template is outgoing or incoming, by clicking the ![icon][img1] arrow and choosing from the list box.
 
-2. In the **Document type** field, specify the type of template by clicking the arrow (![icon][img1] ). You can choose from **Document** and **Fax**.
+2. In the **Document type** field, choose either **Document** or **Fax** as the template type.
 
 3. In the **Document stored in** field, you can choose to save the document somewhere other than the default option.
 
-4. In the **Intention** field, click the arrow (![icon][img1] ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [Sales Intelligence][4]).
+4. In the **Intention** field, click ![icon][img1] and select one of the predefined options from the list. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [Sales Intelligence][4]).
 
     > [!TIP]
     >You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance.
@@ -83,7 +83,7 @@ Enter the following information in the **Details** tab:
 
     [!include[Link to quote template docs](includes/learn-quote-templates.md)]
 
-8. Specify the default setting for the **Our reference (default)** field using the template variables, for example *auth* for the sender's first and last names (see [Template variables][2]).
+8. Specify the default setting for the **Our reference (default)** field using the [template variables][2], for example *auth* for the sender's first and last names.
 
 9. Optionally, type in a description of the template in the **Description** field.
 

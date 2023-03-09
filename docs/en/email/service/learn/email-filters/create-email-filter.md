@@ -46,7 +46,7 @@ language: en
     4. Click **Add** to add the value.
 
         > [!TIP]
-        > You can delete a value again by selecting it and clicking the delete icon ( ![icon][img1] ).
+        > You can delete a value again by selecting it and clicking the ![icon][img1] delete icon.
 
 1. In the **Set properties** tab, you can set specific properties for requests that are generated from emails that match the current filter:
 

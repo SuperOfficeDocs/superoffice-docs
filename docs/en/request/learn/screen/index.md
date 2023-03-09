@@ -33,7 +33,7 @@ The toolbar contains the following options:
 
 * Tags:
 
-* **Actions** ( ![icon][img1] ): Click this button to access the following options:
+* **Actions** ![icon][img1]: Click this button to access the following options:
 
 * **Reply** / **Reply to all**: Used to [respond to the customer][4] and/or other people linked to the request. This function is also available at the bottom of the **Messages** tab.
 

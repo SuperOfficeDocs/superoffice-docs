@@ -44,7 +44,7 @@ To search for things other than requests, start the search criteria by specifyin
 * p = phone
 
 > [!TIP]
-> Information on the use of keywords is displayed if you click the magnifying glass next to the quick search field ( ![icon][img1] ).
+> Information on the use of keywords is displayed if you click the magnifying glass next to the ![icon][img1] quick search field.
 
 How this works in practice:
 

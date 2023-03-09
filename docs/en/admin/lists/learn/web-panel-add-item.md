@@ -4,8 +4,8 @@ title: Adding items to the web panel list
 description: Adding items to the web panel list
 author: SuperOffice RnD
 so.date: 01.20.2023
-keywords: Settings and maintenance, list, web panel
-so.topic: help
+keywords: list, web panel
+so.topic: howto
 so.user: admin
 so.user.tooltip: Settings and maintenance
 language: en

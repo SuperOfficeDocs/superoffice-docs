@@ -85,7 +85,7 @@ You can edit the information about the existing columns, for example the name an
 
 1. Open the **Edit selection** screen.
 2. Go to the **Profile** tab. Under **Columns** is a list of the columns already specified.
-3. Click the delete icon ( ![icon][img1] ) to the right of the required column. The column is removed immediately.
+3. Click the ![icon][img1] delete icon to the right of the required column. The column is removed immediately.
 4. Click **OK**. The changes are saved.
 
 <!-- Referenced links -->

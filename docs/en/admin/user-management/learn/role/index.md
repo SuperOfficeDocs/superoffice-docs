@@ -4,8 +4,9 @@ title: Role
 description: Role
 author: SuperOffice RnD
 so.date: 02.21.2023
-keywords: Settings and maintenance, role, data object, user level
+keywords: role, data object, user level
 so.topic: concept
+so.topic: admin
 language: en
 ---
 

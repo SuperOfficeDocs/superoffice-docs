@@ -17,7 +17,7 @@ There are two ways of creating an email from Microsoft Outlook. You can use Supe
 
 1. Click the **New email** button on the Microsoft Outlook toolbar.
 
-2. In the email window in the **To** field, enter the email address(es) of the recipient(s). You can also use the **Select recipients** dialog (see [Selecting recipients][2]).
+2. In the email window in the **To** field, enter the email addresses of the recipients. You can also use the **Select recipients** dialog (see [Selecting recipients][2]).
 
 3. Write the message.
 
