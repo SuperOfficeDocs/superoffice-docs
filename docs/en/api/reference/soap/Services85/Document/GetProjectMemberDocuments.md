@@ -40,8 +40,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Document:GetProjectMemberDocuments>
     <Document:PersonId xsi:type="xsd:int">0</Document:PersonId>
-    <Document:StartTime xsi:type="xsd:dateTime">2023-02-15T13:11:11Z</Document:StartTime>
-    <Document:EndTime xsi:type="xsd:dateTime">2023-02-15T13:11:11Z</Document:EndTime>
+    <Document:StartTime xsi:type="xsd:dateTime">2023-03-01T11:07:23Z</Document:StartTime>
+    <Document:EndTime xsi:type="xsd:dateTime">2023-03-01T11:07:23Z</Document:EndTime>
     <Document:Count xsi:type="xsd:int">0</Document:Count>
    </Document:GetProjectMemberDocuments>
 

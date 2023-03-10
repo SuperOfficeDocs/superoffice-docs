@@ -4379,6 +4379,7 @@ title: Services88.ListAgent WSDL
           <xs:enumeration value="UserGroups" />
           <xs:enumeration value="ExternalDocumentRelatedToSpmMessage" />
           <xs:enumeration value="Dashboards" />
+          <xs:enumeration value="EmailFlows" />
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="Domain" nillable="true" type="tns:Domain" />

@@ -72,7 +72,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Selection:TaskEntity xsi:type="Selection:MailMergeTask">
      <Selection:ProjectId xsi:type="xsd:int">0</Selection:ProjectId>
      <Selection:TypeId xsi:type="xsd:int">0</Selection:TypeId>
-     <Selection:StartDate xsi:type="xsd:dateTime">2023-02-15T13:10:19Z</Selection:StartDate>
+     <Selection:StartDate xsi:type="xsd:dateTime">2023-03-01T11:06:30Z</Selection:StartDate>
      <Selection:Duration xsi:type="xsd:int">0</Selection:Duration>
      <Selection:Description xsi:type="xsd:string"></Selection:Description>
      <Selection:PriorityId xsi:type="xsd:int">0</Selection:PriorityId>
