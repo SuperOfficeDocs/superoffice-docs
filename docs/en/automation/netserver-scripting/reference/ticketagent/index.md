@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 02.15.2023
+so.date: 03.01.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -21,6 +21,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ITicketAgent'>T
 * [BatchReply](batchreply.md)
 * [CalculateMessageRecipients](calculatemessagerecipients.md)
 * [ClearNotify](clearnotify.md)
+* [CopyFromCRMDocument](copyfromcrmdocument.md)
 * [CreateDefaultAttachmentEntity](createdefaultattachmententity.md)
 * [CreateDefaultTicketEntity](createdefaultticketentity.md)
 * [CreateDefaultTicketMessageEntity](createdefaultticketmessageentity.md)
@@ -33,6 +34,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ITicketAgent'>T
 * [GetAttachmentStream](getattachmentstream.md)
 * [GetDefaultMessageContent](getdefaultmessagecontent.md)
 * [GetForRmUi](getforrmui.md)
+* [GetNextInQueue](getnextinqueue.md)
 * [GetPreviewAttachmentStream](getpreviewattachmentstream.md)
 * [GetTicket](getticket.md)
 * [GetTicketAttachments](getticketattachments.md)
