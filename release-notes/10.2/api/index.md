@@ -13,38 +13,56 @@ so.topic: reference
 
 ## New Archive provider
 
-* [Recycle ticket][2]
+* v10.2.3
+  * [ticketactivatednotification][52]
+  * [ticketcustommessagenotification][53]
+  * [ticketescalatednotification][54]
+  * [ticketfavouriteupdatednotification][55]
+  * [ticketnewnotification][56]
+  * [tickettransferrednotification][57]
+  * [ticketupdatednotification][58]
+
+* v10.2.2
+  * [Recycle ticket][2]
 
 ## New MDO Providers
 
-* [Related data fields][3]
-* [Task menu][4]
-* [Task menu destination][5]
-* [Task menu group][6]
-* [URL encoding][7]
+* v10.2.3
+  * [workflowsteptype][59]
+
+* v10.2.2
+  * [Related data fields][3]
+  * [Task menu][4]
+  * [Task menu destination][5]
+  * [Task menu group][6]
+  * [URL encoding][7]
 
 ## New web service methods
 
-| Agent Name | Method Name | REST Agent | SOAP Agent |
-|------------|-------------|------------|------------|
-|IArchiveAgent | GetRelatedData              | [REST Link][8]  | [SOAP Link][26] |
-|IArchiveAgent | GetRelatedData2             | [REST Link][9]  | [SOAP Link][27] |
-|IEMailAgent   | HasSPFRecord                | [REST Link][10] | [SOAP Link][28] |
-|IListAgent    | CreateDefaultTaskMenu       | [REST Link][11] | [SOAP Link][29] |
-|IListAgent    | DeleteAppTaskMenus          | [REST Link][12] | [SOAP Link][30] |
-|IListAgent    | DeleteTaskMenu              | [REST Link][13] | [SOAP Link][31] |
-|IListAgent    | GetAppTaskMenus             | [REST Link][14] | [SOAP Link][32] |
-|IListAgent    | GetTaskMenu                 | [REST Link][15] | [SOAP Link][33] |
-|IListAgent    | GetTaskMenuByProgId         | [REST Link][16] | [SOAP Link][34] |
-|IListAgent    | SaveTaskMenu                | [REST Link][17] | [SOAP Link][35] |
-|IPersonAgent  | CreateDefaultPersonImage    | [REST Link][18] | [SOAP Link][36] |
-|IPersonAgent  | GetPersonImages             | [REST Link][19] | [SOAP Link][37] |
-|ITicketAgent  | GetTicketMessageWithOptions | [REST Link][20] | [SOAP Link][38] |
-|ITicketAgent  | UndeleteByIds               | [REST Link][21] | [SOAP Link][39] |
-|ITicketAgent  | ValidateAttachments         | [REST Link][22] | [SOAP Link][40] |
-|IUserAgent    | GetUserPresenceStatus       | [REST Link][23] | [SOAP Link][41] |
-|IUserAgent    | SetUserPresenceStatus       | [REST Link][24] | [SOAP Link][42] |
-|IUserDefinedFieldInfoAgent | ClearCaches    | [REST Link][25] | [SOAP Link][43] |
+| Agent Name   | Method Name                 | Version | REST Agent      | SOAP Agent      |
+|--------------|-----------------------------|*-------*|-----------------|-----------------|
+|IAppointmentAgent | CleanUpBookingDeletedWithUpdateMode  |10.2.3   | [REST Link][44]  | [SOAP Link][45] |
+|IArchiveAgent | GetRelatedData              |10.2.2   | [REST Link][8]  | [SOAP Link][26] |
+|IArchiveAgent | GetRelatedData2             |10.2.2   | [REST Link][9]  | [SOAP Link][27] |
+|IEMailAgent   | HasSPFRecord                |10.2.2   | [REST Link][10] | [SOAP Link][28] |
+|IListAgent    | CreateDefaultTaskMenu       |10.2.2   | [REST Link][11] | [SOAP Link][29] |
+|IListAgent    | DeleteAppTaskMenus          |10.2.2   | [REST Link][12] | [SOAP Link][30] |
+|IListAgent    | DeleteTaskMenu              |10.2.2   | [REST Link][13] | [SOAP Link][31] |
+|IListAgent    | GetAppTaskMenus             |10.2.2   | [REST Link][14] | [SOAP Link][32] |
+|IListAgent    | GetTaskMenu                 |10.2.2   | [REST Link][15] | [SOAP Link][33] |
+|IListAgent    | GetTaskMenuByProgId         |10.2.2   | [REST Link][16] | [SOAP Link][34] |
+|IListAgent    | SaveTaskMenu                |10.2.2   | [REST Link][17] | [SOAP Link][35] |
+|IPersonAgent  | CreateDefaultPersonImage    |10.2.2   | [REST Link][18] | [SOAP Link][36] |
+|IPersonAgent  | GetPersonImages             |10.2.2   | [REST Link][19] | [SOAP Link][37] |
+|ITicketAgent  | ClearNotify                 |10.2.3   | [REST Link][46] | [SOAP Link][47] |
+|ITicketAgent  | CopyFromCRMDocument         |10.2.3   | [REST Link][48] | [SOAP Link][49] |
+|ITicketAgent  | GetNextInQueue              |10.2.3   | [REST Link][50] | [SOAP Link][51] |
+|ITicketAgent  | GetTicketMessageWithOptions |10.2.2   | [REST Link][20] | [SOAP Link][38] |
+|ITicketAgent  | UndeleteByIds               |10.2.2   | [REST Link][21] | [SOAP Link][39] |
+|ITicketAgent  | ValidateAttachments         |10.2.2   | [REST Link][22] | [SOAP Link][40] |
+|IUserAgent    | GetUserPresenceStatus       |10.2.2   | [REST Link][23] | [SOAP Link][41] |
+|IUserAgent    | SetUserPresenceStatus       |10.2.2   | [REST Link][24] | [SOAP Link][42] |
+|IUserDefinedFieldInfoAgent | ClearCaches    |10.2.2   | [REST Link][25] | [SOAP Link][43] |
 
 ## NetServer Core changes
 
@@ -163,3 +181,27 @@ services.AddLogging(a =>
 [41]: ../../../docs/en/api/reference/soap/Services88/User/GetUserPresenceStatus.md
 [42]: ../../../docs/en/api/reference/soap/Services88/User/SetUserPresenceStatus.md
 [43]: ../../../docs/en/api/reference/soap/Services88/UserDefinedFieldInfo/ClearCaches.md
+[44]: ../../../docs/en/api/reference/restful/agent/Appointment_Agent/v1AppointmentAgent_CleanUpBookingDeletedWithUpdateMode.md
+[45]: ../../../docs/en/api/reference/soap/Services88/Appointment/CleanUpBookingDeletedWithUpdateMode.md
+[46]: ../../../docs/en/api/reference/restful/agent/Ticket_Agent/v1TicketAgent_ClearNotify.md
+[47]: ../../../docs/en/api/reference/soap/Services88/Ticket/ClearNotify.md
+[48]: ../../../docs/en/api/reference/restful/agent/Ticket_Agent/v1TicketAgent_CopyFromCRMDocument.md
+[49]: ../../../docs/en/api/reference/soap/Services88/Ticket/CopyFromCRMDocument.md
+[50]: ../../../docs/en/api/reference/restful/agent/Ticket_Agent/v1TicketAgent_GetNextInQueue.md
+[51]: ../../../docs/en/api/reference/soap/Services88/Ticket/GetNextInQueue.md
+[52]: ../../../docs/en/api/archive-providers/reference/ticketactivatednotification.md
+[53]: ../../../docs/en/api/archive-providers/reference/ticketcustommessagenotification.md
+[54]: ../../../docs/en/api/archive-providers/reference/ticketescalatednotification.md
+[55]: ../../../docs/en/api/archive-providers/reference/ticketfavouriteupdatednotification.md
+[56]: ../../../docs/en/api/archive-providers/reference/ticketnewnotification.md
+[57]: ../../../docs/en/api/archive-providers/reference/tickettransferrednotification.md
+[58]: ../../../docs/en/api/archive-providers/reference/ticketupdatednotification.md
+[59]: ../../../docs/en/api/mdo-providers/reference/workflowsteptype.md
+
+
+
+
+
+
+
+
