@@ -39,30 +39,32 @@ so.topic: reference
 
 ## New web service methods
 
-| Agent Name   | Method Name                 | Version | REST Agent      | SOAP Agent      |
-|--------------|-----------------------------|*-------*|-----------------|-----------------|
-|IAppointmentAgent | CleanUpBookingDeletedWithUpdateMode  |10.2.3   | [REST Link][44]  | [SOAP Link][45] |
-|IArchiveAgent | GetRelatedData              |10.2.2   | [REST Link][8]  | [SOAP Link][26] |
-|IArchiveAgent | GetRelatedData2             |10.2.2   | [REST Link][9]  | [SOAP Link][27] |
-|IEMailAgent   | HasSPFRecord                |10.2.2   | [REST Link][10] | [SOAP Link][28] |
-|IListAgent    | CreateDefaultTaskMenu       |10.2.2   | [REST Link][11] | [SOAP Link][29] |
-|IListAgent    | DeleteAppTaskMenus          |10.2.2   | [REST Link][12] | [SOAP Link][30] |
-|IListAgent    | DeleteTaskMenu              |10.2.2   | [REST Link][13] | [SOAP Link][31] |
-|IListAgent    | GetAppTaskMenus             |10.2.2   | [REST Link][14] | [SOAP Link][32] |
-|IListAgent    | GetTaskMenu                 |10.2.2   | [REST Link][15] | [SOAP Link][33] |
-|IListAgent    | GetTaskMenuByProgId         |10.2.2   | [REST Link][16] | [SOAP Link][34] |
-|IListAgent    | SaveTaskMenu                |10.2.2   | [REST Link][17] | [SOAP Link][35] |
-|IPersonAgent  | CreateDefaultPersonImage    |10.2.2   | [REST Link][18] | [SOAP Link][36] |
-|IPersonAgent  | GetPersonImages             |10.2.2   | [REST Link][19] | [SOAP Link][37] |
-|ITicketAgent  | ClearNotify                 |10.2.3   | [REST Link][46] | [SOAP Link][47] |
-|ITicketAgent  | CopyFromCRMDocument         |10.2.3   | [REST Link][48] | [SOAP Link][49] |
-|ITicketAgent  | GetNextInQueue              |10.2.3   | [REST Link][50] | [SOAP Link][51] |
-|ITicketAgent  | GetTicketMessageWithOptions |10.2.2   | [REST Link][20] | [SOAP Link][38] |
-|ITicketAgent  | UndeleteByIds               |10.2.2   | [REST Link][21] | [SOAP Link][39] |
-|ITicketAgent  | ValidateAttachments         |10.2.2   | [REST Link][22] | [SOAP Link][40] |
-|IUserAgent    | GetUserPresenceStatus       |10.2.2   | [REST Link][23] | [SOAP Link][41] |
-|IUserAgent    | SetUserPresenceStatus       |10.2.2   | [REST Link][24] | [SOAP Link][42] |
-|IUserDefinedFieldInfoAgent | ClearCaches    |10.2.2   | [REST Link][25] | [SOAP Link][43] |
+| Agent Name       | Method Name                 | Version | REST Agent      | SOAP Agent      |
+|------------------|-----------------------------|+-------+|-----------------|-----------------|
+|IAppointmentAgent | CleanUpBookingDeletedWithUpdateMode   |10.2.3   | [REST Link][44]  | [SOAP Link][45] |
+|IAppointmentAgent | SetSeenMany                 |10.2.2   | [REST Link][44]  | [SOAP Link][45] |
+|IArchiveAgent     | GetRelatedData              |10.2.1   | [REST Link][8]  | [SOAP Link][26] |
+|IArchiveAgent     | GetRelatedData2             |10.2.1   | [REST Link][9]  | [SOAP Link][27] |
+|IEMailAgent       | HasSPFRecord                |10.2.1   | [REST Link][10] | [SOAP Link][28] |
+|IListAgent        | CreateDefaultTaskMenu       |10.2.1   | [REST Link][11] | [SOAP Link][29] |
+|IListAgent        | DeleteAppTaskMenus          |10.2.1   | [REST Link][12] | [SOAP Link][30] |
+|IListAgent        | DeleteTaskMenu              |10.2.1   | [REST Link][13] | [SOAP Link][31] |
+|IListAgent        | GetAppTaskMenus             |10.2.1   | [REST Link][14] | [SOAP Link][32] |
+|IListAgent        | GetTaskMenu                 |10.2.1   | [REST Link][15] | [SOAP Link][33] |
+|IListAgent        | GetTaskMenuByProgId         |10.2.1   | [REST Link][16] | [SOAP Link][34] |
+|IListAgent        | SaveTaskMenu                |10.2.1   | [REST Link][17] | [SOAP Link][35] |
+|IMarketingAgent   | GetFormSubmissionsCount     |10.2.2   | [REST Link][17] | [SOAP Link][35] |
+|IPersonAgent      | CreateDefaultPersonImage    |10.2.1   | [REST Link][18] | [SOAP Link][36] |
+|IPersonAgent      | GetPersonImages             |10.2.1   | [REST Link][19] | [SOAP Link][37] |
+|ITicketAgent      | ClearNotify                 |10.2.3   | [REST Link][46] | [SOAP Link][47] |
+|ITicketAgent      | CopyFromCRMDocument         |10.2.3   | [REST Link][48] | [SOAP Link][49] |
+|ITicketAgent      | GetNextInQueue              |10.2.3   | [REST Link][50] | [SOAP Link][51] |
+|ITicketAgent      | GetTicketMessageWithOptions |10.2.1   | [REST Link][20] | [SOAP Link][38] |
+|ITicketAgent      | UndeleteByIds               |10.2.1   | [REST Link][21] | [SOAP Link][39] |
+|ITicketAgent      | ValidateAttachments         |10.2.1   | [REST Link][22] | [SOAP Link][40] |
+|IUserAgent        | GetUserPresenceStatus       |10.2.1   | [REST Link][23] | [SOAP Link][41] |
+|IUserAgent        | SetUserPresenceStatus       |10.2.1   | [REST Link][24] | [SOAP Link][42] |
+|IUserDefinedFieldInfoAgent | ClearCaches    |10.2.1   | [REST Link][25] | [SOAP Link][43] |
 
 ## NetServer Core changes
 
@@ -82,7 +84,7 @@ The session mode is an implementation of ISoContextProvider
 ```csharp
 public static IServiceCollection AddNetServerCore<TSessionMode>(this IServiceCollection services, Action<NetServerCoreOptionsBuilder> optionsAction = null) where TSessionMode : class, ISoContextProvider
 {
-  //...
+  //... set options
 }
 ```
 
@@ -197,11 +199,7 @@ services.AddLogging(a =>
 [57]: ../../../docs/en/api/archive-providers/reference/tickettransferrednotification.md
 [58]: ../../../docs/en/api/archive-providers/reference/ticketupdatednotification.md
 [59]: ../../../docs/en/api/mdo-providers/reference/workflowsteptype.md
-
-
-
-
-
-
-
-
+[60]: ../../../docs/en/api/reference/restful/agent/Appointment_Agent/v1AppointmentAgent_SetSeenMany.md
+[61]: ../../../docs/en/api/reference/soap/Services88/Appointment/SetSeenMany.md
+[62]: ../../../docs/en/api/reference/restful/agent/Marketing_Agent/v1MarketingAgent_GetFormSubmissionsCount.md
+[63]: ../../../docs/en/api/reference/soap/Services88/Marketing/GetFormSubmissionsCount.md
