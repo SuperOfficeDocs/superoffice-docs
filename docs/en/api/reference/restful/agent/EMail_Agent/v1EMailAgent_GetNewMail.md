@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    206,
-    352
+    977,
+    582
   ]
 }
 ```
@@ -102,45 +102,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 526,
-    "MessageId": "cum",
-    "Subject": "sunt",
+    "ServerId": 134,
+    "MessageId": "facere",
+    "Subject": "quia",
     "From": null,
     "To": [
       {
-        "ContactId": 789,
-        "ContactName": "Shanahan Group",
-        "PersonId": 318,
-        "PersonName": "Reichel Group",
-        "AssociateId": 695,
-        "Address": "sit",
-        "EmailId": 75,
+        "ContactId": 584,
+        "ContactName": "Lowe-Feil",
+        "PersonId": 651,
+        "PersonName": "Kirlin-Hegmann",
+        "AssociateId": 45,
+        "Address": "est",
+        "EmailId": 243,
         "DuplicatePersonIds": [
-          507,
-          85
+          118,
+          966
         ],
-        "Name": "Osinski LLC",
+        "Name": "Renner Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 292
+            "FieldLength": 159
           }
         }
       }
     ],
-    "Sent": "2005-04-21T14:19:03.3883958+02:00",
+    "Sent": "2009-02-06T12:15:18.9237522+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 92,
+    "Size": 256,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 672
+        "FieldLength": 499
       }
     }
   }

@@ -96,28 +96,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 617,
-  "Section": "sit",
-  "Key": "fugit",
-  "Name": "Kunde, Moore and Hessel",
+  "PrefDescId": 775,
+  "Section": "officiis",
+  "Key": "ipsam",
+  "Name": "Cruickshank Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Inverse holistic archive",
-  "IsBuiltin": true,
-  "TableName": "Miller, Breitenberg and Lehner",
-  "UserDefinedListId": 491,
-  "Rank": 225,
-  "SubGroup": "perferendis",
-  "MinLevel": 714,
-  "MaxValue": 868,
-  "MinValue": 547,
-  "RequiredLicense": "vel"
+  "Description": "Synergistic 24/7 matrices",
+  "IsBuiltin": false,
+  "TableName": "Gerlach, Simonis and Langworth",
+  "UserDefinedListId": 104,
+  "Rank": 38,
+  "SubGroup": "odit",
+  "MinLevel": 752,
+  "MaxValue": 205,
+  "MinValue": 956,
+  "RequiredLicense": "repudiandae"
 }
 ```
 
@@ -128,30 +128,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 605,
-  "Section": "debitis",
-  "Key": "esse",
-  "Name": "Lesch LLC",
+  "PrefDescId": 380,
+  "Section": "unde",
+  "Key": "dolorem",
+  "Name": "Wilkinson LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Pre-emptive assymetric Graphic Interface",
-  "IsBuiltin": true,
-  "TableName": "Zieme, Berge and Spencer",
-  "UserDefinedListId": 586,
-  "Rank": 148,
-  "SubGroup": "aliquid",
-  "MinLevel": 139,
-  "MaxValue": 32,
-  "MinValue": 355,
-  "RequiredLicense": "cumque",
+  "Description": "Streamlined next generation process improvement",
+  "IsBuiltin": false,
+  "TableName": "Zemlak, O'Keefe and Howell",
+  "UserDefinedListId": 630,
+  "Rank": 324,
+  "SubGroup": "exercitationem",
+  "MinLevel": 342,
+  "MaxValue": 316,
+  "MinValue": 468,
+  "RequiredLicense": "nam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 286
+      "FieldType": "System.Int32",
+      "FieldLength": 177
     }
   }
 }

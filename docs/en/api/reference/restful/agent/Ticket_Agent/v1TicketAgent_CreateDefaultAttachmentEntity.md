@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 440,
-  "Name": "Schneider-Rolfson",
-  "ContentType": "ipsa",
-  "AttSize": 670,
+  "AttachmentId": 681,
+  "Name": "Abshire LLC",
+  "ContentType": "ea",
+  "AttSize": 540,
   "InlineImage": false,
-  "ContentId": "maxime",
+  "ContentId": "maiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 625
+      "FieldType": "System.Int32",
+      "FieldLength": 417
     }
   }
 }

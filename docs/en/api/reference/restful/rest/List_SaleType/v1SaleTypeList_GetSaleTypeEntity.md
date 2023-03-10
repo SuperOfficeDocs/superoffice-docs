@@ -82,7 +82,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,53 +92,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 146,
-  "Name": "Mills Inc and Sons",
-  "Tooltip": "ea",
-  "Rank": 246,
+  "SaleTypeId": 484,
+  "Name": "Yost LLC",
+  "Tooltip": "laboriosam",
+  "Rank": 328,
   "DurationUnit": "Century",
-  "SaleDuration": 586,
-  "SaleTypeCatId": 160,
+  "SaleDuration": 242,
+  "SaleTypeCatId": 210,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 875,
-  "QuoteLinesTemplate": 16,
-  "ConfirmationLinesTemplate": 743,
-  "MaxDiscountPercentSet": false,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 120,
+  "QuoteLinesTemplate": 700,
+  "ConfirmationLinesTemplate": 762,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 408,
-  "MinEarningPercent": 108,
-  "GroupQuoteLinesBy": 87,
-  "SortGroupLinesBy": 778,
+  "MaxDiscountPercent": 187,
+  "MinEarningPercent": 327,
+  "GroupQuoteLinesBy": 245,
+  "SortGroupLinesBy": 409,
   "Stages": [
     {
-      "Id": 819,
-      "Name": "Sipes-Kunde",
-      "ToolTip": "Fugit nam totam ipsam accusantium explicabo et.",
+      "Id": 877,
+      "Name": "Morar, Cassin and Lakin",
+      "ToolTip": "Nam minima illo aliquam consectetur aut.",
       "Deleted": false,
-      "Rank": 794,
-      "Type": "at",
-      "ColorBlock": 816,
-      "IconHint": "maxime",
+      "Rank": 273,
+      "Type": "occaecati",
+      "ColorBlock": 300,
+      "IconHint": "est",
       "Selected": false,
-      "LastChanged": "2021-03-06T14:19:11.5026887+01:00",
+      "LastChanged": "2009-01-15T12:15:28.4726141+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dicta",
-      "StyleHint": "voluptate",
+      "ExtraInfo": "vel",
+      "StyleHint": "quisquam",
       "Hidden": false,
-      "FullName": "Kayla Bernier",
+      "FullName": "Saige Pollich II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 528
+          "FieldLength": 488
         }
       }
     }
@@ -147,8 +147,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldType": "System.String",
+      "FieldLength": 390
     }
   }
 }

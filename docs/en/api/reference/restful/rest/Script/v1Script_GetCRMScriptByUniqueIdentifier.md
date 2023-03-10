@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "veritatis",
-  "Name": "Turner, Rath and Funk",
-  "Description": "Total client-driven migration",
-  "IncludeId": "quod",
-  "Source": "est",
-  "Registered": "1997-01-18T14:19:11.0061042+01:00",
-  "RegisteredBy": "quos",
-  "Updated": "2007-02-25T14:19:11.0061042+01:00",
-  "UpdatedBy": "cumque",
-  "Path": "deserunt",
+  "UniqueIdentifier": "omnis",
+  "Name": "Buckridge Group",
+  "Description": "Function-based 3rd generation emulation",
+  "IncludeId": "consequuntur",
+  "Source": "provident",
+  "Registered": "2001-10-02T12:15:27.719625+02:00",
+  "RegisteredBy": "doloremque",
+  "Updated": "2020-08-18T12:15:27.719625+02:00",
+  "UpdatedBy": "laudantium",
+  "Path": "doloremque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 948
+      "FieldLength": 33
     }
   }
 }

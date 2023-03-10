@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 21,
-  "CurrentAppointmentId": 664,
-  "SkipCompleteCheck": false
+  "SaleId": 866,
+  "CurrentAppointmentId": 887,
+  "SkipCompleteCheck": true
 }
 ```
 
@@ -104,26 +104,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 623,
-  "Deleted": 483,
-  "DaysFuture": 943,
-  "Tooltip": "labore",
-  "Text": "quis",
-  "TaskId": 748,
-  "SuggestedAppointmentId": 581,
-  "SaleTypeStageLinkId": 952,
-  "RegisteredAssociateId": 479,
-  "Rank": 15,
-  "ProjectTypeStatusLinkId": 478,
-  "Name": "Labadie-Hermiston",
-  "Duration": 226,
+  "AutoSuggest": 967,
+  "Deleted": 842,
+  "DaysFuture": 178,
+  "Tooltip": "inventore",
+  "Text": "qui",
+  "TaskId": 874,
+  "SuggestedAppointmentId": 159,
+  "SaleTypeStageLinkId": 599,
+  "RegisteredAssociateId": 700,
+  "Rank": 943,
+  "ProjectTypeStatusLinkId": 924,
+  "Name": "Rodriguez-Jakubowski",
+  "Duration": 990,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 678
+      "FieldType": "System.Int32",
+      "FieldLength": 754
     }
   }
 }

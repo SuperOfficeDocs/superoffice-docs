@@ -126,11 +126,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 520
+  "SaleId": 983
 }
 ```
 
@@ -145,63 +145,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2016-09-24T14:19:02.6500523+02:00",
-  "AppointmentId": 646,
-  "Description": "Team-oriented cohesive extranet",
-  "StartDate": "2002-06-11T14:19:02.6500523+02:00",
-  "EndDate": "2000-06-13T14:19:02.6500523+02:00",
+  "CreatedDate": "2005-05-05T12:15:17.9247668+02:00",
+  "AppointmentId": 781,
+  "Description": "Function-based transitional conglomeration",
+  "StartDate": "2021-08-04T12:15:17.9247668+02:00",
+  "EndDate": "2019-06-08T12:15:17.9247668+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 408,
+  "MotherId": 870,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2021-01-08T14:19:02.6500523+01:00",
+  "UpdatedDate": "2011-11-02T12:15:17.9277666+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 286,
+  "ActiveLinks": 457,
   "Links": [
     {
-      "EntityName": "Kohler, Bode and Stroman",
-      "Id": 754,
-      "Description": "Organic zero administration policy",
-      "ExtraInfo": "blanditiis",
-      "LinkId": 498,
+      "EntityName": "Ernser-Bernier",
+      "Id": 674,
+      "Description": "Seamless explicit model",
+      "ExtraInfo": "recusandae",
+      "LinkId": 872,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 227
+          "FieldLength": 178
         }
       }
     }
   ],
-  "AlarmLeadTime": "assumenda",
+  "AlarmLeadTime": "ut",
   "HasAlarm": false,
-  "ColorIndex": 303,
+  "ColorIndex": 509,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "minus",
-  "LeadTime": "repudiandae",
-  "Location": "ut",
-  "RejectCounter": 654,
-  "RejectReason": "",
+  "IsAlldayEvent": true,
+  "LagTime": "quasi",
+  "LeadTime": "sunt",
+  "Location": "saepe",
+  "RejectCounter": 576,
+  "RejectReason": "grow web-enabled infrastructures",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 808,
-      "PersonId": 770,
-      "ContactId": 418,
-      "EmailId": 363,
+      "AssociateId": 292,
+      "PersonId": 247,
+      "ContactId": 982,
+      "EmailId": 30,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 808,
-      "PersonId": 770,
-      "ContactId": 418,
-      "EmailId": 363,
+      "AssociateId": 292,
+      "PersonId": 247,
+      "ContactId": 982,
+      "EmailId": 30,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -209,58 +209,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1998-05-12T14:19:02.6500523+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2022-03-16T12:15:17.9277666+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 806,
+  "PreferredTZLocation": 686,
   "Sale": null,
-  "SuggestedAppointmentId": 721,
+  "SuggestedAppointmentId": 568,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "adipisci",
+  "CentralserviceVideomeetId": "et",
   "UserDefinedFields": {
-    "SuperOffice:1": "Alize Kyra Hoeger III",
-    "SuperOffice:2": "Hoyt Pfeffer"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Ms. Ahmed Will I"
   },
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "recusandae"
+    "ExtraFields1": "molestias",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "voluptate",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "commodi",
+    "CustomFields2": "doloribus"
   },
-  "PublishEventDate": "1995-10-09T14:19:02.6656777+02:00",
-  "PublishTo": "2007-07-03T14:19:02.6656777+02:00",
-  "PublishFrom": "2004-07-27T14:19:02.6656777+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2004-12-22T12:15:17.9307705+01:00",
+  "PublishTo": "2013-01-09T12:15:17.9307705+01:00",
+  "PublishFrom": "2000-03-30T12:15:17.9307705+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 46,
+      "VisibleId": 495,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 246
+          "FieldLength": 635
         }
       }
     },
     {
-      "VisibleId": 46,
+      "VisibleId": 495,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 246
+          "FieldLength": 635
         }
       }
     }
@@ -269,8 +269,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 977
+      "FieldType": "System.Int32",
+      "FieldLength": 525
     }
   }
 }

@@ -82,15 +82,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 740,
-  "PersonName": "Bashirian-Grimes",
+  "ContactId": 823,
+  "PersonName": "Gerlach, Nikolaus and Bogisich",
   "PhoneNumbers": [
-    "1036409",
-    "901253"
+    "296783",
+    "798769"
   ],
   "Emails": [
-    "deborah@monahanfeil.uk",
-    "dasia@crooks.com"
+    "herta.wolf@greenholt.info",
+    "kallie_hirthe@kutch.info"
   ]
 }
 ```
@@ -103,13 +103,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Person": null,
-  "PersonCreated": true,
+  "PersonCreated": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 166
+      "FieldLength": 894
     }
   }
 }

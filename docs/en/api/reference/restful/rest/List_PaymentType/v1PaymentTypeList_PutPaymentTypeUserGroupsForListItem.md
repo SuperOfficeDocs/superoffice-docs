@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 557,
-    "Name": "O'Kon LLC",
-    "ToolTip": "Tempora nobis autem expedita adipisci et ut.",
+    "Id": 184,
+    "Name": "Quitzon-Swift",
+    "ToolTip": "Iusto omnis ullam in qui ratione.",
     "Deleted": true,
-    "Rank": 936,
-    "Type": "facilis",
-    "ColorBlock": 458,
-    "IconHint": "maiores",
+    "Rank": 155,
+    "Type": "culpa",
+    "ColorBlock": 288,
+    "IconHint": "provident",
     "Selected": false,
-    "LastChanged": "2017-09-11T14:19:11.3211603+02:00",
+    "LastChanged": "2006-03-10T12:15:28.227618+01:00",
     "ChildItems": [
       {
-        "Id": 227,
-        "Name": "Cummings LLC",
-        "ToolTip": "Possimus temporibus perspiciatis minus.",
-        "Deleted": false,
-        "Rank": 644,
-        "Type": "ut",
-        "ColorBlock": 138,
-        "IconHint": "aliquid",
+        "Id": 947,
+        "Name": "Jakubowski Inc and Sons",
+        "ToolTip": "Quia necessitatibus mollitia.",
+        "Deleted": true,
+        "Rank": 195,
+        "Type": "libero",
+        "ColorBlock": 414,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2008-08-26T14:19:11.3211603+02:00",
+        "LastChanged": "2023-01-14T12:15:28.227618+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quibusdam",
-        "Hidden": false,
-        "FullName": "Franz Okuneva"
+        "ExtraInfo": "provident",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Mrs. Wendy Morar III"
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "quisquam",
-    "Hidden": false,
-    "FullName": "Brent Windler"
+    "ExtraInfo": "rerum",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Prof. Leann Louisa Lubowitz DVM"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 715,
-    "Name": "Wunsch-Kemmer",
-    "ToolTip": "Adipisci labore in tenetur consequuntur sed.",
-    "Deleted": false,
-    "Rank": 311,
-    "Type": "possimus",
-    "ColorBlock": 828,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "2005-05-24T14:19:11.3211603+02:00",
+    "Id": 548,
+    "Name": "Miller, Lubowitz and Douglas",
+    "ToolTip": "Odit ut exercitationem debitis aut quo laborum.",
+    "Deleted": true,
+    "Rank": 424,
+    "Type": "soluta",
+    "ColorBlock": 457,
+    "IconHint": "porro",
+    "Selected": false,
+    "LastChanged": "2014-04-24T12:15:28.2286168+02:00",
     "ChildItems": [
       {
-        "Id": 805,
-        "Name": "Gorczany, Hilll and DuBuque",
-        "ToolTip": "Accusamus assumenda ullam est libero.",
-        "Deleted": false,
-        "Rank": 129,
-        "Type": "ut",
-        "ColorBlock": 370,
-        "IconHint": "tempore",
+        "Id": 222,
+        "Name": "Reilly-Emard",
+        "ToolTip": "Voluptate magnam.",
+        "Deleted": true,
+        "Rank": 86,
+        "Type": "est",
+        "ColorBlock": 616,
+        "IconHint": "repellendus",
         "Selected": true,
-        "LastChanged": "2006-01-16T14:19:11.3211603+01:00",
+        "LastChanged": "2015-08-15T12:15:28.2296174+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "et",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "corrupti",
         "Hidden": false,
-        "FullName": "Dr. Paula Jaskolski MD",
+        "FullName": "Ms. Aleen Jacobson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 926
+            "FieldLength": 836
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "quam",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Mrs. Hilbert Haleigh Lesch PhD",
+    "FullName": "Rodrigo Hand PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 442
+        "FieldLength": 342
       }
     }
   }

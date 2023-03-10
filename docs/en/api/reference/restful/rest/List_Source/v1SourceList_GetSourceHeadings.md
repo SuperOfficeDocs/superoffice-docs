@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 267,
-    "Name": "Pagac, Schroeder and Johns",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "Rank": 302,
-    "UdListDefinitionId": 895,
+    "HeadingId": 239,
+    "Name": "Pfannerstill-Hayes",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "Rank": 762,
+    "UdListDefinitionId": 298,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 588
+        "FieldType": "System.String",
+        "FieldLength": 434
       }
     }
   }

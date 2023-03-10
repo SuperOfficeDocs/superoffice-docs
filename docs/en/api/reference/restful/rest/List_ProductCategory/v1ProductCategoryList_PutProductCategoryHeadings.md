@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 662,
-    "Name": "Leffler-Schmeler",
-    "Tooltip": "et",
+    "HeadingId": 967,
+    "Name": "Larkin, Grimes and O'Keefe",
+    "Tooltip": "iure",
     "Deleted": false,
-    "Rank": 701,
-    "UdListDefinitionId": 768
+    "Rank": 624,
+    "UdListDefinitionId": 982
   },
   {
-    "HeadingId": 662,
-    "Name": "Leffler-Schmeler",
-    "Tooltip": "et",
+    "HeadingId": 967,
+    "Name": "Larkin, Grimes and O'Keefe",
+    "Tooltip": "iure",
     "Deleted": false,
-    "Rank": 701,
-    "UdListDefinitionId": 768
+    "Rank": 624,
+    "UdListDefinitionId": 982
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 547,
-    "Name": "Corwin LLC",
-    "Tooltip": "debitis",
-    "Deleted": false,
-    "Rank": 504,
-    "UdListDefinitionId": 310,
+    "HeadingId": 94,
+    "Name": "Hermiston LLC",
+    "Tooltip": "inventore",
+    "Deleted": true,
+    "Rank": 498,
+    "UdListDefinitionId": 740,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 413
+        "FieldType": "System.String",
+        "FieldLength": 334
       }
     }
   }

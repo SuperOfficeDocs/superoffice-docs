@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hermiston LLC"
+  "ApplicationName": "Lang, Streich and Mayer"
 }
 ```
 
@@ -95,20 +95,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "atque",
-    "Value": "est",
-    "RecordId": 599,
-    "CreatedDate": "1995-10-29T14:19:03.5602728+01:00",
-    "UpdatedDate": "2000-01-29T14:19:03.5602728+01:00",
-    "UpdatedBy": "consequatur",
-    "CreatedBy": "maiores",
-    "TableName": "Emmerich, Heaney and Hegmann",
+    "Key": "dolor",
+    "Value": "aut",
+    "RecordId": 514,
+    "CreatedDate": "2008-02-09T12:15:19.1707485+01:00",
+    "UpdatedDate": "2005-08-14T12:15:19.1707485+02:00",
+    "UpdatedBy": "explicabo",
+    "CreatedBy": "aspernatur",
+    "TableName": "Homenick Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 439
+        "FieldLength": 770
       }
     }
   }

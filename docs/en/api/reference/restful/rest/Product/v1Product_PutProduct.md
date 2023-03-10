@@ -143,55 +143,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 24,
-  "ERPProductKey": "voluptatem",
-  "ERPPriceListKey": "quae",
-  "Name": "Wuckert Inc and Sons",
-  "Description": "Reactive reciprocal system engine",
-  "Code": "tempore",
-  "PriceUnit": "excepturi",
-  "QuantityUnit": "id",
+  "ProductId": 25,
+  "ERPProductKey": "quia",
+  "ERPPriceListKey": "voluptas",
+  "Name": "Cruickshank Inc and Sons",
+  "Description": "Front-line asynchronous benchmark",
+  "Code": "autem",
+  "PriceUnit": "adipisci",
+  "QuantityUnit": "possimus",
   "IsSubscription": false,
-  "SubscriptionUnit": "facere",
-  "DefaultSubscriptionQuantity": 23197.868,
-  "ItemNumber": "1869349",
+  "SubscriptionUnit": "maiores",
+  "DefaultSubscriptionQuantity": 10950.196,
+  "ItemNumber": "892553",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "iste",
-  "ProductTypeKey": "doloribus",
-  "VAT": 9408.268,
-  "VATInfo": "quo",
-  "UnitCost": 9420.804,
-  "UnitMinimumPrice": 12811.792,
-  "UnitListPrice": 24103.594,
+  "ProductFamilyKey": "enim",
+  "ProductTypeKey": "repellat",
+  "VAT": 27682.622,
+  "VATInfo": "ut",
+  "UnitCost": 1118.838,
+  "UnitMinimumPrice": 18706.845999999998,
+  "UnitListPrice": 25911.912,
   "InAssortment": false,
-  "Supplier": "quia",
-  "SupplierCode": "nulla",
-  "Rights": "rerum",
-  "Rule": "neque",
+  "Supplier": "autem",
+  "SupplierCode": "sit",
+  "Rights": "temporibus",
+  "Rule": "eaque",
   "ExtraInfo": [
     {
-      "Name": "Armstrong, Murazik and Zulauf",
-      "Value": "est",
+      "Name": "Nicolas, O'Connell and Hudson",
+      "Value": "excepturi",
       "Type": "Image"
     },
     {
-      "Name": "Armstrong, Murazik and Zulauf",
-      "Value": "est",
+      "Name": "Nicolas, O'Connell and Hudson",
+      "Value": "excepturi",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "sequi",
-  "ExtraField1": "fugit",
-  "ExtraField2": "praesentium",
-  "ExtraField3": "vel",
-  "ExtraField4": "tempora",
-  "ExtraField5": "nemo",
-  "InStock": 12134.848
+  "RawExtraInfo": "quasi",
+  "ExtraField1": "excepturi",
+  "ExtraField2": "quo",
+  "ExtraField3": "provident",
+  "ExtraField4": "quas",
+  "ExtraField5": "quia",
+  "InStock": 7969.762
 }
 ```
 
@@ -202,73 +202,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 284,
-  "ERPProductKey": "quo",
-  "ERPPriceListKey": "quas",
-  "Name": "Dooley, Kulas and Baumbach",
-  "Description": "Programmable executive groupware",
-  "Code": "odio",
-  "PriceUnit": "doloremque",
-  "QuantityUnit": "reprehenderit",
+  "ProductId": 991,
+  "ERPProductKey": "beatae",
+  "ERPPriceListKey": "quia",
+  "Name": "Mohr Group",
+  "Description": "Enterprise-wide multi-state algorithm",
+  "Code": "officia",
+  "PriceUnit": "dolores",
+  "QuantityUnit": "quo",
   "IsSubscription": false,
-  "SubscriptionUnit": "animi",
-  "DefaultSubscriptionQuantity": 2237.676,
-  "ItemNumber": "960622",
+  "SubscriptionUnit": "omnis",
+  "DefaultSubscriptionQuantity": 3275.0299999999997,
+  "ItemNumber": "1931841",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ut",
-  "ProductTypeKey": "unde",
-  "VAT": 1889.802,
-  "VATInfo": "nam",
-  "UnitCost": 21257.922,
-  "UnitMinimumPrice": 28820.264,
-  "UnitListPrice": 16948.672,
-  "InAssortment": false,
-  "Supplier": "architecto",
-  "SupplierCode": "omnis",
-  "Rights": "quo",
-  "Rule": "assumenda",
+  "ProductFamilyKey": "a",
+  "ProductTypeKey": "ut",
+  "VAT": 25708.201999999997,
+  "VATInfo": "maxime",
+  "UnitCost": 1576.402,
+  "UnitMinimumPrice": 18550.146,
+  "UnitListPrice": 31318.061999999998,
+  "InAssortment": true,
+  "Supplier": "et",
+  "SupplierCode": "libero",
+  "Rights": "quia",
+  "Rule": "esse",
   "ExtraInfo": [
     {
-      "Name": "Mitchell-Murray",
-      "Value": "voluptates",
+      "Name": "Schuster Inc and Sons",
+      "Value": "autem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 824
+          "FieldType": "System.Int32",
+          "FieldLength": 653
         }
       }
     },
     {
-      "Name": "Mitchell-Murray",
-      "Value": "voluptates",
+      "Name": "Schuster Inc and Sons",
+      "Value": "autem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 824
+          "FieldType": "System.Int32",
+          "FieldLength": 653
         }
       }
     }
   ],
-  "RawExtraInfo": "est",
-  "ExtraField1": "quia",
-  "ExtraField2": "magnam",
-  "ExtraField3": "porro",
-  "ExtraField4": "optio",
-  "ExtraField5": "repellat",
-  "InStock": 15497.63,
+  "RawExtraInfo": "quae",
+  "ExtraField1": "consequatur",
+  "ExtraField2": "hic",
+  "ExtraField3": "deleniti",
+  "ExtraField4": "et",
+  "ExtraField5": "laboriosam",
+  "InStock": 21467.899999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 345
+      "FieldType": "System.Int32",
+      "FieldLength": 456
     }
   }
 }

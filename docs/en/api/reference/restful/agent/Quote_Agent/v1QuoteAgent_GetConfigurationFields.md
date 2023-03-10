@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 268,
-  "ConnectorName": "Swaniawski, Volkman and Brekke"
+  "ConnectionId": 804,
+  "ConnectorName": "Carter, Gerhold and Olson"
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "eos",
-    "Rank": 895,
-    "DisplayName": "Schowalter Group",
-    "DisplayDescription": "Multi-layered optimizing emulation",
+    "FieldKey": "placeat",
+    "Rank": 532,
+    "DisplayName": "Heller-Shanahan",
+    "DisplayDescription": "Synergistic bifurcated support",
     "FieldType": "Checkbox",
-    "ListName": "Barrows, Bruen and Hessel",
-    "DefaultValue": "et",
-    "MaxLength": 45,
+    "ListName": "Robel, Streich and Doyle",
+    "DefaultValue": "voluptas",
+    "MaxLength": 496,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 820
+        "FieldType": "System.Int32",
+        "FieldLength": 833
       }
     }
   }

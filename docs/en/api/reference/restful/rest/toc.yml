@@ -78,6 +78,8 @@ items:
     href: Attachment/v1AttachmentEntity_PostAttachmentEntity.md
   - name: POST Attachment/{id}/Content
     href: Attachment/v1AttachmentEntity_UploadAttachment.md
+  - name: POST Attachment/CopyFromCRMDocument/{id}
+    href: Attachment/v1AttachmentEntity_CopyFromCRMDocument.md
   - name: PUT Attachment/{id}
     href: Attachment/v1AttachmentEntity_PutAttachmentEntity.md
 - name: Batch

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 743,
-    "Name": "Stehr Group",
-    "ToolTip": "Praesentium est fugit velit qui.",
-    "Deleted": true,
-    "Rank": 635,
-    "Type": "quo",
-    "ColorBlock": 61,
-    "IconHint": "perferendis",
-    "Selected": true,
-    "LastChanged": "2016-10-11T14:19:11.1480931+02:00",
+    "Id": 896,
+    "Name": "Rippin-Parker",
+    "ToolTip": "Et exercitationem ut hic sapiente quia id.",
+    "Deleted": false,
+    "Rank": 491,
+    "Type": "delectus",
+    "ColorBlock": 436,
+    "IconHint": "nihil",
+    "Selected": false,
+    "LastChanged": "1996-03-02T12:15:27.9126317+01:00",
     "ChildItems": [
       {
-        "Id": 638,
-        "Name": "Huel, Murazik and Denesik",
-        "ToolTip": "Quis aliquam aliquid doloribus eveniet.",
+        "Id": 4,
+        "Name": "Berge, Glover and Weissnat",
+        "ToolTip": "Ad asperiores omnis assumenda ut maxime.",
         "Deleted": false,
-        "Rank": 71,
-        "Type": "voluptas",
-        "ColorBlock": 532,
-        "IconHint": "est",
+        "Rank": 509,
+        "Type": "corrupti",
+        "ColorBlock": 897,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2019-09-29T14:19:11.1480931+02:00",
+        "LastChanged": "2017-10-05T12:15:27.9126317+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Calista Little"
+        "ExtraInfo": "dolorem",
+        "StyleHint": "sint",
+        "Hidden": true,
+        "FullName": "Prof. Ladarius Fahey Jr."
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "enim",
+    "ExtraInfo": "velit",
+    "StyleHint": "ullam",
     "Hidden": false,
-    "FullName": "Cordelia Bednar"
+    "FullName": "Cierra Kihn"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 220,
-    "Name": "Morissette Inc and Sons",
-    "ToolTip": "Voluptates autem error omnis.",
-    "Deleted": false,
-    "Rank": 665,
-    "Type": "aliquam",
-    "ColorBlock": 807,
-    "IconHint": "sit",
+    "Id": 913,
+    "Name": "Abernathy-Wiegand",
+    "ToolTip": "Nostrum sit perferendis tempora delectus quia tenetur ullam.",
+    "Deleted": true,
+    "Rank": 702,
+    "Type": "adipisci",
+    "ColorBlock": 275,
+    "IconHint": "deleniti",
     "Selected": false,
-    "LastChanged": "2017-04-15T14:19:11.1480931+02:00",
+    "LastChanged": "1996-04-09T12:15:27.9146216+02:00",
     "ChildItems": [
       {
-        "Id": 615,
-        "Name": "Trantow-Dicki",
-        "ToolTip": "Est quo nulla mollitia ipsa et.",
-        "Deleted": false,
-        "Rank": 64,
-        "Type": "culpa",
-        "ColorBlock": 95,
-        "IconHint": "magni",
-        "Selected": true,
-        "LastChanged": "1996-04-05T14:19:11.1480931+02:00",
+        "Id": 216,
+        "Name": "Gutmann LLC",
+        "ToolTip": "Officia ut culpa sequi molestias totam.",
+        "Deleted": true,
+        "Rank": 248,
+        "Type": "itaque",
+        "ColorBlock": 849,
+        "IconHint": "soluta",
+        "Selected": false,
+        "LastChanged": "2000-08-03T12:15:27.9146216+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "maiores",
-        "Hidden": false,
-        "FullName": "Miss Delia Eladio Rodriguez",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "veniam",
+        "Hidden": true,
+        "FullName": "Eugene Jewess",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 157
+            "FieldLength": 787
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "et",
+    "ExtraInfo": "iste",
+    "StyleHint": "alias",
     "Hidden": false,
-    "FullName": "Ms. Sarai Troy Blick Jr.",
+    "FullName": "Jan Lebsack",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 44
+        "FieldLength": 870
       }
     }
   }

@@ -93,10 +93,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2017-01-11T14:19:02.9636535+01:00",
+  "ActivityStartTime": "2009-04-11T12:15:18.483761+02:00",
   "ContactCategories": [
-    881,
-    62
+    989,
+    105
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -110,26 +110,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 726,
+    "ContactId": 831,
     "Department": "",
-    "OrgNr": "1041773",
-    "Name": "Rodriguez Inc and Sons",
+    "OrgNr": "979727",
+    "Name": "Bayer Inc and Sons",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Kianna Ledner V",
+    "AssociateFullName": "Brando Koepp",
     "Action": "ActivityCompleted",
-    "ActionTime": "2007-05-29T14:19:02.9636535+02:00",
+    "ActionTime": "2002-05-09T12:15:18.4857711+02:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "D'Amore, Walsh and Brekke",
-    "ActionId": 510,
-    "PersonId": 419,
-    "ActivityPersonId": 947,
-    "AssociateId": 528,
+    "ActivityPersonName": "Connelly, Cartwright and Ferry",
+    "ActionId": 263,
+    "PersonId": 986,
+    "ActivityPersonId": 203,
+    "AssociateId": 893,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 30
+        "FieldLength": 417
       }
     }
   }

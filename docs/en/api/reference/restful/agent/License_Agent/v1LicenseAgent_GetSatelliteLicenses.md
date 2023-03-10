@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 498
+  "SatelliteId": 941
 }
 ```
 
@@ -91,30 +91,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hauck-Fahey",
-    "Description": "Synergistic cohesive circuit",
+    "Name": "Fay, Goodwin and Langworth",
+    "Description": "Synergized executive middleware",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 642,
-        "Tooltip": "beatae",
-        "CanAssign": true,
-        "Free": 190,
-        "InUse": 818,
+        "Unrestricted": true,
+        "Total": 514,
+        "Tooltip": "sunt",
+        "CanAssign": false,
+        "Free": 873,
+        "InUse": 180,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 58,
-        "Name": "Hartmann, Rohan and Dare",
-        "Description": "Balanced holistic hub",
-        "PrerequisiteModuleName": "Buckridge, Haag and Dibbert",
-        "SortOrder": 689,
-        "ExtraFlags": 765,
+        "ModuleLicenseId": 429,
+        "Name": "Dickens-Windler",
+        "Description": "Cross-group regional hub",
+        "PrerequisiteModuleName": "Murphy Group",
+        "SortOrder": 646,
+        "ExtraFlags": 296,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 680
+            "FieldType": "System.String",
+            "FieldLength": 181
           }
         }
       }
@@ -122,25 +122,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 326,
-        "Tooltip": "sint",
-        "CanAssign": true,
-        "Free": 12,
-        "InUse": 708,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 885,
-        "Name": "Roob LLC",
-        "Description": "Intuitive directional customer loyalty",
-        "PrerequisiteModuleName": "McDermott-Weimann",
-        "SortOrder": 528,
-        "ExtraFlags": 945,
+        "Total": 408,
+        "Tooltip": "voluptas",
+        "CanAssign": false,
+        "Free": 396,
+        "InUse": 310,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 831,
+        "Name": "Rohan, Donnelly and Jaskolski",
+        "Description": "Proactive bottom-line hub",
+        "PrerequisiteModuleName": "Bosco-O'Reilly",
+        "SortOrder": 600,
+        "ExtraFlags": 468,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 165
+            "FieldLength": 272
           }
         }
       }
@@ -150,35 +150,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 375
+        "FieldLength": 506
       }
     }
   },
   {
-    "Name": "Hauck-Fahey",
-    "Description": "Synergistic cohesive circuit",
+    "Name": "Fay, Goodwin and Langworth",
+    "Description": "Synergized executive middleware",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 642,
-        "Tooltip": "beatae",
-        "CanAssign": true,
-        "Free": 190,
-        "InUse": 818,
+        "Unrestricted": true,
+        "Total": 514,
+        "Tooltip": "sunt",
+        "CanAssign": false,
+        "Free": 873,
+        "InUse": 180,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 58,
-        "Name": "Hartmann, Rohan and Dare",
-        "Description": "Balanced holistic hub",
-        "PrerequisiteModuleName": "Buckridge, Haag and Dibbert",
-        "SortOrder": 689,
-        "ExtraFlags": 765,
+        "ModuleLicenseId": 429,
+        "Name": "Dickens-Windler",
+        "Description": "Cross-group regional hub",
+        "PrerequisiteModuleName": "Murphy Group",
+        "SortOrder": 646,
+        "ExtraFlags": 296,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 680
+            "FieldType": "System.String",
+            "FieldLength": 181
           }
         }
       }
@@ -186,25 +186,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 326,
-        "Tooltip": "sint",
-        "CanAssign": true,
-        "Free": 12,
-        "InUse": 708,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 885,
-        "Name": "Roob LLC",
-        "Description": "Intuitive directional customer loyalty",
-        "PrerequisiteModuleName": "McDermott-Weimann",
-        "SortOrder": 528,
-        "ExtraFlags": 945,
+        "Total": 408,
+        "Tooltip": "voluptas",
+        "CanAssign": false,
+        "Free": 396,
+        "InUse": 310,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 831,
+        "Name": "Rohan, Donnelly and Jaskolski",
+        "Description": "Proactive bottom-line hub",
+        "PrerequisiteModuleName": "Bosco-O'Reilly",
+        "SortOrder": 600,
+        "ExtraFlags": 468,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 165
+            "FieldLength": 272
           }
         }
       }
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 375
+        "FieldLength": 506
       }
     }
   }

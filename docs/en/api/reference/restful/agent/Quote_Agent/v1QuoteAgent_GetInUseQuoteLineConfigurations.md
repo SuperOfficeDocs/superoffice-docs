@@ -83,21 +83,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 251,
-    "FieldName": "Leffler, Green and Muller",
-    "Label": "voluptatem",
-    "Tooltip": "autem",
-    "Editable": false,
-    "InUse": false,
+    "QuoteLineConfigurationId": 67,
+    "FieldName": "Beier, Koelpin and Huels",
+    "Label": "ea",
+    "Tooltip": "provident",
+    "Editable": true,
+    "InUse": true,
     "Mandatory": false,
-    "Rank": 664,
-    "RestrictEdit": false,
+    "Rank": 736,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 727
+        "FieldLength": 339
       }
     }
   }

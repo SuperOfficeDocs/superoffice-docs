@@ -86,7 +86,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,43 +96,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 882,
-  "TopicId": 6,
+  "ChatSessionId": 6,
+  "TopicId": 848,
   "User": null,
   "Person": null,
-  "CustomerAlias": "illo",
-  "CustomerHost": "necessitatibus",
-  "CustomerName": "Von-Hermann",
-  "CustomerEmail": "lisette.bergnaum@mohr.name",
-  "CustomerPhone": "1-645-604-1394",
+  "CustomerAlias": "et",
+  "CustomerHost": "voluptas",
+  "CustomerName": "Sawayn, Osinski and Trantow",
+  "CustomerEmail": "jakayla_johnson@morissette.info",
+  "CustomerPhone": "827-904-5109 x1138",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Ritchie Inc and Sons",
+  "CustomerCompanyName": "Stamm, Rau and Hahn",
   "Status": "Closed",
-  "FirstMessage": "recusandae",
-  "LastMessage": "explicabo",
-  "WhenRequested": "2016-06-11T14:19:10.0830028+02:00",
-  "WhenStarted": "2020-01-05T14:19:10.0830028+01:00",
-  "WhenEnded": "1998-07-27T14:19:10.0830028+02:00",
-  "WhenIdle": "2001-09-22T14:19:10.0830028+02:00",
-  "WhenFetched": "2006-05-19T14:19:10.0830028+02:00",
-  "SessionKey": "recusandae",
-  "InitialQueuePos": 603,
-  "AlertLevel": 650,
-  "Rank": 714,
+  "FirstMessage": "illo",
+  "LastMessage": "praesentium",
+  "WhenRequested": "2018-07-31T12:15:26.4976424+02:00",
+  "WhenStarted": "2007-03-23T12:15:26.4976424+01:00",
+  "WhenEnded": "2000-08-25T12:15:26.4976424+02:00",
+  "WhenIdle": "2020-01-17T12:15:26.4976424+01:00",
+  "WhenFetched": "2009-04-15T12:15:26.4976424+02:00",
+  "SessionKey": "porro",
+  "InitialQueuePos": 121,
+  "AlertLevel": 285,
+  "Rank": 455,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 402,
+  "ChatbotIsActive": true,
+  "Rating": 285,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 855
+      "FieldType": "System.Int32",
+      "FieldLength": 980
     }
   }
 }

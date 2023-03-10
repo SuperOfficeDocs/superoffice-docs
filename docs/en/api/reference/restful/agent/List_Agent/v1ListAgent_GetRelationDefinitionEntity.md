@@ -25,7 +25,7 @@ Gets a RelationDefinitionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetRelationDefinitionEntity?relationDefinitionEntityId=458
+POST /api/v1/Agents/List/GetRelationDefinitionEntity?relationDefinitionEntityId=947
 POST /api/v1/Agents/List/GetRelationDefinitionEntity?$select=name,department,category/id
 ```
 
@@ -83,12 +83,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 47,
-  "Name": "Rippin-Blanda",
-  "Tooltip": "repellendus",
-  "PassiveText": "quos",
+  "ReldefId": 426,
+  "Name": "Reichert, Gislason and Pacocha",
+  "Tooltip": "itaque",
+  "PassiveText": "atque",
   "Deleted": false,
-  "Rank": 776,
+  "Rank": 976,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -96,7 +96,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 917
+      "FieldLength": 802
     }
   }
 }

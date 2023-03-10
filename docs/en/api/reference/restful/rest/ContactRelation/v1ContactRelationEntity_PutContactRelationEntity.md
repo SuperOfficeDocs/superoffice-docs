@@ -113,28 +113,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 752,
-  "SourcePersonId": 799,
-  "DestinationContactId": 771,
-  "DestinationPersonId": 253,
-  "RelationId": 340,
-  "Comment": "ex",
-  "RelationDefinitionId": 177,
-  "Reversed": 4,
-  "UpdatedDate": "2022-06-24T14:19:10.240473+02:00",
-  "CreatedDate": "2020-04-02T14:19:10.240473+02:00",
+  "SourceContactId": 144,
+  "SourcePersonId": 898,
+  "DestinationContactId": 95,
+  "DestinationPersonId": 339,
+  "RelationId": 785,
+  "Comment": "tempora",
+  "RelationDefinitionId": 43,
+  "Reversed": 311,
+  "UpdatedDate": "2019-01-15T12:15:26.8016396+01:00",
+  "CreatedDate": "2017-02-11T12:15:26.8016396+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Dicki Inc and Sons",
-  "SourcePersonName": "Balistreri Inc and Sons",
-  "DestinationContactName": "Pfannerstill Inc and Sons",
-  "DestinationPersonName": "Mohr-Swaniawski",
-  "ActiveText": "ut",
-  "PassiveText": "ut"
+  "SourceContactName": "Hahn Group",
+  "SourcePersonName": "Halvorson, Metz and Donnelly",
+  "DestinationContactName": "Aufderhar-Mills",
+  "DestinationPersonName": "Kuvalis-Fisher",
+  "ActiveText": "eos",
+  "PassiveText": "doloremque"
 }
 ```
 
@@ -145,35 +145,35 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 450,
-  "SourcePersonId": 141,
-  "DestinationContactId": 216,
-  "DestinationPersonId": 137,
-  "RelationId": 352,
-  "Comment": "neque",
-  "RelationDefinitionId": 49,
-  "Reversed": 859,
-  "UpdatedDate": "2016-09-26T14:19:10.240473+02:00",
-  "CreatedDate": "2014-07-27T14:19:10.240473+02:00",
+  "SourceContactId": 326,
+  "SourcePersonId": 667,
+  "DestinationContactId": 477,
+  "DestinationPersonId": 71,
+  "RelationId": 864,
+  "Comment": "ea",
+  "RelationDefinitionId": 417,
+  "Reversed": 336,
+  "UpdatedDate": "2003-07-05T12:15:26.8036377+02:00",
+  "CreatedDate": "2004-12-14T12:15:26.8036377+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Stanton, Powlowski and Bayer",
-  "SourcePersonName": "Barrows-Bartell",
-  "DestinationContactName": "Harvey LLC",
-  "DestinationPersonName": "Ledner, Effertz and Ledner",
-  "ActiveText": "suscipit",
-  "PassiveText": "corrupti",
+  "SourceContactName": "Will, Mosciski and Borer",
+  "SourcePersonName": "Olson, Cremin and Stark",
+  "DestinationContactName": "Jaskolski, Quitzon and Strosin",
+  "DestinationPersonName": "Hane-Crist",
+  "ActiveText": "vel",
+  "PassiveText": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 378
+      "FieldLength": 361
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

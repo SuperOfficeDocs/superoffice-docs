@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gutkowski Group"
+  "Name": "McGlynn-Champlin"
 }
 ```
 
@@ -92,17 +92,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Muller LLC",
-    "SoPrimaryKey": 818,
-    "EntryName": "Sauer Inc and Sons",
-    "EntryIdentifier": "voluptatum",
-    "RuleDisplayName": "Nader-Schmitt",
+    "RuleName": "DuBuque-Sauer",
+    "SoPrimaryKey": 186,
+    "EntryName": "Koelpin Group",
+    "EntryIdentifier": "nihil",
+    "RuleDisplayName": "Labadie-Legros",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 942
+        "FieldType": "System.Int32",
+        "FieldLength": 868
       }
     }
   }

@@ -150,18 +150,18 @@ ContactEntity  updated.
 PATCH /api/v1/Contact/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "asperiores",
+    "path": "quod",
     "value": {}
   },
   {
     "op": "add",
-    "path": "asperiores",
+    "path": "quod",
     "value": {}
   }
 ]
@@ -174,157 +174,157 @@ HTTP/1.1 200 ContactEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 814,
-  "Name": "Robel-Kessler",
+  "ContactId": 433,
+  "Name": "Collins, Wilderman and Halvorson",
   "Department": "",
-  "OrgNr": "1446250",
-  "Number1": "840561",
-  "Number2": "984465",
-  "UpdatedDate": "2018-03-30T14:19:10.1935974+02:00",
-  "CreatedDate": "2022-09-16T14:19:10.1935974+02:00",
+  "OrgNr": "1169804",
+  "Number1": "1369043",
+  "Number2": "410232",
+  "UpdatedDate": "2007-04-23T12:15:26.7216391+02:00",
+  "CreatedDate": "2003-05-02T12:15:26.7216391+02:00",
   "Emails": [
     {
-      "Value": "repudiandae",
-      "StrippedValue": "nisi",
-      "Description": "Secured intermediate implementation",
+      "Value": "sint",
+      "StrippedValue": "earum",
+      "Description": "Reverse-engineered user-facing firmware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 845
+          "FieldType": "System.String",
+          "FieldLength": 387
         }
       }
     },
     {
-      "Value": "repudiandae",
-      "StrippedValue": "nisi",
-      "Description": "Secured intermediate implementation",
+      "Value": "sint",
+      "StrippedValue": "earum",
+      "Description": "Reverse-engineered user-facing firmware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 845
+          "FieldType": "System.String",
+          "FieldLength": 387
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 813,
-      "Name": "Buckridge Group",
-      "ToolTip": "Omnis cumque autem accusamus et.",
-      "Deleted": false,
-      "Rank": 364,
-      "Type": "non",
-      "ColorBlock": 866,
-      "IconHint": "ullam",
+      "Id": 306,
+      "Name": "Abbott Inc and Sons",
+      "ToolTip": "Itaque quibusdam et blanditiis pariatur sunt laudantium.",
+      "Deleted": true,
+      "Rank": 850,
+      "Type": "temporibus",
+      "ColorBlock": 424,
+      "IconHint": "veritatis",
       "Selected": true,
-      "LastChanged": "2012-07-09T14:19:10.1935974+02:00",
+      "LastChanged": "2014-10-16T12:15:26.7256389+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nobis",
-      "StyleHint": "qui",
-      "Hidden": false,
-      "FullName": "Mckenna Bailey",
+      "ExtraInfo": "culpa",
+      "StyleHint": "nam",
+      "Hidden": true,
+      "FullName": "Mrs. Rocio Hammes PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 676
+          "FieldType": "System.String",
+          "FieldLength": 60
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "numquam",
-      "StrippedValue": "aut",
-      "Description": "Distributed didactic solution",
+      "Value": "labore",
+      "StrippedValue": "veniam",
+      "Description": "Organic bi-directional adapter",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 479
+          "FieldType": "System.String",
+          "FieldLength": 560
         }
       }
     },
     {
-      "Value": "numquam",
-      "StrippedValue": "aut",
-      "Description": "Distributed didactic solution",
+      "Value": "labore",
+      "StrippedValue": "veniam",
+      "Description": "Organic bi-directional adapter",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 479
+          "FieldType": "System.String",
+          "FieldLength": 560
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "non",
-      "StrippedValue": "est",
-      "Description": "Multi-channelled modular instruction set",
+      "Value": "perspiciatis",
+      "StrippedValue": "voluptatum",
+      "Description": "Customizable foreground hierarchy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 316
+          "FieldLength": 618
         }
       }
     },
     {
-      "Value": "non",
-      "StrippedValue": "est",
-      "Description": "Multi-channelled modular instruction set",
+      "Value": "perspiciatis",
+      "StrippedValue": "voluptatum",
+      "Description": "Customizable foreground hierarchy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 316
+          "FieldLength": 618
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "et",
-      "StrippedValue": "necessitatibus",
-      "Description": "Organic analyzing definition",
+      "Value": "unde",
+      "StrippedValue": "sint",
+      "Description": "Progressive mobile initiative",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 845
+          "FieldLength": 178
         }
       }
     },
     {
-      "Value": "et",
-      "StrippedValue": "necessitatibus",
-      "Description": "Organic analyzing definition",
+      "Value": "unde",
+      "StrippedValue": "sint",
+      "Description": "Progressive mobile initiative",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 845
+          "FieldLength": 178
         }
       }
     }
   ],
-  "Description": "Switchable cohesive moderator",
+  "Description": "Ergonomic responsive hub",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -333,100 +333,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "est",
-      "PersonId": 88,
-      "Mrmrs": "quas",
-      "Firstname": "Patricia",
-      "Lastname": "Weimann",
-      "MiddleName": "Cassin Inc and Sons",
-      "Title": "minima",
-      "Description": "Customizable exuding encryption",
-      "Email": "rory@weimann.info",
-      "FullName": "Mrs. Verlie Wehner II",
-      "DirectPhone": "336-865-8063 x57004",
-      "FormalName": "Doyle, Ebert and Brekke",
-      "CountryId": 913,
-      "ContactId": 327,
-      "ContactName": "Koepp-Pollich",
-      "Retired": 586,
-      "Rank": 954,
-      "ActiveInterests": 816,
+      "Position": "voluptatem",
+      "PersonId": 934,
+      "Mrmrs": "perspiciatis",
+      "Firstname": "Junius",
+      "Lastname": "Borer",
+      "MiddleName": "Douglas LLC",
+      "Title": "facilis",
+      "Description": "Operative reciprocal capability",
+      "Email": "joannie@hirthe.name",
+      "FullName": "Dr. Wilford Gerhold",
+      "DirectPhone": "(818)330-8276",
+      "FormalName": "Hilpert LLC",
+      "CountryId": 142,
+      "ContactId": 873,
+      "ContactName": "Wilkinson-Vandervort",
+      "Retired": 895,
+      "Rank": 991,
+      "ActiveInterests": 679,
       "ContactDepartment": "",
-      "ContactCountryId": 483,
-      "ContactOrgNr": "522809",
-      "FaxPhone": "(502)398-8292 x0627",
-      "MobilePhone": "730.097.1008 x244",
-      "ContactPhone": "1-460-348-7790 x97773",
-      "AssociateName": "Daniel, O'Conner and Leffler",
-      "AssociateId": 357,
-      "UsePersonAddress": false,
-      "ContactFax": "nihil",
-      "Kanafname": "in",
-      "Kanalname": "autem",
-      "Post1": "quaerat",
-      "Post2": "debitis",
-      "Post3": "sed",
-      "EmailName": "vicenta@rath.info",
-      "ContactFullName": "Mariana Kunze",
-      "ActiveErpLinks": 339,
-      "TicketPriorityId": 931,
-      "SupportLanguageId": 503,
-      "SupportAssociateId": 698,
+      "ContactCountryId": 641,
+      "ContactOrgNr": "1072771",
+      "FaxPhone": "(583)816-1567 x735",
+      "MobilePhone": "(367)376-9780 x9723",
+      "ContactPhone": "031.301.3061",
+      "AssociateName": "King Group",
+      "AssociateId": 974,
+      "UsePersonAddress": true,
+      "ContactFax": "est",
+      "Kanafname": "consectetur",
+      "Kanalname": "ipsum",
+      "Post1": "corrupti",
+      "Post2": "odit",
+      "Post3": "vitae",
+      "EmailName": "jason@marvin.biz",
+      "ContactFullName": "Mrs. Kacey Ardith Bailey III",
+      "ActiveErpLinks": 848,
+      "TicketPriorityId": 697,
+      "SupportLanguageId": 183,
+      "SupportAssociateId": 114,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 862
+          "FieldType": "System.String",
+          "FieldLength": 93
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "qui",
+  "Kananame": "soluta",
   "Xstop": false,
-  "ActiveInterests": 59,
-  "GroupId": 253,
-  "ActiveStatusMonitorId": 727,
+  "ActiveInterests": 2,
+  "GroupId": 226,
+  "ActiveStatusMonitorId": 914,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 762,
-  "DbiAgentId": 474,
-  "DbiLastSyncronized": "2006-05-10T14:19:10.1935974+02:00",
-  "DbiKey": "sed",
-  "DbiLastModified": "2001-01-15T14:19:10.1935974+01:00",
+  "Deleted": 168,
+  "DbiAgentId": 544,
+  "DbiLastSyncronized": "1999-02-27T12:15:26.7396391+01:00",
+  "DbiKey": "qui",
+  "DbiLastModified": "2006-02-12T12:15:26.7396391+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 876,
-  "ActiveErpLinks": 879,
+  "Source": 422,
+  "ActiveErpLinks": 376,
   "BounceEmails": [
-    "rasheed@legros.com",
-    "minerva@hagenes.info"
+    "serena.wilderman@schimmel.info",
+    "jada.berge@blanda.us"
   ],
   "Domains": [
-    "sed",
-    "reprehenderit"
+    "pariatur",
+    "inventore"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Demetris Dach",
-    "SuperOffice:2": "1005330426"
+    "SuperOffice:1": "Prof. Brant Eichmann MD",
+    "SuperOffice:2": "795702790"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolore",
-    "ExtraFields2": "id"
+    "ExtraFields1": "neque",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "unde",
-    "CustomFields2": "tempora"
+    "CustomFields1": "eos",
+    "CustomFields2": "odit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 806
+      "FieldLength": 789
     }
   },
   "_Links": {

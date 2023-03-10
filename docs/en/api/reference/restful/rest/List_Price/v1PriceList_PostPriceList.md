@@ -97,16 +97,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 743,
-  "ERPPriceListKey": "fuga",
-  "QuoteConnectionId": 700,
-  "Name": "Corkery LLC",
-  "Description": "Fundamental zero tolerance interface",
-  "Currency": "perspiciatis",
-  "CurrencyName": "Kirlin-Considine",
-  "ValidFrom": "2020-08-22T14:19:11.3367817+02:00",
-  "ValidTo": "2007-11-19T14:19:11.3367817+01:00",
-  "IsActive": true
+  "PriceListId": 616,
+  "ERPPriceListKey": "nobis",
+  "QuoteConnectionId": 405,
+  "Name": "Kuvalis-Jaskolski",
+  "Description": "De-engineered contextually-based emulation",
+  "Currency": "velit",
+  "CurrencyName": "Hauck-Kozey",
+  "ValidFrom": "2016-11-07T12:15:28.2536194+01:00",
+  "ValidTo": "2018-06-19T12:15:28.2536194+02:00",
+  "IsActive": false
 }
 ```
 
@@ -117,27 +117,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 787,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 580,
-  "Name": "Larson-Bauch",
-  "Description": "Pre-emptive system-worthy challenge",
-  "Currency": "natus",
-  "CurrencyName": "O'Connell Group",
-  "ValidFrom": "2005-10-19T14:19:11.3367817+02:00",
-  "ValidTo": "2010-07-30T14:19:11.3367817+02:00",
-  "IsActive": true,
+  "PriceListId": 456,
+  "ERPPriceListKey": "doloribus",
+  "QuoteConnectionId": 567,
+  "Name": "Weissnat LLC",
+  "Description": "Customer-focused stable array",
+  "Currency": "ut",
+  "CurrencyName": "Harber LLC",
+  "ValidFrom": "2014-09-14T12:15:28.2546171+02:00",
+  "ValidTo": "2002-10-06T12:15:28.2546171+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 568
+      "FieldLength": 45
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

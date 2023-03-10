@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Lynch, Boehm and Mosciski",
-  "Context": "dignissimos"
+  "ProviderName": "Lehner Inc and Sons",
+  "Context": "explicabo"
 }
 ```
 
@@ -102,19 +102,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Runte, Rath and Cummings",
-    "DisplayTooltip": "praesentium",
-    "DisplayType": "iure",
+    "DisplayName": "Mayer, Rohan and Barton",
+    "DisplayTooltip": "est",
+    "DisplayType": "libero",
     "CanOrderBy": false,
-    "Name": "Schiller Inc and Sons",
-    "CanRestrictBy": true,
-    "RestrictionType": "ex",
-    "RestrictionListName": "Mayer, Stracke and Jaskolski",
-    "IsVisible": false,
-    "ExtraInfo": "quae",
-    "Width": "tenetur",
-    "IconHint": "non",
-    "HeadingIconHint": "enim"
+    "Name": "Yundt, Hirthe and Grimes",
+    "CanRestrictBy": false,
+    "RestrictionType": "labore",
+    "RestrictionListName": "Hodkiewicz-Wuckert",
+    "IsVisible": true,
+    "ExtraInfo": "officia",
+    "Width": "rem",
+    "IconHint": "omnis",
+    "HeadingIconHint": "voluptas"
   }
 ]
 ```

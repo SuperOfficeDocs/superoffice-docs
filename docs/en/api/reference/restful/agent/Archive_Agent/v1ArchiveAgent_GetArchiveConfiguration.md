@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kihn-Kautzer",
-  "ProviderName": "Windler Inc and Sons"
+  "GuiName": "Hermiston, Walsh and Connelly",
+  "ProviderName": "Christiansen-Schuster"
 }
 ```
 
@@ -96,68 +96,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Kutch, Bechtelar and Schmitt",
-      "DisplayTooltip": "expedita",
-      "DisplayType": "aut",
+      "DisplayName": "Buckridge-Watsica",
+      "DisplayTooltip": "eveniet",
+      "DisplayType": "voluptatum",
       "CanOrderBy": false,
-      "Name": "Zieme-Weber",
-      "CanRestrictBy": true,
-      "RestrictionType": "consequatur",
-      "RestrictionListName": "Greenholt Group",
+      "Name": "Gutmann-Schultz",
+      "CanRestrictBy": false,
+      "RestrictionType": "impedit",
+      "RestrictionListName": "Ryan LLC",
       "IsVisible": false,
-      "ExtraInfo": "ut",
-      "Width": "explicabo",
-      "IconHint": "sint",
-      "HeadingIconHint": "culpa"
+      "ExtraInfo": "omnis",
+      "Width": "corrupti",
+      "IconHint": "et",
+      "HeadingIconHint": "aut"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 128,
-      "Name": "Morissette Inc and Sons",
-      "ToolTip": "Vel dolores ipsam quis dolore natus velit.",
+      "Id": 219,
+      "Name": "McGlynn LLC",
+      "ToolTip": "Autem consequatur est.",
       "Deleted": false,
-      "Rank": 359,
-      "Type": "facere",
-      "ColorBlock": 680,
-      "IconHint": "in",
+      "Rank": 792,
+      "Type": "eum",
+      "ColorBlock": 497,
+      "IconHint": "aspernatur",
       "Selected": true,
-      "LastChanged": "2002-10-04T14:19:02.7281785+02:00",
+      "LastChanged": "2009-05-04T12:15:18.1457635+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sint",
-      "StyleHint": "ut",
+      "ExtraInfo": "pariatur",
+      "StyleHint": "laudantium",
       "Hidden": true,
-      "FullName": "Ms. Elvera Mitchell",
+      "FullName": "Sierra Boyer PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 109
+          "FieldLength": 389
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Ratke-Parisian",
+      "Name": "Ward, Casper and Christiansen",
       "Direction": "ASC"
     },
     {
-      "Name": "Ratke-Parisian",
+      "Name": "Ward, Casper and Christiansen",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "odit",
+  "OwnerKeys": "vitae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 502
+      "FieldLength": 74
     }
   }
 }

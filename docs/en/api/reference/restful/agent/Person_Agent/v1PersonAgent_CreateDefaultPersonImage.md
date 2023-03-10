@@ -55,7 +55,7 @@ OK
 POST /api/v1/Agents/Person/CreateDefaultPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -65,7 +65,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 270,
+  "PersonId": 995,
   "ImageData": "GIF89....File contents as raw bytes..."
 }
 ```

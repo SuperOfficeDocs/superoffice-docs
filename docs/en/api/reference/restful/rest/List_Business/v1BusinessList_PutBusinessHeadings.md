@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 435,
-    "Name": "Cruickshank, Marvin and Kertzmann",
-    "Tooltip": "magni",
+    "HeadingId": 884,
+    "Name": "Smitham-Osinski",
+    "Tooltip": "tempora",
     "Deleted": false,
-    "Rank": 214,
-    "UdListDefinitionId": 684
+    "Rank": 330,
+    "UdListDefinitionId": 897
   },
   {
-    "HeadingId": 435,
-    "Name": "Cruickshank, Marvin and Kertzmann",
-    "Tooltip": "magni",
+    "HeadingId": 884,
+    "Name": "Smitham-Osinski",
+    "Tooltip": "tempora",
     "Deleted": false,
-    "Rank": 214,
-    "UdListDefinitionId": 684
+    "Rank": 330,
+    "UdListDefinitionId": 897
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 593,
-    "Name": "Mante-Sawayn",
-    "Tooltip": "similique",
+    "HeadingId": 927,
+    "Name": "Streich-Von",
+    "Tooltip": "natus",
     "Deleted": false,
-    "Rank": 600,
-    "UdListDefinitionId": 114,
+    "Rank": 402,
+    "UdListDefinitionId": 786,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 365
+        "FieldLength": 979
       }
     }
   }

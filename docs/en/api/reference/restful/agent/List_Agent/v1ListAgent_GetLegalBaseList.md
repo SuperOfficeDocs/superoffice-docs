@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBaseList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 514,
-    "Name": "Schumm-Klocko",
-    "Tooltip": "quia",
-    "Rank": 2,
-    "Key": "eos",
-    "Deleted": false,
+    "LegalBaseId": 603,
+    "Name": "Gutmann, Dickens and Pouros",
+    "Tooltip": "officia",
+    "Rank": 758,
+    "Key": "qui",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 341
+        "FieldType": "System.String",
+        "FieldLength": 867
       }
     }
   }

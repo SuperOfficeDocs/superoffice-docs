@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Emmerich, Schroeder and Hettinger",
-  "AdditionalInfo": "debitis",
-  "SearchValue": "qui"
+  "Name": "Brown, Lemke and Kub",
+  "AdditionalInfo": "illum",
+  "SearchValue": "ut"
 }
 ```
 
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 311,
-    "Name": "Leffler-Dickinson",
-    "ToolTip": "Natus quam numquam magnam placeat quo delectus.",
+    "Id": 394,
+    "Name": "Howe-Spinka",
+    "ToolTip": "Molestias voluptatum totam voluptas quibusdam.",
     "Deleted": false,
-    "Rank": 776,
-    "Type": "a",
-    "ColorBlock": 59,
-    "IconHint": "enim",
+    "Rank": 313,
+    "Type": "numquam",
+    "ColorBlock": 936,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2017-11-23T14:19:03.7332495+01:00",
+    "LastChanged": "1999-07-11T12:15:19.3887504+02:00",
     "ChildItems": [
       {
-        "Id": 15,
-        "Name": "Schmitt-Reichel",
-        "ToolTip": "Recusandae rerum dolores maiores earum excepturi voluptatem.",
-        "Deleted": false,
-        "Rank": 501,
-        "Type": "omnis",
-        "ColorBlock": 166,
-        "IconHint": "quis",
-        "Selected": false,
-        "LastChanged": "1997-08-21T14:19:03.7332495+02:00",
+        "Id": 185,
+        "Name": "Hilpert, Mante and Rath",
+        "ToolTip": "Sit laborum alias ipsum autem.",
+        "Deleted": true,
+        "Rank": 441,
+        "Type": "itaque",
+        "ColorBlock": 794,
+        "IconHint": "numquam",
+        "Selected": true,
+        "LastChanged": "2005-10-15T12:15:19.3887504+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Ms. Elliot Pauline Hodkiewicz Jr.",
+        "ExtraInfo": "quo",
+        "StyleHint": "voluptatibus",
+        "Hidden": false,
+        "FullName": "Maxine Haag",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 742
+            "FieldLength": 861
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "ut",
+    "ExtraInfo": "deleniti",
+    "StyleHint": "nulla",
     "Hidden": false,
-    "FullName": "Pansy Calista Hand DVM",
+    "FullName": "Ms. Mallie Stanley Harvey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 147
+        "FieldType": "System.String",
+        "FieldLength": 992
       }
     }
   }

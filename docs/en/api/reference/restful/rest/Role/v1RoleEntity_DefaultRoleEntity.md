@@ -70,7 +70,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,24 +80,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 112,
-  "Name": "Nienow Inc and Sons",
-  "Tooltip": "id",
+  "RoleId": 395,
+  "Name": "Mitchell, Hamill and Leuschke",
+  "Tooltip": "quo",
   "RoleType": "Anonymous",
-  "Deleted": 322,
-  "Rank": 248,
-  "Created": "1996-02-05T14:19:10.6467484+01:00",
-  "UseCategories": 967,
+  "Deleted": 501,
+  "Rank": 68,
+  "Created": "2012-03-01T12:15:27.203632+01:00",
+  "UseCategories": 300,
   "CreatedBy": null,
-  "Updated": "1998-05-02T14:19:10.6467484+02:00",
+  "Updated": "2011-11-26T12:15:27.203632+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldType": "System.String",
+      "FieldLength": 63
     }
   }
 }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 366,
-    "Name": "Jones Group",
-    "ToolTip": "Eveniet et nobis est.",
-    "Deleted": true,
-    "Rank": 400,
-    "Type": "consequuntur",
-    "ColorBlock": 806,
-    "IconHint": "corrupti",
+    "Id": 535,
+    "Name": "Raynor Inc and Sons",
+    "ToolTip": "Et harum rerum id quasi.",
+    "Deleted": false,
+    "Rank": 115,
+    "Type": "amet",
+    "ColorBlock": 18,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2011-06-30T14:19:11.430529+02:00",
+    "LastChanged": "1999-04-11T12:15:28.3846152+02:00",
     "ChildItems": [
       {
-        "Id": 39,
-        "Name": "Schaden, Ryan and Koelpin",
-        "ToolTip": "Necessitatibus aut enim laudantium aut ut.",
-        "Deleted": true,
-        "Rank": 867,
-        "Type": "dolorem",
-        "ColorBlock": 913,
-        "IconHint": "eos",
-        "Selected": true,
-        "LastChanged": "2005-07-27T14:19:11.430529+02:00",
+        "Id": 101,
+        "Name": "Cronin LLC",
+        "ToolTip": "Iste eligendi.",
+        "Deleted": false,
+        "Rank": 672,
+        "Type": "corporis",
+        "ColorBlock": 330,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2018-10-22T12:15:28.3846152+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "rerum",
+        "ExtraInfo": "maiores",
+        "StyleHint": "veritatis",
         "Hidden": false,
-        "FullName": "Mr. Scottie Katrine Schuster DVM"
+        "FullName": "Timmy Marvin"
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "doloribus",
+    "ExtraInfo": "laborum",
+    "StyleHint": "animi",
     "Hidden": false,
-    "FullName": "Mrs. Elisa O'Hara PhD"
+    "FullName": "Larissa Lindgren"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 398,
-    "Name": "Bauch Inc and Sons",
-    "ToolTip": "Nostrum iusto odit delectus.",
+    "Id": 529,
+    "Name": "Ledner Group",
+    "ToolTip": "Dolore dolores aspernatur.",
     "Deleted": false,
-    "Rank": 969,
-    "Type": "blanditiis",
-    "ColorBlock": 75,
-    "IconHint": "cupiditate",
+    "Rank": 987,
+    "Type": "debitis",
+    "ColorBlock": 823,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2003-12-18T14:19:11.430529+01:00",
+    "LastChanged": "2001-04-07T12:15:28.3866157+02:00",
     "ChildItems": [
       {
-        "Id": 873,
-        "Name": "Cummerata-Wyman",
-        "ToolTip": "Distinctio impedit nam sunt non ut dolorem.",
-        "Deleted": false,
-        "Rank": 492,
-        "Type": "provident",
-        "ColorBlock": 211,
-        "IconHint": "beatae",
-        "Selected": false,
-        "LastChanged": "2010-03-07T14:19:11.430529+01:00",
+        "Id": 937,
+        "Name": "Dicki-Kohler",
+        "ToolTip": "Vero voluptatem et ullam.",
+        "Deleted": true,
+        "Rank": 181,
+        "Type": "cumque",
+        "ColorBlock": 212,
+        "IconHint": "in",
+        "Selected": true,
+        "LastChanged": "2016-07-15T12:15:28.3866157+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "dolorum",
-        "Hidden": false,
-        "FullName": "Miss Guy Padberg DDS",
+        "ExtraInfo": "aut",
+        "StyleHint": "dignissimos",
+        "Hidden": true,
+        "FullName": "Prof. Cornelius Birdie Rolfson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 953
+            "FieldLength": 571
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "repellat",
-    "Hidden": false,
-    "FullName": "Izaiah Denesik",
+    "ExtraInfo": "eos",
+    "StyleHint": "porro",
+    "Hidden": true,
+    "FullName": "Mrs. Donnell Rogahn V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 50
+        "FieldLength": 439
       }
     }
   }

@@ -78,30 +78,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TabOrderId": 359,
-    "TabName": "Spinka, Dietrich and Gutmann",
-    "Order": "dolores",
-    "AssociateId": 610,
+    "TabOrderId": 795,
+    "TabName": "Sauer-Casper",
+    "Order": "velit",
+    "AssociateId": 817,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 578
+        "FieldType": "System.String",
+        "FieldLength": 240
       }
     }
   },
   {
-    "TabOrderId": 359,
-    "TabName": "Spinka, Dietrich and Gutmann",
-    "Order": "dolores",
-    "AssociateId": 610,
+    "TabOrderId": 795,
+    "TabName": "Sauer-Casper",
+    "Order": "velit",
+    "AssociateId": 817,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 578
+        "FieldType": "System.String",
+        "FieldLength": 240
       }
     }
   }

@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 310,
-  "Type": "reprehenderit"
+  "Id": 776,
+  "Type": "quis"
 }
 ```
 
@@ -104,27 +104,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 958,
-    "Rank": 326,
-    "DefaultTask": 328,
-    "DefaultTaskText": "non",
-    "IsVisual": true,
-    "LastGenerated": "2003-02-08T14:19:04.0782101+01:00",
-    "Description": "Business-focused upward-trending attitude",
-    "Name": "Waters Group",
-    "StatusMonitorId": 87,
-    "PictureId": 530,
+    "OwnerTable": 726,
+    "Rank": 155,
+    "DefaultTask": 640,
+    "DefaultTaskText": "suscipit",
+    "IsVisual": false,
+    "LastGenerated": "2022-05-28T12:15:20.0137369+02:00",
+    "Description": "Innovative interactive complexity",
+    "Name": "Hackett-Predovic",
+    "StatusMonitorId": 858,
+    "PictureId": 185,
     "NeedsUpdate": false,
     "Deleted": false,
-    "NumMatches": 344,
-    "NumNeedUpdate": 919,
-    "GenerationStart": "2008-05-29T14:19:04.0782101+02:00",
+    "NumMatches": 98,
+    "NumNeedUpdate": 234,
+    "GenerationStart": "2011-12-15T12:15:20.0137369+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 339
+        "FieldType": "System.String",
+        "FieldLength": 1002
       }
     }
   }

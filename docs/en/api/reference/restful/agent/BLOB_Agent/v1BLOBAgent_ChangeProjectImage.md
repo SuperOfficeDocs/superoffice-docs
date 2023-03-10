@@ -70,8 +70,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 824,
-  "BlobId": 18
+  "ProjectId": 202,
+  "BlobId": 676
 }
 ```
 

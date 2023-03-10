@@ -25,7 +25,7 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=83
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=104
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 711,
-  "PlainMessage": "laboriosam",
-  "HtmlMessage": "iusto",
-  "SmsMessage": "eum",
-  "Description": "Multi-tiered 24 hour complexity",
-  "Subject": "error",
-  "FolderId": 821,
-  "HeaderField": "consequatur",
-  "Design": "voluptates",
+  "ShipmentMessageId": 754,
+  "PlainMessage": "sit",
+  "HtmlMessage": "praesentium",
+  "SmsMessage": "dolorem",
+  "Description": "Multi-layered background framework",
+  "Subject": "quibusdam",
+  "FolderId": 202,
+  "HeaderField": "esse",
+  "Design": "officiis",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Vision-oriented real-time collaboration",
-  "AccessKey": "consequatur",
-  "DocumentMessage": 577,
-  "Registered": "2011-09-15T14:19:03.7176242+02:00",
-  "RegisteredAssociateId": 591,
-  "Updated": "2006-05-24T14:19:03.7176242+02:00",
-  "UpdatedAssociateId": 622,
-  "UpdatedCount": 403,
+  "RegisterViews": false,
+  "InlineImages": true,
+  "LongDescription": "Managed logistical website",
+  "AccessKey": "saepe",
+  "DocumentMessage": 854,
+  "Registered": "2009-08-09T12:15:19.3747456+02:00",
+  "RegisteredAssociateId": 800,
+  "Updated": "2008-08-18T12:15:19.3747456+02:00",
+  "UpdatedAssociateId": 195,
+  "UpdatedCount": 624,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 535
+      "FieldLength": 73
     }
   }
 }

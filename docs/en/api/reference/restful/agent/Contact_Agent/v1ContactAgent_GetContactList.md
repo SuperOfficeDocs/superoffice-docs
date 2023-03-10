@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,36 +103,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 755,
-    "Name": "Beahan Inc and Sons",
-    "OrgNr": "1238940",
+    "ContactId": 2,
+    "Name": "Reilly-Hoppe",
+    "OrgNr": "1203011",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "molestias",
-    "DirectPhone": "112.397.2176 x859",
-    "AssociateId": 898,
-    "CountryId": 59,
-    "EmailAddress": "janelle_bins@boehmglover.co.uk",
-    "Kananame": "aut",
-    "EmailAddressName": "jaquelin.bogan@bogan.co.uk",
+    "City": "sed",
+    "DirectPhone": "1-645-858-1449",
+    "AssociateId": 926,
+    "CountryId": 496,
+    "EmailAddress": "mario.bauch@dare.name",
+    "Kananame": "qui",
+    "EmailAddressName": "josie@bogan.name",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Mr. Remington Maida Dickinson",
+    "AssociateFullName": "Prof. Monserrate Lillie Walsh",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "vel",
-    "FullName": "Mrs. Walker Pfannerstill",
+    "FormattedAddress": "natus",
+    "FullName": "Judd Hauck",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 347,
-    "Number1": "449491",
-    "Number2": "1204723",
+    "ActiveErpLinks": 965,
+    "Number1": "338691",
+    "Number2": "526896",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldLength": 737
       }
     }
   }

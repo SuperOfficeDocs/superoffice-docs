@@ -92,7 +92,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 882,
-  "ColumnId": 989,
-  "FieldDefault": "odio",
-  "FieldHeight": 564,
-  "FieldLabel": "ut",
-  "FieldLeft": 202,
-  "FieldTop": 236,
+  "UDefFieldId": 257,
+  "ColumnId": 612,
+  "FieldDefault": "fugiat",
+  "FieldHeight": 525,
+  "FieldLabel": "est",
+  "FieldLeft": 110,
+  "FieldTop": 7,
   "FieldType": "Checkbox",
-  "FieldWidth": 135,
-  "FormatMask": "error",
+  "FieldWidth": 463,
+  "FormatMask": "nostrum",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 41,
-  "LabelLeft": 876,
-  "LabelTop": 510,
-  "LabelWidth": 943,
-  "LastVersionId": 848,
-  "ListTableId": 16,
+  "LabelHeight": 156,
+  "LabelLeft": 151,
+  "LabelTop": 422,
+  "LabelWidth": 436,
+  "LastVersionId": 763,
+  "ListTableId": 531,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 745,
-  "ProgId": "delectus",
-  "IsReadOnly": false,
-  "ShortLabel": "expedita",
-  "TabOrder": 520,
-  "TextLength": 491,
-  "Tooltip": "consequatur",
-  "UdefIdentity": 495,
-  "UDListDefinitionId": 362,
+  "Page1LineNo": 65,
+  "ProgId": "quidem",
+  "IsReadOnly": true,
+  "ShortLabel": "ratione",
+  "TabOrder": 431,
+  "TextLength": 661,
+  "Tooltip": "repellendus",
+  "UdefIdentity": 841,
+  "UDListDefinitionId": 936,
   "Justification": "Center",
-  "Version": 205,
-  "TemplateVariableName": "Connelly-Rice",
-  "HasBeenPublished": false,
-  "MdoListName": "Batz, Ledner and Gutmann",
+  "Version": 277,
+  "TemplateVariableName": "West Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "McDermott LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 443
+      "FieldType": "System.Int32",
+      "FieldLength": 83
     }
   }
 }

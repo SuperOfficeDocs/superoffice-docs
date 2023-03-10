@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/PaymentType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 649,
-  "Name": "Gerhold-Satterfield",
-  "Tooltip": "nihil",
-  "Deleted": false,
-  "UdListDefinitionId": 661,
-  "Rank": 153,
+  "Id": 334,
+  "Name": "Stanton LLC",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "UdListDefinitionId": 543,
+  "Rank": 682,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 835
+      "FieldType": "System.Int32",
+      "FieldLength": 248
     }
   }
 }

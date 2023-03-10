@@ -98,60 +98,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 588,
-  "Name": "Bins-Schinner",
+  "TicketPriorityId": 860,
+  "Name": "Rice, Towne and Larson",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 333,
+  "SortOrder": 142,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 806,
-  "MonStart": "2003-08-31T14:19:11.660135+02:00",
-  "MonStop": "2010-12-11T14:19:11.660135+01:00",
-  "TueStart": "2016-07-09T14:19:11.660135+02:00",
-  "TueStop": "2010-05-05T14:19:11.660135+02:00",
-  "WedStart": "1998-09-04T14:19:11.660135+02:00",
-  "WedStop": "2002-10-25T14:19:11.660135+02:00",
-  "ThuStart": "2011-06-04T14:19:11.660135+02:00",
-  "ThuStop": "2015-08-06T14:19:11.660135+02:00",
-  "FriStart": "2007-03-19T14:19:11.660135+01:00",
-  "FriStop": "2010-02-17T14:19:11.660135+01:00",
-  "SatStart": "1997-02-17T14:19:11.660135+01:00",
-  "SatStop": "2010-02-17T14:19:11.660135+01:00",
-  "SunStart": "2010-01-15T14:19:11.660135+01:00",
-  "SunStop": "2020-04-11T14:19:11.660135+02:00",
+  "Deadline": 188,
+  "MonStart": "2002-02-21T12:15:28.5596149+01:00",
+  "MonStop": "2012-01-14T12:15:28.5596149+01:00",
+  "TueStart": "1996-02-11T12:15:28.5596149+01:00",
+  "TueStop": "2003-07-26T12:15:28.5596149+02:00",
+  "WedStart": "2016-10-17T12:15:28.5596149+02:00",
+  "WedStop": "2013-01-08T12:15:28.5596149+01:00",
+  "ThuStart": "2004-12-15T12:15:28.5596149+01:00",
+  "ThuStop": "2017-04-30T12:15:28.5596149+02:00",
+  "FriStart": "2017-08-10T12:15:28.5596149+02:00",
+  "FriStop": "2017-05-29T12:15:28.5596149+02:00",
+  "SatStart": "2021-03-20T12:15:28.5596149+01:00",
+  "SatStop": "2001-11-10T12:15:28.5596149+01:00",
+  "SunStart": "2021-10-14T12:15:28.5596149+02:00",
+  "SunStop": "2016-05-09T12:15:28.5596149+02:00",
   "NonDates": [
-    "itaque",
-    "amet"
+    "facere",
+    "officia"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 213,
-      "AlertLevel": 489,
-      "AlertTimeout": 537,
-      "Action": 203,
-      "DelegateTo": 328,
-      "ScriptId": 513,
-      "EmailTo": "irving@ankundingokuneva.com",
-      "SmsTo": "dicta",
-      "ReplyTemplateIdCustomer": 849,
-      "ReplyTemplateIdUser": 304,
-      "ReplyTemplateIdCatmast": 180,
-      "ReplyTemplateIdEmail": 510,
-      "RtiCustomerSms": 71,
-      "ReplyTemplateIdUserSms": 547,
-      "ReplyTemplateIdCatmastSms": 546,
-      "ReplyTemplateIdSms": 842,
+      "TicketAlertId": 764,
+      "AlertLevel": 506,
+      "AlertTimeout": 749,
+      "Action": 797,
+      "DelegateTo": 299,
+      "ScriptId": 818,
+      "EmailTo": "johan@nicolasleannon.ca",
+      "SmsTo": "ratione",
+      "ReplyTemplateIdCustomer": 721,
+      "ReplyTemplateIdUser": 151,
+      "ReplyTemplateIdCatmast": 386,
+      "ReplyTemplateIdEmail": 17,
+      "RtiCustomerSms": 573,
+      "ReplyTemplateIdUserSms": 477,
+      "ReplyTemplateIdCatmastSms": 219,
+      "ReplyTemplateIdSms": 306,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 30
+          "FieldType": "System.String",
+          "FieldLength": 599
         }
       }
     }
@@ -160,8 +160,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldType": "System.String",
+      "FieldLength": 298
     }
   }
 }

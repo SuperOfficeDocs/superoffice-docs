@@ -127,18 +127,18 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 10,
-  "IncludeProjectAppointments": false,
-  "StartTime": "2016-10-20T14:19:02.3262466+02:00",
-  "EndTime": "1996-04-27T14:19:02.3262466+02:00",
-  "Count": 724,
+  "PersonId": 546,
+  "IncludeProjectAppointments": true,
+  "StartTime": "2023-02-07T12:15:17.625771+01:00",
+  "EndTime": "2017-05-24T12:15:17.625771+02:00",
+  "Count": 809,
   "TaskIds": [
-    681,
-    600
+    571,
+    13
   ]
 }
 ```
@@ -151,53 +151,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 399,
-    "StartDate": "2012-08-16T14:19:02.3418722+02:00",
-    "EndDate": "2020-11-11T14:19:02.3418722+01:00",
+    "AppointmentId": 996,
+    "StartDate": "1997-11-27T12:15:17.6277714+01:00",
+    "EndDate": "2017-07-10T12:15:17.6277714+02:00",
     "Type": "BookingForChecklist",
-    "Task": "magnam",
-    "AssociateFullName": "Roslyn Corwin",
-    "ContactName": "Gutkowski-Braun",
-    "Description": "Operative bottom-line database",
-    "PersonFullName": "Dr. Anastasia Arjun Jaskolski",
-    "PersonId": 784,
-    "ContactId": 515,
-    "ProjectId": 520,
-    "ProjectName": "McClure, Champlin and Bednar",
-    "IsPublished": false,
-    "AssociateId": 354,
-    "ColorIndex": 265,
+    "Task": "itaque",
+    "AssociateFullName": "Esther Champlin",
+    "ContactName": "Kutch-Aufderhar",
+    "Description": "Assimilated neutral task-force",
+    "PersonFullName": "Ronny Kerluke",
+    "PersonId": 39,
+    "ContactId": 850,
+    "ProjectId": 594,
+    "ProjectName": "McClure-Ernser",
+    "IsPublished": true,
+    "AssociateId": 195,
+    "ColorIndex": 393,
     "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 643,
-    "PriorityName": "Kuhlman Inc and Sons",
+    "PriorityId": 253,
+    "PriorityName": "Witting, Schaefer and Kertzmann",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2001-04-18T14:19:02.3418722+02:00",
+    "IsBookingMain": true,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2010-01-07T12:15:17.6277714+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-08-26T14:19:02.3418722+02:00",
-    "RecurringEndDate": "2015-09-03T14:19:02.3418722+02:00",
-    "MotherId": 437,
-    "AssignedBy": 259,
-    "AssignedByFullName": "Kaycee Tod Ritchie III",
+    "RecurringStartDate": "2023-02-15T12:15:17.6277714+01:00",
+    "RecurringEndDate": "2016-01-29T12:15:17.6277714+01:00",
+    "MotherId": 748,
+    "AssignedBy": 660,
+    "AssignedByFullName": "Tony Hazle Cummerata I",
     "RejectReason": "",
-    "Location": "officia",
-    "AlarmLeadTime": "harum",
-    "SaleId": 171,
-    "SaleName": "Blanda Group",
-    "AssociateName": "Murray-Zulauf",
-    "CreatedDate": "2014-09-02T14:19:02.3418722+02:00",
-    "CreatedBy": "ex",
-    "CreatedByFullName": "Raleigh Gleason",
-    "CreatedByAssociateId": 694,
+    "Location": "est",
+    "AlarmLeadTime": "architecto",
+    "SaleId": 749,
+    "SaleName": "Morissette Inc and Sons",
+    "AssociateName": "Mohr LLC",
+    "CreatedDate": "1996-06-30T12:15:17.6277714+02:00",
+    "CreatedBy": "blanditiis",
+    "CreatedByFullName": "Joanny Collier",
+    "CreatedByAssociateId": 449,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 659
+        "FieldLength": 144
       }
     }
   }

@@ -95,8 +95,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "et",
-  "Key": "ducimus",
+  "Section": "temporibus",
+  "Key": "est",
   "PreferenceDescription": null
 }
 ```
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 356,
-  "Section": "non",
-  "Key": "nesciunt",
-  "Name": "Kshlerin Inc and Sons",
+  "PrefDescId": 789,
+  "Section": "at",
+  "Key": "numquam",
+  "Name": "Miller LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-channelled tangible info-mediaries",
+  "Description": "Vision-oriented regional model",
   "IsBuiltin": false,
-  "TableName": "Corkery LLC",
-  "UserDefinedListId": 444,
-  "Rank": 291,
-  "SubGroup": "cumque",
-  "MinLevel": 498,
-  "MaxValue": 701,
-  "MinValue": 978,
+  "TableName": "Abshire-Jakubowski",
+  "UserDefinedListId": 79,
+  "Rank": 735,
+  "SubGroup": "dignissimos",
+  "MinLevel": 950,
+  "MaxValue": 897,
+  "MinValue": 358,
   "RequiredLicense": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 402
+      "FieldLength": 805
     }
   }
 }

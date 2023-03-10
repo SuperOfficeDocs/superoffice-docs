@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 750
+  "PersonId": 877
 }
 ```
 
@@ -98,24 +98,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 227,
-  "Name": "Ward LLC",
-  "PersonId": 779,
-  "Rank": 412,
-  "Tooltip": "illo",
+  "AssociateId": 806,
+  "Name": "Medhurst Inc and Sons",
+  "PersonId": 176,
+  "Rank": 3,
+  "Tooltip": "est",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 606,
-  "FullName": "Skylar Roob III",
-  "FormalName": "Kunde LLC",
+  "GroupIdx": 88,
+  "FullName": "Nella Bartoletti",
+  "FormalName": "Ondricka-Bechtelar",
   "Deleted": false,
-  "EjUserId": 360,
-  "UserName": "Bechtelar, Predovic and Pouros",
+  "EjUserId": 512,
+  "UserName": "Moen LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldLength": 681
     }
   }
 }

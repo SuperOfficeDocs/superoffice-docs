@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 706,
-  "Name": "Yost Inc and Sons",
-  "Tooltip": "modi",
-  "Deleted": true,
-  "UdListDefinitionId": 501,
+  "Id": 157,
+  "Name": "Senger Inc and Sons",
+  "Tooltip": "sint",
+  "Deleted": false,
+  "UdListDefinitionId": 754,
   "Rank": 815,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldLength": 618
     }
   }
 }

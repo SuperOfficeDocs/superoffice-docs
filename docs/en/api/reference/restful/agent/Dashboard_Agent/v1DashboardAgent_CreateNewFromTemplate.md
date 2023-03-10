@@ -89,24 +89,24 @@ OK
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 275,
-  "Caption": "et",
-  "Description": "Virtual tertiary framework",
-  "SelectionId": 511,
+  "DashboardTileId": 570,
+  "Caption": "iste",
+  "Description": "Inverse zero tolerance infrastructure",
+  "SelectionId": 417,
   "VisibleFor": [
     {
-      "VisibleId": 124,
+      "VisibleId": 790,
       "Visibility": "All",
-      "DisplayValue": "repellendus"
+      "DisplayValue": "unde"
     },
     {
-      "VisibleId": 124,
+      "VisibleId": 790,
       "Visibility": "All",
-      "DisplayValue": "repellendus"
+      "DisplayValue": "unde"
     }
   ]
 }
@@ -119,64 +119,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 522,
-  "Caption": "est",
-  "Description": "Enhanced encompassing encoding",
-  "ChartName": "McGlynn-Eichmann",
-  "ChartId": "ipsam",
-  "IsDefault": false,
-  "AssociateId": 367,
-  "GroupId": 16,
-  "SelectionId": 425,
-  "Config": "pariatur",
+  "DashboardTileId": 341,
+  "Caption": "ea",
+  "Description": "Advanced user-facing conglomeration",
+  "ChartName": "Klocko Group",
+  "ChartId": "eum",
+  "IsDefault": true,
+  "AssociateId": 746,
+  "GroupId": 629,
+  "SelectionId": 614,
+  "Config": "inventore",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Nienow-Pacocha",
-      "Description": "Pre-emptive disintermediate application",
+      "Name": "Stracke LLC",
+      "Description": "Synergized intermediate help-desk",
       "Type": "Boolean",
-      "ListName": "Hoeger LLC",
+      "ListName": "Senger-Bednar",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "cum",
-      "DefaultDataOption": true,
+      "Value": "autem",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 574
+          "FieldType": "System.String",
+          "FieldLength": 425
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 705,
+      "VisibleId": 918,
       "Visibility": "All",
-      "DisplayValue": "odit",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 638
+          "FieldType": "System.Int32",
+          "FieldLength": 873
         }
       }
     },
     {
-      "VisibleId": 705,
+      "VisibleId": 918,
       "Visibility": "All",
-      "DisplayValue": "odit",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 638
+          "FieldType": "System.Int32",
+          "FieldLength": 873
         }
       }
     }
@@ -185,8 +185,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 986
+      "FieldType": "System.String",
+      "FieldLength": 752
     }
   }
 }

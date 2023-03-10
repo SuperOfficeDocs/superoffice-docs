@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 624,
-  "Select": "eos"
+  "SelectionId": 617,
+  "Select": "occaecati"
 }
 ```
 
@@ -96,23 +96,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Batz-Schumm",
-    "PrimaryKey": 211,
+    "EntityName": "Mante-Moen",
+    "PrimaryKey": 731,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "voluptatem",
-        "TooltipHint": "omnis",
-        "LinkHint": "et"
+        "DisplayValue": "omnis",
+        "TooltipHint": "aut",
+        "LinkHint": "dolor"
       }
     },
-    "LinkHint": "voluptas",
-    "StyleHint": "labore",
+    "LinkHint": "eos",
+    "StyleHint": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldLength": 870
       }
     }
   }

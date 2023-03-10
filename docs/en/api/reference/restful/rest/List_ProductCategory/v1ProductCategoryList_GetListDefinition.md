@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 404,
-  "Name": "Smitham, Emard and Dickinson",
-  "Tooltip": "ipsam",
-  "Deleted": true,
-  "Rank": 737,
+  "Id": 338,
+  "Name": "Lueilwitz, Stoltenberg and Oberbrunner",
+  "Tooltip": "consequuntur",
+  "Deleted": false,
+  "Rank": 760,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "corporis",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 474
+      "FieldType": "System.String",
+      "FieldLength": 577
     }
   },
   "_Links": {

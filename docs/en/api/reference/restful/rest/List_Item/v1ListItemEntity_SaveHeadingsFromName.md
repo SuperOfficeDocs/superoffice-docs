@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 202,
-    "Name": "Abshire LLC",
-    "Tooltip": "at",
-    "Deleted": true,
-    "Rank": 58,
-    "UdListDefinitionId": 407
+    "HeadingId": 801,
+    "Name": "Stokes, Hintz and Brekke",
+    "Tooltip": "eum",
+    "Deleted": false,
+    "Rank": 948,
+    "UdListDefinitionId": 168
   },
   {
-    "HeadingId": 202,
-    "Name": "Abshire LLC",
-    "Tooltip": "at",
-    "Deleted": true,
-    "Rank": 58,
-    "UdListDefinitionId": 407
+    "HeadingId": 801,
+    "Name": "Stokes, Hintz and Brekke",
+    "Tooltip": "eum",
+    "Deleted": false,
+    "Rank": 948,
+    "UdListDefinitionId": 168
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 863,
-    "Name": "Terry, Grant and Beahan",
-    "Tooltip": "totam",
+    "HeadingId": 437,
+    "Name": "Graham-Hilll",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 235,
-    "UdListDefinitionId": 501,
+    "Rank": 566,
+    "UdListDefinitionId": 328,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 500
+        "FieldLength": 752
       }
     }
   }

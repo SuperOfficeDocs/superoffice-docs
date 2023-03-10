@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 657,
-  "Name": "Cole-Beer",
-  "Tooltip": "sapiente",
-  "Deleted": true,
-  "Rank": 403,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 943,
+  "Name": "Towne, Langosh and Wehner",
+  "Tooltip": "aliquid",
+  "Deleted": false,
+  "Rank": 929,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "mollitia",
-  "InUseByUserDefinedFields": true
+  "ListType": "dolorum",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 607,
-  "Name": "Stiedemann-Hoeger",
-  "Tooltip": "non",
-  "Deleted": true,
-  "Rank": 318,
+  "Id": 95,
+  "Name": "Corwin, Bailey and Klein",
+  "Tooltip": "quasi",
+  "Deleted": false,
+  "Rank": 728,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quis",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "provident",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldLength": 170
     }
   }
 }

@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 873,
-    "Name": "Cummerata LLC",
-    "Tooltip": "nesciunt",
+    "HeadingId": 593,
+    "Name": "Dare-Harvey",
+    "Tooltip": "incidunt",
     "Deleted": true,
-    "Rank": 639,
-    "UdListDefinitionId": 823
+    "Rank": 267,
+    "UdListDefinitionId": 696
   },
   {
-    "HeadingId": 873,
-    "Name": "Cummerata LLC",
-    "Tooltip": "nesciunt",
+    "HeadingId": 593,
+    "Name": "Dare-Harvey",
+    "Tooltip": "incidunt",
     "Deleted": true,
-    "Rank": 639,
-    "UdListDefinitionId": 823
+    "Rank": 267,
+    "UdListDefinitionId": 696
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 574,
-    "Name": "Weber, Ruecker and Mitchell",
-    "Tooltip": "delectus",
+    "HeadingId": 134,
+    "Name": "Jacobs-Doyle",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 255,
-    "UdListDefinitionId": 217,
+    "Rank": 587,
+    "UdListDefinitionId": 518,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 419
+        "FieldLength": 372
       }
     }
   }

@@ -133,12 +133,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "voluptas",
+    "path": "minima",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptas",
+    "path": "minima",
     "value": {}
   }
 ]
@@ -151,33 +151,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 221,
-  "PlainMessage": "nihil",
-  "HtmlMessage": "error",
-  "SmsMessage": "debitis",
-  "Description": "Re-engineered coherent methodology",
-  "Subject": "voluptatibus",
-  "FolderId": 93,
-  "HeaderField": "ex",
-  "Design": "saepe",
+  "ShipmentMessageId": 284,
+  "PlainMessage": "velit",
+  "HtmlMessage": "omnis",
+  "SmsMessage": "culpa",
+  "Description": "Cross-group mobile hub",
+  "Subject": "neque",
+  "FolderId": 758,
+  "HeaderField": "unde",
+  "Design": "quae",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Reactive national info-mediaries",
-  "AccessKey": "accusamus",
-  "DocumentMessage": 100,
-  "Registered": "1997-10-09T14:19:10.7873511+02:00",
-  "RegisteredAssociateId": 638,
-  "Updated": "2003-02-24T14:19:10.7873511+01:00",
-  "UpdatedAssociateId": 332,
-  "UpdatedCount": 155,
+  "InlineImages": false,
+  "LongDescription": "Optional real-time parallelism",
+  "AccessKey": "excepturi",
+  "DocumentMessage": 14,
+  "Registered": "1999-04-11T12:15:27.4016314+02:00",
+  "RegisteredAssociateId": 462,
+  "Updated": "2003-11-06T12:15:27.4016314+01:00",
+  "UpdatedAssociateId": 853,
+  "UpdatedCount": 227,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 586
+      "FieldLength": 948
     }
   },
   "_Links": {

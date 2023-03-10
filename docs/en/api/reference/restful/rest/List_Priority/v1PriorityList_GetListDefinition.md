@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 581,
-  "Name": "Larson LLC",
-  "Tooltip": "et",
+  "Id": 86,
+  "Name": "Wuckert-Bradtke",
+  "Tooltip": "voluptate",
   "Deleted": false,
-  "Rank": 969,
+  "Rank": 749,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "at",
-  "InUseByUserDefinedFields": false,
+  "ListType": "velit",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 417
+      "FieldType": "System.Int32",
+      "FieldLength": 443
     }
   },
   "_Links": {

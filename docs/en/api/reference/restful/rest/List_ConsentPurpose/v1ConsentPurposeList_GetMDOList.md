@@ -26,7 +26,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=natus
+GET /api/v1/List/ConsentPurpose/MDOItems?query=velit
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 568,
-    "Name": "Huels Inc and Sons",
-    "ToolTip": "Nobis porro ipsum asperiores et.",
-    "Deleted": false,
-    "Rank": 878,
-    "Type": "ipsam",
+    "Id": 607,
+    "Name": "Cummerata LLC",
+    "ToolTip": "Qui sapiente.",
+    "Deleted": true,
+    "Rank": 351,
+    "Type": "quaerat",
     "ChildItems": [
       {
-        "Id": 891,
-        "Name": "Murazik, Wolff and Kirlin",
-        "ToolTip": "Perferendis quidem dolorem molestiae dicta.",
-        "Deleted": false,
-        "Rank": 627,
-        "Type": "ipsam",
+        "Id": 475,
+        "Name": "Bartoletti Group",
+        "ToolTip": "Sit quod blanditiis.",
+        "Deleted": true,
+        "Rank": 46,
+        "Type": "velit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eos",
-        "ColorBlock": 871,
-        "ExtraInfo": "nostrum",
-        "StyleHint": "enim",
-        "FullName": "Vito Doyle I",
+        "IconHint": "nam",
+        "ColorBlock": 175,
+        "ExtraInfo": "laborum",
+        "StyleHint": "veniam",
+        "FullName": "Ms. Eliezer Schaefer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 635
+            "FieldType": "System.String",
+            "FieldLength": 987
           }
         }
       }
     ],
-    "IconHint": "sunt",
-    "ColorBlock": 234,
-    "ExtraInfo": "et",
-    "StyleHint": "dicta",
-    "FullName": "Mr. Brown Tracey Kshlerin DDS",
+    "IconHint": "adipisci",
+    "ColorBlock": 21,
+    "ExtraInfo": "laborum",
+    "StyleHint": "id",
+    "FullName": "Elva Orlo Wisoky DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 420
+        "FieldLength": 914
       }
     }
   }

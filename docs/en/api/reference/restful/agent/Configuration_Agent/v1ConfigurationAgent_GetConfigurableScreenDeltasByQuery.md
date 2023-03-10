@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 300,
-    "Name": "Ziemann, Keebler and Leffler",
-    "Description": "Realigned explicit workforce",
-    "DeltaJson": "voluptatum",
+    "ConfigurableScreenDeltaId": 22,
+    "Name": "Gleason Inc and Sons",
+    "Description": "Open-source maximized hub",
+    "DeltaJson": "dignissimos",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "unde",
-    "UpdatedDate": "2014-06-08T14:19:02.9324043+02:00",
-    "CreatedDate": "2013-10-12T14:19:02.9324043+02:00",
+    "RecipeId": "eos",
+    "UpdatedDate": "2011-02-03T12:15:18.4257597+01:00",
+    "CreatedDate": "2017-04-22T12:15:18.4257597+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      207,
-      89
+      110,
+      289
     ],
-    "AppliesToKey": "earum",
+    "AppliesToKey": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 506
+        "FieldType": "System.String",
+        "FieldLength": 832
       }
     }
   }

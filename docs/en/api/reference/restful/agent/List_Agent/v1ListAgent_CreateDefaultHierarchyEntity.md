@@ -75,46 +75,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 344,
+  "HierarchyId": 43,
   "Domain": "Dashboards",
-  "Name": "Green LLC",
-  "Fullname": "iure",
-  "ParentId": 679,
+  "Name": "Okuneva, Bogan and Beier",
+  "Fullname": "occaecati",
+  "ParentId": 493,
   "Children": [
     {
-      "HierarchyId": 614,
+      "HierarchyId": 898,
       "Domain": "Dashboards",
-      "Name": "Paucek Inc and Sons",
-      "Fullname": "neque",
-      "ParentId": 384,
+      "Name": "Koch, Rohan and Waters",
+      "Fullname": "accusamus",
+      "ParentId": 414,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2014-08-20T14:19:03.6863742+02:00",
-      "RegisteredAssociateId": 724,
-      "Updated": "2014-12-20T14:19:03.6863742+01:00",
-      "UpdatedAssociateId": 840,
+      "Registered": "2018-10-16T12:15:19.3267465+02:00",
+      "RegisteredAssociateId": 329,
+      "Updated": "2015-11-09T12:15:19.3267465+01:00",
+      "UpdatedAssociateId": 492,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 851
+          "FieldType": "System.Int32",
+          "FieldLength": 374
         }
       }
     }
   ],
-  "Registered": "2005-01-03T14:19:03.6863742+01:00",
-  "RegisteredAssociateId": 830,
-  "Updated": "2017-02-19T14:19:03.6863742+01:00",
-  "UpdatedAssociateId": 558,
+  "Registered": "2001-01-01T12:15:19.3267465+01:00",
+  "RegisteredAssociateId": 457,
+  "Updated": "2019-02-11T12:15:19.3267465+01:00",
+  "UpdatedAssociateId": 951,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 74
+      "FieldType": "System.Int32",
+      "FieldLength": 499
     }
   }
 }

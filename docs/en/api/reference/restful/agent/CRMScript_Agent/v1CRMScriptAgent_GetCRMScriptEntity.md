@@ -27,7 +27,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=545
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=688
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 962,
-  "UniqueIdentifier": "non",
-  "Name": "Boyer, Leuschke and Spencer",
-  "Description": "Cross-group non-volatile strategy",
-  "IncludeId": "aliquam",
-  "HierarchyId": 167,
-  "Source": "a",
-  "Registered": "2022-01-23T14:19:03.0730293+01:00",
-  "RegisteredAssociateId": 800,
-  "Updated": "1997-08-22T14:19:03.0730293+02:00",
-  "UpdatedAssociateId": 163,
+  "EjscriptId": 403,
+  "UniqueIdentifier": "corrupti",
+  "Name": "Waters Group",
+  "Description": "Enhanced global toolset",
+  "IncludeId": "ratione",
+  "HierarchyId": 857,
+  "Source": "quas",
+  "Registered": "2012-07-27T12:15:18.6257589+02:00",
+  "RegisteredAssociateId": 620,
+  "Updated": "2013-04-07T12:15:18.6257589+02:00",
+  "UpdatedAssociateId": 811,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldType": "System.String",
+      "FieldLength": 290
     }
   }
 }

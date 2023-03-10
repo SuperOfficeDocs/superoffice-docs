@@ -127,15 +127,15 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 28,
-  "IncludeProjectAppointments": false,
-  "StartTime": "2013-01-05T14:19:02.7125533+01:00",
-  "EndTime": "1998-10-03T14:19:02.7125533+02:00",
-  "Count": 390,
+  "PersonId": 950,
+  "IncludeProjectAppointments": true,
+  "StartTime": "2008-09-17T12:15:18.1267643+02:00",
+  "EndTime": "2015-06-10T12:15:18.1267643+02:00",
+  "Count": 248,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -148,53 +148,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 844,
-    "StartDate": "2007-11-17T14:19:02.7125533+01:00",
-    "EndDate": "2015-04-11T14:19:02.7125533+02:00",
+    "AppointmentId": 763,
+    "StartDate": "2005-04-20T12:15:18.1277639+02:00",
+    "EndDate": "2008-03-19T12:15:18.1277639+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quia",
-    "AssociateFullName": "Miss Deven Leann Eichmann DVM",
-    "ContactName": "Marquardt, Torphy and McLaughlin",
-    "Description": "Secured full-range task-force",
-    "PersonFullName": "Cullen Barton III",
-    "PersonId": 200,
-    "ContactId": 425,
-    "ProjectId": 576,
-    "ProjectName": "Kerluke, Spinka and Dicki",
+    "Task": "dignissimos",
+    "AssociateFullName": "Eve Misael Durgan Jr.",
+    "ContactName": "Olson-Greenfelder",
+    "Description": "Right-sized radical migration",
+    "PersonFullName": "Dashawn Jammie Mayer II",
+    "PersonId": 685,
+    "ContactId": 307,
+    "ProjectId": 937,
+    "ProjectName": "Zemlak LLC",
     "IsPublished": false,
-    "AssociateId": 109,
-    "ColorIndex": 523,
+    "AssociateId": 416,
+    "ColorIndex": 878,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 378,
-    "PriorityName": "Larkin LLC",
+    "PriorityId": 528,
+    "PriorityName": "Cormier, Kovacek and Dibbert",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2004-04-02T14:19:02.7125533+02:00",
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2018-10-04T12:15:18.1287636+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-10-01T14:19:02.7125533+02:00",
-    "RecurringEndDate": "2008-03-08T14:19:02.7125533+01:00",
-    "MotherId": 614,
-    "AssignedBy": 845,
-    "AssignedByFullName": "Jeanette Weissnat",
+    "RecurringStartDate": "2014-12-05T12:15:18.1287636+01:00",
+    "RecurringEndDate": "1996-03-23T12:15:18.1287636+01:00",
+    "MotherId": 1002,
+    "AssignedBy": 479,
+    "AssignedByFullName": "Dr. Ewell Lee Brakus",
     "RejectReason": "",
-    "Location": "maiores",
-    "AlarmLeadTime": "dolor",
-    "SaleId": 315,
-    "SaleName": "Romaguera-Kling",
-    "AssociateName": "Beier-Gulgowski",
-    "CreatedDate": "2002-12-05T14:19:02.7125533+01:00",
-    "CreatedBy": "ipsam",
-    "CreatedByFullName": "Dr. Brown Marcus Fay",
-    "CreatedByAssociateId": 68,
+    "Location": "sapiente",
+    "AlarmLeadTime": "est",
+    "SaleId": 983,
+    "SaleName": "Kuvalis Inc and Sons",
+    "AssociateName": "Block-Okuneva",
+    "CreatedDate": "2018-05-19T12:15:18.1287636+02:00",
+    "CreatedBy": "est",
+    "CreatedByFullName": "Americo Hane",
+    "CreatedByAssociateId": 583,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -202,7 +202,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 464
+        "FieldLength": 776
       }
     }
   }

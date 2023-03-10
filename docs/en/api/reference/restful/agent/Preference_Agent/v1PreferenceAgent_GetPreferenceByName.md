@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "aut",
-  "PrefKey": "eligendi",
+  "PrefSection": "cum",
+  "PrefKey": "exercitationem",
   "PrefLevel": "Database"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "delectus",
+  "RawValue": "repellendus",
   "Specification": null,
-  "DisplayValue": "magni",
-  "DisplayTooltip": "porro",
+  "DisplayValue": "at",
+  "DisplayTooltip": "id",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 363,
-  "PrefDescId": 175,
-  "TableName": "Kulas-Huel",
-  "UserPreferenceId": 310,
+  "TargetId": 920,
+  "PrefDescId": 427,
+  "TableName": "Williamson-Schaden",
+  "UserPreferenceId": 400,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 9
+      "FieldLength": 53
     }
   }
 }

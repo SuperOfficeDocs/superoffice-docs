@@ -28,7 +28,7 @@ Search the strings using Q parameter.
 
 ```http
 GET /api/v1/String?q=est
-GET /api/v1/String?isoLangCode=culpa
+GET /api/v1/String?isoLangCode=odio
 ```
 
 
@@ -63,7 +63,7 @@ OK
 GET /api/v1/String
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,7 +73,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "nam",
-  "similique"
+  "quos",
+  "vitae"
 ]
 ```

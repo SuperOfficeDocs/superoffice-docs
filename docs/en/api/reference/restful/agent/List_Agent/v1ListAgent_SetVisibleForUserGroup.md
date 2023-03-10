@@ -70,11 +70,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 757,
-  "ListItemId": 273,
+  "UdListDefinitionId": 177,
+  "ListItemId": 726,
   "UserGroupId": [
-    659,
-    836
+    950,
+    275
   ],
   "Enable": true
 }

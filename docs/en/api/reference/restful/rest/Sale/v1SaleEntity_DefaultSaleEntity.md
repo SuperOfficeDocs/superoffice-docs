@@ -107,7 +107,7 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 24 Jul 1997 14:19:10 G7T
+Last-Modified: Sat, 21 Apr 2001 12:15:27 G4T
 
 {
   "Appointment": null,
@@ -116,7 +116,7 @@ Last-Modified: Thu, 24 Jul 1997 14:19:10 G7T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "provident",
+  "SaleText": "repellendus",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Last-Modified: Thu, 24 Jul 1997 14:19:10 G7T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2012-07-31T14:19:10.6779731+02:00",
-  "Amount": 3785.872,
-  "SaleId": 805,
-  "Earning": 24084.79,
-  "EarningPercent": 19499.748,
-  "Heading": "sit",
-  "Number": "850568",
-  "Probability": 409,
-  "CreatedDate": "2021-05-02T14:19:10.6779731+02:00",
-  "UpdatedDate": "1997-07-24T14:19:10.6779731+02:00",
+  "Saledate": "2009-06-02T12:15:27.245635+02:00",
+  "Amount": 15199.9,
+  "SaleId": 416,
+  "Earning": 4682.196,
+  "EarningPercent": 31252.248,
+  "Heading": "ullam",
+  "Number": "1030796",
+  "Probability": 469,
+  "CreatedDate": "1995-11-06T12:15:27.245635+01:00",
+  "UpdatedDate": "2001-04-21T12:15:27.245635+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 860,
+  "ActiveLinks": 1001,
   "Links": [
     {
-      "EntityName": "Jast, Kutch and Rau",
-      "Id": 321,
-      "Description": "Synergized contextually-based neural-net",
-      "ExtraInfo": "consequuntur",
-      "LinkId": 284,
+      "EntityName": "Steuber, Anderson and Kautzer",
+      "Id": 352,
+      "Description": "Synchronised foreground knowledge base",
+      "ExtraInfo": "tenetur",
+      "LinkId": 846,
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 210
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2014-04-11T12:15:27.245635+02:00",
+  "Postit": "aut",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2010-10-17T12:15:27.245635+02:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Mohr-D'Amore",
+      "Comment": "velit",
+      "StakeholderRoleId": 571,
+      "CountryId": 429,
+      "PersonId": 479,
+      "EmailDescription": "dolly@kessler.com",
+      "EmailId": 537,
+      "EmailAddress": "virgil_miller@lehnerhamill.uk",
+      "PhoneId": 759,
+      "ContactName": "Anderson-Kohler",
+      "ContactId": 326,
+      "SaleId": 16,
+      "Mrmrs": "soluta",
+      "Firstname": "Leora",
+      "MiddleName": "Reichert-Dietrich",
+      "Lastname": "Lynch",
+      "SaleStakeholderId": 436,
+      "Rank": 107,
+      "Phone": "491-148-1244 x246",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 174
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 252,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Ms. Germaine Fadel III",
+    "SuperOffice:2": "305405746"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "harum",
+    "ExtraFields2": "expedita"
+  },
+  "CustomFields": {
+    "CustomFields1": "molestiae",
+    "CustomFields2": "autem"
+  },
+  "PublishEventDate": "2010-12-01T12:15:27.2476323+01:00",
+  "PublishTo": "1999-12-10T12:15:27.2476323+01:00",
+  "PublishFrom": "2010-01-31T12:15:27.2476323+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 552,
+      "Visibility": "All",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 884
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2005-08-14T14:19:10.6779731+02:00",
-  "Postit": "nostrum",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2008-03-13T14:19:10.6779731+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Considine Group",
-      "Comment": "odio",
-      "StakeholderRoleId": 841,
-      "CountryId": 432,
-      "PersonId": 818,
-      "EmailDescription": "bertram.koss@champlin.co.uk",
-      "EmailId": 76,
-      "EmailAddress": "leslie.doyle@tremblaykilback.co.uk",
-      "PhoneId": 737,
-      "ContactName": "Koepp, Hegmann and Cremin",
-      "ContactId": 112,
-      "SaleId": 936,
-      "Mrmrs": "neque",
-      "Firstname": "Antwon",
-      "MiddleName": "Flatley Inc and Sons",
-      "Lastname": "Kutch",
-      "SaleStakeholderId": 153,
-      "Rank": 126,
-      "Phone": "288.109.3563 x40133",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 651
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 281,
-  "UserDefinedFields": {
-    "SuperOffice:1": "1858252206",
-    "SuperOffice:2": "147077856"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "eaque",
-    "ExtraFields2": "ut"
-  },
-  "CustomFields": {
-    "CustomFields1": "pariatur",
-    "CustomFields2": "et"
-  },
-  "PublishEventDate": "2014-09-05T14:19:10.6779731+02:00",
-  "PublishTo": "2013-06-03T14:19:10.6779731+02:00",
-  "PublishFrom": "2006-03-31T14:19:10.6779731+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 627,
-      "Visibility": "All",
-      "DisplayValue": "error",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 530
+          "FieldLength": 354
         }
       }
     },
     {
-      "VisibleId": 627,
+      "VisibleId": 552,
       "Visibility": "All",
-      "DisplayValue": "error",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 530
+          "FieldType": "System.Int32",
+          "FieldLength": 354
         }
       }
     }
@@ -240,8 +240,8 @@ Last-Modified: Thu, 24 Jul 1997 14:19:10 G7T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 834
+      "FieldType": "System.Int32",
+      "FieldLength": 604
     }
   }
 }

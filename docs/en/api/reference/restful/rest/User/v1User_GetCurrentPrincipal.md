@@ -80,7 +80,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,76 +91,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "at",
-  "AssociateId": 94,
+  "Associate": "commodi",
+  "AssociateId": 831,
   "IsPerson": false,
-  "PersonId": 768,
-  "CountryId": 769,
-  "HomeCountryId": 125,
-  "ContactId": 491,
-  "GroupId": 243,
-  "BusinessId": 767,
-  "CategoryId": 625,
-  "ContactOwner": 586,
-  "RoleId": 462,
-  "RoleName": "Windler-Franecki",
-  "RoleDescription": "Vision-oriented maximized pricing structure",
+  "PersonId": 365,
+  "CountryId": 347,
+  "HomeCountryId": 739,
+  "ContactId": 399,
+  "GroupId": 828,
+  "BusinessId": 269,
+  "CategoryId": 51,
+  "ContactOwner": 37,
+  "RoleId": 746,
+  "RoleName": "Moore Group",
+  "RoleDescription": "User-friendly disintermediate protocol",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 669,
-      "OwnerName": "Runolfsdottir-Wiegand",
-      "OwnerDescription": "Synergized incremental hierarchy",
-      "ModuleId": 892,
-      "Name": "Murazik-Cronin",
-      "Description": "Multi-tiered explicit superstructure",
-      "Version": "qui",
+      "OwnerId": 18,
+      "OwnerName": "Donnelly Group",
+      "OwnerDescription": "Organic national knowledge base",
+      "ModuleId": 434,
+      "Name": "Beahan, Zieme and Schmeler",
+      "Description": "Profit-focused hybrid framework",
+      "Version": "voluptatem",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 21,
-      "ExtraInfo": "qui",
-      "SortOrder": 372,
-      "LicenseNumber": 704,
-      "IsHidden": true,
+      "ExtraFlags": 652,
+      "ExtraInfo": "dolores",
+      "SortOrder": 399,
+      "LicenseNumber": 944,
+      "IsHidden": false,
       "IsUnrestricted": false,
-      "ExpiryDate": "2001-05-03T14:19:11.0686043+02:00",
+      "ExpiryDate": "2008-02-22T12:15:27.8016236+01:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 143
+          "FieldLength": 247
         }
       }
     }
   ],
-  "FullName": "Evans Murphy",
-  "EMailAddress": "quas",
+  "FullName": "Ms. Frank Susanna Sporer DDS",
+  "EMailAddress": "suscipit",
   "FunctionRights": [
-    "sint",
-    "ullam"
+    "voluptatem",
+    "non"
   ],
-  "EjUserId": 669,
-  "EjAccessLevel": 305,
+  "EjUserId": 689,
+  "EjAccessLevel": 567,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "optio",
-      "SearchName": "Dietrich-Kuhlman",
-      "DisplayName": "Boyer-Kuhic",
-      "CredentialId": 562
+      "Type": "quo",
+      "SearchName": "Ortiz Inc and Sons",
+      "DisplayName": "Bergstrom, Cassin and Schuster",
+      "CredentialId": 310
     },
     {
-      "Type": "optio",
-      "SearchName": "Dietrich-Kuhlman",
-      "DisplayName": "Boyer-Kuhic",
-      "CredentialId": 562
+      "Type": "quo",
+      "SearchName": "Ortiz Inc and Sons",
+      "DisplayName": "Bergstrom, Cassin and Schuster",
+      "CredentialId": 310
     }
   ],
   "SecondaryGroups": [
-    329,
-    144
+    576,
+    477
   ],
-  "DatabaseContextIdentifier": "iure",
-  "UserName": "Keebler Group"
+  "DatabaseContextIdentifier": "suscipit",
+  "UserName": "Hackett-Rice"
 }
 ```

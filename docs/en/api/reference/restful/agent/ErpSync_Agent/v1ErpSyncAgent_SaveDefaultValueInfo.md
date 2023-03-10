@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 164,
-  "DefaultValue": "officiis",
+  "ErpFieldId": 420,
+  "DefaultValue": "dolorem",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "deleniti",
-  "PromptUser": false,
+  "FirstSyncDefaultValue": "molestiae",
+  "PromptUser": true,
   "Mandatory": true,
-  "ErpFieldKey": "minima",
+  "ErpFieldKey": "libero",
   "FieldType": "Checkbox",
-  "ListName": "Jacobi-Yost",
+  "ListName": "McKenzie-Mante",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldType": "System.String",
+      "FieldLength": 375
     }
   }
 }

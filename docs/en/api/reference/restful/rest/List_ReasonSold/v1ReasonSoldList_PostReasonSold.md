@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 894,
-  "Name": "Pfeffer Inc and Sons",
-  "Tooltip": "et",
+  "Id": 42,
+  "Name": "Leannon Group",
+  "Tooltip": "natus",
   "Deleted": false,
-  "UdListDefinitionId": 386,
-  "Rank": 276
+  "UdListDefinitionId": 529,
+  "Rank": 113
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 107,
-  "Name": "Mitchell-Medhurst",
-  "Tooltip": "quis",
-  "Deleted": false,
-  "UdListDefinitionId": 409,
-  "Rank": 517,
+  "Id": 514,
+  "Name": "Flatley LLC",
+  "Tooltip": "voluptates",
+  "Deleted": true,
+  "UdListDefinitionId": 748,
+  "Rank": 223,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 887
+      "FieldLength": 747
     }
   }
 }

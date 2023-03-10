@@ -80,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 962,
-  "Name": "Champlin, Monahan and Russel",
-  "Tooltip": "reprehenderit",
-  "Rank": 353,
-  "Rate": 20822.296,
-  "Units": 30280.708,
+  "CurrencyId": 22,
+  "Name": "Reilly-Kulas",
+  "Tooltip": "velit",
+  "Rank": 463,
+  "Rate": 4992.4619999999995,
+  "Units": 17481.452,
   "Deleted": false
 }
 ```
@@ -97,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 379,
-  "Name": "Veum Group",
-  "Tooltip": "enim",
-  "Rank": 166,
-  "Rate": 18152.128,
-  "Units": 13021.77,
+  "CurrencyId": 530,
+  "Name": "Bergnaum, Goldner and Howe",
+  "Tooltip": "ducimus",
+  "Rank": 876,
+  "Rate": 30355.924,
+  "Units": 31104.95,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 348
+      "FieldType": "System.Int32",
+      "FieldLength": 947
     }
   }
 }

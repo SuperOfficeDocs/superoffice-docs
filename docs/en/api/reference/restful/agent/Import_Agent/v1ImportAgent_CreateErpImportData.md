@@ -76,38 +76,38 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Zulauf, Zboncak and Miller",
-      "Operator": "omnis",
+      "Name": "Mraz, Howe and Smitham",
+      "Operator": "et",
       "Values": [
-        "aut",
-        "suscipit"
+        "autem",
+        "et"
       ],
       "DisplayValues": [
-        "ut",
-        "est"
+        "iusto",
+        "eum"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 201,
+      "InterParenthesis": 206,
       "InterOperator": "And",
-      "UniqueHash": 206
+      "UniqueHash": 145
     }
   ],
   "Columns": [
-    "velit",
-    "et"
+    "est",
+    "in"
   ],
-  "ConnectionId": 93,
+  "ConnectionId": 533,
   "ErpActorType": "Customer"
 }
 ```
@@ -122,47 +122,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "dolorem",
-        "aut"
+        "molestiae",
+        "consectetur"
       ],
-      "Selected": false,
+      "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "id",
+      "ExternalKey": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 432
+          "FieldLength": 897
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Kunze, Schiller and Stroman",
-      "DisplayName": "Lind-Lubowitz",
+      "Name": "Marks, Beier and Tillman",
+      "DisplayName": "Huels, Auer and Greenfelder",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 827
+          "FieldType": "System.Int32",
+          "FieldLength": 206
         }
       }
     },
     {
-      "Name": "Kunze, Schiller and Stroman",
-      "DisplayName": "Lind-Lubowitz",
+      "Name": "Marks, Beier and Tillman",
+      "DisplayName": "Huels, Auer and Greenfelder",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 827
+          "FieldType": "System.Int32",
+          "FieldLength": 206
         }
       }
     }
@@ -171,8 +171,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldType": "System.String",
+      "FieldLength": 638
     }
   }
 }

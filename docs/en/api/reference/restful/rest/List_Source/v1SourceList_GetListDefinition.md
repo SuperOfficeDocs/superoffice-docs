@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 609,
-  "Name": "Hermann-D'Amore",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "Rank": 566,
-  "IsCustomList": false,
+  "Id": 287,
+  "Name": "Ernser LLC",
+  "Tooltip": "possimus",
+  "Deleted": false,
+  "Rank": 66,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "cumque",
-  "InUseByUserDefinedFields": true,
+  "ListType": "quibusdam",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 673
+      "FieldLength": 35
     }
   },
   "_Links": {

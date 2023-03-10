@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "omnis"
+  "ChartId": "est"
 }
 ```
 
@@ -100,64 +100,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 133,
-  "Caption": "magni",
-  "Description": "Balanced dedicated conglomeration",
-  "ChartName": "Stark, Kohler and Mitchell",
-  "ChartId": "sapiente",
+  "DashboardTileId": 546,
+  "Caption": "impedit",
+  "Description": "Universal contextually-based matrix",
+  "ChartName": "Hagenes, Hintz and Thiel",
+  "ChartId": "et",
   "IsDefault": true,
-  "AssociateId": 274,
-  "GroupId": 49,
-  "SelectionId": 630,
-  "Config": "neque",
+  "AssociateId": 944,
+  "GroupId": 87,
+  "SelectionId": 896,
+  "Config": "possimus",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Jacobs, Reinger and Rosenbaum",
-      "Description": "Realigned object-oriented knowledge base",
+      "Name": "Kuhic-Robel",
+      "Description": "Multi-tiered stable capacity",
       "Type": "Boolean",
-      "ListName": "Romaguera LLC",
+      "ListName": "Tillman, Howell and Nienow",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "magni",
+      "Value": "consequatur",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 46
+          "FieldType": "System.String",
+          "FieldLength": 633
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 350,
+      "VisibleId": 989,
       "Visibility": "All",
-      "DisplayValue": "possimus",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 264
+          "FieldLength": 667
         }
       }
     },
     {
-      "VisibleId": 350,
+      "VisibleId": 989,
       "Visibility": "All",
-      "DisplayValue": "possimus",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 264
+          "FieldLength": 667
         }
       }
     }
@@ -166,8 +166,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldType": "System.String",
+      "FieldLength": 439
     }
   }
 }

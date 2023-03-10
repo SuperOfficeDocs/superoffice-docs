@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 866
+  "MailItemId": 473
 }
 ```
 
@@ -98,10 +98,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 756,
-  "StartDate": "1999-12-28T14:19:03.4040208+01:00",
-  "EndDate": "2003-12-11T14:19:03.4040208+01:00",
-  "RecurrenceCounter": 518,
+  "RecurrenceId": 671,
+  "StartDate": "2018-06-06T12:15:18.9517514+02:00",
+  "EndDate": "2005-05-16T12:15:18.9517514+02:00",
+  "RecurrenceCounter": 525,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -110,20 +110,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2010-03-12T14:19:03.4040208+01:00",
+      "Date": "2004-02-04T12:15:18.9517514+01:00",
       "IsConflict": false,
-      "Description": "Expanded exuding time-frame",
-      "DescriptionStyleHint": "Function-based composite emulation",
-      "Tooltip": "dolor"
+      "Description": "Intuitive secondary installation",
+      "DescriptionStyleHint": "Extended 24 hour portal",
+      "Tooltip": "minima"
     },
     {
-      "Date": "2010-03-12T14:19:03.4040208+01:00",
+      "Date": "2004-02-04T12:15:18.9517514+01:00",
       "IsConflict": false,
-      "Description": "Expanded exuding time-frame",
-      "DescriptionStyleHint": "Function-based composite emulation",
-      "Tooltip": "dolor"
+      "Description": "Intuitive secondary installation",
+      "DescriptionStyleHint": "Extended 24 hour portal",
+      "Tooltip": "minima"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

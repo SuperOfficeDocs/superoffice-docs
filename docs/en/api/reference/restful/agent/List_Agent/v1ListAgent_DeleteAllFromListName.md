@@ -63,11 +63,11 @@ No Content
 POST /api/v1/Agents/List/DeleteAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kassulke, Krajcik and Deckow"
+  "UdListDefinitionName": "Koepp, Okuneva and Connelly"
 }
 ```
 

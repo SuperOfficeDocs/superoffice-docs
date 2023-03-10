@@ -91,11 +91,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 32,
-  "ModuleOwner": "perferendis",
+  "AssociateId": 300,
+  "ModuleOwner": "explicabo",
   "ModuleLicenseNames": [
-    "McCullough, Baumbach and Bailey",
-    "Gusikowski-Schultz"
+    "Bailey Inc and Sons",
+    "Hane Inc and Sons"
   ]
 }
 ```
@@ -109,25 +109,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 79,
-    "Tooltip": "qui",
+    "Total": 54,
+    "Tooltip": "quaerat",
     "CanAssign": false,
-    "Free": 15,
-    "InUse": 980,
-    "IsHidden": true,
-    "Assigned": true,
-    "ModuleLicenseId": 81,
-    "Name": "Feil Inc and Sons",
-    "Description": "Progressive content-based frame",
-    "PrerequisiteModuleName": "Jacobs, Hansen and Murray",
-    "SortOrder": 4,
-    "ExtraFlags": 75,
+    "Free": 16,
+    "InUse": 959,
+    "IsHidden": false,
+    "Assigned": false,
+    "ModuleLicenseId": 883,
+    "Name": "Windler, Gulgowski and Tillman",
+    "Description": "Vision-oriented optimizing process improvement",
+    "PrerequisiteModuleName": "Klein LLC",
+    "SortOrder": 678,
+    "ExtraFlags": 691,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 379
+        "FieldType": "System.String",
+        "FieldLength": 860
       }
     }
   }

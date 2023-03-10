@@ -74,14 +74,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Jenkins-Franecki",
+  "ProviderName": "Turcotte-Bednar",
   "DesiredColumns": [
-    "magnam",
-    "nihil"
+    "ex",
+    "neque"
   ]
 }
 ```
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bogisich, Marks and Stiedemann",
+    "Name": "Spencer Group",
     "Direction": "ASC"
   },
   {
-    "Name": "Bogisich, Marks and Stiedemann",
+    "Name": "Spencer Group",
     "Direction": "ASC"
   }
 ]

@@ -97,28 +97,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "culpa",
-    "InputValues2": "numquam"
+    "InputValues1": "ea",
+    "InputValues2": "sit"
   },
   "BlockExecution": false,
-  "NavigateTo": "voluptates",
-  "Message": "aliquam",
-  "ShowDialog": "ut",
+  "NavigateTo": "ab",
+  "Message": "omnis",
+  "ShowDialog": "aut",
   "OutputValues": {
-    "OutputValues1": "id",
-    "OutputValues2": "animi"
+    "OutputValues1": "assumenda",
+    "OutputValues2": "incidunt"
   },
   "StateValues": {
-    "StateValues1": "et",
-    "StateValues2": "accusantium"
+    "StateValues1": "eos",
+    "StateValues2": "eius"
   },
-  "Exception": "libero",
+  "Exception": "dolorum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 709
+      "FieldType": "System.Int32",
+      "FieldLength": 46
     }
   }
 }

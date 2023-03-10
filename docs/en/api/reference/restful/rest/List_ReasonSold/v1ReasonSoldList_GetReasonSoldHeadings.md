@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 493,
-    "Name": "Eichmann-Jacobson",
-    "Tooltip": "tenetur",
+    "HeadingId": 416,
+    "Name": "Shanahan-Lockman",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 282,
-    "UdListDefinitionId": 628,
+    "Rank": 795,
+    "UdListDefinitionId": 826,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 43
+        "FieldType": "System.String",
+        "FieldLength": 88
       }
     }
   }

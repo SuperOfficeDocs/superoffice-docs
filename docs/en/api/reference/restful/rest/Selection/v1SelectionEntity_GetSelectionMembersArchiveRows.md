@@ -74,7 +74,7 @@ OK
 GET /api/v1/Selection/{selectionId}/Members
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,19 +85,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quam",
+  "odata.nextLink": "est",
   "value": [
     {
-      "PrimaryKey": 9495,
-      "EntityName": "person",
-      "personId": 9495,
-      "fullName": "Mrs. Jordy Elda O'Kon IV"
+      "PrimaryKey": 3285,
+      "EntityName": "sale",
+      "saleId": 3285,
+      "contactId": 3087,
+      "name": "Reynolds, Murphy and Turner"
     },
     {
-      "PrimaryKey": 4485,
-      "EntityName": "person",
-      "personId": 4485,
-      "fullName": "Dianna Rex Roberts MD"
+      "PrimaryKey": 1710,
+      "EntityName": "sale",
+      "saleId": 1710,
+      "contactId": 55,
+      "name": "Koepp, Lynch and Schultz"
     }
   ]
 }

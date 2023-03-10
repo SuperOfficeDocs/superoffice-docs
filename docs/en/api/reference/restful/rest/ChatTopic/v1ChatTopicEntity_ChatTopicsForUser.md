@@ -86,7 +86,7 @@ OK
 GET /api/v1/ChatTopic/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 808,
-    "Name": "Pfannerstill-Pouros",
-    "Description": "Managed upward-trending collaboration",
-    "WelcomeMessage": "nobis",
+    "ChatTopicId": 907,
+    "Name": "Breitenberg-Murray",
+    "Description": "Innovative interactive open system",
+    "WelcomeMessage": "omnis",
     "Language": null,
-    "LastAccept": "2012-10-24T14:19:10.1154727+02:00",
-    "SecondsPrAccept": 651,
-    "AlertRecipient": "sit",
+    "LastAccept": "2013-05-05T12:15:26.5356422+02:00",
+    "SecondsPrAccept": 835,
+    "AlertRecipient": "maxime",
     "AlertTemplate": null,
-    "CollectConsent": false,
-    "BadgeHeader": "nobis",
-    "CustomQueueTextEnabled": true,
-    "CustomQueueText": "omnis",
-    "WarnNewChatMinutes": 239,
-    "WarnManagerNewChatMinutes": 712,
+    "CollectConsent": true,
+    "BadgeHeader": "provident",
+    "CustomQueueTextEnabled": false,
+    "CustomQueueText": "voluptatem",
+    "WarnNewChatMinutes": 152,
+    "WarnManagerNewChatMinutes": 320,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
@@ -120,20 +120,20 @@ Content-Type: application/json; charset=utf-8
     "Widget": null,
     "BotEnabled": false,
     "BotSettings": null,
-    "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 899,
-    "WarnManagerChatMessageMinutes": 35,
-    "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 253,
-    "OfflineFormQueueLength": 629,
-    "WidgetEnableRating": false,
-    "WidgetRatingText": "quos",
+    "OfflineCollectConsent": true,
+    "WarnChatMessageMinutes": 688,
+    "WarnManagerChatMessageMinutes": 754,
+    "UseQueueOfflineForm": true,
+    "OfflineFormTimeLimit": 198,
+    "OfflineFormQueueLength": 751,
+    "WidgetEnableRating": true,
+    "WidgetRatingText": "accusamus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 405
+        "FieldType": "System.Int32",
+        "FieldLength": 400
       }
     }
   }

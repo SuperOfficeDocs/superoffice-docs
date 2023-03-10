@@ -77,7 +77,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,56 +88,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 138,
-    "Name": "Spinka Inc and Sons",
-    "ToolTip": "Saepe delectus iusto dolorem reprehenderit nobis.",
-    "Deleted": false,
-    "Rank": 35,
-    "Type": "reprehenderit",
-    "ColorBlock": 241,
-    "IconHint": "fugiat",
-    "Selected": false,
-    "LastChanged": "2006-06-13T14:19:10.6623446+02:00",
+    "Id": 333,
+    "Name": "Greenfelder-Lueilwitz",
+    "ToolTip": "Qui enim delectus cupiditate fuga.",
+    "Deleted": true,
+    "Rank": 442,
+    "Type": "dolore",
+    "ColorBlock": 19,
+    "IconHint": "ex",
+    "Selected": true,
+    "LastChanged": "1997-08-07T12:15:27.2216316+02:00",
     "ChildItems": [
       {
-        "Id": 99,
-        "Name": "Abshire, Weissnat and Lakin",
-        "ToolTip": "Id eos placeat nostrum qui quis.",
-        "Deleted": true,
-        "Rank": 864,
-        "Type": "incidunt",
-        "ColorBlock": 300,
-        "IconHint": "eum",
+        "Id": 298,
+        "Name": "Harber Group",
+        "ToolTip": "Ipsa inventore est culpa corrupti vel labore similique.",
+        "Deleted": false,
+        "Rank": 284,
+        "Type": "rem",
+        "ColorBlock": 884,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "1996-10-01T14:19:10.6623446+02:00",
+        "LastChanged": "2016-10-31T12:15:27.2226378+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "animi",
+        "ExtraInfo": "vel",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Dr. Davon Wunsch",
+        "FullName": "Lazaro McDermott",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 206
+            "FieldLength": 240
           }
         }
       }
     ],
-    "ExtraInfo": "fuga",
-    "StyleHint": "dignissimos",
-    "Hidden": false,
-    "FullName": "Mr. Melany Kitty Cummerata",
+    "ExtraInfo": "nisi",
+    "StyleHint": "beatae",
+    "Hidden": true,
+    "FullName": "Marlon Klocko Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 288
+        "FieldType": "System.String",
+        "FieldLength": 145
       }
     }
   }

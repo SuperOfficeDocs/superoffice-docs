@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "McClure LLC",
-  "DeviceName": "Denesik Inc and Sons"
+  "ApplicationName": "Hahn Inc and Sons",
+  "DeviceName": "Mills, Yost and Erdman"
 }
 ```
 
@@ -97,20 +97,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "minus",
-    "Value": "vitae",
-    "RecordId": 341,
-    "CreatedDate": "2013-04-16T14:19:03.5602728+02:00",
-    "UpdatedDate": "2016-05-19T14:19:03.5602728+02:00",
-    "UpdatedBy": "repellendus",
-    "CreatedBy": "distinctio",
-    "TableName": "Dickinson LLC",
+    "Key": "at",
+    "Value": "quis",
+    "RecordId": 220,
+    "CreatedDate": "2022-07-19T12:15:19.1697487+02:00",
+    "UpdatedDate": "2003-02-19T12:15:19.1697487+01:00",
+    "UpdatedBy": "error",
+    "CreatedBy": "eos",
+    "TableName": "Tromp LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 921
+        "FieldType": "System.Int32",
+        "FieldLength": 876
       }
     }
   }

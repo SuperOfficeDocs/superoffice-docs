@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 729,
-    "Name": "Graham Group",
-    "ToolTip": "Mollitia magni voluptas aspernatur odio.",
-    "Deleted": true,
-    "Rank": 214,
-    "Type": "quos",
-    "ColorBlock": 422,
-    "IconHint": "et",
+    "Id": 483,
+    "Name": "Conroy, Jones and Kihn",
+    "ToolTip": "Molestiae sed hic minima.",
+    "Deleted": false,
+    "Rank": 271,
+    "Type": "sequi",
+    "ColorBlock": 170,
+    "IconHint": "officia",
     "Selected": true,
-    "LastChanged": "2011-08-31T14:19:11.305533+02:00",
+    "LastChanged": "2021-12-09T12:15:28.2076188+01:00",
     "ChildItems": [
       {
-        "Id": 831,
-        "Name": "Braun Group",
-        "ToolTip": "In consequuntur ea quibusdam qui ut.",
-        "Deleted": false,
-        "Rank": 417,
-        "Type": "tenetur",
-        "ColorBlock": 433,
-        "IconHint": "quaerat",
-        "Selected": true,
-        "LastChanged": "2004-01-01T14:19:11.305533+01:00",
+        "Id": 912,
+        "Name": "O'Hara-Brown",
+        "ToolTip": "Aut ut repellat.",
+        "Deleted": true,
+        "Rank": 126,
+        "Type": "voluptas",
+        "ColorBlock": 154,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2008-06-08T12:15:28.2076188+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "commodi",
+        "StyleHint": "ex",
         "Hidden": false,
-        "FullName": "Prof. Mose Reynolds PhD",
+        "FullName": "Dr. Demetrius Lorine Breitenberg III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 266
+            "FieldLength": 563
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "minima",
-    "Hidden": true,
-    "FullName": "Ms. Makayla Muller V",
+    "ExtraInfo": "unde",
+    "StyleHint": "incidunt",
+    "Hidden": false,
+    "FullName": "Retta Lindsey Ratke Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 908
+        "FieldLength": 995
       }
     }
   }

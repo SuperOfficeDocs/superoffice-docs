@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 814,
-  "Name": "Orn-Gutmann",
-  "Tooltip": "non",
+  "Id": 765,
+  "Name": "Goyette, Volkman and Streich",
+  "Tooltip": "totam",
   "Deleted": false,
-  "UdListDefinitionId": 295,
-  "Rank": 282,
+  "UdListDefinitionId": 882,
+  "Rank": 555,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 839
+      "FieldType": "System.String",
+      "FieldLength": 259
     }
   }
 }

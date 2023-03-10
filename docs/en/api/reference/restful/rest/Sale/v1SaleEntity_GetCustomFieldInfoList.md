@@ -66,7 +66,7 @@ OK
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Yost, Olson and Franecki",
-    "DisplayName": "Schulist Group",
-    "Description": "Customizable bottom-line emulation",
-    "ShortLabel": "aut",
-    "HideLabel": false,
-    "HideField": false,
+    "FieldName": "Bogisich, Smitham and Moore",
+    "DisplayName": "Schroeder-Raynor",
+    "Description": "Future-proofed attitude-oriented data-warehouse",
+    "ShortLabel": "et",
+    "HideLabel": true,
+    "HideField": true,
     "IsIndexed": false,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 654,
-    "TemplateVariableName": "Murphy Group"
+    "Rank": 813,
+    "TemplateVariableName": "Hammes LLC"
   }
 ]
 ```

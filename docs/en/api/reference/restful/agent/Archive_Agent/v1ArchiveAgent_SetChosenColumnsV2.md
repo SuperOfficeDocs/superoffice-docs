@@ -69,17 +69,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumnsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Thompson-Erdman",
-  "ProviderName": "King, Lesch and Schamberger",
-  "Context": "perferendis",
-  "OwnerKeys": "iusto",
+  "GuiName": "Lebsack-Hegmann",
+  "ProviderName": "Prosacco, Bahringer and Grimes",
+  "Context": "adipisci",
+  "OwnerKeys": "numquam",
   "ChosenColumns": [
-    "nisi",
-    "illo"
+    "sunt",
+    "ut"
   ]
 }
 ```

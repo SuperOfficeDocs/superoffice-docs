@@ -82,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 16,
-  "UdListDefinitionName": "Sauer, Hauck and Kunde"
+  "Id": 789,
+  "UdListDefinitionName": "Feeney, Miller and Cole"
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 20,
-  "Name": "Jones, Goyette and Okuneva",
-  "Tooltip": "voluptas",
-  "Deleted": true,
-  "UdListDefinitionId": 136,
-  "Rank": 865,
+  "Id": 44,
+  "Name": "Christiansen, Rolfson and Schoen",
+  "Tooltip": "molestiae",
+  "Deleted": false,
+  "UdListDefinitionId": 410,
+  "Rank": 33,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldType": "System.String",
+      "FieldLength": 860
     }
   }
 }

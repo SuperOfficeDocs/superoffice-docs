@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 230,
-    "Name": "Lowe Group",
-    "ToolTip": "Deserunt aliquam consequuntur soluta nulla.",
-    "Deleted": true,
-    "Rank": 363,
-    "Type": "perferendis",
-    "ColorBlock": 427,
-    "IconHint": "nam",
+    "Id": 694,
+    "Name": "Jones-Dare",
+    "ToolTip": "Est temporibus distinctio qui et.",
+    "Deleted": false,
+    "Rank": 314,
+    "Type": "architecto",
+    "ColorBlock": 134,
+    "IconHint": "harum",
     "Selected": true,
-    "LastChanged": "2021-02-14T14:19:11.163718+01:00",
+    "LastChanged": "2008-12-17T12:15:27.9286212+01:00",
     "ChildItems": [
       {
-        "Id": 241,
-        "Name": "Dare-Schmeler",
-        "ToolTip": "Dolorem sed.",
-        "Deleted": false,
-        "Rank": 275,
-        "Type": "illum",
-        "ColorBlock": 406,
-        "IconHint": "porro",
-        "Selected": false,
-        "LastChanged": "2017-11-05T14:19:11.163718+01:00",
+        "Id": 757,
+        "Name": "Berge LLC",
+        "ToolTip": "Iusto blanditiis quod quae architecto totam vel.",
+        "Deleted": true,
+        "Rank": 555,
+        "Type": "qui",
+        "ColorBlock": 763,
+        "IconHint": "odio",
+        "Selected": true,
+        "LastChanged": "2009-03-18T12:15:27.9286212+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "sunt",
+        "ExtraInfo": "ut",
+        "StyleHint": "quas",
         "Hidden": false,
-        "FullName": "Orland Berge II"
+        "FullName": "Dawn Maggio"
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Eliezer Frami"
+    "ExtraInfo": "occaecati",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Bernardo Bergstrom"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 557,
-    "Name": "Bogan LLC",
-    "ToolTip": "Molestias exercitationem sit ipsum repudiandae quisquam culpa.",
+    "Id": 852,
+    "Name": "O'Keefe-Emard",
+    "ToolTip": "Quis quo.",
     "Deleted": false,
-    "Rank": 418,
-    "Type": "eligendi",
-    "ColorBlock": 742,
-    "IconHint": "nihil",
-    "Selected": false,
-    "LastChanged": "2003-08-03T14:19:11.163718+02:00",
+    "Rank": 943,
+    "Type": "ipsam",
+    "ColorBlock": 357,
+    "IconHint": "vel",
+    "Selected": true,
+    "LastChanged": "2011-02-24T12:15:27.9296214+01:00",
     "ChildItems": [
       {
-        "Id": 538,
-        "Name": "Predovic-Reichert",
-        "ToolTip": "Rerum qui praesentium ut doloremque impedit ab.",
+        "Id": 204,
+        "Name": "Koelpin-Hagenes",
+        "ToolTip": "Sequi molestias sit dolor distinctio quam dicta provident.",
         "Deleted": false,
-        "Rank": 655,
-        "Type": "ullam",
-        "ColorBlock": 188,
-        "IconHint": "sint",
+        "Rank": 803,
+        "Type": "sed",
+        "ColorBlock": 591,
+        "IconHint": "ut",
         "Selected": true,
-        "LastChanged": "2022-11-02T14:19:11.163718+01:00",
+        "LastChanged": "2022-03-25T12:15:27.9296214+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "atque",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Veronica Dakota Kautzer V",
+        "FullName": "Celestino Kilback",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 172
+            "FieldLength": 906
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "sit",
+    "ExtraInfo": "dicta",
+    "StyleHint": "commodi",
     "Hidden": true,
-    "FullName": "Monique Harris",
+    "FullName": "Maryam Kreiger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 557
+        "FieldType": "System.String",
+        "FieldLength": 139
       }
     }
   }

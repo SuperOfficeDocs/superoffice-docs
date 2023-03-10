@@ -119,8 +119,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 582,
-  "Name": "Lockman Group"
+  "SelectionId": 39,
+  "Name": "Schroeder Group"
 }
 ```
 
@@ -131,70 +131,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Universal maximized archive",
-  "Postit": "iusto",
+  "Description": "Proactive mission-critical firmware",
+  "Postit": "dicta",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 330,
-  "IncludePerson": 525,
-  "MemberCount": 630,
-  "Name": "Legros LLC",
-  "PostitTextId": 259,
-  "CreatedDate": "2014-02-24T14:19:04.2036046+01:00",
-  "SelectionId": 807,
-  "SoundEx": "beatae",
-  "Source": 160,
-  "TextId": 843,
-  "UpdatedDate": "2019-07-17T14:19:04.2036046+02:00",
-  "UpdatedCount": 46,
-  "Visibility": 86,
+  "GroupIdx": 171,
+  "IncludePerson": 980,
+  "MemberCount": 374,
+  "Name": "Gutkowski Inc and Sons",
+  "PostitTextId": 807,
+  "CreatedDate": "2011-07-29T12:15:20.1897338+02:00",
+  "SelectionId": 264,
+  "SoundEx": "et",
+  "Source": 134,
+  "TextId": 318,
+  "UpdatedDate": "1995-11-20T12:15:20.1897338+01:00",
+  "UpdatedCount": 84,
+  "Visibility": 279,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 968,
-  "TargetTableName": "Doyle-Keeling",
+  "CompanyUnique": false,
+  "TargetTableNumber": 663,
+  "TargetTableName": "Fadel, Sipes and Blick",
   "Completed": false,
-  "LeftSelectionId": 535,
-  "RightSelectionId": 766,
+  "LeftSelectionId": 825,
+  "RightSelectionId": 527,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Brakus, Morar and Welch",
-  "ShadowProviderName": "Mayert, Feil and Prohaska",
-  "ChartKey": "est",
-  "LastLoaded": "2001-12-11T14:19:04.2036046+01:00",
-  "LastLoadedBy": 545,
+  "MainProviderName": "Daniel-O'Keefe",
+  "ShadowProviderName": "Greenholt, Becker and Nicolas",
+  "ChartKey": "id",
+  "LastLoaded": "1995-10-16T12:15:20.1897338+02:00",
+  "LastLoadedBy": 284,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2007-02-07T14:19:04.2036046+01:00",
-  "LastMembershipChangeBy": 559,
+  "LastMembershipChange": "2009-01-15T12:15:20.1907337+01:00",
+  "LastMembershipChangeBy": 644,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "commodi",
-  "MemberTabHeading": "officiis",
-  "MailingsProviderName": "Langworth Group",
-  "DashboardTileDefinitionId": 133,
+  "MainHeading": "exercitationem",
+  "MemberTabHeading": "corporis",
+  "MailingsProviderName": "Murray LLC",
+  "DashboardTileDefinitionId": 843,
   "VisibleFor": [
     {
-      "VisibleId": 266,
+      "VisibleId": 399,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 234
+          "FieldType": "System.String",
+          "FieldLength": 488
         }
       }
     },
     {
-      "VisibleId": 266,
+      "VisibleId": 399,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 234
+          "FieldType": "System.String",
+          "FieldLength": 488
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 65
+      "FieldType": "System.Int32",
+      "FieldLength": 324
     }
   }
 }

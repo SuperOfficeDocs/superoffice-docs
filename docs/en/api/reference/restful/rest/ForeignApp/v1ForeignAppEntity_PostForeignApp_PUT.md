@@ -66,7 +66,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,29 +76,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 260,
-  "Name": "Emard Inc and Sons",
-  "CreatedDate": "2017-12-01T14:19:10.3342217+01:00",
-  "UpdatedDate": "2022-03-02T14:19:10.3342217+01:00",
+  "ForeignAppId": 427,
+  "Name": "Stracke Inc and Sons",
+  "CreatedDate": "2011-01-19T12:15:26.9396383+01:00",
+  "UpdatedDate": "2004-12-06T12:15:26.9396383+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 26,
-      "Name": "Welch LLC",
-      "CreatedDate": "1998-04-05T14:19:10.3342217+02:00",
-      "UpdatedDate": "2021-06-04T14:19:10.3342217+02:00",
-      "AssociateFullName": "Heath Ullrich",
-      "CreatedBy": "est",
-      "UpdatedBy": "quod",
-      "DeviceIdentifier": "assumenda",
-      "ForeignAppId": 221,
+      "ForeignDeviceId": 254,
+      "Name": "Renner Inc and Sons",
+      "CreatedDate": "2009-12-11T12:15:26.9406364+01:00",
+      "UpdatedDate": "2013-12-21T12:15:26.9406364+01:00",
+      "AssociateFullName": "Vilma Tomasa Veum IV",
+      "CreatedBy": "corporis",
+      "UpdatedBy": "eos",
+      "DeviceIdentifier": "velit",
+      "ForeignAppId": 91,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 869
+          "FieldType": "System.String",
+          "FieldLength": 636
         }
       }
     }
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldLength": 702
     }
   }
 }

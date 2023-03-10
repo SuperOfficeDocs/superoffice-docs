@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 298,
-    "Name": "Hamill Group",
-    "ToolTip": "Nemo facilis in illo in itaque harum.",
+    "Id": 1000,
+    "Name": "Botsford-Upton",
+    "ToolTip": "Aliquam nesciunt aliquid explicabo.",
     "Deleted": true,
-    "Rank": 121,
-    "Type": "eum",
-    "ColorBlock": 213,
-    "IconHint": "vero",
-    "Selected": false,
-    "LastChanged": "2000-09-13T14:19:11.4557858+02:00",
+    "Rank": 386,
+    "Type": "et",
+    "ColorBlock": 417,
+    "IconHint": "maiores",
+    "Selected": true,
+    "LastChanged": "2000-10-27T12:15:28.4056145+02:00",
     "ChildItems": [
       {
-        "Id": 690,
-        "Name": "O'Kon-Dietrich",
-        "ToolTip": "Et aut deleniti ipsa sunt placeat voluptatum qui.",
+        "Id": 204,
+        "Name": "Homenick LLC",
+        "ToolTip": "Doloribus dolor repellendus repellendus rerum et cupiditate esse.",
         "Deleted": false,
-        "Rank": 862,
-        "Type": "doloremque",
-        "ColorBlock": 322,
-        "IconHint": "aliquam",
-        "Selected": false,
-        "LastChanged": "2010-09-23T14:19:11.4557858+02:00",
+        "Rank": 499,
+        "Type": "quo",
+        "ColorBlock": 970,
+        "IconHint": "accusantium",
+        "Selected": true,
+        "LastChanged": "2022-11-03T12:15:28.4066152+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "aut",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "aliquid",
         "Hidden": false,
-        "FullName": "Perry Dickinson"
+        "FullName": "Morris Smith"
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "animi",
-    "Hidden": true,
-    "FullName": "Tremayne Elmira Botsford PhD"
+    "ExtraInfo": "et",
+    "StyleHint": "similique",
+    "Hidden": false,
+    "FullName": "Theo Schmeler"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 944,
-    "Name": "Boehm-Wiegand",
-    "ToolTip": "Odio qui consectetur error voluptate.",
-    "Deleted": true,
-    "Rank": 369,
-    "Type": "nostrum",
-    "ColorBlock": 369,
-    "IconHint": "animi",
+    "Id": 1002,
+    "Name": "Wehner Inc and Sons",
+    "ToolTip": "Nemo nihil quidem non non voluptates dolorem et.",
+    "Deleted": false,
+    "Rank": 306,
+    "Type": "ut",
+    "ColorBlock": 806,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "2009-04-11T14:19:11.4557858+02:00",
+    "LastChanged": "1997-02-24T12:15:28.4076147+01:00",
     "ChildItems": [
       {
-        "Id": 13,
-        "Name": "Zemlak-Morar",
-        "ToolTip": "Ipsum quo asperiores aut repudiandae.",
+        "Id": 893,
+        "Name": "Farrell, Kirlin and Considine",
+        "ToolTip": "Nulla odit.",
         "Deleted": false,
-        "Rank": 369,
-        "Type": "non",
-        "ColorBlock": 250,
-        "IconHint": "totam",
+        "Rank": 614,
+        "Type": "eligendi",
+        "ColorBlock": 271,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "1998-02-08T14:19:11.4557858+01:00",
+        "LastChanged": "2007-02-20T12:15:28.4086144+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "delectus",
+        "ExtraInfo": "error",
+        "StyleHint": "recusandae",
         "Hidden": false,
-        "FullName": "Mr. Evert Spencer",
+        "FullName": "Abel Kling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 889
+            "FieldLength": 751
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "labore",
-    "Hidden": false,
-    "FullName": "Howell West Sr.",
+    "ExtraInfo": "velit",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Wilfredo Flatley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 87
+        "FieldType": "System.String",
+        "FieldLength": 473
       }
     }
   }

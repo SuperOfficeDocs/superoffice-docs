@@ -94,20 +94,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 432,
+  "ReportId": 160,
   "ReportCategory": "All",
-  "Description": "Automated grid-enabled neural-net",
+  "Description": "Front-line 5th generation function",
   "ReportLayout": "CalendarMonth",
-  "Name": "Romaguera, Kozey and Armstrong",
-  "AssociateId": 153,
-  "TemplateId": 533,
+  "Name": "Greenfelder LLC",
+  "AssociateId": 184,
+  "TemplateId": 246,
   "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 346
+      "FieldType": "System.Int32",
+      "FieldLength": 810
     }
   }
 }

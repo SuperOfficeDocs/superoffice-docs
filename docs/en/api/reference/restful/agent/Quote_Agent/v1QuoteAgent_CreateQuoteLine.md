@@ -121,12 +121,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 735,
-  "ERPProductKey": "voluptate"
+  "QuoteAlternativeId": 939,
+  "ERPProductKey": "dolorum"
 }
 ```
 
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 296,
-  "ERPQuoteLineKey": "tempora",
-  "QuoteAlternativeId": 857,
-  "ERPProductKey": "ab",
+  "QuoteLineId": 174,
+  "ERPQuoteLineKey": "totam",
+  "QuoteAlternativeId": 731,
+  "ERPProductKey": "non",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 8797.137999999999,
-  "DeliveredQuantity": 8395.985999999999,
-  "Rank": 596,
-  "Name": "Jewess-West",
-  "Description": "Intuitive intermediate benchmark",
-  "Code": "fugiat",
-  "QuantityUnit": "sit",
-  "PriceUnit": "dolor",
-  "ItemNumber": "1716964",
+  "Quantity": 23332.63,
+  "DeliveredQuantity": 27870.662,
+  "Rank": 681,
+  "Name": "Schaden LLC",
+  "Description": "Intuitive bifurcated utilisation",
+  "Code": "consequatur",
+  "QuantityUnit": "sint",
+  "PriceUnit": "sint",
+  "ItemNumber": "1894102",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "necessitatibus",
-  "ProductTypeKey": "voluptatum",
-  "Supplier": "nostrum",
-  "SupplierCode": "omnis",
-  "Thumbnail": "odio",
-  "VATInfo": "dignissimos",
-  "VAT": 15622.99,
-  "UnitCost": 22010.082,
-  "UnitMinimumPrice": 22364.224,
-  "UnitListPrice": 27720.23,
+  "ProductFamilyKey": "reprehenderit",
+  "ProductTypeKey": "quaerat",
+  "Supplier": "velit",
+  "SupplierCode": "recusandae",
+  "Thumbnail": "voluptatem",
+  "VATInfo": "quo",
+  "VAT": 17957.82,
+  "UnitCost": 14779.944,
+  "UnitMinimumPrice": 18174.066,
+  "UnitListPrice": 24899.629999999997,
   "ExtraInfo": [
     {
-      "Name": "Herzog Group",
-      "Value": "provident",
+      "Name": "Kreiger, Senger and McLaughlin",
+      "Value": "sint",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 560
+          "FieldLength": 359
         }
       }
     },
     {
-      "Name": "Herzog Group",
-      "Value": "provident",
+      "Name": "Kreiger, Senger and McLaughlin",
+      "Value": "sint",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 560
+          "FieldLength": 359
         }
       }
     }
   ],
-  "RawExtraInfo": "tempore",
-  "IsSubscription": false,
-  "SubscriptionUnit": "occaecati",
-  "SubscriptionQuantity": 21157.634,
-  "SubscriptionStart": "2020-02-20T14:19:04.0313341+01:00",
-  "ERPDiscountPercent": 17885.738,
-  "ERPDiscountAmount": 18647.3,
-  "DiscountPercent": 18114.52,
-  "DiscountAmount": 20772.152,
+  "RawExtraInfo": "optio",
+  "IsSubscription": true,
+  "SubscriptionUnit": "ad",
+  "SubscriptionQuantity": 16152.635999999999,
+  "SubscriptionStart": "2000-04-30T12:15:19.9627392+02:00",
+  "ERPDiscountPercent": 18368.374,
+  "ERPDiscountAmount": 17359.226,
+  "DiscountPercent": 29190.075999999997,
+  "DiscountAmount": 12730.307999999999,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 28466.122,
-  "EarningAmount": 27858.126,
-  "SubTotal": 15403.609999999999,
-  "TotalPrice": 25460.615999999998,
-  "Rights": "consequatur",
-  "Rule": "est",
-  "ExtraField1": "reprehenderit",
-  "ExtraField2": "sed",
-  "ExtraField3": "et",
-  "ExtraField4": "quis",
-  "ExtraField5": "consequatur",
+  "EarningPercent": 19255.296,
+  "EarningAmount": 5804.168,
+  "SubTotal": 2115.45,
+  "TotalPrice": 3046.248,
+  "Rights": "aliquam",
+  "Rule": "quo",
+  "ExtraField1": "eaque",
+  "ExtraField2": "maiores",
+  "ExtraField3": "voluptatem",
+  "ExtraField4": "deleniti",
+  "ExtraField5": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 571
+      "FieldType": "System.String",
+      "FieldLength": 791
     }
   }
 }

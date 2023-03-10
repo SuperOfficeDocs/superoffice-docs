@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 880
+  "ChatTopicId": 62
 }
 ```
 
@@ -117,43 +117,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 570,
-  "TopicId": 859,
+  "ChatSessionId": 401,
+  "TopicId": 576,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ea",
-  "CustomerHost": "omnis",
-  "CustomerName": "Runolfsson LLC",
-  "CustomerEmail": "emelia.bechtelar@schmeler.co.uk",
-  "CustomerPhone": "100.780.9502 x3166",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Kuphal, Ward and Fahey",
+  "CustomerAlias": "omnis",
+  "CustomerHost": "autem",
+  "CustomerName": "Walsh Group",
+  "CustomerEmail": "rocky.wiza@feestmaggio.com",
+  "CustomerPhone": "877-815-8692 x89780",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Howe, Boyle and Lind",
   "Status": "Closed",
-  "FirstMessage": "corrupti",
-  "LastMessage": "molestiae",
-  "WhenRequested": "1996-08-27T14:19:02.9011532+02:00",
-  "WhenStarted": "2015-04-26T14:19:02.9011532+02:00",
-  "WhenEnded": "2001-10-04T14:19:02.9011532+02:00",
-  "WhenIdle": "2018-12-19T14:19:02.9011532+01:00",
-  "WhenFetched": "2008-07-11T14:19:02.9011532+02:00",
-  "SessionKey": "aliquid",
-  "InitialQueuePos": 304,
-  "AlertLevel": 283,
-  "Rank": 211,
+  "FirstMessage": "hic",
+  "LastMessage": "et",
+  "WhenRequested": "2012-01-01T12:15:18.40176+01:00",
+  "WhenStarted": "1999-07-12T12:15:18.40176+02:00",
+  "WhenEnded": "1999-09-24T12:15:18.40176+02:00",
+  "WhenIdle": "2011-04-15T12:15:18.40176+02:00",
+  "WhenFetched": "2007-01-09T12:15:18.40176+01:00",
+  "SessionKey": "modi",
+  "InitialQueuePos": 950,
+  "AlertLevel": 863,
+  "Rank": 863,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 409,
+  "ChatbotIsActive": true,
+  "Rating": 476,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 281
+      "FieldLength": 618
     }
   }
 }

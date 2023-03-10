@@ -77,7 +77,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,25 +89,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 236,
-    "Tooltip": "minima",
+    "Total": 400,
+    "Tooltip": "modi",
     "CanAssign": false,
-    "Free": 642,
-    "InUse": 818,
-    "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 291,
-    "Name": "McCullough, Lehner and Stroman",
-    "Description": "Multi-lateral upward-trending productivity",
-    "PrerequisiteModuleName": "Steuber, Jerde and Ondricka",
-    "SortOrder": 260,
-    "ExtraFlags": 527,
+    "Free": 349,
+    "InUse": 671,
+    "IsHidden": true,
+    "Assigned": false,
+    "ModuleLicenseId": 875,
+    "Name": "Waters-Schmidt",
+    "Description": "Multi-layered hybrid benchmark",
+    "PrerequisiteModuleName": "Dickinson-Treutel",
+    "SortOrder": 173,
+    "ExtraFlags": 194,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 935
+        "FieldLength": 77
       }
     }
   }

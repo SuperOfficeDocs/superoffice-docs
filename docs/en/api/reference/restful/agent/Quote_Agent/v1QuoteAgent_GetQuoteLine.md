@@ -120,11 +120,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 1002
+  "QuoteLineId": 543
 }
 ```
 
@@ -135,88 +135,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 129,
-  "ERPQuoteLineKey": "quia",
-  "QuoteAlternativeId": 505,
-  "ERPProductKey": "at",
+  "QuoteLineId": 417,
+  "ERPQuoteLineKey": "soluta",
+  "QuoteAlternativeId": 756,
+  "ERPProductKey": "quas",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 17089.702,
-  "DeliveredQuantity": 10263.85,
-  "Rank": 7,
-  "Name": "Green Group",
-  "Description": "Automated exuding pricing structure",
-  "Code": "laboriosam",
-  "QuantityUnit": "quas",
-  "PriceUnit": "pariatur",
-  "ItemNumber": "365288",
+  "Quantity": 11501.779999999999,
+  "DeliveredQuantity": 2278.418,
+  "Rank": 505,
+  "Name": "Fadel, Bashirian and Kuvalis",
+  "Description": "Monitored real-time task-force",
+  "Code": "qui",
+  "QuantityUnit": "earum",
+  "PriceUnit": "similique",
+  "ItemNumber": "1061069",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "laboriosam",
-  "ProductTypeKey": "ea",
-  "Supplier": "similique",
-  "SupplierCode": "cupiditate",
-  "Thumbnail": "fugiat",
-  "VATInfo": "qui",
-  "VAT": 7910.2159999999994,
-  "UnitCost": 23135.188,
-  "UnitMinimumPrice": 9875.234,
-  "UnitListPrice": 8493.14,
+  "ProductFamilyKey": "voluptatibus",
+  "ProductTypeKey": "nihil",
+  "Supplier": "molestiae",
+  "SupplierCode": "commodi",
+  "Thumbnail": "tempora",
+  "VATInfo": "quae",
+  "VAT": 13849.145999999999,
+  "UnitCost": 10116.552,
+  "UnitMinimumPrice": 15149.756,
+  "UnitListPrice": 16519.314,
   "ExtraInfo": [
     {
-      "Name": "Conn Group",
-      "Value": "consectetur",
+      "Name": "Rohan LLC",
+      "Value": "sunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 695
+          "FieldLength": 212
         }
       }
     },
     {
-      "Name": "Conn Group",
-      "Value": "consectetur",
+      "Name": "Rohan LLC",
+      "Value": "sunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 695
+          "FieldLength": 212
         }
       }
     }
   ],
-  "RawExtraInfo": "ipsam",
-  "IsSubscription": true,
-  "SubscriptionUnit": "fuga",
-  "SubscriptionQuantity": 30587.84,
-  "SubscriptionStart": "2014-06-30T14:19:04.0469597+02:00",
-  "ERPDiscountPercent": 24254.025999999998,
-  "ERPDiscountAmount": 5324.666,
-  "DiscountPercent": 15767.153999999999,
-  "DiscountAmount": 6017.28,
+  "RawExtraInfo": "eos",
+  "IsSubscription": false,
+  "SubscriptionUnit": "odit",
+  "SubscriptionQuantity": 19477.809999999998,
+  "SubscriptionStart": "2013-02-23T12:15:19.971737+01:00",
+  "ERPDiscountPercent": 5487.634,
+  "ERPDiscountAmount": 15384.805999999999,
+  "DiscountPercent": 23147.724,
+  "DiscountAmount": 29682.113999999998,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 23514.402,
-  "EarningAmount": 25990.262,
-  "SubTotal": 8317.636,
-  "TotalPrice": 1488.6499999999999,
-  "Rights": "rerum",
-  "Rule": "repellat",
-  "ExtraField1": "ratione",
-  "ExtraField2": "quia",
-  "ExtraField3": "nihil",
-  "ExtraField4": "eveniet",
-  "ExtraField5": "voluptatum",
+  "EarningPercent": 322.80199999999996,
+  "EarningAmount": 29688.381999999998,
+  "SubTotal": 4252.838,
+  "TotalPrice": 24348.046,
+  "Rights": "nulla",
+  "Rule": "non",
+  "ExtraField1": "provident",
+  "ExtraField2": "corrupti",
+  "ExtraField3": "voluptates",
+  "ExtraField4": "consequuntur",
+  "ExtraField5": "quos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 400
+      "FieldType": "System.Int32",
+      "FieldLength": 485
     }
   }
 }

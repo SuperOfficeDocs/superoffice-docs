@@ -25,7 +25,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=272
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=808
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 664,
-  "Section": "nostrum",
-  "Key": "corrupti",
-  "Name": "Jewess, Rohan and Bailey",
+  "PrefDescId": 486,
+  "Section": "eum",
+  "Key": "illum",
+  "Name": "Wiza Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Secured discrete productivity",
-  "IsBuiltin": false,
-  "TableName": "Paucek Inc and Sons",
-  "UserDefinedListId": 15,
-  "Rank": 315,
-  "SubGroup": "magni",
-  "MinLevel": 326,
-  "MaxValue": 637,
-  "MinValue": 58,
-  "RequiredLicense": "aspernatur",
+  "Description": "Profound tangible circuit",
+  "IsBuiltin": true,
+  "TableName": "Windler, Friesen and Reilly",
+  "UserDefinedListId": 54,
+  "Rank": 678,
+  "SubGroup": "ab",
+  "MinLevel": 407,
+  "MaxValue": 885,
+  "MinValue": 541,
+  "RequiredLicense": "animi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldLength": 382
     }
   }
 }

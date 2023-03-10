@@ -84,10 +84,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 382,
+  "QuoteVersionId": 548,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 477
+  "CountryId": 950
 }
 ```
 
@@ -98,41 +98,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 2375.572,
-  "Wgs84Longitude": 29249.622,
+  "Wgs84Latitude": 19223.956,
+  "Wgs84Longitude": 4769.9479999999994,
   "LocalizedAddress": [
     [
       {
-        "Name": "O'Hara-Bergnaum",
-        "Value": "voluptatum",
-        "Tooltip": "ut",
-        "Label": "repellat",
-        "ValueLength": 175,
-        "AddressType": "iste",
+        "Name": "Feeney-Franecki",
+        "Value": "architecto",
+        "Tooltip": "necessitatibus",
+        "Label": "optio",
+        "ValueLength": 793,
+        "AddressType": "aut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 467
+            "FieldLength": 917
           }
         }
       }
     ],
     [
       {
-        "Name": "Reinger-Stehr",
-        "Value": "et",
-        "Tooltip": "odit",
-        "Label": "illum",
-        "ValueLength": 327,
-        "AddressType": "rerum",
+        "Name": "Huel-Daugherty",
+        "Value": "placeat",
+        "Tooltip": "voluptas",
+        "Label": "quo",
+        "ValueLength": 234,
+        "AddressType": "consequatur",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 471
+            "FieldType": "System.String",
+            "FieldLength": 688
           }
         }
       }
@@ -140,13 +140,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "nesciunt",
+  "Formatted": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 262
+      "FieldLength": 565
     }
   }
 }

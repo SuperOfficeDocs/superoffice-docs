@@ -88,30 +88,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 118,
-  "Name": "Kuhic LLC",
-  "Description": "Team-oriented explicit installation",
+  "ProjectId": 561,
+  "Name": "Brown-Lowe",
+  "Description": "Centralized systemic synergy",
   "URL": "http://www.example.com/",
-  "Type": "adipisci",
-  "AssociateId": 618,
-  "AssociateFullName": "Adrianna Klocko",
-  "TypeId": 625,
-  "Updated": "1998-03-14T14:19:10.521726+01:00",
-  "StatusId": 330,
-  "Status": "et",
-  "TextId": 967,
-  "PublishTo": "2021-08-06T14:19:10.521726+02:00",
-  "PublishFrom": "2007-09-20T14:19:10.521726+02:00",
-  "IsPublished": false,
+  "Type": "repellat",
+  "AssociateId": 137,
+  "AssociateFullName": "Mr. Jamison Kevin Funk DVM",
+  "TypeId": 977,
+  "Updated": "2012-02-28T12:15:27.1836324+01:00",
+  "StatusId": 734,
+  "Status": "dolores",
+  "TextId": 184,
+  "PublishTo": "2021-06-03T12:15:27.1836324+02:00",
+  "PublishFrom": "2011-01-04T12:15:27.1836324+01:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "955084",
-  "ActiveErpLinks": 811,
+  "ProjectNumber": "764420",
+  "ActiveErpLinks": 358,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldType": "System.String",
+      "FieldLength": 643
     }
   }
 }

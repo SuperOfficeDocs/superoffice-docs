@@ -80,19 +80,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 75,
-  "Name": "Schmeler, Gislason and Yost",
-  "Tooltip": "laborum",
-  "Rank": 295,
-  "Rate": 2002.626,
-  "Units": 11614.604,
+  "CurrencyId": 617,
+  "Name": "Okuneva, Stiedemann and Adams",
+  "Tooltip": "occaecati",
+  "Rank": 597,
+  "Rate": 5459.428,
+  "Units": 22270.203999999998,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 569
+      "FieldType": "System.Int32",
+      "FieldLength": 776
     }
   }
 }

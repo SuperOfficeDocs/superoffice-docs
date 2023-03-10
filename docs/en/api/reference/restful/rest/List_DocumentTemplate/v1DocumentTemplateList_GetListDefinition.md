@@ -74,27 +74,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 915,
-  "Name": "Jakubowski-Gutmann",
-  "Tooltip": "excepturi",
-  "Deleted": false,
-  "Rank": 931,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 700,
+  "Name": "Jenkins-Reichert",
+  "Tooltip": "nemo",
+  "Deleted": true,
+  "Rank": 984,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "sed",
-  "InUseByUserDefinedFields": true,
+  "ListType": "animi",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 812
+      "FieldLength": 728
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

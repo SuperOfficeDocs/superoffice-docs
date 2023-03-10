@@ -25,7 +25,7 @@ Gets a ChatSessionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=867
+POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=120
 POST /api/v1/Agents/Chat/GetChatSessionEntity?$select=name,department,category/id
 ```
 
@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -106,43 +106,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 747,
-  "TopicId": 335,
+  "ChatSessionId": 348,
+  "TopicId": 47,
   "User": null,
   "Person": null,
-  "CustomerAlias": "molestias",
-  "CustomerHost": "deleniti",
-  "CustomerName": "Gleichner, Yost and Rutherford",
-  "CustomerEmail": "raymundo@lindhills.biz",
-  "CustomerPhone": "994.528.1310",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Schowalter Inc and Sons",
+  "CustomerAlias": "rerum",
+  "CustomerHost": "modi",
+  "CustomerName": "White-Heller",
+  "CustomerEmail": "zita@schumm.uk",
+  "CustomerPhone": "(236)211-4272 x731",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Bahringer-Schmidt",
   "Status": "Closed",
-  "FirstMessage": "maiores",
-  "LastMessage": "perferendis",
-  "WhenRequested": "2005-11-05T14:19:02.82302+01:00",
-  "WhenStarted": "2006-09-03T14:19:02.82302+02:00",
-  "WhenEnded": "1997-09-08T14:19:02.82302+02:00",
-  "WhenIdle": "1996-10-17T14:19:02.82302+02:00",
-  "WhenFetched": "2000-12-15T14:19:02.82302+01:00",
-  "SessionKey": "amet",
-  "InitialQueuePos": 19,
-  "AlertLevel": 122,
-  "Rank": 906,
+  "FirstMessage": "et",
+  "LastMessage": "possimus",
+  "WhenRequested": "2012-06-04T12:15:18.2907664+02:00",
+  "WhenStarted": "1998-02-28T12:15:18.2907664+01:00",
+  "WhenEnded": "2021-02-25T12:15:18.2907664+01:00",
+  "WhenIdle": "2012-12-16T12:15:18.2907664+01:00",
+  "WhenFetched": "2018-11-30T12:15:18.2907664+01:00",
+  "SessionKey": "illum",
+  "InitialQueuePos": 290,
+  "AlertLevel": 981,
+  "Rank": 587,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 556,
+  "ChatbotIsActive": false,
+  "Rating": 182,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 439
+      "FieldLength": 418
     }
   }
 }

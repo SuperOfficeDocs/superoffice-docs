@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,32 +94,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 886,
-    "Attention": "fuga",
-    "Header": "sunt",
-    "Name": "Walsh-Mertz",
-    "OurRef": "magni",
-    "YourRef": "non",
-    "Description": "Robust zero administration customer loyalty",
-    "DocumentTemplate": "aperiam",
+    "DocumentId": 837,
+    "Attention": "sit",
+    "Header": "facilis",
+    "Name": "Stehr, Casper and Moen",
+    "OurRef": "aut",
+    "YourRef": "sunt",
+    "Description": "Right-sized homogeneous concept",
+    "DocumentTemplate": "qui",
     "IsPublished": false,
-    "PersonId": 102,
-    "PersonFullName": "Dr. Sherwood Stamm",
-    "AssociateFullName": "Lolita Moore",
-    "ContactId": 974,
-    "ContactName": "Skiles Group",
-    "ProjectId": 553,
-    "ProjectName": "Bernier-Bartell",
-    "AssociateId": 606,
-    "Snum": 589,
-    "SaleId": 63,
-    "SaleName": "Smitham-Paucek",
+    "PersonId": 648,
+    "PersonFullName": "Heloise Kali Kohler Jr.",
+    "AssociateFullName": "Hassie Balistreri",
+    "ContactId": 642,
+    "ContactName": "Prosacco LLC",
+    "ProjectId": 676,
+    "ProjectName": "Bode-O'Kon",
+    "AssociateId": 982,
+    "Snum": 711,
+    "SaleId": 88,
+    "SaleName": "Hodkiewicz, Schultz and Walsh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 126
+        "FieldLength": 825
       }
     }
   }

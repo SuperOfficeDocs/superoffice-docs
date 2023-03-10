@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 253,
-  "Name": "Gutmann LLC",
-  "Tooltip": "officia",
+  "Id": 434,
+  "Name": "Skiles LLC",
+  "Tooltip": "quasi",
   "Deleted": false,
-  "Rank": 902,
+  "Rank": 586,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "amet",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "debitis",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 442,
-  "Name": "Hartmann-Greenholt",
-  "Tooltip": "quibusdam",
-  "Deleted": true,
-  "Rank": 395,
-  "IsCustomList": false,
+  "Id": 40,
+  "Name": "Hackett, Ziemann and Schmidt",
+  "Tooltip": "accusamus",
+  "Deleted": false,
+  "Rank": 446,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "cum",
+  "UseGroupsAndHeadings": true,
+  "ListType": "perspiciatis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 238
+      "FieldLength": 29
     }
   }
 }

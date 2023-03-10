@@ -61,7 +61,7 @@ OK
 GET /api/v1/PreferenceDescriptionLine/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 687,
-  "PrefDescId": 978,
-  "PrefValue": "nam",
-  "PrefShowValue": "voluptas",
-  "Description": "Re-contextualized bandwidth-monitored knowledge user",
+  "PrefDescLineId": 907,
+  "PrefDescId": 922,
+  "PrefValue": "a",
+  "PrefShowValue": "in",
+  "Description": "Expanded zero defect neural-net",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 249
+      "FieldType": "System.String",
+      "FieldLength": 603
     }
   }
 }

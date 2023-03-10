@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Contact/GetPreviewContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 762
+  "ContactId": 834
 }
 ```
 
@@ -96,17 +96,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 455,
-  "Name": "Effertz LLC",
+  "ContactId": 34,
+  "Name": "Bashirian Group",
   "Department": "",
-  "CountryId": 961,
-  "Number2": "966563",
-  "DirectPhone": "1-262-043-3333 x21637",
+  "CountryId": 950,
+  "Number2": "1651869",
+  "DirectPhone": "458.348.0205 x69642",
   "URL": "http://www.example.com/",
-  "EmailAddress": "emmy_lynch@hartmannsmith.us",
+  "EmailAddress": "ena.oconner@konopelski.name",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
-  "AssociateFullName": "Kelton Homenick",
+  "AssociateFullName": "Vance Collins",
   "Address": null
 }
 ```

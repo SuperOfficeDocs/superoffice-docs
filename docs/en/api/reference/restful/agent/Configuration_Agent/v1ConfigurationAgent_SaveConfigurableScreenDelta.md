@@ -86,26 +86,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 152,
-  "Name": "Walter Inc and Sons",
-  "Description": "Customizable assymetric service-desk",
-  "DeltaJson": "omnis",
+  "ConfigurableScreenDeltaId": 650,
+  "Name": "Heathcote, Gorczany and Christiansen",
+  "Description": "Streamlined even-keeled emulation",
+  "DeltaJson": "magnam",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "et",
-  "UpdatedDate": "1998-12-13T14:19:02.916778+01:00",
-  "CreatedDate": "2008-08-23T14:19:02.916778+02:00",
+  "RecipeId": "deleniti",
+  "UpdatedDate": "1996-01-29T12:15:18.4117594+01:00",
+  "CreatedDate": "2022-12-11T12:15:18.4117594+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    273,
-    453
+    331,
+    405
   ],
-  "AppliesToKey": "eos"
+  "AppliesToKey": "recusandae"
 }
 ```
 
@@ -116,28 +116,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 720,
-  "Name": "Weissnat, Heller and Rohan",
-  "Description": "Seamless hybrid matrices",
-  "DeltaJson": "dolorem",
+  "ConfigurableScreenDeltaId": 31,
+  "Name": "Bahringer, Glover and Schoen",
+  "Description": "User-friendly zero administration approach",
+  "DeltaJson": "consequatur",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "reiciendis",
-  "UpdatedDate": "2004-04-28T14:19:02.916778+02:00",
-  "CreatedDate": "2013-05-22T14:19:02.916778+02:00",
+  "RecipeId": "sit",
+  "UpdatedDate": "2014-02-19T12:15:18.4127596+01:00",
+  "CreatedDate": "1999-08-27T12:15:18.4127596+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    139,
-    989
+    676,
+    163
   ],
-  "AppliesToKey": "voluptatem",
+  "AppliesToKey": "expedita",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 852
+      "FieldLength": 854
     }
   }
 }

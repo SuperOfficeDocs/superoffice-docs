@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 345,
-    "Name": "Rice Inc and Sons",
-    "ContentType": "quas",
-    "AttSize": 318,
-    "InlineImage": true,
-    "ContentId": "reprehenderit",
+    "AttachmentId": 701,
+    "Name": "Hintz, Mueller and Mosciski",
+    "ContentType": "eos",
+    "AttSize": 2,
+    "InlineImage": false,
+    "ContentId": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 987
+        "FieldLength": 550
       }
     }
   }

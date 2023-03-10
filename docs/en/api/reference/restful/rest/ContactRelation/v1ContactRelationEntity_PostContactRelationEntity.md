@@ -113,24 +113,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 405,
-  "SourcePersonId": 431,
-  "DestinationContactId": 453,
-  "DestinationPersonId": 41,
-  "RelationId": 642,
-  "Comment": "mollitia",
-  "RelationDefinitionId": 693,
-  "Reversed": 267,
-  "UpdatedDate": "2001-06-07T14:19:10.240473+02:00",
-  "CreatedDate": "1999-07-08T14:19:10.240473+02:00",
+  "SourceContactId": 99,
+  "SourcePersonId": 830,
+  "DestinationContactId": 522,
+  "DestinationPersonId": 355,
+  "RelationId": 810,
+  "Comment": "accusamus",
+  "RelationDefinitionId": 841,
+  "Reversed": 916,
+  "UpdatedDate": "2008-02-06T12:15:26.7966407+01:00",
+  "CreatedDate": "2003-07-22T12:15:26.7966407+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Morissette, Bechtelar and Upton",
-  "SourcePersonName": "Labadie Inc and Sons",
-  "DestinationContactName": "Boyer-Ortiz",
-  "DestinationPersonName": "Hand Group",
-  "ActiveText": "deleniti",
-  "PassiveText": "qui"
+  "SourceContactName": "Stanton Inc and Sons",
+  "SourcePersonName": "Ziemann-Runolfsdottir",
+  "DestinationContactName": "Beatty-Botsford",
+  "DestinationPersonName": "Marvin Inc and Sons",
+  "ActiveText": "est",
+  "PassiveText": "quas"
 }
 ```
 
@@ -141,30 +141,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 530,
-  "SourcePersonId": 710,
-  "DestinationContactId": 76,
-  "DestinationPersonId": 748,
-  "RelationId": 793,
-  "Comment": "molestiae",
-  "RelationDefinitionId": 915,
-  "Reversed": 816,
-  "UpdatedDate": "1996-08-28T14:19:10.240473+02:00",
-  "CreatedDate": "2008-03-05T14:19:10.240473+01:00",
+  "SourceContactId": 50,
+  "SourcePersonId": 59,
+  "DestinationContactId": 939,
+  "DestinationPersonId": 993,
+  "RelationId": 308,
+  "Comment": "iusto",
+  "RelationDefinitionId": 306,
+  "Reversed": 40,
+  "UpdatedDate": "2015-04-29T12:15:26.7986393+02:00",
+  "CreatedDate": "2008-12-11T12:15:26.7986393+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Mohr-Nolan",
-  "SourcePersonName": "Keebler-Homenick",
-  "DestinationContactName": "Nolan LLC",
-  "DestinationPersonName": "Weissnat-Rice",
-  "ActiveText": "non",
-  "PassiveText": "aut",
+  "SourceContactName": "Nitzsche LLC",
+  "SourcePersonName": "Sipes, Prosacco and Lesch",
+  "DestinationContactName": "Ferry-Kessler",
+  "DestinationPersonName": "Luettgen Group",
+  "ActiveText": "et",
+  "PassiveText": "esse",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 463
+      "FieldType": "System.String",
+      "FieldLength": 326
     }
   },
   "_Links": {

@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "et"
+  "TriggerScriptUniqueId": "in"
 }
 ```
 
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 377,
-  "Name": "Kirlin Group",
+  "ScreenChooserId": 934,
+  "Name": "Fritsch Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "eum",
-  "Source": "saepe",
-  "Registered": "2011-12-21T14:19:03.0730293+01:00",
-  "RegisteredAssociateId": 13,
-  "Updated": "2017-06-17T14:19:03.0730293+02:00",
-  "UpdatedAssociateId": 338,
+  "Enabled": true,
+  "UniqueIdentifier": "ad",
+  "Source": "quam",
+  "Registered": "2017-05-23T12:15:18.6337567+02:00",
+  "RegisteredAssociateId": 159,
+  "Updated": "2015-08-11T12:15:18.6337567+02:00",
+  "UpdatedAssociateId": 232,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 618
+      "FieldType": "System.Int32",
+      "FieldLength": 188
     }
   }
 }

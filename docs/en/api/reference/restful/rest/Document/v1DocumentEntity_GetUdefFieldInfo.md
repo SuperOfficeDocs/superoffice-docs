@@ -92,7 +92,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 165,
-  "ColumnId": 681,
-  "FieldDefault": "tempora",
-  "FieldHeight": 197,
-  "FieldLabel": "reiciendis",
-  "FieldLeft": 658,
-  "FieldTop": 48,
+  "UDefFieldId": 881,
+  "ColumnId": 214,
+  "FieldDefault": "adipisci",
+  "FieldHeight": 331,
+  "FieldLabel": "aut",
+  "FieldLeft": 577,
+  "FieldTop": 549,
   "FieldType": "Checkbox",
-  "FieldWidth": 597,
-  "FormatMask": "dicta",
-  "HideLabel": true,
+  "FieldWidth": 932,
+  "FormatMask": "sit",
+  "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 164,
-  "LabelLeft": 811,
-  "LabelTop": 375,
-  "LabelWidth": 969,
-  "LastVersionId": 231,
-  "ListTableId": 272,
-  "IsMandatory": false,
+  "LabelHeight": 230,
+  "LabelLeft": 176,
+  "LabelTop": 562,
+  "LabelWidth": 650,
+  "LastVersionId": 810,
+  "ListTableId": 517,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 249,
-  "ProgId": "nam",
-  "IsReadOnly": false,
-  "ShortLabel": "et",
-  "TabOrder": 570,
-  "TextLength": 551,
-  "Tooltip": "dolorem",
-  "UdefIdentity": 334,
-  "UDListDefinitionId": 121,
+  "Page1LineNo": 217,
+  "ProgId": "quo",
+  "IsReadOnly": true,
+  "ShortLabel": "illum",
+  "TabOrder": 387,
+  "TextLength": 236,
+  "Tooltip": "animi",
+  "UdefIdentity": 850,
+  "UDListDefinitionId": 587,
   "Justification": "Center",
-  "Version": 369,
-  "TemplateVariableName": "Ankunding-Schaden",
-  "HasBeenPublished": true,
-  "MdoListName": "Bergnaum-Wuckert",
+  "Version": 381,
+  "TemplateVariableName": "Kertzmann, Osinski and Koss",
+  "HasBeenPublished": false,
+  "MdoListName": "Heathcote Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldLength": 494
     }
   }
 }

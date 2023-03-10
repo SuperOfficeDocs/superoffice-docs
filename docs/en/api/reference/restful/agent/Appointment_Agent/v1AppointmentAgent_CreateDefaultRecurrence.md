@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,10 +83,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 450,
-  "StartDate": "1997-05-22T14:19:02.5786514+02:00",
-  "EndDate": "2007-11-26T14:19:02.5786514+01:00",
-  "RecurrenceCounter": 47,
+  "RecurrenceId": 503,
+  "StartDate": "2009-11-14T12:15:17.8237682+01:00",
+  "EndDate": "2006-12-03T12:15:17.8237682+01:00",
+  "RecurrenceCounter": 966,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -95,20 +95,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2022-09-13T14:19:02.5786514+02:00",
+      "Date": "2008-03-02T12:15:17.8237682+01:00",
       "IsConflict": false,
-      "Description": "Enhanced reciprocal flexibility",
-      "DescriptionStyleHint": "Multi-tiered intangible installation",
-      "Tooltip": "porro"
+      "Description": "Pre-emptive heuristic paradigm",
+      "DescriptionStyleHint": "Team-oriented value-added framework",
+      "Tooltip": "enim"
     },
     {
-      "Date": "2022-09-13T14:19:02.5786514+02:00",
+      "Date": "2008-03-02T12:15:17.8237682+01:00",
       "IsConflict": false,
-      "Description": "Enhanced reciprocal flexibility",
-      "DescriptionStyleHint": "Multi-tiered intangible installation",
-      "Tooltip": "porro"
+      "Description": "Pre-emptive heuristic paradigm",
+      "DescriptionStyleHint": "Team-oriented value-added framework",
+      "Tooltip": "enim"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

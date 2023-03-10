@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 846,
-  "Name": "Buckridge LLC",
-  "Tooltip": "laboriosam",
-  "Deleted": true,
-  "UdListDefinitionId": 568,
-  "Rank": 538,
+  "Id": 589,
+  "Name": "Rogahn LLC",
+  "Tooltip": "illo",
+  "Deleted": false,
+  "UdListDefinitionId": 600,
+  "Rank": 238,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 194
+      "FieldLength": 763
     }
   }
 }

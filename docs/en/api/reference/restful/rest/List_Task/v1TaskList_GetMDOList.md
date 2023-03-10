@@ -25,8 +25,8 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=dolor
+GET /api/v1/List/Task/MDOItems?flat=True
+GET /api/v1/List/Task/MDOItems?query=non
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 546,
-    "Name": "Wiegand, Gulgowski and Steuber",
-    "ToolTip": "Libero quisquam nihil repellendus laudantium.",
+    "Id": 201,
+    "Name": "Batz Group",
+    "ToolTip": "Voluptate aut totam accusantium qui dolor.",
     "Deleted": false,
-    "Rank": 28,
-    "Type": "rerum",
+    "Rank": 540,
+    "Type": "molestiae",
     "ChildItems": [
       {
-        "Id": 396,
-        "Name": "Kuphal LLC",
-        "ToolTip": "Quaerat autem omnis nostrum minus aut nam est.",
-        "Deleted": true,
-        "Rank": 274,
-        "Type": "est",
+        "Id": 645,
+        "Name": "Nikolaus-Spencer",
+        "ToolTip": "Voluptatem fugit et dolore voluptates voluptatibus et voluptatem.",
+        "Deleted": false,
+        "Rank": 515,
+        "Type": "quis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "velit",
-        "ColorBlock": 673,
-        "ExtraInfo": "nobis",
-        "StyleHint": "dolor",
-        "FullName": "Theodore Waters",
+        "IconHint": "facilis",
+        "ColorBlock": 240,
+        "ExtraInfo": "quo",
+        "StyleHint": "non",
+        "FullName": "Sigrid Pfeffer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 28
+            "FieldLength": 69
           }
         }
       }
     ],
-    "IconHint": "veritatis",
-    "ColorBlock": 76,
-    "ExtraInfo": "nam",
-    "StyleHint": "doloremque",
-    "FullName": "Isobel Collins",
+    "IconHint": "sit",
+    "ColorBlock": 623,
+    "ExtraInfo": "est",
+    "StyleHint": "error",
+    "FullName": "Dr. Natalia Ferry II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 692
+        "FieldLength": 530
       }
     }
   }

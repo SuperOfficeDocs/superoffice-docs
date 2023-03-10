@@ -81,21 +81,21 @@ OK
 POST /api/v1/Agents/Find/PopulateRestrictionValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Bernier-Parisian",
-      "Operator": "est",
+      "Name": "Waelchi Inc and Sons",
+      "Operator": "sit",
       "Values": [
-        "ut",
-        "in"
+        "temporibus",
+        "saepe"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "recusandae"
+        "ut",
+        "deserunt"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -103,9 +103,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 712,
+      "InterParenthesis": 843,
       "InterOperator": "And",
-      "UniqueHash": 575
+      "UniqueHash": 638
     }
   ]
 }
@@ -119,29 +119,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Turner, D'Amore and Koepp",
-    "Operator": "ipsam",
+    "Name": "O'Keefe-Heidenreich",
+    "Operator": "repellendus",
     "Values": [
-      "animi",
-      "molestiae"
+      "fugiat",
+      "magni"
     ],
     "DisplayValues": [
-      "quia",
-      "assumenda"
+      "ducimus",
+      "distinctio"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Predovic Inc and Sons",
-        "Operator": "accusamus",
+        "Name": "Purdy, Kessler and Schinner",
+        "Operator": "odio",
         "Values": [
-          "occaecati",
-          "omnis"
+          "nihil",
+          "non"
         ],
         "DisplayValues": [
-          "magnam",
-          "dolor"
+          "molestias",
+          "commodi"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 596,
+        "InterParenthesis": 158,
         "InterOperator": "And",
-        "UniqueHash": 111
+        "UniqueHash": 768
       }
     ],
-    "InterParenthesis": 565,
+    "InterParenthesis": 735,
     "InterOperator": "And",
-    "UniqueHash": 832
+    "UniqueHash": 422
   }
 ]
 ```

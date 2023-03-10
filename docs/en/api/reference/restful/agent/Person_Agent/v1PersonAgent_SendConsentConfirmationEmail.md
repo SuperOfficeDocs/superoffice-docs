@@ -67,15 +67,15 @@ No Content
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 260,
-  "EmailAddress": "alvah_swift@wiegand.name",
-  "EmailTemplateId": 618,
-  "CultureLcidId": 358,
-  "Subject": "et"
+  "PersonId": 257,
+  "EmailAddress": "pat.ritchie@goodwin.uk",
+  "EmailTemplateId": 555,
+  "CultureLcidId": 430,
+  "Subject": "similique"
 }
 ```
 

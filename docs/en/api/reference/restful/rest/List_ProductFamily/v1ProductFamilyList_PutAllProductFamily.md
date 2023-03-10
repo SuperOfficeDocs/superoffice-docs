@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 451,
-    "Name": "Walsh Group",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 905,
-    "Rank": 914
+    "Id": 131,
+    "Name": "McDermott, Raynor and Mante",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "UdListDefinitionId": 660,
+    "Rank": 682
   },
   {
-    "Id": 451,
-    "Name": "Walsh Group",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 905,
-    "Rank": 914
+    "Id": 131,
+    "Name": "McDermott, Raynor and Mante",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "UdListDefinitionId": 660,
+    "Rank": 682
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 108,
-    "Name": "Johnston-Barton",
-    "Tooltip": "eveniet",
-    "Deleted": true,
-    "UdListDefinitionId": 790,
-    "Rank": 174,
+    "Id": 739,
+    "Name": "Rippin-Ruecker",
+    "Tooltip": "laboriosam",
+    "Deleted": false,
+    "UdListDefinitionId": 862,
+    "Rank": 26,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 612
+        "FieldType": "System.Int32",
+        "FieldLength": 653
       }
     }
   }

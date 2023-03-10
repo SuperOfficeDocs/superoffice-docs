@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,32 +70,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jewess-Stark",
-  "Description": "Multi-tiered value-added circuit",
-  "OwnedByFullName": "Dr. Jonathon Kassandra Johnston MD",
-  "Registered": "1997-02-28T14:19:03.1042793+01:00",
+  "Name": "Purdy-Moen",
+  "Description": "Multi-lateral directional initiative",
+  "OwnedByFullName": "Cordelia Armstrong",
+  "Registered": "2021-03-16T12:15:18.664756+01:00",
   "Tiles": [
     {
-      "Name": "Koss-Powlowski",
+      "Name": "Purdy LLC",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 462
+          "FieldType": "System.Int32",
+          "FieldLength": 643
         }
       }
     },
     {
-      "Name": "Koss-Powlowski",
+      "Name": "Purdy LLC",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 462
+          "FieldType": "System.Int32",
+          "FieldLength": 643
         }
       }
     }
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 943
+      "FieldType": "System.Int32",
+      "FieldLength": 100
     }
   }
 }

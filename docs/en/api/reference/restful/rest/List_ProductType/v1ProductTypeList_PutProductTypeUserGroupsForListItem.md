@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 853,
-    "Name": "West, Cruickshank and Parisian",
-    "ToolTip": "Est aut nihil possimus.",
-    "Deleted": true,
-    "Rank": 881,
-    "Type": "placeat",
-    "ColorBlock": 815,
-    "IconHint": "tempore",
+    "Id": 98,
+    "Name": "Hane-O'Kon",
+    "ToolTip": "Eveniet ut ut explicabo sunt non.",
+    "Deleted": false,
+    "Rank": 403,
+    "Type": "saepe",
+    "ColorBlock": 181,
+    "IconHint": "quasi",
     "Selected": false,
-    "LastChanged": "2013-04-19T14:19:11.3836521+02:00",
+    "LastChanged": "2008-05-02T12:15:28.3156158+02:00",
     "ChildItems": [
       {
-        "Id": 342,
-        "Name": "Orn-Gutkowski",
-        "ToolTip": "Qui sit dolorum natus delectus in vel.",
-        "Deleted": true,
-        "Rank": 597,
-        "Type": "vel",
-        "ColorBlock": 798,
-        "IconHint": "non",
-        "Selected": false,
-        "LastChanged": "2014-05-30T14:19:11.3836521+02:00",
+        "Id": 246,
+        "Name": "Moore, Rempel and Gulgowski",
+        "ToolTip": "Molestias delectus.",
+        "Deleted": false,
+        "Rank": 406,
+        "Type": "quibusdam",
+        "ColorBlock": 233,
+        "IconHint": "culpa",
+        "Selected": true,
+        "LastChanged": "1997-01-24T12:15:28.3156158+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "nam",
-        "Hidden": false,
-        "FullName": "Ms. Howard Powlowski III"
+        "ExtraInfo": "officia",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Iliana Leannon"
       }
     ],
-    "ExtraInfo": "odit",
-    "StyleHint": "mollitia",
-    "Hidden": true,
-    "FullName": "Miss Luna Zola Prosacco MD"
+    "ExtraInfo": "explicabo",
+    "StyleHint": "velit",
+    "Hidden": false,
+    "FullName": "Emma Towne"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 934,
-    "Name": "Lubowitz, Zulauf and Gleason",
-    "ToolTip": "Exercitationem enim enim incidunt.",
-    "Deleted": true,
-    "Rank": 553,
-    "Type": "totam",
-    "ColorBlock": 491,
-    "IconHint": "est",
+    "Id": 363,
+    "Name": "Prohaska-Nitzsche",
+    "ToolTip": "Eum qui et voluptas dicta expedita est blanditiis.",
+    "Deleted": false,
+    "Rank": 462,
+    "Type": "harum",
+    "ColorBlock": 738,
+    "IconHint": "odio",
     "Selected": false,
-    "LastChanged": "2006-07-12T14:19:11.3836521+02:00",
+    "LastChanged": "2021-06-07T12:15:28.3166167+02:00",
     "ChildItems": [
       {
-        "Id": 587,
-        "Name": "Koelpin-Harvey",
-        "ToolTip": "Delectus quidem culpa ex et.",
+        "Id": 299,
+        "Name": "Bailey, Jaskolski and Block",
+        "ToolTip": "Blanditiis provident aspernatur.",
         "Deleted": true,
-        "Rank": 710,
-        "Type": "sed",
-        "ColorBlock": 475,
-        "IconHint": "et",
+        "Rank": 543,
+        "Type": "nostrum",
+        "ColorBlock": 787,
+        "IconHint": "ea",
         "Selected": true,
-        "LastChanged": "2002-06-05T14:19:11.3836521+02:00",
+        "LastChanged": "2020-11-29T12:15:28.3166167+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "eaque",
+        "ExtraInfo": "qui",
+        "StyleHint": "iure",
         "Hidden": false,
-        "FullName": "Virgie Lubowitz",
+        "FullName": "Kale Torphy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 633
+            "FieldLength": 774
           }
         }
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "minima",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Emie Kunze",
+    "FullName": "Daron Waelchi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 163
+        "FieldLength": 637
       }
     }
   }

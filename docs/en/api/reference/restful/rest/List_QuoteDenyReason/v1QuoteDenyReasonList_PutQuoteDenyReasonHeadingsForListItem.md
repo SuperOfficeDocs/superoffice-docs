@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 953,
-    "Name": "Daugherty-Rath",
-    "ToolTip": "Ut fugiat.",
-    "Deleted": false,
-    "Rank": 188,
-    "Type": "sapiente",
-    "ColorBlock": 472,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "1998-01-02T14:19:11.430529+01:00",
+    "Id": 497,
+    "Name": "Rogahn LLC",
+    "ToolTip": "Quae qui ut.",
+    "Deleted": true,
+    "Rank": 174,
+    "Type": "qui",
+    "ColorBlock": 122,
+    "IconHint": "beatae",
+    "Selected": false,
+    "LastChanged": "2010-08-31T12:15:28.3896162+02:00",
     "ChildItems": [
       {
-        "Id": 821,
-        "Name": "Franecki-Thompson",
-        "ToolTip": "Molestiae voluptas maiores quo magni voluptas reiciendis labore.",
+        "Id": 22,
+        "Name": "West Group",
+        "ToolTip": "Quisquam placeat quas.",
         "Deleted": false,
-        "Rank": 94,
-        "Type": "sed",
-        "ColorBlock": 583,
-        "IconHint": "ducimus",
-        "Selected": true,
-        "LastChanged": "2000-06-02T14:19:11.430529+02:00",
+        "Rank": 165,
+        "Type": "accusantium",
+        "ColorBlock": 720,
+        "IconHint": "deserunt",
+        "Selected": false,
+        "LastChanged": "2018-08-20T12:15:28.3896162+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Mr. Vivien Kuhn"
+        "ExtraInfo": "omnis",
+        "StyleHint": "consequuntur",
+        "Hidden": true,
+        "FullName": "Mr. Kenna Pasquale Stracke"
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "magnam",
+    "ExtraInfo": "rerum",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Anastasia Reinger PhD"
+    "FullName": "Jaydon Walsh"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 270,
-    "Name": "Wolff-Altenwerth",
-    "ToolTip": "Magnam deserunt.",
+    "Id": 700,
+    "Name": "Herman, Dibbert and Keeling",
+    "ToolTip": "Est suscipit officiis dolores et consequuntur quo quis.",
     "Deleted": false,
-    "Rank": 142,
-    "Type": "at",
-    "ColorBlock": 87,
-    "IconHint": "quam",
-    "Selected": false,
-    "LastChanged": "2013-08-11T14:19:11.430529+02:00",
+    "Rank": 153,
+    "Type": "ut",
+    "ColorBlock": 627,
+    "IconHint": "corporis",
+    "Selected": true,
+    "LastChanged": "1999-05-29T12:15:28.3916145+02:00",
     "ChildItems": [
       {
-        "Id": 794,
-        "Name": "Little, Stamm and Huel",
-        "ToolTip": "Nemo illo esse eos.",
-        "Deleted": true,
-        "Rank": 88,
-        "Type": "ipsam",
-        "ColorBlock": 510,
-        "IconHint": "quo",
-        "Selected": true,
-        "LastChanged": "2012-01-15T14:19:11.430529+01:00",
+        "Id": 578,
+        "Name": "Mante, Hilpert and Hills",
+        "ToolTip": "Et aliquam porro et ullam sit fuga.",
+        "Deleted": false,
+        "Rank": 715,
+        "Type": "similique",
+        "ColorBlock": 676,
+        "IconHint": "a",
+        "Selected": false,
+        "LastChanged": "2001-01-24T12:15:28.3916145+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "itaque",
-        "Hidden": false,
-        "FullName": "Miss Emmy Laurence Stiedemann II",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "veniam",
+        "Hidden": true,
+        "FullName": "Harrison Gaylord",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 394
+            "FieldType": "System.Int32",
+            "FieldLength": 13
           }
         }
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "quo",
-    "Hidden": true,
-    "FullName": "Cody Bahringer",
+    "ExtraInfo": "ullam",
+    "StyleHint": "quasi",
+    "Hidden": false,
+    "FullName": "Amanda Altenwerth",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldType": "System.String",
+        "FieldLength": 931
       }
     }
   }

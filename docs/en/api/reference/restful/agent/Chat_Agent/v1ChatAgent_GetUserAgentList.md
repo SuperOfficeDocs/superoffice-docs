@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Flat": false,
-  "OnlyPresent": false
+  "OnlyPresent": true
 }
 ```
 
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 780,
-    "Name": "Hahn, Baumbach and Fisher",
-    "ToolTip": "Rerum rem dolore ex.",
-    "Deleted": true,
-    "Rank": 621,
-    "Type": "delectus",
+    "Id": 45,
+    "Name": "Gibson-Schmitt",
+    "ToolTip": "Ut eos earum et voluptas.",
+    "Deleted": false,
+    "Rank": 347,
+    "Type": "ipsam",
     "ChildItems": [
       {
-        "Id": 762,
-        "Name": "Nolan, Schultz and Windler",
-        "ToolTip": "Quaerat facilis.",
+        "Id": 1001,
+        "Name": "Parker-Glover",
+        "ToolTip": "Tenetur repudiandae aut placeat consectetur ut.",
         "Deleted": false,
-        "Rank": 683,
-        "Type": "ea",
+        "Rank": 868,
+        "Type": "iste",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "officia",
-        "ColorBlock": 2,
-        "ExtraInfo": "est",
-        "StyleHint": "voluptatibus",
-        "FullName": "Mrs. Elta Kale Murazik IV",
+        "IconHint": "occaecati",
+        "ColorBlock": 341,
+        "ExtraInfo": "soluta",
+        "StyleHint": "molestias",
+        "FullName": "Miss Lorenza Emanuel Swaniawski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 797
+            "FieldLength": 866
           }
         }
       }
     ],
-    "IconHint": "unde",
-    "ColorBlock": 474,
-    "ExtraInfo": "sunt",
-    "StyleHint": "minima",
-    "FullName": "Triston Miller",
+    "IconHint": "aspernatur",
+    "ColorBlock": 688,
+    "ExtraInfo": "et",
+    "StyleHint": "est",
+    "FullName": "Camron Armstrong",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 837
+        "FieldLength": 823
       }
     }
   }

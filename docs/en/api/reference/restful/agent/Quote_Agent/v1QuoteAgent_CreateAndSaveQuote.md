@@ -90,9 +90,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 648,
-  "ConnectionId": 533,
-  "FirstAlternativeName": "Gleichner-Goodwin"
+  "SaleId": 465,
+  "ConnectionId": 246,
+  "FirstAlternativeName": "Deckow Inc and Sons"
 }
 ```
 
@@ -103,58 +103,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 684,
-  "SaleId": 565,
-  "QuoteConnectionId": 868,
-  "ERPQuoteKey": "beatae",
-  "ERPOrderKey": "cum",
-  "ActiveQuoteVersionId": 194,
-  "AcceptedQuoteAlternativeId": 616,
-  "UseValuesFromQuote": 520,
-  "DocumentId": 767,
-  "PoNumber": "1258273",
-  "OrderComment": "provident",
-  "PreferredEmailCulture": "millie_conn@balistreri.name",
+  "QuoteId": 993,
+  "SaleId": 360,
+  "QuoteConnectionId": 765,
+  "ERPQuoteKey": "aut",
+  "ERPOrderKey": "ipsam",
+  "ActiveQuoteVersionId": 532,
+  "AcceptedQuoteAlternativeId": 991,
+  "UseValuesFromQuote": 942,
+  "DocumentId": 365,
+  "PoNumber": "1660827",
+  "OrderComment": "sunt",
+  "PreferredEmailCulture": "rickey.okon@auer.ca",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 544,
-      "ERPQuoteVersionKey": "facilis",
-      "QuoteId": 320,
-      "Description": "Stand-alone empowering middleware",
-      "Number": "1587131",
+      "QuoteVersionId": 150,
+      "ERPQuoteVersionKey": "inventore",
+      "QuoteId": 191,
+      "Description": "Fully-configurable solution-oriented knowledge base",
+      "Number": "981703",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 259,
-      "SentDate": "2002-04-12T14:19:04.0313341+02:00",
-      "FollowupId": 890,
-      "ExpirationDate": "2012-11-17T14:19:04.0313341+01:00",
-      "DeliveryCountryId": 160,
+      "LikelyQuoteAlternativeId": 135,
+      "SentDate": "2010-02-07T12:15:19.9527373+01:00",
+      "FollowupId": 486,
+      "ExpirationDate": "2020-01-16T12:15:19.9527373+01:00",
+      "DeliveryCountryId": 188,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 682,
+      "InvoiceCountryId": 692,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "inventore",
-      "ERPPaymentTypeKey": "culpa",
-      "ERPDeliveryTermsKey": "accusamus",
-      "ERPDeliveryTypeKey": "eius",
-      "Rank": 513,
-      "ApprovedBy": 595,
-      "ApprovedText": "non",
-      "ApprovedRegisteredBy": 429,
-      "ApprovedRegisteredDate": "2005-07-18T14:19:04.0313341+02:00",
-      "ExtraField1": "recusandae",
-      "ExtraField2": "sint",
-      "ExtraField3": "et",
-      "ExtraField4": "voluptatem",
-      "ExtraField5": "et",
-      "LastRecalculated": "2022-08-25T14:19:04.0313341+02:00",
-      "Updated": "1996-09-02T14:19:04.0313341+02:00",
-      "UpdatedAssociateId": 498,
-      "Registered": "2014-02-11T14:19:04.0313341+01:00",
-      "RegisteredAssociateId": 614,
-      "RequestAssociateId": 537,
-      "RequestComment": "voluptatem",
+      "ERPPaymentTermsKey": "vel",
+      "ERPPaymentTypeKey": "adipisci",
+      "ERPDeliveryTermsKey": "quia",
+      "ERPDeliveryTypeKey": "vel",
+      "Rank": 749,
+      "ApprovedBy": 660,
+      "ApprovedText": "id",
+      "ApprovedRegisteredBy": 842,
+      "ApprovedRegisteredDate": "2008-08-31T12:15:19.9527373+02:00",
+      "ExtraField1": "ratione",
+      "ExtraField2": "autem",
+      "ExtraField3": "quas",
+      "ExtraField4": "non",
+      "ExtraField5": "deserunt",
+      "LastRecalculated": "2016-12-12T12:15:19.9527373+01:00",
+      "Updated": "2010-09-15T12:15:19.9527373+02:00",
+      "UpdatedAssociateId": 263,
+      "Registered": "2020-12-15T12:15:19.9527373+01:00",
+      "RegisteredAssociateId": 972,
+      "RequestAssociateId": 449,
+      "RequestComment": "corrupti",
       "QuoteAlternatives": [
         {},
         {}
@@ -164,7 +164,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 763
+          "FieldLength": 743
         }
       }
     }
@@ -174,7 +174,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 292
+      "FieldLength": 979
     }
   }
 }

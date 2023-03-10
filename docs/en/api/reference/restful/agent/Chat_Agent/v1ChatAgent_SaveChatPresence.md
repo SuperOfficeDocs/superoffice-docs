@@ -63,29 +63,29 @@ No Content
 POST /api/v1/Agents/Chat/SaveChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ChatPresence": [
     {
-      "UserId": 870,
-      "DisplayName": "Vandervort, Gorczany and Langworth",
-      "OngoingChats": 720,
+      "UserId": 973,
+      "DisplayName": "McLaughlin, Conn and O'Reilly",
+      "OngoingChats": 996,
       "Present": false,
       "ChatTopics": [
-        887,
-        247
+        748,
+        681
       ]
     },
     {
-      "UserId": 870,
-      "DisplayName": "Vandervort, Gorczany and Langworth",
-      "OngoingChats": 720,
+      "UserId": 973,
+      "DisplayName": "McLaughlin, Conn and O'Reilly",
+      "OngoingChats": 996,
       "Present": false,
       "ChatTopics": [
-        887,
-        247
+        748,
+        681
       ]
     }
   ]

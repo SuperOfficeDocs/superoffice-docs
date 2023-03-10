@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 238,
-    "Name": "Kuhic, Kovacek and Tillman",
-    "ToolTip": "Doloremque velit aliquam officia rem qui est.",
+    "Id": 283,
+    "Name": "Hammes-Walsh",
+    "ToolTip": "Facere earum sunt et odio.",
     "Deleted": false,
-    "Rank": 607,
-    "Type": "placeat",
-    "ColorBlock": 332,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2015-12-30T14:19:11.2898728+01:00",
+    "Rank": 913,
+    "Type": "natus",
+    "ColorBlock": 148,
+    "IconHint": "harum",
+    "Selected": false,
+    "LastChanged": "2022-02-21T12:15:28.1906177+01:00",
     "ChildItems": [
       {
-        "Id": 189,
-        "Name": "Funk-Bode",
-        "ToolTip": "Voluptatibus omnis dolorem ut sit aspernatur aperiam.",
+        "Id": 297,
+        "Name": "Hammes-Purdy",
+        "ToolTip": "Odio repellendus rerum voluptatem in quasi.",
         "Deleted": false,
-        "Rank": 858,
-        "Type": "culpa",
-        "ColorBlock": 518,
-        "IconHint": "provident",
+        "Rank": 248,
+        "Type": "qui",
+        "ColorBlock": 632,
+        "IconHint": "autem",
         "Selected": false,
-        "LastChanged": "2010-06-23T14:19:11.2898728+02:00",
+        "LastChanged": "2013-10-07T12:15:28.1906177+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "tenetur",
-        "Hidden": true,
-        "FullName": "Hubert Kunde",
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "veniam",
+        "Hidden": false,
+        "FullName": "Audreanne Emard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 901
+            "FieldType": "System.Int32",
+            "FieldLength": 819
           }
         }
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "iste",
+    "StyleHint": "asperiores",
     "Hidden": false,
-    "FullName": "Mr. Jordan Lempi Gleason MD",
+    "FullName": "Prof. Betsy Macejkovic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 942
+        "FieldLength": 816
       }
     }
   }

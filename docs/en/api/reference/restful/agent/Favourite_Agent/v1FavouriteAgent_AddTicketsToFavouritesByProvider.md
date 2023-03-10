@@ -70,18 +70,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "McKenzie-Rolfson",
+  "ProviderName": "Bauch-Gibson",
   "Restrictions": [
     {
-      "Name": "Johnson, Emmerich and Hyatt",
-      "Operator": "laboriosam",
+      "Name": "Wisozk-Jacobi",
+      "Operator": "omnis",
       "Values": [
-        "doloremque",
-        "assumenda"
+        "suscipit",
+        "sint"
       ],
       "DisplayValues": [
-        "vitae",
-        "quod"
+        "rem",
+        "quam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -89,13 +89,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 35,
+      "InterParenthesis": 56,
       "InterOperator": "And",
-      "UniqueHash": 167
+      "UniqueHash": 192
     }
   ],
-  "AssociateId": 861,
-  "ExtraInfo": "in"
+  "AssociateId": 172,
+  "ExtraInfo": "quia"
 }
 ```
 

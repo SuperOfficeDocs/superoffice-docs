@@ -122,12 +122,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "non",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "non",
     "value": {}
   }
 ]
@@ -140,22 +140,22 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 85,
-  "Name": "VonRueden LLC",
-  "Tooltip": "non",
+  "Id": 980,
+  "Name": "Predovic-Berge",
+  "Tooltip": "veritatis",
   "Deleted": false,
-  "Rank": 43,
+  "Rank": 42,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "aspernatur",
-  "InUseByUserDefinedFields": true,
+  "ListType": "sit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 109
+      "FieldLength": 48
     }
   },
   "_Links": {

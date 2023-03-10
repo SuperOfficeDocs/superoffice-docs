@@ -88,36 +88,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 964,
-  "ParentId": 400,
-  "Name": "Kuhlman-McClure",
-  "Fullname": "eos",
-  "CategoryMaster": 475,
+  "TicketCategoryId": 408,
+  "ParentId": 370,
+  "Name": "Runolfsdottir-Cormier",
+  "Fullname": "mollitia",
+  "CategoryMaster": 895,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Johnson, Grimes and Smitham",
+  "ExternalName": "Sporer-Braun",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 151,
-  "ReplyTemplate": 699,
-  "NotificationEmail": "jazmyne.witting@roob.co.uk",
+  "AssignmentLag": 921,
+  "ReplyTemplate": 583,
+  "NotificationEmail": "mireya@bartoletti.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 676,
+  "EffectiveReplyTemplateId": 775,
   "ExtraFields": {
-    "ExtraFields1": "distinctio",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "pariatur",
+    "ExtraFields2": "dolore"
   },
   "CustomFields": {
-    "CustomFields1": "neque",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "numquam",
+    "CustomFields2": "enim"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 46
+      "FieldLength": 472
     }
   }
 }

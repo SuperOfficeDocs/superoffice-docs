@@ -77,7 +77,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,56 +88,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 270,
-    "Name": "Koepp, Baumbach and Gleason",
-    "ToolTip": "Dolor sequi quam vel blanditiis est voluptatum.",
-    "Deleted": true,
-    "Rank": 229,
-    "Type": "error",
-    "ColorBlock": 529,
-    "IconHint": "iste",
-    "Selected": false,
-    "LastChanged": "2017-10-22T14:19:10.6623446+02:00",
+    "Id": 232,
+    "Name": "Abernathy Group",
+    "ToolTip": "Officia consectetur.",
+    "Deleted": false,
+    "Rank": 473,
+    "Type": "fuga",
+    "ColorBlock": 875,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2007-03-04T12:15:27.2236385+01:00",
     "ChildItems": [
       {
-        "Id": 336,
-        "Name": "Schmitt-Rempel",
-        "ToolTip": "Iure consequatur quia est voluptatem sit doloremque.",
-        "Deleted": false,
-        "Rank": 849,
-        "Type": "earum",
-        "ColorBlock": 929,
-        "IconHint": "provident",
-        "Selected": true,
-        "LastChanged": "2017-06-09T14:19:10.6623446+02:00",
+        "Id": 584,
+        "Name": "Mills Group",
+        "ToolTip": "Ipsa quaerat.",
+        "Deleted": true,
+        "Rank": 383,
+        "Type": "et",
+        "ColorBlock": 551,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2011-03-01T12:15:27.2236385+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "numquam",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Leon Grimes",
+        "FullName": "Demetrius Moen V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 990
+            "FieldType": "System.String",
+            "FieldLength": 251
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "excepturi",
+    "ExtraInfo": "iure",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Opal Bailey",
+    "FullName": "Julien Reichert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 542
+        "FieldLength": 931
       }
     }
   }

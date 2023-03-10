@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 195,
-    "Name": "Torphy-Gutmann",
-    "ToolTip": "Aut id.",
-    "Deleted": true,
-    "Rank": 389,
-    "Type": "rerum",
-    "ColorBlock": 902,
-    "IconHint": "corporis",
+    "Id": 862,
+    "Name": "Willms, Wiegand and Streich",
+    "ToolTip": "Deserunt doloribus tempora ullam et.",
+    "Deleted": false,
+    "Rank": 281,
+    "Type": "sapiente",
+    "ColorBlock": 571,
+    "IconHint": "saepe",
     "Selected": false,
-    "LastChanged": "2002-06-02T14:19:11.2898728+02:00",
+    "LastChanged": "2018-10-24T12:15:28.195618+02:00",
     "ChildItems": [
       {
-        "Id": 436,
-        "Name": "Beier, Romaguera and Klocko",
-        "ToolTip": "Vitae eos exercitationem vel explicabo.",
-        "Deleted": true,
-        "Rank": 881,
-        "Type": "alias",
-        "ColorBlock": 86,
-        "IconHint": "sit",
+        "Id": 549,
+        "Name": "Emmerich, Kuphal and Haley",
+        "ToolTip": "Voluptatem non id.",
+        "Deleted": false,
+        "Rank": 474,
+        "Type": "quae",
+        "ColorBlock": 304,
+        "IconHint": "eos",
         "Selected": true,
-        "LastChanged": "2001-07-09T14:19:11.2898728+02:00",
+        "LastChanged": "2010-06-02T12:15:28.195618+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "quo",
+        "ExtraInfo": "tempore",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Alessia Ondricka",
+        "FullName": "Melissa Moore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 594
+            "FieldType": "System.String",
+            "FieldLength": 275
           }
         }
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "aut",
+    "StyleHint": "laudantium",
     "Hidden": false,
-    "FullName": "Mrs. Hettie Rachelle Stokes PhD",
+    "FullName": "Dr. Rubye Myrna Waelchi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 968
+        "FieldType": "System.Int32",
+        "FieldLength": 307
       }
     }
   }

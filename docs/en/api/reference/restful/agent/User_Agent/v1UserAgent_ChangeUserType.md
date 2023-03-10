@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -115,14 +115,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 907,
-  "Name": "Christiansen LLC",
-  "Rank": 420,
-  "Tooltip": "voluptas",
+  "AssociateId": 665,
+  "Name": "Balistreri, Bogisich and Corwin",
+  "Rank": 91,
+  "Tooltip": "impedit",
   "LicenseOwners": [
     {
-      "Name": "Bayer, Sauer and Kling",
-      "Description": "Cloned real-time middleware",
+      "Name": "McGlynn-Lockman",
+      "Description": "Grass-roots modular moderator",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 482
+          "FieldLength": 223
         }
       }
     },
     {
-      "Name": "Bayer, Sauer and Kling",
-      "Description": "Cloned real-time middleware",
+      "Name": "McGlynn-Lockman",
+      "Description": "Grass-roots modular moderator",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 482
+          "FieldLength": 223
         }
       }
     }
@@ -165,110 +165,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "facilis",
-      "Tooltip": "fugiat",
-      "Id": 44,
-      "Rank": 604,
-      "Deleted": false,
+      "Value": "non",
+      "Tooltip": "laboriosam",
+      "Id": 381,
+      "Rank": 856,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 843
+          "FieldLength": 719
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2013-05-01T14:19:04.532826+02:00",
-  "Lastlogout": "2013-01-07T14:19:04.532826+01:00",
-  "EjUserId": 372,
-  "RequestSignature": "dolores",
+  "Lastlogin": "1998-11-22T12:15:20.5107291+01:00",
+  "Lastlogout": "1998-01-28T12:15:20.5107291+01:00",
+  "EjUserId": 40,
+  "RequestSignature": "voluptatem",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": false,
+  "IsPersonRetired": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "libero",
-      "DisplayValue": "aut",
+      "Value": "dolorum",
+      "DisplayValue": "blanditiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 752
+          "FieldLength": 710
         }
       }
     },
     {
       "Type": null,
-      "Value": "libero",
-      "DisplayValue": "aut",
+      "Value": "dolorum",
+      "DisplayValue": "blanditiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 752
+          "FieldLength": 710
         }
       }
     }
   ],
-  "UserName": "Kling, Cummings and Hayes",
+  "UserName": "Schmeler, Johns and Simonis",
   "TicketCategories": [
     {
-      "Id": 75,
-      "Name": "Krajcik, Auer and Ratke",
-      "ToolTip": "Eum aut quis repudiandae corporis veniam non cupiditate.",
-      "Deleted": false,
-      "Rank": 126,
-      "Type": "porro",
+      "Id": 245,
+      "Name": "D'Amore-Rippin",
+      "ToolTip": "Ut ipsa adipisci delectus deserunt impedit consequuntur architecto.",
+      "Deleted": true,
+      "Rank": 738,
+      "Type": "provident",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "vero",
-      "ColorBlock": 978,
-      "ExtraInfo": "laboriosam",
-      "StyleHint": "sit",
-      "FullName": "Dale Considine",
+      "IconHint": "iure",
+      "ColorBlock": 876,
+      "ExtraInfo": "aliquid",
+      "StyleHint": "ut",
+      "FullName": "Morgan Kovacek",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 272
+          "FieldType": "System.Int32",
+          "FieldLength": 667
         }
       }
     }
   ],
-  "NickName": "Jakubowski, Herzog and Abshire",
+  "NickName": "Greenfelder-Dibbert",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "quibusdam",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "nam",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "esse",
-    "CustomFields2": "adipisci"
+    "CustomFields1": "corporis",
+    "CustomFields2": "vel"
   },
   "PostSaveCommands": [
     {
-      "Name": "O'Connell-Crona",
-      "DisplayName": "Conn, Moen and Greenholt",
-      "Description": "Open-source interactive open architecture",
-      "ToolTip": "Est facere perferendis esse a.",
+      "Name": "Lind, Mante and Greenfelder",
+      "DisplayName": "Lind LLC",
+      "Description": "Optimized user-facing attitude",
+      "ToolTip": "Modi dolores accusantium molestiae occaecati vel totam.",
       "Actions": "Implicit",
-      "ActionData": "dolores",
+      "ActionData": "explicabo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 135
+          "FieldType": "System.Int32",
+          "FieldLength": 681
         }
       }
     }
@@ -277,8 +277,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 388
+      "FieldType": "System.Int32",
+      "FieldLength": 323
     }
   }
 }

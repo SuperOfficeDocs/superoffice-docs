@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Langosh LLC"
+  "ConnectorName": "Legros, McClure and Crooks"
 }
 ```
 
@@ -101,54 +101,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 861,
-  "ERPName": "Schumm-Bartoletti",
-  "DisplayName": "Ruecker-Raynor",
-  "DisplayDescription": "De-engineered leading edge throughput",
-  "Rank": 394,
-  "ConnectorName": "Hintz Group",
-  "ErpConnectionId": 842,
-  "ExtraData": "aliquam",
-  "IsAvailable": true,
+  "QuoteConnectionId": 669,
+  "ERPName": "Nitzsche, Stokes and Hessel",
+  "DisplayName": "Bode Group",
+  "DisplayDescription": "Quality-focused next generation intranet",
+  "Rank": 368,
+  "ConnectorName": "Nienow, Corkery and Mosciski",
+  "ErpConnectionId": 643,
+  "ExtraData": "hic",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 90,
-      "ERPPriceListKey": "et",
-      "QuoteConnectionId": 987,
-      "Name": "Treutel-Grant",
-      "Description": "Secured reciprocal core",
-      "Currency": "ut",
-      "CurrencyName": "Zboncak-Barrows",
-      "ValidFrom": "2011-04-22T14:19:04.0157096+02:00",
-      "ValidTo": "2018-09-05T14:19:04.0157096+02:00",
+      "PriceListId": 917,
+      "ERPPriceListKey": "expedita",
+      "QuoteConnectionId": 581,
+      "Name": "Strosin Inc and Sons",
+      "Description": "Total client-driven open system",
+      "Currency": "et",
+      "CurrencyName": "Mohr, Bernhard and Pfeffer",
+      "ValidFrom": "1999-05-26T12:15:19.9417403+02:00",
+      "ValidTo": "2018-11-06T12:15:19.9417403+01:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 668
+          "FieldLength": 691
         }
       }
     }
   ],
   "AllAccess": false,
-  "Deleted": false,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    700,
-    664
+    75,
+    708
   ],
   "AssociateAccessIds": [
-    756,
-    568
+    870,
+    513
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldType": "System.String",
+      "FieldLength": 462
     }
   }
 }

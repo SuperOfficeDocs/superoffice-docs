@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 574,
-  "LookupAddresses": true,
+  "MessageServerId": 989,
+  "LookupAddresses": false,
   "Flags": "Answered",
   "IncludeAttachments": false
 }
@@ -124,147 +124,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 852,
-      "ContactName": "Beahan Inc and Sons",
-      "PersonId": 629,
-      "PersonName": "Ryan, Stehr and Borer",
-      "AssociateId": 647,
-      "Address": "dolores",
-      "EmailId": 482,
+      "ContactId": 607,
+      "ContactName": "Ortiz-Kiehn",
+      "PersonId": 120,
+      "PersonName": "Fadel-Trantow",
+      "AssociateId": 514,
+      "Address": "eaque",
+      "EmailId": 872,
       "DuplicatePersonIds": [
-        818,
-        483
+        681,
+        444
       ],
-      "Name": "Bahringer Group",
+      "Name": "Pouros-Von",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 483
+          "FieldType": "System.String",
+          "FieldLength": 52
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 147,
-      "ContactName": "Johnson Inc and Sons",
-      "PersonId": 566,
-      "PersonName": "Okuneva Inc and Sons",
-      "AssociateId": 332,
-      "Address": "minus",
-      "EmailId": 495,
+      "ContactId": 551,
+      "ContactName": "Medhurst Group",
+      "PersonId": 693,
+      "PersonName": "Krajcik LLC",
+      "AssociateId": 198,
+      "Address": "vitae",
+      "EmailId": 755,
       "DuplicatePersonIds": [
-        947,
-        142
+        33,
+        504
       ],
-      "Name": "Greenholt LLC",
+      "Name": "Lesch Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 545
+          "FieldType": "System.String",
+          "FieldLength": 458
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 420,
-      "ContactName": "Mante-Carroll",
-      "PersonId": 830,
-      "PersonName": "Larkin LLC",
-      "AssociateId": 502,
-      "Address": "beatae",
-      "EmailId": 301,
+      "ContactId": 573,
+      "ContactName": "Wolf-Luettgen",
+      "PersonId": 839,
+      "PersonName": "Stroman-Paucek",
+      "AssociateId": 657,
+      "Address": "maiores",
+      "EmailId": 74,
       "DuplicatePersonIds": [
-        958,
-        428
+        917,
+        909
       ],
-      "Name": "Lynch-McKenzie",
+      "Name": "Bergnaum, Lemke and Balistreri",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 569
+          "FieldLength": 912
         }
       }
     }
   ],
-  "Subject": "et",
-  "HTMLBody": "eius",
+  "Subject": "ea",
+  "HTMLBody": "molestiae",
   "From": null,
-  "Sent": "2006-07-09T14:19:03.4508967+02:00",
-  "Size": 777,
+  "Sent": "2011-04-16T12:15:19.0037505+02:00",
+  "Size": 268,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "et",
-  "PlainBody": "totam",
+  "MessageID": "qui",
+  "PlainBody": "eum",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 273,
+  "ServerId": 244,
   "Attachments": [
     {
-      "Description": "Optional next generation website",
-      "Filename": "molestias",
-      "Size": 685,
-      "Type": "dicta",
-      "Encoding": "eveniet",
-      "Id": "voluptatem",
-      "Disposition": "aspernatur",
+      "Description": "Business-focused web-enabled structure",
+      "Filename": "sed",
+      "Size": 179,
+      "Type": "cumque",
+      "Encoding": "inventore",
+      "Id": "sit",
+      "Disposition": "voluptatem",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 935
+          "FieldLength": 884
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Waelchi-Windler",
+      "Name": "Lakin Inc and Sons",
       "Values": [
-        "sit",
-        "quod"
+        "soluta",
+        "enim"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 557
+          "FieldType": "System.String",
+          "FieldLength": 539
         }
       }
     },
     {
-      "Name": "Waelchi-Windler",
+      "Name": "Lakin Inc and Sons",
       "Values": [
-        "sit",
-        "quod"
+        "soluta",
+        "enim"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 557
+          "FieldType": "System.String",
+          "FieldLength": 539
         }
       }
     }
   ],
-  "FolderName": "Erdman, Russel and Towne",
-  "EmailItemId": 664,
-  "AccountId": 620,
-  "ReceivedAt": "2015-08-20T14:19:03.4508967+02:00",
+  "FolderName": "Jacobs, Glover and Herman",
+  "EmailItemId": 485,
+  "AccountId": 959,
+  "ReceivedAt": "2018-06-03T12:15:19.0047511+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2019-09-04T14:19:03.4508967+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2015-09-07T12:15:19.0047511+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -272,7 +272,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldLength": 834
     }
   }
 }

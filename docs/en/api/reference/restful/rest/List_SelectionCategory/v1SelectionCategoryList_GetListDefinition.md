@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 850,
-  "Name": "Fadel, Hodkiewicz and Swaniawski",
-  "Tooltip": "et",
+  "Id": 79,
+  "Name": "Cassin-Quigley",
+  "Tooltip": "eos",
   "Deleted": false,
-  "Rank": 546,
-  "IsCustomList": false,
+  "Rank": 516,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "et",
+  "UseGroupsAndHeadings": false,
+  "ListType": "fugiat",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldType": "System.String",
+      "FieldLength": 448
     }
   },
   "_Links": {

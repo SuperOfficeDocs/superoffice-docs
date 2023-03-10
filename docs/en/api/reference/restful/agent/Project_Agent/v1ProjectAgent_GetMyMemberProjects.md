@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 215,
-    "Name": "Hickle-Pollich",
-    "Description": "Multi-lateral 24 hour toolset",
+    "ProjectId": 914,
+    "Name": "Pfannerstill, Bartell and Tremblay",
+    "Description": "Front-line national extranet",
     "URL": "http://www.example.com/",
-    "Type": "deleniti",
-    "AssociateId": 847,
-    "AssociateFullName": "Keeley Bechtelar",
-    "TypeId": 916,
-    "Updated": "2008-06-30T14:19:03.9688343+02:00",
-    "StatusId": 630,
-    "Status": "illum",
-    "TextId": 489,
-    "PublishTo": "2006-07-06T14:19:03.9688343+02:00",
-    "PublishFrom": "1996-05-08T14:19:03.9688343+02:00",
+    "Type": "esse",
+    "AssociateId": 272,
+    "AssociateFullName": "Mr. Beth Brandy Spencer",
+    "TypeId": 844,
+    "Updated": "2003-12-27T12:15:19.8597456+01:00",
+    "StatusId": 751,
+    "Status": "officia",
+    "TextId": 209,
+    "PublishTo": "2017-12-08T12:15:19.8597456+01:00",
+    "PublishFrom": "1999-01-25T12:15:19.8597456+01:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "746762",
-    "ActiveErpLinks": 632,
+    "ProjectNumber": "688417",
+    "ActiveErpLinks": 962,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 96
+        "FieldType": "System.String",
+        "FieldLength": 836
       }
     }
   }

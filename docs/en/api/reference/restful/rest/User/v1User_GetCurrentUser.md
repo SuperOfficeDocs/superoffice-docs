@@ -80,7 +80,7 @@ OK
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,14 +90,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 959,
-  "Name": "Koepp LLC",
-  "Rank": 423,
-  "Tooltip": "quidem",
+  "AssociateId": 550,
+  "Name": "Ullrich Inc and Sons",
+  "Rank": 146,
+  "Tooltip": "numquam",
   "LicenseOwners": [
     {
-      "Name": "Wuckert, Bins and McKenzie",
-      "Description": "Progressive homogeneous ability",
+      "Name": "Raynor, Schneider and Ankunding",
+      "Description": "Organic mobile secured line",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -111,13 +111,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 522
+          "FieldLength": 358
         }
       }
     },
     {
-      "Name": "Wuckert, Bins and McKenzie",
-      "Description": "Progressive homogeneous ability",
+      "Name": "Raynor, Schneider and Ankunding",
+      "Description": "Organic mobile secured line",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 522
+          "FieldLength": 358
         }
       }
     }
@@ -140,110 +140,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "qui",
-      "Tooltip": "ducimus",
-      "Id": 546,
-      "Rank": 781,
-      "Deleted": true,
+      "Value": "blanditiis",
+      "Tooltip": "occaecati",
+      "Id": 122,
+      "Rank": 473,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 15
+          "FieldLength": 198
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2014-07-27T14:19:11.0686043+02:00",
-  "Lastlogout": "2013-10-05T14:19:11.0686043+02:00",
-  "EjUserId": 246,
-  "RequestSignature": "est",
+  "Deleted": true,
+  "Lastlogin": "2016-10-20T12:15:27.7996233+02:00",
+  "Lastlogout": "2001-08-01T12:15:27.7996233+02:00",
+  "EjUserId": 165,
+  "RequestSignature": "tempore",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "id",
-      "DisplayValue": "odio",
+      "Value": "mollitia",
+      "DisplayValue": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 956
+          "FieldLength": 124
         }
       }
     },
     {
       "Type": null,
-      "Value": "id",
-      "DisplayValue": "odio",
+      "Value": "mollitia",
+      "DisplayValue": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 956
+          "FieldLength": 124
         }
       }
     }
   ],
-  "UserName": "Gaylord, Yundt and Botsford",
+  "UserName": "Luettgen, Mosciski and Ondricka",
   "TicketCategories": [
     {
-      "Id": 910,
-      "Name": "Gusikowski Inc and Sons",
-      "ToolTip": "Cumque ut dolores rerum dolor mollitia voluptatibus architecto.",
-      "Deleted": false,
-      "Rank": 387,
-      "Type": "quia",
+      "Id": 231,
+      "Name": "Kunze, Shields and Gerlach",
+      "ToolTip": "Exercitationem mollitia vero sit quasi.",
+      "Deleted": true,
+      "Rank": 352,
+      "Type": "ipsa",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "minima",
-      "ColorBlock": 933,
-      "ExtraInfo": "saepe",
-      "StyleHint": "culpa",
-      "FullName": "Tomas Kaley Heidenreich PhD",
+      "IconHint": "dicta",
+      "ColorBlock": 916,
+      "ExtraInfo": "ipsa",
+      "StyleHint": "qui",
+      "FullName": "Harrison Bailey I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 954
+          "FieldType": "System.String",
+          "FieldLength": 967
         }
       }
     }
   ],
-  "NickName": "McDermott, Crooks and Zboncak",
+  "NickName": "Flatley, Ankunding and Jacobson",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "blanditiis",
-    "ExtraFields2": "voluptatibus"
+    "ExtraFields1": "nobis",
+    "ExtraFields2": "eius"
   },
   "CustomFields": {
-    "CustomFields1": "quaerat",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "ab",
+    "CustomFields2": "dicta"
   },
   "PostSaveCommands": [
     {
-      "Name": "Adams Inc and Sons",
-      "DisplayName": "Donnelly Group",
-      "Description": "Up-sized intangible concept",
-      "ToolTip": "Cum et sint sed.",
+      "Name": "Fadel Group",
+      "DisplayName": "Mraz Group",
+      "Description": "Exclusive holistic data-warehouse",
+      "ToolTip": "Ipsam porro quos et.",
       "Actions": "Implicit",
-      "ActionData": "et",
+      "ActionData": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 992
+          "FieldLength": 463
         }
       }
     }
@@ -253,7 +253,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldLength": 780
     }
   }
 }

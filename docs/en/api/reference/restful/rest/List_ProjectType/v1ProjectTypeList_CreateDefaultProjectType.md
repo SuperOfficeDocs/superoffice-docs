@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/ProjectType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 700,
-  "Name": "Lang, Crooks and Torp",
-  "Tooltip": "quam",
+  "Id": 31,
+  "Name": "Hessel, Herzog and Runolfsson",
+  "Tooltip": "consequatur",
   "Deleted": true,
-  "UdListDefinitionId": 408,
-  "Rank": 756,
+  "UdListDefinitionId": 741,
+  "Rank": 125,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 655
+      "FieldLength": 495
     }
   }
 }

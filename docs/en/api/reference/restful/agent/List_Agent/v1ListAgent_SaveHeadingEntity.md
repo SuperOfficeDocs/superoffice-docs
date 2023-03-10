@@ -72,16 +72,16 @@ OK
 POST /api/v1/Agents/List/SaveHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 947,
-  "Name": "Rowe Group",
-  "Tooltip": "facere",
+  "HeadingId": 829,
+  "Name": "Murphy Inc and Sons",
+  "Tooltip": "commodi",
   "Deleted": false,
-  "Rank": 588,
-  "UdListDefinitionId": 419
+  "Rank": 704,
+  "UdListDefinitionId": 3
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 970,
-  "Name": "Toy-Keeling",
-  "Tooltip": "laudantium",
-  "Deleted": false,
-  "Rank": 782,
-  "UdListDefinitionId": 805,
+  "HeadingId": 23,
+  "Name": "Dibbert, Hackett and Gutmann",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "Rank": 532,
+  "UdListDefinitionId": 438,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 506
+      "FieldLength": 36
     }
   }
 }

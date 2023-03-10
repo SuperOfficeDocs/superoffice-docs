@@ -25,8 +25,8 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=rerum
+GET /api/v1/List/Currency/MDOItems?flat=True
+GET /api/v1/List/Currency/MDOItems?query=harum
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 738,
-    "Name": "Hermann Inc and Sons",
-    "ToolTip": "Nesciunt quod pariatur debitis quod eligendi.",
-    "Deleted": true,
-    "Rank": 411,
-    "Type": "aspernatur",
+    "Id": 861,
+    "Name": "Zboncak-Tromp",
+    "ToolTip": "Eligendi sed id fugit.",
+    "Deleted": false,
+    "Rank": 988,
+    "Type": "veniam",
     "ChildItems": [
       {
-        "Id": 535,
-        "Name": "Schneider-Fahey",
-        "ToolTip": "Magni ea quasi sunt.",
+        "Id": 678,
+        "Name": "Buckridge, Bednar and Mertz",
+        "ToolTip": "Aut expedita qui officia qui qui.",
         "Deleted": true,
-        "Rank": 409,
-        "Type": "harum",
+        "Rank": 704,
+        "Type": "asperiores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 801,
-        "ExtraInfo": "veritatis",
-        "StyleHint": "ut",
-        "FullName": "Vida Kozey",
+        "IconHint": "ut",
+        "ColorBlock": 549,
+        "ExtraInfo": "rerum",
+        "StyleHint": "dolorem",
+        "FullName": "Freeda Davis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 354
+            "FieldType": "System.Int32",
+            "FieldLength": 351
           }
         }
       }
     ],
-    "IconHint": "magni",
-    "ColorBlock": 539,
-    "ExtraInfo": "dolorum",
-    "StyleHint": "temporibus",
-    "FullName": "Madelyn Baumbach",
+    "IconHint": "at",
+    "ColorBlock": 360,
+    "ExtraInfo": "dolorem",
+    "StyleHint": "aspernatur",
+    "FullName": "Bette Earnest Labadie PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 421
+        "FieldLength": 25
       }
     }
   }

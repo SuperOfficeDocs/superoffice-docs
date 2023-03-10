@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "ullam",
+    "path": "consequuntur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ullam",
+    "path": "consequuntur",
     "value": {}
   }
 ]
@@ -137,29 +137,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 973,
-  "Name": "Fadel Inc and Sons",
-  "CreatedDate": "2023-02-08T14:19:10.3498478+01:00",
-  "UpdatedDate": "1997-10-11T14:19:10.3498478+02:00",
+  "ForeignAppId": 521,
+  "Name": "Pacocha-Dickinson",
+  "CreatedDate": "2022-09-08T12:15:26.958636+02:00",
+  "UpdatedDate": "2003-01-07T12:15:26.958636+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 792,
-      "Name": "Smitham Inc and Sons",
-      "CreatedDate": "2001-06-26T14:19:10.3498478+02:00",
-      "UpdatedDate": "1999-08-28T14:19:10.3498478+02:00",
-      "AssociateFullName": "Ewell Ortiz",
-      "CreatedBy": "inventore",
-      "UpdatedBy": "doloremque",
-      "DeviceIdentifier": "dicta",
-      "ForeignAppId": 107,
+      "ForeignDeviceId": 852,
+      "Name": "Lang-Walter",
+      "CreatedDate": "2007-07-29T12:15:26.9686354+02:00",
+      "UpdatedDate": "2006-02-28T12:15:26.9686354+01:00",
+      "AssociateFullName": "Helen Stroman",
+      "CreatedBy": "id",
+      "UpdatedBy": "odio",
+      "DeviceIdentifier": "fuga",
+      "ForeignAppId": 154,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 753
+          "FieldType": "System.String",
+          "FieldLength": 571
         }
       }
     }
@@ -169,12 +169,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 97
+      "FieldLength": 19
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

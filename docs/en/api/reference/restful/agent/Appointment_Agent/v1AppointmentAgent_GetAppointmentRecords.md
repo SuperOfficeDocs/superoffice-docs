@@ -123,12 +123,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 965,
-  "RecurrenceRuleId": 795
+  "MotherId": 297,
+  "RecurrenceRuleId": 547
 }
 ```
 
@@ -140,53 +140,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 414,
-    "StartDate": "2000-10-28T14:19:02.4682131+02:00",
-    "EndDate": "2013-10-15T14:19:02.4682131+02:00",
+    "AppointmentId": 717,
+    "StartDate": "1998-04-23T12:15:17.6817776+02:00",
+    "EndDate": "2006-04-05T12:15:17.6817776+02:00",
     "Type": "BookingForChecklist",
-    "Task": "assumenda",
-    "AssociateFullName": "Beaulah Wiza",
-    "ContactName": "Kerluke-Jones",
-    "Description": "Self-enabling empowering portal",
-    "PersonFullName": "Prof. Jeffry Liliane Wilkinson DDS",
-    "PersonId": 96,
-    "ContactId": 980,
-    "ProjectId": 843,
-    "ProjectName": "DuBuque, Pfeffer and Yundt",
+    "Task": "dolorem",
+    "AssociateFullName": "Dante Wuckert I",
+    "ContactName": "Buckridge Group",
+    "Description": "Polarised real-time function",
+    "PersonFullName": "Miss Evangeline McDermott Sr.",
+    "PersonId": 113,
+    "ContactId": 151,
+    "ProjectId": 202,
+    "ProjectName": "Olson Group",
     "IsPublished": false,
-    "AssociateId": 8,
-    "ColorIndex": 408,
+    "AssociateId": 214,
+    "ColorIndex": 393,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 393,
-    "PriorityName": "Mayer, Feeney and Koss",
+    "PriorityId": 889,
+    "PriorityName": "Windler, Homenick and Mosciski",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2000-11-19T14:19:02.4682131+01:00",
+    "ActiveDate": "1998-09-19T12:15:17.6817776+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-01-25T14:19:02.4682131+01:00",
-    "RecurringEndDate": "2009-02-05T14:19:02.4682131+01:00",
-    "MotherId": 251,
-    "AssignedBy": 516,
-    "AssignedByFullName": "Prof. Sterling Antonia Stoltenberg",
-    "RejectReason": "disintermediate impactful partnerships",
-    "Location": "earum",
-    "AlarmLeadTime": "accusantium",
-    "SaleId": 492,
-    "SaleName": "Kling Group",
-    "AssociateName": "Simonis Inc and Sons",
-    "CreatedDate": "2014-03-01T14:19:02.4838092+01:00",
-    "CreatedBy": "in",
-    "CreatedByFullName": "Mrs. Alena McGlynn DVM",
-    "CreatedByAssociateId": 946,
+    "RecurringStartDate": "2003-09-06T12:15:17.6817776+02:00",
+    "RecurringEndDate": "2004-07-13T12:15:17.6817776+02:00",
+    "MotherId": 110,
+    "AssignedBy": 275,
+    "AssignedByFullName": "Ernest Koepp",
+    "RejectReason": "",
+    "Location": "voluptatum",
+    "AlarmLeadTime": "laboriosam",
+    "SaleId": 731,
+    "SaleName": "Walsh-Hoppe",
+    "AssociateName": "Parker Group",
+    "CreatedDate": "2010-07-05T12:15:17.6827699+02:00",
+    "CreatedBy": "molestias",
+    "CreatedByFullName": "Rubie Maurice Gislason PhD",
+    "CreatedByAssociateId": 756,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -194,7 +194,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldLength": 563
       }
     }
   }

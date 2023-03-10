@@ -35,7 +35,7 @@ Calls the User agent service GetUser.
 
 ```http
 GET /api/v1/User/{id}?$select=name,department,category/id
-GET /api/v1/User/{id}?fk=False
+GET /api/v1/User/{id}?fk=True
 ```
 
 
@@ -101,7 +101,7 @@ User found.
 GET /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -111,14 +111,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 711,
-  "Name": "Kuphal, Beer and Tillman",
-  "Rank": 372,
-  "Tooltip": "voluptatem",
+  "AssociateId": 975,
+  "Name": "Beahan LLC",
+  "Rank": 705,
+  "Tooltip": "rem",
   "LicenseOwners": [
     {
-      "Name": "Langworth-Bogan",
-      "Description": "Organic mobile superstructure",
+      "Name": "VonRueden, Harvey and Hills",
+      "Description": "Adaptive secondary capacity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,13 +132,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 120
+          "FieldLength": 539
         }
       }
     },
     {
-      "Name": "Langworth-Bogan",
-      "Description": "Organic mobile superstructure",
+      "Name": "VonRueden, Harvey and Hills",
+      "Description": "Adaptive secondary capacity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 120
+          "FieldLength": 539
         }
       }
     }
@@ -161,110 +161,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "ut",
-      "Tooltip": "libero",
-      "Id": 2,
-      "Rank": 976,
+      "Value": "nemo",
+      "Tooltip": "nisi",
+      "Id": 848,
+      "Rank": 590,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 456
+          "FieldLength": 473
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2014-02-24T14:19:11.0217292+01:00",
-  "Lastlogout": "2001-05-08T14:19:11.0217292+02:00",
-  "EjUserId": 691,
-  "RequestSignature": "earum",
+  "Deleted": true,
+  "Lastlogin": "2010-07-08T12:15:27.7426245+02:00",
+  "Lastlogout": "2016-07-05T12:15:27.7426245+02:00",
+  "EjUserId": 939,
+  "RequestSignature": "soluta",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "quo",
-      "DisplayValue": "vero",
+      "Value": "a",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 77
+          "FieldLength": 987
         }
       }
     },
     {
       "Type": null,
-      "Value": "quo",
-      "DisplayValue": "vero",
+      "Value": "a",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 77
+          "FieldLength": 987
         }
       }
     }
   ],
-  "UserName": "Balistreri LLC",
+  "UserName": "Crist-Jacobi",
   "TicketCategories": [
     {
-      "Id": 931,
-      "Name": "Block LLC",
-      "ToolTip": "Sit quis voluptatem consequatur debitis eligendi asperiores eum.",
-      "Deleted": true,
-      "Rank": 80,
-      "Type": "reprehenderit",
+      "Id": 513,
+      "Name": "Goyette Inc and Sons",
+      "ToolTip": "Quod facilis voluptatem aut ipsum autem qui.",
+      "Deleted": false,
+      "Rank": 153,
+      "Type": "nobis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "illum",
-      "ColorBlock": 868,
-      "ExtraInfo": "iusto",
-      "StyleHint": "qui",
-      "FullName": "Frederique Welch",
+      "IconHint": "magnam",
+      "ColorBlock": 378,
+      "ExtraInfo": "error",
+      "StyleHint": "velit",
+      "FullName": "Madilyn Goodwin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 835
+          "FieldLength": 915
         }
       }
     }
   ],
-  "NickName": "Emard Group",
-  "WaitingForApproval": false,
+  "NickName": "Champlin-Eichmann",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "laborum",
-    "ExtraFields2": "vitae"
+    "ExtraFields1": "fugiat",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "perferendis"
+    "CustomFields1": "porro",
+    "CustomFields2": "molestiae"
   },
   "PostSaveCommands": [
     {
-      "Name": "Kovacek-Ruecker",
-      "DisplayName": "Luettgen, Donnelly and Pfeffer",
-      "Description": "Open-source mobile framework",
-      "ToolTip": "Dolor aut nemo.",
+      "Name": "Johnston, Marks and Pagac",
+      "DisplayName": "Schaden LLC",
+      "Description": "Self-enabling client-driven initiative",
+      "ToolTip": "Autem voluptates alias excepturi et.",
       "Actions": "Implicit",
-      "ActionData": "architecto",
+      "ActionData": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 740
+          "FieldLength": 403
         }
       }
     }
@@ -273,8 +273,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 977
+      "FieldType": "System.Int32",
+      "FieldLength": 340
     }
   },
   "_Links": {

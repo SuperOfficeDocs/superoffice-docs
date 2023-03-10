@@ -111,29 +111,29 @@ OK
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Parker-Towne",
-  "Comment": "consequatur",
-  "StakeholderRoleId": 443,
-  "CountryId": 434,
-  "PersonId": 233,
-  "EmailDescription": "santino@dubuque.uk",
-  "EmailId": 951,
-  "EmailAddress": "doyle.weimann@glover.co.uk",
-  "PhoneId": 157,
-  "ContactName": "Bosco Group",
-  "ContactId": 363,
-  "SaleId": 200,
-  "Mrmrs": "error",
-  "Firstname": "Leanna",
-  "MiddleName": "Baumbach LLC",
-  "Lastname": "Littel",
-  "SaleStakeholderId": 963,
-  "Rank": 742,
-  "Phone": "628.705.4863 x53407"
+  "StakeholderRoleName": "Schinner, Koss and Dach",
+  "Comment": "aut",
+  "StakeholderRoleId": 836,
+  "CountryId": 342,
+  "PersonId": 41,
+  "EmailDescription": "jo_toy@goldner.name",
+  "EmailId": 385,
+  "EmailAddress": "dina@hegmann.us",
+  "PhoneId": 875,
+  "ContactName": "Lesch-Ratke",
+  "ContactId": 861,
+  "SaleId": 468,
+  "Mrmrs": "in",
+  "Firstname": "Rodrigo",
+  "MiddleName": "Quigley LLC",
+  "Lastname": "Reilly",
+  "SaleStakeholderId": 113,
+  "Rank": 568,
+  "Phone": "1-591-505-7703 x3626"
 }
 ```
 
@@ -144,36 +144,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Rogahn Inc and Sons",
-  "Comment": "illo",
-  "StakeholderRoleId": 160,
-  "CountryId": 145,
-  "PersonId": 687,
-  "EmailDescription": "kay_oreilly@kuhic.info",
-  "EmailId": 684,
-  "EmailAddress": "jovan.olson@jones.com",
-  "PhoneId": 378,
-  "ContactName": "Hintz-Nolan",
-  "ContactId": 384,
-  "SaleId": 411,
-  "Mrmrs": "cumque",
-  "Firstname": "Ellsworth",
-  "MiddleName": "Schroeder, Ratke and Kautzer",
-  "Lastname": "Gottlieb",
-  "SaleStakeholderId": 3,
-  "Rank": 942,
-  "Phone": "259-567-5654 x943",
+  "StakeholderRoleName": "Kub-Collier",
+  "Comment": "natus",
+  "StakeholderRoleId": 38,
+  "CountryId": 63,
+  "PersonId": 733,
+  "EmailDescription": "lyda@brakus.biz",
+  "EmailId": 930,
+  "EmailAddress": "lupe@jacobs.biz",
+  "PhoneId": 130,
+  "ContactName": "Emard-Willms",
+  "ContactId": 554,
+  "SaleId": 208,
+  "Mrmrs": "in",
+  "Firstname": "Arlie",
+  "MiddleName": "Kiehn Inc and Sons",
+  "Lastname": "Reilly",
+  "SaleStakeholderId": 450,
+  "Rank": 955,
+  "Phone": "(844)371-0199 x5613",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 797
+      "FieldType": "System.Int32",
+      "FieldLength": 781
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

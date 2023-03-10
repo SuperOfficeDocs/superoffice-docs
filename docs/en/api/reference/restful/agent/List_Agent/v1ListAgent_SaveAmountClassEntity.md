@@ -80,14 +80,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 645,
-  "Name": "VonRueden, Collier and Denesik",
-  "Tooltip": "enim",
-  "Rank": 171,
-  "AmountFrom": 30261.904,
-  "AmountTo": 15347.198,
-  "Deleted": false,
-  "CurrencyId": 952
+  "AmountClassId": 625,
+  "Name": "Feeney LLC",
+  "Tooltip": "quia",
+  "Rank": 756,
+  "AmountFrom": 24934.104,
+  "AmountTo": 26990.007999999998,
+  "Deleted": true,
+  "CurrencyId": 100
 }
 ```
 
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 370,
-  "Name": "Murphy, Becker and Schaefer",
-  "Tooltip": "dolore",
-  "Rank": 535,
-  "AmountFrom": 17870.068,
-  "AmountTo": 2842.538,
+  "AmountClassId": 984,
+  "Name": "Stamm Inc and Sons",
+  "Tooltip": "autem",
+  "Rank": 834,
+  "AmountFrom": 26040.406,
+  "AmountTo": 5603.592,
   "Deleted": false,
-  "CurrencyId": 864,
+  "CurrencyId": 212,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldType": "System.String",
+      "FieldLength": 829
     }
   }
 }

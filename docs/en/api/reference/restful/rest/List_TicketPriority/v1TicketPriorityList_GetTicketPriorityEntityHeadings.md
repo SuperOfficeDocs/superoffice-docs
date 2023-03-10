@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 380,
-    "Name": "Lubowitz LLC",
-    "Tooltip": "aliquam",
+    "HeadingId": 234,
+    "Name": "Brakus Group",
+    "Tooltip": "ad",
     "Deleted": false,
-    "Rank": 180,
-    "UdListDefinitionId": 976,
+    "Rank": 16,
+    "UdListDefinitionId": 444,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 235
+        "FieldType": "System.String",
+        "FieldLength": 495
       }
     }
   }

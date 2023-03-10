@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 67,
-    "Name": "Douglas-Jewess",
-    "ToolTip": "Numquam aperiam.",
+    "Id": 477,
+    "Name": "Nikolaus Group",
+    "ToolTip": "Dicta eos.",
     "Deleted": false,
-    "Rank": 120,
-    "Type": "accusantium",
-    "ColorBlock": 99,
-    "IconHint": "officia",
-    "Selected": true,
-    "LastChanged": "2020-07-28T14:19:11.2730964+02:00",
+    "Rank": 842,
+    "Type": "voluptatem",
+    "ColorBlock": 126,
+    "IconHint": "amet",
+    "Selected": false,
+    "LastChanged": "2000-08-19T12:15:28.1736187+02:00",
     "ChildItems": [
       {
-        "Id": 132,
-        "Name": "Terry, Johns and Langworth",
-        "ToolTip": "Incidunt expedita suscipit explicabo sint sequi quis.",
+        "Id": 209,
+        "Name": "Feest, Lang and Wisozk",
+        "ToolTip": "Deserunt suscipit nam et sapiente.",
         "Deleted": false,
-        "Rank": 656,
-        "Type": "minima",
-        "ColorBlock": 333,
-        "IconHint": "vero",
+        "Rank": 21,
+        "Type": "dolores",
+        "ColorBlock": 314,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2020-10-15T14:19:11.2730964+02:00",
+        "LastChanged": "2021-09-02T12:15:28.1746182+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "nisi",
+        "ExtraInfo": "id",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Reilly Kuhn",
+        "FullName": "Jairo Jaylan Hodkiewicz Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 169
+            "FieldType": "System.String",
+            "FieldLength": 442
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "illo",
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "sequi",
     "Hidden": false,
-    "FullName": "Makenna Senger",
+    "FullName": "Brionna Swift",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 703
+        "FieldLength": 929
       }
     }
   }

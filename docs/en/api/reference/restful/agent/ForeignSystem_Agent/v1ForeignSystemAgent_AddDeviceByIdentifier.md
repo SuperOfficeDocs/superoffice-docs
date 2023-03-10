@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Mante, Ferry and McLaughlin",
-  "DeviceName": "Bins Inc and Sons",
-  "DeviceIdentifier": "laboriosam"
+  "ApplicationName": "Pfeffer, Bartell and Pfeffer",
+  "DeviceName": "Veum, Nicolas and Reichel",
+  "DeviceIdentifier": "deserunt"
 }
 ```
 
@@ -99,21 +99,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 976,
-  "Name": "Shields LLC",
-  "CreatedDate": "2001-04-01T14:19:03.5602728+02:00",
-  "UpdatedDate": "2006-04-05T14:19:03.5602728+02:00",
-  "AssociateFullName": "Reta Dare",
-  "CreatedBy": "odio",
-  "UpdatedBy": "aut",
-  "DeviceIdentifier": "ad",
-  "ForeignAppId": 573,
+  "ForeignDeviceId": 977,
+  "Name": "Monahan LLC",
+  "CreatedDate": "2014-07-25T12:15:19.1537547+02:00",
+  "UpdatedDate": "2011-04-17T12:15:19.1537547+02:00",
+  "AssociateFullName": "Mrs. Laisha Ike Wiegand DVM",
+  "CreatedBy": "non",
+  "UpdatedBy": "possimus",
+  "DeviceIdentifier": "animi",
+  "ForeignAppId": 546,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldLength": 180
     }
   }
 }

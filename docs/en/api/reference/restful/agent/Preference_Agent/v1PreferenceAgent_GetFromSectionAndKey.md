@@ -90,12 +90,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "et",
-  "Key": "et"
+  "Section": "quibusdam",
+  "Key": "eos"
 }
 ```
 
@@ -106,30 +106,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 232,
-  "Section": "soluta",
-  "Key": "omnis",
-  "Name": "Aufderhar Inc and Sons",
+  "PrefDescId": 225,
+  "Section": "illum",
+  "Key": "adipisci",
+  "Name": "Jacobs LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Compatible composite challenge",
+  "Description": "Stand-alone exuding help-desk",
   "IsBuiltin": false,
-  "TableName": "Glover, Gottlieb and Rosenbaum",
-  "UserDefinedListId": 918,
-  "Rank": 925,
-  "SubGroup": "quia",
-  "MinLevel": 311,
-  "MaxValue": 475,
-  "MinValue": 585,
-  "RequiredLicense": "deleniti",
+  "TableName": "Watsica-Paucek",
+  "UserDefinedListId": 81,
+  "Rank": 38,
+  "SubGroup": "vitae",
+  "MinLevel": 675,
+  "MaxValue": 232,
+  "MinValue": 543,
+  "RequiredLicense": "delectus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 885
+      "FieldLength": 987
     }
   }
 }

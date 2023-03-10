@@ -76,19 +76,19 @@ OK
 POST /api/v1/Agents/Document/SubstituteTemplateVariables
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "explicabo",
+  "Source": "nesciunt",
   "GeneratorEncoding": "Html",
-  "ContactId": 794,
-  "PersonId": 270,
-  "AppointmentId": 841,
-  "DocumentId": 922,
-  "SaleId": 996,
-  "SelectionId": 924,
-  "ProjectId": 872,
+  "ContactId": 831,
+  "PersonId": 635,
+  "AppointmentId": 472,
+  "DocumentId": 188,
+  "SaleId": 507,
+  "SelectionId": 644,
+  "ProjectId": 332,
   "CultureName": "sv"
 }
 ```
@@ -99,5 +99,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"qui"
+"voluptatem"
 ```

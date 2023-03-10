@@ -83,8 +83,8 @@ Content-Type: application/json; charset=utf-8
 {
   "License": [
     {
-      "Name": "Gleason-Mosciski",
-      "Description": "Horizontal disintermediate hub",
+      "Name": "Weber-Ratke",
+      "Description": "Fully-configurable modular productivity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -95,8 +95,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Gleason-Mosciski",
-      "Description": "Horizontal disintermediate hub",
+      "Name": "Weber-Ratke",
+      "Description": "Fully-configurable modular productivity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -118,56 +118,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Corkery, Ernser and Lebsack",
-    "Description": "Self-enabling bifurcated flexibility",
+    "Name": "Wisoky, Morissette and Ernser",
+    "Description": "Organic composite approach",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 750,
-        "Tooltip": "nemo",
-        "CanAssign": true,
-        "Free": 131,
-        "InUse": 790,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 391,
-        "Name": "Heathcote Group",
-        "Description": "Implemented global core",
-        "PrerequisiteModuleName": "Jacobi Inc and Sons",
-        "SortOrder": 380,
-        "ExtraFlags": 685,
+        "Unrestricted": false,
+        "Total": 182,
+        "Tooltip": "ratione",
+        "CanAssign": false,
+        "Free": 420,
+        "InUse": 252,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 183,
+        "Name": "Jewess Group",
+        "Description": "Assimilated actuating system engine",
+        "PrerequisiteModuleName": "Luettgen Inc and Sons",
+        "SortOrder": 717,
+        "ExtraFlags": 733,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 622
+            "FieldType": "System.Int32",
+            "FieldLength": 753
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 152,
-        "Tooltip": "nemo",
+        "Unrestricted": false,
+        "Total": 602,
+        "Tooltip": "blanditiis",
         "CanAssign": false,
-        "Free": 529,
-        "InUse": 103,
-        "IsHidden": true,
+        "Free": 141,
+        "InUse": 297,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 338,
-        "Name": "Considine-Ledner",
-        "Description": "Business-focused analyzing function",
-        "PrerequisiteModuleName": "Schumm-Crona",
-        "SortOrder": 356,
-        "ExtraFlags": 735,
+        "ModuleLicenseId": 783,
+        "Name": "Upton-Doyle",
+        "Description": "Right-sized client-server interface",
+        "PrerequisiteModuleName": "Streich-White",
+        "SortOrder": 518,
+        "ExtraFlags": 570,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 265
+            "FieldLength": 305
           }
         }
       }
@@ -176,62 +176,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 799
+        "FieldType": "System.Int32",
+        "FieldLength": 779
       }
     }
   },
   {
-    "Name": "Corkery, Ernser and Lebsack",
-    "Description": "Self-enabling bifurcated flexibility",
+    "Name": "Wisoky, Morissette and Ernser",
+    "Description": "Organic composite approach",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 750,
-        "Tooltip": "nemo",
-        "CanAssign": true,
-        "Free": 131,
-        "InUse": 790,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 391,
-        "Name": "Heathcote Group",
-        "Description": "Implemented global core",
-        "PrerequisiteModuleName": "Jacobi Inc and Sons",
-        "SortOrder": 380,
-        "ExtraFlags": 685,
+        "Unrestricted": false,
+        "Total": 182,
+        "Tooltip": "ratione",
+        "CanAssign": false,
+        "Free": 420,
+        "InUse": 252,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 183,
+        "Name": "Jewess Group",
+        "Description": "Assimilated actuating system engine",
+        "PrerequisiteModuleName": "Luettgen Inc and Sons",
+        "SortOrder": 717,
+        "ExtraFlags": 733,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 622
+            "FieldType": "System.Int32",
+            "FieldLength": 753
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 152,
-        "Tooltip": "nemo",
+        "Unrestricted": false,
+        "Total": 602,
+        "Tooltip": "blanditiis",
         "CanAssign": false,
-        "Free": 529,
-        "InUse": 103,
-        "IsHidden": true,
+        "Free": 141,
+        "InUse": 297,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 338,
-        "Name": "Considine-Ledner",
-        "Description": "Business-focused analyzing function",
-        "PrerequisiteModuleName": "Schumm-Crona",
-        "SortOrder": 356,
-        "ExtraFlags": 735,
+        "ModuleLicenseId": 783,
+        "Name": "Upton-Doyle",
+        "Description": "Right-sized client-server interface",
+        "PrerequisiteModuleName": "Streich-White",
+        "SortOrder": 518,
+        "ExtraFlags": 570,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 265
+            "FieldLength": 305
           }
         }
       }
@@ -240,8 +240,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 799
+        "FieldType": "System.Int32",
+        "FieldLength": 779
       }
     }
   }

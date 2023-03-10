@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 180
+  "DepartmentId": 575
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(479)717-1836 x50871",
-    "PersonCellPhone": "(712)523-3141 x2295",
-    "PersonPrivatePhone": "(049)851-5817 x41716",
-    "PersonFaxNumber": "1190398",
-    "PersonPagerNumber": "576258",
-    "PersonEmail": "haleigh_lebsack@dietrich.com",
-    "Id": 906,
-    "Name": "Mann LLC",
-    "Tooltip": "ipsum",
-    "UniqueId": "tempore",
+    "PersonDirectPhone": "513-861-8327",
+    "PersonCellPhone": "1-209-244-2159 x712",
+    "PersonPrivatePhone": "(911)226-8989",
+    "PersonFaxNumber": "806888",
+    "PersonPagerNumber": "1128254",
+    "PersonEmail": "lionel@koelpinwaters.us",
+    "Id": 349,
+    "Name": "Ankunding-Renner",
+    "Tooltip": "cupiditate",
+    "UniqueId": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 933
+        "FieldType": "System.Int32",
+        "FieldLength": 150
       }
     }
   }

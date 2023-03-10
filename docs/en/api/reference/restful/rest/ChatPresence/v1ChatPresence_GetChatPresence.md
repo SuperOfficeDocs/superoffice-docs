@@ -69,20 +69,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 58,
-    "DisplayName": "Schmeler LLC",
-    "OngoingChats": 26,
+    "UserId": 435,
+    "DisplayName": "Hickle LLC",
+    "OngoingChats": 33,
     "Present": false,
     "ChatTopics": [
-      833,
-      549
+      421,
+      25
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 646
+        "FieldType": "System.Int32",
+        "FieldLength": 421
       }
     }
   }

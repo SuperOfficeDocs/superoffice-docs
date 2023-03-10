@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Stanton-Altenwerth"
+  "LayoutName": "Schuppe, Shields and Jast"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 988,
-    "Name": "Hickle Group",
-    "Value": "voluptates",
-    "CreatedDate": "1996-12-26T14:19:02.7594283+01:00",
-    "UpdatedDate": "2004-01-29T14:19:02.7594283+01:00",
-    "CreatedBy": "iure",
-    "UpdatedBy": "pariatur",
+    "AudienceLayoutId": 786,
+    "Name": "Botsford-Schoen",
+    "Value": "ab",
+    "CreatedDate": "2013-11-15T12:15:18.1917625+01:00",
+    "UpdatedDate": "1998-01-15T12:15:18.1917625+01:00",
+    "CreatedBy": "omnis",
+    "UpdatedBy": "neque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldType": "System.String",
+        "FieldLength": 804
       }
     }
   }

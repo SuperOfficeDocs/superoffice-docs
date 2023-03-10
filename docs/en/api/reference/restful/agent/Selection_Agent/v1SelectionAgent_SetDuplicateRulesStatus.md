@@ -63,22 +63,22 @@ No Content
 POST /api/v1/Agents/Selection/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Dare Inc and Sons",
-      "DisplayName": "Considine LLC",
-      "DisplayTooltip": "nobis",
-      "IsActive": true
+      "Name": "O'Reilly, Rogahn and Wolf",
+      "DisplayName": "Wilkinson Group",
+      "DisplayTooltip": "vero",
+      "IsActive": false
     },
     {
-      "Name": "Dare Inc and Sons",
-      "DisplayName": "Considine LLC",
-      "DisplayTooltip": "nobis",
-      "IsActive": true
+      "Name": "O'Reilly, Rogahn and Wolf",
+      "DisplayName": "Wilkinson Group",
+      "DisplayTooltip": "vero",
+      "IsActive": false
     }
   ]
 }

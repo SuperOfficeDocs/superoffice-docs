@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 991,
-  "Value": "iste",
-  "Tooltip": "ipsa",
+  "Id": 811,
+  "Value": "perspiciatis",
+  "Tooltip": "repudiandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 479
+      "FieldLength": 24
     }
   }
 }

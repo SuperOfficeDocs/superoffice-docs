@@ -89,7 +89,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,91 +97,91 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 14 Oct 2012 14:19:10 G10T
+Last-Modified: Fri, 27 Jan 2012 12:15:26 G1T
 
 {
-  "DocumentId": 656,
+  "DocumentId": 44,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "dolores",
-  "Header": "incidunt",
-  "Name": "Gleason, Will and Kshlerin",
-  "OurRef": "facere",
-  "YourRef": "accusamus",
-  "CreatedDate": "2017-01-25T14:19:10.2560985+01:00",
-  "UpdatedDate": "2012-10-14T14:19:10.2560985+02:00",
-  "Description": "Right-sized solution-oriented migration",
+  "Attention": "veritatis",
+  "Header": "autem",
+  "Name": "Feil, Pagac and Greenholt",
+  "OurRef": "quisquam",
+  "YourRef": "dolores",
+  "CreatedDate": "2011-01-15T12:15:26.8256373+01:00",
+  "UpdatedDate": "2012-01-27T12:15:26.8256373+01:00",
+  "Description": "Profound needs-based implementation",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-11-08T14:19:10.2560985+01:00",
-  "ExternalRef": "fugiat",
+  "Date": "2000-10-27T12:15:26.8286374+02:00",
+  "ExternalRef": "voluptatem",
   "Completed": "Completed",
-  "ActiveLinks": 62,
+  "ActiveLinks": 469,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kuvalis, O'Kon and Powlowski",
-      "Id": 370,
-      "Description": "Self-enabling multi-state analyzer",
-      "ExtraInfo": "et",
-      "LinkId": 200,
+      "EntityName": "Nitzsche-Flatley",
+      "Id": 698,
+      "Description": "Profit-focused upward-trending local area network",
+      "ExtraInfo": "neque",
+      "LinkId": 628,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 968
+          "FieldLength": 275
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 535,
-  "Snum": 329,
+  "SuggestedDocumentId": 148,
+  "Snum": 366,
   "UserDefinedFields": {
-    "SuperOffice:1": "Beatrice Myriam Gulgowski Sr.",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Ms. Adrien Adele Parisian Jr.",
+    "SuperOffice:2": "1351949914"
   },
   "ExtraFields": {
-    "ExtraFields1": "quae",
-    "ExtraFields2": "quo"
+    "ExtraFields1": "temporibus",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "culpa"
+    "CustomFields1": "eum",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "1998-11-01T14:19:10.2560985+01:00",
-  "PublishTo": "2021-04-11T14:19:10.2560985+02:00",
-  "PublishFrom": "2000-07-05T14:19:10.2560985+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2013-01-21T12:15:26.8306375+01:00",
+  "PublishTo": "2000-09-24T12:15:26.8306375+02:00",
+  "PublishFrom": "2004-11-17T12:15:26.8306375+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 612,
+      "VisibleId": 215,
       "Visibility": "All",
-      "DisplayValue": "exercitationem",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 857
+          "FieldLength": 553
         }
       }
     },
     {
-      "VisibleId": 612,
+      "VisibleId": 215,
       "Visibility": "All",
-      "DisplayValue": "exercitationem",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 857
+          "FieldLength": 553
         }
       }
     }
@@ -191,7 +191,7 @@ Last-Modified: Sun, 14 Oct 2012 14:19:10 G10T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 60
+      "FieldLength": 657
     }
   }
 }

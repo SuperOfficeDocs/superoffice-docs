@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 552,
-    "Value": "laborum",
-    "Tooltip": "voluptas",
+    "Id": 335,
+    "Value": "dicta",
+    "Tooltip": "ipsa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 793
+        "FieldLength": 391
       }
     }
   },
   {
-    "Id": 552,
-    "Value": "laborum",
-    "Tooltip": "voluptas",
+    "Id": 335,
+    "Value": "dicta",
+    "Tooltip": "ipsa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 793
+        "FieldLength": 391
       }
     }
   }

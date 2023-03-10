@@ -107,23 +107,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 448,
-  "Name": "Bergstrom, Senger and Barrows",
-  "CurrencyId": 247,
-  "EnglishName": "Feeney, Hoppe and Will",
+  "CountryId": 916,
+  "Name": "Windler-Mertz",
+  "CurrencyId": 858,
+  "EnglishName": "Waters LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Virtual analyzing superstructure",
-  "OrgNrText": "1102649",
-  "InterAreaPrefix": "eum",
-  "DialInPrefix": "velit",
-  "ZipPrefix": "qui",
-  "DomainName": "Cartwright-O'Reilly",
-  "AddressLayoutId": 90,
-  "DomesticAddressLayoutId": 843,
-  "ForeignAddressLayoutId": 219,
-  "Rank": 286,
-  "Tooltip": "reiciendis",
+  "ImageDescription": "Centralized user-facing database",
+  "OrgNrText": "710208",
+  "InterAreaPrefix": "rerum",
+  "DialInPrefix": "repellat",
+  "ZipPrefix": "sit",
+  "DomainName": "Kessler, Watsica and Volkman",
+  "AddressLayoutId": 347,
+  "DomesticAddressLayoutId": 848,
+  "ForeignAddressLayoutId": 30,
+  "Rank": 363,
+  "Tooltip": "reprehenderit",
   "Deleted": false
 }
 ```
@@ -135,30 +135,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 357,
-  "Name": "Adams-Conroy",
-  "CurrencyId": 903,
-  "EnglishName": "Huels-Yost",
+  "CountryId": 91,
+  "Name": "Boyer Group",
+  "CurrencyId": 285,
+  "EnglishName": "Treutel Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Programmable national help-desk",
-  "OrgNrText": "1043875",
-  "InterAreaPrefix": "aut",
-  "DialInPrefix": "accusantium",
-  "ZipPrefix": "quae",
-  "DomainName": "Rodriguez, Haley and Tromp",
-  "AddressLayoutId": 218,
-  "DomesticAddressLayoutId": 364,
-  "ForeignAddressLayoutId": 369,
-  "Rank": 771,
-  "Tooltip": "ipsam",
-  "Deleted": true,
+  "ImageDescription": "Ameliorated logistical circuit",
+  "OrgNrText": "1436625",
+  "InterAreaPrefix": "porro",
+  "DialInPrefix": "deserunt",
+  "ZipPrefix": "fuga",
+  "DomainName": "Bradtke LLC",
+  "AddressLayoutId": 514,
+  "DomesticAddressLayoutId": 747,
+  "ForeignAddressLayoutId": 854,
+  "Rank": 485,
+  "Tooltip": "id",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 748
+      "FieldType": "System.Int32",
+      "FieldLength": 210
     }
   }
 }

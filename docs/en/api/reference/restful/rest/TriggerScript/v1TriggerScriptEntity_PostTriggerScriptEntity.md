@@ -96,20 +96,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 609,
-  "Name": "Witting-Hintz",
+  "ScreenChooserId": 912,
+  "Name": "Jacobson Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "est",
-  "Source": "minima",
-  "Registered": "2004-03-27T14:19:10.912356+01:00",
-  "RegisteredAssociateId": 219,
-  "Updated": "2009-12-23T14:19:10.912356+01:00",
-  "UpdatedAssociateId": 183
+  "Enabled": false,
+  "UniqueIdentifier": "facere",
+  "Source": "et",
+  "Registered": "2017-09-16T12:15:27.5866312+02:00",
+  "RegisteredAssociateId": 515,
+  "Updated": "2007-03-03T12:15:27.5866312+01:00",
+  "UpdatedAssociateId": 761
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 321,
-  "Name": "O'Connell Inc and Sons",
+  "ScreenChooserId": 40,
+  "Name": "McKenzie-Reichel",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "in",
-  "Source": "ipsum",
-  "Registered": "2011-01-08T14:19:10.912356+01:00",
-  "RegisteredAssociateId": 297,
-  "Updated": "2015-12-05T14:19:10.912356+01:00",
-  "UpdatedAssociateId": 283,
+  "UniqueIdentifier": "nisi",
+  "Source": "aperiam",
+  "Registered": "2002-11-12T12:15:27.5876273+01:00",
+  "RegisteredAssociateId": 99,
+  "Updated": "2007-11-18T12:15:27.5876273+01:00",
+  "UpdatedAssociateId": 793,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 62
+      "FieldLength": 980
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

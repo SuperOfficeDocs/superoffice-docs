@@ -122,16 +122,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    361,
-    73
+    300,
+    354
   ],
-  "StartTime": "2010-05-10T14:19:02.3731222+02:00",
-  "EndTime": "2003-08-15T14:19:02.3731222+02:00"
+  "StartTime": "1998-11-17T12:15:17.6777713+01:00",
+  "EndTime": "2009-11-08T12:15:17.6777713+01:00"
 }
 ```
 
@@ -143,61 +143,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 349,
-    "StartDate": "1999-07-13T14:19:02.4682131+02:00",
-    "EndDate": "2004-05-27T14:19:02.4682131+02:00",
+    "AppointmentId": 500,
+    "StartDate": "2011-01-21T12:15:17.6787698+01:00",
+    "EndDate": "2005-08-16T12:15:17.6787698+02:00",
     "Type": "BookingForChecklist",
-    "Task": "unde",
-    "AssociateFullName": "Frederique Kihn II",
-    "ContactName": "Rolfson LLC",
-    "Description": "Realigned client-server concept",
-    "PersonFullName": "Prof. Jude Renee McCullough",
-    "PersonId": 898,
-    "ContactId": 827,
-    "ProjectId": 600,
-    "ProjectName": "Langworth Inc and Sons",
-    "IsPublished": true,
-    "AssociateId": 473,
-    "ColorIndex": 370,
+    "Task": "aut",
+    "AssociateFullName": "Dr. Janae Amos Kovacek",
+    "ContactName": "Harris Group",
+    "Description": "Organic high-level contingency",
+    "PersonFullName": "Margot Thiel",
+    "PersonId": 499,
+    "ContactId": 589,
+    "ProjectId": 489,
+    "ProjectName": "Cole-Carroll",
+    "IsPublished": false,
+    "AssociateId": 921,
+    "ColorIndex": 706,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "HasAlarm": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 328,
-    "PriorityName": "O'Conner Inc and Sons",
+    "PriorityId": 276,
+    "PriorityName": "Pouros, Schowalter and Stokes",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2009-01-02T14:19:02.4682131+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2009-04-21T12:15:17.6797765+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-06-06T14:19:02.4682131+02:00",
-    "RecurringEndDate": "2000-08-23T14:19:02.4682131+02:00",
-    "MotherId": 585,
-    "AssignedBy": 320,
-    "AssignedByFullName": "Leanna Ferry",
+    "RecurringStartDate": "2010-03-14T12:15:17.6797765+01:00",
+    "RecurringEndDate": "2003-03-13T12:15:17.6797765+01:00",
+    "MotherId": 958,
+    "AssignedBy": 137,
+    "AssignedByFullName": "Ms. Ramona Aileen Wisoky Sr.",
     "RejectReason": "",
-    "Location": "eum",
-    "AlarmLeadTime": "ullam",
-    "SaleId": 262,
-    "SaleName": "Torp LLC",
-    "AssociateName": "Greenholt-Cassin",
-    "CreatedDate": "1997-05-19T14:19:02.4682131+02:00",
-    "CreatedBy": "facere",
-    "CreatedByFullName": "Lynn Nikolaus",
-    "CreatedByAssociateId": 554,
+    "Location": "magni",
+    "AlarmLeadTime": "repellendus",
+    "SaleId": 799,
+    "SaleName": "Bogisich, Miller and Beier",
+    "AssociateName": "Wintheiser, Littel and Hodkiewicz",
+    "CreatedDate": "1997-01-13T12:15:17.6797765+01:00",
+    "CreatedBy": "quam",
+    "CreatedByFullName": "Brisa Dooley",
+    "CreatedByAssociateId": 598,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 837
+        "FieldType": "System.Int32",
+        "FieldLength": 844
       }
     }
   }

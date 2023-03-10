@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 990,
-    "Name": "Mante, Rau and Botsford",
-    "Tooltip": "numquam",
-    "Deleted": true,
-    "Rank": 617,
-    "UdListDefinitionId": 635,
+    "HeadingId": 543,
+    "Name": "Boyer-Kemmer",
+    "Tooltip": "inventore",
+    "Deleted": false,
+    "Rank": 130,
+    "UdListDefinitionId": 730,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 151
+        "FieldLength": 785
       }
     }
   }

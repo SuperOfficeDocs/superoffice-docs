@@ -126,11 +126,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UID": "reprehenderit"
+  "UID": "natus"
 }
 ```
 
@@ -145,63 +145,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2014-06-18T14:19:02.6969287+02:00",
-  "AppointmentId": 943,
-  "Description": "Multi-tiered holistic standardization",
-  "StartDate": "2021-04-02T14:19:02.6969287+02:00",
-  "EndDate": "1997-07-08T14:19:02.6969287+02:00",
+  "CreatedDate": "2018-09-22T12:15:17.9757671+02:00",
+  "AppointmentId": 805,
+  "Description": "Multi-lateral next generation access",
+  "StartDate": "2002-03-17T12:15:17.9757671+01:00",
+  "EndDate": "2000-11-12T12:15:17.9757671+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 297,
+  "MotherId": 936,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2013-07-07T14:19:02.6969287+02:00",
+  "UpdatedDate": "2010-09-23T12:15:17.9797669+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 617,
+  "ActiveLinks": 971,
   "Links": [
     {
-      "EntityName": "Prohaska, Paucek and Hoppe",
-      "Id": 520,
-      "Description": "Programmable hybrid approach",
-      "ExtraInfo": "suscipit",
-      "LinkId": 870,
+      "EntityName": "Green LLC",
+      "Id": 925,
+      "Description": "User-friendly leading edge Graphic Interface",
+      "ExtraInfo": "rerum",
+      "LinkId": 813,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 210
+          "FieldType": "System.String",
+          "FieldLength": 383
         }
       }
     }
   ],
-  "AlarmLeadTime": "quia",
+  "AlarmLeadTime": "aut",
   "HasAlarm": false,
-  "ColorIndex": 632,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "molestiae",
+  "ColorIndex": 430,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "deleniti",
   "LeadTime": "est",
-  "Location": "ex",
-  "RejectCounter": 682,
-  "RejectReason": "harness magnetic interfaces",
+  "Location": "quam",
+  "RejectCounter": 919,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 457,
-      "PersonId": 167,
-      "ContactId": 519,
-      "EmailId": 916,
+      "AssociateId": 145,
+      "PersonId": 703,
+      "ContactId": 632,
+      "EmailId": 697,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 457,
-      "PersonId": 167,
-      "ContactId": 519,
-      "EmailId": 916,
+      "AssociateId": 145,
+      "PersonId": 703,
+      "ContactId": 632,
+      "EmailId": 697,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -209,58 +209,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2000-07-19T14:19:02.6969287+02:00",
-  "HasConflict": false,
+  "ActiveDate": "1998-08-06T12:15:17.9797669+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 281,
+  "PreferredTZLocation": 855,
   "Sale": null,
-  "SuggestedAppointmentId": 980,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 141,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sit",
+  "CentralserviceVideomeetId": "totam",
   "UserDefinedFields": {
-    "SuperOffice:1": "Meggie Anderson",
-    "SuperOffice:2": "Laron Fahey"
+    "SuperOffice:1": "Karolann Rau",
+    "SuperOffice:2": "Leland Maggio"
   },
   "ExtraFields": {
-    "ExtraFields1": "vel",
-    "ExtraFields2": "culpa"
+    "ExtraFields1": "autem",
+    "ExtraFields2": "ratione"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "velit"
+    "CustomFields1": "quaerat",
+    "CustomFields2": "non"
   },
-  "PublishEventDate": "2006-01-27T14:19:02.6969287+01:00",
-  "PublishTo": "2021-05-11T14:19:02.6969287+02:00",
-  "PublishFrom": "2003-06-27T14:19:02.6969287+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2006-01-19T12:15:17.9817659+01:00",
+  "PublishTo": "2006-01-11T12:15:17.9817659+01:00",
+  "PublishFrom": "2009-09-22T12:15:17.9817659+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 894,
+      "VisibleId": 647,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "laborum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 46
+          "FieldType": "System.Int32",
+          "FieldLength": 311
         }
       }
     },
     {
-      "VisibleId": 894,
+      "VisibleId": 647,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "laborum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 46
+          "FieldType": "System.Int32",
+          "FieldLength": 311
         }
       }
     }
@@ -269,8 +269,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 66
+      "FieldType": "System.String",
+      "FieldLength": 308
     }
   }
 }

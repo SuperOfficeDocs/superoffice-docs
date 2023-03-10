@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 295,
-  "ColumnId": 607,
-  "FieldDefault": "quidem",
-  "FieldHeight": 840,
-  "FieldLabel": "sed",
-  "FieldLeft": 832,
-  "FieldTop": 386,
+  "UDefFieldId": 269,
+  "ColumnId": 200,
+  "FieldDefault": "fuga",
+  "FieldHeight": 814,
+  "FieldLabel": "debitis",
+  "FieldLeft": 182,
+  "FieldTop": 424,
   "FieldType": "Checkbox",
-  "FieldWidth": 872,
-  "FormatMask": "unde",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 57,
-  "LabelLeft": 787,
-  "LabelTop": 213,
-  "LabelWidth": 888,
-  "LastVersionId": 678,
-  "ListTableId": 651,
-  "IsMandatory": true,
+  "FieldWidth": 276,
+  "FormatMask": "velit",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 752,
+  "LabelLeft": 696,
+  "LabelTop": 295,
+  "LabelWidth": 133,
+  "LastVersionId": 14,
+  "ListTableId": 663,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 309,
-  "ProgId": "similique",
+  "Page1LineNo": 685,
+  "ProgId": "dolores",
   "IsReadOnly": false,
-  "ShortLabel": "expedita",
-  "TabOrder": 43,
-  "TextLength": 875,
-  "Tooltip": "perspiciatis",
-  "UdefIdentity": 185,
-  "UDListDefinitionId": 40,
+  "ShortLabel": "facere",
+  "TabOrder": 779,
+  "TextLength": 144,
+  "Tooltip": "dolorem",
+  "UdefIdentity": 800,
+  "UDListDefinitionId": 643,
   "Justification": "Center",
-  "Version": 28,
-  "TemplateVariableName": "Connelly-Kub",
-  "HasBeenPublished": false,
-  "MdoListName": "Grant-Jones",
+  "Version": 166,
+  "TemplateVariableName": "Labadie Group",
+  "HasBeenPublished": true,
+  "MdoListName": "Maggio, Pouros and Torp",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 584
+      "FieldType": "System.String",
+      "FieldLength": 855
     }
   }
 }

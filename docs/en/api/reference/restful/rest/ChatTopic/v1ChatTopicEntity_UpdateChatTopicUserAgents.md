@@ -79,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 508,
+    "TopicId": 486,
     "User": null,
     "CanListen": true,
-    "CanRespond": true,
-    "CanManage": false,
-    "CanNotify": true
+    "CanRespond": false,
+    "CanManage": true,
+    "CanNotify": false
   },
   {
-    "TopicId": 508,
+    "TopicId": 486,
     "User": null,
     "CanListen": true,
-    "CanRespond": true,
-    "CanManage": false,
-    "CanNotify": true
+    "CanRespond": false,
+    "CanManage": true,
+    "CanNotify": false
   }
 ]
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 834,
+    "TopicId": 425,
     "User": null,
     "CanListen": false,
     "CanRespond": false,
-    "CanManage": false,
+    "CanManage": true,
     "CanNotify": false
   },
   {
-    "TopicId": 834,
+    "TopicId": 425,
     "User": null,
     "CanListen": false,
     "CanRespond": false,
-    "CanManage": false,
+    "CanManage": true,
     "CanNotify": false
   }
 ]

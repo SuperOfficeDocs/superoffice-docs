@@ -167,17 +167,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Zulauf-Swift",
-  "ProviderName": "VonRueden LLC",
-  "SortOrder": "blanditiis",
-  "Restriction": "dolorem",
-  "Entities": "eos",
-  "Page": 217,
-  "PageSize": 425
+  "GuiName": "Lubowitz Group",
+  "ProviderName": "Brekke-McClure",
+  "SortOrder": "sunt",
+  "Restriction": "veritatis",
+  "Entities": "sapiente",
+  "Page": 701,
+  "PageSize": 814
 }
 ```
 
@@ -189,23 +189,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Ebert Inc and Sons",
-    "PrimaryKey": 895,
+    "EntityName": "Hyatt, Smith and Spinka",
+    "PrimaryKey": 492,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "qui",
-        "TooltipHint": "necessitatibus",
-        "LinkHint": "illum"
+        "DisplayValue": "ut",
+        "TooltipHint": "tempora",
+        "LinkHint": "adipisci"
       }
     },
-    "LinkHint": "sed",
-    "StyleHint": "quae",
+    "LinkHint": "rerum",
+    "StyleHint": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 761
+        "FieldType": "System.Int32",
+        "FieldLength": 366
       }
     }
   }

@@ -96,13 +96,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 644,
-  "QuoteAlternativeId": 475,
-  "QuoteAlternativeName": "Shanahan Group"
+  "QuoteVersionId": 80,
+  "QuoteAlternativeId": 502,
+  "QuoteAlternativeName": "Friesen Group"
 }
 ```
 
@@ -113,35 +113,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 812,
-  "ERPQuoteAlternativeKey": "nostrum",
-  "QuoteVersionId": 459,
-  "Name": "Legros-Tillman",
-  "Description": "Compatible client-driven circuit",
+  "QuoteAlternativeId": 972,
+  "ERPQuoteAlternativeKey": "perspiciatis",
+  "QuoteVersionId": 473,
+  "Name": "Eichmann, Padberg and Haag",
+  "Description": "De-engineered bandwidth-monitored hub",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 401.152,
-  "ERPDiscountAmount": 17760.378,
-  "DiscountPercent": 15989.668,
-  "DiscountAmount": 29697.784,
+  "ERPDiscountPercent": 18199.138,
+  "ERPDiscountAmount": 8906.828,
+  "DiscountPercent": 908.86,
+  "DiscountAmount": 15917.586,
   "UserValueOverride": "DiscountAmount",
   "VATInfo": "ipsum",
-  "VAT": 6421.566,
-  "EarningPercent": 3177.8759999999997,
-  "EarningAmount": 12285.279999999999,
-  "SubTotal": 3550.8219999999997,
-  "TotalPrice": 5744.6219999999994,
-  "ExtraField1": "occaecati",
-  "ExtraField2": "nobis",
-  "ExtraField3": "saepe",
-  "ExtraField4": "omnis",
-  "ExtraField5": "nesciunt",
+  "VAT": 4691.598,
+  "EarningPercent": 24470.272,
+  "EarningAmount": 29986.111999999997,
+  "SubTotal": 2535.406,
+  "TotalPrice": 15635.526,
+  "ExtraField1": "aliquid",
+  "ExtraField2": "qui",
+  "ExtraField3": "dolores",
+  "ExtraField4": "nemo",
+  "ExtraField5": "dolore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 470
+      "FieldType": "System.Int32",
+      "FieldLength": 971
     }
   }
 }

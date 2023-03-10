@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 190,
-  "Name": "Ruecker Inc and Sons",
-  "Tooltip": "sed",
+  "HeadingId": 118,
+  "Name": "Bode Inc and Sons",
+  "Tooltip": "molestiae",
   "Deleted": true,
-  "Rank": 263,
-  "UdListDefinitionId": 955
+  "Rank": 689,
+  "UdListDefinitionId": 857
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 711,
-  "Name": "Gleichner-Fisher",
-  "Tooltip": "ex",
+  "HeadingId": 94,
+  "Name": "Hansen, Krajcik and Gibson",
+  "Tooltip": "nesciunt",
   "Deleted": true,
-  "Rank": 967,
-  "UdListDefinitionId": 393,
+  "Rank": 953,
+  "UdListDefinitionId": 848,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 530
+      "FieldLength": 470
     }
   }
 }

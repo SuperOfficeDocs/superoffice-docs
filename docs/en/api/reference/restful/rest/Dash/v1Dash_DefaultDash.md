@@ -78,37 +78,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 718,
-  "UniqueId": "maiores",
-  "Name": "Upton, Wehner and Dickinson",
-  "Description": "Self-enabling 3rd generation internet solution",
-  "AssociateId": 490,
-  "Columns": 680,
+  "DashboardId": 496,
+  "UniqueId": "nemo",
+  "Name": "Lakin Group",
+  "Description": "Adaptive modular forecast",
+  "AssociateId": 777,
+  "Columns": 728,
   "Theme": null,
-  "VisibleForAll": 315,
+  "VisibleForAll": 79,
   "VisibleForAssociates": [
-    741,
-    729
+    900,
+    852
   ],
   "VisibleForGroups": [
-    796,
-    295
+    743,
+    847
   ],
-  "PinForAll": 148,
+  "PinForAll": 722,
   "PinForAssociates": [
-    437,
-    466
+    924,
+    63
   ],
   "PinForGroups": [
-    476,
-    942
+    563,
+    882
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldLength": 753
     }
   }
 }

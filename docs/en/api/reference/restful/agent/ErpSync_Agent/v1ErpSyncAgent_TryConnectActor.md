@@ -74,31 +74,31 @@ OK
 POST /api/v1/Agents/ErpSync/TryConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 702,
-  "CrmRecordId": 853,
+  "ErpConnectionId": 8,
+  "CrmRecordId": 387,
   "CrmActorType": "Contact",
-  "ErpKey": "explicabo",
+  "ErpKey": "est",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Kohler, Romaguera and Koelpin",
-      "CrmFieldKey": "qui",
-      "Value": "distinctio",
+      "DisplayName": "Haag, Ziemann and Berge",
+      "CrmFieldKey": "est",
+      "Value": "velit",
       "DisplayValue": "eum",
-      "SyncToCrm": true,
-      "SyncToErp": false
+      "SyncToCrm": false,
+      "SyncToErp": true
     },
     {
-      "DisplayName": "Kohler, Romaguera and Koelpin",
-      "CrmFieldKey": "qui",
-      "Value": "distinctio",
+      "DisplayName": "Haag, Ziemann and Berge",
+      "CrmFieldKey": "est",
+      "Value": "velit",
       "DisplayValue": "eum",
-      "SyncToCrm": true,
-      "SyncToErp": false
+      "SyncToCrm": false,
+      "SyncToErp": true
     }
   ]
 }

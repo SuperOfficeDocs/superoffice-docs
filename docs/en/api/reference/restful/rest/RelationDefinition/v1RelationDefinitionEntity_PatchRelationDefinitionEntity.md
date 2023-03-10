@@ -120,12 +120,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "dolores",
+    "path": "blanditiis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolores",
+    "path": "blanditiis",
     "value": {}
   }
 ]
@@ -138,12 +138,12 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 756,
-  "Name": "Mueller Group",
-  "Tooltip": "velit",
-  "PassiveText": "et",
+  "ReldefId": 570,
+  "Name": "Ward-Beer",
+  "Tooltip": "rerum",
+  "PassiveText": "tempora",
   "Deleted": false,
-  "Rank": 359,
+  "Rank": 950,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -151,7 +151,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 897
+      "FieldLength": 847
     }
   },
   "_Links": {

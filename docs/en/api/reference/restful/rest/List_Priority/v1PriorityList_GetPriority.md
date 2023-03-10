@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 674,
-  "Name": "Rolfson Inc and Sons",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "UdListDefinitionId": 625,
-  "Rank": 517,
+  "Id": 802,
+  "Name": "Corkery-Herman",
+  "Tooltip": "commodi",
+  "Deleted": true,
+  "UdListDefinitionId": 658,
+  "Rank": 963,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 627
+      "FieldLength": 871
     }
   }
 }

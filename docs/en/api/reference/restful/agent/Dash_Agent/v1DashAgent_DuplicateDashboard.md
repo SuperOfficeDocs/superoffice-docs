@@ -89,8 +89,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 495,
-  "Name": "Labadie-Mills"
+  "DashboardId": 329,
+  "Name": "Herman Inc and Sons"
 }
 ```
 
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 574,
-  "UniqueId": "vel",
-  "Name": "Feeney Group",
-  "Description": "Decentralized optimal ability",
-  "AssociateId": 10,
-  "Columns": 968,
+  "DashboardId": 996,
+  "UniqueId": "quo",
+  "Name": "Kovacek-Dibbert",
+  "Description": "Virtual optimal architecture",
+  "AssociateId": 104,
+  "Columns": 506,
   "Theme": null,
-  "VisibleForAll": 181,
+  "VisibleForAll": 587,
   "VisibleForAssociates": [
-    655,
-    868
+    806,
+    19
   ],
   "VisibleForGroups": [
-    300,
-    914
+    175,
+    959
   ],
-  "PinForAll": 84,
+  "PinForAll": 722,
   "PinForAssociates": [
-    113,
-    449
+    370,
+    239
   ],
   "PinForGroups": [
-    939,
-    21
+    210,
+    316
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 362
+      "FieldLength": 821
     }
   }
 }

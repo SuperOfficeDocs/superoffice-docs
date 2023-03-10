@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 894,
-    "Name": "Borer, Strosin and Smitham",
-    "ToolTip": "Occaecati labore et est eum ut sed.",
+    "Id": 742,
+    "Name": "Kiehn-Anderson",
+    "ToolTip": "Non quae.",
     "Deleted": false,
-    "Rank": 441,
-    "Type": "itaque",
-    "ColorBlock": 417,
-    "IconHint": "earum",
-    "Selected": true,
-    "LastChanged": "2000-10-12T14:19:11.3524087+02:00",
+    "Rank": 210,
+    "Type": "qui",
+    "ColorBlock": 718,
+    "IconHint": "similique",
+    "Selected": false,
+    "LastChanged": "2020-08-11T12:15:28.2696219+02:00",
     "ChildItems": [
       {
-        "Id": 908,
-        "Name": "Swift, Stamm and Hyatt",
-        "ToolTip": "Qui repudiandae ullam doloremque similique qui.",
-        "Deleted": false,
-        "Rank": 340,
-        "Type": "repellendus",
-        "ColorBlock": 784,
-        "IconHint": "cupiditate",
+        "Id": 845,
+        "Name": "Gorczany LLC",
+        "ToolTip": "Unde consequatur est est.",
+        "Deleted": true,
+        "Rank": 657,
+        "Type": "fugiat",
+        "ColorBlock": 10,
+        "IconHint": "dolor",
         "Selected": false,
-        "LastChanged": "2014-01-10T14:19:11.3524087+01:00",
+        "LastChanged": "1998-10-31T12:15:28.2696219+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "voluptatibus",
+        "ExtraInfo": "deserunt",
+        "StyleHint": "esse",
         "Hidden": false,
-        "FullName": "Sandrine Walker",
+        "FullName": "Mr. Vito Klocko",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 314
+            "FieldType": "System.Int32",
+            "FieldLength": 519
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "quo",
+    "ExtraInfo": "maiores",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Katelyn O'Connell",
+    "FullName": "Lauriane Schneider",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 852
+        "FieldType": "System.String",
+        "FieldLength": 517
       }
     }
   }

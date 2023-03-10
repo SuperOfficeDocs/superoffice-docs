@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 600,
-    "Value": "placeat",
-    "Tooltip": "corporis",
+    "Id": 48,
+    "Value": "est",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 582
+        "FieldType": "System.String",
+        "FieldLength": 541
       }
     }
   },
   {
-    "Id": 600,
-    "Value": "placeat",
-    "Tooltip": "corporis",
+    "Id": 48,
+    "Value": "est",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 582
+        "FieldType": "System.String",
+        "FieldLength": 541
       }
     }
   }

@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 829,
-  "Name": "Ernser LLC",
-  "Tooltip": "praesentium",
+  "Id": 927,
+  "Name": "Harris Group",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 747,
-  "IsCustomList": false,
+  "Rank": 861,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quis",
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 438,
-  "Name": "Toy Inc and Sons",
-  "Tooltip": "cupiditate",
+  "Id": 654,
+  "Name": "Marvin-Frami",
+  "Tooltip": "fugiat",
   "Deleted": false,
-  "Rank": 696,
+  "Rank": 363,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "non",
+  "ListType": "quas",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 136
+      "FieldType": "System.Int32",
+      "FieldLength": 519
     }
   }
 }

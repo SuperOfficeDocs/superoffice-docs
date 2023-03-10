@@ -88,12 +88,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "similique",
-      "Key": "fugit"
+      "Section": "vero",
+      "Key": "cumque"
     },
     {
-      "Section": "similique",
-      "Key": "fugit"
+      "Section": "vero",
+      "Key": "cumque"
     }
   ]
 }
@@ -108,22 +108,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "velit",
+    "RawValue": "et",
     "Specification": null,
-    "DisplayValue": "sit",
-    "DisplayTooltip": "eius",
+    "DisplayValue": "et",
+    "DisplayTooltip": "placeat",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 263,
-    "PrefDescId": 981,
-    "TableName": "Kemmer, Blanda and Lynch",
-    "UserPreferenceId": 150,
+    "TargetId": 46,
+    "PrefDescId": 331,
+    "TableName": "Satterfield-Casper",
+    "UserPreferenceId": 179,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 541
+        "FieldLength": 315
       }
     }
   }

@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "sint"
+  "QuoteListType": "placeat"
 }
 ```
 
@@ -92,28 +92,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "ad",
-    "DisplayValue": "exercitationem",
-    "DisplayDescription": "Persistent 24/7 middleware",
+    "ERPQuoteListItemKey": "deleniti",
+    "DisplayValue": "sed",
+    "DisplayDescription": "Managed real-time initiative",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 524
+        "FieldType": "System.String",
+        "FieldLength": 621
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "ad",
-    "DisplayValue": "exercitationem",
-    "DisplayDescription": "Persistent 24/7 middleware",
+    "ERPQuoteListItemKey": "deleniti",
+    "DisplayValue": "sed",
+    "DisplayDescription": "Managed real-time initiative",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 524
+        "FieldType": "System.String",
+        "FieldLength": 621
       }
     }
   }

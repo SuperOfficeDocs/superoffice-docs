@@ -26,7 +26,7 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=ratione
+GET /api/v1/List/ProductFamily/MDOItems?query=cum
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 115,
-    "Name": "Stanton Group",
-    "ToolTip": "Quia quo quos.",
-    "Deleted": true,
-    "Rank": 997,
-    "Type": "non",
+    "Id": 832,
+    "Name": "Christiansen, Kutch and Larson",
+    "ToolTip": "Ipsam officiis praesentium consectetur provident labore iste vel.",
+    "Deleted": false,
+    "Rank": 888,
+    "Type": "voluptas",
     "ChildItems": [
       {
-        "Id": 554,
-        "Name": "Bechtelar-Gleason",
-        "ToolTip": "Qui aut facilis eaque et.",
-        "Deleted": true,
-        "Rank": 313,
-        "Type": "sed",
+        "Id": 138,
+        "Name": "Grimes-Littel",
+        "ToolTip": "Soluta aut culpa voluptatem velit minima saepe.",
+        "Deleted": false,
+        "Rank": 519,
+        "Type": "iusto",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ullam",
-        "ColorBlock": 918,
-        "ExtraInfo": "architecto",
-        "StyleHint": "earum",
-        "FullName": "Ruth Blick",
+        "IconHint": "aliquam",
+        "ColorBlock": 586,
+        "ExtraInfo": "fugiat",
+        "StyleHint": "eum",
+        "FullName": "Mrs. Lue Wilkinson IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 738
+            "FieldType": "System.Int32",
+            "FieldLength": 1000
           }
         }
       }
     ],
-    "IconHint": "modi",
-    "ColorBlock": 88,
-    "ExtraInfo": "sed",
-    "StyleHint": "molestiae",
-    "FullName": "Prof. Alvah Grady",
+    "IconHint": "nostrum",
+    "ColorBlock": 547,
+    "ExtraInfo": "facere",
+    "StyleHint": "totam",
+    "FullName": "Prof. Alene Missouri Lubowitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 905
+        "FieldLength": 293
       }
     }
   }

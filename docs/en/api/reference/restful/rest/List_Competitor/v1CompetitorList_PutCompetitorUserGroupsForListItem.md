@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 810,
-    "Name": "Wunsch, Cummings and Christiansen",
-    "ToolTip": "Assumenda et.",
+    "Id": 479,
+    "Name": "Kemmer LLC",
+    "ToolTip": "Repudiandae beatae ratione tempora perferendis pariatur aut.",
     "Deleted": false,
-    "Rank": 643,
-    "Type": "ab",
-    "ColorBlock": 240,
-    "IconHint": "quo",
+    "Rank": 221,
+    "Type": "non",
+    "ColorBlock": 292,
+    "IconHint": "facilis",
     "Selected": false,
-    "LastChanged": "2016-03-08T14:19:11.1480931+01:00",
+    "LastChanged": "1997-07-01T12:15:27.9076217+02:00",
     "ChildItems": [
       {
-        "Id": 346,
-        "Name": "Boyer-Beer",
-        "ToolTip": "Voluptates autem magnam eaque.",
-        "Deleted": false,
-        "Rank": 881,
-        "Type": "quasi",
-        "ColorBlock": 825,
-        "IconHint": "odit",
+        "Id": 287,
+        "Name": "Medhurst, Hettinger and Borer",
+        "ToolTip": "Sit eum dolore pariatur ad.",
+        "Deleted": true,
+        "Rank": 807,
+        "Type": "qui",
+        "ColorBlock": 106,
+        "IconHint": "rem",
         "Selected": false,
-        "LastChanged": "2010-09-04T14:19:11.1480931+02:00",
+        "LastChanged": "2020-07-08T12:15:27.9086219+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "nesciunt",
-        "Hidden": false,
-        "FullName": "Mabel Shakira Bergnaum Sr."
+        "ExtraInfo": "in",
+        "StyleHint": "quam",
+        "Hidden": true,
+        "FullName": "Annie Keith Klein MD"
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "modi",
-    "Hidden": true,
-    "FullName": "Dorris Parker"
+    "ExtraInfo": "et",
+    "StyleHint": "odio",
+    "Hidden": false,
+    "FullName": "Rylee Ratke"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 684,
-    "Name": "Pollich, Gusikowski and Spencer",
-    "ToolTip": "Aut consectetur consequatur iste corrupti qui.",
+    "Id": 536,
+    "Name": "Nikolaus Group",
+    "ToolTip": "Facilis et voluptatibus animi dolorem expedita in.",
     "Deleted": false,
-    "Rank": 745,
-    "Type": "in",
-    "ColorBlock": 806,
-    "IconHint": "consequatur",
+    "Rank": 609,
+    "Type": "non",
+    "ColorBlock": 782,
+    "IconHint": "error",
     "Selected": false,
-    "LastChanged": "2006-10-01T14:19:11.1480931+02:00",
+    "LastChanged": "2022-01-15T12:15:27.9096221+01:00",
     "ChildItems": [
       {
-        "Id": 722,
-        "Name": "Larkin, Monahan and Leffler",
-        "ToolTip": "Dolor quam.",
-        "Deleted": true,
-        "Rank": 679,
-        "Type": "quae",
-        "ColorBlock": 65,
-        "IconHint": "pariatur",
+        "Id": 117,
+        "Name": "Zemlak LLC",
+        "ToolTip": "Unde quam corporis omnis sint harum.",
+        "Deleted": false,
+        "Rank": 218,
+        "Type": "dolor",
+        "ColorBlock": 500,
+        "IconHint": "sunt",
         "Selected": true,
-        "LastChanged": "1997-01-25T14:19:11.1480931+01:00",
+        "LastChanged": "2013-04-03T12:15:27.9096221+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "et",
+        "ExtraInfo": "sed",
+        "StyleHint": "suscipit",
         "Hidden": true,
-        "FullName": "Prof. Shakira D'Amore",
+        "FullName": "Issac Duncan Runolfsdottir I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 276
+            "FieldLength": 866
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "Marjorie Douglas",
+    "ExtraInfo": "nam",
+    "StyleHint": "illum",
+    "Hidden": false,
+    "FullName": "Devin Sanford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 900
+        "FieldLength": 611
       }
     }
   }

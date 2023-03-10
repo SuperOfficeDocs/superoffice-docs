@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 570
+  "UdListDefinitionId": 131
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 891,
-  "Name": "Donnelly Inc and Sons",
-  "Tooltip": "odit",
+  "HeadingId": 641,
+  "Name": "Turner, Padberg and Klocko",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 617,
-  "UdListDefinitionId": 607,
+  "Rank": 527,
+  "UdListDefinitionId": 138,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 220
+      "FieldType": "System.Int32",
+      "FieldLength": 56
     }
   }
 }

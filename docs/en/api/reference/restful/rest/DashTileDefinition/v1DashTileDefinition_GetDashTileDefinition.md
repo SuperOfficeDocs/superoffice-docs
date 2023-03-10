@@ -90,7 +90,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,31 +100,31 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 527,
-  "Name": "Anderson-Pfannerstill",
-  "Description": "Operative explicit instruction set",
-  "DefaultHeight": 462,
-  "DefaultWidth": 186,
+  "DashboardTileDefinitionId": 218,
+  "Name": "Gutkowski, Medhurst and Kertzmann",
+  "Description": "Open-source dynamic frame",
+  "DefaultHeight": 776,
+  "DefaultWidth": 651,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Halvorson, Gibson and Wyman",
-  "SelectionId": 207,
+  "EntityName": "Fisher Inc and Sons",
+  "SelectionId": 202,
   "CurrencyMode": "Base",
-  "CurrencyCode": "temporibus",
+  "CurrencyCode": "veritatis",
   "Measure": "Average",
-  "MeasureField": "amet",
-  "SortBy": "aut",
-  "LayoutConfig": "aut",
-  "SecondarySelectionId": 473,
-  "MeasureByField": "doloremque",
+  "MeasureField": "et",
+  "SortBy": "occaecati",
+  "LayoutConfig": "officia",
+  "SecondarySelectionId": 921,
+  "MeasureByField": "vero",
   "Usage": "Dashboard",
-  "ProviderName": "Rowe, Mante and Schroeder",
+  "ProviderName": "Thiel-Harber",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 973
+      "FieldType": "System.String",
+      "FieldLength": 711
     }
   },
   "_Links": {

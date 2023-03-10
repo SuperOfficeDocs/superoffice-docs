@@ -78,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 928,
-  "Name": "Cassin-Weber",
-  "Tooltip": "et",
-  "Rank": 895,
-  "Rate": 62.68,
-  "Units": 25949.52,
+  "CurrencyId": 52,
+  "Name": "Daniel, Borer and Thompson",
+  "Tooltip": "doloribus",
+  "Rank": 189,
+  "Rate": 15726.412,
+  "Units": 451.296,
   "Deleted": false
 }
 ```
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 129,
-  "Name": "Gerlach, Flatley and Smith",
-  "Tooltip": "fugit",
-  "Rank": 206,
-  "Rate": 11915.467999999999,
-  "Units": 13949.434,
-  "Deleted": false,
+  "CurrencyId": 800,
+  "Name": "Lind Inc and Sons",
+  "Tooltip": "quis",
+  "Rank": 132,
+  "Rate": 5926.394,
+  "Units": 9439.608,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 992
+      "FieldType": "System.Int32",
+      "FieldLength": 450
     }
   }
 }

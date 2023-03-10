@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 122,
-    "Value": "facilis",
-    "Tooltip": "non",
+    "Id": 286,
+    "Value": "quaerat",
+    "Tooltip": "neque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 16
+        "FieldType": "System.Int32",
+        "FieldLength": 735
       }
     }
   },
   {
-    "Id": 122,
-    "Value": "facilis",
-    "Tooltip": "non",
+    "Id": 286,
+    "Value": "quaerat",
+    "Tooltip": "neque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 16
+        "FieldType": "System.Int32",
+        "FieldLength": 735
       }
     }
   }

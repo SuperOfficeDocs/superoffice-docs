@@ -73,7 +73,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,26 +84,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 808,
-    "Tooltip": "et",
-    "CanAssign": false,
-    "Free": 701,
-    "InUse": 781,
-    "IsHidden": false,
+    "Unrestricted": false,
+    "Total": 901,
+    "Tooltip": "modi",
+    "CanAssign": true,
+    "Free": 488,
+    "InUse": 883,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 230,
-    "Name": "Larkin Inc and Sons",
-    "Description": "Ameliorated 6th generation architecture",
-    "PrerequisiteModuleName": "Jerde, Hackett and O'Connell",
-    "SortOrder": 52,
-    "ExtraFlags": 484,
+    "ModuleLicenseId": 65,
+    "Name": "Hermann Inc and Sons",
+    "Description": "Synchronised zero defect neural-net",
+    "PrerequisiteModuleName": "O'Hara, Robel and Klein",
+    "SortOrder": 98,
+    "ExtraFlags": 215,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 871
+        "FieldType": "System.String",
+        "FieldLength": 562
       }
     }
   }

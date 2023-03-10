@@ -83,15 +83,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hills, Berge and Boyer",
-  "DeviceName": "Ankunding, Gutmann and Wintheiser",
-  "KeyName": "Gerlach Group",
-  "KeyValue": "eum",
-  "TableName": "Cartwright-Hilpert"
+  "ApplicationName": "Barton, Treutel and Satterfield",
+  "DeviceName": "Lebsack, Gottlieb and Ryan",
+  "KeyName": "Pollich Group",
+  "KeyValue": "ipsum",
+  "TableName": "Leffler-Hodkiewicz"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "non",
-  "Value": "alias",
-  "RecordId": 842,
-  "CreatedDate": "2009-03-11T14:19:03.5602728+01:00",
-  "UpdatedDate": "2008-09-20T14:19:03.5602728+02:00",
-  "UpdatedBy": "architecto",
-  "CreatedBy": "fugiat",
-  "TableName": "Hyatt, Nicolas and Thompson",
+  "Key": "rerum",
+  "Value": "ad",
+  "RecordId": 673,
+  "CreatedDate": "2019-12-20T12:15:19.1647522+01:00",
+  "UpdatedDate": "2019-03-29T12:15:19.1647522+01:00",
+  "UpdatedBy": "voluptas",
+  "CreatedBy": "rerum",
+  "TableName": "Stokes-Quigley",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 206
+      "FieldType": "System.String",
+      "FieldLength": 192
     }
   }
 }

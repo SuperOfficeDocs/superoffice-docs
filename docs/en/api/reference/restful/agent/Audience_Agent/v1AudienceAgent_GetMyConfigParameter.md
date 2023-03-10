@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Bode LLC"
+  "ParameterName": "Windler-Donnelly"
 }
 ```
 
@@ -93,19 +93,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 968,
-  "Name": "Herman-Moen",
-  "Value": "quo",
-  "CreatedDate": "2008-11-08T14:19:02.7594283+01:00",
-  "UpdatedDate": "2022-01-28T14:19:02.7594283+01:00",
-  "CreatedBy": "velit",
-  "UpdatedBy": "voluptatem",
+  "AudienceLayoutId": 816,
+  "Name": "Streich, Bartell and Satterfield",
+  "Value": "possimus",
+  "CreatedDate": "2018-12-03T12:15:18.1897679+01:00",
+  "UpdatedDate": "2010-09-24T12:15:18.1897679+02:00",
+  "CreatedBy": "molestiae",
+  "UpdatedBy": "at",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 951
+      "FieldType": "System.Int32",
+      "FieldLength": 864
     }
   }
 }

@@ -25,7 +25,7 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=866
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=460
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,31 +94,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Crona-Schoen",
-  "Comment": "nobis",
-  "StakeholderRoleId": 131,
-  "CountryId": 949,
-  "PersonId": 167,
-  "EmailDescription": "camron@roobcollins.com",
-  "EmailId": 171,
-  "EmailAddress": "isabella_kuhic@weimannstark.co.uk",
-  "PhoneId": 136,
-  "ContactName": "Predovic-Dooley",
-  "ContactId": 332,
-  "SaleId": 62,
-  "Mrmrs": "voluptatem",
-  "Firstname": "Marquis",
-  "MiddleName": "Ferry-Howell",
-  "Lastname": "Rippin",
-  "SaleStakeholderId": 457,
-  "Rank": 275,
-  "Phone": "275.633.8185 x2428",
+  "StakeholderRoleName": "White, Frami and Heathcote",
+  "Comment": "omnis",
+  "StakeholderRoleId": 599,
+  "CountryId": 958,
+  "PersonId": 686,
+  "EmailDescription": "madelyn.raynor@reynolds.ca",
+  "EmailId": 908,
+  "EmailAddress": "winnifred_kirlin@konopelski.biz",
+  "PhoneId": 761,
+  "ContactName": "Bednar LLC",
+  "ContactId": 448,
+  "SaleId": 969,
+  "Mrmrs": "omnis",
+  "Firstname": "August",
+  "MiddleName": "Romaguera-VonRueden",
+  "Lastname": "Pouros",
+  "SaleStakeholderId": 933,
+  "Rank": 831,
+  "Phone": "(867)273-4315",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 703
+      "FieldLength": 889
     }
   }
 }

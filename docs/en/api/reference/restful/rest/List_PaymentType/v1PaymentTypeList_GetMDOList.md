@@ -25,8 +25,8 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=et
+GET /api/v1/List/PaymentType/MDOItems?flat=True
+GET /api/v1/List/PaymentType/MDOItems?query=error
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 825,
-    "Name": "Willms-Stracke",
-    "ToolTip": "Esse adipisci quaerat.",
-    "Deleted": false,
-    "Rank": 522,
-    "Type": "officia",
+    "Id": 593,
+    "Name": "Oberbrunner Inc and Sons",
+    "ToolTip": "Deleniti et praesentium accusamus quas.",
+    "Deleted": true,
+    "Rank": 38,
+    "Type": "dolorem",
     "ChildItems": [
       {
-        "Id": 989,
-        "Name": "Rutherford LLC",
-        "ToolTip": "Reiciendis enim ipsum quibusdam ut dolore.",
-        "Deleted": false,
-        "Rank": 436,
-        "Type": "nisi",
+        "Id": 961,
+        "Name": "Cormier LLC",
+        "ToolTip": "Natus et suscipit vero.",
+        "Deleted": true,
+        "Rank": 407,
+        "Type": "dolore",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 72,
-        "ExtraInfo": "rerum",
-        "StyleHint": "illum",
-        "FullName": "Dortha Mann",
+        "IconHint": "molestias",
+        "ColorBlock": 120,
+        "ExtraInfo": "alias",
+        "StyleHint": "ad",
+        "FullName": "Mr. Hester Hane",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 347
+            "FieldLength": 27
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 48,
-    "ExtraInfo": "ab",
-    "StyleHint": "qui",
-    "FullName": "Nick Morar",
+    "IconHint": "dolores",
+    "ColorBlock": 64,
+    "ExtraInfo": "non",
+    "StyleHint": "quo",
+    "FullName": "Wilmer Harber V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 365
+        "FieldType": "System.String",
+        "FieldLength": 34
       }
     }
   }

@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 137,
-    "Value": "dolorem",
-    "Tooltip": "recusandae",
+    "Id": 709,
+    "Value": "omnis",
+    "Tooltip": "fuga",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 133
+        "FieldLength": 559
       }
     }
   },
   {
-    "Id": 137,
-    "Value": "dolorem",
-    "Tooltip": "recusandae",
+    "Id": 709,
+    "Value": "omnis",
+    "Tooltip": "fuga",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 133
+        "FieldLength": 559
       }
     }
   }

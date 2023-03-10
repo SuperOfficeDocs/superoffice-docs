@@ -78,12 +78,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 486,
-  "Name": "Green Inc and Sons",
-  "Tooltip": "ratione",
-  "Deleted": false,
-  "Rank": 536,
-  "UdListDefinitionId": 411
+  "HeadingId": 645,
+  "Name": "Metz-Klocko",
+  "Tooltip": "quis",
+  "Deleted": true,
+  "Rank": 412,
+  "UdListDefinitionId": 403
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 228,
-  "Name": "Jakubowski, Corkery and Pfannerstill",
-  "Tooltip": "sint",
-  "Deleted": true,
-  "Rank": 887,
-  "UdListDefinitionId": 962,
+  "HeadingId": 330,
+  "Name": "Kunze Inc and Sons",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 545,
+  "UdListDefinitionId": 397,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 465
+      "FieldType": "System.String",
+      "FieldLength": 352
     }
   }
 }

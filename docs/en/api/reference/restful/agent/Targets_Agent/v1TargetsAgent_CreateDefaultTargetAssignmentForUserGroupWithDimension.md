@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 558,
-  "TargetDimensionId": 180
+  "UserGroupId": 694,
+  "TargetDimensionId": 802
 }
 ```
 
@@ -98,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 391,
+    "TargetAssignmentInfoId": 60,
     "Values": [
-      490,
-      613
+      917,
+      894
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 243,
-    "DimensionListItemDisplayName": "Hilpert-Welch",
+    "DimensionListItem": 382,
+    "DimensionListItemDisplayName": "Spinka, Kunde and Balistreri",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 234
+        "FieldType": "System.Int32",
+        "FieldLength": 574
       }
     }
   }

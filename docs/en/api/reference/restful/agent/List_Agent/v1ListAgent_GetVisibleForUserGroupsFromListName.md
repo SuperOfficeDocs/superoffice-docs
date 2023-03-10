@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Hilll, Cremin and Maggio",
-  "ListItemId": 103
+  "UdListDefinitionName": "Wisozk-Vandervort",
+  "ListItemId": 728
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 363,
-    "Name": "Paucek-Kunze",
-    "ToolTip": "Ratione unde id debitis id quam.",
+    "Id": 523,
+    "Name": "Herzog, Rohan and Reynolds",
+    "ToolTip": "Earum nisi.",
     "Deleted": false,
-    "Rank": 924,
-    "Type": "debitis",
-    "ColorBlock": 686,
-    "IconHint": "ipsam",
-    "Selected": true,
-    "LastChanged": "2009-09-13T14:19:03.6238736+02:00",
+    "Rank": 869,
+    "Type": "molestiae",
+    "ColorBlock": 659,
+    "IconHint": "consequatur",
+    "Selected": false,
+    "LastChanged": "2017-04-09T12:15:19.2467479+02:00",
     "ChildItems": [
       {
-        "Id": 168,
-        "Name": "Swaniawski, Corwin and Harber",
-        "ToolTip": "Sapiente mollitia laboriosam ratione voluptatibus.",
+        "Id": 635,
+        "Name": "Dare-Jacobson",
+        "ToolTip": "Aut nisi voluptatum.",
         "Deleted": false,
-        "Rank": 535,
-        "Type": "numquam",
-        "ColorBlock": 67,
-        "IconHint": "laborum",
-        "Selected": true,
-        "LastChanged": "2002-12-31T14:19:03.6238736+01:00",
+        "Rank": 401,
+        "Type": "voluptatibus",
+        "ColorBlock": 558,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "1997-05-17T12:15:19.2467479+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "eos",
-        "Hidden": false,
-        "FullName": "Muriel Cummerata",
+        "ExtraInfo": "qui",
+        "StyleHint": "laboriosam",
+        "Hidden": true,
+        "FullName": "Prof. Marian Eugenia Walsh IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 387
+            "FieldLength": 551
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "repellat",
+    "ExtraInfo": "minus",
+    "StyleHint": "nemo",
     "Hidden": true,
-    "FullName": "Emiliano Leannon",
+    "FullName": "Miss Hulda Kylie Dibbert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 508
+        "FieldLength": 616
       }
     }
   }

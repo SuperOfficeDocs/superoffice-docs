@@ -65,13 +65,13 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Zulauf-McCullough",
-  "DeviceName": "Stark-Ullrich",
-  "DeviceIdentifier": "rem"
+  "ApplicationName": "Nikolaus Inc and Sons",
+  "DeviceName": "Kovacek LLC",
+  "DeviceIdentifier": "nostrum"
 }
 ```
 

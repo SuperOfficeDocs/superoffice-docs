@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 973,
+  "ErpConnectionId": 929,
   "ActorType": "Customer"
 }
 ```
@@ -95,33 +95,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 976,
+  "ErpConnectionId": 577,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 21,
-      "CrmFieldKey": "iusto",
-      "CrmDisplayName": "Jerde Inc and Sons",
-      "CrmDisplayTooltip": "labore",
-      "ErpFieldKey": "suscipit",
+      "ErpFieldId": 483,
+      "CrmFieldKey": "pariatur",
+      "CrmDisplayName": "Heidenreich Group",
+      "CrmDisplayTooltip": "recusandae",
+      "ErpFieldKey": "praesentium",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Wintheiser-Dicki",
-      "ErpDisplayTooltip": "illum",
+      "ErpDisplayName": "Rice-Connelly",
+      "ErpDisplayTooltip": "sapiente",
       "SyncToCrm": false,
       "SyncToErp": true,
-      "ShowInGui": true,
+      "ShowInGui": false,
       "ShowInSearch": true,
-      "AlreadyMapped": true,
-      "MissingInERP": true,
+      "AlreadyMapped": false,
+      "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "aut",
+      "ListReference": "molestias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 445
+          "FieldType": "System.Int32",
+          "FieldLength": 416
         }
       }
     }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 752
+      "FieldLength": 976
     }
   }
 }

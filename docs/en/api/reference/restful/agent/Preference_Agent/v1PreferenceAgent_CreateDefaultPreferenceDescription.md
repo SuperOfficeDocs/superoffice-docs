@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 552,
-  "Section": "nobis",
-  "Key": "aperiam",
-  "Name": "Kuphal-Ferry",
+  "PrefDescId": 803,
+  "Section": "iusto",
+  "Key": "ut",
+  "Name": "Heller, Spencer and Lemke",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Function-based next generation alliance",
+  "Description": "Persevering exuding pricing structure",
   "IsBuiltin": false,
-  "TableName": "Bayer, Zboncak and Johnston",
-  "UserDefinedListId": 549,
-  "Rank": 192,
-  "SubGroup": "illum",
-  "MinLevel": 553,
-  "MaxValue": 585,
-  "MinValue": 852,
-  "RequiredLicense": "fugiat",
+  "TableName": "Heaney, Witting and Jacobson",
+  "UserDefinedListId": 565,
+  "Rank": 186,
+  "SubGroup": "qui",
+  "MinLevel": 845,
+  "MaxValue": 925,
+  "MinValue": 567,
+  "RequiredLicense": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldLength": 351
     }
   }
 }

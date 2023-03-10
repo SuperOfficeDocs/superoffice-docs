@@ -101,46 +101,46 @@ OK
 POST /api/v1/DashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 527,
-  "Caption": "consequuntur",
-  "Description": "Optimized content-based groupware",
-  "ChartName": "Waelchi, Ebert and Beier",
-  "ChartId": "sed",
-  "IsDefault": false,
-  "AssociateId": 673,
-  "GroupId": 307,
-  "SelectionId": 347,
-  "Config": "tempore",
+  "DashboardTileId": 795,
+  "Caption": "ab",
+  "Description": "Profound neutral model",
+  "ChartName": "Runolfsdottir-Bahringer",
+  "ChartId": "eum",
+  "IsDefault": true,
+  "AssociateId": 168,
+  "GroupId": 929,
+  "SelectionId": 979,
+  "Config": "velit",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Mertz, Hessel and Stamm",
-      "Description": "Reduced heuristic hierarchy",
+      "Name": "Olson, Smitham and Casper",
+      "Description": "Front-line local emulation",
       "Type": "Boolean",
-      "ListName": "Ferry-Rempel",
+      "ListName": "Hilpert-McLaughlin",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "eaque",
-      "DefaultDataOption": false
+      "Value": "eveniet",
+      "DefaultDataOption": true
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 696,
+      "VisibleId": 256,
       "Visibility": "All",
-      "DisplayValue": "velit"
+      "DisplayValue": "aspernatur"
     },
     {
-      "VisibleId": 696,
+      "VisibleId": 256,
       "Visibility": "All",
-      "DisplayValue": "velit"
+      "DisplayValue": "aspernatur"
     }
   ]
 }
@@ -153,64 +153,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 249,
-  "Caption": "totam",
-  "Description": "Upgradable global benchmark",
-  "ChartName": "Hayes LLC",
-  "ChartId": "sunt",
+  "DashboardTileId": 382,
+  "Caption": "natus",
+  "Description": "Function-based 3rd generation customer loyalty",
+  "ChartName": "Botsford-Goodwin",
+  "ChartId": "nam",
   "IsDefault": false,
-  "AssociateId": 21,
-  "GroupId": 813,
-  "SelectionId": 598,
-  "Config": "occaecati",
+  "AssociateId": 139,
+  "GroupId": 863,
+  "SelectionId": 800,
+  "Config": "omnis",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Spinka, Lebsack and Hudson",
-      "Description": "Networked logistical hub",
+      "Name": "Wiegand-Boyle",
+      "Description": "Down-sized directional challenge",
       "Type": "Boolean",
-      "ListName": "McDermott, Hermiston and Beier",
+      "ListName": "Kunze LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "porro",
+      "Value": "velit",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 189
+          "FieldLength": 196
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 216,
+      "VisibleId": 599,
       "Visibility": "All",
-      "DisplayValue": "impedit",
+      "DisplayValue": "eaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 615
+          "FieldType": "System.Int32",
+          "FieldLength": 669
         }
       }
     },
     {
-      "VisibleId": 216,
+      "VisibleId": 599,
       "Visibility": "All",
-      "DisplayValue": "impedit",
+      "DisplayValue": "eaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 615
+          "FieldType": "System.Int32",
+          "FieldLength": 669
         }
       }
     }
@@ -219,13 +219,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 944
+      "FieldType": "System.Int32",
+      "FieldLength": 656
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

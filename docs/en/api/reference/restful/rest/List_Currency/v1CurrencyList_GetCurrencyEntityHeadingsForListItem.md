@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 369,
-    "Name": "Schinner, Kuhn and Corkery",
-    "ToolTip": "Rerum consequatur minus unde quia consequatur tempora.",
+    "Id": 851,
+    "Name": "Walsh-Reichert",
+    "ToolTip": "Voluptate officiis molestiae voluptatem autem qui sit.",
     "Deleted": true,
-    "Rank": 226,
-    "Type": "iure",
-    "ColorBlock": 491,
-    "IconHint": "occaecati",
-    "Selected": true,
-    "LastChanged": "2002-10-19T14:19:11.2262177+02:00",
+    "Rank": 572,
+    "Type": "in",
+    "ColorBlock": 857,
+    "IconHint": "accusantium",
+    "Selected": false,
+    "LastChanged": "2004-03-09T12:15:28.0996189+01:00",
     "ChildItems": [
       {
-        "Id": 561,
-        "Name": "Hoeger Inc and Sons",
-        "ToolTip": "Corporis quibusdam qui incidunt eos et distinctio delectus.",
+        "Id": 908,
+        "Name": "Dickinson-Murray",
+        "ToolTip": "Dolorem blanditiis et.",
         "Deleted": true,
-        "Rank": 645,
-        "Type": "quis",
-        "ColorBlock": 296,
-        "IconHint": "velit",
+        "Rank": 11,
+        "Type": "labore",
+        "ColorBlock": 694,
+        "IconHint": "delectus",
         "Selected": false,
-        "LastChanged": "2021-03-04T14:19:11.2262177+01:00",
+        "LastChanged": "2015-12-15T12:15:28.1006188+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "earum",
-        "Hidden": false,
-        "FullName": "Ed Frami",
+        "ExtraInfo": "dolor",
+        "StyleHint": "natus",
+        "Hidden": true,
+        "FullName": "Rusty Conroy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 904
+            "FieldType": "System.Int32",
+            "FieldLength": 647
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Ms. Chandler Jewess II",
+    "ExtraInfo": "animi",
+    "StyleHint": "mollitia",
+    "Hidden": false,
+    "FullName": "Noemie Casper",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 501
+        "FieldType": "System.Int32",
+        "FieldLength": 828
       }
     }
   }

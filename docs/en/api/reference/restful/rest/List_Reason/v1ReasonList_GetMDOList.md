@@ -26,7 +26,7 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=adipisci
+GET /api/v1/List/Reason/MDOItems?query=voluptatem
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 636,
-    "Name": "Murray Group",
-    "ToolTip": "Veritatis ducimus incidunt natus et ut nihil enim.",
-    "Deleted": false,
-    "Rank": 925,
-    "Type": "nihil",
+    "Id": 899,
+    "Name": "Medhurst LLC",
+    "ToolTip": "Quibusdam voluptate quia architecto.",
+    "Deleted": true,
+    "Rank": 711,
+    "Type": "excepturi",
     "ChildItems": [
       {
-        "Id": 454,
-        "Name": "Graham-Greenholt",
-        "ToolTip": "Culpa qui debitis non perspiciatis sed ducimus nobis.",
-        "Deleted": true,
-        "Rank": 482,
-        "Type": "exercitationem",
+        "Id": 766,
+        "Name": "Emard Inc and Sons",
+        "ToolTip": "Nemo voluptatem voluptas enim voluptate.",
+        "Deleted": false,
+        "Rank": 526,
+        "Type": "adipisci",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "a",
-        "ColorBlock": 295,
-        "ExtraInfo": "est",
-        "StyleHint": "et",
-        "FullName": "Tiana Schulist",
+        "IconHint": "sit",
+        "ColorBlock": 179,
+        "ExtraInfo": "deleniti",
+        "StyleHint": "qui",
+        "FullName": "Coty Konopelski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 485
+            "FieldType": "System.String",
+            "FieldLength": 954
           }
         }
       }
     ],
-    "IconHint": "illum",
-    "ColorBlock": 948,
-    "ExtraInfo": "quaerat",
-    "StyleHint": "velit",
-    "FullName": "Jakayla Grady",
+    "IconHint": "enim",
+    "ColorBlock": 533,
+    "ExtraInfo": "excepturi",
+    "StyleHint": "fuga",
+    "FullName": "Roman Jacobson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 397
+        "FieldType": "System.Int32",
+        "FieldLength": 208
       }
     }
   }

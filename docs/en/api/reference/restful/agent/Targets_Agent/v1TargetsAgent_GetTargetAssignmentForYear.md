@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 294,
+  "TargetYear": 254,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 656
+  "Id": 757
 }
 ```
 
@@ -101,24 +101,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 524,
+  "TargetAssignmentInfoId": 124,
   "Values": [
-    907,
-    169
+    38,
+    341
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 951,
-  "DimensionListItemDisplayName": "Jenkins, Bins and Carter",
+  "DimensionListItem": 976,
+  "DimensionListItemDisplayName": "Kihn Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 613
+      "FieldType": "System.String",
+      "FieldLength": 372
     }
   }
 }

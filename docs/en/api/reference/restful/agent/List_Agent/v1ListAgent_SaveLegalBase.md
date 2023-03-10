@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/SaveLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 817,
-  "Name": "Hauck, Adams and Denesik",
-  "Tooltip": "quis",
-  "Rank": 8,
-  "Key": "rerum",
+  "LegalBaseId": 784,
+  "Name": "Kirlin Inc and Sons",
+  "Tooltip": "ut",
+  "Rank": 958,
+  "Key": "molestiae",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 182
+      "FieldType": "System.Int32",
+      "FieldLength": 647
     }
   }
 }

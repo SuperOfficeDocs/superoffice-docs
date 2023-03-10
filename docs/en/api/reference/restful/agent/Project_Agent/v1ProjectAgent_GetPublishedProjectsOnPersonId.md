@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 358
+  "PersonId": 331
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 571,
-    "Name": "Cummings-Steuber",
-    "Description": "Face to face dedicated portal",
+    "ProjectId": 165,
+    "Name": "Jewess LLC",
+    "Description": "Organized bottom-line methodology",
     "URL": "http://www.example.com/",
-    "Type": "et",
-    "AssociateId": 559,
-    "AssociateFullName": "Nels Mertz",
-    "TypeId": 879,
-    "Updated": "1997-02-21T14:19:03.9688343+01:00",
-    "StatusId": 971,
-    "Status": "voluptatem",
-    "TextId": 903,
-    "PublishTo": "2009-12-28T14:19:03.9688343+01:00",
-    "PublishFrom": "2021-01-12T14:19:03.9688343+01:00",
+    "Type": "corrupti",
+    "AssociateId": 560,
+    "AssociateFullName": "Giovanny Runolfsdottir",
+    "TypeId": 621,
+    "Updated": "2004-04-06T12:15:19.8657392+02:00",
+    "StatusId": 467,
+    "Status": "eius",
+    "TextId": 367,
+    "PublishTo": "2018-06-15T12:15:19.8657392+02:00",
+    "PublishFrom": "2013-08-27T12:15:19.8657392+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1409654",
-    "ActiveErpLinks": 770,
+    "ProjectNumber": "444632",
+    "ActiveErpLinks": 621,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 587
+        "FieldType": "System.Int32",
+        "FieldLength": 41
       }
     }
   }

@@ -97,15 +97,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 364,
-  "StartTime": "2010-11-24T14:19:03.1355296+01:00",
-  "EndTime": "2010-12-25T14:19:03.1355296+01:00",
-  "Count": 569,
-  "TemplateHeadingId": 91
+  "ContactId": 792,
+  "StartTime": "1998-11-13T12:15:18.7107558+01:00",
+  "EndTime": "2011-02-11T12:15:18.7107558+01:00",
+  "Count": 81,
+  "TemplateHeadingId": 222
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 501,
-    "Attention": "impedit",
-    "Header": "labore",
-    "Name": "Kertzmann-Turner",
-    "OurRef": "beatae",
-    "YourRef": "ut",
-    "Description": "Enterprise-wide asynchronous encoding",
-    "DocumentTemplate": "deleniti",
+    "DocumentId": 402,
+    "Attention": "quibusdam",
+    "Header": "unde",
+    "Name": "Stark Group",
+    "OurRef": "itaque",
+    "YourRef": "pariatur",
+    "Description": "Down-sized interactive system engine",
+    "DocumentTemplate": "et",
     "IsPublished": true,
-    "PersonId": 435,
-    "PersonFullName": "Ms. Ismael Rolando Bins",
-    "AssociateFullName": "Georgette Sigmund Adams DVM",
-    "ContactId": 969,
-    "ContactName": "Legros LLC",
-    "ProjectId": 179,
-    "ProjectName": "Shanahan-Lakin",
-    "AssociateId": 155,
-    "Snum": 1000,
-    "SaleId": 233,
-    "SaleName": "Wilkinson, Jerde and Konopelski",
+    "PersonId": 364,
+    "PersonFullName": "Ardella Greenfelder",
+    "AssociateFullName": "Winifred Upton",
+    "ContactId": 247,
+    "ContactName": "Christiansen-Heathcote",
+    "ProjectId": 763,
+    "ProjectName": "Kautzer LLC",
+    "AssociateId": 841,
+    "Snum": 974,
+    "SaleId": 223,
+    "SaleName": "Lind, Schaefer and Terry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 867
+        "FieldType": "System.String",
+        "FieldLength": 689
       }
     }
   }

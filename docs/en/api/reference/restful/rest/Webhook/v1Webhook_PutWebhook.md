@@ -102,30 +102,30 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 787,
-  "Name": "Hartmann-Stark",
+  "WebhookId": 597,
+  "Name": "Friesen, Ferry and Hills",
   "Events": [
-    "error",
-    "quia"
+    "provident",
+    "impedit"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "sit",
+  "Secret": "ab",
   "State": "Active",
-  "Type": "nobis",
+  "Type": "voluptatem",
   "Headers": {
-    "Headers1": "unde",
-    "Headers2": "neque"
+    "Headers1": "doloribus",
+    "Headers2": "autem"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2004-08-10T14:19:11.0855578+02:00",
+  "Registered": "2001-08-30T12:15:27.8146258+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2022-01-11T14:19:11.0855578+01:00",
+  "Updated": "2013-11-26T12:15:27.8156292+01:00",
   "UpdatedAssociate": null
 }
 ```
@@ -137,26 +137,26 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 357,
-  "Name": "Bahringer LLC",
+  "WebhookId": 168,
+  "Name": "Kozey-Stokes",
   "Events": [
-    "labore",
-    "quo"
+    "repellat",
+    "cum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "aut",
+  "Secret": "accusantium",
   "State": "Active",
-  "Type": "voluptas",
+  "Type": "rerum",
   "Headers": {
-    "Headers1": "dicta",
-    "Headers2": "sapiente"
+    "Headers1": "pariatur",
+    "Headers2": "nostrum"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1999-12-22T14:19:11.0855578+01:00",
+  "Registered": "2001-01-11T12:15:27.8166233+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2011-09-07T14:19:11.0855578+02:00",
+  "Updated": "2021-08-02T12:15:27.8166233+02:00",
   "UpdatedAssociate": null,
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",

@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Smith-Murphy"
+  "OwnerName": "Quitzon, Morar and O'Keefe"
 }
 ```
 
@@ -91,21 +91,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 13,
-      "NumberOfLicensesFree": 898,
-      "NumberOfLicensesAdded": 724,
-      "NumberOfLicensesNewTotal": 123,
-      "NumberOfLicensesNewFree": 148,
-      "NumberOfLicensesTotal": 990
+      "NumberOfLicensesInUse": 262,
+      "NumberOfLicensesFree": 736,
+      "NumberOfLicensesAdded": 426,
+      "NumberOfLicensesNewTotal": 223,
+      "NumberOfLicensesNewFree": 536,
+      "NumberOfLicensesTotal": 882
     }
   ],
-  "AccumulatedNextCheckDate": "2000-06-30T14:19:03.5769906+02:00"
+  "AccumulatedNextCheckDate": "2012-08-12T12:15:19.1807567+02:00"
 }
 ```

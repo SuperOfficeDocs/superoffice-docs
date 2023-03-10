@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 925,
-  "Name": "Howe, VonRueden and Zemlak",
-  "Tooltip": "provident",
-  "Deleted": false,
-  "UdListDefinitionId": 653,
-  "Rank": 266,
+  "Id": 764,
+  "Name": "Lynch-Kessler",
+  "Tooltip": "accusantium",
+  "Deleted": true,
+  "UdListDefinitionId": 995,
+  "Rank": 141,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 925
+      "FieldType": "System.Int32",
+      "FieldLength": 883
     }
   }
 }

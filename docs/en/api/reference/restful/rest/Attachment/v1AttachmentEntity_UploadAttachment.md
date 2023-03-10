@@ -9,7 +9,7 @@ uid: v1AttachmentEntity_UploadAttachment
 POST /api/v1/Attachment/{attachmentId}/Content
 ```
 
-Upload an attachment and return the attachment id
+Upload the content for an attachment
 
 
 
@@ -54,7 +54,7 @@ No Content
 POST /api/v1/Attachment/{attachmentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

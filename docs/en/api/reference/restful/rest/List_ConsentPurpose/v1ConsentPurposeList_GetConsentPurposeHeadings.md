@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 748,
-    "Name": "Bernier-Wilderman",
-    "Tooltip": "velit",
+    "HeadingId": 804,
+    "Name": "Cartwright, Lockman and Thompson",
+    "Tooltip": "in",
     "Deleted": true,
-    "Rank": 568,
-    "UdListDefinitionId": 218,
+    "Rank": 734,
+    "UdListDefinitionId": 249,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 223
+        "FieldLength": 590
       }
     }
   }

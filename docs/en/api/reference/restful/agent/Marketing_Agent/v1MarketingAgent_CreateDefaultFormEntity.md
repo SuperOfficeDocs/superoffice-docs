@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,34 +87,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 325,
-  "FormKey": "quia",
-  "Name": "Prosacco, Schamberger and Balistreri",
-  "Description": "Streamlined 5th generation contingency",
-  "Config": "eum",
-  "FolderId": 575,
-  "ScriptId": 571,
-  "ResponseShipmentId": 654,
+  "FormId": 922,
+  "FormKey": "voluptates",
+  "Name": "Ankunding-Schimmel",
+  "Description": "Balanced needs-based installation",
+  "Config": "consectetur",
+  "FolderId": 473,
+  "ScriptId": 280,
+  "ResponseShipmentId": 144,
   "Active": false,
-  "Expires": "1999-05-13T14:19:03.7019992+02:00",
-  "MaxSubmits": 488,
+  "Expires": "2009-12-01T12:15:19.3627459+01:00",
+  "MaxSubmits": 536,
   "Type": "Normal",
-  "Recipe": "et",
-  "GroupId": 797,
-  "NewTicket": false,
+  "Recipe": "aut",
+  "GroupId": 280,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "1999-03-10T14:19:03.7019992+01:00",
-  "RegisteredAssociateId": 874,
-  "Updated": "2014-09-09T14:19:03.7019992+02:00",
-  "UpdatedAssociateId": 24,
-  "UpdatedCount": 288,
-  "FolderName": "Mohr-Luettgen",
+  "Registered": "1999-04-28T12:15:19.3627459+02:00",
+  "RegisteredAssociateId": 73,
+  "Updated": "2018-05-16T12:15:19.3627459+02:00",
+  "UpdatedAssociateId": 298,
+  "UpdatedCount": 572,
+  "FolderName": "Little, Wiza and O'Conner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 508
+      "FieldLength": 939
     }
   }
 }

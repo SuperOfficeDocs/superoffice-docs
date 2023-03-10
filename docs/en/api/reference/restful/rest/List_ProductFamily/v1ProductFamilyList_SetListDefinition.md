@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 646,
-  "Name": "Ratke, Mante and Kessler",
-  "Tooltip": "odio",
+  "Id": 937,
+  "Name": "Considine LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 208,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 851,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "id",
-  "InUseByUserDefinedFields": false
+  "ListType": "ex",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 457,
-  "Name": "Fay-Kihn",
-  "Tooltip": "sapiente",
-  "Deleted": true,
-  "Rank": 830,
-  "IsCustomList": false,
+  "Id": 779,
+  "Name": "Metz Group",
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "Rank": 72,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "distinctio",
-  "InUseByUserDefinedFields": false,
+  "ListType": "aliquam",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 781
+      "FieldType": "System.String",
+      "FieldLength": 223
     }
   }
 }

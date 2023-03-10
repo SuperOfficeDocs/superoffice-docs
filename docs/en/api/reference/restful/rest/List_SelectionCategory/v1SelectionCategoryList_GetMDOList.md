@@ -25,8 +25,8 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SelectionCategory/MDOItems?flat=True
-GET /api/v1/List/SelectionCategory/MDOItems?query=suscipit
+GET /api/v1/List/SelectionCategory/MDOItems?flat=False
+GET /api/v1/List/SelectionCategory/MDOItems?query=voluptate
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 19,
-    "Name": "Kling Inc and Sons",
-    "ToolTip": "Neque fuga.",
-    "Deleted": true,
-    "Rank": 534,
-    "Type": "doloribus",
+    "Id": 372,
+    "Name": "Harris Inc and Sons",
+    "ToolTip": "Architecto quam consequatur sit iste in cumque molestias.",
+    "Deleted": false,
+    "Rank": 348,
+    "Type": "pariatur",
     "ChildItems": [
       {
-        "Id": 487,
-        "Name": "Emmerich, Emard and Beahan",
-        "ToolTip": "Nostrum nulla culpa inventore voluptas magnam.",
-        "Deleted": true,
-        "Rank": 146,
-        "Type": "quia",
+        "Id": 994,
+        "Name": "Tillman-Beier",
+        "ToolTip": "Unde quia culpa voluptas sint aperiam.",
+        "Deleted": false,
+        "Rank": 44,
+        "Type": "quidem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fugit",
-        "ColorBlock": 778,
-        "ExtraInfo": "doloribus",
-        "StyleHint": "sed",
-        "FullName": "Wilma Rowe DDS",
+        "IconHint": "ut",
+        "ColorBlock": 289,
+        "ExtraInfo": "officia",
+        "StyleHint": "alias",
+        "FullName": "Mrs. Lexus Pollich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 245
+            "FieldLength": 294
           }
         }
       }
     ],
-    "IconHint": "ducimus",
-    "ColorBlock": 93,
-    "ExtraInfo": "nostrum",
-    "StyleHint": "quos",
-    "FullName": "Jovany Williamson",
+    "IconHint": "velit",
+    "ColorBlock": 715,
+    "ExtraInfo": "dicta",
+    "StyleHint": "ipsam",
+    "FullName": "Ms. Thalia Donnelly DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 284
+        "FieldLength": 55
       }
     }
   }

@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 269,
-  "Name": "Watsica-Kiehn",
-  "Tooltip": "quidem",
-  "Deleted": false,
-  "Rank": 296,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 955,
+  "Name": "Wolf-Olson",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "Rank": 979,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "temporibus",
-  "InUseByUserDefinedFields": true
+  "ListType": "non",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 209,
-  "Name": "Murphy Group",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 686,
+  "Id": 309,
+  "Name": "Swift-Kerluke",
+  "Tooltip": "inventore",
+  "Deleted": false,
+  "Rank": 765,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aspernatur",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "non",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 429
+      "FieldType": "System.Int32",
+      "FieldLength": 783
     }
   }
 }

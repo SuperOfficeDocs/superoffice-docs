@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Vandervort Inc and Sons"
+  "Name": "Vandervort Group"
 }
 ```
 
@@ -99,50 +99,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 125,
-    "Name": "Marquardt, Heaney and Williamson",
-    "ToolTip": "Iure at iusto animi.",
-    "Deleted": true,
-    "Rank": 913,
-    "Type": "ducimus",
+    "Id": 459,
+    "Name": "Abbott, Bruen and Douglas",
+    "ToolTip": "Natus error.",
+    "Deleted": false,
+    "Rank": 485,
+    "Type": "eos",
     "ChildItems": [
       {
-        "Id": 189,
-        "Name": "Ward-Ruecker",
-        "ToolTip": "Aut iure placeat provident.",
+        "Id": 413,
+        "Name": "Schulist, Schroeder and Fritsch",
+        "ToolTip": "Veritatis a nemo reiciendis cumque enim.",
         "Deleted": false,
-        "Rank": 182,
-        "Type": "impedit",
+        "Rank": 215,
+        "Type": "reiciendis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquid",
-        "ColorBlock": 647,
-        "ExtraInfo": "doloribus",
-        "StyleHint": "dolore",
-        "FullName": "Eleazar Von",
+        "IconHint": "ut",
+        "ColorBlock": 579,
+        "ExtraInfo": "est",
+        "StyleHint": "cumque",
+        "FullName": "Xander Feeney",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 122
+            "FieldLength": 636
           }
         }
       }
     ],
-    "IconHint": "cum",
-    "ColorBlock": 824,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "natus",
-    "FullName": "Odell Kautzer",
+    "IconHint": "omnis",
+    "ColorBlock": 87,
+    "ExtraInfo": "eos",
+    "StyleHint": "excepturi",
+    "FullName": "Jermey Anderson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 813
+        "FieldType": "System.Int32",
+        "FieldLength": 593
       }
     }
   }

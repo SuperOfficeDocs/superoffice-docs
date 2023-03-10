@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 608,
-  "Name": "Rohan, Kertzmann and Parisian",
-  "Tooltip": "rerum",
+  "Id": 800,
+  "Name": "Lakin LLC",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 188,
-  "Rank": 869,
+  "UdListDefinitionId": 492,
+  "Rank": 196,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldLength": 410
     }
   }
 }

@@ -97,17 +97,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 863,
-  "StartTime": "1998-03-05T14:19:03.1355296+01:00",
-  "EndTime": "2014-07-15T14:19:03.1355296+02:00",
-  "Count": 873,
+  "PersonId": 274,
+  "StartTime": "2011-01-01T12:15:18.7167554+01:00",
+  "EndTime": "2017-02-19T12:15:18.7167554+01:00",
+  "Count": 165,
   "DocumentTemplateIds": [
-    90,
-    575
+    34,
+    281
   ]
 }
 ```
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 716,
-    "Attention": "animi",
-    "Header": "voluptas",
-    "Name": "Rodriguez, Jewess and Dach",
-    "OurRef": "nihil",
-    "YourRef": "minima",
-    "Description": "Stand-alone multi-state product",
-    "DocumentTemplate": "tempora",
-    "IsPublished": false,
-    "PersonId": 866,
-    "PersonFullName": "Zackery Reichel",
-    "AssociateFullName": "Janick Ankunding",
-    "ContactId": 703,
-    "ContactName": "Green-Paucek",
-    "ProjectId": 799,
-    "ProjectName": "Bruen-Gaylord",
-    "AssociateId": 512,
-    "Snum": 2,
-    "SaleId": 992,
-    "SaleName": "Spencer Inc and Sons",
+    "DocumentId": 664,
+    "Attention": "nihil",
+    "Header": "nihil",
+    "Name": "Buckridge Inc and Sons",
+    "OurRef": "id",
+    "YourRef": "rerum",
+    "Description": "Advanced executive software",
+    "DocumentTemplate": "enim",
+    "IsPublished": true,
+    "PersonId": 821,
+    "PersonFullName": "Ardith Hoppe",
+    "AssociateFullName": "Nikita McClure",
+    "ContactId": 725,
+    "ContactName": "Hettinger Inc and Sons",
+    "ProjectId": 712,
+    "ProjectName": "Howe LLC",
+    "AssociateId": 217,
+    "Snum": 486,
+    "SaleId": 564,
+    "SaleName": "Miller Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 424
+        "FieldType": "System.String",
+        "FieldLength": 234
       }
     }
   }

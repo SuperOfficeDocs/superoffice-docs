@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 607,
-  "Name": "O'Connell Inc and Sons",
-  "Tooltip": "officia",
+  "Id": 363,
+  "Name": "Schneider-Weissnat",
+  "Tooltip": "sed",
   "Deleted": false,
-  "UdListDefinitionId": 841,
-  "Rank": 603
+  "UdListDefinitionId": 689,
+  "Rank": 282
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 749,
-  "Name": "Steuber Group",
-  "Tooltip": "voluptate",
+  "Id": 338,
+  "Name": "Feeney-D'Amore",
+  "Tooltip": "facere",
   "Deleted": false,
-  "UdListDefinitionId": 33,
-  "Rank": 398,
+  "UdListDefinitionId": 223,
+  "Rank": 227,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 706
+      "FieldLength": 755
     }
   }
 }

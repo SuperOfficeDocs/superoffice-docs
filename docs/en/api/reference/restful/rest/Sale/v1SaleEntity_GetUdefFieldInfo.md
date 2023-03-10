@@ -92,7 +92,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 747,
-  "ColumnId": 735,
-  "FieldDefault": "non",
-  "FieldHeight": 257,
-  "FieldLabel": "molestiae",
-  "FieldLeft": 336,
-  "FieldTop": 227,
+  "UDefFieldId": 890,
+  "ColumnId": 825,
+  "FieldDefault": "totam",
+  "FieldHeight": 135,
+  "FieldLabel": "eligendi",
+  "FieldLeft": 55,
+  "FieldTop": 882,
   "FieldType": "Checkbox",
-  "FieldWidth": 561,
-  "FormatMask": "omnis",
+  "FieldWidth": 864,
+  "FormatMask": "est",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 447,
-  "LabelLeft": 868,
-  "LabelTop": 819,
-  "LabelWidth": 140,
-  "LastVersionId": 914,
-  "ListTableId": 314,
+  "LabelHeight": 758,
+  "LabelLeft": 167,
+  "LabelTop": 425,
+  "LabelWidth": 88,
+  "LastVersionId": 53,
+  "ListTableId": 435,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 618,
-  "ProgId": "dignissimos",
+  "Page1LineNo": 523,
+  "ProgId": "aut",
   "IsReadOnly": false,
-  "ShortLabel": "deleniti",
-  "TabOrder": 806,
-  "TextLength": 896,
-  "Tooltip": "maiores",
-  "UdefIdentity": 676,
-  "UDListDefinitionId": 875,
+  "ShortLabel": "et",
+  "TabOrder": 641,
+  "TextLength": 480,
+  "Tooltip": "possimus",
+  "UdefIdentity": 911,
+  "UDListDefinitionId": 836,
   "Justification": "Center",
-  "Version": 713,
-  "TemplateVariableName": "Bogisich, Gislason and Tremblay",
+  "Version": 145,
+  "TemplateVariableName": "Bogisich, Roberts and McClure",
   "HasBeenPublished": false,
-  "MdoListName": "Thompson-Simonis",
+  "MdoListName": "Huel, Sanford and Skiles",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 283
+      "FieldType": "System.Int32",
+      "FieldLength": 411
     }
   }
 }

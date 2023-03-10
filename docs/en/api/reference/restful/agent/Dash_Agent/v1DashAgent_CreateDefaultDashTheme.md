@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 906,
-  "Name": "McLaughlin, Lowe and Hansen",
-  "Config": "beatae",
-  "Rank": 85,
-  "Client": "reprehenderit",
-  "Style": "fugit",
+  "DashboardThemeId": 877,
+  "Name": "Veum LLC",
+  "Config": "voluptas",
+  "Rank": 650,
+  "Client": "aliquam",
+  "Style": "repellendus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 720
+      "FieldLength": 183
     }
   }
 }

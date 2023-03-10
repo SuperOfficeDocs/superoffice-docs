@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 488,
-  "Name": "Lakin, Hudson and Kuhic",
+  "ScreenChooserId": 122,
+  "Name": "Ortiz-Upton",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "tempore",
-  "Source": "tenetur",
-  "Registered": "2014-01-18T14:19:03.0730293+01:00",
-  "RegisteredAssociateId": 491,
-  "Updated": "2012-08-03T14:19:03.0730293+02:00",
-  "UpdatedAssociateId": 399
+  "Enabled": true,
+  "UniqueIdentifier": "tempora",
+  "Source": "eligendi",
+  "Registered": "1999-07-07T12:15:18.6227564+02:00",
+  "RegisteredAssociateId": 973,
+  "Updated": "2016-05-28T12:15:18.6227564+02:00",
+  "UpdatedAssociateId": 415
 }
 ```
 
@@ -106,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 309,
-  "Name": "Schroeder-Hammes",
+  "ScreenChooserId": 250,
+  "Name": "Wisozk-Williamson",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "voluptatem",
-  "Source": "fuga",
-  "Registered": "2015-07-14T14:19:03.0730293+02:00",
-  "RegisteredAssociateId": 943,
-  "Updated": "2002-09-11T14:19:03.0730293+02:00",
-  "UpdatedAssociateId": 688,
+  "UniqueIdentifier": "saepe",
+  "Source": "aliquam",
+  "Registered": "2015-02-20T12:15:18.6237597+01:00",
+  "RegisteredAssociateId": 837,
+  "Updated": "1998-11-07T12:15:18.6237597+01:00",
+  "UpdatedAssociateId": 856,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 798
+      "FieldLength": 840
     }
   }
 }

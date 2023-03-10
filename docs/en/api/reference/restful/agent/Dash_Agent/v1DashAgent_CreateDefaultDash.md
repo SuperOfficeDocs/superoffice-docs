@@ -78,37 +78,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 241,
-  "UniqueId": "eaque",
-  "Name": "Wintheiser Group",
-  "Description": "Realigned cohesive utilisation",
-  "AssociateId": 938,
-  "Columns": 562,
+  "DashboardId": 483,
+  "UniqueId": "qui",
+  "Name": "Torphy-Kassulke",
+  "Description": "Persistent heuristic complexity",
+  "AssociateId": 193,
+  "Columns": 112,
   "Theme": null,
-  "VisibleForAll": 536,
+  "VisibleForAll": 140,
   "VisibleForAssociates": [
-    942,
-    578
+    338,
+    327
   ],
   "VisibleForGroups": [
-    759,
-    68
+    432,
+    972
   ],
-  "PinForAll": 877,
+  "PinForAll": 997,
   "PinForAssociates": [
-    782,
-    258
+    164,
+    151
   ],
   "PinForGroups": [
-    752,
-    520
+    712,
+    575
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 946
+      "FieldType": "System.Int32",
+      "FieldLength": 144
     }
   }
 }

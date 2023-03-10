@@ -74,24 +74,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 777,
+  "TargetDimensionId": 249,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "doloremque",
-  "DimensionListName": "Friesen LLC",
-  "DimensionListId": 193,
-  "DimensionListLabel": "sint",
+  "DimensionListField": "consequatur",
+  "DimensionListName": "Lakin LLC",
+  "DimensionListId": 87,
+  "DimensionListLabel": "occaecati",
   "SelectedDimensions": [
-    430,
-    992
+    619,
+    258
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 734
+      "FieldType": "System.String",
+      "FieldLength": 732
     }
   }
 }

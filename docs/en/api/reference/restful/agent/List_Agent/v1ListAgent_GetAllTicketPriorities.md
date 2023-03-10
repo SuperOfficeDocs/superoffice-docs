@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -115,60 +115,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 60,
-    "Name": "Maggio Inc and Sons",
+    "TicketPriorityId": 265,
+    "Name": "Kovacek Group",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 918,
+    "SortOrder": 797,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 543,
-    "MonStart": "2001-02-16T14:19:03.5926233+01:00",
-    "MonStop": "2020-07-23T14:19:03.5926233+02:00",
-    "TueStart": "1997-02-21T14:19:03.5926233+01:00",
-    "TueStop": "1995-10-05T14:19:03.5926233+02:00",
-    "WedStart": "2007-10-10T14:19:03.5926233+02:00",
-    "WedStop": "2001-04-14T14:19:03.5926233+02:00",
-    "ThuStart": "2019-11-23T14:19:03.5926233+01:00",
-    "ThuStop": "2001-11-16T14:19:03.5926233+01:00",
-    "FriStart": "2014-12-08T14:19:03.5926233+01:00",
-    "FriStop": "1997-07-23T14:19:03.5926233+02:00",
-    "SatStart": "2010-12-05T14:19:03.5926233+01:00",
-    "SatStop": "2019-08-14T14:19:03.5926233+02:00",
-    "SunStart": "2016-04-29T14:19:03.5926233+02:00",
-    "SunStop": "1996-01-19T14:19:03.5926233+01:00",
+    "Deadline": 392,
+    "MonStart": "2003-09-18T12:15:19.2047482+02:00",
+    "MonStop": "2012-01-31T12:15:19.2047482+01:00",
+    "TueStart": "2002-03-03T12:15:19.2047482+01:00",
+    "TueStop": "2015-06-22T12:15:19.2047482+02:00",
+    "WedStart": "2010-03-24T12:15:19.2047482+01:00",
+    "WedStop": "2014-07-27T12:15:19.2047482+02:00",
+    "ThuStart": "2016-12-15T12:15:19.2047482+01:00",
+    "ThuStop": "2000-05-06T12:15:19.2047482+02:00",
+    "FriStart": "1999-02-17T12:15:19.2047482+01:00",
+    "FriStop": "2005-08-31T12:15:19.2047482+02:00",
+    "SatStart": "2015-08-01T12:15:19.2047482+02:00",
+    "SatStop": "2001-12-24T12:15:19.2047482+01:00",
+    "SunStart": "1996-09-30T12:15:19.2047482+02:00",
+    "SunStop": "2002-08-21T12:15:19.2047482+02:00",
     "NonDates": [
-      "et",
-      "voluptas"
+      "sed",
+      "et"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 890,
-        "AlertLevel": 315,
-        "AlertTimeout": 143,
-        "Action": 26,
-        "DelegateTo": 2,
-        "ScriptId": 787,
-        "EmailTo": "bernita.gleason@oconnell.uk",
-        "SmsTo": "reprehenderit",
-        "ReplyTemplateIdCustomer": 412,
-        "ReplyTemplateIdUser": 334,
-        "ReplyTemplateIdCatmast": 435,
-        "ReplyTemplateIdEmail": 947,
-        "RtiCustomerSms": 510,
-        "ReplyTemplateIdUserSms": 583,
-        "ReplyTemplateIdCatmastSms": 890,
-        "ReplyTemplateIdSms": 36,
+        "TicketAlertId": 500,
+        "AlertLevel": 976,
+        "AlertTimeout": 898,
+        "Action": 546,
+        "DelegateTo": 652,
+        "ScriptId": 144,
+        "EmailTo": "jaden@spinka.name",
+        "SmsTo": "sit",
+        "ReplyTemplateIdCustomer": 316,
+        "ReplyTemplateIdUser": 706,
+        "ReplyTemplateIdCatmast": 820,
+        "ReplyTemplateIdEmail": 314,
+        "RtiCustomerSms": 311,
+        "ReplyTemplateIdUserSms": 842,
+        "ReplyTemplateIdCatmastSms": 776,
+        "ReplyTemplateIdSms": 411,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 588
+            "FieldLength": 352
           }
         }
       }
@@ -178,7 +178,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 88
+        "FieldLength": 606
       }
     }
   }

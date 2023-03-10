@@ -117,10 +117,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 216,
+  "SelectionId": 131,
   "SelectionMemberIds": [
-    96,
-    477
+    525,
+    977
   ]
 }
 ```
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-tiered incremental definition",
-  "Postit": "nemo",
+  "Description": "Persistent bifurcated instruction set",
+  "Postit": "consequatur",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 77,
-  "IncludePerson": 229,
-  "MemberCount": 341,
-  "Name": "Harris LLC",
-  "PostitTextId": 444,
-  "CreatedDate": "2006-08-24T14:19:04.1879797+02:00",
-  "SelectionId": 590,
-  "SoundEx": "dolorem",
-  "Source": 78,
-  "TextId": 123,
-  "UpdatedDate": "2006-05-14T14:19:04.1879797+02:00",
-  "UpdatedCount": 888,
-  "Visibility": 66,
+  "GroupIdx": 169,
+  "IncludePerson": 238,
+  "MemberCount": 733,
+  "Name": "Larkin, Stanton and Halvorson",
+  "PostitTextId": 929,
+  "CreatedDate": "1997-08-27T12:15:20.1687352+02:00",
+  "SelectionId": 426,
+  "SoundEx": "qui",
+  "Source": 736,
+  "TextId": 43,
+  "UpdatedDate": "2018-03-13T12:15:20.1687352+01:00",
+  "UpdatedCount": 621,
+  "Visibility": 64,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 366,
-  "TargetTableName": "Kunze Inc and Sons",
-  "Completed": true,
-  "LeftSelectionId": 344,
-  "RightSelectionId": 558,
+  "CompanyUnique": false,
+  "TargetTableNumber": 834,
+  "TargetTableName": "Harber LLC",
+  "Completed": false,
+  "LeftSelectionId": 985,
+  "RightSelectionId": 531,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kunze-Lueilwitz",
-  "ShadowProviderName": "Gerhold Inc and Sons",
-  "ChartKey": "quam",
-  "LastLoaded": "2000-01-16T14:19:04.1879797+01:00",
-  "LastLoadedBy": 349,
+  "MainProviderName": "Kovacek-Witting",
+  "ShadowProviderName": "Hartmann, Cassin and Russel",
+  "ChartKey": "et",
+  "LastLoaded": "2017-11-24T12:15:20.1697344+01:00",
+  "LastLoadedBy": 560,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2007-04-25T14:19:04.2036046+02:00",
-  "LastMembershipChangeBy": 477,
+  "LastMembershipChange": "2005-07-22T12:15:20.1697344+02:00",
+  "LastMembershipChangeBy": 613,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "magni",
-  "MemberTabHeading": "omnis",
-  "MailingsProviderName": "Kertzmann, Langworth and Auer",
-  "DashboardTileDefinitionId": 421,
+  "MainHeading": "est",
+  "MemberTabHeading": "aut",
+  "MailingsProviderName": "Yundt, Conn and Witting",
+  "DashboardTileDefinitionId": 871,
   "VisibleFor": [
     {
-      "VisibleId": 684,
+      "VisibleId": 115,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 329
+          "FieldType": "System.String",
+          "FieldLength": 265
         }
       }
     },
     {
-      "VisibleId": 684,
+      "VisibleId": 115,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 329
+          "FieldType": "System.String",
+          "FieldLength": 265
         }
       }
     }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 781
+      "FieldLength": 30
     }
   }
 }

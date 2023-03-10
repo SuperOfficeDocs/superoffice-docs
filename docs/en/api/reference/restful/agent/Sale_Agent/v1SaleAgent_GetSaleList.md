@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Stroman Group",
-    "SaleDate": "2020-01-14T14:19:04.1410858+01:00",
-    "SaleId": 854,
-    "Probability": 546,
-    "Title": "voluptatem",
-    "Amount": 1802.05,
-    "Currency": "libero",
-    "ProjectName": "Renner, McDermott and Bruen",
-    "AssociateFullName": "Prof. Amelia Block V",
-    "Description": "Configurable multimedia capacity",
+    "ContactName": "Kemmer LLC",
+    "SaleDate": "2011-03-12T12:15:20.0887369+01:00",
+    "SaleId": 111,
+    "Probability": 488,
+    "Title": "accusamus",
+    "Amount": 12630.02,
+    "Currency": "saepe",
+    "ProjectName": "Daugherty Inc and Sons",
+    "AssociateFullName": "Bulah Ratke",
+    "Description": "Centralized asynchronous synergy",
     "Status": "Lost",
-    "WeightedAmount": 14732.934,
-    "ProjectId": 226,
-    "EarningPercent": 20627.987999999998,
-    "Earning": 9392.598,
-    "ContactId": 950,
-    "AssociateId": 229,
-    "PersonId": 36,
-    "SaleTypeId": 38,
-    "SaleTypeName": "Wilkinson-Littel",
-    "PersonFullName": "Mr. Lisette Eusebio Walter MD",
+    "WeightedAmount": 5371.6759999999995,
+    "ProjectId": 638,
+    "EarningPercent": 27547.86,
+    "Earning": 416.822,
+    "ContactId": 598,
+    "AssociateId": 529,
+    "PersonId": 817,
+    "SaleTypeId": 106,
+    "SaleTypeName": "Dibbert-Padberg",
+    "PersonFullName": "Ms. Gus Jocelyn Bartoletti DVM",
     "Completed": "Completed",
-    "ActiveErpLinks": 469,
-    "NextDueDate": "2011-07-03T14:19:04.1410858+02:00",
-    "Number": "917537",
+    "ActiveErpLinks": 383,
+    "NextDueDate": "2001-11-29T12:15:20.0887369+01:00",
+    "Number": "787331",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 176
+        "FieldLength": 26
       }
     }
   }

@@ -78,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 948,
-  "Name": "Lind-Schoen",
-  "Tooltip": "numquam",
+  "HeadingId": 943,
+  "Name": "Gulgowski, Stroman and Mueller",
+  "Tooltip": "accusantium",
   "Deleted": false,
-  "Rank": 299,
-  "UdListDefinitionId": 424
+  "Rank": 816,
+  "UdListDefinitionId": 189
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 596,
-  "Name": "Erdman-Weimann",
-  "Tooltip": "suscipit",
+  "HeadingId": 299,
+  "Name": "Carroll-Hilpert",
+  "Tooltip": "vel",
   "Deleted": true,
-  "Rank": 939,
-  "UdListDefinitionId": 979,
+  "Rank": 882,
+  "UdListDefinitionId": 610,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 509
+      "FieldType": "System.Int32",
+      "FieldLength": 165
     }
   }
 }

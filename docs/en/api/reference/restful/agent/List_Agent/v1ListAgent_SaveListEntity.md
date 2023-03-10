@@ -80,19 +80,19 @@ OK
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 660,
-  "Name": "Tillman Inc and Sons",
-  "Tooltip": "deserunt",
-  "Deleted": false,
-  "Rank": 561,
-  "IsCustomList": true,
+  "Id": 860,
+  "Name": "Weimann Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 374,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "incidunt",
+  "UseGroupsAndHeadings": false,
+  "ListType": "aperiam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 305,
-  "Name": "Mohr, Rowe and Steuber",
-  "Tooltip": "dolores",
-  "Deleted": false,
-  "Rank": 431,
+  "Id": 889,
+  "Name": "Schmidt Group",
+  "Tooltip": "in",
+  "Deleted": true,
+  "Rank": 56,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "rem",
+  "ListType": "inventore",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 894
+      "FieldType": "System.Int32",
+      "FieldLength": 324
     }
   }
 }

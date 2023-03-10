@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 332,
-  "Name": "Toy, Kutch and Hartmann",
-  "Tooltip": "est",
+  "Id": 362,
+  "Name": "Herzog-Bogan",
+  "Tooltip": "ea",
   "Deleted": false,
-  "UdListDefinitionId": 603,
-  "Rank": 3,
+  "UdListDefinitionId": 694,
+  "Rank": 121,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldType": "System.String",
+      "FieldLength": 678
     }
   }
 }

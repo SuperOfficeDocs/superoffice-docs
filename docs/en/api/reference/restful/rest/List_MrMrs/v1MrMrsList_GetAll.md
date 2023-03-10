@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 736,
-    "Name": "Hills-Gleason",
-    "Tooltip": "sit",
+    "Id": 583,
+    "Name": "Howe, Bergstrom and Harris",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "UdListDefinitionId": 903,
-    "Rank": 989,
+    "UdListDefinitionId": 373,
+    "Rank": 491,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 421
+        "FieldType": "System.String",
+        "FieldLength": 981
       }
     }
   }

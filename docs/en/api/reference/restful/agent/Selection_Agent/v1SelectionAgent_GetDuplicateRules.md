@@ -78,30 +78,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wehner-Conroy",
-    "DisplayName": "Kuhlman-Witting",
-    "DisplayTooltip": "recusandae",
-    "IsActive": false,
+    "Name": "Bayer LLC",
+    "DisplayName": "Herzog LLC",
+    "DisplayTooltip": "facere",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 980
+        "FieldLength": 157
       }
     }
   },
   {
-    "Name": "Wehner-Conroy",
-    "DisplayName": "Kuhlman-Witting",
-    "DisplayTooltip": "recusandae",
-    "IsActive": false,
+    "Name": "Bayer LLC",
+    "DisplayName": "Herzog LLC",
+    "DisplayTooltip": "facere",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 980
+        "FieldLength": 157
       }
     }
   }

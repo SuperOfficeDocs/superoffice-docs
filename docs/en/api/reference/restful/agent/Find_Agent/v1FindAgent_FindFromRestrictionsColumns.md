@@ -99,40 +99,40 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Schultz-Erdman",
-      "Operator": "nam",
+      "Name": "Walker-Rolfson",
+      "Operator": "tenetur",
       "Values": [
-        "dignissimos",
-        "explicabo"
+        "aperiam",
+        "at"
       ],
       "DisplayValues": [
-        "deleniti",
-        "omnis"
+        "mollitia",
+        "at"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 620,
+      "InterParenthesis": 52,
       "InterOperator": "And",
-      "UniqueHash": 953
+      "UniqueHash": 745
     }
   ],
-  "ProviderName": "Veum Group",
+  "ProviderName": "Kris, McKenzie and Zboncak",
   "DesiredColumns": [
-    "voluptates",
-    "dolores"
+    "aspernatur",
+    "iusto"
   ],
-  "PageSize": 418,
-  "PageNumber": 281
+  "PageSize": 894,
+  "PageNumber": 84
 }
 ```
 
@@ -145,51 +145,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Weissnat, Beier and Lueilwitz",
-      "DisplayTooltip": "commodi",
-      "DisplayType": "voluptatum",
-      "CanOrderBy": false,
-      "Name": "Kozey Group",
-      "CanRestrictBy": true,
-      "RestrictionType": "nihil",
-      "RestrictionListName": "Langosh, Schroeder and Kemmer",
-      "IsVisible": true,
-      "ExtraInfo": "eligendi",
-      "Width": "aut",
-      "IconHint": "voluptatibus",
-      "HeadingIconHint": "culpa"
+      "DisplayName": "Davis-Rutherford",
+      "DisplayTooltip": "at",
+      "DisplayType": "occaecati",
+      "CanOrderBy": true,
+      "Name": "Jerde, Cartwright and Jenkins",
+      "CanRestrictBy": false,
+      "RestrictionType": "sint",
+      "RestrictionListName": "Ruecker LLC",
+      "IsVisible": false,
+      "ExtraInfo": "qui",
+      "Width": "consequatur",
+      "IconHint": "nulla",
+      "HeadingIconHint": "explicabo"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Schimmel Inc and Sons",
-      "PrimaryKey": 296,
+      "EntityName": "Roberts LLC",
+      "PrimaryKey": 342,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "natus",
-          "TooltipHint": "illum",
-          "LinkHint": "ipsum"
+          "DisplayValue": "et",
+          "TooltipHint": "eum",
+          "LinkHint": "nemo"
         }
       },
-      "LinkHint": "sint",
-      "StyleHint": "ut",
+      "LinkHint": "quo",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 880
+          "FieldLength": 45
         }
       }
     }
   ],
-  "RowCount": 843,
+  "RowCount": 708,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldLength": 263
     }
   }
 }

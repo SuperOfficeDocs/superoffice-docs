@@ -105,12 +105,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 578,
+  "DocId": 507,
   "AttachmentIds": [
-    "doloribus",
-    "fugiat"
+    "iste",
+    "est"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -123,146 +123,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 206,
-      "ContactName": "Cummings-Larson",
-      "PersonId": 139,
-      "PersonName": "Frami LLC",
-      "AssociateId": 472,
-      "Address": "ut",
-      "EmailId": 241,
+      "ContactId": 188,
+      "ContactName": "Feil-Blanda",
+      "PersonId": 41,
+      "PersonName": "Murazik-Pollich",
+      "AssociateId": 631,
+      "Address": "cupiditate",
+      "EmailId": 962,
       "DuplicatePersonIds": [
-        415,
-        192
+        47,
+        516
       ],
-      "Name": "Fritsch LLC",
+      "Name": "Conn Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 436
+          "FieldType": "System.Int32",
+          "FieldLength": 161
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 309,
-      "ContactName": "Ledner, Leannon and Rohan",
-      "PersonId": 504,
-      "PersonName": "Flatley-Adams",
-      "AssociateId": 120,
-      "Address": "vel",
-      "EmailId": 330,
+      "ContactId": 601,
+      "ContactName": "Sporer, Hagenes and Leffler",
+      "PersonId": 490,
+      "PersonName": "Mohr, Weissnat and Hessel",
+      "AssociateId": 148,
+      "Address": "qui",
+      "EmailId": 254,
       "DuplicatePersonIds": [
-        730,
-        9
+        219,
+        771
       ],
-      "Name": "Jacobson Group",
+      "Name": "Rohan, Pouros and Eichmann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 376
+          "FieldType": "System.String",
+          "FieldLength": 752
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 878,
-      "ContactName": "Homenick, Funk and Harris",
-      "PersonId": 1002,
-      "PersonName": "Schinner LLC",
-      "AssociateId": 213,
-      "Address": "eum",
-      "EmailId": 654,
+      "ContactId": 136,
+      "ContactName": "Towne Group",
+      "PersonId": 213,
+      "PersonName": "Mayer, O'Connell and Littel",
+      "AssociateId": 740,
+      "Address": "perspiciatis",
+      "EmailId": 755,
       "DuplicatePersonIds": [
-        276,
-        995
+        102,
+        188
       ],
-      "Name": "Towne Group",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 810
-        }
-      }
-    }
-  ],
-  "Subject": "iste",
-  "HTMLBody": "quam",
-  "From": null,
-  "Sent": "2015-07-17T14:19:03.466522+02:00",
-  "Size": 216,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "saepe",
-  "PlainBody": "consequatur",
-  "IsSent": true,
-  "EMailSOInfo": null,
-  "ServerId": 686,
-  "Attachments": [
-    {
-      "Description": "Up-sized fault-tolerant methodology",
-      "Filename": "aliquid",
-      "Size": 895,
-      "Type": "dolores",
-      "Encoding": "odio",
-      "Id": "ex",
-      "Disposition": "ipsa",
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Leannon Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 676
+          "FieldLength": 619
+        }
+      }
+    }
+  ],
+  "Subject": "veritatis",
+  "HTMLBody": "autem",
+  "From": null,
+  "Sent": "2001-11-03T12:15:19.0327577+01:00",
+  "Size": 748,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "doloremque",
+  "PlainBody": "illum",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 506,
+  "Attachments": [
+    {
+      "Description": "Implemented encompassing knowledge user",
+      "Filename": "qui",
+      "Size": 549,
+      "Type": "nostrum",
+      "Encoding": "laboriosam",
+      "Id": "culpa",
+      "Disposition": "nemo",
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 469
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "O'Connell-Feil",
+      "Name": "Wunsch Group",
       "Values": [
-        "quod",
-        "sit"
+        "vitae",
+        "quo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 308
+          "FieldLength": 41
         }
       }
     },
     {
-      "Name": "O'Connell-Feil",
+      "Name": "Wunsch Group",
       "Values": [
-        "quod",
-        "sit"
+        "vitae",
+        "quo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 308
+          "FieldLength": 41
         }
       }
     }
   ],
-  "FolderName": "Rutherford LLC",
-  "EmailItemId": 526,
-  "AccountId": 173,
-  "ReceivedAt": "2017-11-11T14:19:03.466522+01:00",
+  "FolderName": "Smith, Herzog and Smith",
+  "EmailItemId": 691,
+  "AccountId": 447,
+  "ReceivedAt": "2003-05-21T12:15:19.0337511+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2008-09-15T14:19:03.466522+02:00",
+  "RepliedAt": "2017-12-30T12:15:19.0337511+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -270,8 +270,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 915
+      "FieldType": "System.Int32",
+      "FieldLength": 74
     }
   }
 }

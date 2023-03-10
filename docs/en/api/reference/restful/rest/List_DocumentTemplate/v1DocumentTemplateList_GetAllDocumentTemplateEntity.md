@@ -26,7 +26,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
 ```
 
 
@@ -101,37 +101,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 993,
-    "Name": "Littel, Becker and Grant",
-    "Tooltip": "deleniti",
-    "SaveInDb": 419,
-    "Filename": "sed",
-    "DefaultOref": "laborum",
+    "DocumentTemplateId": 774,
+    "Name": "Schimmel-Bechtelar",
+    "Tooltip": "ut",
+    "SaveInDb": 914,
+    "Filename": "quo",
+    "DefaultOref": "eius",
     "RecordType": "Appointment",
     "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 504,
-    "IntentId": 892,
-    "IsDefaultPublished": true,
-    "Rank": 758,
-    "LoadTemplateFromPlugin": 471,
+    "AutoeventId": 884,
+    "IntentId": 971,
+    "IsDefaultPublished": false,
+    "Rank": 712,
+    "LoadTemplateFromPlugin": 733,
     "MimeType": "est",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 669,
+    "DocumentTypeKey": 89,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "shania@boyercole.uk",
+    "EmailSubject": "alphonso_aufderhar@hammes.com",
     "IncludeSignature": false,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "darby.schaefer@daniel.info",
+    "SenderEmailAddress": "cooper@donnelly.name",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 839
+        "FieldType": "System.Int32",
+        "FieldLength": 249
       }
     }
   }

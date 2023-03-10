@@ -92,7 +92,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 374,
-  "ColumnId": 467,
-  "FieldDefault": "ipsum",
-  "FieldHeight": 176,
-  "FieldLabel": "et",
-  "FieldLeft": 675,
-  "FieldTop": 627,
+  "UDefFieldId": 33,
+  "ColumnId": 450,
+  "FieldDefault": "ducimus",
+  "FieldHeight": 736,
+  "FieldLabel": "alias",
+  "FieldLeft": 952,
+  "FieldTop": 73,
   "FieldType": "Checkbox",
-  "FieldWidth": 218,
-  "FormatMask": "natus",
+  "FieldWidth": 398,
+  "FormatMask": "doloremque",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 353,
-  "LabelLeft": 279,
-  "LabelTop": 47,
-  "LabelWidth": 516,
-  "LastVersionId": 620,
-  "ListTableId": 180,
-  "IsMandatory": false,
+  "LabelHeight": 890,
+  "LabelLeft": 842,
+  "LabelTop": 117,
+  "LabelWidth": 393,
+  "LastVersionId": 786,
+  "ListTableId": 837,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 117,
-  "ProgId": "ea",
+  "Page1LineNo": 916,
+  "ProgId": "molestiae",
   "IsReadOnly": false,
-  "ShortLabel": "commodi",
-  "TabOrder": 829,
-  "TextLength": 549,
-  "Tooltip": "aliquam",
-  "UdefIdentity": 871,
-  "UDListDefinitionId": 767,
+  "ShortLabel": "at",
+  "TabOrder": 28,
+  "TextLength": 259,
+  "Tooltip": "rem",
+  "UdefIdentity": 269,
+  "UDListDefinitionId": 615,
   "Justification": "Center",
-  "Version": 265,
-  "TemplateVariableName": "Kutch, Okuneva and Berge",
+  "Version": 505,
+  "TemplateVariableName": "O'Keefe Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Heller-Terry",
+  "MdoListName": "Abshire, Prohaska and Reilly",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldLength": 305
     }
   }
 }

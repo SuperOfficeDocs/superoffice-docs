@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 34,
-    "Name": "Effertz, Hettinger and Kerluke",
-    "Value": "tempore",
-    "CreatedDate": "2006-02-18T14:19:02.7594283+01:00",
-    "UpdatedDate": "2005-11-15T14:19:02.7594283+01:00",
-    "CreatedBy": "dolorum",
-    "UpdatedBy": "deleniti",
+    "AudienceLayoutId": 636,
+    "Name": "Homenick, Hilll and Bailey",
+    "Value": "assumenda",
+    "CreatedDate": "2013-03-19T12:15:18.1917625+01:00",
+    "UpdatedDate": "2002-06-30T12:15:18.1917625+02:00",
+    "CreatedBy": "quaerat",
+    "UpdatedBy": "harum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 209
+        "FieldType": "System.String",
+        "FieldLength": 104
       }
     }
   }

@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 898,
-  "Name": "Howe Group",
-  "Tooltip": "a",
-  "Deleted": false,
-  "Rank": 351,
+  "Id": 251,
+  "Name": "Bechtelar, Steuber and Casper",
+  "Tooltip": "voluptatibus",
+  "Deleted": true,
+  "Rank": 423,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "sequi",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 30,
-  "Name": "O'Hara Group",
-  "Tooltip": "sed",
+  "Id": 484,
+  "Name": "Breitenberg Inc and Sons",
+  "Tooltip": "ipsam",
   "Deleted": false,
-  "Rank": 87,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 628,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "iste",
+  "ListType": "distinctio",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 731
+      "FieldType": "System.Int32",
+      "FieldLength": 800
     }
   }
 }

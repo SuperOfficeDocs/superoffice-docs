@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 975,
-    "Name": "Will Group",
-    "Tooltip": "est",
-    "Deleted": true,
-    "UdListDefinitionId": 757,
-    "Rank": 603,
+    "Id": 815,
+    "Name": "Russel-Dicki",
+    "Tooltip": "earum",
+    "Deleted": false,
+    "UdListDefinitionId": 486,
+    "Rank": 555,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 464
+        "FieldType": "System.String",
+        "FieldLength": 583
       }
     }
   }

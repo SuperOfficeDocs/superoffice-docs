@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 959,
-  "ERPProductKey": "delectus"
+  "QuoteConnectionId": 662,
+  "ERPProductKey": "laudantium"
 }
 ```
 
@@ -122,73 +122,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 635,
-  "ERPProductKey": "omnis",
-  "ERPPriceListKey": "doloribus",
-  "Name": "Pacocha Inc and Sons",
-  "Description": "Enterprise-wide clear-thinking process improvement",
-  "Code": "aut",
-  "PriceUnit": "porro",
+  "ProductId": 320,
+  "ERPProductKey": "iure",
+  "ERPPriceListKey": "voluptatibus",
+  "Name": "Swaniawski, Gleason and Effertz",
+  "Description": "Right-sized local methodology",
+  "Code": "alias",
+  "PriceUnit": "in",
   "QuantityUnit": "et",
   "IsSubscription": false,
-  "SubscriptionUnit": "dolore",
-  "DefaultSubscriptionQuantity": 10082.078,
-  "ItemNumber": "1268231",
+  "SubscriptionUnit": "soluta",
+  "DefaultSubscriptionQuantity": 19562.428,
+  "ItemNumber": "537872",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "amet",
-  "ProductTypeKey": "sunt",
-  "VAT": 18547.012,
-  "VATInfo": "accusantium",
-  "UnitCost": 21881.588,
-  "UnitMinimumPrice": 19455.872,
-  "UnitListPrice": 15995.936,
-  "InAssortment": false,
-  "Supplier": "optio",
-  "SupplierCode": "quis",
-  "Rights": "qui",
-  "Rule": "aut",
+  "ProductFamilyKey": "exercitationem",
+  "ProductTypeKey": "quia",
+  "VAT": 4870.236,
+  "VATInfo": "eveniet",
+  "UnitCost": 9000.848,
+  "UnitMinimumPrice": 5403.016,
+  "UnitListPrice": 28300.02,
+  "InAssortment": true,
+  "Supplier": "et",
+  "SupplierCode": "maxime",
+  "Rights": "rerum",
+  "Rule": "officia",
   "ExtraInfo": [
     {
-      "Name": "Keeling, Witting and Conn",
-      "Value": "error",
+      "Name": "Lind Group",
+      "Value": "vitae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 797
+          "FieldLength": 64
         }
       }
     },
     {
-      "Name": "Keeling, Witting and Conn",
-      "Value": "error",
+      "Name": "Lind Group",
+      "Value": "vitae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 797
+          "FieldLength": 64
         }
       }
     }
   ],
-  "RawExtraInfo": "incidunt",
-  "ExtraField1": "quod",
-  "ExtraField2": "modi",
-  "ExtraField3": "minima",
-  "ExtraField4": "dicta",
-  "ExtraField5": "sint",
-  "InStock": 22687.025999999998,
+  "RawExtraInfo": "magnam",
+  "ExtraField1": "quidem",
+  "ExtraField2": "corporis",
+  "ExtraField3": "distinctio",
+  "ExtraField4": "quas",
+  "ExtraField5": "optio",
+  "InStock": 14037.186,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldLength": 25
     }
   }
 }

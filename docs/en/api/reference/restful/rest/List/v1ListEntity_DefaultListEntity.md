@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 908,
-  "Name": "Paucek, Kreiger and Stroman",
-  "Tooltip": "voluptas",
+  "Id": 716,
+  "Name": "Gerlach, Toy and Gulgowski",
+  "Tooltip": "qui",
   "Deleted": true,
-  "Rank": 768,
-  "IsCustomList": false,
+  "Rank": 122,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "ullam",
+  "ListType": "minus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 100
+      "FieldLength": 847
     }
   }
 }

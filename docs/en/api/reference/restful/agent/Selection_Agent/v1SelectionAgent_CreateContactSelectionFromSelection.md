@@ -115,14 +115,14 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 979,
-  "Name": "Goyette-Krajcik",
+  "SelectionId": 766,
+  "Name": "Carroll, Turner and Leuschke",
   "TargetSelectionType": "Combined",
-  "CopyMembers": false
+  "CopyMembers": true
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Programmable methodical info-mediaries",
-  "Postit": "nemo",
+  "Description": "Expanded clear-thinking open system",
+  "Postit": "est",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 923,
-  "IncludePerson": 603,
-  "MemberCount": 346,
-  "Name": "Wilderman LLC",
-  "PostitTextId": 8,
-  "CreatedDate": "2003-06-06T14:19:04.1723543+02:00",
-  "SelectionId": 648,
-  "SoundEx": "accusamus",
-  "Source": 966,
-  "TextId": 821,
-  "UpdatedDate": "2011-07-27T14:19:04.1723543+02:00",
-  "UpdatedCount": 667,
-  "Visibility": 492,
+  "GroupIdx": 542,
+  "IncludePerson": 962,
+  "MemberCount": 700,
+  "Name": "Schroeder-Flatley",
+  "PostitTextId": 592,
+  "CreatedDate": "2000-08-09T12:15:20.1467394+02:00",
+  "SelectionId": 714,
+  "SoundEx": "et",
+  "Source": 979,
+  "TextId": 385,
+  "UpdatedDate": "2008-08-16T12:15:20.1467394+02:00",
+  "UpdatedCount": 272,
+  "Visibility": 582,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 303,
-  "TargetTableName": "Hills, Bayer and Beier",
+  "CompanyUnique": false,
+  "TargetTableNumber": 904,
+  "TargetTableName": "Marvin-Jewess",
   "Completed": false,
-  "LeftSelectionId": 729,
-  "RightSelectionId": 197,
+  "LeftSelectionId": 114,
+  "RightSelectionId": 716,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Romaguera Group",
-  "ShadowProviderName": "Jacobs-Hansen",
-  "ChartKey": "et",
-  "LastLoaded": "1997-02-05T14:19:04.1723543+01:00",
-  "LastLoadedBy": 251,
+  "MainProviderName": "Johnson Inc and Sons",
+  "ShadowProviderName": "Runolfsson, Bins and Ullrich",
+  "ChartKey": "porro",
+  "LastLoaded": "2006-04-28T12:15:20.1467394+02:00",
+  "LastLoadedBy": 326,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-07-14T14:19:04.1723543+02:00",
-  "LastMembershipChangeBy": 125,
+  "LastMembershipChange": "2020-09-23T12:15:20.1477371+02:00",
+  "LastMembershipChangeBy": 684,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "doloremque",
-  "MemberTabHeading": "expedita",
-  "MailingsProviderName": "Russel-Lemke",
-  "DashboardTileDefinitionId": 112,
+  "MainHeading": "deserunt",
+  "MemberTabHeading": "consequatur",
+  "MailingsProviderName": "Bednar, Pacocha and Schulist",
+  "DashboardTileDefinitionId": 245,
   "VisibleFor": [
     {
-      "VisibleId": 559,
+      "VisibleId": 711,
       "Visibility": "All",
-      "DisplayValue": "labore",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 975
+          "FieldLength": 926
         }
       }
     },
     {
-      "VisibleId": 559,
+      "VisibleId": 711,
       "Visibility": "All",
-      "DisplayValue": "labore",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 975
+          "FieldLength": 926
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldType": "System.String",
+      "FieldLength": 617
     }
   }
 }

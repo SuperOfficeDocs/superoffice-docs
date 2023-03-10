@@ -97,7 +97,7 @@ OK
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 341,
-  "ColumnId": 228,
-  "FieldDefault": "animi",
-  "FieldHeight": 326,
-  "FieldLabel": "recusandae",
-  "FieldLeft": 383,
-  "FieldTop": 79,
+  "UDefFieldId": 283,
+  "ColumnId": 901,
+  "FieldDefault": "praesentium",
+  "FieldHeight": 714,
+  "FieldLabel": "temporibus",
+  "FieldLeft": 564,
+  "FieldTop": 746,
   "FieldType": "Checkbox",
-  "FieldWidth": 198,
-  "FormatMask": "veritatis",
+  "FieldWidth": 959,
+  "FormatMask": "quia",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 530,
-  "LabelLeft": 853,
-  "LabelTop": 1000,
-  "LabelWidth": 629,
-  "LastVersionId": 499,
-  "ListTableId": 934,
+  "LabelHeight": 122,
+  "LabelLeft": 688,
+  "LabelTop": 614,
+  "LabelWidth": 443,
+  "LastVersionId": 537,
+  "ListTableId": 815,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 150,
-  "ProgId": "ut",
+  "Page1LineNo": 672,
+  "ProgId": "iure",
   "IsReadOnly": false,
-  "ShortLabel": "atque",
-  "TabOrder": 90,
-  "TextLength": 389,
-  "Tooltip": "sequi",
-  "UdefIdentity": 956,
-  "UDListDefinitionId": 272,
+  "ShortLabel": "deleniti",
+  "TabOrder": 905,
+  "TextLength": 995,
+  "Tooltip": "cupiditate",
+  "UdefIdentity": 628,
+  "UDListDefinitionId": 592,
   "Justification": "Center",
-  "Version": 1000,
-  "TemplateVariableName": "Keeling Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Rosenbaum, White and Ritchie",
+  "Version": 488,
+  "TemplateVariableName": "Jaskolski LLC",
+  "HasBeenPublished": false,
+  "MdoListName": "Durgan Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 756
+      "FieldType": "System.Int32",
+      "FieldLength": 527
     }
   }
 }

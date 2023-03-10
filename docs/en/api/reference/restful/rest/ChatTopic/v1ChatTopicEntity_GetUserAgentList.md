@@ -27,8 +27,8 @@ Users with Chat-CALs from the MDO list 'chatuser'
 | onlyPresent | bool |  Only show users who are present |
 
 ```http
-GET /api/v1/ChatTopic/UserAgents?flat=True
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
+GET /api/v1/ChatTopic/UserAgents?flat=False
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 864,
-    "Name": "O'Kon, Ortiz and Williamson",
-    "ToolTip": "Fugiat quidem.",
+    "Id": 789,
+    "Name": "Bins-Bartell",
+    "ToolTip": "Accusamus dolores et quae qui sequi consequatur.",
     "Deleted": false,
-    "Rank": 262,
-    "Type": "fugit",
+    "Rank": 53,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 9,
-        "Name": "Moen-Crooks",
-        "ToolTip": "Debitis iusto libero rerum incidunt placeat.",
+        "Id": 844,
+        "Name": "Robel-Borer",
+        "ToolTip": "Explicabo adipisci voluptas ut est nam.",
         "Deleted": false,
-        "Rank": 668,
-        "Type": "maxime",
+        "Rank": 475,
+        "Type": "dolores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "optio",
-        "ColorBlock": 141,
-        "ExtraInfo": "doloremque",
-        "StyleHint": "assumenda",
-        "FullName": "Miss Luisa Agnes Jenkins",
+        "IconHint": "culpa",
+        "ColorBlock": 185,
+        "ExtraInfo": "alias",
+        "StyleHint": "dignissimos",
+        "FullName": "Elwin Murray III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 15
+            "FieldType": "System.Int32",
+            "FieldLength": 860
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 560,
-    "ExtraInfo": "iusto",
-    "StyleHint": "cumque",
-    "FullName": "Graham Rippin",
+    "IconHint": "incidunt",
+    "ColorBlock": 388,
+    "ExtraInfo": "libero",
+    "StyleHint": "voluptates",
+    "FullName": "Zion Johnson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 980
+        "FieldType": "System.String",
+        "FieldLength": 887
       }
     }
   }

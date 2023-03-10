@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 418,
+  "UdListDefinitionId": 604,
   "IncludeDeleted": true
 }
 ```
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Bernhard Group",
-    "Tooltip": "fugiat",
+    "Id": 864,
+    "Name": "Kub LLC",
+    "Tooltip": "facilis",
     "Deleted": false,
-    "UdListDefinitionId": 61,
-    "Rank": 265,
+    "UdListDefinitionId": 94,
+    "Rank": 495,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 785
+        "FieldLength": 817
       }
     }
   }

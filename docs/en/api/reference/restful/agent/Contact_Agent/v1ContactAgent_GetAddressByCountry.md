@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 474,
-  "CountryId": 701
+  "ContactId": 930,
+  "CountryId": 8
 }
 ```
 
@@ -94,41 +94,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 18243.014,
-  "Wgs84Longitude": 17791.718,
+  "Wgs84Latitude": 17161.784,
+  "Wgs84Longitude": 5308.996,
   "LocalizedAddress": [
     [
       {
-        "Name": "Franecki LLC",
-        "Value": "velit",
-        "Tooltip": "exercitationem",
-        "Label": "amet",
-        "ValueLength": 879,
-        "AddressType": "repellendus",
+        "Name": "Rau, Lynch and Durgan",
+        "Value": "odit",
+        "Tooltip": "consequuntur",
+        "Label": "est",
+        "ValueLength": 367,
+        "AddressType": "labore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 299
+            "FieldLength": 984
           }
         }
       }
     ],
     [
       {
-        "Name": "Schamberger-Hirthe",
-        "Value": "aut",
-        "Tooltip": "voluptas",
-        "Label": "quos",
-        "ValueLength": 910,
-        "AddressType": "quibusdam",
+        "Name": "Pacocha-McClure",
+        "Value": "assumenda",
+        "Tooltip": "repellat",
+        "Label": "ipsa",
+        "ValueLength": 70,
+        "AddressType": "asperiores",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 538
+            "FieldType": "System.String",
+            "FieldLength": 940
           }
         }
       }
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "quo",
+  "Formatted": "quam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 82
+      "FieldType": "System.Int32",
+      "FieldLength": 524
     }
   }
 }

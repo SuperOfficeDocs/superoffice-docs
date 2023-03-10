@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 178,
+  "ReportId": 459,
   "ReportCategory": "All",
-  "Description": "Self-enabling incremental ability",
+  "Description": "Fundamental uniform info-mediaries",
   "ReportLayout": "CalendarMonth",
-  "Name": "Blick-Abernathy",
-  "AssociateId": 42,
-  "TemplateId": 907,
+  "Name": "Wilderman Inc and Sons",
+  "AssociateId": 727,
+  "TemplateId": 647,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 123
+      "FieldType": "System.Int32",
+      "FieldLength": 992
     }
   }
 }

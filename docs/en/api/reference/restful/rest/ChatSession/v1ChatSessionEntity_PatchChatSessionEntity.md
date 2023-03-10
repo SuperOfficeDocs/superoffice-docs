@@ -143,12 +143,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "in",
+    "path": "aut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "in",
+    "path": "aut",
     "value": {}
   }
 ]
@@ -161,29 +161,29 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 505,
-  "TopicId": 491,
+  "ChatSessionId": 551,
+  "TopicId": 808,
   "User": null,
   "Person": null,
-  "CustomerAlias": "mollitia",
-  "CustomerHost": "nulla",
-  "CustomerName": "Heidenreich-Kuphal",
-  "CustomerEmail": "monica.rogahn@herzogwyman.com",
-  "CustomerPhone": "323.435.1990 x544",
+  "CustomerAlias": "doloremque",
+  "CustomerHost": "ratione",
+  "CustomerName": "McCullough Group",
+  "CustomerEmail": "carolyne_daniel@kovacekbeier.ca",
+  "CustomerPhone": "293.725.2612",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Zieme-Johns",
+  "CustomerCompanyName": "Kunze-Gerhold",
   "Status": "Closed",
-  "FirstMessage": "rem",
-  "LastMessage": "alias",
-  "WhenRequested": "2022-07-09T14:19:10.0205104+02:00",
-  "WhenStarted": "2021-03-16T14:19:10.0205104+01:00",
-  "WhenEnded": "2004-04-24T14:19:10.0205104+02:00",
-  "WhenIdle": "2022-01-29T14:19:10.0205104+01:00",
-  "WhenFetched": "2008-02-18T14:19:10.0205104+01:00",
-  "SessionKey": "praesentium",
-  "InitialQueuePos": 940,
-  "AlertLevel": 941,
-  "Rank": 16,
+  "FirstMessage": "minus",
+  "LastMessage": "minima",
+  "WhenRequested": "2022-08-22T12:15:26.4246434+02:00",
+  "WhenStarted": "2000-06-30T12:15:26.4246434+02:00",
+  "WhenEnded": "2020-05-10T12:15:26.4246434+02:00",
+  "WhenIdle": "1997-12-16T12:15:26.4246434+01:00",
+  "WhenFetched": "1998-10-18T12:15:26.4246434+02:00",
+  "SessionKey": "quia",
+  "InitialQueuePos": 980,
+  "AlertLevel": 148,
+  "Rank": 960,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -191,13 +191,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 467,
+  "Rating": 920,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 628
+      "FieldLength": 79
     }
   },
   "_Links": {

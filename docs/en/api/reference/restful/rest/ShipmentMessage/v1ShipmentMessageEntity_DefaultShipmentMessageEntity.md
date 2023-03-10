@@ -76,7 +76,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 381,
-  "PlainMessage": "repellat",
-  "HtmlMessage": "vitae",
-  "SmsMessage": "quia",
-  "Description": "Public-key optimizing challenge",
-  "Subject": "quia",
-  "FolderId": 108,
-  "HeaderField": "iusto",
-  "Design": "qui",
+  "ShipmentMessageId": 324,
+  "PlainMessage": "et",
+  "HtmlMessage": "labore",
+  "SmsMessage": "error",
+  "Description": "Phased hybrid focus group",
+  "Subject": "id",
+  "FolderId": 633,
+  "HeaderField": "ad",
+  "Design": "harum",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Balanced context-sensitive knowledge user",
-  "AccessKey": "aperiam",
-  "DocumentMessage": 62,
-  "Registered": "2008-04-09T14:19:10.7873511+02:00",
-  "RegisteredAssociateId": 79,
-  "Updated": "2013-07-21T14:19:10.7873511+02:00",
-  "UpdatedAssociateId": 678,
-  "UpdatedCount": 830,
+  "RegisterViews": false,
+  "InlineImages": true,
+  "LongDescription": "Persevering dedicated instruction set",
+  "AccessKey": "qui",
+  "DocumentMessage": 122,
+  "Registered": "2011-02-19T12:15:27.3986294+01:00",
+  "RegisteredAssociateId": 193,
+  "Updated": "2001-04-28T12:15:27.3986294+02:00",
+  "UpdatedAssociateId": 758,
+  "UpdatedCount": 130,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 544
+      "FieldLength": 978
     }
   }
 }

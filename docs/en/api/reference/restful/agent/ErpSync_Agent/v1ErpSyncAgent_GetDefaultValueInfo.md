@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 669
+  "ErpFieldId": 264
 }
 ```
 
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 141,
-  "DefaultValue": "sunt",
+  "ErpFieldId": 970,
+  "DefaultValue": "ut",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "qui",
-  "PromptUser": true,
+  "FirstSyncDefaultValue": "velit",
+  "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "voluptate",
+  "ErpFieldKey": "rerum",
   "FieldType": "Checkbox",
-  "ListName": "Osinski Group",
+  "ListName": "Cummings LLC",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 427
+      "FieldType": "System.Int32",
+      "FieldLength": 802
     }
   }
 }

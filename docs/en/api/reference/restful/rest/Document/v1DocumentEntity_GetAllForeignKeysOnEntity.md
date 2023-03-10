@@ -54,7 +54,7 @@ OK
 GET /api/v1/Document/{id}/ForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -64,7 +64,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "incidunt",
-  "2": "dolore"
+  "1": "ea",
+  "2": "culpa"
 }
 ```

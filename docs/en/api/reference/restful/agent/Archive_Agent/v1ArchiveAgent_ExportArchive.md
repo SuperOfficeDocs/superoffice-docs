@@ -82,59 +82,59 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Lynch-Bergnaum",
-  "Context": "pariatur",
+  "ProviderName": "Torphy, Powlowski and Fritsch",
+  "Context": "ut",
   "DesiredEntities": [
-    "id",
-    "in"
+    "totam",
+    "sint"
   ],
   "Columns": [
-    "ducimus",
-    "aspernatur"
+    "voluptas",
+    "debitis"
   ],
   "SortOrder": [
     {
-      "Name": "McDermott Inc and Sons",
+      "Name": "Okuneva-Pfannerstill",
       "Direction": "ASC"
     },
     {
-      "Name": "McDermott Inc and Sons",
+      "Name": "Okuneva-Pfannerstill",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Bailey, Kertzmann and Okuneva",
-      "Operator": "et",
+      "Name": "Nolan, Thompson and Sipes",
+      "Operator": "qui",
       "Values": [
-        "dolor",
-        "corporis"
+        "quasi",
+        "perspiciatis"
       ],
       "DisplayValues": [
-        "ea",
-        "molestiae"
+        "nisi",
+        "esse"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 79,
+      "InterParenthesis": 649,
       "InterOperator": "And",
-      "UniqueHash": 560
+      "UniqueHash": 773
     }
   ],
-  "ExportType": "quam",
+  "ExportType": "neque",
   "SelectedRowIds": [
-    "ab",
-    "eligendi"
+    "earum",
+    "quos"
   ],
-  "EstimatedRowCount": 98
+  "EstimatedRowCount": 664
 }
 ```
 
@@ -145,14 +145,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 516,
-  "FileName": "Dooley, Conn and Bartell",
-  "Message": "saepe",
+  "BatchTaskId": 57,
+  "FileName": "Satterfield-Strosin",
+  "Message": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
+      "FieldType": "System.Int32",
       "FieldLength": 667
     }
   }

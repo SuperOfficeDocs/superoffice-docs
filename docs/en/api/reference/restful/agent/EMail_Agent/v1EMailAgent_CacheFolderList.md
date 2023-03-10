@@ -83,19 +83,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pfannerstill-Brakus",
-    "Delimiter": "alias",
-    "Flags": "eum",
-    "TotalItems": 793,
-    "UnreadItems": 16,
-    "Subscribed": true,
-    "EmailFolderId": 352,
+    "Name": "Reinger, Herzog and Lindgren",
+    "Delimiter": "animi",
+    "Flags": "pariatur",
+    "TotalItems": 671,
+    "UnreadItems": 377,
+    "Subscribed": false,
+    "EmailFolderId": 326,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 156
+        "FieldType": "System.String",
+        "FieldLength": 44
       }
     }
   }

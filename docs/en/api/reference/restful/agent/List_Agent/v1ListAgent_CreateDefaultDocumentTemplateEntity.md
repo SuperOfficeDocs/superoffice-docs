@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,37 +90,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 206,
-  "Name": "Morar LLC",
-  "Tooltip": "molestiae",
-  "SaveInDb": 597,
-  "Filename": "dicta",
-  "DefaultOref": "rerum",
+  "DocumentTemplateId": 152,
+  "Name": "Schmeler, Cole and Hartmann",
+  "Tooltip": "rerum",
+  "SaveInDb": 882,
+  "Filename": "labore",
+  "DefaultOref": "vitae",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 796,
-  "IntentId": 862,
+  "AutoeventId": 619,
+  "IntentId": 401,
   "IsDefaultPublished": true,
-  "Rank": 242,
-  "LoadTemplateFromPlugin": 266,
-  "MimeType": "quia",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 438,
+  "Rank": 673,
+  "LoadTemplateFromPlugin": 195,
+  "MimeType": "dolor",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 852,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "theodore.bauch@shields.co.uk",
+  "EmailSubject": "jordyn@sengerkuhlman.ca",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "maxine@paucekreilly.com",
+  "SenderEmailAddress": "jerry.krajcik@gerlachschmeler.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 907
+      "FieldLength": 936
     }
   }
 }

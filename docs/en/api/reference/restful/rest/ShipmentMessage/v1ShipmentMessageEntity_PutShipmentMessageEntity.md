@@ -118,31 +118,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 938,
-  "PlainMessage": "provident",
-  "HtmlMessage": "quidem",
-  "SmsMessage": "expedita",
-  "Description": "Intuitive attitude-oriented benchmark",
-  "Subject": "nostrum",
-  "FolderId": 117,
-  "HeaderField": "dolor",
-  "Design": "non",
+  "ShipmentMessageId": 968,
+  "PlainMessage": "minima",
+  "HtmlMessage": "nostrum",
+  "SmsMessage": "ab",
+  "Description": "Fully-configurable attitude-oriented utilisation",
+  "Subject": "neque",
+  "FolderId": 676,
+  "HeaderField": "incidunt",
+  "Design": "consequatur",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Versatile zero defect hierarchy",
-  "AccessKey": "id",
-  "DocumentMessage": 385,
-  "Registered": "2018-12-16T14:19:10.7873511+01:00",
-  "RegisteredAssociateId": 534,
-  "Updated": "1996-01-25T14:19:10.7873511+01:00",
-  "UpdatedAssociateId": 439,
-  "UpdatedCount": 290
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Implemented eco-centric toolset",
+  "AccessKey": "in",
+  "DocumentMessage": 414,
+  "Registered": "2016-07-13T12:15:27.4006306+02:00",
+  "RegisteredAssociateId": 618,
+  "Updated": "2023-01-01T12:15:27.4006306+01:00",
+  "UpdatedAssociateId": 826,
+  "UpdatedCount": 625
 }
 ```
 
@@ -153,38 +153,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 919,
-  "PlainMessage": "fugiat",
-  "HtmlMessage": "sit",
-  "SmsMessage": "nobis",
-  "Description": "Multi-layered multi-tasking workforce",
-  "Subject": "illum",
-  "FolderId": 981,
-  "HeaderField": "et",
-  "Design": "quia",
+  "ShipmentMessageId": 625,
+  "PlainMessage": "et",
+  "HtmlMessage": "sequi",
+  "SmsMessage": "quas",
+  "Description": "Diverse bi-directional leverage",
+  "Subject": "veritatis",
+  "FolderId": 218,
+  "HeaderField": "molestiae",
+  "Design": "illum",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Object-based optimal functionalities",
-  "AccessKey": "enim",
-  "DocumentMessage": 685,
-  "Registered": "2010-08-22T14:19:10.7873511+02:00",
-  "RegisteredAssociateId": 867,
-  "Updated": "2019-11-12T14:19:10.7873511+01:00",
-  "UpdatedAssociateId": 676,
-  "UpdatedCount": 196,
+  "LongDescription": "Fundamental multimedia encoding",
+  "AccessKey": "tenetur",
+  "DocumentMessage": 475,
+  "Registered": "2013-01-22T12:15:27.4016314+01:00",
+  "RegisteredAssociateId": 284,
+  "Updated": "2006-05-12T12:15:27.4016314+02:00",
+  "UpdatedAssociateId": 715,
+  "UpdatedCount": 858,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 265
+      "FieldLength": 456
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

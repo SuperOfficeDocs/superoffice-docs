@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    359,
-    539
+    743,
+    110
   ]
 }
 ```
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 39,
-    "ContactName": "Treutel-Berge",
-    "PersonId": 501,
-    "PersonName": "Purdy, Hahn and Cronin",
-    "AssociateId": 284,
-    "Address": "non",
-    "EmailId": 797,
+    "ContactId": 802,
+    "ContactName": "Auer Group",
+    "PersonId": 184,
+    "PersonName": "Kuhlman-Ullrich",
+    "AssociateId": 100,
+    "Address": "provident",
+    "EmailId": 108,
     "DuplicatePersonIds": [
-      751,
-      707
+      471,
+      542
     ],
-    "Name": "Klein-Jewess",
+    "Name": "Heidenreich-Ritchie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 994
+        "FieldType": "System.Int32",
+        "FieldLength": 817
       }
     }
   }

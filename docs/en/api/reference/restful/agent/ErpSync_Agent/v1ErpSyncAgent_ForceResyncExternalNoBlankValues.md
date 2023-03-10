@@ -88,11 +88,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 668,
+  "ErpConnectionId": 907,
   "ErpActorType": "Customer",
   "ExternalKeys": [
-    "fugit",
-    "et"
+    "temporibus",
+    "fuga"
   ]
 }
 ```
@@ -104,10 +104,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "voluptas",
-  "TechExplanation": "aliquid",
-  "ErrorCode": "autem",
+  "IsOk": false,
+  "UserExplanation": "aliquam",
+  "TechExplanation": "tempore",
+  "ErrorCode": "assumenda",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 657
+      "FieldLength": 507
     }
   }
 }

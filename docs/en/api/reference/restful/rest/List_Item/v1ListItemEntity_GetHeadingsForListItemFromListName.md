@@ -29,7 +29,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=False
+GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=True
 ```
 
 
@@ -94,56 +94,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 966,
-    "Name": "Hodkiewicz-Gaylord",
-    "ToolTip": "Aperiam et ducimus modi quae et veritatis et.",
-    "Deleted": false,
-    "Rank": 21,
-    "Type": "dolorem",
-    "ColorBlock": 23,
-    "IconHint": "laboriosam",
+    "Id": 262,
+    "Name": "Reilly, Ernser and Ondricka",
+    "ToolTip": "Quam illum eligendi ea.",
+    "Deleted": true,
+    "Rank": 135,
+    "Type": "sed",
+    "ColorBlock": 625,
+    "IconHint": "alias",
     "Selected": true,
-    "LastChanged": "2003-08-18T14:19:11.1012251+02:00",
+    "LastChanged": "2009-10-11T12:15:27.8466241+02:00",
     "ChildItems": [
       {
-        "Id": 546,
-        "Name": "Wolf Inc and Sons",
-        "ToolTip": "Sint eos ut.",
+        "Id": 141,
+        "Name": "Leannon, Klocko and McGlynn",
+        "ToolTip": "Ut sequi aut.",
         "Deleted": false,
-        "Rank": 794,
-        "Type": "voluptas",
-        "ColorBlock": 727,
-        "IconHint": "sit",
+        "Rank": 757,
+        "Type": "consequatur",
+        "ColorBlock": 632,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "1996-12-21T14:19:11.1012251+01:00",
+        "LastChanged": "1999-07-25T12:15:27.8466241+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Zander Jovany Haag PhD",
+        "ExtraInfo": "eum",
+        "StyleHint": "natus",
+        "Hidden": true,
+        "FullName": "Abbey Barrows",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 111
+            "FieldType": "System.String",
+            "FieldLength": 868
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "aperiam",
+    "ExtraInfo": "similique",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Kayli Eli McCullough V",
+    "FullName": "Prof. Lou Theo Ullrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 669
+        "FieldType": "System.String",
+        "FieldLength": 12
       }
     }
   }

@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,33 +100,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 921,
-  "ErpConnectorId": 244,
-  "DisplayName": "Berge, Renner and Senger",
-  "DisplayDescription": "Object-based holistic monitoring",
-  "Active": true,
-  "ConnectionId": "laborum",
-  "MostRecentTimestamp": "minima",
+  "ErpConnectionId": 865,
+  "ErpConnectorId": 983,
+  "DisplayName": "Stiedemann Inc and Sons",
+  "DisplayDescription": "Reverse-engineered intangible success",
+  "Active": false,
+  "ConnectionId": "quia",
+  "MostRecentTimestamp": "ut",
   "ConfigFields": {
-    "ConfigFields1": "porro",
-    "ConfigFields2": "eligendi"
+    "ConfigFields1": "asperiores",
+    "ConfigFields2": "atque"
   },
-  "Deleted": true,
+  "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    289,
-    298
+    837,
+    615
   ],
   "AssociateAccessIds": [
-    142,
-    418
+    703,
+    685
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldLength": 890
     }
   }
 }

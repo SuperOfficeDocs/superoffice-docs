@@ -87,32 +87,32 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 16 Nov 2000 14:19:10 G11T
+Last-Modified: Wed, 26 Jan 2005 12:15:26 G1T
 
 {
-  "ForeignAppId": 180,
-  "Name": "Wiegand-Reilly",
-  "CreatedDate": "2004-06-30T14:19:10.3498478+02:00",
-  "UpdatedDate": "2000-11-16T14:19:10.3498478+01:00",
+  "ForeignAppId": 144,
+  "Name": "Kozey, Rohan and Morar",
+  "CreatedDate": "2011-06-29T12:15:26.9526354+02:00",
+  "UpdatedDate": "2005-01-26T12:15:26.9526354+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 776,
-      "Name": "Goodwin-Schaden",
-      "CreatedDate": "2015-09-26T14:19:10.3498478+02:00",
-      "UpdatedDate": "1998-08-27T14:19:10.3498478+02:00",
-      "AssociateFullName": "Piper Bogisich",
-      "CreatedBy": "nisi",
-      "UpdatedBy": "illo",
-      "DeviceIdentifier": "incidunt",
-      "ForeignAppId": 947,
+      "ForeignDeviceId": 159,
+      "Name": "Bergnaum LLC",
+      "CreatedDate": "1996-01-21T12:15:26.9526354+01:00",
+      "UpdatedDate": "1996-06-19T12:15:26.9526354+02:00",
+      "AssociateFullName": "Kasandra Lindgren",
+      "CreatedBy": "rerum",
+      "UpdatedBy": "eos",
+      "DeviceIdentifier": "doloribus",
+      "ForeignAppId": 760,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 881
+          "FieldLength": 854
         }
       }
     }
@@ -121,8 +121,8 @@ Last-Modified: Thu, 16 Nov 2000 14:19:10 G11T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldType": "System.String",
+      "FieldLength": 67
     }
   },
   "_Links": {

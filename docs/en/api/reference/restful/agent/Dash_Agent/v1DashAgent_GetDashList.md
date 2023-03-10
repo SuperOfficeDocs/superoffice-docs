@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    997,
-    91
+    578,
+    955
   ]
 }
 ```
@@ -103,37 +103,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 424,
-    "UniqueId": "sed",
-    "Name": "Green, Jewess and Schmeler",
-    "Description": "Down-sized assymetric success",
-    "AssociateId": 781,
-    "Columns": 34,
+    "DashboardId": 604,
+    "UniqueId": "ut",
+    "Name": "Yundt, Effertz and Jakubowski",
+    "Description": "Optional uniform toolset",
+    "AssociateId": 602,
+    "Columns": 823,
     "Theme": null,
-    "VisibleForAll": 459,
+    "VisibleForAll": 32,
     "VisibleForAssociates": [
-      550,
-      532
+      420,
+      223
     ],
     "VisibleForGroups": [
-      533,
-      765
+      359,
+      348
     ],
-    "PinForAll": 304,
+    "PinForAll": 537,
     "PinForAssociates": [
-      753,
-      53
+      391,
+      200
     ],
     "PinForGroups": [
-      988,
-      442
+      775,
+      585
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 336
+        "FieldType": "System.Int32",
+        "FieldLength": 105
       }
     }
   }

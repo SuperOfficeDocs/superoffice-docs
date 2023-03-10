@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jenkins, Bogan and Monahan",
+  "Name": "Conroy, Reilly and Lakin",
   "State": "All"
 }
 ```
@@ -111,37 +111,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 444,
-    "Name": "Langosh-Mann",
-    "AssociateId": 300,
-    "DetailsTable": 746,
-    "DetailsRecord": 40,
-    "IsSystemTask": true,
+    "Id": 492,
+    "Name": "Thiel-Beer",
+    "AssociateId": 957,
+    "DetailsTable": 982,
+    "DetailsRecord": 706,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "hic",
-      "ParameterObject2": "odio"
+      "ParameterObject1": "et",
+      "ParameterObject2": "in"
     },
-    "LastStarted": "2019-12-25T14:19:02.7594283+01:00",
-    "Created": "2005-01-25T14:19:02.7594283+01:00",
-    "StartCount": 531,
-    "DatabaseSerialNumber": "1616986",
-    "Context": "esse",
-    "Result": "autem",
+    "LastStarted": "2006-01-09T12:15:18.2077631+01:00",
+    "Created": "2000-06-08T12:15:18.2077631+02:00",
+    "StartCount": 245,
+    "DatabaseSerialNumber": "1569931",
+    "Context": "harum",
+    "Result": "fugiat",
     "State": "All",
-    "Description": "Virtual grid-enabled focus group",
-    "Response": "unde",
-    "Request": "illum",
-    "ProgressDescription": "Open-architected tangible attitude",
-    "ProgressPercent": 991,
-    "FileName": "Rath, Bogisich and Christiansen",
+    "Description": "Upgradable dedicated framework",
+    "Response": "qui",
+    "Request": "reprehenderit",
+    "ProgressDescription": "Pre-emptive asynchronous framework",
+    "ProgressPercent": 165,
+    "FileName": "Zulauf LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 491
+        "FieldType": "System.String",
+        "FieldLength": 341
       }
     }
   }

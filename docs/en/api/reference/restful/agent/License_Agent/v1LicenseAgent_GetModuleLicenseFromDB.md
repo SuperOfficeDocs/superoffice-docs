@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Doyle LLC",
-  "ModuleName": "Lynch Group"
+  "OwnerName": "Dicki LLC",
+  "ModuleName": "Runolfsson-Olson"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Mitchell, Klein and Dietrich",
-  "ModuleName": "Towne Inc and Sons",
-  "ModuleDescription": "Digitized analyzing hierarchy",
-  "ModuleTooltip": "necessitatibus",
-  "ModuleVersion": "et",
+  "OwnerName": "Yundt-Johns",
+  "ModuleName": "Kshlerin-Wiza",
+  "ModuleDescription": "Up-sized context-sensitive focus group",
+  "ModuleTooltip": "pariatur",
+  "ModuleVersion": "facere",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 518,
-  "ExtraFlags": 690,
-  "ExtraInfo": "sunt",
-  "SortOrder": 423,
+  "NumberOfLicenses": 260,
+  "ExtraFlags": 90,
+  "ExtraInfo": "sit",
+  "SortOrder": 107,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Greenfelder LLC",
-  "Signature": "sit"
+  "PrerequisiteModuleName": "Altenwerth-Hyatt",
+  "Signature": "blanditiis"
 }
 ```

@@ -77,13 +77,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 931,
-  "SelectionId": 415,
-  "IncludeEmails": true
+  "DocumentPluginId": 129,
+  "SelectionId": 401,
+  "IncludeEmails": false
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 885,
-  "NumDocumentsAlreadyMigrated": 688,
+  "NumDocumentsOmitted": 442,
+  "NumDocumentsAlreadyMigrated": 363,
   "Documents": [
     {
-      "DocumentId": 422,
-      "ContactId": 72,
-      "PersonId": 208,
-      "SaleId": 130,
-      "ProjectId": 104,
-      "DocTmplId": 996,
-      "AssociateId": 281,
-      "UserGroupId": 932,
-      "VisibleForId": 671
+      "DocumentId": 944,
+      "ContactId": 680,
+      "PersonId": 603,
+      "SaleId": 628,
+      "ProjectId": 740,
+      "DocTmplId": 563,
+      "AssociateId": 358,
+      "UserGroupId": 9,
+      "VisibleForId": 749
     }
   ],
   "Associates": [
     {
-      "AssociateId": 618,
-      "EmailAddress": "edison.abshire@gleason.uk"
+      "AssociateId": 889,
+      "EmailAddress": "jace.kreiger@langworth.co.uk"
     },
     {
-      "AssociateId": 618,
-      "EmailAddress": "edison.abshire@gleason.uk"
+      "AssociateId": 889,
+      "EmailAddress": "jace.kreiger@langworth.co.uk"
     }
   ]
 }

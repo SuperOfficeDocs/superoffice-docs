@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 875,
-    "Name": "Hessel-Schaden",
-    "Tooltip": "sequi",
+    "HeadingId": 398,
+    "Name": "Keebler Inc and Sons",
+    "Tooltip": "vel",
     "Deleted": false,
-    "Rank": 780,
-    "UdListDefinitionId": 975
+    "Rank": 741,
+    "UdListDefinitionId": 603
   },
   {
-    "HeadingId": 875,
-    "Name": "Hessel-Schaden",
-    "Tooltip": "sequi",
+    "HeadingId": 398,
+    "Name": "Keebler Inc and Sons",
+    "Tooltip": "vel",
     "Deleted": false,
-    "Rank": 780,
-    "UdListDefinitionId": 975
+    "Rank": 741,
+    "UdListDefinitionId": 603
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 359,
-    "Name": "Bogisich-Marks",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "Rank": 406,
-    "UdListDefinitionId": 844,
+    "HeadingId": 485,
+    "Name": "Connelly-Hettinger",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 700,
+    "UdListDefinitionId": 719,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 846
+        "FieldType": "System.String",
+        "FieldLength": 891
       }
     }
   }

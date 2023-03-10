@@ -69,14 +69,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=voluptate
-GET /api/v1/Pricelist?$top=58
-GET /api/v1/Pricelist?$skip=501
+GET /api/v1/Pricelist?$entities=sunt
+GET /api/v1/Pricelist?$top=919
+GET /api/v1/Pricelist?$skip=144
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=id
+GET /api/v1/Pricelist?$context=itaque
 GET /api/v1/Pricelist?$format=JSON
-GET /api/v1/Pricelist?$jsonSafe=True
+GET /api/v1/Pricelist?$jsonSafe=False
 GET /api/v1/Pricelist?$output=Display
 ```
 
@@ -128,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "nihil",
+  "odata.nextLink": "deserunt",
   "value": [
     {
-      "PrimaryKey": 4277,
-      "EntityName": "person",
-      "personId": 4277,
-      "fullName": "Hassie Rutherford"
+      "PrimaryKey": 751,
+      "EntityName": "sale",
+      "saleId": 751,
+      "contactId": 5053,
+      "name": "Kuhlman-Hayes"
     },
     {
-      "PrimaryKey": 9277,
-      "EntityName": "person",
-      "personId": 9277,
-      "fullName": "Eldora Glover"
+      "PrimaryKey": 4586,
+      "EntityName": "sale",
+      "saleId": 4586,
+      "contactId": 778,
+      "name": "Hodkiewicz-Roob"
     }
   ]
 }

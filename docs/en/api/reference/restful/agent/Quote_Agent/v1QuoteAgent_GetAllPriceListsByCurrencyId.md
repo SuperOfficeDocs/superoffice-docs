@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 681,
-  "CurrencyId": 743
+  "QuoteConnectionId": 607,
+  "CurrencyId": 830
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 419,
-    "ERPPriceListKey": "deleniti",
-    "QuoteConnectionId": 997,
-    "Name": "O'Conner-Hoppe",
-    "Description": "Virtual dynamic project",
-    "Currency": "sapiente",
-    "CurrencyName": "Runolfsson Inc and Sons",
-    "ValidFrom": "2010-02-01T14:19:04.0313341+01:00",
-    "ValidTo": "2004-04-23T14:19:04.0313341+02:00",
+    "PriceListId": 382,
+    "ERPPriceListKey": "et",
+    "QuoteConnectionId": 585,
+    "Name": "Stracke, Cartwright and Barrows",
+    "Description": "Monitored non-volatile framework",
+    "Currency": "dignissimos",
+    "CurrencyName": "Yundt, Fisher and Oberbrunner",
+    "ValidFrom": "2000-09-06T12:15:19.949737+02:00",
+    "ValidTo": "2008-05-18T12:15:19.949737+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 253
+        "FieldLength": 934
       }
     }
   }

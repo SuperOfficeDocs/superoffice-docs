@@ -27,7 +27,7 @@ Gets a Webhook object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Webhook/GetWebhook?webhookId=232
+POST /api/v1/Agents/Webhook/GetWebhook?webhookId=698
 POST /api/v1/Agents/Webhook/GetWebhook?$select=name,department,category/id
 ```
 
@@ -88,26 +88,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 434,
-  "Name": "Corkery-Jones",
+  "WebhookId": 771,
+  "Name": "Langosh, Schaden and Bayer",
   "Events": [
-    "accusantium",
-    "accusamus"
+    "eveniet",
+    "consequatur"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "adipisci",
+  "Secret": "sed",
   "State": "Active",
-  "Type": "porro",
+  "Type": "deserunt",
   "Headers": {
-    "Headers1": "ea",
-    "Headers2": "distinctio"
+    "Headers1": "et",
+    "Headers2": "voluptatem"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2008-02-22T14:19:04.6422019+01:00",
+  "Registered": "2016-01-27T12:15:20.6687272+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2019-01-18T14:19:04.6422019+01:00",
+  "Updated": "2020-03-25T12:15:20.6687272+01:00",
   "UpdatedAssociate": null
 }
 ```

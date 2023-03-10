@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 906,
-  "Name": "Thompson-Pollich",
-  "Tooltip": "ea",
+  "HeadingId": 863,
+  "Name": "Armstrong Inc and Sons",
+  "Tooltip": "consequuntur",
   "Deleted": false,
-  "Rank": 9,
-  "UdListDefinitionId": 834
+  "Rank": 675,
+  "UdListDefinitionId": 194
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 727,
-  "Name": "Wiza-Emard",
-  "Tooltip": "consequuntur",
-  "Deleted": false,
-  "Rank": 320,
-  "UdListDefinitionId": 406,
+  "HeadingId": 738,
+  "Name": "Cormier-Balistreri",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "Rank": 454,
+  "UdListDefinitionId": 550,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 920
+      "FieldType": "System.Int32",
+      "FieldLength": 98
     }
   }
 }

@@ -84,56 +84,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 160,
-    "Name": "Ziemann LLC",
-    "ToolTip": "Nihil quam expedita dolorem rerum vel.",
-    "Deleted": true,
-    "Rank": 245,
-    "Type": "ullam",
-    "ColorBlock": 769,
-    "IconHint": "distinctio",
-    "Selected": false,
-    "LastChanged": "2015-11-12T14:19:11.0855578+01:00",
+    "Id": 341,
+    "Name": "Kub-Bartoletti",
+    "ToolTip": "Incidunt unde quis at atque iure minus.",
+    "Deleted": false,
+    "Rank": 46,
+    "Type": "numquam",
+    "ColorBlock": 407,
+    "IconHint": "blanditiis",
+    "Selected": true,
+    "LastChanged": "2013-09-02T12:15:27.827623+02:00",
     "ChildItems": [
       {
-        "Id": 18,
-        "Name": "Kshlerin-Ebert",
-        "ToolTip": "Aut dolores illo recusandae maxime quae.",
-        "Deleted": true,
-        "Rank": 697,
-        "Type": "consequatur",
-        "ColorBlock": 95,
-        "IconHint": "eum",
+        "Id": 940,
+        "Name": "Bergnaum, Hilpert and Konopelski",
+        "ToolTip": "Molestias tempore veniam temporibus et at veritatis quae.",
+        "Deleted": false,
+        "Rank": 751,
+        "Type": "accusantium",
+        "ColorBlock": 40,
+        "IconHint": "sequi",
         "Selected": true,
-        "LastChanged": "2004-01-01T14:19:11.0855578+01:00",
+        "LastChanged": "2000-01-13T12:15:27.8286208+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "est",
+        "ExtraInfo": "qui",
+        "StyleHint": "quam",
         "Hidden": false,
-        "FullName": "Deanna Crona",
+        "FullName": "Sylvan Lera Wilderman II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 371
+            "FieldLength": 951
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "enim",
-    "Hidden": true,
-    "FullName": "Prof. Tomasa Stokes",
+    "ExtraInfo": "velit",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Lexi Wintheiser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 802
+        "FieldType": "System.String",
+        "FieldLength": 504
       }
     }
   }

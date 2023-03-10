@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Abbott, Armstrong and Bernhard",
+  "TaskName": "Bruen, Shields and Krajcik",
   "State": "All"
 }
 ```
@@ -111,37 +111,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 791,
-    "Name": "Luettgen Group",
-    "AssociateId": 324,
-    "DetailsTable": 847,
-    "DetailsRecord": 401,
-    "IsSystemTask": false,
+    "Id": 449,
+    "Name": "Stehr, Waters and Hoeger",
+    "AssociateId": 372,
+    "DetailsTable": 719,
+    "DetailsRecord": 744,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "unde",
-      "ParameterObject2": "est"
+      "ParameterObject1": "blanditiis",
+      "ParameterObject2": "quasi"
     },
-    "LastStarted": "2009-09-07T14:19:02.7750538+02:00",
-    "Created": "2017-09-27T14:19:02.7750538+02:00",
-    "StartCount": 394,
-    "DatabaseSerialNumber": "481071",
-    "Context": "qui",
-    "Result": "minima",
+    "LastStarted": "2002-11-16T12:15:18.2107625+01:00",
+    "Created": "1998-05-29T12:15:18.2107625+02:00",
+    "StartCount": 782,
+    "DatabaseSerialNumber": "1027092",
+    "Context": "et",
+    "Result": "et",
     "State": "All",
-    "Description": "Total regional algorithm",
-    "Response": "voluptatem",
-    "Request": "fuga",
-    "ProgressDescription": "Persistent fresh-thinking customer loyalty",
-    "ProgressPercent": 318,
-    "FileName": "Bogisich, Prosacco and O'Reilly",
+    "Description": "Configurable 5th generation task-force",
+    "Response": "molestias",
+    "Request": "eum",
+    "ProgressDescription": "Sharable background portal",
+    "ProgressPercent": 169,
+    "FileName": "Will Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 531
+        "FieldLength": 747
       }
     }
   }

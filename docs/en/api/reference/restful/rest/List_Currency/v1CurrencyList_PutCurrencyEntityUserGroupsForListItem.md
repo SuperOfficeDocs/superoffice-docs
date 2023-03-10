@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 960,
-    "Name": "Denesik-Boehm",
-    "ToolTip": "Velit praesentium ut nisi voluptatem cupiditate.",
+    "Id": 317,
+    "Name": "Von-Cartwright",
+    "ToolTip": "Nisi labore soluta fuga quia.",
     "Deleted": false,
-    "Rank": 185,
-    "Type": "tempore",
-    "ColorBlock": 879,
-    "IconHint": "quaerat",
+    "Rank": 54,
+    "Type": "quo",
+    "ColorBlock": 653,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2005-03-13T14:19:11.2105958+01:00",
+    "LastChanged": "2001-10-22T12:15:28.0966191+02:00",
     "ChildItems": [
       {
-        "Id": 815,
-        "Name": "Terry-Stoltenberg",
-        "ToolTip": "Asperiores earum id illo.",
+        "Id": 263,
+        "Name": "Jacobs LLC",
+        "ToolTip": "Deserunt voluptatum sint occaecati quis voluptatem.",
         "Deleted": false,
-        "Rank": 746,
-        "Type": "libero",
-        "ColorBlock": 521,
-        "IconHint": "voluptas",
-        "Selected": true,
-        "LastChanged": "2011-03-23T14:19:11.2105958+01:00",
+        "Rank": 342,
+        "Type": "non",
+        "ColorBlock": 98,
+        "IconHint": "eum",
+        "Selected": false,
+        "LastChanged": "2017-02-08T12:15:28.0966191+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "et",
-        "StyleHint": "ipsa",
+        "StyleHint": "delectus",
         "Hidden": false,
-        "FullName": "Vita Koss"
+        "FullName": "Rene Wisoky"
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "sed",
+    "ExtraInfo": "quam",
+    "StyleHint": "officiis",
     "Hidden": false,
-    "FullName": "Alta Crooks"
+    "FullName": "Prof. Tomasa Aniyah Hessel"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 894,
-    "Name": "Kuphal Group",
-    "ToolTip": "Perspiciatis ab sed explicabo debitis fugit voluptas.",
+    "Id": 878,
+    "Name": "Stracke, Lowe and Hamill",
+    "ToolTip": "Neque perferendis unde accusamus.",
     "Deleted": false,
-    "Rank": 551,
-    "Type": "tenetur",
-    "ColorBlock": 498,
-    "IconHint": "vitae",
+    "Rank": 865,
+    "Type": "assumenda",
+    "ColorBlock": 830,
+    "IconHint": "atque",
     "Selected": false,
-    "LastChanged": "2000-08-01T14:19:11.2262177+02:00",
+    "LastChanged": "1999-07-24T12:15:28.0986217+02:00",
     "ChildItems": [
       {
-        "Id": 483,
-        "Name": "Breitenberg Group",
-        "ToolTip": "Aperiam dignissimos adipisci eius.",
-        "Deleted": false,
-        "Rank": 80,
-        "Type": "optio",
-        "ColorBlock": 641,
-        "IconHint": "aut",
+        "Id": 853,
+        "Name": "Kunde LLC",
+        "ToolTip": "Eum suscipit aut eum nulla.",
+        "Deleted": true,
+        "Rank": 552,
+        "Type": "aliquid",
+        "ColorBlock": 138,
+        "IconHint": "similique",
         "Selected": false,
-        "LastChanged": "2014-01-04T14:19:11.2262177+01:00",
+        "LastChanged": "2022-12-07T12:15:28.0986217+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "quis",
+        "ExtraInfo": "nihil",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Rey Nitzsche III",
+        "FullName": "Braden Bayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 406
+            "FieldType": "System.String",
+            "FieldLength": 994
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "et",
+    "ExtraInfo": "dolore",
+    "StyleHint": "consectetur",
     "Hidden": false,
-    "FullName": "Miss Franz Jast",
+    "FullName": "Vern Fernando Renner V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 27
+        "FieldType": "System.String",
+        "FieldLength": 160
       }
     }
   }

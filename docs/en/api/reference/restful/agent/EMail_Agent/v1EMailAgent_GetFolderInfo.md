@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "consequuntur",
-    "dolorum"
+    "blanditiis",
+    "repellat"
   ]
 }
 ```
@@ -104,19 +104,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Quigley Group",
-    "Delimiter": "inventore",
-    "Flags": "rem",
-    "TotalItems": 954,
-    "UnreadItems": 228,
-    "Subscribed": false,
-    "EmailFolderId": 309,
+    "Name": "Moore Group",
+    "Delimiter": "quisquam",
+    "Flags": "consequatur",
+    "TotalItems": 393,
+    "UnreadItems": 898,
+    "Subscribed": true,
+    "EmailFolderId": 597,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 780
+        "FieldType": "System.String",
+        "FieldLength": 290
       }
     }
   }

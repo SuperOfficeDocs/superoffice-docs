@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -114,49 +114,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optimized dedicated info-mediaries",
-  "Postit": "fuga",
+  "Description": "Networked composite methodology",
+  "Postit": "unde",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 116,
-  "IncludePerson": 242,
-  "MemberCount": 322,
-  "Name": "Simonis-Jaskolski",
-  "PostitTextId": 863,
-  "CreatedDate": "2021-07-06T14:19:04.1879797+02:00",
-  "SelectionId": 122,
-  "SoundEx": "repellat",
-  "Source": 371,
-  "TextId": 912,
-  "UpdatedDate": "2015-02-06T14:19:04.1879797+01:00",
-  "UpdatedCount": 431,
-  "Visibility": 820,
+  "GroupIdx": 889,
+  "IncludePerson": 884,
+  "MemberCount": 65,
+  "Name": "Kuvalis-Emmerich",
+  "PostitTextId": 628,
+  "CreatedDate": "2016-10-16T12:15:20.1637345+02:00",
+  "SelectionId": 730,
+  "SoundEx": "ipsam",
+  "Source": 179,
+  "TextId": 837,
+  "UpdatedDate": "2005-10-15T12:15:20.1637345+02:00",
+  "UpdatedCount": 549,
+  "Visibility": 615,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 689,
-  "TargetTableName": "Feeney-Cruickshank",
-  "Completed": false,
-  "LeftSelectionId": 179,
-  "RightSelectionId": 529,
+  "CompanyUnique": false,
+  "TargetTableNumber": 564,
+  "TargetTableName": "Streich-Spinka",
+  "Completed": true,
+  "LeftSelectionId": 736,
+  "RightSelectionId": 633,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Muller-Hirthe",
-  "ShadowProviderName": "Roberts, Auer and Hettinger",
-  "ChartKey": "voluptas",
-  "LastLoaded": "2002-05-23T14:19:04.1879797+02:00",
-  "LastLoadedBy": 206,
+  "MainProviderName": "Ruecker Group",
+  "ShadowProviderName": "Muller, Torp and Hickle",
+  "ChartKey": "optio",
+  "LastLoaded": "2017-09-16T12:15:20.1637345+02:00",
+  "LastLoadedBy": 691,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-08-02T14:19:04.1879797+02:00",
-  "LastMembershipChangeBy": 795,
+  "LastMembershipChange": "2011-01-16T12:15:20.1647397+01:00",
+  "LastMembershipChangeBy": 669,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "rem",
-  "MailingsProviderName": "Wehner, Schimmel and Koch",
-  "DashboardTileDefinitionId": 33,
+  "MainHeading": "fuga",
+  "MemberTabHeading": "dignissimos",
+  "MailingsProviderName": "Miller, Davis and Goldner",
+  "DashboardTileDefinitionId": 812,
   "VisibleFor": [
     {
-      "VisibleId": 928,
+      "VisibleId": 234,
       "Visibility": "All",
       "DisplayValue": "omnis",
       "TableRight": null,
@@ -164,12 +164,12 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 897
+          "FieldLength": 551
         }
       }
     },
     {
-      "VisibleId": 928,
+      "VisibleId": 234,
       "Visibility": "All",
       "DisplayValue": "omnis",
       "TableRight": null,
@@ -177,7 +177,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 897
+          "FieldLength": 551
         }
       }
     }
@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 797
+      "FieldLength": 576
     }
   }
 }

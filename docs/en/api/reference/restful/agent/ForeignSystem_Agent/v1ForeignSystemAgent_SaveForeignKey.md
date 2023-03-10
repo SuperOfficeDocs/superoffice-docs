@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Deckow, Kemmer and Swaniawski",
-  "DeviceName": "Haag-Beatty",
-  "DeviceIdentifier": "dolor"
+  "ApplicationName": "Watsica, Dibbert and Stark",
+  "DeviceName": "Greenholt, Berge and Becker",
+  "DeviceIdentifier": "labore"
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "error",
-  "Value": "soluta",
-  "RecordId": 967,
-  "CreatedDate": "2009-02-22T14:19:03.5602728+01:00",
-  "UpdatedDate": "2013-02-25T14:19:03.5602728+01:00",
-  "UpdatedBy": "necessitatibus",
-  "CreatedBy": "perferendis",
-  "TableName": "Beatty LLC",
+  "Key": "eos",
+  "Value": "dolor",
+  "RecordId": 334,
+  "CreatedDate": "2018-09-05T12:15:19.1597485+02:00",
+  "UpdatedDate": "2008-11-04T12:15:19.1597485+01:00",
+  "UpdatedBy": "vel",
+  "CreatedBy": "eligendi",
+  "TableName": "Crooks Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 507
+      "FieldLength": 646
     }
   }
 }

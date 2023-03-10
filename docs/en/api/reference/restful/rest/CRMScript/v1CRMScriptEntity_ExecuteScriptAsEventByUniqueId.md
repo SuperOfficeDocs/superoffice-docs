@@ -87,28 +87,28 @@ OK
 POST /api/v1/CRMScript/{cRMScriptUniqueId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "ipsa",
-    "InputValues2": "et"
+    "InputValues1": "quia",
+    "InputValues2": "rem"
   },
   "BlockExecution": false,
-  "NavigateTo": "qui",
-  "Message": "numquam",
-  "ShowDialog": "recusandae",
+  "NavigateTo": "voluptas",
+  "Message": "et",
+  "ShowDialog": "et",
   "OutputValues": {
-    "OutputValues1": "aut",
-    "OutputValues2": "aut"
+    "OutputValues1": "ut",
+    "OutputValues2": "ut"
   },
   "StateValues": {
-    "StateValues1": "minima",
-    "StateValues2": "sunt"
+    "StateValues1": "omnis",
+    "StateValues2": "iusto"
   },
-  "Exception": "maiores"
+  "Exception": "omnis"
 }
 ```
 
@@ -121,28 +121,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "ipsa",
-    "InputValues2": "molestiae"
+    "InputValues1": "explicabo",
+    "InputValues2": "autem"
   },
   "BlockExecution": true,
-  "NavigateTo": "non",
-  "Message": "rem",
-  "ShowDialog": "nobis",
+  "NavigateTo": "sapiente",
+  "Message": "sequi",
+  "ShowDialog": "quia",
   "OutputValues": {
-    "OutputValues1": "dolor",
-    "OutputValues2": "quasi"
+    "OutputValues1": "et",
+    "OutputValues2": "enim"
   },
   "StateValues": {
-    "StateValues1": "illum",
-    "StateValues2": "laborum"
+    "StateValues1": "aut",
+    "StateValues2": "qui"
   },
-  "Exception": "incidunt",
+  "Exception": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldLength": 805
     }
   }
 }

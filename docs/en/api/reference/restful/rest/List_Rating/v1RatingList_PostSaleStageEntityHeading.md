@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 772,
-  "Name": "Carter Group",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 366,
-  "UdListDefinitionId": 57
+  "HeadingId": 442,
+  "Name": "Funk-Smitham",
+  "Tooltip": "ea",
+  "Deleted": true,
+  "Rank": 170,
+  "UdListDefinitionId": 662
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 981,
-  "Name": "Boehm Group",
-  "Tooltip": "ab",
+  "HeadingId": 596,
+  "Name": "Runolfsson Group",
+  "Tooltip": "non",
   "Deleted": false,
-  "Rank": 267,
-  "UdListDefinitionId": 197,
+  "Rank": 263,
+  "UdListDefinitionId": 447,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 99
+      "FieldLength": 983
     }
   }
 }

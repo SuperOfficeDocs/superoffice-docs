@@ -97,15 +97,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 488,
-  "StartTime": "1997-05-24T14:19:03.1355296+02:00",
-  "EndTime": "2020-06-18T14:19:03.1355296+02:00",
-  "Count": 505,
-  "DocumentTemplateId": 271
+  "ContactId": 894,
+  "StartTime": "2002-05-24T12:15:18.7087552+02:00",
+  "EndTime": "2003-10-23T12:15:18.7087552+02:00",
+  "Count": 53,
+  "DocumentTemplateId": 345
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 693,
-    "Attention": "qui",
-    "Header": "sequi",
-    "Name": "Pollich Group",
-    "OurRef": "laborum",
-    "YourRef": "modi",
-    "Description": "Organized incremental model",
-    "DocumentTemplate": "nostrum",
+    "DocumentId": 875,
+    "Attention": "laudantium",
+    "Header": "porro",
+    "Name": "Crist, Mueller and Gutkowski",
+    "OurRef": "dolores",
+    "YourRef": "incidunt",
+    "Description": "Digitized well-modulated encoding",
+    "DocumentTemplate": "qui",
     "IsPublished": false,
-    "PersonId": 64,
-    "PersonFullName": "Jayme Goldner",
-    "AssociateFullName": "Jayda Considine",
-    "ContactId": 577,
-    "ContactName": "Mayert, O'Conner and Stroman",
-    "ProjectId": 346,
-    "ProjectName": "Block Inc and Sons",
-    "AssociateId": 398,
-    "Snum": 697,
-    "SaleId": 29,
-    "SaleName": "Ondricka-Harvey",
+    "PersonId": 40,
+    "PersonFullName": "Kayden Cruz Crona DDS",
+    "AssociateFullName": "Clemens O'Kon",
+    "ContactId": 38,
+    "ContactName": "Vandervort LLC",
+    "ProjectId": 529,
+    "ProjectName": "Barrows-Nolan",
+    "AssociateId": 576,
+    "Snum": 393,
+    "SaleId": 848,
+    "SaleName": "Rutherford, White and Larson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 912
+        "FieldType": "System.Int32",
+        "FieldLength": 292
       }
     }
   }

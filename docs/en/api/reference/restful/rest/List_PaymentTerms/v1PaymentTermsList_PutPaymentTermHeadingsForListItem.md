@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 195,
-    "Name": "Yundt-Watsica",
-    "ToolTip": "Quos voluptatum eius tempora non non.",
+    "Id": 249,
+    "Name": "Hudson-Spinka",
+    "ToolTip": "Aut corporis impedit animi beatae sunt a totam.",
     "Deleted": false,
-    "Rank": 733,
-    "Type": "sint",
-    "ColorBlock": 201,
-    "IconHint": "sed",
-    "Selected": false,
-    "LastChanged": "2021-12-05T14:19:11.305533+01:00",
+    "Rank": 667,
+    "Type": "facere",
+    "ColorBlock": 444,
+    "IconHint": "esse",
+    "Selected": true,
+    "LastChanged": "2011-08-04T12:15:28.2136214+02:00",
     "ChildItems": [
       {
-        "Id": 413,
-        "Name": "Kling-Howell",
-        "ToolTip": "Perspiciatis pariatur qui tempore.",
-        "Deleted": false,
-        "Rank": 604,
-        "Type": "sit",
-        "ColorBlock": 764,
-        "IconHint": "voluptas",
-        "Selected": true,
-        "LastChanged": "2021-03-26T14:19:11.305533+01:00",
+        "Id": 513,
+        "Name": "Olson Inc and Sons",
+        "ToolTip": "Aut quidem neque dolor vitae velit.",
+        "Deleted": true,
+        "Rank": 65,
+        "Type": "itaque",
+        "ColorBlock": 850,
+        "IconHint": "dignissimos",
+        "Selected": false,
+        "LastChanged": "1997-07-15T12:15:28.2136214+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Miss Micheal Zieme Sr."
+        "ExtraInfo": "nemo",
+        "StyleHint": "corrupti",
+        "Hidden": true,
+        "FullName": "Grayce Bartoletti"
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "ipsum",
-    "Hidden": false,
-    "FullName": "Miss Alexane Zieme"
+    "ExtraInfo": "repellendus",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Carmela Fahey Sr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 561,
-    "Name": "Boyle, Windler and Homenick",
-    "ToolTip": "Est aut.",
+    "Id": 586,
+    "Name": "McDermott Group",
+    "ToolTip": "Aut soluta.",
     "Deleted": true,
-    "Rank": 760,
-    "Type": "voluptatem",
-    "ColorBlock": 307,
-    "IconHint": "sunt",
+    "Rank": 209,
+    "Type": "minus",
+    "ColorBlock": 311,
+    "IconHint": "enim",
     "Selected": false,
-    "LastChanged": "1997-11-26T14:19:11.305533+01:00",
+    "LastChanged": "2017-08-22T12:15:28.2146173+02:00",
     "ChildItems": [
       {
-        "Id": 850,
-        "Name": "Hintz-Nolan",
-        "ToolTip": "Deleniti laborum officia et magni consectetur.",
-        "Deleted": true,
-        "Rank": 933,
-        "Type": "ea",
-        "ColorBlock": 740,
-        "IconHint": "sequi",
+        "Id": 686,
+        "Name": "Gerlach, Ferry and Huel",
+        "ToolTip": "Omnis numquam.",
+        "Deleted": false,
+        "Rank": 806,
+        "Type": "accusamus",
+        "ColorBlock": 626,
+        "IconHint": "quo",
         "Selected": true,
-        "LastChanged": "2018-05-29T14:19:11.305533+02:00",
+        "LastChanged": "2003-07-14T12:15:28.2146173+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "fuga",
-        "Hidden": false,
-        "FullName": "Kristina Torphy",
+        "ExtraInfo": "est",
+        "StyleHint": "laborum",
+        "Hidden": true,
+        "FullName": "Dr. Gilda Christopher Adams DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 600
+            "FieldType": "System.Int32",
+            "FieldLength": 212
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Harley Burdette Thiel V",
+    "ExtraInfo": "iste",
+    "StyleHint": "ratione",
+    "Hidden": true,
+    "FullName": "Miles Jarrett Johns Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 471
+        "FieldLength": 445
       }
     }
   }

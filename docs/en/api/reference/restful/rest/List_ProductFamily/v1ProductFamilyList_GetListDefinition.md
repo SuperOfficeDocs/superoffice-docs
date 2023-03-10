@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 568,
-  "Name": "Rohan-Wiegand",
-  "Tooltip": "voluptas",
-  "Deleted": true,
-  "Rank": 354,
-  "IsCustomList": false,
+  "Id": 816,
+  "Name": "Stark, Rodriguez and Stiedemann",
+  "Tooltip": "atque",
+  "Deleted": false,
+  "Rank": 103,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quis",
-  "InUseByUserDefinedFields": false,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldType": "System.String",
+      "FieldLength": 416
     }
   },
   "_Links": {

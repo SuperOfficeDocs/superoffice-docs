@@ -64,34 +64,34 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 440,
+  "ProjectEntityId": 65,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 867,
-      "ContactId": 640,
-      "ProjectId": 47,
-      "ContactName": "Runolfsdottir-Doyle",
+      "ProjectmemberId": 788,
+      "ContactId": 875,
+      "ProjectId": 349,
+      "ContactName": "Hoppe Group",
       "ContactDepartment": "",
-      "ProjectName": "Hettinger, Reichel and Rempel",
-      "EmailId": 10,
-      "EmailAddress": "clementina@koss.name",
-      "CountryId": 239,
-      "Firstname": "Emanuel",
-      "MiddleName": "King Inc and Sons",
-      "Lastname": "Heller",
-      "PersonId": 189,
-      "Mrmrs": "et",
-      "ProjectMemberTypeName": "Hessel Inc and Sons",
-      "Phone": "257.854.0401",
-      "PhoneId": 900,
-      "ProjectMemberTypeId": 391,
-      "EmailAddressName": "kelton.kirlin@pfannerstillconroy.biz",
-      "Comment": "omnis",
-      "FullName": "Eleanora Prosacco"
+      "ProjectName": "Bashirian LLC",
+      "EmailId": 922,
+      "EmailAddress": "kyla@kuphal.info",
+      "CountryId": 481,
+      "Firstname": "Pinkie",
+      "MiddleName": "Waters-Harber",
+      "Lastname": "Leannon",
+      "PersonId": 619,
+      "Mrmrs": "fugiat",
+      "ProjectMemberTypeName": "Bailey-Borer",
+      "Phone": "414-148-8407 x25888",
+      "PhoneId": 277,
+      "ProjectMemberTypeId": 496,
+      "EmailAddressName": "ardith@runte.us",
+      "Comment": "officia",
+      "FullName": "Donna Schmitt"
     }
   ]
 }

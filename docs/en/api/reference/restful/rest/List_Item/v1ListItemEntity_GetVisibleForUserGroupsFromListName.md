@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,56 +84,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 899,
-    "Name": "Waters, Upton and Swaniawski",
-    "ToolTip": "Et quisquam.",
-    "Deleted": true,
-    "Rank": 728,
-    "Type": "sequi",
-    "ColorBlock": 96,
-    "IconHint": "nisi",
+    "Id": 832,
+    "Name": "Kirlin, Runte and Orn",
+    "ToolTip": "Ratione non sit maxime dignissimos.",
+    "Deleted": false,
+    "Rank": 621,
+    "Type": "nihil",
+    "ColorBlock": 442,
+    "IconHint": "repellendus",
     "Selected": false,
-    "LastChanged": "2007-04-22T14:19:11.1012251+02:00",
+    "LastChanged": "1999-05-27T12:15:27.8376227+02:00",
     "ChildItems": [
       {
-        "Id": 670,
-        "Name": "Bartell, Ryan and Rowe",
-        "ToolTip": "Unde mollitia aspernatur quos consectetur eaque autem.",
-        "Deleted": false,
-        "Rank": 955,
-        "Type": "culpa",
-        "ColorBlock": 517,
-        "IconHint": "maiores",
+        "Id": 764,
+        "Name": "Stoltenberg, Keebler and Wiegand",
+        "ToolTip": "Perspiciatis totam sed sequi sint vel.",
+        "Deleted": true,
+        "Rank": 912,
+        "Type": "ipsum",
+        "ColorBlock": 990,
+        "IconHint": "repudiandae",
         "Selected": false,
-        "LastChanged": "1997-07-22T14:19:11.1012251+02:00",
+        "LastChanged": "2012-05-30T12:15:27.8376227+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "quisquam",
+        "ExtraInfo": "odio",
+        "StyleHint": "voluptatum",
         "Hidden": false,
-        "FullName": "Hans Durgan",
+        "FullName": "Lisa Goyette II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 400
+            "FieldLength": 426
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "id",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Chaya Runolfsson",
+    "FullName": "Cecil Mills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 514
+        "FieldType": "System.String",
+        "FieldLength": 357
       }
     }
   }

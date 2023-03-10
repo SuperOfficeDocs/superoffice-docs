@@ -79,7 +79,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabName": "Bergstrom, Cummings and Schneider"
+  "TabName": "Ward Inc and Sons"
 }
 ```
 
@@ -90,16 +90,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabOrderId": 713,
-  "TabName": "O'Kon LLC",
-  "Order": "non",
-  "AssociateId": 182,
+  "TabOrderId": 120,
+  "TabName": "Sporer-Herzog",
+  "Order": "est",
+  "AssociateId": 47,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 807
+      "FieldType": "System.String",
+      "FieldLength": 268
     }
   }
 }

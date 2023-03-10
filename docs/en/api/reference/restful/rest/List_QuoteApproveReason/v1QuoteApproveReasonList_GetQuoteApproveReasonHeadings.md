@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 384,
-    "Name": "Becker, Schinner and Aufderhar",
-    "Tooltip": "molestiae",
-    "Deleted": false,
-    "Rank": 67,
-    "UdListDefinitionId": 602,
+    "HeadingId": 618,
+    "Name": "Kozey LLC",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 643,
+    "UdListDefinitionId": 429,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 449
+        "FieldLength": 597
       }
     }
   }

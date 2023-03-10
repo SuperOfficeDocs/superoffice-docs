@@ -86,10 +86,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "officia",
-    "nemo"
+    "aut",
+    "pariatur"
   ],
-  "CurrentClientTime": "2013-08-28T14:19:03.8895009+02:00"
+  "CurrentClientTime": "2016-08-29T12:15:19.75874+02:00"
 }
 ```
 
@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "mollitia",
-    "est"
+    "necessitatibus",
+    "qui"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 244,
-  "NotificationsCount": 581,
+  "OverdueSalesCount": 808,
+  "NotificationsCount": 718,
   "SystemWebPanels": [
     {
-      "WebPanelId": 393,
-      "Name": "Bashirian, Mante and Monahan",
-      "Tooltip": "maxime",
+      "WebPanelId": 588,
+      "Name": "Hansen-VonRueden",
+      "Tooltip": "provident",
       "Deleted": false,
-      "Rank": 996,
+      "Rank": 602,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
-      "OnCentral": false,
+      "OnCentral": true,
       "OnSatellite": false,
-      "OnTravel": false,
+      "OnTravel": true,
       "OnSalesMarketingWeb": false,
-      "OnSalesMarketingPocket": false,
-      "ShowInMenuBar": false,
+      "OnSalesMarketingPocket": true,
+      "ShowInMenuBar": true,
       "ShowInToolBar": false,
       "ShowInAddressBar": false,
-      "ShowInStatusBar": false,
-      "WindowName": "Boyle-Schuster",
+      "ShowInStatusBar": true,
+      "WindowName": "Romaguera-Yost",
       "Url": "http://www.example.com/",
-      "ProgId": "aspernatur",
-      "Icon": 93,
+      "ProgId": "sit",
+      "Icon": 280,
       "AlwaysReloadOnShow": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 486
+          "FieldLength": 667
         }
       }
     }
@@ -144,34 +144,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "sapiente",
+      "RawValue": "quo",
       "Specification": null,
-      "DisplayValue": "fugit",
-      "DisplayTooltip": "culpa",
+      "DisplayValue": "quia",
+      "DisplayTooltip": "aut",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 890,
-      "PrefDescId": 380,
-      "TableName": "Braun, Towne and Howe",
-      "UserPreferenceId": 373,
+      "TargetId": 532,
+      "PrefDescId": 82,
+      "TableName": "Lemke-Baumbach",
+      "UserPreferenceId": 553,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 882
+          "FieldType": "System.Int32",
+          "FieldLength": 750
         }
       }
     }
   ],
   "IsPushNotificationEnabled": false,
-  "CustomData": "enim",
+  "CustomData": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 348
+      "FieldType": "System.Int32",
+      "FieldLength": 620
     }
   }
 }

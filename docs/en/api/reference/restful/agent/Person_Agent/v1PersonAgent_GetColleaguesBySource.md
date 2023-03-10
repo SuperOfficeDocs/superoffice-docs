@@ -114,12 +114,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 18
+  "Count": 139
 }
 ```
 
@@ -131,52 +131,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "facere",
-    "PersonId": 30,
-    "Mrmrs": "possimus",
-    "Firstname": "Lacy",
-    "Lastname": "Bernhard",
-    "MiddleName": "Kozey LLC",
-    "Title": "alias",
-    "Description": "Future-proofed eco-centric neural-net",
-    "Email": "kay.purdy@bogan.biz",
-    "FullName": "Darwin Smitham",
-    "DirectPhone": "1-480-630-7842 x86379",
-    "FormalName": "Sporer-Wilderman",
-    "CountryId": 88,
-    "ContactId": 345,
-    "ContactName": "Stokes, Hane and Cormier",
-    "Retired": 542,
-    "Rank": 250,
-    "ActiveInterests": 315,
+    "Position": "dolor",
+    "PersonId": 561,
+    "Mrmrs": "sunt",
+    "Firstname": "Maxwell",
+    "Lastname": "Kshlerin",
+    "MiddleName": "Kuhlman, Rau and Mayer",
+    "Title": "accusantium",
+    "Description": "Proactive next generation internet solution",
+    "Email": "virginie.bergnaum@lowe.co.uk",
+    "FullName": "Miss Karine Frederik Kessler I",
+    "DirectPhone": "(134)772-4930",
+    "FormalName": "Stark Inc and Sons",
+    "CountryId": 380,
+    "ContactId": 125,
+    "ContactName": "Konopelski Group",
+    "Retired": 42,
+    "Rank": 820,
+    "ActiveInterests": 840,
     "ContactDepartment": "",
-    "ContactCountryId": 264,
-    "ContactOrgNr": "939014",
-    "FaxPhone": "458.591.5289",
-    "MobilePhone": "388-630-4567 x38710",
-    "ContactPhone": "(118)760-3340",
-    "AssociateName": "Bednar-Flatley",
-    "AssociateId": 973,
+    "ContactCountryId": 396,
+    "ContactOrgNr": "1402869",
+    "FaxPhone": "(094)726-6211 x69560",
+    "MobilePhone": "(966)186-4123",
+    "ContactPhone": "(213)441-7473 x907",
+    "AssociateName": "Hickle LLC",
+    "AssociateId": 871,
     "UsePersonAddress": false,
-    "ContactFax": "quos",
-    "Kanafname": "saepe",
-    "Kanalname": "in",
-    "Post1": "dignissimos",
-    "Post2": "ut",
-    "Post3": "accusamus",
-    "EmailName": "dagmar.gottlieb@kovacekrutherford.info",
-    "ContactFullName": "Donnell Keeling",
-    "ActiveErpLinks": 341,
-    "TicketPriorityId": 564,
-    "SupportLanguageId": 912,
-    "SupportAssociateId": 601,
+    "ContactFax": "dolores",
+    "Kanafname": "cum",
+    "Kanalname": "earum",
+    "Post1": "inventore",
+    "Post2": "voluptatibus",
+    "Post3": "quos",
+    "EmailName": "gennaro@graham.ca",
+    "ContactFullName": "Dave Harber",
+    "ActiveErpLinks": 242,
+    "TicketPriorityId": 202,
+    "SupportLanguageId": 394,
+    "SupportAssociateId": 724,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 525
+        "FieldLength": 874
       }
     }
   }

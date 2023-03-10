@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 282,
-  "Name": "Cormier-Beer",
-  "Tooltip": "eum",
+  "HeadingId": 1002,
+  "Name": "Breitenberg LLC",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 567,
-  "UdListDefinitionId": 645
+  "Rank": 442,
+  "UdListDefinitionId": 791
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 22,
-  "Name": "Gislason, Hand and Bins",
+  "HeadingId": 512,
+  "Name": "Howe Inc and Sons",
   "Tooltip": "molestiae",
   "Deleted": false,
-  "Rank": 538,
-  "UdListDefinitionId": 534,
+  "Rank": 51,
+  "UdListDefinitionId": 233,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 771
+      "FieldType": "System.Int32",
+      "FieldLength": 747
     }
   }
 }

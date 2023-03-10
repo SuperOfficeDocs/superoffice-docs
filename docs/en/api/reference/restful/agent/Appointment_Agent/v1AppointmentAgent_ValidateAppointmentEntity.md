@@ -82,7 +82,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "inventore",
-  "2": "suscipit"
+  "1": "rem",
+  "2": "minima"
 }
 ```

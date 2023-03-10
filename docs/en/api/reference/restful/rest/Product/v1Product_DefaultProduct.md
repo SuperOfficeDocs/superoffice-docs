@@ -89,7 +89,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,73 +99,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 690,
-  "ERPProductKey": "inventore",
-  "ERPPriceListKey": "et",
-  "Name": "Hessel, Sanford and Conn",
-  "Description": "Programmable logistical challenge",
-  "Code": "delectus",
-  "PriceUnit": "dolorem",
-  "QuantityUnit": "ad",
-  "IsSubscription": true,
-  "SubscriptionUnit": "iusto",
-  "DefaultSubscriptionQuantity": 18308.827999999998,
-  "ItemNumber": "853234",
+  "ProductId": 144,
+  "ERPProductKey": "quo",
+  "ERPPriceListKey": "qui",
+  "Name": "Emmerich, Crooks and VonRueden",
+  "Description": "Open-architected clear-thinking solution",
+  "Code": "nostrum",
+  "PriceUnit": "at",
+  "QuantityUnit": "vero",
+  "IsSubscription": false,
+  "SubscriptionUnit": "rerum",
+  "DefaultSubscriptionQuantity": 14156.278,
+  "ItemNumber": "716530",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aut",
-  "ProductTypeKey": "omnis",
-  "VAT": 9975.521999999999,
-  "VATInfo": "ut",
-  "UnitCost": 9351.856,
-  "UnitMinimumPrice": 23204.136,
-  "UnitListPrice": 2447.654,
-  "InAssortment": true,
-  "Supplier": "aut",
-  "SupplierCode": "et",
-  "Rights": "eos",
-  "Rule": "totam",
+  "ProductFamilyKey": "corrupti",
+  "ProductTypeKey": "tenetur",
+  "VAT": 28773.254,
+  "VATInfo": "deserunt",
+  "UnitCost": 9988.0579999999991,
+  "UnitMinimumPrice": 28986.365999999998,
+  "UnitListPrice": 17105.372,
+  "InAssortment": false,
+  "Supplier": "quae",
+  "SupplierCode": "sed",
+  "Rights": "autem",
+  "Rule": "rem",
   "ExtraInfo": [
     {
-      "Name": "Glover, Schaefer and Renner",
-      "Value": "quae",
+      "Name": "Hahn-Leuschke",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 394
+          "FieldLength": 289
         }
       }
     },
     {
-      "Name": "Glover, Schaefer and Renner",
-      "Value": "quae",
+      "Name": "Hahn-Leuschke",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 394
+          "FieldLength": 289
         }
       }
     }
   ],
-  "RawExtraInfo": "sapiente",
-  "ExtraField1": "laboriosam",
-  "ExtraField2": "soluta",
-  "ExtraField3": "corporis",
-  "ExtraField4": "facilis",
-  "ExtraField5": "eos",
-  "InStock": 11207.184,
+  "RawExtraInfo": "repellendus",
+  "ExtraField1": "voluptates",
+  "ExtraField2": "nobis",
+  "ExtraField3": "ipsam",
+  "ExtraField4": "quae",
+  "ExtraField5": "non",
+  "InStock": 1447.908,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 903
+      "FieldLength": 33
     }
   }
 }

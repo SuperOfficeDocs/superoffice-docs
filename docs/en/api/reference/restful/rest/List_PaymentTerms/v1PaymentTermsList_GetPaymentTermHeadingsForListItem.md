@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 587,
-    "Name": "Pollich-Littel",
-    "ToolTip": "Sed dolores rem sequi velit.",
+    "Id": 619,
+    "Name": "Robel Inc and Sons",
+    "ToolTip": "Voluptates non sit consequatur veniam nobis quibusdam.",
     "Deleted": false,
-    "Rank": 358,
-    "Type": "fugit",
-    "ColorBlock": 441,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2003-05-04T14:19:11.305533+02:00",
+    "Rank": 232,
+    "Type": "qui",
+    "ColorBlock": 317,
+    "IconHint": "dolorum",
+    "Selected": true,
+    "LastChanged": "1999-05-04T12:15:28.2126203+02:00",
     "ChildItems": [
       {
-        "Id": 364,
-        "Name": "Kovacek-Jones",
-        "ToolTip": "Sit praesentium sed at.",
+        "Id": 607,
+        "Name": "Kunze, Jacobi and Rice",
+        "ToolTip": "Dolores consectetur unde commodi velit ut.",
         "Deleted": false,
-        "Rank": 596,
-        "Type": "cum",
-        "ColorBlock": 810,
-        "IconHint": "architecto",
+        "Rank": 366,
+        "Type": "illum",
+        "ColorBlock": 349,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2008-12-13T14:19:11.305533+01:00",
+        "LastChanged": "2015-11-24T12:15:28.2126203+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Prof. Carmine Olson",
+        "ExtraInfo": "nobis",
+        "StyleHint": "dolores",
+        "Hidden": true,
+        "FullName": "Judy Price",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 20
+            "FieldLength": 185
           }
         }
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "aut",
+    "ExtraInfo": "sint",
+    "StyleHint": "nemo",
     "Hidden": true,
-    "FullName": "Ardella Lang V",
+    "FullName": "Erika Boehm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 367
+        "FieldLength": 633
       }
     }
   }

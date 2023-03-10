@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 971,
-  "Name": "Connelly Inc and Sons",
-  "Tooltip": "debitis",
-  "Deleted": true,
-  "Rank": 541,
-  "UdListDefinitionId": 408
+  "HeadingId": 849,
+  "Name": "Tremblay, Lang and Volkman",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 775,
+  "UdListDefinitionId": 316
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 243,
-  "Name": "Kuhn-Stokes",
-  "Tooltip": "enim",
+  "HeadingId": 785,
+  "Name": "Fahey-Brown",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 53,
-  "UdListDefinitionId": 549,
+  "Rank": 546,
+  "UdListDefinitionId": 671,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldLength": 646
     }
   }
 }

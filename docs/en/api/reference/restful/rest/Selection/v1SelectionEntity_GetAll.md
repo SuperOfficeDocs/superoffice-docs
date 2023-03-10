@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Selection?$select=name,department,category/id
 GET /api/v1/Selection?$filter=name begins 'S'
 GET /api/v1/Selection?$orderBy=name asc
-GET /api/v1/Selection?$entities=error
-GET /api/v1/Selection?$top=180
-GET /api/v1/Selection?$skip=695
+GET /api/v1/Selection?$entities=in
+GET /api/v1/Selection?$top=787
+GET /api/v1/Selection?$skip=742
 GET /api/v1/Selection?$mode=Full
 GET /api/v1/Selection?$options=GrandTotal=true
-GET /api/v1/Selection?$context=nam
+GET /api/v1/Selection?$context=tempora
 GET /api/v1/Selection?$format=JSON
 GET /api/v1/Selection?$jsonSafe=False
 GET /api/v1/Selection?$output=Display
@@ -128,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "excepturi",
+  "odata.nextLink": "facere",
   "value": [
     {
-      "PrimaryKey": 9515,
-      "EntityName": "person",
-      "personId": 9515,
-      "fullName": "Maurice Kuvalis"
+      "PrimaryKey": 5618,
+      "EntityName": "sale",
+      "saleId": 5618,
+      "contactId": 372,
+      "name": "Goldner LLC"
     },
     {
-      "PrimaryKey": 3935,
-      "EntityName": "person",
-      "personId": 3935,
-      "fullName": "Minerva Green DVM"
+      "PrimaryKey": 1491,
+      "EntityName": "sale",
+      "saleId": 1491,
+      "contactId": 2310,
+      "name": "Hansen, Bauch and Hermann"
     }
   ]
 }

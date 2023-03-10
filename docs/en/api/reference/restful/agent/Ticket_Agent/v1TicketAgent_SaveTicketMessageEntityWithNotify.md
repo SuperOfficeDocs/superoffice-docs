@@ -97,12 +97,12 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": true
+  "Notify": false
 }
 ```
 
@@ -113,28 +113,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 111,
+  "EjMessageId": 319,
   "Ticket": null,
-  "CreatedAt": "2021-08-14T14:19:04.501577+02:00",
+  "CreatedAt": "1996-06-09T12:15:20.4727299+02:00",
   "CreatedBy": null,
   "Author": "dignissimos",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "reiciendis",
-  "TimeSpent": 671,
-  "Body": "aperiam",
-  "HtmlBody": "commodi",
-  "EmailHeader": "lacey@nienow.ca",
-  "DebugInfo": "velit",
-  "MailSorter": "neque",
+  "MessageId": "necessitatibus",
+  "TimeSpent": 751,
+  "Body": "similique",
+  "HtmlBody": "sequi",
+  "EmailHeader": "cassie_doyle@gleason.ca",
+  "DebugInfo": "iure",
+  "MailSorter": "eligendi",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "possimus",
+  "SearchTitle": "eligendi",
   "MessageHeaders": [
     {
-      "Id": 11,
-      "Name": "Little-Kuhn",
-      "Value": "id",
+      "Id": 17,
+      "Name": "Breitenberg Group",
+      "Value": "sed",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -142,47 +142,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 991
+          "FieldLength": 343
         }
       }
     }
   ],
   "Important": false,
-  "Language": "corrupti",
-  "Sentiment": 764,
-  "SentimentConfidence": 284,
+  "Language": "quaerat",
+  "Sentiment": 457,
+  "SentimentConfidence": 715,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 403,
-      "Name": "Erdman Inc and Sons",
-      "ContentType": "alias",
-      "AttSize": 620,
+      "AttachmentId": 615,
+      "Name": "Schmidt-Bruen",
+      "ContentType": "aut",
+      "AttSize": 195,
       "InlineImage": true,
-      "ContentId": "facere",
+      "ContentId": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 477
+          "FieldType": "System.String",
+          "FieldLength": 734
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "sunt"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "vitae",
-    "CustomFields2": "sunt"
+    "CustomFields1": "odio",
+    "CustomFields2": "optio"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 895
+      "FieldType": "System.Int32",
+      "FieldLength": 216
     }
   }
 }

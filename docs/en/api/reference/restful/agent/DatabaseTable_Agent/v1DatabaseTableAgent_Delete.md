@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Little, Russel and Dooley",
+  "TableName": "Crooks-Raynor",
   "IDs": [
-    762,
-    327
+    691,
+    342
   ]
 }
 ```
@@ -98,40 +98,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "reiciendis",
-  "Inserts": 129,
-  "Updates": 532,
-  "Deletes": 193,
+  "Message": "tempore",
+  "Inserts": 638,
+  "Updates": 292,
+  "Deletes": 188,
   "RowStatus": [
     {
-      "PrimaryKey": 472,
+      "PrimaryKey": 403,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "qui",
-        "pariatur"
+        "accusantium",
+        "adipisci"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 751
+          "FieldLength": 428
         }
       }
     },
     {
-      "PrimaryKey": 472,
+      "PrimaryKey": 403,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "qui",
-        "pariatur"
+        "accusantium",
+        "adipisci"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 751
+          "FieldLength": 428
         }
       }
     }
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 558
+      "FieldLength": 989
     }
   }
 }

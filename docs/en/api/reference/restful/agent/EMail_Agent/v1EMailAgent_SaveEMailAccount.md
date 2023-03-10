@@ -86,16 +86,16 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 333,
-  "EMailAddress": "itaque",
-  "AssociateId": 935,
+  "EMailAccountId": 827,
+  "EMailAddress": "fuga",
+  "AssociateId": 517,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 67,
-  "ErrorCount": 577,
+  "AccountStatus": 554,
+  "ErrorCount": 990,
   "ErrorReason": "",
-  "InboxFolder": "saepe",
-  "SentFolder": "iure"
+  "InboxFolder": "qui",
+  "SentFolder": "placeat"
 }
 ```
 
@@ -106,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 843,
-  "EMailAddress": "aut",
-  "AssociateId": 133,
+  "EMailAccountId": 711,
+  "EMailAddress": "mollitia",
+  "AssociateId": 574,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 860,
-  "ErrorCount": 185,
-  "ErrorReason": "",
-  "InboxFolder": "cum",
-  "SentFolder": "et",
+  "AccountStatus": 272,
+  "ErrorCount": 1001,
+  "ErrorReason": "aggregate strategic users",
+  "InboxFolder": "saepe",
+  "SentFolder": "laudantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 208
+      "FieldLength": 644
     }
   }
 }

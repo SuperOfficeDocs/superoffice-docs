@@ -58,7 +58,7 @@ OK
 GET /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,7 +69,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 946,
-  "Name": "Haley-VonRueden"
+  "AssociateId": 228,
+  "Name": "Krajcik-Price"
 }
 ```

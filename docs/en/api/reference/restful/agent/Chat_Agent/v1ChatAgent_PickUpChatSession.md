@@ -104,11 +104,11 @@ OK
 POST /api/v1/Agents/Chat/PickUpChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 634
+  "ChatSessionId": 716
 }
 ```
 
@@ -119,43 +119,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 581,
-  "TopicId": 276,
+  "ChatSessionId": 767,
+  "TopicId": 519,
   "User": null,
   "Person": null,
-  "CustomerAlias": "qui",
-  "CustomerHost": "labore",
-  "CustomerName": "Littel-Johnston",
-  "CustomerEmail": "howell.reichel@kriskihn.biz",
-  "CustomerPhone": "388.282.0855 x337",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Kertzmann, Dickinson and Howe",
+  "CustomerAlias": "quibusdam",
+  "CustomerHost": "voluptatem",
+  "CustomerName": "Zemlak Inc and Sons",
+  "CustomerEmail": "baron@lind.ca",
+  "CustomerPhone": "579-741-5341 x40883",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Bartoletti-Herman",
   "Status": "Closed",
-  "FirstMessage": "voluptatem",
-  "LastMessage": "consectetur",
-  "WhenRequested": "2007-08-02T14:19:02.8699025+02:00",
-  "WhenStarted": "2011-10-12T14:19:02.8699025+02:00",
-  "WhenEnded": "2021-03-17T14:19:02.8699025+01:00",
-  "WhenIdle": "1996-04-24T14:19:02.8699025+02:00",
-  "WhenFetched": "2003-06-28T14:19:02.8699025+02:00",
-  "SessionKey": "unde",
-  "InitialQueuePos": 435,
-  "AlertLevel": 257,
-  "Rank": 737,
+  "FirstMessage": "eos",
+  "LastMessage": "illo",
+  "WhenRequested": "1996-09-01T12:15:18.3507285+02:00",
+  "WhenStarted": "2005-09-08T12:15:18.3507285+02:00",
+  "WhenEnded": "1998-02-09T12:15:18.3507285+01:00",
+  "WhenIdle": "2015-08-16T12:15:18.3507285+02:00",
+  "WhenFetched": "1998-09-07T12:15:18.3507285+02:00",
+  "SessionKey": "voluptatem",
+  "InitialQueuePos": 699,
+  "AlertLevel": 297,
+  "Rank": 817,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 19,
+  "ChatbotIsActive": true,
+  "Rating": 757,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 712
+      "FieldLength": 385
     }
   }
 }

@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 513,
-  "Name": "Murphy, Bogisich and Klocko",
-  "Tooltip": "dolorem",
+  "Id": 935,
+  "Name": "Lemke-Tromp",
+  "Tooltip": "non",
   "Deleted": false,
-  "UdListDefinitionId": 378,
-  "Rank": 902,
+  "UdListDefinitionId": 760,
+  "Rank": 302,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 728
+      "FieldType": "System.String",
+      "FieldLength": 287
     }
   }
 }

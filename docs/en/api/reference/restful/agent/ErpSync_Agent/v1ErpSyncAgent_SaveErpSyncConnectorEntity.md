@@ -74,8 +74,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 496,
-  "DisplayName": "Green, Hyatt and Huel",
+  "ErpConnectorId": 657,
+  "DisplayName": "Runolfsson Group",
   "URL": "http://www.example.com/",
   "Deleted": false
 }
@@ -88,16 +88,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 348,
-  "DisplayName": "Monahan LLC",
+  "ErpConnectorId": 505,
+  "DisplayName": "Hahn Inc and Sons",
   "URL": "http://www.example.com/",
-  "Deleted": false,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 415
+      "FieldLength": 211
     }
   }
 }

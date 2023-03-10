@@ -103,7 +103,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 481,
-  "ColumnId": 937,
-  "FieldDefault": "rerum",
-  "FieldHeight": 675,
-  "FieldLabel": "blanditiis",
-  "FieldLeft": 947,
-  "FieldTop": 211,
+  "UDefFieldId": 559,
+  "ColumnId": 678,
+  "FieldDefault": "ullam",
+  "FieldHeight": 213,
+  "FieldLabel": "ea",
+  "FieldLeft": 550,
+  "FieldTop": 558,
   "FieldType": "Checkbox",
-  "FieldWidth": 376,
-  "FormatMask": "eum",
+  "FieldWidth": 592,
+  "FormatMask": "quia",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 477,
-  "LabelLeft": 225,
-  "LabelTop": 442,
-  "LabelWidth": 543,
-  "LastVersionId": 280,
-  "ListTableId": 954,
+  "IsIndexed": false,
+  "LabelHeight": 980,
+  "LabelLeft": 523,
+  "LabelTop": 58,
+  "LabelWidth": 973,
+  "LastVersionId": 166,
+  "ListTableId": 862,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 71,
-  "ProgId": "et",
-  "IsReadOnly": true,
-  "ShortLabel": "libero",
-  "TabOrder": 891,
-  "TextLength": 465,
-  "Tooltip": "necessitatibus",
-  "UdefIdentity": 917,
-  "UDListDefinitionId": 330,
+  "Page1LineNo": 226,
+  "ProgId": "doloremque",
+  "IsReadOnly": false,
+  "ShortLabel": "rem",
+  "TabOrder": 715,
+  "TextLength": 390,
+  "Tooltip": "alias",
+  "UdefIdentity": 700,
+  "UDListDefinitionId": 401,
   "Justification": "Center",
-  "Version": 607,
-  "TemplateVariableName": "Hirthe-Cassin",
-  "HasBeenPublished": true,
-  "MdoListName": "Grady LLC",
+  "Version": 653,
+  "TemplateVariableName": "Hilpert-Brekke",
+  "HasBeenPublished": false,
+  "MdoListName": "Legros-Abernathy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 185
+      "FieldLength": 477
     }
   }
 }

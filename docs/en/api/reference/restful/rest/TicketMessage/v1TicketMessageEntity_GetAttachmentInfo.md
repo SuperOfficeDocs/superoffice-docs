@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 520,
-    "Name": "Quitzon, Feil and Medhurst",
-    "ContentType": "modi",
-    "AttSize": 45,
-    "InlineImage": false,
-    "ContentId": "dolorem",
+    "AttachmentId": 835,
+    "Name": "Gleason Group",
+    "ContentType": "distinctio",
+    "AttSize": 689,
+    "InlineImage": true,
+    "ContentId": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 197
+        "FieldType": "System.String",
+        "FieldLength": 509
       }
     }
   }

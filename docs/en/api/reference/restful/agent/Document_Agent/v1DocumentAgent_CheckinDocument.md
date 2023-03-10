@@ -78,19 +78,19 @@ OK
 POST /api/v1/Agents/Document/CheckinDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 259,
+  "DocumentId": 139,
   "AllowedReturnTypes": [
-    "praesentium",
-    "autem"
+    "asperiores",
+    "similique"
   ],
-  "VersionDescription": "Balanced bifurcated budgetary management",
+  "VersionDescription": "Persevering actuating Graphic Interface",
   "VersionExtraFields": [
-    "incidunt",
-    "dolorem"
+    "suscipit",
+    "quis"
   ]
 }
 ```
@@ -102,11 +102,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "ad",
-  "VersionId": "facilis",
-  "Success": true,
+  "ExternalReference": "beatae",
+  "VersionId": "et",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "sint",
-  "AdditionalInfo": "tempora"
+  "Value": "beatae",
+  "AdditionalInfo": "nulla"
 }
 ```

@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -106,70 +106,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Phased explicit database",
-  "Postit": "laborum",
+  "Description": "Diverse multimedia standardization",
+  "Postit": "voluptatum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 8,
-  "IncludePerson": 324,
-  "MemberCount": 555,
-  "Name": "O'Kon-McGlynn",
-  "PostitTextId": 526,
-  "CreatedDate": "2003-02-05T14:19:04.1567293+01:00",
-  "SelectionId": 164,
-  "SoundEx": "nemo",
-  "Source": 370,
-  "TextId": 275,
-  "UpdatedDate": "1996-04-22T14:19:04.1567293+02:00",
-  "UpdatedCount": 268,
-  "Visibility": 846,
+  "GroupIdx": 504,
+  "IncludePerson": 218,
+  "MemberCount": 177,
+  "Name": "Boehm, Swaniawski and Nolan",
+  "PostitTextId": 689,
+  "CreatedDate": "2003-08-21T12:15:20.1217346+02:00",
+  "SelectionId": 550,
+  "SoundEx": "soluta",
+  "Source": 73,
+  "TextId": 572,
+  "UpdatedDate": "2008-10-04T12:15:20.1217346+02:00",
+  "UpdatedCount": 6,
+  "Visibility": 950,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 96,
-  "TargetTableName": "Jenkins Inc and Sons",
-  "Completed": false,
-  "LeftSelectionId": 646,
-  "RightSelectionId": 853,
+  "TargetTableNumber": 498,
+  "TargetTableName": "Conroy LLC",
+  "Completed": true,
+  "LeftSelectionId": 886,
+  "RightSelectionId": 367,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bradtke LLC",
-  "ShadowProviderName": "Huel-Welch",
-  "ChartKey": "sapiente",
-  "LastLoaded": "1998-12-19T14:19:04.1567293+01:00",
-  "LastLoadedBy": 85,
+  "MainProviderName": "Grant-Blanda",
+  "ShadowProviderName": "Marvin-Ledner",
+  "ChartKey": "numquam",
+  "LastLoaded": "2003-02-05T12:15:20.1217346+01:00",
+  "LastLoadedBy": 810,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-01-22T14:19:04.1567293+01:00",
-  "LastMembershipChangeBy": 634,
+  "LastMembershipChange": "2014-01-24T12:15:20.1227346+01:00",
+  "LastMembershipChangeBy": 134,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sit",
-  "MemberTabHeading": "corporis",
-  "MailingsProviderName": "Schmitt, King and Jakubowski",
-  "DashboardTileDefinitionId": 431,
+  "MainHeading": "amet",
+  "MemberTabHeading": "aut",
+  "MailingsProviderName": "Quigley LLC",
+  "DashboardTileDefinitionId": 41,
   "VisibleFor": [
     {
-      "VisibleId": 839,
+      "VisibleId": 784,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "tempore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 22
+          "FieldType": "System.Int32",
+          "FieldLength": 629
         }
       }
     },
     {
-      "VisibleId": 839,
+      "VisibleId": 784,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "tempore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 22
+          "FieldType": "System.Int32",
+          "FieldLength": 629
         }
       }
     }
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 812
+      "FieldLength": 387
     }
   }
 }

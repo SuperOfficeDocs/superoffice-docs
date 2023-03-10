@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/EMail/SaveToMailServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,146 +116,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 273,
-      "ContactName": "Legros, Mosciski and Kutch",
-      "PersonId": 19,
-      "PersonName": "White, Gottlieb and Conroy",
-      "AssociateId": 460,
-      "Address": "repellendus",
-      "EmailId": 358,
+      "ContactId": 214,
+      "ContactName": "O'Hara-Hickle",
+      "PersonId": 357,
+      "PersonName": "Powlowski LLC",
+      "AssociateId": 108,
+      "Address": "aut",
+      "EmailId": 668,
       "DuplicatePersonIds": [
-        298,
-        818
+        965,
+        127
       ],
-      "Name": "Schimmel-Cormier",
+      "Name": "Hoppe Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 766
+          "FieldLength": 946
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 946,
-      "ContactName": "Runolfsson, Littel and Kub",
-      "PersonId": 921,
-      "PersonName": "Wolff-Lueilwitz",
-      "AssociateId": 744,
-      "Address": "quo",
-      "EmailId": 341,
+      "ContactId": 431,
+      "ContactName": "Collins, Marvin and Purdy",
+      "PersonId": 225,
+      "PersonName": "Kreiger, Huels and Smitham",
+      "AssociateId": 63,
+      "Address": "nemo",
+      "EmailId": 51,
       "DuplicatePersonIds": [
-        993,
-        609
+        931,
+        4
       ],
-      "Name": "Brakus-Hodkiewicz",
+      "Name": "Volkman Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 412
+          "FieldLength": 771
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 305,
-      "ContactName": "Skiles-Robel",
-      "PersonId": 398,
-      "PersonName": "Kohler, Corkery and Grant",
-      "AssociateId": 323,
-      "Address": "expedita",
-      "EmailId": 78,
+      "ContactId": 827,
+      "ContactName": "Willms-Herman",
+      "PersonId": 255,
+      "PersonName": "Carroll, Stamm and Mitchell",
+      "AssociateId": 192,
+      "Address": "autem",
+      "EmailId": 576,
       "DuplicatePersonIds": [
-        714,
-        512
+        704,
+        589
       ],
-      "Name": "Howe-Nader",
+      "Name": "Stehr Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 484
+          "FieldType": "System.String",
+          "FieldLength": 16
         }
       }
     }
   ],
-  "Subject": "non",
-  "HTMLBody": "exercitationem",
+  "Subject": "aliquam",
+  "HTMLBody": "dolores",
   "From": null,
-  "Sent": "2009-10-19T14:19:03.3883958+02:00",
-  "Size": 269,
+  "Sent": "1999-05-14T12:15:18.9117529+02:00",
+  "Size": 259,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "nisi",
-  "PlainBody": "accusantium",
+  "MessageID": "qui",
+  "PlainBody": "sunt",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 115,
+  "ServerId": 492,
   "Attachments": [
     {
-      "Description": "Expanded heuristic database",
-      "Filename": "voluptatem",
-      "Size": 845,
-      "Type": "quia",
-      "Encoding": "delectus",
-      "Id": "quaerat",
-      "Disposition": "ea",
+      "Description": "Profit-focused solution-oriented success",
+      "Filename": "non",
+      "Size": 803,
+      "Type": "id",
+      "Encoding": "ut",
+      "Id": "incidunt",
+      "Disposition": "sed",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 640
+          "FieldLength": 249
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Wiegand, Nader and Lueilwitz",
+      "Name": "Volkman, Gorczany and Wiza",
       "Values": [
-        "et",
-        "minus"
+        "reiciendis",
+        "quas"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 341
+          "FieldLength": 290
         }
       }
     },
     {
-      "Name": "Wiegand, Nader and Lueilwitz",
+      "Name": "Volkman, Gorczany and Wiza",
       "Values": [
-        "et",
-        "minus"
+        "reiciendis",
+        "quas"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 341
+          "FieldLength": 290
         }
       }
     }
   ],
-  "FolderName": "Koepp Inc and Sons",
-  "EmailItemId": 686,
-  "AccountId": 691,
-  "ReceivedAt": "2015-07-04T14:19:03.3883958+02:00",
+  "FolderName": "Thiel, Oberbrunner and Corwin",
+  "EmailItemId": 849,
+  "AccountId": 728,
+  "ReceivedAt": "2009-11-18T12:15:18.9117529+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2022-08-10T14:19:03.3883958+02:00",
+  "RepliedAt": "2015-09-29T12:15:18.9117529+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -263,8 +263,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldType": "System.String",
+      "FieldLength": 807
     }
   }
 }

@@ -79,7 +79,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Abshire, Prosacco and Ankunding"
+  "OwnerName": "Windler, Schmidt and O'Hara"
 }
 ```
 
@@ -98,14 +98,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 481,
-      "NumberOfLicensesFree": 325,
-      "NumberOfLicensesAdded": 385,
-      "NumberOfLicensesNewTotal": 298,
-      "NumberOfLicensesNewFree": 328,
-      "NumberOfLicensesTotal": 240
+      "NumberOfLicensesInUse": 918,
+      "NumberOfLicensesFree": 893,
+      "NumberOfLicensesAdded": 211,
+      "NumberOfLicensesNewTotal": 867,
+      "NumberOfLicensesNewFree": 403,
+      "NumberOfLicensesTotal": 492
     }
   ],
-  "AccumulatedNextCheckDate": "1996-06-23T14:19:03.5769906+02:00"
+  "AccumulatedNextCheckDate": "1996-09-26T12:15:19.1827562+02:00"
 }
 ```

@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 6,
+  "ChatTopicId": 133,
   "Useragent": null
 }
 ```
@@ -92,7 +92,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 906,
+  "TopicId": 958,
   "User": null,
   "CanListen": false,
   "CanRespond": false,

@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,30 +80,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kerluke LLC",
-    "Description": "Self-enabling solution-oriented circuit",
+    "Name": "Price, Ryan and Mann",
+    "Description": "Total hybrid policy",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 334,
-        "Tooltip": "consectetur",
+        "Unrestricted": false,
+        "Total": 189,
+        "Tooltip": "debitis",
         "CanAssign": false,
-        "Free": 599,
-        "InUse": 479,
+        "Free": 718,
+        "InUse": 575,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 936,
-        "Name": "Gorczany Group",
-        "Description": "Monitored motivating circuit",
-        "PrerequisiteModuleName": "King, Hills and Romaguera",
-        "SortOrder": 990,
-        "ExtraFlags": 901,
+        "Assigned": false,
+        "ModuleLicenseId": 131,
+        "Name": "Bergnaum-Block",
+        "Description": "Monitored multi-state firmware",
+        "PrerequisiteModuleName": "Stoltenberg-Sporer",
+        "SortOrder": 209,
+        "ExtraFlags": 375,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 823
+            "FieldLength": 828
           }
         }
       }
@@ -111,25 +111,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 762,
-        "Tooltip": "officiis",
+        "Total": 339,
+        "Tooltip": "facilis",
         "CanAssign": true,
-        "Free": 694,
-        "InUse": 454,
+        "Free": 649,
+        "InUse": 870,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 704,
-        "Name": "Blick LLC",
-        "Description": "Automated logistical strategy",
-        "PrerequisiteModuleName": "Muller-Dach",
-        "SortOrder": 715,
-        "ExtraFlags": 345,
+        "ModuleLicenseId": 123,
+        "Name": "Kunze LLC",
+        "Description": "Devolved non-volatile system engine",
+        "PrerequisiteModuleName": "Satterfield-Larkin",
+        "SortOrder": 980,
+        "ExtraFlags": 17,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 116
+            "FieldLength": 849
           }
         }
       }
@@ -138,36 +138,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 16
+        "FieldType": "System.String",
+        "FieldLength": 813
       }
     }
   },
   {
-    "Name": "Kerluke LLC",
-    "Description": "Self-enabling solution-oriented circuit",
+    "Name": "Price, Ryan and Mann",
+    "Description": "Total hybrid policy",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 334,
-        "Tooltip": "consectetur",
+        "Unrestricted": false,
+        "Total": 189,
+        "Tooltip": "debitis",
         "CanAssign": false,
-        "Free": 599,
-        "InUse": 479,
+        "Free": 718,
+        "InUse": 575,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 936,
-        "Name": "Gorczany Group",
-        "Description": "Monitored motivating circuit",
-        "PrerequisiteModuleName": "King, Hills and Romaguera",
-        "SortOrder": 990,
-        "ExtraFlags": 901,
+        "Assigned": false,
+        "ModuleLicenseId": 131,
+        "Name": "Bergnaum-Block",
+        "Description": "Monitored multi-state firmware",
+        "PrerequisiteModuleName": "Stoltenberg-Sporer",
+        "SortOrder": 209,
+        "ExtraFlags": 375,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 823
+            "FieldLength": 828
           }
         }
       }
@@ -175,25 +175,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 762,
-        "Tooltip": "officiis",
+        "Total": 339,
+        "Tooltip": "facilis",
         "CanAssign": true,
-        "Free": 694,
-        "InUse": 454,
+        "Free": 649,
+        "InUse": 870,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 704,
-        "Name": "Blick LLC",
-        "Description": "Automated logistical strategy",
-        "PrerequisiteModuleName": "Muller-Dach",
-        "SortOrder": 715,
-        "ExtraFlags": 345,
+        "ModuleLicenseId": 123,
+        "Name": "Kunze LLC",
+        "Description": "Devolved non-volatile system engine",
+        "PrerequisiteModuleName": "Satterfield-Larkin",
+        "SortOrder": 980,
+        "ExtraFlags": 17,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 116
+            "FieldLength": 849
           }
         }
       }
@@ -202,8 +202,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 16
+        "FieldType": "System.String",
+        "FieldLength": 813
       }
     }
   }

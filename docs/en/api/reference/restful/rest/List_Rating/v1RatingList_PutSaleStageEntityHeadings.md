@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 999,
-    "Name": "Bernier Group",
-    "Tooltip": "consequatur",
+    "HeadingId": 144,
+    "Name": "Gorczany Group",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 382,
-    "UdListDefinitionId": 491
+    "Rank": 829,
+    "UdListDefinitionId": 711
   },
   {
-    "HeadingId": 999,
-    "Name": "Bernier Group",
-    "Tooltip": "consequatur",
+    "HeadingId": 144,
+    "Name": "Gorczany Group",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 382,
-    "UdListDefinitionId": 491
+    "Rank": 829,
+    "UdListDefinitionId": 711
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 368,
-    "Name": "O'Conner Group",
-    "Tooltip": "non",
+    "HeadingId": 910,
+    "Name": "Kuhic, Nicolas and Von",
+    "Tooltip": "voluptatem",
     "Deleted": true,
-    "Rank": 889,
-    "UdListDefinitionId": 365,
+    "Rank": 433,
+    "UdListDefinitionId": 22,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 427
+        "FieldLength": 644
       }
     }
   }

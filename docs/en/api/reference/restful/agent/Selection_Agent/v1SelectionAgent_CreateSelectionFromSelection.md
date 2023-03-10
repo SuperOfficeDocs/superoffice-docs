@@ -119,8 +119,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 52,
-  "Name": "Ryan-Marvin",
+  "SelectionId": 857,
+  "Name": "Lehner Inc and Sons",
   "TargetSelectionType": "Combined",
   "CopyMembers": true
 }
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Extended background synergy",
-  "Postit": "est",
+  "Description": "Fully-configurable reciprocal leverage",
+  "Postit": "reiciendis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 867,
-  "IncludePerson": 944,
-  "MemberCount": 250,
-  "Name": "Deckow-Kirlin",
-  "PostitTextId": 48,
-  "CreatedDate": "2002-06-26T14:19:04.2036046+02:00",
-  "SelectionId": 966,
-  "SoundEx": "et",
-  "Source": 338,
-  "TextId": 476,
-  "UpdatedDate": "2000-09-20T14:19:04.2036046+02:00",
-  "UpdatedCount": 137,
-  "Visibility": 275,
+  "GroupIdx": 617,
+  "IncludePerson": 605,
+  "MemberCount": 704,
+  "Name": "Towne, Aufderhar and Hudson",
+  "PostitTextId": 556,
+  "CreatedDate": "2018-06-11T12:15:20.1847336+02:00",
+  "SelectionId": 562,
+  "SoundEx": "rerum",
+  "Source": 782,
+  "TextId": 944,
+  "UpdatedDate": "1995-11-30T12:15:20.1847336+01:00",
+  "UpdatedCount": 674,
+  "Visibility": 455,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 120,
-  "TargetTableName": "Wiegand Inc and Sons",
+  "TargetTableNumber": 960,
+  "TargetTableName": "O'Reilly, Zieme and Stanton",
   "Completed": false,
-  "LeftSelectionId": 529,
-  "RightSelectionId": 653,
+  "LeftSelectionId": 984,
+  "RightSelectionId": 714,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Jast, Ondricka and Wilkinson",
-  "ShadowProviderName": "Torphy Inc and Sons",
-  "ChartKey": "molestiae",
-  "LastLoaded": "2013-01-12T14:19:04.2036046+01:00",
-  "LastLoadedBy": 831,
+  "MainProviderName": "McKenzie-Bashirian",
+  "ShadowProviderName": "Runolfsson LLC",
+  "ChartKey": "repellendus",
+  "LastLoaded": "2003-08-16T12:15:20.1847336+02:00",
+  "LastLoadedBy": 343,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-11-26T14:19:04.2036046+01:00",
-  "LastMembershipChangeBy": 766,
+  "LastMembershipChange": "2008-07-06T12:15:20.1857336+02:00",
+  "LastMembershipChangeBy": 728,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "blanditiis",
-  "MemberTabHeading": "reprehenderit",
-  "MailingsProviderName": "Cummings-Kling",
-  "DashboardTileDefinitionId": 229,
+  "MainHeading": "tenetur",
+  "MemberTabHeading": "animi",
+  "MailingsProviderName": "Murphy, Carter and Kutch",
+  "DashboardTileDefinitionId": 131,
   "VisibleFor": [
     {
-      "VisibleId": 250,
+      "VisibleId": 884,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 681
+          "FieldLength": 870
         }
       }
     },
     {
-      "VisibleId": 250,
+      "VisibleId": 884,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 681
+          "FieldLength": 870
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 987
+      "FieldLength": 548
     }
   }
 }

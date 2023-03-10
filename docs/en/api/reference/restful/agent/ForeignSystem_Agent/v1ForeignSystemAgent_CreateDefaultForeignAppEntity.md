@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,29 +72,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 42,
-  "Name": "Rempel Group",
-  "CreatedDate": "2021-09-26T14:19:03.5446477+02:00",
-  "UpdatedDate": "2001-09-02T14:19:03.5446477+02:00",
+  "ForeignAppId": 835,
+  "Name": "Schuppe LLC",
+  "CreatedDate": "2003-06-14T12:15:19.1387495+02:00",
+  "UpdatedDate": "2018-09-09T12:15:19.1387495+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 1002,
-      "Name": "VonRueden LLC",
-      "CreatedDate": "2019-05-14T14:19:03.5446477+02:00",
-      "UpdatedDate": "2005-02-07T14:19:03.5446477+01:00",
-      "AssociateFullName": "Yessenia Hickle",
-      "CreatedBy": "minus",
-      "UpdatedBy": "recusandae",
-      "DeviceIdentifier": "quia",
-      "ForeignAppId": 368,
+      "ForeignDeviceId": 945,
+      "Name": "Bednar Group",
+      "CreatedDate": "2014-09-09T12:15:19.140749+02:00",
+      "UpdatedDate": "2000-01-23T12:15:19.140749+01:00",
+      "AssociateFullName": "Alice Welch",
+      "CreatedBy": "placeat",
+      "UpdatedBy": "nesciunt",
+      "DeviceIdentifier": "est",
+      "ForeignAppId": 191,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 132
+          "FieldLength": 324
         }
       }
     }
@@ -103,8 +103,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 579
+      "FieldType": "System.Int32",
+      "FieldLength": 332
     }
   }
 }

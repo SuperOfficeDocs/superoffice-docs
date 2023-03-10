@@ -72,7 +72,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,25 +84,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 682,
-    "Tooltip": "consequuntur",
+    "Total": 187,
+    "Tooltip": "corrupti",
     "CanAssign": true,
-    "Free": 151,
-    "InUse": 283,
-    "IsHidden": false,
+    "Free": 183,
+    "InUse": 251,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 21,
-    "Name": "Greenholt, Weber and Barton",
-    "Description": "Reduced background matrix",
-    "PrerequisiteModuleName": "Gleichner-Kuhn",
-    "SortOrder": 77,
-    "ExtraFlags": 618,
+    "ModuleLicenseId": 330,
+    "Name": "Mraz, Walsh and McClure",
+    "Description": "Enterprise-wide disintermediate architecture",
+    "PrerequisiteModuleName": "Schulist-Erdman",
+    "SortOrder": 84,
+    "ExtraFlags": 972,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 201
+        "FieldType": "System.String",
+        "FieldLength": 555
       }
     }
   }

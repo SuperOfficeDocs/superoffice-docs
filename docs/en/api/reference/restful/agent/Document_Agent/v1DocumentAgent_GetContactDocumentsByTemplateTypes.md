@@ -97,17 +97,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 397,
-  "StartTime": "2003-12-21T14:19:03.1355296+01:00",
-  "EndTime": "2009-08-24T14:19:03.1355296+02:00",
-  "Count": 793,
+  "ContactId": 750,
+  "StartTime": "2015-01-15T12:15:18.706755+01:00",
+  "EndTime": "1998-12-06T12:15:18.706755+01:00",
+  "Count": 188,
   "DocumentTemplateIds": [
-    638,
-    849
+    140,
+    178
   ]
 }
 ```
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 630,
-    "Attention": "qui",
-    "Header": "quis",
-    "Name": "Schamberger, Stiedemann and Durgan",
-    "OurRef": "molestiae",
-    "YourRef": "omnis",
-    "Description": "Profit-focused holistic contingency",
-    "DocumentTemplate": "enim",
-    "IsPublished": false,
-    "PersonId": 674,
-    "PersonFullName": "Shania Hegmann",
-    "AssociateFullName": "Lonie Smith",
-    "ContactId": 172,
-    "ContactName": "Champlin Group",
-    "ProjectId": 702,
-    "ProjectName": "Hintz LLC",
-    "AssociateId": 791,
-    "Snum": 228,
-    "SaleId": 660,
-    "SaleName": "Ankunding LLC",
+    "DocumentId": 510,
+    "Attention": "optio",
+    "Header": "omnis",
+    "Name": "Rice LLC",
+    "OurRef": "molestias",
+    "YourRef": "doloribus",
+    "Description": "Synergized transitional artificial intelligence",
+    "DocumentTemplate": "impedit",
+    "IsPublished": true,
+    "PersonId": 307,
+    "PersonFullName": "Adrien Hillary Marks II",
+    "AssociateFullName": "Julien Macejkovic",
+    "ContactId": 235,
+    "ContactName": "Heller, Parisian and Christiansen",
+    "ProjectId": 281,
+    "ProjectName": "Cruickshank-Rogahn",
+    "AssociateId": 560,
+    "Snum": 457,
+    "SaleId": 73,
+    "SaleName": "Dare-Beahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 685
+        "FieldLength": 870
       }
     }
   }

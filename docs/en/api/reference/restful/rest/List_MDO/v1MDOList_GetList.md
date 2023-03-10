@@ -31,8 +31,8 @@ Get the list items in a named list.
 
 ```http
 GET /api/v1/MDOList/{listname}?flat=True
-GET /api/v1/MDOList/{listname}?additional=sed
-GET /api/v1/MDOList/{listname}?query=nam
+GET /api/v1/MDOList/{listname}?additional=et
+GET /api/v1/MDOList/{listname}?query=ut
 ```
 
 
@@ -83,7 +83,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,50 +94,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 110,
-    "Name": "Mosciski Inc and Sons",
-    "ToolTip": "Hic labore non nostrum nam quisquam.",
-    "Deleted": false,
-    "Rank": 201,
-    "Type": "aut",
+    "Id": 642,
+    "Name": "Gutmann-Hermann",
+    "ToolTip": "Dolore doloremque numquam aspernatur ea.",
+    "Deleted": true,
+    "Rank": 172,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 870,
-        "Name": "Terry-Kovacek",
-        "ToolTip": "Vero et recusandae mollitia similique ut laborum libero.",
+        "Id": 532,
+        "Name": "McKenzie-Nader",
+        "ToolTip": "Adipisci totam sint eaque.",
         "Deleted": false,
-        "Rank": 574,
-        "Type": "nihil",
+        "Rank": 176,
+        "Type": "adipisci",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 813,
-        "ExtraInfo": "et",
-        "StyleHint": "quia",
-        "FullName": "Dr. Susie Loyce Russel V",
+        "IconHint": "illum",
+        "ColorBlock": 89,
+        "ExtraInfo": "saepe",
+        "StyleHint": "veritatis",
+        "FullName": "Araceli Feest",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 905
+            "FieldType": "System.Int32",
+            "FieldLength": 183
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 230,
-    "ExtraInfo": "optio",
-    "StyleHint": "omnis",
-    "FullName": "Dudley Fisher",
+    "IconHint": "veniam",
+    "ColorBlock": 257,
+    "ExtraInfo": "temporibus",
+    "StyleHint": "natus",
+    "FullName": "Mrs. Orville Rodrigo Jacobi DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 822
+        "FieldType": "System.Int32",
+        "FieldLength": 477
       }
     }
   }

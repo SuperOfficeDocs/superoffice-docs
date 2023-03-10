@@ -90,18 +90,18 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kautzer-Robel",
+  "Name": "Walter-Koch",
   "ForceFlatList": false,
-  "AdditionalInfo": "quidem",
+  "AdditionalInfo": "tempora",
   "HistoryItems": [
-    87,
-    486
+    246,
+    402
   ],
-  "OnlyHistory": true
+  "OnlyHistory": false
 }
 ```
 
@@ -113,56 +113,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Hansen-Jones",
-    "ToolTip": "Quo odit.",
+    "Id": 662,
+    "Name": "Ullrich-Robel",
+    "ToolTip": "Illo sint possimus mollitia reiciendis et.",
     "Deleted": false,
-    "Rank": 929,
-    "Type": "voluptas",
-    "ColorBlock": 232,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2014-06-24T14:19:03.7332495+02:00",
+    "Rank": 549,
+    "Type": "odio",
+    "ColorBlock": 852,
+    "IconHint": "rerum",
+    "Selected": false,
+    "LastChanged": "2007-11-06T12:15:19.3907466+01:00",
     "ChildItems": [
       {
-        "Id": 317,
-        "Name": "Gleason, Littel and Ullrich",
-        "ToolTip": "Necessitatibus blanditiis totam harum temporibus molestias tempora nobis.",
-        "Deleted": false,
-        "Rank": 913,
-        "Type": "est",
-        "ColorBlock": 607,
-        "IconHint": "eveniet",
-        "Selected": false,
-        "LastChanged": "2007-08-05T14:19:03.7332495+02:00",
+        "Id": 326,
+        "Name": "Feest, Gottlieb and Kuvalis",
+        "ToolTip": "Sint veniam veritatis qui vel itaque.",
+        "Deleted": true,
+        "Rank": 505,
+        "Type": "nesciunt",
+        "ColorBlock": 158,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2011-11-06T12:15:19.3907466+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "similique",
+        "ExtraInfo": "et",
+        "StyleHint": "nesciunt",
         "Hidden": false,
-        "FullName": "Ezra Schoen",
+        "FullName": "Houston Bernice Romaguera I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 321
+            "FieldLength": 58
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "nostrum",
+    "ExtraInfo": "harum",
+    "StyleHint": "quasi",
     "Hidden": false,
-    "FullName": "Holly Anne Gaylord II",
+    "FullName": "Leora Haag",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 668
+        "FieldLength": 283
       }
     }
   }

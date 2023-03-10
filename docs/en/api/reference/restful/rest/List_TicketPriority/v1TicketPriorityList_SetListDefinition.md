@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 71,
-  "Name": "Robel LLC",
-  "Tooltip": "sed",
+  "Id": 229,
+  "Name": "Stehr, Ullrich and Ernser",
+  "Tooltip": "facere",
   "Deleted": true,
-  "Rank": 605,
-  "IsCustomList": false,
+  "Rank": 594,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "unde",
+  "ListType": "rerum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 702,
-  "Name": "Cronin-Bernier",
-  "Tooltip": "facere",
+  "Id": 625,
+  "Name": "O'Reilly, Ondricka and Howell",
+  "Tooltip": "commodi",
   "Deleted": true,
-  "Rank": 260,
-  "IsCustomList": true,
+  "Rank": 684,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "vero",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 945
+      "FieldType": "System.String",
+      "FieldLength": 419
     }
   }
 }

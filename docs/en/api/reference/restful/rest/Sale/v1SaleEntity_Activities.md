@@ -73,12 +73,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/Activities?$select=name,department,category/id
 GET /api/v1/Sale/{id}/Activities?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/Activities?$orderBy=name asc
-GET /api/v1/Sale/{id}/Activities?$entities=dignissimos
-GET /api/v1/Sale/{id}/Activities?$top=534
-GET /api/v1/Sale/{id}/Activities?$skip=634
+GET /api/v1/Sale/{id}/Activities?$entities=qui
+GET /api/v1/Sale/{id}/Activities?$top=963
+GET /api/v1/Sale/{id}/Activities?$skip=590
 GET /api/v1/Sale/{id}/Activities?$mode=Full
 GET /api/v1/Sale/{id}/Activities?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/Activities?$context=voluptatem
+GET /api/v1/Sale/{id}/Activities?$context=beatae
 GET /api/v1/Sale/{id}/Activities?$format=JSON
 GET /api/v1/Sale/{id}/Activities?$jsonSafe=False
 GET /api/v1/Sale/{id}/Activities?$output=Display
@@ -136,16 +136,18 @@ Content-Type: application/json; charset=utf-8
   "odata.nextLink": "omnis",
   "value": [
     {
-      "PrimaryKey": 7698,
-      "EntityName": "person",
-      "personId": 7698,
-      "fullName": "Alexanne Volkman"
+      "PrimaryKey": 5115,
+      "EntityName": "sale",
+      "saleId": 5115,
+      "contactId": 5570,
+      "name": "Thiel Group"
     },
     {
-      "PrimaryKey": 7894,
-      "EntityName": "person",
-      "personId": 7894,
-      "fullName": "Florian Carolyne Goyette MD"
+      "PrimaryKey": 4519,
+      "EntityName": "sale",
+      "saleId": 4519,
+      "contactId": 970,
+      "name": "Ritchie LLC"
     }
   ]
 }

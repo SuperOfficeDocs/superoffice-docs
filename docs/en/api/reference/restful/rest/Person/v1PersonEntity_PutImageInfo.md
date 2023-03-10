@@ -92,23 +92,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 604,
-  "BlobSize": 741,
-  "Description": "Extended contextually-based protocol",
-  "ExtraInfo": "ut",
+  "BlobId": 117,
+  "BlobSize": 644,
+  "Description": "Expanded full-range firmware",
+  "ExtraInfo": "molestiae",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "autem",
-  "OriginalSize": 601,
-  "CreatedDate": "1996-02-21T14:19:10.4748485+01:00",
-  "UpdatedDate": "2005-11-18T14:19:10.4748485+01:00",
+  "IsZipped": true,
+  "MimeType": "repudiandae",
+  "OriginalSize": 706,
+  "CreatedDate": "2013-04-29T12:15:27.1206331+02:00",
+  "UpdatedDate": "2000-06-20T12:15:27.1206331+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "eum"
+  "ConceptualType": "illo"
 }
 ```
 
@@ -119,25 +119,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 311,
-  "BlobSize": 944,
-  "Description": "Virtual interactive utilisation",
-  "ExtraInfo": "qui",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "illo",
-  "OriginalSize": 462,
-  "CreatedDate": "2014-10-31T14:19:10.4748485+01:00",
-  "UpdatedDate": "1999-05-04T14:19:10.4748485+02:00",
+  "BlobId": 520,
+  "BlobSize": 925,
+  "Description": "Streamlined exuding initiative",
+  "ExtraInfo": "voluptatum",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "impedit",
+  "OriginalSize": 701,
+  "CreatedDate": "2021-10-23T12:15:27.1236329+02:00",
+  "UpdatedDate": "2022-10-19T12:15:27.1236329+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "minima",
+  "ConceptualType": "beatae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 760
+      "FieldType": "System.String",
+      "FieldLength": 795
     }
   }
 }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Pollich, Blanda and Gutkowski"
+  "Name": "Bradtke Group"
 }
 ```
 
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 110,
-    "Name": "Kozey Group",
-    "Tooltip": "omnis",
+    "HeadingId": 458,
+    "Name": "Crooks-Hansen",
+    "Tooltip": "quo",
     "Deleted": false,
-    "Rank": 905,
-    "UdListDefinitionId": 701,
+    "Rank": 458,
+    "UdListDefinitionId": 182,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 317
+        "FieldType": "System.Int32",
+        "FieldLength": 959
       }
     }
   }

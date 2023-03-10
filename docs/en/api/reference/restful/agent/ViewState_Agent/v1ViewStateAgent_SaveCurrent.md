@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 172,
-  "Id": 162,
-  "HistoryName": "Torp, Weissnat and Jast",
-  "HistoryId": 597,
-  "AssociateId": 860,
-  "Name": "Reinger, Berge and Mayer",
-  "ItemInfo": "quos",
+  "Rank": 168,
+  "Id": 909,
+  "HistoryName": "Shields Group",
+  "HistoryId": 313,
+  "AssociateId": 716,
+  "Name": "Kutch Inc and Sons",
+  "ItemInfo": "officia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 173
+      "FieldLength": 852
     }
   }
 }

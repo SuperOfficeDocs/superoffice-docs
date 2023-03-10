@@ -66,20 +66,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Bins LLC",
-      "Delimiter": "omnis",
-      "Flags": "harum",
-      "TotalItems": 169,
-      "UnreadItems": 677,
-      "Subscribed": true,
-      "EmailFolderId": 937
+      "Name": "Donnelly-Volkman",
+      "Delimiter": "officiis",
+      "Flags": "ea",
+      "TotalItems": 86,
+      "UnreadItems": 229,
+      "Subscribed": false,
+      "EmailFolderId": 371
     }
   ]
 }

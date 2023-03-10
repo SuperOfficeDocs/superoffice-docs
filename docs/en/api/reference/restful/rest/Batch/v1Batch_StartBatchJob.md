@@ -78,34 +78,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 901,
-  "Name": "Gulgowski LLC",
-  "AssociateId": 34,
-  "DetailsTable": 544,
-  "DetailsRecord": 247,
+  "Id": 191,
+  "Name": "Jerde, McClure and Carter",
+  "AssociateId": 796,
+  "DetailsTable": 75,
+  "DetailsRecord": 646,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "maiores",
-    "ParameterObject2": "cumque"
+    "ParameterObject1": "voluptatem",
+    "ParameterObject2": "ipsam"
   },
-  "LastStarted": "2017-05-30T14:19:10.912356+02:00",
-  "Created": "2001-02-14T14:19:10.912356+01:00",
-  "StartCount": 346,
-  "DatabaseSerialNumber": "663873",
-  "Context": "enim",
-  "Result": "id",
+  "LastStarted": "2011-02-10T12:15:27.5976313+01:00",
+  "Created": "2020-05-07T12:15:27.5976313+02:00",
+  "StartCount": 151,
+  "DatabaseSerialNumber": "810499",
+  "Context": "optio",
+  "Result": "illum",
   "State": "All",
-  "Description": "Diverse explicit complexity",
-  "Response": "odio",
-  "Request": "voluptatem",
-  "ProgressDescription": "Re-contextualized systemic benchmark",
-  "ProgressPercent": 572,
-  "FileName": "Welch-Considine",
+  "Description": "Polarised local archive",
+  "Response": "eveniet",
+  "Request": "illum",
+  "ProgressDescription": "Re-engineered discrete benchmark",
+  "ProgressPercent": 134,
+  "FileName": "Stroman, Baumbach and Heathcote",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -116,5 +116,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-991
+844
 ```

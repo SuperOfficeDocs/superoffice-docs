@@ -61,7 +61,7 @@ OK
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,58 +72,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hilpert-Effertz",
-    "Description": "Future-proofed bifurcated software",
-    "Rank": 636,
+    "Name": "Leannon Group",
+    "Description": "Reduced mobile utilisation",
+    "Rank": 303,
     "Restrictions": [
       {
-        "Name": "Wisozk-Sauer",
-        "Operator": "est",
+        "Name": "Kiehn-Williamson",
+        "Operator": "corporis",
         "Values": [
-          "voluptatum",
-          "assumenda"
+          "cum",
+          "ea"
         ],
         "DisplayValues": [
-          "et",
-          "et"
+          "quaerat",
+          "vero"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 410,
+        "InterParenthesis": 720,
         "InterOperator": "And",
-        "UniqueHash": 937
+        "UniqueHash": 464
       }
     ]
   },
   {
-    "Name": "Hilpert-Effertz",
-    "Description": "Future-proofed bifurcated software",
-    "Rank": 636,
+    "Name": "Leannon Group",
+    "Description": "Reduced mobile utilisation",
+    "Rank": 303,
     "Restrictions": [
       {
-        "Name": "Wisozk-Sauer",
-        "Operator": "est",
+        "Name": "Kiehn-Williamson",
+        "Operator": "corporis",
         "Values": [
-          "voluptatum",
-          "assumenda"
+          "cum",
+          "ea"
         ],
         "DisplayValues": [
-          "et",
-          "et"
+          "quaerat",
+          "vero"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 410,
+        "InterParenthesis": 720,
         "InterOperator": "And",
-        "UniqueHash": 937
+        "UniqueHash": 464
       }
     ]
   }

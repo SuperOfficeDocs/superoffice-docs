@@ -68,8 +68,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    593,
-    440
+    82,
+    995
   ]
 }
 ```

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 670,
-  "ListItemId": 764,
+  "UdListDefinitionId": 592,
+  "ListItemId": 492,
   "ShowDeleted": false
 }
 ```
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 329,
-    "Name": "Gorczany-Hansen",
-    "ToolTip": "Exercitationem architecto.",
-    "Deleted": true,
-    "Rank": 791,
-    "Type": "necessitatibus",
-    "ColorBlock": 783,
-    "IconHint": "laudantium",
-    "Selected": false,
-    "LastChanged": "2003-02-01T14:19:03.6238736+01:00",
+    "Id": 148,
+    "Name": "Dibbert, Schneider and Stoltenberg",
+    "ToolTip": "Earum repellat nihil qui quasi.",
+    "Deleted": false,
+    "Rank": 722,
+    "Type": "sit",
+    "ColorBlock": 102,
+    "IconHint": "voluptates",
+    "Selected": true,
+    "LastChanged": "2007-02-01T12:15:19.2607472+01:00",
     "ChildItems": [
       {
-        "Id": 125,
-        "Name": "Gorczany, Hickle and DuBuque",
-        "ToolTip": "Asperiores sapiente eligendi.",
+        "Id": 213,
+        "Name": "Leffler LLC",
+        "ToolTip": "Placeat inventore eius rerum at rerum iste.",
         "Deleted": true,
-        "Rank": 748,
-        "Type": "distinctio",
-        "ColorBlock": 667,
-        "IconHint": "praesentium",
+        "Rank": 338,
+        "Type": "quia",
+        "ColorBlock": 414,
+        "IconHint": "quasi",
         "Selected": false,
-        "LastChanged": "2019-02-11T14:19:03.6394986+01:00",
+        "LastChanged": "2014-02-09T12:15:19.2607472+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "placeat",
-        "Hidden": false,
-        "FullName": "Miss Isabella Diamond Eichmann",
+        "ExtraInfo": "facere",
+        "StyleHint": "veniam",
+        "Hidden": true,
+        "FullName": "Ms. Lyla Waters I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 751
+            "FieldLength": 463
           }
         }
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "libero",
+    "ExtraInfo": "et",
+    "StyleHint": "quam",
     "Hidden": false,
-    "FullName": "Delpha Conroy",
+    "FullName": "Miss Junius Lowe II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 42
+        "FieldLength": 990
       }
     }
   }

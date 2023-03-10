@@ -100,89 +100,89 @@ OK
 POST /api/v1/Contact/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 756,
-  "Name": "Hansen, Hudson and Hand",
+  "ContactId": 215,
+  "Name": "Morar, Mante and Mayer",
   "Department": "",
-  "OrgNr": "1604034",
-  "Number1": "893964",
-  "Number2": "1087504",
-  "UpdatedDate": "2009-07-06T14:19:10.2092258+02:00",
-  "CreatedDate": "2020-10-20T14:19:10.2092258+02:00",
+  "OrgNr": "756046",
+  "Number1": "1540601",
+  "Number2": "1286793",
+  "UpdatedDate": "2023-02-01T12:15:26.7706452+01:00",
+  "CreatedDate": "2022-11-23T12:15:26.7706452+01:00",
   "Emails": [
     {
-      "Value": "perferendis",
-      "StrippedValue": "aut",
-      "Description": "Synergistic stable customer loyalty"
+      "Value": "ab",
+      "StrippedValue": "est",
+      "Description": "Re-engineered multi-tasking algorithm"
     },
     {
-      "Value": "perferendis",
-      "StrippedValue": "aut",
-      "Description": "Synergistic stable customer loyalty"
+      "Value": "ab",
+      "StrippedValue": "est",
+      "Description": "Re-engineered multi-tasking algorithm"
     }
   ],
   "Interests": [
     {
-      "Id": 458,
-      "Name": "Kulas-Goldner",
-      "ToolTip": "Saepe iure dolor est debitis sequi nostrum beatae.",
+      "Id": 121,
+      "Name": "Sawayn-Bartell",
+      "ToolTip": "Voluptas consequuntur praesentium nihil.",
       "Deleted": false,
-      "Rank": 124,
-      "Type": "sint",
-      "ColorBlock": 974,
-      "IconHint": "voluptates",
+      "Rank": 590,
+      "Type": "sit",
+      "ColorBlock": 819,
+      "IconHint": "alias",
       "Selected": false,
-      "LastChanged": "2021-11-11T14:19:10.2092258+01:00",
+      "LastChanged": "1998-11-19T12:15:26.7706452+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "consequatur",
-      "StyleHint": "temporibus",
-      "Hidden": true,
-      "FullName": "Lauren Langosh"
+      "ExtraInfo": "eos",
+      "StyleHint": "nesciunt",
+      "Hidden": false,
+      "FullName": "Karen Wisoky"
     }
   ],
   "Urls": [
     {
-      "Value": "qui",
-      "StrippedValue": "iste",
-      "Description": "Digitized didactic algorithm"
+      "Value": "sed",
+      "StrippedValue": "corrupti",
+      "Description": "Assimilated object-oriented definition"
     },
     {
-      "Value": "qui",
-      "StrippedValue": "iste",
-      "Description": "Digitized didactic algorithm"
+      "Value": "sed",
+      "StrippedValue": "corrupti",
+      "Description": "Assimilated object-oriented definition"
     }
   ],
   "Phones": [
     {
-      "Value": "deserunt",
-      "StrippedValue": "voluptatem",
-      "Description": "Profound analyzing data-warehouse"
+      "Value": "repellat",
+      "StrippedValue": "sunt",
+      "Description": "Total homogeneous approach"
     },
     {
-      "Value": "deserunt",
-      "StrippedValue": "voluptatem",
-      "Description": "Profound analyzing data-warehouse"
+      "Value": "repellat",
+      "StrippedValue": "sunt",
+      "Description": "Total homogeneous approach"
     }
   ],
   "Faxes": [
     {
-      "Value": "ullam",
-      "StrippedValue": "corrupti",
-      "Description": "Phased foreground orchestration"
+      "Value": "et",
+      "StrippedValue": "aut",
+      "Description": "Integrated national intranet"
     },
     {
-      "Value": "ullam",
-      "StrippedValue": "corrupti",
-      "Description": "Phased foreground orchestration"
+      "Value": "et",
+      "StrippedValue": "aut",
+      "Description": "Integrated national intranet"
     }
   ],
-  "Description": "Proactive 24 hour attitude",
+  "Description": "Enhanced systematic concept",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -191,85 +191,85 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "expedita",
-      "PersonId": 411,
-      "Mrmrs": "velit",
-      "Firstname": "Melisa",
-      "Lastname": "Farrell",
-      "MiddleName": "Bogan-Heller",
-      "Title": "labore",
-      "Description": "Horizontal cohesive approach",
-      "Email": "hassan.batz@metz.uk",
-      "FullName": "Ibrahim Aufderhar III",
-      "DirectPhone": "954.867.0210 x75495",
-      "FormalName": "Walter, Howe and Bosco",
-      "CountryId": 625,
-      "ContactId": 554,
-      "ContactName": "Hane-Spencer",
-      "Retired": 338,
-      "Rank": 572,
-      "ActiveInterests": 435,
+      "Position": "aut",
+      "PersonId": 678,
+      "Mrmrs": "dolor",
+      "Firstname": "Delmer",
+      "Lastname": "Feil",
+      "MiddleName": "Jacobs LLC",
+      "Title": "alias",
+      "Description": "Proactive analyzing hub",
+      "Email": "selena@waters.info",
+      "FullName": "Mrs. Marcellus August Aufderhar PhD",
+      "DirectPhone": "635.673.9829 x9980",
+      "FormalName": "O'Reilly Group",
+      "CountryId": 788,
+      "ContactId": 113,
+      "ContactName": "Gottlieb Inc and Sons",
+      "Retired": 734,
+      "Rank": 612,
+      "ActiveInterests": 210,
       "ContactDepartment": "",
-      "ContactCountryId": 380,
-      "ContactOrgNr": "214785",
-      "FaxPhone": "270-668-3645",
-      "MobilePhone": "1-347-683-2955",
-      "ContactPhone": "1-446-874-6553 x54111",
-      "AssociateName": "Kautzer, Ward and Purdy",
-      "AssociateId": 655,
-      "UsePersonAddress": false,
-      "ContactFax": "reiciendis",
-      "Kanafname": "sed",
-      "Kanalname": "delectus",
-      "Post1": "earum",
-      "Post2": "rerum",
-      "Post3": "neque",
-      "EmailName": "kurtis.lubowitz@aufderhar.uk",
-      "ContactFullName": "Kim Crooks",
-      "ActiveErpLinks": 294,
-      "TicketPriorityId": 142,
-      "SupportLanguageId": 754,
-      "SupportAssociateId": 204,
+      "ContactCountryId": 172,
+      "ContactOrgNr": "810272",
+      "FaxPhone": "029-387-0530",
+      "MobilePhone": "(871)375-7868",
+      "ContactPhone": "(819)173-3633",
+      "AssociateName": "Larkin-Hodkiewicz",
+      "AssociateId": 104,
+      "UsePersonAddress": true,
+      "ContactFax": "velit",
+      "Kanafname": "aliquam",
+      "Kanalname": "et",
+      "Post1": "optio",
+      "Post2": "omnis",
+      "Post3": "voluptatem",
+      "EmailName": "helena@spinka.info",
+      "ContactFullName": "Dr. Litzy Greta Waelchi",
+      "ActiveErpLinks": 858,
+      "TicketPriorityId": 600,
+      "SupportLanguageId": 783,
+      "SupportAssociateId": 387,
       "CategoryName": "VIP Customer"
     }
   ],
-  "NoMailing": false,
-  "Kananame": "adipisci",
-  "Xstop": false,
-  "ActiveInterests": 478,
-  "GroupId": 324,
-  "ActiveStatusMonitorId": 191,
+  "NoMailing": true,
+  "Kananame": "quaerat",
+  "Xstop": true,
+  "ActiveInterests": 545,
+  "GroupId": 848,
+  "ActiveStatusMonitorId": 921,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 871,
-  "DbiAgentId": 66,
-  "DbiLastSyncronized": "2011-06-24T14:19:10.2248533+02:00",
-  "DbiKey": "corporis",
-  "DbiLastModified": "2022-09-02T14:19:10.2248533+02:00",
+  "Deleted": 455,
+  "DbiAgentId": 310,
+  "DbiLastSyncronized": "2004-07-10T12:15:26.7766379+02:00",
+  "DbiKey": "quia",
+  "DbiLastModified": "2003-02-24T12:15:26.7766379+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 150,
-  "ActiveErpLinks": 334,
+  "Source": 712,
+  "ActiveErpLinks": 632,
   "BounceEmails": [
-    "reese.raynor@welch.info",
-    "christiana.champlin@mckenzie.name"
+    "marcos_bins@schadendach.info",
+    "glenda.schiller@beer.ca"
   ],
   "Domains": [
-    "impedit",
-    "odio"
+    "magnam",
+    "rem"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Mrs. Nolan Willms MD"
+    "SuperOffice:1": "Prof. Thurman Leon Emard",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "sunt",
-    "ExtraFields2": "alias"
+    "ExtraFields1": "iste",
+    "ExtraFields2": "ipsa"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatibus",
-    "CustomFields2": "enim"
+    "CustomFields1": "facere",
+    "CustomFields2": "voluptatum"
   }
 }
 ```
@@ -281,7 +281,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ea",
-  "2": "est"
+  "1": "velit",
+  "2": "consectetur"
 }
 ```

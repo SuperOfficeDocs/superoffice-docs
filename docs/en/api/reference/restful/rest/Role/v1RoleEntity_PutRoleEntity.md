@@ -102,20 +102,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 842,
-  "Name": "Haag, Berge and Beier",
-  "Tooltip": "odit",
+  "RoleId": 201,
+  "Name": "Hayes-Macejkovic",
+  "Tooltip": "est",
   "RoleType": "Anonymous",
-  "Deleted": 89,
-  "Rank": 723,
-  "Created": "2009-05-29T14:19:10.6467484+02:00",
-  "UseCategories": 975,
+  "Deleted": 326,
+  "Rank": 334,
+  "Created": "2002-02-18T12:15:27.2116324+01:00",
+  "UseCategories": 951,
   "CreatedBy": null,
-  "Updated": "2003-12-25T14:19:10.6467484+01:00",
+  "Updated": "1997-02-15T12:15:27.2116324+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -128,24 +128,24 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 256,
-  "Name": "Bogisich, Mills and Zieme",
-  "Tooltip": "vitae",
+  "RoleId": 515,
+  "Name": "Flatley, Bednar and Ryan",
+  "Tooltip": "sequi",
   "RoleType": "Anonymous",
-  "Deleted": 468,
-  "Rank": 682,
-  "Created": "2016-08-16T14:19:10.6467484+02:00",
-  "UseCategories": 361,
+  "Deleted": 591,
+  "Rank": 637,
+  "Created": "2006-02-15T12:15:27.2146323+01:00",
+  "UseCategories": 374,
   "CreatedBy": null,
-  "Updated": "2007-11-12T14:19:10.6467484+01:00",
+  "Updated": "2013-08-15T12:15:27.2146323+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldType": "System.String",
+      "FieldLength": 841
     }
   },
   "_Links": {

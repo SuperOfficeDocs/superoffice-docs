@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 148,
-    "Name": "Price-McGlynn",
-    "Tooltip": "eaque",
+    "HeadingId": 51,
+    "Name": "Fisher Inc and Sons",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 447,
-    "UdListDefinitionId": 918
+    "Rank": 868,
+    "UdListDefinitionId": 452
   },
   {
-    "HeadingId": 148,
-    "Name": "Price-McGlynn",
-    "Tooltip": "eaque",
+    "HeadingId": 51,
+    "Name": "Fisher Inc and Sons",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 447,
-    "UdListDefinitionId": 918
+    "Rank": 868,
+    "UdListDefinitionId": 452
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 818,
-    "Name": "Mosciski Group",
-    "Tooltip": "illum",
+    "HeadingId": 524,
+    "Name": "Mills LLC",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 49,
-    "UdListDefinitionId": 848,
+    "Rank": 206,
+    "UdListDefinitionId": 567,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 26
+        "FieldType": "System.String",
+        "FieldLength": 332
       }
     }
   }

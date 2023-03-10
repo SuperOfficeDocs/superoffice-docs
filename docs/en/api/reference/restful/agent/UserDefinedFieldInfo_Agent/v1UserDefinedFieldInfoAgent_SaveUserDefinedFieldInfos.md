@@ -65,46 +65,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 713,
-      "ColumnId": 471,
-      "FieldDefault": "doloribus",
-      "FieldHeight": 110,
-      "FieldLabel": "in",
-      "FieldLeft": 887,
-      "FieldTop": 280,
+      "UDefFieldId": 505,
+      "ColumnId": 53,
+      "FieldDefault": "provident",
+      "FieldHeight": 821,
+      "FieldLabel": "veritatis",
+      "FieldLeft": 546,
+      "FieldTop": 970,
       "FieldType": "Checkbox",
-      "FieldWidth": 741,
-      "FormatMask": "facere",
-      "HideLabel": false,
+      "FieldWidth": 531,
+      "FormatMask": "quisquam",
+      "HideLabel": true,
       "IsIndexed": false,
-      "LabelHeight": 75,
-      "LabelLeft": 982,
-      "LabelTop": 41,
-      "LabelWidth": 999,
-      "LastVersionId": 474,
-      "ListTableId": 990,
-      "IsMandatory": true,
+      "LabelHeight": 899,
+      "LabelLeft": 216,
+      "LabelTop": 876,
+      "LabelWidth": 393,
+      "LastVersionId": 15,
+      "ListTableId": 950,
+      "IsMandatory": false,
       "Type": "Appointment",
-      "Page1LineNo": 513,
-      "ProgId": "aut",
+      "Page1LineNo": 745,
+      "ProgId": "cumque",
       "IsReadOnly": false,
-      "ShortLabel": "est",
-      "TabOrder": 835,
-      "TextLength": 234,
-      "Tooltip": "corrupti",
-      "UdefIdentity": 254,
-      "UDListDefinitionId": 373,
+      "ShortLabel": "voluptatum",
+      "TabOrder": 690,
+      "TextLength": 929,
+      "Tooltip": "et",
+      "UdefIdentity": 824,
+      "UDListDefinitionId": 194,
       "Justification": "Center",
-      "Version": 251,
-      "TemplateVariableName": "Herzog, Kertzmann and Wuckert",
+      "Version": 693,
+      "TemplateVariableName": "Hahn-O'Connell",
       "HasBeenPublished": true,
-      "MdoListName": "Bosco-Blick"
+      "MdoListName": "Price-Lueilwitz"
     }
   ]
 }

@@ -88,11 +88,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 723,
+  "TargetYear": 275,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 602,
-  "DimensionId": 722
+  "Id": 194,
+  "DimensionId": 989
 }
 ```
 
@@ -103,24 +103,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 356,
+  "TargetAssignmentInfoId": 794,
   "Values": [
-    415,
-    151
+    380,
+    48
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 122,
-  "DimensionListItemDisplayName": "Kutch, Carter and Runolfsson",
+  "DimensionListItem": 78,
+  "DimensionListItemDisplayName": "Price-Kihn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldType": "System.String",
+      "FieldLength": 557
     }
   }
 }

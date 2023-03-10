@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/User/GetUntrustedCredentials
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "perspiciatis"
+  "Type": "inventore"
 }
 ```
 
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2008-11-29T14:19:04.5953265+01:00",
-    "ValidTo": "2002-05-19T14:19:04.5953265+02:00",
-    "Comment": "quae",
-    "SecretValue": "quibusdam",
-    "PublicValue": "repellat",
+    "ValidFrom": "2000-04-19T12:15:20.6007357+02:00",
+    "ValidTo": "2013-12-30T12:15:20.6007357+01:00",
+    "Comment": "aliquam",
+    "SecretValue": "autem",
+    "PublicValue": "dolorem",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 3
+        "FieldType": "System.String",
+        "FieldLength": 428
       }
     }
   }

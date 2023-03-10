@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 644
+  "ContactId": 448
 }
 ```
 
@@ -92,41 +92,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 20490.092,
-  "Wgs84Longitude": 29578.692,
+  "Wgs84Latitude": 23652.298,
+  "Wgs84Longitude": 1266.136,
   "LocalizedAddress": [
     [
       {
-        "Name": "Fadel, Stehr and Hahn",
-        "Value": "est",
-        "Tooltip": "eveniet",
-        "Label": "est",
-        "ValueLength": 485,
-        "AddressType": "sint",
+        "Name": "Reichel-Emard",
+        "Value": "molestiae",
+        "Tooltip": "dolores",
+        "Label": "aut",
+        "ValueLength": 658,
+        "AddressType": "optio",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 130
+            "FieldLength": 91
           }
         }
       }
     ],
     [
       {
-        "Name": "Sporer Group",
-        "Value": "sequi",
-        "Tooltip": "ut",
-        "Label": "necessitatibus",
-        "ValueLength": 459,
-        "AddressType": "veniam",
+        "Name": "Robel Group",
+        "Value": "amet",
+        "Tooltip": "rerum",
+        "Label": "est",
+        "ValueLength": 352,
+        "AddressType": "reprehenderit",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 122
+            "FieldType": "System.String",
+            "FieldLength": 479
           }
         }
       }
@@ -134,13 +134,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "officia",
+  "Formatted": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 36
+      "FieldType": "System.Int32",
+      "FieldLength": 928
     }
   }
 }

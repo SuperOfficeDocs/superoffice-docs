@@ -92,7 +92,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 392,
-  "ColumnId": 829,
-  "FieldDefault": "cumque",
-  "FieldHeight": 477,
-  "FieldLabel": "est",
-  "FieldLeft": 566,
-  "FieldTop": 59,
+  "UDefFieldId": 335,
+  "ColumnId": 845,
+  "FieldDefault": "ut",
+  "FieldHeight": 736,
+  "FieldLabel": "quibusdam",
+  "FieldLeft": 584,
+  "FieldTop": 95,
   "FieldType": "Checkbox",
-  "FieldWidth": 294,
-  "FormatMask": "vel",
+  "FieldWidth": 216,
+  "FormatMask": "voluptatibus",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 610,
-  "LabelLeft": 219,
-  "LabelTop": 224,
-  "LabelWidth": 606,
-  "LastVersionId": 937,
-  "ListTableId": 206,
-  "IsMandatory": true,
+  "LabelHeight": 875,
+  "LabelLeft": 78,
+  "LabelTop": 388,
+  "LabelWidth": 526,
+  "LastVersionId": 962,
+  "ListTableId": 939,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 404,
-  "ProgId": "mollitia",
-  "IsReadOnly": false,
-  "ShortLabel": "fugiat",
-  "TabOrder": 505,
-  "TextLength": 15,
-  "Tooltip": "eos",
-  "UdefIdentity": 857,
-  "UDListDefinitionId": 752,
+  "Page1LineNo": 120,
+  "ProgId": "assumenda",
+  "IsReadOnly": true,
+  "ShortLabel": "consequatur",
+  "TabOrder": 81,
+  "TextLength": 236,
+  "Tooltip": "itaque",
+  "UdefIdentity": 331,
+  "UDListDefinitionId": 368,
   "Justification": "Center",
-  "Version": 289,
-  "TemplateVariableName": "Hilll LLC",
-  "HasBeenPublished": false,
-  "MdoListName": "Herman, Gerhold and Parisian",
+  "Version": 369,
+  "TemplateVariableName": "Lemke-Koss",
+  "HasBeenPublished": true,
+  "MdoListName": "Nolan LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 914
+      "FieldType": "System.String",
+      "FieldLength": 404
     }
   }
 }

@@ -87,16 +87,16 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 748,
-  "Name": "Schiller-Lindgren",
-  "Tooltip": "quis",
+  "Id": 199,
+  "Name": "Heidenreich Inc and Sons",
+  "Tooltip": "tempore",
   "Deleted": false,
-  "Rank": 194,
+  "Rank": 443,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "nostrum",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 528,
-  "Name": "Vandervort-Champlin",
-  "Tooltip": "ut",
+  "Id": 944,
+  "Name": "Treutel, Lesch and Reynolds",
+  "Tooltip": "doloremque",
   "Deleted": false,
-  "Rank": 8,
+  "Rank": 521,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "possimus",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "non",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldLength": 707
     }
   }
 }

@@ -25,7 +25,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=164
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=18
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -109,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 171,
-  "ColumnId": 469,
-  "FieldDefault": "maiores",
-  "FieldHeight": 119,
-  "FieldLabel": "sit",
-  "FieldLeft": 103,
-  "FieldTop": 509,
+  "UDefFieldId": 377,
+  "ColumnId": 953,
+  "FieldDefault": "aliquam",
+  "FieldHeight": 558,
+  "FieldLabel": "sequi",
+  "FieldLeft": 315,
+  "FieldTop": 143,
   "FieldType": "Checkbox",
-  "FieldWidth": 193,
-  "FormatMask": "eius",
+  "FieldWidth": 952,
+  "FormatMask": "dolorum",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 642,
-  "LabelLeft": 78,
-  "LabelTop": 899,
-  "LabelWidth": 325,
-  "LastVersionId": 361,
-  "ListTableId": 723,
+  "LabelHeight": 417,
+  "LabelLeft": 995,
+  "LabelTop": 879,
+  "LabelWidth": 656,
+  "LastVersionId": 707,
+  "ListTableId": 434,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 779,
-  "ProgId": "officia",
-  "IsReadOnly": false,
-  "ShortLabel": "id",
-  "TabOrder": 607,
-  "TextLength": 89,
-  "Tooltip": "provident",
-  "UdefIdentity": 582,
-  "UDListDefinitionId": 900,
+  "Page1LineNo": 345,
+  "ProgId": "officiis",
+  "IsReadOnly": true,
+  "ShortLabel": "voluptates",
+  "TabOrder": 648,
+  "TextLength": 785,
+  "Tooltip": "voluptas",
+  "UdefIdentity": 768,
+  "UDListDefinitionId": 130,
   "Justification": "Center",
-  "Version": 731,
-  "TemplateVariableName": "Predovic, Sipes and Sipes",
+  "Version": 97,
+  "TemplateVariableName": "Stiedemann, Anderson and Kub",
   "HasBeenPublished": false,
-  "MdoListName": "Hahn-Conroy",
+  "MdoListName": "Muller-Schulist",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 758
+      "FieldType": "System.Int32",
+      "FieldLength": 4
     }
   }
 }

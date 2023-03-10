@@ -74,15 +74,15 @@ OK
 POST /api/v1/Agents/Audience/SaveAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 878,
-  "InstanceLayout": "possimus",
-  "InstanceName": "Stroman, Hudson and Price",
-  "CreatedDate": "2015-07-06T14:19:02.7438032+02:00",
-  "UpdatedDate": "2011-08-25T14:19:02.7438032+02:00",
+  "AudienceLayoutId": 185,
+  "InstanceLayout": "explicabo",
+  "InstanceName": "Kessler, Hermiston and Medhurst",
+  "CreatedDate": "1997-09-06T12:15:18.1847653+02:00",
+  "UpdatedDate": "2005-07-12T12:15:18.1847653+02:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -95,11 +95,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 633,
-  "InstanceLayout": "nihil",
-  "InstanceName": "Schultz LLC",
-  "CreatedDate": "2002-10-04T14:19:02.7438032+02:00",
-  "UpdatedDate": "2008-10-24T14:19:02.7438032+02:00",
+  "AudienceLayoutId": 341,
+  "InstanceLayout": "in",
+  "InstanceName": "Boyle, Waelchi and Welch",
+  "CreatedDate": "2009-03-16T12:15:18.1867631+01:00",
+  "UpdatedDate": "2019-10-01T12:15:18.1867631+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 6
+      "FieldLength": 832
     }
   }
 }

@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,22 +70,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 988,
-  "AssociateId": 798,
-  "Caption": "adipisci",
+  "DashboardId": 469,
+  "AssociateId": 721,
+  "Caption": "et",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 569,
-      "Caption": "beatae",
-      "Description": "Open-source fault-tolerant function",
-      "ChartName": "Schulist-Veum",
-      "ChartId": "sit",
-      "IsDefault": false,
-      "AssociateId": 104,
-      "GroupId": 510,
-      "SelectionId": 497,
-      "Config": "quaerat",
+      "DashboardTileId": 635,
+      "Caption": "omnis",
+      "Description": "Centralized impactful parallelism",
+      "ChartName": "Langosh, Anderson and Langworth",
+      "ChartId": "necessitatibus",
+      "IsDefault": true,
+      "AssociateId": 495,
+      "GroupId": 761,
+      "SelectionId": 270,
+      "Config": "sunt",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 964
+          "FieldLength": 610
         }
       }
     }
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 112
+      "FieldType": "System.String",
+      "FieldLength": 32
     }
   }
 }

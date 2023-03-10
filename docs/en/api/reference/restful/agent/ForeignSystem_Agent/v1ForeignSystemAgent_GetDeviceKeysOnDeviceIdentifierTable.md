@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Grimes, Schiller and Feest",
-  "DeviceName": "Weissnat Group",
-  "DeviceIdentifier": "nemo",
-  "TableName": "Morissette-Maggio"
+  "ApplicationName": "Fahey, Senger and Franecki",
+  "DeviceName": "Deckow, Macejkovic and Wolff",
+  "DeviceIdentifier": "dolorem",
+  "TableName": "Ledner-Cormier"
 }
 ```
 
@@ -101,20 +101,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "minima",
-    "Value": "consequatur",
-    "RecordId": 955,
-    "CreatedDate": "2006-03-09T14:19:03.5759842+01:00",
-    "UpdatedDate": "1997-02-06T14:19:03.5759842+01:00",
-    "UpdatedBy": "eum",
-    "CreatedBy": "sunt",
-    "TableName": "Kovacek LLC",
+    "Key": "quae",
+    "Value": "ut",
+    "RecordId": 173,
+    "CreatedDate": "2001-01-05T12:15:19.1717511+01:00",
+    "UpdatedDate": "2014-05-19T12:15:19.1717511+02:00",
+    "UpdatedBy": "consectetur",
+    "CreatedBy": "deserunt",
+    "TableName": "Windler-Gottlieb",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 101
+        "FieldLength": 300
       }
     }
   }

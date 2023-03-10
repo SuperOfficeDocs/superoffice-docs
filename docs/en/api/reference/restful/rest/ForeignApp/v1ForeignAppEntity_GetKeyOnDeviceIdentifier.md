@@ -80,23 +80,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 13 Jan 2010 14:19:10 G1T
+Last-Modified: Fri, 11 Oct 1996 12:15:26 G10T
 
 {
-  "Key": "qui",
-  "Value": "eos",
-  "RecordId": 406,
-  "CreatedDate": "2007-09-30T14:19:10.3654771+02:00",
-  "UpdatedDate": "2010-01-13T14:19:10.3654771+01:00",
-  "UpdatedBy": "voluptas",
-  "CreatedBy": "eaque",
-  "TableName": "O'Kon-Koelpin",
+  "Key": "consequatur",
+  "Value": "et",
+  "RecordId": 553,
+  "CreatedDate": "1999-06-16T12:15:26.9766352+02:00",
+  "UpdatedDate": "1996-10-11T12:15:26.9766352+02:00",
+  "UpdatedBy": "officia",
+  "CreatedBy": "fuga",
+  "TableName": "Wilkinson, Grady and Friesen",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 403
+      "FieldType": "System.String",
+      "FieldLength": 292
     }
   }
 }

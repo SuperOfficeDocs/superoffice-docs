@@ -26,7 +26,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=quaerat
+GET /api/v1/List/ProductCategory/MDOItems?query=natus
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 360,
-    "Name": "Greenfelder-Halvorson",
-    "ToolTip": "Ut alias officia autem.",
-    "Deleted": false,
-    "Rank": 800,
-    "Type": "qui",
+    "Id": 420,
+    "Name": "Sauer, Rau and Hermann",
+    "ToolTip": "Adipisci quisquam et quis veritatis.",
+    "Deleted": true,
+    "Rank": 49,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 268,
-        "Name": "Rolfson Group",
-        "ToolTip": "Delectus quaerat aspernatur blanditiis possimus voluptate.",
+        "Id": 133,
+        "Name": "Heathcote Inc and Sons",
+        "ToolTip": "Porro esse.",
         "Deleted": false,
-        "Rank": 441,
-        "Type": "quis",
+        "Rank": 149,
+        "Type": "repellendus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "iure",
-        "ColorBlock": 681,
-        "ExtraInfo": "sed",
-        "StyleHint": "magnam",
-        "FullName": "Francis Bernhard",
+        "IconHint": "et",
+        "ColorBlock": 209,
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "blanditiis",
+        "FullName": "Aubree McDermott",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 137
+            "FieldType": "System.String",
+            "FieldLength": 131
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 999,
-    "ExtraInfo": "quas",
-    "StyleHint": "omnis",
-    "FullName": "Ms. Kian Emmalee Torp",
+    "IconHint": "voluptatibus",
+    "ColorBlock": 551,
+    "ExtraInfo": "quam",
+    "StyleHint": "sed",
+    "FullName": "Dexter Emard DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 715
+        "FieldType": "System.String",
+        "FieldLength": 401
       }
     }
   }

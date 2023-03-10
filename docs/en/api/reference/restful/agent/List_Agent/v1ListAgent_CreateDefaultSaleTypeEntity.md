@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,53 +87,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 663,
-  "Name": "Watsica Inc and Sons",
-  "Tooltip": "quos",
-  "Rank": 407,
+  "SaleTypeId": 962,
+  "Name": "Terry, Gaylord and Botsford",
+  "Tooltip": "corporis",
+  "Rank": 907,
   "DurationUnit": "Century",
-  "SaleDuration": 470,
-  "SaleTypeCatId": 631,
+  "SaleDuration": 627,
+  "SaleTypeCatId": 266,
   "Deleted": true,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 804,
-  "QuoteLinesTemplate": 710,
-  "ConfirmationLinesTemplate": 706,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 783,
-  "MinEarningPercent": 630,
-  "GroupQuoteLinesBy": 626,
-  "SortGroupLinesBy": 193,
+  "DefaultQuoteValidity": 420,
+  "QuoteLinesTemplate": 697,
+  "ConfirmationLinesTemplate": 3,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 1002,
+  "MinEarningPercent": 417,
+  "GroupQuoteLinesBy": 133,
+  "SortGroupLinesBy": 507,
   "Stages": [
     {
-      "Id": 462,
-      "Name": "O'Keefe Inc and Sons",
-      "ToolTip": "Sapiente reprehenderit omnis consequatur.",
+      "Id": 978,
+      "Name": "Ledner, Langworth and Lakin",
+      "ToolTip": "Et dolores nostrum temporibus enim accusamus.",
       "Deleted": true,
-      "Rank": 190,
-      "Type": "exercitationem",
-      "ColorBlock": 626,
-      "IconHint": "repudiandae",
-      "Selected": true,
-      "LastChanged": "2020-03-16T14:19:03.6863742+01:00",
+      "Rank": 757,
+      "Type": "sunt",
+      "ColorBlock": 25,
+      "IconHint": "magni",
+      "Selected": false,
+      "LastChanged": "2004-01-16T12:15:19.3377462+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "laboriosam",
-      "StyleHint": "magnam",
+      "ExtraInfo": "earum",
+      "StyleHint": "dolores",
       "Hidden": false,
-      "FullName": "Prof. Molly Alberta Herzog V",
+      "FullName": "Mrs. Irma Gino Watsica IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 491
+          "FieldType": "System.String",
+          "FieldLength": 630
         }
       }
     }
@@ -142,8 +142,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 373
+      "FieldType": "System.Int32",
+      "FieldLength": 271
     }
   }
 }

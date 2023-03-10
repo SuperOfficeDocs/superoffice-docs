@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 627,
-    "Name": "Buckridge-Lebsack",
-    "Tooltip": "provident",
+    "HeadingId": 881,
+    "Name": "Davis, Homenick and Jenkins",
+    "Tooltip": "voluptates",
     "Deleted": false,
-    "Rank": 57,
-    "UdListDefinitionId": 43
+    "Rank": 489,
+    "UdListDefinitionId": 85
   },
   {
-    "HeadingId": 627,
-    "Name": "Buckridge-Lebsack",
-    "Tooltip": "provident",
+    "HeadingId": 881,
+    "Name": "Davis, Homenick and Jenkins",
+    "Tooltip": "voluptates",
     "Deleted": false,
-    "Rank": 57,
-    "UdListDefinitionId": 43
+    "Rank": 489,
+    "UdListDefinitionId": 85
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 981,
-    "Name": "Smith-Blick",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "Rank": 755,
-    "UdListDefinitionId": 590,
+    "HeadingId": 613,
+    "Name": "Cronin, Mayer and Hagenes",
+    "Tooltip": "explicabo",
+    "Deleted": false,
+    "Rank": 714,
+    "UdListDefinitionId": 490,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 766
+        "FieldType": "System.String",
+        "FieldLength": 179
       }
     }
   }

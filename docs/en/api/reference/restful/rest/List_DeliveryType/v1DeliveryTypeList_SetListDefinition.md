@@ -87,15 +87,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 664,
-  "Name": "Funk LLC",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 119,
-  "IsCustomList": true,
+  "Id": 241,
+  "Name": "Wintheiser Inc and Sons",
+  "Tooltip": "corporis",
+  "Deleted": false,
+  "Rank": 699,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "porro",
+  "ListType": "voluptatum",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 144,
-  "Name": "Ward LLC",
-  "Tooltip": "neque",
-  "Deleted": true,
-  "Rank": 67,
+  "Id": 545,
+  "Name": "Krajcik LLC",
+  "Tooltip": "quas",
+  "Deleted": false,
+  "Rank": 768,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aliquid",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "tempore",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 750
+      "FieldType": "System.String",
+      "FieldLength": 866
     }
   }
 }

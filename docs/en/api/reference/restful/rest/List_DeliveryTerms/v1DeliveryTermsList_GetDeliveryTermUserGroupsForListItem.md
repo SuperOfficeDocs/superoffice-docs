@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 451,
-    "Name": "Hodkiewicz Inc and Sons",
-    "ToolTip": "Totam aperiam consectetur dolorem ut in quidem.",
-    "Deleted": false,
-    "Rank": 228,
-    "Type": "nesciunt",
-    "ColorBlock": 708,
-    "IconHint": "et",
+    "Id": 555,
+    "Name": "Rempel Group",
+    "ToolTip": "Occaecati id neque nisi neque aut autem est.",
+    "Deleted": true,
+    "Rank": 273,
+    "Type": "quo",
+    "ColorBlock": 56,
+    "IconHint": "dolorem",
     "Selected": true,
-    "LastChanged": "2006-06-29T14:19:11.2262177+02:00",
+    "LastChanged": "2015-10-12T12:15:28.1126189+02:00",
     "ChildItems": [
       {
-        "Id": 13,
-        "Name": "Mueller Group",
-        "ToolTip": "Autem quia sint impedit necessitatibus voluptatem aperiam est.",
+        "Id": 181,
+        "Name": "Stamm Inc and Sons",
+        "ToolTip": "Consequatur omnis excepturi voluptas et.",
         "Deleted": true,
-        "Rank": 962,
-        "Type": "dolore",
-        "ColorBlock": 269,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2017-02-03T14:19:11.2262177+01:00",
+        "Rank": 843,
+        "Type": "non",
+        "ColorBlock": 320,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2012-07-22T12:15:28.1126189+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "animi",
+        "ExtraInfo": "dolores",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Germaine Hamill",
+        "FullName": "Prof. Alan Sigmund Reinger Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 86
+            "FieldType": "System.String",
+            "FieldLength": 241
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Bernhard Mueller",
+    "ExtraInfo": "quaerat",
+    "StyleHint": "dicta",
+    "Hidden": true,
+    "FullName": "Wendell Walsh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 806
+        "FieldType": "System.Int32",
+        "FieldLength": 291
       }
     }
   }

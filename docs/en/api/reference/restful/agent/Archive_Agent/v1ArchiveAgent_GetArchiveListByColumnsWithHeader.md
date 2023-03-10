@@ -101,55 +101,55 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Sawayn-Blanda",
+  "ProviderName": "Wiegand, Johns and Kerluke",
   "Columns": [
-    "consequuntur",
-    "sunt"
+    "nobis",
+    "rerum"
   ],
   "SortOrder": [
     {
-      "Name": "Moen, Wolff and Vandervort",
+      "Name": "Blick-Goyette",
       "Direction": "ASC"
     },
     {
-      "Name": "Moen, Wolff and Vandervort",
+      "Name": "Blick-Goyette",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Rohan, Carter and Jakubowski",
-      "Operator": "eum",
+      "Name": "Ernser-Mante",
+      "Operator": "voluptatum",
       "Values": [
-        "voluptatem",
-        "ut"
+        "sit",
+        "natus"
       ],
       "DisplayValues": [
-        "laudantium",
+        "dolorum",
         "quia"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 572,
+      "InterParenthesis": 567,
       "InterOperator": "And",
-      "UniqueHash": 104
+      "UniqueHash": 636
     }
   ],
   "Entities": [
-    "similique",
-    "praesentium"
+    "consequuntur",
+    "nostrum"
   ],
-  "Page": 879,
-  "PageSize": 700,
-  "Options": "reprehenderit"
+  "Page": 495,
+  "PageSize": 634,
+  "Options": "nemo"
 }
 ```
 
@@ -160,26 +160,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 381,
+  "RowCount": 387,
   "Rows": [
     {
-      "EntityName": "Jaskolski, Ruecker and Wiza",
-      "PrimaryKey": 672,
+      "EntityName": "Jewess, Paucek and Bernhard",
+      "PrimaryKey": 459,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dolores",
-          "TooltipHint": "unde",
-          "LinkHint": "ad"
+          "DisplayValue": "natus",
+          "TooltipHint": "et",
+          "LinkHint": "neque"
         }
       },
-      "LinkHint": "blanditiis",
-      "StyleHint": "earum",
+      "LinkHint": "commodi",
+      "StyleHint": "ratione",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 159
+          "FieldLength": 306
         }
       }
     }
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 878
+      "FieldLength": 223
     }
   }
 }

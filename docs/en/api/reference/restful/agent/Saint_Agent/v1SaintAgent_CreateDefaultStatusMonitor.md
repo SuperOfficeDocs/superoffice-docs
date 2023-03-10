@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,27 +80,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 859,
-  "Rank": 961,
-  "DefaultTask": 677,
-  "DefaultTaskText": "suscipit",
+  "OwnerTable": 827,
+  "Rank": 108,
+  "DefaultTask": 999,
+  "DefaultTaskText": "sunt",
   "IsVisual": false,
-  "LastGenerated": "2000-02-20T14:19:04.0782101+01:00",
-  "Description": "Progressive analyzing projection",
-  "Name": "Bernhard-Mraz",
-  "StatusMonitorId": 613,
-  "PictureId": 923,
-  "NeedsUpdate": false,
-  "Deleted": true,
-  "NumMatches": 920,
-  "NumNeedUpdate": 96,
-  "GenerationStart": "2000-03-22T14:19:04.0782101+01:00",
+  "LastGenerated": "2008-10-21T12:15:20.0107383+02:00",
+  "Description": "Streamlined 5th generation benchmark",
+  "Name": "Stark Inc and Sons",
+  "StatusMonitorId": 587,
+  "PictureId": 34,
+  "NeedsUpdate": true,
+  "Deleted": false,
+  "NumMatches": 212,
+  "NumNeedUpdate": 227,
+  "GenerationStart": "1998-04-03T12:15:20.0107383+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 645
+      "FieldLength": 515
     }
   }
 }

@@ -98,18 +98,18 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 956,
+  "PersonId": 746,
   "IncludeProjectDocuments": true,
-  "StartTime": "1996-12-04T14:19:03.2449054+01:00",
-  "EndTime": "2015-12-09T14:19:03.2449054+01:00",
-  "Count": 287,
+  "StartTime": "2009-09-18T12:15:18.7297547+02:00",
+  "EndTime": "2013-09-17T12:15:18.7297547+02:00",
+  "Count": 894,
   "DocumentTemplateIds": [
-    511,
-    881
+    851,
+    833
   ]
 }
 ```
@@ -122,32 +122,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 261,
-    "Attention": "aut",
-    "Header": "nihil",
-    "Name": "Hamill-Schuster",
-    "OurRef": "repudiandae",
-    "YourRef": "incidunt",
-    "Description": "Ameliorated zero tolerance success",
-    "DocumentTemplate": "sit",
-    "IsPublished": false,
-    "PersonId": 263,
-    "PersonFullName": "Cleta Douglas",
-    "AssociateFullName": "Prof. Jessy Brandyn Wuckert",
-    "ContactId": 371,
-    "ContactName": "Parisian LLC",
-    "ProjectId": 61,
-    "ProjectName": "Koepp Group",
-    "AssociateId": 99,
-    "Snum": 8,
-    "SaleId": 791,
-    "SaleName": "Orn-Conroy",
+    "DocumentId": 577,
+    "Attention": "molestiae",
+    "Header": "illo",
+    "Name": "Schulist Inc and Sons",
+    "OurRef": "autem",
+    "YourRef": "et",
+    "Description": "Upgradable full-range contingency",
+    "DocumentTemplate": "molestias",
+    "IsPublished": true,
+    "PersonId": 940,
+    "PersonFullName": "Jermey Cronin",
+    "AssociateFullName": "Enid Reichel",
+    "ContactId": 105,
+    "ContactName": "Wilkinson LLC",
+    "ProjectId": 709,
+    "ProjectName": "Schmeler-Huels",
+    "AssociateId": 808,
+    "Snum": 307,
+    "SaleId": 102,
+    "SaleName": "Considine-Will",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 168
+        "FieldLength": 80
       }
     }
   }

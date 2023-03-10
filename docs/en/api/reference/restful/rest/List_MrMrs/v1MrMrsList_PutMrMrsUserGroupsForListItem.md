@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 874,
-    "Name": "Rowe-Mayer",
-    "ToolTip": "Iste omnis accusantium ipsa deleniti aut sit in.",
+    "Id": 4,
+    "Name": "Trantow, Gulgowski and Pacocha",
+    "ToolTip": "Est temporibus saepe officia voluptate aut.",
     "Deleted": false,
-    "Rank": 155,
-    "Type": "est",
-    "ColorBlock": 416,
-    "IconHint": "officia",
+    "Rank": 388,
+    "Type": "distinctio",
+    "ColorBlock": 717,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2011-11-14T14:19:11.2898728+01:00",
+    "LastChanged": "2010-09-01T12:15:28.1916176+02:00",
     "ChildItems": [
       {
-        "Id": 253,
-        "Name": "Daugherty-Harvey",
-        "ToolTip": "Tempora atque omnis eos quo reprehenderit laboriosam.",
+        "Id": 361,
+        "Name": "Schaefer-Ullrich",
+        "ToolTip": "Et rerum aut unde qui a voluptatem voluptas.",
         "Deleted": false,
-        "Rank": 782,
-        "Type": "at",
-        "ColorBlock": 168,
-        "IconHint": "quo",
+        "Rank": 984,
+        "Type": "repellendus",
+        "ColorBlock": 908,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2016-10-03T14:19:11.2898728+02:00",
+        "LastChanged": "2007-08-29T12:15:28.1916176+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "temporibus",
+        "ExtraInfo": "autem",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Mr. Abagail Virginie Rutherford"
+        "FullName": "Prof. Bell Mariela Will V"
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "eveniet",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "repellendus",
     "Hidden": false,
-    "FullName": "Johnny Rohan Jr."
+    "FullName": "Beverly Davis"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 166,
-    "Name": "Steuber-Wisoky",
-    "ToolTip": "Praesentium rerum vel autem ratione aut temporibus rerum.",
+    "Id": 625,
+    "Name": "Gislason-Kessler",
+    "ToolTip": "Ad accusantium dolores ut aliquid.",
     "Deleted": false,
-    "Rank": 227,
-    "Type": "sapiente",
-    "ColorBlock": 370,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2008-08-28T14:19:11.2898728+02:00",
+    "Rank": 312,
+    "Type": "dolores",
+    "ColorBlock": 408,
+    "IconHint": "laboriosam",
+    "Selected": false,
+    "LastChanged": "1996-06-07T12:15:28.1926178+02:00",
     "ChildItems": [
       {
-        "Id": 346,
-        "Name": "Jones, Waelchi and Raynor",
-        "ToolTip": "Quia accusantium ex aspernatur incidunt consequatur.",
+        "Id": 735,
+        "Name": "Barrows Inc and Sons",
+        "ToolTip": "Voluptas qui praesentium.",
         "Deleted": false,
-        "Rank": 817,
-        "Type": "est",
-        "ColorBlock": 882,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "1996-10-14T14:19:11.2898728+02:00",
+        "Rank": 612,
+        "Type": "sed",
+        "ColorBlock": 634,
+        "IconHint": "corporis",
+        "Selected": false,
+        "LastChanged": "1997-07-02T12:15:28.1926178+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "eum",
-        "Hidden": false,
-        "FullName": "Wilhelm Hilpert",
+        "ExtraInfo": "commodi",
+        "StyleHint": "autem",
+        "Hidden": true,
+        "FullName": "Kelley Bruen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 830
+            "FieldLength": 572
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "doloremque",
+    "ExtraInfo": "qui",
+    "StyleHint": "natus",
     "Hidden": true,
-    "FullName": "Alexa Harris",
+    "FullName": "Mr. Guillermo Johanna Fritsch V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 892
+        "FieldType": "System.String",
+        "FieldLength": 419
       }
     }
   }

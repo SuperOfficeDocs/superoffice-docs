@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 354
+  "TargetDimensionId": 821
 }
 ```
 
@@ -96,24 +96,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 905,
+    "TargetAssignmentInfoId": 28,
     "Values": [
-      237,
-      322
+      618,
+      663
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 165,
-    "DimensionListItemDisplayName": "Abshire LLC",
+    "DimensionListItem": 52,
+    "DimensionListItemDisplayName": "Keebler, Howell and Kautzer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 455
+        "FieldType": "System.Int32",
+        "FieldLength": 288
       }
     }
   }

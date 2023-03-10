@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 353,
-  "Name": "Sanford, Purdy and McKenzie",
-  "Tooltip": "est",
+  "Id": 972,
+  "Name": "Shanahan-Sawayn",
+  "Tooltip": "quisquam",
   "Deleted": false,
-  "Rank": 127,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 981,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "eius",
-  "InUseByUserDefinedFields": false,
+  "ListType": "dolore",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldLength": 708
     }
   },
   "_Links": {

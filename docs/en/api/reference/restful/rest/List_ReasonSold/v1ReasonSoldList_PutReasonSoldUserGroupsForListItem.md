@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 275,
-    "Name": "Wyman, Schmeler and Donnelly",
-    "ToolTip": "Omnis ea explicabo vitae qui omnis aut tempora.",
+    "Id": 849,
+    "Name": "O'Connell Group",
+    "ToolTip": "Doloremque optio ut unde.",
     "Deleted": false,
-    "Rank": 287,
-    "Type": "aut",
-    "ColorBlock": 806,
-    "IconHint": "neque",
+    "Rank": 724,
+    "Type": "officiis",
+    "ColorBlock": 404,
+    "IconHint": "expedita",
     "Selected": false,
-    "LastChanged": "2019-01-24T14:19:11.4714393+01:00",
+    "LastChanged": "2016-07-24T12:15:28.4366175+02:00",
     "ChildItems": [
       {
-        "Id": 471,
-        "Name": "Bergstrom, Spinka and Kohler",
-        "ToolTip": "Eum aut architecto maiores omnis quis.",
+        "Id": 179,
+        "Name": "Franecki-Wilkinson",
+        "ToolTip": "Earum modi ut voluptas est.",
         "Deleted": false,
-        "Rank": 681,
-        "Type": "est",
-        "ColorBlock": 784,
-        "IconHint": "eaque",
-        "Selected": false,
-        "LastChanged": "1999-01-11T14:19:11.4714393+01:00",
+        "Rank": 238,
+        "Type": "sapiente",
+        "ColorBlock": 943,
+        "IconHint": "numquam",
+        "Selected": true,
+        "LastChanged": "2013-01-13T12:15:28.4366175+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "culpa",
-        "Hidden": true,
-        "FullName": "Lew Greenfelder V"
+        "ExtraInfo": "quaerat",
+        "StyleHint": "iste",
+        "Hidden": false,
+        "FullName": "Camylle Goldner"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "corporis",
+    "ExtraInfo": "libero",
+    "StyleHint": "vero",
     "Hidden": false,
-    "FullName": "Ms. Abdiel Murazik PhD"
+    "FullName": "Tracy Crona"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 619,
-    "Name": "Weimann-Conn",
-    "ToolTip": "Quae aut labore et.",
-    "Deleted": true,
-    "Rank": 631,
-    "Type": "occaecati",
-    "ColorBlock": 791,
-    "IconHint": "sunt",
+    "Id": 275,
+    "Name": "Murray-Hermann",
+    "ToolTip": "Excepturi sint sapiente magni adipisci est laudantium vel.",
+    "Deleted": false,
+    "Rank": 892,
+    "Type": "sequi",
+    "ColorBlock": 669,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2013-08-17T14:19:11.4714393+02:00",
+    "LastChanged": "1999-01-20T12:15:28.4376144+01:00",
     "ChildItems": [
       {
-        "Id": 64,
-        "Name": "McDermott-Wintheiser",
-        "ToolTip": "Et eos et.",
-        "Deleted": true,
-        "Rank": 376,
-        "Type": "consequatur",
-        "ColorBlock": 903,
-        "IconHint": "maiores",
+        "Id": 898,
+        "Name": "Lehner-Hahn",
+        "ToolTip": "Quidem aut maiores est enim cumque.",
+        "Deleted": false,
+        "Rank": 509,
+        "Type": "nisi",
+        "ColorBlock": 950,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2014-07-30T14:19:11.4714393+02:00",
+        "LastChanged": "1999-06-19T12:15:28.4376144+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "sed",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "quia",
         "Hidden": true,
-        "FullName": "Gregoria Ondricka",
+        "FullName": "Rylee Ethel Predovic MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 834
+            "FieldLength": 541
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "voluptatibus",
+    "ExtraInfo": "nobis",
+    "StyleHint": "libero",
     "Hidden": false,
-    "FullName": "Mr. Milton Wuckert V",
+    "FullName": "Ms. Anastacio Samara Howe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 997
+        "FieldType": "System.String",
+        "FieldLength": 535
       }
     }
   }

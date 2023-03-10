@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Zboncak, Romaguera and Hane",
-  "DisplayName": "Abbott, Green and Hessel",
-  "Description": "Front-line national access",
-  "ShortLabel": "beatae",
+  "FieldName": "Hoeger-Cormier",
+  "DisplayName": "Ernser, O'Reilly and Hodkiewicz",
+  "Description": "Stand-alone assymetric intranet",
+  "ShortLabel": "tempora",
   "HideLabel": false,
-  "HideField": true,
+  "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": false,
+  "IsMandatory": true,
   "IsReadOnly": true,
-  "IsExternal": false,
-  "Rank": 635,
-  "TemplateVariableName": "Hauck Group"
+  "IsExternal": true,
+  "Rank": 63,
+  "TemplateVariableName": "Kreiger, Beahan and Luettgen"
 }
 ```

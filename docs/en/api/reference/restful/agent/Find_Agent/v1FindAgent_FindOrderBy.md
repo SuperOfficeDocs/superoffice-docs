@@ -81,22 +81,22 @@ OK
 POST /api/v1/Agents/Find/FindOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "distinctio",
-  "ProviderName": "Conroy-Wolff",
-  "StorageKey": "alias",
-  "PageSize": 415,
-  "PageNumber": 741,
+  "StorageType": "maiores",
+  "ProviderName": "Nicolas LLC",
+  "StorageKey": "culpa",
+  "PageSize": 822,
+  "PageNumber": 506,
   "OrderBy": [
     {
-      "Name": "McLaughlin Inc and Sons",
+      "Name": "Schmitt-Waters",
       "Direction": "ASC"
     },
     {
-      "Name": "McLaughlin Inc and Sons",
+      "Name": "Schmitt-Waters",
       "Direction": "ASC"
     }
   ]
@@ -112,51 +112,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Von Group",
-      "DisplayTooltip": "tempora",
-      "DisplayType": "libero",
-      "CanOrderBy": true,
-      "Name": "Gerhold, Oberbrunner and Bauch",
-      "CanRestrictBy": false,
-      "RestrictionType": "ad",
-      "RestrictionListName": "Jerde-Price",
+      "DisplayName": "Mertz Inc and Sons",
+      "DisplayTooltip": "cumque",
+      "DisplayType": "eos",
+      "CanOrderBy": false,
+      "Name": "Spinka LLC",
+      "CanRestrictBy": true,
+      "RestrictionType": "architecto",
+      "RestrictionListName": "Denesik, Zboncak and Stracke",
       "IsVisible": false,
-      "ExtraInfo": "nihil",
-      "Width": "sint",
-      "IconHint": "nihil",
-      "HeadingIconHint": "a"
+      "ExtraInfo": "accusamus",
+      "Width": "eius",
+      "IconHint": "eaque",
+      "HeadingIconHint": "quaerat"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Pacocha-Mueller",
-      "PrimaryKey": 512,
+      "EntityName": "Leannon, Marvin and Kertzmann",
+      "PrimaryKey": 214,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "fugiat",
-          "LinkHint": "quis"
+          "DisplayValue": "ducimus",
+          "TooltipHint": "in",
+          "LinkHint": "ipsa"
         }
       },
-      "LinkHint": "voluptas",
-      "StyleHint": "rerum",
+      "LinkHint": "qui",
+      "StyleHint": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 772
+          "FieldType": "System.Int32",
+          "FieldLength": 372
         }
       }
     }
   ],
-  "RowCount": 68,
+  "RowCount": 739,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 59
+      "FieldType": "System.Int32",
+      "FieldLength": 547
     }
   }
 }

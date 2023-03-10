@@ -72,16 +72,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 68,
-  "DisplayName": "Connelly-Marvin",
+  "ErpConnectorId": 588,
+  "DisplayName": "Johnston-Hettinger",
   "URL": "http://www.example.com/",
-  "Deleted": true,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 471
+      "FieldLength": 847
     }
   }
 }

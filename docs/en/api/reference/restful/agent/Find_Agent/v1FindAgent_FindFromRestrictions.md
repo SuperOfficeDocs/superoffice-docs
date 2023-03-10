@@ -104,15 +104,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "McLaughlin, Goyette and Crona",
-      "Operator": "autem",
+      "Name": "Crist Group",
+      "Operator": "in",
       "Values": [
-        "dolores",
-        "quos"
+        "adipisci",
+        "quis"
       ],
       "DisplayValues": [
         "ut",
-        "exercitationem"
+        "earum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -120,14 +120,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 352,
+      "InterParenthesis": 633,
       "InterOperator": "And",
-      "UniqueHash": 270
+      "UniqueHash": 767
     }
   ],
-  "ProviderName": "Herman Group",
-  "PageSize": 955,
-  "PageNumber": 128
+  "ProviderName": "Ernser, Ortiz and Hilpert",
+  "PageSize": 655,
+  "PageNumber": 62
 }
 ```
 
@@ -140,51 +140,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Volkman, Windler and Okuneva",
-      "DisplayTooltip": "hic",
-      "DisplayType": "est",
+      "DisplayName": "Haley, Schmeler and Lind",
+      "DisplayTooltip": "quae",
+      "DisplayType": "eum",
       "CanOrderBy": false,
-      "Name": "Mayer LLC",
+      "Name": "Conroy, Hills and Buckridge",
       "CanRestrictBy": false,
-      "RestrictionType": "sit",
-      "RestrictionListName": "Will-Ziemann",
-      "IsVisible": true,
-      "ExtraInfo": "optio",
-      "Width": "dolorum",
-      "IconHint": "enim",
-      "HeadingIconHint": "sit"
+      "RestrictionType": "rerum",
+      "RestrictionListName": "Upton, Mitchell and Cummings",
+      "IsVisible": false,
+      "ExtraInfo": "omnis",
+      "Width": "ratione",
+      "IconHint": "ut",
+      "HeadingIconHint": "culpa"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Swaniawski, Nienow and Gleason",
-      "PrimaryKey": 989,
+      "EntityName": "Rutherford Inc and Sons",
+      "PrimaryKey": 374,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "excepturi",
-          "TooltipHint": "voluptatum",
-          "LinkHint": "et"
+          "DisplayValue": "natus",
+          "TooltipHint": "qui",
+          "LinkHint": "praesentium"
         }
       },
-      "LinkHint": "dolor",
-      "StyleHint": "ipsum",
+      "LinkHint": "consequuntur",
+      "StyleHint": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 230
+          "FieldType": "System.String",
+          "FieldLength": 965
         }
       }
     }
   ],
-  "RowCount": 662,
+  "RowCount": 503,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 9
+      "FieldLength": 180
     }
   }
 }

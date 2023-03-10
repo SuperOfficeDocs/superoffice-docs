@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 728,
-    "Name": "Mann Inc and Sons",
-    "ToolTip": "Ullam nihil perspiciatis ut nihil optio voluptas.",
+    "Id": 601,
+    "Name": "Lebsack, Spencer and Heathcote",
+    "ToolTip": "Explicabo facilis autem autem velit omnis omnis et.",
     "Deleted": false,
-    "Rank": 27,
-    "Type": "autem",
-    "ColorBlock": 562,
-    "IconHint": "consequatur",
+    "Rank": 792,
+    "Type": "voluptas",
+    "ColorBlock": 138,
+    "IconHint": "earum",
     "Selected": false,
-    "LastChanged": "2014-12-25T14:19:11.3680268+01:00",
+    "LastChanged": "2002-04-30T12:15:28.2876167+02:00",
     "ChildItems": [
       {
-        "Id": 51,
-        "Name": "Quitzon-Goldner",
-        "ToolTip": "Cumque rerum itaque.",
+        "Id": 244,
+        "Name": "Hansen, Treutel and Daniel",
+        "ToolTip": "Aut saepe illum nam repellat mollitia.",
         "Deleted": true,
-        "Rank": 33,
-        "Type": "quia",
-        "ColorBlock": 932,
-        "IconHint": "minus",
-        "Selected": true,
-        "LastChanged": "2012-03-03T14:19:11.3680268+01:00",
+        "Rank": 67,
+        "Type": "voluptatibus",
+        "ColorBlock": 710,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "1997-02-17T12:15:28.2876167+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "sequi",
-        "Hidden": false,
-        "FullName": "Mrs. Glenda Emerald Sanford"
+        "ExtraInfo": "placeat",
+        "StyleHint": "totam",
+        "Hidden": true,
+        "FullName": "Dr. Elouise Queenie Botsford PhD"
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "assumenda",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "incidunt",
     "Hidden": false,
-    "FullName": "Earnest Yundt"
+    "FullName": "Dorothea Greenholt"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 397,
-    "Name": "Kreiger-Klocko",
-    "ToolTip": "Maiores quibusdam earum fugiat.",
-    "Deleted": false,
-    "Rank": 853,
-    "Type": "ea",
-    "ColorBlock": 714,
-    "IconHint": "et",
+    "Id": 131,
+    "Name": "Bednar, Howell and Homenick",
+    "ToolTip": "Unde quisquam explicabo dolores qui eos.",
+    "Deleted": true,
+    "Rank": 892,
+    "Type": "et",
+    "ColorBlock": 287,
+    "IconHint": "nesciunt",
     "Selected": false,
-    "LastChanged": "2002-03-18T14:19:11.3680268+01:00",
+    "LastChanged": "2020-04-28T12:15:28.288617+02:00",
     "ChildItems": [
       {
-        "Id": 203,
-        "Name": "Flatley Inc and Sons",
-        "ToolTip": "Numquam vel accusantium aspernatur voluptatem autem.",
-        "Deleted": false,
-        "Rank": 371,
-        "Type": "recusandae",
-        "ColorBlock": 72,
-        "IconHint": "inventore",
-        "Selected": true,
-        "LastChanged": "2011-09-04T14:19:11.3680268+02:00",
+        "Id": 523,
+        "Name": "Brown, McLaughlin and Beier",
+        "ToolTip": "At quia est necessitatibus voluptas quia unde natus.",
+        "Deleted": true,
+        "Rank": 520,
+        "Type": "voluptas",
+        "ColorBlock": 92,
+        "IconHint": "ratione",
+        "Selected": false,
+        "LastChanged": "2005-01-03T12:15:28.288617+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "rerum",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Ms. Syble O'Hara I",
+        "FullName": "Marquise McKenzie Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 192
+            "FieldLength": 164
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "libero",
-    "Hidden": false,
-    "FullName": "Marcia Alexander Sporer DDS",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Columbus Parker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 672
+        "FieldType": "System.String",
+        "FieldLength": 798
       }
     }
   }

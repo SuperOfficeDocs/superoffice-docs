@@ -25,8 +25,8 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Source/MDOItems?flat=True
-GET /api/v1/List/Source/MDOItems?query=consequatur
+GET /api/v1/List/Source/MDOItems?flat=False
+GET /api/v1/List/Source/MDOItems?query=consectetur
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 924,
-    "Name": "Greenfelder Group",
-    "ToolTip": "Officia quo.",
+    "Id": 419,
+    "Name": "Kerluke-Walter",
+    "ToolTip": "Quis incidunt voluptatem ut.",
     "Deleted": false,
-    "Rank": 519,
-    "Type": "quos",
+    "Rank": 216,
+    "Type": "excepturi",
     "ChildItems": [
       {
-        "Id": 625,
-        "Name": "Haag, Rempel and Dickinson",
-        "ToolTip": "Veritatis error rerum qui aut est.",
-        "Deleted": true,
-        "Rank": 921,
-        "Type": "debitis",
+        "Id": 119,
+        "Name": "West Group",
+        "ToolTip": "Laudantium accusamus officiis qui molestias expedita aut.",
+        "Deleted": false,
+        "Rank": 380,
+        "Type": "dolor",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "culpa",
-        "ColorBlock": 651,
-        "ExtraInfo": "non",
-        "StyleHint": "debitis",
-        "FullName": "Houston Barrows",
+        "IconHint": "aut",
+        "ColorBlock": 339,
+        "ExtraInfo": "accusamus",
+        "StyleHint": "deserunt",
+        "FullName": "Dr. Ruby Schiller Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 406
+            "FieldType": "System.String",
+            "FieldLength": 612
           }
         }
       }
     ],
-    "IconHint": "incidunt",
-    "ColorBlock": 389,
-    "ExtraInfo": "dolorem",
-    "StyleHint": "quo",
-    "FullName": "Mrs. Greyson Kris Sr.",
+    "IconHint": "tempore",
+    "ColorBlock": 593,
+    "ExtraInfo": "beatae",
+    "StyleHint": "soluta",
+    "FullName": "Alvera Stehr",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 393
+        "FieldLength": 908
       }
     }
   }

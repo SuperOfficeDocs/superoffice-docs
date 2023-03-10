@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 353,
-  "ModuleOwner": "sint",
+  "AssociateId": 663,
+  "ModuleOwner": "incidunt",
   "ModuleLicenseNames": [
-    "Morissette Group",
-    "Heidenreich-Morar"
+    "Kassulke Group",
+    "McGlynn Inc and Sons"
   ]
 }
 ```
@@ -108,26 +108,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 674,
-    "Tooltip": "sit",
-    "CanAssign": true,
-    "Free": 946,
-    "InUse": 85,
-    "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 24,
-    "Name": "O'Connell, Veum and Lang",
-    "Description": "Synergized 24 hour installation",
-    "PrerequisiteModuleName": "Huels, O'Conner and Koelpin",
-    "SortOrder": 41,
-    "ExtraFlags": 131,
+    "Unrestricted": true,
+    "Total": 989,
+    "Tooltip": "adipisci",
+    "CanAssign": false,
+    "Free": 109,
+    "InUse": 989,
+    "IsHidden": true,
+    "Assigned": true,
+    "ModuleLicenseId": 564,
+    "Name": "Moore, Fadel and Lakin",
+    "Description": "Re-engineered tangible local area network",
+    "PrerequisiteModuleName": "Koepp, Paucek and Hills",
+    "SortOrder": 795,
+    "ExtraFlags": 483,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 381
+        "FieldLength": 855
       }
     }
   }

@@ -18,7 +18,7 @@ Get a hierarchy item from a path
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
-| domain | Enum: Unknown, ExtraTables, ScreenDefinitions, Scripts, Selections, ExternalDocuments, UserGroups, ExternalDocumentRelatedToSpmMessage, Dashboards | Type of items to get **Required** |
+| domain | Enum: Unknown, ExtraTables, ScreenDefinitions, Scripts, Selections, ExternalDocuments, UserGroups, ExternalDocumentRelatedToSpmMessage, Dashboards, EmailFlows | Type of items to get **Required** |
 | path | string | Hierarchy path to item **Required** |
 
 
@@ -88,46 +88,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 634,
+  "HierarchyId": 956,
   "Domain": "Dashboards",
-  "Name": "Hyatt-Bailey",
-  "Fullname": "quisquam",
-  "ParentId": 705,
+  "Name": "Langworth Inc and Sons",
+  "Fullname": "nemo",
+  "ParentId": 145,
   "Children": [
     {
-      "HierarchyId": 599,
+      "HierarchyId": 67,
       "Domain": "Dashboards",
-      "Name": "Hettinger, Spencer and Hoppe",
-      "Fullname": "tempore",
-      "ParentId": 713,
+      "Name": "Kertzmann-Schuster",
+      "Fullname": "consequatur",
+      "ParentId": 325,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2016-09-08T14:19:10.3654771+02:00",
-      "RegisteredAssociateId": 121,
-      "Updated": "2005-11-17T14:19:10.3654771+01:00",
-      "UpdatedAssociateId": 738,
+      "Registered": "2002-02-11T12:15:26.9856396+01:00",
+      "RegisteredAssociateId": 419,
+      "Updated": "1997-08-18T12:15:26.9856396+02:00",
+      "UpdatedAssociateId": 224,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 924
+          "FieldType": "System.String",
+          "FieldLength": 208
         }
       }
     }
   ],
-  "Registered": "2014-06-04T14:19:10.3654771+02:00",
-  "RegisteredAssociateId": 953,
-  "Updated": "2001-11-20T14:19:10.3654771+01:00",
-  "UpdatedAssociateId": 967,
+  "Registered": "2006-11-12T12:15:26.9856396+01:00",
+  "RegisteredAssociateId": 939,
+  "Updated": "2006-06-10T12:15:26.9856396+02:00",
+  "UpdatedAssociateId": 978,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 364
+      "FieldLength": 398
     }
   }
 }

@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 228,
-    "Name": "Dickinson Group",
-    "Tooltip": "quidem",
+    "HeadingId": 759,
+    "Name": "Cummerata-Okuneva",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 896,
-    "UdListDefinitionId": 875
+    "Rank": 441,
+    "UdListDefinitionId": 180
   },
   {
-    "HeadingId": 228,
-    "Name": "Dickinson Group",
-    "Tooltip": "quidem",
+    "HeadingId": 759,
+    "Name": "Cummerata-Okuneva",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 896,
-    "UdListDefinitionId": 875
+    "Rank": 441,
+    "UdListDefinitionId": 180
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 70,
-    "Name": "Barton, Hegmann and Pagac",
-    "Tooltip": "velit",
-    "Deleted": false,
-    "Rank": 872,
-    "UdListDefinitionId": 349,
+    "HeadingId": 120,
+    "Name": "Rowe Group",
+    "Tooltip": "explicabo",
+    "Deleted": true,
+    "Rank": 205,
+    "UdListDefinitionId": 97,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 625
+        "FieldType": "System.Int32",
+        "FieldLength": 92
       }
     }
   }

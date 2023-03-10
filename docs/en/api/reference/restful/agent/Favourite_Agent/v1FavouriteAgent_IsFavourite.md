@@ -73,9 +73,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kub-Pfeffer",
-  "RecordId": 611,
-  "AssociateId": 587
+  "TableName": "Gutmann-Kuhlman",
+  "RecordId": 57,
+  "AssociateId": 102
 }
 ```
 

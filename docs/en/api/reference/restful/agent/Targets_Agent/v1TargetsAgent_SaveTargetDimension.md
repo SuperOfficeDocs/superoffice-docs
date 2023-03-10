@@ -82,17 +82,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 707,
+  "TargetDimensionId": 546,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "aut",
-  "DimensionListName": "Dach LLC",
-  "DimensionListId": 650,
-  "DimensionListLabel": "dolorem",
+  "DimensionListField": "non",
+  "DimensionListName": "Kling, Spinka and Smitham",
+  "DimensionListId": 131,
+  "DimensionListLabel": "quia",
   "SelectedDimensions": [
-    110,
-    204
+    306,
+    553
   ]
 }
 ```
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 277,
+  "TargetDimensionId": 221,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "dignissimos",
-  "DimensionListName": "Berge Group",
-  "DimensionListId": 371,
-  "DimensionListLabel": "perferendis",
+  "DimensionListField": "aspernatur",
+  "DimensionListName": "Carroll, Rath and Durgan",
+  "DimensionListId": 656,
+  "DimensionListLabel": "molestiae",
   "SelectedDimensions": [
-    889,
-    476
+    16,
+    849
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 776
+      "FieldType": "System.Int32",
+      "FieldLength": 669
     }
   }
 }

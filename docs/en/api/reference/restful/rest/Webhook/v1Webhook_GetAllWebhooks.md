@@ -28,8 +28,8 @@ Returns all webhooks, according to filter criteria
 | statusFilter | Enum: Unknown, Active, Stopped, TooManyErrors |  Only return hooks with this status. Default Unknown = no filter, returns all. |
 
 ```http
-GET /api/v1/Webhook?nameFilter=unde
-GET /api/v1/Webhook?eventFilter=error
+GET /api/v1/Webhook?nameFilter=similique
+GET /api/v1/Webhook?eventFilter=rerum
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,26 +91,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 955,
-    "Name": "Bayer-Dare",
+    "WebhookId": 507,
+    "Name": "Pfannerstill, Mosciski and Lemke",
     "Events": [
-      "corporis",
-      "harum"
+      "officia",
+      "voluptas"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "ut",
+    "Secret": "eaque",
     "State": "Active",
-    "Type": "qui",
+    "Type": "dolorem",
     "Headers": {
-      "Headers1": "et",
-      "Headers2": "odio"
+      "Headers1": "natus",
+      "Headers2": "odit"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2021-10-15T14:19:11.0686043+02:00",
+    "Registered": "2021-05-01T12:15:27.8076236+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2015-03-08T14:19:11.0842303+01:00",
+    "Updated": "2006-07-29T12:15:27.8076236+02:00",
     "UpdatedAssociate": null
   }
 ]

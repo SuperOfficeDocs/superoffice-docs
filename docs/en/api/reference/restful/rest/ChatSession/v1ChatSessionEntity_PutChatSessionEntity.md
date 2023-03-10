@@ -138,33 +138,33 @@ ChatSessionEntity updated.
 PUT /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 24,
-  "TopicId": 187,
+  "ChatSessionId": 927,
+  "TopicId": 188,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ullam",
-  "CustomerHost": "consequatur",
-  "CustomerName": "Connelly, Bergnaum and Durgan",
-  "CustomerEmail": "garland@beahan.com",
-  "CustomerPhone": "1-883-069-8200 x35553",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Schowalter-Ritchie",
+  "CustomerAlias": "consequatur",
+  "CustomerHost": "laudantium",
+  "CustomerName": "Gerlach Inc and Sons",
+  "CustomerEmail": "murray@hammes.co.uk",
+  "CustomerPhone": "221-715-1485",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Abshire Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "labore",
-  "LastMessage": "aut",
-  "WhenRequested": "2014-06-29T14:19:10.0048864+02:00",
-  "WhenStarted": "2022-07-18T14:19:10.0048864+02:00",
-  "WhenEnded": "1998-10-23T14:19:10.0048864+02:00",
-  "WhenIdle": "2010-09-08T14:19:10.0048864+02:00",
-  "WhenFetched": "2013-10-23T14:19:10.0048864+02:00",
-  "SessionKey": "recusandae",
-  "InitialQueuePos": 199,
-  "AlertLevel": 574,
-  "Rank": 31,
+  "FirstMessage": "nihil",
+  "LastMessage": "et",
+  "WhenRequested": "2013-05-04T12:15:26.4006438+02:00",
+  "WhenStarted": "2020-01-17T12:15:26.4006438+01:00",
+  "WhenEnded": "2020-02-14T12:15:26.4006438+01:00",
+  "WhenIdle": "2022-11-18T12:15:26.4006438+01:00",
+  "WhenFetched": "2002-01-04T12:15:26.4006438+01:00",
+  "SessionKey": "doloremque",
+  "InitialQueuePos": 669,
+  "AlertLevel": 778,
+  "Rank": 530,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 980
+  "Rating": 725
 }
 ```
 
@@ -183,29 +183,29 @@ HTTP/1.1 200 ChatSessionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 776,
-  "TopicId": 970,
+  "ChatSessionId": 3,
+  "TopicId": 866,
   "User": null,
   "Person": null,
-  "CustomerAlias": "recusandae",
-  "CustomerHost": "minus",
-  "CustomerName": "Bahringer-Russel",
-  "CustomerEmail": "nico_beahan@moorevon.name",
-  "CustomerPhone": "(441)074-9969 x75670",
+  "CustomerAlias": "quia",
+  "CustomerHost": "eum",
+  "CustomerName": "Adams LLC",
+  "CustomerEmail": "malika@croningoyette.info",
+  "CustomerPhone": "318-386-3718 x5607",
   "CustomerConsented": true,
-  "CustomerCompanyName": "O'Connell LLC",
+  "CustomerCompanyName": "Rowe, Morissette and Balistreri",
   "Status": "Closed",
-  "FirstMessage": "recusandae",
-  "LastMessage": "qui",
-  "WhenRequested": "2015-02-09T14:19:10.0205104+01:00",
-  "WhenStarted": "2021-08-17T14:19:10.0205104+02:00",
-  "WhenEnded": "2012-11-27T14:19:10.0205104+01:00",
-  "WhenIdle": "2011-06-11T14:19:10.0205104+02:00",
-  "WhenFetched": "2016-10-23T14:19:10.0205104+02:00",
-  "SessionKey": "enim",
-  "InitialQueuePos": 831,
-  "AlertLevel": 509,
-  "Rank": 294,
+  "FirstMessage": "libero",
+  "LastMessage": "commodi",
+  "WhenRequested": "2022-04-05T12:15:26.4116465+02:00",
+  "WhenStarted": "1998-11-24T12:15:26.4116465+01:00",
+  "WhenEnded": "2013-08-12T12:15:26.4116465+02:00",
+  "WhenIdle": "2013-10-26T12:15:26.4116465+02:00",
+  "WhenFetched": "2020-08-15T12:15:26.4116465+02:00",
+  "SessionKey": "quo",
+  "InitialQueuePos": 315,
+  "AlertLevel": 431,
+  "Rank": 545,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -213,13 +213,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 550,
+  "Rating": 511,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 435
+      "FieldLength": 400
     }
   },
   "_Links": {

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 820,
-    "Name": "Tillman, Hackett and Waters",
-    "ToolTip": "Ullam et praesentium est architecto quaerat pariatur.",
-    "Deleted": false,
-    "Rank": 359,
-    "Type": "modi",
-    "ColorBlock": 418,
-    "IconHint": "tempora",
-    "Selected": true,
-    "LastChanged": "2010-08-19T14:19:11.2418468+02:00",
+    "Id": 237,
+    "Name": "Beier, Hane and Hyatt",
+    "ToolTip": "Sint consequatur id omnis aut voluptas.",
+    "Deleted": true,
+    "Rank": 139,
+    "Type": "dolore",
+    "ColorBlock": 164,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "1996-09-17T12:15:28.1346207+02:00",
     "ChildItems": [
       {
-        "Id": 529,
-        "Name": "Mraz, Stark and Corkery",
-        "ToolTip": "Nihil ullam.",
-        "Deleted": false,
-        "Rank": 96,
-        "Type": "aut",
-        "ColorBlock": 643,
-        "IconHint": "quo",
+        "Id": 251,
+        "Name": "Paucek Group",
+        "ToolTip": "Qui qui nulla iure assumenda libero deserunt.",
+        "Deleted": true,
+        "Rank": 388,
+        "Type": "eum",
+        "ColorBlock": 216,
+        "IconHint": "assumenda",
         "Selected": false,
-        "LastChanged": "2016-12-04T14:19:11.2418468+01:00",
+        "LastChanged": "2002-03-23T12:15:28.1346207+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "rerum",
-        "Hidden": false,
-        "FullName": "Phyllis Effertz"
+        "ExtraInfo": "commodi",
+        "StyleHint": "ab",
+        "Hidden": true,
+        "FullName": "Bert Hyman Stokes I"
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Miss Zechariah Pansy Haley Jr."
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "quod",
+    "Hidden": false,
+    "FullName": "Reanna West"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 513,
-    "Name": "Wuckert, Bode and Braun",
-    "ToolTip": "Libero officia corrupti sunt.",
-    "Deleted": true,
-    "Rank": 149,
-    "Type": "tempora",
-    "ColorBlock": 319,
-    "IconHint": "sed",
+    "Id": 149,
+    "Name": "Durgan, Langosh and Dare",
+    "ToolTip": "Eveniet enim omnis eos.",
+    "Deleted": false,
+    "Rank": 778,
+    "Type": "dolor",
+    "ColorBlock": 785,
+    "IconHint": "excepturi",
     "Selected": true,
-    "LastChanged": "2016-08-20T14:19:11.2418468+02:00",
+    "LastChanged": "2004-03-07T12:15:28.1356187+01:00",
     "ChildItems": [
       {
-        "Id": 874,
-        "Name": "Hettinger, Klocko and Romaguera",
-        "ToolTip": "Temporibus ut.",
+        "Id": 235,
+        "Name": "Nitzsche LLC",
+        "ToolTip": "Quia est earum cum.",
         "Deleted": true,
-        "Rank": 17,
-        "Type": "enim",
-        "ColorBlock": 740,
-        "IconHint": "ut",
+        "Rank": 758,
+        "Type": "tempore",
+        "ColorBlock": 946,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "1998-06-04T14:19:11.2418468+02:00",
+        "LastChanged": "2004-12-24T12:15:28.1356187+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "cumque",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Dr. Kyla Lind MD",
+        "FullName": "Wilhelmine Stanton V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 176
+            "FieldLength": 999
           }
         }
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "sit",
+    "ExtraInfo": "ut",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Miss Daphnee VonRueden III",
+    "FullName": "Markus Pollich V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 888
+        "FieldType": "System.Int32",
+        "FieldLength": 221
       }
     }
   }

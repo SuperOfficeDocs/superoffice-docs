@@ -76,12 +76,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 292,
-  "PrefDescId": 274,
-  "PrefValue": "qui",
-  "PrefShowValue": "occaecati",
-  "Description": "Pre-emptive context-sensitive portal",
-  "IsBuiltin": false
+  "PrefDescLineId": 422,
+  "PrefDescId": 844,
+  "PrefValue": "ex",
+  "PrefShowValue": "est",
+  "Description": "Diverse high-level access",
+  "IsBuiltin": true
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 768,
-  "PrefDescId": 145,
-  "PrefValue": "sint",
-  "PrefShowValue": "sit",
-  "Description": "Streamlined national complexity",
-  "IsBuiltin": false,
+  "PrefDescLineId": 631,
+  "PrefDescId": 969,
+  "PrefValue": "aut",
+  "PrefShowValue": "quos",
+  "Description": "Optional encompassing data-warehouse",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 984
+      "FieldType": "System.String",
+      "FieldLength": 949
     }
   }
 }

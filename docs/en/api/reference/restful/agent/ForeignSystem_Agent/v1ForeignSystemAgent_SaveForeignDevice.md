@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Hansen Inc and Sons"
+  "ApplicationName": "Robel, Doyle and McKenzie"
 }
 ```
 
@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 827,
-  "Name": "Cremin-Moore",
-  "CreatedDate": "2009-07-10T14:19:03.5602728+02:00",
-  "UpdatedDate": "1998-08-14T14:19:03.5602728+02:00",
-  "AssociateFullName": "Mrs. Aisha Letha Langosh III",
-  "CreatedBy": "consequatur",
-  "UpdatedBy": "ratione",
-  "DeviceIdentifier": "quae",
-  "ForeignAppId": 652,
+  "ForeignDeviceId": 842,
+  "Name": "Hane-McGlynn",
+  "CreatedDate": "2006-07-14T12:15:19.1677488+02:00",
+  "UpdatedDate": "2009-04-29T12:15:19.1677488+02:00",
+  "AssociateFullName": "Miss Dylan Kadin Gutmann V",
+  "CreatedBy": "ullam",
+  "UpdatedBy": "similique",
+  "DeviceIdentifier": "enim",
+  "ForeignAppId": 248,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 507
+      "FieldLength": 732
     }
   }
 }

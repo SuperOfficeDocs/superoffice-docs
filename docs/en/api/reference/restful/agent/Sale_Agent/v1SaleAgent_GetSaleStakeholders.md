@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 321
+  "SaleId": 460
 }
 ```
 
@@ -106,31 +106,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Christiansen, Wintheiser and Stanton",
-    "Comment": "deserunt",
-    "StakeholderRoleId": 761,
-    "CountryId": 419,
-    "PersonId": 879,
-    "EmailDescription": "karine.toy@streich.ca",
-    "EmailId": 689,
-    "EmailAddress": "lisa@schroeder.ca",
-    "PhoneId": 769,
-    "ContactName": "Herman Inc and Sons",
-    "ContactId": 624,
-    "SaleId": 92,
-    "Mrmrs": "qui",
-    "Firstname": "Tamia",
-    "MiddleName": "Weimann, Ziemann and Schimmel",
-    "Lastname": "Haag",
-    "SaleStakeholderId": 745,
-    "Rank": 680,
-    "Phone": "420.028.3646",
+    "StakeholderRoleName": "Ryan, Jerde and Nolan",
+    "Comment": "non",
+    "StakeholderRoleId": 696,
+    "CountryId": 848,
+    "PersonId": 729,
+    "EmailDescription": "augusta.lubowitz@smith.name",
+    "EmailId": 95,
+    "EmailAddress": "hermina@kozey.co.uk",
+    "PhoneId": 225,
+    "ContactName": "Murray-Skiles",
+    "ContactId": 470,
+    "SaleId": 455,
+    "Mrmrs": "unde",
+    "Firstname": "Luisa",
+    "MiddleName": "Marquardt-Little",
+    "Lastname": "Hoeger",
+    "SaleStakeholderId": 834,
+    "Rank": 799,
+    "Phone": "980.329.0656",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 329
+        "FieldLength": 552
       }
     }
   }

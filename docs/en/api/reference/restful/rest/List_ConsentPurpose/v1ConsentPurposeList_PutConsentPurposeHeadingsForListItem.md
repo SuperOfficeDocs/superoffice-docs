@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 871,
-    "Name": "Ebert Inc and Sons",
-    "ToolTip": "Est est quos quos repudiandae fugit magnam quas.",
+    "Id": 891,
+    "Name": "Bechtelar, Schaden and Conroy",
+    "ToolTip": "Ratione quo voluptatem.",
     "Deleted": false,
-    "Rank": 786,
-    "Type": "sunt",
-    "ColorBlock": 921,
-    "IconHint": "quas",
+    "Rank": 637,
+    "Type": "placeat",
+    "ColorBlock": 433,
+    "IconHint": "nostrum",
     "Selected": false,
-    "LastChanged": "2006-04-24T14:19:11.163718+02:00",
+    "LastChanged": "2002-01-04T12:15:27.9326215+01:00",
     "ChildItems": [
       {
-        "Id": 27,
-        "Name": "Breitenberg Inc and Sons",
-        "ToolTip": "Sit ea sed veniam aut qui voluptatem.",
-        "Deleted": true,
-        "Rank": 981,
-        "Type": "cum",
-        "ColorBlock": 454,
-        "IconHint": "commodi",
-        "Selected": false,
-        "LastChanged": "2008-07-27T14:19:11.163718+02:00",
+        "Id": 922,
+        "Name": "Dooley Inc and Sons",
+        "ToolTip": "Voluptatem culpa voluptatem iure laborum aperiam perspiciatis.",
+        "Deleted": false,
+        "Rank": 789,
+        "Type": "laborum",
+        "ColorBlock": 907,
+        "IconHint": "iusto",
+        "Selected": true,
+        "LastChanged": "2001-05-05T12:15:27.9326215+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "nesciunt",
-        "Hidden": false,
-        "FullName": "Asa Huels"
+        "ExtraInfo": "tenetur",
+        "StyleHint": "officia",
+        "Hidden": true,
+        "FullName": "Mr. Howell Emmerich DVM"
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "iure",
+    "ExtraInfo": "et",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Glenda Lowe"
+    "FullName": "Krystel Herman"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 211,
-    "Name": "McGlynn, Adams and Herman",
-    "ToolTip": "Sed inventore sequi quod.",
-    "Deleted": true,
-    "Rank": 831,
-    "Type": "adipisci",
-    "ColorBlock": 727,
-    "IconHint": "aut",
+    "Id": 595,
+    "Name": "Willms LLC",
+    "ToolTip": "Repellendus illum sint laboriosam est minima et.",
+    "Deleted": false,
+    "Rank": 918,
+    "Type": "autem",
+    "ColorBlock": 158,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2012-04-14T14:19:11.1793474+02:00",
+    "LastChanged": "2002-09-30T12:15:27.9335925+02:00",
     "ChildItems": [
       {
-        "Id": 679,
-        "Name": "Gerlach-Wisoky",
-        "ToolTip": "Quia nisi aspernatur fuga fuga.",
+        "Id": 855,
+        "Name": "Bernhard, Thiel and Gerlach",
+        "ToolTip": "Odit ab omnis dignissimos veniam.",
         "Deleted": false,
-        "Rank": 210,
-        "Type": "voluptatem",
-        "ColorBlock": 846,
-        "IconHint": "beatae",
-        "Selected": false,
-        "LastChanged": "2016-10-10T14:19:11.1793474+02:00",
+        "Rank": 224,
+        "Type": "occaecati",
+        "ColorBlock": 830,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2000-02-02T12:15:27.9346213+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Mrs. Virgil Celine Jacobson",
+        "ExtraInfo": "ut",
+        "StyleHint": "esse",
+        "Hidden": true,
+        "FullName": "Reba Jacobs",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 580
+            "FieldType": "System.String",
+            "FieldLength": 656
           }
         }
       }
     ],
-    "ExtraInfo": "odit",
-    "StyleHint": "tempora",
-    "Hidden": true,
-    "FullName": "Corbin Gulgowski PhD",
+    "ExtraInfo": "labore",
+    "StyleHint": "ipsam",
+    "Hidden": false,
+    "FullName": "Jaquelin Upton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 882
+        "FieldType": "System.Int32",
+        "FieldLength": 539
       }
     }
   }

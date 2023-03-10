@@ -70,21 +70,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "iusto",
+  "RawValue": "non",
   "Specification": null,
-  "DisplayValue": "ea",
-  "DisplayTooltip": "illo",
+  "DisplayValue": "dolorem",
+  "DisplayTooltip": "at",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 475,
-  "PrefDescId": 326,
-  "TableName": "Abbott LLC",
-  "UserPreferenceId": 887
+  "TargetId": 404,
+  "PrefDescId": 925,
+  "TableName": "Bode LLC",
+  "UserPreferenceId": 6
 }
 ```
 

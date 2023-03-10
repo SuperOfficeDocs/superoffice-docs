@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 296,
-  "Name": "Pouros-Kerluke",
-  "Tooltip": "autem",
-  "Deleted": false,
-  "Rank": 155,
-  "UdListDefinitionId": 509
+  "HeadingId": 886,
+  "Name": "Hoppe-Bahringer",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 60,
+  "UdListDefinitionId": 19
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 511,
-  "Name": "Wisozk, Baumbach and McCullough",
-  "Tooltip": "odio",
-  "Deleted": true,
-  "Rank": 207,
-  "UdListDefinitionId": 711,
+  "HeadingId": 633,
+  "Name": "Nienow, Swift and Baumbach",
+  "Tooltip": "numquam",
+  "Deleted": false,
+  "Rank": 470,
+  "UdListDefinitionId": 507,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 609
+      "FieldLength": 313
     }
   }
 }

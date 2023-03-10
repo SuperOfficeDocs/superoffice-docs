@@ -79,26 +79,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 625,
-  "Name": "Balistreri-Stehr",
-  "Tooltip": "praesentium",
-  "TableName": "Streich Group",
-  "Area": "earum",
+  "TaskMenuId": 551,
+  "Name": "Gutmann, Gutmann and Dietrich",
+  "Tooltip": "voluptatem",
+  "TableName": "Rutherford Group",
+  "Area": "et",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 659,
+  "CrmScriptId": 49,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 135,
+  "Rank": 224,
   "Encoding": "ANSI",
-  "ProgId": "sed",
-  "Deleted": false,
+  "ProgId": "voluptatum",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 741
+      "FieldLength": 947
     }
   }
 }

@@ -25,7 +25,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=298
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=606
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 758,
-  "Name": "Kutch, Grady and Murray",
-  "CreatedDate": "1997-02-03T14:19:03.5602728+01:00",
-  "UpdatedDate": "2023-01-29T14:19:03.5602728+01:00",
-  "AssociateFullName": "Prof. Jake Eunice Conroy",
-  "CreatedBy": "quaerat",
-  "UpdatedBy": "repellat",
-  "DeviceIdentifier": "minus",
-  "ForeignAppId": 706,
+  "ForeignDeviceId": 294,
+  "Name": "Rath, Hudson and Bergnaum",
+  "CreatedDate": "2002-02-27T12:15:19.1667492+01:00",
+  "UpdatedDate": "2016-02-08T12:15:19.1667492+01:00",
+  "AssociateFullName": "Reid Gutmann I",
+  "CreatedBy": "aliquid",
+  "UpdatedBy": "eaque",
+  "DeviceIdentifier": "sint",
+  "ForeignAppId": 453,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 8
+      "FieldType": "System.Int32",
+      "FieldLength": 666
     }
   }
 }

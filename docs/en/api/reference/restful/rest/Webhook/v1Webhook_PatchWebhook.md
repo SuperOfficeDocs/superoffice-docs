@@ -120,18 +120,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sunt",
+    "path": "quo",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sunt",
+    "path": "quo",
     "value": {}
   }
 ]
@@ -144,30 +144,30 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 13,
-  "Name": "Quigley, McKenzie and Waelchi",
+  "WebhookId": 680,
+  "Name": "VonRueden, Schaden and Homenick",
   "Events": [
-    "soluta",
-    "harum"
+    "et",
+    "repudiandae"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "odit",
+  "Secret": "impedit",
   "State": "Active",
-  "Type": "sint",
+  "Type": "debitis",
   "Headers": {
-    "Headers1": "necessitatibus",
-    "Headers2": "odio"
+    "Headers1": "in",
+    "Headers2": "ducimus"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2018-05-26T14:19:11.0855578+02:00",
+  "Registered": "2002-03-29T12:15:27.8186236+01:00",
   "RegisteredAssociate": null,
-  "Updated": "1998-06-16T14:19:11.0855578+02:00",
+  "Updated": "2014-09-25T12:15:27.8206241+02:00",
   "UpdatedAssociate": null,
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

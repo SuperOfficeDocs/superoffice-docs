@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 468,
-  "AttachmentId": "et"
+  "MailItemId": 889,
+  "AttachmentId": "ratione"
 }
 ```
 
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Exclusive composite definition",
-  "Filename": "deleniti",
-  "Size": 731,
-  "Type": "est",
-  "Encoding": "quas",
-  "Id": "qui",
-  "Disposition": "possimus",
+  "Description": "Business-focused composite data-warehouse",
+  "Filename": "rerum",
+  "Size": 899,
+  "Type": "ut",
+  "Encoding": "eius",
+  "Id": "explicabo",
+  "Disposition": "voluptas",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 688
+      "FieldType": "System.Int32",
+      "FieldLength": 147
     }
   }
 }

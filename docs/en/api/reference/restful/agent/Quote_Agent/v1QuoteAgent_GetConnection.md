@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 415
+  "QuoteConnectionId": 441
 }
 ```
 
@@ -101,54 +101,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 973,
-  "ERPName": "Wunsch-Larkin",
-  "DisplayName": "Beatty, Bogisich and Steuber",
-  "DisplayDescription": "Re-engineered foreground framework",
-  "Rank": 723,
-  "ConnectorName": "Bosco-Lockman",
-  "ErpConnectionId": 954,
-  "ExtraData": "assumenda",
-  "IsAvailable": true,
+  "QuoteConnectionId": 350,
+  "ERPName": "Hand Inc and Sons",
+  "DisplayName": "Glover-Bernhard",
+  "DisplayDescription": "Re-engineered dynamic application",
+  "Rank": 546,
+  "ConnectorName": "Murphy LLC",
+  "ErpConnectionId": 270,
+  "ExtraData": "corrupti",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 243,
-      "ERPPriceListKey": "aperiam",
-      "QuoteConnectionId": 407,
-      "Name": "Ratke-Jewess",
-      "Description": "Vision-oriented optimizing middleware",
-      "Currency": "voluptatem",
-      "CurrencyName": "Nader Group",
-      "ValidFrom": "1998-04-09T14:19:04.0157096+02:00",
-      "ValidTo": "2002-08-17T14:19:04.0157096+02:00",
-      "IsActive": false,
+      "PriceListId": 860,
+      "ERPPriceListKey": "hic",
+      "QuoteConnectionId": 747,
+      "Name": "Padberg-Kuhlman",
+      "Description": "De-engineered heuristic benchmark",
+      "Currency": "eos",
+      "CurrencyName": "Nitzsche, Greenholt and Gorczany",
+      "ValidFrom": "2009-10-01T12:15:19.9437374+02:00",
+      "ValidTo": "2021-01-11T12:15:19.9437374+01:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 123
+          "FieldLength": 116
         }
       }
     }
   ],
-  "AllAccess": false,
+  "AllAccess": true,
   "Deleted": true,
   "UserGroupAccessIds": [
-    872,
-    781
+    731,
+    474
   ],
   "AssociateAccessIds": [
-    827,
-    323
+    211,
+    450
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 731
+      "FieldLength": 4
     }
   }
 }

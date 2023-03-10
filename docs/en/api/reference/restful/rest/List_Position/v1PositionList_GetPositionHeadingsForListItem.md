@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 241,
-    "Name": "McKenzie-Morissette",
-    "ToolTip": "Et maxime soluta repudiandae et reiciendis doloremque aliquam.",
+    "Id": 980,
+    "Name": "VonRueden-Steuber",
+    "ToolTip": "Vel laboriosam dolore nemo.",
     "Deleted": false,
-    "Rank": 975,
-    "Type": "doloribus",
-    "ColorBlock": 839,
-    "IconHint": "id",
+    "Rank": 507,
+    "Type": "iusto",
+    "ColorBlock": 904,
+    "IconHint": "laboriosam",
     "Selected": false,
-    "LastChanged": "2008-05-10T14:19:11.3367817+02:00",
+    "LastChanged": "2001-03-31T12:15:28.2466194+02:00",
     "ChildItems": [
       {
-        "Id": 47,
-        "Name": "Armstrong-Bode",
-        "ToolTip": "Nobis incidunt voluptate quam corporis.",
+        "Id": 473,
+        "Name": "Purdy, Stamm and O'Conner",
+        "ToolTip": "Et sed quas hic non provident.",
         "Deleted": false,
-        "Rank": 287,
-        "Type": "minima",
-        "ColorBlock": 612,
-        "IconHint": "quasi",
+        "Rank": 298,
+        "Type": "iusto",
+        "ColorBlock": 567,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2010-06-21T14:19:11.3367817+02:00",
+        "LastChanged": "2012-01-22T12:15:28.2466194+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "saepe",
-        "Hidden": true,
-        "FullName": "Prof. Tom Aurelie Schumm",
+        "ExtraInfo": "dolores",
+        "StyleHint": "sed",
+        "Hidden": false,
+        "FullName": "Quincy Jaskolski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 316
+            "FieldType": "System.Int32",
+            "FieldLength": 65
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "et",
+    "ExtraInfo": "facilis",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Hunter Parker",
+    "FullName": "Miss Rahul Josie Carroll III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 169
+        "FieldType": "System.Int32",
+        "FieldLength": 469
       }
     }
   }

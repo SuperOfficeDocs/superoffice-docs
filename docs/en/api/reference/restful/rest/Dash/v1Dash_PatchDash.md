@@ -119,18 +119,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aut",
+    "path": "ratione",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aut",
+    "path": "ratione",
     "value": {}
   }
 ]
@@ -143,42 +143,42 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 243,
-  "UniqueId": "dolorum",
-  "Name": "Sipes, Stokes and Leffler",
-  "Description": "Front-line needs-based challenge",
-  "AssociateId": 255,
-  "Columns": 238,
+  "DashboardId": 930,
+  "UniqueId": "esse",
+  "Name": "Bartell LLC",
+  "Description": "Multi-channelled 6th generation time-frame",
+  "AssociateId": 845,
+  "Columns": 207,
   "Theme": null,
-  "VisibleForAll": 28,
+  "VisibleForAll": 127,
   "VisibleForAssociates": [
-    512,
-    939
+    629,
+    629
   ],
   "VisibleForGroups": [
-    902,
-    821
+    994,
+    172
   ],
-  "PinForAll": 615,
+  "PinForAll": 319,
   "PinForAssociates": [
-    576,
-    548
+    749,
+    218
   ],
   "PinForGroups": [
-    351,
-    773
+    562,
+    953
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 172
+      "FieldType": "System.Int32",
+      "FieldLength": 24
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

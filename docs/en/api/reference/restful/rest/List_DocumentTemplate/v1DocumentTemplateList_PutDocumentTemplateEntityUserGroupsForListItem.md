@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 616,
-    "Name": "Stark Inc and Sons",
-    "ToolTip": "Possimus qui laborum et pariatur enim ipsa aliquam.",
+    "Id": 177,
+    "Name": "Bradtke, Tillman and Marvin",
+    "ToolTip": "Optio officiis omnis quasi expedita quis non.",
     "Deleted": false,
-    "Rank": 701,
-    "Type": "suscipit",
-    "ColorBlock": 240,
-    "IconHint": "provident",
+    "Rank": 516,
+    "Type": "sunt",
+    "ColorBlock": 117,
+    "IconHint": "consequuntur",
     "Selected": false,
-    "LastChanged": "2018-12-19T14:19:11.2574687+01:00",
+    "LastChanged": "1996-06-24T12:15:28.1516187+02:00",
     "ChildItems": [
       {
-        "Id": 702,
-        "Name": "Ankunding Group",
-        "ToolTip": "Nihil soluta numquam eveniet.",
-        "Deleted": false,
-        "Rank": 604,
-        "Type": "perspiciatis",
-        "ColorBlock": 783,
-        "IconHint": "quod",
+        "Id": 865,
+        "Name": "O'Keefe, Mills and Little",
+        "ToolTip": "Porro sed esse et earum delectus dolor consequatur.",
+        "Deleted": true,
+        "Rank": 744,
+        "Type": "esse",
+        "ColorBlock": 592,
+        "IconHint": "repudiandae",
         "Selected": false,
-        "LastChanged": "2017-05-18T14:19:11.2574687+02:00",
+        "LastChanged": "2018-10-21T12:15:28.1526193+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "impedit",
-        "Hidden": false,
-        "FullName": "Markus Bechtelar"
+        "ExtraInfo": "porro",
+        "StyleHint": "blanditiis",
+        "Hidden": true,
+        "FullName": "Billie Aileen Smith I"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "sequi",
+    "ExtraInfo": "omnis",
+    "StyleHint": "quidem",
     "Hidden": false,
-    "FullName": "Ms. Emile Kali Towne"
+    "FullName": "Sadye Dare"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 986,
-    "Name": "Klocko-Purdy",
-    "ToolTip": "Occaecati ipsam quia est magnam eos nemo nesciunt.",
-    "Deleted": false,
-    "Rank": 391,
-    "Type": "sapiente",
-    "ColorBlock": 238,
-    "IconHint": "ex",
+    "Id": 206,
+    "Name": "Barton, Mosciski and O'Hara",
+    "ToolTip": "Tempore illum aut.",
+    "Deleted": true,
+    "Rank": 994,
+    "Type": "voluptatum",
+    "ColorBlock": 303,
+    "IconHint": "recusandae",
     "Selected": false,
-    "LastChanged": "1998-09-21T14:19:11.2574687+02:00",
+    "LastChanged": "2003-07-24T12:15:28.1546184+02:00",
     "ChildItems": [
       {
-        "Id": 694,
-        "Name": "King Inc and Sons",
-        "ToolTip": "Magnam sed quisquam.",
+        "Id": 95,
+        "Name": "Hoeger Inc and Sons",
+        "ToolTip": "Quaerat nesciunt iusto sapiente optio tempora qui sit.",
         "Deleted": false,
-        "Rank": 257,
-        "Type": "excepturi",
-        "ColorBlock": 175,
-        "IconHint": "mollitia",
-        "Selected": true,
-        "LastChanged": "1998-08-29T14:19:11.2574687+02:00",
+        "Rank": 130,
+        "Type": "recusandae",
+        "ColorBlock": 806,
+        "IconHint": "iste",
+        "Selected": false,
+        "LastChanged": "2015-07-11T12:15:28.1546184+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Dr. Aditya Runolfsdottir Jr.",
+        "ExtraInfo": "enim",
+        "StyleHint": "reprehenderit",
+        "Hidden": false,
+        "FullName": "Arielle Ward",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 983
+            "FieldLength": 606
           }
         }
       }
     ],
-    "ExtraInfo": "provident",
+    "ExtraInfo": "quia",
     "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Jermain Hamill",
+    "FullName": "Xavier Gaylord",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 752
+        "FieldLength": 844
       }
     }
   }

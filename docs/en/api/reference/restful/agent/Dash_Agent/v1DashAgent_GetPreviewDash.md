@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 86
+  "DashboardId": 361
 }
 ```
 
@@ -91,32 +91,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hartmann, Keebler and Wehner",
-  "Description": "Face to face responsive architecture",
-  "OwnedByFullName": "Miss Kiarra Aimee Wunsch",
-  "Registered": "2002-11-05T14:19:03.1042793+01:00",
+  "Name": "Torphy-Green",
+  "Description": "Extended systematic paradigm",
+  "OwnedByFullName": "Miss Katlyn Minnie Rice DDS",
+  "Registered": "1998-07-30T12:15:18.6817559+02:00",
   "Tiles": [
     {
-      "Name": "Beahan Group",
+      "Name": "Bashirian Inc and Sons",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 369
+          "FieldLength": 683
         }
       }
     },
     {
-      "Name": "Beahan Group",
+      "Name": "Bashirian Inc and Sons",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 369
+          "FieldLength": 683
         }
       }
     }
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 607
+      "FieldType": "System.String",
+      "FieldLength": 551
     }
   }
 }

@@ -79,15 +79,15 @@ OK
 PUT /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 148,
-  "Name": "Wintheiser Inc and Sons",
-  "Tooltip": "laborum",
-  "Rank": 778,
-  "Key": "voluptatum",
+  "LegalBaseId": 986,
+  "Name": "Funk Group",
+  "Tooltip": "maxime",
+  "Rank": 885,
+  "Key": "quibusdam",
   "Deleted": false
 }
 ```
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 899,
-  "Name": "Crona-Fisher",
-  "Tooltip": "quam",
-  "Rank": 966,
-  "Key": "eum",
+  "LegalBaseId": 122,
+  "Name": "Quigley, Legros and Moen",
+  "Tooltip": "distinctio",
+  "Rank": 180,
+  "Key": "nihil",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 754
+      "FieldType": "System.Int32",
+      "FieldLength": 922
     }
   }
 }

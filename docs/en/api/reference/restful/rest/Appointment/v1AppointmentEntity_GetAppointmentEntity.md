@@ -129,7 +129,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -137,129 +137,129 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 17 Apr 2000 14:19:09 G4T
+Last-Modified: Tue, 29 Jul 2008 12:15:26 G7T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2019-09-25T14:19:09.9267515+02:00",
-  "AppointmentId": 664,
-  "Description": "Realigned bandwidth-monitored flexibility",
-  "StartDate": "2015-03-19T14:19:09.9267515+01:00",
-  "EndDate": "2007-04-19T14:19:09.9267515+02:00",
+  "CreatedDate": "2012-08-04T12:15:26.2826459+02:00",
+  "AppointmentId": 914,
+  "Description": "Polarised directional info-mediaries",
+  "StartDate": "1999-04-04T12:15:26.2826459+02:00",
+  "EndDate": "2008-08-30T12:15:26.2826459+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 514,
+  "MotherId": 162,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2000-04-17T14:19:09.9267515+02:00",
+  "UpdatedDate": "2008-07-29T12:15:26.2856515+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 889,
+  "ActiveLinks": 844,
   "Links": [
     {
-      "EntityName": "Spencer, Kuvalis and Weber",
-      "Id": 721,
-      "Description": "Switchable incremental open system",
-      "ExtraInfo": "numquam",
-      "LinkId": 557,
+      "EntityName": "Trantow LLC",
+      "Id": 597,
+      "Description": "Realigned cohesive alliance",
+      "ExtraInfo": "atque",
+      "LinkId": 164,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 427
+          "FieldType": "System.String",
+          "FieldLength": 955
         }
       }
     }
   ],
-  "AlarmLeadTime": "quisquam",
+  "AlarmLeadTime": "soluta",
   "HasAlarm": true,
-  "ColorIndex": 522,
-  "IsFree": false,
+  "ColorIndex": 622,
+  "IsFree": true,
   "IsAlldayEvent": false,
   "LagTime": "sapiente",
-  "LeadTime": "sequi",
-  "Location": "porro",
-  "RejectCounter": 709,
-  "RejectReason": "leverage revolutionary channels",
+  "LeadTime": "asperiores",
+  "Location": "temporibus",
+  "RejectCounter": 221,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 754,
-      "PersonId": 355,
-      "ContactId": 54,
-      "EmailId": 849,
-      "SendEmail": false,
+      "AssociateId": 40,
+      "PersonId": 273,
+      "ContactId": 719,
+      "EmailId": 306,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 754,
-      "PersonId": 355,
-      "ContactId": 54,
-      "EmailId": 849,
-      "SendEmail": false,
+      "AssociateId": 40,
+      "PersonId": 273,
+      "ContactId": 719,
+      "EmailId": 306,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2003-01-01T14:19:09.9267515+01:00",
-  "HasConflict": false,
+  "ActiveDate": "1998-04-11T12:15:26.2856515+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 761,
+  "PreferredTZLocation": 176,
   "Sale": null,
-  "SuggestedAppointmentId": 901,
+  "SuggestedAppointmentId": 579,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "voluptatem",
+  "CentralserviceVideomeetId": "doloremque",
   "UserDefinedFields": {
-    "SuperOffice:1": "491996518",
-    "SuperOffice:2": "1934255469"
+    "SuperOffice:1": "Aiden Connelly II",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "debitis",
-    "ExtraFields2": "asperiores"
+    "ExtraFields1": "voluptates",
+    "ExtraFields2": "dignissimos"
   },
   "CustomFields": {
     "CustomFields1": "non",
-    "CustomFields2": "non"
+    "CustomFields2": "laborum"
   },
-  "PublishEventDate": "2000-09-26T14:19:09.9267515+02:00",
-  "PublishTo": "2016-08-02T14:19:09.9267515+02:00",
-  "PublishFrom": "2016-04-15T14:19:09.9267515+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2020-06-11T12:15:26.2876454+02:00",
+  "PublishTo": "1999-12-15T12:15:26.2876454+01:00",
+  "PublishFrom": "2019-11-19T12:15:26.2876454+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 161,
+      "VisibleId": 890,
       "Visibility": "All",
-      "DisplayValue": "unde",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 166
+          "FieldLength": 440
         }
       }
     },
     {
-      "VisibleId": 161,
+      "VisibleId": 890,
       "Visibility": "All",
-      "DisplayValue": "unde",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 166
+          "FieldLength": 440
         }
       }
     }
@@ -269,7 +269,7 @@ Last-Modified: Mon, 17 Apr 2000 14:19:09 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 442
+      "FieldLength": 866
     }
   },
   "_Links": {

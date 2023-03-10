@@ -86,28 +86,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 638,
+  "SelectionId": 377,
   "Criteria": [
     {
-      "Name": "Goyette LLC",
-      "Operator": "explicabo",
+      "Name": "Pfeffer-Denesik",
+      "Operator": "at",
       "Values": [
-        "est",
-        "aut"
+        "error",
+        "expedita"
       ],
       "DisplayValues": [
-        "enim",
-        "sunt"
+        "fugit",
+        "occaecati"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 138,
+      "InterParenthesis": 191,
       "InterOperator": "And",
-      "UniqueHash": 456
+      "UniqueHash": 976
     }
   ]
 }
@@ -121,29 +121,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Crona-Hayes",
-    "Operator": "sed",
+    "Name": "Bogisich-Simonis",
+    "Operator": "et",
     "Values": [
-      "minima",
-      "velit"
+      "est",
+      "voluptatibus"
     ],
     "DisplayValues": [
-      "et",
-      "nostrum"
+      "ipsum",
+      "et"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Herman Group",
-        "Operator": "est",
+        "Name": "Becker LLC",
+        "Operator": "sequi",
         "Values": [
-          "sint",
-          "voluptatem"
+          "corporis",
+          "et"
         ],
         "DisplayValues": [
-          "nam",
-          "quidem"
+          "magnam",
+          "rerum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -151,14 +151,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 849,
+        "InterParenthesis": 579,
         "InterOperator": "And",
-        "UniqueHash": 283
+        "UniqueHash": 392
       }
     ],
-    "InterParenthesis": 748,
+    "InterParenthesis": 354,
     "InterOperator": "And",
-    "UniqueHash": 80
+    "UniqueHash": 940
   }
 ]
 ```

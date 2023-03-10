@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 544,
-    "Name": "Keebler Group",
-    "ToolTip": "Aut tenetur dolor harum.",
-    "Deleted": false,
-    "Rank": 38,
-    "Type": "dolor",
-    "ColorBlock": 103,
-    "IconHint": "reprehenderit",
-    "Selected": true,
-    "LastChanged": "2005-10-18T14:19:11.3211603+02:00",
+    "Id": 308,
+    "Name": "Bednar Inc and Sons",
+    "ToolTip": "Ut qui ut odio.",
+    "Deleted": true,
+    "Rank": 588,
+    "Type": "optio",
+    "ColorBlock": 896,
+    "IconHint": "expedita",
+    "Selected": false,
+    "LastChanged": "2022-12-11T12:15:28.2306174+01:00",
     "ChildItems": [
       {
-        "Id": 899,
-        "Name": "Towne-Christiansen",
-        "ToolTip": "Quidem voluptatem suscipit corporis est ea qui.",
-        "Deleted": true,
-        "Rank": 239,
-        "Type": "occaecati",
-        "ColorBlock": 850,
-        "IconHint": "aut",
+        "Id": 889,
+        "Name": "Sawayn LLC",
+        "ToolTip": "Omnis consectetur in dolorum.",
+        "Deleted": false,
+        "Rank": 189,
+        "Type": "commodi",
+        "ColorBlock": 150,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "1999-05-18T14:19:11.3211603+02:00",
+        "LastChanged": "2019-11-12T12:15:28.2306174+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "eum",
+        "ExtraInfo": "optio",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Ansel Wisozk",
+        "FullName": "Providenci Schmeler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 155
+            "FieldLength": 974
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "incidunt",
-    "Hidden": false,
-    "FullName": "Opal Hudson",
+    "ExtraInfo": "vero",
+    "StyleHint": "id",
+    "Hidden": true,
+    "FullName": "Mr. Evangeline Cormier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 3
+        "FieldLength": 626
       }
     }
   }

@@ -76,39 +76,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 340,
-  "Name": "Bayer LLC",
-  "Tooltip": "est",
-  "VisibleColumns": 243,
-  "Rank": 953,
-  "AssocId": 182,
+  "DiaryViewId": 817,
+  "Name": "Baumbach Group",
+  "Tooltip": "dicta",
+  "VisibleColumns": 702,
+  "Rank": 570,
+  "AssocId": 553,
   "AssociateList": [
     {
-      "Id": 839,
-      "Name": "Leffler-O'Reilly",
-      "ToolTip": "Vel rem esse.",
-      "Deleted": false,
-      "Rank": 31,
-      "Type": "aliquam",
-      "ColorBlock": 5,
-      "IconHint": "hic",
-      "Selected": true,
-      "LastChanged": "2019-05-28T14:19:02.916778+02:00",
+      "Id": 984,
+      "Name": "Kovacek, Deckow and Tillman",
+      "ToolTip": "Et vero odio officiis corporis qui earum perspiciatis.",
+      "Deleted": true,
+      "Rank": 974,
+      "Type": "aliquid",
+      "ColorBlock": 718,
+      "IconHint": "odit",
+      "Selected": false,
+      "LastChanged": "2010-01-30T12:15:18.4157599+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eum",
-      "StyleHint": "voluptas",
+      "ExtraInfo": "est",
+      "StyleHint": "molestias",
       "Hidden": false,
-      "FullName": "Prof. Immanuel Garett Swift Sr."
+      "FullName": "Mr. Lee Domenica Considine Jr."
     }
   ],
-  "TzLocationId": 26
+  "TzLocationId": 167
 }
 ```
 
@@ -119,49 +119,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 262,
-  "Name": "Halvorson-Durgan",
-  "Tooltip": "eligendi",
-  "VisibleColumns": 159,
-  "Rank": 285,
-  "AssocId": 34,
+  "DiaryViewId": 283,
+  "Name": "Runte-Armstrong",
+  "Tooltip": "corporis",
+  "VisibleColumns": 7,
+  "Rank": 140,
+  "AssocId": 493,
   "AssociateList": [
     {
-      "Id": 934,
-      "Name": "Grimes, Aufderhar and Stoltenberg",
-      "ToolTip": "In tenetur repellat explicabo nemo.",
-      "Deleted": true,
-      "Rank": 36,
-      "Type": "consequatur",
-      "ColorBlock": 640,
-      "IconHint": "quia",
+      "Id": 765,
+      "Name": "Kunze Group",
+      "ToolTip": "Odit earum.",
+      "Deleted": false,
+      "Rank": 158,
+      "Type": "nobis",
+      "ColorBlock": 720,
+      "IconHint": "voluptatem",
       "Selected": false,
-      "LastChanged": "2015-01-20T14:19:02.916778+01:00",
+      "LastChanged": "2012-12-06T12:15:18.4167596+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "doloremque",
-      "StyleHint": "consequuntur",
+      "ExtraInfo": "dolore",
+      "StyleHint": "excepturi",
       "Hidden": false,
-      "FullName": "Jeffery Schiller",
+      "FullName": "Mr. Rebecca Rau",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 937
+          "FieldLength": 859
         }
       }
     }
   ],
-  "TzLocationId": 411,
+  "TzLocationId": 402,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 660
+      "FieldLength": 377
     }
   }
 }

@@ -24,7 +24,7 @@ Deletes the FormSubmissionEntity
 | FormSubmissionEntityId | int32 | **Required** The id of the FormSubmissionEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Marketing/DeleteFormSubmissionEntity?FormSubmissionEntityId=676
+POST /api/v1/Agents/Marketing/DeleteFormSubmissionEntity?FormSubmissionEntityId=573
 ```
 
 
@@ -55,7 +55,7 @@ No Content
 POST /api/v1/Agents/Marketing/DeleteFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

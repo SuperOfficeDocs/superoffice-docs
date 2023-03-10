@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 861,
-  "InstanceLayout": "omnis",
-  "InstanceName": "Hamill-Bashirian",
-  "CreatedDate": "2020-04-01T14:19:02.7438032+02:00",
-  "UpdatedDate": "2011-01-14T14:19:02.7438032+01:00",
+  "AudienceLayoutId": 928,
+  "InstanceLayout": "deleniti",
+  "InstanceName": "Hermiston LLC",
+  "CreatedDate": "2012-05-18T12:15:18.1837632+02:00",
+  "UpdatedDate": "2001-05-30T12:15:18.1837632+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 182
+      "FieldType": "System.String",
+      "FieldLength": 58
     }
   }
 }

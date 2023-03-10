@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 500,
-    "Name": "Ziemann-Weimann",
-    "ToolTip": "Molestiae ut consectetur.",
-    "Deleted": false,
-    "Rank": 442,
-    "Type": "sed",
-    "ColorBlock": 31,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2014-09-08T14:19:11.3211603+02:00",
+    "Id": 285,
+    "Name": "McCullough, Mueller and Stiedemann",
+    "ToolTip": "Ullam maxime ab exercitationem quo libero iure.",
+    "Deleted": true,
+    "Rank": 65,
+    "Type": "laborum",
+    "ColorBlock": 208,
+    "IconHint": "libero",
+    "Selected": false,
+    "LastChanged": "1996-12-19T12:15:28.2316174+01:00",
     "ChildItems": [
       {
-        "Id": 252,
-        "Name": "Bogan LLC",
-        "ToolTip": "Eveniet culpa natus.",
+        "Id": 287,
+        "Name": "Lubowitz-Robel",
+        "ToolTip": "Consequatur sed sint est illo accusantium.",
         "Deleted": false,
-        "Rank": 849,
-        "Type": "deserunt",
-        "ColorBlock": 845,
-        "IconHint": "rerum",
+        "Rank": 23,
+        "Type": "qui",
+        "ColorBlock": 229,
+        "IconHint": "quisquam",
         "Selected": false,
-        "LastChanged": "2009-05-25T14:19:11.3211603+02:00",
+        "LastChanged": "2005-04-01T12:15:28.2316174+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Elliott Pfannerstill"
+        "ExtraInfo": "accusamus",
+        "StyleHint": "repellat",
+        "Hidden": false,
+        "FullName": "Dr. Triston Myrtice Larson MD"
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "labore",
-    "Hidden": false,
-    "FullName": "Katelynn Lang"
+    "ExtraInfo": "facere",
+    "StyleHint": "earum",
+    "Hidden": true,
+    "FullName": "Mckenzie Borer"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 313,
-    "Name": "Stehr-Gutkowski",
-    "ToolTip": "Dolores necessitatibus commodi cumque consequatur sunt libero eos.",
-    "Deleted": true,
-    "Rank": 801,
-    "Type": "ut",
-    "ColorBlock": 462,
-    "IconHint": "similique",
+    "Id": 832,
+    "Name": "Schowalter, Nitzsche and Kshlerin",
+    "ToolTip": "Soluta natus atque perspiciatis voluptatem officiis aut voluptatem.",
+    "Deleted": false,
+    "Rank": 826,
+    "Type": "id",
+    "ColorBlock": 693,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "2017-08-15T14:19:11.3211603+02:00",
+    "LastChanged": "2013-03-06T12:15:28.2326265+01:00",
     "ChildItems": [
       {
-        "Id": 715,
-        "Name": "Rogahn, Greenfelder and Simonis",
-        "ToolTip": "Beatae debitis autem.",
-        "Deleted": true,
-        "Rank": 911,
-        "Type": "quo",
-        "ColorBlock": 105,
-        "IconHint": "vero",
-        "Selected": true,
-        "LastChanged": "2016-01-25T14:19:11.3211603+01:00",
+        "Id": 945,
+        "Name": "Renner Group",
+        "ToolTip": "Quod enim minima et magnam.",
+        "Deleted": false,
+        "Rank": 641,
+        "Type": "vel",
+        "ColorBlock": 579,
+        "IconHint": "quasi",
+        "Selected": false,
+        "LastChanged": "2020-05-24T12:15:28.2326265+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "repellat",
+        "ExtraInfo": "omnis",
+        "StyleHint": "aut",
         "Hidden": true,
-        "FullName": "Juanita Skiles",
+        "FullName": "Mrs. Nash Abshire I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 41
+            "FieldLength": 709
           }
         }
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "nisi",
+    "ExtraInfo": "sed",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Angelica Rowe",
+    "FullName": "Emmitt Swift III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 488
+        "FieldType": "System.Int32",
+        "FieldLength": 635
       }
     }
   }

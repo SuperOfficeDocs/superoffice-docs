@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 15,
-    "Name": "Ankunding LLC",
-    "ToolTip": "Quia id omnis eum provident nulla quasi.",
-    "Deleted": false,
-    "Rank": 26,
-    "Type": "nostrum",
-    "ColorBlock": 569,
-    "IconHint": "dolor",
-    "Selected": true,
-    "LastChanged": "1998-07-31T14:19:11.4714393+02:00",
+    "Id": 134,
+    "Name": "Senger, Mueller and Kling",
+    "ToolTip": "Magni ut et sit.",
+    "Deleted": true,
+    "Rank": 297,
+    "Type": "id",
+    "ColorBlock": 986,
+    "IconHint": "autem",
+    "Selected": false,
+    "LastChanged": "2000-11-29T12:15:28.4356142+01:00",
     "ChildItems": [
       {
-        "Id": 365,
-        "Name": "Windler, Jakubowski and Monahan",
-        "ToolTip": "Sit fugiat unde qui est maxime sit magnam.",
+        "Id": 167,
+        "Name": "Schamberger-D'Amore",
+        "ToolTip": "Voluptas illo qui error corporis alias.",
         "Deleted": false,
-        "Rank": 478,
-        "Type": "distinctio",
-        "ColorBlock": 96,
-        "IconHint": "pariatur",
+        "Rank": 351,
+        "Type": "minus",
+        "ColorBlock": 26,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "1999-08-24T14:19:11.4714393+02:00",
+        "LastChanged": "2004-03-06T12:15:28.4356142+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "autem",
-        "Hidden": true,
-        "FullName": "Effie Maurine DuBuque Jr.",
+        "ExtraInfo": "rerum",
+        "StyleHint": "cumque",
+        "Hidden": false,
+        "FullName": "Madeline Corkery",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 43
+            "FieldType": "System.String",
+            "FieldLength": 457
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "corporis",
-    "Hidden": false,
-    "FullName": "Kathleen Edison Romaguera DDS",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "doloribus",
+    "Hidden": true,
+    "FullName": "Estefania Brown",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 670
+        "FieldLength": 187
       }
     }
   }

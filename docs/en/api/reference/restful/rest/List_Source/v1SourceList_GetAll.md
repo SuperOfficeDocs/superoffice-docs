@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 333,
-    "Name": "Gusikowski, Krajcik and Beatty",
-    "Tooltip": "rem",
+    "Id": 508,
+    "Name": "Bosco-Strosin",
+    "Tooltip": "eligendi",
     "Deleted": false,
-    "UdListDefinitionId": 193,
-    "Rank": 85,
+    "UdListDefinitionId": 950,
+    "Rank": 34,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldType": "System.String",
+        "FieldLength": 666
       }
     }
   }

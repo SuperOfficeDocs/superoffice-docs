@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "est"
+  "ProgId": "atque"
 }
 ```
 
@@ -107,33 +107,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 440,
-  "Name": "Kuhic, Raynor and Brown",
-  "Tooltip": "nulla",
+  "WebPanelId": 231,
+  "Name": "Nitzsche LLC",
+  "Tooltip": "temporibus",
   "Deleted": true,
-  "Rank": 165,
+  "Rank": 268,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
+  "OnCentral": false,
+  "OnSatellite": true,
   "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Champlin, Ryan and Frami",
+  "WindowName": "Brekke LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "omnis",
-  "Icon": 50,
+  "ProgId": "eos",
+  "Icon": 190,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 300
+      "FieldLength": 312
     }
   }
 }

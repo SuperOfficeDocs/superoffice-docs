@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 125,
-    "Name": "Gottlieb-Russel",
-    "ToolTip": "Voluptas cupiditate.",
-    "Deleted": false,
-    "Rank": 99,
-    "Type": "ex",
-    "ColorBlock": 783,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2021-07-04T14:19:11.2730964+02:00",
+    "Id": 161,
+    "Name": "Lehner-Zboncak",
+    "ToolTip": "Temporibus soluta.",
+    "Deleted": true,
+    "Rank": 452,
+    "Type": "quia",
+    "ColorBlock": 314,
+    "IconHint": "sed",
+    "Selected": false,
+    "LastChanged": "2004-01-02T12:15:28.1696187+01:00",
     "ChildItems": [
       {
-        "Id": 760,
-        "Name": "Homenick LLC",
-        "ToolTip": "Aut fuga animi beatae dolor ut.",
+        "Id": 462,
+        "Name": "Frami Group",
+        "ToolTip": "Vero odio quia doloribus.",
         "Deleted": false,
-        "Rank": 293,
-        "Type": "quae",
-        "ColorBlock": 168,
-        "IconHint": "velit",
-        "Selected": true,
-        "LastChanged": "2017-09-16T14:19:11.2730964+02:00",
+        "Rank": 109,
+        "Type": "qui",
+        "ColorBlock": 290,
+        "IconHint": "a",
+        "Selected": false,
+        "LastChanged": "1995-12-22T12:15:28.1696187+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "aut",
+        "ExtraInfo": "officia",
+        "StyleHint": "delectus",
         "Hidden": true,
-        "FullName": "Armani Rippin",
+        "FullName": "Jaida Veum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 704
+            "FieldType": "System.Int32",
+            "FieldLength": 943
           }
         }
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "magni",
-    "Hidden": false,
-    "FullName": "Rebekah Schowalter",
+    "ExtraInfo": "non",
+    "StyleHint": "dolore",
+    "Hidden": true,
+    "FullName": "Mrs. Alysa Rempel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 3
+        "FieldType": "System.String",
+        "FieldLength": 176
       }
     }
   }

@@ -86,34 +86,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 181,
-  "UniqueId": "magnam",
-  "Name": "Jones-Green",
-  "Description": "Vision-oriented national model",
-  "AssociateId": 216,
-  "Columns": 425,
+  "DashboardId": 937,
+  "UniqueId": "debitis",
+  "Name": "Oberbrunner, Beer and Kemmer",
+  "Description": "Diverse tertiary workforce",
+  "AssociateId": 288,
+  "Columns": 228,
   "Theme": null,
-  "VisibleForAll": 254,
+  "VisibleForAll": 448,
   "VisibleForAssociates": [
-    586,
-    434
+    296,
+    472
   ],
   "VisibleForGroups": [
-    370,
-    197
+    75,
+    55
   ],
-  "PinForAll": 636,
+  "PinForAll": 924,
   "PinForAssociates": [
-    263,
-    632
+    393,
+    386
   ],
   "PinForGroups": [
-    456,
-    233
+    967,
+    943
   ]
 }
 ```
@@ -125,37 +125,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 533,
-  "UniqueId": "maiores",
-  "Name": "Mohr, Schiller and Jacobs",
-  "Description": "Customer-focused neutral algorithm",
-  "AssociateId": 660,
-  "Columns": 770,
+  "DashboardId": 606,
+  "UniqueId": "eos",
+  "Name": "Hirthe Group",
+  "Description": "Automated mission-critical Graphic Interface",
+  "AssociateId": 32,
+  "Columns": 234,
   "Theme": null,
-  "VisibleForAll": 442,
+  "VisibleForAll": 19,
   "VisibleForAssociates": [
-    165,
-    20
+    840,
+    830
   ],
   "VisibleForGroups": [
-    71,
-    912
+    418,
+    775
   ],
-  "PinForAll": 178,
+  "PinForAll": 156,
   "PinForAssociates": [
-    999,
-    433
+    453,
+    906
   ],
   "PinForGroups": [
-    450,
-    978
+    412,
+    256
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 265
+      "FieldLength": 596
     }
   }
 }

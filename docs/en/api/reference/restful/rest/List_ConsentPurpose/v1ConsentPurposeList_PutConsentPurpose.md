@@ -97,18 +97,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 946,
-  "Name": "Beatty-Gerhold",
+  "ConsentPurposeId": 569,
+  "Name": "Fisher Group",
   "ConsentText": "qui",
-  "FormText": "mollitia",
-  "Key": "fugit",
-  "Tooltip": "nisi",
-  "Active": 171,
-  "UpdatedDate": "2003-07-20T14:19:11.163718+02:00",
+  "FormText": "voluptates",
+  "Key": "accusamus",
+  "Tooltip": "dolorum",
+  "Active": 608,
+  "UpdatedDate": "1996-12-26T12:15:27.9226217+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 566,
-  "PrivacyStatementDesc": "occaecati",
+  "Rank": 791,
+  "PrivacyStatementDesc": "exercitationem",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 619,
-  "Name": "Durgan, Runolfsdottir and Braun",
-  "ConsentText": "nostrum",
-  "FormText": "molestiae",
-  "Key": "occaecati",
-  "Tooltip": "quam",
-  "Active": 362,
-  "UpdatedDate": "2001-10-05T14:19:11.163718+02:00",
+  "ConsentPurposeId": 918,
+  "Name": "Herzog Inc and Sons",
+  "ConsentText": "in",
+  "FormText": "unde",
+  "Key": "officia",
+  "Tooltip": "nesciunt",
+  "Active": 871,
+  "UpdatedDate": "1997-11-27T12:15:27.9236221+01:00",
   "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 91,
-  "PrivacyStatementDesc": "omnis",
+  "Rank": 206,
+  "PrivacyStatementDesc": "doloremque",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 670
+      "FieldType": "System.Int32",
+      "FieldLength": 894
     }
   }
 }

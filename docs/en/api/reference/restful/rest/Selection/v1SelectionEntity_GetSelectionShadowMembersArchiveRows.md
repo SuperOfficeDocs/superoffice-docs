@@ -85,19 +85,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "sit",
+  "odata.nextLink": "provident",
   "value": [
     {
-      "PrimaryKey": 3882,
-      "EntityName": "person",
-      "personId": 3882,
-      "fullName": "Mrs. Gaetano Aurelio Reynolds"
+      "PrimaryKey": 967,
+      "EntityName": "sale",
+      "saleId": 967,
+      "contactId": 3818,
+      "name": "Wisoky-Lubowitz"
     },
     {
-      "PrimaryKey": 1515,
-      "EntityName": "person",
-      "personId": 1515,
-      "fullName": "Ms. Sebastian Gleason I"
+      "PrimaryKey": 9322,
+      "EntityName": "sale",
+      "saleId": 9322,
+      "contactId": 6412,
+      "name": "Pacocha-Macejkovic"
     }
   ]
 }

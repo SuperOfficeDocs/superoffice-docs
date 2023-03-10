@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 35,
-  "AttachmentId": "et"
+  "DocId": 971,
+  "AttachmentId": "voluptatibus"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synchronised systemic flexibility",
-  "Filename": "est",
-  "Size": 904,
-  "Type": "occaecati",
-  "Encoding": "nobis",
-  "Id": "qui",
-  "Disposition": "culpa",
+  "Description": "Progressive leading edge groupware",
+  "Filename": "quia",
+  "Size": 406,
+  "Type": "non",
+  "Encoding": "veniam",
+  "Id": "dolore",
+  "Disposition": "blanditiis",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 889
+      "FieldType": "System.Int32",
+      "FieldLength": 971
     }
   }
 }

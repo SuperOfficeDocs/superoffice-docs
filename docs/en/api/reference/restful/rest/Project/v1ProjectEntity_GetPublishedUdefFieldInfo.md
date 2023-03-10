@@ -92,7 +92,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 392,
-  "ColumnId": 607,
-  "FieldDefault": "distinctio",
-  "FieldHeight": 287,
-  "FieldLabel": "ratione",
-  "FieldLeft": 631,
-  "FieldTop": 475,
+  "UDefFieldId": 420,
+  "ColumnId": 38,
+  "FieldDefault": "aut",
+  "FieldHeight": 5,
+  "FieldLabel": "optio",
+  "FieldLeft": 181,
+  "FieldTop": 158,
   "FieldType": "Checkbox",
-  "FieldWidth": 714,
-  "FormatMask": "vel",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 81,
-  "LabelLeft": 4,
-  "LabelTop": 233,
-  "LabelWidth": 470,
-  "LastVersionId": 551,
-  "ListTableId": 297,
-  "IsMandatory": true,
+  "FieldWidth": 116,
+  "FormatMask": "sequi",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 43,
+  "LabelLeft": 804,
+  "LabelTop": 670,
+  "LabelWidth": 12,
+  "LastVersionId": 671,
+  "ListTableId": 554,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 49,
-  "ProgId": "sed",
+  "Page1LineNo": 675,
+  "ProgId": "incidunt",
   "IsReadOnly": false,
-  "ShortLabel": "eos",
-  "TabOrder": 438,
-  "TextLength": 332,
-  "Tooltip": "dolorem",
-  "UdefIdentity": 349,
-  "UDListDefinitionId": 825,
+  "ShortLabel": "eius",
+  "TabOrder": 796,
+  "TextLength": 238,
+  "Tooltip": "qui",
+  "UdefIdentity": 252,
+  "UDListDefinitionId": 322,
   "Justification": "Center",
-  "Version": 753,
-  "TemplateVariableName": "Cummings, Ledner and Dooley",
-  "HasBeenPublished": true,
-  "MdoListName": "Pacocha-Rau",
+  "Version": 179,
+  "TemplateVariableName": "Leannon LLC",
+  "HasBeenPublished": false,
+  "MdoListName": "Green, Botsford and O'Hara",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldType": "System.String",
+      "FieldLength": 882
     }
   }
 }

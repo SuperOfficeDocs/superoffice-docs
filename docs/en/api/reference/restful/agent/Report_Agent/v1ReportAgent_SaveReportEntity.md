@@ -76,17 +76,17 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 222,
+  "ReportId": 112,
   "ReportCategory": "All",
-  "Description": "Configurable background standardization",
+  "Description": "Total upward-trending productivity",
   "ReportLayout": "CalendarMonth",
-  "Name": "Schmidt-Runte",
-  "AssociateId": 618,
-  "TemplateId": 619,
+  "Name": "Wilderman LLC",
+  "AssociateId": 630,
+  "TemplateId": 227,
   "Published": false
 }
 ```
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 25,
+  "ReportId": 402,
   "ReportCategory": "All",
-  "Description": "Advanced discrete support",
+  "Description": "Right-sized transitional model",
   "ReportLayout": "CalendarMonth",
-  "Name": "Lynch, Volkman and Keeling",
-  "AssociateId": 201,
-  "TemplateId": 886,
+  "Name": "Smith-Stroman",
+  "AssociateId": 462,
+  "TemplateId": 266,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 505
+      "FieldLength": 74
     }
   }
 }

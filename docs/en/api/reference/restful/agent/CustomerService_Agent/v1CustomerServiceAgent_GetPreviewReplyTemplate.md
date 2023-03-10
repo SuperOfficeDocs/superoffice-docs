@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 80
+  "ReplyTemplateId": 273
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "O'Conner LLC",
-  "Description": "Multi-lateral encompassing middleware",
-  "OwnedByFullName": "Moises Blick",
-  "Updated": "1998-11-30T14:19:03.0886547+01:00",
-  "Body": "mollitia",
+  "Name": "Haley, Cummerata and Franecki",
+  "Description": "Total mission-critical hub",
+  "OwnedByFullName": "Kris Schulist",
+  "Updated": "1996-08-12T12:15:18.6487562+02:00",
+  "Body": "placeat",
   "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 621
+      "FieldType": "System.String",
+      "FieldLength": 339
     }
   }
 }

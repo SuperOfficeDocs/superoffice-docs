@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 344,
-    "Name": "Zulauf, Gottlieb and Weimann",
-    "ToolTip": "Voluptatum dignissimos et dolorem temporibus.",
-    "Deleted": false,
-    "Rank": 137,
-    "Type": "quo",
-    "ColorBlock": 709,
-    "IconHint": "iure",
+    "Id": 747,
+    "Name": "Bergstrom-Glover",
+    "ToolTip": "Id consectetur nemo sequi enim voluptatem et et.",
+    "Deleted": true,
+    "Rank": 707,
+    "Type": "molestiae",
+    "ColorBlock": 29,
+    "IconHint": "officiis",
     "Selected": false,
-    "LastChanged": "1996-08-15T14:19:11.163718+02:00",
+    "LastChanged": "2008-08-16T12:15:27.9276217+02:00",
     "ChildItems": [
       {
-        "Id": 635,
-        "Name": "Doyle, Klein and Effertz",
-        "ToolTip": "In qui aliquid.",
-        "Deleted": true,
-        "Rank": 148,
-        "Type": "quasi",
-        "ColorBlock": 781,
-        "IconHint": "autem",
-        "Selected": false,
-        "LastChanged": "2007-05-19T14:19:11.163718+02:00",
+        "Id": 187,
+        "Name": "Balistreri-Hane",
+        "ToolTip": "Ratione ullam id et.",
+        "Deleted": false,
+        "Rank": 472,
+        "Type": "libero",
+        "ColorBlock": 666,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "1996-06-05T12:15:27.9276217+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "maiores",
-        "Hidden": false,
-        "FullName": "Stevie Mante DVM",
+        "ExtraInfo": "et",
+        "StyleHint": "repellendus",
+        "Hidden": true,
+        "FullName": "Madelynn O'Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 500
+            "FieldType": "System.String",
+            "FieldLength": 120
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "Salvatore Medhurst",
+    "ExtraInfo": "dolores",
+    "StyleHint": "provident",
+    "Hidden": false,
+    "FullName": "Brandt McClure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 638
+        "FieldLength": 236
       }
     }
   }

@@ -100,7 +100,7 @@ PersonEntity found.
 GET /api/v1/Person/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -110,52 +110,52 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "magnam",
-  "PersonId": 788,
-  "Mrmrs": "provident",
-  "Firstname": "America",
-  "Lastname": "Monahan",
-  "MiddleName": "Sawayn-Jacobs",
-  "Title": "facere",
-  "Description": "Multi-channelled context-sensitive structure",
-  "Email": "jackson@barton.biz",
-  "FullName": "Mrs. Orlando Beatrice Bradtke MD",
-  "DirectPhone": "890.355.7081",
-  "FormalName": "Reichert, Macejkovic and Krajcik",
-  "CountryId": 768,
-  "ContactId": 1000,
-  "ContactName": "Mann-Von",
-  "Retired": 146,
-  "Rank": 141,
-  "ActiveInterests": 412,
+  "Position": "aut",
+  "PersonId": 888,
+  "Mrmrs": "fuga",
+  "Firstname": "Ansley",
+  "Lastname": "Carter",
+  "MiddleName": "Crist-Homenick",
+  "Title": "perferendis",
+  "Description": "Profit-focused needs-based ability",
+  "Email": "jakob@stark.info",
+  "FullName": "Dovie Gleichner",
+  "DirectPhone": "205.524.1033 x0401",
+  "FormalName": "McClure-Lebsack",
+  "CountryId": 233,
+  "ContactId": 316,
+  "ContactName": "Sauer, McClure and Jakubowski",
+  "Retired": 648,
+  "Rank": 960,
+  "ActiveInterests": 475,
   "ContactDepartment": "",
-  "ContactCountryId": 645,
-  "ContactOrgNr": "1185546",
-  "FaxPhone": "248-614-0942",
-  "MobilePhone": "1-389-950-8202",
-  "ContactPhone": "1-369-346-0878 x13691",
-  "AssociateName": "Goodwin-Volkman",
-  "AssociateId": 812,
+  "ContactCountryId": 463,
+  "ContactOrgNr": "1239336",
+  "FaxPhone": "1-846-421-8649 x08655",
+  "MobilePhone": "307-803-5344",
+  "ContactPhone": "(245)745-0434",
+  "AssociateName": "Kovacek, Hoppe and Nicolas",
+  "AssociateId": 787,
   "UsePersonAddress": false,
-  "ContactFax": "corrupti",
-  "Kanafname": "ut",
-  "Kanalname": "iste",
-  "Post1": "voluptas",
-  "Post2": "nam",
-  "Post3": "rerum",
-  "EmailName": "tommie.kshlerin@kulas.uk",
-  "ContactFullName": "Jaleel Johnnie Franecki DVM",
-  "ActiveErpLinks": 991,
-  "TicketPriorityId": 389,
-  "SupportLanguageId": 358,
-  "SupportAssociateId": 749,
+  "ContactFax": "maiores",
+  "Kanafname": "accusamus",
+  "Kanalname": "qui",
+  "Post1": "accusamus",
+  "Post2": "earum",
+  "Post3": "animi",
+  "EmailName": "clara@vonbrown.com",
+  "ContactFullName": "Noelia Hodkiewicz",
+  "ActiveErpLinks": 30,
+  "TicketPriorityId": 812,
+  "SupportLanguageId": 497,
+  "SupportAssociateId": 403,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 19
+      "FieldType": "System.Int32",
+      "FieldLength": 542
     }
   }
 }

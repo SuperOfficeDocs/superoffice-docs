@@ -108,11 +108,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "et",
+  "FieldLabel": "quos",
   "OwnerType": "Appointment"
 }
 ```
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 122,
-  "ColumnId": 150,
-  "FieldDefault": "omnis",
-  "FieldHeight": 172,
-  "FieldLabel": "numquam",
-  "FieldLeft": 628,
-  "FieldTop": 477,
+  "UDefFieldId": 965,
+  "ColumnId": 431,
+  "FieldDefault": "cum",
+  "FieldHeight": 207,
+  "FieldLabel": "dolorum",
+  "FieldLeft": 948,
+  "FieldTop": 226,
   "FieldType": "Checkbox",
-  "FieldWidth": 621,
-  "FormatMask": "totam",
-  "HideLabel": false,
+  "FieldWidth": 240,
+  "FormatMask": "ipsa",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 468,
-  "LabelLeft": 699,
-  "LabelTop": 876,
-  "LabelWidth": 24,
-  "LastVersionId": 435,
-  "ListTableId": 917,
-  "IsMandatory": true,
+  "LabelHeight": 108,
+  "LabelLeft": 42,
+  "LabelTop": 115,
+  "LabelWidth": 192,
+  "LastVersionId": 17,
+  "ListTableId": 157,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 349,
-  "ProgId": "sed",
-  "IsReadOnly": true,
-  "ShortLabel": "quam",
-  "TabOrder": 282,
-  "TextLength": 660,
-  "Tooltip": "nemo",
-  "UdefIdentity": 973,
-  "UDListDefinitionId": 323,
+  "Page1LineNo": 646,
+  "ProgId": "quam",
+  "IsReadOnly": false,
+  "ShortLabel": "est",
+  "TabOrder": 252,
+  "TextLength": 538,
+  "Tooltip": "quibusdam",
+  "UdefIdentity": 564,
+  "UDListDefinitionId": 817,
   "Justification": "Center",
-  "Version": 513,
-  "TemplateVariableName": "Lindgren LLC",
-  "HasBeenPublished": true,
-  "MdoListName": "Wisozk Inc and Sons",
+  "Version": 271,
+  "TemplateVariableName": "Hodkiewicz, Schneider and Runolfsdottir",
+  "HasBeenPublished": false,
+  "MdoListName": "Rodriguez-Lubowitz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 467
+      "FieldLength": 188
     }
   }
 }

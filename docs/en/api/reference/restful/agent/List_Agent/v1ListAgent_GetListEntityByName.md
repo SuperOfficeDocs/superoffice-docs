@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Altenwerth Group"
+  "Name": "Thiel, Gottlieb and Davis"
 }
 ```
 
@@ -96,22 +96,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 24,
-  "Name": "Luettgen-Leannon",
-  "Tooltip": "aut",
+  "Id": 119,
+  "Name": "Boehm, Borer and Kassulke",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 279,
+  "Rank": 404,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "adipisci",
+  "UseGroupsAndHeadings": true,
+  "ListType": "expedita",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 410
+      "FieldType": "System.Int32",
+      "FieldLength": 912
     }
   }
 }

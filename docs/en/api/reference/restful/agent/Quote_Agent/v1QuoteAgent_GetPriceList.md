@@ -25,7 +25,7 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=137
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=657
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Quote/GetPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 815,
-  "ERPPriceListKey": "quia",
-  "QuoteConnectionId": 572,
-  "Name": "Weimann-Halvorson",
-  "Description": "Configurable 4th generation archive",
-  "Currency": "voluptatem",
-  "CurrencyName": "Spencer, Hudson and Bauch",
-  "ValidFrom": "2004-12-29T14:19:04.0000842+01:00",
-  "ValidTo": "1998-05-10T14:19:04.0000842+02:00",
+  "PriceListId": 209,
+  "ERPPriceListKey": "consequuntur",
+  "QuoteConnectionId": 306,
+  "Name": "Schoen, Swift and Kozey",
+  "Description": "Synchronised national workforce",
+  "Currency": "exercitationem",
+  "CurrencyName": "Price-Wisozk",
+  "ValidFrom": "2001-05-31T12:15:19.9187377+02:00",
+  "ValidTo": "2020-05-22T12:15:19.9187377+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldLength": 289
     }
   }
 }

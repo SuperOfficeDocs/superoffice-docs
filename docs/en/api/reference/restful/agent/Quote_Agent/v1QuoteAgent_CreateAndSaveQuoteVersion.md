@@ -114,7 +114,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 269
+  "QuoteVersionId": 527
 }
 ```
 
@@ -125,75 +125,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 820,
-  "ERPQuoteVersionKey": "aliquid",
-  "QuoteId": 346,
-  "Description": "Realigned encompassing interface",
-  "Number": "999144",
+  "QuoteVersionId": 344,
+  "ERPQuoteVersionKey": "expedita",
+  "QuoteId": 414,
+  "Description": "Digitized zero administration pricing structure",
+  "Number": "1318436",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
-  "Reason": "leverage interactive e-markets",
-  "LikelyQuoteAlternativeId": 109,
-  "SentDate": "2021-12-29T14:19:03.984459+01:00",
-  "FollowupId": 243,
-  "ExpirationDate": "2013-08-16T14:19:03.984459+02:00",
-  "DeliveryCountryId": 664,
+  "Reason": "",
+  "LikelyQuoteAlternativeId": 266,
+  "SentDate": "2020-10-29T12:15:19.8907064+01:00",
+  "FollowupId": 799,
+  "ExpirationDate": "2008-06-13T12:15:19.8907064+02:00",
+  "DeliveryCountryId": 942,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 839,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "totam",
-  "ERPPaymentTypeKey": "eveniet",
-  "ERPDeliveryTermsKey": "eum",
-  "ERPDeliveryTypeKey": "totam",
-  "Rank": 99,
-  "ApprovedBy": 733,
-  "ApprovedText": "quia",
-  "ApprovedRegisteredBy": 643,
-  "ApprovedRegisteredDate": "2015-05-19T14:19:03.984459+02:00",
-  "ExtraField1": "est",
-  "ExtraField2": "possimus",
-  "ExtraField3": "et",
-  "ExtraField4": "vel",
-  "ExtraField5": "provident",
-  "LastRecalculated": "2013-06-25T14:19:03.984459+02:00",
-  "Updated": "1999-08-30T14:19:03.984459+02:00",
-  "UpdatedAssociateId": 564,
-  "Registered": "2017-03-11T14:19:03.984459+01:00",
-  "RegisteredAssociateId": 270,
-  "RequestAssociateId": 673,
-  "RequestComment": "sapiente",
+  "InvoiceCountryId": 229,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "natus",
+  "ERPPaymentTypeKey": "ipsa",
+  "ERPDeliveryTermsKey": "odit",
+  "ERPDeliveryTypeKey": "est",
+  "Rank": 625,
+  "ApprovedBy": 973,
+  "ApprovedText": "sit",
+  "ApprovedRegisteredBy": 173,
+  "ApprovedRegisteredDate": "1999-08-19T12:15:19.8907064+02:00",
+  "ExtraField1": "id",
+  "ExtraField2": "quae",
+  "ExtraField3": "eum",
+  "ExtraField4": "enim",
+  "ExtraField5": "rem",
+  "LastRecalculated": "2022-10-26T12:15:19.8917403+02:00",
+  "Updated": "2003-12-01T12:15:19.8917403+01:00",
+  "UpdatedAssociateId": 367,
+  "Registered": "2005-12-27T12:15:19.8917403+01:00",
+  "RegisteredAssociateId": 55,
+  "RequestAssociateId": 613,
+  "RequestComment": "illo",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 852,
-      "ERPQuoteAlternativeKey": "et",
-      "QuoteVersionId": 81,
-      "Name": "Olson Group",
-      "Description": "Re-contextualized encompassing success",
+      "QuoteAlternativeId": 71,
+      "ERPQuoteAlternativeKey": "rem",
+      "QuoteVersionId": 545,
+      "Name": "Vandervort Inc and Sons",
+      "Description": "Enterprise-wide high-level firmware",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 29989.246,
-      "ERPDiscountAmount": 4531.764,
-      "DiscountPercent": 26128.158,
-      "DiscountAmount": 15372.269999999999,
+      "ERPDiscountPercent": 10229.376,
+      "ERPDiscountAmount": 26294.26,
+      "DiscountPercent": 3086.99,
+      "DiscountAmount": 5713.282,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "reiciendis",
-      "VAT": 14927.242,
-      "EarningPercent": 5935.7959999999994,
-      "EarningAmount": 8953.838,
-      "SubTotal": 12495.258,
-      "TotalPrice": 24457.736,
-      "ExtraField1": "nisi",
-      "ExtraField2": "dicta",
-      "ExtraField3": "est",
-      "ExtraField4": "nostrum",
-      "ExtraField5": "qui",
+      "VATInfo": "vero",
+      "VAT": 27638.746,
+      "EarningPercent": 27776.642,
+      "EarningAmount": 18048.706,
+      "SubTotal": 451.296,
+      "TotalPrice": 19079.791999999998,
+      "ExtraField1": "nihil",
+      "ExtraField2": "dolorem",
+      "ExtraField3": "consequatur",
+      "ExtraField4": "modi",
+      "ExtraField5": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 851
+          "FieldLength": 958
         }
       }
     }
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 890
+      "FieldLength": 583
     }
   }
 }

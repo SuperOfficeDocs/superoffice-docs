@@ -107,29 +107,29 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 154,
-  "ParentId": 208,
-  "Name": "Kutch LLC",
-  "Fullname": "at",
-  "CategoryMaster": 985,
+  "TicketCategoryId": 907,
+  "ParentId": 810,
+  "Name": "Yundt Inc and Sons",
+  "Fullname": "rem",
+  "CategoryMaster": 369,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Rogahn LLC",
+  "ExternalName": "Bergstrom-Bode",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 443,
-  "ReplyTemplate": 770,
-  "NotificationEmail": "damien@ryankuhn.co.uk",
+  "AssignmentLag": 321,
+  "ReplyTemplate": 174,
+  "NotificationEmail": "arjun@borer.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 453,
+  "EffectiveReplyTemplateId": 373,
   "ExtraFields": {
-    "ExtraFields1": "eaque",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "perspiciatis"
   },
   "CustomFields": {
-    "CustomFields1": "tempore",
-    "CustomFields2": "iure"
+    "CustomFields1": "dolorem",
+    "CustomFields2": "et"
   }
 }
 ```
@@ -141,36 +141,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 678,
-  "ParentId": 9,
-  "Name": "Feest-Witting",
-  "Fullname": "explicabo",
-  "CategoryMaster": 503,
+  "TicketCategoryId": 445,
+  "ParentId": 113,
+  "Name": "Zulauf-Sauer",
+  "Fullname": "modi",
+  "CategoryMaster": 862,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Dach-Abbott",
+  "ExternalName": "Feest LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 987,
-  "ReplyTemplate": 822,
-  "NotificationEmail": "felicita.okeefe@fahey.com",
+  "AssignmentLag": 462,
+  "ReplyTemplate": 132,
+  "NotificationEmail": "bertrand@kreigercole.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 455,
+  "EffectiveReplyTemplateId": 355,
   "ExtraFields": {
-    "ExtraFields1": "iusto",
-    "ExtraFields2": "quis"
+    "ExtraFields1": "distinctio",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "doloribus",
-    "CustomFields2": "et"
+    "CustomFields1": "voluptates",
+    "CustomFields2": "impedit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 365
+      "FieldType": "System.Int32",
+      "FieldLength": 793
     }
   }
 }

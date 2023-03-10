@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Erdman LLC",
+  "ConnectorName": "Schaefer-Grady",
   "ConnectionData": {
-    "ConnectionData1": "explicabo",
-    "ConnectionData2": "aut"
+    "ConnectionData1": "qui",
+    "ConnectionData2": "ut"
   }
 }
 ```
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "dolorem",
-  "TechExplanation": "eum",
-  "ErrorCode": "illo",
+  "IsOk": false,
+  "UserExplanation": "ut",
+  "TechExplanation": "aut",
+  "ErrorCode": "est",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 11
+      "FieldLength": 417
     }
   }
 }

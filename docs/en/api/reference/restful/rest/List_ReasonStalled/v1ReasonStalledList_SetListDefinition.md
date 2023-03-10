@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 291,
-  "Name": "Torp Group",
-  "Tooltip": "maiores",
+  "Id": 852,
+  "Name": "Kemmer-Mraz",
+  "Tooltip": "vero",
   "Deleted": false,
-  "Rank": 197,
+  "Rank": 105,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "repellat",
+  "ListType": "non",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 351,
-  "Name": "Gibson Inc and Sons",
-  "Tooltip": "et",
+  "Id": 391,
+  "Name": "O'Kon Group",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 847,
+  "Rank": 295,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolores",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "eum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 452
+      "FieldType": "System.Int32",
+      "FieldLength": 405
     }
   }
 }

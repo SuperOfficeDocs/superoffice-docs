@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 79,
-    "Name": "Mitchell-Hickle",
-    "Tooltip": "voluptatem",
+    "HeadingId": 409,
+    "Name": "Upton-Williamson",
+    "Tooltip": "qui",
     "Deleted": true,
-    "Rank": 612,
-    "UdListDefinitionId": 861
+    "Rank": 147,
+    "UdListDefinitionId": 828
   },
   {
-    "HeadingId": 79,
-    "Name": "Mitchell-Hickle",
-    "Tooltip": "voluptatem",
+    "HeadingId": 409,
+    "Name": "Upton-Williamson",
+    "Tooltip": "qui",
     "Deleted": true,
-    "Rank": 612,
-    "UdListDefinitionId": 861
+    "Rank": 147,
+    "UdListDefinitionId": 828
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 599,
-    "Name": "Pagac-Abshire",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "Rank": 851,
-    "UdListDefinitionId": 972,
+    "HeadingId": 609,
+    "Name": "Herzog-Nader",
+    "Tooltip": "ea",
+    "Deleted": true,
+    "Rank": 434,
+    "UdListDefinitionId": 657,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 130
+        "FieldLength": 243
       }
     }
   }

@@ -83,15 +83,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Koch Group",
-  "DeviceName": "Friesen-Kirlin",
-  "DeviceIdentifier": "ex",
-  "TableName": "Ortiz, Deckow and Funk",
-  "RecordId": 729
+  "ApplicationName": "Hegmann, Kshlerin and Satterfield",
+  "DeviceName": "Glover LLC",
+  "DeviceIdentifier": "officiis",
+  "TableName": "Torp-Daugherty",
+  "RecordId": 297
 }
 ```
 
@@ -103,20 +103,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "est",
-    "Value": "sed",
-    "RecordId": 201,
-    "CreatedDate": "2010-06-09T14:19:03.5759842+02:00",
-    "UpdatedDate": "2008-07-23T14:19:03.5759842+02:00",
-    "UpdatedBy": "fuga",
-    "CreatedBy": "accusamus",
-    "TableName": "Feest Inc and Sons",
+    "Key": "odio",
+    "Value": "alias",
+    "RecordId": 860,
+    "CreatedDate": "2010-04-12T12:15:19.1717511+02:00",
+    "UpdatedDate": "2008-04-16T12:15:19.1717511+02:00",
+    "UpdatedBy": "dicta",
+    "CreatedBy": "quasi",
+    "TableName": "Hayes, Powlowski and Davis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 435
+        "FieldLength": 448
       }
     }
   }

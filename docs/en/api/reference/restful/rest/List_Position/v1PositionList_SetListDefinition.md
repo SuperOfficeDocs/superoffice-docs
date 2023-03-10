@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 158,
-  "Name": "Leannon LLC",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 243,
+  "Id": 692,
+  "Name": "Klein LLC",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 402,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "laudantium",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "earum",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 274,
-  "Name": "Heaney-Gerhold",
-  "Tooltip": "rem",
+  "Id": 763,
+  "Name": "Kautzer, Ebert and Leuschke",
+  "Tooltip": "possimus",
   "Deleted": false,
-  "Rank": 750,
+  "Rank": 296,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "id",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "eos",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 201
+      "FieldLength": 826
     }
   }
 }

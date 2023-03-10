@@ -92,7 +92,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 421,
-  "ColumnId": 770,
-  "FieldDefault": "et",
-  "FieldHeight": 286,
-  "FieldLabel": "repudiandae",
-  "FieldLeft": 510,
-  "FieldTop": 431,
+  "UDefFieldId": 235,
+  "ColumnId": 311,
+  "FieldDefault": "reprehenderit",
+  "FieldHeight": 934,
+  "FieldLabel": "id",
+  "FieldLeft": 610,
+  "FieldTop": 6,
   "FieldType": "Checkbox",
-  "FieldWidth": 541,
-  "FormatMask": "et",
+  "FieldWidth": 779,
+  "FormatMask": "odio",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 557,
-  "LabelLeft": 157,
-  "LabelTop": 823,
-  "LabelWidth": 349,
-  "LastVersionId": 590,
-  "ListTableId": 164,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 201,
+  "LabelLeft": 410,
+  "LabelTop": 699,
+  "LabelWidth": 105,
+  "LastVersionId": 812,
+  "ListTableId": 304,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 454,
-  "ProgId": "aut",
-  "IsReadOnly": true,
-  "ShortLabel": "voluptatum",
-  "TabOrder": 319,
-  "TextLength": 865,
-  "Tooltip": "cupiditate",
-  "UdefIdentity": 441,
-  "UDListDefinitionId": 562,
+  "Page1LineNo": 413,
+  "ProgId": "unde",
+  "IsReadOnly": false,
+  "ShortLabel": "exercitationem",
+  "TabOrder": 251,
+  "TextLength": 674,
+  "Tooltip": "sequi",
+  "UdefIdentity": 323,
+  "UDListDefinitionId": 248,
   "Justification": "Center",
-  "Version": 396,
-  "TemplateVariableName": "Kunde Group",
-  "HasBeenPublished": false,
-  "MdoListName": "O'Conner Inc and Sons",
+  "Version": 576,
+  "TemplateVariableName": "Carter-Hickle",
+  "HasBeenPublished": true,
+  "MdoListName": "Morissette LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldLength": 459
     }
   }
 }

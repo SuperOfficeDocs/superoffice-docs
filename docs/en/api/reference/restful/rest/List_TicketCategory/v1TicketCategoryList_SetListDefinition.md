@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 22,
-  "Name": "Hansen, Wisozk and Hermiston",
-  "Tooltip": "eos",
+  "Id": 13,
+  "Name": "Langosh Group",
+  "Tooltip": "maxime",
   "Deleted": true,
-  "Rank": 460,
-  "IsCustomList": false,
+  "Rank": 776,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "nostrum",
+  "UseGroupsAndHeadings": true,
+  "ListType": "quo",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 511,
-  "Name": "Johns Inc and Sons",
-  "Tooltip": "adipisci",
+  "Id": 912,
+  "Name": "DuBuque, Langworth and Greenfelder",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "Rank": 826,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
+  "Rank": 445,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "nemo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 933
+      "FieldLength": 967
     }
   }
 }

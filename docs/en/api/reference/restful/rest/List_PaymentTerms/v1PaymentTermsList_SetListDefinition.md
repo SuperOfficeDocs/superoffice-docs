@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 663,
-  "Name": "Wiza, Vandervort and Hettinger",
-  "Tooltip": "perspiciatis",
-  "Deleted": true,
-  "Rank": 48,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 176,
+  "Name": "Bartoletti-Block",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 502,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "autem",
+  "ListType": "deserunt",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 567,
-  "Name": "Kutch, Jast and Herman",
-  "Tooltip": "aliquid",
+  "Id": 957,
+  "Name": "Fritsch-Wintheiser",
+  "Tooltip": "veritatis",
   "Deleted": false,
-  "Rank": 863,
-  "IsCustomList": false,
+  "Rank": 694,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quis",
+  "ListType": "sed",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 578
+      "FieldLength": 129
     }
   }
 }

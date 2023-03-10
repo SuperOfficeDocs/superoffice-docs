@@ -83,52 +83,52 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "repellat",
-  "ProviderName": "Goodwin, Krajcik and Schiller",
-  "StorageKey": "fuga",
+  "StorageType": "cumque",
+  "ProviderName": "Macejkovic LLC",
+  "StorageKey": "voluptatem",
   "ExtraRestrictions": [
     {
-      "Name": "Goldner, Kutch and Heathcote",
-      "Operator": "eum",
+      "Name": "Weissnat-Sipes",
+      "Operator": "delectus",
       "Values": [
-        "molestiae",
-        "dicta"
+        "quibusdam",
+        "corrupti"
       ],
       "DisplayValues": [
-        "nobis",
-        "recusandae"
+        "animi",
+        "fugit"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 592,
+      "InterParenthesis": 445,
       "InterOperator": "And",
-      "UniqueHash": 654
+      "UniqueHash": 711
     }
   ],
   "OrderBy": [
     {
-      "Name": "McLaughlin-Walsh",
+      "Name": "Walsh, Keeling and Turner",
       "Direction": "ASC"
     },
     {
-      "Name": "McLaughlin-Walsh",
+      "Name": "Walsh, Keeling and Turner",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "suscipit",
-    "laborum"
+    "in",
+    "consequuntur"
   ],
-  "PageSize": 334,
-  "PageNumber": 403
+  "PageSize": 716,
+  "PageNumber": 775
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Yost, Berge and Runte",
-      "DisplayTooltip": "magnam",
-      "DisplayType": "suscipit",
+      "DisplayName": "Daugherty-Hahn",
+      "DisplayTooltip": "qui",
+      "DisplayType": "aut",
       "CanOrderBy": false,
-      "Name": "Cole, Reilly and Howell",
+      "Name": "Grimes LLC",
       "CanRestrictBy": true,
-      "RestrictionType": "facilis",
-      "RestrictionListName": "Hahn, Bins and Beatty",
+      "RestrictionType": "voluptatem",
+      "RestrictionListName": "Frami, Tremblay and Wyman",
       "IsVisible": false,
-      "ExtraInfo": "aut",
-      "Width": "ratione",
-      "IconHint": "ea",
-      "HeadingIconHint": "sed"
+      "ExtraInfo": "nulla",
+      "Width": "fugiat",
+      "IconHint": "saepe",
+      "HeadingIconHint": "magni"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Torp Inc and Sons",
-      "PrimaryKey": 834,
+      "EntityName": "Schaden, Hirthe and Stiedemann",
+      "PrimaryKey": 766,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nostrum",
-          "TooltipHint": "vel",
-          "LinkHint": "qui"
+          "DisplayValue": "quis",
+          "TooltipHint": "aspernatur",
+          "LinkHint": "doloremque"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "delectus",
+      "LinkHint": "velit",
+      "StyleHint": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 966
+          "FieldType": "System.Int32",
+          "FieldLength": 796
         }
       }
     }
   ],
-  "RowCount": 106,
+  "RowCount": 432,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 200
+      "FieldLength": 690
     }
   }
 }

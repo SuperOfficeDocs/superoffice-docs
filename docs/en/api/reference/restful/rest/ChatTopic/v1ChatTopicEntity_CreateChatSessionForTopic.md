@@ -88,7 +88,7 @@ OK
 POST /api/v1/ChatTopic/{chatTopicId}/Sessions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,43 +98,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 773,
-  "TopicId": 514,
+  "ChatSessionId": 196,
+  "TopicId": 604,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aspernatur",
-  "CustomerHost": "enim",
-  "CustomerName": "O'Kon Group",
-  "CustomerEmail": "odell.morar@jonesprohaska.biz",
-  "CustomerPhone": "(762)318-7459",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Hodkiewicz-Waelchi",
+  "CustomerAlias": "cum",
+  "CustomerHost": "molestias",
+  "CustomerName": "West, Mueller and Raynor",
+  "CustomerEmail": "edwina.dibbert@mclaughlin.info",
+  "CustomerPhone": "1-797-696-2400 x606",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Emard, Kub and Waelchi",
   "Status": "Closed",
-  "FirstMessage": "est",
-  "LastMessage": "doloremque",
-  "WhenRequested": "2011-06-17T14:19:10.1310974+02:00",
-  "WhenStarted": "2000-03-18T14:19:10.1310974+01:00",
-  "WhenEnded": "2001-08-16T14:19:10.1310974+02:00",
-  "WhenIdle": "2022-05-22T14:19:10.1310974+02:00",
-  "WhenFetched": "2014-01-17T14:19:10.1310974+01:00",
-  "SessionKey": "aut",
-  "InitialQueuePos": 848,
-  "AlertLevel": 371,
-  "Rank": 148,
+  "FirstMessage": "excepturi",
+  "LastMessage": "quasi",
+  "WhenRequested": "2021-10-17T12:15:26.552643+02:00",
+  "WhenStarted": "2009-10-26T12:15:26.552643+01:00",
+  "WhenEnded": "2017-04-22T12:15:26.552643+02:00",
+  "WhenIdle": "2005-11-04T12:15:26.552643+01:00",
+  "WhenFetched": "2006-10-09T12:15:26.552643+02:00",
+  "SessionKey": "recusandae",
+  "InitialQueuePos": 931,
+  "AlertLevel": 729,
+  "Rank": 150,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 363,
+  "ChatbotIsActive": false,
+  "Rating": 129,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 273
+      "FieldType": "System.Int32",
+      "FieldLength": 281
     }
   }
 }

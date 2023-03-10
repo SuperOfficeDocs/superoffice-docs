@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 668,
-  "Name": "Kuhic, Lesch and Cummings",
-  "Tooltip": "eum",
+  "Id": 254,
+  "Name": "Crona Inc and Sons",
+  "Tooltip": "perferendis",
   "Deleted": true,
-  "UdListDefinitionId": 737,
-  "Rank": 770,
+  "UdListDefinitionId": 759,
+  "Rank": 109,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 164
+      "FieldType": "System.String",
+      "FieldLength": 732
     }
   }
 }

@@ -77,16 +77,16 @@ OK
 POST /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 136,
-  "Name": "Nitzsche Group",
-  "Tooltip": "facilis",
+  "HeadingId": 311,
+  "Name": "Ratke-Shanahan",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 220,
-  "UdListDefinitionId": 644
+  "Rank": 542,
+  "UdListDefinitionId": 324
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 960,
-  "Name": "Jakubowski, Will and Funk",
-  "Tooltip": "ea",
+  "HeadingId": 850,
+  "Name": "Rippin, Kessler and Gibson",
+  "Tooltip": "non",
   "Deleted": true,
-  "Rank": 225,
-  "UdListDefinitionId": 732,
+  "Rank": 441,
+  "UdListDefinitionId": 388,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 411
+      "FieldType": "System.String",
+      "FieldLength": 598
     }
   }
 }

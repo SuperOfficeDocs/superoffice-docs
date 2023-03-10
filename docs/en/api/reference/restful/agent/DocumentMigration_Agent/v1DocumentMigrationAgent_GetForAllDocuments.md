@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 373,
-  "IncludeEmails": true
+  "DocumentPluginId": 644,
+  "IncludeEmails": false
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 727,
-  "NumDocumentsAlreadyMigrated": 831,
+  "NumDocumentsOmitted": 851,
+  "NumDocumentsAlreadyMigrated": 988,
   "Documents": [
     {
-      "DocumentId": 910,
-      "ContactId": 768,
-      "PersonId": 690,
-      "SaleId": 348,
-      "ProjectId": 533,
-      "DocTmplId": 298,
-      "AssociateId": 268,
-      "UserGroupId": 241,
-      "VisibleForId": 393
+      "DocumentId": 404,
+      "ContactId": 470,
+      "PersonId": 883,
+      "SaleId": 375,
+      "ProjectId": 434,
+      "DocTmplId": 977,
+      "AssociateId": 306,
+      "UserGroupId": 326,
+      "VisibleForId": 532
     }
   ],
   "Associates": [
     {
-      "AssociateId": 473,
-      "EmailAddress": "lacey@auer.co.uk"
+      "AssociateId": 308,
+      "EmailAddress": "reginald@strosin.us"
     },
     {
-      "AssociateId": 473,
-      "EmailAddress": "lacey@auer.co.uk"
+      "AssociateId": 308,
+      "EmailAddress": "reginald@strosin.us"
     }
   ]
 }

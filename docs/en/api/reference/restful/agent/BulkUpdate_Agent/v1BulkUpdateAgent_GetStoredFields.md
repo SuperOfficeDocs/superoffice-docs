@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "project",
-  "Context": "ut"
+  "Context": "dolorum"
 }
 ```
 
@@ -104,52 +104,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
+    "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
     "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "fugit",
-    "ValueType": "tempora",
-    "Mandatory": false,
-    "EncodedDisplayName": "Rice Inc and Sons",
-    "EncodedDisplayDescription": "Compatible maximized task-force",
-    "IconHint": "temporibus",
+    "Key": "architecto",
+    "ValueType": "saepe",
+    "Mandatory": true,
+    "EncodedDisplayName": "Stehr Group",
+    "EncodedDisplayDescription": "Monitored didactic encoding",
+    "IconHint": "unde",
     "ControlInfos": [
       {
-        "Type": "quibusdam",
-        "Label": "iste",
-        "Dimension": 477,
-        "ListProviderName": "Dicki, Hamill and Weissnat",
-        "ListProviderExtraInfo": "quo",
-        "ListProviderPrimaryKeyName": "Witting-Predovic",
-        "ListLeadText": "repudiandae",
+        "Type": "et",
+        "Label": "non",
+        "Dimension": 889,
+        "ListProviderName": "Kerluke-King",
+        "ListProviderExtraInfo": "et",
+        "ListProviderPrimaryKeyName": "Ondricka-Reilly",
+        "ListLeadText": "accusantium",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 591
+            "FieldLength": 829
           }
         }
       }
     ],
-    "EncodedDataCaption": "dolore",
-    "EncodedDataCaptionDescription": "Optimized client-driven throughput",
-    "CurrentOperationType": "neque",
+    "EncodedDataCaption": "asperiores",
+    "EncodedDataCaptionDescription": "Inverse mission-critical process improvement",
+    "CurrentOperationType": "expedita",
     "Values": [
-      "nihil",
-      "eos"
+      "quia",
+      "animi"
     ],
     "DisplayValues": [
-      "porro",
-      "consequatur"
+      "ea",
+      "dolorem"
     ],
     "OperationInfos": [
       {
-        "Key": "non",
-        "EncodedDisplayName": "Williamson-Bradtke",
+        "Key": "sunt",
+        "EncodedDisplayName": "Boyle-Daugherty",
         "EncodedLeadTexts": [
-          "in",
+          "atque",
           "voluptas"
         ],
         "TableRight": null,
@@ -157,15 +157,15 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 649
+            "FieldLength": 423
           }
         }
       },
       {
-        "Key": "non",
-        "EncodedDisplayName": "Williamson-Bradtke",
+        "Key": "sunt",
+        "EncodedDisplayName": "Boyle-Daugherty",
         "EncodedLeadTexts": [
-          "in",
+          "atque",
           "voluptas"
         ],
         "TableRight": null,
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 649
+            "FieldLength": 423
           }
         }
       }

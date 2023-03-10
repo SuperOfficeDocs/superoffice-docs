@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "velit",
-    "doloremque"
+    "qui",
+    "nihil"
   ]
 }
 ```
@@ -93,82 +93,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "quidem",
+    "Label": "fuga",
     "Values": [
       {
-        "Label": "consequatur",
-        "Value": 14848.892,
-        "Description": "Ameliorated systematic access",
+        "Label": "qui",
+        "Value": 25031.257999999998,
+        "Description": "Seamless high-level ability",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 76
+            "FieldLength": 16
           }
         }
       },
       {
-        "Label": "consequatur",
-        "Value": 14848.892,
-        "Description": "Ameliorated systematic access",
+        "Label": "qui",
+        "Value": 25031.257999999998,
+        "Description": "Seamless high-level ability",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 76
+            "FieldLength": 16
           }
         }
       }
     ],
-    "Description": "De-engineered dynamic info-mediaries",
+    "Description": "Assimilated national groupware",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 395
+        "FieldLength": 312
       }
     }
   },
   {
-    "Label": "quidem",
+    "Label": "fuga",
     "Values": [
       {
-        "Label": "consequatur",
-        "Value": 14848.892,
-        "Description": "Ameliorated systematic access",
+        "Label": "qui",
+        "Value": 25031.257999999998,
+        "Description": "Seamless high-level ability",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 76
+            "FieldLength": 16
           }
         }
       },
       {
-        "Label": "consequatur",
-        "Value": 14848.892,
-        "Description": "Ameliorated systematic access",
+        "Label": "qui",
+        "Value": 25031.257999999998,
+        "Description": "Seamless high-level ability",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 76
+            "FieldLength": 16
           }
         }
       }
     ],
-    "Description": "De-engineered dynamic info-mediaries",
+    "Description": "Assimilated national groupware",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 395
+        "FieldLength": 312
       }
     }
   }

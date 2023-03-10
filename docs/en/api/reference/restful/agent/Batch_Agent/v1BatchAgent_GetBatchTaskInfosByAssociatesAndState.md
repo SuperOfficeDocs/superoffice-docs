@@ -94,13 +94,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    169,
-    370
+    832,
+    486
   ],
   "State": "All"
 }
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 434,
-    "Name": "Bashirian-Labadie",
-    "AssociateId": 858,
-    "DetailsTable": 227,
-    "DetailsRecord": 94,
-    "IsSystemTask": false,
+    "Id": 480,
+    "Name": "Kerluke Group",
+    "AssociateId": 35,
+    "DetailsTable": 437,
+    "DetailsRecord": 919,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "et",
-      "ParameterObject2": "qui"
+      "ParameterObject1": "quo",
+      "ParameterObject2": "animi"
     },
-    "LastStarted": "2012-04-16T14:19:02.7750538+02:00",
-    "Created": "2012-09-13T14:19:02.7750538+02:00",
-    "StartCount": 816,
-    "DatabaseSerialNumber": "591100",
-    "Context": "dicta",
-    "Result": "odit",
+    "LastStarted": "2014-02-17T12:15:18.2097626+01:00",
+    "Created": "2013-12-23T12:15:18.2097626+01:00",
+    "StartCount": 911,
+    "DatabaseSerialNumber": "854601",
+    "Context": "reprehenderit",
+    "Result": "maiores",
     "State": "All",
-    "Description": "Cross-group mobile interface",
-    "Response": "iste",
-    "Request": "fugiat",
-    "ProgressDescription": "Pre-emptive eco-centric process improvement",
-    "ProgressPercent": 647,
-    "FileName": "Schmitt Inc and Sons",
+    "Description": "Stand-alone non-volatile attitude",
+    "Response": "ut",
+    "Request": "repudiandae",
+    "ProgressDescription": "Re-contextualized explicit groupware",
+    "ProgressPercent": 754,
+    "FileName": "Tremblay-Huels",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 157
+        "FieldLength": 391
       }
     }
   }

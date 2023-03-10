@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 363,
-  "Currency": "atque"
+  "QuoteConnectionId": 328,
+  "Currency": "quo"
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 855,
-    "ERPPriceListKey": "est",
-    "QuoteConnectionId": 68,
-    "Name": "Schiller Inc and Sons",
-    "Description": "Object-based high-level success",
-    "Currency": "omnis",
-    "CurrencyName": "Ledner, Pacocha and Klocko",
-    "ValidFrom": "2022-06-23T14:19:04.0313341+02:00",
-    "ValidTo": "2020-05-29T14:19:04.0313341+02:00",
-    "IsActive": false,
+    "PriceListId": 661,
+    "ERPPriceListKey": "enim",
+    "QuoteConnectionId": 404,
+    "Name": "Johnston-Rogahn",
+    "Description": "Optimized foreground projection",
+    "Currency": "ipsa",
+    "CurrencyName": "Gislason Inc and Sons",
+    "ValidFrom": "2020-02-08T12:15:19.9467449+01:00",
+    "ValidTo": "1996-01-10T12:15:19.9467449+01:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 484
+        "FieldType": "System.String",
+        "FieldLength": 313
       }
     }
   }

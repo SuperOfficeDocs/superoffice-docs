@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 154,
-  "Name": "Lemke, Mertz and Batz",
-  "Tooltip": "commodi",
-  "Deleted": true,
-  "Rank": 186,
-  "UdListDefinitionId": 52
+  "HeadingId": 475,
+  "Name": "Jerde LLC",
+  "Tooltip": "veritatis",
+  "Deleted": false,
+  "Rank": 388,
+  "UdListDefinitionId": 532
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 897,
-  "Name": "Lebsack, Boyer and Schaefer",
-  "Tooltip": "officiis",
-  "Deleted": false,
-  "Rank": 542,
-  "UdListDefinitionId": 369,
+  "HeadingId": 381,
+  "Name": "Bergnaum, Wunsch and King",
+  "Tooltip": "at",
+  "Deleted": true,
+  "Rank": 478,
+  "UdListDefinitionId": 440,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 387
+      "FieldType": "System.Int32",
+      "FieldLength": 808
     }
   }
 }

@@ -122,33 +122,33 @@ OK
 POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 94,
-  "TopicId": 252,
+  "ChatSessionId": 250,
+  "TopicId": 868,
   "User": null,
   "Person": null,
-  "CustomerAlias": "optio",
-  "CustomerHost": "autem",
-  "CustomerName": "Schamberger Inc and Sons",
-  "CustomerEmail": "gerard@effertzveum.ca",
-  "CustomerPhone": "1-429-516-7325 x703",
+  "CustomerAlias": "accusamus",
+  "CustomerHost": "tempora",
+  "CustomerName": "Champlin-Monahan",
+  "CustomerEmail": "annabel@hackett.ca",
+  "CustomerPhone": "(661)521-9182",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kuphal, Huels and Olson",
+  "CustomerCompanyName": "Welch Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "consequatur",
-  "LastMessage": "iste",
-  "WhenRequested": "2011-02-28T14:19:02.8063042+01:00",
-  "WhenStarted": "2021-01-08T14:19:02.8063042+01:00",
-  "WhenEnded": "2007-08-05T14:19:02.8063042+02:00",
-  "WhenIdle": "2020-12-31T14:19:02.8063042+01:00",
-  "WhenFetched": "2006-04-26T14:19:02.8063042+02:00",
-  "SessionKey": "quod",
-  "InitialQueuePos": 452,
-  "AlertLevel": 453,
-  "Rank": 382,
+  "FirstMessage": "earum",
+  "LastMessage": "ut",
+  "WhenRequested": "2019-07-31T12:15:18.2587647+02:00",
+  "WhenStarted": "2008-01-19T12:15:18.2587647+01:00",
+  "WhenEnded": "2006-04-10T12:15:18.2587647+02:00",
+  "WhenIdle": "2021-08-09T12:15:18.2587647+02:00",
+  "WhenFetched": "2015-12-25T12:15:18.2587647+01:00",
+  "SessionKey": "temporibus",
+  "InitialQueuePos": 883,
+  "AlertLevel": 306,
+  "Rank": 274,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 573
+  "Rating": 773
 }
 ```
 
@@ -167,43 +167,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 753,
-  "TopicId": 62,
+  "ChatSessionId": 648,
+  "TopicId": 561,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dolores",
-  "CustomerHost": "voluptas",
-  "CustomerName": "Cruickshank LLC",
-  "CustomerEmail": "leslie.bahringer@white.biz",
-  "CustomerPhone": "(114)080-8530",
+  "CustomerAlias": "beatae",
+  "CustomerHost": "rerum",
+  "CustomerName": "Metz-Hessel",
+  "CustomerEmail": "anastasia@marquardt.biz",
+  "CustomerPhone": "518-557-7361 x8746",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Berge, Harber and Langworth",
+  "CustomerCompanyName": "Schoen-Heller",
   "Status": "Closed",
-  "FirstMessage": "asperiores",
-  "LastMessage": "sit",
-  "WhenRequested": "2006-10-09T14:19:02.8063042+02:00",
-  "WhenStarted": "2014-11-11T14:19:02.8063042+01:00",
-  "WhenEnded": "2010-12-19T14:19:02.8063042+01:00",
-  "WhenIdle": "2012-02-24T14:19:02.8063042+01:00",
-  "WhenFetched": "1999-04-09T14:19:02.8063042+02:00",
-  "SessionKey": "ut",
-  "InitialQueuePos": 393,
-  "AlertLevel": 91,
-  "Rank": 211,
+  "FirstMessage": "et",
+  "LastMessage": "accusamus",
+  "WhenRequested": "2009-10-14T12:15:18.2687615+02:00",
+  "WhenStarted": "2006-12-27T12:15:18.2687615+01:00",
+  "WhenEnded": "2021-07-29T12:15:18.2687615+02:00",
+  "WhenIdle": "2018-10-08T12:15:18.2687615+02:00",
+  "WhenFetched": "2011-08-10T12:15:18.2687615+02:00",
+  "SessionKey": "tempore",
+  "InitialQueuePos": 490,
+  "AlertLevel": 811,
+  "Rank": 233,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 573,
+  "ChatbotIsActive": false,
+  "Rating": 349,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldType": "System.String",
+      "FieldLength": 488
     }
   }
 }

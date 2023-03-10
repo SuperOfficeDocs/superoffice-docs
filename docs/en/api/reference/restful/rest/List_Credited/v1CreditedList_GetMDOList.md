@@ -26,7 +26,7 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Credited/MDOItems?flat=True
-GET /api/v1/List/Credited/MDOItems?query=nisi
+GET /api/v1/List/Credited/MDOItems?query=rerum
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1002,
-    "Name": "Ritchie Inc and Sons",
-    "ToolTip": "In ipsum adipisci.",
+    "Id": 871,
+    "Name": "Kutch-Graham",
+    "ToolTip": "Aspernatur sed sit quaerat numquam et.",
     "Deleted": false,
-    "Rank": 188,
-    "Type": "occaecati",
+    "Rank": 50,
+    "Type": "officiis",
     "ChildItems": [
       {
-        "Id": 462,
-        "Name": "Rath, Nikolaus and Fritsch",
-        "ToolTip": "Quia consectetur voluptas velit ullam.",
+        "Id": 342,
+        "Name": "Hermann-Schaefer",
+        "ToolTip": "Reiciendis id recusandae voluptas quia assumenda maiores.",
         "Deleted": true,
-        "Rank": 8,
-        "Type": "consequuntur",
+        "Rank": 826,
+        "Type": "dolores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quis",
-        "ColorBlock": 268,
-        "ExtraInfo": "aut",
-        "StyleHint": "maiores",
-        "FullName": "Terrell Dickinson DDS",
+        "IconHint": "provident",
+        "ColorBlock": 756,
+        "ExtraInfo": "consequatur",
+        "StyleHint": "sed",
+        "FullName": "Denis Fahey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 618
+            "FieldLength": 170
           }
         }
       }
     ],
-    "IconHint": "dolores",
-    "ColorBlock": 116,
-    "ExtraInfo": "qui",
-    "StyleHint": "porro",
-    "FullName": "Antonia Beer",
+    "IconHint": "aliquam",
+    "ColorBlock": 278,
+    "ExtraInfo": "saepe",
+    "StyleHint": "libero",
+    "FullName": "Laurine Caroline Brekke V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 429
+        "FieldLength": 132
       }
     }
   }

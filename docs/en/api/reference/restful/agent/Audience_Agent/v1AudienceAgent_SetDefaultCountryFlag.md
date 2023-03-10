@@ -70,7 +70,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "O'Hara, McClure and Metz",
+  "LayoutName": "Howe LLC",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

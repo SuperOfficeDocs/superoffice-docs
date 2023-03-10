@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,18 +117,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "voluptas",
-      "HTMLBody": "incidunt",
+      "Subject": "enim",
+      "HTMLBody": "recusandae",
       "From": null,
-      "Sent": "2014-08-25T14:19:03.3883958+02:00",
-      "Size": 228,
+      "Sent": "2011-09-16T12:15:18.9127528+02:00",
+      "Size": 196,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "eum",
-      "PlainBody": "commodi",
+      "MessageID": "rerum",
+      "PlainBody": "dolor",
       "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 944,
+      "ServerId": 183,
       "Attachments": [
         {},
         {}
@@ -137,12 +137,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Konopelski-Satterfield",
-      "EmailItemId": 775,
-      "AccountId": 99,
-      "ReceivedAt": "2020-02-28T14:19:03.3883958+01:00",
+      "FolderName": "Mraz LLC",
+      "EmailItemId": 450,
+      "AccountId": 425,
+      "ReceivedAt": "1997-06-03T12:15:18.9127528+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2000-09-27T14:19:03.3883958+02:00",
+      "RepliedAt": "2015-06-10T12:15:18.9127528+02:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -161,147 +161,147 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 506,
-        "ContactName": "Gleason-Senger",
-        "PersonId": 124,
-        "PersonName": "Reichert-Cronin",
-        "AssociateId": 351,
-        "Address": "amet",
-        "EmailId": 54,
+        "ContactId": 304,
+        "ContactName": "Torphy-Lehner",
+        "PersonId": 27,
+        "PersonName": "Wilkinson, Eichmann and Hessel",
+        "AssociateId": 193,
+        "Address": "saepe",
+        "EmailId": 863,
         "DuplicatePersonIds": [
-          6,
-          63
+          591,
+          215
         ],
-        "Name": "Kassulke Group",
+        "Name": "Kunze-Thiel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 447
+            "FieldLength": 417
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 678,
-        "ContactName": "Swift-Waters",
-        "PersonId": 950,
-        "PersonName": "Batz Inc and Sons",
-        "AssociateId": 274,
-        "Address": "blanditiis",
-        "EmailId": 661,
+        "ContactId": 388,
+        "ContactName": "Weimann-Spinka",
+        "PersonId": 40,
+        "PersonName": "Robel LLC",
+        "AssociateId": 191,
+        "Address": "eligendi",
+        "EmailId": 406,
         "DuplicatePersonIds": [
-          12,
-          311
+          711,
+          98
         ],
-        "Name": "Ziemann-Halvorson",
+        "Name": "Quitzon-Strosin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 31
+            "FieldLength": 786
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 63,
-        "ContactName": "Schiller Inc and Sons",
-        "PersonId": 804,
-        "PersonName": "Reinger, Greenfelder and Schamberger",
-        "AssociateId": 88,
-        "Address": "rerum",
-        "EmailId": 834,
+        "ContactId": 41,
+        "ContactName": "Little, Erdman and Christiansen",
+        "PersonId": 921,
+        "PersonName": "Abshire Inc and Sons",
+        "AssociateId": 417,
+        "Address": "doloremque",
+        "EmailId": 265,
         "DuplicatePersonIds": [
-          826,
+          692,
           248
         ],
-        "Name": "Herman, Schuster and Klocko",
+        "Name": "Strosin-Barton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 374
+            "FieldLength": 589
           }
         }
       }
     ],
-    "Subject": "rem",
-    "HTMLBody": "et",
+    "Subject": "voluptatem",
+    "HTMLBody": "quia",
     "From": null,
-    "Sent": "2018-02-28T14:19:03.3883958+01:00",
-    "Size": 537,
+    "Sent": "1999-01-05T12:15:18.9157548+01:00",
+    "Size": 699,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "et",
-    "PlainBody": "voluptatem",
-    "IsSent": true,
+    "MessageID": "voluptatum",
+    "PlainBody": "blanditiis",
+    "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 370,
+    "ServerId": 982,
     "Attachments": [
       {
-        "Description": "Persevering 4th generation function",
-        "Filename": "nobis",
-        "Size": 168,
-        "Type": "praesentium",
-        "Encoding": "harum",
-        "Id": "alias",
-        "Disposition": "consequatur",
+        "Description": "Operative stable model",
+        "Filename": "tempora",
+        "Size": 298,
+        "Type": "accusantium",
+        "Encoding": "quam",
+        "Id": "exercitationem",
+        "Disposition": "nam",
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 593
+            "FieldType": "System.Int32",
+            "FieldLength": 845
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Murray-Breitenberg",
+        "Name": "Bernier-Parker",
         "Values": [
-          "cupiditate",
-          "molestiae"
+          "deleniti",
+          "quo"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 780
+            "FieldLength": 932
           }
         }
       },
       {
-        "Name": "Murray-Breitenberg",
+        "Name": "Bernier-Parker",
         "Values": [
-          "cupiditate",
-          "molestiae"
+          "deleniti",
+          "quo"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 780
+            "FieldLength": 932
           }
         }
       }
     ],
-    "FolderName": "Blanda-Lang",
-    "EmailItemId": 556,
-    "AccountId": 529,
-    "ReceivedAt": "2014-08-24T14:19:03.3883958+02:00",
+    "FolderName": "Hamill, Hermann and Roberts",
+    "EmailItemId": 490,
+    "AccountId": 721,
+    "ReceivedAt": "2017-10-26T12:15:18.9157548+02:00",
     "InReplyTo": null,
-    "RepliedAt": "1995-11-25T14:19:03.3883958+01:00",
-    "HasCalendarData": true,
+    "RepliedAt": "1999-03-13T12:15:18.9157548+01:00",
+    "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
@@ -309,7 +309,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 916
+        "FieldLength": 129
       }
     }
   }

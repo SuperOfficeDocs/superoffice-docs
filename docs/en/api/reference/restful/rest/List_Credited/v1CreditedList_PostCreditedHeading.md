@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 67,
-  "Name": "Koss Inc and Sons",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 407,
-  "UdListDefinitionId": 509
+  "HeadingId": 960,
+  "Name": "Schmidt, Harris and Hilpert",
+  "Tooltip": "quas",
+  "Deleted": false,
+  "Rank": 351,
+  "UdListDefinitionId": 437
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 9,
-  "Name": "Sawayn, Cronin and Lesch",
+  "HeadingId": 39,
+  "Name": "Gottlieb Inc and Sons",
   "Tooltip": "in",
   "Deleted": true,
-  "Rank": 76,
-  "UdListDefinitionId": 193,
+  "Rank": 361,
+  "UdListDefinitionId": 153,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldType": "System.String",
+      "FieldLength": 942
     }
   }
 }

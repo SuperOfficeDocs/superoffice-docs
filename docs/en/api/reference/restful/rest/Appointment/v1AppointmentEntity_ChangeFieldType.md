@@ -103,7 +103,7 @@ AppointmentEntity found.
 POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 681,
-  "ColumnId": 822,
-  "FieldDefault": "eligendi",
-  "FieldHeight": 474,
-  "FieldLabel": "atque",
-  "FieldLeft": 381,
-  "FieldTop": 208,
+  "UDefFieldId": 920,
+  "ColumnId": 185,
+  "FieldDefault": "natus",
+  "FieldHeight": 225,
+  "FieldLabel": "natus",
+  "FieldLeft": 888,
+  "FieldTop": 712,
   "FieldType": "Checkbox",
-  "FieldWidth": 941,
-  "FormatMask": "nesciunt",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 132,
-  "LabelLeft": 594,
-  "LabelTop": 913,
-  "LabelWidth": 651,
-  "LastVersionId": 444,
-  "ListTableId": 501,
+  "FieldWidth": 91,
+  "FormatMask": "repellendus",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 195,
+  "LabelLeft": 938,
+  "LabelTop": 235,
+  "LabelWidth": 745,
+  "LastVersionId": 493,
+  "ListTableId": 453,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 916,
-  "ProgId": "debitis",
-  "IsReadOnly": true,
-  "ShortLabel": "enim",
-  "TabOrder": 98,
-  "TextLength": 69,
-  "Tooltip": "ipsa",
-  "UdefIdentity": 515,
-  "UDListDefinitionId": 42,
+  "Page1LineNo": 967,
+  "ProgId": "reprehenderit",
+  "IsReadOnly": false,
+  "ShortLabel": "natus",
+  "TabOrder": 554,
+  "TextLength": 200,
+  "Tooltip": "provident",
+  "UdefIdentity": 662,
+  "UDListDefinitionId": 221,
   "Justification": "Center",
-  "Version": 782,
-  "TemplateVariableName": "Vandervort-Legros",
+  "Version": 462,
+  "TemplateVariableName": "Ziemann Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Von, Schultz and Cruickshank",
+  "MdoListName": "Larkin, Price and Lynch",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 906
+      "FieldLength": 84
     }
   }
 }

@@ -87,7 +87,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 234,
-    "ColumnId": 561,
-    "FieldDefault": "veniam",
-    "FieldHeight": 247,
-    "FieldLabel": "et",
-    "FieldLeft": 145,
-    "FieldTop": 543,
+    "UDefFieldId": 564,
+    "ColumnId": 368,
+    "FieldDefault": "debitis",
+    "FieldHeight": 565,
+    "FieldLabel": "laboriosam",
+    "FieldLeft": 763,
+    "FieldTop": 484,
     "FieldType": "Checkbox",
-    "FieldWidth": 586,
-    "FormatMask": "ad",
+    "FieldWidth": 61,
+    "FormatMask": "soluta",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 808,
-    "LabelLeft": 342,
-    "LabelTop": 90,
-    "LabelWidth": 27,
-    "LastVersionId": 727,
-    "ListTableId": 162,
+    "IsIndexed": false,
+    "LabelHeight": 618,
+    "LabelLeft": 220,
+    "LabelTop": 824,
+    "LabelWidth": 857,
+    "LastVersionId": 138,
+    "ListTableId": 568,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 482,
-    "ProgId": "eos",
+    "Page1LineNo": 770,
+    "ProgId": "ut",
     "IsReadOnly": false,
-    "ShortLabel": "quis",
-    "TabOrder": 978,
-    "TextLength": 550,
-    "Tooltip": "ut",
-    "UdefIdentity": 555,
-    "UDListDefinitionId": 95,
+    "ShortLabel": "nostrum",
+    "TabOrder": 610,
+    "TextLength": 875,
+    "Tooltip": "praesentium",
+    "UdefIdentity": 216,
+    "UDListDefinitionId": 976,
     "Justification": "Center",
-    "Version": 134,
-    "TemplateVariableName": "Walsh, Greenfelder and Collins",
-    "HasBeenPublished": true,
-    "MdoListName": "Cassin LLC",
+    "Version": 671,
+    "TemplateVariableName": "Reilly Group",
+    "HasBeenPublished": false,
+    "MdoListName": "Torp, Zemlak and Beer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 41
+        "FieldType": "System.Int32",
+        "FieldLength": 596
       }
     }
   }

@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 87
+  "SelectionId": 378
 }
 ```
 
@@ -91,58 +91,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wisoky Group",
-    "Description": "Re-contextualized background flexibility",
-    "Rank": 939,
+    "Name": "Bailey LLC",
+    "Description": "Multi-lateral global architecture",
+    "Rank": 357,
     "Restrictions": [
       {
-        "Name": "Sporer, Swift and Bins",
-        "Operator": "a",
+        "Name": "Kertzmann, Rath and Blanda",
+        "Operator": "ex",
         "Values": [
-          "ipsa",
-          "qui"
+          "sit",
+          "omnis"
         ],
         "DisplayValues": [
-          "enim",
-          "vel"
+          "quae",
+          "et"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 490,
+        "InterParenthesis": 568,
         "InterOperator": "And",
-        "UniqueHash": 829
+        "UniqueHash": 139
       }
     ]
   },
   {
-    "Name": "Wisoky Group",
-    "Description": "Re-contextualized background flexibility",
-    "Rank": 939,
+    "Name": "Bailey LLC",
+    "Description": "Multi-lateral global architecture",
+    "Rank": 357,
     "Restrictions": [
       {
-        "Name": "Sporer, Swift and Bins",
-        "Operator": "a",
+        "Name": "Kertzmann, Rath and Blanda",
+        "Operator": "ex",
         "Values": [
-          "ipsa",
-          "qui"
+          "sit",
+          "omnis"
         ],
         "DisplayValues": [
-          "enim",
-          "vel"
+          "quae",
+          "et"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 490,
+        "InterParenthesis": 568,
         "InterOperator": "And",
-        "UniqueHash": 829
+        "UniqueHash": 139
       }
     ]
   }

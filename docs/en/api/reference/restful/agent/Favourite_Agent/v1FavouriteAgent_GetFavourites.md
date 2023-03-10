@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Rippin, Botsford and Ebert",
-  "AssociateId": 430
+  "TableName": "McClure-Willms",
+  "AssociateId": 457
 }
 ```
 
@@ -94,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Denesik-Emard",
-    "RecordId": 643,
-    "AssociateId": 319,
-    "ExtraInfo": "porro",
-    "Rank": 503,
+    "TableName": "Carroll Inc and Sons",
+    "RecordId": 195,
+    "AssociateId": 614,
+    "ExtraInfo": "minima",
+    "Rank": 617,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 820
+        "FieldType": "System.String",
+        "FieldLength": 454
       }
     }
   }

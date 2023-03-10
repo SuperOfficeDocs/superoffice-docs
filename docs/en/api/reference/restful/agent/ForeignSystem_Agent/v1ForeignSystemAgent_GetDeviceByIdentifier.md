@@ -86,9 +86,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bruen-Hagenes",
-  "DeviceName": "Shields, Rolfson and Reinger",
-  "DeviceIdentifier": "ut"
+  "ApplicationName": "Robel LLC",
+  "DeviceName": "Walker Inc and Sons",
+  "DeviceIdentifier": "ea"
 }
 ```
 
@@ -99,21 +99,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 761,
-  "Name": "Ullrich, Kiehn and Hermiston",
-  "CreatedDate": "2014-11-21T14:19:03.5602728+01:00",
-  "UpdatedDate": "2012-06-29T14:19:03.5602728+02:00",
-  "AssociateFullName": "Aryanna Roberts",
-  "CreatedBy": "aliquid",
-  "UpdatedBy": "quo",
-  "DeviceIdentifier": "consequatur",
-  "ForeignAppId": 487,
+  "ForeignDeviceId": 160,
+  "Name": "Cartwright Inc and Sons",
+  "CreatedDate": "2018-12-08T12:15:19.152749+01:00",
+  "UpdatedDate": "2021-08-03T12:15:19.152749+02:00",
+  "AssociateFullName": "Dr. Alexandro Skiles DDS",
+  "CreatedBy": "aut",
+  "UpdatedBy": "hic",
+  "DeviceIdentifier": "saepe",
+  "ForeignAppId": 72,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldLength": 814
     }
   }
 }

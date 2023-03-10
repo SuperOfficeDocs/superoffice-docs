@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 869,
-  "Name": "Sauer, Abernathy and Bauch",
-  "Tooltip": "id",
+  "Id": 522,
+  "Name": "Christiansen Inc and Sons",
+  "Tooltip": "iste",
   "Deleted": true,
-  "Rank": 49,
+  "Rank": 506,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quis",
-  "InUseByUserDefinedFields": true
+  "ListType": "saepe",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 470,
-  "Name": "Kuhn-Grimes",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "Rank": 554,
-  "IsCustomList": true,
+  "Id": 477,
+  "Name": "Rau-Turner",
+  "Tooltip": "eveniet",
+  "Deleted": false,
+  "Rank": 51,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "autem",
-  "InUseByUserDefinedFields": false,
+  "ListType": "recusandae",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldType": "System.String",
+      "FieldLength": 601
     }
   }
 }

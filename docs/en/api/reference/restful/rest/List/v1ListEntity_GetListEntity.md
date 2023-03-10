@@ -81,7 +81,7 @@ ListEntity found.
 GET /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,22 +91,22 @@ HTTP/1.1 200 ListEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 634,
-  "Name": "Kilback, Larkin and Nienow",
-  "Tooltip": "et",
+  "Id": 784,
+  "Name": "Schamberger, Hackett and Shanahan",
+  "Tooltip": "quidem",
   "Deleted": true,
-  "Rank": 397,
-  "IsCustomList": true,
+  "Rank": 642,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quaerat",
-  "InUseByUserDefinedFields": true,
+  "ListType": "totam",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 907
+      "FieldType": "System.Int32",
+      "FieldLength": 551
     }
   },
   "_Links": {

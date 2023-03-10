@@ -62,7 +62,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,32 +70,32 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 02 May 1996 14:19:10 G5T
+Last-Modified: Thu, 22 Dec 2005 12:15:26 G12T
 
 {
-  "ForeignAppId": 564,
-  "Name": "Nicolas-Mraz",
-  "CreatedDate": "2019-01-02T14:19:10.3498478+01:00",
-  "UpdatedDate": "1996-05-02T14:19:10.3498478+02:00",
+  "ForeignAppId": 268,
+  "Name": "Berge, Ward and Shanahan",
+  "CreatedDate": "1998-02-18T12:15:26.9446371+01:00",
+  "UpdatedDate": "2005-12-22T12:15:26.9446371+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 18,
-      "Name": "Davis, Mitchell and Zemlak",
-      "CreatedDate": "2014-10-16T14:19:10.3498478+02:00",
-      "UpdatedDate": "2001-07-22T14:19:10.3498478+02:00",
-      "AssociateFullName": "Lela Heaney",
-      "CreatedBy": "ducimus",
-      "UpdatedBy": "optio",
-      "DeviceIdentifier": "enim",
-      "ForeignAppId": 404,
+      "ForeignDeviceId": 778,
+      "Name": "Parisian, Schuster and Ziemann",
+      "CreatedDate": "2001-08-23T12:15:26.9456362+02:00",
+      "UpdatedDate": "1998-09-18T12:15:26.9456362+02:00",
+      "AssociateFullName": "Ms. Blaise Immanuel Casper DDS",
+      "CreatedBy": "a",
+      "UpdatedBy": "possimus",
+      "DeviceIdentifier": "deleniti",
+      "ForeignAppId": 254,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 420
+          "FieldType": "System.String",
+          "FieldLength": 524
         }
       }
     }
@@ -105,7 +105,7 @@ Last-Modified: Thu, 02 May 1996 14:19:10 G5T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 126
+      "FieldLength": 628
     }
   }
 }

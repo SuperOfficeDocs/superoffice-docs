@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 689,
-    "Name": "Rippin LLC",
-    "ToolTip": "Assumenda omnis ea sequi.",
-    "Deleted": false,
-    "Rank": 98,
-    "Type": "non",
-    "ColorBlock": 568,
-    "IconHint": "earum",
-    "Selected": true,
-    "LastChanged": "2016-11-09T14:19:11.2105958+01:00",
+    "Id": 217,
+    "Name": "Gislason-Hilll",
+    "ToolTip": "Nisi doloremque doloribus sunt in sed.",
+    "Deleted": true,
+    "Rank": 873,
+    "Type": "distinctio",
+    "ColorBlock": 355,
+    "IconHint": "dolor",
+    "Selected": false,
+    "LastChanged": "2018-09-03T12:15:28.0616221+02:00",
     "ChildItems": [
       {
-        "Id": 83,
-        "Name": "Sawayn-Cummings",
-        "ToolTip": "Omnis debitis eveniet nulla.",
-        "Deleted": true,
-        "Rank": 733,
-        "Type": "reiciendis",
-        "ColorBlock": 906,
-        "IconHint": "perferendis",
+        "Id": 688,
+        "Name": "Greenfelder, Koch and Kulas",
+        "ToolTip": "Quo qui quis.",
+        "Deleted": false,
+        "Rank": 915,
+        "Type": "quasi",
+        "ColorBlock": 832,
+        "IconHint": "suscipit",
         "Selected": false,
-        "LastChanged": "2002-07-07T14:19:11.2105958+02:00",
+        "LastChanged": "2011-12-20T12:15:28.0616221+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "nostrum",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "ea",
         "Hidden": true,
-        "FullName": "Paolo Abbott PhD"
+        "FullName": "Lenore Wilderman III"
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "pariatur",
-    "Hidden": true,
-    "FullName": "Hollie Franecki"
+    "ExtraInfo": "cumque",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Anne Kreiger"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 781,
-    "Name": "Tremblay Group",
-    "ToolTip": "Similique enim blanditiis eum autem.",
+    "Id": 203,
+    "Name": "Blick-Stroman",
+    "ToolTip": "Voluptas non excepturi.",
     "Deleted": false,
-    "Rank": 336,
-    "Type": "labore",
-    "ColorBlock": 279,
-    "IconHint": "nisi",
-    "Selected": false,
-    "LastChanged": "1996-04-10T14:19:11.2105958+02:00",
+    "Rank": 105,
+    "Type": "vero",
+    "ColorBlock": 233,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2018-08-28T12:15:28.0646199+02:00",
     "ChildItems": [
       {
-        "Id": 194,
-        "Name": "Denesik, Daugherty and Rodriguez",
-        "ToolTip": "Quas quasi optio omnis quod voluptatem.",
+        "Id": 90,
+        "Name": "Howe, Lueilwitz and Witting",
+        "ToolTip": "Aut molestias reprehenderit maiores aut reiciendis sequi quis.",
         "Deleted": false,
-        "Rank": 344,
-        "Type": "dolorum",
-        "ColorBlock": 778,
-        "IconHint": "nostrum",
+        "Rank": 474,
+        "Type": "molestias",
+        "ColorBlock": 196,
+        "IconHint": "sequi",
         "Selected": false,
-        "LastChanged": "2015-04-21T14:19:11.2105958+02:00",
+        "LastChanged": "2012-05-14T12:15:28.0676195+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "iusto",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Brandt Raynor PhD",
+        "FullName": "Prof. Willis Selmer King Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 390
+            "FieldLength": 20
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "corrupti",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "possimus",
     "Hidden": false,
-    "FullName": "Ryley Huel",
+    "FullName": "Sidney Streich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 412
+        "FieldType": "System.Int32",
+        "FieldLength": 638
       }
     }
   }

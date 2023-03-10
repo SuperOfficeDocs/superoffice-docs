@@ -124,18 +124,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "vel",
+    "path": "excepturi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "vel",
+    "path": "excepturi",
     "value": {}
   }
 ]
@@ -148,35 +148,35 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 244,
-  "Section": "voluptas",
-  "Key": "qui",
-  "Name": "Reichert Inc and Sons",
+  "PrefDescId": 627,
+  "Section": "qui",
+  "Key": "laboriosam",
+  "Name": "Kris, Gleichner and Blanda",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Organic transitional product",
+  "Description": "Right-sized solution-oriented intranet",
   "IsBuiltin": false,
-  "TableName": "Jerde LLC",
-  "UserDefinedListId": 843,
-  "Rank": 16,
-  "SubGroup": "harum",
-  "MinLevel": 440,
-  "MaxValue": 379,
-  "MinValue": 860,
-  "RequiredLicense": "qui",
+  "TableName": "Brown-Wolff",
+  "UserDefinedListId": 720,
+  "Rank": 998,
+  "SubGroup": "vel",
+  "MinLevel": 8,
+  "MaxValue": 349,
+  "MinValue": 262,
+  "RequiredLicense": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 183
+      "FieldLength": 269
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

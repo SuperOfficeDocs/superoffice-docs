@@ -26,7 +26,7 @@ Calls the List agent service GetAllSaleTypeEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/SaleType/Items?includeDeleted=False
+GET /api/v1/List/SaleType/Items?includeDeleted=True
 ```
 
 
@@ -98,53 +98,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 819,
-    "Name": "Fay, Krajcik and Bahringer",
-    "Tooltip": "doloribus",
-    "Rank": 154,
+    "SaleTypeId": 9,
+    "Name": "Schuppe, Emmerich and Rutherford",
+    "Tooltip": "est",
+    "Rank": 375,
     "DurationUnit": "Century",
-    "SaleDuration": 934,
-    "SaleTypeCatId": 69,
-    "Deleted": false,
+    "SaleDuration": 809,
+    "SaleTypeCatId": 545,
+    "Deleted": true,
     "HasGuide": false,
-    "HasStakeholders": false,
+    "HasStakeholders": true,
     "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 212,
-    "QuoteLinesTemplate": 76,
-    "ConfirmationLinesTemplate": 398,
+    "DefaultQuoteValidity": 493,
+    "QuoteLinesTemplate": 884,
+    "ConfirmationLinesTemplate": 775,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 41,
-    "MinEarningPercent": 625,
-    "GroupQuoteLinesBy": 478,
-    "SortGroupLinesBy": 544,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 902,
+    "MinEarningPercent": 347,
+    "GroupQuoteLinesBy": 899,
+    "SortGroupLinesBy": 151,
     "Stages": [
       {
-        "Id": 875,
-        "Name": "Schroeder LLC",
-        "ToolTip": "Dolores voluptatibus est ut.",
+        "Id": 321,
+        "Name": "Schmidt, Prohaska and Emmerich",
+        "ToolTip": "Aut odio beatae.",
         "Deleted": false,
-        "Rank": 429,
-        "Type": "enim",
-        "ColorBlock": 655,
-        "IconHint": "voluptatum",
+        "Rank": 654,
+        "Type": "non",
+        "ColorBlock": 396,
+        "IconHint": "ipsam",
         "Selected": false,
-        "LastChanged": "2019-06-03T14:19:11.4870653+02:00",
+        "LastChanged": "2023-01-12T12:15:28.4676171+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Dewayne Franecki",
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "deleniti",
+        "Hidden": false,
+        "FullName": "Dr. Cindy Harris PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 532
+            "FieldType": "System.Int32",
+            "FieldLength": 320
           }
         }
       }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 144
+        "FieldLength": 471
       }
     }
   }

@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    838,
-    140
+    141,
+    670
   ]
 }
 ```
@@ -102,50 +102,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 142,
-    "Name": "Turcotte Inc and Sons",
-    "ToolTip": "In excepturi et sed nisi maiores.",
-    "Deleted": true,
-    "Rank": 793,
-    "Type": "qui",
+    "Id": 700,
+    "Name": "Rippin Inc and Sons",
+    "ToolTip": "Excepturi nisi est expedita porro eum repellat.",
+    "Deleted": false,
+    "Rank": 735,
+    "Type": "occaecati",
     "ChildItems": [
       {
-        "Id": 18,
-        "Name": "Christiansen-Pouros",
-        "ToolTip": "Odit excepturi quasi.",
-        "Deleted": false,
-        "Rank": 815,
-        "Type": "quas",
+        "Id": 34,
+        "Name": "Keeling-Keebler",
+        "ToolTip": "Excepturi sed perspiciatis illo autem.",
+        "Deleted": true,
+        "Rank": 852,
+        "Type": "facere",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "temporibus",
-        "ColorBlock": 258,
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "exercitationem",
-        "FullName": "Dr. Jamir Torphy",
+        "IconHint": "eum",
+        "ColorBlock": 659,
+        "ExtraInfo": "ut",
+        "StyleHint": "odit",
+        "FullName": "Mr. Clark Jane Rosenbaum IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 668
+            "FieldLength": 375
           }
         }
       }
     ],
-    "IconHint": "culpa",
-    "ColorBlock": 353,
-    "ExtraInfo": "qui",
-    "StyleHint": "consequuntur",
-    "FullName": "Gabriel Erdman",
+    "IconHint": "sint",
+    "ColorBlock": 438,
+    "ExtraInfo": "sed",
+    "StyleHint": "at",
+    "FullName": "Laney Hand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 758
+        "FieldLength": 29
       }
     }
   }

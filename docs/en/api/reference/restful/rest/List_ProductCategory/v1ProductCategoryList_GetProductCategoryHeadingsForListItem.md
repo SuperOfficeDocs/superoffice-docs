@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 897,
-    "Name": "Eichmann-Schmidt",
-    "ToolTip": "Blanditiis architecto magni aut aut sit voluptatem.",
-    "Deleted": false,
-    "Rank": 93,
-    "Type": "odio",
-    "ColorBlock": 90,
-    "IconHint": "perferendis",
+    "Id": 727,
+    "Name": "Schroeder Inc and Sons",
+    "ToolTip": "Iure consectetur voluptatibus iure officia voluptates perspiciatis omnis.",
+    "Deleted": true,
+    "Rank": 227,
+    "Type": "qui",
+    "ColorBlock": 72,
+    "IconHint": "in",
     "Selected": true,
-    "LastChanged": "1997-05-06T14:19:11.3680268+02:00",
+    "LastChanged": "1998-06-30T12:15:28.2856167+02:00",
     "ChildItems": [
       {
-        "Id": 217,
-        "Name": "Bogisich-Bayer",
-        "ToolTip": "Autem sint rem.",
+        "Id": 383,
+        "Name": "Wiegand Group",
+        "ToolTip": "Modi perferendis voluptates molestiae et.",
         "Deleted": false,
-        "Rank": 300,
-        "Type": "deserunt",
-        "ColorBlock": 551,
-        "IconHint": "voluptatum",
+        "Rank": 900,
+        "Type": "doloribus",
+        "ColorBlock": 89,
+        "IconHint": "eos",
         "Selected": true,
-        "LastChanged": "2020-06-29T14:19:11.3680268+02:00",
+        "LastChanged": "1996-05-07T12:15:28.2856167+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Jaiden Camilla Vandervort II",
+        "ExtraInfo": "nulla",
+        "StyleHint": "unde",
+        "Hidden": false,
+        "FullName": "Patsy Ernser DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 251
+            "FieldType": "System.Int32",
+            "FieldLength": 258
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "id",
-    "Hidden": false,
-    "FullName": "Brady Schmidt",
+    "ExtraInfo": "iste",
+    "StyleHint": "asperiores",
+    "Hidden": true,
+    "FullName": "Dr. Whitney Tony Lakin Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 934
+        "FieldType": "System.String",
+        "FieldLength": 499
       }
     }
   }

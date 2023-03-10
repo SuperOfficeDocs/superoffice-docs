@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,35 +88,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 49,
-  "ERPQuoteAlternativeKey": "officiis",
-  "QuoteVersionId": 558,
-  "Name": "Heaney-Flatley",
-  "Description": "Multi-channelled heuristic capacity",
+  "QuoteAlternativeId": 302,
+  "ERPQuoteAlternativeKey": "minus",
+  "QuoteVersionId": 284,
+  "Name": "Hartmann Inc and Sons",
+  "Description": "Advanced cohesive help-desk",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 20769.018,
-  "ERPDiscountAmount": 9151.2799999999988,
-  "DiscountPercent": 12253.939999999999,
-  "DiscountAmount": 26240.982,
+  "ERPDiscountPercent": 12517.196,
+  "ERPDiscountAmount": 523.37799999999993,
+  "DiscountPercent": 2272.15,
+  "DiscountAmount": 1523.124,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "beatae",
-  "VAT": 22445.708,
-  "EarningPercent": 1244.1979999999999,
-  "EarningAmount": 5230.646,
-  "SubTotal": 18315.095999999998,
-  "TotalPrice": 19831.952,
-  "ExtraField1": "sunt",
-  "ExtraField2": "eveniet",
-  "ExtraField3": "ea",
-  "ExtraField4": "placeat",
-  "ExtraField5": "autem",
+  "VATInfo": "aliquid",
+  "VAT": 43.876,
+  "EarningPercent": 10370.405999999999,
+  "EarningAmount": 29215.147999999997,
+  "SubTotal": 27692.023999999998,
+  "TotalPrice": 9872.1,
+  "ExtraField1": "dolore",
+  "ExtraField2": "quo",
+  "ExtraField3": "eius",
+  "ExtraField4": "et",
+  "ExtraField5": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 557
+      "FieldType": "System.Int32",
+      "FieldLength": 556
     }
   }
 }

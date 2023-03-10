@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 331,
-  "HeadingId": 593
+  "UdListDefinitionId": 637,
+  "HeadingId": 819
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 521,
-    "Name": "Schulist Group",
-    "ToolTip": "Quia at distinctio est mollitia voluptates laudantium.",
+    "Id": 961,
+    "Name": "Mayer-McDermott",
+    "ToolTip": "Enim earum.",
     "Deleted": false,
-    "Rank": 324,
-    "Type": "reiciendis",
-    "ColorBlock": 690,
-    "IconHint": "a",
-    "Selected": false,
-    "LastChanged": "2014-10-16T14:19:03.6394986+02:00",
+    "Rank": 317,
+    "Type": "id",
+    "ColorBlock": 527,
+    "IconHint": "in",
+    "Selected": true,
+    "LastChanged": "2003-01-29T12:15:19.2687499+01:00",
     "ChildItems": [
       {
-        "Id": 633,
-        "Name": "Larkin, Wolf and Sawayn",
-        "ToolTip": "Tempora facilis.",
+        "Id": 442,
+        "Name": "Abbott-Miller",
+        "ToolTip": "Vel non consequatur neque quas ratione quo.",
         "Deleted": false,
-        "Rank": 737,
-        "Type": "quia",
-        "ColorBlock": 896,
-        "IconHint": "nisi",
+        "Rank": 245,
+        "Type": "maiores",
+        "ColorBlock": 836,
+        "IconHint": "provident",
         "Selected": false,
-        "LastChanged": "2002-12-19T14:19:03.6394986+01:00",
+        "LastChanged": "2009-03-21T12:15:19.2687499+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "molestiae",
-        "Hidden": false,
-        "FullName": "Prof. Audie Klein",
+        "ExtraInfo": "commodi",
+        "StyleHint": "asperiores",
+        "Hidden": true,
+        "FullName": "Howard Braun",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 226
+            "FieldLength": 599
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "non",
+    "ExtraInfo": "nihil",
+    "StyleHint": "sed",
     "Hidden": true,
-    "FullName": "Ashlynn O'Conner",
+    "FullName": "Bethel Christiansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 239
+        "FieldLength": 207
       }
     }
   }

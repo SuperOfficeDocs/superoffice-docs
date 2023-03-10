@@ -91,7 +91,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,73 +101,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 58,
-  "ERPProductKey": "ea",
-  "ERPPriceListKey": "consectetur",
-  "Name": "McKenzie LLC",
-  "Description": "Monitored attitude-oriented approach",
-  "Code": "ea",
-  "PriceUnit": "inventore",
-  "QuantityUnit": "tempora",
-  "IsSubscription": true,
-  "SubscriptionUnit": "occaecati",
-  "DefaultSubscriptionQuantity": 21947.402,
-  "ItemNumber": "1050198",
+  "ProductId": 387,
+  "ERPProductKey": "iure",
+  "ERPPriceListKey": "nisi",
+  "Name": "Beahan, Koepp and Willms",
+  "Description": "User-centric zero defect standardization",
+  "Code": "ipsum",
+  "PriceUnit": "quis",
+  "QuantityUnit": "est",
+  "IsSubscription": false,
+  "SubscriptionUnit": "quasi",
+  "DefaultSubscriptionQuantity": 4371.93,
+  "ItemNumber": "1219494",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sunt",
-  "ProductTypeKey": "laboriosam",
-  "VAT": 13363.376,
-  "VATInfo": "ut",
-  "UnitCost": 7897.6799999999994,
-  "UnitMinimumPrice": 1617.144,
-  "UnitListPrice": 27325.345999999998,
+  "ProductFamilyKey": "nesciunt",
+  "ProductTypeKey": "tempora",
+  "VAT": 14861.428,
+  "VATInfo": "alias",
+  "UnitCost": 20530.834,
+  "UnitMinimumPrice": 25676.861999999997,
+  "UnitListPrice": 25369.73,
   "InAssortment": false,
-  "Supplier": "voluptatem",
-  "SupplierCode": "in",
-  "Rights": "molestias",
-  "Rule": "vitae",
+  "Supplier": "eum",
+  "SupplierCode": "consequatur",
+  "Rights": "sint",
+  "Rule": "voluptate",
   "ExtraInfo": [
     {
-      "Name": "O'Reilly Group",
-      "Value": "odit",
+      "Name": "O'Reilly, Christiansen and Rosenbaum",
+      "Value": "architecto",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 375
+          "FieldLength": 941
         }
       }
     },
     {
-      "Name": "O'Reilly Group",
-      "Value": "odit",
+      "Name": "O'Reilly, Christiansen and Rosenbaum",
+      "Value": "architecto",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 375
+          "FieldLength": 941
         }
       }
     }
   ],
-  "RawExtraInfo": "soluta",
-  "ExtraField1": "aspernatur",
-  "ExtraField2": "sunt",
-  "ExtraField3": "provident",
-  "ExtraField4": "magnam",
-  "ExtraField5": "et",
-  "InStock": 1009.1479999999999,
+  "RawExtraInfo": "rem",
+  "ExtraField1": "nemo",
+  "ExtraField2": "eos",
+  "ExtraField3": "deserunt",
+  "ExtraField4": "et",
+  "ExtraField5": "dolore",
+  "InStock": 26435.29,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 530
+      "FieldLength": 240
     }
   }
 }

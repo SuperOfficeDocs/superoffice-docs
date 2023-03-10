@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 152,
-    "Name": "Welch, Crona and Morissette",
-    "Tooltip": "tempore",
-    "Deleted": true,
-    "UdListDefinitionId": 576,
-    "Rank": 732
+    "Id": 739,
+    "Name": "Doyle-Pacocha",
+    "Tooltip": "est",
+    "Deleted": false,
+    "UdListDefinitionId": 187,
+    "Rank": 396
   },
   {
-    "Id": 152,
-    "Name": "Welch, Crona and Morissette",
-    "Tooltip": "tempore",
-    "Deleted": true,
-    "UdListDefinitionId": 576,
-    "Rank": 732
+    "Id": 739,
+    "Name": "Doyle-Pacocha",
+    "Tooltip": "est",
+    "Deleted": false,
+    "UdListDefinitionId": 187,
+    "Rank": 396
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 473,
-    "Name": "Boehm, Russel and Von",
-    "Tooltip": "eligendi",
-    "Deleted": false,
-    "UdListDefinitionId": 88,
-    "Rank": 432,
+    "Id": 844,
+    "Name": "Schaden LLC",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 627,
+    "Rank": 375,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 853
+        "FieldLength": 369
       }
     }
   }

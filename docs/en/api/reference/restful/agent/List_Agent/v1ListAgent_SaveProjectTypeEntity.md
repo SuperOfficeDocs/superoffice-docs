@@ -80,39 +80,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 677,
-  "Name": "Keeling Group",
-  "Tooltip": "officiis",
-  "Rank": 384,
+  "ProjTypeId": 103,
+  "Name": "Ankunding, Jewess and Wisoky",
+  "Tooltip": "velit",
+  "Rank": 637,
   "DurationUnit": "Century",
-  "ProjectDuration": 324,
-  "Deleted": false,
-  "HasGuide": false,
+  "ProjectDuration": 802,
+  "Deleted": true,
+  "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 701,
-      "Name": "Nader-Ziemann",
-      "ToolTip": "Autem quae nisi et quam quidem.",
+      "Id": 241,
+      "Name": "Pollich, Gutkowski and Predovic",
+      "ToolTip": "Rerum adipisci doloremque error qui sed.",
       "Deleted": true,
-      "Rank": 553,
-      "Type": "ut",
-      "ColorBlock": 456,
-      "IconHint": "numquam",
-      "Selected": true,
-      "LastChanged": "2007-04-02T14:19:03.6863742+02:00",
+      "Rank": 184,
+      "Type": "dolorem",
+      "ColorBlock": 898,
+      "IconHint": "voluptatem",
+      "Selected": false,
+      "LastChanged": "2019-03-12T12:15:19.3317471+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dicta",
-      "StyleHint": "quis",
+      "ExtraInfo": "officiis",
+      "StyleHint": "voluptatibus",
       "Hidden": false,
-      "FullName": "Burnice Balistreri"
+      "FullName": "Yadira Kshlerin"
     }
   ]
 }
@@ -125,41 +125,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 695,
-  "Name": "Boyer Inc and Sons",
-  "Tooltip": "autem",
-  "Rank": 886,
+  "ProjTypeId": 229,
+  "Name": "Zulauf, Wuckert and Kozey",
+  "Tooltip": "aut",
+  "Rank": 28,
   "DurationUnit": "Century",
-  "ProjectDuration": 951,
-  "Deleted": true,
-  "HasGuide": false,
-  "IsAutoAdvance": true,
+  "ProjectDuration": 429,
+  "Deleted": false,
+  "HasGuide": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 612,
-      "Name": "Wolf-Daniel",
-      "ToolTip": "Vel beatae qui aut voluptas quaerat quisquam.",
-      "Deleted": false,
-      "Rank": 560,
-      "Type": "voluptatem",
-      "ColorBlock": 951,
+      "Id": 188,
+      "Name": "Kovacek, D'Amore and Strosin",
+      "ToolTip": "Consequatur et.",
+      "Deleted": true,
+      "Rank": 566,
+      "Type": "temporibus",
+      "ColorBlock": 683,
       "IconHint": "eaque",
       "Selected": false,
-      "LastChanged": "2020-05-23T14:19:03.6863742+02:00",
+      "LastChanged": "2006-02-10T12:15:19.332747+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "iure",
-      "StyleHint": "ratione",
+      "ExtraInfo": "quidem",
+      "StyleHint": "molestiae",
       "Hidden": false,
-      "FullName": "Garett Yost DVM",
+      "FullName": "Sebastian Jenkins",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 290
+          "FieldLength": 878
         }
       }
     }
@@ -169,7 +169,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 797
+      "FieldLength": 378
     }
   }
 }

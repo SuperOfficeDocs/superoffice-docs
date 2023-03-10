@@ -85,7 +85,7 @@ Webhook found.
 GET /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,26 +95,26 @@ HTTP/1.1 200 Webhook found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 766,
-  "Name": "Abshire LLC",
+  "WebhookId": 352,
+  "Name": "Braun, Mayer and Raynor",
   "Events": [
-    "iure",
-    "nostrum"
+    "unde",
+    "iure"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "quis",
+  "Secret": "velit",
   "State": "Active",
-  "Type": "rerum",
+  "Type": "ea",
   "Headers": {
-    "Headers1": "autem",
-    "Headers2": "ipsum"
+    "Headers1": "non",
+    "Headers2": "et"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2011-01-30T14:19:11.0855578+01:00",
+  "Registered": "1998-04-23T12:15:27.8126213+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2013-12-25T14:19:11.0855578+01:00",
+  "Updated": "2004-10-14T12:15:27.8136231+02:00",
   "UpdatedAssociate": null,
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",

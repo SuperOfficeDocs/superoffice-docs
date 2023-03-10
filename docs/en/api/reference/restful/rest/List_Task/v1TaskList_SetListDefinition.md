@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 505,
-  "Name": "Stoltenberg, Bode and Schinner",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 438,
-  "IsCustomList": false,
+  "Id": 182,
+  "Name": "Runolfsdottir Group",
+  "Tooltip": "velit",
+  "Deleted": true,
+  "Rank": 867,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "dolorem",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 277,
-  "Name": "Hirthe-Kozey",
-  "Tooltip": "inventore",
-  "Deleted": true,
-  "Rank": 846,
+  "Id": 788,
+  "Name": "Kris-Stokes",
+  "Tooltip": "doloribus",
+  "Deleted": false,
+  "Rank": 696,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "officia",
-  "InUseByUserDefinedFields": true,
+  "ListType": "deleniti",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 977
+      "FieldLength": 566
     }
   }
 }

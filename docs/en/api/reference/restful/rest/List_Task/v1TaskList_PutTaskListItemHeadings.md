@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 162,
-    "Name": "Anderson, Dare and Fay",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 991,
-    "UdListDefinitionId": 804
+    "HeadingId": 126,
+    "Name": "Weimann-Bauch",
+    "Tooltip": "est",
+    "Deleted": false,
+    "Rank": 358,
+    "UdListDefinitionId": 691
   },
   {
-    "HeadingId": 162,
-    "Name": "Anderson, Dare and Fay",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 991,
-    "UdListDefinitionId": 804
+    "HeadingId": 126,
+    "Name": "Weimann-Bauch",
+    "Tooltip": "est",
+    "Deleted": false,
+    "Rank": 358,
+    "UdListDefinitionId": 691
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 995,
-    "Name": "Cronin Inc and Sons",
-    "Tooltip": "delectus",
+    "HeadingId": 328,
+    "Name": "Kris LLC",
+    "Tooltip": "alias",
     "Deleted": false,
-    "Rank": 65,
-    "UdListDefinitionId": 767,
+    "Rank": 615,
+    "UdListDefinitionId": 493,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 415
+        "FieldLength": 278
       }
     }
   }

@@ -56,21 +56,21 @@ No Content
 PUT /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pacocha Group",
-    "DisplayName": "Erdman, Lakin and Swaniawski",
+    "Name": "Mitchell Inc and Sons",
+    "DisplayName": "Johnston, Shields and Von",
     "DisplayTooltip": "et",
-    "IsActive": false
+    "IsActive": true
   },
   {
-    "Name": "Pacocha Group",
-    "DisplayName": "Erdman, Lakin and Swaniawski",
+    "Name": "Mitchell Inc and Sons",
+    "DisplayName": "Johnston, Shields and Von",
     "DisplayTooltip": "et",
-    "IsActive": false
+    "IsActive": true
   }
 ]
 ```

@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 323,
-  "Name": "Swaniawski, Fritsch and Kreiger",
-  "Tooltip": "dolores",
-  "Rank": 800,
-  "Key": "atque",
+  "LegalBaseId": 919,
+  "Name": "Lang-Metz",
+  "Tooltip": "laudantium",
+  "Rank": 936,
+  "Key": "voluptas",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldType": "System.String",
+      "FieldLength": 464
     }
   }
 }

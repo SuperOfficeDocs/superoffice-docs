@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 344,
-    "Name": "Balistreri, Dibbert and Goyette",
-    "Tooltip": "molestiae",
+    "HeadingId": 803,
+    "Name": "Schaefer, Brown and Yost",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "Rank": 757,
-    "UdListDefinitionId": 958,
+    "Rank": 608,
+    "UdListDefinitionId": 127,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 932
+        "FieldLength": 536
       }
     }
   }

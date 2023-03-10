@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 314,
+  "SourceDocumentTemplateId": 254,
   "DocumentTemplateEntity": null
 }
 ```
@@ -113,37 +113,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 316,
-  "Name": "Fay, Feeney and Dooley",
-  "Tooltip": "odio",
-  "SaveInDb": 960,
-  "Filename": "accusantium",
-  "DefaultOref": "aliquam",
+  "DocumentTemplateId": 863,
+  "Name": "Koelpin, Wilderman and Koelpin",
+  "Tooltip": "reiciendis",
+  "SaveInDb": 118,
+  "Filename": "et",
+  "DefaultOref": "vero",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 284,
-  "IntentId": 100,
-  "IsDefaultPublished": true,
-  "Rank": 805,
-  "LoadTemplateFromPlugin": 308,
-  "MimeType": "autem",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 258,
+  "AutoeventId": 249,
+  "IntentId": 497,
+  "IsDefaultPublished": false,
+  "Rank": 30,
+  "LoadTemplateFromPlugin": 614,
+  "MimeType": "tenetur",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 735,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "myrtis.predovic@jacobs.biz",
+  "EmailSubject": "toni@okon.ca",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "freeda@boyle.uk",
+  "SenderEmailAddress": "brendan_robel@willschmeler.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 851
+      "FieldLength": 941
     }
   }
 }

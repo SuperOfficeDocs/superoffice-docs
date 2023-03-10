@@ -83,19 +83,19 @@ OK
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 383,
-  "PersonName": "Cummerata, Mills and Schinner",
+  "ContactId": 365,
+  "PersonName": "Davis, Fisher and Berge",
   "PhoneNumbers": [
-    "1259115",
-    "765217"
+    "1784991",
+    "747398"
   ],
   "Emails": [
-    "leopold@eichmann.ca",
-    "destany@cormier.uk"
+    "alvena@lockman.us",
+    "ansley@carroll.us"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 948
+      "FieldLength": 361
     }
   }
 }

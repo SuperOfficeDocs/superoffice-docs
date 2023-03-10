@@ -84,22 +84,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 927,
-  "Name": "Hahn, Hermann and Flatley",
-  "Description": "Secured neutral parallelism",
+  "ReportLabelLayoutId": 843,
+  "Name": "Keeling, Johnston and Mayert",
+  "Description": "Profound tangible structure",
   "Orientation": "Landscape",
-  "PaperWidth": 478,
-  "PaperHeight": 581,
-  "LeftMargin": 928,
-  "RightMargin": 689,
-  "TopMargin": 503,
-  "BottomMargin": 664,
-  "CountColumns": 543,
-  "CountRows": 351
+  "PaperWidth": 669,
+  "PaperHeight": 160,
+  "LeftMargin": 403,
+  "RightMargin": 462,
+  "TopMargin": 409,
+  "BottomMargin": 492,
+  "CountColumns": 830,
+  "CountRows": 783
 }
 ```
 
@@ -110,24 +110,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 372,
-  "Name": "Rosenbaum-Lehner",
-  "Description": "Horizontal leading edge knowledge base",
+  "ReportLabelLayoutId": 219,
+  "Name": "Walter LLC",
+  "Description": "Switchable contextually-based workforce",
   "Orientation": "Landscape",
-  "PaperWidth": 817,
-  "PaperHeight": 98,
-  "LeftMargin": 704,
-  "RightMargin": 562,
-  "TopMargin": 112,
-  "BottomMargin": 406,
-  "CountColumns": 952,
-  "CountRows": 493,
+  "PaperWidth": 155,
+  "PaperHeight": 33,
+  "LeftMargin": 908,
+  "RightMargin": 993,
+  "TopMargin": 761,
+  "BottomMargin": 940,
+  "CountColumns": 690,
+  "CountRows": 548,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 337
+      "FieldType": "System.Int32",
+      "FieldLength": 466
     }
   }
 }

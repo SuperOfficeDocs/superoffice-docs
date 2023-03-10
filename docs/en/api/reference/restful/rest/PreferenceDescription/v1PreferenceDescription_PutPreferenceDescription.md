@@ -116,24 +116,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 127,
-  "Section": "culpa",
-  "Key": "nostrum",
-  "Name": "Stehr, Mertz and Marvin",
+  "PrefDescId": 163,
+  "Section": "nemo",
+  "Key": "qui",
+  "Name": "Batz-Spinka",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Operative eco-centric open system",
+  "Description": "Automated intangible service-desk",
   "IsBuiltin": true,
-  "TableName": "Prohaska-Haley",
-  "UserDefinedListId": 465,
-  "Rank": 714,
-  "SubGroup": "perspiciatis",
-  "MinLevel": 305,
-  "MaxValue": 426,
-  "MinValue": 269,
-  "RequiredLicense": "sit"
+  "TableName": "Jacobson LLC",
+  "UserDefinedListId": 620,
+  "Rank": 727,
+  "SubGroup": "ut",
+  "MinLevel": 66,
+  "MaxValue": 683,
+  "MinValue": 507,
+  "RequiredLicense": "dolorum"
 }
 ```
 
@@ -144,30 +144,30 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 478,
-  "Section": "atque",
-  "Key": "occaecati",
-  "Name": "Abernathy, Johnston and Pfannerstill",
+  "PrefDescId": 816,
+  "Section": "non",
+  "Key": "consequatur",
+  "Name": "Yundt-Hauck",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Networked regional frame",
+  "Description": "Open-architected mobile algorithm",
   "IsBuiltin": false,
-  "TableName": "Beatty-Lindgren",
-  "UserDefinedListId": 962,
-  "Rank": 298,
-  "SubGroup": "temporibus",
-  "MinLevel": 601,
-  "MaxValue": 232,
-  "MinValue": 824,
-  "RequiredLicense": "est",
+  "TableName": "Berge LLC",
+  "UserDefinedListId": 86,
+  "Rank": 730,
+  "SubGroup": "adipisci",
+  "MinLevel": 296,
+  "MaxValue": 329,
+  "MinValue": 519,
+  "RequiredLicense": "exercitationem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 212
+      "FieldLength": 8
     }
   },
   "_Links": {

@@ -70,14 +70,14 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 1001,
-  "TemplateName": "Cormier, Tremblay and Vandervort",
-  "UseContacts": true,
-  "OrderBy": "voluptatibus"
+  "SelectionId": 909,
+  "TemplateName": "Hoeger, Tromp and Harvey",
+  "UseContacts": false,
+  "OrderBy": "ut"
 }
 ```
 

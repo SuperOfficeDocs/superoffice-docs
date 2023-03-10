@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 733
+  "PersonId": 864
 }
 ```
 
@@ -114,14 +114,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 608,
-    "Name": "Wolff, Beatty and Schumm",
-    "Rank": 2,
-    "Tooltip": "sint",
+    "AssociateId": 360,
+    "Name": "Yundt, Beier and Turcotte",
+    "Rank": 126,
+    "Tooltip": "dolorum",
     "LicenseOwners": [
       {
-        "Name": "Green Group",
-        "Description": "Business-focused mission-critical success",
+        "Name": "Little-Bailey",
+        "Description": "Re-engineered composite software",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 501
+            "FieldLength": 524
           }
         }
       },
       {
-        "Name": "Green Group",
-        "Description": "Business-focused mission-critical success",
+        "Name": "Little-Bailey",
+        "Description": "Re-engineered composite software",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 501
+            "FieldLength": 524
           }
         }
       }
@@ -164,110 +164,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "aliquam",
-        "Tooltip": "et",
-        "Id": 146,
-        "Rank": 770,
+        "Value": "officia",
+        "Tooltip": "sint",
+        "Id": 757,
+        "Rank": 707,
         "Deleted": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 892
+            "FieldType": "System.Int32",
+            "FieldLength": 311
           }
         }
       }
     ],
     "Person": null,
     "Deleted": false,
-    "Lastlogin": "2017-04-03T14:19:04.6109516+02:00",
-    "Lastlogout": "1997-05-17T14:19:04.6109516+02:00",
-    "EjUserId": 777,
-    "RequestSignature": "delectus",
+    "Lastlogin": "2006-01-31T12:15:20.6107287+01:00",
+    "Lastlogout": "1997-11-27T12:15:20.6107287+01:00",
+    "EjUserId": 301,
+    "RequestSignature": "recusandae",
     "Type": "AnonymousAssociate",
     "IsPersonRetired": false,
-    "IsOnTravel": true,
+    "IsOnTravel": false,
     "Credentials": [
       {
         "Type": null,
-        "Value": "cum",
-        "DisplayValue": "enim",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 201
-          }
-        }
-      },
-      {
-        "Type": null,
-        "Value": "cum",
-        "DisplayValue": "enim",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 201
-          }
-        }
-      }
-    ],
-    "UserName": "Donnelly-Tillman",
-    "TicketCategories": [
-      {
-        "Id": 976,
-        "Name": "Schimmel-Cole",
-        "ToolTip": "Dolorem corrupti.",
-        "Deleted": false,
-        "Rank": 540,
-        "Type": "maiores",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "consequuntur",
-        "ColorBlock": 656,
-        "ExtraInfo": "expedita",
-        "StyleHint": "reiciendis",
-        "FullName": "Loma Becker",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 448
-          }
-        }
-      }
-    ],
-    "NickName": "Emmerich-Gerhold",
-    "WaitingForApproval": false,
-    "ExtraFields": {
-      "ExtraFields1": "quae",
-      "ExtraFields2": "eligendi"
-    },
-    "CustomFields": {
-      "CustomFields1": "hic",
-      "CustomFields2": "rerum"
-    },
-    "PostSaveCommands": [
-      {
-        "Name": "Schroeder, King and Morar",
-        "DisplayName": "Herzog LLC",
-        "Description": "Total 24/7 secured line",
-        "ToolTip": "Unde mollitia aut quaerat doloremque.",
-        "Actions": "Implicit",
-        "ActionData": "qui",
+        "Value": "sint",
+        "DisplayValue": "omnis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 539
+            "FieldLength": 359
+          }
+        }
+      },
+      {
+        "Type": null,
+        "Value": "sint",
+        "DisplayValue": "omnis",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 359
+          }
+        }
+      }
+    ],
+    "UserName": "Gaylord Group",
+    "TicketCategories": [
+      {
+        "Id": 968,
+        "Name": "Lebsack Group",
+        "ToolTip": "Quisquam inventore expedita dolorem repellat suscipit enim a.",
+        "Deleted": false,
+        "Rank": 842,
+        "Type": "consectetur",
+        "ChildItems": [
+          {},
+          {}
+        ],
+        "IconHint": "voluptas",
+        "ColorBlock": 251,
+        "ExtraInfo": "illum",
+        "StyleHint": "id",
+        "FullName": "Ethelyn Moen",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 650
+          }
+        }
+      }
+    ],
+    "NickName": "Lesch, Luettgen and Bruen",
+    "WaitingForApproval": false,
+    "ExtraFields": {
+      "ExtraFields1": "ex",
+      "ExtraFields2": "repellendus"
+    },
+    "CustomFields": {
+      "CustomFields1": "quisquam",
+      "CustomFields2": "voluptatum"
+    },
+    "PostSaveCommands": [
+      {
+        "Name": "Kemmer Group",
+        "DisplayName": "Douglas-Dach",
+        "Description": "Horizontal fresh-thinking frame",
+        "ToolTip": "Qui ut sed architecto nihil facilis voluptatem.",
+        "Actions": "Implicit",
+        "ActionData": "odio",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 585
           }
         }
       }
@@ -277,7 +277,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 768
+        "FieldLength": 295
       }
     }
   }

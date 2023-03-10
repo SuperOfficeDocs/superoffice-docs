@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 491,
-  "Name": "Price-Kling",
-  "Tooltip": "non",
-  "Deleted": false,
-  "Rank": 113,
+  "Id": 707,
+  "Name": "Pouros LLC",
+  "Tooltip": "numquam",
+  "Deleted": true,
+  "Rank": 567,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "inventore",
-  "InUseByUserDefinedFields": false
+  "ListType": "incidunt",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 511,
-  "Name": "Waelchi LLC",
-  "Tooltip": "veritatis",
-  "Deleted": true,
-  "Rank": 265,
+  "Id": 920,
+  "Name": "Auer-Doyle",
+  "Tooltip": "porro",
+  "Deleted": false,
+  "Rank": 453,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "porro",
+  "ListType": "quaerat",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 378
+      "FieldType": "System.String",
+      "FieldLength": 467
     }
   }
 }

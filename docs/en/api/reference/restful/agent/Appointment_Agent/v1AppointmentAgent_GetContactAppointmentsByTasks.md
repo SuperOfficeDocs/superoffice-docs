@@ -126,17 +126,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 861,
-  "StartTime": "2002-11-12T14:19:02.3574969+01:00",
-  "EndTime": "2009-03-09T14:19:02.3574969+01:00",
-  "Count": 162,
+  "ContactId": 135,
+  "StartTime": "2008-03-15T12:15:17.6507705+01:00",
+  "EndTime": "2001-11-11T12:15:17.6507705+01:00",
+  "Count": 766,
   "TaskIds": [
-    120,
-    938
+    350,
+    988
   ]
 }
 ```
@@ -149,61 +149,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 69,
-    "StartDate": "2009-04-28T14:19:02.3574969+02:00",
-    "EndDate": "2002-08-03T14:19:02.3574969+02:00",
+    "AppointmentId": 294,
+    "StartDate": "2009-08-09T12:15:17.6517705+02:00",
+    "EndDate": "2022-01-12T12:15:17.6517705+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ea",
-    "AssociateFullName": "Trycia Douglas",
-    "ContactName": "Gerlach-Jaskolski",
-    "Description": "Triple-buffered local support",
-    "PersonFullName": "Ms. Felicia Leannon",
-    "PersonId": 706,
-    "ContactId": 71,
-    "ProjectId": 454,
-    "ProjectName": "Boehm Group",
+    "Task": "omnis",
+    "AssociateFullName": "Zachery Windler",
+    "ContactName": "O'Conner, Kohler and Braun",
+    "Description": "Reactive 5th generation hardware",
+    "PersonFullName": "Jarred Simonis",
+    "PersonId": 204,
+    "ContactId": 428,
+    "ProjectId": 549,
+    "ProjectName": "Streich-Batz",
     "IsPublished": false,
-    "AssociateId": 900,
-    "ColorIndex": 276,
-    "IsFree": true,
+    "AssociateId": 114,
+    "ColorIndex": 982,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 602,
-    "PriorityName": "Goldner, Harvey and Rowe",
+    "PriorityId": 502,
+    "PriorityName": "Thompson Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": true,
-    "ActiveDate": "2010-03-12T14:19:02.3574969+01:00",
+    "ActiveDate": "2002-08-26T12:15:17.6517705+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2007-08-12T14:19:02.3574969+02:00",
-    "RecurringEndDate": "1996-12-15T14:19:02.3574969+01:00",
-    "MotherId": 548,
-    "AssignedBy": 354,
-    "AssignedByFullName": "Barrett White Sr.",
+    "RecurringStartDate": "2013-11-24T12:15:17.6517705+01:00",
+    "RecurringEndDate": "2012-09-22T12:15:17.6517705+02:00",
+    "MotherId": 84,
+    "AssignedBy": 478,
+    "AssignedByFullName": "Alayna Armstrong",
     "RejectReason": "",
-    "Location": "quasi",
-    "AlarmLeadTime": "ut",
-    "SaleId": 667,
-    "SaleName": "Hessel-McDermott",
-    "AssociateName": "Runolfsdottir-Howell",
-    "CreatedDate": "2003-06-07T14:19:02.3574969+02:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Renee Hagenes",
-    "CreatedByAssociateId": 335,
+    "Location": "voluptas",
+    "AlarmLeadTime": "nulla",
+    "SaleId": 672,
+    "SaleName": "Kirlin, Spinka and Crona",
+    "AssociateName": "Schaden LLC",
+    "CreatedDate": "2016-09-21T12:15:17.6527713+02:00",
+    "CreatedBy": "rem",
+    "CreatedByFullName": "Letha Koelpin",
+    "CreatedByAssociateId": 788,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 100
+        "FieldType": "System.Int32",
+        "FieldLength": 424
       }
     }
   }

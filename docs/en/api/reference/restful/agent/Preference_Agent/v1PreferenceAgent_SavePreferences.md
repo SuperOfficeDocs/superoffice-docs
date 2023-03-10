@@ -72,16 +72,16 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "et",
+      "RawValue": "id",
       "Specification": null,
-      "DisplayValue": "cumque",
-      "DisplayTooltip": "aut",
+      "DisplayValue": "dolorem",
+      "DisplayTooltip": "sit",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 824,
-      "PrefDescId": 629,
-      "TableName": "Keebler, Feeney and Hauck",
-      "UserPreferenceId": 557
+      "TargetId": 424,
+      "PrefDescId": 809,
+      "TableName": "Nicolas, Dicki and Schmeler",
+      "UserPreferenceId": 891
     }
   ]
 }

@@ -140,55 +140,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 80,
-  "ERPProductKey": "mollitia",
-  "ERPPriceListKey": "aut",
-  "Name": "Towne, Yost and Christiansen",
-  "Description": "Digitized solution-oriented hardware",
-  "Code": "dolorem",
-  "PriceUnit": "quia",
-  "QuantityUnit": "esse",
-  "IsSubscription": true,
-  "SubscriptionUnit": "pariatur",
-  "DefaultSubscriptionQuantity": 4679.062,
-  "ItemNumber": "1308703",
+  "ProductId": 366,
+  "ERPProductKey": "blanditiis",
+  "ERPPriceListKey": "labore",
+  "Name": "Walker Inc and Sons",
+  "Description": "Upgradable eco-centric projection",
+  "Code": "perferendis",
+  "PriceUnit": "rerum",
+  "QuantityUnit": "eligendi",
+  "IsSubscription": false,
+  "SubscriptionUnit": "facilis",
+  "DefaultSubscriptionQuantity": 8173.472,
+  "ItemNumber": "1165740",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "officia",
-  "ProductTypeKey": "et",
-  "VAT": 26175.167999999998,
-  "VATInfo": "est",
-  "UnitCost": 14447.74,
-  "UnitMinimumPrice": 16701.086,
-  "UnitListPrice": 5174.2339999999995,
+  "ProductFamilyKey": "ut",
+  "ProductTypeKey": "rerum",
+  "VAT": 20418.01,
+  "VATInfo": "in",
+  "UnitCost": 3870.49,
+  "UnitMinimumPrice": 19405.728,
+  "UnitListPrice": 28384.638,
   "InAssortment": false,
-  "Supplier": "ut",
-  "SupplierCode": "odit",
-  "Rights": "voluptatem",
-  "Rule": "aperiam",
+  "Supplier": "voluptatem",
+  "SupplierCode": "voluptas",
+  "Rights": "sapiente",
+  "Rule": "autem",
   "ExtraInfo": [
     {
-      "Name": "Gorczany-Emard",
-      "Value": "iste",
+      "Name": "Roberts-Fisher",
+      "Value": "rerum",
       "Type": "Image"
     },
     {
-      "Name": "Gorczany-Emard",
-      "Value": "iste",
+      "Name": "Roberts-Fisher",
+      "Value": "rerum",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "rerum",
-  "ExtraField1": "voluptatum",
-  "ExtraField2": "mollitia",
-  "ExtraField3": "cum",
-  "ExtraField4": "quia",
-  "ExtraField5": "assumenda",
-  "InStock": 20787.822
+  "RawExtraInfo": "labore",
+  "ExtraField1": "id",
+  "ExtraField2": "quisquam",
+  "ExtraField3": "sequi",
+  "ExtraField4": "accusamus",
+  "ExtraField5": "et",
+  "InStock": 10765.289999999999
 }
 ```
 
@@ -199,73 +199,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 61,
-  "ERPProductKey": "cum",
-  "ERPPriceListKey": "officia",
-  "Name": "Leannon-Farrell",
-  "Description": "Cross-platform leading edge attitude",
-  "Code": "enim",
-  "PriceUnit": "ullam",
-  "QuantityUnit": "velit",
-  "IsSubscription": true,
-  "SubscriptionUnit": "quisquam",
-  "DefaultSubscriptionQuantity": 1927.4099999999999,
-  "ItemNumber": "1064175",
+  "ProductId": 577,
+  "ERPProductKey": "vitae",
+  "ERPPriceListKey": "quia",
+  "Name": "Hauck LLC",
+  "Description": "Persevering modular application",
+  "Code": "id",
+  "PriceUnit": "est",
+  "QuantityUnit": "id",
+  "IsSubscription": false,
+  "SubscriptionUnit": "et",
+  "DefaultSubscriptionQuantity": 26993.142,
+  "ItemNumber": "1651562",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quia",
-  "ProductTypeKey": "saepe",
-  "VAT": 10486.364,
-  "VATInfo": "et",
-  "UnitCost": 7775.454,
-  "UnitMinimumPrice": 16986.28,
-  "UnitListPrice": 10229.376,
-  "InAssortment": false,
-  "Supplier": "consequatur",
-  "SupplierCode": "quo",
-  "Rights": "tempora",
-  "Rule": "eligendi",
+  "ProductFamilyKey": "consequuntur",
+  "ProductTypeKey": "et",
+  "VAT": 5628.664,
+  "VATInfo": "explicabo",
+  "UnitCost": 22439.44,
+  "UnitMinimumPrice": 24974.845999999998,
+  "UnitListPrice": 3754.5319999999997,
+  "InAssortment": true,
+  "Supplier": "occaecati",
+  "SupplierCode": "consequuntur",
+  "Rights": "et",
+  "Rule": "minus",
   "ExtraInfo": [
     {
-      "Name": "Heathcote-Little",
-      "Value": "ab",
+      "Name": "Barton LLC",
+      "Value": "eius",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 957
+          "FieldLength": 270
         }
       }
     },
     {
-      "Name": "Heathcote-Little",
-      "Value": "ab",
+      "Name": "Barton LLC",
+      "Value": "eius",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 957
+          "FieldLength": 270
         }
       }
     }
   ],
-  "RawExtraInfo": "consectetur",
-  "ExtraField1": "delectus",
-  "ExtraField2": "voluptas",
-  "ExtraField3": "corporis",
-  "ExtraField4": "libero",
-  "ExtraField5": "odio",
-  "InStock": 31249.113999999998,
+  "RawExtraInfo": "qui",
+  "ExtraField1": "impedit",
+  "ExtraField2": "a",
+  "ExtraField3": "ut",
+  "ExtraField4": "quis",
+  "ExtraField5": "perspiciatis",
+  "InStock": 31318.061999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 424
+      "FieldLength": 557
     }
   }
 }

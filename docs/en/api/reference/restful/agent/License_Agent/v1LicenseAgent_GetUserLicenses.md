@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 700
+  "AssociateId": 424
 }
 ```
 
@@ -91,30 +91,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kub Group",
-    "Description": "Devolved intangible Graphic Interface",
+    "Name": "Nolan Inc and Sons",
+    "Description": "Ameliorated hybrid encoding",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 179,
-        "Tooltip": "exercitationem",
+        "Unrestricted": false,
+        "Total": 889,
+        "Tooltip": "numquam",
         "CanAssign": true,
-        "Free": 955,
-        "InUse": 99,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 227,
-        "Name": "Orn Inc and Sons",
-        "Description": "Compatible bi-directional extranet",
-        "PrerequisiteModuleName": "Oberbrunner Group",
-        "SortOrder": 321,
-        "ExtraFlags": 337,
+        "Free": 597,
+        "InUse": 482,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 562,
+        "Name": "Balistreri-Stiedemann",
+        "Description": "User-centric zero tolerance workforce",
+        "PrerequisiteModuleName": "Wisozk Inc and Sons",
+        "SortOrder": 746,
+        "ExtraFlags": 282,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 989
+            "FieldLength": 506
           }
         }
       }
@@ -122,25 +122,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 402,
-        "Tooltip": "debitis",
+        "Total": 444,
+        "Tooltip": "aut",
         "CanAssign": false,
-        "Free": 853,
-        "InUse": 53,
+        "Free": 644,
+        "InUse": 109,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 290,
-        "Name": "Reilly, Wiza and Senger",
-        "Description": "Cloned stable firmware",
-        "PrerequisiteModuleName": "Runolfsdottir, Padberg and Terry",
-        "SortOrder": 912,
-        "ExtraFlags": 112,
+        "ModuleLicenseId": 539,
+        "Name": "Sipes, Stanton and Hackett",
+        "Description": "Vision-oriented value-added website",
+        "PrerequisiteModuleName": "Krajcik Group",
+        "SortOrder": 578,
+        "ExtraFlags": 830,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 270
+            "FieldLength": 958
           }
         }
       }
@@ -150,35 +150,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 357
+        "FieldLength": 835
       }
     }
   },
   {
-    "Name": "Kub Group",
-    "Description": "Devolved intangible Graphic Interface",
+    "Name": "Nolan Inc and Sons",
+    "Description": "Ameliorated hybrid encoding",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 179,
-        "Tooltip": "exercitationem",
+        "Unrestricted": false,
+        "Total": 889,
+        "Tooltip": "numquam",
         "CanAssign": true,
-        "Free": 955,
-        "InUse": 99,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 227,
-        "Name": "Orn Inc and Sons",
-        "Description": "Compatible bi-directional extranet",
-        "PrerequisiteModuleName": "Oberbrunner Group",
-        "SortOrder": 321,
-        "ExtraFlags": 337,
+        "Free": 597,
+        "InUse": 482,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 562,
+        "Name": "Balistreri-Stiedemann",
+        "Description": "User-centric zero tolerance workforce",
+        "PrerequisiteModuleName": "Wisozk Inc and Sons",
+        "SortOrder": 746,
+        "ExtraFlags": 282,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 989
+            "FieldLength": 506
           }
         }
       }
@@ -186,25 +186,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 402,
-        "Tooltip": "debitis",
+        "Total": 444,
+        "Tooltip": "aut",
         "CanAssign": false,
-        "Free": 853,
-        "InUse": 53,
+        "Free": 644,
+        "InUse": 109,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 290,
-        "Name": "Reilly, Wiza and Senger",
-        "Description": "Cloned stable firmware",
-        "PrerequisiteModuleName": "Runolfsdottir, Padberg and Terry",
-        "SortOrder": 912,
-        "ExtraFlags": 112,
+        "ModuleLicenseId": 539,
+        "Name": "Sipes, Stanton and Hackett",
+        "Description": "Vision-oriented value-added website",
+        "PrerequisiteModuleName": "Krajcik Group",
+        "SortOrder": 578,
+        "ExtraFlags": 830,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 270
+            "FieldLength": 958
           }
         }
       }
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 357
+        "FieldLength": 835
       }
     }
   }

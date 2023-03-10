@@ -86,14 +86,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sunt",
-  "Value": "repellendus",
-  "RecordId": 468,
-  "CreatedDate": "2018-06-08T14:19:10.3654771+02:00",
-  "UpdatedDate": "2010-09-28T14:19:10.3654771+02:00",
-  "UpdatedBy": "occaecati",
-  "CreatedBy": "rerum",
-  "TableName": "Kautzer-Simonis"
+  "Key": "quidem",
+  "Value": "minima",
+  "RecordId": 636,
+  "CreatedDate": "2004-08-06T12:15:26.9786352+02:00",
+  "UpdatedDate": "2004-10-16T12:15:26.9786352+02:00",
+  "UpdatedBy": "aut",
+  "CreatedBy": "asperiores",
+  "TableName": "Thompson-Hahn"
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "velit",
-  "Value": "aperiam",
-  "RecordId": 163,
-  "CreatedDate": "1998-12-08T14:19:10.3654771+01:00",
-  "UpdatedDate": "2018-03-31T14:19:10.3654771+02:00",
-  "UpdatedBy": "ducimus",
-  "CreatedBy": "repellat",
-  "TableName": "Turner Group",
+  "Key": "ea",
+  "Value": "et",
+  "RecordId": 458,
+  "CreatedDate": "2016-07-14T12:15:26.9786352+02:00",
+  "UpdatedDate": "2013-07-13T12:15:26.9786352+02:00",
+  "UpdatedBy": "ut",
+  "CreatedBy": "aliquid",
+  "TableName": "Nicolas Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 92
+      "FieldLength": 51
     }
   }
 }

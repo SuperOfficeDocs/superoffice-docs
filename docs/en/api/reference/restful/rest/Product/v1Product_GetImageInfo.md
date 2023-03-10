@@ -72,7 +72,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,28 +80,28 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 03 Dec 2008 14:19:10 G12T
+Last-Modified: Sun, 21 May 2006 12:15:27 G5T
 
 {
-  "BlobId": 807,
-  "BlobSize": 531,
-  "Description": "Visionary global adapter",
-  "ExtraInfo": "eum",
-  "IsEncrypted": true,
+  "BlobId": 623,
+  "BlobSize": 888,
+  "Description": "Inverse explicit ability",
+  "ExtraInfo": "voluptatum",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "sunt",
-  "OriginalSize": 875,
-  "CreatedDate": "2005-05-17T14:19:10.9748549+02:00",
-  "UpdatedDate": "2008-12-03T14:19:10.9748549+01:00",
+  "MimeType": "qui",
+  "OriginalSize": 930,
+  "CreatedDate": "2003-03-05T12:15:27.6756254+01:00",
+  "UpdatedDate": "2006-05-21T12:15:27.6756254+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quia",
+  "ConceptualType": "vitae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldType": "System.String",
+      "FieldLength": 588
     }
   }
 }

@@ -26,7 +26,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=et
+GET /api/v1/List/LegalBase/MDOItems?query=harum
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 377,
-    "Name": "Will-Johns",
-    "ToolTip": "Dicta consequatur vel aliquid voluptatibus ab.",
+    "Id": 869,
+    "Name": "Pacocha-Boyer",
+    "ToolTip": "Beatae provident quia corrupti.",
     "Deleted": false,
-    "Rank": 546,
-    "Type": "commodi",
+    "Rank": 256,
+    "Type": "minus",
     "ChildItems": [
       {
-        "Id": 95,
-        "Name": "Nienow-Rogahn",
-        "ToolTip": "Id dolorem voluptatem.",
+        "Id": 500,
+        "Name": "Satterfield, Friesen and Conn",
+        "ToolTip": "Iure nemo asperiores perferendis dolores exercitationem dolores fugit.",
         "Deleted": false,
-        "Rank": 381,
-        "Type": "sint",
+        "Rank": 679,
+        "Type": "beatae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 143,
-        "ExtraInfo": "sunt",
-        "StyleHint": "temporibus",
-        "FullName": "Haleigh Murray",
+        "IconHint": "doloremque",
+        "ColorBlock": 515,
+        "ExtraInfo": "sequi",
+        "StyleHint": "laudantium",
+        "FullName": "Robb Schmeler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 956
+            "FieldLength": 629
           }
         }
       }
     ],
-    "IconHint": "a",
-    "ColorBlock": 187,
-    "ExtraInfo": "eum",
+    "IconHint": "consequatur",
+    "ColorBlock": 355,
+    "ExtraInfo": "ut",
     "StyleHint": "aut",
-    "FullName": "Mrs. Sallie Taryn Kshlerin",
+    "FullName": "Hermina Schneider",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 303
+        "FieldType": "System.Int32",
+        "FieldLength": 161
       }
     }
   }

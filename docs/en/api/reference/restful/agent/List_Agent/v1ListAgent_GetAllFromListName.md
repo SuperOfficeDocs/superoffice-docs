@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Ebert-Mann",
+  "UdListDefinitionName": "Metz-Toy",
   "IncludeDeleted": false
 }
 ```
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 965,
-    "Name": "Wehner Inc and Sons",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 30,
-    "Rank": 499,
+    "Id": 980,
+    "Name": "King-Schuster",
+    "Tooltip": "quasi",
+    "Deleted": false,
+    "UdListDefinitionId": 843,
+    "Rank": 645,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 568
+        "FieldLength": 849
       }
     }
   }

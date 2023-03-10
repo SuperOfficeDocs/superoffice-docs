@@ -105,7 +105,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 553
+  "ProjectId": 340
 }
 ```
 
@@ -116,94 +116,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "quam",
-  "SignOffText": "suscipit",
-  "SignOnConfirmationText": "consequatur",
-  "SignOnText": "dolorem",
-  "EventDate": "2011-08-22T14:19:03.9532088+02:00",
+  "SignOffConfirmationText": "quisquam",
+  "SignOffText": "sed",
+  "SignOnConfirmationText": "in",
+  "SignOnText": "nesciunt",
+  "EventDate": "1999-10-09T12:15:19.8527387+02:00",
   "Enabled": false,
-  "CreatedDate": "2004-10-02T14:19:03.9532088+02:00",
+  "CreatedDate": "2014-07-10T12:15:19.8527387+02:00",
   "SignOff": false,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 142,
-  "SignOffTriggersAssign": true,
-  "SignOn": true,
+  "SignOffTaskEnable": true,
+  "SignOffTaskId": 453,
+  "SignOffTriggersAssign": false,
+  "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 170,
+  "SignOnTaskId": 307,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "1999-09-11T14:19:03.9532088+02:00",
+  "UpdatedDate": "2014-10-19T12:15:19.8527387+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 283,
-  "Id": 896,
-  "PublishFrom": "2008-12-08T14:19:03.9532088+01:00",
+  "ProjectId": 1000,
+  "Id": 414,
+  "PublishFrom": "2022-05-22T12:15:19.8537388+02:00",
   "PublishType": "External",
-  "PublishTo": "2017-01-31T14:19:03.9532088+01:00",
+  "PublishTo": "2002-02-14T12:15:19.8537388+01:00",
   "VisibleForCategories": [
     {
-      "Id": 225,
-      "Name": "Johnston Group",
-      "ToolTip": "Soluta nostrum consequuntur pariatur.",
-      "Deleted": false,
-      "Rank": 555,
-      "Type": "eaque",
+      "Id": 394,
+      "Name": "Mohr, Dietrich and Parisian",
+      "ToolTip": "Sed necessitatibus ipsam.",
+      "Deleted": true,
+      "Rank": 708,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptatibus",
-      "ColorBlock": 778,
-      "ExtraInfo": "reiciendis",
-      "StyleHint": "quo",
-      "FullName": "Rae Walker",
+      "IconHint": "sunt",
+      "ColorBlock": 148,
+      "ExtraInfo": "et",
+      "StyleHint": "vero",
+      "FullName": "King Gutkowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 434
+          "FieldType": "System.Int32",
+          "FieldLength": 475
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 624,
-      "Name": "Von LLC",
-      "ToolTip": "Odio ullam.",
+      "Id": 646,
+      "Name": "Tromp-Towne",
+      "ToolTip": "Dolor nobis ullam dolor id.",
       "Deleted": false,
-      "Rank": 919,
-      "Type": "fuga",
+      "Rank": 864,
+      "Type": "beatae",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "vero",
-      "ColorBlock": 294,
-      "ExtraInfo": "perspiciatis",
-      "StyleHint": "quia",
-      "FullName": "Vince Robel",
+      "IconHint": "rem",
+      "ColorBlock": 731,
+      "ExtraInfo": "illum",
+      "StyleHint": "a",
+      "FullName": "Jade Robel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 902
+          "FieldType": "System.String",
+          "FieldLength": 68
         }
       }
     }
   ],
   "IsPublished": false,
   "IsVisibleForMembers": true,
-  "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 325,
+  "IsVisibleForCategories": true,
+  "IsVisibleForPersonInterests": true,
+  "ProjectEventId": 105,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 850
+      "FieldLength": 751
     }
   }
 }

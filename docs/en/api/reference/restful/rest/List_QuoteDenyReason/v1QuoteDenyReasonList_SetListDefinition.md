@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 268,
-  "Name": "O'Hara Group",
-  "Tooltip": "facilis",
-  "Deleted": true,
-  "Rank": 144,
+  "Id": 630,
+  "Name": "Leannon-O'Conner",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "Rank": 972,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "alias",
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 237,
-  "Name": "Hamill-Schmeler",
-  "Tooltip": "sunt",
+  "Id": 530,
+  "Name": "Rutherford-Hauck",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 237,
+  "Rank": 871,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "fugit",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quidem",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldType": "System.String",
+      "FieldLength": 537
     }
   }
 }

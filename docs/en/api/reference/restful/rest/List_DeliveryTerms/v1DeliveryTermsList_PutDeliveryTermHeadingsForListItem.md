@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 197,
-    "Name": "Boyer-Stark",
-    "ToolTip": "Eaque autem exercitationem eum aspernatur.",
+    "Id": 572,
+    "Name": "Cartwright Group",
+    "ToolTip": "Sit qui aperiam.",
     "Deleted": false,
-    "Rank": 340,
-    "Type": "temporibus",
-    "ColorBlock": 554,
-    "IconHint": "possimus",
-    "Selected": false,
-    "LastChanged": "1995-11-30T14:19:11.2262177+01:00",
+    "Rank": 124,
+    "Type": "deleniti",
+    "ColorBlock": 854,
+    "IconHint": "aliquam",
+    "Selected": true,
+    "LastChanged": "2010-02-16T12:15:28.1176187+01:00",
     "ChildItems": [
       {
-        "Id": 237,
-        "Name": "Kozey, Murphy and Langworth",
-        "ToolTip": "Laboriosam veritatis neque itaque aut fugit.",
-        "Deleted": false,
-        "Rank": 633,
-        "Type": "eum",
-        "ColorBlock": 628,
-        "IconHint": "magnam",
-        "Selected": true,
-        "LastChanged": "2014-11-28T14:19:11.2262177+01:00",
+        "Id": 221,
+        "Name": "Walsh Inc and Sons",
+        "ToolTip": "Necessitatibus quam magni et non porro.",
+        "Deleted": true,
+        "Rank": 702,
+        "Type": "consequatur",
+        "ColorBlock": 639,
+        "IconHint": "accusantium",
+        "Selected": false,
+        "LastChanged": "1996-12-02T12:15:28.1176187+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "dolores",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Mr. Doyle Carol Schumm"
+        "FullName": "Mrs. Oscar Hintz PhD"
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "voluptatibus",
-    "Hidden": true,
-    "FullName": "Eduardo Koch"
+    "ExtraInfo": "nemo",
+    "StyleHint": "ad",
+    "Hidden": false,
+    "FullName": "Vallie Royal Hills PhD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 292,
-    "Name": "Waters LLC",
-    "ToolTip": "Tempora officiis magnam excepturi sequi ipsum sint et.",
-    "Deleted": false,
-    "Rank": 275,
-    "Type": "et",
-    "ColorBlock": 298,
-    "IconHint": "placeat",
-    "Selected": true,
-    "LastChanged": "1996-02-11T14:19:11.2418468+01:00",
+    "Id": 329,
+    "Name": "Muller, Weissnat and Purdy",
+    "ToolTip": "Beatae velit officiis natus placeat dolores.",
+    "Deleted": true,
+    "Rank": 448,
+    "Type": "temporibus",
+    "ColorBlock": 725,
+    "IconHint": "quos",
+    "Selected": false,
+    "LastChanged": "2010-05-02T12:15:28.1196189+02:00",
     "ChildItems": [
       {
-        "Id": 792,
-        "Name": "Hammes, Hackett and Lowe",
-        "ToolTip": "Iste facilis.",
-        "Deleted": true,
-        "Rank": 227,
-        "Type": "numquam",
-        "ColorBlock": 85,
-        "IconHint": "illo",
+        "Id": 363,
+        "Name": "Kuhn-Orn",
+        "ToolTip": "Et perferendis et cupiditate delectus soluta qui.",
+        "Deleted": false,
+        "Rank": 245,
+        "Type": "ut",
+        "ColorBlock": 641,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2011-04-24T14:19:11.2418468+02:00",
+        "LastChanged": "2011-09-27T12:15:28.1196189+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "beatae",
+        "StyleHint": "sunt",
         "Hidden": true,
-        "FullName": "Destiney Cremin",
+        "FullName": "Mr. Emely Jacinthe O'Kon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 936
+            "FieldType": "System.String",
+            "FieldLength": 574
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "rerum",
+    "ExtraInfo": "ex",
+    "StyleHint": "ad",
     "Hidden": false,
-    "FullName": "Dawson Effertz",
+    "FullName": "Dr. Alvina Kadin Hansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 710
+        "FieldType": "System.String",
+        "FieldLength": 669
       }
     }
   }

@@ -81,15 +81,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aut",
-  "ProviderName": "Prosacco LLC",
-  "StorageKey": "dolorum",
-  "Restrictions": "temporibus",
-  "StaticColumns": "excepturi"
+  "StorageType": "enim",
+  "ProviderName": "Nienow LLC",
+  "StorageKey": "sunt",
+  "Restrictions": "a",
+  "StaticColumns": "quia"
 }
 ```
 
@@ -102,81 +102,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Kautzer-Wunsch",
-      "Operator": "deserunt",
+      "Name": "Ledner Group",
+      "Operator": "ut",
       "Values": [
-        "in",
-        "dignissimos"
+        "reprehenderit",
+        "labore"
       ],
       "DisplayValues": [
-        "aliquam",
-        "quos"
+        "dicta",
+        "ratione"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 147,
+      "InterParenthesis": 117,
       "InterOperator": "And",
-      "UniqueHash": 118
+      "UniqueHash": 312
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Hirthe, Kerluke and Barrows",
-      "DisplayTooltip": "in",
-      "DisplayType": "officiis",
+      "DisplayName": "Labadie-Mertz",
+      "DisplayTooltip": "molestiae",
+      "DisplayType": "alias",
       "CanOrderBy": true,
-      "Name": "Funk-Casper",
-      "CanRestrictBy": true,
-      "RestrictionType": "aliquid",
-      "RestrictionListName": "Wolf, Doyle and Grant",
-      "IsVisible": true,
-      "ExtraInfo": "culpa",
-      "Width": "provident",
-      "IconHint": "quia",
-      "HeadingIconHint": "quasi"
+      "Name": "Simonis Inc and Sons",
+      "CanRestrictBy": false,
+      "RestrictionType": "et",
+      "RestrictionListName": "Rippin, Hackett and Rowe",
+      "IsVisible": false,
+      "ExtraInfo": "esse",
+      "Width": "expedita",
+      "IconHint": "doloremque",
+      "HeadingIconHint": "temporibus"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Kozey LLC",
-      "PrimaryKey": 487,
+      "EntityName": "Lind-Schmeler",
+      "PrimaryKey": 429,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "tenetur",
-          "TooltipHint": "itaque",
-          "LinkHint": "quod"
+          "DisplayValue": "accusantium",
+          "TooltipHint": "vel",
+          "LinkHint": "expedita"
         }
       },
-      "LinkHint": "soluta",
-      "StyleHint": "ipsam",
+      "LinkHint": "nihil",
+      "StyleHint": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 591
+          "FieldLength": 846
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Kozey Group",
-      "Description": "Persevering heuristic circuit",
-      "Rank": 597,
+      "Name": "Windler Group",
+      "Description": "Stand-alone demand-driven software",
+      "Rank": 59,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kozey Group",
-      "Description": "Persevering heuristic circuit",
-      "Rank": 597,
+      "Name": "Windler Group",
+      "Description": "Stand-alone demand-driven software",
+      "Rank": 59,
       "Restrictions": [
         {},
         {}
@@ -188,7 +188,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 790
+      "FieldLength": 61
     }
   }
 }

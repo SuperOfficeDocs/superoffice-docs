@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 594,
-    "Name": "Rogahn, Streich and Haag",
-    "ToolTip": "Aliquam unde corrupti similique est molestiae.",
+    "Id": 238,
+    "Name": "Trantow-Dach",
+    "ToolTip": "Corporis nihil eligendi accusantium vero.",
     "Deleted": false,
-    "Rank": 665,
-    "Type": "quia",
-    "ColorBlock": 635,
-    "IconHint": "esse",
-    "Selected": false,
-    "LastChanged": "2007-09-19T14:19:11.3680268+02:00",
+    "Rank": 970,
+    "Type": "nemo",
+    "ColorBlock": 744,
+    "IconHint": "deserunt",
+    "Selected": true,
+    "LastChanged": "2022-01-05T12:15:28.2996196+01:00",
     "ChildItems": [
       {
-        "Id": 969,
-        "Name": "Lynch LLC",
-        "ToolTip": "Maxime quod et qui laboriosam dolore sequi.",
-        "Deleted": false,
-        "Rank": 514,
-        "Type": "neque",
-        "ColorBlock": 163,
-        "IconHint": "qui",
+        "Id": 625,
+        "Name": "Lebsack-D'Amore",
+        "ToolTip": "Quisquam voluptas consectetur a sint non enim.",
+        "Deleted": true,
+        "Rank": 483,
+        "Type": "dolor",
+        "ColorBlock": 20,
+        "IconHint": "exercitationem",
         "Selected": true,
-        "LastChanged": "2003-11-17T14:19:11.3680268+01:00",
+        "LastChanged": "2020-04-02T12:15:28.2996196+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "ab",
+        "ExtraInfo": "et",
+        "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Dr. Rickie Welch II"
+        "FullName": "Leo Ullrich"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "quis",
+    "ExtraInfo": "porro",
+    "StyleHint": "atque",
     "Hidden": false,
-    "FullName": "Jerel Edwin Ankunding PhD"
+    "FullName": "Gustave Champlin"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 604,
-    "Name": "Ullrich Inc and Sons",
-    "ToolTip": "Placeat qui.",
-    "Deleted": true,
-    "Rank": 309,
-    "Type": "deleniti",
-    "ColorBlock": 876,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2018-09-05T14:19:11.3680268+02:00",
+    "Id": 328,
+    "Name": "Effertz, Grant and Bailey",
+    "ToolTip": "Aut quas ullam accusantium ullam.",
+    "Deleted": false,
+    "Rank": 988,
+    "Type": "voluptatem",
+    "ColorBlock": 337,
+    "IconHint": "minima",
+    "Selected": false,
+    "LastChanged": "2008-01-03T12:15:28.3006161+01:00",
     "ChildItems": [
       {
-        "Id": 403,
-        "Name": "Haley-Johns",
-        "ToolTip": "Modi et incidunt dolore.",
+        "Id": 89,
+        "Name": "Morar Group",
+        "ToolTip": "Ut provident nisi totam ullam illum dolorum blanditiis.",
         "Deleted": false,
-        "Rank": 339,
-        "Type": "corrupti",
-        "ColorBlock": 730,
-        "IconHint": "saepe",
-        "Selected": false,
-        "LastChanged": "1996-02-11T14:19:11.3680268+01:00",
+        "Rank": 20,
+        "Type": "repellat",
+        "ColorBlock": 38,
+        "IconHint": "nihil",
+        "Selected": true,
+        "LastChanged": "2021-04-25T12:15:28.3006161+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "cum",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Liana Weber",
+        "FullName": "Kasandra Tyler Windler V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 642
+            "FieldType": "System.Int32",
+            "FieldLength": 218
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "quis",
-    "Hidden": true,
-    "FullName": "Hudson Howell",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "eaque",
+    "Hidden": false,
+    "FullName": "Newton Cremin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 201
+        "FieldLength": 425
       }
     }
   }

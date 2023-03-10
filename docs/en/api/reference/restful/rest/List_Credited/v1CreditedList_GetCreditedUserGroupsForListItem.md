@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 105,
-    "Name": "McKenzie, Dach and Emmerich",
-    "ToolTip": "Consequatur omnis.",
+    "Id": 9,
+    "Name": "Bernier, Doyle and Murray",
+    "ToolTip": "Qui quod magni.",
     "Deleted": false,
-    "Rank": 100,
-    "Type": "consequatur",
-    "ColorBlock": 789,
-    "IconHint": "voluptatum",
-    "Selected": false,
-    "LastChanged": "1996-03-10T14:19:11.2105958+01:00",
+    "Rank": 964,
+    "Type": "ex",
+    "ColorBlock": 128,
+    "IconHint": "molestias",
+    "Selected": true,
+    "LastChanged": "2012-10-31T12:15:28.0566206+01:00",
     "ChildItems": [
       {
-        "Id": 336,
-        "Name": "Metz-Douglas",
-        "ToolTip": "Ab vero error recusandae odio.",
+        "Id": 363,
+        "Name": "Emard, Von and Balistreri",
+        "ToolTip": "Sint voluptatem.",
         "Deleted": false,
-        "Rank": 510,
-        "Type": "et",
-        "ColorBlock": 620,
-        "IconHint": "repudiandae",
-        "Selected": false,
-        "LastChanged": "2011-07-12T14:19:11.2105958+02:00",
+        "Rank": 176,
+        "Type": "ducimus",
+        "ColorBlock": 381,
+        "IconHint": "quibusdam",
+        "Selected": true,
+        "LastChanged": "2017-04-30T12:15:28.0566206+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "provident",
+        "ExtraInfo": "vel",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Porter Lebsack",
+        "FullName": "Miss Shanny Ella Kessler III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 396
+            "FieldType": "System.Int32",
+            "FieldLength": 695
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "nesciunt",
     "Hidden": true,
-    "FullName": "Rick Donnelly",
+    "FullName": "Aaliyah Sipes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 820
+        "FieldLength": 99
       }
     }
   }

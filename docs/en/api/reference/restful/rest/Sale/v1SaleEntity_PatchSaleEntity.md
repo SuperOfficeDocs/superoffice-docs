@@ -150,18 +150,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nihil",
+    "path": "voluptatem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nihil",
+    "path": "voluptatem",
     "value": {}
   }
 ]
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "ut",
+  "SaleText": "quos",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -189,113 +189,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2013-12-18T14:19:10.7404799+01:00",
-  "Amount": 16525.582,
-  "SaleId": 211,
-  "Earning": 9765.544,
-  "EarningPercent": 13187.872,
-  "Heading": "dolorum",
-  "Number": "1460438",
-  "Probability": 401,
-  "CreatedDate": "2008-05-27T14:19:10.7404799+02:00",
-  "UpdatedDate": "1996-04-06T14:19:10.7404799+02:00",
+  "Saledate": "2007-04-14T12:15:27.3266303+02:00",
+  "Amount": 1886.668,
+  "SaleId": 157,
+  "Earning": 24053.45,
+  "EarningPercent": 5493.902,
+  "Heading": "voluptatum",
+  "Number": "789242",
+  "Probability": 776,
+  "CreatedDate": "2010-07-25T12:15:27.3266303+02:00",
+  "UpdatedDate": "2003-10-11T12:15:27.3266303+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 628,
+  "ActiveLinks": 544,
   "Links": [
     {
-      "EntityName": "Ruecker Group",
-      "Id": 249,
-      "Description": "Open-architected system-worthy data-warehouse",
-      "ExtraInfo": "autem",
-      "LinkId": 404,
+      "EntityName": "Ondricka, Schroeder and Leannon",
+      "Id": 102,
+      "Description": "Open-source context-sensitive encoding",
+      "ExtraInfo": "delectus",
+      "LinkId": 759,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 926
+          "FieldLength": 416
         }
       }
     }
   ],
-  "NextDueDate": "2017-02-07T14:19:10.7404799+01:00",
-  "Postit": "excepturi",
+  "NextDueDate": "2005-10-16T12:15:27.3276305+02:00",
+  "Postit": "perspiciatis",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2009-01-25T14:19:10.7404799+01:00",
+  "ReopenDate": "2009-09-11T12:15:27.3276305+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Fisher, Schaden and Rippin",
-      "Comment": "velit",
-      "StakeholderRoleId": 779,
-      "CountryId": 244,
-      "PersonId": 674,
-      "EmailDescription": "marcelino@bechtelar.info",
-      "EmailId": 467,
-      "EmailAddress": "antonetta.tremblay@hartmann.info",
-      "PhoneId": 229,
-      "ContactName": "Pacocha-Olson",
-      "ContactId": 993,
-      "SaleId": 744,
-      "Mrmrs": "eos",
-      "Firstname": "Ruben",
-      "MiddleName": "Purdy, Luettgen and Bradtke",
-      "Lastname": "Mertz",
-      "SaleStakeholderId": 709,
-      "Rank": 515,
-      "Phone": "938.462.8643",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 522
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 214,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Hortense Jayda Brakus II",
-    "SuperOffice:2": "407531562"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "dignissimos",
-    "ExtraFields2": "assumenda"
-  },
-  "CustomFields": {
-    "CustomFields1": "expedita",
-    "CustomFields2": "nesciunt"
-  },
-  "PublishEventDate": "1997-07-03T14:19:10.7404799+02:00",
-  "PublishTo": "1995-11-26T14:19:10.7404799+01:00",
-  "PublishFrom": "2015-02-01T14:19:10.7404799+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 918,
-      "Visibility": "All",
-      "DisplayValue": "officia",
+      "StakeholderRoleName": "Fay LLC",
+      "Comment": "et",
+      "StakeholderRoleId": 155,
+      "CountryId": 833,
+      "PersonId": 253,
+      "EmailDescription": "alec@lefflerswaniawski.us",
+      "EmailId": 903,
+      "EmailAddress": "scot@farrellzieme.us",
+      "PhoneId": 733,
+      "ContactName": "Kling, Rath and Raynor",
+      "ContactId": 679,
+      "SaleId": 75,
+      "Mrmrs": "rerum",
+      "Firstname": "Helen",
+      "MiddleName": "Waters LLC",
+      "Lastname": "Littel",
+      "SaleStakeholderId": 386,
+      "Rank": 437,
+      "Phone": "(592)621-0678",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 894
+          "FieldLength": 143
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 393,
+  "UserDefinedFields": {
+    "SuperOffice:1": "1449058481",
+    "SuperOffice:2": "False"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "atque",
+    "ExtraFields2": "assumenda"
+  },
+  "CustomFields": {
+    "CustomFields1": "occaecati",
+    "CustomFields2": "voluptas"
+  },
+  "PublishEventDate": "2010-09-10T12:15:27.3276305+02:00",
+  "PublishTo": "1997-10-26T12:15:27.3276305+01:00",
+  "PublishFrom": "2002-08-11T12:15:27.3276305+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 183,
+      "Visibility": "All",
+      "DisplayValue": "consequatur",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 994
         }
       }
     },
     {
-      "VisibleId": 918,
+      "VisibleId": 183,
       "Visibility": "All",
-      "DisplayValue": "officia",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 894
+          "FieldLength": 994
         }
       }
     }
@@ -304,13 +304,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 740
+      "FieldType": "System.Int32",
+      "FieldLength": 485
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

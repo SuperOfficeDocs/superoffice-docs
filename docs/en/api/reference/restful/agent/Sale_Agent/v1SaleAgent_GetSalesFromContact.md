@@ -97,12 +97,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 580,
-  "OnlyOpenSales": false
+  "ContactId": 591,
+  "OnlyOpenSales": true
 }
 ```
 
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Leannon Inc and Sons",
-    "SaleDate": "2016-02-02T14:19:04.1410858+01:00",
-    "SaleId": 13,
-    "Probability": 736,
-    "Title": "iste",
-    "Amount": 24160.005999999998,
-    "Currency": "eligendi",
-    "ProjectName": "Carter Group",
-    "AssociateFullName": "Leopold Abshire",
-    "Description": "Optimized content-based concept",
+    "ContactName": "Zboncak, Price and Buckridge",
+    "SaleDate": "2007-12-01T12:15:20.0977392+01:00",
+    "SaleId": 414,
+    "Probability": 810,
+    "Title": "est",
+    "Amount": 25300.782,
+    "Currency": "voluptatem",
+    "ProjectName": "Marvin LLC",
+    "AssociateFullName": "Ms. Araceli Bettye Greenfelder IV",
+    "Description": "Cross-platform national neural-net",
     "Status": "Lost",
-    "WeightedAmount": 27858.126,
-    "ProjectId": 251,
-    "EarningPercent": 1914.874,
-    "Earning": 303.998,
-    "ContactId": 34,
-    "AssociateId": 361,
-    "PersonId": 600,
-    "SaleTypeId": 273,
-    "SaleTypeName": "Berge LLC",
-    "PersonFullName": "Brice Wisozk",
+    "WeightedAmount": 29942.236,
+    "ProjectId": 645,
+    "EarningPercent": 15240.642,
+    "Earning": 20831.698,
+    "ContactId": 770,
+    "AssociateId": 387,
+    "PersonId": 353,
+    "SaleTypeId": 109,
+    "SaleTypeName": "Bernier Group",
+    "PersonFullName": "Eldon Torphy",
     "Completed": "Completed",
-    "ActiveErpLinks": 37,
-    "NextDueDate": "2004-04-19T14:19:04.1410858+02:00",
-    "Number": "685742",
+    "ActiveErpLinks": 574,
+    "NextDueDate": "1999-05-15T12:15:20.098735+02:00",
+    "Number": "833021",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 892
+        "FieldLength": 267
       }
     }
   }

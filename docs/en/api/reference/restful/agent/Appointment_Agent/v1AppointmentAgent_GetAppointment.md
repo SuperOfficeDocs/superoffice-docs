@@ -25,7 +25,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=331
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=255
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -114,7 +114,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -124,53 +124,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 85,
-  "StartDate": "1996-09-08T14:19:02.5317757+02:00",
-  "EndDate": "1997-06-24T14:19:02.5317757+02:00",
+  "AppointmentId": 686,
+  "StartDate": "2021-10-28T12:15:17.7647733+02:00",
+  "EndDate": "2006-12-27T12:15:17.7647733+01:00",
   "Type": "BookingForChecklist",
-  "Task": "et",
-  "AssociateFullName": "Eusebio Christiansen PhD",
-  "ContactName": "Jacobs LLC",
-  "Description": "Synergized multi-tasking alliance",
-  "PersonFullName": "Mr. Felix Sporer",
-  "PersonId": 424,
-  "ContactId": 173,
-  "ProjectId": 949,
-  "ProjectName": "Walsh, Hirthe and O'Hara",
+  "Task": "atque",
+  "AssociateFullName": "Dr. Gloria Carter PhD",
+  "ContactName": "Torp, Ondricka and Greenfelder",
+  "Description": "Managed empowering utilisation",
+  "PersonFullName": "Mona Moen",
+  "PersonId": 301,
+  "ContactId": 763,
+  "ProjectId": 457,
+  "ProjectName": "Gislason LLC",
   "IsPublished": false,
-  "AssociateId": 911,
-  "ColorIndex": 414,
-  "IsFree": false,
+  "AssociateId": 283,
+  "ColorIndex": 412,
+  "IsFree": true,
   "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 380,
-  "PriorityName": "Lakin-Ferry",
+  "PriorityId": 823,
+  "PriorityName": "Quitzon, Wisozk and Pacocha",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
-  "IsRecurrence": false,
+  "IsBookingMain": false,
+  "IsRecurrence": true,
   "IsBooking": true,
-  "ActiveDate": "2010-08-11T14:19:02.5317757+02:00",
+  "ActiveDate": "2013-09-29T12:15:17.7657735+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2010-06-08T14:19:02.5317757+02:00",
-  "RecurringEndDate": "1998-01-13T14:19:02.5317757+01:00",
-  "MotherId": 195,
-  "AssignedBy": 318,
-  "AssignedByFullName": "Ms. Meta Erling Considine",
+  "RecurringStartDate": "2012-03-08T12:15:17.7657735+01:00",
+  "RecurringEndDate": "2004-12-07T12:15:17.7657735+01:00",
+  "MotherId": 418,
+  "AssignedBy": 260,
+  "AssignedByFullName": "Prof. Seth Tyrese Wiza",
   "RejectReason": "",
-  "Location": "ipsum",
-  "AlarmLeadTime": "voluptatem",
-  "SaleId": 779,
-  "SaleName": "Abshire, Blick and Conn",
-  "AssociateName": "Williamson Group",
-  "CreatedDate": "2012-07-21T14:19:02.5317757+02:00",
-  "CreatedBy": "vitae",
-  "CreatedByFullName": "Dr. Melvin Gus Beer III",
-  "CreatedByAssociateId": 515,
+  "Location": "libero",
+  "AlarmLeadTime": "qui",
+  "SaleId": 777,
+  "SaleName": "Haley, Parker and Becker",
+  "AssociateName": "Cole, O'Reilly and Boyle",
+  "CreatedDate": "2005-02-04T12:15:17.7657735+01:00",
+  "CreatedBy": "ullam",
+  "CreatedByFullName": "Giuseppe Jessy O'Keefe V",
+  "CreatedByAssociateId": 799,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
@@ -178,7 +178,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 642
+      "FieldLength": 86
     }
   }
 }

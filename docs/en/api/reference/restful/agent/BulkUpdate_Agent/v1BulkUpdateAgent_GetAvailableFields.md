@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "project"
+  "Tablename": "contact"
 }
 ```
 
@@ -106,72 +106,72 @@ Content-Type: application/json; charset=utf-8
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": true,
-    "Key": "nulla",
-    "ValueType": "maxime",
-    "Mandatory": false,
-    "EncodedDisplayName": "Runolfsdottir-O'Kon",
-    "EncodedDisplayDescription": "Centralized transitional capacity",
-    "IconHint": "nisi",
+    "Key": "error",
+    "ValueType": "similique",
+    "Mandatory": true,
+    "EncodedDisplayName": "Schuster Group",
+    "EncodedDisplayDescription": "Configurable grid-enabled standardization",
+    "IconHint": "quia",
     "ControlInfos": [
       {
-        "Type": "facilis",
-        "Label": "aut",
-        "Dimension": 668,
-        "ListProviderName": "Sawayn-Pollich",
-        "ListProviderExtraInfo": "laborum",
-        "ListProviderPrimaryKeyName": "Quitzon-Rippin",
-        "ListLeadText": "est",
+        "Type": "vitae",
+        "Label": "ut",
+        "Dimension": 783,
+        "ListProviderName": "Wilderman, Labadie and Breitenberg",
+        "ListProviderExtraInfo": "facilis",
+        "ListProviderPrimaryKeyName": "Dach Group",
+        "ListLeadText": "consectetur",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 461
+            "FieldLength": 949
           }
         }
       }
     ],
-    "EncodedDataCaption": "modi",
-    "EncodedDataCaptionDescription": "Virtual tertiary leverage",
-    "CurrentOperationType": "voluptatem",
+    "EncodedDataCaption": "eaque",
+    "EncodedDataCaptionDescription": "Distributed high-level archive",
+    "CurrentOperationType": "sint",
     "Values": [
-      "reprehenderit",
-      "eum"
+      "temporibus",
+      "a"
     ],
     "DisplayValues": [
-      "quam",
-      "excepturi"
+      "cupiditate",
+      "molestiae"
     ],
     "OperationInfos": [
       {
-        "Key": "quis",
-        "EncodedDisplayName": "Schowalter-Runolfsdottir",
+        "Key": "aut",
+        "EncodedDisplayName": "Gorczany-Welch",
         "EncodedLeadTexts": [
-          "amet",
-          "aliquam"
+          "aliquam",
+          "accusamus"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 675
+            "FieldLength": 234
           }
         }
       },
       {
-        "Key": "quis",
-        "EncodedDisplayName": "Schowalter-Runolfsdottir",
+        "Key": "aut",
+        "EncodedDisplayName": "Gorczany-Welch",
         "EncodedLeadTexts": [
-          "amet",
-          "aliquam"
+          "aliquam",
+          "accusamus"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 675
+            "FieldLength": 234
           }
         }
       }

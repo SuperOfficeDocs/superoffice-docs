@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailConnectionInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,17 +73,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerName": "Torp-Conroy",
-  "UserName": "Hoppe Inc and Sons",
-  "Password": "ut",
-  "Folder": "voluptatem",
-  "UseSSL": false,
+  "ServerName": "Carter-Considine",
+  "UserName": "Upton, Emmerich and Berge",
+  "Password": "ratione",
+  "Folder": "voluptate",
+  "UseSSL": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 575
+      "FieldType": "System.String",
+      "FieldLength": 747
     }
   }
 }

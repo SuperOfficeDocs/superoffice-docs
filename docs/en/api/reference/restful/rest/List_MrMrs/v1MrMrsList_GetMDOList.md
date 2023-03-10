@@ -25,8 +25,8 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/MrMrs/MDOItems?flat=True
-GET /api/v1/List/MrMrs/MDOItems?query=saepe
+GET /api/v1/List/MrMrs/MDOItems?flat=False
+GET /api/v1/List/MrMrs/MDOItems?query=omnis
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 360,
-    "Name": "Nienow-O'Keefe",
-    "ToolTip": "Odit quas velit unde non sed provident unde.",
+    "Id": 22,
+    "Name": "Ziemann Inc and Sons",
+    "ToolTip": "Reprehenderit omnis quo adipisci ab.",
     "Deleted": true,
-    "Rank": 979,
-    "Type": "vel",
+    "Rank": 277,
+    "Type": "consequuntur",
     "ChildItems": [
       {
-        "Id": 32,
-        "Name": "Kovacek Group",
-        "ToolTip": "Corporis sed assumenda sint aliquid quia nulla.",
+        "Id": 627,
+        "Name": "Cremin LLC",
+        "ToolTip": "Neque vitae sit hic doloremque.",
         "Deleted": false,
-        "Rank": 990,
-        "Type": "dolor",
+        "Rank": 793,
+        "Type": "soluta",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolor",
-        "ColorBlock": 971,
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "quia",
-        "FullName": "Mr. Rhianna Wilfrid Marquardt",
+        "IconHint": "aut",
+        "ColorBlock": 8,
+        "ExtraInfo": "id",
+        "StyleHint": "necessitatibus",
+        "FullName": "Ramona Wuckert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 106
+            "FieldLength": 159
           }
         }
       }
     ],
-    "IconHint": "sint",
-    "ColorBlock": 380,
-    "ExtraInfo": "officiis",
-    "StyleHint": "dignissimos",
-    "FullName": "Ms. Lisandro Runolfsdottir III",
+    "IconHint": "earum",
+    "ColorBlock": 173,
+    "ExtraInfo": "pariatur",
+    "StyleHint": "vero",
+    "FullName": "Tara Bauch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 715
+        "FieldLength": 799
       }
     }
   }

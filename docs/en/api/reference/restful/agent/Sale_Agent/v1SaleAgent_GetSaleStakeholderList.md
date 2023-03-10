@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,31 +98,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Bailey, Wilderman and Powlowski",
-    "Comment": "perspiciatis",
-    "StakeholderRoleId": 25,
-    "CountryId": 45,
-    "PersonId": 198,
-    "EmailDescription": "mireille.jerde@bernhardwisoky.info",
-    "EmailId": 388,
-    "EmailAddress": "rosalinda@oconner.name",
-    "PhoneId": 264,
-    "ContactName": "Dicki, Ullrich and Rath",
-    "ContactId": 139,
-    "SaleId": 971,
-    "Mrmrs": "culpa",
-    "Firstname": "Kieran",
-    "MiddleName": "Hickle-Schmidt",
-    "Lastname": "Raynor",
-    "SaleStakeholderId": 233,
-    "Rank": 158,
-    "Phone": "1-534-581-9930",
+    "StakeholderRoleName": "Cronin Group",
+    "Comment": "beatae",
+    "StakeholderRoleId": 478,
+    "CountryId": 634,
+    "PersonId": 670,
+    "EmailDescription": "osvaldo.beahan@mooreokeefe.com",
+    "EmailId": 172,
+    "EmailAddress": "ardith_farrell@hyattbosco.us",
+    "PhoneId": 712,
+    "ContactName": "Dach LLC",
+    "ContactId": 591,
+    "SaleId": 440,
+    "Mrmrs": "aliquid",
+    "Firstname": "Kyler",
+    "MiddleName": "Orn Inc and Sons",
+    "Lastname": "Purdy",
+    "SaleStakeholderId": 525,
+    "Rank": 379,
+    "Phone": "359.812.0170 x1058",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 276
+        "FieldType": "System.String",
+        "FieldLength": 180
       }
     }
   }

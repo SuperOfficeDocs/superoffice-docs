@@ -75,7 +75,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,30 +86,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 325,
-    "Section": "laboriosam",
-    "Key": "harum",
-    "Name": "Balistreri Inc and Sons",
+    "PrefDescId": 565,
+    "Section": "quisquam",
+    "Key": "quam",
+    "Name": "Reynolds, Hagenes and Schamberger",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Configurable methodical implementation",
+    "Description": "Horizontal radical framework",
     "IsBuiltin": false,
-    "TableName": "Spencer-Brakus",
-    "UserDefinedListId": 396,
-    "Rank": 957,
-    "SubGroup": "et",
-    "MinLevel": 567,
-    "MaxValue": 336,
-    "MinValue": 117,
-    "RequiredLicense": "laboriosam",
+    "TableName": "Aufderhar-Senger",
+    "UserDefinedListId": 416,
+    "Rank": 842,
+    "SubGroup": "velit",
+    "MinLevel": 63,
+    "MaxValue": 619,
+    "MinValue": 629,
+    "RequiredLicense": "blanditiis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 383
+        "FieldType": "System.String",
+        "FieldLength": 81
       }
     }
   }

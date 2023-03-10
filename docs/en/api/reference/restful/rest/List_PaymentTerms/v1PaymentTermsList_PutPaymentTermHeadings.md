@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 643,
-    "Name": "Paucek, Yundt and Kub",
-    "Tooltip": "aut",
+    "HeadingId": 28,
+    "Name": "McLaughlin LLC",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 415,
-    "UdListDefinitionId": 805
+    "Rank": 667,
+    "UdListDefinitionId": 690
   },
   {
-    "HeadingId": 643,
-    "Name": "Paucek, Yundt and Kub",
-    "Tooltip": "aut",
+    "HeadingId": 28,
+    "Name": "McLaughlin LLC",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 415,
-    "UdListDefinitionId": 805
+    "Rank": 667,
+    "UdListDefinitionId": 690
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 484,
-    "Name": "Moore LLC",
-    "Tooltip": "animi",
-    "Deleted": true,
-    "Rank": 967,
-    "UdListDefinitionId": 816,
+    "HeadingId": 862,
+    "Name": "Kohler, Tromp and Heller",
+    "Tooltip": "quidem",
+    "Deleted": false,
+    "Rank": 30,
+    "UdListDefinitionId": 944,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 366
+        "FieldLength": 186
       }
     }
   }

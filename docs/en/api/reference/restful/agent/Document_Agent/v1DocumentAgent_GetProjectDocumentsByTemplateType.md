@@ -97,15 +97,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 7,
-  "StartTime": "2002-08-23T14:19:03.2449054+02:00",
-  "EndTime": "2004-10-12T14:19:03.2449054+02:00",
-  "Count": 110,
-  "DocumentTemplateId": 407
+  "ProjectId": 571,
+  "StartTime": "2012-06-07T12:15:18.7247557+02:00",
+  "EndTime": "2006-12-30T12:15:18.7247557+01:00",
+  "Count": 165,
+  "DocumentTemplateId": 155
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 387,
-    "Attention": "voluptatem",
-    "Header": "quia",
-    "Name": "Konopelski LLC",
-    "OurRef": "soluta",
-    "YourRef": "sunt",
-    "Description": "Digitized incremental conglomeration",
-    "DocumentTemplate": "aut",
-    "IsPublished": true,
-    "PersonId": 473,
-    "PersonFullName": "Ms. Joan Owen Cassin Jr.",
-    "AssociateFullName": "Alysha Hackett",
-    "ContactId": 726,
-    "ContactName": "Botsford-Mraz",
-    "ProjectId": 29,
-    "ProjectName": "Mertz-Goldner",
-    "AssociateId": 718,
-    "Snum": 411,
-    "SaleId": 733,
-    "SaleName": "Okuneva, Shanahan and Auer",
+    "DocumentId": 275,
+    "Attention": "ea",
+    "Header": "vitae",
+    "Name": "Braun-Torp",
+    "OurRef": "ipsum",
+    "YourRef": "incidunt",
+    "Description": "Right-sized upward-trending projection",
+    "DocumentTemplate": "fugit",
+    "IsPublished": false,
+    "PersonId": 991,
+    "PersonFullName": "Mrs. Elisabeth Marjolaine Gislason Sr.",
+    "AssociateFullName": "Prof. Oleta Quigley",
+    "ContactId": 532,
+    "ContactName": "Tillman Inc and Sons",
+    "ProjectId": 379,
+    "ProjectName": "Leannon LLC",
+    "AssociateId": 476,
+    "Snum": 869,
+    "SaleId": 748,
+    "SaleName": "Olson Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 838
+        "FieldLength": 202
       }
     }
   }

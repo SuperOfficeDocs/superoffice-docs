@@ -88,32 +88,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Little-Waelchi",
-  "ListItemId": 847,
+  "UdListDefinitionName": "Satterfield, Koepp and Kshlerin",
+  "ListItemId": 978,
   "Headings": [
     {
-      "Id": 453,
-      "Name": "Dicki Group",
-      "ToolTip": "Unde et qui fugit sed minus et est.",
+      "Id": 142,
+      "Name": "Yundt, Buckridge and Pouros",
+      "ToolTip": "Asperiores natus.",
       "Deleted": false,
-      "Rank": 692,
-      "Type": "non",
-      "ColorBlock": 915,
-      "IconHint": "nisi",
+      "Rank": 185,
+      "Type": "dolores",
+      "ColorBlock": 722,
+      "IconHint": "quia",
       "Selected": false,
-      "LastChanged": "2011-06-12T14:19:03.6394986+02:00",
+      "LastChanged": "1997-03-03T12:15:19.265754+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "odit",
-      "StyleHint": "nostrum",
+      "ExtraInfo": "animi",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Isabelle Forrest Kreiger II"
+      "FullName": "Rosario Olson"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 105,
-    "Name": "Barton-Casper",
-    "ToolTip": "Blanditiis enim molestiae excepturi quia ducimus.",
+    "Id": 900,
+    "Name": "Goyette, Stoltenberg and Boyer",
+    "ToolTip": "Est blanditiis aliquam sequi error.",
     "Deleted": false,
-    "Rank": 145,
-    "Type": "nobis",
-    "ColorBlock": 353,
-    "IconHint": "veniam",
+    "Rank": 513,
+    "Type": "nesciunt",
+    "ColorBlock": 854,
+    "IconHint": "quod",
     "Selected": true,
-    "LastChanged": "2015-04-14T14:19:03.6394986+02:00",
+    "LastChanged": "2010-07-15T12:15:19.2667475+02:00",
     "ChildItems": [
       {
-        "Id": 612,
-        "Name": "Mante Group",
-        "ToolTip": "Quos voluptates minus.",
-        "Deleted": false,
-        "Rank": 174,
-        "Type": "eos",
-        "ColorBlock": 738,
-        "IconHint": "iure",
+        "Id": 48,
+        "Name": "Durgan LLC",
+        "ToolTip": "Tempore fugiat.",
+        "Deleted": true,
+        "Rank": 751,
+        "Type": "alias",
+        "ColorBlock": 468,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2003-07-04T14:19:03.6394986+02:00",
+        "LastChanged": "2004-11-30T12:15:19.2667475+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "laudantium",
-        "Hidden": false,
-        "FullName": "Albertha Huel",
+        "ExtraInfo": "magni",
+        "StyleHint": "temporibus",
+        "Hidden": true,
+        "FullName": "Dr. Mckenna Brekke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 775
+            "FieldType": "System.Int32",
+            "FieldLength": 764
           }
         }
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "porro",
+    "ExtraInfo": "dolores",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Prof. Bertram Hauck Sr.",
+    "FullName": "Miss Melba Amos Kirlin PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 83
+        "FieldType": "System.Int32",
+        "FieldLength": 68
       }
     }
   }

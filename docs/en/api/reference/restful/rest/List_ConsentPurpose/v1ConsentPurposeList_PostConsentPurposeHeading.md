@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 545,
-  "Name": "Lemke, Green and Hessel",
-  "Tooltip": "aut",
+  "HeadingId": 456,
+  "Name": "Williamson-Marquardt",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "Rank": 452,
-  "UdListDefinitionId": 232
+  "Rank": 47,
+  "UdListDefinitionId": 928
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 987,
-  "Name": "Hills LLC",
-  "Tooltip": "et",
+  "HeadingId": 921,
+  "Name": "Witting, Romaguera and Heaney",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "Rank": 356,
-  "UdListDefinitionId": 648,
+  "Rank": 430,
+  "UdListDefinitionId": 432,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 259
+      "FieldType": "System.Int32",
+      "FieldLength": 615
     }
   }
 }

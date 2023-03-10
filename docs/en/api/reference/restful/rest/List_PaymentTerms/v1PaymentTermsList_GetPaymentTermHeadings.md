@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 413,
-    "Name": "Yundt Inc and Sons",
-    "Tooltip": "molestias",
+    "HeadingId": 514,
+    "Name": "Fisher, Schumm and Bins",
+    "Tooltip": "ullam",
     "Deleted": false,
-    "Rank": 418,
-    "UdListDefinitionId": 611,
+    "Rank": 367,
+    "UdListDefinitionId": 860,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 745
+        "FieldType": "System.String",
+        "FieldLength": 311
       }
     }
   }

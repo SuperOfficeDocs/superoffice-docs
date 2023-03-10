@@ -29,7 +29,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=consequuntur
+GET /api/v1/MDOList/{listname}/selectable?additional=quae
 GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 525,
-    "Name": "Nikolaus, Herman and Haley",
-    "ToolTip": "Tempore doloremque nostrum quasi vitae.",
+    "Id": 860,
+    "Name": "Terry Group",
+    "ToolTip": "A voluptas.",
     "Deleted": true,
-    "Rank": 456,
-    "Type": "et",
-    "ColorBlock": 340,
-    "IconHint": "nemo",
+    "Rank": 481,
+    "Type": "excepturi",
+    "ColorBlock": 352,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2009-11-11T14:19:11.2898728+01:00",
+    "LastChanged": "2005-08-17T12:15:28.1826199+02:00",
     "ChildItems": [
       {
-        "Id": 204,
-        "Name": "Kiehn, Conn and Kuhlman",
-        "ToolTip": "Doloribus cupiditate accusamus sit quisquam dolore similique.",
-        "Deleted": true,
-        "Rank": 688,
-        "Type": "et",
-        "ColorBlock": 460,
-        "IconHint": "repellendus",
+        "Id": 327,
+        "Name": "Crona, Douglas and Greenfelder",
+        "ToolTip": "Deserunt non qui.",
+        "Deleted": false,
+        "Rank": 643,
+        "Type": "vel",
+        "ColorBlock": 185,
+        "IconHint": "aut",
         "Selected": true,
-        "LastChanged": "2010-07-29T14:19:11.2898728+02:00",
+        "LastChanged": "2011-07-31T12:15:28.1826199+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "non",
+        "StyleHint": "odit",
         "Hidden": false,
-        "FullName": "Dane Heidenreich I",
+        "FullName": "Elouise Beer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 213
+            "FieldLength": 546
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "occaecati",
+    "ExtraInfo": "est",
+    "StyleHint": "facilis",
     "Hidden": false,
-    "FullName": "Griffin Welch",
+    "FullName": "Prof. Michelle Parisian I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 816
+        "FieldType": "System.String",
+        "FieldLength": 780
       }
     }
   }

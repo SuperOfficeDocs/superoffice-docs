@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 350,
-    "Name": "Tremblay, Denesik and Miller",
-    "Tooltip": "consectetur",
-    "Deleted": false,
-    "Rank": 923,
-    "UdListDefinitionId": 540
+    "HeadingId": 557,
+    "Name": "Johnston Group",
+    "Tooltip": "quo",
+    "Deleted": true,
+    "Rank": 486,
+    "UdListDefinitionId": 322
   },
   {
-    "HeadingId": 350,
-    "Name": "Tremblay, Denesik and Miller",
-    "Tooltip": "consectetur",
-    "Deleted": false,
-    "Rank": 923,
-    "UdListDefinitionId": 540
+    "HeadingId": 557,
+    "Name": "Johnston Group",
+    "Tooltip": "quo",
+    "Deleted": true,
+    "Rank": 486,
+    "UdListDefinitionId": 322
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 896,
-    "Name": "Crooks Group",
-    "Tooltip": "iste",
-    "Deleted": false,
-    "Rank": 94,
-    "UdListDefinitionId": 942,
+    "HeadingId": 717,
+    "Name": "Dickinson-Reichel",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "Rank": 644,
+    "UdListDefinitionId": 299,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 496
+        "FieldLength": 308
       }
     }
   }

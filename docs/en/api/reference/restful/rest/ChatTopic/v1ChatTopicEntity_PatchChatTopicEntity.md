@@ -137,18 +137,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "qui",
+    "path": "labore",
     "value": {}
   },
   {
     "op": "add",
-    "path": "qui",
+    "path": "labore",
     "value": {}
   }
 ]
@@ -161,48 +161,48 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 602,
-  "Name": "Turner, Hansen and Wyman",
-  "Description": "Front-line transitional monitoring",
-  "WelcomeMessage": "reprehenderit",
+  "ChatTopicId": 445,
+  "Name": "Sipes Inc and Sons",
+  "Description": "Enhanced high-level moderator",
+  "WelcomeMessage": "animi",
   "Language": null,
-  "LastAccept": "2007-07-21T14:19:10.0998102+02:00",
-  "SecondsPrAccept": 682,
-  "AlertRecipient": "libero",
+  "LastAccept": "2018-05-09T12:15:26.5306417+02:00",
+  "SecondsPrAccept": 652,
+  "AlertRecipient": "in",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "expedita",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "nihil",
-  "WarnNewChatMinutes": 316,
-  "WarnManagerNewChatMinutes": 529,
-  "TicketEnabled": true,
+  "BadgeHeader": "ipsa",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "autem",
+  "WarnNewChatMinutes": 128,
+  "WarnManagerNewChatMinutes": 929,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 915,
-  "WarnManagerChatMessageMinutes": 305,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 897,
-  "OfflineFormQueueLength": 496,
+  "WarnChatMessageMinutes": 30,
+  "WarnManagerChatMessageMinutes": 380,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 709,
+  "OfflineFormQueueLength": 44,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "iusto",
+  "WidgetRatingText": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 435
+      "FieldLength": 120
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

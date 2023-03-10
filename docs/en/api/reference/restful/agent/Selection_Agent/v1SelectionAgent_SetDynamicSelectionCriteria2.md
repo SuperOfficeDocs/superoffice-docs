@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 489,
-  "Filter": "voluptas"
+  "SelectionId": 613,
+  "Filter": "ipsa"
 }
 ```
 
@@ -99,29 +99,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stokes-Swaniawski",
-    "Operator": "similique",
+    "Name": "Mayert-Runolfsdottir",
+    "Operator": "consectetur",
     "Values": [
-      "accusantium",
-      "autem"
+      "dolores",
+      "quia"
     ],
     "DisplayValues": [
-      "est",
-      "non"
+      "rerum",
+      "ut"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Hilll-Harber",
-        "Operator": "consectetur",
+        "Name": "Paucek-Hickle",
+        "Operator": "accusantium",
         "Values": [
-          "sint",
-          "fuga"
+          "dolore",
+          "repellat"
         ],
         "DisplayValues": [
-          "omnis",
-          "quisquam"
+          "ad",
+          "similique"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -129,14 +129,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 770,
+        "InterParenthesis": 206,
         "InterOperator": "And",
-        "UniqueHash": 441
+        "UniqueHash": 371
       }
     ],
-    "InterParenthesis": 389,
+    "InterParenthesis": 146,
     "InterOperator": "And",
-    "UniqueHash": 413
+    "UniqueHash": 493
   }
 ]
 ```

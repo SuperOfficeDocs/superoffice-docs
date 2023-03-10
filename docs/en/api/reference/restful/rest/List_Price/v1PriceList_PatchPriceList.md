@@ -116,18 +116,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "necessitatibus",
+    "path": "quia",
     "value": {}
   },
   {
     "op": "add",
-    "path": "necessitatibus",
+    "path": "quia",
     "value": {}
   }
 ]
@@ -140,27 +140,27 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 386,
-  "ERPPriceListKey": "molestiae",
-  "QuoteConnectionId": 145,
-  "Name": "Thiel, Carter and Cormier",
-  "Description": "Multi-layered hybrid capability",
-  "Currency": "repudiandae",
-  "CurrencyName": "Keebler Inc and Sons",
-  "ValidFrom": "2017-03-20T14:19:11.3367817+01:00",
-  "ValidTo": "2015-05-31T14:19:11.3367817+02:00",
+  "PriceListId": 959,
+  "ERPPriceListKey": "veniam",
+  "QuoteConnectionId": 16,
+  "Name": "Ryan LLC",
+  "Description": "Organic systematic hub",
+  "Currency": "hic",
+  "CurrencyName": "Hirthe-Mann",
+  "ValidFrom": "2021-08-12T12:15:28.2566168+02:00",
+  "ValidTo": "1996-05-14T12:15:28.2566168+02:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 333
+      "FieldLength": 663
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

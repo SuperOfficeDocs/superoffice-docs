@@ -96,12 +96,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 773,
-  "Name": "Ebert-Schmitt",
-  "Tooltip": "quia",
-  "PassiveText": "debitis",
-  "Deleted": false,
-  "Rank": 374,
+  "ReldefId": 701,
+  "Name": "Corwin-Bruen",
+  "Tooltip": "amet",
+  "PassiveText": "quia",
+  "Deleted": true,
+  "Rank": 464,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -114,20 +114,20 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 808,
-  "Name": "Bosco-Farrell",
-  "Tooltip": "nihil",
-  "PassiveText": "et",
+  "ReldefId": 261,
+  "Name": "Hahn-Haag",
+  "Tooltip": "odio",
+  "PassiveText": "est",
   "Deleted": false,
-  "Rank": 628,
+  "Rank": 513,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 449
+      "FieldType": "System.Int32",
+      "FieldLength": 773
     }
   },
   "_Links": {

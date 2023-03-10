@@ -101,13 +101,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "1998-04-13T14:19:04.1410858+02:00",
-  "ToDate": "2005-08-04T14:19:04.1410858+02:00",
-  "AmountLimit": 443,
+  "FromDate": "2011-02-23T12:15:20.0947351+01:00",
+  "ToDate": "1998-05-06T12:15:20.0947351+02:00",
+  "AmountLimit": 674,
   "Status": "Lost"
 }
 ```
@@ -120,37 +120,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Mertz, Hickle and Glover",
-    "SaleDate": "2022-10-14T14:19:04.1410858+02:00",
-    "SaleId": 474,
-    "Probability": 651,
-    "Title": "saepe",
-    "Amount": 5277.656,
-    "Currency": "qui",
-    "ProjectName": "Conroy LLC",
-    "AssociateFullName": "Zackary Emard",
-    "Description": "Assimilated impactful orchestration",
+    "ContactName": "Cummings, Hilpert and Reichel",
+    "SaleDate": "1999-03-31T12:15:20.0947351+02:00",
+    "SaleId": 516,
+    "Probability": 100,
+    "Title": "magni",
+    "Amount": 27058.956,
+    "Currency": "ab",
+    "ProjectName": "Brakus LLC",
+    "AssociateFullName": "Reginald Marks DVM",
+    "Description": "Distributed optimal moratorium",
     "Status": "Lost",
-    "WeightedAmount": 11012.876,
-    "ProjectId": 416,
-    "EarningPercent": 9098.002,
-    "Earning": 3970.778,
-    "ContactId": 374,
-    "AssociateId": 548,
-    "PersonId": 421,
-    "SaleTypeId": 408,
-    "SaleTypeName": "Becker, Braun and Blick",
-    "PersonFullName": "Loren Kilback",
+    "WeightedAmount": 2115.45,
+    "ProjectId": 60,
+    "EarningPercent": 18838.474,
+    "Earning": 16215.315999999999,
+    "ContactId": 728,
+    "AssociateId": 675,
+    "PersonId": 172,
+    "SaleTypeId": 451,
+    "SaleTypeName": "Satterfield-Toy",
+    "PersonFullName": "Gussie Kautzer",
     "Completed": "Completed",
-    "ActiveErpLinks": 297,
-    "NextDueDate": "2018-07-20T14:19:04.1410858+02:00",
-    "Number": "1342145",
+    "ActiveErpLinks": 956,
+    "NextDueDate": "2010-06-19T12:15:20.0957352+02:00",
+    "Number": "569593",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 256
+        "FieldType": "System.Int32",
+        "FieldLength": 640
       }
     }
   }

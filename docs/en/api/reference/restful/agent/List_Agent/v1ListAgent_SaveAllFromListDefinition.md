@@ -78,27 +78,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 507,
+  "UdListDefinitionId": 508,
   "Items": [
     {
-      "Id": 169,
-      "Name": "Schroeder-Haag",
-      "Tooltip": "ullam",
-      "Deleted": true,
-      "UdListDefinitionId": 627,
-      "Rank": 526
+      "Id": 293,
+      "Name": "Yost-Schiller",
+      "Tooltip": "dolorum",
+      "Deleted": false,
+      "UdListDefinitionId": 886,
+      "Rank": 912
     },
     {
-      "Id": 169,
-      "Name": "Schroeder-Haag",
-      "Tooltip": "ullam",
-      "Deleted": true,
-      "UdListDefinitionId": 627,
-      "Rank": 526
+      "Id": 293,
+      "Name": "Yost-Schiller",
+      "Tooltip": "dolorum",
+      "Deleted": false,
+      "UdListDefinitionId": 886,
+      "Rank": 912
     }
   ]
 }
@@ -112,18 +112,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 938,
-    "Name": "Stroman-Fadel",
-    "Tooltip": "reprehenderit",
-    "Deleted": false,
-    "UdListDefinitionId": 630,
-    "Rank": 866,
+    "Id": 61,
+    "Name": "Satterfield, Murray and Quigley",
+    "Tooltip": "velit",
+    "Deleted": true,
+    "UdListDefinitionId": 318,
+    "Rank": 355,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 475
+        "FieldType": "System.Int32",
+        "FieldLength": 889
       }
     }
   }

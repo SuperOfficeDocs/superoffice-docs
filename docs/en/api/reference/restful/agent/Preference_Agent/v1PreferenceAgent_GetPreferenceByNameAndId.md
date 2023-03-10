@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "consequuntur",
-  "PrefKey": "quas",
+  "PrefSection": "aliquid",
+  "PrefKey": "sit",
   "PrefLevel": "Database",
-  "OwnerId": 931
+  "OwnerId": 527
 }
 ```
 
@@ -104,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "vel",
+  "RawValue": "ipsum",
   "Specification": null,
-  "DisplayValue": "ducimus",
-  "DisplayTooltip": "est",
+  "DisplayValue": "doloremque",
+  "DisplayTooltip": "sit",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 679,
-  "PrefDescId": 603,
-  "TableName": "Bergnaum Group",
-  "UserPreferenceId": 52,
+  "TargetId": 412,
+  "PrefDescId": 192,
+  "TableName": "Veum LLC",
+  "UserPreferenceId": 199,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldType": "System.String",
+      "FieldLength": 564
     }
   }
 }

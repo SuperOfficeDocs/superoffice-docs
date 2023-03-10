@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 346,
-  "MinDate": "2013-06-13T14:19:03.3727451+02:00",
-  "MaxDate": "2014-01-13T14:19:03.3727451+01:00",
-  "IncludeEmails": false
+  "DocumentPluginId": 360,
+  "MinDate": "2004-12-16T12:15:18.9027204+01:00",
+  "MaxDate": "2021-01-09T12:15:18.9027204+01:00",
+  "IncludeEmails": true
 }
 ```
 
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 742,
-  "NumDocumentsAlreadyMigrated": 671,
+  "NumDocumentsOmitted": 628,
+  "NumDocumentsAlreadyMigrated": 894,
   "Documents": [
     {
-      "DocumentId": 793,
-      "ContactId": 810,
-      "PersonId": 236,
-      "SaleId": 896,
-      "ProjectId": 785,
-      "DocTmplId": 850,
-      "AssociateId": 760,
-      "UserGroupId": 954,
-      "VisibleForId": 982
+      "DocumentId": 476,
+      "ContactId": 374,
+      "PersonId": 178,
+      "SaleId": 454,
+      "ProjectId": 366,
+      "DocTmplId": 98,
+      "AssociateId": 295,
+      "UserGroupId": 713,
+      "VisibleForId": 302
     }
   ],
   "Associates": [
     {
-      "AssociateId": 403,
-      "EmailAddress": "velda_hodkiewicz@quitzonabshire.info"
+      "AssociateId": 714,
+      "EmailAddress": "sister@schaden.uk"
     },
     {
-      "AssociateId": 403,
-      "EmailAddress": "velda_hodkiewicz@quitzonabshire.info"
+      "AssociateId": 714,
+      "EmailAddress": "sister@schaden.uk"
     }
   ]
 }

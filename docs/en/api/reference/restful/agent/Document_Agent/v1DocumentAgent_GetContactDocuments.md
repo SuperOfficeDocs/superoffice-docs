@@ -96,14 +96,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 715,
-  "StartTime": "2018-06-28T14:19:03.1355296+02:00",
-  "EndTime": "2019-10-08T14:19:03.1355296+02:00",
-  "Count": 54
+  "ContactId": 941,
+  "StartTime": "2001-04-03T12:15:18.7117555+02:00",
+  "EndTime": "2022-02-12T12:15:18.7117555+01:00",
+  "Count": 542
 }
 ```
 
@@ -115,32 +115,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 961,
-    "Attention": "magnam",
-    "Header": "molestiae",
-    "Name": "Walsh, Howell and Rolfson",
-    "OurRef": "veniam",
-    "YourRef": "aut",
-    "Description": "Customizable clear-thinking open system",
-    "DocumentTemplate": "perferendis",
-    "IsPublished": true,
-    "PersonId": 742,
-    "PersonFullName": "Madie Runolfsdottir",
-    "AssociateFullName": "Eulalia Watsica",
-    "ContactId": 557,
-    "ContactName": "Oberbrunner-Will",
-    "ProjectId": 698,
-    "ProjectName": "Reinger, Friesen and Schmidt",
-    "AssociateId": 39,
-    "Snum": 245,
-    "SaleId": 438,
-    "SaleName": "Streich LLC",
+    "DocumentId": 801,
+    "Attention": "ducimus",
+    "Header": "vel",
+    "Name": "Stokes Group",
+    "OurRef": "perferendis",
+    "YourRef": "nesciunt",
+    "Description": "Triple-buffered grid-enabled product",
+    "DocumentTemplate": "aut",
+    "IsPublished": false,
+    "PersonId": 46,
+    "PersonFullName": "Miss Sarai Leora Vandervort",
+    "AssociateFullName": "Hazle Von",
+    "ContactId": 846,
+    "ContactName": "Abbott, McCullough and Russel",
+    "ProjectId": 261,
+    "ProjectName": "Crona, Smitham and Gislason",
+    "AssociateId": 432,
+    "Snum": 491,
+    "SaleId": 874,
+    "SaleName": "Powlowski-Gulgowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 542
+        "FieldLength": 363
       }
     }
   }

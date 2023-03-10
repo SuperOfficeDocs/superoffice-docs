@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 330,
-    "Name": "Considine-Pfeffer",
-    "Tooltip": "quasi",
-    "Deleted": false,
-    "Rank": 729,
-    "UdListDefinitionId": 308,
+    "HeadingId": 447,
+    "Name": "Littel, Lang and Shields",
+    "Tooltip": "sunt",
+    "Deleted": true,
+    "Rank": 906,
+    "UdListDefinitionId": 674,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 833
+        "FieldLength": 275
       }
     }
   }

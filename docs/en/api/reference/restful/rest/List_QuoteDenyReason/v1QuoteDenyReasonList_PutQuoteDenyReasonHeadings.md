@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 189,
-    "Name": "Funk-Roob",
-    "Tooltip": "minus",
-    "Deleted": true,
-    "Rank": 351,
-    "UdListDefinitionId": 181
+    "HeadingId": 692,
+    "Name": "Nikolaus Group",
+    "Tooltip": "cupiditate",
+    "Deleted": false,
+    "Rank": 523,
+    "UdListDefinitionId": 59
   },
   {
-    "HeadingId": 189,
-    "Name": "Funk-Roob",
-    "Tooltip": "minus",
-    "Deleted": true,
-    "Rank": 351,
-    "UdListDefinitionId": 181
+    "HeadingId": 692,
+    "Name": "Nikolaus Group",
+    "Tooltip": "cupiditate",
+    "Deleted": false,
+    "Rank": 523,
+    "UdListDefinitionId": 59
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 139,
-    "Name": "Ebert, Treutel and Rippin",
-    "Tooltip": "amet",
-    "Deleted": true,
-    "Rank": 331,
-    "UdListDefinitionId": 249,
+    "HeadingId": 578,
+    "Name": "Abshire, Johnson and Schuppe",
+    "Tooltip": "nihil",
+    "Deleted": false,
+    "Rank": 730,
+    "UdListDefinitionId": 5,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 90
+        "FieldLength": 560
       }
     }
   }

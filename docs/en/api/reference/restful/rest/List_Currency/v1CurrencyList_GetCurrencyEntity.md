@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,19 +77,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 37,
-  "Name": "Schmidt, Abshire and Jones",
-  "Tooltip": "aut",
-  "Rank": 896,
-  "Rate": 17312.216,
-  "Units": 11247.926,
+  "CurrencyId": 848,
+  "Name": "King-Deckow",
+  "Tooltip": "placeat",
+  "Rank": 974,
+  "Rate": 15325.26,
+  "Units": 27779.775999999998,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldLength": 465
     }
   }
 }

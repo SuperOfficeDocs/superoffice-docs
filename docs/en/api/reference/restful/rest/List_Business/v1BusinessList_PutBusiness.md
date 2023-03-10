@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 738,
-  "Name": "Pagac-Jerde",
-  "Tooltip": "corrupti",
-  "Deleted": true,
-  "UdListDefinitionId": 69,
-  "Rank": 963
+  "Id": 672,
+  "Name": "Rempel LLC",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "UdListDefinitionId": 263,
+  "Rank": 663
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 99,
-  "Name": "Bartell-Haag",
-  "Tooltip": "officiis",
-  "Deleted": false,
-  "UdListDefinitionId": 2,
-  "Rank": 783,
+  "Id": 250,
+  "Name": "Schmitt Inc and Sons",
+  "Tooltip": "cumque",
+  "Deleted": true,
+  "UdListDefinitionId": 384,
+  "Rank": 519,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 654
+      "FieldLength": 747
     }
   }
 }

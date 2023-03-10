@@ -64,12 +64,12 @@ No Content
 POST /api/v1/Agents/Ticket/SetTicketMessageImportant
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 877,
-  "Important": false
+  "TicketMessageId": 552,
+  "Important": true
 }
 ```
 

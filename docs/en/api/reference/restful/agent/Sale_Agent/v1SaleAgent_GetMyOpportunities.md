@@ -100,7 +100,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 541
+  "Count": 5
 }
 ```
 
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Mitchell-Howe",
-    "SaleDate": "2017-03-31T14:19:04.1410858+02:00",
-    "SaleId": 993,
-    "Probability": 407,
-    "Title": "repudiandae",
-    "Amount": 22292.142,
-    "Currency": "veritatis",
-    "ProjectName": "Lueilwitz Inc and Sons",
-    "AssociateFullName": "Ms. Jaycee Howell III",
-    "Description": "Exclusive client-driven extranet",
+    "ContactName": "Hahn-Larkin",
+    "SaleDate": "2019-11-28T12:15:20.090737+01:00",
+    "SaleId": 354,
+    "Probability": 711,
+    "Title": "facere",
+    "Amount": 20345.928,
+    "Currency": "et",
+    "ProjectName": "Monahan Inc and Sons",
+    "AssociateFullName": "Dr. Hugh Williamson",
+    "Description": "Balanced human-resource instruction set",
     "Status": "Lost",
-    "WeightedAmount": 17158.649999999998,
+    "WeightedAmount": 15438.083999999999,
     "ProjectId": 254,
-    "EarningPercent": 13300.696,
-    "Earning": 3322.04,
-    "ContactId": 354,
-    "AssociateId": 275,
-    "PersonId": 161,
-    "SaleTypeId": 900,
-    "SaleTypeName": "Padberg, Russel and Boyer",
-    "PersonFullName": "Paolo Pagac Sr.",
+    "EarningPercent": 22079.03,
+    "Earning": 18945.03,
+    "ContactId": 601,
+    "AssociateId": 17,
+    "PersonId": 300,
+    "SaleTypeId": 227,
+    "SaleTypeName": "Abbott, Mann and Cremin",
+    "PersonFullName": "Zelda Schowalter",
     "Completed": "Completed",
-    "ActiveErpLinks": 68,
-    "NextDueDate": "2016-11-23T14:19:04.1410858+01:00",
-    "Number": "878090",
+    "ActiveErpLinks": 596,
+    "NextDueDate": "1996-04-10T12:15:20.0917353+02:00",
+    "Number": "1190160",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 642
+        "FieldType": "System.String",
+        "FieldLength": 74
       }
     }
   }

@@ -86,20 +86,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 244,
-  "Name": "Carroll, Herzog and Crist",
-  "Tooltip": "architecto",
+  "RoleId": 911,
+  "Name": "Hudson-Collins",
+  "Tooltip": "doloribus",
   "RoleType": "Anonymous",
-  "Deleted": 252,
-  "Rank": 929,
-  "Created": "1999-03-26T14:19:04.5484513+01:00",
-  "UseCategories": 914,
+  "Deleted": 798,
+  "Rank": 137,
+  "Created": "2020-03-07T12:15:20.5297314+01:00",
+  "UseCategories": 952,
   "CreatedBy": null,
-  "Updated": "2010-05-03T14:19:04.5484513+02:00",
+  "Updated": "2022-09-20T12:15:20.5307288+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -112,24 +112,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 353,
-  "Name": "Windler, Gutmann and Kuvalis",
-  "Tooltip": "sequi",
+  "RoleId": 217,
+  "Name": "Rodriguez-Smitham",
+  "Tooltip": "eius",
   "RoleType": "Anonymous",
-  "Deleted": 646,
-  "Rank": 73,
-  "Created": "2015-02-12T14:19:04.5484513+01:00",
-  "UseCategories": 472,
+  "Deleted": 812,
+  "Rank": 240,
+  "Created": "1997-04-25T12:15:20.5327291+02:00",
+  "UseCategories": 203,
   "CreatedBy": null,
-  "Updated": "2007-08-26T14:19:04.5484513+02:00",
+  "Updated": "2018-10-19T12:15:20.5327291+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 470
+      "FieldType": "System.Int32",
+      "FieldLength": 135
     }
   }
 }

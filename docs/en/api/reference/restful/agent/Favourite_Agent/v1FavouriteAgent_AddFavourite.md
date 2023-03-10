@@ -66,14 +66,14 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Sauer, Veum and Waelchi",
-  "RecordId": 749,
-  "AssociateId": 333,
-  "ExtraInfo": "non"
+  "TableName": "McGlynn, Lehner and Kirlin",
+  "RecordId": 568,
+  "AssociateId": 664,
+  "ExtraInfo": "ipsa"
 }
 ```
 

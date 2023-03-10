@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Williamson-Casper",
-  "Id": 740
+  "ListName": "Kerluke-O'Conner",
+  "Id": 404
 }
 ```
 
@@ -100,50 +100,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 344,
-  "Name": "Leannon, McClure and Windler",
-  "ToolTip": "Dolor sint quibusdam.",
-  "Deleted": false,
-  "Rank": 667,
-  "Type": "et",
+  "Id": 752,
+  "Name": "Hermiston, Weber and Trantow",
+  "ToolTip": "Tenetur et rerum ut vel earum voluptatem soluta.",
+  "Deleted": true,
+  "Rank": 990,
+  "Type": "quae",
   "ChildItems": [
     {
-      "Id": 351,
-      "Name": "Jerde LLC",
-      "ToolTip": "Et rem facere ut occaecati quia esse est.",
-      "Deleted": true,
-      "Rank": 992,
-      "Type": "ut",
+      "Id": 930,
+      "Name": "Vandervort, Leffler and Little",
+      "ToolTip": "Aut saepe.",
+      "Deleted": false,
+      "Rank": 632,
+      "Type": "alias",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "odio",
-      "ColorBlock": 578,
-      "ExtraInfo": "voluptate",
-      "StyleHint": "quo",
-      "FullName": "Dallas Jakubowski",
+      "IconHint": "reiciendis",
+      "ColorBlock": 748,
+      "ExtraInfo": "laborum",
+      "StyleHint": "et",
+      "FullName": "Benedict Strosin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 284
+          "FieldLength": 601
         }
       }
     }
   ],
-  "IconHint": "facilis",
-  "ColorBlock": 109,
-  "ExtraInfo": "magnam",
-  "StyleHint": "aut",
-  "FullName": "Dr. Bessie Connor Borer",
+  "IconHint": "officia",
+  "ColorBlock": 5,
+  "ExtraInfo": "doloribus",
+  "StyleHint": "ratione",
+  "FullName": "Claude Friesen",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 798
+      "FieldType": "System.String",
+      "FieldLength": 219
     }
   }
 }

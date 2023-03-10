@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 631,
-    "Name": "Schaefer-Balistreri",
-    "ToolTip": "Magnam aut.",
+    "Id": 874,
+    "Name": "McLaughlin-Dietrich",
+    "ToolTip": "Nisi maiores eaque et vel.",
     "Deleted": false,
-    "Rank": 906,
-    "Type": "vel",
-    "ColorBlock": 847,
-    "IconHint": "quo",
-    "Selected": true,
-    "LastChanged": "2002-12-24T14:19:11.3992772+01:00",
+    "Rank": 193,
+    "Type": "ad",
+    "ColorBlock": 869,
+    "IconHint": "temporibus",
+    "Selected": false,
+    "LastChanged": "2011-09-13T12:15:28.3316166+02:00",
     "ChildItems": [
       {
-        "Id": 439,
-        "Name": "Schiller, Hand and Koch",
-        "ToolTip": "Quia unde atque totam.",
+        "Id": 784,
+        "Name": "Leannon LLC",
+        "ToolTip": "Voluptatem et temporibus.",
         "Deleted": true,
-        "Rank": 958,
-        "Type": "itaque",
-        "ColorBlock": 11,
-        "IconHint": "provident",
-        "Selected": false,
-        "LastChanged": "2015-05-19T14:19:11.3992772+02:00",
+        "Rank": 202,
+        "Type": "cumque",
+        "ColorBlock": 936,
+        "IconHint": "nostrum",
+        "Selected": true,
+        "LastChanged": "2007-01-30T12:15:28.3316166+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "saepe",
+        "ExtraInfo": "nemo",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Dave Fay"
+        "FullName": "Yasmin Quigley"
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "repellendus",
-    "Hidden": true,
-    "FullName": "Avery Willms"
+    "ExtraInfo": "ab",
+    "StyleHint": "modi",
+    "Hidden": false,
+    "FullName": "Benton Schimmel"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 954,
-    "Name": "Mraz-Moore",
-    "ToolTip": "Eligendi magni ullam nulla totam non.",
-    "Deleted": false,
-    "Rank": 870,
-    "Type": "repellat",
-    "ColorBlock": 270,
-    "IconHint": "adipisci",
-    "Selected": true,
-    "LastChanged": "2020-01-28T14:19:11.3992772+01:00",
+    "Id": 914,
+    "Name": "Morar-Crooks",
+    "ToolTip": "Qui consequuntur ab voluptatum expedita nobis voluptates voluptatibus.",
+    "Deleted": true,
+    "Rank": 252,
+    "Type": "quibusdam",
+    "ColorBlock": 867,
+    "IconHint": "aliquid",
+    "Selected": false,
+    "LastChanged": "2008-01-23T12:15:28.3346162+01:00",
     "ChildItems": [
       {
-        "Id": 486,
-        "Name": "Grady Group",
-        "ToolTip": "Nulla rerum porro ea repellat velit aperiam.",
-        "Deleted": true,
-        "Rank": 526,
-        "Type": "quasi",
-        "ColorBlock": 12,
-        "IconHint": "quo",
+        "Id": 177,
+        "Name": "Hartmann LLC",
+        "ToolTip": "Est rerum magnam recusandae quia explicabo sapiente animi.",
+        "Deleted": false,
+        "Rank": 361,
+        "Type": "asperiores",
+        "ColorBlock": 881,
+        "IconHint": "molestias",
         "Selected": false,
-        "LastChanged": "2012-06-18T14:19:11.3992772+02:00",
+        "LastChanged": "2012-04-25T12:15:28.3346162+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "quis",
+        "ExtraInfo": "labore",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Frank Hilll",
+        "FullName": "Ericka Tromp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 115
+            "FieldLength": 859
           }
         }
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "consequuntur",
+    "ExtraInfo": "optio",
+    "StyleHint": "error",
     "Hidden": false,
-    "FullName": "Cyril Wunsch",
+    "FullName": "Mrs. Orrin VonRueden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 113
+        "FieldLength": 43
       }
     }
   }

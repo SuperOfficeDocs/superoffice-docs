@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 830
+  "ProductId": 361
 }
 ```
 
@@ -120,73 +120,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 664,
-  "ERPProductKey": "saepe",
-  "ERPPriceListKey": "impedit",
-  "Name": "Lynch LLC",
-  "Description": "Programmable client-driven task-force",
-  "Code": "quasi",
-  "PriceUnit": "quasi",
-  "QuantityUnit": "in",
+  "ProductId": 838,
+  "ERPProductKey": "temporibus",
+  "ERPPriceListKey": "in",
+  "Name": "Klein Group",
+  "Description": "Quality-focused leading edge task-force",
+  "Code": "voluptatum",
+  "PriceUnit": "voluptate",
+  "QuantityUnit": "officia",
   "IsSubscription": false,
-  "SubscriptionUnit": "vel",
-  "DefaultSubscriptionQuantity": 16068.018,
-  "ItemNumber": "583223",
+  "SubscriptionUnit": "dolorum",
+  "DefaultSubscriptionQuantity": 22107.236,
+  "ItemNumber": "473615",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quos",
-  "ProductTypeKey": "totam",
-  "VAT": 18252.416,
-  "VATInfo": "ea",
-  "UnitCost": 26961.802,
-  "UnitMinimumPrice": 15018.127999999999,
-  "UnitListPrice": 30894.971999999998,
+  "ProductFamilyKey": "esse",
+  "ProductTypeKey": "iste",
+  "VAT": 11457.904,
+  "VATInfo": "eaque",
+  "UnitCost": 6023.548,
+  "UnitMinimumPrice": 15137.22,
+  "UnitListPrice": 22292.142,
   "InAssortment": true,
-  "Supplier": "quibusdam",
-  "SupplierCode": "iure",
-  "Rights": "iusto",
-  "Rule": "molestiae",
+  "Supplier": "et",
+  "SupplierCode": "nobis",
+  "Rights": "quia",
+  "Rule": "vero",
   "ExtraInfo": [
     {
-      "Name": "Keebler, Predovic and Barton",
-      "Value": "aut",
+      "Name": "Ward-Treutel",
+      "Value": "non",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 974
+          "FieldType": "System.Int32",
+          "FieldLength": 118
         }
       }
     },
     {
-      "Name": "Keebler, Predovic and Barton",
-      "Value": "aut",
+      "Name": "Ward-Treutel",
+      "Value": "non",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 974
+          "FieldType": "System.Int32",
+          "FieldLength": 118
         }
       }
     }
   ],
-  "RawExtraInfo": "consequatur",
-  "ExtraField1": "quia",
-  "ExtraField2": "et",
-  "ExtraField3": "nam",
-  "ExtraField4": "et",
-  "ExtraField5": "distinctio",
-  "InStock": 3948.8399999999997,
+  "RawExtraInfo": "hic",
+  "ExtraField1": "velit",
+  "ExtraField2": "qui",
+  "ExtraField3": "nobis",
+  "ExtraField4": "nam",
+  "ExtraField5": "incidunt",
+  "InStock": 12658.225999999999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 822
+      "FieldType": "System.Int32",
+      "FieldLength": 543
     }
   }
 }

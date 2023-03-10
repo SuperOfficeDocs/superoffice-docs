@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 799
+  "Id": 169
 }
 ```
 
@@ -101,27 +101,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 362,
-  "Rank": 478,
-  "DefaultTask": 418,
-  "DefaultTaskText": "quo",
-  "IsVisual": true,
-  "LastGenerated": "2023-01-13T14:19:04.0782101+01:00",
-  "Description": "Enhanced attitude-oriented encoding",
-  "Name": "Gleichner, Abernathy and Legros",
-  "StatusMonitorId": 649,
-  "PictureId": 198,
-  "NeedsUpdate": false,
+  "OwnerTable": 244,
+  "Rank": 412,
+  "DefaultTask": 327,
+  "DefaultTaskText": "aut",
+  "IsVisual": false,
+  "LastGenerated": "2022-01-11T12:15:20.0137369+01:00",
+  "Description": "Organized 3rd generation productivity",
+  "Name": "Walsh LLC",
+  "StatusMonitorId": 296,
+  "PictureId": 676,
+  "NeedsUpdate": true,
   "Deleted": false,
-  "NumMatches": 781,
-  "NumNeedUpdate": 135,
-  "GenerationStart": "1996-11-16T14:19:04.0782101+01:00",
+  "NumMatches": 61,
+  "NumNeedUpdate": 973,
+  "GenerationStart": "2019-05-22T12:15:20.0137369+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldLength": 132
     }
   }
 }

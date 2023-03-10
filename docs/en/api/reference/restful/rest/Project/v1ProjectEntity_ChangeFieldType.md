@@ -29,7 +29,7 @@ Change a ProjectEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -103,7 +103,7 @@ ProjectEntity found.
 POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 583,
-  "ColumnId": 755,
-  "FieldDefault": "quibusdam",
-  "FieldHeight": 682,
-  "FieldLabel": "commodi",
-  "FieldLeft": 586,
-  "FieldTop": 524,
+  "UDefFieldId": 175,
+  "ColumnId": 695,
+  "FieldDefault": "sit",
+  "FieldHeight": 916,
+  "FieldLabel": "excepturi",
+  "FieldLeft": 899,
+  "FieldTop": 192,
   "FieldType": "Checkbox",
-  "FieldWidth": 533,
-  "FormatMask": "fugiat",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 129,
-  "LabelLeft": 652,
-  "LabelTop": 504,
-  "LabelWidth": 739,
-  "LastVersionId": 899,
-  "ListTableId": 741,
+  "FieldWidth": 668,
+  "FormatMask": "labore",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 501,
+  "LabelLeft": 431,
+  "LabelTop": 431,
+  "LabelWidth": 756,
+  "LastVersionId": 685,
+  "ListTableId": 863,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 864,
-  "ProgId": "facilis",
-  "IsReadOnly": false,
-  "ShortLabel": "dolorum",
-  "TabOrder": 398,
-  "TextLength": 971,
-  "Tooltip": "numquam",
-  "UdefIdentity": 206,
-  "UDListDefinitionId": 996,
+  "Page1LineNo": 773,
+  "ProgId": "molestiae",
+  "IsReadOnly": true,
+  "ShortLabel": "eveniet",
+  "TabOrder": 886,
+  "TextLength": 242,
+  "Tooltip": "est",
+  "UdefIdentity": 112,
+  "UDListDefinitionId": 352,
   "Justification": "Center",
-  "Version": 394,
-  "TemplateVariableName": "Nikolaus, Lang and Rolfson",
-  "HasBeenPublished": true,
-  "MdoListName": "Osinski Inc and Sons",
+  "Version": 481,
+  "TemplateVariableName": "Heller-O'Hara",
+  "HasBeenPublished": false,
+  "MdoListName": "Lockman, Willms and Larkin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 582
+      "FieldType": "System.String",
+      "FieldLength": 572
     }
   }
 }

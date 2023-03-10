@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,46 +121,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 609,
-    "ColumnId": 89,
-    "FieldDefault": "totam",
-    "FieldHeight": 486,
-    "FieldLabel": "deserunt",
-    "FieldLeft": 179,
-    "FieldTop": 765,
+    "UDefFieldId": 891,
+    "ColumnId": 163,
+    "FieldDefault": "nesciunt",
+    "FieldHeight": 445,
+    "FieldLabel": "et",
+    "FieldLeft": 866,
+    "FieldTop": 804,
     "FieldType": "Checkbox",
-    "FieldWidth": 841,
-    "FormatMask": "voluptatem",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 939,
-    "LabelLeft": 723,
-    "LabelTop": 140,
-    "LabelWidth": 637,
-    "LastVersionId": 886,
-    "ListTableId": 282,
+    "FieldWidth": 12,
+    "FormatMask": "non",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 212,
+    "LabelLeft": 8,
+    "LabelTop": 514,
+    "LabelWidth": 160,
+    "LastVersionId": 464,
+    "ListTableId": 388,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 117,
-    "ProgId": "exercitationem",
-    "IsReadOnly": true,
-    "ShortLabel": "et",
-    "TabOrder": 635,
-    "TextLength": 92,
-    "Tooltip": "facere",
-    "UdefIdentity": 146,
-    "UDListDefinitionId": 809,
+    "Page1LineNo": 787,
+    "ProgId": "error",
+    "IsReadOnly": false,
+    "ShortLabel": "dicta",
+    "TabOrder": 858,
+    "TextLength": 832,
+    "Tooltip": "nesciunt",
+    "UdefIdentity": 904,
+    "UDListDefinitionId": 998,
     "Justification": "Center",
-    "Version": 335,
-    "TemplateVariableName": "Hickle Inc and Sons",
-    "HasBeenPublished": true,
-    "MdoListName": "Gulgowski-Kihn",
+    "Version": 380,
+    "TemplateVariableName": "West-Cummings",
+    "HasBeenPublished": false,
+    "MdoListName": "Upton LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 928
+        "FieldType": "System.String",
+        "FieldLength": 904
       }
     }
   }

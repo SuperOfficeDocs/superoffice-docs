@@ -25,7 +25,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=128
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=206
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,25 +88,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 559,
-  "BlobSize": 785,
-  "Description": "Switchable asynchronous paradigm",
-  "ExtraInfo": "ut",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "voluptates",
-  "OriginalSize": 449,
-  "CreatedDate": "2006-06-20T14:19:02.7750538+02:00",
-  "UpdatedDate": "2014-06-06T14:19:02.7750538+02:00",
+  "BlobId": 228,
+  "BlobSize": 5,
+  "Description": "Pre-emptive dedicated migration",
+  "ExtraInfo": "laudantium",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "tenetur",
+  "OriginalSize": 1002,
+  "CreatedDate": "2019-06-03T12:15:18.220763+02:00",
+  "UpdatedDate": "2013-12-29T12:15:18.220763+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sint",
+  "ConceptualType": "tenetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldType": "System.String",
+      "FieldLength": 210
     }
   }
 }

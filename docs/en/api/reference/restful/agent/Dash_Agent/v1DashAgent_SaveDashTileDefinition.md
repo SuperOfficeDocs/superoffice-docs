@@ -98,29 +98,29 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 784,
-  "Name": "Witting, Brown and Hermann",
-  "Description": "Streamlined clear-thinking projection",
-  "DefaultHeight": 295,
-  "DefaultWidth": 197,
+  "DashboardTileDefinitionId": 131,
+  "Name": "Schoen-Keeling",
+  "Description": "Proactive hybrid algorithm",
+  "DefaultHeight": 416,
+  "DefaultWidth": 1001,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Batz-Hudson",
-  "SelectionId": 860,
+  "EntityName": "Bailey LLC",
+  "SelectionId": 720,
   "CurrencyMode": "Base",
-  "CurrencyCode": "qui",
+  "CurrencyCode": "est",
   "Measure": "Average",
-  "MeasureField": "consequatur",
-  "SortBy": "velit",
-  "LayoutConfig": "soluta",
-  "SecondarySelectionId": 126,
-  "MeasureByField": "saepe",
+  "MeasureField": "est",
+  "SortBy": "et",
+  "LayoutConfig": "qui",
+  "SecondarySelectionId": 254,
+  "MeasureByField": "veritatis",
   "Usage": "Dashboard",
-  "ProviderName": "Murazik Group"
+  "ProviderName": "Hodkiewicz Group"
 }
 ```
 
@@ -131,31 +131,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 582,
-  "Name": "Cassin-Rutherford",
-  "Description": "Synergistic 6th generation budgetary management",
-  "DefaultHeight": 676,
-  "DefaultWidth": 465,
+  "DashboardTileDefinitionId": 434,
+  "Name": "Armstrong, Powlowski and Kemmer",
+  "Description": "Compatible high-level productivity",
+  "DefaultHeight": 417,
+  "DefaultWidth": 679,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Gleason-Fadel",
-  "SelectionId": 393,
+  "EntityName": "Schimmel-Larson",
+  "SelectionId": 403,
   "CurrencyMode": "Base",
-  "CurrencyCode": "consequatur",
+  "CurrencyCode": "accusantium",
   "Measure": "Average",
-  "MeasureField": "explicabo",
-  "SortBy": "qui",
-  "LayoutConfig": "corrupti",
-  "SecondarySelectionId": 338,
-  "MeasureByField": "pariatur",
+  "MeasureField": "eligendi",
+  "SortBy": "voluptatibus",
+  "LayoutConfig": "sunt",
+  "SecondarySelectionId": 977,
+  "MeasureByField": "ut",
   "Usage": "Dashboard",
-  "ProviderName": "Grimes LLC",
+  "ProviderName": "Christiansen-Feil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 685
+      "FieldLength": 58
     }
   }
 }

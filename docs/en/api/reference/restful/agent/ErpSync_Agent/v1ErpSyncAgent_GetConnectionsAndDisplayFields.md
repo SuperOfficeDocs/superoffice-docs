@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 729
+  "EntityId": 340
 }
 ```
 
@@ -98,27 +98,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 453,
-    "ConnectionName": "Wehner LLC",
-    "Connected": true,
+    "ErpConnectionId": 5,
+    "ConnectionName": "Crooks, Towne and Lehner",
+    "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "et",
-        "Rank": 78,
-        "DisplayName": "Grimes, Hodkiewicz and Hahn",
-        "DisplayDescription": "Universal secondary strategy",
+        "FieldKey": "sint",
+        "Rank": 135,
+        "DisplayName": "Powlowski, Daugherty and Kiehn",
+        "DisplayDescription": "Digitized stable application",
         "FieldType": "Checkbox",
-        "ListName": "Wilkinson-Keebler",
-        "DefaultValue": "voluptates",
-        "MaxLength": 8,
+        "ListName": "O'Connell Group",
+        "DefaultValue": "aut",
+        "MaxLength": 535,
         "Access": "Mandatory",
         "ShowInSearch": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 726
+            "FieldType": "System.Int32",
+            "FieldLength": 735
           }
         }
       }
@@ -126,15 +126,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "maxime",
-      "qui"
+      "ad",
+      "dolor"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 911
+        "FieldType": "System.Int32",
+        "FieldLength": 80
       }
     }
   }

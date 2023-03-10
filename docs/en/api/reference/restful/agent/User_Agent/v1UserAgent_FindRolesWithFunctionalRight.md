@@ -92,7 +92,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Cremin-Bogan"
+  "FunctionalRightName": "Bernhard-Christiansen"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 169,
-    "Name": "Deckow LLC",
-    "ToolTip": "Voluptatem dolorem ipsum totam.",
+    "Id": 189,
+    "Name": "Anderson, Prohaska and McDermott",
+    "ToolTip": "Sapiente sapiente adipisci aut et aut quia est.",
     "Deleted": false,
-    "Rank": 69,
-    "Type": "nobis",
+    "Rank": 540,
+    "Type": "iure",
     "ChildItems": [
       {
-        "Id": 633,
-        "Name": "McLaughlin-Walter",
-        "ToolTip": "Earum repellat rerum sit nisi non rerum.",
-        "Deleted": false,
-        "Rank": 524,
-        "Type": "doloribus",
+        "Id": 440,
+        "Name": "Corwin Inc and Sons",
+        "ToolTip": "Dolore id.",
+        "Deleted": true,
+        "Rank": 128,
+        "Type": "velit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aspernatur",
-        "ColorBlock": 652,
+        "IconHint": "rem",
+        "ColorBlock": 981,
         "ExtraInfo": "quia",
-        "StyleHint": "aut",
-        "FullName": "Linda Zulauf",
+        "StyleHint": "animi",
+        "FullName": "Tyrel Krajcik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 652
+            "FieldLength": 302
           }
         }
       }
     ],
     "IconHint": "omnis",
-    "ColorBlock": 194,
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "tempora",
-    "FullName": "Tanner Rice",
+    "ColorBlock": 509,
+    "ExtraInfo": "quia",
+    "StyleHint": "debitis",
+    "FullName": "Mrs. Joesph Madilyn Bradtke II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 664
+        "FieldType": "System.String",
+        "FieldLength": 658
       }
     }
   }

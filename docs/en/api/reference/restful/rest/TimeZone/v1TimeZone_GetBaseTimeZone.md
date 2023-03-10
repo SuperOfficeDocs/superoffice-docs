@@ -70,31 +70,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 533,
-  "Name": "Langworth LLC",
-  "TZLocationCode": "assumenda",
-  "TZLocationCities": "natus",
-  "IsoNumber": 319,
+  "TZLocationID": 614,
+  "Name": "Roberts-Robel",
+  "TZLocationCode": "aut",
+  "TZLocationCities": "et",
+  "IsoNumber": 382,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 809,
-      "StartMonth": 704,
-      "EndDay": 270,
-      "EndMonth": 230,
-      "TZOffset": 645,
+      "StartDay": 651,
+      "StartMonth": 468,
+      "EndDay": 889,
+      "EndMonth": 53,
+      "TZOffset": 461,
       "StartRulePattern": "est",
-      "EndRulePattern": "dignissimos"
+      "EndRulePattern": "quo"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 75,
-      "StartMonth": 389,
-      "EndDay": 604,
-      "EndMonth": 410,
-      "TZOffset": 683,
-      "StartRulePattern": "quos",
-      "EndRulePattern": "laudantium"
+      "StartDay": 690,
+      "StartMonth": 144,
+      "EndDay": 93,
+      "EndMonth": 801,
+      "TZOffset": 185,
+      "StartRulePattern": "est",
+      "EndRulePattern": "numquam"
     }
   }
 }

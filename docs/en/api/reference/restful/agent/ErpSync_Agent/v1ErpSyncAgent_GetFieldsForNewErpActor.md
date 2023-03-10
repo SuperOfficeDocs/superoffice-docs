@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 672,
+  "ErpConnectionId": 628,
   "ErpActorType": "Customer"
 }
 ```
@@ -101,14 +101,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "laborum",
-    "Rank": 981,
-    "DisplayName": "Lubowitz Group",
-    "DisplayDescription": "Progressive discrete info-mediaries",
+    "FieldKey": "vel",
+    "Rank": 736,
+    "DisplayName": "Kemmer-Becker",
+    "DisplayDescription": "User-centric impactful circuit",
     "FieldType": "Checkbox",
-    "ListName": "Medhurst, Roberts and Williamson",
-    "DefaultValue": "explicabo",
-    "MaxLength": 128,
+    "ListName": "Predovic, Emard and Hartmann",
+    "DefaultValue": "amet",
+    "MaxLength": 255,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1002
+        "FieldLength": 246
       }
     }
   }

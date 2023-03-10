@@ -126,14 +126,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 75,
-  "StartTime": "2000-08-31T14:19:02.3262466+02:00",
-  "EndTime": "2008-02-17T14:19:02.3262466+01:00",
-  "Count": 526,
+  "PersonId": 239,
+  "StartTime": "2002-03-13T12:15:17.6207711+01:00",
+  "EndTime": "2012-07-08T12:15:17.6207711+02:00",
+  "Count": 460,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 482,
-    "StartDate": "1999-10-19T14:19:02.3262466+02:00",
-    "EndDate": "2015-05-05T14:19:02.3262466+02:00",
+    "AppointmentId": 130,
+    "StartDate": "2012-05-23T12:15:17.6217707+02:00",
+    "EndDate": "2011-01-10T12:15:17.6217707+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quam",
-    "AssociateFullName": "Kathleen Bergnaum V",
-    "ContactName": "Marks, Tremblay and Flatley",
-    "Description": "Universal neutral parallelism",
-    "PersonFullName": "Mrs. Van Ramiro Parisian I",
-    "PersonId": 563,
-    "ContactId": 11,
-    "ProjectId": 389,
-    "ProjectName": "Gusikowski, Jakubowski and Gutmann",
-    "IsPublished": false,
-    "AssociateId": 37,
-    "ColorIndex": 370,
+    "Task": "provident",
+    "AssociateFullName": "Elta Bahringer",
+    "ContactName": "Corwin, West and Parisian",
+    "Description": "Fundamental executive standardization",
+    "PersonFullName": "Prof. Estelle Margarett Breitenberg I",
+    "PersonId": 683,
+    "ContactId": 898,
+    "ProjectId": 48,
+    "ProjectName": "Stroman, Simonis and Brown",
+    "IsPublished": true,
+    "AssociateId": 351,
+    "ColorIndex": 883,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 917,
-    "PriorityName": "McLaughlin LLC",
+    "PriorityId": 236,
+    "PriorityName": "Watsica, Kuhic and Mitchell",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2022-07-14T14:19:02.3262466+02:00",
+    "ActiveDate": "2003-02-06T12:15:17.6217707+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-01-18T14:19:02.3262466+01:00",
-    "RecurringEndDate": "2001-10-12T14:19:02.3262466+02:00",
-    "MotherId": 656,
-    "AssignedBy": 192,
-    "AssignedByFullName": "Julien Stokes",
+    "RecurringStartDate": "2003-07-21T12:15:17.6217707+02:00",
+    "RecurringEndDate": "2011-03-12T12:15:17.6217707+01:00",
+    "MotherId": 958,
+    "AssignedBy": 302,
+    "AssignedByFullName": "Valentin Kihn",
     "RejectReason": "",
-    "Location": "sed",
-    "AlarmLeadTime": "est",
-    "SaleId": 640,
-    "SaleName": "Kirlin-Boyer",
-    "AssociateName": "Jacobi-Feest",
-    "CreatedDate": "2020-04-05T14:19:02.3262466+02:00",
-    "CreatedBy": "laudantium",
-    "CreatedByFullName": "Marley Mante",
-    "CreatedByAssociateId": 737,
+    "Location": "tenetur",
+    "AlarmLeadTime": "rerum",
+    "SaleId": 315,
+    "SaleName": "Blick Group",
+    "AssociateName": "McClure LLC",
+    "CreatedDate": "2005-09-30T12:15:17.622775+02:00",
+    "CreatedBy": "necessitatibus",
+    "CreatedByFullName": "Guadalupe Miller",
+    "CreatedByAssociateId": 818,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldLength": 364
       }
     }
   }

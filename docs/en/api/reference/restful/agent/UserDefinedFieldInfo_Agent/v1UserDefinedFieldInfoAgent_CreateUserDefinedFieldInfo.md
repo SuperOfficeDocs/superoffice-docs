@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,46 +122,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 58,
-  "ColumnId": 1001,
-  "FieldDefault": "modi",
-  "FieldHeight": 359,
-  "FieldLabel": "dolores",
-  "FieldLeft": 180,
-  "FieldTop": 156,
+  "UDefFieldId": 64,
+  "ColumnId": 841,
+  "FieldDefault": "reiciendis",
+  "FieldHeight": 41,
+  "FieldLabel": "amet",
+  "FieldLeft": 933,
+  "FieldTop": 236,
   "FieldType": "Checkbox",
-  "FieldWidth": 930,
-  "FormatMask": "perspiciatis",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 642,
-  "LabelLeft": 466,
-  "LabelTop": 703,
-  "LabelWidth": 833,
-  "LastVersionId": 522,
-  "ListTableId": 812,
-  "IsMandatory": true,
+  "FieldWidth": 141,
+  "FormatMask": "qui",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 470,
+  "LabelLeft": 704,
+  "LabelTop": 430,
+  "LabelWidth": 924,
+  "LastVersionId": 773,
+  "ListTableId": 797,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 509,
-  "ProgId": "qui",
+  "Page1LineNo": 856,
+  "ProgId": "dolores",
   "IsReadOnly": false,
-  "ShortLabel": "ratione",
-  "TabOrder": 470,
-  "TextLength": 18,
-  "Tooltip": "est",
-  "UdefIdentity": 177,
-  "UDListDefinitionId": 452,
+  "ShortLabel": "voluptatem",
+  "TabOrder": 660,
+  "TextLength": 667,
+  "Tooltip": "labore",
+  "UdefIdentity": 498,
+  "UDListDefinitionId": 810,
   "Justification": "Center",
-  "Version": 847,
-  "TemplateVariableName": "Wehner Group",
+  "Version": 25,
+  "TemplateVariableName": "Schuppe-Veum",
   "HasBeenPublished": false,
-  "MdoListName": "O'Reilly Inc and Sons",
+  "MdoListName": "Macejkovic-Kerluke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldType": "System.String",
+      "FieldLength": 743
     }
   }
 }

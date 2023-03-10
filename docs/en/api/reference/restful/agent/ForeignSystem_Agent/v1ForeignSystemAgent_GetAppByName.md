@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Mohr, Greenfelder and Koch"
+  "ApplicationName": "Bashirian LLC"
 }
 ```
 
@@ -93,29 +93,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 73,
-  "Name": "Becker, Mosciski and Weber",
-  "CreatedDate": "2018-10-01T14:19:03.5602728+02:00",
-  "UpdatedDate": "2012-05-23T14:19:03.5602728+02:00",
+  "ForeignAppId": 288,
+  "Name": "Weimann LLC",
+  "CreatedDate": "2016-03-14T12:15:19.1487492+01:00",
+  "UpdatedDate": "2004-12-23T12:15:19.1487492+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 343,
-      "Name": "Reichel, Feest and Dietrich",
-      "CreatedDate": "2011-04-18T14:19:03.5602728+02:00",
-      "UpdatedDate": "2003-05-31T14:19:03.5602728+02:00",
-      "AssociateFullName": "Winston Wehner",
-      "CreatedBy": "quos",
-      "UpdatedBy": "sint",
-      "DeviceIdentifier": "quas",
-      "ForeignAppId": 421,
+      "ForeignDeviceId": 811,
+      "Name": "Hilll, Farrell and Padberg",
+      "CreatedDate": "2011-04-19T12:15:19.150749+02:00",
+      "UpdatedDate": "2019-07-04T12:15:19.150749+02:00",
+      "AssociateFullName": "Odie Donnelly",
+      "CreatedBy": "atque",
+      "UpdatedBy": "aut",
+      "DeviceIdentifier": "quasi",
+      "ForeignAppId": 344,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 414
+          "FieldLength": 307
         }
       }
     }
@@ -124,8 +124,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 896
+      "FieldType": "System.String",
+      "FieldLength": 16
     }
   }
 }

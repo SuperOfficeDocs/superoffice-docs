@@ -168,12 +168,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Cassin, Stark and Marquardt",
-  "Restrictions": "eum"
+  "ProviderName": "Kassulke Group",
+  "Restrictions": "et"
 }
 ```
 
@@ -185,19 +185,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Hirthe, Luettgen and Wiegand",
-    "DisplayTooltip": "amet",
-    "DisplayType": "molestiae",
+    "DisplayName": "Smith Group",
+    "DisplayTooltip": "vero",
+    "DisplayType": "voluptate",
     "CanOrderBy": false,
-    "Name": "Moen-Runte",
+    "Name": "Murphy Group",
     "CanRestrictBy": false,
-    "RestrictionType": "hic",
-    "RestrictionListName": "Turner, Schimmel and Kuvalis",
+    "RestrictionType": "voluptatibus",
+    "RestrictionListName": "Herzog, Fritsch and Dooley",
     "IsVisible": false,
-    "ExtraInfo": "fugiat",
-    "Width": "illo",
-    "IconHint": "recusandae",
-    "HeadingIconHint": "error"
+    "ExtraInfo": "animi",
+    "Width": "fugiat",
+    "IconHint": "quod",
+    "HeadingIconHint": "et"
   }
 ]
 ```

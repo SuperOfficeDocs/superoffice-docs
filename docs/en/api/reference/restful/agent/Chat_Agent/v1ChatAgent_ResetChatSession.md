@@ -108,7 +108,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 82
+  "ChatSessionId": 983
 }
 ```
 
@@ -119,43 +119,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 601,
-  "TopicId": 460,
+  "ChatSessionId": 76,
+  "TopicId": 923,
   "User": null,
   "Person": null,
-  "CustomerAlias": "vero",
-  "CustomerHost": "nihil",
-  "CustomerName": "Windler, Schmidt and Wunsch",
-  "CustomerEmail": "darion@corkerywolf.biz",
-  "CustomerPhone": "622-955-8381 x452",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Larkin, Ortiz and Schimmel",
+  "CustomerAlias": "et",
+  "CustomerHost": "et",
+  "CustomerName": "Mills, Kutch and Goodwin",
+  "CustomerEmail": "dillon@hettingeraufderhar.name",
+  "CustomerPhone": "994.946.8412 x54195",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "McLaughlin, Emmerich and Feil",
   "Status": "Closed",
-  "FirstMessage": "eius",
-  "LastMessage": "consequuntur",
-  "WhenRequested": "2003-06-01T14:19:02.8855274+02:00",
-  "WhenStarted": "2005-06-22T14:19:02.8855274+02:00",
-  "WhenEnded": "2014-12-15T14:19:02.8855274+01:00",
-  "WhenIdle": "2008-08-30T14:19:02.8855274+02:00",
-  "WhenFetched": "2018-05-12T14:19:02.8855274+02:00",
-  "SessionKey": "eveniet",
-  "InitialQueuePos": 16,
-  "AlertLevel": 339,
-  "Rank": 642,
+  "FirstMessage": "voluptatum",
+  "LastMessage": "placeat",
+  "WhenRequested": "2015-04-06T12:15:18.3747614+02:00",
+  "WhenStarted": "2011-09-05T12:15:18.3747614+02:00",
+  "WhenEnded": "2016-09-20T12:15:18.3747614+02:00",
+  "WhenIdle": "2008-02-11T12:15:18.3747614+01:00",
+  "WhenFetched": "2015-03-12T12:15:18.3747614+01:00",
+  "SessionKey": "dignissimos",
+  "InitialQueuePos": 845,
+  "AlertLevel": 714,
+  "Rank": 496,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 372,
+  "ChatbotIsActive": true,
+  "Rating": 328,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldLength": 472
     }
   }
 }

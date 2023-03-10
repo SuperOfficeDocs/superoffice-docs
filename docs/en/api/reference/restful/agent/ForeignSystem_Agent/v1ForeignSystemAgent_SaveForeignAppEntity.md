@@ -74,27 +74,27 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 381,
-  "Name": "Ward-Carter",
-  "CreatedDate": "2014-08-06T14:19:03.5446477+02:00",
-  "UpdatedDate": "2000-03-01T14:19:03.5446477+01:00",
+  "ForeignAppId": 946,
+  "Name": "Wolff-Stoltenberg",
+  "CreatedDate": "2014-01-19T12:15:19.140749+01:00",
+  "UpdatedDate": "2009-06-19T12:15:19.140749+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 573,
-      "Name": "Yost-Treutel",
-      "CreatedDate": "2021-09-02T14:19:03.5446477+02:00",
-      "UpdatedDate": "2015-06-26T14:19:03.5446477+02:00",
-      "AssociateFullName": "Vern Price",
-      "CreatedBy": "enim",
-      "UpdatedBy": "fuga",
-      "DeviceIdentifier": "accusantium",
-      "ForeignAppId": 305
+      "ForeignDeviceId": 735,
+      "Name": "Wisozk-Collins",
+      "CreatedDate": "1996-08-31T12:15:19.1417512+02:00",
+      "UpdatedDate": "2008-09-20T12:15:19.1417512+02:00",
+      "AssociateFullName": "Miss Margaret Zoey Kautzer MD",
+      "CreatedBy": "dolor",
+      "UpdatedBy": "odio",
+      "DeviceIdentifier": "iste",
+      "ForeignAppId": 624
     }
   ]
 }
@@ -107,29 +107,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 339,
-  "Name": "Fritsch Group",
-  "CreatedDate": "2020-06-18T14:19:03.5446477+02:00",
-  "UpdatedDate": "2017-01-04T14:19:03.5446477+01:00",
+  "ForeignAppId": 154,
+  "Name": "Moore Inc and Sons",
+  "CreatedDate": "1996-10-02T12:15:19.142749+02:00",
+  "UpdatedDate": "2014-06-06T12:15:19.142749+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 635,
-      "Name": "Klocko-Mayer",
-      "CreatedDate": "2001-01-30T14:19:03.5446477+01:00",
-      "UpdatedDate": "2018-02-12T14:19:03.5446477+01:00",
-      "AssociateFullName": "Naomi Ryan Casper II",
-      "CreatedBy": "modi",
-      "UpdatedBy": "exercitationem",
-      "DeviceIdentifier": "nihil",
-      "ForeignAppId": 619,
+      "ForeignDeviceId": 301,
+      "Name": "Stiedemann, Klein and Klein",
+      "CreatedDate": "2004-05-11T12:15:19.1437493+02:00",
+      "UpdatedDate": "2006-09-19T12:15:19.1437493+02:00",
+      "AssociateFullName": "Mrs. Clovis Heidenreich",
+      "CreatedBy": "sunt",
+      "UpdatedBy": "sint",
+      "DeviceIdentifier": "eum",
+      "ForeignAppId": 570,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 571
+          "FieldLength": 506
         }
       }
     }
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldLength": 384
     }
   }
 }

@@ -81,7 +81,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 924
+  "DocumentId": 923
 }
 ```
 
@@ -92,16 +92,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Berge, Green and Blanda",
-  "Type": "sequi",
-  "Size": 172,
+  "Name": "Stiedemann, Lueilwitz and Walsh",
+  "Type": "voluptatum",
+  "Size": 754,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 44
+      "FieldLength": 401
     }
   }
 }

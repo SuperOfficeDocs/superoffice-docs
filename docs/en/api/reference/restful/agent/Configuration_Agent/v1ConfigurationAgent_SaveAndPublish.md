@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,28 +99,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 15,
-  "Name": "Bechtelar-Cummings",
-  "Description": "User-centric non-volatile parallelism",
-  "DeltaJson": "tenetur",
+  "ConfigurableScreenDeltaId": 205,
+  "Name": "Weissnat-Effertz",
+  "Description": "Object-based coherent Graphic Interface",
+  "DeltaJson": "in",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "autem",
-  "UpdatedDate": "1999-02-14T14:19:02.9324043+01:00",
-  "CreatedDate": "2000-07-29T14:19:02.9324043+02:00",
+  "RecipeId": "numquam",
+  "UpdatedDate": "2015-05-05T12:15:18.4277591+02:00",
+  "CreatedDate": "2019-11-05T12:15:18.4277591+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    563,
-    822
+    996,
+    30
   ],
-  "AppliesToKey": "veritatis",
+  "AppliesToKey": "deserunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 624
+      "FieldLength": 96
     }
   }
 }

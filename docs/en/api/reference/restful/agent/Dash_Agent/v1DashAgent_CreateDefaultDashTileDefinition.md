@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 707,
-  "Name": "Nitzsche, White and Wuckert",
-  "Description": "Digitized tangible model",
-  "DefaultHeight": 465,
-  "DefaultWidth": 75,
+  "DashboardTileDefinitionId": 83,
+  "Name": "Schamberger Group",
+  "Description": "Fundamental 4th generation encoding",
+  "DefaultHeight": 413,
+  "DefaultWidth": 502,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Armstrong, Mayert and Kohler",
-  "SelectionId": 527,
+  "EntityName": "Krajcik LLC",
+  "SelectionId": 376,
   "CurrencyMode": "Base",
-  "CurrencyCode": "possimus",
+  "CurrencyCode": "omnis",
   "Measure": "Average",
-  "MeasureField": "eaque",
-  "SortBy": "inventore",
-  "LayoutConfig": "ut",
-  "SecondarySelectionId": 721,
-  "MeasureByField": "et",
+  "MeasureField": "et",
+  "SortBy": "qui",
+  "LayoutConfig": "qui",
+  "SecondarySelectionId": 170,
+  "MeasureByField": "sed",
   "Usage": "Dashboard",
-  "ProviderName": "Kunze-Corkery",
+  "ProviderName": "Veum Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldLength": 475
     }
   }
 }

@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 908,
-  "Name": "Huel-Reichel",
-  "Tooltip": "voluptates",
-  "Deleted": true,
-  "UdListDefinitionId": 539,
-  "Rank": 911
+  "Id": 488,
+  "Name": "Witting-Walter",
+  "Tooltip": "est",
+  "Deleted": false,
+  "UdListDefinitionId": 630,
+  "Rank": 731
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 340,
-  "Name": "Quigley Inc and Sons",
-  "Tooltip": "cupiditate",
+  "Id": 30,
+  "Name": "Muller, Lowe and Morar",
+  "Tooltip": "libero",
   "Deleted": false,
-  "UdListDefinitionId": 56,
-  "Rank": 682,
+  "UdListDefinitionId": 948,
+  "Rank": 647,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 664
+      "FieldType": "System.Int32",
+      "FieldLength": 482
     }
   }
 }

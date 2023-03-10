@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 389,
-    "Name": "Rau Inc and Sons",
-    "Tooltip": "est",
-    "Deleted": false,
-    "Rank": 368,
-    "UdListDefinitionId": 15,
+    "HeadingId": 385,
+    "Name": "Muller, Bruen and Friesen",
+    "Tooltip": "hic",
+    "Deleted": true,
+    "Rank": 716,
+    "UdListDefinitionId": 414,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 864
+        "FieldType": "System.String",
+        "FieldLength": 189
       }
     }
   }

@@ -98,33 +98,33 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 11 Jun 2008 14:19:10 G6T
+Last-Modified: Fri, 11 Jun 2021 12:15:26 G6T
 
 {
-  "SourceContactId": 891,
-  "SourcePersonId": 391,
-  "DestinationContactId": 51,
-  "DestinationPersonId": 69,
-  "RelationId": 796,
-  "Comment": "id",
-  "RelationDefinitionId": 114,
-  "Reversed": 630,
-  "UpdatedDate": "2008-06-11T14:19:10.240473+02:00",
-  "CreatedDate": "1999-03-14T14:19:10.240473+01:00",
+  "SourceContactId": 753,
+  "SourcePersonId": 514,
+  "DestinationContactId": 368,
+  "DestinationPersonId": 995,
+  "RelationId": 448,
+  "Comment": "voluptas",
+  "RelationDefinitionId": 205,
+  "Reversed": 623,
+  "UpdatedDate": "2021-06-11T12:15:26.8006387+02:00",
+  "CreatedDate": "2015-12-27T12:15:26.8006387+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "McDermott Inc and Sons",
-  "SourcePersonName": "Greenfelder Group",
-  "DestinationContactName": "Huels, Gutmann and Nicolas",
-  "DestinationPersonName": "Sauer LLC",
-  "ActiveText": "sit",
-  "PassiveText": "maxime",
+  "SourceContactName": "Cummerata Group",
+  "SourcePersonName": "Bergstrom-Ledner",
+  "DestinationContactName": "Little LLC",
+  "DestinationPersonName": "Eichmann-Dietrich",
+  "ActiveText": "officiis",
+  "PassiveText": "minima",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 252
+      "FieldType": "System.Int32",
+      "FieldLength": 516
     }
   },
   "_Links": {

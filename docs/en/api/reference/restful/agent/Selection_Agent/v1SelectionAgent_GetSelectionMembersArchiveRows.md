@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 243,
-  "Select": "sed"
+  "SelectionId": 923,
+  "Select": "dicta"
 }
 ```
 
@@ -96,23 +96,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Thompson, Stehr and Durgan",
-    "PrimaryKey": 204,
+    "EntityName": "Halvorson-Wunsch",
+    "PrimaryKey": 247,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "doloribus",
-        "TooltipHint": "odit",
-        "LinkHint": "ut"
+        "DisplayValue": "fuga",
+        "TooltipHint": "dignissimos",
+        "LinkHint": "reprehenderit"
       }
     },
-    "LinkHint": "deleniti",
-    "StyleHint": "autem",
+    "LinkHint": "ipsam",
+    "StyleHint": "aspernatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 739
+        "FieldType": "System.String",
+        "FieldLength": 87
       }
     }
   }

@@ -86,16 +86,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Reynolds, Zboncak and Davis",
-  "DeviceName": "Lowe-Rau",
-  "DeviceIdentifier": "reprehenderit",
-  "KeyName": "Schumm-Renner",
-  "TableName": "Schaden-Dickinson",
-  "RecordId": 646
+  "ApplicationName": "Mitchell-Ritchie",
+  "DeviceName": "Hagenes Group",
+  "DeviceIdentifier": "qui",
+  "KeyName": "Crooks Group",
+  "TableName": "Koss Inc and Sons",
+  "RecordId": 486
 }
 ```
 
@@ -106,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "autem",
-  "Value": "dolorem",
-  "RecordId": 792,
-  "CreatedDate": "2017-04-09T14:19:03.5602728+02:00",
-  "UpdatedDate": "2021-09-09T14:19:03.5602728+02:00",
-  "UpdatedBy": "quisquam",
-  "CreatedBy": "numquam",
-  "TableName": "Skiles-Witting",
+  "Key": "nostrum",
+  "Value": "omnis",
+  "RecordId": 667,
+  "CreatedDate": "2005-07-15T12:15:19.1577486+02:00",
+  "UpdatedDate": "2014-01-23T12:15:19.1577486+01:00",
+  "UpdatedBy": "fugiat",
+  "CreatedBy": "natus",
+  "TableName": "Oberbrunner-Schneider",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 964
+      "FieldLength": 520
     }
   }
 }

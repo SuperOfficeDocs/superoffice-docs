@@ -87,15 +87,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 47,
-  "Name": "Leuschke Group",
-  "Tooltip": "vitae",
+  "Id": 803,
+  "Name": "Cruickshank-Feest",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "Rank": 311,
-  "IsCustomList": false,
+  "Rank": 185,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "amet",
+  "UseGroupsAndHeadings": false,
+  "ListType": "aspernatur",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 238,
-  "Name": "Cummings-Gutkowski",
-  "Tooltip": "quis",
+  "Id": 38,
+  "Name": "Jacobi, Reichert and Kerluke",
+  "Tooltip": "eum",
   "Deleted": true,
-  "Rank": 267,
+  "Rank": 585,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "recusandae",
+  "ListType": "illo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 447
+      "FieldLength": 332
     }
   }
 }

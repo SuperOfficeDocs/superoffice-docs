@@ -74,17 +74,17 @@ OK
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 204,
-  "Name": "Bernier, Schroeder and Feil",
-  "Rank": 977,
-  "Tooltip": "ut",
+  "ResourceId": 165,
+  "Name": "Boehm-Sanford",
+  "Rank": 250,
+  "Tooltip": "a",
   "Deleted": false,
-  "IsLocation": false,
-  "LocationAddress": "labore"
+  "IsLocation": true,
+  "LocationAddress": "distinctio"
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 755,
-  "Name": "Leffler Inc and Sons",
-  "Rank": 952,
-  "Tooltip": "quis",
+  "ResourceId": 936,
+  "Name": "Cassin, Purdy and Ritchie",
+  "Rank": 965,
+  "Tooltip": "tempore",
   "Deleted": true,
   "IsLocation": false,
-  "LocationAddress": "suscipit",
+  "LocationAddress": "itaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 174
+      "FieldType": "System.String",
+      "FieldLength": 902
     }
   }
 }

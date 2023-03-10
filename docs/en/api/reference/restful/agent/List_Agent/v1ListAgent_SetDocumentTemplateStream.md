@@ -101,14 +101,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "atque",
-  "PluginId": 295
+  "LanguageCode": "hic",
+  "PluginId": 905
 }
 ```
 
@@ -119,37 +119,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 979,
-  "Name": "Anderson LLC",
-  "Tooltip": "temporibus",
-  "SaveInDb": 751,
-  "Filename": "facere",
-  "DefaultOref": "asperiores",
+  "DocumentTemplateId": 123,
+  "Name": "Sawayn, Zieme and Bogisich",
+  "Tooltip": "et",
+  "SaveInDb": 767,
+  "Filename": "quibusdam",
+  "DefaultOref": "aperiam",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 332,
-  "IntentId": 598,
-  "IsDefaultPublished": true,
-  "Rank": 815,
-  "LoadTemplateFromPlugin": 989,
-  "MimeType": "sed",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 950,
+  "AutoeventId": 92,
+  "IntentId": 336,
+  "IsDefaultPublished": false,
+  "Rank": 463,
+  "LoadTemplateFromPlugin": 163,
+  "MimeType": "iure",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 629,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "skyla.heaney@pricemurray.us",
+  "EmailSubject": "bianka@stokes.name",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "creola@gottlieb.co.uk",
+  "SenderEmailAddress": "christiana.kerluke@hauckkuhic.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldLength": 902
     }
   }
 }

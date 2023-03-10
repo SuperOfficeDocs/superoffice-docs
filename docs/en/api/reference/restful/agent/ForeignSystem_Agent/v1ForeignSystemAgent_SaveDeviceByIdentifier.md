@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Cummerata Group",
-  "DeviceName": "Yundt Inc and Sons",
-  "DeviceIdentifier": "sapiente",
+  "ApplicationName": "Wolff, Harber and Bauch",
+  "DeviceName": "Johns Inc and Sons",
+  "DeviceIdentifier": "quis",
   "ForeignDevice": null
 }
 ```
@@ -101,21 +101,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 280,
-  "Name": "Kutch-Mayert",
-  "CreatedDate": "2007-10-31T14:19:03.5602728+01:00",
-  "UpdatedDate": "2017-03-25T14:19:03.5602728+01:00",
-  "AssociateFullName": "Clovis Hettie Miller Sr.",
-  "CreatedBy": "voluptatem",
-  "UpdatedBy": "iste",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 692,
+  "ForeignDeviceId": 221,
+  "Name": "Lubowitz LLC",
+  "CreatedDate": "2002-04-24T12:15:19.155749+02:00",
+  "UpdatedDate": "2022-12-28T12:15:19.155749+01:00",
+  "AssociateFullName": "Yasmeen Feeney",
+  "CreatedBy": "esse",
+  "UpdatedBy": "omnis",
+  "DeviceIdentifier": "sed",
+  "ForeignAppId": 929,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 622
+      "FieldType": "System.String",
+      "FieldLength": 828
     }
   }
 }

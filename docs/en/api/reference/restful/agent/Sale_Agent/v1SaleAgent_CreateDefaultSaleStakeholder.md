@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Little-Daniel",
-  "Comment": "eligendi",
-  "StakeholderRoleId": 168,
-  "CountryId": 166,
-  "PersonId": 63,
-  "EmailDescription": "cassandra@larson.com",
-  "EmailId": 285,
-  "EmailAddress": "carmelo@reynoldswilkinson.biz",
-  "PhoneId": 915,
-  "ContactName": "Stamm-Schaden",
-  "ContactId": 285,
-  "SaleId": 864,
-  "Mrmrs": "totam",
-  "Firstname": "Kiley",
-  "MiddleName": "Smith Inc and Sons",
-  "Lastname": "Streich",
-  "SaleStakeholderId": 14,
-  "Rank": 572,
-  "Phone": "(558)130-5539",
+  "StakeholderRoleName": "Stark, Franecki and Rath",
+  "Comment": "corporis",
+  "StakeholderRoleId": 885,
+  "CountryId": 174,
+  "PersonId": 295,
+  "EmailDescription": "reyna@wilkinson.co.uk",
+  "EmailId": 407,
+  "EmailAddress": "britney.medhurst@eichmanngrant.us",
+  "PhoneId": 808,
+  "ContactName": "Russel, Brekke and Schaden",
+  "ContactId": 760,
+  "SaleId": 21,
+  "Mrmrs": "facilis",
+  "Firstname": "Buster",
+  "MiddleName": "Hilll Group",
+  "Lastname": "Eichmann",
+  "SaleStakeholderId": 818,
+  "Rank": 126,
+  "Phone": "608.162.1390",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 636
+      "FieldType": "System.Int32",
+      "FieldLength": 192
     }
   }
 }

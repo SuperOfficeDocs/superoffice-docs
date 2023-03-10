@@ -26,7 +26,7 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=aut
+GET /api/v1/List/Rating/MDOItems?query=nemo
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 914,
-    "Name": "Feest-Wyman",
-    "ToolTip": "Veniam laboriosam assumenda veritatis et ipsa.",
-    "Deleted": true,
-    "Rank": 879,
-    "Type": "dolore",
+    "Id": 928,
+    "Name": "Ritchie-Waters",
+    "ToolTip": "Eos est sint.",
+    "Deleted": false,
+    "Rank": 423,
+    "Type": "repudiandae",
     "ChildItems": [
       {
-        "Id": 271,
-        "Name": "Grimes-Ruecker",
-        "ToolTip": "In et assumenda.",
+        "Id": 81,
+        "Name": "Daniel-Grimes",
+        "ToolTip": "Voluptatem est quia eum asperiores ipsa tempora quae.",
         "Deleted": true,
-        "Rank": 964,
-        "Type": "consectetur",
+        "Rank": 862,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "veniam",
-        "ColorBlock": 469,
-        "ExtraInfo": "facere",
-        "StyleHint": "neque",
-        "FullName": "Miss Jason Harber Sr.",
+        "IconHint": "est",
+        "ColorBlock": 156,
+        "ExtraInfo": "quos",
+        "StyleHint": "beatae",
+        "FullName": "Missouri Grady",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 545
+            "FieldLength": 109
           }
         }
       }
     ],
-    "IconHint": "eius",
-    "ColorBlock": 398,
-    "ExtraInfo": "omnis",
-    "StyleHint": "velit",
-    "FullName": "Jaunita Goodwin",
+    "IconHint": "aliquid",
+    "ColorBlock": 274,
+    "ExtraInfo": "rerum",
+    "StyleHint": "aut",
+    "FullName": "Dr. Aileen Celia Langosh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 448
+        "FieldLength": 707
       }
     }
   }

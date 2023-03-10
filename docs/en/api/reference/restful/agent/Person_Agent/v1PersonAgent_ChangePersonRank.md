@@ -70,12 +70,12 @@ OK
 POST /api/v1/Agents/Person/ChangePersonRank
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 429,
-  "MoveUp": false
+  "PersonId": 382,
+  "MoveUp": true
 }
 ```
 
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-438
+22
 ```

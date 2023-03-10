@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 330,
-  "Name": "Prohaska Inc and Sons",
-  "Tooltip": "occaecati",
+  "Id": 271,
+  "Name": "Smith LLC",
+  "Tooltip": "dignissimos",
   "Deleted": false,
-  "UdListDefinitionId": 571,
-  "Rank": 487,
+  "UdListDefinitionId": 797,
+  "Rank": 346,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 188
+      "FieldType": "System.Int32",
+      "FieldLength": 423
     }
   }
 }

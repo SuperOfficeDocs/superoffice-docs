@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Appointment/ValidateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "Dates": [
-    "et",
-    "voluptates"
+    "ex",
+    "facilis"
   ]
 }
 ```
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2021-12-09T14:19:02.5786514+01:00",
+    "Date": "2017-08-26T12:15:17.8237682+02:00",
     "IsConflict": true,
-    "Description": "Adaptive foreground budgetary management",
-    "DescriptionStyleHint": "Cross-platform assymetric approach",
-    "Tooltip": "non"
+    "Description": "Object-based 3rd generation contingency",
+    "DescriptionStyleHint": "Business-focused systematic structure",
+    "Tooltip": "eveniet"
   },
   {
-    "Date": "2021-12-09T14:19:02.5786514+01:00",
+    "Date": "2017-08-26T12:15:17.8237682+02:00",
     "IsConflict": true,
-    "Description": "Adaptive foreground budgetary management",
-    "DescriptionStyleHint": "Cross-platform assymetric approach",
-    "Tooltip": "non"
+    "Description": "Object-based 3rd generation contingency",
+    "DescriptionStyleHint": "Business-focused systematic structure",
+    "Tooltip": "eveniet"
   }
 ]
 ```

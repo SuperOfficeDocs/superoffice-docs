@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,30 +104,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 401,
-  "SourcePersonId": 58,
-  "DestinationContactId": 245,
-  "DestinationPersonId": 683,
-  "RelationId": 316,
-  "Comment": "autem",
-  "RelationDefinitionId": 127,
-  "Reversed": 701,
-  "UpdatedDate": "2009-04-05T14:19:04.0625865+02:00",
-  "CreatedDate": "2020-02-27T14:19:04.0625865+01:00",
+  "SourceContactId": 162,
+  "SourcePersonId": 611,
+  "DestinationContactId": 462,
+  "DestinationPersonId": 81,
+  "RelationId": 104,
+  "Comment": "sit",
+  "RelationDefinitionId": 984,
+  "Reversed": 574,
+  "UpdatedDate": "2004-03-07T12:15:19.9807367+01:00",
+  "CreatedDate": "2010-03-04T12:15:19.9807367+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Mertz Group",
-  "SourcePersonName": "White LLC",
-  "DestinationContactName": "Schulist Group",
-  "DestinationPersonName": "Emmerich-Stiedemann",
-  "ActiveText": "non",
-  "PassiveText": "occaecati",
+  "SourceContactName": "Mills-Gerlach",
+  "SourcePersonName": "Grady, Nikolaus and Schuster",
+  "DestinationContactName": "Boyer-Swift",
+  "DestinationPersonName": "Windler-Krajcik",
+  "ActiveText": "ut",
+  "PassiveText": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 306
+      "FieldType": "System.Int32",
+      "FieldLength": 789
     }
   }
 }

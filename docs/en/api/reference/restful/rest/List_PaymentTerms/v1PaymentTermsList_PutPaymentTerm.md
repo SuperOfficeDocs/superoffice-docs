@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 621,
-  "Name": "Cummerata LLC",
-  "Tooltip": "quis",
+  "Id": 722,
+  "Name": "Keeling Inc and Sons",
+  "Tooltip": "rerum",
   "Deleted": true,
-  "UdListDefinitionId": 695,
-  "Rank": 237
+  "UdListDefinitionId": 504,
+  "Rank": 538
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 772,
-  "Name": "White-Collier",
-  "Tooltip": "non",
+  "Id": 839,
+  "Name": "Collins, Waelchi and Yundt",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "UdListDefinitionId": 656,
-  "Rank": 506,
+  "UdListDefinitionId": 852,
+  "Rank": 989,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 793
+      "FieldType": "System.Int32",
+      "FieldLength": 36
     }
   }
 }

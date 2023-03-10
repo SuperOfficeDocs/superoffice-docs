@@ -128,55 +128,55 @@ OK
 POST /api/v1/Agents/Quote/SaveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 755,
-  "ERPProductKey": "quis",
-  "ERPPriceListKey": "et",
-  "Name": "Konopelski, Kautzer and Beatty",
-  "Description": "Re-contextualized assymetric circuit",
-  "Code": "sunt",
-  "PriceUnit": "non",
-  "QuantityUnit": "aperiam",
+  "ProductId": 143,
+  "ERPProductKey": "et",
+  "ERPPriceListKey": "ex",
+  "Name": "Huel Group",
+  "Description": "Inverse stable circuit",
+  "Code": "sapiente",
+  "PriceUnit": "temporibus",
+  "QuantityUnit": "voluptatibus",
   "IsSubscription": false,
-  "SubscriptionUnit": "voluptate",
-  "DefaultSubscriptionQuantity": 4917.246,
-  "ItemNumber": "559799",
+  "SubscriptionUnit": "non",
+  "DefaultSubscriptionQuantity": 14701.594,
+  "ItemNumber": "1243880",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "numquam",
-  "ProductTypeKey": "sed",
-  "VAT": 7114.1799999999994,
-  "VATInfo": "officiis",
-  "UnitCost": 28234.206,
-  "UnitMinimumPrice": 16726.158,
-  "UnitListPrice": 2735.982,
+  "ProductFamilyKey": "recusandae",
+  "ProductTypeKey": "quisquam",
+  "VAT": 12050.23,
+  "VATInfo": "quo",
+  "UnitCost": 12739.71,
+  "UnitMinimumPrice": 19390.058,
+  "UnitListPrice": 29939.102,
   "InAssortment": false,
-  "Supplier": "doloribus",
-  "SupplierCode": "mollitia",
-  "Rights": "doloribus",
-  "Rule": "pariatur",
+  "Supplier": "eaque",
+  "SupplierCode": "quae",
+  "Rights": "eos",
+  "Rule": "repellendus",
   "ExtraInfo": [
     {
-      "Name": "Trantow, Cassin and Runte",
-      "Value": "porro",
+      "Name": "Kirlin Inc and Sons",
+      "Value": "sint",
       "Type": "Image"
     },
     {
-      "Name": "Trantow, Cassin and Runte",
-      "Value": "porro",
+      "Name": "Kirlin Inc and Sons",
+      "Value": "sint",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "et",
-  "ExtraField1": "suscipit",
-  "ExtraField2": "aut",
-  "ExtraField3": "soluta",
-  "ExtraField4": "ipsum",
-  "ExtraField5": "voluptates",
-  "InStock": 14877.098
+  "RawExtraInfo": "aspernatur",
+  "ExtraField1": "ipsa",
+  "ExtraField2": "et",
+  "ExtraField3": "excepturi",
+  "ExtraField4": "nihil",
+  "ExtraField5": "animi",
+  "InStock": 17262.072
 }
 ```
 
@@ -187,73 +187,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 416,
-  "ERPProductKey": "laborum",
-  "ERPPriceListKey": "dolor",
-  "Name": "Kihn, Bins and Bahringer",
-  "Description": "Ameliorated background database",
-  "Code": "illum",
-  "PriceUnit": "eaque",
-  "QuantityUnit": "adipisci",
-  "IsSubscription": true,
-  "SubscriptionUnit": "quam",
-  "DefaultSubscriptionQuantity": 17193.124,
-  "ItemNumber": "727203",
+  "ProductId": 310,
+  "ERPProductKey": "optio",
+  "ERPPriceListKey": "fugit",
+  "Name": "Ward Group",
+  "Description": "Future-proofed web-enabled application",
+  "Code": "ipsa",
+  "PriceUnit": "dignissimos",
+  "QuantityUnit": "quam",
+  "IsSubscription": false,
+  "SubscriptionUnit": "vel",
+  "DefaultSubscriptionQuantity": 26601.392,
+  "ItemNumber": "798229",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "tenetur",
-  "ProductTypeKey": "odio",
-  "VAT": 26723.618,
-  "VATInfo": "vel",
-  "UnitCost": 5772.8279999999995,
-  "UnitMinimumPrice": 47.01,
-  "UnitListPrice": 17932.748,
-  "InAssortment": true,
-  "Supplier": "ullam",
-  "SupplierCode": "eveniet",
-  "Rights": "ab",
-  "Rule": "sit",
+  "ProductFamilyKey": "velit",
+  "ProductTypeKey": "incidunt",
+  "VAT": 6048.62,
+  "VATInfo": "nihil",
+  "UnitCost": 7885.1439999999993,
+  "UnitMinimumPrice": 26206.507999999998,
+  "UnitListPrice": 1667.288,
+  "InAssortment": false,
+  "Supplier": "fuga",
+  "SupplierCode": "ducimus",
+  "Rights": "pariatur",
+  "Rule": "amet",
   "ExtraInfo": [
     {
-      "Name": "Swift-Price",
-      "Value": "est",
+      "Name": "Beatty LLC",
+      "Value": "eum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 32
+          "FieldType": "System.Int32",
+          "FieldLength": 723
         }
       }
     },
     {
-      "Name": "Swift-Price",
-      "Value": "est",
+      "Name": "Beatty LLC",
+      "Value": "eum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 32
+          "FieldType": "System.Int32",
+          "FieldLength": 723
         }
       }
     }
   ],
-  "RawExtraInfo": "optio",
-  "ExtraField1": "impedit",
-  "ExtraField2": "ullam",
-  "ExtraField3": "modi",
-  "ExtraField4": "voluptatem",
-  "ExtraField5": "et",
-  "InStock": 14598.171999999999,
+  "RawExtraInfo": "illo",
+  "ExtraField1": "quia",
+  "ExtraField2": "alias",
+  "ExtraField3": "id",
+  "ExtraField4": "aut",
+  "ExtraField5": "alias",
+  "InStock": 17926.48,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldLength": 825
     }
   }
 }

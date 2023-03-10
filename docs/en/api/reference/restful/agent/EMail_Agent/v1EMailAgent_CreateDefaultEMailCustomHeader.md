@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailCustomHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,17 +70,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lubowitz, Mraz and Conroy",
+  "Name": "Sanford Inc and Sons",
   "Values": [
-    "reprehenderit",
-    "dolores"
+    "deleniti",
+    "sequi"
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 520
+      "FieldLength": 163
     }
   }
 }

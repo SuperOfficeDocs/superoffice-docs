@@ -73,18 +73,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "quas",
+  "Provider": "voluptas",
   "Restrictions": [
     {
-      "Name": "Mante, Herman and Pacocha",
-      "Operator": "tempora",
+      "Name": "Pfeffer-O'Connell",
+      "Operator": "voluptas",
       "Values": [
-        "eos",
-        "in"
+        "doloribus",
+        "occaecati"
       ],
       "DisplayValues": [
-        "delectus",
-        "numquam"
+        "similique",
+        "veritatis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -92,9 +92,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 983,
+      "InterParenthesis": 847,
       "InterOperator": "And",
-      "UniqueHash": 380
+      "UniqueHash": 118
     }
   ],
   "NewStatus": "Green"
@@ -108,7 +108,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  876,
-  836
+  703,
+  340
 ]
 ```

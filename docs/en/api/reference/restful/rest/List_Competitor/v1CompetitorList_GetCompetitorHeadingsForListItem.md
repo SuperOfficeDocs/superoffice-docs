@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 119,
-    "Name": "Predovic-Frami",
-    "ToolTip": "Omnis sed omnis soluta et possimus numquam.",
-    "Deleted": false,
-    "Rank": 722,
-    "Type": "accusantium",
-    "ColorBlock": 956,
-    "IconHint": "atque",
+    "Id": 544,
+    "Name": "Conn-Hilll",
+    "ToolTip": "Illo quia ut corrupti.",
+    "Deleted": true,
+    "Rank": 782,
+    "Type": "minima",
+    "ColorBlock": 254,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2017-09-06T14:19:11.1480931+02:00",
+    "LastChanged": "2013-09-25T12:15:27.9126317+02:00",
     "ChildItems": [
       {
-        "Id": 152,
-        "Name": "Dickinson-Borer",
-        "ToolTip": "Rem a et.",
-        "Deleted": false,
-        "Rank": 174,
-        "Type": "corporis",
-        "ColorBlock": 454,
-        "IconHint": "fugit",
+        "Id": 267,
+        "Name": "Wyman Inc and Sons",
+        "ToolTip": "Similique non dolor omnis dicta qui.",
+        "Deleted": true,
+        "Rank": 856,
+        "Type": "minus",
+        "ColorBlock": 561,
+        "IconHint": "quas",
         "Selected": true,
-        "LastChanged": "2017-11-07T14:19:11.1480931+01:00",
+        "LastChanged": "1996-09-17T12:15:27.9126317+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "unde",
+        "ExtraInfo": "totam",
+        "StyleHint": "laboriosam",
         "Hidden": false,
-        "FullName": "Mr. Cierra Saul Powlowski DVM",
+        "FullName": "Santa Hagenes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 361
+            "FieldLength": 339
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "et",
+    "ExtraInfo": "id",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Ms. Reagan Bartoletti MD",
+    "FullName": "Alva Gerlach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 366
+        "FieldLength": 201
       }
     }
   }

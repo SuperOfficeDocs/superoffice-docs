@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 373,
-    "Name": "Daniel, Murazik and Christiansen",
-    "ToolTip": "Soluta sed repudiandae perspiciatis reiciendis illum sunt sit.",
+    "Id": 773,
+    "Name": "Will, Kutch and Schuppe",
+    "ToolTip": "Vitae est fugit aliquam laudantium.",
     "Deleted": false,
-    "Rank": 508,
-    "Type": "ab",
-    "ColorBlock": 367,
-    "IconHint": "dolorem",
-    "Selected": false,
-    "LastChanged": "2008-04-14T14:19:11.3836521+02:00",
+    "Rank": 633,
+    "Type": "dignissimos",
+    "ColorBlock": 883,
+    "IconHint": "ullam",
+    "Selected": true,
+    "LastChanged": "2009-11-09T12:15:28.3196184+01:00",
     "ChildItems": [
       {
-        "Id": 32,
-        "Name": "Jerde, Howell and Toy",
-        "ToolTip": "Ut exercitationem.",
+        "Id": 578,
+        "Name": "VonRueden-Skiles",
+        "ToolTip": "Totam sed saepe tempore accusantium placeat ipsa doloribus.",
         "Deleted": false,
-        "Rank": 660,
-        "Type": "omnis",
-        "ColorBlock": 330,
-        "IconHint": "ea",
-        "Selected": false,
-        "LastChanged": "1997-11-12T14:19:11.3836521+01:00",
+        "Rank": 99,
+        "Type": "et",
+        "ColorBlock": 434,
+        "IconHint": "praesentium",
+        "Selected": true,
+        "LastChanged": "2007-04-27T12:15:28.3196184+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "totam",
+        "ExtraInfo": "placeat",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Alexander Rice",
+        "FullName": "Miss Edwina Esperanza Simonis Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 785
+            "FieldLength": 628
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "dicta",
+    "ExtraInfo": "aut",
+    "StyleHint": "fugiat",
     "Hidden": true,
-    "FullName": "Clyde Joany Herman III",
+    "FullName": "Jude Rodriguez",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 243
+        "FieldLength": 736
       }
     }
   }

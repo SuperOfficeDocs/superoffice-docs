@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 93,
-    "Name": "Cummings-Shanahan",
-    "ToolTip": "Id sit.",
+    "Id": 152,
+    "Name": "Cartwright-Emmerich",
+    "ToolTip": "Laudantium dolore possimus officia.",
     "Deleted": false,
-    "Rank": 419,
-    "Type": "distinctio",
-    "ColorBlock": 971,
-    "IconHint": "laborum",
+    "Rank": 46,
+    "Type": "ex",
+    "ColorBlock": 198,
+    "IconHint": "natus",
     "Selected": false,
-    "LastChanged": "2017-12-05T14:19:11.2262177+01:00",
+    "LastChanged": "2020-11-14T12:15:28.116619+01:00",
     "ChildItems": [
       {
-        "Id": 587,
-        "Name": "Schaden, Corwin and Hudson",
-        "ToolTip": "Vero est ducimus et.",
+        "Id": 675,
+        "Name": "Auer-Jerde",
+        "ToolTip": "Commodi ea.",
         "Deleted": false,
-        "Rank": 791,
-        "Type": "ducimus",
-        "ColorBlock": 48,
-        "IconHint": "quo",
-        "Selected": false,
-        "LastChanged": "2015-09-25T14:19:11.2262177+02:00",
+        "Rank": 782,
+        "Type": "atque",
+        "ColorBlock": 526,
+        "IconHint": "accusamus",
+        "Selected": true,
+        "LastChanged": "2005-08-07T12:15:28.1176187+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "illo",
+        "ExtraInfo": "nulla",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Ms. Eliezer Kerluke",
+        "FullName": "Scot Funk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 381
+            "FieldType": "System.String",
+            "FieldLength": 720
           }
         }
       }
     ],
     "ExtraInfo": "suscipit",
-    "StyleHint": "quisquam",
-    "Hidden": false,
-    "FullName": "Miss Shirley Crist IV",
+    "StyleHint": "eveniet",
+    "Hidden": true,
+    "FullName": "Ofelia Rice",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 946
+        "FieldLength": 132
       }
     }
   }

@@ -73,9 +73,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Amount": 9151.2799999999988,
-  "FromCurrency": "id",
-  "ToCurrency": "eius"
+  "Amount": 4820.092,
+  "FromCurrency": "ut",
+  "ToCurrency": "occaecati"
 }
 ```
 
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-23689.906
+15362.868
 ```

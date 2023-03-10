@@ -66,17 +66,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Vandervort, Heller and Okuneva",
+  "TableName": "Schamberger-Bauch",
   "RecordIds": [
-    630,
-    259
+    485,
+    665
   ],
-  "AssociateId": 164,
-  "ExtraInfo": "et"
+  "AssociateId": 574,
+  "ExtraInfo": "fuga"
 }
 ```
 

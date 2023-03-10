@@ -25,7 +25,7 @@ Gets a TaskMenu object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTaskMenu?taskMenuId=608
+POST /api/v1/Agents/List/GetTaskMenu?taskMenuId=244
 POST /api/v1/Agents/List/GetTaskMenu?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,26 +89,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 628,
-  "Name": "Keebler, Hyatt and Balistreri",
-  "Tooltip": "ut",
-  "TableName": "Streich-Kshlerin",
-  "Area": "omnis",
+  "TaskMenuId": 796,
+  "Name": "Mitchell Group",
+  "Tooltip": "assumenda",
+  "TableName": "Strosin-Considine",
+  "Area": "et",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 697,
+  "CrmScriptId": 653,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 897,
+  "Rank": 626,
   "Encoding": "ANSI",
-  "ProgId": "vitae",
-  "Deleted": true,
+  "ProgId": "mollitia",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 494
+      "FieldLength": 207
     }
   }
 }

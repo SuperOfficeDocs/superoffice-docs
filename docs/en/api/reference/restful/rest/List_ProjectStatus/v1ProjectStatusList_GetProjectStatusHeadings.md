@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 522,
-    "Name": "Pouros-Block",
-    "Tooltip": "nesciunt",
-    "Deleted": false,
-    "Rank": 196,
-    "UdListDefinitionId": 283,
+    "HeadingId": 40,
+    "Name": "Keeling-Bergnaum",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "Rank": 848,
+    "UdListDefinitionId": 306,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 320
+        "FieldType": "System.String",
+        "FieldLength": 721
       }
     }
   }

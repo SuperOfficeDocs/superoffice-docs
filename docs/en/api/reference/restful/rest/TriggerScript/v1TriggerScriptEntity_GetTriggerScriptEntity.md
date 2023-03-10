@@ -94,27 +94,27 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 913,
-  "Name": "Barrows, Lang and Cronin",
+  "ScreenChooserId": 501,
+  "Name": "Dicki-Boyle",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "repellat",
-  "Source": "labore",
-  "Registered": "2014-02-04T14:19:10.912356+01:00",
-  "RegisteredAssociateId": 522,
-  "Updated": "2018-11-10T14:19:10.912356+01:00",
-  "UpdatedAssociateId": 105,
+  "UniqueIdentifier": "aut",
+  "Source": "debitis",
+  "Registered": "2010-03-28T12:15:27.5886268+02:00",
+  "RegisteredAssociateId": 39,
+  "Updated": "2013-01-05T12:15:27.5886268+01:00",
+  "UpdatedAssociateId": 569,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 686
+      "FieldType": "System.Int32",
+      "FieldLength": 869
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

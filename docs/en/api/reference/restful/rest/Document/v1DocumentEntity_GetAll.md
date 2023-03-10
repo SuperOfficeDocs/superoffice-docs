@@ -69,14 +69,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Document?$select=name,department,category/id
 GET /api/v1/Document?$filter=name begins 'S'
 GET /api/v1/Document?$orderBy=name asc
-GET /api/v1/Document?$entities=quo
-GET /api/v1/Document?$top=142
-GET /api/v1/Document?$skip=897
+GET /api/v1/Document?$entities=consectetur
+GET /api/v1/Document?$top=780
+GET /api/v1/Document?$skip=740
 GET /api/v1/Document?$mode=Full
 GET /api/v1/Document?$options=GrandTotal=true
-GET /api/v1/Document?$context=sint
+GET /api/v1/Document?$context=eius
 GET /api/v1/Document?$format=JSON
-GET /api/v1/Document?$jsonSafe=True
+GET /api/v1/Document?$jsonSafe=False
 GET /api/v1/Document?$output=Display
 ```
 
@@ -117,7 +117,7 @@ OK
 GET /api/v1/Document
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -128,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ratione",
+  "odata.nextLink": "explicabo",
   "value": [
     {
-      "PrimaryKey": 6825,
-      "EntityName": "person",
-      "personId": 6825,
-      "fullName": "Toy Corwin"
+      "PrimaryKey": 1352,
+      "EntityName": "sale",
+      "saleId": 1352,
+      "contactId": 9741,
+      "name": "Veum, Turcotte and McClure"
     },
     {
-      "PrimaryKey": 8431,
-      "EntityName": "person",
-      "personId": 8431,
-      "fullName": "Mr. Edmund McCullough I"
+      "PrimaryKey": 9466,
+      "EntityName": "sale",
+      "saleId": 9466,
+      "contactId": 3340,
+      "name": "Gutkowski Inc and Sons"
     }
   ]
 }

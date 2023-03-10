@@ -25,8 +25,8 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=True
-GET /api/v1/List/Position/MDOItems?query=libero
+GET /api/v1/List/Position/MDOItems?flat=False
+GET /api/v1/List/Position/MDOItems?query=ex
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 674,
-    "Name": "Parker Group",
-    "ToolTip": "Dolores quis praesentium quam.",
+    "Id": 1001,
+    "Name": "McGlynn-Hagenes",
+    "ToolTip": "Et distinctio.",
     "Deleted": false,
-    "Rank": 122,
-    "Type": "animi",
+    "Rank": 201,
+    "Type": "ea",
     "ChildItems": [
       {
-        "Id": 879,
-        "Name": "Thiel-Bergnaum",
-        "ToolTip": "Id voluptatum.",
-        "Deleted": false,
-        "Rank": 40,
-        "Type": "hic",
+        "Id": 163,
+        "Name": "Fisher, Brakus and Erdman",
+        "ToolTip": "Ut voluptas nostrum quia laborum corrupti.",
+        "Deleted": true,
+        "Rank": 25,
+        "Type": "nostrum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "culpa",
-        "ColorBlock": 143,
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "atque",
-        "FullName": "Javier Hoeger",
+        "IconHint": "alias",
+        "ColorBlock": 805,
+        "ExtraInfo": "qui",
+        "StyleHint": "et",
+        "FullName": "Lawson Wuckert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 991
+            "FieldLength": 880
           }
         }
       }
     ],
-    "IconHint": "possimus",
-    "ColorBlock": 918,
-    "ExtraInfo": "neque",
-    "StyleHint": "molestias",
-    "FullName": "Dr. Phoebe Cormier Sr.",
+    "IconHint": "dolor",
+    "ColorBlock": 208,
+    "ExtraInfo": "delectus",
+    "StyleHint": "officia",
+    "FullName": "Dr. Clay Shanna Kunze",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 125
+        "FieldType": "System.String",
+        "FieldLength": 292
       }
     }
   }

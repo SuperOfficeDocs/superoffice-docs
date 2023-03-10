@@ -66,34 +66,34 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "non",
-  "ProviderName": "Nader LLC",
-  "StorageKey": "quia",
+  "StorageType": "illum",
+  "ProviderName": "Kessler-Mayer",
+  "StorageKey": "maiores",
   "Restrictions": [
     {
-      "Name": "Jenkins, Olson and Hamill",
-      "Operator": "ut",
+      "Name": "Huels Group",
+      "Operator": "deleniti",
       "Values": [
-        "aliquid",
-        "numquam"
-      ],
-      "DisplayValues": [
-        "ut",
+        "beatae",
         "et"
       ],
+      "DisplayValues": [
+        "voluptatem",
+        "eos"
+      ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 985,
+      "InterParenthesis": 608,
       "InterOperator": "And",
-      "UniqueHash": 83
+      "UniqueHash": 111
     }
   ]
 }

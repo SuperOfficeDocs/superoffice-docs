@@ -99,34 +99,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 672,
-  "UniqueId": "id",
-  "Name": "Kling-Kris",
-  "Description": "Phased demand-driven monitoring",
-  "AssociateId": 958,
-  "Columns": 672,
+  "DashboardId": 76,
+  "UniqueId": "quasi",
+  "Name": "Carroll-Shields",
+  "Description": "Team-oriented human-resource standardization",
+  "AssociateId": 864,
+  "Columns": 553,
   "Theme": null,
-  "VisibleForAll": 308,
+  "VisibleForAll": 300,
   "VisibleForAssociates": [
-    302,
-    418
+    350,
+    218
   ],
   "VisibleForGroups": [
-    160,
-    827
+    493,
+    985
   ],
-  "PinForAll": 664,
+  "PinForAll": 264,
   "PinForAssociates": [
-    983,
-    266
+    287,
+    41
   ],
   "PinForGroups": [
-    965,
-    760
+    97,
+    973
   ]
 }
 ```
@@ -138,37 +138,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 48,
-  "UniqueId": "ratione",
-  "Name": "Walsh Group",
-  "Description": "Fundamental 3rd generation capability",
-  "AssociateId": 287,
-  "Columns": 355,
+  "DashboardId": 879,
+  "UniqueId": "et",
+  "Name": "Tromp Inc and Sons",
+  "Description": "Phased hybrid capability",
+  "AssociateId": 863,
+  "Columns": 794,
   "Theme": null,
-  "VisibleForAll": 990,
+  "VisibleForAll": 724,
   "VisibleForAssociates": [
-    145,
-    95
+    924,
+    2
   ],
   "VisibleForGroups": [
-    633,
-    733
+    770,
+    421
   ],
-  "PinForAll": 395,
+  "PinForAll": 598,
   "PinForAssociates": [
-    790,
-    167
+    28,
+    494
   ],
   "PinForGroups": [
-    243,
-    338
+    90,
+    122
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 317
+      "FieldType": "System.Int32",
+      "FieldLength": 510
     }
   },
   "_Links": {

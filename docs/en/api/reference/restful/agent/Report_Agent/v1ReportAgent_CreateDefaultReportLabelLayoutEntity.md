@@ -77,24 +77,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 157,
-  "Name": "Toy-Gerlach",
-  "Description": "Robust systemic hub",
+  "ReportLabelLayoutId": 306,
+  "Name": "Kulas-Borer",
+  "Description": "Persevering radical utilisation",
   "Orientation": "Landscape",
-  "PaperWidth": 807,
-  "PaperHeight": 812,
-  "LeftMargin": 29,
-  "RightMargin": 17,
-  "TopMargin": 249,
-  "BottomMargin": 632,
-  "CountColumns": 285,
-  "CountRows": 794,
+  "PaperWidth": 416,
+  "PaperHeight": 702,
+  "LeftMargin": 428,
+  "RightMargin": 129,
+  "TopMargin": 428,
+  "BottomMargin": 245,
+  "CountColumns": 249,
+  "CountRows": 664,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 929
+      "FieldLength": 10
     }
   }
 }

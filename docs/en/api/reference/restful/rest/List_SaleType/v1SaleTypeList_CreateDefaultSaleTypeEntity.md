@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,53 +85,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 475,
-  "Name": "Klein-Glover",
-  "Tooltip": "architecto",
-  "Rank": 870,
+  "SaleTypeId": 147,
+  "Name": "Stracke, Cremin and Heidenreich",
+  "Tooltip": "corrupti",
+  "Rank": 250,
   "DurationUnit": "Century",
-  "SaleDuration": 856,
-  "SaleTypeCatId": 144,
+  "SaleDuration": 717,
+  "SaleTypeCatId": 690,
   "Deleted": false,
   "HasGuide": true,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 225,
-  "QuoteLinesTemplate": 244,
-  "ConfirmationLinesTemplate": 487,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 623,
+  "QuoteLinesTemplate": 744,
+  "ConfirmationLinesTemplate": 182,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 805,
-  "MinEarningPercent": 428,
-  "GroupQuoteLinesBy": 879,
-  "SortGroupLinesBy": 758,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 899,
+  "MinEarningPercent": 143,
+  "GroupQuoteLinesBy": 17,
+  "SortGroupLinesBy": 640,
   "Stages": [
     {
-      "Id": 474,
-      "Name": "Wilderman-Windler",
-      "ToolTip": "Optio ullam.",
+      "Id": 14,
+      "Name": "King-Swift",
+      "ToolTip": "Inventore ex sed quisquam.",
       "Deleted": false,
-      "Rank": 699,
-      "Type": "sequi",
-      "ColorBlock": 248,
-      "IconHint": "labore",
+      "Rank": 386,
+      "Type": "voluptatem",
+      "ColorBlock": 506,
+      "IconHint": "assumenda",
       "Selected": true,
-      "LastChanged": "2020-09-12T14:19:11.5026887+02:00",
+      "LastChanged": "2008-11-14T12:15:28.4706143+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "repudiandae",
-      "StyleHint": "minus",
+      "ExtraInfo": "ea",
+      "StyleHint": "consequuntur",
       "Hidden": false,
-      "FullName": "Adrain Cali Marquardt DVM",
+      "FullName": "Helene Jakubowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 262
+          "FieldType": "System.Int32",
+          "FieldLength": 225
         }
       }
     }
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 857
+      "FieldLength": 723
     }
   }
 }

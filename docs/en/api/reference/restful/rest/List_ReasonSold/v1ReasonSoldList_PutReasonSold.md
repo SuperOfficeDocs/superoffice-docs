@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 97,
-  "Name": "Mueller Inc and Sons",
-  "Tooltip": "sint",
+  "Id": 222,
+  "Name": "O'Conner, Boyer and Huels",
+  "Tooltip": "enim",
   "Deleted": false,
-  "UdListDefinitionId": 252,
-  "Rank": 492
+  "UdListDefinitionId": 18,
+  "Rank": 854
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 238,
-  "Name": "Friesen, Tillman and Dickens",
-  "Tooltip": "non",
-  "Deleted": false,
-  "UdListDefinitionId": 455,
-  "Rank": 608,
+  "Id": 18,
+  "Name": "Mann Inc and Sons",
+  "Tooltip": "similique",
+  "Deleted": true,
+  "UdListDefinitionId": 75,
+  "Rank": 667,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 609
+      "FieldLength": 7
     }
   }
 }

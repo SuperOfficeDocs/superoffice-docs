@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,49 +73,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 188,
-  "Name": "Shields Inc and Sons",
-  "Tooltip": "molestiae",
-  "VisibleColumns": 92,
-  "Rank": 570,
-  "AssocId": 314,
+  "DiaryViewId": 569,
+  "Name": "Satterfield, Quitzon and Buckridge",
+  "Tooltip": "tenetur",
+  "VisibleColumns": 241,
+  "Rank": 270,
+  "AssocId": 709,
   "AssociateList": [
     {
-      "Id": 11,
-      "Name": "D'Amore LLC",
-      "ToolTip": "Sed culpa illum.",
+      "Id": 229,
+      "Name": "Farrell, Hammes and Yost",
+      "ToolTip": "Vel inventore molestias expedita delectus quia dicta.",
       "Deleted": false,
-      "Rank": 984,
-      "Type": "unde",
-      "ColorBlock": 586,
-      "IconHint": "tempora",
+      "Rank": 525,
+      "Type": "minima",
+      "ColorBlock": 364,
+      "IconHint": "fuga",
       "Selected": false,
-      "LastChanged": "2010-03-14T14:19:02.916778+01:00",
+      "LastChanged": "2016-12-13T12:15:18.4147595+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "consequuntur",
-      "StyleHint": "tenetur",
-      "Hidden": false,
-      "FullName": "Zoe Jaskolski",
+      "ExtraInfo": "neque",
+      "StyleHint": "voluptate",
+      "Hidden": true,
+      "FullName": "Ms. Timmy Sasha Bergstrom",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 133
+          "FieldLength": 629
         }
       }
     }
   ],
-  "TzLocationId": 36,
+  "TzLocationId": 138,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 567
+      "FieldType": "System.Int32",
+      "FieldLength": 84
     }
   }
 }

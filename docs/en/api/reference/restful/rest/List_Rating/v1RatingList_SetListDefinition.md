@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 918,
-  "Name": "Balistreri-Schuster",
-  "Tooltip": "rerum",
-  "Deleted": false,
-  "Rank": 592,
+  "Id": 224,
+  "Name": "Okuneva-Hoeger",
+  "Tooltip": "nihil",
+  "Deleted": true,
+  "Rank": 12,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolores",
-  "InUseByUserDefinedFields": false
+  "ListType": "est",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 102,
-  "Name": "Mueller-Lind",
-  "Tooltip": "fugiat",
+  "Id": 639,
+  "Name": "Stehr Inc and Sons",
+  "Tooltip": "explicabo",
   "Deleted": false,
-  "Rank": 204,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 166,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "non",
-  "InUseByUserDefinedFields": false,
+  "ListType": "nostrum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 669
+      "FieldLength": 173
     }
   }
 }

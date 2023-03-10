@@ -71,9 +71,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 364,
-  "Type": "mollitia",
-  "PublicValue": "eius"
+  "AssociateId": 205,
+  "Type": "delectus",
+  "PublicValue": "dolorum"
 }
 ```
 
