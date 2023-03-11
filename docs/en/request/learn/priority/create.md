@@ -2,13 +2,8 @@
 uid: help-en-request-priority-create
 title: Create priority
 description: Create priority
-<<<<<<< HEAD
 author: HanneGunnarsson
-so.date: 06.29.2022
-=======
-author: SuperOffice RnD
-so.date: 02.10.2023
->>>>>>> 12524e485807edd9647d7ffe0382f40dbcb340f9
+so.date: 07.03.2023
 keywords: request, priority
 so.topic: howto
 so.audience: settings
@@ -26,15 +21,11 @@ The default priorities included with the system are **High**, **Medium** and **L
 
 1. In Settings and maintenance, go to the **Priorities** screen by clicking the **Requests** button in the navigator and selecting the **Priorities** tab.
 
-<<<<<<< HEAD
-2. Click the **Add** button.
-=======
-    * In Settings and maintenance: Click the **Requests** button in the navigator. Then select the **Priorities** tab.
->>>>>>> 12524e485807edd9647d7ffe0382f40dbcb340f9
+1. Click the **Add** button.
 
-3. Enter a descriptive name for the priority by replacing the text *Priority name* above the tabs.
+1. Enter a descriptive name for the priority by replacing the text *Priority name* above the tabs.
 
-4. In the **Properties** tab, enter the following information:
+1. In the **Properties** tab, enter the following information:
 
     * External
     * Use as default
@@ -43,13 +34,13 @@ The default priorities included with the system are **High**, **Medium** and **L
 
     For details about each field, see [Priority settings](#priority-settings).
 
-5. Under **Time frame**, specify the time frame that applies to request processing.
+1. Under **Time frame**, specify the time frame that applies to request processing.
 
     * Specify time intervals for each day of the week.
 
     * Optionally enter days to exclude in the **Holidays (day/month)** field. Select **Include year** to include the year in these dates.
 
-6. In the **Escalation events** tab, specify how the escalation chain operates in response to different events in the request. The following options are available:
+1. In the **Escalation events** tab, specify how the escalation chain operates in response to different events in the request. The following options are available:
 
     * Request read by owner
     * Changed user (manually)
@@ -65,7 +56,7 @@ The default priorities included with the system are **High**, **Medium** and **L
 
     For details about each option, see [Priority settings](#escalation-options).
 
-7. Click **Save**. The priority is created. Now you can, for example, [link escalation levels to this priority][1].
+1. Click **Save**. The priority is created. Now you can, for example, [link escalation levels to this priority][1].
 
 ## Priority settings
 

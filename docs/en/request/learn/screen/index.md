@@ -2,7 +2,7 @@
 uid: help-en-request-screen
 title: Request screen
 description: Request screen
-author: SuperOffice RnD
+author: HanneGunnarsson
 so.date: 06.29.2022
 keywords: request
 so.topic: reference
@@ -17,23 +17,28 @@ The **Request** screen has the following sections:
 * Below the header is a row of buttons for performing tasks associated with requests.
 * The **Messages** tab displays the messages related to the request.
 * The **Details** tab contains an overview of the data registered for the request.
+* The **Change log** tab contains the history of this request. The request log shows everything that has happened to this request since it was first registered.
 
 ## Task buttons for requests
 
 The toolbar contains the following options:
-
-* **Owner**: The name of the request handler who is responsible for the request is given here. You [can change the owner][3] here.
 
 * **Status**: Shows the status of the request. You can change the status here.
   * **Open**: The request is in progress.
   * **Closed**: The request was fully answered.
   * **Postponed**: Action on the request was postponed to a future date.
 
+* **Owner**: The name of the request handler who is responsible for the request is given here. You [can change the owner][3] here.
+
 * **Category**: The [category][14] that the request belongs to appears here. You can change the category here.
 
-* Tags:
+* **Priority**:
 
-* **Actions** ( ![icon][img1] ): Click this button to access the following options:
+* **Access level**: 
+
+* **Tags**:
+
+* **Task** ( ![icon][img1] ): Click this button to access the following options:
 
 * **Reply** / **Reply to all**: Click here to [respond to the customer][4] and/or other people linked to the request. This function is also available at the bottom of the **Messages** tab.
 
@@ -44,8 +49,6 @@ The toolbar contains the following options:
   * **Split request**: If a single request contains several questions, for example, if the customer first asks a technical question and then uses the opportunity to raise an invoicing query, you can [split the request][6] into two using this button.
 
   * **Merge**: Click here to merge this request with one or more other requests. For example, if multiple contacts in the same company report the same technical issue (via phone, web forms and email), you can [merge these requests][7] into one request that will be processed.
-
-  * **Log**: Click here to view the history of this request. The request log shows everything that has happened to this request since it was first registered.
 
   * **Publish to FAQ**: If the same question comes up time and again, it is a good idea to [create an answer that can be reused][8]. You click here to send the customer's question and your answer to the administrator, who can then edit and publish the FAQ entry.
 
