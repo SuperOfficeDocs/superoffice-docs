@@ -2,7 +2,7 @@
 uid: requests-overview
 title: Requests
 description: Request handling in SuperOffice
-author: Bergfrid Dias
+author: HanneGunnarsson
 so.date: 02.04.2022
 keywords: Service, ticket, request
 so.topic: concept
@@ -14,7 +14,7 @@ so.topic: concept
 
 (Some features need premium.)
 
-**Requests** are the core of SuperOffice Service. You:
+**Requests** are the core of SuperOffice CRM. You:
 
 * manage requests and inquiries already in the system
 * create internal and external requests
