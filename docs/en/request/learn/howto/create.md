@@ -131,7 +131,7 @@ Here you enter information to correctly assign and prioritize the request.
 * In the **Priority** list box, you can choose between **Low**, **Medium** and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels][3] set for different contacts and companies.
 
 * In the **Access level for request** list box, select one of the following options:
-  * **External**: Select this option if the contact is to have access to the request via SuperOffice Customer Centre.
+  * **External**: Select this option if the contact is to have access to the request via the SuperOffice Customer Centre.
   * **Internal**: Select this option if the contact is not to have access to the request. The request will be listed in SuperOffice Customer Centre, but the contact cannot view the request details or messages.
 
 * In the **Tags** list box, [select relevant tags][4] for this request.

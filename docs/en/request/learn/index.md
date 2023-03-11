@@ -2,7 +2,7 @@
 uid: help-en-request
 title: Requests
 description: Introduction to requests in SuperOffice
-author: SuperOffice RnD
+author: HanneGunnarsson
 so.date: 06.29.2022
 keywords: request, ticket, service
 so.topic: concept
@@ -11,7 +11,7 @@ language: en
 
 # Requests
 
-**Requests** is the main feature of SuperOffice Service. Here you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. When you open SuperOffice Service or click ![icon][img1] **Dashboard** in the Navigator, you arrive at the [Dashboard][1], which provides an overview of request handling. Click ![icon][img2] **Requests** to show relevant options for requests.
+**Requests** is one of the main features of SuperOffice. Here you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. When you open SuperOffice Service or click ![icon][img1] **Dashboard** in the Navigator, you arrive at the [Dashboard][1], which provides an overview of request handling. Click ![icon][img2] **Requests** to show relevant options for requests.
 
 ## <a id="open" />Where can I access requests?
 
