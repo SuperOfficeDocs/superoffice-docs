@@ -10,9 +10,9 @@ so.envir: onsite
 # so.client:
 ---
 
-# Core configuration of Service
+# Core configuration of Requests
 
-Used for connecting to NetServer, the database, and putting your service installation in maintenance mode.
+Used for connecting to NetServer, the database, and putting your installation in maintenance mode.
 
 ## Example service.config file
 

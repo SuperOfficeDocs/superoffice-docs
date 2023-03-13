@@ -11,7 +11,7 @@ so.envir: onsite
 
 # ejTermSetup
 
-Used for priming your SuperOffice database with Service data.
+Used for priming your SuperOffice database with Requests data.
 
 > [!NOTE]
 > This executable should be completed **only once** for a healthy installation.

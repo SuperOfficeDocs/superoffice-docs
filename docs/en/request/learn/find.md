@@ -71,30 +71,16 @@ Under the list, you can click the ![icon][img1] **Task** button to access the fo
 
 * **Bulk update**: If you select one or more requests in the list, you can click this option and select an action to perform on all the selected requests simultaneously. For example, you can choose to [add the same message to multiple requests][4], [forward multiple requests][5] or delete several requests in a single operation.
 
-* **Merge requests**: 
-
-* **Reply to customers**:
-
-* **Forwards requests**:
-
-* **Mark as unread**:
-
-* **Add to my favourites**:
-
-* **Remove from my favourited**:
-
-* **Copy into selection**:
-
 ### Preview
 
 This section of the screen displays the contents of the request selected under **Result**. You have the same options as when [processing requests][6].
 
-If the preview section is not visible, click the ![icon][img1] menu button in the top right corner and select **Show reading pane to the right** or **Show reading pane below**.
+If the preview section is not visible, click **Show preview** at the bottom of the screen.
 
 ## What would you like to do now?
 
 * [Use tags in requests][1]
-* [Process requests][8]
+* [Process requests][7]
 
 <!-- Referenced links -->
 [1]: tags.md
@@ -102,8 +88,7 @@ If the preview section is not visible, click the ![icon][img1] menu button in th
 [4]: ../../search-options/learn/in-service/index.md
 [5]: next-in-queue.md
 [6]: howto/accept.md
-[7]: category/index.md
-[8]: howto/index.md
+[7]: howto/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

@@ -36,7 +36,7 @@ The following factors determine which requests a request handler can get from th
 
 First, we will create a new request status: **In queue**. New requests should automatically be assigned this request status.
 
-1. Select **Settings and maintenance** > **Requests** > **Request status**. The **Request status** screen appears.
+1. Select **Settings and maintenance** > **Requests** > **Request status**.
 
 1. Click the **Add** button.
 
@@ -68,7 +68,7 @@ Now you must ensure that you are a member of the category or categories you are 
 
 **Steps:**
 
-1. Select ![icon][img2] **Settings and maintenance** > **Requests** > **Categories**. The **Categories** screen appears.
+1. Select ![icon][img2] **Settings and maintenance** > **Requests** > **Categories**.
 
 1. Click the required category name. This takes you to the **Category properties** screen.
 
@@ -86,7 +86,7 @@ If needed, repeat this procedure for other categories that are to be available t
 
 ## Define new status for requests that are fetched from the queue
 
-When you have fetched a request from the queue, the status must be changed from **In queue** to **Open** (or another active status that indicates that the request is being processed). This is normally handled automatically. To be on the safe side, you can check that the option **New status when accepting a request** in ![icon][img2] > **System** > **Settings** tab is set as **Open**.
+When you have fetched a request from the queue, the status must be changed from **In queue** to **Open** (or another active status that indicates that the request is being processed). This is normally handled automatically.
 
 ## Verify that the queue works
 
