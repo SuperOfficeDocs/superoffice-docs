@@ -9,9 +9,9 @@ so.envir: onsite
 # so.client:
 ---
 
-# Automated tasks in Service
+# Automated tasks in Requests
 
-In Service, several tasks are automated and run on a set schedule on the server. These tasks are carried out by the executables located in the *bin* folder of your Service installation.
+In Requests, several tasks are automated and run on a set schedule on the server. These tasks are carried out by the executables located in the *bin* folder of your Requests installation.
 
 Here, we cover the most used executables and how to debug them. In addition to the parameters provided for the executables, they all take the parameter `--help` to display more information.
 

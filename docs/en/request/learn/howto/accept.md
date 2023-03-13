@@ -23,7 +23,7 @@ This is particularly relevant for unassigned requests (those without a defined o
 
 ## What would you like to do now?
 
-* [Reply to a customer][2])
+* [Reply to a customer][2]
 * [Ask another request handler for help][3]
 * [Forward messages to external parties][4]
 

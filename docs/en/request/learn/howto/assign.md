@@ -2,7 +2,7 @@
 uid: help-en-request-assign
 title: Assignment methods
 description: Assignment methods for requests
-author: SuperOffice RnD
+author: HanneGunnarsson
 so.date: 02.14.2023
 keywords: request
 so.topic: concept

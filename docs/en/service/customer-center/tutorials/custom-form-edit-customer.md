@@ -14,7 +14,7 @@ This tutorial shows you how to create a custom form in the Customer Centre to al
 
 By default, we have a page in the customer care center allowing the customer to change their name, password, and any extra fields, such as an address or interest flags used for subscriptions to eMarketing messages. In many cases, our standard page will suffice. However, if you need something a bit more customized, here is an example of how to create another page in the customer centre, allowing the customer to modify "something".
 
-Most pages in the customer care center use the simplified parser language. In this scenario, I will rather use a CRMScript created from within Service. This also allows me to edit the script without having to access the disk on the Service server.
+Most pages in the customer care center use the simplified parser language. In this scenario, I will rather use a CRMScript created from within Requests. This also allows me to edit the script without having to access the disk on the SuperOffice Requests server.
 
 When you create a CRMScript, there are two fields which allow you to access the script from the Customer Centre: **Include name** and **Key**. They will allow you to identify and authenticate access to the script. The idea is that by knowing these two values, you are allowed to execute the script in the Customer Centre with this URL: `.../scripts/customer.fcgi?action=safeParse&includeId=change-customer-information&key=JJbqoeFSR65ItWS4`
 

@@ -20,7 +20,7 @@ With the integration, you will be able to import messages and comments from page
 ## Before you begin
 
 * Create an account with [developer access on Facebook][2].
-* [Create a Facebook page][3] where Service will get posts and post back replies to.
+* [Create a Facebook page][3] where SuperOffice Requests will get posts and post back replies to.
 
 Screens may differ, but if you experience problems, please contact our [support][4].
 
@@ -63,7 +63,7 @@ First, you will need to create an application on Facebook with the user you want
 > [!NOTE]
 > **The site URLs must be available on the internet since Facebook will be pushing changes to this URL.** And the URLs must be running on HTTPS since we are using WebHooks and Facebook will only allow this via the secure protocol.
 
-## Get the AppId and AppSecret for setup in Service
+## Get the AppId and AppSecret for setup in Requests
 
 This is found under **Dashboard**. If the App secret is hidden, click to show and write it down. You will need these when you authenticate later.
 
@@ -77,9 +77,9 @@ You also need to provide a **Page ID**. The Page ID can be obtained by Going to
 
 ![x -screenshot][img1]
 
-## Add new Facebook inbox in Service
+## Add new Facebook inbox in Requests
 
-You need to configure Service to retrieve messages from Facebook using the application you just created. Make sure that you are either logged out of Facebook, or logged in with the same user you used when creating the application. Failing to do so will result in incorrect behavior.
+You need to configure Requests to retrieve messages from Facebook using the application you just created. Make sure that you are either logged out of Facebook, or logged in with the same user you used when creating the application. Failing to do so will result in incorrect behavior.
 
 1. Go to Settings->E-mail and click the **New Facebook application** icon.
 
@@ -114,11 +114,11 @@ By default, the integration will start to import messages the time when you add 
 
 If you receive this error after you have added Application ID and Page ID inside Customer Service:
 
-* Verify that the site URL you gave in your Facebook application is correct and points to your Customer Service installation: The URL should include `admin.fcgi?` if Service has FastCGI; `admin.exe?` without.
+* Verify that the site URL you gave in your Facebook application is correct and points to your Customer Service installation: The URL should include `admin.fcgi?` if Requests has FastCGI; `admin.exe?` without.
 
 * Verify that the URL is available on the internet. Otherwise, Facebook will not be able to reach it.
 
-* Make sure you are running Service on HTTPS:
+* Make sure you are running Requests on HTTPS:
 
 [From Facebook documentation:][6]
 New Webhook subscriptions must use a secure HTTPS callback URL as of v2.5. With the next version of the Graph API, we will stop sending updates to non-HTTPS callback URLs.

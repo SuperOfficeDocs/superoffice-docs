@@ -11,7 +11,7 @@ language: en
 
 # System settings
 
-In this section of SuperOffice Service, you can configure the system to tailor it to your organization's needs. Which options are displayed and what you can do depend on the rights assigned in your user profile. Rights are assigned under **Users**.
+In this section of SuperOffice Requests, you can configure the system to tailor it to your organisation's needs. Which options are displayed and what you can do depend on the rights assigned in your user profile. Rights are assigned under **Users**.
 
 ## What would you like to find out more about?
 

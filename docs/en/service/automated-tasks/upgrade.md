@@ -11,7 +11,7 @@ so.envir: onsite
 
 # upgrade
 
-Used after upgrading your Service installation. Should usually be run by just executing upgrade.exe without any parameters unless you need something specific.
+Used after upgrading your SuperOffice installation. Should usually be run by just executing upgrade.exe without any parameters unless you need something specific.
 
 Can also be used to install/update things that were left out earlier. (As an example, you may have chosen to not install FCGI, but want to install it at a later point, in which case you run `upgrade -onlyFCGI`)
 

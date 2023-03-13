@@ -2,8 +2,8 @@
 uid: help-en-request-delete
 title: Delete requests
 description: How to delete a request in SuperOffice
-author: SuperOffice RnD
-so.date: 02.14.2023
+author: HanneGunnarsson
+so.date: 06.29.2022
 keywords: request
 so.topic: howto
 language: en
@@ -21,7 +21,7 @@ In general, it is not recommended to delete a request. However, you may have to 
 1. Confirm whether you really want to delete the request by clicking **Yes** or **No**.
 
 > [!NOTE]
-> The request is not deleted from the database immediately. The status of the request is set to Deleted, so it is still possible to open and edit the request. The request will then be permanently deleted from the database after 14 days (system setting). You can access the deleted request in the [Recycle bin][?].
+> The request is not deleted from the database immediately. The status of the request is set to Deleted, so it is still possible to open and edit the request. The request will then be permanently deleted from the database after 14 days (system setting). You can access the deleted request in the [Recycle bin][3].
 
 ## What would you like to do now?
 
@@ -30,6 +30,7 @@ In general, it is not recommended to delete a request. However, you may have to 
 <!-- Referenced links -->
 [1]: ../index.md
 [2]: create.md
+[3]:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

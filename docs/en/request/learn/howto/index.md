@@ -2,8 +2,8 @@
 uid: help-en-request-howto
 title: Request management
 description: Request management
-author: SuperOffice RnD
-so.date: 02.14.2023
+author: HanneGunnarsson
+so.date: 06.29.2022
 keywords: request
 so.topic: concept
 language: en

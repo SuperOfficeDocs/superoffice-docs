@@ -2,8 +2,8 @@
 uid: help-en-request-message-flag
 title: Keep track of messages
 description: Keep track of messages
-author: SuperOffice RnD
-so.date: 02.10.2023
+author: HanneGunnarsson
+so.date: 06.29.2022
 keywords: request, message, flag
 so.topic: howto
 language: en
@@ -24,9 +24,8 @@ To make it easier to find and sort multiple messages in a request, you can flag 
 ## Filtering messages
 
 1. [Open the request][1].
-1. Click the **Show all (x)** button in the top right corner.
-1. Select the wanted filter, the number of messages (x) indicates how.
-1. The messages are filtered based on your filter option.
+1. Click the **Messages** tab.
+1. In the lower right corner, click the filter list and select a filter. The messages are filtered.
 
 <!-- Referenced links -->
 [1]: ../index.md#open

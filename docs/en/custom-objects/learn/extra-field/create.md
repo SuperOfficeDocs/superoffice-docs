@@ -2,7 +2,7 @@
 uid: help-en-extra-fields-create
 title:  Define extra fields
 description: Define extra fields
-author: SuperOffice RnD
+author: HanneGunnarsson
 so.date: 06.29.2022
 keywords: extra field, custom field
 so.topic: help
@@ -21,7 +21,6 @@ After you create an extra table, you must set up fields in the table, to allow y
 1. Go to the **Tables** screen.
 
     * In Settings and maintenance: Click the **System design** button in the navigator. Then select the **Tables** tab.
-    * In Service: Select ![icon][img1] **System settings** > **System design** > **Tables**.
 
 1. Browse to the table you want, point at the table name and click ![icon][img2].
 1. In the **New extra field** screen, select a field type in the **Type** list box.
@@ -69,5 +68,4 @@ After you create an extra table, you must set up fields in the table, to allow y
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/settings-small.png
 [img2]: ../../../../media/icons/service/new-field.png

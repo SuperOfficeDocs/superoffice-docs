@@ -2,7 +2,7 @@
 uid: extra_fields
 title: Extra fields
 description: An extra field is a custom field that you add to an existing SuperOffice database table in Service.
-author: Bergfrid Skaara Dias
+author: HanneGunnarsson
 so.date: 02.07.2022
 keywords: extra field, Service
 so.topic: concept
@@ -10,7 +10,7 @@ so.topic: concept
 
 # Extra fields
 
-An *extra field* is a custom field that you add to an existing SuperOffice database table **in Service**. You can extend the following entities:
+An *extra field* is a custom field that you add to an existing SuperOffice database table. You can extend the following entities:
 
 * category
 * company
@@ -23,10 +23,10 @@ An *extra field* is a custom field that you add to an existing SuperOffice datab
 
 [!include[License requirement](../../../../common/includes/req-dev-tools.md)]
 
-Extra fields are managed in SuperOffice Service, in the **Tables** screen.
+Extra fields are managed in **Settings and maintenance**, in the **Tables** screen.
 
 > [!NOTE]
-> Extra fields on company or contact are **not the same** as user-defined fields on those entities!
+> Extra fields on company or contact are not the same as user-defined fields on those entities!
 
 ## Extra field types
 
@@ -63,12 +63,12 @@ Database tables are connected with foreign keys (FK). These are the field types 
 ### Add FK
 
 1. Open the **Tables** screen, hover the table you want to alter, and click **New field**.
-2. Select the relation type for the entity you want to connect to and click **OK**.
-3. [Set field properties][6].
-4. Click **OK** to save the FK.
-5. Click **Restart NetServer** to apply the changes.
+1. Select the relation type for the entity you want to connect to and click **OK**.
+1. [Set field properties][6].
+1. Click **OK** to save the FK.
+1. Click **Restart NetServer** to apply the changes.
 
-For example, to connect all incoming service requests to a specific sale, you can add an extra field of type sale relation to [requests][4] (ticket table). To list connected requests when viewing a sale in SuperOffice CRM, you'll need to build a web panel.
+For example, to connect all incoming requests to a specific sale, you can add an extra field of type sale relation to [requests][4] (ticket table). To list connected requests when viewing a sale in SuperOffice CRM, you'll need to build a web panel.
 
 ## Storage
 
@@ -104,12 +104,12 @@ Scenario: you've added an extra field to a company (`contact` table) conveying w
 
 ### Display extra field for you
 
-1. In Service, open a request.
-2. Click the tool icon in the request header *or* in the **Details tab**, depending on where you want to place the new field.
-3. In the **Edit element profile** dialog, locate the **New field** setting.
-4. Enter a name (UI label) and select your field.
-5. Optionally, select the appropriate styling options.
-6. Click **OK** to save the settings.
+1. In **Settings and maintenance**, click **Screen designer** > **Requests**.
+1. Click **Edit layout** at the bottom of the screen. The **Edit card layout** screen dialogue.
+1. Locate the **Fields** setting.
+1. Select your field.
+1. Optionally, select the appropriate styling options.
+1. Click **Save** to save the settings.
 
 > [!TIP]
 > You can also group fields, add headers for groups, and change the sizes of columns.
@@ -118,9 +118,9 @@ Scenario: you've added an extra field to a company (`contact` table) conveying w
 
 To make the field visible to others than yourself, you'll need to create a profile.
 
-1. In Service, click the hamburger menu and select **Profile**.
-2. Select **System screens**, then click **View ticket**, point to **ticketinfo**, and then click **New common profile**.
-3. In the **Edit element profile** dialog, do steps 3-6 of *Display extra field for you*.
+1. In **Settings and maintenance**, click **System design** and select **Profile**.
+2. Select **System screens**, then click **View ticket**, point the cursor to **ticketinfo**, and then click **New common profile**.
+3. In the **Edit element profile** dialogue, do steps 3-6 of *Display extra field for you*.
 4. Click the hamburger menu again and select **Roles**.
 5. Select a role (who should be able to see the field in the request screen).
 6. In the **Edit role screen**, select the **Profile** tab.

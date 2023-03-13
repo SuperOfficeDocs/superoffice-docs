@@ -11,12 +11,15 @@ so.topic: reference
 
 Here you will find all the small and big changes that has been released for SuperOffice in the different versions. We aim to give you an understanding on why we have created the feature and function and how to use it. Hope you will find this inspiring and try out our new functionality.
 
+<<<<<<< HEAD
 ## The latest release
 
 [Version 10.2.3][6]
 
 ## Overview of the different versions
 
+=======
+>>>>>>> 41224934fc (582 request management (#639))
 * [10.2][6]
 * [10.1][5]
 * [10.0][4]
@@ -49,7 +52,10 @@ Here you will find all the small and big changes that has been released for Supe
 [4]: 10.0/index.md
 [5]: 10.1/index.md
 [6]: 10.2/index.md
+<<<<<<< HEAD
 [7]: 10.2/10.2.3-update.md
+=======
+>>>>>>> 41224934fc (582 request management (#639))
 
 <!-- Referenced images-->
 [img1]: media/expand-toc.png
