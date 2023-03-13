@@ -1,5 +1,5 @@
 ---
-uid: help-en-quote-sync
+uid: help-en-quote-admin
 title: Quote sync
 description: SuperOffice Quote helps you to create, validate, and manage quotes and orders across the entire order lifecycle.
 author: SuperOffice RnD

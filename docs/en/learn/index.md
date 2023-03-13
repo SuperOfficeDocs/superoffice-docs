@@ -2,13 +2,8 @@
 title: Guides for SuperOffice CRM
 uid: help-en-start
 description: Start page for SuperOffice CRM guides
-<<<<<<< HEAD
-author: Help & Learn
-so.date: 03.03.2023
-=======
 author: Bergfrid Dias
 so.date: 03.02.2023
->>>>>>> 562-migrate-hc
 keywords: user guide, help
 so.topic: concept
 so.version: 10
