@@ -20,7 +20,6 @@ It is possible to edit the properties of a message in a request, but only admini
     * **Time spent**: Shows the amount of time spent on this message.
     * **Access level**: The access level for this message. You can choose between **External** and **Internal**.
     * **Attachments**: If the message contains attachments, they are shown in this table. You can delete existing attachments, but you cannot add new ones.
-<<<<<<< HEAD
     * **Invoicing**: Displays invoice information for this message. It is possible to edit, delete and [add invoice information][2] for the message.
 1. Click **Save** when you are finished, or **Cancel** if you want to discard the changes. You can also delete the entire message by clicking **Delete** and then **OK**.
 

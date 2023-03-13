@@ -52,7 +52,6 @@ When you respond to an customer enquiry, you can save time by using a reply temp
 [5]: ../../../service/reply-templates/learn/new-language.md
 
 <!-- Referenced images -->
-<<<<<<< HEAD
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/service/msg-attachment.png
 [img3]: ../../../../../common/icons/dropdown-arrow.png
