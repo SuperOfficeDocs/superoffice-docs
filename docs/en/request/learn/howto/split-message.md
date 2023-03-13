@@ -1,15 +1,9 @@
 ---
 uid: help-en-request-message-split
 title: Split message
-<<<<<<< HEAD
 description: Split message
 author: HanneGunnarsson
 so.date: 06.29.2022
-=======
-description: Split message to create a new request
-author: SuperOffice RnD
-so.date: 02.14.2023
->>>>>>> 12524e485807edd9647d7ffe0382f40dbcb340f9
 keywords: request
 so.topic: howto
 language: en

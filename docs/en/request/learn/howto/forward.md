@@ -3,11 +3,6 @@ uid: help-en-request-forward
 title: Forward to external parties
 description: How to forward a request to external parties
 author: HanneGunnarsson
-so.date: 06.29.2022
-=======
-author: SuperOffice RnD
-so.date: 02.14.2023
->>>>>>> 12524e485807edd9647d7ffe0382f40dbcb340f9
 keywords: request
 so.topic: howto
 language: en

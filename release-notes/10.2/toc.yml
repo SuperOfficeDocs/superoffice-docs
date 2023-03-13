@@ -13,29 +13,19 @@ items:
     href: admin/10.2.1-update.md
   - name: 10.2.2 update
     href: admin/10.2.2-update.md
-<<<<<<< HEAD
   - name: 10.2.3 update
     href: admin/10.2.3-update.md
 #- name: Service
 #  href: service/index.md
-=======
-- name: Service
-  href: service/index.md
->>>>>>> 41224934fc (582 request management (#639))
 - name: Marketing
   href: marketing/index.md
   items:
   - name: 10.2.2 update
     href: marketing/10.2.2-update.md
-<<<<<<< HEAD
   - name: 10.2.3 update
     href: marketing/10.2.3-update.md
 #- name: CEP
 #  href: cep/index.md
-=======
-- name: CEP
-  href: cep/index.md
->>>>>>> 41224934fc (582 request management (#639))
 - name: Mobile
   href: mobile/index.md
   items:
@@ -43,7 +33,6 @@ items:
     href: mobile/10.2.1-update.md
   - name: 10.2.2 update
     href: mobile/10.2.2-update.md
-<<<<<<< HEAD
   - name: 10.2.3 update
     href: mobile/10.2.3-update.md
 #- name: Office integrations
@@ -56,13 +45,6 @@ items:
     items:
     - name: Database changes 10.2.3
       href: ../database/changes-10.2.3.md
-=======
-- name: Office integrations
-  href: office-integrations/index.md
-- name: API
-  href: api/index.md
-  items:
->>>>>>> 41224934fc (582 request management (#639))
   - name: 10.2.2 update
     href: api/10.2.2-update.md
     items:
@@ -73,10 +55,5 @@ items:
     items:
     - name: Database changes 10.2.1
       href: ../database/changes-10.2.1.md
-<<<<<<< HEAD
 #- name: Developer Products
 #  href: development-products/index.md
-=======
-- name: Developer Products
-  href: development-products/index.md
->>>>>>> 41224934fc (582 request management (#639))

@@ -13,7 +13,6 @@ so.topic: reference
 
 ## New Archive provider
 
-<<<<<<< HEAD
 * v10.2.3
   * [ticketactivatednotification][52]
   * [ticketcustommessagenotification][53]
@@ -66,40 +65,6 @@ so.topic: reference
 |IUserAgent        | GetUserPresenceStatus       |10.2.1   | [REST Link][23] | [SOAP Link][41] |
 |IUserAgent        | SetUserPresenceStatus       |10.2.1   | [REST Link][24] | [SOAP Link][42] |
 |IUserDefinedFieldInfoAgent | ClearCaches    |10.2.1   | [REST Link][25] | [SOAP Link][43] |
-=======
-* [Recycle ticket][2]
-
-## New MDO Providers
-
-* [Related data fields][3]
-* [Task menu][4]
-* [Task menu destination][5]
-* [Task menu group][6]
-* [URL encoding][7]
-
-## New web service methods
-
-| Agent Name | Method Name | REST Agent | SOAP Agent |
-|------------|-------------|------------|------------|
-|IArchiveAgent | GetRelatedData              | [REST Link][8]  | [SOAP Link][26] |
-|IArchiveAgent | GetRelatedData2             | [REST Link][9]  | [SOAP Link][27] |
-|IEMailAgent   | HasSPFRecord                | [REST Link][10] | [SOAP Link][28] |
-|IListAgent    | CreateDefaultTaskMenu       | [REST Link][11] | [SOAP Link][29] |
-|IListAgent    | DeleteAppTaskMenus          | [REST Link][12] | [SOAP Link][30] |
-|IListAgent    | DeleteTaskMenu              | [REST Link][13] | [SOAP Link][31] |
-|IListAgent    | GetAppTaskMenus             | [REST Link][14] | [SOAP Link][32] |
-|IListAgent    | GetTaskMenu                 | [REST Link][15] | [SOAP Link][33] |
-|IListAgent    | GetTaskMenuByProgId         | [REST Link][16] | [SOAP Link][34] |
-|IListAgent    | SaveTaskMenu                | [REST Link][17] | [SOAP Link][35] |
-|IPersonAgent  | CreateDefaultPersonImage    | [REST Link][18] | [SOAP Link][36] |
-|IPersonAgent  | GetPersonImages             | [REST Link][19] | [SOAP Link][37] |
-|ITicketAgent  | GetTicketMessageWithOptions | [REST Link][20] | [SOAP Link][38] |
-|ITicketAgent  | UndeleteByIds               | [REST Link][21] | [SOAP Link][39] |
-|ITicketAgent  | ValidateAttachments         | [REST Link][22] | [SOAP Link][40] |
-|IUserAgent    | GetUserPresenceStatus       | [REST Link][23] | [SOAP Link][41] |
-|IUserAgent    | SetUserPresenceStatus       | [REST Link][24] | [SOAP Link][42] |
-|IUserDefinedFieldInfoAgent | ClearCaches    | [REST Link][25] | [SOAP Link][43] |
->>>>>>> 41224934fc (582 request management (#639))
 
 ## NetServer Core changes
 
@@ -119,11 +84,7 @@ The session mode is an implementation of ISoContextProvider
 ```csharp
 public static IServiceCollection AddNetServerCore<TSessionMode>(this IServiceCollection services, Action<NetServerCoreOptionsBuilder> optionsAction = null) where TSessionMode : class, ISoContextProvider
 {
-<<<<<<< HEAD
   //... set options
-=======
-  //...
->>>>>>> 41224934fc (582 request management (#639))
 }
 ```
 
@@ -222,7 +183,6 @@ services.AddLogging(a =>
 [41]: ../../../docs/en/api/reference/soap/Services88/User/GetUserPresenceStatus.md
 [42]: ../../../docs/en/api/reference/soap/Services88/User/SetUserPresenceStatus.md
 [43]: ../../../docs/en/api/reference/soap/Services88/UserDefinedFieldInfo/ClearCaches.md
-<<<<<<< HEAD
 [44]: ../../../docs/en/api/reference/restful/agent/Appointment_Agent/v1AppointmentAgent_CleanUpBookingDeletedWithUpdateMode.md
 [45]: ../../../docs/en/api/reference/soap/Services88/Appointment/CleanUpBookingDeletedWithUpdateMode.md
 [46]: ../../../docs/en/api/reference/restful/agent/Ticket_Agent/v1TicketAgent_ClearNotify.md
@@ -243,5 +203,3 @@ services.AddLogging(a =>
 [61]: ../../../docs/en/api/reference/soap/Services88/Appointment/SetSeenMany.md
 [62]: ../../../docs/en/api/reference/restful/agent/Marketing_Agent/v1MarketingAgent_GetFormSubmissionsCount.md
 [63]: ../../../docs/en/api/reference/soap/Services88/Marketing/GetFormSubmissionsCount.md
-=======
->>>>>>> 41224934fc (582 request management (#639))
