@@ -11,14 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IPreferenceAgent.GetPrefe
 
 ## GetPreferenceByNameAndId
 
-Get a preference by name and owner id.
 
-* **prefSection:** The preference section name. e.g. 'Functions'. See SuperOffice.CRM.UserPreferenceStrings for constants.
-* **prefKey:** The preference key name. e.g. 'ShowTipsAtStart'. See SuperOffice.CRM.UserPreferenceStrings for constants.
-* **prefLevel:** The preference level to read. Undefined (0) means to return the preference defined closest to the user.
-* **ownerId:** The preference owner id, individual or group.
 
-**Returns:** The preference. Note that id = 0 and value = null if preference not found in the database at the requested pref-level.
+
 
 [WSDL file for Services87/Preference](../Services87-Preference.md)
 
@@ -54,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetPreferenceByNameAndId Response
 
@@ -95,3 +91,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

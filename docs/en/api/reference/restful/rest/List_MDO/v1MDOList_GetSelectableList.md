@@ -29,7 +29,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=est
+GET /api/v1/MDOList/{listname}/selectable?additional=consequuntur
 GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 567,
-    "Name": "Buckridge, Bailey and Fritsch",
-    "ToolTip": "Quidem tenetur minus quasi in ipsam architecto.",
+    "Id": 525,
+    "Name": "Nikolaus, Herman and Haley",
+    "ToolTip": "Tempore doloremque nostrum quasi vitae.",
     "Deleted": true,
-    "Rank": 594,
-    "Type": "doloribus",
-    "ColorBlock": 371,
-    "IconHint": "quo",
+    "Rank": 456,
+    "Type": "et",
+    "ColorBlock": 340,
+    "IconHint": "nemo",
     "Selected": false,
-    "LastChanged": "2006-05-24T17:37:40.0485001+02:00",
+    "LastChanged": "2009-11-11T14:19:11.2898728+01:00",
     "ChildItems": [
       {
-        "Id": 1001,
-        "Name": "Turner-Durgan",
-        "ToolTip": "Qui placeat consequuntur nobis sunt.",
-        "Deleted": false,
-        "Rank": 443,
-        "Type": "laboriosam",
-        "ColorBlock": 949,
-        "IconHint": "laudantium",
-        "Selected": false,
-        "LastChanged": "2021-04-18T17:37:40.0495008+02:00",
+        "Id": 204,
+        "Name": "Kiehn, Conn and Kuhlman",
+        "ToolTip": "Doloribus cupiditate accusamus sit quisquam dolore similique.",
+        "Deleted": true,
+        "Rank": 688,
+        "Type": "et",
+        "ColorBlock": 460,
+        "IconHint": "repellendus",
+        "Selected": true,
+        "LastChanged": "2010-07-29T14:19:11.2898728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "June Schultz",
+        "ExtraInfo": "similique",
+        "StyleHint": "voluptas",
+        "Hidden": false,
+        "FullName": "Dane Heidenreich I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 99
+            "FieldLength": 213
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "eius",
+    "ExtraInfo": "totam",
+    "StyleHint": "occaecati",
     "Hidden": false,
-    "FullName": "Sim Batz DDS",
+    "FullName": "Griffin Welch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 719
+        "FieldLength": 816
       }
     }
   }

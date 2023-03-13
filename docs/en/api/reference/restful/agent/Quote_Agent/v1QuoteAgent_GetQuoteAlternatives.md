@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 684
+  "QuoteVersionId": 773
 }
 ```
 
@@ -110,35 +110,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 567,
-    "ERPQuoteAlternativeKey": "voluptatibus",
-    "QuoteVersionId": 329,
-    "Name": "Watsica, Upton and Kuhic",
-    "Description": "Networked web-enabled workforce",
+    "QuoteAlternativeId": 774,
+    "ERPQuoteAlternativeKey": "et",
+    "QuoteVersionId": 716,
+    "Name": "Boehm Inc and Sons",
+    "Description": "Devolved national success",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 1491.7839999999999,
-    "ERPDiscountAmount": 29462.734,
-    "DiscountPercent": 20859.904,
-    "DiscountAmount": 26425.888,
+    "ERPDiscountPercent": 5606.726,
+    "ERPDiscountAmount": 19810.014,
+    "DiscountPercent": 6634.678,
+    "DiscountAmount": 7662.63,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "doloremque",
-    "VAT": 28014.825999999997,
-    "EarningPercent": 25310.183999999997,
-    "EarningAmount": 12213.198,
-    "SubTotal": 13216.078,
-    "TotalPrice": 3315.772,
-    "ExtraField1": "quos",
-    "ExtraField2": "ab",
-    "ExtraField3": "voluptates",
-    "ExtraField4": "fugiat",
-    "ExtraField5": "consequatur",
+    "VATInfo": "iure",
+    "VAT": 4102.406,
+    "EarningPercent": 15369.135999999999,
+    "EarningAmount": 19202.018,
+    "SubTotal": 13469.931999999999,
+    "TotalPrice": 18355.838,
+    "ExtraField1": "earum",
+    "ExtraField2": "dolorem",
+    "ExtraField3": "quis",
+    "ExtraField4": "iure",
+    "ExtraField5": "suscipit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 881
+        "FieldLength": 980
       }
     }
   }

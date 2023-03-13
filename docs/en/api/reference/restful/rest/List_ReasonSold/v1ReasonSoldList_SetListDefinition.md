@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 510,
-  "Name": "Murray, Quitzon and Mills",
-  "Tooltip": "consequuntur",
+  "Id": 668,
+  "Name": "Durgan-Barton",
+  "Tooltip": "quos",
   "Deleted": false,
-  "Rank": 639,
+  "Rank": 506,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "perspiciatis",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "repellendus",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 23,
-  "Name": "Smitham LLC",
-  "Tooltip": "voluptatem",
+  "Id": 648,
+  "Name": "Mitchell, Graham and Franecki",
+  "Tooltip": "non",
   "Deleted": false,
-  "Rank": 219,
-  "IsCustomList": true,
+  "Rank": 857,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "optio",
+  "ListType": "debitis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 217
+      "FieldType": "System.String",
+      "FieldLength": 705
     }
   }
 }

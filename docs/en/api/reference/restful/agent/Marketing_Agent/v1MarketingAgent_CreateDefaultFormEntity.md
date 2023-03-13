@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,34 +87,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 16,
-  "FormKey": "quisquam",
-  "Name": "Murray LLC",
-  "Description": "Self-enabling fresh-thinking analyzer",
-  "Config": "magnam",
-  "FolderId": 265,
-  "ScriptId": 437,
-  "ResponseShipmentId": 546,
-  "Active": true,
-  "Expires": "2020-09-22T17:37:18.3122419+02:00",
-  "MaxSubmits": 957,
+  "FormId": 325,
+  "FormKey": "quia",
+  "Name": "Prosacco, Schamberger and Balistreri",
+  "Description": "Streamlined 5th generation contingency",
+  "Config": "eum",
+  "FolderId": 575,
+  "ScriptId": 571,
+  "ResponseShipmentId": 654,
+  "Active": false,
+  "Expires": "1999-05-13T14:19:03.7019992+02:00",
+  "MaxSubmits": 488,
   "Type": "Normal",
-  "Recipe": "fuga",
-  "GroupId": 787,
+  "Recipe": "et",
+  "GroupId": 797,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2005-07-08T17:37:18.3122419+02:00",
-  "RegisteredAssociateId": 592,
-  "Updated": "1999-08-27T17:37:18.3122419+02:00",
-  "UpdatedAssociateId": 762,
-  "UpdatedCount": 180,
-  "FolderName": "Graham, Barrows and Hagenes",
+  "Registered": "1999-03-10T14:19:03.7019992+01:00",
+  "RegisteredAssociateId": 874,
+  "Updated": "2014-09-09T14:19:03.7019992+02:00",
+  "UpdatedAssociateId": 24,
+  "UpdatedCount": 288,
+  "FolderName": "Mohr-Luettgen",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 697
+      "FieldLength": 508
     }
   }
 }

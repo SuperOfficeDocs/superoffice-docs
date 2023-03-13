@@ -11,7 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IAppointmentAgent.CleanUp
 
 ## CleanUpRecurringBookingDeleted
 
-Deletes all appointments with status BookingDeleted and for in logged user.
+
+
+
 
 [WSDL file for Services86/Appointment](../Services86-Appointment.md)
 
@@ -44,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CleanUpRecurringBookingDeleted Response
 
 ```xml
@@ -64,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

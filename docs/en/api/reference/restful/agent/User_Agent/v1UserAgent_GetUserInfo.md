@@ -27,7 +27,7 @@ Gets a UserInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserInfo?userInfoId=215
+POST /api/v1/Agents/User/GetUserInfo?userInfoId=651
 POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 ```
 
@@ -93,29 +93,29 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Deleted": false,
-  "UserInfoId": 659,
-  "UserName": "Luettgen-Senger",
-  "PersonId": 224,
-  "Rank": 878,
-  "Tooltip": "ratione",
-  "UserGroupId": 995,
-  "EjUserId": 769,
+  "UserInfoId": 797,
+  "UserName": "Wisozk-Keebler",
+  "PersonId": 458,
+  "Rank": 26,
+  "Tooltip": "sit",
+  "UserGroupId": 530,
+  "EjUserId": 890,
   "UserType": "AnonymousAssociate",
   "GrantedLicenses": [
-    "explicabo",
-    "occaecati"
+    "neque",
+    "voluptatem"
   ],
   "CanLogon": false,
-  "RoleName": "Fritsch, Marks and Hintz",
-  "RoleTooltip": "ipsam",
-  "UserGroupName": "Denesik, Rolfson and Skiles",
-  "UserGroupTooltip": "natus",
+  "RoleName": "Reilly Group",
+  "RoleTooltip": "in",
+  "UserGroupName": "Herman-Nicolas",
+  "UserGroupTooltip": "laboriosam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 391
+      "FieldType": "System.Int32",
+      "FieldLength": 372
     }
   }
 }

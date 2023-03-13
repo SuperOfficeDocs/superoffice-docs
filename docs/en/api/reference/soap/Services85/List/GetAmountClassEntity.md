@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetAmountClass
 
 ## GetAmountClassEntity
 
-Gets a AmountClassEntity object.
 
-* **amountClassEntityId:** The identifier of the AmountClassEntity object
 
-**Returns:** AmountClassEntity
+
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAmountClassEntity Response
 
 ```xml
@@ -78,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

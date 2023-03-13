@@ -92,7 +92,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 863,
-  "ColumnId": 588,
-  "FieldDefault": "facilis",
-  "FieldHeight": 484,
-  "FieldLabel": "perferendis",
-  "FieldLeft": 222,
-  "FieldTop": 645,
+  "UDefFieldId": 968,
+  "ColumnId": 975,
+  "FieldDefault": "qui",
+  "FieldHeight": 284,
+  "FieldLabel": "quod",
+  "FieldLeft": 89,
+  "FieldTop": 65,
   "FieldType": "Checkbox",
-  "FieldWidth": 396,
-  "FormatMask": "nostrum",
+  "FieldWidth": 684,
+  "FormatMask": "officia",
   "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 717,
-  "LabelLeft": 56,
-  "LabelTop": 651,
-  "LabelWidth": 830,
-  "LastVersionId": 263,
-  "ListTableId": 34,
+  "LabelHeight": 212,
+  "LabelLeft": 861,
+  "LabelTop": 519,
+  "LabelWidth": 990,
+  "LastVersionId": 110,
+  "ListTableId": 423,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 64,
-  "ProgId": "excepturi",
+  "Page1LineNo": 16,
+  "ProgId": "eligendi",
   "IsReadOnly": false,
-  "ShortLabel": "dicta",
-  "TabOrder": 80,
-  "TextLength": 424,
-  "Tooltip": "quia",
-  "UdefIdentity": 980,
-  "UDListDefinitionId": 416,
+  "ShortLabel": "neque",
+  "TabOrder": 659,
+  "TextLength": 474,
+  "Tooltip": "voluptatem",
+  "UdefIdentity": 61,
+  "UDListDefinitionId": 793,
   "Justification": "Center",
-  "Version": 542,
-  "TemplateVariableName": "Grady, Greenholt and Cartwright",
-  "HasBeenPublished": false,
-  "MdoListName": "Heller, Botsford and Kemmer",
+  "Version": 414,
+  "TemplateVariableName": "Hackett Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "Tremblay-Feil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 50
+      "FieldLength": 478
     }
   }
 }

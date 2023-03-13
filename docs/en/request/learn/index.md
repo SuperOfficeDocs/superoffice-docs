@@ -2,7 +2,7 @@
 uid: help-en-request
 title: Requests
 description: Introduction to requests in SuperOffice
-author: SuperOffice RnD
+author: HanneGunnarsson
 so.date: 06.29.2022
 keywords: request, ticket, service
 so.topic: concept
@@ -11,13 +11,13 @@ language: en
 
 # Requests
 
-**Requests** is the main feature of SuperOffice Service. Here you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. When you open SuperOffice Service or click ![icon][img1] **Dashboard** in the Navigator, you arrive at the [Dashboard][1], which provides an overview of request handling. Click ![icon][img2] **Requests** to show relevant options for requests.
+**Requests** is one of the main features of SuperOffice. Here you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. When you open SuperOffice or click ![icon][img1] **Dashboard** in the Navigator, you arrive at the [Dashboard][1], which provides an overview of request handling. Click ![icon][img2] **Requests** to show relevant options for requests.
 
 ## <a id="open" />Where can I access requests?
 
 * [Pre-defined lists][11]
 * [Search][12]
-* [Favorites][14]
+* [Favourites][14]
 * [Flagged messages][15]
 
 When you double-click a row in the [search results screen][13], you are taken to the **Request** screen.
@@ -28,7 +28,7 @@ Requests can be linked to [contacts][2], who in turn can belong to a [company][6
 
 ## Request header
 
-The header of the request contains the properties defined when the [request was created][4]. The header consists of the request title, request ID, contact and deadline. In addition, you can click ![icon][img3] to set the request as a favorite ![icon][img4]. The request will then be accessible via **My favorites** under **Requests** in the Navigator, and in the **My favorites** tile on the dashboard.
+The header of the request contains the properties defined when the [request was created][4]. The header consists of the request title, request ID, contact and deadline. In addition, you can click ![icon][img3] to set the request as a favourite ![icon][img4]. The request will then be accessible via **My favourites** under **Requests** in the Navigator, and in the **My favourites** tile on the dashboard.
 
 ## Message types
 

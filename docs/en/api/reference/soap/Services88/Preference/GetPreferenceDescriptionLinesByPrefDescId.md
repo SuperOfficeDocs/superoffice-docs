@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IPreferenceAgent.GetPrefe
 
 ## GetPreferenceDescriptionLinesByPrefDescId
 
-Get all preference description lines from a prefDesc\_id
 
-* **prefDescId:** The id of the preference description this line is connected to
 
-**Returns:** The preference description lines matching the id
+
 
 [WSDL file for Services88/Preference](../Services88-Preference.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetPreferenceDescriptionLinesByPrefDescId Response
 
 ```xml
@@ -78,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

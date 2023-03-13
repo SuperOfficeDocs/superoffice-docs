@@ -63,7 +63,7 @@ OK
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 137,
-    "Name": "Schowalter, Walker and Bergstrom",
-    "ContentType": "illo",
-    "AttSize": 262,
+    "AttachmentId": 914,
+    "Name": "Waelchi Inc and Sons",
+    "ContentType": "molestiae",
+    "AttSize": 781,
     "InlineImage": false,
-    "ContentId": "neque",
+    "ContentId": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 805
+        "FieldType": "System.Int32",
+        "FieldLength": 24
       }
     }
   }

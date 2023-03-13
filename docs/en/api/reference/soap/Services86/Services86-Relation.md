@@ -381,34 +381,19 @@ title: Services86.RelationAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Relation">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Relation</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultContactRelationEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new ContactRelationEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Relation/CreateDefaultContactRelationEntity" name="CreateDefaultContactRelationEntityRequest" message="tns:CreateDefaultContactRelationEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Relation/CreateDefaultContactRelationEntityResponse" name="CreateDefaultContactRelationEntityResponse" message="tns:CreateDefaultContactRelationEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetContactRelationEntity">
-      <wsdl:documentation>
-        <summary>Gets a ContactRelationEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Relation/GetContactRelationEntity" name="GetContactRelationEntityRequest" message="tns:GetContactRelationEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Relation/GetContactRelationEntityResponse" name="GetContactRelationEntityResponse" message="tns:GetContactRelationEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveContactRelation">
-      <wsdl:documentation>
-        <summary>Creates a new or updates an existing contact relation.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Relation/SaveContactRelation" name="SaveContactRelationRequest" message="tns:SaveContactRelationRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Relation/SaveContactRelationResponse" name="SaveContactRelationResponse" message="tns:SaveContactRelationResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteContactRelation">
-      <wsdl:documentation>
-        <summary>Deletes the spesified contact relation.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Relation/DeleteContactRelation" name="DeleteContactRelationRequest" message="tns:DeleteContactRelationRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Relation/DeleteContactRelationResponse" name="DeleteContactRelationResponse" message="tns:DeleteContactRelationResponse" />
     </wsdl:operation>
@@ -487,3 +472,4 @@ title: Services86.RelationAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

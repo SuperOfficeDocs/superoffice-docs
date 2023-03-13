@@ -11,8 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IAppointmentAgent.CanAssi
 
 ## CanAssignToProjectMember
 
-* **projectId:**
-* **suggestedAppointmentId:**
+
+
+
 
 [WSDL file for Services86/Appointment](../Services86-Appointment.md)
 
@@ -47,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CanAssignToProjectMember Response
 
 ```xml
@@ -67,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

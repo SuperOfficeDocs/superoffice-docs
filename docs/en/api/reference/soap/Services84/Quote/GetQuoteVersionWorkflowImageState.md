@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.GetQuoteVersi
 
 ## GetQuoteVersionWorkflowImageState
 
-Get state icon and name for the Quote version dialog header.
 
-* **quoteVersionId:** Id of the quote version to get the version state for.
 
-**Returns:** Image and state name information
+
 
 [WSDL file for Services84/Quote](../Services84-Quote.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetQuoteVersionWorkflowImageState Response
 
 ```xml
@@ -75,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

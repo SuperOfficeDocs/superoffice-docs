@@ -25,8 +25,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=True
-GET /api/v1/List/Priority/MDOItems?query=sunt
+GET /api/v1/List/Priority/MDOItems?flat=False
+GET /api/v1/List/Priority/MDOItems?query=recusandae
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 730,
-    "Name": "Keebler, Collins and Rogahn",
-    "ToolTip": "Eum repellendus delectus.",
+    "Id": 308,
+    "Name": "Feil, Ziemann and Mayert",
+    "ToolTip": "Ut amet voluptas rem facilis sit.",
     "Deleted": true,
-    "Rank": 742,
-    "Type": "officia",
+    "Rank": 148,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 879,
-        "Name": "Smitham, Walsh and Price",
-        "ToolTip": "Nulla magni quis vitae.",
-        "Deleted": false,
-        "Rank": 590,
-        "Type": "id",
+        "Id": 170,
+        "Name": "Goyette-Stracke",
+        "ToolTip": "Doloribus explicabo voluptatem qui.",
+        "Deleted": true,
+        "Rank": 988,
+        "Type": "rerum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ea",
-        "ColorBlock": 869,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "earum",
-        "FullName": "Mathilde Clementina Daniel DDS",
+        "IconHint": "hic",
+        "ColorBlock": 348,
+        "ExtraInfo": "aliquid",
+        "StyleHint": "corrupti",
+        "FullName": "Pierre Pfannerstill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 689
+            "FieldLength": 765
           }
         }
       }
     ],
-    "IconHint": "incidunt",
-    "ColorBlock": 529,
-    "ExtraInfo": "aut",
-    "StyleHint": "sunt",
-    "FullName": "Carlotta Smitham DVM",
+    "IconHint": "sunt",
+    "ColorBlock": 917,
+    "ExtraInfo": "ab",
+    "StyleHint": "nihil",
+    "FullName": "Mrs. Estevan Adelia Jacobs",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 340
+        "FieldLength": 973
       }
     }
   }

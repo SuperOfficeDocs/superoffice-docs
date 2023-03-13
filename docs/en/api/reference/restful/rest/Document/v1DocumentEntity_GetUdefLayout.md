@@ -89,7 +89,7 @@ OK
 GET /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 618,
-    "ColumnId": 195,
-    "FieldDefault": "a",
-    "FieldHeight": 486,
-    "FieldLabel": "nam",
-    "FieldLeft": 429,
-    "FieldTop": 742,
+    "UDefFieldId": 853,
+    "ColumnId": 820,
+    "FieldDefault": "non",
+    "FieldHeight": 9,
+    "FieldLabel": "ut",
+    "FieldLeft": 1001,
+    "FieldTop": 240,
     "FieldType": "Checkbox",
-    "FieldWidth": 996,
-    "FormatMask": "et",
+    "FieldWidth": 795,
+    "FormatMask": "voluptatibus",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 332,
-    "LabelLeft": 587,
-    "LabelTop": 675,
-    "LabelWidth": 18,
-    "LastVersionId": 549,
-    "ListTableId": 680,
-    "IsMandatory": true,
+    "IsIndexed": false,
+    "LabelHeight": 478,
+    "LabelLeft": 739,
+    "LabelTop": 335,
+    "LabelWidth": 93,
+    "LastVersionId": 373,
+    "ListTableId": 180,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 551,
-    "ProgId": "ducimus",
+    "Page1LineNo": 827,
+    "ProgId": "voluptas",
     "IsReadOnly": false,
-    "ShortLabel": "debitis",
-    "TabOrder": 960,
-    "TextLength": 797,
-    "Tooltip": "facere",
-    "UdefIdentity": 525,
-    "UDListDefinitionId": 782,
+    "ShortLabel": "quod",
+    "TabOrder": 465,
+    "TextLength": 249,
+    "Tooltip": "fugiat",
+    "UdefIdentity": 949,
+    "UDListDefinitionId": 411,
     "Justification": "Center",
-    "Version": 554,
-    "TemplateVariableName": "Cormier-McClure",
+    "Version": 544,
+    "TemplateVariableName": "Weissnat-Bartoletti",
     "HasBeenPublished": false,
-    "MdoListName": "Towne, Wyman and Tromp",
+    "MdoListName": "Halvorson Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 150
+        "FieldLength": 541
       }
     }
   }

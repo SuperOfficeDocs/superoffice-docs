@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IPreferenceAgent.SavePref
 
 ## SavePreference
 
-Save this preference
 
-* **preference:** Preference to be saved. All fields must be filled in, and the preference will be saved on the Associate level only. Setting for other levels is an administrative task and not available through this service.
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services85/Preference](../Services85-Preference.md)
 
@@ -69,6 +67,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SavePreference Response
 
 ```xml
@@ -88,3 +87,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

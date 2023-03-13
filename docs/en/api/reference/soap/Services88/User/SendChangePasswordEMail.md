@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.SendChangePass
 
 ## SendChangePasswordEMail
 
-Send a change password email to this users registered address.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **associateId:** AssociateId of the user to change password for.
 
-**Returns:** Result - with result flag and optional error reason.
+
 
 [WSDL file for Services88/User](../Services88-User.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SendChangePasswordEMail Response
 
 ```xml
@@ -73,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

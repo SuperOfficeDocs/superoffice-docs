@@ -116,18 +116,18 @@ HierarchyEntity  updated.
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ut",
+    "path": "quibusdam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ut",
+    "path": "quibusdam",
     "value": {}
   }
 ]
@@ -140,51 +140,51 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 82,
+  "HierarchyId": 478,
   "Domain": "Dashboards",
-  "Name": "Bartoletti LLC",
-  "Fullname": "quasi",
-  "ParentId": 960,
+  "Name": "Feest, Ferry and Romaguera",
+  "Fullname": "beatae",
+  "ParentId": 842,
   "Children": [
     {
-      "HierarchyId": 511,
+      "HierarchyId": 82,
       "Domain": "Dashboards",
-      "Name": "Grady-Carroll",
-      "Fullname": "optio",
-      "ParentId": 783,
+      "Name": "Cartwright Inc and Sons",
+      "Fullname": "rerum",
+      "ParentId": 752,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2006-12-28T17:37:38.8278311+01:00",
-      "RegisteredAssociateId": 132,
-      "Updated": "2006-02-12T17:37:38.8278311+01:00",
-      "UpdatedAssociateId": 904,
+      "Registered": "2022-04-04T14:19:10.3654771+02:00",
+      "RegisteredAssociateId": 760,
+      "Updated": "2021-06-24T14:19:10.3654771+02:00",
+      "UpdatedAssociateId": 923,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 30
+          "FieldLength": 461
         }
       }
     }
   ],
-  "Registered": "1995-09-22T17:37:38.8278311+02:00",
-  "RegisteredAssociateId": 84,
-  "Updated": "1997-07-05T17:37:38.8278311+02:00",
-  "UpdatedAssociateId": 72,
+  "Registered": "2002-01-10T14:19:10.3654771+01:00",
+  "RegisteredAssociateId": 862,
+  "Updated": "2004-08-29T14:19:10.3654771+02:00",
+  "UpdatedAssociateId": 390,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 248
+      "FieldLength": 443
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -77,8 +77,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AttachmentIds": [
-    884,
-    946
+    960,
+    350
   ]
 }
 ```
@@ -91,14 +91,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 131,
+    "AttachmentId": 697,
     "IsValid": false,
-    "ErrorMessage": "expedita"
+    "ErrorMessage": "id"
   },
   {
-    "AttachmentId": 131,
+    "AttachmentId": 697,
     "IsValid": false,
-    "ErrorMessage": "expedita"
+    "ErrorMessage": "id"
   }
 ]
 ```

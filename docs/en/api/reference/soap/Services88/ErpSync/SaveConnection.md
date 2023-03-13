@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IErpSyncAgent.SaveConnect
 
 ## SaveConnection
 
-Saves a connection to the database.
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
-* **connection:** The connection to save.
 
-**Returns:** The resulting connection.
+
 
 [WSDL file for Services88/ErpSync](../Services88-ErpSync.md)
 
@@ -72,6 +69,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveConnection Response
 
 ```xml
@@ -114,3 +112,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

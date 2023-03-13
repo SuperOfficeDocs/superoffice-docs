@@ -11,15 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IDashboardAgent.CreateNew
 
 ## CreateNewFromTemplate
 
-Create new tile from another tile used as template
 
-* **dashboardTileId:** Tile template Id
-* **caption:** Caption of new tile
-* **description:** Description of new tile
-* **selectionId:** Selection id of new tile
-* **visibleFor:** Who the tile should be visible for
 
-**Returns:** The new tile
+
 
 [WSDL file for Services84/Dashboard](../Services84-Dashboard.md)
 
@@ -62,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateNewFromTemplate Response
 
@@ -144,3 +139,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

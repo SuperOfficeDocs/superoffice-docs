@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.GetTicketSum
 
 ## GetTicketSummaries
 
-Get an array of summaryitem for the given tickets
 
-* **ticketIds:** The tickets to fetch summaries for
 
-**Returns:** Summary items for the given id's, in no particular order
+
 
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetTicketSummaries Response
 
 ```xml
@@ -70,7 +69,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Ticket:TicketId xsi:type="xsd:int">0</Ticket:TicketId>
      <Ticket:TicketStatus xsi:type="xsd:int">0</Ticket:TicketStatus>
      <Ticket:Title xsi:type="xsd:string"></Ticket:Title>
-     <Ticket:Registered xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:Registered>
+     <Ticket:Registered xsi:type="xsd:dateTime">2023-02-15T13:18:35Z</Ticket:Registered>
      <Ticket:IconHint xsi:type="xsd:string"></Ticket:IconHint>
     </Ticket:TicketSummaryItem>
    </Ticket:Response>
@@ -79,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.ITicketAgent.SanitizeMail
 
 ## SanitizeMailContent
 
-Remove harmful HTML tags and attributes from an email
 
-* **content:** The email content to sanitize
 
-**Returns:** The sanitized email content
+
 
 [WSDL file for Services86/Ticket](../Services86-Ticket.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SanitizeMailContent Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

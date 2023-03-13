@@ -70,7 +70,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 802,
+  "TicketMessageEntityId": 941,
   "IncludeNonInlineAttachmentsInfo": false
 }
 ```
@@ -113,76 +113,76 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 486,
+  "EjMessageId": 954,
   "Ticket": null,
-  "CreatedAt": "2008-05-31T17:37:19.4829764+02:00",
+  "CreatedAt": "2016-12-18T14:19:04.5172011+01:00",
   "CreatedBy": null,
-  "Author": "rerum",
+  "Author": "reiciendis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "placeat",
-  "TimeSpent": 397,
-  "Body": "tenetur",
-  "HtmlBody": "at",
-  "EmailHeader": "melany.donnelly@maggiogaylord.ca",
-  "DebugInfo": "sed",
-  "MailSorter": "id",
+  "MessageId": "et",
+  "TimeSpent": 506,
+  "Body": "fugit",
+  "HtmlBody": "suscipit",
+  "EmailHeader": "raphael@feestthiel.us",
+  "DebugInfo": "harum",
+  "MailSorter": "recusandae",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "veritatis",
+  "SearchTitle": "voluptatibus",
   "MessageHeaders": [
     {
-      "Id": 509,
-      "Name": "Heaney-Emard",
-      "Value": "ab",
+      "Id": 568,
+      "Name": "Huels, Haley and Will",
+      "Value": "perferendis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 85
+          "FieldType": "System.String",
+          "FieldLength": 922
         }
       }
     }
   ],
   "Important": true,
-  "Language": "amet",
-  "Sentiment": 840,
-  "SentimentConfidence": 181,
+  "Language": "ipsum",
+  "Sentiment": 857,
+  "SentimentConfidence": 432,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 421,
-      "Name": "Hodkiewicz, Feil and Blick",
-      "ContentType": "error",
-      "AttSize": 164,
-      "InlineImage": false,
-      "ContentId": "aut",
+      "AttachmentId": 364,
+      "Name": "Murray-Welch",
+      "ContentType": "ipsum",
+      "AttSize": 866,
+      "InlineImage": true,
+      "ContentId": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 845
+          "FieldType": "System.Int32",
+          "FieldLength": 77
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "inventore",
-    "ExtraFields2": "occaecati"
+    "ExtraFields1": "est",
+    "ExtraFields2": "doloribus"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "enim"
+    "CustomFields1": "laboriosam",
+    "CustomFields2": "debitis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 943
+      "FieldLength": 670
     }
   }
 }

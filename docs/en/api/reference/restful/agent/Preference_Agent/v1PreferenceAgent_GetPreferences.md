@@ -90,12 +90,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "placeat",
-      "Key": "perferendis"
+      "Section": "pariatur",
+      "Key": "sint"
     },
     {
-      "Section": "placeat",
-      "Key": "perferendis"
+      "Section": "pariatur",
+      "Key": "sint"
     }
   ]
 }
@@ -110,22 +110,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "consequatur",
+    "RawValue": "sed",
     "Specification": null,
-    "DisplayValue": "et",
-    "DisplayTooltip": "vel",
+    "DisplayValue": "ratione",
+    "DisplayTooltip": "nemo",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 812,
-    "PrefDescId": 689,
-    "TableName": "Pouros Group",
-    "UserPreferenceId": 789,
+    "TargetId": 669,
+    "PrefDescId": 884,
+    "TableName": "Simonis Group",
+    "UserPreferenceId": 564,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 482
+        "FieldLength": 122
       }
     }
   }

@@ -1248,209 +1248,119 @@ title: Services85.ForeignSystemAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="ForeignSystem">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for ForeignSystem</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultForeignAppEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new ForeignAppEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/CreateDefaultForeignAppEntity" name="CreateDefaultForeignAppEntityRequest" message="tns:CreateDefaultForeignAppEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/CreateDefaultForeignAppEntityResponse" name="CreateDefaultForeignAppEntityResponse" message="tns:CreateDefaultForeignAppEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveForeignAppEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing ForeignAppEntity or creates a new ForeignAppEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/SaveForeignAppEntity" name="SaveForeignAppEntityRequest" message="tns:SaveForeignAppEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/SaveForeignAppEntityResponse" name="SaveForeignAppEntityResponse" message="tns:SaveForeignAppEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteForeignAppEntity">
-      <wsdl:documentation>
-        <summary>Deletes the ForeignAppEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/DeleteForeignAppEntity" name="DeleteForeignAppEntityRequest" message="tns:DeleteForeignAppEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/DeleteForeignAppEntityResponse" name="DeleteForeignAppEntityResponse" message="tns:DeleteForeignAppEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetForeignAppEntity">
-      <wsdl:documentation>
-        <summary>Gets a ForeignAppEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetForeignAppEntity" name="GetForeignAppEntityRequest" message="tns:GetForeignAppEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetForeignAppEntityResponse" name="GetForeignAppEntityResponse" message="tns:GetForeignAppEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAppByName">
-      <wsdl:documentation>
-        <summary>Gets the ForeignApp with the given name.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetAppByName" name="GetAppByNameRequest" message="tns:GetAppByNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetAppByNameResponse" name="GetAppByNameResponse" message="tns:GetAppByNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetApplicationDevices">
-      <wsdl:documentation>
-        <summary>Gets all devices that belong to a foreign application.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetApplicationDevices" name="GetApplicationDevicesRequest" message="tns:GetApplicationDevicesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetApplicationDevicesResponse" name="GetApplicationDevicesResponse" message="tns:GetApplicationDevicesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDeviceByName">
-      <wsdl:documentation>
-        <summary>Gets a ForeignDevice with deviceName that belongs to the application with applicationName.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetDeviceByName" name="GetDeviceByNameRequest" message="tns:GetDeviceByNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetDeviceByNameResponse" name="GetDeviceByNameResponse" message="tns:GetDeviceByNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDeviceByIdentifier">
-      <wsdl:documentation>
-        <summary>Gets a ForeignDevice with deviceName and deviceIdentifier that belongs to the application with applicationName.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetDeviceByIdentifier" name="GetDeviceByIdentifierRequest" message="tns:GetDeviceByIdentifierRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetDeviceByIdentifierResponse" name="GetDeviceByIdentifierResponse" message="tns:GetDeviceByIdentifierResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddDeviceByIdentifier">
-      <wsdl:documentation>
-        <summary>Adds a new ForeignDevice with deviceName that belongs to the application with applicationName, with an optional device-specific identifier.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/AddDeviceByIdentifier" name="AddDeviceByIdentifierRequest" message="tns:AddDeviceByIdentifierRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/AddDeviceByIdentifierResponse" name="AddDeviceByIdentifierResponse" message="tns:AddDeviceByIdentifierResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveDeviceByIdentifier">
-      <wsdl:documentation>
-        <summary>Updates a ForeignDevice with deviceName that belongs to the application with applicationName.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/SaveDeviceByIdentifier" name="SaveDeviceByIdentifierRequest" message="tns:SaveDeviceByIdentifierRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/SaveDeviceByIdentifierResponse" name="SaveDeviceByIdentifierResponse" message="tns:SaveDeviceByIdentifierResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteDeviceByIdentifier">
-      <wsdl:documentation>
-        <summary>Delete a ForeignDevice with deviceName and deviceIdentifier that belongs to the application with applicationName.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/DeleteDeviceByIdentifier" name="DeleteDeviceByIdentifierRequest" message="tns:DeleteDeviceByIdentifierRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/DeleteDeviceByIdentifierResponse" name="DeleteDeviceByIdentifierResponse" message="tns:DeleteDeviceByIdentifierResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetKey">
-      <wsdl:documentation>
-        <summary>Returning a foreign key by its key name, that belongs to the specified device and application. A table name and record ID can also be specified.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetKey" name="GetKeyRequest" message="tns:GetKeyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetKeyResponse" name="GetKeyResponse" message="tns:GetKeyResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetKeyValue">
-      <wsdl:documentation>
-        <summary>Gets the string value of a ForeignKey, that belongs to the specified device and application. The table name and record ID must also be specified.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetKeyValue" name="GetKeyValueRequest" message="tns:GetKeyValueRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetKeyValueResponse" name="GetKeyValueResponse" message="tns:GetKeyValueResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetKeyOnDeviceIdentifier">
-      <wsdl:documentation>
-        <summary>Returning a foreign key by its key name and device identifier, that belongs to the specified device and application. A table name and record ID can also be specified.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetKeyOnDeviceIdentifier" name="GetKeyOnDeviceIdentifierRequest" message="tns:GetKeyOnDeviceIdentifierRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetKeyOnDeviceIdentifierResponse" name="GetKeyOnDeviceIdentifierResponse" message="tns:GetKeyOnDeviceIdentifierResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetKeyValueOnDeviceIdentifier">
-      <wsdl:documentation>
-        <summary>Returning a foreign key string value by its key name and device identifier, that belongs to the specified device and application. A table name and record ID can also be specified.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetKeyValueOnDeviceIdentifier" name="GetKeyValueOnDeviceIdentifierRequest" message="tns:GetKeyValueOnDeviceIdentifierRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetKeyValueOnDeviceIdentifierResponse" name="GetKeyValueOnDeviceIdentifierResponse" message="tns:GetKeyValueOnDeviceIdentifierResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddForeignKey">
-      <wsdl:documentation>
-        <summary>Add a new key belonging to the ForeignApp and ForeignDevice specified.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/AddForeignKey" name="AddForeignKeyRequest" message="tns:AddForeignKeyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/AddForeignKeyResponse" name="AddForeignKeyResponse" message="tns:AddForeignKeyResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveForeignKey">
-      <wsdl:documentation>
-        <summary>Saves a key belonging to the ForeignApp and ForeignDevice specified.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/SaveForeignKey" name="SaveForeignKeyRequest" message="tns:SaveForeignKeyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/SaveForeignKeyResponse" name="SaveForeignKeyResponse" message="tns:SaveForeignKeyResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteForeignKeyOnName">
-      <wsdl:documentation>
-        <summary>Deletes all specified occurrences of a key, belonging to the ForeignApp and ForeignDevice, table and record specified. Specifying a blank table name will delete ALL keys of the given name; specifying a recordId of 0 will delete ALL keys of the given name for the given table.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/DeleteForeignKeyOnName" name="DeleteForeignKeyOnNameRequest" message="tns:DeleteForeignKeyOnNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/DeleteForeignKeyOnNameResponse" name="DeleteForeignKeyOnNameResponse" message="tns:DeleteForeignKeyOnNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetKeyByValue">
-      <wsdl:documentation>
-        <summary>Get a foreignkey based on its name and value, that belongs to the specified device and application.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetKeyByValue" name="GetKeyByValueRequest" message="tns:GetKeyByValueRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetKeyByValueResponse" name="GetKeyByValueResponse" message="tns:GetKeyByValueResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetKeyByValueAndIdentifier">
-      <wsdl:documentation>
-        <summary>Get a foreignkey based on its name and value, that belongs to the specified deviceId, device, and application.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetKeyByValueAndIdentifier" name="GetKeyByValueAndIdentifierRequest" message="tns:GetKeyByValueAndIdentifierRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetKeyByValueAndIdentifierResponse" name="GetKeyByValueAndIdentifierResponse" message="tns:GetKeyByValueAndIdentifierResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetForeignDevice">
-      <wsdl:documentation>
-        <summary>Gets a ForeignDevice object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetForeignDevice" name="GetForeignDeviceRequest" message="tns:GetForeignDeviceRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetForeignDeviceResponse" name="GetForeignDeviceResponse" message="tns:GetForeignDeviceResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveForeignDevice">
-      <wsdl:documentation>
-        <summary>Saves a foreign device for an foreign application</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/SaveForeignDevice" name="SaveForeignDeviceRequest" message="tns:SaveForeignDeviceRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/SaveForeignDeviceResponse" name="SaveForeignDeviceResponse" message="tns:SaveForeignDeviceResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteForeignDevice">
-      <wsdl:documentation>
-        <summary>Deletes a foreign device from an application</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/DeleteForeignDevice" name="DeleteForeignDeviceRequest" message="tns:DeleteForeignDeviceRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/DeleteForeignDeviceResponse" name="DeleteForeignDeviceResponse" message="tns:DeleteForeignDeviceResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteForeignKey">
-      <wsdl:documentation>
-        <summary>Deletes all specified occurrences of a key, belonging to the ForeignApp and ForeignDevice, table and record specified. Specifying a blank table name will delete ALL keys of the given name; specifying a recordId of 0 will delete ALL keys of the given name for the given table.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/DeleteForeignKey" name="DeleteForeignKeyRequest" message="tns:DeleteForeignKeyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/DeleteForeignKeyResponse" name="DeleteForeignKeyResponse" message="tns:DeleteForeignKeyResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDeviceKeys">
-      <wsdl:documentation>
-        <summary>Returns all ForeignKeys that belong to a device.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetDeviceKeys" name="GetDeviceKeysRequest" message="tns:GetDeviceKeysRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetDeviceKeysResponse" name="GetDeviceKeysResponse" message="tns:GetDeviceKeysResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetApplicationKeys">
-      <wsdl:documentation>
-        <summary>Returns all ForeignKeys that belong to an application.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetApplicationKeys" name="GetApplicationKeysRequest" message="tns:GetApplicationKeysRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetApplicationKeysResponse" name="GetApplicationKeysResponse" message="tns:GetApplicationKeysResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDeviceKeysOnDeviceIdentifier">
-      <wsdl:documentation>
-        <summary>Returns all ForeignKeys that belong to a device with a given deviceIdentifier.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetDeviceKeysOnDeviceIdentifier" name="GetDeviceKeysOnDeviceIdentifierRequest" message="tns:GetDeviceKeysOnDeviceIdentifierRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetDeviceKeysOnDeviceIdentifierResponse" name="GetDeviceKeysOnDeviceIdentifierResponse" message="tns:GetDeviceKeysOnDeviceIdentifierResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDeviceKeysOnDeviceIdentifierTable">
-      <wsdl:documentation>
-        <summary>Returns all ForeignKeys that belong to a device with a given deviceIdentifier and table name.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable" name="GetDeviceKeysOnDeviceIdentifierTableRequest" message="tns:GetDeviceKeysOnDeviceIdentifierTableRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableResponse" name="GetDeviceKeysOnDeviceIdentifierTableResponse" message="tns:GetDeviceKeysOnDeviceIdentifierTableResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDeviceKeysOnDeviceIdentifierTableRecordId">
-      <wsdl:documentation>
-        <summary>Returns all ForeignKeys that belong to a device with a given deviceIdentifier and table name, as well as record id.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId" name="GetDeviceKeysOnDeviceIdentifierTableRecordIdRequest" message="tns:GetDeviceKeysOnDeviceIdentifierTableRecordIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordIdResponse" name="GetDeviceKeysOnDeviceIdentifierTableRecordIdResponse" message="tns:GetDeviceKeysOnDeviceIdentifierTableRecordIdResponse" />
     </wsdl:operation>
@@ -1929,3 +1839,4 @@ title: Services85.ForeignSystemAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

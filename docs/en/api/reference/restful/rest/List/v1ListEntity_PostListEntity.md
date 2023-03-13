@@ -97,15 +97,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 977,
-  "Name": "Halvorson Group",
-  "Tooltip": "ducimus",
-  "Deleted": true,
-  "Rank": 262,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 536,
+  "Name": "Nitzsche, Hodkiewicz and Fadel",
+  "Tooltip": "rem",
+  "Deleted": false,
+  "Rank": 914,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "laborum",
+  "ListType": "quasi",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -117,22 +117,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 415,
-  "Name": "Pagac Group",
-  "Tooltip": "quis",
+  "Id": 192,
+  "Name": "West LLC",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 217,
-  "IsCustomList": false,
+  "Rank": 587,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "aliquid",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 101
+      "FieldLength": 634
     }
   },
   "_Links": {

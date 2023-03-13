@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ICustomerServiceAgent.Fin
 
 ## FindTicketsByTitleOrId
 
-This method wil search for tickets matching title or id
 
-* **titleOrId:** The search string. If this is a number, it will also search for a matching ticket id
-* **maxRows:** The maximum number of rows to be returned
 
-**Returns:** An array of objects containing some meta data for matching tickets
+
 
 [WSDL file for Services87/CustomerService](../Services87-CustomerService.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## FindTicketsByTitleOrId Response
 
 ```xml
@@ -82,3 +80,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/Relat
 
 Handled by the <see cref="T:SuperOffice.Services88.IRelationAgent">SuperOffice.Services88.IRelationAgent</see> interface.
 
-Interface for the Relation Agent
-Contact/Person relations
+
 
 Download [WSDL file for Services88/Relation](../Services88-Relation.md) if you need to generate your own proxy code.
 
@@ -19,3 +18,4 @@ Download [WSDL file for Services88/Relation](../Services88-Relation.md) if you n
 * [DeleteContactRelation](DeleteContactRelation.md)
 * [GetContactRelationEntity](GetContactRelationEntity.md)
 * [SaveContactRelation](SaveContactRelation.md)
+

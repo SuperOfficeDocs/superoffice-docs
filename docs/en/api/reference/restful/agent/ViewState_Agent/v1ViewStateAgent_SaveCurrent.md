@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 330,
-  "Id": 712,
-  "HistoryName": "Gulgowski-Reichert",
-  "HistoryId": 388,
-  "AssociateId": 623,
-  "Name": "Heathcote, Botsford and Schmeler",
-  "ItemInfo": "quidem",
+  "Rank": 172,
+  "Id": 162,
+  "HistoryName": "Torp, Weissnat and Jast",
+  "HistoryId": 597,
+  "AssociateId": 860,
+  "Name": "Reinger, Berge and Mayer",
+  "ItemInfo": "quos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 498
+      "FieldType": "System.String",
+      "FieldLength": 173
     }
   }
 }

@@ -78,32 +78,32 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "velit",
-        "vel"
+        "porro",
+        "vitae"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "aut"
+      "ExternalKey": "corrupti"
     },
     {
       "Values": [
-        "velit",
-        "vel"
+        "porro",
+        "vitae"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "aut"
+      "ExternalKey": "corrupti"
     }
   ],
   "ColumnDefinition": [
     "velit",
-    "qui"
+    "voluptatem"
   ],
   "CreateSelection": true,
-  "Culture": "veritatis",
-  "Context": "laudantium"
+  "Culture": "eum",
+  "Context": "eos"
 }
 ```
 
@@ -114,7 +114,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  377,
-  871
+  180,
+  208
 ]
 ```

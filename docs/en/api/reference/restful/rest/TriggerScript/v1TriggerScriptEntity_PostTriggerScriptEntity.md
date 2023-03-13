@@ -96,20 +96,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 301,
-  "Name": "Aufderhar Group",
+  "ScreenChooserId": 609,
+  "Name": "Witting-Hintz",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "quia",
-  "Source": "libero",
-  "Registered": "2019-05-30T17:37:39.3894254+02:00",
-  "RegisteredAssociateId": 769,
-  "Updated": "2007-08-17T17:37:39.3894254+02:00",
-  "UpdatedAssociateId": 88
+  "Enabled": true,
+  "UniqueIdentifier": "est",
+  "Source": "minima",
+  "Registered": "2004-03-27T14:19:10.912356+01:00",
+  "RegisteredAssociateId": 219,
+  "Updated": "2009-12-23T14:19:10.912356+01:00",
+  "UpdatedAssociateId": 183
 }
 ```
 
@@ -120,22 +120,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 164,
-  "Name": "Tillman Group",
+  "ScreenChooserId": 321,
+  "Name": "O'Connell Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "dolores",
-  "Source": "inventore",
-  "Registered": "2021-01-09T17:37:39.3904307+01:00",
-  "RegisteredAssociateId": 642,
-  "Updated": "2019-01-06T17:37:39.3904307+01:00",
-  "UpdatedAssociateId": 2,
+  "UniqueIdentifier": "in",
+  "Source": "ipsum",
+  "Registered": "2011-01-08T14:19:10.912356+01:00",
+  "RegisteredAssociateId": 297,
+  "Updated": "2015-12-05T14:19:10.912356+01:00",
+  "UpdatedAssociateId": 283,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 525
+      "FieldLength": 62
     }
   },
   "_Links": {

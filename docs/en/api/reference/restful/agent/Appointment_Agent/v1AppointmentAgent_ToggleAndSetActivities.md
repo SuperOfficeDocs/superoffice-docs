@@ -74,8 +74,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ActivityIdentifiers": [
-    "nemo",
-    "reprehenderit"
+    "voluptas",
+    "eveniet"
   ]
 }
 ```
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "ipsa",
-  "et"
+  "voluptas",
+  "amet"
 ]
 ```

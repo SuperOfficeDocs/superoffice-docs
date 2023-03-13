@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "sale_new"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,6 @@ so.envir:
 ---
 
 # "sale_new" MDO List
-
 List of sales.
 Searches sale + company names + person names.
 <para />
@@ -47,6 +46,10 @@ The name of the MDO list is 'sale_new'.
 
 Separator: ;
 
+
+
+
+
 ## Sample Request
 
 ```http!
@@ -58,7 +61,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("sale_new", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -92,6 +94,7 @@ foreach (var item in listProvider.RootItems) {
 |23|SalgNDDN (Arne'S Kebab, AAvdeling)||SalgNDDN|
 |24|SalgSDDS (Yngve'S Fisk & Vilt, YAvdeling)|sold|SalgSDDS|
 |25|SalgYDDY (Yngve'S Fisk & Vilt, YAvdeling)||SalgYDDY|
+
 
 ## Related MDO Lists
 

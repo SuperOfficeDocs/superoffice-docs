@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 579,
-  "Name": "Kirlin-Schuster",
+  "ScreenChooserId": 742,
+  "Name": "Boehm LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "et",
-  "Source": "veritatis",
-  "Registered": "2003-11-07T17:37:17.3252455+01:00",
-  "RegisteredAssociateId": 63,
-  "Updated": "2007-02-24T17:37:17.3252455+01:00",
-  "UpdatedAssociateId": 347,
+  "Enabled": false,
+  "UniqueIdentifier": "inventore",
+  "Source": "voluptatem",
+  "Registered": "2020-04-24T14:19:03.0730293+02:00",
+  "RegisteredAssociateId": 325,
+  "Updated": "2012-09-27T14:19:03.0730293+02:00",
+  "UpdatedAssociateId": 96,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 544
+      "FieldLength": 552
     }
   }
 }

@@ -55,7 +55,7 @@ The ticket message to save
 | Author | String | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | String | The securitylevel of the message. |
 | Type | String | The type of the message (plaintext/html). |
-| MessageId | String | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | String | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | Integer | The time spent (minutes) for this message. |
 | Body | String | The textbody for the message. |
 | HtmlBody | String | The html body for the message (if any). |
@@ -93,7 +93,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -120,72 +120,72 @@ OK
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 252,
+  "EjMessageId": 319,
   "Ticket": null,
-  "CreatedAt": "2019-05-03T17:37:39.3473498+02:00",
+  "CreatedAt": "2009-05-03T14:19:10.8811066+02:00",
   "CreatedBy": null,
-  "Author": "delectus",
+  "Author": "optio",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "officia",
-  "TimeSpent": 464,
-  "Body": "vel",
-  "HtmlBody": "cupiditate",
-  "EmailHeader": "gilda@moen.info",
-  "DebugInfo": "ut",
-  "MailSorter": "provident",
+  "MessageId": "veniam",
+  "TimeSpent": 125,
+  "Body": "praesentium",
+  "HtmlBody": "nihil",
+  "EmailHeader": "dameon@binskuvalis.ca",
+  "DebugInfo": "consequatur",
+  "MailSorter": "officiis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "fuga",
+  "SearchTitle": "sed",
   "MessageHeaders": [
     {
-      "Id": 3,
-      "Name": "Bartoletti, Gutkowski and Witting",
-      "Value": "natus",
+      "Id": 490,
+      "Name": "Kunde-Crooks",
+      "Value": "vel",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 3,
-      "Name": "Bartoletti, Gutkowski and Witting",
-      "Value": "natus",
+      "Id": 490,
+      "Name": "Kunde-Crooks",
+      "Value": "vel",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
+  "Important": true,
   "Language": "est",
-  "Sentiment": 953,
-  "SentimentConfidence": 837,
+  "Sentiment": 423,
+  "SentimentConfidence": 306,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 982,
-      "Name": "Gutmann, McLaughlin and Gleichner",
-      "ContentType": "necessitatibus",
-      "AttSize": 775,
+      "AttachmentId": 538,
+      "Name": "Ankunding-Feeney",
+      "ContentType": "cum",
+      "AttSize": 517,
       "InlineImage": false,
-      "ContentId": "tempora"
+      "ContentId": "odio"
     },
     {
-      "AttachmentId": 982,
-      "Name": "Gutmann, McLaughlin and Gleichner",
-      "ContentType": "necessitatibus",
-      "AttSize": 775,
+      "AttachmentId": 538,
+      "Name": "Ankunding-Feeney",
+      "ContentType": "cum",
+      "AttSize": 517,
       "InlineImage": false,
-      "ContentId": "tempora"
+      "ContentId": "odio"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ratione",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "illum",
+    "ExtraFields2": "nulla"
   },
   "CustomFields": {
-    "CustomFields1": "quae",
-    "CustomFields2": "omnis"
+    "CustomFields1": "ut",
+    "CustomFields2": "rerum"
   }
 }
 ```
@@ -197,76 +197,76 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 855,
+  "EjMessageId": 393,
   "Ticket": null,
-  "CreatedAt": "2011-02-02T17:37:39.3553451+01:00",
+  "CreatedAt": "2006-11-30T14:19:10.8811066+01:00",
   "CreatedBy": null,
-  "Author": "assumenda",
+  "Author": "magni",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nemo",
-  "TimeSpent": 212,
-  "Body": "reprehenderit",
-  "HtmlBody": "voluptatibus",
-  "EmailHeader": "arianna@davisparker.co.uk",
-  "DebugInfo": "est",
-  "MailSorter": "a",
+  "MessageId": "dicta",
+  "TimeSpent": 607,
+  "Body": "veniam",
+  "HtmlBody": "eos",
+  "EmailHeader": "lafayette@dach.ca",
+  "DebugInfo": "iste",
+  "MailSorter": "perspiciatis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "maiores",
+  "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 239,
-      "Name": "O'Reilly Group",
-      "Value": "et",
+      "Id": 308,
+      "Name": "Nader, Halvorson and Reinger",
+      "Value": "officia",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 820
+          "FieldType": "System.String",
+          "FieldLength": 857
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "vitae",
-  "Sentiment": 627,
-  "SentimentConfidence": 994,
+  "Important": false,
+  "Language": "vel",
+  "Sentiment": 86,
+  "SentimentConfidence": 116,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 245,
-      "Name": "Treutel LLC",
-      "ContentType": "ipsam",
-      "AttSize": 835,
-      "InlineImage": true,
-      "ContentId": "fugiat",
+      "AttachmentId": 566,
+      "Name": "Hessel-Gutmann",
+      "ContentType": "sunt",
+      "AttSize": 470,
+      "InlineImage": false,
+      "ContentId": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 167
+          "FieldLength": 615
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "et",
+    "ExtraFields2": "maiores"
   },
   "CustomFields": {
-    "CustomFields1": "saepe",
-    "CustomFields2": "qui"
+    "CustomFields1": "vitae",
+    "CustomFields2": "id"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldLength": 471
     }
   }
 }

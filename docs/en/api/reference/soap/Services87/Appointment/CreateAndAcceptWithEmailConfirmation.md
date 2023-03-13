@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IAppointmentAgent.CreateA
 
 ## CreateAndAcceptWithEmailConfirmation
 
-Creating an appointment from an emailItem invitation and accepting it with email confirmation to the meeting organizer.
 
-* **emailItemId:** The emailItemId
-* **updateMode:** Update mode for a recurring appointment.
+
+
 
 [WSDL file for Services87/Appointment](../Services87-Appointment.md)
 
@@ -49,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateAndAcceptWithEmailConfirmation Response
 
 ```xml
@@ -68,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

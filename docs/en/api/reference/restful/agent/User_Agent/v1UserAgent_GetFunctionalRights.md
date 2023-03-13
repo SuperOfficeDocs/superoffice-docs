@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 823
+  "RoleId": 962
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 164,
-    "Name": "Swift-Brown",
-    "ToolTip": "Cum est aut.",
+    "Id": 263,
+    "Name": "Considine-Schiller",
+    "ToolTip": "Rem est et dolor.",
     "Deleted": false,
-    "Rank": 185,
-    "Type": "quisquam",
-    "ColorBlock": 807,
-    "IconHint": "nulla",
+    "Rank": 931,
+    "Type": "dolor",
+    "ColorBlock": 372,
+    "IconHint": "sit",
     "Selected": true,
-    "LastChanged": "2010-10-22T17:37:19.5509761+02:00",
+    "LastChanged": "2005-10-27T14:19:04.5797015+02:00",
     "ChildItems": [
       {
-        "Id": 152,
-        "Name": "Macejkovic Inc and Sons",
-        "ToolTip": "Et ullam est quod excepturi voluptatum repudiandae.",
+        "Id": 272,
+        "Name": "Buckridge-Senger",
+        "ToolTip": "Enim et vero fuga et.",
         "Deleted": false,
-        "Rank": 908,
-        "Type": "dicta",
-        "ColorBlock": 86,
-        "IconHint": "consequuntur",
+        "Rank": 417,
+        "Type": "qui",
+        "ColorBlock": 395,
+        "IconHint": "aliquid",
         "Selected": false,
-        "LastChanged": "2003-04-30T17:37:19.5509761+02:00",
+        "LastChanged": "2009-06-15T14:19:04.5797015+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "accusantium",
+        "ExtraInfo": "animi",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Virgie Luettgen",
+        "FullName": "Annabelle Leffler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 897
+            "FieldType": "System.Int32",
+            "FieldLength": 693
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "tempora",
+    "StyleHint": "recusandae",
     "Hidden": true,
-    "FullName": "Lavada Jennifer Rath MD",
+    "FullName": "Marco Terry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 387
+        "FieldType": "System.String",
+        "FieldLength": 83
       }
     }
   }

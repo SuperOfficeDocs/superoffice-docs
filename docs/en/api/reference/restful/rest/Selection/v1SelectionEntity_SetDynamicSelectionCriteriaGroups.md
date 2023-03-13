@@ -77,58 +77,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mills LLC",
-    "Description": "Enhanced client-server open architecture",
-    "Rank": 504,
+    "Name": "McClure, Pfannerstill and Abbott",
+    "Description": "Multi-lateral contextually-based Graphical User Interface",
+    "Rank": 375,
     "Restrictions": [
       {
-        "Name": "Turner LLC",
-        "Operator": "nesciunt",
+        "Name": "Kunde-Douglas",
+        "Operator": "vero",
         "Values": [
-          "sed",
-          "sit"
+          "accusamus",
+          "esse"
         ],
         "DisplayValues": [
-          "quo",
-          "explicabo"
+          "sequi",
+          "distinctio"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 147,
+        "InterParenthesis": 480,
         "InterOperator": "And",
-        "UniqueHash": 30
+        "UniqueHash": 568
       }
     ]
   },
   {
-    "Name": "Mills LLC",
-    "Description": "Enhanced client-server open architecture",
-    "Rank": 504,
+    "Name": "McClure, Pfannerstill and Abbott",
+    "Description": "Multi-lateral contextually-based Graphical User Interface",
+    "Rank": 375,
     "Restrictions": [
       {
-        "Name": "Turner LLC",
-        "Operator": "nesciunt",
+        "Name": "Kunde-Douglas",
+        "Operator": "vero",
         "Values": [
-          "sed",
-          "sit"
+          "accusamus",
+          "esse"
         ],
         "DisplayValues": [
-          "quo",
-          "explicabo"
+          "sequi",
+          "distinctio"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 147,
+        "InterParenthesis": 480,
         "InterOperator": "And",
-        "UniqueHash": 30
+        "UniqueHash": 568
       }
     ]
   }
@@ -143,20 +143,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Johns, Stanton and Carroll",
-    "Description": "Optimized empowering benchmark",
-    "Rank": 827,
+    "Name": "Oberbrunner-Harvey",
+    "Description": "Polarised object-oriented system engine",
+    "Rank": 404,
     "Restrictions": [
       {
-        "Name": "Keeling-Dietrich",
-        "Operator": "sint",
+        "Name": "Corkery-Monahan",
+        "Operator": "corporis",
         "Values": [
-          "et",
-          "enim"
+          "quasi",
+          "eaque"
         ],
         "DisplayValues": [
-          "ut",
-          "neque"
+          "dolores",
+          "blanditiis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -164,27 +164,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 995,
+        "InterParenthesis": 688,
         "InterOperator": "And",
-        "UniqueHash": 410
+        "UniqueHash": 29
       }
     ]
   },
   {
-    "Name": "Johns, Stanton and Carroll",
-    "Description": "Optimized empowering benchmark",
-    "Rank": 827,
+    "Name": "Oberbrunner-Harvey",
+    "Description": "Polarised object-oriented system engine",
+    "Rank": 404,
     "Restrictions": [
       {
-        "Name": "Keeling-Dietrich",
-        "Operator": "sint",
+        "Name": "Corkery-Monahan",
+        "Operator": "corporis",
         "Values": [
-          "et",
-          "enim"
+          "quasi",
+          "eaque"
         ],
         "DisplayValues": [
-          "ut",
-          "neque"
+          "dolores",
+          "blanditiis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -192,9 +192,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 995,
+        "InterParenthesis": 688,
         "InterOperator": "And",
-        "UniqueHash": 410
+        "UniqueHash": 29
       }
     ]
   }

@@ -10,9 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services86/CRMSc
 
 Handled by the <see cref="T:SuperOffice.Services86.ICRMScriptAgent">SuperOffice.Services86.ICRMScriptAgent</see> interface.
 
-Interface for the CRMScript Agent
-Manage and execute CRMScript functions.
-<para /><b>Online Restricted:</b> This agent is not available in Online by default. Access must be requested specifically when app is registered.
+
 
 Download [WSDL file for Services86/CRMScript](../Services86-CRMScript.md) if you need to generate your own proxy code.
 
@@ -27,3 +25,4 @@ Download [WSDL file for Services86/CRMScript](../Services86-CRMScript.md) if you
 * [SaveCRMScriptEntity](SaveCRMScriptEntity.md)
 * [ValidateScript](ValidateScript.md)
 * [ValidateScriptByIncludeId](ValidateScriptByIncludeId.md)
+

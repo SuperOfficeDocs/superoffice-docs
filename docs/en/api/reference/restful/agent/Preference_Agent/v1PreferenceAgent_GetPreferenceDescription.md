@@ -25,7 +25,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=367
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=272
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 134,
-  "Section": "rerum",
-  "Key": "ut",
-  "Name": "Langosh Inc and Sons",
+  "PrefDescId": 664,
+  "Section": "nostrum",
+  "Key": "corrupti",
+  "Name": "Jewess, Rohan and Bailey",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Fundamental scalable infrastructure",
+  "Description": "Secured discrete productivity",
   "IsBuiltin": false,
-  "TableName": "Ebert Group",
-  "UserDefinedListId": 75,
-  "Rank": 741,
-  "SubGroup": "ut",
-  "MinLevel": 278,
-  "MaxValue": 412,
-  "MinValue": 464,
-  "RequiredLicense": "molestiae",
+  "TableName": "Paucek Inc and Sons",
+  "UserDefinedListId": 15,
+  "Rank": 315,
+  "SubGroup": "magni",
+  "MinLevel": 326,
+  "MaxValue": 637,
+  "MinValue": 58,
+  "RequiredLicense": "aspernatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldLength": 531
     }
   }
 }

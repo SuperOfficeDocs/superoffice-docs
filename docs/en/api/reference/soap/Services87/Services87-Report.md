@@ -734,97 +734,55 @@ title: Services87.ReportAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Report">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Report</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultReportEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new ReportEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/CreateDefaultReportEntity" name="CreateDefaultReportEntityRequest" message="tns:CreateDefaultReportEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/CreateDefaultReportEntityResponse" name="CreateDefaultReportEntityResponse" message="tns:CreateDefaultReportEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveReportEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing ReportEntity or creates a new ReportEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/SaveReportEntity" name="SaveReportEntityRequest" message="tns:SaveReportEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/SaveReportEntityResponse" name="SaveReportEntityResponse" message="tns:SaveReportEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultReportLabelLayoutEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new ReportLabelLayoutEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/CreateDefaultReportLabelLayoutEntity" name="CreateDefaultReportLabelLayoutEntityRequest" message="tns:CreateDefaultReportLabelLayoutEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/CreateDefaultReportLabelLayoutEntityResponse" name="CreateDefaultReportLabelLayoutEntityResponse" message="tns:CreateDefaultReportLabelLayoutEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveReportLabelLayoutEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/SaveReportLabelLayoutEntity" name="SaveReportLabelLayoutEntityRequest" message="tns:SaveReportLabelLayoutEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/SaveReportLabelLayoutEntityResponse" name="SaveReportLabelLayoutEntityResponse" message="tns:SaveReportLabelLayoutEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteReportLabelLayoutEntity">
-      <wsdl:documentation>
-        <summary>Deletes the ReportLabelLayoutEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/DeleteReportLabelLayoutEntity" name="DeleteReportLabelLayoutEntityRequest" message="tns:DeleteReportLabelLayoutEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/DeleteReportLabelLayoutEntityResponse" name="DeleteReportLabelLayoutEntityResponse" message="tns:DeleteReportLabelLayoutEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetReportEntity">
-      <wsdl:documentation>
-        <summary>Gets a ReportEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/GetReportEntity" name="GetReportEntityRequest" message="tns:GetReportEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/GetReportEntityResponse" name="GetReportEntityResponse" message="tns:GetReportEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateFavorite">
-      <wsdl:documentation>
-        <summary>Creates the report as favorite. The sourceId is the key to the report that the favorite is based on.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/CreateFavorite" name="CreateFavoriteRequest" message="tns:CreateFavoriteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/CreateFavoriteResponse" name="CreateFavoriteResponse" message="tns:CreateFavoriteResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteFavorite">
-      <wsdl:documentation>
-        <summary>Deletes the report favorite.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/DeleteFavorite" name="DeleteFavoriteRequest" message="tns:DeleteFavoriteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/DeleteFavoriteResponse" name="DeleteFavoriteResponse" message="tns:DeleteFavoriteResponse" />
     </wsdl:operation>
     <wsdl:operation name="UpdateFavorite">
-      <wsdl:documentation>
-        <summary>Updates the favorite.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/UpdateFavorite" name="UpdateFavoriteRequest" message="tns:UpdateFavoriteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/UpdateFavoriteResponse" name="UpdateFavoriteResponse" message="tns:UpdateFavoriteResponse" />
     </wsdl:operation>
     <wsdl:operation name="GenerateReport">
-      <wsdl:documentation>
-        <summary>Generates the report in PDF format</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/GenerateReport" name="GenerateReportRequest" message="tns:GenerateReportRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/GenerateReportResponse" name="GenerateReportResponse" message="tns:GenerateReportResponse" />
     </wsdl:operation>
     <wsdl:operation name="ImportReport">
-      <wsdl:documentation>
-        <summary>Takes the input stream and create a report. This stream must be on a valid xml format</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/ImportReport" name="ImportReportRequest" message="tns:ImportReportRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/ImportReportResponse" name="ImportReportResponse" message="tns:ImportReportResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteReport">
-      <wsdl:documentation>
-        <summary>Delete the report with the given id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/DeleteReport" name="DeleteReportRequest" message="tns:DeleteReportRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/DeleteReportResponse" name="DeleteReportResponse" message="tns:DeleteReportResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetReportLabelLayoutEntity">
-      <wsdl:documentation>
-        <summary>Gets a ReportLabelLayoutEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/GetReportLabelLayoutEntity" name="GetReportLabelLayoutEntityRequest" message="tns:GetReportLabelLayoutEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Report/GetReportLabelLayoutEntityResponse" name="GetReportLabelLayoutEntityResponse" message="tns:GetReportLabelLayoutEntityResponse" />
     </wsdl:operation>
@@ -1047,3 +1005,4 @@ title: Services87.ReportAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

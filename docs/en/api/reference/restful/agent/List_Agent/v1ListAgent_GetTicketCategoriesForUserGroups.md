@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    404,
-    139
+    838,
+    140
   ]
 }
 ```
@@ -102,50 +102,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 76,
-    "Name": "Powlowski-Rowe",
-    "ToolTip": "Enim id enim.",
-    "Deleted": false,
-    "Rank": 477,
-    "Type": "culpa",
+    "Id": 142,
+    "Name": "Turcotte Inc and Sons",
+    "ToolTip": "In excepturi et sed nisi maiores.",
+    "Deleted": true,
+    "Rank": 793,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 500,
-        "Name": "Blanda Inc and Sons",
-        "ToolTip": "Ad quam pariatur.",
+        "Id": 18,
+        "Name": "Christiansen-Pouros",
+        "ToolTip": "Odit excepturi quasi.",
         "Deleted": false,
-        "Rank": 192,
-        "Type": "sapiente",
+        "Rank": 815,
+        "Type": "quas",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "iure",
-        "ColorBlock": 6,
-        "ExtraInfo": "iure",
-        "StyleHint": "iste",
-        "FullName": "Miller Reilly",
+        "IconHint": "temporibus",
+        "ColorBlock": 258,
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "exercitationem",
+        "FullName": "Dr. Jamir Torphy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 896
+            "FieldLength": 668
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 478,
-    "ExtraInfo": "sit",
-    "StyleHint": "atque",
-    "FullName": "Luna Jeanette Klein II",
+    "IconHint": "culpa",
+    "ColorBlock": 353,
+    "ExtraInfo": "qui",
+    "StyleHint": "consequuntur",
+    "FullName": "Gabriel Erdman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 191
+        "FieldLength": 758
       }
     }
   }

@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 813,
-    "Name": "Rowe, Marvin and Emard",
-    "ToolTip": "Minus quisquam ratione veritatis omnis blanditiis ea qui.",
+    "Id": 373,
+    "Name": "Daniel, Murazik and Christiansen",
+    "ToolTip": "Soluta sed repudiandae perspiciatis reiciendis illum sunt sit.",
     "Deleted": false,
-    "Rank": 903,
-    "Type": "sunt",
-    "ColorBlock": 219,
-    "IconHint": "fugiat",
-    "Selected": true,
-    "LastChanged": "2014-10-01T17:37:40.1844706+02:00",
+    "Rank": 508,
+    "Type": "ab",
+    "ColorBlock": 367,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "2008-04-14T14:19:11.3836521+02:00",
     "ChildItems": [
       {
-        "Id": 791,
-        "Name": "Brekke, Russel and Fadel",
-        "ToolTip": "Tenetur ut.",
-        "Deleted": true,
-        "Rank": 313,
-        "Type": "nesciunt",
-        "ColorBlock": 752,
-        "IconHint": "iste",
-        "Selected": true,
-        "LastChanged": "2015-11-01T17:37:40.1844706+01:00",
+        "Id": 32,
+        "Name": "Jerde, Howell and Toy",
+        "ToolTip": "Ut exercitationem.",
+        "Deleted": false,
+        "Rank": 660,
+        "Type": "omnis",
+        "ColorBlock": 330,
+        "IconHint": "ea",
+        "Selected": false,
+        "LastChanged": "1997-11-12T14:19:11.3836521+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "ipsum",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "totam",
         "Hidden": false,
-        "FullName": "Bruce Armstrong",
+        "FullName": "Alexander Rice",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 936
+            "FieldType": "System.Int32",
+            "FieldLength": 785
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "magnam",
-    "Hidden": false,
-    "FullName": "Mrs. Hugh Brandyn Jones",
+    "ExtraInfo": "quia",
+    "StyleHint": "dicta",
+    "Hidden": true,
+    "FullName": "Clyde Joany Herman III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 621
+        "FieldLength": 243
       }
     }
   }

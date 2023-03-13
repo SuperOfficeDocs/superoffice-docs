@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IArchiveAgent.SetChosenCo
 
 ## SetChosenColumns
 
-Set the currently chosen columns for the given gui name/provider name combination. This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveColumns: plus the archive provider name and gui name as its additionalInfo.
 
-* **guiName:** String that identifies the archive in the GUI, must be the same when fetching and storing configurations, but does not otherwise have to match anything.
-* **providerName:** Name of archive provider, must match one of the plugins known to the ArchiveProviderFactory.
-* **chosenColumns:** Array of column names, where array order indicates left to right order in the archive.
+
+
 
 [WSDL file for Services88/Archive](../Services88-Archive.md)
 
@@ -53,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetChosenColumns Response
 
 ```xml
@@ -72,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

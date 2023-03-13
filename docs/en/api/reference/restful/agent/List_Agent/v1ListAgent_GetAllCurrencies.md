@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 546,
-    "Name": "Christiansen Inc and Sons",
-    "Tooltip": "possimus",
-    "Rank": 482,
-    "Rate": 30493.82,
-    "Units": 5725.818,
+    "CurrencyId": 192,
+    "Name": "Bergnaum-Wuckert",
+    "Tooltip": "ut",
+    "Rank": 986,
+    "Rate": 23492.464,
+    "Units": 3892.428,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 602
+        "FieldLength": 320
       }
     }
   }

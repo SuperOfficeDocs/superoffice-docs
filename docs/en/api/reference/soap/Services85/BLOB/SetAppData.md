@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IBLOBAgent.SetAppData">Su
 
 ## SetAppData
 
-Get a CLOB (limited to a reasonable size by the mechanics of Web Services) according to a string key; ALSO limits to the current ApplicationToken if any. Existing data, if any, will be overwritten. Overwrite with a blank value to delete.
 
-* **key:** The key string, less than 200 characters. Must be unique within each application.
-* **data:** The applications value, suggested to be a JSON, XML or other readable structure
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services85/BLOB](../Services85-BLOB.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetAppData Response
 
 ```xml
@@ -68,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

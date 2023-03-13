@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "TemporaryKey"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# TemporaryKey Table (493)
+# TemporaryKey Table (496)
 
 Temporary keys for lightweight authentications such as changing ones subscriptions
 

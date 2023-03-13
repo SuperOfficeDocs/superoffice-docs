@@ -11,14 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IErpSyncAgent.ConnectActo
 
 ## ConnectActor
 
-Create a link between Erp and Crm and set default values
 
-* **erpConnectionId:** ErpConnectionId
-* **crmRecordId:** CrmRecordId
-* **crmActorType:** The Crm Actor type
-* **erpKey:**
-* **erpActorType:** The Erp Actor type
-* **fieldValues:** The Crm Fields
+
+
 
 [WSDL file for Services85/ErpSync](../Services85-ErpSync.md)
 
@@ -66,6 +61,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ConnectActor Response
 
 ```xml
@@ -85,3 +81,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

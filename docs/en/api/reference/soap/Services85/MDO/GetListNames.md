@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IMDOAgent.GetListNames">S
 
 ## GetListNames
 
-Returns a list of all MDO List names. These names can also be used with the Archive agent as ProviderNames.
 
-**Returns:** Array of list names.
+
+
 
 [WSDL file for Services85/MDO](../Services85-MDO.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetListNames Response
 
 ```xml
@@ -68,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

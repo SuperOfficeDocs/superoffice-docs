@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetLegalBases"
 
 ## GetLegalBases
 
-Returns all defined bases.
 
-**Returns:** An array of all defined bases
+
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetLegalBases Response
 
 ```xml
@@ -75,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

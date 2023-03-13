@@ -103,33 +103,33 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Stark, Konopelski and Cole",
-  "ProviderName": "Hoeger Group",
+  "GuiName": "Daugherty, Considine and Glover",
+  "ProviderName": "Hand, Kerluke and Goldner",
   "SortOrder": [
     {
-      "Name": "Price, Kuvalis and Lakin",
+      "Name": "Koelpin LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Price, Kuvalis and Lakin",
+      "Name": "Koelpin LLC",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Von, Skiles and Lockman",
-      "Operator": "autem",
+      "Name": "Howell Group",
+      "Operator": "necessitatibus",
       "Values": [
-        "non",
-        "delectus"
+        "est",
+        "et"
       ],
       "DisplayValues": [
-        "optio",
-        "ad"
+        "ipsum",
+        "voluptatem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -137,17 +137,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 395,
+      "InterParenthesis": 147,
       "InterOperator": "And",
-      "UniqueHash": 658
+      "UniqueHash": 349
     }
   ],
   "Entities": [
-    "est",
-    "molestiae"
+    "consequatur",
+    "neque"
   ],
-  "Page": 93,
-  "PageSize": 534
+  "Page": 915,
+  "PageSize": 237
 }
 ```
 
@@ -159,23 +159,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Jerde Inc and Sons",
-    "PrimaryKey": 66,
+    "EntityName": "Hahn-Goyette",
+    "PrimaryKey": 489,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "est",
-        "TooltipHint": "ut",
-        "LinkHint": "et"
+        "DisplayValue": "enim",
+        "TooltipHint": "ratione",
+        "LinkHint": "voluptas"
       }
     },
-    "LinkHint": "et",
-    "StyleHint": "quod",
+    "LinkHint": "blanditiis",
+    "StyleHint": "illo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 250
+        "FieldLength": 190
       }
     }
   }

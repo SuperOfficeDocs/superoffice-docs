@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IDocumentAgent.CreateTemp
 
 ## CreateTempFile
 
-Create a new temporary file based on the provided stream.  Specified filename may be overridden, and actual name is returned.
 
-* **filename:** Wanted name of file.
-* **dataStream:** Data to be added to the file.
 
-**Returns:** Actual used filename.
+
 
 [WSDL file for Services85/Document](../Services85-Document.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateTempFile Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

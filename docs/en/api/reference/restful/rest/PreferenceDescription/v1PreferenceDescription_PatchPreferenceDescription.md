@@ -124,18 +124,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "deserunt",
+    "path": "vel",
     "value": {}
   },
   {
     "op": "add",
-    "path": "deserunt",
+    "path": "vel",
     "value": {}
   }
 ]
@@ -148,30 +148,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 328,
-  "Section": "sequi",
-  "Key": "ea",
-  "Name": "Wiegand LLC",
+  "PrefDescId": 244,
+  "Section": "voluptas",
+  "Key": "qui",
+  "Name": "Reichert Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Fundamental national utilisation",
+  "Description": "Organic transitional product",
   "IsBuiltin": false,
-  "TableName": "Hoeger Inc and Sons",
-  "UserDefinedListId": 462,
-  "Rank": 23,
-  "SubGroup": "et",
-  "MinLevel": 720,
-  "MaxValue": 411,
-  "MinValue": 496,
-  "RequiredLicense": "dolor",
+  "TableName": "Jerde LLC",
+  "UserDefinedListId": 843,
+  "Rank": 16,
+  "SubGroup": "harum",
+  "MinLevel": 440,
+  "MaxValue": 379,
+  "MinValue": 860,
+  "RequiredLicense": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 861
+      "FieldType": "System.Int32",
+      "FieldLength": 183
     }
   },
   "_Links": {

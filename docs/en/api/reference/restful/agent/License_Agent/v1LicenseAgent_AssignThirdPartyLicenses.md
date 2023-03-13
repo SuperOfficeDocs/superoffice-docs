@@ -91,11 +91,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 440,
-  "ModuleOwner": "est",
+  "AssociateId": 32,
+  "ModuleOwner": "perferendis",
   "ModuleLicenseNames": [
-    "Schmitt Group",
-    "Stiedemann, McDermott and Pagac"
+    "McCullough, Baumbach and Bailey",
+    "Gusikowski-Schultz"
   ]
 }
 ```
@@ -109,25 +109,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 672,
-    "Tooltip": "omnis",
+    "Total": 79,
+    "Tooltip": "qui",
     "CanAssign": false,
-    "Free": 290,
-    "InUse": 107,
-    "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 793,
-    "Name": "Thompson-Prohaska",
-    "Description": "Face to face bifurcated ability",
-    "PrerequisiteModuleName": "Cummerata, Boyle and Carroll",
-    "SortOrder": 654,
-    "ExtraFlags": 278,
+    "Free": 15,
+    "InUse": 980,
+    "IsHidden": true,
+    "Assigned": true,
+    "ModuleLicenseId": 81,
+    "Name": "Feil Inc and Sons",
+    "Description": "Progressive content-based frame",
+    "PrerequisiteModuleName": "Jacobs, Hansen and Murray",
+    "SortOrder": 4,
+    "ExtraFlags": 75,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 576
+        "FieldLength": 379
       }
     }
   }

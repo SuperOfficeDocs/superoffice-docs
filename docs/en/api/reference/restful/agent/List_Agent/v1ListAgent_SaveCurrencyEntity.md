@@ -74,16 +74,16 @@ OK
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 249,
-  "Name": "Walsh, Cruickshank and Marvin",
-  "Tooltip": "nobis",
-  "Rank": 498,
-  "Rate": 22846.86,
-  "Units": 11272.998,
+  "CurrencyId": 928,
+  "Name": "Cassin-Weber",
+  "Tooltip": "et",
+  "Rank": 895,
+  "Rate": 62.68,
+  "Units": 25949.52,
   "Deleted": false
 }
 ```
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 148,
-  "Name": "Weber LLC",
-  "Tooltip": "hic",
-  "Rank": 807,
-  "Rate": 27159.244,
-  "Units": 27729.631999999998,
+  "CurrencyId": 129,
+  "Name": "Gerlach, Flatley and Smith",
+  "Tooltip": "fugit",
+  "Rank": 206,
+  "Rate": 11915.467999999999,
+  "Units": 13949.434,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 107
+      "FieldType": "System.String",
+      "FieldLength": 992
     }
   }
 }

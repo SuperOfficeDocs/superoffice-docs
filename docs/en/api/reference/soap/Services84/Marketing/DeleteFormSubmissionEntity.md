@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IMarketingAgent.DeleteFor
 
 ## DeleteFormSubmissionEntity
 
-Deletes the FormSubmissionEntity
 
-* **formSubmissionEntityId:** The identity of the FormSubmissionEntity
+
+
 
 [WSDL file for Services84/Marketing](../Services84-Marketing.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteFormSubmissionEntity Response
 
 ```xml
@@ -64,3 +65,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -63,7 +63,7 @@ OK
 GET /api/v1/RelationDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,12 +73,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 17,
-  "Name": "Morar-Keeling",
-  "Tooltip": "facilis",
-  "PassiveText": "id",
+  "ReldefId": 911,
+  "Name": "Durgan-Larkin",
+  "Tooltip": "in",
+  "PassiveText": "nostrum",
   "Deleted": false,
-  "Rank": 61,
+  "Rank": 660,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -86,7 +86,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldLength": 840
     }
   }
 }

@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "QuoteApprReasonGroupLink"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# QuoteApprReasonGroupLink Table (507)
+# QuoteApprReasonGroupLink Table (510)
 
 User group link table for QuoteApprReason, for MDO item hiding
 

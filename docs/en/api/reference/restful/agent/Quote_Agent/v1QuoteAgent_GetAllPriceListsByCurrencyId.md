@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 207,
-  "CurrencyId": 164
+  "QuoteConnectionId": 681,
+  "CurrencyId": 743
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 34,
-    "ERPPriceListKey": "quia",
-    "QuoteConnectionId": 293,
-    "Name": "Upton, Ledner and McClure",
-    "Description": "Ameliorated tangible infrastructure",
-    "Currency": "saepe",
-    "CurrencyName": "West, Stiedemann and Hessel",
-    "ValidFrom": "1996-05-27T17:37:18.7482421+02:00",
-    "ValidTo": "2003-08-07T17:37:18.7482421+02:00",
+    "PriceListId": 419,
+    "ERPPriceListKey": "deleniti",
+    "QuoteConnectionId": 997,
+    "Name": "O'Conner-Hoppe",
+    "Description": "Virtual dynamic project",
+    "Currency": "sapiente",
+    "CurrencyName": "Runolfsson Inc and Sons",
+    "ValidFrom": "2010-02-01T14:19:04.0313341+01:00",
+    "ValidTo": "2004-04-23T14:19:04.0313341+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 813
+        "FieldLength": 253
       }
     }
   }

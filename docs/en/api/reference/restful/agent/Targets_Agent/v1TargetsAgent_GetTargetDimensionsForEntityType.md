@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,24 +96,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 209,
+    "TargetDimensionId": 760,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "minus",
-    "DimensionListName": "Huel Group",
-    "DimensionListId": 439,
-    "DimensionListLabel": "hic",
+    "DimensionListField": "recusandae",
+    "DimensionListName": "Watsica Group",
+    "DimensionListId": 102,
+    "DimensionListLabel": "id",
     "SelectedDimensions": [
-      904,
-      503
+      333,
+      792
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 534
+        "FieldType": "System.String",
+        "FieldLength": 437
       }
     }
   }

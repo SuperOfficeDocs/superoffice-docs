@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IDocumentAgent.GetDocumen
 
 ## GetDocumentStream
 
-Get the document content as a stream
 
-* **documentId:** SuperOffice document id
 
-**Returns:** The document as a Stream. This stream can be read once and clients should not assume it remains valid after a ReadToEnd or Close.
+
 
 [WSDL file for Services85/Document](../Services85-Document.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDocumentStream Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

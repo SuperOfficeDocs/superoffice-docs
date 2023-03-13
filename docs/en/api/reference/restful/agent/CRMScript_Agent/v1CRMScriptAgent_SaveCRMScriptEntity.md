@@ -88,17 +88,17 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 835,
-  "UniqueIdentifier": "aut",
-  "Name": "Deckow, Mosciski and Koelpin",
-  "Description": "Multi-tiered regional knowledge base",
-  "IncludeId": "ut",
-  "HierarchyId": 577,
-  "Source": "qui",
-  "Registered": "2001-10-17T17:37:17.3242459+02:00",
-  "RegisteredAssociateId": 251,
-  "Updated": "2007-07-29T17:37:17.3242459+02:00",
-  "UpdatedAssociateId": 832
+  "EjscriptId": 744,
+  "UniqueIdentifier": "sequi",
+  "Name": "Strosin Inc and Sons",
+  "Description": "Quality-focused reciprocal standardization",
+  "IncludeId": "nostrum",
+  "HierarchyId": 910,
+  "Source": "quia",
+  "Registered": "2011-02-16T14:19:03.0730293+01:00",
+  "RegisteredAssociateId": 986,
+  "Updated": "2011-10-22T14:19:03.0730293+02:00",
+  "UpdatedAssociateId": 423
 }
 ```
 
@@ -109,23 +109,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 540,
-  "UniqueIdentifier": "a",
-  "Name": "Gusikowski-Sanford",
-  "Description": "Digitized leading edge extranet",
-  "IncludeId": "earum",
-  "HierarchyId": 515,
-  "Source": "ad",
-  "Registered": "2015-12-24T17:37:17.3242459+01:00",
-  "RegisteredAssociateId": 151,
-  "Updated": "2003-04-11T17:37:17.3242459+02:00",
-  "UpdatedAssociateId": 483,
+  "EjscriptId": 830,
+  "UniqueIdentifier": "vitae",
+  "Name": "Johns, Crooks and Larkin",
+  "Description": "Centralized heuristic extranet",
+  "IncludeId": "omnis",
+  "HierarchyId": 773,
+  "Source": "dolor",
+  "Registered": "2000-12-20T14:19:03.0730293+01:00",
+  "RegisteredAssociateId": 786,
+  "Updated": "2013-12-31T14:19:03.0730293+01:00",
+  "UpdatedAssociateId": 539,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 737
+      "FieldLength": 915
     }
   }
 }

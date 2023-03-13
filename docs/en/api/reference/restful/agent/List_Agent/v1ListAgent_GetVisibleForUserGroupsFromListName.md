@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Williamson Inc and Sons",
-  "ListItemId": 278
+  "UdListDefinitionName": "Hilll, Cremin and Maggio",
+  "ListItemId": 103
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 267,
-    "Name": "Ankunding Inc and Sons",
-    "ToolTip": "Possimus et.",
+    "Id": 363,
+    "Name": "Paucek-Kunze",
+    "ToolTip": "Ratione unde id debitis id quam.",
     "Deleted": false,
-    "Rank": 146,
-    "Type": "officia",
-    "ColorBlock": 756,
-    "IconHint": "id",
-    "Selected": false,
-    "LastChanged": "2017-06-09T17:37:18.1942445+02:00",
+    "Rank": 924,
+    "Type": "debitis",
+    "ColorBlock": 686,
+    "IconHint": "ipsam",
+    "Selected": true,
+    "LastChanged": "2009-09-13T14:19:03.6238736+02:00",
     "ChildItems": [
       {
-        "Id": 897,
-        "Name": "Konopelski LLC",
-        "ToolTip": "Quidem architecto dolore.",
-        "Deleted": true,
-        "Rank": 576,
-        "Type": "modi",
-        "ColorBlock": 235,
-        "IconHint": "est",
+        "Id": 168,
+        "Name": "Swaniawski, Corwin and Harber",
+        "ToolTip": "Sapiente mollitia laboriosam ratione voluptatibus.",
+        "Deleted": false,
+        "Rank": 535,
+        "Type": "numquam",
+        "ColorBlock": 67,
+        "IconHint": "laborum",
         "Selected": true,
-        "LastChanged": "2021-03-30T17:37:18.1942445+02:00",
+        "LastChanged": "2002-12-31T14:19:03.6238736+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Alexie Lemke V",
+        "FullName": "Muriel Cummerata",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 453
+            "FieldType": "System.String",
+            "FieldLength": 387
           }
         }
       }
     ],
-    "ExtraInfo": "laborum",
-    "StyleHint": "necessitatibus",
+    "ExtraInfo": "facilis",
+    "StyleHint": "repellat",
     "Hidden": true,
-    "FullName": "Deion Braun",
+    "FullName": "Emiliano Leannon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 587
+        "FieldType": "System.String",
+        "FieldLength": 508
       }
     }
   }

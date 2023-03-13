@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "cust_config"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# cust\_config Table (473)
+# cust\_config Table (476)
 
 This table contains JSON structures used for customizing the customer center
 

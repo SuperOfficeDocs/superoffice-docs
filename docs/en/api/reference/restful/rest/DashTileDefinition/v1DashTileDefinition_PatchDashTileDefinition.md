@@ -125,18 +125,18 @@ DashTileDefinition  updated.
 PATCH /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "repellendus",
+    "path": "labore",
     "value": {}
   },
   {
     "op": "add",
-    "path": "repellendus",
+    "path": "labore",
     "value": {}
   }
 ]
@@ -149,31 +149,31 @@ HTTP/1.1 200 DashTileDefinition  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 590,
-  "Name": "Rodriguez, Beier and Mraz",
-  "Description": "Adaptive didactic policy",
-  "DefaultHeight": 289,
-  "DefaultWidth": 733,
+  "DashboardTileDefinitionId": 662,
+  "Name": "Ratke-Bernhard",
+  "Description": "Visionary methodical contingency",
+  "DefaultHeight": 735,
+  "DefaultWidth": 141,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Cassin, Bradtke and Schaden",
-  "SelectionId": 464,
+  "EntityName": "Lakin-Lakin",
+  "SelectionId": 945,
   "CurrencyMode": "Base",
-  "CurrencyCode": "deleniti",
+  "CurrencyCode": "et",
   "Measure": "Average",
-  "MeasureField": "recusandae",
-  "SortBy": "minus",
-  "LayoutConfig": "et",
-  "SecondarySelectionId": 214,
-  "MeasureByField": "ab",
+  "MeasureField": "nisi",
+  "SortBy": "hic",
+  "LayoutConfig": "possimus",
+  "SecondarySelectionId": 817,
+  "MeasureByField": "voluptas",
   "Usage": "Dashboard",
-  "ProviderName": "Hamill, Schroeder and Kunde",
+  "ProviderName": "Wunsch LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 107
+      "FieldType": "System.Int32",
+      "FieldLength": 296
     }
   },
   "_Links": {

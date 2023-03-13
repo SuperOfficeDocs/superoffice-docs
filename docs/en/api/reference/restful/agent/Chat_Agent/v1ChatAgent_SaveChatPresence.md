@@ -69,23 +69,23 @@ Content-Type: application/json; charset=utf-8
 {
   "ChatPresence": [
     {
-      "UserId": 657,
-      "DisplayName": "Marquardt LLC",
-      "OngoingChats": 142,
+      "UserId": 870,
+      "DisplayName": "Vandervort, Gorczany and Langworth",
+      "OngoingChats": 720,
       "Present": false,
       "ChatTopics": [
-        695,
-        114
+        887,
+        247
       ]
     },
     {
-      "UserId": 657,
-      "DisplayName": "Marquardt LLC",
-      "OngoingChats": 142,
+      "UserId": 870,
+      "DisplayName": "Vandervort, Gorczany and Langworth",
+      "OngoingChats": 720,
       "Present": false,
       "ChatTopics": [
-        695,
-        114
+        887,
+        247
       ]
     }
   ]

@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services85/Proje
 
 Handled by the <see cref="T:SuperOffice.Services85.IProjectAgent">SuperOffice.Services85.IProjectAgent</see> interface.
 
-Interface for the Project Agent
-Collection of all services that works with Project data.
+
 
 Download [WSDL file for Services85/Project](../Services85-Project.md) if you need to generate your own proxy code.
 
@@ -64,3 +63,4 @@ Download [WSDL file for Services85/Project](../Services85-Project.md) if you nee
 * [SetDuplicateRulesStatus](SetDuplicateRulesStatus.md)
 * [SetProjectImage](SetProjectImage.md)
 * [UpdateProjectMember](UpdateProjectMember.md)
+

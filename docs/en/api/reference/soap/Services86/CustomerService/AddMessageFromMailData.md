@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.ICustomerServiceAgent.Add
 
 ## AddMessageFromMailData
 
-This method will add a message to an existing request in the sam way as importMail would do it from an email. It accepts RFC822 formatted data
 
-* **ticketId:** The id of the ticket to add a message
-* **data:** RFC822 formatted data to import as a message
 
-**Returns:** An object containing some meta data for the ticket
+
 
 [WSDL file for Services86/CustomerService](../Services86-CustomerService.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## AddMessageFromMailData Response
 
 ```xml
@@ -80,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

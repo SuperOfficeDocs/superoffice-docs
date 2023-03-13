@@ -103,7 +103,7 @@ OK
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -113,52 +113,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "dicta",
-  "PersonId": 991,
-  "Mrmrs": "officia",
-  "Firstname": "Maximillian",
-  "Lastname": "Oberbrunner",
-  "MiddleName": "Hartmann-Tillman",
-  "Title": "corrupti",
-  "Description": "Function-based impactful workforce",
-  "Email": "price_gottlieb@hartmann.info",
-  "FullName": "Margaret Brakus",
-  "DirectPhone": "473-106-2419",
-  "FormalName": "Dickinson-Oberbrunner",
-  "CountryId": 155,
-  "ContactId": 894,
-  "ContactName": "Lueilwitz-McGlynn",
-  "Retired": 634,
-  "Rank": 752,
-  "ActiveInterests": 396,
+  "Position": "tenetur",
+  "PersonId": 352,
+  "Mrmrs": "ut",
+  "Firstname": "Izabella",
+  "Lastname": "Herman",
+  "MiddleName": "Lynch Inc and Sons",
+  "Title": "et",
+  "Description": "Robust cohesive interface",
+  "Email": "linwood.conn@kundecronin.ca",
+  "FullName": "Dr. Blake Blaise Nader",
+  "DirectPhone": "1-338-512-8118",
+  "FormalName": "Yundt-Von",
+  "CountryId": 733,
+  "ContactId": 784,
+  "ContactName": "Welch-Toy",
+  "Retired": 962,
+  "Rank": 736,
+  "ActiveInterests": 21,
   "ContactDepartment": "",
-  "ContactCountryId": 378,
-  "ContactOrgNr": "955081",
-  "FaxPhone": "259-286-3658",
-  "MobilePhone": "1-823-419-4604 x411",
-  "ContactPhone": "617-964-6186 x663",
-  "AssociateName": "Waelchi-Turcotte",
-  "AssociateId": 501,
-  "UsePersonAddress": true,
-  "ContactFax": "repudiandae",
-  "Kanafname": "omnis",
-  "Kanalname": "et",
-  "Post1": "sed",
-  "Post2": "officia",
-  "Post3": "molestiae",
-  "EmailName": "arely.weimann@carter.co.uk",
-  "ContactFullName": "Prof. Joey Keagan Thompson",
-  "ActiveErpLinks": 647,
-  "TicketPriorityId": 704,
-  "SupportLanguageId": 259,
-  "SupportAssociateId": 658,
+  "ContactCountryId": 462,
+  "ContactOrgNr": "194080",
+  "FaxPhone": "612.887.7776 x1549",
+  "MobilePhone": "1-158-714-3937",
+  "ContactPhone": "(864)782-0238 x6891",
+  "AssociateName": "Johnston-Keebler",
+  "AssociateId": 369,
+  "UsePersonAddress": false,
+  "ContactFax": "sint",
+  "Kanafname": "aliquid",
+  "Kanalname": "vel",
+  "Post1": "ab",
+  "Post2": "dolores",
+  "Post3": "pariatur",
+  "EmailName": "kamron.dach@stark.biz",
+  "ContactFullName": "Sanford Wolff III",
+  "ActiveErpLinks": 839,
+  "TicketPriorityId": 340,
+  "SupportLanguageId": 824,
+  "SupportAssociateId": 304,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 965
+      "FieldType": "System.String",
+      "FieldLength": 844
     }
   }
 }

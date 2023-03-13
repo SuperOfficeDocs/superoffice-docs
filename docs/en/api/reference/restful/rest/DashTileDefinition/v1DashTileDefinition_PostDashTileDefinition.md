@@ -111,29 +111,29 @@ OK
 POST /api/v1/DashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 175,
-  "Name": "Kuhn, Pacocha and Kozey",
-  "Description": "Distributed contextually-based initiative",
-  "DefaultHeight": 123,
-  "DefaultWidth": 84,
+  "DashboardTileDefinitionId": 887,
+  "Name": "Braun, Nicolas and Toy",
+  "Description": "Organized attitude-oriented migration",
+  "DefaultHeight": 843,
+  "DefaultWidth": 885,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Koss, Ondricka and Glover",
-  "SelectionId": 210,
+  "EntityName": "Kuhn, Boehm and Yost",
+  "SelectionId": 411,
   "CurrencyMode": "Base",
-  "CurrencyCode": "facere",
+  "CurrencyCode": "explicabo",
   "Measure": "Average",
-  "MeasureField": "consequatur",
-  "SortBy": "ut",
-  "LayoutConfig": "modi",
-  "SecondarySelectionId": 669,
-  "MeasureByField": "culpa",
+  "MeasureField": "facere",
+  "SortBy": "libero",
+  "LayoutConfig": "tempore",
+  "SecondarySelectionId": 950,
+  "MeasureByField": "neque",
   "Usage": "Dashboard",
-  "ProviderName": "Langosh, Botsford and Schinner"
+  "ProviderName": "Schaden Group"
 }
 ```
 
@@ -144,31 +144,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 205,
-  "Name": "Schulist, Rohan and Homenick",
-  "Description": "Customer-focused secondary leverage",
-  "DefaultHeight": 842,
-  "DefaultWidth": 399,
+  "DashboardTileDefinitionId": 901,
+  "Name": "Mueller-Hilpert",
+  "Description": "Fully-configurable client-server interface",
+  "DefaultHeight": 209,
+  "DefaultWidth": 193,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Ryan, Daugherty and Bernier",
-  "SelectionId": 224,
+  "EntityName": "Balistreri-Waters",
+  "SelectionId": 912,
   "CurrencyMode": "Base",
-  "CurrencyCode": "ullam",
+  "CurrencyCode": "illo",
   "Measure": "Average",
-  "MeasureField": "corporis",
-  "SortBy": "sunt",
-  "LayoutConfig": "placeat",
-  "SecondarySelectionId": 890,
-  "MeasureByField": "consequuntur",
+  "MeasureField": "adipisci",
+  "SortBy": "culpa",
+  "LayoutConfig": "laborum",
+  "SecondarySelectionId": 783,
+  "MeasureByField": "est",
   "Usage": "Dashboard",
-  "ProviderName": "Nicolas, Hane and Collier",
+  "ProviderName": "Fadel, Armstrong and Ebert",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 346
+      "FieldLength": 75
     }
   },
   "_Links": {

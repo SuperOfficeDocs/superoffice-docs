@@ -70,22 +70,22 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Little-Schiller",
+  "ProviderName": "Beer, Hirthe and Champlin",
   "Restrictions": [
     {
-      "Name": "Wehner, Wiza and Barton",
-      "Operator": "aspernatur",
+      "Name": "Krajcik-Gaylord",
+      "Operator": "et",
       "Values": [
-        "fugiat",
-        "vel"
+        "praesentium",
+        "rerum"
       ],
       "DisplayValues": [
-        "cupiditate",
-        "sequi"
+        "architecto",
+        "deserunt"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,9 +93,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 953,
+      "InterParenthesis": 505,
       "InterOperator": "And",
-      "UniqueHash": 258
+      "UniqueHash": 844
     }
   ]
 }
@@ -108,7 +108,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  796,
-  5
+  465,
+  481
 ]
 ```

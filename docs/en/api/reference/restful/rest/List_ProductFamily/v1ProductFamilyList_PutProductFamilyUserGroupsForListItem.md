@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 571,
-    "Name": "Herman Group",
-    "ToolTip": "Repellat animi cupiditate magnam praesentium.",
+    "Id": 594,
+    "Name": "Rogahn, Streich and Haag",
+    "ToolTip": "Aliquam unde corrupti similique est molestiae.",
     "Deleted": false,
-    "Rank": 733,
-    "Type": "in",
-    "ColorBlock": 259,
-    "IconHint": "nihil",
-    "Selected": true,
-    "LastChanged": "2018-10-16T17:37:40.1615006+02:00",
+    "Rank": 665,
+    "Type": "quia",
+    "ColorBlock": 635,
+    "IconHint": "esse",
+    "Selected": false,
+    "LastChanged": "2007-09-19T14:19:11.3680268+02:00",
     "ChildItems": [
       {
-        "Id": 766,
-        "Name": "Robel LLC",
-        "ToolTip": "Sit temporibus.",
+        "Id": 969,
+        "Name": "Lynch LLC",
+        "ToolTip": "Maxime quod et qui laboriosam dolore sequi.",
         "Deleted": false,
-        "Rank": 506,
-        "Type": "qui",
-        "ColorBlock": 471,
+        "Rank": 514,
+        "Type": "neque",
+        "ColorBlock": 163,
         "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2003-02-20T17:37:40.1615006+01:00",
+        "Selected": true,
+        "LastChanged": "2003-11-17T14:19:11.3680268+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "mollitia",
-        "Hidden": true,
-        "FullName": "Johathan Gutmann"
+        "ExtraInfo": "tempora",
+        "StyleHint": "ab",
+        "Hidden": false,
+        "FullName": "Dr. Rickie Welch II"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "voluptates",
-    "Hidden": true,
-    "FullName": "Pamela Pollich"
+    "ExtraInfo": "in",
+    "StyleHint": "quis",
+    "Hidden": false,
+    "FullName": "Jerel Edwin Ankunding PhD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 106,
-    "Name": "Kub Group",
-    "ToolTip": "Omnis voluptates aperiam.",
-    "Deleted": false,
-    "Rank": 355,
-    "Type": "totam",
-    "ColorBlock": 731,
-    "IconHint": "tempore",
-    "Selected": false,
-    "LastChanged": "1998-12-23T17:37:40.1625052+01:00",
+    "Id": 604,
+    "Name": "Ullrich Inc and Sons",
+    "ToolTip": "Placeat qui.",
+    "Deleted": true,
+    "Rank": 309,
+    "Type": "deleniti",
+    "ColorBlock": 876,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2018-09-05T14:19:11.3680268+02:00",
     "ChildItems": [
       {
-        "Id": 70,
-        "Name": "Moore, Feest and Erdman",
-        "ToolTip": "Vel accusamus doloribus voluptas rem et.",
-        "Deleted": true,
-        "Rank": 522,
-        "Type": "voluptas",
-        "ColorBlock": 108,
-        "IconHint": "vitae",
-        "Selected": true,
-        "LastChanged": "1997-01-16T17:37:40.1635004+01:00",
+        "Id": 403,
+        "Name": "Haley-Johns",
+        "ToolTip": "Modi et incidunt dolore.",
+        "Deleted": false,
+        "Rank": 339,
+        "Type": "corrupti",
+        "ColorBlock": 730,
+        "IconHint": "saepe",
+        "Selected": false,
+        "LastChanged": "1996-02-11T14:19:11.3680268+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "vel",
+        "ExtraInfo": "sint",
+        "StyleHint": "cum",
         "Hidden": false,
-        "FullName": "Prof. Solon Grimes",
+        "FullName": "Liana Weber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 128
+            "FieldType": "System.String",
+            "FieldLength": 642
           }
         }
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "dolores",
-    "Hidden": false,
-    "FullName": "Flo Bashirian",
+    "ExtraInfo": "quo",
+    "StyleHint": "quis",
+    "Hidden": true,
+    "FullName": "Hudson Howell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 739
+        "FieldLength": 201
       }
     }
   }

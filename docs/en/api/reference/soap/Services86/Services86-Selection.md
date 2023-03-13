@@ -2873,349 +2873,199 @@ title: Services86.SelectionAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Selection">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Selection</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultMailMergeSettings">
-      <wsdl:documentation>
-        <summary>Loading default values into a new MailMergeSettings.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateDefaultMailMergeSettings" name="CreateDefaultMailMergeSettingsRequest" message="tns:CreateDefaultMailMergeSettingsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateDefaultMailMergeSettingsResponse" name="CreateDefaultMailMergeSettingsResponse" message="tns:CreateDefaultMailMergeSettingsResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultMailMergeTask">
-      <wsdl:documentation>
-        <summary>Loading default values into a new MailMergeTask.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateDefaultMailMergeTask" name="CreateDefaultMailMergeTaskRequest" message="tns:CreateDefaultMailMergeTaskRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateDefaultMailMergeTaskResponse" name="CreateDefaultMailMergeTaskResponse" message="tns:CreateDefaultMailMergeTaskResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultSelectionEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new SelectionEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateDefaultSelectionEntity" name="CreateDefaultSelectionEntityRequest" message="tns:CreateDefaultSelectionEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateDefaultSelectionEntityResponse" name="CreateDefaultSelectionEntityResponse" message="tns:CreateDefaultSelectionEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveSelectionEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing SelectionEntity or creates a new SelectionEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/SaveSelectionEntity" name="SaveSelectionEntityRequest" message="tns:SaveSelectionEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/SaveSelectionEntityResponse" name="SaveSelectionEntityResponse" message="tns:SaveSelectionEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteSelectionEntity">
-      <wsdl:documentation>
-        <summary>Deletes the SelectionEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/DeleteSelectionEntity" name="DeleteSelectionEntityRequest" message="tns:DeleteSelectionEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/DeleteSelectionEntityResponse" name="DeleteSelectionEntityResponse" message="tns:DeleteSelectionEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSelectionEntity">
-      <wsdl:documentation>
-        <summary>Gets a SelectionEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/GetSelectionEntity" name="GetSelectionEntityRequest" message="tns:GetSelectionEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/GetSelectionEntityResponse" name="GetSelectionEntityResponse" message="tns:GetSelectionEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateContactSelectionFromSelection">
-      <wsdl:documentation>
-        <summary>Creates a new selection based on selection members from an existing selection.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateContactSelectionFromSelection" name="CreateContactSelectionFromSelectionRequest" message="tns:CreateContactSelectionFromSelectionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateContactSelectionFromSelectionResponse" name="CreateContactSelectionFromSelectionResponse" message="tns:CreateContactSelectionFromSelectionResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateTemporaryContactSelectionFromContactPersonIds">
-      <wsdl:documentation>
-        <summary>Creates a temporary selection with members from a collection of ContactPerson id's.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateTemporaryContactSelectionFromContactPersonIds" name="CreateTemporaryContactSelectionFromContactPersonIdsRequest" message="tns:CreateTemporaryContactSelectionFromContactPersonIdsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateTemporaryContactSelectionFromContactPersonIdsResponse" name="CreateTemporaryContactSelectionFromContactPersonIdsResponse" message="tns:CreateTemporaryContactSelectionFromContactPersonIdsResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateTemporaryContactSelectionFromProjectMembers">
-      <wsdl:documentation>
-        <summary>Creates a temporary selection with members from an existing project.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateTemporaryContactSelectionFromProjectMembers" name="CreateTemporaryContactSelectionFromProjectMembersRequest" message="tns:CreateTemporaryContactSelectionFromProjectMembersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateTemporaryContactSelectionFromProjectMembersResponse" name="CreateTemporaryContactSelectionFromProjectMembersResponse" message="tns:CreateTemporaryContactSelectionFromProjectMembersResponse" />
     </wsdl:operation>
     <wsdl:operation name="CopyContactSelectionMembers">
-      <wsdl:documentation>
-        <summary>Copy contact selection members from selection into an existing selection.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CopyContactSelectionMembers" name="CopyContactSelectionMembersRequest" message="tns:CopyContactSelectionMembersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CopyContactSelectionMembersResponse" name="CopyContactSelectionMembersResponse" message="tns:CopyContactSelectionMembersResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetRecipientStatistics">
-      <wsdl:documentation>
-        <summary>Returns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/GetRecipientStatistics" name="GetRecipientStatisticsRequest" message="tns:GetRecipientStatisticsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/GetRecipientStatisticsResponse" name="GetRecipientStatisticsResponse" message="tns:GetRecipientStatisticsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetRecipientStatisticsFromProjectMembers">
-      <wsdl:documentation>
-        <summary>Returns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses based on members in a project.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/GetRecipientStatisticsFromProjectMembers" name="GetRecipientStatisticsFromProjectMembersRequest" message="tns:GetRecipientStatisticsFromProjectMembersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/GetRecipientStatisticsFromProjectMembersResponse" name="GetRecipientStatisticsFromProjectMembersResponse" message="tns:GetRecipientStatisticsFromProjectMembersResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetRecipientStatisticsFromContactPersonIds">
-      <wsdl:documentation>
-        <summary>Returns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses based on contact and persons in a collection of ContactPersonId.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/GetRecipientStatisticsFromContactPersonIds" name="GetRecipientStatisticsFromContactPersonIdsRequest" message="tns:GetRecipientStatisticsFromContactPersonIdsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/GetRecipientStatisticsFromContactPersonIdsResponse" name="GetRecipientStatisticsFromContactPersonIdsResponse" message="tns:GetRecipientStatisticsFromContactPersonIdsResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddContactSelectionMembers">
-      <wsdl:documentation>
-        <summary>Adds the collection of ContactPersonId as members to the static selection</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/AddContactSelectionMembers" name="AddContactSelectionMembersRequest" message="tns:AddContactSelectionMembersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/AddContactSelectionMembersResponse" name="AddContactSelectionMembersResponse" message="tns:AddContactSelectionMembersResponse" />
     </wsdl:operation>
     <wsdl:operation name="RemoveContactSelectionMembers">
-      <wsdl:documentation>
-        <summary>Removes members from the selection as  specified in the collection of ContactPersonId.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/RemoveContactSelectionMembers" name="RemoveContactSelectionMembersRequest" message="tns:RemoveContactSelectionMembersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/RemoveContactSelectionMembersResponse" name="RemoveContactSelectionMembersResponse" message="tns:RemoveContactSelectionMembersResponse" />
     </wsdl:operation>
     <wsdl:operation name="RemoveContactSelectionMembersFromIds">
-      <wsdl:documentation>
-        <summary>Removes members from the selection using a collection a selectionmember id's. Members can only be removed from single selection.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/RemoveContactSelectionMembersFromIds" name="RemoveContactSelectionMembersFromIdsRequest" message="tns:RemoveContactSelectionMembersFromIdsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/RemoveContactSelectionMembersFromIdsResponse" name="RemoveContactSelectionMembersFromIdsResponse" message="tns:RemoveContactSelectionMembersFromIdsResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddContactSelectionMembersFromSearch">
-      <wsdl:documentation>
-        <summary>Adds members to the selection from the search result.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/AddContactSelectionMembersFromSearch" name="AddContactSelectionMembersFromSearchRequest" message="tns:AddContactSelectionMembersFromSearchRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/AddContactSelectionMembersFromSearchResponse" name="AddContactSelectionMembersFromSearchResponse" message="tns:AddContactSelectionMembersFromSearchResponse" />
     </wsdl:operation>
     <wsdl:operation name="RemoveContactSelectionMembersFromSearch">
-      <wsdl:documentation>
-        <summary>Removes members from the selection using the search result.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/RemoveContactSelectionMembersFromSearch" name="RemoveContactSelectionMembersFromSearchRequest" message="tns:RemoveContactSelectionMembersFromSearchRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/RemoveContactSelectionMembersFromSearchResponse" name="RemoveContactSelectionMembersFromSearchResponse" message="tns:RemoveContactSelectionMembersFromSearchResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateTemporaryContactSelection">
-      <wsdl:documentation>
-        <summary>Creates a temporary selection.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateTemporaryContactSelection" name="CreateTemporaryContactSelectionRequest" message="tns:CreateTemporaryContactSelectionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateTemporaryContactSelectionResponse" name="CreateTemporaryContactSelectionResponse" message="tns:CreateTemporaryContactSelectionResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateTemporaryContactSelectionFromSelectionMemberIds">
-      <wsdl:documentation>
-        <summary>Creates a temporary selection with members from a collection of selectionmember id's.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds" name="CreateTemporaryContactSelectionFromSelectionMemberIdsRequest" message="tns:CreateTemporaryContactSelectionFromSelectionMemberIdsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateTemporaryContactSelectionFromSelectionMemberIdsResponse" name="CreateTemporaryContactSelectionFromSelectionMemberIdsResponse" message="tns:CreateTemporaryContactSelectionFromSelectionMemberIdsResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddRemoveContactSelectionMemberInterests">
-      <wsdl:documentation>
-        <summary>Adds or removes interests on companies and persons in a selection.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/AddRemoveContactSelectionMemberInterests" name="AddRemoveContactSelectionMemberInterestsRequest" message="tns:AddRemoveContactSelectionMemberInterestsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/AddRemoveContactSelectionMemberInterestsResponse" name="AddRemoveContactSelectionMemberInterestsResponse" message="tns:AddRemoveContactSelectionMemberInterestsResponse" />
     </wsdl:operation>
     <wsdl:operation name="EditContactSelectionMemberDetails">
-      <wsdl:documentation>
-        <summary>Edit company and contact details in a selection based on contents in selectionMemberEditValues.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/EditContactSelectionMemberDetails" name="EditContactSelectionMemberDetailsRequest" message="tns:EditContactSelectionMemberDetailsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/EditContactSelectionMemberDetailsResponse" name="EditContactSelectionMemberDetailsResponse" message="tns:EditContactSelectionMemberDetailsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GenerateFollowUps">
-      <wsdl:documentation>
-        <summary>Generate follow-ups for members in the selection.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/GenerateFollowUps" name="GenerateFollowUpsRequest" message="tns:GenerateFollowUpsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/GenerateFollowUpsResponse" name="GenerateFollowUpsResponse" message="tns:GenerateFollowUpsResponse" />
     </wsdl:operation>
     <wsdl:operation name="ExportSelectionMembers">
-      <wsdl:documentation>
-        <summary>ExportSelectionMembers will generate a string that is the result of substituting the template variables with values from selectionmembers.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/ExportSelectionMembers" name="ExportSelectionMembersRequest" message="tns:ExportSelectionMembersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/ExportSelectionMembersResponse" name="ExportSelectionMembersResponse" message="tns:ExportSelectionMembersResponse" />
     </wsdl:operation>
     <wsdl:operation name="ExportSelectionMembersWithOrderBy">
-      <wsdl:documentation>
-        <summary>ExportSelectionMembers will generate a string that is the result of substituting the template variables with values from selectionmembers.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/ExportSelectionMembersWithOrderBy" name="ExportSelectionMembersWithOrderByRequest" message="tns:ExportSelectionMembersWithOrderByRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/ExportSelectionMembersWithOrderByResponse" name="ExportSelectionMembersWithOrderByResponse" message="tns:ExportSelectionMembersWithOrderByResponse" />
     </wsdl:operation>
     <wsdl:operation name="StartMailMerge">
-      <wsdl:documentation>
-        <summary>Start a mailmerge operation with specified settings.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/StartMailMerge" name="StartMailMergeRequest" message="tns:StartMailMergeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/StartMailMergeResponse" name="StartMailMergeResponse" message="tns:StartMailMergeResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetDuplicateRulesStatus">
-      <wsdl:documentation>
-        <summary>Set which duplicate rules should be active or not</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/SetDuplicateRulesStatus" name="SetDuplicateRulesStatusRequest" message="tns:SetDuplicateRulesStatusRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/SetDuplicateRulesStatusResponse" name="SetDuplicateRulesStatusResponse" message="tns:SetDuplicateRulesStatusResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDuplicates">
-      <wsdl:documentation>
-        <summary>Get duplicates(exact or similar in the database) based on the name</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/GetDuplicates" name="GetDuplicatesRequest" message="tns:GetDuplicatesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/GetDuplicatesResponse" name="GetDuplicatesResponse" message="tns:GetDuplicatesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDuplicateRules">
-      <wsdl:documentation>
-        <summary>Retrieve all available duplicate rules for selection</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/GetDuplicateRules" name="GetDuplicateRulesRequest" message="tns:GetDuplicateRulesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/GetDuplicateRulesResponse" name="GetDuplicateRulesResponse" message="tns:GetDuplicateRulesResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateNewEntry">
-      <wsdl:documentation>
-        <summary>Creates a new selection based on external duplicate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateNewEntry" name="CreateNewEntryRequest" message="tns:CreateNewEntryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateNewEntryResponse" name="CreateNewEntryResponse" message="tns:CreateNewEntryResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteContacts">
-      <wsdl:documentation>
-        <summary>Deletes all contacts from a selection. If a contact does not have delete rights, it will be skipped.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/DeleteContacts" name="DeleteContactsRequest" message="tns:DeleteContactsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/DeleteContactsResponse" name="DeleteContactsResponse" message="tns:DeleteContactsResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddSelectionMembers">
-      <wsdl:documentation>
-        <summary>Add selection members to a static selection of type others than contacts.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/AddSelectionMembers" name="AddSelectionMembersRequest" message="tns:AddSelectionMembersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/AddSelectionMembersResponse" name="AddSelectionMembersResponse" message="tns:AddSelectionMembersResponse" />
     </wsdl:operation>
     <wsdl:operation name="RemoveSelectionMembers">
-      <wsdl:documentation>
-        <summary>Removes members from the selection as  specified in the collection of entity ids. The ids are selection member ids (selection member primary key)</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/RemoveSelectionMembers" name="RemoveSelectionMembersRequest" message="tns:RemoveSelectionMembersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/RemoveSelectionMembersResponse" name="RemoveSelectionMembersResponse" message="tns:RemoveSelectionMembersResponse" />
     </wsdl:operation>
     <wsdl:operation name="RemoveSelectionMembersById">
-      <wsdl:documentation>
-        <summary>Removes members from the selection as specified in the collection of entity ids. The ids can be a collection of sale ids, or other supported types.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/RemoveSelectionMembersById" name="RemoveSelectionMembersByIdRequest" message="tns:RemoveSelectionMembersByIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/RemoveSelectionMembersByIdResponse" name="RemoveSelectionMembersByIdResponse" message="tns:RemoveSelectionMembersByIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddSelectionMembersFromSearch">
-      <wsdl:documentation>
-        <summary>Adds members from the selection using the search result.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/AddSelectionMembersFromSearch" name="AddSelectionMembersFromSearchRequest" message="tns:AddSelectionMembersFromSearchRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/AddSelectionMembersFromSearchResponse" name="AddSelectionMembersFromSearchResponse" message="tns:AddSelectionMembersFromSearchResponse" />
     </wsdl:operation>
     <wsdl:operation name="RemoveSelectionMembersFromSearch">
-      <wsdl:documentation>
-        <summary>Removes members from the selection using the search result.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/RemoveSelectionMembersFromSearch" name="RemoveSelectionMembersFromSearchRequest" message="tns:RemoveSelectionMembersFromSearchRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/RemoveSelectionMembersFromSearchResponse" name="RemoveSelectionMembersFromSearchResponse" message="tns:RemoveSelectionMembersFromSearchResponse" />
     </wsdl:operation>
     <wsdl:operation name="CopySelectionMembers">
-      <wsdl:documentation>
-        <summary>Copy selection members from selection into an existing selection.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CopySelectionMembers" name="CopySelectionMembersRequest" message="tns:CopySelectionMembersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CopySelectionMembersResponse" name="CopySelectionMembersResponse" message="tns:CopySelectionMembersResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateTemporarySelectionFromIds">
-      <wsdl:documentation>
-        <summary>Creates a temporary selection with members from a collection of entity id's.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateTemporarySelectionFromIds" name="CreateTemporarySelectionFromIdsRequest" message="tns:CreateTemporarySelectionFromIdsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateTemporarySelectionFromIdsResponse" name="CreateTemporarySelectionFromIdsResponse" message="tns:CreateTemporarySelectionFromIdsResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateSelectionFromSelection">
-      <wsdl:documentation>
-        <summary>Creates a new selection based on selection members from an existing selection.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateSelectionFromSelection" name="CreateSelectionFromSelectionRequest" message="tns:CreateSelectionFromSelectionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateSelectionFromSelectionResponse" name="CreateSelectionFromSelectionResponse" message="tns:CreateSelectionFromSelectionResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateContactSelectionFromShadowSelection">
-      <wsdl:documentation>
-        <summary>Creates a new contact selection based on contact selection members from an existing shadow sale, appointment, project or document selection. The new selection will always be static even if the original selection is dynamic.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateContactSelectionFromShadowSelection" name="CreateContactSelectionFromShadowSelectionRequest" message="tns:CreateContactSelectionFromShadowSelectionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/CreateContactSelectionFromShadowSelectionResponse" name="CreateContactSelectionFromShadowSelectionResponse" message="tns:CreateContactSelectionFromShadowSelectionResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteEntities">
-      <wsdl:documentation>
-        <summary>Deletes all entities from a selection. If an entity does not have delete rights, it will be skipped.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/DeleteEntities" name="DeleteEntitiesRequest" message="tns:DeleteEntitiesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/DeleteEntitiesResponse" name="DeleteEntitiesResponse" message="tns:DeleteEntitiesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetParentCombinedSelections">
-      <wsdl:documentation>
-        <summary>Get a list of all selection ids where the given selection is used to create a combined selection.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/GetParentCombinedSelections" name="GetParentCombinedSelectionsRequest" message="tns:GetParentCombinedSelectionsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/GetParentCombinedSelectionsResponse" name="GetParentCombinedSelectionsResponse" message="tns:GetParentCombinedSelectionsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSelectionMembersArchiveRows">
-      <wsdl:documentation>
-        <summary>Get the list of members in this selection. The type of members depends on the target table of the selection.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/GetSelectionMembersArchiveRows" name="GetSelectionMembersArchiveRowsRequest" message="tns:GetSelectionMembersArchiveRowsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/GetSelectionMembersArchiveRowsResponse" name="GetSelectionMembersArchiveRowsResponse" message="tns:GetSelectionMembersArchiveRowsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSelectionShadowMembersArchiveRows">
-      <wsdl:documentation>
-        <summary>Get the list of members in this selection's shadow (i.e. the list of contacts + persons referenced in the main selection).</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/GetSelectionShadowMembersArchiveRows" name="GetSelectionShadowMembersArchiveRowsRequest" message="tns:GetSelectionShadowMembersArchiveRowsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/GetSelectionShadowMembersArchiveRowsResponse" name="GetSelectionShadowMembersArchiveRowsResponse" message="tns:GetSelectionShadowMembersArchiveRowsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDynamicSelectionCriteria">
-      <wsdl:documentation>
-        <summary>Get the criteria for this dynamic selection.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/GetDynamicSelectionCriteria" name="GetDynamicSelectionCriteriaRequest" message="tns:GetDynamicSelectionCriteriaRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/GetDynamicSelectionCriteriaResponse" name="GetDynamicSelectionCriteriaResponse" message="tns:GetDynamicSelectionCriteriaResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetDynamicSelectionCriteria">
-      <wsdl:documentation>
-        <summary>Update the criteria for this dynamic selection. Replaces existing criteria with the new values.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/SetDynamicSelectionCriteria" name="SetDynamicSelectionCriteriaRequest" message="tns:SetDynamicSelectionCriteriaRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/SetDynamicSelectionCriteriaResponse" name="SetDynamicSelectionCriteriaResponse" message="tns:SetDynamicSelectionCriteriaResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetDynamicSelectionCriteria2">
-      <wsdl:documentation>
-        <summary>Update the criteria for this dynamic selection using string. Criteria are parsed from the OData filter form: ''name startswith 'foo' and category in (1,2,3)''</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/SetDynamicSelectionCriteria2" name="SetDynamicSelectionCriteria2Request" message="tns:SetDynamicSelectionCriteria2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/SetDynamicSelectionCriteria2Response" name="SetDynamicSelectionCriteria2Response" message="tns:SetDynamicSelectionCriteria2Response" />
     </wsdl:operation>
     <wsdl:operation name="SetDynamicSelectionCriteria3">
-      <wsdl:documentation>
-        <summary>Update the criteria for this dynamic selection. Use criteria as either restriction objects or OData string format. Criteria are parsed from the OData filter form: ''name startswith 'foo' and category in (1,2,3)''</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/SetDynamicSelectionCriteria3" name="SetDynamicSelectionCriteria3Request" message="tns:SetDynamicSelectionCriteria3Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/SetDynamicSelectionCriteria3Response" name="SetDynamicSelectionCriteria3Response" message="tns:SetDynamicSelectionCriteria3Response" />
     </wsdl:operation>
     <wsdl:operation name="DeletePersons">
-      <wsdl:documentation>
-        <summary>Deletes all persons from a selection. If a person does not have delete rights, it will be skipped.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/DeletePersons" name="DeletePersonsRequest" message="tns:DeletePersonsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Selection/DeletePersonsResponse" name="DeletePersonsResponse" message="tns:DeletePersonsResponse" />
     </wsdl:operation>
@@ -4014,3 +3864,4 @@ title: Services86.SelectionAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

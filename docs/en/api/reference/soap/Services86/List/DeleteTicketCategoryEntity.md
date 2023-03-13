@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.DeleteTicketCa
 
 ## DeleteTicketCategoryEntity
 
-Deletes the TicketCategoryEntity
 
-* **ticketCategoryEntityId:** The identity of the TicketCategoryEntity
+
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteTicketCategoryEntity Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

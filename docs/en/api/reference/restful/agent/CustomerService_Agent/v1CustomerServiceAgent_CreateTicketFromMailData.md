@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/CustomerService/CreateTicketFromMailData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailboxId": 877,
-  "Data": "doloribus"
+  "MailboxId": 68,
+  "Data": "quaerat"
 }
 ```
 
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 608,
-  "Title": "eos",
-  "OwnerName": "Konopelski, Konopelski and Lang",
+  "TicketId": 107,
+  "Title": "rerum",
+  "OwnerName": "Volkman-Padberg",
   "CategoryName": "VIP Customer",
-  "PriorityName": "Wilderman, Wyman and Abbott",
+  "PriorityName": "Conn, Jaskolski and Dooley",
   "TicketUrl": "http://www.example.com/",
-  "PersonName": "Dietrich-Strosin",
-  "ContactName": "Lakin-Kilback",
+  "PersonName": "Feil, Murphy and Runte",
+  "ContactName": "Ankunding LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 999
+      "FieldType": "System.Int32",
+      "FieldLength": 170
     }
   }
 }

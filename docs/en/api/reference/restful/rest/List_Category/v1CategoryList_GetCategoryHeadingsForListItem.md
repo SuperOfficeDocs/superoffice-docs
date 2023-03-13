@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 781,
-    "Name": "Swaniawski-Ernser",
-    "ToolTip": "Cumque et ut qui et.",
+    "Id": 269,
+    "Name": "Feeney, Block and Kreiger",
+    "ToolTip": "In rem perferendis ad incidunt quia sit nostrum.",
     "Deleted": false,
-    "Rank": 83,
-    "Type": "accusantium",
-    "ColorBlock": 963,
-    "IconHint": "culpa",
-    "Selected": false,
-    "LastChanged": "2000-12-10T17:37:39.6804312+01:00",
+    "Rank": 536,
+    "Type": "impedit",
+    "ColorBlock": 669,
+    "IconHint": "ducimus",
+    "Selected": true,
+    "LastChanged": "2023-01-04T14:19:11.1480931+01:00",
     "ChildItems": [
       {
-        "Id": 82,
-        "Name": "Cassin Inc and Sons",
-        "ToolTip": "Enim accusamus libero qui blanditiis aut porro.",
+        "Id": 733,
+        "Name": "Heidenreich, Stamm and Wolff",
+        "ToolTip": "Est minima ipsum quia incidunt eveniet.",
         "Deleted": false,
-        "Rank": 964,
-        "Type": "omnis",
-        "ColorBlock": 981,
-        "IconHint": "deserunt",
-        "Selected": false,
-        "LastChanged": "2009-08-24T17:37:39.6804312+02:00",
+        "Rank": 250,
+        "Type": "nihil",
+        "ColorBlock": 361,
+        "IconHint": "ipsam",
+        "Selected": true,
+        "LastChanged": "2002-05-28T14:19:11.1480931+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "labore",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Sofia Gay Windler Sr.",
+        "FullName": "Adolf Dach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 382
+            "FieldType": "System.Int32",
+            "FieldLength": 672
           }
         }
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "in",
+    "ExtraInfo": "delectus",
+    "StyleHint": "deserunt",
     "Hidden": false,
-    "FullName": "Raquel Okuneva II",
+    "FullName": "London Meredith Kirlin MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 369
+        "FieldLength": 315
       }
     }
   }

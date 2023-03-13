@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IConfigurationAgent.SaveW
 
 ## SaveWindowPosSizes
 
-Saves a set of window and dialog position and size settings.
 
-* **windowPosSizes:** The items that are saved
 
-**Returns:** The saved items
+
 
 [WSDL file for Services84/Configuration](../Services84-Configuration.md)
 
@@ -63,6 +61,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveWindowPosSizes Response
 
 ```xml
@@ -97,3 +96,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

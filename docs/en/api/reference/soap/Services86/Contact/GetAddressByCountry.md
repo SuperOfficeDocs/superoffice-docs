@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IContactAgent.GetAddressB
 
 ## GetAddressByCountry
 
-Gets the contact's localized address.
 
-* **contactId:** The contact id
-* **countryId:**
 
-**Returns:** The address as LocalizedField[][].
+
 
 [WSDL file for Services86/Contact](../Services86-Contact.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetAddressByCountry Response
 
@@ -106,3 +104,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

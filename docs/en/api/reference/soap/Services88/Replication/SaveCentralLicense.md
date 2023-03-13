@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IReplicationAgent.SaveCen
 
 ## SaveCentralLicense
 
-<para /><b>Online Restricted:</b> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
 
-* **license:**
+
+
 
 [WSDL file for Services88/Replication](../Services88-Replication.md)
 
@@ -88,6 +88,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveCentralLicense Response
 
 ```xml
@@ -149,3 +150,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

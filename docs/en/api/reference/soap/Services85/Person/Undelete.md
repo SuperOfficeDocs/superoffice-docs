@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IPersonAgent.Undelete">Su
 
 ## Undelete
 
-This entity supports Soft Delete. Call this method to Undelete a previously soft-deleted record
 
-* **id:** The primary key of the entity to undelete
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services85/Person](../Services85-Person.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## Undelete Response
 
 ```xml
@@ -68,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

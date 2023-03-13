@@ -11,15 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.ConnectActo
 
 ## ConnectActor
 
-Create a link between Erp and Crm and set default values
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
-* **erpConnectionId:** ErpConnectionId
-* **crmRecordId:** CrmRecordId
-* **crmActorType:** The Crm Actor type
-* **erpKey:**
-* **erpActorType:** The Erp Actor type
-* **fieldValues:** The Crm Fields
+
+
 
 [WSDL file for Services86/ErpSync](../Services86-ErpSync.md)
 
@@ -67,6 +61,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ConnectActor Response
 
 ```xml
@@ -86,3 +81,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

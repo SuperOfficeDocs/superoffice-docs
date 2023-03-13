@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 487,
-    "Name": "Rolfson Inc and Sons",
-    "ToolTip": "Non ex occaecati sed unde dolorum.",
-    "Deleted": true,
-    "Rank": 845,
-    "Type": "dolor",
-    "ColorBlock": 960,
-    "IconHint": "vel",
-    "Selected": true,
-    "LastChanged": "2018-03-05T17:37:39.9814709+01:00",
+    "Id": 700,
+    "Name": "Jewess-Schultz",
+    "ToolTip": "Dolor enim.",
+    "Deleted": false,
+    "Rank": 542,
+    "Type": "numquam",
+    "ColorBlock": 532,
+    "IconHint": "perferendis",
+    "Selected": false,
+    "LastChanged": "1996-03-02T14:19:11.2262177+01:00",
     "ChildItems": [
       {
-        "Id": 121,
-        "Name": "Thompson-Mueller",
-        "ToolTip": "Aut omnis et et.",
-        "Deleted": true,
-        "Rank": 952,
-        "Type": "accusantium",
-        "ColorBlock": 462,
-        "IconHint": "eius",
+        "Id": 55,
+        "Name": "Wolff LLC",
+        "ToolTip": "Tempora vitae consequatur perspiciatis eaque aspernatur.",
+        "Deleted": false,
+        "Rank": 345,
+        "Type": "fugiat",
+        "ColorBlock": 590,
+        "IconHint": "unde",
         "Selected": true,
-        "LastChanged": "2013-01-21T17:37:39.9814709+01:00",
+        "LastChanged": "2003-07-12T14:19:11.2262177+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "cumque",
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "voluptates",
         "Hidden": false,
-        "FullName": "Lera Olaf Nienow Sr."
+        "FullName": "Mrs. Lelah Russel"
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "culpa",
+    "ExtraInfo": "est",
+    "StyleHint": "aperiam",
     "Hidden": true,
-    "FullName": "Amani O'Conner"
+    "FullName": "Zack Ferry I"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 592,
-    "Name": "Reynolds Inc and Sons",
-    "ToolTip": "Consequuntur perferendis vero quidem explicabo et.",
-    "Deleted": false,
-    "Rank": 622,
-    "Type": "fugit",
-    "ColorBlock": 10,
-    "IconHint": "repellat",
-    "Selected": true,
-    "LastChanged": "1997-07-06T17:37:39.9834715+02:00",
+    "Id": 765,
+    "Name": "Kuphal Inc and Sons",
+    "ToolTip": "Dolor sit molestiae.",
+    "Deleted": true,
+    "Rank": 692,
+    "Type": "impedit",
+    "ColorBlock": 531,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2008-09-12T14:19:11.2262177+02:00",
     "ChildItems": [
       {
-        "Id": 104,
-        "Name": "Oberbrunner, Hahn and Hamill",
-        "ToolTip": "Animi temporibus et cum possimus.",
+        "Id": 504,
+        "Name": "Lowe Group",
+        "ToolTip": "Quaerat natus similique occaecati delectus molestiae maxime.",
         "Deleted": false,
-        "Rank": 535,
-        "Type": "doloremque",
-        "ColorBlock": 812,
-        "IconHint": "sed",
+        "Rank": 853,
+        "Type": "nobis",
+        "ColorBlock": 239,
+        "IconHint": "asperiores",
         "Selected": true,
-        "LastChanged": "2014-05-13T17:37:39.9834715+02:00",
+        "LastChanged": "2021-03-18T14:19:11.2262177+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "voluptatum",
+        "ExtraInfo": "cum",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Mrs. Damion Kuhn",
+        "FullName": "Abbie Britney Cormier II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 663
+            "FieldLength": 378
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "quia",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "libero",
     "Hidden": false,
-    "FullName": "Mr. Alberta Nikita Breitenberg II",
+    "FullName": "Darron Deckow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 975
+        "FieldType": "System.String",
+        "FieldLength": 938
       }
     }
   }

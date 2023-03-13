@@ -72,7 +72,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,28 +80,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 26 Oct 2002 17:37:38 G10T
+Last-Modified: Wed, 07 Jan 1998 14:19:10 G1T
 
 {
-  "BlobId": 502,
-  "BlobSize": 363,
-  "Description": "Networked bottom-line hierarchy",
-  "ExtraInfo": "corporis",
+  "BlobId": 281,
+  "BlobSize": 879,
+  "Description": "Reduced encompassing alliance",
+  "ExtraInfo": "non",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 782,
-  "CreatedDate": "2001-07-27T17:37:38.9642753+02:00",
-  "UpdatedDate": "2002-10-26T17:37:38.9642753+02:00",
+  "MimeType": "eos",
+  "OriginalSize": 915,
+  "CreatedDate": "2009-07-01T14:19:10.4748485+02:00",
+  "UpdatedDate": "1998-01-07T14:19:10.4748485+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "expedita",
+  "ConceptualType": "commodi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 712
+      "FieldLength": 672
     }
   }
 }

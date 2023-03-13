@@ -25,7 +25,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=503
+POST /api/v1/Agents/Person/GetPerson?personId=957
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,52 +115,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "eum",
-  "PersonId": 756,
-  "Mrmrs": "pariatur",
-  "Firstname": "Christopher",
-  "Lastname": "Ryan",
-  "MiddleName": "Donnelly Inc and Sons",
-  "Title": "ea",
-  "Description": "Integrated regional support",
-  "Email": "ignatius.moen@orncronin.co.uk",
-  "FullName": "Dianna Crona V",
-  "DirectPhone": "634.100.2206",
-  "FormalName": "Hessel Group",
-  "CountryId": 689,
-  "ContactId": 281,
-  "ContactName": "Connelly, Marquardt and Weimann",
-  "Retired": 583,
-  "Rank": 966,
-  "ActiveInterests": 446,
-  "ContactDepartment": "enhance one-to-one e-commerce",
-  "ContactCountryId": 712,
-  "ContactOrgNr": "1326157",
-  "FaxPhone": "(613)195-9697 x2374",
-  "MobilePhone": "1-937-674-4039 x6177",
-  "ContactPhone": "742-023-9886 x6460",
-  "AssociateName": "Breitenberg, Stroman and Howell",
-  "AssociateId": 757,
+  "Position": "ut",
+  "PersonId": 839,
+  "Mrmrs": "adipisci",
+  "Firstname": "Santina",
+  "Lastname": "Kohler",
+  "MiddleName": "Lockman LLC",
+  "Title": "distinctio",
+  "Description": "Fully-configurable optimal hardware",
+  "Email": "rosario_hammes@orn.co.uk",
+  "FullName": "Hazle Toy",
+  "DirectPhone": "1-136-804-0377 x9264",
+  "FormalName": "Murray Group",
+  "CountryId": 924,
+  "ContactId": 832,
+  "ContactName": "Trantow-Rempel",
+  "Retired": 369,
+  "Rank": 363,
+  "ActiveInterests": 977,
+  "ContactDepartment": "",
+  "ContactCountryId": 319,
+  "ContactOrgNr": "1616432",
+  "FaxPhone": "018.764.2694 x0915",
+  "MobilePhone": "(794)381-6872 x34346",
+  "ContactPhone": "1-134-222-1939 x597",
+  "AssociateName": "Howell Group",
+  "AssociateId": 31,
   "UsePersonAddress": false,
-  "ContactFax": "labore",
-  "Kanafname": "explicabo",
-  "Kanalname": "ad",
-  "Post1": "in",
-  "Post2": "molestias",
-  "Post3": "cupiditate",
-  "EmailName": "trace@mann.name",
-  "ContactFullName": "Savannah Bradtke",
-  "ActiveErpLinks": 429,
-  "TicketPriorityId": 199,
-  "SupportLanguageId": 598,
-  "SupportAssociateId": 225,
+  "ContactFax": "dolor",
+  "Kanafname": "a",
+  "Kanalname": "est",
+  "Post1": "voluptas",
+  "Post2": "accusantium",
+  "Post3": "sit",
+  "EmailName": "camila@batz.biz",
+  "ContactFullName": "Eugene Altenwerth",
+  "ActiveErpLinks": 637,
+  "TicketPriorityId": 563,
+  "SupportLanguageId": 819,
+  "SupportAssociateId": 976,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 134
+      "FieldLength": 437
     }
   }
 }

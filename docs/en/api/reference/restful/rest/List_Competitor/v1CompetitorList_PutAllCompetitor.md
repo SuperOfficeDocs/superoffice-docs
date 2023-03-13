@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 747,
-    "Name": "Dickinson-Herzog",
-    "Tooltip": "in",
-    "Deleted": false,
-    "UdListDefinitionId": 896,
-    "Rank": 784
+    "Id": 294,
+    "Name": "Boyle-Marks",
+    "Tooltip": "itaque",
+    "Deleted": true,
+    "UdListDefinitionId": 30,
+    "Rank": 966
   },
   {
-    "Id": 747,
-    "Name": "Dickinson-Herzog",
-    "Tooltip": "in",
-    "Deleted": false,
-    "UdListDefinitionId": 896,
-    "Rank": 784
+    "Id": 294,
+    "Name": "Boyle-Marks",
+    "Tooltip": "itaque",
+    "Deleted": true,
+    "UdListDefinitionId": 30,
+    "Rank": 966
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 584,
-    "Name": "Keebler Inc and Sons",
-    "Tooltip": "laudantium",
-    "Deleted": false,
-    "UdListDefinitionId": 761,
-    "Rank": 64,
+    "Id": 449,
+    "Name": "Will LLC",
+    "Tooltip": "eum",
+    "Deleted": true,
+    "UdListDefinitionId": 755,
+    "Rank": 499,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 646
+        "FieldType": "System.Int32",
+        "FieldLength": 363
       }
     }
   }

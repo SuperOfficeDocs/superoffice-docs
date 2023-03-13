@@ -87,15 +87,15 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 987,
-  "Name": "Jast, Schumm and Treutel",
-  "Tooltip": "et",
+  "Id": 384,
+  "Name": "Zieme, Rath and Hickle",
+  "Tooltip": "commodi",
   "Deleted": false,
-  "Rank": 329,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 132,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "et",
+  "ListType": "eos",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 960,
-  "Name": "Lebsack, Lynch and Stokes",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 361,
+  "Id": 945,
+  "Name": "Konopelski LLC",
+  "Tooltip": "in",
+  "Deleted": true,
+  "Rank": 557,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptatibus",
+  "UseGroupsAndHeadings": false,
+  "ListType": "consequuntur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 307
+      "FieldLength": 293
     }
   }
 }

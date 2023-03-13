@@ -11,14 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IConfigurationAgent.GetAn
 
 ## GetAnyConfiguration
 
-Get one defined configuration fragment, with full reference resolution and parsing applied. This is essentially the same service as the GetPageConfiguration, except that this service is not locked to objects of type Page.
 
-* **application:** The application name, for instance Six.Web
-* **instance:** The instance name, for instance Main
-* **item:** The configuration item name (first component of file name)
-* **type:** The configuration item type (second component of file name)
 
-**Returns:** Fully resolved and parsed configuration XML, as string.
+
 
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
@@ -55,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAnyConfiguration Response
 
 ```xml
@@ -75,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

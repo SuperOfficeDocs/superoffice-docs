@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IBLOBAgent.GetBlobStream"
 
 ## GetBlobStream
 
-Get the binary object as a stream
 
-* **blobEntityId:** The ID of the BLOB entity object that refers to the binary data
 
-**Returns:** The binary object as a Stream
+
 
 [WSDL file for Services88/BLOB](../Services88-BLOB.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetBlobStream Response
 
 ```xml
@@ -67,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

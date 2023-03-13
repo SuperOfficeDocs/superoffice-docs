@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services85/Find.
 
 Handled by the <see cref="T:SuperOffice.Services85.IFindAgent">SuperOffice.Services85.IFindAgent</see> interface.
 
-Interface for the Find Agent
-Find functions
+
 
 Download [WSDL file for Services85/Find](../Services85-Find.md) if you need to generate your own proxy code.
 
@@ -44,3 +43,4 @@ Download [WSDL file for Services85/Find](../Services85-Find.md) if you need to g
 * [SaveRestrictionsAndGetCriteriaInformation2](SaveRestrictionsAndGetCriteriaInformation2.md)
 * [SaveRestrictionsWithContext](SaveRestrictionsWithContext.md)
 * [SaveRestrictionsWithContext2](SaveRestrictionsWithContext2.md)
+

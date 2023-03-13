@@ -104,31 +104,31 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 293,
-  "Name": "Stiedemann Group",
-  "Tooltip": "quae",
-  "Deleted": false,
-  "Rank": 742,
+  "WebPanelId": 192,
+  "Name": "Hintz-Batz",
+  "Tooltip": "eos",
+  "Deleted": true,
+  "Rank": 424,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
+  "OnCentral": false,
+  "OnSatellite": false,
   "OnTravel": true,
   "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Macejkovic, Jakubowski and Vandervort",
+  "WindowName": "Schaden Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "molestiae",
-  "Icon": 255,
-  "AlwaysReloadOnShow": true
+  "ProgId": "suscipit",
+  "Icon": 787,
+  "AlwaysReloadOnShow": false
 }
 ```
 
@@ -139,33 +139,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 512,
-  "Name": "Greenholt-Halvorson",
-  "Tooltip": "autem",
+  "WebPanelId": 955,
+  "Name": "Dooley LLC",
+  "Tooltip": "sequi",
   "Deleted": false,
-  "Rank": 516,
+  "Rank": 605,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Kling Inc and Sons",
+  "WindowName": "Macejkovic-Cummerata",
   "Url": "http://www.example.com/",
-  "ProgId": "aperiam",
-  "Icon": 844,
+  "ProgId": "est",
+  "Icon": 82,
   "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldLength": 391
     }
   }
 }

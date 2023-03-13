@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.DeleteProjectS
 
 ## DeleteProjectStatus
 
-Deletes a project status
 
-* **projectStatusId:** The project status id to delete
 
-**Returns:** No return
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteProjectStatus Response
 
 ```xml
@@ -68,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

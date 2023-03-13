@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 921,
-    "Name": "Gaylord Inc and Sons",
-    "ToolTip": "Ipsa est.",
+    "Id": 638,
+    "Name": "Corwin, Jewess and Gaylord",
+    "ToolTip": "Voluptatem in ut soluta ut corrupti fugit cupiditate.",
     "Deleted": false,
-    "Rank": 449,
-    "Type": "maiores",
-    "ColorBlock": 692,
-    "IconHint": "a",
-    "Selected": false,
-    "LastChanged": "2006-07-02T17:37:19.5469767+02:00",
+    "Rank": 399,
+    "Type": "culpa",
+    "ColorBlock": 350,
+    "IconHint": "tempora",
+    "Selected": true,
+    "LastChanged": "2003-01-23T14:19:04.5797015+01:00",
     "ChildItems": [
       {
-        "Id": 413,
-        "Name": "Weissnat-Miller",
-        "ToolTip": "Aut sed asperiores.",
+        "Id": 227,
+        "Name": "Reichel, Thompson and Runolfsdottir",
+        "ToolTip": "Ut non natus dolor ipsa repellat est.",
         "Deleted": false,
-        "Rank": 991,
-        "Type": "laudantium",
-        "ColorBlock": 427,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "2016-10-12T17:37:19.5469767+02:00",
+        "Rank": 418,
+        "Type": "ut",
+        "ColorBlock": 737,
+        "IconHint": "cumque",
+        "Selected": false,
+        "LastChanged": "2005-04-13T14:19:04.5797015+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "totam",
-        "Hidden": false,
-        "FullName": "Kelli Hessel",
+        "ExtraInfo": "in",
+        "StyleHint": "corrupti",
+        "Hidden": true,
+        "FullName": "Mr. Chanel Lesley Gottlieb",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 538
+            "FieldType": "System.String",
+            "FieldLength": 89
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "ullam",
     "Hidden": false,
-    "FullName": "Dale Larkin",
+    "FullName": "Dr. Nathaniel Horacio Will I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 584
+        "FieldLength": 697
       }
     }
   }

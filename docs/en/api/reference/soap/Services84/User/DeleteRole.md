@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.DeleteRole">Su
 
 ## DeleteRole
 
-Delete the specified role and move all users associated with the role to the replacingRoleId
 
-* **roleIdToDelete:** The roleId to delete
-* **replacingRoleId:** The roleId which all associated users will be moved to.
+
+
 
 [WSDL file for Services84/User](../Services84-User.md)
 
@@ -49,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteRole Response
 
 ```xml
@@ -68,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

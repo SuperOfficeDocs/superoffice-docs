@@ -65,46 +65,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 568,
-      "ColumnId": 608,
-      "FieldDefault": "et",
-      "FieldHeight": 662,
-      "FieldLabel": "rem",
-      "FieldLeft": 62,
-      "FieldTop": 528,
+      "UDefFieldId": 713,
+      "ColumnId": 471,
+      "FieldDefault": "doloribus",
+      "FieldHeight": 110,
+      "FieldLabel": "in",
+      "FieldLeft": 887,
+      "FieldTop": 280,
       "FieldType": "Checkbox",
-      "FieldWidth": 529,
-      "FormatMask": "incidunt",
-      "HideLabel": true,
+      "FieldWidth": 741,
+      "FormatMask": "facere",
+      "HideLabel": false,
       "IsIndexed": false,
-      "LabelHeight": 350,
-      "LabelLeft": 533,
-      "LabelTop": 351,
-      "LabelWidth": 675,
-      "LastVersionId": 85,
-      "ListTableId": 450,
-      "IsMandatory": false,
+      "LabelHeight": 75,
+      "LabelLeft": 982,
+      "LabelTop": 41,
+      "LabelWidth": 999,
+      "LastVersionId": 474,
+      "ListTableId": 990,
+      "IsMandatory": true,
       "Type": "Appointment",
-      "Page1LineNo": 502,
-      "ProgId": "soluta",
+      "Page1LineNo": 513,
+      "ProgId": "aut",
       "IsReadOnly": false,
-      "ShortLabel": "non",
-      "TabOrder": 534,
-      "TextLength": 835,
-      "Tooltip": "repellat",
-      "UdefIdentity": 828,
-      "UDListDefinitionId": 923,
+      "ShortLabel": "est",
+      "TabOrder": 835,
+      "TextLength": 234,
+      "Tooltip": "corrupti",
+      "UdefIdentity": 254,
+      "UDListDefinitionId": 373,
       "Justification": "Center",
-      "Version": 718,
-      "TemplateVariableName": "Russel Inc and Sons",
-      "HasBeenPublished": false,
-      "MdoListName": "Schuster Inc and Sons"
+      "Version": 251,
+      "TemplateVariableName": "Herzog, Kertzmann and Wuckert",
+      "HasBeenPublished": true,
+      "MdoListName": "Bosco-Blick"
     }
   ]
 }

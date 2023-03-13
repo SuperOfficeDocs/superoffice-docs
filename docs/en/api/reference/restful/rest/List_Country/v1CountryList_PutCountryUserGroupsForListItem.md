@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 379,
-    "Name": "Fisher Inc and Sons",
-    "ToolTip": "Quidem sed voluptas.",
+    "Id": 889,
+    "Name": "Langosh-Maggio",
+    "ToolTip": "Earum repellendus.",
     "Deleted": true,
-    "Rank": 146,
-    "Type": "consequuntur",
-    "ColorBlock": 852,
-    "IconHint": "cum",
+    "Rank": 81,
+    "Type": "iure",
+    "ColorBlock": 304,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "1998-02-22T17:37:39.9285007+01:00",
+    "LastChanged": "2000-04-29T14:19:11.1949684+02:00",
     "ChildItems": [
       {
-        "Id": 453,
-        "Name": "Klein LLC",
-        "ToolTip": "Culpa harum ducimus id.",
-        "Deleted": true,
-        "Rank": 781,
-        "Type": "eum",
-        "ColorBlock": 945,
-        "IconHint": "et",
+        "Id": 840,
+        "Name": "Frami-Jenkins",
+        "ToolTip": "Quam repellat.",
+        "Deleted": false,
+        "Rank": 948,
+        "Type": "laudantium",
+        "ColorBlock": 966,
+        "IconHint": "ipsum",
         "Selected": false,
-        "LastChanged": "2019-03-30T17:37:39.9285007+01:00",
+        "LastChanged": "2007-09-21T14:19:11.1949684+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "esse",
-        "Hidden": true,
-        "FullName": "Dr. Verdie Deon Reichert PhD"
+        "ExtraInfo": "molestiae",
+        "StyleHint": "totam",
+        "Hidden": false,
+        "FullName": "Mrs. Dejuan Stamm"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "sit",
+    "ExtraInfo": "et",
+    "StyleHint": "officiis",
     "Hidden": false,
-    "FullName": "Reese McKenzie DDS"
+    "FullName": "Prof. Javonte Cole II"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 551,
-    "Name": "Doyle Group",
-    "ToolTip": "Sunt saepe recusandae.",
+    "Id": 588,
+    "Name": "Lynch, Wiegand and Bechtelar",
+    "ToolTip": "Vel fuga voluptas.",
     "Deleted": false,
-    "Rank": 198,
-    "Type": "et",
-    "ColorBlock": 292,
-    "IconHint": "numquam",
-    "Selected": false,
-    "LastChanged": "1998-03-15T17:37:39.929502+01:00",
+    "Rank": 335,
+    "Type": "incidunt",
+    "ColorBlock": 639,
+    "IconHint": "facilis",
+    "Selected": true,
+    "LastChanged": "2005-01-24T14:19:11.1949684+01:00",
     "ChildItems": [
       {
-        "Id": 417,
-        "Name": "Kunde, Senger and Torphy",
-        "ToolTip": "Rerum voluptas quasi quas expedita.",
+        "Id": 885,
+        "Name": "Hyatt, Corkery and Brown",
+        "ToolTip": "Sit est.",
         "Deleted": false,
-        "Rank": 855,
-        "Type": "ut",
-        "ColorBlock": 281,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2009-09-23T17:37:39.929502+02:00",
+        "Rank": 332,
+        "Type": "rerum",
+        "ColorBlock": 979,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2005-03-25T14:19:11.1949684+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "maxime",
+        "ExtraInfo": "non",
+        "StyleHint": "quaerat",
         "Hidden": true,
-        "FullName": "Ms. Theron Renner Sr.",
+        "FullName": "Amara Cassin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 909
+            "FieldType": "System.String",
+            "FieldLength": 371
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "explicabo",
-    "Hidden": false,
-    "FullName": "Marley Mohr",
+    "ExtraInfo": "a",
+    "StyleHint": "eum",
+    "Hidden": true,
+    "FullName": "Prof. Greyson Rutherford PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 454
+        "FieldLength": 413
       }
     }
   }

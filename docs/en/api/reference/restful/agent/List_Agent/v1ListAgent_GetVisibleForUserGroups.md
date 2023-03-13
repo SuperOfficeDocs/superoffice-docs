@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 274,
-  "ListItemId": 650
+  "UdListDefinitionId": 253,
+  "ListItemId": 475
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 333,
-    "Name": "Bogan-Johnson",
-    "ToolTip": "Molestiae perferendis.",
+    "Id": 325,
+    "Name": "Stark-Fritsch",
+    "ToolTip": "Rerum cum similique asperiores officia placeat.",
     "Deleted": false,
-    "Rank": 301,
-    "Type": "vel",
-    "ColorBlock": 125,
-    "IconHint": "id",
-    "Selected": true,
-    "LastChanged": "2005-09-22T17:37:18.1922449+02:00",
+    "Rank": 735,
+    "Type": "rerum",
+    "ColorBlock": 357,
+    "IconHint": "vel",
+    "Selected": false,
+    "LastChanged": "2000-09-21T14:19:03.6238736+02:00",
     "ChildItems": [
       {
-        "Id": 424,
-        "Name": "Heller, Auer and Buckridge",
-        "ToolTip": "Magnam est.",
-        "Deleted": true,
-        "Rank": 926,
-        "Type": "natus",
-        "ColorBlock": 686,
-        "IconHint": "non",
-        "Selected": false,
-        "LastChanged": "2019-03-02T17:37:18.1932444+01:00",
+        "Id": 586,
+        "Name": "Block-Emard",
+        "ToolTip": "Similique vel ullam veritatis aut qui voluptatem quae.",
+        "Deleted": false,
+        "Rank": 660,
+        "Type": "doloribus",
+        "ColorBlock": 837,
+        "IconHint": "accusamus",
+        "Selected": true,
+        "LastChanged": "2006-09-10T14:19:03.6238736+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "aspernatur",
+        "ExtraInfo": "dolores",
+        "StyleHint": "tenetur",
         "Hidden": true,
-        "FullName": "Cody Hartmann",
+        "FullName": "Darrell Cronin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 639
+            "FieldType": "System.Int32",
+            "FieldLength": 837
           }
         }
       }
     ],
-    "ExtraInfo": "libero",
+    "ExtraInfo": "nihil",
     "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Haleigh Mary Harber Sr.",
+    "FullName": "Ms. Adelle Ericka Nitzsche",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 238
+        "FieldType": "System.String",
+        "FieldLength": 603
       }
     }
   }

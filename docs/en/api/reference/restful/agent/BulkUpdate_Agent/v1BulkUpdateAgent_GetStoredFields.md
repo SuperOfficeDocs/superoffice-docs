@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "contact",
-  "Context": "soluta"
+  "Tablename": "project",
+  "Context": "ut"
 }
 ```
 
@@ -104,76 +104,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
+    "CanSupportMultiUse": true,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
+    "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "dignissimos",
-    "ValueType": "accusantium",
+    "Key": "fugit",
+    "ValueType": "tempora",
     "Mandatory": false,
-    "EncodedDisplayName": "Labadie, Bins and Schiller",
-    "EncodedDisplayDescription": "Implemented attitude-oriented encryption",
-    "IconHint": "ipsam",
+    "EncodedDisplayName": "Rice Inc and Sons",
+    "EncodedDisplayDescription": "Compatible maximized task-force",
+    "IconHint": "temporibus",
     "ControlInfos": [
       {
-        "Type": "voluptate",
-        "Label": "sit",
-        "Dimension": 930,
-        "ListProviderName": "Hilll-Carroll",
-        "ListProviderExtraInfo": "autem",
-        "ListProviderPrimaryKeyName": "Waters LLC",
-        "ListLeadText": "eum",
+        "Type": "quibusdam",
+        "Label": "iste",
+        "Dimension": 477,
+        "ListProviderName": "Dicki, Hamill and Weissnat",
+        "ListProviderExtraInfo": "quo",
+        "ListProviderPrimaryKeyName": "Witting-Predovic",
+        "ListLeadText": "repudiandae",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 557
+            "FieldLength": 591
           }
         }
       }
     ],
-    "EncodedDataCaption": "ratione",
-    "EncodedDataCaptionDescription": "Stand-alone uniform extranet",
-    "CurrentOperationType": "optio",
+    "EncodedDataCaption": "dolore",
+    "EncodedDataCaptionDescription": "Optimized client-driven throughput",
+    "CurrentOperationType": "neque",
     "Values": [
-      "saepe",
-      "aut"
+      "nihil",
+      "eos"
     ],
     "DisplayValues": [
-      "illum",
-      "debitis"
+      "porro",
+      "consequatur"
     ],
     "OperationInfos": [
       {
-        "Key": "velit",
-        "EncodedDisplayName": "Koss, Schmidt and Harber",
+        "Key": "non",
+        "EncodedDisplayName": "Williamson-Bradtke",
         "EncodedLeadTexts": [
-          "placeat",
-          "optio"
+          "in",
+          "voluptas"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 667
+            "FieldType": "System.Int32",
+            "FieldLength": 649
           }
         }
       },
       {
-        "Key": "velit",
-        "EncodedDisplayName": "Koss, Schmidt and Harber",
+        "Key": "non",
+        "EncodedDisplayName": "Williamson-Bradtke",
         "EncodedLeadTexts": [
-          "placeat",
-          "optio"
+          "in",
+          "voluptas"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 667
+            "FieldType": "System.Int32",
+            "FieldLength": 649
           }
         }
       }

@@ -25,7 +25,7 @@ Gets a DocumentTemplate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplate?documentTemplateId=506
+POST /api/v1/Agents/List/GetDocumentTemplate?documentTemplateId=588
 POST /api/v1/Agents/List/GetDocumentTemplate?$select=name,department,category/id
 ```
 
@@ -86,23 +86,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 654,
-  "Name": "Gislason Inc and Sons",
-  "Tooltip": "iure",
-  "SaveInDb": 529,
-  "Filename": "architecto",
-  "DefaultOref": "non",
+  "DocumentTemplateId": 710,
+  "Name": "Rice, Reichel and Frami",
+  "Tooltip": "recusandae",
+  "SaveInDb": 572,
+  "Filename": "optio",
+  "DefaultOref": "eligendi",
   "RecordType": "Appointment",
-  "Deleted": 418,
+  "Deleted": 617,
   "Direction": "Incoming",
-  "AutoeventId": 511,
+  "AutoeventId": 364,
   "QuoteDocType": "ConfirmationLines",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 657
+      "FieldType": "System.Int32",
+      "FieldLength": 994
     }
   }
 }

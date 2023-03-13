@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 821,
-    "Name": "Hermiston, Boyle and Wilderman",
-    "Tooltip": "harum",
-    "Deleted": false,
-    "UdListDefinitionId": 941,
-    "Rank": 12
+    "Id": 152,
+    "Name": "Welch, Crona and Morissette",
+    "Tooltip": "tempore",
+    "Deleted": true,
+    "UdListDefinitionId": 576,
+    "Rank": 732
   },
   {
-    "Id": 821,
-    "Name": "Hermiston, Boyle and Wilderman",
-    "Tooltip": "harum",
-    "Deleted": false,
-    "UdListDefinitionId": 941,
-    "Rank": 12
+    "Id": 152,
+    "Name": "Welch, Crona and Morissette",
+    "Tooltip": "tempore",
+    "Deleted": true,
+    "UdListDefinitionId": 576,
+    "Rank": 732
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 452,
-    "Name": "Corwin, Stanton and Jast",
-    "Tooltip": "eius",
-    "Deleted": true,
-    "UdListDefinitionId": 438,
-    "Rank": 937,
+    "Id": 473,
+    "Name": "Boehm, Russel and Von",
+    "Tooltip": "eligendi",
+    "Deleted": false,
+    "UdListDefinitionId": 88,
+    "Rank": 432,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 426
+        "FieldType": "System.Int32",
+        "FieldLength": 853
       }
     }
   }

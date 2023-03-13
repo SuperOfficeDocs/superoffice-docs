@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IReportAgent.UpdateFavori
 
 ## UpdateFavorite
 
-Updates the favorite.
 
-* **reportEntity:** ReportEntity carrier containg updated data.
 
-**Returns:** The updated ReportEntity carrier.
+
 
 [WSDL file for Services88/Report](../Services88-Report.md)
 
@@ -58,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## UpdateFavorite Response
 
 ```xml
@@ -87,3 +86,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

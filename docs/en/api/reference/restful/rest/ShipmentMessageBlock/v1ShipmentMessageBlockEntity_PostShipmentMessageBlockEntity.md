@@ -89,18 +89,18 @@ OK
 POST /api/v1/ShipmentMessageBlock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 869,
-  "AssociateId": 993,
-  "Block": "cum",
-  "Registered": "2017-02-28T17:37:39.2233032+01:00",
-  "RegisteredAssociateId": 884,
-  "Updated": "2008-11-12T17:37:39.2233032+01:00",
-  "UpdatedAssociateId": 16,
-  "UpdatedCount": 771
+  "ShipmentMessageBlockId": 657,
+  "AssociateId": 455,
+  "Block": "quos",
+  "Registered": "2020-01-03T14:19:10.7873511+01:00",
+  "RegisteredAssociateId": 132,
+  "Updated": "2018-08-23T14:19:10.7873511+02:00",
+  "UpdatedAssociateId": 32,
+  "UpdatedCount": 215
 }
 ```
 
@@ -111,20 +111,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 16,
-  "AssociateId": 132,
-  "Block": "doloribus",
-  "Registered": "2020-07-15T17:37:39.2233032+02:00",
-  "RegisteredAssociateId": 554,
-  "Updated": "2000-07-15T17:37:39.2233032+02:00",
-  "UpdatedAssociateId": 270,
-  "UpdatedCount": 815,
+  "ShipmentMessageBlockId": 33,
+  "AssociateId": 756,
+  "Block": "vero",
+  "Registered": "2013-09-30T14:19:10.7873511+02:00",
+  "RegisteredAssociateId": 900,
+  "Updated": "2008-01-24T14:19:10.7873511+01:00",
+  "UpdatedAssociateId": 933,
+  "UpdatedCount": 160,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 436
+      "FieldType": "System.String",
+      "FieldLength": 306
     }
   },
   "_Links": {

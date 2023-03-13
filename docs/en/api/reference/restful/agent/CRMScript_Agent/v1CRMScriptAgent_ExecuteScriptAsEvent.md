@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 214,
+  "CRMScriptId": 122,
   "EventData": null
 }
 ```
@@ -104,28 +104,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "officia",
-    "InputValues2": "qui"
+    "InputValues1": "quibusdam",
+    "InputValues2": "neque"
   },
   "BlockExecution": false,
-  "NavigateTo": "ad",
-  "Message": "non",
-  "ShowDialog": "eius",
+  "NavigateTo": "est",
+  "Message": "et",
+  "ShowDialog": "esse",
   "OutputValues": {
-    "OutputValues1": "nobis",
-    "OutputValues2": "vel"
+    "OutputValues1": "dolor",
+    "OutputValues2": "fugiat"
   },
   "StateValues": {
-    "StateValues1": "commodi",
-    "StateValues2": "cumque"
+    "StateValues1": "omnis",
+    "StateValues2": "et"
   },
-  "Exception": "qui",
+  "Exception": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 772
+      "FieldType": "System.String",
+      "FieldLength": 190
     }
   }
 }

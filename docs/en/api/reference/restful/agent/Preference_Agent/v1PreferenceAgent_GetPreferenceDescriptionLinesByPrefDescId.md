@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 405
+  "PrefDescId": 979
 }
 ```
 
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 771,
-    "PrefDescId": 280,
-    "PrefValue": "iusto",
-    "PrefShowValue": "dolores",
-    "Description": "Ergonomic solution-oriented portal",
+    "PrefDescLineId": 745,
+    "PrefDescId": 585,
+    "PrefValue": "voluptatem",
+    "PrefShowValue": "molestias",
+    "Description": "Total dedicated complexity",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 32
+        "FieldType": "System.Int32",
+        "FieldLength": 442
       }
     }
   }

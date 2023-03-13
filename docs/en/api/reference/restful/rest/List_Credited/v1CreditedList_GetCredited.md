@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 592,
-  "Name": "Kunze-Daugherty",
-  "Tooltip": "sit",
+  "Id": 769,
+  "Name": "Wisoky-Ziemann",
+  "Tooltip": "sed",
   "Deleted": false,
-  "UdListDefinitionId": 781,
-  "Rank": 961,
+  "UdListDefinitionId": 245,
+  "Rank": 722,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 803
+      "FieldType": "System.Int32",
+      "FieldLength": 519
     }
   }
 }

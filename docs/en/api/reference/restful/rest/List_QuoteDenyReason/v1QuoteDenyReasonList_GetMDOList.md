@@ -25,8 +25,8 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=error
+GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=animi
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 567,
-    "Name": "O'Conner Group",
-    "ToolTip": "Fugit nihil facilis et rerum dicta.",
+    "Id": 821,
+    "Name": "Hodkiewicz-Bartoletti",
+    "ToolTip": "Provident aliquam.",
     "Deleted": false,
-    "Rank": 405,
-    "Type": "aliquid",
+    "Rank": 334,
+    "Type": "odit",
     "ChildItems": [
       {
-        "Id": 966,
-        "Name": "Casper, Mraz and Fisher",
-        "ToolTip": "Enim magni.",
-        "Deleted": false,
-        "Rank": 951,
-        "Type": "aut",
+        "Id": 788,
+        "Name": "Cronin-Nitzsche",
+        "ToolTip": "Repudiandae a qui.",
+        "Deleted": true,
+        "Rank": 397,
+        "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "occaecati",
-        "ColorBlock": 935,
-        "ExtraInfo": "quam",
-        "StyleHint": "mollitia",
-        "FullName": "Maia Rath",
+        "IconHint": "ab",
+        "ColorBlock": 278,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "id",
+        "FullName": "Narciso Casper",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 427
+            "FieldType": "System.String",
+            "FieldLength": 146
           }
         }
       }
     ],
-    "IconHint": "in",
-    "ColorBlock": 738,
-    "ExtraInfo": "fugiat",
-    "StyleHint": "nihil",
-    "FullName": "Dr. Isabelle Lera McDermott",
+    "IconHint": "eum",
+    "ColorBlock": 417,
+    "ExtraInfo": "nihil",
+    "StyleHint": "aut",
+    "FullName": "Dr. Romaine Elijah Swaniawski III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 882
+        "FieldLength": 168
       }
     }
   }

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashAgent.SaveDashTileDe
 
 ## SaveDashTileDefinition
 
-Updates the existing DashTileDefinition or creates a new DashTileDefinition if the id parameter is 0.
 
-* **dashTileDefinition:** The DashTileDefinition that is saved.
 
-**Returns:** New or updated DashTileDefinition
+
 
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
@@ -69,6 +67,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveDashTileDefinition Response
 
 ```xml
@@ -109,3 +108,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

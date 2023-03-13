@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IPreferenceAgent.UpdateNe
 
 ## UpdateNetServicesStatus
 
-Update the NetServices preferences with values contained in the content from the Status URL
 
-* **xml_or_json:** The text that was returned by getting the Status URL
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services86/Preference](../Services86-Preference.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## UpdateNetServicesStatus Response
 
 ```xml
@@ -68,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

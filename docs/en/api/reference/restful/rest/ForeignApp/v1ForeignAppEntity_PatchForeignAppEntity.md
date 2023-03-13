@@ -113,18 +113,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "enim",
+    "path": "ullam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "enim",
+    "path": "ullam",
     "value": {}
   }
 ]
@@ -137,29 +137,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 270,
-  "Name": "Okuneva Inc and Sons",
-  "CreatedDate": "2022-10-21T17:37:38.8088669+02:00",
-  "UpdatedDate": "2005-03-02T17:37:38.8088669+01:00",
+  "ForeignAppId": 973,
+  "Name": "Fadel Inc and Sons",
+  "CreatedDate": "2023-02-08T14:19:10.3498478+01:00",
+  "UpdatedDate": "1997-10-11T14:19:10.3498478+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 260,
-      "Name": "Schimmel-Langosh",
-      "CreatedDate": "2010-11-20T17:37:38.8098675+01:00",
-      "UpdatedDate": "2006-01-27T17:37:38.8098675+01:00",
-      "AssociateFullName": "Monte Luettgen",
-      "CreatedBy": "tempora",
-      "UpdatedBy": "neque",
-      "DeviceIdentifier": "laborum",
-      "ForeignAppId": 804,
+      "ForeignDeviceId": 792,
+      "Name": "Smitham Inc and Sons",
+      "CreatedDate": "2001-06-26T14:19:10.3498478+02:00",
+      "UpdatedDate": "1999-08-28T14:19:10.3498478+02:00",
+      "AssociateFullName": "Ewell Ortiz",
+      "CreatedBy": "inventore",
+      "UpdatedBy": "doloremque",
+      "DeviceIdentifier": "dicta",
+      "ForeignAppId": 107,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 219
+          "FieldLength": 753
         }
       }
     }
@@ -168,13 +168,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 314
+      "FieldType": "System.Int32",
+      "FieldLength": 97
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

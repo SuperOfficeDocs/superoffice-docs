@@ -483,62 +483,35 @@ title: Services84.FavouriteAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Favourite">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Favourite</summary>
-    </wsdl:documentation>
     <wsdl:operation name="IsFavourite">
-      <wsdl:documentation>
-        <summary>Checks if a record in a table is a favourite for an associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Favourite/IsFavourite" name="IsFavouriteRequest" message="tns:IsFavouriteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Favourite/IsFavouriteResponse" name="IsFavouriteResponse" message="tns:IsFavouriteResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddFavourite">
-      <wsdl:documentation>
-        <summary>Add a record in a table as a favourite for an associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Favourite/AddFavourite" name="AddFavouriteRequest" message="tns:AddFavouriteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Favourite/AddFavouriteResponse" name="AddFavouriteResponse" message="tns:AddFavouriteResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddFavourites">
-      <wsdl:documentation>
-        <summary>Add a list of record ids as favourites for an associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Favourite/AddFavourites" name="AddFavouritesRequest" message="tns:AddFavouritesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Favourite/AddFavouritesResponse" name="AddFavouritesResponse" message="tns:AddFavouritesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFavourites">
-      <wsdl:documentation>
-        <summary>Get all favourites for a table and associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Favourite/GetFavourites" name="GetFavouritesRequest" message="tns:GetFavouritesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Favourite/GetFavouritesResponse" name="GetFavouritesResponse" message="tns:GetFavouritesResponse" />
     </wsdl:operation>
     <wsdl:operation name="RemoveFavourite">
-      <wsdl:documentation>
-        <summary>Remove favourite for a table, record id and associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Favourite/RemoveFavourite" name="RemoveFavouriteRequest" message="tns:RemoveFavouriteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Favourite/RemoveFavouriteResponse" name="RemoveFavouriteResponse" message="tns:RemoveFavouriteResponse" />
     </wsdl:operation>
     <wsdl:operation name="RemoveAllFavourites">
-      <wsdl:documentation>
-        <summary>Remove all favourites for a table and associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Favourite/RemoveAllFavourites" name="RemoveAllFavouritesRequest" message="tns:RemoveAllFavouritesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Favourite/RemoveAllFavouritesResponse" name="RemoveAllFavouritesResponse" message="tns:RemoveAllFavouritesResponse" />
     </wsdl:operation>
     <wsdl:operation name="ToggleFavourite">
-      <wsdl:documentation>
-        <summary>Toggle a record in a table as a favourite for an associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Favourite/ToggleFavourite" name="ToggleFavouriteRequest" message="tns:ToggleFavouriteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Favourite/ToggleFavouriteResponse" name="ToggleFavouriteResponse" message="tns:ToggleFavouriteResponse" />
     </wsdl:operation>
     <wsdl:operation name="RemoveFavouritesById">
-      <wsdl:documentation>
-        <summary>Remove favourite using favourite id </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Favourite/RemoveFavouritesById" name="RemoveFavouritesByIdRequest" message="tns:RemoveFavouritesByIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Favourite/RemoveFavouritesByIdResponse" name="RemoveFavouritesByIdResponse" message="tns:RemoveFavouritesByIdResponse" />
     </wsdl:operation>
@@ -681,3 +654,4 @@ title: Services84.FavouriteAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

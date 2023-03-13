@@ -697,111 +697,63 @@ title: Services88.DiagnosticsAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Diagnostics">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Diagnostics</summary>
-    </wsdl:documentation>
     <wsdl:operation name="FlushCaches">
-      <wsdl:documentation>
-        <summary>Flushes all NetServer caches</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/FlushCaches" name="FlushCachesRequest" message="tns:FlushCachesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/FlushCachesResponse" name="FlushCachesResponse" message="tns:FlushCachesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCacheNames">
-      <wsdl:documentation>
-        <summary>Get the name of the caches that can be flushed</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetCacheNames" name="GetCacheNamesRequest" message="tns:GetCacheNamesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetCacheNamesResponse" name="GetCacheNamesResponse" message="tns:GetCacheNamesResponse" />
     </wsdl:operation>
     <wsdl:operation name="FlushCachesByName">
-      <wsdl:documentation>
-        <summary>Flushes all NetServer caches named</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/FlushCachesByName" name="FlushCachesByNameRequest" message="tns:FlushCachesByNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/FlushCachesByNameResponse" name="FlushCachesByNameResponse" message="tns:FlushCachesByNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCacheState">
-      <wsdl:documentation>
-        <summary>Get the current generation value of the named caches. State is opaque.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetCacheState" name="GetCacheStateRequest" message="tns:GetCacheStateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetCacheStateResponse" name="GetCacheStateResponse" message="tns:GetCacheStateResponse" />
     </wsdl:operation>
     <wsdl:operation name="LogViewState">
-      <wsdl:documentation>
-        <summary>Log a change in view state. The granularity of the logging depends on the current configuration. This call returns asynchronously, leaving the server to finish processing later on.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/LogViewState" name="LogViewStateRequest" message="tns:LogViewStateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/LogViewStateResponse" name="LogViewStateResponse" message="tns:LogViewStateResponse" />
     </wsdl:operation>
     <wsdl:operation name="ChangeLogSettings">
-      <wsdl:documentation>
-        <summary>Change NetServer log settings.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/ChangeLogSettings" name="ChangeLogSettingsRequest" message="tns:ChangeLogSettingsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/ChangeLogSettingsResponse" name="ChangeLogSettingsResponse" message="tns:ChangeLogSettingsResponse" />
     </wsdl:operation>
     <wsdl:operation name="CollectDataAdditions">
-      <wsdl:documentation>
-        <summary>Collect and transmit usage statistics: Database Additions. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/CollectDataAdditions" name="CollectDataAdditionsRequest" message="tns:CollectDataAdditionsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/CollectDataAdditionsResponse" name="CollectDataAdditionsResponse" message="tns:CollectDataAdditionsResponse" />
     </wsdl:operation>
     <wsdl:operation name="CollectWinUsage">
-      <wsdl:documentation>
-        <summary>Collect and transmit usage statistics: Windows CRM Client Usage. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/CollectWinUsage" name="CollectWinUsageRequest" message="tns:CollectWinUsageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/CollectWinUsageResponse" name="CollectWinUsageResponse" message="tns:CollectWinUsageResponse" />
     </wsdl:operation>
     <wsdl:operation name="CollectWebUsage">
-      <wsdl:documentation>
-        <summary>Collect and transmit usage statistics: Web-based clients Usage. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/CollectWebUsage" name="CollectWebUsageRequest" message="tns:CollectWebUsageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/CollectWebUsageResponse" name="CollectWebUsageResponse" message="tns:CollectWebUsageResponse" />
     </wsdl:operation>
     <wsdl:operation name="CollectTableSizes">
-      <wsdl:documentation>
-        <summary>Collect and transmit usage statistics: Table Sizes. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/CollectTableSizes" name="CollectTableSizesRequest" message="tns:CollectTableSizesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/CollectTableSizesResponse" name="CollectTableSizesResponse" message="tns:CollectTableSizesResponse" />
     </wsdl:operation>
     <wsdl:operation name="ResyncUsers">
-      <wsdl:documentation>
-        <summary>Resynchronize user information with SuperOffice Community, if opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/ResyncUsers" name="ResyncUsersRequest" message="tns:ResyncUsersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/ResyncUsersResponse" name="ResyncUsersResponse" message="tns:ResyncUsersResponse" />
     </wsdl:operation>
     <wsdl:operation name="PerformTasksAfterUpgrade">
-      <wsdl:documentation>
-        <summary>After upgrading to a new fileset, there may be tasks that need to be done. Examples - import new TypicalSearches, if present. Tasks performed here need to be idempotent and independent of the actual upgrade jump (what was the previous version). They should complete in a reasonable time, not more than a few minutes maximum.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/PerformTasksAfterUpgrade" name="PerformTasksAfterUpgradeRequest" message="tns:PerformTasksAfterUpgradeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/PerformTasksAfterUpgradeResponse" name="PerformTasksAfterUpgradeResponse" message="tns:PerformTasksAfterUpgradeResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddWebAppUsage">
-      <wsdl:documentation>
-        <summary>Adds WebApp usage to existing log</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/AddWebAppUsage" name="AddWebAppUsageRequest" message="tns:AddWebAppUsageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/AddWebAppUsageResponse" name="AddWebAppUsageResponse" message="tns:AddWebAppUsageResponse" />
     </wsdl:operation>
     <wsdl:operation name="WebAppUsageExistsInPeriod">
-      <wsdl:documentation>
-        <summary>Returns true if viewState has been clicked at least once since FromDate, if asscoiateId &lt; 0 or FromDate is DateTime.MinValue no restriction given for those parameters</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/WebAppUsageExistsInPeriod" name="WebAppUsageExistsInPeriodRequest" message="tns:WebAppUsageExistsInPeriodRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/WebAppUsageExistsInPeriodResponse" name="WebAppUsageExistsInPeriodResponse" message="tns:WebAppUsageExistsInPeriodResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetWebAppUsagesForPeriod">
-      <wsdl:documentation>
-        <summary>Get all WebAppUsages for a given period, that match an optional search term</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetWebAppUsagesForPeriod" name="GetWebAppUsagesForPeriodRequest" message="tns:GetWebAppUsagesForPeriodRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetWebAppUsagesForPeriodResponse" name="GetWebAppUsagesForPeriodResponse" message="tns:GetWebAppUsagesForPeriodResponse" />
     </wsdl:operation>
@@ -1056,3 +1008,4 @@ title: Services88.DiagnosticsAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

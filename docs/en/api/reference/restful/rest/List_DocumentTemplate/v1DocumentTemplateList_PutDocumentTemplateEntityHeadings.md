@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 233,
-    "Name": "Gutmann Inc and Sons",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "Rank": 550,
-    "UdListDefinitionId": 7
+    "HeadingId": 282,
+    "Name": "Funk, Sanford and Buckridge",
+    "Tooltip": "ducimus",
+    "Deleted": false,
+    "Rank": 879,
+    "UdListDefinitionId": 370
   },
   {
-    "HeadingId": 233,
-    "Name": "Gutmann Inc and Sons",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "Rank": 550,
-    "UdListDefinitionId": 7
+    "HeadingId": 282,
+    "Name": "Funk, Sanford and Buckridge",
+    "Tooltip": "ducimus",
+    "Deleted": false,
+    "Rank": 879,
+    "UdListDefinitionId": 370
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 414,
-    "Name": "Corkery-Cremin",
-    "Tooltip": "rem",
+    "HeadingId": 436,
+    "Name": "Hirthe-West",
+    "Tooltip": "officiis",
     "Deleted": false,
-    "Rank": 525,
-    "UdListDefinitionId": 600,
+    "Rank": 988,
+    "UdListDefinitionId": 870,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 738
+        "FieldLength": 48
       }
     }
   }

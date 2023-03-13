@@ -27,7 +27,7 @@ Gets a Satellite object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Replication/GetSatellite?satelliteId=770
+POST /api/v1/Agents/Replication/GetSatellite?satelliteId=999
 POST /api/v1/Agents/Replication/GetSatellite?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Replication/GetSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 310,
-  "Created": "2016-03-20T17:37:18.7992564+01:00",
+  "SatelliteId": 709,
+  "Created": "2009-08-16T14:19:04.0625865+02:00",
   "CreatedBy": null,
-  "Updated": "1997-10-14T17:37:18.800257+02:00",
+  "Updated": "2012-02-13T14:19:04.0625865+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Wolff-Hand",
-      "Description": "Virtual actuating infrastructure",
+      "Name": "Funk-Corwin",
+      "Description": "Fully-configurable background time-frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -109,13 +109,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 975
+          "FieldLength": 919
         }
       }
     },
     {
-      "Name": "Wolff-Hand",
-      "Description": "Virtual actuating infrastructure",
+      "Name": "Funk-Corwin",
+      "Description": "Fully-configurable background time-frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 975
+          "FieldLength": 919
         }
       }
     }
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 31
+      "FieldType": "System.String",
+      "FieldLength": 835
     }
   }
 }

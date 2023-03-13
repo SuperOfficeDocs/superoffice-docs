@@ -2,7 +2,7 @@
 uid: help-en-system-templates
 title: System templates
 description: System templates
-author: SuperOffice RnD
+author: HanneGunnarsson
 so.date: 06.29.2022
 keywords: Settings and maintenance
 so.topic: reference
@@ -20,11 +20,11 @@ In the **System templates** tab, you can specify which reply templates the syste
 
 ## Requests
 
-In the **Requests** tab, you have the following options:
+In the **Requests** section, you have the following options:
 
 | Option | Description |
 |---|---|
-| Reply template for notification of open requests | The reply template to use for notifying users of open requests. This is an email that is sent each evening to the users who have open requests that are several days old. The number of days is set in the **Settings** tab in the **System** screen in SuperOffice Service. |
+| Reply template for notification of open requests | The reply template to use for notifying users of open requests. This is an email that is sent each evening to the users who have open requests that are several days old. The number of days is set in the **Settings** tab in the **System** screen in SuperOffice Requests. |
 | Reply template for notification of new message | The reply template to use to notify users when a new message arrives on a request. |
 | Reply template for notification of activated request | The reply template to use to notify users that a postponed request was activated. |
 | Reply template for notification of escalated request | The reply template to use to notify users that a request was escalated. |
@@ -32,18 +32,20 @@ In the **Requests** tab, you have the following options:
 | Reply template for request reassignment | This field shows which reply template to use to notify users that another user has taken over a request. |
 | Reply template for printing a request | This field shows which reply template to use when printing a request. |
 
-## Favorites tab
+## Favourites
+
+In the **Favourites** section, you have the following options:
 
 | Option | Description |
 |---|---|
-| Reply template for notifying a new message in the favorites list | The reply template to use to notify users when a new message arrives on a request in the favorites list. |
-| Reply template for notifying an activated request in the favorites list | This field shows which reply template to use to notify users that a postponed request on the favorites list was activated. |
-| Reply template for notifying an escalated request in the favorites list | This field shows which reply template to use to notify users that a request on the favorites list was escalated. |
-| Reply template for notifying reassignment of a request in the favorites list | This field shows which reply template to use to notify users that another user has taken over a request on the favorites list. |
+| Reply template for notifying a new message in the favourites list | The reply template to use to notify users when a new message arrives on a request in the favourites list. |
+| Reply template for notifying an activated request in the favourites list | This field shows which reply template to use to notify users that a postponed request on the favourites list was activated. |
+| Reply template for notifying an escalated request in the favourites list | This field shows which reply template to use to notify users that a request on the favourites list was escalated. |
+| Reply template for notifying reassignment of a request in the favourites list | This field shows which reply template to use to notify users that another user has taken over a request on the favourites list. |
 
 ## Customers
 
-In the **Customers** tab, you have the following options:
+In the **Customers** section, you have the following options:
 
 | Option | Description |
 |---|---|
@@ -70,7 +72,7 @@ In the **Weekly stats** tab, you have the following options:
 | Option | Description |
 |---|---|
 | Reply template for weekly statistics | The reply template to use for weekly statistics.
-| Email addresses for weekly statistics | Here you can add one or more (comma-separated) email addresses to send weekly statistics for SuperOffice Service to. |
+| E-mail addresses for weekly statistics | Here you can add one or more (comma-separated) e-mail addresses to send weekly statistics for SuperOffice to. |
 
 ## How to change template
 

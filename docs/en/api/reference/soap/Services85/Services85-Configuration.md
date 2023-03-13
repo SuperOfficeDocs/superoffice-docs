@@ -1467,260 +1467,147 @@ title: Services85.ConfigurationAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Configuration">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Configuration</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultDiaryViewEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new DiaryViewEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/CreateDefaultDiaryViewEntity" name="CreateDefaultDiaryViewEntityRequest" message="tns:CreateDefaultDiaryViewEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/CreateDefaultDiaryViewEntityResponse" name="CreateDefaultDiaryViewEntityResponse" message="tns:CreateDefaultDiaryViewEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveDiaryViewEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing DiaryViewEntity or creates a new DiaryViewEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/SaveDiaryViewEntity" name="SaveDiaryViewEntityRequest" message="tns:SaveDiaryViewEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/SaveDiaryViewEntityResponse" name="SaveDiaryViewEntityResponse" message="tns:SaveDiaryViewEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteDiaryViewEntity">
-      <wsdl:documentation>
-        <summary>Deletes the DiaryViewEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/DeleteDiaryViewEntity" name="DeleteDiaryViewEntityRequest" message="tns:DeleteDiaryViewEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/DeleteDiaryViewEntityResponse" name="DeleteDiaryViewEntityResponse" message="tns:DeleteDiaryViewEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultSystemEventEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new SystemEventEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/CreateDefaultSystemEventEntity" name="CreateDefaultSystemEventEntityRequest" message="tns:CreateDefaultSystemEventEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/CreateDefaultSystemEventEntityResponse" name="CreateDefaultSystemEventEntityResponse" message="tns:CreateDefaultSystemEventEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveSystemEventEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing SystemEventEntity or creates a new SystemEventEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/SaveSystemEventEntity" name="SaveSystemEventEntityRequest" message="tns:SaveSystemEventEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/SaveSystemEventEntityResponse" name="SaveSystemEventEntityResponse" message="tns:SaveSystemEventEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteSystemEventEntity">
-      <wsdl:documentation>
-        <summary>Deletes the SystemEventEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/DeleteSystemEventEntity" name="DeleteSystemEventEntityRequest" message="tns:DeleteSystemEventEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/DeleteSystemEventEntityResponse" name="DeleteSystemEventEntityResponse" message="tns:DeleteSystemEventEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetApplicationConfiguration">
-      <wsdl:documentation>
-        <summary>Return the application configuration. This is a list of pages, with information about the name, main panel and preference mappings of each page.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetApplicationConfiguration" name="GetApplicationConfigurationRequest" message="tns:GetApplicationConfigurationRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetApplicationConfigurationResponse" name="GetApplicationConfigurationResponse" message="tns:GetApplicationConfigurationResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPageConfiguration">
-      <wsdl:documentation>
-        <summary>Get the configuration for one whole web page, including all its panels etc.  totally asynchronous items like menus are not included, but all references are resolved and all special processing is applied.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetPageConfiguration" name="GetPageConfigurationRequest" message="tns:GetPageConfigurationRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetPageConfigurationResponse" name="GetPageConfigurationResponse" message="tns:GetPageConfigurationResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetObjectMapping">
-      <wsdl:documentation>
-        <summary>Get the object mappings, i.e., the what code objects should be instantiated to handle the entities of the client configuration.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetObjectMapping" name="GetObjectMappingRequest" message="tns:GetObjectMappingRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetObjectMappingResponse" name="GetObjectMappingResponse" message="tns:GetObjectMappingResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFilterList">
-      <wsdl:documentation>
-        <summary>Get the list of filters to be used for processing the configuration data for this application.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetFilterList" name="GetFilterListRequest" message="tns:GetFilterListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetFilterListResponse" name="GetFilterListResponse" message="tns:GetFilterListResponse" />
     </wsdl:operation>
     <wsdl:operation name="ClearConfigurationCache">
-      <wsdl:documentation>
-        <summary>Configuration XML's may be expensive to build and parse, and are therefore cached to the database. &lt;para/&gt;Cahcing is per application/instance/associate, and can be turned off through the config file. &lt;para/&gt;If caching is on, and the configuration is changed, it is necessary to clear the cached configurations from the database, through this call.&lt;para/&gt;Note that changes to the externalapplication table require cache invalidation. SoAdmin will do so automatically.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/ClearConfigurationCache" name="ClearConfigurationCacheRequest" message="tns:ClearConfigurationCacheRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/ClearConfigurationCacheResponse" name="ClearConfigurationCacheResponse" message="tns:ClearConfigurationCacheResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAnyConfiguration">
-      <wsdl:documentation>
-        <summary>Get one defined configuration fragment, with full reference resolution and parsing applied. This is essentially the same service as the GetPageConfiguration, except that this service is not locked to objects of type Page.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetAnyConfiguration" name="GetAnyConfigurationRequest" message="tns:GetAnyConfigurationRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetAnyConfigurationResponse" name="GetAnyConfigurationResponse" message="tns:GetAnyConfigurationResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEMarketingUrl">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetEMarketingUrl" name="GetEMarketingUrlRequest" message="tns:GetEMarketingUrlRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetEMarketingUrlResponse" name="GetEMarketingUrlResponse" message="tns:GetEMarketingUrlResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCsProgramUrl">
-      <wsdl:documentation>
-        <summary>This method will convert a module name into a CS URL.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetCsProgramUrl" name="GetCsProgramUrlRequest" message="tns:GetCsProgramUrlRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetCsProgramUrlResponse" name="GetCsProgramUrlResponse" message="tns:GetCsProgramUrlResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCSAuthUrl">
-      <wsdl:documentation>
-        <summary>Will generate an url to the emarketing module</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetCSAuthUrl" name="GetCSAuthUrlRequest" message="tns:GetCSAuthUrlRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetCSAuthUrlResponse" name="GetCSAuthUrlResponse" message="tns:GetCSAuthUrlResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCSRegistryValue">
-      <wsdl:documentation>
-        <summary>This method will get a value from the CS Registry table.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetCSRegistryValue" name="GetCSRegistryValueRequest" message="tns:GetCSRegistryValueRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetCSRegistryValueResponse" name="GetCSRegistryValueResponse" message="tns:GetCSRegistryValueResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCSWwwFolder">
-      <wsdl:documentation>
-        <summary>This method will get the www folder for CS</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetCSWwwFolder" name="GetCSWwwFolderRequest" message="tns:GetCSWwwFolderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetCSWwwFolderResponse" name="GetCSWwwFolderResponse" message="tns:GetCSWwwFolderResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetRefreshedPageConfiguration">
-      <wsdl:documentation>
-        <summary>Get the configuration for one whole web page, including all its panels etc.  totally asynchronous items like menus are not included, but all references are resolved and all special processing is applied. Does not use cache for fetching, but updates the cache with refreshed configuration.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetRefreshedPageConfiguration" name="GetRefreshedPageConfigurationRequest" message="tns:GetRefreshedPageConfigurationRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetRefreshedPageConfigurationResponse" name="GetRefreshedPageConfigurationResponse" message="tns:GetRefreshedPageConfigurationResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetWwwUrl">
-      <wsdl:documentation>
-        <summary>Will get the default URL used for the logo, from the [NetServices] PageUrl preferencec, with tags substituted.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetWwwUrl" name="GetWwwUrlRequest" message="tns:GetWwwUrlRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetWwwUrlResponse" name="GetWwwUrlResponse" message="tns:GetWwwUrlResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetHelpDispatcherUrl">
-      <wsdl:documentation>
-        <summary>Will get the GetHelpDispatcherUrl used by the help system</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetHelpDispatcherUrl" name="GetHelpDispatcherUrlRequest" message="tns:GetHelpDispatcherUrlRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetHelpDispatcherUrlResponse" name="GetHelpDispatcherUrlResponse" message="tns:GetHelpDispatcherUrlResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetWwwUrlForSMWeb">
-      <wsdl:documentation>
-        <summary>Returns the URL used for the logo by the SM.web client. Uses urldispatch.aspx</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetWwwUrlForSMWeb" name="GetWwwUrlForSMWebRequest" message="tns:GetWwwUrlForSMWebRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetWwwUrlForSMWebResponse" name="GetWwwUrlForSMWebResponse" message="tns:GetWwwUrlForSMWebResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCsCgiUrlInternal">
-      <wsdl:documentation>
-        <summary>This method will get the host name for CS</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetCsCgiUrlInternal" name="GetCsCgiUrlInternalRequest" message="tns:GetCsCgiUrlInternalRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetCsCgiUrlInternalResponse" name="GetCsCgiUrlInternalResponse" message="tns:GetCsCgiUrlInternalResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCRMUrl">
-      <wsdl:documentation>
-        <summary>Returns a valid url based in the soprotocol provided</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetCRMUrl" name="GetCRMUrlRequest" message="tns:GetCRMUrlRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetCRMUrlResponse" name="GetCRMUrlResponse" message="tns:GetCRMUrlResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEmailNumberOfDays">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetEmailNumberOfDays" name="GetEmailNumberOfDaysRequest" message="tns:GetEmailNumberOfDaysRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetEmailNumberOfDaysResponse" name="GetEmailNumberOfDaysResponse" message="tns:GetEmailNumberOfDaysResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCustomerUrl">
-      <wsdl:documentation>
-        <summary>This method will get the URL for the external access to the customer center</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetCustomerUrl" name="GetCustomerUrlRequest" message="tns:GetCustomerUrlRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetCustomerUrlResponse" name="GetCustomerUrlResponse" message="tns:GetCustomerUrlResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDiaryViewEntity">
-      <wsdl:documentation>
-        <summary>Gets a DiaryViewEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetDiaryViewEntity" name="GetDiaryViewEntityRequest" message="tns:GetDiaryViewEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetDiaryViewEntityResponse" name="GetDiaryViewEntityResponse" message="tns:GetDiaryViewEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetWindowPosSize">
-      <wsdl:documentation>
-        <summary>Gets a WindowPosSize object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetWindowPosSize" name="GetWindowPosSizeRequest" message="tns:GetWindowPosSizeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetWindowPosSizeResponse" name="GetWindowPosSizeResponse" message="tns:GetWindowPosSizeResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveWindowPosSize">
-      <wsdl:documentation>
-        <summary>Saves a window and dialog position and size setting.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/SaveWindowPosSize" name="SaveWindowPosSizeRequest" message="tns:SaveWindowPosSizeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/SaveWindowPosSizeResponse" name="SaveWindowPosSizeResponse" message="tns:SaveWindowPosSizeResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteWindowPosSize">
-      <wsdl:documentation>
-        <summary>Deletes a window and dialog position and size setting.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/DeleteWindowPosSize" name="DeleteWindowPosSizeRequest" message="tns:DeleteWindowPosSizeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/DeleteWindowPosSizeResponse" name="DeleteWindowPosSizeResponse" message="tns:DeleteWindowPosSizeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetWindowPosSizeList">
-      <wsdl:documentation>
-        <summary>Gets an array of WindowPosSize objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetWindowPosSizeList" name="GetWindowPosSizeListRequest" message="tns:GetWindowPosSizeListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetWindowPosSizeListResponse" name="GetWindowPosSizeListResponse" message="tns:GetWindowPosSizeListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyWindowPosSizes">
-      <wsdl:documentation>
-        <summary>Gets the window and dialog position and size settings belonging to the currently logged on user</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetMyWindowPosSizes" name="GetMyWindowPosSizesRequest" message="tns:GetMyWindowPosSizesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetMyWindowPosSizesResponse" name="GetMyWindowPosSizesResponse" message="tns:GetMyWindowPosSizesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetWindowPosSizesOnPersonId">
-      <wsdl:documentation>
-        <summary>Gets the window and dialog position and size settings belonging to the specified person</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetWindowPosSizesOnPersonId" name="GetWindowPosSizesOnPersonIdRequest" message="tns:GetWindowPosSizesOnPersonIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetWindowPosSizesOnPersonIdResponse" name="GetWindowPosSizesOnPersonIdResponse" message="tns:GetWindowPosSizesOnPersonIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetWindowPosSizesOnAssociateId">
-      <wsdl:documentation>
-        <summary>Gets the window and dialog position and size settings belonging to the specified associate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetWindowPosSizesOnAssociateId" name="GetWindowPosSizesOnAssociateIdRequest" message="tns:GetWindowPosSizesOnAssociateIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetWindowPosSizesOnAssociateIdResponse" name="GetWindowPosSizesOnAssociateIdResponse" message="tns:GetWindowPosSizesOnAssociateIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveWindowPosSizes">
-      <wsdl:documentation>
-        <summary>Saves a set of window and dialog position and size settings.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/SaveWindowPosSizes" name="SaveWindowPosSizesRequest" message="tns:SaveWindowPosSizesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/SaveWindowPosSizesResponse" name="SaveWindowPosSizesResponse" message="tns:SaveWindowPosSizesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSystemEventEntity">
-      <wsdl:documentation>
-        <summary>Gets a SystemEventEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetSystemEventEntity" name="GetSystemEventEntityRequest" message="tns:GetSystemEventEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/GetSystemEventEntityResponse" name="GetSystemEventEntityResponse" message="tns:GetSystemEventEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="ExistsSystemEvent">
-      <wsdl:documentation>
-        <summary>Is there a system event with the given key?</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/ExistsSystemEvent" name="ExistsSystemEventRequest" message="tns:ExistsSystemEventRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Configuration/ExistsSystemEventResponse" name="ExistsSystemEventResponse" message="tns:ExistsSystemEventResponse" />
     </wsdl:operation>
@@ -2311,3 +2198,4 @@ title: Services85.ConfigurationAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

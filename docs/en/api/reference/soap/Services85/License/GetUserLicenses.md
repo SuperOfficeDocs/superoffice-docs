@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.ILicenseAgent.GetUserLice
 
 ## GetUserLicenses
 
-Obtain information about associate module licenses
 
-* **associateId:** Associate id to check for associate module licenses
 
-**Returns:** Associate module licenses grouped by owners.
+
 
 [WSDL file for Services85/License](../Services85-License.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetUserLicenses Response
 
@@ -108,3 +107,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

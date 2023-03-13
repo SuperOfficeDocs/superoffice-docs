@@ -72,14 +72,14 @@ OK
 POST /api/v1/Agents/User/GetValidUserName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 880,
+  "AssociateId": 463,
   "Type": "AnonymousAssociate",
-  "PersonId": 775,
-  "UserName": "Langworth Group"
+  "PersonId": 226,
+  "UserName": "Rutherford Inc and Sons"
 }
 ```
 
@@ -89,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Hettinger LLC"
+"Hansen-Franecki"
 ```

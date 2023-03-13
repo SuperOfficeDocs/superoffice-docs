@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IQuoteAgent.GetProductIma
 
 ## GetProductImage
 
-Gets an image connected to a product, from the ProductProvider
 
-* **quoteConnectionId:** The connection this product comes from.
-* **eRPProductKey:** Primary key of the Product in the ProductProvider
-* **rank:** The rank of the image.
 
-**Returns:** The base64 encoded image as a string.
+
 
 [WSDL file for Services86/Quote](../Services86-Quote.md)
 
@@ -53,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetProductImage Response
 
 ```xml
@@ -73,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

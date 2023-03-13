@@ -69,9 +69,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 452,
-  "EmailAddress": "lavon.kulas@hoeger.com",
-  "SetAsPrimaryEmail": false
+  "PersonId": 325,
+  "EmailAddress": "addie.klein@bednar.com",
+  "SetAsPrimaryEmail": true
 }
 ```
 

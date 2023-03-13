@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 477,
-  "TargetDimensionId": 219
+  "UserGroupId": 558,
+  "TargetDimensionId": 180
 }
 ```
 
@@ -98,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 781,
+    "TargetAssignmentInfoId": 391,
     "Values": [
-      846,
-      469
+      490,
+      613
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 653,
-    "DimensionListItemDisplayName": "Ratke-Wintheiser",
+    "DimensionListItem": 243,
+    "DimensionListItemDisplayName": "Hilpert-Welch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 591
+        "FieldType": "System.String",
+        "FieldLength": 234
       }
     }
   }

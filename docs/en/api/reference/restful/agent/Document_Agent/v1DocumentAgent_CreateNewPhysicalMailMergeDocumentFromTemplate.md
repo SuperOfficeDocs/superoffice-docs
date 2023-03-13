@@ -108,12 +108,12 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 38,
-  "UiCulture": "sequi"
+  "DocumentId": 238,
+  "UiCulture": "dolor"
 }
 ```
 
@@ -124,88 +124,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 431,
+  "DocumentId": 924,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ut",
-  "Header": "earum",
-  "Name": "Carter-Beatty",
-  "OurRef": "molestiae",
-  "YourRef": "voluptatem",
-  "CreatedDate": "2019-07-29T17:37:17.5262404+02:00",
-  "UpdatedDate": "2017-11-10T17:37:17.5262404+01:00",
-  "Description": "Cross-platform intermediate analyzer",
+  "Attention": "temporibus",
+  "Header": "est",
+  "Name": "Cruickshank, Mueller and Robel",
+  "OurRef": "ipsum",
+  "YourRef": "vel",
+  "CreatedDate": "2011-06-24T14:19:03.3074068+02:00",
+  "UpdatedDate": "2020-04-18T14:19:03.3074068+02:00",
+  "Description": "Balanced real-time superstructure",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1998-04-14T17:37:17.5282423+02:00",
-  "ExternalRef": "et",
+  "Date": "2001-12-16T14:19:03.3074068+01:00",
+  "ExternalRef": "non",
   "Completed": "Completed",
-  "ActiveLinks": 947,
+  "ActiveLinks": 167,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Huels, Boyer and Hauck",
-      "Id": 725,
-      "Description": "Public-key fault-tolerant encryption",
-      "ExtraInfo": "enim",
-      "LinkId": 250,
+      "EntityName": "Klein Group",
+      "Id": 617,
+      "Description": "Balanced client-driven database",
+      "ExtraInfo": "nisi",
+      "LinkId": 138,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 707
+          "FieldType": "System.Int32",
+          "FieldLength": 796
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 68,
-  "Snum": 29,
+  "SuggestedDocumentId": 524,
+  "Snum": 181,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Eladio Axel Wiza V",
+    "SuperOffice:1": "Tyrique Bennett Hackett MD",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "nihil",
-    "ExtraFields2": "amet"
+    "ExtraFields1": "illo",
+    "ExtraFields2": "eum"
   },
   "CustomFields": {
-    "CustomFields1": "repellat",
-    "CustomFields2": "qui"
+    "CustomFields1": "quo",
+    "CustomFields2": "vel"
   },
-  "PublishEventDate": "2019-04-24T17:37:17.5302418+02:00",
-  "PublishTo": "2006-03-12T17:37:17.5302418+01:00",
-  "PublishFrom": "1998-11-25T17:37:17.5302418+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2000-08-13T14:19:03.3074068+02:00",
+  "PublishTo": "2018-12-25T14:19:03.3074068+01:00",
+  "PublishFrom": "2014-11-06T14:19:03.3074068+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 408,
+      "VisibleId": 378,
       "Visibility": "All",
-      "DisplayValue": "incidunt",
+      "DisplayValue": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 375
+          "FieldLength": 456
         }
       }
     },
     {
-      "VisibleId": 408,
+      "VisibleId": 378,
       "Visibility": "All",
-      "DisplayValue": "incidunt",
+      "DisplayValue": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 375
+          "FieldLength": 456
         }
       }
     }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 825
+      "FieldType": "System.Int32",
+      "FieldLength": 223
     }
   }
 }

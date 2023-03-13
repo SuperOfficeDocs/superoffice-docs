@@ -71,10 +71,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    22,
-    637
+    907,
+    932
   ],
-  "MoveToFolder": "ex"
+  "MoveToFolder": "est"
 }
 ```
 

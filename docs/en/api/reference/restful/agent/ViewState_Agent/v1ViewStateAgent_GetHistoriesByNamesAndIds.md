@@ -86,14 +86,14 @@ Content-Type: application/json; charset=utf-8
 {
   "Requests": [
     {
-      "EntityName": "Bauch-Aufderhar",
-      "EntityOrParentId": 411,
-      "RequestForNewRecord": false
+      "EntityName": "Mann Inc and Sons",
+      "EntityOrParentId": 291,
+      "RequestForNewRecord": true
     },
     {
-      "EntityName": "Bauch-Aufderhar",
-      "EntityOrParentId": 411,
-      "RequestForNewRecord": false
+      "EntityName": "Mann Inc and Sons",
+      "EntityOrParentId": 291,
+      "RequestForNewRecord": true
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 953,
-    "Id": 605,
-    "HistoryName": "Fay Group",
-    "HistoryId": 526,
-    "AssociateId": 340,
-    "Name": "Botsford-Witting",
-    "ItemInfo": "blanditiis",
+    "Rank": 528,
+    "Id": 312,
+    "HistoryName": "Turcotte Inc and Sons",
+    "HistoryId": 88,
+    "AssociateId": 21,
+    "Name": "Hayes-Feil",
+    "ItemInfo": "incidunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 653
+        "FieldType": "System.Int32",
+        "FieldLength": 195
       }
     }
   }

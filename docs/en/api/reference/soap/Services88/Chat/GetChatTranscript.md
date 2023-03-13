@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.GetChatTranscr
 
 ## GetChatTranscript
 
-Get the chat transcript, formatted as plain text or html
 
-* **chatSessionId:** id of the chat session to get the transcript for
-* **html:** Get transcript as HTML
 
-**Returns:** The transcript in text or HTML
+
 
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetChatTranscript Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

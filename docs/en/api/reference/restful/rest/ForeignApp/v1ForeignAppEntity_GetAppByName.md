@@ -72,32 +72,32 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 15 Mar 2016 17:37:38 G3T
+Last-Modified: Sun, 03 May 2015 14:19:10 G5T
 
 {
-  "ForeignAppId": 298,
-  "Name": "Hudson-Hills",
-  "CreatedDate": "2001-11-18T17:37:38.8128674+01:00",
-  "UpdatedDate": "2016-03-15T17:37:38.8128674+01:00",
+  "ForeignAppId": 18,
+  "Name": "Cummerata-Kunze",
+  "CreatedDate": "2002-05-13T14:19:10.3498478+02:00",
+  "UpdatedDate": "2015-05-03T14:19:10.3498478+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 677,
-      "Name": "Mitchell, Windler and Bartell",
-      "CreatedDate": "2013-10-25T17:37:38.8138603+02:00",
-      "UpdatedDate": "2008-10-06T17:37:38.8138603+02:00",
-      "AssociateFullName": "Lester Barton",
-      "CreatedBy": "ut",
-      "UpdatedBy": "facilis",
-      "DeviceIdentifier": "delectus",
-      "ForeignAppId": 971,
+      "ForeignDeviceId": 706,
+      "Name": "Champlin, Schuppe and Kautzer",
+      "CreatedDate": "2009-05-26T14:19:10.3498478+02:00",
+      "UpdatedDate": "2010-04-10T14:19:10.3498478+02:00",
+      "AssociateFullName": "Caleigh Jakubowski",
+      "CreatedBy": "dolor",
+      "UpdatedBy": "quia",
+      "DeviceIdentifier": "aut",
+      "ForeignAppId": 501,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 223
+          "FieldLength": 787
         }
       }
     }
@@ -106,8 +106,8 @@ Last-Modified: Tue, 15 Mar 2016 17:37:38 G3T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldType": "System.String",
+      "FieldLength": 125
     }
   }
 }

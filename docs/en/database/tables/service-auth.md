@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "service_auth"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# service\_auth Table (483)
+# service\_auth Table (486)
 
 Authentication for a service (imap, smtp...)
 

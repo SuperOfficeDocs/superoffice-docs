@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.GetDocumen
 
 ## GetDocument
 
-Gets a Document object.
 
-* **documentId:** The identifier of the Document object
 
-**Returns:** Document
+
 
 [WSDL file for Services87/Document](../Services87-Document.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetDocument Response
 
@@ -88,3 +87,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

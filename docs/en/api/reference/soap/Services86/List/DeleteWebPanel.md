@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.DeleteWebPanel
 
 ## DeleteWebPanel
 
-Hard-delete (real, permanent DELETE in the database) the given web panel. Use with care!
 
-* **id:** Database id of web panel to delete
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteWebPanel Response
 
 ```xml
@@ -68,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

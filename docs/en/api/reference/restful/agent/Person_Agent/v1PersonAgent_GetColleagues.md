@@ -103,7 +103,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,52 +114,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "similique",
-    "PersonId": 396,
-    "Mrmrs": "exercitationem",
-    "Firstname": "Reggie",
-    "Lastname": "Mueller",
-    "MiddleName": "Walsh-Brakus",
-    "Title": "animi",
-    "Description": "Pre-emptive contextually-based frame",
-    "Email": "earnest@leffler.info",
-    "FullName": "Gilda Ritchie",
-    "DirectPhone": "213.326.7471 x042",
-    "FormalName": "Beer, Corwin and Rutherford",
-    "CountryId": 572,
-    "ContactId": 585,
-    "ContactName": "Harvey LLC",
-    "Retired": 430,
-    "Rank": 621,
-    "ActiveInterests": 682,
+    "Position": "aperiam",
+    "PersonId": 911,
+    "Mrmrs": "iusto",
+    "Firstname": "Erna",
+    "Lastname": "Bayer",
+    "MiddleName": "Fay LLC",
+    "Title": "blanditiis",
+    "Description": "Centralized modular help-desk",
+    "Email": "jasmin.conroy@fahey.us",
+    "FullName": "Prof. Casey Powlowski DDS",
+    "DirectPhone": "251.634.9765 x763",
+    "FormalName": "Konopelski-Cruickshank",
+    "CountryId": 503,
+    "ContactId": 17,
+    "ContactName": "Johnson-Schuster",
+    "Retired": 398,
+    "Rank": 931,
+    "ActiveInterests": 351,
     "ContactDepartment": "",
-    "ContactCountryId": 696,
-    "ContactOrgNr": "100304",
-    "FaxPhone": "1-967-277-2651 x760",
-    "MobilePhone": "(649)743-6224 x8632",
-    "ContactPhone": "980-739-2152",
-    "AssociateName": "Kohler, Kemmer and Wuckert",
-    "AssociateId": 644,
-    "UsePersonAddress": true,
-    "ContactFax": "temporibus",
-    "Kanafname": "ullam",
-    "Kanalname": "dolores",
-    "Post1": "excepturi",
-    "Post2": "quo",
-    "Post3": "neque",
-    "EmailName": "tyree@mayert.ca",
-    "ContactFullName": "Mitchel Kayli Volkman Jr.",
-    "ActiveErpLinks": 921,
-    "TicketPriorityId": 29,
-    "SupportLanguageId": 370,
-    "SupportAssociateId": 374,
+    "ContactCountryId": 687,
+    "ContactOrgNr": "1515865",
+    "FaxPhone": "(838)938-3455",
+    "MobilePhone": "(266)958-8350 x254",
+    "ContactPhone": "785.959.0647",
+    "AssociateName": "Keeling Group",
+    "AssociateId": 274,
+    "UsePersonAddress": false,
+    "ContactFax": "quam",
+    "Kanafname": "et",
+    "Kanalname": "et",
+    "Post1": "ut",
+    "Post2": "unde",
+    "Post3": "debitis",
+    "EmailName": "viola.kirlin@mohr.ca",
+    "ContactFullName": "Dina Gerlach",
+    "ActiveErpLinks": 283,
+    "TicketPriorityId": 828,
+    "SupportLanguageId": 974,
+    "SupportAssociateId": 7,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 134
+        "FieldLength": 503
       }
     }
   }

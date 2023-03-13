@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ITimeZoneAgent.GetBaseTim
 
 ## GetBaseTimeZoneId
 
-Get the base timezone id.
 
-**Returns:** Returns the base timezone id. Returns 0 if not set.
+
+
 
 [WSDL file for Services87/TimeZone](../Services87-TimeZone.md)
 
@@ -45,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetBaseTimeZoneId Response
 
 ```xml
@@ -64,3 +65,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -78,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 560,
-  "Name": "Hamill-Herzog",
-  "Tooltip": "quas",
+  "HeadingId": 239,
+  "Name": "Kuhic, Oberbrunner and Corwin",
+  "Tooltip": "architecto",
   "Deleted": false,
-  "Rank": 857,
-  "UdListDefinitionId": 666
+  "Rank": 872,
+  "UdListDefinitionId": 337
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 999,
-  "Name": "Von Inc and Sons",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 961,
-  "UdListDefinitionId": 173,
+  "HeadingId": 168,
+  "Name": "Wuckert, Batz and Sipes",
+  "Tooltip": "ad",
+  "Deleted": true,
+  "Rank": 373,
+  "UdListDefinitionId": 93,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 740
+      "FieldType": "System.Int32",
+      "FieldLength": 954
     }
   }
 }

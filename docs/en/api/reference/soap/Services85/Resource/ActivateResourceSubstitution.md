@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IResourceAgent.ActivateRe
 
 ## ActivateResourceSubstitution
 
-Activate or deactive a resource substitution for one or more cultures
 
-* **resourceName:** The name of the resource, without any brackets; if blank then this is the MASTER SWITCH for the override system
-* **culture:** The .NET culture string; if blank, then ALL substitutions for this resource will be affected
-* **isActive:** New status of override
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services85/Resource](../Services85-Resource.md)
 
@@ -53,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ActivateResourceSubstitution Response
 
 ```xml
@@ -72,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

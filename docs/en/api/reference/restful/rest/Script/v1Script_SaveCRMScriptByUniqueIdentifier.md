@@ -86,20 +86,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quis",
-  "Name": "Corwin-McKenzie",
-  "Description": "Ameliorated well-modulated framework",
-  "IncludeId": "aut",
-  "Source": "nihil",
-  "Registered": "2002-12-05T17:37:39.5154303+01:00",
-  "RegisteredBy": "doloremque",
-  "Updated": "1996-07-16T17:37:39.5154303+02:00",
-  "UpdatedBy": "ab",
-  "Path": "et"
+  "UniqueIdentifier": "perspiciatis",
+  "Name": "Hegmann Group",
+  "Description": "Profit-focused multi-state data-warehouse",
+  "IncludeId": "voluptatem",
+  "Source": "dolores",
+  "Registered": "2002-03-09T14:19:11.0061042+01:00",
+  "RegisteredBy": "sed",
+  "Updated": "2002-09-05T14:19:11.0061042+02:00",
+  "UpdatedBy": "ad",
+  "Path": "voluptas"
 }
 ```
 
@@ -110,22 +110,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "consequatur",
-  "Name": "Jacobi-Hessel",
-  "Description": "Devolved systematic pricing structure",
-  "IncludeId": "nemo",
-  "Source": "ab",
-  "Registered": "1996-04-10T17:37:39.5154303+02:00",
-  "RegisteredBy": "nihil",
-  "Updated": "2013-02-13T17:37:39.5154303+01:00",
-  "UpdatedBy": "voluptatibus",
-  "Path": "quia",
+  "UniqueIdentifier": "corporis",
+  "Name": "Konopelski LLC",
+  "Description": "Optional human-resource model",
+  "IncludeId": "mollitia",
+  "Source": "laudantium",
+  "Registered": "2015-11-04T14:19:11.0061042+01:00",
+  "RegisteredBy": "quasi",
+  "Updated": "2010-11-14T14:19:11.0061042+01:00",
+  "UpdatedBy": "vero",
+  "Path": "quas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 361
+      "FieldLength": 672
     }
   }
 }

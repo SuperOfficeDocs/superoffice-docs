@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 696,
-    "Name": "Armstrong Inc and Sons",
-    "Tooltip": "occaecati",
-    "Deleted": false,
-    "Rank": 793,
-    "UdListDefinitionId": 964,
+    "HeadingId": 978,
+    "Name": "Kuvalis-Grimes",
+    "Tooltip": "ipsum",
+    "Deleted": true,
+    "Rank": 113,
+    "UdListDefinitionId": 866,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 701
+        "FieldLength": 869
       }
     }
   }

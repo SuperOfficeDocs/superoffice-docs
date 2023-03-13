@@ -70,8 +70,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SaleIds": [
-    884,
-    613
+    25,
+    657
   ]
 }
 ```

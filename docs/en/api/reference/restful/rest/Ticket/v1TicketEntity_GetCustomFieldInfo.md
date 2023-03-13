@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Zulauf, Langosh and Mitchell",
-  "DisplayName": "Conn, Von and Morar",
-  "Description": "Re-engineered optimal attitude",
-  "ShortLabel": "earum",
+  "FieldName": "Waelchi Inc and Sons",
+  "DisplayName": "Johns LLC",
+  "Description": "Implemented real-time functionalities",
+  "ShortLabel": "ad",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": false,
-  "IsExternal": true,
-  "Rank": 141,
-  "TemplateVariableName": "Pfeffer, Schultz and Kuvalis"
+  "IsReadOnly": true,
+  "IsExternal": false,
+  "Rank": 447,
+  "TemplateVariableName": "Hagenes-Zemlak"
 }
 ```

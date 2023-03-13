@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "selection"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,6 @@ so.envir:
 ---
 
 # "selection" MDO List
-
 Provider for selecting a selection.
 Supported additionalInfo:
 kind=static or kind=dynamic to restrict to static or dynamic selections only. Otherwise you'll get both kinds.
@@ -39,6 +38,10 @@ The name of the MDO list is 'selection'.
 
 Separator: &
 
+
+
+
+
 ## Sample Request
 
 ```http!
@@ -50,7 +53,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("selection", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -84,6 +86,7 @@ foreach (var item in listProvider.RootItems) {
 |23|Otvoolg-HHMarGruPri||static|
 |54|Selection for creation of external users||static|
 |33|'Tv''lg-GGTjeAll||static|
+
 
 ## Related MDO Lists
 

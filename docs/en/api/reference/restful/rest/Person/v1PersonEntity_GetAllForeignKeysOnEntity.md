@@ -64,7 +64,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "laborum",
-  "2": "totam"
+  "1": "sunt",
+  "2": "voluptatem"
 }
 ```

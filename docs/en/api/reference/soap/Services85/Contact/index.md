@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services85/Conta
 
 Handled by the <see cref="T:SuperOffice.Services85.IContactAgent">SuperOffice.Services85.IContactAgent</see> interface.
 
-Interface for the Contact Agent
-Contact (company) data services.
+
 
 Download [WSDL file for Services85/Contact](../Services85-Contact.md) if you need to generate your own proxy code.
 
@@ -43,3 +42,4 @@ Download [WSDL file for Services85/Contact](../Services85-Contact.md) if you nee
 * [SaveQuoteVersionAddress](SaveQuoteVersionAddress.md)
 * [SetDuplicateRulesStatus](SetDuplicateRulesStatus.md)
 * [Undelete](Undelete.md)
+

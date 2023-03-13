@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 910,
-    "ResourceId": 78,
-    "Text": "quo",
+    "LanguageId": 1002,
+    "ResourceId": 363,
+    "Text": "totam",
     "Type": "Column",
-    "LocalizedTextId": 513,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 953,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 825
+        "FieldType": "System.Int32",
+        "FieldLength": 268
       }
     }
   }

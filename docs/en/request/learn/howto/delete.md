@@ -2,8 +2,13 @@
 uid: help-en-request-delete
 title: Delete requests
 description: How to delete a request in SuperOffice
+<<<<<<< HEAD
+author: HanneGunnarsson
+so.date: 06.29.2022
+=======
 author: SuperOffice RnD
 so.date: 02.14.2023
+>>>>>>> 12524e485807edd9647d7ffe0382f40dbcb340f9
 keywords: request
 so.topic: howto
 language: en

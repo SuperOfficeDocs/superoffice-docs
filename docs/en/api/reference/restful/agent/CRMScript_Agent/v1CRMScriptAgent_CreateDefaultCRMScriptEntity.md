@@ -79,23 +79,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 420,
-  "UniqueIdentifier": "earum",
-  "Name": "Schuppe Inc and Sons",
-  "Description": "Self-enabling client-driven attitude",
-  "IncludeId": "incidunt",
-  "HierarchyId": 194,
-  "Source": "beatae",
-  "Registered": "1997-02-21T17:37:17.323246+01:00",
-  "RegisteredAssociateId": 968,
-  "Updated": "2006-10-02T17:37:17.323246+02:00",
-  "UpdatedAssociateId": 244,
+  "EjscriptId": 819,
+  "UniqueIdentifier": "excepturi",
+  "Name": "Kreiger-Glover",
+  "Description": "Streamlined multi-state website",
+  "IncludeId": "vitae",
+  "HierarchyId": 735,
+  "Source": "nostrum",
+  "Registered": "2011-04-24T14:19:03.0730293+02:00",
+  "RegisteredAssociateId": 1002,
+  "Updated": "1997-09-22T14:19:03.0730293+02:00",
+  "UpdatedAssociateId": 831,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 867
+      "FieldType": "System.String",
+      "FieldLength": 510
     }
   }
 }

@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 507
+  "QuoteId": 795
 }
 ```
 
@@ -99,58 +99,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 570,
-  "SaleId": 210,
-  "QuoteConnectionId": 358,
-  "ERPQuoteKey": "voluptas",
-  "ERPOrderKey": "molestiae",
-  "ActiveQuoteVersionId": 223,
-  "AcceptedQuoteAlternativeId": 685,
-  "UseValuesFromQuote": 413,
-  "DocumentId": 14,
-  "PoNumber": "635895",
-  "OrderComment": "velit",
-  "PreferredEmailCulture": "adolph@effertz.ca",
+  "QuoteId": 783,
+  "SaleId": 220,
+  "QuoteConnectionId": 562,
+  "ERPQuoteKey": "et",
+  "ERPOrderKey": "nihil",
+  "ActiveQuoteVersionId": 51,
+  "AcceptedQuoteAlternativeId": 40,
+  "UseValuesFromQuote": 128,
+  "DocumentId": 959,
+  "PoNumber": "977146",
+  "OrderComment": "atque",
+  "PreferredEmailCulture": "oswald_reichert@lefflervonrueden.us",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 806,
-      "ERPQuoteVersionKey": "ducimus",
-      "QuoteId": 977,
-      "Description": "Decentralized exuding adapter",
-      "Number": "828334",
+      "QuoteVersionId": 170,
+      "ERPQuoteVersionKey": "autem",
+      "QuoteId": 825,
+      "Description": "Extended encompassing emulation",
+      "Number": "1057017",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
-      "Reason": "",
-      "LikelyQuoteAlternativeId": 628,
-      "SentDate": "2014-08-10T17:37:18.7532417+02:00",
-      "FollowupId": 51,
-      "ExpirationDate": "2010-02-26T17:37:18.7532417+01:00",
-      "DeliveryCountryId": 507,
+      "Reason": "benchmark cross-media bandwidth",
+      "LikelyQuoteAlternativeId": 369,
+      "SentDate": "2014-03-06T14:19:04.0313341+01:00",
+      "FollowupId": 807,
+      "ExpirationDate": "2022-02-12T14:19:04.0313341+01:00",
+      "DeliveryCountryId": 275,
       "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 502,
+      "InvoiceCountryId": 335,
       "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "modi",
-      "ERPPaymentTypeKey": "quis",
-      "ERPDeliveryTermsKey": "ex",
-      "ERPDeliveryTypeKey": "dignissimos",
-      "Rank": 415,
-      "ApprovedBy": 636,
-      "ApprovedText": "minus",
-      "ApprovedRegisteredBy": 686,
-      "ApprovedRegisteredDate": "2006-07-29T17:37:18.7532417+02:00",
-      "ExtraField1": "corporis",
-      "ExtraField2": "odio",
-      "ExtraField3": "laudantium",
-      "ExtraField4": "eum",
-      "ExtraField5": "quia",
-      "LastRecalculated": "2003-04-28T17:37:18.7532417+02:00",
-      "Updated": "2019-11-22T17:37:18.7532417+01:00",
-      "UpdatedAssociateId": 566,
-      "Registered": "2008-03-25T17:37:18.7532417+01:00",
-      "RegisteredAssociateId": 869,
-      "RequestAssociateId": 115,
-      "RequestComment": "molestiae",
+      "ERPPaymentTermsKey": "dolorem",
+      "ERPPaymentTypeKey": "atque",
+      "ERPDeliveryTermsKey": "eaque",
+      "ERPDeliveryTypeKey": "quia",
+      "Rank": 330,
+      "ApprovedBy": 218,
+      "ApprovedText": "mollitia",
+      "ApprovedRegisteredBy": 585,
+      "ApprovedRegisteredDate": "2008-09-16T14:19:04.0313341+02:00",
+      "ExtraField1": "quasi",
+      "ExtraField2": "esse",
+      "ExtraField3": "et",
+      "ExtraField4": "provident",
+      "ExtraField5": "est",
+      "LastRecalculated": "2021-07-21T14:19:04.0313341+02:00",
+      "Updated": "2002-07-08T14:19:04.0313341+02:00",
+      "UpdatedAssociateId": 958,
+      "Registered": "2014-02-28T14:19:04.0313341+01:00",
+      "RegisteredAssociateId": 666,
+      "RequestAssociateId": 1000,
+      "RequestComment": "quia",
       "QuoteAlternatives": [
         {},
         {}
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 440
+          "FieldType": "System.Int32",
+          "FieldLength": 906
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldType": "System.String",
+      "FieldLength": 871
     }
   }
 }

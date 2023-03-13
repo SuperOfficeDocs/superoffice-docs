@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IContactAgent.DeleteConta
 
 ## DeleteContactEntity
 
-Deletes the ContactEntity
 
-* **contactEntityId:** The identity of the ContactEntity
+
+
 
 [WSDL file for Services84/Contact](../Services84-Contact.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteContactEntity Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

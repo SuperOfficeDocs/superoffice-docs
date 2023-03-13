@@ -84,6 +84,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -97,7 +98,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Koss-Jakubowski",
+  "TaskName": "Hackett LLC",
   "State": "All"
 }
 ```
@@ -110,36 +111,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 461,
-    "Name": "Lueilwitz LLC",
-    "AssociateId": 442,
-    "DetailsTable": 427,
-    "DetailsRecord": 617,
+    "Id": 996,
+    "Name": "Morar-Metz",
+    "AssociateId": 351,
+    "DetailsTable": 311,
+    "DetailsRecord": 945,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "dolor",
-      "ParameterObject2": "in"
+      "ParameterObject1": "eaque",
+      "ParameterObject2": "fugit"
     },
-    "LastStarted": "2016-02-26T17:37:16.9082408+01:00",
-    "Created": "2006-02-04T17:37:16.9082408+01:00",
-    "StartCount": 184,
-    "DatabaseSerialNumber": "867998",
-    "Context": "ut",
-    "Result": "rerum",
+    "LastStarted": "1999-01-31T14:19:02.7750538+01:00",
+    "Created": "2004-04-21T14:19:02.7750538+02:00",
+    "StartCount": 678,
+    "DatabaseSerialNumber": "342488",
+    "Context": "temporibus",
+    "Result": "voluptas",
     "State": "All",
-    "Description": "Sharable client-server open system",
-    "Response": "necessitatibus",
-    "Request": "dolores",
-    "ProgressDescription": "Innovative zero defect intranet",
-    "ProgressPercent": 325,
-    "FileName": "Kilback-Heller",
+    "Description": "Persistent secondary conglomeration",
+    "Response": "natus",
+    "Request": "vero",
+    "ProgressDescription": "Re-engineered mobile moratorium",
+    "ProgressPercent": 302,
+    "FileName": "Cassin-Ondricka",
+    "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 509
+        "FieldLength": 730
       }
     }
   }

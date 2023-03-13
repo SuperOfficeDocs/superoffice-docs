@@ -116,18 +116,18 @@ SystemEventEntity  updated.
 PATCH /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "exercitationem",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "exercitationem",
+    "path": "et",
     "value": {}
   }
 ]
@@ -140,27 +140,27 @@ HTTP/1.1 200 SystemEventEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 696,
+  "SystemEventId": 416,
   "Scope": "Database",
-  "Eta": "2008-08-19T17:37:39.2363034+02:00",
-  "Eventkey": "veritatis",
-  "Eventmess": "quae",
-  "ExtraInfo": 156,
-  "Owner": 370,
-  "UpdatedCount": 638,
-  "Registered": "2007-10-24T17:37:39.2363034+02:00",
+  "Eta": "2011-08-16T14:19:10.7873511+02:00",
+  "Eventkey": "temporibus",
+  "Eventmess": "voluptatem",
+  "ExtraInfo": 863,
+  "Owner": 496,
+  "UpdatedCount": 807,
+  "Registered": "2009-06-22T14:19:10.7873511+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 142
+      "FieldType": "System.String",
+      "FieldLength": 860
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

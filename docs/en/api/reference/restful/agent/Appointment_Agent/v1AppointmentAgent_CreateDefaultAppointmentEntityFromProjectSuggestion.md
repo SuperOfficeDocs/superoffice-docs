@@ -129,14 +129,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromProjectSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 811,
-  "ProjectId": 738,
-  "CreateNow": true,
-  "OwnerId": 678
+  "SuggestedAppointmentId": 309,
+  "ProjectId": 632,
+  "CreateNow": false,
+  "OwnerId": 977
 }
 ```
 
@@ -151,63 +151,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2007-05-13T17:37:16.534243+02:00",
-  "AppointmentId": 839,
-  "Description": "Fully-configurable systematic encoding",
-  "StartDate": "2019-04-06T17:37:16.534243+02:00",
-  "EndDate": "2001-07-01T17:37:16.534243+02:00",
+  "CreatedDate": "1999-02-08T14:19:02.6656777+01:00",
+  "AppointmentId": 332,
+  "Description": "Decentralized 4th generation intranet",
+  "StartDate": "2013-04-07T14:19:02.6656777+02:00",
+  "EndDate": "2012-05-02T14:19:02.6656777+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 5,
+  "MotherId": 834,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2000-08-20T17:37:16.5372419+02:00",
+  "UpdatedDate": "1996-11-23T14:19:02.6656777+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 473,
+  "ActiveLinks": 505,
   "Links": [
     {
-      "EntityName": "Glover-Leuschke",
-      "Id": 794,
-      "Description": "Self-enabling logistical collaboration",
-      "ExtraInfo": "alias",
-      "LinkId": 200,
+      "EntityName": "Leffler-Tremblay",
+      "Id": 120,
+      "Description": "Secured national forecast",
+      "ExtraInfo": "porro",
+      "LinkId": 454,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 935
+          "FieldType": "System.String",
+          "FieldLength": 251
         }
       }
     }
   ],
-  "AlarmLeadTime": "molestias",
-  "HasAlarm": false,
-  "ColorIndex": 962,
-  "IsFree": true,
+  "AlarmLeadTime": "eveniet",
+  "HasAlarm": true,
+  "ColorIndex": 346,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "amet",
-  "LeadTime": "dolorem",
-  "Location": "quis",
-  "RejectCounter": 831,
+  "LagTime": "suscipit",
+  "LeadTime": "voluptatum",
+  "Location": "debitis",
+  "RejectCounter": 895,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 968,
-      "PersonId": 648,
-      "ContactId": 45,
-      "EmailId": 930,
+      "AssociateId": 784,
+      "PersonId": 433,
+      "ContactId": 675,
+      "EmailId": 351,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 968,
-      "PersonId": 648,
-      "ContactId": 45,
-      "EmailId": 930,
+      "AssociateId": 784,
+      "PersonId": 433,
+      "ContactId": 675,
+      "EmailId": 351,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -215,58 +215,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-04-02T17:37:16.5372419+02:00",
+  "ActiveDate": "1998-06-20T14:19:02.6656777+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 506,
+  "PreferredTZLocation": 834,
   "Sale": null,
-  "SuggestedAppointmentId": 916,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 673,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "nostrum",
+  "CentralserviceVideomeetId": "doloremque",
   "UserDefinedFields": {
-    "SuperOffice:1": "544497086",
-    "SuperOffice:2": "Kathryn Schmitt"
+    "SuperOffice:1": "Prof. Dina Modesto Quigley Sr.",
+    "SuperOffice:2": "Demario Mraz III"
   },
   "ExtraFields": {
-    "ExtraFields1": "vero",
-    "ExtraFields2": "aperiam"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "sunt"
   },
   "CustomFields": {
-    "CustomFields1": "quibusdam",
-    "CustomFields2": "expedita"
+    "CustomFields1": "vero",
+    "CustomFields2": "soluta"
   },
-  "PublishEventDate": "2002-03-03T17:37:16.5412429+01:00",
-  "PublishTo": "2016-03-06T17:37:16.5412429+01:00",
-  "PublishFrom": "2015-12-02T17:37:16.5412429+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2012-03-17T14:19:02.6656777+01:00",
+  "PublishTo": "2020-10-24T14:19:02.6656777+02:00",
+  "PublishFrom": "2013-01-04T14:19:02.6656777+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 579,
+      "VisibleId": 86,
       "Visibility": "All",
-      "DisplayValue": "cum",
+      "DisplayValue": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 994
+          "FieldType": "System.Int32",
+          "FieldLength": 388
         }
       }
     },
     {
-      "VisibleId": 579,
+      "VisibleId": 86,
       "Visibility": "All",
-      "DisplayValue": "cum",
+      "DisplayValue": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 994
+          "FieldType": "System.Int32",
+          "FieldLength": 388
         }
       }
     }
@@ -275,8 +275,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 777
+      "FieldType": "System.Int32",
+      "FieldLength": 510
     }
   }
 }

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISaleAgent.GetSale">Super
 
 ## GetSale
 
-Gets a Sale object.
 
-* **saleId:** The identifier of the Sale object
 
-**Returns:** Sale
+
 
 [WSDL file for Services87/Sale](../Services87-Sale.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetSale Response
 
 ```xml
@@ -65,7 +64,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Sale:GetSaleResponse>
    <Sale:Response xsi:type="Sale:Sale">
     <Sale:ContactName xsi:type="xsd:string"></Sale:ContactName>
-    <Sale:SaleDate xsi:type="xsd:dateTime">2022-08-26T08:57:51Z</Sale:SaleDate>
+    <Sale:SaleDate xsi:type="xsd:dateTime">2023-02-15T13:15:57Z</Sale:SaleDate>
     <Sale:SaleId xsi:type="xsd:int">0</Sale:SaleId>
     <Sale:Probability xsi:type="xsd:short">0</Sale:Probability>
     <Sale:Title xsi:type="xsd:string"></Sale:Title>
@@ -87,10 +86,11 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Sale:PersonFullName xsi:type="xsd:string"></Sale:PersonFullName>
     <Sale:Completed xsi:type="Sale:ActivityStatus">Unknown</Sale:Completed>
     <Sale:ActiveErpLinks xsi:type="xsd:int">0</Sale:ActiveErpLinks>
-    <Sale:NextDueDate xsi:type="xsd:dateTime">2022-08-26T08:57:51Z</Sale:NextDueDate>
+    <Sale:NextDueDate xsi:type="xsd:dateTime">2023-02-15T13:15:57Z</Sale:NextDueDate>
    </Sale:Response>
   </Sale:GetSaleResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+

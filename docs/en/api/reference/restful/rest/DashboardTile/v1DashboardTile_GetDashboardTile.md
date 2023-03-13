@@ -85,7 +85,7 @@ DashboardTile found.
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,64 +95,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 361,
-  "Caption": "ea",
-  "Description": "Horizontal foreground standardization",
-  "ChartName": "Heaney Group",
-  "ChartId": "pariatur",
+  "DashboardTileId": 539,
+  "Caption": "molestiae",
+  "Description": "Open-architected mission-critical protocol",
+  "ChartName": "Senger, Conn and Gutmann",
+  "ChartId": "ut",
   "IsDefault": false,
-  "AssociateId": 534,
-  "GroupId": 223,
-  "SelectionId": 131,
-  "Config": "vel",
+  "AssociateId": 700,
+  "GroupId": 465,
+  "SelectionId": 417,
+  "Config": "id",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Hickle LLC",
-      "Description": "Down-sized full-range adapter",
+      "Name": "Barrows Inc and Sons",
+      "Description": "Sharable radical access",
       "Type": "Boolean",
-      "ListName": "O'Keefe, Rodriguez and Blanda",
+      "ListName": "Thiel-McDermott",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "earum",
+      "Value": "totam",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 102
+          "FieldLength": 654
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 734,
+      "VisibleId": 118,
       "Visibility": "All",
-      "DisplayValue": "modi",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 377
+          "FieldType": "System.Int32",
+          "FieldLength": 38
         }
       }
     },
     {
-      "VisibleId": 734,
+      "VisibleId": 118,
       "Visibility": "All",
-      "DisplayValue": "modi",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 377
+          "FieldType": "System.Int32",
+          "FieldLength": 38
         }
       }
     }
@@ -161,13 +161,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 648
+      "FieldType": "System.String",
+      "FieldLength": 149
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

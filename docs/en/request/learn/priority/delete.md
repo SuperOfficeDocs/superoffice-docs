@@ -2,8 +2,8 @@
 uid: help-en-request-priority-delete
 title: Delete priority
 description: Delete priority
-author: SuperOffice RnD
-so.date: 02.10.2023
+author: HanneGunnarsson
+so.date: 07.03.2023
 keywords: request, priority
 so.topic: howto
 language: en

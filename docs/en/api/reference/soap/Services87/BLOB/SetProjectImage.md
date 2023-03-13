@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IBLOBAgent.SetProjectImag
 
 ## SetProjectImage
 
-Stores the project image that is displayed in the CRM application.
 
-* **projectId:** The project id of the project the image belongs to.
-* **image:** The image that is stored on the project (System.Drawing.Image)
+
+
 
 [WSDL file for Services87/BLOB](../Services87-BLOB.md)
 
@@ -48,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetProjectImage Response
 
 ```xml
@@ -66,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.SaveQuoteLine
 
 ## SaveQuoteLineImage
 
-Saves the image connected to a quoteline in the SuperOffice database
 
-* **quoteLineId:** Primary key of the quoteline
-* **image:** The image.
-* **rank:** The rank of the image.
 
-**Returns:** Nothing
+
 
 [WSDL file for Services84/Quote](../Services84-Quote.md)
 
@@ -53,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveQuoteLineImage Response
 
 ```xml
@@ -72,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

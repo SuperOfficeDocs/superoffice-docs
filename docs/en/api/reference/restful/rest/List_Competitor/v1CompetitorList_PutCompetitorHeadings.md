@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 861,
-    "Name": "Bosco Group",
-    "Tooltip": "tenetur",
+    "HeadingId": 228,
+    "Name": "Dickinson Group",
+    "Tooltip": "quidem",
     "Deleted": false,
-    "Rank": 210,
-    "UdListDefinitionId": 100
+    "Rank": 896,
+    "UdListDefinitionId": 875
   },
   {
-    "HeadingId": 861,
-    "Name": "Bosco Group",
-    "Tooltip": "tenetur",
+    "HeadingId": 228,
+    "Name": "Dickinson Group",
+    "Tooltip": "quidem",
     "Deleted": false,
-    "Rank": 210,
-    "UdListDefinitionId": 100
+    "Rank": 896,
+    "UdListDefinitionId": 875
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 179,
-    "Name": "Mosciski, Feil and Berge",
-    "Tooltip": "optio",
+    "HeadingId": 70,
+    "Name": "Barton, Hegmann and Pagac",
+    "Tooltip": "velit",
     "Deleted": false,
-    "Rank": 201,
-    "UdListDefinitionId": 135,
+    "Rank": 872,
+    "UdListDefinitionId": 349,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 79
+        "FieldType": "System.String",
+        "FieldLength": 625
       }
     }
   }

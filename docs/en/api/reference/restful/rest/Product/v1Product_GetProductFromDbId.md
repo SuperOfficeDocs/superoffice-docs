@@ -91,7 +91,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,73 +101,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 815,
-  "ERPProductKey": "dolorem",
-  "ERPPriceListKey": "ut",
-  "Name": "Mohr, Kuhlman and Larson",
-  "Description": "Programmable cohesive collaboration",
-  "Code": "et",
-  "PriceUnit": "magnam",
-  "QuantityUnit": "id",
+  "ProductId": 58,
+  "ERPProductKey": "ea",
+  "ERPPriceListKey": "consectetur",
+  "Name": "McKenzie LLC",
+  "Description": "Monitored attitude-oriented approach",
+  "Code": "ea",
+  "PriceUnit": "inventore",
+  "QuantityUnit": "tempora",
   "IsSubscription": true,
-  "SubscriptionUnit": "architecto",
-  "DefaultSubscriptionQuantity": 12855.668,
-  "ItemNumber": "992787",
+  "SubscriptionUnit": "occaecati",
+  "DefaultSubscriptionQuantity": 21947.402,
+  "ItemNumber": "1050198",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptatum",
-  "ProductTypeKey": "cumque",
-  "VAT": 28431.647999999997,
-  "VATInfo": "quis",
-  "UnitCost": 14265.967999999999,
-  "UnitMinimumPrice": 8853.55,
-  "UnitListPrice": 13375.912,
+  "ProductFamilyKey": "sunt",
+  "ProductTypeKey": "laboriosam",
+  "VAT": 13363.376,
+  "VATInfo": "ut",
+  "UnitCost": 7897.6799999999994,
+  "UnitMinimumPrice": 1617.144,
+  "UnitListPrice": 27325.345999999998,
   "InAssortment": false,
-  "Supplier": "sunt",
-  "SupplierCode": "deserunt",
-  "Rights": "occaecati",
-  "Rule": "dolor",
+  "Supplier": "voluptatem",
+  "SupplierCode": "in",
+  "Rights": "molestias",
+  "Rule": "vitae",
   "ExtraInfo": [
     {
-      "Name": "Rippin, Homenick and Robel",
-      "Value": "non",
+      "Name": "O'Reilly Group",
+      "Value": "odit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 167
+          "FieldType": "System.String",
+          "FieldLength": 375
         }
       }
     },
     {
-      "Name": "Rippin, Homenick and Robel",
-      "Value": "non",
+      "Name": "O'Reilly Group",
+      "Value": "odit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 167
+          "FieldType": "System.String",
+          "FieldLength": 375
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "ExtraField1": "dolore",
-  "ExtraField2": "cupiditate",
-  "ExtraField3": "illo",
-  "ExtraField4": "rerum",
+  "RawExtraInfo": "soluta",
+  "ExtraField1": "aspernatur",
+  "ExtraField2": "sunt",
+  "ExtraField3": "provident",
+  "ExtraField4": "magnam",
   "ExtraField5": "et",
-  "InStock": 3159.072,
+  "InStock": 1009.1479999999999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 398
+      "FieldType": "System.Int32",
+      "FieldLength": 530
     }
   }
 }

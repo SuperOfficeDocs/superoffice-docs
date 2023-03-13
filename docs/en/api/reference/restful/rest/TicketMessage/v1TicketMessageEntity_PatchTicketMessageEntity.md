@@ -103,7 +103,7 @@ TicketMessageEntity  updated.
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -131,18 +131,18 @@ TicketMessageEntity  updated.
 PATCH /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "magni",
+    "path": "at",
     "value": {}
   },
   {
     "op": "add",
-    "path": "magni",
+    "path": "at",
     "value": {}
   }
 ]
@@ -155,76 +155,76 @@ HTTP/1.1 200 TicketMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 217,
+  "EjMessageId": 647,
   "Ticket": null,
-  "CreatedAt": "2019-07-17T17:37:39.3804253+02:00",
+  "CreatedAt": "2021-09-27T14:19:10.912356+02:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "alias",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "suscipit",
-  "TimeSpent": 561,
-  "Body": "aut",
-  "HtmlBody": "quia",
-  "EmailHeader": "uriel_hodkiewicz@armstrong.info",
-  "DebugInfo": "in",
-  "MailSorter": "consequuntur",
+  "MessageId": "ut",
+  "TimeSpent": 33,
+  "Body": "in",
+  "HtmlBody": "rerum",
+  "EmailHeader": "sofia@hickle.us",
+  "DebugInfo": "adipisci",
+  "MailSorter": "qui",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptatem",
+  "SearchTitle": "laudantium",
   "MessageHeaders": [
     {
-      "Id": 226,
-      "Name": "Schuppe Inc and Sons",
-      "Value": "est",
+      "Id": 534,
+      "Name": "Stokes LLC",
+      "Value": "accusantium",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 318
+          "FieldType": "System.String",
+          "FieldLength": 821
         }
       }
     }
   ],
   "Important": false,
-  "Language": "et",
-  "Sentiment": 769,
-  "SentimentConfidence": 107,
+  "Language": "voluptates",
+  "Sentiment": 384,
+  "SentimentConfidence": 931,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 310,
-      "Name": "Lockman Inc and Sons",
-      "ContentType": "quas",
-      "AttSize": 224,
-      "InlineImage": false,
-      "ContentId": "aut",
+      "AttachmentId": 658,
+      "Name": "Hand Inc and Sons",
+      "ContentType": "tenetur",
+      "AttSize": 185,
+      "InlineImage": true,
+      "ContentId": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 967
+          "FieldType": "System.Int32",
+          "FieldLength": 871
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sit",
-    "ExtraFields2": "voluptatibus"
+    "ExtraFields1": "et",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "nihil",
-    "CustomFields2": "incidunt"
+    "CustomFields1": "reiciendis",
+    "CustomFields2": "dolorem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 289
+      "FieldType": "System.String",
+      "FieldLength": 637
     }
   },
   "_Links": {

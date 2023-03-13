@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 198,
-    "Name": "Cruickshank-Paucek",
-    "Tooltip": "deleniti",
+    "Id": 214,
+    "Name": "Gerhold, Ankunding and McLaughlin",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 335,
-    "Rank": 901,
+    "UdListDefinitionId": 184,
+    "Rank": 229,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 500
+        "FieldLength": 81
       }
     }
   }

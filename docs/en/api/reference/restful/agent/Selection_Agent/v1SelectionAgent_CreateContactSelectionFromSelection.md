@@ -115,12 +115,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 839,
-  "Name": "Lebsack Group",
+  "SelectionId": 979,
+  "Name": "Goyette-Krajcik",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Extended object-oriented budgetary management",
-  "Postit": "rem",
+  "Description": "Programmable methodical info-mediaries",
+  "Postit": "nemo",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 100,
-  "IncludePerson": 214,
-  "MemberCount": 778,
-  "Name": "Ebert-Parker",
-  "PostitTextId": 618,
-  "CreatedDate": "1996-10-31T17:37:19.1562421+01:00",
-  "SelectionId": 587,
-  "SoundEx": "debitis",
-  "Source": 705,
-  "TextId": 110,
-  "UpdatedDate": "2002-06-22T17:37:19.1562421+02:00",
-  "UpdatedCount": 368,
-  "Visibility": 544,
+  "GroupIdx": 923,
+  "IncludePerson": 603,
+  "MemberCount": 346,
+  "Name": "Wilderman LLC",
+  "PostitTextId": 8,
+  "CreatedDate": "2003-06-06T14:19:04.1723543+02:00",
+  "SelectionId": 648,
+  "SoundEx": "accusamus",
+  "Source": 966,
+  "TextId": 821,
+  "UpdatedDate": "2011-07-27T14:19:04.1723543+02:00",
+  "UpdatedCount": 667,
+  "Visibility": 492,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 973,
-  "TargetTableName": "Marks, Yost and Mueller",
+  "CompanyUnique": true,
+  "TargetTableNumber": 303,
+  "TargetTableName": "Hills, Bayer and Beier",
   "Completed": false,
-  "LeftSelectionId": 906,
-  "RightSelectionId": 719,
+  "LeftSelectionId": 729,
+  "RightSelectionId": 197,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Maggio, Labadie and Stoltenberg",
-  "ShadowProviderName": "Gottlieb Group",
+  "MainProviderName": "Romaguera Group",
+  "ShadowProviderName": "Jacobs-Hansen",
   "ChartKey": "et",
-  "LastLoaded": "1997-02-05T17:37:19.1562421+01:00",
-  "LastLoadedBy": 367,
+  "LastLoaded": "1997-02-05T14:19:04.1723543+01:00",
+  "LastLoadedBy": 251,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1997-09-29T17:37:19.1562421+02:00",
-  "LastMembershipChangeBy": 809,
+  "LastMembershipChange": "2008-07-14T14:19:04.1723543+02:00",
+  "LastMembershipChangeBy": 125,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "dolor",
-  "MemberTabHeading": "quod",
-  "MailingsProviderName": "Keeling, Dach and Gottlieb",
-  "DashboardTileDefinitionId": 7,
+  "MainHeading": "doloremque",
+  "MemberTabHeading": "expedita",
+  "MailingsProviderName": "Russel-Lemke",
+  "DashboardTileDefinitionId": 112,
   "VisibleFor": [
     {
-      "VisibleId": 407,
+      "VisibleId": 559,
       "Visibility": "All",
-      "DisplayValue": "necessitatibus",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 778
+          "FieldType": "System.String",
+          "FieldLength": 975
         }
       }
     },
     {
-      "VisibleId": 407,
+      "VisibleId": 559,
       "Visibility": "All",
-      "DisplayValue": "necessitatibus",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 778
+          "FieldType": "System.String",
+          "FieldLength": 975
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldLength": 932
     }
   }
 }

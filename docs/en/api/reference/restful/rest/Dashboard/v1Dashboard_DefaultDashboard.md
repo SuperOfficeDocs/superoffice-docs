@@ -70,22 +70,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 74,
-  "AssociateId": 641,
-  "Caption": "fugiat",
+  "DashboardId": 445,
+  "AssociateId": 50,
+  "Caption": "consequatur",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 577,
-      "Caption": "reiciendis",
-      "Description": "Open-architected maximized attitude",
-      "ChartName": "Bartoletti-Dibbert",
+      "DashboardTileId": 539,
+      "Caption": "expedita",
+      "Description": "Networked intermediate definition",
+      "ChartName": "Kreiger, Champlin and Mills",
       "ChartId": "ut",
       "IsDefault": true,
-      "AssociateId": 577,
-      "GroupId": 756,
-      "SelectionId": 619,
-      "Config": "et",
+      "AssociateId": 494,
+      "GroupId": 3,
+      "SelectionId": 376,
+      "Config": "voluptas",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 613
+          "FieldLength": 641
         }
       }
     }
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 557
+      "FieldType": "System.Int32",
+      "FieldLength": 544
     }
   }
 }

@@ -138,41 +138,41 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 658,
-  "Name": "Cartwright Inc and Sons",
-  "Description": "Progressive tangible ability",
-  "WelcomeMessage": "et",
+  "ChatTopicId": 85,
+  "Name": "Stokes Group",
+  "Description": "Up-sized responsive groupware",
+  "WelcomeMessage": "ullam",
   "Language": null,
-  "LastAccept": "1995-10-21T17:37:38.3008595+02:00",
-  "SecondsPrAccept": 352,
-  "AlertRecipient": "consequatur",
+  "LastAccept": "2022-11-29T14:19:10.0998102+01:00",
+  "SecondsPrAccept": 212,
+  "AlertRecipient": "officiis",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "aliquam",
+  "BadgeHeader": "aut",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "eos",
-  "WarnNewChatMinutes": 897,
-  "WarnManagerNewChatMinutes": 542,
+  "CustomQueueText": "est",
+  "WarnNewChatMinutes": 882,
+  "WarnManagerNewChatMinutes": 12,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 653,
-  "WarnManagerChatMessageMinutes": 123,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 907,
-  "OfflineFormQueueLength": 869,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "cum"
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 538,
+  "WarnManagerChatMessageMinutes": 943,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 140,
+  "OfflineFormQueueLength": 43,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "enim"
 }
 ```
 
@@ -183,48 +183,48 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 563,
-  "Name": "Towne-Legros",
-  "Description": "Open-architected bandwidth-monitored productivity",
-  "WelcomeMessage": "quis",
+  "ChatTopicId": 16,
+  "Name": "Roob Inc and Sons",
+  "Description": "Distributed client-driven frame",
+  "WelcomeMessage": "omnis",
   "Language": null,
-  "LastAccept": "2012-12-30T17:37:38.3038601+01:00",
-  "SecondsPrAccept": 225,
-  "AlertRecipient": "porro",
+  "LastAccept": "2018-12-11T14:19:10.0998102+01:00",
+  "SecondsPrAccept": 569,
+  "AlertRecipient": "in",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "ducimus",
+  "CollectConsent": false,
+  "BadgeHeader": "animi",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "eius",
-  "WarnNewChatMinutes": 336,
-  "WarnManagerNewChatMinutes": 235,
+  "CustomQueueText": "reiciendis",
+  "WarnNewChatMinutes": 237,
+  "WarnManagerNewChatMinutes": 861,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 644,
-  "WarnManagerChatMessageMinutes": 687,
+  "WarnChatMessageMinutes": 774,
+  "WarnManagerChatMessageMinutes": 548,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 214,
-  "OfflineFormQueueLength": 600,
+  "OfflineFormTimeLimit": 948,
+  "OfflineFormQueueLength": 177,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "nihil",
+  "WidgetRatingText": "maiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 606
+      "FieldLength": 24
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -69,31 +69,31 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Feest LLC",
+  "ProviderName": "Graham Group",
   "Restrictions": [
     {
-      "Name": "Schulist-Maggio",
-      "Operator": "aperiam",
+      "Name": "Padberg-Lubowitz",
+      "Operator": "delectus",
       "Values": [
-        "et",
-        "harum"
+        "earum",
+        "illum"
       ],
       "DisplayValues": [
-        "explicabo",
-        "occaecati"
+        "sit",
+        "sint"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 639,
+      "InterParenthesis": 273,
       "InterOperator": "And",
-      "UniqueHash": 280
+      "UniqueHash": 462
     }
   ],
-  "AssociateId": 956
+  "AssociateId": 175
 }
 ```
 

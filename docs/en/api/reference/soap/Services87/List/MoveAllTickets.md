@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.MoveAllTickets
 
 ## MoveAllTickets
 
-Move all tickets from one ticket category to another
 
-* **fromTicketCategoryId:** The id of the category we want to move tickets from
-* **toTicketCategoryId:** The id of the category we want to move the tickets to
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## MoveAllTickets Response
 
 ```xml
@@ -70,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

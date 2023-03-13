@@ -87,11 +87,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hackett-Effertz",
-  "DeviceName": "Turner-Osinski",
-  "KeyName": "Carroll-Durgan",
-  "KeyValue": "ut",
-  "TableName": "Jaskolski Group"
+  "ApplicationName": "Hills, Berge and Boyer",
+  "DeviceName": "Ankunding, Gutmann and Wintheiser",
+  "KeyName": "Gerlach Group",
+  "KeyValue": "eum",
+  "TableName": "Cartwright-Hilpert"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "unde",
-  "Value": "porro",
-  "RecordId": 735,
-  "CreatedDate": "2012-04-08T17:37:18.1092417+02:00",
-  "UpdatedDate": "2007-02-20T17:37:18.1092417+01:00",
-  "UpdatedBy": "laborum",
-  "CreatedBy": "iste",
-  "TableName": "Witting, Cartwright and Kulas",
+  "Key": "non",
+  "Value": "alias",
+  "RecordId": 842,
+  "CreatedDate": "2009-03-11T14:19:03.5602728+01:00",
+  "UpdatedDate": "2008-09-20T14:19:03.5602728+02:00",
+  "UpdatedBy": "architecto",
+  "CreatedBy": "fugiat",
+  "TableName": "Hyatt, Nicolas and Thompson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 959
+      "FieldLength": 206
     }
   }
 }

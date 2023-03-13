@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 836,
-    "Value": "provident",
-    "Tooltip": "et",
+    "Id": 709,
+    "Value": "praesentium",
+    "Tooltip": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 925
+        "FieldType": "System.String",
+        "FieldLength": 534
       }
     }
   },
   {
-    "Id": 836,
-    "Value": "provident",
-    "Tooltip": "et",
+    "Id": 709,
+    "Value": "praesentium",
+    "Tooltip": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 925
+        "FieldType": "System.String",
+        "FieldLength": 534
       }
     }
   }

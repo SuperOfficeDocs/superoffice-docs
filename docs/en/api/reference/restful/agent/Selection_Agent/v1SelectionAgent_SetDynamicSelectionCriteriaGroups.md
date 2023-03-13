@@ -80,21 +80,21 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 680,
+  "SelectionId": 805,
   "Criteria": [
     {
-      "Name": "Gleason-Brakus",
-      "Description": "Extended bandwidth-monitored flexibility",
-      "Rank": 944,
+      "Name": "Willms, Schinner and Thiel",
+      "Description": "Up-sized zero tolerance moratorium",
+      "Rank": 137,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gleason-Brakus",
-      "Description": "Extended bandwidth-monitored flexibility",
-      "Rank": 944,
+      "Name": "Willms, Schinner and Thiel",
+      "Description": "Up-sized zero tolerance moratorium",
+      "Rank": 137,
       "Restrictions": [
         {},
         {}
@@ -112,20 +112,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Champlin, Bauch and Wilderman",
-    "Description": "Proactive optimal solution",
-    "Rank": 640,
+    "Name": "Howell, Koch and Legros",
+    "Description": "Persistent motivating infrastructure",
+    "Rank": 835,
     "Restrictions": [
       {
-        "Name": "Hammes-Gulgowski",
-        "Operator": "et",
+        "Name": "Parker LLC",
+        "Operator": "rerum",
         "Values": [
-          "officia",
-          "est"
+          "nihil",
+          "iste"
         ],
         "DisplayValues": [
-          "modi",
-          "dolores"
+          "veniam",
+          "eum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -133,27 +133,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 300,
+        "InterParenthesis": 925,
         "InterOperator": "And",
-        "UniqueHash": 953
+        "UniqueHash": 647
       }
     ]
   },
   {
-    "Name": "Champlin, Bauch and Wilderman",
-    "Description": "Proactive optimal solution",
-    "Rank": 640,
+    "Name": "Howell, Koch and Legros",
+    "Description": "Persistent motivating infrastructure",
+    "Rank": 835,
     "Restrictions": [
       {
-        "Name": "Hammes-Gulgowski",
-        "Operator": "et",
+        "Name": "Parker LLC",
+        "Operator": "rerum",
         "Values": [
-          "officia",
-          "est"
+          "nihil",
+          "iste"
         ],
         "DisplayValues": [
-          "modi",
-          "dolores"
+          "veniam",
+          "eum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -161,9 +161,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 300,
+        "InterParenthesis": 925,
         "InterOperator": "And",
-        "UniqueHash": 953
+        "UniqueHash": 647
       }
     ]
   }

@@ -1067,140 +1067,79 @@ title: Services87.LicenseAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="License">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for License</summary>
-    </wsdl:documentation>
     <wsdl:operation name="GetLicenseForAllOwnersFromDB">
-      <wsdl:documentation>
-        <summary>Get all licenses, with usage, from all module owners as they are stored in the database</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetLicenseForAllOwnersFromDB" name="GetLicenseForAllOwnersFromDBRequest" message="tns:GetLicenseForAllOwnersFromDBRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetLicenseForAllOwnersFromDBResponse" name="GetLicenseForAllOwnersFromDBResponse" message="tns:GetLicenseForAllOwnersFromDBResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetLicenseFromLicenseServer">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetLicenseFromLicenseServer" name="GetLicenseFromLicenseServerRequest" message="tns:GetLicenseFromLicenseServerRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetLicenseFromLicenseServerResponse" name="GetLicenseFromLicenseServerResponse" message="tns:GetLicenseFromLicenseServerResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetModuleLicenseHistoryFromLicenseServer">
-      <wsdl:documentation>
-        <summary>Get details about a license from the license server.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetModuleLicenseHistoryFromLicenseServer" name="GetModuleLicenseHistoryFromLicenseServerRequest" message="tns:GetModuleLicenseHistoryFromLicenseServerRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetModuleLicenseHistoryFromLicenseServerResponse" name="GetModuleLicenseHistoryFromLicenseServerResponse" message="tns:GetModuleLicenseHistoryFromLicenseServerResponse" />
     </wsdl:operation>
     <wsdl:operation name="ValidateLicenseInfo">
-      <wsdl:documentation>
-        <summary>Validate that a license is consistant.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/ValidateLicenseInfo" name="ValidateLicenseInfoRequest" message="tns:ValidateLicenseInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/ValidateLicenseInfoResponse" name="ValidateLicenseInfoResponse" message="tns:ValidateLicenseInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="ActivateLicenseInfo">
-      <wsdl:documentation>
-        <summary>Save a new license to the database.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/ActivateLicenseInfo" name="ActivateLicenseInfoRequest" message="tns:ActivateLicenseInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/ActivateLicenseInfoResponse" name="ActivateLicenseInfoResponse" message="tns:ActivateLicenseInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetLicenseStatusFromLicenseServer">
-      <wsdl:documentation>
-        <summary>Get License from the license server for a particular module owner.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetLicenseStatusFromLicenseServer" name="GetLicenseStatusFromLicenseServerRequest" message="tns:GetLicenseStatusFromLicenseServerRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetLicenseStatusFromLicenseServerResponse" name="GetLicenseStatusFromLicenseServerResponse" message="tns:GetLicenseStatusFromLicenseServerResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetLicenseFromDB">
-      <wsdl:documentation>
-        <summary>Get license, with usage, as it is stored in the database for one particular module owner.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetLicenseFromDB" name="GetLicenseFromDBRequest" message="tns:GetLicenseFromDBRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetLicenseFromDBResponse" name="GetLicenseFromDBResponse" message="tns:GetLicenseFromDBResponse" />
     </wsdl:operation>
     <wsdl:operation name="ChangeSerialNumber">
-      <wsdl:documentation>
-        <summary>Change the new serial number for the installation. Requests a new license from SuperLicense, checks if change is authorized.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/ChangeSerialNumber" name="ChangeSerialNumberRequest" message="tns:ChangeSerialNumberRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/ChangeSerialNumberResponse" name="ChangeSerialNumberResponse" message="tns:ChangeSerialNumberResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUserLicenses">
-      <wsdl:documentation>
-        <summary>Obtain information about associate module licenses</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetUserLicenses" name="GetUserLicensesRequest" message="tns:GetUserLicensesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetUserLicensesResponse" name="GetUserLicensesResponse" message="tns:GetUserLicensesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSatelliteLicenses">
-      <wsdl:documentation>
-        <summary>Obtain information about satellite module licenses</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetSatelliteLicenses" name="GetSatelliteLicensesRequest" message="tns:GetSatelliteLicensesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetSatelliteLicensesResponse" name="GetSatelliteLicensesResponse" message="tns:GetSatelliteLicensesResponse" />
     </wsdl:operation>
     <wsdl:operation name="RemoveLicenseFromDB">
-      <wsdl:documentation>
-        <summary>Remove the license from a particular module owner from the database.  It is not permitted to remove licenses from SuperOffice</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/RemoveLicenseFromDB" name="RemoveLicenseFromDBRequest" message="tns:RemoveLicenseFromDBRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/RemoveLicenseFromDBResponse" name="RemoveLicenseFromDBResponse" message="tns:RemoveLicenseFromDBResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetLicenseFromFile">
-      <wsdl:documentation>
-        <summary>Load a new license from file</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetLicenseFromFile" name="GetLicenseFromFileRequest" message="tns:GetLicenseFromFileRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetLicenseFromFileResponse" name="GetLicenseFromFileResponse" message="tns:GetLicenseFromFileResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetShopUrl">
-      <wsdl:documentation>
-        <summary>Get the shop URL for the specified module owner. This can be used to redirect user to the web shop.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetShopUrl" name="GetShopUrlRequest" message="tns:GetShopUrlRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetShopUrlResponse" name="GetShopUrlResponse" message="tns:GetShopUrlResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUserLicensesMDOList">
-      <wsdl:documentation>
-        <summary>Get all licenses in a MDOListItem structure.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetUserLicensesMDOList" name="GetUserLicensesMDOListRequest" message="tns:GetUserLicensesMDOListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetUserLicensesMDOListResponse" name="GetUserLicensesMDOListResponse" message="tns:GetUserLicensesMDOListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetModuleLicenseFromDB">
-      <wsdl:documentation>
-        <summary>Get license information for one particular license module.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetModuleLicenseFromDB" name="GetModuleLicenseFromDBRequest" message="tns:GetModuleLicenseFromDBRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetModuleLicenseFromDBResponse" name="GetModuleLicenseFromDBResponse" message="tns:GetModuleLicenseFromDBResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddLicenseFromFile">
-      <wsdl:documentation>
-        <summary>Load and activate a new license from file/string if the new license is valid.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/AddLicenseFromFile" name="AddLicenseFromFileRequest" message="tns:AddLicenseFromFileRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/AddLicenseFromFileResponse" name="AddLicenseFromFileResponse" message="tns:AddLicenseFromFileResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetThirdPartyLicenseAssignments">
-      <wsdl:documentation>
-        <summary>Get license assignments for an associate for licenses belonging to an other module owner than SuperOffice</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetThirdPartyLicenseAssignments" name="GetThirdPartyLicenseAssignmentsRequest" message="tns:GetThirdPartyLicenseAssignmentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/GetThirdPartyLicenseAssignmentsResponse" name="GetThirdPartyLicenseAssignmentsResponse" message="tns:GetThirdPartyLicenseAssignmentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="AssignThirdPartyLicenses">
-      <wsdl:documentation>
-        <summary>Assign third party licenses</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/AssignThirdPartyLicenses" name="AssignThirdPartyLicensesRequest" message="tns:AssignThirdPartyLicensesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/AssignThirdPartyLicensesResponse" name="AssignThirdPartyLicensesResponse" message="tns:AssignThirdPartyLicensesResponse" />
     </wsdl:operation>
     <wsdl:operation name="UnassignThirdPartyLicenses">
-      <wsdl:documentation>
-        <summary>Unassign (remove) third party licenses</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/UnassignThirdPartyLicenses" name="UnassignThirdPartyLicensesRequest" message="tns:UnassignThirdPartyLicensesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/License/UnassignThirdPartyLicensesResponse" name="UnassignThirdPartyLicensesResponse" message="tns:UnassignThirdPartyLicensesResponse" />
     </wsdl:operation>
@@ -1519,3 +1458,4 @@ title: Services87.LicenseAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

@@ -388,41 +388,23 @@ title: Services85.ResourceAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Resource">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Resource</summary>
-    </wsdl:documentation>
     <wsdl:operation name="SetResourceSubstitution">
-      <wsdl:documentation>
-        <summary>Create or update a resource substitution</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Resource/SetResourceSubstitution" name="SetResourceSubstitutionRequest" message="tns:SetResourceSubstitutionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Resource/SetResourceSubstitutionResponse" name="SetResourceSubstitutionResponse" message="tns:SetResourceSubstitutionResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteResourceSubstitution">
-      <wsdl:documentation>
-        <summary>Permanentely delete a resource substitution for one or more cultures</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Resource/DeleteResourceSubstitution" name="DeleteResourceSubstitutionRequest" message="tns:DeleteResourceSubstitutionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Resource/DeleteResourceSubstitutionResponse" name="DeleteResourceSubstitutionResponse" message="tns:DeleteResourceSubstitutionResponse" />
     </wsdl:operation>
     <wsdl:operation name="ActivateResourceSubstitution">
-      <wsdl:documentation>
-        <summary>Activate or deactive a resource substitution for one or more cultures</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Resource/ActivateResourceSubstitution" name="ActivateResourceSubstitutionRequest" message="tns:ActivateResourceSubstitutionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Resource/ActivateResourceSubstitutionResponse" name="ActivateResourceSubstitutionResponse" message="tns:ActivateResourceSubstitutionResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetResourceSubstitutions">
-      <wsdl:documentation>
-        <summary>Get substitutions for some or all resources for one culture</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Resource/GetResourceSubstitutions" name="GetResourceSubstitutionsRequest" message="tns:GetResourceSubstitutionsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Resource/GetResourceSubstitutionsResponse" name="GetResourceSubstitutionsResponse" message="tns:GetResourceSubstitutionsResponse" />
     </wsdl:operation>
     <wsdl:operation name="IsResourceSubstitutionActive">
-      <wsdl:documentation>
-        <summary>Determine if resource substitution/override is active, globally or for a subset of resources/cultures</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Resource/IsResourceSubstitutionActive" name="IsResourceSubstitutionActiveRequest" message="tns:IsResourceSubstitutionActiveRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Resource/IsResourceSubstitutionActiveResponse" name="IsResourceSubstitutionActiveResponse" message="tns:IsResourceSubstitutionActiveResponse" />
     </wsdl:operation>
@@ -517,3 +499,4 @@ title: Services85.ResourceAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

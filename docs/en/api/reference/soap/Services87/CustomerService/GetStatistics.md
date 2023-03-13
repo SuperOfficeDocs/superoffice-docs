@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ICustomerServiceAgent.Get
 
 ## GetStatistics
 
-Returns the calculated results for the required statistics for the Customer Service Status Page
 
-* **functions:** List of functions to calculate and return
 
-**Returns:** Array of StatisticsDataSet
+
 
 [WSDL file for Services87/CustomerService](../Services87-CustomerService.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetStatistics Response
 
 ```xml
@@ -83,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

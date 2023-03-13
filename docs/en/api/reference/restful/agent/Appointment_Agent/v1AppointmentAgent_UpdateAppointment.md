@@ -125,16 +125,16 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 118,
-  "StartTime": "1999-10-01T17:37:16.2672422+02:00",
-  "EndTime": "1996-11-23T17:37:16.2672422+01:00",
-  "Status": 505,
-  "Type": 669,
-  "AssociateId": 606
+  "Id": 583,
+  "StartTime": "2017-10-13T14:19:02.3731222+02:00",
+  "EndTime": "2017-07-11T14:19:02.3731222+02:00",
+  "Status": 96,
+  "Type": 30,
+  "AssociateId": 849
 }
 ```
 
@@ -145,53 +145,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 65,
-  "StartDate": "2003-04-22T17:37:16.2692426+02:00",
-  "EndDate": "1998-10-19T17:37:16.2692426+02:00",
+  "AppointmentId": 534,
+  "StartDate": "2000-05-09T14:19:02.3731222+02:00",
+  "EndDate": "1995-10-21T14:19:02.3731222+02:00",
   "Type": "BookingForChecklist",
-  "Task": "dolorem",
-  "AssociateFullName": "Aubree Wuckert",
-  "ContactName": "Murazik LLC",
-  "Description": "Visionary zero administration ability",
-  "PersonFullName": "Dr. Gerald Jonas Skiles Sr.",
-  "PersonId": 163,
-  "ContactId": 162,
-  "ProjectId": 400,
-  "ProjectName": "Welch, Fisher and Kunde",
+  "Task": "facere",
+  "AssociateFullName": "Dr. Arianna Bradtke II",
+  "ContactName": "Ritchie-Beahan",
+  "Description": "Function-based needs-based data-warehouse",
+  "PersonFullName": "Dr. Veda Lionel Nicolas",
+  "PersonId": 931,
+  "ContactId": 883,
+  "ProjectId": 337,
+  "ProjectName": "Keeling Group",
   "IsPublished": false,
-  "AssociateId": 916,
-  "ColorIndex": 410,
+  "AssociateId": 81,
+  "ColorIndex": 237,
   "IsFree": false,
-  "HasAlarm": false,
+  "HasAlarm": true,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 335,
-  "PriorityName": "Marks Inc and Sons",
+  "PriorityId": 969,
+  "PriorityName": "Dach-Hamill",
   "TaskType": "Appointment",
   "IsBookingMain": true,
-  "IsRecurrence": false,
+  "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2005-05-30T17:37:16.2692426+02:00",
+  "ActiveDate": "2020-08-18T14:19:02.3731222+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "1999-07-13T17:37:16.2692426+02:00",
-  "RecurringEndDate": "1996-06-03T17:37:16.2692426+02:00",
-  "MotherId": 803,
-  "AssignedBy": 408,
-  "AssignedByFullName": "Freda Reinger",
+  "RecurringStartDate": "1999-02-23T14:19:02.3731222+01:00",
+  "RecurringEndDate": "2017-07-09T14:19:02.3731222+02:00",
+  "MotherId": 345,
+  "AssignedBy": 435,
+  "AssignedByFullName": "Olaf Ken Mohr I",
   "RejectReason": "",
-  "Location": "ab",
-  "AlarmLeadTime": "non",
-  "SaleId": 693,
-  "SaleName": "Waelchi, Jewess and Russel",
-  "AssociateName": "Jenkins, Heathcote and Raynor",
-  "CreatedDate": "1995-08-25T17:37:16.270242+02:00",
-  "CreatedBy": "dolor",
-  "CreatedByFullName": "Sarina Carter Jr.",
-  "CreatedByAssociateId": 443,
+  "Location": "repellat",
+  "AlarmLeadTime": "quia",
+  "SaleId": 332,
+  "SaleName": "Hodkiewicz-Hagenes",
+  "AssociateName": "Stoltenberg LLC",
+  "CreatedDate": "2023-01-23T14:19:02.3731222+01:00",
+  "CreatedBy": "veniam",
+  "CreatedByFullName": "Zella Schultz DVM",
+  "CreatedByAssociateId": 767,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
@@ -199,7 +199,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldLength": 990
     }
   }
 }

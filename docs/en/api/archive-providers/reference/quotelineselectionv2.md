@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "QuoteLineSelectionV2"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,15 +22,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 This is the archive Provider for the Selection QuoteLine archive.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"quoteLine"|[[Quoteline static]]|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |quoteLineId|int|Quote line ID: Database identity of the quote line| x |
@@ -134,7 +132,7 @@ This is the archive Provider for the Selection QuoteLine archive.
 |alternative/version/quote/connectionId|int|DB-ID: Database ID| x |
 |alternative/version/quote/registeredDate|date|Registered at: Displays the date when the quote was registered.| x |
 |alternative/version/quote/sale/completed|bool|Sale - Completed: Displays a checkbox showing if an appointment is completed| x |
-|alternative/version/quote/sale/icon|string|Sale - Category: Displays the icon for an activity type| x |
+|alternative/version/quote/sale/icon|listAny|Sale - Category: Displays the icon for an activity type| x |
 |alternative/version/quote/sale/date|date|Sale - Date: Displays start date of a follow-up / sale date of a sale| x |
 |alternative/version/quote/sale/time| *None* |Sale - Time: Time|  |
 |alternative/version/quote/sale/type|listAny|Sale - Type: Displays the type of an activity| x |
@@ -725,11 +723,14 @@ This is the archive Provider for the Selection QuoteLine archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelectionV2?$select=alternative/version/quote/sale/hasStakeholders,alternative/version/quote/sale/person/personInterestIds,alternative/version/quote/sale/person/correspondingAssociate/role,alternative/version/quote/sale/contact/name,alternative/version/quote/sale/contact/contactPhone/description
+GET /api/v1/archive/QuoteLineSelectionV2?$select=alternative/version/number,alternative/version/quote/sale/person/kanaFirstName,alternative/version/quote/sale/person/personPrivate/description,alternative/version/quote/sale/person/restrictionAddress/state,alternative/version/quote/sale/contact/registeredDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

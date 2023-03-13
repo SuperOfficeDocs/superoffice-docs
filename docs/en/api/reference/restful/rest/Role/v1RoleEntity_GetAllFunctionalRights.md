@@ -77,7 +77,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,56 +88,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 786,
-    "Name": "Wisozk LLC",
-    "ToolTip": "Reprehenderit quia officia doloribus voluptate odit et inventore.",
+    "Id": 138,
+    "Name": "Spinka Inc and Sons",
+    "ToolTip": "Saepe delectus iusto dolorem reprehenderit nobis.",
     "Deleted": false,
-    "Rank": 398,
-    "Type": "facere",
-    "ColorBlock": 831,
-    "IconHint": "quia",
+    "Rank": 35,
+    "Type": "reprehenderit",
+    "ColorBlock": 241,
+    "IconHint": "fugiat",
     "Selected": false,
-    "LastChanged": "1996-01-05T17:37:39.0583035+01:00",
+    "LastChanged": "2006-06-13T14:19:10.6623446+02:00",
     "ChildItems": [
       {
-        "Id": 507,
-        "Name": "Lakin-Cormier",
-        "ToolTip": "Veniam corrupti autem.",
+        "Id": 99,
+        "Name": "Abshire, Weissnat and Lakin",
+        "ToolTip": "Id eos placeat nostrum qui quis.",
         "Deleted": true,
-        "Rank": 861,
-        "Type": "alias",
-        "ColorBlock": 973,
-        "IconHint": "fugiat",
+        "Rank": 864,
+        "Type": "incidunt",
+        "ColorBlock": 300,
+        "IconHint": "eum",
         "Selected": false,
-        "LastChanged": "2015-04-12T17:37:39.0583035+02:00",
+        "LastChanged": "1996-10-01T14:19:10.6623446+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "necessitatibus",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "animi",
         "Hidden": false,
-        "FullName": "Rasheed Wilderman",
+        "FullName": "Dr. Davon Wunsch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 260
+            "FieldLength": 206
           }
         }
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "eos",
+    "ExtraInfo": "fuga",
+    "StyleHint": "dignissimos",
     "Hidden": false,
-    "FullName": "Isabell Heber Heller III",
+    "FullName": "Mr. Melany Kitty Cummerata",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 104
+        "FieldLength": 288
       }
     }
   }

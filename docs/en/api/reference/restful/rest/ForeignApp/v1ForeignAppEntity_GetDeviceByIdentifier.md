@@ -68,7 +68,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,24 +76,24 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 04 Sep 2002 17:37:38 G9T
+Last-Modified: Sun, 21 Oct 2018 14:19:10 G10T
 
 {
-  "ForeignDeviceId": 631,
-  "Name": "McClure Group",
-  "CreatedDate": "2001-07-03T17:37:38.8148598+02:00",
-  "UpdatedDate": "2002-09-04T17:37:38.8148598+02:00",
-  "AssociateFullName": "Prof. Sonia Travon Price Jr.",
-  "CreatedBy": "odio",
-  "UpdatedBy": "distinctio",
-  "DeviceIdentifier": "dolorem",
-  "ForeignAppId": 577,
+  "ForeignDeviceId": 183,
+  "Name": "Kassulke, Howe and Jacobi",
+  "CreatedDate": "1999-08-23T14:19:10.3654771+02:00",
+  "UpdatedDate": "2018-10-21T14:19:10.3654771+02:00",
+  "AssociateFullName": "May Cormier",
+  "CreatedBy": "provident",
+  "UpdatedBy": "cupiditate",
+  "DeviceIdentifier": "velit",
+  "ForeignAppId": 199,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 7
+      "FieldLength": 990
     }
   }
 }

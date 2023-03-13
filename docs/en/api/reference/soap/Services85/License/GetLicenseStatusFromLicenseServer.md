@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.ILicenseAgent.GetLicenseS
 
 ## GetLicenseStatusFromLicenseServer
 
-Get License from the license server for a particular module owner.
 
-* **ownerName:** Name of the module owner to get license from.
 
-**Returns:** License from the database, from the license server and with usage.
+
 
 [WSDL file for Services85/License](../Services85-License.md)
 
@@ -50,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetLicenseStatusFromLicenseServer Response
 
 ```xml
@@ -75,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

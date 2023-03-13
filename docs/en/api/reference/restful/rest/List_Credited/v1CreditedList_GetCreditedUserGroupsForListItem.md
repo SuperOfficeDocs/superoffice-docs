@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 545,
-    "Name": "Cruickshank LLC",
-    "ToolTip": "A quis.",
-    "Deleted": true,
-    "Rank": 170,
-    "Type": "repellendus",
-    "ColorBlock": 769,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2012-03-19T17:37:39.9425001+01:00",
+    "Id": 105,
+    "Name": "McKenzie, Dach and Emmerich",
+    "ToolTip": "Consequatur omnis.",
+    "Deleted": false,
+    "Rank": 100,
+    "Type": "consequatur",
+    "ColorBlock": 789,
+    "IconHint": "voluptatum",
+    "Selected": false,
+    "LastChanged": "1996-03-10T14:19:11.2105958+01:00",
     "ChildItems": [
       {
-        "Id": 424,
-        "Name": "Feest, Rau and Turcotte",
-        "ToolTip": "Neque et doloribus rerum.",
-        "Deleted": true,
-        "Rank": 628,
-        "Type": "voluptas",
-        "ColorBlock": 310,
-        "IconHint": "similique",
+        "Id": 336,
+        "Name": "Metz-Douglas",
+        "ToolTip": "Ab vero error recusandae odio.",
+        "Deleted": false,
+        "Rank": 510,
+        "Type": "et",
+        "ColorBlock": 620,
+        "IconHint": "repudiandae",
         "Selected": false,
-        "LastChanged": "2006-07-27T17:37:39.9425001+02:00",
+        "LastChanged": "2011-07-12T14:19:11.2105958+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "id",
+        "ExtraInfo": "et",
+        "StyleHint": "provident",
         "Hidden": false,
-        "FullName": "Gladyce Shields",
+        "FullName": "Porter Lebsack",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 141
+            "FieldType": "System.String",
+            "FieldLength": 396
           }
         }
       }
     ],
-    "ExtraInfo": "quae",
-    "StyleHint": "suscipit",
-    "Hidden": false,
-    "FullName": "Jerad Conroy",
+    "ExtraInfo": "molestias",
+    "StyleHint": "voluptas",
+    "Hidden": true,
+    "FullName": "Rick Donnelly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 411
+        "FieldLength": 820
       }
     }
   }

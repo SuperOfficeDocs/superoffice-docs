@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IConfigurationAgent.Exist
 
 ## ExistsSystemEvent
 
-Is there a system event with the given key?
 
-* **key:** The key to match on
 
-**Returns:** The system event
+
 
 [WSDL file for Services86/Configuration](../Services86-Configuration.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ExistsSystemEvent Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

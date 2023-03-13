@@ -63,22 +63,22 @@ No Content
 POST /api/v1/Agents/Preference/SaveTabOrders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "TabOrders": [
     {
-      "TabOrderId": 341,
-      "TabName": "Dooley, Fahey and Hessel",
-      "Order": "velit",
-      "AssociateId": 824
+      "TabOrderId": 419,
+      "TabName": "Zieme-Wolff",
+      "Order": "architecto",
+      "AssociateId": 882
     },
     {
-      "TabOrderId": 341,
-      "TabName": "Dooley, Fahey and Hessel",
-      "Order": "velit",
-      "AssociateId": 824
+      "TabOrderId": 419,
+      "TabName": "Zieme-Wolff",
+      "Order": "architecto",
+      "AssociateId": 882
     }
   ]
 }

@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Document/GetDocumentCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 738,
+  "DocumentId": 988,
   "AllowedReturnTypes": [
-    "alias",
-    "atque"
+    "aut",
+    "fugit"
   ]
 }
 ```
@@ -97,17 +97,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mante, Mitchell and Hauck",
-    "DisplayName": "Pollich, Powlowski and Boyle",
-    "DisplayTooltip": "adipisci",
-    "IconHint": "iste",
+    "Name": "Luettgen-D'Amore",
+    "DisplayName": "Considine LLC",
+    "DisplayTooltip": "inventore",
+    "IconHint": "fugiat",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Mante, Mitchell and Hauck",
-    "DisplayName": "Pollich, Powlowski and Boyle",
-    "DisplayTooltip": "adipisci",
-    "IconHint": "iste",
+    "Name": "Luettgen-D'Amore",
+    "DisplayName": "Considine LLC",
+    "DisplayTooltip": "inventore",
+    "IconHint": "fugiat",
     "ReturnType": "CustomGui"
   }
 ]

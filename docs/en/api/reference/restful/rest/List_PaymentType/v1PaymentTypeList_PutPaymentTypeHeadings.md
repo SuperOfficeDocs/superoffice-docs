@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 454,
-    "Name": "Kemmer-West",
-    "Tooltip": "eos",
-    "Deleted": false,
-    "Rank": 445,
-    "UdListDefinitionId": 245
+    "HeadingId": 79,
+    "Name": "Mitchell-Hickle",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "Rank": 612,
+    "UdListDefinitionId": 861
   },
   {
-    "HeadingId": 454,
-    "Name": "Kemmer-West",
-    "Tooltip": "eos",
-    "Deleted": false,
-    "Rank": 445,
-    "UdListDefinitionId": 245
+    "HeadingId": 79,
+    "Name": "Mitchell-Hickle",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "Rank": 612,
+    "UdListDefinitionId": 861
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 946,
-    "Name": "Paucek Group",
-    "Tooltip": "vitae",
-    "Deleted": true,
-    "Rank": 626,
-    "UdListDefinitionId": 572,
+    "HeadingId": 599,
+    "Name": "Pagac-Abshire",
+    "Tooltip": "voluptas",
+    "Deleted": false,
+    "Rank": 851,
+    "UdListDefinitionId": 972,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 279
+        "FieldLength": 130
       }
     }
   }

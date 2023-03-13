@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,111 +78,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 290,
-      "UniqueId": "adipisci",
-      "Name": "Waters, Gerlach and Russel",
-      "Description": "Integrated user-facing initiative",
-      "AssociateId": 557,
-      "Columns": 185,
+      "DashboardId": 778,
+      "UniqueId": "veniam",
+      "Name": "Koss Group",
+      "Description": "Total uniform policy",
+      "AssociateId": 462,
+      "Columns": 722,
       "Theme": null,
-      "VisibleForAll": 199,
+      "VisibleForAll": 662,
       "VisibleForAssociates": [
-        72,
-        296
+        308,
+        438
       ],
       "VisibleForGroups": [
-        415,
-        520
+        32,
+        325
       ],
-      "PinForAll": 92,
+      "PinForAll": 471,
       "PinForAssociates": [
-        925,
-        699
+        842,
+        625
       ],
       "PinForGroups": [
-        162,
-        678
+        104,
+        21
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 815
+          "FieldType": "System.String",
+          "FieldLength": 175
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 599,
-      "UniqueId": "quos",
-      "Name": "Lowe, Daniel and Fay",
-      "Description": "Digitized interactive firmware",
-      "AssociateId": 965,
-      "Columns": 496,
+      "DashboardId": 973,
+      "UniqueId": "qui",
+      "Name": "Leffler, Swaniawski and Schulist",
+      "Description": "Centralized full-range budgetary management",
+      "AssociateId": 322,
+      "Columns": 917,
       "Theme": null,
-      "VisibleForAll": 220,
+      "VisibleForAll": 158,
       "VisibleForAssociates": [
-        495,
-        126
+        703,
+        904
       ],
       "VisibleForGroups": [
-        362,
-        264
+        346,
+        838
       ],
-      "PinForAll": 828,
+      "PinForAll": 844,
       "PinForAssociates": [
-        367,
-        403
+        930,
+        332
       ],
       "PinForGroups": [
-        879,
-        753
+        339,
+        693
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 862
+          "FieldLength": 440
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 691,
-      "UniqueId": "voluptates",
-      "Name": "Pollich-Schroeder",
-      "Description": "Assimilated systemic Graphical User Interface",
-      "AssociateId": 781,
-      "Columns": 476,
+      "DashboardId": 366,
+      "UniqueId": "quis",
+      "Name": "Dietrich Group",
+      "Description": "Self-enabling homogeneous definition",
+      "AssociateId": 180,
+      "Columns": 982,
       "Theme": null,
-      "VisibleForAll": 725,
+      "VisibleForAll": 783,
       "VisibleForAssociates": [
-        323,
-        985
+        822,
+        364
       ],
       "VisibleForGroups": [
-        473,
-        978
+        922,
+        245
       ],
-      "PinForAll": 634,
+      "PinForAll": 512,
       "PinForAssociates": [
-        35,
-        982
+        844,
+        827
       ],
       "PinForGroups": [
-        637,
-        452
+        357,
+        245
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 332
+          "FieldType": "System.String",
+          "FieldLength": 212
         }
       }
     }
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 20
+      "FieldLength": 925
     }
   }
 }

@@ -110,11 +110,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 589
+  "QuoteVersionId": 110
 }
 ```
 
@@ -125,75 +125,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 867,
-  "ERPQuoteVersionKey": "aut",
-  "QuoteId": 809,
-  "Description": "Cross-platform client-server data-warehouse",
-  "Number": "1558010",
+  "QuoteVersionId": 513,
+  "ERPQuoteVersionKey": "adipisci",
+  "QuoteId": 818,
+  "Description": "Exclusive directional model",
+  "Number": "715283",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 968,
-  "SentDate": "2000-01-20T17:37:18.6912417+01:00",
-  "FollowupId": 16,
-  "ExpirationDate": "2000-05-03T17:37:18.6912417+02:00",
-  "DeliveryCountryId": 251,
-  "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 663,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "iure",
-  "ERPPaymentTypeKey": "ea",
-  "ERPDeliveryTermsKey": "itaque",
-  "ERPDeliveryTypeKey": "enim",
-  "Rank": 816,
-  "ApprovedBy": 130,
-  "ApprovedText": "eveniet",
-  "ApprovedRegisteredBy": 631,
-  "ApprovedRegisteredDate": "1997-02-04T17:37:18.6912417+01:00",
-  "ExtraField1": "hic",
-  "ExtraField2": "deleniti",
-  "ExtraField3": "blanditiis",
-  "ExtraField4": "voluptas",
-  "ExtraField5": "cum",
-  "LastRecalculated": "2015-10-18T17:37:18.6922415+02:00",
-  "Updated": "2004-06-14T17:37:18.6922415+02:00",
-  "UpdatedAssociateId": 93,
-  "Registered": "2006-01-03T17:37:18.6922415+01:00",
-  "RegisteredAssociateId": 848,
-  "RequestAssociateId": 546,
-  "RequestComment": "exercitationem",
+  "LikelyQuoteAlternativeId": 512,
+  "SentDate": "1996-12-01T14:19:03.984459+01:00",
+  "FollowupId": 134,
+  "ExpirationDate": "2008-02-07T14:19:03.984459+01:00",
+  "DeliveryCountryId": 301,
+  "HasOwnDeliveryAddress": false,
+  "InvoiceCountryId": 957,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "alias",
+  "ERPPaymentTypeKey": "minus",
+  "ERPDeliveryTermsKey": "ut",
+  "ERPDeliveryTypeKey": "unde",
+  "Rank": 158,
+  "ApprovedBy": 202,
+  "ApprovedText": "ad",
+  "ApprovedRegisteredBy": 742,
+  "ApprovedRegisteredDate": "2006-11-14T14:19:03.984459+01:00",
+  "ExtraField1": "dolor",
+  "ExtraField2": "rerum",
+  "ExtraField3": "nisi",
+  "ExtraField4": "necessitatibus",
+  "ExtraField5": "eos",
+  "LastRecalculated": "1998-02-04T14:19:03.984459+01:00",
+  "Updated": "1997-06-24T14:19:03.984459+02:00",
+  "UpdatedAssociateId": 872,
+  "Registered": "2005-06-23T14:19:03.984459+02:00",
+  "RegisteredAssociateId": 812,
+  "RequestAssociateId": 930,
+  "RequestComment": "quo",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 778,
-      "ERPQuoteAlternativeKey": "eum",
-      "QuoteVersionId": 337,
-      "Name": "Fritsch, Wolff and Cremin",
-      "Description": "Synergistic solution-oriented focus group",
+      "QuoteAlternativeId": 637,
+      "ERPQuoteAlternativeKey": "esse",
+      "QuoteVersionId": 713,
+      "Name": "Halvorson, Nienow and Will",
+      "Description": "Universal multi-state intranet",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 14234.627999999999,
-      "ERPDiscountAmount": 16456.634,
-      "DiscountPercent": 7606.218,
-      "DiscountAmount": 8809.6739999999991,
+      "ERPDiscountPercent": 3027.444,
+      "ERPDiscountAmount": 1711.164,
+      "DiscountPercent": 7697.1039999999994,
+      "DiscountAmount": 7333.5599999999995,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "ut",
-      "VAT": 15171.694,
-      "EarningPercent": 9110.538,
-      "EarningAmount": 28519.399999999998,
-      "SubTotal": 8091.9879999999994,
-      "TotalPrice": 341.606,
-      "ExtraField1": "quos",
-      "ExtraField2": "enim",
-      "ExtraField3": "dicta",
-      "ExtraField4": "eum",
-      "ExtraField5": "perspiciatis",
+      "VATInfo": "saepe",
+      "VAT": 8464.934,
+      "EarningPercent": 29484.672,
+      "EarningAmount": 13636.034,
+      "SubTotal": 21912.928,
+      "TotalPrice": 21897.257999999998,
+      "ExtraField1": "dolorum",
+      "ExtraField2": "quis",
+      "ExtraField3": "ea",
+      "ExtraField4": "cupiditate",
+      "ExtraField5": "quae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 635
+          "FieldLength": 390
         }
       }
     }
@@ -202,8 +202,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 868
+      "FieldType": "System.String",
+      "FieldLength": 273
     }
   }
 }

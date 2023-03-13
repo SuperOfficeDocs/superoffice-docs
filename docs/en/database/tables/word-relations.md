@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "word_relations"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"

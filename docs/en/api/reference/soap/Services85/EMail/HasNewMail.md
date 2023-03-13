@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.HasNewMail">S
 
 ## HasNewMail
 
-Fast check for new mail in the database
 
-* **mailItemId:** The last known mailitemid
-* **folderId:** The folderId for the folder to check for new mail
 
-**Returns:** Has new mail if true
+
 
 [WSDL file for Services85/EMail](../Services85-EMail.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## HasNewMail Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

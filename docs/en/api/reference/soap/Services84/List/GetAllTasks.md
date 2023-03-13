@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetAllTasks">S
 
 ## GetAllTasks
 
-Returns all appointment tasks
 
-* **includeDeleted:** Include deleted items in result?
 
-**Returns:** An array of all available tasks
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetAllTasks Response
 
@@ -84,3 +83,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

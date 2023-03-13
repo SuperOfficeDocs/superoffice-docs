@@ -88,35 +88,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 537,
-  "ERPQuoteAlternativeKey": "voluptas",
-  "QuoteVersionId": 993,
-  "Name": "Wehner, Crona and Daniel",
-  "Description": "Total composite success",
+  "QuoteAlternativeId": 49,
+  "ERPQuoteAlternativeKey": "officiis",
+  "QuoteVersionId": 558,
+  "Name": "Heaney-Flatley",
+  "Description": "Multi-channelled heuristic capacity",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 8803.405999999999,
-  "ERPDiscountAmount": 15275.116,
-  "DiscountPercent": 1065.56,
-  "DiscountAmount": 1203.456,
+  "ERPDiscountPercent": 20769.018,
+  "ERPDiscountAmount": 9151.2799999999988,
+  "DiscountPercent": 12253.939999999999,
+  "DiscountAmount": 26240.982,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "aspernatur",
-  "VAT": 6358.8859999999995,
-  "EarningPercent": 13391.582,
-  "EarningAmount": 5459.428,
-  "SubTotal": 15641.794,
-  "TotalPrice": 22345.42,
-  "ExtraField1": "fuga",
-  "ExtraField2": "odit",
-  "ExtraField3": "numquam",
-  "ExtraField4": "rerum",
-  "ExtraField5": "ipsum",
+  "VATInfo": "beatae",
+  "VAT": 22445.708,
+  "EarningPercent": 1244.1979999999999,
+  "EarningAmount": 5230.646,
+  "SubTotal": 18315.095999999998,
+  "TotalPrice": 19831.952,
+  "ExtraField1": "sunt",
+  "ExtraField2": "eveniet",
+  "ExtraField3": "ea",
+  "ExtraField4": "placeat",
+  "ExtraField5": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldType": "System.String",
+      "FieldLength": 557
     }
   }
 }

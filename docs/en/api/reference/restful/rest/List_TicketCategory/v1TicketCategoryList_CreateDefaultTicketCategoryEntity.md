@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,36 +81,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 909,
-  "ParentId": 182,
-  "Name": "Doyle-Von",
-  "Fullname": "ex",
-  "CategoryMaster": 245,
+  "TicketCategoryId": 590,
+  "ParentId": 133,
+  "Name": "Orn-Ledner",
+  "Fullname": "illo",
+  "CategoryMaster": 291,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Schaden-Roob",
+  "ExternalName": "Christiansen-Connelly",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 200,
-  "ReplyTemplate": 770,
-  "NotificationEmail": "buck_labadie@skilesbergstrom.us",
+  "AssignmentLag": 931,
+  "ReplyTemplate": 190,
+  "NotificationEmail": "lenora_kuhlman@lynchfeest.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 64,
+  "EffectiveReplyTemplateId": 733,
   "ExtraFields": {
-    "ExtraFields1": "fugiat",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "odit",
+    "ExtraFields2": "asperiores"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "quisquam",
+    "CustomFields2": "itaque"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldLength": 323
     }
   }
 }

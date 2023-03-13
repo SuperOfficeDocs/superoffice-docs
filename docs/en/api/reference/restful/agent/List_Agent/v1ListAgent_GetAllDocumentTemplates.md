@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 620,
-    "Name": "Fisher, Gibson and Jones",
-    "Tooltip": "earum",
-    "SaveInDb": 115,
-    "Filename": "aut",
-    "DefaultOref": "eos",
+    "DocumentTemplateId": 712,
+    "Name": "Lindgren-Franecki",
+    "Tooltip": "tempore",
+    "SaveInDb": 417,
+    "Filename": "laudantium",
+    "DefaultOref": "earum",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 220,
-    "IntentId": 795,
-    "IsDefaultPublished": true,
-    "Rank": 26,
-    "LoadTemplateFromPlugin": 803,
-    "MimeType": "facilis",
+    "AutoeventId": 731,
+    "IntentId": 618,
+    "IsDefaultPublished": false,
+    "Rank": 636,
+    "LoadTemplateFromPlugin": 582,
+    "MimeType": "repellendus",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 558,
+    "DocumentTypeKey": 357,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "jovani@homenickgorczany.uk",
-    "IncludeSignature": false,
-    "ShowCurrents": true,
+    "EmailSubject": "zita_greenfelder@beier.biz",
+    "IncludeSignature": true,
+    "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "douglas.fay@morissettebartoletti.info",
+    "SenderEmailAddress": "bessie@renner.us",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 435
+        "FieldLength": 383
       }
     }
   }

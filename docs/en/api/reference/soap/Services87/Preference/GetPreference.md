@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IPreferenceAgent.GetPrefe
 
 ## GetPreference
 
-Get a preference by id
 
-* **id:** The id of the preference to load
 
-**Returns:** The preference loaded
+
 
 [WSDL file for Services87/Preference](../Services87-Preference.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetPreference Response
 
@@ -89,3 +88,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

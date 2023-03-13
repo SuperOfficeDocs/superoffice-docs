@@ -11,7 +11,7 @@ so.envir: onsite
 
 # importMail
 
-Responsible for importing mail into Service.
+Responsible for importing mail into Requests.
 
 **Usage:** `importMail [OPTION] domain`
 

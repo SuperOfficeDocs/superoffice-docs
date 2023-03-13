@@ -82,8 +82,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Brekke-Dach",
-  "ProviderName": "Altenwerth-Denesik"
+  "GuiName": "Kihn-Kautzer",
+  "ProviderName": "Windler Inc and Sons"
 }
 ```
 
@@ -96,68 +96,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Donnelly Inc and Sons",
-      "DisplayTooltip": "dolores",
-      "DisplayType": "voluptatibus",
+      "DisplayName": "Kutch, Bechtelar and Schmitt",
+      "DisplayTooltip": "expedita",
+      "DisplayType": "aut",
       "CanOrderBy": false,
-      "Name": "Gerlach, Crona and Flatley",
-      "CanRestrictBy": false,
-      "RestrictionType": "magni",
-      "RestrictionListName": "Schiller-Littel",
-      "IsVisible": true,
-      "ExtraInfo": "occaecati",
-      "Width": "quis",
-      "IconHint": "minima",
-      "HeadingIconHint": "consequuntur"
+      "Name": "Zieme-Weber",
+      "CanRestrictBy": true,
+      "RestrictionType": "consequatur",
+      "RestrictionListName": "Greenholt Group",
+      "IsVisible": false,
+      "ExtraInfo": "ut",
+      "Width": "explicabo",
+      "IconHint": "sint",
+      "HeadingIconHint": "culpa"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 721,
-      "Name": "Prosacco-Kshlerin",
-      "ToolTip": "Rerum cumque.",
+      "Id": 128,
+      "Name": "Morissette Inc and Sons",
+      "ToolTip": "Vel dolores ipsam quis dolore natus velit.",
       "Deleted": false,
-      "Rank": 873,
-      "Type": "dolor",
-      "ColorBlock": 654,
-      "IconHint": "consequuntur",
+      "Rank": 359,
+      "Type": "facere",
+      "ColorBlock": 680,
+      "IconHint": "in",
       "Selected": true,
-      "LastChanged": "1999-02-16T17:37:16.6152449+01:00",
+      "LastChanged": "2002-10-04T14:19:02.7281785+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ab",
-      "StyleHint": "aliquam",
-      "Hidden": false,
-      "FullName": "Ryder Rutherford",
+      "ExtraInfo": "sint",
+      "StyleHint": "ut",
+      "Hidden": true,
+      "FullName": "Ms. Elvera Mitchell",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 324
+          "FieldLength": 109
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Mante-Muller",
+      "Name": "Ratke-Parisian",
       "Direction": "ASC"
     },
     {
-      "Name": "Mante-Muller",
+      "Name": "Ratke-Parisian",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "aspernatur",
+  "OwnerKeys": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldLength": 502
     }
   }
 }

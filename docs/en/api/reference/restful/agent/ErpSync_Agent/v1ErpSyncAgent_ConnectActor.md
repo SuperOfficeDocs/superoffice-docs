@@ -74,26 +74,26 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 483,
-  "CrmRecordId": 403,
+  "ErpConnectionId": 824,
+  "CrmRecordId": 749,
   "CrmActorType": "Contact",
-  "ErpKey": "et",
+  "ErpKey": "molestias",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Gulgowski-Dickinson",
-      "CrmFieldKey": "eum",
-      "Value": "sed",
-      "DisplayValue": "minus",
-      "SyncToCrm": false,
+      "DisplayName": "Daniel-Nolan",
+      "CrmFieldKey": "atque",
+      "Value": "est",
+      "DisplayValue": "tempora",
+      "SyncToCrm": true,
       "SyncToErp": false
     },
     {
-      "DisplayName": "Gulgowski-Dickinson",
-      "CrmFieldKey": "eum",
-      "Value": "sed",
-      "DisplayValue": "minus",
-      "SyncToCrm": false,
+      "DisplayName": "Daniel-Nolan",
+      "CrmFieldKey": "atque",
+      "Value": "est",
+      "DisplayValue": "tempora",
+      "SyncToCrm": true,
       "SyncToErp": false
     }
   ]

@@ -80,19 +80,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 939,
-      "Id": 993,
-      "HistoryName": "Hermiston Inc and Sons",
-      "HistoryId": 13,
-      "AssociateId": 974,
-      "Name": "Kub, Stoltenberg and Hartmann",
-      "ItemInfo": "rerum"
+      "Rank": 138,
+      "Id": 327,
+      "HistoryName": "Emard, Homenick and O'Conner",
+      "HistoryId": 364,
+      "AssociateId": 638,
+      "Name": "Langosh Inc and Sons",
+      "ItemInfo": "ut"
     }
   ]
 }
@@ -106,19 +106,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 48,
-    "Id": 883,
-    "HistoryName": "Dooley-Cronin",
-    "HistoryId": 13,
-    "AssociateId": 442,
-    "Name": "Sanford-Mann",
-    "ItemInfo": "qui",
+    "Rank": 616,
+    "Id": 961,
+    "HistoryName": "Stokes, Wilkinson and Huel",
+    "HistoryId": 200,
+    "AssociateId": 770,
+    "Name": "Wiza LLC",
+    "ItemInfo": "dolorum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 526
+        "FieldLength": 906
       }
     }
   }

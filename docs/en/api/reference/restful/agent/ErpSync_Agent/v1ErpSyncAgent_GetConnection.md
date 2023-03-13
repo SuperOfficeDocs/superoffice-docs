@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 973
+  "ErpConnectionId": 104
 }
 ```
 
@@ -100,33 +100,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 952,
-  "ErpConnectorId": 784,
-  "DisplayName": "O'Connell Group",
-  "DisplayDescription": "Compatible tertiary task-force",
+  "ErpConnectionId": 786,
+  "ErpConnectorId": 456,
+  "DisplayName": "Langworth, Champlin and Batz",
+  "DisplayDescription": "Operative transitional forecast",
   "Active": false,
-  "ConnectionId": "eveniet",
-  "MostRecentTimestamp": "mollitia",
+  "ConnectionId": "non",
+  "MostRecentTimestamp": "non",
   "ConfigFields": {
-    "ConfigFields1": "dolor",
-    "ConfigFields2": "corrupti"
+    "ConfigFields1": "id",
+    "ConfigFields2": "nobis"
   },
   "Deleted": false,
-  "AllAccess": true,
+  "AllAccess": false,
   "UserGroupAccessIds": [
-    937,
-    480
+    466,
+    49
   ],
   "AssociateAccessIds": [
-    275,
-    976
+    942,
+    310
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 765
+      "FieldType": "System.Int32",
+      "FieldLength": 723
     }
   }
 }

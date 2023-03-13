@@ -25,7 +25,7 @@ Gets a ChatSessionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=938
+POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=867
 POST /api/v1/Agents/Chat/GetChatSessionEntity?$select=name,department,category/id
 ```
 
@@ -106,29 +106,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 556,
-  "TopicId": 8,
+  "ChatSessionId": 747,
+  "TopicId": 335,
   "User": null,
   "Person": null,
-  "CustomerAlias": "rerum",
-  "CustomerHost": "consequatur",
-  "CustomerName": "Bahringer, Reinger and Schroeder",
-  "CustomerEmail": "rebeka_jast@kuhic.info",
-  "CustomerPhone": "119-435-7239",
+  "CustomerAlias": "molestias",
+  "CustomerHost": "deleniti",
+  "CustomerName": "Gleichner, Yost and Rutherford",
+  "CustomerEmail": "raymundo@lindhills.biz",
+  "CustomerPhone": "994.528.1310",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kautzer, Paucek and Towne",
+  "CustomerCompanyName": "Schowalter Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "rerum",
-  "LastMessage": "necessitatibus",
-  "WhenRequested": "2006-04-19T17:37:16.9912446+02:00",
-  "WhenStarted": "2011-10-15T17:37:16.9912446+02:00",
-  "WhenEnded": "2021-12-05T17:37:16.9912446+01:00",
-  "WhenIdle": "2013-08-24T17:37:16.9912446+02:00",
-  "WhenFetched": "2017-12-31T17:37:16.9912446+01:00",
-  "SessionKey": "voluptas",
-  "InitialQueuePos": 54,
-  "AlertLevel": 555,
-  "Rank": 557,
+  "FirstMessage": "maiores",
+  "LastMessage": "perferendis",
+  "WhenRequested": "2005-11-05T14:19:02.82302+01:00",
+  "WhenStarted": "2006-09-03T14:19:02.82302+02:00",
+  "WhenEnded": "1997-09-08T14:19:02.82302+02:00",
+  "WhenIdle": "1996-10-17T14:19:02.82302+02:00",
+  "WhenFetched": "2000-12-15T14:19:02.82302+01:00",
+  "SessionKey": "amet",
+  "InitialQueuePos": 19,
+  "AlertLevel": 122,
+  "Rank": 906,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 26,
+  "Rating": 556,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldType": "System.String",
+      "FieldLength": 439
     }
   }
 }

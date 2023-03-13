@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 365,
-    "Name": "Mosciski-Jaskolski",
-    "Tooltip": "nemo",
+    "HeadingId": 220,
+    "Name": "Zulauf-Gottlieb",
+    "Tooltip": "consequuntur",
     "Deleted": false,
-    "Rank": 60,
-    "UdListDefinitionId": 479
+    "Rank": 551,
+    "UdListDefinitionId": 505
   },
   {
-    "HeadingId": 365,
-    "Name": "Mosciski-Jaskolski",
-    "Tooltip": "nemo",
+    "HeadingId": 220,
+    "Name": "Zulauf-Gottlieb",
+    "Tooltip": "consequuntur",
     "Deleted": false,
-    "Rank": 60,
-    "UdListDefinitionId": 479
+    "Rank": 551,
+    "UdListDefinitionId": 505
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 300,
-    "Name": "Swift Group",
-    "Tooltip": "nulla",
-    "Deleted": false,
-    "Rank": 704,
-    "UdListDefinitionId": 529,
+    "HeadingId": 429,
+    "Name": "Hackett, Kovacek and Funk",
+    "Tooltip": "sapiente",
+    "Deleted": true,
+    "Rank": 889,
+    "UdListDefinitionId": 57,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 934
+        "FieldLength": 458
       }
     }
   }

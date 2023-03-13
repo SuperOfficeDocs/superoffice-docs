@@ -77,13 +77,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 345,
-  "CrmEntityId": 160,
+  "ConnectionId": 339,
+  "CrmEntityId": 50,
   "ErpActorType": "Customer",
   "CrmActorType": "Contact",
   "ErpFieldKeyValues": {
-    "ErpFieldKeyValues1": "eveniet",
-    "ErpFieldKeyValues2": "voluptates"
+    "ErpFieldKeyValues1": "sed",
+    "ErpFieldKeyValues2": "et"
   }
 }
 ```
@@ -94,5 +94,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

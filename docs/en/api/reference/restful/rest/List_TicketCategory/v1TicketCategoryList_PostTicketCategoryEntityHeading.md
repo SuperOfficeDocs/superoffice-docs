@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 597,
-  "Name": "Schmitt Group",
-  "Tooltip": "odio",
-  "Deleted": false,
-  "Rank": 175,
-  "UdListDefinitionId": 163
+  "HeadingId": 661,
+  "Name": "Haag Inc and Sons",
+  "Tooltip": "quisquam",
+  "Deleted": true,
+  "Rank": 531,
+  "UdListDefinitionId": 714
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 186,
-  "Name": "Cartwright Group",
-  "Tooltip": "omnis",
+  "HeadingId": 777,
+  "Name": "Stiedemann LLC",
+  "Tooltip": "veniam",
   "Deleted": false,
-  "Rank": 677,
-  "UdListDefinitionId": 663,
+  "Rank": 407,
+  "UdListDefinitionId": 155,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldType": "System.String",
+      "FieldLength": 189
     }
   }
 }

@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,18 +117,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "placeat",
-      "HTMLBody": "dolores",
+      "Subject": "voluptas",
+      "HTMLBody": "incidunt",
       "From": null,
-      "Sent": "2000-07-14T17:37:17.8562447+02:00",
-      "Size": 591,
+      "Sent": "2014-08-25T14:19:03.3883958+02:00",
+      "Size": 228,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "tempore",
-      "PlainBody": "ipsam",
+      "MessageID": "eum",
+      "PlainBody": "commodi",
       "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 949,
+      "ServerId": 944,
       "Attachments": [
         {},
         {}
@@ -137,12 +137,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Heaney Inc and Sons",
-      "EmailItemId": 224,
-      "AccountId": 588,
-      "ReceivedAt": "2001-04-25T17:37:17.8562447+02:00",
+      "FolderName": "Konopelski-Satterfield",
+      "EmailItemId": 775,
+      "AccountId": 99,
+      "ReceivedAt": "2020-02-28T14:19:03.3883958+01:00",
       "InReplyTo": null,
-      "RepliedAt": "2001-03-11T17:37:17.8562447+01:00",
+      "RepliedAt": "2000-09-27T14:19:03.3883958+02:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -161,147 +161,147 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 626,
-        "ContactName": "Gusikowski-Kulas",
-        "PersonId": 593,
-        "PersonName": "Heathcote-Hamill",
-        "AssociateId": 934,
-        "Address": "delectus",
-        "EmailId": 814,
+        "ContactId": 506,
+        "ContactName": "Gleason-Senger",
+        "PersonId": 124,
+        "PersonName": "Reichert-Cronin",
+        "AssociateId": 351,
+        "Address": "amet",
+        "EmailId": 54,
         "DuplicatePersonIds": [
-          709,
-          649
+          6,
+          63
         ],
-        "Name": "Walker, Lindgren and Towne",
+        "Name": "Kassulke Group",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 806
+            "FieldLength": 447
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 250,
-        "ContactName": "Kunde, Kuphal and Hoppe",
-        "PersonId": 13,
-        "PersonName": "Legros LLC",
-        "AssociateId": 306,
-        "Address": "cumque",
-        "EmailId": 195,
+        "ContactId": 678,
+        "ContactName": "Swift-Waters",
+        "PersonId": 950,
+        "PersonName": "Batz Inc and Sons",
+        "AssociateId": 274,
+        "Address": "blanditiis",
+        "EmailId": 661,
         "DuplicatePersonIds": [
-          45,
-          532
+          12,
+          311
         ],
-        "Name": "Johnston Inc and Sons",
+        "Name": "Ziemann-Halvorson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 500
+            "FieldType": "System.Int32",
+            "FieldLength": 31
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 273,
-        "ContactName": "Hansen, Trantow and Hoeger",
-        "PersonId": 752,
-        "PersonName": "Bernier-Goodwin",
-        "AssociateId": 320,
-        "Address": "atque",
-        "EmailId": 892,
+        "ContactId": 63,
+        "ContactName": "Schiller Inc and Sons",
+        "PersonId": 804,
+        "PersonName": "Reinger, Greenfelder and Schamberger",
+        "AssociateId": 88,
+        "Address": "rerum",
+        "EmailId": 834,
         "DuplicatePersonIds": [
-          378,
-          955
+          826,
+          248
         ],
-        "Name": "Hegmann-Schmeler",
+        "Name": "Herman, Schuster and Klocko",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 902
+            "FieldType": "System.String",
+            "FieldLength": 374
           }
         }
       }
     ],
-    "Subject": "alias",
-    "HTMLBody": "earum",
+    "Subject": "rem",
+    "HTMLBody": "et",
     "From": null,
-    "Sent": "1999-09-19T17:37:17.8582446+02:00",
-    "Size": 429,
+    "Sent": "2018-02-28T14:19:03.3883958+01:00",
+    "Size": 537,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "unde",
-    "PlainBody": "laudantium",
-    "IsSent": false,
+    "MessageID": "et",
+    "PlainBody": "voluptatem",
+    "IsSent": true,
     "EMailSOInfo": null,
-    "ServerId": 609,
+    "ServerId": 370,
     "Attachments": [
       {
-        "Description": "Decentralized interactive product",
-        "Filename": "reprehenderit",
-        "Size": 519,
-        "Type": "dolor",
-        "Encoding": "et",
-        "Id": "vel",
-        "Disposition": "excepturi",
+        "Description": "Persevering 4th generation function",
+        "Filename": "nobis",
+        "Size": 168,
+        "Type": "praesentium",
+        "Encoding": "harum",
+        "Id": "alias",
+        "Disposition": "consequatur",
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 609
+            "FieldType": "System.String",
+            "FieldLength": 593
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Brekke LLC",
+        "Name": "Murray-Breitenberg",
         "Values": [
-          "ut",
-          "aspernatur"
+          "cupiditate",
+          "molestiae"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 537
+            "FieldType": "System.String",
+            "FieldLength": 780
           }
         }
       },
       {
-        "Name": "Brekke LLC",
+        "Name": "Murray-Breitenberg",
         "Values": [
-          "ut",
-          "aspernatur"
+          "cupiditate",
+          "molestiae"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 537
+            "FieldType": "System.String",
+            "FieldLength": 780
           }
         }
       }
     ],
-    "FolderName": "Vandervort LLC",
-    "EmailItemId": 548,
-    "AccountId": 168,
-    "ReceivedAt": "2021-02-17T17:37:17.8592428+01:00",
+    "FolderName": "Blanda-Lang",
+    "EmailItemId": 556,
+    "AccountId": 529,
+    "ReceivedAt": "2014-08-24T14:19:03.3883958+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2020-03-28T17:37:17.8592428+01:00",
-    "HasCalendarData": false,
+    "RepliedAt": "1995-11-25T14:19:03.3883958+01:00",
+    "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
@@ -309,7 +309,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 124
+        "FieldLength": 916
       }
     }
   }

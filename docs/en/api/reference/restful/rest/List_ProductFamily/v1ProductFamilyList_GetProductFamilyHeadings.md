@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 659,
-    "Name": "Runolfsdottir, Murphy and Kassulke",
-    "Tooltip": "sed",
-    "Deleted": true,
-    "Rank": 789,
-    "UdListDefinitionId": 930,
+    "HeadingId": 330,
+    "Name": "Considine-Pfeffer",
+    "Tooltip": "quasi",
+    "Deleted": false,
+    "Rank": 729,
+    "UdListDefinitionId": 308,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 552
+        "FieldLength": 833
       }
     }
   }

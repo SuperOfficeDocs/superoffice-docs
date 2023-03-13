@@ -70,30 +70,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "distinctio",
-  "ProviderName": "Ankunding Group",
-  "StorageKey": "numquam",
+  "StorageType": "non",
+  "ProviderName": "Nader LLC",
+  "StorageKey": "quia",
   "Restrictions": [
     {
-      "Name": "Welch, Runolfsson and Corwin",
-      "Operator": "sint",
+      "Name": "Jenkins, Olson and Hamill",
+      "Operator": "ut",
       "Values": [
-        "iusto",
-        "et"
+        "aliquid",
+        "numquam"
       ],
       "DisplayValues": [
-        "nihil",
-        "perspiciatis"
+        "ut",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 137,
+      "InterParenthesis": 985,
       "InterOperator": "And",
-      "UniqueHash": 556
+      "UniqueHash": 83
     }
   ]
 }

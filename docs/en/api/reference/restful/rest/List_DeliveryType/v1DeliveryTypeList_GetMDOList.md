@@ -26,7 +26,7 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=dolore
+GET /api/v1/List/DeliveryType/MDOItems?query=fugit
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 589,
-    "Name": "Rohan-Heaney",
-    "ToolTip": "Sed sint enim fuga vel quis sed dolore.",
+    "Id": 916,
+    "Name": "Kilback LLC",
+    "ToolTip": "Qui fuga eum quisquam.",
     "Deleted": false,
-    "Rank": 464,
-    "Type": "odio",
+    "Rank": 871,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 442,
-        "Name": "Labadie LLC",
-        "ToolTip": "Consequuntur magni debitis voluptates sint quidem tenetur blanditiis.",
-        "Deleted": true,
-        "Rank": 328,
-        "Type": "voluptatem",
+        "Id": 199,
+        "Name": "Hodkiewicz-Mann",
+        "ToolTip": "Animi iste perspiciatis.",
+        "Deleted": false,
+        "Rank": 151,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "officia",
-        "ColorBlock": 99,
-        "ExtraInfo": "adipisci",
-        "StyleHint": "earum",
-        "FullName": "Brandyn Hilll",
+        "IconHint": "placeat",
+        "ColorBlock": 317,
+        "ExtraInfo": "in",
+        "StyleHint": "ullam",
+        "FullName": "Miss Israel Vern Marvin III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 934
+            "FieldLength": 870
           }
         }
       }
     ],
-    "IconHint": "natus",
-    "ColorBlock": 527,
-    "ExtraInfo": "qui",
-    "StyleHint": "vero",
-    "FullName": "Oleta Reynolds",
+    "IconHint": "provident",
+    "ColorBlock": 570,
+    "ExtraInfo": "sequi",
+    "StyleHint": "quisquam",
+    "FullName": "Kayleigh Welch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 162
+        "FieldType": "System.String",
+        "FieldLength": 582
       }
     }
   }

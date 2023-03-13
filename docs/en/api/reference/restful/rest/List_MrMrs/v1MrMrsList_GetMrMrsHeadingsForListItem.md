@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 787,
-    "Name": "Wehner LLC",
-    "ToolTip": "Vel dolorem officiis molestias.",
-    "Deleted": false,
-    "Rank": 493,
-    "Type": "odit",
-    "ColorBlock": 209,
-    "IconHint": "debitis",
-    "Selected": true,
-    "LastChanged": "2000-12-03T17:37:40.0615078+01:00",
+    "Id": 195,
+    "Name": "Torphy-Gutmann",
+    "ToolTip": "Aut id.",
+    "Deleted": true,
+    "Rank": 389,
+    "Type": "rerum",
+    "ColorBlock": 902,
+    "IconHint": "corporis",
+    "Selected": false,
+    "LastChanged": "2002-06-02T14:19:11.2898728+02:00",
     "ChildItems": [
       {
-        "Id": 793,
-        "Name": "Weissnat-Harvey",
-        "ToolTip": "Natus similique iure exercitationem magni eligendi.",
-        "Deleted": false,
-        "Rank": 7,
-        "Type": "distinctio",
-        "ColorBlock": 21,
-        "IconHint": "ducimus",
+        "Id": 436,
+        "Name": "Beier, Romaguera and Klocko",
+        "ToolTip": "Vitae eos exercitationem vel explicabo.",
+        "Deleted": true,
+        "Rank": 881,
+        "Type": "alias",
+        "ColorBlock": 86,
+        "IconHint": "sit",
         "Selected": true,
-        "LastChanged": "2005-09-24T17:37:40.0615078+02:00",
+        "LastChanged": "2001-07-09T14:19:11.2898728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "totam",
-        "Hidden": true,
-        "FullName": "Frederick Schulist III",
+        "ExtraInfo": "quod",
+        "StyleHint": "quo",
+        "Hidden": false,
+        "FullName": "Alessia Ondricka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 470
+            "FieldType": "System.Int32",
+            "FieldLength": 594
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "et",
+    "ExtraInfo": "architecto",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Prof. Donavon Mathew Dare",
+    "FullName": "Mrs. Hettie Rachelle Stokes PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 831
+        "FieldType": "System.String",
+        "FieldLength": 968
       }
     }
   }

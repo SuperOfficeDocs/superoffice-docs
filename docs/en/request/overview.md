@@ -2,7 +2,7 @@
 uid: requests-overview
 title: Requests
 description: Request handling in SuperOffice
-author: Bergfrid Dias
+author: HanneGunnarsson
 so.date: 02.04.2022
 keywords: Service, ticket, request
 so.topic: concept
@@ -14,7 +14,7 @@ so.topic: concept
 
 (Some features need premium.)
 
-**Requests** are the core of SuperOffice Service. You:
+**Requests** are the core of SuperOffice CRM. You:
 
 * manage requests and inquiries already in the system
 * create internal and external requests
@@ -23,32 +23,32 @@ so.topic: concept
 
 ## Request handling
 
-Different companies have different routines for request handling and may use SuperOffice Service in different ways. Here are two common scenarios:
+Different companies have different routines for request handling and may use SuperOffice Requests in different ways. Here are two common scenarios:
 
 ### Scenario 1: The customer submits the request by email
 
 1. The customer emails `support@company.com` or fills out a form in a user-support portal.
-2. The customer gets an **automatic reply** letting them know the inquiry is received.
-3. The system automatically **turns the inquiry into a request** in SuperOffice Service.
-4. The request goes to a request handler, who reads through it.
-5. The request handler sends a response to the customer.
-6. The request handler closes the request and proceeds to deal with other requests.
+1. The customer gets an **automatic reply** letting them know the inquiry is received.
+1. The system automatically **turns the inquiry into a request** in SuperOffice CRM.
+1. The request goes to a request handler, who reads through it.
+1. The request handler sends a response to the customer.
+1. The request handler closes the request and proceeds to deal with other requests.
 
 ### Scenario 2: The customer calls the request handler
 
 1. The customer has a problem with a product and calls user-support.
-2. The request handler who answers the call **registers the request**.
-3. The request handler sends a response to the customer.
-4. The request handler closes the request and proceeds to deal with other requests.
+1. The request handler who answers the call **registers the request**.
+1. The request handler sends a response to the customer.
+1. The request handler closes the request and proceeds to deal with other requests.
 
 In both scenarios, if the request handler is unable to fulfill the request on their own, they can either:
 
 * Ask a colleague
-* Get help from outside the organization, for example for a sub-contractor or supplier
+* Get help from outside the organisation, for example for a sub-contractor or supplier
 
 ## Status
 
-A ticket has 1 of the following statuses. It will change as the request flows through the support system.
+A ticket has one of the following statuses. It will change as the request flows through the support system.
 
 * active
 * closed
@@ -81,7 +81,7 @@ Priority is tied to:
 
 ## Response time and time spent
 
-`ticket.replied_at` is set (if empty) based on the time of action (selecting **Reply/Reply all** in Service)
+`ticket.replied_at` is set (if empty) based on the time of action (selecting **Reply/Reply all** in Requests)
 
 All other calculations are happening in the background. We use `time_counter` to mark which field in the ticket to count time spent on (queue, internal, external).
 

@@ -2,8 +2,13 @@
 uid: help-en-request-forward
 title: Forward to external parties
 description: How to forward a request to external parties
+<<<<<<< HEAD
+author: HanneGunnarsson
+so.date: 06.29.2022
+=======
 author: SuperOffice RnD
 so.date: 02.14.2023
+>>>>>>> 12524e485807edd9647d7ffe0382f40dbcb340f9
 keywords: request
 so.topic: howto
 language: en
@@ -31,9 +36,15 @@ In the request lists, you can forward multiple requests at a time.
 
 1. Click the ![icon][img1] **Task** button in the lower left corner of the request list.
 
+<<<<<<< HEAD
+1. Select **Manage** and **Forward requests**.
+
+1. Under **Add recipient(s)**, add a recipient in the **To** field. Click the **Cc/Bcc** button (on the right-hand side of the message) to add recipients on copy or blind copy.
+=======
 1. In the **Manage** section, select **Forward requests**.
 
 1. Under **Add recipient(s)**, add recipient(s) in the field. Click the **Cc/Bcc** button (on the right-hand side of the message) to add recipients on copy or blind copy.
+>>>>>>> 12524e485807edd9647d7ffe0382f40dbcb340f9
 
 1. If you check **Close request after forwarding**, the requests are closed once they are forwarded.
 

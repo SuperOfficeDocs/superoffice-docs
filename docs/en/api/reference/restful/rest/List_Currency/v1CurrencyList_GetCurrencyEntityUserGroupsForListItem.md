@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 786,
-    "Name": "Stroman-Hirthe",
-    "ToolTip": "Hic atque deserunt voluptatem velit.",
-    "Deleted": false,
-    "Rank": 747,
-    "Type": "et",
-    "ColorBlock": 265,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2000-01-23T17:37:39.9595063+01:00",
+    "Id": 17,
+    "Name": "Fahey Inc and Sons",
+    "ToolTip": "Laborum maiores.",
+    "Deleted": true,
+    "Rank": 932,
+    "Type": "illum",
+    "ColorBlock": 545,
+    "IconHint": "molestiae",
+    "Selected": false,
+    "LastChanged": "2011-02-11T14:19:11.2105958+01:00",
     "ChildItems": [
       {
-        "Id": 1001,
-        "Name": "Reichert, McKenzie and Roob",
-        "ToolTip": "Repellendus veniam repudiandae quae.",
+        "Id": 624,
+        "Name": "Prohaska LLC",
+        "ToolTip": "Pariatur tenetur reiciendis voluptates blanditiis.",
         "Deleted": false,
-        "Rank": 553,
-        "Type": "esse",
-        "ColorBlock": 709,
-        "IconHint": "doloribus",
-        "Selected": false,
-        "LastChanged": "2000-11-26T17:37:39.9595063+01:00",
+        "Rank": 816,
+        "Type": "aliquid",
+        "ColorBlock": 131,
+        "IconHint": "porro",
+        "Selected": true,
+        "LastChanged": "2019-03-10T14:19:11.2105958+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "nostrum",
-        "Hidden": true,
-        "FullName": "Xavier Gaylord",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "autem",
+        "Hidden": false,
+        "FullName": "Mrs. Nigel Zoila Wunsch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 983
+            "FieldType": "System.String",
+            "FieldLength": 812
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "possimus",
+    "ExtraInfo": "eligendi",
+    "StyleHint": "nobis",
     "Hidden": true,
-    "FullName": "Annamae Weimann",
+    "FullName": "Abel Will",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 984
+        "FieldLength": 973
       }
     }
   }

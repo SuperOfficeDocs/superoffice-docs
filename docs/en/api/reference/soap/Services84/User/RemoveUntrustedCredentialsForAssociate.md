@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.RemoveUntruste
 
 ## RemoveUntrustedCredentialsForAssociate
 
-Remove a credentials entry for a specified user.
 
-* **associateId:** Id of user to remove credentials for.
-* **type:** Type of credential(Ex: "imap", "smtp")
-* **publicValue:** PublicValue field of credentials to remove.
+
+
 
 [WSDL file for Services84/User](../Services84-User.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RemoveUntrustedCredentialsForAssociate Response
 
 ```xml
@@ -70,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

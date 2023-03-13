@@ -84,22 +84,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 208,
-  "Name": "McClure-Ryan",
-  "Description": "Grass-roots interactive interface",
+  "ReportLabelLayoutId": 927,
+  "Name": "Hahn, Hermann and Flatley",
+  "Description": "Secured neutral parallelism",
   "Orientation": "Landscape",
-  "PaperWidth": 953,
-  "PaperHeight": 989,
-  "LeftMargin": 162,
-  "RightMargin": 862,
-  "TopMargin": 681,
-  "BottomMargin": 31,
-  "CountColumns": 28,
-  "CountRows": 951
+  "PaperWidth": 478,
+  "PaperHeight": 581,
+  "LeftMargin": 928,
+  "RightMargin": 689,
+  "TopMargin": 503,
+  "BottomMargin": 664,
+  "CountColumns": 543,
+  "CountRows": 351
 }
 ```
 
@@ -110,24 +110,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 263,
-  "Name": "Abernathy-Jacobi",
-  "Description": "Reverse-engineered client-server capability",
+  "ReportLabelLayoutId": 372,
+  "Name": "Rosenbaum-Lehner",
+  "Description": "Horizontal leading edge knowledge base",
   "Orientation": "Landscape",
-  "PaperWidth": 618,
-  "PaperHeight": 402,
-  "LeftMargin": 154,
-  "RightMargin": 96,
-  "TopMargin": 887,
-  "BottomMargin": 693,
-  "CountColumns": 209,
-  "CountRows": 223,
+  "PaperWidth": 817,
+  "PaperHeight": 98,
+  "LeftMargin": 704,
+  "RightMargin": 562,
+  "TopMargin": 112,
+  "BottomMargin": 406,
+  "CountColumns": 952,
+  "CountRows": 493,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 759
+      "FieldType": "System.String",
+      "FieldLength": 337
     }
   }
 }

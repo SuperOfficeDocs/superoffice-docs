@@ -119,18 +119,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "occaecati",
+    "path": "voluptate",
     "value": {}
   },
   {
     "op": "add",
-    "path": "occaecati",
+    "path": "voluptate",
     "value": {}
   }
 ]
@@ -143,22 +143,22 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 907,
-  "Name": "Gleason, Homenick and Moen",
+  "ScreenChooserId": 314,
+  "Name": "Ullrich-Kuvalis",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "modi",
-  "Source": "molestiae",
-  "Registered": "2010-06-12T17:37:39.3934278+02:00",
-  "RegisteredAssociateId": 113,
-  "Updated": "2005-10-07T17:37:39.3934278+02:00",
-  "UpdatedAssociateId": 355,
+  "Enabled": false,
+  "UniqueIdentifier": "eum",
+  "Source": "aut",
+  "Registered": "1998-05-22T14:19:10.912356+02:00",
+  "RegisteredAssociateId": 154,
+  "Updated": "2007-03-19T14:19:10.912356+01:00",
+  "UpdatedAssociateId": 123,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 232
+      "FieldType": "System.String",
+      "FieldLength": 263
     }
   },
   "_Links": {

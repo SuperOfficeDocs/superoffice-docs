@@ -97,7 +97,7 @@ OK
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 696,
-  "ColumnId": 229,
-  "FieldDefault": "ea",
-  "FieldHeight": 469,
-  "FieldLabel": "nihil",
-  "FieldLeft": 605,
-  "FieldTop": 976,
+  "UDefFieldId": 631,
+  "ColumnId": 481,
+  "FieldDefault": "dolores",
+  "FieldHeight": 421,
+  "FieldLabel": "occaecati",
+  "FieldLeft": 863,
+  "FieldTop": 744,
   "FieldType": "Checkbox",
-  "FieldWidth": 392,
-  "FormatMask": "dolorum",
+  "FieldWidth": 510,
+  "FormatMask": "odio",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 167,
-  "LabelLeft": 190,
-  "LabelTop": 403,
-  "LabelWidth": 761,
-  "LastVersionId": 915,
-  "ListTableId": 188,
+  "IsIndexed": true,
+  "LabelHeight": 761,
+  "LabelLeft": 791,
+  "LabelTop": 883,
+  "LabelWidth": 641,
+  "LastVersionId": 569,
+  "ListTableId": 127,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 8,
-  "ProgId": "quae",
-  "IsReadOnly": true,
-  "ShortLabel": "consequatur",
-  "TabOrder": 976,
-  "TextLength": 910,
-  "Tooltip": "facere",
-  "UdefIdentity": 757,
-  "UDListDefinitionId": 429,
+  "Page1LineNo": 869,
+  "ProgId": "tempore",
+  "IsReadOnly": false,
+  "ShortLabel": "autem",
+  "TabOrder": 818,
+  "TextLength": 296,
+  "Tooltip": "laborum",
+  "UdefIdentity": 342,
+  "UDListDefinitionId": 119,
   "Justification": "Center",
-  "Version": 821,
-  "TemplateVariableName": "Stark Group",
+  "Version": 469,
+  "TemplateVariableName": "Erdman, O'Keefe and Jacobson",
   "HasBeenPublished": false,
-  "MdoListName": "Gulgowski LLC",
+  "MdoListName": "Hodkiewicz, Klein and Schmeler",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 507
+      "FieldLength": 196
     }
   }
 }

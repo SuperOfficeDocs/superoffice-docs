@@ -9,7 +9,7 @@ so.topic: howto
 language: en
 ---
 
-# Print email
+# Print an email
 
 1. Go to the inbox.
 2. Select the message you want to print.

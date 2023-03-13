@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.CreateDefaultS
 
 ## CreateDefaultServiceAuth
 
-Loading default values into a new ServiceAuth.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-**Returns:** New ServiceAuth with default values
+
+
 
 [WSDL file for Services88/User](../Services88-User.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultServiceAuth Response
 
 ```xml
@@ -75,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

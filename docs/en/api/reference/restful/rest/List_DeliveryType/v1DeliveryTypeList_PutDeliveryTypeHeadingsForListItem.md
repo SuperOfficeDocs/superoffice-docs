@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 796,
-    "Name": "Yundt Inc and Sons",
-    "ToolTip": "Facilis amet.",
-    "Deleted": true,
-    "Rank": 530,
-    "Type": "quia",
-    "ColorBlock": 815,
-    "IconHint": "aperiam",
+    "Id": 820,
+    "Name": "Tillman, Hackett and Waters",
+    "ToolTip": "Ullam et praesentium est architecto quaerat pariatur.",
+    "Deleted": false,
+    "Rank": 359,
+    "Type": "modi",
+    "ColorBlock": 418,
+    "IconHint": "tempora",
     "Selected": true,
-    "LastChanged": "2022-07-23T17:37:40.0035062+02:00",
+    "LastChanged": "2010-08-19T14:19:11.2418468+02:00",
     "ChildItems": [
       {
-        "Id": 176,
-        "Name": "Weimann, Nicolas and Miller",
-        "ToolTip": "Repellat tempore nihil sunt.",
+        "Id": 529,
+        "Name": "Mraz, Stark and Corkery",
+        "ToolTip": "Nihil ullam.",
         "Deleted": false,
-        "Rank": 154,
-        "Type": "non",
-        "ColorBlock": 531,
-        "IconHint": "suscipit",
+        "Rank": 96,
+        "Type": "aut",
+        "ColorBlock": 643,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2009-09-20T17:37:40.0035062+02:00",
+        "LastChanged": "2016-12-04T14:19:11.2418468+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "laborum",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Mr. Garrison Tre Mayert"
+        "FullName": "Phyllis Effertz"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Dr. Lucius Ned Haag"
+    "ExtraInfo": "velit",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Miss Zechariah Pansy Haley Jr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 367,
-    "Name": "Cummerata-Kutch",
-    "ToolTip": "Harum ducimus fugit et porro.",
-    "Deleted": false,
-    "Rank": 437,
-    "Type": "dolorem",
-    "ColorBlock": 130,
-    "IconHint": "in",
+    "Id": 513,
+    "Name": "Wuckert, Bode and Braun",
+    "ToolTip": "Libero officia corrupti sunt.",
+    "Deleted": true,
+    "Rank": 149,
+    "Type": "tempora",
+    "ColorBlock": 319,
+    "IconHint": "sed",
     "Selected": true,
-    "LastChanged": "2008-02-04T17:37:40.0055007+01:00",
+    "LastChanged": "2016-08-20T14:19:11.2418468+02:00",
     "ChildItems": [
       {
-        "Id": 496,
-        "Name": "Lowe, Breitenberg and Watsica",
-        "ToolTip": "Inventore et suscipit quaerat neque fugit dolor.",
+        "Id": 874,
+        "Name": "Hettinger, Klocko and Romaguera",
+        "ToolTip": "Temporibus ut.",
         "Deleted": true,
-        "Rank": 382,
-        "Type": "voluptatem",
-        "ColorBlock": 673,
-        "IconHint": "voluptas",
+        "Rank": 17,
+        "Type": "enim",
+        "ColorBlock": 740,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2006-02-12T17:37:40.0055007+01:00",
+        "LastChanged": "1998-06-04T14:19:11.2418468+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "eos",
+        "ExtraInfo": "velit",
+        "StyleHint": "cumque",
         "Hidden": false,
-        "FullName": "Mrs. Aileen Wilderman III",
+        "FullName": "Dr. Kyla Lind MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 540
+            "FieldLength": 176
           }
         }
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Jerod Rice",
+    "FullName": "Miss Daphnee VonRueden III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 287
+        "FieldType": "System.String",
+        "FieldLength": 888
       }
     }
   }

@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 482,
-  "Name": "Harris, Graham and Jacobi",
-  "Tooltip": "officiis",
-  "Deleted": true,
-  "UdListDefinitionId": 11,
-  "Rank": 679,
+  "Id": 481,
+  "Name": "Renner, Steuber and Wehner",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "UdListDefinitionId": 775,
+  "Rank": 504,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 200
+      "FieldLength": 96
     }
   }
 }

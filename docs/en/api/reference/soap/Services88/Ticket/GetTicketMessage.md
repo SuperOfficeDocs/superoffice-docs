@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.GetTicketMes
 
 ## GetTicketMessage
 
-Gets a TicketMessage object.
 
-* **ticketMessageId:** The identifier of the TicketMessage object
 
-**Returns:** TicketMessage
+
 
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetTicketMessage Response
 
 ```xml
@@ -65,7 +64,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Ticket:GetTicketMessageResponse>
    <Ticket:Response xsi:type="Ticket:TicketMessage">
     <Ticket:TicketMessageId xsi:type="xsd:int">0</Ticket:TicketMessageId>
-    <Ticket:CreatedAt xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</Ticket:CreatedAt>
+    <Ticket:CreatedAt xsi:type="xsd:dateTime">2023-02-15T13:18:34Z</Ticket:CreatedAt>
     <Ticket:Slevel xsi:type="Ticket:TicketSecurityLevel">Unknown</Ticket:Slevel>
     <Ticket:Important xsi:type="xsd:boolean">false</Ticket:Important>
     <Ticket:Author xsi:type="xsd:string"></Ticket:Author>
@@ -78,6 +77,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Ticket:EmailHeader xsi:type="xsd:string"></Ticket:EmailHeader>
     <Ticket:MessageHeaders xsi:type="Ticket:ArrayOfTicketMessageHeader">
      <Ticket:TicketMessageHeader xsi:type="Ticket:TicketMessageHeader">
+      <Ticket:Id xsi:type="xsd:int">0</Ticket:Id>
       <Ticket:Name xsi:type="xsd:string"></Ticket:Name>
       <Ticket:Value xsi:type="xsd:string"></Ticket:Value>
       <Ticket:StdItem xsi:type="Ticket:MessageHeaderStdItem">None</Ticket:StdItem>
@@ -88,9 +88,11 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Ticket:Sentiment xsi:type="xsd:int">0</Ticket:Sentiment>
     <Ticket:SentimentConfidence xsi:type="xsd:int">0</Ticket:SentimentConfidence>
     <Ticket:CreatedBy xsi:type="xsd:int">0</Ticket:CreatedBy>
+    <Ticket:ChangedAt xsi:type="xsd:dateTime">2023-02-15T13:18:34Z</Ticket:ChangedAt>
    </Ticket:Response>
   </Ticket:GetTicketMessageResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+

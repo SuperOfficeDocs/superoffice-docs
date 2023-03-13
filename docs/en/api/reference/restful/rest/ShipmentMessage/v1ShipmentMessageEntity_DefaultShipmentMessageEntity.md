@@ -76,7 +76,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 213,
-  "PlainMessage": "et",
-  "HtmlMessage": "aut",
-  "SmsMessage": "doloribus",
-  "Description": "Face to face content-based projection",
-  "Subject": "earum",
-  "FolderId": 600,
-  "HeaderField": "consequatur",
-  "Design": "et",
+  "ShipmentMessageId": 381,
+  "PlainMessage": "repellat",
+  "HtmlMessage": "vitae",
+  "SmsMessage": "quia",
+  "Description": "Public-key optimizing challenge",
+  "Subject": "quia",
+  "FolderId": 108,
+  "HeaderField": "iusto",
+  "Design": "qui",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Enterprise-wide stable adapter",
-  "AccessKey": "sunt",
-  "DocumentMessage": 194,
-  "Registered": "2013-12-14T17:37:39.2253032+01:00",
-  "RegisteredAssociateId": 517,
-  "Updated": "2022-06-27T17:37:39.2253032+02:00",
-  "UpdatedAssociateId": 905,
-  "UpdatedCount": 363,
+  "LongDescription": "Balanced context-sensitive knowledge user",
+  "AccessKey": "aperiam",
+  "DocumentMessage": 62,
+  "Registered": "2008-04-09T14:19:10.7873511+02:00",
+  "RegisteredAssociateId": 79,
+  "Updated": "2013-07-21T14:19:10.7873511+02:00",
+  "UpdatedAssociateId": 678,
+  "UpdatedCount": 830,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldLength": 544
     }
   }
 }

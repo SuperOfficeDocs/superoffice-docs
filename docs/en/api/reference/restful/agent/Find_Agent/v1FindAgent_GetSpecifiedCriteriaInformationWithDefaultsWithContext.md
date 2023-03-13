@@ -86,18 +86,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "iusto",
-  "ProviderName": "Volkman, Lueilwitz and Wisoky",
-  "StorageKey": "ex",
+  "StorageType": "reiciendis",
+  "ProviderName": "Toy, Nader and Walter",
+  "StorageKey": "mollitia",
   "DesiredColumnNames": [
-    "Runolfsson, Fay and Orn",
-    "Runte-Hoeger"
+    "Mayert, Cummings and Marks",
+    "Abernathy Group"
   ],
   "StaticColumns": [
-    "possimus",
-    "quibusdam"
+    "qui",
+    "totam"
   ],
-  "Context": "laudantium"
+  "Context": "numquam"
 }
 ```
 
@@ -110,81 +110,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Wehner Group",
-      "Operator": "at",
+      "Name": "Moen LLC",
+      "Operator": "ipsum",
       "Values": [
-        "totam",
-        "culpa"
+        "voluptatum",
+        "ducimus"
       ],
       "DisplayValues": [
-        "consequatur",
-        "harum"
+        "praesentium",
+        "fugiat"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 174,
+      "InterParenthesis": 356,
       "InterOperator": "And",
-      "UniqueHash": 976
+      "UniqueHash": 406
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Kemmer, Bosco and Prohaska",
-      "DisplayTooltip": "laudantium",
-      "DisplayType": "sit",
+      "DisplayName": "Marquardt, Beer and Abbott",
+      "DisplayTooltip": "iste",
+      "DisplayType": "facilis",
       "CanOrderBy": false,
-      "Name": "Lynch LLC",
-      "CanRestrictBy": false,
-      "RestrictionType": "aut",
-      "RestrictionListName": "Wolff-Gutmann",
+      "Name": "Greenholt LLC",
+      "CanRestrictBy": true,
+      "RestrictionType": "sit",
+      "RestrictionListName": "Fahey, Weissnat and Wisoky",
       "IsVisible": false,
-      "ExtraInfo": "ipsa",
-      "Width": "quod",
+      "ExtraInfo": "debitis",
+      "Width": "maiores",
       "IconHint": "eligendi",
-      "HeadingIconHint": "repellat"
+      "HeadingIconHint": "repudiandae"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Frami, Heller and Graham",
-      "PrimaryKey": 650,
+      "EntityName": "Dicki, Windler and Barton",
+      "PrimaryKey": 391,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "in",
-          "TooltipHint": "cum",
-          "LinkHint": "saepe"
+          "DisplayValue": "inventore",
+          "TooltipHint": "aliquam",
+          "LinkHint": "atque"
         }
       },
-      "LinkHint": "mollitia",
-      "StyleHint": "unde",
+      "LinkHint": "aliquam",
+      "StyleHint": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 325
+          "FieldLength": 167
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Hane-Rodriguez",
-      "Description": "Phased methodical info-mediaries",
-      "Rank": 246,
+      "Name": "O'Keefe LLC",
+      "Description": "Customizable reciprocal collaboration",
+      "Rank": 482,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hane-Rodriguez",
-      "Description": "Phased methodical info-mediaries",
-      "Rank": 246,
+      "Name": "O'Keefe LLC",
+      "Description": "Customizable reciprocal collaboration",
+      "Rank": 482,
       "Restrictions": [
         {},
         {}
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 233
+      "FieldType": "System.Int32",
+      "FieldLength": 822
     }
   }
 }

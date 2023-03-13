@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.GetUserFromEjU
 
 ## GetUserFromEjUserId
 
-Get user from ejUserId - used for eJournal Legacy Support.
 
-* **ejUserId:** ejUserId -
+
+
 
 [WSDL file for Services84/User](../Services84-User.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetUserFromEjUserId Response
 
@@ -167,8 +168,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <User:SupportLanguageId xsi:type="xsd:int">0</User:SupportLanguageId>
      </User:Person>
      <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
-     <User:Lastlogin xsi:type="xsd:dateTime">2022-08-26T08:51:57Z</User:Lastlogin>
-     <User:Lastlogout xsi:type="xsd:dateTime">2022-08-26T08:51:57Z</User:Lastlogout>
+     <User:Lastlogin xsi:type="xsd:dateTime">2023-02-15T13:10:29Z</User:Lastlogin>
+     <User:Lastlogout xsi:type="xsd:dateTime">2023-02-15T13:10:29Z</User:Lastlogout>
      <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
      <User:Type xsi:type="User:UserType">Unknown</User:Type>
      <User:IsPersonRetired xsi:type="xsd:boolean">false</User:IsPersonRetired>
@@ -193,3 +194,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

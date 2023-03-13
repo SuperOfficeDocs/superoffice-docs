@@ -82,17 +82,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 798,
+  "TargetDimensionId": 707,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "eveniet",
-  "DimensionListName": "Yundt, McClure and Hermiston",
-  "DimensionListId": 538,
-  "DimensionListLabel": "omnis",
+  "DimensionListField": "aut",
+  "DimensionListName": "Dach LLC",
+  "DimensionListId": 650,
+  "DimensionListLabel": "dolorem",
   "SelectedDimensions": [
-    768,
-    49
+    110,
+    204
   ]
 }
 ```
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 594,
+  "TargetDimensionId": 277,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "autem",
-  "DimensionListName": "Will Group",
-  "DimensionListId": 157,
-  "DimensionListLabel": "voluptatem",
+  "DimensionListField": "dignissimos",
+  "DimensionListName": "Berge Group",
+  "DimensionListId": 371,
+  "DimensionListLabel": "perferendis",
   "SelectedDimensions": [
-    545,
-    949
+    889,
+    476
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 552
+      "FieldLength": 776
     }
   }
 }

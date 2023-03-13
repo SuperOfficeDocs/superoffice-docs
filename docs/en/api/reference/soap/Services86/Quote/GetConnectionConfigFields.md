@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IQuoteAgent.GetConnection
 
 ## GetConnectionConfigFields
 
-Returns the config fields for the connection.
 
-* **quoteConnectionId:** Primary key of the connection
 
-**Returns:** Config Fields
+
 
 [WSDL file for Services86/Quote](../Services86-Quote.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetConnectionConfigFields Response
 
 ```xml
@@ -74,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

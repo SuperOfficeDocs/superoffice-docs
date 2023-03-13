@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 34
+  "ProjectId": 235
 }
 ```
 
@@ -104,30 +104,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 756,
-  "Name": "Pagac-Kling",
-  "Description": "Monitored grid-enabled framework",
+  "ProjectId": 206,
+  "Name": "Corwin-Haag",
+  "Description": "Multi-tiered heuristic artificial intelligence",
   "URL": "http://www.example.com/",
-  "Type": "aut",
-  "AssociateId": 744,
-  "AssociateFullName": "Trey O'Kon",
-  "TypeId": 516,
-  "Updated": "2021-07-08T17:37:18.6622448+02:00",
-  "StatusId": 642,
-  "Status": "magni",
-  "TextId": 556,
-  "PublishTo": "2019-10-05T17:37:18.6622448+02:00",
-  "PublishFrom": "2014-01-26T17:37:18.6622448+01:00",
-  "IsPublished": false,
+  "Type": "debitis",
+  "AssociateId": 513,
+  "AssociateFullName": "Kavon Volkman",
+  "TypeId": 488,
+  "Updated": "2002-03-13T14:19:03.9688343+01:00",
+  "StatusId": 315,
+  "Status": "accusamus",
+  "TextId": 758,
+  "PublishTo": "2004-12-31T14:19:03.9688343+01:00",
+  "PublishFrom": "2008-01-08T14:19:03.9688343+01:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1450999",
-  "ActiveErpLinks": 99,
+  "ProjectNumber": "421150",
+  "ActiveErpLinks": 687,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 440
+      "FieldType": "System.String",
+      "FieldLength": 289
     }
   }
 }

@@ -100,30 +100,30 @@ OK
 POST /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 137,
-  "Name": "Stanton, Gulgowski and Hagenes",
+  "WebhookId": 988,
+  "Name": "Bechtelar-Hills",
   "Events": [
-    "eos",
-    "architecto"
+    "odit",
+    "quaerat"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "similique",
+  "Secret": "modi",
   "State": "Active",
-  "Type": "est",
+  "Type": "neque",
   "Headers": {
-    "Headers1": "quisquam",
-    "Headers2": "et"
+    "Headers1": "enim",
+    "Headers2": "est"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2011-11-01T17:37:39.5984306+01:00",
+  "Registered": "2002-09-13T14:19:11.0845209+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2015-07-08T17:37:39.5984306+02:00",
+  "Updated": "2022-06-15T14:19:11.0845209+02:00",
   "UpdatedAssociate": null
 }
 ```
@@ -135,26 +135,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 64,
-  "Name": "Toy Group",
+  "WebhookId": 424,
+  "Name": "Wintheiser Group",
   "Events": [
-    "iste",
-    "laborum"
+    "error",
+    "totam"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "vel",
+  "Secret": "excepturi",
   "State": "Active",
-  "Type": "velit",
+  "Type": "esse",
   "Headers": {
-    "Headers1": "similique",
-    "Headers2": "ut"
+    "Headers1": "temporibus",
+    "Headers2": "provident"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2005-01-11T17:37:39.6004304+01:00",
+  "Registered": "2016-07-31T14:19:11.0855578+02:00",
   "RegisteredAssociate": null,
-  "Updated": "1998-10-16T17:37:39.6004304+02:00",
+  "Updated": "2003-05-23T14:19:11.0855578+02:00",
   "UpdatedAssociate": null,
   "_Links": {
     "Self": "https://www.example.com/api/v1/contact/321",

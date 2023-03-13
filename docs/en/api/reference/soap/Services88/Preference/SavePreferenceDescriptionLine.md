@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IPreferenceAgent.SavePref
 
 ## SavePreferenceDescriptionLine
 
-Updates the existing PreferenceDescriptionLine or creates a new PreferenceDescriptionLine if the id parameter is 0.
 
-* **preferenceDescriptionLine:** The PreferenceDescriptionLine that is saved.
 
-**Returns:** New or updated PreferenceDescriptionLine
+
 
 [WSDL file for Services88/Preference](../Services88-Preference.md)
 
@@ -56,6 +54,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SavePreferenceDescriptionLine Response
 
 ```xml
@@ -83,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

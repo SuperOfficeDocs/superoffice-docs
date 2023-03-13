@@ -98,16 +98,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 916,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2005-03-02T17:37:17.4392427+01:00",
-  "EndTime": "2000-02-22T17:37:17.4392427+01:00",
-  "Count": 111,
-  "DocumentTemplateId": 210
+  "PersonId": 778,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2010-07-31T14:19:03.2449054+02:00",
+  "EndTime": "2017-08-10T14:19:03.2449054+02:00",
+  "Count": 277,
+  "DocumentTemplateId": 541
 }
 ```
 
@@ -119,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 976,
-    "Attention": "modi",
-    "Header": "sed",
-    "Name": "Torp, O'Connell and Sawayn",
-    "OurRef": "magni",
-    "YourRef": "non",
-    "Description": "Up-sized optimal paradigm",
-    "DocumentTemplate": "provident",
-    "IsPublished": false,
-    "PersonId": 559,
-    "PersonFullName": "Waylon Osinski I",
-    "AssociateFullName": "Porter Mayert",
-    "ContactId": 237,
-    "ContactName": "Schamberger Group",
-    "ProjectId": 43,
-    "ProjectName": "Reichel-Daniel",
-    "AssociateId": 621,
-    "Snum": 268,
-    "SaleId": 501,
-    "SaleName": "Walsh-Osinski",
+    "DocumentId": 389,
+    "Attention": "pariatur",
+    "Header": "ut",
+    "Name": "Mosciski, Tillman and Rippin",
+    "OurRef": "quia",
+    "YourRef": "et",
+    "Description": "Mandatory neutral methodology",
+    "DocumentTemplate": "possimus",
+    "IsPublished": true,
+    "PersonId": 851,
+    "PersonFullName": "Alanis Fritsch",
+    "AssociateFullName": "Mathew Kautzer",
+    "ContactId": 549,
+    "ContactName": "McCullough Inc and Sons",
+    "ProjectId": 563,
+    "ProjectName": "Mueller, Mann and Wisoky",
+    "AssociateId": 518,
+    "Snum": 617,
+    "SaleId": 627,
+    "SaleName": "Carter Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 426
+        "FieldType": "System.Int32",
+        "FieldLength": 400
       }
     }
   }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 692,
-    "Name": "Beatty LLC",
-    "ToolTip": "Dolorem sapiente et et libero ut sunt earum.",
-    "Deleted": false,
-    "Rank": 275,
-    "Type": "enim",
-    "ColorBlock": 887,
-    "IconHint": "ipsam",
+    "Id": 665,
+    "Name": "Johns-Gislason",
+    "ToolTip": "Autem quia veniam odio odio.",
+    "Deleted": true,
+    "Rank": 263,
+    "Type": "quisquam",
+    "ColorBlock": 999,
+    "IconHint": "totam",
     "Selected": false,
-    "LastChanged": "2003-10-09T17:37:40.3624952+02:00",
+    "LastChanged": "2012-07-04T14:19:11.6120888+02:00",
     "ChildItems": [
       {
-        "Id": 767,
-        "Name": "Daugherty-Walter",
-        "ToolTip": "Pariatur laboriosam dolorem ab eos.",
-        "Deleted": false,
-        "Rank": 814,
-        "Type": "repudiandae",
-        "ColorBlock": 796,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2010-05-26T17:37:40.3624952+02:00",
+        "Id": 856,
+        "Name": "Ward, Pagac and Hegmann",
+        "ToolTip": "Ad voluptatibus quia tenetur.",
+        "Deleted": true,
+        "Rank": 344,
+        "Type": "voluptas",
+        "ColorBlock": 925,
+        "IconHint": "dolorum",
+        "Selected": false,
+        "LastChanged": "2009-12-20T14:19:11.6120888+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "veniam",
-        "Hidden": false,
-        "FullName": "Yesenia Jerrold Pacocha PhD"
+        "ExtraInfo": "fugiat",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Gerry Marvin"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "ducimus",
+    "ExtraInfo": "vel",
+    "StyleHint": "odit",
     "Hidden": true,
-    "FullName": "Ms. Rodolfo Parker I"
+    "FullName": "Mrs. Dameon Dianna Spinka"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 952,
-    "Name": "Ryan-Gerlach",
-    "ToolTip": "Ut accusantium voluptatem sit et esse neque.",
+    "Id": 231,
+    "Name": "Schoen-Kirlin",
+    "ToolTip": "Voluptas assumenda rem.",
     "Deleted": false,
-    "Rank": 815,
-    "Type": "quidem",
-    "ColorBlock": 283,
-    "IconHint": "in",
-    "Selected": false,
-    "LastChanged": "2011-07-12T17:37:40.3645004+02:00",
+    "Rank": 263,
+    "Type": "cumque",
+    "ColorBlock": 818,
+    "IconHint": "voluptas",
+    "Selected": true,
+    "LastChanged": "2014-05-23T14:19:11.6276984+02:00",
     "ChildItems": [
       {
-        "Id": 242,
-        "Name": "Hudson Group",
-        "ToolTip": "Rerum enim laboriosam maxime tempore saepe doloribus molestiae.",
+        "Id": 476,
+        "Name": "Pagac-Harvey",
+        "ToolTip": "Et mollitia vel molestias.",
         "Deleted": false,
-        "Rank": 162,
-        "Type": "officia",
-        "ColorBlock": 5,
-        "IconHint": "modi",
-        "Selected": true,
-        "LastChanged": "2017-03-06T17:37:40.3645004+01:00",
+        "Rank": 888,
+        "Type": "expedita",
+        "ColorBlock": 906,
+        "IconHint": "minus",
+        "Selected": false,
+        "LastChanged": "2003-01-05T14:19:11.6276984+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Prof. Fritz Bartoletti",
+        "ExtraInfo": "vel",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Miss Chase Crona",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 341
+            "FieldLength": 415
           }
         }
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "saepe",
+    "ExtraInfo": "eum",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Ethan Nitzsche",
+    "FullName": "Rupert Scarlett Nikolaus Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 330
+        "FieldLength": 152
       }
     }
   }

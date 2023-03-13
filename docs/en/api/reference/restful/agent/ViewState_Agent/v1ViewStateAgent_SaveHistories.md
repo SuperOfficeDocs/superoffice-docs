@@ -85,16 +85,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Hahn-Schultz",
+  "HistoryName": "Paucek, Wilderman and Harber",
   "History": [
     {
-      "Rank": 836,
-      "Id": 661,
-      "HistoryName": "Bartell LLC",
-      "HistoryId": 934,
-      "AssociateId": 703,
-      "Name": "Upton Inc and Sons",
-      "ItemInfo": "maxime"
+      "Rank": 6,
+      "Id": 446,
+      "HistoryName": "Brakus-Erdman",
+      "HistoryId": 837,
+      "AssociateId": 937,
+      "Name": "Tremblay, Emmerich and Friesen",
+      "ItemInfo": "molestiae"
     }
   ]
 }
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 871,
-    "Id": 382,
-    "HistoryName": "Koelpin-Grimes",
-    "HistoryId": 330,
-    "AssociateId": 974,
-    "Name": "Wuckert Inc and Sons",
-    "ItemInfo": "laboriosam",
+    "Rank": 487,
+    "Id": 971,
+    "HistoryName": "Nolan, Cole and Purdy",
+    "HistoryId": 623,
+    "AssociateId": 377,
+    "Name": "Harber-Miller",
+    "ItemInfo": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 652
+        "FieldType": "System.String",
+        "FieldLength": 238
       }
     }
   }

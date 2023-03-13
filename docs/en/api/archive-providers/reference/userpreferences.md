@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "UserPreferences"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -28,9 +28,8 @@ Preferences have multiple sources: the userpreference table (<see cref="T:SuperO
 Service settings that are mapped into preferences, retrieved by <see cref="T:SuperOffice.CRM.ArchiveLists.MappedPreferenceProvider" />.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"default"|[default]|
 |"system"|[system]|
 |"database"|Database|
@@ -38,9 +37,8 @@ Service settings that are mapped into preferences, retrieved by <see cref="T:Sup
 |"user"|User|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sectionKey|string|Section!Key|  |
 |getAllRows| *None* |GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows| *None* |GetNone: Do not get any rows from the archive|  |
@@ -66,4 +64,7 @@ Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

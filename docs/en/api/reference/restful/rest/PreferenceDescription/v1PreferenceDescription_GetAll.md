@@ -71,7 +71,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,30 +82,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 161,
-    "Section": "autem",
-    "Key": "dolorum",
-    "Name": "Upton, Moore and Klein",
+    "PrefDescId": 162,
+    "Section": "ea",
+    "Key": "ut",
+    "Name": "Beier-Senger",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Profit-focused composite hierarchy",
-    "IsBuiltin": false,
-    "TableName": "Kub, Emmerich and Watsica",
-    "UserDefinedListId": 424,
-    "Rank": 228,
-    "SubGroup": "corrupti",
-    "MinLevel": 171,
-    "MaxValue": 156,
-    "MinValue": 400,
-    "RequiredLicense": "delectus",
+    "Description": "Stand-alone transitional moderator",
+    "IsBuiltin": true,
+    "TableName": "Morar-Frami",
+    "UserDefinedListId": 580,
+    "Rank": 455,
+    "SubGroup": "perferendis",
+    "MinLevel": 601,
+    "MaxValue": 232,
+    "MinValue": 879,
+    "RequiredLicense": "optio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 6
+        "FieldType": "System.String",
+        "FieldLength": 845
       }
     }
   }

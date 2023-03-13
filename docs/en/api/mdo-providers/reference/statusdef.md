@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "statusdef"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,9 +15,10 @@ so.envir:
 ---
 
 # "statusdef" MDO List
-
 Return list of status monitors defined in the system.
 Additional info query parameter = "Contact" or "project".
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.StatusDefProvider">StatusDefProvider</see> class.
 The name of the MDO list is 'statusdef'.
@@ -31,6 +32,10 @@ The name of the MDO list is 'statusdef'.
 
 Separator: &
 
+
+
+
+
 ## Sample Request
 
 ```http!
@@ -42,7 +47,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("statusdef", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -58,6 +62,7 @@ foreach (var item in listProvider.RootItems) {
 |2|C-company||IsVisual=True&OwnerTable=contact&BinaryObjectId=306|
 |3|Not completed activites with intention sale||IsVisual=True&OwnerTable=project&BinaryObjectId=445|
 |1|Neglected customer||IsVisual=True&OwnerTable=contact&BinaryObjectId=307|
+
 
 ## Related MDO Lists
 

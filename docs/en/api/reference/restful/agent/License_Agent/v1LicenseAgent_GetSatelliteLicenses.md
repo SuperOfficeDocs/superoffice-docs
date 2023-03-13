@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 970
+  "SatelliteId": 498
 }
 ```
 
@@ -91,56 +91,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lowe Group",
-    "Description": "Managed mission-critical productivity",
+    "Name": "Hauck-Fahey",
+    "Description": "Synergistic cohesive circuit",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 342,
-        "Tooltip": "accusamus",
-        "CanAssign": false,
-        "Free": 739,
-        "InUse": 923,
+        "Unrestricted": false,
+        "Total": 642,
+        "Tooltip": "beatae",
+        "CanAssign": true,
+        "Free": 190,
+        "InUse": 818,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 188,
-        "Name": "Littel, Bernhard and Howe",
-        "Description": "De-engineered fresh-thinking encoding",
-        "PrerequisiteModuleName": "Kilback-Kunze",
-        "SortOrder": 877,
-        "ExtraFlags": 311,
+        "ModuleLicenseId": 58,
+        "Name": "Hartmann, Rohan and Dare",
+        "Description": "Balanced holistic hub",
+        "PrerequisiteModuleName": "Buckridge, Haag and Dibbert",
+        "SortOrder": 689,
+        "ExtraFlags": 765,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 532
+            "FieldType": "System.Int32",
+            "FieldLength": 680
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 701,
-        "Tooltip": "repellendus",
-        "CanAssign": false,
-        "Free": 453,
-        "InUse": 475,
+        "Unrestricted": false,
+        "Total": 326,
+        "Tooltip": "sint",
+        "CanAssign": true,
+        "Free": 12,
+        "InUse": 708,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 787,
-        "Name": "Koelpin, Davis and Heller",
-        "Description": "Future-proofed real-time encryption",
-        "PrerequisiteModuleName": "Welch, Walter and Rempel",
-        "SortOrder": 368,
-        "ExtraFlags": 868,
+        "ModuleLicenseId": 885,
+        "Name": "Roob LLC",
+        "Description": "Intuitive directional customer loyalty",
+        "PrerequisiteModuleName": "McDermott-Weimann",
+        "SortOrder": 528,
+        "ExtraFlags": 945,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 354
+            "FieldType": "System.Int32",
+            "FieldLength": 165
           }
         }
       }
@@ -150,61 +150,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 406
+        "FieldLength": 375
       }
     }
   },
   {
-    "Name": "Lowe Group",
-    "Description": "Managed mission-critical productivity",
+    "Name": "Hauck-Fahey",
+    "Description": "Synergistic cohesive circuit",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 342,
-        "Tooltip": "accusamus",
-        "CanAssign": false,
-        "Free": 739,
-        "InUse": 923,
+        "Unrestricted": false,
+        "Total": 642,
+        "Tooltip": "beatae",
+        "CanAssign": true,
+        "Free": 190,
+        "InUse": 818,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 188,
-        "Name": "Littel, Bernhard and Howe",
-        "Description": "De-engineered fresh-thinking encoding",
-        "PrerequisiteModuleName": "Kilback-Kunze",
-        "SortOrder": 877,
-        "ExtraFlags": 311,
+        "ModuleLicenseId": 58,
+        "Name": "Hartmann, Rohan and Dare",
+        "Description": "Balanced holistic hub",
+        "PrerequisiteModuleName": "Buckridge, Haag and Dibbert",
+        "SortOrder": 689,
+        "ExtraFlags": 765,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 532
+            "FieldType": "System.Int32",
+            "FieldLength": 680
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 701,
-        "Tooltip": "repellendus",
-        "CanAssign": false,
-        "Free": 453,
-        "InUse": 475,
+        "Unrestricted": false,
+        "Total": 326,
+        "Tooltip": "sint",
+        "CanAssign": true,
+        "Free": 12,
+        "InUse": 708,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 787,
-        "Name": "Koelpin, Davis and Heller",
-        "Description": "Future-proofed real-time encryption",
-        "PrerequisiteModuleName": "Welch, Walter and Rempel",
-        "SortOrder": 368,
-        "ExtraFlags": 868,
+        "ModuleLicenseId": 885,
+        "Name": "Roob LLC",
+        "Description": "Intuitive directional customer loyalty",
+        "PrerequisiteModuleName": "McDermott-Weimann",
+        "SortOrder": 528,
+        "ExtraFlags": 945,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 354
+            "FieldType": "System.Int32",
+            "FieldLength": 165
           }
         }
       }
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 406
+        "FieldLength": 375
       }
     }
   }

@@ -1069,190 +1069,107 @@ title: Services84.AudienceAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Audience">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Audience</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultAudienceLayoutEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new AudienceLayoutEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/CreateDefaultAudienceLayoutEntity" name="CreateDefaultAudienceLayoutEntityRequest" message="tns:CreateDefaultAudienceLayoutEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/CreateDefaultAudienceLayoutEntityResponse" name="CreateDefaultAudienceLayoutEntityResponse" message="tns:CreateDefaultAudienceLayoutEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveAudienceLayoutEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing AudienceLayoutEntity or creates a new AudienceLayoutEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/SaveAudienceLayoutEntity" name="SaveAudienceLayoutEntityRequest" message="tns:SaveAudienceLayoutEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/SaveAudienceLayoutEntityResponse" name="SaveAudienceLayoutEntityResponse" message="tns:SaveAudienceLayoutEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteAudienceLayoutEntity">
-      <wsdl:documentation>
-        <summary>Deletes the AudienceLayoutEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/DeleteAudienceLayoutEntity" name="DeleteAudienceLayoutEntityRequest" message="tns:DeleteAudienceLayoutEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/DeleteAudienceLayoutEntityResponse" name="DeleteAudienceLayoutEntityResponse" message="tns:DeleteAudienceLayoutEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveConfigParameter">
-      <wsdl:documentation>
-        <summary>Saves an Audience configuration parameter belonging to a Audience layout</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/SaveConfigParameter" name="SaveConfigParameterRequest" message="tns:SaveConfigParameterRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/SaveConfigParameterResponse" name="SaveConfigParameterResponse" message="tns:SaveConfigParameterResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConfigParameterValue">
-      <wsdl:documentation>
-        <summary>Gets the string value of an Audience configuration parameter belonging to a given Audience layout with the specified configuration parameter name</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetConfigParameterValue" name="GetConfigParameterValueRequest" message="tns:GetConfigParameterValueRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetConfigParameterValueResponse" name="GetConfigParameterValueResponse" message="tns:GetConfigParameterValueResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConfigParameter">
-      <wsdl:documentation>
-        <summary>Gets an Audience configuration parameter belonging to a given Audience layout with the specified configuration parameter name</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetConfigParameter" name="GetConfigParameterRequest" message="tns:GetConfigParameterRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetConfigParameterResponse" name="GetConfigParameterResponse" message="tns:GetConfigParameterResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteConfigParameter">
-      <wsdl:documentation>
-        <summary>Deletes an Audience configuration parameter belonging to a Audience layout</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/DeleteConfigParameter" name="DeleteConfigParameterRequest" message="tns:DeleteConfigParameterRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/DeleteConfigParameterResponse" name="DeleteConfigParameterResponse" message="tns:DeleteConfigParameterResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyConfigParameter">
-      <wsdl:documentation>
-        <summary>Gets an Audience configuration parameter belonging to the currently logged on user with the specified configuration parameter name.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetMyConfigParameter" name="GetMyConfigParameterRequest" message="tns:GetMyConfigParameterRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetMyConfigParameterResponse" name="GetMyConfigParameterResponse" message="tns:GetMyConfigParameterResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyConfigParameterValue">
-      <wsdl:documentation>
-        <summary>Gets the string value of an Audience configuration parameter belonging to the currently logged on user with the specified configuration parameter name.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetMyConfigParameterValue" name="GetMyConfigParameterValueRequest" message="tns:GetMyConfigParameterValueRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetMyConfigParameterValueResponse" name="GetMyConfigParameterValueResponse" message="tns:GetMyConfigParameterValueResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConfigParameterValueOnPerson">
-      <wsdl:documentation>
-        <summary>Gets the string value of an Audience configuration parameter with the specified configuration parameter name on the person specified</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetConfigParameterValueOnPerson" name="GetConfigParameterValueOnPersonRequest" message="tns:GetConfigParameterValueOnPersonRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetConfigParameterValueOnPersonResponse" name="GetConfigParameterValueOnPersonResponse" message="tns:GetConfigParameterValueOnPersonResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConfigParameterOnPerson">
-      <wsdl:documentation>
-        <summary>Gets an Audience configuration parameter with the specified configuration parameter name on the person specified</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetConfigParameterOnPerson" name="GetConfigParameterOnPersonRequest" message="tns:GetConfigParameterOnPersonRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetConfigParameterOnPersonResponse" name="GetConfigParameterOnPersonResponse" message="tns:GetConfigParameterOnPersonResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConfigParametersByLayoutName">
-      <wsdl:documentation>
-        <summary>Gets the Audience configuration parameters belonging to a given Audience layout.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetConfigParametersByLayoutName" name="GetConfigParametersByLayoutNameRequest" message="tns:GetConfigParametersByLayoutNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetConfigParametersByLayoutNameResponse" name="GetConfigParametersByLayoutNameResponse" message="tns:GetConfigParametersByLayoutNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyConfigParameters">
-      <wsdl:documentation>
-        <summary>Gets the Audience configuration parameters belonging to the currently logged on user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetMyConfigParameters" name="GetMyConfigParametersRequest" message="tns:GetMyConfigParametersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetMyConfigParametersResponse" name="GetMyConfigParametersResponse" message="tns:GetMyConfigParametersResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConfigParametersOnPerson">
-      <wsdl:documentation>
-        <summary>Gets the Audience configuration parameters belonging to the person specified</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetConfigParametersOnPerson" name="GetConfigParametersOnPersonRequest" message="tns:GetConfigParametersOnPersonRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetConfigParametersOnPersonResponse" name="GetConfigParametersOnPersonResponse" message="tns:GetConfigParametersOnPersonResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAudienceLayoutEntity">
-      <wsdl:documentation>
-        <summary>Gets a AudienceLayoutEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetAudienceLayoutEntity" name="GetAudienceLayoutEntityRequest" message="tns:GetAudienceLayoutEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetAudienceLayoutEntityResponse" name="GetAudienceLayoutEntityResponse" message="tns:GetAudienceLayoutEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAudienceLayoutByName">
-      <wsdl:documentation>
-        <summary>Gets an Audience layout by it's instance name</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetAudienceLayoutByName" name="GetAudienceLayoutByNameRequest" message="tns:GetAudienceLayoutByNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetAudienceLayoutByNameResponse" name="GetAudienceLayoutByNameResponse" message="tns:GetAudienceLayoutByNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyAudienceLayout">
-      <wsdl:documentation>
-        <summary>Gets the Audience layout belonging to the currently logged on user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetMyAudienceLayout" name="GetMyAudienceLayoutRequest" message="tns:GetMyAudienceLayoutRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetMyAudienceLayoutResponse" name="GetMyAudienceLayoutResponse" message="tns:GetMyAudienceLayoutResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAudienceLayoutOnPerson">
-      <wsdl:documentation>
-        <summary>Gets the Audience layout belonging to the person specified.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetAudienceLayoutOnPerson" name="GetAudienceLayoutOnPersonRequest" message="tns:GetAudienceLayoutOnPersonRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetAudienceLayoutOnPersonResponse" name="GetAudienceLayoutOnPersonResponse" message="tns:GetAudienceLayoutOnPersonResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDefaultProjectImage">
-      <wsdl:documentation>
-        <summary>Returns the default project or event image that is displayed in Audience when no project/event image is found. The image belongs to a specific Audience layout instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetDefaultProjectImage" name="GetDefaultProjectImageRequest" message="tns:GetDefaultProjectImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetDefaultProjectImageResponse" name="GetDefaultProjectImageResponse" message="tns:GetDefaultProjectImageResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetDefaultProjectImage">
-      <wsdl:documentation>
-        <summary>Stores the default project or event image that is displayed in Audience when no project/event image is found. The image is set on a specific Audience layout instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/SetDefaultProjectImage" name="SetDefaultProjectImageRequest" message="tns:SetDefaultProjectImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/SetDefaultProjectImageResponse" name="SetDefaultProjectImageResponse" message="tns:SetDefaultProjectImageResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetDefaultPersonImage">
-      <wsdl:documentation>
-        <summary>Stores the default person (sales rep) image that is displayed in Audience when no person image is found. The image is set on a specific Audience layout instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/SetDefaultPersonImage" name="SetDefaultPersonImageRequest" message="tns:SetDefaultPersonImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/SetDefaultPersonImageResponse" name="SetDefaultPersonImageResponse" message="tns:SetDefaultPersonImageResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDefaultPersonImage">
-      <wsdl:documentation>
-        <summary>Returns the default person (sales rep) image that is displayed in Audience when no person image is found. The image belongs to a specific Audience layout instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetDefaultPersonImage" name="GetDefaultPersonImageRequest" message="tns:GetDefaultPersonImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetDefaultPersonImageResponse" name="GetDefaultPersonImageResponse" message="tns:GetDefaultPersonImageResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetDefaultCountryFlag">
-      <wsdl:documentation>
-        <summary>Stores the default country flag image that is displayed in Audience when no person image is found. The image is set on a specific Audience layout instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/SetDefaultCountryFlag" name="SetDefaultCountryFlagRequest" message="tns:SetDefaultCountryFlagRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/SetDefaultCountryFlagResponse" name="SetDefaultCountryFlagResponse" message="tns:SetDefaultCountryFlagResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDefaultCountryFlag">
-      <wsdl:documentation>
-        <summary>Returns the default country flag image that is displayed in Audience when no person image is found. The image belongs to a specific Audience layout instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetDefaultCountryFlag" name="GetDefaultCountryFlagRequest" message="tns:GetDefaultCountryFlagRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetDefaultCountryFlagResponse" name="GetDefaultCountryFlagResponse" message="tns:GetDefaultCountryFlagResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetLogoImage">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetLogoImage" name="GetLogoImageRequest" message="tns:GetLogoImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/GetLogoImageResponse" name="GetLogoImageResponse" message="tns:GetLogoImageResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetLogoImage">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/SetLogoImage" name="SetLogoImageRequest" message="tns:SetLogoImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Audience/SetLogoImageResponse" name="SetLogoImageResponse" message="tns:SetLogoImageResponse" />
     </wsdl:operation>
@@ -1683,3 +1600,4 @@ title: Services84.AudienceAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

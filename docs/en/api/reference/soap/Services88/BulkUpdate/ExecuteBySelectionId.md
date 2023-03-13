@@ -11,15 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IBulkUpdateAgent.ExecuteB
 
 ## ExecuteBySelectionId
 
-Do the batchupdate on this selection
 
-* **fieldValueInfos:** The name of the wanted tablename
-* **tableName:** The name of the table to bulk update
-* **context:** Where is the function called for
-* **selectionId:** The id of the selection
-* **isShadow:** Use the shadow selection
 
-**Returns:** Return batchtaskinfoid
+
 
 [WSDL file for Services88/BulkUpdate](../Services88-BulkUpdate.md)
 
@@ -99,6 +93,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ExecuteBySelectionId Response
 
 ```xml
@@ -119,3 +114,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

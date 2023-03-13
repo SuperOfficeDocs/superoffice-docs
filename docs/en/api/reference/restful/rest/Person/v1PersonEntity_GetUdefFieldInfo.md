@@ -92,7 +92,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 439,
-  "ColumnId": 844,
-  "FieldDefault": "ex",
-  "FieldHeight": 46,
-  "FieldLabel": "illum",
-  "FieldLeft": 523,
-  "FieldTop": 951,
+  "UDefFieldId": 593,
+  "ColumnId": 946,
+  "FieldDefault": "voluptatem",
+  "FieldHeight": 723,
+  "FieldLabel": "distinctio",
+  "FieldLeft": 303,
+  "FieldTop": 471,
   "FieldType": "Checkbox",
-  "FieldWidth": 318,
-  "FormatMask": "nihil",
+  "FieldWidth": 226,
+  "FormatMask": "aut",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 268,
-  "LabelLeft": 395,
-  "LabelTop": 270,
-  "LabelWidth": 746,
-  "LastVersionId": 904,
-  "ListTableId": 583,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 564,
+  "LabelLeft": 82,
+  "LabelTop": 408,
+  "LabelWidth": 445,
+  "LastVersionId": 833,
+  "ListTableId": 200,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 430,
-  "ProgId": "eum",
+  "Page1LineNo": 952,
+  "ProgId": "debitis",
   "IsReadOnly": false,
-  "ShortLabel": "voluptas",
-  "TabOrder": 617,
-  "TextLength": 872,
-  "Tooltip": "aut",
-  "UdefIdentity": 709,
-  "UDListDefinitionId": 834,
+  "ShortLabel": "dolores",
+  "TabOrder": 943,
+  "TextLength": 365,
+  "Tooltip": "reprehenderit",
+  "UdefIdentity": 396,
+  "UDListDefinitionId": 391,
   "Justification": "Center",
-  "Version": 207,
-  "TemplateVariableName": "O'Conner LLC",
+  "Version": 319,
+  "TemplateVariableName": "Baumbach Inc and Sons",
   "HasBeenPublished": true,
-  "MdoListName": "Moen Group",
+  "MdoListName": "Bernier, Herzog and Bogisich",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 621
+      "FieldType": "System.String",
+      "FieldLength": 527
     }
   }
 }

@@ -76,12 +76,12 @@ OK
 POST /api/v1/Agents/Chat/GetChatTopicUserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 8,
-  "Username": "nobis"
+  "ChatTopicId": 167,
+  "Username": "possimus"
 }
 ```
 
@@ -92,10 +92,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 749,
+  "TopicId": 839,
   "User": null,
   "CanListen": true,
-  "CanRespond": true,
+  "CanRespond": false,
   "CanManage": false,
   "CanNotify": false
 }

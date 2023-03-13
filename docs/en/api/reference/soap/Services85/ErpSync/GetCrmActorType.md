@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IErpSyncAgent.GetCrmActor
 
 ## GetCrmActorType
 
-Retrieves the CrmActorType that are mapped to a specific ErpActorType for this connection
 
-* **erpConnectionId:** The ERP connection ID
-* **erpActorType:** The ERP actor type
 
-**Returns:** The CrmActorType
+
 
 [WSDL file for Services85/ErpSync](../Services85-ErpSync.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetCrmActorType Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

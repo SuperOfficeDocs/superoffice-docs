@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.ChangeOwnPassw
 
 ## ChangeOwnPassword
 
-Change password for a user.
 
-* **oldPassword:** The current password of the user.  Administrators can leave this blank to force a new password upon a user.
-* **newPassword:** The new password for the user
 
-**Returns:** True if the password was successfully changed.
+
 
 [WSDL file for Services84/User](../Services84-User.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ChangeOwnPassword Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

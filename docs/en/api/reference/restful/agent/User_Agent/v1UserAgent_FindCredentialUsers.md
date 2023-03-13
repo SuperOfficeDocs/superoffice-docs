@@ -80,8 +80,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "hic",
-  "SearchString": "sapiente"
+  "Type": "et",
+  "SearchString": "odit"
 }
 ```
 
@@ -93,41 +93,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "vitae",
-    "animi"
+    "earum",
+    "quo"
   ],
   "Users": [
     {
-      "Value": "deleniti",
-      "DisplayValue": "voluptatum",
+      "Value": "mollitia",
+      "DisplayValue": "ut",
       "Columns": [
-        "eveniet",
-        "molestias"
+        "est",
+        "dolores"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 793
+          "FieldType": "System.Int32",
+          "FieldLength": 355
         }
       }
     },
     {
-      "Value": "deleniti",
-      "DisplayValue": "voluptatum",
+      "Value": "mollitia",
+      "DisplayValue": "ut",
       "Columns": [
-        "eveniet",
-        "molestias"
+        "est",
+        "dolores"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 793
+          "FieldType": "System.Int32",
+          "FieldLength": 355
         }
       }
     }
@@ -137,7 +137,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 87
+      "FieldLength": 670
     }
   }
 }

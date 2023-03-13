@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SaleGuideAppointment"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,16 +25,14 @@ This class provides the needed overrides and concrete implementations needed by 
 to drive the sentry calculations, as well as the specialization with the correct root extender
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"suggestedAppointment"|Follow-ups|
 |"appointment"|Follow-ups|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |saleId|int|Sale ID: The database ID of the sale record| x |
@@ -54,7 +52,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |deleted|bool|Deleted: Has this suggestion been deleted by the administrator?| x |
 |isMilestone|bool|Milestone: Shows whether or not the follow-ups in this row are milestones| x |
 |appointmentInstance/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|appointmentInstance/icon|string|Category: Displays the icon for an activity type| x |
+|appointmentInstance/icon|listAny|Category: Displays the icon for an activity type| x |
 |appointmentInstance/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |appointmentInstance/time| *None* |Time: Time|  |
 |appointmentInstance/type|listAny|Type: Displays the type of an activity| x |
@@ -93,6 +91,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
 |appointmentInstance/recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |appointmentInstance/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
+|appointmentInstance/duration|timeSpan|Duration: The duration of the chat session|  |
 |appointmentInstance/visibleFor|listAny|Visible for|  |
 |appointmentInstance/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |appointmentInstance/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -575,7 +574,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/project/project/textId|int|Text ID| x |
 |appointmentInstance/project/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |appointmentInstance/sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|appointmentInstance/sale/icon|string|Category: Displays the icon for an activity type| x |
+|appointmentInstance/sale/icon|listAny|Category: Displays the icon for an activity type| x |
 |appointmentInstance/sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |appointmentInstance/sale/time| *None* |Time: Time|  |
 |appointmentInstance/sale/type|listAny|Type: Displays the type of an activity| x |
@@ -703,11 +702,14 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuideAppointment?$select=suggestedItemText,isMilestone,appointmentInstance/contact/streetAddress/state,appointmentInstance/contact/saintTicketStatus,appointmentInstance/project/projectAssociate/contactDepartment
+GET /api/v1/archive/SaleGuideAppointment?$select=appointmentInstance/date,appointmentInstance/contact/NumberOfNotCompletedSales,appointmentInstance/contact/LastTicket,appointmentInstance/person/lastName,appointmentInstance/person/rank
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

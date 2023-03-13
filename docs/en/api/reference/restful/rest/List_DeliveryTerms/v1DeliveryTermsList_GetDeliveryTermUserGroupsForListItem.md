@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 820,
-    "Name": "Pacocha, Haag and Klein",
-    "ToolTip": "Praesentium consequuntur libero.",
+    "Id": 451,
+    "Name": "Hodkiewicz Inc and Sons",
+    "ToolTip": "Totam aperiam consectetur dolorem ut in quidem.",
     "Deleted": false,
-    "Rank": 672,
-    "Type": "occaecati",
-    "ColorBlock": 13,
-    "IconHint": "qui",
+    "Rank": 228,
+    "Type": "nesciunt",
+    "ColorBlock": 708,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2020-11-11T17:37:39.9814709+01:00",
+    "LastChanged": "2006-06-29T14:19:11.2262177+02:00",
     "ChildItems": [
       {
-        "Id": 445,
-        "Name": "Swaniawski-Considine",
-        "ToolTip": "Magnam inventore et.",
-        "Deleted": false,
-        "Rank": 319,
-        "Type": "hic",
-        "ColorBlock": 769,
-        "IconHint": "odio",
+        "Id": 13,
+        "Name": "Mueller Group",
+        "ToolTip": "Autem quia sint impedit necessitatibus voluptatem aperiam est.",
+        "Deleted": true,
+        "Rank": 962,
+        "Type": "dolore",
+        "ColorBlock": 269,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2011-02-07T17:37:39.9814709+01:00",
+        "LastChanged": "2017-02-03T14:19:11.2262177+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "harum",
+        "StyleHint": "animi",
         "Hidden": false,
-        "FullName": "Mohammed Kozey",
+        "FullName": "Germaine Hamill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 74
+            "FieldLength": 86
           }
         }
       }
     ],
-    "ExtraInfo": "doloribus",
-    "StyleHint": "vel",
+    "ExtraInfo": "est",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Prof. Malvina Hegmann",
+    "FullName": "Bernhard Mueller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 494
+        "FieldType": "System.String",
+        "FieldLength": 806
       }
     }
   }

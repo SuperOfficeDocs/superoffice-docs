@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Ondricka Inc and Sons",
-  "TypicalSearchId": 740
+  "EntityName": "Hudson, Volkman and Wiegand",
+  "TypicalSearchId": 925
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hyatt, Funk and Funk",
-  "SelectionId": 569,
+  "ProviderName": "Watsica Group",
+  "SelectionId": 649,
   "CanSaveAsSelection": false,
-  "MainHeading": "officiis",
-  "FilterScreenHeading": "reiciendis",
-  "SelectionEntityHeading": "laborum",
+  "MainHeading": "suscipit",
+  "FilterScreenHeading": "ipsa",
+  "SelectionEntityHeading": "a",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 678
+      "FieldLength": 967
     }
   }
 }

@@ -93,20 +93,20 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 822,
-  "ERPPriceListKey": "eligendi",
-  "QuoteConnectionId": 76,
-  "Name": "Fay, Koepp and Goyette",
-  "Description": "Extended fault-tolerant system engine",
-  "Currency": "et",
-  "CurrencyName": "Frami-Gottlieb",
-  "ValidFrom": "2017-06-11T17:37:40.1175006+02:00",
-  "ValidTo": "2006-08-16T17:37:40.1175006+02:00",
-  "IsActive": false
+  "PriceListId": 743,
+  "ERPPriceListKey": "fuga",
+  "QuoteConnectionId": 700,
+  "Name": "Corkery LLC",
+  "Description": "Fundamental zero tolerance interface",
+  "Currency": "perspiciatis",
+  "CurrencyName": "Kirlin-Considine",
+  "ValidFrom": "2020-08-22T14:19:11.3367817+02:00",
+  "ValidTo": "2007-11-19T14:19:11.3367817+01:00",
+  "IsActive": true
 }
 ```
 
@@ -117,22 +117,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 699,
-  "ERPPriceListKey": "consectetur",
-  "QuoteConnectionId": 127,
-  "Name": "Kuphal, Lesch and Fadel",
-  "Description": "Secured directional superstructure",
-  "Currency": "sint",
-  "CurrencyName": "Kutch Inc and Sons",
-  "ValidFrom": "2011-03-16T17:37:40.1175006+01:00",
-  "ValidTo": "2009-03-04T17:37:40.1175006+01:00",
+  "PriceListId": 787,
+  "ERPPriceListKey": "et",
+  "QuoteConnectionId": 580,
+  "Name": "Larson-Bauch",
+  "Description": "Pre-emptive system-worthy challenge",
+  "Currency": "natus",
+  "CurrencyName": "O'Connell Group",
+  "ValidFrom": "2005-10-19T14:19:11.3367817+02:00",
+  "ValidTo": "2010-07-30T14:19:11.3367817+02:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 239
+      "FieldLength": 568
     }
   },
   "_Links": {

@@ -87,8 +87,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 72,
-  "Type": "nesciunt"
+  "AssociateId": 71,
+  "Type": "aliquid"
 }
 ```
 
@@ -100,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2002-11-12T17:37:19.5839762+01:00",
-    "ValidTo": "2005-11-17T17:37:19.5839762+01:00",
-    "Comment": "quo",
-    "SecretValue": "ipsa",
-    "PublicValue": "quia",
-    "IsActive": false,
+    "ValidFrom": "2001-04-20T14:19:04.5953265+02:00",
+    "ValidTo": "2001-07-01T14:19:04.5953265+02:00",
+    "Comment": "deserunt",
+    "SecretValue": "magni",
+    "PublicValue": "et",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 34
+        "FieldLength": 876
       }
     }
   }

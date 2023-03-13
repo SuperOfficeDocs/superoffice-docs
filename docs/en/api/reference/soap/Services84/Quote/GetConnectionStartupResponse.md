@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.GetConnection
 
 ## GetConnectionStartupResponse
 
-Returns the PluginResponseInfo for the connection initialization. Does not initialize the connection, just returns what happened when initialize was called.
 
-* **quoteConnectionId:** Primary key of the connection
 
-**Returns:** PluginResponseInfo for the connection initialization.
+
 
 [WSDL file for Services84/Quote](../Services84-Quote.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetConnectionStartupResponse Response
 
@@ -94,3 +93,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

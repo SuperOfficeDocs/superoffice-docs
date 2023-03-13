@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IFreeTextAgent.Regenerate
 
 ## RegenerateIndex
 
-Wipe and regenerate the freetext index by scanning the database (freetext search will be unavailable while this operation runs
 
-* **runAsBatch:** If true, then execute the regeneration as a Batch Task; the service call will return immediately. Otherwise wait until the task completes, may cause a timeout if called as a Web Service
 
-**Returns:** Information about the batch task, if batch execution was requested. Otherwise null
+
 
 [WSDL file for Services88/FreeText](../Services88-FreeText.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RegenerateIndex Response
 
 ```xml
@@ -77,8 +76,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <FreeText:Value xsi:type="xsd:string"></FreeText:Value>
      </FreeText:StringKeyValuePair>
     </FreeText:ParameterObject>
-    <FreeText:LastStarted xsi:type="xsd:dateTime">2022-08-26T08:59:37Z</FreeText:LastStarted>
-    <FreeText:Created xsi:type="xsd:dateTime">2022-08-26T08:59:37Z</FreeText:Created>
+    <FreeText:LastStarted xsi:type="xsd:dateTime">2023-02-15T13:17:36Z</FreeText:LastStarted>
+    <FreeText:Created xsi:type="xsd:dateTime">2023-02-15T13:17:36Z</FreeText:Created>
     <FreeText:StartCount xsi:type="xsd:int">0</FreeText:StartCount>
     <FreeText:DatabaseSerialNumber xsi:type="xsd:string"></FreeText:DatabaseSerialNumber>
     <FreeText:Context xsi:type="xsd:string"></FreeText:Context>
@@ -90,9 +89,11 @@ Application tokens must be specified if calling an Online installation. Applicat
     <FreeText:ProgressDescription xsi:type="xsd:string"></FreeText:ProgressDescription>
     <FreeText:ProgressPercent xsi:type="xsd:short">0</FreeText:ProgressPercent>
     <FreeText:FileName xsi:type="xsd:string"></FreeText:FileName>
+    <FreeText:CancellationBehaviour xsi:type="FreeText:BatchTaskCancellationBehaviour">CanCancel</FreeText:CancellationBehaviour>
    </FreeText:Response>
   </FreeText:RegenerateIndexResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+

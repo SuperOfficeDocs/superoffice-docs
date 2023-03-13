@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.ToggleQuoteVe
 
 ## ToggleQuoteVersionAttachmentIncluded
 
-Toggle the 'included' state of a quote version attachment
 
-* **quoteVersionAttachmentId:** The ID of the quote version attachment row
 
-**Returns:** The new state
+
 
 [WSDL file for Services87/Quote](../Services87-Quote.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ToggleQuoteVersionAttachmentIncluded Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

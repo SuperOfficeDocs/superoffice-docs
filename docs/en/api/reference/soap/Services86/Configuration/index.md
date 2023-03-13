@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services86/Confi
 
 Handled by the <see cref="T:SuperOffice.Services86.IConfigurationAgent">SuperOffice.Services86.IConfigurationAgent</see> interface.
 
-Interface for the Configuration Agent
-User interface configuration - XMLs and other elements such as inter-client URLs
+
 
 Download [WSDL file for Services86/Configuration](../Services86-Configuration.md) if you need to generate your own proxy code.
 
@@ -51,3 +50,4 @@ Download [WSDL file for Services86/Configuration](../Services86-Configuration.md
 * [SaveSystemEventEntity](SaveSystemEventEntity.md)
 * [SaveWindowPosSize](SaveWindowPosSize.md)
 * [SaveWindowPosSizes](SaveWindowPosSizes.md)
+

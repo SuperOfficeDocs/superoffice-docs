@@ -110,11 +110,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 647
+  "QuoteVersionId": 269
 }
 ```
 
@@ -125,75 +125,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 995,
-  "ERPQuoteVersionKey": "natus",
-  "QuoteId": 390,
-  "Description": "Re-contextualized fresh-thinking concept",
-  "Number": "1446959",
+  "QuoteVersionId": 820,
+  "ERPQuoteVersionKey": "aliquid",
+  "QuoteId": 346,
+  "Description": "Realigned encompassing interface",
+  "Number": "999144",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
-  "Reason": "",
-  "LikelyQuoteAlternativeId": 308,
-  "SentDate": "2010-03-14T17:37:18.6902418+01:00",
-  "FollowupId": 693,
-  "ExpirationDate": "2005-05-15T17:37:18.6902418+02:00",
-  "DeliveryCountryId": 887,
-  "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 99,
-  "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "temporibus",
-  "ERPPaymentTypeKey": "placeat",
-  "ERPDeliveryTermsKey": "amet",
-  "ERPDeliveryTypeKey": "eius",
-  "Rank": 927,
-  "ApprovedBy": 320,
-  "ApprovedText": "numquam",
-  "ApprovedRegisteredBy": 910,
-  "ApprovedRegisteredDate": "2008-04-23T17:37:18.6902418+02:00",
-  "ExtraField1": "nesciunt",
-  "ExtraField2": "sit",
-  "ExtraField3": "id",
-  "ExtraField4": "iure",
-  "ExtraField5": "modi",
-  "LastRecalculated": "1998-08-14T17:37:18.6902418+02:00",
-  "Updated": "2010-12-15T17:37:18.6902418+01:00",
-  "UpdatedAssociateId": 834,
-  "Registered": "2021-11-13T17:37:18.6902418+01:00",
-  "RegisteredAssociateId": 150,
-  "RequestAssociateId": 504,
-  "RequestComment": "in",
+  "Reason": "leverage interactive e-markets",
+  "LikelyQuoteAlternativeId": 109,
+  "SentDate": "2021-12-29T14:19:03.984459+01:00",
+  "FollowupId": 243,
+  "ExpirationDate": "2013-08-16T14:19:03.984459+02:00",
+  "DeliveryCountryId": 664,
+  "HasOwnDeliveryAddress": false,
+  "InvoiceCountryId": 839,
+  "HasOwnInvoiceAddress": true,
+  "ERPPaymentTermsKey": "totam",
+  "ERPPaymentTypeKey": "eveniet",
+  "ERPDeliveryTermsKey": "eum",
+  "ERPDeliveryTypeKey": "totam",
+  "Rank": 99,
+  "ApprovedBy": 733,
+  "ApprovedText": "quia",
+  "ApprovedRegisteredBy": 643,
+  "ApprovedRegisteredDate": "2015-05-19T14:19:03.984459+02:00",
+  "ExtraField1": "est",
+  "ExtraField2": "possimus",
+  "ExtraField3": "et",
+  "ExtraField4": "vel",
+  "ExtraField5": "provident",
+  "LastRecalculated": "2013-06-25T14:19:03.984459+02:00",
+  "Updated": "1999-08-30T14:19:03.984459+02:00",
+  "UpdatedAssociateId": 564,
+  "Registered": "2017-03-11T14:19:03.984459+01:00",
+  "RegisteredAssociateId": 270,
+  "RequestAssociateId": 673,
+  "RequestComment": "sapiente",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 591,
-      "ERPQuoteAlternativeKey": "laborum",
-      "QuoteVersionId": 125,
-      "Name": "Weissnat, Deckow and Veum",
-      "Description": "Optional intangible strategy",
+      "QuoteAlternativeId": 852,
+      "ERPQuoteAlternativeKey": "et",
+      "QuoteVersionId": 81,
+      "Name": "Olson Group",
+      "Description": "Re-contextualized encompassing success",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 1347.62,
-      "ERPDiscountAmount": 7863.206,
-      "DiscountPercent": 20590.38,
-      "DiscountAmount": 20978.996,
+      "ERPDiscountPercent": 29989.246,
+      "ERPDiscountAmount": 4531.764,
+      "DiscountPercent": 26128.158,
+      "DiscountAmount": 15372.269999999999,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "blanditiis",
-      "VAT": 266.39,
-      "EarningPercent": 15898.782,
-      "EarningAmount": 26125.023999999998,
-      "SubTotal": 6603.338,
-      "TotalPrice": 12423.176,
-      "ExtraField1": "eos",
-      "ExtraField2": "corporis",
-      "ExtraField3": "possimus",
-      "ExtraField4": "molestiae",
-      "ExtraField5": "consequuntur",
+      "VATInfo": "reiciendis",
+      "VAT": 14927.242,
+      "EarningPercent": 5935.7959999999994,
+      "EarningAmount": 8953.838,
+      "SubTotal": 12495.258,
+      "TotalPrice": 24457.736,
+      "ExtraField1": "nisi",
+      "ExtraField2": "dicta",
+      "ExtraField3": "est",
+      "ExtraField4": "nostrum",
+      "ExtraField5": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 375
+          "FieldLength": 851
         }
       }
     }
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 450
+      "FieldLength": 890
     }
   }
 }

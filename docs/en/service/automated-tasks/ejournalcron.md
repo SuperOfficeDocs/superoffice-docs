@@ -13,7 +13,7 @@ so.envir: onsite
 
 Executed by the **ejSchedule** service every minute through the ejCrontab.txt file together with **importMail**.
 
-Apart from importing mail, this file executes most automated tasks in Service.
+Apart from importing mail, this file executes most automated tasks in Requests.
 
 Tasks in the order they are executed:
 

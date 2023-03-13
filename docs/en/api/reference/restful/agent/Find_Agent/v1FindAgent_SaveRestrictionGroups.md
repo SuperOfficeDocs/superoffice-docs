@@ -77,34 +77,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "doloribus",
-  "ProviderName": "Trantow, Emmerich and Heaney",
-  "StorageKey": "cum",
+  "StorageType": "qui",
+  "ProviderName": "O'Conner Inc and Sons",
+  "StorageKey": "ea",
   "RestrictionGroups": [
     {
-      "Name": "Deckow, Larkin and Ruecker",
-      "Description": "Centralized explicit data-warehouse",
-      "Rank": 329,
+      "Name": "White LLC",
+      "Description": "Cross-group fresh-thinking moderator",
+      "Rank": 889,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Deckow, Larkin and Ruecker",
-      "Description": "Centralized explicit data-warehouse",
-      "Rank": 329,
+      "Name": "White LLC",
+      "Description": "Cross-group fresh-thinking moderator",
+      "Rank": 889,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "consectetur"
+  "Context": "et"
 }
 ```
 
@@ -116,58 +116,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gusikowski-Kris",
-    "Description": "Innovative intermediate policy",
-    "Rank": 222,
+    "Name": "Mann Inc and Sons",
+    "Description": "Front-line systematic website",
+    "Rank": 618,
     "Restrictions": [
       {
-        "Name": "Reinger, Lindgren and Armstrong",
-        "Operator": "eius",
+        "Name": "Boyer-Spinka",
+        "Operator": "odio",
         "Values": [
-          "ea",
-          "corrupti"
+          "autem",
+          "soluta"
         ],
         "DisplayValues": [
-          "aut",
-          "qui"
+          "maiores",
+          "expedita"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 416,
+        "InterParenthesis": 893,
         "InterOperator": "And",
-        "UniqueHash": 756
+        "UniqueHash": 465
       }
     ]
   },
   {
-    "Name": "Gusikowski-Kris",
-    "Description": "Innovative intermediate policy",
-    "Rank": 222,
+    "Name": "Mann Inc and Sons",
+    "Description": "Front-line systematic website",
+    "Rank": 618,
     "Restrictions": [
       {
-        "Name": "Reinger, Lindgren and Armstrong",
-        "Operator": "eius",
+        "Name": "Boyer-Spinka",
+        "Operator": "odio",
         "Values": [
-          "ea",
-          "corrupti"
+          "autem",
+          "soluta"
         ],
         "DisplayValues": [
-          "aut",
-          "qui"
+          "maiores",
+          "expedita"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 416,
+        "InterParenthesis": 893,
         "InterOperator": "And",
-        "UniqueHash": 756
+        "UniqueHash": 465
       }
     ]
   }

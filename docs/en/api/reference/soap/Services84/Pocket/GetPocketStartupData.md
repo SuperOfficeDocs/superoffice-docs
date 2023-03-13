@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IPocketAgent.GetPocketSta
 
 ## GetPocketStartupData
 
-* **tables:** Tables to check for license
 
-**Returns:** Startup data for pocket
+
+
 
 [WSDL file for Services84/Pocket](../Services84-Pocket.md)
 
@@ -48,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetPocketStartupData Response
 
@@ -193,3 +194,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

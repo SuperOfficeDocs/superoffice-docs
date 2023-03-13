@@ -73,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 661,
-  "Name": "Gottlieb LLC",
-  "Tooltip": "voluptatem",
-  "PassiveText": "consequuntur",
-  "Deleted": false,
-  "Rank": 706,
+  "ReldefId": 329,
+  "Name": "Johnson-Larson",
+  "Tooltip": "ad",
+  "PassiveText": "accusantium",
+  "Deleted": true,
+  "Rank": 177,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 471
+      "FieldType": "System.String",
+      "FieldLength": 70
     }
   }
 }

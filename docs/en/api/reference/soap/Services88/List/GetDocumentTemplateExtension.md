@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetDocumentTem
 
 ## GetDocumentTemplateExtension
 
-Get the file extension for the document template
 
-* **documentTemplateId:** The primary key of the document template
 
-**Returns:** File name extension including '.': '.doc' or '.xlsx'
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDocumentTemplateExtension Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

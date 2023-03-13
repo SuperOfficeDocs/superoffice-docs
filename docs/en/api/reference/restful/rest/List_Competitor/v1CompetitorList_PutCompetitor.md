@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 189,
-  "Name": "Rowe Group",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "UdListDefinitionId": 275,
-  "Rank": 13
+  "Id": 607,
+  "Name": "O'Connell Inc and Sons",
+  "Tooltip": "officia",
+  "Deleted": false,
+  "UdListDefinitionId": 841,
+  "Rank": 603
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 427,
-  "Name": "Beer-Rice",
-  "Tooltip": "omnis",
+  "Id": 749,
+  "Name": "Steuber Group",
+  "Tooltip": "voluptate",
   "Deleted": false,
-  "UdListDefinitionId": 606,
-  "Rank": 383,
+  "UdListDefinitionId": 33,
+  "Rank": 398,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 146
+      "FieldType": "System.Int32",
+      "FieldLength": 706
     }
   }
 }

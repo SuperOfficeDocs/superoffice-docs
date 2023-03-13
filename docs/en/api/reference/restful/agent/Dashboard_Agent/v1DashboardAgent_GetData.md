@@ -76,8 +76,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 353,
-  "Restrictions": "animi"
+  "DashboardTileId": 91,
+  "Restrictions": "quis"
 }
 ```
 
@@ -91,19 +91,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Gutkowski, Wisoky and Braun",
-        "DisplayTooltip": "mollitia",
-        "DisplayType": "quibusdam",
+        "DisplayName": "Gutmann Group",
+        "DisplayTooltip": "quisquam",
+        "DisplayType": "aut",
         "CanOrderBy": true,
-        "Name": "Braun, Krajcik and Jacobson",
+        "Name": "Wolf Inc and Sons",
         "CanRestrictBy": false,
-        "RestrictionType": "consectetur",
-        "RestrictionListName": "Graham, Prohaska and Johnson",
-        "IsVisible": false,
-        "ExtraInfo": "illum",
-        "Width": "minus",
-        "IconHint": "doloremque",
-        "HeadingIconHint": "quos"
+        "RestrictionType": "voluptate",
+        "RestrictionListName": "Mueller, Howell and Veum",
+        "IsVisible": true,
+        "ExtraInfo": "ea",
+        "Width": "in",
+        "IconHint": "ut",
+        "HeadingIconHint": "quis"
       }
     ],
     "Result": null
@@ -111,19 +111,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Gutkowski, Wisoky and Braun",
-        "DisplayTooltip": "mollitia",
-        "DisplayType": "quibusdam",
+        "DisplayName": "Gutmann Group",
+        "DisplayTooltip": "quisquam",
+        "DisplayType": "aut",
         "CanOrderBy": true,
-        "Name": "Braun, Krajcik and Jacobson",
+        "Name": "Wolf Inc and Sons",
         "CanRestrictBy": false,
-        "RestrictionType": "consectetur",
-        "RestrictionListName": "Graham, Prohaska and Johnson",
-        "IsVisible": false,
-        "ExtraInfo": "illum",
-        "Width": "minus",
-        "IconHint": "doloremque",
-        "HeadingIconHint": "quos"
+        "RestrictionType": "voluptate",
+        "RestrictionListName": "Mueller, Howell and Veum",
+        "IsVisible": true,
+        "ExtraInfo": "ea",
+        "Width": "in",
+        "IconHint": "ut",
+        "HeadingIconHint": "quis"
       }
     ],
     "Result": null

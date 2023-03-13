@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.SaveTicketCate
 
 ## SaveTicketCategoryEntity
 
-Updates the existing TicketCategoryEntity or creates a new TicketCategoryEntity if the id parameter is 0.
 
-* **ticketCategoryEntity:** The TicketCategoryEntity that is saved.
 
-**Returns:** New or updated TicketCategoryEntity
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -73,6 +71,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <List:IsDefault xsi:type="xsd:boolean">false</List:IsDefault>
       <List:UsedInQueue xsi:type="xsd:boolean">false</List:UsedInQueue>
      </List:DefaultMessageStatus>
+     <List:EffectiveReplyTemplateId xsi:type="xsd:int">0</List:EffectiveReplyTemplateId>
      <List:ExtraFields xsi:type="List:StringDictionary">
       <List:StringKeyValuePair>
        <List:Key xsi:type="xsd:string"></List:Key>
@@ -92,6 +91,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveTicketCategoryEntity Response
 
@@ -139,6 +139,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <List:IsDefault xsi:type="xsd:boolean">false</List:IsDefault>
      <List:UsedInQueue xsi:type="xsd:boolean">false</List:UsedInQueue>
     </List:DefaultMessageStatus>
+    <List:EffectiveReplyTemplateId xsi:type="xsd:int">0</List:EffectiveReplyTemplateId>
     <List:ExtraFields xsi:type="List:StringDictionary">
      <List:StringKeyValuePair>
       <List:Key xsi:type="xsd:string"></List:Key>
@@ -157,3 +158,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

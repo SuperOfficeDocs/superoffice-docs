@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 80,
-    "Name": "Carroll, Nienow and Smith",
-    "ToolTip": "Eaque ipsa vero molestiae.",
+    "Id": 299,
+    "Name": "Boyle, Durgan and Thompson",
+    "ToolTip": "Magni sed.",
     "Deleted": false,
-    "Rank": 133,
-    "Type": "aspernatur",
-    "ColorBlock": 1002,
-    "IconHint": "eos",
-    "Selected": true,
-    "LastChanged": "2001-11-04T17:37:40.3894721+01:00",
+    "Rank": 276,
+    "Type": "doloribus",
+    "ColorBlock": 329,
+    "IconHint": "asperiores",
+    "Selected": false,
+    "LastChanged": "2005-02-12T14:19:11.6433214+01:00",
     "ChildItems": [
       {
-        "Id": 845,
-        "Name": "Connelly-Rau",
-        "ToolTip": "Iste facilis eligendi nam nihil.",
+        "Id": 694,
+        "Name": "Mitchell LLC",
+        "ToolTip": "Eius voluptatem sunt.",
         "Deleted": false,
-        "Rank": 571,
-        "Type": "occaecati",
-        "ColorBlock": 140,
-        "IconHint": "nihil",
-        "Selected": false,
-        "LastChanged": "2022-03-07T17:37:40.3894721+01:00",
+        "Rank": 312,
+        "Type": "laborum",
+        "ColorBlock": 113,
+        "IconHint": "ab",
+        "Selected": true,
+        "LastChanged": "2016-12-11T14:19:11.6433214+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "debitis",
-        "StyleHint": "harum",
+        "ExtraInfo": "odit",
+        "StyleHint": "quas",
         "Hidden": false,
-        "FullName": "Millie Lilian Kerluke Sr."
+        "FullName": "Ms. Jada Breitenberg I"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "adipisci",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Mr. Ted Perry Weimann DDS"
+    "FullName": "Ulises Legros"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 526,
-    "Name": "Barton-Zieme",
-    "ToolTip": "Animi sint sequi aut quas.",
-    "Deleted": false,
-    "Rank": 962,
-    "Type": "ut",
-    "ColorBlock": 933,
-    "IconHint": "sed",
-    "Selected": true,
-    "LastChanged": "2013-01-10T17:37:40.3904721+01:00",
+    "Id": 278,
+    "Name": "Beier-Barton",
+    "ToolTip": "Similique dicta optio occaecati quos rerum.",
+    "Deleted": true,
+    "Rank": 14,
+    "Type": "sunt",
+    "ColorBlock": 666,
+    "IconHint": "earum",
+    "Selected": false,
+    "LastChanged": "2003-06-09T14:19:11.6433214+02:00",
     "ChildItems": [
       {
-        "Id": 749,
-        "Name": "Rath, Streich and Homenick",
-        "ToolTip": "Harum harum perspiciatis necessitatibus ratione laudantium.",
+        "Id": 514,
+        "Name": "Dare Inc and Sons",
+        "ToolTip": "Cum libero deleniti sit.",
         "Deleted": false,
-        "Rank": 27,
-        "Type": "ipsa",
-        "ColorBlock": 266,
-        "IconHint": "nulla",
-        "Selected": false,
-        "LastChanged": "1996-11-22T17:37:40.3914733+01:00",
+        "Rank": 846,
+        "Type": "quia",
+        "ColorBlock": 448,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2021-02-27T14:19:11.6433214+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "id",
+        "ExtraInfo": "dolores",
+        "StyleHint": "nobis",
         "Hidden": false,
-        "FullName": "Oma Kshlerin",
+        "FullName": "Elmira Stamm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 970
+            "FieldLength": 519
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "ratione",
+    "ExtraInfo": "id",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Matteo Lemke",
+    "FullName": "Lue Heaven Kertzmann Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 413
+        "FieldLength": 52
       }
     }
   }

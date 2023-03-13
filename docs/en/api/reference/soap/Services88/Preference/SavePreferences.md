@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IPreferenceAgent.SavePref
 
 ## SavePreferences
 
-Save this set of preferences. Note this method DOES NOT look at level/targetId - it only saves on behalf of the CURRENT USER.
 
-* **preferences:** Preferences to be saved. Note that all fields must be filled in, and the preference will be saved on the Associate level only! Setting for other levels is an administrative task and not available through this service.
+
+
 
 [WSDL file for Services88/Preference](../Services88-Preference.md)
 
@@ -69,6 +69,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SavePreferences Response
 
 ```xml
@@ -88,3 +89,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

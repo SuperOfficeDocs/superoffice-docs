@@ -97,15 +97,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 905,
-  "StartTime": "2009-12-05T17:37:17.4152439+01:00",
-  "EndTime": "2016-10-21T17:37:17.4152439+02:00",
-  "Count": 491,
-  "DocumentTemplateId": 13
+  "ContactId": 488,
+  "StartTime": "1997-05-24T14:19:03.1355296+02:00",
+  "EndTime": "2020-06-18T14:19:03.1355296+02:00",
+  "Count": 505,
+  "DocumentTemplateId": 271
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 572,
-    "Attention": "impedit",
-    "Header": "et",
-    "Name": "Shanahan-Sipes",
-    "OurRef": "doloremque",
-    "YourRef": "sed",
-    "Description": "Organic attitude-oriented frame",
-    "DocumentTemplate": "eius",
+    "DocumentId": 693,
+    "Attention": "qui",
+    "Header": "sequi",
+    "Name": "Pollich Group",
+    "OurRef": "laborum",
+    "YourRef": "modi",
+    "Description": "Organized incremental model",
+    "DocumentTemplate": "nostrum",
     "IsPublished": false,
-    "PersonId": 354,
-    "PersonFullName": "Kamryn Sauer",
-    "AssociateFullName": "Cesar Krajcik",
-    "ContactId": 829,
-    "ContactName": "Feest-Schumm",
-    "ProjectId": 226,
-    "ProjectName": "Spencer Inc and Sons",
-    "AssociateId": 669,
-    "Snum": 708,
-    "SaleId": 522,
-    "SaleName": "Mitchell Group",
+    "PersonId": 64,
+    "PersonFullName": "Jayme Goldner",
+    "AssociateFullName": "Jayda Considine",
+    "ContactId": 577,
+    "ContactName": "Mayert, O'Conner and Stroman",
+    "ProjectId": 346,
+    "ProjectName": "Block Inc and Sons",
+    "AssociateId": 398,
+    "Snum": 697,
+    "SaleId": 29,
+    "SaleName": "Ondricka-Harvey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 377
+        "FieldLength": 912
       }
     }
   }

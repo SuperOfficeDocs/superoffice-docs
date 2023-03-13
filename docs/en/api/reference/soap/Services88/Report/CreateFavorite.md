@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IReportAgent.CreateFavori
 
 ## CreateFavorite
 
-Creates the report as favorite. The sourceId is the key to the report that the favorite is based on.
 
-* **sourceId:** The primary key to the report to make the favorite from.
-* **name:** The name of the new favorite.
-* **description:** The description of the new favorite.
 
-**Returns:** The new favorite ReportEntity.
+
 
 [WSDL file for Services88/Report](../Services88-Report.md)
 
@@ -53,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateFavorite Response
 
 ```xml
@@ -82,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

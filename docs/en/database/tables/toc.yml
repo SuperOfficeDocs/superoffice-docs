@@ -415,6 +415,8 @@ items:
   href: mail-in-filter.md
 - name: mail_in_uidl
   href: mail-in-uidl.md
+- name: MailingDomains
+  href: mailingdomains.md
 - name: MergeMoveLog
   href: mergemovelog.md
 - name: Message
@@ -887,6 +889,12 @@ items:
   href: taskgrouplink.md
 - name: TaskHeadingLink
   href: taskheadinglink.md
+- name: TaskMenu
+  href: taskmenu.md
+- name: TaskMenuGroupLink
+  href: taskmenugrouplink.md
+- name: TaskMenuHeadingLink
+  href: taskmenuheadinglink.md
 - name: temporary_words
   href: temporary-words.md
 - name: TemporaryKey
@@ -1043,6 +1051,8 @@ items:
     href: enums/appointmenttype.md
   - name: AppType
     href: enums/apptype.md
+  - name: ArchiveBehaviour
+    href: enums/archivebehaviour.md
   - name: AssociateType
     href: enums/associatetype.md
   - name: BlobLinkType
@@ -1133,6 +1143,8 @@ items:
     href: enums/loginflags.md
   - name: MailboxType
     href: enums/mailboxtype.md
+  - name: ModifiedAppointmentFields
+    href: enums/modifiedappointmentfields.md
   - name: Navigation
     href: enums/navigation.md
   - name: NotificationPlatform
@@ -1201,6 +1213,8 @@ items:
     href: enums/shipmentstatus.md
   - name: ShowState
     href: enums/showstate.md
+  - name: ShowTaskItemInClient
+    href: enums/showtaskiteminclient.md
   - name: ShowWindowState
     href: enums/showwindowstate.md
   - name: TargetAssignementLevel
@@ -1213,6 +1227,8 @@ items:
     href: enums/targetperiodtype.md
   - name: TaskDirection
     href: enums/taskdirection.md
+  - name: TaskListItemType
+    href: enums/tasklistitemtype.md
   - name: TaskType
     href: enums/tasktype.md
   - name: TemporaryKeyDomain
@@ -1225,6 +1241,8 @@ items:
     href: enums/ticketcategorydelegatemethod.md
   - name: TicketCategoryFlags
     href: enums/ticketcategoryflags.md
+  - name: TicketLogAction
+    href: enums/ticketlogaction.md
   - name: TicketMessageCategory
     href: enums/ticketmessagecategory.md
   - name: TicketMessageType
@@ -1253,6 +1271,8 @@ items:
     href: enums/ttlflags.md
   - name: UdefJustification
     href: enums/udefjustification.md
+  - name: UrlEncoding
+    href: enums/urlencoding.md
   - name: ValueOverride
     href: enums/valueoverride.md
   - name: VideoMeetingStatus

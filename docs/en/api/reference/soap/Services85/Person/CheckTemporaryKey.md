@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IPersonAgent.CheckTempora
 
 ## CheckTemporaryKey
 
-Check a temporary key for validity, and in case it is valid, return its domain, targetId and personId
 
-* **temporaryKey:** The base64 encoded key value, as returned by CreateTemporaryKey
 
-**Returns:** The info about the temporary key. Domain will be Unknown if key is not valid.
+
 
 [WSDL file for Services85/Person](../Services85-Person.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CheckTemporaryKey Response
 
 ```xml
@@ -74,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.GetEMailAccou
 
 ## GetEMailAccount
 
-Gets a EMailAccount object.
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-* **eMailAccountId:** The identifier of the EMailAccount object
 
-**Returns:** EMailAccount
+
 
 [WSDL file for Services87/EMail](../Services87-EMail.md)
 
@@ -49,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetEMailAccount Response
 
@@ -93,3 +91,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

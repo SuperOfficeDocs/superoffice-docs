@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IQuoteAgent.GetQuoteAlter
 
 ## GetQuoteAlternatives
 
-Get all quote alternatives for a quote version
 
-* **quoteVersionId:** QuoteVersionId of the revison to get alternatives for.
 
-**Returns:** Array of Quote alternatives
+
 
 [WSDL file for Services85/Quote](../Services85-Quote.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetQuoteAlternatives Response
 
@@ -95,3 +94,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

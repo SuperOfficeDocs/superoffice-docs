@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,11 +87,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 562,
-    "Name": "Kiehn Group",
-    "Tooltip": "explicabo",
+    "WebPanelId": 645,
+    "Name": "Bednar-Hartmann",
+    "Tooltip": "magnam",
     "Deleted": false,
-    "Rank": 690,
+    "Rank": 686,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
@@ -99,21 +99,21 @@ Content-Type: application/json; charset=utf-8
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
+    "ShowInMenuBar": false,
     "ShowInToolBar": true,
-    "ShowInAddressBar": true,
+    "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Gislason-Bosco",
+    "WindowName": "Abshire LLC",
     "Url": "http://www.example.com/",
-    "ProgId": "nemo",
-    "Icon": 380,
+    "ProgId": "nihil",
+    "Icon": 669,
     "AlwaysReloadOnShow": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 53
+        "FieldType": "System.String",
+        "FieldLength": 829
       }
     }
   }

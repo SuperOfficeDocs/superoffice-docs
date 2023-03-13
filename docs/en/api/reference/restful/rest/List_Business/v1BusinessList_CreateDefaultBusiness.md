@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/Business/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 568,
-  "Name": "Feil-Bartoletti",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 373,
-  "Rank": 165,
+  "Id": 876,
+  "Name": "Stokes Group",
+  "Tooltip": "culpa",
+  "Deleted": true,
+  "UdListDefinitionId": 787,
+  "Rank": 232,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 410
+      "FieldType": "System.Int32",
+      "FieldLength": 698
     }
   }
 }

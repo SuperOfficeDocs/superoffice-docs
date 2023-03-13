@@ -11,14 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IContactAgent.Copy">Super
 
 ## Copy
 
-Copy a contact. Activities and related data will be ignored
 
-* **sourceContactId:** The id of the contact to copy
-* **destinationContactName:** The name of the destination contact
-* **destinationContactDepartment:** The department of the destination contact
-* **copyPersons:** If true, persons will be copied from source contact
 
-**Returns:** Id of copied contact
+
 
 [WSDL file for Services84/Contact](../Services84-Contact.md)
 
@@ -55,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## Copy Response
 
 ```xml
@@ -75,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

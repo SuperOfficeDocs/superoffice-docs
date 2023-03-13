@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDiagnosticsAgent.LogView
 
 ## LogViewState
 
-Log a change in view state. The granularity of the logging depends on the current configuration. This call returns asynchronously, leaving the server to finish processing later on.
 
-* **viewState:** Current view state to be logged
+
+
 
 [WSDL file for Services88/Diagnostics](../Services88-Diagnostics.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## LogViewState Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

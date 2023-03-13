@@ -87,22 +87,22 @@ OK
 POST /api/v1/Agents/Appointment/GenerateLead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 83,
-  "LeadDescription": "Managed 6th generation instruction set",
-  "Relation": "aut",
-  "RelationId": 786,
-  "LeadContact": "enim",
-  "LeadPersonFirstname": "Eusebio",
-  "LeadPersonLastname": "Hermann",
-  "LeadPersonEmail": "jonatan.nolan@paucekdaniel.co.uk",
-  "LeadPhoneNumber": "653458",
-  "CreatorsContact": "illum",
-  "CreatorsFirstname": "Johan",
-  "CreatorsLastname": "Friesen"
+  "AssociateIdForNewContact": 62,
+  "LeadDescription": "Exclusive needs-based benchmark",
+  "Relation": "eius",
+  "RelationId": 946,
+  "LeadContact": "saepe",
+  "LeadPersonFirstname": "Danielle",
+  "LeadPersonLastname": "Pollich",
+  "LeadPersonEmail": "burdette.hudson@gleason.uk",
+  "LeadPhoneNumber": "275526",
+  "CreatorsContact": "fugit",
+  "CreatorsFirstname": "Maria",
+  "CreatorsLastname": "Schinner"
 }
 ```
 
@@ -115,36 +115,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 5,
-      "Name": "Hane Inc and Sons",
-      "OrgNr": "1406732",
+      "ContactId": 612,
+      "Name": "Hintz, Schamberger and Batz",
+      "OrgNr": "564142",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "fugiat",
-      "DirectPhone": "794-821-8886 x147",
-      "AssociateId": 149,
-      "CountryId": 162,
-      "EmailAddress": "melvin_feeney@hackett.info",
-      "Kananame": "officiis",
-      "EmailAddressName": "macey@hirtheschuppe.com",
+      "City": "quis",
+      "DirectPhone": "1-326-345-5822 x8723",
+      "AssociateId": 885,
+      "CountryId": 651,
+      "EmailAddress": "willis@gleasonerdman.com",
+      "Kananame": "aut",
+      "EmailAddressName": "anika@ratkeleannon.name",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Alexie Collier",
+      "AssociateFullName": "Prof. Hilbert Terry",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "quas",
-      "FullName": "Cooper Batz",
-      "IsOwnerContact": false,
-      "ActiveErpLinks": 294,
-      "Number1": "762912",
-      "Number2": "1705073",
+      "FormattedAddress": "voluptatem",
+      "FullName": "Prof. Emmitt Gilberto Lang MD",
+      "IsOwnerContact": true,
+      "ActiveErpLinks": 726,
+      "Number1": "587503",
+      "Number2": "1015274",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 49
+          "FieldLength": 424
         }
       }
     }
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 143
+      "FieldType": "System.Int32",
+      "FieldLength": 553
     }
   }
 }

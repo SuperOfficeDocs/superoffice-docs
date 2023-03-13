@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Favourites"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,9 +30,8 @@ blah....
 ........
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"sale"|Favourite sale|
 |"contact"|Favourite company|
 |"person"|Favourite contact|
@@ -44,9 +43,8 @@ blah....
 |"ticket"|Favourite request|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |completed| *None* |Completed: Displays a checkbox showing if an appointment is completed|  |
@@ -1348,9 +1346,6 @@ blah....
 |contactExtra/x\_contact\_contact\_relation| *None* |Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons|  |
 |contactExtra/x\_contact\_request\_relation| *None* |Extra Request relation: Request relation on company|  |
 |contactExtra/x\_contact\_contact| *None* |Extra contact relation: Contact relation on company|  |
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
 |NumberOfActivities| *None* |Number of activities|  |
 |NumberOfActivitiesInPeriod| *None* |Number of activities in last 90 days|  |
 |NumberOfNotCompletedActivities| *None* |Number of non-completed activities|  |
@@ -2222,6 +2217,7 @@ blah....
 |personAppointment/invitedPersonId| *None* |ID of invited person: appointment.invitedpersonid record - utility for rd|  |
 |personAppointment/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)|  |
 |personAppointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting|  |
+|personAppointment/duration| *None* |Duration: The duration of the chat session|  |
 |personAppointment/visibleFor| *None* |Visible for|  |
 |personAppointment/appointmentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |personAppointment/appointmentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -2387,6 +2383,377 @@ blah....
 |recipientStatus| *None* |Recipient status: Status of mailing recipient|  |
 |recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)|  |
 |mailingAddr/mailingAddrId| *None* |!!!Mailing addr Id: !!!Mailing addr Id Tooltip|  |
+|mailingAddr/contact/contactId| *None* |Company - Company ID: Database ID of company|  |
+|mailingAddr/contact/name| *None* |Company - Company name|  |
+|mailingAddr/contact/department| *None* |Company - Department|  |
+|mailingAddr/contact/nameDepartment| *None* |Company - Company: Displays the company an activity is linked to|  |
+|mailingAddr/contact/hasInfoText| *None* |Company - Has note: Displays an icon indicating if there is additional information available about the contact|  |
+|mailingAddr/contact/hasInterests| *None* |Company - Has interests: Displays an Icon indicating if the contact has active interests|  |
+|mailingAddr/contact/associateId| *None* |Company - Our contact: Displays our contact|  |
+|mailingAddr/contact/category| *None* |Company - Category|  |
+|mailingAddr/contact/business| *None* |Company - Business|  |
+|mailingAddr/contact/country| *None* |Company - Country: This criterion corresponds to the Country field on the Company card.|  |
+|mailingAddr/contact/countryId| *None* |Company - Country ID: Country ID|  |
+|mailingAddr/contact/number| *None* |Company - Number|  |
+|mailingAddr/contact/code| *None* |Company - Code|  |
+|mailingAddr/contact/orgnr| *None* |Company - VAT No.|  |
+|mailingAddr/contact/stop| *None* |Company - Stop|  |
+|mailingAddr/contact/contactNoMail| *None* |Company - No mailings (company)|  |
+|mailingAddr/contact/updatedBy| *None* |Company - Updated by: The user who last updated the data|  |
+|mailingAddr/contact/updatedByFullName| *None* |Company - Updated by - Full name: The user who last updated the data|  |
+|mailingAddr/contact/updatedDate| *None* |Company - Updated: The date/time the data was last updated in UTC.|  |
+|mailingAddr/contact/registeredBy| *None* |Company - Registered by: The user who registered the data|  |
+|mailingAddr/contact/registeredByFullName| *None* |Company - Registered by - Full name: The user who registered the data|  |
+|mailingAddr/contact/registeredDate| *None* |Company - Registered date: The date/time the data was registered in UTC.|  |
+|mailingAddr/contact/contactSource| *None* |Company - Source: Source (Company)|  |
+|mailingAddr/contact/contactDeleted| *None* |Company - Deleted: Deleted|  |
+|mailingAddr/contact/phone/formattedNumber| *None* |Company - Phone: Displays phone number|  |
+|mailingAddr/contact/activeErpLinks| *None* |Company - ERP connected: Is there an active ERP Sync?|  |
+|mailingAddr/contact/deletedDate| *None* |Company - Deleted date: Deleted date|  |
+|mailingAddr/contact/mainContact| *None* |Company - Main contact: Main contact for this company|  |
+|mailingAddr/contact/contactPhone/formattedNumber| *None* |Company - Telephone - Phone: Displays phone number|  |
+|mailingAddr/contact/contactPhone/description| *None* |Company - Telephone - Description: Phone number description|  |
+|mailingAddr/contact/contactFax/formattedNumber| *None* |Company - Fax - Phone: Displays phone number|  |
+|mailingAddr/contact/contactFax/description| *None* |Company - Fax - Description: Phone number description|  |
+|mailingAddr/contact/searchPhone/formattedNumber| *None* |Company - Searchphone - Phone: Displays phone number|  |
+|mailingAddr/contact/searchPhone/description| *None* |Company - Searchphone - Description: Phone number description|  |
+|mailingAddr/contact/email/emailProtocol| *None* |Company - Protocol: E-mail protocol, such as SMTP|  |
+|mailingAddr/contact/email/emailAddress| *None* |Company - E-mail|  |
+|mailingAddr/contact/email/emailDescription| *None* |Company - Description|  |
+|mailingAddr/contact/email/emailId| *None* |Company - ID|  |
+|mailingAddr/contact/email/emailLastSent| *None* |Company - Last sent: The date and time an e-mail was last sent to this address|  |
+|mailingAddr/contact/email/emailBounceCount| *None* |Company - Bounce count: Bounce count for this e-mail address|  |
+|mailingAddr/contact/email/emailLastBounce| *None* |Company - Last bounce: Date and time for last bounce to this e-mail address|  |
+|mailingAddr/contact/email/emailHasBounced| *None* |Company - Has bounced: This checkbox is active if delivery to this e-mail address has failed.|  |
+|mailingAddr/contact/postAddress/addressId| *None* |Company - Postal address - Address ID: Database ID for the address record|  |
+|mailingAddr/contact/postAddress/line1| *None* |Company - Postal address - Address 1: First line of the address|  |
+|mailingAddr/contact/postAddress/line2| *None* |Company - Postal address - Address 2: Second line of the address|  |
+|mailingAddr/contact/postAddress/line3| *None* |Company - Postal address - Address 3: Third line of the address|  |
+|mailingAddr/contact/postAddress/county| *None* |Company - Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
+|mailingAddr/contact/postAddress/city| *None* |Company - Postal address - City: This criterion corresponds to the City field on the Company card.|  |
+|mailingAddr/contact/postAddress/zip| *None* |Company - Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
+|mailingAddr/contact/postAddress/state| *None* |Company - Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
+|mailingAddr/contact/postAddress/wgs84latitude| *None* |Company - Postal address - Latitude: Latitude|  |
+|mailingAddr/contact/postAddress/wgs84longitude| *None* |Company - Postal address - Longitude: Longitude|  |
+|mailingAddr/contact/postAddress/formattedAddress| *None* |Company - Postal address - {formattedAddress}: {formattedAddress}|  |
+|mailingAddr/contact/postAddress/formattedMultiLineAddress| *None* |Company - Postal address - {formattedAddress}: {formattedAddress}|  |
+|mailingAddr/contact/streetAddress/addressId| *None* |Company - Street address - Address ID: Database ID for the address record|  |
+|mailingAddr/contact/streetAddress/line1| *None* |Company - Street address - Address 1: First line of the address|  |
+|mailingAddr/contact/streetAddress/line2| *None* |Company - Street address - Address 2: Second line of the address|  |
+|mailingAddr/contact/streetAddress/line3| *None* |Company - Street address - Address 3: Third line of the address|  |
+|mailingAddr/contact/streetAddress/county| *None* |Company - Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
+|mailingAddr/contact/streetAddress/city| *None* |Company - Street address - City: This criterion corresponds to the City field on the Company card.|  |
+|mailingAddr/contact/streetAddress/zip| *None* |Company - Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
+|mailingAddr/contact/streetAddress/state| *None* |Company - Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
+|mailingAddr/contact/streetAddress/wgs84latitude| *None* |Company - Street address - Latitude: Latitude|  |
+|mailingAddr/contact/streetAddress/wgs84longitude| *None* |Company - Street address - Longitude: Longitude|  |
+|mailingAddr/contact/streetAddress/formattedAddress| *None* |Company - Street address - {formattedAddress}: {formattedAddress}|  |
+|mailingAddr/contact/streetAddress/formattedMultiLineAddress| *None* |Company - Street address - {formattedAddress}: {formattedAddress}|  |
+|mailingAddr/contact/restrictionAddress/addressId| *None* |Company - Search address - Address ID: Database ID for the address record|  |
+|mailingAddr/contact/restrictionAddress/line1| *None* |Company - Search address - Address 1: First line of the address|  |
+|mailingAddr/contact/restrictionAddress/line2| *None* |Company - Search address - Address 2: Second line of the address|  |
+|mailingAddr/contact/restrictionAddress/line3| *None* |Company - Search address - Address 3: Third line of the address|  |
+|mailingAddr/contact/restrictionAddress/county| *None* |Company - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
+|mailingAddr/contact/restrictionAddress/city| *None* |Company - Search address - City: This criterion corresponds to the City field on the Company card.|  |
+|mailingAddr/contact/restrictionAddress/zip| *None* |Company - Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
+|mailingAddr/contact/restrictionAddress/state| *None* |Company - Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
+|mailingAddr/contact/restrictionAddress/wgs84latitude| *None* |Company - Search address - Latitude: Latitude|  |
+|mailingAddr/contact/restrictionAddress/wgs84longitude| *None* |Company - Search address - Longitude: Longitude|  |
+|mailingAddr/contact/restrictionAddress/formattedAddress| *None* |Company - Search address - {formattedAddress}: {formattedAddress}|  |
+|mailingAddr/contact/restrictionAddress/formattedMultiLineAddress| *None* |Company - Search address - {formattedAddress}: {formattedAddress}|  |
+|mailingAddr/contact/url/URLAddress| *None* |Company - URL|  |
+|mailingAddr/contact/url/URLDescription| *None* |Company - Description|  |
+|mailingAddr/contact/contactAssociate/firstName| *None* |Company - First name: Displays the contact's first name|  |
+|mailingAddr/contact/contactAssociate/lastName| *None* |Company - Last name: Displays the contact's last name|  |
+|mailingAddr/contact/contactAssociate/middleName| *None* |Company - Middle Name: Displays the contact's middle name.|  |
+|mailingAddr/contact/contactAssociate/fullName| *None* |Company - Full name: Displays full name of user (first, middle, last - according to settings)|  |
+|mailingAddr/contact/contactAssociate/contactId| *None* |Company - Company ID: Database ID of the company the user belongs to|  |
+|mailingAddr/contact/contactAssociate/personId| *None* |Company - Contact ID: Database ID of the contact row|  |
+|mailingAddr/contact/contactAssociate/mrMrs| *None* |Company - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
+|mailingAddr/contact/contactAssociate/title| *None* |Company - Title: Displays whether the contact is addressed as Mr or Ms|  |
+|mailingAddr/contact/contactAssociate/associateDbId| *None* |Company - ID|  |
+|mailingAddr/contact/contactAssociate/contactName| *None* |Company - Owning company: Name of the company the user belongs to|  |
+|mailingAddr/contact/contactAssociate/contactDepartment| *None* |Company - Owning department: Name of the department at the company the user belongs to|  |
+|mailingAddr/contact/contactAssociate/usergroup| *None* |Company - Primary group: The user's primary user group|  |
+|mailingAddr/contact/contactAssociate/contactFullName| *None* |Company - Owner: Name and department of the company the user belongs to|  |
+|mailingAddr/contact/contactAssociate/contactCategory| *None* |Company - Category: Category|  |
+|mailingAddr/contact/contactAssociate/role| *None* |Company - Role: Role|  |
+|mailingAddr/contact/contactAssociate/assocName| *None* |Company - User ID: User ID|  |
+|mailingAddr/contact/contactAssociate/assocTooltip| *None* |Company - Description: Description|  |
+|mailingAddr/contact/contactAssociate/assocType| *None* |Company - Type: Type of user: associate, external user, system user, anonymous account|  |
+|mailingAddr/contact/contactAssociate/ejUserId| *None* |Company - Service user ID: The database ID of a Service user|  |
+|mailingAddr/contact/contactAssociate/simultaneousEjUser| *None* |Company - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|mailingAddr/contact/contactAssociate/ejDisplayName| *None* |Company - Nick name: User's nick name in Service|  |
+|mailingAddr/contact/contactAssociate/ejStatus| *None* |Company - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|mailingAddr/contact/contactAssociate/credentialType| *None* |Company - Auth. type: What type of credentials to use when this user logs in|  |
+|mailingAddr/contact/contactAssociate/credentialDisplayValue| *None* |Company - Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
+|mailingAddr/contact/contactAssociate/isActive| *None* |Company - Active: Is this user active, and should be able to log in?|  |
+|mailingAddr/contact/contactAssociate/isActiveText| *None* |Company - Active status: Is this user active, and should be able to log in?|  |
+|mailingAddr/contact/contactAssociate/portraitThumbnail| *None* |Company - Person image: Person image|  |
+|mailingAddr/contact/contactAssociate/otherGroups| *None* |Company - Other groups: Other groups|  |
+|mailingAddr/contact/contactAssociate/userName| *None* |Company - User name: User name|  |
+|mailingAddr/contact/contactAssociate/personEmail| *None* |Company - E-mail|  |
+|mailingAddr/contact/contactInterestIds| *None* |Company - Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
+|mailingAddr/contact/contactUdef/SuperOffice:1| *None* |Company - companyshorttext: tooltipshorttext|  |
+|mailingAddr/contact/contactUdef/SuperOffice:2| *None* |Company - companylongtext: tooltiplongtext|  |
+|mailingAddr/contact/contactUdef/SuperOffice:3| *None* |Company - companynumber|  |
+|mailingAddr/contact/contactUdef/SuperOffice:4| *None* |Company - companydate|  |
+|mailingAddr/contact/contactUdef/SuperOffice:5| *None* |Company - companyunlimiteddate: tooltipunlimiteddate|  |
+|mailingAddr/contact/contactUdef/SuperOffice:6| *None* |Company - companycheckbox|  |
+|mailingAddr/contact/contactUdef/SuperOffice:7| *None* |Company - companydropdownlistbox|  |
+|mailingAddr/contact/contactUdef/SuperOffice:8| *None* |Company - companydecimal|  |
+|mailingAddr/contact/contactUdef/SuperOffice:9| *None* |Company - page1saleonly|  |
+|mailingAddr/contact/contactUdef/SuperOffice:10| *None* |Company - page1marketingonly|  |
+|mailingAddr/contact/contactUdef/SuperOffice:11| *None* |Company - page1adminonly|  |
+|mailingAddr/contact/contactUdef/SuperOffice:12| *None* |Company - Udlist one: Static tooltip for udlist one|  |
+|mailingAddr/contact/contactUdef/SuperOffice:13| *None* |Company - Udlist two: Static tooltip for udlist two|  |
+|mailingAddr/contact/contactExtra/x\_contact\_integer| *None* |Company - Extra Integer: Custom integer field|  |
+|mailingAddr/contact/contactExtra/x\_contact\_hidden\_integer| *None* |Company - Extra hidden integer: Custom integer field - hidden|  |
+|mailingAddr/contact/contactExtra/x\_contact\_default\_integer| *None* |Company - Extra Default Integer: Custom integer field with default value 123.|  |
+|mailingAddr/contact/contactExtra/x\_contact\_float| *None* |Company - Extra Float: Custom float field with 3 decimals|  |
+|mailingAddr/contact/contactExtra/x\_contact\_longtext| *None* |Company - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor|  |
+|mailingAddr/contact/contactExtra/x\_contact\_dropdown| *None* |Company - Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.|  |
+|mailingAddr/contact/contactExtra/x\_contact\_date| *None* |Company - Extra date: Custom date field. User current as default.|  |
+|mailingAddr/contact/contactExtra/x\_contact\_datetime| *None* |Company - Extra DateTime: Custom Date Time field. No default value. External|  |
+|mailingAddr/contact/contactExtra/x\_contact\_time| *None* |Company - Extra time: Custom time field.|  |
+|mailingAddr/contact/contactExtra/x\_contact\_boolean| *None* |Company - Extra boolean: Custom boolean field.|  |
+|mailingAddr/contact/contactExtra/x\_contact\_timespan| *None* |Company - Extra timespan: Custom timespan field. Hours and minutes in 10 units|  |
+|mailingAddr/contact/contactExtra/x\_contact\_shorttext| *None* |Company - Extra short text: Custom short text field. Keep HTML tags.|  |
+|mailingAddr/contact/contactExtra/x\_contact\_short\_dropdown| *None* |Company - Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.|  |
+|mailingAddr/contact/contactExtra/x\_contact\_contact\_relation| *None* |Company - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons|  |
+|mailingAddr/contact/contactExtra/x\_contact\_request\_relation| *None* |Company - Extra Request relation: Request relation on company|  |
+|mailingAddr/contact/contactExtra/x\_contact\_contact| *None* |Company - Extra contact relation: Contact relation on company|  |
+|mailingAddr/contact/NumberOfActivities| *None* |Company - Number of activities|  |
+|mailingAddr/contact/NumberOfActivitiesInPeriod| *None* |Company - Number of activities in last 90 days|  |
+|mailingAddr/contact/NumberOfNotCompletedActivities| *None* |Company - Number of non-completed activities|  |
+|mailingAddr/contact/NumberOfNotCompletedActivitiesInPeriod| *None* |Company - Number of non-completed activities in last 90 days|  |
+|mailingAddr/contact/LastActivity| *None* |Company - Date of last activity|  |
+|mailingAddr/contact/LastCompletedActivity| *None* |Company - Date of last completed activity|  |
+|mailingAddr/contact/LastDoByActivity| *None* |Company - Date of last non-completed activity|  |
+|mailingAddr/contact/NumberOfSales| *None* |Company - Number of sales|  |
+|mailingAddr/contact/NumberOfSalesInPeriod| *None* |Company - Number of sales in last 90 days|  |
+|mailingAddr/contact/NumberOfNotCompletedSales| *None* |Company - Number of non-completed sales|  |
+|mailingAddr/contact/NumberOfNotCompletedSalesInPeriod| *None* |Company - Number of non-completed sales in last 90 days|  |
+|mailingAddr/contact/LastSale| *None* |Company - Date of last sale|  |
+|mailingAddr/contact/LastCompletedSale| *None* |Company - Date of last completed sale|  |
+|mailingAddr/contact/LastDoBySale| *None* |Company - Date of last non-completed sale|  |
+|mailingAddr/contact/NumberOfTickets| *None* |Company - Number of requests|  |
+|mailingAddr/contact/NumberOfTicketsInPeriod| *None* |Company - Number of requests in last 90 days|  |
+|mailingAddr/contact/NumberOfNotCompletedTickets| *None* |Company - Number of non-completed requests|  |
+|mailingAddr/contact/NumberOfNotCompletedTicketsInPeriod| *None* |Company - Number of non-completed requests in last 90 days|  |
+|mailingAddr/contact/LastTicket| *None* |Company - Date of last request|  |
+|mailingAddr/contact/LastCompletedTicket| *None* |Company - Date of last completed request|  |
+|mailingAddr/contact/LastDoByTicket| *None* |Company - Date of last non-completed request|  |
+|mailingAddr/contact/SaintStatus1| *None* |Company - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
+|mailingAddr/contact/SaintStatus2| *None* |Company - C-company: Kundens navn starter med bokstaven C|  |
+|mailingAddr/contact/saintSaleStatus| *None* |Company - With status|  |
+|mailingAddr/contact/saintAmountClass| *None* |Company - Amount class|  |
+|mailingAddr/contact/saintActivityType| *None* |Company - SAINT type|  |
+|mailingAddr/contact/saintDirection| *None* |Company - Direction|  |
+|mailingAddr/contact/saintIntention| *None* |Company - Intention|  |
+|mailingAddr/contact/saintTicketStatus| *None* |Company - Status|  |
+|mailingAddr/contact/saintTicketCategory| *None* |Company - Category|  |
+|mailingAddr/person/personId| *None* |Contact - DB ID: Displays the database ID of a contact|  |
+|mailingAddr/person/firstName| *None* |Contact - First name: Displays the contact's first name|  |
+|mailingAddr/person/lastName| *None* |Contact - Last name: Displays the contact's last name|  |
+|mailingAddr/person/middleName| *None* |Contact - Middle name: Displays the contact's middle name.|  |
+|mailingAddr/person/fullName| *None* |Contact - Contact: Displays the contact to which an item is linked|  |
+|mailingAddr/person/contactId| *None* |Contact - Company ID: Database ID of company|  |
+|mailingAddr/person/hasInfoText| *None* |Contact - Has note: Displays an icon indicating if there is additional information available about the contact|  |
+|mailingAddr/person/hasInterests| *None* |Contact - Has interests: Displays an Icon indicating if the contact has active interests|  |
+|mailingAddr/person/personHasInterests| *None* |Contact - Has interests: Displays an Icon indicating if the contact has active interests|  |
+|mailingAddr/person/mrMrs| *None* |Contact - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
+|mailingAddr/person/position| *None* |Contact - Position|  |
+|mailingAddr/person/personNumber| *None* |Contact - Number: Displays the contact's number|  |
+|mailingAddr/person/title| *None* |Contact - Title: Displays the contact's job title|  |
+|mailingAddr/person/personCountry| *None* |Contact - Country: Country|  |
+|mailingAddr/person/personCountryId| *None* |Contact - Country ID: Country ID|  |
+|mailingAddr/person/personNoMail| *None* |Contact - No Mailings: Displays the contact's No Mailings checkbox|  |
+|mailingAddr/person/rank| *None* |Contact - Rank: Displays a contact's current rank|  |
+|mailingAddr/person/birthdate| *None* |Contact - Birthdate: Displays the contact's date of birth|  |
+|mailingAddr/person/associateType| *None* |Contact - User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
+|mailingAddr/person/useAsMailingAddress| *None* |Contact - Use as postal address: Use as postal address|  |
+|mailingAddr/person/personSource| *None* |Contact - Source: Source (Contact)|  |
+|mailingAddr/person/retired| *None* |Contact - Former employee: Indicates whether the contact has retired/left the company|  |
+|mailingAddr/person/birthYear| *None* |Contact - Birth year: Displays contact's birth year|  |
+|mailingAddr/person/birthMonth| *None* |Contact - Birth month: Displays contact's birth month|  |
+|mailingAddr/person/birthDay| *None* |Contact - Birth day: Displays contact's birth day (day of month)|  |
+|mailingAddr/person/kanaFirstName| *None* |Contact - First name, kana: Contact's first name, in kana alphabet|  |
+|mailingAddr/person/kanaLastName| *None* |Contact - Last name, kana: Contact's last name, in kana alphabet|  |
+|mailingAddr/person/personUpdatedBy| *None* |Contact - Updated by: The user who last updated the data|  |
+|mailingAddr/person/personUpdatedByFullName| *None* |Contact - Updated by - Full name: The user who last updated the data|  |
+|mailingAddr/person/personUpdatedDate| *None* |Contact - Updated: The date/time the data was last updated in UTC.|  |
+|mailingAddr/person/personRegisteredBy| *None* |Contact - Registered by: The user who registered the data|  |
+|mailingAddr/person/personRegisteredByFullName| *None* |Contact - Registered by - Full name: The user who registered the data|  |
+|mailingAddr/person/personRegisteredDate| *None* |Contact - Registered date: The date/time the data was registered in UTC.|  |
+|mailingAddr/person/portraitThumbnail| *None* |Contact - Person image: Person image|  |
+|mailingAddr/person/personActiveErpLinks| *None* |Contact - ERP connected: Is there an active ERP Sync?|  |
+|mailingAddr/person/ticketPriority| *None* |Contact - Service priority: Default service priority for this contact|  |
+|mailingAddr/person/supportLanguage| *None* |Contact - Preferred language: Preferred language used for reply templates and more|  |
+|mailingAddr/person/supportAssociate| *None* |Contact - Our service contact: Default service contact for this contact|  |
+|mailingAddr/person/supportAssociateFullName| *None* |Contact - Our service contact - Full name: Default service contact for this contact|  |
+|mailingAddr/person/personAssociateId| *None* |Contact - Our contact: Displays our contact|  |
+|mailingAddr/person/personAssociateFullName| *None* |Contact - Our contact - Full name: Displays our contact|  |
+|mailingAddr/person/personCategory| *None* |Contact - Category|  |
+|mailingAddr/person/personBusiness| *None* |Contact - Business|  |
+|mailingAddr/person/personDeletedDate| *None* |Contact - Deleted date: Deleted date|  |
+|mailingAddr/person/hasCompany| *None* |Contact - Has company: The contact is associated with a company|  |
+|mailingAddr/person/isProjectMember| *None* |Contact - Is project member: This person is a project member|  |
+|mailingAddr/person/isStakeholder| *None* |Contact - Is stakeholder: This person is a sale stakeholder|  |
+|mailingAddr/person/phone/formattedNumber| *None* |Contact - Phone: Displays phone number|  |
+|mailingAddr/person/personDirectPhone/formattedNumber| *None* |Contact - Direct - Phone: Displays phone number|  |
+|mailingAddr/person/personDirectPhone/description| *None* |Contact - Direct - Description: Phone number description|  |
+|mailingAddr/person/personMobilePhone/formattedNumber| *None* |Contact - Mobile - Phone: Displays phone number|  |
+|mailingAddr/person/personMobilePhone/description| *None* |Contact - Mobile - Description: Phone number description|  |
+|mailingAddr/person/personPrivate/formattedNumber| *None* |Contact - Private - Phone: Displays phone number|  |
+|mailingAddr/person/personPrivate/description| *None* |Contact - Private - Description: Phone number description|  |
+|mailingAddr/person/personPager/formattedNumber| *None* |Contact - Other - Phone: Displays phone number|  |
+|mailingAddr/person/personPager/description| *None* |Contact - Other - Description: Phone number description|  |
+|mailingAddr/person/personDirectFax/formattedNumber| *None* |Contact - Fax - Phone: Displays phone number|  |
+|mailingAddr/person/personDirectFax/description| *None* |Contact - Fax - Description: Phone number description|  |
+|mailingAddr/person/searchPhone/formattedNumber| *None* |Contact - Phone: Displays phone number|  |
+|mailingAddr/person/searchPhone/description| *None* |Contact - Description: Phone number description|  |
+|mailingAddr/person/personInfo/textId| *None* |Contact - Text ID|  |
+|mailingAddr/person/personInfo/infoText| *None* |Contact - Information: Displays the text entered in the description field|  |
+|mailingAddr/person/email/emailProtocol| *None* |Contact - Protocol: E-mail protocol, such as SMTP|  |
+|mailingAddr/person/email/emailAddress| *None* |Contact - E-mail|  |
+|mailingAddr/person/email/emailDescription| *None* |Contact - Description|  |
+|mailingAddr/person/email/emailId| *None* |Contact - ID|  |
+|mailingAddr/person/email/emailLastSent| *None* |Contact - Last sent: The date and time an e-mail was last sent to this address|  |
+|mailingAddr/person/email/emailBounceCount| *None* |Contact - Bounce count: Bounce count for this e-mail address|  |
+|mailingAddr/person/email/emailLastBounce| *None* |Contact - Last bounce: Date and time for last bounce to this e-mail address|  |
+|mailingAddr/person/email/emailHasBounced| *None* |Contact - Has bounced: This checkbox is active if delivery to this e-mail address has failed.|  |
+|mailingAddr/person/personUrl/URLAddress| *None* |Contact - URL|  |
+|mailingAddr/person/personUrl/URLDescription| *None* |Contact - Description|  |
+|mailingAddr/person/personAddress/addressId| *None* |Contact - Contact address - Address ID: Database ID for the address record|  |
+|mailingAddr/person/personAddress/line1| *None* |Contact - Contact address - Address 1: First line of the address|  |
+|mailingAddr/person/personAddress/line2| *None* |Contact - Contact address - Address 2: Second line of the address|  |
+|mailingAddr/person/personAddress/line3| *None* |Contact - Contact address - Address 3: Third line of the address|  |
+|mailingAddr/person/personAddress/county| *None* |Contact - Contact address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
+|mailingAddr/person/personAddress/city| *None* |Contact - Contact address - City: This criterion corresponds to the City field on the Company card.|  |
+|mailingAddr/person/personAddress/zip| *None* |Contact - Contact address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
+|mailingAddr/person/personAddress/state| *None* |Contact - Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
+|mailingAddr/person/personAddress/wgs84latitude| *None* |Contact - Contact address - Latitude: Latitude|  |
+|mailingAddr/person/personAddress/wgs84longitude| *None* |Contact - Contact address - Longitude: Longitude|  |
+|mailingAddr/person/personAddress/formattedAddress| *None* |Contact - Contact address - {formattedAddress}: {formattedAddress}|  |
+|mailingAddr/person/personAddress/formattedMultiLineAddress| *None* |Contact - Contact address - {formattedAddress}: {formattedAddress}|  |
+|mailingAddr/person/restrictionAddress/addressId| *None* |Contact - Search address - Address ID: Database ID for the address record|  |
+|mailingAddr/person/restrictionAddress/line1| *None* |Contact - Search address - Address 1: First line of the address|  |
+|mailingAddr/person/restrictionAddress/line2| *None* |Contact - Search address - Address 2: Second line of the address|  |
+|mailingAddr/person/restrictionAddress/line3| *None* |Contact - Search address - Address 3: Third line of the address|  |
+|mailingAddr/person/restrictionAddress/county| *None* |Contact - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
+|mailingAddr/person/restrictionAddress/city| *None* |Contact - Search address - City: This criterion corresponds to the City field on the Company card.|  |
+|mailingAddr/person/restrictionAddress/zip| *None* |Contact - Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
+|mailingAddr/person/restrictionAddress/state| *None* |Contact - Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
+|mailingAddr/person/restrictionAddress/wgs84latitude| *None* |Contact - Search address - Latitude: Latitude|  |
+|mailingAddr/person/restrictionAddress/wgs84longitude| *None* |Contact - Search address - Longitude: Longitude|  |
+|mailingAddr/person/restrictionAddress/formattedAddress| *None* |Contact - Search address - {formattedAddress}: {formattedAddress}|  |
+|mailingAddr/person/restrictionAddress/formattedMultiLineAddress| *None* |Contact - Search address - {formattedAddress}: {formattedAddress}|  |
+|mailingAddr/person/personInterestIds| *None* |Contact - Contact interest: This criterion corresponds to a contact's interests.  It is available via the Contact dialog's Interests tab.|  |
+|mailingAddr/person/personUdef/SuperOffice:1| *None* |Contact - contactshorttext: tooltipshorttext|  |
+|mailingAddr/person/personUdef/SuperOffice:2| *None* |Contact - contactlongtext: tooltiplongtext|  |
+|mailingAddr/person/personUdef/SuperOffice:3| *None* |Contact - contactnumber|  |
+|mailingAddr/person/personUdef/SuperOffice:4| *None* |Contact - contactdate|  |
+|mailingAddr/person/personUdef/SuperOffice:5| *None* |Contact - contactunlimiteddate: tooltipunlimiteddate|  |
+|mailingAddr/person/personUdef/SuperOffice:6| *None* |Contact - contactcheckbox|  |
+|mailingAddr/person/personUdef/SuperOffice:7| *None* |Contact - contactdropdownlistbox|  |
+|mailingAddr/person/personUdef/SuperOffice:8| *None* |Contact - contactdecimal|  |
+|mailingAddr/person/personUdef/SuperOffice:9| *None* |Contact - page1saleonly|  |
+|mailingAddr/person/personUdef/SuperOffice:10| *None* |Contact - page1marketingonly|  |
+|mailingAddr/person/personUdef/SuperOffice:11| *None* |Contact - page1adminonly|  |
+|mailingAddr/person/personExtra/x\_person\_integer| *None* |Contact - Extra Integer: Custom person integer|  |
+|mailingAddr/person/personExtra/x\_person\_hidden\_integer| *None* |Contact - Extra hidden integer: Custom integer field that is hidden|  |
+|mailingAddr/person/personExtra/x\_person\_float| *None* |Contact - Extra float: Custom float field|  |
+|mailingAddr/person/personExtra/x\_person\_longtext| *None* |Contact - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'|  |
+|mailingAddr/person/personExtra/x\_person\_date| *None* |Contact - Extra date: Custom date field on person. Default value = 28.03.2019|  |
+|mailingAddr/person/personExtra/x\_person\_datetime| *None* |Contact - Extra DateTime: Custom person date and time field. No default|  |
+|mailingAddr/person/personExtra/x\_person\_time| *None* |Contact - Extra time: Custom time field on person. Current time as default|  |
+|mailingAddr/person/personExtra/x\_person\_boolean| *None* |Contact - Extra Boolean: Custom boolean field on person. Default checked|  |
+|mailingAddr/person/personExtra/x\_person\_timespan| *None* |Contact - Extra timespan: Custom timespan on person. Minutes only in 15 units|  |
+|mailingAddr/person/personExtra/x\_person\_shorttext| *None* |Contact - Extra short text: Custom short text on person. With index. Do not keep HTML tags|  |
+|mailingAddr/person/personExtra/x\_person\_shorttext\_list| *None* |Contact - Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent|  |
+|mailingAddr/person/personExtra/x\_person\_user\_relation| *None* |Contact - Extra user relation: Custom person-user relation field|  |
+|mailingAddr/person/personExtra/x\_person\_category\_relation| *None* |Contact - Extra category relation: Custom person-category relation|  |
+|mailingAddr/person/personExtra/x\_person\_priority\_relation| *None* |Contact - Extra priority relation: Custom person-priority relation|  |
+|mailingAddr/person/personExtra/x\_person\_request\_relation| *None* |Contact - Extra request relation: Request relation on contact|  |
+|mailingAddr/person/personExtra/x\_person\_appointment\_relation| *None* |Contact - Extra appointment relation: Appointment relation on person|  |
+|mailingAddr/person/personExtra/x\_person\_contact\_relation| *None* |Contact - Extra company relation: Company relation on contact|  |
+|mailingAddr/person/personExtra/y\_rental/id| *None* |Contact - Rental - id: Displays the row's primary key (y\_rental)|  |
+|mailingAddr/person/personExtra/y\_rental/x\_start| *None* |Contact - Rental - Start rental|  |
+|mailingAddr/person/personExtra/y\_rental/x\_end| *None* |Contact - Rental - End|  |
+|mailingAddr/person/personExtra/y\_rental/x\_amount| *None* |Contact - Rental - Amount: Number to rent. Default = 1|  |
+|mailingAddr/person/personExtra/y\_rental/x\_contact| *None* |Contact - Rental - Renter: Company that rents equipment|  |
+|mailingAddr/person/personExtra/y\_rental/y\_equipment/x\_name| *None* |Contact - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table|  |
+|mailingAddr/person/personAssociate/firstName| *None* |Contact - First name: Displays the contact's first name|  |
+|mailingAddr/person/personAssociate/lastName| *None* |Contact - Last name: Displays the contact's last name|  |
+|mailingAddr/person/personAssociate/middleName| *None* |Contact - Middle Name: Displays the contact's middle name.|  |
+|mailingAddr/person/personAssociate/fullName| *None* |Contact - Full name: Displays full name of user (first, middle, last - according to settings)|  |
+|mailingAddr/person/personAssociate/contactId| *None* |Contact - Company ID: Database ID of the company the user belongs to|  |
+|mailingAddr/person/personAssociate/personId| *None* |Contact - Contact ID: Database ID of the contact row|  |
+|mailingAddr/person/personAssociate/mrMrs| *None* |Contact - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
+|mailingAddr/person/personAssociate/title| *None* |Contact - Title: Displays whether the contact is addressed as Mr or Ms|  |
+|mailingAddr/person/personAssociate/associateDbId| *None* |Contact - ID|  |
+|mailingAddr/person/personAssociate/contactName| *None* |Contact - Owning company: Name of the company the user belongs to|  |
+|mailingAddr/person/personAssociate/contactDepartment| *None* |Contact - Owning department: Name of the department at the company the user belongs to|  |
+|mailingAddr/person/personAssociate/usergroup| *None* |Contact - Primary group: The user's primary user group|  |
+|mailingAddr/person/personAssociate/contactFullName| *None* |Contact - Owner: Name and department of the company the user belongs to|  |
+|mailingAddr/person/personAssociate/contactCategory| *None* |Contact - Category: Category|  |
+|mailingAddr/person/personAssociate/role| *None* |Contact - Role: Role|  |
+|mailingAddr/person/personAssociate/assocName| *None* |Contact - User ID: User ID|  |
+|mailingAddr/person/personAssociate/assocTooltip| *None* |Contact - Description: Description|  |
+|mailingAddr/person/personAssociate/assocType| *None* |Contact - Type: Type of user: associate, external user, system user, anonymous account|  |
+|mailingAddr/person/personAssociate/ejUserId| *None* |Contact - Service user ID: The database ID of a Service user|  |
+|mailingAddr/person/personAssociate/simultaneousEjUser| *None* |Contact - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|mailingAddr/person/personAssociate/ejDisplayName| *None* |Contact - Nick name: User's nick name in Service|  |
+|mailingAddr/person/personAssociate/ejStatus| *None* |Contact - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|mailingAddr/person/personAssociate/credentialType| *None* |Contact - Auth. type: What type of credentials to use when this user logs in|  |
+|mailingAddr/person/personAssociate/credentialDisplayValue| *None* |Contact - Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
+|mailingAddr/person/personAssociate/isActive| *None* |Contact - Active: Is this user active, and should be able to log in?|  |
+|mailingAddr/person/personAssociate/isActiveText| *None* |Contact - Active status: Is this user active, and should be able to log in?|  |
+|mailingAddr/person/personAssociate/portraitThumbnail| *None* |Contact - Person image: Person image|  |
+|mailingAddr/person/personAssociate/otherGroups| *None* |Contact - Other groups: Other groups|  |
+|mailingAddr/person/personAssociate/userName| *None* |Contact - User name: User name|  |
+|mailingAddr/person/personAssociate/personEmail| *None* |Contact - E-mail|  |
+|mailingAddr/person/correspondingAssociate/firstName| *None* |Contact - First name: Displays the contact's first name|  |
+|mailingAddr/person/correspondingAssociate/lastName| *None* |Contact - Last name: Displays the contact's last name|  |
+|mailingAddr/person/correspondingAssociate/middleName| *None* |Contact - Middle Name: Displays the contact's middle name.|  |
+|mailingAddr/person/correspondingAssociate/fullName| *None* |Contact - Full name: Displays full name of user (first, middle, last - according to settings)|  |
+|mailingAddr/person/correspondingAssociate/contactId| *None* |Contact - Company ID: Database ID of the company the user belongs to|  |
+|mailingAddr/person/correspondingAssociate/personId| *None* |Contact - Contact ID: Database ID of the contact row|  |
+|mailingAddr/person/correspondingAssociate/mrMrs| *None* |Contact - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
+|mailingAddr/person/correspondingAssociate/title| *None* |Contact - Title: Displays whether the contact is addressed as Mr or Ms|  |
+|mailingAddr/person/correspondingAssociate/associateDbId| *None* |Contact - ID|  |
+|mailingAddr/person/correspondingAssociate/contactName| *None* |Contact - Owning company: Name of the company the user belongs to|  |
+|mailingAddr/person/correspondingAssociate/contactDepartment| *None* |Contact - Owning department: Name of the department at the company the user belongs to|  |
+|mailingAddr/person/correspondingAssociate/usergroup| *None* |Contact - Primary group: The user's primary user group|  |
+|mailingAddr/person/correspondingAssociate/contactFullName| *None* |Contact - Owner: Name and department of the company the user belongs to|  |
+|mailingAddr/person/correspondingAssociate/contactCategory| *None* |Contact - Category: Category|  |
+|mailingAddr/person/correspondingAssociate/role| *None* |Contact - Role: Role|  |
+|mailingAddr/person/correspondingAssociate/assocName| *None* |Contact - User ID: User ID|  |
+|mailingAddr/person/correspondingAssociate/assocTooltip| *None* |Contact - Description: Description|  |
+|mailingAddr/person/correspondingAssociate/assocType| *None* |Contact - Type: Type of user: associate, external user, system user, anonymous account|  |
+|mailingAddr/person/correspondingAssociate/ejUserId| *None* |Contact - Service user ID: The database ID of a Service user|  |
+|mailingAddr/person/correspondingAssociate/simultaneousEjUser| *None* |Contact - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|mailingAddr/person/correspondingAssociate/ejDisplayName| *None* |Contact - Nick name: User's nick name in Service|  |
+|mailingAddr/person/correspondingAssociate/ejStatus| *None* |Contact - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|mailingAddr/person/correspondingAssociate/credentialType| *None* |Contact - Auth. type: What type of credentials to use when this user logs in|  |
+|mailingAddr/person/correspondingAssociate/credentialDisplayValue| *None* |Contact - Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
+|mailingAddr/person/correspondingAssociate/isActive| *None* |Contact - Active: Is this user active, and should be able to log in?|  |
+|mailingAddr/person/correspondingAssociate/isActiveText| *None* |Contact - Active status: Is this user active, and should be able to log in?|  |
+|mailingAddr/person/correspondingAssociate/portraitThumbnail| *None* |Contact - Person image: Person image|  |
+|mailingAddr/person/correspondingAssociate/otherGroups| *None* |Contact - Other groups: Other groups|  |
+|mailingAddr/person/correspondingAssociate/userName| *None* |Contact - User name: User name|  |
+|mailingAddr/person/correspondingAssociate/personEmail| *None* |Contact - E-mail|  |
+|mailingAddr/person/isMailingRecipient| *None* |Contact - Is mailing recipient: isMailingRecipient|  |
+|mailingAddr/person/hasStoreConsent| *None* |Contact - Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|mailingAddr/person/withdrawnStoreConsent| *None* |Contact - Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|mailingAddr/person/hasEmarketingConsent| *None* |Contact - Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+|mailingAddr/person/withdrawnEmarketingConsent| *None* |Contact - Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+|mailingAddr/person/subscription| *None* |Contact - Subscription: Subscription for marketing|  |
+|mailingAddr/person/legalBaseStore| *None* |Contact - Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|mailingAddr/person/legalBaseEmarketing| *None* |Contact - Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+|mailingAddr/person/consentSourceStore| *None* |Contact - Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|mailingAddr/person/consentSourceEmarketing| *None* |Contact - Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |documentId| *None* |Document ID: Database ID of document record|  |
 |keywords| *None* |Keywords |  |
 |ourref| *None* |Our ref.|  |
@@ -2522,6 +2889,7 @@ blah....
 |isMilestone| *None* |Milestone: Shows whether or not the follow-ups in this row are milestones|  |
 |invitedPersonId| *None* |ID of invited person: appointment.invitedpersonid record - utility for rd|  |
 |joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting|  |
+|duration| *None* |Duration: The duration of the chat session|  |
 |appointmentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |appointmentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
 |appointmentPublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date|  |
@@ -2650,11 +3018,14 @@ blah....
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=project/projectAssociate/simultaneousEjUser,project/saintTicketStatus,saleStakeholder/contact/countryId,saleStakeholder/contact/streetAddress/formattedMultiLineAddress,quote/version/alternative/quoteline/vatInfo
+GET /api/v1/archive/Favourites?$select=contact/email/emailId,contact/restrictionAddress/state,contact/contactExtra/x_contact_integer,contact/LastDoBySale,associate/assocName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.INavigatorAgent.GetNaviga
 
 ## GetNavigatorCompany
 
-Gets a NavigatorCompany object.
 
-* **navigatorCompanyId:** The identifier of the NavigatorCompany object
 
-**Returns:** NavigatorCompany
+
 
 [WSDL file for Services85/Navigator](../Services85-Navigator.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetNavigatorCompany Response
 
 ```xml
@@ -73,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

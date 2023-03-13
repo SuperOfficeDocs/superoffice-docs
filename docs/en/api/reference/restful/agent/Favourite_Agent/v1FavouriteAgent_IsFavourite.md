@@ -73,9 +73,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Boyer Group",
-  "RecordId": 279,
-  "AssociateId": 276
+  "TableName": "Kub-Pfeffer",
+  "RecordId": 611,
+  "AssociateId": 587
 }
 ```
 
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

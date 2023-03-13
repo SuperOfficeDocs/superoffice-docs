@@ -83,6 +83,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -92,11 +93,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 471
+  "Id": 378
 }
 ```
 
@@ -107,36 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 539,
-  "Name": "Rodriguez Inc and Sons",
-  "AssociateId": 211,
-  "DetailsTable": 678,
-  "DetailsRecord": 939,
+  "Id": 699,
+  "Name": "Mosciski-McLaughlin",
+  "AssociateId": 971,
+  "DetailsTable": 891,
+  "DetailsRecord": 368,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "excepturi",
-    "ParameterObject2": "quis"
+    "ParameterObject1": "neque",
+    "ParameterObject2": "quo"
   },
-  "LastStarted": "2004-03-11T17:37:16.895244+01:00",
-  "Created": "2014-04-22T17:37:16.895244+02:00",
-  "StartCount": 81,
-  "DatabaseSerialNumber": "429175",
-  "Context": "voluptatem",
-  "Result": "dolorum",
+  "LastStarted": "2004-11-05T14:19:02.7594283+01:00",
+  "Created": "2004-07-11T14:19:02.7594283+02:00",
+  "StartCount": 85,
+  "DatabaseSerialNumber": "909587",
+  "Context": "ut",
+  "Result": "quis",
   "State": "All",
-  "Description": "Mandatory multi-tasking leverage",
-  "Response": "facilis",
-  "Request": "quidem",
-  "ProgressDescription": "Realigned homogeneous solution",
-  "ProgressPercent": 326,
-  "FileName": "Lind-Altenwerth",
+  "Description": "Synchronised transitional migration",
+  "Response": "eius",
+  "Request": "cum",
+  "ProgressDescription": "Universal stable protocol",
+  "ProgressPercent": 990,
+  "FileName": "Waters, Douglas and Gottlieb",
+  "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 354
+      "FieldLength": 618
     }
   }
 }

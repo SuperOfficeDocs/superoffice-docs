@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    585,
-    102
+    443,
+    978
   ]
 }
 ```
@@ -104,64 +104,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 745,
-    "Caption": "aut",
-    "Description": "Realigned intermediate instruction set",
-    "ChartName": "Runolfsson, Kovacek and McDermott",
-    "ChartId": "esse",
-    "IsDefault": true,
-    "AssociateId": 251,
-    "GroupId": 759,
-    "SelectionId": 999,
-    "Config": "voluptatem",
+    "DashboardTileId": 162,
+    "Caption": "consequatur",
+    "Description": "Compatible client-driven paradigm",
+    "ChartName": "Volkman-Welch",
+    "ChartId": "perspiciatis",
+    "IsDefault": false,
+    "AssociateId": 943,
+    "GroupId": 667,
+    "SelectionId": 456,
+    "Config": "quisquam",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Lehner-Sauer",
-        "Description": "Upgradable 6th generation complexity",
+        "Name": "Goldner, Mante and Spinka",
+        "Description": "Enterprise-wide bandwidth-monitored benchmark",
         "Type": "Boolean",
-        "ListName": "Schaden, Mohr and Kris",
+        "ListName": "Rohan-Morar",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "amet",
-        "DefaultDataOption": false,
+        "Value": "natus",
+        "DefaultDataOption": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 73
+            "FieldLength": 165
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 338,
+        "VisibleId": 931,
         "Visibility": "All",
-        "DisplayValue": "itaque",
+        "DisplayValue": "excepturi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 432
+            "FieldLength": 166
           }
         }
       },
       {
-        "VisibleId": 338,
+        "VisibleId": 931,
         "Visibility": "All",
-        "DisplayValue": "itaque",
+        "DisplayValue": "excepturi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 432
+            "FieldLength": 166
           }
         }
       }
@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 243
+        "FieldLength": 525
       }
     }
   }

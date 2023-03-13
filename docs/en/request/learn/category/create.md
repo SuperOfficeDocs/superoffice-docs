@@ -2,7 +2,7 @@
 uid: help-en-request-category-create
 title: Create category
 description: Create category
-author: SuperOffice RnD
+author: HanneGunnarsson
 so.date: 06.29.2022
 keywords: request, category
 so.topic: howto
@@ -12,14 +12,11 @@ language: en
 
 # Create category
 
-1. Go to the **Categories** screen.
-
-    * In Settings and maintenance: Click the **Requests** button in the navigator. Then select the **Categories** tab.
-    * In Service: Select ![icon][img2] > **Categories**.
+1. In Settings and maintenance, go to the **Categories** screen by clicking the **Requests** button in the navigator and selecting the **Categories** tab.
 
 1. Click the **Add** button.
 
-1. Enter a descriptive name for the category (replace the text "New category" above the tabs).
+1. Enter a descriptive name for the category in the filed **Category name** above the tabs.
 
 1. In the **Properties** tab, enter the following information:
 
@@ -39,14 +36,11 @@ language: en
 
     * **Take ownership when replying**: If checked, the user who replies to a request in this category is set as the owner of the request.
 
-    * **Default status for new message**: Here you choose the default status to appear in a new message. This setting will override [user preferences][1], unless you select **User-defined**.
-
     * **Default status for new request**: Here you choose the default status to appear in the **Request** screen. This setting will override [user preferences][1], unless you select **User-defined**.
 
-    * **Merge outbound emails for this category with reply template**: Select the reply template to use in messages sent to customers and others, for requests belonging to this category. This can be a reply template specifically created for this category, to give all replies from a category (such as support or accounting) a uniform appearance.
+    * **Default status for new message**: Here you choose the default status to appear in a new message. This setting will override [user preferences][1], unless you select **User-defined**.
 
-        > [!NOTE]
-        >  In Service, go to the **Reply template** tab to set this property.
+    * **Merge outbound emails for this category with reply template**: Select the reply template to use in messages sent to customers and others, for requests belonging to this category. This can be a reply template specifically created for this category, to give all replies from a category (such as support or accounting) a uniform appearance.
 
         * Check **Apply to subcategories** if you want the selected reply template to also be used for any subcategories. This assumes however that the template is not overridden by settings made in the subcategories.
 
@@ -75,9 +69,9 @@ language: en
 
     * **Assign to our service contact if available**: If the relevant company or contact has a request handler specified as **Our contact**, and this user is available, the request is assigned to this user. If **Our contact** is not specified, or the user is not available, the request is assigned in accordance with the usual assignment rules.
 
-    * **Duration of sticky request** / **Assignment quarantine**: Enter the number of minutes for which you want to override assignment and assign all requests from the same customer to one user. In this way, you can ensure that when customers send two requests in a row to the same email address, the requests go to the same request handler. If you enter -1, this functionality is disabled and all requests will be assigned in accordance with the usual assignment rules.
+    * **Assignment quarantine**: Enter the number of minutes for which you want to override assignment and assign all requests from the same customer to one user. In this way, you can ensure that when customers send two requests in a row to the same email address, the requests go to the same request handler. If you enter -1, this functionality is disabled and all requests will be assigned in accordance with the usual assignment rules.
 
-1. Click **OK**. The category is created.
+1. Click **Save**. The category is created.
 
 ## What would you like to do now?
 
@@ -89,4 +83,3 @@ language: en
 [6]: ../find.md#category
 
 <!-- Referenced images -->
-[img2]: ../../../../media/icons/settings-small.png

@@ -82,18 +82,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dolor",
-  "Value": "dignissimos",
-  "RecordId": 987,
-  "CreatedDate": "2016-03-31T17:37:38.8208594+02:00",
-  "UpdatedDate": "1996-04-26T17:37:38.8208594+02:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "reiciendis",
-  "TableName": "Effertz Inc and Sons"
+  "Key": "veritatis",
+  "Value": "ab",
+  "RecordId": 488,
+  "CreatedDate": "2003-05-31T14:19:10.3654771+02:00",
+  "UpdatedDate": "1996-12-06T14:19:10.3654771+01:00",
+  "UpdatedBy": "accusamus",
+  "CreatedBy": "dolorum",
+  "TableName": "Heathcote Group"
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quaerat",
-  "Value": "aliquid",
-  "RecordId": 953,
-  "CreatedDate": "2005-09-06T17:37:38.8208594+02:00",
-  "UpdatedDate": "2022-08-16T17:37:38.8208594+02:00",
-  "UpdatedBy": "at",
-  "CreatedBy": "quia",
-  "TableName": "Turner Inc and Sons",
+  "Key": "in",
+  "Value": "occaecati",
+  "RecordId": 671,
+  "CreatedDate": "1995-10-26T14:19:10.3654771+02:00",
+  "UpdatedDate": "2003-05-18T14:19:10.3654771+02:00",
+  "UpdatedBy": "facilis",
+  "CreatedBy": "occaecati",
+  "TableName": "Green-Witting",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldLength": 694
     }
   }
 }

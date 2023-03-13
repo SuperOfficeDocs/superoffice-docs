@@ -103,33 +103,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 107,
-  "ParentId": 751,
-  "Name": "Baumbach Group",
-  "Fullname": "ratione",
-  "CategoryMaster": 731,
+  "TicketCategoryId": 154,
+  "ParentId": 208,
+  "Name": "Kutch LLC",
+  "Fullname": "at",
+  "CategoryMaster": 985,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Mann, Klein and Hilpert",
+  "ExternalName": "Rogahn LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 211,
-  "ReplyTemplate": 186,
-  "NotificationEmail": "nathen@orn.com",
+  "AssignmentLag": 443,
+  "ReplyTemplate": 770,
+  "NotificationEmail": "damien@ryankuhn.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 514,
+  "EffectiveReplyTemplateId": 453,
   "ExtraFields": {
-    "ExtraFields1": "soluta",
-    "ExtraFields2": "impedit"
+    "ExtraFields1": "eaque",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "repudiandae"
+    "CustomFields1": "tempore",
+    "CustomFields2": "iure"
   }
 }
 ```
@@ -141,36 +141,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 689,
-  "ParentId": 714,
-  "Name": "Grant Inc and Sons",
-  "Fullname": "quam",
-  "CategoryMaster": 468,
+  "TicketCategoryId": 678,
+  "ParentId": 9,
+  "Name": "Feest-Witting",
+  "Fullname": "explicabo",
+  "CategoryMaster": 503,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Stehr, Bogan and Reilly",
+  "ExternalName": "Dach-Abbott",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 923,
-  "ReplyTemplate": 440,
-  "NotificationEmail": "fred@breitenberg.biz",
+  "AssignmentLag": 987,
+  "ReplyTemplate": 822,
+  "NotificationEmail": "felicita.okeefe@fahey.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 576,
+  "EffectiveReplyTemplateId": 455,
   "ExtraFields": {
-    "ExtraFields1": "nihil",
-    "ExtraFields2": "modi"
+    "ExtraFields1": "iusto",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "consequuntur"
+    "CustomFields1": "doloribus",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 381
+      "FieldLength": 365
     }
   }
 }

@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 808,
-    "Name": "Lind-Casper",
-    "ToolTip": "Eligendi explicabo tenetur accusantium occaecati et ad eveniet.",
+    "Id": 894,
+    "Name": "Borer, Strosin and Smitham",
+    "ToolTip": "Occaecati labore et est eum ut sed.",
     "Deleted": false,
-    "Rank": 914,
-    "Type": "consequuntur",
-    "ColorBlock": 57,
-    "IconHint": "doloribus",
-    "Selected": false,
-    "LastChanged": "2011-06-23T17:37:40.1315001+02:00",
+    "Rank": 441,
+    "Type": "itaque",
+    "ColorBlock": 417,
+    "IconHint": "earum",
+    "Selected": true,
+    "LastChanged": "2000-10-12T14:19:11.3524087+02:00",
     "ChildItems": [
       {
-        "Id": 735,
-        "Name": "Schuppe Group",
-        "ToolTip": "Et rerum itaque quod quod.",
-        "Deleted": true,
-        "Rank": 368,
-        "Type": "est",
-        "ColorBlock": 679,
-        "IconHint": "exercitationem",
+        "Id": 908,
+        "Name": "Swift, Stamm and Hyatt",
+        "ToolTip": "Qui repudiandae ullam doloremque similique qui.",
+        "Deleted": false,
+        "Rank": 340,
+        "Type": "repellendus",
+        "ColorBlock": 784,
+        "IconHint": "cupiditate",
         "Selected": false,
-        "LastChanged": "2008-02-26T17:37:40.1315001+01:00",
+        "LastChanged": "2014-01-10T14:19:11.3524087+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "debitis",
+        "ExtraInfo": "neque",
+        "StyleHint": "voluptatibus",
         "Hidden": false,
-        "FullName": "Miss Walton Larson",
+        "FullName": "Sandrine Walker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 825
+            "FieldType": "System.String",
+            "FieldLength": 314
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "temporibus",
+    "ExtraInfo": "sunt",
+    "StyleHint": "quo",
     "Hidden": false,
-    "FullName": "Evelyn Schuster",
+    "FullName": "Katelyn O'Connell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 710
+        "FieldLength": 852
       }
     }
   }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 871,
-    "Name": "Adams LLC",
-    "ToolTip": "Voluptatum quia reprehenderit.",
+    "Id": 910,
+    "Name": "Witting-Kunde",
+    "ToolTip": "Minus ipsam aut.",
     "Deleted": false,
-    "Rank": 933,
-    "Type": "voluptatem",
-    "ColorBlock": 865,
-    "IconHint": "vero",
-    "Selected": true,
-    "LastChanged": "2008-10-20T17:37:39.6604305+02:00",
+    "Rank": 56,
+    "Type": "occaecati",
+    "ColorBlock": 805,
+    "IconHint": "autem",
+    "Selected": false,
+    "LastChanged": "2021-10-30T14:19:11.1324679+02:00",
     "ChildItems": [
       {
-        "Id": 54,
-        "Name": "Casper, Abbott and Lynch",
-        "ToolTip": "Autem modi.",
+        "Id": 302,
+        "Name": "Towne-Mayert",
+        "ToolTip": "Mollitia sint quis ut nam.",
         "Deleted": false,
-        "Rank": 545,
-        "Type": "quisquam",
-        "ColorBlock": 452,
-        "IconHint": "dolorem",
-        "Selected": false,
-        "LastChanged": "2000-07-01T17:37:39.6604305+02:00",
+        "Rank": 597,
+        "Type": "rem",
+        "ColorBlock": 341,
+        "IconHint": "ea",
+        "Selected": true,
+        "LastChanged": "2002-04-26T14:19:11.1324679+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "atque",
         "Hidden": false,
-        "FullName": "Dr. Guadalupe Shany West"
+        "FullName": "Mrs. Guadalupe Elmer Goldner III"
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "quo",
+    "ExtraInfo": "modi",
+    "StyleHint": "dolorum",
     "Hidden": false,
-    "FullName": "Antone Hauck"
+    "FullName": "Miss Savanah Mann"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 149,
-    "Name": "Conroy, Aufderhar and Walsh",
-    "ToolTip": "Qui nemo non ut aut.",
+    "Id": 72,
+    "Name": "Kassulke, Mraz and Walsh",
+    "ToolTip": "Culpa eligendi et.",
     "Deleted": false,
-    "Rank": 909,
-    "Type": "aperiam",
-    "ColorBlock": 632,
-    "IconHint": "perspiciatis",
-    "Selected": false,
-    "LastChanged": "1997-07-27T17:37:39.6614307+02:00",
+    "Rank": 1000,
+    "Type": "ipsum",
+    "ColorBlock": 429,
+    "IconHint": "veniam",
+    "Selected": true,
+    "LastChanged": "2009-04-21T14:19:11.1324679+02:00",
     "ChildItems": [
       {
-        "Id": 616,
-        "Name": "Torp, Ritchie and Sipes",
-        "ToolTip": "Ipsam id debitis voluptatem praesentium explicabo voluptatem.",
-        "Deleted": true,
-        "Rank": 515,
-        "Type": "dolorem",
-        "ColorBlock": 131,
-        "IconHint": "et",
+        "Id": 757,
+        "Name": "Huels Group",
+        "ToolTip": "Qui quod distinctio quasi.",
+        "Deleted": false,
+        "Rank": 411,
+        "Type": "recusandae",
+        "ColorBlock": 843,
+        "IconHint": "vitae",
         "Selected": false,
-        "LastChanged": "1999-09-23T17:37:39.6614307+02:00",
+        "LastChanged": "2013-11-12T14:19:11.1324679+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "sed",
+        "ExtraInfo": "expedita",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Dr. Dashawn Rupert Bailey Jr.",
+        "FullName": "Sydnee Zulauf",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 886
+            "FieldLength": 4
           }
         }
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "odio",
-    "Hidden": false,
-    "FullName": "Katrina Roberts",
+    "ExtraInfo": "eum",
+    "StyleHint": "optio",
+    "Hidden": true,
+    "FullName": "Mrs. Sadie Joshua Boyle II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 391
+        "FieldType": "System.String",
+        "FieldLength": 618
       }
     }
   }

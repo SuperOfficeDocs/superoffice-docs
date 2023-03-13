@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 608,
-    "Name": "Rice-Quigley",
-    "ToolTip": "Qui dolores pariatur.",
+    "Id": 369,
+    "Name": "Schinner, Kuhn and Corkery",
+    "ToolTip": "Rerum consequatur minus unde quia consequatur tempora.",
     "Deleted": true,
-    "Rank": 973,
-    "Type": "voluptatem",
-    "ColorBlock": 601,
-    "IconHint": "soluta",
-    "Selected": false,
-    "LastChanged": "2019-03-26T17:37:39.9645005+01:00",
+    "Rank": 226,
+    "Type": "iure",
+    "ColorBlock": 491,
+    "IconHint": "occaecati",
+    "Selected": true,
+    "LastChanged": "2002-10-19T14:19:11.2262177+02:00",
     "ChildItems": [
       {
-        "Id": 420,
-        "Name": "O'Hara LLC",
-        "ToolTip": "Commodi ut nam ipsa cum et nobis sed.",
-        "Deleted": false,
-        "Rank": 530,
-        "Type": "eaque",
-        "ColorBlock": 361,
-        "IconHint": "est",
+        "Id": 561,
+        "Name": "Hoeger Inc and Sons",
+        "ToolTip": "Corporis quibusdam qui incidunt eos et distinctio delectus.",
+        "Deleted": true,
+        "Rank": 645,
+        "Type": "quis",
+        "ColorBlock": 296,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "1999-05-26T17:37:39.9645005+02:00",
+        "LastChanged": "2021-03-04T14:19:11.2262177+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "aut",
+        "StyleHint": "earum",
         "Hidden": false,
-        "FullName": "Rebeka Sporer",
+        "FullName": "Ed Frami",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 8
+            "FieldType": "System.String",
+            "FieldLength": 904
           }
         }
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "dolor",
-    "Hidden": false,
-    "FullName": "Ms. Gregorio Moore",
+    "ExtraInfo": "sit",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Ms. Chandler Jewess II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 860
+        "FieldLength": 501
       }
     }
   }

@@ -21,12 +21,12 @@ If nothing is returned by this query, first go to your Customer center and FAQs 
 
     ![x -screenshot][img1]
 
-2. Now you can change comment field access. Below are possible options:
+1. Now you can change comment field access. Below are possible options:
     * 0 = none
     * 1 = customer (these are people that are logged in to the customer portal)
     * 2 = all - also anonymous users
 
-3. After you enable these settings you will see the comments show up.
+1. After you enable these settings you will see the comments show up.
 
 ![x -screenshot][img2]
 
@@ -69,7 +69,7 @@ You may also control access to a FAQ folder by adding a small script that is eva
 * company.fax
 * company.adr
 
-In addition, all extra fields for contactperson are available via "customer." plus the name of the extra field, for example, `customer.MyExtraField`, and similarly for the company: "company.ExtraField". Boolean field has the value "1" when they are true.
+In addition, all extra fields for contact person are available via "customer." plus the name of the extra field, for example, `customer.MyExtraField`, and similarly for the company: "company.ExtraField". Boolean field has the value "1" when they are true.
 
 For example, a boolean field is created on the customer, called `x_access`. When tick, the user will get access:
 

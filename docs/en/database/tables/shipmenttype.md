@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "ShipmentType"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ShipmentType Table (491)
+# ShipmentType Table (494)
 
 Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists
 

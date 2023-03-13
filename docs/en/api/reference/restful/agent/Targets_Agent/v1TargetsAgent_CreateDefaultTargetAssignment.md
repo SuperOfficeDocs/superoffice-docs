@@ -74,24 +74,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 265,
+  "TargetAssignmentInfoId": 719,
   "Values": [
-    97,
-    919
+    584,
+    184
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 872,
-  "DimensionListItemDisplayName": "Flatley Inc and Sons",
+  "DimensionListItem": 171,
+  "DimensionListItemDisplayName": "Daniel Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 817
+      "FieldLength": 479
     }
   }
 }

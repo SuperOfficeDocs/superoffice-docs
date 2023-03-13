@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "subscriptionunit"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "subscriptionunit" MDO List
-
 GenericMDOProvider reads MDO lists with default settings
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.GenericMDOProvider">GenericMDOProvider</see> class.
 The name of the MDO list is 'subscriptionunit'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("subscriptionunit", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -50,6 +53,7 @@ foreach (var item in listProvider.RootItems) {
 |3|Quarter|||
 |5|Week|||
 |1|Year|||
+
 
 ## Related MDO Lists
 

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 78
+  "TicketMessageEntityId": 106
 }
 ```
 
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 997,
-    "Name": "Langosh-Bergnaum",
-    "ContentType": "consequatur",
-    "AttSize": 635,
+    "AttachmentId": 385,
+    "Name": "Kiehn-Bins",
+    "ContentType": "quis",
+    "AttSize": 895,
     "InlineImage": false,
-    "ContentId": "laborum",
+    "ContentId": "sint",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 499
+        "FieldLength": 938
       }
     }
   }

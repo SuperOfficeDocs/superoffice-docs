@@ -2,14 +2,14 @@
 uid: help-en-request-assign
 title: Assignment methods
 description: Assignment methods for requests
-author: SuperOffice RnD
+author: HanneGunnarsson
 so.date: 02.14.2023
 keywords: request
 so.topic: concept
 language: en
 ---
 
-# Receive requests
+# Automatic assignment methods for requests
 
 For a request to be your responsibility, your name must appear in the request's **Owner** field. This can be set manually, for example when the [request is created][2]. But it may also be the result of automatic assignment of requests. Such assignment depends on the category the request belongs to, and the assignment method specified for this category.
 

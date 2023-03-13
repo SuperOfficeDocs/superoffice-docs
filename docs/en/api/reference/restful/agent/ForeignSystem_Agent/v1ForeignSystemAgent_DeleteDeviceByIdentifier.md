@@ -69,9 +69,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Blick, Lebsack and Mosciski",
-  "DeviceName": "Von LLC",
-  "DeviceIdentifier": "expedita"
+  "ApplicationName": "Zulauf-McCullough",
+  "DeviceName": "Stark-Ullrich",
+  "DeviceIdentifier": "rem"
 }
 ```
 

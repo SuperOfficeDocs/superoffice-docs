@@ -76,12 +76,12 @@ OK
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "quidem",
-  "GroupName": "Kirlin-Quigley"
+  "Type": "et",
+  "GroupName": "Ryan-Bernhard"
 }
 ```
 
@@ -93,41 +93,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "voluptas",
-    "ut"
+    "rem",
+    "molestiae"
   ],
   "Users": [
     {
-      "Value": "quam",
-      "DisplayValue": "iste",
+      "Value": "temporibus",
+      "DisplayValue": "earum",
       "Columns": [
-        "nostrum",
-        "fugiat"
+        "quia",
+        "impedit"
       ],
       "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 925
+          "FieldType": "System.Int32",
+          "FieldLength": 200
         }
       }
     },
     {
-      "Value": "quam",
-      "DisplayValue": "iste",
+      "Value": "temporibus",
+      "DisplayValue": "earum",
       "Columns": [
-        "nostrum",
-        "fugiat"
+        "quia",
+        "impedit"
       ],
       "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 925
+          "FieldType": "System.Int32",
+          "FieldLength": 200
         }
       }
     }
@@ -137,7 +137,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 171
+      "FieldLength": 284
     }
   }
 }

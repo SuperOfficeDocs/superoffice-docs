@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IProjectAgent.UpdateProje
 
 ## UpdateProjectMember
 
-Updates a ProjectMember row.
 
-* **projectMember:** ProjectMember to update
 
-**Returns:** The Updated ProjectMember
+
 
 [WSDL file for Services88/Project](../Services88-Project.md)
 
@@ -71,6 +69,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## UpdateProjectMember Response
 
 ```xml
@@ -113,3 +112,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

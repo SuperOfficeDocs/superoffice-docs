@@ -65,6 +65,7 @@ The updated information to save.
 | ProgressDescription | String | Descriptive text for the current stage |
 | ProgressPercent | Integer | Task progress, in percent of estimated total |
 | FileName | String | The filename related to the batchtask. |
+| CancellationBehaviour | String | Indicate if the task can be stopped. |
 
 ## Response:
 
@@ -99,6 +100,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
@@ -108,34 +110,35 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 74,
-  "Name": "Ledner-Jerde",
-  "AssociateId": 389,
-  "DetailsTable": 428,
-  "DetailsRecord": 606,
-  "IsSystemTask": true,
-  "IsInternalTask": true,
+  "Id": 600,
+  "Name": "Morar-Sauer",
+  "AssociateId": 353,
+  "DetailsTable": 998,
+  "DetailsRecord": 842,
+  "IsSystemTask": false,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "consectetur",
-    "ParameterObject2": "architecto"
+    "ParameterObject1": "molestias",
+    "ParameterObject2": "rerum"
   },
-  "LastStarted": "2013-08-27T17:37:39.4024016+02:00",
-  "Created": "2020-01-23T17:37:39.4024016+01:00",
-  "StartCount": 76,
-  "DatabaseSerialNumber": "310638",
-  "Context": "est",
-  "Result": "et",
+  "LastStarted": "2011-12-25T14:19:10.9279769+01:00",
+  "Created": "1996-10-02T14:19:10.9279769+02:00",
+  "StartCount": 139,
+  "DatabaseSerialNumber": "998673",
+  "Context": "architecto",
+  "Result": "molestiae",
   "State": "All",
-  "Description": "Enterprise-wide tertiary time-frame",
-  "Response": "laboriosam",
-  "Request": "est",
-  "ProgressDescription": "Pre-emptive local encoding",
-  "ProgressPercent": 470,
-  "FileName": "Cremin Group"
+  "Description": "Inverse bifurcated archive",
+  "Response": "earum",
+  "Request": "eaque",
+  "ProgressDescription": "Mandatory contextually-based database",
+  "ProgressPercent": 649,
+  "FileName": "Brekke, Hirthe and Larkin",
+  "CancellationBehaviour": "CanCancel"
 }
 ```
 
@@ -146,36 +149,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 25,
-  "Name": "Erdman, Kemmer and Johnston",
-  "AssociateId": 339,
-  "DetailsTable": 632,
-  "DetailsRecord": 391,
+  "Id": 815,
+  "Name": "Reichel Inc and Sons",
+  "AssociateId": 257,
+  "DetailsTable": 626,
+  "DetailsRecord": 713,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "a",
-    "ParameterObject2": "eveniet"
+    "ParameterObject1": "reprehenderit",
+    "ParameterObject2": "beatae"
   },
-  "LastStarted": "1999-07-03T17:37:39.4034362+02:00",
-  "Created": "2007-03-18T17:37:39.4034362+01:00",
-  "StartCount": 620,
-  "DatabaseSerialNumber": "1181977",
-  "Context": "rerum",
-  "Result": "perferendis",
+  "LastStarted": "2007-04-27T14:19:10.9279769+02:00",
+  "Created": "2002-02-16T14:19:10.9279769+01:00",
+  "StartCount": 463,
+  "DatabaseSerialNumber": "475835",
+  "Context": "praesentium",
+  "Result": "illo",
   "State": "All",
-  "Description": "Phased intermediate workforce",
-  "Response": "reprehenderit",
-  "Request": "omnis",
-  "ProgressDescription": "Enhanced scalable software",
-  "ProgressPercent": 239,
-  "FileName": "Watsica-Wiegand",
+  "Description": "Cross-platform context-sensitive support",
+  "Response": "commodi",
+  "Request": "optio",
+  "ProgressDescription": "Fundamental even-keeled projection",
+  "ProgressPercent": 216,
+  "FileName": "Pacocha-McCullough",
+  "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 9
+      "FieldType": "System.Int32",
+      "FieldLength": 436
     }
   }
 }

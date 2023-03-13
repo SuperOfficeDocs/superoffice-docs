@@ -2,7 +2,7 @@
 uid: help-en-request-tags
 title: Using tags in requests
 description: Using tags in requests
-author: SuperOffice RnD
+author: HanneGunnarsson
 so.date: 06.29.2022
 keywords: request
 so.topic: howto
@@ -11,19 +11,18 @@ language: en
 
 # Using tags in requests
 
-Tagging is a powerful tool for organizing and finding requests in SuperOffice Service. You can create tags on the fly and tag any request with as many tags as you want. Using tags will simplify the way you search for, view and filter requests.
+Tagging is a powerful tool for organising and finding requests in SuperOffice. You can create tags on the fly and tag any request with as many tags as you want. Using tags will simplify the way you search for, view and filter requests.
 
 ## Add/remove tags in multiple requests
 
 When you [create or edit a request][1], you can add one or more tags that describe the request.
 
 1. Select the relevant requests.
-2. Click the **Actions** button (![icon][img1]) in the lower left corner of the request list.
-3. Select **Batch management** and **Change**.
-4. In the **Batch management** screen, select **Add tag**.
-5. Click in the list and select a tag, or start typing in the field to search for a tag.
-6. Repeat the previous step to add more tags.
-7. Click **OK** when you are finished. The selected tags are added to the requests.
+1. Click the **Task** button (![icon][img1]) in the lower left corner of the request list.
+1. Select **Bulk update**.
+1. In the **Bulk update** screen, check the **Tags** box.
+1. Select **Add items** in the **Action** list and select the tags you want from the **New value** list.
+1. Click **Update** when you are finished. The selected tags are added to the requests.
 
 ## Creating new tags
 

@@ -147,18 +147,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "provident",
+    "path": "distinctio",
     "value": {}
   },
   {
     "op": "add",
-    "path": "provident",
+    "path": "distinctio",
     "value": {}
   }
 ]
@@ -171,70 +171,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Mandatory optimizing moderator",
-  "Postit": "nulla",
+  "Description": "Intuitive demand-driven website",
+  "Postit": "eum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 45,
-  "IncludePerson": 957,
-  "MemberCount": 315,
-  "Name": "Smith-Romaguera",
-  "PostitTextId": 399,
-  "CreatedDate": "2013-05-30T17:37:39.2123036+02:00",
-  "SelectionId": 332,
-  "SoundEx": "magnam",
-  "Source": 584,
-  "TextId": 197,
-  "UpdatedDate": "2020-06-23T17:37:39.2123036+02:00",
-  "UpdatedCount": 601,
-  "Visibility": 702,
+  "GroupIdx": 44,
+  "IncludePerson": 342,
+  "MemberCount": 141,
+  "Name": "Leuschke, Lehner and Howell",
+  "PostitTextId": 766,
+  "CreatedDate": "2013-03-28T14:19:10.7717284+01:00",
+  "SelectionId": 490,
+  "SoundEx": "ipsum",
+  "Source": 173,
+  "TextId": 362,
+  "UpdatedDate": "2006-12-23T14:19:10.7717284+01:00",
+  "UpdatedCount": 614,
+  "Visibility": 808,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 775,
-  "TargetTableName": "Purdy Group",
-  "Completed": true,
-  "LeftSelectionId": 431,
-  "RightSelectionId": 708,
+  "CompanyUnique": true,
+  "TargetTableNumber": 638,
+  "TargetTableName": "Torp-Hessel",
+  "Completed": false,
+  "LeftSelectionId": 257,
+  "RightSelectionId": 713,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Osinski-White",
-  "ShadowProviderName": "Pagac, O'Kon and Koch",
-  "ChartKey": "distinctio",
-  "LastLoaded": "2020-09-25T17:37:39.2123036+02:00",
-  "LastLoadedBy": 799,
+  "MainProviderName": "Howell LLC",
+  "ShadowProviderName": "Lindgren-Orn",
+  "ChartKey": "doloremque",
+  "LastLoaded": "2017-09-13T14:19:10.7717284+02:00",
+  "LastLoadedBy": 295,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2011-09-04T17:37:39.2133034+02:00",
-  "LastMembershipChangeBy": 703,
+  "LastMembershipChange": "2012-11-25T14:19:10.7717284+01:00",
+  "LastMembershipChangeBy": 643,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sequi",
-  "MemberTabHeading": "natus",
-  "MailingsProviderName": "Runte Inc and Sons",
-  "DashboardTileDefinitionId": 141,
+  "MainHeading": "harum",
+  "MemberTabHeading": "ex",
+  "MailingsProviderName": "Skiles LLC",
+  "DashboardTileDefinitionId": 58,
   "VisibleFor": [
     {
-      "VisibleId": 341,
+      "VisibleId": 923,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 147
+          "FieldType": "System.Int32",
+          "FieldLength": 491
         }
       }
     },
     {
-      "VisibleId": 341,
+      "VisibleId": 923,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 147
+          "FieldType": "System.Int32",
+          "FieldLength": 491
         }
       }
     }
@@ -244,12 +244,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 105
+      "FieldLength": 13
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

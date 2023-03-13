@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.SetDocumentPlu
 
 ## SetDocumentPluginForAllDocumentTemplates
 
-Sets the document-plugin to be used for all templates of type 'document'.
 
-* **documentPluginId:** The numerical ID of the document-plugin to use.
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetDocumentPluginForAllDocumentTemplates Response
 
 ```xml
@@ -68,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

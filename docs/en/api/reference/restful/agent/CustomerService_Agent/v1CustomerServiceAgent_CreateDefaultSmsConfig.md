@@ -70,18 +70,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "non",
-  "NsPluginSender": "cupiditate",
+  "NetServerSmsProvider": "quia",
+  "NsPluginSender": "explicabo",
   "NsPluginConfig": {
-    "NsPluginConfig1": "aut",
-    "NsPluginConfig2": "ad"
+    "NsPluginConfig1": "enim",
+    "NsPluginConfig2": "facere"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 354
+      "FieldType": "System.String",
+      "FieldLength": 528
     }
   }
 }

@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,28 +99,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 915,
-  "Name": "Runte-Brekke",
-  "Description": "Optimized context-sensitive hierarchy",
-  "DeltaJson": "sequi",
+  "ConfigurableScreenDeltaId": 15,
+  "Name": "Bechtelar-Cummings",
+  "Description": "User-centric non-volatile parallelism",
+  "DeltaJson": "tenetur",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "temporibus",
-  "UpdatedDate": "2005-07-01T17:37:17.1302429+02:00",
-  "CreatedDate": "1998-10-28T17:37:17.1302429+01:00",
+  "RecipeId": "autem",
+  "UpdatedDate": "1999-02-14T14:19:02.9324043+01:00",
+  "CreatedDate": "2000-07-29T14:19:02.9324043+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    919,
-    613
+    563,
+    822
   ],
-  "AppliesToKey": "dicta",
+  "AppliesToKey": "veritatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldLength": 624
     }
   }
 }

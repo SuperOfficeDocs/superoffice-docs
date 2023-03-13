@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "emailpersonaddress"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,16 +27,14 @@ The resulting rows will have entity name 'contact', but the primary key will alw
 the email_id.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"email"|[email]|
 |"person"|Contacts|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |emailMatch|string|emailMatch: Restriction only: (partial) email / person / contact to match|  |
@@ -190,11 +188,14 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/emailpersonaddress?$select=personPrivate/formattedNumber,personContact/stop,personContact/streetAddress/line2
+GET /api/v1/archive/emailpersonaddress?$select=supportAssociate,personAddress/line3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 634,
-    "Name": "Luettgen Group",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "UdListDefinitionId": 950,
-    "Rank": 428
+    "Id": 457,
+    "Name": "Cartwright-Gottlieb",
+    "Tooltip": "nihil",
+    "Deleted": false,
+    "UdListDefinitionId": 215,
+    "Rank": 930
   },
   {
-    "Id": 634,
-    "Name": "Luettgen Group",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "UdListDefinitionId": 950,
-    "Rank": 428
+    "Id": 457,
+    "Name": "Cartwright-Gottlieb",
+    "Tooltip": "nihil",
+    "Deleted": false,
+    "UdListDefinitionId": 215,
+    "Rank": 930
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 569,
-    "Name": "Batz-Hermiston",
-    "Tooltip": "ab",
+    "Id": 805,
+    "Name": "Goldner, Bins and Batz",
+    "Tooltip": "sapiente",
     "Deleted": false,
-    "UdListDefinitionId": 172,
-    "Rank": 892,
+    "UdListDefinitionId": 568,
+    "Rank": 669,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 869
+        "FieldType": "System.Int32",
+        "FieldLength": 542
       }
     }
   }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 362,
-    "Name": "Haag Group",
-    "ToolTip": "Ut architecto numquam voluptatem.",
-    "Deleted": false,
-    "Rank": 54,
-    "Type": "dolor",
-    "ColorBlock": 943,
-    "IconHint": "nihil",
-    "Selected": true,
-    "LastChanged": "1997-09-13T17:37:40.2304701+02:00",
+    "Id": 383,
+    "Name": "Kiehn-Swaniawski",
+    "ToolTip": "Corrupti possimus tempora architecto omnis nihil voluptates voluptatem.",
+    "Deleted": true,
+    "Rank": 691,
+    "Type": "magni",
+    "ColorBlock": 601,
+    "IconHint": "tenetur",
+    "Selected": false,
+    "LastChanged": "2003-02-22T14:19:11.4149038+01:00",
     "ChildItems": [
       {
-        "Id": 647,
-        "Name": "Hessel Group",
-        "ToolTip": "Voluptatibus qui qui repellendus esse laborum voluptatem voluptates.",
-        "Deleted": false,
-        "Rank": 646,
-        "Type": "facere",
-        "ColorBlock": 100,
-        "IconHint": "dolor",
+        "Id": 321,
+        "Name": "Gulgowski, Kub and Grant",
+        "ToolTip": "Sit consequuntur voluptates cumque totam.",
+        "Deleted": true,
+        "Rank": 368,
+        "Type": "beatae",
+        "ColorBlock": 176,
+        "IconHint": "similique",
         "Selected": false,
-        "LastChanged": "2008-11-01T17:37:40.2304701+01:00",
+        "LastChanged": "2012-09-24T14:19:11.4149038+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "sed",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "asperiores",
         "Hidden": true,
-        "FullName": "Kennedi Dante Keeling I"
+        "FullName": "Willy Deonte Rath DDS"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "corrupti",
+    "ExtraInfo": "debitis",
+    "StyleHint": "perferendis",
     "Hidden": false,
-    "FullName": "Zion Roob"
+    "FullName": "Meghan Parker"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 459,
-    "Name": "Stokes-Hessel",
-    "ToolTip": "Hic aut cupiditate tempora.",
+    "Id": 706,
+    "Name": "Satterfield-Feeney",
+    "ToolTip": "Sapiente et enim dicta fugit.",
     "Deleted": false,
-    "Rank": 783,
-    "Type": "distinctio",
-    "ColorBlock": 455,
-    "IconHint": "ea",
-    "Selected": true,
-    "LastChanged": "2012-09-14T17:37:40.2324741+02:00",
+    "Rank": 676,
+    "Type": "consequatur",
+    "ColorBlock": 831,
+    "IconHint": "aspernatur",
+    "Selected": false,
+    "LastChanged": "2022-08-19T14:19:11.430529+02:00",
     "ChildItems": [
       {
-        "Id": 723,
-        "Name": "Ritchie, Watsica and Becker",
-        "ToolTip": "Recusandae et quia quas totam laborum.",
+        "Id": 98,
+        "Name": "Schowalter, McGlynn and Hettinger",
+        "ToolTip": "Est ullam unde sequi.",
         "Deleted": false,
-        "Rank": 346,
-        "Type": "repellat",
-        "ColorBlock": 10,
-        "IconHint": "dicta",
+        "Rank": 173,
+        "Type": "et",
+        "ColorBlock": 220,
+        "IconHint": "iure",
         "Selected": false,
-        "LastChanged": "1998-04-26T17:37:40.2324741+02:00",
+        "LastChanged": "1996-09-16T14:19:11.430529+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "repudiandae",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "ad",
         "Hidden": true,
-        "FullName": "Miss Violette Juston Feeney Jr.",
+        "FullName": "Elinor Beahan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 720
+            "FieldType": "System.Int32",
+            "FieldLength": 47
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "laudantium",
-    "Hidden": false,
-    "FullName": "Miss Lorna Bruen Sr.",
+    "ExtraInfo": "iure",
+    "StyleHint": "ipsa",
+    "Hidden": true,
+    "FullName": "Daphney Thompson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 70
+        "FieldType": "System.Int32",
+        "FieldLength": 471
       }
     }
   }

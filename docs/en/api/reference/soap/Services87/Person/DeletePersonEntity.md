@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IPersonAgent.DeletePerson
 
 ## DeletePersonEntity
 
-Deletes the PersonEntity.
-This table supports Soft Delete; records will be marked as deleted and disappear from the GUI and API results, but will not be physically deleted by this (and any other) method.
 
-* **personEntityId:** The identity of the PersonEntity
+
+
 
 [WSDL file for Services87/Person](../Services87-Person.md)
 
@@ -48,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeletePersonEntity Response
 
 ```xml
@@ -67,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 103,
-  "Name": "Kling-Cruickshank",
-  "Tooltip": "neque",
-  "Deleted": false,
-  "UdListDefinitionId": 958,
-  "Rank": 495,
+  "Id": 739,
+  "Name": "Bergstrom Group",
+  "Tooltip": "vero",
+  "Deleted": true,
+  "UdListDefinitionId": 757,
+  "Rank": 896,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 653
+      "FieldType": "System.String",
+      "FieldLength": 760
     }
   }
 }

@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IConfigurationAgent.GetMy
 
 ## GetMyWindowPosSizes
 
-Gets the window and dialog position and size settings belonging to the currently logged on user
 
-**Returns:** Array of window and dialog position and size settings
+
+
 
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
@@ -45,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetMyWindowPosSizes Response
 
@@ -80,3 +81,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

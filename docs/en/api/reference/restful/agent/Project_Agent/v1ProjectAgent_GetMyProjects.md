@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": true
+  "IncludeMemberProjects": false
 }
 ```
 
@@ -107,30 +107,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 606,
-    "Name": "Carroll, Torphy and Bogisich",
-    "Description": "Managed secondary task-force",
+    "ProjectId": 745,
+    "Name": "Daniel, Waelchi and Stiedemann",
+    "Description": "Vision-oriented systemic strategy",
     "URL": "http://www.example.com/",
-    "Type": "repellat",
-    "AssociateId": 477,
-    "AssociateFullName": "Aurelia Bailey",
-    "TypeId": 229,
-    "Updated": "2022-04-04T17:37:18.658245+02:00",
-    "StatusId": 414,
-    "Status": "doloribus",
-    "TextId": 127,
-    "PublishTo": "2017-02-06T17:37:18.658245+01:00",
-    "PublishFrom": "2021-05-13T17:37:18.658245+02:00",
+    "Type": "pariatur",
+    "AssociateId": 288,
+    "AssociateFullName": "Amparo Brakus",
+    "TypeId": 571,
+    "Updated": "2018-11-25T14:19:03.9688343+01:00",
+    "StatusId": 169,
+    "Status": "ullam",
+    "TextId": 921,
+    "PublishTo": "2009-04-16T14:19:03.9688343+02:00",
+    "PublishFrom": "1997-01-04T14:19:03.9688343+01:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "964004",
-    "ActiveErpLinks": 308,
+    "ProjectNumber": "1102342",
+    "ActiveErpLinks": 614,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 818
+        "FieldType": "System.String",
+        "FieldLength": 914
       }
     }
   }

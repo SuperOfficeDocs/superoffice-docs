@@ -10,9 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services86/Messa
 
 Handled by the <see cref="T:SuperOffice.Services86.IMessagingAgent">SuperOffice.Services86.IMessagingAgent</see> interface.
 
-Interface for the Messaging Agent
-SMS and other external messaging systems
-<para /><b>Online Restricted:</b> This agent is not available in Online by default. Access must be requested specifically when app is registered.
+
 
 Download [WSDL file for Services86/Messaging](../Services86-Messaging.md) if you need to generate your own proxy code.
 
@@ -22,3 +20,4 @@ Download [WSDL file for Services86/Messaging](../Services86-Messaging.md) if you
 * [SendMessages](SendMessages.md)
 * [SendMessagesWithConfig](SendMessagesWithConfig.md)
 * [SetDeliveryStatus](SetDeliveryStatus.md)
+

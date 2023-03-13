@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IQuoteAgent.MoveQuoteLine
 
 ## MoveQuoteLine
 
-Move quote line rank up/down
 
-* **quoteLineId:** Id of quote line to move up/down
-* **direction:** True is up, false is down
 
-**Returns:** Void return
+
 
 [WSDL file for Services85/Quote](../Services85-Quote.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## MoveQuoteLine Response
 
 ```xml
@@ -70,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

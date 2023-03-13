@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Corkery, Little and Waelchi",
-  "DeviceName": "Goldner LLC",
-  "DeviceIdentifier": "asperiores",
-  "TableName": "Borer LLC"
+  "ApplicationName": "Grimes, Schiller and Feest",
+  "DeviceName": "Weissnat Group",
+  "DeviceIdentifier": "nemo",
+  "TableName": "Morissette-Maggio"
 }
 ```
 
@@ -101,20 +101,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "voluptatem",
-    "Value": "debitis",
-    "RecordId": 812,
-    "CreatedDate": "2005-02-01T17:37:18.1152414+01:00",
-    "UpdatedDate": "2020-09-06T17:37:18.1152414+02:00",
-    "UpdatedBy": "est",
-    "CreatedBy": "odio",
-    "TableName": "Ernser Group",
+    "Key": "minima",
+    "Value": "consequatur",
+    "RecordId": 955,
+    "CreatedDate": "2006-03-09T14:19:03.5759842+01:00",
+    "UpdatedDate": "1997-02-06T14:19:03.5759842+01:00",
+    "UpdatedBy": "eum",
+    "CreatedBy": "sunt",
+    "TableName": "Kovacek LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 543
+        "FieldLength": 101
       }
     }
   }

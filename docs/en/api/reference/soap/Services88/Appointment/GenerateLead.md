@@ -11,22 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IAppointmentAgent.Generat
 
 ## GenerateLead
 
-Adds a sales lead (task) to a contact in SuperOffice. If the contact or person is known, the sales lead is added to the current contact. If not, a new contact is created, with the associate with ownerIdForNewContact as responsible (Our Contact). A relation is created between the contact and the person submitting the lead. Based on wether the person the request is made for is found or not, the following happens: If the person is found, the person, person's contact and sales representative is returned. If neither the person nor the contact is found a new person and contact is created (if sufficient data is supplied), and the person, person's contact and sales representative is returned. If the contact and not the person is found a new person is created on this contact, and the contact, salesrep, and person is returned (if there was enough data to return the person). If more than one contact is found a list of contacts is returned.
 
-* **associateIdForNewContact:** Associate id of the person set as "Our Contact" if a new Contact is created. Ensures that the sales lead is assigned to the correct salesman.
-* **leadDescription:** Description of the lead. The lead text as shown in SuperOffice
-* **relation:** The relation the person submitting the lead has to the contact.
-* **relationId:** Id of the relation type. Database specific.
-* **leadContact:** Name of the new or existing contact (company) the lead is created for.
-* **leadPersonFirstname:** Firstname of the contact's person.
-* **leadPersonLastname:** Lastname of the contact's person.
-* **leadPersonEmail:** Email to the contact's person.
-* **leadPhoneNumber:** Phone number of the contact or contact's person.
-* **creatorsContact:** The contact (company) of the person creating the lead
-* **creatorsFirstname:** The firstname of the person creating the lead
-* **creatorsLastname:** The lastname of the person creating the lead
 
-**Returns:** True if successfull.
+
 
 [WSDL file for Services88/Appointment](../Services88-Appointment.md)
 
@@ -70,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GenerateLead Response
 
@@ -148,6 +136,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Appointment:FullName xsi:type="xsd:string"></Appointment:FullName>
       <Appointment:IsOwnerContact xsi:type="xsd:boolean">false</Appointment:IsOwnerContact>
       <Appointment:ActiveErpLinks xsi:type="xsd:int">0</Appointment:ActiveErpLinks>
+      <Appointment:Number1 xsi:type="xsd:string"></Appointment:Number1>
+      <Appointment:Number2 xsi:type="xsd:string"></Appointment:Number2>
      </Appointment:Contact>
     </Appointment:RequestedContacts>
     <Appointment:RequestedPerson xsi:type="Appointment:Person">
@@ -240,3 +230,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

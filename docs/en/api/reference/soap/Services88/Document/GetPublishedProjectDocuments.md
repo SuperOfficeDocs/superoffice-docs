@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.GetPublish
 
 ## GetPublishedProjectDocuments
 
-Get published appointment documents by project id.
 
-* **projectId:** The project id
 
-**Returns:** Array of Appointment
+
 
 [WSDL file for Services88/Document](../Services88-Document.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetPublishedProjectDocuments Response
 
@@ -92,3 +91,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

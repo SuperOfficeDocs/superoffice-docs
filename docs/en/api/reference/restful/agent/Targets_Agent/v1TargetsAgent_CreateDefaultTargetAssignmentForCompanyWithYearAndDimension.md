@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 279,
-  "TargetDimensionId": 750
+  "Year": 273,
+  "TargetDimensionId": 62
 }
 ```
 
@@ -98,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 587,
+    "TargetAssignmentInfoId": 323,
     "Values": [
-      851,
-      27
+      95,
+      418
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 280,
-    "DimensionListItemDisplayName": "Pfeffer Inc and Sons",
+    "DimensionListItem": 84,
+    "DimensionListItemDisplayName": "Monahan Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 94
+        "FieldLength": 839
       }
     }
   }

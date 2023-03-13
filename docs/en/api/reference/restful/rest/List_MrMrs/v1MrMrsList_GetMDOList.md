@@ -25,8 +25,8 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=odit
+GET /api/v1/List/MrMrs/MDOItems?flat=True
+GET /api/v1/List/MrMrs/MDOItems?query=saepe
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 671,
-    "Name": "Pfeffer LLC",
-    "ToolTip": "Sit pariatur earum.",
+    "Id": 360,
+    "Name": "Nienow-O'Keefe",
+    "ToolTip": "Odit quas velit unde non sed provident unde.",
     "Deleted": true,
-    "Rank": 170,
-    "Type": "qui",
+    "Rank": 979,
+    "Type": "vel",
     "ChildItems": [
       {
-        "Id": 283,
-        "Name": "Borer-Fahey",
-        "ToolTip": "Non dolores.",
+        "Id": 32,
+        "Name": "Kovacek Group",
+        "ToolTip": "Corporis sed assumenda sint aliquid quia nulla.",
         "Deleted": false,
-        "Rank": 120,
+        "Rank": 990,
         "Type": "dolor",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sunt",
-        "ColorBlock": 651,
-        "ExtraInfo": "et",
-        "StyleHint": "iste",
-        "FullName": "Haleigh Friesen DDS",
+        "IconHint": "dolor",
+        "ColorBlock": 971,
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "quia",
+        "FullName": "Mr. Rhianna Wilfrid Marquardt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 743
+            "FieldLength": 106
           }
         }
       }
     ],
-    "IconHint": "neque",
-    "ColorBlock": 603,
-    "ExtraInfo": "sapiente",
-    "StyleHint": "laborum",
-    "FullName": "Ms. Asha Daron Schowalter PhD",
+    "IconHint": "sint",
+    "ColorBlock": 380,
+    "ExtraInfo": "officiis",
+    "StyleHint": "dignissimos",
+    "FullName": "Ms. Lisandro Runolfsdottir III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 560
+        "FieldType": "System.String",
+        "FieldLength": 715
       }
     }
   }

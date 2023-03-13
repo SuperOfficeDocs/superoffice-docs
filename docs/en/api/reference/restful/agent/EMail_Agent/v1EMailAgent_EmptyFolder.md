@@ -71,7 +71,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MoveToFolder": "praesentium"
+  "MoveToFolder": "veritatis"
 }
 ```
 

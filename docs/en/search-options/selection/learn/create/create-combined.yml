@@ -30,7 +30,7 @@ items:
     1. Under **Compare**, select which entries from the two selections to include in the combined selection.
     [!include[Options for combining selections](../includes/table-selection-combinations.md)]
 
-- title: Set properties
+- title: Choose details
   durationInMinutes: 3
   content: |
     [!include[Set properties](includes/set-properties.md)]

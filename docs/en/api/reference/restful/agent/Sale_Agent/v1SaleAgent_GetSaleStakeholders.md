@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 262
+  "SaleId": 321
 }
 ```
 
@@ -106,31 +106,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Yost Inc and Sons",
-    "Comment": "voluptas",
-    "StakeholderRoleId": 288,
-    "CountryId": 38,
-    "PersonId": 318,
-    "EmailDescription": "arjun.kreiger@gottlieb.ca",
-    "EmailId": 242,
-    "EmailAddress": "nicolette.batz@roberts.co.uk",
-    "PhoneId": 579,
-    "ContactName": "Schmidt-Thiel",
-    "ContactId": 292,
-    "SaleId": 103,
-    "Mrmrs": "aliquam",
-    "Firstname": "Brycen",
-    "MiddleName": "Jacobi-Boehm",
-    "Lastname": "Willms",
-    "SaleStakeholderId": 29,
-    "Rank": 41,
-    "Phone": "565.902.7667 x509",
+    "StakeholderRoleName": "Christiansen, Wintheiser and Stanton",
+    "Comment": "deserunt",
+    "StakeholderRoleId": 761,
+    "CountryId": 419,
+    "PersonId": 879,
+    "EmailDescription": "karine.toy@streich.ca",
+    "EmailId": 689,
+    "EmailAddress": "lisa@schroeder.ca",
+    "PhoneId": 769,
+    "ContactName": "Herman Inc and Sons",
+    "ContactId": 624,
+    "SaleId": 92,
+    "Mrmrs": "qui",
+    "Firstname": "Tamia",
+    "MiddleName": "Weimann, Ziemann and Schimmel",
+    "Lastname": "Haag",
+    "SaleStakeholderId": 745,
+    "Rank": 680,
+    "Phone": "420.028.3646",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldLength": 329
       }
     }
   }

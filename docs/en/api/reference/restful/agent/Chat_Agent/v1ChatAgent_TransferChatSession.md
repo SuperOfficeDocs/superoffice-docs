@@ -105,12 +105,12 @@ OK
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 989,
-  "ToAssociate": "et"
+  "ChatSessionId": 250,
+  "ToAssociate": "ipsam"
 }
 ```
 
@@ -121,43 +121,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 548,
-  "TopicId": 527,
+  "ChatSessionId": 739,
+  "TopicId": 65,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "qui",
-  "CustomerName": "Murazik Group",
-  "CustomerEmail": "rosalinda.okuneva@rogahn.us",
-  "CustomerPhone": "857.128.5751 x40072",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Swaniawski-Steuber",
+  "CustomerAlias": "dolor",
+  "CustomerHost": "velit",
+  "CustomerName": "Murphy Group",
+  "CustomerEmail": "orlo@schinnerstark.info",
+  "CustomerPhone": "(362)041-0961 x3624",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Prohaska LLC",
   "Status": "Closed",
-  "FirstMessage": "eveniet",
-  "LastMessage": "atque",
-  "WhenRequested": "2010-09-10T17:37:17.0172446+02:00",
-  "WhenStarted": "1998-11-12T17:37:17.0172446+01:00",
-  "WhenEnded": "2003-06-08T17:37:17.0172446+02:00",
-  "WhenIdle": "2001-06-10T17:37:17.0172446+02:00",
-  "WhenFetched": "2016-08-07T17:37:17.0172446+02:00",
-  "SessionKey": "aperiam",
-  "InitialQueuePos": 420,
-  "AlertLevel": 493,
-  "Rank": 748,
+  "FirstMessage": "odio",
+  "LastMessage": "sunt",
+  "WhenRequested": "2004-11-02T14:19:02.8386521+01:00",
+  "WhenStarted": "2012-12-18T14:19:02.8386521+01:00",
+  "WhenEnded": "2019-12-30T14:19:02.8386521+01:00",
+  "WhenIdle": "2019-09-05T14:19:02.8386521+02:00",
+  "WhenFetched": "2018-08-14T14:19:02.8386521+02:00",
+  "SessionKey": "aut",
+  "InitialQueuePos": 303,
+  "AlertLevel": 450,
+  "Rank": 360,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 204,
+  "ChatbotIsActive": false,
+  "Rating": 378,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 405
+      "FieldLength": 456
     }
   }
 }

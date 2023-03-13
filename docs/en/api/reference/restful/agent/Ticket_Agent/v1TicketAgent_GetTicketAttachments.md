@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 976
+  "TicketEntityId": 165
 }
 ```
 
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 689,
-    "Name": "Fritsch-Johnston",
-    "ContentType": "suscipit",
-    "AttSize": 444,
-    "InlineImage": true,
-    "ContentId": "consectetur",
+    "AttachmentId": 541,
+    "Name": "Weissnat LLC",
+    "ContentType": "eum",
+    "AttSize": 822,
+    "InlineImage": false,
+    "ContentId": "repudiandae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 818
+        "FieldLength": 828
       }
     }
   }

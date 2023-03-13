@@ -10,9 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/User.
 
 Handled by the <see cref="T:SuperOffice.Services88.IUserAgent">SuperOffice.Services88.IUserAgent</see> interface.
 
-Interface for the User Agent
-User administration
-<para /><b>Online Restricted:</b> This agent is not available in Online by default. User management is not allowed for partner apps.
+
 
 Download [WSDL file for Services88/User](../Services88-User.md) if you need to generate your own proxy code.
 
@@ -77,6 +75,7 @@ Download [WSDL file for Services88/User](../Services88-User.md) if you need to g
 * [GetUserGroupList](GetUserGroupList.md)
 * [GetUserInfo](GetUserInfo.md)
 * [GetUserInfoList](GetUserInfoList.md)
+* [GetUserPresenceStatus](GetUserPresenceStatus.md)
 * [GetValidUserName](GetValidUserName.md)
 * [GetValidUserNameForNewUser](GetValidUserNameForNewUser.md)
 * [IsNickNameUnique](IsNickNameUnique.md)
@@ -108,4 +107,6 @@ Download [WSDL file for Services88/User](../Services88-User.md) if you need to g
 * [SetGeneratedPasswordFromName](SetGeneratedPasswordFromName.md)
 * [SetPassword](SetPassword.md)
 * [SetPasswordFromName](SetPasswordFromName.md)
+* [SetUserPresenceStatus](SetUserPresenceStatus.md)
 * [ValidateUser](ValidateUser.md)
+

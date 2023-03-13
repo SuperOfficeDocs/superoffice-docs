@@ -26,7 +26,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=True
-GET /api/v1/List/Position/MDOItems?query=provident
+GET /api/v1/List/Position/MDOItems?query=libero
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 650,
-    "Name": "Howell-O'Conner",
-    "ToolTip": "Earum optio ratione.",
+    "Id": 674,
+    "Name": "Parker Group",
+    "ToolTip": "Dolores quis praesentium quam.",
     "Deleted": false,
-    "Rank": 542,
-    "Type": "voluptas",
+    "Rank": 122,
+    "Type": "animi",
     "ChildItems": [
       {
-        "Id": 500,
-        "Name": "Lindgren-Mertz",
-        "ToolTip": "Omnis consequatur aut quibusdam qui.",
-        "Deleted": true,
-        "Rank": 416,
-        "Type": "vero",
+        "Id": 879,
+        "Name": "Thiel-Bergnaum",
+        "ToolTip": "Id voluptatum.",
+        "Deleted": false,
+        "Rank": 40,
+        "Type": "hic",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "mollitia",
-        "ColorBlock": 305,
-        "ExtraInfo": "quasi",
-        "StyleHint": "magnam",
-        "FullName": "Mr. Nicholas Botsford MD",
+        "IconHint": "culpa",
+        "ColorBlock": 143,
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "atque",
+        "FullName": "Javier Hoeger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 744
+            "FieldType": "System.Int32",
+            "FieldLength": 991
           }
         }
       }
     ],
-    "IconHint": "voluptates",
-    "ColorBlock": 733,
-    "ExtraInfo": "incidunt",
-    "StyleHint": "quisquam",
-    "FullName": "Adele Kilback",
+    "IconHint": "possimus",
+    "ColorBlock": 918,
+    "ExtraInfo": "neque",
+    "StyleHint": "molestias",
+    "FullName": "Dr. Phoebe Cormier Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 878
+        "FieldLength": 125
       }
     }
   }

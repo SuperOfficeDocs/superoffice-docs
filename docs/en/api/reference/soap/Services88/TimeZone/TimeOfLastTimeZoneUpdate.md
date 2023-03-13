@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITimeZoneAgent.TimeOfLast
 
 ## TimeOfLastTimeZoneUpdate
 
-Get the time time zone data was last updated
 
-**Returns:** Time of last update
+
+
 
 [WSDL file for Services88/TimeZone](../Services88-TimeZone.md)
 
@@ -45,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## TimeOfLastTimeZoneUpdate Response
 
 ```xml
@@ -58,9 +59,10 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:TimeZone="http://www.superoffice.net/ws/crm/NetServer/Services88">
  <SOAP-ENV:Body>
   <TimeZone:TimeOfLastTimeZoneUpdateResponse>
-   <TimeZone:Response xsi:type="xsd:dateTime">2022-08-26T09:00:43Z</TimeZone:Response>
+   <TimeZone:Response xsi:type="xsd:dateTime">2023-02-15T13:18:35Z</TimeZone:Response>
   </TimeZone:TimeOfLastTimeZoneUpdateResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+

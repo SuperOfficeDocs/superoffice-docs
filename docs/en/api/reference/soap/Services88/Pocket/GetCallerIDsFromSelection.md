@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IPocketAgent.GetCallerIDs
 
 ## GetCallerIDsFromSelection
 
-Get caller ids from a selection. Queries the shadow selection of persons and companies, so selections of any kind can be used
 
-* **selectionId:** Id of selection to get caller ids from
-* **lastHash:** Hash for the previous call, used for checking if the same set of caller ids was sent in an earlier call, and returning null in that case
 
-**Returns:** Collection of caller IDs, containing the hash of the caller ids
+
 
 [WSDL file for Services88/Pocket](../Services88-Pocket.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetCallerIDsFromSelection Response
 
 ```xml
@@ -84,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

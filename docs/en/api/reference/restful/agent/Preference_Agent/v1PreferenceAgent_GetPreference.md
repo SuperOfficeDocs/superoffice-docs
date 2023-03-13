@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 557
+  "Id": 887
 }
 ```
 
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "ut",
+  "RawValue": "natus",
   "Specification": null,
-  "DisplayValue": "iusto",
-  "DisplayTooltip": "aut",
+  "DisplayValue": "ea",
+  "DisplayTooltip": "quam",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 379,
-  "PrefDescId": 112,
-  "TableName": "Collins, Leffler and Rippin",
-  "UserPreferenceId": 522,
+  "TargetId": 567,
+  "PrefDescId": 616,
+  "TableName": "Kuhlman Inc and Sons",
+  "UserPreferenceId": 464,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 947
+      "FieldLength": 680
     }
   }
 }

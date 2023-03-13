@@ -85,7 +85,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,23 +95,23 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 46,
-  "UniqueIdentifier": "tenetur",
-  "Name": "Grimes-Hagenes",
-  "Description": "Enterprise-wide bifurcated implementation",
-  "IncludeId": "et",
-  "HierarchyId": 439,
-  "Source": "sit",
-  "Registered": "1999-06-14T17:37:38.4838596+02:00",
-  "RegisteredAssociateId": 466,
-  "Updated": "1999-02-16T17:37:38.4838596+01:00",
-  "UpdatedAssociateId": 98,
+  "EjscriptId": 737,
+  "UniqueIdentifier": "nesciunt",
+  "Name": "Maggio, Gusikowski and Quitzon",
+  "Description": "User-friendly directional emulation",
+  "IncludeId": "magni",
+  "HierarchyId": 977,
+  "Source": "ut",
+  "Registered": "2008-02-20T14:19:10.240473+01:00",
+  "RegisteredAssociateId": 467,
+  "Updated": "2011-07-22T14:19:10.240473+02:00",
+  "UpdatedAssociateId": 507,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 350
+      "FieldType": "System.Int32",
+      "FieldLength": 968
     }
   },
   "_Links": {

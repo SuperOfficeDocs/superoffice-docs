@@ -94,36 +94,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 452,
-  "Name": "Mohr LLC",
-  "OrgNr": "716539",
+  "ContactId": 334,
+  "Name": "Schroeder, Bosco and Cremin",
+  "OrgNr": "1443935",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "quas",
-  "DirectPhone": "(545)924-5590",
-  "AssociateId": 880,
-  "CountryId": 692,
-  "EmailAddress": "tessie@jast.co.uk",
-  "Kananame": "facere",
-  "EmailAddressName": "sonny@mcculloughgrady.name",
+  "City": "perspiciatis",
+  "DirectPhone": "570.053.3406",
+  "AssociateId": 373,
+  "CountryId": 268,
+  "EmailAddress": "chanelle_mueller@bernier.com",
+  "Kananame": "accusamus",
+  "EmailAddressName": "luz@carterdubuque.co.uk",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Adelia Streich",
+  "AssociateFullName": "Lilla Maggio",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "sed",
-  "FullName": "Alexis Beier",
+  "FormattedAddress": "corporis",
+  "FullName": "Dr. Cleo Cremin",
   "IsOwnerContact": false,
-  "ActiveErpLinks": 775,
-  "Number1": "1584455",
-  "Number2": "855698",
+  "ActiveErpLinks": 662,
+  "Number1": "968687",
+  "Number2": "376719",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 944
+      "FieldLength": 153
     }
   }
 }

@@ -11,15 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.CreateExternal
 
 ## CreateExternalUser
 
-Creates an associate of type external user.
 
-* **personId:** The personId to create an external user for.
-* **userName:** Login username.
-* **password:** Login password.
-* **roleId:** Id of role for the external user. The role must be a role of type external users.
-* **isActive:** Set isActive to true to enable the external user to log in.
 
-**Returns:** Returns the created associateId.
+
 
 [WSDL file for Services84/User](../Services84-User.md)
 
@@ -57,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateExternalUser Response
 
 ```xml
@@ -77,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

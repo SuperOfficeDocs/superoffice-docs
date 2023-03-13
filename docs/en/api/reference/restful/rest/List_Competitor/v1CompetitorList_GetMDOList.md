@@ -25,8 +25,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=omnis
+GET /api/v1/List/Competitor/MDOItems?flat=True
+GET /api/v1/List/Competitor/MDOItems?query=necessitatibus
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 4,
-    "Name": "Kunde-Olson",
-    "ToolTip": "Numquam laboriosam iure quis numquam eum omnis.",
+    "Id": 662,
+    "Name": "Quitzon, Harris and Jenkins",
+    "ToolTip": "Tenetur est facere error officiis voluptatem odio.",
     "Deleted": true,
-    "Rank": 484,
-    "Type": "rerum",
+    "Rank": 125,
+    "Type": "libero",
     "ChildItems": [
       {
-        "Id": 757,
-        "Name": "Rempel, O'Reilly and Hoeger",
-        "ToolTip": "Unde veritatis soluta non dolor ipsa est.",
-        "Deleted": false,
-        "Rank": 815,
-        "Type": "doloribus",
+        "Id": 961,
+        "Name": "Koss Group",
+        "ToolTip": "Ratione ut doloremque.",
+        "Deleted": true,
+        "Rank": 567,
+        "Type": "sapiente",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "optio",
-        "ColorBlock": 527,
-        "ExtraInfo": "nulla",
-        "StyleHint": "iste",
-        "FullName": "Miss Abdiel Chesley O'Connell IV",
+        "IconHint": "possimus",
+        "ColorBlock": 630,
+        "ExtraInfo": "itaque",
+        "StyleHint": "praesentium",
+        "FullName": "Lauryn Blick",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 391
+            "FieldType": "System.Int32",
+            "FieldLength": 251
           }
         }
       }
     ],
-    "IconHint": "eligendi",
-    "ColorBlock": 453,
-    "ExtraInfo": "modi",
-    "StyleHint": "similique",
-    "FullName": "Miss Thomas Fabiola Prosacco",
+    "IconHint": "omnis",
+    "ColorBlock": 20,
+    "ExtraInfo": "laborum",
+    "StyleHint": "provident",
+    "FullName": "Daryl Kuhic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 54
+        "FieldLength": 318
       }
     }
   }

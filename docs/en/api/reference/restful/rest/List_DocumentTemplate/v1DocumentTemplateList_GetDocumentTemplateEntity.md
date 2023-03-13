@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 166,
-  "Name": "Blick-Ziemann",
-  "Tooltip": "quae",
-  "SaveInDb": 30,
-  "Filename": "voluptates",
-  "DefaultOref": "expedita",
+  "DocumentTemplateId": 829,
+  "Name": "Goyette LLC",
+  "Tooltip": "voluptas",
+  "SaveInDb": 531,
+  "Filename": "reprehenderit",
+  "DefaultOref": "dolorum",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 589,
-  "IntentId": 895,
+  "AutoeventId": 836,
+  "IntentId": 94,
   "IsDefaultPublished": true,
-  "Rank": 820,
-  "LoadTemplateFromPlugin": 871,
-  "MimeType": "ut",
+  "Rank": 294,
+  "LoadTemplateFromPlugin": 209,
+  "MimeType": "labore",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 402,
+  "DocumentTypeKey": 907,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "rahul@cummings.com",
+  "EmailSubject": "columbus@gerhold.biz",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "colten@runolfssonleffler.info",
+  "SenderEmailAddress": "danny@corkery.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 329
+      "FieldType": "System.Int32",
+      "FieldLength": 312
     }
   }
 }

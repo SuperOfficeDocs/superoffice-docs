@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ForeignKeys"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -23,15 +23,13 @@ Archive of Foreign Keys - used by the web api and partners.
 Lists all foreign apps, and outer joins any devices + keys associated with the app.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"foreignKey"|[foreignKey]|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |appId|int|App id: ForeignAppId| x |
@@ -55,11 +53,14 @@ Lists all foreign apps, and outer joins any devices + keys associated with the a
 ## Sample
 
 ```http!
-GET /api/v1/archive/ForeignKeys?$select=tableId,deviceIdentifier,deviceLastSyncTrans
+GET /api/v1/archive/ForeignKeys?$select=keyUpdatedBy,deviceIdentifier,deviceLastSyncTrans
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

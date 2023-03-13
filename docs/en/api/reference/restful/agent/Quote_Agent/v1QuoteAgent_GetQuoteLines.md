@@ -120,11 +120,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 671
+  "QuoteAlternativeId": 142
 }
 ```
 
@@ -136,88 +136,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 24,
-    "ERPQuoteLineKey": "ut",
-    "QuoteAlternativeId": 23,
-    "ERPProductKey": "eaque",
+    "QuoteLineId": 664,
+    "ERPQuoteLineKey": "rerum",
+    "QuoteAlternativeId": 290,
+    "ERPProductKey": "quaerat",
     "Status": "Error",
-    "Reason": "",
-    "Quantity": 25736.408,
-    "DeliveredQuantity": 3691.852,
-    "Rank": 409,
-    "Name": "Jacobson, Stanton and Jast",
-    "Description": "Seamless national solution",
-    "Code": "ipsum",
-    "QuantityUnit": "sed",
-    "PriceUnit": "explicabo",
-    "ItemNumber": "1291052",
+    "Reason": "matrix interactive e-commerce",
+    "Quantity": 30622.314,
+    "DeliveredQuantity": 24464.004,
+    "Rank": 568,
+    "Name": "Marquardt, Baumbach and Hartmann",
+    "Description": "Persistent non-volatile structure",
+    "Code": "aut",
+    "QuantityUnit": "sunt",
+    "PriceUnit": "nemo",
+    "ItemNumber": "251044",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "illo",
-    "ProductTypeKey": "aperiam",
-    "Supplier": "laborum",
-    "SupplierCode": "voluptas",
-    "Thumbnail": "beatae",
-    "VATInfo": "qui",
-    "VAT": 1739.37,
-    "UnitCost": 26921.059999999998,
-    "UnitMinimumPrice": 29779.268,
-    "UnitListPrice": 21652.806,
+    "ProductFamilyKey": "qui",
+    "ProductTypeKey": "ut",
+    "Supplier": "amet",
+    "SupplierCode": "iure",
+    "Thumbnail": "vel",
+    "VATInfo": "aut",
+    "VAT": 31302.392,
+    "UnitCost": 8029.308,
+    "UnitMinimumPrice": 25394.802,
+    "UnitListPrice": 382.348,
     "ExtraInfo": [
       {
-        "Name": "Powlowski, White and Hills",
-        "Value": "optio",
+        "Name": "Hagenes, Gorczany and Upton",
+        "Value": "dolores",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 857
+            "FieldLength": 38
           }
         }
       },
       {
-        "Name": "Powlowski, White and Hills",
-        "Value": "optio",
+        "Name": "Hagenes, Gorczany and Upton",
+        "Value": "dolores",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 857
+            "FieldLength": 38
           }
         }
       }
     ],
-    "RawExtraInfo": "sed",
+    "RawExtraInfo": "atque",
     "IsSubscription": false,
-    "SubscriptionUnit": "voluptas",
-    "SubscriptionQuantity": 30374.728,
-    "SubscriptionStart": "2014-09-10T17:37:18.7752416+02:00",
-    "ERPDiscountPercent": 30296.378,
-    "ERPDiscountAmount": 19371.254,
-    "DiscountPercent": 5992.208,
-    "DiscountAmount": 26037.272,
+    "SubscriptionUnit": "magni",
+    "SubscriptionQuantity": 1708.03,
+    "SubscriptionStart": "2000-11-01T14:19:04.0469597+01:00",
+    "ERPDiscountPercent": 26360.074,
+    "ERPDiscountAmount": 2585.5499999999997,
+    "DiscountPercent": 24934.104,
+    "DiscountAmount": 11225.988,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 27735.899999999998,
-    "EarningAmount": 7389.972,
-    "SubTotal": 25880.572,
-    "TotalPrice": 22310.946,
-    "Rights": "sequi",
-    "Rule": "vel",
-    "ExtraField1": "repudiandae",
-    "ExtraField2": "esse",
-    "ExtraField3": "eos",
-    "ExtraField4": "quis",
-    "ExtraField5": "molestiae",
+    "EarningPercent": 12821.194,
+    "EarningAmount": 19857.023999999998,
+    "SubTotal": 20696.935999999998,
+    "TotalPrice": 1560.732,
+    "Rights": "officiis",
+    "Rule": "corporis",
+    "ExtraField1": "saepe",
+    "ExtraField2": "saepe",
+    "ExtraField3": "maxime",
+    "ExtraField4": "vel",
+    "ExtraField5": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 549
+        "FieldType": "System.String",
+        "FieldLength": 464
       }
     }
   }

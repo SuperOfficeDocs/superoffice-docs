@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Replication/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "Howell LLC",
-      "Description": "Intuitive tertiary synergy",
+      "Name": "Gleason-Mosciski",
+      "Description": "Horizontal disintermediate hub",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -95,8 +95,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Howell LLC",
-      "Description": "Intuitive tertiary synergy",
+      "Name": "Gleason-Mosciski",
+      "Description": "Horizontal disintermediate hub",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -118,30 +118,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Luettgen-Macejkovic",
-    "Description": "Extended holistic database",
+    "Name": "Corkery, Ernser and Lebsack",
+    "Description": "Self-enabling bifurcated flexibility",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 456,
-        "Tooltip": "odit",
-        "CanAssign": false,
-        "Free": 782,
-        "InUse": 714,
+        "Unrestricted": true,
+        "Total": 750,
+        "Tooltip": "nemo",
+        "CanAssign": true,
+        "Free": 131,
+        "InUse": 790,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 827,
-        "Name": "Wolff LLC",
-        "Description": "Triple-buffered tertiary customer loyalty",
-        "PrerequisiteModuleName": "Becker Inc and Sons",
-        "SortOrder": 141,
-        "ExtraFlags": 755,
+        "Assigned": true,
+        "ModuleLicenseId": 391,
+        "Name": "Heathcote Group",
+        "Description": "Implemented global core",
+        "PrerequisiteModuleName": "Jacobi Inc and Sons",
+        "SortOrder": 380,
+        "ExtraFlags": 685,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 555
+            "FieldType": "System.String",
+            "FieldLength": 622
           }
         }
       }
@@ -149,25 +149,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 805,
-        "Tooltip": "eum",
-        "CanAssign": true,
-        "Free": 488,
-        "InUse": 341,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 602,
-        "Name": "Kling Group",
-        "Description": "Reduced value-added customer loyalty",
-        "PrerequisiteModuleName": "Runolfsson LLC",
-        "SortOrder": 685,
-        "ExtraFlags": 208,
+        "Total": 152,
+        "Tooltip": "nemo",
+        "CanAssign": false,
+        "Free": 529,
+        "InUse": 103,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 338,
+        "Name": "Considine-Ledner",
+        "Description": "Business-focused analyzing function",
+        "PrerequisiteModuleName": "Schumm-Crona",
+        "SortOrder": 356,
+        "ExtraFlags": 735,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 443
+            "FieldType": "System.Int32",
+            "FieldLength": 265
           }
         }
       }
@@ -176,36 +176,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldType": "System.String",
+        "FieldLength": 799
       }
     }
   },
   {
-    "Name": "Luettgen-Macejkovic",
-    "Description": "Extended holistic database",
+    "Name": "Corkery, Ernser and Lebsack",
+    "Description": "Self-enabling bifurcated flexibility",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 456,
-        "Tooltip": "odit",
-        "CanAssign": false,
-        "Free": 782,
-        "InUse": 714,
+        "Unrestricted": true,
+        "Total": 750,
+        "Tooltip": "nemo",
+        "CanAssign": true,
+        "Free": 131,
+        "InUse": 790,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 827,
-        "Name": "Wolff LLC",
-        "Description": "Triple-buffered tertiary customer loyalty",
-        "PrerequisiteModuleName": "Becker Inc and Sons",
-        "SortOrder": 141,
-        "ExtraFlags": 755,
+        "Assigned": true,
+        "ModuleLicenseId": 391,
+        "Name": "Heathcote Group",
+        "Description": "Implemented global core",
+        "PrerequisiteModuleName": "Jacobi Inc and Sons",
+        "SortOrder": 380,
+        "ExtraFlags": 685,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 555
+            "FieldType": "System.String",
+            "FieldLength": 622
           }
         }
       }
@@ -213,25 +213,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 805,
-        "Tooltip": "eum",
-        "CanAssign": true,
-        "Free": 488,
-        "InUse": 341,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 602,
-        "Name": "Kling Group",
-        "Description": "Reduced value-added customer loyalty",
-        "PrerequisiteModuleName": "Runolfsson LLC",
-        "SortOrder": 685,
-        "ExtraFlags": 208,
+        "Total": 152,
+        "Tooltip": "nemo",
+        "CanAssign": false,
+        "Free": 529,
+        "InUse": 103,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 338,
+        "Name": "Considine-Ledner",
+        "Description": "Business-focused analyzing function",
+        "PrerequisiteModuleName": "Schumm-Crona",
+        "SortOrder": 356,
+        "ExtraFlags": 735,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 443
+            "FieldType": "System.Int32",
+            "FieldLength": 265
           }
         }
       }
@@ -240,8 +240,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldType": "System.String",
+        "FieldLength": 799
       }
     }
   }

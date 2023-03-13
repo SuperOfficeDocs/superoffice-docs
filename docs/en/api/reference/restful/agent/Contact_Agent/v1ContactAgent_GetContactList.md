@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,36 +103,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 127,
-    "Name": "Sporer, Cartwright and Franecki",
-    "OrgNr": "1289446",
+    "ContactId": 755,
+    "Name": "Beahan Inc and Sons",
+    "OrgNr": "1238940",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "saepe",
-    "DirectPhone": "226.448.4513",
-    "AssociateId": 503,
-    "CountryId": 115,
-    "EmailAddress": "sylvia@heathcote.biz",
-    "Kananame": "ut",
-    "EmailAddressName": "kara_ferry@willms.info",
+    "City": "molestias",
+    "DirectPhone": "112.397.2176 x859",
+    "AssociateId": 898,
+    "CountryId": 59,
+    "EmailAddress": "janelle_bins@boehmglover.co.uk",
+    "Kananame": "aut",
+    "EmailAddressName": "jaquelin.bogan@bogan.co.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Mrs. Alverta Stoltenberg IV",
+    "AssociateFullName": "Mr. Remington Maida Dickinson",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "qui",
-    "FullName": "Hermina Daniel",
+    "FormattedAddress": "vel",
+    "FullName": "Mrs. Walker Pfannerstill",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 856,
-    "Number1": "917775",
-    "Number2": "828993",
+    "ActiveErpLinks": 347,
+    "Number1": "449491",
+    "Number2": "1204723",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 997
+        "FieldLength": 798
       }
     }
   }

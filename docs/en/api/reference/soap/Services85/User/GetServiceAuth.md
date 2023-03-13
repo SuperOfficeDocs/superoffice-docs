@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserAgent.GetServiceAuth
 
 ## GetServiceAuth
 
-Gets a ServiceAuth object.
 
-* **serviceAuthId:** The identifier of the ServiceAuth object
 
-**Returns:** ServiceAuth
+
 
 [WSDL file for Services85/User](../Services85-User.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetServiceAuth Response
 
 ```xml
@@ -76,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

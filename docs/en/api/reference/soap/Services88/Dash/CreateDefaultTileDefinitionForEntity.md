@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashAgent.CreateDefaultT
 
 ## CreateDefaultTileDefinitionForEntity
 
-Set Measure to CountAll and MeasureField to primary key field
 
-* **entityName:** Name of entity to use for primary key
 
-**Returns:** Default
+
 
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateDefaultTileDefinitionForEntity Response
 
@@ -89,3 +88,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

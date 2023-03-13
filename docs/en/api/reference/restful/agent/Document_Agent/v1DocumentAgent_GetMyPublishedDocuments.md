@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,32 +94,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 231,
-    "Attention": "ut",
-    "Header": "ut",
-    "Name": "Zieme-Terry",
-    "OurRef": "harum",
-    "YourRef": "facere",
-    "Description": "Inverse executive process improvement",
-    "DocumentTemplate": "et",
-    "IsPublished": true,
-    "PersonId": 653,
-    "PersonFullName": "Breana Botsford I",
-    "AssociateFullName": "Nayeli Parker",
-    "ContactId": 984,
-    "ContactName": "Stoltenberg-Rowe",
-    "ProjectId": 883,
-    "ProjectName": "Shields-Lockman",
-    "AssociateId": 184,
-    "Snum": 295,
-    "SaleId": 546,
-    "SaleName": "Hills, Cole and Schimmel",
+    "DocumentId": 886,
+    "Attention": "fuga",
+    "Header": "sunt",
+    "Name": "Walsh-Mertz",
+    "OurRef": "magni",
+    "YourRef": "non",
+    "Description": "Robust zero administration customer loyalty",
+    "DocumentTemplate": "aperiam",
+    "IsPublished": false,
+    "PersonId": 102,
+    "PersonFullName": "Dr. Sherwood Stamm",
+    "AssociateFullName": "Lolita Moore",
+    "ContactId": 974,
+    "ContactName": "Skiles Group",
+    "ProjectId": 553,
+    "ProjectName": "Bernier-Bartell",
+    "AssociateId": 606,
+    "Snum": 589,
+    "SaleId": 63,
+    "SaleName": "Smitham-Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 243
+        "FieldType": "System.Int32",
+        "FieldLength": 126
       }
     }
   }

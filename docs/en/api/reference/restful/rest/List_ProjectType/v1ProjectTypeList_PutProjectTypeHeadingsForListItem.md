@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 449,
-    "Name": "Blick Group",
-    "ToolTip": "Aut optio magnam et omnis provident voluptate officia.",
+    "Id": 154,
+    "Name": "O'Conner, Eichmann and Kreiger",
+    "ToolTip": "Voluptas doloremque ipsum blanditiis temporibus soluta sed et.",
     "Deleted": false,
-    "Rank": 698,
-    "Type": "nisi",
-    "ColorBlock": 770,
-    "IconHint": "ex",
-    "Selected": true,
-    "LastChanged": "2019-11-23T17:37:40.2184703+01:00",
+    "Rank": 284,
+    "Type": "impedit",
+    "ColorBlock": 115,
+    "IconHint": "natus",
+    "Selected": false,
+    "LastChanged": "2010-08-31T14:19:11.4149038+02:00",
     "ChildItems": [
       {
-        "Id": 856,
-        "Name": "Lubowitz Inc and Sons",
-        "ToolTip": "Vero voluptatibus impedit sed molestiae vitae enim quam.",
+        "Id": 768,
+        "Name": "Volkman Group",
+        "ToolTip": "Voluptatem enim fugiat exercitationem.",
         "Deleted": false,
-        "Rank": 624,
-        "Type": "quia",
-        "ColorBlock": 7,
-        "IconHint": "id",
-        "Selected": false,
-        "LastChanged": "2014-07-04T17:37:40.2184703+02:00",
+        "Rank": 229,
+        "Type": "similique",
+        "ColorBlock": 37,
+        "IconHint": "dolores",
+        "Selected": true,
+        "LastChanged": "2002-04-26T14:19:11.4149038+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "totam",
+        "ExtraInfo": "quidem",
+        "StyleHint": "veniam",
         "Hidden": false,
-        "FullName": "Mr. Enrique Vena Kozey III"
+        "FullName": "Oceane Thompson"
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "tempore",
-    "Hidden": true,
-    "FullName": "Mrs. Emerson Heathcote MD"
+    "ExtraInfo": "ea",
+    "StyleHint": "consectetur",
+    "Hidden": false,
+    "FullName": "Mrs. Orville Ankunding MD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 597,
-    "Name": "Bartell, Macejkovic and Rolfson",
-    "ToolTip": "Quis maiores reprehenderit explicabo.",
-    "Deleted": true,
-    "Rank": 202,
-    "Type": "natus",
-    "ColorBlock": 542,
-    "IconHint": "facere",
+    "Id": 606,
+    "Name": "Abernathy-Kohler",
+    "ToolTip": "Assumenda iure aliquam.",
+    "Deleted": false,
+    "Rank": 955,
+    "Type": "inventore",
+    "ColorBlock": 607,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2010-05-26T17:37:40.2194703+02:00",
+    "LastChanged": "2020-05-10T14:19:11.4149038+02:00",
     "ChildItems": [
       {
-        "Id": 484,
-        "Name": "D'Amore, Stokes and Armstrong",
-        "ToolTip": "Nisi unde hic repellendus iste quo maiores.",
-        "Deleted": true,
-        "Rank": 467,
-        "Type": "quos",
-        "ColorBlock": 855,
-        "IconHint": "nihil",
-        "Selected": true,
-        "LastChanged": "2020-10-25T17:37:40.2204705+01:00",
+        "Id": 328,
+        "Name": "Daniel Inc and Sons",
+        "ToolTip": "Voluptatem illo.",
+        "Deleted": false,
+        "Rank": 21,
+        "Type": "et",
+        "ColorBlock": 941,
+        "IconHint": "nulla",
+        "Selected": false,
+        "LastChanged": "2000-09-03T14:19:11.4149038+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "nesciunt",
+        "ExtraInfo": "nulla",
+        "StyleHint": "incidunt",
         "Hidden": false,
-        "FullName": "Sarai Batz",
+        "FullName": "Dr. Allie Christ Rutherford IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 70
+            "FieldType": "System.Int32",
+            "FieldLength": 200
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "voluptate",
-    "Hidden": false,
-    "FullName": "Miss Garrick Helena Goodwin DVM",
+    "ExtraInfo": "in",
+    "StyleHint": "aperiam",
+    "Hidden": true,
+    "FullName": "Edd Cronin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 12
+        "FieldType": "System.String",
+        "FieldLength": 867
       }
     }
   }

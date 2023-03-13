@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IProjectAgent.GetPublishe
 
 ## GetPublishedProject
 
-Get published project by project id.
 
-* **projectId:** The project id.
 
-**Returns:** Project
+
 
 [WSDL file for Services85/Project](../Services85-Project.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetPublishedProject Response
 
 ```xml
@@ -72,12 +71,12 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Project:AssociateId xsi:type="xsd:int">0</Project:AssociateId>
     <Project:AssociateFullName xsi:type="xsd:string"></Project:AssociateFullName>
     <Project:TypeId xsi:type="xsd:int">0</Project:TypeId>
-    <Project:Updated xsi:type="xsd:dateTime">2022-08-26T08:53:33Z</Project:Updated>
+    <Project:Updated xsi:type="xsd:dateTime">2023-02-15T13:11:59Z</Project:Updated>
     <Project:StatusId xsi:type="xsd:int">0</Project:StatusId>
     <Project:Status xsi:type="xsd:string"></Project:Status>
     <Project:TextId xsi:type="xsd:int">0</Project:TextId>
-    <Project:PublishTo xsi:type="xsd:dateTime">2022-08-26T08:53:33Z</Project:PublishTo>
-    <Project:PublishFrom xsi:type="xsd:dateTime">2022-08-26T08:53:33Z</Project:PublishFrom>
+    <Project:PublishTo xsi:type="xsd:dateTime">2023-02-15T13:11:59Z</Project:PublishTo>
+    <Project:PublishFrom xsi:type="xsd:dateTime">2023-02-15T13:11:59Z</Project:PublishFrom>
     <Project:IsPublished xsi:type="xsd:boolean">false</Project:IsPublished>
     <Project:URLName xsi:type="xsd:string"></Project:URLName>
     <Project:ProjectNumber xsi:type="xsd:string"></Project:ProjectNumber>
@@ -88,3 +87,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

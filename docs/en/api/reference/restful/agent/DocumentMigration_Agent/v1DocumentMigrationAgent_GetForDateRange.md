@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 923,
-  "MinDate": "2009-06-09T17:37:17.8462448+02:00",
-  "MaxDate": "2001-01-16T17:37:17.8462448+01:00",
+  "DocumentPluginId": 346,
+  "MinDate": "2013-06-13T14:19:03.3727451+02:00",
+  "MaxDate": "2014-01-13T14:19:03.3727451+01:00",
   "IncludeEmails": false
 }
 ```
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 795,
-  "NumDocumentsAlreadyMigrated": 346,
+  "NumDocumentsOmitted": 742,
+  "NumDocumentsAlreadyMigrated": 671,
   "Documents": [
     {
-      "DocumentId": 347,
-      "ContactId": 689,
-      "PersonId": 771,
-      "SaleId": 111,
-      "ProjectId": 813,
-      "DocTmplId": 793,
-      "AssociateId": 990,
-      "UserGroupId": 386,
-      "VisibleForId": 781
+      "DocumentId": 793,
+      "ContactId": 810,
+      "PersonId": 236,
+      "SaleId": 896,
+      "ProjectId": 785,
+      "DocTmplId": 850,
+      "AssociateId": 760,
+      "UserGroupId": 954,
+      "VisibleForId": 982
     }
   ],
   "Associates": [
     {
-      "AssociateId": 586,
-      "EmailAddress": "bertrand.rowe@luettgen.ca"
+      "AssociateId": 403,
+      "EmailAddress": "velda_hodkiewicz@quitzonabshire.info"
     },
     {
-      "AssociateId": 586,
-      "EmailAddress": "bertrand.rowe@luettgen.ca"
+      "AssociateId": 403,
+      "EmailAddress": "velda_hodkiewicz@quitzonabshire.info"
     }
   ]
 }

@@ -583,41 +583,23 @@ title: Services86.SoPrincipalAgent WSDL
     <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
   </wsdl:message>
   <wsdl:portType name="SoPrincipal">
-    <wsdl:documentation>
-      <summary>Testing interface documentation</summary>
-    </wsdl:documentation>
     <wsdl:operation name="GetSystemInfo">
-      <wsdl:documentation>
-        <summary>Get System information about the currently running NetServer and Database</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/SoPrincipal/GetSystemInfo" name="GetSystemInfoRequest" message="tns:GetSystemInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/SoPrincipal/GetSystemInfoResponse" name="GetSystemInfoResponse" message="tns:GetSystemInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="AuthenticateImplicit">
-      <wsdl:documentation>
-        <summary>Authenticate using (implicit) Wcf credentials, such as Windows Identity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/SoPrincipal/AuthenticateImplicit" name="AuthenticateImplicitRequest" message="tns:AuthenticateImplicitRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/SoPrincipal/AuthenticateImplicitResponse" name="AuthenticateResponse" message="tns:AuthenticateResponse" />
     </wsdl:operation>
     <wsdl:operation name="AuthenticateUsernamePassword">
-      <wsdl:documentation>
-        <summary>Authenticate using a SuperOffice user name and password</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/SoPrincipal/AuthenticateUsernamePassword" name="AuthenticateUsernamePasswordRequest" message="tns:AuthenticateUsernamePasswordRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/SoPrincipal/AuthenticateUsernamePasswordResponse" name="AuthenticateResponse" message="tns:AuthenticateResponse" />
     </wsdl:operation>
     <wsdl:operation name="AuthenticateGeneric">
-      <wsdl:documentation>
-        <summary>Authenticate using a pile of name/value pairs that hopefully an authentication plugin will understand</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/SoPrincipal/AuthenticateGeneric" name="AuthenticateGenericRequest" message="tns:AuthenticateGenericRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/SoPrincipal/AuthenticateGenericResponse" name="AuthenticateResponse" message="tns:AuthenticateResponse" />
     </wsdl:operation>
     <wsdl:operation name="AuthenticateWithAccessToken">
-      <wsdl:documentation>
-        <summary>Authenticate using a SuperOffice access token</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/SoPrincipal/AuthenticateWithAccessToken" name="AuthenticateWithAccessTokenRequest" message="tns:AuthenticateWithAccessTokenRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/SoPrincipal/AuthenticateWithAccessTokenResponse" name="AuthenticateResponse" message="tns:AuthenticateResponse" />
     </wsdl:operation>
@@ -702,3 +684,4 @@ title: Services86.SoPrincipalAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

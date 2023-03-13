@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 738,
-    "Name": "Schaden Group",
-    "ToolTip": "Eum nemo nesciunt corrupti aspernatur non illo.",
-    "Deleted": false,
-    "Rank": 113,
-    "Type": "non",
-    "ColorBlock": 931,
-    "IconHint": "assumenda",
-    "Selected": false,
-    "LastChanged": "2006-09-25T17:37:40.304504+02:00",
+    "Id": 672,
+    "Name": "Kreiger, Von and Gusikowski",
+    "ToolTip": "Ut repellendus.",
+    "Deleted": true,
+    "Rank": 97,
+    "Type": "minus",
+    "ColorBlock": 695,
+    "IconHint": "cum",
+    "Selected": true,
+    "LastChanged": "2004-07-18T14:19:11.4714393+02:00",
     "ChildItems": [
       {
-        "Id": 853,
-        "Name": "Klocko, Schamberger and Cormier",
-        "ToolTip": "Unde mollitia dicta ipsa.",
-        "Deleted": false,
-        "Rank": 938,
-        "Type": "corrupti",
-        "ColorBlock": 968,
-        "IconHint": "nihil",
-        "Selected": false,
-        "LastChanged": "2007-06-28T17:37:40.304504+02:00",
+        "Id": 969,
+        "Name": "Funk Group",
+        "ToolTip": "Et et repellendus ullam.",
+        "Deleted": true,
+        "Rank": 759,
+        "Type": "est",
+        "ColorBlock": 227,
+        "IconHint": "distinctio",
+        "Selected": true,
+        "LastChanged": "1996-10-14T14:19:11.4714393+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "omnis",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "voluptatibus",
         "Hidden": true,
-        "FullName": "Lukas Legros",
+        "FullName": "Dr. Kevin Frieda Hirthe PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 710
+            "FieldType": "System.String",
+            "FieldLength": 962
           }
         }
       }
     ],
-    "ExtraInfo": "eligendi",
-    "StyleHint": "unde",
+    "ExtraInfo": "aut",
+    "StyleHint": "vitae",
     "Hidden": false,
-    "FullName": "Carlee Schaden",
+    "FullName": "Lyla Murphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 226
+        "FieldLength": 711
       }
     }
   }

@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Jewess, Satterfield and Fay",
-  "Comment": "similique",
-  "StakeholderRoleId": 511,
-  "CountryId": 888,
-  "PersonId": 596,
-  "EmailDescription": "roel.mertz@veum.name",
-  "EmailId": 567,
-  "EmailAddress": "georgianna@gulgowskisauer.biz",
+  "StakeholderRoleName": "Little-Daniel",
+  "Comment": "eligendi",
+  "StakeholderRoleId": 168,
+  "CountryId": 166,
+  "PersonId": 63,
+  "EmailDescription": "cassandra@larson.com",
+  "EmailId": 285,
+  "EmailAddress": "carmelo@reynoldswilkinson.biz",
   "PhoneId": 915,
-  "ContactName": "Rau Group",
-  "ContactId": 793,
-  "SaleId": 27,
-  "Mrmrs": "voluptas",
-  "Firstname": "Samanta",
-  "MiddleName": "Dibbert LLC",
-  "Lastname": "Herman",
-  "SaleStakeholderId": 336,
-  "Rank": 833,
-  "Phone": "(429)897-9465 x0381",
+  "ContactName": "Stamm-Schaden",
+  "ContactId": 285,
+  "SaleId": 864,
+  "Mrmrs": "totam",
+  "Firstname": "Kiley",
+  "MiddleName": "Smith Inc and Sons",
+  "Lastname": "Streich",
+  "SaleStakeholderId": 14,
+  "Rank": 572,
+  "Phone": "(558)130-5539",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldType": "System.String",
+      "FieldLength": 636
     }
   }
 }

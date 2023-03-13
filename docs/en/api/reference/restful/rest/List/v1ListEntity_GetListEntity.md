@@ -91,27 +91,27 @@ HTTP/1.1 200 ListEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 300,
-  "Name": "Tremblay-Konopelski",
-  "Tooltip": "enim",
+  "Id": 634,
+  "Name": "Kilback, Larkin and Nienow",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 982,
-  "IsCustomList": false,
+  "Rank": 397,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "expedita",
+  "ListType": "quaerat",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 634
+      "FieldType": "System.String",
+      "FieldLength": 907
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

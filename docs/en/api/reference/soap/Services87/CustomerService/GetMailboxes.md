@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ICustomerServiceAgent.Get
 
 ## GetMailboxes
 
-This method will get all registered mailboxes in Service
 
-**Returns:** An array of Mailbox objects
+
+
 
 [WSDL file for Services87/CustomerService](../Services87-CustomerService.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetMailboxes Response
 
 ```xml
@@ -73,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 882,
-  "Count": 305
+  "AmountLimit": 764,
+  "Count": 591
 }
 ```
 
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Morar Inc and Sons",
-    "SaleDate": "2004-01-30T17:37:18.8862421+01:00",
-    "SaleId": 402,
-    "Probability": 199,
-    "Title": "nulla",
-    "Amount": 28447.318,
-    "Currency": "non",
-    "ProjectName": "Mayert LLC",
-    "AssociateFullName": "Hosea Glover",
-    "Description": "Horizontal reciprocal groupware",
+    "ContactName": "Okuneva, Boehm and Spinka",
+    "SaleDate": "2005-12-28T14:19:04.1410858+01:00",
+    "SaleId": 324,
+    "Probability": 69,
+    "Title": "repellat",
+    "Amount": 26996.275999999998,
+    "Currency": "neque",
+    "ProjectName": "Ward-Carroll",
+    "AssociateFullName": "Dr. Emmy Strosin",
+    "Description": "Polarised context-sensitive conglomeration",
     "Status": "Lost",
-    "WeightedAmount": 27475.778,
-    "ProjectId": 154,
-    "EarningPercent": 8875.488,
-    "Earning": 29299.766,
-    "ContactId": 457,
-    "AssociateId": 889,
-    "PersonId": 351,
-    "SaleTypeId": 183,
-    "SaleTypeName": "Dach, Gaylord and Ziemann",
-    "PersonFullName": "Ms. Ebony Barrows DDS",
+    "WeightedAmount": 9088.6,
+    "ProjectId": 487,
+    "EarningPercent": 17384.298,
+    "Earning": 830.51,
+    "ContactId": 773,
+    "AssociateId": 652,
+    "PersonId": 491,
+    "SaleTypeId": 551,
+    "SaleTypeName": "Reinger Inc and Sons",
+    "PersonFullName": "Jevon Emard",
     "Completed": "Completed",
-    "ActiveErpLinks": 988,
-    "NextDueDate": "2005-08-03T17:37:18.8872418+02:00",
-    "Number": "1158781",
+    "ActiveErpLinks": 539,
+    "NextDueDate": "2020-06-04T14:19:04.1410858+02:00",
+    "Number": "1544814",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 364
+        "FieldLength": 173
       }
     }
   }

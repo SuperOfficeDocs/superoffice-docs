@@ -80,39 +80,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 234,
-  "Name": "Hauck LLC",
-  "Tooltip": "inventore",
-  "Rank": 808,
+  "ProjTypeId": 677,
+  "Name": "Keeling Group",
+  "Tooltip": "officiis",
+  "Rank": 384,
   "DurationUnit": "Century",
-  "ProjectDuration": 208,
+  "ProjectDuration": 324,
   "Deleted": false,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 441,
-      "Name": "Mayer LLC",
-      "ToolTip": "Quia quos qui in quia.",
-      "Deleted": false,
-      "Rank": 196,
-      "Type": "iste",
-      "ColorBlock": 428,
-      "IconHint": "sunt",
-      "Selected": false,
-      "LastChanged": "2002-06-09T17:37:18.2812417+02:00",
+      "Id": 701,
+      "Name": "Nader-Ziemann",
+      "ToolTip": "Autem quae nisi et quam quidem.",
+      "Deleted": true,
+      "Rank": 553,
+      "Type": "ut",
+      "ColorBlock": 456,
+      "IconHint": "numquam",
+      "Selected": true,
+      "LastChanged": "2007-04-02T14:19:03.6863742+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "accusamus",
-      "StyleHint": "qui",
+      "ExtraInfo": "dicta",
+      "StyleHint": "quis",
       "Hidden": false,
-      "FullName": "Maude Waters"
+      "FullName": "Burnice Balistreri"
     }
   ]
 }
@@ -125,41 +125,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 784,
-  "Name": "Champlin, Wolf and Cronin",
-  "Tooltip": "nihil",
-  "Rank": 321,
+  "ProjTypeId": 695,
+  "Name": "Boyer Inc and Sons",
+  "Tooltip": "autem",
+  "Rank": 886,
   "DurationUnit": "Century",
-  "ProjectDuration": 162,
+  "ProjectDuration": 951,
   "Deleted": true,
   "HasGuide": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 324,
-      "Name": "O'Connell, Green and Stark",
-      "ToolTip": "Eligendi ullam minus et corporis.",
+      "Id": 612,
+      "Name": "Wolf-Daniel",
+      "ToolTip": "Vel beatae qui aut voluptas quaerat quisquam.",
       "Deleted": false,
-      "Rank": 842,
-      "Type": "deleniti",
-      "ColorBlock": 928,
-      "IconHint": "vel",
+      "Rank": 560,
+      "Type": "voluptatem",
+      "ColorBlock": 951,
+      "IconHint": "eaque",
       "Selected": false,
-      "LastChanged": "1997-11-02T17:37:18.2822428+01:00",
+      "LastChanged": "2020-05-23T14:19:03.6863742+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "natus",
-      "StyleHint": "provident",
+      "ExtraInfo": "iure",
+      "StyleHint": "ratione",
       "Hidden": false,
-      "FullName": "Mr. Melisa Boyle PhD",
+      "FullName": "Garett Yost DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 673
+          "FieldType": "System.Int32",
+          "FieldLength": 290
         }
       }
     }
@@ -169,7 +169,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 347
+      "FieldLength": 797
     }
   }
 }

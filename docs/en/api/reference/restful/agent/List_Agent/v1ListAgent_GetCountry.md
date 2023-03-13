@@ -25,7 +25,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=459
+POST /api/v1/Agents/List/GetCountry?countryId=557
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 860,
-  "Name": "Rosenbaum Group",
-  "CurrencyId": 560,
-  "EnglishName": "Hahn, Hermiston and Kassulke",
+  "CountryId": 516,
+  "Name": "Kreiger, Cassin and Yundt",
+  "CurrencyId": 550,
+  "EnglishName": "Mraz-Dickens",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Virtual system-worthy conglomeration",
-  "OrgNrText": "1270353",
-  "InterAreaPrefix": "non",
-  "DialInPrefix": "ut",
-  "ZipPrefix": "aut",
-  "DomainName": "Will-Pollich",
-  "AddressLayoutId": 625,
-  "DomesticAddressLayoutId": 167,
-  "ForeignAddressLayoutId": 863,
-  "Rank": 235,
-  "Tooltip": "dolores",
+  "ImageDescription": "Fully-configurable grid-enabled monitoring",
+  "OrgNrText": "602039",
+  "InterAreaPrefix": "dolorem",
+  "DialInPrefix": "laboriosam",
+  "ZipPrefix": "quia",
+  "DomainName": "Gutkowski, Stanton and Davis",
+  "AddressLayoutId": 356,
+  "DomesticAddressLayoutId": 429,
+  "ForeignAddressLayoutId": 747,
+  "Rank": 280,
+  "Tooltip": "rem",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 232
+      "FieldType": "System.String",
+      "FieldLength": 747
     }
   }
 }

@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 469,
+  "QuoteAlternativeId": 545,
   "Product": null
 }
 ```
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 301,
-  "ERPQuoteLineKey": "et",
-  "QuoteAlternativeId": 938,
-  "ERPProductKey": "dolorum",
+  "QuoteLineId": 91,
+  "ERPQuoteLineKey": "aperiam",
+  "QuoteAlternativeId": 759,
+  "ERPProductKey": "doloremque",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 26845.843999999997,
-  "DeliveredQuantity": 266.39,
-  "Rank": 869,
-  "Name": "Keebler-Halvorson",
-  "Description": "Synchronised mobile database",
-  "Code": "culpa",
-  "QuantityUnit": "dignissimos",
-  "PriceUnit": "nulla",
-  "ItemNumber": "1383520",
+  "Quantity": 10151.026,
+  "DeliveredQuantity": 21890.989999999998,
+  "Rank": 988,
+  "Name": "Hermiston LLC",
+  "Description": "Fully-configurable reciprocal synergy",
+  "Code": "id",
+  "QuantityUnit": "aliquid",
+  "PriceUnit": "eaque",
+  "ItemNumber": "1656323",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "necessitatibus",
-  "ProductTypeKey": "saepe",
-  "Supplier": "similique",
-  "SupplierCode": "sed",
-  "Thumbnail": "officiis",
-  "VATInfo": "a",
-  "VAT": 29105.458,
-  "UnitCost": 19361.852,
-  "UnitMinimumPrice": 23160.26,
-  "UnitListPrice": 3948.8399999999997,
+  "ProductFamilyKey": "dolorem",
+  "ProductTypeKey": "doloribus",
+  "Supplier": "et",
+  "SupplierCode": "dolorem",
+  "Thumbnail": "sequi",
+  "VATInfo": "natus",
+  "VAT": 20048.198,
+  "UnitCost": 3218.618,
+  "UnitMinimumPrice": 24125.532,
+  "UnitListPrice": 191.174,
   "ExtraInfo": [
     {
-      "Name": "Turcotte, Beier and Turcotte",
-      "Value": "quidem",
+      "Name": "Runte Inc and Sons",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldType": "System.String",
+          "FieldLength": 323
         }
       }
     },
     {
-      "Name": "Turcotte, Beier and Turcotte",
-      "Value": "quidem",
+      "Name": "Runte Inc and Sons",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldType": "System.String",
+          "FieldLength": 323
         }
       }
     }
   ],
-  "RawExtraInfo": "voluptatum",
+  "RawExtraInfo": "facilis",
   "IsSubscription": false,
-  "SubscriptionUnit": "quia",
-  "SubscriptionQuantity": 25369.73,
-  "SubscriptionStart": "2005-08-17T17:37:18.7672422+02:00",
-  "ERPDiscountPercent": 30913.775999999998,
-  "ERPDiscountAmount": 15936.39,
-  "DiscountPercent": 8891.158,
-  "DiscountAmount": 6173.98,
+  "SubscriptionUnit": "sit",
+  "SubscriptionQuantity": 29083.52,
+  "SubscriptionStart": "2013-02-19T14:19:04.0469597+01:00",
+  "ERPDiscountPercent": 19750.468,
+  "ERPDiscountAmount": 29566.156,
+  "DiscountPercent": 17512.791999999998,
+  "DiscountAmount": 8812.8079999999991,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 15137.22,
-  "EarningAmount": 20233.104,
-  "SubTotal": 9054.126,
-  "TotalPrice": 17710.234,
-  "Rights": "ut",
-  "Rule": "omnis",
-  "ExtraField1": "odio",
-  "ExtraField2": "eum",
-  "ExtraField3": "quia",
-  "ExtraField4": "perferendis",
-  "ExtraField5": "explicabo",
+  "EarningPercent": 30155.347999999998,
+  "EarningAmount": 17174.32,
+  "SubTotal": 2106.048,
+  "TotalPrice": 22514.656,
+  "Rights": "saepe",
+  "Rule": "ex",
+  "ExtraField1": "natus",
+  "ExtraField2": "dolore",
+  "ExtraField3": "exercitationem",
+  "ExtraField4": "possimus",
+  "ExtraField5": "assumenda",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 854
+      "FieldLength": 10
     }
   }
 }

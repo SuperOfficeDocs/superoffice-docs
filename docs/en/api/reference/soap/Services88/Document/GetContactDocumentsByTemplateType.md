@@ -11,15 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.GetContact
 
 ## GetContactDocumentsByTemplateType
 
-Method that returns a specified number of document appointments within a time range, filtered by document template type. The document appointments belong to the contact specified.
 
-* **contactId:** The contact id
-* **startTime:** The start of the time interval we want appointments from. This will usually be the current time.
-* **endTime:** The end of the time interval.
-* **count:** The maximum number of appointments that should be returned. -1 means no count restrictions.
-* **documentTemplateId:** Id of the document template type to filter on.
 
-**Returns:** Array of Appointments.
+
 
 [WSDL file for Services88/Document](../Services88-Document.md)
 
@@ -46,8 +40,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Document:GetContactDocumentsByTemplateType>
     <Document:ContactId xsi:type="xsd:int">0</Document:ContactId>
-    <Document:StartTime xsi:type="xsd:dateTime">2022-08-26T08:59:14Z</Document:StartTime>
-    <Document:EndTime xsi:type="xsd:dateTime">2022-08-26T08:59:14Z</Document:EndTime>
+    <Document:StartTime xsi:type="xsd:dateTime">2023-02-15T13:17:15Z</Document:StartTime>
+    <Document:EndTime xsi:type="xsd:dateTime">2023-02-15T13:17:15Z</Document:EndTime>
     <Document:Count xsi:type="xsd:int">0</Document:Count>
     <Document:DocumentTemplateId xsi:type="xsd:int">0</Document:DocumentTemplateId>
    </Document:GetContactDocumentsByTemplateType>
@@ -56,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetContactDocumentsByTemplateType Response
 
@@ -100,3 +95,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

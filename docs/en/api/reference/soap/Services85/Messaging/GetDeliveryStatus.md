@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IMessagingAgent.GetDelive
 
 ## GetDeliveryStatus
 
-Get delivery status
 
-* **messagingIds:** Array of messaging ids.
+
+
 
 [WSDL file for Services85/Messaging](../Services85-Messaging.md)
 
@@ -49,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDeliveryStatus Response
 
 ```xml
@@ -75,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

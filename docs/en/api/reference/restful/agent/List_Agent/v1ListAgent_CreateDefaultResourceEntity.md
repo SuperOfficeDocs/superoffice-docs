@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 821,
-  "Name": "Murazik LLC",
-  "Rank": 559,
-  "Tooltip": "consequatur",
-  "Deleted": false,
+  "ResourceId": 593,
+  "Name": "Haag, Stark and Schimmel",
+  "Rank": 96,
+  "Tooltip": "cum",
+  "Deleted": true,
   "IsLocation": false,
-  "LocationAddress": "temporibus",
+  "LocationAddress": "necessitatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldLength": 55
     }
   }
 }

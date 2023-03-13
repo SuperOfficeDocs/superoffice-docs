@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/Appoi
 
 Handled by the <see cref="T:SuperOffice.Services88.IAppointmentAgent">SuperOffice.Services88.IAppointmentAgent</see> interface.
 
-Interface for the Appointment Agent
-Collection of all services that works with Appointment data.
+
 
 Download [WSDL file for Services88/Appointment](../Services88-Appointment.md) if you need to generate your own proxy code.
 
@@ -23,6 +22,7 @@ Download [WSDL file for Services88/Appointment](../Services88-Appointment.md) if
 * [CalculateDays](CalculateDays.md)
 * [CanAssignToProjectMember](CanAssignToProjectMember.md)
 * [CleanUpBookingDeleted](CleanUpBookingDeleted.md)
+* [CleanUpBookingDeletedWithUpdateMode](CleanUpBookingDeletedWithUpdateMode.md)
 * [CleanUpRecurringBookingDeleted](CleanUpRecurringBookingDeleted.md)
 * [CreateAndAccept](CreateAndAccept.md)
 * [CreateAndAcceptWithEmailConfirmation](CreateAndAcceptWithEmailConfirmation.md)
@@ -104,6 +104,7 @@ Download [WSDL file for Services88/Appointment](../Services88-Appointment.md) if
 * [SaveTaskListItem](SaveTaskListItem.md)
 * [SetActivityStatus](SetActivityStatus.md)
 * [SetSeen](SetSeen.md)
+* [SetSeenMany](SetSeenMany.md)
 * [ToggleActivities](ToggleActivities.md)
 * [ToggleActivity](ToggleActivity.md)
 * [ToggleAndSetActivities](ToggleAndSetActivities.md)
@@ -113,3 +114,4 @@ Download [WSDL file for Services88/Appointment](../Services88-Appointment.md) if
 * [ValidateAppointmentEntity](ValidateAppointmentEntity.md)
 * [ValidateDays](ValidateDays.md)
 * [WillSendEmail](WillSendEmail.md)
+

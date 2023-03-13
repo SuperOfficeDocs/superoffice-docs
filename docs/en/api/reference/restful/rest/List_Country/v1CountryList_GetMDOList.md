@@ -26,7 +26,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=vel
+GET /api/v1/List/Country/MDOItems?query=ad
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 35,
-    "Name": "Altenwerth, Emmerich and Reichert",
-    "ToolTip": "Quod quasi laboriosam.",
-    "Deleted": true,
-    "Rank": 56,
-    "Type": "laboriosam",
+    "Id": 142,
+    "Name": "Ullrich-McCullough",
+    "ToolTip": "Non ut assumenda optio et.",
+    "Deleted": false,
+    "Rank": 814,
+    "Type": "perspiciatis",
     "ChildItems": [
       {
-        "Id": 133,
-        "Name": "Becker-Runolfsson",
-        "ToolTip": "Voluptatem aspernatur ut hic alias.",
+        "Id": 263,
+        "Name": "Kuvalis, Runolfsdottir and Lindgren",
+        "ToolTip": "Eos optio.",
         "Deleted": false,
-        "Rank": 640,
-        "Type": "deserunt",
+        "Rank": 994,
+        "Type": "sunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dicta",
-        "ColorBlock": 915,
-        "ExtraInfo": "aut",
-        "StyleHint": "doloribus",
-        "FullName": "Prof. Gracie Deckow",
+        "IconHint": "nam",
+        "ColorBlock": 37,
+        "ExtraInfo": "voluptas",
+        "StyleHint": "fugit",
+        "FullName": "Prof. Zoey Angela Cummings II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 363
+            "FieldLength": 257
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 99,
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "consequatur",
-    "FullName": "Prof. Brad Ruben Farrell DVM",
+    "IconHint": "labore",
+    "ColorBlock": 516,
+    "ExtraInfo": "sequi",
+    "StyleHint": "sit",
+    "FullName": "Jordi O'Hara",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 346
+        "FieldType": "System.String",
+        "FieldLength": 588
       }
     }
   }

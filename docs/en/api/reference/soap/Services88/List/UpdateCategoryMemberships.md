@@ -11,14 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.UpdateCategory
 
 ## UpdateCategoryMemberships
 
-Updates category memberships
 
-* **ticketCategoryId:** Id of ticket category to update memberships for
-* **membershipsToAdd:** List of memberships to add
-* **membershipsToUpdate:** List of memberships to update
-* **membershipsToDelete:** List of memberships to delete
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -109,6 +104,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## UpdateCategoryMemberships Response
 
 ```xml
@@ -128,3 +124,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

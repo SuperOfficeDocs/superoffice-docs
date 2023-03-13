@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 820,
-  "Name": "Botsford-Wisozk",
-  "Tooltip": "est",
+  "Id": 52,
+  "Name": "Ratke-Larkin",
+  "Tooltip": "quae",
   "Deleted": false,
-  "Rank": 553,
+  "Rank": 713,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "inventore",
+  "ListType": "eos",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 125,
-  "Name": "Schowalter Group",
-  "Tooltip": "reiciendis",
-  "Deleted": false,
-  "Rank": 814,
+  "Id": 589,
+  "Name": "Koepp, Lakin and Schaden",
+  "Tooltip": "molestiae",
+  "Deleted": true,
+  "Rank": 407,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "non",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptas",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldType": "System.String",
+      "FieldLength": 469
     }
   }
 }

@@ -63,22 +63,22 @@ No Content
 POST /api/v1/Agents/Contact/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Baumbach Inc and Sons",
-      "DisplayName": "Kassulke, Wilkinson and Hills",
-      "DisplayTooltip": "illum",
-      "IsActive": false
+      "Name": "Kihn-Swift",
+      "DisplayName": "Zieme LLC",
+      "DisplayTooltip": "amet",
+      "IsActive": true
     },
     {
-      "Name": "Baumbach Inc and Sons",
-      "DisplayName": "Kassulke, Wilkinson and Hills",
-      "DisplayTooltip": "illum",
-      "IsActive": false
+      "Name": "Kihn-Swift",
+      "DisplayName": "Zieme LLC",
+      "DisplayTooltip": "amet",
+      "IsActive": true
     }
   ]
 }

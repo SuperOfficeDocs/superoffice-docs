@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "chatsessionstatus"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "chatsessionstatus" MDO List
-
 Chat session status values
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ChatSessionStatusProvider">ChatSessionStatusProvider</see> class.
 The name of the MDO list is 'chatsessionstatus'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("chatsessionstatus", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -57,6 +60,7 @@ foreach (var item in listProvider.RootItems) {
 |9|Closed||Closed|
 |10|Request posted||RequestPosted|
 |11|Closed in queue||ClosedFromQueue|
+
 
 ## Related MDO Lists
 

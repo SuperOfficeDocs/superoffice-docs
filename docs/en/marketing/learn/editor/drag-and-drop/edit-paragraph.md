@@ -23,7 +23,7 @@ language: en
 1. Go to the **Content** step in the mailing, or open a template for editing.
 
 2. Click the text you wish to edit, so that the text editing toolbar is shown.
-    ![icon][img5]
+![icon][img5]
 
 3. Edit the text using the buttons in the toolbar.
 

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetQuoteApprov
 
 ## GetQuoteApproveReasonList
 
-Gets an array of QuoteApproveReason objects.
 
-* **quoteApproveReasonIds:** The identifiers of the QuoteApproveReason object
 
-**Returns:** Array of QuoteApproveReason objects
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetQuoteApproveReasonList Response
 
 ```xml
@@ -77,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

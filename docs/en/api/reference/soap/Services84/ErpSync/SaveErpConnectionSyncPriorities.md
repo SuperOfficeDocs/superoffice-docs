@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.SaveErpConn
 
 ## SaveErpConnectionSyncPriorities
 
-Takes an array of the ErpConnection ids and saves these as ordered sync priorities
 
-* **erpConnectionIds:** The id put in array in the same order as the priorities
 
-**Returns:** Returns true if new sync priorities is saved
+
 
 [WSDL file for Services84/ErpSync](../Services84-ErpSync.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveErpConnectionSyncPriorities Response
 
 ```xml
@@ -71,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

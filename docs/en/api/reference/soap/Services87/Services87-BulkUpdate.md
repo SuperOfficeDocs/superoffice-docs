@@ -536,62 +536,35 @@ title: Services87.BulkUpdateAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="BulkUpdate">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for BulkUpdate</summary>
-    </wsdl:documentation>
     <wsdl:operation name="GetAvailableFields">
-      <wsdl:documentation>
-        <summary>Get all available fields for a given tablename/entity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BulkUpdate/GetAvailableFields" name="GetAvailableFieldsRequest" message="tns:GetAvailableFieldsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BulkUpdate/GetAvailableFieldsResponse" name="GetAvailableFieldsResponse" message="tns:GetAvailableFieldsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetStoredFields">
-      <wsdl:documentation>
-        <summary>Get all stored fields for a given tablename/entity and context</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BulkUpdate/GetStoredFields" name="GetStoredFieldsRequest" message="tns:GetStoredFieldsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BulkUpdate/GetStoredFieldsResponse" name="GetStoredFieldsResponse" message="tns:GetStoredFieldsResponse" />
     </wsdl:operation>
     <wsdl:operation name="ExecuteBySelectionId">
-      <wsdl:documentation>
-        <summary>Do the batchupdate on this selection</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BulkUpdate/ExecuteBySelectionId" name="ExecuteBySelectionIdRequest" message="tns:ExecuteBySelectionIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BulkUpdate/ExecuteBySelectionIdResponse" name="ExecuteBySelectionIdResponse" message="tns:ExecuteBySelectionIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="ExecuteByEntityIds">
-      <wsdl:documentation>
-        <summary>Do the batchupdate on selected</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BulkUpdate/ExecuteByEntityIds" name="ExecuteByEntityIdsRequest" message="tns:ExecuteByEntityIdsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BulkUpdate/ExecuteByEntityIdsResponse" name="ExecuteByEntityIdsResponse" message="tns:ExecuteByEntityIdsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetJobResultsFromStorageAsJson">
-      <wsdl:documentation>
-        <summary>Get result of the batchupdate job</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BulkUpdate/GetJobResultsFromStorageAsJson" name="GetJobResultsFromStorageAsJsonRequest" message="tns:GetJobResultsFromStorageAsJsonRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BulkUpdate/GetJobResultsFromStorageAsJsonResponse" name="GetJobResultsFromStorageAsJsonResponse" message="tns:GetJobResultsFromStorageAsJsonResponse" />
     </wsdl:operation>
     <wsdl:operation name="RemoveStoredFields">
-      <wsdl:documentation>
-        <summary>Remove the stored settings of the bulk update for this table from this context</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BulkUpdate/RemoveStoredFields" name="RemoveStoredFieldsRequest" message="tns:RemoveStoredFieldsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BulkUpdate/RemoveStoredFieldsResponse" name="RemoveStoredFieldsResponse" message="tns:RemoveStoredFieldsResponse" />
     </wsdl:operation>
     <wsdl:operation name="RemoveStoredFieldsAndGetDefaultFields">
-      <wsdl:documentation>
-        <summary>Remove the stored settings of the bulk update for this table from this context, to get the default settings instead</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields" name="RemoveStoredFieldsAndGetDefaultFieldsRequest" message="tns:RemoveStoredFieldsAndGetDefaultFieldsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BulkUpdate/RemoveStoredFieldsAndGetDefaultFieldsResponse" name="RemoveStoredFieldsAndGetDefaultFieldsResponse" message="tns:RemoveStoredFieldsAndGetDefaultFieldsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetJobResultAsJsonFromBinaryObjectId">
-      <wsdl:documentation>
-        <summary>Get result of the batchupdate job</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BulkUpdate/GetJobResultAsJsonFromBinaryObjectId" name="GetJobResultAsJsonFromBinaryObjectIdRequest" message="tns:GetJobResultAsJsonFromBinaryObjectIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/BulkUpdate/GetJobResultAsJsonFromBinaryObjectIdResponse" name="GetJobResultAsJsonFromBinaryObjectIdResponse" message="tns:GetJobResultAsJsonFromBinaryObjectIdResponse" />
     </wsdl:operation>
@@ -734,3 +707,4 @@ title: Services87.BulkUpdateAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

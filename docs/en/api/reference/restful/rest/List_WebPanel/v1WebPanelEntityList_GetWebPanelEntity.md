@@ -81,7 +81,7 @@ OK
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,33 +91,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 328,
-  "Name": "Schroeder, Keeling and Cole",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "Rank": 123,
+  "WebPanelId": 76,
+  "Name": "Legros-Rice",
+  "Tooltip": "nam",
+  "Deleted": true,
+  "Rank": 791,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": true,
+  "OnSatellite": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Stehr, Lowe and Hoeger",
+  "ShowInStatusBar": false,
+  "WindowName": "Christiansen-Dooley",
   "Url": "http://www.example.com/",
-  "ProgId": "voluptatem",
-  "Icon": 812,
+  "ProgId": "vel",
+  "Icon": 244,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldLength": 265
     }
   }
 }

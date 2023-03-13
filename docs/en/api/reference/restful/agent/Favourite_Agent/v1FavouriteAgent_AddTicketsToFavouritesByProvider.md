@@ -70,18 +70,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Stoltenberg-Weissnat",
+  "ProviderName": "McKenzie-Rolfson",
   "Restrictions": [
     {
-      "Name": "Ernser-Reilly",
-      "Operator": "sunt",
+      "Name": "Johnson, Emmerich and Hyatt",
+      "Operator": "laboriosam",
       "Values": [
-        "provident",
-        "dolorum"
+        "doloremque",
+        "assumenda"
       ],
       "DisplayValues": [
-        "ipsa",
-        "natus"
+        "vitae",
+        "quod"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -89,13 +89,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 584,
+      "InterParenthesis": 35,
       "InterOperator": "And",
-      "UniqueHash": 475
+      "UniqueHash": 167
     }
   ],
-  "AssociateId": 18,
-  "ExtraInfo": "sint"
+  "AssociateId": 861,
+  "ExtraInfo": "in"
 }
 ```
 

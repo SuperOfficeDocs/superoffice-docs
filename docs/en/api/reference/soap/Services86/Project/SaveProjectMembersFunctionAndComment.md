@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IProjectAgent.SaveProject
 
 ## SaveProjectMembersFunctionAndComment
 
-Saves role and comment on an array of projectmembers represented by ids
 
-* **projectMemberIds:**
-* **roleId:**
-* **comment:**
+
+
 
 [WSDL file for Services86/Project](../Services86-Project.md)
 
@@ -53,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveProjectMembersFunctionAndComment Response
 
 ```xml
@@ -72,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

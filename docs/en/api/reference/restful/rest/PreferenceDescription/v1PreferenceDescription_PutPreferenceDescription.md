@@ -116,24 +116,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 197,
-  "Section": "deleniti",
-  "Key": "aut",
-  "Name": "Kihn-McDermott",
+  "PrefDescId": 127,
+  "Section": "culpa",
+  "Key": "nostrum",
+  "Name": "Stehr, Mertz and Marvin",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Digitized leading edge open system",
-  "IsBuiltin": false,
-  "TableName": "Zulauf, Effertz and Schmeler",
-  "UserDefinedListId": 977,
-  "Rank": 410,
-  "SubGroup": "aperiam",
-  "MinLevel": 504,
-  "MaxValue": 655,
-  "MinValue": 339,
-  "RequiredLicense": "nobis"
+  "Description": "Operative eco-centric open system",
+  "IsBuiltin": true,
+  "TableName": "Prohaska-Haley",
+  "UserDefinedListId": 465,
+  "Rank": 714,
+  "SubGroup": "perspiciatis",
+  "MinLevel": 305,
+  "MaxValue": 426,
+  "MinValue": 269,
+  "RequiredLicense": "sit"
 }
 ```
 
@@ -144,35 +144,35 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 816,
-  "Section": "ducimus",
-  "Key": "similique",
-  "Name": "Toy, Friesen and Hammes",
+  "PrefDescId": 478,
+  "Section": "atque",
+  "Key": "occaecati",
+  "Name": "Abernathy, Johnston and Pfannerstill",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Public-key systemic website",
+  "Description": "Networked regional frame",
   "IsBuiltin": false,
-  "TableName": "Jacobi LLC",
-  "UserDefinedListId": 984,
-  "Rank": 822,
-  "SubGroup": "vero",
-  "MinLevel": 232,
-  "MaxValue": 783,
-  "MinValue": 977,
-  "RequiredLicense": "beatae",
+  "TableName": "Beatty-Lindgren",
+  "UserDefinedListId": 962,
+  "Rank": 298,
+  "SubGroup": "temporibus",
+  "MinLevel": 601,
+  "MaxValue": 232,
+  "MinValue": 824,
+  "RequiredLicense": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 213
+      "FieldType": "System.Int32",
+      "FieldLength": 212
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

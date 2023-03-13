@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/List.
 
 Handled by the <see cref="T:SuperOffice.Services88.IListAgent">SuperOffice.Services88.IListAgent</see> interface.
 
-Interface for the List Agent
-Collection of all services that works with Lists. These are typical lists of data shown in dropdown list, checkbox lists, etc.
+
 
 Download [WSDL file for Services88/List](../Services88-List.md) if you need to generate your own proxy code.
 
@@ -35,6 +34,7 @@ Download [WSDL file for Services88/List](../Services88-List.md) if you need to g
 * [CreateDefaultResourceEntity](CreateDefaultResourceEntity.md)
 * [CreateDefaultSaleStageEntity](CreateDefaultSaleStageEntity.md)
 * [CreateDefaultSaleTypeEntity](CreateDefaultSaleTypeEntity.md)
+* [CreateDefaultTaskMenu](CreateDefaultTaskMenu.md)
 * [CreateDefaultTicketCategoryEntity](CreateDefaultTicketCategoryEntity.md)
 * [CreateDefaultTicketPriorityEntity](CreateDefaultTicketPriorityEntity.md)
 * [CreateDefaultTicketStatusEntity](CreateDefaultTicketStatusEntity.md)
@@ -43,6 +43,7 @@ Download [WSDL file for Services88/List](../Services88-List.md) if you need to g
 * [DeleteAllFromListName](DeleteAllFromListName.md)
 * [DeleteAllHeadingsFromListDefinition](DeleteAllHeadingsFromListDefinition.md)
 * [DeleteAllHeadingsFromName](DeleteAllHeadingsFromName.md)
+* [DeleteAppTaskMenus](DeleteAppTaskMenus.md)
 * [DeleteAppWebPanels](DeleteAppWebPanels.md)
 * [DeleteDocumentTemplateLanguage](DeleteDocumentTemplateLanguage.md)
 * [DeleteFromListDefinition](DeleteFromListDefinition.md)
@@ -53,6 +54,7 @@ Download [WSDL file for Services88/List](../Services88-List.md) if you need to g
 * [DeleteListEntityByName](DeleteListEntityByName.md)
 * [DeleteProjectStatus](DeleteProjectStatus.md)
 * [DeleteResourceEntity](DeleteResourceEntity.md)
+* [DeleteTaskMenu](DeleteTaskMenu.md)
 * [DeleteTicketCategoryEntity](DeleteTicketCategoryEntity.md)
 * [DeleteTicketPriorityEntity](DeleteTicketPriorityEntity.md)
 * [DeleteTicketStatusEntity](DeleteTicketStatusEntity.md)
@@ -76,6 +78,7 @@ Download [WSDL file for Services88/List](../Services88-List.md) if you need to g
 * [GetAllTasks](GetAllTasks.md)
 * [GetAllTicketPriorities](GetAllTicketPriorities.md)
 * [GetAmountClassEntity](GetAmountClassEntity.md)
+* [GetAppTaskMenus](GetAppTaskMenus.md)
 * [GetAppWebPanels](GetAppWebPanels.md)
 * [GetBaseCurrency](GetBaseCurrency.md)
 * [GetBusiness](GetBusiness.md)
@@ -219,6 +222,8 @@ Download [WSDL file for Services88/List](../Services88-List.md) if you need to g
 * [GetSources](GetSources.md)
 * [GetTask](GetTask.md)
 * [GetTaskList](GetTaskList.md)
+* [GetTaskMenu](GetTaskMenu.md)
+* [GetTaskMenuByProgId](GetTaskMenuByProgId.md)
 * [GetTasks](GetTasks.md)
 * [GetTicketCategories](GetTicketCategories.md)
 * [GetTicketCategoriesForUserGroups](GetTicketCategoriesForUserGroups.md)
@@ -271,6 +276,7 @@ Download [WSDL file for Services88/List](../Services88-List.md) if you need to g
 * [SaveResourceEntity](SaveResourceEntity.md)
 * [SaveSaleStageEntity](SaveSaleStageEntity.md)
 * [SaveSaleTypeEntity](SaveSaleTypeEntity.md)
+* [SaveTaskMenu](SaveTaskMenu.md)
 * [SaveTicketCategoryEntity](SaveTicketCategoryEntity.md)
 * [SaveTicketPriorityEntity](SaveTicketPriorityEntity.md)
 * [SaveTicketStatusEntity](SaveTicketStatusEntity.md)
@@ -298,3 +304,4 @@ Download [WSDL file for Services88/List](../Services88-List.md) if you need to g
 * [SortListItems](SortListItems.md)
 * [UpdateCategoryMemberships](UpdateCategoryMemberships.md)
 * [UpdateHierarchyFromPath](UpdateHierarchyFromPath.md)
+

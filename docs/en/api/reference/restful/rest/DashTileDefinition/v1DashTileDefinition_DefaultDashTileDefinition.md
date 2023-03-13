@@ -74,7 +74,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 154,
-  "Name": "Witting Group",
-  "Description": "Fully-configurable real-time neural-net",
-  "DefaultHeight": 403,
-  "DefaultWidth": 101,
+  "DashboardTileDefinitionId": 759,
+  "Name": "Kihn, Mills and Feeney",
+  "Description": "Down-sized scalable encryption",
+  "DefaultHeight": 261,
+  "DefaultWidth": 869,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Bartoletti, Gusikowski and Spinka",
-  "SelectionId": 189,
+  "EntityName": "Goodwin, Willms and Hagenes",
+  "SelectionId": 319,
   "CurrencyMode": "Base",
-  "CurrencyCode": "praesentium",
+  "CurrencyCode": "est",
   "Measure": "Average",
-  "MeasureField": "possimus",
-  "SortBy": "aut",
-  "LayoutConfig": "tempore",
-  "SecondarySelectionId": 160,
-  "MeasureByField": "autem",
+  "MeasureField": "quidem",
+  "SortBy": "quod",
+  "LayoutConfig": "exercitationem",
+  "SecondarySelectionId": 516,
+  "MeasureByField": "quod",
   "Usage": "Dashboard",
-  "ProviderName": "Block, Lindgren and Leuschke",
+  "ProviderName": "Wolf LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 213
+      "FieldType": "System.Int32",
+      "FieldLength": 167
     }
   }
 }

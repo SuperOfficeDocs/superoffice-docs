@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IWebhookAgent.GetWebhook"
 
 ## GetWebhook
 
-Gets a Webhook object.
 
-* **webhookId:** The identifier of the Webhook object
 
-**Returns:** Webhook
+
 
 [WSDL file for Services85/Webhook](../Services85-Webhook.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetWebhook Response
 
@@ -85,7 +84,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Webhook:Value xsi:type="xsd:anyType"></Webhook:Value>
      </Webhook:StringObjectKeyValuePair>
     </Webhook:Properties>
-    <Webhook:Registered xsi:type="xsd:dateTime">2022-08-26T08:54:02Z</Webhook:Registered>
+    <Webhook:Registered xsi:type="xsd:dateTime">2023-02-15T13:12:25Z</Webhook:Registered>
     <Webhook:RegisteredAssociate xsi:type="Webhook:Associate">
      <Webhook:AssociateId xsi:type="xsd:int">0</Webhook:AssociateId>
      <Webhook:Name xsi:type="xsd:string"></Webhook:Name>
@@ -99,7 +98,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Webhook:Deleted xsi:type="xsd:boolean">false</Webhook:Deleted>
      <Webhook:EjUserId xsi:type="xsd:int">0</Webhook:EjUserId>
     </Webhook:RegisteredAssociate>
-    <Webhook:Updated xsi:type="xsd:dateTime">2022-08-26T08:54:02Z</Webhook:Updated>
+    <Webhook:Updated xsi:type="xsd:dateTime">2023-02-15T13:12:25Z</Webhook:Updated>
     <Webhook:UpdatedAssociate xsi:type="Webhook:Associate">
      <Webhook:AssociateId xsi:type="xsd:int">0</Webhook:AssociateId>
      <Webhook:Name xsi:type="xsd:string"></Webhook:Name>
@@ -119,3 +118,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -82,32 +82,32 @@ Content-Type: application/json; charset=utf-8
 {
   "Restriction": [
     {
-      "Name": "Rutherford-Cassin",
-      "Operator": "quisquam",
+      "Name": "Zulauf, Zboncak and Miller",
+      "Operator": "omnis",
       "Values": [
-        "quam",
-        "nulla"
+        "aut",
+        "suscipit"
       ],
       "DisplayValues": [
-        "aut",
-        "laboriosam"
+        "ut",
+        "est"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 972,
+      "InterParenthesis": 201,
       "InterOperator": "And",
-      "UniqueHash": 265
+      "UniqueHash": 206
     }
   ],
   "Columns": [
-    "numquam",
+    "velit",
     "et"
   ],
-  "ConnectionId": 969,
+  "ConnectionId": 93,
   "ErpActorType": "Customer"
 }
 ```
@@ -122,47 +122,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "ea",
-        "quibusdam"
+        "dolorem",
+        "aut"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "quia",
+      "ExternalKey": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 350
+          "FieldLength": 432
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Krajcik Inc and Sons",
-      "DisplayName": "Keeling LLC",
+      "Name": "Kunze, Schiller and Stroman",
+      "DisplayName": "Lind-Lubowitz",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 711
+          "FieldType": "System.String",
+          "FieldLength": 827
         }
       }
     },
     {
-      "Name": "Krajcik Inc and Sons",
-      "DisplayName": "Keeling LLC",
+      "Name": "Kunze, Schiller and Stroman",
+      "DisplayName": "Lind-Lubowitz",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 711
+          "FieldType": "System.String",
+          "FieldLength": 827
         }
       }
     }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldLength": 16
     }
   }
 }

@@ -47,6 +47,7 @@ Because of security restrictions and performance considerations in our online en
 * Memory-intensive scripts are not allowed. Each script may not consume more than 8 MB of memory.
 * The **BulkUpdate** API is unavailable because updates can take a long time.
 * ODBC endpoints are unavailable, which makes it technically impossible to access an Access-database from CRMScript. You can use Zapier instead.
+* Using the HTTP class, you can only access external resources over port 80 or 443.
 
 ### Complete list of blacklisted data types
 

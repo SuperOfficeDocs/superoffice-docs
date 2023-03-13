@@ -92,23 +92,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 890,
-  "BlobSize": 38,
-  "Description": "Persevering impactful paradigm",
-  "ExtraInfo": "ut",
+  "BlobId": 414,
+  "BlobSize": 670,
+  "Description": "Upgradable upward-trending intranet",
+  "ExtraInfo": "voluptatibus",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "cupiditate",
-  "OriginalSize": 900,
-  "CreatedDate": "2003-09-14T17:37:39.4794003+02:00",
-  "UpdatedDate": "2001-05-30T17:37:39.4794003+02:00",
+  "MimeType": "enim",
+  "OriginalSize": 198,
+  "CreatedDate": "2014-09-12T14:19:10.9748549+02:00",
+  "UpdatedDate": "2006-05-14T14:19:10.9748549+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "eius"
+  "ConceptualType": "suscipit"
 }
 ```
 
@@ -119,25 +119,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 248,
-  "BlobSize": 345,
-  "Description": "Seamless zero tolerance circuit",
-  "ExtraInfo": "temporibus",
-  "IsEncrypted": true,
+  "BlobId": 78,
+  "BlobSize": 355,
+  "Description": "Up-sized tertiary analyzer",
+  "ExtraInfo": "id",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "velit",
-  "OriginalSize": 363,
-  "CreatedDate": "2001-08-19T17:37:39.4804007+02:00",
-  "UpdatedDate": "2018-01-07T17:37:39.4804007+01:00",
+  "MimeType": "a",
+  "OriginalSize": 849,
+  "CreatedDate": "1998-05-17T14:19:10.9748549+02:00",
+  "UpdatedDate": "2010-05-05T14:19:10.9748549+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "unde",
+  "ConceptualType": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldType": "System.String",
+      "FieldLength": 668
     }
   }
 }

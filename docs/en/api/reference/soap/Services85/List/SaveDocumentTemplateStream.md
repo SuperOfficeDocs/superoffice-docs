@@ -11,14 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.SaveDocumentTe
 
 ## SaveDocumentTemplateStream
 
-Writes content in stream to document template file
 
-* **documentTemplateId:** Identifier for document template
-* **content:** Stream containing content to be saved to document template file
-* **languageCode:** Language variation of template to update. (ISO code: "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang".
-* **pluginId:** Plugin to use for storing document content. 0 = SOARC. Use -1 to use the plugin specified in the template.
 
-**Returns:** Template info
+
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -55,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveDocumentTemplateStream Response
 
 ```xml
@@ -80,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

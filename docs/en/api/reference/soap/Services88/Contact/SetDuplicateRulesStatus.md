@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IContactAgent.SetDuplicat
 
 ## SetDuplicateRulesStatus
 
-Set which duplicate rules should be active or not
 
-* **rules:** Duplicate rules to update active status for
+
+
 
 [WSDL file for Services88/Contact](../Services88-Contact.md)
 
@@ -54,6 +54,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetDuplicateRulesStatus Response
 
 ```xml
@@ -73,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

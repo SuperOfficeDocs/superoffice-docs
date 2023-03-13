@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 575,
-    "Name": "Lueilwitz, Nicolas and Wilderman",
-    "ToolTip": "Earum fuga.",
+    "Id": 894,
+    "Name": "Prohaska-Wehner",
+    "ToolTip": "Consequatur rerum autem enim quis.",
     "Deleted": false,
-    "Rank": 924,
-    "Type": "commodi",
-    "ColorBlock": 299,
-    "IconHint": "sit",
+    "Rank": 380,
+    "Type": "tempore",
+    "ColorBlock": 671,
+    "IconHint": "veniam",
     "Selected": false,
-    "LastChanged": "2020-08-09T17:37:39.6644005+02:00",
+    "LastChanged": "1997-12-27T14:19:11.1324679+01:00",
     "ChildItems": [
       {
-        "Id": 556,
-        "Name": "Carter, Jaskolski and Gleason",
-        "ToolTip": "Rerum laborum ex expedita explicabo maiores et inventore.",
-        "Deleted": true,
-        "Rank": 290,
-        "Type": "nulla",
-        "ColorBlock": 650,
-        "IconHint": "omnis",
+        "Id": 393,
+        "Name": "Kihn Inc and Sons",
+        "ToolTip": "Atque cum reprehenderit magni veritatis ut quae.",
+        "Deleted": false,
+        "Rank": 566,
+        "Type": "aut",
+        "ColorBlock": 810,
+        "IconHint": "esse",
         "Selected": false,
-        "LastChanged": "1999-02-10T17:37:39.6644005+01:00",
+        "LastChanged": "2004-01-05T14:19:11.1324679+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Zula Schroeder",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "maxime",
+        "Hidden": false,
+        "FullName": "Candelario Gulgowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 744
+            "FieldLength": 995
           }
         }
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "cupiditate",
+    "ExtraInfo": "corrupti",
+    "StyleHint": "nostrum",
     "Hidden": false,
-    "FullName": "Wilfredo O'Connell",
+    "FullName": "Jacquelyn Clarissa Ullrich Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 720
+        "FieldLength": 891
       }
     }
   }

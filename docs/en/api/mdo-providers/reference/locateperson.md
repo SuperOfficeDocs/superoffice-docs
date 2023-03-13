@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "locateperson"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "locateperson" MDO List
-
 Person list with contact name.
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.LocatePersonProvider">LocatePersonProvider</see> class.
 The name of the MDO list is 'locateperson'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("locateperson", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -66,6 +69,7 @@ foreach (var item in listProvider.RootItems) {
 |22|Arjan Abelsen (Arne'S Kebab)|||
 |139|Ärle Älström (Älvhult AB)|||
 |19|Arne Arnesen (Amadeus AS)|||
+
 
 ## Related MDO Lists
 

@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "target_revision_history"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# target\_revision\_history Table (498)
+# target\_revision\_history Table (501)
 
 Revision history info in case the original target group or assignment info was deleted
 

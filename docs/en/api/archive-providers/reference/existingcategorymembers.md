@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ExistingCategoryMembers"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -23,23 +23,21 @@ Archive of ExistingCategoryMembers - used by the web api.
 Lists existing CategoryMembers in table and edited or removed ones through restriction.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"existingCategoryMember"|[existingCategoryMember]|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|addedRows|string||  |
 |removedRows|string||  |
 |editedRows|string||  |
 |categoryMembershipId|int|ID: ID| x |
 |categoryId|int|Category ID: Category ID| x |
 |weight|int|Weight: Weight| x |
+|isDefinedByUsergroup|bool|From usergroup: From usergroup| x |
 |firstName|string|First name: Displays the contact's first name| x |
 |lastName|string|Last name: Displays the contact's last name| x |
 |middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -81,4 +79,7 @@ Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IAssociateAgent.GetAssoci
 
 ## GetAssociatesByGroup
 
-Method that returns a array of associate , based on DiaryGroupType and groupId. The differernt types are, Userdefined, Usergroup and ResourceHeadings
 
-* **groupId:** Id of the group
-* **type:** The type of group. See DiaryGroupType
 
-**Returns:** Array of associate
+
 
 [WSDL file for Services85/Associate](../Services85-Associate.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetAssociatesByGroup Response
 
@@ -85,3 +83,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

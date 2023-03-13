@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 925,
-    "Name": "Bergnaum-Greenholt",
-    "ToolTip": "Numquam iste qui odio odit nemo dolore.",
-    "Deleted": true,
-    "Rank": 381,
-    "Type": "delectus",
-    "ColorBlock": 639,
-    "IconHint": "in",
-    "Selected": true,
-    "LastChanged": "2017-01-29T17:37:40.2124714+01:00",
+    "Id": 593,
+    "Name": "Kiehn Group",
+    "ToolTip": "Deleniti et ut et.",
+    "Deleted": false,
+    "Rank": 491,
+    "Type": "voluptas",
+    "ColorBlock": 285,
+    "IconHint": "sint",
+    "Selected": false,
+    "LastChanged": "2023-01-12T14:19:11.4149038+01:00",
     "ChildItems": [
       {
-        "Id": 483,
-        "Name": "Prohaska Inc and Sons",
-        "ToolTip": "Non aut dolor quos praesentium.",
+        "Id": 332,
+        "Name": "Predovic LLC",
+        "ToolTip": "Quia et rerum dolor quo ut voluptates ut.",
         "Deleted": true,
-        "Rank": 820,
-        "Type": "eius",
-        "ColorBlock": 833,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2000-06-23T17:37:40.2124714+02:00",
+        "Rank": 750,
+        "Type": "omnis",
+        "ColorBlock": 441,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2004-05-20T14:19:11.4149038+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Ms. Kale Euna Breitenberg",
+        "ExtraInfo": "totam",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Prof. Emmy Aisha Kling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 913
+            "FieldLength": 674
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "quos",
+    "ExtraInfo": "iusto",
+    "StyleHint": "reiciendis",
     "Hidden": false,
-    "FullName": "Jakob Kuvalis",
+    "FullName": "Joelle Auer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 122
+        "FieldLength": 228
       }
     }
   }

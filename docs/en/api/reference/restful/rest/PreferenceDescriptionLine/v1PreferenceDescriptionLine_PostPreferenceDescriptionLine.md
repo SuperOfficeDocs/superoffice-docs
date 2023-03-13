@@ -89,11 +89,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 698,
-  "PrefDescId": 58,
-  "PrefValue": "qui",
-  "PrefShowValue": "illum",
-  "Description": "Managed exuding help-desk",
+  "PrefDescLineId": 726,
+  "PrefDescId": 449,
+  "PrefValue": "enim",
+  "PrefShowValue": "distinctio",
+  "Description": "Up-sized bi-directional functionalities",
   "IsBuiltin": false
 }
 ```
@@ -105,18 +105,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 876,
-  "PrefDescId": 901,
-  "PrefValue": "et",
-  "PrefShowValue": "id",
-  "Description": "Multi-layered bifurcated alliance",
+  "PrefDescLineId": 699,
+  "PrefDescId": 837,
+  "PrefValue": "quis",
+  "PrefShowValue": "labore",
+  "Description": "Vision-oriented optimizing monitoring",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldLength": 492
     }
   },
   "_Links": {

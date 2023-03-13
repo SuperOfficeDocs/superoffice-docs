@@ -26,7 +26,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=est
+GET /api/v1/List/DocumentTemplate/MDOItems?query=et
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 252,
-    "Name": "Kohler LLC",
-    "ToolTip": "Cumque rem.",
+    "Id": 632,
+    "Name": "Halvorson-Kautzer",
+    "ToolTip": "Sunt omnis quia culpa porro temporibus qui illum.",
     "Deleted": false,
-    "Rank": 566,
-    "Type": "sunt",
+    "Rank": 229,
+    "Type": "velit",
     "ChildItems": [
       {
-        "Id": 770,
-        "Name": "Trantow Group",
-        "ToolTip": "Adipisci mollitia est aspernatur autem labore.",
+        "Id": 734,
+        "Name": "Bruen LLC",
+        "ToolTip": "Alias quis omnis iusto illo natus expedita.",
         "Deleted": true,
-        "Rank": 711,
-        "Type": "ipsum",
+        "Rank": 868,
+        "Type": "quos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "magni",
-        "ColorBlock": 694,
-        "ExtraInfo": "sint",
-        "StyleHint": "nihil",
-        "FullName": "Miss Kelli Ondricka Sr.",
+        "IconHint": "non",
+        "ColorBlock": 273,
+        "ExtraInfo": "quia",
+        "StyleHint": "cupiditate",
+        "FullName": "Johnathan Jenkins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 828
+            "FieldType": "System.Int32",
+            "FieldLength": 429
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 26,
-    "ExtraInfo": "perferendis",
-    "StyleHint": "velit",
-    "FullName": "Miss Calista Reichel I",
+    "IconHint": "qui",
+    "ColorBlock": 389,
+    "ExtraInfo": "eveniet",
+    "StyleHint": "et",
+    "FullName": "Sage Beahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 33
+        "FieldType": "System.String",
+        "FieldLength": 41
       }
     }
   }

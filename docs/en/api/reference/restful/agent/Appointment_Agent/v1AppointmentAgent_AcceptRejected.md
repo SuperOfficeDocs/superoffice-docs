@@ -127,11 +127,11 @@ OK
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 928,
+  "AppointmentId": 632,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -147,63 +147,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2016-05-19T17:37:16.4622417+02:00",
-  "AppointmentId": 720,
-  "Description": "Future-proofed methodical challenge",
-  "StartDate": "2009-01-12T17:37:16.4622417+01:00",
-  "EndDate": "2016-01-01T17:37:16.4622417+01:00",
+  "CreatedDate": "2000-10-16T14:19:02.6177097+02:00",
+  "AppointmentId": 151,
+  "Description": "Integrated neutral superstructure",
+  "StartDate": "2023-01-14T14:19:02.6177097+01:00",
+  "EndDate": "2013-11-11T14:19:02.6177097+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 754,
+  "MotherId": 665,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1997-01-24T17:37:16.4652416+01:00",
+  "UpdatedDate": "2022-08-27T14:19:02.6177097+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 274,
+  "ActiveLinks": 946,
   "Links": [
     {
-      "EntityName": "Krajcik, Grant and Hane",
-      "Id": 104,
-      "Description": "Reduced composite protocol",
-      "ExtraInfo": "quasi",
-      "LinkId": 118,
+      "EntityName": "Armstrong-McGlynn",
+      "Id": 704,
+      "Description": "Re-contextualized empowering structure",
+      "ExtraInfo": "dolorem",
+      "LinkId": 863,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 859
+          "FieldType": "System.String",
+          "FieldLength": 291
         }
       }
     }
   ],
-  "AlarmLeadTime": "ab",
-  "HasAlarm": true,
-  "ColorIndex": 683,
-  "IsFree": true,
+  "AlarmLeadTime": "voluptas",
+  "HasAlarm": false,
+  "ColorIndex": 329,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "illum",
-  "LeadTime": "enim",
-  "Location": "adipisci",
-  "RejectCounter": 990,
-  "RejectReason": "",
+  "LagTime": "possimus",
+  "LeadTime": "et",
+  "Location": "dolorem",
+  "RejectCounter": 485,
+  "RejectReason": "engineer revolutionary technologies",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 736,
-      "PersonId": 687,
-      "ContactId": 153,
-      "EmailId": 662,
+      "AssociateId": 20,
+      "PersonId": 75,
+      "ContactId": 910,
+      "EmailId": 561,
       "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 736,
-      "PersonId": 687,
-      "ContactId": 153,
-      "EmailId": 662,
+      "AssociateId": 20,
+      "PersonId": 75,
+      "ContactId": 910,
+      "EmailId": 561,
       "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
@@ -211,58 +211,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2015-02-23T17:37:16.4662409+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2013-07-10T14:19:02.6177097+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 151,
+  "PreferredTZLocation": 716,
   "Sale": null,
-  "SuggestedAppointmentId": 670,
+  "SuggestedAppointmentId": 373,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "nam",
+  "CentralserviceVideomeetId": "ipsa",
   "UserDefinedFields": {
-    "SuperOffice:1": "Isabel Green",
-    "SuperOffice:2": "Mrs. Abigail Franco Marquardt IV"
+    "SuperOffice:1": "Prof. Wilton Powlowski PhD",
+    "SuperOffice:2": "Freda Ally Kovacek III"
   },
   "ExtraFields": {
-    "ExtraFields1": "earum",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "quos",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "illum"
+    "CustomFields1": "qui",
+    "CustomFields2": "beatae"
   },
-  "PublishEventDate": "2002-04-18T17:37:16.4672426+02:00",
-  "PublishTo": "2010-11-17T17:37:16.4672426+01:00",
-  "PublishFrom": "2000-04-20T17:37:16.4672426+02:00",
+  "PublishEventDate": "2000-03-29T14:19:02.6177097+02:00",
+  "PublishTo": "2000-10-16T14:19:02.6177097+02:00",
+  "PublishFrom": "2007-07-11T14:19:02.6177097+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 80,
+      "VisibleId": 488,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 892
+          "FieldType": "System.Int32",
+          "FieldLength": 501
         }
       }
     },
     {
-      "VisibleId": 80,
+      "VisibleId": 488,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 892
+          "FieldType": "System.Int32",
+          "FieldLength": 501
         }
       }
     }
@@ -272,7 +272,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 255
+      "FieldLength": 840
     }
   }
 }

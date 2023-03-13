@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 686,
-    "Name": "Conroy Group",
-    "ToolTip": "Rerum et nisi provident in est.",
-    "Deleted": false,
-    "Rank": 779,
-    "Type": "molestiae",
-    "ColorBlock": 74,
-    "IconHint": "dicta",
+    "Id": 692,
+    "Name": "Orn Group",
+    "ToolTip": "Voluptates deleniti.",
+    "Deleted": true,
+    "Rank": 764,
+    "Type": "quia",
+    "ColorBlock": 724,
+    "IconHint": "tempora",
     "Selected": false,
-    "LastChanged": "2003-01-10T17:37:40.1435006+01:00",
+    "LastChanged": "2013-08-28T14:19:11.3524087+02:00",
     "ChildItems": [
       {
-        "Id": 987,
-        "Name": "Johns, Lowe and Cronin",
-        "ToolTip": "Tempore et.",
+        "Id": 72,
+        "Name": "Lind, Yost and King",
+        "ToolTip": "Debitis quos rerum.",
         "Deleted": false,
-        "Rank": 572,
-        "Type": "vel",
-        "ColorBlock": 71,
-        "IconHint": "dolorem",
-        "Selected": false,
-        "LastChanged": "2000-01-20T17:37:40.1435006+01:00",
+        "Rank": 617,
+        "Type": "quas",
+        "ColorBlock": 298,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2018-04-08T14:19:11.3524087+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "non",
+        "ExtraInfo": "nihil",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Noemie Hayes V",
+        "FullName": "Chanel Turner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 479
+            "FieldLength": 396
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "blanditiis",
+    "ExtraInfo": "autem",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Mrs. Jackie Jacobi III",
+    "FullName": "Adrienne Jerde",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 769
+        "FieldLength": 934
       }
     }
   }

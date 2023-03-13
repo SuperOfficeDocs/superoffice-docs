@@ -69,7 +69,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quis",
-  "Name": "Pfannerstill-Rowe",
-  "Description": "Object-based transitional concept",
-  "IncludeId": "quo",
-  "Source": "voluptatem",
-  "Registered": "2020-03-21T17:37:39.5144326+01:00",
-  "RegisteredBy": "doloribus",
-  "Updated": "1996-02-24T17:37:39.5144326+01:00",
-  "UpdatedBy": "odit",
-  "Path": "ut",
+  "UniqueIdentifier": "veritatis",
+  "Name": "Turner, Rath and Funk",
+  "Description": "Total client-driven migration",
+  "IncludeId": "quod",
+  "Source": "est",
+  "Registered": "1997-01-18T14:19:11.0061042+01:00",
+  "RegisteredBy": "quos",
+  "Updated": "2007-02-25T14:19:11.0061042+01:00",
+  "UpdatedBy": "cumque",
+  "Path": "deserunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 784
+      "FieldType": "System.Int32",
+      "FieldLength": 948
     }
   }
 }

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "CategoryMembers"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -23,24 +23,22 @@ Archive of CategoryMember - used by the web api.
 Combines all CategoryMembers in table together with added, edited or removed through restrictions.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"existingCategoryMember"|[existingCategoryMember]|
 |"newCategoryMember"|[newCategoryMember]|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|addedRows|string||  |
 |removedRows| *None* ||  |
 |editedRows| *None* ||  |
 |categoryMembershipId| *None* |ID: ID|  |
 |categoryId| *None* |Category ID: Category ID|  |
 |weight|int|Weight: Weight| x |
+|isDefinedByUsergroup| *None* |From usergroup: From usergroup|  |
 |firstName|string|First name: Displays the contact's first name| x |
 |lastName|string|Last name: Displays the contact's last name| x |
 |middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -71,15 +69,19 @@ Combines all CategoryMembers in table together with added, edited or removed thr
 |otherGroups|userGroup|Other groups: Other groups|  |
 |userName|string|User name: User name| x |
 |personEmail|string|E-mail| x |
+|addedRows| *None* ||  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/CategoryMembers?$select=contactId,usergroup
+GET /api/v1/archive/CategoryMembers?$select=lastName,personId,usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

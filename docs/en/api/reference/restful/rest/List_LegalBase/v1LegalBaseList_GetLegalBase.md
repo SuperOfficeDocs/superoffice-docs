@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 950,
-  "Name": "Jenkins-Ullrich",
-  "Tooltip": "ducimus",
-  "Rank": 884,
-  "Key": "perferendis",
+  "LegalBaseId": 323,
+  "Name": "Swaniawski, Fritsch and Kreiger",
+  "Tooltip": "dolores",
+  "Rank": 800,
+  "Key": "atque",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 823
+      "FieldType": "System.Int32",
+      "FieldLength": 429
     }
   }
 }

@@ -493,49 +493,27 @@ title: Services85.MessagingAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Messaging">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Messaging</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateMessage">
-      <wsdl:documentation>
-        <summary>Create a new message and insert it in the message queue. (inbox)</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Messaging/CreateMessage" name="CreateMessageRequest" message="tns:CreateMessageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Messaging/CreateMessageResponse" name="CreateMessageResponse" message="tns:CreateMessageResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDeliveryStatus">
-      <wsdl:documentation>
-        <summary>Get delivery status</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Messaging/GetDeliveryStatus" name="GetDeliveryStatusRequest" message="tns:GetDeliveryStatusRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Messaging/GetDeliveryStatusResponse" name="GetDeliveryStatusResponse" message="tns:GetDeliveryStatusResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetDeliveryStatus">
-      <wsdl:documentation>
-        <summary>Set or change the delivery status on an outgoing messsage.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Messaging/SetDeliveryStatus" name="SetDeliveryStatusRequest" message="tns:SetDeliveryStatusRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Messaging/SetDeliveryStatusResponse" name="SetDeliveryStatusResponse" message="tns:SetDeliveryStatusResponse" />
     </wsdl:operation>
     <wsdl:operation name="SendMessages">
-      <wsdl:documentation>
-        <summary>Send an array of messages</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Messaging/SendMessages" name="SendMessagesRequest" message="tns:SendMessagesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Messaging/SendMessagesResponse" name="SendMessagesResponse" message="tns:SendMessagesResponse" />
     </wsdl:operation>
     <wsdl:operation name="SendMessagesWithConfig">
-      <wsdl:documentation>
-        <summary>Send an array of messages using given config</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Messaging/SendMessagesWithConfig" name="SendMessagesWithConfigRequest" message="tns:SendMessagesWithConfigRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Messaging/SendMessagesWithConfigResponse" name="SendMessagesWithConfigResponse" message="tns:SendMessagesWithConfigResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPlugins">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Messaging/GetPlugins" name="GetPluginsRequest" message="tns:GetPluginsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Messaging/GetPluginsResponse" name="GetPluginsResponse" message="tns:GetPluginsResponse" />
     </wsdl:operation>
@@ -646,3 +624,4 @@ title: Services85.MessagingAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

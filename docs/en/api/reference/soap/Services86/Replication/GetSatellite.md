@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IReplicationAgent.GetSate
 
 ## GetSatellite
 
-Gets a Satellite object.
-<para /><b>Online Restricted:</b> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
 
-* **satelliteId:** The identifier of the Satellite object
 
-**Returns:** Satellite
+
 
 [WSDL file for Services86/Replication](../Services86-Replication.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetSatellite Response
 
 ```xml
@@ -66,7 +64,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Replication:GetSatelliteResponse>
    <Replication:Response xsi:type="Replication:Satellite">
     <Replication:SatelliteId xsi:type="xsd:int">0</Replication:SatelliteId>
-    <Replication:Created xsi:type="xsd:dateTime">2022-08-26T08:55:44Z</Replication:Created>
+    <Replication:Created xsi:type="xsd:dateTime">2023-02-15T13:14:00Z</Replication:Created>
     <Replication:CreatedBy xsi:type="Replication:Associate">
      <Replication:AssociateId xsi:type="xsd:int">0</Replication:AssociateId>
      <Replication:Name xsi:type="xsd:string"></Replication:Name>
@@ -81,7 +79,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Replication:EjUserId xsi:type="xsd:int">0</Replication:EjUserId>
      <Replication:UserName xsi:type="xsd:string"></Replication:UserName>
     </Replication:CreatedBy>
-    <Replication:Updated xsi:type="xsd:dateTime">2022-08-26T08:55:44Z</Replication:Updated>
+    <Replication:Updated xsi:type="xsd:dateTime">2023-02-15T13:14:00Z</Replication:Updated>
     <Replication:UpdatedBy xsi:type="Replication:Associate">
      <Replication:AssociateId xsi:type="xsd:int">0</Replication:AssociateId>
      <Replication:Name xsi:type="xsd:string"></Replication:Name>
@@ -207,3 +205,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

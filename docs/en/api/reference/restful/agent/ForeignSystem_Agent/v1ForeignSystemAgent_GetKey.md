@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Murphy-Daugherty",
-  "DeviceName": "Feeney-Witting",
-  "KeyName": "Zulauf, Swaniawski and Stiedemann",
-  "TableName": "Lueilwitz Group",
-  "RecordId": 360
+  "ApplicationName": "Pollich Inc and Sons",
+  "DeviceName": "Schaden Inc and Sons",
+  "KeyName": "Gerlach-Cremin",
+  "TableName": "Kihn-Kiehn",
+  "RecordId": 502
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ab",
-  "Value": "nemo",
-  "RecordId": 211,
-  "CreatedDate": "2022-09-28T17:37:18.1042433+02:00",
-  "UpdatedDate": "2016-12-18T17:37:18.1042433+01:00",
-  "UpdatedBy": "architecto",
-  "CreatedBy": "provident",
-  "TableName": "Hahn Group",
+  "Key": "neque",
+  "Value": "fugit",
+  "RecordId": 646,
+  "CreatedDate": "2016-04-04T14:19:03.5602728+02:00",
+  "UpdatedDate": "2020-04-21T14:19:03.5602728+02:00",
+  "UpdatedBy": "dignissimos",
+  "CreatedBy": "eligendi",
+  "TableName": "Lindgren Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 915
+      "FieldLength": 380
     }
   }
 }

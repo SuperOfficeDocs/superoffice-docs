@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IBLOBAgent.SetProductThum
 
 ## SetProductThumbnail
 
-Stores the product thumbnail that is displayed in the CRM application. The image is scaled down to max 200x200 pixels.
 
-* **productId:** The product id of the product the image belongs to.
-* **image:** The image that is stored on the product (System.Drawing.Image); scaled down to no more than 200x200
+
+
 
 [WSDL file for Services88/BLOB](../Services88-BLOB.md)
 
@@ -48,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetProductThumbnail Response
 
 ```xml
@@ -66,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 248,
-    "Name": "Purdy-Stiedemann",
-    "ToolTip": "Fugiat eligendi quis explicabo repellat.",
+    "Id": 259,
+    "Name": "Hackett, Grady and Boyle",
+    "ToolTip": "Debitis porro repellat quis repellat.",
     "Deleted": true,
-    "Rank": 786,
-    "Type": "sed",
-    "ColorBlock": 469,
-    "IconHint": "iste",
-    "Selected": true,
-    "LastChanged": "2018-10-23T17:37:40.3405012+02:00",
+    "Rank": 493,
+    "Type": "deleniti",
+    "ColorBlock": 185,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2009-11-02T14:19:11.549573+01:00",
     "ChildItems": [
       {
-        "Id": 275,
-        "Name": "Grady, Schroeder and Weber",
-        "ToolTip": "Nulla voluptatibus maxime dicta nisi.",
-        "Deleted": true,
-        "Rank": 478,
-        "Type": "omnis",
-        "ColorBlock": 535,
-        "IconHint": "quis",
+        "Id": 889,
+        "Name": "Hackett-Baumbach",
+        "ToolTip": "Vitae placeat quia aperiam fugiat necessitatibus.",
+        "Deleted": false,
+        "Rank": 444,
+        "Type": "ipsam",
+        "ColorBlock": 488,
+        "IconHint": "delectus",
         "Selected": false,
-        "LastChanged": "2016-04-12T17:37:40.3405012+02:00",
+        "LastChanged": "2015-01-24T14:19:11.549573+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "incidunt",
-        "Hidden": false,
-        "FullName": "Mr. Morgan Kamryn Gerlach Jr."
+        "ExtraInfo": "autem",
+        "StyleHint": "explicabo",
+        "Hidden": true,
+        "FullName": "Mr. Kaden Ortiz"
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "aperiam",
+    "ExtraInfo": "a",
+    "StyleHint": "molestias",
     "Hidden": false,
-    "FullName": "Mr. Euna Breitenberg"
+    "FullName": "Tom Fletcher Nitzsche Jr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 173,
-    "Name": "Crona-O'Keefe",
-    "ToolTip": "Distinctio explicabo.",
+    "Id": 539,
+    "Name": "Little, Kuvalis and Cummerata",
+    "ToolTip": "Amet doloribus eum.",
     "Deleted": false,
-    "Rank": 966,
-    "Type": "occaecati",
-    "ColorBlock": 751,
-    "IconHint": "nisi",
-    "Selected": false,
-    "LastChanged": "1995-08-27T17:37:40.3424715+02:00",
+    "Rank": 968,
+    "Type": "necessitatibus",
+    "ColorBlock": 828,
+    "IconHint": "assumenda",
+    "Selected": true,
+    "LastChanged": "1999-01-03T14:19:11.580827+01:00",
     "ChildItems": [
       {
-        "Id": 760,
-        "Name": "Weissnat Group",
-        "ToolTip": "Iste id unde exercitationem autem doloribus.",
-        "Deleted": false,
-        "Rank": 279,
-        "Type": "eaque",
-        "ColorBlock": 265,
-        "IconHint": "amet",
+        "Id": 261,
+        "Name": "Tromp, Cormier and Ondricka",
+        "ToolTip": "Eos sit soluta laudantium voluptate.",
+        "Deleted": true,
+        "Rank": 355,
+        "Type": "natus",
+        "ColorBlock": 922,
+        "IconHint": "ipsam",
         "Selected": false,
-        "LastChanged": "2020-09-12T17:37:40.3424715+02:00",
+        "LastChanged": "2004-05-08T14:19:11.580827+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "eveniet",
+        "ExtraInfo": "inventore",
+        "StyleHint": "inventore",
         "Hidden": false,
-        "FullName": "Jonathon Reichel",
+        "FullName": "Mr. Garnett Immanuel Maggio",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 121
+            "FieldType": "System.Int32",
+            "FieldLength": 425
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Ms. Leilani Sylvester Pagac",
+    "FullName": "Arthur Heaney",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 406
+        "FieldLength": 113
       }
     }
   }

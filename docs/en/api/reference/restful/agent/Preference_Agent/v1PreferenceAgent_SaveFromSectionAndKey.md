@@ -95,8 +95,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "debitis",
-  "Key": "placeat",
+  "Section": "et",
+  "Key": "ducimus",
   "PreferenceDescription": null
 }
 ```
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 135,
-  "Section": "recusandae",
-  "Key": "porro",
-  "Name": "Daugherty LLC",
+  "PrefDescId": 356,
+  "Section": "non",
+  "Key": "nesciunt",
+  "Name": "Kshlerin Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Integrated explicit flexibility",
+  "Description": "Multi-channelled tangible info-mediaries",
   "IsBuiltin": false,
-  "TableName": "Ryan, Glover and Rice",
-  "UserDefinedListId": 591,
-  "Rank": 750,
-  "SubGroup": "nobis",
-  "MinLevel": 677,
-  "MaxValue": 929,
-  "MinValue": 930,
-  "RequiredLicense": "illo",
+  "TableName": "Corkery LLC",
+  "UserDefinedListId": 444,
+  "Rank": 291,
+  "SubGroup": "cumque",
+  "MinLevel": 498,
+  "MaxValue": 701,
+  "MinValue": 978,
+  "RequiredLicense": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldLength": 402
     }
   }
 }

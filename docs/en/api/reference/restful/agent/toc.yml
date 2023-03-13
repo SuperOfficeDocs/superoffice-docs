@@ -37,6 +37,8 @@ items:
     href: Appointment_Agent/v1AppointmentAgent_CanAssignToProjectMember.md
   - name: CleanUpBookingDeleted
     href: Appointment_Agent/v1AppointmentAgent_CleanUpBookingDeleted.md
+  - name: CleanUpBookingDeletedWithUpdateMode
+    href: Appointment_Agent/v1AppointmentAgent_CleanUpBookingDeletedWithUpdateMode.md
   - name: CleanUpRecurringBookingDeleted
     href: Appointment_Agent/v1AppointmentAgent_CleanUpRecurringBookingDeleted.md
   - name: CreateAndAccept
@@ -199,6 +201,8 @@ items:
     href: Appointment_Agent/v1AppointmentAgent_SetActivityStatus.md
   - name: SetSeen
     href: Appointment_Agent/v1AppointmentAgent_SetSeen.md
+  - name: SetSeenMany
+    href: Appointment_Agent/v1AppointmentAgent_SetSeenMany.md
   - name: ToggleActivities
     href: Appointment_Agent/v1AppointmentAgent_ToggleActivities.md
   - name: ToggleActivity
@@ -615,6 +619,8 @@ items:
     href: Configuration_Agent/v1ConfigurationAgent_GetScreenConfigurationDelta.md
   - name: GetScreenConfigurationDeltas
     href: Configuration_Agent/v1ConfigurationAgent_GetScreenConfigurationDeltas.md
+  - name: GetSpfDomain
+    href: Configuration_Agent/v1ConfigurationAgent_GetSpfDomain.md
   - name: GetSystemEventEntity
     href: Configuration_Agent/v1ConfigurationAgent_GetSystemEventEntity.md
   - name: GetWindowPosSize
@@ -1810,6 +1816,8 @@ items:
     href: List_Agent/v1ListAgent_DeleteAllHeadingsFromListDefinition.md
   - name: DeleteAllHeadingsFromName
     href: List_Agent/v1ListAgent_DeleteAllHeadingsFromName.md
+  - name: DeleteAppTaskMenus
+    href: List_Agent/v1ListAgent_DeleteAppTaskMenus.md
   - name: DeleteAppWebPanels
     href: List_Agent/v1ListAgent_DeleteAppWebPanels.md
   - name: DeleteDocumentTemplateLanguage
@@ -1868,6 +1876,8 @@ items:
     href: List_Agent/v1ListAgent_GetAllTicketPriorities.md
   - name: GetAmountClassEntity
     href: List_Agent/v1ListAgent_GetAmountClassEntity.md
+  - name: GetAppTaskMenus
+    href: List_Agent/v1ListAgent_GetAppTaskMenus.md
   - name: GetAppWebPanels
     href: List_Agent/v1ListAgent_GetAppWebPanels.md
   - name: GetBaseCurrency
@@ -2156,6 +2166,8 @@ items:
     href: List_Agent/v1ListAgent_GetTaskList.md
   - name: GetTaskMenu
     href: List_Agent/v1ListAgent_GetTaskMenu.md
+  - name: GetTaskMenuByProgId
+    href: List_Agent/v1ListAgent_GetTaskMenuByProgId.md
   - name: GetTasks
     href: List_Agent/v1ListAgent_GetTasks.md
   - name: GetTicketCategories
@@ -2341,6 +2353,8 @@ items:
     href: Marketing_Agent/v1MarketingAgent_GetFormEntity.md
   - name: GetFormSubmissionEntity
     href: Marketing_Agent/v1MarketingAgent_GetFormSubmissionEntity.md
+  - name: GetFormSubmissionsCount
+    href: Marketing_Agent/v1MarketingAgent_GetFormSubmissionsCount.md
   - name: GetPreviewMailing
     href: Marketing_Agent/v1MarketingAgent_GetPreviewMailing.md
   - name: GetPreviewMailingHeader
@@ -2439,6 +2453,8 @@ items:
     href: Person_Agent/v1PersonAgent_CreateDefaultFromCredential.md
   - name: CreateDefaultPersonEntity
     href: Person_Agent/v1PersonAgent_CreateDefaultPersonEntity.md
+  - name: CreateDefaultPersonImage
+    href: Person_Agent/v1PersonAgent_CreateDefaultPersonImage.md
   - name: CreateTemporaryKey
     href: Person_Agent/v1PersonAgent_CreateTemporaryKey.md
   - name: DeleteConsentPerson
@@ -2477,6 +2493,8 @@ items:
     href: Person_Agent/v1PersonAgent_GetPersonEntity.md
   - name: GetPersonImage
     href: Person_Agent/v1PersonAgent_GetPersonImage.md
+  - name: GetPersonImages
+    href: Person_Agent/v1PersonAgent_GetPersonImages.md
   - name: GetPersonList
     href: Person_Agent/v1PersonAgent_GetPersonList.md
   - name: GetPersonsFromContact
@@ -3337,6 +3355,8 @@ items:
     href: Ticket_Agent/v1TicketAgent_BatchReply.md
   - name: CalculateMessageRecipients
     href: Ticket_Agent/v1TicketAgent_CalculateMessageRecipients.md
+  - name: ClearNotify
+    href: Ticket_Agent/v1TicketAgent_ClearNotify.md
   - name: CreateDefaultAttachmentEntity
     href: Ticket_Agent/v1TicketAgent_CreateDefaultAttachmentEntity.md
   - name: CreateDefaultTicketEntity
@@ -3667,6 +3687,8 @@ items:
   items:
   - name: ChangeFieldType
     href: UserDefinedFieldInfo_Agent/v1UserDefinedFieldInfoAgent_ChangeFieldType.md
+  - name: ClearCaches
+    href: UserDefinedFieldInfo_Agent/v1UserDefinedFieldInfoAgent_ClearCaches.md
   - name: CreateDefaultUserDefinedFieldInfo
     href: UserDefinedFieldInfo_Agent/v1UserDefinedFieldInfoAgent_CreateDefaultUserDefinedFieldInfo.md
   - name: CreateUserDefinedFieldInfo

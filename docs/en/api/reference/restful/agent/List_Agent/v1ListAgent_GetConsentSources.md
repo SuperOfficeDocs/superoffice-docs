@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 246,
-    "Name": "Quitzon, Ruecker and Legros",
-    "Tooltip": "facere",
-    "Rank": 152,
-    "Key": "et",
-    "MailTemplateId": 742,
-    "Deleted": true,
+    "ConsentSourceId": 582,
+    "Name": "Bogan-Boehm",
+    "Tooltip": "maxime",
+    "Rank": 539,
+    "Key": "qui",
+    "MailTemplateId": 338,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 989
+        "FieldType": "System.Int32",
+        "FieldLength": 21
       }
     }
   }

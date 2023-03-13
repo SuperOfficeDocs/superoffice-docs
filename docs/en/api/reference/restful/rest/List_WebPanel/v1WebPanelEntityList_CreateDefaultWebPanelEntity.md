@@ -84,11 +84,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 136,
-  "Name": "Douglas-Boehm",
-  "Tooltip": "enim",
+  "WebPanelId": 792,
+  "Name": "Dibbert, Tremblay and Bosco",
+  "Tooltip": "commodi",
   "Deleted": true,
-  "Rank": 984,
+  "Rank": 962,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
@@ -98,19 +98,19 @@ Content-Type: application/json; charset=utf-8
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Bins Inc and Sons",
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "WindowName": "Emmerich-Doyle",
   "Url": "http://www.example.com/",
-  "ProgId": "ut",
-  "Icon": 264,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "magnam",
+  "Icon": 354,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 615
+      "FieldLength": 62
     }
   }
 }

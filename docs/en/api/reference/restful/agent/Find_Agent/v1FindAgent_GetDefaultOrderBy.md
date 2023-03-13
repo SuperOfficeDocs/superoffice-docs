@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "cum",
-  "ProviderName": "Kohler-Schaden",
-  "StorageKey": "voluptatem"
+  "StorageType": "veniam",
+  "ProviderName": "Graham-Powlowski",
+  "StorageKey": "nesciunt"
 }
 ```
 
@@ -93,11 +93,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Vandervort-Breitenberg",
+    "Name": "Baumbach-Langworth",
     "Direction": "ASC"
   },
   {
-    "Name": "Vandervort-Breitenberg",
+    "Name": "Baumbach-Langworth",
     "Direction": "ASC"
   }
 ]

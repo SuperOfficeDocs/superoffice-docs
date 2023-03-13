@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 943,
-    "Name": "Luettgen-Langosh",
-    "ToolTip": "Magnam fuga molestiae.",
+    "Id": 587,
+    "Name": "Pollich-Littel",
+    "ToolTip": "Sed dolores rem sequi velit.",
     "Deleted": false,
-    "Rank": 865,
-    "Type": "tempore",
-    "ColorBlock": 519,
-    "IconHint": "voluptas",
-    "Selected": true,
-    "LastChanged": "2004-12-29T17:37:40.0795003+01:00",
+    "Rank": 358,
+    "Type": "fugit",
+    "ColorBlock": 441,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2003-05-04T14:19:11.305533+02:00",
     "ChildItems": [
       {
-        "Id": 779,
-        "Name": "Brekke Group",
-        "ToolTip": "Non itaque quibusdam est.",
+        "Id": 364,
+        "Name": "Kovacek-Jones",
+        "ToolTip": "Sit praesentium sed at.",
         "Deleted": false,
-        "Rank": 750,
-        "Type": "velit",
-        "ColorBlock": 210,
-        "IconHint": "amet",
-        "Selected": true,
-        "LastChanged": "2007-08-14T17:37:40.0795003+02:00",
+        "Rank": 596,
+        "Type": "cum",
+        "ColorBlock": 810,
+        "IconHint": "architecto",
+        "Selected": false,
+        "LastChanged": "2008-12-13T14:19:11.305533+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "et",
+        "ExtraInfo": "ea",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Eliezer Tremblay",
+        "FullName": "Prof. Carmine Olson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 110
+            "FieldLength": 20
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "id",
-    "Hidden": false,
-    "FullName": "Prof. Kiley Alfred Hagenes",
+    "ExtraInfo": "facere",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Ardella Lang V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 146
+        "FieldLength": 367
       }
     }
   }

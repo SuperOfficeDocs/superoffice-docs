@@ -111,7 +111,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -119,107 +119,107 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2006-08-23T17:37:38.1188619+02:00",
-  "AppointmentId": 97,
-  "Description": "Synergistic tangible knowledge user",
-  "StartDate": "2010-06-02T17:37:38.1188619+02:00",
-  "EndDate": "2018-06-08T17:37:38.1188619+02:00",
+  "CreatedDate": "2017-11-14T14:19:09.9580086+01:00",
+  "AppointmentId": 488,
+  "Description": "Exclusive grid-enabled projection",
+  "StartDate": "2022-05-13T14:19:09.9580086+02:00",
+  "EndDate": "2008-10-11T14:19:09.9580086+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 218,
+  "MotherId": 846,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2008-01-01T17:37:38.122876+01:00",
+  "UpdatedDate": "2001-04-26T14:19:09.9580086+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 338,
+  "ActiveLinks": 165,
   "Links": [
     {
-      "EntityName": "Kulas, Sanford and Aufderhar",
-      "Id": 71,
-      "Description": "Multi-channelled tangible utilisation",
-      "ExtraInfo": "corrupti",
-      "LinkId": 305
+      "EntityName": "Ortiz, Blick and Rodriguez",
+      "Id": 406,
+      "Description": "Reduced zero tolerance benchmark",
+      "ExtraInfo": "est",
+      "LinkId": 291
     },
     {
-      "EntityName": "Kulas, Sanford and Aufderhar",
-      "Id": 71,
-      "Description": "Multi-channelled tangible utilisation",
-      "ExtraInfo": "corrupti",
-      "LinkId": 305
+      "EntityName": "Ortiz, Blick and Rodriguez",
+      "Id": 406,
+      "Description": "Reduced zero tolerance benchmark",
+      "ExtraInfo": "est",
+      "LinkId": 291
     }
   ],
-  "AlarmLeadTime": "totam",
+  "AlarmLeadTime": "aperiam",
   "HasAlarm": false,
-  "ColorIndex": 840,
+  "ColorIndex": 816,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "dolor",
-  "LeadTime": "quo",
-  "Location": "nobis",
-  "RejectCounter": 119,
+  "IsAlldayEvent": true,
+  "LagTime": "voluptas",
+  "LeadTime": "omnis",
+  "Location": "quibusdam",
+  "RejectCounter": 560,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 23,
-      "PersonId": 697,
-      "ContactId": 947,
-      "EmailId": 230,
-      "SendEmail": true,
+      "AssociateId": 608,
+      "PersonId": 668,
+      "ContactId": 500,
+      "EmailId": 9,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 23,
-      "PersonId": 697,
-      "ContactId": 947,
-      "EmailId": 230,
-      "SendEmail": true,
+      "AssociateId": 608,
+      "PersonId": 668,
+      "ContactId": 500,
+      "EmailId": 9,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-05-31T17:37:38.122876+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2014-12-20T14:19:09.9580086+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 994,
+  "PreferredTZLocation": 464,
   "Sale": null,
-  "SuggestedAppointmentId": 412,
+  "SuggestedAppointmentId": 896,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "officia",
+  "CentralserviceVideomeetId": "dignissimos",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "783832268"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Prof. Andreanne Carlie Labadie DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "accusamus",
-    "ExtraFields2": "eos"
+    "ExtraFields1": "ipsum",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "sunt",
-    "CustomFields2": "repudiandae"
+    "CustomFields1": "dolorem",
+    "CustomFields2": "quos"
   },
-  "PublishEventDate": "2015-06-03T17:37:38.1238313+02:00",
-  "PublishTo": "1998-03-20T17:37:38.1238313+01:00",
-  "PublishFrom": "2010-06-26T17:37:38.1238313+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2004-11-24T14:19:09.9580086+01:00",
+  "PublishTo": "1996-10-13T14:19:09.9580086+02:00",
+  "PublishFrom": "2003-04-28T14:19:09.9580086+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 912,
+      "VisibleId": 465,
       "Visibility": "All",
-      "DisplayValue": "sunt"
+      "DisplayValue": "ut"
     },
     {
-      "VisibleId": 912,
+      "VisibleId": 465,
       "Visibility": "All",
-      "DisplayValue": "sunt"
+      "DisplayValue": "ut"
     }
   ]
 }
@@ -232,7 +232,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "sit",
-  "2": "dolore"
+  "1": "vero",
+  "2": "consequatur"
 }
 ```

@@ -121,12 +121,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 301,
-  "ERPProductKey": "quos"
+  "QuoteAlternativeId": 735,
+  "ERPProductKey": "voluptate"
 }
 ```
 
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 485,
-  "ERPQuoteLineKey": "quis",
-  "QuoteAlternativeId": 236,
-  "ERPProductKey": "atque",
+  "QuoteLineId": 296,
+  "ERPQuoteLineKey": "tempora",
+  "QuoteAlternativeId": 857,
+  "ERPProductKey": "ab",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 14338.05,
-  "DeliveredQuantity": 23116.384,
-  "Rank": 117,
-  "Name": "Schmeler Inc and Sons",
-  "Description": "Cloned multi-state budgetary management",
-  "Code": "nulla",
-  "QuantityUnit": "dolor",
-  "PriceUnit": "at",
-  "ItemNumber": "1153874",
+  "Quantity": 8797.137999999999,
+  "DeliveredQuantity": 8395.985999999999,
+  "Rank": 596,
+  "Name": "Jewess-West",
+  "Description": "Intuitive intermediate benchmark",
+  "Code": "fugiat",
+  "QuantityUnit": "sit",
+  "PriceUnit": "dolor",
+  "ItemNumber": "1716964",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "enim",
-  "ProductTypeKey": "et",
-  "Supplier": "blanditiis",
-  "SupplierCode": "adipisci",
-  "Thumbnail": "vero",
-  "VATInfo": "debitis",
-  "VAT": 21411.487999999998,
-  "UnitCost": 11385.822,
-  "UnitMinimumPrice": 12899.544,
-  "UnitListPrice": 26845.843999999997,
+  "ProductFamilyKey": "necessitatibus",
+  "ProductTypeKey": "voluptatum",
+  "Supplier": "nostrum",
+  "SupplierCode": "omnis",
+  "Thumbnail": "odio",
+  "VATInfo": "dignissimos",
+  "VAT": 15622.99,
+  "UnitCost": 22010.082,
+  "UnitMinimumPrice": 22364.224,
+  "UnitListPrice": 27720.23,
   "ExtraInfo": [
     {
-      "Name": "Labadie Group",
-      "Value": "aut",
+      "Name": "Herzog Group",
+      "Value": "provident",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 820
+          "FieldType": "System.Int32",
+          "FieldLength": 560
         }
       }
     },
     {
-      "Name": "Labadie Group",
-      "Value": "aut",
+      "Name": "Herzog Group",
+      "Value": "provident",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 820
+          "FieldType": "System.Int32",
+          "FieldLength": 560
         }
       }
     }
   ],
-  "RawExtraInfo": "ut",
+  "RawExtraInfo": "tempore",
   "IsSubscription": false,
-  "SubscriptionUnit": "eum",
-  "SubscriptionQuantity": 12695.833999999999,
-  "SubscriptionStart": "2021-06-15T17:37:18.7632423+02:00",
-  "ERPDiscountPercent": 7559.208,
-  "ERPDiscountAmount": 3613.502,
-  "DiscountPercent": 6612.74,
-  "DiscountAmount": 7932.1539999999995,
+  "SubscriptionUnit": "occaecati",
+  "SubscriptionQuantity": 21157.634,
+  "SubscriptionStart": "2020-02-20T14:19:04.0313341+01:00",
+  "ERPDiscountPercent": 17885.738,
+  "ERPDiscountAmount": 18647.3,
+  "DiscountPercent": 18114.52,
+  "DiscountAmount": 20772.152,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 3588.43,
-  "EarningAmount": 137.896,
-  "SubTotal": 15362.868,
-  "TotalPrice": 18340.167999999998,
-  "Rights": "doloribus",
-  "Rule": "error",
-  "ExtraField1": "minima",
-  "ExtraField2": "eius",
-  "ExtraField3": "explicabo",
-  "ExtraField4": "sed",
-  "ExtraField5": "est",
+  "EarningPercent": 28466.122,
+  "EarningAmount": 27858.126,
+  "SubTotal": 15403.609999999999,
+  "TotalPrice": 25460.615999999998,
+  "Rights": "consequatur",
+  "Rule": "est",
+  "ExtraField1": "reprehenderit",
+  "ExtraField2": "sed",
+  "ExtraField3": "et",
+  "ExtraField4": "quis",
+  "ExtraField5": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 186
+      "FieldType": "System.Int32",
+      "FieldLength": 571
     }
   }
 }

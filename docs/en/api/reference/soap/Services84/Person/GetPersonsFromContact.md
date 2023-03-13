@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IPersonAgent.GetPersonsFr
 
 ## GetPersonsFromContact
 
-Returns all the persons belonging to a contact.
 
-* **contactId:** The project id
 
-**Returns:** The persons belonging to a contact.
+
 
 [WSDL file for Services84/Person](../Services84-Person.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetPersonsFromContact Response
 
@@ -110,3 +109,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

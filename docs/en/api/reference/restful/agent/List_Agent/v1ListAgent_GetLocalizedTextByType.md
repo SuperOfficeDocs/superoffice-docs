@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TextType": "Column",
-  "ResourceId": 670,
-  "LanguageId": 485
+  "ResourceId": 655,
+  "LanguageId": 166
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 546,
-  "ResourceId": 628,
-  "Text": "asperiores",
+  "LanguageId": 609,
+  "ResourceId": 500,
+  "Text": "voluptas",
   "Type": "Column",
-  "LocalizedTextId": 89,
+  "LocalizedTextId": 935,
   "IsBuiltIn": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 201
+      "FieldLength": 706
     }
   }
 }

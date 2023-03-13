@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IResourceAgent.GetResourc
 
 ## GetResourceSubstitutions
 
-Get substitutions for some or all resources for one culture
 
-* **resourceNames:** Array of names of resources for which overrides are sought; if empty, then get all
-* **culture:** .NET culture string; if empty, then get all
-* **activeOnly:** If true, then only resources with active substitutions will be returned; if false then ALL existing overrides will be returned
 
-**Returns:** Array of override objects, empty if there are none
+
 
 [WSDL file for Services85/Resource](../Services85-Resource.md)
 
@@ -55,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetResourceSubstitutions Response
 
 ```xml
@@ -82,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

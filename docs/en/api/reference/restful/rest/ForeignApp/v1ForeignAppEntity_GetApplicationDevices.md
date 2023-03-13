@@ -66,7 +66,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,25 +74,25 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 05 Feb 2007 17:37:38 G2T
+Last-Modified: Wed, 29 Nov 2000 14:19:10 G11T
 
 [
   {
-    "ForeignDeviceId": 294,
-    "Name": "Rowe Inc and Sons",
-    "CreatedDate": "2016-09-24T17:37:38.8148598+02:00",
-    "UpdatedDate": "2007-02-05T17:37:38.8148598+01:00",
-    "AssociateFullName": "Johnny Robel",
-    "CreatedBy": "modi",
-    "UpdatedBy": "et",
-    "DeviceIdentifier": "asperiores",
-    "ForeignAppId": 366,
+    "ForeignDeviceId": 191,
+    "Name": "Harvey-Braun",
+    "CreatedDate": "2010-02-02T14:19:10.3498478+01:00",
+    "UpdatedDate": "2000-11-29T14:19:10.3498478+01:00",
+    "AssociateFullName": "Bryce Wayne Deckow MD",
+    "CreatedBy": "aspernatur",
+    "UpdatedBy": "sunt",
+    "DeviceIdentifier": "sit",
+    "ForeignAppId": 40,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 237
+        "FieldType": "System.String",
+        "FieldLength": 420
       }
     }
   }

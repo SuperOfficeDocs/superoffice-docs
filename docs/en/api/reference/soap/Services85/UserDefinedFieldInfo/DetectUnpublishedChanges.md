@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserDefinedFieldInfoAgen
 
 ## DetectUnpublishedChanges
 
-Detect changes to the admin version (unpublished)
 
-* **ownerType:** The owner type
 
-**Returns:** Returns true if any changes were found. This includes cosmetic changes.
+
 
 [WSDL file for Services85/UserDefinedFieldInfo](../Services85-UserDefinedFieldInfo.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DetectUnpublishedChanges Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

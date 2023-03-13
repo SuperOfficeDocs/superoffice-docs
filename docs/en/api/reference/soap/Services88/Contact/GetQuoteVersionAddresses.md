@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IContactAgent.GetQuoteVer
 
 ## GetQuoteVersionAddresses
 
-Get the associated billing and invoice quote version addresses. These addresses might be address on the contact, or a custom address.
 
-* **quoteVersionId:** The version to get the addresses for.
 
-**Returns:** The quote version addresses. Invoice and billing address, in that order.
+
 
 [WSDL file for Services88/Contact](../Services88-Contact.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetQuoteVersionAddresses Response
 
@@ -109,3 +108,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

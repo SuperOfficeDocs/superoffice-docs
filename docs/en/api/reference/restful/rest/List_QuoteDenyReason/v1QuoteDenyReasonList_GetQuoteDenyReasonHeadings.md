@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 762,
-    "Name": "Lemke, Weber and Kirlin",
-    "Tooltip": "error",
-    "Deleted": false,
-    "Rank": 726,
-    "UdListDefinitionId": 328,
+    "HeadingId": 49,
+    "Name": "Mraz-Aufderhar",
+    "Tooltip": "id",
+    "Deleted": true,
+    "Rank": 103,
+    "UdListDefinitionId": 671,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 965
+        "FieldLength": 35
       }
     }
   }

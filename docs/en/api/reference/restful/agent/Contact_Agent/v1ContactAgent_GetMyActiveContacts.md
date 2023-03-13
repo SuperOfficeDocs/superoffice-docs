@@ -89,14 +89,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2013-04-14T17:37:17.186242+02:00",
+  "ActivityStartTime": "2017-01-11T14:19:02.9636535+01:00",
   "ContactCategories": [
-    877,
-    177
+    881,
+    62
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -110,26 +110,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 790,
+    "ContactId": 726,
     "Department": "",
-    "OrgNr": "839902",
-    "Name": "Lemke LLC",
+    "OrgNr": "1041773",
+    "Name": "Rodriguez Inc and Sons",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Miss Magali Keebler II",
+    "AssociateFullName": "Kianna Ledner V",
     "Action": "ActivityCompleted",
-    "ActionTime": "2018-08-28T17:37:17.186242+02:00",
+    "ActionTime": "2007-05-29T14:19:02.9636535+02:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Cummerata Inc and Sons",
-    "ActionId": 695,
-    "PersonId": 774,
-    "ActivityPersonId": 975,
-    "AssociateId": 766,
+    "ActivityPersonName": "D'Amore, Walsh and Brekke",
+    "ActionId": 510,
+    "PersonId": 419,
+    "ActivityPersonId": 947,
+    "AssociateId": 528,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 821
+        "FieldLength": 30
       }
     }
   }

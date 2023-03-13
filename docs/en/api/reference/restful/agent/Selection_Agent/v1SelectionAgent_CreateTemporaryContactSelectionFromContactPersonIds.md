@@ -112,18 +112,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 366,
-      "ContactId": 52
+      "PersonId": 142,
+      "ContactId": 544
     },
     {
-      "PersonId": 366,
-      "ContactId": 52
+      "PersonId": 142,
+      "ContactId": 544
     }
   ]
 }
@@ -136,70 +136,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Object-based modular local area network",
-  "Postit": "molestiae",
+  "Description": "Progressive web-enabled emulation",
+  "Postit": "natus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 985,
-  "IncludePerson": 377,
-  "MemberCount": 121,
-  "Name": "Williamson, Dach and Reinger",
-  "PostitTextId": 326,
-  "CreatedDate": "2012-08-16T17:37:19.1612417+02:00",
-  "SelectionId": 724,
-  "SoundEx": "excepturi",
-  "Source": 969,
-  "TextId": 561,
-  "UpdatedDate": "1998-08-07T17:37:19.1612417+02:00",
-  "UpdatedCount": 839,
-  "Visibility": 305,
+  "GroupIdx": 728,
+  "IncludePerson": 56,
+  "MemberCount": 339,
+  "Name": "Wuckert, Bins and Wiza",
+  "PostitTextId": 684,
+  "CreatedDate": "2008-12-29T14:19:04.1879797+01:00",
+  "SelectionId": 583,
+  "SoundEx": "occaecati",
+  "Source": 446,
+  "TextId": 487,
+  "UpdatedDate": "2016-05-15T14:19:04.1879797+02:00",
+  "UpdatedCount": 924,
+  "Visibility": 146,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 946,
-  "TargetTableName": "Hickle, O'Kon and Schultz",
+  "TargetTableNumber": 554,
+  "TargetTableName": "Mueller Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 344,
-  "RightSelectionId": 718,
+  "LeftSelectionId": 597,
+  "RightSelectionId": 8,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hessel-Marks",
-  "ShadowProviderName": "Schinner, Mayer and Luettgen",
-  "ChartKey": "dolorem",
-  "LastLoaded": "2019-04-08T17:37:19.1622424+02:00",
-  "LastLoadedBy": 889,
+  "MainProviderName": "Okuneva-Keeling",
+  "ShadowProviderName": "Connelly, Crist and Kub",
+  "ChartKey": "voluptatem",
+  "LastLoaded": "2017-11-06T14:19:04.1879797+01:00",
+  "LastLoadedBy": 669,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-09-26T17:37:19.1622424+02:00",
-  "LastMembershipChangeBy": 934,
+  "LastMembershipChange": "2006-01-16T14:19:04.1879797+01:00",
+  "LastMembershipChangeBy": 187,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "est",
-  "MemberTabHeading": "voluptates",
-  "MailingsProviderName": "Mraz Group",
-  "DashboardTileDefinitionId": 2,
+  "MainHeading": "non",
+  "MemberTabHeading": "harum",
+  "MailingsProviderName": "Cummerata, Hilpert and Gleason",
+  "DashboardTileDefinitionId": 538,
   "VisibleFor": [
     {
-      "VisibleId": 91,
+      "VisibleId": 756,
       "Visibility": "All",
-      "DisplayValue": "optio",
+      "DisplayValue": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 431
+          "FieldType": "System.String",
+          "FieldLength": 553
         }
       }
     },
     {
-      "VisibleId": 91,
+      "VisibleId": 756,
       "Visibility": "All",
-      "DisplayValue": "optio",
+      "DisplayValue": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 431
+          "FieldType": "System.String",
+          "FieldLength": 553
         }
       }
     }
@@ -209,7 +209,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 451
+      "FieldLength": 897
     }
   }
 }

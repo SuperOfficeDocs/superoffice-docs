@@ -74,8 +74,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityType": "voluptatem",
-  "EntityId": 510
+  "EntityType": "mollitia",
+  "EntityId": 549
 }
 ```
 
@@ -86,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "corrupti",
-  "2": "officia"
+  "1": "repellat",
+  "2": "vero"
 }
 ```

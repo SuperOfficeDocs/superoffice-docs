@@ -25,7 +25,7 @@ Gets a Project object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=814
+POST /api/v1/Agents/Project/GetProject?projectId=454
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
 
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 79,
-  "Name": "Keeling-Donnelly",
-  "Description": "Customizable coherent extranet",
+  "ProjectId": 31,
+  "Name": "Koelpin, Grant and Lind",
+  "Description": "Up-sized 4th generation toolset",
   "URL": "http://www.example.com/",
-  "Type": "consequatur",
-  "AssociateId": 36,
-  "AssociateFullName": "Miss Clair Bogan Jr.",
-  "TypeId": 46,
-  "Updated": "1999-01-27T17:37:18.6292447+01:00",
-  "StatusId": 574,
-  "Status": "quis",
-  "TextId": 591,
-  "PublishTo": "2014-10-24T17:37:18.6292447+02:00",
-  "PublishFrom": "2015-08-23T17:37:18.6292447+02:00",
-  "IsPublished": false,
+  "Type": "repudiandae",
+  "AssociateId": 20,
+  "AssociateFullName": "Ms. Ronny Nathen Flatley Jr.",
+  "TypeId": 790,
+  "Updated": "1997-02-22T14:19:03.9375835+01:00",
+  "StatusId": 263,
+  "Status": "excepturi",
+  "TextId": 70,
+  "PublishTo": "1999-05-11T14:19:03.9375835+02:00",
+  "PublishFrom": "2015-09-27T14:19:03.9375835+02:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1298194",
-  "ActiveErpLinks": 398,
+  "ProjectNumber": "883391",
+  "ActiveErpLinks": 698,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 839
+      "FieldType": "System.Int32",
+      "FieldLength": 439
     }
   }
 }

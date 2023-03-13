@@ -106,30 +106,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 372,
-  "UniqueId": "pariatur",
-  "Name": "Rippin-Lang",
-  "Description": "Customizable contextually-based parallelism",
-  "AssociateId": 854,
-  "Columns": 586,
+  "DashboardId": 213,
+  "UniqueId": "non",
+  "Name": "Beer Inc and Sons",
+  "Description": "Future-proofed fresh-thinking core",
+  "AssociateId": 30,
+  "Columns": 449,
   "Theme": null,
-  "VisibleForAll": 353,
+  "VisibleForAll": 107,
   "VisibleForAssociates": [
-    174,
-    31
+    122,
+    693
   ],
   "VisibleForGroups": [
-    276,
-    371
+    840,
+    653
   ],
-  "PinForAll": 538,
+  "PinForAll": 498,
   "PinForAssociates": [
-    425,
-    747
+    709,
+    970
   ],
   "PinForGroups": [
-    59,
-    924
+    613,
+    83
   ]
 }
 ```
@@ -141,37 +141,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 270,
-  "UniqueId": "asperiores",
-  "Name": "Sawayn, Kuvalis and Stanton",
-  "Description": "Pre-emptive dedicated Graphic Interface",
-  "AssociateId": 418,
-  "Columns": 249,
+  "DashboardId": 595,
+  "UniqueId": "deleniti",
+  "Name": "Klein Group",
+  "Description": "User-friendly local portal",
+  "AssociateId": 495,
+  "Columns": 952,
   "Theme": null,
-  "VisibleForAll": 366,
+  "VisibleForAll": 967,
   "VisibleForAssociates": [
-    30,
-    368
+    292,
+    947
   ],
   "VisibleForGroups": [
-    220,
-    572
+    708,
+    253
   ],
-  "PinForAll": 700,
+  "PinForAll": 517,
   "PinForAssociates": [
-    749,
-    223
+    950,
+    371
   ],
   "PinForGroups": [
-    48,
-    788
+    68,
+    977
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 913
+      "FieldType": "System.Int32",
+      "FieldLength": 397
     }
   },
   "_Links": {

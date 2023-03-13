@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 883,
-  "HeadingId": 340
+  "UdListDefinitionId": 331,
+  "HeadingId": 593
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 989,
-    "Name": "Okuneva, Goodwin and Wyman",
-    "ToolTip": "Iste voluptatum rerum asperiores excepturi eos eum laudantium.",
+    "Id": 521,
+    "Name": "Schulist Group",
+    "ToolTip": "Quia at distinctio est mollitia voluptates laudantium.",
     "Deleted": false,
-    "Rank": 260,
-    "Type": "voluptatem",
-    "ColorBlock": 957,
-    "IconHint": "facere",
-    "Selected": true,
-    "LastChanged": "2005-06-24T17:37:18.2132455+02:00",
+    "Rank": 324,
+    "Type": "reiciendis",
+    "ColorBlock": 690,
+    "IconHint": "a",
+    "Selected": false,
+    "LastChanged": "2014-10-16T14:19:03.6394986+02:00",
     "ChildItems": [
       {
-        "Id": 213,
-        "Name": "Stokes LLC",
-        "ToolTip": "Repudiandae consectetur voluptates sequi ex labore.",
+        "Id": 633,
+        "Name": "Larkin, Wolf and Sawayn",
+        "ToolTip": "Tempora facilis.",
         "Deleted": false,
-        "Rank": 612,
-        "Type": "atque",
-        "ColorBlock": 454,
-        "IconHint": "sunt",
+        "Rank": 737,
+        "Type": "quia",
+        "ColorBlock": 896,
+        "IconHint": "nisi",
         "Selected": false,
-        "LastChanged": "2006-06-27T17:37:18.2132455+02:00",
+        "LastChanged": "2002-12-19T14:19:03.6394986+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "excepturi",
-        "Hidden": true,
-        "FullName": "Prof. Cathy Witting",
+        "ExtraInfo": "qui",
+        "StyleHint": "molestiae",
+        "Hidden": false,
+        "FullName": "Prof. Audie Klein",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 800
+            "FieldType": "System.Int32",
+            "FieldLength": 226
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Dr. Dean Jewell Waelchi I",
+    "ExtraInfo": "sed",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Ashlynn O'Conner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 192
+        "FieldType": "System.Int32",
+        "FieldLength": 239
       }
     }
   }

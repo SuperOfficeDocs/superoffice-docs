@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetCustomerLan
 
 ## GetCustomerLanguageList
 
-Gets an array of CustomerLanguage objects.
 
-* **customerLanguageIds:** The identifiers of the CustomerLanguage object
 
-**Returns:** Array of CustomerLanguage objects
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetCustomerLanguageList Response
 
 ```xml
@@ -77,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

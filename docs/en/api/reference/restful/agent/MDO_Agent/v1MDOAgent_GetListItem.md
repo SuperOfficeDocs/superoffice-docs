@@ -88,8 +88,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Ebert, Koss and Grant",
-  "Id": 68
+  "ListName": "Williamson-Casper",
+  "Id": 740
 }
 ```
 
@@ -100,50 +100,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 730,
-  "Name": "Hane-Cassin",
-  "ToolTip": "Maiores veritatis vel ducimus reprehenderit facilis.",
+  "Id": 344,
+  "Name": "Leannon, McClure and Windler",
+  "ToolTip": "Dolor sint quibusdam.",
   "Deleted": false,
-  "Rank": 343,
-  "Type": "id",
+  "Rank": 667,
+  "Type": "et",
   "ChildItems": [
     {
-      "Id": 156,
-      "Name": "Miller-Leannon",
-      "ToolTip": "Ducimus voluptatem nulla doloribus corrupti ut facere dolore.",
+      "Id": 351,
+      "Name": "Jerde LLC",
+      "ToolTip": "Et rem facere ut occaecati quia esse est.",
       "Deleted": true,
-      "Rank": 605,
-      "Type": "consequatur",
+      "Rank": 992,
+      "Type": "ut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ea",
-      "ColorBlock": 76,
-      "ExtraInfo": "expedita",
-      "StyleHint": "eos",
-      "FullName": "Mr. Lafayette Klocko Sr.",
+      "IconHint": "odio",
+      "ColorBlock": 578,
+      "ExtraInfo": "voluptate",
+      "StyleHint": "quo",
+      "FullName": "Dallas Jakubowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 298
+          "FieldLength": 284
         }
       }
     }
   ],
-  "IconHint": "eius",
-  "ColorBlock": 62,
-  "ExtraInfo": "ex",
-  "StyleHint": "qui",
-  "FullName": "Gregory Weber",
+  "IconHint": "facilis",
+  "ColorBlock": 109,
+  "ExtraInfo": "magnam",
+  "StyleHint": "aut",
+  "FullName": "Dr. Bessie Connor Borer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 905
+      "FieldLength": 798
     }
   }
 }

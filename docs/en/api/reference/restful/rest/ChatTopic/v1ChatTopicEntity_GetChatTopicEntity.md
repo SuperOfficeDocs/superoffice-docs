@@ -102,7 +102,7 @@ ChatTopicEntity found.
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -112,43 +112,43 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 588,
-  "Name": "Rodriguez Group",
-  "Description": "Programmable dedicated project",
-  "WelcomeMessage": "velit",
+  "ChatTopicId": 9,
+  "Name": "Wisoky Group",
+  "Description": "Digitized 3rd generation focus group",
+  "WelcomeMessage": "ratione",
   "Language": null,
-  "LastAccept": "2010-09-21T17:37:38.2998602+02:00",
-  "SecondsPrAccept": 606,
-  "AlertRecipient": "unde",
+  "LastAccept": "2019-12-29T14:19:10.0998102+01:00",
+  "SecondsPrAccept": 456,
+  "AlertRecipient": "deleniti",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "quidem",
+  "BadgeHeader": "sapiente",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "possimus",
-  "WarnNewChatMinutes": 952,
-  "WarnManagerNewChatMinutes": 643,
+  "CustomQueueText": "enim",
+  "WarnNewChatMinutes": 528,
+  "WarnManagerNewChatMinutes": 737,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 57,
-  "WarnManagerChatMessageMinutes": 94,
+  "WarnChatMessageMinutes": 810,
+  "WarnManagerChatMessageMinutes": 484,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 771,
-  "OfflineFormQueueLength": 438,
+  "OfflineFormTimeLimit": 796,
+  "OfflineFormQueueLength": 627,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "nostrum",
+  "WidgetRatingText": "voluptates",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 209
+      "FieldLength": 484
     }
   },
   "_Links": {

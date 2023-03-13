@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserDefinedFieldInfoAgen
 
 ## DeleteUserDefinedFieldInfo
 
-Deletes the UserDefinedFieldInfo
 
-* **userDefinedFieldInfoId:** The identity of the UserDefinedFieldInfo
+
+
 
 [WSDL file for Services86/UserDefinedFieldInfo](../Services86-UserDefinedFieldInfo.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteUserDefinedFieldInfo Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

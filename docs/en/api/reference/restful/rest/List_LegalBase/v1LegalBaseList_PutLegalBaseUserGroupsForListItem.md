@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 957,
-    "Name": "Stanton-Botsford",
-    "ToolTip": "Eius omnis similique esse impedit aliquam.",
+    "Id": 944,
+    "Name": "Conroy LLC",
+    "ToolTip": "Doloribus inventore.",
     "Deleted": false,
-    "Rank": 580,
-    "Type": "ipsam",
-    "ColorBlock": 404,
-    "IconHint": "iste",
-    "Selected": true,
-    "LastChanged": "2021-11-10T17:37:40.0375003+01:00",
+    "Rank": 690,
+    "Type": "alias",
+    "ColorBlock": 569,
+    "IconHint": "id",
+    "Selected": false,
+    "LastChanged": "2004-06-06T14:19:11.2730964+02:00",
     "ChildItems": [
       {
-        "Id": 956,
-        "Name": "Vandervort Inc and Sons",
-        "ToolTip": "Maiores quia ea magni ipsam.",
+        "Id": 716,
+        "Name": "Crist-Runolfsdottir",
+        "ToolTip": "Optio quas non velit ut sapiente.",
         "Deleted": true,
-        "Rank": 168,
-        "Type": "et",
-        "ColorBlock": 995,
-        "IconHint": "mollitia",
+        "Rank": 811,
+        "Type": "quam",
+        "ColorBlock": 336,
+        "IconHint": "doloribus",
         "Selected": false,
-        "LastChanged": "1997-02-07T17:37:40.0375003+01:00",
+        "LastChanged": "1997-04-19T14:19:11.2730964+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Mr. Curtis Buckridge IV"
+        "ExtraInfo": "rerum",
+        "StyleHint": "adipisci",
+        "Hidden": true,
+        "FullName": "Ewald Stracke"
       }
     ],
-    "ExtraInfo": "illum",
+    "ExtraInfo": "debitis",
     "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Yasmine Hessel"
+    "FullName": "Anahi Waters"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 180,
-    "Name": "Jacobi-Leuschke",
-    "ToolTip": "Et quos.",
+    "Id": 693,
+    "Name": "Quitzon, Halvorson and Fay",
+    "ToolTip": "Autem aut ad.",
     "Deleted": true,
-    "Rank": 474,
-    "Type": "ea",
-    "ColorBlock": 1001,
-    "IconHint": "odit",
+    "Rank": 131,
+    "Type": "commodi",
+    "ColorBlock": 70,
+    "IconHint": "magni",
     "Selected": false,
-    "LastChanged": "2021-11-23T17:37:40.0385033+01:00",
+    "LastChanged": "2000-11-26T14:19:11.2730964+01:00",
     "ChildItems": [
       {
-        "Id": 222,
-        "Name": "Pollich Inc and Sons",
-        "ToolTip": "Enim enim et exercitationem delectus eos.",
-        "Deleted": false,
-        "Rank": 871,
-        "Type": "cum",
-        "ColorBlock": 368,
-        "IconHint": "in",
+        "Id": 740,
+        "Name": "Jewess Group",
+        "ToolTip": "Adipisci dolorem et dolorem non et.",
+        "Deleted": true,
+        "Rank": 466,
+        "Type": "et",
+        "ColorBlock": 328,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2011-05-23T17:37:40.0395012+02:00",
+        "LastChanged": "2013-05-02T14:19:11.2730964+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "vitae",
-        "Hidden": true,
-        "FullName": "Prof. Alayna Maybelle Schinner",
+        "ExtraInfo": "inventore",
+        "StyleHint": "enim",
+        "Hidden": false,
+        "FullName": "Giles Grant",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 416
+            "FieldType": "System.Int32",
+            "FieldLength": 995
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "fuga",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "voluptates",
     "Hidden": false,
-    "FullName": "Mrs. Jeramy Doyle Kessler V",
+    "FullName": "Adele DuBuque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 961
+        "FieldLength": 4
       }
     }
   }

@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "shipmenttype"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "shipmenttype" MDO List
-
 MDO list provider for ConsentPurpose
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ShipmentTypeProvider">ShipmentTypeProvider</see> class.
 The name of the MDO list is 'shipmenttype'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("shipmenttype", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -49,6 +52,7 @@ foreach (var item in listProvider.RootItems) {
 |2|News|||
 |3|Promotions|||
 |4|Urgent messages|||
+
 
 ## Related MDO Lists
 

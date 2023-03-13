@@ -97,15 +97,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 125,
+  "PersonId": 295,
   "IncludeProjectDocuments": false,
-  "StartTime": "2011-10-16T17:37:17.4112416+02:00",
-  "EndTime": "2015-07-15T17:37:17.4112416+02:00",
-  "Count": 845
+  "StartTime": "2016-06-18T14:19:03.1355296+02:00",
+  "EndTime": "2008-05-23T14:19:03.1355296+02:00",
+  "Count": 331
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 737,
-    "Attention": "velit",
-    "Header": "architecto",
-    "Name": "Dietrich-Skiles",
-    "OurRef": "dolore",
-    "YourRef": "aut",
-    "Description": "Front-line bifurcated toolset",
-    "DocumentTemplate": "dignissimos",
-    "IsPublished": false,
-    "PersonId": 653,
-    "PersonFullName": "Mrs. Althea Verdie Wolff",
-    "AssociateFullName": "Prof. Yessenia Caden Deckow",
-    "ContactId": 547,
-    "ContactName": "Block, Jacobson and Witting",
-    "ProjectId": 127,
-    "ProjectName": "Cummerata-Corkery",
-    "AssociateId": 880,
-    "Snum": 676,
-    "SaleId": 422,
-    "SaleName": "Graham-Nikolaus",
+    "DocumentId": 579,
+    "Attention": "sit",
+    "Header": "minima",
+    "Name": "Lockman, Kuphal and McClure",
+    "OurRef": "illum",
+    "YourRef": "dolor",
+    "Description": "Intuitive 24 hour service-desk",
+    "DocumentTemplate": "voluptatem",
+    "IsPublished": true,
+    "PersonId": 523,
+    "PersonFullName": "Donnell Rice",
+    "AssociateFullName": "Brendan Price Jr.",
+    "ContactId": 942,
+    "ContactName": "Tillman LLC",
+    "ProjectId": 502,
+    "ProjectName": "Doyle Group",
+    "AssociateId": 166,
+    "Snum": 96,
+    "SaleId": 602,
+    "SaleName": "Emmerich, Herzog and Jakubowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 316
+        "FieldType": "System.Int32",
+        "FieldLength": 111
       }
     }
   }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/Document/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Goldner-Kihn",
-  "DisplayName": "Botsford, Armstrong and Ziemann",
-  "Description": "Visionary leading edge hardware",
-  "ShortLabel": "ipsum",
+  "FieldName": "Lebsack, Hoeger and Parker",
+  "DisplayName": "Beahan LLC",
+  "Description": "Compatible human-resource portal",
+  "ShortLabel": "repudiandae",
   "HideLabel": true,
   "HideField": false,
-  "IsIndexed": true,
+  "IsIndexed": false,
   "IsMandatory": false,
   "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 385,
-  "TemplateVariableName": "Hettinger, Towne and Graham"
+  "Rank": 148,
+  "TemplateVariableName": "Ruecker Inc and Sons"
 }
 ```

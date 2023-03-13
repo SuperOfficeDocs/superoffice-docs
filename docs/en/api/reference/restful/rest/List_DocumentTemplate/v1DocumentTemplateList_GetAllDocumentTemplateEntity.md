@@ -26,7 +26,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
 ```
 
 
@@ -90,7 +90,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,37 +101,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 134,
-    "Name": "Jaskolski, Murazik and Schamberger",
-    "Tooltip": "est",
-    "SaveInDb": 363,
-    "Filename": "animi",
-    "DefaultOref": "natus",
+    "DocumentTemplateId": 993,
+    "Name": "Littel, Becker and Grant",
+    "Tooltip": "deleniti",
+    "SaveInDb": 419,
+    "Filename": "sed",
+    "DefaultOref": "laborum",
     "RecordType": "Appointment",
     "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 287,
-    "IntentId": 831,
-    "IsDefaultPublished": false,
-    "Rank": 17,
-    "LoadTemplateFromPlugin": 271,
-    "MimeType": "qui",
-    "IsInUseInGuides": true,
-    "DocumentTypeKey": 202,
+    "AutoeventId": 504,
+    "IntentId": 892,
+    "IsDefaultPublished": true,
+    "Rank": 758,
+    "LoadTemplateFromPlugin": 471,
+    "MimeType": "est",
+    "IsInUseInGuides": false,
+    "DocumentTypeKey": 669,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "doris@hermantillman.co.uk",
+    "EmailSubject": "shania@boyercole.uk",
     "IncludeSignature": false,
-    "ShowCurrents": true,
+    "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "derrick.beier@herman.info",
+    "SenderEmailAddress": "darby.schaefer@daniel.info",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 789
+        "FieldType": "System.String",
+        "FieldLength": 839
       }
     }
   }

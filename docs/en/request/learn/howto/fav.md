@@ -1,9 +1,14 @@
 ---
 uid: help-en-request-fav
-title:  Add requests to the favorites list
+title:  Add requests to the favourites list
 description:  Add requests to the favorites list
+<<<<<<< HEAD
+author: HanneGunnarsson
+so.date: 06.29.2022
+=======
 author: SuperOffice RnD
 so.date: 02.10.2023
+>>>>>>> 12524e485807edd9647d7ffe0382f40dbcb340f9
 keywords: request, fav
 so.topic: howto
 language: en
@@ -40,7 +45,7 @@ Do the following:
 ## Remove requests from the favourites list
 
 1. Open the request.
-2. Click the favourites icon ![icon][img2] in the request header. The icon changes to ![icon][img1].
+1. Click the favourites icon ![icon][img2] in the request header. The icon changes to ![icon][img1].
 
 <!-- Referenced links -->
 [1]: ../../../learn/getting-started/fav.md

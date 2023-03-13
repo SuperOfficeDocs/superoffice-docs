@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 691,
-  "Select": "rerum"
+  "SelectionId": 624,
+  "Select": "eos"
 }
 ```
 
@@ -96,23 +96,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Gorczany-Hane",
-    "PrimaryKey": 839,
+    "EntityName": "Batz-Schumm",
+    "PrimaryKey": 211,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "est",
-        "TooltipHint": "a",
-        "LinkHint": "odio"
+        "DisplayValue": "voluptatem",
+        "TooltipHint": "omnis",
+        "LinkHint": "et"
       }
     },
-    "LinkHint": "distinctio",
-    "StyleHint": "perferendis",
+    "LinkHint": "voluptas",
+    "StyleHint": "labore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldLength": 937
       }
     }
   }

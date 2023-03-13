@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 826,
+  "UdListDefinitionId": 405,
   "Item": null
 }
 ```
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 887,
-  "Name": "Bahringer, Swift and Wolff",
-  "Tooltip": "hic",
-  "Deleted": false,
-  "UdListDefinitionId": 479,
-  "Rank": 813,
+  "Id": 5,
+  "Name": "Koelpin, Bernhard and Crooks",
+  "Tooltip": "occaecati",
+  "Deleted": true,
+  "UdListDefinitionId": 184,
+  "Rank": 445,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 345
+      "FieldType": "System.String",
+      "FieldLength": 82
     }
   }
 }

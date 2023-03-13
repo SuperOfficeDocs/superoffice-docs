@@ -92,53 +92,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 169,
-  "Name": "Kunde Group",
-  "Tooltip": "quae",
-  "Rank": 873,
+  "SaleTypeId": 146,
+  "Name": "Mills Inc and Sons",
+  "Tooltip": "ea",
+  "Rank": 246,
   "DurationUnit": "Century",
-  "SaleDuration": 703,
-  "SaleTypeCatId": 417,
+  "SaleDuration": 586,
+  "SaleTypeCatId": 160,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": true,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 422,
-  "QuoteLinesTemplate": 637,
-  "ConfirmationLinesTemplate": 356,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 875,
+  "QuoteLinesTemplate": 16,
+  "ConfirmationLinesTemplate": 743,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 759,
-  "MinEarningPercent": 134,
-  "GroupQuoteLinesBy": 475,
-  "SortGroupLinesBy": 576,
+  "MaxDiscountPercent": 408,
+  "MinEarningPercent": 108,
+  "GroupQuoteLinesBy": 87,
+  "SortGroupLinesBy": 778,
   "Stages": [
     {
-      "Id": 452,
-      "Name": "Swaniawski, Ryan and Rutherford",
-      "ToolTip": "Sit itaque asperiores consequuntur ut quo voluptatibus.",
+      "Id": 819,
+      "Name": "Sipes-Kunde",
+      "ToolTip": "Fugit nam totam ipsam accusantium explicabo et.",
       "Deleted": false,
-      "Rank": 551,
-      "Type": "necessitatibus",
-      "ColorBlock": 952,
-      "IconHint": "temporibus",
+      "Rank": 794,
+      "Type": "at",
+      "ColorBlock": 816,
+      "IconHint": "maxime",
       "Selected": false,
-      "LastChanged": "2015-06-05T17:37:40.334505+02:00",
+      "LastChanged": "2021-03-06T14:19:11.5026887+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolorem",
-      "StyleHint": "cum",
+      "ExtraInfo": "dicta",
+      "StyleHint": "voluptate",
       "Hidden": false,
-      "FullName": "Kirsten Misty Schiller II",
+      "FullName": "Kayla Bernier",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 583
+          "FieldLength": 528
         }
       }
     }
@@ -147,8 +147,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 205
+      "FieldType": "System.Int32",
+      "FieldLength": 925
     }
   }
 }

@@ -96,19 +96,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 501,
-  "BlobSize": 209,
-  "Description": "Open-architected impactful utilisation",
-  "ExtraInfo": "recusandae",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "exercitationem",
-  "OriginalSize": 593,
-  "CreatedDate": "2006-12-23T17:37:38.339833+01:00",
-  "UpdatedDate": "2019-06-19T17:37:38.339833+02:00",
+  "BlobId": 538,
+  "BlobSize": 992,
+  "Description": "Virtual object-oriented data-warehouse",
+  "ExtraInfo": "facere",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "dignissimos",
+  "OriginalSize": 206,
+  "CreatedDate": "2001-08-23T14:19:10.1310974+02:00",
+  "UpdatedDate": "2019-02-28T14:19:10.1310974+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "cum"
+  "ConceptualType": "a"
 }
 ```
 
@@ -119,25 +119,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 771,
-  "BlobSize": 54,
-  "Description": "Horizontal asynchronous intranet",
-  "ExtraInfo": "facere",
+  "BlobId": 101,
+  "BlobSize": 594,
+  "Description": "Balanced value-added utilisation",
+  "ExtraInfo": "est",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "illo",
-  "OriginalSize": 936,
-  "CreatedDate": "2001-03-05T17:37:38.3418327+01:00",
-  "UpdatedDate": "2022-02-13T17:37:38.3418327+01:00",
+  "MimeType": "a",
+  "OriginalSize": 812,
+  "CreatedDate": "2021-11-27T14:19:10.1310974+01:00",
+  "UpdatedDate": "2019-10-12T14:19:10.1310974+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "eligendi",
+  "ConceptualType": "sequi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 296
+      "FieldType": "System.Int32",
+      "FieldLength": 978
     }
   }
 }

@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 12,
-  "Name": "Schroeder, Bernier and Torp",
-  "Tooltip": "adipisci",
+  "Id": 289,
+  "Name": "Trantow-Emard",
+  "Tooltip": "id",
   "Deleted": false,
-  "UdListDefinitionId": 883,
-  "Rank": 405,
+  "UdListDefinitionId": 142,
+  "Rank": 119,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 876
+      "FieldLength": 397
     }
   }
 }

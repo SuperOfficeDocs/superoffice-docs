@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.CreateDefaultU
 
 ## CreateDefaultUntrustedCredentials
 
-Loading default values into a new UntrustedCredentials.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-**Returns:** New UntrustedCredentials with default values
+
+
 
 [WSDL file for Services88/User](../Services88-User.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultUntrustedCredentials Response
 
 ```xml
@@ -63,8 +62,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
   <User:CreateDefaultUntrustedCredentialsResponse>
    <User:Response xsi:type="User:UntrustedCredentials">
-    <User:ValidFrom xsi:type="xsd:dateTime">2022-08-26T09:00:44Z</User:ValidFrom>
-    <User:ValidTo xsi:type="xsd:dateTime">2022-08-26T09:00:44Z</User:ValidTo>
+    <User:ValidFrom xsi:type="xsd:dateTime">2023-02-15T13:18:35Z</User:ValidFrom>
+    <User:ValidTo xsi:type="xsd:dateTime">2023-02-15T13:18:35Z</User:ValidTo>
     <User:Comment xsi:type="xsd:string"></User:Comment>
     <User:SecretValue xsi:type="xsd:string"></User:SecretValue>
     <User:PublicValue xsi:type="xsd:string"></User:PublicValue>
@@ -75,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

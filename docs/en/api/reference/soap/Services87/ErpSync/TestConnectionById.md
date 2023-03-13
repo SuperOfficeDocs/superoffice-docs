@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.TestConnect
 
 ## TestConnectionById
 
-Tests to see if we can establish a connection with the given config fields
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
-* **erpConnectionId:** The id of the connection
 
-**Returns:** Returns true if success
+
 
 [WSDL file for Services87/ErpSync](../Services87-ErpSync.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## TestConnectionById Response
 
 ```xml
@@ -70,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

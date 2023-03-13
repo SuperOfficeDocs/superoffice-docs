@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 637,
-    "Name": "Baumbach Inc and Sons",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "Rank": 378,
-    "UdListDefinitionId": 494,
+    "HeadingId": 54,
+    "Name": "Wuckert-Klein",
+    "Tooltip": "sapiente",
+    "Deleted": true,
+    "Rank": 496,
+    "UdListDefinitionId": 536,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 724
+        "FieldLength": 215
       }
     }
   }

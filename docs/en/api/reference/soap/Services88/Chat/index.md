@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/Chat.
 
 Handled by the <see cref="T:SuperOffice.Services88.IChatAgent">SuperOffice.Services88.IChatAgent</see> interface.
 
-Interface for the Chat Agent
-Chat functions. Manage chat channels, sessions and messages.
+
 
 Download [WSDL file for Services88/Chat](../Services88-Chat.md) if you need to generate your own proxy code.
 
@@ -46,3 +45,4 @@ Download [WSDL file for Services88/Chat](../Services88-Chat.md) if you need to g
 * [TransferChatSession](TransferChatSession.md)
 * [UpdateChatTopicUserAgent](UpdateChatTopicUserAgent.md)
 * [UpdateChatTopicUserAgents](UpdateChatTopicUserAgents.md)
+

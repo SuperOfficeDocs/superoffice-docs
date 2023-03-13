@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.SaveQuoteAlte
 
 ## SaveQuoteAlternative
 
-Updates the existing QuoteAlternative or creates a new QuoteAlternative if the id parameter is 0.
 
-* **quoteAlternative:** The QuoteAlternative that is saved.
 
-**Returns:** New or updated QuoteAlternative
+
 
 [WSDL file for Services87/Quote](../Services87-Quote.md)
 
@@ -73,6 +71,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveQuoteAlternative Response
 
 ```xml
@@ -117,3 +116,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

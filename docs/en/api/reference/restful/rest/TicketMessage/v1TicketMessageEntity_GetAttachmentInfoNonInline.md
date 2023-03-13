@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 10,
-    "Name": "Buckridge, Hane and O'Keefe",
-    "ContentType": "ad",
-    "AttSize": 694,
-    "InlineImage": false,
-    "ContentId": "rem",
+    "AttachmentId": 345,
+    "Name": "Rice Inc and Sons",
+    "ContentType": "quas",
+    "AttSize": 318,
+    "InlineImage": true,
+    "ContentId": "reprehenderit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 759
+        "FieldType": "System.Int32",
+        "FieldLength": 987
       }
     }
   }

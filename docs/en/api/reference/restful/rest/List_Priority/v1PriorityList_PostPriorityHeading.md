@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 695,
-  "Name": "Tremblay-Bosco",
-  "Tooltip": "qui",
+  "HeadingId": 219,
+  "Name": "Swaniawski LLC",
+  "Tooltip": "est",
   "Deleted": true,
-  "Rank": 99,
-  "UdListDefinitionId": 79
+  "Rank": 81,
+  "UdListDefinitionId": 98
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 529,
-  "Name": "Casper-West",
-  "Tooltip": "enim",
-  "Deleted": true,
-  "Rank": 472,
-  "UdListDefinitionId": 46,
+  "HeadingId": 585,
+  "Name": "Davis-Larkin",
+  "Tooltip": "similique",
+  "Deleted": false,
+  "Rank": 150,
+  "UdListDefinitionId": 940,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldLength": 757
     }
   }
 }

@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -109,53 +109,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 106,
-    "Name": "Lindgren-Kunde",
-    "Tooltip": "atque",
-    "Rank": 990,
+    "SaleTypeId": 582,
+    "Name": "Franecki-Reinger",
+    "Tooltip": "eum",
+    "Rank": 198,
     "DurationUnit": "Century",
-    "SaleDuration": 470,
-    "SaleTypeCatId": 464,
+    "SaleDuration": 129,
+    "SaleTypeCatId": 340,
     "Deleted": false,
-    "HasGuide": true,
-    "HasStakeholders": true,
-    "IsAutoAdvance": true,
+    "HasGuide": false,
+    "HasStakeholders": false,
+    "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 305,
-    "QuoteLinesTemplate": 633,
-    "ConfirmationLinesTemplate": 698,
-    "MaxDiscountPercentSet": false,
+    "DefaultQuoteValidity": 736,
+    "QuoteLinesTemplate": 44,
+    "ConfirmationLinesTemplate": 466,
+    "MaxDiscountPercentSet": true,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 807,
-    "MinEarningPercent": 807,
-    "GroupQuoteLinesBy": 633,
-    "SortGroupLinesBy": 750,
+    "MaxDiscountPercent": 449,
+    "MinEarningPercent": 775,
+    "GroupQuoteLinesBy": 364,
+    "SortGroupLinesBy": 760,
     "Stages": [
       {
-        "Id": 663,
-        "Name": "Schowalter, Rolfson and Considine",
-        "ToolTip": "Commodi fugit.",
+        "Id": 618,
+        "Name": "Dare-Ondricka",
+        "ToolTip": "Incidunt et voluptatum ea natus aut itaque expedita.",
         "Deleted": false,
-        "Rank": 579,
-        "Type": "placeat",
-        "ColorBlock": 187,
-        "IconHint": "vel",
+        "Rank": 823,
+        "Type": "minima",
+        "ColorBlock": 196,
+        "IconHint": "odit",
         "Selected": false,
-        "LastChanged": "2014-11-04T17:37:18.1822417+01:00",
+        "LastChanged": "2001-11-03T14:19:03.6082484+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "ab",
-        "Hidden": true,
-        "FullName": "Berta Jacobs",
+        "ExtraInfo": "cum",
+        "StyleHint": "ex",
+        "Hidden": false,
+        "FullName": "Rosalind Lindgren",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 620
+            "FieldLength": 918
           }
         }
       }
@@ -164,8 +164,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 542
+        "FieldType": "System.String",
+        "FieldLength": 823
       }
     }
   }

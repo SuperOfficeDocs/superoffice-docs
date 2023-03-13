@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 62,
-    "Name": "Farrell, Gibson and Simonis",
-    "Tooltip": "itaque",
+    "Id": 333,
+    "Name": "Gusikowski, Krajcik and Beatty",
+    "Tooltip": "rem",
     "Deleted": false,
-    "UdListDefinitionId": 112,
-    "Rank": 264,
+    "UdListDefinitionId": 193,
+    "Rank": 85,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 469
+        "FieldType": "System.Int32",
+        "FieldLength": 230
       }
     }
   }

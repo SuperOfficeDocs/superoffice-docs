@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Yundt-Hamill"
+  "EntityName": "Bahringer, Maggio and D'Amore"
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 115,
-  "DashboardId": 670,
-  "Height": 708,
-  "Width": 967,
-  "Rank": 948,
+  "DashboardTileId": 953,
+  "DashboardId": 696,
+  "Height": 812,
+  "Width": 150,
+  "Rank": 270,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 86
+      "FieldType": "System.Int32",
+      "FieldLength": 428
     }
   }
 }

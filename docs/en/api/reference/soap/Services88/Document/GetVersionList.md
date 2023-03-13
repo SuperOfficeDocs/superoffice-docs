@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.GetVersion
 
 ## GetVersionList
 
-Get a list of existing, committed  versions for a given document
 
-* **documentId:** SuperOffice document Id
 
-**Returns:** Array of objects describing the existing, committed versions for this document
+
 
 [WSDL file for Services88/Document](../Services88-Document.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetVersionList Response
 
 ```xml
@@ -68,7 +67,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Document:ExternalReference xsi:type="xsd:string"></Document:ExternalReference>
      <Document:DocumentId xsi:type="xsd:int">0</Document:DocumentId>
      <Document:VersionId xsi:type="xsd:string"></Document:VersionId>
-     <Document:CheckedInDate xsi:type="xsd:dateTime">2022-08-26T08:59:14Z</Document:CheckedInDate>
+     <Document:CheckedInDate xsi:type="xsd:dateTime">2023-02-15T13:17:15Z</Document:CheckedInDate>
      <Document:CheckedInByName xsi:type="xsd:string"></Document:CheckedInByName>
      <Document:CheckedInByAssociateId xsi:type="xsd:int">0</Document:CheckedInByAssociateId>
      <Document:Description xsi:type="xsd:string"></Document:Description>
@@ -83,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

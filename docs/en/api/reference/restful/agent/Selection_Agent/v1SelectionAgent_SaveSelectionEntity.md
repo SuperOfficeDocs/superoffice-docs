@@ -142,60 +142,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Diverse mission-critical success",
-  "Postit": "velit",
+  "Description": "Multi-tiered 24 hour paradigm",
+  "Postit": "temporibus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 713,
-  "IncludePerson": 718,
-  "MemberCount": 938,
-  "Name": "Nikolaus-Schultz",
-  "PostitTextId": 123,
-  "CreatedDate": "2020-06-23T17:37:18.9162423+02:00",
-  "SelectionId": 986,
-  "SoundEx": "fuga",
-  "Source": 221,
-  "TextId": 515,
-  "UpdatedDate": "2011-04-24T17:37:18.9162423+02:00",
-  "UpdatedCount": 233,
-  "Visibility": 447,
+  "GroupIdx": 510,
+  "IncludePerson": 229,
+  "MemberCount": 200,
+  "Name": "Lockman LLC",
+  "PostitTextId": 355,
+  "CreatedDate": "2017-11-29T14:19:04.1567293+01:00",
+  "SelectionId": 529,
+  "SoundEx": "eveniet",
+  "Source": 444,
+  "TextId": 315,
+  "UpdatedDate": "2011-08-13T14:19:04.1567293+02:00",
+  "UpdatedCount": 971,
+  "Visibility": 609,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 13,
-  "TargetTableName": "Witting Group",
+  "TargetTableNumber": 488,
+  "TargetTableName": "Brekke-Yundt",
   "Completed": false,
-  "LeftSelectionId": 826,
-  "RightSelectionId": 203,
+  "LeftSelectionId": 41,
+  "RightSelectionId": 160,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Green Group",
-  "ShadowProviderName": "Champlin-Johnson",
-  "ChartKey": "culpa",
-  "LastLoaded": "2016-03-25T17:37:18.9162423+01:00",
-  "LastLoadedBy": 318,
+  "MainProviderName": "Goyette-Cummerata",
+  "ShadowProviderName": "Luettgen, Cummings and Kozey",
+  "ChartKey": "assumenda",
+  "LastLoaded": "2011-01-15T14:19:04.1567293+01:00",
+  "LastLoadedBy": 713,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2006-08-24T17:37:18.9162423+02:00",
-  "LastMembershipChangeBy": 909,
+  "LastMembershipChange": "2019-01-16T14:19:04.1567293+01:00",
+  "LastMembershipChangeBy": 641,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "soluta",
-  "MemberTabHeading": "quia",
-  "MailingsProviderName": "Sipes LLC",
-  "DashboardTileDefinitionId": 693,
+  "MainHeading": "qui",
+  "MemberTabHeading": "est",
+  "MailingsProviderName": "Abbott, Borer and Keeling",
+  "DashboardTileDefinitionId": 23,
   "VisibleFor": [
     {
-      "VisibleId": 793,
+      "VisibleId": 745,
       "Visibility": "All",
-      "DisplayValue": "minus"
+      "DisplayValue": "voluptatibus"
     },
     {
-      "VisibleId": 793,
+      "VisibleId": 745,
       "Visibility": "All",
-      "DisplayValue": "minus"
+      "DisplayValue": "voluptatibus"
     }
   ]
 }
@@ -208,70 +208,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optimized cohesive synergy",
-  "Postit": "ad",
+  "Description": "Automated human-resource success",
+  "Postit": "autem",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 910,
-  "IncludePerson": 293,
-  "MemberCount": 657,
-  "Name": "Wiza-Smith",
-  "PostitTextId": 214,
-  "CreatedDate": "1997-02-24T17:37:18.922242+01:00",
-  "SelectionId": 564,
-  "SoundEx": "amet",
-  "Source": 709,
-  "TextId": 691,
-  "UpdatedDate": "1996-07-12T17:37:18.922242+02:00",
-  "UpdatedCount": 414,
-  "Visibility": 634,
+  "GroupIdx": 644,
+  "IncludePerson": 918,
+  "MemberCount": 729,
+  "Name": "Volkman LLC",
+  "PostitTextId": 747,
+  "CreatedDate": "2004-03-30T14:19:04.1723543+02:00",
+  "SelectionId": 787,
+  "SoundEx": "soluta",
+  "Source": 790,
+  "TextId": 754,
+  "UpdatedDate": "1998-06-01T14:19:04.1723543+02:00",
+  "UpdatedCount": 479,
+  "Visibility": 606,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 576,
-  "TargetTableName": "Brekke-Macejkovic",
+  "CompanyUnique": true,
+  "TargetTableNumber": 459,
+  "TargetTableName": "Heidenreich-Thiel",
   "Completed": true,
-  "LeftSelectionId": 33,
-  "RightSelectionId": 301,
+  "LeftSelectionId": 890,
+  "RightSelectionId": 671,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Leannon, King and Gleason",
-  "ShadowProviderName": "Pfannerstill, Carter and Heathcote",
-  "ChartKey": "modi",
-  "LastLoaded": "2007-05-02T17:37:18.922242+02:00",
-  "LastLoadedBy": 822,
+  "MainProviderName": "Mayer, Goodwin and Ebert",
+  "ShadowProviderName": "Koch Inc and Sons",
+  "ChartKey": "id",
+  "LastLoaded": "2000-07-06T14:19:04.1723543+02:00",
+  "LastLoadedBy": 962,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-01-01T17:37:18.922242+01:00",
-  "LastMembershipChangeBy": 141,
+  "LastMembershipChange": "2014-07-23T14:19:04.1723543+02:00",
+  "LastMembershipChangeBy": 962,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aut",
-  "MemberTabHeading": "sed",
-  "MailingsProviderName": "Beatty-Will",
-  "DashboardTileDefinitionId": 421,
+  "MainHeading": "qui",
+  "MemberTabHeading": "ab",
+  "MailingsProviderName": "Zboncak, Mayert and Pfeffer",
+  "DashboardTileDefinitionId": 626,
   "VisibleFor": [
     {
-      "VisibleId": 343,
+      "VisibleId": 425,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldLength": 529
         }
       }
     },
     {
-      "VisibleId": 343,
+      "VisibleId": 425,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldLength": 529
         }
       }
     }
@@ -281,7 +281,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 997
+      "FieldLength": 755
     }
   }
 }

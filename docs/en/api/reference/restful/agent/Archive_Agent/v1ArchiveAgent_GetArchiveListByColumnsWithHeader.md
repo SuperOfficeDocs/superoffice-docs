@@ -101,36 +101,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hessel, Gulgowski and Boehm",
+  "ProviderName": "Sawayn-Blanda",
   "Columns": [
-    "et",
-    "earum"
+    "consequuntur",
+    "sunt"
   ],
   "SortOrder": [
     {
-      "Name": "Koch-Heathcote",
+      "Name": "Moen, Wolff and Vandervort",
       "Direction": "ASC"
     },
     {
-      "Name": "Koch-Heathcote",
+      "Name": "Moen, Wolff and Vandervort",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Johnston LLC",
-      "Operator": "ea",
+      "Name": "Rohan, Carter and Jakubowski",
+      "Operator": "eum",
       "Values": [
-        "id",
-        "placeat"
+        "voluptatem",
+        "ut"
       ],
       "DisplayValues": [
-        "molestias",
-        "ratione"
+        "laudantium",
+        "quia"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -138,18 +138,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 956,
+      "InterParenthesis": 572,
       "InterOperator": "And",
-      "UniqueHash": 412
+      "UniqueHash": 104
     }
   ],
   "Entities": [
-    "consectetur",
-    "sit"
+    "similique",
+    "praesentium"
   ],
-  "Page": 557,
-  "PageSize": 749,
-  "Options": "voluptatem"
+  "Page": 879,
+  "PageSize": 700,
+  "Options": "reprehenderit"
 }
 ```
 
@@ -160,26 +160,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 701,
+  "RowCount": 381,
   "Rows": [
     {
-      "EntityName": "Schoen LLC",
-      "PrimaryKey": 583,
+      "EntityName": "Jaskolski, Ruecker and Wiza",
+      "PrimaryKey": 672,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ut",
-          "TooltipHint": "blanditiis",
-          "LinkHint": "sed"
+          "DisplayValue": "dolores",
+          "TooltipHint": "unde",
+          "LinkHint": "ad"
         }
       },
-      "LinkHint": "vero",
-      "StyleHint": "sint",
+      "LinkHint": "blanditiis",
+      "StyleHint": "earum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 601
+          "FieldType": "System.Int32",
+          "FieldLength": 159
         }
       }
     }
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldLength": 878
     }
   }
 }

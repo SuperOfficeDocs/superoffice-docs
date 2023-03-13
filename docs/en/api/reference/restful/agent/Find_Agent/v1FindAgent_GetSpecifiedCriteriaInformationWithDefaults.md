@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "temporibus",
-  "ProviderName": "Emmerich-Barton",
-  "StorageKey": "veniam",
+  "StorageType": "beatae",
+  "ProviderName": "Roberts-Roob",
+  "StorageKey": "hic",
   "DesiredColumnNames": [
-    "Adams, Aufderhar and Beatty",
-    "Donnelly LLC"
+    "Denesik, Harris and Volkman",
+    "Hayes LLC"
   ],
   "StaticColumns": [
-    "enim",
-    "sequi"
+    "quam",
+    "exercitationem"
   ]
 }
 ```
@@ -108,15 +108,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Schowalter LLC",
-      "Operator": "impedit",
+      "Name": "Wunsch-Wisozk",
+      "Operator": "porro",
       "Values": [
-        "aut",
-        "odit"
+        "est",
+        "impedit"
       ],
       "DisplayValues": [
-        "ducimus",
-        "perspiciatis"
+        "quo",
+        "nemo"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -124,65 +124,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 653,
+      "InterParenthesis": 715,
       "InterOperator": "And",
-      "UniqueHash": 692
+      "UniqueHash": 990
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Welch, Pouros and Schmitt",
-      "DisplayTooltip": "qui",
-      "DisplayType": "nihil",
-      "CanOrderBy": false,
-      "Name": "Breitenberg-Bauch",
+      "DisplayName": "Pfannerstill, Hansen and Cummerata",
+      "DisplayTooltip": "quasi",
+      "DisplayType": "tenetur",
+      "CanOrderBy": true,
+      "Name": "Brakus-Klein",
       "CanRestrictBy": false,
-      "RestrictionType": "libero",
-      "RestrictionListName": "Kunze, Kuvalis and Maggio",
+      "RestrictionType": "aut",
+      "RestrictionListName": "Fadel Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "eos",
-      "Width": "culpa",
-      "IconHint": "doloremque",
-      "HeadingIconHint": "voluptas"
+      "ExtraInfo": "dolores",
+      "Width": "assumenda",
+      "IconHint": "maxime",
+      "HeadingIconHint": "et"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Johns-Ortiz",
-      "PrimaryKey": 762,
+      "EntityName": "Greenholt-Upton",
+      "PrimaryKey": 333,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nam",
-          "TooltipHint": "et",
-          "LinkHint": "qui"
+          "DisplayValue": "et",
+          "TooltipHint": "ab",
+          "LinkHint": "aut"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "nulla",
+      "LinkHint": "consequatur",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 648
+          "FieldType": "System.String",
+          "FieldLength": 426
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Kutch Inc and Sons",
-      "Description": "Multi-layered regional secured line",
-      "Rank": 385,
+      "Name": "Wiza, Dach and Pouros",
+      "Description": "Realigned holistic customer loyalty",
+      "Rank": 205,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kutch Inc and Sons",
-      "Description": "Multi-layered regional secured line",
-      "Rank": 385,
+      "Name": "Wiza, Dach and Pouros",
+      "Description": "Realigned holistic customer loyalty",
+      "Rank": 205,
       "Restrictions": [
         {},
         {}
@@ -194,7 +194,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 80
+      "FieldLength": 825
     }
   }
 }

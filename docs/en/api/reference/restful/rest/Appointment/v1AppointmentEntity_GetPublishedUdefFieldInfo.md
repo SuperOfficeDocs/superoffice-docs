@@ -92,7 +92,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 525,
-  "ColumnId": 837,
-  "FieldDefault": "sequi",
-  "FieldHeight": 779,
-  "FieldLabel": "et",
-  "FieldLeft": 412,
-  "FieldTop": 951,
+  "UDefFieldId": 882,
+  "ColumnId": 989,
+  "FieldDefault": "odio",
+  "FieldHeight": 564,
+  "FieldLabel": "ut",
+  "FieldLeft": 202,
+  "FieldTop": 236,
   "FieldType": "Checkbox",
-  "FieldWidth": 680,
-  "FormatMask": "accusantium",
+  "FieldWidth": 135,
+  "FormatMask": "error",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 231,
-  "LabelLeft": 967,
-  "LabelTop": 323,
-  "LabelWidth": 722,
-  "LastVersionId": 460,
-  "ListTableId": 801,
+  "IsIndexed": true,
+  "LabelHeight": 41,
+  "LabelLeft": 876,
+  "LabelTop": 510,
+  "LabelWidth": 943,
+  "LastVersionId": 848,
+  "ListTableId": 16,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 578,
-  "ProgId": "et",
+  "Page1LineNo": 745,
+  "ProgId": "delectus",
   "IsReadOnly": false,
-  "ShortLabel": "recusandae",
-  "TabOrder": 577,
-  "TextLength": 800,
-  "Tooltip": "sunt",
-  "UdefIdentity": 145,
-  "UDListDefinitionId": 950,
+  "ShortLabel": "expedita",
+  "TabOrder": 520,
+  "TextLength": 491,
+  "Tooltip": "consequatur",
+  "UdefIdentity": 495,
+  "UDListDefinitionId": 362,
   "Justification": "Center",
-  "Version": 590,
-  "TemplateVariableName": "Hagenes Group",
+  "Version": 205,
+  "TemplateVariableName": "Connelly-Rice",
   "HasBeenPublished": false,
-  "MdoListName": "McCullough, Corwin and Hettinger",
+  "MdoListName": "Batz, Ledner and Gutmann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 430
+      "FieldLength": 443
     }
   }
 }

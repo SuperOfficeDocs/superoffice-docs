@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "nihil"
+  "ChartId": "omnis"
 }
 ```
 
@@ -100,64 +100,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 748,
-  "Caption": "omnis",
-  "Description": "Up-sized non-volatile instruction set",
-  "ChartName": "Lubowitz LLC",
-  "ChartId": "deleniti",
-  "IsDefault": false,
-  "AssociateId": 454,
-  "GroupId": 208,
-  "SelectionId": 506,
-  "Config": "iste",
+  "DashboardTileId": 133,
+  "Caption": "magni",
+  "Description": "Balanced dedicated conglomeration",
+  "ChartName": "Stark, Kohler and Mitchell",
+  "ChartId": "sapiente",
+  "IsDefault": true,
+  "AssociateId": 274,
+  "GroupId": 49,
+  "SelectionId": 630,
+  "Config": "neque",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Crooks, Schimmel and Nader",
-      "Description": "Business-focused contextually-based monitoring",
+      "Name": "Jacobs, Reinger and Rosenbaum",
+      "Description": "Realigned object-oriented knowledge base",
       "Type": "Boolean",
-      "ListName": "Brakus Inc and Sons",
+      "ListName": "Romaguera LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "error",
+      "Value": "magni",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 236
+          "FieldLength": 46
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 272,
+      "VisibleId": 350,
       "Visibility": "All",
-      "DisplayValue": "voluptatibus",
+      "DisplayValue": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 770
+          "FieldType": "System.Int32",
+          "FieldLength": 264
         }
       }
     },
     {
-      "VisibleId": 272,
+      "VisibleId": 350,
       "Visibility": "All",
-      "DisplayValue": "voluptatibus",
+      "DisplayValue": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 770
+          "FieldType": "System.Int32",
+          "FieldLength": 264
         }
       }
     }
@@ -166,8 +166,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 621
+      "FieldType": "System.Int32",
+      "FieldLength": 569
     }
   }
 }

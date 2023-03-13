@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IViewStateAgent.SaveCurre
 
 ## SaveCurrents
 
-Saves the history elements as the current value for their respective lists. If more than one item is submitted for the same list, they are added sequently, meaning that the last one is the most current.
 
-* **currents:** Array of new history items to save.
 
-**Returns:** Array of the saved History items
+
 
 [WSDL file for Services87/ViewState](../Services87-ViewState.md)
 
@@ -59,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveCurrents Response
 
 ```xml
@@ -89,3 +88,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

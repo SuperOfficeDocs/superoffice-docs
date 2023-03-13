@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quae",
-  "ProviderName": "Brown-Spencer",
-  "StorageKey": "vero",
-  "Context": "laboriosam"
+  "StorageType": "eius",
+  "ProviderName": "Bernier, Bednar and Champlin",
+  "StorageKey": "accusamus",
+  "Context": "eos"
 }
 ```
 
@@ -95,58 +95,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bergstrom, Bode and Reichel",
-    "Description": "Extended assymetric help-desk",
-    "Rank": 871,
+    "Name": "Keebler-Roberts",
+    "Description": "Reactive global database",
+    "Rank": 248,
     "Restrictions": [
       {
-        "Name": "Swaniawski, Turcotte and Sawayn",
-        "Operator": "sint",
+        "Name": "Schmitt Inc and Sons",
+        "Operator": "quisquam",
         "Values": [
-          "officiis",
-          "alias"
+          "quaerat",
+          "porro"
         ],
         "DisplayValues": [
-          "voluptatem",
-          "nam"
+          "velit",
+          "magni"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 753,
+        "InterParenthesis": 142,
         "InterOperator": "And",
-        "UniqueHash": 791
+        "UniqueHash": 206
       }
     ]
   },
   {
-    "Name": "Bergstrom, Bode and Reichel",
-    "Description": "Extended assymetric help-desk",
-    "Rank": 871,
+    "Name": "Keebler-Roberts",
+    "Description": "Reactive global database",
+    "Rank": 248,
     "Restrictions": [
       {
-        "Name": "Swaniawski, Turcotte and Sawayn",
-        "Operator": "sint",
+        "Name": "Schmitt Inc and Sons",
+        "Operator": "quisquam",
         "Values": [
-          "officiis",
-          "alias"
+          "quaerat",
+          "porro"
         ],
         "DisplayValues": [
-          "voluptatem",
-          "nam"
+          "velit",
+          "magni"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 753,
+        "InterParenthesis": 142,
         "InterOperator": "And",
-        "UniqueHash": 791
+        "UniqueHash": 206
       }
     ]
   }

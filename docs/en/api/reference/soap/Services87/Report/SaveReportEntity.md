@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IReportAgent.SaveReportEn
 
 ## SaveReportEntity
 
-Updates the existing ReportEntity or creates a new ReportEntity if the id parameter is 0.
 
-* **reportEntity:** The ReportEntity that is saved.
 
-**Returns:** New or updated ReportEntity
+
 
 [WSDL file for Services87/Report](../Services87-Report.md)
 
@@ -58,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveReportEntity Response
 
 ```xml
@@ -87,3 +86,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

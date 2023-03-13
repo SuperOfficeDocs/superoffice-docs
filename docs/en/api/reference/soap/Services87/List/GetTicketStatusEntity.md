@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetTicketStatu
 
 ## GetTicketStatusEntity
 
-Gets a TicketStatusEntity object.
 
-* **ticketStatusEntityId:** The identifier of the TicketStatusEntity object
 
-**Returns:** TicketStatusEntity
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetTicketStatusEntity Response
 
 ```xml
@@ -75,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

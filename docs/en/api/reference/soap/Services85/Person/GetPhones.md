@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IPersonAgent.GetPhones">S
 
 ## GetPhones
 
-Returning all phones that belong to a person, ordered by the phone type.
 
-* **personId:** The person id
 
-**Returns:** An array of Phones
+
 
 [WSDL file for Services85/Person](../Services85-Person.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetPhones Response
 
 ```xml
@@ -75,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

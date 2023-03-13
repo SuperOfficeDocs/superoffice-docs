@@ -69,12 +69,12 @@ Content-Type: application/json; charset=utf-8
 {
   "FeatureToggles": [
     {
-      "Name": "Kutch, Schulist and Nolan",
-      "State": false
+      "Name": "Hills LLC",
+      "State": true
     },
     {
-      "Name": "Kutch, Schulist and Nolan",
-      "State": false
+      "Name": "Hills LLC",
+      "State": true
     }
   ]
 }

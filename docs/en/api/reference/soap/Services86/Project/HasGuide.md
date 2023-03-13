@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IProjectAgent.HasGuide">S
 
 ## HasGuide
 
-Does this project have a guide associated with its project type?
 
-* **projectId:** Project id
 
-**Returns:** True if the project has a guide
+
 
 [WSDL file for Services86/Project](../Services86-Project.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## HasGuide Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

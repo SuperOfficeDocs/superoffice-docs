@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,56 +94,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 837,
-    "Name": "Donnelly, Franecki and Hamill",
-    "ToolTip": "Veniam non omnis.",
+    "Id": 731,
+    "Name": "Renner-Effertz",
+    "ToolTip": "Et unde sed.",
     "Deleted": false,
-    "Rank": 163,
-    "Type": "modi",
-    "ColorBlock": 805,
-    "IconHint": "maxime",
+    "Rank": 73,
+    "Type": "asperiores",
+    "ColorBlock": 377,
+    "IconHint": "voluptatem",
     "Selected": true,
-    "LastChanged": "2012-10-03T17:37:39.627431+02:00",
+    "LastChanged": "2013-08-23T14:19:11.1012251+02:00",
     "ChildItems": [
       {
-        "Id": 973,
-        "Name": "Simonis-O'Keefe",
-        "ToolTip": "Voluptate dolorem dignissimos.",
-        "Deleted": true,
-        "Rank": 770,
-        "Type": "adipisci",
-        "ColorBlock": 644,
-        "IconHint": "ipsa",
-        "Selected": true,
-        "LastChanged": "2010-08-21T17:37:39.627431+02:00",
+        "Id": 90,
+        "Name": "Weber LLC",
+        "ToolTip": "Facere repudiandae quia et dolor.",
+        "Deleted": false,
+        "Rank": 297,
+        "Type": "doloribus",
+        "ColorBlock": 849,
+        "IconHint": "impedit",
+        "Selected": false,
+        "LastChanged": "2013-01-24T14:19:11.1012251+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "nisi",
+        "ExtraInfo": "ut",
+        "StyleHint": "amet",
         "Hidden": false,
-        "FullName": "Dwight Pfeffer",
+        "FullName": "Miss Meghan Wiza",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 645
+            "FieldLength": 458
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "nobis",
+    "StyleHint": "repudiandae",
     "Hidden": false,
-    "FullName": "Isabell Volkman",
+    "FullName": "Jamaal Jenkins MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 765
+        "FieldType": "System.Int32",
+        "FieldLength": 402
       }
     }
   }

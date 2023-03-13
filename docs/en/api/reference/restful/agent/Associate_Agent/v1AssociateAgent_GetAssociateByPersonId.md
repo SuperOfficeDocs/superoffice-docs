@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 319
+  "PersonId": 750
 }
 ```
 
@@ -98,24 +98,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 129,
-  "Name": "Hilpert-Langworth",
-  "PersonId": 798,
-  "Rank": 214,
-  "Tooltip": "laudantium",
+  "AssociateId": 227,
+  "Name": "Ward LLC",
+  "PersonId": 779,
+  "Rank": 412,
+  "Tooltip": "illo",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 820,
-  "FullName": "Dereck Kessler",
-  "FormalName": "Heller, Price and Lang",
+  "GroupIdx": 606,
+  "FullName": "Skylar Roob III",
+  "FormalName": "Kunde LLC",
   "Deleted": false,
-  "EjUserId": 388,
-  "UserName": "Labadie, Strosin and Ryan",
+  "EjUserId": 360,
+  "UserName": "Bechtelar, Predovic and Pouros",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 991
+      "FieldType": "System.Int32",
+      "FieldLength": 3
     }
   }
 }

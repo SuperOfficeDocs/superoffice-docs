@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 94,
-    "Name": "Jerde, Hessel and Greenholt",
-    "ToolTip": "Consequatur eveniet exercitationem aliquid perferendis exercitationem aut tempore.",
+    "Id": 897,
+    "Name": "Lind Inc and Sons",
+    "ToolTip": "A et labore maiores ut similique vel.",
     "Deleted": false,
-    "Rank": 480,
-    "Type": "molestias",
-    "ColorBlock": 440,
-    "IconHint": "maxime",
-    "Selected": false,
-    "LastChanged": "1999-11-27T17:37:39.9485073+01:00",
+    "Rank": 3,
+    "Type": "atque",
+    "ColorBlock": 419,
+    "IconHint": "quis",
+    "Selected": true,
+    "LastChanged": "2021-04-23T14:19:11.2105958+02:00",
     "ChildItems": [
       {
-        "Id": 341,
-        "Name": "Mayer-Berge",
-        "ToolTip": "Et accusamus laboriosam veritatis.",
+        "Id": 15,
+        "Name": "Cassin, Wilderman and Pfeffer",
+        "ToolTip": "Dicta autem facere quia explicabo ut quo.",
         "Deleted": false,
-        "Rank": 825,
-        "Type": "assumenda",
-        "ColorBlock": 826,
-        "IconHint": "dicta",
+        "Rank": 642,
+        "Type": "asperiores",
+        "ColorBlock": 804,
+        "IconHint": "voluptates",
         "Selected": true,
-        "LastChanged": "2004-12-18T17:37:39.9485073+01:00",
+        "LastChanged": "2011-01-14T14:19:11.2105958+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "suscipit",
+        "ExtraInfo": "error",
+        "StyleHint": "saepe",
         "Hidden": false,
-        "FullName": "Mr. Marley Nigel Goyette II"
+        "FullName": "Dewayne Conn"
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "adipisci",
-    "Hidden": true,
-    "FullName": "Mr. Henriette Barbara Fadel MD"
+    "ExtraInfo": "veniam",
+    "StyleHint": "expedita",
+    "Hidden": false,
+    "FullName": "Dallin Towne"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 625,
-    "Name": "Muller, Hackett and Kutch",
-    "ToolTip": "Voluptas ad nam qui autem ut provident.",
+    "Id": 685,
+    "Name": "Monahan Group",
+    "ToolTip": "Architecto aut nemo exercitationem dolorem dicta.",
     "Deleted": false,
-    "Rank": 192,
-    "Type": "veritatis",
-    "ColorBlock": 953,
-    "IconHint": "vel",
-    "Selected": true,
-    "LastChanged": "2015-05-17T17:37:39.9515055+02:00",
+    "Rank": 626,
+    "Type": "nobis",
+    "ColorBlock": 639,
+    "IconHint": "laborum",
+    "Selected": false,
+    "LastChanged": "2012-12-28T14:19:11.2105958+01:00",
     "ChildItems": [
       {
-        "Id": 781,
-        "Name": "Bergstrom-Kutch",
-        "ToolTip": "Dolorem et tenetur.",
+        "Id": 991,
+        "Name": "Mann, Ryan and Spencer",
+        "ToolTip": "Sit aspernatur qui libero perspiciatis soluta.",
         "Deleted": false,
-        "Rank": 905,
-        "Type": "impedit",
-        "ColorBlock": 91,
-        "IconHint": "qui",
+        "Rank": 230,
+        "Type": "porro",
+        "ColorBlock": 969,
+        "IconHint": "molestiae",
         "Selected": false,
-        "LastChanged": "2000-02-15T17:37:39.9515055+01:00",
+        "LastChanged": "2005-08-21T14:19:11.2105958+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Candice Fahey",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Adrien Pollich II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 617
+            "FieldType": "System.Int32",
+            "FieldLength": 547
           }
         }
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "aut",
+    "ExtraInfo": "placeat",
+    "StyleHint": "autem",
     "Hidden": false,
-    "FullName": "Macie Huels Sr.",
+    "FullName": "Mr. Mose Gwen Davis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 433
+        "FieldLength": 197
       }
     }
   }

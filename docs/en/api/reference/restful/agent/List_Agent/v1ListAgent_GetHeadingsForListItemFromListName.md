@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kertzmann Inc and Sons",
-  "ListItemId": 330,
+  "UdListDefinitionName": "Streich LLC",
+  "ListItemId": 807,
   "ShowDeleted": false
 }
 ```
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 942,
-    "Name": "Parker, McGlynn and Kuhic",
-    "ToolTip": "Est numquam aut impedit vitae.",
+    "Id": 73,
+    "Name": "Kuhn Group",
+    "ToolTip": "Repudiandae et.",
     "Deleted": false,
-    "Rank": 657,
-    "Type": "qui",
-    "ColorBlock": 111,
-    "IconHint": "repellat",
-    "Selected": false,
-    "LastChanged": "2021-04-28T17:37:18.2072449+02:00",
+    "Rank": 189,
+    "Type": "sit",
+    "ColorBlock": 969,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2009-03-21T14:19:03.6394986+01:00",
     "ChildItems": [
       {
-        "Id": 71,
-        "Name": "Romaguera-Ward",
-        "ToolTip": "Facere incidunt illo.",
+        "Id": 452,
+        "Name": "Klocko Inc and Sons",
+        "ToolTip": "Aut molestiae reiciendis dolor.",
         "Deleted": false,
-        "Rank": 504,
-        "Type": "beatae",
-        "ColorBlock": 921,
-        "IconHint": "id",
-        "Selected": false,
-        "LastChanged": "2002-10-21T17:37:18.2072449+02:00",
+        "Rank": 28,
+        "Type": "consequatur",
+        "ColorBlock": 911,
+        "IconHint": "magni",
+        "Selected": true,
+        "LastChanged": "2012-04-09T14:19:03.6394986+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "rem",
+        "ExtraInfo": "harum",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Mr. Hortense Nienow III",
+        "FullName": "Marina Abshire",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 356
+            "FieldLength": 350
           }
         }
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "aut",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "dignissimos",
     "Hidden": false,
-    "FullName": "Kattie Lavinia Nader III",
+    "FullName": "Dorcas Ferne Wunsch DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 850
+        "FieldType": "System.String",
+        "FieldLength": 1000
       }
     }
   }

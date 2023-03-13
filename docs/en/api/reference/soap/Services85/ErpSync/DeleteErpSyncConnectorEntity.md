@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IErpSyncAgent.DeleteErpSy
 
 ## DeleteErpSyncConnectorEntity
 
-Deletes the ErpSyncConnectorEntity
 
-* **erpSyncConnectorEntityId:** The identity of the ErpSyncConnectorEntity
+
+
 
 [WSDL file for Services85/ErpSync](../Services85-ErpSync.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteErpSyncConnectorEntity Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

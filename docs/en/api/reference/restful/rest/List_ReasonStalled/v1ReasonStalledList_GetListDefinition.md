@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 864,
-  "Name": "Donnelly, Grant and Larson",
-  "Tooltip": "iste",
+  "Id": 876,
+  "Name": "Cummings-O'Hara",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 21,
-  "IsCustomList": false,
+  "Rank": 730,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "nulla",
+  "UseGroupsAndHeadings": false,
+  "ListType": "facere",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 807
+      "FieldType": "System.Int32",
+      "FieldLength": 61
     }
   },
   "_Links": {

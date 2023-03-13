@@ -25,7 +25,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=689
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=128
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -88,25 +88,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 659,
-  "BlobSize": 84,
-  "Description": "Implemented fault-tolerant application",
-  "ExtraInfo": "sit",
-  "IsEncrypted": false,
+  "BlobId": 559,
+  "BlobSize": 785,
+  "Description": "Switchable asynchronous paradigm",
+  "ExtraInfo": "ut",
+  "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "possimus",
-  "OriginalSize": 525,
-  "CreatedDate": "2000-03-29T17:37:16.9152422+02:00",
-  "UpdatedDate": "2000-12-29T17:37:16.9152422+01:00",
+  "MimeType": "voluptates",
+  "OriginalSize": 449,
+  "CreatedDate": "2006-06-20T14:19:02.7750538+02:00",
+  "UpdatedDate": "2014-06-06T14:19:02.7750538+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolorem",
+  "ConceptualType": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 206
+      "FieldType": "System.Int32",
+      "FieldLength": 526
     }
   }
 }

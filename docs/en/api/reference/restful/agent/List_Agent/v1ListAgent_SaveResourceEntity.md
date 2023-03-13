@@ -78,13 +78,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 494,
-  "Name": "Morar-Anderson",
-  "Rank": 17,
-  "Tooltip": "inventore",
-  "Deleted": true,
+  "ResourceId": 204,
+  "Name": "Bernier, Schroeder and Feil",
+  "Rank": 977,
+  "Tooltip": "ut",
+  "Deleted": false,
   "IsLocation": false,
-  "LocationAddress": "enim"
+  "LocationAddress": "labore"
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 480,
-  "Name": "Ratke, Stanton and Walsh",
-  "Rank": 439,
-  "Tooltip": "ut",
+  "ResourceId": 755,
+  "Name": "Leffler Inc and Sons",
+  "Rank": 952,
+  "Tooltip": "quis",
   "Deleted": true,
   "IsLocation": false,
-  "LocationAddress": "enim",
+  "LocationAddress": "suscipit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 742
+      "FieldType": "System.Int32",
+      "FieldLength": 174
     }
   }
 }

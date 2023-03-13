@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 204
+  "AssociateId": 118
 }
 ```
 
@@ -102,54 +102,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 306,
-    "ERPName": "Dooley, Wunsch and Murphy",
-    "DisplayName": "Padberg-Tremblay",
-    "DisplayDescription": "Enhanced explicit interface",
-    "Rank": 947,
-    "ConnectorName": "Fritsch-Kautzer",
-    "ErpConnectionId": 121,
-    "ExtraData": "eaque",
-    "IsAvailable": false,
+    "QuoteConnectionId": 81,
+    "ERPName": "Goyette-Gerlach",
+    "DisplayName": "Jenkins, Kuphal and Wunsch",
+    "DisplayDescription": "Versatile real-time local area network",
+    "Rank": 675,
+    "ConnectorName": "Buckridge, Feeney and Bayer",
+    "ErpConnectionId": 922,
+    "ExtraData": "velit",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 603,
-        "ERPPriceListKey": "id",
-        "QuoteConnectionId": 636,
-        "Name": "Hegmann, Pagac and Mueller",
-        "Description": "Reverse-engineered demand-driven ability",
-        "Currency": "animi",
-        "CurrencyName": "McDermott Group",
-        "ValidFrom": "2012-06-29T17:37:18.7452418+02:00",
-        "ValidTo": "1997-02-26T17:37:18.7452418+01:00",
+        "PriceListId": 478,
+        "ERPPriceListKey": "eveniet",
+        "QuoteConnectionId": 335,
+        "Name": "Heathcote, Windler and Dickinson",
+        "Description": "Inverse optimal paradigm",
+        "Currency": "officiis",
+        "CurrencyName": "Kihn, Hansen and Jast",
+        "ValidFrom": "2005-09-14T14:19:04.0313341+02:00",
+        "ValidTo": "2010-12-10T14:19:04.0313341+01:00",
         "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 409
+            "FieldLength": 184
           }
         }
       }
     ],
-    "AllAccess": false,
+    "AllAccess": true,
     "Deleted": false,
     "UserGroupAccessIds": [
-      704,
-      415
+      715,
+      884
     ],
     "AssociateAccessIds": [
-      504,
-      634
+      690,
+      841
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 586
+        "FieldType": "System.String",
+        "FieldLength": 31
       }
     }
   }

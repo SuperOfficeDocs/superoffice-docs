@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ProjectMember"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,17 +26,15 @@ If these are not selected through SetDesiredEntities, project members of these t
 from the result.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"projectMember"|[Project Member]|
 |"retired"|Former employees|
 |"stop"|Companies flagged with Stop|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |projectMemberId|int|Project member ID: Database ID of project member record| x |
@@ -519,11 +517,14 @@ from the result.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectMember?$select=person/personNumber,person/personAddress/zip,person/personExtra/x_person_shorttext,person/hasStoreConsent,contact/business
+GET /api/v1/archive/ProjectMember?$select=project/LastDoBySale,person/personDirectFax/description,person/personUrl/URLAddress,person/personUdef/SuperOffice:8,contact/contactUdef/SuperOffice:10
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

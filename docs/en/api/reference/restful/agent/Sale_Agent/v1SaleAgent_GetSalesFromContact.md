@@ -101,7 +101,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 686,
+  "ContactId": 580,
   "OnlyOpenSales": false
 }
 ```
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Swaniawski, Zulauf and Ryan",
-    "SaleDate": "2019-02-12T17:37:18.892241+01:00",
-    "SaleId": 172,
-    "Probability": 187,
-    "Title": "porro",
-    "Amount": 6430.968,
-    "Currency": "vel",
-    "ProjectName": "Mueller, Powlowski and Bahringer",
-    "AssociateFullName": "Elvis Toy",
-    "Description": "Operative neutral hardware",
+    "ContactName": "Leannon Inc and Sons",
+    "SaleDate": "2016-02-02T14:19:04.1410858+01:00",
+    "SaleId": 13,
+    "Probability": 736,
+    "Title": "iste",
+    "Amount": 24160.005999999998,
+    "Currency": "eligendi",
+    "ProjectName": "Carter Group",
+    "AssociateFullName": "Leopold Abshire",
+    "Description": "Optimized content-based concept",
     "Status": "Lost",
-    "WeightedAmount": 19706.592,
-    "ProjectId": 571,
-    "EarningPercent": 19142.471999999998,
-    "Earning": 30578.438,
-    "ContactId": 141,
-    "AssociateId": 673,
-    "PersonId": 322,
-    "SaleTypeId": 541,
-    "SaleTypeName": "Zulauf-Corkery",
-    "PersonFullName": "Prof. Florian Zboncak DDS",
+    "WeightedAmount": 27858.126,
+    "ProjectId": 251,
+    "EarningPercent": 1914.874,
+    "Earning": 303.998,
+    "ContactId": 34,
+    "AssociateId": 361,
+    "PersonId": 600,
+    "SaleTypeId": 273,
+    "SaleTypeName": "Berge LLC",
+    "PersonFullName": "Brice Wisozk",
     "Completed": "Completed",
-    "ActiveErpLinks": 265,
-    "NextDueDate": "2002-04-19T17:37:18.8932422+02:00",
-    "Number": "1655807",
+    "ActiveErpLinks": 37,
+    "NextDueDate": "2004-04-19T14:19:04.1410858+02:00",
+    "Number": "685742",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 416
+        "FieldType": "System.Int32",
+        "FieldLength": 892
       }
     }
   }

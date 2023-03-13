@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.SaveFromListDe
 
 ## SaveFromListDefinition
 
-Save a list item for the specified list defintion
 
-* **id:** The identity of the list item to load
-* **udListDefinitionId:** The id of the list definition, indicating which list to save the item to. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
-* **item:** The item to save
 
-**Returns:** The saved list item
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -60,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveFromListDefinition Response
 
 ```xml
@@ -87,3 +84,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

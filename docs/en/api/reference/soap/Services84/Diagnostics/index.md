@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services84/Diagn
 
 Handled by the <see cref="T:SuperOffice.Services84.IDiagnosticsAgent">SuperOffice.Services84.IDiagnosticsAgent</see> interface.
 
-Interface for the Diagnostics Agent
-Diagnostics, usage data collection, caches and flushing
+
 
 Download [WSDL file for Services84/Diagnostics](../Services84-Diagnostics.md) if you need to generate your own proxy code.
 
@@ -26,3 +25,4 @@ Download [WSDL file for Services84/Diagnostics](../Services84-Diagnostics.md) if
 * [GetCacheNames](GetCacheNames.md)
 * [LogViewState](LogViewState.md)
 * [ResyncUsers](ResyncUsers.md)
+

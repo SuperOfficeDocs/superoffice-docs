@@ -68,8 +68,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 677,
-  "CultureName": "en"
+  "UdListDefinitionId": 574,
+  "CultureName": "sv"
 }
 ```
 

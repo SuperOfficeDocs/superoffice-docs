@@ -2,23 +2,25 @@
 uid: help-en-extra-table-create
 title:  Define extra tables
 description:  Define extra tables
-author: SuperOffice RnD
+author: HanneGunnarsson
 so.date: 06.29.2022
 keywords: extra table
 so.topic: howto
 language: en
 ---
 
-# Define extra tables
+# Add extra tables
 
-You can create extra tables in SuperOffice Service to register different types of data. After you create the table and [create extra fields][1] in it, you can open the table to add content to it by going to ![icon][img3] **Requests** > **Tables**, point at the table and click ![icon][img1].
+You can create extra tables in SuperOffice to register different types of data. After you create the table and [create extra fields][1] in it, you can open the table to add content to it by going to ![icon][img3] **Requests** > **Tables**, point at the table and click ![icon][img1].
 
 > [!NOTE]
 > In SuperOffice CRM you can create web panels that can contain table information. To set the relevant access rights, the user must belong to a role that has the functional rights **List tables** and **Edit tables**.
 
 **Steps:**
 
-1. Select ![icon][img2] **System settings** > **System design** > **Tables**.
+1. Go to the **Tables** screen.
+
+    * In Settings and maintenance: Click the **System design** button in the navigator. Then select the **Tables** tab.
 
 2. Click ![icon][img4] **New table**. The **Table properties** screen appears.
 

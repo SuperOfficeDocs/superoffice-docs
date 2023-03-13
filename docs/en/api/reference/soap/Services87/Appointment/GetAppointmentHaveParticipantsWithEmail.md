@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IAppointmentAgent.GetAppo
 
 ## GetAppointmentHaveParticipantsWithEmail
 
-GetAppointmentHaveParticipantsWithEmail will check if any of the participants is marked to receive emails on this appointment. If no participants are defined, false will be returned.
 
-* **appointmentId:** The appointmentId.
 
-**Returns:** Return true or false.
+
 
 [WSDL file for Services87/Appointment](../Services87-Appointment.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAppointmentHaveParticipantsWithEmail Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

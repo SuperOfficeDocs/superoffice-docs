@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 707,
+  "RecordId": 588,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Block, Trantow and Schowalter",
-    "CrmFieldKey": "ut",
-    "Value": "placeat",
-    "DisplayValue": "dolorum",
+    "DisplayName": "Raynor Group",
+    "CrmFieldKey": "mollitia",
+    "Value": "maxime",
+    "DisplayValue": "fugiat",
     "SyncToCrm": true,
-    "SyncToErp": false,
+    "SyncToErp": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 270
+        "FieldType": "System.Int32",
+        "FieldLength": 5
       }
     }
   }

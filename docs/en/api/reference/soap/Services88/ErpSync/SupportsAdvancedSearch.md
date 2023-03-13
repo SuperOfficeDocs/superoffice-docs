@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IErpSyncAgent.SupportsAdv
 
 ## SupportsAdvancedSearch
 
-Indicates if the connection supports advanced search for the given erp actor
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
-* **erpConnectionId:** Ths id of the connection
-* **erpActorType:** The erp actor type to check for
 
-**Returns:** True if advanced search is supported
+
 
 [WSDL file for Services88/ErpSync](../Services88-ErpSync.md)
 
@@ -52,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SupportsAdvancedSearch Response
 
 ```xml
@@ -72,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

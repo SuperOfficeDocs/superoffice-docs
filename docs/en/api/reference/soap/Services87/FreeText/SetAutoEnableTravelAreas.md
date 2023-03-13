@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IFreeTextAgent.SetAutoEna
 
 ## SetAutoEnableTravelAreas
 
-Automatically enable freetext search for new travel areas? true or false
 
-* **autoEnable:** If true, auto enable
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services87/FreeText](../Services87-FreeText.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetAutoEnableTravelAreas Response
 
 ```xml
@@ -68,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

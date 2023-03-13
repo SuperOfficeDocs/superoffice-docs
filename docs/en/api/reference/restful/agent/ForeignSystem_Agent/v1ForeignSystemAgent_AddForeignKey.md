@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Paucek, Rodriguez and Rodriguez",
-  "DeviceName": "Gusikowski-Baumbach",
-  "DeviceIdentifier": "sit"
+  "ApplicationName": "Schneider-Wiegand",
+  "DeviceName": "Parker-Champlin",
+  "DeviceIdentifier": "in"
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "rerum",
-  "Value": "cum",
-  "RecordId": 701,
-  "CreatedDate": "2019-10-21T17:37:18.1072435+02:00",
-  "UpdatedDate": "2017-01-22T17:37:18.1072435+01:00",
-  "UpdatedBy": "nihil",
-  "CreatedBy": "ut",
-  "TableName": "Kris LLC",
+  "Key": "sit",
+  "Value": "natus",
+  "RecordId": 574,
+  "CreatedDate": "2011-09-03T14:19:03.5602728+02:00",
+  "UpdatedDate": "2021-03-26T14:19:03.5602728+01:00",
+  "UpdatedBy": "rem",
+  "CreatedBy": "voluptas",
+  "TableName": "Brown, Strosin and Breitenberg",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 218
+      "FieldType": "System.String",
+      "FieldLength": 166
     }
   }
 }

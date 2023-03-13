@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "sunt",
-    "Type": "repellendus",
-    "Description": "User-centric well-modulated orchestration",
+    "DisplayType": "omnis",
+    "Type": "libero",
+    "Description": "Extended mobile projection",
     "ValueControl": "Edit",
-    "CanCreatePerson": false,
-    "IsUserNameSupported": true,
+    "CanCreatePerson": true,
+    "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 105
+        "FieldLength": 351
       }
     }
   }

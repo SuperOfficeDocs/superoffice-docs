@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 559
+  "ErpFieldId": 669
 }
 ```
 
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 194,
-  "DefaultValue": "sapiente",
-  "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "placeat",
-  "PromptUser": false,
+  "ErpFieldId": 141,
+  "DefaultValue": "sunt",
+  "HasFirstSyncDefaultValue": false,
+  "FirstSyncDefaultValue": "qui",
+  "PromptUser": true,
   "Mandatory": false,
-  "ErpFieldKey": "qui",
+  "ErpFieldKey": "voluptate",
   "FieldType": "Checkbox",
-  "ListName": "Howe, Breitenberg and Hartmann",
+  "ListName": "Osinski Group",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 49
+      "FieldType": "System.String",
+      "FieldLength": 427
     }
   }
 }

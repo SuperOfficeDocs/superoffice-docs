@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 379,
-    "Name": "Tromp, Zemlak and Murray",
-    "Tooltip": "sunt",
+    "Id": 78,
+    "Name": "Mitchell-Hirthe",
+    "Tooltip": "ut",
     "Deleted": true,
-    "UdListDefinitionId": 349,
-    "Rank": 210
+    "UdListDefinitionId": 258,
+    "Rank": 130
   },
   {
-    "Id": 379,
-    "Name": "Tromp, Zemlak and Murray",
-    "Tooltip": "sunt",
+    "Id": 78,
+    "Name": "Mitchell-Hirthe",
+    "Tooltip": "ut",
     "Deleted": true,
-    "UdListDefinitionId": 349,
-    "Rank": 210
+    "UdListDefinitionId": 258,
+    "Rank": 130
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 812,
-    "Name": "Wisoky, Mraz and Greenfelder",
-    "Tooltip": "accusantium",
-    "Deleted": true,
-    "UdListDefinitionId": 399,
-    "Rank": 852,
+    "Id": 646,
+    "Name": "Haag Group",
+    "Tooltip": "totam",
+    "Deleted": false,
+    "UdListDefinitionId": 10,
+    "Rank": 948,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 202
+        "FieldType": "System.Int32",
+        "FieldLength": 422
       }
     }
   }

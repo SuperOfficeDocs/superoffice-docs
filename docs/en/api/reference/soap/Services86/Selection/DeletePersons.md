@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.ISelectionAgent.DeletePer
 
 ## DeletePersons
 
-Deletes all persons from a selection. If a person does not have delete rights, it will be skipped.
 
-* **selectionId:** Id of the selection the delete operation will be performed.
+
+
 
 [WSDL file for Services86/Selection](../Services86-Selection.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeletePersons Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.ITimeZoneAgent.SetActiveT
 
 ## SetActiveTimeZoneRow
 
-Set active state of singe row in the TZLocation table
 
-* **id:** Id of row to set active state on
-* **active:** Set active to true or false
+
+
 
 [WSDL file for Services84/TimeZone](../Services84-TimeZone.md)
 
@@ -48,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetActiveTimeZoneRow Response
 
 ```xml
@@ -66,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

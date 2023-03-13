@@ -87,11 +87,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Roberts Group",
-  "DeviceName": "Medhurst-Baumbach",
-  "DeviceIdentifier": "voluptatem",
-  "TableName": "Luettgen LLC",
-  "RecordId": 843
+  "ApplicationName": "Koch Group",
+  "DeviceName": "Friesen-Kirlin",
+  "DeviceIdentifier": "ex",
+  "TableName": "Ortiz, Deckow and Funk",
+  "RecordId": 729
 }
 ```
 
@@ -103,20 +103,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "saepe",
-    "Value": "maiores",
-    "RecordId": 780,
-    "CreatedDate": "2013-03-31T17:37:18.1162414+02:00",
-    "UpdatedDate": "2015-11-01T17:37:18.1162414+01:00",
-    "UpdatedBy": "nisi",
-    "CreatedBy": "inventore",
-    "TableName": "Hartmann Group",
+    "Key": "est",
+    "Value": "sed",
+    "RecordId": 201,
+    "CreatedDate": "2010-06-09T14:19:03.5759842+02:00",
+    "UpdatedDate": "2008-07-23T14:19:03.5759842+02:00",
+    "UpdatedBy": "fuga",
+    "CreatedBy": "accusamus",
+    "TableName": "Feest Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 324
+        "FieldType": "System.String",
+        "FieldLength": 435
       }
     }
   }

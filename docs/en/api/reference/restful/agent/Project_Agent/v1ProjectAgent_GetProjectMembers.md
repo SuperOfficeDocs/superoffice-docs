@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 743
+  "ProjectId": 13
 }
 ```
 
@@ -108,33 +108,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 680,
-    "ContactId": 648,
-    "ProjectId": 788,
-    "ContactName": "D'Amore, Altenwerth and Williamson",
+    "ProjectmemberId": 230,
+    "ContactId": 530,
+    "ProjectId": 704,
+    "ContactName": "Funk-Flatley",
     "ContactDepartment": "",
-    "ProjectName": "Nikolaus, Kihn and Boyle",
-    "EmailId": 616,
-    "EmailAddress": "kelvin@konopelski.info",
-    "CountryId": 158,
-    "Firstname": "Carley",
-    "MiddleName": "Corkery, Stokes and Bosco",
-    "Lastname": "Harvey",
-    "PersonId": 694,
-    "Mrmrs": "fugit",
-    "ProjectMemberTypeName": "Kunde-Cronin",
-    "Phone": "757.242.2606 x6815",
-    "PhoneId": 717,
-    "ProjectMemberTypeId": 591,
-    "EmailAddressName": "oceane@douglas.com",
-    "Comment": "voluptas",
-    "FullName": "Amari Kunde",
+    "ProjectName": "D'Amore LLC",
+    "EmailId": 615,
+    "EmailAddress": "madge@hicklebecker.biz",
+    "CountryId": 734,
+    "Firstname": "Stephan",
+    "MiddleName": "Mraz LLC",
+    "Lastname": "Boyle",
+    "PersonId": 440,
+    "Mrmrs": "quaerat",
+    "ProjectMemberTypeName": "Weber-Bartoletti",
+    "Phone": "505-384-9920 x815",
+    "PhoneId": 214,
+    "ProjectMemberTypeId": 705,
+    "EmailAddressName": "hilton@wyman.com",
+    "Comment": "incidunt",
+    "FullName": "Shanny Fay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 798
+        "FieldType": "System.Int32",
+        "FieldLength": 11
       }
     }
   }

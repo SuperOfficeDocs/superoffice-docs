@@ -109,28 +109,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 898,
-  "Section": "iure",
-  "Key": "repudiandae",
-  "Name": "Boyle, Gleason and Gerhold",
+  "PrefDescId": 305,
+  "Section": "quibusdam",
+  "Key": "beatae",
+  "Name": "Grady-Becker",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Visionary demand-driven data-warehouse",
+  "Description": "Reduced object-oriented firmware",
   "IsBuiltin": false,
-  "TableName": "Jast Inc and Sons",
-  "UserDefinedListId": 103,
-  "Rank": 465,
-  "SubGroup": "iure",
-  "MinLevel": 197,
-  "MaxValue": 937,
-  "MinValue": 852,
-  "RequiredLicense": "atque"
+  "TableName": "Blick, Kris and Hermann",
+  "UserDefinedListId": 278,
+  "Rank": 659,
+  "SubGroup": "nobis",
+  "MinLevel": 300,
+  "MaxValue": 215,
+  "MinValue": 263,
+  "RequiredLicense": "eveniet"
 }
 ```
 
@@ -141,35 +141,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 140,
-  "Section": "enim",
-  "Key": "hic",
-  "Name": "Hilpert-Toy",
+  "PrefDescId": 276,
+  "Section": "optio",
+  "Key": "perferendis",
+  "Name": "Klein, Connelly and Fay",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Progressive actuating parallelism",
-  "IsBuiltin": true,
-  "TableName": "Jenkins, Ward and Bradtke",
-  "UserDefinedListId": 601,
-  "Rank": 349,
-  "SubGroup": "molestias",
-  "MinLevel": 725,
-  "MaxValue": 644,
-  "MinValue": 856,
-  "RequiredLicense": "alias",
+  "Description": "Upgradable optimizing orchestration",
+  "IsBuiltin": false,
+  "TableName": "Goyette, Carroll and Bergstrom",
+  "UserDefinedListId": 260,
+  "Rank": 869,
+  "SubGroup": "eos",
+  "MinLevel": 859,
+  "MaxValue": 145,
+  "MinValue": 639,
+  "RequiredLicense": "deserunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 814
+      "FieldType": "System.String",
+      "FieldLength": 669
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

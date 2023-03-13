@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithDetails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "kaylee@lubowitzhammes.com",
-  "Counts": 116,
-  "Code": 63,
+  "EmailAddress": "maudie_swift@hagenesryan.com",
+  "Counts": 926,
+  "Code": 605,
   "Reason": ""
 }
 ```

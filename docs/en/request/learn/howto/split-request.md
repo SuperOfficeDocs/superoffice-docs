@@ -2,8 +2,13 @@
 uid: help-en-request-split
 title: Split requests
 description: Split requests
+<<<<<<< HEAD
+author: HanneGunnarsson
+so.date: 06.29.2022
+=======
 author: SuperOffice RnD
 so.date: 02.14.2023
+>>>>>>> 12524e485807edd9647d7ffe0382f40dbcb340f9
 keywords: request
 so.topic: help
 language: en
@@ -24,17 +29,33 @@ If a single request contains several questions, for example, if the customer fir
 
     This opens up a dialog, where you specify information about the new request.
 
+<<<<<<< HEAD
+1. In the **Title** field, enter a descriptive name for the request.
+
+1. In the **Category** field, select a category for the request.
+
+=======
 1. In the tab **Properites of the new request**, you have the different fields to fil in.
 
 1. In the **Title** field, enter a descriptive name for the request.
 
 1. In the **Category** field, select a category for the request.
 
+>>>>>>> 12524e485807edd9647d7ffe0382f40dbcb340f9
 1. In the **Owner** field, choose one of the following:
     * To assign the request to a specific person, select the name you require.
     * **(Automatically assigned)**: If you select this option, the system assigns the request in accordance with the applicable assignment rules.
     * **(Unassigned)**: You can also choose not to assign the request. The members of the relevant category then become responsible for dealing with the request.
 
+<<<<<<< HEAD
+1. In the **Priority** list box, you can choose between **Low**, **Medium** and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels][3] set for different contacts and companies.
+
+1. In the **Access level** list box, select one of the following options:
+    * **External**: Select this option if the contact is to have access to the request via SuperOffice Customer Centre.
+    * **Internal**: Select this option if the contact is not to have access to the request.
+
+1. In the **Status** list box, choose one of the following:
+=======
 1. In the **Priority** list, you can choose between **Low**, **Medium** and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels][3] set for different contacts and companies.
 
 1. In the **Access level** list, select one of the following options:
@@ -42,13 +63,18 @@ If a single request contains several questions, for example, if the customer fir
     * **Internal**: Select this option if the contact is not to have access to the request.
 
 1. In the **Status** list, choose one of the following:
+>>>>>>> 12524e485807edd9647d7ffe0382f40dbcb340f9
     * **Open**: Select this option if the request is in progress.
     * **Closed**: Select this option if the request is completed.
     * **Postponed**: To postpone handling of this request, select this option and specify a date in the date field to the right. On this date, the request is set back to **Open**.
 
 1. Select the **Messages** tab where you will find a list of messages involved in the request. Here you select the messages you want to move to the new request.
 
+<<<<<<< HEAD
+1. Click **OK**. The request is split.
+=======
 1. Click **OK**. The request is split and the new request opens.
+>>>>>>> 12524e485807edd9647d7ffe0382f40dbcb340f9
 
 ## What would you like to do now?
 

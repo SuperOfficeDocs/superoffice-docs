@@ -1292,218 +1292,123 @@ title: Services87.PreferenceAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Preference">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Preference</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultPreference">
-      <wsdl:documentation>
-        <summary>Loading default values into a new Preference.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/CreateDefaultPreference" name="CreateDefaultPreferenceRequest" message="tns:CreateDefaultPreferenceRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/CreateDefaultPreferenceResponse" name="CreateDefaultPreferenceResponse" message="tns:CreateDefaultPreferenceResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultPreferenceDescription">
-      <wsdl:documentation>
-        <summary>Loading default values into a new PreferenceDescription.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/CreateDefaultPreferenceDescription" name="CreateDefaultPreferenceDescriptionRequest" message="tns:CreateDefaultPreferenceDescriptionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/CreateDefaultPreferenceDescriptionResponse" name="CreateDefaultPreferenceDescriptionResponse" message="tns:CreateDefaultPreferenceDescriptionResponse" />
     </wsdl:operation>
     <wsdl:operation name="SavePreferenceDescription">
-      <wsdl:documentation>
-        <summary>Updates the existing PreferenceDescription or creates a new PreferenceDescription if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/SavePreferenceDescription" name="SavePreferenceDescriptionRequest" message="tns:SavePreferenceDescriptionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/SavePreferenceDescriptionResponse" name="SavePreferenceDescriptionResponse" message="tns:SavePreferenceDescriptionResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeletePreferenceDescription">
-      <wsdl:documentation>
-        <summary>Deletes the PreferenceDescription</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/DeletePreferenceDescription" name="DeletePreferenceDescriptionRequest" message="tns:DeletePreferenceDescriptionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/DeletePreferenceDescriptionResponse" name="DeletePreferenceDescriptionResponse" message="tns:DeletePreferenceDescriptionResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultPreferenceDescriptionLine">
-      <wsdl:documentation>
-        <summary>Loading default values into a new PreferenceDescriptionLine.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/CreateDefaultPreferenceDescriptionLine" name="CreateDefaultPreferenceDescriptionLineRequest" message="tns:CreateDefaultPreferenceDescriptionLineRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/CreateDefaultPreferenceDescriptionLineResponse" name="CreateDefaultPreferenceDescriptionLineResponse" message="tns:CreateDefaultPreferenceDescriptionLineResponse" />
     </wsdl:operation>
     <wsdl:operation name="SavePreference">
-      <wsdl:documentation>
-        <summary>Save this preference</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/SavePreference" name="SavePreferenceRequest" message="tns:SavePreferenceRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/SavePreferenceResponse" name="SavePreferenceResponse" message="tns:SavePreferenceResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveTabOrder">
-      <wsdl:documentation>
-        <summary>Saves the tab order. The order is saved pr. user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/SaveTabOrder" name="SaveTabOrderRequest" message="tns:SaveTabOrderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/SaveTabOrderResponse" name="SaveTabOrderResponse" message="tns:SaveTabOrderResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTabOrder">
-      <wsdl:documentation>
-        <summary>Gets the tab order.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetTabOrder" name="GetTabOrderRequest" message="tns:GetTabOrderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetTabOrderResponse" name="GetTabOrderResponse" message="tns:GetTabOrderResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPreference">
-      <wsdl:documentation>
-        <summary>Get a preference by id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetPreference" name="GetPreferenceRequest" message="tns:GetPreferenceRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetPreferenceResponse" name="GetPreferenceResponse" message="tns:GetPreferenceResponse" />
     </wsdl:operation>
     <wsdl:operation name="SavePreferenceEntity">
-      <wsdl:documentation>
-        <summary>Saves a complete preference object, on any level and any target. Preference administrator rights are required to use this</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/SavePreferenceEntity" name="SavePreferenceEntityRequest" message="tns:SavePreferenceEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/SavePreferenceEntityResponse" name="SavePreferenceEntityResponse" message="tns:SavePreferenceEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeletePreference">
-      <wsdl:documentation>
-        <summary>Delete a preference by id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/DeletePreference" name="DeletePreferenceRequest" message="tns:DeletePreferenceRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/DeletePreferenceResponse" name="DeletePreferenceResponse" message="tns:DeletePreferenceResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeletePreferences">
-      <wsdl:documentation>
-        <summary>Delete some preferences by id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/DeletePreferences" name="DeletePreferencesRequest" message="tns:DeletePreferencesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/DeletePreferencesResponse" name="DeletePreferencesResponse" message="tns:DeletePreferencesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPreferenceByName">
-      <wsdl:documentation>
-        <summary>Get a preference by name</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetPreferenceByName" name="GetPreferenceByNameRequest" message="tns:GetPreferenceByNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetPreferenceByNameResponse" name="GetPreferenceByNameResponse" message="tns:GetPreferenceByNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPreferenceByNameAndId">
-      <wsdl:documentation>
-        <summary>Get a preference by name and owner id.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetPreferenceByNameAndId" name="GetPreferenceByNameAndIdRequest" message="tns:GetPreferenceByNameAndIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetPreferenceByNameAndIdResponse" name="GetPreferenceByNameAndIdResponse" message="tns:GetPreferenceByNameAndIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetNetServicesStatusUrl">
-      <wsdl:documentation>
-        <summary>Returns URL to status service. e.g. 'https://help.superoffice.com/sodispatcher/v1/status' Returns NULL if status does not need to be checked yet.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetNetServicesStatusUrl" name="GetNetServicesStatusUrlRequest" message="tns:GetNetServicesStatusUrlRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetNetServicesStatusUrlResponse" name="GetNetServicesStatusUrlResponse" message="tns:GetNetServicesStatusUrlResponse" />
     </wsdl:operation>
     <wsdl:operation name="UpdateNetServicesStatus">
-      <wsdl:documentation>
-        <summary>Update the NetServices preferences with values contained in the content from the Status URL</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/UpdateNetServicesStatus" name="UpdateNetServicesStatusRequest" message="tns:UpdateNetServicesStatusRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/UpdateNetServicesStatusResponse" name="UpdateNetServicesStatusResponse" message="tns:UpdateNetServicesStatusResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPreferenceDescription">
-      <wsdl:documentation>
-        <summary>Gets a PreferenceDescription object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetPreferenceDescription" name="GetPreferenceDescriptionRequest" message="tns:GetPreferenceDescriptionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetPreferenceDescriptionResponse" name="GetPreferenceDescriptionResponse" message="tns:GetPreferenceDescriptionResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFromSectionAndKey">
-      <wsdl:documentation>
-        <summary>Gets a PreferenceDescription based on the section and key</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetFromSectionAndKey" name="GetFromSectionAndKeyRequest" message="tns:GetFromSectionAndKeyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetFromSectionAndKeyResponse" name="GetFromSectionAndKeyResponse" message="tns:GetFromSectionAndKeyResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAll">
-      <wsdl:documentation>
-        <summary>Gets a list of all PreferenceDescriptions in the system.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetAll" name="GetAllRequest" message="tns:GetAllRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetAllResponse" name="GetAllResponse" message="tns:GetAllResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllFromSection">
-      <wsdl:documentation>
-        <summary>Gets all PreferenceDescription-items in the specified section</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetAllFromSection" name="GetAllFromSectionRequest" message="tns:GetAllFromSectionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetAllFromSectionResponse" name="GetAllFromSectionResponse" message="tns:GetAllFromSectionResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveFromSectionAndKey">
-      <wsdl:documentation>
-        <summary>Update a PreferenceDescription based on the section and key</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/SaveFromSectionAndKey" name="SaveFromSectionAndKeyRequest" message="tns:SaveFromSectionAndKeyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/SaveFromSectionAndKeyResponse" name="SaveFromSectionAndKeyResponse" message="tns:SaveFromSectionAndKeyResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteFromSectionAndKey">
-      <wsdl:documentation>
-        <summary>Gets a PreferenceDescription based on the section and key</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/DeleteFromSectionAndKey" name="DeleteFromSectionAndKeyRequest" message="tns:DeleteFromSectionAndKeyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/DeleteFromSectionAndKeyResponse" name="DeleteFromSectionAndKeyResponse" message="tns:DeleteFromSectionAndKeyResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPreferenceDescriptionLine">
-      <wsdl:documentation>
-        <summary>Gets a PreferenceDescriptionLine object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetPreferenceDescriptionLine" name="GetPreferenceDescriptionLineRequest" message="tns:GetPreferenceDescriptionLineRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetPreferenceDescriptionLineResponse" name="GetPreferenceDescriptionLineResponse" message="tns:GetPreferenceDescriptionLineResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPreferenceDescriptionLineFromIdAndValue">
-      <wsdl:documentation>
-        <summary>Get a preference description line from a prefDesc_id and a prefValue</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetPreferenceDescriptionLineFromIdAndValue" name="GetPreferenceDescriptionLineFromIdAndValueRequest" message="tns:GetPreferenceDescriptionLineFromIdAndValueRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetPreferenceDescriptionLineFromIdAndValueResponse" name="GetPreferenceDescriptionLineFromIdAndValueResponse" message="tns:GetPreferenceDescriptionLineFromIdAndValueResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPreferences">
-      <wsdl:documentation>
-        <summary>Get one or more preferences based on a set of specifications.&lt;br/&gt;The prefDisplayvalue and prefDisplaytooltip are blank (faster processing relative to GetPreferencesWithDisplayValues)</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetPreferences" name="GetPreferencesRequest" message="tns:GetPreferencesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetPreferencesResponse" name="GetPreferencesResponse" message="tns:GetPreferencesResponse" />
     </wsdl:operation>
     <wsdl:operation name="SavePreferences">
-      <wsdl:documentation>
-        <summary>Save this set of preferences. Note this method DOES NOT look at level/targetId - it only saves on behalf of the CURRENT USER.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/SavePreferences" name="SavePreferencesRequest" message="tns:SavePreferencesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/SavePreferencesResponse" name="SavePreferencesResponse" message="tns:SavePreferencesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPreferencesWithDisplayValues">
-      <wsdl:documentation>
-        <summary>Get one or more preferences based on a set of specifications&lt;br/&gt;The PrefDisplayValue and PrefDisplaytooltip are populated, at some additional processing cost.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetPreferencesWithDisplayValues" name="GetPreferencesWithDisplayValuesRequest" message="tns:GetPreferencesWithDisplayValuesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetPreferencesWithDisplayValuesResponse" name="GetPreferencesWithDisplayValuesResponse" message="tns:GetPreferencesWithDisplayValuesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTabOrders">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetTabOrders" name="GetTabOrdersRequest" message="tns:GetTabOrdersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/GetTabOrdersResponse" name="GetTabOrdersResponse" message="tns:GetTabOrdersResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveTabOrders">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/SaveTabOrders" name="SaveTabOrdersRequest" message="tns:SaveTabOrdersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/SaveTabOrdersResponse" name="SaveTabOrdersResponse" message="tns:SaveTabOrdersResponse" />
     </wsdl:operation>
     <wsdl:operation name="SavePreferenceEntities">
-      <wsdl:documentation>
-        <summary>Save this set of preferences.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/SavePreferenceEntities" name="SavePreferenceEntitiesRequest" message="tns:SavePreferenceEntitiesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Preference/SavePreferenceEntitiesResponse" name="SavePreferenceEntitiesResponse" message="tns:SavePreferenceEntitiesResponse" />
     </wsdl:operation>
@@ -1998,3 +1903,4 @@ title: Services87.PreferenceAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

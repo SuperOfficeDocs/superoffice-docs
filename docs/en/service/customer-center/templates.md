@@ -10,11 +10,11 @@ so.envir: onsite
 
 # Customer center templates
 
-The templates are located inside the *Templates* directory in your Service install directory. Inside this directory, there can be multiple folders, each containing templates for the different customer languages. Inside the language directory, there should be only one directory called *customer*, unless you have made any custom directories. This is where the templates are stored. To edit one, you simply open it in a text editor.
+The templates are located inside the *Templates* directory in your SuperOffice install directory. Inside this directory, there can be multiple folders, each containing templates for the different customer languages. Inside the language directory, there should be only one directory called *customer*, unless you have made any custom directories. This is where the templates are stored. To edit one, you simply open it in a text editor.
 
 What the various templates do is described on [Customer Center Configuration][1] page.
 
-The templates are composed of normal HTML code and some tags that are understood by the Service system. These tags are marked with the percent symbol. For example, %GfxPath%. In Service-jargon, these tags are called *parser variables*. When accessed through the customer module in Service, the parser variables are replaced with understandable HTML code.
+The templates are composed of normal HTML code and some tags that are understood by the Requests system. These tags are marked with the percent symbol. For example, %GfxPath%. In Requests-jargon, these tags are called *parser variables*. When accessed through the customer module in SuperOffice, the parser variables are replaced with understandable HTML code.
 
 All templates can be customized to your own wishes and you should be safe when just editing the HTML code and preserving the parser variables. If you are certain that you do not need a parser variable you can remove it. Parser variables can also be moved to other places in the template to fix the order of information.
 
@@ -55,9 +55,9 @@ Two important global parser variables are `%GfxPath%` which gives the base path 
 <a href="%Program%?action=registerCust">Register</a>
 ```
 
-The other variables should be self-explaining if you study the templates. Be aware that all parser variables will not be accessible in every template. To see the defined variables for a template, you can use the special debug variables `%PARSER_TREE%` at the bottom of a template file. This will print out all the variables to your browser when access through the customer module. This is especially useful when you want to explicitly call an extra field defined in Service. If you for example make an extra field in the request table, you have to manually code the template to show these in the customer pages.
+The other variables should be self-explaining if you study the templates. Be aware that all parser variables will not be accessible in every template. To see the defined variables for a template, you can use the special debug variables `%PARSER_TREE%` at the bottom of a template file. This will print out all the variables to your browser when access through the customer module. This is especially useful when you want to explicitly call an extra field defined in Requests. If you for example make an extra field in the request table, you have to manually code the template to show these in the customer pages.
 
-You can also create your own custom templates, which for example can make a request in Service based on information from the web page. The following described how to make such templates.
+You can also create your own custom templates, which for example can make a request in Requests based on information from the web page. The following described how to make such templates.
 
 ## How can I create drop-downs on the customer pages where you can choose the category from a hierarchical view?
 

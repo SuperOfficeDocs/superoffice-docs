@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IImportAgent.CreateDefaul
 
 ## CreateDefaultImportLine
 
-Create a new empty import row with x count of values
 
-* **countColumns:** The count of values that will can be filled out
 
-**Returns:** A new ImportLine
+
 
 [WSDL file for Services88/Import](../Services88-Import.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultImportLine Response
 
 ```xml
@@ -77,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

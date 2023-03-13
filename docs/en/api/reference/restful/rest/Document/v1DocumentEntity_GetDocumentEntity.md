@@ -108,7 +108,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -116,91 +116,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 26 Aug 2021 17:37:38 G8T
+Last-Modified: Sun, 10 Apr 2005 14:19:10 G4T
 
 {
-  "DocumentId": 892,
+  "DocumentId": 625,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "non",
-  "Header": "voluptatem",
-  "Name": "Stoltenberg, Leffler and Schinner",
-  "OurRef": "consequatur",
-  "YourRef": "eum",
-  "CreatedDate": "1995-12-21T17:37:38.5258602+01:00",
-  "UpdatedDate": "2021-08-26T17:37:38.5258602+02:00",
-  "Description": "Diverse user-facing migration",
+  "Attention": "natus",
+  "Header": "libero",
+  "Name": "Kunze-Lockman",
+  "OurRef": "quibusdam",
+  "YourRef": "optio",
+  "CreatedDate": "2011-04-23T14:19:10.2873484+02:00",
+  "UpdatedDate": "2005-04-10T14:19:10.2873484+02:00",
+  "Description": "Versatile disintermediate emulation",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2009-01-06T17:37:38.5278294+01:00",
-  "ExternalRef": "omnis",
+  "Date": "2022-12-04T14:19:10.2873484+01:00",
+  "ExternalRef": "odit",
   "Completed": "Completed",
-  "ActiveLinks": 557,
+  "ActiveLinks": 961,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Champlin-Lesch",
-      "Id": 601,
-      "Description": "Stand-alone intermediate service-desk",
-      "ExtraInfo": "rem",
-      "LinkId": 598,
+      "EntityName": "Bernhard-Zemlak",
+      "Id": 384,
+      "Description": "Total 24 hour hardware",
+      "ExtraInfo": "voluptatibus",
+      "LinkId": 951,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 772
+          "FieldType": "System.Int32",
+          "FieldLength": 413
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 365,
-  "Snum": 942,
+  "SuggestedDocumentId": 631,
+  "Snum": 939,
   "UserDefinedFields": {
-    "SuperOffice:1": "Vallie Metz IV",
-    "SuperOffice:2": "Mariane Kertzmann"
+    "SuperOffice:1": "Alfred Kris",
+    "SuperOffice:2": "1338876647"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "libero"
+    "ExtraFields1": "nostrum",
+    "ExtraFields2": "velit"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "in"
+    "CustomFields1": "aut",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2001-08-04T17:37:38.5298573+02:00",
-  "PublishTo": "2010-09-11T17:37:38.5298573+02:00",
-  "PublishFrom": "2007-02-14T17:37:38.5298573+01:00",
+  "PublishEventDate": "2007-11-09T14:19:10.2873484+01:00",
+  "PublishTo": "1997-12-29T14:19:10.2873484+01:00",
+  "PublishFrom": "1999-10-04T14:19:10.2873484+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 439,
+      "VisibleId": 54,
       "Visibility": "All",
-      "DisplayValue": "maxime",
+      "DisplayValue": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 58
+          "FieldLength": 474
         }
       }
     },
     {
-      "VisibleId": 439,
+      "VisibleId": 54,
       "Visibility": "All",
-      "DisplayValue": "maxime",
+      "DisplayValue": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 58
+          "FieldLength": 474
         }
       }
     }
@@ -210,7 +210,7 @@ Last-Modified: Thu, 26 Aug 2021 17:37:38 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldLength": 58
     }
   },
   "_Links": {

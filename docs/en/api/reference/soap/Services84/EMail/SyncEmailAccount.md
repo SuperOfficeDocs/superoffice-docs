@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IEMailAgent.SyncEmailAcco
 
 ## SyncEmailAccount
 
-Sync the given account
 
-* **syncUserAccount:** Account to sync
 
-**Returns:** A void return
+
 
 [WSDL file for Services84/EMail](../Services84-EMail.md)
 
@@ -53,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SyncEmailAccount Response
 
 ```xml
@@ -72,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

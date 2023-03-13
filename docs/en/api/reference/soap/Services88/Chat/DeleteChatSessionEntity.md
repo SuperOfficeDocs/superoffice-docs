@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.DeleteChatSess
 
 ## DeleteChatSessionEntity
 
-Deletes the ChatSessionEntity
 
-* **chatSessionEntityId:** The identity of the ChatSessionEntity
+
+
 
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteChatSessionEntity Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

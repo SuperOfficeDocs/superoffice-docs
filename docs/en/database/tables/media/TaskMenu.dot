@@ -1,0 +1,15 @@
+digraph TaskMenu  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+TaskMenu[fillcolor = "cadetblue1"]
+ejscript[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+TaskMenuGroupLink[fillcolor = "azure1"]
+TaskMenuHeadingLink[fillcolor = "azure1"]
+TaskMenu -> ejscript [headlabel = "crmScript_id"]
+TaskMenu -> associate [headlabel = "registered_associate_id"]
+TaskMenu -> associate [label = "updated_associate_id"]
+TaskMenuGroupLink -> TaskMenu [label = "taskMenu_id"]
+TaskMenuHeadingLink -> TaskMenu [label = "taskMenu_id"]
+}

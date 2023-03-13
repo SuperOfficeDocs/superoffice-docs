@@ -11,14 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IPersonAgent.CreateTempor
 
 ## CreateTemporaryKey
 
-Create a temporary key in the database from the given parameters and return the key string. Used for temporary keys for accessing customer centric functionality, such as UpdateSubscriptions.
 
-* **domain:** The domain this key is for
-* **targetId:** The primary key of the entity this is for. Depends on domain.
-* **personId:** The person this key is for. May be null.
-* **expires:** When the key will expire (servers local time)
 
-**Returns:** The key as base64, ready to be used e.g. in a URL
+
 
 [WSDL file for Services84/Person](../Services84-Person.md)
 
@@ -47,13 +42,14 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Person:Domain xsi:type="Person:TemporaryKeyDomain">Unknown</Person:Domain>
     <Person:TargetId xsi:type="xsd:int">0</Person:TargetId>
     <Person:PersonId xsi:type="xsd:int">0</Person:PersonId>
-    <Person:Expires xsi:type="xsd:dateTime">2022-08-26T08:51:22Z</Person:Expires>
+    <Person:Expires xsi:type="xsd:dateTime">2023-02-15T13:09:58Z</Person:Expires>
    </Person:CreateTemporaryKey>
 
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateTemporaryKey Response
 
@@ -75,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

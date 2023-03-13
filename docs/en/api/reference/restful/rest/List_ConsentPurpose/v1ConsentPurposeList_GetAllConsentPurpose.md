@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,25 +79,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 520,
-    "Name": "Gorczany Group",
-    "ConsentText": "nobis",
-    "FormText": "voluptas",
-    "Key": "animi",
-    "Tooltip": "totam",
-    "Active": 657,
-    "UpdatedDate": "2013-10-26T17:37:39.8895009+02:00",
+    "ConsentPurposeId": 438,
+    "Name": "Terry, Leannon and Lueilwitz",
+    "ConsentText": "inventore",
+    "FormText": "nostrum",
+    "Key": "quisquam",
+    "Tooltip": "odio",
+    "Active": 897,
+    "UpdatedDate": "2009-12-22T14:19:11.163718+01:00",
     "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 208,
-    "PrivacyStatementDesc": "distinctio",
+    "Rank": 115,
+    "PrivacyStatementDesc": "neque",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 130
+        "FieldLength": 40
       }
     }
   }

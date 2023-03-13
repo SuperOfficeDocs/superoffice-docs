@@ -11,17 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IArchiveAgent.ExportArchi
 
 ## ExportArchive
 
-Exports the target archive to a downloadable format.
 
-* **providerName:** The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
-* **context:** Context parameter, url-encoded string context parameter for ArchiveProvider constructor
-* **desiredEntities:** Comma separated list of the names of the desired entities.
-* **columns:** Comma separated list of the names of the columns wanted; supports display names
-* **sortOrder:**
-* **restrictions:**
-* **exportType:** To what format the archive should be exported; Excel, etc.
-* **selectedRowIds:**
-* **estimatedRowCount:** The estimated amount of rows to be exported. Used to determine if the operation should be run as a batch task or immediately.
+
+
 
 [WSDL file for Services88/Archive](../Services88-Archive.md)
 
@@ -149,6 +141,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ExportArchive Response
 
 ```xml
@@ -173,3 +166,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

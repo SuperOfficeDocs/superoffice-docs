@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 42,
-    "Name": "Brekke, Pfannerstill and Labadie",
-    "ToolTip": "Nesciunt et dolor et enim.",
+    "Id": 533,
+    "Name": "Abbott, McCullough and Muller",
+    "ToolTip": "Nisi occaecati.",
     "Deleted": false,
-    "Rank": 249,
-    "Type": "voluptatem",
-    "ColorBlock": 963,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2019-07-24T17:37:40.1655016+02:00",
+    "Rank": 233,
+    "Type": "maiores",
+    "ColorBlock": 807,
+    "IconHint": "omnis",
+    "Selected": false,
+    "LastChanged": "2001-04-05T14:19:11.3680268+02:00",
     "ChildItems": [
       {
-        "Id": 958,
-        "Name": "Schmeler-Mills",
-        "ToolTip": "Velit voluptas occaecati.",
-        "Deleted": false,
-        "Rank": 375,
-        "Type": "nemo",
-        "ColorBlock": 959,
-        "IconHint": "enim",
+        "Id": 207,
+        "Name": "Murray, Bashirian and Gusikowski",
+        "ToolTip": "Doloribus eos est aliquid ut.",
+        "Deleted": true,
+        "Rank": 800,
+        "Type": "ex",
+        "ColorBlock": 162,
+        "IconHint": "minus",
         "Selected": false,
-        "LastChanged": "2020-09-23T17:37:40.1655016+02:00",
+        "LastChanged": "1996-10-30T14:19:11.3680268+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "eum",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Kaylah Turcotte MD",
+        "FullName": "Gwen Howell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 324
+            "FieldType": "System.String",
+            "FieldLength": 296
           }
         }
       }
     ],
-    "ExtraInfo": "laudantium",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Prof. Luis Pollich DDS",
+    "ExtraInfo": "facere",
+    "StyleHint": "expedita",
+    "Hidden": true,
+    "FullName": "Kraig Hermiston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 887
+        "FieldLength": 615
       }
     }
   }

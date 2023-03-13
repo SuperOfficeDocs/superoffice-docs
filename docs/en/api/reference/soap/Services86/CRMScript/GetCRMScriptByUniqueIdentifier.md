@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.ICRMScriptAgent.GetCRMScr
 
 ## GetCRMScriptByUniqueIdentifier
 
-Get information about a script from a unique identifier
-<para /><b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-* **uniqueIdentifier:** Global unique reference to script (independent of installation)
 
-**Returns:** Information about CRMScript
+
 
 [WSDL file for Services86/CRMScript](../Services86-CRMScript.md)
 
@@ -49,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetCRMScriptByUniqueIdentifier Response
 
 ```xml
@@ -68,9 +66,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <CRMScript:Description xsi:type="xsd:string"></CRMScript:Description>
     <CRMScript:IncludeId xsi:type="xsd:string"></CRMScript:IncludeId>
     <CRMScript:Source xsi:type="xsd:string"></CRMScript:Source>
-    <CRMScript:Registered xsi:type="xsd:dateTime">2022-08-26T08:54:35Z</CRMScript:Registered>
+    <CRMScript:Registered xsi:type="xsd:dateTime">2023-02-15T13:12:57Z</CRMScript:Registered>
     <CRMScript:RegisteredBy xsi:type="xsd:string"></CRMScript:RegisteredBy>
-    <CRMScript:Updated xsi:type="xsd:dateTime">2022-08-26T08:54:35Z</CRMScript:Updated>
+    <CRMScript:Updated xsi:type="xsd:dateTime">2023-02-15T13:12:57Z</CRMScript:Updated>
     <CRMScript:UpdatedBy xsi:type="xsd:string"></CRMScript:UpdatedBy>
     <CRMScript:Path xsi:type="xsd:string"></CRMScript:Path>
    </CRMScript:Response>
@@ -79,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

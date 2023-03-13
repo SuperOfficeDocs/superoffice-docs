@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    491,
-    371
+    901,
+    609
   ]
 }
 ```
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 706,
-    "Attention": "numquam",
-    "Header": "temporibus",
-    "Name": "West-Schimmel",
-    "OurRef": "architecto",
-    "YourRef": "facilis",
-    "Description": "Stand-alone high-level info-mediaries",
-    "DocumentTemplate": "sed",
+    "DocumentId": 55,
+    "Attention": "consequatur",
+    "Header": "dolorem",
+    "Name": "Hermiston, Goyette and Franecki",
+    "OurRef": "ut",
+    "YourRef": "est",
+    "Description": "Self-enabling assymetric model",
+    "DocumentTemplate": "magni",
     "IsPublished": false,
-    "PersonId": 909,
-    "PersonFullName": "Mrs. Cristal Gustave Little",
-    "AssociateFullName": "Madyson Skyla Schuppe III",
-    "ContactId": 958,
-    "ContactName": "Stiedemann, Ziemann and Thiel",
-    "ProjectId": 265,
-    "ProjectName": "Harris, Sauer and Klocko",
-    "AssociateId": 802,
-    "Snum": 325,
-    "SaleId": 370,
-    "SaleName": "Turcotte Inc and Sons",
+    "PersonId": 231,
+    "PersonFullName": "Sandrine Will",
+    "AssociateFullName": "Sofia Abernathy",
+    "ContactId": 966,
+    "ContactName": "O'Hara LLC",
+    "ProjectId": 896,
+    "ProjectName": "Bashirian LLC",
+    "AssociateId": 850,
+    "Snum": 983,
+    "SaleId": 745,
+    "SaleName": "Bailey Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 7
+        "FieldType": "System.Int32",
+        "FieldLength": 997
       }
     }
   }

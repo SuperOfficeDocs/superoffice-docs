@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IPersonAgent.DeleteConsen
 
 ## DeleteConsentPerson
 
-Deletes the ConsentPerson
 
-* **consentPersonId:** The identity of the ConsentPerson
+
+
 
 [WSDL file for Services88/Person](../Services88-Person.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteConsentPerson Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

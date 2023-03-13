@@ -566,6 +566,7 @@ title: Services88.QuoteAgent WSDL
               <xs:element minOccurs="0" name="TechExplanation" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="ErrorCode" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Changes" nillable="true" type="tns:ChangedData" />
+              <xs:element minOccurs="0" name="Status" type="tns:QuoteStatus" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -1431,6 +1432,7 @@ title: Services88.QuoteAgent WSDL
               <xs:element minOccurs="0" name="ErrorCode" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Changes" nillable="true" type="tns:ChangedData" />
               <xs:element minOccurs="0" name="Url" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Status" type="tns:QuoteStatus" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -1910,6 +1912,7 @@ title: Services88.QuoteAgent WSDL
               <xs:element minOccurs="0" name="ChangedQuote" nillable="true" type="tns:Quote" />
               <xs:element minOccurs="0" name="ChangedQuoteVersion" nillable="true" type="tns:QuoteVersion" />
               <xs:element minOccurs="0" name="ChangedQuoteAlternatives" nillable="true" type="tns:ArrayOfQuoteAlternativeRecalculated" />
+              <xs:element minOccurs="0" name="Status" type="tns:QuoteStatus" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -4179,706 +4182,403 @@ title: Services88.QuoteAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Quote">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Quote</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultPriceList">
-      <wsdl:documentation>
-        <summary>Loading default values into a new PriceList.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateDefaultPriceList" name="CreateDefaultPriceListRequest" message="tns:CreateDefaultPriceListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateDefaultPriceListResponse" name="CreateDefaultPriceListResponse" message="tns:CreateDefaultPriceListResponse" />
     </wsdl:operation>
     <wsdl:operation name="SavePriceList">
-      <wsdl:documentation>
-        <summary>Updates the existing PriceList or creates a new PriceList if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SavePriceList" name="SavePriceListRequest" message="tns:SavePriceListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SavePriceListResponse" name="SavePriceListResponse" message="tns:SavePriceListResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeletePriceList">
-      <wsdl:documentation>
-        <summary>Deletes the PriceList</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/DeletePriceList" name="DeletePriceListRequest" message="tns:DeletePriceListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/DeletePriceListResponse" name="DeletePriceListResponse" message="tns:DeletePriceListResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultProduct">
-      <wsdl:documentation>
-        <summary>Loading default values into a new Product.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateDefaultProduct" name="CreateDefaultProductRequest" message="tns:CreateDefaultProductRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateDefaultProductResponse" name="CreateDefaultProductResponse" message="tns:CreateDefaultProductResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveProduct">
-      <wsdl:documentation>
-        <summary>Updates the existing Product or creates a new Product if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveProduct" name="SaveProductRequest" message="tns:SaveProductRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveProductResponse" name="SaveProductResponse" message="tns:SaveProductResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteProduct">
-      <wsdl:documentation>
-        <summary>Deletes the Product</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/DeleteProduct" name="DeleteProductRequest" message="tns:DeleteProductRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/DeleteProductResponse" name="DeleteProductResponse" message="tns:DeleteProductResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultQuoteAlternative">
-      <wsdl:documentation>
-        <summary>Loading default values into a new QuoteAlternative.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateDefaultQuoteAlternative" name="CreateDefaultQuoteAlternativeRequest" message="tns:CreateDefaultQuoteAlternativeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateDefaultQuoteAlternativeResponse" name="CreateDefaultQuoteAlternativeResponse" message="tns:CreateDefaultQuoteAlternativeResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveQuoteAlternative">
-      <wsdl:documentation>
-        <summary>Updates the existing QuoteAlternative or creates a new QuoteAlternative if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteAlternative" name="SaveQuoteAlternativeRequest" message="tns:SaveQuoteAlternativeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteAlternativeResponse" name="SaveQuoteAlternativeResponse" message="tns:SaveQuoteAlternativeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConfigurationFields">
-      <wsdl:documentation>
-        <summary>Used by ADMIN. Asks for metadata needed to populate admin dialog that takes in the information needed to create a connection to an ERP system. The values entered in the dialog are stored in SuperOffice db and used when InitializeConnector is called by the client.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetConfigurationFields" name="GetConfigurationFieldsRequest" message="tns:GetConfigurationFieldsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetConfigurationFieldsResponse" name="GetConfigurationFieldsResponse" message="tns:GetConfigurationFieldsResponse" />
     </wsdl:operation>
     <wsdl:operation name="TestConnection">
-      <wsdl:documentation>
-        <summary>Used by the Admin clients. Testing if the connection data is sufficient to get a connection with the ERP system. The Connector should try to do some operations to check if the connection has sufficient rights to run. The connection has not been created yet. TestConnection is called without InitializeConnector being called first.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/TestConnection" name="TestConnectionRequest" message="tns:TestConnectionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/TestConnectionResponse" name="TestConnectionResponse" message="tns:TestConnectionResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPriceList">
-      <wsdl:documentation>
-        <summary>Gets a PriceList object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetPriceList" name="GetPriceListRequest" message="tns:GetPriceListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetPriceListResponse" name="GetPriceListResponse" message="tns:GetPriceListResponse" />
     </wsdl:operation>
     <wsdl:operation name="CopySuperOfficePriceList">
-      <wsdl:documentation>
-        <summary>Create a copy of a PriceList in the SuperOffice database</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CopySuperOfficePriceList" name="CopySuperOfficePriceListRequest" message="tns:CopySuperOfficePriceListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CopySuperOfficePriceListResponse" name="CopySuperOfficePriceListResponse" message="tns:CopySuperOfficePriceListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProductImage">
-      <wsdl:documentation>
-        <summary>Gets an image connected to a product, from the ProductProvider</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetProductImage" name="GetProductImageRequest" message="tns:GetProductImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetProductImageResponse" name="GetProductImageResponse" message="tns:GetProductImageResponse" />
     </wsdl:operation>
     <wsdl:operation name="FindProduct">
-      <wsdl:documentation>
-        <summary>Gets a product, from the ProductProvider</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/FindProduct" name="FindProductRequest" message="tns:FindProductRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/FindProductResponse" name="FindProductResponse" message="tns:FindProductResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProduct">
-      <wsdl:documentation>
-        <summary>Get a product with the given key</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetProduct" name="GetProductRequest" message="tns:GetProductRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetProductResponse" name="GetProductResponse" message="tns:GetProductResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProductFromDbId">
-      <wsdl:documentation>
-        <summary>Get a product with the given database id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetProductFromDbId" name="GetProductFromDbIdRequest" message="tns:GetProductFromDbIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetProductFromDbIdResponse" name="GetProductFromDbIdResponse" message="tns:GetProductFromDbIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="RemoveProduct">
-      <wsdl:documentation>
-        <summary>Removes a product from the database</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/RemoveProduct" name="RemoveProductRequest" message="tns:RemoveProductRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/RemoveProductResponse" name="RemoveProductResponse" message="tns:RemoveProductResponse" />
     </wsdl:operation>
     <wsdl:operation name="ToggleProductInAssortment">
-      <wsdl:documentation>
-        <summary>Toggles if the prdouct is in assortment or not</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/ToggleProductInAssortment" name="ToggleProductInAssortmentRequest" message="tns:ToggleProductInAssortmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/ToggleProductInAssortmentResponse" name="ToggleProductInAssortmentResponse" message="tns:ToggleProductInAssortmentResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveQuote">
-      <wsdl:documentation>
-        <summary>Saves a Quote</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuote" name="SaveQuoteRequest" message="tns:SaveQuoteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteResponse" name="SaveQuoteResponse" message="tns:SaveQuoteResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetQuote">
-      <wsdl:documentation>
-        <summary>Get a Quote</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuote" name="GetQuoteRequest" message="tns:GetQuoteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteResponse" name="GetQuoteResponse" message="tns:GetQuoteResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetQuoteFromSaleId">
-      <wsdl:documentation>
-        <summary>Get a Quote for a sale</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteFromSaleId" name="GetQuoteFromSaleIdRequest" message="tns:GetQuoteFromSaleIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteFromSaleIdResponse" name="GetQuoteFromSaleIdResponse" message="tns:GetQuoteFromSaleIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetQuoteAlternative">
-      <wsdl:documentation>
-        <summary>Gets a QuoteAlternative object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteAlternative" name="GetQuoteAlternativeRequest" message="tns:GetQuoteAlternativeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteAlternativeResponse" name="GetQuoteAlternativeResponse" message="tns:GetQuoteAlternativeResponse" />
     </wsdl:operation>
     <wsdl:operation name="RecalculateQuoteAlternative">
-      <wsdl:documentation>
-        <summary>When the user changes one or more values in a quoteline or a quoteAlternative, the connector gets to change the QuoteLines and the alternative, for instance calculate VAT. RecalculateQuoteAlternative shall be called when the user changes any of the following fields: Quantity, DiscountAmount, DiscountPercent, listprice (if allowed). RecalculateQuoteAlternative will calculate the TotalPrice and the VAT (if possible) for the lines and the alternative.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/RecalculateQuoteAlternative" name="RecalculateQuoteAlternativeRequest" message="tns:RecalculateQuoteAlternativeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/RecalculateQuoteAlternativeResponse" name="RecalculateQuoteAlternativeResponse" message="tns:RecalculateQuoteAlternativeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetQuoteAlternatives">
-      <wsdl:documentation>
-        <summary>Get all quote alternatives for a quote version</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteAlternatives" name="GetQuoteAlternativesRequest" message="tns:GetQuoteAlternativesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteAlternativesResponse" name="GetQuoteAlternativesResponse" message="tns:GetQuoteAlternativesResponse" />
     </wsdl:operation>
     <wsdl:operation name="MoveQuoteLine">
-      <wsdl:documentation>
-        <summary>Move quote line rank up/down</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/MoveQuoteLine" name="MoveQuoteLineRequest" message="tns:MoveQuoteLineRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/MoveQuoteLineResponse" name="MoveQuoteLineResponse" message="tns:MoveQuoteLineResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateQuoteAlternative">
-      <wsdl:documentation>
-        <summary>Create a new quote alternative on a version.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateQuoteAlternative" name="CreateQuoteAlternativeRequest" message="tns:CreateQuoteAlternativeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateQuoteAlternativeResponse" name="CreateQuoteAlternativeResponse" message="tns:CreateQuoteAlternativeResponse" />
     </wsdl:operation>
     <wsdl:operation name="CopyQuoteAlternative">
-      <wsdl:documentation>
-        <summary>Copy a quote alternative from the same sale and adds it to a version.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CopyQuoteAlternative" name="CopyQuoteAlternativeRequest" message="tns:CopyQuoteAlternativeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CopyQuoteAlternativeResponse" name="CopyQuoteAlternativeResponse" message="tns:CopyQuoteAlternativeResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteQuoteAlternative">
-      <wsdl:documentation>
-        <summary>Delete a quote alternative</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/DeleteQuoteAlternative" name="DeleteQuoteAlternativeRequest" message="tns:DeleteQuoteAlternativeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/DeleteQuoteAlternativeResponse" name="DeleteQuoteAlternativeResponse" message="tns:DeleteQuoteAlternativeResponse" />
     </wsdl:operation>
     <wsdl:operation name="HasConnections">
-      <wsdl:documentation>
-        <summary>Whether or not the system has any connections available for this user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/HasConnections" name="HasConnectionsRequest" message="tns:HasConnectionsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/HasConnectionsResponse" name="HasConnectionsResponse" message="tns:HasConnectionsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllInstalledQuoteConnections">
-      <wsdl:documentation>
-        <summary>Get all installed connections. Some installed connections may not be available to the user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetAllInstalledQuoteConnections" name="GetAllInstalledQuoteConnectionsRequest" message="tns:GetAllInstalledQuoteConnectionsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetAllInstalledQuoteConnectionsResponse" name="GetAllInstalledQuoteConnectionsResponse" message="tns:GetAllInstalledQuoteConnectionsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllAvailableQuoteConnections">
-      <wsdl:documentation>
-        <summary>Get all available connections. Some installed connections may not be available to the user. Use GetAllAvailableQuoteConnectionsWithPriceLists if you need the pricelists on the connections as well.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetAllAvailableQuoteConnections" name="GetAllAvailableQuoteConnectionsRequest" message="tns:GetAllAvailableQuoteConnectionsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetAllAvailableQuoteConnectionsResponse" name="GetAllAvailableQuoteConnectionsResponse" message="tns:GetAllAvailableQuoteConnectionsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllAvailableQuoteConnectionsWithPriceLists">
-      <wsdl:documentation>
-        <summary>Get all available connections. Some installed connections may not be available to the user. Includes pricelists for the connection. This is a heavy call</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetAllAvailableQuoteConnectionsWithPriceLists" name="GetAllAvailableQuoteConnectionsWithPriceListsRequest" message="tns:GetAllAvailableQuoteConnectionsWithPriceListsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetAllAvailableQuoteConnectionsWithPriceListsResponse" name="GetAllAvailableQuoteConnectionsWithPriceListsResponse" message="tns:GetAllAvailableQuoteConnectionsWithPriceListsResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateConnectionFromConnectorName">
-      <wsdl:documentation>
-        <summary>Create a new connection.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateConnectionFromConnectorName" name="CreateConnectionFromConnectorNameRequest" message="tns:CreateConnectionFromConnectorNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateConnectionFromConnectorNameResponse" name="CreateConnectionFromConnectorNameResponse" message="tns:CreateConnectionFromConnectorNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConnection">
-      <wsdl:documentation>
-        <summary>Returns the specified connection.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetConnection" name="GetConnectionRequest" message="tns:GetConnectionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetConnectionResponse" name="GetConnectionResponse" message="tns:GetConnectionResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveConnection">
-      <wsdl:documentation>
-        <summary>Saves a connection to the database.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveConnection" name="SaveConnectionRequest" message="tns:SaveConnectionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveConnectionResponse" name="SaveConnectionResponse" message="tns:SaveConnectionResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteConnection">
-      <wsdl:documentation>
-        <summary>Marks a connection as deleted.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/DeleteConnection" name="DeleteConnectionRequest" message="tns:DeleteConnectionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/DeleteConnectionResponse" name="DeleteConnectionResponse" message="tns:DeleteConnectionResponse" />
     </wsdl:operation>
     <wsdl:operation name="RestoreConnection">
-      <wsdl:documentation>
-        <summary>Restores a connection marked as deleted.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/RestoreConnection" name="RestoreConnectionRequest" message="tns:RestoreConnectionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/RestoreConnectionResponse" name="RestoreConnectionResponse" message="tns:RestoreConnectionResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConnectionsForAssociate">
-      <wsdl:documentation>
-        <summary>Returns all connections available for the specified user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetConnectionsForAssociate" name="GetConnectionsForAssociateRequest" message="tns:GetConnectionsForAssociateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetConnectionsForAssociateResponse" name="GetConnectionsForAssociateResponse" message="tns:GetConnectionsForAssociateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetActivePriceLists">
-      <wsdl:documentation>
-        <summary>Gets the available active PriceLists in a specific currency. Will return empty array if there is no PriceList with the stated currency available.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetActivePriceLists" name="GetActivePriceListsRequest" message="tns:GetActivePriceListsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetActivePriceListsResponse" name="GetActivePriceListsResponse" message="tns:GetActivePriceListsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetActivePriceListsByCurrencyId">
-      <wsdl:documentation>
-        <summary>Gets the available active PriceLists in a specific currency. Will return empty array if there is no PriceList with the stated currency available.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetActivePriceListsByCurrencyId" name="GetActivePriceListsByCurrencyIdRequest" message="tns:GetActivePriceListsByCurrencyIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetActivePriceListsByCurrencyIdResponse" name="GetActivePriceListsByCurrencyIdResponse" message="tns:GetActivePriceListsByCurrencyIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllPriceLists">
-      <wsdl:documentation>
-        <summary>Gets the all PriceLists in all currencies, including those inactive. Will return empty array if there is no PriceList available.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetAllPriceLists" name="GetAllPriceListsRequest" message="tns:GetAllPriceListsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetAllPriceListsResponse" name="GetAllPriceListsResponse" message="tns:GetAllPriceListsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllPriceListsByCurrencyId">
-      <wsdl:documentation>
-        <summary>Gets the all PriceLists in all currencies, including those inactive. Will return empty array if there is no PriceList available.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetAllPriceListsByCurrencyId" name="GetAllPriceListsByCurrencyIdRequest" message="tns:GetAllPriceListsByCurrencyIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetAllPriceListsByCurrencyIdResponse" name="GetAllPriceListsByCurrencyIdResponse" message="tns:GetAllPriceListsByCurrencyIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConnectorCapabilityNames">
-      <wsdl:documentation>
-        <summary>Gets a list of all possible connector capabilities</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetConnectorCapabilityNames" name="GetConnectorCapabilityNamesRequest" message="tns:GetConnectorCapabilityNamesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetConnectorCapabilityNamesResponse" name="GetConnectorCapabilityNamesResponse" message="tns:GetConnectorCapabilityNamesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConnectorCapabilities">
-      <wsdl:documentation>
-        <summary>Gets a list of connector capabilities</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetConnectorCapabilities" name="GetConnectorCapabilitiesRequest" message="tns:GetConnectorCapabilitiesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetConnectorCapabilitiesResponse" name="GetConnectorCapabilitiesResponse" message="tns:GetConnectorCapabilitiesResponse" />
     </wsdl:operation>
     <wsdl:operation name="CanConnectorProvideCapability">
-      <wsdl:documentation>
-        <summary>Can the connector provide the capability</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CanConnectorProvideCapability" name="CanConnectorProvideCapabilityRequest" message="tns:CanConnectorProvideCapabilityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CanConnectorProvideCapabilityResponse" name="CanConnectorProvideCapabilityResponse" message="tns:CanConnectorProvideCapabilityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConnectionStartupErrors">
-      <wsdl:documentation>
-        <summary>Returns an array of PluginResponseInfos for all failed connection initializations.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetConnectionStartupErrors" name="GetConnectionStartupErrorsRequest" message="tns:GetConnectionStartupErrorsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetConnectionStartupErrorsResponse" name="GetConnectionStartupErrorsResponse" message="tns:GetConnectionStartupErrorsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConnectionStartupResponse">
-      <wsdl:documentation>
-        <summary>Returns the PluginResponseInfo for the connection initialization. Does not initialize the connection, just returns what happened when initialize was called.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetConnectionStartupResponse" name="GetConnectionStartupResponseRequest" message="tns:GetConnectionStartupResponseRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetConnectionStartupResponseResponse" name="GetConnectionStartupResponseResponse" message="tns:GetConnectionStartupResponseResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetConnectionConfigFields">
-      <wsdl:documentation>
-        <summary>Returns the config fields for the connection.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetConnectionConfigFields" name="GetConnectionConfigFieldsRequest" message="tns:GetConnectionConfigFieldsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetConnectionConfigFieldsResponse" name="GetConnectionConfigFieldsResponse" message="tns:GetConnectionConfigFieldsResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveConnectionConfigFields">
-      <wsdl:documentation>
-        <summary>Saves the connection config fields</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveConnectionConfigFields" name="SaveConnectionConfigFieldsRequest" message="tns:SaveConnectionConfigFieldsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveConnectionConfigFieldsResponse" name="SaveConnectionConfigFieldsResponse" message="tns:SaveConnectionConfigFieldsResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateAndSaveQuote">
-      <wsdl:documentation>
-        <summary>Creates a new quote on a sale.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateAndSaveQuote" name="CreateAndSaveQuoteRequest" message="tns:CreateAndSaveQuoteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateAndSaveQuoteResponse" name="CreateAndSaveQuoteResponse" message="tns:CreateAndSaveQuoteResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetQuoteEntity">
-      <wsdl:documentation>
-        <summary>Get a Quote</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteEntity" name="GetQuoteEntityRequest" message="tns:GetQuoteEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteEntityResponse" name="GetQuoteEntityResponse" message="tns:GetQuoteEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetQuoteEntityFromSaleId">
-      <wsdl:documentation>
-        <summary>Get a Quote for a sale</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteEntityFromSaleId" name="GetQuoteEntityFromSaleIdRequest" message="tns:GetQuoteEntityFromSaleIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteEntityFromSaleIdResponse" name="GetQuoteEntityFromSaleIdResponse" message="tns:GetQuoteEntityFromSaleIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveQuoteEntity">
-      <wsdl:documentation>
-        <summary>Saves a QuoteEntity. Versions and alternatives will not be saved by this call.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteEntity" name="SaveQuoteEntityRequest" message="tns:SaveQuoteEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteEntityResponse" name="SaveQuoteEntityResponse" message="tns:SaveQuoteEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateAndSaveQuoteFromSale">
-      <wsdl:documentation>
-        <summary>Creates a copy the active version with connected alternatives and quotelines from another sale.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateAndSaveQuoteFromSale" name="CreateAndSaveQuoteFromSaleRequest" message="tns:CreateAndSaveQuoteFromSaleRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateAndSaveQuoteFromSaleResponse" name="CreateAndSaveQuoteFromSaleResponse" message="tns:CreateAndSaveQuoteFromSaleResponse" />
     </wsdl:operation>
     <wsdl:operation name="PlaceOrder">
-      <wsdl:documentation>
-        <summary>Place an order in the ERP system.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/PlaceOrder" name="PlaceOrderRequest" message="tns:PlaceOrderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/PlaceOrderResponse" name="PlaceOrderResponse" message="tns:PlaceOrderResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetOrderState">
-      <wsdl:documentation>
-        <summary>If there is a problem with a quoteline, the error description shall be placed in the status and reason fields of the quoteline, if there is a problem with the alternative, the error description shall be placed in the status and reason fields of the alternative. A summary of all the problems (if any) should be placed in the response object. Requires that the Create-Order capability is true.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetOrderState" name="GetOrderStateRequest" message="tns:GetOrderStateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetOrderStateResponse" name="GetOrderStateResponse" message="tns:GetOrderStateResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteQuote">
-      <wsdl:documentation>
-        <summary>Delete a Quote</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/DeleteQuote" name="DeleteQuoteRequest" message="tns:DeleteQuoteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/DeleteQuoteResponse" name="DeleteQuoteResponse" message="tns:DeleteQuoteResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateQuoteLine">
-      <wsdl:documentation>
-        <summary>Create a quoteline based on a product key.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateQuoteLine" name="CreateQuoteLineRequest" message="tns:CreateQuoteLineRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateQuoteLineResponse" name="CreateQuoteLineResponse" message="tns:CreateQuoteLineResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateQuoteLineFromProduct">
-      <wsdl:documentation>
-        <summary>Create a quoteline based on a product.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateQuoteLineFromProduct" name="CreateQuoteLineFromProductRequest" message="tns:CreateQuoteLineFromProductRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateQuoteLineFromProductResponse" name="CreateQuoteLineFromProductResponse" message="tns:CreateQuoteLineFromProductResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveQuoteLine">
-      <wsdl:documentation>
-        <summary>Saves the QuoteLine in the SuperOffice database</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteLine" name="SaveQuoteLineRequest" message="tns:SaveQuoteLineRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteLineResponse" name="SaveQuoteLineResponse" message="tns:SaveQuoteLineResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveQuoteLines">
-      <wsdl:documentation>
-        <summary>Saves the QuoteLines in the SuperOffice database</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteLines" name="SaveQuoteLinesRequest" message="tns:SaveQuoteLinesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteLinesResponse" name="SaveQuoteLinesResponse" message="tns:SaveQuoteLinesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetQuoteLine">
-      <wsdl:documentation>
-        <summary>Get QuoteLine from database</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteLine" name="GetQuoteLineRequest" message="tns:GetQuoteLineRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteLineResponse" name="GetQuoteLineResponse" message="tns:GetQuoteLineResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetQuoteLines">
-      <wsdl:documentation>
-        <summary>Get all QuoteLines from an alternative</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteLines" name="GetQuoteLinesRequest" message="tns:GetQuoteLinesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteLinesResponse" name="GetQuoteLinesResponse" message="tns:GetQuoteLinesResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteQuoteLine">
-      <wsdl:documentation>
-        <summary>Deletes the QuoteLine in the SuperOffice database</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/DeleteQuoteLine" name="DeleteQuoteLineRequest" message="tns:DeleteQuoteLineRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/DeleteQuoteLineResponse" name="DeleteQuoteLineResponse" message="tns:DeleteQuoteLineResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteQuoteLines">
-      <wsdl:documentation>
-        <summary>Delete the QuoteLines in the SuperOffice database</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/DeleteQuoteLines" name="DeleteQuoteLinesRequest" message="tns:DeleteQuoteLinesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/DeleteQuoteLinesResponse" name="DeleteQuoteLinesResponse" message="tns:DeleteQuoteLinesResponse" />
     </wsdl:operation>
     <wsdl:operation name="RecalculateQuoteLine">
-      <wsdl:documentation>
-        <summary>When the user changes one or more values in a quoteline, the connector gets to change the QuoteLine, for instance calculate VAT. Shall be called when the user changes any of the following fields: Quantity, DiscountAmount, DiscountPercent, ListPrice (if allowed). Will calculate the TotalPrice and the VAT (if possible) for the line.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/RecalculateQuoteLine" name="RecalculateQuoteLineRequest" message="tns:RecalculateQuoteLineRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/RecalculateQuoteLineResponse" name="RecalculateQuoteLineResponse" message="tns:RecalculateQuoteLineResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetQuoteLineImage">
-      <wsdl:documentation>
-        <summary>Gets an image connected to a quoteline, either from the ERPProvider or from the SuperOffice database</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteLineImage" name="GetQuoteLineImageRequest" message="tns:GetQuoteLineImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteLineImageResponse" name="GetQuoteLineImageResponse" message="tns:GetQuoteLineImageResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveQuoteLineImage">
-      <wsdl:documentation>
-        <summary>Saves the image connected to a quoteline in the SuperOffice database</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteLineImage" name="SaveQuoteLineImageRequest" message="tns:SaveQuoteLineImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteLineImageResponse" name="SaveQuoteLineImageResponse" message="tns:SaveQuoteLineImageResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetExtraInfo">
-      <wsdl:documentation>
-        <summary>Converts an xml string into an object representation.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetExtraInfo" name="GetExtraInfoRequest" message="tns:GetExtraInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetExtraInfoResponse" name="GetExtraInfoResponse" message="tns:GetExtraInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetQuoteLineConfiguration">
-      <wsdl:documentation>
-        <summary>Returns the configuration field with the given id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteLineConfiguration" name="GetQuoteLineConfigurationRequest" message="tns:GetQuoteLineConfigurationRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteLineConfigurationResponse" name="GetQuoteLineConfigurationResponse" message="tns:GetQuoteLineConfigurationResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetQuoteLineConfigurationFromFieldName">
-      <wsdl:documentation>
-        <summary>Returns the configuration field with the given field name</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteLineConfigurationFromFieldName" name="GetQuoteLineConfigurationFromFieldNameRequest" message="tns:GetQuoteLineConfigurationFromFieldNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteLineConfigurationFromFieldNameResponse" name="GetQuoteLineConfigurationFromFieldNameResponse" message="tns:GetQuoteLineConfigurationFromFieldNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAllQuoteLineConfigurations">
-      <wsdl:documentation>
-        <summary>Returns all the configuration fields</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetAllQuoteLineConfigurations" name="GetAllQuoteLineConfigurationsRequest" message="tns:GetAllQuoteLineConfigurationsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetAllQuoteLineConfigurationsResponse" name="GetAllQuoteLineConfigurationsResponse" message="tns:GetAllQuoteLineConfigurationsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetInUseQuoteLineConfigurations">
-      <wsdl:documentation>
-        <summary>Returns the configuration fields that should be visible in the GUI.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetInUseQuoteLineConfigurations" name="GetInUseQuoteLineConfigurationsRequest" message="tns:GetInUseQuoteLineConfigurationsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetInUseQuoteLineConfigurationsResponse" name="GetInUseQuoteLineConfigurationsResponse" message="tns:GetInUseQuoteLineConfigurationsResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveQuoteLineConfiguration">
-      <wsdl:documentation>
-        <summary>Save a QuoteLineConfiguration object. It is not possible to add a new configuration.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteLineConfiguration" name="SaveQuoteLineConfigurationRequest" message="tns:SaveQuoteLineConfigurationRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteLineConfigurationResponse" name="SaveQuoteLineConfigurationResponse" message="tns:SaveQuoteLineConfigurationResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveQuoteLineConfigurations">
-      <wsdl:documentation>
-        <summary>Save a collection of QuoteLineConfigurations. It is not possible to add a new configurations.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteLineConfigurations" name="SaveQuoteLineConfigurationsRequest" message="tns:SaveQuoteLineConfigurationsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteLineConfigurationsResponse" name="SaveQuoteLineConfigurationsResponse" message="tns:SaveQuoteLineConfigurationsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetQuoteList">
-      <wsdl:documentation>
-        <summary>Gets a named list from the connector Return array of QuoteListItems. Return NULL if the given list is not supported.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteList" name="GetQuoteListRequest" message="tns:GetQuoteListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteListResponse" name="GetQuoteListResponse" message="tns:GetQuoteListResponse" />
     </wsdl:operation>
     <wsdl:operation name="ValidateQuoteVersion">
-      <wsdl:documentation>
-        <summary>When the user changes one or more values in a quoteline or a quoteAlternative, the connector gets to change the QuoteLines and the alternative, for instance calculate VAT. ValidateQuoteVersion shall be called when the user presses the validate button, presses the send button or closes the quote dialog. RecalculateQuoteAlternative should typically validate all alternatives, set values in extrafields, and set the state in the version.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/ValidateQuoteVersion" name="ValidateQuoteVersionRequest" message="tns:ValidateQuoteVersionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/ValidateQuoteVersionResponse" name="ValidateQuoteVersionResponse" message="tns:ValidateQuoteVersionResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateAndSaveQuoteVersion">
-      <wsdl:documentation>
-        <summary>Created a new QuoteVersion based on another QuoteVersion on the same Quote.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateAndSaveQuoteVersion" name="CreateAndSaveQuoteVersionRequest" message="tns:CreateAndSaveQuoteVersionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateAndSaveQuoteVersionResponse" name="CreateAndSaveQuoteVersionResponse" message="tns:CreateAndSaveQuoteVersionResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetQuoteVersion">
-      <wsdl:documentation>
-        <summary>Get a QuoteVersion</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteVersion" name="GetQuoteVersionRequest" message="tns:GetQuoteVersionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteVersionResponse" name="GetQuoteVersionResponse" message="tns:GetQuoteVersionResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetQuoteVersions">
-      <wsdl:documentation>
-        <summary>Get all quote versions for a sale</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteVersions" name="GetQuoteVersionsRequest" message="tns:GetQuoteVersionsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteVersionsResponse" name="GetQuoteVersionsResponse" message="tns:GetQuoteVersionsResponse" />
     </wsdl:operation>
     <wsdl:operation name="SendQuoteVersion">
-      <wsdl:documentation>
-        <summary>Send the quote to the user's customer. More parameters to be added later...</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SendQuoteVersion" name="SendQuoteVersionRequest" message="tns:SendQuoteVersionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SendQuoteVersionResponse" name="SendQuoteVersionResponse" message="tns:SendQuoteVersionResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveQuoteVersion">
-      <wsdl:documentation>
-        <summary>Saves a quote version</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteVersion" name="SaveQuoteVersionRequest" message="tns:SaveQuoteVersionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteVersionResponse" name="SaveQuoteVersionResponse" message="tns:SaveQuoteVersionResponse" />
     </wsdl:operation>
     <wsdl:operation name="ApproveQuoteVersion">
-      <wsdl:documentation>
-        <summary>Approves a quote version</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/ApproveQuoteVersion" name="ApproveQuoteVersionRequest" message="tns:ApproveQuoteVersionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/ApproveQuoteVersionResponse" name="ApproveQuoteVersionResponse" message="tns:ApproveQuoteVersionResponse" />
     </wsdl:operation>
     <wsdl:operation name="RejectQuoteVersion">
-      <wsdl:documentation>
-        <summary>Rejects a quote version</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/RejectQuoteVersion" name="RejectQuoteVersionRequest" message="tns:RejectQuoteVersionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/RejectQuoteVersionResponse" name="RejectQuoteVersionResponse" message="tns:RejectQuoteVersionResponse" />
     </wsdl:operation>
     <wsdl:operation name="GenerateQuoteDocuments">
-      <wsdl:documentation>
-        <summary>Generate all the documents required to send the Quote as an email to the prospect - or an Order Confirmation; it just depends on the template id's for the lines doc and mail body. Quote version status is not changed by this method.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GenerateQuoteDocuments" name="GenerateQuoteDocumentsRequest" message="tns:GenerateQuoteDocumentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GenerateQuoteDocumentsResponse" name="GenerateQuoteDocumentsResponse" message="tns:GenerateQuoteDocumentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetOrderConfirmation">
-      <wsdl:documentation>
-        <summary>Get a base64-encoded data stream that is just the order confirmation document, for the given quote version; no permanent document is created or stored anywhere; the result is a PDF</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetOrderConfirmation" name="GetOrderConfirmationRequest" message="tns:GetOrderConfirmationRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetOrderConfirmationResponse" name="GetOrderConfirmationResponse" message="tns:GetOrderConfirmationResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetQuoteVersionWorkflowState">
-      <wsdl:documentation>
-        <summary>Get all button states for the Quote version dialog. Packages ImageState, Button states and status info into one call. Collects most important warnings/errors from across all quotelines/alternatives in this quote version.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteVersionWorkflowState" name="GetQuoteVersionWorkflowStateRequest" message="tns:GetQuoteVersionWorkflowStateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteVersionWorkflowStateResponse" name="GetQuoteVersionWorkflowStateResponse" message="tns:GetQuoteVersionWorkflowStateResponse" />
     </wsdl:operation>
     <wsdl:operation name="UpdateQuoteVersionPrices">
-      <wsdl:documentation>
-        <summary>Update price on the all the quotelines for each alternative in the current quote version</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/UpdateQuoteVersionPrices" name="UpdateQuoteVersionPricesRequest" message="tns:UpdateQuoteVersionPricesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/UpdateQuoteVersionPricesResponse" name="UpdateQuoteVersionPricesResponse" message="tns:UpdateQuoteVersionPricesResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveQuoteVersionNumber">
-      <wsdl:documentation>
-        <summary>Save the quote version number if it is valid</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteVersionNumber" name="SaveQuoteVersionNumberRequest" message="tns:SaveQuoteVersionNumberRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/SaveQuoteVersionNumberResponse" name="SaveQuoteVersionNumberResponse" message="tns:SaveQuoteVersionNumberResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetQuoteVersionWorkflowImageState">
-      <wsdl:documentation>
-        <summary>Get state icon and name for the Quote version dialog header.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteVersionWorkflowImageState" name="GetQuoteVersionWorkflowImageStateRequest" message="tns:GetQuoteVersionWorkflowImageStateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteVersionWorkflowImageStateResponse" name="GetQuoteVersionWorkflowImageStateResponse" message="tns:GetQuoteVersionWorkflowImageStateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetQuoteVersionWorkflowButtonStates">
-      <wsdl:documentation>
-        <summary>Get all button states for the Quote version dialog.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteVersionWorkflowButtonStates" name="GetQuoteVersionWorkflowButtonStatesRequest" message="tns:GetQuoteVersionWorkflowButtonStatesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteVersionWorkflowButtonStatesResponse" name="GetQuoteVersionWorkflowButtonStatesResponse" message="tns:GetQuoteVersionWorkflowButtonStatesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetQuoteVersionWorkflowStatusInfo">
-      <wsdl:documentation>
-        <summary>Get status info for the Quote version dialog header. Collects most important warnings/errors from across all quotelines/alternatives in this quote version.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteVersionWorkflowStatusInfo" name="GetQuoteVersionWorkflowStatusInfoRequest" message="tns:GetQuoteVersionWorkflowStatusInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/GetQuoteVersionWorkflowStatusInfoResponse" name="GetQuoteVersionWorkflowStatusInfoResponse" message="tns:GetQuoteVersionWorkflowStatusInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="RequestApproval">
-      <wsdl:documentation>
-        <summary>Notifies specified associate that this quote needs approval.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/RequestApproval" name="RequestApprovalRequest" message="tns:RequestApprovalRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/RequestApprovalResponse" name="RequestApprovalResponse" message="tns:RequestApprovalResponse" />
     </wsdl:operation>
     <wsdl:operation name="CancelApprovalRequest">
-      <wsdl:documentation>
-        <summary>Cancel a pending quote approval request.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CancelApprovalRequest" name="CancelApprovalRequestRequest" message="tns:CancelApprovalRequestRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CancelApprovalRequestResponse" name="CancelApprovalRequestResponse" message="tns:CancelApprovalRequestResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateOrUpdateQuoteVersionAttachments">
-      <wsdl:documentation>
-        <summary>Look at the Quote version, related sale and sale type, and ensure that the correct QuoteVersionAttachment records exist. This method may create or delete records</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateOrUpdateQuoteVersionAttachments" name="CreateOrUpdateQuoteVersionAttachmentsRequest" message="tns:CreateOrUpdateQuoteVersionAttachmentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/CreateOrUpdateQuoteVersionAttachmentsResponse" name="CreateOrUpdateQuoteVersionAttachmentsResponse" message="tns:CreateOrUpdateQuoteVersionAttachmentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="IncludeQuoteVersionAttachment">
-      <wsdl:documentation>
-        <summary>Toggle the 'included' state of a quote version attachment; will throw exceptions if called on locked versions</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/IncludeQuoteVersionAttachment" name="IncludeQuoteVersionAttachmentRequest" message="tns:IncludeQuoteVersionAttachmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/IncludeQuoteVersionAttachmentResponse" name="IncludeQuoteVersionAttachmentResponse" message="tns:IncludeQuoteVersionAttachmentResponse" />
     </wsdl:operation>
     <wsdl:operation name="ToggleSaleTypeQuoteAttachmentDefaultIncluded">
-      <wsdl:documentation>
-        <summary>Toggle the 'default included' state of a sale type quote attachment</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/ToggleSaleTypeQuoteAttachmentDefaultIncluded" name="ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest" message="tns:ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse" name="ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse" message="tns:ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddSaleTypeQuoteAttachment">
-      <wsdl:documentation>
-        <summary>Adds a new quote attachment document to a sale type</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/AddSaleTypeQuoteAttachment" name="AddSaleTypeQuoteAttachmentRequest" message="tns:AddSaleTypeQuoteAttachmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/AddSaleTypeQuoteAttachmentResponse" name="AddSaleTypeQuoteAttachmentResponse" message="tns:AddSaleTypeQuoteAttachmentResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteSaleTypeQuoteAttachment">
-      <wsdl:documentation>
-        <summary>Deletes the sale type quote attachment with the given id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/DeleteSaleTypeQuoteAttachment" name="DeleteSaleTypeQuoteAttachmentRequest" message="tns:DeleteSaleTypeQuoteAttachmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/DeleteSaleTypeQuoteAttachmentResponse" name="DeleteSaleTypeQuoteAttachmentResponse" message="tns:DeleteSaleTypeQuoteAttachmentResponse" />
     </wsdl:operation>
     <wsdl:operation name="ToggleQuoteVersionAttachmentIncluded">
-      <wsdl:documentation>
-        <summary>Toggle the 'included' state of a quote version attachment</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/ToggleQuoteVersionAttachmentIncluded" name="ToggleQuoteVersionAttachmentIncludedRequest" message="tns:ToggleQuoteVersionAttachmentIncludedRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Quote/ToggleQuoteVersionAttachmentIncludedResponse" name="ToggleQuoteVersionAttachmentIncludedResponse" message="tns:ToggleQuoteVersionAttachmentIncludedResponse" />
     </wsdl:operation>
@@ -6493,3 +6193,4 @@ title: Services88.QuoteAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

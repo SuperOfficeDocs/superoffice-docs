@@ -126,7 +126,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -145,122 +145,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2007-02-09T17:37:16.3882416+01:00",
-  "AppointmentId": 394,
-  "Description": "Exclusive even-keeled website",
-  "StartDate": "2016-07-24T17:37:16.3882416+02:00",
-  "EndDate": "2019-03-22T17:37:16.3882416+01:00",
+  "CreatedDate": "2006-05-15T14:19:02.5630269+02:00",
+  "AppointmentId": 241,
+  "Description": "User-centric optimal forecast",
+  "StartDate": "2021-02-27T14:19:02.5630269+01:00",
+  "EndDate": "2015-11-12T14:19:02.5630269+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 969,
+  "MotherId": 443,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2007-08-03T17:37:16.3912421+02:00",
+  "UpdatedDate": "2010-05-23T14:19:02.5630269+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 897,
+  "ActiveLinks": 864,
   "Links": [
     {
-      "EntityName": "Daniel LLC",
-      "Id": 201,
-      "Description": "De-engineered secondary success",
-      "ExtraInfo": "illum",
-      "LinkId": 662,
+      "EntityName": "Trantow, Huel and Grant",
+      "Id": 226,
+      "Description": "Multi-lateral leading edge flexibility",
+      "ExtraInfo": "enim",
+      "LinkId": 19,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 120
+          "FieldType": "System.Int32",
+          "FieldLength": 420
         }
       }
     }
   ],
-  "AlarmLeadTime": "ex",
+  "AlarmLeadTime": "ipsum",
   "HasAlarm": false,
-  "ColorIndex": 759,
+  "ColorIndex": 384,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "quasi",
-  "LeadTime": "aut",
-  "Location": "eos",
-  "RejectCounter": 992,
+  "IsAlldayEvent": false,
+  "LagTime": "nulla",
+  "LeadTime": "odio",
+  "Location": "corporis",
+  "RejectCounter": 898,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 809,
-      "PersonId": 834,
-      "ContactId": 883,
-      "EmailId": 686,
-      "SendEmail": false,
+      "AssociateId": 505,
+      "PersonId": 223,
+      "ContactId": 557,
+      "EmailId": 966,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 809,
-      "PersonId": 834,
-      "ContactId": 883,
-      "EmailId": 686,
-      "SendEmail": false,
+      "AssociateId": 505,
+      "PersonId": 223,
+      "ContactId": 557,
+      "EmailId": 966,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2006-03-08T17:37:16.3912421+01:00",
-  "HasConflict": false,
+  "ActiveDate": "1999-02-13T14:19:02.5630269+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 415,
+  "PreferredTZLocation": 992,
   "Sale": null,
-  "SuggestedAppointmentId": 92,
+  "SuggestedAppointmentId": 676,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "itaque",
+  "CentralserviceVideomeetId": "nihil",
   "UserDefinedFields": {
-    "SuperOffice:1": "Santa Wintheiser",
-    "SuperOffice:2": "1076893233"
+    "SuperOffice:1": "Verda Hilpert",
+    "SuperOffice:2": "1079178222"
   },
   "ExtraFields": {
-    "ExtraFields1": "molestiae",
-    "ExtraFields2": "optio"
+    "ExtraFields1": "eveniet",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "facilis",
-    "CustomFields2": "tempore"
+    "CustomFields1": "magni",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2002-04-10T17:37:16.3952423+02:00",
-  "PublishTo": "2008-11-03T17:37:16.3952423+01:00",
-  "PublishFrom": "2018-11-05T17:37:16.3952423+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2015-06-25T14:19:02.5630269+02:00",
+  "PublishTo": "1997-07-25T14:19:02.5630269+02:00",
+  "PublishFrom": "2016-08-15T14:19:02.5630269+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 168,
+      "VisibleId": 40,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "optio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 935
+          "FieldType": "System.Int32",
+          "FieldLength": 868
         }
       }
     },
     {
-      "VisibleId": 168,
+      "VisibleId": 40,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "optio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 935
+          "FieldType": "System.Int32",
+          "FieldLength": 868
         }
       }
     }
@@ -270,7 +270,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 370
+      "FieldLength": 117
     }
   }
 }

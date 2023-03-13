@@ -108,11 +108,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "officiis",
+  "FieldLabel": "unde",
   "OwnerType": "Appointment"
 }
 ```
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 471,
-  "ColumnId": 850,
-  "FieldDefault": "iure",
-  "FieldHeight": 504,
-  "FieldLabel": "qui",
-  "FieldLeft": 522,
-  "FieldTop": 127,
+  "UDefFieldId": 962,
+  "ColumnId": 574,
+  "FieldDefault": "suscipit",
+  "FieldHeight": 125,
+  "FieldLabel": "nobis",
+  "FieldLeft": 469,
+  "FieldTop": 734,
   "FieldType": "Checkbox",
-  "FieldWidth": 596,
-  "FormatMask": "nulla",
+  "FieldWidth": 326,
+  "FormatMask": "ratione",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 287,
-  "LabelLeft": 775,
-  "LabelTop": 728,
-  "LabelWidth": 379,
-  "LastVersionId": 611,
-  "ListTableId": 785,
+  "IsIndexed": true,
+  "LabelHeight": 928,
+  "LabelLeft": 831,
+  "LabelTop": 896,
+  "LabelWidth": 501,
+  "LastVersionId": 523,
+  "ListTableId": 440,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 155,
-  "ProgId": "nulla",
-  "IsReadOnly": false,
-  "ShortLabel": "fugiat",
-  "TabOrder": 768,
-  "TextLength": 887,
-  "Tooltip": "fugiat",
-  "UdefIdentity": 284,
-  "UDListDefinitionId": 975,
+  "Page1LineNo": 275,
+  "ProgId": "ea",
+  "IsReadOnly": true,
+  "ShortLabel": "qui",
+  "TabOrder": 99,
+  "TextLength": 38,
+  "Tooltip": "ut",
+  "UdefIdentity": 364,
+  "UDListDefinitionId": 79,
   "Justification": "Center",
-  "Version": 509,
-  "TemplateVariableName": "Rosenbaum, Hills and Lubowitz",
+  "Version": 252,
+  "TemplateVariableName": "Larkin-McDermott",
   "HasBeenPublished": false,
-  "MdoListName": "Trantow-Volkman",
+  "MdoListName": "Ferry, Hegmann and Orn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 488
+      "FieldLength": 398
     }
   }
 }

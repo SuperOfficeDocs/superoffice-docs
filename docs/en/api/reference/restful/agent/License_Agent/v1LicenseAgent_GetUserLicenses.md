@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 664
+  "AssociateId": 700
 }
 ```
 
@@ -91,30 +91,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schulist, Goyette and Bergnaum",
-    "Description": "Centralized fault-tolerant definition",
+    "Name": "Kub Group",
+    "Description": "Devolved intangible Graphic Interface",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 493,
-        "Tooltip": "sit",
-        "CanAssign": false,
-        "Free": 578,
-        "InUse": 323,
+        "Unrestricted": true,
+        "Total": 179,
+        "Tooltip": "exercitationem",
+        "CanAssign": true,
+        "Free": 955,
+        "InUse": 99,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 450,
-        "Name": "Haag Inc and Sons",
-        "Description": "Cross-platform static knowledge user",
-        "PrerequisiteModuleName": "Hermiston, Johnson and Schamberger",
-        "SortOrder": 302,
-        "ExtraFlags": 173,
+        "Assigned": false,
+        "ModuleLicenseId": 227,
+        "Name": "Orn Inc and Sons",
+        "Description": "Compatible bi-directional extranet",
+        "PrerequisiteModuleName": "Oberbrunner Group",
+        "SortOrder": 321,
+        "ExtraFlags": 337,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 501
+            "FieldType": "System.Int32",
+            "FieldLength": 989
           }
         }
       }
@@ -122,25 +122,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 167,
-        "Tooltip": "dignissimos",
+        "Total": 402,
+        "Tooltip": "debitis",
         "CanAssign": false,
-        "Free": 302,
-        "InUse": 205,
-        "IsHidden": true,
+        "Free": 853,
+        "InUse": 53,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 611,
-        "Name": "Stanton LLC",
-        "Description": "Team-oriented client-driven capability",
-        "PrerequisiteModuleName": "Labadie, Koch and Rogahn",
-        "SortOrder": 860,
-        "ExtraFlags": 864,
+        "ModuleLicenseId": 290,
+        "Name": "Reilly, Wiza and Senger",
+        "Description": "Cloned stable firmware",
+        "PrerequisiteModuleName": "Runolfsdottir, Padberg and Terry",
+        "SortOrder": 912,
+        "ExtraFlags": 112,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 251
+            "FieldType": "System.Int32",
+            "FieldLength": 270
           }
         }
       }
@@ -150,35 +150,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 397
+        "FieldLength": 357
       }
     }
   },
   {
-    "Name": "Schulist, Goyette and Bergnaum",
-    "Description": "Centralized fault-tolerant definition",
+    "Name": "Kub Group",
+    "Description": "Devolved intangible Graphic Interface",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 493,
-        "Tooltip": "sit",
-        "CanAssign": false,
-        "Free": 578,
-        "InUse": 323,
+        "Unrestricted": true,
+        "Total": 179,
+        "Tooltip": "exercitationem",
+        "CanAssign": true,
+        "Free": 955,
+        "InUse": 99,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 450,
-        "Name": "Haag Inc and Sons",
-        "Description": "Cross-platform static knowledge user",
-        "PrerequisiteModuleName": "Hermiston, Johnson and Schamberger",
-        "SortOrder": 302,
-        "ExtraFlags": 173,
+        "Assigned": false,
+        "ModuleLicenseId": 227,
+        "Name": "Orn Inc and Sons",
+        "Description": "Compatible bi-directional extranet",
+        "PrerequisiteModuleName": "Oberbrunner Group",
+        "SortOrder": 321,
+        "ExtraFlags": 337,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 501
+            "FieldType": "System.Int32",
+            "FieldLength": 989
           }
         }
       }
@@ -186,25 +186,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 167,
-        "Tooltip": "dignissimos",
+        "Total": 402,
+        "Tooltip": "debitis",
         "CanAssign": false,
-        "Free": 302,
-        "InUse": 205,
-        "IsHidden": true,
+        "Free": 853,
+        "InUse": 53,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 611,
-        "Name": "Stanton LLC",
-        "Description": "Team-oriented client-driven capability",
-        "PrerequisiteModuleName": "Labadie, Koch and Rogahn",
-        "SortOrder": 860,
-        "ExtraFlags": 864,
+        "ModuleLicenseId": 290,
+        "Name": "Reilly, Wiza and Senger",
+        "Description": "Cloned stable firmware",
+        "PrerequisiteModuleName": "Runolfsdottir, Padberg and Terry",
+        "SortOrder": 912,
+        "ExtraFlags": 112,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 251
+            "FieldType": "System.Int32",
+            "FieldLength": 270
           }
         }
       }
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 397
+        "FieldLength": 357
       }
     }
   }

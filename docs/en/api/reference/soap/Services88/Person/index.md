@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/Perso
 
 Handled by the <see cref="T:SuperOffice.Services88.IPersonAgent">SuperOffice.Services88.IPersonAgent</see> interface.
 
-Interface for the Person Agent
-Person data services.
+
 
 Download [WSDL file for Services88/Person](../Services88-Person.md) if you need to generate your own proxy code.
 
@@ -26,6 +25,7 @@ Download [WSDL file for Services88/Person](../Services88-Person.md) if you need 
 * [CreateDefaultConsentPerson](CreateDefaultConsentPerson.md)
 * [CreateDefaultFromCredential](CreateDefaultFromCredential.md)
 * [CreateDefaultPersonEntity](CreateDefaultPersonEntity.md)
+* [CreateDefaultPersonImage](CreateDefaultPersonImage.md)
 * [CreateTemporaryKey](CreateTemporaryKey.md)
 * [DeleteConsentPerson](DeleteConsentPerson.md)
 * [DeleteExpired](DeleteExpired.md)
@@ -45,6 +45,7 @@ Download [WSDL file for Services88/Person](../Services88-Person.md) if you need 
 * [GetPerson](GetPerson.md)
 * [GetPersonEntity](GetPersonEntity.md)
 * [GetPersonImage](GetPersonImage.md)
+* [GetPersonImages](GetPersonImages.md)
 * [GetPersonList](GetPersonList.md)
 * [GetPersonsFromContact](GetPersonsFromContact.md)
 * [GetPersonsFromProject](GetPersonsFromProject.md)
@@ -66,3 +67,4 @@ Download [WSDL file for Services88/Person](../Services88-Person.md) if you need 
 * [SetPersonRank](SetPersonRank.md)
 * [Undelete](Undelete.md)
 * [ValidatePersonEntity](ValidatePersonEntity.md)
+

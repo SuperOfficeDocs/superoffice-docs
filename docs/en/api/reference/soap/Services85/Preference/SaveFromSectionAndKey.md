@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IPreferenceAgent.SaveFrom
 
 ## SaveFromSectionAndKey
 
-Update a PreferenceDescription based on the section and key
 
-* **section:** The PreferenceDescription-section
-* **key:** The PreferenceDescription-key
-* **preferenceDescription:** The PreferenceDescription to save.
 
-**Returns:** Saved PreferenceDescription
+
 
 [WSDL file for Services85/Preference](../Services85-Preference.md)
 
@@ -66,6 +62,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveFromSectionAndKey Response
 
 ```xml
@@ -99,3 +96,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

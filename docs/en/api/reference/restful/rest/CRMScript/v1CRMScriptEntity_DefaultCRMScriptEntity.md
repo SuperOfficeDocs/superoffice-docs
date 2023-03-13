@@ -79,23 +79,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 757,
-  "UniqueIdentifier": "ex",
-  "Name": "Predovic Inc and Sons",
-  "Description": "Devolved attitude-oriented knowledge base",
-  "IncludeId": "voluptas",
-  "HierarchyId": 558,
-  "Source": "voluptas",
-  "Registered": "2016-04-01T17:37:38.4818626+02:00",
-  "RegisteredAssociateId": 655,
-  "Updated": "2003-09-14T17:37:38.4818626+02:00",
-  "UpdatedAssociateId": 918,
+  "EjscriptId": 438,
+  "UniqueIdentifier": "voluptas",
+  "Name": "Tillman-Botsford",
+  "Description": "Quality-focused logistical matrices",
+  "IncludeId": "quo",
+  "HierarchyId": 168,
+  "Source": "voluptatem",
+  "Registered": "2005-03-24T14:19:10.240473+01:00",
+  "RegisteredAssociateId": 709,
+  "Updated": "2022-07-22T14:19:10.240473+02:00",
+  "UpdatedAssociateId": 879,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 995
+      "FieldType": "System.Int32",
+      "FieldLength": 554
     }
   }
 }

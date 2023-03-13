@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashboardAgent.GetStanda
 
 ## GetStandardDashboardTileFromChartId
 
-Gets the standard tile (not personal tile) corresponding to the given chart id
 
-* **chartId:** The ChartId of the wanted chart/tile
 
-**Returns:** Standard tile
+
 
 [WSDL file for Services88/Dashboard](../Services88-Dashboard.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetStandardDashboardTileFromChartId Response
 
@@ -130,3 +129,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

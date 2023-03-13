@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 777,
-    "Name": "Herzog-Johnston",
-    "Description": "De-engineered leading edge firmware",
-    "DeltaJson": "labore",
+    "ConfigurableScreenDeltaId": 497,
+    "Name": "Jones, Cassin and Gusikowski",
+    "Description": "Synergized encompassing service-desk",
+    "DeltaJson": "quaerat",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "tenetur",
-    "UpdatedDate": "1995-11-10T17:37:17.1252447+01:00",
-    "CreatedDate": "2001-09-17T17:37:17.1252447+02:00",
+    "RecipeId": "architecto",
+    "UpdatedDate": "2017-06-07T14:19:02.9324043+02:00",
+    "CreatedDate": "2015-02-11T14:19:02.9324043+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      738,
-      548
+      752,
+      831
     ],
-    "AppliesToKey": "aut",
+    "AppliesToKey": "quae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 335
+        "FieldType": "System.String",
+        "FieldLength": 410
       }
     }
   }

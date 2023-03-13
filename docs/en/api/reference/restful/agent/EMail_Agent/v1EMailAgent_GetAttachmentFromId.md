@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 521,
+  "MailItemId": 468,
   "AttachmentId": "et"
 }
 ```
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Universal asynchronous initiative",
-  "Filename": "dolor",
-  "Size": 858,
-  "Type": "deleniti",
-  "Encoding": "sit",
-  "Id": "exercitationem",
-  "Disposition": "ratione",
+  "Description": "Exclusive composite definition",
+  "Filename": "deleniti",
+  "Size": 731,
+  "Type": "est",
+  "Encoding": "quas",
+  "Id": "qui",
+  "Disposition": "possimus",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldType": "System.String",
+      "FieldLength": 688
     }
   }
 }

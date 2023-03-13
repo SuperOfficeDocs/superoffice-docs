@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 670,
-    "Name": "Hudson, Feil and Bernhard",
-    "ToolTip": "Aspernatur et et omnis.",
-    "Deleted": true,
-    "Rank": 329,
-    "Type": "distinctio",
-    "ColorBlock": 368,
-    "IconHint": "necessitatibus",
-    "Selected": false,
-    "LastChanged": "2003-06-14T17:37:18.1332417+02:00",
+    "Id": 654,
+    "Name": "Schamberger, Kozey and Heaney",
+    "ToolTip": "Aut quos quasi laboriosam rerum.",
+    "Deleted": false,
+    "Rank": 435,
+    "Type": "qui",
+    "ColorBlock": 751,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2016-05-08T14:19:03.5769906+02:00",
     "ChildItems": [
       {
-        "Id": 544,
-        "Name": "Konopelski-Stoltenberg",
-        "ToolTip": "Aperiam dignissimos dolor libero aut provident enim.",
-        "Deleted": true,
-        "Rank": 718,
-        "Type": "sit",
-        "ColorBlock": 277,
-        "IconHint": "dolor",
+        "Id": 563,
+        "Name": "Kreiger Group",
+        "ToolTip": "Qui ut incidunt.",
+        "Deleted": false,
+        "Rank": 460,
+        "Type": "reiciendis",
+        "ColorBlock": 22,
+        "IconHint": "quaerat",
         "Selected": false,
-        "LastChanged": "2003-10-25T17:37:18.1332417+02:00",
+        "LastChanged": "2012-12-01T14:19:03.5769906+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "iste",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "nobis",
         "Hidden": true,
-        "FullName": "Gerry McCullough PhD",
+        "FullName": "Rita Strosin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 630
+            "FieldLength": 105
           }
         }
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "dicta",
+    "ExtraInfo": "provident",
+    "StyleHint": "accusamus",
     "Hidden": false,
-    "FullName": "Madaline Schuster",
+    "FullName": "Destiny Prosacco Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldLength": 59
       }
     }
   }

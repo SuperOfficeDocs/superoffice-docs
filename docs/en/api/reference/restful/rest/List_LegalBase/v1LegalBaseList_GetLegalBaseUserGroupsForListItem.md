@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 921,
-    "Name": "Lindgren Inc and Sons",
-    "ToolTip": "Et est soluta.",
+    "Id": 125,
+    "Name": "Gottlieb-Russel",
+    "ToolTip": "Voluptas cupiditate.",
     "Deleted": false,
-    "Rank": 94,
-    "Type": "aut",
-    "ColorBlock": 919,
-    "IconHint": "at",
-    "Selected": false,
-    "LastChanged": "2011-05-21T17:37:40.0365028+02:00",
+    "Rank": 99,
+    "Type": "ex",
+    "ColorBlock": 783,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2021-07-04T14:19:11.2730964+02:00",
     "ChildItems": [
       {
-        "Id": 397,
-        "Name": "Block, Hoeger and Botsford",
-        "ToolTip": "Ex error voluptas nihil labore labore.",
+        "Id": 760,
+        "Name": "Homenick LLC",
+        "ToolTip": "Aut fuga animi beatae dolor ut.",
         "Deleted": false,
-        "Rank": 868,
-        "Type": "labore",
-        "ColorBlock": 950,
-        "IconHint": "cupiditate",
+        "Rank": 293,
+        "Type": "quae",
+        "ColorBlock": 168,
+        "IconHint": "velit",
         "Selected": true,
-        "LastChanged": "2006-09-05T17:37:40.0365028+02:00",
+        "LastChanged": "2017-09-16T14:19:11.2730964+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "at",
+        "ExtraInfo": "possimus",
+        "StyleHint": "aut",
         "Hidden": true,
-        "FullName": "Mrs. Martina Littel IV",
+        "FullName": "Armani Rippin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 908
+            "FieldType": "System.String",
+            "FieldLength": 704
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "voluptate",
+    "ExtraInfo": "dolorum",
+    "StyleHint": "magni",
     "Hidden": false,
-    "FullName": "Theresa Russel",
+    "FullName": "Rebekah Schowalter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldLength": 3
       }
     }
   }

@@ -1625,258 +1625,147 @@ title: Services88.FindAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Find">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Find</summary>
-    </wsdl:documentation>
     <wsdl:operation name="GetCriteriaInformation">
-      <wsdl:documentation>
-        <summary>Get criteria information from a set of saved criteria. The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetCriteriaInformation" name="GetCriteriaInformationRequest" message="tns:GetCriteriaInformationRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetCriteriaInformationResponse" name="GetCriteriaInformationResponse" message="tns:GetCriteriaInformationResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCriteriaInformationWithContext">
-      <wsdl:documentation>
-        <summary>Get criteria information from a set of saved criteria. The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetCriteriaInformationWithContext" name="GetCriteriaInformationWithContextRequest" message="tns:GetCriteriaInformationWithContextRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetCriteriaInformationWithContextResponse" name="GetCriteriaInformationWithContextResponse" message="tns:GetCriteriaInformationWithContextResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveRestrictions">
-      <wsdl:documentation>
-        <summary>Save an array of restrictions for later use as search criteria (including as dynamic selection and Find). </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/SaveRestrictions" name="SaveRestrictionsRequest" message="tns:SaveRestrictionsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/SaveRestrictionsResponse" name="SaveRestrictionsResponse" message="tns:SaveRestrictionsResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveRestrictionsWithContext">
-      <wsdl:documentation>
-        <summary>Save an array of restrictions for later use as search criteria (including as dynamic selection and Find). </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/SaveRestrictionsWithContext" name="SaveRestrictionsWithContextRequest" message="tns:SaveRestrictionsWithContextRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/SaveRestrictionsWithContextResponse" name="SaveRestrictionsWithContextResponse" message="tns:SaveRestrictionsWithContextResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveRestrictionGroup">
-      <wsdl:documentation>
-        <summary>Save an array of restrictions as a restriction group for later use as search criteria (including as dynamic selection and Find). </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/SaveRestrictionGroup" name="SaveRestrictionGroupRequest" message="tns:SaveRestrictionGroupRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/SaveRestrictionGroupResponse" name="SaveRestrictionGroupResponse" message="tns:SaveRestrictionGroupResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveRestrictionGroups">
-      <wsdl:documentation>
-        <summary>Save and rerank an array of restriction groups, returning the possibly modified array.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/SaveRestrictionGroups" name="SaveRestrictionGroupsRequest" message="tns:SaveRestrictionGroupsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/SaveRestrictionGroupsResponse" name="SaveRestrictionGroupsResponse" message="tns:SaveRestrictionGroupsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetRestrictionGroups">
-      <wsdl:documentation>
-        <summary>Return all the restriction groups.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetRestrictionGroups" name="GetRestrictionGroupsRequest" message="tns:GetRestrictionGroupsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetRestrictionGroupsResponse" name="GetRestrictionGroupsResponse" message="tns:GetRestrictionGroupsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetRestrictionGroup">
-      <wsdl:documentation>
-        <summary>Return the restriction group with given rank or a blank carrier.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetRestrictionGroup" name="GetRestrictionGroupRequest" message="tns:GetRestrictionGroupRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetRestrictionGroupResponse" name="GetRestrictionGroupResponse" message="tns:GetRestrictionGroupResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateRestrictionGroup">
-      <wsdl:documentation>
-        <summary>Create a restriction group, initialized with next rank etc.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/CreateRestrictionGroup" name="CreateRestrictionGroupRequest" message="tns:CreateRestrictionGroupRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/CreateRestrictionGroupResponse" name="CreateRestrictionGroupResponse" message="tns:CreateRestrictionGroupResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteRestrictionGroup">
-      <wsdl:documentation>
-        <summary>Create a restriction group, initialized with next rank etc.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/DeleteRestrictionGroup" name="DeleteRestrictionGroupRequest" message="tns:DeleteRestrictionGroupRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/DeleteRestrictionGroupResponse" name="DeleteRestrictionGroupResponse" message="tns:DeleteRestrictionGroupResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveRestrictionsAndGetCriteriaInformation">
-      <wsdl:documentation>
-        <summary>Save an array of restrictions for later use as search criteria (including as dynamic selection and Find). Then, return the same result as a call to GetCriteriaInformation would have done. The purpose is to encapsulate saving and updating of a GUI in one round trip.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/SaveRestrictionsAndGetCriteriaInformation" name="SaveRestrictionsAndGetCriteriaInformationRequest" message="tns:SaveRestrictionsAndGetCriteriaInformationRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/SaveRestrictionsAndGetCriteriaInformationResponse" name="SaveRestrictionsAndGetCriteriaInformationResponse" message="tns:SaveRestrictionsAndGetCriteriaInformationResponse" />
     </wsdl:operation>
     <wsdl:operation name="Find">
-      <wsdl:documentation>
-        <summary>Execute a Find operation and return a page of results. The criteria for the Find are fetched from the restriction storage provider according to the given parameters. The columns of the result are calculated based on the restriction. The orderby columns are also calculated by the system.&lt;para/&gt;The other variants of the Find method allow you greater control over the individual aspects of the process.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/Find" name="FindRequest" message="tns:FindRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/FindResponse" name="FindResponse" message="tns:FindResponse" />
     </wsdl:operation>
     <wsdl:operation name="FindFromRestrictions">
-      <wsdl:documentation>
-        <summary>Execute a Find operation and return a page of results. The criteria for the Find are passed in directly, not fetched by a restriction storage provider. The columns of the result are calculated based on the restriction.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/FindFromRestrictions" name="FindFromRestrictionsRequest" message="tns:FindFromRestrictionsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/FindFromRestrictionsResponse" name="FindFromRestrictionsResponse" message="tns:FindFromRestrictionsResponse" />
     </wsdl:operation>
     <wsdl:operation name="FindFromRestrictionsColumns">
-      <wsdl:documentation>
-        <summary>Execute a Find operation and return a page of results. &lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is calculated by the system.&lt;para/&gt;Use the GetCriteriaInformation and GetDefaultDesiredColumns service methods to let the system calculate these values, if you want to use or modify them.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/FindFromRestrictionsColumns" name="FindFromRestrictionsColumnsRequest" message="tns:FindFromRestrictionsColumnsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/FindFromRestrictionsColumnsResponse" name="FindFromRestrictionsColumnsResponse" message="tns:FindFromRestrictionsColumnsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAvailableRestrictionColumns">
-      <wsdl:documentation>
-        <summary>Get a list of the column names corresponding to available restrictions for a certain archive provider and restriction storage provider. Such columns have CanRestrict set to true, and are supported by the given restriction storage provider.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetAvailableRestrictionColumns" name="GetAvailableRestrictionColumnsRequest" message="tns:GetAvailableRestrictionColumnsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetAvailableRestrictionColumnsResponse" name="GetAvailableRestrictionColumnsResponse" message="tns:GetAvailableRestrictionColumnsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSpecifiedCriteriaInformationWithDefaults">
-      <wsdl:documentation>
-        <summary>Get criteria information from a set of saved criteria, for a specific set of columns. The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control. ALL columns specified in the call will be present in the results; those that do not have corresponding criteria set will have empty values and the default (first) operator, with the IsActive flag set to false.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetSpecifiedCriteriaInformationWithDefaults" name="GetSpecifiedCriteriaInformationWithDefaultsRequest" message="tns:GetSpecifiedCriteriaInformationWithDefaultsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetSpecifiedCriteriaInformationWithDefaultsResponse" name="GetSpecifiedCriteriaInformationWithDefaultsResponse" message="tns:GetSpecifiedCriteriaInformationWithDefaultsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSpecifiedCriteriaInformationWithDefaultsWithContext">
-      <wsdl:documentation>
-        <summary>Get criteria information from a set of saved criteria, for a specific set of columns. The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control. ALL columns specified in the call will be present in the results; those that do not have corresponding criteria set will have empty values and the default (first) operator, with the IsActive flag set to false.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext" name="GetSpecifiedCriteriaInformationWithDefaultsWithContextRequest" message="tns:GetSpecifiedCriteriaInformationWithDefaultsWithContextRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContextResponse" name="GetSpecifiedCriteriaInformationWithDefaultsWithContextResponse" message="tns:GetSpecifiedCriteriaInformationWithDefaultsWithContextResponse" />
     </wsdl:operation>
     <wsdl:operation name="FindFromRestrictionsColumnsOrderBy">
-      <wsdl:documentation>
-        <summary>Execute a Find operation and return a page of results. &lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is also passed in directly.&lt;para/&gt;Use the GetCriteriaInformation, GetDefaultDesiredColumns and GetDefaultOrderBy service methods to let the system calculate these values, if you want to use or modify them.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/FindFromRestrictionsColumnsOrderBy" name="FindFromRestrictionsColumnsOrderByRequest" message="tns:FindFromRestrictionsColumnsOrderByRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/FindFromRestrictionsColumnsOrderByResponse" name="FindFromRestrictionsColumnsOrderByResponse" message="tns:FindFromRestrictionsColumnsOrderByResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDefaultDesiredColumns">
-      <wsdl:documentation>
-        <summary>Calculate the default desired columns, i.e., the result columns for a given search. The search is defined by a storage type, provider name and storage key, which are used to fetch the corresponding restrictions from the database (in the same way as Find does). If you want to specify the restriction directly, use the GetDefaultDesiredColumnsFromRestrictions method instead. This is the algorithm that is used by the Find service method.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetDefaultDesiredColumns" name="GetDefaultDesiredColumnsRequest" message="tns:GetDefaultDesiredColumnsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetDefaultDesiredColumnsResponse" name="GetDefaultDesiredColumnsResponse" message="tns:GetDefaultDesiredColumnsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDefaultOrderBy">
-      <wsdl:documentation>
-        <summary>Calculate the default orderby columns for a given provider and a search. The search is specified by a storage type, provider name and storage key, and is fetched from the database. Default desired columns are then calculated for the search, and those columns are then used as the basis for calculating an order by. If you want to specify the desired columns directly, use the GetDefaultOrderByFromDesiredColumns method instead.  This is the same algorithm that is used by the Find service method.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetDefaultOrderBy" name="GetDefaultOrderByRequest" message="tns:GetDefaultOrderByRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetDefaultOrderByResponse" name="GetDefaultOrderByResponse" message="tns:GetDefaultOrderByResponse" />
     </wsdl:operation>
     <wsdl:operation name="PopulateRestrictions">
-      <wsdl:documentation>
-        <summary>Take an incoming set of minimally populated restrictions (name + operator is required), and populate all the other parts of the ArchiveRestrictionInfo structure. This includes column information, display values (including list value lookup), and calculated/default values where the value hints specify read-only (R).</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/PopulateRestrictions" name="PopulateRestrictionsRequest" message="tns:PopulateRestrictionsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/PopulateRestrictionsResponse" name="PopulateRestrictionsResponse" message="tns:PopulateRestrictionsResponse" />
     </wsdl:operation>
     <wsdl:operation name="PopulateRestrictionValues">
-      <wsdl:documentation>
-        <summary>Take an incoming set of Restrictions (name + operator + any user-entered values), and populate/expand all values as specified by the operator's ValueHints, taking into account any values already there. Used for dynamic date periods; perhaps others in the future</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/PopulateRestrictionValues" name="PopulateRestrictionValuesRequest" message="tns:PopulateRestrictionValuesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/PopulateRestrictionValuesResponse" name="PopulateRestrictionValuesResponse" message="tns:PopulateRestrictionValuesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDefaultDesiredColumnsFromRestrictions">
-      <wsdl:documentation>
-        <summary>Calculate the default desired columns, i.e., the result columns for a given search. The search is defined by a provider name and a set of restrictions. This is the algorithm that is used by the Find service method.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetDefaultDesiredColumnsFromRestrictions" name="GetDefaultDesiredColumnsFromRestrictionsRequest" message="tns:GetDefaultDesiredColumnsFromRestrictionsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetDefaultDesiredColumnsFromRestrictionsResponse" name="GetDefaultDesiredColumnsFromRestrictionsResponse" message="tns:GetDefaultDesiredColumnsFromRestrictionsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDefaultOrderByFromDesiredColumns">
-      <wsdl:documentation>
-        <summary>Calculate the default orderby columns for a given provider and a set of desired columns. This is the same algorithm that is used by the Find service method.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetDefaultOrderByFromDesiredColumns" name="GetDefaultOrderByFromDesiredColumnsRequest" message="tns:GetDefaultOrderByFromDesiredColumnsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetDefaultOrderByFromDesiredColumnsResponse" name="GetDefaultOrderByFromDesiredColumnsResponse" message="tns:GetDefaultOrderByFromDesiredColumnsResponse" />
     </wsdl:operation>
     <wsdl:operation name="FindOrderBy">
-      <wsdl:documentation>
-        <summary>Execute a Find operation and return a page of results. The criteria for the Find are fetched from the restriction storage provider according to the given parameters. The columns of the result are calculated based on the restriction. The orderby parameter is used for sorting the results.&lt;para/&gt;The other variants of the Find method allow you greater control over the individual aspects of the process.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/FindOrderBy" name="FindOrderByRequest" message="tns:FindOrderByRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/FindOrderByResponse" name="FindOrderByResponse" message="tns:FindOrderByResponse" />
     </wsdl:operation>
     <wsdl:operation name="FindWithExtraRestrictions">
-      <wsdl:documentation>
-        <summary>Execute a Find operation and return a page of results. The criteria for the Find are fetched from the restriction storage provider according to the given parameters. In addition an extra set of restrictions can be added to the search. These restrictions will not be saved, they are only valid for the current search. Extra restrictions will override restrictions with the same key already stored on the storagekey.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/FindWithExtraRestrictions" name="FindWithExtraRestrictionsRequest" message="tns:FindWithExtraRestrictionsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/FindWithExtraRestrictionsResponse" name="FindWithExtraRestrictionsResponse" message="tns:FindWithExtraRestrictionsResponse" />
     </wsdl:operation>
     <wsdl:operation name="FindWithColumns">
-      <wsdl:documentation>
-        <summary>Execute a Find operation and return a page of results. The criteria for the Find are fetched from the restriction storage provider according to the given parameters.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/FindWithColumns" name="FindWithColumnsRequest" message="tns:FindWithColumnsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/FindWithColumnsResponse" name="FindWithColumnsResponse" message="tns:FindWithColumnsResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveRestrictions2">
-      <wsdl:documentation>
-        <summary>Save an array of restrictions for later use as search criteria (including as dynamic selection and Find). </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/SaveRestrictions2" name="SaveRestrictions2Request" message="tns:SaveRestrictions2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/SaveRestrictions2Response" name="SaveRestrictions2Response" message="tns:SaveRestrictions2Response" />
     </wsdl:operation>
     <wsdl:operation name="SaveRestrictionsWithContext2">
-      <wsdl:documentation>
-        <summary>Save an array of restrictions for later use as search criteria (including as dynamic selection and Find). </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/SaveRestrictionsWithContext2" name="SaveRestrictionsWithContext2Request" message="tns:SaveRestrictionsWithContext2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/SaveRestrictionsWithContext2Response" name="SaveRestrictionsWithContext2Response" message="tns:SaveRestrictionsWithContext2Response" />
     </wsdl:operation>
     <wsdl:operation name="SaveRestrictionsAndGetCriteriaInformation2">
-      <wsdl:documentation>
-        <summary>Save an array of restrictions for later use as search criteria (including as dynamic selection and Find). Then, return the same result as a call to GetCriteriaInformation would have done. The purpose is to encapsulate saving and updating of a GUI in one round trip.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/SaveRestrictionsAndGetCriteriaInformation2" name="SaveRestrictionsAndGetCriteriaInformation2Request" message="tns:SaveRestrictionsAndGetCriteriaInformation2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/SaveRestrictionsAndGetCriteriaInformation2Response" name="SaveRestrictionsAndGetCriteriaInformation2Response" message="tns:SaveRestrictionsAndGetCriteriaInformation2Response" />
     </wsdl:operation>
     <wsdl:operation name="FindFromRestrictions2">
-      <wsdl:documentation>
-        <summary>Execute a Find operation and return a page of results. The criteria for the Find are passed in directly, not fetched by a restriction storage provider. The columns of the result are calculated based on the restriction.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/FindFromRestrictions2" name="FindFromRestrictions2Request" message="tns:FindFromRestrictions2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/FindFromRestrictions2Response" name="FindFromRestrictions2Response" message="tns:FindFromRestrictions2Response" />
     </wsdl:operation>
     <wsdl:operation name="FindFromRestrictionsColumns2">
-      <wsdl:documentation>
-        <summary>Execute a Find operation and return a page of results. &lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is calculated by the system.&lt;para/&gt;Use the GetCriteriaInformation and GetDefaultDesiredColumns service methods to let the system calculate these values, if you want to use or modify them.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/FindFromRestrictionsColumns2" name="FindFromRestrictionsColumns2Request" message="tns:FindFromRestrictionsColumns2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/FindFromRestrictionsColumns2Response" name="FindFromRestrictionsColumns2Response" message="tns:FindFromRestrictionsColumns2Response" />
     </wsdl:operation>
     <wsdl:operation name="FindFromRestrictionsColumnsOrderBy2">
-      <wsdl:documentation>
-        <summary>Execute a Find operation and return a page of results. &lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is also passed in directly.&lt;para/&gt;Use the GetCriteriaInformation, GetDefaultDesiredColumns and GetDefaultOrderBy service methods to let the system calculate these values, if you want to use or modify them.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/FindFromRestrictionsColumnsOrderBy2" name="FindFromRestrictionsColumnsOrderBy2Request" message="tns:FindFromRestrictionsColumnsOrderBy2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/FindFromRestrictionsColumnsOrderBy2Response" name="FindFromRestrictionsColumnsOrderBy2Response" message="tns:FindFromRestrictionsColumnsOrderBy2Response" />
     </wsdl:operation>
     <wsdl:operation name="GetDefaultDesiredColumnsFromRestrictions2">
-      <wsdl:documentation>
-        <summary>Calculate the default desired columns, i.e., the result columns for a given search. The search is defined by a provider name and a set of restrictions. This is the algorithm that is used by the Find service method.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetDefaultDesiredColumnsFromRestrictions2" name="GetDefaultDesiredColumnsFromRestrictions2Request" message="tns:GetDefaultDesiredColumnsFromRestrictions2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/GetDefaultDesiredColumnsFromRestrictions2Response" name="GetDefaultDesiredColumnsFromRestrictions2Response" message="tns:GetDefaultDesiredColumnsFromRestrictions2Response" />
     </wsdl:operation>
     <wsdl:operation name="FindOrderBy2">
-      <wsdl:documentation>
-        <summary>Execute a Find operation and return a page of results. The criteria for the Find are fetched from the restriction storage provider according to the given parameters. The columns of the result are calculated based on the restriction. The orderby parameter is used for sorting the results.&lt;para/&gt;The other variants of the Find method allow you greater control over the individual aspects of the process.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/FindOrderBy2" name="FindOrderBy2Request" message="tns:FindOrderBy2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/FindOrderBy2Response" name="FindOrderBy2Response" message="tns:FindOrderBy2Response" />
     </wsdl:operation>
     <wsdl:operation name="FindWithExtraRestrictions2">
-      <wsdl:documentation>
-        <summary>Execute a Find operation and return a page of results. The criteria for the Find are fetched from the restriction storage provider according to the given parameters. In addition an extra set of restrictions can be added to the search. These restrictions will not be saved, they are only valid for the current search. Extra restrictions will override restrictions with the same key already stored on the storagekey.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/FindWithExtraRestrictions2" name="FindWithExtraRestrictions2Request" message="tns:FindWithExtraRestrictions2Request" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Find/FindWithExtraRestrictions2Response" name="FindWithExtraRestrictions2Response" message="tns:FindWithExtraRestrictions2Response" />
     </wsdl:operation>
@@ -2467,3 +2356,4 @@ title: Services88.FindAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

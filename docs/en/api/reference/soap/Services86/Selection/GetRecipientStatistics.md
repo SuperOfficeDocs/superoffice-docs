@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.ISelectionAgent.GetRecipi
 
 ## GetRecipientStatistics
 
-Returns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses.
 
-* **selectionId:** The id of the selection to get the statistics for.
 
-**Returns:** Returns a RecipientStatistics object.
+
 
 [WSDL file for Services86/Selection](../Services86-Selection.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetRecipientStatistics Response
 
 ```xml
@@ -76,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

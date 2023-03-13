@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services85/Licen
 
 Handled by the <see cref="T:SuperOffice.Services85.ILicenseAgent">SuperOffice.Services85.ILicenseAgent</see> interface.
 
-Interface for the License Agent
-License query, download, activation
+
 
 Download [WSDL file for Services85/License](../Services85-License.md) if you need to generate your own proxy code.
 
@@ -34,3 +33,4 @@ Download [WSDL file for Services85/License](../Services85-License.md) if you nee
 * [RemoveLicenseFromDB](RemoveLicenseFromDB.md)
 * [UnassignThirdPartyLicenses](UnassignThirdPartyLicenses.md)
 * [ValidateLicenseInfo](ValidateLicenseInfo.md)
+

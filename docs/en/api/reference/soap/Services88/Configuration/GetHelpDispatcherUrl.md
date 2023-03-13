@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IConfigurationAgent.GetHe
 
 ## GetHelpDispatcherUrl
 
-Will get the GetHelpDispatcherUrl used by the help system
 
-**Returns:** URL to be used by the help system
+
+
 
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetHelpDispatcherUrl Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

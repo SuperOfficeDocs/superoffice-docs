@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IViewStateAgent.SaveCurre
 
 ## SaveCurrent
 
-Saving the current history item. This history item is saved with Rank = 1, and all the remaining elements rank values are shifted one down. The list is maintained with the max lenght of the History list length preference.
 
-* **current:** The new current history element.
 
-**Returns:** The current (most recent) history item
+
 
 [WSDL file for Services86/ViewState](../Services86-ViewState.md)
 
@@ -57,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveCurrent Response
 
 ```xml
@@ -85,3 +84,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

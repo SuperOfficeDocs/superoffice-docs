@@ -67,15 +67,15 @@ No Content
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 880,
-  "EmailAddress": "rachel@wunsch.biz",
-  "EmailTemplateId": 953,
-  "CultureLcidId": 518,
-  "Subject": "suscipit"
+  "PersonId": 260,
+  "EmailAddress": "alvah_swift@wiegand.name",
+  "EmailTemplateId": 618,
+  "CultureLcidId": 358,
+  "Subject": "et"
 }
 ```
 

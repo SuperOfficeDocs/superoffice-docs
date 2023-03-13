@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 270,
+  "ErpConnectionId": 672,
   "ErpActorType": "Customer"
 }
 ```
@@ -101,14 +101,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "doloremque",
-    "Rank": 563,
-    "DisplayName": "Schoen, Miller and Gerhold",
-    "DisplayDescription": "Profit-focused fresh-thinking open architecture",
+    "FieldKey": "laborum",
+    "Rank": 981,
+    "DisplayName": "Lubowitz Group",
+    "DisplayDescription": "Progressive discrete info-mediaries",
     "FieldType": "Checkbox",
-    "ListName": "Sauer, Hudson and Krajcik",
-    "DefaultValue": "sunt",
-    "MaxLength": 78,
+    "ListName": "Medhurst, Roberts and Williamson",
+    "DefaultValue": "explicabo",
+    "MaxLength": 128,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 858
+        "FieldLength": 1002
       }
     }
   }

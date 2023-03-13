@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IBLOBAgent.SetProductImag
 
 ## SetProductImage
 
-Stores the product image that is displayed in the CRM application. The image is scaled down to max 1000x1000. This method operates only the main (rank=1) image; future extensions may support multiple images. A thumbnail of size 75x75 is also automatically set.
 
-* **productId:** The project id of the product the image belongs to.
-* **image:** The image that is stored on the product (System.Drawing.Image), scaled down to no more than 1000x1000
+
+
 
 [WSDL file for Services84/BLOB](../Services84-BLOB.md)
 
@@ -48,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetProductImage Response
 
 ```xml
@@ -66,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

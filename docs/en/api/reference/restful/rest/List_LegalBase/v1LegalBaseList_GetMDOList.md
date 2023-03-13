@@ -26,7 +26,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=eius
+GET /api/v1/List/LegalBase/MDOItems?query=et
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 924,
-    "Name": "Hahn, Smith and Langosh",
-    "ToolTip": "Culpa dignissimos alias repudiandae quia.",
+    "Id": 377,
+    "Name": "Will-Johns",
+    "ToolTip": "Dicta consequatur vel aliquid voluptatibus ab.",
     "Deleted": false,
     "Rank": 546,
-    "Type": "voluptatibus",
+    "Type": "commodi",
     "ChildItems": [
       {
-        "Id": 731,
-        "Name": "Skiles-Stark",
-        "ToolTip": "Explicabo est est aut qui est officia molestiae.",
+        "Id": 95,
+        "Name": "Nienow-Rogahn",
+        "ToolTip": "Id dolorem voluptatem.",
         "Deleted": false,
-        "Rank": 171,
-        "Type": "vitae",
+        "Rank": 381,
+        "Type": "sint",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nemo",
-        "ColorBlock": 409,
-        "ExtraInfo": "sapiente",
-        "StyleHint": "natus",
-        "FullName": "Amelie Pfeffer II",
+        "IconHint": "ut",
+        "ColorBlock": 143,
+        "ExtraInfo": "sunt",
+        "StyleHint": "temporibus",
+        "FullName": "Haleigh Murray",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 601
+            "FieldLength": 956
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 37,
-    "ExtraInfo": "delectus",
-    "StyleHint": "esse",
-    "FullName": "Sigmund Schaefer",
+    "IconHint": "a",
+    "ColorBlock": 187,
+    "ExtraInfo": "eum",
+    "StyleHint": "aut",
+    "FullName": "Mrs. Sallie Taryn Kshlerin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 569
+        "FieldType": "System.String",
+        "FieldLength": 303
       }
     }
   }

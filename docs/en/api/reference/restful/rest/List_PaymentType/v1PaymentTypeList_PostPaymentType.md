@@ -76,12 +76,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 895,
-  "Name": "Cole Inc and Sons",
-  "Tooltip": "eum",
-  "Deleted": false,
-  "UdListDefinitionId": 492,
-  "Rank": 64
+  "Id": 14,
+  "Name": "Yundt-Kerluke",
+  "Tooltip": "pariatur",
+  "Deleted": true,
+  "UdListDefinitionId": 694,
+  "Rank": 284
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 575,
-  "Name": "Wiegand LLC",
-  "Tooltip": "enim",
+  "Id": 985,
+  "Name": "Hane, McDermott and Hauck",
+  "Tooltip": "facere",
   "Deleted": true,
-  "UdListDefinitionId": 58,
-  "Rank": 358,
+  "UdListDefinitionId": 282,
+  "Rank": 87,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldLength": 208
     }
   }
 }

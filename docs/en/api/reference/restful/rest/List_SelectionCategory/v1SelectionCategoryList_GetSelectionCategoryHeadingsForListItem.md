@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 479,
-    "Name": "Stracke-Sauer",
-    "ToolTip": "Quisquam sit.",
-    "Deleted": true,
-    "Rank": 54,
-    "Type": "quod",
-    "ColorBlock": 970,
-    "IconHint": "vitae",
-    "Selected": true,
-    "LastChanged": "2007-04-25T17:37:40.3614962+02:00",
+    "Id": 731,
+    "Name": "Schmeler-Leannon",
+    "ToolTip": "Ullam nihil minima et minus.",
+    "Deleted": false,
+    "Rank": 609,
+    "Type": "ipsam",
+    "ColorBlock": 863,
+    "IconHint": "unde",
+    "Selected": false,
+    "LastChanged": "2022-03-12T14:19:11.6120888+01:00",
     "ChildItems": [
       {
-        "Id": 347,
-        "Name": "Tromp Group",
-        "ToolTip": "Omnis eos et eum eius fugiat.",
+        "Id": 949,
+        "Name": "Kemmer, Considine and Keeling",
+        "ToolTip": "Eos dolore id laudantium itaque eos.",
         "Deleted": true,
-        "Rank": 52,
-        "Type": "nam",
-        "ColorBlock": 150,
-        "IconHint": "quasi",
-        "Selected": false,
-        "LastChanged": "2011-05-26T17:37:40.3624952+02:00",
+        "Rank": 871,
+        "Type": "ea",
+        "ColorBlock": 226,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2003-02-22T14:19:11.6120888+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
+        "ExtraInfo": "distinctio",
         "StyleHint": "soluta",
-        "Hidden": true,
-        "FullName": "Mia Hackett",
+        "Hidden": false,
+        "FullName": "Tremayne Edward Okuneva I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 207
+            "FieldType": "System.String",
+            "FieldLength": 463
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "quidem",
+    "ExtraInfo": "ea",
+    "StyleHint": "asperiores",
     "Hidden": false,
-    "FullName": "Mr. Melvina Haley II",
+    "FullName": "Prof. Rae Hadley Connelly Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 675
+        "FieldType": "System.Int32",
+        "FieldLength": 748
       }
     }
   }

@@ -122,25 +122,25 @@ OK
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 618,
-  "Name": "Schulist, Blanda and Hettinger",
-  "Description": "Extended stable access",
-  "WelcomeMessage": "illum",
+  "ChatTopicId": 640,
+  "Name": "Wolff Group",
+  "Description": "Digitized systemic knowledge user",
+  "WelcomeMessage": "voluptatem",
   "Language": null,
-  "LastAccept": "2010-09-25T17:37:16.976242+02:00",
-  "SecondsPrAccept": 815,
-  "AlertRecipient": "aut",
+  "LastAccept": "1998-02-22T14:19:02.82302+01:00",
+  "SecondsPrAccept": 619,
+  "AlertRecipient": "enim",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "consequatur",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "sequi",
-  "WarnNewChatMinutes": 615,
-  "WarnManagerNewChatMinutes": 591,
+  "CollectConsent": false,
+  "BadgeHeader": "voluptatibus",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "qui",
+  "WarnNewChatMinutes": 37,
+  "WarnManagerNewChatMinutes": 53,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 823,
-  "WarnManagerChatMessageMinutes": 126,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 373,
-  "OfflineFormQueueLength": 243,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 364,
+  "WarnManagerChatMessageMinutes": 777,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 430,
+  "OfflineFormQueueLength": 484,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "rerum"
+  "WidgetRatingText": "inventore"
 }
 ```
 
@@ -167,43 +167,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 104,
-  "Name": "Hilll, Renner and Rath",
-  "Description": "Extended dedicated hardware",
-  "WelcomeMessage": "eos",
+  "ChatTopicId": 56,
+  "Name": "Bailey Group",
+  "Description": "Total heuristic circuit",
+  "WelcomeMessage": "commodi",
   "Language": null,
-  "LastAccept": "2021-11-12T17:37:16.9792408+01:00",
-  "SecondsPrAccept": 683,
-  "AlertRecipient": "rerum",
+  "LastAccept": "2001-07-16T14:19:02.82302+02:00",
+  "SecondsPrAccept": 795,
+  "AlertRecipient": "doloremque",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "repudiandae",
+  "CollectConsent": false,
+  "BadgeHeader": "repellendus",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "nobis",
-  "WarnNewChatMinutes": 512,
-  "WarnManagerNewChatMinutes": 491,
-  "TicketEnabled": false,
+  "CustomQueueText": "sint",
+  "WarnNewChatMinutes": 924,
+  "WarnManagerNewChatMinutes": 206,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 658,
-  "WarnManagerChatMessageMinutes": 871,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 537,
+  "WarnManagerChatMessageMinutes": 368,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 816,
-  "OfflineFormQueueLength": 157,
+  "OfflineFormTimeLimit": 37,
+  "OfflineFormQueueLength": 418,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "aut",
+  "WidgetRatingText": "sapiente",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldType": "System.String",
+      "FieldLength": 56
     }
   }
 }

@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.RebuildFullnam
 
 ## RebuildFullnames
 
-Update the fullname field of all categories. Use this e.g. when changing parentId or renaming a category with children.
 
-**Returns:** This method has no return value
+
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RebuildFullnames Response
 
 ```xml
@@ -65,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

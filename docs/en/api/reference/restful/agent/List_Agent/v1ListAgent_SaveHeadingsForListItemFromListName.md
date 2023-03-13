@@ -88,32 +88,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Schmeler, Cronin and Wolff",
-  "ListItemId": 165,
+  "UdListDefinitionName": "Little-Waelchi",
+  "ListItemId": 847,
   "Headings": [
     {
-      "Id": 910,
-      "Name": "Friesen Group",
-      "ToolTip": "Ea magni reprehenderit nihil sit incidunt.",
-      "Deleted": true,
-      "Rank": 609,
-      "Type": "deleniti",
-      "ColorBlock": 528,
-      "IconHint": "dignissimos",
+      "Id": 453,
+      "Name": "Dicki Group",
+      "ToolTip": "Unde et qui fugit sed minus et est.",
+      "Deleted": false,
+      "Rank": 692,
+      "Type": "non",
+      "ColorBlock": 915,
+      "IconHint": "nisi",
       "Selected": false,
-      "LastChanged": "2018-09-01T17:37:18.2102447+02:00",
+      "LastChanged": "2011-06-12T14:19:03.6394986+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ab",
-      "StyleHint": "temporibus",
+      "ExtraInfo": "odit",
+      "StyleHint": "nostrum",
       "Hidden": false,
-      "FullName": "Augustine Quitzon"
+      "FullName": "Isabelle Forrest Kreiger II"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Johnston-Koch",
-    "ToolTip": "Aut aut labore commodi dolor sint.",
+    "Id": 105,
+    "Name": "Barton-Casper",
+    "ToolTip": "Blanditiis enim molestiae excepturi quia ducimus.",
     "Deleted": false,
-    "Rank": 952,
-    "Type": "quisquam",
-    "ColorBlock": 36,
-    "IconHint": "impedit",
-    "Selected": false,
-    "LastChanged": "2003-09-06T17:37:18.2112444+02:00",
+    "Rank": 145,
+    "Type": "nobis",
+    "ColorBlock": 353,
+    "IconHint": "veniam",
+    "Selected": true,
+    "LastChanged": "2015-04-14T14:19:03.6394986+02:00",
     "ChildItems": [
       {
-        "Id": 40,
-        "Name": "Yost-Ritchie",
-        "ToolTip": "Sequi perferendis dolore velit qui.",
+        "Id": 612,
+        "Name": "Mante Group",
+        "ToolTip": "Quos voluptates minus.",
         "Deleted": false,
-        "Rank": 120,
-        "Type": "autem",
-        "ColorBlock": 581,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "1999-11-28T17:37:18.2112444+01:00",
+        "Rank": 174,
+        "Type": "eos",
+        "ColorBlock": 738,
+        "IconHint": "iure",
+        "Selected": false,
+        "LastChanged": "2003-07-04T14:19:03.6394986+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "dolorum",
+        "ExtraInfo": "velit",
+        "StyleHint": "laudantium",
         "Hidden": false,
-        "FullName": "Miss Cesar Eldora Dickinson",
+        "FullName": "Albertha Huel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 754
+            "FieldType": "System.String",
+            "FieldLength": 775
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "dignissimos",
+    "ExtraInfo": "odio",
+    "StyleHint": "porro",
     "Hidden": false,
-    "FullName": "Edward Mellie Blick II",
+    "FullName": "Prof. Bertram Hauck Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 594
+        "FieldLength": 83
       }
     }
   }

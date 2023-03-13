@@ -320,27 +320,15 @@ title: Services87.ChatAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Chat">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Chat</summary>
-    </wsdl:documentation>
     <wsdl:operation name="GetChatPresence">
-      <wsdl:documentation>
-        <summary>Get the chat presence status for all chat users</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Chat/GetChatPresence" name="GetChatPresenceRequest" message="tns:GetChatPresenceRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Chat/GetChatPresenceResponse" name="GetChatPresenceResponse" message="tns:GetChatPresenceResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveChatPresence">
-      <wsdl:documentation>
-        <summary>Save the chat presence for specified users</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Chat/SaveChatPresence" name="SaveChatPresenceRequest" message="tns:SaveChatPresenceRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Chat/SaveChatPresenceResponse" name="SaveChatPresenceResponse" message="tns:SaveChatPresenceResponse" />
     </wsdl:operation>
     <wsdl:operation name="IsWithinOpeningHours">
-      <wsdl:documentation>
-        <summary>Check if we are right now within the opening hours of the given topic. Will use timezones to calculate if configured.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Chat/IsWithinOpeningHours" name="IsWithinOpeningHoursRequest" message="tns:IsWithinOpeningHoursRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/Chat/IsWithinOpeningHoursResponse" name="IsWithinOpeningHoursResponse" message="tns:IsWithinOpeningHoursResponse" />
     </wsdl:operation>
@@ -403,3 +391,4 @@ title: Services87.ChatAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

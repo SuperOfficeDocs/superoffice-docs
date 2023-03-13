@@ -84,12 +84,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eos",
-  "ProviderName": "Hintz Group",
-  "StorageKey": "dicta",
+  "StorageType": "mollitia",
+  "ProviderName": "Hayes-Stehr",
+  "StorageKey": "nesciunt",
   "StaticColumns": [
-    "facere",
-    "voluptatibus"
+    "aut",
+    "iure"
   ]
 }
 ```
@@ -103,15 +103,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Jenkins Group",
-      "Operator": "temporibus",
+      "Name": "Watsica-Gibson",
+      "Operator": "ullam",
       "Values": [
-        "incidunt",
-        "unde"
+        "nobis",
+        "veritatis"
       ],
       "DisplayValues": [
-        "fugiat",
-        "qui"
+        "ipsa",
+        "a"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -119,65 +119,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 54,
+      "InterParenthesis": 923,
       "InterOperator": "And",
-      "UniqueHash": 506
+      "UniqueHash": 539
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Strosin LLC",
-      "DisplayTooltip": "perspiciatis",
-      "DisplayType": "pariatur",
-      "CanOrderBy": false,
-      "Name": "Kovacek, Schaden and Kerluke",
+      "DisplayName": "Roob-Rolfson",
+      "DisplayTooltip": "est",
+      "DisplayType": "dicta",
+      "CanOrderBy": true,
+      "Name": "Marks Group",
       "CanRestrictBy": false,
-      "RestrictionType": "eaque",
-      "RestrictionListName": "Prosacco Group",
-      "IsVisible": false,
-      "ExtraInfo": "eligendi",
-      "Width": "omnis",
-      "IconHint": "eaque",
-      "HeadingIconHint": "consequuntur"
+      "RestrictionType": "commodi",
+      "RestrictionListName": "Botsford-Stark",
+      "IsVisible": true,
+      "ExtraInfo": "libero",
+      "Width": "quae",
+      "IconHint": "ut",
+      "HeadingIconHint": "molestias"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Bins LLC",
-      "PrimaryKey": 879,
+      "EntityName": "Walter-Turcotte",
+      "PrimaryKey": 435,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quia",
-          "TooltipHint": "assumenda",
-          "LinkHint": "ullam"
+          "DisplayValue": "et",
+          "TooltipHint": "repudiandae",
+          "LinkHint": "quo"
         }
       },
-      "LinkHint": "dolorem",
-      "StyleHint": "consectetur",
+      "LinkHint": "autem",
+      "StyleHint": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 563
+          "FieldType": "System.Int32",
+          "FieldLength": 279
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Blanda-Waters",
-      "Description": "Organized 6th generation protocol",
-      "Rank": 686,
+      "Name": "Stiedemann-Corkery",
+      "Description": "Enterprise-wide full-range internet solution",
+      "Rank": 970,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Blanda-Waters",
-      "Description": "Organized 6th generation protocol",
-      "Rank": 686,
+      "Name": "Stiedemann-Corkery",
+      "Description": "Enterprise-wide full-range internet solution",
+      "Rank": 970,
       "Restrictions": [
         {},
         {}
@@ -188,8 +188,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 70
+      "FieldType": "System.Int32",
+      "FieldLength": 825
     }
   }
 }

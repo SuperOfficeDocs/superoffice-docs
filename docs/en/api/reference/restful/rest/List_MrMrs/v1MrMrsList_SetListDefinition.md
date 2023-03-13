@@ -87,15 +87,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 975,
-  "Name": "Schulist, Pagac and Morar",
-  "Tooltip": "est",
+  "Id": 956,
+  "Name": "Emmerich-Herman",
+  "Tooltip": "culpa",
   "Deleted": false,
-  "Rank": 128,
+  "Rank": 327,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "officiis",
+  "ListType": "nesciunt",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 174,
-  "Name": "Morissette Inc and Sons",
-  "Tooltip": "commodi",
-  "Deleted": true,
-  "Rank": 477,
+  "Id": 290,
+  "Name": "Lubowitz-Daugherty",
+  "Tooltip": "suscipit",
+  "Deleted": false,
+  "Rank": 82,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "fugiat",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "rerum",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 597
+      "FieldLength": 893
     }
   }
 }

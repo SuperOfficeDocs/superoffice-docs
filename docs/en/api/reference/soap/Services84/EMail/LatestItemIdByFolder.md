@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IEMailAgent.LatestItemIdB
 
 ## LatestItemIdByFolder
 
-Returns the latest id of the mail item by folder
 
-* **folderId:** The folderId for the folder to check for the lastest mail id
 
-**Returns:** Mail Item id
+
 
 [WSDL file for Services84/EMail](../Services84-EMail.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## LatestItemIdByFolder Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

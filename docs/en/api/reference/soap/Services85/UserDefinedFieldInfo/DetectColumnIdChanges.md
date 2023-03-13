@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserDefinedFieldInfoAgen
 
 ## DetectColumnIdChanges
 
-Detect columnid changes to the admin version (for determining publish warning)
 
-* **ownerType:** The owner type
 
-**Returns:** Returns true if columnid changes where found. i.e. if data needs to be moved during publishing.
+
 
 [WSDL file for Services85/UserDefinedFieldInfo](../Services85-UserDefinedFieldInfo.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DetectColumnIdChanges Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

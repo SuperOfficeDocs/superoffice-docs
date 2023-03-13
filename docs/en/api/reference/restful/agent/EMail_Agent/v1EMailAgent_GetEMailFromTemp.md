@@ -103,7 +103,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileName": "Hirthe Group"
+  "FileName": "Hartmann, Block and Farrell"
 }
 ```
 
@@ -116,146 +116,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 134,
-      "ContactName": "Cummerata, Kreiger and Swaniawski",
-      "PersonId": 6,
-      "PersonName": "O'Kon, Pfannerstill and Weimann",
-      "AssociateId": 372,
-      "Address": "magni",
-      "EmailId": 518,
+      "ContactId": 341,
+      "ContactName": "Turner LLC",
+      "PersonId": 238,
+      "PersonName": "McCullough Inc and Sons",
+      "AssociateId": 773,
+      "Address": "aliquid",
+      "EmailId": 324,
       "DuplicatePersonIds": [
-        77,
-        202
+        234,
+        737
       ],
-      "Name": "Pfannerstill LLC",
+      "Name": "Frami Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 620
+          "FieldType": "System.Int32",
+          "FieldLength": 612
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 819,
-      "ContactName": "Rippin Group",
-      "PersonId": 437,
-      "PersonName": "Aufderhar Group",
-      "AssociateId": 92,
-      "Address": "voluptas",
-      "EmailId": 302,
+      "ContactId": 118,
+      "ContactName": "Halvorson LLC",
+      "PersonId": 378,
+      "PersonName": "Gottlieb, Waelchi and Kilback",
+      "AssociateId": 796,
+      "Address": "similique",
+      "EmailId": 361,
       "DuplicatePersonIds": [
-        674,
-        327
+        549,
+        87
       ],
-      "Name": "McKenzie, Hodkiewicz and Lehner",
+      "Name": "Hamill LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldLength": 949
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 890,
-      "ContactName": "Emmerich, Bruen and Carroll",
-      "PersonId": 250,
-      "PersonName": "Berge, Cremin and Kuhic",
-      "AssociateId": 92,
-      "Address": "vel",
-      "EmailId": 83,
+      "ContactId": 831,
+      "ContactName": "Corkery-Mitchell",
+      "PersonId": 189,
+      "PersonName": "Boyer, Volkman and Rowe",
+      "AssociateId": 949,
+      "Address": "consequatur",
+      "EmailId": 63,
       "DuplicatePersonIds": [
-        635,
-        871
+        706,
+        361
       ],
-      "Name": "Kuhn LLC",
+      "Name": "Bogan Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 157
+          "FieldType": "System.Int32",
+          "FieldLength": 26
         }
       }
     }
   ],
-  "Subject": "provident",
-  "HTMLBody": "amet",
+  "Subject": "vel",
+  "HTMLBody": "vel",
   "From": null,
-  "Sent": "2022-06-08T17:37:18.0002448+02:00",
-  "Size": 547,
+  "Sent": "2001-03-29T14:19:03.4821464+02:00",
+  "Size": 365,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ipsum",
-  "PlainBody": "consequuntur",
-  "IsSent": false,
+  "MessageID": "est",
+  "PlainBody": "quae",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 911,
+  "ServerId": 120,
   "Attachments": [
     {
-      "Description": "Realigned zero administration budgetary management",
-      "Filename": "quia",
-      "Size": 855,
-      "Type": "molestias",
-      "Encoding": "fugiat",
-      "Id": "similique",
-      "Disposition": "fugiat",
+      "Description": "User-centric intermediate algorithm",
+      "Filename": "soluta",
+      "Size": 918,
+      "Type": "est",
+      "Encoding": "eum",
+      "Id": "est",
+      "Disposition": "ipsa",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 902
+          "FieldLength": 473
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Greenholt Group",
+      "Name": "Willms Group",
       "Values": [
-        "et",
-        "nam"
+        "esse",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 34
+          "FieldType": "System.String",
+          "FieldLength": 150
         }
       }
     },
     {
-      "Name": "Greenholt Group",
+      "Name": "Willms Group",
       "Values": [
-        "et",
-        "nam"
+        "esse",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 34
+          "FieldType": "System.String",
+          "FieldLength": 150
         }
       }
     }
   ],
-  "FolderName": "Mante-Fisher",
-  "EmailItemId": 250,
-  "AccountId": 950,
-  "ReceivedAt": "2009-10-24T17:37:18.0012444+02:00",
+  "FolderName": "Cassin, Reichel and Kuhn",
+  "EmailItemId": 530,
+  "AccountId": 469,
+  "ReceivedAt": "2017-02-21T14:19:03.4821464+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2011-10-10T17:37:18.0012444+02:00",
+  "RepliedAt": "2020-02-10T14:19:03.4821464+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -263,8 +263,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldType": "System.String",
+      "FieldLength": 135
     }
   }
 }

@@ -97,7 +97,7 @@ OK
 POST /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 849,
-  "ColumnId": 896,
-  "FieldDefault": "consequatur",
-  "FieldHeight": 885,
-  "FieldLabel": "nam",
-  "FieldLeft": 373,
-  "FieldTop": 751,
+  "UDefFieldId": 873,
+  "ColumnId": 539,
+  "FieldDefault": "quo",
+  "FieldHeight": 780,
+  "FieldLabel": "ut",
+  "FieldLeft": 547,
+  "FieldTop": 547,
   "FieldType": "Checkbox",
-  "FieldWidth": 779,
-  "FormatMask": "dicta",
-  "HideLabel": true,
+  "FieldWidth": 337,
+  "FormatMask": "expedita",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 321,
-  "LabelLeft": 592,
-  "LabelTop": 43,
-  "LabelWidth": 819,
-  "LastVersionId": 934,
-  "ListTableId": 12,
+  "LabelHeight": 999,
+  "LabelLeft": 645,
+  "LabelTop": 888,
+  "LabelWidth": 843,
+  "LastVersionId": 688,
+  "ListTableId": 919,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 189,
-  "ProgId": "nobis",
+  "Page1LineNo": 473,
+  "ProgId": "ullam",
   "IsReadOnly": false,
-  "ShortLabel": "qui",
-  "TabOrder": 246,
-  "TextLength": 191,
-  "Tooltip": "unde",
-  "UdefIdentity": 628,
-  "UDListDefinitionId": 546,
+  "ShortLabel": "voluptate",
+  "TabOrder": 866,
+  "TextLength": 870,
+  "Tooltip": "cupiditate",
+  "UdefIdentity": 758,
+  "UDListDefinitionId": 628,
   "Justification": "Center",
-  "Version": 959,
-  "TemplateVariableName": "Wolff-Wiegand",
-  "HasBeenPublished": false,
-  "MdoListName": "Zboncak Inc and Sons",
+  "Version": 943,
+  "TemplateVariableName": "Bogan, Nienow and Pfannerstill",
+  "HasBeenPublished": true,
+  "MdoListName": "Graham Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 897
+      "FieldLength": 409
     }
   }
 }

@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,34 +87,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 24,
+  "ExtAppId": 30,
   "Name": "Crona Inc and Sons",
-  "Tooltip": "sed",
+  "Tooltip": "esse",
   "Deleted": false,
-  "Rank": 28,
-  "Filename": "nostrum",
-  "Parameters": "minima",
-  "Workdir": "sint",
+  "Rank": 11,
+  "Filename": "repellendus",
+  "Parameters": "quis",
+  "Workdir": "odio",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "OnSatellite": true,
+  "OnTravel": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 775,
+  "ShowInStatusBar": false,
+  "Icon": 507,
   "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "quidem",
+  "Path": "magnam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 878
+      "FieldType": "System.Int32",
+      "FieldLength": 36
     }
   }
 }

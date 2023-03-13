@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "udlist30002"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "udlist30002" MDO List
-
 MDO provider for the ChatService
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.udlist30002">udlist30002</see> class.
 The name of the MDO list is 'udlist30002'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("udlist30002", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -52,6 +55,7 @@ foreach (var item in listProvider.RootItems) {
 |28|QQ|||
 |26|SameTime|||
 |23|Yahoo|||
+
 
 ## Related MDO Lists
 

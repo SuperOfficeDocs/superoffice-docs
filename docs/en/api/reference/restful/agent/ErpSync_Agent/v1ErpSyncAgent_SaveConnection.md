@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,33 +100,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 80,
-  "ErpConnectorId": 315,
-  "DisplayName": "Crona-Witting",
-  "DisplayDescription": "Team-oriented background portal",
-  "Active": false,
-  "ConnectionId": "deserunt",
-  "MostRecentTimestamp": "sapiente",
+  "ErpConnectionId": 921,
+  "ErpConnectorId": 244,
+  "DisplayName": "Berge, Renner and Senger",
+  "DisplayDescription": "Object-based holistic monitoring",
+  "Active": true,
+  "ConnectionId": "laborum",
+  "MostRecentTimestamp": "minima",
   "ConfigFields": {
-    "ConfigFields1": "odio",
-    "ConfigFields2": "et"
+    "ConfigFields1": "porro",
+    "ConfigFields2": "eligendi"
   },
-  "Deleted": false,
+  "Deleted": true,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    651,
-    74
+    289,
+    298
   ],
   "AssociateAccessIds": [
-    528,
-    788
+    142,
+    418
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldLength": 211
     }
   }
 }

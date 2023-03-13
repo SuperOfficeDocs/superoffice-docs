@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,29 +72,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 970,
-  "Name": "Frami, Feest and Koelpin",
-  "CreatedDate": "2005-02-25T17:37:18.0893365+01:00",
-  "UpdatedDate": "2000-01-27T17:37:18.0893365+01:00",
+  "ForeignAppId": 42,
+  "Name": "Rempel Group",
+  "CreatedDate": "2021-09-26T14:19:03.5446477+02:00",
+  "UpdatedDate": "2001-09-02T14:19:03.5446477+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 749,
-      "Name": "Doyle-Graham",
-      "CreatedDate": "2000-03-11T17:37:18.0902432+01:00",
-      "UpdatedDate": "2018-09-07T17:37:18.0902432+02:00",
-      "AssociateFullName": "Lucile Morissette",
-      "CreatedBy": "qui",
-      "UpdatedBy": "rem",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 237,
+      "ForeignDeviceId": 1002,
+      "Name": "VonRueden LLC",
+      "CreatedDate": "2019-05-14T14:19:03.5446477+02:00",
+      "UpdatedDate": "2005-02-07T14:19:03.5446477+01:00",
+      "AssociateFullName": "Yessenia Hickle",
+      "CreatedBy": "minus",
+      "UpdatedBy": "recusandae",
+      "DeviceIdentifier": "quia",
+      "ForeignAppId": 368,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 152
+          "FieldLength": 132
         }
       }
     }
@@ -103,8 +103,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 776
+      "FieldType": "System.String",
+      "FieldLength": 579
     }
   }
 }

@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 881,
-  "Select": "quam"
+  "SelectionId": 243,
+  "Select": "sed"
 }
 ```
 
@@ -96,23 +96,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Koch-Cummerata",
-    "PrimaryKey": 219,
+    "EntityName": "Thompson, Stehr and Durgan",
+    "PrimaryKey": 204,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "cupiditate",
-        "TooltipHint": "accusantium",
-        "LinkHint": "voluptas"
+        "DisplayValue": "doloribus",
+        "TooltipHint": "odit",
+        "LinkHint": "ut"
       }
     },
-    "LinkHint": "eveniet",
-    "StyleHint": "est",
+    "LinkHint": "deleniti",
+    "StyleHint": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 450
+        "FieldLength": 739
       }
     }
   }

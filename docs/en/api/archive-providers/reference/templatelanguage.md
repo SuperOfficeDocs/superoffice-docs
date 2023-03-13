@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "TemplateLanguage"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -23,15 +23,13 @@ Archive Provider for retriving the registered languages for a given document tem
 The provider will use the document plugin to get the languages registered.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"templatelanguage"|[(templatelanguage)]|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |id| *None* |id|  |
 |name| *None* |name|  |
 
@@ -45,4 +43,7 @@ Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

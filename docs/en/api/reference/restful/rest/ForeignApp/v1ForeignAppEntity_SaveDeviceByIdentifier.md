@@ -84,19 +84,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 687,
-  "Name": "Gleason, Larson and Cassin",
-  "CreatedDate": "2016-06-29T17:37:38.8158633+02:00",
-  "UpdatedDate": "2015-08-05T17:37:38.8158633+02:00",
-  "AssociateFullName": "Dangelo Eichmann PhD",
-  "CreatedBy": "ipsam",
-  "UpdatedBy": "blanditiis",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 411
+  "ForeignDeviceId": 127,
+  "Name": "Bradtke, Toy and Schiller",
+  "CreatedDate": "2003-03-19T14:19:10.3654771+01:00",
+  "UpdatedDate": "2008-03-02T14:19:10.3654771+01:00",
+  "AssociateFullName": "Hyman Sawayn",
+  "CreatedBy": "aut",
+  "UpdatedBy": "consequatur",
+  "DeviceIdentifier": "in",
+  "ForeignAppId": 133
 }
 ```
 
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 599,
-  "Name": "Schmidt-Olson",
-  "CreatedDate": "1998-06-29T17:37:38.8168599+02:00",
-  "UpdatedDate": "2022-12-19T17:37:38.8168599+01:00",
-  "AssociateFullName": "Yazmin Gusikowski",
-  "CreatedBy": "omnis",
-  "UpdatedBy": "iure",
-  "DeviceIdentifier": "aliquam",
-  "ForeignAppId": 693,
+  "ForeignDeviceId": 395,
+  "Name": "Fisher-Pfannerstill",
+  "CreatedDate": "2019-02-12T14:19:10.3654771+01:00",
+  "UpdatedDate": "2006-11-22T14:19:10.3654771+01:00",
+  "AssociateFullName": "Sydnie Mertz",
+  "CreatedBy": "nulla",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "dolor",
+  "ForeignAppId": 204,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldLength": 914
     }
   }
 }

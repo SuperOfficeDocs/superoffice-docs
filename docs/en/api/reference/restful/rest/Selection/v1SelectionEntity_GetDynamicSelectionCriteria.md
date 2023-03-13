@@ -76,29 +76,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Conroy-Corkery",
-    "Operator": "reiciendis",
+    "Name": "Gutmann, Bednar and Brown",
+    "Operator": "autem",
     "Values": [
-      "harum",
-      "adipisci"
+      "dolorem",
+      "rerum"
     ],
     "DisplayValues": [
-      "voluptates",
-      "quis"
+      "est",
+      "magnam"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Langosh-Satterfield",
-        "Operator": "mollitia",
+        "Name": "Zulauf LLC",
+        "Operator": "incidunt",
         "Values": [
-          "vel",
-          "amet"
+          "rerum",
+          "voluptas"
         ],
         "DisplayValues": [
-          "beatae",
-          "deleniti"
+          "incidunt",
+          "qui"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -106,14 +106,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 10,
+        "InterParenthesis": 947,
         "InterOperator": "And",
-        "UniqueHash": 99
+        "UniqueHash": 145
       }
     ],
-    "InterParenthesis": 56,
+    "InterParenthesis": 157,
     "InterOperator": "And",
-    "UniqueHash": 109
+    "UniqueHash": 379
   }
 ]
 ```

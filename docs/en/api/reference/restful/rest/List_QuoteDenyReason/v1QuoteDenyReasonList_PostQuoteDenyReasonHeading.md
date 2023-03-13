@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 404,
-  "Name": "Legros-Donnelly",
-  "Tooltip": "repellendus",
-  "Deleted": true,
-  "Rank": 39,
-  "UdListDefinitionId": 934
+  "HeadingId": 620,
+  "Name": "Hayes, Legros and Emmerich",
+  "Tooltip": "quae",
+  "Deleted": false,
+  "Rank": 213,
+  "UdListDefinitionId": 919
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 777,
-  "Name": "Volkman Inc and Sons",
-  "Tooltip": "consequuntur",
+  "HeadingId": 93,
+  "Name": "Walker LLC",
+  "Tooltip": "beatae",
   "Deleted": false,
-  "Rank": 255,
-  "UdListDefinitionId": 624,
+  "Rank": 586,
+  "UdListDefinitionId": 742,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldLength": 118
     }
   }
 }

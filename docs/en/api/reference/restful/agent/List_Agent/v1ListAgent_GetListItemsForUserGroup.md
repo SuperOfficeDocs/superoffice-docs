@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 193,
-  "GroupId": 529
+  "UdListDefinitionId": 225,
+  "GroupId": 560
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 842,
-    "Name": "Kunde Inc and Sons",
-    "ToolTip": "Maxime doloremque eum.",
-    "Deleted": true,
-    "Rank": 818,
-    "Type": "natus",
-    "ColorBlock": 930,
-    "IconHint": "sequi",
+    "Id": 666,
+    "Name": "Lehner, Barton and Jacobs",
+    "ToolTip": "Reprehenderit quas sit fugit minus sed autem aliquam.",
+    "Deleted": false,
+    "Rank": 501,
+    "Type": "voluptatem",
+    "ColorBlock": 623,
+    "IconHint": "temporibus",
     "Selected": false,
-    "LastChanged": "2000-04-11T17:37:18.2012465+02:00",
+    "LastChanged": "2003-12-15T14:19:03.6238736+01:00",
     "ChildItems": [
       {
-        "Id": 725,
-        "Name": "Wunsch, Heller and Toy",
-        "ToolTip": "Et cupiditate vel nisi dolor impedit.",
-        "Deleted": false,
-        "Rank": 161,
-        "Type": "necessitatibus",
-        "ColorBlock": 149,
-        "IconHint": "consequuntur",
-        "Selected": true,
-        "LastChanged": "2003-03-13T17:37:18.2012465+01:00",
+        "Id": 730,
+        "Name": "Heller-Stehr",
+        "ToolTip": "Quibusdam culpa porro repellat et.",
+        "Deleted": true,
+        "Rank": 264,
+        "Type": "vitae",
+        "ColorBlock": 182,
+        "IconHint": "doloribus",
+        "Selected": false,
+        "LastChanged": "2001-09-09T14:19:03.6238736+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "molestias",
+        "ExtraInfo": "dolor",
+        "StyleHint": "officiis",
         "Hidden": false,
-        "FullName": "Damaris Strosin",
+        "FullName": "Yessenia Ellis Stiedemann PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 227
+            "FieldLength": 495
           }
         }
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "odit",
-    "Hidden": true,
-    "FullName": "Prof. Freddie Rodriguez DDS",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "recusandae",
+    "Hidden": false,
+    "FullName": "Prof. Gillian O'Keefe PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 602
+        "FieldLength": 938
       }
     }
   }

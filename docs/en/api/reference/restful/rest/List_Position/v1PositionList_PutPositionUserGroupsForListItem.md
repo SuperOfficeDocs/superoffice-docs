@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 522,
-    "Name": "Welch-Littel",
-    "ToolTip": "Inventore quia exercitationem dolores aut.",
-    "Deleted": true,
-    "Rank": 35,
-    "Type": "fuga",
-    "ColorBlock": 931,
-    "IconHint": "tempore",
-    "Selected": true,
-    "LastChanged": "2006-08-09T17:37:40.1075019+02:00",
+    "Id": 945,
+    "Name": "Raynor Inc and Sons",
+    "ToolTip": "Consequatur provident quo consequuntur ea ratione doloribus.",
+    "Deleted": false,
+    "Rank": 886,
+    "Type": "assumenda",
+    "ColorBlock": 713,
+    "IconHint": "eaque",
+    "Selected": false,
+    "LastChanged": "2011-07-21T14:19:11.3367817+02:00",
     "ChildItems": [
       {
-        "Id": 186,
-        "Name": "Fisher, Jones and Koch",
-        "ToolTip": "Est dicta ut occaecati aut a quia.",
+        "Id": 129,
+        "Name": "Denesik-Larkin",
+        "ToolTip": "Quod aut quae amet consequuntur sint.",
         "Deleted": false,
-        "Rank": 696,
-        "Type": "laudantium",
-        "ColorBlock": 680,
-        "IconHint": "voluptatem",
+        "Rank": 68,
+        "Type": "voluptatem",
+        "ColorBlock": 187,
+        "IconHint": "repudiandae",
         "Selected": false,
-        "LastChanged": "2020-06-12T17:37:40.1075019+02:00",
+        "LastChanged": "2014-09-23T14:19:11.3367817+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "id",
-        "Hidden": false,
-        "FullName": "Syble Grimes"
+        "ExtraInfo": "consequatur",
+        "StyleHint": "exercitationem",
+        "Hidden": true,
+        "FullName": "Ulices Nikolaus"
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "autem",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "molestias",
     "Hidden": false,
-    "FullName": "Anderson Schuppe Jr."
+    "FullName": "Susanna Schoen"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 80,
-    "Name": "Crooks-Brown",
-    "ToolTip": "A eos.",
-    "Deleted": true,
-    "Rank": 487,
-    "Type": "eum",
-    "ColorBlock": 226,
-    "IconHint": "ex",
-    "Selected": true,
-    "LastChanged": "1998-11-14T17:37:40.1095032+01:00",
+    "Id": 900,
+    "Name": "McCullough, Heller and Sauer",
+    "ToolTip": "Quibusdam est sed tempora sit.",
+    "Deleted": false,
+    "Rank": 656,
+    "Type": "occaecati",
+    "ColorBlock": 922,
+    "IconHint": "assumenda",
+    "Selected": false,
+    "LastChanged": "2005-04-04T14:19:11.3367817+02:00",
     "ChildItems": [
       {
-        "Id": 551,
-        "Name": "Schaden-Kris",
-        "ToolTip": "Fugit architecto est nulla nesciunt est quaerat aliquid.",
-        "Deleted": true,
-        "Rank": 180,
-        "Type": "beatae",
-        "ColorBlock": 894,
-        "IconHint": "libero",
-        "Selected": false,
-        "LastChanged": "2009-06-26T17:37:40.1095032+02:00",
+        "Id": 16,
+        "Name": "Jones Inc and Sons",
+        "ToolTip": "Blanditiis dolorum.",
+        "Deleted": false,
+        "Rank": 746,
+        "Type": "et",
+        "ColorBlock": 773,
+        "IconHint": "aspernatur",
+        "Selected": true,
+        "LastChanged": "2003-05-03T14:19:11.3367817+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
+        "ExtraInfo": "sed",
         "StyleHint": "similique",
         "Hidden": false,
-        "FullName": "Olaf Jewess",
+        "FullName": "Micaela Hayes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 865
+            "FieldType": "System.Int32",
+            "FieldLength": 862
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "illo",
+    "ExtraInfo": "dolor",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Miss Bobbie Gertrude Steuber V",
+    "FullName": "Laura Rogahn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 466
+        "FieldLength": 799
       }
     }
   }

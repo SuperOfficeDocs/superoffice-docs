@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "locatecontact_new"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,6 @@ so.envir:
 ---
 
 # "locatecontact_new" MDO List
-
 Provider for selecting a Contact, including search on persons that match as well as contacts. this provider will
 return contact records, even for person matches.
 
@@ -37,6 +36,9 @@ Type = "Contact"
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.LocateContactProvider">LocateContactProvider</see> class.
 The name of the MDO list is 'locatecontact_new'.
 
+
+
+
 ## Sample Request
 
 ```http!
@@ -48,7 +50,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("locatecontact_new", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -82,6 +83,7 @@ foreach (var item in listProvider.RootItems) {
 |20|Illinoise Market Fare INC, IAvdeling||20|
 |21|Jensen Madrasser, JAvdeling||21|
 |22|Juul & Hansen AS, JAvdeling||22|
+
 
 ## Related MDO Lists
 

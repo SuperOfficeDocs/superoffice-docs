@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 876,
-  "Name": "Treutel-Orn",
-  "Tooltip": "molestias",
-  "Deleted": true,
-  "Rank": 685,
-  "UdListDefinitionId": 58
+  "HeadingId": 235,
+  "Name": "Stracke-Jakubowski",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 34,
+  "UdListDefinitionId": 773
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 77,
-  "Name": "Bradtke LLC",
-  "Tooltip": "voluptate",
+  "HeadingId": 326,
+  "Name": "Emmerich, Stracke and Witting",
+  "Tooltip": "delectus",
   "Deleted": false,
-  "Rank": 970,
-  "UdListDefinitionId": 822,
+  "Rank": 643,
+  "UdListDefinitionId": 673,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 13
+      "FieldLength": 720
     }
   }
 }

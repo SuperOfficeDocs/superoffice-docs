@@ -127,7 +127,7 @@ TicketEntity found.
 GET /api/v1/Ticket/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -137,21 +137,21 @@ HTTP/1.1 200 TicketEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 834,
-  "Title": "cumque",
-  "CreatedAt": "1998-04-21T17:37:39.2763037+02:00",
-  "LastChanged": "2020-03-26T17:37:39.2763037+01:00",
-  "ReadByOwner": "2004-12-03T17:37:39.2763037+01:00",
-  "ReadByCustomer": "2015-10-06T17:37:39.2763037+02:00",
-  "FirstReadByOwner": "2015-05-03T17:37:39.2763037+02:00",
-  "FirstReadByUser": "2000-06-06T17:37:39.2763037+02:00",
-  "Activate": "2002-10-02T17:37:39.2763037+02:00",
-  "ClosedAt": "2005-07-05T17:37:39.2763037+02:00",
-  "RepliedAt": "2002-04-25T17:37:39.2763037+02:00",
-  "AlertTimeout": "2015-05-04T17:37:39.2763037+02:00",
-  "Deadline": "2012-07-08T17:37:39.2763037+02:00",
+  "TicketId": 508,
+  "Title": "provident",
+  "CreatedAt": "2018-02-02T14:19:10.8186049+01:00",
+  "LastChanged": "2016-05-07T14:19:10.8186049+02:00",
+  "ReadByOwner": "1999-03-18T14:19:10.8186049+01:00",
+  "ReadByCustomer": "2002-04-25T14:19:10.8186049+02:00",
+  "FirstReadByOwner": "2007-05-15T14:19:10.8186049+02:00",
+  "FirstReadByUser": "2016-06-06T14:19:10.8186049+02:00",
+  "Activate": "2005-07-24T14:19:10.8186049+02:00",
+  "ClosedAt": "1998-12-22T14:19:10.8186049+01:00",
+  "RepliedAt": "1998-12-21T14:19:10.8186049+01:00",
+  "AlertTimeout": "2000-07-16T14:19:10.8186049+02:00",
+  "Deadline": "2004-07-13T14:19:10.8186049+02:00",
   "CreatedBy": null,
-  "Author": "esse",
+  "Author": "assumenda",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -162,157 +162,157 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "ab",
-      "PersonId": 828,
-      "Mrmrs": "est",
-      "Firstname": "Kara",
-      "Lastname": "Schmidt",
-      "MiddleName": "Bernier, Metz and Okuneva",
-      "Title": "omnis",
-      "Description": "Expanded uniform parallelism",
-      "Email": "torrey@berge.com",
-      "FullName": "Mr. Leonardo Bernadine Jacobi DVM",
-      "DirectPhone": "339-357-7880 x1928",
-      "FormalName": "McLaughlin-Gleason",
-      "CountryId": 264,
-      "ContactId": 637,
-      "ContactName": "Langworth, Kemmer and Balistreri",
-      "Retired": 848,
-      "Rank": 901,
-      "ActiveInterests": 506,
+      "Position": "blanditiis",
+      "PersonId": 756,
+      "Mrmrs": "rem",
+      "Firstname": "Minerva",
+      "Lastname": "Beahan",
+      "MiddleName": "Pfeffer Group",
+      "Title": "adipisci",
+      "Description": "Innovative interactive projection",
+      "Email": "robert.johns@hauck.uk",
+      "FullName": "Golden Ernser",
+      "DirectPhone": "124-454-1224",
+      "FormalName": "Jones LLC",
+      "CountryId": 681,
+      "ContactId": 41,
+      "ContactName": "Wisozk-Koch",
+      "Retired": 16,
+      "Rank": 87,
+      "ActiveInterests": 905,
       "ContactDepartment": "",
-      "ContactCountryId": 655,
-      "ContactOrgNr": "1631973",
-      "FaxPhone": "(542)796-0867 x2830",
-      "MobilePhone": "430.710.9725 x139",
-      "ContactPhone": "210-450-1179 x01556",
-      "AssociateName": "Grimes-Jacobs",
-      "AssociateId": 123,
+      "ContactCountryId": 551,
+      "ContactOrgNr": "1778331",
+      "FaxPhone": "(525)704-7628 x6698",
+      "MobilePhone": "798.129.0798 x93206",
+      "ContactPhone": "297-168-5500 x71903",
+      "AssociateName": "Block-Stamm",
+      "AssociateId": 478,
       "UsePersonAddress": false,
-      "ContactFax": "laudantium",
-      "Kanafname": "omnis",
-      "Kanalname": "minus",
-      "Post1": "repellendus",
-      "Post2": "blanditiis",
-      "Post3": "a",
-      "EmailName": "aliza@rosenbaum.uk",
-      "ContactFullName": "Barrett Hills",
-      "ActiveErpLinks": 639,
-      "TicketPriorityId": 986,
-      "SupportLanguageId": 463,
-      "SupportAssociateId": 534,
+      "ContactFax": "assumenda",
+      "Kanafname": "hic",
+      "Kanalname": "cumque",
+      "Post1": "mollitia",
+      "Post2": "odio",
+      "Post3": "amet",
+      "EmailName": "jamison_dickinson@lind.info",
+      "ContactFullName": "Mrs. Paul Tracey Raynor Jr.",
+      "ActiveErpLinks": 908,
+      "TicketPriorityId": 753,
+      "SupportLanguageId": 170,
+      "SupportAssociateId": 850,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 526
+          "FieldLength": 847
         }
       }
     }
   ],
-  "AlertLevel": 38,
-  "ConnectId": 80,
+  "AlertLevel": 324,
+  "ConnectId": 25,
   "ReadStatus": "Green",
-  "TimeToReply": 861,
-  "RealTimeToReply": 122,
-  "TimeToClose": 985,
-  "RealTimeToClose": 213,
-  "TimeSpentInternally": 806,
-  "TimeSpentExternally": 748,
-  "TimeSpentQueue": 839,
-  "RealTimeSpentInternally": 279,
-  "RealTimeSpentExternally": 789,
-  "RealTimeSpentQueue": 848,
+  "TimeToReply": 542,
+  "RealTimeToReply": 109,
+  "TimeToClose": 684,
+  "RealTimeToClose": 714,
+  "TimeSpentInternally": 5,
+  "TimeSpentExternally": 739,
+  "TimeSpentQueue": 428,
+  "RealTimeSpentInternally": 678,
+  "RealTimeSpentExternally": 357,
+  "RealTimeSpentQueue": 325,
   "HasAttachment": false,
-  "NumReplies": 120,
-  "NumMessages": 553,
-  "FromAddress": "et",
+  "NumReplies": 684,
+  "NumMessages": 23,
+  "FromAddress": "distinctio",
   "Messages": [
     {
-      "TicketMessageId": 586,
-      "CreatedAt": "2016-04-12T17:37:39.2803037+02:00",
+      "TicketMessageId": 805,
+      "CreatedAt": "2014-12-01T14:19:10.8342293+01:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "voluptatem",
-      "PersonId": 100,
-      "PersonFullName": "Mr. Justen Ada Mitchell II",
-      "ContactId": 483,
-      "ContactName": "Rohan LLC",
+      "Author": "dolores",
+      "PersonId": 551,
+      "PersonFullName": "Emilie Heaney",
+      "ContactId": 736,
+      "ContactName": "Crist-Gibson",
       "ContactDepartment": "",
-      "NumAttachments": 818,
-      "EmailHeader": "kole@walker.biz",
+      "NumAttachments": 505,
+      "EmailHeader": "delfina@harber.info",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "et",
-      "Sentiment": 447,
-      "SentimentConfidence": 938,
-      "CreatedBy": 493,
-      "ChangedAt": "2004-07-07T17:37:39.2803037+02:00",
+      "Language": "ducimus",
+      "Sentiment": 794,
+      "SentimentConfidence": 529,
+      "CreatedBy": 553,
+      "ChangedAt": "2019-02-16T14:19:10.8342293+01:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 586
+          "FieldType": "System.String",
+          "FieldLength": 831
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 12,
-      "Name": "O'Reilly-Terry",
-      "ToolTip": "Labore in est velit rerum impedit tenetur.",
+      "Id": 656,
+      "Name": "Huel, Davis and Schaefer",
+      "ToolTip": "Quis eligendi.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 877
+          "FieldType": "System.String",
+          "FieldLength": 795
         }
       }
     },
     {
-      "Id": 12,
-      "Name": "O'Reilly-Terry",
-      "ToolTip": "Labore in est velit rerum impedit tenetur.",
+      "Id": 656,
+      "Name": "Huel, Davis and Schaefer",
+      "ToolTip": "Quis eligendi.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 877
+          "FieldType": "System.String",
+          "FieldLength": 795
         }
       }
     }
   ],
-  "Language": "porro",
-  "Sentiment": 799,
-  "SentimentConfidence": 474,
-  "SuggestedCategoryId": 277,
+  "Language": "ipsam",
+  "Sentiment": 992,
+  "SentimentConfidence": 370,
+  "SuggestedCategoryId": 634,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 178,
-  "IconHint": "assumenda",
+  "OrigHumanCategoryId": 907,
+  "IconHint": "ullam",
   "Sale": null,
   "Project": null,
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "praesentium"
+    "ExtraFields1": "illo",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "nihil",
-    "CustomFields2": "doloremque"
+    "CustomFields1": "necessitatibus",
+    "CustomFields2": "sint"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 59
+      "FieldType": "System.Int32",
+      "FieldLength": 379
     }
   },
   "_Links": {

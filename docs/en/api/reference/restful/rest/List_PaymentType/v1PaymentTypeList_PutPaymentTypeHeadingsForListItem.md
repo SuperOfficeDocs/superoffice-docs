@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 968,
-    "Name": "Padberg, Cormier and Daniel",
-    "ToolTip": "Velit rerum sapiente nihil.",
-    "Deleted": true,
-    "Rank": 882,
-    "Type": "sit",
-    "ColorBlock": 602,
+    "Id": 500,
+    "Name": "Ziemann-Weimann",
+    "ToolTip": "Molestiae ut consectetur.",
+    "Deleted": false,
+    "Rank": 442,
+    "Type": "sed",
+    "ColorBlock": 31,
     "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2003-08-22T17:37:40.0965012+02:00",
+    "Selected": true,
+    "LastChanged": "2014-09-08T14:19:11.3211603+02:00",
     "ChildItems": [
       {
-        "Id": 539,
-        "Name": "Kautzer-Gleason",
-        "ToolTip": "Et nulla aliquid molestiae dolor quod omnis.",
-        "Deleted": true,
-        "Rank": 694,
-        "Type": "consequatur",
-        "ColorBlock": 186,
-        "IconHint": "consequatur",
+        "Id": 252,
+        "Name": "Bogan LLC",
+        "ToolTip": "Eveniet culpa natus.",
+        "Deleted": false,
+        "Rank": 849,
+        "Type": "deserunt",
+        "ColorBlock": 845,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2006-06-23T17:37:40.0975012+02:00",
+        "LastChanged": "2009-05-25T14:19:11.3211603+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "sapiente",
+        "ExtraInfo": "eum",
+        "StyleHint": "non",
         "Hidden": true,
-        "FullName": "Mylene Bartoletti"
+        "FullName": "Elliott Pfannerstill"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "labore",
     "Hidden": false,
-    "FullName": "Karli Heaney"
+    "FullName": "Katelynn Lang"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 108,
-    "Name": "Dickinson-Treutel",
-    "ToolTip": "Explicabo culpa a aut consequatur id.",
-    "Deleted": false,
-    "Rank": 583,
-    "Type": "aut",
-    "ColorBlock": 638,
-    "IconHint": "sint",
+    "Id": 313,
+    "Name": "Stehr-Gutkowski",
+    "ToolTip": "Dolores necessitatibus commodi cumque consequatur sunt libero eos.",
+    "Deleted": true,
+    "Rank": 801,
+    "Type": "ut",
+    "ColorBlock": 462,
+    "IconHint": "similique",
     "Selected": false,
-    "LastChanged": "1996-05-14T17:37:40.0985009+02:00",
+    "LastChanged": "2017-08-15T14:19:11.3211603+02:00",
     "ChildItems": [
       {
-        "Id": 772,
-        "Name": "Jaskolski-Moore",
-        "ToolTip": "Rerum qui odio fugit eum.",
-        "Deleted": false,
-        "Rank": 694,
-        "Type": "ipsum",
-        "ColorBlock": 102,
-        "IconHint": "iure",
+        "Id": 715,
+        "Name": "Rogahn, Greenfelder and Simonis",
+        "ToolTip": "Beatae debitis autem.",
+        "Deleted": true,
+        "Rank": 911,
+        "Type": "quo",
+        "ColorBlock": 105,
+        "IconHint": "vero",
         "Selected": true,
-        "LastChanged": "2017-08-29T17:37:40.0985009+02:00",
+        "LastChanged": "2016-01-25T14:19:11.3211603+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "ad",
-        "Hidden": false,
-        "FullName": "Larry Reinger",
+        "ExtraInfo": "quos",
+        "StyleHint": "repellat",
+        "Hidden": true,
+        "FullName": "Juanita Skiles",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 153
+            "FieldLength": 41
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "iure",
+    "ExtraInfo": "porro",
+    "StyleHint": "nisi",
     "Hidden": false,
-    "FullName": "Javier Abernathy",
+    "FullName": "Angelica Rowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 211
+        "FieldType": "System.String",
+        "FieldLength": 488
       }
     }
   }

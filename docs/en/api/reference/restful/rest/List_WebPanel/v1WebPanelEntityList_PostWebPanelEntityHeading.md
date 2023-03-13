@@ -78,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 689,
-  "Name": "Kunze, Satterfield and Waters",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 583,
-  "UdListDefinitionId": 936
+  "HeadingId": 563,
+  "Name": "Stanton, Ratke and Marquardt",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 145,
+  "UdListDefinitionId": 992
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 430,
-  "Name": "Schinner, Shields and Konopelski",
-  "Tooltip": "aperiam",
+  "HeadingId": 113,
+  "Name": "Christiansen, Mraz and Kulas",
+  "Tooltip": "dolores",
   "Deleted": true,
-  "Rank": 297,
-  "UdListDefinitionId": 108,
+  "Rank": 134,
+  "UdListDefinitionId": 129,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 517
+      "FieldType": "System.String",
+      "FieldLength": 132
     }
   }
 }

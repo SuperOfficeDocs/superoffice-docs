@@ -97,17 +97,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 387,
-  "StartTime": "2021-04-04T17:37:17.4132417+02:00",
-  "EndTime": "1996-08-31T17:37:17.4132417+02:00",
-  "Count": 159,
+  "ContactId": 397,
+  "StartTime": "2003-12-21T14:19:03.1355296+01:00",
+  "EndTime": "2009-08-24T14:19:03.1355296+02:00",
+  "Count": 793,
   "DocumentTemplateIds": [
-    312,
-    250
+    638,
+    849
   ]
 }
 ```
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 283,
-    "Attention": "excepturi",
-    "Header": "sint",
-    "Name": "Miller, Larkin and Carter",
-    "OurRef": "natus",
-    "YourRef": "enim",
-    "Description": "Distributed bifurcated hierarchy",
-    "DocumentTemplate": "numquam",
-    "IsPublished": true,
-    "PersonId": 490,
-    "PersonFullName": "Dr. Mariam Reynolds",
-    "AssociateFullName": "Angie Malika Upton Jr.",
-    "ContactId": 827,
-    "ContactName": "Leuschke-Cronin",
-    "ProjectId": 334,
-    "ProjectName": "Cummerata-Barton",
-    "AssociateId": 233,
-    "Snum": 681,
-    "SaleId": 981,
-    "SaleName": "Mohr LLC",
+    "DocumentId": 630,
+    "Attention": "qui",
+    "Header": "quis",
+    "Name": "Schamberger, Stiedemann and Durgan",
+    "OurRef": "molestiae",
+    "YourRef": "omnis",
+    "Description": "Profit-focused holistic contingency",
+    "DocumentTemplate": "enim",
+    "IsPublished": false,
+    "PersonId": 674,
+    "PersonFullName": "Shania Hegmann",
+    "AssociateFullName": "Lonie Smith",
+    "ContactId": 172,
+    "ContactName": "Champlin Group",
+    "ProjectId": 702,
+    "ProjectName": "Hintz LLC",
+    "AssociateId": 791,
+    "Snum": 228,
+    "SaleId": 660,
+    "SaleName": "Ankunding LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 295
+        "FieldType": "System.Int32",
+        "FieldLength": 685
       }
     }
   }

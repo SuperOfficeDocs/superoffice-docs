@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Herzog-Reynolds",
+  "TableName": "Will Group",
   "Columns": [
-    "veritatis",
-    "nisi"
+    "voluptas",
+    "qui"
   ],
   "Data": [
     [
@@ -108,41 +108,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "officiis",
-  "Inserts": 999,
-  "Updates": 763,
-  "Deletes": 882,
+  "Success": true,
+  "Message": "odio",
+  "Inserts": 264,
+  "Updates": 67,
+  "Deletes": 556,
   "RowStatus": [
     {
-      "PrimaryKey": 958,
+      "PrimaryKey": 491,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "enim",
-        "non"
+        "labore",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 411
+          "FieldType": "System.String",
+          "FieldLength": 757
         }
       }
     },
     {
-      "PrimaryKey": 958,
+      "PrimaryKey": 491,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "enim",
-        "non"
+        "labore",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 411
+          "FieldType": "System.String",
+          "FieldLength": 757
         }
       }
     }
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldLength": 150
     }
   }
 }

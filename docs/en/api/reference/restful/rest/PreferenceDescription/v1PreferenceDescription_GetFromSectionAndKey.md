@@ -76,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,30 +86,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 824,
-  "Section": "quo",
-  "Key": "velit",
-  "Name": "Conroy, Macejkovic and Rutherford",
+  "PrefDescId": 137,
+  "Section": "vel",
+  "Key": "vel",
+  "Name": "Larson, Rosenbaum and Powlowski",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Self-enabling logistical analyzer",
+  "Description": "Pre-emptive next generation Graphic Interface",
   "IsBuiltin": false,
-  "TableName": "Klocko, Kemmer and Lehner",
-  "UserDefinedListId": 487,
-  "Rank": 506,
-  "SubGroup": "officiis",
-  "MinLevel": 416,
-  "MaxValue": 835,
-  "MinValue": 475,
-  "RequiredLicense": "quia",
+  "TableName": "Orn-Cole",
+  "UserDefinedListId": 138,
+  "Rank": 938,
+  "SubGroup": "doloremque",
+  "MinLevel": 786,
+  "MaxValue": 863,
+  "MinValue": 39,
+  "RequiredLicense": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldLength": 607
     }
   }
 }

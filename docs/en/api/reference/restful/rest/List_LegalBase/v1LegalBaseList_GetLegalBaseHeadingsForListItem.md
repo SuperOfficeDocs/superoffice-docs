@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 850,
-    "Name": "Leannon-Schuster",
-    "ToolTip": "Cumque laborum exercitationem id et in iste.",
-    "Deleted": true,
-    "Rank": 963,
-    "Type": "dolores",
-    "ColorBlock": 220,
-    "IconHint": "sed",
+    "Id": 67,
+    "Name": "Douglas-Jewess",
+    "ToolTip": "Numquam aperiam.",
+    "Deleted": false,
+    "Rank": 120,
+    "Type": "accusantium",
+    "ColorBlock": 99,
+    "IconHint": "officia",
     "Selected": true,
-    "LastChanged": "1996-11-02T17:37:40.0405008+01:00",
+    "LastChanged": "2020-07-28T14:19:11.2730964+02:00",
     "ChildItems": [
       {
-        "Id": 865,
-        "Name": "Bradtke, Lesch and Hessel",
-        "ToolTip": "Nihil non mollitia ea beatae aut rerum velit.",
+        "Id": 132,
+        "Name": "Terry, Johns and Langworth",
+        "ToolTip": "Incidunt expedita suscipit explicabo sint sequi quis.",
         "Deleted": false,
-        "Rank": 600,
-        "Type": "quia",
-        "ColorBlock": 95,
-        "IconHint": "asperiores",
+        "Rank": 656,
+        "Type": "minima",
+        "ColorBlock": 333,
+        "IconHint": "vero",
         "Selected": false,
-        "LastChanged": "2009-07-18T17:37:40.0405008+02:00",
+        "LastChanged": "2020-10-15T14:19:11.2730964+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "tenetur",
+        "ExtraInfo": "quia",
+        "StyleHint": "nisi",
         "Hidden": false,
-        "FullName": "Mr. Rosanna Cordell Mills PhD",
+        "FullName": "Reilly Kuhn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 974
+            "FieldLength": 169
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "est",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "illo",
     "Hidden": false,
-    "FullName": "Ruben O'Keefe",
+    "FullName": "Makenna Senger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 942
+        "FieldLength": 703
       }
     }
   }

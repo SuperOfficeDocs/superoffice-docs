@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 279,
-    "Name": "Tromp Inc and Sons",
-    "ToolTip": "Dignissimos voluptatibus.",
+    "Id": 853,
+    "Name": "West, Cruickshank and Parisian",
+    "ToolTip": "Est aut nihil possimus.",
     "Deleted": true,
-    "Rank": 735,
-    "Type": "porro",
-    "ColorBlock": 727,
-    "IconHint": "non",
+    "Rank": 881,
+    "Type": "placeat",
+    "ColorBlock": 815,
+    "IconHint": "tempore",
     "Selected": false,
-    "LastChanged": "2009-02-14T17:37:40.1814706+01:00",
+    "LastChanged": "2013-04-19T14:19:11.3836521+02:00",
     "ChildItems": [
       {
-        "Id": 993,
-        "Name": "Zemlak Inc and Sons",
-        "ToolTip": "Totam nostrum velit adipisci et quis iusto.",
-        "Deleted": false,
-        "Rank": 442,
-        "Type": "et",
-        "ColorBlock": 193,
-        "IconHint": "laboriosam",
+        "Id": 342,
+        "Name": "Orn-Gutkowski",
+        "ToolTip": "Qui sit dolorum natus delectus in vel.",
+        "Deleted": true,
+        "Rank": 597,
+        "Type": "vel",
+        "ColorBlock": 798,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2021-06-28T17:37:40.1814706+02:00",
+        "LastChanged": "2014-05-30T14:19:11.3836521+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "laborum",
+        "ExtraInfo": "autem",
+        "StyleHint": "nam",
         "Hidden": false,
-        "FullName": "Mr. Madonna Ken Gutkowski"
+        "FullName": "Ms. Howard Powlowski III"
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "autem",
-    "Hidden": false,
-    "FullName": "Ollie Bernier"
+    "ExtraInfo": "odit",
+    "StyleHint": "mollitia",
+    "Hidden": true,
+    "FullName": "Miss Luna Zola Prosacco MD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 51,
-    "Name": "Stanton-Reilly",
-    "ToolTip": "Quibusdam labore recusandae autem soluta voluptatem.",
-    "Deleted": false,
-    "Rank": 513,
-    "Type": "aperiam",
-    "ColorBlock": 75,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2007-06-30T17:37:40.1834701+02:00",
+    "Id": 934,
+    "Name": "Lubowitz, Zulauf and Gleason",
+    "ToolTip": "Exercitationem enim enim incidunt.",
+    "Deleted": true,
+    "Rank": 553,
+    "Type": "totam",
+    "ColorBlock": 491,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2006-07-12T14:19:11.3836521+02:00",
     "ChildItems": [
       {
-        "Id": 893,
-        "Name": "DuBuque Group",
-        "ToolTip": "Rem architecto hic fuga nesciunt et aut.",
-        "Deleted": false,
-        "Rank": 648,
-        "Type": "dolores",
-        "ColorBlock": 53,
-        "IconHint": "repudiandae",
-        "Selected": false,
-        "LastChanged": "2014-07-31T17:37:40.1834701+02:00",
+        "Id": 587,
+        "Name": "Koelpin-Harvey",
+        "ToolTip": "Delectus quidem culpa ex et.",
+        "Deleted": true,
+        "Rank": 710,
+        "Type": "sed",
+        "ColorBlock": 475,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2002-06-05T14:19:11.3836521+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "quam",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Kailyn Leffler",
+        "FullName": "Virgie Lubowitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 62
+            "FieldLength": 633
           }
         }
       }
     ],
-    "ExtraInfo": "fuga",
-    "StyleHint": "aut",
+    "ExtraInfo": "optio",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Prof. Marisol Kutch",
+    "FullName": "Emie Kunze",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 284
+        "FieldType": "System.String",
+        "FieldLength": 163
       }
     }
   }

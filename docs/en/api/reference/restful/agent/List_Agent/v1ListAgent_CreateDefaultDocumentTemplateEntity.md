@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,37 +90,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 827,
-  "Name": "Koepp-Grant",
-  "Tooltip": "quas",
-  "SaveInDb": 565,
-  "Filename": "quibusdam",
-  "DefaultOref": "animi",
+  "DocumentTemplateId": 206,
+  "Name": "Morar LLC",
+  "Tooltip": "molestiae",
+  "SaveInDb": 597,
+  "Filename": "dicta",
+  "DefaultOref": "rerum",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 523,
-  "IntentId": 566,
-  "IsDefaultPublished": false,
-  "Rank": 287,
-  "LoadTemplateFromPlugin": 198,
-  "MimeType": "mollitia",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 946,
+  "AutoeventId": 796,
+  "IntentId": 862,
+  "IsDefaultPublished": true,
+  "Rank": 242,
+  "LoadTemplateFromPlugin": 266,
+  "MimeType": "quia",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 438,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "jalon@friesen.uk",
+  "EmailSubject": "theodore.bauch@shields.co.uk",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "deon.ohara@rippin.com",
+  "SenderEmailAddress": "maxine@paucekreilly.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 905
+      "FieldLength": 907
     }
   }
 }

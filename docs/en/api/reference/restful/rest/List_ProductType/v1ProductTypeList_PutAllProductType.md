@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 345,
-    "Name": "Erdman, Schmidt and Hane",
-    "Tooltip": "aut",
+    "Id": 398,
+    "Name": "Greenholt-Mertz",
+    "Tooltip": "numquam",
     "Deleted": false,
-    "UdListDefinitionId": 347,
-    "Rank": 679
+    "UdListDefinitionId": 642,
+    "Rank": 263
   },
   {
-    "Id": 345,
-    "Name": "Erdman, Schmidt and Hane",
-    "Tooltip": "aut",
+    "Id": 398,
+    "Name": "Greenholt-Mertz",
+    "Tooltip": "numquam",
     "Deleted": false,
-    "UdListDefinitionId": 347,
-    "Rank": 679
+    "UdListDefinitionId": 642,
+    "Rank": 263
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 519,
-    "Name": "Hagenes Inc and Sons",
-    "Tooltip": "asperiores",
+    "Id": 224,
+    "Name": "Hintz, Halvorson and Medhurst",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "UdListDefinitionId": 700,
-    "Rank": 444,
+    "UdListDefinitionId": 445,
+    "Rank": 772,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 16
+        "FieldType": "System.String",
+        "FieldLength": 273
       }
     }
   }

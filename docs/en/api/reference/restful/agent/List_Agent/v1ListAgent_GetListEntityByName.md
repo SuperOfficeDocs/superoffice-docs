@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Donnelly Inc and Sons"
+  "Name": "Altenwerth Group"
 }
 ```
 
@@ -96,22 +96,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 10,
-  "Name": "Abernathy Inc and Sons",
-  "Tooltip": "vero",
-  "Deleted": true,
-  "Rank": 163,
+  "Id": 24,
+  "Name": "Luettgen-Leannon",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 279,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "enim",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "adipisci",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 890
+      "FieldType": "System.String",
+      "FieldLength": 410
     }
   }
 }

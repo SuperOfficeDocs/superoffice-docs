@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 434,
-    "Name": "Jewess, Stroman and Tromp",
-    "ToolTip": "Velit labore sed.",
+    "Id": 826,
+    "Name": "Ferry, Gutmann and Luettgen",
+    "ToolTip": "Dolores ea at non consequatur sapiente.",
     "Deleted": false,
-    "Rank": 140,
-    "Type": "debitis",
-    "ColorBlock": 287,
-    "IconHint": "delectus",
+    "Rank": 85,
+    "Type": "velit",
+    "ColorBlock": 181,
+    "IconHint": "facere",
     "Selected": false,
-    "LastChanged": "2004-07-05T17:37:39.659431+02:00",
+    "LastChanged": "2018-01-23T14:19:11.1168422+01:00",
     "ChildItems": [
       {
-        "Id": 795,
-        "Name": "Parker, Gorczany and Berge",
-        "ToolTip": "Accusamus recusandae ea eos non.",
-        "Deleted": true,
-        "Rank": 972,
-        "Type": "sint",
-        "ColorBlock": 317,
-        "IconHint": "est",
+        "Id": 924,
+        "Name": "Olson LLC",
+        "ToolTip": "Id veritatis rerum autem deserunt repellat quod.",
+        "Deleted": false,
+        "Rank": 194,
+        "Type": "dolorem",
+        "ColorBlock": 179,
+        "IconHint": "voluptatem",
         "Selected": true,
-        "LastChanged": "2008-06-19T17:37:39.659431+02:00",
+        "LastChanged": "2003-04-28T14:19:11.1324679+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "non",
+        "ExtraInfo": "eos",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Anita Marvin",
+        "FullName": "Dr. Pietro Elroy Kreiger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 584
+            "FieldLength": 86
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "dolores",
+    "ExtraInfo": "molestias",
+    "StyleHint": "sit",
     "Hidden": true,
-    "FullName": "Ms. Casimir West",
+    "FullName": "Camille Gibson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 918
+        "FieldLength": 832
       }
     }
   }

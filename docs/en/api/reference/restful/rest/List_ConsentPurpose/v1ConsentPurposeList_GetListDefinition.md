@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 903,
-  "Name": "Hyatt, Auer and Mraz",
-  "Tooltip": "earum",
+  "Id": 45,
+  "Name": "Jacobs, Gutmann and Hackett",
+  "Tooltip": "explicabo",
   "Deleted": false,
-  "Rank": 525,
+  "Rank": 932,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "repellendus",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "dolor",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 7
+      "FieldType": "System.String",
+      "FieldLength": 101
     }
   },
   "_Links": {

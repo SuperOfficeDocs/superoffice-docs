@@ -96,19 +96,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 601,
+  "SystemEventId": 273,
   "Scope": "Database",
-  "Eta": "2008-12-30T17:37:39.2343038+01:00",
-  "Eventkey": "quisquam",
-  "Eventmess": "eum",
-  "ExtraInfo": 568,
-  "Owner": 10,
-  "UpdatedCount": 174,
-  "Registered": "2020-01-03T17:37:39.2343038+01:00",
+  "Eta": "2005-01-25T14:19:10.7873511+01:00",
+  "Eventkey": "voluptas",
+  "Eventmess": "facere",
+  "ExtraInfo": 210,
+  "Owner": 107,
+  "UpdatedCount": 729,
+  "Registered": "1998-12-02T14:19:10.7873511+01:00",
   "ActivatedBy": null
 }
 ```
@@ -120,27 +120,27 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 996,
+  "SystemEventId": 431,
   "Scope": "Database",
-  "Eta": "1997-05-02T17:37:39.2353034+02:00",
-  "Eventkey": "eligendi",
-  "Eventmess": "mollitia",
-  "ExtraInfo": 445,
-  "Owner": 993,
-  "UpdatedCount": 254,
-  "Registered": "2004-03-07T17:37:39.2353034+01:00",
+  "Eta": "2003-04-08T14:19:10.7873511+02:00",
+  "Eventkey": "modi",
+  "Eventmess": "amet",
+  "ExtraInfo": 193,
+  "Owner": 690,
+  "UpdatedCount": 26,
+  "Registered": "2019-04-23T14:19:10.7873511+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 770
+      "FieldLength": 457
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

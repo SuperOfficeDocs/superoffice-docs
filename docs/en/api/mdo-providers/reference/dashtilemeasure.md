@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "dashtilemeasure"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,8 +16,14 @@ so.envir:
 
 # "dashtilemeasure" MDO List
 
+
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.DashTileMeasureProvider">DashTileMeasureProvider</see> class.
 The name of the MDO list is 'dashtilemeasure'.
+
+
+
 
 ## Sample Request
 
@@ -30,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("dashtilemeasure", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -44,11 +49,12 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 |0|None||EnumName=None|
-|6|Count||EnumName=Count|
+|6|Count||EnumName =Count|
 |2|Sum||EnumName=Sum|
 |3|Average||EnumName=Average|
 |4|Max||EnumName=Max|
 |5|Min||EnumName=Min|
+
 
 ## Related MDO Lists
 

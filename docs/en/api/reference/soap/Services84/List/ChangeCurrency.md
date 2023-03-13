@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.ChangeCurrency
 
 ## ChangeCurrency
 
-Recalculates the amount to the new currency.
 
-* **amount:** The amount in the old currency
-* **fromCurrency:** The old currency name
-* **toCurrency:** The new currency name
 
-**Returns:** Amount in new currency
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -53,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ChangeCurrency Response
 
 ```xml
@@ -73,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

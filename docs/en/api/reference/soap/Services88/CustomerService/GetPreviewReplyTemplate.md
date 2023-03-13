@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ICustomerServiceAgent.Get
 
 ## GetPreviewReplyTemplate
 
-Get a reply template from its reply template id
 
-* **replyTemplateId:** Reply template ID
 
-**Returns:** Reply template suitable for preview
+
 
 [WSDL file for Services88/CustomerService](../Services88-CustomerService.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetPreviewReplyTemplate Response
 
 ```xml
@@ -67,7 +66,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <CustomerService:Name xsi:type="xsd:string"></CustomerService:Name>
     <CustomerService:Description xsi:type="xsd:string"></CustomerService:Description>
     <CustomerService:OwnedByFullName xsi:type="xsd:string"></CustomerService:OwnedByFullName>
-    <CustomerService:Updated xsi:type="xsd:dateTime">2022-08-26T08:59:03Z</CustomerService:Updated>
+    <CustomerService:Updated xsi:type="xsd:dateTime">2023-02-15T13:17:04Z</CustomerService:Updated>
     <CustomerService:Body xsi:type="xsd:string"></CustomerService:Body>
     <CustomerService:IsHtml xsi:type="xsd:boolean">false</CustomerService:IsHtml>
    </CustomerService:Response>
@@ -76,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetRelationDef
 
 ## GetRelationDefinitionEntity
 
-Gets a RelationDefinitionEntity object.
 
-* **relationDefinitionEntityId:** The identifier of the RelationDefinitionEntity object
 
-**Returns:** RelationDefinitionEntity
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetRelationDefinitionEntity Response
 
 ```xml
@@ -78,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

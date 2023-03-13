@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,33 +95,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 823,
-    "Name": "McCullough Inc and Sons",
-    "Tooltip": "et",
+    "WebPanelId": 520,
+    "Name": "Weimann-Jones",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 869,
+    "Rank": 420,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": true,
+    "OnSatellite": false,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": true,
-    "ShowInToolBar": false,
-    "ShowInAddressBar": true,
-    "ShowInStatusBar": true,
-    "WindowName": "Tillman Group",
+    "ShowInToolBar": true,
+    "ShowInAddressBar": false,
+    "ShowInStatusBar": false,
+    "WindowName": "Halvorson, Kemmer and Orn",
     "Url": "http://www.example.com/",
-    "ProgId": "mollitia",
-    "Icon": 64,
+    "ProgId": "rerum",
+    "Icon": 326,
     "AlwaysReloadOnShow": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 679
+        "FieldType": "System.String",
+        "FieldLength": 818
       }
     }
   }

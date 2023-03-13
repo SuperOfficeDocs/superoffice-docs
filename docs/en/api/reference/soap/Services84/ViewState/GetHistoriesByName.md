@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IViewStateAgent.GetHistor
 
 ## GetHistoriesByName
 
-Returns the named history list that belong to the currently logged in user
 
-* **historyName:** Name of the history list
 
-**Returns:** Array of History items
+
 
 [WSDL file for Services84/ViewState](../Services84-ViewState.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetHistoriesByName Response
 
 ```xml
@@ -79,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

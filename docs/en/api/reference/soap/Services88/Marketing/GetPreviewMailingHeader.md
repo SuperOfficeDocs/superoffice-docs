@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IMarketingAgent.GetPrevie
 
 ## GetPreviewMailingHeader
 
-Get a shipment from its shipment id
 
-* **shipmentId:** Shipment id
 
-**Returns:** PreviewMailingHeader
+
 
 [WSDL file for Services88/Marketing](../Services88-Marketing.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetPreviewMailingHeader Response
 
 ```xml
@@ -62,7 +61,7 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
   <Marketing:GetPreviewMailingHeaderResponse>
    <Marketing:Response xsi:type="Marketing:PreviewMailingHeader">
-    <Marketing:StartDate xsi:type="xsd:dateTime">2022-08-26T08:59:55Z</Marketing:StartDate>
+    <Marketing:StartDate xsi:type="xsd:dateTime">2023-02-15T13:17:52Z</Marketing:StartDate>
     <Marketing:Status xsi:type="Marketing:ShipmentStatus">None</Marketing:Status>
     <Marketing:ShipmentId xsi:type="xsd:int">0</Marketing:ShipmentId>
     <Marketing:ShipmentDescription xsi:type="xsd:string"></Marketing:ShipmentDescription>
@@ -83,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

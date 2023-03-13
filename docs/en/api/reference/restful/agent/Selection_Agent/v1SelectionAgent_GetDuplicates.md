@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jones Group"
+  "Name": "Gutkowski Group"
 }
 ```
 
@@ -92,17 +92,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Stokes Inc and Sons",
-    "SoPrimaryKey": 473,
-    "EntryName": "Morissette-Schmitt",
-    "EntryIdentifier": "aut",
-    "RuleDisplayName": "Durgan, Dare and Hagenes",
+    "RuleName": "Muller LLC",
+    "SoPrimaryKey": 818,
+    "EntryName": "Sauer Inc and Sons",
+    "EntryIdentifier": "voluptatum",
+    "RuleDisplayName": "Nader-Schmitt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 473
+        "FieldLength": 942
       }
     }
   }

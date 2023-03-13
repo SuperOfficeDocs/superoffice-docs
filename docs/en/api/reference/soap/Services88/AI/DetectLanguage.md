@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IAIAgent.DetectLanguage">
 
 ## DetectLanguage
 
-Given a (reasonably short) text, detect the language it is written in
 
-* **text:** Text to be analyzed; there may be a cost-per-character so do not send a book here
 
-**Returns:** ISO Language code, such as NO, US, ES, FR
+
 
 [WSDL file for Services88/AI](../Services88-AI.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DetectLanguage Response
 
 ```xml
@@ -67,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

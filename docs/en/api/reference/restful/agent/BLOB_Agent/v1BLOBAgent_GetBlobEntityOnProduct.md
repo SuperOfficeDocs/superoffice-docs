@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 724
+  "ProductId": 588
 }
 ```
 
@@ -99,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 717,
-  "BlobSize": 273,
-  "Description": "Compatible bottom-line attitude",
-  "ExtraInfo": "non",
+  "BlobId": 934,
+  "BlobSize": 638,
+  "Description": "Synergized heuristic complexity",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "non",
-  "OriginalSize": 975,
-  "CreatedDate": "2013-09-28T17:37:16.9252434+02:00",
-  "UpdatedDate": "2010-03-15T17:37:16.9252434+01:00",
+  "MimeType": "consequatur",
+  "OriginalSize": 332,
+  "CreatedDate": "2002-01-12T14:19:02.7750538+01:00",
+  "UpdatedDate": "2010-05-17T14:19:02.7750538+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nam",
+  "ConceptualType": "laboriosam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 477
+      "FieldLength": 236
     }
   }
 }

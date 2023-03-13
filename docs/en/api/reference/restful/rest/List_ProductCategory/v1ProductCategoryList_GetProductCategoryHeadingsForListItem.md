@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 641,
-    "Name": "Cremin-Cormier",
-    "ToolTip": "Amet qui.",
-    "Deleted": true,
-    "Rank": 324,
-    "Type": "non",
-    "ColorBlock": 378,
-    "IconHint": "recusandae",
-    "Selected": false,
-    "LastChanged": "1996-07-20T17:37:40.1485016+02:00",
+    "Id": 897,
+    "Name": "Eichmann-Schmidt",
+    "ToolTip": "Blanditiis architecto magni aut aut sit voluptatem.",
+    "Deleted": false,
+    "Rank": 93,
+    "Type": "odio",
+    "ColorBlock": 90,
+    "IconHint": "perferendis",
+    "Selected": true,
+    "LastChanged": "1997-05-06T14:19:11.3680268+02:00",
     "ChildItems": [
       {
-        "Id": 742,
-        "Name": "Hayes-Gorczany",
-        "ToolTip": "Qui possimus.",
+        "Id": 217,
+        "Name": "Bogisich-Bayer",
+        "ToolTip": "Autem sint rem.",
         "Deleted": false,
-        "Rank": 7,
-        "Type": "numquam",
-        "ColorBlock": 920,
-        "IconHint": "laboriosam",
-        "Selected": false,
-        "LastChanged": "2007-08-21T17:37:40.1485016+02:00",
+        "Rank": 300,
+        "Type": "deserunt",
+        "ColorBlock": 551,
+        "IconHint": "voluptatum",
+        "Selected": true,
+        "LastChanged": "2020-06-29T14:19:11.3680268+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "aut",
+        "StyleHint": "consequatur",
         "Hidden": true,
-        "FullName": "Emil Fritsch",
+        "FullName": "Jaiden Camilla Vandervort II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 497
+            "FieldType": "System.String",
+            "FieldLength": 251
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Prof. Devante Gabriel McKenzie",
+    "ExtraInfo": "id",
+    "StyleHint": "id",
+    "Hidden": false,
+    "FullName": "Brady Schmidt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 586
+        "FieldType": "System.Int32",
+        "FieldLength": 934
       }
     }
   }

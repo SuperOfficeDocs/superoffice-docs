@@ -681,104 +681,59 @@ title: Services87.ViewStateAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="ViewState">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for ViewState</summary>
-    </wsdl:documentation>
     <wsdl:operation name="GetHistory">
-      <wsdl:documentation>
-        <summary>Gets a History object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/GetHistory" name="GetHistoryRequest" message="tns:GetHistoryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/GetHistoryResponse" name="GetHistoryResponse" message="tns:GetHistoryResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetCurrent">
-      <wsdl:documentation>
-        <summary>Get the current (most recent) value of the history list. This is the item with rank = 1. If no item exists a default value is returned. This is usually the first item in the table representing the history list.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/GetCurrent" name="GetCurrentRequest" message="tns:GetCurrentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/GetCurrentResponse" name="GetCurrentResponse" message="tns:GetCurrentResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveCurrent">
-      <wsdl:documentation>
-        <summary>Saving the current history item. This history item is saved with Rank = 1, and all the remaining elements rank values are shifted one down. The list is maintained with the max lenght of the History list length preference.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/SaveCurrent" name="SaveCurrentRequest" message="tns:SaveCurrentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/SaveCurrentResponse" name="SaveCurrentResponse" message="tns:SaveCurrentResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetNextCurrent">
-      <wsdl:documentation>
-        <summary>Returns the next current item. If no item exists a default value is returned. This is usually the first item in the table representing the history list.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/GetNextCurrent" name="GetNextCurrentRequest" message="tns:GetNextCurrentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/GetNextCurrentResponse" name="GetNextCurrentResponse" message="tns:GetNextCurrentResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPreviousCurrent">
-      <wsdl:documentation>
-        <summary>Returns the previous current item. If no item exists a default value is returned. This is usually the first item in the table representing the history list.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/GetPreviousCurrent" name="GetPreviousCurrentRequest" message="tns:GetPreviousCurrentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/GetPreviousCurrentResponse" name="GetPreviousCurrentResponse" message="tns:GetPreviousCurrentResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteHistory">
-      <wsdl:documentation>
-        <summary>Deletes the history element</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/DeleteHistory" name="DeleteHistoryRequest" message="tns:DeleteHistoryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/DeleteHistoryResponse" name="DeleteHistoryResponse" message="tns:DeleteHistoryResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetHistories">
-      <wsdl:documentation>
-        <summary>Returns all history items that belong to the currently logged in user</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/GetHistories" name="GetHistoriesRequest" message="tns:GetHistoriesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/GetHistoriesResponse" name="GetHistoriesResponse" message="tns:GetHistoriesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetHistoriesByName">
-      <wsdl:documentation>
-        <summary>Returns the named history list that belong to the currently logged in user</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/GetHistoriesByName" name="GetHistoriesByNameRequest" message="tns:GetHistoriesByNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/GetHistoriesByNameResponse" name="GetHistoriesByNameResponse" message="tns:GetHistoriesByNameResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetHistoriesByNames">
-      <wsdl:documentation>
-        <summary>Returns the named history lists that belong to the currently logged in user</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/GetHistoriesByNames" name="GetHistoriesByNamesRequest" message="tns:GetHistoriesByNamesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/GetHistoriesByNamesResponse" name="GetHistoriesByNamesResponse" message="tns:GetHistoriesByNamesResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveHistories">
-      <wsdl:documentation>
-        <summary>Replaces the existing history-list for the currently logged in user. All elements must belong to the same history list. If not they are ignored.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/SaveHistories" name="SaveHistoriesRequest" message="tns:SaveHistoriesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/SaveHistoriesResponse" name="SaveHistoriesResponse" message="tns:SaveHistoriesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetHistoryLengthPrefValue">
-      <wsdl:documentation>
-        <summary>Get the logged on user's preferred history list length. Will return the system preference if no user preferences are available.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/GetHistoryLengthPrefValue" name="GetHistoryLengthPrefValueRequest" message="tns:GetHistoryLengthPrefValueRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/GetHistoryLengthPrefValueResponse" name="GetHistoryLengthPrefValueResponse" message="tns:GetHistoryLengthPrefValueResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetHistoryLengthPrefValue">
-      <wsdl:documentation>
-        <summary>Set the logged on user's preferred history list length.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/SetHistoryLengthPrefValue" name="SetHistoryLengthPrefValueRequest" message="tns:SetHistoryLengthPrefValueRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/SetHistoryLengthPrefValueResponse" name="SetHistoryLengthPrefValueResponse" message="tns:SetHistoryLengthPrefValueResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveCurrents">
-      <wsdl:documentation>
-        <summary>Saves the history elements as the current value for their respective lists. If more than one item is submitted for the same list, they are added sequently, meaning that the last one is the most current.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/SaveCurrents" name="SaveCurrentsRequest" message="tns:SaveCurrentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/SaveCurrentsResponse" name="SaveCurrentsResponse" message="tns:SaveCurrentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetHistoriesByNamesAndIds">
-      <wsdl:documentation>
-        <summary>Returns history data for the named entities and the given ids - which may not directly correspond to the current history records in the database.&lt;para/&gt;Use this method if you know exactly which items you need, regardless of whether they are in the current history or not.&lt;para/&gt;The history in the database is not changed or even looked at by this method.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/GetHistoriesByNamesAndIds" name="GetHistoriesByNamesAndIdsRequest" message="tns:GetHistoriesByNamesAndIdsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services87/ViewState/GetHistoriesByNamesAndIdsResponse" name="GetHistoriesByNamesAndIdsResponse" message="tns:GetHistoriesByNamesAndIdsResponse" />
     </wsdl:operation>
@@ -1017,3 +972,4 @@ title: Services87.ViewStateAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

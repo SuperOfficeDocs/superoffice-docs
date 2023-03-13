@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Champlin, Little and Kihn"
+  "HistoryName": "Schoen, Schaefer and Zemlak"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 478,
-    "Id": 527,
-    "HistoryName": "Kulas, Jenkins and Armstrong",
-    "HistoryId": 485,
-    "AssociateId": 80,
-    "Name": "Champlin, Lebsack and Schneider",
-    "ItemInfo": "aut",
+    "Rank": 728,
+    "Id": 996,
+    "HistoryName": "Bernier Group",
+    "HistoryId": 518,
+    "AssociateId": 65,
+    "Name": "Stroman LLC",
+    "ItemInfo": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 889
+        "FieldLength": 526
       }
     }
   }

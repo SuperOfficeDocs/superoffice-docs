@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IFreeTextAgent.GetSuggest
 
 ## GetSuggestedStopWords
 
-Returns the top used words in the freetext index table, sorted as most used first
 
-* **countWords:** The count of words that will be returned
 
-**Returns:** The most used words
+
 
 [WSDL file for Services84/FreeText](../Services84-FreeText.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetSuggestedStopWords Response
 
@@ -116,3 +115,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

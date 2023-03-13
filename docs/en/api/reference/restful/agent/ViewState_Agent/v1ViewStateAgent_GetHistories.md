@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/ViewState/GetHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 382,
-    "Id": 191,
-    "HistoryName": "Zboncak Inc and Sons",
-    "HistoryId": 240,
-    "AssociateId": 469,
-    "Name": "Marks, Jenkins and Trantow",
-    "ItemInfo": "officiis",
+    "Rank": 903,
+    "Id": 116,
+    "HistoryName": "Monahan, Marquardt and Armstrong",
+    "HistoryId": 23,
+    "AssociateId": 899,
+    "Name": "Williamson Group",
+    "ItemInfo": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 253
+        "FieldLength": 616
       }
     }
   }

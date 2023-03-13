@@ -100,89 +100,89 @@ OK
 POST /api/v1/Contact/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 972,
-  "Name": "Weber Group",
+  "ContactId": 756,
+  "Name": "Hansen, Hudson and Hand",
   "Department": "",
-  "OrgNr": "594339",
-  "Number1": "877879",
-  "Number2": "479303",
-  "UpdatedDate": "2018-08-10T17:37:38.4438605+02:00",
-  "CreatedDate": "1997-06-29T17:37:38.4438605+02:00",
+  "OrgNr": "1604034",
+  "Number1": "893964",
+  "Number2": "1087504",
+  "UpdatedDate": "2009-07-06T14:19:10.2092258+02:00",
+  "CreatedDate": "2020-10-20T14:19:10.2092258+02:00",
   "Emails": [
     {
-      "Value": "illum",
-      "StrippedValue": "omnis",
-      "Description": "Quality-focused 24/7 throughput"
+      "Value": "perferendis",
+      "StrippedValue": "aut",
+      "Description": "Synergistic stable customer loyalty"
     },
     {
-      "Value": "illum",
-      "StrippedValue": "omnis",
-      "Description": "Quality-focused 24/7 throughput"
+      "Value": "perferendis",
+      "StrippedValue": "aut",
+      "Description": "Synergistic stable customer loyalty"
     }
   ],
   "Interests": [
     {
-      "Id": 798,
-      "Name": "Howe Group",
-      "ToolTip": "Molestias ipsam sunt quisquam perspiciatis laborum.",
+      "Id": 458,
+      "Name": "Kulas-Goldner",
+      "ToolTip": "Saepe iure dolor est debitis sequi nostrum beatae.",
       "Deleted": false,
-      "Rank": 444,
-      "Type": "in",
-      "ColorBlock": 18,
-      "IconHint": "quia",
-      "Selected": true,
-      "LastChanged": "2011-08-26T17:37:38.4438605+02:00",
+      "Rank": 124,
+      "Type": "sint",
+      "ColorBlock": 974,
+      "IconHint": "voluptates",
+      "Selected": false,
+      "LastChanged": "2021-11-11T14:19:10.2092258+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolores",
-      "StyleHint": "animi",
-      "Hidden": false,
-      "FullName": "Imogene Boyle"
+      "ExtraInfo": "consequatur",
+      "StyleHint": "temporibus",
+      "Hidden": true,
+      "FullName": "Lauren Langosh"
     }
   ],
   "Urls": [
     {
-      "Value": "dolorum",
-      "StrippedValue": "quas",
-      "Description": "Phased reciprocal software"
+      "Value": "qui",
+      "StrippedValue": "iste",
+      "Description": "Digitized didactic algorithm"
     },
     {
-      "Value": "dolorum",
-      "StrippedValue": "quas",
-      "Description": "Phased reciprocal software"
+      "Value": "qui",
+      "StrippedValue": "iste",
+      "Description": "Digitized didactic algorithm"
     }
   ],
   "Phones": [
     {
-      "Value": "porro",
-      "StrippedValue": "dolorem",
-      "Description": "Re-engineered directional circuit"
+      "Value": "deserunt",
+      "StrippedValue": "voluptatem",
+      "Description": "Profound analyzing data-warehouse"
     },
     {
-      "Value": "porro",
-      "StrippedValue": "dolorem",
-      "Description": "Re-engineered directional circuit"
+      "Value": "deserunt",
+      "StrippedValue": "voluptatem",
+      "Description": "Profound analyzing data-warehouse"
     }
   ],
   "Faxes": [
     {
-      "Value": "qui",
-      "StrippedValue": "blanditiis",
-      "Description": "Proactive needs-based instruction set"
+      "Value": "ullam",
+      "StrippedValue": "corrupti",
+      "Description": "Phased foreground orchestration"
     },
     {
-      "Value": "qui",
-      "StrippedValue": "blanditiis",
-      "Description": "Proactive needs-based instruction set"
+      "Value": "ullam",
+      "StrippedValue": "corrupti",
+      "Description": "Phased foreground orchestration"
     }
   ],
-  "Description": "Networked tertiary info-mediaries",
+  "Description": "Proactive 24 hour attitude",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -191,85 +191,85 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "dolores",
-      "PersonId": 846,
-      "Mrmrs": "non",
+      "Position": "expedita",
+      "PersonId": 411,
+      "Mrmrs": "velit",
       "Firstname": "Melisa",
-      "Lastname": "Hilpert",
-      "MiddleName": "Crist-Rau",
-      "Title": "architecto",
-      "Description": "Phased discrete emulation",
-      "Email": "thora@dickinson.us",
-      "FullName": "Vickie Ryan",
-      "DirectPhone": "671-688-6964 x648",
-      "FormalName": "Wehner, Haley and Glover",
-      "CountryId": 655,
-      "ContactId": 915,
-      "ContactName": "Rutherford-Kihn",
-      "Retired": 943,
-      "Rank": 22,
-      "ActiveInterests": 433,
+      "Lastname": "Farrell",
+      "MiddleName": "Bogan-Heller",
+      "Title": "labore",
+      "Description": "Horizontal cohesive approach",
+      "Email": "hassan.batz@metz.uk",
+      "FullName": "Ibrahim Aufderhar III",
+      "DirectPhone": "954.867.0210 x75495",
+      "FormalName": "Walter, Howe and Bosco",
+      "CountryId": 625,
+      "ContactId": 554,
+      "ContactName": "Hane-Spencer",
+      "Retired": 338,
+      "Rank": 572,
+      "ActiveInterests": 435,
       "ContactDepartment": "",
-      "ContactCountryId": 275,
-      "ContactOrgNr": "1498631",
-      "FaxPhone": "110-971-2593",
-      "MobilePhone": "(966)654-7014",
-      "ContactPhone": "1-797-899-4280 x6138",
-      "AssociateName": "Kemmer Group",
-      "AssociateId": 760,
+      "ContactCountryId": 380,
+      "ContactOrgNr": "214785",
+      "FaxPhone": "270-668-3645",
+      "MobilePhone": "1-347-683-2955",
+      "ContactPhone": "1-446-874-6553 x54111",
+      "AssociateName": "Kautzer, Ward and Purdy",
+      "AssociateId": 655,
       "UsePersonAddress": false,
-      "ContactFax": "similique",
-      "Kanafname": "temporibus",
-      "Kanalname": "et",
-      "Post1": "dolore",
-      "Post2": "facilis",
-      "Post3": "ea",
-      "EmailName": "damien@gleichnerjones.ca",
-      "ContactFullName": "Silas Cartwright",
-      "ActiveErpLinks": 589,
-      "TicketPriorityId": 180,
-      "SupportLanguageId": 290,
-      "SupportAssociateId": 262,
+      "ContactFax": "reiciendis",
+      "Kanafname": "sed",
+      "Kanalname": "delectus",
+      "Post1": "earum",
+      "Post2": "rerum",
+      "Post3": "neque",
+      "EmailName": "kurtis.lubowitz@aufderhar.uk",
+      "ContactFullName": "Kim Crooks",
+      "ActiveErpLinks": 294,
+      "TicketPriorityId": 142,
+      "SupportLanguageId": 754,
+      "SupportAssociateId": 204,
       "CategoryName": "VIP Customer"
     }
   ],
   "NoMailing": false,
-  "Kananame": "totam",
-  "Xstop": true,
-  "ActiveInterests": 57,
-  "GroupId": 683,
-  "ActiveStatusMonitorId": 920,
+  "Kananame": "adipisci",
+  "Xstop": false,
+  "ActiveInterests": 478,
+  "GroupId": 324,
+  "ActiveStatusMonitorId": 191,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 986,
-  "DbiAgentId": 734,
-  "DbiLastSyncronized": "1995-09-04T17:37:38.4488595+02:00",
-  "DbiKey": "dignissimos",
-  "DbiLastModified": "2012-08-12T17:37:38.4488595+02:00",
+  "Deleted": 871,
+  "DbiAgentId": 66,
+  "DbiLastSyncronized": "2011-06-24T14:19:10.2248533+02:00",
+  "DbiKey": "corporis",
+  "DbiLastModified": "2022-09-02T14:19:10.2248533+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 326,
-  "ActiveErpLinks": 372,
+  "Source": 150,
+  "ActiveErpLinks": 334,
   "BounceEmails": [
-    "mafalda@smith.us",
-    "bernardo.jaskolski@pagactillman.biz"
+    "reese.raynor@welch.info",
+    "christiana.champlin@mckenzie.name"
   ],
   "Domains": [
-    "consequatur",
-    "ipsum"
+    "impedit",
+    "odio"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Tristin Annamae Larkin MD",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Mrs. Nolan Willms MD"
   },
   "ExtraFields": {
-    "ExtraFields1": "quas",
-    "ExtraFields2": "sequi"
+    "ExtraFields1": "sunt",
+    "ExtraFields2": "alias"
   },
   "CustomFields": {
-    "CustomFields1": "fugit",
-    "CustomFields2": "et"
+    "CustomFields1": "voluptatibus",
+    "CustomFields2": "enim"
   }
 }
 ```
@@ -281,7 +281,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quidem",
-  "2": "dolor"
+  "1": "ea",
+  "2": "est"
 }
 ```

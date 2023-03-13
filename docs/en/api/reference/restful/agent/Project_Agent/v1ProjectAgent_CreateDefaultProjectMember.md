@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 621,
-  "ContactId": 628,
-  "ProjectId": 593,
-  "ContactName": "Kris Inc and Sons",
+  "ProjectmemberId": 54,
+  "ContactId": 648,
+  "ProjectId": 597,
+  "ContactName": "Vandervort-Bayer",
   "ContactDepartment": "",
-  "ProjectName": "Ryan LLC",
-  "EmailId": 175,
-  "EmailAddress": "cydney@schiller.com",
-  "CountryId": 622,
-  "Firstname": "Bailee",
-  "MiddleName": "Carroll-Maggio",
-  "Lastname": "Keebler",
-  "PersonId": 264,
-  "Mrmrs": "minima",
-  "ProjectMemberTypeName": "Cartwright Inc and Sons",
-  "Phone": "(133)978-0099",
-  "PhoneId": 574,
-  "ProjectMemberTypeId": 14,
-  "EmailAddressName": "sherwood.lesch@dietrichhickle.com",
-  "Comment": "illo",
-  "FullName": "Erwin Mosciski",
+  "ProjectName": "Willms LLC",
+  "EmailId": 113,
+  "EmailAddress": "zella@wymangibson.co.uk",
+  "CountryId": 914,
+  "Firstname": "Andy",
+  "MiddleName": "Roob-Parisian",
+  "Lastname": "Kiehn",
+  "PersonId": 165,
+  "Mrmrs": "natus",
+  "ProjectMemberTypeName": "Kertzmann, Barton and Spinka",
+  "Phone": "280-365-7399 x86690",
+  "PhoneId": 316,
+  "ProjectMemberTypeId": 162,
+  "EmailAddressName": "hilda.dicki@morissetteboyer.ca",
+  "Comment": "labore",
+  "FullName": "Mr. Michel Vladimir Thompson PhD",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 370
+      "FieldLength": 315
     }
   }
 }

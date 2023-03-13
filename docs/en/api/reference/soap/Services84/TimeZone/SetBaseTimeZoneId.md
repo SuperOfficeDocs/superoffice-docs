@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.ITimeZoneAgent.SetBaseTim
 
 ## SetBaseTimeZoneId
 
-Set the base timezone id.
 
-* **timezoneId:** The timezone id to save
 
-**Returns:** Returns true if setting of base timezone was done
+
 
 [WSDL file for Services84/TimeZone](../Services84-TimeZone.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetBaseTimeZoneId Response
 
 ```xml
@@ -67,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

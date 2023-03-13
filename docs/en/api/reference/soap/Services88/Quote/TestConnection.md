@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IQuoteAgent.TestConnectio
 
 ## TestConnection
 
-Used by the Admin clients. Testing if the connection data is sufficient to get a connection with the ERP system. The Connector should try to do some operations to check if the connection has sufficient rights to run. The connection has not been created yet. TestConnection is called without InitializeConnector being called first.
 
-* **connectorName:** Name of the connector.
-* **connectionData:** Basically the name/value collection of the configuration data requested to create a connection
 
-**Returns:** How the test went
+
 
 [WSDL file for Services88/Quote](../Services88-Quote.md)
 
@@ -55,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## TestConnection Response
 
@@ -95,9 +93,11 @@ Application tokens must be specified if calling an Online installation. Applicat
       </Quote:ChangedDataItem>
      </Quote:DeletedRecords>
     </Quote:Changes>
+    <Quote:Status xsi:type="Quote:QuoteStatus">Ok</Quote:Status>
    </Quote:Response>
   </Quote:TestConnectionResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+

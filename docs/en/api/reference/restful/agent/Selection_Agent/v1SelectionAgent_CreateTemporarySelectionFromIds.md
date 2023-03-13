@@ -113,15 +113,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    933,
-    486
+    239,
+    507
   ],
-  "TargetTableNumber": 247
+  "TargetTableNumber": 935
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Pre-emptive optimizing local area network",
-  "Postit": "sit",
+  "Description": "Synchronised 4th generation synergy",
+  "Postit": "sed",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 23,
-  "IncludePerson": 144,
-  "MemberCount": 49,
-  "Name": "Pouros, Jacobson and Strosin",
-  "PostitTextId": 213,
-  "CreatedDate": "1995-09-07T17:37:19.1902416+02:00",
-  "SelectionId": 999,
-  "SoundEx": "tempora",
-  "Source": 719,
-  "TextId": 51,
-  "UpdatedDate": "2004-03-01T17:37:19.1902416+01:00",
-  "UpdatedCount": 654,
-  "Visibility": 611,
+  "GroupIdx": 90,
+  "IncludePerson": 810,
+  "MemberCount": 454,
+  "Name": "Schowalter, Emard and Marks",
+  "PostitTextId": 196,
+  "CreatedDate": "2002-11-23T14:19:04.2036046+01:00",
+  "SelectionId": 527,
+  "SoundEx": "magni",
+  "Source": 118,
+  "TextId": 13,
+  "UpdatedDate": "2006-05-27T14:19:04.2036046+02:00",
+  "UpdatedCount": 784,
+  "Visibility": 342,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 691,
-  "TargetTableName": "Hickle, Turcotte and Herzog",
+  "CompanyUnique": true,
+  "TargetTableNumber": 24,
+  "TargetTableName": "Johnson, Heller and Bartell",
   "Completed": false,
-  "LeftSelectionId": 530,
-  "RightSelectionId": 7,
+  "LeftSelectionId": 574,
+  "RightSelectionId": 469,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ullrich-Gibson",
-  "ShadowProviderName": "D'Amore, Schultz and Parisian",
-  "ChartKey": "excepturi",
-  "LastLoaded": "2002-03-03T17:37:19.1902416+01:00",
-  "LastLoadedBy": 907,
+  "MainProviderName": "Bernier-VonRueden",
+  "ShadowProviderName": "Leannon, Erdman and Wolff",
+  "ChartKey": "et",
+  "LastLoaded": "2015-11-08T14:19:04.2036046+01:00",
+  "LastLoadedBy": 311,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2011-02-17T17:37:19.1902416+01:00",
-  "LastMembershipChangeBy": 579,
+  "LastMembershipChange": "2018-07-26T14:19:04.2036046+02:00",
+  "LastMembershipChangeBy": 389,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "maiores",
-  "MemberTabHeading": "sequi",
-  "MailingsProviderName": "Schuppe-Thiel",
-  "DashboardTileDefinitionId": 674,
+  "MainHeading": "aut",
+  "MemberTabHeading": "magnam",
+  "MailingsProviderName": "Denesik Inc and Sons",
+  "DashboardTileDefinitionId": 813,
   "VisibleFor": [
     {
-      "VisibleId": 258,
+      "VisibleId": 538,
       "Visibility": "All",
-      "DisplayValue": "saepe",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 641
+          "FieldType": "System.Int32",
+          "FieldLength": 862
         }
       }
     },
     {
-      "VisibleId": 258,
+      "VisibleId": 538,
       "Visibility": "All",
-      "DisplayValue": "saepe",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 641
+          "FieldType": "System.Int32",
+          "FieldLength": 862
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 443
+      "FieldType": "System.Int32",
+      "FieldLength": 597
     }
   }
 }

@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 408,
-    "Name": "Hammes-Bode",
-    "Tooltip": "officiis",
+    "Id": 539,
+    "Name": "Schowalter, VonRueden and Smith",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 669,
-    "Rank": 46
+    "UdListDefinitionId": 845,
+    "Rank": 459
   },
   {
-    "Id": 408,
-    "Name": "Hammes-Bode",
-    "Tooltip": "officiis",
+    "Id": 539,
+    "Name": "Schowalter, VonRueden and Smith",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 669,
-    "Rank": 46
+    "UdListDefinitionId": 845,
+    "Rank": 459
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 868,
-    "Name": "Waelchi, Zboncak and Kihn",
-    "Tooltip": "neque",
+    "Id": 827,
+    "Name": "Strosin Inc and Sons",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 242,
-    "Rank": 448,
+    "UdListDefinitionId": 190,
+    "Rank": 4,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 550
+        "FieldType": "System.Int32",
+        "FieldLength": 291
       }
     }
   }

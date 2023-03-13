@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.ISelectionAgent.DeleteEnt
 
 ## DeleteEntities
 
-Deletes all entities from a selection. If an entity does not have delete rights, it will be skipped.
 
-* **selectionId:** Id of the selection the delete operation will be performed.
+
+
 
 [WSDL file for Services84/Selection](../Services84-Selection.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteEntities Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

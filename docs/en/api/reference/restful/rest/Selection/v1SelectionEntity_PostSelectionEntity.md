@@ -155,60 +155,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Programmable actuating data-warehouse",
-  "Postit": "sunt",
+  "Description": "Secured secondary internet solution",
+  "Postit": "voluptate",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 990,
-  "IncludePerson": 852,
-  "MemberCount": 658,
-  "Name": "Raynor-Brakus",
-  "PostitTextId": 158,
-  "CreatedDate": "1996-02-21T17:37:39.1883042+01:00",
-  "SelectionId": 307,
-  "SoundEx": "fugiat",
-  "Source": 705,
-  "TextId": 516,
-  "UpdatedDate": "2012-06-20T17:37:39.1883042+02:00",
-  "UpdatedCount": 230,
-  "Visibility": 881,
+  "GroupIdx": 418,
+  "IncludePerson": 526,
+  "MemberCount": 258,
+  "Name": "Jones-Lind",
+  "PostitTextId": 867,
+  "CreatedDate": "2021-03-17T14:19:10.7561021+01:00",
+  "SelectionId": 196,
+  "SoundEx": "neque",
+  "Source": 613,
+  "TextId": 906,
+  "UpdatedDate": "2002-04-16T14:19:10.7561021+02:00",
+  "UpdatedCount": 298,
+  "Visibility": 879,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 339,
-  "TargetTableName": "Davis-Wilkinson",
-  "Completed": true,
-  "LeftSelectionId": 706,
-  "RightSelectionId": 262,
+  "CompanyUnique": false,
+  "TargetTableNumber": 552,
+  "TargetTableName": "Schultz-Pfannerstill",
+  "Completed": false,
+  "LeftSelectionId": 542,
+  "RightSelectionId": 694,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Simonis Inc and Sons",
-  "ShadowProviderName": "Maggio-Pfannerstill",
-  "ChartKey": "eos",
-  "LastLoaded": "2018-09-30T17:37:39.1893061+02:00",
-  "LastLoadedBy": 500,
+  "MainProviderName": "Langworth Inc and Sons",
+  "ShadowProviderName": "Aufderhar Group",
+  "ChartKey": "omnis",
+  "LastLoaded": "2016-10-12T14:19:10.7561021+02:00",
+  "LastLoadedBy": 402,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-06-09T17:37:39.1893061+02:00",
-  "LastMembershipChangeBy": 517,
+  "LastMembershipChange": "2006-07-15T14:19:10.7561021+02:00",
+  "LastMembershipChangeBy": 80,
   "LastMembershipChangeByAssociate": null,
   "MainHeading": "aliquam",
-  "MemberTabHeading": "voluptas",
-  "MailingsProviderName": "Boehm, Hoeger and Braun",
-  "DashboardTileDefinitionId": 906,
+  "MemberTabHeading": "provident",
+  "MailingsProviderName": "Volkman-Dare",
+  "DashboardTileDefinitionId": 11,
   "VisibleFor": [
     {
-      "VisibleId": 564,
+      "VisibleId": 229,
       "Visibility": "All",
-      "DisplayValue": "impedit"
+      "DisplayValue": "aut"
     },
     {
-      "VisibleId": 564,
+      "VisibleId": 229,
       "Visibility": "All",
-      "DisplayValue": "impedit"
+      "DisplayValue": "aut"
     }
   ]
 }
@@ -221,49 +221,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Profound upward-trending functionalities",
-  "Postit": "vitae",
+  "Description": "Versatile full-range middleware",
+  "Postit": "blanditiis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 400,
-  "IncludePerson": 347,
-  "MemberCount": 376,
-  "Name": "Russel, Auer and Sanford",
-  "PostitTextId": 191,
-  "CreatedDate": "2006-04-08T17:37:39.1933075+02:00",
-  "SelectionId": 863,
-  "SoundEx": "id",
-  "Source": 236,
-  "TextId": 807,
-  "UpdatedDate": "2006-09-20T17:37:39.1933075+02:00",
-  "UpdatedCount": 717,
-  "Visibility": 958,
+  "GroupIdx": 688,
+  "IncludePerson": 2,
+  "MemberCount": 705,
+  "Name": "Thompson LLC",
+  "PostitTextId": 758,
+  "CreatedDate": "2005-11-23T14:19:10.7561021+01:00",
+  "SelectionId": 104,
+  "SoundEx": "fugit",
+  "Source": 773,
+  "TextId": 779,
+  "UpdatedDate": "2013-01-28T14:19:10.7561021+01:00",
+  "UpdatedCount": 718,
+  "Visibility": 319,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 667,
-  "TargetTableName": "Schulist, Kihn and O'Hara",
+  "CompanyUnique": true,
+  "TargetTableNumber": 399,
+  "TargetTableName": "Lindgren Group",
   "Completed": false,
-  "LeftSelectionId": 722,
-  "RightSelectionId": 291,
+  "LeftSelectionId": 613,
+  "RightSelectionId": 277,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schulist LLC",
-  "ShadowProviderName": "Rosenbaum-Berge",
-  "ChartKey": "sunt",
-  "LastLoaded": "2003-03-16T17:37:39.1933075+01:00",
-  "LastLoadedBy": 620,
+  "MainProviderName": "Maggio, Torp and Moore",
+  "ShadowProviderName": "Jerde, Wolf and Jenkins",
+  "ChartKey": "autem",
+  "LastLoaded": "1997-06-18T14:19:10.7561021+02:00",
+  "LastLoadedBy": 340,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1997-04-26T17:37:39.1943046+02:00",
-  "LastMembershipChangeBy": 219,
+  "LastMembershipChange": "1999-11-06T14:19:10.7561021+01:00",
+  "LastMembershipChangeBy": 857,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "magni",
-  "MemberTabHeading": "eveniet",
-  "MailingsProviderName": "Wisozk-Schulist",
-  "DashboardTileDefinitionId": 312,
+  "MainHeading": "iste",
+  "MemberTabHeading": "nostrum",
+  "MailingsProviderName": "Zemlak LLC",
+  "DashboardTileDefinitionId": 58,
   "VisibleFor": [
     {
-      "VisibleId": 279,
+      "VisibleId": 624,
       "Visibility": "All",
       "DisplayValue": "ut",
       "TableRight": null,
@@ -271,12 +271,12 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 753
+          "FieldLength": 831
         }
       }
     },
     {
-      "VisibleId": 279,
+      "VisibleId": 624,
       "Visibility": "All",
       "DisplayValue": "ut",
       "TableRight": null,
@@ -284,7 +284,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 753
+          "FieldLength": 831
         }
       }
     }
@@ -294,12 +294,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 668
+      "FieldLength": 513
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

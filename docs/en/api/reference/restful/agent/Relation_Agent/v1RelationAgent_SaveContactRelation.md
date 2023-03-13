@@ -104,30 +104,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 286,
-  "SourcePersonId": 249,
-  "DestinationContactId": 256,
-  "DestinationPersonId": 843,
-  "RelationId": 748,
-  "Comment": "ut",
-  "RelationDefinitionId": 19,
-  "Reversed": 139,
-  "UpdatedDate": "1999-09-24T17:37:18.7812434+02:00",
-  "CreatedDate": "2010-05-10T17:37:18.7812434+02:00",
+  "SourceContactId": 401,
+  "SourcePersonId": 58,
+  "DestinationContactId": 245,
+  "DestinationPersonId": 683,
+  "RelationId": 316,
+  "Comment": "autem",
+  "RelationDefinitionId": 127,
+  "Reversed": 701,
+  "UpdatedDate": "2009-04-05T14:19:04.0625865+02:00",
+  "CreatedDate": "2020-02-27T14:19:04.0625865+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Trantow, Thompson and Stehr",
-  "SourcePersonName": "Cartwright, Gleason and Goodwin",
-  "DestinationContactName": "Kub LLC",
-  "DestinationPersonName": "Denesik-McGlynn",
-  "ActiveText": "consectetur",
-  "PassiveText": "omnis",
+  "SourceContactName": "Mertz Group",
+  "SourcePersonName": "White LLC",
+  "DestinationContactName": "Schulist Group",
+  "DestinationPersonName": "Emmerich-Stiedemann",
+  "ActiveText": "non",
+  "PassiveText": "occaecati",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 995
+      "FieldType": "System.String",
+      "FieldLength": 306
     }
   }
 }

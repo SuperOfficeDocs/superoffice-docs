@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 302,
-    "Name": "Waelchi, Becker and Schaefer",
-    "ToolTip": "Dignissimos sint sunt numquam fugit.",
-    "Deleted": true,
-    "Rank": 946,
-    "Type": "est",
-    "ColorBlock": 539,
-    "IconHint": "nihil",
-    "Selected": true,
-    "LastChanged": "2000-04-19T17:37:40.2715095+02:00",
+    "Id": 687,
+    "Name": "Bosco-Purdy",
+    "ToolTip": "Excepturi a quas quasi error.",
+    "Deleted": false,
+    "Rank": 38,
+    "Type": "cum",
+    "ColorBlock": 953,
+    "IconHint": "eveniet",
+    "Selected": false,
+    "LastChanged": "2000-07-06T14:19:11.4557858+02:00",
     "ChildItems": [
       {
-        "Id": 641,
-        "Name": "Lueilwitz Group",
-        "ToolTip": "Rerum delectus autem omnis inventore delectus omnis.",
-        "Deleted": false,
-        "Rank": 514,
-        "Type": "et",
-        "ColorBlock": 451,
-        "IconHint": "officiis",
+        "Id": 335,
+        "Name": "Fahey-Wiza",
+        "ToolTip": "Voluptatem quia harum quibusdam labore exercitationem porro.",
+        "Deleted": true,
+        "Rank": 760,
+        "Type": "iste",
+        "ColorBlock": 848,
+        "IconHint": "ducimus",
         "Selected": false,
-        "LastChanged": "2011-05-05T17:37:40.2715095+02:00",
+        "LastChanged": "2013-11-14T14:19:11.4557858+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "repudiandae",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "harum",
         "Hidden": false,
-        "FullName": "Eloy Bruen",
+        "FullName": "Maiya Dibbert V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 95
+            "FieldLength": 421
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "quisquam",
+    "ExtraInfo": "numquam",
+    "StyleHint": "quis",
     "Hidden": false,
-    "FullName": "Ms. Kristopher Myles Gulgowski V",
+    "FullName": "Mayra O'Keefe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 945
+        "FieldType": "System.Int32",
+        "FieldLength": 406
       }
     }
   }

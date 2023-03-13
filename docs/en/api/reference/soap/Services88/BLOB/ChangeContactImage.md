@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IBLOBAgent.ChangeContactI
 
 ## ChangeContactImage
 
-Changes the contact image link. If the Binary object id is 0, any image link is removed from the contact.
 
-* **contactId:** The Contact the image is linked to
-* **blobId:** The Binary object id. If the Binary object id is 0, any image link is removed from the Contact.
+
+
 
 [WSDL file for Services88/BLOB](../Services88-BLOB.md)
 
@@ -48,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ChangeContactImage Response
 
 ```xml
@@ -66,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

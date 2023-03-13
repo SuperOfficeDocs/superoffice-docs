@@ -82,22 +82,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "reprehenderit",
+  "RawValue": "maxime",
   "Specification": null,
-  "DisplayValue": "perspiciatis",
-  "DisplayTooltip": "est",
+  "DisplayValue": "et",
+  "DisplayTooltip": "asperiores",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 463,
-  "PrefDescId": 755,
-  "TableName": "Jast Group",
-  "UserPreferenceId": 423,
+  "TargetId": 735,
+  "PrefDescId": 24,
+  "TableName": "Howell-Tremblay",
+  "UserPreferenceId": 473,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 373
+      "FieldLength": 143
     }
   }
 }

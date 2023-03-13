@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.FindCredential
 
 ## FindCredentialUsers
 
-Find users matching the partial name.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **type:** Type of credentials, corresponding to name of plugin and type in the credentials table.
-* **searchString:** Partly name of the user group
+
+
 
 [WSDL file for Services86/User](../Services86-User.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## FindCredentialUsers Response
 
@@ -84,3 +83,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -92,7 +92,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 337,
-  "ColumnId": 640,
-  "FieldDefault": "rem",
-  "FieldHeight": 215,
-  "FieldLabel": "nobis",
-  "FieldLeft": 395,
-  "FieldTop": 799,
+  "UDefFieldId": 738,
+  "ColumnId": 986,
+  "FieldDefault": "saepe",
+  "FieldHeight": 500,
+  "FieldLabel": "delectus",
+  "FieldLeft": 613,
+  "FieldTop": 986,
   "FieldType": "Checkbox",
-  "FieldWidth": 264,
-  "FormatMask": "deleniti",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 218,
-  "LabelLeft": 273,
-  "LabelTop": 465,
-  "LabelWidth": 26,
-  "LastVersionId": 849,
-  "ListTableId": 326,
+  "FieldWidth": 514,
+  "FormatMask": "distinctio",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 233,
+  "LabelLeft": 689,
+  "LabelTop": 625,
+  "LabelWidth": 902,
+  "LastVersionId": 946,
+  "ListTableId": 728,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 569,
-  "ProgId": "atque",
-  "IsReadOnly": false,
-  "ShortLabel": "ut",
-  "TabOrder": 928,
-  "TextLength": 336,
-  "Tooltip": "aut",
-  "UdefIdentity": 398,
-  "UDListDefinitionId": 33,
+  "Page1LineNo": 317,
+  "ProgId": "cumque",
+  "IsReadOnly": true,
+  "ShortLabel": "id",
+  "TabOrder": 355,
+  "TextLength": 162,
+  "Tooltip": "quidem",
+  "UdefIdentity": 757,
+  "UDListDefinitionId": 448,
   "Justification": "Center",
-  "Version": 512,
-  "TemplateVariableName": "Metz, Volkman and Lemke",
+  "Version": 503,
+  "TemplateVariableName": "Abbott Inc and Sons",
   "HasBeenPublished": true,
-  "MdoListName": "Satterfield-Tillman",
+  "MdoListName": "Reichel Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 512
+      "FieldLength": 31
     }
   }
 }

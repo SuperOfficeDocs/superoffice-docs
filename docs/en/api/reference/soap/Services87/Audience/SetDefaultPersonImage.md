@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IAudienceAgent.SetDefault
 
 ## SetDefaultPersonImage
 
-Stores the default person (sales rep) image that is displayed in Audience when no person image is found. The image is set on a specific Audience layout instance.
 
-* **layoutName:** Name of the Audience layout instance
-* **image:** The default project/event image to be stored for this Audience layout instance (System.Drawing.Image)
+
+
 
 [WSDL file for Services87/Audience](../Services87-Audience.md)
 
@@ -48,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetDefaultPersonImage Response
 
 ```xml
@@ -66,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

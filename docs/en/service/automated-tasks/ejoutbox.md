@@ -11,7 +11,7 @@ so.envir: onsite
 
 # ejOutbox
 
-Responsible for connecting to the SMTP server and sending messages from Service.
+Responsible for connecting to the SMTP server and sending messages from Requests.
 
 **Usage:** `ejOutbox [OPTION] domain`
 

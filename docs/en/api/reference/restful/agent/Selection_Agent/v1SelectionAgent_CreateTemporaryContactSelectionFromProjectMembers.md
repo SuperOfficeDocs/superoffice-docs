@@ -116,7 +116,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 148
+  "ProjectId": 916
 }
 ```
 
@@ -127,70 +127,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Versatile content-based frame",
-  "Postit": "perspiciatis",
+  "Description": "Self-enabling discrete infrastructure",
+  "Postit": "aut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 799,
-  "IncludePerson": 667,
-  "MemberCount": 9,
-  "Name": "Runolfsdottir LLC",
-  "PostitTextId": 401,
-  "CreatedDate": "2004-07-03T17:37:19.166241+02:00",
-  "SelectionId": 753,
-  "SoundEx": "recusandae",
-  "Source": 1001,
-  "TextId": 45,
-  "UpdatedDate": "2009-06-18T17:37:19.166241+02:00",
-  "UpdatedCount": 827,
-  "Visibility": 43,
+  "GroupIdx": 272,
+  "IncludePerson": 594,
+  "MemberCount": 722,
+  "Name": "Boyle, Emmerich and Schneider",
+  "PostitTextId": 560,
+  "CreatedDate": "2020-07-17T14:19:04.1879797+02:00",
+  "SelectionId": 732,
+  "SoundEx": "amet",
+  "Source": 112,
+  "TextId": 444,
+  "UpdatedDate": "2009-11-25T14:19:04.1879797+01:00",
+  "UpdatedCount": 415,
+  "Visibility": 759,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 1001,
-  "TargetTableName": "Windler-Zboncak",
+  "CompanyUnique": true,
+  "TargetTableNumber": 864,
+  "TargetTableName": "Runolfsson LLC",
   "Completed": false,
-  "LeftSelectionId": 989,
-  "RightSelectionId": 472,
+  "LeftSelectionId": 118,
+  "RightSelectionId": 442,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kuhlman-Mills",
-  "ShadowProviderName": "Schuppe-Hirthe",
-  "ChartKey": "voluptatem",
-  "LastLoaded": "2004-11-24T17:37:19.1672417+01:00",
-  "LastLoadedBy": 956,
+  "MainProviderName": "Haag-Prosacco",
+  "ShadowProviderName": "Lakin Inc and Sons",
+  "ChartKey": "molestias",
+  "LastLoaded": "2009-09-24T14:19:04.1879797+02:00",
+  "LastLoadedBy": 45,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-12-07T17:37:19.1672417+01:00",
-  "LastMembershipChangeBy": 437,
+  "LastMembershipChange": "2018-03-10T14:19:04.1879797+01:00",
+  "LastMembershipChangeBy": 979,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "voluptate",
-  "MailingsProviderName": "VonRueden-Hills",
-  "DashboardTileDefinitionId": 816,
+  "MainHeading": "quo",
+  "MemberTabHeading": "aut",
+  "MailingsProviderName": "Stracke LLC",
+  "DashboardTileDefinitionId": 676,
   "VisibleFor": [
     {
-      "VisibleId": 704,
+      "VisibleId": 171,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 564
+          "FieldLength": 844
         }
       }
     },
     {
-      "VisibleId": 704,
+      "VisibleId": 171,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 564
+          "FieldLength": 844
         }
       }
     }
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldLength": 605
     }
   }
 }

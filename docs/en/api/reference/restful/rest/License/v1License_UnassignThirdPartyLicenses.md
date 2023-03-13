@@ -73,7 +73,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,26 +84,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 347,
-    "Tooltip": "dolores",
-    "CanAssign": true,
-    "Free": 582,
-    "InUse": 888,
+    "Unrestricted": true,
+    "Total": 808,
+    "Tooltip": "et",
+    "CanAssign": false,
+    "Free": 701,
+    "InUse": 781,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 585,
-    "Name": "Runolfsdottir-Nolan",
-    "Description": "Digitized national complexity",
-    "PrerequisiteModuleName": "DuBuque-Block",
-    "SortOrder": 244,
-    "ExtraFlags": 966,
+    "ModuleLicenseId": 230,
+    "Name": "Larkin Inc and Sons",
+    "Description": "Ameliorated 6th generation architecture",
+    "PrerequisiteModuleName": "Jerde, Hackett and O'Connell",
+    "SortOrder": 52,
+    "ExtraFlags": 484,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 923
+        "FieldLength": 871
       }
     }
   }

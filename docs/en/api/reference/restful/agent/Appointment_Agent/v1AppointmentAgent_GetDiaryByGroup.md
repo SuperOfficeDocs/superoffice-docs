@@ -124,15 +124,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 366,
-  "GroupType": 491,
-  "StartTime": "2021-05-25T17:37:16.2652419+02:00",
-  "EndTime": "2018-04-24T17:37:16.2652419+02:00",
-  "Count": 668
+  "GroupId": 993,
+  "GroupType": 441,
+  "StartTime": "2020-12-04T14:19:02.3731222+01:00",
+  "EndTime": "2012-11-23T14:19:02.3731222+01:00",
+  "Count": 697
 }
 ```
 
@@ -144,61 +144,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 973,
-    "StartDate": "1995-09-12T17:37:16.2662416+02:00",
-    "EndDate": "2008-03-27T17:37:16.2662416+01:00",
+    "AppointmentId": 49,
+    "StartDate": "1998-04-03T14:19:02.3731222+02:00",
+    "EndDate": "2015-07-06T14:19:02.3731222+02:00",
     "Type": "BookingForChecklist",
-    "Task": "dignissimos",
-    "AssociateFullName": "Sylvia Adams",
-    "ContactName": "Yundt Inc and Sons",
-    "Description": "Quality-focused global policy",
-    "PersonFullName": "Spencer Durgan",
-    "PersonId": 688,
-    "ContactId": 2,
-    "ProjectId": 247,
-    "ProjectName": "Shanahan Inc and Sons",
-    "IsPublished": true,
-    "AssociateId": 177,
-    "ColorIndex": 68,
-    "IsFree": false,
+    "Task": "quis",
+    "AssociateFullName": "Cristian Mayert",
+    "ContactName": "Dicki Inc and Sons",
+    "Description": "Reverse-engineered impactful monitoring",
+    "PersonFullName": "Kennith Rowe",
+    "PersonId": 946,
+    "ContactId": 433,
+    "ProjectId": 962,
+    "ProjectName": "Welch-Jaskolski",
+    "IsPublished": false,
+    "AssociateId": 493,
+    "ColorIndex": 214,
+    "IsFree": true,
     "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 527,
-    "PriorityName": "Koelpin Inc and Sons",
+    "PriorityId": 592,
+    "PriorityName": "Pollich, Buckridge and Ryan",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsBookingMain": true,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2005-04-25T17:37:16.2662416+02:00",
+    "ActiveDate": "2001-04-29T14:19:02.3731222+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2013-12-13T17:37:16.2662416+01:00",
-    "RecurringEndDate": "1998-07-30T17:37:16.2662416+02:00",
-    "MotherId": 779,
-    "AssignedBy": 777,
-    "AssignedByFullName": "Hermann Bechtelar",
+    "RecurringStartDate": "2002-10-20T14:19:02.3731222+02:00",
+    "RecurringEndDate": "2004-07-29T14:19:02.3731222+02:00",
+    "MotherId": 50,
+    "AssignedBy": 155,
+    "AssignedByFullName": "Mr. Missouri Bergnaum DDS",
     "RejectReason": "",
-    "Location": "ex",
-    "AlarmLeadTime": "iure",
-    "SaleId": 738,
-    "SaleName": "O'Hara-White",
-    "AssociateName": "Pfeffer-Herman",
-    "CreatedDate": "2001-12-21T17:37:16.2662416+01:00",
-    "CreatedBy": "eos",
-    "CreatedByFullName": "Aniyah Franecki",
-    "CreatedByAssociateId": 690,
+    "Location": "dolores",
+    "AlarmLeadTime": "impedit",
+    "SaleId": 940,
+    "SaleName": "Gorczany-Koss",
+    "AssociateName": "Ernser-Hills",
+    "CreatedDate": "2001-09-10T14:19:02.3731222+02:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Neha Schmeler",
+    "CreatedByAssociateId": 445,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 597
+        "FieldType": "System.Int32",
+        "FieldLength": 949
       }
     }
   }

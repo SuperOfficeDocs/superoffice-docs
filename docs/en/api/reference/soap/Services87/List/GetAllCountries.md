@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetAllCountrie
 
 ## GetAllCountries
 
-Returns all available countries a contact or person could belong to.
 
-* **includeDeleted:** Include deleted items in result?
 
-**Returns:** An array of all available countries
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetAllCountries Response
 
@@ -90,3 +89,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

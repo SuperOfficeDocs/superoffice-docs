@@ -11,8 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.DeleteExtende
 
 ## DeleteExtended
 
-* **connectionInfoExtended:**
-* **messageIds:**
+
+
+
 
 [WSDL file for Services85/EMail](../Services85-EMail.md)
 
@@ -57,6 +58,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteExtended Response
 
 ```xml
@@ -76,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

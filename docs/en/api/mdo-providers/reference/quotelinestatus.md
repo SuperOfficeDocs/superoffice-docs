@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "quotelinestatus"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "quotelinestatus" MDO List
-
 Hard-coded list of values for the QuoteLine.Status field, see <see cref="T:SuperOffice.Data.QuoteStatus" /> enum.
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.QuoteLineStatus">QuoteLineStatus</see> class.
 The name of the MDO list is 'quotelinestatus'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("quotelinestatus", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -49,6 +52,7 @@ foreach (var item in listProvider.RootItems) {
 |1|OK with information|||
 |2|Warning|||
 |3|Error|||
+
 
 ## Related MDO Lists
 

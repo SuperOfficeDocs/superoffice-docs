@@ -84,56 +84,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 825,
-    "Name": "Huel-Legros",
-    "ToolTip": "Natus libero omnis modi suscipit doloremque.",
-    "Deleted": false,
-    "Rank": 339,
-    "Type": "in",
-    "ColorBlock": 538,
-    "IconHint": "totam",
-    "Selected": true,
-    "LastChanged": "2001-08-11T17:37:39.6234305+02:00",
+    "Id": 899,
+    "Name": "Waters, Upton and Swaniawski",
+    "ToolTip": "Et quisquam.",
+    "Deleted": true,
+    "Rank": 728,
+    "Type": "sequi",
+    "ColorBlock": 96,
+    "IconHint": "nisi",
+    "Selected": false,
+    "LastChanged": "2007-04-22T14:19:11.1012251+02:00",
     "ChildItems": [
       {
-        "Id": 80,
-        "Name": "Schmeler-Nienow",
-        "ToolTip": "Consequuntur et molestiae sed eos delectus ut.",
+        "Id": 670,
+        "Name": "Bartell, Ryan and Rowe",
+        "ToolTip": "Unde mollitia aspernatur quos consectetur eaque autem.",
         "Deleted": false,
-        "Rank": 137,
-        "Type": "omnis",
-        "ColorBlock": 576,
-        "IconHint": "aut",
+        "Rank": 955,
+        "Type": "culpa",
+        "ColorBlock": 517,
+        "IconHint": "maiores",
         "Selected": false,
-        "LastChanged": "2016-08-29T17:37:39.6234305+02:00",
+        "LastChanged": "1997-07-22T14:19:11.1012251+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "eius",
+        "ExtraInfo": "nam",
+        "StyleHint": "quisquam",
         "Hidden": false,
-        "FullName": "Theresia Bartell",
+        "FullName": "Hans Durgan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 971
+            "FieldType": "System.Int32",
+            "FieldLength": 400
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "nemo",
+    "ExtraInfo": "sunt",
+    "StyleHint": "deserunt",
     "Hidden": false,
-    "FullName": "Mrs. Malika Michale Upton II",
+    "FullName": "Chaya Runolfsson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 539
+        "FieldType": "System.Int32",
+        "FieldLength": 514
       }
     }
   }

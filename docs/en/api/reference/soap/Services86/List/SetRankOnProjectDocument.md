@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.SetRankOnProje
 
 ## SetRankOnProjectDocument
 
-Set rank order on project document
 
-* **projectTypeStatusLinkId:** The id of the list
-* **itemsIds:** The ids of the items in the order you want
+
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -51,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetRankOnProjectDocument Response
 
 ```xml
@@ -70,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

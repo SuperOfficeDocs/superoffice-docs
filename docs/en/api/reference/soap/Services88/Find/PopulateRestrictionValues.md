@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IFindAgent.PopulateRestri
 
 ## PopulateRestrictionValues
 
-Take an incoming set of Restrictions (name + operator + any user-entered values), and populate/expand all values as specified by the operator's ValueHints, taking into account any values already there. Used for dynamic date periods; perhaps others in the future
 
-* **restrictions:** Restrictions to populate. The Name and Operator fields have to have valid content, and Values should be set as appropriate. Other fields can be left blank or null and will not be changed.
 
-**Returns:** Restrictions in the same order as the incoming restrictions, with all values expanded.
+
 
 [WSDL file for Services88/Find](../Services88-Find.md)
 
@@ -123,6 +121,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## PopulateRestrictionValues Response
 
@@ -239,3 +238,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

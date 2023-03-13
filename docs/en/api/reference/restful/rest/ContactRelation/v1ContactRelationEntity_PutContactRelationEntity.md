@@ -113,28 +113,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 692,
-  "SourcePersonId": 891,
-  "DestinationContactId": 322,
-  "DestinationPersonId": 513,
-  "RelationId": 716,
-  "Comment": "possimus",
-  "RelationDefinitionId": 974,
-  "Reversed": 861,
-  "UpdatedDate": "2021-08-15T17:37:38.4748628+02:00",
-  "CreatedDate": "2016-03-10T17:37:38.4748628+01:00",
+  "SourceContactId": 752,
+  "SourcePersonId": 799,
+  "DestinationContactId": 771,
+  "DestinationPersonId": 253,
+  "RelationId": 340,
+  "Comment": "ex",
+  "RelationDefinitionId": 177,
+  "Reversed": 4,
+  "UpdatedDate": "2022-06-24T14:19:10.240473+02:00",
+  "CreatedDate": "2020-04-02T14:19:10.240473+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kuhn, Lynch and Kshlerin",
-  "SourcePersonName": "Maggio Inc and Sons",
-  "DestinationContactName": "Dach-Walsh",
-  "DestinationPersonName": "Jewess LLC",
-  "ActiveText": "qui",
-  "PassiveText": "vel"
+  "SourceContactName": "Dicki Inc and Sons",
+  "SourcePersonName": "Balistreri Inc and Sons",
+  "DestinationContactName": "Pfannerstill Inc and Sons",
+  "DestinationPersonName": "Mohr-Swaniawski",
+  "ActiveText": "ut",
+  "PassiveText": "ut"
 }
 ```
 
@@ -145,35 +145,35 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 78,
-  "SourcePersonId": 234,
-  "DestinationContactId": 164,
-  "DestinationPersonId": 470,
-  "RelationId": 691,
-  "Comment": "maxime",
-  "RelationDefinitionId": 891,
-  "Reversed": 641,
-  "UpdatedDate": "2013-12-04T17:37:38.4788649+01:00",
-  "CreatedDate": "2002-04-24T17:37:38.4788649+02:00",
+  "SourceContactId": 450,
+  "SourcePersonId": 141,
+  "DestinationContactId": 216,
+  "DestinationPersonId": 137,
+  "RelationId": 352,
+  "Comment": "neque",
+  "RelationDefinitionId": 49,
+  "Reversed": 859,
+  "UpdatedDate": "2016-09-26T14:19:10.240473+02:00",
+  "CreatedDate": "2014-07-27T14:19:10.240473+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Ullrich-Dare",
-  "SourcePersonName": "Dietrich LLC",
-  "DestinationContactName": "Miller-Beatty",
-  "DestinationPersonName": "Denesik-Torphy",
-  "ActiveText": "nobis",
-  "PassiveText": "aut",
+  "SourceContactName": "Stanton, Powlowski and Bayer",
+  "SourcePersonName": "Barrows-Bartell",
+  "DestinationContactName": "Harvey LLC",
+  "DestinationPersonName": "Ledner, Effertz and Ledner",
+  "ActiveText": "suscipit",
+  "PassiveText": "corrupti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 572
+      "FieldType": "System.String",
+      "FieldLength": 378
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

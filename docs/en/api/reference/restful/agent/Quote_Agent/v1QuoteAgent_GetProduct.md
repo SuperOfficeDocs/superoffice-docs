@@ -110,8 +110,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 382,
-  "ERPProductKey": "ab"
+  "QuoteConnectionId": 959,
+  "ERPProductKey": "delectus"
 }
 ```
 
@@ -122,73 +122,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 668,
-  "ERPProductKey": "voluptatem",
-  "ERPPriceListKey": "adipisci",
-  "Name": "Langworth LLC",
-  "Description": "Extended disintermediate hierarchy",
-  "Code": "molestias",
-  "PriceUnit": "alias",
-  "QuantityUnit": "officiis",
-  "IsSubscription": true,
-  "SubscriptionUnit": "est",
-  "DefaultSubscriptionQuantity": 10498.9,
-  "ItemNumber": "1140270",
+  "ProductId": 635,
+  "ERPProductKey": "omnis",
+  "ERPPriceListKey": "doloribus",
+  "Name": "Pacocha Inc and Sons",
+  "Description": "Enterprise-wide clear-thinking process improvement",
+  "Code": "aut",
+  "PriceUnit": "porro",
+  "QuantityUnit": "et",
+  "IsSubscription": false,
+  "SubscriptionUnit": "dolore",
+  "DefaultSubscriptionQuantity": 10082.078,
+  "ItemNumber": "1268231",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "culpa",
-  "ProductTypeKey": "molestias",
-  "VAT": 19850.755999999998,
-  "VATInfo": "omnis",
-  "UnitCost": 6120.702,
-  "UnitMinimumPrice": 30735.138,
-  "UnitListPrice": 29243.354,
-  "InAssortment": true,
-  "Supplier": "quae",
-  "SupplierCode": "saepe",
-  "Rights": "amet",
-  "Rule": "veniam",
+  "ProductFamilyKey": "amet",
+  "ProductTypeKey": "sunt",
+  "VAT": 18547.012,
+  "VATInfo": "accusantium",
+  "UnitCost": 21881.588,
+  "UnitMinimumPrice": 19455.872,
+  "UnitListPrice": 15995.936,
+  "InAssortment": false,
+  "Supplier": "optio",
+  "SupplierCode": "quis",
+  "Rights": "qui",
+  "Rule": "aut",
   "ExtraInfo": [
     {
-      "Name": "Adams LLC",
-      "Value": "corrupti",
+      "Name": "Keeling, Witting and Conn",
+      "Value": "error",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 956
+          "FieldType": "System.Int32",
+          "FieldLength": 797
         }
       }
     },
     {
-      "Name": "Adams LLC",
-      "Value": "corrupti",
+      "Name": "Keeling, Witting and Conn",
+      "Value": "error",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 956
+          "FieldType": "System.Int32",
+          "FieldLength": 797
         }
       }
     }
   ],
-  "RawExtraInfo": "sint",
-  "ExtraField1": "qui",
-  "ExtraField2": "praesentium",
-  "ExtraField3": "incidunt",
-  "ExtraField4": "at",
-  "ExtraField5": "laborum",
-  "InStock": 5403.016,
+  "RawExtraInfo": "incidunt",
+  "ExtraField1": "quod",
+  "ExtraField2": "modi",
+  "ExtraField3": "minima",
+  "ExtraField4": "dicta",
+  "ExtraField5": "sint",
+  "InStock": 22687.025999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 25
+      "FieldLength": 266
     }
   }
 }

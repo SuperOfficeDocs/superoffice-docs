@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 151,
-  "Name": "Herzog Inc and Sons",
-  "Tooltip": "quae",
+  "Id": 61,
+  "Name": "Gutmann, Steuber and Murazik",
+  "Tooltip": "sed",
   "Deleted": false,
-  "UdListDefinitionId": 380,
-  "Rank": 295,
+  "UdListDefinitionId": 577,
+  "Rank": 931,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 936
+      "FieldType": "System.Int32",
+      "FieldLength": 541
     }
   }
 }

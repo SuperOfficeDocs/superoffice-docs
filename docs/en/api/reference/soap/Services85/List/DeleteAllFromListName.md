@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.DeleteAllFromL
 
 ## DeleteAllFromListName
 
-Marks all items in the list deleted
 
-* **udListDefinitionName:** The name of the list definition, indicating which list to delete the items from.
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteAllFromListName Response
 
 ```xml
@@ -68,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

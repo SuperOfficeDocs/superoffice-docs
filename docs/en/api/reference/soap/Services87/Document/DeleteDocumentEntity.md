@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.DeleteDocu
 
 ## DeleteDocumentEntity
 
-Deletes the DocumentEntity
 
-* **documentEntityId:** The identity of the DocumentEntity
+
+
 
 [WSDL file for Services87/Document](../Services87-Document.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteDocumentEntity Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

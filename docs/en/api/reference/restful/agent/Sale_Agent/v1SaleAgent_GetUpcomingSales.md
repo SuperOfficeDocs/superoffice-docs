@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 737,
-  "Count": 601
+  "WeightedAmountLimit": 128,
+  "Count": 160
 }
 ```
 
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Rath, Bernier and McKenzie",
-    "SaleDate": "2000-01-29T17:37:18.8882422+01:00",
-    "SaleId": 565,
-    "Probability": 89,
-    "Title": "iusto",
-    "Amount": 18669.238,
-    "Currency": "dolore",
-    "ProjectName": "Veum-Schumm",
-    "AssociateFullName": "Aurelio Turcotte",
-    "Description": "Synergistic attitude-oriented orchestration",
+    "ContactName": "Schoen LLC",
+    "SaleDate": "2022-10-24T14:19:04.1410858+02:00",
+    "SaleId": 947,
+    "Probability": 184,
+    "Title": "fugit",
+    "Amount": 8762.6639999999989,
+    "Currency": "nobis",
+    "ProjectName": "Torp-Fahey",
+    "AssociateFullName": "Teresa Metz",
+    "Description": "Cloned logistical concept",
     "Status": "Lost",
-    "WeightedAmount": 10361.003999999999,
-    "ProjectId": 814,
-    "EarningPercent": 12852.534,
-    "Earning": 18901.154,
-    "ContactId": 295,
-    "AssociateId": 573,
-    "PersonId": 489,
-    "SaleTypeId": 886,
-    "SaleTypeName": "Breitenberg-Reilly",
-    "PersonFullName": "Prof. Julia O'Hara I",
+    "WeightedAmount": 1469.846,
+    "ProjectId": 88,
+    "EarningPercent": 20151.62,
+    "Earning": 6399.628,
+    "ContactId": 241,
+    "AssociateId": 989,
+    "PersonId": 516,
+    "SaleTypeId": 479,
+    "SaleTypeName": "Brekke LLC",
+    "PersonFullName": "Jordon Oberbrunner",
     "Completed": "Completed",
-    "ActiveErpLinks": 364,
-    "NextDueDate": "2003-07-12T17:37:18.8882422+02:00",
-    "Number": "407218",
+    "ActiveErpLinks": 988,
+    "NextDueDate": "1995-10-23T14:19:04.1410858+02:00",
+    "Number": "1388235",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 678
+        "FieldLength": 689
       }
     }
   }

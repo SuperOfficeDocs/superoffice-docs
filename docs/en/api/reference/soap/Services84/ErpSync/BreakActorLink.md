@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.BreakActorL
 
 ## BreakActorLink
 
-Remove the link between a CRM entity and an ERP entity
 
-* **erpConnectionId:** The ERP connection ID
-* **crmRecordId:** The ID of the CRM entity to connect to
-* **crmActorType:** Identifies the CRM actor type corresponding to this CRM entity
 
-**Returns:** True if success
+
 
 [WSDL file for Services84/ErpSync](../Services84-ErpSync.md)
 
@@ -53,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## BreakActorLink Response
 
 ```xml
@@ -73,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

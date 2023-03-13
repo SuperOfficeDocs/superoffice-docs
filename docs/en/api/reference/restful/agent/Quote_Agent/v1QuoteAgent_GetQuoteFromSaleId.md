@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 50
+  "SaleId": 20
 }
 ```
 
@@ -100,26 +100,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 758,
-  "SaleId": 261,
-  "QuoteConnectionId": 395,
-  "ERPQuoteKey": "adipisci",
-  "ERPOrderKey": "nam",
-  "ActiveQuoteVersionId": 192,
-  "AcceptedQuoteAlternativeId": 213,
-  "UseValuesFromQuote": 944,
-  "DocumentId": 699,
-  "PoNumber": "431941",
-  "OrderComment": "dicta",
-  "PreferredEmailCulture": "kaelyn.haag@rutherford.biz",
+  "QuoteId": 536,
+  "SaleId": 156,
+  "QuoteConnectionId": 582,
+  "ERPQuoteKey": "fugiat",
+  "ERPOrderKey": "sapiente",
+  "ActiveQuoteVersionId": 945,
+  "AcceptedQuoteAlternativeId": 835,
+  "UseValuesFromQuote": 995,
+  "DocumentId": 749,
+  "PoNumber": "1056657",
+  "OrderComment": "laudantium",
+  "PreferredEmailCulture": "marta.abbott@hamill.com",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldType": "System.String",
+      "FieldLength": 391
     }
   }
 }

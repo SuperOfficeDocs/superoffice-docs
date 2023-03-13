@@ -29,7 +29,7 @@ Change a AppointmentEntity user-defined field's type based on the prog-id or lab
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -103,7 +103,7 @@ AppointmentEntity found.
 POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 778,
-  "ColumnId": 477,
-  "FieldDefault": "quia",
-  "FieldHeight": 67,
-  "FieldLabel": "delectus",
-  "FieldLeft": 158,
-  "FieldTop": 707,
+  "UDefFieldId": 681,
+  "ColumnId": 822,
+  "FieldDefault": "eligendi",
+  "FieldHeight": 474,
+  "FieldLabel": "atque",
+  "FieldLeft": 381,
+  "FieldTop": 208,
   "FieldType": "Checkbox",
-  "FieldWidth": 472,
-  "FormatMask": "recusandae",
-  "HideLabel": false,
+  "FieldWidth": 941,
+  "FormatMask": "nesciunt",
+  "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 770,
-  "LabelLeft": 206,
-  "LabelTop": 670,
-  "LabelWidth": 506,
-  "LastVersionId": 602,
-  "ListTableId": 384,
+  "LabelHeight": 132,
+  "LabelLeft": 594,
+  "LabelTop": 913,
+  "LabelWidth": 651,
+  "LastVersionId": 444,
+  "ListTableId": 501,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 827,
-  "ProgId": "nihil",
+  "Page1LineNo": 916,
+  "ProgId": "debitis",
   "IsReadOnly": true,
-  "ShortLabel": "incidunt",
-  "TabOrder": 227,
-  "TextLength": 803,
-  "Tooltip": "illo",
-  "UdefIdentity": 579,
-  "UDListDefinitionId": 409,
+  "ShortLabel": "enim",
+  "TabOrder": 98,
+  "TextLength": 69,
+  "Tooltip": "ipsa",
+  "UdefIdentity": 515,
+  "UDListDefinitionId": 42,
   "Justification": "Center",
-  "Version": 931,
-  "TemplateVariableName": "Fay Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Beatty-Pfeffer",
+  "Version": 782,
+  "TemplateVariableName": "Vandervort-Legros",
+  "HasBeenPublished": false,
+  "MdoListName": "Von, Schultz and Cruickshank",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 866
+      "FieldLength": 906
     }
   }
 }

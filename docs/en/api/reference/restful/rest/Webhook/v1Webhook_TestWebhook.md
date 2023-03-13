@@ -77,30 +77,30 @@ OK
 POST /api/v1/Webhook/Test
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 362,
-  "Name": "Brakus LLC",
+  "WebhookId": 324,
+  "Name": "Bruen-Barrows",
   "Events": [
-    "et",
-    "voluptatum"
+    "quibusdam",
+    "ut"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "velit",
+  "Secret": "voluptas",
   "State": "Active",
-  "Type": "id",
+  "Type": "enim",
   "Headers": {
-    "Headers1": "soluta",
-    "Headers2": "consequatur"
+    "Headers1": "enim",
+    "Headers2": "voluptas"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2001-02-04T17:37:39.6104306+01:00",
+  "Registered": "2021-04-01T14:19:11.0855578+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2019-05-01T17:37:39.6104306+02:00",
+  "Updated": "2010-10-22T14:19:11.0855578+02:00",
   "UpdatedAssociate": null
 }
 ```
@@ -112,14 +112,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "facere",
+  "Success": false,
+  "Message": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 202
+      "FieldType": "System.Int32",
+      "FieldLength": 113
     }
   }
 }

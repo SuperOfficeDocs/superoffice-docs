@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 595,
-  "Name": "Kuvalis-Yundt",
-  "Tooltip": "dignissimos",
-  "Deleted": true,
-  "UdListDefinitionId": 177,
-  "Rank": 294,
+  "Id": 231,
+  "Name": "Ritchie Inc and Sons",
+  "Tooltip": "id",
+  "Deleted": false,
+  "UdListDefinitionId": 279,
+  "Rank": 615,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 758
+      "FieldType": "System.Int32",
+      "FieldLength": 921
     }
   }
 }

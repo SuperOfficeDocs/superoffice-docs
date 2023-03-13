@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IFreeTextAgent.Regenerate
 
 ## RegenerateIndex
 
-Wipe and regenerate the freetext index by scanning the database (freetext search will be unavailable while this operation runs
 
-* **runAsBatch:** If true, then execute the regeneration as a Batch Task; the service call will return immediately. Otherwise wait until the task completes, may cause a timeout if called as a Web Service
 
-**Returns:** Information about the batch task, if batch execution was requested. Otherwise null
+
 
 [WSDL file for Services84/FreeText](../Services84-FreeText.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RegenerateIndex Response
 
 ```xml
@@ -77,8 +76,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <FreeText:Value xsi:type="xsd:string"></FreeText:Value>
      </FreeText:StringKeyValuePair>
     </FreeText:ParameterObject>
-    <FreeText:LastStarted xsi:type="xsd:dateTime">2022-08-26T08:51:04Z</FreeText:LastStarted>
-    <FreeText:Created xsi:type="xsd:dateTime">2022-08-26T08:51:04Z</FreeText:Created>
+    <FreeText:LastStarted xsi:type="xsd:dateTime">2023-02-15T13:09:41Z</FreeText:LastStarted>
+    <FreeText:Created xsi:type="xsd:dateTime">2023-02-15T13:09:41Z</FreeText:Created>
     <FreeText:StartCount xsi:type="xsd:int">0</FreeText:StartCount>
     <FreeText:DatabaseSerialNumber xsi:type="xsd:string"></FreeText:DatabaseSerialNumber>
     <FreeText:Context xsi:type="xsd:string"></FreeText:Context>
@@ -95,3 +94,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

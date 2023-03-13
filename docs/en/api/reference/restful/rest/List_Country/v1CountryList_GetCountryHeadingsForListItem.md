@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 937,
-    "Name": "Gottlieb, Cronin and Littel",
-    "ToolTip": "Eius voluptate.",
+    "Id": 990,
+    "Name": "Denesik-Towne",
+    "ToolTip": "Optio ipsa aut.",
     "Deleted": false,
-    "Rank": 547,
-    "Type": "excepturi",
-    "ColorBlock": 412,
-    "IconHint": "eveniet",
-    "Selected": true,
-    "LastChanged": "2016-01-05T17:37:39.9315023+01:00",
+    "Rank": 89,
+    "Type": "maiores",
+    "ColorBlock": 774,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2018-12-28T14:19:11.1949684+01:00",
     "ChildItems": [
       {
-        "Id": 288,
-        "Name": "Cummings-Schiller",
-        "ToolTip": "Non dolor.",
-        "Deleted": false,
-        "Rank": 872,
-        "Type": "nulla",
-        "ColorBlock": 82,
-        "IconHint": "aut",
+        "Id": 843,
+        "Name": "Satterfield-Lesch",
+        "ToolTip": "Quia qui.",
+        "Deleted": true,
+        "Rank": 754,
+        "Type": "ea",
+        "ColorBlock": 15,
+        "IconHint": "tenetur",
         "Selected": true,
-        "LastChanged": "2013-09-30T17:37:39.9324703+02:00",
+        "LastChanged": "2012-06-27T14:19:11.1949684+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "amet",
+        "ExtraInfo": "eaque",
+        "StyleHint": "quos",
         "Hidden": true,
-        "FullName": "Dr. Terrance Clair Stamm Jr.",
+        "FullName": "Kaci Mckayla O'Keefe MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 730
+            "FieldLength": 986
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "odio",
-    "Hidden": false,
-    "FullName": "Chaz Rae VonRueden DDS",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Mrs. Mac Bertram Gerlach II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 176
+        "FieldType": "System.String",
+        "FieldLength": 678
       }
     }
   }

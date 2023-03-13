@@ -25,8 +25,8 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentType/MDOItems?flat=True
-GET /api/v1/List/PaymentType/MDOItems?query=est
+GET /api/v1/List/PaymentType/MDOItems?flat=False
+GET /api/v1/List/PaymentType/MDOItems?query=et
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 493,
-    "Name": "Bashirian, Lubowitz and Schuster",
-    "ToolTip": "Quia ut.",
+    "Id": 825,
+    "Name": "Willms-Stracke",
+    "ToolTip": "Esse adipisci quaerat.",
     "Deleted": false,
-    "Rank": 167,
-    "Type": "quia",
+    "Rank": 522,
+    "Type": "officia",
     "ChildItems": [
       {
-        "Id": 532,
-        "Name": "Bosco-Oberbrunner",
-        "ToolTip": "Voluptatibus sed inventore rerum fugit qui saepe.",
+        "Id": 989,
+        "Name": "Rutherford LLC",
+        "ToolTip": "Reiciendis enim ipsum quibusdam ut dolore.",
         "Deleted": false,
-        "Rank": 369,
-        "Type": "est",
+        "Rank": 436,
+        "Type": "nisi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestiae",
-        "ColorBlock": 252,
-        "ExtraInfo": "quidem",
-        "StyleHint": "qui",
-        "FullName": "Earl Lehner I",
+        "IconHint": "qui",
+        "ColorBlock": 72,
+        "ExtraInfo": "rerum",
+        "StyleHint": "illum",
+        "FullName": "Dortha Mann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 478
+            "FieldLength": 347
           }
         }
       }
     ],
-    "IconHint": "aliquam",
-    "ColorBlock": 50,
-    "ExtraInfo": "temporibus",
-    "StyleHint": "occaecati",
-    "FullName": "Cassandra Parisian",
+    "IconHint": "et",
+    "ColorBlock": 48,
+    "ExtraInfo": "ab",
+    "StyleHint": "qui",
+    "FullName": "Nick Morar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 171
+        "FieldLength": 365
       }
     }
   }

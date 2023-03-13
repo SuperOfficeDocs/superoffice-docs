@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IMarketingAgent.Calculate
 
 ## CalculateMailingStatistics
 
-Calculate open and click rates for one or more mailings
 
-* **shipmentId:** If 0, calculate rates for all dirty (are\_statistics\_dirty) shipments
 
-**Returns:** Number of shipments updated with calculated statistics
+
 
 [WSDL file for Services88/Marketing](../Services88-Marketing.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CalculateMailingStatistics Response
 
 ```xml
@@ -67,3 +66,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

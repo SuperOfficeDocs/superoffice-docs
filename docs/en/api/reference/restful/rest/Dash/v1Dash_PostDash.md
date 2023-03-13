@@ -99,34 +99,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 37,
-  "UniqueId": "aut",
-  "Name": "Miller Group",
-  "Description": "Right-sized leading edge challenge",
-  "AssociateId": 838,
-  "Columns": 894,
+  "DashboardId": 672,
+  "UniqueId": "id",
+  "Name": "Kling-Kris",
+  "Description": "Phased demand-driven monitoring",
+  "AssociateId": 958,
+  "Columns": 672,
   "Theme": null,
-  "VisibleForAll": 246,
+  "VisibleForAll": 308,
   "VisibleForAssociates": [
-    620,
-    527
+    302,
+    418
   ],
   "VisibleForGroups": [
-    440,
-    708
+    160,
+    827
   ],
-  "PinForAll": 654,
+  "PinForAll": 664,
   "PinForAssociates": [
-    55,
-    9
+    983,
+    266
   ],
   "PinForGroups": [
-    511,
-    725
+    965,
+    760
   ]
 }
 ```
@@ -138,37 +138,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 229,
-  "UniqueId": "unde",
-  "Name": "Gleason-Gusikowski",
-  "Description": "Phased systematic encoding",
-  "AssociateId": 598,
-  "Columns": 140,
+  "DashboardId": 48,
+  "UniqueId": "ratione",
+  "Name": "Walsh Group",
+  "Description": "Fundamental 3rd generation capability",
+  "AssociateId": 287,
+  "Columns": 355,
   "Theme": null,
-  "VisibleForAll": 506,
+  "VisibleForAll": 990,
   "VisibleForAssociates": [
-    139,
-    557
+    145,
+    95
   ],
   "VisibleForGroups": [
-    941,
-    501
+    633,
+    733
   ],
-  "PinForAll": 915,
+  "PinForAll": 395,
   "PinForAssociates": [
-    779,
-    512
+    790,
+    167
   ],
   "PinForGroups": [
-    851,
-    488
+    243,
+    338
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 232
+      "FieldType": "System.String",
+      "FieldLength": 317
     }
   },
   "_Links": {

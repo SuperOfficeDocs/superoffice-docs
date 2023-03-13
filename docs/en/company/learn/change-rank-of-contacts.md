@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Change the rank of contacts
+# Change the rank of contacts (Old functionality)
 
 When you create a new contact, they appear at the bottom of the **Contacts** section tab for the active company (ranked lowest). However, you can change this rank. For example, to specify that the contact added last should be the main contact.
 

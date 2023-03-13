@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,22 +84,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "007.093.6076 x127",
-    "PersonCellPhone": "(864)879-3050 x54231",
-    "PersonPrivatePhone": "124.201.1132 x8914",
-    "PersonFaxNumber": "377452",
-    "PersonPagerNumber": "1179515",
-    "PersonEmail": "timothy_tremblay@bashirian.us",
-    "Id": 38,
-    "Name": "Schinner-Vandervort",
-    "Tooltip": "vero",
-    "UniqueId": "id",
+    "PersonDirectPhone": "(341)193-8131 x235",
+    "PersonCellPhone": "1-762-281-1159 x44428",
+    "PersonPrivatePhone": "542.088.0547 x264",
+    "PersonFaxNumber": "1124809",
+    "PersonPagerNumber": "1263840",
+    "PersonEmail": "josiah@lesch.us",
+    "Id": 93,
+    "Name": "Schulist, Yundt and Heaney",
+    "Tooltip": "reprehenderit",
+    "UniqueId": "iusto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 348
+        "FieldLength": 267
       }
     }
   }

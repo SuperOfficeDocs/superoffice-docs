@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISaintAgent.RegenerateSta
 
 ## RegenerateStatusMonitor
 
-Regenerate the given status monitor
 
-* **statusMonitorId:** The id of the statusmonitor to regenerate
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services87/Saint](../Services87-Saint.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RegenerateStatusMonitor Response
 
 ```xml
@@ -68,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

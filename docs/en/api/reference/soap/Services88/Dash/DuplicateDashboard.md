@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashAgent.DuplicateDashb
 
 ## DuplicateDashboard
 
-Duplicate for the dashboard and all the sub elements
 
-* **dashboardId:** The id of the dashboard to add the tile to
-* **name:** The name of the new dashboard
 
-**Returns:** New dashboard
+
 
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## DuplicateDashboard Response
 
@@ -100,3 +98,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

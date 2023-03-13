@@ -11,15 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IForeignSystemAgent.GetDe
 
 ## GetDeviceKeysOnDeviceIdentifierTableRecordId
 
-Returns all ForeignKeys that belong to a device with a given deviceIdentifier and table name, as well as record id.
 
-* **applicationName:** The name of the foreign application.
-* **deviceName:** The name of the foreign device.
-* **deviceIdentifier:** Identifier for a unique grouping of keys within a device.
-* **tableName:** Table name, transformed to and from numeric table id by the service layer.<p />Use an empty string to indicate that your key is not bound to any specific table.
-* **recordId:** Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.
 
-**Returns:** Array of all ForeignKeys in the ForeignDevice that match the criteria
+
 
 [WSDL file for Services85/ForeignSystem](../Services85-ForeignSystem.md)
 
@@ -56,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDeviceKeysOnDeviceIdentifierTableRecordId Response
 
 ```xml
@@ -74,8 +69,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <ForeignSystem:Key xsi:type="xsd:string"></ForeignSystem:Key>
      <ForeignSystem:Value xsi:type="xsd:string"></ForeignSystem:Value>
      <ForeignSystem:RecordId xsi:type="xsd:int">0</ForeignSystem:RecordId>
-     <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:53:03Z</ForeignSystem:CreatedDate>
-     <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:53:03Z</ForeignSystem:UpdatedDate>
+     <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2023-02-15T13:11:32Z</ForeignSystem:CreatedDate>
+     <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2023-02-15T13:11:32Z</ForeignSystem:UpdatedDate>
      <ForeignSystem:UpdatedBy xsi:type="xsd:string"></ForeignSystem:UpdatedBy>
      <ForeignSystem:CreatedBy xsi:type="xsd:string"></ForeignSystem:CreatedBy>
      <ForeignSystem:TableName xsi:type="xsd:string"></ForeignSystem:TableName>
@@ -86,3 +81,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

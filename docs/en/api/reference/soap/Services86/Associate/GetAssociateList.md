@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IAssociateAgent.GetAssoci
 
 ## GetAssociateList
 
-Gets an array of Associate objects.
 
-* **associateIds:** The identifiers of the Associate object
 
-**Returns:** Array of Associate objects
+
 
 [WSDL file for Services86/Associate](../Services86-Associate.md)
 
@@ -50,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetAssociateList Response
 
@@ -86,3 +85,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

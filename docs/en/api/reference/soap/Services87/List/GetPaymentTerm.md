@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetPaymentTerm
 
 ## GetPaymentTerm
 
-Gets a PaymentTerm object.
 
-* **paymentTermId:** The identifier of the PaymentTerm object
 
-**Returns:** PaymentTerm
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetPaymentTerm Response
 
 ```xml
@@ -73,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

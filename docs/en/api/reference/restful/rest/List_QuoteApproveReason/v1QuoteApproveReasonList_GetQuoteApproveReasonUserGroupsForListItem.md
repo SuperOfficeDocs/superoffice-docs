@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Schultz LLC",
-    "ToolTip": "Et error.",
-    "Deleted": true,
-    "Rank": 109,
-    "Type": "cumque",
-    "ColorBlock": 860,
-    "IconHint": "quidem",
+    "Id": 499,
+    "Name": "Reichel LLC",
+    "ToolTip": "Sapiente omnis vel quia sunt deleniti.",
+    "Deleted": false,
+    "Rank": 74,
+    "Type": "qui",
+    "ColorBlock": 247,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "2001-09-15T17:37:40.2294702+02:00",
+    "LastChanged": "2018-09-10T14:19:11.4149038+02:00",
     "ChildItems": [
       {
-        "Id": 841,
-        "Name": "Rosenbaum Inc and Sons",
-        "ToolTip": "Optio error laborum.",
-        "Deleted": false,
-        "Rank": 125,
-        "Type": "est",
-        "ColorBlock": 647,
-        "IconHint": "odit",
+        "Id": 221,
+        "Name": "Runolfsdottir-Spencer",
+        "ToolTip": "Recusandae quidem maiores est voluptas facilis.",
+        "Deleted": true,
+        "Rank": 84,
+        "Type": "velit",
+        "ColorBlock": 667,
+        "IconHint": "quod",
         "Selected": false,
-        "LastChanged": "2014-01-12T17:37:40.2294702+01:00",
+        "LastChanged": "2013-06-05T14:19:11.4149038+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "nemo",
-        "Hidden": true,
-        "FullName": "Mr. Itzel O'Hara",
+        "ExtraInfo": "rerum",
+        "StyleHint": "soluta",
+        "Hidden": false,
+        "FullName": "Chelsie Bahringer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 753
+            "FieldType": "System.Int32",
+            "FieldLength": 954
           }
         }
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "qui",
+    "ExtraInfo": "vel",
+    "StyleHint": "ex",
     "Hidden": true,
-    "FullName": "Kamille McLaughlin",
+    "FullName": "Genoveva Rau",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 999
+        "FieldLength": 693
       }
     }
   }

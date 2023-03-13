@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISaleAgent.SaveSaleStakeh
 
 ## SaveSaleStakeholder
 
-Updates the existing SaleStakeholder or creates a new SaleStakeholder if the id parameter is 0.
 
-* **saleStakeholder:** The SaleStakeholder that is saved.
 
-**Returns:** New or updated SaleStakeholder
+
 
 [WSDL file for Services87/Sale](../Services87-Sale.md)
 
@@ -69,6 +67,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveSaleStakeholder Response
 
 ```xml
@@ -109,3 +108,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -57,7 +57,7 @@ OK
 GET /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -68,30 +68,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Weimann LLC",
-    "DisplayName": "Dare-Douglas",
-    "DisplayTooltip": "quia",
+    "Name": "Bruen, Lang and Herzog",
+    "DisplayName": "West Group",
+    "DisplayTooltip": "eos",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 606
+        "FieldLength": 167
       }
     }
   },
   {
-    "Name": "Weimann LLC",
-    "DisplayName": "Dare-Douglas",
-    "DisplayTooltip": "quia",
+    "Name": "Bruen, Lang and Herzog",
+    "DisplayName": "West Group",
+    "DisplayTooltip": "eos",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 606
+        "FieldLength": 167
       }
     }
   }

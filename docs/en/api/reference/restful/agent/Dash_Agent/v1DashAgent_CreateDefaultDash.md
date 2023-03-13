@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,37 +78,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 714,
-  "UniqueId": "aut",
-  "Name": "Casper-Stamm",
-  "Description": "Up-sized hybrid utilisation",
-  "AssociateId": 604,
-  "Columns": 581,
+  "DashboardId": 241,
+  "UniqueId": "eaque",
+  "Name": "Wintheiser Group",
+  "Description": "Realigned cohesive utilisation",
+  "AssociateId": 938,
+  "Columns": 562,
   "Theme": null,
-  "VisibleForAll": 932,
+  "VisibleForAll": 536,
   "VisibleForAssociates": [
-    180,
-    178
+    942,
+    578
   ],
   "VisibleForGroups": [
-    43,
-    286
+    759,
+    68
   ],
-  "PinForAll": 103,
+  "PinForAll": 877,
   "PinForAssociates": [
-    198,
-    403
+    782,
+    258
   ],
   "PinForGroups": [
-    399,
-    763
+    752,
+    520
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 886
+      "FieldType": "System.String",
+      "FieldLength": 946
     }
   }
 }

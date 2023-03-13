@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashAgent.SaveDashTiles"
 
 ## SaveDashTiles
 
-Saves the ordered list of tiles for a dashboard
 
-* **dashboardId:** The id of the dashboard
-* **dashTiles:** The tiles in order
+
+
 
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
@@ -78,6 +77,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveDashTiles Response
 
 ```xml
@@ -97,3 +97,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

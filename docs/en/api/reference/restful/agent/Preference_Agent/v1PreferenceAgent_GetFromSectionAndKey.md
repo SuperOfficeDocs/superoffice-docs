@@ -94,8 +94,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "ut",
-  "Key": "voluptatem"
+  "Section": "et",
+  "Key": "et"
 }
 ```
 
@@ -106,30 +106,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 808,
-  "Section": "dolorem",
-  "Key": "culpa",
-  "Name": "Schowalter-Konopelski",
+  "PrefDescId": 232,
+  "Section": "soluta",
+  "Key": "omnis",
+  "Name": "Aufderhar Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Profound systematic strategy",
+  "Description": "Compatible composite challenge",
   "IsBuiltin": false,
-  "TableName": "Wuckert-Bernhard",
-  "UserDefinedListId": 12,
-  "Rank": 389,
-  "SubGroup": "velit",
-  "MinLevel": 480,
-  "MaxValue": 142,
-  "MinValue": 979,
-  "RequiredLicense": "commodi",
+  "TableName": "Glover, Gottlieb and Rosenbaum",
+  "UserDefinedListId": 918,
+  "Rank": 925,
+  "SubGroup": "quia",
+  "MinLevel": 311,
+  "MaxValue": 475,
+  "MinValue": 585,
+  "RequiredLicense": "deleniti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 327
+      "FieldType": "System.String",
+      "FieldLength": 885
     }
   }
 }

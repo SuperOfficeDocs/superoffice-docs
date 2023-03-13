@@ -106,51 +106,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 535,
-  "Name": "Mueller, Jast and Hackett",
-  "Tooltip": "sit",
-  "Rank": 627,
+  "SaleTypeId": 446,
+  "Name": "Purdy, Mraz and Hickle",
+  "Tooltip": "explicabo",
+  "Rank": 446,
   "DurationUnit": "Century",
-  "SaleDuration": 498,
-  "SaleTypeCatId": 722,
+  "SaleDuration": 925,
+  "SaleTypeCatId": 796,
   "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 333,
-  "QuoteLinesTemplate": 716,
-  "ConfirmationLinesTemplate": 870,
+  "DefaultQuoteValidity": 674,
+  "QuoteLinesTemplate": 373,
+  "ConfirmationLinesTemplate": 730,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 872,
-  "MinEarningPercent": 414,
-  "GroupQuoteLinesBy": 694,
-  "SortGroupLinesBy": 576,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 10,
+  "MinEarningPercent": 451,
+  "GroupQuoteLinesBy": 292,
+  "SortGroupLinesBy": 494,
   "Stages": [
     {
-      "Id": 562,
-      "Name": "Greenholt Inc and Sons",
-      "ToolTip": "Omnis sequi beatae recusandae cumque qui et consequatur.",
-      "Deleted": false,
-      "Rank": 708,
-      "Type": "voluptatem",
-      "ColorBlock": 433,
-      "IconHint": "in",
-      "Selected": true,
-      "LastChanged": "2006-01-10T17:37:40.3315004+01:00",
+      "Id": 813,
+      "Name": "Keebler Inc and Sons",
+      "ToolTip": "Adipisci dolorem voluptatem qui voluptate accusantium.",
+      "Deleted": true,
+      "Rank": 922,
+      "Type": "omnis",
+      "ColorBlock": 429,
+      "IconHint": "suscipit",
+      "Selected": false,
+      "LastChanged": "2011-07-28T14:19:11.4870653+02:00",
       "ChildItems": [
         {},
         {}
       ],
       "ExtraInfo": "aut",
-      "StyleHint": "deserunt",
+      "StyleHint": "suscipit",
       "Hidden": false,
-      "FullName": "Juvenal Kuhlman"
+      "FullName": "Kiarra Farrell"
     }
   ]
 }
@@ -163,53 +163,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 897,
-  "Name": "Von Group",
-  "Tooltip": "qui",
-  "Rank": 165,
+  "SaleTypeId": 972,
+  "Name": "Haley, Johnston and Padberg",
+  "Tooltip": "enim",
+  "Rank": 458,
   "DurationUnit": "Century",
-  "SaleDuration": 416,
-  "SaleTypeCatId": 64,
-  "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 310,
-  "QuoteLinesTemplate": 159,
-  "ConfirmationLinesTemplate": 1002,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 502,
-  "MinEarningPercent": 66,
-  "GroupQuoteLinesBy": 828,
-  "SortGroupLinesBy": 642,
+  "SaleDuration": 368,
+  "SaleTypeCatId": 289,
+  "Deleted": true,
+  "HasGuide": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 845,
+  "QuoteLinesTemplate": 322,
+  "ConfirmationLinesTemplate": 670,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 961,
+  "MinEarningPercent": 823,
+  "GroupQuoteLinesBy": 66,
+  "SortGroupLinesBy": 739,
   "Stages": [
     {
-      "Id": 161,
-      "Name": "Yost-Ankunding",
-      "ToolTip": "Ratione vitae deleniti tempore expedita maxime.",
+      "Id": 967,
+      "Name": "Hoeger Inc and Sons",
+      "ToolTip": "Temporibus aut et occaecati eveniet voluptatem eveniet et.",
       "Deleted": false,
-      "Rank": 114,
-      "Type": "tenetur",
-      "ColorBlock": 754,
-      "IconHint": "fuga",
+      "Rank": 700,
+      "Type": "reiciendis",
+      "ColorBlock": 218,
+      "IconHint": "sequi",
       "Selected": true,
-      "LastChanged": "2003-02-09T17:37:40.3315004+01:00",
+      "LastChanged": "2002-10-19T14:19:11.4870653+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "exercitationem",
-      "StyleHint": "et",
+      "ExtraInfo": "odit",
+      "StyleHint": "quia",
       "Hidden": false,
-      "FullName": "Kenton Lexus Auer II",
+      "FullName": "Cheyanne Lynch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 461
+          "FieldLength": 810
         }
       }
     }
@@ -218,8 +218,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 13
+      "FieldType": "System.String",
+      "FieldLength": 393
     }
   }
 }

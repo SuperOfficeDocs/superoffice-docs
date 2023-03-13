@@ -128,77 +128,77 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 919,
+  "DocumentId": 555,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "qui",
-  "Header": "excepturi",
-  "Name": "Crist-McGlynn",
-  "OurRef": "et",
-  "YourRef": "velit",
-  "CreatedDate": "2019-02-16T17:37:17.4602424+01:00",
-  "UpdatedDate": "2020-01-28T17:37:17.4602424+01:00",
-  "Description": "Open-source tertiary open system",
+  "Attention": "ut",
+  "Header": "tempore",
+  "Name": "Stanton, Ledner and Ziemann",
+  "OurRef": "nulla",
+  "YourRef": "qui",
+  "CreatedDate": "2022-11-11T14:19:03.2605311+01:00",
+  "UpdatedDate": "2019-11-06T14:19:03.2605311+01:00",
+  "Description": "Reduced empowering attitude",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2000-03-06T17:37:17.4652423+01:00",
-  "ExternalRef": "repudiandae",
+  "Date": "2022-09-18T14:19:03.2605311+02:00",
+  "ExternalRef": "culpa",
   "Completed": "Completed",
-  "ActiveLinks": 955,
+  "ActiveLinks": 595,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Mitchell-Hettinger",
-      "Id": 615,
-      "Description": "Networked non-volatile analyzer",
-      "ExtraInfo": "magnam",
-      "LinkId": 493
+      "EntityName": "Bechtelar, Schoen and Mayert",
+      "Id": 403,
+      "Description": "Multi-channelled directional matrices",
+      "ExtraInfo": "voluptate",
+      "LinkId": 996
     },
     {
-      "EntityName": "Mitchell-Hettinger",
-      "Id": 615,
-      "Description": "Networked non-volatile analyzer",
-      "ExtraInfo": "magnam",
-      "LinkId": 493
+      "EntityName": "Bechtelar, Schoen and Mayert",
+      "Id": 403,
+      "Description": "Multi-channelled directional matrices",
+      "ExtraInfo": "voluptate",
+      "LinkId": 996
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 790,
-  "Snum": 90,
+  "SuggestedDocumentId": 646,
+  "Snum": 524,
   "UserDefinedFields": {
-    "SuperOffice:1": "Angus Wiegand",
-    "SuperOffice:2": "Duane Ziemann"
+    "SuperOffice:1": "Ms. Jane Haag",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "sunt"
+    "ExtraFields1": "repellat",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "earum",
-    "CustomFields2": "veniam"
+    "CustomFields1": "autem",
+    "CustomFields2": "perferendis"
   },
-  "PublishEventDate": "2017-07-02T17:37:17.4662428+02:00",
-  "PublishTo": "2012-04-08T17:37:17.4662428+02:00",
-  "PublishFrom": "2008-03-07T17:37:17.4662428+01:00",
+  "PublishEventDate": "2003-06-28T14:19:03.2605311+02:00",
+  "PublishTo": "2016-09-20T14:19:03.2605311+02:00",
+  "PublishFrom": "1999-12-05T14:19:03.2605311+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 638,
+      "VisibleId": 285,
       "Visibility": "All",
-      "DisplayValue": "alias"
+      "DisplayValue": "maxime"
     },
     {
-      "VisibleId": 638,
+      "VisibleId": 285,
       "Visibility": "All",
-      "DisplayValue": "alias"
+      "DisplayValue": "maxime"
     }
   ]
 }
@@ -211,88 +211,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 726,
+  "DocumentId": 411,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "maxime",
-  "Header": "est",
-  "Name": "Kulas Group",
-  "OurRef": "aut",
-  "YourRef": "ducimus",
-  "CreatedDate": "2020-06-03T17:37:17.4732417+02:00",
-  "UpdatedDate": "2018-07-19T17:37:17.4732417+02:00",
-  "Description": "Reactive real-time installation",
+  "Attention": "id",
+  "Header": "quia",
+  "Name": "Emmerich, Hane and Grimes",
+  "OurRef": "accusamus",
+  "YourRef": "iste",
+  "CreatedDate": "2020-03-27T14:19:03.2761568+01:00",
+  "UpdatedDate": "2004-02-20T14:19:03.2761568+01:00",
+  "Description": "Vision-oriented multimedia extranet",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-07-27T17:37:17.4772417+02:00",
-  "ExternalRef": "harum",
+  "Date": "2002-02-28T14:19:03.2761568+01:00",
+  "ExternalRef": "quia",
   "Completed": "Completed",
-  "ActiveLinks": 867,
+  "ActiveLinks": 926,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Robel, Schimmel and Emard",
-      "Id": 769,
-      "Description": "Innovative secondary open architecture",
-      "ExtraInfo": "soluta",
-      "LinkId": 471,
+      "EntityName": "Lind Inc and Sons",
+      "Id": 951,
+      "Description": "Advanced empowering knowledge user",
+      "ExtraInfo": "amet",
+      "LinkId": 564,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 405
+          "FieldType": "System.Int32",
+          "FieldLength": 357
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 178,
-  "Snum": 183,
+  "SuggestedDocumentId": 930,
+  "Snum": 248,
   "UserDefinedFields": {
-    "SuperOffice:1": "Webster Roob",
-    "SuperOffice:2": "Mr. Rudy Watsica"
+    "SuperOffice:1": "German Ebert",
+    "SuperOffice:2": "Dr. Leta Brain Moen"
   },
   "ExtraFields": {
-    "ExtraFields1": "vero",
-    "ExtraFields2": "quos"
+    "ExtraFields1": "pariatur",
+    "ExtraFields2": "consequuntur"
   },
   "CustomFields": {
-    "CustomFields1": "architecto",
-    "CustomFields2": "similique"
+    "CustomFields1": "animi",
+    "CustomFields2": "eum"
   },
-  "PublishEventDate": "2006-06-20T17:37:17.4782414+02:00",
-  "PublishTo": "2021-07-14T17:37:17.4782414+02:00",
-  "PublishFrom": "2004-07-02T17:37:17.4782414+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2021-04-04T14:19:03.2761568+02:00",
+  "PublishTo": "1999-08-16T14:19:03.2761568+02:00",
+  "PublishFrom": "1999-12-11T14:19:03.2761568+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 879,
+      "VisibleId": 725,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 606
+          "FieldLength": 409
         }
       }
     },
     {
-      "VisibleId": 879,
+      "VisibleId": 725,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 606
+          "FieldLength": 409
         }
       }
     }
@@ -302,7 +302,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldLength": 54
     }
   }
 }

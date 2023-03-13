@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 828,
-  "Name": "Orn LLC",
-  "Tooltip": "accusamus",
+  "Id": 477,
+  "Name": "Wolff Inc and Sons",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "UdListDefinitionId": 675,
-  "Rank": 752,
+  "UdListDefinitionId": 161,
+  "Rank": 851,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 756
+      "FieldType": "System.Int32",
+      "FieldLength": 191
     }
   }
 }

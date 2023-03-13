@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IConfigurationAgent.GetRe
 
 ## GetRecipeAppliesToMappings
 
-Return the a  dictionary with recipeId as key, and chosen appliesTo for that recipe, Like projecttype for projectcardrecipe
 
-**Returns:** Mapping of recipeId and selected appliesToKey
+
+
 
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetRecipeAppliesToMappings Response
 
 ```xml
@@ -71,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

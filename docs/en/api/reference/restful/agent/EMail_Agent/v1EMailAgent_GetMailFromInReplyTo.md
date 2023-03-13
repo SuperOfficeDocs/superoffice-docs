@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromInReplyTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "maxime"
+  "MessageId": "quia"
 }
 ```
 
@@ -116,146 +116,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 615,
-      "ContactName": "Cormier-Boyer",
-      "PersonId": 317,
-      "PersonName": "Morar-Brakus",
-      "AssociateId": 165,
-      "Address": "ut",
-      "EmailId": 474,
+      "ContactId": 97,
+      "ContactName": "Goyette, Schneider and Barton",
+      "PersonId": 486,
+      "PersonName": "Friesen, Lueilwitz and Howe",
+      "AssociateId": 231,
+      "Address": "consequatur",
+      "EmailId": 131,
       "DuplicatePersonIds": [
-        198,
-        275
+        230,
+        880
       ],
-      "Name": "Hackett Inc and Sons",
+      "Name": "Hegmann-O'Kon",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 414
+          "FieldType": "System.String",
+          "FieldLength": 207
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 349,
-      "ContactName": "Vandervort Group",
-      "PersonId": 240,
-      "PersonName": "Schinner, Koepp and Weimann",
-      "AssociateId": 523,
-      "Address": "natus",
-      "EmailId": 52,
+      "ContactId": 30,
+      "ContactName": "Kuphal LLC",
+      "PersonId": 231,
+      "PersonName": "Fisher Inc and Sons",
+      "AssociateId": 443,
+      "Address": "porro",
+      "EmailId": 204,
       "DuplicatePersonIds": [
-        956,
-        895
+        857,
+        321
       ],
-      "Name": "Schimmel Group",
+      "Name": "Wiza Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 368
+          "FieldType": "System.String",
+          "FieldLength": 108
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 470,
-      "ContactName": "Huel-Kovacek",
-      "PersonId": 725,
-      "PersonName": "Kuhic LLC",
-      "AssociateId": 865,
-      "Address": "quaerat",
-      "EmailId": 580,
+      "ContactId": 63,
+      "ContactName": "Emard-Zieme",
+      "PersonId": 400,
+      "PersonName": "Schmitt-Turner",
+      "AssociateId": 77,
+      "Address": "est",
+      "EmailId": 359,
       "DuplicatePersonIds": [
-        568,
-        915
+        201,
+        736
       ],
-      "Name": "Terry LLC",
+      "Name": "Schamberger Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 923
+          "FieldLength": 674
         }
       }
     }
   ],
   "Subject": "et",
-  "HTMLBody": "voluptas",
+  "HTMLBody": "ad",
   "From": null,
-  "Sent": "2016-08-15T17:37:17.8752432+02:00",
-  "Size": 337,
+  "Sent": "2010-05-10T14:19:03.4040208+02:00",
+  "Size": 728,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "iusto",
-  "PlainBody": "cumque",
+  "MessageID": "modi",
+  "PlainBody": "dolorem",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 853,
+  "ServerId": 75,
   "Attachments": [
     {
-      "Description": "Mandatory mission-critical groupware",
-      "Filename": "eos",
-      "Size": 520,
-      "Type": "nesciunt",
-      "Encoding": "eum",
-      "Id": "est",
-      "Disposition": "quis",
+      "Description": "Intuitive clear-thinking paradigm",
+      "Filename": "alias",
+      "Size": 317,
+      "Type": "expedita",
+      "Encoding": "corrupti",
+      "Id": "ratione",
+      "Disposition": "dolores",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 233
+          "FieldType": "System.Int32",
+          "FieldLength": 606
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Olson, Ebert and Heaney",
+      "Name": "McDermott LLC",
       "Values": [
-        "exercitationem",
-        "sit"
+        "eligendi",
+        "minima"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 244
+          "FieldLength": 74
         }
       }
     },
     {
-      "Name": "Olson, Ebert and Heaney",
+      "Name": "McDermott LLC",
       "Values": [
-        "exercitationem",
-        "sit"
+        "eligendi",
+        "minima"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 244
+          "FieldLength": 74
         }
       }
     }
   ],
-  "FolderName": "Schimmel, Doyle and Carroll",
-  "EmailItemId": 630,
-  "AccountId": 619,
-  "ReceivedAt": "2020-12-04T17:37:17.8762411+01:00",
+  "FolderName": "Mayer LLC",
+  "EmailItemId": 273,
+  "AccountId": 287,
+  "ReceivedAt": "2013-07-22T14:19:03.4040208+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2021-05-04T17:37:17.8762411+02:00",
+  "RepliedAt": "2015-09-21T14:19:03.4040208+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -263,8 +263,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldType": "System.String",
+      "FieldLength": 31
     }
   }
 }

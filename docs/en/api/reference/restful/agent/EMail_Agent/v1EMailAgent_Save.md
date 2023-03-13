@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/EMail/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,155 +116,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 369,
-      "ContactName": "O'Kon LLC",
-      "PersonId": 667,
-      "PersonName": "Nader Inc and Sons",
-      "AssociateId": 932,
-      "Address": "id",
-      "EmailId": 770,
+      "ContactId": 247,
+      "ContactName": "Glover-Stoltenberg",
+      "PersonId": 855,
+      "PersonName": "Auer-Lehner",
+      "AssociateId": 96,
+      "Address": "cupiditate",
+      "EmailId": 625,
       "DuplicatePersonIds": [
-        601,
-        680
+        518,
+        833
       ],
-      "Name": "Medhurst-Boyle",
+      "Name": "Mills-Marks",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 226
+          "FieldType": "System.Int32",
+          "FieldLength": 606
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 168,
-      "ContactName": "Altenwerth-Heller",
-      "PersonId": 388,
-      "PersonName": "Trantow Inc and Sons",
-      "AssociateId": 322,
-      "Address": "ea",
-      "EmailId": 436,
+      "ContactId": 73,
+      "ContactName": "Leffler Group",
+      "PersonId": 964,
+      "PersonName": "Grady, Brown and Kilback",
+      "AssociateId": 483,
+      "Address": "ut",
+      "EmailId": 866,
       "DuplicatePersonIds": [
-        543,
-        23
+        541,
+        934
       ],
-      "Name": "Jones, Erdman and Waelchi",
+      "Name": "Koss-Wiza",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 150
+          "FieldType": "System.Int32",
+          "FieldLength": 492
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 757,
-      "ContactName": "Weissnat Group",
-      "PersonId": 394,
-      "PersonName": "Senger-Feeney",
-      "AssociateId": 861,
-      "Address": "illum",
-      "EmailId": 710,
+      "ContactId": 343,
+      "ContactName": "Hintz, Parisian and Schaden",
+      "PersonId": 446,
+      "PersonName": "Hirthe, McDermott and Miller",
+      "AssociateId": 937,
+      "Address": "et",
+      "EmailId": 236,
       "DuplicatePersonIds": [
-        58,
-        716
+        790,
+        120
       ],
-      "Name": "Cassin-Rogahn",
+      "Name": "Lowe-Huel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 21
+          "FieldType": "System.Int32",
+          "FieldLength": 343
         }
       }
     }
   ],
-  "Subject": "ipsam",
-  "HTMLBody": "sit",
+  "Subject": "quis",
+  "HTMLBody": "quo",
   "From": null,
-  "Sent": "1997-06-24T17:37:17.8512444+02:00",
-  "Size": 631,
+  "Sent": "2000-10-31T14:19:03.3727451+01:00",
+  "Size": 899,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "velit",
-  "PlainBody": "non",
+  "MessageID": "consequatur",
+  "PlainBody": "eius",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 9,
+  "ServerId": 495,
   "Attachments": [
     {
-      "Description": "Fundamental coherent array",
-      "Filename": "aliquam",
-      "Size": 3,
-      "Type": "et",
-      "Encoding": "omnis",
-      "Id": "reiciendis",
-      "Disposition": "sit",
+      "Description": "Intuitive leading edge open system",
+      "Filename": "quas",
+      "Size": 876,
+      "Type": "aliquid",
+      "Encoding": "neque",
+      "Id": "voluptas",
+      "Disposition": "sed",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 615
+          "FieldType": "System.Int32",
+          "FieldLength": 123
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Nolan, Goodwin and Sipes",
+      "Name": "Reichel-Jewess",
       "Values": [
-        "debitis",
-        "atque"
+        "minus",
+        "fuga"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 625
+          "FieldType": "System.Int32",
+          "FieldLength": 19
         }
       }
     },
     {
-      "Name": "Nolan, Goodwin and Sipes",
+      "Name": "Reichel-Jewess",
       "Values": [
-        "debitis",
-        "atque"
+        "minus",
+        "fuga"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 625
+          "FieldType": "System.Int32",
+          "FieldLength": 19
         }
       }
     }
   ],
-  "FolderName": "Sawayn, Strosin and Lind",
-  "EmailItemId": 809,
-  "AccountId": 410,
-  "ReceivedAt": "2014-03-05T17:37:17.8512444+01:00",
+  "FolderName": "Dicki Inc and Sons",
+  "EmailItemId": 408,
+  "AccountId": 537,
+  "ReceivedAt": "2015-11-25T14:19:03.3883958+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-01-25T17:37:17.8522441+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2015-02-06T14:19:03.3883958+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 775
+      "FieldType": "System.Int32",
+      "FieldLength": 192
     }
   }
 }

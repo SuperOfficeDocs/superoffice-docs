@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.GetValidUserNa
 
 ## GetValidUserName
 
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **associateId:**
-* **type:**
-* **personId:**
-* **userName:**
+
+
 
 [WSDL file for Services87/User](../Services87-User.md)
 
@@ -53,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetValidUserName Response
 
 ```xml
@@ -73,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

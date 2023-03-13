@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 717,
-    "Name": "McClure Group",
-    "ToolTip": "Deserunt rerum.",
-    "Deleted": true,
-    "Rank": 574,
-    "Type": "nam",
-    "ColorBlock": 181,
-    "IconHint": "qui",
+    "Id": 197,
+    "Name": "Boyer-Stark",
+    "ToolTip": "Eaque autem exercitationem eum aspernatur.",
+    "Deleted": false,
+    "Rank": 340,
+    "Type": "temporibus",
+    "ColorBlock": 554,
+    "IconHint": "possimus",
     "Selected": false,
-    "LastChanged": "2017-01-23T17:37:39.9884708+01:00",
+    "LastChanged": "1995-11-30T14:19:11.2262177+01:00",
     "ChildItems": [
       {
-        "Id": 159,
-        "Name": "Howe LLC",
-        "ToolTip": "Ut hic fuga.",
+        "Id": 237,
+        "Name": "Kozey, Murphy and Langworth",
+        "ToolTip": "Laboriosam veritatis neque itaque aut fugit.",
         "Deleted": false,
-        "Rank": 1001,
-        "Type": "delectus",
-        "ColorBlock": 750,
-        "IconHint": "quo",
+        "Rank": 633,
+        "Type": "eum",
+        "ColorBlock": 628,
+        "IconHint": "magnam",
         "Selected": true,
-        "LastChanged": "2000-11-10T17:37:39.9884708+01:00",
+        "LastChanged": "2014-11-28T14:19:11.2262177+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "sed",
+        "ExtraInfo": "non",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Miles Rutherford"
+        "FullName": "Mr. Doyle Carol Schumm"
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "pariatur",
-    "Hidden": false,
-    "FullName": "Elta Antonio Cole IV"
+    "ExtraInfo": "maxime",
+    "StyleHint": "voluptatibus",
+    "Hidden": true,
+    "FullName": "Eduardo Koch"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 849,
-    "Name": "Hilll, Parisian and Ondricka",
-    "ToolTip": "Accusantium officiis quia suscipit exercitationem quia.",
-    "Deleted": true,
-    "Rank": 435,
-    "Type": "mollitia",
-    "ColorBlock": 845,
-    "IconHint": "perspiciatis",
-    "Selected": false,
-    "LastChanged": "2022-01-23T17:37:39.9895005+01:00",
+    "Id": 292,
+    "Name": "Waters LLC",
+    "ToolTip": "Tempora officiis magnam excepturi sequi ipsum sint et.",
+    "Deleted": false,
+    "Rank": 275,
+    "Type": "et",
+    "ColorBlock": 298,
+    "IconHint": "placeat",
+    "Selected": true,
+    "LastChanged": "1996-02-11T14:19:11.2418468+01:00",
     "ChildItems": [
       {
-        "Id": 348,
-        "Name": "Carroll-Anderson",
-        "ToolTip": "Sit eius aliquam dolores vero non rem ut.",
+        "Id": 792,
+        "Name": "Hammes, Hackett and Lowe",
+        "ToolTip": "Iste facilis.",
         "Deleted": true,
-        "Rank": 634,
-        "Type": "quia",
-        "ColorBlock": 5,
-        "IconHint": "id",
+        "Rank": 227,
+        "Type": "numquam",
+        "ColorBlock": 85,
+        "IconHint": "illo",
         "Selected": false,
-        "LastChanged": "2019-03-09T17:37:39.9895005+01:00",
+        "LastChanged": "2011-04-24T14:19:11.2418468+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "aut",
+        "ExtraInfo": "alias",
+        "StyleHint": "doloribus",
         "Hidden": true,
-        "FullName": "Ashleigh Schmitt",
+        "FullName": "Destiney Cremin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 31
+            "FieldLength": 936
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "vero",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Alfreda Reichert",
+    "FullName": "Dawson Effertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 79
+        "FieldType": "System.Int32",
+        "FieldLength": 710
       }
     }
   }

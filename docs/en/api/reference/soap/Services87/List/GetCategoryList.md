@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetCategoryLis
 
 ## GetCategoryList
 
-Gets an array of Category objects.
 
-* **categoryIds:** The identifiers of the Category object
 
-**Returns:** Array of Category objects
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetCategoryList Response
 
 ```xml
@@ -77,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

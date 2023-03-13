@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IBulkUpdateAgent.RemoveSt
 
 ## RemoveStoredFieldsAndGetDefaultFields
 
-Remove the stored settings of the bulk update for this table from this context, to get the default settings instead
 
-* **tableName:** The name of the table to remove stored settings from
-* **context:** Where is the function called from that we will remove the settings from
 
-**Returns:** Returns array of the available fields for the given tablename
+
 
 [WSDL file for Services88/BulkUpdate](../Services88-BulkUpdate.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## RemoveStoredFieldsAndGetDefaultFields Response
 
@@ -113,3 +111,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

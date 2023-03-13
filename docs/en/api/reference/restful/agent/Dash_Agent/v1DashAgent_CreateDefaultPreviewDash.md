@@ -70,32 +70,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Daniel-Nader",
-  "Description": "Stand-alone logistical algorithm",
-  "OwnedByFullName": "Rogelio Blick",
-  "Registered": "2014-04-27T17:37:17.3682421+02:00",
+  "Name": "Jewess-Stark",
+  "Description": "Multi-tiered value-added circuit",
+  "OwnedByFullName": "Dr. Jonathon Kassandra Johnston MD",
+  "Registered": "1997-02-28T14:19:03.1042793+01:00",
   "Tiles": [
     {
-      "Name": "Nader-Gusikowski",
+      "Name": "Koss-Powlowski",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 184
+          "FieldType": "System.String",
+          "FieldLength": 462
         }
       }
     },
     {
-      "Name": "Nader-Gusikowski",
+      "Name": "Koss-Powlowski",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 184
+          "FieldType": "System.String",
+          "FieldLength": 462
         }
       }
     }
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldType": "System.String",
+      "FieldLength": 943
     }
   }
 }

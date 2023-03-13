@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IQuoteAgent.DeleteSaleTyp
 
 ## DeleteSaleTypeQuoteAttachment
 
-Deletes the sale type quote attachment with the given id
 
-* **saleTypeQuoteAttachmentId:** The ID of the sale type quote attachment row to delete
+
+
 
 [WSDL file for Services86/Quote](../Services86-Quote.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteSaleTypeQuoteAttachment Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

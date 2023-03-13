@@ -105,12 +105,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 678,
+  "DocId": 578,
   "AttachmentIds": [
-    "incidunt",
-    "consectetur"
+    "doloribus",
+    "fugiat"
   ],
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -123,146 +123,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 235,
-      "ContactName": "Luettgen Group",
-      "PersonId": 460,
-      "PersonName": "Bashirian Inc and Sons",
-      "AssociateId": 63,
-      "Address": "non",
-      "EmailId": 569,
+      "ContactId": 206,
+      "ContactName": "Cummings-Larson",
+      "PersonId": 139,
+      "PersonName": "Frami LLC",
+      "AssociateId": 472,
+      "Address": "ut",
+      "EmailId": 241,
       "DuplicatePersonIds": [
-        732,
-        217
+        415,
+        192
       ],
-      "Name": "Rice Inc and Sons",
+      "Name": "Fritsch LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 941
+          "FieldType": "System.String",
+          "FieldLength": 436
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 541,
-      "ContactName": "Dickinson, Hartmann and Toy",
-      "PersonId": 469,
-      "PersonName": "Rippin Inc and Sons",
-      "AssociateId": 165,
-      "Address": "placeat",
-      "EmailId": 471,
+      "ContactId": 309,
+      "ContactName": "Ledner, Leannon and Rohan",
+      "PersonId": 504,
+      "PersonName": "Flatley-Adams",
+      "AssociateId": 120,
+      "Address": "vel",
+      "EmailId": 330,
       "DuplicatePersonIds": [
-        268,
-        457
+        730,
+        9
       ],
-      "Name": "Will Inc and Sons",
+      "Name": "Jacobson Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 918
+          "FieldType": "System.Int32",
+          "FieldLength": 376
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 16,
-      "ContactName": "O'Kon LLC",
-      "PersonId": 234,
-      "PersonName": "Goldner LLC",
-      "AssociateId": 1001,
-      "Address": "dolor",
-      "EmailId": 420,
+      "ContactId": 878,
+      "ContactName": "Homenick, Funk and Harris",
+      "PersonId": 1002,
+      "PersonName": "Schinner LLC",
+      "AssociateId": 213,
+      "Address": "eum",
+      "EmailId": 654,
       "DuplicatePersonIds": [
-        133,
-        572
+        276,
+        995
       ],
-      "Name": "Hand-Kris",
+      "Name": "Towne Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 85
+          "FieldLength": 810
         }
       }
     }
   ],
-  "Subject": "quia",
-  "HTMLBody": "dolorum",
+  "Subject": "iste",
+  "HTMLBody": "quam",
   "From": null,
-  "Sent": "2000-01-21T17:37:17.9772474+01:00",
-  "Size": 44,
+  "Sent": "2015-07-17T14:19:03.466522+02:00",
+  "Size": 216,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "deleniti",
-  "PlainBody": "et",
+  "MessageID": "saepe",
+  "PlainBody": "consequatur",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 136,
+  "ServerId": 686,
   "Attachments": [
     {
-      "Description": "Virtual didactic methodology",
-      "Filename": "perspiciatis",
-      "Size": 917,
-      "Type": "reiciendis",
-      "Encoding": "dolore",
-      "Id": "est",
-      "Disposition": "placeat",
+      "Description": "Up-sized fault-tolerant methodology",
+      "Filename": "aliquid",
+      "Size": 895,
+      "Type": "dolores",
+      "Encoding": "odio",
+      "Id": "ex",
+      "Disposition": "ipsa",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 618
+          "FieldLength": 676
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Predovic LLC",
+      "Name": "O'Connell-Feil",
       "Values": [
-        "voluptatem",
-        "laudantium"
+        "quod",
+        "sit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 658
+          "FieldType": "System.Int32",
+          "FieldLength": 308
         }
       }
     },
     {
-      "Name": "Predovic LLC",
+      "Name": "O'Connell-Feil",
       "Values": [
-        "voluptatem",
-        "laudantium"
+        "quod",
+        "sit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 658
+          "FieldType": "System.Int32",
+          "FieldLength": 308
         }
       }
     }
   ],
-  "FolderName": "Monahan-Gleichner",
-  "EmailItemId": 883,
-  "AccountId": 95,
-  "ReceivedAt": "2014-09-19T17:37:17.9782597+02:00",
+  "FolderName": "Rutherford LLC",
+  "EmailItemId": 526,
+  "AccountId": 173,
+  "ReceivedAt": "2017-11-11T14:19:03.466522+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-11-19T17:37:17.9782597+01:00",
+  "RepliedAt": "2008-09-15T14:19:03.466522+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -270,8 +270,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 183
+      "FieldType": "System.String",
+      "FieldLength": 915
     }
   }
 }

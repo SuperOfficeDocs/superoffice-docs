@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 331,
-  "Name": "Homenick-Kling",
-  "Tooltip": "voluptates",
+  "HeadingId": 12,
+  "Name": "Christiansen LLC",
+  "Tooltip": "id",
   "Deleted": false,
-  "Rank": 440,
-  "UdListDefinitionId": 491
+  "Rank": 718,
+  "UdListDefinitionId": 47
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 489,
-  "Name": "Morissette, Reilly and Koch",
-  "Tooltip": "dolorem",
-  "Deleted": false,
-  "Rank": 890,
-  "UdListDefinitionId": 556,
+  "HeadingId": 342,
+  "Name": "Bins-Mayert",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 730,
+  "UdListDefinitionId": 993,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 711
+      "FieldLength": 769
     }
   }
 }

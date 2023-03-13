@@ -72,28 +72,28 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 735,
-  "Year": 24,
+  "TargetGroupId": 996,
+  "Year": 172,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 328,
+      "TargetAssignmentInfoId": 641,
       "Values": [
-        61,
-        772
+        544,
+        391
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 560,
-      "DimensionListItemDisplayName": "Boyle LLC"
+      "DimensionListItem": 370,
+      "DimensionListItemDisplayName": "Heller LLC"
     }
   ],
   "TargetDimension": null
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 194,
-  "Year": 989,
+  "TargetGroupId": 121,
+  "Year": 238,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 926,
+      "TargetAssignmentInfoId": 980,
       "Values": [
-        264,
-        173
+        164,
+        90
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 936,
-      "DimensionListItemDisplayName": "Schaden, Klocko and Blick",
+      "DimensionListItem": 671,
+      "DimensionListItemDisplayName": "Becker Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 566
+          "FieldLength": 881
         }
       }
     }
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 594
+      "FieldType": "System.Int32",
+      "FieldLength": 838
     }
   }
 }

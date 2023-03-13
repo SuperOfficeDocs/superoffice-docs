@@ -8,9 +8,9 @@ so.topic: howto
 so.envir: onsite
 ---
 
-# Update location when moving Service
+# Update location when moving Requests
 
-If moving Service and the attachment location has changed, you need to update the last row in `attachment_location` to point to the new path, for example:
+If moving Requests and the attachment location has changed, you need to update the last row in `attachment_location` to point to the new path, for example:
 
 ```SQL
 USE [SuperOffice]

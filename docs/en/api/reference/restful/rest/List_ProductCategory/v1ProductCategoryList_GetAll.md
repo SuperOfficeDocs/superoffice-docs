@@ -24,7 +24,7 @@ Gets all the ProductCategory items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductCategory/Items?includeDeleted=True
+GET /api/v1/List/ProductCategory/Items?includeDeleted=False
 ```
 
 
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 958,
-    "Name": "Kassulke Group",
-    "Tooltip": "est",
+    "Id": 516,
+    "Name": "Bahringer Group",
+    "Tooltip": "in",
     "Deleted": false,
-    "UdListDefinitionId": 816,
-    "Rank": 692,
+    "UdListDefinitionId": 896,
+    "Rank": 82,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 875
+        "FieldType": "System.Int32",
+        "FieldLength": 262
       }
     }
   }

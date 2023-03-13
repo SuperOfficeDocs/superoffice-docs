@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 45
+  "UdListDefinitionId": 570
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 708,
-  "Name": "Will-Price",
-  "Tooltip": "quia",
+  "HeadingId": 891,
+  "Name": "Donnelly Inc and Sons",
+  "Tooltip": "odit",
   "Deleted": false,
-  "Rank": 948,
-  "UdListDefinitionId": 6,
+  "Rank": 617,
+  "UdListDefinitionId": 607,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 572
+      "FieldType": "System.String",
+      "FieldLength": 220
     }
   }
 }

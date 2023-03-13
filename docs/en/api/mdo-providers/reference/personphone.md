@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "personphone"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,8 +15,9 @@ so.envir:
 ---
 
 # "personphone" MDO List
-
 Search phone numbers for matching values, restricted to a given company or person.
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.PersonPhoneProvider">PersonPhoneProvider</see> class.
 The name of the MDO list is 'personphone'.
@@ -30,6 +31,10 @@ The name of the MDO list is 'personphone'.
 
 Separator: &
 
+
+
+
+
 ## Sample Request
 
 ```http!
@@ -41,7 +46,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("personphone", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -55,6 +59,7 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
+
 
 ## Related MDO Lists
 

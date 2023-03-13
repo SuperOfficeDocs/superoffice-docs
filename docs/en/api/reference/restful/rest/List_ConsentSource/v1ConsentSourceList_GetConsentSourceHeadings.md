@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 716,
-    "Name": "Schmeler-Batz",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "Rank": 153,
-    "UdListDefinitionId": 149,
+    "HeadingId": 826,
+    "Name": "Bahringer, Jewess and Bode",
+    "Tooltip": "quisquam",
+    "Deleted": false,
+    "Rank": 438,
+    "UdListDefinitionId": 17,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 83
+        "FieldType": "System.String",
+        "FieldLength": 477
       }
     }
   }

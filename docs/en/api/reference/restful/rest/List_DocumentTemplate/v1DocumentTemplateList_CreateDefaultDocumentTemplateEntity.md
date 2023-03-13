@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,37 +88,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 55,
-  "Name": "Rippin, Donnelly and Torphy",
-  "Tooltip": "enim",
-  "SaveInDb": 983,
-  "Filename": "amet",
-  "DefaultOref": "omnis",
+  "DocumentTemplateId": 278,
+  "Name": "Kassulke Group",
+  "Tooltip": "dolor",
+  "SaveInDb": 944,
+  "Filename": "et",
+  "DefaultOref": "similique",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 479,
-  "IntentId": 181,
+  "AutoeventId": 269,
+  "IntentId": 857,
   "IsDefaultPublished": true,
-  "Rank": 703,
-  "LoadTemplateFromPlugin": 764,
-  "MimeType": "rerum",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 750,
+  "Rank": 686,
+  "LoadTemplateFromPlugin": 422,
+  "MimeType": "voluptatum",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 726,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "marcelina@sporer.biz",
+  "EmailSubject": "yesenia@ratkeleannon.uk",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "dangelo.mckenzie@oconnellschmidt.com",
+  "SenderEmailAddress": "mustafa_torphy@harvey.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldType": "System.String",
+      "FieldLength": 395
     }
   }
 }

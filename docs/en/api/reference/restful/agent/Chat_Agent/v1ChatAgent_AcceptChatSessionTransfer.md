@@ -108,7 +108,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 66
+  "ChatSessionId": 262
 }
 ```
 
@@ -119,29 +119,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 6,
-  "TopicId": 568,
+  "ChatSessionId": 391,
+  "TopicId": 826,
   "User": null,
   "Person": null,
-  "CustomerAlias": "asperiores",
-  "CustomerHost": "ab",
-  "CustomerName": "Abshire-O'Reilly",
-  "CustomerEmail": "yoshiko@kautzerwest.name",
-  "CustomerPhone": "(870)110-4923",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "VonRueden-Kulas",
+  "CustomerAlias": "dolores",
+  "CustomerHost": "facilis",
+  "CustomerName": "Wyman-Lockman",
+  "CustomerEmail": "emmett@ritchiemcdermott.ca",
+  "CustomerPhone": "134-633-8753 x2577",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Koepp LLC",
   "Status": "Closed",
-  "FirstMessage": "quibusdam",
-  "LastMessage": "omnis",
-  "WhenRequested": "2008-08-15T17:37:17.0282422+02:00",
-  "WhenStarted": "2008-09-19T17:37:17.0282422+02:00",
-  "WhenEnded": "2005-06-25T17:37:17.0282422+02:00",
-  "WhenIdle": "2009-06-02T17:37:17.0282422+02:00",
-  "WhenFetched": "2004-07-30T17:37:17.0282422+02:00",
-  "SessionKey": "tenetur",
-  "InitialQueuePos": 6,
-  "AlertLevel": 201,
-  "Rank": 338,
+  "FirstMessage": "corrupti",
+  "LastMessage": "laudantium",
+  "WhenRequested": "2000-12-26T14:19:02.8542773+01:00",
+  "WhenStarted": "2007-05-05T14:19:02.8542773+02:00",
+  "WhenEnded": "2021-08-05T14:19:02.8542773+02:00",
+  "WhenIdle": "2015-10-10T14:19:02.8542773+02:00",
+  "WhenFetched": "2008-08-15T14:19:02.8542773+02:00",
+  "SessionKey": "non",
+  "InitialQueuePos": 564,
+  "AlertLevel": 965,
+  "Rank": 537,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -149,13 +149,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 193,
+  "Rating": 67,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 196
+      "FieldType": "System.Int32",
+      "FieldLength": 458
     }
   }
 }

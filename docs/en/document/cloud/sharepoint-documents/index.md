@@ -44,6 +44,12 @@ A self-service UI to provision and configure SharePoint as SO repository from Su
   * Visible for all - default access rights from SharePoint
   * Visible for group - private in SharePoint
 
+## Things to consider
+
+* Backup of documents - this is now no longer managed by SuperOffice - evaluation is required if the current backup schedule of SharePoint fits well.
+
+* Availability of documents - when documents are stored in SuperOffice, they are only available in the front-end client as the SO_ARC folder is unavailable to users. In SharePoint, the document libraries are accessible and therefore this may be considered a disadvantage by some customers.
+
   > [!NOTE]
   > You need **Global Admin** rights in Microsoft 365 to be able to authenticate SuperOffice as a trusted app in your Microsoft 365 solution.
 

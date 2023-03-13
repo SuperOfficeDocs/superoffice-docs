@@ -26,7 +26,7 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=True
+GET /api/v1/List/Country/Items?includeDeleted=False
 ```
 
 
@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 419,
-    "Name": "White LLC",
-    "CurrencyId": 93,
-    "EnglishName": "Kovacek-Kihn",
+    "CountryId": 892,
+    "Name": "Moore, Anderson and Nienow",
+    "CurrencyId": 602,
+    "EnglishName": "Dare-Dickinson",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Organized intermediate knowledge base",
-    "OrgNrText": "1233074",
-    "InterAreaPrefix": "temporibus",
-    "DialInPrefix": "tempora",
-    "ZipPrefix": "ut",
-    "DomainName": "Turcotte-Mitchell",
-    "AddressLayoutId": 505,
-    "DomesticAddressLayoutId": 22,
-    "ForeignAddressLayoutId": 925,
-    "Rank": 649,
-    "Tooltip": "nihil",
-    "Deleted": false,
+    "ImageDescription": "Diverse upward-trending matrix",
+    "OrgNrText": "949922",
+    "InterAreaPrefix": "in",
+    "DialInPrefix": "aut",
+    "ZipPrefix": "velit",
+    "DomainName": "Hauck, Gorczany and Johnson",
+    "AddressLayoutId": 351,
+    "DomesticAddressLayoutId": 339,
+    "ForeignAddressLayoutId": 2,
+    "Rank": 739,
+    "Tooltip": "et",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 815
+        "FieldLength": 112
       }
     }
   }

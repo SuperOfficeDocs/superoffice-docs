@@ -94,49 +94,49 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Berge, Schuppe and White",
-    "Operator": "velit",
+    "Name": "Schuster-Grant",
+    "Operator": "omnis",
     "Values": [
-      "consequatur",
-      "est"
+      "amet",
+      "et"
     ],
     "DisplayValues": [
-      "at",
-      "pariatur"
+      "voluptatem",
+      "aut"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "McClure Group",
-        "Operator": "repudiandae",
+        "Name": "Thiel Group",
+        "Operator": "quia",
         "Values": [
-          "hic",
-          "et"
+          "atque",
+          "amet"
         ],
         "DisplayValues": [
-          "fugit",
-          "ut"
+          "dolorum",
+          "dolores"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 673,
+        "InterParenthesis": 345,
         "InterOperator": "And",
-        "UniqueHash": 677
+        "UniqueHash": 553
       }
     ],
-    "InterParenthesis": 318,
+    "InterParenthesis": 2,
     "InterOperator": "And",
-    "UniqueHash": 974
+    "UniqueHash": 882
   }
 ]
 ```
@@ -149,29 +149,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Murazik, Powlowski and Hahn",
-    "Operator": "omnis",
+    "Name": "Klocko-Gerhold",
+    "Operator": "et",
     "Values": [
-      "quis",
-      "eum"
+      "saepe",
+      "veritatis"
     ],
     "DisplayValues": [
-      "neque",
-      "fugit"
+      "rerum",
+      "autem"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Gulgowski, Zulauf and Cruickshank",
-        "Operator": "iusto",
+        "Name": "Block-Larson",
+        "Operator": "repellat",
         "Values": [
-          "exercitationem",
-          "sit"
+          "sunt",
+          "inventore"
         ],
         "DisplayValues": [
-          "fugit",
-          "molestiae"
+          "et",
+          "voluptas"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -179,14 +179,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 168,
+        "InterParenthesis": 155,
         "InterOperator": "And",
-        "UniqueHash": 168
+        "UniqueHash": 92
       }
     ],
-    "InterParenthesis": 930,
+    "InterParenthesis": 855,
     "InterOperator": "And",
-    "UniqueHash": 967
+    "UniqueHash": 404
   }
 ]
 ```

@@ -76,16 +76,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 375,
-  "Value": "vero",
+  "TaskListItemId": 140,
+  "Value": "ipsa",
   "Direction": "Incoming",
   "Type": "Appointment",
   "Tooltip": "omnis",
   "Deleted": false,
-  "IntentId": 413,
-  "Rank": 307,
+  "IntentId": 36,
+  "Rank": 475,
   "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": true,
+  "IsDefaultFree": false,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
@@ -94,7 +94,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldLength": 612
     }
   }
 }

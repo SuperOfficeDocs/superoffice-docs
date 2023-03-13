@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 731,
-    "Name": "Marks-Sporer",
-    "ToolTip": "Doloremque odio natus sapiente repellat temporibus.",
-    "Deleted": true,
-    "Rank": 304,
-    "Type": "voluptate",
-    "ColorBlock": 588,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "2022-09-25T17:37:40.2124714+02:00",
+    "Id": 243,
+    "Name": "Monahan Inc and Sons",
+    "ToolTip": "Minus id quisquam libero fugit qui qui quam.",
+    "Deleted": false,
+    "Rank": 479,
+    "Type": "quo",
+    "ColorBlock": 671,
+    "IconHint": "natus",
+    "Selected": false,
+    "LastChanged": "2022-06-25T14:19:11.4149038+02:00",
     "ChildItems": [
       {
-        "Id": 110,
-        "Name": "Bechtelar Inc and Sons",
-        "ToolTip": "Quia doloribus inventore sit quia itaque tenetur reprehenderit.",
+        "Id": 846,
+        "Name": "Moen, Morissette and Grant",
+        "ToolTip": "Laudantium nesciunt sunt natus consequuntur.",
         "Deleted": true,
-        "Rank": 358,
-        "Type": "ut",
-        "ColorBlock": 247,
-        "IconHint": "quidem",
-        "Selected": true,
-        "LastChanged": "2022-12-03T17:37:40.2135056+01:00",
+        "Rank": 968,
+        "Type": "nihil",
+        "ColorBlock": 152,
+        "IconHint": "molestias",
+        "Selected": false,
+        "LastChanged": "2021-02-03T14:19:11.4149038+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Mr. Deja Frederick Bernier DDS"
+        "ExtraInfo": "qui",
+        "StyleHint": "odit",
+        "Hidden": true,
+        "FullName": "Elyssa Braun"
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "tenetur",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "repellendus",
     "Hidden": false,
-    "FullName": "Prof. Madison Ziemann Sr."
+    "FullName": "Marlin Kulas"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 838,
-    "Name": "Connelly-Corwin",
-    "ToolTip": "Eum sunt qui aut laborum blanditiis quisquam id.",
-    "Deleted": false,
-    "Rank": 347,
-    "Type": "facere",
-    "ColorBlock": 610,
-    "IconHint": "molestias",
+    "Id": 718,
+    "Name": "Bahringer-Kshlerin",
+    "ToolTip": "Aut sit voluptas.",
+    "Deleted": true,
+    "Rank": 752,
+    "Type": "molestiae",
+    "ColorBlock": 618,
+    "IconHint": "blanditiis",
     "Selected": false,
-    "LastChanged": "1997-10-18T17:37:40.2155005+02:00",
+    "LastChanged": "2003-08-16T14:19:11.4149038+02:00",
     "ChildItems": [
       {
-        "Id": 889,
-        "Name": "Keeling Inc and Sons",
-        "ToolTip": "Eos animi magnam.",
+        "Id": 541,
+        "Name": "Hand-Gibson",
+        "ToolTip": "Laborum consectetur et est.",
         "Deleted": false,
-        "Rank": 931,
-        "Type": "qui",
-        "ColorBlock": 593,
-        "IconHint": "eum",
+        "Rank": 946,
+        "Type": "voluptate",
+        "ColorBlock": 172,
+        "IconHint": "harum",
         "Selected": false,
-        "LastChanged": "2001-06-18T17:37:40.2155005+02:00",
+        "LastChanged": "2010-11-27T14:19:11.4149038+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Mr. Arnold Jude Kessler",
+        "ExtraInfo": "minima",
+        "StyleHint": "nihil",
+        "Hidden": true,
+        "FullName": "Mrs. Deven Theodore Turcotte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 612
+            "FieldLength": 817
           }
         }
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "accusantium",
+    "ExtraInfo": "qui",
+    "StyleHint": "magni",
     "Hidden": false,
-    "FullName": "Blair Kessler",
+    "FullName": "Enid Bergstrom",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 566
+        "FieldLength": 737
       }
     }
   }

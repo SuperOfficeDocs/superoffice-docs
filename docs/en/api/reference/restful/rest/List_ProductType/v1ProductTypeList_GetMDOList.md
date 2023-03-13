@@ -26,7 +26,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=velit
+GET /api/v1/List/ProductType/MDOItems?query=dolores
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 789,
-    "Name": "Mraz Group",
-    "ToolTip": "Autem et.",
+    "Id": 300,
+    "Name": "Bosco-Robel",
+    "ToolTip": "Voluptatem fugit consequatur aliquam dicta ut.",
     "Deleted": false,
-    "Rank": 207,
-    "Type": "ad",
+    "Rank": 337,
+    "Type": "dolores",
     "ChildItems": [
       {
-        "Id": 1001,
-        "Name": "Littel-Dare",
-        "ToolTip": "Quia et ad est.",
+        "Id": 634,
+        "Name": "Green LLC",
+        "ToolTip": "Molestiae itaque praesentium enim at.",
         "Deleted": false,
-        "Rank": 622,
-        "Type": "autem",
+        "Rank": 64,
+        "Type": "repudiandae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 329,
-        "ExtraInfo": "aut",
-        "StyleHint": "voluptas",
-        "FullName": "Dr. Brannon Cynthia Wolf",
+        "IconHint": "ea",
+        "ColorBlock": 157,
+        "ExtraInfo": "quidem",
+        "StyleHint": "dolore",
+        "FullName": "Stefanie Lehner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 523
+            "FieldLength": 497
           }
         }
       }
     ],
-    "IconHint": "eum",
-    "ColorBlock": 798,
-    "ExtraInfo": "et",
-    "StyleHint": "voluptatibus",
-    "FullName": "Prof. Marianna Kelley Emard",
+    "IconHint": "ipsum",
+    "ColorBlock": 75,
+    "ExtraInfo": "neque",
+    "StyleHint": "enim",
+    "FullName": "Jimmy Abbott",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 288
+        "FieldType": "System.String",
+        "FieldLength": 839
       }
     }
   }

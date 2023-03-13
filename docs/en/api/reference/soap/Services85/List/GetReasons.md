@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetReasons">Su
 
 ## GetReasons
 
-Returns all reasons
 
-**Returns:** Array of reasons
+
+
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetReasons Response
 
 ```xml
@@ -72,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.ICustomerServiceAgent.Cre
 
 ## CreateSession
 
-Creates a login session for a CS user
 
-* **remoteIp:** The ip of the client creating the session
 
-**Returns:** The session key information
+
 
 [WSDL file for Services84/CustomerService](../Services84-CustomerService.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateSession Response
 
 ```xml
@@ -73,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -246,6 +246,7 @@ title: Services88.TicketAgent WSDL
               <xs:element minOccurs="0" name="LastChanged" type="xs:dateTime" />
               <xs:element minOccurs="0" name="ReadByOwner" type="xs:dateTime" />
               <xs:element minOccurs="0" name="ReadByCustomer" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="FirstReadByOwner" type="xs:dateTime" />
               <xs:element minOccurs="0" name="FirstReadByUser" type="xs:dateTime" />
               <xs:element minOccurs="0" name="Activate" type="xs:dateTime" />
               <xs:element minOccurs="0" name="ClosedAt" type="xs:dateTime" />
@@ -289,6 +290,8 @@ title: Services88.TicketAgent WSDL
               <xs:element minOccurs="0" name="SuggestedCategoryName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="OrigHumanCategoryId" type="xs:int" />
               <xs:element minOccurs="0" name="IconHint" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Sale" nillable="true" type="tns:Sale" />
+              <xs:element minOccurs="0" name="Project" nillable="true" type="tns:Project" />
               <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />
             </xs:sequence>
@@ -347,6 +350,7 @@ title: Services88.TicketAgent WSDL
               <xs:element minOccurs="0" name="NotificationEmail" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="DefaultTicketStatus" nillable="true" type="tns:TicketStatusEntity" />
               <xs:element minOccurs="0" name="DefaultMessageStatus" nillable="true" type="tns:TicketStatusEntity" />
+              <xs:element minOccurs="0" name="EffectiveReplyTemplateId" type="xs:int" />
               <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />
             </xs:sequence>
@@ -775,6 +779,7 @@ title: Services88.TicketAgent WSDL
               <xs:element minOccurs="0" name="Sentiment" type="xs:int" />
               <xs:element minOccurs="0" name="SentimentConfidence" type="xs:int" />
               <xs:element minOccurs="0" name="CreatedBy" type="xs:int" />
+              <xs:element minOccurs="0" name="ChangedAt" type="xs:dateTime" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -790,6 +795,7 @@ title: Services88.TicketAgent WSDL
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
             <xs:sequence>
+              <xs:element minOccurs="0" name="Id" type="xs:int" />
               <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="StdItem" type="tns:MessageHeaderStdItem" />
@@ -838,6 +844,98 @@ title: Services88.TicketAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="Tag" nillable="true" type="tns:Tag" />
+      <xs:complexType name="Sale">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ContactName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="SaleDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="SaleId" type="xs:int" />
+              <xs:element minOccurs="0" name="Probability" type="xs:short" />
+              <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Amount" type="xs:double" />
+              <xs:element minOccurs="0" name="Currency" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ProjectName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="AssociateFullName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Status" type="tns:SaleStatus" />
+              <xs:element minOccurs="0" name="WeightedAmount" type="xs:double" />
+              <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
+              <xs:element minOccurs="0" name="EarningPercent" type="xs:double" />
+              <xs:element minOccurs="0" name="Earning" type="xs:double" />
+              <xs:element minOccurs="0" name="ContactId" type="xs:int" />
+              <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
+              <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+              <xs:element minOccurs="0" name="SaleTypeId" type="xs:int" />
+              <xs:element minOccurs="0" name="SaleTypeName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="PersonFullName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Completed" type="tns:ActivityStatus" />
+              <xs:element minOccurs="0" name="ActiveErpLinks" type="xs:int" />
+              <xs:element minOccurs="0" name="NextDueDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Number" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="Sale" nillable="true" type="tns:Sale" />
+      <xs:simpleType name="SaleStatus">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Unknown" />
+          <xs:enumeration value="Open" />
+          <xs:enumeration value="Sold" />
+          <xs:enumeration value="Lost" />
+          <xs:enumeration value="Stalled" />
+          <xs:enumeration value="SaintAll">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1000</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="SaleStatus" nillable="true" type="tns:SaleStatus" />
+      <xs:simpleType name="ActivityStatus">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Unknown" />
+          <xs:enumeration value="NotStarted" />
+          <xs:enumeration value="Started" />
+          <xs:enumeration value="Completed" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="ActivityStatus" nillable="true" type="tns:ActivityStatus" />
+      <xs:complexType name="Project">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="URL" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
+              <xs:element minOccurs="0" name="AssociateFullName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="TypeId" type="xs:int" />
+              <xs:element minOccurs="0" name="Updated" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="StatusId" type="xs:int" />
+              <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="TextId" type="xs:int" />
+              <xs:element minOccurs="0" name="PublishTo" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="PublishFrom" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="IsPublished" type="xs:boolean" />
+              <xs:element minOccurs="0" name="URLName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ProjectNumber" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ActiveErpLinks" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="Project" nillable="true" type="tns:Project" />
       <xs:element name="SaveTicketEntity">
         <xs:complexType>
           <xs:sequence>
@@ -890,6 +988,7 @@ title: Services88.TicketAgent WSDL
               <xs:element minOccurs="0" name="Language" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Sentiment" type="xs:int" />
               <xs:element minOccurs="0" name="SentimentConfidence" type="xs:int" />
+              <xs:element minOccurs="0" name="AttachmentsInfo" nillable="true" type="tns:ArrayOfAttachmentEntity" />
               <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />
             </xs:sequence>
@@ -956,6 +1055,10 @@ title: Services88.TicketAgent WSDL
               <xs:element minOccurs="0" name="Language" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Sentiment" type="xs:int" />
               <xs:element minOccurs="0" name="SentimentConfidence" type="xs:int" />
+              <xs:element minOccurs="0" name="SaleId" type="xs:int" />
+              <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
+              <xs:element minOccurs="0" name="SaleHeading" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ProjectName" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -987,6 +1090,12 @@ title: Services88.TicketAgent WSDL
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="TicketMessageCategory" nillable="true" type="tns:TicketMessageCategory" />
+      <xs:complexType name="ArrayOfAttachmentEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="AttachmentEntity" nillable="true" type="tns:AttachmentEntity" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfAttachmentEntity" nillable="true" type="tns:ArrayOfAttachmentEntity" />
       <xs:element name="SaveTicketMessageEntity">
         <xs:complexType>
           <xs:sequence>
@@ -1154,12 +1263,34 @@ title: Services88.TicketAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:complexType name="ArrayOfAttachmentEntity">
+      <xs:element name="ValidateAttachments">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q3:ArrayOfint" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ValidateAttachmentsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfAttachmentValidationResult" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfAttachmentValidationResult">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="AttachmentEntity" nillable="true" type="tns:AttachmentEntity" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="AttachmentValidationResult" nillable="true" type="tns:AttachmentValidationResult" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfAttachmentEntity" nillable="true" type="tns:ArrayOfAttachmentEntity" />
+      <xs:element name="ArrayOfAttachmentValidationResult" nillable="true" type="tns:ArrayOfAttachmentValidationResult" />
+      <xs:complexType name="AttachmentValidationResult">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AttachmentId" type="xs:int" />
+          <xs:element minOccurs="0" name="IsValid" type="xs:boolean" />
+          <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="AttachmentValidationResult" nillable="true" type="tns:AttachmentValidationResult" />
       <xs:element name="SetTicketReadByOwner">
         <xs:complexType>
           <xs:sequence>
@@ -1203,6 +1334,244 @@ title: Services88.TicketAgent WSDL
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="tns:TicketEntity" />
           </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SplitTicket">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SourceTicketEntityId" type="xs:int" />
+            <xs:element minOccurs="0" name="TransferMessageIds" nillable="true" type="q4:ArrayOfint" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="NewTicketEntity" nillable="true" type="tns:TicketEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SplitTicketResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:TicketEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SplitTicketMessage">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SourceTicketMessage" nillable="true" type="tns:TicketMessageEntity" />
+            <xs:element minOccurs="0" name="NewTicketEntity" nillable="true" type="tns:TicketEntity" />
+            <xs:element minOccurs="0" name="NewTicketMessage" nillable="true" type="tns:TicketMessageEntity" />
+            <xs:element minOccurs="0" name="TransferAttachmentsIds" nillable="true" type="q5:ArrayOfint" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SplitTicketMessageResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:TicketEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="UpdateTicketsReadStatus">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TicketIds" nillable="true" type="q6:ArrayOfint" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="NewStatus" type="tns:TicketReadStatus" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="UpdateTicketsReadStatusResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q7:ArrayOfint" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="UpdateTicketsReadStatusByProvider">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Provider" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Restrictions" nillable="true" type="tns:ArrayOfArchiveRestrictionInfo" />
+            <xs:element minOccurs="0" name="NewStatus" type="tns:TicketReadStatus" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfArchiveRestrictionInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ArchiveRestrictionInfo" nillable="true" type="tns:ArchiveRestrictionInfo" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfArchiveRestrictionInfo" nillable="true" type="tns:ArrayOfArchiveRestrictionInfo" />
+      <xs:complexType name="ArchiveRestrictionInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Operator" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Values" nillable="true" type="q8:ArrayOfstring" xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="DisplayValues" nillable="true" type="q9:ArrayOfstring" xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="ColumnInfo" nillable="true" type="tns:ArchiveColumnInfo" />
+          <xs:element minOccurs="0" name="IsActive" type="xs:boolean" />
+          <xs:element minOccurs="0" name="SubRestrictions" nillable="true" type="tns:ArrayOfArchiveRestrictionInfo" />
+          <xs:element minOccurs="0" name="InterParenthesis" type="xs:int" />
+          <xs:element minOccurs="0" name="InterOperator" type="tns:InterRestrictionOperator" />
+          <xs:element minOccurs="0" name="UniqueHash" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArchiveRestrictionInfo" nillable="true" type="tns:ArchiveRestrictionInfo" />
+      <xs:complexType name="ArchiveColumnInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="DisplayName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DisplayTooltip" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DisplayType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CanOrderBy" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CanRestrictBy" type="xs:boolean" />
+          <xs:element minOccurs="0" name="RestrictionType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="RestrictionListName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IsVisible" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Width" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IconHint" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="HeadingIconHint" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ExtraInfo" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArchiveColumnInfo" nillable="true" type="tns:ArchiveColumnInfo" />
+      <xs:simpleType name="InterRestrictionOperator">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="None" />
+          <xs:enumeration value="And" />
+          <xs:enumeration value="Or" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="InterRestrictionOperator" nillable="true" type="tns:InterRestrictionOperator" />
+      <xs:element name="UpdateTicketsReadStatusByProviderResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q10:ArrayOfint" xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="MergeTickets">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="MergedTicketEntity" nillable="true" type="tns:TicketEntity" />
+            <xs:element minOccurs="0" name="SecondaryTicketIds" nillable="true" type="q11:ArrayOfint" xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="MergeTicketsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:TicketEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetDeletedStatusByIds">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TicketIds" nillable="true" type="q12:ArrayOfint" xmlns:q12="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetDeletedStatusByIdsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q13:ArrayOfint" xmlns:q13="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetDeletedStatusByProvider">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ProviderName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Restrictions" nillable="true" type="tns:ArrayOfArchiveRestrictionInfo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetDeletedStatusByProviderResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q14:ArrayOfint" xmlns:q14="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="UndeleteByIds">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TicketIds" nillable="true" type="q15:ArrayOfint" xmlns:q15="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="UndeleteByIdsResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ResolveTicketId">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TicketId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ResolveTicketIdResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="BatchForward">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TicketIds" nillable="true" type="q16:ArrayOfint" xmlns:q16="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="To" nillable="true" type="q17:ArrayOfstring" xmlns:q17="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Cc" nillable="true" type="q18:ArrayOfstring" xmlns:q18="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Bcc" nillable="true" type="q19:ArrayOfstring" xmlns:q19="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Comment" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="CloseTicket" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="BatchForwardResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="BatchReply">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="BatchReplyData" nillable="true" type="tns:TicketBatchReplyData" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="TicketBatchReplyData">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="TicketIds" nillable="true" type="q20:ArrayOfint" xmlns:q20="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="CloseTickets" type="xs:boolean" />
+          <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q21:ArrayOfint" xmlns:q21="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="HtmlBody" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Slevel" type="tns:TicketSecurityLevel" />
+          <xs:element minOccurs="0" name="TimeSpent" type="xs:int" />
+          <xs:element minOccurs="0" name="SendCopyToCustomer" type="xs:boolean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="TicketBatchReplyData" nillable="true" type="tns:TicketBatchReplyData" />
+      <xs:element name="BatchReplyResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ClearNotify">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Ids" nillable="true" type="q22:ArrayOfint" xmlns:q22="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ClearNotifyResponse">
+        <xs:complexType>
+          <xs:sequence />
         </xs:complexType>
       </xs:element>
       <xs:element name="GetTicketMessage">
@@ -1262,14 +1631,14 @@ title: Services88.TicketAgent WSDL
       <xs:element name="SanitizeMailContents">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Contents" nillable="true" type="q3:ArrayOfstring" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Contents" nillable="true" type="q23:ArrayOfstring" xmlns:q23="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SanitizeMailContentsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q4:ArrayOfstring" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q24:ArrayOfstring" xmlns:q24="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1319,11 +1688,24 @@ title: Services88.TicketAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="TicketMessageEntityId" type="xs:int" />
-            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q5:ArrayOfint" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q25:ArrayOfint" xmlns:q25="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="AddAttachmentsResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RemoveMessageAttachments">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TicketMessageEntityId" type="xs:int" />
+            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q26:ArrayOfint" xmlns:q26="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RemoveMessageAttachmentsResponse">
         <xs:complexType>
           <xs:sequence />
         </xs:complexType>
@@ -1359,9 +1741,9 @@ title: Services88.TicketAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="TicketMessageEntityId" type="xs:int" />
-            <xs:element minOccurs="0" name="To" nillable="true" type="q6:ArrayOfstring" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-            <xs:element minOccurs="0" name="Cc" nillable="true" type="q7:ArrayOfstring" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-            <xs:element minOccurs="0" name="Bcc" nillable="true" type="q8:ArrayOfstring" xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="To" nillable="true" type="q27:ArrayOfstring" xmlns:q27="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Cc" nillable="true" type="q28:ArrayOfstring" xmlns:q28="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Bcc" nillable="true" type="q29:ArrayOfstring" xmlns:q29="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="Subject" nillable="true" type="xs:string" />
             <xs:element minOccurs="0" name="ReplyTemplateId" type="xs:int" />
             <xs:element minOccurs="0" name="GdprSource" nillable="true" type="xs:string" />
@@ -1378,7 +1760,7 @@ title: Services88.TicketAgent WSDL
           <xs:sequence>
             <xs:element minOccurs="0" name="TicketMessageEntityId" type="xs:int" />
             <xs:element minOccurs="0" name="ReplyTemplateId" type="xs:int" />
-            <xs:element minOccurs="0" name="Sms" nillable="true" type="q9:ArrayOfstring" xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Sms" nillable="true" type="q30:ArrayOfstring" xmlns:q30="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1469,6 +1851,22 @@ title: Services88.TicketAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="SaveTicketMessageEntityWithOptions">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Entity" nillable="true" type="tns:TicketMessageEntity" />
+            <xs:element minOccurs="0" name="Notify" type="xs:boolean" />
+            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q31:ArrayOfint" xmlns:q31="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveTicketMessageEntityWithOptionsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:TicketMessageEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetDefaultMessageContent">
         <xs:complexType>
           <xs:sequence>
@@ -1507,10 +1905,37 @@ title: Services88.TicketAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="DeleteMessageHeaders">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="HeaderIds" nillable="true" type="q32:ArrayOfint" xmlns:q32="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteMessageHeadersResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetTicketMessageWithOptions">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TicketMessageEntityId" type="xs:int" />
+            <xs:element minOccurs="0" name="IncludeNonInlineAttachmentsInfo" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetTicketMessageWithOptionsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:TicketMessageEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetTicketSummaries">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="TicketIds" nillable="true" type="q10:ArrayOfint" xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="TicketIds" nillable="true" type="q33:ArrayOfint" xmlns:q33="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1889,6 +2314,23 @@ title: Services88.TicketAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="ValidateAttachmentsRequest">
+    <wsdl:part name="parameters" element="tns:ValidateAttachments" />
+  </wsdl:message>
+  <wsdl:message name="ValidateAttachmentsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ValidateAttachmentsResponse">
+    <wsdl:part name="parameters" element="tns:ValidateAttachmentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValidateAttachmentsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="SetTicketReadByOwnerRequest">
     <wsdl:part name="parameters" element="tns:SetTicketReadByOwner" />
   </wsdl:message>
@@ -1935,6 +2377,210 @@ title: Services88.TicketAgent WSDL
     <wsdl:part name="parameters" element="tns:ProcessTicketWhenReadResponse" />
   </wsdl:message>
   <wsdl:message name="ProcessTicketWhenReadResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SplitTicketRequest">
+    <wsdl:part name="parameters" element="tns:SplitTicket" />
+  </wsdl:message>
+  <wsdl:message name="SplitTicketRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SplitTicketResponse">
+    <wsdl:part name="parameters" element="tns:SplitTicketResponse" />
+  </wsdl:message>
+  <wsdl:message name="SplitTicketResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SplitTicketMessageRequest">
+    <wsdl:part name="parameters" element="tns:SplitTicketMessage" />
+  </wsdl:message>
+  <wsdl:message name="SplitTicketMessageRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SplitTicketMessageResponse">
+    <wsdl:part name="parameters" element="tns:SplitTicketMessageResponse" />
+  </wsdl:message>
+  <wsdl:message name="SplitTicketMessageResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="UpdateTicketsReadStatusRequest">
+    <wsdl:part name="parameters" element="tns:UpdateTicketsReadStatus" />
+  </wsdl:message>
+  <wsdl:message name="UpdateTicketsReadStatusRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="UpdateTicketsReadStatusResponse">
+    <wsdl:part name="parameters" element="tns:UpdateTicketsReadStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateTicketsReadStatusResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="UpdateTicketsReadStatusByProviderRequest">
+    <wsdl:part name="parameters" element="tns:UpdateTicketsReadStatusByProvider" />
+  </wsdl:message>
+  <wsdl:message name="UpdateTicketsReadStatusByProviderRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="UpdateTicketsReadStatusByProviderResponse">
+    <wsdl:part name="parameters" element="tns:UpdateTicketsReadStatusByProviderResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateTicketsReadStatusByProviderResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="MergeTicketsRequest">
+    <wsdl:part name="parameters" element="tns:MergeTickets" />
+  </wsdl:message>
+  <wsdl:message name="MergeTicketsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="MergeTicketsResponse">
+    <wsdl:part name="parameters" element="tns:MergeTicketsResponse" />
+  </wsdl:message>
+  <wsdl:message name="MergeTicketsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetDeletedStatusByIdsRequest">
+    <wsdl:part name="parameters" element="tns:SetDeletedStatusByIds" />
+  </wsdl:message>
+  <wsdl:message name="SetDeletedStatusByIdsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetDeletedStatusByIdsResponse">
+    <wsdl:part name="parameters" element="tns:SetDeletedStatusByIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetDeletedStatusByIdsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetDeletedStatusByProviderRequest">
+    <wsdl:part name="parameters" element="tns:SetDeletedStatusByProvider" />
+  </wsdl:message>
+  <wsdl:message name="SetDeletedStatusByProviderRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetDeletedStatusByProviderResponse">
+    <wsdl:part name="parameters" element="tns:SetDeletedStatusByProviderResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetDeletedStatusByProviderResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="UndeleteByIdsRequest">
+    <wsdl:part name="parameters" element="tns:UndeleteByIds" />
+  </wsdl:message>
+  <wsdl:message name="UndeleteByIdsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="UndeleteByIdsResponse">
+    <wsdl:part name="parameters" element="tns:UndeleteByIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="UndeleteByIdsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ResolveTicketIdRequest">
+    <wsdl:part name="parameters" element="tns:ResolveTicketId" />
+  </wsdl:message>
+  <wsdl:message name="ResolveTicketIdRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ResolveTicketIdResponse">
+    <wsdl:part name="parameters" element="tns:ResolveTicketIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ResolveTicketIdResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="BatchForwardRequest">
+    <wsdl:part name="parameters" element="tns:BatchForward" />
+  </wsdl:message>
+  <wsdl:message name="BatchForwardRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="BatchForwardResponse">
+    <wsdl:part name="parameters" element="tns:BatchForwardResponse" />
+  </wsdl:message>
+  <wsdl:message name="BatchForwardResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="BatchReplyRequest">
+    <wsdl:part name="parameters" element="tns:BatchReply" />
+  </wsdl:message>
+  <wsdl:message name="BatchReplyRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="BatchReplyResponse">
+    <wsdl:part name="parameters" element="tns:BatchReplyResponse" />
+  </wsdl:message>
+  <wsdl:message name="BatchReplyResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ClearNotifyRequest">
+    <wsdl:part name="parameters" element="tns:ClearNotify" />
+  </wsdl:message>
+  <wsdl:message name="ClearNotifyRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ClearNotifyResponse">
+    <wsdl:part name="parameters" element="tns:ClearNotifyResponse" />
+  </wsdl:message>
+  <wsdl:message name="ClearNotifyResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -2093,6 +2739,23 @@ title: Services88.TicketAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="RemoveMessageAttachmentsRequest">
+    <wsdl:part name="parameters" element="tns:RemoveMessageAttachments" />
+  </wsdl:message>
+  <wsdl:message name="RemoveMessageAttachmentsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="RemoveMessageAttachmentsResponse">
+    <wsdl:part name="parameters" element="tns:RemoveMessageAttachmentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="RemoveMessageAttachmentsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetPreviewAttachmentStreamRequest">
     <wsdl:part name="parameters" element="tns:GetPreviewAttachmentStream" />
   </wsdl:message>
@@ -2195,6 +2858,23 @@ title: Services88.TicketAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="SaveTicketMessageEntityWithOptionsRequest">
+    <wsdl:part name="parameters" element="tns:SaveTicketMessageEntityWithOptions" />
+  </wsdl:message>
+  <wsdl:message name="SaveTicketMessageEntityWithOptionsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveTicketMessageEntityWithOptionsResponse">
+    <wsdl:part name="parameters" element="tns:SaveTicketMessageEntityWithOptionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveTicketMessageEntityWithOptionsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetDefaultMessageContentRequest">
     <wsdl:part name="parameters" element="tns:GetDefaultMessageContent" />
   </wsdl:message>
@@ -2229,6 +2909,40 @@ title: Services88.TicketAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="DeleteMessageHeadersRequest">
+    <wsdl:part name="parameters" element="tns:DeleteMessageHeaders" />
+  </wsdl:message>
+  <wsdl:message name="DeleteMessageHeadersRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteMessageHeadersResponse">
+    <wsdl:part name="parameters" element="tns:DeleteMessageHeadersResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteMessageHeadersResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketMessageWithOptionsRequest">
+    <wsdl:part name="parameters" element="tns:GetTicketMessageWithOptions" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketMessageWithOptionsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketMessageWithOptionsResponse">
+    <wsdl:part name="parameters" element="tns:GetTicketMessageWithOptionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketMessageWithOptionsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetTicketSummariesRequest">
     <wsdl:part name="parameters" element="tns:GetTicketSummaries" />
   </wsdl:message>
@@ -2247,272 +2961,223 @@ title: Services88.TicketAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Ticket">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Ticket</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultAttachmentEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new AttachmentEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CreateDefaultAttachmentEntity" name="CreateDefaultAttachmentEntityRequest" message="tns:CreateDefaultAttachmentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CreateDefaultAttachmentEntityResponse" name="CreateDefaultAttachmentEntityResponse" message="tns:CreateDefaultAttachmentEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveAttachmentEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing AttachmentEntity or creates a new AttachmentEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SaveAttachmentEntity" name="SaveAttachmentEntityRequest" message="tns:SaveAttachmentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SaveAttachmentEntityResponse" name="SaveAttachmentEntityResponse" message="tns:SaveAttachmentEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultTicketEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new TicketEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CreateDefaultTicketEntity" name="CreateDefaultTicketEntityRequest" message="tns:CreateDefaultTicketEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CreateDefaultTicketEntityResponse" name="CreateDefaultTicketEntityResponse" message="tns:CreateDefaultTicketEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveTicketEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing TicketEntity or creates a new TicketEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SaveTicketEntity" name="SaveTicketEntityRequest" message="tns:SaveTicketEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SaveTicketEntityResponse" name="SaveTicketEntityResponse" message="tns:SaveTicketEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultTicketMessageEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new TicketMessageEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CreateDefaultTicketMessageEntity" name="CreateDefaultTicketMessageEntityRequest" message="tns:CreateDefaultTicketMessageEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CreateDefaultTicketMessageEntityResponse" name="CreateDefaultTicketMessageEntityResponse" message="tns:CreateDefaultTicketMessageEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveTicketMessageEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing TicketMessageEntity or creates a new TicketMessageEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SaveTicketMessageEntity" name="SaveTicketMessageEntityRequest" message="tns:SaveTicketMessageEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SaveTicketMessageEntityResponse" name="SaveTicketMessageEntityResponse" message="tns:SaveTicketMessageEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAttachmentEntity">
-      <wsdl:documentation>
-        <summary>Gets a AttachmentEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetAttachmentEntity" name="GetAttachmentEntityRequest" message="tns:GetAttachmentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetAttachmentEntityResponse" name="GetAttachmentEntityResponse" message="tns:GetAttachmentEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="UploadAttachment">
-      <wsdl:documentation>
-        <summary>Upload an attachment and return the attachment id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/UploadAttachment" name="UploadAttachmentRequest" message="tns:UploadAttachmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/UploadAttachmentResponse" name="UploadAttachmentResponse" message="tns:UploadAttachmentResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAttachmentStream">
-      <wsdl:documentation>
-        <summary>Get the content of an attachment</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetAttachmentStream" name="GetAttachmentStreamRequest" message="tns:GetAttachmentStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetAttachmentStreamResponse" name="GetAttachmentStreamResponse" message="tns:GetAttachmentStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTicket">
-      <wsdl:documentation>
-        <summary>Gets a Ticket object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicket" name="GetTicketRequest" message="tns:GetTicketRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketResponse" name="GetTicketResponse" message="tns:GetTicketResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTickets">
-      <wsdl:documentation>
-        <summary>Get multiple tickets</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTickets" name="GetTicketsRequest" message="tns:GetTicketsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketsResponse" name="GetTicketsResponse" message="tns:GetTicketsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTicketEntity">
-      <wsdl:documentation>
-        <summary>Gets a TicketEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketEntity" name="GetTicketEntityRequest" message="tns:GetTicketEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketEntityResponse" name="GetTicketEntityResponse" message="tns:GetTicketEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetForRmUi">
-      <wsdl:documentation>
-        <summary>Get a ticket entity, adapted to the specific needs of the Request Management UI. WARNING: This endpoint is not guaranteed to be stable/compatible between versions</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetForRmUi" name="GetForRmUiRequest" message="tns:GetForRmUiRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetForRmUiResponse" name="GetForRmUiResponse" message="tns:GetForRmUiResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteTicketEntity">
-      <wsdl:documentation>
-        <summary>Delete a ticket</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/DeleteTicketEntity" name="DeleteTicketEntityRequest" message="tns:DeleteTicketEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/DeleteTicketEntityResponse" name="DeleteTicketEntityResponse" message="tns:DeleteTicketEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="NotifyNewTicket">
-      <wsdl:documentation>
-        <summary>Notify user agents about the creation of a new ticket</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/NotifyNewTicket" name="NotifyNewTicketRequest" message="tns:NotifyNewTicketRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/NotifyNewTicketResponse" name="NotifyNewTicketResponse" message="tns:NotifyNewTicketResponse" />
     </wsdl:operation>
     <wsdl:operation name="NotifyNewTicketMessage">
-      <wsdl:documentation>
-        <summary>Notify user agents about the creation of a new message on a ticket</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/NotifyNewTicketMessage" name="NotifyNewTicketMessageRequest" message="tns:NotifyNewTicketMessageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/NotifyNewTicketMessageResponse" name="NotifyNewTicketMessageResponse" message="tns:NotifyNewTicketMessageResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTicketAttachments">
-      <wsdl:documentation>
-        <summary>Get attachment infos for all attachments connected to messages in specified ticket</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketAttachments" name="GetTicketAttachmentsRequest" message="tns:GetTicketAttachmentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketAttachmentsResponse" name="GetTicketAttachmentsResponse" message="tns:GetTicketAttachmentsResponse" />
     </wsdl:operation>
+    <wsdl:operation name="ValidateAttachments">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/ValidateAttachments" name="ValidateAttachmentsRequest" message="tns:ValidateAttachmentsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/ValidateAttachmentsResponse" name="ValidateAttachmentsResponse" message="tns:ValidateAttachmentsResponse" />
+    </wsdl:operation>
     <wsdl:operation name="SetTicketReadByOwner">
-      <wsdl:documentation>
-        <summary>Set the ReadByOwner status for a ticket. It will only have an effect if the calling user is the same as the owner of the ticket</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SetTicketReadByOwner" name="SetTicketReadByOwnerRequest" message="tns:SetTicketReadByOwnerRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SetTicketReadByOwnerResponse" name="SetTicketReadByOwnerResponse" message="tns:SetTicketReadByOwnerResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveTicketEntityWithNotify">
-      <wsdl:documentation>
-        <summary>Saves a ticket and performs any user notifications</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SaveTicketEntityWithNotify" name="SaveTicketEntityWithNotifyRequest" message="tns:SaveTicketEntityWithNotifyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SaveTicketEntityWithNotifyResponse" name="SaveTicketEntityWithNotifyResponse" message="tns:SaveTicketEntityWithNotifyResponse" />
     </wsdl:operation>
     <wsdl:operation name="ProcessTicketWhenRead">
-      <wsdl:documentation>
-        <summary>When a user view/read a ticket, a number of action should be performed: set read status, escalation handling, remove notifications, etc. Which actions will be performed depends on owner, caller and configuration</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/ProcessTicketWhenRead" name="ProcessTicketWhenReadRequest" message="tns:ProcessTicketWhenReadRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/ProcessTicketWhenReadResponse" name="ProcessTicketWhenReadResponse" message="tns:ProcessTicketWhenReadResponse" />
     </wsdl:operation>
+    <wsdl:operation name="SplitTicket">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SplitTicket" name="SplitTicketRequest" message="tns:SplitTicketRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SplitTicketResponse" name="SplitTicketResponse" message="tns:SplitTicketResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SplitTicketMessage">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SplitTicketMessage" name="SplitTicketMessageRequest" message="tns:SplitTicketMessageRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SplitTicketMessageResponse" name="SplitTicketMessageResponse" message="tns:SplitTicketMessageResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTicketsReadStatus">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/UpdateTicketsReadStatus" name="UpdateTicketsReadStatusRequest" message="tns:UpdateTicketsReadStatusRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/UpdateTicketsReadStatusResponse" name="UpdateTicketsReadStatusResponse" message="tns:UpdateTicketsReadStatusResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTicketsReadStatusByProvider">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/UpdateTicketsReadStatusByProvider" name="UpdateTicketsReadStatusByProviderRequest" message="tns:UpdateTicketsReadStatusByProviderRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/UpdateTicketsReadStatusByProviderResponse" name="UpdateTicketsReadStatusByProviderResponse" message="tns:UpdateTicketsReadStatusByProviderResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="MergeTickets">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/MergeTickets" name="MergeTicketsRequest" message="tns:MergeTicketsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/MergeTicketsResponse" name="MergeTicketsResponse" message="tns:MergeTicketsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SetDeletedStatusByIds">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SetDeletedStatusByIds" name="SetDeletedStatusByIdsRequest" message="tns:SetDeletedStatusByIdsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SetDeletedStatusByIdsResponse" name="SetDeletedStatusByIdsResponse" message="tns:SetDeletedStatusByIdsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SetDeletedStatusByProvider">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SetDeletedStatusByProvider" name="SetDeletedStatusByProviderRequest" message="tns:SetDeletedStatusByProviderRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SetDeletedStatusByProviderResponse" name="SetDeletedStatusByProviderResponse" message="tns:SetDeletedStatusByProviderResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="UndeleteByIds">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/UndeleteByIds" name="UndeleteByIdsRequest" message="tns:UndeleteByIdsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/UndeleteByIdsResponse" name="UndeleteByIdsResponse" message="tns:UndeleteByIdsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ResolveTicketId">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/ResolveTicketId" name="ResolveTicketIdRequest" message="tns:ResolveTicketIdRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/ResolveTicketIdResponse" name="ResolveTicketIdResponse" message="tns:ResolveTicketIdResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="BatchForward">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/BatchForward" name="BatchForwardRequest" message="tns:BatchForwardRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/BatchForwardResponse" name="BatchForwardResponse" message="tns:BatchForwardResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="BatchReply">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/BatchReply" name="BatchReplyRequest" message="tns:BatchReplyRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/BatchReplyResponse" name="BatchReplyResponse" message="tns:BatchReplyResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ClearNotify">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/ClearNotify" name="ClearNotifyRequest" message="tns:ClearNotifyRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/ClearNotifyResponse" name="ClearNotifyResponse" message="tns:ClearNotifyResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetTicketMessage">
-      <wsdl:documentation>
-        <summary>Gets a TicketMessage object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketMessage" name="GetTicketMessageRequest" message="tns:GetTicketMessageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketMessageResponse" name="GetTicketMessageResponse" message="tns:GetTicketMessageResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTicketMessageEntity">
-      <wsdl:documentation>
-        <summary>Gets a TicketMessageEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketMessageEntity" name="GetTicketMessageEntityRequest" message="tns:GetTicketMessageEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketMessageEntityResponse" name="GetTicketMessageEntityResponse" message="tns:GetTicketMessageEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteTicketMessageEntity">
-      <wsdl:documentation>
-        <summary>Delete a ticket message</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/DeleteTicketMessageEntity" name="DeleteTicketMessageEntityRequest" message="tns:DeleteTicketMessageEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/DeleteTicketMessageEntityResponse" name="DeleteTicketMessageEntityResponse" message="tns:DeleteTicketMessageEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SanitizeMailContent">
-      <wsdl:documentation>
-        <summary>Remove harmful HTML tags and attributes from an email</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SanitizeMailContent" name="SanitizeMailContentRequest" message="tns:SanitizeMailContentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SanitizeMailContentResponse" name="SanitizeMailContentResponse" message="tns:SanitizeMailContentResponse" />
     </wsdl:operation>
     <wsdl:operation name="SanitizeMailContents">
-      <wsdl:documentation>
-        <summary>Remove harmful HTML tags and attributes from an email</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SanitizeMailContents" name="SanitizeMailContentsRequest" message="tns:SanitizeMailContentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SanitizeMailContentsResponse" name="SanitizeMailContentsResponse" message="tns:SanitizeMailContentsResponse" />
     </wsdl:operation>
     <wsdl:operation name="Html2Text">
-      <wsdl:documentation>
-        <summary>Create a plain text version of the html, suitable for email</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/Html2Text" name="Html2TextRequest" message="tns:Html2TextRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/Html2TextResponse" name="Html2TextResponse" message="tns:Html2TextResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAttachmentInfo">
-      <wsdl:documentation>
-        <summary>Get a list with meta data for all attached attachments</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetAttachmentInfo" name="GetAttachmentInfoRequest" message="tns:GetAttachmentInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetAttachmentInfoResponse" name="GetAttachmentInfoResponse" message="tns:GetAttachmentInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAttachmentInfoNonInline">
-      <wsdl:documentation>
-        <summary>Get a list with meta data for all attached attachments, EXCEPT those marked as inline</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetAttachmentInfoNonInline" name="GetAttachmentInfoNonInlineRequest" message="tns:GetAttachmentInfoNonInlineRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetAttachmentInfoNonInlineResponse" name="GetAttachmentInfoNonInlineResponse" message="tns:GetAttachmentInfoNonInlineResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddAttachments">
-      <wsdl:documentation>
-        <summary>Connect existing attachments with this TicketMessage. Can connect multiple attachments</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/AddAttachments" name="AddAttachmentsRequest" message="tns:AddAttachmentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/AddAttachmentsResponse" name="AddAttachmentsResponse" message="tns:AddAttachmentsResponse" />
     </wsdl:operation>
+    <wsdl:operation name="RemoveMessageAttachments">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/RemoveMessageAttachments" name="RemoveMessageAttachmentsRequest" message="tns:RemoveMessageAttachmentsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/RemoveMessageAttachmentsResponse" name="RemoveMessageAttachmentsResponse" message="tns:RemoveMessageAttachmentsResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetPreviewAttachmentStream">
-      <wsdl:documentation>
-        <summary>Retrieve an attachment from ticket message. The returned data is intended to be used for a preview. The returned data is sanitized.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetPreviewAttachmentStream" name="GetPreviewAttachmentStreamRequest" message="tns:GetPreviewAttachmentStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetPreviewAttachmentStreamResponse" name="GetPreviewAttachmentStreamResponse" message="tns:GetPreviewAttachmentStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="SendTicketMessage">
-      <wsdl:documentation>
-        <summary>Send a message to recipients by email</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SendTicketMessage" name="SendTicketMessageRequest" message="tns:SendTicketMessageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SendTicketMessageResponse" name="SendTicketMessageResponse" message="tns:SendTicketMessageResponse" />
     </wsdl:operation>
     <wsdl:operation name="SendTicketMessageSms">
-      <wsdl:documentation>
-        <summary>Send a message to recipients by sms</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SendTicketMessageSms" name="SendTicketMessageSmsRequest" message="tns:SendTicketMessageSmsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SendTicketMessageSmsResponse" name="SendTicketMessageSmsResponse" message="tns:SendTicketMessageSmsResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetTicketMessageImportant">
-      <wsdl:documentation>
-        <summary>Set the important flag on or off for a ticket message</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SetTicketMessageImportant" name="SetTicketMessageImportantRequest" message="tns:SetTicketMessageImportantRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SetTicketMessageImportantResponse" name="SetTicketMessageImportantResponse" message="tns:SetTicketMessageImportantResponse" />
     </wsdl:operation>
     <wsdl:operation name="CalculateMessageRecipients">
-      <wsdl:documentation>
-        <summary>Gets recipients for new message</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CalculateMessageRecipients" name="CalculateMessageRecipientsRequest" message="tns:CalculateMessageRecipientsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CalculateMessageRecipientsResponse" name="CalculateMessageRecipientsResponse" message="tns:CalculateMessageRecipientsResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveTicketMessageEntityWithNotify">
-      <wsdl:documentation>
-        <summary>Saves a ticket message and performs any user notifications</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SaveTicketMessageEntityWithNotify" name="SaveTicketMessageEntityWithNotifyRequest" message="tns:SaveTicketMessageEntityWithNotifyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SaveTicketMessageEntityWithNotifyResponse" name="SaveTicketMessageEntityWithNotifyResponse" message="tns:SaveTicketMessageEntityWithNotifyResponse" />
     </wsdl:operation>
+    <wsdl:operation name="SaveTicketMessageEntityWithOptions">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SaveTicketMessageEntityWithOptions" name="SaveTicketMessageEntityWithOptionsRequest" message="tns:SaveTicketMessageEntityWithOptionsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SaveTicketMessageEntityWithOptionsResponse" name="SaveTicketMessageEntityWithOptionsResponse" message="tns:SaveTicketMessageEntityWithOptionsResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetDefaultMessageContent">
-      <wsdl:documentation>
-        <summary>Generate a default message body (possibly including user signature, quoted message content) as sanitized HTML</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetDefaultMessageContent" name="GetDefaultMessageContentRequest" message="tns:GetDefaultMessageContentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetDefaultMessageContentResponse" name="GetDefaultMessageContentResponse" message="tns:GetDefaultMessageContentResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTicketMessageWithEmbeddedData">
-      <wsdl:documentation>
-        <summary>Get a ticket message entity with posibillity to change embedded images to be represented with inline data within the HTML body. If using inline data, be sure not to save this back to the database.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketMessageWithEmbeddedData" name="GetTicketMessageWithEmbeddedDataRequest" message="tns:GetTicketMessageWithEmbeddedDataRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketMessageWithEmbeddedDataResponse" name="GetTicketMessageWithEmbeddedDataResponse" message="tns:GetTicketMessageWithEmbeddedDataResponse" />
     </wsdl:operation>
+    <wsdl:operation name="DeleteMessageHeaders">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/DeleteMessageHeaders" name="DeleteMessageHeadersRequest" message="tns:DeleteMessageHeadersRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/DeleteMessageHeadersResponse" name="DeleteMessageHeadersResponse" message="tns:DeleteMessageHeadersResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTicketMessageWithOptions">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketMessageWithOptions" name="GetTicketMessageWithOptionsRequest" message="tns:GetTicketMessageWithOptionsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketMessageWithOptionsResponse" name="GetTicketMessageWithOptionsResponse" message="tns:GetTicketMessageWithOptionsResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetTicketSummaries">
-      <wsdl:documentation>
-        <summary>Get an array of summaryitem for the given tickets</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketSummaries" name="GetTicketSummariesRequest" message="tns:GetTicketSummariesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketSummariesResponse" name="GetTicketSummariesResponse" message="tns:GetTicketSummariesResponse" />
     </wsdl:operation>
@@ -2791,6 +3456,22 @@ title: Services88.TicketAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="ValidateAttachments">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/ValidateAttachments" style="document" />
+      <wsdl:input name="ValidateAttachmentsRequest">
+        <soap:header message="tns:ValidateAttachmentsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:ValidateAttachmentsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:ValidateAttachmentsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ValidateAttachmentsResponse">
+        <soap:header message="tns:ValidateAttachmentsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:ValidateAttachmentsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:ValidateAttachmentsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:ValidateAttachmentsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="SetTicketReadByOwner">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SetTicketReadByOwner" style="document" />
       <wsdl:input name="SetTicketReadByOwnerRequest">
@@ -2836,6 +3517,198 @@ title: Services88.TicketAgent WSDL
         <soap:header message="tns:ProcessTicketWhenReadResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:ProcessTicketWhenReadResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:ProcessTicketWhenReadResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SplitTicket">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SplitTicket" style="document" />
+      <wsdl:input name="SplitTicketRequest">
+        <soap:header message="tns:SplitTicketRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SplitTicketRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SplitTicketRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SplitTicketResponse">
+        <soap:header message="tns:SplitTicketResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SplitTicketResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SplitTicketResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SplitTicketResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SplitTicketMessage">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SplitTicketMessage" style="document" />
+      <wsdl:input name="SplitTicketMessageRequest">
+        <soap:header message="tns:SplitTicketMessageRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SplitTicketMessageRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SplitTicketMessageRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SplitTicketMessageResponse">
+        <soap:header message="tns:SplitTicketMessageResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SplitTicketMessageResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SplitTicketMessageResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SplitTicketMessageResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTicketsReadStatus">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/UpdateTicketsReadStatus" style="document" />
+      <wsdl:input name="UpdateTicketsReadStatusRequest">
+        <soap:header message="tns:UpdateTicketsReadStatusRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:UpdateTicketsReadStatusRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:UpdateTicketsReadStatusRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="UpdateTicketsReadStatusResponse">
+        <soap:header message="tns:UpdateTicketsReadStatusResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:UpdateTicketsReadStatusResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:UpdateTicketsReadStatusResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:UpdateTicketsReadStatusResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTicketsReadStatusByProvider">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/UpdateTicketsReadStatusByProvider" style="document" />
+      <wsdl:input name="UpdateTicketsReadStatusByProviderRequest">
+        <soap:header message="tns:UpdateTicketsReadStatusByProviderRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:UpdateTicketsReadStatusByProviderRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:UpdateTicketsReadStatusByProviderRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="UpdateTicketsReadStatusByProviderResponse">
+        <soap:header message="tns:UpdateTicketsReadStatusByProviderResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:UpdateTicketsReadStatusByProviderResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:UpdateTicketsReadStatusByProviderResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:UpdateTicketsReadStatusByProviderResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MergeTickets">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/MergeTickets" style="document" />
+      <wsdl:input name="MergeTicketsRequest">
+        <soap:header message="tns:MergeTicketsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:MergeTicketsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:MergeTicketsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="MergeTicketsResponse">
+        <soap:header message="tns:MergeTicketsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:MergeTicketsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:MergeTicketsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:MergeTicketsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetDeletedStatusByIds">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SetDeletedStatusByIds" style="document" />
+      <wsdl:input name="SetDeletedStatusByIdsRequest">
+        <soap:header message="tns:SetDeletedStatusByIdsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SetDeletedStatusByIdsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SetDeletedStatusByIdsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SetDeletedStatusByIdsResponse">
+        <soap:header message="tns:SetDeletedStatusByIdsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SetDeletedStatusByIdsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SetDeletedStatusByIdsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SetDeletedStatusByIdsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetDeletedStatusByProvider">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SetDeletedStatusByProvider" style="document" />
+      <wsdl:input name="SetDeletedStatusByProviderRequest">
+        <soap:header message="tns:SetDeletedStatusByProviderRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SetDeletedStatusByProviderRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SetDeletedStatusByProviderRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SetDeletedStatusByProviderResponse">
+        <soap:header message="tns:SetDeletedStatusByProviderResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SetDeletedStatusByProviderResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SetDeletedStatusByProviderResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SetDeletedStatusByProviderResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UndeleteByIds">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/UndeleteByIds" style="document" />
+      <wsdl:input name="UndeleteByIdsRequest">
+        <soap:header message="tns:UndeleteByIdsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:UndeleteByIdsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:UndeleteByIdsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="UndeleteByIdsResponse">
+        <soap:header message="tns:UndeleteByIdsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:UndeleteByIdsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:UndeleteByIdsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:UndeleteByIdsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResolveTicketId">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/ResolveTicketId" style="document" />
+      <wsdl:input name="ResolveTicketIdRequest">
+        <soap:header message="tns:ResolveTicketIdRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:ResolveTicketIdRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:ResolveTicketIdRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ResolveTicketIdResponse">
+        <soap:header message="tns:ResolveTicketIdResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:ResolveTicketIdResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:ResolveTicketIdResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:ResolveTicketIdResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BatchForward">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/BatchForward" style="document" />
+      <wsdl:input name="BatchForwardRequest">
+        <soap:header message="tns:BatchForwardRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:BatchForwardRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:BatchForwardRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="BatchForwardResponse">
+        <soap:header message="tns:BatchForwardResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:BatchForwardResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:BatchForwardResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:BatchForwardResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BatchReply">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/BatchReply" style="document" />
+      <wsdl:input name="BatchReplyRequest">
+        <soap:header message="tns:BatchReplyRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:BatchReplyRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:BatchReplyRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="BatchReplyResponse">
+        <soap:header message="tns:BatchReplyResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:BatchReplyResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:BatchReplyResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:BatchReplyResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClearNotify">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/ClearNotify" style="document" />
+      <wsdl:input name="ClearNotifyRequest">
+        <soap:header message="tns:ClearNotifyRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:ClearNotifyRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:ClearNotifyRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ClearNotifyResponse">
+        <soap:header message="tns:ClearNotifyResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:ClearNotifyResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:ClearNotifyResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:ClearNotifyResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -2983,6 +3856,22 @@ title: Services88.TicketAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="RemoveMessageAttachments">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/RemoveMessageAttachments" style="document" />
+      <wsdl:input name="RemoveMessageAttachmentsRequest">
+        <soap:header message="tns:RemoveMessageAttachmentsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:RemoveMessageAttachmentsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:RemoveMessageAttachmentsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="RemoveMessageAttachmentsResponse">
+        <soap:header message="tns:RemoveMessageAttachmentsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:RemoveMessageAttachmentsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:RemoveMessageAttachmentsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:RemoveMessageAttachmentsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetPreviewAttachmentStream">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetPreviewAttachmentStream" style="document" />
       <wsdl:input name="GetPreviewAttachmentStreamRequest">
@@ -3079,6 +3968,22 @@ title: Services88.TicketAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="SaveTicketMessageEntityWithOptions">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SaveTicketMessageEntityWithOptions" style="document" />
+      <wsdl:input name="SaveTicketMessageEntityWithOptionsRequest">
+        <soap:header message="tns:SaveTicketMessageEntityWithOptionsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveTicketMessageEntityWithOptionsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveTicketMessageEntityWithOptionsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveTicketMessageEntityWithOptionsResponse">
+        <soap:header message="tns:SaveTicketMessageEntityWithOptionsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveTicketMessageEntityWithOptionsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveTicketMessageEntityWithOptionsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveTicketMessageEntityWithOptionsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetDefaultMessageContent">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetDefaultMessageContent" style="document" />
       <wsdl:input name="GetDefaultMessageContentRequest">
@@ -3111,6 +4016,38 @@ title: Services88.TicketAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="DeleteMessageHeaders">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/DeleteMessageHeaders" style="document" />
+      <wsdl:input name="DeleteMessageHeadersRequest">
+        <soap:header message="tns:DeleteMessageHeadersRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:DeleteMessageHeadersRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:DeleteMessageHeadersRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="DeleteMessageHeadersResponse">
+        <soap:header message="tns:DeleteMessageHeadersResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:DeleteMessageHeadersResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:DeleteMessageHeadersResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:DeleteMessageHeadersResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTicketMessageWithOptions">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketMessageWithOptions" style="document" />
+      <wsdl:input name="GetTicketMessageWithOptionsRequest">
+        <soap:header message="tns:GetTicketMessageWithOptionsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetTicketMessageWithOptionsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetTicketMessageWithOptionsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetTicketMessageWithOptionsResponse">
+        <soap:header message="tns:GetTicketMessageWithOptionsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetTicketMessageWithOptionsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetTicketMessageWithOptionsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetTicketMessageWithOptionsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetTicketSummaries">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketSummaries" style="document" />
       <wsdl:input name="GetTicketSummariesRequest">
@@ -3135,3 +4072,4 @@ title: Services88.TicketAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

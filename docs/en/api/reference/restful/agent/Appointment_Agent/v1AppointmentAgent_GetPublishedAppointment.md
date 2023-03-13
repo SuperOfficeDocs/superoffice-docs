@@ -120,11 +120,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 317
+  "AppointmentId": 719
 }
 ```
 
@@ -135,53 +135,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 715,
-  "StartDate": "2010-06-20T17:37:16.2502423+02:00",
-  "EndDate": "2004-07-20T17:37:16.2502423+02:00",
+  "AppointmentId": 104,
+  "StartDate": "2015-10-17T14:19:02.3574969+02:00",
+  "EndDate": "2014-12-09T14:19:02.3574969+01:00",
   "Type": "BookingForChecklist",
-  "Task": "consequuntur",
-  "AssociateFullName": "Ms. Gregoria Murray",
-  "ContactName": "Casper Group",
-  "Description": "Implemented exuding capacity",
-  "PersonFullName": "Cameron Block",
-  "PersonId": 902,
-  "ContactId": 378,
-  "ProjectId": 289,
-  "ProjectName": "Mertz, Gleichner and Koss",
+  "Task": "eligendi",
+  "AssociateFullName": "Karl Considine",
+  "ContactName": "Renner, Mohr and Heaney",
+  "Description": "Operative 6th generation conglomeration",
+  "PersonFullName": "Macy Marisol Kulas MD",
+  "PersonId": 291,
+  "ContactId": 672,
+  "ProjectId": 589,
+  "ProjectName": "Streich, McLaughlin and Glover",
   "IsPublished": false,
-  "AssociateId": 175,
-  "ColorIndex": 377,
+  "AssociateId": 115,
+  "ColorIndex": 809,
   "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 981,
-  "PriorityName": "Hirthe LLC",
+  "PriorityId": 714,
+  "PriorityName": "Raynor, Nikolaus and Medhurst",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": false,
+  "IsRecurrence": true,
   "IsBooking": true,
-  "ActiveDate": "2013-07-18T17:37:16.2512411+02:00",
+  "ActiveDate": "2001-03-02T14:19:02.3574969+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2011-12-21T17:37:16.2512411+01:00",
-  "RecurringEndDate": "2001-01-18T17:37:16.2512411+01:00",
-  "MotherId": 710,
-  "AssignedBy": 763,
-  "AssignedByFullName": "Violet Jaskolski",
+  "RecurringStartDate": "2017-06-17T14:19:02.3574969+02:00",
+  "RecurringEndDate": "2021-06-09T14:19:02.3574969+02:00",
+  "MotherId": 75,
+  "AssignedBy": 651,
+  "AssignedByFullName": "Lafayette Wisozk",
   "RejectReason": "",
-  "Location": "tempore",
-  "AlarmLeadTime": "est",
-  "SaleId": 449,
-  "SaleName": "Stracke-Lowe",
-  "AssociateName": "Torphy Group",
-  "CreatedDate": "2008-02-27T17:37:16.2512411+01:00",
-  "CreatedBy": "dignissimos",
-  "CreatedByFullName": "Grover Considine",
-  "CreatedByAssociateId": 26,
+  "Location": "cum",
+  "AlarmLeadTime": "suscipit",
+  "SaleId": 880,
+  "SaleName": "Schowalter, King and Schmidt",
+  "AssociateName": "Buckridge-Howe",
+  "CreatedDate": "2003-04-26T14:19:02.3574969+02:00",
+  "CreatedBy": "aperiam",
+  "CreatedByFullName": "Wilburn Hayes",
+  "CreatedByAssociateId": 40,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 93
+      "FieldLength": 987
     }
   }
 }

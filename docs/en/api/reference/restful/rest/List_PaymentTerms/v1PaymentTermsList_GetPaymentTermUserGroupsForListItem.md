@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 144,
-    "Name": "Hudson-Denesik",
-    "ToolTip": "Ut ea est possimus excepturi aperiam.",
-    "Deleted": false,
-    "Rank": 454,
-    "Type": "ratione",
-    "ColorBlock": 562,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2019-03-18T17:37:40.0744708+01:00",
+    "Id": 729,
+    "Name": "Graham Group",
+    "ToolTip": "Mollitia magni voluptas aspernatur odio.",
+    "Deleted": true,
+    "Rank": 214,
+    "Type": "quos",
+    "ColorBlock": 422,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2011-08-31T14:19:11.305533+02:00",
     "ChildItems": [
       {
-        "Id": 886,
-        "Name": "Champlin Inc and Sons",
-        "ToolTip": "Rerum accusantium facere asperiores ea fugit natus.",
+        "Id": 831,
+        "Name": "Braun Group",
+        "ToolTip": "In consequuntur ea quibusdam qui ut.",
         "Deleted": false,
-        "Rank": 503,
-        "Type": "esse",
-        "ColorBlock": 66,
-        "IconHint": "dolor",
-        "Selected": false,
-        "LastChanged": "2002-12-15T17:37:40.0744708+01:00",
+        "Rank": 417,
+        "Type": "tenetur",
+        "ColorBlock": 433,
+        "IconHint": "quaerat",
+        "Selected": true,
+        "LastChanged": "2004-01-01T14:19:11.305533+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "nihil",
+        "ExtraInfo": "dicta",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Jerad Gutkowski",
+        "FullName": "Prof. Mose Reynolds PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 742
+            "FieldType": "System.Int32",
+            "FieldLength": 266
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "veritatis",
-    "Hidden": false,
-    "FullName": "Dr. Mohammad Wanda DuBuque Sr.",
+    "ExtraInfo": "quis",
+    "StyleHint": "minima",
+    "Hidden": true,
+    "FullName": "Ms. Makayla Muller V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 608
+        "FieldLength": 908
       }
     }
   }

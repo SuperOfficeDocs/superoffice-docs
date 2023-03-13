@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Feil Group",
-  "ModuleName": "Osinski LLC"
+  "OwnerName": "Doyle LLC",
+  "ModuleName": "Lynch Group"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Glover-Cormier",
-  "ModuleName": "Glover-Walsh",
-  "ModuleDescription": "Exclusive maximized methodology",
-  "ModuleTooltip": "ad",
-  "ModuleVersion": "rerum",
+  "OwnerName": "Mitchell, Klein and Dietrich",
+  "ModuleName": "Towne Inc and Sons",
+  "ModuleDescription": "Digitized analyzing hierarchy",
+  "ModuleTooltip": "necessitatibus",
+  "ModuleVersion": "et",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": true,
+  "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 263,
-  "ExtraFlags": 554,
-  "ExtraInfo": "ut",
-  "SortOrder": 402,
+  "NumberOfLicenses": 518,
+  "ExtraFlags": 690,
+  "ExtraInfo": "sunt",
+  "SortOrder": 423,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Zemlak-Carroll",
-  "Signature": "distinctio"
+  "PrerequisiteModuleName": "Greenfelder LLC",
+  "Signature": "sit"
 }
 ```

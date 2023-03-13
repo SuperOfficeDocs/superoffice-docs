@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.GetQuoteLineI
 
 ## GetQuoteLineImage
 
-Gets an image connected to a quoteline, either from the ERPProvider or from the SuperOffice database
 
-* **quoteLineId:** Primary key of the quoteline
-* **rank:** The rank of the image.
 
-**Returns:** The image. Returns null if no image available.
+
 
 [WSDL file for Services87/Quote](../Services87-Quote.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetQuoteLineImage Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

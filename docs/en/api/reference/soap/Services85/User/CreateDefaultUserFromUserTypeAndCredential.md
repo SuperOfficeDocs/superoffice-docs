@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserAgent.CreateDefaultU
 
 ## CreateDefaultUserFromUserTypeAndCredential
 
-Creates a PersonEntity with default values based on the contactId and credentials.
 
-* **userType:** Type of associate for the user
-* **contactId:** Contact id of the person
-* **credentialType:** Type of credentials, corresponding to name of plugin and type in the credentials table.
-* **credentialValue:** This is the actuall value of the credentials.  This will typically be the password or teh users SID in active directory
-* **credentialDisplayValue:** The value displayed to the user. this will typically be the users login name in active directory.
+
+
 
 [WSDL file for Services85/User](../Services85-User.md)
 
@@ -54,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateDefaultUserFromUserTypeAndCredential Response
 
@@ -175,8 +172,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:SupportAssociateId xsi:type="xsd:int">0</User:SupportAssociateId>
     </User:Person>
     <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
-    <User:Lastlogin xsi:type="xsd:dateTime">2022-08-26T08:53:56Z</User:Lastlogin>
-    <User:Lastlogout xsi:type="xsd:dateTime">2022-08-26T08:53:56Z</User:Lastlogout>
+    <User:Lastlogin xsi:type="xsd:dateTime">2023-02-15T13:12:20Z</User:Lastlogin>
+    <User:Lastlogout xsi:type="xsd:dateTime">2023-02-15T13:12:20Z</User:Lastlogout>
     <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
     <User:Type xsi:type="User:UserType">Unknown</User:Type>
     <User:IsPersonRetired xsi:type="xsd:boolean">false</User:IsPersonRetired>
@@ -210,3 +207,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

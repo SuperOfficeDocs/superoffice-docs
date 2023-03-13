@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2022-03-30T17:37:16.4682407+02:00"
+  "StartDate": "2004-09-28T14:19:02.6177097+02:00"
 }
 ```
 
@@ -98,10 +98,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 777,
-  "StartDate": "2013-10-05T17:37:16.4682407+02:00",
-  "EndDate": "2010-03-28T17:37:16.4682407+02:00",
-  "RecurrenceCounter": 246,
+  "RecurrenceId": 335,
+  "StartDate": "2007-11-04T14:19:02.6177097+01:00",
+  "EndDate": "1999-01-25T14:19:02.6177097+01:00",
+  "RecurrenceCounter": 844,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -110,20 +110,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2019-10-17T17:37:16.4682407+02:00",
-      "IsConflict": false,
-      "Description": "Sharable web-enabled portal",
-      "DescriptionStyleHint": "Public-key national orchestration",
-      "Tooltip": "ipsam"
+      "Date": "1999-12-12T14:19:02.6177097+01:00",
+      "IsConflict": true,
+      "Description": "Object-based upward-trending function",
+      "DescriptionStyleHint": "Front-line neutral contingency",
+      "Tooltip": "ipsa"
     },
     {
-      "Date": "2019-10-17T17:37:16.4682407+02:00",
-      "IsConflict": false,
-      "Description": "Sharable web-enabled portal",
-      "DescriptionStyleHint": "Public-key national orchestration",
-      "Tooltip": "ipsam"
+      "Date": "1999-12-12T14:19:02.6177097+01:00",
+      "IsConflict": true,
+      "Description": "Object-based upward-trending function",
+      "DescriptionStyleHint": "Front-line neutral contingency",
+      "Tooltip": "ipsa"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

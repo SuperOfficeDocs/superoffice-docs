@@ -90,7 +90,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/RejectTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,43 +100,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 102,
-  "TopicId": 127,
+  "ChatSessionId": 1002,
+  "TopicId": 491,
   "User": null,
   "Person": null,
-  "CustomerAlias": "enim",
-  "CustomerHost": "dignissimos",
-  "CustomerName": "Schiller-Conn",
-  "CustomerEmail": "angela@kassulke.co.uk",
-  "CustomerPhone": "1-819-778-2097 x03706",
+  "CustomerAlias": "aut",
+  "CustomerHost": "ex",
+  "CustomerName": "Stamm-Kassulke",
+  "CustomerEmail": "antonio_emard@macejkovic.us",
+  "CustomerPhone": "(748)898-3585 x238",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Eichmann Inc and Sons",
+  "CustomerCompanyName": "McCullough, Christiansen and Schimmel",
   "Status": "Closed",
-  "FirstMessage": "et",
-  "LastMessage": "dolores",
-  "WhenRequested": "2017-07-06T17:37:38.2548595+02:00",
-  "WhenStarted": "2008-11-12T17:37:38.2548595+01:00",
-  "WhenEnded": "2005-04-05T17:37:38.2548595+02:00",
-  "WhenIdle": "2017-10-16T17:37:38.2548595+02:00",
-  "WhenFetched": "2004-05-08T17:37:38.2548595+02:00",
-  "SessionKey": "aut",
-  "InitialQueuePos": 615,
-  "AlertLevel": 59,
-  "Rank": 807,
+  "FirstMessage": "pariatur",
+  "LastMessage": "sapiente",
+  "WhenRequested": "2017-07-01T14:19:10.067383+02:00",
+  "WhenStarted": "2019-08-07T14:19:10.067383+02:00",
+  "WhenEnded": "1998-01-08T14:19:10.067383+01:00",
+  "WhenIdle": "2002-12-04T14:19:10.067383+01:00",
+  "WhenFetched": "2001-11-19T14:19:10.067383+01:00",
+  "SessionKey": "cupiditate",
+  "InitialQueuePos": 786,
+  "AlertLevel": 558,
+  "Rank": 798,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 293,
+  "ChatbotIsActive": true,
+  "Rating": 966,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 625
+      "FieldType": "System.Int32",
+      "FieldLength": 565
     }
   }
 }

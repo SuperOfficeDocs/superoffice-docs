@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/Dashb
 
 Handled by the <see cref="T:SuperOffice.Services88.IDashboardAgent">SuperOffice.Services88.IDashboardAgent</see> interface.
 
-Interface for the Dashboard Agent
-Agent lets you configure dashboard tiles and retrieve dashboard data
+
 
 Download [WSDL file for Services88/Dashboard](../Services88-Dashboard.md) if you need to generate your own proxy code.
 
@@ -30,3 +29,4 @@ Download [WSDL file for Services88/Dashboard](../Services88-Dashboard.md) if you
 * [SaveDashboard](SaveDashboard.md)
 * [SaveDashboardTile](SaveDashboardTile.md)
 * [SetTile](SetTile.md)
+

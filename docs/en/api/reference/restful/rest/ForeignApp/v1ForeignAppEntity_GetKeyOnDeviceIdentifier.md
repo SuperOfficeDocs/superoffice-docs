@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 23 Aug 2001 17:37:38 G8T
+Last-Modified: Wed, 13 Jan 2010 14:19:10 G1T
 
 {
-  "Key": "velit",
-  "Value": "reiciendis",
-  "RecordId": 298,
-  "CreatedDate": "2018-03-16T17:37:38.8198595+01:00",
-  "UpdatedDate": "2001-08-23T17:37:38.8198595+02:00",
-  "UpdatedBy": "id",
-  "CreatedBy": "optio",
-  "TableName": "Lueilwitz Group",
+  "Key": "qui",
+  "Value": "eos",
+  "RecordId": 406,
+  "CreatedDate": "2007-09-30T14:19:10.3654771+02:00",
+  "UpdatedDate": "2010-01-13T14:19:10.3654771+01:00",
+  "UpdatedBy": "voluptas",
+  "CreatedBy": "eaque",
+  "TableName": "O'Kon-Koelpin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 896
+      "FieldLength": 403
     }
   }
 }

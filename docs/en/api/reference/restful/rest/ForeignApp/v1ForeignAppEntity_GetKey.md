@@ -79,23 +79,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 05 May 1996 17:37:38 G5T
+Last-Modified: Mon, 15 Jan 2018 14:19:10 G1T
 
 {
-  "Key": "labore",
-  "Value": "nihil",
-  "RecordId": 826,
-  "CreatedDate": "2022-02-27T17:37:38.8188609+01:00",
-  "UpdatedDate": "1996-05-05T17:37:38.8188609+02:00",
-  "UpdatedBy": "dolorem",
-  "CreatedBy": "sed",
-  "TableName": "Fisher-Murphy",
+  "Key": "unde",
+  "Value": "ea",
+  "RecordId": 532,
+  "CreatedDate": "2014-11-04T14:19:10.3654771+01:00",
+  "UpdatedDate": "2018-01-15T14:19:10.3654771+01:00",
+  "UpdatedBy": "repudiandae",
+  "CreatedBy": "odio",
+  "TableName": "Hegmann-Gutmann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldLength": 693
     }
   }
 }

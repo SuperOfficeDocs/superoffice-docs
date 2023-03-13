@@ -83,8 +83,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HistoryNames": [
-    "D'Amore LLC",
-    "Schmeler, Larkin and Quigley"
+    "Stanton, Cummings and Franecki",
+    "Feest-Paucek"
   ]
 }
 ```
@@ -97,19 +97,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 182,
-    "Id": 25,
-    "HistoryName": "Becker-Dach",
-    "HistoryId": 488,
-    "AssociateId": 398,
-    "Name": "Yundt Inc and Sons",
-    "ItemInfo": "ad",
+    "Rank": 545,
+    "Id": 176,
+    "HistoryName": "Beatty-Cummings",
+    "HistoryId": 961,
+    "AssociateId": 23,
+    "Name": "Block, McKenzie and Hagenes",
+    "ItemInfo": "sapiente",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 954
+        "FieldType": "System.Int32",
+        "FieldLength": 17
       }
     }
   }

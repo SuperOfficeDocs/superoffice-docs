@@ -90,7 +90,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,36 +100,36 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 817,
-  "Name": "Sawayn-Ortiz",
-  "Description": "Optional transitional attitude",
-  "DefaultHeight": 918,
-  "DefaultWidth": 231,
+  "DashboardTileDefinitionId": 527,
+  "Name": "Anderson-Pfannerstill",
+  "Description": "Operative explicit instruction set",
+  "DefaultHeight": 462,
+  "DefaultWidth": 186,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "DuBuque, Green and Hodkiewicz",
-  "SelectionId": 756,
+  "EntityName": "Halvorson, Gibson and Wyman",
+  "SelectionId": 207,
   "CurrencyMode": "Base",
-  "CurrencyCode": "et",
+  "CurrencyCode": "temporibus",
   "Measure": "Average",
-  "MeasureField": "perferendis",
-  "SortBy": "quibusdam",
-  "LayoutConfig": "molestias",
-  "SecondarySelectionId": 48,
-  "MeasureByField": "maxime",
+  "MeasureField": "amet",
+  "SortBy": "aut",
+  "LayoutConfig": "aut",
+  "SecondarySelectionId": 473,
+  "MeasureByField": "doloremque",
   "Usage": "Dashboard",
-  "ProviderName": "Ullrich, Beer and Kulas",
+  "ProviderName": "Rowe, Mante and Schroeder",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldLength": 973
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

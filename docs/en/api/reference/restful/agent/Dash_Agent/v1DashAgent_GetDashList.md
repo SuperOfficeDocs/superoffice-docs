@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    304,
-    925
+    997,
+    91
   ]
 }
 ```
@@ -103,37 +103,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 22,
-    "UniqueId": "ex",
-    "Name": "Rolfson-Bins",
-    "Description": "Exclusive cohesive encoding",
-    "AssociateId": 840,
-    "Columns": 442,
+    "DashboardId": 424,
+    "UniqueId": "sed",
+    "Name": "Green, Jewess and Schmeler",
+    "Description": "Down-sized assymetric success",
+    "AssociateId": 781,
+    "Columns": 34,
     "Theme": null,
-    "VisibleForAll": 395,
+    "VisibleForAll": 459,
     "VisibleForAssociates": [
-      521,
-      317
+      550,
+      532
     ],
     "VisibleForGroups": [
-      538,
-      969
+      533,
+      765
     ],
-    "PinForAll": 216,
+    "PinForAll": 304,
     "PinForAssociates": [
-      469,
-      669
+      753,
+      53
     ],
     "PinForGroups": [
-      38,
-      181
+      988,
+      442
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 692
+        "FieldLength": 336
       }
     }
   }

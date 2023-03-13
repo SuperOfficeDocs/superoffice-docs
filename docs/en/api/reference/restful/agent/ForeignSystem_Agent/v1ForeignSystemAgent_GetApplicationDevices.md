@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Klocko LLC"
+  "ApplicationName": "Kuhic Group"
 }
 ```
 
@@ -96,21 +96,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 712,
-    "Name": "Lubowitz, Christiansen and Fahey",
-    "CreatedDate": "2004-06-02T17:37:18.099243+02:00",
-    "UpdatedDate": "2011-07-07T17:37:18.099243+02:00",
-    "AssociateFullName": "Juvenal Schimmel",
-    "CreatedBy": "aut",
-    "UpdatedBy": "mollitia",
-    "DeviceIdentifier": "praesentium",
-    "ForeignAppId": 544,
+    "ForeignDeviceId": 87,
+    "Name": "Hettinger Group",
+    "CreatedDate": "2013-03-19T14:19:03.5602728+01:00",
+    "UpdatedDate": "1997-05-18T14:19:03.5602728+02:00",
+    "AssociateFullName": "Abigayle Grant",
+    "CreatedBy": "nemo",
+    "UpdatedBy": "sint",
+    "DeviceIdentifier": "explicabo",
+    "ForeignAppId": 959,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 617
+        "FieldType": "System.String",
+        "FieldLength": 848
       }
     }
   }

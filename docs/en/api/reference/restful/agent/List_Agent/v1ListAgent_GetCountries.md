@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 63,
-    "Name": "Parisian, Bahringer and D'Amore",
-    "CurrencyId": 280,
-    "EnglishName": "Hane, Willms and Nitzsche",
+    "CountryId": 516,
+    "Name": "Klocko LLC",
+    "CurrencyId": 684,
+    "EnglishName": "Ferry Inc and Sons",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Networked human-resource synergy",
-    "OrgNrText": "1650281",
-    "InterAreaPrefix": "omnis",
-    "DialInPrefix": "ad",
-    "ZipPrefix": "labore",
-    "DomainName": "Considine, Dooley and Jacobson",
-    "AddressLayoutId": 552,
-    "DomesticAddressLayoutId": 241,
-    "ForeignAddressLayoutId": 348,
-    "Rank": 954,
-    "Tooltip": "accusamus",
+    "ImageDescription": "Triple-buffered holistic knowledge user",
+    "OrgNrText": "1519089",
+    "InterAreaPrefix": "quia",
+    "DialInPrefix": "quaerat",
+    "ZipPrefix": "et",
+    "DomainName": "Bailey, Schmitt and Klein",
+    "AddressLayoutId": 205,
+    "DomesticAddressLayoutId": 175,
+    "ForeignAddressLayoutId": 91,
+    "Rank": 354,
+    "Tooltip": "odit",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 24
+        "FieldType": "System.String",
+        "FieldLength": 84
       }
     }
   }

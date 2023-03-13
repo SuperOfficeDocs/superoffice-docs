@@ -77,13 +77,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 514,
-  "SelectionId": 595,
-  "IncludeEmails": false
+  "DocumentPluginId": 931,
+  "SelectionId": 415,
+  "IncludeEmails": true
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 430,
-  "NumDocumentsAlreadyMigrated": 921,
+  "NumDocumentsOmitted": 885,
+  "NumDocumentsAlreadyMigrated": 688,
   "Documents": [
     {
-      "DocumentId": 800,
-      "ContactId": 915,
-      "PersonId": 85,
-      "SaleId": 69,
-      "ProjectId": 176,
-      "DocTmplId": 610,
-      "AssociateId": 636,
-      "UserGroupId": 363,
-      "VisibleForId": 61
+      "DocumentId": 422,
+      "ContactId": 72,
+      "PersonId": 208,
+      "SaleId": 130,
+      "ProjectId": 104,
+      "DocTmplId": 996,
+      "AssociateId": 281,
+      "UserGroupId": 932,
+      "VisibleForId": 671
     }
   ],
   "Associates": [
     {
-      "AssociateId": 90,
-      "EmailAddress": "doris.schmidt@turcotte.info"
+      "AssociateId": 618,
+      "EmailAddress": "edison.abshire@gleason.uk"
     },
     {
-      "AssociateId": 90,
-      "EmailAddress": "doris.schmidt@turcotte.info"
+      "AssociateId": 618,
+      "EmailAddress": "edison.abshire@gleason.uk"
     }
   ]
 }

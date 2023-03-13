@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Grant-Kemmer"
+  "ApplicationName": "Mohr, Greenfelder and Koch"
 }
 ```
 
@@ -93,29 +93,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 795,
-  "Name": "Yost-Funk",
-  "CreatedDate": "1999-03-07T17:37:18.0982433+01:00",
-  "UpdatedDate": "2019-06-01T17:37:18.0982433+02:00",
+  "ForeignAppId": 73,
+  "Name": "Becker, Mosciski and Weber",
+  "CreatedDate": "2018-10-01T14:19:03.5602728+02:00",
+  "UpdatedDate": "2012-05-23T14:19:03.5602728+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 933,
-      "Name": "Streich-Cormier",
-      "CreatedDate": "2020-02-23T17:37:18.0982433+01:00",
-      "UpdatedDate": "2012-08-26T17:37:18.0982433+02:00",
-      "AssociateFullName": "Deshawn McClure",
-      "CreatedBy": "exercitationem",
-      "UpdatedBy": "delectus",
-      "DeviceIdentifier": "cupiditate",
-      "ForeignAppId": 618,
+      "ForeignDeviceId": 343,
+      "Name": "Reichel, Feest and Dietrich",
+      "CreatedDate": "2011-04-18T14:19:03.5602728+02:00",
+      "UpdatedDate": "2003-05-31T14:19:03.5602728+02:00",
+      "AssociateFullName": "Winston Wehner",
+      "CreatedBy": "quos",
+      "UpdatedBy": "sint",
+      "DeviceIdentifier": "quas",
+      "ForeignAppId": 421,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 240
+          "FieldType": "System.Int32",
+          "FieldLength": 414
         }
       }
     }
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldLength": 896
     }
   }
 }

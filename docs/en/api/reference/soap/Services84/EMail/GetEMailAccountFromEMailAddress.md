@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IEMailAgent.GetEMailAccou
 
 ## GetEMailAccountFromEMailAddress
 
-Returns the email account corresponding to this email address (for the current associate).
 
-* **fromAddress:** The address associated with this email account
 
-**Returns:** Found or empty email account
+
 
 [WSDL file for Services84/EMail](../Services84-EMail.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetEMailAccountFromEMailAddress Response
 
@@ -92,3 +91,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

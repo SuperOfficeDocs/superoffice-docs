@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services85/FreeT
 
 Handled by the <see cref="T:SuperOffice.Services85.IFreeTextAgent">SuperOffice.Services85.IFreeTextAgent</see> interface.
 
-Interface for the FreeText Agent
-This agent can be used to manage the free text system
+
 
 Download [WSDL file for Services85/FreeText](../Services85-FreeText.md) if you need to generate your own proxy code.
 
@@ -25,3 +24,4 @@ Download [WSDL file for Services85/FreeText](../Services85-FreeText.md) if you n
 * [SetEnabled](SetEnabled.md)
 * [SetMultiWordOperator](SetMultiWordOperator.md)
 * [SetSingleWordOperator](SetSingleWordOperator.md)
+

@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IConfigurationAgent.Creat
 
 ## CreateDefaultConfigurableScreenDelta
 
-Loading default values into a new ConfigurableScreenDelta.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-**Returns:** New ConfigurableScreenDelta with default values
+
+
 
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
@@ -47,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultConfigurableScreenDelta Response
 
 ```xml
@@ -69,8 +69,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Configuration:DeltaType xsi:type="Configuration:DeltaType">Unknown</Configuration:DeltaType>
     <Configuration:DeltaState xsi:type="Configuration:DeltaState">Unknown</Configuration:DeltaState>
     <Configuration:RecipeId xsi:type="xsd:string"></Configuration:RecipeId>
-    <Configuration:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:58:42Z</Configuration:UpdatedDate>
-    <Configuration:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:58:42Z</Configuration:CreatedDate>
+    <Configuration:UpdatedDate xsi:type="xsd:dateTime">2023-02-15T13:16:44Z</Configuration:UpdatedDate>
+    <Configuration:CreatedDate xsi:type="xsd:dateTime">2023-02-15T13:16:44Z</Configuration:CreatedDate>
     <Configuration:UpdatedBy xsi:type="Configuration:Associate">
      <Configuration:AssociateId xsi:type="xsd:int">0</Configuration:AssociateId>
      <Configuration:Name xsi:type="xsd:string"></Configuration:Name>
@@ -109,3 +109,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

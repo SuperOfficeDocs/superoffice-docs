@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "consentsource"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "consentsource" MDO List
-
 MDO list provider for Consent source
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ConsentSourceListProvider">ConsentSourceListProvider</see> class.
 The name of the MDO list is 'consentsource'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("consentsource", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -54,6 +57,7 @@ foreach (var item in listProvider.RootItems) {
 |7|Import||0|
 |8|Other integration||0|
 |9|Unknown||0|
+
 
 ## Related MDO Lists
 

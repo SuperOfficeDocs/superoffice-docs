@@ -89,7 +89,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,35 +99,35 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 814,
-  "Section": "quibusdam",
-  "Key": "sapiente",
-  "Name": "Roob Group",
+  "PrefDescId": 294,
+  "Section": "eligendi",
+  "Key": "reiciendis",
+  "Name": "Aufderhar Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Diverse mission-critical approach",
-  "IsBuiltin": false,
-  "TableName": "Schumm LLC",
-  "UserDefinedListId": 614,
-  "Rank": 596,
-  "SubGroup": "provident",
-  "MinLevel": 428,
-  "MaxValue": 6,
-  "MinValue": 246,
-  "RequiredLicense": "nihil",
+  "Description": "Re-contextualized attitude-oriented benchmark",
+  "IsBuiltin": true,
+  "TableName": "Blick, Becker and Pagac",
+  "UserDefinedListId": 268,
+  "Rank": 849,
+  "SubGroup": "officia",
+  "MinLevel": 150,
+  "MaxValue": 269,
+  "MinValue": 282,
+  "RequiredLicense": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 384
+      "FieldType": "System.Int32",
+      "FieldLength": 940
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

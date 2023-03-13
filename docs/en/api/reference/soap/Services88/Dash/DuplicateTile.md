@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashAgent.DuplicateTile"
 
 ## DuplicateTile
 
-Duplicate for the tile and all the sub elements
 
-* **dashTileId:** The id of the tile to copy
-* **name:** The name of the new tile
 
-**Returns:** New tile
+
 
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## DuplicateTile Response
 
@@ -98,3 +96,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

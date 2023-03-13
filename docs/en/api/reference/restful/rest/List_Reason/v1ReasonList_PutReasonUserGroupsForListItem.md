@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 287,
-    "Name": "McDermott-Cummings",
-    "ToolTip": "Qui aut eligendi inventore.",
-    "Deleted": false,
-    "Rank": 64,
-    "Type": "voluptas",
-    "ColorBlock": 761,
-    "IconHint": "voluptatem",
+    "Id": 214,
+    "Name": "Cole Inc and Sons",
+    "ToolTip": "Dolores laboriosam quia.",
+    "Deleted": true,
+    "Rank": 759,
+    "Type": "eum",
+    "ColorBlock": 857,
+    "IconHint": "odit",
     "Selected": false,
-    "LastChanged": "2006-08-02T17:37:40.2845009+02:00",
+    "LastChanged": "2001-02-22T14:19:11.4557858+01:00",
     "ChildItems": [
       {
-        "Id": 704,
-        "Name": "Kreiger Inc and Sons",
-        "ToolTip": "Voluptatem consequatur ipsum aperiam voluptatum nostrum eum dignissimos.",
+        "Id": 142,
+        "Name": "Lindgren Inc and Sons",
+        "ToolTip": "Magnam aut.",
         "Deleted": false,
-        "Rank": 242,
-        "Type": "aut",
-        "ColorBlock": 633,
-        "IconHint": "consequuntur",
-        "Selected": false,
-        "LastChanged": "2002-05-30T17:37:40.2845009+02:00",
+        "Rank": 850,
+        "Type": "consequatur",
+        "ColorBlock": 467,
+        "IconHint": "adipisci",
+        "Selected": true,
+        "LastChanged": "2016-05-10T14:19:11.4557858+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "sunt",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "sed",
         "Hidden": true,
-        "FullName": "Thora Jason Huel II"
+        "FullName": "Christy Huels"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "sit",
+    "ExtraInfo": "qui",
+    "StyleHint": "odit",
     "Hidden": false,
-    "FullName": "Timmy Spencer PhD"
+    "FullName": "Malvina Conroy PhD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 386,
-    "Name": "McClure Group",
-    "ToolTip": "Dicta expedita a.",
+    "Id": 365,
+    "Name": "White, Connelly and Wiza",
+    "ToolTip": "Dolorum sit dolorem iure nostrum.",
     "Deleted": true,
-    "Rank": 59,
-    "Type": "esse",
-    "ColorBlock": 781,
-    "IconHint": "cum",
-    "Selected": false,
-    "LastChanged": "2020-11-26T17:37:40.2855032+01:00",
+    "Rank": 525,
+    "Type": "commodi",
+    "ColorBlock": 468,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "1998-03-20T14:19:11.4557858+01:00",
     "ChildItems": [
       {
-        "Id": 999,
-        "Name": "Bradtke-Borer",
-        "ToolTip": "Reprehenderit sed nam sint hic veritatis minus et.",
-        "Deleted": true,
-        "Rank": 437,
-        "Type": "magnam",
-        "ColorBlock": 505,
-        "IconHint": "qui",
+        "Id": 46,
+        "Name": "Schroeder, Cassin and Williamson",
+        "ToolTip": "Consectetur soluta.",
+        "Deleted": false,
+        "Rank": 201,
+        "Type": "modi",
+        "ColorBlock": 356,
+        "IconHint": "excepturi",
         "Selected": false,
-        "LastChanged": "2007-10-06T17:37:40.2855032+02:00",
+        "LastChanged": "2021-08-12T14:19:11.4557858+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "maiores",
+        "ExtraInfo": "in",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Ralph Harber",
+        "FullName": "Miss Dortha Bryana Rohan IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 135
+            "FieldLength": 743
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "velit",
-    "Hidden": false,
-    "FullName": "Ms. Amparo Zachary Flatley PhD",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "maiores",
+    "Hidden": true,
+    "FullName": "Graham Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 973
+        "FieldLength": 458
       }
     }
   }

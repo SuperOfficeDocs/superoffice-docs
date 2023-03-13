@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.MarkAsRead">S
 
 ## MarkAsRead
 
-Mark one or more e-mails as (un)read
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-* **connectionInfo:** All information needed to connect to the mailserver
-* **messageServerIds:** The e-mails to handle
-* **read:** If true mails are marked as read.
-If false mails are marked as unread.
+
+
 
 [WSDL file for Services87/EMail](../Services87-EMail.md)
 
@@ -61,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## MarkAsRead Response
 
 ```xml
@@ -80,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

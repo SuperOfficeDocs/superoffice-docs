@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 397,
-    "Name": "Quitzon, DuBuque and Wuckert",
-    "Tooltip": "ratione",
+    "Id": 766,
+    "Name": "Stracke Group",
+    "Tooltip": "eum",
     "Deleted": false,
-    "UdListDefinitionId": 746,
-    "Rank": 925,
+    "UdListDefinitionId": 5,
+    "Rank": 211,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 928
+        "FieldType": "System.String",
+        "FieldLength": 855
       }
     }
   }

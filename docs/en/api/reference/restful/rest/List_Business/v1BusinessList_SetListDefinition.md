@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 50,
-  "Name": "Veum LLC",
-  "Tooltip": "nam",
+  "Id": 962,
+  "Name": "Bayer-Gislason",
+  "Tooltip": "harum",
   "Deleted": false,
-  "Rank": 401,
-  "IsCustomList": true,
+  "Rank": 438,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "minus",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 402,
-  "Name": "Schoen-Feeney",
-  "Tooltip": "doloremque",
+  "Id": 794,
+  "Name": "Goldner Inc and Sons",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 304,
-  "IsCustomList": true,
+  "Rank": 164,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "provident",
+  "ListType": "ipsa",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 571
+      "FieldLength": 218
     }
   }
 }

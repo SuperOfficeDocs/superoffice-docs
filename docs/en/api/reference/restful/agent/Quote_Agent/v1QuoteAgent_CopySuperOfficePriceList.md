@@ -90,12 +90,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 84,
-  "NewName": "Schumm, Sauer and Kris",
-  "ValidFrom": "2001-02-19T17:37:18.7172411+01:00",
-  "ValidTo": "2013-06-21T17:37:18.7172411+02:00",
-  "NewCurrencyId": 688,
-  "ConvertCurrency": true
+  "OriginalPriceListId": 707,
+  "NewName": "Emard, Wyman and Brekke",
+  "ValidFrom": "2016-09-14T14:19:04.0000842+02:00",
+  "ValidTo": "2012-09-25T14:19:04.0000842+02:00",
+  "NewCurrencyId": 339,
+  "ConvertCurrency": false
 }
 ```
 
@@ -106,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 3,
-  "ERPPriceListKey": "eaque",
-  "QuoteConnectionId": 757,
-  "Name": "Bashirian Group",
-  "Description": "Universal multimedia artificial intelligence",
-  "Currency": "quasi",
-  "CurrencyName": "Ziemann-Runolfsdottir",
-  "ValidFrom": "2015-02-10T17:37:18.7172411+01:00",
-  "ValidTo": "1999-12-06T17:37:18.7172411+01:00",
-  "IsActive": false,
+  "PriceListId": 7,
+  "ERPPriceListKey": "aspernatur",
+  "QuoteConnectionId": 874,
+  "Name": "Brown Inc and Sons",
+  "Description": "Inverse motivating definition",
+  "Currency": "at",
+  "CurrencyName": "Dietrich-Windler",
+  "ValidFrom": "2005-02-01T14:19:04.0000842+01:00",
+  "ValidTo": "2002-09-23T14:19:04.0000842+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 768
+      "FieldType": "System.Int32",
+      "FieldLength": 14
     }
   }
 }

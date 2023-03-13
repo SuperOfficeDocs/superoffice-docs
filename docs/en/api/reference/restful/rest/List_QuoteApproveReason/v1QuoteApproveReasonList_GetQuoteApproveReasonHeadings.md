@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 84,
-    "Name": "Armstrong, Zulauf and Lueilwitz",
-    "Tooltip": "et",
+    "HeadingId": 384,
+    "Name": "Becker, Schinner and Aufderhar",
+    "Tooltip": "molestiae",
     "Deleted": false,
-    "Rank": 446,
-    "UdListDefinitionId": 279,
+    "Rank": 67,
+    "UdListDefinitionId": 602,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 448
+        "FieldType": "System.Int32",
+        "FieldLength": 449
       }
     }
   }

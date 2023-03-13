@@ -78,27 +78,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Renner, Nolan and Cronin",
+  "Name": "Dicki-Bayer",
   "Entities": [
     {
-      "HeadingId": 452,
-      "Name": "Kris, Cremin and Borer",
-      "Tooltip": "sunt",
-      "Deleted": false,
-      "Rank": 388,
-      "UdListDefinitionId": 377
+      "HeadingId": 866,
+      "Name": "Rau LLC",
+      "Tooltip": "hic",
+      "Deleted": true,
+      "Rank": 224,
+      "UdListDefinitionId": 634
     },
     {
-      "HeadingId": 452,
-      "Name": "Kris, Cremin and Borer",
-      "Tooltip": "sunt",
-      "Deleted": false,
-      "Rank": 388,
-      "UdListDefinitionId": 377
+      "HeadingId": 866,
+      "Name": "Rau LLC",
+      "Tooltip": "hic",
+      "Deleted": true,
+      "Rank": 224,
+      "UdListDefinitionId": 634
     }
   ]
 }
@@ -112,18 +112,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 48,
-    "Name": "Lockman-Marks",
-    "Tooltip": "ullam",
+    "HeadingId": 289,
+    "Name": "Friesen Group",
+    "Tooltip": "ex",
     "Deleted": false,
-    "Rank": 807,
-    "UdListDefinitionId": 223,
+    "Rank": 260,
+    "UdListDefinitionId": 436,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 643
+        "FieldLength": 533
       }
     }
   }

@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldName": "Ortiz, Gleason and Mayer"
+  "FieldName": "Kerluke LLC"
 }
 ```
 
@@ -95,21 +95,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 223,
-  "FieldName": "Sawayn, Upton and Skiles",
-  "Label": "voluptatibus",
-  "Tooltip": "earum",
+  "QuoteLineConfigurationId": 919,
+  "FieldName": "Cremin, Bogisich and Kutch",
+  "Label": "animi",
+  "Tooltip": "aut",
   "Editable": false,
   "InUse": false,
   "Mandatory": true,
-  "Rank": 725,
+  "Rank": 255,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 656
+      "FieldLength": 595
     }
   }
 }

@@ -73,14 +73,14 @@ OK
 POST /api/v1/Agents/User/CreateExternalUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 475,
-  "UserName": "Bruen Group",
-  "Password": "facilis",
-  "RoleId": 26,
+  "PersonId": 600,
+  "UserName": "Schultz Inc and Sons",
+  "Password": "pariatur",
+  "RoleId": 827,
   "IsActive": false
 }
 ```
@@ -91,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-910
+5
 ```

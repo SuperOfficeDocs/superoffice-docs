@@ -81,15 +81,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "necessitatibus",
-  "ProviderName": "Wilderman, Maggio and Moen",
-  "StorageKey": "est",
-  "Restrictions": "consectetur",
-  "StaticColumns": "et"
+  "StorageType": "aut",
+  "ProviderName": "Prosacco LLC",
+  "StorageKey": "dolorum",
+  "Restrictions": "temporibus",
+  "StaticColumns": "excepturi"
 }
 ```
 
@@ -102,81 +102,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Weissnat LLC",
-      "Operator": "voluptatem",
+      "Name": "Kautzer-Wunsch",
+      "Operator": "deserunt",
       "Values": [
-        "consequatur",
-        "porro"
+        "in",
+        "dignissimos"
       ],
       "DisplayValues": [
-        "ratione",
-        "ea"
+        "aliquam",
+        "quos"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 347,
+      "InterParenthesis": 147,
       "InterOperator": "And",
-      "UniqueHash": 443
+      "UniqueHash": 118
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Funk Inc and Sons",
-      "DisplayTooltip": "libero",
-      "DisplayType": "odio",
+      "DisplayName": "Hirthe, Kerluke and Barrows",
+      "DisplayTooltip": "in",
+      "DisplayType": "officiis",
       "CanOrderBy": true,
-      "Name": "Brekke-Schuppe",
-      "CanRestrictBy": false,
-      "RestrictionType": "delectus",
-      "RestrictionListName": "Jast-Jerde",
+      "Name": "Funk-Casper",
+      "CanRestrictBy": true,
+      "RestrictionType": "aliquid",
+      "RestrictionListName": "Wolf, Doyle and Grant",
       "IsVisible": true,
       "ExtraInfo": "culpa",
-      "Width": "tempora",
-      "IconHint": "architecto",
-      "HeadingIconHint": "asperiores"
+      "Width": "provident",
+      "IconHint": "quia",
+      "HeadingIconHint": "quasi"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Kertzmann-Quigley",
-      "PrimaryKey": 142,
+      "EntityName": "Kozey LLC",
+      "PrimaryKey": 487,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "praesentium",
-          "TooltipHint": "a",
-          "LinkHint": "libero"
+          "DisplayValue": "tenetur",
+          "TooltipHint": "itaque",
+          "LinkHint": "quod"
         }
       },
-      "LinkHint": "voluptatem",
-      "StyleHint": "tenetur",
+      "LinkHint": "soluta",
+      "StyleHint": "ipsam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 214
+          "FieldLength": 591
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Nienow Group",
-      "Description": "Robust transitional circuit",
-      "Rank": 377,
+      "Name": "Kozey Group",
+      "Description": "Persevering heuristic circuit",
+      "Rank": 597,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Nienow Group",
-      "Description": "Robust transitional circuit",
-      "Rank": 377,
+      "Name": "Kozey Group",
+      "Description": "Persevering heuristic circuit",
+      "Rank": 597,
       "Restrictions": [
         {},
         {}
@@ -188,7 +188,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 312
+      "FieldLength": 790
     }
   }
 }

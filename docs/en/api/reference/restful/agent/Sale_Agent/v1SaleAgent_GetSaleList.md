@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Mills-Cruickshank",
-    "SaleDate": "2006-10-03T17:37:18.8842419+02:00",
-    "SaleId": 66,
-    "Probability": 977,
-    "Title": "iure",
-    "Amount": 14526.09,
-    "Currency": "accusamus",
-    "ProjectName": "Rau-Ferry",
-    "AssociateFullName": "Grayce Dorris Sipes PhD",
-    "Description": "Reduced transitional task-force",
+    "ContactName": "Stroman Group",
+    "SaleDate": "2020-01-14T14:19:04.1410858+01:00",
+    "SaleId": 854,
+    "Probability": 546,
+    "Title": "voluptatem",
+    "Amount": 1802.05,
+    "Currency": "libero",
+    "ProjectName": "Renner, McDermott and Bruen",
+    "AssociateFullName": "Prof. Amelia Block V",
+    "Description": "Configurable multimedia capacity",
     "Status": "Lost",
-    "WeightedAmount": 16550.654,
-    "ProjectId": 381,
-    "EarningPercent": 22712.097999999998,
-    "Earning": 20471.288,
-    "ContactId": 812,
-    "AssociateId": 888,
-    "PersonId": 15,
-    "SaleTypeId": 144,
-    "SaleTypeName": "Gleason, Mills and Toy",
-    "PersonFullName": "Clara Dibbert",
+    "WeightedAmount": 14732.934,
+    "ProjectId": 226,
+    "EarningPercent": 20627.987999999998,
+    "Earning": 9392.598,
+    "ContactId": 950,
+    "AssociateId": 229,
+    "PersonId": 36,
+    "SaleTypeId": 38,
+    "SaleTypeName": "Wilkinson-Littel",
+    "PersonFullName": "Mr. Lisette Eusebio Walter MD",
     "Completed": "Completed",
-    "ActiveErpLinks": 525,
-    "NextDueDate": "2018-11-23T17:37:18.8842419+01:00",
-    "Number": "1010474",
+    "ActiveErpLinks": 469,
+    "NextDueDate": "2011-07-03T14:19:04.1410858+02:00",
+    "Number": "917537",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 990
+        "FieldLength": 176
       }
     }
   }

@@ -100,7 +100,7 @@ OK
 POST /api/v1/Sale/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quas",
+  "SaleText": "voluptatem",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -119,90 +119,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1998-03-23T17:37:39.1692734+01:00",
-  "Amount": 6850.924,
-  "SaleId": 173,
-  "Earning": 7255.21,
-  "EarningPercent": 27688.89,
-  "Heading": "laudantium",
-  "Number": "825141",
-  "Probability": 54,
-  "CreatedDate": "2003-09-13T17:37:39.1692734+02:00",
-  "UpdatedDate": "2015-08-29T17:37:39.1692734+02:00",
+  "Saledate": "2018-09-23T14:19:10.7404799+02:00",
+  "Amount": 6904.202,
+  "SaleId": 598,
+  "Earning": 6271.134,
+  "EarningPercent": 3068.1859999999997,
+  "Heading": "et",
+  "Number": "1135783",
+  "Probability": 204,
+  "CreatedDate": "2017-09-14T14:19:10.7404799+02:00",
+  "UpdatedDate": "2000-03-09T14:19:10.7404799+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 518,
+  "ActiveLinks": 368,
   "Links": [
     {
-      "EntityName": "Langosh-Rutherford",
-      "Id": 327,
-      "Description": "Optimized uniform access",
-      "ExtraInfo": "possimus",
-      "LinkId": 425
+      "EntityName": "Stroman Group",
+      "Id": 203,
+      "Description": "Triple-buffered exuding paradigm",
+      "ExtraInfo": "praesentium",
+      "LinkId": 574
     },
     {
-      "EntityName": "Langosh-Rutherford",
-      "Id": 327,
-      "Description": "Optimized uniform access",
-      "ExtraInfo": "possimus",
-      "LinkId": 425
+      "EntityName": "Stroman Group",
+      "Id": 203,
+      "Description": "Triple-buffered exuding paradigm",
+      "ExtraInfo": "praesentium",
+      "LinkId": 574
     }
   ],
-  "NextDueDate": "2001-10-09T17:37:39.1692734+02:00",
-  "Postit": "quam",
+  "NextDueDate": "2006-08-26T14:19:10.7404799+02:00",
+  "Postit": "ad",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2010-04-26T17:37:39.1692734+02:00",
+  "ReopenDate": "1999-01-19T14:19:10.7404799+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Rempel-Braun",
-      "Comment": "doloribus",
-      "StakeholderRoleId": 681,
-      "CountryId": 402,
-      "PersonId": 810,
-      "EmailDescription": "lorenza@erdman.info",
-      "EmailId": 381,
-      "EmailAddress": "yasmin_mante@stammkovacek.info",
-      "PhoneId": 550,
-      "ContactName": "Lockman, Mitchell and Heller",
-      "ContactId": 440,
-      "SaleId": 980,
-      "Mrmrs": "qui",
-      "Firstname": "Garland",
-      "MiddleName": "Schaden, Will and Romaguera",
-      "Lastname": "Beatty",
-      "SaleStakeholderId": 935,
-      "Rank": 25,
-      "Phone": "(871)403-0545"
+      "StakeholderRoleName": "Connelly LLC",
+      "Comment": "ut",
+      "StakeholderRoleId": 977,
+      "CountryId": 377,
+      "PersonId": 426,
+      "EmailDescription": "kennedy@ortizconnelly.biz",
+      "EmailId": 158,
+      "EmailAddress": "wilhelm@blick.ca",
+      "PhoneId": 945,
+      "ContactName": "Grady LLC",
+      "ContactId": 428,
+      "SaleId": 305,
+      "Mrmrs": "magnam",
+      "Firstname": "Krystal",
+      "MiddleName": "Ratke, Hahn and Bauch",
+      "Lastname": "Medhurst",
+      "SaleStakeholderId": 248,
+      "Rank": 986,
+      "Phone": "354-301-1036 x872"
     }
   ],
-  "ActiveErpLinks": 756,
+  "ActiveErpLinks": 478,
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Noe Estevan Shields PhD",
-    "SuperOffice:2": "Grant Lueilwitz"
+    "SuperOffice:1": "Dejuan Pfannerstill",
+    "SuperOffice:2": "Dayton Clair Stokes I"
   },
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "et"
+    "ExtraFields1": "mollitia",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "assumenda"
+    "CustomFields1": "nisi",
+    "CustomFields2": "voluptatum"
   },
-  "PublishEventDate": "2003-09-04T17:37:39.1702742+02:00",
-  "PublishTo": "2011-08-16T17:37:39.1702742+02:00",
-  "PublishFrom": "1999-09-30T17:37:39.1702742+02:00",
+  "PublishEventDate": "1997-09-17T14:19:10.7404799+02:00",
+  "PublishTo": "2020-10-21T14:19:10.7404799+02:00",
+  "PublishFrom": "2002-08-17T14:19:10.7404799+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 180,
+      "VisibleId": 274,
       "Visibility": "All",
-      "DisplayValue": "unde"
+      "DisplayValue": "minima"
     },
     {
-      "VisibleId": 180,
+      "VisibleId": 274,
       "Visibility": "All",
-      "DisplayValue": "unde"
+      "DisplayValue": "minima"
     }
   ]
 }
@@ -215,7 +215,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "consequuntur",
-  "2": "eum"
+  "1": "pariatur",
+  "2": "commodi"
 }
 ```

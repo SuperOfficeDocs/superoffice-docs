@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IProjectAgent.Merge">Supe
 
 ## Merge
 
-Merge two projects into one, removing the source project in the process
 
-* **sourceProjectId:** Id of source project for merge. This project is removed after the merge is completed.
-* **destinationProjectId:** Id of destination project to merge to. This project is updated with info from the source.
-* **replaceEmptyFieldsOnDestination:** Fill in empty fields on destination from source?
+
+
 
 [WSDL file for Services88/Project](../Services88-Project.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## Merge Response
 
 ```xml
@@ -70,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

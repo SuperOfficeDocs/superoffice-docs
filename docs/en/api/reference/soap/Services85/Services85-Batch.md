@@ -623,83 +623,47 @@ title: Services85.BatchAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Batch">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Batch</summary>
-    </wsdl:documentation>
     <wsdl:operation name="GetBatchTaskInfo">
-      <wsdl:documentation>
-        <summary>Get a single BatchTaskInfo based on Id.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Batch/GetBatchTaskInfo" name="GetBatchTaskInfoRequest" message="tns:GetBatchTaskInfoRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Batch/GetBatchTaskInfoResponse" name="GetBatchTaskInfoResponse" message="tns:GetBatchTaskInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBatchTaskInfosByAssociates">
-      <wsdl:documentation>
-        <summary>Get an array of BatchTaskInfo for the provided associate id's.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Batch/GetBatchTaskInfosByAssociates" name="GetBatchTaskInfosByAssociatesRequest" message="tns:GetBatchTaskInfosByAssociatesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Batch/GetBatchTaskInfosByAssociatesResponse" name="GetBatchTaskInfosByAssociatesResponse" message="tns:GetBatchTaskInfosByAssociatesResponse" />
     </wsdl:operation>
     <wsdl:operation name="StartBatchJob">
-      <wsdl:documentation>
-        <summary>Start a batch job based on BatchTaskInfo.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Batch/StartBatchJob" name="StartBatchJobRequest" message="tns:StartBatchJobRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Batch/StartBatchJobResponse" name="StartBatchJobResponse" message="tns:StartBatchJobResponse" />
     </wsdl:operation>
     <wsdl:operation name="StopBatchJob">
-      <wsdl:documentation>
-        <summary>Stop a batch job based on Id.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Batch/StopBatchJob" name="StopBatchJobRequest" message="tns:StopBatchJobRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Batch/StopBatchJobResponse" name="StopBatchJobResponse" message="tns:StopBatchJobResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBatchTaskInfosByState">
-      <wsdl:documentation>
-        <summary>Gets an array of BatchTaskInfo with state defined by a BatchTaskState.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Batch/GetBatchTaskInfosByState" name="GetBatchTaskInfosByStateRequest" message="tns:GetBatchTaskInfosByStateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Batch/GetBatchTaskInfosByStateResponse" name="GetBatchTaskInfosByStateResponse" message="tns:GetBatchTaskInfosByStateResponse" />
     </wsdl:operation>
     <wsdl:operation name="UpdateBatchTask">
-      <wsdl:documentation>
-        <summary>Update information about a BatchTask. Only the following properties can be updated: State, Description, Response and Request.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Batch/UpdateBatchTask" name="UpdateBatchTaskRequest" message="tns:UpdateBatchTaskRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Batch/UpdateBatchTaskResponse" name="UpdateBatchTaskResponse" message="tns:UpdateBatchTaskResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBatchTaskInfosByNameAndState">
-      <wsdl:documentation>
-        <summary>Gets an array of BatchTaskInfo with state defined by a BatchTaskState and the batchtask definition name.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Batch/GetBatchTaskInfosByNameAndState" name="GetBatchTaskInfosByNameAndStateRequest" message="tns:GetBatchTaskInfosByNameAndStateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Batch/GetBatchTaskInfosByNameAndStateResponse" name="GetBatchTaskInfosByNameAndStateResponse" message="tns:GetBatchTaskInfosByNameAndStateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBatchTaskInfosByNameAndAssociates">
-      <wsdl:documentation>
-        <summary>Get an array of BatchTaskInfo for the provided associate id's and batch task definition name.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Batch/GetBatchTaskInfosByNameAndAssociates" name="GetBatchTaskInfosByNameAndAssociatesRequest" message="tns:GetBatchTaskInfosByNameAndAssociatesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Batch/GetBatchTaskInfosByNameAndAssociatesResponse" name="GetBatchTaskInfosByNameAndAssociatesResponse" message="tns:GetBatchTaskInfosByNameAndAssociatesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBatchTaskInfosByAssociatesAndState">
-      <wsdl:documentation>
-        <summary>Get an array of BatchTaskInfo for the provided associate id's and batch task state.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Batch/GetBatchTaskInfosByAssociatesAndState" name="GetBatchTaskInfosByAssociatesAndStateRequest" message="tns:GetBatchTaskInfosByAssociatesAndStateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Batch/GetBatchTaskInfosByAssociatesAndStateResponse" name="GetBatchTaskInfosByAssociatesAndStateResponse" message="tns:GetBatchTaskInfosByAssociatesAndStateResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteBatchTasks">
-      <wsdl:documentation>
-        <summary>Delete batch tasks from the database.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Batch/DeleteBatchTasks" name="DeleteBatchTasksRequest" message="tns:DeleteBatchTasksRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Batch/DeleteBatchTasksResponse" name="DeleteBatchTasksResponse" message="tns:DeleteBatchTasksResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteBatchTask">
-      <wsdl:documentation>
-        <summary>Delete a batch task from the database.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Batch/DeleteBatchTask" name="DeleteBatchTaskRequest" message="tns:DeleteBatchTaskRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Batch/DeleteBatchTaskResponse" name="DeleteBatchTaskResponse" message="tns:DeleteBatchTaskResponse" />
     </wsdl:operation>
@@ -890,3 +854,4 @@ title: Services85.BatchAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

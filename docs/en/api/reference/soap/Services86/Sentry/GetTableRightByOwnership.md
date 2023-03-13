@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.ISentryAgent.GetTableRigh
 
 ## GetTableRightByOwnership
 
-Return the TableRight from the relationship between the current user and the given user and group.
 
-* **tableName:** Name of the table to get the TableRights from.
-* **contactGroupId:** The user-group that the associate id is part of.
-* **contactAssociateId:** The associate id of the owner of the record
 
-**Returns:** The TableRight
+
 
 [WSDL file for Services86/Sentry](../Services86-Sentry.md)
 
@@ -53,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetTableRightByOwnership Response
 
 ```xml
@@ -76,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

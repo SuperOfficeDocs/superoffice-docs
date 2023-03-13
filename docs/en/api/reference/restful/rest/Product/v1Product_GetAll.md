@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Product?$select=name,department,category/id
 GET /api/v1/Product?$filter=name begins 'S'
 GET /api/v1/Product?$orderBy=name asc
-GET /api/v1/Product?$entities=aut
-GET /api/v1/Product?$top=376
-GET /api/v1/Product?$skip=583
+GET /api/v1/Product?$entities=voluptatum
+GET /api/v1/Product?$top=783
+GET /api/v1/Product?$skip=387
 GET /api/v1/Product?$mode=Full
 GET /api/v1/Product?$options=GrandTotal=true
-GET /api/v1/Product?$context=totam
+GET /api/v1/Product?$context=tempora
 GET /api/v1/Product?$format=JSON
 GET /api/v1/Product?$jsonSafe=False
 GET /api/v1/Product?$output=Display
@@ -117,7 +117,7 @@ OK
 GET /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -128,21 +128,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "aperiam",
+  "odata.nextLink": "quaerat",
   "value": [
     {
-      "PrimaryKey": 3137,
-      "EntityName": "sale",
-      "saleId": 3137,
-      "contactId": 5427,
-      "name": "Lakin Group"
+      "PrimaryKey": 7640,
+      "EntityName": "person",
+      "personId": 7640,
+      "fullName": "Prof. Jakob Tobin O'Keefe Sr."
     },
     {
-      "PrimaryKey": 2333,
-      "EntityName": "sale",
-      "saleId": 2333,
-      "contactId": 1825,
-      "name": "Purdy-Weimann"
+      "PrimaryKey": 7092,
+      "EntityName": "person",
+      "personId": 7092,
+      "fullName": "Caterina Botsford"
     }
   ]
 }

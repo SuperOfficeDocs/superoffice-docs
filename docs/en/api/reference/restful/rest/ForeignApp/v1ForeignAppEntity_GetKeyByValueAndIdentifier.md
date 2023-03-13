@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=ex
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=sint
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 19 Oct 2003 17:37:38 G10T
+Last-Modified: Sun, 15 Jun 2014 14:19:10 G6T
 
 {
-  "Key": "laudantium",
-  "Value": "soluta",
-  "RecordId": 217,
-  "CreatedDate": "1999-04-08T17:37:38.8238605+02:00",
-  "UpdatedDate": "2003-10-19T17:37:38.8238605+02:00",
-  "UpdatedBy": "adipisci",
-  "CreatedBy": "rerum",
-  "TableName": "Schultz Inc and Sons",
+  "Key": "sunt",
+  "Value": "adipisci",
+  "RecordId": 235,
+  "CreatedDate": "2016-03-18T14:19:10.3654771+01:00",
+  "UpdatedDate": "2014-06-15T14:19:10.3654771+02:00",
+  "UpdatedBy": "sunt",
+  "CreatedBy": "modi",
+  "TableName": "Corkery Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 536
+      "FieldType": "System.Int32",
+      "FieldLength": 106
     }
   }
 }

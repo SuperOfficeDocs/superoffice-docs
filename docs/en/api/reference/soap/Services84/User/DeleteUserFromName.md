@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.DeleteUserFrom
 
 ## DeleteUserFromName
 
-Delete a user, with lookup based on the user name.
 
-* **userName:** User name of the user to delete.
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services84/User](../Services84-User.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteUserFromName Response
 
 ```xml
@@ -68,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

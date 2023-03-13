@@ -97,15 +97,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 712,
-  "StartTime": "2009-03-06T17:37:17.4182427+01:00",
-  "EndTime": "1998-08-04T17:37:17.4182427+02:00",
-  "Count": 713,
-  "TemplateHeadingId": 977
+  "ContactId": 364,
+  "StartTime": "2010-11-24T14:19:03.1355296+01:00",
+  "EndTime": "2010-12-25T14:19:03.1355296+01:00",
+  "Count": 569,
+  "TemplateHeadingId": 91
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 674,
-    "Attention": "est",
-    "Header": "voluptatem",
-    "Name": "Mante-Lakin",
-    "OurRef": "qui",
-    "YourRef": "sequi",
-    "Description": "Cross-platform national protocol",
-    "DocumentTemplate": "et",
-    "IsPublished": false,
-    "PersonId": 224,
-    "PersonFullName": "Lora Halvorson",
-    "AssociateFullName": "Dakota Purdy",
-    "ContactId": 747,
-    "ContactName": "Wisozk Group",
-    "ProjectId": 14,
-    "ProjectName": "Hegmann-Mante",
-    "AssociateId": 403,
-    "Snum": 298,
-    "SaleId": 876,
-    "SaleName": "Berge LLC",
+    "DocumentId": 501,
+    "Attention": "impedit",
+    "Header": "labore",
+    "Name": "Kertzmann-Turner",
+    "OurRef": "beatae",
+    "YourRef": "ut",
+    "Description": "Enterprise-wide asynchronous encoding",
+    "DocumentTemplate": "deleniti",
+    "IsPublished": true,
+    "PersonId": 435,
+    "PersonFullName": "Ms. Ismael Rolando Bins",
+    "AssociateFullName": "Georgette Sigmund Adams DVM",
+    "ContactId": 969,
+    "ContactName": "Legros LLC",
+    "ProjectId": 179,
+    "ProjectName": "Shanahan-Lakin",
+    "AssociateId": 155,
+    "Snum": 1000,
+    "SaleId": 233,
+    "SaleName": "Wilkinson, Jerde and Konopelski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 719
+        "FieldLength": 867
       }
     }
   }

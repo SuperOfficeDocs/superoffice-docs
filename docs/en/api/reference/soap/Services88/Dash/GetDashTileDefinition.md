@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashAgent.GetDashTileDef
 
 ## GetDashTileDefinition
 
-Gets a DashTileDefinition object.
 
-* **dashTileDefinitionId:** The identifier of the DashTileDefinition object
 
-**Returns:** DashTileDefinition
+
 
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetDashTileDefinition Response
 
@@ -89,3 +88,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

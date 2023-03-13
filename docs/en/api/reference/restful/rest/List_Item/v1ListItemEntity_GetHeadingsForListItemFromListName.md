@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,56 +94,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 246,
-    "Name": "Bogisich, Paucek and Ratke",
-    "ToolTip": "Assumenda voluptatem similique neque at.",
+    "Id": 966,
+    "Name": "Hodkiewicz-Gaylord",
+    "ToolTip": "Aperiam et ducimus modi quae et veritatis et.",
     "Deleted": false,
-    "Rank": 302,
-    "Type": "et",
-    "ColorBlock": 195,
-    "IconHint": "optio",
-    "Selected": false,
-    "LastChanged": "1995-11-03T17:37:39.6334317+01:00",
+    "Rank": 21,
+    "Type": "dolorem",
+    "ColorBlock": 23,
+    "IconHint": "laboriosam",
+    "Selected": true,
+    "LastChanged": "2003-08-18T14:19:11.1012251+02:00",
     "ChildItems": [
       {
-        "Id": 128,
-        "Name": "Muller-Howell",
-        "ToolTip": "Sed sit rerum.",
+        "Id": 546,
+        "Name": "Wolf Inc and Sons",
+        "ToolTip": "Sint eos ut.",
         "Deleted": false,
-        "Rank": 940,
-        "Type": "modi",
-        "ColorBlock": 900,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2012-04-23T17:37:39.6334317+02:00",
+        "Rank": 794,
+        "Type": "voluptas",
+        "ColorBlock": 727,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "1996-12-21T14:19:11.1012251+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "deleniti",
+        "ExtraInfo": "quod",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Mr. Randal Cedrick Kilback III",
+        "FullName": "Zander Jovany Haag PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 919
+            "FieldLength": 111
           }
         }
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "nisi",
-    "Hidden": false,
-    "FullName": "Mr. Kristin Catalina Hudson V",
+    "ExtraInfo": "dolore",
+    "StyleHint": "aperiam",
+    "Hidden": true,
+    "FullName": "Kayli Eli McCullough V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 769
+        "FieldLength": 669
       }
     }
   }

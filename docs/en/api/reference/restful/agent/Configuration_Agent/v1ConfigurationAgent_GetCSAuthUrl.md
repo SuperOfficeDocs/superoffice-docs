@@ -70,14 +70,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCSAuthUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "molestiae",
-  "ProgramName": "Hammes Group",
-  "Action": "eius",
-  "ExtraParameters": "saepe"
+  "Language": "non",
+  "ProgramName": "Johnson, Donnelly and Predovic",
+  "Action": "perspiciatis",
+  "ExtraParameters": "consequatur"
 }
 ```
 

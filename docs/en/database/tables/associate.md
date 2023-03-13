@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "associate"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -370,6 +370,9 @@ Employees, resources and other users - except for External persons
 |[Task](task.md)  |Task list table, activity types, like Phone, Meeting |
 |[TaskGroupLink](taskgrouplink.md)  |User group link table for Task, for MDO item hiding |
 |[TaskHeadingLink](taskheadinglink.md)  |Heading link table for Task, for MDO headers |
+|[TaskMenu](taskmenu.md)  |List items to merge into menues |
+|[TaskMenuGroupLink](taskmenugrouplink.md)  |User group link table for TaskMenu, for MDO item hiding |
+|[TaskMenuHeadingLink](taskmenuheadinglink.md)  |Heading link table for TaskMenu, for MDO headers |
 |[TemporaryKey](temporarykey.md)  |Temporary keys for lightweight authentications such as changing ones subscriptions |
 |[text](text.md)  |Long text fields from all over the system |
 |[ticket\_relation](ticket-relation.md)  |Contains ticket relations, used to drive processing logic |

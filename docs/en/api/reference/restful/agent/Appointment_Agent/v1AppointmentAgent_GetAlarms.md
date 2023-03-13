@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAlarms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "IncludeInvitations": false,
-  "IncludeAllAppointments": false,
-  "DefaultAlarmLeadTimeInMinutes": 492
+  "IncludeAllAppointments": true,
+  "DefaultAlarmLeadTimeInMinutes": 580
 }
 ```
 
@@ -95,47 +95,47 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 738,
-      "StartTime": "1995-11-14T17:37:16.282241+01:00",
-      "EndDate": "2011-04-29T17:37:16.282241+02:00",
-      "AlarmTime": "2004-06-25T17:37:16.282241+02:00",
-      "PersonId": 407,
-      "PersonFullName": "Kale Carroll",
-      "ContactName": "Kerluke, Wyman and Klein",
-      "ProjectId": 611,
-      "ProjectName": "Emmerich, Spinka and Bartell",
-      "AppointmentText": "et",
-      "SaleId": 552,
-      "SaleName": "Waters-Welch",
-      "Location": "quod",
+      "AppointmentId": 185,
+      "StartTime": "2010-10-18T14:19:02.4838092+02:00",
+      "EndDate": "2016-01-24T14:19:02.4838092+01:00",
+      "AlarmTime": "2003-04-18T14:19:02.4838092+02:00",
+      "PersonId": 87,
+      "PersonFullName": "Hilbert Russel",
+      "ContactName": "Gleason-Torp",
+      "ProjectId": 454,
+      "ProjectName": "Smitham, Stracke and Pollich",
+      "AppointmentText": "repudiandae",
+      "SaleId": 587,
+      "SaleName": "Zieme-Boyer",
+      "Location": "et",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 338,
+      "ContactId": 860,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "Monahan Group",
-      "TaskName": "Barton Group",
+      "FormalName": "Goyette, Hauck and Corwin",
+      "TaskName": "Sawayn, Ernser and Sanford",
       "ContactDepartment": "",
-      "ContactFullName": "Elisabeth Baumbach",
+      "ContactFullName": "Jonas McCullough",
       "JoinVideomeetUrl": "http://www.example.com/",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 293
+          "FieldType": "System.Int32",
+          "FieldLength": 149
         }
       }
     }
   ],
-  "PollingInterval": 834,
-  "SilentAfter": 768,
+  "PollingInterval": 942,
+  "SilentAfter": 193,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 174
+      "FieldType": "System.Int32",
+      "FieldLength": 564
     }
   }
 }

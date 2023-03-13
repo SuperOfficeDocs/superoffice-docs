@@ -77,26 +77,26 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 126,
-      "PrefDescId": 284,
-      "PrefValue": "assumenda",
-      "PrefShowValue": "nemo",
-      "Description": "Digitized modular intranet",
-      "IsBuiltin": true
+      "PrefDescLineId": 153,
+      "PrefDescId": 543,
+      "PrefValue": "modi",
+      "PrefShowValue": "enim",
+      "Description": "Self-enabling interactive array",
+      "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 126,
-      "PrefDescId": 284,
-      "PrefValue": "assumenda",
-      "PrefShowValue": "nemo",
-      "Description": "Digitized modular intranet",
-      "IsBuiltin": true
+      "PrefDescLineId": 153,
+      "PrefDescId": 543,
+      "PrefValue": "modi",
+      "PrefShowValue": "enim",
+      "Description": "Self-enabling interactive array",
+      "IsBuiltin": false
     }
   ]
 }
@@ -110,18 +110,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 647,
-    "PrefDescId": 670,
-    "PrefValue": "labore",
-    "PrefShowValue": "ipsa",
-    "Description": "Visionary bi-directional database",
-    "IsBuiltin": true,
+    "PrefDescLineId": 387,
+    "PrefDescId": 628,
+    "PrefValue": "in",
+    "PrefShowValue": "ex",
+    "Description": "Proactive mission-critical process improvement",
+    "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 232
+        "FieldLength": 689
       }
     }
   }

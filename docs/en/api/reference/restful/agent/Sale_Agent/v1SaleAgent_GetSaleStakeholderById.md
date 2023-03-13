@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    982,
-    13
+    452,
+    923
   ]
 }
 ```
@@ -109,31 +109,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Ryan, Olson and Von",
-    "Comment": "nulla",
-    "StakeholderRoleId": 742,
-    "CountryId": 304,
-    "PersonId": 943,
-    "EmailDescription": "olin@hammes.ca",
-    "EmailId": 4,
-    "EmailAddress": "kaley_terry@west.uk",
-    "PhoneId": 875,
-    "ContactName": "Streich-Feeney",
-    "ContactId": 458,
-    "SaleId": 774,
-    "Mrmrs": "sunt",
-    "Firstname": "Veda",
-    "MiddleName": "Mitchell, Dickens and Rodriguez",
-    "Lastname": "Strosin",
-    "SaleStakeholderId": 972,
-    "Rank": 765,
-    "Phone": "417-355-3897 x17187",
+    "StakeholderRoleName": "Vandervort-Hilpert",
+    "Comment": "sunt",
+    "StakeholderRoleId": 449,
+    "CountryId": 287,
+    "PersonId": 824,
+    "EmailDescription": "virginia@wehner.info",
+    "EmailId": 365,
+    "EmailAddress": "bonita.russel@tromphomenick.name",
+    "PhoneId": 159,
+    "ContactName": "Satterfield Group",
+    "ContactId": 331,
+    "SaleId": 788,
+    "Mrmrs": "architecto",
+    "Firstname": "Keenan",
+    "MiddleName": "Tromp, Kiehn and Rodriguez",
+    "Lastname": "Bernhard",
+    "SaleStakeholderId": 144,
+    "Rank": 115,
+    "Phone": "323-180-3105 x4707",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 30
+        "FieldLength": 698
       }
     }
   }

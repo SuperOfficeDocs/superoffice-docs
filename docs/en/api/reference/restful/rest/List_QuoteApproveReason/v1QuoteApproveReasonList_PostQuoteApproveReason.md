@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 535,
-  "Name": "Turcotte, Ruecker and Kling",
-  "Tooltip": "distinctio",
+  "Id": 424,
+  "Name": "Greenfelder, Bernier and DuBuque",
+  "Tooltip": "reiciendis",
   "Deleted": false,
-  "UdListDefinitionId": 562,
-  "Rank": 617
+  "UdListDefinitionId": 654,
+  "Rank": 684
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 280,
-  "Name": "Keebler-Rohan",
-  "Tooltip": "suscipit",
+  "Id": 149,
+  "Name": "Mohr Inc and Sons",
+  "Tooltip": "cum",
   "Deleted": true,
-  "UdListDefinitionId": 430,
-  "Rank": 421,
+  "UdListDefinitionId": 906,
+  "Rank": 705,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 85
+      "FieldLength": 870
     }
   }
 }

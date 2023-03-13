@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 778,
-  "Name": "Kshlerin, Romaguera and Dicki",
-  "Tooltip": "ad",
+  "Id": 829,
+  "Name": "Ernser LLC",
+  "Tooltip": "praesentium",
   "Deleted": false,
-  "Rank": 42,
+  "Rank": 747,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "enim",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quis",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 482,
-  "Name": "Hane Inc and Sons",
-  "Tooltip": "et",
+  "Id": 438,
+  "Name": "Toy Inc and Sons",
+  "Tooltip": "cupiditate",
   "Deleted": false,
-  "Rank": 524,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sit",
+  "Rank": 696,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "non",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 10
+      "FieldType": "System.String",
+      "FieldLength": 136
     }
   }
 }

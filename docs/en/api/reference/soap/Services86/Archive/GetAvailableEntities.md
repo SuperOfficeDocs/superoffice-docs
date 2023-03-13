@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IArchiveAgent.GetAvailabl
 
 ## GetAvailableEntities
 
-Return list of all entities supported by an archive provider. See also GetArchiveConfiguration.
 
-* **providerName:** The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
-* **context:** Optional context parameter, url-encoded string context parameter for ArchiveProvider constructor
 
-**Returns:** Array of all entity types supported by the archive provider. MDOListItem.Name = DisplayName, Tooltip = DisplayTooltip, Type = code name, StyleHint = optional/mandatory, IconHint=DefaultShow
+
 
 [WSDL file for Services86/Archive](../Services86-Archive.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetAvailableEntities Response
 
@@ -118,3 +116,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

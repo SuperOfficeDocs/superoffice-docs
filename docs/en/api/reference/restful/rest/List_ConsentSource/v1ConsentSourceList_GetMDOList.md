@@ -26,7 +26,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=soluta
+GET /api/v1/List/ConsentSource/MDOItems?query=ea
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Name": "Prohaska, Schmidt and Keebler",
-    "ToolTip": "Rerum ut et expedita qui nemo.",
+    "Id": 165,
+    "Name": "Kunze, Oberbrunner and Lesch",
+    "ToolTip": "Dolorem ducimus a eveniet.",
     "Deleted": false,
-    "Rank": 270,
-    "Type": "est",
+    "Rank": 407,
+    "Type": "dolorum",
     "ChildItems": [
       {
-        "Id": 31,
-        "Name": "Swift Inc and Sons",
-        "ToolTip": "Cupiditate quia et minus ea eos.",
+        "Id": 998,
+        "Name": "Spencer-Batz",
+        "ToolTip": "Enim iusto dolorem.",
         "Deleted": false,
-        "Rank": 893,
-        "Type": "libero",
+        "Rank": 673,
+        "Type": "iste",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eveniet",
-        "ColorBlock": 410,
-        "ExtraInfo": "inventore",
-        "StyleHint": "sunt",
-        "FullName": "Robyn Schmeler",
+        "IconHint": "enim",
+        "ColorBlock": 780,
+        "ExtraInfo": "adipisci",
+        "StyleHint": "nesciunt",
+        "FullName": "Dr. Alexie Dare I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 62
+            "FieldType": "System.String",
+            "FieldLength": 207
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 23,
-    "ExtraInfo": "nisi",
-    "StyleHint": "enim",
-    "FullName": "Delmer Jeremie Skiles PhD",
+    "IconHint": "aperiam",
+    "ColorBlock": 454,
+    "ExtraInfo": "tenetur",
+    "StyleHint": "corrupti",
+    "FullName": "Yolanda Hermiston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 923
+        "FieldLength": 826
       }
     }
   }

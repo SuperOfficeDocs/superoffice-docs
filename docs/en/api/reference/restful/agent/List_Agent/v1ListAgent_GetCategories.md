@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 244,
-    "Value": "autem",
-    "Tooltip": "ab",
+    "Id": 901,
+    "Value": "sint",
+    "Tooltip": "officia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 587
+        "FieldLength": 106
       }
     }
   },
   {
-    "Id": 244,
-    "Value": "autem",
-    "Tooltip": "ab",
+    "Id": 901,
+    "Value": "sint",
+    "Tooltip": "officia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 587
+        "FieldLength": 106
       }
     }
   }

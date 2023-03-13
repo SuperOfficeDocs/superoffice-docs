@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Preference": null,
-  "RemoveLowerLevels": true
+  "RemoveLowerLevels": false
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "molestiae",
+  "RawValue": "quia",
   "Specification": null,
-  "DisplayValue": "et",
-  "DisplayTooltip": "est",
+  "DisplayValue": "nam",
+  "DisplayTooltip": "omnis",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 16,
-  "PrefDescId": 684,
-  "TableName": "Stamm LLC",
-  "UserPreferenceId": 588,
+  "TargetId": 810,
+  "PrefDescId": 913,
+  "TableName": "Williamson Group",
+  "UserPreferenceId": 269,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 360
+      "FieldType": "System.Int32",
+      "FieldLength": 860
     }
   }
 }

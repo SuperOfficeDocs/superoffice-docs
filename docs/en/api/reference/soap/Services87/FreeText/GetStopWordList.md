@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IFreeTextAgent.GetStopWor
 
 ## GetStopWordList
 
-Returns the list of stop words
 
-**Returns:** The list of stop words
+
+
 
 [WSDL file for Services87/FreeText](../Services87-FreeText.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetStopWordList Response
 
 ```xml
@@ -68,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -87,28 +87,28 @@ OK
 POST /api/v1/CRMScript/{cRMScriptUniqueId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "laborum",
-    "InputValues2": "repellat"
+    "InputValues1": "ipsa",
+    "InputValues2": "et"
   },
   "BlockExecution": false,
-  "NavigateTo": "consequatur",
-  "Message": "quis",
-  "ShowDialog": "natus",
+  "NavigateTo": "qui",
+  "Message": "numquam",
+  "ShowDialog": "recusandae",
   "OutputValues": {
-    "OutputValues1": "et",
-    "OutputValues2": "ipsa"
+    "OutputValues1": "aut",
+    "OutputValues2": "aut"
   },
   "StateValues": {
-    "StateValues1": "nisi",
-    "StateValues2": "non"
+    "StateValues1": "minima",
+    "StateValues2": "sunt"
   },
-  "Exception": "nemo"
+  "Exception": "maiores"
 }
 ```
 
@@ -121,28 +121,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "rerum",
-    "InputValues2": "culpa"
+    "InputValues1": "ipsa",
+    "InputValues2": "molestiae"
   },
-  "BlockExecution": false,
-  "NavigateTo": "id",
-  "Message": "est",
-  "ShowDialog": "corrupti",
+  "BlockExecution": true,
+  "NavigateTo": "non",
+  "Message": "rem",
+  "ShowDialog": "nobis",
   "OutputValues": {
-    "OutputValues1": "rem",
-    "OutputValues2": "enim"
+    "OutputValues1": "dolor",
+    "OutputValues2": "quasi"
   },
   "StateValues": {
-    "StateValues1": "delectus",
-    "StateValues2": "sunt"
+    "StateValues1": "illum",
+    "StateValues2": "laborum"
   },
-  "Exception": "rem",
+  "Exception": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 131
+      "FieldLength": 836
     }
   }
 }

@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IQuoteAgent.DeleteQuote">
 
 ## DeleteQuote
 
-Delete a Quote
 
-* **quoteId:** QuoteId of the Quote to delete.
+
+
 
 [WSDL file for Services88/Quote](../Services88-Quote.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteQuote Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

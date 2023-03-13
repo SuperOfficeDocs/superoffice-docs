@@ -1271,211 +1271,119 @@ title: Services84.BLOBAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="BLOB">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for BLOB</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultBlobEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new BlobEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/CreateDefaultBlobEntity" name="CreateDefaultBlobEntityRequest" message="tns:CreateDefaultBlobEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/CreateDefaultBlobEntityResponse" name="CreateDefaultBlobEntityResponse" message="tns:CreateDefaultBlobEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveBlobEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing BlobEntity or creates a new BlobEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/SaveBlobEntity" name="SaveBlobEntityRequest" message="tns:SaveBlobEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/SaveBlobEntityResponse" name="SaveBlobEntityResponse" message="tns:SaveBlobEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteBlobEntity">
-      <wsdl:documentation>
-        <summary>Deletes the BlobEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/DeleteBlobEntity" name="DeleteBlobEntityRequest" message="tns:DeleteBlobEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/DeleteBlobEntityResponse" name="DeleteBlobEntityResponse" message="tns:DeleteBlobEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBlobEntity">
-      <wsdl:documentation>
-        <summary>Gets a BlobEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetBlobEntity" name="GetBlobEntityRequest" message="tns:GetBlobEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetBlobEntityResponse" name="GetBlobEntityResponse" message="tns:GetBlobEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetBlobStream">
-      <wsdl:documentation>
-        <summary>Store a binary object from it's stream</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/SetBlobStream" name="SetBlobStreamRequest" message="tns:SetBlobStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/SetBlobStreamResponse" name="SetBlobStreamResponse" message="tns:SetBlobStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBlobStream">
-      <wsdl:documentation>
-        <summary>Get the binary object as a stream</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetBlobStream" name="GetBlobStreamRequest" message="tns:GetBlobStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetBlobStreamResponse" name="GetBlobStreamResponse" message="tns:GetBlobStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectImage">
-      <wsdl:documentation>
-        <summary>Returns the project image that is displayed in the CRM application.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetProjectImage" name="GetProjectImageRequest" message="tns:GetProjectImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetProjectImageResponse" name="GetProjectImageResponse" message="tns:GetProjectImageResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonImage">
-      <wsdl:documentation>
-        <summary>Returns the person image that is displayed in the CRM application.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetPersonImage" name="GetPersonImageRequest" message="tns:GetPersonImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetPersonImageResponse" name="GetPersonImageResponse" message="tns:GetPersonImageResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetProjectImage">
-      <wsdl:documentation>
-        <summary>Stores the project image that is displayed in the CRM application.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/SetProjectImage" name="SetProjectImageRequest" message="tns:SetProjectImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/SetProjectImageResponse" name="SetProjectImageResponse" message="tns:SetProjectImageResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetPersonImage">
-      <wsdl:documentation>
-        <summary>Stores the person image that is displayed in the CRM application.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/SetPersonImage" name="SetPersonImageRequest" message="tns:SetPersonImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/SetPersonImageResponse" name="SetPersonImageResponse" message="tns:SetPersonImageResponse" />
     </wsdl:operation>
     <wsdl:operation name="ChangeProjectImage">
-      <wsdl:documentation>
-        <summary>Changes the project image link. If the Binary object id is 0, any image link is removed from the project.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/ChangeProjectImage" name="ChangeProjectImageRequest" message="tns:ChangeProjectImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/ChangeProjectImageResponse" name="ChangeProjectImageResponse" message="tns:ChangeProjectImageResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveProjectImage">
-      <wsdl:documentation>
-        <summary>Saves a project image that is displayed in the CRM application's project image selection dialog to the database.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/SaveProjectImage" name="SaveProjectImageRequest" message="tns:SaveProjectImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/SaveProjectImageResponse" name="SaveProjectImageResponse" message="tns:SaveProjectImageResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBlobEntityOnProject">
-      <wsdl:documentation>
-        <summary>Gets the blob entity that represents the project image binary object.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetBlobEntityOnProject" name="GetBlobEntityOnProjectRequest" message="tns:GetBlobEntityOnProjectRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetBlobEntityOnProjectResponse" name="GetBlobEntityOnProjectResponse" message="tns:GetBlobEntityOnProjectResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBlobEntityOnPerson">
-      <wsdl:documentation>
-        <summary>Gets the blob entity that represents the person image binary object.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetBlobEntityOnPerson" name="GetBlobEntityOnPersonRequest" message="tns:GetBlobEntityOnPersonRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetBlobEntityOnPersonResponse" name="GetBlobEntityOnPersonResponse" message="tns:GetBlobEntityOnPersonResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBlobEntityOnCountry">
-      <wsdl:documentation>
-        <summary>Gets the blob entity that represents the country flag binary object.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetBlobEntityOnCountry" name="GetBlobEntityOnCountryRequest" message="tns:GetBlobEntityOnCountryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetBlobEntityOnCountryResponse" name="GetBlobEntityOnCountryResponse" message="tns:GetBlobEntityOnCountryResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBlobEntityOnProduct">
-      <wsdl:documentation>
-        <summary>Gets the blob entity that represents the product image binary object.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetBlobEntityOnProduct" name="GetBlobEntityOnProductRequest" message="tns:GetBlobEntityOnProductRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetBlobEntityOnProductResponse" name="GetBlobEntityOnProductResponse" message="tns:GetBlobEntityOnProductResponse" />
     </wsdl:operation>
     <wsdl:operation name="ChangePersonImage">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/ChangePersonImage" name="ChangePersonImageRequest" message="tns:ChangePersonImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/ChangePersonImageResponse" name="ChangePersonImageResponse" message="tns:ChangePersonImageResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveImageStream">
-      <wsdl:documentation>
-        <summary>Stores an image in the database without linking it to a project or a person. It is possible to ChangePersonImage or ChangeProjectImage to attach image later.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/SaveImageStream" name="SaveImageStreamRequest" message="tns:SaveImageStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/SaveImageStreamResponse" name="SaveImageStreamResponse" message="tns:SaveImageStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProductImage">
-      <wsdl:documentation>
-        <summary>Returns the product image (rank=1) that is displayed in the CRM application.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetProductImage" name="GetProductImageRequest" message="tns:GetProductImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetProductImageResponse" name="GetProductImageResponse" message="tns:GetProductImageResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetProductImage">
-      <wsdl:documentation>
-        <summary>Stores the product image that is displayed in the CRM application. The image is scaled down to max 1000x1000. This method operates only the main (rank=1) image; future extensions may support multiple images. A thumbnail of size 75x75 is also automatically set.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/SetProductImage" name="SetProductImageRequest" message="tns:SetProductImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/SetProductImageResponse" name="SetProductImageResponse" message="tns:SetProductImageResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProductThumbnail">
-      <wsdl:documentation>
-        <summary>Returns the product thumbnail that is displayed in the CRM application.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetProductThumbnail" name="GetProductThumbnailRequest" message="tns:GetProductThumbnailRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetProductThumbnailResponse" name="GetProductThumbnailResponse" message="tns:GetProductThumbnailResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetProductThumbnail">
-      <wsdl:documentation>
-        <summary>Stores the product thumbnail that is displayed in the CRM application. The image is scaled down to max 200x200 pixels.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/SetProductThumbnail" name="SetProductThumbnailRequest" message="tns:SetProductThumbnailRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/SetProductThumbnailResponse" name="SetProductThumbnailResponse" message="tns:SetProductThumbnailResponse" />
     </wsdl:operation>
     <wsdl:operation name="ChangeProductImage">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/ChangeProductImage" name="ChangeProductImageRequest" message="tns:ChangeProductImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/ChangeProductImageResponse" name="ChangeProductImageResponse" message="tns:ChangeProductImageResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetQuoteLineImage">
-      <wsdl:documentation>
-        <summary>Returns the quoteline image (rank=1) that is displayed in the CRM application.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetQuoteLineImage" name="GetQuoteLineImageRequest" message="tns:GetQuoteLineImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetQuoteLineImageResponse" name="GetQuoteLineImageResponse" message="tns:GetQuoteLineImageResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAppData">
-      <wsdl:documentation>
-        <summary>Get a CLOB (limited to a reasonable size by the mechanics of Web Services) according to a string key; ALSO limits to the current ApplicationToken if any</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetAppData" name="GetAppDataRequest" message="tns:GetAppDataRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetAppDataResponse" name="GetAppDataResponse" message="tns:GetAppDataResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetAppData">
-      <wsdl:documentation>
-        <summary>Get a CLOB (limited to a reasonable size by the mechanics of Web Services) according to a string key; ALSO limits to the current ApplicationToken if any. Existing data, if any, will be overwritten. Overwrite with a blank value to delete.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/SetAppData" name="SetAppDataRequest" message="tns:SetAppDataRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/SetAppDataResponse" name="SetAppDataResponse" message="tns:SetAppDataResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonImageWithSize">
-      <wsdl:documentation>
-        <summary>Returns the person image that is displayed in the CRM application with a specified maximum size.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetPersonImageWithSize" name="GetPersonImageWithSizeRequest" message="tns:GetPersonImageWithSizeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetPersonImageWithSizeResponse" name="GetPersonImageWithSizeResponse" message="tns:GetPersonImageWithSizeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectImageWithSize">
-      <wsdl:documentation>
-        <summary>Returns the project image that is displayed in the CRM application with a specified maximum size.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetProjectImageWithSize" name="GetProjectImageWithSizeRequest" message="tns:GetProjectImageWithSizeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetProjectImageWithSizeResponse" name="GetProjectImageWithSizeResponse" message="tns:GetProjectImageWithSizeResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetChatImageWithSize">
-      <wsdl:documentation>
-        <summary>Returns the chat image that is displayed in chat with a specified maximum size.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetChatImageWithSize" name="GetChatImageWithSizeRequest" message="tns:GetChatImageWithSizeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/BLOB/GetChatImageWithSizeResponse" name="GetChatImageWithSizeResponse" message="tns:GetChatImageWithSizeResponse" />
     </wsdl:operation>
@@ -1954,3 +1862,4 @@ title: Services84.BLOBAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

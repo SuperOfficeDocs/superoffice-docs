@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.CreateDefaultC
 
 ## CreateDefaultChatTopicEntity
 
-Loading default values into a new ChatTopicEntity.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-**Returns:** New ChatTopicEntity with default values
+
+
 
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
@@ -47,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultChatTopicEntity Response
 
 ```xml
@@ -71,7 +71,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Chat:Value xsi:type="xsd:string"></Chat:Value>
      <Chat:Tooltip xsi:type="xsd:string"></Chat:Tooltip>
     </Chat:Language>
-    <Chat:LastAccept xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:LastAccept>
+    <Chat:LastAccept xsi:type="xsd:dateTime">2023-02-15T13:16:39Z</Chat:LastAccept>
     <Chat:SecondsPrAccept xsi:type="xsd:int">0</Chat:SecondsPrAccept>
     <Chat:AlertRecipient xsi:type="xsd:string"></Chat:AlertRecipient>
     <Chat:AlertTemplate xsi:type="Chat:ReplyTemplate">
@@ -223,3 +223,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

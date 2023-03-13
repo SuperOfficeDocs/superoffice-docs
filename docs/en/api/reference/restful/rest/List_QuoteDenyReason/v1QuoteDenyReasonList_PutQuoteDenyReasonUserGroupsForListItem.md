@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 612,
-    "Name": "Padberg, Douglas and Medhurst",
-    "ToolTip": "Laborum magnam ab nobis officiis.",
-    "Deleted": false,
-    "Rank": 47,
-    "Type": "sit",
-    "ColorBlock": 973,
-    "IconHint": "illo",
-    "Selected": true,
-    "LastChanged": "2008-10-01T17:37:40.2495009+02:00",
+    "Id": 366,
+    "Name": "Jones Group",
+    "ToolTip": "Eveniet et nobis est.",
+    "Deleted": true,
+    "Rank": 400,
+    "Type": "consequuntur",
+    "ColorBlock": 806,
+    "IconHint": "corrupti",
+    "Selected": false,
+    "LastChanged": "2011-06-30T14:19:11.430529+02:00",
     "ChildItems": [
       {
-        "Id": 306,
-        "Name": "Heaney, Senger and Runolfsdottir",
-        "ToolTip": "Distinctio et.",
-        "Deleted": false,
-        "Rank": 614,
-        "Type": "suscipit",
-        "ColorBlock": 459,
-        "IconHint": "distinctio",
+        "Id": 39,
+        "Name": "Schaden, Ryan and Koelpin",
+        "ToolTip": "Necessitatibus aut enim laudantium aut ut.",
+        "Deleted": true,
+        "Rank": 867,
+        "Type": "dolorem",
+        "ColorBlock": 913,
+        "IconHint": "eos",
         "Selected": true,
-        "LastChanged": "2015-03-14T17:37:40.2495009+01:00",
+        "LastChanged": "2005-07-27T14:19:11.430529+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "omnis",
+        "ExtraInfo": "iste",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Cyril Koch"
+        "FullName": "Mr. Scottie Katrine Schuster DVM"
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "magni",
+    "StyleHint": "doloribus",
     "Hidden": false,
-    "FullName": "Katelyn D'Amore"
+    "FullName": "Mrs. Elisa O'Hara PhD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 643,
-    "Name": "Schaefer-Bailey",
-    "ToolTip": "Possimus unde quaerat voluptatibus totam.",
-    "Deleted": true,
-    "Rank": 822,
-    "Type": "enim",
-    "ColorBlock": 240,
-    "IconHint": "at",
+    "Id": 398,
+    "Name": "Bauch Inc and Sons",
+    "ToolTip": "Nostrum iusto odit delectus.",
+    "Deleted": false,
+    "Rank": 969,
+    "Type": "blanditiis",
+    "ColorBlock": 75,
+    "IconHint": "cupiditate",
     "Selected": false,
-    "LastChanged": "2013-02-11T17:37:40.250503+01:00",
+    "LastChanged": "2003-12-18T14:19:11.430529+01:00",
     "ChildItems": [
       {
-        "Id": 322,
-        "Name": "Marquardt LLC",
-        "ToolTip": "Natus doloremque eum.",
+        "Id": 873,
+        "Name": "Cummerata-Wyman",
+        "ToolTip": "Distinctio impedit nam sunt non ut dolorem.",
         "Deleted": false,
-        "Rank": 904,
-        "Type": "aut",
-        "ColorBlock": 104,
-        "IconHint": "deleniti",
+        "Rank": 492,
+        "Type": "provident",
+        "ColorBlock": 211,
+        "IconHint": "beatae",
         "Selected": false,
-        "LastChanged": "2016-04-17T17:37:40.250503+02:00",
+        "LastChanged": "2010-03-07T14:19:11.430529+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "dolores",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "dolorum",
         "Hidden": false,
-        "FullName": "Leanna Doyle",
+        "FullName": "Miss Guy Padberg DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 58
+            "FieldLength": 953
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "natus",
-    "Hidden": true,
-    "FullName": "Lois Paucek",
+    "ExtraInfo": "officia",
+    "StyleHint": "repellat",
+    "Hidden": false,
+    "FullName": "Izaiah Denesik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 209
+        "FieldType": "System.Int32",
+        "FieldLength": 50
       }
     }
   }

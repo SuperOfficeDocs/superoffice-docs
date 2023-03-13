@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 537,
-  "Name": "Gutkowski Group",
-  "Tooltip": "accusamus",
-  "Deleted": false,
-  "Rank": 950,
-  "UdListDefinitionId": 400
+  "HeadingId": 460,
+  "Name": "Toy Group",
+  "Tooltip": "eos",
+  "Deleted": true,
+  "Rank": 282,
+  "UdListDefinitionId": 128
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 20,
-  "Name": "Weber, Wehner and Cremin",
-  "Tooltip": "magnam",
-  "Deleted": false,
-  "Rank": 433,
-  "UdListDefinitionId": 642,
+  "HeadingId": 157,
+  "Name": "Graham-Sanford",
+  "Tooltip": "exercitationem",
+  "Deleted": true,
+  "Rank": 471,
+  "UdListDefinitionId": 706,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 904
+      "FieldLength": 291
     }
   }
 }

@@ -491,83 +491,47 @@ title: Services86.TimeZoneAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="TimeZone">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for TimeZone</summary>
-    </wsdl:documentation>
     <wsdl:operation name="InitializeTimeZoneData">
-      <wsdl:documentation>
-        <summary>Initalizes the TimeZoneData</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/TimeZone/InitializeTimeZoneData" name="InitializeTimeZoneDataRequest" message="tns:InitializeTimeZoneDataRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/TimeZone/InitializeTimeZoneDataResponse" name="InitializeTimeZoneDataResponse" message="tns:InitializeTimeZoneDataResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBaseTimeZoneId">
-      <wsdl:documentation>
-        <summary>Get the base timezone id.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/TimeZone/GetBaseTimeZoneId" name="GetBaseTimeZoneIdRequest" message="tns:GetBaseTimeZoneIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/TimeZone/GetBaseTimeZoneIdResponse" name="GetBaseTimeZoneIdResponse" message="tns:GetBaseTimeZoneIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="UpdateTimeZoneData">
-      <wsdl:documentation>
-        <summary>Retrieve time zone data from the SuperOffice server and update TimeZone data in the database</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/TimeZone/UpdateTimeZoneData" name="UpdateTimeZoneDataRequest" message="tns:UpdateTimeZoneDataRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/TimeZone/UpdateTimeZoneDataResponse" name="UpdateTimeZoneDataResponse" message="tns:UpdateTimeZoneDataResponse" />
     </wsdl:operation>
     <wsdl:operation name="CheckNewTimeZoneDataAvailable">
-      <wsdl:documentation>
-        <summary>Check to see if new timezone data is available</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/TimeZone/CheckNewTimeZoneDataAvailable" name="CheckNewTimeZoneDataAvailableRequest" message="tns:CheckNewTimeZoneDataAvailableRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/TimeZone/CheckNewTimeZoneDataAvailableResponse" name="CheckNewTimeZoneDataAvailableResponse" message="tns:CheckNewTimeZoneDataAvailableResponse" />
     </wsdl:operation>
     <wsdl:operation name="ToggleActiveTimeZoneRow">
-      <wsdl:documentation>
-        <summary>Toggles active state of a single row in the TZLocation table</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/TimeZone/ToggleActiveTimeZoneRow" name="ToggleActiveTimeZoneRowRequest" message="tns:ToggleActiveTimeZoneRowRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/TimeZone/ToggleActiveTimeZoneRowResponse" name="ToggleActiveTimeZoneRowResponse" message="tns:ToggleActiveTimeZoneRowResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetActiveTimeZonesByFilter">
-      <wsdl:documentation>
-        <summary>Toggles active state of a single row in the TZLocation table</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/TimeZone/SetActiveTimeZonesByFilter" name="SetActiveTimeZonesByFilterRequest" message="tns:SetActiveTimeZonesByFilterRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/TimeZone/SetActiveTimeZonesByFilterResponse" name="SetActiveTimeZonesByFilterResponse" message="tns:SetActiveTimeZonesByFilterResponse" />
     </wsdl:operation>
     <wsdl:operation name="TimeOfLastTimeZoneUpdate">
-      <wsdl:documentation>
-        <summary>Get the time time zone data was last updated</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/TimeZone/TimeOfLastTimeZoneUpdate" name="TimeOfLastTimeZoneUpdateRequest" message="tns:TimeOfLastTimeZoneUpdateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/TimeZone/TimeOfLastTimeZoneUpdateResponse" name="TimeOfLastTimeZoneUpdateResponse" message="tns:TimeOfLastTimeZoneUpdateResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetBaseTimeZoneId">
-      <wsdl:documentation>
-        <summary>Set the base timezone id.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/TimeZone/SetBaseTimeZoneId" name="SetBaseTimeZoneIdRequest" message="tns:SetBaseTimeZoneIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/TimeZone/SetBaseTimeZoneIdResponse" name="SetBaseTimeZoneIdResponse" message="tns:SetBaseTimeZoneIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDefaultTimeZonePreference">
-      <wsdl:documentation>
-        <summary>Returns the id of the default timezone preference with deflevel system wide</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/TimeZone/GetDefaultTimeZonePreference" name="GetDefaultTimeZonePreferenceRequest" message="tns:GetDefaultTimeZonePreferenceRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/TimeZone/GetDefaultTimeZonePreferenceResponse" name="GetDefaultTimeZonePreferenceResponse" message="tns:GetDefaultTimeZonePreferenceResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteTimeZones">
-      <wsdl:documentation>
-        <summary>Deletes all time zone data (locations and rules) from the database</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/TimeZone/DeleteTimeZones" name="DeleteTimeZonesRequest" message="tns:DeleteTimeZonesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/TimeZone/DeleteTimeZonesResponse" name="DeleteTimeZonesResponse" message="tns:DeleteTimeZonesResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetActiveTimeZoneRow">
-      <wsdl:documentation>
-        <summary>Set active state of singe row in the TZLocation table</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/TimeZone/SetActiveTimeZoneRow" name="SetActiveTimeZoneRowRequest" message="tns:SetActiveTimeZoneRowRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/TimeZone/SetActiveTimeZoneRowResponse" name="SetActiveTimeZoneRowResponse" message="tns:SetActiveTimeZoneRowResponse" />
     </wsdl:operation>
@@ -758,3 +722,4 @@ title: Services86.TimeZoneAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

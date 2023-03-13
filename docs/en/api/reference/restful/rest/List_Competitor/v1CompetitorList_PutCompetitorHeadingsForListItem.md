@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 94,
-    "Name": "Boyer-Gaylord",
-    "ToolTip": "Labore voluptas eos cupiditate rem.",
-    "Deleted": false,
-    "Rank": 309,
-    "Type": "fugiat",
-    "ColorBlock": 354,
-    "IconHint": "nihil",
-    "Selected": false,
-    "LastChanged": "2022-10-10T17:37:39.8815084+02:00",
+    "Id": 743,
+    "Name": "Stehr Group",
+    "ToolTip": "Praesentium est fugit velit qui.",
+    "Deleted": true,
+    "Rank": 635,
+    "Type": "quo",
+    "ColorBlock": 61,
+    "IconHint": "perferendis",
+    "Selected": true,
+    "LastChanged": "2016-10-11T14:19:11.1480931+02:00",
     "ChildItems": [
       {
-        "Id": 637,
-        "Name": "Ward, Oberbrunner and Feil",
-        "ToolTip": "Accusantium et corrupti ipsam at quasi officiis.",
-        "Deleted": true,
-        "Rank": 752,
-        "Type": "molestiae",
-        "ColorBlock": 480,
-        "IconHint": "sint",
+        "Id": 638,
+        "Name": "Huel, Murazik and Denesik",
+        "ToolTip": "Quis aliquam aliquid doloribus eveniet.",
+        "Deleted": false,
+        "Rank": 71,
+        "Type": "voluptas",
+        "ColorBlock": 532,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2003-04-20T17:37:39.8815084+02:00",
+        "LastChanged": "2019-09-29T14:19:11.1480931+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "omnis",
+        "ExtraInfo": "illo",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Aurelia Jakubowski"
+        "FullName": "Calista Little"
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "expedita",
-    "Hidden": true,
-    "FullName": "Aurelia Littel"
+    "ExtraInfo": "quo",
+    "StyleHint": "enim",
+    "Hidden": false,
+    "FullName": "Cordelia Bednar"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 644,
-    "Name": "Rosenbaum LLC",
-    "ToolTip": "Fugit ipsam id repudiandae minus autem vero.",
+    "Id": 220,
+    "Name": "Morissette Inc and Sons",
+    "ToolTip": "Voluptates autem error omnis.",
     "Deleted": false,
-    "Rank": 199,
-    "Type": "facilis",
-    "ColorBlock": 694,
-    "IconHint": "ea",
+    "Rank": 665,
+    "Type": "aliquam",
+    "ColorBlock": 807,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2004-08-25T17:37:39.8835002+02:00",
+    "LastChanged": "2017-04-15T14:19:11.1480931+02:00",
     "ChildItems": [
       {
-        "Id": 619,
-        "Name": "Tillman, Schiller and Medhurst",
-        "ToolTip": "Officia beatae et.",
+        "Id": 615,
+        "Name": "Trantow-Dicki",
+        "ToolTip": "Est quo nulla mollitia ipsa et.",
         "Deleted": false,
-        "Rank": 685,
-        "Type": "ex",
-        "ColorBlock": 716,
-        "IconHint": "eos",
+        "Rank": 64,
+        "Type": "culpa",
+        "ColorBlock": 95,
+        "IconHint": "magni",
         "Selected": true,
-        "LastChanged": "2018-02-01T17:37:39.8835002+01:00",
+        "LastChanged": "1996-04-05T14:19:11.1480931+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "delectus",
+        "ExtraInfo": "maxime",
+        "StyleHint": "maiores",
         "Hidden": false,
-        "FullName": "Prof. Shaylee Conroy II",
+        "FullName": "Miss Delia Eladio Rodriguez",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 409
+            "FieldLength": 157
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "perspiciatis",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Dayna Smith",
+    "FullName": "Ms. Sarai Troy Blick Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 96
+        "FieldLength": 44
       }
     }
   }

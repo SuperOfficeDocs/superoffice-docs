@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IAppointmentAgent.DeleteA
 
 ## DeleteAppointmentEntity
 
-Deletes the AppointmentEntity
 
-* **appointmentEntityId:** The identity of the AppointmentEntity
+
+
 
 [WSDL file for Services85/Appointment](../Services85-Appointment.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteAppointmentEntity Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -79,26 +79,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 430,
-  "Name": "Weber-Rodriguez",
+  "WebhookId": 532,
+  "Name": "Runte, Krajcik and Schaden",
   "Events": [
-    "provident",
-    "perspiciatis"
+    "saepe",
+    "unde"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "aut",
+  "Secret": "quis",
   "State": "Active",
-  "Type": "consectetur",
+  "Type": "eum",
   "Headers": {
-    "Headers1": "voluptatem",
-    "Headers2": "aut"
+    "Headers1": "quis",
+    "Headers2": "rerum"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2019-12-25T17:37:39.5944326+01:00",
+  "Registered": "2010-07-09T14:19:11.0686043+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2021-09-03T17:37:39.5944326+02:00",
+  "Updated": "1996-12-24T14:19:11.0686043+01:00",
   "UpdatedAssociate": null
 }
 ```

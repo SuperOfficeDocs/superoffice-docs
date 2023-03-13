@@ -11,14 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.FindContactOr
 
 ## FindContactOrPersonByEmailNameWithLimit
 
-<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-* **name:** The sender name
-* **emailAddress:** The sender email address
-* **numberOfContacts:** Maximum returned number of contacts
-* **numberOfPersons:** Maximum returned number of persons
 
-**Returns:** Contacts and persons matching emailaddress and name
+
 
 [WSDL file for Services88/EMail](../Services88-EMail.md)
 
@@ -55,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## FindContactOrPersonByEmailNameWithLimit Response
 
 ```xml
@@ -86,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

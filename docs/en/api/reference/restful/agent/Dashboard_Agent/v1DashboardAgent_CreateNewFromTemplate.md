@@ -93,20 +93,20 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 939,
-  "Caption": "quia",
-  "Description": "Customer-focused foreground encryption",
-  "SelectionId": 950,
+  "DashboardTileId": 275,
+  "Caption": "et",
+  "Description": "Virtual tertiary framework",
+  "SelectionId": 511,
   "VisibleFor": [
     {
-      "VisibleId": 317,
+      "VisibleId": 124,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "repellendus"
     },
     {
-      "VisibleId": 317,
+      "VisibleId": 124,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "repellendus"
     }
   ]
 }
@@ -119,64 +119,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 846,
-  "Caption": "perspiciatis",
-  "Description": "Vision-oriented value-added flexibility",
-  "ChartName": "Prohaska, Walter and Boyer",
-  "ChartId": "maxime",
-  "IsDefault": true,
-  "AssociateId": 119,
-  "GroupId": 505,
+  "DashboardTileId": 522,
+  "Caption": "est",
+  "Description": "Enhanced encompassing encoding",
+  "ChartName": "McGlynn-Eichmann",
+  "ChartId": "ipsam",
+  "IsDefault": false,
+  "AssociateId": 367,
+  "GroupId": 16,
   "SelectionId": 425,
-  "Config": "labore",
+  "Config": "pariatur",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Crona, Terry and Koelpin",
-      "Description": "Organic needs-based open architecture",
+      "Name": "Nienow-Pacocha",
+      "Description": "Pre-emptive disintermediate application",
       "Type": "Boolean",
-      "ListName": "Gottlieb, Heaney and Feeney",
+      "ListName": "Hoeger LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "perspiciatis",
-      "DefaultDataOption": false,
+      "Value": "cum",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 444
+          "FieldLength": 574
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 312,
+      "VisibleId": 705,
       "Visibility": "All",
-      "DisplayValue": "error",
+      "DisplayValue": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 416
+          "FieldType": "System.String",
+          "FieldLength": 638
         }
       }
     },
     {
-      "VisibleId": 312,
+      "VisibleId": 705,
       "Visibility": "All",
-      "DisplayValue": "error",
+      "DisplayValue": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 416
+          "FieldType": "System.String",
+          "FieldLength": 638
         }
       }
     }
@@ -185,8 +185,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 839
+      "FieldType": "System.Int32",
+      "FieldLength": 986
     }
   }
 }

@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 9,
-    "Name": "Abbott LLC",
-    "Tooltip": "quia",
-    "Deleted": false,
-    "UdListDefinitionId": 369,
-    "Rank": 912
+    "Id": 656,
+    "Name": "Franecki, Greenholt and Rohan",
+    "Tooltip": "consectetur",
+    "Deleted": true,
+    "UdListDefinitionId": 306,
+    "Rank": 873
   },
   {
-    "Id": 9,
-    "Name": "Abbott LLC",
-    "Tooltip": "quia",
-    "Deleted": false,
-    "UdListDefinitionId": 369,
-    "Rank": 912
+    "Id": 656,
+    "Name": "Franecki, Greenholt and Rohan",
+    "Tooltip": "consectetur",
+    "Deleted": true,
+    "UdListDefinitionId": 306,
+    "Rank": 873
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 494,
-    "Name": "Schoen LLC",
-    "Tooltip": "mollitia",
-    "Deleted": true,
-    "UdListDefinitionId": 35,
-    "Rank": 733,
+    "Id": 228,
+    "Name": "O'Reilly, Swaniawski and Sawayn",
+    "Tooltip": "dolorem",
+    "Deleted": false,
+    "UdListDefinitionId": 156,
+    "Rank": 628,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 481
+        "FieldType": "System.String",
+        "FieldLength": 839
       }
     }
   }

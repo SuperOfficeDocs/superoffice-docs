@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 11.29.2022
+so.date: 02.15.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -17,6 +17,7 @@ so.envir:
 Service methods defined on <see cref='T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent'>UserDefinedFieldInfoAgent</see> that can trigger server-side event scripts.
 
 * [ChangeFieldType](changefieldtype.md)
+* [ClearCaches](clearcaches.md)
 * [CreateDefaultUserDefinedFieldInfo](createdefaultuserdefinedfieldinfo.md)
 * [CreateUserDefinedFieldInfo](createuserdefinedfieldinfo.md)
 * [DeleteUserDefinedFieldInfo](deleteuserdefinedfieldinfo.md)

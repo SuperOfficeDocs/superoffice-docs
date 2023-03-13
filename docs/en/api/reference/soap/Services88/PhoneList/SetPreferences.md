@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IPhoneListAgent.SetPrefer
 
 ## SetPreferences
 
-Setting Phone List Preferences to the CRM 5 user preferences
 
-* **preferences:** The preference that is set as user preferences
+
+
 
 [WSDL file for Services88/PhoneList](../Services88-PhoneList.md)
 
@@ -55,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetPreferences Response
 
 ```xml
@@ -73,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

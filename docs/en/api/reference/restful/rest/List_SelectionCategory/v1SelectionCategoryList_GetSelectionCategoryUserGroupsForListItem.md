@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 734,
-    "Name": "Kirlin, Christiansen and Kiehn",
-    "ToolTip": "Aut reiciendis ducimus rerum.",
+    "Id": 590,
+    "Name": "Upton-Cronin",
+    "ToolTip": "Molestias eos iure.",
     "Deleted": true,
-    "Rank": 896,
-    "Type": "dolore",
-    "ColorBlock": 445,
-    "IconHint": "labore",
+    "Rank": 857,
+    "Type": "illo",
+    "ColorBlock": 485,
+    "IconHint": "quasi",
     "Selected": false,
-    "LastChanged": "1997-08-11T17:37:40.3575059+02:00",
+    "LastChanged": "2020-08-20T14:19:11.6120888+02:00",
     "ChildItems": [
       {
-        "Id": 57,
-        "Name": "Flatley, Kiehn and Okuneva",
-        "ToolTip": "Veritatis aliquid odit.",
+        "Id": 945,
+        "Name": "Robel LLC",
+        "ToolTip": "Distinctio ipsum et placeat.",
         "Deleted": false,
-        "Rank": 504,
-        "Type": "maxime",
-        "ColorBlock": 767,
-        "IconHint": "nihil",
-        "Selected": false,
-        "LastChanged": "2016-11-03T17:37:40.3575059+01:00",
+        "Rank": 377,
+        "Type": "dolore",
+        "ColorBlock": 947,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2003-06-12T14:19:11.6120888+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "dolor",
+        "ExtraInfo": "unde",
+        "StyleHint": "non",
         "Hidden": true,
-        "FullName": "Trystan Trantow II",
+        "FullName": "Alysha Corkery",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 869
+            "FieldLength": 297
           }
         }
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "doloribus",
+    "ExtraInfo": "aliquid",
+    "StyleHint": "sed",
     "Hidden": true,
-    "FullName": "Mrs. Viola Durgan",
+    "FullName": "Dusty Gislason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 732
+        "FieldType": "System.Int32",
+        "FieldLength": 798
       }
     }
   }

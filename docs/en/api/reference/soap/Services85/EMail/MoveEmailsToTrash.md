@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.MoveEmailsToT
 
 ## MoveEmailsToTrash
 
-Delete specified mail items and move to the Trash folder
 
-* **ids:** The e-mails to handle
+
+
 
 [WSDL file for Services85/EMail](../Services85-EMail.md)
 
@@ -49,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## MoveEmailsToTrash Response
 
 ```xml
@@ -68,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IErpSyncAgent.ForceSyncAl
 
 ## ForceSyncAll
 
-Sync all active connections even when automatic sync is off
-<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
-**Returns:** The response
+
+
 
 [WSDL file for Services88/ErpSync](../Services88-ErpSync.md)
 
@@ -46,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## ForceSyncAll Response
 
@@ -86,9 +86,11 @@ Application tokens must be specified if calling an Online installation. Applicat
       </ErpSync:ChangedDataItem>
      </ErpSync:DeletedRecords>
     </ErpSync:Changes>
+    <ErpSync:Status xsi:type="ErpSync:QuoteStatus">Ok</ErpSync:Status>
    </ErpSync:Response>
   </ErpSync:ForceSyncAllResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+

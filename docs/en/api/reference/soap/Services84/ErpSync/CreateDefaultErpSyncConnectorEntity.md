@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IErpSyncAgent.CreateDefau
 
 ## CreateDefaultErpSyncConnectorEntity
 
-Loading default values into a new ErpSyncConnectorEntity.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-**Returns:** New ErpSyncConnectorEntity with default values
+
+
 
 [WSDL file for Services84/ErpSync](../Services84-ErpSync.md)
 
@@ -47,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultErpSyncConnectorEntity Response
 
 ```xml
@@ -72,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -77,10 +77,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 595,
-  "CrmRecordId": 513,
+  "ErpConnectionId": 99,
+  "CrmRecordId": 77,
   "CrmActorType": "Contact",
-  "ErpKey": "velit",
+  "ErpKey": "aliquam",
   "ErpActorType": "Customer"
 }
 ```
@@ -91,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

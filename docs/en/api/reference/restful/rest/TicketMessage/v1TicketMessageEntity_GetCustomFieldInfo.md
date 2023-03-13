@@ -70,7 +70,7 @@ OK
 GET /api/v1/TicketMessage/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Wilderman Group",
-  "DisplayName": "Schiller, Jacobson and Schulist",
-  "Description": "Polarised tertiary collaboration",
-  "ShortLabel": "explicabo",
+  "FieldName": "Kautzer, Wiza and Nolan",
+  "DisplayName": "Metz-Fay",
+  "Description": "Expanded transitional system engine",
+  "ShortLabel": "commodi",
   "HideLabel": true,
   "HideField": false,
   "IsIndexed": false,
   "IsMandatory": false,
   "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 843,
-  "TemplateVariableName": "Renner-Weimann"
+  "Rank": 481,
+  "TemplateVariableName": "Donnelly-Kling"
 }
 ```

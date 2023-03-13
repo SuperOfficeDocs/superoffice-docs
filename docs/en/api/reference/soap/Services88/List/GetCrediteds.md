@@ -11,7 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetCrediteds">
 
 ## GetCrediteds
 
-Returns all credited
+
+
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -44,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetCrediteds Response
 
 ```xml
@@ -70,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

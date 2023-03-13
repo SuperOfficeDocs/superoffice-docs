@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    495,
-    142
+    8,
+    191
   ]
 }
 ```
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 741,
-    "Name": "Douglas Group",
-    "Description": "Multi-tiered attitude-oriented internet solution",
+    "ProjectId": 541,
+    "Name": "Hane, Ledner and Hayes",
+    "Description": "Upgradable leading edge attitude",
     "URL": "http://www.example.com/",
-    "Type": "nulla",
-    "AssociateId": 243,
-    "AssociateFullName": "Miss Marie Dicki",
-    "TypeId": 366,
-    "Updated": "2018-10-31T17:37:18.663243+01:00",
-    "StatusId": 214,
-    "Status": "hic",
-    "TextId": 120,
-    "PublishTo": "2013-06-20T17:37:18.663243+02:00",
-    "PublishFrom": "2019-08-02T17:37:18.663243+02:00",
-    "IsPublished": false,
+    "Type": "maiores",
+    "AssociateId": 301,
+    "AssociateFullName": "Robyn Wyman",
+    "TypeId": 613,
+    "Updated": "2013-05-21T14:19:03.9688343+02:00",
+    "StatusId": 622,
+    "Status": "placeat",
+    "TextId": 101,
+    "PublishTo": "2007-07-31T14:19:03.9688343+02:00",
+    "PublishFrom": "2019-12-19T14:19:03.9688343+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1423428",
-    "ActiveErpLinks": 382,
+    "ProjectNumber": "681214",
+    "ActiveErpLinks": 3,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 205
+        "FieldType": "System.String",
+        "FieldLength": 426
       }
     }
   }

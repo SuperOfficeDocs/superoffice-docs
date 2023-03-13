@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 822,
-    "Name": "Crona-Jerde",
-    "Tooltip": "dolor",
+    "HeadingId": 785,
+    "Name": "Reynolds-Botsford",
+    "Tooltip": "est",
     "Deleted": true,
-    "Rank": 689,
-    "UdListDefinitionId": 73
+    "Rank": 994,
+    "UdListDefinitionId": 699
   },
   {
-    "HeadingId": 822,
-    "Name": "Crona-Jerde",
-    "Tooltip": "dolor",
+    "HeadingId": 785,
+    "Name": "Reynolds-Botsford",
+    "Tooltip": "est",
     "Deleted": true,
-    "Rank": 689,
-    "UdListDefinitionId": 73
+    "Rank": 994,
+    "UdListDefinitionId": 699
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 879,
-    "Name": "Kshlerin Inc and Sons",
-    "Tooltip": "eius",
-    "Deleted": false,
-    "Rank": 352,
-    "UdListDefinitionId": 849,
+    "HeadingId": 313,
+    "Name": "Terry Group",
+    "Tooltip": "tempora",
+    "Deleted": true,
+    "Rank": 286,
+    "UdListDefinitionId": 1000,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 421
+        "FieldType": "System.String",
+        "FieldLength": 303
       }
     }
   }

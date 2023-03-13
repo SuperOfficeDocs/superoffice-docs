@@ -26,7 +26,7 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=sed
+GET /api/v1/List/Currency/MDOItems?query=rerum
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 506,
-    "Name": "Lemke-Fay",
-    "ToolTip": "Dolorum quo sint et quidem blanditiis sunt aut.",
-    "Deleted": false,
-    "Rank": 418,
-    "Type": "aut",
+    "Id": 738,
+    "Name": "Hermann Inc and Sons",
+    "ToolTip": "Nesciunt quod pariatur debitis quod eligendi.",
+    "Deleted": true,
+    "Rank": 411,
+    "Type": "aspernatur",
     "ChildItems": [
       {
-        "Id": 292,
-        "Name": "Lubowitz LLC",
-        "ToolTip": "Rem qui eos illo et molestiae.",
-        "Deleted": false,
-        "Rank": 785,
-        "Type": "quo",
+        "Id": 535,
+        "Name": "Schneider-Fahey",
+        "ToolTip": "Magni ea quasi sunt.",
+        "Deleted": true,
+        "Rank": 409,
+        "Type": "harum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sapiente",
-        "ColorBlock": 611,
-        "ExtraInfo": "rerum",
-        "StyleHint": "aut",
-        "FullName": "Fabiola Friesen",
+        "IconHint": "voluptas",
+        "ColorBlock": 801,
+        "ExtraInfo": "veritatis",
+        "StyleHint": "ut",
+        "FullName": "Vida Kozey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 506
+            "FieldLength": 354
           }
         }
       }
     ],
-    "IconHint": "fugiat",
-    "ColorBlock": 716,
-    "ExtraInfo": "non",
-    "StyleHint": "aut",
-    "FullName": "Ms. Emilia Hills I",
+    "IconHint": "magni",
+    "ColorBlock": 539,
+    "ExtraInfo": "dolorum",
+    "StyleHint": "temporibus",
+    "FullName": "Madelyn Baumbach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 297
+        "FieldLength": 421
       }
     }
   }

@@ -69,6 +69,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
@@ -78,7 +79,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,36 +90,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 506,
-    "Name": "O'Kon Inc and Sons",
-    "AssociateId": 909,
-    "DetailsTable": 454,
-    "DetailsRecord": 379,
-    "IsSystemTask": false,
-    "IsInternalTask": true,
+    "Id": 512,
+    "Name": "Kiehn Group",
+    "AssociateId": 895,
+    "DetailsTable": 763,
+    "DetailsRecord": 173,
+    "IsSystemTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "neque",
-      "ParameterObject2": "aut"
+      "ParameterObject1": "velit",
+      "ParameterObject2": "modi"
     },
-    "LastStarted": "2006-01-26T17:37:39.4024016+01:00",
-    "Created": "2011-03-01T17:37:39.4024016+01:00",
-    "StartCount": 316,
-    "DatabaseSerialNumber": "1069751",
-    "Context": "ut",
-    "Result": "incidunt",
+    "LastStarted": "2003-05-31T14:19:10.9279769+02:00",
+    "Created": "2001-01-15T14:19:10.9279769+01:00",
+    "StartCount": 263,
+    "DatabaseSerialNumber": "931795",
+    "Context": "qui",
+    "Result": "ratione",
     "State": "All",
-    "Description": "Exclusive attitude-oriented neural-net",
-    "Response": "tempora",
-    "Request": "consectetur",
-    "ProgressDescription": "Enhanced mission-critical model",
-    "ProgressPercent": 84,
-    "FileName": "Towne, Windler and Jaskolski",
+    "Description": "Decentralized directional standardization",
+    "Response": "iusto",
+    "Request": "soluta",
+    "ProgressDescription": "Multi-layered stable ability",
+    "ProgressPercent": 291,
+    "FileName": "Pacocha Inc and Sons",
+    "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 118
+        "FieldLength": 984
       }
     }
   }

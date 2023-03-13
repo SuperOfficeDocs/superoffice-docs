@@ -124,18 +124,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "occaecati",
+    "path": "explicabo",
     "value": {}
   },
   {
     "op": "add",
-    "path": "occaecati",
+    "path": "explicabo",
     "value": {}
   }
 ]
@@ -148,35 +148,35 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 542,
-  "SourcePersonId": 990,
-  "DestinationContactId": 153,
-  "DestinationPersonId": 635,
-  "RelationId": 614,
-  "Comment": "quasi",
-  "RelationDefinitionId": 60,
-  "Reversed": 672,
-  "UpdatedDate": "1996-01-20T17:37:38.4808309+01:00",
-  "CreatedDate": "2010-07-21T17:37:38.4808309+02:00",
+  "SourceContactId": 670,
+  "SourcePersonId": 314,
+  "DestinationContactId": 685,
+  "DestinationPersonId": 842,
+  "RelationId": 124,
+  "Comment": "at",
+  "RelationDefinitionId": 898,
+  "Reversed": 484,
+  "UpdatedDate": "2021-07-14T14:19:10.240473+02:00",
+  "CreatedDate": "2001-04-09T14:19:10.240473+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "VonRueden-Schuster",
-  "SourcePersonName": "Lehner, Zemlak and Beahan",
-  "DestinationContactName": "Gottlieb-Gerlach",
-  "DestinationPersonName": "Auer Group",
-  "ActiveText": "qui",
-  "PassiveText": "sequi",
+  "SourceContactName": "DuBuque LLC",
+  "SourcePersonName": "Beahan, Langosh and Gorczany",
+  "DestinationContactName": "Wyman, Robel and Hegmann",
+  "DestinationPersonName": "O'Hara-Kemmer",
+  "ActiveText": "modi",
+  "PassiveText": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldLength": 322
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

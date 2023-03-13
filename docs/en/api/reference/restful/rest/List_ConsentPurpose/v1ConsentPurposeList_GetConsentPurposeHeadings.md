@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 339,
-    "Name": "Volkman Inc and Sons",
-    "Tooltip": "aliquid",
+    "HeadingId": 748,
+    "Name": "Bernier-Wilderman",
+    "Tooltip": "velit",
     "Deleted": true,
-    "Rank": 286,
-    "UdListDefinitionId": 421,
+    "Rank": 568,
+    "UdListDefinitionId": 218,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 451
+        "FieldType": "System.Int32",
+        "FieldLength": 223
       }
     }
   }

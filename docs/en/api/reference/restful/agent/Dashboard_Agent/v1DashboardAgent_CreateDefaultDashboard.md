@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,22 +70,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 851,
-  "AssociateId": 525,
-  "Caption": "qui",
+  "DashboardId": 988,
+  "AssociateId": 798,
+  "Caption": "adipisci",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 988,
-      "Caption": "nemo",
-      "Description": "Exclusive reciprocal support",
-      "ChartName": "Hessel, Barrows and White",
-      "ChartId": "est",
-      "IsDefault": true,
-      "AssociateId": 852,
-      "GroupId": 4,
-      "SelectionId": 529,
-      "Config": "doloremque",
+      "DashboardTileId": 569,
+      "Caption": "beatae",
+      "Description": "Open-source fault-tolerant function",
+      "ChartName": "Schulist-Veum",
+      "ChartId": "sit",
+      "IsDefault": false,
+      "AssociateId": 104,
+      "GroupId": 510,
+      "SelectionId": 497,
+      "Config": "quaerat",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 377
+          "FieldLength": 964
         }
       }
     }
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 598
+      "FieldType": "System.Int32",
+      "FieldLength": 112
     }
   }
 }

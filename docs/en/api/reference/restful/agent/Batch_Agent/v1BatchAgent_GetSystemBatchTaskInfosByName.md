@@ -83,6 +83,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -92,11 +93,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Krajcik, Gulgowski and Hilpert"
+  "TaskName": "Morissette, Sipes and Boyle"
 }
 ```
 
@@ -108,36 +109,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 220,
-    "Name": "Ryan, Schumm and Bergnaum",
-    "AssociateId": 197,
-    "DetailsTable": 683,
-    "DetailsRecord": 995,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 246,
+    "Name": "Gleichner-Jacobson",
+    "AssociateId": 549,
+    "DetailsTable": 933,
+    "DetailsRecord": 286,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "dolorem",
-      "ParameterObject2": "ex"
+      "ParameterObject1": "consectetur",
+      "ParameterObject2": "amet"
     },
-    "LastStarted": "2012-03-12T17:37:16.9072418+01:00",
-    "Created": "1996-03-25T17:37:16.9072418+01:00",
-    "StartCount": 479,
-    "DatabaseSerialNumber": "1070732",
-    "Context": "dolores",
-    "Result": "doloremque",
+    "LastStarted": "2007-09-16T14:19:02.7750538+02:00",
+    "Created": "2013-11-24T14:19:02.7750538+01:00",
+    "StartCount": 652,
+    "DatabaseSerialNumber": "1223608",
+    "Context": "impedit",
+    "Result": "qui",
     "State": "All",
-    "Description": "Persistent mobile instruction set",
-    "Response": "et",
-    "Request": "ea",
-    "ProgressDescription": "Synchronised value-added time-frame",
-    "ProgressPercent": 136,
-    "FileName": "Hoeger-Klein",
+    "Description": "Assimilated bi-directional encoding",
+    "Response": "modi",
+    "Request": "exercitationem",
+    "ProgressDescription": "Configurable bifurcated circuit",
+    "ProgressPercent": 852,
+    "FileName": "Pfeffer, Schoen and Lang",
+    "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 611
+        "FieldLength": 63
       }
     }
   }

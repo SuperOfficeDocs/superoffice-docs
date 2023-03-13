@@ -84,16 +84,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 343,
-  "ERPPriceListKey": "consequatur",
-  "QuoteConnectionId": 589,
-  "Name": "Stehr, Lebsack and Kshlerin",
-  "Description": "Advanced dedicated standardization",
-  "Currency": "sed",
-  "CurrencyName": "Orn-Halvorson",
-  "ValidFrom": "2015-10-21T17:37:18.7082418+02:00",
-  "ValidTo": "2012-01-25T17:37:18.7082418+01:00",
-  "IsActive": true
+  "PriceListId": 980,
+  "ERPPriceListKey": "voluptatem",
+  "QuoteConnectionId": 592,
+  "Name": "Macejkovic-Williamson",
+  "Description": "Open-source bottom-line local area network",
+  "Currency": "iusto",
+  "CurrencyName": "Kutch Group",
+  "ValidFrom": "1996-09-28T14:19:04.0000842+02:00",
+  "ValidTo": "2019-11-06T14:19:04.0000842+01:00",
+  "IsActive": false
 }
 ```
 
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 488,
-  "ERPPriceListKey": "at",
-  "QuoteConnectionId": 603,
-  "Name": "Schneider-Greenfelder",
-  "Description": "Universal clear-thinking Graphical User Interface",
-  "Currency": "eligendi",
-  "CurrencyName": "Dooley-Weissnat",
-  "ValidFrom": "2008-07-08T17:37:18.7082418+02:00",
-  "ValidTo": "2022-10-10T17:37:18.7082418+02:00",
+  "PriceListId": 17,
+  "ERPPriceListKey": "et",
+  "QuoteConnectionId": 257,
+  "Name": "Prohaska-Cremin",
+  "Description": "Decentralized asynchronous encryption",
+  "Currency": "blanditiis",
+  "CurrencyName": "Anderson-Legros",
+  "ValidFrom": "2021-07-24T14:19:04.0000842+02:00",
+  "ValidTo": "2016-04-16T14:19:04.0000842+02:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 803
+      "FieldLength": 620
     }
   }
 }

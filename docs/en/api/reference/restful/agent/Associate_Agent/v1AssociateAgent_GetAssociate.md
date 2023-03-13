@@ -25,7 +25,7 @@ Gets a Associate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Associate/GetAssociate?associateId=41
+POST /api/v1/Agents/Associate/GetAssociate?associateId=170
 POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 ```
 
@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Associate/GetAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,24 +87,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 654,
-  "Name": "Toy Group",
-  "PersonId": 61,
-  "Rank": 509,
-  "Tooltip": "accusantium",
+  "AssociateId": 305,
+  "Name": "Jones, Rice and Kiehn",
+  "PersonId": 977,
+  "Rank": 194,
+  "Tooltip": "nostrum",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 187,
-  "FullName": "Jonathon Monahan",
-  "FormalName": "Hodkiewicz-Howe",
+  "GroupIdx": 561,
+  "FullName": "Brannon Runolfsson",
+  "FormalName": "Friesen-O'Reilly",
   "Deleted": false,
-  "EjUserId": 766,
-  "UserName": "Lemke-Kerluke",
+  "EjUserId": 371,
+  "UserName": "D'Amore Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 523
+      "FieldLength": 767
     }
   }
 }

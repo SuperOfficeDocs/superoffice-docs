@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 805
+  "ErpConnectorId": 550
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "occaecati",
-    "Rank": 99,
-    "DisplayName": "Armstrong-Johns",
-    "DisplayDescription": "Decentralized tertiary knowledge base",
+    "FieldKey": "cumque",
+    "Rank": 31,
+    "DisplayName": "Simonis-Tillman",
+    "DisplayDescription": "Digitized transitional paradigm",
     "FieldType": "Checkbox",
-    "ListName": "Paucek Group",
-    "DefaultValue": "molestiae",
-    "MaxLength": 664,
+    "ListName": "Little, Rath and Dickens",
+    "DefaultValue": "numquam",
+    "MaxLength": 37,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 810
+        "FieldType": "System.Int32",
+        "FieldLength": 959
       }
     }
   }

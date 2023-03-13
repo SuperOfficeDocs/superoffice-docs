@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IProjectAgent.AddProjectM
 
 ## AddProjectMembers
 
-Add multiple project members to a project
 
-* **projectEntityId:** Project to add members to
-* **projectMembers:** Project members to add
+
+
 
 [WSDL file for Services88/Project](../Services88-Project.md)
 
@@ -73,6 +72,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## AddProjectMembers Response
 
 ```xml
@@ -92,3 +92,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashAgent.CopyTileSelect
 
 ## CopyTileSelection
 
-Copy Tile Selection for the dashboard
 
-* **selectionId:** The id of the selection to copy from
 
-**Returns:** Selection Id
+
 
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CopyTileSelection Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

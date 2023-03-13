@@ -114,18 +114,18 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 51,
-  "PersonId": 524,
-  "AppointmentId": 821,
-  "DocumentId": 534,
-  "SaleId": 911,
-  "SelectionId": 604,
-  "ProjectId": 230,
-  "UiCulture": "ex"
+  "ContactId": 873,
+  "PersonId": 533,
+  "AppointmentId": 657,
+  "DocumentId": 788,
+  "SaleId": 533,
+  "SelectionId": 594,
+  "ProjectId": 121,
+  "UiCulture": "pariatur"
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 488,
+  "DocumentId": 825,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quam",
-  "Header": "dolorem",
-  "Name": "Williamson Group",
-  "OurRef": "officiis",
-  "YourRef": "enim",
-  "CreatedDate": "1999-05-10T17:37:17.5612417+02:00",
-  "UpdatedDate": "2022-04-19T17:37:17.5612417+02:00",
-  "Description": "Innovative zero defect process improvement",
+  "Attention": "et",
+  "Header": "error",
+  "Name": "Bergstrom Group",
+  "OurRef": "ut",
+  "YourRef": "natus",
+  "CreatedDate": "2019-08-23T14:19:03.3230322+02:00",
+  "UpdatedDate": "2003-03-18T14:19:03.3230322+01:00",
+  "Description": "Multi-layered solution-oriented function",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-03-19T17:37:17.5652414+01:00",
-  "ExternalRef": "optio",
+  "Date": "2021-11-20T14:19:03.3386569+01:00",
+  "ExternalRef": "deserunt",
   "Completed": "Completed",
-  "ActiveLinks": 104,
+  "ActiveLinks": 185,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Ziemann Group",
-      "Id": 882,
-      "Description": "Enhanced web-enabled system engine",
-      "ExtraInfo": "ab",
-      "LinkId": 19,
+      "EntityName": "Koch-Pfeffer",
+      "Id": 973,
+      "Description": "Reverse-engineered regional moratorium",
+      "ExtraInfo": "autem",
+      "LinkId": 982,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 112
+          "FieldLength": 231
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 911,
-  "Snum": 371,
+  "SuggestedDocumentId": 269,
+  "Snum": 616,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Mrs. Mathilde Purdy",
+    "SuperOffice:2": "Sylvia Waelchi"
   },
   "ExtraFields": {
-    "ExtraFields1": "sapiente",
-    "ExtraFields2": "vel"
+    "ExtraFields1": "quaerat",
+    "ExtraFields2": "iusto"
   },
   "CustomFields": {
-    "CustomFields1": "eaque",
-    "CustomFields2": "est"
+    "CustomFields1": "eum",
+    "CustomFields2": "libero"
   },
-  "PublishEventDate": "2016-10-28T17:37:17.5652414+02:00",
-  "PublishTo": "2011-12-06T17:37:17.5652414+01:00",
-  "PublishFrom": "2008-08-13T17:37:17.5652414+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2019-04-04T14:19:03.3386569+02:00",
+  "PublishTo": "2006-04-23T14:19:03.3386569+02:00",
+  "PublishFrom": "2006-10-18T14:19:03.3386569+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 241,
+      "VisibleId": 416,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "hic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 781
+          "FieldLength": 410
         }
       }
     },
     {
-      "VisibleId": 241,
+      "VisibleId": 416,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "hic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 781
+          "FieldLength": 410
         }
       }
     }
@@ -227,7 +227,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldLength": 940
     }
   }
 }

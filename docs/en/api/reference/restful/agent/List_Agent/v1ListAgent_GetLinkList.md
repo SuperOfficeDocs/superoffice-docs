@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,17 +84,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Hagenes, Ankunding and McKenzie",
-    "Id": 612,
-    "Description": "Compatible responsive intranet",
-    "ExtraInfo": "necessitatibus",
-    "LinkId": 395,
+    "EntityName": "Tillman Group",
+    "Id": 252,
+    "Description": "Open-source solution-oriented moderator",
+    "ExtraInfo": "numquam",
+    "LinkId": 466,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 855
+        "FieldLength": 931
       }
     }
   }

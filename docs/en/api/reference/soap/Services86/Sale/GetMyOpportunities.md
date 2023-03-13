@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.ISaleAgent.GetMyOpportuni
 
 ## GetMyOpportunities
 
-Returning the opportunities (open sales) belonging to the user currently logged on
 
-* **count:** The number of sales that is returned. -1 returns all.
 
-**Returns:** Array of open sales (opportunities).
+
 
 [WSDL file for Services86/Sale](../Services86-Sale.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetMyOpportunities Response
 
 ```xml
@@ -66,7 +65,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Sale:Response xsi:type="Sale:ArrayOfSale">
     <Sale:Sale xsi:type="Sale:Sale">
      <Sale:ContactName xsi:type="xsd:string"></Sale:ContactName>
-     <Sale:SaleDate xsi:type="xsd:dateTime">2022-08-26T08:55:50Z</Sale:SaleDate>
+     <Sale:SaleDate xsi:type="xsd:dateTime">2023-02-15T13:14:05Z</Sale:SaleDate>
      <Sale:SaleId xsi:type="xsd:int">0</Sale:SaleId>
      <Sale:Probability xsi:type="xsd:short">0</Sale:Probability>
      <Sale:Title xsi:type="xsd:string"></Sale:Title>
@@ -88,7 +87,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Sale:PersonFullName xsi:type="xsd:string"></Sale:PersonFullName>
      <Sale:Completed xsi:type="Sale:ActivityStatus">Unknown</Sale:Completed>
      <Sale:ActiveErpLinks xsi:type="xsd:int">0</Sale:ActiveErpLinks>
-     <Sale:NextDueDate xsi:type="xsd:dateTime">2022-08-26T08:55:50Z</Sale:NextDueDate>
+     <Sale:NextDueDate xsi:type="xsd:dateTime">2023-02-15T13:14:05Z</Sale:NextDueDate>
     </Sale:Sale>
    </Sale:Response>
   </Sale:GetMyOpportunitiesResponse>
@@ -96,3 +95,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

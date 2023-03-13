@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IPreferenceAgent.DeletePr
 
 ## DeletePrefDescLinesByPrefDescIds
 
-Delete the PrefDescLines associated with Preference Description Ids in the SuperOffice database
 
-* **prefDescIds:** Primary keys of the Preference Descriptions that contains PrefDescLines to delete
 
-**Returns:** Nothing
+
 
 [WSDL file for Services88/Preference](../Services88-Preference.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeletePrefDescLinesByPrefDescIds Response
 
 ```xml
@@ -70,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

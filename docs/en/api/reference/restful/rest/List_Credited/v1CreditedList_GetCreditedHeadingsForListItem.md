@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 990,
-    "Name": "Schuppe, Bradtke and Hills",
-    "ToolTip": "Autem ullam dicta recusandae.",
-    "Deleted": false,
-    "Rank": 205,
-    "Type": "aliquid",
-    "ColorBlock": 52,
-    "IconHint": "veniam",
-    "Selected": false,
-    "LastChanged": "1998-06-09T17:37:39.9475024+02:00",
+    "Id": 892,
+    "Name": "Labadie Inc and Sons",
+    "ToolTip": "Occaecati iure saepe velit aperiam sed.",
+    "Deleted": true,
+    "Rank": 812,
+    "Type": "necessitatibus",
+    "ColorBlock": 999,
+    "IconHint": "dolorem",
+    "Selected": true,
+    "LastChanged": "2007-04-14T14:19:11.2105958+02:00",
     "ChildItems": [
       {
-        "Id": 668,
-        "Name": "O'Kon, O'Conner and Padberg",
-        "ToolTip": "Voluptatibus dicta voluptas.",
+        "Id": 523,
+        "Name": "Bode, Crona and Stoltenberg",
+        "ToolTip": "Quis officiis quos molestiae tempora veritatis aut similique.",
         "Deleted": false,
-        "Rank": 301,
-        "Type": "non",
-        "ColorBlock": 562,
-        "IconHint": "aut",
+        "Rank": 313,
+        "Type": "repellendus",
+        "ColorBlock": 557,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2006-06-15T17:37:39.9485073+02:00",
+        "LastChanged": "2022-03-16T14:19:11.2105958+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "sunt",
+        "ExtraInfo": "modi",
+        "StyleHint": "sapiente",
         "Hidden": true,
-        "FullName": "Miss Burley Mayert",
+        "FullName": "Lysanne Armstrong",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 890
+            "FieldType": "System.Int32",
+            "FieldLength": 785
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "iusto",
-    "Hidden": false,
-    "FullName": "Ms. Yasmine Gusikowski MD",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "ipsa",
+    "Hidden": true,
+    "FullName": "Mrs. Jace Pacocha IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 896
+        "FieldType": "System.String",
+        "FieldLength": 37
       }
     }
   }

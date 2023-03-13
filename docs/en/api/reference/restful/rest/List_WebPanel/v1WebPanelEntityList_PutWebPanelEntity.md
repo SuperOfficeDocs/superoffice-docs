@@ -109,31 +109,31 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 505,
-  "Name": "Mitchell LLC",
-  "Tooltip": "mollitia",
+  "WebPanelId": 971,
+  "Name": "Sipes, Rowe and Larson",
+  "Tooltip": "maxime",
   "Deleted": false,
-  "Rank": 514,
+  "Rank": 441,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
+  "OnCentral": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Kub-Schulist",
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "WindowName": "Lueilwitz-Rau",
   "Url": "http://www.example.com/",
-  "ProgId": "quisquam",
-  "Icon": 946,
-  "AlwaysReloadOnShow": true
+  "ProgId": "ullam",
+  "Icon": 505,
+  "AlwaysReloadOnShow": false
 }
 ```
 
@@ -144,33 +144,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 167,
-  "Name": "Kessler, Runte and Zieme",
-  "Tooltip": "quae",
+  "WebPanelId": 187,
+  "Name": "Wilkinson-Stroman",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 568,
+  "Rank": 617,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Tremblay LLC",
+  "WindowName": "Champlin, Stamm and Volkman",
   "Url": "http://www.example.com/",
-  "ProgId": "sint",
-  "Icon": 295,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "doloribus",
+  "Icon": 388,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 273
+      "FieldType": "System.Int32",
+      "FieldLength": 964
     }
   }
 }

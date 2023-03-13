@@ -83,52 +83,52 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "assumenda",
-  "ProviderName": "Bins, Schaden and Dooley",
-  "StorageKey": "autem",
+  "StorageType": "repellat",
+  "ProviderName": "Goodwin, Krajcik and Schiller",
+  "StorageKey": "fuga",
   "ExtraRestrictions": [
     {
-      "Name": "Hickle Inc and Sons",
-      "Operator": "reprehenderit",
+      "Name": "Goldner, Kutch and Heathcote",
+      "Operator": "eum",
       "Values": [
-        "ex",
-        "consequatur"
+        "molestiae",
+        "dicta"
       ],
       "DisplayValues": [
-        "cum",
-        "repellat"
+        "nobis",
+        "recusandae"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 687,
+      "InterParenthesis": 592,
       "InterOperator": "And",
-      "UniqueHash": 49
+      "UniqueHash": 654
     }
   ],
   "OrderBy": [
     {
-      "Name": "Emmerich-Boyle",
+      "Name": "McLaughlin-Walsh",
       "Direction": "ASC"
     },
     {
-      "Name": "Emmerich-Boyle",
+      "Name": "McLaughlin-Walsh",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "nisi",
-    "sequi"
+    "suscipit",
+    "laborum"
   ],
-  "PageSize": 49,
-  "PageNumber": 816
+  "PageSize": 334,
+  "PageNumber": 403
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Ritchie, Bayer and Runolfsdottir",
-      "DisplayTooltip": "ut",
-      "DisplayType": "qui",
+      "DisplayName": "Yost, Berge and Runte",
+      "DisplayTooltip": "magnam",
+      "DisplayType": "suscipit",
       "CanOrderBy": false,
-      "Name": "Kirlin, Mueller and Olson",
-      "CanRestrictBy": false,
-      "RestrictionType": "vel",
-      "RestrictionListName": "Hudson-Mayert",
+      "Name": "Cole, Reilly and Howell",
+      "CanRestrictBy": true,
+      "RestrictionType": "facilis",
+      "RestrictionListName": "Hahn, Bins and Beatty",
       "IsVisible": false,
-      "ExtraInfo": "et",
-      "Width": "voluptate",
-      "IconHint": "et",
-      "HeadingIconHint": "quo"
+      "ExtraInfo": "aut",
+      "Width": "ratione",
+      "IconHint": "ea",
+      "HeadingIconHint": "sed"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Kunde-Kerluke",
-      "PrimaryKey": 459,
+      "EntityName": "Torp Inc and Sons",
+      "PrimaryKey": 834,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quia",
-          "TooltipHint": "tenetur",
-          "LinkHint": "perspiciatis"
+          "DisplayValue": "nostrum",
+          "TooltipHint": "vel",
+          "LinkHint": "qui"
         }
       },
-      "LinkHint": "eaque",
-      "StyleHint": "voluptate",
+      "LinkHint": "et",
+      "StyleHint": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 721
+          "FieldType": "System.String",
+          "FieldLength": 966
         }
       }
     }
   ],
-  "RowCount": 144,
+  "RowCount": 106,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldLength": 200
     }
   }
 }

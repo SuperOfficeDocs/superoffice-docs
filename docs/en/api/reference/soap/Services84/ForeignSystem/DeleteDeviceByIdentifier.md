@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IForeignSystemAgent.Delet
 
 ## DeleteDeviceByIdentifier
 
-Delete a ForeignDevice with deviceName and deviceIdentifier that belongs to the application with applicationName.
 
-* **applicationName:** The name of the foreign application.
-* **deviceName:** The name of the foreign device.
-* **deviceIdentifier:** Unique id of device (Palm pilot device ID, version number, etc)
 
-**Returns:** This method has no return value
+
 
 [WSDL file for Services84/ForeignSystem](../Services84-ForeignSystem.md)
 
@@ -52,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteDeviceByIdentifier Response
 
 ```xml
@@ -70,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

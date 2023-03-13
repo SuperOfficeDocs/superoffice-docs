@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 751,
-    "Name": "Gusikowski LLC",
-    "ToolTip": "Fugit perspiciatis totam possimus rerum aut.",
+    "Id": 238,
+    "Name": "Kuhic, Kovacek and Tillman",
+    "ToolTip": "Doloremque velit aliquam officia rem qui est.",
     "Deleted": false,
-    "Rank": 266,
-    "Type": "nesciunt",
-    "ColorBlock": 89,
-    "IconHint": "quidem",
-    "Selected": false,
-    "LastChanged": "2006-10-14T17:37:40.0565063+02:00",
+    "Rank": 607,
+    "Type": "placeat",
+    "ColorBlock": 332,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2015-12-30T14:19:11.2898728+01:00",
     "ChildItems": [
       {
-        "Id": 253,
-        "Name": "Kling Inc and Sons",
-        "ToolTip": "Numquam repellat est.",
+        "Id": 189,
+        "Name": "Funk-Bode",
+        "ToolTip": "Voluptatibus omnis dolorem ut sit aspernatur aperiam.",
         "Deleted": false,
-        "Rank": 185,
-        "Type": "consequatur",
-        "ColorBlock": 755,
-        "IconHint": "tenetur",
-        "Selected": true,
-        "LastChanged": "1999-05-29T17:37:40.0575016+02:00",
+        "Rank": 858,
+        "Type": "culpa",
+        "ColorBlock": 518,
+        "IconHint": "provident",
+        "Selected": false,
+        "LastChanged": "2010-06-23T14:19:11.2898728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "esse",
-        "Hidden": false,
-        "FullName": "Prof. Arjun Powlowski",
+        "ExtraInfo": "officia",
+        "StyleHint": "tenetur",
+        "Hidden": true,
+        "FullName": "Hubert Kunde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 854
+            "FieldType": "System.String",
+            "FieldLength": 901
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Cloyd Effertz",
+    "ExtraInfo": "quidem",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Mr. Jordan Lempi Gleason MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 464
+        "FieldLength": 942
       }
     }
   }

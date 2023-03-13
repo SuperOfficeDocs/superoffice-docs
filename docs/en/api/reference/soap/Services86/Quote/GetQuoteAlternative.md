@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IQuoteAgent.GetQuoteAlter
 
 ## GetQuoteAlternative
 
-Gets a QuoteAlternative object.
 
-* **quoteAlternativeId:** The identifier of the QuoteAlternative object
 
-**Returns:** QuoteAlternative
+
 
 [WSDL file for Services86/Quote](../Services86-Quote.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetQuoteAlternative Response
 
@@ -93,3 +92,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

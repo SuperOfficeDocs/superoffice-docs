@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 963,
-  "ModuleOwner": "animi"
+  "AssociateId": 173,
+  "ModuleOwner": "atque"
 }
 ```
 
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 384,
-    "Tooltip": "in",
-    "CanAssign": false,
-    "Free": 921,
-    "InUse": 945,
+    "Total": 726,
+    "Tooltip": "assumenda",
+    "CanAssign": true,
+    "Free": 965,
+    "InUse": 300,
     "IsHidden": true,
-    "Assigned": false,
-    "ModuleLicenseId": 709,
-    "Name": "Schroeder-Haley",
-    "Description": "Synchronised homogeneous success",
-    "PrerequisiteModuleName": "Ebert-Corwin",
-    "SortOrder": 857,
-    "ExtraFlags": 275,
+    "Assigned": true,
+    "ModuleLicenseId": 230,
+    "Name": "Flatley-Bosco",
+    "Description": "Implemented explicit complexity",
+    "PrerequisiteModuleName": "Buckridge-Reilly",
+    "SortOrder": 909,
+    "ExtraFlags": 578,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 802
+        "FieldLength": 319
       }
     }
   }

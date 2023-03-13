@@ -470,55 +470,31 @@ title: Services86.AssociateAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Associate">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Associate</summary>
-    </wsdl:documentation>
     <wsdl:operation name="GetAssociate">
-      <wsdl:documentation>
-        <summary>Gets a Associate object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Associate/GetAssociate" name="GetAssociateRequest" message="tns:GetAssociateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Associate/GetAssociateResponse" name="GetAssociateResponse" message="tns:GetAssociateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAssociateByPersonId">
-      <wsdl:documentation>
-        <summary>Returns the associate that belongs to this person if the person is an associate.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Associate/GetAssociateByPersonId" name="GetAssociateByPersonIdRequest" message="tns:GetAssociateByPersonIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Associate/GetAssociateByPersonIdResponse" name="GetAssociateByPersonIdResponse" message="tns:GetAssociateByPersonIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetNote">
-      <wsdl:documentation>
-        <summary>Returns an array of strings(notepad pages).</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Associate/GetNote" name="GetNoteRequest" message="tns:GetNoteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Associate/GetNoteResponse" name="GetNoteResponse" message="tns:GetNoteResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveNote">
-      <wsdl:documentation>
-        <summary>Saves an array of strings(notepad pages).</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Associate/SaveNote" name="SaveNoteRequest" message="tns:SaveNoteRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Associate/SaveNoteResponse" name="SaveNoteResponse" message="tns:SaveNoteResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAssociateList">
-      <wsdl:documentation>
-        <summary>Gets an array of Associate objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Associate/GetAssociateList" name="GetAssociateListRequest" message="tns:GetAssociateListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Associate/GetAssociateListResponse" name="GetAssociateListResponse" message="tns:GetAssociateListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetAssociatesByGroup">
-      <wsdl:documentation>
-        <summary>Method that returns a array of associate , based on DiaryGroupType and groupId. The differernt types are, Userdefined, Usergroup and ResourceHeadings</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Associate/GetAssociatesByGroup" name="GetAssociatesByGroupRequest" message="tns:GetAssociatesByGroupRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Associate/GetAssociatesByGroupResponse" name="GetAssociatesByGroupResponse" message="tns:GetAssociatesByGroupResponse" />
     </wsdl:operation>
     <wsdl:operation name="LogOffWindowsUsers">
-      <wsdl:documentation>
-        <summary>Method that logs off associates that are logged on to the win client</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Associate/LogOffWindowsUsers" name="LogOffWindowsUsersRequest" message="tns:LogOffWindowsUsersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services86/Associate/LogOffWindowsUsersResponse" name="LogOffWindowsUsersResponse" message="tns:LogOffWindowsUsersResponse" />
     </wsdl:operation>
@@ -645,3 +621,4 @@ title: Services86.AssociateAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

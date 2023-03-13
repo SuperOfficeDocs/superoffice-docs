@@ -72,10 +72,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Senger-Rodriguez",
+  "TableName": "Hermann, Brekke and Farrell",
   "Values": {
-    "Values1": "rerum",
-    "Values2": "officiis"
+    "Values1": "voluptas",
+    "Values2": "inventore"
   }
 }
 ```
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-183
+1001
 ```

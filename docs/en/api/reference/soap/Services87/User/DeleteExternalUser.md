@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.DeleteExternal
 
 ## DeleteExternalUser
 
-Deletes an associate of type external user.
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **associateId:** The associateId to delete the associate entry for.
+
+
 
 [WSDL file for Services87/User](../Services87-User.md)
 
@@ -48,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteExternalUser Response
 
 ```xml
@@ -67,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ILicenseAgent.GetSatellit
 
 ## GetSatelliteLicenses
 
-Obtain information about satellite module licenses
 
-* **satelliteId:** Satellite id to check for satellite module licenses
 
-**Returns:** Satellite module licenses grouped by owners.
+
 
 [WSDL file for Services88/License](../Services88-License.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetSatelliteLicenses Response
 
@@ -112,3 +111,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

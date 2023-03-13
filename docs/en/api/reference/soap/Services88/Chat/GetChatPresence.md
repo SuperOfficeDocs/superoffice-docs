@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.GetChatPresenc
 
 ## GetChatPresence
 
-Get the chat presence status for all chat users
 
-**Returns:** An array with ChatPresence objects for each user
+
+
 
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetChatPresence Response
 
 ```xml
@@ -76,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

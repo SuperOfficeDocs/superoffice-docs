@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 864,
-    "Name": "Nader-Ernser",
-    "ToolTip": "Ut et.",
-    "Deleted": true,
-    "Rank": 462,
-    "Type": "consequatur",
-    "ColorBlock": 689,
-    "IconHint": "omnis",
+    "Id": 119,
+    "Name": "Predovic-Frami",
+    "ToolTip": "Omnis sed omnis soluta et possimus numquam.",
+    "Deleted": false,
+    "Rank": 722,
+    "Type": "accusantium",
+    "ColorBlock": 956,
+    "IconHint": "atque",
     "Selected": false,
-    "LastChanged": "2004-03-23T17:37:39.8795002+01:00",
+    "LastChanged": "2017-09-06T14:19:11.1480931+02:00",
     "ChildItems": [
       {
-        "Id": 116,
-        "Name": "Hessel-Krajcik",
-        "ToolTip": "Necessitatibus est illo excepturi quis voluptatem voluptas.",
+        "Id": 152,
+        "Name": "Dickinson-Borer",
+        "ToolTip": "Rem a et.",
         "Deleted": false,
-        "Rank": 981,
-        "Type": "fugit",
-        "ColorBlock": 984,
-        "IconHint": "vero",
+        "Rank": 174,
+        "Type": "corporis",
+        "ColorBlock": 454,
+        "IconHint": "fugit",
         "Selected": true,
-        "LastChanged": "1996-09-15T17:37:39.8795002+02:00",
+        "LastChanged": "2017-11-07T14:19:11.1480931+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "dignissimos",
-        "Hidden": true,
-        "FullName": "Fredrick Ortiz",
+        "ExtraInfo": "facilis",
+        "StyleHint": "unde",
+        "Hidden": false,
+        "FullName": "Mr. Cierra Saul Powlowski DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 105
+            "FieldType": "System.Int32",
+            "FieldLength": 361
           }
         }
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "harum",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Prof. Kaycee Oceane Prosacco Sr.",
+    "FullName": "Ms. Reagan Bartoletti MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 200
+        "FieldLength": 366
       }
     }
   }

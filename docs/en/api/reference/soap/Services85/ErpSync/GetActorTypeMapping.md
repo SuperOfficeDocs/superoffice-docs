@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IErpSyncAgent.GetActorTyp
 
 ## GetActorTypeMapping
 
-Get the current mappings for one connection/actor; connection+actor type = unique key
 
-* **erpConnectionId:** The ERP connection ID
-* **actorType:** The actor type
 
-**Returns:** The current mapping from the database
+
 
 [WSDL file for Services85/ErpSync](../Services85-ErpSync.md)
 
@@ -50,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetActorTypeMapping Response
 
@@ -96,3 +94,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -170,7 +170,7 @@ OK
 POST /api/v1/Agents/Appointment/SaveAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -178,107 +178,107 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1997-05-04T17:37:16.3322454+02:00",
-  "AppointmentId": 142,
-  "Description": "Open-source incremental interface",
-  "StartDate": "2021-03-08T17:37:16.3322454+01:00",
-  "EndDate": "2022-05-02T17:37:16.3322454+02:00",
+  "CreatedDate": "2023-02-01T14:19:02.516142+01:00",
+  "AppointmentId": 330,
+  "Description": "Front-line value-added moderator",
+  "StartDate": "2015-03-16T14:19:02.516142+01:00",
+  "EndDate": "2009-12-11T14:19:02.516142+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 532,
+  "MotherId": 500,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2019-12-08T17:37:16.3362447+01:00",
+  "UpdatedDate": "2020-06-16T14:19:02.516142+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 698,
+  "ActiveLinks": 69,
   "Links": [
     {
-      "EntityName": "Robel, Bode and Morar",
-      "Id": 95,
-      "Description": "Expanded disintermediate access",
-      "ExtraInfo": "ducimus",
-      "LinkId": 402
+      "EntityName": "Krajcik Inc and Sons",
+      "Id": 46,
+      "Description": "Reverse-engineered fresh-thinking local area network",
+      "ExtraInfo": "eius",
+      "LinkId": 566
     },
     {
-      "EntityName": "Robel, Bode and Morar",
-      "Id": 95,
-      "Description": "Expanded disintermediate access",
-      "ExtraInfo": "ducimus",
-      "LinkId": 402
+      "EntityName": "Krajcik Inc and Sons",
+      "Id": 46,
+      "Description": "Reverse-engineered fresh-thinking local area network",
+      "ExtraInfo": "eius",
+      "LinkId": 566
     }
   ],
-  "AlarmLeadTime": "et",
-  "HasAlarm": true,
-  "ColorIndex": 669,
+  "AlarmLeadTime": "ullam",
+  "HasAlarm": false,
+  "ColorIndex": 334,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "eveniet",
-  "LeadTime": "magnam",
-  "Location": "rerum",
-  "RejectCounter": 395,
+  "IsAlldayEvent": true,
+  "LagTime": "beatae",
+  "LeadTime": "aliquam",
+  "Location": "eos",
+  "RejectCounter": 856,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 50,
-      "PersonId": 700,
-      "ContactId": 58,
-      "EmailId": 538,
-      "SendEmail": true,
+      "AssociateId": 852,
+      "PersonId": 498,
+      "ContactId": 63,
+      "EmailId": 578,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 50,
-      "PersonId": 700,
-      "ContactId": 58,
-      "EmailId": 538,
-      "SendEmail": true,
+      "AssociateId": 852,
+      "PersonId": 498,
+      "ContactId": 63,
+      "EmailId": 578,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2003-11-10T17:37:16.3362447+01:00",
+  "ActiveDate": "1999-08-15T14:19:02.516142+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 809,
+  "PreferredTZLocation": 642,
   "Sale": null,
-  "SuggestedAppointmentId": 952,
+  "SuggestedAppointmentId": 554,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "rerum",
+  "CentralserviceVideomeetId": "quia",
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Vesta Armstrong Sr.",
-    "SuperOffice:2": "Prof. Adrienne Libby Larson"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Margarette Feil PhD"
   },
   "ExtraFields": {
-    "ExtraFields1": "commodi",
-    "ExtraFields2": "maiores"
+    "ExtraFields1": "doloribus",
+    "ExtraFields2": "quos"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "perferendis"
+    "CustomFields1": "facilis",
+    "CustomFields2": "labore"
   },
-  "PublishEventDate": "1997-09-28T17:37:16.3382448+02:00",
-  "PublishTo": "2021-02-17T17:37:16.3382448+01:00",
-  "PublishFrom": "2012-03-15T17:37:16.3382448+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2004-01-25T14:19:02.516142+01:00",
+  "PublishTo": "2023-02-05T14:19:02.516142+01:00",
+  "PublishFrom": "1998-07-08T14:19:02.516142+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 622,
+      "VisibleId": 119,
       "Visibility": "All",
-      "DisplayValue": "nihil"
+      "DisplayValue": "et"
     },
     {
-      "VisibleId": 622,
+      "VisibleId": 119,
       "Visibility": "All",
-      "DisplayValue": "nihil"
+      "DisplayValue": "et"
     }
   ]
 }
@@ -295,122 +295,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2007-04-15T17:37:16.3472455+02:00",
-  "AppointmentId": 434,
-  "Description": "Right-sized empowering architecture",
-  "StartDate": "2009-10-17T17:37:16.3472455+02:00",
-  "EndDate": "1997-04-25T17:37:16.3472455+02:00",
+  "CreatedDate": "2020-11-10T14:19:02.5317757+01:00",
+  "AppointmentId": 808,
+  "Description": "Horizontal cohesive array",
+  "StartDate": "2013-09-09T14:19:02.5317757+02:00",
+  "EndDate": "2005-09-07T14:19:02.5317757+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 223,
+  "MotherId": 716,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2022-08-14T17:37:16.3512409+02:00",
+  "UpdatedDate": "1999-09-14T14:19:02.5317757+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 177,
+  "ActiveLinks": 329,
   "Links": [
     {
-      "EntityName": "Mosciski-Heathcote",
-      "Id": 230,
-      "Description": "Distributed multi-tasking strategy",
-      "ExtraInfo": "repellendus",
-      "LinkId": 901,
+      "EntityName": "DuBuque-Emmerich",
+      "Id": 930,
+      "Description": "Front-line analyzing middleware",
+      "ExtraInfo": "odio",
+      "LinkId": 411,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 7
+          "FieldLength": 962
         }
       }
     }
   ],
-  "AlarmLeadTime": "in",
-  "HasAlarm": true,
-  "ColorIndex": 737,
-  "IsFree": false,
+  "AlarmLeadTime": "occaecati",
+  "HasAlarm": false,
+  "ColorIndex": 753,
+  "IsFree": true,
   "IsAlldayEvent": true,
-  "LagTime": "aperiam",
-  "LeadTime": "reiciendis",
-  "Location": "voluptas",
-  "RejectCounter": 894,
+  "LagTime": "totam",
+  "LeadTime": "sit",
+  "Location": "sunt",
+  "RejectCounter": 970,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 566,
-      "PersonId": 460,
-      "ContactId": 3,
-      "EmailId": 230,
-      "SendEmail": false,
+      "AssociateId": 791,
+      "PersonId": 311,
+      "ContactId": 794,
+      "EmailId": 805,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 566,
-      "PersonId": 460,
-      "ContactId": 3,
-      "EmailId": 230,
-      "SendEmail": false,
+      "AssociateId": 791,
+      "PersonId": 311,
+      "ContactId": 794,
+      "EmailId": 805,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2018-07-01T17:37:16.3512409+02:00",
-  "HasConflict": true,
+  "ActiveDate": "1996-07-17T14:19:02.5317757+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 288,
+  "PreferredTZLocation": 56,
   "Sale": null,
-  "SuggestedAppointmentId": 492,
+  "SuggestedAppointmentId": 983,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "rerum",
+  "CentralserviceVideomeetId": "qui",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Ettie Peter Sipes DDS",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Elnora Stanton",
+    "SuperOffice:2": "Maybelle Welch"
   },
   "ExtraFields": {
-    "ExtraFields1": "nostrum",
-    "ExtraFields2": "impedit"
+    "ExtraFields1": "optio",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "eos"
+    "CustomFields1": "quis",
+    "CustomFields2": "officia"
   },
-  "PublishEventDate": "2022-06-05T17:37:16.3522418+02:00",
-  "PublishTo": "2006-01-14T17:37:16.3522418+01:00",
-  "PublishFrom": "2010-03-01T17:37:16.3522418+01:00",
+  "PublishEventDate": "1998-08-28T14:19:02.5317757+02:00",
+  "PublishTo": "2010-05-14T14:19:02.5317757+02:00",
+  "PublishFrom": "2009-02-13T14:19:02.5317757+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 28,
+      "VisibleId": 879,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 168
+          "FieldLength": 527
         }
       }
     },
     {
-      "VisibleId": 28,
+      "VisibleId": 879,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 168
+          "FieldLength": 527
         }
       }
     }
@@ -419,8 +419,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldType": "System.String",
+      "FieldLength": 401
     }
   }
 }

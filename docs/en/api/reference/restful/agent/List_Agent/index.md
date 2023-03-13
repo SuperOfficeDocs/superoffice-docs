@@ -9,6 +9,12 @@ title: List_Agent
 
 
 
+* [POST Agents/List/GetTasks](v1ListAgent_GetTasks.md)
+
+* [POST Agents/List/GetDocumentTemplatesTasks](v1ListAgent_GetDocumentTemplatesTasks.md)
+
+* [POST Agents/List/GetAllTasks](v1ListAgent_GetAllTasks.md)
+
 * [POST Agents/List/GetTicketCategory](v1ListAgent_GetTicketCategory.md)
 
 * [POST Agents/List/GetTicketCategoryEntity](v1ListAgent_GetTicketCategoryEntity.md)
@@ -62,6 +68,12 @@ title: List_Agent
 * [POST Agents/List/DeleteAppWebPanels](v1ListAgent_DeleteAppWebPanels.md)
 
 * [POST Agents/List/GetWebPanelByProgId](v1ListAgent_GetWebPanelByProgId.md)
+
+* [POST Agents/List/GetLocalizedTextsByLanguageId](v1ListAgent_GetLocalizedTextsByLanguageId.md)
+
+* [POST Agents/List/GetLocalizedTextsByType](v1ListAgent_GetLocalizedTextsByType.md)
+
+* [POST Agents/List/GetMrMrs](v1ListAgent_GetMrMrs.md)
 
 * [POST Agents/List/GetMrMrsList](v1ListAgent_GetMrMrsList.md)
 
@@ -185,11 +197,11 @@ title: List_Agent
 
 * [POST Agents/List/GetTaskList](v1ListAgent_GetTaskList.md)
 
-* [POST Agents/List/GetTasks](v1ListAgent_GetTasks.md)
+* [POST Agents/List/GetInstalledLanguages](v1ListAgent_GetInstalledLanguages.md)
 
-* [POST Agents/List/GetDocumentTemplatesTasks](v1ListAgent_GetDocumentTemplatesTasks.md)
+* [POST Agents/List/GetLegalBase](v1ListAgent_GetLegalBase.md)
 
-* [POST Agents/List/GetAllTasks](v1ListAgent_GetAllTasks.md)
+* [POST Agents/List/SaveLegalBase](v1ListAgent_SaveLegalBase.md)
 
 * [POST Agents/List/GetLegalBaseList](v1ListAgent_GetLegalBaseList.md)
 
@@ -313,11 +325,11 @@ title: List_Agent
 
 * [POST Agents/List/GetLocalizedTexts](v1ListAgent_GetLocalizedTexts.md)
 
-* [POST Agents/List/GetLocalizedTextsByLanguageId](v1ListAgent_GetLocalizedTextsByLanguageId.md)
+* [POST Agents/List/SaveConsentSource](v1ListAgent_SaveConsentSource.md)
 
-* [POST Agents/List/GetLocalizedTextsByType](v1ListAgent_GetLocalizedTextsByType.md)
+* [POST Agents/List/GetConsentSourceList](v1ListAgent_GetConsentSourceList.md)
 
-* [POST Agents/List/GetMrMrs](v1ListAgent_GetMrMrs.md)
+* [POST Agents/List/GetConsentSources](v1ListAgent_GetConsentSources.md)
 
 * [POST Agents/List/GetCountry](v1ListAgent_GetCountry.md)
 
@@ -441,12 +453,6 @@ title: List_Agent
 
 * [POST Agents/List/GetLanguageInfoList](v1ListAgent_GetLanguageInfoList.md)
 
-* [POST Agents/List/GetInstalledLanguages](v1ListAgent_GetInstalledLanguages.md)
-
-* [POST Agents/List/GetLegalBase](v1ListAgent_GetLegalBase.md)
-
-* [POST Agents/List/SaveLegalBase](v1ListAgent_SaveLegalBase.md)
-
 * [POST Agents/List/CreateDefaultAmountClassEntity](v1ListAgent_CreateDefaultAmountClassEntity.md)
 
 * [POST Agents/List/SaveAmountClassEntity](v1ListAgent_SaveAmountClassEntity.md)
@@ -553,6 +559,12 @@ title: List_Agent
 
 * [POST Agents/List/GetTaskMenu](v1ListAgent_GetTaskMenu.md)
 
+* [POST Agents/List/GetAppTaskMenus](v1ListAgent_GetAppTaskMenus.md)
+
+* [POST Agents/List/DeleteAppTaskMenus](v1ListAgent_DeleteAppTaskMenus.md)
+
+* [POST Agents/List/GetTaskMenuByProgId](v1ListAgent_GetTaskMenuByProgId.md)
+
 * [POST Agents/List/GetConsentPurpose](v1ListAgent_GetConsentPurpose.md)
 
 * [POST Agents/List/SaveConsentPurpose](v1ListAgent_SaveConsentPurpose.md)
@@ -566,9 +578,3 @@ title: List_Agent
 * [POST Agents/List/GetConsentPurposes](v1ListAgent_GetConsentPurposes.md)
 
 * [POST Agents/List/GetConsentSource](v1ListAgent_GetConsentSource.md)
-
-* [POST Agents/List/SaveConsentSource](v1ListAgent_SaveConsentSource.md)
-
-* [POST Agents/List/GetConsentSourceList](v1ListAgent_GetConsentSourceList.md)
-
-* [POST Agents/List/GetConsentSources](v1ListAgent_GetConsentSources.md)

@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,31 +98,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Douglas-Mitchell",
-    "Comment": "voluptatem",
-    "StakeholderRoleId": 483,
-    "CountryId": 611,
-    "PersonId": 805,
-    "EmailDescription": "selmer_weber@jenkins.com",
-    "EmailId": 981,
-    "EmailAddress": "salma.purdy@hammeslockman.ca",
-    "PhoneId": 953,
-    "ContactName": "Price LLC",
-    "ContactId": 837,
-    "SaleId": 791,
-    "Mrmrs": "fugit",
-    "Firstname": "Alvena",
-    "MiddleName": "Walter-Funk",
-    "Lastname": "Armstrong",
-    "SaleStakeholderId": 708,
-    "Rank": 470,
-    "Phone": "(550)387-5131",
+    "StakeholderRoleName": "Bailey, Wilderman and Powlowski",
+    "Comment": "perspiciatis",
+    "StakeholderRoleId": 25,
+    "CountryId": 45,
+    "PersonId": 198,
+    "EmailDescription": "mireille.jerde@bernhardwisoky.info",
+    "EmailId": 388,
+    "EmailAddress": "rosalinda@oconner.name",
+    "PhoneId": 264,
+    "ContactName": "Dicki, Ullrich and Rath",
+    "ContactId": 139,
+    "SaleId": 971,
+    "Mrmrs": "culpa",
+    "Firstname": "Kieran",
+    "MiddleName": "Hickle-Schmidt",
+    "Lastname": "Raynor",
+    "SaleStakeholderId": 233,
+    "Rank": 158,
+    "Phone": "1-534-581-9930",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 407
+        "FieldLength": 276
       }
     }
   }

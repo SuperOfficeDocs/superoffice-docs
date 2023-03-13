@@ -73,17 +73,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerName": "Renner, Greenfelder and Rau",
-  "UserName": "Roob-Conroy",
-  "Password": "neque",
-  "Folder": "voluptate",
+  "ServerName": "Torp-Conroy",
+  "UserName": "Hoppe Inc and Sons",
+  "Password": "ut",
+  "Folder": "voluptatem",
   "UseSSL": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 437
+      "FieldType": "System.Int32",
+      "FieldLength": 575
     }
   }
 }

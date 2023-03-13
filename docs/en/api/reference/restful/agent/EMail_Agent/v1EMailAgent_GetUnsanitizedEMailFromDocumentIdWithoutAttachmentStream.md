@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 433
+  "DocumentId": 539
 }
 ```
 
@@ -119,146 +119,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 82,
-      "ContactName": "Cruickshank, Brekke and Lubowitz",
-      "PersonId": 216,
-      "PersonName": "Wiza, Anderson and Bauch",
-      "AssociateId": 875,
-      "Address": "sunt",
-      "EmailId": 161,
+      "ContactId": 177,
+      "ContactName": "Erdman Inc and Sons",
+      "PersonId": 993,
+      "PersonName": "Dicki-Thompson",
+      "AssociateId": 81,
+      "Address": "et",
+      "EmailId": 28,
       "DuplicatePersonIds": [
-        440,
-        770
+        898,
+        892
       ],
-      "Name": "Pollich LLC",
+      "Name": "Dibbert-Connelly",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 488
+          "FieldType": "System.Int32",
+          "FieldLength": 159
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 597,
-      "ContactName": "Green Group",
-      "PersonId": 142,
-      "PersonName": "Predovic LLC",
-      "AssociateId": 393,
-      "Address": "alias",
-      "EmailId": 931,
+      "ContactId": 693,
+      "ContactName": "Welch, Bernhard and Goodwin",
+      "PersonId": 41,
+      "PersonName": "Romaguera Inc and Sons",
+      "AssociateId": 341,
+      "Address": "voluptas",
+      "EmailId": 2,
       "DuplicatePersonIds": [
-        853,
-        516
+        203,
+        292
       ],
-      "Name": "Feeney LLC",
+      "Name": "Daniel, Cormier and Kuhlman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 544
+          "FieldType": "System.Int32",
+          "FieldLength": 785
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 948,
-      "ContactName": "Beier-Schinner",
-      "PersonId": 72,
-      "PersonName": "Hartmann Group",
-      "AssociateId": 515,
-      "Address": "rerum",
-      "EmailId": 259,
+      "ContactId": 763,
+      "ContactName": "Hane, Thompson and Rutherford",
+      "PersonId": 394,
+      "PersonName": "VonRueden LLC",
+      "AssociateId": 193,
+      "Address": "doloremque",
+      "EmailId": 800,
       "DuplicatePersonIds": [
-        296,
-        951
+        453,
+        312
       ],
-      "Name": "Kessler, Homenick and Lubowitz",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 524
-        }
-      }
-    }
-  ],
-  "Subject": "corrupti",
-  "HTMLBody": "itaque",
-  "From": null,
-  "Sent": "2019-02-18T17:37:17.8892443+01:00",
-  "Size": 171,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "eveniet",
-  "PlainBody": "pariatur",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 938,
-  "Attachments": [
-    {
-      "Description": "Synergized maximized local area network",
-      "Filename": "non",
-      "Size": 85,
-      "Type": "aliquam",
-      "Encoding": "voluptatem",
-      "Id": "qui",
-      "Disposition": "veniam",
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Kling-Jacobi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 902
+          "FieldLength": 799
+        }
+      }
+    }
+  ],
+  "Subject": "quas",
+  "HTMLBody": "dolore",
+  "From": null,
+  "Sent": "2008-09-13T14:19:03.4040208+02:00",
+  "Size": 196,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "occaecati",
+  "PlainBody": "voluptas",
+  "IsSent": true,
+  "EMailSOInfo": null,
+  "ServerId": 200,
+  "Attachments": [
+    {
+      "Description": "Grass-roots holistic flexibility",
+      "Filename": "veniam",
+      "Size": 749,
+      "Type": "aspernatur",
+      "Encoding": "minus",
+      "Id": "rerum",
+      "Disposition": "deserunt",
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 572
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Gusikowski Group",
+      "Name": "Kautzer Inc and Sons",
       "Values": [
-        "ea",
-        "enim"
+        "aspernatur",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 893
+          "FieldType": "System.Int32",
+          "FieldLength": 728
         }
       }
     },
     {
-      "Name": "Gusikowski Group",
+      "Name": "Kautzer Inc and Sons",
       "Values": [
-        "ea",
-        "enim"
+        "aspernatur",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 893
+          "FieldType": "System.Int32",
+          "FieldLength": 728
         }
       }
     }
   ],
-  "FolderName": "Ruecker, Connelly and Weber",
-  "EmailItemId": 773,
-  "AccountId": 25,
-  "ReceivedAt": "2005-10-11T17:37:17.8892443+02:00",
+  "FolderName": "Marquardt Group",
+  "EmailItemId": 34,
+  "AccountId": 125,
+  "ReceivedAt": "1998-11-09T14:19:03.4040208+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2016-01-13T17:37:17.8892443+01:00",
+  "RepliedAt": "2009-01-09T14:19:03.4040208+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,7 +267,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 52
+      "FieldLength": 551
     }
   }
 }

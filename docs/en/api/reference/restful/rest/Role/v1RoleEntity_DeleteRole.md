@@ -30,7 +30,7 @@ Delete the specified role and move all users associated with the role to the rep
 | replacingRoleId | int32 |  The roleId which all associated users will be moved to. |
 
 ```http
-DELETE /api/v1/Role/{roleIdToDelete}?replacingRoleId=22
+DELETE /api/v1/Role/{roleIdToDelete}?replacingRoleId=55
 ```
 
 
@@ -61,7 +61,7 @@ No Content
 DELETE /api/v1/Role/{roleIdToDelete}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IProjectAgent.GetMyProjec
 
 ## GetMyProjects
 
-Returning the projects belonging to an associate. If memberProjects is false only the projects where the associate is project responsible is returned, otherwise both the projects where the associate is project responsible and project member is returned.
 
-* **includeMemberProjects:** True to include projects where the user is project member.
 
-**Returns:** The list of projects
+
 
 [WSDL file for Services88/Project](../Services88-Project.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetMyProjects Response
 
 ```xml
@@ -73,12 +72,12 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Project:AssociateId xsi:type="xsd:int">0</Project:AssociateId>
      <Project:AssociateFullName xsi:type="xsd:string"></Project:AssociateFullName>
      <Project:TypeId xsi:type="xsd:int">0</Project:TypeId>
-     <Project:Updated xsi:type="xsd:dateTime">2022-08-26T09:00:15Z</Project:Updated>
+     <Project:Updated xsi:type="xsd:dateTime">2023-02-15T13:18:08Z</Project:Updated>
      <Project:StatusId xsi:type="xsd:int">0</Project:StatusId>
      <Project:Status xsi:type="xsd:string"></Project:Status>
      <Project:TextId xsi:type="xsd:int">0</Project:TextId>
-     <Project:PublishTo xsi:type="xsd:dateTime">2022-08-26T09:00:15Z</Project:PublishTo>
-     <Project:PublishFrom xsi:type="xsd:dateTime">2022-08-26T09:00:15Z</Project:PublishFrom>
+     <Project:PublishTo xsi:type="xsd:dateTime">2023-02-15T13:18:08Z</Project:PublishTo>
+     <Project:PublishFrom xsi:type="xsd:dateTime">2023-02-15T13:18:08Z</Project:PublishFrom>
      <Project:IsPublished xsi:type="xsd:boolean">false</Project:IsPublished>
      <Project:URLName xsi:type="xsd:string"></Project:URLName>
      <Project:ProjectNumber xsi:type="xsd:string"></Project:ProjectNumber>
@@ -90,3 +89,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

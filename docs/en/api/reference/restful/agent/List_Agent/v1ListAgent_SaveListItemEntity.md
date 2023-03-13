@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 453,
-  "Name": "Carroll LLC",
-  "Tooltip": "sit",
+  "Id": 986,
+  "Name": "Rempel-Carroll",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "UdListDefinitionId": 176,
-  "Rank": 525,
+  "UdListDefinitionId": 992,
+  "Rank": 825,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 883
+      "FieldType": "System.String",
+      "FieldLength": 251
     }
   }
 }

@@ -25,7 +25,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=121
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=298
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -84,21 +84,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 71,
-  "Name": "Hills Inc and Sons",
-  "CreatedDate": "2008-08-07T17:37:18.1102411+02:00",
-  "UpdatedDate": "2013-08-08T17:37:18.1102411+02:00",
-  "AssociateFullName": "Aron Wuckert",
-  "CreatedBy": "et",
-  "UpdatedBy": "possimus",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 337,
+  "ForeignDeviceId": 758,
+  "Name": "Kutch, Grady and Murray",
+  "CreatedDate": "1997-02-03T14:19:03.5602728+01:00",
+  "UpdatedDate": "2023-01-29T14:19:03.5602728+01:00",
+  "AssociateFullName": "Prof. Jake Eunice Conroy",
+  "CreatedBy": "quaerat",
+  "UpdatedBy": "repellat",
+  "DeviceIdentifier": "minus",
+  "ForeignAppId": 706,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 913
+      "FieldLength": 8
     }
   }
 }

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IEMailAgent.RefreshFolder
 
 ## RefreshFolderForAssociate
 
-Get all emails in folder(s) from current associate
 
-* **folders:** List of folder names to refresh
 
-**Returns:** JSON serialized string containing array of data about each folder
+
 
 [WSDL file for Services84/EMail](../Services84-EMail.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RefreshFolderForAssociate Response
 
 ```xml
@@ -71,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

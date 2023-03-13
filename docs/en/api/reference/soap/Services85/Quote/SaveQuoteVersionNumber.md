@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IQuoteAgent.SaveQuoteVers
 
 ## SaveQuoteVersionNumber
 
-Save the quote version number if it is valid
 
-* **quoteVersionId:** VersionId of the quote version
-* **number:** The number to save
 
-**Returns:** True if the number was valid and then saved
+
 
 [WSDL file for Services85/Quote](../Services85-Quote.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveQuoteVersionNumber Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -64,26 +64,26 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "et",
+      "RawValue": "aliquam",
       "Specification": null,
-      "DisplayValue": "expedita",
-      "DisplayTooltip": "eos",
+      "DisplayValue": "quos",
+      "DisplayTooltip": "non",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 598,
-      "PrefDescId": 167,
-      "TableName": "Oberbrunner Inc and Sons",
-      "UserPreferenceId": 430
+      "TargetId": 708,
+      "PrefDescId": 130,
+      "TableName": "Schowalter-Dickens",
+      "UserPreferenceId": 670
     }
   ],
-  "RemoveLowerLevels": true
+  "RemoveLowerLevels": false
 }
 ```
 

@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 283,
-    "Name": "Lubowitz Inc and Sons",
-    "Value": "sit",
-    "CreatedDate": "2005-07-02T17:37:16.8842438+02:00",
-    "UpdatedDate": "2012-11-26T17:37:16.8842438+01:00",
-    "CreatedBy": "doloremque",
-    "UpdatedBy": "voluptas",
+    "AudienceLayoutId": 34,
+    "Name": "Effertz, Hettinger and Kerluke",
+    "Value": "tempore",
+    "CreatedDate": "2006-02-18T14:19:02.7594283+01:00",
+    "UpdatedDate": "2005-11-15T14:19:02.7594283+01:00",
+    "CreatedBy": "dolorum",
+    "UpdatedBy": "deleniti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 780
+        "FieldType": "System.Int32",
+        "FieldLength": 209
       }
     }
   }

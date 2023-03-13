@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services88/Pocke
 
 Handled by the <see cref="T:SuperOffice.Services88.IPocketAgent">SuperOffice.Services88.IPocketAgent</see> interface.
 
-Interface for the Pocket Agent
-Agent with Pocket specific functionality
+
 
 Download [WSDL file for Services88/Pocket](../Services88-Pocket.md) if you need to generate your own proxy code.
 
@@ -28,3 +27,4 @@ Download [WSDL file for Services88/Pocket](../Services88-Pocket.md) if you need 
 * [SendPushNotification](SendPushNotification.md)
 * [SetPushNotificationTagsForDevice](SetPushNotificationTagsForDevice.md)
 * [SetPushNotificationTagsForUser](SetPushNotificationTagsForUser.md)
+

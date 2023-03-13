@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Denesik, Murphy and Hilll"
+  "UserName": "Ebert LLC"
 }
 ```
 
@@ -113,14 +113,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 183,
-  "Name": "Murray-Johns",
-  "Rank": 121,
-  "Tooltip": "doloribus",
+  "AssociateId": 179,
+  "Name": "Hand, Hammes and Wolf",
+  "Rank": 533,
+  "Tooltip": "dolores",
   "LicenseOwners": [
     {
-      "Name": "Beer-Eichmann",
-      "Description": "Horizontal tangible matrices",
+      "Name": "Kshlerin Inc and Sons",
+      "Description": "Mandatory needs-based help-desk",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -134,13 +134,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 266
+          "FieldLength": 896
         }
       }
     },
     {
-      "Name": "Beer-Eichmann",
-      "Description": "Horizontal tangible matrices",
+      "Name": "Kshlerin Inc and Sons",
+      "Description": "Mandatory needs-based help-desk",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 266
+          "FieldLength": 896
         }
       }
     }
@@ -163,110 +163,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "debitis",
-      "Tooltip": "accusamus",
-      "Id": 851,
-      "Rank": 143,
-      "Deleted": false,
+      "Value": "eius",
+      "Tooltip": "numquam",
+      "Id": 578,
+      "Rank": 437,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 87
+          "FieldType": "System.Int32",
+          "FieldLength": 382
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2013-05-17T17:37:19.5729775+02:00",
-  "Lastlogout": "2019-02-04T17:37:19.5729775+01:00",
-  "EjUserId": 84,
-  "RequestSignature": "dolor",
+  "Deleted": true,
+  "Lastlogin": "1996-03-09T14:19:04.5953265+01:00",
+  "Lastlogout": "2009-07-05T14:19:04.5953265+02:00",
+  "EjUserId": 464,
+  "RequestSignature": "officia",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "et",
-      "DisplayValue": "architecto",
+      "Value": "omnis",
+      "DisplayValue": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 949
+          "FieldLength": 130
         }
       }
     },
     {
       "Type": null,
-      "Value": "et",
-      "DisplayValue": "architecto",
+      "Value": "omnis",
+      "DisplayValue": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 949
+          "FieldLength": 130
         }
       }
     }
   ],
-  "UserName": "Koelpin, Mosciski and Mueller",
+  "UserName": "Welch Group",
   "TicketCategories": [
     {
-      "Id": 976,
-      "Name": "Brekke LLC",
-      "ToolTip": "Illum et est temporibus.",
+      "Id": 917,
+      "Name": "Ruecker, Block and Cronin",
+      "ToolTip": "Hic facilis modi iusto aut id.",
       "Deleted": false,
-      "Rank": 149,
-      "Type": "consequatur",
+      "Rank": 908,
+      "Type": "eius",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ullam",
-      "ColorBlock": 804,
-      "ExtraInfo": "est",
-      "StyleHint": "assumenda",
-      "FullName": "Dr. Clay Dimitri Gleichner",
+      "IconHint": "aperiam",
+      "ColorBlock": 21,
+      "ExtraInfo": "fugit",
+      "StyleHint": "nobis",
+      "FullName": "Rachelle Steuber",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 692
+          "FieldLength": 865
         }
       }
     }
   ],
-  "NickName": "Ortiz LLC",
-  "WaitingForApproval": true,
+  "NickName": "Mayer, Hegmann and Bartoletti",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "facilis",
-    "ExtraFields2": "sunt"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "repellendus"
+    "CustomFields1": "est",
+    "CustomFields2": "et"
   },
   "PostSaveCommands": [
     {
-      "Name": "Padberg, Gislason and Aufderhar",
-      "DisplayName": "Schultz, Graham and Brekke",
-      "Description": "Customizable user-facing initiative",
-      "ToolTip": "Omnis repudiandae recusandae consequatur consequatur doloribus.",
+      "Name": "Medhurst-Schmeler",
+      "DisplayName": "Rohan-Stanton",
+      "Description": "Up-sized bi-directional projection",
+      "ToolTip": "Ea qui.",
       "Actions": "Implicit",
-      "ActionData": "ex",
+      "ActionData": "perspiciatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 560
+          "FieldType": "System.String",
+          "FieldLength": 460
         }
       }
     }
@@ -275,8 +275,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 325
+      "FieldType": "System.Int32",
+      "FieldLength": 482
     }
   }
 }

@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IAIAgent.DetectSentiment"
 
 ## DetectSentiment
 
-Detect the sentiment of a (reasonably short) text. Sentiment analysis may cause a translation to be made, since sentiment analysis only supports a limited set of languages
 
-* **text:** Text to be analyzed
 
-**Returns:** The sentiment information: score (-100 to +100) and confidence
+
 
 [WSDL file for Services88/AI](../Services88-AI.md)
 
@@ -48,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DetectSentiment Response
 
 ```xml
@@ -70,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

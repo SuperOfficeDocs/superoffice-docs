@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.SaveWebPanelEn
 
 ## SaveWebPanelEntity
 
-Updates the existing WebPanelEntity or creates a new WebPanelEntity if the id parameter is 0.
 
-* **webPanelEntity:** The WebPanelEntity that is saved.
 
-**Returns:** New or updated WebPanelEntity
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -70,6 +68,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveWebPanelEntity Response
 
 ```xml
@@ -111,3 +110,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

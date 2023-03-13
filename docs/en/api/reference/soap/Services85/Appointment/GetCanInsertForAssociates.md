@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IAppointmentAgent.GetCanI
 
 ## GetCanInsertForAssociates
 
-Check if current associate can create appointments in the diary of other associates.
 
-* **associateIds:** Array of associate ids to check for.
 
-**Returns:** Returns an array of bool corresponding to the associate array input parameter.
+
 
 [WSDL file for Services85/Appointment](../Services85-Appointment.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetCanInsertForAssociates Response
 
 ```xml
@@ -73,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

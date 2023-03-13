@@ -502,6 +502,8 @@ title: Services88.SaleAgent WSDL
               <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="IsOwnerContact" type="xs:boolean" />
               <xs:element minOccurs="0" name="ActiveErpLinks" type="xs:int" />
+              <xs:element minOccurs="0" name="Number1" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Number2" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -2272,290 +2274,159 @@ title: Services88.SaleAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Sale">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Sale</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultSaleEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new SaleEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/CreateDefaultSaleEntity" name="CreateDefaultSaleEntityRequest" message="tns:CreateDefaultSaleEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/CreateDefaultSaleEntityResponse" name="CreateDefaultSaleEntityResponse" message="tns:CreateDefaultSaleEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveSaleEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing SaleEntity or creates a new SaleEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/SaveSaleEntity" name="SaveSaleEntityRequest" message="tns:SaveSaleEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/SaveSaleEntityResponse" name="SaveSaleEntityResponse" message="tns:SaveSaleEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteSaleEntity">
-      <wsdl:documentation>
-        <summary>Deletes the SaleEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/DeleteSaleEntity" name="DeleteSaleEntityRequest" message="tns:DeleteSaleEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/DeleteSaleEntityResponse" name="DeleteSaleEntityResponse" message="tns:DeleteSaleEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultSaleStakeholder">
-      <wsdl:documentation>
-        <summary>Loading default values into a new SaleStakeholder.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/CreateDefaultSaleStakeholder" name="CreateDefaultSaleStakeholderRequest" message="tns:CreateDefaultSaleStakeholderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/CreateDefaultSaleStakeholderResponse" name="CreateDefaultSaleStakeholderResponse" message="tns:CreateDefaultSaleStakeholderResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveSaleStakeholder">
-      <wsdl:documentation>
-        <summary>Updates the existing SaleStakeholder or creates a new SaleStakeholder if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/SaveSaleStakeholder" name="SaveSaleStakeholderRequest" message="tns:SaveSaleStakeholderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/SaveSaleStakeholderResponse" name="SaveSaleStakeholderResponse" message="tns:SaveSaleStakeholderResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteSaleStakeholder">
-      <wsdl:documentation>
-        <summary>Deletes the SaleStakeholder</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/DeleteSaleStakeholder" name="DeleteSaleStakeholderRequest" message="tns:DeleteSaleStakeholderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/DeleteSaleStakeholderResponse" name="DeleteSaleStakeholderResponse" message="tns:DeleteSaleStakeholderResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultSaleSummary">
-      <wsdl:documentation>
-        <summary>Loading default values into a new SaleSummary.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/CreateDefaultSaleSummary" name="CreateDefaultSaleSummaryRequest" message="tns:CreateDefaultSaleSummaryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/CreateDefaultSaleSummaryResponse" name="CreateDefaultSaleSummaryResponse" message="tns:CreateDefaultSaleSummaryResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSale">
-      <wsdl:documentation>
-        <summary>Gets a Sale object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSale" name="GetSaleRequest" message="tns:GetSaleRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSaleResponse" name="GetSaleResponse" message="tns:GetSaleResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSaleEntity">
-      <wsdl:documentation>
-        <summary>Gets a SaleEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSaleEntity" name="GetSaleEntityRequest" message="tns:GetSaleEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSaleEntityResponse" name="GetSaleEntityResponse" message="tns:GetSaleEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="HasGuide">
-      <wsdl:documentation>
-        <summary>Does this sale have a sale guide associated with its sale type?</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/HasGuide" name="HasGuideRequest" message="tns:HasGuideRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/HasGuideResponse" name="HasGuideResponse" message="tns:HasGuideResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetNextDueDate">
-      <wsdl:documentation>
-        <summary>Gets the next due date for a sale. The next due date is the next future appointment that is not completed.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetNextDueDate" name="GetNextDueDateRequest" message="tns:GetNextDueDateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetNextDueDateResponse" name="GetNextDueDateResponse" message="tns:GetNextDueDateResponse" />
     </wsdl:operation>
     <wsdl:operation name="BatchUpdateNextDueDate">
-      <wsdl:documentation>
-        <summary>Re-calculate all the next due dates</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/BatchUpdateNextDueDate" name="BatchUpdateNextDueDateRequest" message="tns:BatchUpdateNextDueDateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/BatchUpdateNextDueDateResponse" name="BatchUpdateNextDueDateResponse" message="tns:BatchUpdateNextDueDateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetNextSaleStage">
-      <wsdl:documentation>
-        <summary>Gets the next (not deleted) sale stage id if the current stage is deleted. If the current stage is not deleted, the CurrentStageId is returned</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetNextSaleStage" name="GetNextSaleStageRequest" message="tns:GetNextSaleStageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetNextSaleStageResponse" name="GetNextSaleStageResponse" message="tns:GetNextSaleStageResponse" />
     </wsdl:operation>
     <wsdl:operation name="HasGuideActivities">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/HasGuideActivities" name="HasGuideActivitiesRequest" message="tns:HasGuideActivitiesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/HasGuideActivitiesResponse" name="HasGuideActivitiesResponse" message="tns:HasGuideActivitiesResponse" />
     </wsdl:operation>
     <wsdl:operation name="OfferAutoNextStageOnApppointmentCompleted">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/OfferAutoNextStageOnApppointmentCompleted" name="OfferAutoNextStageOnApppointmentCompletedRequest" message="tns:OfferAutoNextStageOnApppointmentCompletedRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/OfferAutoNextStageOnApppointmentCompletedResponse" name="OfferAutoNextStageOnApppointmentCompletedResponse" message="tns:OfferAutoNextStageOnApppointmentCompletedResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProbabilityFromStage">
-      <wsdl:documentation>
-        <summary>Get the probability percentage for a given sale stage</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetProbabilityFromStage" name="GetProbabilityFromStageRequest" message="tns:GetProbabilityFromStageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetProbabilityFromStageResponse" name="GetProbabilityFromStageResponse" message="tns:GetProbabilityFromStageResponse" />
     </wsdl:operation>
     <wsdl:operation name="IsNumberValid">
-      <wsdl:documentation>
-        <summary>Checks if the number is unique or required.  The setting is configured from admin under system options.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/IsNumberValid" name="IsNumberValidRequest" message="tns:IsNumberValidRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/IsNumberValidResponse" name="IsNumberValidResponse" message="tns:IsNumberValidResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddSaleStakeholders">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/AddSaleStakeholders" name="AddSaleStakeholdersRequest" message="tns:AddSaleStakeholdersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/AddSaleStakeholdersResponse" name="AddSaleStakeholdersResponse" message="tns:AddSaleStakeholdersResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteSaleStakeholders">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/DeleteSaleStakeholders" name="DeleteSaleStakeholdersRequest" message="tns:DeleteSaleStakeholdersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/DeleteSaleStakeholdersResponse" name="DeleteSaleStakeholdersResponse" message="tns:DeleteSaleStakeholdersResponse" />
     </wsdl:operation>
     <wsdl:operation name="HasStakeholderSetting">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/HasStakeholderSetting" name="HasStakeholderSettingRequest" message="tns:HasStakeholderSettingRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/HasStakeholderSettingResponse" name="HasStakeholderSettingResponse" message="tns:HasStakeholderSettingResponse" />
     </wsdl:operation>
     <wsdl:operation name="ValidateSaleEntity">
-      <wsdl:documentation>
-        <summary>Check that entity is ready for saving, return error messages by field.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/ValidateSaleEntity" name="ValidateSaleEntityRequest" message="tns:ValidateSaleEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/ValidateSaleEntityResponse" name="ValidateSaleEntityResponse" message="tns:ValidateSaleEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSaleList">
-      <wsdl:documentation>
-        <summary>Gets an array of Sale objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSaleList" name="GetSaleListRequest" message="tns:GetSaleListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSaleListResponse" name="GetSaleListResponse" message="tns:GetSaleListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyOpportunities">
-      <wsdl:documentation>
-        <summary>Returning the opportunities (open sales) belonging to the user currently logged on</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetMyOpportunities" name="GetMyOpportunitiesRequest" message="tns:GetMyOpportunitiesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetMyOpportunitiesResponse" name="GetMyOpportunitiesResponse" message="tns:GetMyOpportunitiesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetRecentSales">
-      <wsdl:documentation>
-        <summary>Returns the latest sales (that are sold) limited by their amount. The result is sorted descending with the latest first. If the amount is -1, the amount restriction is omitted.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetRecentSales" name="GetRecentSalesRequest" message="tns:GetRecentSalesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetRecentSalesResponse" name="GetRecentSalesResponse" message="tns:GetRecentSalesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUpcomingSales">
-      <wsdl:documentation>
-        <summary>Returns all open sales, sorted descending with the latest first.  If the weigthed amount is -1, the amount restriction is omitted.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetUpcomingSales" name="GetUpcomingSalesRequest" message="tns:GetUpcomingSalesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetUpcomingSalesResponse" name="GetUpcomingSalesResponse" message="tns:GetUpcomingSalesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSalesByDate">
-      <wsdl:documentation>
-        <summary>Returns all sales within a time period. The sales array can be limited by amount and status.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSalesByDate" name="GetSalesByDateRequest" message="tns:GetSalesByDateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSalesByDateResponse" name="GetSalesByDateResponse" message="tns:GetSalesByDateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetOpenSalesForContact">
-      <wsdl:documentation>
-        <summary>Returns all open sales for the contact provided.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetOpenSalesForContact" name="GetOpenSalesForContactRequest" message="tns:GetOpenSalesForContactRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetOpenSalesForContactResponse" name="GetOpenSalesForContactResponse" message="tns:GetOpenSalesForContactResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetAsSold">
-      <wsdl:documentation>
-        <summary>Change the status of one or more Sales to Sold. Note that this does not mark them as Completed.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/SetAsSold" name="SetAsSoldRequest" message="tns:SetAsSoldRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/SetAsSoldResponse" name="SetAsSoldResponse" message="tns:SetAsSoldResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetAsLost">
-      <wsdl:documentation>
-        <summary>Change the status of one or more sales to Lost. Note that this does not affect the Completed state of the sale.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/SetAsLost" name="SetAsLostRequest" message="tns:SetAsLostRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/SetAsLostResponse" name="SetAsLostResponse" message="tns:SetAsLostResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSalesFromContact">
-      <wsdl:documentation>
-        <summary>Returns all sales for the contact provided.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSalesFromContact" name="GetSalesFromContactRequest" message="tns:GetSalesFromContactRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSalesFromContactResponse" name="GetSalesFromContactResponse" message="tns:GetSalesFromContactResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSalesFromPerson">
-      <wsdl:documentation>
-        <summary>Returns all sales for the person provided.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSalesFromPerson" name="GetSalesFromPersonRequest" message="tns:GetSalesFromPersonRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSalesFromPersonResponse" name="GetSalesFromPersonResponse" message="tns:GetSalesFromPersonResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSaleStakeholder">
-      <wsdl:documentation>
-        <summary>Gets a SaleStakeholder object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSaleStakeholder" name="GetSaleStakeholderRequest" message="tns:GetSaleStakeholderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSaleStakeholderResponse" name="GetSaleStakeholderResponse" message="tns:GetSaleStakeholderResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSaleStakeholderList">
-      <wsdl:documentation>
-        <summary>Gets an array of SaleStakeholder objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSaleStakeholderList" name="GetSaleStakeholderListRequest" message="tns:GetSaleStakeholderListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSaleStakeholderListResponse" name="GetSaleStakeholderListResponse" message="tns:GetSaleStakeholderListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSaleStakeholders">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSaleStakeholders" name="GetSaleStakeholdersRequest" message="tns:GetSaleStakeholdersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSaleStakeholdersResponse" name="GetSaleStakeholdersResponse" message="tns:GetSaleStakeholdersResponse" />
     </wsdl:operation>
     <wsdl:operation name="UpdateSaleStakeholders">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/UpdateSaleStakeholders" name="UpdateSaleStakeholdersRequest" message="tns:UpdateSaleStakeholdersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/UpdateSaleStakeholdersResponse" name="UpdateSaleStakeholdersResponse" message="tns:UpdateSaleStakeholdersResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSaleStakeholderById">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSaleStakeholderById" name="GetSaleStakeholderByIdRequest" message="tns:GetSaleStakeholderByIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSaleStakeholderByIdResponse" name="GetSaleStakeholderByIdResponse" message="tns:GetSaleStakeholderByIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSummaryByAssociate">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSummaryByAssociate" name="GetSummaryByAssociateRequest" message="tns:GetSummaryByAssociateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSummaryByAssociateResponse" name="GetSummaryByAssociateResponse" message="tns:GetSummaryByAssociateResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSummaryByGroup">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSummaryByGroup" name="GetSummaryByGroupRequest" message="tns:GetSummaryByGroupRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSummaryByGroupResponse" name="GetSummaryByGroupResponse" message="tns:GetSummaryByGroupResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSummaryByContact">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSummaryByContact" name="GetSummaryByContactRequest" message="tns:GetSummaryByContactRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSummaryByContactResponse" name="GetSummaryByContactResponse" message="tns:GetSummaryByContactResponse" />
     </wsdl:operation>
@@ -3194,3 +3065,4 @@ title: Services88.SaleAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

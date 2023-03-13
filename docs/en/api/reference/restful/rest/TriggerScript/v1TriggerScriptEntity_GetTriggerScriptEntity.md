@@ -94,27 +94,27 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 792,
-  "Name": "Luettgen-Cartwright",
+  "ScreenChooserId": 913,
+  "Name": "Barrows, Lang and Cronin",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "accusamus",
-  "Source": "et",
-  "Registered": "2001-12-06T17:37:39.3914264+01:00",
-  "RegisteredAssociateId": 117,
-  "Updated": "2014-11-05T17:37:39.3914264+01:00",
-  "UpdatedAssociateId": 447,
+  "Enabled": true,
+  "UniqueIdentifier": "repellat",
+  "Source": "labore",
+  "Registered": "2014-02-04T14:19:10.912356+01:00",
+  "RegisteredAssociateId": 522,
+  "Updated": "2018-11-10T14:19:10.912356+01:00",
+  "UpdatedAssociateId": 105,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldType": "System.String",
+      "FieldLength": 686
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -76,15 +76,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Ferry-Mosciski",
-    "Buckridge, Oberbrunner and Schultz"
+    "Tremblay-Mayer",
+    "Boyer-Larson"
   ],
-  "Culture": "tempora"
+  "Culture": "rerum"
 }
 ```
 
@@ -96,30 +96,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Schamberger-Kuhlman",
-    "ResourceValue": "illum",
-    "Culture": "adipisci",
-    "IsActive": false,
+    "ResourceName": "Hane-McClure",
+    "ResourceValue": "laudantium",
+    "Culture": "laboriosam",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 154
+        "FieldLength": 817
       }
     }
   },
   {
-    "ResourceName": "Schamberger-Kuhlman",
-    "ResourceValue": "illum",
-    "Culture": "adipisci",
-    "IsActive": false,
+    "ResourceName": "Hane-McClure",
+    "ResourceValue": "laudantium",
+    "Culture": "laboriosam",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 154
+        "FieldLength": 817
       }
     }
   }

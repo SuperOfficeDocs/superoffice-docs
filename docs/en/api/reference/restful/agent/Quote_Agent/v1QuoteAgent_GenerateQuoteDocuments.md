@@ -86,16 +86,16 @@ OK
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 477,
-  "EmailBodyTemplateId": 162,
+  "QuoteVersionId": 426,
+  "EmailBodyTemplateId": 938,
   "AttachMainDocument": false,
-  "QuotedProductsTemplateId": 699,
-  "IncludeAttachments": false,
-  "RawMailSubject": "consequatur"
+  "QuotedProductsTemplateId": 107,
+  "IncludeAttachments": true,
+  "RawMailSubject": "expedita"
 }
 ```
 
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 415,
-  "QuotedProductsId": 68,
+  "QuoteDocumentId": 87,
+  "QuotedProductsId": 479,
   "QuoteAttachmentIds": [
-    172,
-    685
+    679,
+    498
   ],
-  "MailBody": "quo",
-  "MailSubject": "error",
-  "ToEmail": "maggie@hoppe.info",
-  "ToFullName": "Miss Destiny Johns",
-  "ErrorMessage": "eum",
+  "MailBody": "et",
+  "MailSubject": "quas",
+  "ToEmail": "hank_bins@jerdeprice.biz",
+  "ToFullName": "Chaim McDermott",
+  "ErrorMessage": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 590
+      "FieldLength": 787
     }
   }
 }

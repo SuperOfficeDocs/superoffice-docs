@@ -103,7 +103,7 @@ ProjectEntity found.
 POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 502,
-  "ColumnId": 71,
-  "FieldDefault": "quia",
-  "FieldHeight": 757,
-  "FieldLabel": "sequi",
-  "FieldLeft": 17,
-  "FieldTop": 810,
+  "UDefFieldId": 583,
+  "ColumnId": 755,
+  "FieldDefault": "quibusdam",
+  "FieldHeight": 682,
+  "FieldLabel": "commodi",
+  "FieldLeft": 586,
+  "FieldTop": 524,
   "FieldType": "Checkbox",
-  "FieldWidth": 669,
-  "FormatMask": "nihil",
-  "HideLabel": true,
+  "FieldWidth": 533,
+  "FormatMask": "fugiat",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 623,
-  "LabelLeft": 184,
-  "LabelTop": 925,
-  "LabelWidth": 35,
-  "LastVersionId": 747,
-  "ListTableId": 744,
+  "LabelHeight": 129,
+  "LabelLeft": 652,
+  "LabelTop": 504,
+  "LabelWidth": 739,
+  "LastVersionId": 899,
+  "ListTableId": 741,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 768,
-  "ProgId": "fugit",
+  "Page1LineNo": 864,
+  "ProgId": "facilis",
   "IsReadOnly": false,
-  "ShortLabel": "ad",
-  "TabOrder": 379,
-  "TextLength": 237,
-  "Tooltip": "accusamus",
-  "UdefIdentity": 438,
-  "UDListDefinitionId": 755,
+  "ShortLabel": "dolorum",
+  "TabOrder": 398,
+  "TextLength": 971,
+  "Tooltip": "numquam",
+  "UdefIdentity": 206,
+  "UDListDefinitionId": 996,
   "Justification": "Center",
-  "Version": 490,
-  "TemplateVariableName": "Rath Group",
-  "HasBeenPublished": false,
-  "MdoListName": "Von, Rohan and Purdy",
+  "Version": 394,
+  "TemplateVariableName": "Nikolaus, Lang and Rolfson",
+  "HasBeenPublished": true,
+  "MdoListName": "Osinski Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 607
+      "FieldType": "System.Int32",
+      "FieldLength": 582
     }
   }
 }

@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 458,
-    "Name": "Trantow-Braun",
-    "Tooltip": "aperiam",
+    "HeadingId": 662,
+    "Name": "Leffler-Schmeler",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 51,
-    "UdListDefinitionId": 956
+    "Rank": 701,
+    "UdListDefinitionId": 768
   },
   {
-    "HeadingId": 458,
-    "Name": "Trantow-Braun",
-    "Tooltip": "aperiam",
+    "HeadingId": 662,
+    "Name": "Leffler-Schmeler",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 51,
-    "UdListDefinitionId": 956
+    "Rank": 701,
+    "UdListDefinitionId": 768
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 563,
-    "Name": "Larkin Inc and Sons",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "Rank": 213,
-    "UdListDefinitionId": 148,
+    "HeadingId": 547,
+    "Name": "Corwin LLC",
+    "Tooltip": "debitis",
+    "Deleted": false,
+    "Rank": 504,
+    "UdListDefinitionId": 310,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 762
+        "FieldLength": 413
       }
     }
   }

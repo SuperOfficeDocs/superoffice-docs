@@ -36,7 +36,12 @@ language: en
 
 6. When you have chosen a time interval, group(s) and associate(s), click **OK**. The report archive now shows all reports which match the criteria specified in the **Filter** dialog.
 
+## Related topics
+
+* [Filter activities and sales][1]
+
 <!-- Referenced links -->
+[1]: ../../learn/getting-started/using-filter-function-contact.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/filter-icon.png

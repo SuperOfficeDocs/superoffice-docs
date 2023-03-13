@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "dashboardentity"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,8 +16,14 @@ so.envir:
 
 # "dashboardentity" MDO List
 
+
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.DashboardEntityList">DashboardEntityList</see> class.
 The name of the MDO list is 'dashboardentity'.
+
+
+
 
 ## Sample Request
 
@@ -30,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("dashboardentity", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -51,6 +56,10 @@ foreach (var item in listProvider.RootItems) {
 |10|Document||document|
 |127|Product||QuoteLine|
 |262|Request||ticket|
+|332|Chat conversation||chat_session|
+|485|Form submission||form_submission|
+|334|Mailing||s_shipment|
+
 
 ## Related MDO Lists
 

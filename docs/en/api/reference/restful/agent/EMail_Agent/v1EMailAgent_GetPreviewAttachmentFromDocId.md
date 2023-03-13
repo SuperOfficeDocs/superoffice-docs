@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 655,
-  "AttachmentId": "blanditiis"
+  "DocId": 35,
+  "AttachmentId": "et"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Devolved assymetric utilisation",
-  "Filename": "alias",
-  "Size": 422,
-  "Type": "veritatis",
-  "Encoding": "est",
-  "Id": "sunt",
-  "Disposition": "architecto",
+  "Description": "Synchronised systemic flexibility",
+  "Filename": "est",
+  "Size": 904,
+  "Type": "occaecati",
+  "Encoding": "nobis",
+  "Id": "qui",
+  "Disposition": "culpa",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 318
+      "FieldLength": 889
     }
   }
 }

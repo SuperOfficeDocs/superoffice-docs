@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 541,
-  "Name": "Bogisich Inc and Sons",
-  "Tooltip": "ab",
+  "Id": 663,
+  "Name": "Wiza, Vandervort and Hettinger",
+  "Tooltip": "perspiciatis",
   "Deleted": true,
-  "Rank": 157,
+  "Rank": 48,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eveniet",
-  "InUseByUserDefinedFields": true
+  "ListType": "autem",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 351,
-  "Name": "Kilback LLC",
-  "Tooltip": "illo",
+  "Id": 567,
+  "Name": "Kutch, Jast and Herman",
+  "Tooltip": "aliquid",
   "Deleted": false,
-  "Rank": 417,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "rem",
-  "InUseByUserDefinedFields": false,
+  "Rank": 863,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 448
+      "FieldType": "System.Int32",
+      "FieldLength": 578
     }
   }
 }

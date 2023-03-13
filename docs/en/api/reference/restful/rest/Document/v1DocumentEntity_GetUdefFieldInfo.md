@@ -92,7 +92,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 786,
-  "ColumnId": 354,
-  "FieldDefault": "delectus",
-  "FieldHeight": 512,
-  "FieldLabel": "magnam",
-  "FieldLeft": 481,
-  "FieldTop": 886,
+  "UDefFieldId": 165,
+  "ColumnId": 681,
+  "FieldDefault": "tempora",
+  "FieldHeight": 197,
+  "FieldLabel": "reiciendis",
+  "FieldLeft": 658,
+  "FieldTop": 48,
   "FieldType": "Checkbox",
-  "FieldWidth": 451,
-  "FormatMask": "velit",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 359,
-  "LabelLeft": 35,
-  "LabelTop": 591,
-  "LabelWidth": 717,
-  "LastVersionId": 264,
-  "ListTableId": 866,
+  "FieldWidth": 597,
+  "FormatMask": "dicta",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 164,
+  "LabelLeft": 811,
+  "LabelTop": 375,
+  "LabelWidth": 969,
+  "LastVersionId": 231,
+  "ListTableId": 272,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 674,
-  "ProgId": "similique",
+  "Page1LineNo": 249,
+  "ProgId": "nam",
   "IsReadOnly": false,
-  "ShortLabel": "ad",
-  "TabOrder": 942,
-  "TextLength": 774,
-  "Tooltip": "ratione",
-  "UdefIdentity": 574,
-  "UDListDefinitionId": 101,
+  "ShortLabel": "et",
+  "TabOrder": 570,
+  "TextLength": 551,
+  "Tooltip": "dolorem",
+  "UdefIdentity": 334,
+  "UDListDefinitionId": 121,
   "Justification": "Center",
-  "Version": 949,
-  "TemplateVariableName": "Treutel Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Swift-Murray",
+  "Version": 369,
+  "TemplateVariableName": "Ankunding-Schaden",
+  "HasBeenPublished": true,
+  "MdoListName": "Bergnaum-Wuckert",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 95
+      "FieldLength": 723
     }
   }
 }

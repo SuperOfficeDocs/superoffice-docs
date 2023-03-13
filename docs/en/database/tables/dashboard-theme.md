@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "dashboard_theme"
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# dashboard\_theme Table (475)
+# dashboard\_theme Table (478)
 
 A set of style rules for the Dashboard
 

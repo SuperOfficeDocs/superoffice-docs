@@ -72,16 +72,16 @@ OK
 POST /api/v1/Agents/List/SaveHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 612,
-  "Name": "Bins Group",
-  "Tooltip": "distinctio",
-  "Deleted": true,
-  "Rank": 881,
-  "UdListDefinitionId": 671
+  "HeadingId": 947,
+  "Name": "Rowe Group",
+  "Tooltip": "facere",
+  "Deleted": false,
+  "Rank": 588,
+  "UdListDefinitionId": 419
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 168,
-  "Name": "Willms-Weissnat",
-  "Tooltip": "dicta",
-  "Deleted": true,
-  "Rank": 995,
-  "UdListDefinitionId": 487,
+  "HeadingId": 970,
+  "Name": "Toy-Keeling",
+  "Tooltip": "laudantium",
+  "Deleted": false,
+  "Rank": 782,
+  "UdListDefinitionId": 805,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 798
+      "FieldLength": 506
     }
   }
 }

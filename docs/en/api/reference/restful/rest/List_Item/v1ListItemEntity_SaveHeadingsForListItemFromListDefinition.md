@@ -95,47 +95,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 652,
-    "Name": "Hirthe, Leuschke and Cormier",
-    "ToolTip": "Ea placeat et nulla.",
-    "Deleted": false,
-    "Rank": 682,
-    "Type": "aut",
-    "ColorBlock": 261,
-    "IconHint": "eveniet",
+    "Id": 220,
+    "Name": "Kling, Towne and Waters",
+    "ToolTip": "Ex ad ea veritatis cumque ab ullam reiciendis.",
+    "Deleted": true,
+    "Rank": 170,
+    "Type": "id",
+    "ColorBlock": 180,
+    "IconHint": "modi",
     "Selected": true,
-    "LastChanged": "2005-11-13T17:37:39.630436+01:00",
+    "LastChanged": "1997-02-26T14:19:11.1012251+01:00",
     "ChildItems": [
       {
-        "Id": 232,
-        "Name": "Mueller, Abernathy and Fritsch",
-        "ToolTip": "Quo labore ipsa ut corporis eum et beatae.",
-        "Deleted": true,
-        "Rank": 456,
-        "Type": "quibusdam",
-        "ColorBlock": 478,
-        "IconHint": "saepe",
-        "Selected": true,
-        "LastChanged": "2009-04-07T17:37:39.630436+02:00",
+        "Id": 695,
+        "Name": "O'Connell-Hahn",
+        "ToolTip": "Commodi beatae inventore ea qui.",
+        "Deleted": false,
+        "Rank": 209,
+        "Type": "excepturi",
+        "ColorBlock": 391,
+        "IconHint": "consectetur",
+        "Selected": false,
+        "LastChanged": "1998-04-12T14:19:11.1012251+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "reprehenderit",
-        "Hidden": false,
-        "FullName": "Marcella Tillman"
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "consectetur",
+        "Hidden": true,
+        "FullName": "Mckenna Hane"
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "veniam",
+    "ExtraInfo": "in",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Hipolito Dickinson"
+    "FullName": "Anabel Jenkins"
   }
 ]
 ```
@@ -148,56 +148,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 872,
-    "Name": "Murray Inc and Sons",
-    "ToolTip": "Tenetur omnis ab eaque hic tenetur.",
+    "Id": 584,
+    "Name": "Bartell, Brekke and Labadie",
+    "ToolTip": "Possimus amet ratione in.",
     "Deleted": false,
-    "Rank": 294,
-    "Type": "exercitationem",
-    "ColorBlock": 243,
-    "IconHint": "quod",
-    "Selected": false,
-    "LastChanged": "2021-06-18T17:37:39.6324007+02:00",
+    "Rank": 646,
+    "Type": "ex",
+    "ColorBlock": 529,
+    "IconHint": "blanditiis",
+    "Selected": true,
+    "LastChanged": "1999-12-29T14:19:11.1012251+01:00",
     "ChildItems": [
       {
-        "Id": 770,
-        "Name": "Swift LLC",
-        "ToolTip": "Enim ratione qui maxime hic et.",
-        "Deleted": true,
-        "Rank": 580,
-        "Type": "est",
-        "ColorBlock": 450,
-        "IconHint": "quia",
+        "Id": 951,
+        "Name": "Beer Inc and Sons",
+        "ToolTip": "Maiores id assumenda et et nostrum iure recusandae.",
+        "Deleted": false,
+        "Rank": 942,
+        "Type": "cupiditate",
+        "ColorBlock": 919,
+        "IconHint": "quas",
         "Selected": false,
-        "LastChanged": "2008-03-05T17:37:39.6324007+01:00",
+        "LastChanged": "2021-05-24T14:19:11.1012251+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "enim",
+        "ExtraInfo": "omnis",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Gene Rice",
+        "FullName": "Janis Hodkiewicz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 993
+            "FieldLength": 767
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "corporis",
-    "Hidden": true,
-    "FullName": "Seamus Rutherford I",
+    "ExtraInfo": "similique",
+    "StyleHint": "optio",
+    "Hidden": false,
+    "FullName": "Duane Ebert Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 688
+        "FieldType": "System.String",
+        "FieldLength": 119
       }
     }
   }

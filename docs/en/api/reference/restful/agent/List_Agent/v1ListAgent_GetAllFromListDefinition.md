@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/List/GetAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 647,
-  "IncludeDeleted": false
+  "UdListDefinitionId": 418,
+  "IncludeDeleted": true
 }
 ```
 
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 35,
-    "Name": "Olson, Dare and Howe",
-    "Tooltip": "aspernatur",
+    "Id": 132,
+    "Name": "Bernhard Group",
+    "Tooltip": "fugiat",
     "Deleted": false,
-    "UdListDefinitionId": 934,
-    "Rank": 283,
+    "UdListDefinitionId": 61,
+    "Rank": 265,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 365
+        "FieldLength": 785
       }
     }
   }

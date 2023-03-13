@@ -82,18 +82,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "impedit",
-  "Value": "facilis",
-  "RecordId": 52,
-  "CreatedDate": "2007-09-04T17:37:38.8208594+02:00",
-  "UpdatedDate": "2002-01-02T17:37:38.8208594+01:00",
-  "UpdatedBy": "vero",
-  "CreatedBy": "voluptatum",
-  "TableName": "Murphy, Sawayn and Bogisich"
+  "Key": "sunt",
+  "Value": "repellendus",
+  "RecordId": 468,
+  "CreatedDate": "2018-06-08T14:19:10.3654771+02:00",
+  "UpdatedDate": "2010-09-28T14:19:10.3654771+02:00",
+  "UpdatedBy": "occaecati",
+  "CreatedBy": "rerum",
+  "TableName": "Kautzer-Simonis"
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "repellat",
-  "Value": "dolor",
-  "RecordId": 35,
-  "CreatedDate": "2013-03-25T17:37:38.8218608+01:00",
-  "UpdatedDate": "1996-07-14T17:37:38.8218608+02:00",
-  "UpdatedBy": "ipsum",
-  "CreatedBy": "quia",
-  "TableName": "Conn LLC",
+  "Key": "velit",
+  "Value": "aperiam",
+  "RecordId": 163,
+  "CreatedDate": "1998-12-08T14:19:10.3654771+01:00",
+  "UpdatedDate": "2018-03-31T14:19:10.3654771+02:00",
+  "UpdatedBy": "ducimus",
+  "CreatedBy": "repellat",
+  "TableName": "Turner Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 137
+      "FieldType": "System.Int32",
+      "FieldLength": 92
     }
   }
 }

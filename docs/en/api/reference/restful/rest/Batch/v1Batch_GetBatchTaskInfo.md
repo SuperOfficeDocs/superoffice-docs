@@ -70,6 +70,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | RecurrenceInfo |  |
 | FieldProperties | object |  |
 
@@ -79,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,36 +90,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 536,
-  "Name": "Nitzsche, Swaniawski and Flatley",
-  "AssociateId": 641,
-  "DetailsTable": 412,
-  "DetailsRecord": 848,
-  "IsSystemTask": true,
+  "Id": 308,
+  "Name": "Schowalter LLC",
+  "AssociateId": 259,
+  "DetailsTable": 534,
+  "DetailsRecord": 600,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "saepe",
-    "ParameterObject2": "eos"
+    "ParameterObject1": "tempora",
+    "ParameterObject2": "molestiae"
   },
-  "LastStarted": "2018-07-19T17:37:39.401429+02:00",
-  "Created": "1997-04-06T17:37:39.401429+02:00",
-  "StartCount": 499,
-  "DatabaseSerialNumber": "1286716",
-  "Context": "voluptas",
-  "Result": "distinctio",
+  "LastStarted": "2016-04-10T14:19:10.9279769+02:00",
+  "Created": "2010-04-24T14:19:10.9279769+02:00",
+  "StartCount": 344,
+  "DatabaseSerialNumber": "1233458",
+  "Context": "accusamus",
+  "Result": "rem",
   "State": "All",
-  "Description": "Mandatory upward-trending parallelism",
-  "Response": "magnam",
-  "Request": "molestiae",
-  "ProgressDescription": "Right-sized analyzing firmware",
-  "ProgressPercent": 469,
-  "FileName": "Bosco-Padberg",
+  "Description": "Persistent assymetric interface",
+  "Response": "explicabo",
+  "Request": "laboriosam",
+  "ProgressDescription": "Balanced 24 hour circuit",
+  "ProgressPercent": 375,
+  "FileName": "King-Pouros",
+  "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 119
+      "FieldType": "System.Int32",
+      "FieldLength": 519
     }
   }
 }

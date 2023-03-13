@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IConfigurationAgent.Delet
 
 ## DeleteDiaryViewEntity
 
-Deletes the DiaryViewEntity
 
-* **diaryViewEntityId:** The identity of the DiaryViewEntity
+
+
 
 [WSDL file for Services87/Configuration](../Services87-Configuration.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteDiaryViewEntity Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

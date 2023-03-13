@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Spinka-Moen",
-  "ProviderName": "Lakin, Kuvalis and Gerhold",
-  "Context": "dolores",
-  "OwnerKeys": "qui"
+  "GuiName": "Sporer LLC",
+  "ProviderName": "Mertz-Little",
+  "Context": "aut",
+  "OwnerKeys": "ea"
 }
 ```
 
@@ -100,68 +100,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Runte-Hauck",
-      "DisplayTooltip": "consequatur",
-      "DisplayType": "ad",
-      "CanOrderBy": true,
-      "Name": "Stroman, Kuphal and Murazik",
-      "CanRestrictBy": false,
-      "RestrictionType": "rerum",
-      "RestrictionListName": "Muller-Gaylord",
-      "IsVisible": false,
-      "ExtraInfo": "eum",
-      "Width": "qui",
-      "IconHint": "enim",
-      "HeadingIconHint": "officiis"
+      "DisplayName": "Tillman Inc and Sons",
+      "DisplayTooltip": "dolore",
+      "DisplayType": "asperiores",
+      "CanOrderBy": false,
+      "Name": "Cormier-Kiehn",
+      "CanRestrictBy": true,
+      "RestrictionType": "aliquam",
+      "RestrictionListName": "Murazik, Watsica and Bartell",
+      "IsVisible": true,
+      "ExtraInfo": "nihil",
+      "Width": "corporis",
+      "IconHint": "et",
+      "HeadingIconHint": "commodi"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 127,
-      "Name": "Koch, Hermiston and Douglas",
-      "ToolTip": "Eum nostrum.",
+      "Id": 279,
+      "Name": "Stehr-Kiehn",
+      "ToolTip": "Tempora eum aut inventore quo labore suscipit.",
       "Deleted": false,
-      "Rank": 457,
-      "Type": "veritatis",
-      "ColorBlock": 489,
-      "IconHint": "et",
+      "Rank": 25,
+      "Type": "qui",
+      "ColorBlock": 378,
+      "IconHint": "nulla",
       "Selected": false,
-      "LastChanged": "2002-01-04T17:37:16.6222448+01:00",
+      "LastChanged": "2021-04-25T14:19:02.7281785+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "cum",
-      "StyleHint": "sunt",
+      "ExtraInfo": "sit",
+      "StyleHint": "mollitia",
       "Hidden": false,
-      "FullName": "Dr. Arnulfo Esmeralda Will",
+      "FullName": "Claudine Jordyn Goldner V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 464
+          "FieldType": "System.Int32",
+          "FieldLength": 336
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Schuster Group",
+      "Name": "Schamberger-Ortiz",
       "Direction": "ASC"
     },
     {
-      "Name": "Schuster Group",
+      "Name": "Schamberger-Ortiz",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "et",
+  "OwnerKeys": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldLength": 346
     }
   }
 }

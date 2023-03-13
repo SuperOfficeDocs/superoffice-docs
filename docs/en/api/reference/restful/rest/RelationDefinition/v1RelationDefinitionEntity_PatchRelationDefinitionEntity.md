@@ -114,18 +114,18 @@ RelationDefinitionEntity  updated.
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dolorum",
+    "path": "dolores",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolorum",
+    "path": "dolores",
     "value": {}
   }
 ]
@@ -138,20 +138,20 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 314,
-  "Name": "Schumm, Tremblay and Oberbrunner",
-  "Tooltip": "architecto",
-  "PassiveText": "quaerat",
-  "Deleted": true,
-  "Rank": 821,
+  "ReldefId": 756,
+  "Name": "Mueller Group",
+  "Tooltip": "velit",
+  "PassiveText": "et",
+  "Deleted": false,
+  "Rank": 359,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 125
+      "FieldType": "System.String",
+      "FieldLength": 897
     }
   },
   "_Links": {

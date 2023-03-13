@@ -108,7 +108,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 914
+  "ChatSessionId": 82
 }
 ```
 
@@ -119,29 +119,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 755,
-  "TopicId": 726,
+  "ChatSessionId": 601,
+  "TopicId": 460,
   "User": null,
   "Person": null,
-  "CustomerAlias": "laborum",
-  "CustomerHost": "autem",
-  "CustomerName": "O'Connell-Metz",
-  "CustomerEmail": "esteban_farrell@jacobifritsch.uk",
-  "CustomerPhone": "1-456-867-3330 x7829",
+  "CustomerAlias": "vero",
+  "CustomerHost": "nihil",
+  "CustomerName": "Windler, Schmidt and Wunsch",
+  "CustomerEmail": "darion@corkerywolf.biz",
+  "CustomerPhone": "622-955-8381 x452",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Sipes LLC",
+  "CustomerCompanyName": "Larkin, Ortiz and Schimmel",
   "Status": "Closed",
-  "FirstMessage": "laboriosam",
-  "LastMessage": "beatae",
-  "WhenRequested": "2018-06-05T17:37:17.074242+02:00",
-  "WhenStarted": "1999-08-31T17:37:17.074242+02:00",
-  "WhenEnded": "2011-04-21T17:37:17.074242+02:00",
-  "WhenIdle": "2006-10-23T17:37:17.074242+02:00",
-  "WhenFetched": "2011-03-28T17:37:17.074242+02:00",
-  "SessionKey": "aut",
-  "InitialQueuePos": 769,
-  "AlertLevel": 968,
-  "Rank": 883,
+  "FirstMessage": "eius",
+  "LastMessage": "consequuntur",
+  "WhenRequested": "2003-06-01T14:19:02.8855274+02:00",
+  "WhenStarted": "2005-06-22T14:19:02.8855274+02:00",
+  "WhenEnded": "2014-12-15T14:19:02.8855274+01:00",
+  "WhenIdle": "2008-08-30T14:19:02.8855274+02:00",
+  "WhenFetched": "2018-05-12T14:19:02.8855274+02:00",
+  "SessionKey": "eveniet",
+  "InitialQueuePos": 16,
+  "AlertLevel": 339,
+  "Rank": 642,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -149,13 +149,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 959,
+  "Rating": 372,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldLength": 952
     }
   }
 }

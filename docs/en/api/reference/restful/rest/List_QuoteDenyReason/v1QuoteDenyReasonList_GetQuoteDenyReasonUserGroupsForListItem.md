@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 943,
-    "Name": "Ankunding LLC",
-    "ToolTip": "Iure consequatur laborum qui et id autem.",
+    "Id": 922,
+    "Name": "Buckridge-Pagac",
+    "ToolTip": "Quis excepturi.",
     "Deleted": false,
-    "Rank": 515,
-    "Type": "cumque",
-    "ColorBlock": 154,
-    "IconHint": "provident",
+    "Rank": 203,
+    "Type": "dignissimos",
+    "ColorBlock": 292,
+    "IconHint": "architecto",
     "Selected": false,
-    "LastChanged": "1996-08-27T17:37:40.2484729+02:00",
+    "LastChanged": "2010-09-26T14:19:11.430529+02:00",
     "ChildItems": [
       {
-        "Id": 808,
-        "Name": "Muller-Berge",
-        "ToolTip": "Aut voluptatum minima dolore.",
-        "Deleted": false,
-        "Rank": 555,
-        "Type": "et",
-        "ColorBlock": 126,
-        "IconHint": "sequi",
-        "Selected": false,
-        "LastChanged": "2008-01-06T17:37:40.2484729+01:00",
+        "Id": 658,
+        "Name": "Blanda, Altenwerth and Armstrong",
+        "ToolTip": "Illo itaque debitis rerum.",
+        "Deleted": true,
+        "Rank": 356,
+        "Type": "recusandae",
+        "ColorBlock": 398,
+        "IconHint": "modi",
+        "Selected": true,
+        "LastChanged": "2020-08-13T14:19:11.430529+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "quam",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "nulla",
         "Hidden": false,
-        "FullName": "Zechariah Micheal Gleason V",
+        "FullName": "Darrell Schaefer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 255
+            "FieldLength": 772
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "voluptas",
-    "Hidden": false,
-    "FullName": "Rachel Labadie III",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "dicta",
+    "Hidden": true,
+    "FullName": "Jaida Steuber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 926
+        "FieldType": "System.Int32",
+        "FieldLength": 340
       }
     }
   }

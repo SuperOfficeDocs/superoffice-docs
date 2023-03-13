@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IConfigurationAgent.GetAp
 
 ## GetApplicationConfiguration
 
-Return the application configuration. This is a list of pages, with information about the name, main panel and preference mappings of each page.
 
-* **application:** The application name, for instance 'SixWeb'
-* **instance:** The instance name for the application, like 'MainInstance'
 
-**Returns:** XML structure containing the application configuration
+
 
 [WSDL file for Services85/Configuration](../Services85-Configuration.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetApplicationConfiguration Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -75,7 +75,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,30 +86,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 748,
-    "Section": "cumque",
-    "Key": "facere",
-    "Name": "Rolfson Inc and Sons",
+    "PrefDescId": 325,
+    "Section": "laboriosam",
+    "Key": "harum",
+    "Name": "Balistreri Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Function-based heuristic approach",
+    "Description": "Configurable methodical implementation",
     "IsBuiltin": false,
-    "TableName": "Koss Inc and Sons",
-    "UserDefinedListId": 185,
-    "Rank": 124,
-    "SubGroup": "animi",
-    "MinLevel": 466,
-    "MaxValue": 490,
-    "MinValue": 786,
-    "RequiredLicense": "voluptatem",
+    "TableName": "Spencer-Brakus",
+    "UserDefinedListId": 396,
+    "Rank": 957,
+    "SubGroup": "et",
+    "MinLevel": 567,
+    "MaxValue": 336,
+    "MinValue": 117,
+    "RequiredLicense": "laboriosam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 262
+        "FieldLength": 383
       }
     }
   }

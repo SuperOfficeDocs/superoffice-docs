@@ -28,7 +28,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-PUT /api/v1/TicketMessage/{id}?notify=False
+PUT /api/v1/TicketMessage/{id}?notify=True
 ```
 
 
@@ -59,7 +59,7 @@ The ticket message to save
 | Author | String | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | String | The securitylevel of the message. |
 | Type | String | The type of the message (plaintext/html). |
-| MessageId | String | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | String | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | Integer | The time spent (minutes) for this message. |
 | Body | String | The textbody for the message. |
 | HtmlBody | String | The html body for the message (if any). |
@@ -98,7 +98,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -125,72 +125,72 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 335,
+  "EjMessageId": 63,
   "Ticket": null,
-  "CreatedAt": "2015-09-27T17:37:39.36531+02:00",
+  "CreatedAt": "2013-09-10T14:19:10.8967282+02:00",
   "CreatedBy": null,
-  "Author": "omnis",
+  "Author": "rerum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "perferendis",
-  "TimeSpent": 957,
-  "Body": "optio",
-  "HtmlBody": "commodi",
-  "EmailHeader": "rusty@hand.name",
-  "DebugInfo": "magni",
-  "MailSorter": "excepturi",
+  "MessageId": "corporis",
+  "TimeSpent": 350,
+  "Body": "consequatur",
+  "HtmlBody": "qui",
+  "EmailHeader": "elfrieda@herzogmarks.info",
+  "DebugInfo": "iste",
+  "MailSorter": "non",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "necessitatibus",
+  "SearchTitle": "accusantium",
   "MessageHeaders": [
     {
-      "Id": 535,
-      "Name": "Pfannerstill-Price",
-      "Value": "minus",
+      "Id": 36,
+      "Name": "Sanford, Langosh and Schamberger",
+      "Value": "non",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 535,
-      "Name": "Pfannerstill-Price",
-      "Value": "minus",
+      "Id": 36,
+      "Name": "Sanford, Langosh and Schamberger",
+      "Value": "non",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "placeat",
-  "Sentiment": 320,
-  "SentimentConfidence": 839,
+  "Important": true,
+  "Language": "quidem",
+  "Sentiment": 642,
+  "SentimentConfidence": 173,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 952,
-      "Name": "Dibbert LLC",
-      "ContentType": "incidunt",
-      "AttSize": 766,
-      "InlineImage": false,
-      "ContentId": "veritatis"
+      "AttachmentId": 352,
+      "Name": "Jast Inc and Sons",
+      "ContentType": "qui",
+      "AttSize": 263,
+      "InlineImage": true,
+      "ContentId": "accusamus"
     },
     {
-      "AttachmentId": 952,
-      "Name": "Dibbert LLC",
-      "ContentType": "incidunt",
-      "AttSize": 766,
-      "InlineImage": false,
-      "ContentId": "veritatis"
+      "AttachmentId": 352,
+      "Name": "Jast Inc and Sons",
+      "ContentType": "qui",
+      "AttSize": 263,
+      "InlineImage": true,
+      "ContentId": "accusamus"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "eligendi",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "sunt",
-    "CustomFields2": "accusamus"
+    "CustomFields1": "commodi",
+    "CustomFields2": "occaecati"
   }
 }
 ```
@@ -202,76 +202,76 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 651,
+  "EjMessageId": 106,
   "Ticket": null,
-  "CreatedAt": "2012-01-27T17:37:39.3734017+01:00",
+  "CreatedAt": "2009-11-10T14:19:10.8967282+01:00",
   "CreatedBy": null,
-  "Author": "corrupti",
+  "Author": "ea",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "maxime",
-  "TimeSpent": 996,
-  "Body": "illum",
-  "HtmlBody": "deleniti",
-  "EmailHeader": "gretchen@muellerfeest.uk",
-  "DebugInfo": "occaecati",
-  "MailSorter": "occaecati",
+  "MessageId": "nam",
+  "TimeSpent": 523,
+  "Body": "qui",
+  "HtmlBody": "nobis",
+  "EmailHeader": "eloise.hilll@nienow.uk",
+  "DebugInfo": "nesciunt",
+  "MailSorter": "voluptatem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "praesentium",
+  "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 5,
-      "Name": "Bosco, Kunde and Heathcote",
-      "Value": "at",
+      "Id": 222,
+      "Name": "Douglas Group",
+      "Value": "culpa",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 122
+          "FieldType": "System.Int32",
+          "FieldLength": 804
         }
       }
     }
   ],
   "Important": false,
-  "Language": "explicabo",
-  "Sentiment": 947,
-  "SentimentConfidence": 159,
+  "Language": "animi",
+  "Sentiment": 493,
+  "SentimentConfidence": 297,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 510,
-      "Name": "Ruecker Inc and Sons",
-      "ContentType": "sit",
-      "AttSize": 112,
+      "AttachmentId": 296,
+      "Name": "Botsford-Stamm",
+      "ContentType": "quo",
+      "AttSize": 894,
       "InlineImage": false,
-      "ContentId": "deserunt",
+      "ContentId": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 90
+          "FieldLength": 564
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolorum",
-    "ExtraFields2": "laboriosam"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "molestiae"
   },
   "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "iste"
+    "CustomFields1": "fugiat",
+    "CustomFields2": "expedita"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldLength": 662
     }
   }
 }

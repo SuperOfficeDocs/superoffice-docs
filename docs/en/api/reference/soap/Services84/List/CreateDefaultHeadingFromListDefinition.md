@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.CreateDefaultH
 
 ## CreateDefaultHeadingFromListDefinition
 
-Get a heading for the specified list defintion
 
-* **udListDefinitionId:** The id of the list definition, indicating which list to get the item from
 
-**Returns:** The loaded heading
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultHeadingFromListDefinition Response
 
 ```xml
@@ -76,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

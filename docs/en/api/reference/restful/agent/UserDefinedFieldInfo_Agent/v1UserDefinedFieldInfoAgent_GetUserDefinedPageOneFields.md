@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 535
+  "UserGroupId": 374
 }
 ```
 
@@ -123,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 699,
-    "ColumnId": 361,
-    "FieldDefault": "velit",
-    "FieldHeight": 10,
-    "FieldLabel": "quia",
-    "FieldLeft": 183,
-    "FieldTop": 116,
+    "UDefFieldId": 213,
+    "ColumnId": 536,
+    "FieldDefault": "rerum",
+    "FieldHeight": 364,
+    "FieldLabel": "aut",
+    "FieldLeft": 296,
+    "FieldTop": 801,
     "FieldType": "Checkbox",
-    "FieldWidth": 797,
-    "FormatMask": "magni",
-    "HideLabel": false,
+    "FieldWidth": 533,
+    "FormatMask": "ut",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 510,
-    "LabelLeft": 589,
-    "LabelTop": 721,
-    "LabelWidth": 997,
-    "LastVersionId": 518,
-    "ListTableId": 804,
+    "LabelHeight": 800,
+    "LabelLeft": 992,
+    "LabelTop": 578,
+    "LabelWidth": 967,
+    "LastVersionId": 942,
+    "ListTableId": 324,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 428,
-    "ProgId": "ad",
-    "IsReadOnly": true,
-    "ShortLabel": "amet",
-    "TabOrder": 478,
-    "TextLength": 237,
-    "Tooltip": "sed",
-    "UdefIdentity": 992,
-    "UDListDefinitionId": 879,
+    "Page1LineNo": 885,
+    "ProgId": "sed",
+    "IsReadOnly": false,
+    "ShortLabel": "aut",
+    "TabOrder": 926,
+    "TextLength": 546,
+    "Tooltip": "vel",
+    "UdefIdentity": 489,
+    "UDListDefinitionId": 980,
     "Justification": "Center",
-    "Version": 39,
-    "TemplateVariableName": "Kozey, Hermiston and Haley",
+    "Version": 594,
+    "TemplateVariableName": "Ritchie, Feeney and Veum",
     "HasBeenPublished": false,
-    "MdoListName": "Braun, Zboncak and Koch",
+    "MdoListName": "Ankunding-Sanford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 672
+        "FieldType": "System.String",
+        "FieldLength": 607
       }
     }
   }

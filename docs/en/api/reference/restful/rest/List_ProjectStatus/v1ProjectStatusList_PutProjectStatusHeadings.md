@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 278,
-    "Name": "Hilpert Inc and Sons",
-    "Tooltip": "veniam",
+    "HeadingId": 875,
+    "Name": "Hessel-Schaden",
+    "Tooltip": "sequi",
     "Deleted": false,
-    "Rank": 155,
-    "UdListDefinitionId": 762
+    "Rank": 780,
+    "UdListDefinitionId": 975
   },
   {
-    "HeadingId": 278,
-    "Name": "Hilpert Inc and Sons",
-    "Tooltip": "veniam",
+    "HeadingId": 875,
+    "Name": "Hessel-Schaden",
+    "Tooltip": "sequi",
     "Deleted": false,
-    "Rank": 155,
-    "UdListDefinitionId": 762
+    "Rank": 780,
+    "UdListDefinitionId": 975
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 821,
-    "Name": "Leffler-Tromp",
-    "Tooltip": "placeat",
+    "HeadingId": 359,
+    "Name": "Bogisich-Marks",
+    "Tooltip": "sit",
     "Deleted": true,
-    "Rank": 356,
-    "UdListDefinitionId": 983,
+    "Rank": 406,
+    "UdListDefinitionId": 844,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 114
+        "FieldLength": 846
       }
     }
   }

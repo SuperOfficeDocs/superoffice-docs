@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 485,
-  "Name": "Schuster Group",
-  "Tooltip": "hic",
+  "Id": 546,
+  "Name": "Bahringer Inc and Sons",
+  "Tooltip": "voluptatem",
   "Deleted": true,
-  "UdListDefinitionId": 123,
-  "Rank": 752
+  "UdListDefinitionId": 688,
+  "Rank": 493
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 40,
-  "Name": "Gutmann-Collins",
-  "Tooltip": "magnam",
+  "Id": 419,
+  "Name": "Terry-Feil",
+  "Tooltip": "quia",
   "Deleted": false,
-  "UdListDefinitionId": 985,
-  "Rank": 917,
+  "UdListDefinitionId": 750,
+  "Rank": 35,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldLength": 199
     }
   }
 }

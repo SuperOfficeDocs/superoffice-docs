@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjectEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,34 +98,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Dell Jerde",
-    "Description": "Mandatory mobile service-desk",
-    "ProjectId": 166,
-    "EventName": "Dooley Group",
-    "AssociateId": 954,
-    "IsSignedOn": false,
-    "SignOffConfirmationText": "libero",
-    "SignOffText": "expedita",
-    "SignOnConfirmationText": "laborum",
-    "SignOnText": "unde",
-    "EventDate": "2013-04-05T17:37:18.6552447+02:00",
+    "AssociateFullName": "Thelma Hoeger",
+    "Description": "Self-enabling full-range analyzer",
+    "ProjectId": 386,
+    "EventName": "Bayer LLC",
+    "AssociateId": 981,
+    "IsSignedOn": true,
+    "SignOffConfirmationText": "voluptatem",
+    "SignOffText": "mollitia",
+    "SignOnConfirmationText": "aspernatur",
+    "SignOnText": "nam",
+    "EventDate": "2019-04-07T14:19:03.9532088+02:00",
     "Enabled": false,
-    "SignOff": false,
-    "SignOffTaskEnable": false,
+    "SignOff": true,
+    "SignOffTaskEnable": true,
     "SignOnTaskEnable": false,
-    "SignOn": false,
-    "SignOffTaskId": 580,
-    "SignOnTaskId": 580,
+    "SignOn": true,
+    "SignOffTaskId": 472,
+    "SignOnTaskId": 893,
     "SignOffTriggersAssign": false,
-    "SignOnTriggersAssign": false,
-    "SignOnPersonId": 370,
-    "SignOffPersonId": 704,
+    "SignOnTriggersAssign": true,
+    "SignOnPersonId": 342,
+    "SignOffPersonId": 929,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 459
+        "FieldType": "System.String",
+        "FieldLength": 451
       }
     }
   }

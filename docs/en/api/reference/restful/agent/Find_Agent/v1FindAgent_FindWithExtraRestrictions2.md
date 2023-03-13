@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sed",
-  "ProviderName": "Gutmann, Runte and Kuhlman",
-  "StorageKey": "asperiores",
-  "ExtraRestrictions": "sint",
-  "OrderBy": "molestias",
-  "DesiredColumns": "nesciunt",
-  "PageSize": 255,
-  "PageNumber": 85
+  "StorageType": "facere",
+  "ProviderName": "Thompson, Spencer and Hane",
+  "StorageKey": "qui",
+  "ExtraRestrictions": "qui",
+  "OrderBy": "qui",
+  "DesiredColumns": "dignissimos",
+  "PageSize": 950,
+  "PageNumber": 656
 }
 ```
 
@@ -190,51 +190,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Swift Group",
-      "DisplayTooltip": "modi",
-      "DisplayType": "aut",
+      "DisplayName": "Conroy LLC",
+      "DisplayTooltip": "veritatis",
+      "DisplayType": "et",
       "CanOrderBy": false,
-      "Name": "Prosacco-Corwin",
-      "CanRestrictBy": true,
-      "RestrictionType": "officiis",
-      "RestrictionListName": "Treutel, Veum and Gutkowski",
-      "IsVisible": true,
-      "ExtraInfo": "ut",
-      "Width": "totam",
-      "IconHint": "molestiae",
-      "HeadingIconHint": "nostrum"
+      "Name": "Considine, Beatty and Hyatt",
+      "CanRestrictBy": false,
+      "RestrictionType": "amet",
+      "RestrictionListName": "Berge-Wintheiser",
+      "IsVisible": false,
+      "ExtraInfo": "fuga",
+      "Width": "ducimus",
+      "IconHint": "et",
+      "HeadingIconHint": "labore"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Frami LLC",
-      "PrimaryKey": 49,
+      "EntityName": "Metz Inc and Sons",
+      "PrimaryKey": 175,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aut",
-          "TooltipHint": "aperiam",
-          "LinkHint": "dolore"
+          "DisplayValue": "ut",
+          "TooltipHint": "sed",
+          "LinkHint": "aut"
         }
       },
-      "LinkHint": "fuga",
-      "StyleHint": "consequuntur",
+      "LinkHint": "inventore",
+      "StyleHint": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 148
+          "FieldLength": 904
         }
       }
     }
   ],
-  "RowCount": 405,
+  "RowCount": 15,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 530
+      "FieldLength": 130
     }
   }
 }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kemmer, Macejkovic and Collins",
-  "Context": "rem"
+  "ProviderName": "Lynch, Boehm and Mosciski",
+  "Context": "dignissimos"
 }
 ```
 
@@ -102,19 +102,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Moen-Nikolaus",
-    "DisplayTooltip": "eaque",
-    "DisplayType": "voluptate",
-    "CanOrderBy": true,
-    "Name": "Davis, Ferry and McClure",
-    "CanRestrictBy": false,
-    "RestrictionType": "et",
-    "RestrictionListName": "Hoeger-Kiehn",
+    "DisplayName": "Runte, Rath and Cummings",
+    "DisplayTooltip": "praesentium",
+    "DisplayType": "iure",
+    "CanOrderBy": false,
+    "Name": "Schiller Inc and Sons",
+    "CanRestrictBy": true,
+    "RestrictionType": "ex",
+    "RestrictionListName": "Mayer, Stracke and Jaskolski",
     "IsVisible": false,
-    "ExtraInfo": "itaque",
-    "Width": "distinctio",
-    "IconHint": "et",
-    "HeadingIconHint": "et"
+    "ExtraInfo": "quae",
+    "Width": "tenetur",
+    "IconHint": "non",
+    "HeadingIconHint": "enim"
   }
 ]
 ```

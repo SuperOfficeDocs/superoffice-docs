@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,75 +125,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 377,
-  "ERPQuoteVersionKey": "non",
-  "QuoteId": 920,
-  "Description": "Persistent tangible analyzer",
-  "Number": "1671586",
+  "QuoteVersionId": 940,
+  "ERPQuoteVersionKey": "nihil",
+  "QuoteId": 47,
+  "Description": "Synchronised disintermediate conglomeration",
+  "Number": "817660",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
-  "Reason": "incentivize customized functionalities",
-  "LikelyQuoteAlternativeId": 653,
-  "SentDate": "2016-11-10T17:37:18.6962418+01:00",
-  "FollowupId": 775,
-  "ExpirationDate": "2006-02-13T17:37:18.6962418+01:00",
-  "DeliveryCountryId": 488,
+  "Reason": "",
+  "LikelyQuoteAlternativeId": 414,
+  "SentDate": "2023-01-18T14:19:03.984459+01:00",
+  "FollowupId": 609,
+  "ExpirationDate": "2017-04-24T14:19:03.984459+02:00",
+  "DeliveryCountryId": 496,
   "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 279,
-  "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "mollitia",
-  "ERPPaymentTypeKey": "accusantium",
-  "ERPDeliveryTermsKey": "quia",
-  "ERPDeliveryTypeKey": "aliquam",
-  "Rank": 639,
-  "ApprovedBy": 387,
-  "ApprovedText": "quod",
-  "ApprovedRegisteredBy": 88,
-  "ApprovedRegisteredDate": "2010-01-02T17:37:18.6962418+01:00",
-  "ExtraField1": "commodi",
-  "ExtraField2": "voluptatem",
-  "ExtraField3": "magni",
-  "ExtraField4": "omnis",
-  "ExtraField5": "accusamus",
-  "LastRecalculated": "2007-04-05T17:37:18.6962418+02:00",
-  "Updated": "2021-03-05T17:37:18.6962418+01:00",
-  "UpdatedAssociateId": 560,
-  "Registered": "2010-05-19T17:37:18.6962418+02:00",
-  "RegisteredAssociateId": 698,
-  "RequestAssociateId": 842,
-  "RequestComment": "quas",
+  "InvoiceCountryId": 103,
+  "HasOwnInvoiceAddress": true,
+  "ERPPaymentTermsKey": "velit",
+  "ERPPaymentTypeKey": "magni",
+  "ERPDeliveryTermsKey": "non",
+  "ERPDeliveryTypeKey": "rerum",
+  "Rank": 243,
+  "ApprovedBy": 202,
+  "ApprovedText": "consequatur",
+  "ApprovedRegisteredBy": 13,
+  "ApprovedRegisteredDate": "2001-05-10T14:19:03.984459+02:00",
+  "ExtraField1": "beatae",
+  "ExtraField2": "est",
+  "ExtraField3": "qui",
+  "ExtraField4": "ut",
+  "ExtraField5": "quod",
+  "LastRecalculated": "2014-01-04T14:19:03.984459+01:00",
+  "Updated": "2000-12-23T14:19:03.984459+01:00",
+  "UpdatedAssociateId": 421,
+  "Registered": "1997-11-15T14:19:03.984459+01:00",
+  "RegisteredAssociateId": 50,
+  "RequestAssociateId": 737,
+  "RequestComment": "corrupti",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 379,
-      "ERPQuoteAlternativeKey": "est",
-      "QuoteVersionId": 543,
-      "Name": "Stracke, Stehr and McDermott",
-      "Description": "Streamlined assymetric productivity",
+      "QuoteAlternativeId": 40,
+      "ERPQuoteAlternativeKey": "et",
+      "QuoteVersionId": 341,
+      "Name": "Zieme-Jaskolski",
+      "Description": "Pre-emptive foreground access",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 20248.773999999998,
-      "ERPDiscountAmount": 5628.664,
-      "DiscountPercent": 517.11,
-      "DiscountAmount": 23736.915999999997,
+      "ERPDiscountPercent": 29412.59,
+      "ERPDiscountAmount": 20458.752,
+      "DiscountPercent": 31274.185999999998,
+      "DiscountAmount": 8449.264,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "et",
-      "VAT": 7045.232,
-      "EarningPercent": 8289.43,
-      "EarningAmount": 21386.416,
-      "SubTotal": 11194.648,
-      "TotalPrice": 19001.442,
-      "ExtraField1": "quidem",
-      "ExtraField2": "quis",
-      "ExtraField3": "maxime",
-      "ExtraField4": "omnis",
-      "ExtraField5": "libero",
+      "VATInfo": "minus",
+      "VAT": 9693.462,
+      "EarningPercent": 9862.698,
+      "EarningAmount": 17177.453999999998,
+      "SubTotal": 10354.735999999999,
+      "TotalPrice": 7985.432,
+      "ExtraField1": "expedita",
+      "ExtraField2": "dignissimos",
+      "ExtraField3": "nam",
+      "ExtraField4": "rerum",
+      "ExtraField5": "odio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 438
+          "FieldType": "System.Int32",
+          "FieldLength": 460
         }
       }
     }
@@ -202,8 +202,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 650
+      "FieldType": "System.Int32",
+      "FieldLength": 834
     }
   }
 }

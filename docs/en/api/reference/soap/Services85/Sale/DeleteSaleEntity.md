@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.ISaleAgent.DeleteSaleEnti
 
 ## DeleteSaleEntity
 
-Deletes the SaleEntity
 
-* **saleEntityId:** The identity of the SaleEntity
+
+
 
 [WSDL file for Services85/Sale](../Services85-Sale.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteSaleEntity Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

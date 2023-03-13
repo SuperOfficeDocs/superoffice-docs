@@ -11,9 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserAgent.RemoveOwnerCon
 
 ## RemoveOwnerContact
 
-Remove a contact from the ownercontactlink table
 
-* **contactId:** The id of the contact to remove
+
+
 
 [WSDL file for Services85/User](../Services85-User.md)
 
@@ -47,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RemoveOwnerContact Response
 
 ```xml
@@ -66,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

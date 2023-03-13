@@ -78,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 789,
-  "Name": "Stokes Group",
-  "Tooltip": "molestiae",
-  "Deleted": true,
-  "Rank": 489,
-  "UdListDefinitionId": 514
+  "HeadingId": 978,
+  "Name": "Kuhn Group",
+  "Tooltip": "animi",
+  "Deleted": false,
+  "Rank": 105,
+  "UdListDefinitionId": 915
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 521,
-  "Name": "Stroman Group",
-  "Tooltip": "non",
+  "HeadingId": 89,
+  "Name": "Mann Group",
+  "Tooltip": "tenetur",
   "Deleted": false,
-  "Rank": 219,
-  "UdListDefinitionId": 364,
+  "Rank": 260,
+  "UdListDefinitionId": 956,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 343
+      "FieldType": "System.String",
+      "FieldLength": 145
     }
   }
 }

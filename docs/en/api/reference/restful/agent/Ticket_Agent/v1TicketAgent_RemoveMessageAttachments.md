@@ -66,14 +66,14 @@ No Content
 POST /api/v1/Agents/Ticket/RemoveMessageAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 615,
+  "TicketMessageEntityId": 677,
   "AttachmentIds": [
-    553,
-    435
+    196,
+    488
   ]
 }
 ```

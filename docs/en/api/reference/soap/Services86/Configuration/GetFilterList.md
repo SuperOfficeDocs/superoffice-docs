@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IConfigurationAgent.GetFi
 
 ## GetFilterList
 
-Get the list of filters to be used for processing the configuration data for this application.
 
-* **application:** The application name, for instance 'SixWeb'
-* **instance:** The instance name for the application, like 'MainInstance'
 
-**Returns:** XML representing the list of filters and any configuration data they may need.
+
 
 [WSDL file for Services86/Configuration](../Services86-Configuration.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetFilterList Response
 
 ```xml
@@ -71,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

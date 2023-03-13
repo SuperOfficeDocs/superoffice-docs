@@ -93,7 +93,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 988
+  "PersonId": 79
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 654,
-    "Name": "Kihn, Macejkovic and Gorczany",
-    "Description": "Synergized solution-oriented help-desk",
+    "ProjectId": 786,
+    "Name": "Jakubowski-Robel",
+    "Description": "Grass-roots transitional functionalities",
     "URL": "http://www.example.com/",
-    "Type": "earum",
-    "AssociateId": 883,
-    "AssociateFullName": "Ms. Harley Coty Rau IV",
-    "TypeId": 382,
-    "Updated": "2016-05-07T17:37:18.660245+02:00",
-    "StatusId": 662,
-    "Status": "quisquam",
-    "TextId": 663,
-    "PublishTo": "1997-06-21T17:37:18.660245+02:00",
-    "PublishFrom": "2017-04-10T17:37:18.660245+02:00",
-    "IsPublished": true,
+    "Type": "qui",
+    "AssociateId": 287,
+    "AssociateFullName": "Miss Kameron Cletus Upton",
+    "TypeId": 267,
+    "Updated": "2014-08-12T14:19:03.9688343+02:00",
+    "StatusId": 642,
+    "Status": "est",
+    "TextId": 827,
+    "PublishTo": "2022-01-09T14:19:03.9688343+01:00",
+    "PublishFrom": "2004-11-18T14:19:03.9688343+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1072634",
-    "ActiveErpLinks": 872,
+    "ProjectNumber": "582176",
+    "ActiveErpLinks": 677,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 318
+        "FieldType": "System.Int32",
+        "FieldLength": 102
       }
     }
   }

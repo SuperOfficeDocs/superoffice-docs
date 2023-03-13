@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 911,
-    "Name": "Fahey, Franecki and Parisian",
-    "ToolTip": "Quo sapiente sit perferendis vel.",
+    "Id": 810,
+    "Name": "Herman Group",
+    "ToolTip": "Suscipit aut.",
     "Deleted": true,
-    "Rank": 593,
-    "Type": "a",
-    "ColorBlock": 398,
-    "IconHint": "accusantium",
+    "Rank": 82,
+    "Type": "perspiciatis",
+    "ColorBlock": 639,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2002-02-11T17:37:40.3395012+01:00",
+    "LastChanged": "2013-04-03T14:19:11.533946+02:00",
     "ChildItems": [
       {
-        "Id": 810,
-        "Name": "Haley, Runolfsson and Kozey",
-        "ToolTip": "Cumque et et blanditiis placeat dicta cupiditate officia.",
-        "Deleted": false,
-        "Rank": 581,
-        "Type": "ea",
-        "ColorBlock": 10,
-        "IconHint": "voluptas",
+        "Id": 424,
+        "Name": "Senger, Rippin and Wilderman",
+        "ToolTip": "Consequuntur animi eveniet fugiat sequi.",
+        "Deleted": true,
+        "Rank": 782,
+        "Type": "sed",
+        "ColorBlock": 198,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2011-03-28T17:37:40.3395012+02:00",
+        "LastChanged": "1999-05-04T14:19:11.533946+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "accusantium",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "sed",
         "Hidden": true,
-        "FullName": "Oda Donnelly V",
+        "FullName": "Bennett Dietrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 263
+            "FieldType": "System.Int32",
+            "FieldLength": 528
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "sit",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "pariatur",
     "Hidden": false,
-    "FullName": "Dr. Alfonzo Anderson V",
+    "FullName": "Prof. Cassidy Hirthe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 921
+        "FieldLength": 367
       }
     }
   }

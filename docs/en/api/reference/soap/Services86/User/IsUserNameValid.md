@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.IsUserNameVali
 
 ## IsUserNameValid
 
-<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
-* **associateId:**
-* **type:**
-* **personId:**
-* **userName:**
+
+
 
 [WSDL file for Services86/User](../Services86-User.md)
 
@@ -53,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## IsUserNameValid Response
 
 ```xml
@@ -73,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

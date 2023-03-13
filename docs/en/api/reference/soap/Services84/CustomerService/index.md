@@ -10,8 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services84/Custo
 
 Handled by the <see cref="T:SuperOffice.Services84.ICustomerServiceAgent">SuperOffice.Services84.ICustomerServiceAgent</see> interface.
 
-Interface for the CustomerService Agent
-Agent used for Customer Service methods
+
 
 Download [WSDL file for Services84/CustomerService](../Services84-CustomerService.md) if you need to generate your own proxy code.
 
@@ -27,3 +26,4 @@ Download [WSDL file for Services84/CustomerService](../Services84-CustomerServic
 * [SaveSmsConfig](SaveSmsConfig.md)
 * [SessionIsValid](SessionIsValid.md)
 * [UpdateFeatureToggles](UpdateFeatureToggles.md)
+

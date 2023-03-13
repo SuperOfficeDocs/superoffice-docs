@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 310
+  "DepartmentId": 180
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(973)550-6000",
-    "PersonCellPhone": "205.108.3853 x1272",
-    "PersonPrivatePhone": "(679)273-9159 x4586",
-    "PersonFaxNumber": "943283",
-    "PersonPagerNumber": "1219666",
-    "PersonEmail": "moshe@ferryrowe.uk",
-    "Id": 307,
-    "Name": "Ryan Group",
-    "Tooltip": "quaerat",
-    "UniqueId": "rerum",
+    "PersonDirectPhone": "(479)717-1836 x50871",
+    "PersonCellPhone": "(712)523-3141 x2295",
+    "PersonPrivatePhone": "(049)851-5817 x41716",
+    "PersonFaxNumber": "1190398",
+    "PersonPagerNumber": "576258",
+    "PersonEmail": "haleigh_lebsack@dietrich.com",
+    "Id": 906,
+    "Name": "Mann LLC",
+    "Tooltip": "ipsum",
+    "UniqueId": "tempore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 190
+        "FieldType": "System.String",
+        "FieldLength": 933
       }
     }
   }

@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.SaveHeadingsFr
 
 ## SaveHeadingsFromName
 
-Save headings for list resolved by the provided name.
 
-* **name:** The name of the list to look up.
-* **entities:** The headings to save
 
-**Returns:** List of headings
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -60,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveHeadingsFromName Response
 
 ```xml
@@ -89,3 +87,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Sauer, Goldner and Jacobi",
-  "EventFilter": "omnis",
+  "NameFilter": "Collier, Erdman and Witting",
+  "EventFilter": "laudantium",
   "StatusFilter": "Active"
 }
 ```
@@ -104,26 +104,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 702,
-    "Name": "Ondricka-McClure",
+    "WebhookId": 430,
+    "Name": "Mosciski-Stroman",
     "Events": [
-      "fugit",
-      "possimus"
+      "quod",
+      "dolorum"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "aut",
+    "Secret": "tenetur",
     "State": "Active",
-    "Type": "similique",
+    "Type": "necessitatibus",
     "Headers": {
-      "Headers1": "occaecati",
-      "Headers2": "occaecati"
+      "Headers1": "dolores",
+      "Headers2": "dolorem"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2013-01-26T17:37:19.6519782+01:00",
+    "Registered": "1997-05-09T14:19:04.6422019+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2019-02-20T17:37:19.6529774+01:00",
+    "Updated": "2002-12-09T14:19:04.6422019+01:00",
     "UpdatedAssociate": null
   }
 ]

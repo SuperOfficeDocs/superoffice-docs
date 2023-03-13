@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IPhoneListAgent.GetContac
 
 ## GetContactPhones
 
-Returns an array of phone list items for all the persons belonging to a contact (company). The in-parameter must be a valid contact-id.
 
-* **contactId:** The contact id
 
-**Returns:** The contacts phone list.
+
 
 [WSDL file for Services88/PhoneList](../Services88-PhoneList.md)
 
@@ -47,6 +45,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetContactPhones Response
 
@@ -80,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

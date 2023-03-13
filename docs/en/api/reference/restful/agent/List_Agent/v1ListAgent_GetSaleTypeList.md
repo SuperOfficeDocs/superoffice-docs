@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 730,
-    "Value": "quia",
-    "Tooltip": "omnis",
+    "Id": 122,
+    "Value": "facilis",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldType": "System.String",
+        "FieldLength": 16
       }
     }
   },
   {
-    "Id": 730,
-    "Value": "quia",
-    "Tooltip": "omnis",
+    "Id": 122,
+    "Value": "facilis",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldType": "System.String",
+        "FieldLength": 16
       }
     }
   }

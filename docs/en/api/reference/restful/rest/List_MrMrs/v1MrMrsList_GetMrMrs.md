@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 497,
-  "Name": "Gleichner-Fahey",
-  "Tooltip": "odit",
+  "Id": 838,
+  "Name": "Weber-D'Amore",
+  "Tooltip": "temporibus",
   "Deleted": false,
-  "UdListDefinitionId": 252,
-  "Rank": 415,
+  "UdListDefinitionId": 150,
+  "Rank": 965,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 356
+      "FieldLength": 30
     }
   }
 }

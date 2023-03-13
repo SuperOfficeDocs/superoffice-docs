@@ -8,17 +8,17 @@ so.topic: howto
 so.envir: onsite
 ---
 
-# Creating web forms using special templates in Service
+# Creating web forms using special templates in SuperOffice
 
-1. Create a template for the web form under the templates directory in Service.
+1. Create a template for the web form under the templates directory in SuperOffice.
 
     Example: *C:\SuperOffice\Customer Service\templates\special\mytemplate.html*
 
-2. Access the template from the www browser using the following address *.../scripts/customer.exe?action=spec...*
+1. Access the template from the www browser using the following address *.../scripts/customer.exe?action=spec...*
 
-3. Edit the content of the special template
+1. Edit the content of the special template
 
-4. Create a template called *ok.html* in the same location. This will be called when the customer press the **Post** button.
+1. Create a template called *ok.html* in the same location. This will be called when the customer press the **Post** button.
 
 ## Example
 
@@ -63,7 +63,7 @@ Message <input type="text" name="message" size="45" value="">
 
 `%%foobar%%` inserts the form value foobar into the message body
 
-**To create a request in Service, set the following values:**
+**To create a request in SuperOffice, set the following values:**
 
 ```html
 "ticket.title" title of request

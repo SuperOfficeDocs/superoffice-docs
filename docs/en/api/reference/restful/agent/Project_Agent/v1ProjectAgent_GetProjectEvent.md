@@ -25,7 +25,7 @@ Gets a ProjectEvent object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=669
+POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=818
 POST /api/v1/Agents/Project/GetProjectEvent?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,34 +97,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateFullName": "Khalil Reilly",
-  "Description": "Total even-keeled projection",
-  "ProjectId": 10,
-  "EventName": "Carroll Inc and Sons",
-  "AssociateId": 847,
-  "IsSignedOn": true,
-  "SignOffConfirmationText": "laudantium",
-  "SignOffText": "qui",
-  "SignOnConfirmationText": "sunt",
-  "SignOnText": "ea",
-  "EventDate": "2003-12-24T17:37:18.6442445+01:00",
+  "AssociateFullName": "Marta Swaniawski",
+  "Description": "Versatile heuristic standardization",
+  "ProjectId": 746,
+  "EventName": "D'Amore-Breitenberg",
+  "AssociateId": 663,
+  "IsSignedOn": false,
+  "SignOffConfirmationText": "adipisci",
+  "SignOffText": "quibusdam",
+  "SignOnConfirmationText": "molestias",
+  "SignOnText": "incidunt",
+  "EventDate": "2012-12-14T14:19:03.9532088+01:00",
   "Enabled": false,
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOnTaskEnable": true,
+  "SignOnTaskEnable": false,
   "SignOn": false,
-  "SignOffTaskId": 641,
-  "SignOnTaskId": 118,
-  "SignOffTriggersAssign": false,
-  "SignOnTriggersAssign": true,
-  "SignOnPersonId": 699,
-  "SignOffPersonId": 314,
+  "SignOffTaskId": 116,
+  "SignOnTaskId": 790,
+  "SignOffTriggersAssign": true,
+  "SignOnTriggersAssign": false,
+  "SignOnPersonId": 882,
+  "SignOffPersonId": 479,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 958
+      "FieldLength": 630
     }
   }
 }

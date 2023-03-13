@@ -116,26 +116,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 146,
-  "PersonId": 116,
-  "AppointmentId": 869,
-  "DocumentId": 419,
-  "SaleId": 315,
-  "SelectionId": 492,
-  "ProjectId": 696,
+  "ContactId": 221,
+  "PersonId": 266,
+  "AppointmentId": 355,
+  "DocumentId": 127,
+  "SaleId": 77,
+  "SelectionId": 923,
+  "ProjectId": 828,
   "CustomTags": [
-    "aut",
-    "voluptas"
+    "expedita",
+    "non"
   ],
   "CustomValues": [
-    "non",
-    "voluptatem"
+    "culpa",
+    "aut"
   ],
-  "UiCulture": "reprehenderit"
+  "UiCulture": "vero"
 }
 ```
 
@@ -146,88 +146,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 40,
+  "DocumentId": 798,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "impedit",
-  "Header": "fugit",
-  "Name": "Greenholt Group",
-  "OurRef": "eaque",
-  "YourRef": "vel",
-  "CreatedDate": "2021-06-13T17:37:17.5372411+02:00",
-  "UpdatedDate": "2021-02-01T17:37:17.5372411+01:00",
-  "Description": "Integrated non-volatile policy",
+  "Attention": "ut",
+  "Header": "omnis",
+  "Name": "Durgan-Frami",
+  "OurRef": "in",
+  "YourRef": "blanditiis",
+  "CreatedDate": "2015-12-31T14:19:03.3074068+01:00",
+  "UpdatedDate": "2004-04-02T14:19:03.3074068+02:00",
+  "Description": "Face to face uniform installation",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2007-09-11T17:37:17.5402422+02:00",
-  "ExternalRef": "iusto",
+  "Date": "2022-12-21T14:19:03.3074068+01:00",
+  "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 789,
+  "ActiveLinks": 340,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Wilkinson, Veum and Rolfson",
-      "Id": 263,
-      "Description": "Profit-focused multimedia definition",
-      "ExtraInfo": "natus",
-      "LinkId": 57,
+      "EntityName": "Becker Group",
+      "Id": 497,
+      "Description": "Cross-platform context-sensitive artificial intelligence",
+      "ExtraInfo": "qui",
+      "LinkId": 960,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 823
+          "FieldType": "System.String",
+          "FieldLength": 13
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 145,
-  "Snum": 471,
+  "SuggestedDocumentId": 399,
+  "Snum": 509,
   "UserDefinedFields": {
-    "SuperOffice:1": "1829584720",
-    "SuperOffice:2": "1929068333"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "57384464"
   },
   "ExtraFields": {
-    "ExtraFields1": "adipisci",
-    "ExtraFields2": "quo"
+    "ExtraFields1": "unde",
+    "ExtraFields2": "architecto"
   },
   "CustomFields": {
-    "CustomFields1": "quasi",
-    "CustomFields2": "unde"
+    "CustomFields1": "magnam",
+    "CustomFields2": "blanditiis"
   },
-  "PublishEventDate": "1995-11-12T17:37:17.5412439+01:00",
-  "PublishTo": "2009-10-12T17:37:17.5412439+02:00",
-  "PublishFrom": "1997-08-12T17:37:17.5412439+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2019-03-05T14:19:03.3074068+01:00",
+  "PublishTo": "2007-04-28T14:19:03.3074068+02:00",
+  "PublishFrom": "2006-11-07T14:19:03.3074068+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 47,
+      "VisibleId": 646,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 700
+          "FieldType": "System.String",
+          "FieldLength": 431
         }
       }
     },
     {
-      "VisibleId": 47,
+      "VisibleId": 646,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 700
+          "FieldType": "System.String",
+          "FieldLength": 431
         }
       }
     }
@@ -236,8 +236,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 118
+      "FieldType": "System.Int32",
+      "FieldLength": 968
     }
   }
 }

@@ -82,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 844,
-  "DimensionId": 257
+  "TargetYear": 330,
+  "DimensionId": 706
 }
 ```
 
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 199,
-  "Year": 8,
+  "TargetGroupId": 809,
+  "Year": 239,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 77,
+      "TargetAssignmentInfoId": 107,
       "Values": [
-        13,
-        547
+        871,
+        289
       ],
       "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 530,
-      "DimensionListItemDisplayName": "Dach-Hoeger",
+      "DimensionListItem": 712,
+      "DimensionListItemDisplayName": "Monahan-Lueilwitz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 587
+          "FieldType": "System.Int32",
+          "FieldLength": 575
         }
       }
     }
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 185
+      "FieldLength": 451
     }
   }
 }

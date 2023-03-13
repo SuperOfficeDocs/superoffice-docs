@@ -87,7 +87,7 @@ OK
 GET /api/v1/Document/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 91,
-    "ColumnId": 475,
-    "FieldDefault": "sit",
-    "FieldHeight": 420,
-    "FieldLabel": "aspernatur",
-    "FieldLeft": 855,
-    "FieldTop": 439,
+    "UDefFieldId": 508,
+    "ColumnId": 98,
+    "FieldDefault": "omnis",
+    "FieldHeight": 511,
+    "FieldLabel": "itaque",
+    "FieldLeft": 714,
+    "FieldTop": 552,
     "FieldType": "Checkbox",
-    "FieldWidth": 248,
-    "FormatMask": "culpa",
+    "FieldWidth": 94,
+    "FormatMask": "unde",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 947,
-    "LabelLeft": 337,
-    "LabelTop": 234,
-    "LabelWidth": 544,
-    "LastVersionId": 162,
-    "ListTableId": 215,
+    "LabelHeight": 696,
+    "LabelLeft": 537,
+    "LabelTop": 42,
+    "LabelWidth": 268,
+    "LastVersionId": 388,
+    "ListTableId": 697,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 396,
-    "ProgId": "dignissimos",
-    "IsReadOnly": true,
-    "ShortLabel": "ut",
-    "TabOrder": 264,
-    "TextLength": 544,
-    "Tooltip": "nostrum",
-    "UdefIdentity": 317,
-    "UDListDefinitionId": 846,
+    "Page1LineNo": 184,
+    "ProgId": "qui",
+    "IsReadOnly": false,
+    "ShortLabel": "odit",
+    "TabOrder": 552,
+    "TextLength": 970,
+    "Tooltip": "officiis",
+    "UdefIdentity": 66,
+    "UDListDefinitionId": 154,
     "Justification": "Center",
-    "Version": 460,
-    "TemplateVariableName": "Berge, Weissnat and Miller",
+    "Version": 438,
+    "TemplateVariableName": "Shanahan LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Zemlak, Reichert and Batz",
+    "MdoListName": "Maggio LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 416
+        "FieldLength": 401
       }
     }
   }

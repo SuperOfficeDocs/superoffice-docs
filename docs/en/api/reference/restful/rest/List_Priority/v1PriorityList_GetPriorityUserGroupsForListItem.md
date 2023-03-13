@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 491,
-    "Name": "Rice-Harber",
-    "ToolTip": "Ut quia repellendus sint et architecto nisi.",
+    "Id": 558,
+    "Name": "Frami-Bernier",
+    "ToolTip": "Amet sapiente.",
     "Deleted": false,
-    "Rank": 284,
-    "Type": "omnis",
-    "ColorBlock": 830,
-    "IconHint": "iusto",
+    "Rank": 321,
+    "Type": "sit",
+    "ColorBlock": 655,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2016-05-16T17:37:40.1274951+02:00",
+    "LastChanged": "1998-07-26T14:19:11.3524087+02:00",
     "ChildItems": [
       {
-        "Id": 292,
-        "Name": "Blick-Ortiz",
-        "ToolTip": "Quae quo nulla eius quo facilis eos.",
+        "Id": 499,
+        "Name": "Schneider LLC",
+        "ToolTip": "Mollitia delectus.",
         "Deleted": false,
-        "Rank": 130,
-        "Type": "commodi",
-        "ColorBlock": 862,
-        "IconHint": "eveniet",
+        "Rank": 330,
+        "Type": "maiores",
+        "ColorBlock": 265,
+        "IconHint": "culpa",
         "Selected": false,
-        "LastChanged": "2000-11-11T17:37:40.1274951+01:00",
+        "LastChanged": "2012-02-24T14:19:11.3524087+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "qui",
+        "ExtraInfo": "provident",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Prof. Hilario Ondricka",
+        "FullName": "Milford Kunde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 941
+            "FieldType": "System.Int32",
+            "FieldLength": 141
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "esse",
+    "ExtraInfo": "et",
+    "StyleHint": "excepturi",
     "Hidden": false,
-    "FullName": "Wendell Mueller",
+    "FullName": "Frederique Lesch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 280
+        "FieldType": "System.String",
+        "FieldLength": 795
       }
     }
   }

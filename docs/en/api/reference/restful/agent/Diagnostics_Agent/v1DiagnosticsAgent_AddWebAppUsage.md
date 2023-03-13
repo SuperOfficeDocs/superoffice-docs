@@ -69,13 +69,13 @@ Content-Type: application/json; charset=utf-8
 {
   "WebAppUsages": [
     {
-      "WebAppUsageId": 588,
-      "AssocId": 751,
-      "Timestamp": "2005-08-12T17:37:17.4102405+02:00",
-      "ViewState": "itaque",
-      "AggregateCount": 133,
-      "AggregateBin": 769,
-      "Version": 181
+      "WebAppUsageId": 186,
+      "AssocId": 246,
+      "Timestamp": "2019-04-06T14:19:03.1199047+02:00",
+      "ViewState": "illo",
+      "AggregateCount": 308,
+      "AggregateBin": 966,
+      "Version": 248
     }
   ]
 }

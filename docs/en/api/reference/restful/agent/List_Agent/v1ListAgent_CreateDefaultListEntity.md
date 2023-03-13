@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 65,
-  "Name": "Daugherty Inc and Sons",
-  "Tooltip": "voluptas",
+  "Id": 973,
+  "Name": "Dooley-Adams",
+  "Tooltip": "dolorem",
   "Deleted": false,
-  "Rank": 238,
+  "Rank": 321,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "occaecati",
-  "InUseByUserDefinedFields": false,
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 162
+      "FieldType": "System.Int32",
+      "FieldLength": 602
     }
   }
 }

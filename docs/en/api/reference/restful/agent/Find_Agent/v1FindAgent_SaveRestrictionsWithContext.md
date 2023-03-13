@@ -71,33 +71,33 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Schroeder, Emmerich and Boehm",
-  "StorageKey": "dignissimos",
+  "StorageType": "aliquam",
+  "ProviderName": "Orn, Schowalter and Gusikowski",
+  "StorageKey": "culpa",
   "Restrictions": [
     {
-      "Name": "Bradtke-Schulist",
-      "Operator": "qui",
+      "Name": "Schneider-Ankunding",
+      "Operator": "voluptas",
       "Values": [
-        "nulla",
-        "rem"
+        "tenetur",
+        "numquam"
       ],
       "DisplayValues": [
-        "eum",
-        "hic"
+        "itaque",
+        "ipsa"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 11,
+      "InterParenthesis": 666,
       "InterOperator": "And",
-      "UniqueHash": 384
+      "UniqueHash": 709
     }
   ],
-  "Context": "accusamus"
+  "Context": "et"
 }
 ```
 

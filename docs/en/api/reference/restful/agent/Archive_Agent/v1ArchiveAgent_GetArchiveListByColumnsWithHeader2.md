@@ -165,18 +165,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kuhic Inc and Sons",
-  "Columns": "deleniti",
-  "SortOrder": "magnam",
-  "Restriction": "sed",
-  "Entities": "ut",
-  "Page": 117,
-  "PageSize": 21,
-  "Options": "voluptatum"
+  "ProviderName": "Carroll, Wintheiser and Gleichner",
+  "Columns": "magni",
+  "SortOrder": "dolorem",
+  "Restriction": "harum",
+  "Entities": "consequatur",
+  "Page": 628,
+  "PageSize": 683,
+  "Options": "laborum"
 }
 ```
 
@@ -187,26 +187,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 422,
+  "RowCount": 270,
   "Rows": [
     {
-      "EntityName": "Lynch Inc and Sons",
-      "PrimaryKey": 208,
+      "EntityName": "Durgan-Block",
+      "PrimaryKey": 515,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aut",
-          "TooltipHint": "rerum",
-          "LinkHint": "totam"
+          "DisplayValue": "officia",
+          "TooltipHint": "qui",
+          "LinkHint": "iste"
         }
       },
-      "LinkHint": "deleniti",
-      "StyleHint": "consequatur",
+      "LinkHint": "consectetur",
+      "StyleHint": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 302
+          "FieldLength": 111
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 142
+      "FieldLength": 788
     }
   }
 }

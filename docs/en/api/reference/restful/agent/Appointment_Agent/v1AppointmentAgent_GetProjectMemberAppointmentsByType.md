@@ -126,14 +126,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 712,
-  "StartTime": "2016-10-03T17:37:16.2112418+02:00",
-  "EndTime": "2012-01-18T17:37:16.2112418+01:00",
-  "Count": 922,
+  "PersonId": 75,
+  "StartTime": "2000-08-31T14:19:02.3262466+02:00",
+  "EndTime": "2008-02-17T14:19:02.3262466+01:00",
+  "Count": 526,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 532,
-    "StartDate": "2001-06-08T17:37:16.2132411+02:00",
-    "EndDate": "2011-06-23T17:37:16.2132411+02:00",
+    "AppointmentId": 482,
+    "StartDate": "1999-10-19T14:19:02.3262466+02:00",
+    "EndDate": "2015-05-05T14:19:02.3262466+02:00",
     "Type": "BookingForChecklist",
-    "Task": "impedit",
-    "AssociateFullName": "Miss Marta Davion Nader",
-    "ContactName": "Reichel Group",
-    "Description": "User-friendly fault-tolerant protocol",
-    "PersonFullName": "Stephan Runolfsdottir",
-    "PersonId": 443,
-    "ContactId": 573,
-    "ProjectId": 437,
-    "ProjectName": "Kshlerin-Stiedemann",
-    "IsPublished": true,
-    "AssociateId": 259,
-    "ColorIndex": 418,
-    "IsFree": true,
+    "Task": "quam",
+    "AssociateFullName": "Kathleen Bergnaum V",
+    "ContactName": "Marks, Tremblay and Flatley",
+    "Description": "Universal neutral parallelism",
+    "PersonFullName": "Mrs. Van Ramiro Parisian I",
+    "PersonId": 563,
+    "ContactId": 11,
+    "ProjectId": 389,
+    "ProjectName": "Gusikowski, Jakubowski and Gutmann",
+    "IsPublished": false,
+    "AssociateId": 37,
+    "ColorIndex": 370,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 117,
-    "PriorityName": "King Group",
+    "PriorityId": 917,
+    "PriorityName": "McLaughlin LLC",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2012-09-29T17:37:16.2132411+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2022-07-14T14:19:02.3262466+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-11-30T17:37:16.2132411+01:00",
-    "RecurringEndDate": "2005-11-08T17:37:16.2132411+01:00",
-    "MotherId": 904,
-    "AssignedBy": 826,
-    "AssignedByFullName": "Mrs. Raphael Lueilwitz",
+    "RecurringStartDate": "2020-01-18T14:19:02.3262466+01:00",
+    "RecurringEndDate": "2001-10-12T14:19:02.3262466+02:00",
+    "MotherId": 656,
+    "AssignedBy": 192,
+    "AssignedByFullName": "Julien Stokes",
     "RejectReason": "",
-    "Location": "illum",
-    "AlarmLeadTime": "aspernatur",
-    "SaleId": 271,
-    "SaleName": "Schuster Group",
-    "AssociateName": "Ward-Farrell",
-    "CreatedDate": "2022-05-10T17:37:16.2142421+02:00",
-    "CreatedBy": "rerum",
-    "CreatedByFullName": "Peyton Prosacco",
-    "CreatedByAssociateId": 694,
+    "Location": "sed",
+    "AlarmLeadTime": "est",
+    "SaleId": 640,
+    "SaleName": "Kirlin-Boyer",
+    "AssociateName": "Jacobi-Feest",
+    "CreatedDate": "2020-04-05T14:19:02.3262466+02:00",
+    "CreatedBy": "laudantium",
+    "CreatedByFullName": "Marley Mante",
+    "CreatedByAssociateId": 737,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 662
+        "FieldLength": 799
       }
     }
   }

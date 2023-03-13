@@ -53,7 +53,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -80,7 +80,7 @@ OK
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,76 +90,76 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 320,
+  "EjMessageId": 450,
   "Ticket": null,
-  "CreatedAt": "2022-08-23T17:37:39.34434+02:00",
+  "CreatedAt": "2020-02-14T14:19:10.8811066+01:00",
   "CreatedBy": null,
-  "Author": "ab",
+  "Author": "maxime",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "dicta",
-  "TimeSpent": 277,
-  "Body": "at",
-  "HtmlBody": "ullam",
-  "EmailHeader": "koby_damore@carterturcotte.us",
+  "MessageId": "veritatis",
+  "TimeSpent": 966,
+  "Body": "aut",
+  "HtmlBody": "vel",
+  "EmailHeader": "alize@morarjohnson.ca",
   "DebugInfo": "et",
-  "MailSorter": "ducimus",
+  "MailSorter": "eos",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "aut",
+  "SearchTitle": "velit",
   "MessageHeaders": [
     {
-      "Id": 567,
-      "Name": "Kshlerin Inc and Sons",
-      "Value": "nihil",
+      "Id": 324,
+      "Name": "Zulauf-Lueilwitz",
+      "Value": "deleniti",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 287
+          "FieldType": "System.String",
+          "FieldLength": 484
         }
       }
     }
   ],
   "Important": false,
-  "Language": "fuga",
-  "Sentiment": 692,
-  "SentimentConfidence": 95,
+  "Language": "amet",
+  "Sentiment": 227,
+  "SentimentConfidence": 199,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 630,
-      "Name": "Howe Inc and Sons",
-      "ContentType": "sint",
-      "AttSize": 715,
-      "InlineImage": false,
-      "ContentId": "officiis",
+      "AttachmentId": 579,
+      "Name": "Breitenberg-Ernser",
+      "ContentType": "debitis",
+      "AttSize": 188,
+      "InlineImage": true,
+      "ContentId": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 977
+          "FieldLength": 56
         }
       }
     }
   ],
   "ExtraFields": {
     "ExtraFields1": "est",
-    "ExtraFields2": "atque"
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "et"
+    "CustomFields1": "odio",
+    "CustomFields2": "ea"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 218
+      "FieldType": "System.String",
+      "FieldLength": 167
     }
   }
 }

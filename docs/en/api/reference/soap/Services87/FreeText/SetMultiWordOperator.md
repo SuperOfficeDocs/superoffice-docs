@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IFreeTextAgent.SetMultiWo
 
 ## SetMultiWordOperator
 
-Sets the operator used when matching multiple words
 
-* **freeTextOperator:** The operator
 
-**Returns:** No return value
+
 
 [WSDL file for Services87/FreeText](../Services87-FreeText.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetMultiWordOperator Response
 
 ```xml
@@ -68,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

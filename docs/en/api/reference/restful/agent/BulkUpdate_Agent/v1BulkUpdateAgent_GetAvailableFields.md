@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "contact"
+  "Tablename": "project"
 }
 ```
 
@@ -105,73 +105,73 @@ Content-Type: application/json; charset=utf-8
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
-    "IsActive": false,
-    "Key": "animi",
-    "ValueType": "consequuntur",
-    "Mandatory": true,
-    "EncodedDisplayName": "Donnelly-Streich",
-    "EncodedDisplayDescription": "Quality-focused assymetric hub",
-    "IconHint": "et",
+    "IsActive": true,
+    "Key": "nulla",
+    "ValueType": "maxime",
+    "Mandatory": false,
+    "EncodedDisplayName": "Runolfsdottir-O'Kon",
+    "EncodedDisplayDescription": "Centralized transitional capacity",
+    "IconHint": "nisi",
     "ControlInfos": [
       {
-        "Type": "ex",
-        "Label": "consequatur",
-        "Dimension": 104,
-        "ListProviderName": "Emmerich, Sporer and Schamberger",
-        "ListProviderExtraInfo": "sapiente",
-        "ListProviderPrimaryKeyName": "Hills Inc and Sons",
-        "ListLeadText": "fuga",
+        "Type": "facilis",
+        "Label": "aut",
+        "Dimension": 668,
+        "ListProviderName": "Sawayn-Pollich",
+        "ListProviderExtraInfo": "laborum",
+        "ListProviderPrimaryKeyName": "Quitzon-Rippin",
+        "ListLeadText": "est",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 539
+            "FieldType": "System.Int32",
+            "FieldLength": 461
           }
         }
       }
     ],
-    "EncodedDataCaption": "vitae",
-    "EncodedDataCaptionDescription": "Organized client-server approach",
-    "CurrentOperationType": "qui",
+    "EncodedDataCaption": "modi",
+    "EncodedDataCaptionDescription": "Virtual tertiary leverage",
+    "CurrentOperationType": "voluptatem",
     "Values": [
-      "ut",
-      "similique"
+      "reprehenderit",
+      "eum"
     ],
     "DisplayValues": [
-      "iste",
-      "qui"
+      "quam",
+      "excepturi"
     ],
     "OperationInfos": [
       {
-        "Key": "ut",
-        "EncodedDisplayName": "Baumbach LLC",
+        "Key": "quis",
+        "EncodedDisplayName": "Schowalter-Runolfsdottir",
         "EncodedLeadTexts": [
-          "facilis",
-          "natus"
+          "amet",
+          "aliquam"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 413
+            "FieldLength": 675
           }
         }
       },
       {
-        "Key": "ut",
-        "EncodedDisplayName": "Baumbach LLC",
+        "Key": "quis",
+        "EncodedDisplayName": "Schowalter-Runolfsdottir",
         "EncodedLeadTexts": [
-          "facilis",
-          "natus"
+          "amet",
+          "aliquam"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 413
+            "FieldLength": 675
           }
         }
       }

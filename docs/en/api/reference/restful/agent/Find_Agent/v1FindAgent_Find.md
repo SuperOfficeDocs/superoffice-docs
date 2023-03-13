@@ -80,15 +80,15 @@ OK
 POST /api/v1/Agents/Find/Find
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "molestias",
-  "ProviderName": "Balistreri-Sauer",
-  "StorageKey": "qui",
-  "PageSize": 475,
-  "PageNumber": 728
+  "StorageType": "non",
+  "ProviderName": "Ledner, Steuber and Cassin",
+  "StorageKey": "voluptatem",
+  "PageSize": 849,
+  "PageNumber": 2
 }
 ```
 
@@ -101,51 +101,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Stroman, Spinka and Volkman",
-      "DisplayTooltip": "incidunt",
-      "DisplayType": "a",
-      "CanOrderBy": true,
-      "Name": "Hudson Inc and Sons",
+      "DisplayName": "Metz, Lemke and Swaniawski",
+      "DisplayTooltip": "quia",
+      "DisplayType": "suscipit",
+      "CanOrderBy": false,
+      "Name": "Fadel Group",
       "CanRestrictBy": false,
-      "RestrictionType": "temporibus",
-      "RestrictionListName": "Runte, Bergstrom and Little",
-      "IsVisible": true,
-      "ExtraInfo": "eum",
-      "Width": "perferendis",
-      "IconHint": "minus",
-      "HeadingIconHint": "rem"
+      "RestrictionType": "necessitatibus",
+      "RestrictionListName": "Friesen, Toy and Hagenes",
+      "IsVisible": false,
+      "ExtraInfo": "modi",
+      "Width": "accusantium",
+      "IconHint": "autem",
+      "HeadingIconHint": "eligendi"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Stracke, Vandervort and Volkman",
-      "PrimaryKey": 26,
+      "EntityName": "Hauck, Skiles and Zulauf",
+      "PrimaryKey": 515,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "incidunt",
-          "TooltipHint": "qui",
-          "LinkHint": "vel"
+          "DisplayValue": "sit",
+          "TooltipHint": "excepturi",
+          "LinkHint": "a"
         }
       },
-      "LinkHint": "voluptatem",
-      "StyleHint": "voluptas",
+      "LinkHint": "dolor",
+      "StyleHint": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 239
+          "FieldType": "System.String",
+          "FieldLength": 874
         }
       }
     }
   ],
-  "RowCount": 213,
+  "RowCount": 666,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 428
+      "FieldType": "System.String",
+      "FieldLength": 967
     }
   }
 }

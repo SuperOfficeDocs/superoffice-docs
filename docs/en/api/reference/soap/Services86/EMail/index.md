@@ -10,9 +10,7 @@ SOAP request and response examples, and WSDL files for **Remote/Services86/EMail
 
 Handled by the <see cref="T:SuperOffice.Services86.IEMailAgent">SuperOffice.Services86.IEMailAgent</see> interface.
 
-Interface for the EMail Agent
-Email connection, reading, sending
-<para /><b>Online Restricted:</b> This agent is not available in Online by default. Access must be requested specifically when app is registered.
+
 
 Download [WSDL file for Services86/EMail](../Services86-EMail.md) if you need to generate your own proxy code.
 
@@ -96,3 +94,4 @@ Download [WSDL file for Services86/EMail](../Services86-EMail.md) if you need to
 * [SyncEmailAccounts](SyncEmailAccounts.md)
 * [TestAuthenticate](TestAuthenticate.md)
 * [ToggleSubscription](ToggleSubscription.md)
+

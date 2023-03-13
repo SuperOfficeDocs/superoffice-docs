@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 927,
-    "Name": "DuBuque Inc and Sons",
-    "OrgNr": "223058",
+    "ContactId": 954,
+    "Name": "Gutkowski LLC",
+    "OrgNr": "1144165",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "eligendi",
-    "DirectPhone": "469.742.8756",
-    "AssociateId": 366,
-    "CountryId": 367,
-    "EmailAddress": "wayne@binsbreitenberg.us",
-    "Kananame": "doloremque",
-    "EmailAddressName": "lawrence_ward@gaylord.us",
+    "City": "dicta",
+    "DirectPhone": "(483)408-9895",
+    "AssociateId": 211,
+    "CountryId": 703,
+    "EmailAddress": "elvera_schneider@windlercormier.us",
+    "Kananame": "corrupti",
+    "EmailAddressName": "damien_brekke@schultz.com",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Cathrine Denesik",
+    "AssociateFullName": "Dewitt Roob",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "rem",
-    "FullName": "Santino Milton Wunsch III",
+    "FormattedAddress": "quod",
+    "FullName": "Milan Smitham",
     "IsOwnerContact": true,
-    "ActiveErpLinks": 213,
-    "Number1": "1858878",
-    "Number2": "1182038",
+    "ActiveErpLinks": 50,
+    "Number1": "445660",
+    "Number2": "500829",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 6
+        "FieldLength": 892
       }
     }
   }

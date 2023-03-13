@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 127
+  "EntityId": 729
 }
 ```
 
@@ -98,27 +98,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 35,
-    "ConnectionName": "Kulas, Adams and Farrell",
-    "Connected": false,
+    "ErpConnectionId": 453,
+    "ConnectionName": "Wehner LLC",
+    "Connected": true,
     "ErpFields": [
       {
-        "FieldKey": "voluptate",
-        "Rank": 54,
-        "DisplayName": "Kris-McLaughlin",
-        "DisplayDescription": "Team-oriented solution-oriented structure",
+        "FieldKey": "et",
+        "Rank": 78,
+        "DisplayName": "Grimes, Hodkiewicz and Hahn",
+        "DisplayDescription": "Universal secondary strategy",
         "FieldType": "Checkbox",
-        "ListName": "Kemmer, Sporer and Treutel",
-        "DefaultValue": "ab",
-        "MaxLength": 911,
+        "ListName": "Wilkinson-Keebler",
+        "DefaultValue": "voluptates",
+        "MaxLength": 8,
         "Access": "Mandatory",
         "ShowInSearch": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 391
+            "FieldType": "System.String",
+            "FieldLength": 726
           }
         }
       }
@@ -126,15 +126,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "molestias",
-      "at"
+      "maxime",
+      "qui"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 917
+        "FieldType": "System.String",
+        "FieldLength": 911
       }
     }
   }

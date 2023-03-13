@@ -110,11 +110,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 281
+  "QuoteId": 207
 }
 ```
 
@@ -126,75 +126,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 506,
-    "ERPQuoteVersionKey": "officiis",
-    "QuoteId": 171,
-    "Description": "Re-contextualized composite ability",
-    "Number": "1010446",
+    "QuoteVersionId": 153,
+    "ERPQuoteVersionKey": "architecto",
+    "QuoteId": 25,
+    "Description": "Expanded intangible artificial intelligence",
+    "Number": "692870",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
-    "Reason": "transition turn-key schemas",
-    "LikelyQuoteAlternativeId": 804,
-    "SentDate": "2006-10-21T17:37:18.6932416+02:00",
-    "FollowupId": 999,
-    "ExpirationDate": "2017-09-26T17:37:18.6932416+02:00",
-    "DeliveryCountryId": 330,
+    "Reason": "",
+    "LikelyQuoteAlternativeId": 654,
+    "SentDate": "2006-09-02T14:19:03.984459+02:00",
+    "FollowupId": 283,
+    "ExpirationDate": "1999-08-06T14:19:03.984459+02:00",
+    "DeliveryCountryId": 290,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 460,
-    "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "vitae",
-    "ERPPaymentTypeKey": "voluptatem",
-    "ERPDeliveryTermsKey": "nobis",
-    "ERPDeliveryTypeKey": "enim",
-    "Rank": 46,
-    "ApprovedBy": 764,
-    "ApprovedText": "omnis",
-    "ApprovedRegisteredBy": 646,
-    "ApprovedRegisteredDate": "2014-06-08T17:37:18.6932416+02:00",
-    "ExtraField1": "repudiandae",
-    "ExtraField2": "natus",
-    "ExtraField3": "distinctio",
-    "ExtraField4": "et",
-    "ExtraField5": "pariatur",
-    "LastRecalculated": "2020-09-19T17:37:18.6942424+02:00",
-    "Updated": "2020-11-04T17:37:18.6942424+01:00",
-    "UpdatedAssociateId": 681,
-    "Registered": "2012-10-17T17:37:18.6942424+02:00",
-    "RegisteredAssociateId": 683,
-    "RequestAssociateId": 903,
-    "RequestComment": "nesciunt",
+    "InvoiceCountryId": 259,
+    "HasOwnInvoiceAddress": false,
+    "ERPPaymentTermsKey": "id",
+    "ERPPaymentTypeKey": "inventore",
+    "ERPDeliveryTermsKey": "et",
+    "ERPDeliveryTypeKey": "ipsum",
+    "Rank": 141,
+    "ApprovedBy": 387,
+    "ApprovedText": "a",
+    "ApprovedRegisteredBy": 507,
+    "ApprovedRegisteredDate": "2005-04-28T14:19:03.984459+02:00",
+    "ExtraField1": "cum",
+    "ExtraField2": "et",
+    "ExtraField3": "et",
+    "ExtraField4": "ea",
+    "ExtraField5": "officia",
+    "LastRecalculated": "2004-07-03T14:19:03.984459+02:00",
+    "Updated": "2008-10-03T14:19:03.984459+02:00",
+    "UpdatedAssociateId": 741,
+    "Registered": "2003-01-26T14:19:03.984459+01:00",
+    "RegisteredAssociateId": 179,
+    "RequestAssociateId": 917,
+    "RequestComment": "exercitationem",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 68,
-        "ERPQuoteAlternativeKey": "voluptatibus",
-        "QuoteVersionId": 111,
-        "Name": "Thiel Inc and Sons",
-        "Description": "Virtual background alliance",
+        "QuoteAlternativeId": 516,
+        "ERPQuoteAlternativeKey": "voluptatem",
+        "QuoteVersionId": 703,
+        "Name": "Klein-Kiehn",
+        "Description": "Business-focused systematic architecture",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 23736.915999999997,
-        "ERPDiscountAmount": 29365.579999999998,
-        "DiscountPercent": 1965.018,
-        "DiscountAmount": 4071.066,
+        "ERPDiscountPercent": 18973.236,
+        "ERPDiscountAmount": 18152.128,
+        "DiscountPercent": 26877.183999999997,
+        "DiscountAmount": 11266.73,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "quos",
-        "VAT": 11131.967999999999,
-        "EarningPercent": 17801.12,
-        "EarningAmount": 25993.396,
-        "SubTotal": 17052.094,
-        "TotalPrice": 16566.324,
-        "ExtraField1": "provident",
-        "ExtraField2": "aut",
-        "ExtraField3": "sunt",
-        "ExtraField4": "natus",
-        "ExtraField5": "animi",
+        "VATInfo": "veniam",
+        "VAT": 10978.402,
+        "EarningPercent": 30606.644,
+        "EarningAmount": 25407.338,
+        "SubTotal": 11138.235999999999,
+        "TotalPrice": 11724.294,
+        "ExtraField1": "officiis",
+        "ExtraField2": "similique",
+        "ExtraField3": "aspernatur",
+        "ExtraField4": "facilis",
+        "ExtraField5": "ea",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 318
+            "FieldType": "System.String",
+            "FieldLength": 704
           }
         }
       }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 762
+        "FieldType": "System.String",
+        "FieldLength": 926
       }
     }
   }

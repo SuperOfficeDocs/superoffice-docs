@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 712,
-    "Name": "Boehm LLC",
-    "ToolTip": "Eum corrupti aut.",
+    "Id": 203,
+    "Name": "Doyle, Buckridge and Cronin",
+    "ToolTip": "Ex consequatur voluptas natus eos non in nulla.",
     "Deleted": true,
-    "Rank": 817,
-    "Type": "eius",
-    "ColorBlock": 141,
-    "IconHint": "hic",
-    "Selected": true,
-    "LastChanged": "2005-10-18T17:37:40.3455086+02:00",
+    "Rank": 280,
+    "Type": "fuga",
+    "ColorBlock": 260,
+    "IconHint": "sint",
+    "Selected": false,
+    "LastChanged": "1997-08-17T14:19:11.6120888+02:00",
     "ChildItems": [
       {
-        "Id": 2,
-        "Name": "Kessler Inc and Sons",
-        "ToolTip": "Odit ipsa dolor.",
+        "Id": 498,
+        "Name": "DuBuque LLC",
+        "ToolTip": "In modi quis voluptatem culpa architecto.",
         "Deleted": false,
-        "Rank": 653,
-        "Type": "nemo",
-        "ColorBlock": 71,
-        "IconHint": "repellendus",
-        "Selected": false,
-        "LastChanged": "2004-11-24T17:37:40.3465061+01:00",
+        "Rank": 798,
+        "Type": "aut",
+        "ColorBlock": 814,
+        "IconHint": "odio",
+        "Selected": true,
+        "LastChanged": "2017-08-22T14:19:11.6120888+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "assumenda",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Maryse Murphy DVM",
+        "FullName": "Cordie Rosenbaum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 956
+            "FieldLength": 165
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "dolorem",
-    "Hidden": true,
-    "FullName": "Mrs. Chelsea Hackett III",
+    "ExtraInfo": "et",
+    "StyleHint": "temporibus",
+    "Hidden": false,
+    "FullName": "Gladyce Legros",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 821
+        "FieldType": "System.Int32",
+        "FieldLength": 918
       }
     }
   }

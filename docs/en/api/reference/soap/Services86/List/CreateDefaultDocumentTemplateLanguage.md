@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.CreateDefaultD
 
 ## CreateDefaultDocumentTemplateLanguage
 
-Create a new document template language based on an existing template
 
-* **documentTemplateId:** The id of the document template
-* **languageCode:** The language code ('en-US, 'nb-NO', etc)
 
-**Returns:** Returns nothing - throws on error
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultDocumentTemplateLanguage Response
 
 ```xml
@@ -70,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

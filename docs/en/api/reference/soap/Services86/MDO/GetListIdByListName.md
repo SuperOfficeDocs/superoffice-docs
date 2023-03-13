@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IMDOAgent.GetListIdByList
 
 ## GetListIdByListName
 
-Retrieve the UdListDefinition id of a list, by its name. Not all lists have such an ID, but those that are based on tables do (the list name is then the same as the table name)
 
-* **name:** The list name, same as the table name for lists that are backed by tables
 
-**Returns:** List id in the UdListDefinition table
+
 
 [WSDL file for Services86/MDO](../Services86-MDO.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetListIdByListName Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

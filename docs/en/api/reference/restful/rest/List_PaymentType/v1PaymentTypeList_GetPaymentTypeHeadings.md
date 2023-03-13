@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 971,
-    "Name": "Lakin-Schinner",
-    "Tooltip": "voluptatem",
-    "Deleted": true,
-    "Rank": 139,
-    "UdListDefinitionId": 347,
+    "HeadingId": 134,
+    "Name": "Heidenreich, Heller and Morar",
+    "Tooltip": "similique",
+    "Deleted": false,
+    "Rank": 969,
+    "UdListDefinitionId": 450,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 839
+        "FieldType": "System.Int32",
+        "FieldLength": 329
       }
     }
   }

@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,49 +73,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 841,
-  "Name": "Torp LLC",
-  "Tooltip": "magnam",
-  "VisibleColumns": 715,
-  "Rank": 942,
-  "AssocId": 173,
+  "DiaryViewId": 188,
+  "Name": "Shields Inc and Sons",
+  "Tooltip": "molestiae",
+  "VisibleColumns": 92,
+  "Rank": 570,
+  "AssocId": 314,
   "AssociateList": [
     {
-      "Id": 764,
-      "Name": "Stoltenberg Group",
-      "ToolTip": "Voluptas aut et sed magni facilis molestiae eveniet.",
+      "Id": 11,
+      "Name": "D'Amore LLC",
+      "ToolTip": "Sed culpa illum.",
       "Deleted": false,
-      "Rank": 31,
-      "Type": "quia",
-      "ColorBlock": 454,
-      "IconHint": "aliquam",
+      "Rank": 984,
+      "Type": "unde",
+      "ColorBlock": 586,
+      "IconHint": "tempora",
       "Selected": false,
-      "LastChanged": "2014-12-05T17:37:17.1162404+01:00",
+      "LastChanged": "2010-03-14T14:19:02.916778+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ducimus",
-      "StyleHint": "fugit",
-      "Hidden": true,
-      "FullName": "Ms. Sonny Mertz I",
+      "ExtraInfo": "consequuntur",
+      "StyleHint": "tenetur",
+      "Hidden": false,
+      "FullName": "Zoe Jaskolski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 360
+          "FieldLength": 133
         }
       }
     }
   ],
-  "TzLocationId": 636,
+  "TzLocationId": 36,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldType": "System.String",
+      "FieldLength": 567
     }
   }
 }

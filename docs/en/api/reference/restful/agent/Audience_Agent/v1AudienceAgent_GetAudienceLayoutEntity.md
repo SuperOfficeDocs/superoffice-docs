@@ -25,7 +25,7 @@ Gets a AudienceLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=160
+POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=877
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,11 +82,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 28,
-  "InstanceLayout": "porro",
-  "InstanceName": "Lemke Inc and Sons",
-  "CreatedDate": "2015-06-24T17:37:16.8872421+02:00",
-  "UpdatedDate": "1997-08-15T17:37:16.8872421+02:00",
+  "AudienceLayoutId": 562,
+  "InstanceLayout": "autem",
+  "InstanceName": "Conroy Group",
+  "CreatedDate": "2020-11-28T14:19:02.7594283+01:00",
+  "UpdatedDate": "2019-08-19T14:19:02.7594283+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -94,7 +94,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldLength": 292
     }
   }
 }

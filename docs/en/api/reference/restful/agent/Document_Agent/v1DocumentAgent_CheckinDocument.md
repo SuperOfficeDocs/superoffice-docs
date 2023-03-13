@@ -82,15 +82,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 629,
+  "DocumentId": 259,
   "AllowedReturnTypes": [
-    "et",
-    "magni"
+    "praesentium",
+    "autem"
   ],
-  "VersionDescription": "Reactive global algorithm",
+  "VersionDescription": "Balanced bifurcated budgetary management",
   "VersionExtraFields": [
-    "sit",
-    "qui"
+    "incidunt",
+    "dolorem"
   ]
 }
 ```
@@ -102,11 +102,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "ipsam",
-  "VersionId": "fugit",
+  "ExternalReference": "ad",
+  "VersionId": "facilis",
   "Success": true,
   "Type": "CustomGui",
-  "Value": "omnis",
-  "AdditionalInfo": "quia"
+  "Value": "sint",
+  "AdditionalInfo": "tempora"
 }
 ```

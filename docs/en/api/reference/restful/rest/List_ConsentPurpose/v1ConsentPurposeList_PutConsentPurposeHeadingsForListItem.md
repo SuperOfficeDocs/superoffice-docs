@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 733,
-    "Name": "Hamill-Waelchi",
-    "ToolTip": "Earum accusantium eum quod quam.",
+    "Id": 871,
+    "Name": "Ebert Inc and Sons",
+    "ToolTip": "Est est quos quos repudiandae fugit magnam quas.",
     "Deleted": false,
-    "Rank": 106,
-    "Type": "optio",
-    "ColorBlock": 400,
-    "IconHint": "expedita",
-    "Selected": true,
-    "LastChanged": "2020-04-22T17:37:39.9015035+02:00",
+    "Rank": 786,
+    "Type": "sunt",
+    "ColorBlock": 921,
+    "IconHint": "quas",
+    "Selected": false,
+    "LastChanged": "2006-04-24T14:19:11.163718+02:00",
     "ChildItems": [
       {
-        "Id": 200,
-        "Name": "Konopelski Group",
-        "ToolTip": "Laudantium sed facere ducimus accusamus tempora recusandae esse.",
-        "Deleted": false,
-        "Rank": 828,
-        "Type": "odit",
-        "ColorBlock": 181,
-        "IconHint": "eveniet",
+        "Id": 27,
+        "Name": "Breitenberg Inc and Sons",
+        "ToolTip": "Sit ea sed veniam aut qui voluptatem.",
+        "Deleted": true,
+        "Rank": 981,
+        "Type": "cum",
+        "ColorBlock": 454,
+        "IconHint": "commodi",
         "Selected": false,
-        "LastChanged": "2001-04-03T17:37:39.9025001+02:00",
+        "LastChanged": "2008-07-27T14:19:11.163718+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "vitae",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "nesciunt",
         "Hidden": false,
-        "FullName": "Soledad Aufderhar"
+        "FullName": "Asa Huels"
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "non",
+    "ExtraInfo": "molestias",
+    "StyleHint": "iure",
     "Hidden": false,
-    "FullName": "Mikel Berge"
+    "FullName": "Glenda Lowe"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 87,
-    "Name": "Hilpert LLC",
-    "ToolTip": "Soluta magni a in porro fugiat.",
-    "Deleted": false,
-    "Rank": 95,
-    "Type": "sit",
-    "ColorBlock": 673,
-    "IconHint": "minus",
-    "Selected": true,
-    "LastChanged": "2013-06-25T17:37:39.9035006+02:00",
+    "Id": 211,
+    "Name": "McGlynn, Adams and Herman",
+    "ToolTip": "Sed inventore sequi quod.",
+    "Deleted": true,
+    "Rank": 831,
+    "Type": "adipisci",
+    "ColorBlock": 727,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2012-04-14T14:19:11.1793474+02:00",
     "ChildItems": [
       {
-        "Id": 807,
-        "Name": "Blick LLC",
-        "ToolTip": "Reiciendis qui molestias minus ab.",
-        "Deleted": true,
-        "Rank": 844,
-        "Type": "nisi",
-        "ColorBlock": 941,
-        "IconHint": "debitis",
+        "Id": 679,
+        "Name": "Gerlach-Wisoky",
+        "ToolTip": "Quia nisi aspernatur fuga fuga.",
+        "Deleted": false,
+        "Rank": 210,
+        "Type": "voluptatem",
+        "ColorBlock": 846,
+        "IconHint": "beatae",
         "Selected": false,
-        "LastChanged": "2017-03-03T17:37:39.9035006+01:00",
+        "LastChanged": "2016-10-10T14:19:11.1793474+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "ad",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Maddison Swift",
+        "FullName": "Mrs. Virgil Celine Jacobson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 147
+            "FieldType": "System.Int32",
+            "FieldLength": 580
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "provident",
-    "Hidden": false,
-    "FullName": "Oscar Pollich",
+    "ExtraInfo": "odit",
+    "StyleHint": "tempora",
+    "Hidden": true,
+    "FullName": "Corbin Gulgowski PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 695
+        "FieldType": "System.String",
+        "FieldLength": 882
       }
     }
   }

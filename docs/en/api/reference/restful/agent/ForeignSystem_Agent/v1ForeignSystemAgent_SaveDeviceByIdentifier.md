@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Orn-Witting",
-  "DeviceName": "Bernier Group",
-  "DeviceIdentifier": "quis",
+  "ApplicationName": "Cummerata Group",
+  "DeviceName": "Yundt Inc and Sons",
+  "DeviceIdentifier": "sapiente",
   "ForeignDevice": null
 }
 ```
@@ -101,21 +101,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 52,
-  "Name": "Kirlin Inc and Sons",
-  "CreatedDate": "2021-06-15T17:37:18.1032433+02:00",
-  "UpdatedDate": "2003-04-19T17:37:18.1032433+02:00",
-  "AssociateFullName": "Mateo Hackett",
-  "CreatedBy": "repellat",
-  "UpdatedBy": "voluptatum",
-  "DeviceIdentifier": "numquam",
-  "ForeignAppId": 651,
+  "ForeignDeviceId": 280,
+  "Name": "Kutch-Mayert",
+  "CreatedDate": "2007-10-31T14:19:03.5602728+01:00",
+  "UpdatedDate": "2017-03-25T14:19:03.5602728+01:00",
+  "AssociateFullName": "Clovis Hettie Miller Sr.",
+  "CreatedBy": "voluptatem",
+  "UpdatedBy": "iste",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 692,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 502
+      "FieldLength": 622
     }
   }
 }

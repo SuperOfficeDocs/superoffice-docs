@@ -84,6 +84,7 @@ OK
 | ProgressDescription | string | Descriptive text for the current stage |
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
+| CancellationBehaviour | string | Indicate if the task can be stopped. |
 | TableRight | TableRight |  |
 | FieldProperties | object |  |
 
@@ -98,8 +99,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    930,
-    922
+    169,
+    370
   ],
   "State": "All"
 }
@@ -113,36 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 258,
-    "Name": "Herzog-Heathcote",
-    "AssociateId": 191,
-    "DetailsTable": 345,
-    "DetailsRecord": 987,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 434,
+    "Name": "Bashirian-Labadie",
+    "AssociateId": 858,
+    "DetailsTable": 227,
+    "DetailsRecord": 94,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "magnam",
-      "ParameterObject2": "velit"
+      "ParameterObject1": "et",
+      "ParameterObject2": "qui"
     },
-    "LastStarted": "2015-05-08T17:37:16.9032419+02:00",
-    "Created": "2016-03-29T17:37:16.9032419+02:00",
-    "StartCount": 559,
-    "DatabaseSerialNumber": "1300169",
-    "Context": "quia",
-    "Result": "eos",
+    "LastStarted": "2012-04-16T14:19:02.7750538+02:00",
+    "Created": "2012-09-13T14:19:02.7750538+02:00",
+    "StartCount": 816,
+    "DatabaseSerialNumber": "591100",
+    "Context": "dicta",
+    "Result": "odit",
     "State": "All",
-    "Description": "Multi-lateral mission-critical time-frame",
-    "Response": "et",
-    "Request": "quia",
-    "ProgressDescription": "Versatile 24/7 customer loyalty",
-    "ProgressPercent": 79,
-    "FileName": "Trantow Inc and Sons",
+    "Description": "Cross-group mobile interface",
+    "Response": "iste",
+    "Request": "fugiat",
+    "ProgressDescription": "Pre-emptive eco-centric process improvement",
+    "ProgressPercent": 647,
+    "FileName": "Schmitt Inc and Sons",
+    "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 581
+        "FieldLength": 157
       }
     }
   }

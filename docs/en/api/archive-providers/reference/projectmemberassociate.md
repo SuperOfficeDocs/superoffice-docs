@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ProjectMemberAssociate"
 so.generated: true
-so.date: 08.26.2022
+so.date: 01.23.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,16 +20,14 @@ so.envir:
 This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.ProjectMemberAssociateProvider">SuperOffice.CRM.ArchiveLists.ProjectMemberAssociateProvider</see> inside NetServer's SODatabase assembly.
 
 ## Supported Entities
-
 | Name | Description |
-| ---- | ----------- |
+| ---- | ----- |
 |"ProjectMember"|[ProjectMember]|
 |"hideConflict"|Hide conflict|
 
 ## Supported Columns
-
-| Name | Restriction | Description | OrderBy |
-| ---- | ----------- | ----------- | ------- |
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |conflictStatus| *None* |Status: Shows any conflicts with other follow-ups|  |
@@ -41,11 +39,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectMemberAssociate?$select=conflictStatus,function
+GET /api/v1/archive/ProjectMemberAssociate?$select=nameDepartment,conflictStatus,function
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
+
+
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

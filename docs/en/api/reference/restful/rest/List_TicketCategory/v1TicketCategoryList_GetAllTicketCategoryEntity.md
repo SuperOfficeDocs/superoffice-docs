@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,36 +84,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 716,
-    "ParentId": 53,
-    "Name": "Jacobi, Ritchie and Mann",
-    "Fullname": "eos",
-    "CategoryMaster": 393,
+    "TicketCategoryId": 426,
+    "ParentId": 953,
+    "Name": "Windler, Ledner and Jerde",
+    "Fullname": "non",
+    "CategoryMaster": 322,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "VonRueden LLC",
+    "ExternalName": "Wisoky Group",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 21,
-    "ReplyTemplate": 785,
-    "NotificationEmail": "cielo@shanahan.biz",
+    "AssignmentLag": 997,
+    "ReplyTemplate": 77,
+    "NotificationEmail": "hector@greenbernhard.biz",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 649,
+    "EffectiveReplyTemplateId": 463,
     "ExtraFields": {
-      "ExtraFields1": "perspiciatis",
+      "ExtraFields1": "cumque",
       "ExtraFields2": "ipsam"
     },
     "CustomFields": {
-      "CustomFields1": "labore",
-      "CustomFields2": "voluptatum"
+      "CustomFields1": "dolores",
+      "CustomFields2": "hic"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 396
+        "FieldLength": 86
       }
     }
   }

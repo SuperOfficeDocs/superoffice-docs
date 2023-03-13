@@ -556,6 +556,21 @@ title: Services88.MarketingAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetFormSubmissionsCount">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="FormId" type="xs:int" />
+            <xs:element minOccurs="0" name="Status" type="tns:FormSubmissionStatus" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetFormSubmissionsCountResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetPreviewMailing">
         <xs:complexType>
           <xs:sequence>
@@ -1041,6 +1056,23 @@ title: Services88.MarketingAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetFormSubmissionsCountRequest">
+    <wsdl:part name="parameters" element="tns:GetFormSubmissionsCount" />
+  </wsdl:message>
+  <wsdl:message name="GetFormSubmissionsCountRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetFormSubmissionsCountResponse">
+    <wsdl:part name="parameters" element="tns:GetFormSubmissionsCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFormSubmissionsCountResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetPreviewMailingRequest">
     <wsdl:part name="parameters" element="tns:GetPreviewMailing" />
   </wsdl:message>
@@ -1127,153 +1159,91 @@ title: Services88.MarketingAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Marketing">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Marketing</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultFormEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new FormEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/CreateDefaultFormEntity" name="CreateDefaultFormEntityRequest" message="tns:CreateDefaultFormEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/CreateDefaultFormEntityResponse" name="CreateDefaultFormEntityResponse" message="tns:CreateDefaultFormEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveFormEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing FormEntity or creates a new FormEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/SaveFormEntity" name="SaveFormEntityRequest" message="tns:SaveFormEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/SaveFormEntityResponse" name="SaveFormEntityResponse" message="tns:SaveFormEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteFormEntity">
-      <wsdl:documentation>
-        <summary>Deletes the FormEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/DeleteFormEntity" name="DeleteFormEntityRequest" message="tns:DeleteFormEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/DeleteFormEntityResponse" name="DeleteFormEntityResponse" message="tns:DeleteFormEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultFormSubmissionEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new FormSubmissionEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/CreateDefaultFormSubmissionEntity" name="CreateDefaultFormSubmissionEntityRequest" message="tns:CreateDefaultFormSubmissionEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/CreateDefaultFormSubmissionEntityResponse" name="CreateDefaultFormSubmissionEntityResponse" message="tns:CreateDefaultFormSubmissionEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveFormSubmissionEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing FormSubmissionEntity or creates a new FormSubmissionEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/SaveFormSubmissionEntity" name="SaveFormSubmissionEntityRequest" message="tns:SaveFormSubmissionEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/SaveFormSubmissionEntityResponse" name="SaveFormSubmissionEntityResponse" message="tns:SaveFormSubmissionEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteFormSubmissionEntity">
-      <wsdl:documentation>
-        <summary>Deletes the FormSubmissionEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/DeleteFormSubmissionEntity" name="DeleteFormSubmissionEntityRequest" message="tns:DeleteFormSubmissionEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/DeleteFormSubmissionEntityResponse" name="DeleteFormSubmissionEntityResponse" message="tns:DeleteFormSubmissionEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultShipmentMessageBlockEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new ShipmentMessageBlockEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/CreateDefaultShipmentMessageBlockEntity" name="CreateDefaultShipmentMessageBlockEntityRequest" message="tns:CreateDefaultShipmentMessageBlockEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/CreateDefaultShipmentMessageBlockEntityResponse" name="CreateDefaultShipmentMessageBlockEntityResponse" message="tns:CreateDefaultShipmentMessageBlockEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveShipmentMessageBlockEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing ShipmentMessageBlockEntity or creates a new ShipmentMessageBlockEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/SaveShipmentMessageBlockEntity" name="SaveShipmentMessageBlockEntityRequest" message="tns:SaveShipmentMessageBlockEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/SaveShipmentMessageBlockEntityResponse" name="SaveShipmentMessageBlockEntityResponse" message="tns:SaveShipmentMessageBlockEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteShipmentMessageBlockEntity">
-      <wsdl:documentation>
-        <summary>Deletes the ShipmentMessageBlockEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/DeleteShipmentMessageBlockEntity" name="DeleteShipmentMessageBlockEntityRequest" message="tns:DeleteShipmentMessageBlockEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/DeleteShipmentMessageBlockEntityResponse" name="DeleteShipmentMessageBlockEntityResponse" message="tns:DeleteShipmentMessageBlockEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultShipmentMessageEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new ShipmentMessageEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/CreateDefaultShipmentMessageEntity" name="CreateDefaultShipmentMessageEntityRequest" message="tns:CreateDefaultShipmentMessageEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/CreateDefaultShipmentMessageEntityResponse" name="CreateDefaultShipmentMessageEntityResponse" message="tns:CreateDefaultShipmentMessageEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveShipmentMessageEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing ShipmentMessageEntity or creates a new ShipmentMessageEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/SaveShipmentMessageEntity" name="SaveShipmentMessageEntityRequest" message="tns:SaveShipmentMessageEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/SaveShipmentMessageEntityResponse" name="SaveShipmentMessageEntityResponse" message="tns:SaveShipmentMessageEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteShipmentMessageEntity">
-      <wsdl:documentation>
-        <summary>Deletes the ShipmentMessageEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/DeleteShipmentMessageEntity" name="DeleteShipmentMessageEntityRequest" message="tns:DeleteShipmentMessageEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/DeleteShipmentMessageEntityResponse" name="DeleteShipmentMessageEntityResponse" message="tns:DeleteShipmentMessageEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFormEntity">
-      <wsdl:documentation>
-        <summary>Gets a FormEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetFormEntity" name="GetFormEntityRequest" message="tns:GetFormEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetFormEntityResponse" name="GetFormEntityResponse" message="tns:GetFormEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="VerifyGoogleRecaptcha">
-      <wsdl:documentation>
-        <summary>This method will try to verify a Google recaptcha token. The token is gained from the recaptcha frontend component</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/VerifyGoogleRecaptcha" name="VerifyGoogleRecaptchaRequest" message="tns:VerifyGoogleRecaptchaRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/VerifyGoogleRecaptchaResponse" name="VerifyGoogleRecaptchaResponse" message="tns:VerifyGoogleRecaptchaResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFormSubmissionEntity">
-      <wsdl:documentation>
-        <summary>Gets a FormSubmissionEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetFormSubmissionEntity" name="GetFormSubmissionEntityRequest" message="tns:GetFormSubmissionEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetFormSubmissionEntityResponse" name="GetFormSubmissionEntityResponse" message="tns:GetFormSubmissionEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CalculateMailingStatistics">
-      <wsdl:documentation>
-        <summary>Calculate open and click rates for one or more mailings</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/CalculateMailingStatistics" name="CalculateMailingStatisticsRequest" message="tns:CalculateMailingStatisticsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/CalculateMailingStatisticsResponse" name="CalculateMailingStatisticsResponse" message="tns:CalculateMailingStatisticsResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GetFormSubmissionsCount">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetFormSubmissionsCount" name="GetFormSubmissionsCountRequest" message="tns:GetFormSubmissionsCountRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetFormSubmissionsCountResponse" name="GetFormSubmissionsCountResponse" message="tns:GetFormSubmissionsCountResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetPreviewMailing">
-      <wsdl:documentation>
-        <summary>Get a shipment message from its shipment address id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetPreviewMailing" name="GetPreviewMailingRequest" message="tns:GetPreviewMailingRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetPreviewMailingResponse" name="GetPreviewMailingResponse" message="tns:GetPreviewMailingResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPreviewMailingHeader">
-      <wsdl:documentation>
-        <summary>Get a shipment from its shipment id</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetPreviewMailingHeader" name="GetPreviewMailingHeaderRequest" message="tns:GetPreviewMailingHeaderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetPreviewMailingHeaderResponse" name="GetPreviewMailingHeaderResponse" message="tns:GetPreviewMailingHeaderResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetShipmentMessageBlockEntity">
-      <wsdl:documentation>
-        <summary>Gets a ShipmentMessageBlockEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetShipmentMessageBlockEntity" name="GetShipmentMessageBlockEntityRequest" message="tns:GetShipmentMessageBlockEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetShipmentMessageBlockEntityResponse" name="GetShipmentMessageBlockEntityResponse" message="tns:GetShipmentMessageBlockEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetUserBlocks">
-      <wsdl:documentation>
-        <summary>Get the saved user blocks to be used in a shipment/mailing message</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetUserBlocks" name="GetUserBlocksRequest" message="tns:GetUserBlocksRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetUserBlocksResponse" name="GetUserBlocksResponse" message="tns:GetUserBlocksResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetShipmentMessageEntity">
-      <wsdl:documentation>
-        <summary>Gets a ShipmentMessageEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetShipmentMessageEntity" name="GetShipmentMessageEntityRequest" message="tns:GetShipmentMessageEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetShipmentMessageEntityResponse" name="GetShipmentMessageEntityResponse" message="tns:GetShipmentMessageEntityResponse" />
     </wsdl:operation>
@@ -1536,6 +1506,22 @@ title: Services88.MarketingAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="GetFormSubmissionsCount">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetFormSubmissionsCount" style="document" />
+      <wsdl:input name="GetFormSubmissionsCountRequest">
+        <soap:header message="tns:GetFormSubmissionsCountRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetFormSubmissionsCountRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetFormSubmissionsCountRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetFormSubmissionsCountResponse">
+        <soap:header message="tns:GetFormSubmissionsCountResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetFormSubmissionsCountResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetFormSubmissionsCountResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetFormSubmissionsCountResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetPreviewMailing">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetPreviewMailing" style="document" />
       <wsdl:input name="GetPreviewMailingRequest">
@@ -1624,3 +1610,4 @@ title: Services88.MarketingAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

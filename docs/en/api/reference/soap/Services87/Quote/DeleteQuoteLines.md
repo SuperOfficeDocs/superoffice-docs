@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IQuoteAgent.DeleteQuoteLi
 
 ## DeleteQuoteLines
 
-Delete the QuoteLines in the SuperOffice database
 
-* **quoteLineIds:** Primary keys of the quotelines to delete
 
-**Returns:** Nothing
+
 
 [WSDL file for Services87/Quote](../Services87-Quote.md)
 
@@ -51,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteQuoteLines Response
 
 ```xml
@@ -70,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

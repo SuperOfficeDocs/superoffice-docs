@@ -25,8 +25,8 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=aut
+GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=consequuntur
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 767,
-    "Name": "Glover-Shanahan",
-    "ToolTip": "Ut omnis facere nam nulla molestias fugiat.",
+    "Id": 128,
+    "Name": "Olson Inc and Sons",
+    "ToolTip": "Nam et et.",
     "Deleted": false,
-    "Rank": 272,
-    "Type": "culpa",
+    "Rank": 938,
+    "Type": "veritatis",
     "ChildItems": [
       {
-        "Id": 275,
-        "Name": "Rippin Inc and Sons",
-        "ToolTip": "Sed numquam cum ut et quod facere aut.",
+        "Id": 644,
+        "Name": "Marvin-Douglas",
+        "ToolTip": "Aperiam consequatur quo magnam impedit esse voluptas veritatis.",
         "Deleted": true,
-        "Rank": 862,
-        "Type": "fugit",
+        "Rank": 561,
+        "Type": "tenetur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolores",
-        "ColorBlock": 528,
-        "ExtraInfo": "qui",
-        "StyleHint": "dolorum",
-        "FullName": "Dr. Max Kathryne Lebsack II",
+        "IconHint": "maxime",
+        "ColorBlock": 249,
+        "ExtraInfo": "ducimus",
+        "StyleHint": "cupiditate",
+        "FullName": "Bernadine Hessel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 159
+            "FieldLength": 827
           }
         }
       }
     ],
-    "IconHint": "corrupti",
-    "ColorBlock": 202,
-    "ExtraInfo": "modi",
-    "StyleHint": "ad",
-    "FullName": "Madelyn Goodwin",
+    "IconHint": "ex",
+    "ColorBlock": 296,
+    "ExtraInfo": "minima",
+    "StyleHint": "omnis",
+    "FullName": "Sydnie Kilback",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 211
+        "FieldType": "System.Int32",
+        "FieldLength": 26
       }
     }
   }

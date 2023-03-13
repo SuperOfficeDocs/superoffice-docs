@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 247,
+  "SourceDocumentTemplateId": 314,
   "DocumentTemplateEntity": null
 }
 ```
@@ -113,37 +113,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 596,
-  "Name": "Hartmann, Anderson and Prohaska",
-  "Tooltip": "dolorum",
-  "SaveInDb": 884,
-  "Filename": "sint",
-  "DefaultOref": "totam",
+  "DocumentTemplateId": 316,
+  "Name": "Fay, Feeney and Dooley",
+  "Tooltip": "odio",
+  "SaveInDb": 960,
+  "Filename": "accusantium",
+  "DefaultOref": "aliquam",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 24,
-  "IntentId": 491,
-  "IsDefaultPublished": false,
-  "Rank": 318,
-  "LoadTemplateFromPlugin": 200,
+  "AutoeventId": 284,
+  "IntentId": 100,
+  "IsDefaultPublished": true,
+  "Rank": 805,
+  "LoadTemplateFromPlugin": 308,
   "MimeType": "autem",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 606,
+  "DocumentTypeKey": 258,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "cathryn@sawayn.co.uk",
+  "EmailSubject": "myrtis.predovic@jacobs.biz",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "vanessa.abbott@krismarks.uk",
+  "SenderEmailAddress": "freeda@boyle.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 838
+      "FieldType": "System.Int32",
+      "FieldLength": 851
     }
   }
 }

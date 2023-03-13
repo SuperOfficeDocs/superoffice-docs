@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.SetVisibleForU
 
 ## SetVisibleForUserGroup
 
-Set a group which this list item should be visible for
 
-* **udListDefinitionId:** The id of the list. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
-* **listItemId:** The id of the list item
-* **userGroupId:** The id of the user groups to set for this list item
-* **enable:** Set to true to enable, false to disable
+
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -55,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetVisibleForUserGroup Response
 
 ```xml
@@ -74,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

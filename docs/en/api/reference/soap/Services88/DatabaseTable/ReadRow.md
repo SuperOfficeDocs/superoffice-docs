@@ -11,12 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDatabaseTableAgent.ReadR
 
 ## ReadRow
 
-Read a row from a table
 
-* **tableName:** The name of the table to fetch; in the current release this must be an 'extratable'. Use the database name, on the form y\_aTable
-* **id:** The id of the row to fetch
 
-**Returns:** The row from the table
+
 
 [WSDL file for Services88/DatabaseTable](../Services88-DatabaseTable.md)
 
@@ -51,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ReadRow Response
 
 ```xml
@@ -78,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

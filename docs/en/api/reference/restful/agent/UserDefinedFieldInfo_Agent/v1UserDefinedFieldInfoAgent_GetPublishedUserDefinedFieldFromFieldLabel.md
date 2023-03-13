@@ -108,11 +108,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "vero",
+  "FieldLabel": "et",
   "OwnerType": "Appointment"
 }
 ```
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 149,
-  "ColumnId": 501,
-  "FieldDefault": "assumenda",
-  "FieldHeight": 106,
-  "FieldLabel": "et",
-  "FieldLeft": 184,
-  "FieldTop": 472,
+  "UDefFieldId": 122,
+  "ColumnId": 150,
+  "FieldDefault": "omnis",
+  "FieldHeight": 172,
+  "FieldLabel": "numquam",
+  "FieldLeft": 628,
+  "FieldTop": 477,
   "FieldType": "Checkbox",
-  "FieldWidth": 471,
-  "FormatMask": "rem",
-  "HideLabel": true,
+  "FieldWidth": 621,
+  "FormatMask": "totam",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 413,
-  "LabelLeft": 59,
-  "LabelTop": 363,
-  "LabelWidth": 117,
-  "LastVersionId": 301,
-  "ListTableId": 64,
-  "IsMandatory": false,
+  "LabelHeight": 468,
+  "LabelLeft": 699,
+  "LabelTop": 876,
+  "LabelWidth": 24,
+  "LastVersionId": 435,
+  "ListTableId": 917,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 705,
-  "ProgId": "ut",
-  "IsReadOnly": false,
-  "ShortLabel": "harum",
-  "TabOrder": 217,
-  "TextLength": 165,
-  "Tooltip": "beatae",
-  "UdefIdentity": 135,
-  "UDListDefinitionId": 896,
+  "Page1LineNo": 349,
+  "ProgId": "sed",
+  "IsReadOnly": true,
+  "ShortLabel": "quam",
+  "TabOrder": 282,
+  "TextLength": 660,
+  "Tooltip": "nemo",
+  "UdefIdentity": 973,
+  "UDListDefinitionId": 323,
   "Justification": "Center",
-  "Version": 205,
-  "TemplateVariableName": "Champlin Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Jacobson-Hilll",
+  "Version": 513,
+  "TemplateVariableName": "Lindgren LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "Wisozk Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 517
+      "FieldLength": 467
     }
   }
 }

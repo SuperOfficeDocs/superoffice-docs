@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Remove members from static selections
+# Remove members from static selection
 
 ## Remove members using search criteria
 

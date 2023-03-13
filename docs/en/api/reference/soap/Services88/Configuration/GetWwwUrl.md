@@ -11,11 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IConfigurationAgent.GetWw
 
 ## GetWwwUrl
 
-Will get the default URL used for the logo, from the [NetServices] PageUrl preferencec, with tags substituted.
 
-* **client:** The name for the client application, like 'CS' or 'SM.web', used for the &lt;clie&gt; variable
 
-**Returns:** URL to be used when clicking the logo
+
 
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
@@ -49,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetWwwUrl Response
 
 ```xml
@@ -69,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

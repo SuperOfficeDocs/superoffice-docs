@@ -80,19 +80,19 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Messages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 471,
-  "ChatSessionId": 858,
+  "ChatMessageId": 728,
+  "ChatSessionId": 403,
   "Type": "Invalid",
-  "Message": "corporis",
-  "Author": "aspernatur",
-  "ReadByCustomer": 674,
+  "Message": "illo",
+  "Author": "adipisci",
+  "ReadByCustomer": 215,
   "SpecialType": "Block",
-  "SpecialParam": "itaque",
-  "WhenPosted": "2002-11-03T17:37:38.289867+01:00"
+  "SpecialParam": "cum",
+  "WhenPosted": "2018-10-03T14:19:10.0998102+02:00"
 }
 ```
 
@@ -103,14 +103,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 507,
-  "ChatSessionId": 303,
+  "ChatMessageId": 520,
+  "ChatSessionId": 23,
   "Type": "Invalid",
-  "Message": "voluptatem",
-  "Author": "corporis",
-  "ReadByCustomer": 416,
+  "Message": "accusamus",
+  "Author": "est",
+  "ReadByCustomer": 101,
   "SpecialType": "Block",
-  "SpecialParam": "recusandae",
-  "WhenPosted": "1996-04-13T17:37:38.2908323+02:00"
+  "SpecialParam": "numquam",
+  "WhenPosted": "2003-07-25T14:19:10.0998102+02:00"
 }
 ```

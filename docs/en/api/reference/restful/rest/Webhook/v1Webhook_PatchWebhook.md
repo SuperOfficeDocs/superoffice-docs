@@ -120,18 +120,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aspernatur",
+    "path": "sunt",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aspernatur",
+    "path": "sunt",
     "value": {}
   }
 ]
@@ -144,30 +144,30 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 833,
-  "Name": "McGlynn-Hettinger",
+  "WebhookId": 13,
+  "Name": "Quigley, McKenzie and Waelchi",
   "Events": [
-    "repellendus",
-    "dicta"
+    "soluta",
+    "harum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "voluptatem",
+  "Secret": "odit",
   "State": "Active",
-  "Type": "et",
+  "Type": "sint",
   "Headers": {
-    "Headers1": "optio",
-    "Headers2": "rem"
+    "Headers1": "necessitatibus",
+    "Headers2": "odio"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2020-07-05T17:37:39.6084366+02:00",
+  "Registered": "2018-05-26T14:19:11.0855578+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2006-03-09T17:37:39.6094309+01:00",
+  "Updated": "1998-06-16T14:19:11.0855578+02:00",
   "UpdatedAssociate": null,
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

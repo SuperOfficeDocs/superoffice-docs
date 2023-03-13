@@ -2304,352 +2304,199 @@ title: Services85.ProjectAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Project">
-    <wsdl:documentation>
-      <summary>Declaration of Wcf web services for Project</summary>
-    </wsdl:documentation>
     <wsdl:operation name="CreateDefaultProjectEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new ProjectEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/CreateDefaultProjectEntity" name="CreateDefaultProjectEntityRequest" message="tns:CreateDefaultProjectEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/CreateDefaultProjectEntityResponse" name="CreateDefaultProjectEntityResponse" message="tns:CreateDefaultProjectEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveProjectEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing ProjectEntity or creates a new ProjectEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/SaveProjectEntity" name="SaveProjectEntityRequest" message="tns:SaveProjectEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/SaveProjectEntityResponse" name="SaveProjectEntityResponse" message="tns:SaveProjectEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteProjectEntity">
-      <wsdl:documentation>
-        <summary>Deletes the ProjectEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/DeleteProjectEntity" name="DeleteProjectEntityRequest" message="tns:DeleteProjectEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/DeleteProjectEntityResponse" name="DeleteProjectEntityResponse" message="tns:DeleteProjectEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultProjectEventEntity">
-      <wsdl:documentation>
-        <summary>Loading default values into a new ProjectEventEntity.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/CreateDefaultProjectEventEntity" name="CreateDefaultProjectEventEntityRequest" message="tns:CreateDefaultProjectEventEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/CreateDefaultProjectEventEntityResponse" name="CreateDefaultProjectEventEntityResponse" message="tns:CreateDefaultProjectEventEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveProjectEventEntity">
-      <wsdl:documentation>
-        <summary>Updates the existing ProjectEventEntity or creates a new ProjectEventEntity if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/SaveProjectEventEntity" name="SaveProjectEventEntityRequest" message="tns:SaveProjectEventEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/SaveProjectEventEntityResponse" name="SaveProjectEventEntityResponse" message="tns:SaveProjectEventEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteProjectEventEntity">
-      <wsdl:documentation>
-        <summary>Deletes the ProjectEventEntity</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/DeleteProjectEventEntity" name="DeleteProjectEventEntityRequest" message="tns:DeleteProjectEventEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/DeleteProjectEventEntityResponse" name="DeleteProjectEventEntityResponse" message="tns:DeleteProjectEventEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultProjectMember">
-      <wsdl:documentation>
-        <summary>Loading default values into a new ProjectMember.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/CreateDefaultProjectMember" name="CreateDefaultProjectMemberRequest" message="tns:CreateDefaultProjectMemberRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/CreateDefaultProjectMemberResponse" name="CreateDefaultProjectMemberResponse" message="tns:CreateDefaultProjectMemberResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveProjectMember">
-      <wsdl:documentation>
-        <summary>Updates the existing ProjectMember or creates a new ProjectMember if the id parameter is empty.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/SaveProjectMember" name="SaveProjectMemberRequest" message="tns:SaveProjectMemberRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/SaveProjectMemberResponse" name="SaveProjectMemberResponse" message="tns:SaveProjectMemberResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteProjectMember">
-      <wsdl:documentation>
-        <summary>Deletes the ProjectMember</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/DeleteProjectMember" name="DeleteProjectMemberRequest" message="tns:DeleteProjectMemberRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/DeleteProjectMemberResponse" name="DeleteProjectMemberResponse" message="tns:DeleteProjectMemberResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProject">
-      <wsdl:documentation>
-        <summary>Gets a Project object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProject" name="GetProjectRequest" message="tns:GetProjectRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectResponse" name="GetProjectResponse" message="tns:GetProjectResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectEntity">
-      <wsdl:documentation>
-        <summary>Gets a ProjectEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectEntity" name="GetProjectEntityRequest" message="tns:GetProjectEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectEntityResponse" name="GetProjectEntityResponse" message="tns:GetProjectEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddProjectMembers">
-      <wsdl:documentation>
-        <summary>Add multiple project members to a project</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/AddProjectMembers" name="AddProjectMembersRequest" message="tns:AddProjectMembersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/AddProjectMembersResponse" name="AddProjectMembersResponse" message="tns:AddProjectMembersResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteProjectMembers">
-      <wsdl:documentation>
-        <summary>Delete the given project members from a project</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/DeleteProjectMembers" name="DeleteProjectMembersRequest" message="tns:DeleteProjectMembersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/DeleteProjectMembersResponse" name="DeleteProjectMembersResponse" message="tns:DeleteProjectMembersResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectImage">
-      <wsdl:documentation>
-        <summary>Returns the project image that is displayed in the CRM application.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectImage" name="GetProjectImageRequest" message="tns:GetProjectImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectImageResponse" name="GetProjectImageResponse" message="tns:GetProjectImageResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetProjectImage">
-      <wsdl:documentation>
-        <summary>Stores the project image that is displayed in the CRM application.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/SetProjectImage" name="SetProjectImageRequest" message="tns:SetProjectImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/SetProjectImageResponse" name="SetProjectImageResponse" message="tns:SetProjectImageResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteProjectMemberByIds">
-      <wsdl:documentation>
-        <summary>Deletes projectmembers rows.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/DeleteProjectMemberByIds" name="DeleteProjectMemberByIdsRequest" message="tns:DeleteProjectMemberByIdsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/DeleteProjectMemberByIdsResponse" name="DeleteProjectMemberByIdsResponse" message="tns:DeleteProjectMemberByIdsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDuplicates">
-      <wsdl:documentation>
-        <summary>Get duplicates(exact or similar in the database) based on the name</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetDuplicates" name="GetDuplicatesRequest" message="tns:GetDuplicatesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetDuplicatesResponse" name="GetDuplicatesResponse" message="tns:GetDuplicatesResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateNewEntry">
-      <wsdl:documentation>
-        <summary>Creates a new project based on external duplicate</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/CreateNewEntry" name="CreateNewEntryRequest" message="tns:CreateNewEntryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/CreateNewEntryResponse" name="CreateNewEntryResponse" message="tns:CreateNewEntryResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetDuplicateRulesStatus">
-      <wsdl:documentation>
-        <summary>Set which duplicate rules should be active or not</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/SetDuplicateRulesStatus" name="SetDuplicateRulesStatusRequest" message="tns:SetDuplicateRulesStatusRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/SetDuplicateRulesStatusResponse" name="SetDuplicateRulesStatusResponse" message="tns:SetDuplicateRulesStatusResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDuplicateRules">
-      <wsdl:documentation>
-        <summary>Retrieve all available duplicate rules for project</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetDuplicateRules" name="GetDuplicateRulesRequest" message="tns:GetDuplicateRulesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetDuplicateRulesResponse" name="GetDuplicateRulesResponse" message="tns:GetDuplicateRulesResponse" />
     </wsdl:operation>
     <wsdl:operation name="Merge">
-      <wsdl:documentation>
-        <summary>Merge two projects into one, removing the source project in the process</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/Merge" name="MergeRequest" message="tns:MergeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/MergeResponse" name="MergeResponse" message="tns:MergeResponse" />
     </wsdl:operation>
     <wsdl:operation name="IsNumberValid">
-      <wsdl:documentation>
-        <summary>Checks if the number is unique or required.  The setting is configured from admin under system options.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/IsNumberValid" name="IsNumberValidRequest" message="tns:IsNumberValidRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/IsNumberValidResponse" name="IsNumberValidResponse" message="tns:IsNumberValidResponse" />
     </wsdl:operation>
     <wsdl:operation name="HasGuide">
-      <wsdl:documentation>
-        <summary>Does this project have a guide associated with its project type?</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/HasGuide" name="HasGuideRequest" message="tns:HasGuideRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/HasGuideResponse" name="HasGuideResponse" message="tns:HasGuideResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetNextMilestone">
-      <wsdl:documentation>
-        <summary>Next upcoming milestone appointment</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetNextMilestone" name="GetNextMilestoneRequest" message="tns:GetNextMilestoneRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetNextMilestoneResponse" name="GetNextMilestoneResponse" message="tns:GetNextMilestoneResponse" />
     </wsdl:operation>
     <wsdl:operation name="OfferAutoNextStatusOnApppointmentCompleted">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/OfferAutoNextStatusOnApppointmentCompleted" name="OfferAutoNextStatusOnApppointmentCompletedRequest" message="tns:OfferAutoNextStatusOnApppointmentCompletedRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/OfferAutoNextStatusOnApppointmentCompletedResponse" name="OfferAutoNextStatusOnApppointmentCompletedResponse" message="tns:OfferAutoNextStatusOnApppointmentCompletedResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetNextProjectStatus">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetNextProjectStatus" name="GetNextProjectStatusRequest" message="tns:GetNextProjectStatusRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetNextProjectStatusResponse" name="GetNextProjectStatusResponse" message="tns:GetNextProjectStatusResponse" />
     </wsdl:operation>
     <wsdl:operation name="HasGuideActivities">
-      <wsdl:documentation>
-        <summary>
-        </summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/HasGuideActivities" name="HasGuideActivitiesRequest" message="tns:HasGuideActivitiesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/HasGuideActivitiesResponse" name="HasGuideActivitiesResponse" message="tns:HasGuideActivitiesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectEvent">
-      <wsdl:documentation>
-        <summary>Gets a ProjectEvent object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectEvent" name="GetProjectEventRequest" message="tns:GetProjectEventRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectEventResponse" name="GetProjectEventResponse" message="tns:GetProjectEventResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectEventOnPerson">
-      <wsdl:documentation>
-        <summary>Gets a ProjectEvent object from a project and a person.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectEventOnPerson" name="GetProjectEventOnPersonRequest" message="tns:GetProjectEventOnPersonRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectEventOnPersonResponse" name="GetProjectEventOnPersonResponse" message="tns:GetProjectEventOnPersonResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectEventEntity">
-      <wsdl:documentation>
-        <summary>Gets a ProjectEventEntity object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectEventEntity" name="GetProjectEventEntityRequest" message="tns:GetProjectEventEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectEventEntityResponse" name="GetProjectEventEntityResponse" message="tns:GetProjectEventEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectEventEntityFromProjectId">
-      <wsdl:documentation>
-        <summary>Get a ProjectEventEntity based on a projectId.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectEventEntityFromProjectId" name="GetProjectEventEntityFromProjectIdRequest" message="tns:GetProjectEventEntityFromProjectIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectEventEntityFromProjectIdResponse" name="GetProjectEventEntityFromProjectIdResponse" message="tns:GetProjectEventEntityFromProjectIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="DeleteProjectEventEntityFromProjectId">
-      <wsdl:documentation>
-        <summary>Delete a project event based on a project id. Does not delete the project, but does delete the published and ExternalEvent and AudienceVisibility records.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/DeleteProjectEventEntityFromProjectId" name="DeleteProjectEventEntityFromProjectIdRequest" message="tns:DeleteProjectEventEntityFromProjectIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/DeleteProjectEventEntityFromProjectIdResponse" name="DeleteProjectEventEntityFromProjectIdResponse" message="tns:DeleteProjectEventEntityFromProjectIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectEventList">
-      <wsdl:documentation>
-        <summary>Gets an array of ProjectEvent objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectEventList" name="GetProjectEventListRequest" message="tns:GetProjectEventListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectEventListResponse" name="GetProjectEventListResponse" message="tns:GetProjectEventListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyProjectEvents">
-      <wsdl:documentation>
-        <summary>Gets all project events that belongs to the currently logged on user. The list of events are filtered by the Audience Visibility restrictions set when the project event is created.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetMyProjectEvents" name="GetMyProjectEventsRequest" message="tns:GetMyProjectEventsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetMyProjectEventsResponse" name="GetMyProjectEventsResponse" message="tns:GetMyProjectEventsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectEventsOnPerson">
-      <wsdl:documentation>
-        <summary>Gets all project events that belongs to the person specified. The list of events are filtered by the Audience Visibility restrictions set when the project event is created.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectEventsOnPerson" name="GetProjectEventsOnPersonRequest" message="tns:GetProjectEventsOnPersonRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectEventsOnPersonResponse" name="GetProjectEventsOnPersonResponse" message="tns:GetProjectEventsOnPersonResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectList">
-      <wsdl:documentation>
-        <summary>Gets an array of Project objects..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectList" name="GetProjectListRequest" message="tns:GetProjectListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectListResponse" name="GetProjectListResponse" message="tns:GetProjectListResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyProjects">
-      <wsdl:documentation>
-        <summary>Returning the projects belonging to an associate. If memberProjects is false only the projects where the associate is project responsible is returned, otherwise both the projects where the associate is project responsible and project member is returned.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetMyProjects" name="GetMyProjectsRequest" message="tns:GetMyProjectsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetMyProjectsResponse" name="GetMyProjectsResponse" message="tns:GetMyProjectsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyMemberProjects">
-      <wsdl:documentation>
-        <summary>Returning the projects where an user is project member.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetMyMemberProjects" name="GetMyMemberProjectsRequest" message="tns:GetMyMemberProjectsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetMyMemberProjectsResponse" name="GetMyMemberProjectsResponse" message="tns:GetMyMemberProjectsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectsFromPerson">
-      <wsdl:documentation>
-        <summary>Return all projects where the person is project member.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectsFromPerson" name="GetProjectsFromPersonRequest" message="tns:GetProjectsFromPersonRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectsFromPersonResponse" name="GetProjectsFromPersonResponse" message="tns:GetProjectsFromPersonResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectsFromContact">
-      <wsdl:documentation>
-        <summary>Returns all projects where the given contact has projectmembers.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectsFromContact" name="GetProjectsFromContactRequest" message="tns:GetProjectsFromContactRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectsFromContactResponse" name="GetProjectsFromContactResponse" message="tns:GetProjectsFromContactResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPublishedProject">
-      <wsdl:documentation>
-        <summary>Get published project by project id.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetPublishedProject" name="GetPublishedProjectRequest" message="tns:GetPublishedProjectRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetPublishedProjectResponse" name="GetPublishedProjectResponse" message="tns:GetPublishedProjectResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPublishedProjects">
-      <wsdl:documentation>
-        <summary>Get published projects by project ids.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetPublishedProjects" name="GetPublishedProjectsRequest" message="tns:GetPublishedProjectsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetPublishedProjectsResponse" name="GetPublishedProjectsResponse" message="tns:GetPublishedProjectsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetMyPublishedProjects">
-      <wsdl:documentation>
-        <summary>Get published projects from the logged in user.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetMyPublishedProjects" name="GetMyPublishedProjectsRequest" message="tns:GetMyPublishedProjectsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetMyPublishedProjectsResponse" name="GetMyPublishedProjectsResponse" message="tns:GetMyPublishedProjectsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPublishedProjectsOnPersonId">
-      <wsdl:documentation>
-        <summary>Get published projects where person  is a member</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetPublishedProjectsOnPersonId" name="GetPublishedProjectsOnPersonIdRequest" message="tns:GetPublishedProjectsOnPersonIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetPublishedProjectsOnPersonIdResponse" name="GetPublishedProjectsOnPersonIdResponse" message="tns:GetPublishedProjectsOnPersonIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectMember">
-      <wsdl:documentation>
-        <summary>Gets a ProjectMember object..</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectMember" name="GetProjectMemberRequest" message="tns:GetProjectMemberRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectMemberResponse" name="GetProjectMemberResponse" message="tns:GetProjectMemberResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectMembers">
-      <wsdl:documentation>
-        <summary>Returns an array of project members</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectMembers" name="GetProjectMembersRequest" message="tns:GetProjectMembersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectMembersResponse" name="GetProjectMembersResponse" message="tns:GetProjectMembersResponse" />
     </wsdl:operation>
     <wsdl:operation name="UpdateProjectMember">
-      <wsdl:documentation>
-        <summary>Updates a ProjectMember row.</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/UpdateProjectMember" name="UpdateProjectMemberRequest" message="tns:UpdateProjectMemberRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/UpdateProjectMemberResponse" name="UpdateProjectMemberResponse" message="tns:UpdateProjectMemberResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectMembersById">
-      <wsdl:documentation>
-        <summary>Returns an array of project members</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectMembersById" name="GetProjectMembersByIdRequest" message="tns:GetProjectMembersByIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/GetProjectMembersByIdResponse" name="GetProjectMembersByIdResponse" message="tns:GetProjectMembersByIdResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveProjectMembersFunctionAndComment">
-      <wsdl:documentation>
-        <summary>Saves role and comment on an array of projectmembers represented by ids</summary>
-      </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/SaveProjectMembersFunctionAndComment" name="SaveProjectMembersFunctionAndCommentRequest" message="tns:SaveProjectMembersFunctionAndCommentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services85/Project/SaveProjectMembersFunctionAndCommentResponse" name="SaveProjectMembersFunctionAndCommentResponse" message="tns:SaveProjectMembersFunctionAndCommentResponse" />
     </wsdl:operation>
@@ -3448,3 +3295,4 @@ title: Services85.ProjectAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

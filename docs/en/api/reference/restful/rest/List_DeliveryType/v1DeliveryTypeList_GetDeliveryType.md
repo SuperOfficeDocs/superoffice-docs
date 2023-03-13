@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 286,
-  "Name": "Wolff-Heller",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "UdListDefinitionId": 161,
-  "Rank": 630,
+  "Id": 788,
+  "Name": "Goodwin Group",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "UdListDefinitionId": 678,
+  "Rank": 85,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 469
+      "FieldType": "System.Int32",
+      "FieldLength": 212
     }
   }
 }

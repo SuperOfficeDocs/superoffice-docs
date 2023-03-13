@@ -102,31 +102,31 @@ OK
 POST /api/v1/Agents/Project/SaveProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 664,
-  "ContactId": 901,
-  "ProjectId": 569,
-  "ContactName": "Douglas Group",
+  "ProjectmemberId": 101,
+  "ContactId": 53,
+  "ProjectId": 344,
+  "ContactName": "Luettgen-Parisian",
   "ContactDepartment": "",
-  "ProjectName": "Flatley, Hartmann and Borer",
-  "EmailId": 439,
-  "EmailAddress": "tommie_predovic@hagenes.info",
-  "CountryId": 135,
-  "Firstname": "Wiley",
-  "MiddleName": "Brekke, Beatty and Hyatt",
-  "Lastname": "Osinski",
-  "PersonId": 661,
-  "Mrmrs": "quam",
-  "ProjectMemberTypeName": "Gerhold-Erdman",
-  "Phone": "(433)819-1286",
-  "PhoneId": 972,
-  "ProjectMemberTypeId": 863,
-  "EmailAddressName": "kamron@farrell.com",
-  "Comment": "ducimus",
-  "FullName": "Corine Luettgen"
+  "ProjectName": "Raynor-Jacobs",
+  "EmailId": 642,
+  "EmailAddress": "tod_okuneva@reichert.info",
+  "CountryId": 789,
+  "Firstname": "Hudson",
+  "MiddleName": "Wyman, Wilkinson and Cassin",
+  "Lastname": "Borer",
+  "PersonId": 952,
+  "Mrmrs": "esse",
+  "ProjectMemberTypeName": "Kirlin LLC",
+  "Phone": "(441)962-0325 x131",
+  "PhoneId": 471,
+  "ProjectMemberTypeId": 768,
+  "EmailAddressName": "jaden.greenholt@eichmannhackett.com",
+  "Comment": "modi",
+  "FullName": "Betsy Erdman"
 }
 ```
 
@@ -137,33 +137,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 178,
-  "ContactId": 864,
-  "ProjectId": 9,
-  "ContactName": "Bogisich, Dare and Conn",
+  "ProjectmemberId": 395,
+  "ContactId": 618,
+  "ProjectId": 651,
+  "ContactName": "Beahan Group",
   "ContactDepartment": "",
-  "ProjectName": "Pagac LLC",
-  "EmailId": 479,
-  "EmailAddress": "maximillia@zemlak.us",
-  "CountryId": 378,
-  "Firstname": "Laisha",
-  "MiddleName": "Langosh, Schultz and Klocko",
-  "Lastname": "Fahey",
-  "PersonId": 670,
-  "Mrmrs": "voluptatem",
-  "ProjectMemberTypeName": "Stiedemann Inc and Sons",
-  "Phone": "004-177-9553 x803",
-  "PhoneId": 187,
-  "ProjectMemberTypeId": 176,
-  "EmailAddressName": "jalon.gleason@smith.name",
-  "Comment": "et",
-  "FullName": "Mrs. Cassie Lesch",
+  "ProjectName": "Hansen Inc and Sons",
+  "EmailId": 383,
+  "EmailAddress": "lydia_bayer@cartwrightohara.info",
+  "CountryId": 635,
+  "Firstname": "Hortense",
+  "MiddleName": "Hessel-Ritchie",
+  "Lastname": "Mann",
+  "PersonId": 437,
+  "Mrmrs": "incidunt",
+  "ProjectMemberTypeName": "Medhurst-Quitzon",
+  "Phone": "429.830.5903",
+  "PhoneId": 885,
+  "ProjectMemberTypeId": 378,
+  "EmailAddressName": "norris_gorczany@durgannitzsche.ca",
+  "Comment": "praesentium",
+  "FullName": "Ms. Constantin Crooks",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 252
+      "FieldType": "System.Int32",
+      "FieldLength": 487
     }
   }
 }

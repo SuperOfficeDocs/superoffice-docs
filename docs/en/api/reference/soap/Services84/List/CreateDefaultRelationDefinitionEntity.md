@@ -11,10 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.CreateDefaultR
 
 ## CreateDefaultRelationDefinitionEntity
 
-Loading default values into a new RelationDefinitionEntity.
-NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-**Returns:** New RelationDefinitionEntity with default values
+
+
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -47,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultRelationDefinitionEntity Response
 
 ```xml
@@ -76,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
