@@ -6,6 +6,7 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: sale, SAINT
 so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -15,7 +16,7 @@ language: en
 
 The **Description** tab shows the description you entered when you [created the status][1].
 
-**Steps:**
+## Steps
 
 <!-- markdownlint-disable-file MD029 -->
 [!include[Open SAINT](includes/open-saint-select-tab.md)]

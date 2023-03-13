@@ -20,7 +20,7 @@ When you are finished and have confirmed that you will use SharePoint, the state
 
 It is possible to change some of the settings in the Wizard later
 
-**Steps:**
+Steps:**
 
 1. [!include[Open preferences](includes/open-preferences.md)]
 2. Select the **Document library** tab.
@@ -73,7 +73,7 @@ If you plan not to use "Visible for", do not select this option.
 2. To set permissions for documents in SharePoint, we need read/write permissions for the selected site. This is a one-time authorization and will include only the site you selected for your SuperOffice documents.
 
     > [!NOTE]
-    > Only a Microsoft 365 Global Administrator can authorize these permissions. In addition, the Microsoft 365 Global Administrator must be a member of the owner group of the site, since site owner permissions are required to set read/write permissions.
+    > Only a Microsoft 365 Global Administrator can authorize these permissions. In addition, the Microsoft 365 Global Administrator must be a member of the owner group of the site, because site owner permissions are required to set read/write permissions.
 
     Do one of the following:
 

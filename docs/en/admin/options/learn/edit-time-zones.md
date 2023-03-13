@@ -4,8 +4,8 @@ title: Available time zones web
 description: Available time zones web
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: time zone
+so.topic: howto
 language: en
 ---
 
@@ -15,7 +15,7 @@ SuperOffice CRM is supplied with a list containing all available time zones. You
 
 1. Open the **Options** screen.
 2. Select the **Time zones** tab. This contains the names of all available time zones.
-3. Select the time zones you want to display in SuperOffice CRM, in the left-hand column of the list.
+3. In the left column, select the time zones you want to display in SuperOffice CRM.
 
 > [!TIP]
 > Use the **Filter** field to search for particular time zones.

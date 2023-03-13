@@ -3,7 +3,7 @@ uid: help-en-chat-channel-create
 title: Create a chat channel
 description: Create a chat channel
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.22.2023
 keywords: chat
 so.topic: howto
 so.user: admin
@@ -13,6 +13,13 @@ language: en
 # Create a chat channel
 
 You can create chat channels for specific uses, such as technical support, product inquiries and sales support, and assign the relevant agents to each channel.
+
+Watch this video to learn how to set up and configure your chat widget (video length - 4:37):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://youtu.be/94uhmeP1Xig]
+
+## Steps
 
 1. SuperOffice CRM: Click the **Chat** button in the Navigator ![icon][img2].
     SuperOffice Service: Select ![icon][img1] **System settings > Chat**.
@@ -58,7 +65,7 @@ The following fields are available in the **Chat widget layout** tab:
 
 **Show logo**: Select this option to display an image in the header of the chat window. To add an image, click the link or drag and drop an image file.
 
-**Show agent photo**: Select this option to display the agent's photo in the chat window. Once an agent responds to a new chat, the header logo and header text is replaced by the agent's photo and name.
+**Show agent photo**: Select this option to display the agent's photo in the chat window. After an agent responds to a new chat, the header logo and header text is replaced by the agent's photo and name.
 
 **Header**: Enter a short welcome text to display in the chat window header.
 

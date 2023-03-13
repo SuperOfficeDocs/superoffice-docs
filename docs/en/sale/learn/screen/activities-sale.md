@@ -21,7 +21,7 @@ The following columns are displayed on the **Activities** section tab:
 
 * The second column contains icons that indicate the type of activity, one category for each of the different types. For example, a telephone icon indicates a phone call. These icons reflect the text in the **Type** column.
 
-    <details><summary>Click here to see a list of the different icons</summary>
+    <details><summary>See a list of the different icons</summary>
 
     [!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
     </details>
@@ -34,7 +34,7 @@ The following columns are displayed on the **Activities** section tab:
 
 ## Show all follow-ups and documents
 
-By default, the activities for the current sales stage are shown in the lower half, but you can choose to show all activities and documents for all stages by checking **Show all stages** at the bottom right of the section tab. You can also show the follow-ups and documents for one of the stages by clicking the button with the name of the stage.
+By default, the activities for the current sales stage are shown in the lower half, but you can choose to show all activities and documents for all stages by checking **Show all stages** at the lower right of the section tab. You can also show the follow-ups and documents for one of the stages by clicking the button with the name of the stage.
 
 You can go to the next stage by selecting it in the **Stage** list on the main card.
 
@@ -58,8 +58,8 @@ A sales guide where all follow-ups and documents for all stages are displayed:
 
 <!-- Referenced links -->
 [1]: ../../../diary/learn/change-completed-status.md
-[2]: ../../../learn/getting-started/changing-column-view.md
-[7]: ../../../learn/getting-started/using-filter-function-contact.md
+[2]: ../../../learn/section-tabs/configure-columns.md
+[7]: ../../../learn/section-tabs/filter.md
 [3]: ../../../learn/activity/view-activities.md
 [4]: ../../../learn/activity/delete-activities-contact.md
 [5]: ../../../learn/activity/replying-to-email-from-activities-section-tab.md

@@ -15,21 +15,21 @@ language: en
 
 Here you can view the details of the selected screen.
 
-* **Edit screen**: Click here to edit the screen. See [Screen properties][1].
+* **Edit screen**: Used to edit the screen. See [Screen properties][1].
 
-* **Edit language**: Click here to edit screen texts for the available languages. Select a language tab and edit the available texts.
+* **Edit language**: Used to edit screen texts for the available languages. Select a language tab and edit the available texts.
 
-* **New element**: Click here to add a new element to the screen. See element properties below.
+* **New element**: Used to add a new element to the screen. See element properties below.
 
-* **New script**: Click here to add a new script. Here you can enter a script to be run when the user clicks the button.
+* **New script**: Used to add a new script. Here you can enter a script to be run when the user clicks the button.
 
-* **New macro**: Click here to [add a new macro][5].
+* **New macro**: Used to [add a new macro][5].
 
-* **Show screen**: Click here to show the screen.
+* **Show screen**: Shows the screen.
 
-* **Design mode**: Click here to show the screen in design mode (see below).
+* **Design mode**: Shows the screen in design mode (see below).
 
-* **List mode**: Click here to list all the screen elements in a list, as opposed to design mode.
+* **List mode**: Shows all the screen elements in a list, as opposed to design mode.
 
 ## Button script properties
 

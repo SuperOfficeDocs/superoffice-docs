@@ -4,8 +4,8 @@ title: Navigate in diary
 description: Navigate in diary
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: diary, follow-up
+so.topic: howto
 language: en
 ---
 
@@ -17,7 +17,7 @@ There are different ways of navigating in the diary.
 
 * Click the word **Diary** in the Navigator and select a time period from the list that appears, or click **Today** or **This week** to move to the current day or week.
 
-* Click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the bottom right of the Diary.
+* Click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the lower right of the Diary.
 
 * (if open) click a day or week in the day, week or month view in the side panel.
 
@@ -25,7 +25,7 @@ There are different ways of navigating in the diary.
 
 ## Switch views
 
-The diary consists of [four different tabs][1]: **Day** tab, **Week** tab, **Month** tab and **View** tab. Switching between these views is easy: simply click the tabs at the top of the **Diary** screen. The relevant day, week or month is displayed at the top of the page, depending on which tab you select.
+The diary consists of [four different tabs][1]: **Day** tab, **Week** tab, **Month** tab and **View** tab. Switching between these views is easy: simply click the tabs at the top of the Diary screen. The relevant day, week or month is displayed at the top of the page, depending on which tab you select.
 
 > [!TIP]
 > Click **Diary** in the navigator and click a month, week number or a day in the calendar to move directly to one of the tabs above.

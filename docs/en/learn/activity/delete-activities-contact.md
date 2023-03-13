@@ -17,7 +17,7 @@ language: en
 
 1. Select the required activity.
 
-1. Click **Delete** at the bottom left under the section tabs.
+1. Click **Delete** at the lower left under the section tabs.
 
 1. When asked if you really want to delete the activity, click **Yes**.
 

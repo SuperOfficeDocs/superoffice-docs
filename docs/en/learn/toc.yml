@@ -4,53 +4,7 @@ items:
   - name: Get started
     href: getting-started/toc.yml
   - name: Learn the basics
-    items:
-    - name: Favourites
-      href: getting-started/fav.md
-    - name: Delete an element
-      href: getting-started/deleting-elements.md
-    - name: Restore deleted companies and contacts
-      href: getting-started/restore-deleted-companies-and-contacts.md
-    - name: Duplicates
-      href: getting-started/duplicates.md
-    - name: Refresh data
-      href: getting-started/refresh-data.md
-    - name: Bulk update
-      href: getting-started/bulk-update.md
-    - name: Tooltip
-      href: getting-started/info-box.md
-    - name: Visibility
-      href: ../admin/user-management/learn/visibility.md
-    - name: Work with the Section tabs
-      href: getting-started/section-tabs.md
-      items:
-      - name: Sorting lists
-        href: getting-started/sorting-lists.md
-      - name: Changing the column view
-        href: getting-started/changing-column-view.md
-      - name: Use column filters in the section tabs
-        href: getting-started/use-column-filters-in-section-tabs.md
-      - name: Adjusting column widths
-        href: getting-started/adjusting-column-widths.md
-      - name: Grouping lists
-        href: getting-started/sections-tabs-grouping-lists.md
-      - name: Use filters in the section tabs
-        href: getting-started/use-filters-in-section-tabs.md
-      - name: Filter activities and sales
-        href: getting-started/using-filter-function-contact.md
-      - name: Export section tabs
-        href: getting-started/export-archives.md
-      - name: Adjusting views in Settings and maintenance
-        href: getting-started/adjusting-views.md
-    - name: Work with activities
-      href: activity/toc.yml
-  
-    - name: Language and translation
-      href: ../globalization-and-localization/learn/toc.yml
-  
-    - name: External applications and URL addresses
-      href: getting-started/external-applications-and-url-addresses.md
-
+    href: basics/toc.yml
   - name: Search options
     href: ../search-options/learn/toc.yml
   - name: Dashboard
@@ -105,9 +59,9 @@ items:
     - name: Preferences
       href: ../admin/preferences/learn/toc.yml
     - name: Privacy
-      href: ../security/privacy/learn/toc.yml
+      href: ../security/privacy/learn/admin/toc.yml
     - name: Quote/Sync
-      href: ../quote/learn/quote-sync/toc.yml  
+      href: ../quote/learn/admin/toc.yml  
 
     - name: Workflow
       items:
@@ -190,7 +144,6 @@ items:
 
     - name: SAINT (Sales intelligence)
       href: ../sale/saint/learn/admin/toc.yml
-      topicHref: ../sale/saint/learn/admin/index.md
 
     - name: Onsite
       items:
@@ -204,6 +157,8 @@ items:
   - name: Administration and system settings
     href: administration.yml
     items:
+    - name: Adjusting views in Settings and maintenance
+      href: ../admin/learn/adjusting-views.md
     - name: User management
       href: ../admin/user-management/learn/toc.yml
     - name: Licenses

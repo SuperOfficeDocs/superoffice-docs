@@ -4,8 +4,8 @@ title: Using search criteria
 description: Using search criteria
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: search, criteria, find
+so.topic: howto
 language: en
 ---
 
@@ -14,6 +14,13 @@ language: en
 You use search criteria to define what you are looking for, for example "companies with an address in Denmark". Search criteria are used in multiple places in SuperOffice CRM, for instance in the **Find** screen and when creating selections. But, regardless of what you are using the criteria for, you work with them in the same way.
 
 Everywhere you can enter search criteria, you will find a criteria list containing the selected search criteria.
+
+Typical searches are there to help you get started and create your own search of CRM data. After you have selected a typical search, you can add and edit the search criteria. And after you have created a useful search that you'd like to use again, you can save it as a selection.
+
+Watch this video to learn how to do a typical search and modify it by adding new search criteria or follow the step-by-step guide below (video length – 3:01):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://youtu.be/gx-vXm-b_7g]
 
 ## Add search criteria
 
@@ -39,7 +46,7 @@ Everywhere you can enter search criteria, you will find a criteria list containi
 
     * <details><summary>Yes/No field</summary>
 
-        If the field you are searching in is a Yes/No field, for example, the **No mailings** field in the **Company** screen, two radio buttons are displayed. You can choose between **Yes** and **No**.
+        If the field you are searching in is a Yes/No field, for example, the **No mailings** field in the Company screen, two radio buttons are displayed. You can choose between **Yes** and **No**.
 
     </details>
 
@@ -49,13 +56,13 @@ Everywhere you can enter search criteria, you will find a criteria list containi
 
         [!include[Search criteria](../../learn/includes/list-date-criteria.md)]
 
-        Select the required option. Depending on what you select, the field at the far right of the line is automatically filled with a date or date range, or you can enter the date you want. You can also select a date in the calendar which is displayed when you click the arrow button ![icon][img1].
+        Select the required option. Depending on what you select, the field is automatically filled with a date or date range, or you can enter the date you want. You can also select a date in the calendar which is displayed when you click the arrow button ![icon][img1].
 
     </details>
 
     * <details><summary>Number field</summary>
 
-        If the field you are searching in contains a numerical value, for example, the **Amount** field in the **Sale** screen, a list box is displayed containing the following options:
+        If the field you are searching in contains a numerical value, for example, the **Amount** field in the Sale screen, a list box is displayed containing the following options:
 
         [!include[Search criteria](../../learn/includes/table-number-criteria.md)]
 
@@ -65,7 +72,7 @@ Everywhere you can enter search criteria, you will find a criteria list containi
 
     * <details><summary>List field</summary>
 
-        If the field you are searching in is a field containing lists, for example, the **Business** field in the **Company** screen, a list box appears with the options **Is one of** and **Is not one of**.
+        If the field you are searching in is a field containing lists, for example, the **Business** field in the Company screen, a list box appears with the options **Is one of** and **Is not one of**.
 
         Click the **Select items** field to display the list of values.
 
@@ -89,7 +96,7 @@ Everywhere you can enter search criteria, you will find a criteria list containi
 
         Counters can be, for example, the number of sales in a period or the date of the last completed sale.
 
-        <details><summary>Click here to see some examples of statuses.</summary>
+        <details><summary>See examples of statuses.</summary>
 
         [!include[Examples](../../learn/includes/status-examples.md)]
         </details>
@@ -147,7 +154,7 @@ The criteria lists contain a set of default criteria you can edit or remove as r
 * [Use the Find screen][1]
 
 <!-- Referenced links -->
-[1]: find-dialog.md
+[1]: find-screen.md
 [2]: using-fastsearcher.md
 
 <!-- Referenced images -->

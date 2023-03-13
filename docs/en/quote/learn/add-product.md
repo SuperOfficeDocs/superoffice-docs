@@ -5,7 +5,7 @@ description: Add products to quote
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: quote
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -42,7 +42,7 @@ In the **Add/edit product** dialog, you can add a product, and specify a quantit
 
 2. Start typing a product name in the **Product search** field to search for a product. Click the search icon ![icon][img1] to search for products using a variety of different criteria, for example, by product range, product groups/categories, name, and item codes. The search includes all active price lists with the applicable currency.
 
-3. Once you have found the products you want to add to the quote, select them (**Ctrl+click**), and click **OK**. The products are displayed in the **Products** tab (or in the tab for the alternative you have created).
+3. After you have found the products you want to add to the quote, select them (**Ctrl+click**), and click **OK**. The products are displayed in the **Products** tab (or in the tab for the alternative you have created).
 
 4. Double-click a product to change the quantity, discounts, and so on.
 

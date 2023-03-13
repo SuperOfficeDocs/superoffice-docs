@@ -5,4 +5,4 @@
 
 <!-- Referenced links -->
 [1]: ../configure-import-settings.md
-[3]: ../../../../security/privacy/learn/privacy.md
+[3]: ../../../../security/privacy/learn/index.md

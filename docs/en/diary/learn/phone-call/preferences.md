@@ -4,8 +4,8 @@ title: Phone preferences
 description: Phone preferences
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: diary, follow-up, phone, call, dial
+so.topic: howto
 language: en
 ---
 
@@ -13,7 +13,7 @@ language: en
 
 You can dial out from SuperOffice CRM in one of the following ways:
 
-* Click a telephone number in the **Company** screen
+* Click a telephone number in the Company screen
 * Click ![icon][img1] in a dialog.
 * Right-click a person in a section tab and selecting **Call *name***.
 * [Dial contacts][1].

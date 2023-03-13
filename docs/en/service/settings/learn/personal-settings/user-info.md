@@ -29,7 +29,7 @@ In the **User information** tab in the **Edit users** screen, you can edit the f
 
 * **Group**: The user group you belong to. User groups are used to administer which categories users are members of. You can choose a different user group in the list. To join additional groups, see [Other groups][3].
 
-* **New email address**: Here you enter the actual address in the left-hand field and the name of the person in the right-hand one and then click **Apply**.
+* **New email address**: Enter the actual address in the leftmost field. Then enter the name of the person and click **Apply**.
 
 <!-- Referenced links -->
 [1]: ../../../../learn/getting-started/login.md

@@ -4,8 +4,8 @@ title: Invoice statistics
 description: Invoice statistics
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: Service, statistics, invoice
+so.topic: reference
 language: en
 ---
 

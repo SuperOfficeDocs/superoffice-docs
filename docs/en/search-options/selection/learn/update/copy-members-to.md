@@ -5,7 +5,7 @@ description: Copying into selections
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: selection
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -31,7 +31,7 @@ You cannot copy a selection to an existing dynamic selection or combined selecti
 
 ## Why can't I opt to make the new selection dynamic?
 
-Since a dynamic selection does not contain any physical contacts, but just a set of search criteria, it is only when you copy a dynamic selection that you can choose between **Static** and **Dynamic** in the **Selection is** list box. If you copy a static selection, the **Selection is** list box will only contain the **Static** option.
+because a dynamic selection does not contain any physical contacts, but just a set of search criteria, it is only when you copy a dynamic selection that you can choose between **Static** and **Dynamic** in the **Selection is** list box. If you copy a static selection, the **Selection is** list box will only contain the **Static** option.
 
 To create a copy of a dynamic selection, you can use the **Copy the selection** function on the **Task** tab.
 

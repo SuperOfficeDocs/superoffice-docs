@@ -5,7 +5,7 @@ description: Requests tab
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: person, contact
-so.topic: help
+so.topic: reference
 language: en
 ---
 

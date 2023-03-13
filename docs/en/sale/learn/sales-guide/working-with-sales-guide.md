@@ -3,13 +3,22 @@ uid: help-en-working-with-sales-guide
 title: Working with sales guide
 description: Working with sales guide
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 02.16.2023
 keywords: sale
-so.topic: help
+so.topic: howto
 language: en
 ---
 
 # Work with sales guides
+
+The Sales guide will take you through the different stages of a predefined sales process, automatically provide suggestions and templates for documents that need to be created along the way, and highlight follow-up activities that need to be performed.
+
+If you haven't already done so, learn how to set up a Sales guide here. You can use the SuperOffice Sales guide or set up your own.
+
+Watch this video to learn how easy it is to use the Sales guide (video length - 1:24):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://youtu.be/IyETjAtn3po]
 
 ## Behavior when a sale has a guide
 
@@ -28,7 +37,7 @@ language: en
     > [!TIP]
     > To create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog][2] then opens.
 
-4. Once all follow-ups and documents for a stage are completed, go to the next stage on the main **Sale** card.
+4. After all follow-ups and documents for a stage are completed, go to the next stage on the main **Sale** card.
 
     > [!NOTE]
     > If you wish, you can go to the next stage without creating or performing all the follow-ups/documents in a stage.
@@ -95,12 +104,12 @@ You record a new sale and select the **Sale to new customer** sale type, which i
     2. Complete the rest of the information in the fields in the **Document** dialog.
     3. Click the **Create** button to create and send the email.
 
-3. Once the meeting has taken place, you want to confirm this in the sales guide.
+3. After the meeting has taken place, you want to confirm this in the sales guide.
 
     In the sales guide, check the box next to the **Customer meeting** follow-up.
 
     > [!TIP]
-    > You can also do this from the activities list in, for example, the **Diary** and the **Company** screens.
+    > You can also do this from the activities list in, for example, the Diary and the Company screens.
 
 ### The Quotation stage
 
@@ -165,12 +174,17 @@ You record a new sale and select the **Sale to new customer** sale type, which i
 You can now change the stage to **Sold**. After all the required follow-ups and documents for the sale are completed, you can set the sale status to completed.
 
 > [!TIP]
-> If you want the sale to remain visible in, for example, the **Activities** section tab in the **Sale** screen and the **Sales** section tab in the **Diary** screen, you must not set the sale to completed.
+> If you want the sale to remain visible in, for example, the **Activities** section tab in the Sale screen and the **Sales** section tab in the Diary screen, you must not set the sale to completed.
+
+## Related
+
+* [Set up a sales guide in Settings and maintenance][4]
 
 <!-- Referenced links -->
 [1]: ../../../document/learn/screen/index.md
 [2]: ../../../diary/learn/screen/dialog-for-followups.md
 [3]: ../../../document/learn/edit.md
+[4]: create.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/personal-settings-small.png

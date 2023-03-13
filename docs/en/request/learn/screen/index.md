@@ -11,7 +11,7 @@ language: en
 
 # Request screen
 
-The **Request** screen has the following sections:
+The Request screen has the following sections:
 
 * At the top of the screen, the request header contains basic information about the request.
 * Below the header is a row of buttons for performing tasks associated with requests, such as Reply, Reply all, Forward, and Add comment.

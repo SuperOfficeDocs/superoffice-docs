@@ -17,7 +17,7 @@ language: en
 
 1. [!include[Open Import](includes/open-import.md)]
 
-2. Click the Outlook icon ( ![icon][img2] ) under **Select an import source**. Outlook will open and a dialog is displayed while the export from Outlook is in progress.
+2. Click the ![icon][img2] Outlook icon under **Select an import source**. Outlook will open and a dialog is displayed while the export from Outlook is in progress.
 
     <details><summary>Is an error message displayed?</summary>
 

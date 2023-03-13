@@ -17,7 +17,7 @@ How this works varies slightly from report type to report type. To display cross
 * [Display labels][2]
 
 > [!TIP]
-> If you are not sure which report type you have, check the thumbnail at the top right of the **Reports** screen. [How][3].
+> If you are not sure which report type you have, check the thumbnail at the upper right of the **Reports** screen. [How][3].
 
 1. Select the required report.
 

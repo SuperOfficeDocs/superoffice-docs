@@ -18,7 +18,7 @@ In the **Extra menus** screen, you can add extra menus (buttons, menus, links, s
 * **Top menu**
 
 * The **Status** tile on the dashboard
-  * Actions buttons and menu buttons ( ![icon][img1] ) in the main screens
+  * Action buttons and ![icon][img1] menu button in the main screens
   * Menu buttons in the extra table view
 
 * **Navigator**

@@ -1,17 +1,17 @@
 ---
 uid: help-en-preferences-tab
 title: Preferences tab
-description: Preferences tab
+description: Administrators can set preferences for various functions in the system for specific users, user groups, or for the entire SuperOffice CRM (global preferences).
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+so.date: 02.23.2023
+keywords: preference, setting
+so.topic: concept
 language: en
 ---
 
 # Preferences
 
-In the **Preferences** tab you can specify settings for different parts of SuperOffice CRM, such as the number of items to display in the history list, the default type for new appointment, task and phone call, and the default currency in the **Sale** screen.
+In the **Preferences** tab you can specify settings for different parts of SuperOffice CRM, such as the number of items to display in the history list, the default type for new appointment, task and phone call, and the default currency in the Sale screen.
 
 Preferences that can be set only on a global (system) level, are located in the [Global preferences][1] tab.
 
@@ -27,8 +27,29 @@ The rest of the **Preferences** tab is divided into three main sections:
 > [!NOTE]
 > Preferences with active individual settings are shown in bold text in the preferences list.
 
-* At the top right, the description field shows a description of the preference currently selected in the **Preferences** list.
+* At the upper right, the description field shows a description of the preference currently selected in the **Preferences** list.
 * Below, the **Active settings** field shows the settings specified for the preference currently selected in the **Preferences** list. See [Active settings][2].
+
+## Groups of preferences
+
+* Contact
+* Default values
+* Diary
+* Email
+* Filter Dialog
+* Free-text search
+* Functions
+* Grouped lists
+* Marketing
+* Notifications via email + popup + SMS
+* Request
+* Sale
+* Sorting
+* System
+* Tooltip
+* Visual effects
+* Web server
+* Web Services
 
 ## Related topics
 

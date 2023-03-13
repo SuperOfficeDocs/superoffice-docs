@@ -4,8 +4,8 @@ title: Edit repeating follow-up
 description: Edit repeating follow-up
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: diary, follow-up, repeat, recur, instance
+so.topic: howto
 language: en
 ---
 

@@ -17,6 +17,6 @@ You can edit information about projects from the tabs in the project card.
 
 2. Click **Edit**.
 
-    The tabs in the **Project** screen change to edit mode. You can switch between the tabs without exiting edit mode.
+    The tabs in the Project screen change to edit mode. You can switch between the tabs without exiting edit mode.
 
 3. When you are done, click **Save** to close and save. Click **Cancel** to reject your changes.

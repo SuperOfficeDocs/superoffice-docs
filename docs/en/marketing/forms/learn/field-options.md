@@ -70,7 +70,7 @@ This is an overview of special options in some of the available fields.
 
 * **Rating**: A field where customers can rate for instance the service they received, using various rating types (stars, dice, 1-10 scale, and similar).
 
-* **Google reCAPTCHA**: The [reCAPTCHA feature][1] ("I’m not a robot" check-box) is a free Google service that will ensure that only real users can send in web forms. This prevents spam and automated bots from sabotaging your data collection.
+* **Google reCAPTCHA**: The [reCAPTCHA feature][1] ("I'm not a robot" check-box) is a free Google service that will ensure that only real users can send in web forms. This prevents spam and automated bots from sabotaging your data collection.
 
 ## View elements
 

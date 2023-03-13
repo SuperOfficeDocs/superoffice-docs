@@ -11,15 +11,15 @@ language: en
 
 # The Contact screen
 
-In the **Contact** screen, every record in the database is displayed like an index card, containing all information for that contact.
+In the Contact screen, every record in the database is displayed like an index card, containing all information for that contact.
 
-To move between contacts, click the previous/next buttons (![icon][img2] ![icon][img1]) at the bottom right of the cards
+To move between contacts, click the previous/next buttons (![icon][img2] ![icon][img1]) at the lower right of the cards
 
 You can [search][8] for specific contacts based on criteria that you specify. You can also write documents, generate follow-ups and create new contacts.
 
 ## Section tabs in the Contact screen
 
-The **Contact** screen contains the following section tabs with information linked to the current contact:
+The Contact screen contains the following section tabs with information linked to the current contact:
 
 | Section tab | Description |
 |---|---|

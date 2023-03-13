@@ -4,8 +4,8 @@ title: Change the end time for a follow-up in the Diary
 description: Change the end time for a follow-up in the Diary
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: diary, follow-up
+so.topic: howto
 language: en
 ---
 
@@ -13,7 +13,7 @@ language: en
 
 [!include[Note](includes/note-edit-followup.md)]
 
-In the **Diary** screen, you can change the end time for a follow-up without having to open it:
+In the Diary screen, you can change the end time for a follow-up without having to open it:
 
 1. Click the follow-up in the **Day** tab, **Week** tab or **View** tab.
 

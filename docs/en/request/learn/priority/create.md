@@ -6,8 +6,8 @@ author: HanneGunnarsson
 so.date: 07.03.2023
 keywords: request, priority
 so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 

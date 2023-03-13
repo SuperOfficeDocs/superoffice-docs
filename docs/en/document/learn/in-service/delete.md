@@ -4,8 +4,8 @@ title: Delete documents
 description: Delete documents
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: Service, document
+so.topic: howto
 language: en
 ---
 

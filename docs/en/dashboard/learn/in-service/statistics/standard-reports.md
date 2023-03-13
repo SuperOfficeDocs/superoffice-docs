@@ -4,8 +4,8 @@ title: Standard reports
 description: Standard reports
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: Service, report
+so.topic: concept
 language: en
 ---
 

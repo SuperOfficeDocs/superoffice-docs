@@ -1,19 +1,23 @@
 ---
 uid: help-en-chat
 title: Chat
-description: Chat
+description: Communicate with and help existing or potential customers through a chat widget on your website.
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.14.2023
 keywords: chat
-so.topic: help
+so.topic: concept
 language: en
 ---
 
 # Chat
 
-The **Chat** feature in SuperOffice allows your support agents and sales people to chat with customers, potential customers and other people via the chat widget/window on your web site. This feature can for instance be used for service/support and pre-sales, and it easily integrates with [FAQ][1], [documents/attachments][2] and [templates][3]. The chat feature can be set up with multiple chat channels for different topics, such as technical support, product questions and sales support.
+The **Chat** feature in SuperOffice allows your support agents and sales people to communicate with and help existing or potential customers and other people via the chat widget on your website. This feature can for instance be used for service/support and pre-sales. You can easily integrate[FAQ][1], [documents/attachments][2], and [templates][3] with the chat, letting your agents save time by using pre-defined texts to speed up their answers.
+
+The chat feature can be set up with multiple chat channels for different topics, such as technical support, product questions and sales support.
 
 Your agents can access chat via the Navigator in both SuperOffice CRM and SuperOffice Service.
+
+![The Chat screen consists of a Dashboard tab and a Chats tab -screenshot][img1]
 
 ## What would you like to do?
 
@@ -36,3 +40,4 @@ Your agents can access chat via the Navigator in both SuperOffice CRM and SuperO
 [9]: screen/index.md
 
 <!-- Referenced images -->
+[img1]: media/10-chat-mainpage.png

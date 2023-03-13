@@ -11,11 +11,11 @@ language: en
 
 # The Sale screen
 
-The **Sale** screen contains information about the sales entered into SuperOffice CRM. Each sale is displayed like an index card, showing all information about that sale.
+The Sale screen contains information about the sales entered into SuperOffice CRM. Each sale is displayed like an index card, showing all information about that sale.
 
-To move between sales, click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the bottom right of the cards.
+To move between sales, select ![icon][img2] / ![icon][img1] previous/next at the lower right of the cards.
 
-You can also [create a quote][1] in the **Quote** section tab in the **Sale** screen.
+You can also [create a quote][1] in the **Quote** section tab in the Sale screen.
 
 ## The Details tab
 
@@ -56,7 +56,7 @@ To remove a link, go to the **Links** tab, click **Edit**, click the delete butt
 
 ## Section tabs in the Sale screen
 
-The lower part of the **Sale** screen consists of section tabs.
+The lower part of the Sale screen consists of section tabs.
 
 * [Activities][6]
 * [Sales guide][3]

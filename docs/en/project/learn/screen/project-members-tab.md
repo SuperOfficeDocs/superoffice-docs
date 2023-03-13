@@ -11,7 +11,7 @@ language: en
 
 # Project members
 
-**Project Members** is one of the section tabs at the bottom of the **Project** screen. It contains information about participants in the active project. For each project member, information about company, contact name, function in the project, any comments, email address and telephone number is displayed.
+**Project Members** is one of the section tabs at the bottom of the Project screen. It contains information about participants in the active project. For each project member, information about company, contact name, function in the project, any comments, email address and telephone number is displayed.
 
 ## What would you like to do now?
 

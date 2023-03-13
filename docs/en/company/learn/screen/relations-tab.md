@@ -4,7 +4,7 @@ title: Relations tab (Company screen)
 description: Relations tab (Company screen)
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: company
+keywords: company, relation
 so.topic: reference
 language: en
 ---

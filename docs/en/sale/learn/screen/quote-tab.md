@@ -11,13 +11,13 @@ language: en
 
 # Quote (section tab in Sale)
 
-In the **Quote** section tab at the bottom of the **Sale** screen, you can display existing quotes or create new ones. The available options depend on whether the sale has a quote.
+In the **Quote** section tab at the bottom of the Sale screen, you can display existing quotes or create new ones. The available options depend on whether the sale has a quote.
 
 ## Sale without an existing quote
 
-**Create a new quote**: Click here to [create a quote][1] for this sale.
+**Create a new quote**: Used to [create a quote][1] for this sale.
 
-**Copy quote from another sale**: Click here to [use an existing quote][2] as the basis for a new quote.
+**Copy quote from another sale**: Used to [use an existing quote][2] as the basis for a new quote.
 
 ## Sale with an existing quote
 
@@ -31,7 +31,7 @@ On the right of the **Quote** section tab are the version, quote number and [sta
 
 The product list: If products were added to the quote, they are shown in the list. At the bottom of the list, the total price of the products in it is displayed.
 
-**Export**: Click here to export the product list to a spreadsheet.
+**Export**: Used to export the product list to a spreadsheet.
 
 * [The Edit quote dialog][8]
 * [Add/edit a product in the quote][7]

@@ -4,8 +4,8 @@ title: Statistics
 description: Statistics
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: Service, statistics
+so.topic: reference
 language: en
 ---
 

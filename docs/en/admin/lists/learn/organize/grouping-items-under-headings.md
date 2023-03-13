@@ -19,14 +19,14 @@ If you want a list with two levels, you must select headings for each individual
 
 1. Open the **Lists** screen.
 
-2. [!include[Click arrow and select](../includes/expand-list.md)] the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
+2. [!include[Click arrow and select](../includes/expand-list.md)] the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the lower right.
 
     > [!NOTE]
     > If this field is empty, [add headings first][1].
 
 3. Select the required item in the **Items** list.
 
-4. Check **Use grouping and user group filtering for this list** in the top right.
+4. Check **Use grouping and user group filtering for this list** in the upper right.
 
 5. Check the box next to the required heading name in the **Headings** list to specify that the selected list item will be displayed under it. The box will then be marked with a tick (![icon][img1]).
 
@@ -39,12 +39,12 @@ If you want a list with two levels, you must select headings for each individual
 
 1. Open the **Lists** screen.
 
-2. [!include[Click arrow and select](../includes/expand-list.md)] the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the bottom right.
+2. [!include[Click arrow and select](../includes/expand-list.md)] the required list. Any headings already specified for the selected list are displayed in the **Headings** list at the lower right.
 
     > [!NOTE]
     > If this field is empty, [add headings first][1].
 
-3. Check **Use grouping and user group filtering for this list** in the top right.
+3. Check **Use grouping and user group filtering for this list** in the upper right.
 
 4. Go to the **Headings** tab.
 

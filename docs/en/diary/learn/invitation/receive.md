@@ -4,8 +4,8 @@ title: Receive invitations
 description: Receive invitations
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: diary, follow-up
+so.topic: howto
 language: en
 ---
 
@@ -42,7 +42,7 @@ To get a better overview of your invitations, you can filter the view using thre
 * Check **Show repetitions** to show repeating follow-ups. If the invitation concerns a repeating follow-up, all instances of the follow-up are shown in the **Invitations** dialog. You can then either accept or decline them individually.
 
 > [!TIP]
-> It is often a good idea to check **Show repetitions** so you can decide if you are able to attend each individual meeting. To accept them all at once, uncheck **Show repetitions** again, select the row with the relevant follow-up and select **Accept**.
+> It is often a good idea to check **Show repetitions** so you can decide if you are able to attend each individual meeting. To accept all at the same time, uncheck **Show repetitions** again, select the row with the relevant follow-up and select **Accept**.
 
 Check all three to show all this information at the same time.
 
@@ -50,7 +50,7 @@ If you do not check any of these options, all that is displayed are follow-ups y
 
 ## <a id="accept" />Accept or decline invitations
 
-When you select one of the invitations in the top part of the dialog, its details are displayed underneath. The active follow-up is emboldened. Accept or decline the invitation by clicking **Accept** or **Decline**:
+When you select one of the invitations in the top part of the dialog, its details are displayed below. The active follow-up is emboldened. Accept or decline the invitation by clicking **Accept** or **Decline**:
 
 | Action | Description |
 |---|---|
@@ -58,7 +58,7 @@ When you select one of the invitations in the top part of the dialog, its detail
 | Decline | Says no to the selected invitation. A red cross is displayed to the left of your name in the list of participants in the bottom pane. The follow-up is removed from the **Invitations** dialog. The **Reason for declining** dialog opens, where you can enter why you are declining the invitation. |
 
 > [!TIP]
-> When you select an invitation in the **Invitations** dialog, the day in question is shown in the **Diary** screen in the background, so that you can check if you have other appointments.
+> When you select an invitation in the **Invitations** dialog, the day in question is shown in the Diary screen in the background, so that you can check if you have other appointments.
 If you have other overlapping appointments, a **Conflict** icon ![icon][img6] is also displayed in the preview in the **Invitations** dialog.
 
 ## Receive invitations to repeating follow-ups
@@ -68,7 +68,7 @@ If you select **Show repetitions** below the list of invitations, all instances 
 There are two ways to see if a [follow-up is recurring][3]:
 
 * The status icon ![icon][img5] is shown in the list of invitations.
-* You will see a 'repeat' icon at the top left of the bottom section of the dialog.
+* You will see a 'repeat' icon at the upper left of the bottom section of the dialog.
 
 Click **Close** to close the dialog.
 

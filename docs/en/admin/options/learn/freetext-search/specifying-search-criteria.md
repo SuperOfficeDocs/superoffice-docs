@@ -15,7 +15,7 @@ You can specify search criteria for both individual words (for example *Peter*) 
 
 [!include[Go to freetext search tab](../includes/goto-freetext.md)]
 
-1. Check that freetext search is enabled for SuperOffice CRM (see [Enable freetext search][1]).
+1. Check that [freetext search is enabled][1] for SuperOffice CRM.
 
 1. Choose one of the following for **Single-word search operator**:
 

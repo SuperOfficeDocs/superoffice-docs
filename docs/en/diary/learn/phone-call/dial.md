@@ -4,14 +4,14 @@ title: Dialling contacts
 description: Dialling contacts
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: diary, follow-up
+so.topic: howto
 language: en
 ---
 
 # Dial contacts
 
-If your IP phone solution is correctly configured (see [Phone preferences][1]), you can call a contact directly from SuperOffice CRM.
+If your [IP phone solution is correctly configured][1], you can call a contact directly from SuperOffice CRM.
 
 ## Dial a contact from the Appointment, Task, Phone Call and Document dialogs
 

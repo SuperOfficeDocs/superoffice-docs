@@ -5,13 +5,13 @@ description: Print contact info
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: person, contact, print
-so.topic: help
+so.topic: howto
 language: en
 ---
 
 # Print contact info
 
-You can print information about a contact from both the **Contact** screen and the **Company** screen.
+You can print information about a contact from both the Contact screen and the Company screen.
 
 ## To print from the Contact screen
 

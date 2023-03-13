@@ -5,7 +5,7 @@ description: Document dialog
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: document
-so.topic: help
+so.topic: concept
 language: en
 ---
 
@@ -14,7 +14,7 @@ language: en
 The central feature of the document function is the **Document** dialog, which you can open in different ways:
 
 * By selecting **New** > **Document**.
-* By opening an existing document][1].
+* By [opening an existing document][1].
 
 The dialog consists of a main section with general information about the document, and the following tabs with additional information:
 
@@ -70,7 +70,7 @@ Enter your own reference. The default entry for each template is defined in Supe
 
 ### Your ref
 
-Enter the addressee’s reference from their communication.
+Enter the addressee's reference from their communication.
 
 ### Visible for
 
@@ -92,7 +92,7 @@ If the document is checked out for editing, one of the following icons are displ
 
 ### Completed
 
-By default, the document is marked as completed (![icon][img4]), but you can remove this check mark if you wish (![icon][img5]). The document will then be displayed on the **Activities** section tab in the **Diary** screen until it is marked as completed.
+By default, the document is marked as completed (![icon][img4]), but you can remove this check mark if you wish (![icon][img5]). The document will then be displayed on the **Activities** section tab in the Diary screen until it is marked as completed.
 
 > [!NOTE]
 > You cannot edit a completed document until you have undone its **Completed** status. [How to change Completed status of an activity][7].
@@ -148,7 +148,7 @@ This tab displays any [user-defined fields][3] configured in SuperOffice Setting
 [6]: ../../../search-options/learn/using-fastsearcher.md
 [7]: ../../../diary/learn/change-completed-status.md
 [9]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
-[2]: ../../../learn/getting-started/linking-documents-to-follow-ups.md
+[2]: ../../../learn/activity/linking-documents-to-follow-ups.md
 [3]: ../../../custom-objects/learn/udef/index.md
 
 <!-- Referenced images -->

@@ -4,8 +4,8 @@ title: The Sales section tab (Diary)
 description: The Sales section tab (Diary)
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: diary, follow-up
+so.topic: reference
 language: en
 ---
 
@@ -20,7 +20,7 @@ The following data is displayed:
 * The date of the next activity recorded for the sale (the oldest follow-up that has not yet been completed)
 
     > [!TIP]
-    > To find out what this next follow-up is, double-click the sale to open the **Sale** screen. The follow-up can be viewed in the **Activities** section tab of the sale.
+    > To find out what this next follow-up is, double-click the sale to open the Sale screen. The follow-up can be viewed in the **Activities** section tab of the sale.
 
 * The current stage of the sale
 
@@ -34,7 +34,7 @@ The following data is displayed:
 
 * The sale date (estimated, sold or lost)
 
-* A status icon for the sale, showing if it is sold ![icon][img1], lost ![icon][img2] or stalled ![icon][img3] (if there is no icon, the sale is "open") (see [Stalled, sold and lost sales][4])
+* A [status icon for the sale][4], showing if it is sold ![icon][img1], lost ![icon][img2] or stalled ![icon][img3] (if there is no icon, the sale is "open")
 
 Sales not marked as completed are shown in this list.
 

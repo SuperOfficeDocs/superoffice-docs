@@ -75,7 +75,7 @@ When you create a quote with this sale type, the selected documents are added to
 
 ## Quote defaults
 
-Here you specify the following settings for quotes with this sale type:
+Settings for quotes with this sale type:
 
 * **Allow alternatives to be added to quote**: Check here if users are to be allowed to add several alternatives to a quote.
 * **Default days a quote is valid**: Enter the number of days a quote will remain valid for. This value can be changed when the quote is sent.

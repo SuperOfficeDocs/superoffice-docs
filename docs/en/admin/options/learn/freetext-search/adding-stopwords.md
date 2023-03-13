@@ -16,7 +16,7 @@ language: en
 
 [!include[Go to freetext search tab](../includes/goto-freetext.md)]
 
-1. Check that freetext search is enabled for SuperOffice CRM (see [Enable freetext search][2]).
+1. Check that [freetext search is enabled][2] for SuperOffice CRM.
 
 1. Click the **Add** button below the stopword list.
 

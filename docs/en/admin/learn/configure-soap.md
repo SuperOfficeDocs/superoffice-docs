@@ -25,7 +25,7 @@ language: en
 5. Click the **Add** button to add the IP address range to the list below.
 
 > [!TIP]
-> To delete an IP address range from the list, click the delete icon ( ![icon][img1] ).
+> To delete an IP address range from the list, click the ![icon][img1] delete icon.
 
 <!-- Referenced links -->
 

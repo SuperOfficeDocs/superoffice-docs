@@ -19,7 +19,7 @@ To illustrate this functionality, we will add a new navigator group in the navig
 
 3. Enter "Websites" in the **Label** field (maximum 14 characters).
 
-4. Optional: Click the button **Browse** to the right of the **URL to icon** field to select an icon for the navigator group. You can select an image that is already available in the database or upload an image. The image should have a size of 36x36 pixels, so that it is correctly shown in the navigator. You select the image and change the size in the same dialog box.
+4. Optional: Click the button **Browse** to the right of the **URL to icon** field to select an icon for the navigator group. You can select an image that is already available in the database or upload an image. The image should have a size of 36x36 pixels, so that it is correctly shown in the navigator. You select the image and change the size in the same dialog.
 
 5. Click **Position** to choose where the new navigator group should be positioned (0 = top).
 

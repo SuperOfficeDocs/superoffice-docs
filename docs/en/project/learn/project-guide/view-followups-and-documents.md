@@ -5,7 +5,7 @@ description: View followups and documents
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: CRM
-so.topic: help
+so.topic: howto
 language: en
 ---
 

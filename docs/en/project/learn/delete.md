@@ -12,7 +12,7 @@ language: en
 # Delete project a whole project and associated data
 
 1. [!include[Go to project](includes/goto-project.md)]
-2. Click the **Task** button (![icon][img1]).
+2. Click the ![icon][img1] **Task** button.
 3. Select **Delete 'project name'**.
 4. When you are asked if you really want to delete the project, click **Yes**.
 

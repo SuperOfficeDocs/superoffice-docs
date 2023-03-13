@@ -1,10 +1,10 @@
 ---
 uid: help-en-dashboard-tile-sales-targets
 title: Using sales targets in tiles
-description: Using sales targets in tiles
+description: Use dashboards and tiles to compare your sales targets to your actual sales.
 author: SuperOffice RnD
 so.date: 12.13.2022
-keywords: dashboard
+keywords: dashboard, sale, target, chart
 so.topic: howto
 language: en
 ---
@@ -12,6 +12,10 @@ language: en
 # Using targets in tiles
 
 If [sales targets][4] are defined for your company, teams/groups and/or sales people, you can add these targets to your dashboard tiles. You will then get a visual presentation of your actual sales and your targets.
+
+To be able to visualize your targets in a dashboard, you first need to add or edit the tiles in the dashboard. After you have chosen the correct tile, you can edit the tiles' layout and chart type.
+
+![Choose the Layout tab and select Compare to target in the Grouping section -screenshot][img7]
 
 ## Add tile with sales targets to dashboard
 
@@ -66,11 +70,29 @@ If [sales targets][4] are defined for your company, teams/groups and/or sales pe
 
 13. Click **Save**. Then click **Done**.
 
+## Why can't I select Compare to target?
+
+If you see the field Compare to target, but it is disabled, you can hover your mouse over the field to see a tooltip that explains what you need to change to enable and select the field.
+
+![Hover over the Compare to target field to see a tooltip -screenshot][img8]
+
+Is the Compare to target not visible at all, make sure that you have selected the correct chart type and you have used the Sales date as criteria in the Dataset tab.
+
+## Related
+
+* [Add new dashboard][5]
+* [Edit or create tiles][2]
+* [Set up sales targets][7]
+* [Dashboard data][6]
+
 <!-- Referenced links -->
 [1]: edit-tile.md
 [2]: ../../search-options/learn/using-search-criteria.md
 [3]: ../../globalization-and-localization/learn/translate-fields.md
-[4]: ../../sale/learn/sales-targets.md
+[4]: ../../sale/learn/sales-targets/index.md
+[5]: create.md
+[6]: working-with-tiles.md
+[7]: ../../sale/learn/sales-targets/create.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/az.png
@@ -79,3 +101,5 @@ If [sales targets][4] are defined for your company, teams/groups and/or sales pe
 [img4]: ../../../../common/icons/bar.png
 [img5]: ../../../../common/icons/gauge.png
 [img6]: ../../../../common/icons/edit-pen.png
+[img7]: media/user-dashboard-tile-comparetotarget.png
+[img8]: media/user-dashboard-tile-disabled-comparetotarget.png

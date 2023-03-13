@@ -4,10 +4,10 @@ title: Adding items to the web panel list
 description: Adding items to the web panel list
 author: SuperOffice RnD
 so.date: 01.20.2023
-keywords: Settings and maintenance, list, web panel
-so.topic: help
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+keywords: list, web panel
+so.topic: howto
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -42,15 +42,15 @@ If SuperOffice CRM for Web is installed on an HTTP site, use "normal" HTTP URLs.
 
     * **Navigator button**: select this option to make the URL accessible as a button in the navigator in SuperOffice CRM.
 
-    * **Panel**: select an option in this list box to make the URL accessible as a panel/tab in SuperOffice CRM. <details><summary> Click here to find out more about the different options.</summary>
+    * **Panel**: select an option in this list box to make the URL accessible as a panel/tab in SuperOffice CRM. <details><summary> Find out more about the different options.</summary>
 
-      * **Company card**, **Contact card**, **Project card**, **Selection card** and **Sale card**: a shortcut to the URL address is added at the top of the **www** tab in the **Company**, **Contact**, **Project**, **Selection** and **Sale** screens. When you click a shortcut in SuperOffice CRM, the web page in question is displayed in a small scrollable window in the tab. You can then also click **Open in separate window** to view the web page in a separate browser window.
-      * **Web panel on SuperOffice button**: the URL address is added in the web panel in SuperOffice CRM. The address can then be opened as an Internet page. If several URL addresses are defined for the web panel, they are shown as tabs on the right-hand side of the web panel. The Web panel is opened by clicking the SuperOffice logo at the top left in SuperOffice CRM.
-      * Section tabs in the **Company**, **Contact**, **Project** and **Sale** screens: the URL address is added as an extra section tab in the **Company/Contact/project/learn/Sale** screen. When you select the section tab in SuperOffice CRM, the URL opens. You can then also click **Open in separate window** to view the web page in a separate browser window.
+      * **Company card**, **Contact card**, **Project card**, **Selection card** and **Sale card**: a shortcut to the URL address is added at the top of the **www** tab in the Company, Contact, Project, Selection, and Sale screens. When you click a shortcut in SuperOffice CRM, the web page in question is displayed in a small scrollable window in the tab. You can then also click **Open in separate window** to view the web page in a separate browser window.
+      * **Web panel on SuperOffice button**: the URL address is added in the web panel in SuperOffice CRM. The address can then be opened as an Internet page. If several URL addresses are defined for the web panel, they are shown as tabs on the right side of the web panel. The Web panel is opened by clicking the SuperOffice logo at the upper left in SuperOffice CRM.
+      * Section tabs in the Company, Contact, Project, and Sale screens: the URL address is added as an extra section tab in the Company/Contact/project/learn/Sale screen. When you select the section tab in SuperOffice CRM, the URL opens. You can then also click **Open in separate window** to view the web page in a separate browser window.
 
       </details>
 
-    * **Dialog**: select an option in this list box to make the URL address accessible in a dialog. <details><summary> Click here to find out more about the different options.</summary>
+    * **Dialog**: select an option in this list box to make the URL address accessible in a dialog. <details><summary> Find out more about the different options.</summary>
 
       * **The Dialog for follow-ups**: a shortcut to the URL address is added at the top of the **www** tab in the **Appointment**, **Task** and **Phone Call** dialogs. You can then also click **Open in separate window** to view the web page in a separate browser window.
 
@@ -58,7 +58,7 @@ If SuperOffice CRM for Web is installed on an HTTP site, use "normal" HTTP URLs.
 
       </details>
 
-    * **Menu**: select an option in this list box to make the URL accessible on one of the menus in SuperOffice CRM. <details><summary> Click here to find out more about the different options.</summary>
+    * **Menu**: select an option in this list box to make the URL accessible on one of the menus in SuperOffice CRM. <details><summary>Find out more about the different options.</summary>
 
       * **Toolbox menu**: the URL address is displayed when the user clicks the **Tools** button  ![icon][img1] in the Navigator or selects **Other Applications** in SuperOffice CRM.
       * **View menu**: the URL address is displayed when the user selects **Other Applications** in SuperOffice CRM.

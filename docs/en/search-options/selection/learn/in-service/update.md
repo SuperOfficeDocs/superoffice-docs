@@ -21,7 +21,7 @@ If you checked **Show in left menu** when you created a selection, the name of t
 
 1. Select **Selections** > **List selections**. This takes you to the **List selections** screen.
 2. Point at the selection name, to make the icons appear to the right.
-3. Click the **Update number of results** icon ( ![icon][img1] ). The number in brackets next to the name is updated.
+3. Click the ![icon][img1] **Update number of results** icon. The number in brackets next to the name is updated.
 
 > [!TIP]
 > When you edit a selection, you can update the selection by clicking the **Execute** button in the **Edit selection** screen.

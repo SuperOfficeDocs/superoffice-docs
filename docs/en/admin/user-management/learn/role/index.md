@@ -3,9 +3,10 @@ uid: help-en-role
 title: Role
 description: Role
 author: SuperOffice RnD
-so.date: 12.30.2022
-keywords: Settings and maintenance, role, data object, user level
+so.date: 02.21.2023
+keywords: role, data object, user level
 so.topic: concept
+so.topic: admin
 language: en
 ---
 
@@ -13,7 +14,7 @@ language: en
 
 [!include[Requirement](../includes/note-anon-req.md)]
 
-Using role-based security in SuperOffice CRM, you can customize roles for different access levels in the company.
+Using role-based security in SuperOffice CRM, you can customize roles for different access levels in the company. The roles control the access rights the different users have in the SuperOffice CRM modules.
 
 A role describes two things:
 
@@ -42,6 +43,22 @@ Predefined roles are included with SuperOffice CRM. The **User levels 0–5** ro
 | Anonymous user | Anonymous user |
 | System user | System integration user. Overrides all security controls. This role is not visible and cannot be edited. |
 
+### User or Administrator role
+
+When giving access to someone new, you must specify their role – either a user or an administrator.
+
+Administrators have access to the Settings and maintenance section. This is where you can create users, adjust access rights and customize the CRM solution to your needs. If you want a user to have this access, give him or her user level 0.
+
+If you do not want users to have access to Settings and maintenance, assign user level 1 or higher, depending on the access they need.
+
+## Manage your roles
+
+In the Roles section, you can determine what type of access your users have to the different parts of SuperOffice CRM. You can also customize each user level by changing the Data rights and/or the different Functional rights.
+
+![The Roles section lets you determine what type of access your users have to the different parts of SuperOffice CRM -screenshot][img1]
+
+You can, for example, decide whether a person can delete, update, create, or read information on the Data rights tab. On the Functional rights tab you can allow different functional rights on the different roles, like Allow bulk update, or List administrator, by moving them to the right column for "This role can".
+
 ## Roles in Service
 
 [!include[Restricted access](../../../../learn/includes/note-insufficient-rights.md)]
@@ -67,3 +84,4 @@ Roles are used as a tool for administrating users. You can link different proper
 [5]: deleting-role.md
 
 <!-- Referenced images -->
+[img1]: media/manage-user-levels.png

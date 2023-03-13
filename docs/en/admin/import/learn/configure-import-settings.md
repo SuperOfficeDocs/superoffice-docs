@@ -3,13 +3,16 @@ uid: help-en-import-settings
 title: Import settings
 description: Import settings
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance, import
-so.topic: help
+so.date: 02.22.2023
+keywords: import
+so.topic: howto
+so.user: admin
 language: en
 ---
 
 # Configure import settings
+
+Adjusting the import settings will save you time and make it easier to import your data correctly.
 
 [!include[Back up database before import](includes/caution-backup-before-import.md)]
 
@@ -21,6 +24,12 @@ This applies to the following, among other things:
 * Contacts that are not linked to companies.
 * Legal basis and consent source for contacts.
 * Lists: Select the preferred method for managing list elements in the import. For example, new categories, business types and phone numbers, new product categories, product families and product types.
+
+## What to consider before you import your contact or product information
+
+* You can define what the system should do if you import contacts that already exist in SuperOffice CRM. The system can overwrite or skip updating – it is your choice.
+
+* You can choose to have the system create new categories automatically, if you use a category that does not exist in SuperOffice CRM in your import file.
 
 ## Typical scenarios
 
@@ -47,7 +56,7 @@ This applies to the following, among other things:
 ## Existing data
 
 | **Company** | **Address** | **VAT No.** | **Code** |
-| **Import (Excel/Outlook/Gmail** | ACME Inc. | Broadway 123 | 11223344 | - |
+| **Import Excel/Outlook/Gmail** | ACME Inc. | Broadway 123 | 11223344 | - |
 | **SuperOffice** | ACME Inc. | Main street 456 | - | ACME1 |
 
 ## Action
@@ -64,7 +73,7 @@ A duplicate occurs if you have the same record in the import file and in the dat
 
 Under **Company**, and **Contact**, and **Product** in the **Import settings** dialog, specify how duplicates are to be managed.
 
-1. Click the **Duplicate match** list box and select the field(s) that are to be used to identify duplicate companies or contacts.
+1. Click the **Duplicate match** list box and select the fields that are to be used to identify duplicate companies or contacts.
 
     > [!NOTE]
     > To avoid the risk of overwriting data, you should choose the option that is unique for each company, contact, and product.
@@ -163,6 +172,6 @@ The import source may, for example, contain product categories that are not regi
 * **Ignore - set to blank**: No new values will be added to SuperOffice.
 
 <!-- Referenced links -->
-[1]: ../../../security/privacy/learn/privacy.md
+[1]: ../../../security/privacy/learn/index.md
 
 <!-- Referenced images -->

@@ -18,7 +18,7 @@ If you are assigned the **Allow administration of external users** right in Supe
 
 1. Go to the company card for the company you want to manage external users for.
 
-    There are several ways to open the **Company** screen:
+    There are several ways to open the Company screen:
 
     * By clicking the **Company** button in the Navigator.
     * By using the [history list][1] or [FastSearcher][2].
@@ -46,7 +46,7 @@ Select the contact you want to remove the login for and click **Remove login**. 
 
 ## Filter the list
 
-Using the **Show** list box at the bottom right of the dialog, you can filter the list of contacts according to user status.
+Using the **Show** list box at the lower right of the dialog, you can filter the list of contacts according to user status.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/using-history-list.md

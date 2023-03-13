@@ -1,9 +1,9 @@
 ---
 uid: help-en-request-create
-title: Create request
-description: Create request
 author: HanneGunnarsson
-so.date: 02.14.2023
+title: Create a request
+description: Create a request
+so.date: 02.20.2023
 keywords: request
 so.topic: howto
 language: en
@@ -12,6 +12,11 @@ language: en
 # Create a request
 
 A request can arrive in the system via an email from the customer, or you can register it manually via the **New request** screen. This would be the case if a customer makes an enquiry by phone.
+
+In this video, you can see how you can add and edit any of the lists available as tags. The example used in this video is of the Company - Category list which has similar setup as Tag (video length - 3:00):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://youtu.be/2fIAT0-EjX0]
 
 ## Workflow
 
@@ -99,9 +104,9 @@ Whenever you are working on a request and suddenly receive a more urgent request
 
 The autosave function will automatically save your changes until you click **Send** or cancel the changes to your request.
 
-Autosaved information is placed in the local storage of your browser, so your data will even survive a browser crash, reboot, logout and login.
+The autosave function will automatically save your changes until you click **OK** to send or cancel the changes to your request. Autosaved information is placed in the local storage of your browser, so your data will even survive a browser crash, reboot, logout and login.
 
-The autosave feature is activated by default when you view and edit requests and reply/reply all).
+The autosave feature is activated by default when you view and edit requests and reply/reply all.
 
 ### Limitations
 

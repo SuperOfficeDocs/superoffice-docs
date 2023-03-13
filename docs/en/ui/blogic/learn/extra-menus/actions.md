@@ -14,7 +14,7 @@ language: en
 > [!NOTE]
 > You can also add a macro to the **Actions** button when you [create or edit a macro][1].
 
-To add a macro to the **Actions** button in the **Company** screen, **Contact** screen, **Request** screen, or **Message** tab:
+To add a macro to the **Actions** button in the Company screen, Contact screen, Request screen, or **Message** tab:
 
 1. Select ![icon][img3] **System design** > **Extra menus**.
 2. Click **Top menu** to display the sub-folders.

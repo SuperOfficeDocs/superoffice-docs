@@ -5,7 +5,7 @@ description: Selection
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: selection
-so.topic: help
+so.topic: concept
 language: en
 ---
 

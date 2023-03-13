@@ -50,15 +50,15 @@ Now we are going to amend slightly the standard report criteria, so that you can
 
 3. Select the **Sale: Owner** criterion in the criteria list and click the **Delete** button at the bottom. Your report will now include all sales, and not just sales where the user in question (you) is recorded as the owner.
 
-4. Double-click the **Sale: Status** criterion in the criteria list. The **Add/edit search criteria** dialog appears. Now we are going to change the **Sale: Status** criterion so that the report only contains sales which do *not* have the status **Open**.
+4. Double-click **Sale: Status** in the criteria list. The **Add/edit search criteria** dialog appears. Now we are going to change the **Sale: Status** criterion so that the report only contains sales that do not have the status **Open**.
 
     ![Add/edit search criteria -screenshot][img4]
 
 5. Click the arrow next to the **Is one of** field and change the value to **Is not one of**.
 
-6. Select the **Sold** criterion in the **Selected values** column and click the left-pointing arrow (![icon][img2]) between the columns. The criterion is moved over to the left-hand column.
+6. In the **Selected values** column, select **Sold** and click ![icon][img2]. The criterion is moved to the leftmost column.
 
-7. Select the **Open** criterion in the left-hand column and click the right-pointing arrow (![icon][img1]) between the columns. The criterion is moved over to the **Selected values** column. The report will now contain sales which do *not* have the status **Open**.
+7. In the leftmost column select **Open** and click ![icon][img1]. The criterion is moved to the **Selected values** column. The report will now contain sales that do not have the status **Open**.
 
 8. Click **OK**.
 

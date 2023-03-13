@@ -5,7 +5,7 @@ description: Edit contact
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: company
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -17,11 +17,11 @@ language: en
 
 1. Double-click the required contact.
 
-1. Click **Edit** in the contact card in the **Contact** screen.
+1. Click **Edit** in the contact card in the Contact screen.
 
 1. [Make the required changes][1].
 
-1. Finally, click the **Save** button to close the dialog and save your changes.
+1. Finally, click **Save** to close the dialog and save your changes.
 
 > [!NOTE]
 > Click **Cancel** to exit edit mode without saving your changes.

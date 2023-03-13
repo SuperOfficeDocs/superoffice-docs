@@ -4,20 +4,20 @@ title: Stop repeating follow-up
 description: Stop repeating follow-up
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: diary, follow-up, repeat, recur
+so.topic: howto
 language: en
 ---
 
 # Stop repeating follow-up
 
-1. Select the required follow-up in the Diary or on the **Activities** section tab in the **Company**, **Contact**, **Diary**, **Sale** or **Project** screens. The **Appointment**, **Task** or **Phone Call** dialog appears.
+1. Select the required follow-up in the Diary or on the **Activities** section tab in the Company, Contact, Diary, Sale, or Project screens. The **Appointment**, **Task** or **Phone Call** dialog appears.
 
 2. Select the **Details** tab.
 
 3. Click the link to the right of the **Recurrence** text.
 
-4. In the **Repeating follow-ups** dialog, click **Stop repeating** at the bottom left of the dialog.
+4. In the **Repeating follow-ups** dialog, click **Stop repeating** at the lower left of the dialog.
 
     The **Repeating follow-ups** dialog closes.
 

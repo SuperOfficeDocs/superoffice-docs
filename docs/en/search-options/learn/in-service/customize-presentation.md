@@ -23,11 +23,11 @@ Clicking the element profile button ![icon][img3] in the search results list tak
 
 2. Perform a search by entering criteria and clicking the **Search** button, so that the **Result** section appears.
 
-3. Click the element profile button ![icon][img3] on the far right of the column headings. The **Edit element profile** screen appears. This contains a list of the columns that have already been specified.
+3. Click the element profile button ![icon][img3] to the right of the column headers. The **Edit element profile** screen appears. This contains a list of the columns that have already been specified.
 
 4. If there is a **View functions** button below the list, simply go to the next item. But if there is a **Show fields** button, click this first.
 
-5. In the left-hand field below the list, enter the required column name.
+5. In the field at the lower-left corner of the list, enter the required column name.
 
 6. Click the list button ![icon][img6] next to the next field on the right, and select which field in the database you want to get data from.
 
@@ -49,8 +49,8 @@ You can also add functions, for example, a summary column in the search results 
 1. First follow the procedure above for adding a column called, for example, "Read by request handler", which gets information from the **Read by owner** field in the database.
 2. Use the up arrow ![icon][img8] to move this column until it is just below the **Created** (ticket.created_at) column.
 3. Click the **View functions** button.
-4. In the field on the far left below the list, enter the name you want to give the column that will contain the function.
-5. In the list box on the right of the name field, select the **Time difference** function.
+4. In the field below the list, enter the name you want to give the column that will contain the function.
+5. In the box on the right of the name field, select the **Time difference** function.
 6. In the next list box, select **Column 3**, corresponding to the **Created** column.
 7. In the next list box, select **Column 4**, corresponding to the **Read by request handler** column.
 8. Click **Add column** The new column containing the **Time difference** function is added at the bottom of the column list.

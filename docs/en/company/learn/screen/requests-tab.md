@@ -4,7 +4,7 @@ title: Requests tab
 description: Requests tab
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: company
+keywords: company, request
 so.topic: reference
 language: en
 ---

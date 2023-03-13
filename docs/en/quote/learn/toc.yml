@@ -7,8 +7,6 @@ items:
   href: create.md
 - name: Copy quote
   href: copy.md
-- name: Select ERP connection
-  href: choose-erp-connection.md
 - name: Add products
   href: add-product.md
 - name: Add alternatives

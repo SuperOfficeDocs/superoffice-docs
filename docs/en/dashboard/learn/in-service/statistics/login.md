@@ -4,8 +4,8 @@ title: Login statistics
 description: Login statistics
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: Service, statistics, login, user
+so.topic: howto
 language: en
 ---
 
@@ -19,7 +19,7 @@ This screen shows statistics for when the users log in and out of the system.
     * **Logged in**: Select an interval from the list.
     * **Origin equals**: Select where the users logged on from. Select blank to show all origins.
     * **Hide empty rows**: If enabled, then empty rows are ignored.
-    * **Add criteria**: Click here to add additional criteria.
+    * **Add criteria**: Used to add additional criteria.
 
 2. Click **OK** to view the statistics.
 

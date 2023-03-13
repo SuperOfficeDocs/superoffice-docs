@@ -22,7 +22,7 @@ Deleting a selection does not delete the actual records it contains. They will r
 
 1. Select **Selections** > **List selections**. This takes you to the **List selections** screen.
 2. Point at the selection name, to make the icons appear to the right.
-3. Click the **Edit selection** icon ( ![icon][img1] ). This takes you to the **Edit selection** screen.
+3. Click the ![icon][img1] **Edit selection** icon. This takes you to the **Edit selection** screen.
 4. Click **Delete**.
 5. When asked if you are sure you want to delete the selection, click **OK**.
 

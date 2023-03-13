@@ -1,9 +1,9 @@
 ---
 uid: help-en-request-tags
 title: Using tags in requests
-description: Using tags in requests
-author: HanneGunnarsson
-so.date: 06.29.2022
+description: Learn how to create and edit request tags in this how-to guide.
+author: Bergfrid Dias
+so.date: 02.23.2023
 keywords: request
 so.topic: howto
 language: en
@@ -11,7 +11,16 @@ language: en
 
 # Using tags in requests
 
-Tagging is a powerful tool for organising and finding requests in SuperOffice. You can create tags on the fly and tag any request with as many tags as you want. Using tags will simplify the way you search for, view and filter requests.
+Each company will want to use their own specific customer service request tags. Let us take a look at two types of tags that could be useful for you company:
+
+* You can set up tags for the different customer stages your company uses such as, for example, Free trial, Onboarding, Existing or Terminating;
+
+* You can create tags related to the department that should handle a specific type of request such as, for example, Finance, Marketing or Sales.
+You can add as many new tags as you like, and tags that become redundant can always be removed or changed.
+
+By default, there are no tags present in your SuperOffice CRM solution.
+
+Tagging is a powerful tool for organizing and finding requests in SuperOffice Service. You can create tags on the fly and tag any request with as many tags as you want. Using tags will simplify the way you search for, view and filter requests.
 
 ## Add/remove tags in multiple requests
 

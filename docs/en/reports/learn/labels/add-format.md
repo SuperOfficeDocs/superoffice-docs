@@ -14,7 +14,7 @@ language: en
 To print labels in a format different from those already available, you can define your own new format.
 
 1. [!include[How to-goto-reports](../includes/goto-reports.md)]
-2. Select the required report (see [Show report properties][1]).
+2. [Select the required report][1].
 3. Click the **Preview** button under the criteria list.
 4. In the dialog, click **Add**. The **Define Label Layout** dialog opens.
 5. In the **Name** field, enter a name for the new label format.

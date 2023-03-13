@@ -13,9 +13,9 @@ language: en
 
 In the **Inbox for email** tab is a list of the emails in the queue to be read in. The following options are also available from the **Actions** button (![icon][img1]):
 
-* **Export**: Click here to export the list to a file. You can choose from these formats: Excel, HTML and plain text.
+* **Export**: Used to export the list to a file. You can choose from these formats: Excel, HTML and plain text.
 
-* **Delete**: Click here to delete the selected emails.
+* **Delete**: Used to delete the selected emails.
 
     > [!NOTE]
     > You cannot undo this operation.

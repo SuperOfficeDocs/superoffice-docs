@@ -16,8 +16,8 @@ By default, the list in the **Associates** tab consists of the following columns
 | Column | Description |
 |---|---|
 | User ID | The user name assigned to the associate. |
-| First name | The user’s first name. |
-| Last name | The user’s last name. |
+| First name | The user's first name. |
+| Last name | The user's last name. |
 | Primary group | The primary group of the user. |
 | Role | The [role][7] assigned to the user. The role determines the user's access rights to data in SuperOffice CRM. |
 | User plan | The user plan assigned to the user, |
@@ -28,7 +28,7 @@ By default, the list in the **Associates** tab consists of the following columns
 
 ## User information
 
-On the right-hand side of the window, there is detailed information about the user selected in the list of associates.
+On the rightmost side of the window, there is detailed information about the user selected in the list of associates.
 
 The full name, email address and owning company is displayed at the top. At the bottom of this section, you can activate/deactivate the user in SuperOffice using the **Can log in** button. Click the **Task** button to access functions such as **Move user** and for sending welcome emails and emails for resetting passwords.
 
@@ -98,9 +98,9 @@ You can group the list of users by role, user plan, primary group, and similar. 
 [3]: ../move-user.md
 [4]: ../import-users.md
 [5]: ../../../../onsite/win-client/learn/logging-users-off.md
-[6]: ../../../../learn/getting-started/adjusting-views.md
+[6]: ../../../learn/adjusting-views.md
 [7]: ../role/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/cog-wheel.png
-[img2]: ../../../../../media/icons/column-header-filter.png
+[img2]: ../../../../../media/icons/filter-column.png

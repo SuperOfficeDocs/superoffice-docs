@@ -56,7 +56,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
     To add an attachment to the FAQ entry:
 
     1. Click **Choose file** next to **Attachment**.
-    2. Browse to the document you require in the dialog box that appears.
+    2. In the dialog, browse to the document you require.
     3. Click ![icon][img1] to add the attachment.
     4. Repeat this procedure to add more attachments.
     </details>
@@ -90,7 +90,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 3. Click the **New entry** button. This takes you to the **FAQ entry properties** screen.
 4. Follow the procedure above starting at step 3.
 
-Since the option to create FAQ entries this way is only available to administrators, there is no need for a separate publishing step in this process. The administrator can create and publish simultaneously.
+because the option to create FAQ entries this way is only available to administrators, there is no need for a separate publishing step in this process. The administrator can create and publish simultaneously.
 
 ## What would you like to do now?
 

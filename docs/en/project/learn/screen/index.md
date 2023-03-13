@@ -11,11 +11,11 @@ language: en
 
 # Project screen
 
-The **Project** screen contains information about the projects entered into SuperOffice CRM. Each project is displayed like an index card, showing all information about that project.
+The Project screen contains information about the projects entered into SuperOffice CRM. Each project is displayed like an index card, showing all information about that project.
 
 ![Project screen -screenshot][img3]
 
-To move backwards and forwards between projects, click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the bottom right of the cards
+To move backwards and forwards between projects, click the ![icon][img2] ![icon][img1] previous/next buttons at the lower right of the cards
 
 If you select a project type for which a [project guide][1] is defined, the **Project guide** tab is displayed on the section tab.
 
@@ -29,7 +29,7 @@ In the **Event** tab, you can specify settings for publishing events.
 |---|---|
 | Event | Here you check to indicate that the current project is an event. |
 | Event date | This field shows the date of the event. Click the arrow to select a date for the event. |
-| Published (From date and To date) | Here you can specify a precise time period the event ia visible to Audience users (requires a separate licence). Click the arrow next to each of the date fields to select a start and end date for publishing. If you do not enter dates in these fields, the project is published until is either unpublished or deleted from SuperOffice CRM (see [Create projects][2]). |
+| Published (From date and To date) | Here you can specify a precise time period the event ia visible to Audience users (requires a separate licence). Click the arrow next to each of the date fields to select a start and end date for publishing. If you do not enter dates in these fields, the [project is published][2] until is either unpublished or deleted from SuperOffice CRM. |
 | Visible for category | Check here if you want the event to be visible only to specific categories. Click the button ( ![icon][img5] ) to the right of the field to select the categories that the event is visible for. |
 | Visible for contact interest | Check here if you want the event to be visible only to contacts with specific interests. Click the button ( ![icon][img5] ) to the right of the field to select the interests that the event is visible for. |
 | Visible for project members | If checked, the event is visible only in Audience for the [project members][3] specified on the **Project members** section tab. |
@@ -56,7 +56,7 @@ Three of the user-defined fields from the **More** tab can also be displayed in 
 
 ## Section tabs in the Project screen
 
-The lower part of the **Project** screen consists of section tabs.
+The lower part of the Project screen consists of section tabs.
 
 * [Project guide][4] (if one is defined for the current project type)
 * [Project members][5]

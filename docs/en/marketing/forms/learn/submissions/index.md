@@ -11,7 +11,7 @@ language: en
 
 # Form submissions
 
-When a form is submitted from a Customer Centre or web site, the data is collected and displayed in the **Form submissions** tab. A red icon on the tab indicates new form submissions ![icon][img1].
+When a form is submitted from a Customer Centre or website, the data is collected and displayed in the **Form submissions** tab. A red icon on the tab indicates new form submissions ![icon][img1].
 
 In the **Form submissions** tab you can view all submitted forms. Use the filter options at the bottom of the list to view only submissions with specific statuses.
 

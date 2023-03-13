@@ -15,7 +15,7 @@ The object of deleting stopwords is to include them in freetext searches after h
 
 [!include[Go to freetext search tab](../includes/goto-freetext.md)]
 
-1. Check that freetext search is enabled for SuperOffice CRM (see [Enable freetext search][1]).
+1. Check that [freetext search is enabled][1] for SuperOffice CRM.
 
 1. Select the required stopword.
 

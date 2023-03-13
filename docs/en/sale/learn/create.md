@@ -1,24 +1,24 @@
 ---
 uid: help-en-sale-create
-title: Record a sale
-description: Record a sale
+title: Register a sale
+description: Register sales in SuperOffice Sales to have all your opportunities and customer information in one place. This how-to guide will show you how to register sales in four easy steps.
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 02.16.2023
 keywords: sale
 so.topic: howto
 language: en
 ---
 
-# Record a sale
+# Register a sale
 
-In the **Sale** screen you can enter information about sales on several levels, represented by the **Sale**, **Details**, **Links**, and **Note** tabs.
+In the Sale screen you can enter information about sales on several levels, represented by the **Sale**, **Details**, **Links**, and **Note** tabs.
 
-To edit an existing sale, browse to the sale and click **Edit** at the bottom of the **Sale** screen.
+Learn how to register and update a sale in this video or follow the guided steps below (video length - 2:10):
 
-> [!NOTE]
-> When you browse through sales using the arrow keys (or similar) and when you search for sales using FastSearcher, by default all sales are displayed. If you do not want to show completed sales (sold or lost), click ![icon][img1] **Task** and select **Skip completed sales**.
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://youtu.be/7Am9pqMyHSA]
 
-## Create the sale
+## Steps
 
 1. Click **New** on the top bar and select **Sale**.
 
@@ -37,6 +37,13 @@ To edit an existing sale, browse to the sale and click **Edit** at the bottom of
 4. Optionally, go to the **Details**, **Links**, or **Note** tab to [enter further information about the sale][1].
 
 5. After entering the required information in all the tabs, click **Save**. You have now created a sale card for the new sale.
+
+## Edit sale
+
+To edit an existing sale, browse to the sale and click **Edit** at the bottom of the Sale screen.
+
+> [!NOTE]
+> When you browse through sales using the arrow keys (or similar) and when you search for sales using FastSearcher, by default all sales are displayed. If you do not want to show completed sales (sold or lost), click ![icon][img1] **Task** and select **Skip completed sales**.
 
 ## What would you like to do now?
 

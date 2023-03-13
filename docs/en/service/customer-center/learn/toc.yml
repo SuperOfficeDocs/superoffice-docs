@@ -7,3 +7,7 @@ items:
   href: edit.md
 - name: Send passwords to contacts
   href: send-credentials.md
+- name: Enable chat
+  href: enable-chat.md
+- name: Link a web form
+  href: link-form.md

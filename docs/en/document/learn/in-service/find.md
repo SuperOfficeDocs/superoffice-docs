@@ -4,8 +4,8 @@ title: Search for documents
 description: Search for documents in Service
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: Service, document
+so.topic: howto
 language: en
 ---
 

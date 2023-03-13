@@ -18,7 +18,7 @@ The field consists of three columns:
 * **Who**: Shows who the setting applies to (the name of the system, database, group or user).
 
     > [!NOTE]
-    > If this is an individual user, a tooltip about this user will pop up when you hold the mouse pointer over the user’s initials in this column.
+    > If this is an individual user, a tooltip about this user will pop up when you hold the mouse pointer over the user's initials in this column.
 
 * **Level**: shows which [level the setting applies to][1] (system, database, group or user).
 
@@ -26,7 +26,7 @@ The field consists of three columns:
 
 The contents of these columns are defined in the **Setting** dialog. [How to add preference settings][2].
 
-You can sort the rows in the columns by clicking on the required column heading. Click the column heading once to sort in reverse order.
+You can sort the rows in the columns by clicking on the required column heading. Click the column heading onc to sort in reverse order.
 
 <!-- Referenced links -->
 [1]: levels-for-preference-settings.md

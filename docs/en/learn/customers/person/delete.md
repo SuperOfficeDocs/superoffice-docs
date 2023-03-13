@@ -11,7 +11,7 @@ language: en
 
 # Delete contacts
 
-1. Open the **Contact** screen.
+1. Open the Contact screen.
 2. Click the ![icon][img1] **Actions** button and select **Edit contact**. The **Contact properties** screen appears.
 3. Click the **Delete** button.
 4. Click **OK** to confirm.

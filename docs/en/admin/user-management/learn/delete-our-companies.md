@@ -26,7 +26,7 @@ If these two criteria are met, you can delete companies as follows:
 1. Open the **Users** screen.
 
     > [!NOTE]
-    > If you are using the Windows client, this setting is located in the **Options**. screen. To get there., click the **Options** button in the Navigator ( ![icon][img1] ).
+    > If you are using the Windows client, this setting is located in the **Options**. screen. To get there, click the ![icon][img1] **Options** button in the Navigator.
 
 2. Select the **Our companies** tab.
 

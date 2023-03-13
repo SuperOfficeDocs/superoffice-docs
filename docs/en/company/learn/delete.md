@@ -5,7 +5,7 @@ description: Deleting companies
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: company
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -28,8 +28,8 @@ language: en
 * [Delete records permanently][3]
 
 <!-- Referenced links -->
-[2]: ../../learn/getting-started/restore-deleted-companies-and-contacts.md
-[3]: ../../search-options/selection/learn/howto/deleting-companies-permanently.md
+[2]: ../../learn/basics/deleting-elements.md#restore
+[3]: ../../search-options/selection/learn/howto/mass-delete.md
 [4]: merge-companies.md
 
 <!-- Referenced images -->

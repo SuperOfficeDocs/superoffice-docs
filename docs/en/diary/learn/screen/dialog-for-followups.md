@@ -4,8 +4,8 @@ title: Dialog for followups
 description: Dialog for followups
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: diary, follow-up
+so.topic: reference
 language: en
 ---
 
@@ -121,7 +121,7 @@ For notification of the follow-up, check **Alarm**. If an [alarm is specified][5
 
 ### Owner
 
-Here you specify who owns the follow-up. The default is the user currently logged in. If you click the name next to the **Owner** field, you can transfer the appointment to another SuperOffice user. The **Assign to** dialog opens. Under the **Assign this follow-up to** field is a list box where you can select the required user group. Select the required user and click **OK** to save the changes and close the dialog.
+Specify who owns the follow-up. The default is the user currently logged in. If you click the name next to the **Owner** field, you can transfer the appointment to another SuperOffice user. The **Assign to** dialog opens. Under the **Assign this follow-up to** field is a list box where you can select the required user group. Select the required user and click **OK** to save the changes and close the dialog.
 
 > [!NOTE]
 > If a user is already occupied at the time in question, the word **CONFLICT** is displayed in the **Status** field. To hide users with conflicts, check **Hide conflict** at the bottom of the dialog.
@@ -147,7 +147,7 @@ Check here if you want the follow-up to be visible to external users.
 
 This tab contains a [list of participants][6] in the follow-up. Registered participants are marked with a dot.
 
-If you click the **View as group** button ![icon][img7] at the bottom right of the **Participants** tab, the **View** tab in the diary opens, giving you an overview of the [diaries of the invited associates][7] (SuperOffice users).
+If you click the **View as group** button ![icon][img7] at the lower right of the **Participants** tab, the **View** tab in the diary opens, giving you an overview of the [diaries of the invited associates][7] (SuperOffice users).
 
 ## The Links tab
 
@@ -165,7 +165,7 @@ This tab displays any [custom fields][14] configured in SuperOffice Settings and
 [5]: ../set-alarm.md
 [6]: ../invitation/index.md
 [7]: ../open.md
-[8]: ../../../learn/getting-started/linking-documents-to-follow-ups.md
+[8]: ../../../learn/activity/linking-documents-to-follow-ups.md
 [9]: ../video-meetings.md
 [10]: ../../../globalization-and-localization/learn/time-zones.md
 [11]: ../change-completed-status.md

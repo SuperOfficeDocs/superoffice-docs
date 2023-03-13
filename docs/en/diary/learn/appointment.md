@@ -4,8 +4,8 @@ title: Appointment
 description: Appointment
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: diary, follow-up, appointment, meeting
+so.topic: concept
 language: en
 ---
 
@@ -25,7 +25,7 @@ The default duration for an appointment is 1 hour, but you can change the durati
 
 <!-- markdownlint-disable MD032 -->
 [!include[List of Activities section tabs](../../learn/includes/list-activities-section-tabs.md)]
-* On the **Day**/**Week**/**Month**/**View** tabs in the **Diary** screen
+* On the **Day**/**Week**/**Month**/**View** tabs in the Diary screen
 * In these side panel views: **Day**, **Month**, **Next day** and **Week**
 <!-- markdownlint-restore -->
 

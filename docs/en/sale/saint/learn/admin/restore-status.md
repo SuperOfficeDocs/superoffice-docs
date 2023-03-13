@@ -4,8 +4,9 @@ title: Restore deleted status web
 description: Restore deleted status web
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance, sale, SAINT
-so.topic: help
+keywords: sale, SAINT
+so.topic: howto
+so.user: admin
 language: en
 ---
 

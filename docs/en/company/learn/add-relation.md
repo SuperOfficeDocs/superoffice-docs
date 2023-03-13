@@ -5,7 +5,7 @@ description: Add relation
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: company
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -37,7 +37,7 @@ language: en
     > [!NOTE]
     > The alternatives displayed in this list box also depend on if it is a relation between two companies, between a company and a contact, or between two contacts.
 
-1. Enter any additional information as free text in the **Description** field. If you type in anything here, a paperclip symbol ( ![icon][img1] ) is displayed on the relevant line in the **Relations** section tab.
+1. Enter any additional information as free text in the **Description** field. If you type in anything here, a ![icon][img1] paperclip symbol is displayed on the relevant line in the **Relations** section tab.
 
 1. The **Result** field is automatically updated according to the information in the **Relation** field. Example: If you selected "owns" as a relationship, the result will show who owns whom, and who is owned by whom.
 

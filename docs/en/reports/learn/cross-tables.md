@@ -29,7 +29,7 @@ To view a cross table report (.Dcube file), you must install the **CrossTable vi
 
 1. [!include[How to-goto-reports](includes/goto-reports.md)]
 
-2. Select the required cross table report (see [Show report properties][1]).
+2. [Select the required cross table report][1].
 
 3. Click the **Preview** button under the criteria list. The cross table report is generated.
 
@@ -64,7 +64,7 @@ Saving reports as files works slightly differently for cross table reports than 
 | Icon | Description |
 |---|---|
 | ![icon][img2] | Click this button to display a list box containing the different options for showing and hiding rows/columns. |
-| ![icon][img3] | Remove the check from this box if you don’t want rows and columns to be displayed in the cross table. |
+| ![icon][img3] | Remove the check from this box if you do not want rows and columns to be displayed in the cross table. |
 | ![icon][img4] | Click the plus sign to choose to display all the rows/columns in the list. |
 | ![icon][img5] | Click the minus sign to choose to hide all the rows/columns in the list. |
 | ![icon][img6] | Click the star to toggle between showing and hiding rows/columns. |

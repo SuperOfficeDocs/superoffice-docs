@@ -1,18 +1,18 @@
 ---
 uid: help-en-document-create
-title: Creating new documents
-description: Creating new documents
+title: Create new document
+description: Create a new document directly in SuperOffice CRM or upload existing ones, to make sure you and your colleagues always have access to the latest documents and versions. This how-to guide will show you how to do both.
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.10.2023
 keywords: document
-so.topic: help
+so.topic: howto
 language: en
 ---
 
 # Create new documents
 
 > [!TIP]
-> If you just want to upload a document, see [Upload documents][1].
+> Already have the document? See [Upload documents][1].
 
 Follow the instructions below, depending on how documents are managed in your SuperOffice installation:
 
@@ -57,14 +57,14 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 
     * **Open**: When you click **Open**, the document is opened in the text editing application. Type in the contents of the document and select **File** > **Save As** to save it in the desired location on your PC.
 
-    * **Save**: When you click **Save**, the **Save As** dialog appears. Here you specify where on the PC you want to save the file, and then click **Save** to start the download. Click **Close** when the download is finished. Open Windows Explorer and browse to the document you have just saved. Open the document, enter the required text and save the document.
+    * **Save**: When you click **Save**, the **Save As** dialog appears. Specify where on the PC you want to save the file, and then click **Save** to start the download. Click **Close** when the download is finished. Open Windows Explorer and browse to the document you have just saved. Open the document, enter the required text and save the document.
 
 6. Close the text-editing program.
 
 7. Go to the **Document** dialog.
 
     > [!NOTE]
-    > If **Completed** is checked ( ![icon][img1] ) in the **Document** dialog, the upload options are disabled. In that case, remove the **Completed** check mark.
+    > If ![icon][img1] **Completed** is checked in the **Document** dialog, the upload options are disabled. In that case, remove the **Completed** check mark.
 
 8. Click the link to upload the document.
     or drag and drop the document from Windows Explorer to the **Document** dialog.
@@ -90,11 +90,15 @@ With SuperOffice CRM, you can log in from any PC using a browser, but your docum
 ## Related topics
 
 * [WebTools][3]
+* [Send email attachments from SuperOffice][4]
+* [Manage document templates in Settings and maintenance][5]
 
 <!-- Referenced links -->
 [1]: upload.md
 [2]: screen/index.md
-[3]: web-tools.md
+[3]: ../../webtools/learn/index.md
+[4]: send-as-email.md
+[5]:
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/followup-completed-small.png

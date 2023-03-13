@@ -15,15 +15,15 @@ In the **Interface** tab in the **Edit users** screen, you can edit the followin
 
 * **Show the last message at the top**: Checking here causes the messages in a request to be sorted with the most recent at the top.
 
-* **Preview image attachments in messages**: Checking here causes images attached to messages to be previewed in the **Request** screen.
+* **Preview image attachments in messages**: Checking here causes images attached to messages to be previewed in the Request screen.
 
-* **No. of expanded messages**: Checking here allows you to specify, in the field next to the checkbox, the number of messages to be expanded in the **Request** screen.
+* **No. of expanded messages**: Checking here allows you to specify, in the field next to the checkbox, the number of messages to be expanded in the Request screen.
 
 * **New window when adding a message to a request**: Checking here causes a new browser window to be opened when the selected users click **Add message**.
 
-* **Width of text area**: Here you specify (as number of characters) the width of the text box where messages are entered.
+* **Width of text area**: Specify (as number of characters) the width of the text box where messages are entered.
 
-* **Height of text area**: Here you specify (as number of characters) the height of the text box where messages are entered.
+* **Height of text area**: Specify (as number of characters) the height of the text box where messages are entered.
 
 * **Don't show warning when data might be lost**: Checking here causes a warning not to be shown if there is a risk of losing data you have entered, for example, when you are exiting a screen without having saved any changes first.
 

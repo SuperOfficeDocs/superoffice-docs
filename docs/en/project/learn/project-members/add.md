@@ -22,10 +22,10 @@ To link the project to a company, you must specify at least one project member.
 3. Click the **Add** button below the section tab. The **Add project members** dialog opens.
 
     > [!NOTE]
-    > You can also [add project members via the section tabs](#from-section-tab) containing contacts in the **Company**, **Selection** and **Sale** screens.
+    > You can also [add project members via the section tabs](#from-section-tab) containing contacts in the Company, Selection, and Sale screens.
 
 4. In the **Company/contact** field:
-    * To select a contact from a company: Click the arrow and select the company you want in the list that appears, or type the name of the company. By default the company that is active in the **Company** screen is shown.
+    * To select a contact from a company: Click the arrow and select the company you want in the list that appears, or type the name of the company. By default the company that is active in the Company screen is shown.
     * To select a contact directly: Type the name of the contact (this applies to both contacts with and without an associated company), and click the name in the results list.
 
 5. In the **Project** field specify which project to add the project member(s) to by clicking the arrow and selecting the required project from the list.
@@ -39,10 +39,10 @@ To link the project to a company, you must specify at least one project member.
 
 8. In the **Function** field, specify the function each person has in the project. Click the arrow to display a list of predefined alternatives to choose from. These are defined in SuperOffice Settings and maintenance.
 
-9. In the large text box under **Comment**, enter a more detailed description of the person’s function within the project, if required.
+9. In the large text box under **Comment**, enter a more detailed description of the person's function within the project, if required.
 
     > [!NOTE]
-    > If you enter anything in this text box, a paperclip symbol ( ![icon][img1] ) is displayed in the **Project member information** column in the **Project Members** section tab. Position the mouse pointer over the paperclip to display a tooltip containing the comment.
+    > If you enter anything in this text box, a ![icon][img1] paperclip symbol is displayed in the **Project member information** column in the **Project Members** section tab. Position the mouse pointer over the paperclip to display a tooltip containing the comment.
 
 10. After entering the required information, click **OK**.
 
@@ -72,7 +72,7 @@ You can add project members and stakeholders from the contact lists in different
 
 <!-- Referenced links -->
 [2]: ../../../contact/learn/create.md
-[3]: ../../../search-options/learn/find-dialog.md
+[3]: ../../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.bmp

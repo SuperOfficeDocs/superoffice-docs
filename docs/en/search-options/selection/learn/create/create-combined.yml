@@ -3,7 +3,7 @@ uid: tutorial-selection-create-combined
 title: Tutorial - Create a combined selection
 metadata:
   title:  Tutorial - Create a combined selection
-  description: In this tutorial, you'll learn how to create a combined selection.
+  description: In this tutorial, you will learn how to create a combined selection.
   audience: User
   so.topic: tutorial
   so.date: 09.12.2022
@@ -18,7 +18,7 @@ items:
 
     1. Type the name of the new selection in the field containing *Selection name* . This field is mandatory.
 
-    1. In the **Selection of** field, choose what the selection is to contain. The choices here are limited to **Company/contact** and the type of selection you have selected. You cannot change this once it is saved to the database.
+    1. In the **Selection of** field, choose what the selection is to contain. The choices here are limited to **Company/contact** and the type of selection you have selected. You cannot change this after it is saved to the database.
 
     1. In the **Selection is** field, **Combined** is selected by default.
 

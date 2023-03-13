@@ -12,7 +12,7 @@ language: en
 # Display labels
 
 > [!TIP]
-> If you are not sure if your report is a label format, you can check the image at the top right in the **Reports** screen. [How][1].
+> If you are not sure if your report is a label format, you can check the image at the upper right in the **Reports** screen. [How][1].
 
 1. [!include[How to-goto-reports](../includes/goto-reports.md)]
 

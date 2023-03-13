@@ -25,5 +25,7 @@ items:
     href: follow-up/look-at-recipient-list.md
   - name: Manage bounces
     href: follow-up/manage-bounces.md
+  - name: Resend mailing
+    href: follow-up/resend.md
 - name: Settings for mailings
   href: admin/define-settings-for-mailings.md

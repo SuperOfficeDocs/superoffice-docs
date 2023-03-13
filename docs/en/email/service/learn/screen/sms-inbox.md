@@ -16,9 +16,9 @@ language: en
 
 In the **SMS inbox** tab is a list of the SMS messages in the queue to be read in. The following options are also available from the ![icon][img1] menu button:
 
-* **Export**: Click here to export the list to a file. You can choose from these formats: Excel, HTML and plain text.
+* **Export**: Used to export the list to a file. You can choose from these formats: Excel, HTML and plain text.
 
-* **Delete**: Click here to delete the selected messages.
+* **Delete**: Used to delete the selected messages.
 
     > [!NOTE]
     > You cannot undo this operation.

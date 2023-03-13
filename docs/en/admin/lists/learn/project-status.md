@@ -6,8 +6,8 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: project
 so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -15,7 +15,7 @@ language: en
 
 [!include[Edit list item](includes/edit-list-item.md)] when you are adding an item to the **Project - Status** list:
 
-1. Enter the name of the item in the **Name** field. This will be displayed in the option list for the **Status** field in the **Project** screen in SuperOffice CRM.
+1. Enter the name of the item in the **Name** field. This will be displayed in the option list for the **Status** field in the Project screen in SuperOffice CRM.
 
     > [!include[Mandatory](includes/note-mandatory-field.md)]
 

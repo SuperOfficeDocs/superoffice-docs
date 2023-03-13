@@ -29,7 +29,7 @@ You can use the **Search for sender** button to search for the precise email add
 
 ## Handle email from a sender with several listings
 
-If the sender is listed more than once in SuperOffice CRM, a dialog will appear informing you of this and allowing you to select the correct entry.
+If the sender is listed multiple times in SuperOffice CRM, a dialog will appear informing you of this and allowing you to select the correct entry.
 
 ## Handle an email from a sender not listed in SuperOffice
 
@@ -40,7 +40,7 @@ If the sender is not listed in SuperOffice CRM at all, you may add their email a
     * [Archive the email as activity][2]
     * [Archive attachments][3]
 
-2. If the sender of the email or attachment is not listed in SuperOffice CRM, a warning will appear at the top of the dialog for archiving email when you attempt to archive: **This sender's email address is not recognized. Click here to update SuperOffice with this email address**. Click the warning.
+2. If the sender of the email or attachment is not listed in SuperOffice CRM, a warning will appear at the top of the dialog for archiving email when you attempt to archive: "This sender's email address is not recognized. Click here to update SuperOffice with this email address". Click the warning.
 
 3. In the **Save email address** dialog, select one of the following radio buttons:
     * **Create new contact**: Click this option to [add the email address to a new contact](#new-contact).

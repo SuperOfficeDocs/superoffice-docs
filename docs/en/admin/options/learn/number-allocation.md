@@ -13,7 +13,7 @@ language: en
 
 You can define settings for counters in the **Number allocation** tab. In SuperOffice CRM, counters can apply to the following fields:
 
-* **Number** fields in the **Company** screen, the **Project** screen, the **Sale** screen and the **Contact** dialog.
+* **Number** fields in the Company screen, the Project screen, the Sale screen and the **Contact** dialog.
 
 * The **Our Ref.** field in the **Document** dialog if it is defined for the relevant template.
 

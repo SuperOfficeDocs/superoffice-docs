@@ -3,9 +3,9 @@ uid: help-en-document-library
 title: Document library
 description: Document library
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+so.date: 02.23.2023
+keywords: document
+so.topic: concept
 language: en
 ---
 
@@ -18,7 +18,13 @@ If your organization is using SharePoint, you can configure SuperOffice to use S
 > [!NOTE]
 > Before you can start this configuration, you must set up site permissions and library permissions in SharePoint.
 
-See [Configure SharePoint document library][1]
+## SharePoint document library integration
+
+SuperOffice's SharePoint document library integration lets you create, archive and share documents and emails effortlessly and securely.
+
+This integration allows you to store all documents and emails in SharePoint Online, where they can be accessed by everyone in the company, including even those who do not use SuperOffice CRM. The access to your SuperOffice document site in SharePoint can be controlled through domain groups (AAD = Azure active directory authentication).
+
+![On Preferences in Settings and maintenance you find the Document library where you can set up the SharePoint integration -screenshot][img1]
 
 ## Related topics
 
@@ -30,3 +36,4 @@ See [Configure SharePoint document library][1]
 [2]: ../../../document/cloud/overview.md
 
 <!-- Referenced images -->
+[img1]: media/admin-preferences-documentlibrary.png

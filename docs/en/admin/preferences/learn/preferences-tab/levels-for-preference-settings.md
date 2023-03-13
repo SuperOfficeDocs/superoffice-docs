@@ -1,11 +1,12 @@
 ---
-uid: help-en-levels-for-preference-settings
+uid: help-en-preference-levels
 title: Levels for preference settings
 description: Levels for preference settings
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+so.date: 02.23.2023
+keywords: preference, setting
+so.topic: concept
+so.user: admin
 language: en
 ---
 
@@ -27,6 +28,20 @@ You can specify different values for different levels so that, for example, you 
 
 > [!NOTE]
 > Not all levels are available for all preferences. If any of the options are disabled, you cannot choose them for the selected preference.
+
+## Global preferences (for the whole system)
+
+* Statistics
+* Functions
+* Email
+* Grouped lists
+* Marketing
+* Mobile CRM
+* Sale
+* SuperOffice Service system settings
+* System
+* SMS configuration
+* Customer Centre password policy
 
 ## What would you like to do now?
 

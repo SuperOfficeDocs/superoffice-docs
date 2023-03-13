@@ -64,7 +64,7 @@ You can also update several users at the same time.
 
     * **Group**: Select the user group] you want to assign to the selected users.
 
-    * **Default status for new request**: Select the default status to appear in the **Request** screen for the selected users.
+    * **Default status for new request**: Select the default status to appear in the Request screen for the selected users.
 
     * **Default status for new message**: Select the default status to appear in the **Add message** screen for the selected users.
 
@@ -72,7 +72,7 @@ You can also update several users at the same time.
 
     * **Sort messages in descending order**: Checking here causes the messages in a request to be sorted with the most recent at the top.
 
-    * **Preview image attachments in messages**: Checking here causes images attached to messages to be previewed in the **Request** screen.
+    * **Preview image attachments in messages**: Checking here causes images attached to messages to be previewed in the Request screen.
 
     * **New window when adding a message to a request**: Checking here causes a new browser window to be opened when the selected users add a message.
 

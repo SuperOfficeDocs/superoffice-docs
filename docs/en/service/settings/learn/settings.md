@@ -53,7 +53,7 @@ The **Settings** tab in the **System** screen contains the following options:
 
 * **<!-- onsite--> Use customer authentication from web server**: If checked, SuperOffice Service allows user authentication deriving from the customer centre web server (Microsoft IIS).
 
-* **<!-- onsite--> Online on the Internet**: Check here if SuperOffice Service is available on the Internet. This will control parts of the functionality available in SuperOffice Service, since some functionality actually requires the solution to be online.
+* **<!-- onsite--> Online on the Internet**: Check here if SuperOffice Service is available on the Internet. This will control parts of the functionality available in SuperOffice Service, because some functionality actually requires the solution to be online.
 
 * **Track all links**: Check here to track all links in mailings.
 

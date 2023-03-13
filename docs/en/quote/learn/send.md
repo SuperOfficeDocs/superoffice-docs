@@ -5,7 +5,7 @@ description: quote send
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: quote
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -18,7 +18,7 @@ After adding products to the quote and created a quote document, you can send th
 
     <details><summary>Is an error message displayed?</summary>
 
-    You cannot send a quote if it [needs to be approved][1]) or [contains errors or warnings][2]).
+    You cannot send a quote if it [needs to be approved][1] or [contains errors or warnings][2].
     </details>
 
 3. If required, edit the validity of the quote in the **Valid to** field. The number of days until the quote expires is shown on the right of the field.

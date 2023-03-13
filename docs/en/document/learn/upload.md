@@ -5,7 +5,7 @@ description: Upload documents
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: document
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -35,7 +35,7 @@ language: en
 [3]: open.md
 [4]: edit.md
 [5]: lock.md
-[6]: web-tools.md
+[6]: ../../webtools/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/followup-not-completed-small.png

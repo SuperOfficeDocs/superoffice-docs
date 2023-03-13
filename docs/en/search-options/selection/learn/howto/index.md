@@ -3,17 +3,21 @@ uid: help-en-selection-user
 title: Performing tasks using selections
 description: Performing tasks using selections
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.15.2023
 keywords: selection
-so.topic: help
+so.topic: howto
 language: en
 ---
 
 # Perform tasks using selections
 
-One of the objects of defining selections is to perform different tasks for the members or some of the members of the selection. In addition, these tasks are available from the list of results in the **Find** screen.
+Selection, either dynamic or static, is a good starting point to solve some of your work load. You can use the selections in different ways like mailing recipients, side-panel view and creating charts used in Dashboards. But you can also perform a lot of different tasks when working with selections, categorized by Mailing/Activities, Manage, Print/Export and Delete.
 
-![icon][img1]
+Depending on the archive you see, either Company/Contact or the other different types, you have different options in the Task menu. On a selection of contacts you can Generate follow-ups, on a project selection you can use the Bulk update to set the project as completed, or Export to Excel any archive you want.
+
+![You can perform many different tasks when working with selections -screenshot][img1]
+
+One of the objects of defining selections is to perform different tasks for the members or some of the members of the selection. In addition, these tasks are available from the list of results in the **Find** screen.
 
 The **Task** button contains tasks such as sending emails, mass-editing and exporting. Which tasks are displayed depends on what type of records the selection consists of (what is selected in the **Selection of** field) and which tab is active.
 
@@ -49,8 +53,7 @@ The **Task** button contains tasks such as sending emails, mass-editing and expo
 
 * [Print labels][9]
 * [Print company reports][10]
-* [Export to Excel][11]
-* [Export to file][12]
+* [Export to Excel or a file][12]
 
 ### Delete
 
@@ -58,18 +61,17 @@ The **Task** button contains tasks such as sending emails, mass-editing and expo
 * [Delete records permanently][13]
 
 <!-- Referenced links -->
-[1]: ../../../learn/find-dialog.md
+[1]: ../../../learn/find-screen.md
 [2]: create-mailings.md
 [3]: send-email.md
 [4]: generate-follow-ups.md
-[5]: ../../../../learn/getting-started/bulk-update.md
+[5]: ../../../../learn/basics/bulk-update.md
 [6]: ../update/index.md
 [7]: ../update/delete.md
 [9]: print-labels.md
 [10]: print-company-reports.md
-[11]: export-to-excel.md
-[12]: export-to-file.md
-[13]: deleting-companies-permanently.md
+[12]: export.md
+[13]: mass-delete.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/task.png
+[img1]: media/selection-task.png

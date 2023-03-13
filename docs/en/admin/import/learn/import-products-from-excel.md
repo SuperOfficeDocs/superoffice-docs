@@ -1,26 +1,34 @@
 ---
 uid: help-en-import-products-from-excel
 title: Import products from Excel
-description: Import products from Excel
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance, import
-so.topic: help
+description: In this how-to guide you will learn how you can import all your products, descriptions and product codes.
+author: Bergfrid Dias
+so.date: 02.22.2023
+keywords: import, product, Excel
+so.topic: howto
+so.user: admin
 language: en
 ---
 
 # Import products from Excel
 
+[Import][2] is a great way to quickly populate or update your database with price information. If you have an Excel spreadsheet with a list of products, you can easily import them into SuperOffice.
+
+## Before you begin
+
 [!include[Back up database before import](includes/caution-backup-before-import.md)]
 
-If you have an Excel spreadsheet with a list of products, you can easily import them into SuperOffice.
+Before you start your import, [prepare the Excel file][1]. Checklist:
 
-## What should the import file contain?
-
-* You can for instance contains these columns of data: In assortment, product code, name, description, product category, unit, list price, unit minimum price, cost, product name.
+* The Excel spreadsheet should as a minimum contain columns with Product Code, Product Name, and List Price.
 * Make sure to add a unique product code for each row as a duplicate key.
 
 ## Export products from an Excel import file
+
+Watch this video or follow the steps to learn how to import your products into SuperOffice CRM using our import template (video length - 4:22):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://youtu.be/xOTB6j2zzNo]
 
 1. [!include[Open Import](includes/open-import.md)]
 
@@ -28,7 +36,7 @@ If you have an Excel spreadsheet with a list of products, you can easily import 
 
 3. In the **Import to price list**, select the price list you want to import the products to.
 
-4. Click the Excel icon ( ![icon][img1] ) under **Select an import source**.
+4. Click the ![icon][img1] Excel icon under **Select an import source**.
 
 5. In the **Upload file** dialog, click **Upload file** to select the Excel spreadsheet you want to import.
 
@@ -73,7 +81,16 @@ As the Excel spreadsheet may contain anything from just a few to a large number 
 
 When the import is complete, a list of the imported products are displayed. Above the list is a link to the updated price list.
 
+## Related
+
+* [Configure import settings][3]
+* [Import from ERP][6]
+
 <!-- Referenced links -->
+[1]: create-import-file.md
+[2]: index.md
+[3]: configure-import-settings.md
+[6]: import-from-erp.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/admin/import-excel-small.bmp

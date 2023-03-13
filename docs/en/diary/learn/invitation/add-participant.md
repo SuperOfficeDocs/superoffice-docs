@@ -1,21 +1,28 @@
 ---
 uid: help-en-invitation-add-participant
 title: Add participants to follow-ups
-description: Add participants to follow-ups
+description: Inviting contacts to an appointment can be done in different ways, depending on whether it's an internal or an external person, or a resource, such as a meeting room or special equipment. This how-to guide will show how you to add participants to an appointment.
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+so.date: 02.10.2023
+keywords: diary, follow-up, invitation, participant
+so.topic: howto
 language: en
 ---
 
 # Add participants and resources to follow-ups
 
-When you create a follow-up that concerns other people, you can add them as participants to the follow-up. You can also book your organization’s conference rooms and equipment. People who are available as participants are defined in SuperOffice Settings and maintenance.
+When you create a follow-up that concerns other people, you can add them as participants to the follow-up. You can also book your organization's conference rooms and equipment. People who are available as participants are defined in SuperOffice Settings and maintenance.
+
+Invite a contact to an appointment from the participants tab by clicking the **Add** button.
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.webm]
+
+## Steps
 
 1. Open the **Appointment**, **Task** or **Phone Call** dialog and [enter the required information][2].
 
-2. Open the **Participants** tab and click **Add** at the bottom left of the window. The **Invitation** dialog opens.
+2. Open the **Participants** tab and click **Add** at the lower left of the window. The **Invitation** dialog opens.
 
     > [!NOTE]
     > If you have the overviews of other users or resources open, they are automatically entered as participants in the **Participants** tab. Otherwise select them manually as described below.
@@ -26,7 +33,7 @@ When you create a follow-up that concerns other people, you can add them as part
     * If you selected **Associates** or **Resource** in step 3, you can choose **All** in the list box to display the associates or resources in all groups.
     * If you selected **Company/contact**, **Project** or **Selection** in step 3, you can search for the required company, contact, project or selection from this field.
 
-5. Once you select the required source, a list of all available entries for this source is displayed. Select the users or resources to include in the follow-up and click the arrow button to the right of the list ( ![icon][img2] ). They are then displayed on the right-hand side of the window. You can also select users and resources individually by double-clicking them.
+5. After you select the required source, a list of all available entries for this source is displayed. Select the users or resources to include in the follow-up and click the arrow button to the right of the list ( ![icon][img2] ). They are then displayed on the right side of the window. You can also select users and resources individually by double-clicking them.
 
     > [!NOTE]
     > If any of the people are busy at the time you specified, their name is shown in red, so you can easily see if you should find a different time for the follow-up. You can still invite them to this new appointment, and their entry will then be shown in red with the word "CONFLICT" in the dialog for follow-ups.
@@ -37,7 +44,7 @@ When you create a follow-up that concerns other people, you can add them as part
     If any of the contacts you selected do not have a valid email address recorded in SuperOffice CRM, the ![icon][img1] icon changes to inactive ( ![icon][img3] ) in the **Participants** tab.
 
     > [!NOTE]
-    > If you selected users or resources by mistake, remove them by selecting them in the right-hand list and clicking the **Delete** button.
+    > If you selected users or resources by mistake, select them in the rightmost list and click **Delete** to remove them.
 
 8. After choosing participants and resources, click **Save** to save your selections or **Cancel** to exit the dialog without saving.
 
@@ -55,11 +62,18 @@ Using the SuperOffice Inbox: If you have not entered the requisite information i
 
 External participants are notified via email (if you selected this alternative in the invitation dialog). Invitation emails sent to external contacts will contain an iCal file (.ics) with the invitation data. When they respond to your invitation, the [status][1] will automatically be updated in SuperOffice.
 
-To manually accept or decline an invitation on behalf of someone, select the name in the list and click the **Toggle Status** button once to insert a green tick to show that the invitation was accepted, or click twice to insert a red cross for a declined invitation.
+To manually accept or decline an invitation on behalf of someone, select the name in the list and click the **Toggle Status** button one time to insert a green tick to show that the invitation was accepted, or click twice to insert a red cross for a declined invitation.
+
+## Related content
+
+* [Create appointments][3]
+* [Join a video meeting][4]
 
 <!-- Referenced links -->
 [1]: index.md#status
 [2]: ../screen/dialog-for-followups.md
+[3]: ../appointment.md
+[4]: ../video-meetings.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/pref-email.png

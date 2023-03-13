@@ -1,6 +1,14 @@
 <!-- markdownlint-disable-file MD041 -->
 When creating a mailing, you must select the recipients of the mailing. You can add recipients from multiple sources. In addition, you can set various mailing options here and also preview the mailing.
 
+Your target list is the group of people you believe will respond best to your message. If you tailor your marketing message specifically to that group, you get a better chance of success and avoid wasting time and effort on people who are not interested.
+
+You can use selections, projects or add single contacts in SuperOffice CRM.
+
+Due to the GDPR legislation, only the contacts that have expressed consent to be legally saved in SuperOffice CRM database and receive information can be added as recipients.
+
+![You can add your recipients from either selection, project, a single contact or an external list that you need to import -screenshot][img3]
+
 ## Add recipients from selections and projects
 
 You can add recipients from selections (from both SuperOffice CRM and SuperOffice Service) and projects (from SuperOffice CRM).
@@ -38,6 +46,8 @@ You can add recipients to a mailing by importing them from an external comma-sep
 
 When you import a list of names and email addresses, SuperOffice Marketing will try to locate the imported recipients in the SuperOffice database. If matches are found, the recipients' companies are listed in the **Company** column in the **Recipients** list. Any names or email addresses that are **not** found in SuperOffice, are filtered out and not included in the mailing. This is due to GDPR regulations.
 
+### Steps
+
 1. Click **Select file**.
 
 2. Locate the relevant file (.txt, .csv or similar text format).
@@ -67,9 +77,9 @@ When you import a list of names and email addresses, SuperOffice Marketing will 
 
 ## Recipient options
 
-Under **Options** in the lower part of the **Recipients** screen, you can select various options for the mailing.
+Under **Options** in the lower part of the **Recipients** screen, you can select options for the mailing based on its type.
 
-What's available depends on if you're creating a document, an email, or an SMS.
+**Availability per mailing type:**
 
 | Option | Document | Email | SMS |
 |---|:-:|:-:|:-:|
@@ -114,7 +124,7 @@ After adding recipients to the **Recipients** list, you can preview the mailing 
 
 When you add selections, projects, contacts and import lists, the **Recipients** list is automatically updated. If you selected **Update recipient list when sending**, the projects and selections are checked before sending the mailing, if contacts were added, removed or edited.
 
-In addition, you can click the **Update list** button below the **Recipients** list to update the list manually. You should do this if it's been a while since you added the recipients. Some of the contacts on the list may have changed their consent in the meantime.
+In addition, you can click the **Update list** button below the **Recipients** list to update the list manually. Some of the contacts on the list might have changed their consent after you added them.
 
 > [!NOTE]
 > The list displays only the first 50 recipients. Click **Load all** at the bottom of the list to display all recipients.
@@ -124,3 +134,4 @@ Click **Next** to go to Step 5: Confirm. You can still revisit the **Recipients*
 <!-- Referenced images -->
 [img1]: ../../../../../../media/icons/btn-add.png
 [img2]: ../../../../../../../common/icons/salelost.png
+[img3]: media/add-target-list.png

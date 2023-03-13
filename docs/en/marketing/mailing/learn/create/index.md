@@ -1,11 +1,11 @@
 ---
 uid: help-en-mailing-create
-title:  Create new mailing
-description:  Create new mailing
+title: Create new mailing
+description: To send a marketing mailing you only have to follow five easy steps. Setting up a mailing involves creating the mailing, filling out basic information, then choosing a template.
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Marketing
-so.topic: help
+so.date: 02.20.2023
+keywords: Marketing, mailing
+so.topic: howto
 language: en
 ---
 
@@ -31,7 +31,7 @@ Each step in the workflow must be completed before you can move on to the next. 
 
 ## Select mailing type
 
-The first thing you must do, is to select what type of mailing you want to send.
+The first thing you must do, is to select what type of mailing you want to send. When you choose your mailing type, SuperOffice CRM will safeguard that you do not send your mailing to the people who did not subscribe to the mailing you are about to send.
 
 > [!NOTE]
 > If you initiated the mailing as a mail merge from SuperOffice CRM, you have already chosen the mailing type. You are automatically directed to the **Setup** step.
@@ -51,6 +51,22 @@ The first thing you must do, is to select what type of mailing you want to send.
     * [Document][3]
     * [Form response][4]
 
+## Opening rates
+
+Your subject line affects the opening rates of your mailing. People determine whether they are going to open and read your email based on your subject line. So make sure your subject line stands out.
+
+The sender also plays a part in the opening rates. People are more likely to open your email if they recognize the sender's name. You control how the sender appears by specifying the sender's name and email address like this: "Name"<email@address.com>
+
+If you use Google Analytics to analyze traffic and user behavior on your website, you can connect your mailings to your Google Analytics reports.
+
+## Send a mailing
+
+In step three, you can [test your mailing by][10] sending it to yourself and/or your colleagues to review the content you have added. This way you can make sure you are a 100 percent happy with your mailing before you dispatch it.
+
+In step four you are ready to [add your target list][11] containing the recipients to your mailing.
+
+In the fifth and final step you confirm and send or schedule your mailing. You can either send your mailing immediately or you can schedule your mailing.
+
 ## What would you like to do now?
 
 * [Define settings for mailings][5]
@@ -69,6 +85,8 @@ The first thing you must do, is to select what type of mailing you want to send.
 [7]: ../follow-up/view-statistics.md
 [8]: ../follow-up/look-at-recipient-list.md
 [9]: ../../../tracked-links/learn/explore-clicks.md
+[10]: send-test-email.md
+[11]: target-list.md
 
 <!-- Referenced images -->
 [img1]: media/mailing-workflow-all.png
