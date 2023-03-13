@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
     {
       "VisibleId": 24,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -184,7 +184,7 @@ Content-Type: application/json; charset=utf-8
     {
       "VisibleId": 24,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

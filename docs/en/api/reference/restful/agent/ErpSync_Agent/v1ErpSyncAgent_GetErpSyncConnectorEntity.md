@@ -84,7 +84,7 @@ Content-Type: application/json; charset=utf-8
   "ErpConnectorId": 140,
   "DisplayName": "Herzog-Dicki",
   "URL": "http://www.example.com/",
-  "Deleted": false,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

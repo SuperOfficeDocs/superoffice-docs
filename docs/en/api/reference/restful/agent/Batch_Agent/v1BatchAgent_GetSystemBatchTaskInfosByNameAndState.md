@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "DetailsTable": 854,
     "DetailsRecord": 92,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
       "ParameterObject1": "ad",
       "ParameterObject2": "perferendis"

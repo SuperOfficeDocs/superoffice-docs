@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
         737,
         549
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,

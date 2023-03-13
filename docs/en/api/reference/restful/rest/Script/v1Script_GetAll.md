@@ -76,7 +76,7 @@ GET /api/v1/Script?$mode=Full
 GET /api/v1/Script?$options=GrandTotal=true
 GET /api/v1/Script?$context=omnis
 GET /api/v1/Script?$format=JSON
-GET /api/v1/Script?$jsonSafe=False
+GET /api/v1/Script?$jsonSafe=True
 GET /api/v1/Script?$output=Display
 ```
 

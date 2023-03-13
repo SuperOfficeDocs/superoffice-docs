@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     159,
     115
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 

@@ -81,7 +81,7 @@ Content-Type: application/json; charset=utf-8
 {
   "TopicId": 862,
   "User": null,
-  "CanListen": false,
+  "CanListen": true,
   "CanRespond": false,
   "CanManage": false,
   "CanNotify": false

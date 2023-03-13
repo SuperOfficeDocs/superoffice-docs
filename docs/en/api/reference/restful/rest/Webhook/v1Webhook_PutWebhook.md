@@ -146,7 +146,7 @@ Content-Type: application/json; charset=utf-8
   "TargetUrl": "http://www.example.com/",
   "Secret": "accusantium",
   "State": "Active",
-  "Type": "rerum",
+  "Type": "voluptas",
   "Headers": {
     "Headers1": "pariatur",
     "Headers2": "nostrum"

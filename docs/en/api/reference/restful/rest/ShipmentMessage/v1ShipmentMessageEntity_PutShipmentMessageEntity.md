@@ -164,7 +164,7 @@ Content-Type: application/json; charset=utf-8
   "Design": "illum",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
   "LongDescription": "Fundamental multimedia encoding",
   "AccessKey": "tenetur",

@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "DetailsTable": 609,
   "DetailsRecord": 561,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
     "ParameterObject1": "sapiente",
     "ParameterObject2": "et"

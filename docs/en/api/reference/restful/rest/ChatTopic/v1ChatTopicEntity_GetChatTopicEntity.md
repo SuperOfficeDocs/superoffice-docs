@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
   "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
   "WarnChatMessageMinutes": 72,

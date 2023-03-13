@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
     "ColorIndex": 893,
     "IsFree": true,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
     "PriorityId": 504,
     "PriorityName": "Dare LLC",

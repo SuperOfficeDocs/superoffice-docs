@@ -76,7 +76,7 @@ GET /api/v1/Appointment?$mode=Full
 GET /api/v1/Appointment?$options=GrandTotal=true
 GET /api/v1/Appointment?$context=suscipit
 GET /api/v1/Appointment?$format=JSON
-GET /api/v1/Appointment?$jsonSafe=False
+GET /api/v1/Appointment?$jsonSafe=True
 GET /api/v1/Appointment?$output=Display
 ```
 
@@ -117,7 +117,7 @@ OK
 GET /api/v1/Appointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

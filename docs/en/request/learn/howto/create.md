@@ -112,6 +112,12 @@ The autosave feature is activated by default when you view and edit requests and
 > [!TIP]
 > If you are using custom screens, you can [activate or deactivate autosave][6].
 
+=======
+## Details
+
+This tab contains any extra fields defined for requests. These will vary from company to company.
+
+>>>>>>> 12524e485807edd9647d7ffe0382f40dbcb340f9
 ## What would you like to do now?
 
 * [Process requests][8]

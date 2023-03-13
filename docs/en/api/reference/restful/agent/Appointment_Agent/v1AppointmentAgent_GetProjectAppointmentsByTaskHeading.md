@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
     "AssociateId": 810,
     "ColorIndex": 916,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
     "PriorityId": 487,

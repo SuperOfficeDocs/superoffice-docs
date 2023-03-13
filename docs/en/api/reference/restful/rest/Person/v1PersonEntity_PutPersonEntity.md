@@ -320,8 +320,8 @@ Content-Type: application/json; charset=utf-8
   "PersonNumber": "919625",
   "FullName": "Lilian Hayes",
   "NoMailing": false,
-  "UsePersonAddress": false,
-  "Retired": false,
+  "UsePersonAddress": true,
+  "Retired": true,
   "Urls": [
     {
       "Value": "incidunt",
@@ -669,7 +669,7 @@ Content-Type: application/json; charset=utf-8
   "FullName": "Elinor Weissnat",
   "NoMailing": false,
   "UsePersonAddress": true,
-  "Retired": false,
+  "Retired": true,
   "Urls": [
     {
       "Value": "illo",

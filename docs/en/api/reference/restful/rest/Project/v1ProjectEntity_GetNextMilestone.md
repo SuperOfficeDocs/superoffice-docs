@@ -106,7 +106,7 @@ OK
 GET /api/v1/Project/{projectId}/NextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "AssociateId": 148,
   "ColorIndex": 515,
   "IsFree": false,
-  "HasAlarm": true,
-  "IsAlldayEvent": true,
+  "HasAlarm": false,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
   "PriorityId": 908,
   "PriorityName": "Watsica-Kuhic",

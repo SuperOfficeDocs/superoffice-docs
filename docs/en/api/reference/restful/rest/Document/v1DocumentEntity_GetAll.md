@@ -76,7 +76,7 @@ GET /api/v1/Document?$mode=Full
 GET /api/v1/Document?$options=GrandTotal=true
 GET /api/v1/Document?$context=eius
 GET /api/v1/Document?$format=JSON
-GET /api/v1/Document?$jsonSafe=False
+GET /api/v1/Document?$jsonSafe=True
 GET /api/v1/Document?$output=Display
 ```
 
@@ -117,7 +117,7 @@ OK
 GET /api/v1/Document
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

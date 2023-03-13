@@ -75,7 +75,7 @@ Content-Type: application/json; charset=utf-8
   "ErpConnectorId": 588,
   "DisplayName": "Johnston-Hettinger",
   "URL": "http://www.example.com/",
-  "Deleted": false,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

@@ -93,7 +93,7 @@ Content-Type: application/json; charset=utf-8
         "eum"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
@@ -125,10 +125,10 @@ Content-Type: application/json; charset=utf-8
         "molestiae",
         "consectetur"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "quia",
+      "ExternalKey": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

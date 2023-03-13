@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
   "PrivacyDocType": "None",
   "EmailSubject": "bianka@stokes.name",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
   "SenderEmailAddress": "christiana.kerluke@hauckkuhic.uk",
   "InvitationDocType": "Cancelled",

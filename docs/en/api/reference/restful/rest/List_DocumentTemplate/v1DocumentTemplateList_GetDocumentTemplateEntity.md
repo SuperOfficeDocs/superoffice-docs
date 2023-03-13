@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "PrivacyDocType": "None",
   "EmailSubject": "jackeline_schoen@vonrueden.co.uk",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
   "SenderEmailAddress": "pierce_haag@pollichmitchell.name",
   "InvitationDocType": "Cancelled",

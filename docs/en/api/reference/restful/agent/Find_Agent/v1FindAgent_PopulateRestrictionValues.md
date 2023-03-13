@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
       "distinctio"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
         "Name": "Purdy, Kessler and Schinner",

@@ -76,7 +76,7 @@ GET /api/v1/Person?$mode=Full
 GET /api/v1/Person?$options=GrandTotal=true
 GET /api/v1/Person?$context=ut
 GET /api/v1/Person?$format=JSON
-GET /api/v1/Person?$jsonSafe=False
+GET /api/v1/Person?$jsonSafe=True
 GET /api/v1/Person?$output=Display
 ```
 

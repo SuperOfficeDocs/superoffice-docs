@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
     246,
     402
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 

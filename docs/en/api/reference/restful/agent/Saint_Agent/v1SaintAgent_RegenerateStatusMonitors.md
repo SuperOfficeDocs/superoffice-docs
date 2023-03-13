@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
   "DetailsTable": 856,
   "DetailsRecord": 826,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
     "ParameterObject1": "officiis",
     "ParameterObject2": "ad"

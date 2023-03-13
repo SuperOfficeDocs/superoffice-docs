@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
   "MailSorter": "qui",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptatem",
+  "SearchTitle": "vel",
   "MessageHeaders": [
     {
       "Id": 577,
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
       "ContentType": "animi",
       "AttSize": 365,
       "InlineImage": true,
-      "ContentId": "qui",
+      "ContentId": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

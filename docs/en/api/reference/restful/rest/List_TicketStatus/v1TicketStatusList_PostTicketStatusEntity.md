@@ -86,7 +86,7 @@ Content-Type: application/json; charset=utf-8
   "TimeCounter": "Externally",
   "NoEmailReopen": true,
   "IsDefault": false,
-  "UsedInQueue": true
+  "UsedInQueue": false
 }
 ```
 

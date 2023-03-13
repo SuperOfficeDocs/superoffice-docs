@@ -124,6 +124,6 @@ Content-Type: application/json; charset=utf-8
       "Tooltip": "minima"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

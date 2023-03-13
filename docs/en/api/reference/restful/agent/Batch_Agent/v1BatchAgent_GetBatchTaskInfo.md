@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
   "DetailsTable": 220,
   "DetailsRecord": 287,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
     "ParameterObject1": "quo",
     "ParameterObject2": "molestias"

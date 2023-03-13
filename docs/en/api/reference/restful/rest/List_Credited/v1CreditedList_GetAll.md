@@ -24,7 +24,7 @@ Gets all the Credited items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Credited/Items?includeDeleted=False
+GET /api/v1/List/Credited/Items?includeDeleted=True
 ```
 
 

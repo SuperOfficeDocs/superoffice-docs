@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
   "Name": "Murray-Konopelski",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
+  "NoEmailReopen": false,
   "IsDefault": false,
   "UsedInQueue": false,
   "TableRight": null,

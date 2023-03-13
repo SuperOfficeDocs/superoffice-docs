@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
   "PrivacyDocType": "None",
   "EmailSubject": "toni@okon.ca",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
   "SenderEmailAddress": "brendan_robel@willschmeler.uk",
   "InvitationDocType": "Cancelled",

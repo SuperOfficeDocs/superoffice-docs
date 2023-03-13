@@ -236,7 +236,7 @@ Content-Type: application/json; charset=utf-8
   "PersonNumber": "944306",
   "FullName": "Leonora Fadel",
   "NoMailing": false,
-  "UsePersonAddress": false,
+  "UsePersonAddress": true,
   "Retired": false,
   "Urls": [
     {

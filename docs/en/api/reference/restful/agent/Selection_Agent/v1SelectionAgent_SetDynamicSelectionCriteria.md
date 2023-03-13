@@ -100,7 +100,7 @@ Content-Type: application/json; charset=utf-8
         "occaecati"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}

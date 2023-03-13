@@ -74,7 +74,7 @@ Content-Type: application/json; charset=utf-8
   {
     "TopicId": 538,
     "User": null,
-    "CanListen": false,
+    "CanListen": true,
     "CanRespond": false,
     "CanManage": false,
     "CanNotify": false
@@ -82,7 +82,7 @@ Content-Type: application/json; charset=utf-8
   {
     "TopicId": 538,
     "User": null,
-    "CanListen": false,
+    "CanListen": true,
     "CanRespond": false,
     "CanManage": false,
     "CanNotify": false

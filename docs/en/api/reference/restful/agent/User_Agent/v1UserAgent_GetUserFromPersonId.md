@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "RequestSignature": "recusandae",
     "Type": "AnonymousAssociate",
     "IsPersonRetired": false,
-    "IsOnTravel": false,
+    "IsOnTravel": true,
     "Credentials": [
       {
         "Type": null,

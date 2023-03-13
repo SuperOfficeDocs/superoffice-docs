@@ -109,6 +109,6 @@ Content-Type: application/json; charset=utf-8
       "Tooltip": "enim"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

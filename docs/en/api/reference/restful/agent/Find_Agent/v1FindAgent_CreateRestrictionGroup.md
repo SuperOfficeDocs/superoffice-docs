@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
         "rerum"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}

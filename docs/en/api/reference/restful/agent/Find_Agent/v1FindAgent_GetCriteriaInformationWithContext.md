@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
         "id"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}

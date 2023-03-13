@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "IsPublished": false,
+  "IsPublished": true,
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": true,
   "IsVisibleForPersonInterests": false,

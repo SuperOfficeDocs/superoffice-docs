@@ -93,7 +93,7 @@ Content-Type: application/json; charset=utf-8
           "quia"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
           "quia"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}

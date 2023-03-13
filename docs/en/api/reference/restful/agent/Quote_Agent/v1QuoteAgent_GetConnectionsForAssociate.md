@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
         }
       }
     ],
-    "AllAccess": false,
+    "AllAccess": true,
     "Deleted": false,
     "UserGroupAccessIds": [
       689,

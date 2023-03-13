@@ -79,7 +79,7 @@ Content-Type: application/json; charset=utf-8
     63,
     299
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,

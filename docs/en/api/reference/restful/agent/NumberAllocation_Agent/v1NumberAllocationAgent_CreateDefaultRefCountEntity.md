@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "SatPrefix": 221,
   "Allocate": true,
   "Unique": false,
-  "ReadOnly": false,
+  "ReadOnly": true,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {

@@ -78,7 +78,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "IncludeItemCount": false
+  "IncludeItemCount": true
 }
 ```
 

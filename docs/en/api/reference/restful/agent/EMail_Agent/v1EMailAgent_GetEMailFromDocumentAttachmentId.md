@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "iste",
     "est"
   ],
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 

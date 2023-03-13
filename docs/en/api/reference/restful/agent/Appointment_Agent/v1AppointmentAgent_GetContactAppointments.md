@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
     "PriorityId": 924,
     "PriorityName": "Anderson Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": true,
     "ActiveDate": "1999-02-15T12:15:17.6107712+01:00",

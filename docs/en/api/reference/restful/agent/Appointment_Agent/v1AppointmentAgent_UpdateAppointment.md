@@ -125,7 +125,7 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -169,7 +169,7 @@ Content-Type: application/json; charset=utf-8
   "PriorityName": "Ebert, Bayer and Dickinson",
   "TaskType": "Appointment",
   "IsBookingMain": true,
-  "IsRecurrence": false,
+  "IsRecurrence": true,
   "IsBooking": false,
   "ActiveDate": "2021-01-01T12:15:17.6767707+01:00",
   "AssignmentStatus": "Assigning",

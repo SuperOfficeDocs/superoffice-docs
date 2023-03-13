@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
         "perspiciatis"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}

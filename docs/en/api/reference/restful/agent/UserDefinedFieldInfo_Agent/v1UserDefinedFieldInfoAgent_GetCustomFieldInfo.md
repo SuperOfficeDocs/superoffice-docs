@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
   "Description": "Ameliorated background open system",
   "ShortLabel": "ut",
   "HideLabel": false,
-  "HideField": true,
+  "HideField": false,
   "IsIndexed": false,
   "IsMandatory": false,
   "IsReadOnly": false,

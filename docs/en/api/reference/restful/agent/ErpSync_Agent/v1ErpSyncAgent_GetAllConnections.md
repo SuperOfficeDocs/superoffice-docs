@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
       "ConfigFields2": "iste"
     },
     "Deleted": false,
-    "AllAccess": false,
+    "AllAccess": true,
     "UserGroupAccessIds": [
       751,
       85

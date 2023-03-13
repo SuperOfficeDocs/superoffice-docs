@@ -303,8 +303,8 @@ Content-Type: application/json; charset=utf-8
   "PersonNumber": "381837",
   "FullName": "Keaton Witting",
   "NoMailing": false,
-  "UsePersonAddress": false,
-  "Retired": false,
+  "UsePersonAddress": true,
+  "Retired": true,
   "Urls": [
     {
       "Value": "sed",
