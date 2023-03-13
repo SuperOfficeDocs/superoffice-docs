@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    443,
-    978
+    34,
+    716
   ]
 }
 ```
@@ -104,64 +104,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 162,
-    "Caption": "consequatur",
-    "Description": "Compatible client-driven paradigm",
-    "ChartName": "Volkman-Welch",
-    "ChartId": "perspiciatis",
+    "DashboardTileId": 239,
+    "Caption": "iusto",
+    "Description": "Open-architected contextually-based solution",
+    "ChartName": "Parker, Barton and Anderson",
+    "ChartId": "quia",
     "IsDefault": false,
-    "AssociateId": 943,
-    "GroupId": 667,
-    "SelectionId": 456,
-    "Config": "quisquam",
+    "AssociateId": 492,
+    "GroupId": 22,
+    "SelectionId": 532,
+    "Config": "in",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Goldner, Mante and Spinka",
-        "Description": "Enterprise-wide bandwidth-monitored benchmark",
+        "Name": "Wilkinson-Altenwerth",
+        "Description": "Business-focused demand-driven migration",
         "Type": "Boolean",
-        "ListName": "Rohan-Morar",
+        "ListName": "Swift Inc and Sons",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "natus",
-        "DefaultDataOption": true,
+        "Value": "voluptas",
+        "DefaultDataOption": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 165
+            "FieldType": "System.Int32",
+            "FieldLength": 82
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 931,
+        "VisibleId": 369,
         "Visibility": "All",
-        "DisplayValue": "excepturi",
+        "DisplayValue": "dolorem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 166
+            "FieldLength": 243
           }
         }
       },
       {
-        "VisibleId": 931,
+        "VisibleId": 369,
         "Visibility": "All",
-        "DisplayValue": "excepturi",
+        "DisplayValue": "dolorem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 166
+            "FieldLength": 243
           }
         }
       }
@@ -170,8 +170,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 525
+        "FieldType": "System.String",
+        "FieldLength": 68
       }
     }
   }

@@ -1,0 +1,12 @@
+digraph workflow_step  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+workflow_step[fillcolor = "cadetblue1"]
+workflow[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+workflow_step -> workflow [headlabel = "workflow_id"]
+workflow_step -> workflow_step [headlabel = "parent_workflow_step_id"]
+workflow_step -> associate [headlabel = "registered_associate_id"]
+workflow_step -> associate [label = "updated_associate_id"]
+}

@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 654,
-  "LanguageId": 190,
-  "PersonId": 333,
-  "TicketId": 243
+  "ReplyTemplateId": 506,
+  "LanguageId": 588,
+  "PersonId": 483,
+  "TicketId": 558
 }
 ```
 
@@ -97,34 +97,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 714,
-  "PlainParsed": "tenetur",
-  "HtmlParsed": "ipsa",
+  "ReplyTemplateId": 596,
+  "PlainParsed": "ex",
+  "HtmlParsed": "enim",
   "Attachments": [
     {
-      "AttachmentId": 80,
-      "Name": "Swaniawski, Kovacek and Grady",
-      "ContentType": "ratione",
-      "AttSize": 700,
-      "InlineImage": true,
-      "ContentId": "voluptatem",
+      "AttachmentId": 560,
+      "Name": "Walker, Ondricka and Herman",
+      "ContentType": "inventore",
+      "AttSize": 892,
+      "InlineImage": false,
+      "ContentId": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 308
+          "FieldLength": 694
         }
       }
     }
   ],
-  "Subject": "laudantium",
+  "Subject": "totam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 441
+      "FieldType": "System.Int32",
+      "FieldLength": 360
     }
   }
 }

@@ -25,8 +25,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=ipsam
+GET /api/v1/List/SaleType/MDOItems?flat=True
+GET /api/v1/List/SaleType/MDOItems?query=aut
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 948,
-    "Name": "Labadie Inc and Sons",
-    "ToolTip": "Ipsa rem.",
-    "Deleted": false,
-    "Rank": 571,
-    "Type": "sed",
+    "Id": 540,
+    "Name": "Weimann-Adams",
+    "ToolTip": "Magnam quibusdam perferendis at nostrum doloribus velit.",
+    "Deleted": true,
+    "Rank": 300,
+    "Type": "autem",
     "ChildItems": [
       {
-        "Id": 600,
-        "Name": "Lang, Wiegand and Kris",
-        "ToolTip": "Odio fugit rerum dolores omnis voluptas accusantium delectus.",
+        "Id": 483,
+        "Name": "Dicki LLC",
+        "ToolTip": "Maiores nesciunt fuga.",
         "Deleted": false,
-        "Rank": 447,
-        "Type": "provident",
+        "Rank": 612,
+        "Type": "tempore",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "necessitatibus",
-        "ColorBlock": 920,
-        "ExtraInfo": "nam",
-        "StyleHint": "neque",
-        "FullName": "Marianna Haag",
+        "IconHint": "hic",
+        "ColorBlock": 867,
+        "ExtraInfo": "et",
+        "StyleHint": "atque",
+        "FullName": "Dessie Rodriguez",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 408
+            "FieldLength": 163
           }
         }
       }
     ],
-    "IconHint": "facere",
-    "ColorBlock": 781,
-    "ExtraInfo": "delectus",
-    "StyleHint": "velit",
-    "FullName": "Mr. Genevieve Kerluke",
+    "IconHint": "delectus",
+    "ColorBlock": 770,
+    "ExtraInfo": "molestias",
+    "StyleHint": "ut",
+    "FullName": "Toy Upton IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 813
+        "FieldLength": 398
       }
     }
   }

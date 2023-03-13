@@ -66,12 +66,12 @@ No Content
 POST /api/v1/Agents/DocumentMigration/MigrateDocumentToNewDocPlugin
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 899,
-  "DocumentPluginId": 410
+  "DocumentId": 538,
+  "DocumentPluginId": 352
 }
 ```
 

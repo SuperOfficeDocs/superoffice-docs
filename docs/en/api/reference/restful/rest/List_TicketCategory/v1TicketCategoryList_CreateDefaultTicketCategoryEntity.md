@@ -81,36 +81,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 590,
-  "ParentId": 133,
-  "Name": "Orn-Ledner",
-  "Fullname": "illo",
-  "CategoryMaster": 291,
+  "TicketCategoryId": 136,
+  "ParentId": 851,
+  "Name": "McKenzie-Heathcote",
+  "Fullname": "consectetur",
+  "CategoryMaster": 720,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Christiansen-Connelly",
+  "ExternalName": "Ward LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 931,
-  "ReplyTemplate": 190,
-  "NotificationEmail": "lenora_kuhlman@lynchfeest.com",
+  "AssignmentLag": 413,
+  "ReplyTemplate": 12,
+  "NotificationEmail": "francisca_waters@wintheiser.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 733,
+  "EffectiveReplyTemplateId": 181,
   "ExtraFields": {
-    "ExtraFields1": "odit",
-    "ExtraFields2": "asperiores"
+    "ExtraFields1": "et",
+    "ExtraFields2": "nesciunt"
   },
   "CustomFields": {
-    "CustomFields1": "quisquam",
-    "CustomFields2": "itaque"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "quia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldType": "System.String",
+      "FieldLength": 516
     }
   }
 }

@@ -119,18 +119,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptate",
+    "path": "voluptatem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptate",
+    "path": "voluptatem",
     "value": {}
   }
 ]
@@ -143,22 +143,22 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 314,
-  "Name": "Ullrich-Kuvalis",
+  "ScreenChooserId": 407,
+  "Name": "Lindgren Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "eum",
-  "Source": "aut",
-  "Registered": "1998-05-22T14:19:10.912356+02:00",
-  "RegisteredAssociateId": 154,
-  "Updated": "2007-03-19T14:19:10.912356+01:00",
-  "UpdatedAssociateId": 123,
+  "Enabled": true,
+  "UniqueIdentifier": "hic",
+  "Source": "sed",
+  "Registered": "1996-06-20T12:15:27.5916274+02:00",
+  "RegisteredAssociateId": 987,
+  "Updated": "2012-08-12T12:15:27.5916274+02:00",
+  "UpdatedAssociateId": 835,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 263
+      "FieldLength": 587
     }
   },
   "_Links": {

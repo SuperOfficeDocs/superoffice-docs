@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 836
+  "ContactId": 307
 }
 ```
 
@@ -99,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 816,
-  "BlobSize": 976,
-  "Description": "Innovative multi-state data-warehouse",
-  "ExtraInfo": "excepturi",
-  "IsEncrypted": false,
+  "BlobId": 528,
+  "BlobSize": 130,
+  "Description": "Visionary transitional software",
+  "ExtraInfo": "quaerat",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "sit",
-  "OriginalSize": 58,
-  "CreatedDate": "2011-09-29T14:19:02.7906787+02:00",
-  "UpdatedDate": "2020-07-14T14:19:02.7906787+02:00",
+  "MimeType": "quia",
+  "OriginalSize": 456,
+  "CreatedDate": "2001-09-07T12:15:18.233762+02:00",
+  "UpdatedDate": "2006-08-03T12:15:18.233762+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quam",
+  "ConceptualType": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldType": "System.String",
+      "FieldLength": 947
     }
   }
 }

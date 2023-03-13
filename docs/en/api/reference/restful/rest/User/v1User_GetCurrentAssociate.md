@@ -77,24 +77,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 270,
-  "Name": "Bernhard, Rau and Reilly",
-  "PersonId": 554,
-  "Rank": 778,
-  "Tooltip": "illum",
+  "AssociateId": 803,
+  "Name": "Rolfson-Olson",
+  "PersonId": 974,
+  "Rank": 692,
+  "Tooltip": "corrupti",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 687,
-  "FullName": "Fabian Hammes",
-  "FormalName": "Purdy-West",
+  "GroupIdx": 481,
+  "FullName": "Kody Lind Sr.",
+  "FormalName": "Waelchi Group",
   "Deleted": true,
-  "EjUserId": 533,
-  "UserName": "Weber, Bayer and Dach",
+  "EjUserId": 566,
+  "UserName": "West, Ernser and Koelpin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 349
+      "FieldLength": 329
     }
   }
 }

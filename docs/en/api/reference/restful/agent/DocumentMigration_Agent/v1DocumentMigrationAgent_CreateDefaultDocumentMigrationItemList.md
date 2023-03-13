@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,29 +70,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 165,
-  "NumDocumentsAlreadyMigrated": 159,
+  "NumDocumentsOmitted": 593,
+  "NumDocumentsAlreadyMigrated": 649,
   "Documents": [
     {
-      "DocumentId": 329,
-      "ContactId": 299,
-      "PersonId": 822,
-      "SaleId": 809,
-      "ProjectId": 990,
-      "DocTmplId": 731,
-      "AssociateId": 454,
-      "UserGroupId": 651,
-      "VisibleForId": 217
+      "DocumentId": 269,
+      "ContactId": 428,
+      "PersonId": 74,
+      "SaleId": 367,
+      "ProjectId": 344,
+      "DocTmplId": 657,
+      "AssociateId": 331,
+      "UserGroupId": 52,
+      "VisibleForId": 944
     }
   ],
   "Associates": [
     {
-      "AssociateId": 375,
-      "EmailAddress": "verner.gerlach@creminhoeger.com"
+      "AssociateId": 434,
+      "EmailAddress": "bell@rogahn.co.uk"
     },
     {
-      "AssociateId": 375,
-      "EmailAddress": "verner.gerlach@creminhoeger.com"
+      "AssociateId": 434,
+      "EmailAddress": "bell@rogahn.co.uk"
     }
   ]
 }

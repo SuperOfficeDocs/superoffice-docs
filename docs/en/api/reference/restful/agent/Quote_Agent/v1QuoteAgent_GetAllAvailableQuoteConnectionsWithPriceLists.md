@@ -91,34 +91,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 643,
-    "ERPName": "Miller, Denesik and Sauer",
-    "DisplayName": "Lemke LLC",
-    "DisplayDescription": "Face to face 24/7 budgetary management",
-    "Rank": 715,
-    "ConnectorName": "McCullough-Kulas",
-    "ErpConnectionId": 516,
-    "ExtraData": "minus",
-    "IsAvailable": false,
+    "QuoteConnectionId": 862,
+    "ERPName": "Abshire Inc and Sons",
+    "DisplayName": "O'Conner, Sipes and Ferry",
+    "DisplayDescription": "Enterprise-wide intangible interface",
+    "Rank": 752,
+    "ConnectorName": "Weissnat-Purdy",
+    "ErpConnectionId": 483,
+    "ExtraData": "iure",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 296,
-        "ERPPriceListKey": "magnam",
-        "QuoteConnectionId": 30,
-        "Name": "Torp, Miller and Torp",
-        "Description": "Stand-alone needs-based task-force",
-        "Currency": "ut",
-        "CurrencyName": "Zemlak LLC",
-        "ValidFrom": "2000-05-30T14:19:04.0157096+02:00",
-        "ValidTo": "2000-03-20T14:19:04.0157096+01:00",
+        "PriceListId": 797,
+        "ERPPriceListKey": "omnis",
+        "QuoteConnectionId": 445,
+        "Name": "Weissnat, Leannon and Kerluke",
+        "Description": "Right-sized fault-tolerant implementation",
+        "Currency": "aut",
+        "CurrencyName": "McCullough Inc and Sons",
+        "ValidFrom": "2003-06-05T12:15:19.9407375+02:00",
+        "ValidTo": "1997-01-04T12:15:19.9407375+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 134
+            "FieldLength": 377
           }
         }
       }
@@ -126,19 +126,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      135,
-      613
+      241,
+      665
     ],
     "AssociateAccessIds": [
-      12,
-      42
+      507,
+      486
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 883
+        "FieldType": "System.String",
+        "FieldLength": 638
       }
     }
   }

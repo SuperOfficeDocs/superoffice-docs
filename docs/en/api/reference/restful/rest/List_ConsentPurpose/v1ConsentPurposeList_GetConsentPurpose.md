@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,25 +83,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 973,
-  "Name": "McCullough Group",
-  "ConsentText": "eveniet",
-  "FormText": "autem",
-  "Key": "architecto",
-  "Tooltip": "sed",
-  "Active": 264,
-  "UpdatedDate": "2003-06-10T14:19:11.163718+02:00",
+  "ConsentPurposeId": 491,
+  "Name": "Bode-Boehm",
+  "ConsentText": "sunt",
+  "FormText": "id",
+  "Key": "nobis",
+  "Tooltip": "doloremque",
+  "Active": 3,
+  "UpdatedDate": "1997-06-22T12:15:27.9226217+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 108,
-  "PrivacyStatementDesc": "ut",
+  "Rank": 773,
+  "PrivacyStatementDesc": "dolorum",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 179
+      "FieldType": "System.String",
+      "FieldLength": 377
     }
   }
 }

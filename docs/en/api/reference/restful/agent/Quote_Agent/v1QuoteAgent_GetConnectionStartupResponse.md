@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionStartupResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 266
+  "QuoteConnectionId": 602
 }
 ```
 
@@ -95,9 +95,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "rem",
-  "TechExplanation": "itaque",
-  "ErrorCode": "qui",
+  "UserExplanation": "porro",
+  "TechExplanation": "in",
+  "ErrorCode": "laborum",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldLength": 286
     }
   }
 }

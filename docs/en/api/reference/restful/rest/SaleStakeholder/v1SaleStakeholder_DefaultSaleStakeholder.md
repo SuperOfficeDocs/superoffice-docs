@@ -74,7 +74,7 @@ OK
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Pollich, Bruen and Dietrich",
-  "Comment": "officia",
-  "StakeholderRoleId": 399,
-  "CountryId": 628,
-  "PersonId": 927,
-  "EmailDescription": "clotilde@aufderhar.name",
-  "EmailId": 946,
-  "EmailAddress": "karolann@douglaspaucek.name",
-  "PhoneId": 976,
-  "ContactName": "Treutel, Swaniawski and Leuschke",
-  "ContactId": 14,
-  "SaleId": 220,
-  "Mrmrs": "velit",
-  "Firstname": "Andre",
-  "MiddleName": "Mills Inc and Sons",
-  "Lastname": "Howe",
-  "SaleStakeholderId": 967,
-  "Rank": 574,
-  "Phone": "1-083-767-6383 x73936",
+  "StakeholderRoleName": "Franecki, Konopelski and Jakubowski",
+  "Comment": "non",
+  "StakeholderRoleId": 360,
+  "CountryId": 929,
+  "PersonId": 767,
+  "EmailDescription": "ricardo@tromp.us",
+  "EmailId": 744,
+  "EmailAddress": "caitlyn@pfannerstill.uk",
+  "PhoneId": 421,
+  "ContactName": "Champlin, Skiles and Conroy",
+  "ContactId": 767,
+  "SaleId": 454,
+  "Mrmrs": "neque",
+  "Firstname": "Adell",
+  "MiddleName": "Russel Inc and Sons",
+  "Lastname": "McGlynn",
+  "SaleStakeholderId": 608,
+  "Rank": 928,
+  "Phone": "(487)196-5976 x1149",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 760
+      "FieldLength": 192
     }
   }
 }

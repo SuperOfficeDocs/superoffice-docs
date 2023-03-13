@@ -85,9 +85,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Collier, McDermott and Gislason",
-  "DeviceName": "Rolfson Group",
-  "DeviceIdentifier": "assumenda"
+  "ApplicationName": "Runte-Schneider",
+  "DeviceName": "Watsica-Volkman",
+  "DeviceIdentifier": "laborum"
 }
 ```
 
@@ -99,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "exercitationem",
-    "Value": "earum",
-    "RecordId": 843,
-    "CreatedDate": "1999-03-08T14:19:03.5758974+01:00",
-    "UpdatedDate": "1996-11-14T14:19:03.5758974+01:00",
-    "UpdatedBy": "nihil",
-    "CreatedBy": "ut",
-    "TableName": "Stracke-Lind",
+    "Key": "impedit",
+    "Value": "et",
+    "RecordId": 125,
+    "CreatedDate": "2002-10-30T12:15:19.1707485+01:00",
+    "UpdatedDate": "2010-04-22T12:15:19.1707485+02:00",
+    "UpdatedBy": "ducimus",
+    "CreatedBy": "et",
+    "TableName": "Kiehn-Walsh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 290
+        "FieldLength": 518
       }
     }
   }

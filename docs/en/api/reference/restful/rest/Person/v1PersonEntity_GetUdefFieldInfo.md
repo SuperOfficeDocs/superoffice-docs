@@ -92,7 +92,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 593,
-  "ColumnId": 946,
-  "FieldDefault": "voluptatem",
-  "FieldHeight": 723,
-  "FieldLabel": "distinctio",
-  "FieldLeft": 303,
-  "FieldTop": 471,
+  "UDefFieldId": 745,
+  "ColumnId": 893,
+  "FieldDefault": "at",
+  "FieldHeight": 137,
+  "FieldLabel": "vitae",
+  "FieldLeft": 111,
+  "FieldTop": 451,
   "FieldType": "Checkbox",
-  "FieldWidth": 226,
-  "FormatMask": "aut",
-  "HideLabel": true,
+  "FieldWidth": 391,
+  "FormatMask": "omnis",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 564,
-  "LabelLeft": 82,
-  "LabelTop": 408,
-  "LabelWidth": 445,
-  "LastVersionId": 833,
-  "ListTableId": 200,
-  "IsMandatory": false,
+  "LabelHeight": 134,
+  "LabelLeft": 13,
+  "LabelTop": 656,
+  "LabelWidth": 206,
+  "LastVersionId": 726,
+  "ListTableId": 898,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 952,
-  "ProgId": "debitis",
+  "Page1LineNo": 951,
+  "ProgId": "quaerat",
   "IsReadOnly": false,
-  "ShortLabel": "dolores",
-  "TabOrder": 943,
-  "TextLength": 365,
-  "Tooltip": "reprehenderit",
-  "UdefIdentity": 396,
-  "UDListDefinitionId": 391,
+  "ShortLabel": "necessitatibus",
+  "TabOrder": 50,
+  "TextLength": 249,
+  "Tooltip": "quae",
+  "UdefIdentity": 398,
+  "UDListDefinitionId": 915,
   "Justification": "Center",
-  "Version": 319,
-  "TemplateVariableName": "Baumbach Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Bernier, Herzog and Bogisich",
+  "Version": 544,
+  "TemplateVariableName": "Willms, Wiegand and Boehm",
+  "HasBeenPublished": false,
+  "MdoListName": "Hermiston-Stokes",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 527
+      "FieldType": "System.Int32",
+      "FieldLength": 156
     }
   }
 }

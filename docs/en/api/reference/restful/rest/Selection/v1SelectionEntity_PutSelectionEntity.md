@@ -159,60 +159,60 @@ SelectionEntity updated.
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Diverse contextually-based utilisation",
-  "Postit": "sit",
+  "Description": "Multi-channelled web-enabled data-warehouse",
+  "Postit": "recusandae",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 156,
-  "IncludePerson": 247,
-  "MemberCount": 408,
-  "Name": "Lindgren-Kautzer",
-  "PostitTextId": 890,
-  "CreatedDate": "2021-01-04T14:19:10.7717284+01:00",
-  "SelectionId": 908,
-  "SoundEx": "perspiciatis",
-  "Source": 674,
-  "TextId": 743,
-  "UpdatedDate": "2015-03-20T14:19:10.7717284+01:00",
-  "UpdatedCount": 948,
-  "Visibility": 560,
+  "GroupIdx": 886,
+  "IncludePerson": 245,
+  "MemberCount": 279,
+  "Name": "Shields, Howell and Dickinson",
+  "PostitTextId": 629,
+  "CreatedDate": "2002-09-20T12:15:27.3736322+02:00",
+  "SelectionId": 766,
+  "SoundEx": "quam",
+  "Source": 791,
+  "TextId": 810,
+  "UpdatedDate": "2017-02-02T12:15:27.3736322+01:00",
+  "UpdatedCount": 743,
+  "Visibility": 439,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 582,
-  "TargetTableName": "Douglas Group",
-  "Completed": false,
-  "LeftSelectionId": 305,
-  "RightSelectionId": 389,
+  "CompanyUnique": false,
+  "TargetTableNumber": 913,
+  "TargetTableName": "Bradtke, Leffler and Franecki",
+  "Completed": true,
+  "LeftSelectionId": 566,
+  "RightSelectionId": 668,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Heller-Pfeffer",
-  "ShadowProviderName": "Schinner LLC",
-  "ChartKey": "qui",
-  "LastLoaded": "2013-12-21T14:19:10.7717284+01:00",
-  "LastLoadedBy": 376,
+  "MainProviderName": "Leannon, Ortiz and Schulist",
+  "ShadowProviderName": "Gleichner, Gulgowski and Cormier",
+  "ChartKey": "laboriosam",
+  "LastLoaded": "2019-08-29T12:15:27.3736322+02:00",
+  "LastLoadedBy": 620,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-09-09T14:19:10.7717284+02:00",
-  "LastMembershipChangeBy": 919,
+  "LastMembershipChange": "2001-07-24T12:15:27.3736322+02:00",
+  "LastMembershipChangeBy": 339,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "iure",
-  "MemberTabHeading": "odit",
-  "MailingsProviderName": "Koss, Lakin and Goldner",
-  "DashboardTileDefinitionId": 52,
+  "MainHeading": "cumque",
+  "MemberTabHeading": "ea",
+  "MailingsProviderName": "Schmeler Group",
+  "DashboardTileDefinitionId": 475,
   "VisibleFor": [
     {
-      "VisibleId": 384,
+      "VisibleId": 818,
       "Visibility": "All",
-      "DisplayValue": "quo"
+      "DisplayValue": "dolor"
     },
     {
-      "VisibleId": 384,
+      "VisibleId": 818,
       "Visibility": "All",
-      "DisplayValue": "quo"
+      "DisplayValue": "dolor"
     }
   ]
 }
@@ -225,70 +225,70 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Advanced contextually-based website",
-  "Postit": "culpa",
+  "Description": "Monitored optimal implementation",
+  "Postit": "ea",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 957,
-  "IncludePerson": 723,
-  "MemberCount": 349,
-  "Name": "Wolf Inc and Sons",
-  "PostitTextId": 408,
-  "CreatedDate": "2014-01-10T14:19:10.7717284+01:00",
-  "SelectionId": 816,
-  "SoundEx": "modi",
-  "Source": 75,
-  "TextId": 481,
-  "UpdatedDate": "1995-10-30T14:19:10.7717284+01:00",
-  "UpdatedCount": 481,
-  "Visibility": 449,
+  "GroupIdx": 427,
+  "IncludePerson": 17,
+  "MemberCount": 238,
+  "Name": "Zulauf-Schuster",
+  "PostitTextId": 507,
+  "CreatedDate": "2005-06-04T12:15:27.3786346+02:00",
+  "SelectionId": 825,
+  "SoundEx": "non",
+  "Source": 924,
+  "TextId": 297,
+  "UpdatedDate": "2002-03-27T12:15:27.3786346+01:00",
+  "UpdatedCount": 301,
+  "Visibility": 414,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 172,
-  "TargetTableName": "O'Kon, Lubowitz and Daugherty",
-  "Completed": true,
-  "LeftSelectionId": 227,
-  "RightSelectionId": 780,
+  "CompanyUnique": true,
+  "TargetTableNumber": 610,
+  "TargetTableName": "Prohaska-Rippin",
+  "Completed": false,
+  "LeftSelectionId": 561,
+  "RightSelectionId": 369,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Stark-Lockman",
-  "ShadowProviderName": "McKenzie, Heathcote and Hammes",
-  "ChartKey": "ut",
-  "LastLoaded": "1996-07-08T14:19:10.7717284+02:00",
-  "LastLoadedBy": 866,
+  "MainProviderName": "Schmitt-Farrell",
+  "ShadowProviderName": "Rodriguez, Okuneva and Ritchie",
+  "ChartKey": "occaecati",
+  "LastLoaded": "2018-02-14T12:15:27.3796306+01:00",
+  "LastLoadedBy": 377,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-06-28T14:19:10.7717284+02:00",
-  "LastMembershipChangeBy": 803,
+  "LastMembershipChange": "2005-01-28T12:15:27.3796306+01:00",
+  "LastMembershipChangeBy": 804,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "dolorum",
-  "MemberTabHeading": "modi",
-  "MailingsProviderName": "Stamm LLC",
-  "DashboardTileDefinitionId": 352,
+  "MainHeading": "ratione",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Cruickshank Inc and Sons",
+  "DashboardTileDefinitionId": 47,
   "VisibleFor": [
     {
-      "VisibleId": 127,
+      "VisibleId": 114,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 332
+          "FieldLength": 736
         }
       }
     },
     {
-      "VisibleId": 127,
+      "VisibleId": 114,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 332
+          "FieldLength": 736
         }
       }
     }
@@ -298,12 +298,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldLength": 450
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

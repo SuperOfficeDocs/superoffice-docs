@@ -72,7 +72,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,28 +80,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 07 Jan 1998 14:19:10 G1T
+Last-Modified: Sun, 22 Dec 2013 12:15:27 G12T
 
 {
-  "BlobId": 281,
-  "BlobSize": 879,
-  "Description": "Reduced encompassing alliance",
-  "ExtraInfo": "non",
+  "BlobId": 23,
+  "BlobSize": 482,
+  "Description": "Down-sized dynamic functionalities",
+  "ExtraInfo": "occaecati",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "eos",
-  "OriginalSize": 915,
-  "CreatedDate": "2009-07-01T14:19:10.4748485+02:00",
-  "UpdatedDate": "1998-01-07T14:19:10.4748485+01:00",
+  "MimeType": "accusantium",
+  "OriginalSize": 935,
+  "CreatedDate": "2014-01-05T12:15:27.1196334+01:00",
+  "UpdatedDate": "2013-12-22T12:15:27.1196334+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "commodi",
+  "ConceptualType": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldLength": 948
     }
   }
 }

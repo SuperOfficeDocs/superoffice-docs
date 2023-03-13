@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "atque",
-    "Type": "saepe",
-    "Description": "Focused tangible analyzer",
+    "DisplayType": "consequatur",
+    "Type": "vel",
+    "Description": "Re-engineered impactful moderator",
     "ValueControl": "Edit",
     "CanCreatePerson": true,
-    "IsUserNameSupported": false,
+    "IsUserNameSupported": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 590
+        "FieldType": "System.Int32",
+        "FieldLength": 536
       }
     }
   }

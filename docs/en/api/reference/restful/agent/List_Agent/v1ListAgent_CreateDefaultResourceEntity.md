@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 593,
-  "Name": "Haag, Stark and Schimmel",
-  "Rank": 96,
-  "Tooltip": "cum",
+  "ResourceId": 684,
+  "Name": "Hermiston-Cassin",
+  "Rank": 167,
+  "Tooltip": "dolores",
   "Deleted": true,
-  "IsLocation": false,
-  "LocationAddress": "necessitatibus",
+  "IsLocation": true,
+  "LocationAddress": "impedit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 55
+      "FieldLength": 119
     }
   }
 }

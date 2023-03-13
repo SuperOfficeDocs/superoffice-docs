@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 994
+  "PersonId": 628
 }
 ```
 
@@ -104,27 +104,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 319,
-    "Comment": "unde",
-    "Registered": "2019-01-26T14:19:03.8582508+01:00",
-    "RegisteredAssociateId": 578,
-    "Updated": "2000-11-16T14:19:03.8582508+01:00",
-    "UpdatedAssociateId": 644,
-    "LegalBaseId": 385,
-    "LegalBaseKey": "quasi",
-    "LegalBaseName": "Botsford-Buckridge",
-    "ConsentPurposeId": 252,
-    "ConsentPurposeKey": "accusamus",
-    "ConsentPurposeName": "Gerhold-Ledner",
-    "ConsentSourceId": 139,
-    "ConsentSourceKey": "laudantium",
-    "ConsentSourceName": "Gerhold, Kertzmann and Quigley",
+    "ConsentPersonId": 331,
+    "Comment": "nesciunt",
+    "Registered": "2018-01-31T12:15:19.696741+01:00",
+    "RegisteredAssociateId": 591,
+    "Updated": "1999-12-06T12:15:19.696741+01:00",
+    "UpdatedAssociateId": 305,
+    "LegalBaseId": 341,
+    "LegalBaseKey": "assumenda",
+    "LegalBaseName": "Smith-Hills",
+    "ConsentPurposeId": 682,
+    "ConsentPurposeKey": "porro",
+    "ConsentPurposeName": "Ernser Group",
+    "ConsentSourceId": 70,
+    "ConsentSourceKey": "exercitationem",
+    "ConsentSourceName": "Schoen Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 395
+        "FieldType": "System.Int32",
+        "FieldLength": 380
       }
     }
   }

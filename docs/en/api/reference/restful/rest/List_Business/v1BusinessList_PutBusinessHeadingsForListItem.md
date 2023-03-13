@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 885,
-    "Name": "Parisian LLC",
-    "ToolTip": "Quo dolorem ut.",
+    "Id": 695,
+    "Name": "Jacobi-Smitham",
+    "ToolTip": "Et eaque.",
     "Deleted": false,
-    "Rank": 395,
-    "Type": "cum",
-    "ColorBlock": 126,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2015-08-05T14:19:11.1324679+02:00",
+    "Rank": 236,
+    "Type": "non",
+    "ColorBlock": 790,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2015-07-03T12:15:27.8786252+02:00",
     "ChildItems": [
       {
-        "Id": 373,
-        "Name": "Goyette Group",
-        "ToolTip": "Ut ea eaque aspernatur.",
+        "Id": 7,
+        "Name": "O'Conner LLC",
+        "ToolTip": "Architecto cum qui cum vel laborum at consequatur.",
         "Deleted": false,
-        "Rank": 569,
-        "Type": "officiis",
-        "ColorBlock": 949,
-        "IconHint": "et",
+        "Rank": 854,
+        "Type": "non",
+        "ColorBlock": 451,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2010-06-15T14:19:11.1324679+02:00",
+        "LastChanged": "2011-12-01T12:15:27.8786252+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "esse",
+        "ExtraInfo": "quo",
+        "StyleHint": "eum",
         "Hidden": true,
-        "FullName": "Josh Wuckert"
+        "FullName": "Dr. Kitty Davis"
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "quisquam",
-    "Hidden": false,
-    "FullName": "Mr. Antonina Hettie Krajcik DVM"
+    "ExtraInfo": "voluptas",
+    "StyleHint": "sint",
+    "Hidden": true,
+    "FullName": "Mrs. Lucie Stehr"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 935,
-    "Name": "Rodriguez, Gorczany and Skiles",
-    "ToolTip": "Ut doloribus amet.",
+    "Id": 666,
+    "Name": "Muller Group",
+    "ToolTip": "Aspernatur debitis sunt fugit quo.",
     "Deleted": false,
-    "Rank": 288,
-    "Type": "quia",
-    "ColorBlock": 103,
-    "IconHint": "vel",
-    "Selected": false,
-    "LastChanged": "2015-03-22T14:19:11.1324679+01:00",
+    "Rank": 791,
+    "Type": "quo",
+    "ColorBlock": 641,
+    "IconHint": "temporibus",
+    "Selected": true,
+    "LastChanged": "2014-06-26T12:15:27.880623+02:00",
     "ChildItems": [
       {
-        "Id": 834,
-        "Name": "Hauck-Wisoky",
-        "ToolTip": "Est culpa ab aliquid.",
+        "Id": 690,
+        "Name": "Weissnat, Turner and Kuvalis",
+        "ToolTip": "Quisquam dolorem nobis.",
         "Deleted": false,
-        "Rank": 715,
-        "Type": "et",
-        "ColorBlock": 193,
-        "IconHint": "omnis",
-        "Selected": true,
-        "LastChanged": "2004-07-30T14:19:11.1324679+02:00",
+        "Rank": 868,
+        "Type": "cum",
+        "ColorBlock": 622,
+        "IconHint": "corrupti",
+        "Selected": false,
+        "LastChanged": "2015-12-25T12:15:27.880623+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Francisco Hickle",
+        "ExtraInfo": "sit",
+        "StyleHint": "repellat",
+        "Hidden": true,
+        "FullName": "Ayla Haley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 647
+            "FieldType": "System.String",
+            "FieldLength": 385
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Maxime Abernathy",
+    "ExtraInfo": "tempora",
+    "StyleHint": "iste",
+    "Hidden": true,
+    "FullName": "Savannah Zackery Wiza MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 513
+        "FieldLength": 25
       }
     }
   }

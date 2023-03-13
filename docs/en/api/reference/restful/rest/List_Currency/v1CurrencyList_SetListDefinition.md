@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 950,
-  "Name": "Medhurst, Kertzmann and Dicki",
-  "Tooltip": "et",
+  "Id": 214,
+  "Name": "Ortiz LLC",
+  "Tooltip": "optio",
   "Deleted": false,
-  "Rank": 583,
+  "Rank": 739,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "atque",
-  "InUseByUserDefinedFields": true
+  "ListType": "tempora",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 548,
-  "Name": "Cummerata, Von and Wisoky",
-  "Tooltip": "ipsa",
-  "Deleted": true,
-  "Rank": 373,
+  "Id": 777,
+  "Name": "Carroll Group",
+  "Tooltip": "dolor",
+  "Deleted": false,
+  "Rank": 406,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "perspiciatis",
+  "ListType": "rerum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 638
+      "FieldType": "System.String",
+      "FieldLength": 318
     }
   }
 }

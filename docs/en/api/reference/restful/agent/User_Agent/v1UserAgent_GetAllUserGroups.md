@@ -94,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "sit",
-    "Tooltip": "quia",
-    "Id": 782,
-    "Rank": 99,
+    "Value": "dolore",
+    "Tooltip": "dolorem",
+    "Id": 389,
+    "Rank": 96,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 340
+        "FieldType": "System.String",
+        "FieldLength": 717
       }
     }
   }

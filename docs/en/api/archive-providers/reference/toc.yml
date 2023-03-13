@@ -623,16 +623,26 @@ items:
   href: templatelanguage.md
 - name: Ticket
   href: ticket.md
+- name: TicketActivatedNotification
+  href: ticketactivatednotification.md       
+- name: TicketCustomMessageNotification
+  href: ticketcustommessagenotification.md
 - name: TicketDynamicSelection
   href: ticketdynamicselection.md
 - name: TicketDynamicSelectionSingleCriteriaGroup
   href: ticketdynamicselectionsinglecriteriagroup.md
 - name: TicketDynamicSelectionV2
   href: ticketdynamicselectionv2.md
+- name: TicketEscalatedNotification
+  href: ticketescalatednotification.md       
 - name: Ticketfavourites
   href: ticketfavourites.md
+- name: TicketFavouriteUpdatedNotification
+  href: ticketfavouriteupdatednotification.md
 - name: TicketMessage
   href: ticketmessage.md
+- name: TicketNewNotification
+  href: ticketnewnotification.md
 - name: TicketNotification
   href: ticketnotification.md
 - name: TicketSelection
@@ -665,6 +675,10 @@ items:
   href: ticketstaticselection.md
 - name: TicketStaticSelectionV2
   href: ticketstaticselectionv2.md
+- name: TicketTransferredNotification
+  href: tickettransferrednotification.md
+- name: TicketUpdatedNotification
+  href: ticketupdatednotification.md
 - name: TimeZones
   href: timezones.md
 - name: UnassignedTickets

@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,36 +113,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 784,
-    "Name": "O'Connell, Schamberger and Simonis",
-    "OrgNr": "1821952",
+    "ContactId": 775,
+    "Name": "Robel-Graham",
+    "OrgNr": "1933260",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "aperiam",
-    "DirectPhone": "283.835.1865 x140",
-    "AssociateId": 357,
-    "CountryId": 451,
-    "EmailAddress": "dewayne.nienow@corwinheaney.uk",
-    "Kananame": "quas",
-    "EmailAddressName": "stanton.cormier@robel.co.uk",
+    "City": "sunt",
+    "DirectPhone": "(545)818-3569 x74809",
+    "AssociateId": 633,
+    "CountryId": 22,
+    "EmailAddress": "tamara_franecki@kozeyernser.uk",
+    "Kananame": "voluptatibus",
+    "EmailAddressName": "giovanny@kuhic.us",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Estella Feeney",
+    "AssociateFullName": "Keeley Mills",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "est",
-    "FullName": "Katelyn Marge Ward Jr.",
+    "FormattedAddress": "id",
+    "FullName": "Mohammad Metz",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 339,
-    "Number1": "1563469",
-    "Number2": "1187082",
+    "ActiveErpLinks": 569,
+    "Number1": "645952",
+    "Number2": "840540",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 449
+        "FieldLength": 767
       }
     }
   }

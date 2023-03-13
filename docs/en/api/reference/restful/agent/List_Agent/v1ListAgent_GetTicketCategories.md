@@ -92,36 +92,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 735,
-    "ParentId": 165,
-    "Name": "Rice, Eichmann and Cremin",
-    "Fullname": "quis",
-    "CategoryMaster": 999,
+    "TicketCategoryId": 483,
+    "ParentId": 402,
+    "Name": "Heidenreich, Vandervort and Waelchi",
+    "Fullname": "et",
+    "CategoryMaster": 262,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Pfeffer, Carter and Mayer",
+    "ExternalName": "Labadie, Feeney and Hackett",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 223,
-    "ReplyTemplate": 783,
-    "NotificationEmail": "tianna@hegmannstrosin.biz",
+    "AssignmentLag": 332,
+    "ReplyTemplate": 66,
+    "NotificationEmail": "zion_rutherford@rice.com",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 362,
+    "EffectiveReplyTemplateId": 417,
     "ExtraFields": {
-      "ExtraFields1": "sapiente",
-      "ExtraFields2": "qui"
+      "ExtraFields1": "nemo",
+      "ExtraFields2": "doloribus"
     },
     "CustomFields": {
-      "CustomFields1": "perferendis",
-      "CustomFields2": "deserunt"
+      "CustomFields1": "laudantium",
+      "CustomFields2": "illum"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 136
+        "FieldType": "System.String",
+        "FieldLength": 694
       }
     }
   }

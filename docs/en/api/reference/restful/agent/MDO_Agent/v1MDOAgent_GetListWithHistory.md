@@ -87,18 +87,18 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Stoltenberg-Mayert",
-  "ForceFlatList": false,
-  "AdditionalInfo": "omnis",
+  "Name": "Turcotte-Ruecker",
+  "ForceFlatList": true,
+  "AdditionalInfo": "qui",
   "HistoryItems": [
-    737,
-    651
+    159,
+    115
   ],
-  "OnlyHistory": true
+  "OnlyHistory": false
 }
 ```
 
@@ -110,50 +110,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 954,
-    "Name": "Rath Inc and Sons",
-    "ToolTip": "Nobis fugit repudiandae quia alias culpa illum.",
+    "Id": 1000,
+    "Name": "Baumbach Inc and Sons",
+    "ToolTip": "Totam aut rem provident quidem consequuntur.",
     "Deleted": false,
-    "Rank": 278,
-    "Type": "excepturi",
+    "Rank": 124,
+    "Type": "blanditiis",
     "ChildItems": [
       {
-        "Id": 43,
-        "Name": "Konopelski, Braun and Harvey",
-        "ToolTip": "Et tempora ipsum odio magni placeat voluptatem qui.",
+        "Id": 784,
+        "Name": "Swift-Cummings",
+        "ToolTip": "Qui aut possimus cupiditate similique et.",
         "Deleted": false,
-        "Rank": 164,
-        "Type": "id",
+        "Rank": 663,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "animi",
-        "ColorBlock": 556,
-        "ExtraInfo": "tempora",
-        "StyleHint": "autem",
-        "FullName": "Jamaal Keebler",
+        "ColorBlock": 807,
+        "ExtraInfo": "impedit",
+        "StyleHint": "ipsam",
+        "FullName": "Julia Norwood Osinski DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 774
+            "FieldLength": 815
           }
         }
       }
     ],
-    "IconHint": "aliquid",
-    "ColorBlock": 852,
-    "ExtraInfo": "nisi",
-    "StyleHint": "ullam",
-    "FullName": "Mae Halvorson",
+    "IconHint": "repellat",
+    "ColorBlock": 642,
+    "ExtraInfo": "natus",
+    "StyleHint": "quia",
+    "FullName": "Edyth Dach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 159
+        "FieldLength": 564
       }
     }
   }

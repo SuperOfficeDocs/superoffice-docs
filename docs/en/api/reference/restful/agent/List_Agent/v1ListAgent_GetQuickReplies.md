@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuickReplyId": 418,
-    "Name": "Marquardt LLC",
-    "HtmlBody": "eos",
+    "QuickReplyId": 667,
+    "Name": "Brakus-Graham",
+    "HtmlBody": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 46
+        "FieldType": "System.String",
+        "FieldLength": 233
       }
     }
   },
   {
-    "QuickReplyId": 418,
-    "Name": "Marquardt LLC",
-    "HtmlBody": "eos",
+    "QuickReplyId": 667,
+    "Name": "Brakus-Graham",
+    "HtmlBody": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 46
+        "FieldType": "System.String",
+        "FieldLength": 233
       }
     }
   }

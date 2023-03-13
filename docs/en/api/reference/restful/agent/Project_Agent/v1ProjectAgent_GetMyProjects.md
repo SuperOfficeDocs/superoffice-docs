@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": false
+  "IncludeMemberProjects": true
 }
 ```
 
@@ -107,30 +107,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 745,
-    "Name": "Daniel, Waelchi and Stiedemann",
-    "Description": "Vision-oriented systemic strategy",
+    "ProjectId": 192,
+    "Name": "Brekke-Gaylord",
+    "Description": "Grass-roots global contingency",
     "URL": "http://www.example.com/",
-    "Type": "pariatur",
-    "AssociateId": 288,
-    "AssociateFullName": "Amparo Brakus",
-    "TypeId": 571,
-    "Updated": "2018-11-25T14:19:03.9688343+01:00",
-    "StatusId": 169,
-    "Status": "ullam",
-    "TextId": 921,
-    "PublishTo": "2009-04-16T14:19:03.9688343+02:00",
-    "PublishFrom": "1997-01-04T14:19:03.9688343+01:00",
-    "IsPublished": true,
+    "Type": "aspernatur",
+    "AssociateId": 389,
+    "AssociateFullName": "Hyman Swift",
+    "TypeId": 523,
+    "Updated": "2021-06-01T12:15:19.8587394+02:00",
+    "StatusId": 782,
+    "Status": "repudiandae",
+    "TextId": 506,
+    "PublishTo": "1997-10-01T12:15:19.8587394+02:00",
+    "PublishFrom": "2012-02-09T12:15:19.8587394+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1102342",
-    "ActiveErpLinks": 614,
+    "ProjectNumber": "254521",
+    "ActiveErpLinks": 397,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 914
+        "FieldType": "System.Int32",
+        "FieldLength": 583
       }
     }
   }

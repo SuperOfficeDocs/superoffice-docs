@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 665,
-  "Name": "Kirlin-King",
-  "Tooltip": "placeat",
+  "Id": 635,
+  "Name": "Blanda, Koss and Hilpert",
+  "Tooltip": "rerum",
   "Deleted": true,
-  "UdListDefinitionId": 916,
-  "Rank": 707,
+  "UdListDefinitionId": 651,
+  "Rank": 478,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldLength": 467
     }
   }
 }

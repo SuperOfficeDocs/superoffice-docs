@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,23 +90,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 712,
-    "Name": "Langworth-Funk",
-    "Tooltip": "odit",
-    "SaveInDb": 214,
-    "Filename": "eius",
-    "DefaultOref": "enim",
+    "DocumentTemplateId": 68,
+    "Name": "Lueilwitz-Feest",
+    "Tooltip": "ipsam",
+    "SaveInDb": 857,
+    "Filename": "non",
+    "DefaultOref": "quibusdam",
     "RecordType": "Appointment",
-    "Deleted": 929,
+    "Deleted": 428,
     "Direction": "Incoming",
-    "AutoeventId": 160,
+    "AutoeventId": 819,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 919
+        "FieldType": "System.Int32",
+        "FieldLength": 726
       }
     }
   }

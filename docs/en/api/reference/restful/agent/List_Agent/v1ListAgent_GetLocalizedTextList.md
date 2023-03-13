@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 1002,
-    "ResourceId": 363,
-    "Text": "totam",
+    "LanguageId": 638,
+    "ResourceId": 598,
+    "Text": "beatae",
     "Type": "Column",
-    "LocalizedTextId": 953,
+    "LocalizedTextId": 309,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 268
+        "FieldLength": 953
       }
     }
   }

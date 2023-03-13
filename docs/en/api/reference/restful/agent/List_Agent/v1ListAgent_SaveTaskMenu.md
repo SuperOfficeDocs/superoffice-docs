@@ -92,20 +92,20 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 835,
-  "Name": "Hammes-Hahn",
-  "Tooltip": "explicabo",
-  "TableName": "Sauer, Bergstrom and Lynch",
-  "Area": "aut",
+  "TaskMenuId": 776,
+  "Name": "Daugherty, Hoeger and Jacobson",
+  "Tooltip": "impedit",
+  "TableName": "Buckridge, Kilback and Kautzer",
+  "Area": "sint",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 383,
+  "CrmScriptId": 647,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 918,
+  "Rank": 634,
   "Encoding": "ANSI",
-  "ProgId": "praesentium",
-  "Deleted": true
+  "ProgId": "recusandae",
+  "Deleted": false
 }
 ```
 
@@ -116,26 +116,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 172,
-  "Name": "Veum, Kuphal and Shanahan",
-  "Tooltip": "delectus",
-  "TableName": "Wunsch, Ratke and Daniel",
-  "Area": "id",
+  "TaskMenuId": 191,
+  "Name": "Williamson-Leannon",
+  "Tooltip": "totam",
+  "TableName": "Gutkowski, Maggio and Carter",
+  "Area": "et",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 676,
+  "CrmScriptId": 468,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 930,
+  "Rank": 984,
   "Encoding": "ANSI",
-  "ProgId": "distinctio",
+  "ProgId": "eum",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 550
+      "FieldLength": 306
     }
   }
 }

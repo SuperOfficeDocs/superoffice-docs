@@ -26,7 +26,7 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=animi
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=nemo
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 821,
-    "Name": "Hodkiewicz-Bartoletti",
-    "ToolTip": "Provident aliquam.",
-    "Deleted": false,
-    "Rank": 334,
-    "Type": "odit",
+    "Id": 327,
+    "Name": "Jewess-Mayer",
+    "ToolTip": "Aut expedita quam.",
+    "Deleted": true,
+    "Rank": 128,
+    "Type": "ex",
     "ChildItems": [
       {
-        "Id": 788,
-        "Name": "Cronin-Nitzsche",
-        "ToolTip": "Repudiandae a qui.",
+        "Id": 849,
+        "Name": "Bartell, Dickinson and Bauch",
+        "ToolTip": "Cupiditate dolorum laboriosam repellendus.",
         "Deleted": true,
-        "Rank": 397,
-        "Type": "sed",
+        "Rank": 163,
+        "Type": "voluptatibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ab",
-        "ColorBlock": 278,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "id",
-        "FullName": "Narciso Casper",
+        "IconHint": "numquam",
+        "ColorBlock": 353,
+        "ExtraInfo": "quis",
+        "StyleHint": "sed",
+        "FullName": "Miss Tracy Greenholt I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 146
+            "FieldType": "System.Int32",
+            "FieldLength": 743
           }
         }
       }
     ],
-    "IconHint": "eum",
-    "ColorBlock": 417,
-    "ExtraInfo": "nihil",
-    "StyleHint": "aut",
-    "FullName": "Dr. Romaine Elijah Swaniawski III",
+    "IconHint": "esse",
+    "ColorBlock": 693,
+    "ExtraInfo": "et",
+    "StyleHint": "alias",
+    "FullName": "Joy O'Reilly Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 168
+        "FieldLength": 934
       }
     }
   }

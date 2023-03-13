@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,37 +88,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 278,
-  "Name": "Kassulke Group",
-  "Tooltip": "dolor",
-  "SaveInDb": 944,
-  "Filename": "et",
-  "DefaultOref": "similique",
+  "DocumentTemplateId": 417,
+  "Name": "Jacobs LLC",
+  "Tooltip": "possimus",
+  "SaveInDb": 552,
+  "Filename": "eaque",
+  "DefaultOref": "dolores",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 269,
-  "IntentId": 857,
-  "IsDefaultPublished": true,
-  "Rank": 686,
-  "LoadTemplateFromPlugin": 422,
-  "MimeType": "voluptatum",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 726,
+  "AutoeventId": 610,
+  "IntentId": 619,
+  "IsDefaultPublished": false,
+  "Rank": 808,
+  "LoadTemplateFromPlugin": 845,
+  "MimeType": "sed",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 999,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "yesenia@ratkeleannon.uk",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
+  "EmailSubject": "liza_wisoky@stehr.uk",
+  "IncludeSignature": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "mustafa_torphy@harvey.us",
+  "SenderEmailAddress": "ansley@dare.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 395
+      "FieldType": "System.Int32",
+      "FieldLength": 683
     }
   }
 }

@@ -76,12 +76,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 422,
-  "Name": "Blanda Group",
-  "Tooltip": "neque",
+  "Id": 566,
+  "Name": "Langosh, Boehm and Batz",
+  "Tooltip": "sapiente",
   "Deleted": false,
-  "UdListDefinitionId": 609,
-  "Rank": 371
+  "UdListDefinitionId": 300,
+  "Rank": 314
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 220,
-  "Name": "Kilback, Williamson and Russel",
-  "Tooltip": "quas",
+  "Id": 683,
+  "Name": "Rolfson LLC",
+  "Tooltip": "sapiente",
   "Deleted": false,
-  "UdListDefinitionId": 998,
-  "Rank": 875,
+  "UdListDefinitionId": 824,
+  "Rank": 358,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 355
+      "FieldType": "System.Int32",
+      "FieldLength": 589
     }
   }
 }

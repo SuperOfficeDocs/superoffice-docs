@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/Archive/GetRelatedData2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "quia",
-  "RecordId": 356,
-  "Fields": "quia"
+  "Table": "quos",
+  "RecordId": 820,
+  "Fields": "voluptatum"
 }
 ```
 
@@ -93,11 +93,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "temporibus",
+    "Field": "distinctio",
     "FieldValue": null
   },
   {
-    "Field": "temporibus",
+    "Field": "distinctio",
     "FieldValue": null
   }
 ]

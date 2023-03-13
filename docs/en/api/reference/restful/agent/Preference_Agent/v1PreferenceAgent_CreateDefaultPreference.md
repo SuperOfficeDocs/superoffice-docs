@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,22 +77,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "consequuntur",
+  "RawValue": "laborum",
   "Specification": null,
-  "DisplayValue": "consequatur",
-  "DisplayTooltip": "neque",
+  "DisplayValue": "dolorem",
+  "DisplayTooltip": "praesentium",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 703,
-  "PrefDescId": 532,
-  "TableName": "Wiza-Lowe",
-  "UserPreferenceId": 505,
+  "TargetId": 56,
+  "PrefDescId": 86,
+  "TableName": "Krajcik-Bergstrom",
+  "UserPreferenceId": 677,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 544
+      "FieldLength": 642
     }
   }
 }

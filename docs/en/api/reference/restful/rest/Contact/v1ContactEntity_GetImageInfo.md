@@ -72,7 +72,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,28 +80,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 20 Apr 2007 14:19:10 G4T
+Last-Modified: Tue, 08 Jun 2004 12:15:26 G6T
 
 {
-  "BlobId": 382,
-  "BlobSize": 646,
-  "Description": "Triple-buffered next generation hierarchy",
-  "ExtraInfo": "quia",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "sed",
-  "OriginalSize": 227,
-  "CreatedDate": "2015-10-08T14:19:10.1310974+02:00",
-  "UpdatedDate": "2007-04-20T14:19:10.1310974+02:00",
+  "BlobId": 797,
+  "BlobSize": 918,
+  "Description": "Reactive bottom-line interface",
+  "ExtraInfo": "ullam",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "ea",
+  "OriginalSize": 421,
+  "CreatedDate": "2015-03-10T12:15:26.5566422+01:00",
+  "UpdatedDate": "2004-06-08T12:15:26.5566422+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "odit",
+  "ConceptualType": "dolore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldType": "System.String",
+      "FieldLength": 875
     }
   }
 }

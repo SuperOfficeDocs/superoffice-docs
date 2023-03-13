@@ -165,17 +165,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bradtke, Jenkins and Schneider",
-  "Columns": "unde",
-  "SortOrder": "molestiae",
-  "Restrictions": "molestiae",
-  "Entities": "enim",
-  "Page": 272,
-  "PageSize": 243
+  "ProviderName": "Johns, Cronin and Weber",
+  "Columns": "cupiditate",
+  "SortOrder": "omnis",
+  "Restrictions": "excepturi",
+  "Entities": "numquam",
+  "Page": 194,
+  "PageSize": 459
 }
 ```
 
@@ -187,23 +187,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Jacobi, Kovacek and Stanton",
-    "PrimaryKey": 78,
+    "EntityName": "Moore, Kshlerin and Von",
+    "PrimaryKey": 251,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "ab",
-        "TooltipHint": "accusantium",
-        "LinkHint": "maxime"
+        "DisplayValue": "porro",
+        "TooltipHint": "rerum",
+        "LinkHint": "id"
       }
     },
-    "LinkHint": "illo",
-    "StyleHint": "aut",
+    "LinkHint": "ex",
+    "StyleHint": "molestias",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 805
+        "FieldType": "System.String",
+        "FieldLength": 548
       }
     }
   }

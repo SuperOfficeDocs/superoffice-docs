@@ -95,7 +95,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 365
+  "DocumentId": 564
 }
 ```
 
@@ -106,32 +106,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 653,
-  "Attention": "voluptatum",
-  "Header": "sit",
-  "Name": "Brakus-Kuphal",
-  "OurRef": "accusamus",
-  "YourRef": "culpa",
-  "Description": "Fully-configurable non-volatile paradigm",
-  "DocumentTemplate": "eaque",
-  "IsPublished": true,
-  "PersonId": 744,
-  "PersonFullName": "Petra Harris",
-  "AssociateFullName": "Dusty Padberg",
-  "ContactId": 14,
-  "ContactName": "Eichmann Group",
-  "ProjectId": 467,
-  "ProjectName": "Goyette LLC",
-  "AssociateId": 611,
-  "Snum": 383,
-  "SaleId": 958,
-  "SaleName": "Wisozk, Medhurst and Stracke",
+  "DocumentId": 893,
+  "Attention": "iure",
+  "Header": "excepturi",
+  "Name": "Rosenbaum, Mertz and Denesik",
+  "OurRef": "quia",
+  "YourRef": "quis",
+  "Description": "Customizable 4th generation superstructure",
+  "DocumentTemplate": "temporibus",
+  "IsPublished": false,
+  "PersonId": 779,
+  "PersonFullName": "Emmie Quitzon",
+  "AssociateFullName": "Kallie Windler",
+  "ContactId": 618,
+  "ContactName": "Huel LLC",
+  "ProjectId": 450,
+  "ProjectName": "Renner, Wisozk and Lehner",
+  "AssociateId": 603,
+  "Snum": 632,
+  "SaleId": 124,
+  "SaleName": "Heidenreich Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 982
+      "FieldType": "System.String",
+      "FieldLength": 531
     }
   }
 }

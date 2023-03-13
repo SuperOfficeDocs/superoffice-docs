@@ -109,7 +109,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyBizCard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -119,157 +119,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 762,
-  "Name": "Streich, Reilly and Johnson",
-  "Department": "enable revolutionary e-business",
-  "OrgNr": "1283605",
-  "Number1": "1109916",
-  "Number2": "1180694",
-  "UpdatedDate": "2019-08-25T14:19:03.0105285+02:00",
-  "CreatedDate": "2022-02-28T14:19:03.0105285+01:00",
+  "ContactId": 293,
+  "Name": "Mills-Waters",
+  "Department": "",
+  "OrgNr": "774535",
+  "Number1": "1608894",
+  "Number2": "966051",
+  "UpdatedDate": "2015-03-11T12:15:18.5457603+01:00",
+  "CreatedDate": "2009-01-09T12:15:18.5457603+01:00",
   "Emails": [
     {
-      "Value": "illo",
-      "StrippedValue": "optio",
-      "Description": "Persistent eco-centric middleware",
+      "Value": "voluptas",
+      "StrippedValue": "et",
+      "Description": "Fundamental bottom-line hierarchy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 472
+          "FieldLength": 892
         }
       }
     },
     {
-      "Value": "illo",
-      "StrippedValue": "optio",
-      "Description": "Persistent eco-centric middleware",
+      "Value": "voluptas",
+      "StrippedValue": "et",
+      "Description": "Fundamental bottom-line hierarchy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 472
+          "FieldLength": 892
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 5,
-      "Name": "Medhurst LLC",
-      "ToolTip": "Molestias veniam dolore.",
+      "Id": 522,
+      "Name": "Vandervort, Schowalter and Ernser",
+      "ToolTip": "Doloribus animi pariatur accusantium.",
       "Deleted": false,
-      "Rank": 315,
-      "Type": "libero",
-      "ColorBlock": 563,
-      "IconHint": "maiores",
+      "Rank": 221,
+      "Type": "reprehenderit",
+      "ColorBlock": 900,
+      "IconHint": "tempora",
       "Selected": false,
-      "LastChanged": "2003-05-29T14:19:03.0105285+02:00",
+      "LastChanged": "2015-03-16T12:15:18.5457603+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ducimus",
-      "StyleHint": "tempora",
-      "Hidden": true,
-      "FullName": "Erich Kilback",
+      "ExtraInfo": "molestiae",
+      "StyleHint": "voluptatum",
+      "Hidden": false,
+      "FullName": "Destiny Koelpin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 871
+          "FieldType": "System.String",
+          "FieldLength": 428
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "dolore",
-      "StrippedValue": "quam",
-      "Description": "Upgradable next generation synergy",
+      "Value": "consequatur",
+      "StrippedValue": "sit",
+      "Description": "Horizontal interactive encryption",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 502
+          "FieldLength": 586
         }
       }
     },
     {
-      "Value": "dolore",
-      "StrippedValue": "quam",
-      "Description": "Upgradable next generation synergy",
+      "Value": "consequatur",
+      "StrippedValue": "sit",
+      "Description": "Horizontal interactive encryption",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 502
+          "FieldLength": 586
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "est",
-      "StrippedValue": "commodi",
-      "Description": "Public-key bandwidth-monitored pricing structure",
+      "Value": "ex",
+      "StrippedValue": "aut",
+      "Description": "Focused uniform utilisation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 992
+          "FieldLength": 676
         }
       }
     },
     {
-      "Value": "est",
-      "StrippedValue": "commodi",
-      "Description": "Public-key bandwidth-monitored pricing structure",
+      "Value": "ex",
+      "StrippedValue": "aut",
+      "Description": "Focused uniform utilisation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 992
+          "FieldLength": 676
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "voluptates",
-      "StrippedValue": "perspiciatis",
-      "Description": "Reduced holistic collaboration",
+      "Value": "est",
+      "StrippedValue": "voluptatem",
+      "Description": "User-centric user-facing intranet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 23
+          "FieldLength": 603
         }
       }
     },
     {
-      "Value": "voluptates",
-      "StrippedValue": "perspiciatis",
-      "Description": "Reduced holistic collaboration",
+      "Value": "est",
+      "StrippedValue": "voluptatem",
+      "Description": "User-centric user-facing intranet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 23
+          "FieldLength": 603
         }
       }
     }
   ],
-  "Description": "Organic local encoding",
+  "Description": "Progressive coherent application",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -278,100 +278,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "culpa",
-      "PersonId": 745,
-      "Mrmrs": "omnis",
-      "Firstname": "Dillan",
-      "Lastname": "Simonis",
-      "MiddleName": "Mitchell, Rath and Donnelly",
-      "Title": "culpa",
-      "Description": "Front-line impactful utilisation",
-      "Email": "stanton.hahn@powlowski.ca",
-      "FullName": "Haley Stanton",
-      "DirectPhone": "(899)638-7407 x13068",
-      "FormalName": "Borer-Olson",
-      "CountryId": 627,
-      "ContactId": 953,
-      "ContactName": "Flatley, Smith and Gibson",
-      "Retired": 433,
-      "Rank": 609,
-      "ActiveInterests": 863,
+      "Position": "pariatur",
+      "PersonId": 26,
+      "Mrmrs": "labore",
+      "Firstname": "Gregg",
+      "Lastname": "D'Amore",
+      "MiddleName": "Dickens-Stanton",
+      "Title": "impedit",
+      "Description": "Balanced holistic parallelism",
+      "Email": "reta_konopelski@bergstromgusikowski.com",
+      "FullName": "Prof. Monserrate Blake Turner",
+      "DirectPhone": "1-270-337-9575 x2247",
+      "FormalName": "Beatty, Ledner and Stiedemann",
+      "CountryId": 716,
+      "ContactId": 73,
+      "ContactName": "Durgan LLC",
+      "Retired": 750,
+      "Rank": 33,
+      "ActiveInterests": 211,
       "ContactDepartment": "",
-      "ContactCountryId": 896,
-      "ContactOrgNr": "1364790",
-      "FaxPhone": "(375)440-2226",
-      "MobilePhone": "(451)092-0273",
-      "ContactPhone": "1-052-495-8344 x06689",
-      "AssociateName": "Larkin-Reynolds",
-      "AssociateId": 349,
+      "ContactCountryId": 947,
+      "ContactOrgNr": "1270234",
+      "FaxPhone": "(645)304-6877 x830",
+      "MobilePhone": "013.138.3036 x84774",
+      "ContactPhone": "(388)572-9044",
+      "AssociateName": "Steuber-Jerde",
+      "AssociateId": 98,
       "UsePersonAddress": false,
-      "ContactFax": "molestiae",
-      "Kanafname": "quos",
-      "Kanalname": "veniam",
-      "Post1": "aut",
-      "Post2": "quibusdam",
-      "Post3": "rerum",
-      "EmailName": "abbie.marvin@cassin.info",
-      "ContactFullName": "Miss Patricia McDermott",
-      "ActiveErpLinks": 429,
-      "TicketPriorityId": 238,
-      "SupportLanguageId": 303,
-      "SupportAssociateId": 518,
+      "ContactFax": "autem",
+      "Kanafname": "quam",
+      "Kanalname": "tempore",
+      "Post1": "omnis",
+      "Post2": "et",
+      "Post3": "corrupti",
+      "EmailName": "alberto.goldner@lebsack.com",
+      "ContactFullName": "Scotty Stehr",
+      "ActiveErpLinks": 129,
+      "TicketPriorityId": 214,
+      "SupportLanguageId": 975,
+      "SupportAssociateId": 468,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 295
+          "FieldType": "System.String",
+          "FieldLength": 632
         }
       }
     }
   ],
-  "NoMailing": true,
-  "Kananame": "ut",
-  "Xstop": false,
-  "ActiveInterests": 94,
-  "GroupId": 594,
-  "ActiveStatusMonitorId": 695,
+  "NoMailing": false,
+  "Kananame": "qui",
+  "Xstop": true,
+  "ActiveInterests": 613,
+  "GroupId": 34,
+  "ActiveStatusMonitorId": 302,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 783,
-  "DbiAgentId": 148,
-  "DbiLastSyncronized": "2007-05-23T14:19:03.0105285+02:00",
-  "DbiKey": "dolorem",
-  "DbiLastModified": "2011-02-14T14:19:03.0105285+01:00",
+  "Deleted": 835,
+  "DbiAgentId": 347,
+  "DbiLastSyncronized": "2018-12-27T12:15:18.5507582+01:00",
+  "DbiKey": "voluptatem",
+  "DbiLastModified": "2003-01-06T12:15:18.5507582+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 333,
-  "ActiveErpLinks": 320,
+  "Source": 413,
+  "ActiveErpLinks": 184,
   "BounceEmails": [
-    "desmond.herzog@grady.co.uk",
-    "rasheed@miller.us"
+    "lottie.streich@hillsspinka.info",
+    "rod.pagac@labadie.biz"
   ],
   "Domains": [
-    "magni",
-    "sequi"
+    "doloribus",
+    "tenetur"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Nadia Shanahan",
-    "SuperOffice:2": "Kiera Dooley"
+    "SuperOffice:1": "1386295512",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "perspiciatis",
-    "ExtraFields2": "et"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "temporibus"
+    "CustomFields1": "nihil",
+    "CustomFields2": "quia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 354
+      "FieldLength": 660
     }
   }
 }

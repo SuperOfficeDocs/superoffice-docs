@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 350,
-    "Name": "Boehm Inc and Sons",
-    "Tooltip": "ullam",
-    "Deleted": false,
-    "Rank": 415,
-    "UdListDefinitionId": 421,
+    "HeadingId": 786,
+    "Name": "Mueller-Larkin",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 147,
+    "UdListDefinitionId": 873,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 889
+        "FieldType": "System.String",
+        "FieldLength": 218
       }
     }
   }

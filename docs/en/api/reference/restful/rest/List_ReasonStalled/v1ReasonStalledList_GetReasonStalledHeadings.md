@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 662,
-    "Name": "Bins, Jakubowski and Hahn",
-    "Tooltip": "dolores",
-    "Deleted": false,
-    "Rank": 411,
-    "UdListDefinitionId": 797,
+    "HeadingId": 168,
+    "Name": "Hermann Group",
+    "Tooltip": "placeat",
+    "Deleted": true,
+    "Rank": 883,
+    "UdListDefinitionId": 179,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 904
+        "FieldLength": 77
       }
     }
   }

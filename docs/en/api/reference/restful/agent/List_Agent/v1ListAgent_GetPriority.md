@@ -25,7 +25,7 @@ Gets a Priority object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetPriority?priorityId=430
+POST /api/v1/Agents/List/GetPriority?priorityId=772
 POST /api/v1/Agents/List/GetPriority?$select=name,department,category/id
 ```
 
@@ -78,15 +78,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 595,
-  "Value": "minus",
-  "Tooltip": "ex",
+  "Id": 519,
+  "Value": "ad",
+  "Tooltip": "voluptate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldType": "System.String",
+      "FieldLength": 198
     }
   }
 }

@@ -78,7 +78,7 @@ OK
 GET /api/v1/Schema/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,18 +90,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Dooley Group",
-    "DisplayName": "Kihn-Bogisich",
-    "Description": "Multi-channelled discrete utilisation",
-    "ShortLabel": "voluptatibus",
+    "FieldName": "Kris, Hammes and Gislason",
+    "DisplayName": "Ernser-Hand",
+    "Description": "Multi-lateral system-worthy alliance",
+    "ShortLabel": "beatae",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": true,
-    "IsReadOnly": true,
-    "IsExternal": false,
-    "Rank": 420,
-    "TemplateVariableName": "Kuvalis Inc and Sons"
+    "IsReadOnly": false,
+    "IsExternal": true,
+    "Rank": 904,
+    "TemplateVariableName": "Wehner Inc and Sons"
   }
 ]
 ```

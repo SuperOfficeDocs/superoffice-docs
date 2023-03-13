@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "provident",
-    "exercitationem"
+    "sint",
+    "maiores"
   ],
   "OwnerType": "Appointment"
 }
@@ -128,46 +128,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 623,
-    "ColumnId": 298,
-    "FieldDefault": "deleniti",
-    "FieldHeight": 547,
-    "FieldLabel": "dolorum",
-    "FieldLeft": 465,
-    "FieldTop": 873,
+    "UDefFieldId": 638,
+    "ColumnId": 300,
+    "FieldDefault": "et",
+    "FieldHeight": 501,
+    "FieldLabel": "nihil",
+    "FieldLeft": 887,
+    "FieldTop": 364,
     "FieldType": "Checkbox",
-    "FieldWidth": 543,
-    "FormatMask": "sit",
+    "FieldWidth": 69,
+    "FormatMask": "ea",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 160,
-    "LabelLeft": 198,
-    "LabelTop": 108,
-    "LabelWidth": 375,
-    "LastVersionId": 642,
-    "ListTableId": 92,
-    "IsMandatory": false,
+    "LabelHeight": 964,
+    "LabelLeft": 472,
+    "LabelTop": 723,
+    "LabelWidth": 292,
+    "LastVersionId": 127,
+    "ListTableId": 859,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 53,
-    "ProgId": "voluptatem",
+    "Page1LineNo": 801,
+    "ProgId": "assumenda",
     "IsReadOnly": false,
-    "ShortLabel": "soluta",
-    "TabOrder": 528,
-    "TextLength": 184,
-    "Tooltip": "sunt",
-    "UdefIdentity": 754,
-    "UDListDefinitionId": 822,
+    "ShortLabel": "voluptate",
+    "TabOrder": 961,
+    "TextLength": 493,
+    "Tooltip": "quaerat",
+    "UdefIdentity": 719,
+    "UDListDefinitionId": 505,
     "Justification": "Center",
-    "Version": 610,
-    "TemplateVariableName": "Muller LLC",
+    "Version": 4,
+    "TemplateVariableName": "Reinger-Stamm",
     "HasBeenPublished": false,
-    "MdoListName": "Murazik LLC",
+    "MdoListName": "Schimmel, Hahn and Zulauf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 808
+        "FieldLength": 13
       }
     }
   }

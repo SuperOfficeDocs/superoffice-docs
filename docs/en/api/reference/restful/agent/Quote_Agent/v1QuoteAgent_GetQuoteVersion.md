@@ -110,11 +110,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 110
+  "QuoteVersionId": 807
 }
 ```
 
@@ -125,75 +125,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 513,
-  "ERPQuoteVersionKey": "adipisci",
-  "QuoteId": 818,
-  "Description": "Exclusive directional model",
-  "Number": "715283",
+  "QuoteVersionId": 980,
+  "ERPQuoteVersionKey": "ut",
+  "QuoteId": 821,
+  "Description": "Exclusive zero tolerance project",
+  "Number": "1123261",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 512,
-  "SentDate": "1996-12-01T14:19:03.984459+01:00",
-  "FollowupId": 134,
-  "ExpirationDate": "2008-02-07T14:19:03.984459+01:00",
-  "DeliveryCountryId": 301,
+  "LikelyQuoteAlternativeId": 505,
+  "SentDate": "2006-08-22T12:15:19.893738+02:00",
+  "FollowupId": 725,
+  "ExpirationDate": "2002-05-14T12:15:19.893738+02:00",
+  "DeliveryCountryId": 56,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 957,
+  "InvoiceCountryId": 375,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "alias",
-  "ERPPaymentTypeKey": "minus",
-  "ERPDeliveryTermsKey": "ut",
-  "ERPDeliveryTypeKey": "unde",
-  "Rank": 158,
-  "ApprovedBy": 202,
-  "ApprovedText": "ad",
-  "ApprovedRegisteredBy": 742,
-  "ApprovedRegisteredDate": "2006-11-14T14:19:03.984459+01:00",
-  "ExtraField1": "dolor",
-  "ExtraField2": "rerum",
-  "ExtraField3": "nisi",
-  "ExtraField4": "necessitatibus",
-  "ExtraField5": "eos",
-  "LastRecalculated": "1998-02-04T14:19:03.984459+01:00",
-  "Updated": "1997-06-24T14:19:03.984459+02:00",
-  "UpdatedAssociateId": 872,
-  "Registered": "2005-06-23T14:19:03.984459+02:00",
-  "RegisteredAssociateId": 812,
-  "RequestAssociateId": 930,
-  "RequestComment": "quo",
+  "ERPPaymentTermsKey": "natus",
+  "ERPPaymentTypeKey": "provident",
+  "ERPDeliveryTermsKey": "repellendus",
+  "ERPDeliveryTypeKey": "accusamus",
+  "Rank": 874,
+  "ApprovedBy": 225,
+  "ApprovedText": "accusamus",
+  "ApprovedRegisteredBy": 895,
+  "ApprovedRegisteredDate": "2014-04-09T12:15:19.893738+02:00",
+  "ExtraField1": "velit",
+  "ExtraField2": "sed",
+  "ExtraField3": "quidem",
+  "ExtraField4": "rerum",
+  "ExtraField5": "ad",
+  "LastRecalculated": "2017-12-15T12:15:19.893738+01:00",
+  "Updated": "2019-10-13T12:15:19.893738+02:00",
+  "UpdatedAssociateId": 166,
+  "Registered": "2022-11-11T12:15:19.893738+01:00",
+  "RegisteredAssociateId": 145,
+  "RequestAssociateId": 984,
+  "RequestComment": "ullam",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 637,
-      "ERPQuoteAlternativeKey": "esse",
-      "QuoteVersionId": 713,
-      "Name": "Halvorson, Nienow and Will",
-      "Description": "Universal multi-state intranet",
+      "QuoteAlternativeId": 656,
+      "ERPQuoteAlternativeKey": "beatae",
+      "QuoteVersionId": 97,
+      "Name": "Kirlin LLC",
+      "Description": "User-centric global collaboration",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 3027.444,
-      "ERPDiscountAmount": 1711.164,
-      "DiscountPercent": 7697.1039999999994,
-      "DiscountAmount": 7333.5599999999995,
+      "ERPDiscountPercent": 28945.624,
+      "ERPDiscountAmount": 10263.85,
+      "DiscountPercent": 30211.76,
+      "DiscountAmount": 21922.329999999998,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "saepe",
-      "VAT": 8464.934,
-      "EarningPercent": 29484.672,
-      "EarningAmount": 13636.034,
-      "SubTotal": 21912.928,
-      "TotalPrice": 21897.257999999998,
-      "ExtraField1": "dolorum",
-      "ExtraField2": "quis",
-      "ExtraField3": "ea",
-      "ExtraField4": "cupiditate",
-      "ExtraField5": "quae",
+      "VATInfo": "aut",
+      "VAT": 4669.66,
+      "EarningPercent": 16817.043999999998,
+      "EarningAmount": 466.966,
+      "SubTotal": 30324.584,
+      "TotalPrice": 30211.76,
+      "ExtraField1": "rem",
+      "ExtraField2": "eaque",
+      "ExtraField3": "quas",
+      "ExtraField4": "reprehenderit",
+      "ExtraField5": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 390
+          "FieldType": "System.Int32",
+          "FieldLength": 252
         }
       }
     }
@@ -202,8 +202,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 273
+      "FieldType": "System.Int32",
+      "FieldLength": 48
     }
   }
 }

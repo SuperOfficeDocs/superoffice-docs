@@ -91,27 +91,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 559,
-  "Name": "Howe-Jakubowski",
-  "CreatedDate": "1998-04-30T14:19:10.3498478+02:00",
-  "UpdatedDate": "1995-12-18T14:19:10.3498478+01:00",
+  "ForeignAppId": 641,
+  "Name": "Wisoky, Gislason and Spencer",
+  "CreatedDate": "2000-09-05T12:15:26.9536393+02:00",
+  "UpdatedDate": "1997-08-11T12:15:26.9536393+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 621,
-      "Name": "Ullrich, Kassulke and Gerlach",
-      "CreatedDate": "1996-01-27T14:19:10.3498478+01:00",
-      "UpdatedDate": "2002-09-29T14:19:10.3498478+02:00",
-      "AssociateFullName": "Irving Austyn Crist Sr.",
-      "CreatedBy": "repellat",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "molestiae",
-      "ForeignAppId": 946
+      "ForeignDeviceId": 586,
+      "Name": "Jones-White",
+      "CreatedDate": "2022-09-22T12:15:26.9546357+02:00",
+      "UpdatedDate": "1996-07-01T12:15:26.9546357+02:00",
+      "AssociateFullName": "Ms. Gavin Lebsack DVM",
+      "CreatedBy": "eius",
+      "UpdatedBy": "molestiae",
+      "DeviceIdentifier": "eum",
+      "ForeignAppId": 123
     }
   ]
 }
@@ -124,29 +124,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 76,
-  "Name": "Hintz, Corwin and Armstrong",
-  "CreatedDate": "1998-02-08T14:19:10.3498478+01:00",
-  "UpdatedDate": "2009-06-09T14:19:10.3498478+02:00",
+  "ForeignAppId": 772,
+  "Name": "Tremblay-Ullrich",
+  "CreatedDate": "1997-03-18T12:15:26.956636+01:00",
+  "UpdatedDate": "2009-11-20T12:15:26.956636+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 964,
-      "Name": "Hayes-Satterfield",
-      "CreatedDate": "2001-01-27T14:19:10.3498478+01:00",
-      "UpdatedDate": "1996-06-18T14:19:10.3498478+02:00",
-      "AssociateFullName": "Baylee West",
-      "CreatedBy": "laborum",
-      "UpdatedBy": "mollitia",
-      "DeviceIdentifier": "repudiandae",
-      "ForeignAppId": 878,
+      "ForeignDeviceId": 878,
+      "Name": "Bergnaum-Stamm",
+      "CreatedDate": "1999-02-16T12:15:26.956636+01:00",
+      "UpdatedDate": "2017-12-03T12:15:26.956636+01:00",
+      "AssociateFullName": "Aniya Grady",
+      "CreatedBy": "enim",
+      "UpdatedBy": "aut",
+      "DeviceIdentifier": "est",
+      "ForeignAppId": 251,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 973
+          "FieldType": "System.Int32",
+          "FieldLength": 626
         }
       }
     }
@@ -156,12 +156,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldLength": 319
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

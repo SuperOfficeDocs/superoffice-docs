@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 165
+  "TicketEntityId": 384
 }
 ```
 
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 541,
-    "Name": "Weissnat LLC",
-    "ContentType": "eum",
-    "AttSize": 822,
+    "AttachmentId": 960,
+    "Name": "Wintheiser, Grant and Goldner",
+    "ContentType": "omnis",
+    "AttSize": 139,
     "InlineImage": false,
-    "ContentId": "repudiandae",
+    "ContentId": "odit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 828
+        "FieldLength": 23
       }
     }
   }

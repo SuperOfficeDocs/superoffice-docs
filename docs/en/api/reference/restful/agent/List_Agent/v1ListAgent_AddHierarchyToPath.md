@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/List/AddHierarchyToPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "ut",
-  "Name": "Metz Inc and Sons"
+  "Path": "cupiditate",
+  "Name": "Koelpin Group"
 }
 ```
 
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 744,
+  "HierarchyId": 928,
   "Domain": "Dashboards",
-  "Name": "Stracke LLC",
-  "Fullname": "nostrum",
-  "ParentId": 614,
+  "Name": "Erdman-Pfeffer",
+  "Fullname": "laborum",
+  "ParentId": 985,
   "Children": [
     {
-      "HierarchyId": 544,
+      "HierarchyId": 252,
       "Domain": "Dashboards",
-      "Name": "Kerluke, Stracke and Hahn",
-      "Fullname": "harum",
-      "ParentId": 321,
+      "Name": "Berge, Von and Marquardt",
+      "Fullname": "delectus",
+      "ParentId": 209,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2019-12-27T14:19:03.6707496+01:00",
-      "RegisteredAssociateId": 503,
-      "Updated": "2015-08-23T14:19:03.6707496+02:00",
-      "UpdatedAssociateId": 373,
+      "Registered": "2007-04-12T12:15:19.3137481+02:00",
+      "RegisteredAssociateId": 359,
+      "Updated": "1999-10-28T12:15:19.3137481+02:00",
+      "UpdatedAssociateId": 666,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 923
+          "FieldLength": 187
         }
       }
     }
   ],
-  "Registered": "2006-05-24T14:19:03.6707496+02:00",
-  "RegisteredAssociateId": 226,
-  "Updated": "2005-02-14T14:19:03.6707496+01:00",
-  "UpdatedAssociateId": 853,
+  "Registered": "2009-08-04T12:15:19.3137481+02:00",
+  "RegisteredAssociateId": 553,
+  "Updated": "2001-08-22T12:15:19.3137481+02:00",
+  "UpdatedAssociateId": 873,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 904
+      "FieldLength": 720
     }
   }
 }

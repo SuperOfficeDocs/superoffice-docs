@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 14,
-  "Name": "Yundt-Kerluke",
-  "Tooltip": "pariatur",
+  "Id": 15,
+  "Name": "Okuneva Inc and Sons",
+  "Tooltip": "ratione",
   "Deleted": true,
-  "UdListDefinitionId": 694,
-  "Rank": 284
+  "UdListDefinitionId": 240,
+  "Rank": 765
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 985,
-  "Name": "Hane, McDermott and Hauck",
-  "Tooltip": "facere",
-  "Deleted": true,
-  "UdListDefinitionId": 282,
-  "Rank": 87,
+  "Id": 64,
+  "Name": "Kshlerin LLC",
+  "Tooltip": "nam",
+  "Deleted": false,
+  "UdListDefinitionId": 536,
+  "Rank": 715,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 208
+      "FieldLength": 269
     }
   }
 }

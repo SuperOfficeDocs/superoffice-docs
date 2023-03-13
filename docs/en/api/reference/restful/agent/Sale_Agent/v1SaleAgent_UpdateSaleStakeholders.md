@@ -90,31 +90,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Nienow, Gutkowski and King",
-      "Comment": "perferendis",
-      "StakeholderRoleId": 607,
-      "CountryId": 81,
-      "PersonId": 967,
-      "EmailDescription": "vince_grant@gerhold.biz",
-      "EmailId": 153,
-      "EmailAddress": "dax_hodkiewicz@bergeraynor.biz",
-      "PhoneId": 289,
-      "ContactName": "Johnston, Shanahan and Green",
-      "ContactId": 315,
-      "SaleId": 93,
-      "Mrmrs": "qui",
-      "Firstname": "Nyah",
-      "MiddleName": "McKenzie Inc and Sons",
-      "Lastname": "Rau",
-      "SaleStakeholderId": 554,
-      "Rank": 382,
-      "Phone": "346-473-0645 x9948"
+      "StakeholderRoleName": "Wolff LLC",
+      "Comment": "repellendus",
+      "StakeholderRoleId": 207,
+      "CountryId": 935,
+      "PersonId": 203,
+      "EmailDescription": "ole_bogan@herman.uk",
+      "EmailId": 988,
+      "EmailAddress": "warren@hamill.info",
+      "PhoneId": 384,
+      "ContactName": "Hettinger LLC",
+      "ContactId": 901,
+      "SaleId": 632,
+      "Mrmrs": "tenetur",
+      "Firstname": "Rahul",
+      "MiddleName": "Lind-Rowe",
+      "Lastname": "Ward",
+      "SaleStakeholderId": 74,
+      "Rank": 98,
+      "Phone": "1-146-977-7148"
     }
   ]
 }
@@ -128,31 +128,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Parisian, Keebler and Leffler",
-    "Comment": "est",
-    "StakeholderRoleId": 60,
-    "CountryId": 56,
-    "PersonId": 838,
-    "EmailDescription": "candice.bosco@reicheltowne.uk",
-    "EmailId": 158,
-    "EmailAddress": "ubaldo@bartell.us",
-    "PhoneId": 665,
-    "ContactName": "Fisher, Farrell and Aufderhar",
-    "ContactId": 242,
-    "SaleId": 250,
-    "Mrmrs": "architecto",
-    "Firstname": "Maximo",
-    "MiddleName": "Streich-Lindgren",
-    "Lastname": "Miller",
-    "SaleStakeholderId": 328,
-    "Rank": 906,
-    "Phone": "(269)639-9484",
+    "StakeholderRoleName": "Hoeger-McCullough",
+    "Comment": "dolor",
+    "StakeholderRoleId": 453,
+    "CountryId": 422,
+    "PersonId": 570,
+    "EmailDescription": "gracie_orn@predovic.com",
+    "EmailId": 967,
+    "EmailAddress": "bridget@willms.biz",
+    "PhoneId": 148,
+    "ContactName": "Terry, Kiehn and Swift",
+    "ContactId": 875,
+    "SaleId": 34,
+    "Mrmrs": "assumenda",
+    "Firstname": "Kurtis",
+    "MiddleName": "Ortiz, Runolfsdottir and Schuppe",
+    "Lastname": "Marvin",
+    "SaleStakeholderId": 671,
+    "Rank": 340,
+    "Phone": "1-072-971-8183",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 285
+        "FieldLength": 222
       }
     }
   }

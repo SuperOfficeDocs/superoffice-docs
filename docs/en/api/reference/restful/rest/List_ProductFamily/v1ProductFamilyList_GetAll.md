@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 797,
-    "Name": "Lowe-Dicki",
-    "Tooltip": "ratione",
+    "Id": 751,
+    "Name": "Connelly Group",
+    "Tooltip": "incidunt",
     "Deleted": false,
-    "UdListDefinitionId": 981,
-    "Rank": 916,
+    "UdListDefinitionId": 498,
+    "Rank": 707,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 888
+        "FieldLength": 378
       }
     }
   }

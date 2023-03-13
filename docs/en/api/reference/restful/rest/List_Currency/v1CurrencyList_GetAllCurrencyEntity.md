@@ -26,7 +26,7 @@ Calls the List agent service GetAllCurrencyEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Currency/Items?includeDeleted=False
+GET /api/v1/List/Currency/Items?includeDeleted=True
 ```
 
 
@@ -72,7 +72,7 @@ OK
 GET /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,19 +83,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 541,
-    "Name": "Champlin-Harris",
-    "Tooltip": "esse",
-    "Rank": 589,
-    "Rate": 28604.018,
-    "Units": 6412.164,
+    "CurrencyId": 14,
+    "Name": "Morissette Inc and Sons",
+    "Tooltip": "assumenda",
+    "Rank": 525,
+    "Rate": 11147.637999999999,
+    "Units": 19493.48,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 440
+        "FieldType": "System.String",
+        "FieldLength": 891
       }
     }
   }

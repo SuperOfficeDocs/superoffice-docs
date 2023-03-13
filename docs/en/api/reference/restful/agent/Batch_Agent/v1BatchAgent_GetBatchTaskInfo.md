@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 378
+  "Id": 980
 }
 ```
 
@@ -108,37 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 699,
-  "Name": "Mosciski-McLaughlin",
-  "AssociateId": 971,
-  "DetailsTable": 891,
-  "DetailsRecord": 368,
+  "Id": 135,
+  "Name": "Howe-Price",
+  "AssociateId": 619,
+  "DetailsTable": 220,
+  "DetailsRecord": 287,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "neque",
-    "ParameterObject2": "quo"
+    "ParameterObject1": "quo",
+    "ParameterObject2": "molestias"
   },
-  "LastStarted": "2004-11-05T14:19:02.7594283+01:00",
-  "Created": "2004-07-11T14:19:02.7594283+02:00",
-  "StartCount": 85,
-  "DatabaseSerialNumber": "909587",
-  "Context": "ut",
-  "Result": "quis",
+  "LastStarted": "2003-10-18T12:15:18.2027627+02:00",
+  "Created": "2018-10-31T12:15:18.2027627+01:00",
+  "StartCount": 523,
+  "DatabaseSerialNumber": "804805",
+  "Context": "voluptates",
+  "Result": "reiciendis",
   "State": "All",
-  "Description": "Synchronised transitional migration",
-  "Response": "eius",
-  "Request": "cum",
-  "ProgressDescription": "Universal stable protocol",
-  "ProgressPercent": 990,
-  "FileName": "Waters, Douglas and Gottlieb",
+  "Description": "Profit-focused impactful protocol",
+  "Response": "rerum",
+  "Request": "quis",
+  "ProgressDescription": "Synchronised object-oriented extranet",
+  "ProgressPercent": 714,
+  "FileName": "Bednar-Corwin",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 618
+      "FieldLength": 30
     }
   }
 }

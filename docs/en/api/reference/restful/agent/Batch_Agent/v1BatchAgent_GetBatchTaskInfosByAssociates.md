@@ -93,13 +93,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    158,
-    221
+    694,
+    97
   ]
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 176,
-    "Name": "Lakin, Beatty and Hansen",
-    "AssociateId": 154,
-    "DetailsTable": 863,
-    "DetailsRecord": 317,
+    "Id": 170,
+    "Name": "Raynor-Lebsack",
+    "AssociateId": 909,
+    "DetailsTable": 663,
+    "DetailsRecord": 152,
     "IsSystemTask": true,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "nihil",
-      "ParameterObject2": "possimus"
+      "ParameterObject1": "est",
+      "ParameterObject2": "nostrum"
     },
-    "LastStarted": "2022-03-22T14:19:02.7594283+01:00",
-    "Created": "1998-08-09T14:19:02.7594283+02:00",
-    "StartCount": 597,
-    "DatabaseSerialNumber": "1438765",
-    "Context": "alias",
-    "Result": "qui",
+    "LastStarted": "2012-11-09T12:15:18.203765+01:00",
+    "Created": "2019-12-08T12:15:18.203765+01:00",
+    "StartCount": 505,
+    "DatabaseSerialNumber": "1375390",
+    "Context": "sunt",
+    "Result": "consequuntur",
     "State": "All",
-    "Description": "Automated interactive migration",
-    "Response": "doloribus",
-    "Request": "sequi",
-    "ProgressDescription": "Programmable homogeneous data-warehouse",
-    "ProgressPercent": 662,
-    "FileName": "Bergnaum Inc and Sons",
+    "Description": "Enterprise-wide cohesive forecast",
+    "Response": "laboriosam",
+    "Request": "magnam",
+    "ProgressDescription": "Team-oriented motivating implementation",
+    "ProgressPercent": 895,
+    "FileName": "Ebert LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 505
+        "FieldLength": 861
       }
     }
   }

@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 12,
-  "Name": "Christiansen LLC",
-  "Tooltip": "id",
+  "HeadingId": 921,
+  "Name": "Beier-Lockman",
+  "Tooltip": "eveniet",
   "Deleted": false,
-  "Rank": 718,
-  "UdListDefinitionId": 47
+  "Rank": 300,
+  "UdListDefinitionId": 601
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 342,
-  "Name": "Bins-Mayert",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 730,
-  "UdListDefinitionId": 993,
+  "HeadingId": 642,
+  "Name": "Legros LLC",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 910,
+  "UdListDefinitionId": 283,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 769
+      "FieldType": "System.String",
+      "FieldLength": 449
     }
   }
 }

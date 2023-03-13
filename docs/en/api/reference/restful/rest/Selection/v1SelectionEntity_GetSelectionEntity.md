@@ -121,73 +121,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 14 Jun 2003 14:19:10 G6T
+Last-Modified: Mon, 21 Dec 2020 12:15:27 G12T
 
 {
-  "Description": "Team-oriented empowering structure",
-  "Postit": "et",
+  "Description": "Visionary 24/7 portal",
+  "Postit": "velit",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 897,
-  "IncludePerson": 365,
-  "MemberCount": 207,
-  "Name": "Grady LLC",
-  "PostitTextId": 570,
-  "CreatedDate": "1998-07-24T14:19:10.7717284+02:00",
-  "SelectionId": 731,
-  "SoundEx": "nemo",
-  "Source": 363,
-  "TextId": 575,
-  "UpdatedDate": "2003-06-14T14:19:10.7717284+02:00",
-  "UpdatedCount": 328,
-  "Visibility": 823,
+  "GroupIdx": 245,
+  "IncludePerson": 166,
+  "MemberCount": 132,
+  "Name": "Kuhic Inc and Sons",
+  "PostitTextId": 324,
+  "CreatedDate": "1996-04-18T12:15:27.3706304+02:00",
+  "SelectionId": 6,
+  "SoundEx": "hic",
+  "Source": 171,
+  "TextId": 184,
+  "UpdatedDate": "2020-12-21T12:15:27.3706304+01:00",
+  "UpdatedCount": 793,
+  "Visibility": 992,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 524,
-  "TargetTableName": "Block LLC",
+  "CompanyUnique": true,
+  "TargetTableNumber": 271,
+  "TargetTableName": "Kirlin Group",
   "Completed": false,
-  "LeftSelectionId": 832,
-  "RightSelectionId": 591,
+  "LeftSelectionId": 290,
+  "RightSelectionId": 511,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Klocko, VonRueden and Corwin",
-  "ShadowProviderName": "Friesen-Green",
-  "ChartKey": "deleniti",
-  "LastLoaded": "2004-12-05T14:19:10.7717284+01:00",
-  "LastLoadedBy": 441,
+  "MainProviderName": "Koelpin, Kub and Quitzon",
+  "ShadowProviderName": "Schimmel, Heaney and Kling",
+  "ChartKey": "iste",
+  "LastLoaded": "2016-11-23T12:15:27.3716271+01:00",
+  "LastLoadedBy": 935,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1996-08-13T14:19:10.7717284+02:00",
-  "LastMembershipChangeBy": 417,
+  "LastMembershipChange": "2022-01-10T12:15:27.3716271+01:00",
+  "LastMembershipChangeBy": 686,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "omnis",
-  "MemberTabHeading": "doloribus",
-  "MailingsProviderName": "Rutherford, Hoppe and Wyman",
-  "DashboardTileDefinitionId": 87,
+  "MainHeading": "enim",
+  "MemberTabHeading": "eveniet",
+  "MailingsProviderName": "Simonis-Kunde",
+  "DashboardTileDefinitionId": 894,
   "VisibleFor": [
     {
-      "VisibleId": 205,
+      "VisibleId": 540,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "consectetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 634
+          "FieldType": "System.Int32",
+          "FieldLength": 989
         }
       }
     },
     {
-      "VisibleId": 205,
+      "VisibleId": 540,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "consectetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 634
+          "FieldType": "System.Int32",
+          "FieldLength": 989
         }
       }
     }
@@ -197,7 +197,7 @@ Last-Modified: Sat, 14 Jun 2003 14:19:10 G6T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 628
+      "FieldLength": 632
     }
   },
   "_Links": {

@@ -25,7 +25,7 @@ Gets a RefCountEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=322
+POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=478
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,category/id
 ```
 
@@ -86,49 +86,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 728,
-  "Field": "sed",
-  "RecordId": 457,
+  "RefCountsId": 692,
+  "Field": "odio",
+  "RecordId": 861,
   "SuggestedRecords": [
     {
-      "Id": 804,
-      "Name": "Durgan-Sporer",
-      "ToolTip": "Laboriosam et voluptas dolor non rerum et consequatur.",
+      "Id": 48,
+      "Name": "Stokes, Dickens and Williamson",
+      "ToolTip": "Officia architecto sit sapiente omnis debitis.",
       "Deleted": false,
-      "Rank": 647,
-      "Type": "est",
+      "Rank": 682,
+      "Type": "repudiandae",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quod",
-      "ColorBlock": 379,
-      "ExtraInfo": "eos",
-      "StyleHint": "aut",
-      "FullName": "Mrs. Favian Hyatt",
+      "IconHint": "enim",
+      "ColorBlock": 402,
+      "ExtraInfo": "aut",
+      "StyleHint": "dolorum",
+      "FullName": "Leanna Heller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 862
+          "FieldType": "System.String",
+          "FieldLength": 149
         }
       }
     }
   ],
-  "CurrentValue": 239,
-  "TravelPrefix": 516,
-  "SatPrefix": 309,
+  "CurrentValue": 625,
+  "TravelPrefix": 162,
+  "SatPrefix": 431,
   "Allocate": false,
-  "Unique": true,
-  "ReadOnly": false,
+  "Unique": false,
+  "ReadOnly": true,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 95
+      "FieldType": "System.Int32",
+      "FieldLength": 460
     }
   }
 }

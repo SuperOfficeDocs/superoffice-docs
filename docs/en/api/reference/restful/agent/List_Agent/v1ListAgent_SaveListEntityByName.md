@@ -86,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jacobi, Altenwerth and Gibson",
+  "Name": "Borer, Nienow and Medhurst",
   "ListEntity": null
 }
 ```
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 940,
-  "Name": "Kuhic Inc and Sons",
-  "Tooltip": "iusto",
-  "Deleted": true,
-  "Rank": 142,
+  "Id": 493,
+  "Name": "Kassulke-Lind",
+  "Tooltip": "voluptas",
+  "Deleted": false,
+  "Rank": 896,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "UseGroupsAndHeadings": true,
+  "ListType": "reiciendis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 69
+      "FieldLength": 278
     }
   }
 }

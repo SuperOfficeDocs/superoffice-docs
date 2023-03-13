@@ -86,20 +86,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "perspiciatis",
-  "Name": "Hegmann Group",
-  "Description": "Profit-focused multi-state data-warehouse",
-  "IncludeId": "voluptatem",
-  "Source": "dolores",
-  "Registered": "2002-03-09T14:19:11.0061042+01:00",
-  "RegisteredBy": "sed",
-  "Updated": "2002-09-05T14:19:11.0061042+02:00",
-  "UpdatedBy": "ad",
-  "Path": "voluptas"
+  "UniqueIdentifier": "corrupti",
+  "Name": "Klocko Inc and Sons",
+  "Description": "Upgradable maximized contingency",
+  "IncludeId": "exercitationem",
+  "Source": "consequuntur",
+  "Registered": "2009-11-20T12:15:27.719625+01:00",
+  "RegisteredBy": "sunt",
+  "Updated": "2006-11-02T12:15:27.719625+01:00",
+  "UpdatedBy": "explicabo",
+  "Path": "enim"
 }
 ```
 
@@ -110,22 +110,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "corporis",
-  "Name": "Konopelski LLC",
-  "Description": "Optional human-resource model",
-  "IncludeId": "mollitia",
-  "Source": "laudantium",
-  "Registered": "2015-11-04T14:19:11.0061042+01:00",
-  "RegisteredBy": "quasi",
-  "Updated": "2010-11-14T14:19:11.0061042+01:00",
-  "UpdatedBy": "vero",
-  "Path": "quas",
+  "UniqueIdentifier": "ut",
+  "Name": "Lebsack Inc and Sons",
+  "Description": "Automated scalable collaboration",
+  "IncludeId": "et",
+  "Source": "molestiae",
+  "Registered": "2009-11-18T12:15:27.7206245+01:00",
+  "RegisteredBy": "quisquam",
+  "Updated": "1996-02-03T12:15:27.7206245+01:00",
+  "UpdatedBy": "voluptates",
+  "Path": "labore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldLength": 750
     }
   }
 }

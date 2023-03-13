@@ -88,16 +88,16 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 858,
-  "Name": "Price-Sanford",
-  "ContentType": "non",
-  "AttSize": 185,
-  "InlineImage": false,
-  "ContentId": "nam"
+  "AttachmentId": 704,
+  "Name": "Anderson, Pouros and Weissnat",
+  "ContentType": "cum",
+  "AttSize": 819,
+  "InlineImage": true,
+  "ContentId": "aut"
 }
 ```
 
@@ -108,23 +108,23 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 769,
-  "Name": "Sanford-Schulist",
-  "ContentType": "enim",
-  "AttSize": 994,
+  "AttachmentId": 432,
+  "Name": "O'Conner-Wisozk",
+  "ContentType": "odio",
+  "AttSize": 49,
   "InlineImage": false,
-  "ContentId": "et",
+  "ContentId": "iure",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldType": "System.String",
+      "FieldLength": 214
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

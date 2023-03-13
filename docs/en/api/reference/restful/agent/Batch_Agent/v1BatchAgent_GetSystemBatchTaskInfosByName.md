@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Morissette, Sipes and Boyle"
+  "TaskName": "Abshire, Fisher and Schinner"
 }
 ```
 
@@ -109,37 +109,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 246,
-    "Name": "Gleichner-Jacobson",
-    "AssociateId": 549,
-    "DetailsTable": 933,
-    "DetailsRecord": 286,
+    "Id": 767,
+    "Name": "Trantow-Bogan",
+    "AssociateId": 318,
+    "DetailsTable": 131,
+    "DetailsRecord": 455,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "consectetur",
-      "ParameterObject2": "amet"
+      "ParameterObject1": "consequatur",
+      "ParameterObject2": "inventore"
     },
-    "LastStarted": "2007-09-16T14:19:02.7750538+02:00",
-    "Created": "2013-11-24T14:19:02.7750538+01:00",
-    "StartCount": 652,
-    "DatabaseSerialNumber": "1223608",
-    "Context": "impedit",
-    "Result": "qui",
+    "LastStarted": "2009-02-02T12:15:18.2127622+01:00",
+    "Created": "2007-09-04T12:15:18.2127622+02:00",
+    "StartCount": 671,
+    "DatabaseSerialNumber": "1857456",
+    "Context": "quo",
+    "Result": "dolorum",
     "State": "All",
-    "Description": "Assimilated bi-directional encoding",
-    "Response": "modi",
-    "Request": "exercitationem",
-    "ProgressDescription": "Configurable bifurcated circuit",
-    "ProgressPercent": 852,
-    "FileName": "Pfeffer, Schoen and Lang",
+    "Description": "Centralized optimal firmware",
+    "Response": "nihil",
+    "Request": "reiciendis",
+    "ProgressDescription": "Total zero defect software",
+    "ProgressPercent": 18,
+    "FileName": "Mertz-Nader",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 63
+        "FieldLength": 694
       }
     }
   }

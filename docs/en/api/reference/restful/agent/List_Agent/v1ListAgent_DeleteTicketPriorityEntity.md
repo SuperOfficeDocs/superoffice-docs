@@ -24,7 +24,7 @@ Deletes the TicketPriorityEntity
 | TicketPriorityEntityId | int32 | **Required** The id of the TicketPriorityEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/List/DeleteTicketPriorityEntity?TicketPriorityEntityId=932
+POST /api/v1/Agents/List/DeleteTicketPriorityEntity?TicketPriorityEntityId=195
 ```
 
 

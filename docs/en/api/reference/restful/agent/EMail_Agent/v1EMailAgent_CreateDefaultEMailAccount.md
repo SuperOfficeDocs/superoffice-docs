@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 598,
-  "EMailAddress": "rerum",
-  "AssociateId": 818,
+  "EMailAccountId": 49,
+  "EMailAddress": "mollitia",
+  "AssociateId": 68,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 270,
-  "ErrorCount": 370,
+  "AccountStatus": 292,
+  "ErrorCount": 921,
   "ErrorReason": "",
-  "InboxFolder": "sed",
-  "SentFolder": "quas",
+  "InboxFolder": "ea",
+  "SentFolder": "dignissimos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 256
+      "FieldType": "System.String",
+      "FieldLength": 257
     }
   }
 }

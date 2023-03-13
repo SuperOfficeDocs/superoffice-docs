@@ -85,23 +85,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 158,
-    "Name": "Hilpert, Towne and Schneider",
-    "Tooltip": "sed",
-    "SaveInDb": 628,
-    "Filename": "non",
-    "DefaultOref": "alias",
+    "DocumentTemplateId": 774,
+    "Name": "Bins LLC",
+    "Tooltip": "quod",
+    "SaveInDb": 295,
+    "Filename": "quos",
+    "DefaultOref": "corrupti",
     "RecordType": "Appointment",
-    "Deleted": 504,
+    "Deleted": 955,
     "Direction": "Incoming",
-    "AutoeventId": 429,
+    "AutoeventId": 725,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 250
+        "FieldType": "System.String",
+        "FieldLength": 929
       }
     }
   }

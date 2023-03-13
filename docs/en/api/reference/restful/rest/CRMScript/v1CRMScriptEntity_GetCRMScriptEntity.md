@@ -85,7 +85,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,23 +95,23 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 737,
-  "UniqueIdentifier": "nesciunt",
-  "Name": "Maggio, Gusikowski and Quitzon",
-  "Description": "User-friendly directional emulation",
-  "IncludeId": "magni",
-  "HierarchyId": 977,
-  "Source": "ut",
-  "Registered": "2008-02-20T14:19:10.240473+01:00",
-  "RegisteredAssociateId": 467,
-  "Updated": "2011-07-22T14:19:10.240473+02:00",
-  "UpdatedAssociateId": 507,
+  "EjscriptId": 780,
+  "UniqueIdentifier": "hic",
+  "Name": "Boyer, Rosenbaum and Keeling",
+  "Description": "Digitized logistical algorithm",
+  "IncludeId": "quaerat",
+  "HierarchyId": 338,
+  "Source": "reiciendis",
+  "Registered": "2020-04-15T12:15:26.8116402+02:00",
+  "RegisteredAssociateId": 871,
+  "Updated": "2001-05-18T12:15:26.8116402+02:00",
+  "UpdatedAssociateId": 801,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldType": "System.String",
+      "FieldLength": 458
     }
   },
   "_Links": {

@@ -26,7 +26,7 @@ Calls the List agent service GetAllSaleStageEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Rating/Items?includeDeleted=True
+GET /api/v1/List/Rating/Items?includeDeleted=False
 ```
 
 
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleStageId": 825,
-    "Value": "deserunt",
-    "Tooltip": "quam",
-    "Probability": 482,
+    "SaleStageId": 309,
+    "Value": "totam",
+    "Tooltip": "nihil",
+    "Probability": 771,
     "Deleted": false,
-    "Rank": 815,
+    "Rank": 136,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 362
+        "FieldType": "System.String",
+        "FieldLength": 257
       }
     }
   }

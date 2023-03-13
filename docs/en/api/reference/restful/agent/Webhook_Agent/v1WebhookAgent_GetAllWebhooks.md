@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Collier, Erdman and Witting",
-  "EventFilter": "laudantium",
+  "NameFilter": "Baumbach-Reilly",
+  "EventFilter": "reprehenderit",
   "StatusFilter": "Active"
 }
 ```
@@ -104,26 +104,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 430,
-    "Name": "Mosciski-Stroman",
+    "WebhookId": 413,
+    "Name": "Ruecker-Casper",
     "Events": [
-      "quod",
-      "dolorum"
+      "maxime",
+      "modi"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "tenetur",
+    "Secret": "in",
     "State": "Active",
-    "Type": "necessitatibus",
+    "Type": "earum",
     "Headers": {
-      "Headers1": "dolores",
-      "Headers2": "dolorem"
+      "Headers1": "corrupti",
+      "Headers2": "quis"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "1997-05-09T14:19:04.6422019+02:00",
+    "Registered": "2006-05-12T12:15:20.6707268+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2002-12-09T14:19:04.6422019+01:00",
+    "Updated": "2007-06-11T12:15:20.6707268+02:00",
     "UpdatedAssociate": null
   }
 ]

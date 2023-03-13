@@ -25,7 +25,7 @@ Gets a Sale object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSale?saleId=768
+POST /api/v1/Agents/Sale/GetSale?saleId=646
 POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 ```
 
@@ -100,37 +100,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Cronin-Rodriguez",
-  "SaleDate": "2017-02-01T14:19:04.1105664+01:00",
-  "SaleId": 778,
-  "Probability": 404,
-  "Title": "dicta",
-  "Amount": 376.08,
-  "Currency": "soluta",
-  "ProjectName": "Greenholt LLC",
-  "AssociateFullName": "Rose Franecki Jr.",
-  "Description": "Distributed homogeneous interface",
+  "ContactName": "Nienow Group",
+  "SaleDate": "2010-12-04T12:15:20.06674+01:00",
+  "SaleId": 570,
+  "Probability": 904,
+  "Title": "sed",
+  "Amount": 23749.451999999997,
+  "Currency": "quos",
+  "ProjectName": "Metz Group",
+  "AssociateFullName": "Kaela Borer",
+  "Description": "De-engineered holistic internet solution",
   "Status": "Lost",
-  "WeightedAmount": 26526.176,
-  "ProjectId": 493,
-  "EarningPercent": 4227.766,
-  "Earning": 10458.158,
-  "ContactId": 114,
-  "AssociateId": 418,
-  "PersonId": 122,
-  "SaleTypeId": 247,
-  "SaleTypeName": "Waelchi LLC",
-  "PersonFullName": "Evert Hickle",
+  "WeightedAmount": 14920.974,
+  "ProjectId": 459,
+  "EarningPercent": 8192.276,
+  "Earning": 17970.356,
+  "ContactId": 737,
+  "AssociateId": 496,
+  "PersonId": 222,
+  "SaleTypeId": 584,
+  "SaleTypeName": "Cremin, Reichert and Okuneva",
+  "PersonFullName": "Alysa Hermiston",
   "Completed": "Completed",
-  "ActiveErpLinks": 65,
-  "NextDueDate": "2017-03-08T14:19:04.1105664+01:00",
-  "Number": "1591729",
+  "ActiveErpLinks": 39,
+  "NextDueDate": "1995-12-31T12:15:20.06674+01:00",
+  "Number": "1752402",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 972
+      "FieldType": "System.String",
+      "FieldLength": 92
     }
   }
 }

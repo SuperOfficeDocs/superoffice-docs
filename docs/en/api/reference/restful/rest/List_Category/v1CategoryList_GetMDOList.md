@@ -25,8 +25,8 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Category/MDOItems?flat=True
-GET /api/v1/List/Category/MDOItems?query=expedita
+GET /api/v1/List/Category/MDOItems?flat=False
+GET /api/v1/List/Category/MDOItems?query=corporis
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 727,
-    "Name": "Little, Yundt and Turner",
-    "ToolTip": "Eligendi exercitationem labore alias.",
-    "Deleted": true,
-    "Rank": 206,
-    "Type": "quia",
+    "Id": 948,
+    "Name": "Cremin, Cremin and Anderson",
+    "ToolTip": "Ratione voluptates praesentium reiciendis perferendis quos perferendis qui.",
+    "Deleted": false,
+    "Rank": 68,
+    "Type": "debitis",
     "ChildItems": [
       {
-        "Id": 693,
-        "Name": "Walter Inc and Sons",
-        "ToolTip": "Et sunt animi in consequatur qui.",
+        "Id": 6,
+        "Name": "Hansen-Swift",
+        "ToolTip": "At ut repellendus quis dolorum.",
         "Deleted": false,
-        "Rank": 55,
-        "Type": "laboriosam",
+        "Rank": 540,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "labore",
-        "ColorBlock": 381,
-        "ExtraInfo": "recusandae",
-        "StyleHint": "aut",
-        "FullName": "Bettie Baumbach",
+        "IconHint": "adipisci",
+        "ColorBlock": 383,
+        "ExtraInfo": "consectetur",
+        "StyleHint": "dignissimos",
+        "FullName": "Aaron Connelly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 159
+            "FieldLength": 202
           }
         }
       }
     ],
-    "IconHint": "ipsam",
-    "ColorBlock": 540,
-    "ExtraInfo": "iusto",
-    "StyleHint": "pariatur",
-    "FullName": "Jamey Durgan",
+    "IconHint": "ut",
+    "ColorBlock": 243,
+    "ExtraInfo": "aut",
+    "StyleHint": "rerum",
+    "FullName": "Hal Turner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 143
+        "FieldType": "System.Int32",
+        "FieldLength": 815
       }
     }
   }

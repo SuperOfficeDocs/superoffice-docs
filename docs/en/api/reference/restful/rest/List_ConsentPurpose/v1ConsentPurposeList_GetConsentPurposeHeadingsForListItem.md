@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 778,
-    "Name": "Mitchell, Torphy and Satterfield",
-    "ToolTip": "Saepe qui occaecati similique voluptas incidunt vel enim.",
+    "Id": 588,
+    "Name": "Dooley Inc and Sons",
+    "ToolTip": "Placeat voluptate harum qui perferendis cumque unde.",
     "Deleted": false,
-    "Rank": 446,
-    "Type": "suscipit",
-    "ColorBlock": 565,
-    "IconHint": "inventore",
+    "Rank": 311,
+    "Type": "consequatur",
+    "ColorBlock": 759,
+    "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "2015-03-17T14:19:11.163718+01:00",
+    "LastChanged": "2021-09-20T12:15:27.9316215+02:00",
     "ChildItems": [
       {
-        "Id": 152,
-        "Name": "Collins LLC",
-        "ToolTip": "Illo et et quia quia et qui dolore.",
+        "Id": 890,
+        "Name": "Ziemann-Kovacek",
+        "ToolTip": "Voluptatem aut aliquam repellat consequuntur.",
         "Deleted": false,
-        "Rank": 303,
-        "Type": "aut",
-        "ColorBlock": 783,
-        "IconHint": "provident",
-        "Selected": true,
-        "LastChanged": "2010-01-05T14:19:11.163718+01:00",
+        "Rank": 831,
+        "Type": "perspiciatis",
+        "ColorBlock": 956,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "1996-03-22T12:15:27.9316215+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "quasi",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "optio",
         "Hidden": true,
-        "FullName": "Miss Allan Cummings DVM",
+        "FullName": "Lia Olson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 286
+            "FieldLength": 449
           }
         }
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "aperiam",
-    "Hidden": true,
-    "FullName": "Marian Glover",
+    "ExtraInfo": "aut",
+    "StyleHint": "id",
+    "Hidden": false,
+    "FullName": "Miss Zachery Stanton III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 364
+        "FieldLength": 455
       }
     }
   }

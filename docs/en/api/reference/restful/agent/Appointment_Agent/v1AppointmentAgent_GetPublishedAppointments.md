@@ -120,13 +120,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    826,
-    57
+    130,
+    213
   ]
 }
 ```
@@ -139,53 +139,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 439,
-    "StartDate": "2018-12-26T14:19:02.3574969+01:00",
-    "EndDate": "2022-07-28T14:19:02.3574969+02:00",
+    "AppointmentId": 231,
+    "StartDate": "2017-02-26T12:15:17.6587727+01:00",
+    "EndDate": "2018-11-15T12:15:17.6587727+01:00",
     "Type": "BookingForChecklist",
-    "Task": "accusamus",
-    "AssociateFullName": "Prof. Jaylin Reilly V",
-    "ContactName": "Hammes, Nitzsche and Littel",
-    "Description": "Organized uniform matrices",
-    "PersonFullName": "Ephraim Balistreri",
-    "PersonId": 883,
-    "ContactId": 579,
-    "ProjectId": 282,
-    "ProjectName": "Kautzer LLC",
+    "Task": "tenetur",
+    "AssociateFullName": "Ivory Mills II",
+    "ContactName": "Blanda-Brakus",
+    "Description": "Versatile full-range access",
+    "PersonFullName": "Rosalee Stark",
+    "PersonId": 565,
+    "ContactId": 200,
+    "ProjectId": 972,
+    "ProjectName": "Jenkins LLC",
     "IsPublished": true,
-    "AssociateId": 525,
-    "ColorIndex": 345,
+    "AssociateId": 949,
+    "ColorIndex": 499,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 786,
-    "PriorityName": "Rippin-Rau",
+    "PriorityId": 421,
+    "PriorityName": "Brekke, Hills and Koch",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2009-07-03T14:19:02.3574969+02:00",
+    "ActiveDate": "2014-02-05T12:15:17.6597709+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-05-14T14:19:02.3574969+02:00",
-    "RecurringEndDate": "2004-06-21T14:19:02.3574969+02:00",
-    "MotherId": 600,
-    "AssignedBy": 228,
-    "AssignedByFullName": "Orpha Stanton",
+    "RecurringStartDate": "2010-11-26T12:15:17.6597709+01:00",
+    "RecurringEndDate": "2008-01-27T12:15:17.6597709+01:00",
+    "MotherId": 378,
+    "AssignedBy": 511,
+    "AssignedByFullName": "Hailie Kuhic",
     "RejectReason": "",
-    "Location": "praesentium",
-    "AlarmLeadTime": "corrupti",
-    "SaleId": 410,
-    "SaleName": "Feeney Inc and Sons",
-    "AssociateName": "Jewess Group",
-    "CreatedDate": "2001-03-31T14:19:02.3574969+02:00",
-    "CreatedBy": "ipsam",
-    "CreatedByFullName": "Dahlia Khalid Lesch Jr.",
-    "CreatedByAssociateId": 42,
+    "Location": "consequatur",
+    "AlarmLeadTime": "doloribus",
+    "SaleId": 919,
+    "SaleName": "Hyatt-Farrell",
+    "AssociateName": "Baumbach, Kub and Torp",
+    "CreatedDate": "2016-07-30T12:15:17.6607704+02:00",
+    "CreatedBy": "ut",
+    "CreatedByFullName": "Jermaine Gilda Sporer III",
+    "CreatedByAssociateId": 416,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -193,7 +193,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 710
+        "FieldLength": 828
       }
     }
   }

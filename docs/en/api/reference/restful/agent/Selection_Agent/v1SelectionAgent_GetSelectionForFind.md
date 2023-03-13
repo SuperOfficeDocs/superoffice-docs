@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Hudson, Volkman and Wiegand",
-  "TypicalSearchId": 925
+  "EntityName": "Bechtelar, Cormier and Luettgen",
+  "TypicalSearchId": 967
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Watsica Group",
-  "SelectionId": 649,
-  "CanSaveAsSelection": false,
-  "MainHeading": "suscipit",
-  "FilterScreenHeading": "ipsa",
-  "SelectionEntityHeading": "a",
+  "ProviderName": "O'Kon LLC",
+  "SelectionId": 256,
+  "CanSaveAsSelection": true,
+  "MainHeading": "omnis",
+  "FilterScreenHeading": "dignissimos",
+  "SelectionEntityHeading": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 967
+      "FieldLength": 83
     }
   }
 }

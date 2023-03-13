@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 517,
-    "Value": "maiores",
-    "Tooltip": "sint",
+    "Id": 357,
+    "Value": "delectus",
+    "Tooltip": "debitis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 159
+        "FieldLength": 179
       }
     }
   },
   {
-    "Id": 517,
-    "Value": "maiores",
-    "Tooltip": "sint",
+    "Id": 357,
+    "Value": "delectus",
+    "Tooltip": "debitis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 159
+        "FieldLength": 179
       }
     }
   }

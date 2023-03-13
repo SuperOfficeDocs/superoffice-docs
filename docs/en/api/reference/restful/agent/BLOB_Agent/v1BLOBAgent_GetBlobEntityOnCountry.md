@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 333
+  "CountryId": 564
 }
 ```
 
@@ -99,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 609,
-  "BlobSize": 986,
-  "Description": "Quality-focused logistical Graphic Interface",
-  "ExtraInfo": "quo",
+  "BlobId": 786,
+  "BlobSize": 484,
+  "Description": "Optimized dynamic software",
+  "ExtraInfo": "totam",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "expedita",
-  "OriginalSize": 387,
-  "CreatedDate": "2003-08-16T14:19:02.7750538+02:00",
-  "UpdatedDate": "2023-01-12T14:19:02.7750538+01:00",
+  "IsZipped": false,
+  "MimeType": "quia",
+  "OriginalSize": 345,
+  "CreatedDate": "1996-10-26T12:15:18.2277644+02:00",
+  "UpdatedDate": "2022-12-26T12:15:18.2277644+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aperiam",
+  "ConceptualType": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 917
+      "FieldLength": 830
     }
   }
 }

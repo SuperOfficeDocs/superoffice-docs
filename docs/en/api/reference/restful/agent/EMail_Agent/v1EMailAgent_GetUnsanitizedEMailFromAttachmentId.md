@@ -108,10 +108,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 47,
+  "EmailId": 844,
   "AttachmentIds": [
-    "veritatis",
-    "illum"
+    "repudiandae",
+    "est"
   ],
   "IncludeAttachments": false
 }
@@ -126,146 +126,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 807,
-      "ContactName": "Bradtke Group",
-      "PersonId": 747,
-      "PersonName": "Romaguera-Spinka",
-      "AssociateId": 205,
-      "Address": "nulla",
-      "EmailId": 484,
+      "ContactId": 35,
+      "ContactName": "Bins Group",
+      "PersonId": 511,
+      "PersonName": "Aufderhar LLC",
+      "AssociateId": 575,
+      "Address": "aspernatur",
+      "EmailId": 202,
       "DuplicatePersonIds": [
-        2,
-        720
+        62,
+        804
       ],
-      "Name": "Murazik, Stracke and Farrell",
+      "Name": "Jakubowski Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 397
+          "FieldLength": 414
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 679,
-      "ContactName": "Smith LLC",
-      "PersonId": 465,
-      "PersonName": "Jacobi-Monahan",
-      "AssociateId": 246,
-      "Address": "dolorum",
-      "EmailId": 13,
+      "ContactId": 965,
+      "ContactName": "Bruen-Heathcote",
+      "PersonId": 995,
+      "PersonName": "Koss Inc and Sons",
+      "AssociateId": 814,
+      "Address": "suscipit",
+      "EmailId": 105,
       "DuplicatePersonIds": [
-        49,
-        528
+        822,
+        931
       ],
-      "Name": "Johnston-Reynolds",
+      "Name": "Lowe Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 904
+          "FieldType": "System.String",
+          "FieldLength": 976
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 39,
-      "ContactName": "Considine, Krajcik and Douglas",
-      "PersonId": 771,
-      "PersonName": "Osinski-Hoeger",
-      "AssociateId": 966,
-      "Address": "officiis",
-      "EmailId": 339,
+      "ContactId": 665,
+      "ContactName": "Heller-Feeney",
+      "PersonId": 187,
+      "PersonName": "Reinger-Klein",
+      "AssociateId": 482,
+      "Address": "aspernatur",
+      "EmailId": 136,
       "DuplicatePersonIds": [
-        958,
-        393
+        986,
+        442
       ],
-      "Name": "Quitzon-Wolf",
+      "Name": "Emmerich-Dickinson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 191
+          "FieldType": "System.Int32",
+          "FieldLength": 432
         }
       }
     }
   ],
-  "Subject": "ut",
-  "HTMLBody": "et",
+  "Subject": "ea",
+  "HTMLBody": "nesciunt",
   "From": null,
-  "Sent": "2001-10-18T14:19:03.466522+02:00",
-  "Size": 979,
+  "Sent": "2001-11-24T12:15:19.0297505+01:00",
+  "Size": 70,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "libero",
-  "PlainBody": "sunt",
-  "IsSent": true,
+  "MessageID": "rerum",
+  "PlainBody": "illo",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 135,
+  "ServerId": 168,
   "Attachments": [
     {
-      "Description": "Profit-focused mission-critical system engine",
-      "Filename": "vitae",
-      "Size": 148,
-      "Type": "nostrum",
-      "Encoding": "consequatur",
-      "Id": "blanditiis",
-      "Disposition": "occaecati",
+      "Description": "Diverse 3rd generation circuit",
+      "Filename": "consequatur",
+      "Size": 449,
+      "Type": "totam",
+      "Encoding": "doloribus",
+      "Id": "corrupti",
+      "Disposition": "ex",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 376
+          "FieldLength": 176
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Boyer Group",
+      "Name": "Ernser-D'Amore",
       "Values": [
-        "amet",
-        "minus"
+        "dicta",
+        "libero"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 666
+          "FieldType": "System.Int32",
+          "FieldLength": 855
         }
       }
     },
     {
-      "Name": "Boyer Group",
+      "Name": "Ernser-D'Amore",
       "Values": [
-        "amet",
-        "minus"
+        "dicta",
+        "libero"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 666
+          "FieldType": "System.Int32",
+          "FieldLength": 855
         }
       }
     }
   ],
-  "FolderName": "Schiller-Ortiz",
-  "EmailItemId": 524,
-  "AccountId": 451,
-  "ReceivedAt": "2019-08-02T14:19:03.466522+02:00",
+  "FolderName": "Ward Group",
+  "EmailItemId": 102,
+  "AccountId": 214,
+  "ReceivedAt": "2018-11-12T12:15:19.0297505+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2011-03-05T14:19:03.466522+01:00",
+  "RepliedAt": "2002-09-21T12:15:19.0297505+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -273,8 +273,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 752
+      "FieldType": "System.String",
+      "FieldLength": 602
     }
   }
 }

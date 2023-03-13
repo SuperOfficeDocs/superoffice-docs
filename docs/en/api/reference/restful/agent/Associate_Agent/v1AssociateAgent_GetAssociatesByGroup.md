@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 111,
-  "Type": 906
+  "GroupId": 200,
+  "Type": 712
 }
 ```
 
@@ -103,24 +103,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 221,
-    "Name": "Lesch Inc and Sons",
-    "PersonId": 663,
-    "Rank": 359,
-    "Tooltip": "magni",
+    "AssociateId": 651,
+    "Name": "Torphy, Leannon and Hermiston",
+    "PersonId": 862,
+    "Rank": 547,
+    "Tooltip": "culpa",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 690,
-    "FullName": "Adelle Bernhard II",
-    "FormalName": "Harber-Nitzsche",
+    "GroupIdx": 719,
+    "FullName": "Jewel Wunsch",
+    "FormalName": "Brekke-Barrows",
     "Deleted": false,
-    "EjUserId": 770,
-    "UserName": "Daugherty Group",
+    "EjUserId": 441,
+    "UserName": "Bashirian-Conn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 594
+        "FieldLength": 545
       }
     }
   }

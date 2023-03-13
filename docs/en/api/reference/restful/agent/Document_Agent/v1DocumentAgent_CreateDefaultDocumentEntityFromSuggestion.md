@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 254
+  "SuggestedDocumentId": 225
 }
 ```
 
@@ -120,88 +120,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 324,
+  "DocumentId": 4,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "commodi",
-  "Header": "quaerat",
-  "Name": "Bogisich, Abernathy and Skiles",
-  "OurRef": "eius",
-  "YourRef": "quod",
-  "CreatedDate": "1996-01-19T14:19:03.3386569+01:00",
-  "UpdatedDate": "2020-05-21T14:19:03.3386569+02:00",
-  "Description": "Horizontal scalable groupware",
+  "Attention": "quas",
+  "Header": "inventore",
+  "Name": "Lind Inc and Sons",
+  "OurRef": "voluptas",
+  "YourRef": "debitis",
+  "CreatedDate": "2017-06-22T12:15:18.8697527+02:00",
+  "UpdatedDate": "2022-11-03T12:15:18.8697527+01:00",
+  "Description": "Programmable local array",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1999-11-12T14:19:03.3386569+01:00",
-  "ExternalRef": "qui",
+  "Date": "2000-01-07T12:15:18.8737528+01:00",
+  "ExternalRef": "ut",
   "Completed": "Completed",
-  "ActiveLinks": 284,
+  "ActiveLinks": 354,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kling-Beier",
-      "Id": 601,
-      "Description": "Organized bandwidth-monitored hub",
-      "ExtraInfo": "minus",
-      "LinkId": 138,
+      "EntityName": "Schmeler-Wunsch",
+      "Id": 142,
+      "Description": "Ameliorated national process improvement",
+      "ExtraInfo": "quam",
+      "LinkId": 529,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 242
+          "FieldLength": 846
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 65,
-  "Snum": 517,
+  "SuggestedDocumentId": 414,
+  "Snum": 894,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "844389439",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "fuga",
-    "ExtraFields2": "natus"
+    "ExtraFields1": "modi",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "delectus"
+    "CustomFields1": "autem",
+    "CustomFields2": "ex"
   },
-  "PublishEventDate": "2016-03-23T14:19:03.3386569+01:00",
-  "PublishTo": "1997-04-15T14:19:03.3386569+02:00",
-  "PublishFrom": "2015-03-16T14:19:03.3386569+01:00",
+  "PublishEventDate": "2001-02-28T12:15:18.8747551+01:00",
+  "PublishTo": "2010-01-21T12:15:18.8747551+01:00",
+  "PublishFrom": "2022-12-11T12:15:18.8747551+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 342,
+      "VisibleId": 737,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 320
+          "FieldLength": 57
         }
       }
     },
     {
-      "VisibleId": 342,
+      "VisibleId": 737,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 320
+          "FieldLength": 57
         }
       }
     }
@@ -211,7 +211,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldLength": 242
     }
   }
 }

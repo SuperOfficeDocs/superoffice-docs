@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 497,
-    "Name": "Jones, Cassin and Gusikowski",
-    "Description": "Synergized encompassing service-desk",
-    "DeltaJson": "quaerat",
+    "ConfigurableScreenDeltaId": 223,
+    "Name": "Doyle-Emmerich",
+    "Description": "Up-sized bifurcated architecture",
+    "DeltaJson": "quas",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "architecto",
-    "UpdatedDate": "2017-06-07T14:19:02.9324043+02:00",
-    "CreatedDate": "2015-02-11T14:19:02.9324043+01:00",
+    "RecipeId": "possimus",
+    "UpdatedDate": "2009-09-13T12:15:18.4237632+02:00",
+    "CreatedDate": "2000-03-29T12:15:18.4237632+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      752,
-      831
+      618,
+      233
     ],
-    "AppliesToKey": "quae",
+    "AppliesToKey": "maxime",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 410
+        "FieldType": "System.Int32",
+        "FieldLength": 840
       }
     }
   }

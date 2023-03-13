@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,34 +87,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 30,
-  "Name": "Crona Inc and Sons",
-  "Tooltip": "esse",
-  "Deleted": false,
-  "Rank": 11,
-  "Filename": "repellendus",
-  "Parameters": "quis",
-  "Workdir": "odio",
+  "ExtAppId": 719,
+  "Name": "Williamson, Mayert and Lubowitz",
+  "Tooltip": "eum",
+  "Deleted": true,
+  "Rank": 223,
+  "Filename": "ut",
+  "Parameters": "expedita",
+  "Workdir": "ea",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 507,
-  "WaitToFinish": true,
+  "Icon": 99,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "magnam",
+  "Path": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 36
+      "FieldLength": 818
     }
   }
 }

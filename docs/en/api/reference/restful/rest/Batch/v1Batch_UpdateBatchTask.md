@@ -110,34 +110,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 600,
-  "Name": "Morar-Sauer",
-  "AssociateId": 353,
-  "DetailsTable": 998,
-  "DetailsRecord": 842,
+  "Id": 415,
+  "Name": "Pfannerstill, Cormier and Hilll",
+  "AssociateId": 114,
+  "DetailsTable": 736,
+  "DetailsRecord": 536,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "molestias",
-    "ParameterObject2": "rerum"
+    "ParameterObject1": "asperiores",
+    "ParameterObject2": "corporis"
   },
-  "LastStarted": "2011-12-25T14:19:10.9279769+01:00",
-  "Created": "1996-10-02T14:19:10.9279769+02:00",
-  "StartCount": 139,
-  "DatabaseSerialNumber": "998673",
-  "Context": "architecto",
-  "Result": "molestiae",
+  "LastStarted": "1998-01-05T12:15:27.5996259+01:00",
+  "Created": "1996-10-02T12:15:27.5996259+02:00",
+  "StartCount": 583,
+  "DatabaseSerialNumber": "224003",
+  "Context": "tempora",
+  "Result": "et",
   "State": "All",
-  "Description": "Inverse bifurcated archive",
-  "Response": "earum",
-  "Request": "eaque",
-  "ProgressDescription": "Mandatory contextually-based database",
-  "ProgressPercent": 649,
-  "FileName": "Brekke, Hirthe and Larkin",
+  "Description": "Realigned eco-centric firmware",
+  "Response": "dolorum",
+  "Request": "veniam",
+  "ProgressDescription": "Fully-configurable object-oriented moderator",
+  "ProgressPercent": 582,
+  "FileName": "Grimes-Denesik",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -149,37 +149,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 815,
-  "Name": "Reichel Inc and Sons",
-  "AssociateId": 257,
-  "DetailsTable": 626,
-  "DetailsRecord": 713,
-  "IsSystemTask": false,
+  "Id": 436,
+  "Name": "Schuppe, Donnelly and West",
+  "AssociateId": 700,
+  "DetailsTable": 78,
+  "DetailsRecord": 275,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "reprehenderit",
-    "ParameterObject2": "beatae"
+    "ParameterObject1": "aliquid",
+    "ParameterObject2": "temporibus"
   },
-  "LastStarted": "2007-04-27T14:19:10.9279769+02:00",
-  "Created": "2002-02-16T14:19:10.9279769+01:00",
-  "StartCount": 463,
-  "DatabaseSerialNumber": "475835",
-  "Context": "praesentium",
+  "LastStarted": "2003-03-28T12:15:27.6006262+01:00",
+  "Created": "2020-03-07T12:15:27.6006262+01:00",
+  "StartCount": 889,
+  "DatabaseSerialNumber": "469534",
+  "Context": "quis",
   "Result": "illo",
   "State": "All",
-  "Description": "Cross-platform context-sensitive support",
-  "Response": "commodi",
-  "Request": "optio",
-  "ProgressDescription": "Fundamental even-keeled projection",
-  "ProgressPercent": 216,
-  "FileName": "Pacocha-McCullough",
+  "Description": "Configurable bi-directional knowledge base",
+  "Response": "quibusdam",
+  "Request": "dolorem",
+  "ProgressDescription": "Exclusive foreground projection",
+  "ProgressPercent": 104,
+  "FileName": "Ziemann, Mueller and Heidenreich",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 436
+      "FieldLength": 1000
     }
   }
 }

@@ -69,11 +69,11 @@ Content-Type: application/json; charset=utf-8
 {
   "FeatureToggles": [
     {
-      "Name": "Hills LLC",
+      "Name": "Beatty LLC",
       "State": true
     },
     {
-      "Name": "Hills LLC",
+      "Name": "Beatty LLC",
       "State": true
     }
   ]

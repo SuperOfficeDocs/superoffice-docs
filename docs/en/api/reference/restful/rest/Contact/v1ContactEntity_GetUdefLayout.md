@@ -89,7 +89,7 @@ OK
 GET /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 277,
-    "ColumnId": 10,
-    "FieldDefault": "repudiandae",
-    "FieldHeight": 500,
-    "FieldLabel": "aliquid",
-    "FieldLeft": 636,
-    "FieldTop": 636,
+    "UDefFieldId": 475,
+    "ColumnId": 919,
+    "FieldDefault": "quas",
+    "FieldHeight": 723,
+    "FieldLabel": "omnis",
+    "FieldLeft": 661,
+    "FieldTop": 560,
     "FieldType": "Checkbox",
-    "FieldWidth": 679,
-    "FormatMask": "ut",
+    "FieldWidth": 547,
+    "FormatMask": "sint",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 308,
-    "LabelLeft": 813,
-    "LabelTop": 866,
-    "LabelWidth": 214,
-    "LastVersionId": 590,
-    "ListTableId": 733,
+    "IsIndexed": false,
+    "LabelHeight": 619,
+    "LabelLeft": 398,
+    "LabelTop": 716,
+    "LabelWidth": 268,
+    "LastVersionId": 173,
+    "ListTableId": 743,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 903,
-    "ProgId": "non",
+    "Page1LineNo": 108,
+    "ProgId": "repellendus",
     "IsReadOnly": false,
-    "ShortLabel": "at",
-    "TabOrder": 476,
-    "TextLength": 517,
-    "Tooltip": "suscipit",
-    "UdefIdentity": 73,
-    "UDListDefinitionId": 886,
+    "ShortLabel": "alias",
+    "TabOrder": 315,
+    "TextLength": 30,
+    "Tooltip": "odit",
+    "UdefIdentity": 721,
+    "UDListDefinitionId": 583,
     "Justification": "Center",
-    "Version": 525,
-    "TemplateVariableName": "Kohler, Hickle and Kunze",
+    "Version": 355,
+    "TemplateVariableName": "Mayert, Pouros and Toy",
     "HasBeenPublished": false,
-    "MdoListName": "Hyatt, Kris and Torphy",
+    "MdoListName": "Doyle Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 390
+        "FieldLength": 75
       }
     }
   }

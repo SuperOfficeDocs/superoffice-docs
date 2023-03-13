@@ -69,7 +69,7 @@ OK
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,64 +79,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 324,
-  "Caption": "ipsum",
-  "Description": "Triple-buffered upward-trending hierarchy",
-  "ChartName": "Wyman-Lowe",
-  "ChartId": "nobis",
-  "IsDefault": true,
-  "AssociateId": 26,
-  "GroupId": 844,
-  "SelectionId": 542,
-  "Config": "aut",
+  "DashboardTileId": 919,
+  "Caption": "sunt",
+  "Description": "Upgradable full-range open architecture",
+  "ChartName": "Keeling-Prosacco",
+  "ChartId": "porro",
+  "IsDefault": false,
+  "AssociateId": 563,
+  "GroupId": 950,
+  "SelectionId": 695,
+  "Config": "est",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Wiza, Grant and Skiles",
-      "Description": "Fully-configurable directional budgetary management",
+      "Name": "O'Keefe Inc and Sons",
+      "Description": "Reactive asynchronous architecture",
       "Type": "Boolean",
-      "ListName": "Schimmel-Senger",
+      "ListName": "Hagenes, Jenkins and Monahan",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "excepturi",
+      "Value": "voluptatibus",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 574
+          "FieldLength": 444
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 583,
+      "VisibleId": 632,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 439
+          "FieldLength": 808
         }
       }
     },
     {
-      "VisibleId": 583,
+      "VisibleId": 632,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 439
+          "FieldLength": 808
         }
       }
     }
@@ -145,8 +145,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 448
+      "FieldType": "System.String",
+      "FieldLength": 474
     }
   }
 }

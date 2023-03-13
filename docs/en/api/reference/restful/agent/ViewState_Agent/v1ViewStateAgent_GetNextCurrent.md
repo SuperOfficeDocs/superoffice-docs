@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ViewState/GetNextCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Cremin LLC",
-  "Id": 286
+  "HistoryName": "Cassin Inc and Sons",
+  "Id": 160
 }
 ```
 
@@ -97,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 637,
-  "Id": 834,
-  "HistoryName": "Hudson-Littel",
-  "HistoryId": 122,
-  "AssociateId": 764,
-  "Name": "Moore-Runolfsson",
-  "ItemInfo": "a",
+  "Rank": 415,
+  "Id": 329,
+  "HistoryName": "Hills, Mante and Cummerata",
+  "HistoryId": 833,
+  "AssociateId": 894,
+  "Name": "Ziemann-Lind",
+  "ItemInfo": "officiis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 825
+      "FieldType": "System.Int32",
+      "FieldLength": 20
     }
   }
 }

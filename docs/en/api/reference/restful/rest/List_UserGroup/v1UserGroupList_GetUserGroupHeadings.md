@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 562,
-    "Name": "Rogahn LLC",
-    "Tooltip": "dolor",
-    "Deleted": false,
-    "Rank": 722,
-    "UdListDefinitionId": 739,
+    "HeadingId": 363,
+    "Name": "Harber Group",
+    "Tooltip": "rem",
+    "Deleted": true,
+    "Rank": 693,
+    "UdListDefinitionId": 383,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 289
+        "FieldType": "System.String",
+        "FieldLength": 462
       }
     }
   }

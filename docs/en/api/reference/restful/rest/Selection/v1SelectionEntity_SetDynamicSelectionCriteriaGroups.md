@@ -72,63 +72,63 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "McClure, Pfannerstill and Abbott",
-    "Description": "Multi-lateral contextually-based Graphical User Interface",
-    "Rank": 375,
+    "Name": "Murphy LLC",
+    "Description": "Balanced dedicated structure",
+    "Rank": 199,
     "Restrictions": [
       {
-        "Name": "Kunde-Douglas",
-        "Operator": "vero",
+        "Name": "Willms Group",
+        "Operator": "facere",
         "Values": [
-          "accusamus",
-          "esse"
+          "quaerat",
+          "odit"
         ],
         "DisplayValues": [
-          "sequi",
-          "distinctio"
+          "amet",
+          "quia"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 480,
+        "InterParenthesis": 223,
         "InterOperator": "And",
-        "UniqueHash": 568
+        "UniqueHash": 180
       }
     ]
   },
   {
-    "Name": "McClure, Pfannerstill and Abbott",
-    "Description": "Multi-lateral contextually-based Graphical User Interface",
-    "Rank": 375,
+    "Name": "Murphy LLC",
+    "Description": "Balanced dedicated structure",
+    "Rank": 199,
     "Restrictions": [
       {
-        "Name": "Kunde-Douglas",
-        "Operator": "vero",
+        "Name": "Willms Group",
+        "Operator": "facere",
         "Values": [
-          "accusamus",
-          "esse"
+          "quaerat",
+          "odit"
         ],
         "DisplayValues": [
-          "sequi",
-          "distinctio"
+          "amet",
+          "quia"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 480,
+        "InterParenthesis": 223,
         "InterOperator": "And",
-        "UniqueHash": 568
+        "UniqueHash": 180
       }
     ]
   }
@@ -143,20 +143,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Oberbrunner-Harvey",
-    "Description": "Polarised object-oriented system engine",
-    "Rank": 404,
+    "Name": "Donnelly Inc and Sons",
+    "Description": "Organized coherent analyzer",
+    "Rank": 11,
     "Restrictions": [
       {
-        "Name": "Corkery-Monahan",
-        "Operator": "corporis",
+        "Name": "Torphy-Ledner",
+        "Operator": "et",
         "Values": [
-          "quasi",
-          "eaque"
+          "dolore",
+          "at"
         ],
         "DisplayValues": [
-          "dolores",
-          "blanditiis"
+          "qui",
+          "commodi"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -164,27 +164,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 688,
+        "InterParenthesis": 335,
         "InterOperator": "And",
-        "UniqueHash": 29
+        "UniqueHash": 977
       }
     ]
   },
   {
-    "Name": "Oberbrunner-Harvey",
-    "Description": "Polarised object-oriented system engine",
-    "Rank": 404,
+    "Name": "Donnelly Inc and Sons",
+    "Description": "Organized coherent analyzer",
+    "Rank": 11,
     "Restrictions": [
       {
-        "Name": "Corkery-Monahan",
-        "Operator": "corporis",
+        "Name": "Torphy-Ledner",
+        "Operator": "et",
         "Values": [
-          "quasi",
-          "eaque"
+          "dolore",
+          "at"
         ],
         "DisplayValues": [
-          "dolores",
-          "blanditiis"
+          "qui",
+          "commodi"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -192,9 +192,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 688,
+        "InterParenthesis": 335,
         "InterOperator": "And",
-        "UniqueHash": 29
+        "UniqueHash": 977
       }
     ]
   }

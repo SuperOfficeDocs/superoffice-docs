@@ -112,48 +112,48 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 9,
-  "Name": "Wisoky Group",
-  "Description": "Digitized 3rd generation focus group",
-  "WelcomeMessage": "ratione",
+  "ChatTopicId": 366,
+  "Name": "Monahan Inc and Sons",
+  "Description": "Managed optimizing internet solution",
+  "WelcomeMessage": "veritatis",
   "Language": null,
-  "LastAccept": "2019-12-29T14:19:10.0998102+01:00",
-  "SecondsPrAccept": 456,
-  "AlertRecipient": "deleniti",
+  "LastAccept": "2017-11-17T12:15:26.5226414+01:00",
+  "SecondsPrAccept": 366,
+  "AlertRecipient": "dolor",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "sapiente",
+  "BadgeHeader": "quam",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "enim",
-  "WarnNewChatMinutes": 528,
-  "WarnManagerNewChatMinutes": 737,
-  "TicketEnabled": true,
+  "CustomQueueText": "tempore",
+  "WarnNewChatMinutes": 447,
+  "WarnManagerNewChatMinutes": 958,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 810,
-  "WarnManagerChatMessageMinutes": 484,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 796,
-  "OfflineFormQueueLength": 627,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "voluptates",
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 72,
+  "WarnManagerChatMessageMinutes": 843,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 458,
+  "OfflineFormQueueLength": 17,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "laboriosam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldLength": 809
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

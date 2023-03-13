@@ -104,16 +104,16 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 221,
+  "DocId": 404,
   "AttachmentIds": [
-    "inventore",
-    "error"
+    "sint",
+    "odio"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -126,146 +126,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 370,
-      "ContactName": "Barton-Ziemann",
-      "PersonId": 675,
-      "PersonName": "O'Reilly-Batz",
-      "AssociateId": 521,
-      "Address": "aliquid",
-      "EmailId": 425,
+      "ContactId": 498,
+      "ContactName": "Stiedemann, Oberbrunner and Bartell",
+      "PersonId": 915,
+      "PersonName": "Adams, Nolan and Dietrich",
+      "AssociateId": 719,
+      "Address": "fugiat",
+      "EmailId": 552,
       "DuplicatePersonIds": [
-        619,
-        631
+        551,
+        473
       ],
-      "Name": "Batz, Bergstrom and Kuphal",
+      "Name": "Kemmer, Quigley and Upton",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 901
+          "FieldType": "System.Int32",
+          "FieldLength": 179
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 948,
-      "ContactName": "Nitzsche, Friesen and Olson",
-      "PersonId": 279,
-      "PersonName": "Jones, Kshlerin and Greenholt",
-      "AssociateId": 111,
-      "Address": "eum",
-      "EmailId": 149,
+      "ContactId": 122,
+      "ContactName": "Heaney Inc and Sons",
+      "PersonId": 363,
+      "PersonName": "Fadel Group",
+      "AssociateId": 451,
+      "Address": "in",
+      "EmailId": 987,
       "DuplicatePersonIds": [
-        69,
-        677
+        182,
+        883
       ],
-      "Name": "Aufderhar LLC",
+      "Name": "Turner-O'Kon",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 102
+          "FieldLength": 3
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 470,
-      "ContactName": "Beer, Rowe and Von",
-      "PersonId": 944,
-      "PersonName": "Keeling-Bosco",
-      "AssociateId": 277,
-      "Address": "molestiae",
-      "EmailId": 56,
+      "ContactId": 475,
+      "ContactName": "Mayert Group",
+      "PersonId": 221,
+      "PersonName": "Shanahan-Lakin",
+      "AssociateId": 71,
+      "Address": "amet",
+      "EmailId": 349,
       "DuplicatePersonIds": [
-        756,
-        128
+        611,
+        512
       ],
-      "Name": "Armstrong Group",
+      "Name": "Steuber, Boyer and Brown",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 868
+          "FieldLength": 59
         }
       }
     }
   ],
-  "Subject": "exercitationem",
-  "HTMLBody": "pariatur",
+  "Subject": "laboriosam",
+  "HTMLBody": "ut",
   "From": null,
-  "Sent": "1999-05-24T14:19:03.466522+02:00",
-  "Size": 444,
+  "Sent": "1996-04-08T12:15:19.0357504+02:00",
+  "Size": 210,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quo",
-  "PlainBody": "illo",
+  "MessageID": "aut",
+  "PlainBody": "eos",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 607,
+  "ServerId": 104,
   "Attachments": [
     {
-      "Description": "Re-engineered explicit leverage",
-      "Filename": "officiis",
-      "Size": 878,
-      "Type": "sed",
-      "Encoding": "repellat",
-      "Id": "et",
-      "Disposition": "ea",
+      "Description": "Enhanced empowering architecture",
+      "Filename": "aut",
+      "Size": 884,
+      "Type": "pariatur",
+      "Encoding": "accusamus",
+      "Id": "illo",
+      "Disposition": "quis",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 915
+          "FieldLength": 996
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Littel Inc and Sons",
+      "Name": "Kunde-Raynor",
       "Values": [
-        "incidunt",
-        "quos"
+        "odit",
+        "dolore"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 790
+          "FieldLength": 67
         }
       }
     },
     {
-      "Name": "Littel Inc and Sons",
+      "Name": "Kunde-Raynor",
       "Values": [
-        "incidunt",
-        "quos"
+        "odit",
+        "dolore"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 790
+          "FieldLength": 67
         }
       }
     }
   ],
-  "FolderName": "Luettgen, Towne and Rolfson",
-  "EmailItemId": 932,
-  "AccountId": 866,
-  "ReceivedAt": "2001-11-10T14:19:03.466522+01:00",
+  "FolderName": "Schimmel, Gerlach and Pouros",
+  "EmailItemId": 316,
+  "AccountId": 690,
+  "ReceivedAt": "2016-02-27T12:15:19.0367501+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2022-10-29T14:19:03.466522+02:00",
+  "RepliedAt": "2011-09-01T12:15:19.0367501+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -273,8 +273,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 374
+      "FieldType": "System.Int32",
+      "FieldLength": 483
     }
   }
 }

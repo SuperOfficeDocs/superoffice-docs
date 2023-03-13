@@ -77,13 +77,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "cum",
-    "quia"
+    "dolores",
+    "veritatis"
   ]
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 102,
-    "ResourceId": 445,
-    "Text": "sed",
+    "LanguageId": 933,
+    "ResourceId": 621,
+    "Text": "dolor",
     "Type": "Column",
-    "LocalizedTextId": 465,
+    "LocalizedTextId": 523,
     "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 299
+        "FieldLength": 474
       }
     }
   }

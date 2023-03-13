@@ -26,7 +26,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=et
+GET /api/v1/List/DocumentTemplate/MDOItems?query=ullam
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 632,
-    "Name": "Halvorson-Kautzer",
-    "ToolTip": "Sunt omnis quia culpa porro temporibus qui illum.",
+    "Id": 636,
+    "Name": "Zulauf Inc and Sons",
+    "ToolTip": "Et suscipit voluptatem veniam.",
     "Deleted": false,
-    "Rank": 229,
-    "Type": "velit",
+    "Rank": 955,
+    "Type": "omnis",
     "ChildItems": [
       {
-        "Id": 734,
-        "Name": "Bruen LLC",
-        "ToolTip": "Alias quis omnis iusto illo natus expedita.",
+        "Id": 152,
+        "Name": "Christiansen LLC",
+        "ToolTip": "In saepe asperiores sed voluptas similique provident.",
         "Deleted": true,
-        "Rank": 868,
-        "Type": "quos",
+        "Rank": 1002,
+        "Type": "tempora",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "non",
-        "ColorBlock": 273,
-        "ExtraInfo": "quia",
-        "StyleHint": "cupiditate",
-        "FullName": "Johnathan Jenkins",
+        "IconHint": "sunt",
+        "ColorBlock": 88,
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "perspiciatis",
+        "FullName": "Litzy Heidenreich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 429
+            "FieldType": "System.String",
+            "FieldLength": 977
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 389,
-    "ExtraInfo": "eveniet",
-    "StyleHint": "et",
-    "FullName": "Sage Beahan",
+    "IconHint": "vitae",
+    "ColorBlock": 632,
+    "ExtraInfo": "aut",
+    "StyleHint": "atque",
+    "FullName": "Mrs. Alicia Little",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 41
+        "FieldType": "System.Int32",
+        "FieldLength": 499
       }
     }
   }

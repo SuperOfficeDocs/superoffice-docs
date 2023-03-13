@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 54,
-    "Name": "Cronin Inc and Sons",
-    "ToolTip": "Ut nulla debitis et fugit.",
+    "Id": 303,
+    "Name": "Ferry, Gleichner and Borer",
+    "ToolTip": "Cumque amet non cum quam.",
     "Deleted": false,
-    "Rank": 173,
-    "Type": "modi",
-    "ColorBlock": 7,
-    "IconHint": "omnis",
+    "Rank": 229,
+    "Type": "perferendis",
+    "ColorBlock": 613,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2010-08-19T14:19:11.2418468+02:00",
+    "LastChanged": "2020-11-26T12:15:28.1296193+01:00",
     "ChildItems": [
       {
-        "Id": 163,
-        "Name": "Trantow, Tromp and Prosacco",
-        "ToolTip": "Quia voluptatem voluptas velit autem sapiente aliquid.",
-        "Deleted": true,
-        "Rank": 527,
-        "Type": "est",
-        "ColorBlock": 776,
-        "IconHint": "vitae",
+        "Id": 416,
+        "Name": "Osinski Group",
+        "ToolTip": "Similique et quia sit laboriosam nesciunt non temporibus.",
+        "Deleted": false,
+        "Rank": 42,
+        "Type": "voluptas",
+        "ColorBlock": 687,
+        "IconHint": "laudantium",
         "Selected": false,
-        "LastChanged": "2021-11-19T14:19:11.2418468+01:00",
+        "LastChanged": "1999-01-04T12:15:28.1306187+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "velit",
-        "Hidden": true,
-        "FullName": "Miss Henry Brown"
+        "ExtraInfo": "ut",
+        "StyleHint": "odit",
+        "Hidden": false,
+        "FullName": "Dr. Theo Ondricka"
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "asperiores",
-    "Hidden": false,
-    "FullName": "Wilber Hessel"
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "repellendus",
+    "Hidden": true,
+    "FullName": "Weldon Stanton"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 333,
-    "Name": "Runolfsdottir-Crist",
-    "ToolTip": "Animi mollitia molestias.",
+    "Id": 669,
+    "Name": "Bergstrom Inc and Sons",
+    "ToolTip": "Eveniet voluptas et maiores sed et illo quaerat.",
     "Deleted": false,
-    "Rank": 618,
-    "Type": "voluptates",
-    "ColorBlock": 68,
-    "IconHint": "veniam",
-    "Selected": true,
-    "LastChanged": "2020-03-15T14:19:11.2418468+01:00",
+    "Rank": 951,
+    "Type": "neque",
+    "ColorBlock": 678,
+    "IconHint": "quod",
+    "Selected": false,
+    "LastChanged": "2011-12-26T12:15:28.1316184+01:00",
     "ChildItems": [
       {
-        "Id": 247,
-        "Name": "Ratke Group",
-        "ToolTip": "Inventore quidem et eaque omnis earum quia quisquam.",
+        "Id": 186,
+        "Name": "Lowe-Nikolaus",
+        "ToolTip": "Enim culpa fugit quaerat et.",
         "Deleted": true,
-        "Rank": 143,
-        "Type": "illo",
-        "ColorBlock": 338,
-        "IconHint": "debitis",
-        "Selected": true,
-        "LastChanged": "2008-02-12T14:19:11.2418468+01:00",
+        "Rank": 1000,
+        "Type": "aut",
+        "ColorBlock": 898,
+        "IconHint": "ea",
+        "Selected": false,
+        "LastChanged": "1997-03-14T12:15:28.1316184+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "repellat",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Miss Davion Bruen",
+        "FullName": "Carlotta Leffler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 454
+            "FieldType": "System.String",
+            "FieldLength": 516
           }
         }
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "facilis",
-    "Hidden": true,
-    "FullName": "Dr. Anais O'Hara I",
+    "ExtraInfo": "ut",
+    "StyleHint": "dolor",
+    "Hidden": false,
+    "FullName": "Charlie Carroll",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 70
+        "FieldLength": 550
       }
     }
   }

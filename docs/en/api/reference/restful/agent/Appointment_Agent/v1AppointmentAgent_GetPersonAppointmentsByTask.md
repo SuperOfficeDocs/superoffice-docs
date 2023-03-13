@@ -127,16 +127,16 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 505,
-  "IncludeProjectAppointments": false,
-  "StartTime": "2013-12-15T14:19:02.3262466+01:00",
-  "EndTime": "2017-11-22T14:19:02.3262466+01:00",
-  "Count": 436,
-  "TaskId": 874
+  "PersonId": 782,
+  "IncludeProjectAppointments": true,
+  "StartTime": "2002-08-09T12:15:17.622775+02:00",
+  "EndTime": "2022-06-28T12:15:17.622775+02:00",
+  "Count": 981,
+  "TaskId": 805
 }
 ```
 
@@ -148,61 +148,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 292,
-    "StartDate": "2015-10-21T14:19:02.3262466+02:00",
-    "EndDate": "2009-08-14T14:19:02.3262466+02:00",
+    "AppointmentId": 695,
+    "StartDate": "2004-09-26T12:15:17.6237709+02:00",
+    "EndDate": "1997-11-06T12:15:17.6237709+01:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "Tito Little",
-    "ContactName": "O'Kon Inc and Sons",
-    "Description": "Mandatory 24/7 contingency",
-    "PersonFullName": "Mr. Charles McCullough",
-    "PersonId": 388,
-    "ContactId": 137,
-    "ProjectId": 42,
-    "ProjectName": "Jaskolski, Quitzon and Cummerata",
-    "IsPublished": true,
-    "AssociateId": 601,
-    "ColorIndex": 771,
+    "Task": "quo",
+    "AssociateFullName": "Mr. Celia Kub",
+    "ContactName": "O'Reilly, Ward and Lubowitz",
+    "Description": "Stand-alone full-range capacity",
+    "PersonFullName": "Marco Stephany Lang DDS",
+    "PersonId": 647,
+    "ContactId": 59,
+    "ProjectId": 396,
+    "ProjectName": "Hills-Pfannerstill",
+    "IsPublished": false,
+    "AssociateId": 656,
+    "ColorIndex": 626,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "HasAlarm": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 160,
-    "PriorityName": "Moore LLC",
+    "PriorityId": 191,
+    "PriorityName": "Ritchie Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2013-12-19T14:19:02.3262466+01:00",
+    "ActiveDate": "2015-12-23T12:15:17.6247709+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-04-20T14:19:02.3262466+02:00",
-    "RecurringEndDate": "2018-10-09T14:19:02.3262466+02:00",
-    "MotherId": 278,
-    "AssignedBy": 675,
-    "AssignedByFullName": "Gregorio Bernhard",
+    "RecurringStartDate": "2004-09-27T12:15:17.6247709+02:00",
+    "RecurringEndDate": "2018-03-15T12:15:17.6247709+01:00",
+    "MotherId": 983,
+    "AssignedBy": 449,
+    "AssignedByFullName": "Ms. Stanford Richard Christiansen V",
     "RejectReason": "",
-    "Location": "enim",
-    "AlarmLeadTime": "pariatur",
-    "SaleId": 197,
-    "SaleName": "Feest, Stehr and Ledner",
-    "AssociateName": "Sauer Inc and Sons",
-    "CreatedDate": "2006-09-29T14:19:02.3262466+02:00",
-    "CreatedBy": "aut",
-    "CreatedByFullName": "Kaley Emiliano Turcotte V",
-    "CreatedByAssociateId": 21,
+    "Location": "perferendis",
+    "AlarmLeadTime": "voluptatibus",
+    "SaleId": 58,
+    "SaleName": "Bartoletti Group",
+    "AssociateName": "Walter Group",
+    "CreatedDate": "1996-01-17T12:15:17.6247709+01:00",
+    "CreatedBy": "est",
+    "CreatedByFullName": "Sebastian Crist",
+    "CreatedByAssociateId": 626,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 820
+        "FieldType": "System.String",
+        "FieldLength": 289
       }
     }
   }

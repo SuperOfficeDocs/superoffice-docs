@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 297,
-  "Name": "Davis, Lubowitz and Beatty",
+  "WebPanelId": 91,
+  "Name": "Paucek Inc and Sons",
   "Tooltip": "sequi",
-  "Deleted": false,
-  "Rank": 733,
+  "Deleted": true,
+  "Rank": 955,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": false,
+  "OnSatellite": true,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Gusikowski, Grady and Marvin",
+  "WindowName": "Powlowski, Sporer and Durgan",
   "Url": "http://www.example.com/",
-  "ProgId": "voluptatem",
-  "Icon": 353,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "non",
+  "Icon": 714,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 848
+      "FieldType": "System.Int32",
+      "FieldLength": 147
     }
   }
 }

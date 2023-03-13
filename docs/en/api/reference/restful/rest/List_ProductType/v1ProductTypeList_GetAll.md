@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 565,
-    "Name": "Kshlerin, Kemmer and Bins",
-    "Tooltip": "illo",
+    "Id": 436,
+    "Name": "Blick, Weissnat and Gleichner",
+    "Tooltip": "expedita",
     "Deleted": false,
-    "UdListDefinitionId": 946,
-    "Rank": 508,
+    "UdListDefinitionId": 310,
+    "Rank": 12,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 288
+        "FieldLength": 794
       }
     }
   }

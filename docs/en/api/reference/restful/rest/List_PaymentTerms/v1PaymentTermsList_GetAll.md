@@ -24,7 +24,7 @@ Gets all the PaymentTerm items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items?includeDeleted=True
+GET /api/v1/List/PaymentTerm/Items?includeDeleted=False
 ```
 
 
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 570,
-    "Name": "Anderson, Schuster and Anderson",
-    "Tooltip": "dignissimos",
-    "Deleted": true,
-    "UdListDefinitionId": 677,
-    "Rank": 827,
+    "Id": 589,
+    "Name": "Greenholt-Pollich",
+    "Tooltip": "quae",
+    "Deleted": false,
+    "UdListDefinitionId": 350,
+    "Rank": 664,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 134
+        "FieldType": "System.String",
+        "FieldLength": 726
       }
     }
   }

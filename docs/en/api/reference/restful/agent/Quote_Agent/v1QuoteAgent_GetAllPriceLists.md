@@ -88,8 +88,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 855,
-  "Currency": "voluptatem"
+  "QuoteConnectionId": 532,
+  "Currency": "optio"
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 382,
-    "ERPPriceListKey": "quasi",
-    "QuoteConnectionId": 477,
-    "Name": "Barton, Hoeger and Willms",
-    "Description": "Multi-tiered non-volatile process improvement",
-    "Currency": "quod",
-    "CurrencyName": "Hudson-Pfannerstill",
-    "ValidFrom": "2002-10-16T14:19:04.0313341+02:00",
-    "ValidTo": "2001-02-17T14:19:04.0313341+01:00",
-    "IsActive": true,
+    "PriceListId": 4,
+    "ERPPriceListKey": "sit",
+    "QuoteConnectionId": 335,
+    "Name": "Kovacek-Rogahn",
+    "Description": "Ameliorated hybrid application",
+    "Currency": "ad",
+    "CurrencyName": "West-Gorczany",
+    "ValidFrom": "2001-01-22T12:15:19.949737+01:00",
+    "ValidTo": "2009-02-08T12:15:19.949737+01:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 892
+        "FieldLength": 540
       }
     }
   }

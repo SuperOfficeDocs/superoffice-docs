@@ -26,7 +26,7 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=eos
+GET /api/v1/List/Business/MDOItems?query=sit
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 235,
-    "Name": "Gulgowski-Wiza",
-    "ToolTip": "Voluptatem voluptatum aut et aut.",
+    "Id": 882,
+    "Name": "Bogisich, Littel and Klocko",
+    "ToolTip": "Corporis sunt.",
     "Deleted": false,
-    "Rank": 23,
-    "Type": "porro",
+    "Rank": 530,
+    "Type": "blanditiis",
     "ChildItems": [
       {
-        "Id": 271,
-        "Name": "Cruickshank, Bartell and Cartwright",
-        "ToolTip": "Omnis et et sit maiores.",
-        "Deleted": false,
-        "Rank": 990,
-        "Type": "ex",
+        "Id": 703,
+        "Name": "Bauch LLC",
+        "ToolTip": "Repellat voluptatum deleniti.",
+        "Deleted": true,
+        "Rank": 35,
+        "Type": "impedit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quos",
-        "ColorBlock": 430,
-        "ExtraInfo": "eius",
-        "StyleHint": "deleniti",
-        "FullName": "Prof. Dedric McLaughlin",
+        "IconHint": "labore",
+        "ColorBlock": 725,
+        "ExtraInfo": "deleniti",
+        "StyleHint": "quo",
+        "FullName": "Anibal Keeling II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 427
+            "FieldLength": 973
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 279,
-    "ExtraInfo": "impedit",
-    "StyleHint": "odio",
-    "FullName": "Theo Lehner",
+    "IconHint": "impedit",
+    "ColorBlock": 158,
+    "ExtraInfo": "ducimus",
+    "StyleHint": "iusto",
+    "FullName": "Fabian Jazmyn McClure MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 16
+        "FieldType": "System.Int32",
+        "FieldLength": 794
       }
     }
   }

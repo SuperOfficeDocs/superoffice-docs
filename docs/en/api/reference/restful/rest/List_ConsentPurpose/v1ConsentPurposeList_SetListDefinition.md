@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 126,
-  "Name": "Medhurst, Romaguera and Walter",
-  "Tooltip": "iusto",
-  "Deleted": false,
-  "Rank": 480,
+  "Id": 733,
+  "Name": "Cummerata-Mosciski",
+  "Tooltip": "nihil",
+  "Deleted": true,
+  "Rank": 164,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "reprehenderit",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "magni",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 12,
-  "Name": "Hyatt Inc and Sons",
-  "Tooltip": "expedita",
-  "Deleted": false,
-  "Rank": 852,
-  "IsCustomList": false,
+  "Id": 636,
+  "Name": "O'Connell Group",
+  "Tooltip": "ab",
+  "Deleted": true,
+  "Rank": 138,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "doloremque",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 412
+      "FieldLength": 283
     }
   }
 }

@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 690,
-    "Name": "Okuneva, Russel and Stoltenberg",
-    "ToolTip": "Tenetur sit quis.",
-    "Deleted": false,
-    "Rank": 533,
-    "Type": "voluptas",
-    "ColorBlock": 707,
-    "IconHint": "aspernatur",
+    "Id": 663,
+    "Name": "Ondricka LLC",
+    "ToolTip": "Neque sed quasi similique et magnam a rerum.",
+    "Deleted": true,
+    "Rank": 462,
+    "Type": "adipisci",
+    "ColorBlock": 410,
+    "IconHint": "dolor",
     "Selected": false,
-    "LastChanged": "1998-03-31T14:19:11.2418468+02:00",
+    "LastChanged": "1996-05-11T12:15:28.1336186+02:00",
     "ChildItems": [
       {
-        "Id": 259,
-        "Name": "Gusikowski-Gislason",
-        "ToolTip": "Rerum non ea.",
-        "Deleted": false,
-        "Rank": 411,
-        "Type": "alias",
-        "ColorBlock": 355,
-        "IconHint": "quia",
+        "Id": 471,
+        "Name": "Morar-McLaughlin",
+        "ToolTip": "Totam et harum cumque harum.",
+        "Deleted": true,
+        "Rank": 867,
+        "Type": "sed",
+        "ColorBlock": 280,
+        "IconHint": "explicabo",
         "Selected": false,
-        "LastChanged": "1997-09-17T14:19:11.2418468+02:00",
+        "LastChanged": "2002-03-29T12:15:28.1336186+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Miss Kenna Ola Hagenes DDS",
+        "ExtraInfo": "rerum",
+        "StyleHint": "dolores",
+        "Hidden": false,
+        "FullName": "Mose Hessel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 464
+            "FieldType": "System.Int32",
+            "FieldLength": 615
           }
         }
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "corrupti",
+    "ExtraInfo": "velit",
+    "StyleHint": "dignissimos",
     "Hidden": false,
-    "FullName": "Rosalee Russel",
+    "FullName": "Audrey Hyatt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 798
+        "FieldType": "System.Int32",
+        "FieldLength": 985
       }
     }
   }

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "O'Conner Group"
+  "TableName": "Mraz-Spencer"
 }
 ```
 
@@ -94,41 +94,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "eum",
-  "Inserts": 503,
-  "Updates": 488,
-  "Deletes": 876,
+  "Success": false,
+  "Message": "officiis",
+  "Inserts": 576,
+  "Updates": 128,
+  "Deletes": 546,
   "RowStatus": [
     {
-      "PrimaryKey": 760,
+      "PrimaryKey": 87,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "dolorem",
-        "error"
+        "dolor",
+        "quasi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 161
+          "FieldLength": 675
         }
       }
     },
     {
-      "PrimaryKey": 760,
+      "PrimaryKey": 87,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "dolorem",
-        "error"
+        "dolor",
+        "quasi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 161
+          "FieldLength": 675
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 755
+      "FieldLength": 317
     }
   }
 }

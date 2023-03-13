@@ -99,35 +99,35 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 294,
-  "Section": "eligendi",
-  "Key": "reiciendis",
-  "Name": "Aufderhar Inc and Sons",
+  "PrefDescId": 348,
+  "Section": "aut",
+  "Key": "rem",
+  "Name": "Kuhn-Wunsch",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Re-contextualized attitude-oriented benchmark",
-  "IsBuiltin": true,
-  "TableName": "Blick, Becker and Pagac",
-  "UserDefinedListId": 268,
-  "Rank": 849,
-  "SubGroup": "officia",
-  "MinLevel": 150,
-  "MaxValue": 269,
-  "MinValue": 282,
-  "RequiredLicense": "eum",
+  "Description": "Quality-focused impactful superstructure",
+  "IsBuiltin": false,
+  "TableName": "Farrell-McLaughlin",
+  "UserDefinedListId": 902,
+  "Rank": 645,
+  "SubGroup": "harum",
+  "MinLevel": 711,
+  "MaxValue": 786,
+  "MinValue": 53,
+  "RequiredLicense": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 940
+      "FieldType": "System.String",
+      "FieldLength": 157
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

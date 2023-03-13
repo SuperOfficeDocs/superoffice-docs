@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Chat/PickUpFirstChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -106,29 +106,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 918,
-  "TopicId": 813,
+  "ChatSessionId": 527,
+  "TopicId": 99,
   "User": null,
   "Person": null,
-  "CustomerAlias": "in",
-  "CustomerHost": "autem",
-  "CustomerName": "Bednar Inc and Sons",
-  "CustomerEmail": "beryl.terry@cruickshankschimmel.com",
-  "CustomerPhone": "629-081-7261 x070",
+  "CustomerAlias": "impedit",
+  "CustomerHost": "molestiae",
+  "CustomerName": "Rutherford LLC",
+  "CustomerEmail": "domenick_morar@moenhartmann.biz",
+  "CustomerPhone": "1-856-562-1533 x75767",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kohler, Hauck and Heller",
+  "CustomerCompanyName": "Eichmann, Pfannerstill and Schumm",
   "Status": "Closed",
-  "FirstMessage": "nihil",
-  "LastMessage": "ea",
-  "WhenRequested": "2000-12-02T14:19:02.8855274+01:00",
-  "WhenStarted": "2010-08-11T14:19:02.8855274+02:00",
-  "WhenEnded": "2016-04-12T14:19:02.8855274+02:00",
-  "WhenIdle": "2020-04-30T14:19:02.8855274+02:00",
-  "WhenFetched": "2016-11-01T14:19:02.8855274+01:00",
-  "SessionKey": "voluptas",
-  "InitialQueuePos": 674,
-  "AlertLevel": 631,
-  "Rank": 328,
+  "FirstMessage": "voluptatum",
+  "LastMessage": "iure",
+  "WhenRequested": "2006-12-02T12:15:18.3627624+01:00",
+  "WhenStarted": "2017-04-07T12:15:18.3627624+02:00",
+  "WhenEnded": "2005-12-29T12:15:18.3627624+01:00",
+  "WhenIdle": "2002-02-09T12:15:18.3627624+01:00",
+  "WhenFetched": "2001-08-14T12:15:18.3627624+02:00",
+  "SessionKey": "sed",
+  "InitialQueuePos": 728,
+  "AlertLevel": 990,
+  "Rank": 210,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 444,
+  "Rating": 310,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 179
+      "FieldLength": 695
     }
   }
 }

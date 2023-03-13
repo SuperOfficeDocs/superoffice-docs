@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 17,
-  "PlainMessage": "sint",
-  "HtmlMessage": "itaque",
-  "SmsMessage": "cumque",
-  "Description": "Exclusive regional policy",
-  "Subject": "libero",
-  "FolderId": 261,
-  "HeaderField": "omnis",
-  "Design": "et",
+  "ShipmentMessageId": 669,
+  "PlainMessage": "maxime",
+  "HtmlMessage": "asperiores",
+  "SmsMessage": "magni",
+  "Description": "Customer-focused bi-directional initiative",
+  "Subject": "quia",
+  "FolderId": 206,
+  "HeaderField": "expedita",
+  "Design": "aliquam",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Universal next generation protocol",
-  "AccessKey": "odit",
-  "DocumentMessage": 635,
-  "Registered": "2020-09-15T14:19:03.7176242+02:00",
-  "RegisteredAssociateId": 816,
-  "Updated": "2015-10-03T14:19:03.7176242+02:00",
-  "UpdatedAssociateId": 569,
-  "UpdatedCount": 199,
+  "InlineImages": true,
+  "LongDescription": "Synergistic foreground info-mediaries",
+  "AccessKey": "et",
+  "DocumentMessage": 515,
+  "Registered": "1999-01-31T12:15:19.3687519+01:00",
+  "RegisteredAssociateId": 507,
+  "Updated": "2008-05-28T12:15:19.3687519+02:00",
+  "UpdatedAssociateId": 705,
+  "UpdatedCount": 144,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldType": "System.String",
+      "FieldLength": 911
     }
   }
 }

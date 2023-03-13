@@ -78,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 978,
-  "Name": "Kuhn Group",
-  "Tooltip": "animi",
-  "Deleted": false,
-  "Rank": 105,
-  "UdListDefinitionId": 915
+  "HeadingId": 687,
+  "Name": "Reinger-Roob",
+  "Tooltip": "voluptas",
+  "Deleted": true,
+  "Rank": 330,
+  "UdListDefinitionId": 913
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 89,
-  "Name": "Mann Group",
-  "Tooltip": "tenetur",
-  "Deleted": false,
-  "Rank": 260,
-  "UdListDefinitionId": 956,
+  "HeadingId": 69,
+  "Name": "Krajcik Inc and Sons",
+  "Tooltip": "doloremque",
+  "Deleted": true,
+  "Rank": 667,
+  "UdListDefinitionId": 583,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 145
+      "FieldType": "System.Int32",
+      "FieldLength": 422
     }
   }
 }

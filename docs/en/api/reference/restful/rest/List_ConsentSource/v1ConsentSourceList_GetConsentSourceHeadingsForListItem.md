@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 368,
-    "Name": "Bernhard LLC",
-    "ToolTip": "Ea aut enim omnis dicta dolorum alias.",
+    "Id": 785,
+    "Name": "Kihn, Green and Bartoletti",
+    "ToolTip": "Rerum vel est consequatur adipisci.",
     "Deleted": true,
-    "Rank": 500,
-    "Type": "non",
-    "ColorBlock": 905,
-    "IconHint": "est",
+    "Rank": 389,
+    "Type": "ut",
+    "ColorBlock": 419,
+    "IconHint": "quas",
     "Selected": false,
-    "LastChanged": "1996-01-31T14:19:11.1793474+01:00",
+    "LastChanged": "2000-02-26T12:15:27.9476223+01:00",
     "ChildItems": [
       {
-        "Id": 772,
-        "Name": "Senger, Hettinger and Altenwerth",
-        "ToolTip": "Accusantium eaque quas voluptatibus ipsam vitae.",
+        "Id": 786,
+        "Name": "Dickinson-Gaylord",
+        "ToolTip": "Dolores consequatur impedit omnis molestiae nesciunt a.",
         "Deleted": false,
-        "Rank": 827,
-        "Type": "soluta",
-        "ColorBlock": 230,
-        "IconHint": "animi",
+        "Rank": 658,
+        "Type": "quis",
+        "ColorBlock": 479,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2009-11-30T14:19:11.1793474+01:00",
+        "LastChanged": "2002-01-24T12:15:27.9476223+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "nostrum",
-        "Hidden": false,
-        "FullName": "Ramiro Jenkins",
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "ratione",
+        "Hidden": true,
+        "FullName": "Ms. Jarod Ondricka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 95
+            "FieldLength": 803
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "ea",
-    "Hidden": true,
-    "FullName": "Moses Rolfson",
+    "ExtraInfo": "ut",
+    "StyleHint": "iusto",
+    "Hidden": false,
+    "FullName": "Ms. Abagail Rene Wehner II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 160
+        "FieldType": "System.Int32",
+        "FieldLength": 685
       }
     }
   }

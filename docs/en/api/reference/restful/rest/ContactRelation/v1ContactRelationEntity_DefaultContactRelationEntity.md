@@ -73,7 +73,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,33 +81,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 27 Jan 2013 14:19:10 G1T
+Last-Modified: Sat, 17 Mar 2001 12:15:26 G3T
 
 {
-  "SourceContactId": 497,
-  "SourcePersonId": 582,
-  "DestinationContactId": 398,
-  "DestinationPersonId": 934,
-  "RelationId": 309,
-  "Comment": "placeat",
-  "RelationDefinitionId": 59,
-  "Reversed": 6,
-  "UpdatedDate": "2013-01-27T14:19:10.2248533+01:00",
-  "CreatedDate": "2016-11-24T14:19:10.2248533+01:00",
+  "SourceContactId": 659,
+  "SourcePersonId": 776,
+  "DestinationContactId": 535,
+  "DestinationPersonId": 44,
+  "RelationId": 963,
+  "Comment": "animi",
+  "RelationDefinitionId": 712,
+  "Reversed": 245,
+  "UpdatedDate": "2001-03-17T12:15:26.7936377+01:00",
+  "CreatedDate": "2003-06-15T12:15:26.7936377+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Dare, Macejkovic and Beier",
-  "SourcePersonName": "Reichert, O'Connell and Mayert",
-  "DestinationContactName": "Schoen Inc and Sons",
-  "DestinationPersonName": "Braun, Johnston and Bartell",
-  "ActiveText": "qui",
-  "PassiveText": "sint",
+  "SourceContactName": "Stanton Inc and Sons",
+  "SourcePersonName": "Parisian-Herzog",
+  "DestinationContactName": "Hills-Zboncak",
+  "DestinationPersonName": "Rosenbaum Inc and Sons",
+  "ActiveText": "consequatur",
+  "PassiveText": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 584
+      "FieldType": "System.String",
+      "FieldLength": 339
     }
   }
 }

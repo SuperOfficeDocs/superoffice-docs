@@ -148,7 +148,7 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -158,7 +158,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "dolorem",
+  "SaleText": "voluptas",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -167,90 +167,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2022-07-29T14:19:04.0938354+02:00",
-  "Amount": 5844.91,
-  "SaleId": 920,
-  "Earning": 17782.316,
-  "EarningPercent": 22859.396,
-  "Heading": "itaque",
-  "Number": "1041680",
-  "Probability": 145,
-  "CreatedDate": "2005-09-20T14:19:04.0938354+02:00",
-  "UpdatedDate": "2020-12-06T14:19:04.0938354+01:00",
+  "Saledate": "2004-07-25T12:15:20.0437369+02:00",
+  "Amount": 20057.6,
+  "SaleId": 784,
+  "Earning": 28105.712,
+  "EarningPercent": 23580.216,
+  "Heading": "dicta",
+  "Number": "661685",
+  "Probability": 423,
+  "CreatedDate": "2014-02-04T12:15:20.0437369+01:00",
+  "UpdatedDate": "2005-01-31T12:15:20.0437369+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 829,
+  "ActiveLinks": 149,
   "Links": [
     {
-      "EntityName": "Bednar-Haag",
-      "Id": 652,
-      "Description": "User-centric fault-tolerant focus group",
-      "ExtraInfo": "libero",
-      "LinkId": 181
+      "EntityName": "McClure LLC",
+      "Id": 608,
+      "Description": "Balanced disintermediate framework",
+      "ExtraInfo": "nobis",
+      "LinkId": 631
     },
     {
-      "EntityName": "Bednar-Haag",
-      "Id": 652,
-      "Description": "User-centric fault-tolerant focus group",
-      "ExtraInfo": "libero",
-      "LinkId": 181
+      "EntityName": "McClure LLC",
+      "Id": 608,
+      "Description": "Balanced disintermediate framework",
+      "ExtraInfo": "nobis",
+      "LinkId": 631
     }
   ],
-  "NextDueDate": "2004-04-22T14:19:04.0938354+02:00",
-  "Postit": "nemo",
+  "NextDueDate": "2013-04-18T12:15:20.0437369+02:00",
+  "Postit": "qui",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2020-07-09T14:19:04.0938354+02:00",
+  "ReopenDate": "2004-11-05T12:15:20.0437369+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Powlowski-Collier",
-      "Comment": "rerum",
-      "StakeholderRoleId": 696,
-      "CountryId": 331,
-      "PersonId": 625,
-      "EmailDescription": "gladys@thiel.co.uk",
-      "EmailId": 317,
-      "EmailAddress": "glen@hoeger.info",
-      "PhoneId": 675,
-      "ContactName": "Bradtke Group",
-      "ContactId": 408,
-      "SaleId": 525,
-      "Mrmrs": "corporis",
-      "Firstname": "Dorthy",
-      "MiddleName": "Douglas Inc and Sons",
-      "Lastname": "Lehner",
-      "SaleStakeholderId": 783,
-      "Rank": 38,
-      "Phone": "1-781-996-6079 x507"
+      "StakeholderRoleName": "Hartmann, Satterfield and Shanahan",
+      "Comment": "sed",
+      "StakeholderRoleId": 531,
+      "CountryId": 290,
+      "PersonId": 800,
+      "EmailDescription": "gennaro_oconner@quigley.info",
+      "EmailId": 499,
+      "EmailAddress": "valentin_friesen@kuhic.ca",
+      "PhoneId": 758,
+      "ContactName": "Gleason-Littel",
+      "ContactId": 245,
+      "SaleId": 224,
+      "Mrmrs": "a",
+      "Firstname": "Avery",
+      "MiddleName": "Schoen, Simonis and Christiansen",
+      "Lastname": "Smitham",
+      "SaleStakeholderId": 210,
+      "Rank": 206,
+      "Phone": "529-981-8155"
     }
   ],
-  "ActiveErpLinks": 755,
+  "ActiveErpLinks": 841,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "664184137"
+    "SuperOffice:1": "Dr. Elisa Goodwin V",
+    "SuperOffice:2": "2115069755"
   },
   "ExtraFields": {
-    "ExtraFields1": "eligendi",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "laborum",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "eius",
-    "CustomFields2": "omnis"
+    "CustomFields1": "aspernatur",
+    "CustomFields2": "provident"
   },
-  "PublishEventDate": "2007-09-05T14:19:04.0938354+02:00",
-  "PublishTo": "1995-12-04T14:19:04.0938354+01:00",
-  "PublishFrom": "2007-05-21T14:19:04.0938354+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2011-11-01T12:15:20.0447359+01:00",
+  "PublishTo": "2002-07-11T12:15:20.0447359+02:00",
+  "PublishFrom": "1998-04-01T12:15:20.0447359+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 76,
+      "VisibleId": 282,
       "Visibility": "All",
-      "DisplayValue": "in"
+      "DisplayValue": "sapiente"
     },
     {
-      "VisibleId": 76,
+      "VisibleId": 282,
       "Visibility": "All",
-      "DisplayValue": "in"
+      "DisplayValue": "sapiente"
     }
   ]
 }
@@ -269,7 +269,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "aut",
+  "SaleText": "excepturi",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -278,113 +278,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2016-01-29T14:19:04.1105664+01:00",
-  "Amount": 1153.312,
-  "SaleId": 838,
-  "Earning": 28359.566,
-  "EarningPercent": 21367.612,
-  "Heading": "voluptatibus",
-  "Number": "829663",
-  "Probability": 847,
-  "CreatedDate": "2013-07-15T14:19:04.1105664+02:00",
-  "UpdatedDate": "2005-04-29T14:19:04.1105664+02:00",
+  "Saledate": "2005-02-26T12:15:20.0567359+01:00",
+  "Amount": 23912.42,
+  "SaleId": 289,
+  "Earning": 2541.674,
+  "EarningPercent": 30700.664,
+  "Heading": "aliquid",
+  "Number": "1062011",
+  "Probability": 58,
+  "CreatedDate": "2005-03-28T12:15:20.0567359+02:00",
+  "UpdatedDate": "2022-12-19T12:15:20.0567359+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 142,
+  "ActiveLinks": 104,
   "Links": [
     {
-      "EntityName": "Stracke Group",
-      "Id": 14,
-      "Description": "Phased incremental neural-net",
-      "ExtraInfo": "ipsum",
-      "LinkId": 90,
+      "EntityName": "O'Keefe-Rowe",
+      "Id": 330,
+      "Description": "Enterprise-wide mission-critical algorithm",
+      "ExtraInfo": "beatae",
+      "LinkId": 121,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 350
+          "FieldLength": 656
         }
       }
     }
   ],
-  "NextDueDate": "1998-06-22T14:19:04.1105664+02:00",
-  "Postit": "debitis",
+  "NextDueDate": "2022-03-10T12:15:20.0567359+01:00",
+  "Postit": "commodi",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2010-10-28T14:19:04.1105664+02:00",
+  "ReopenDate": "2000-04-15T12:15:20.0567359+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Waters-Schuster",
-      "Comment": "doloremque",
-      "StakeholderRoleId": 623,
-      "CountryId": 223,
-      "PersonId": 432,
-      "EmailDescription": "nathanial.franecki@tromp.us",
-      "EmailId": 981,
-      "EmailAddress": "edward@binskuhlman.name",
-      "PhoneId": 280,
-      "ContactName": "Hermann LLC",
-      "ContactId": 79,
-      "SaleId": 101,
-      "Mrmrs": "consectetur",
-      "Firstname": "Kaylee",
-      "MiddleName": "Crooks Inc and Sons",
-      "Lastname": "Mraz",
-      "SaleStakeholderId": 244,
-      "Rank": 850,
-      "Phone": "205-798-3346 x85471",
+      "StakeholderRoleName": "Ryan Inc and Sons",
+      "Comment": "suscipit",
+      "StakeholderRoleId": 352,
+      "CountryId": 641,
+      "PersonId": 626,
+      "EmailDescription": "ian.osinski@daugherty.us",
+      "EmailId": 646,
+      "EmailAddress": "alexander@little.ca",
+      "PhoneId": 969,
+      "ContactName": "Collier, Kuhic and Wuckert",
+      "ContactId": 418,
+      "SaleId": 915,
+      "Mrmrs": "quia",
+      "Firstname": "Darlene",
+      "MiddleName": "VonRueden, Anderson and Torp",
+      "Lastname": "Aufderhar",
+      "SaleStakeholderId": 793,
+      "Rank": 678,
+      "Phone": "(473)334-2861 x157",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 381
+          "FieldLength": 202
         }
       }
     }
   ],
-  "ActiveErpLinks": 319,
+  "ActiveErpLinks": 182,
   "UserDefinedFields": {
-    "SuperOffice:1": "Maritza Von",
-    "SuperOffice:2": "Elenora Bartoletti"
+    "SuperOffice:1": "Ms. Devin Barton",
+    "SuperOffice:2": "Antone Christiansen"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "voluptatum"
+    "ExtraFields1": "velit",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "quibusdam"
+    "CustomFields1": "laudantium",
+    "CustomFields2": "eos"
   },
-  "PublishEventDate": "2017-01-27T14:19:04.1105664+01:00",
-  "PublishTo": "2019-02-16T14:19:04.1105664+01:00",
-  "PublishFrom": "2014-05-18T14:19:04.1105664+02:00",
+  "PublishEventDate": "2002-02-02T12:15:20.0577358+01:00",
+  "PublishTo": "2001-10-17T12:15:20.0577358+02:00",
+  "PublishFrom": "2009-03-07T12:15:20.0577358+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 641,
+      "VisibleId": 872,
       "Visibility": "All",
-      "DisplayValue": "error",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 19
+          "FieldLength": 29
         }
       }
     },
     {
-      "VisibleId": 641,
+      "VisibleId": 872,
       "Visibility": "All",
-      "DisplayValue": "error",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 19
+          "FieldLength": 29
         }
       }
     }
@@ -393,8 +393,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 204
+      "FieldType": "System.String",
+      "FieldLength": 904
     }
   }
 }

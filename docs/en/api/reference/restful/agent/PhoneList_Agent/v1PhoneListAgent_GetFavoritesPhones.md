@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,22 +84,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(341)193-8131 x235",
-    "PersonCellPhone": "1-762-281-1159 x44428",
-    "PersonPrivatePhone": "542.088.0547 x264",
-    "PersonFaxNumber": "1124809",
-    "PersonPagerNumber": "1263840",
-    "PersonEmail": "josiah@lesch.us",
-    "Id": 93,
-    "Name": "Schulist, Yundt and Heaney",
-    "Tooltip": "reprehenderit",
-    "UniqueId": "iusto",
+    "PersonDirectPhone": "1-204-654-0686 x1687",
+    "PersonCellPhone": "1-691-810-9019",
+    "PersonPrivatePhone": "1-118-217-0330",
+    "PersonFaxNumber": "322956",
+    "PersonPagerNumber": "407589",
+    "PersonEmail": "lindsey@abshire.biz",
+    "Id": 621,
+    "Name": "Wolf Inc and Sons",
+    "Tooltip": "sit",
+    "UniqueId": "eos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 267
+        "FieldLength": 18
       }
     }
   }

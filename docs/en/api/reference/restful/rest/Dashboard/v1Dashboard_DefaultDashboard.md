@@ -60,7 +60,7 @@ OK
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,22 +70,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 445,
-  "AssociateId": 50,
-  "Caption": "consequatur",
+  "DashboardId": 23,
+  "AssociateId": 621,
+  "Caption": "quia",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 539,
-      "Caption": "expedita",
-      "Description": "Networked intermediate definition",
-      "ChartName": "Kreiger, Champlin and Mills",
-      "ChartId": "ut",
+      "DashboardTileId": 464,
+      "Caption": "magni",
+      "Description": "Implemented attitude-oriented project",
+      "ChartName": "Wisoky, White and Pollich",
+      "ChartId": "et",
       "IsDefault": true,
-      "AssociateId": 494,
-      "GroupId": 3,
-      "SelectionId": 376,
-      "Config": "voluptas",
+      "AssociateId": 992,
+      "GroupId": 476,
+      "SelectionId": 139,
+      "Config": "odit",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -100,8 +100,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 641
+          "FieldType": "System.Int32",
+          "FieldLength": 692
         }
       }
     }
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 544
+      "FieldType": "System.String",
+      "FieldLength": 547
     }
   }
 }

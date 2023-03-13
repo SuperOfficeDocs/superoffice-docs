@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,37 +109,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 343,
-    "Name": "Kuhic, Prosacco and King",
-    "AssociateId": 491,
-    "DetailsTable": 302,
-    "DetailsRecord": 424,
+    "Id": 774,
+    "Name": "Marvin Inc and Sons",
+    "AssociateId": 569,
+    "DetailsTable": 415,
+    "DetailsRecord": 897,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "non",
-      "ParameterObject2": "autem"
+      "ParameterObject1": "quis",
+      "ParameterObject2": "modi"
     },
-    "LastStarted": "2010-08-16T14:19:02.7594283+02:00",
-    "Created": "2007-09-23T14:19:02.7594283+02:00",
-    "StartCount": 202,
-    "DatabaseSerialNumber": "1472675",
-    "Context": "rerum",
-    "Result": "dolor",
+    "LastStarted": "2022-07-06T12:15:18.2047623+02:00",
+    "Created": "2005-12-24T12:15:18.2047623+01:00",
+    "StartCount": 452,
+    "DatabaseSerialNumber": "894620",
+    "Context": "nihil",
+    "Result": "quis",
     "State": "All",
-    "Description": "Intuitive contextually-based collaboration",
-    "Response": "qui",
-    "Request": "nobis",
-    "ProgressDescription": "Synchronised heuristic software",
-    "ProgressPercent": 608,
-    "FileName": "Hettinger, Moore and Bayer",
+    "Description": "Reduced national hierarchy",
+    "Response": "voluptatem",
+    "Request": "ducimus",
+    "ProgressDescription": "Cross-platform interactive capability",
+    "ProgressPercent": 95,
+    "FileName": "Ondricka-Bartoletti",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 227
+        "FieldLength": 318
       }
     }
   }

@@ -69,14 +69,14 @@ Content-Type: application/json; charset=utf-8
 {
   "QuickReplies": [
     {
-      "QuickReplyId": 679,
-      "Name": "Hilll Inc and Sons",
-      "HtmlBody": "quod"
+      "QuickReplyId": 944,
+      "Name": "Bergstrom-Brown",
+      "HtmlBody": "aperiam"
     },
     {
-      "QuickReplyId": 679,
-      "Name": "Hilll Inc and Sons",
-      "HtmlBody": "quod"
+      "QuickReplyId": 944,
+      "Name": "Bergstrom-Brown",
+      "HtmlBody": "aperiam"
     }
   ]
 }

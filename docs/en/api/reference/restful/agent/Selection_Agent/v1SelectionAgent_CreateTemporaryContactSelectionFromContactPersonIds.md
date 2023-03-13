@@ -112,18 +112,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 142,
-      "ContactId": 544
+      "PersonId": 825,
+      "ContactId": 768
     },
     {
-      "PersonId": 142,
-      "ContactId": 544
+      "PersonId": 825,
+      "ContactId": 768
     }
   ]
 }
@@ -136,70 +136,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Progressive web-enabled emulation",
-  "Postit": "natus",
+  "Description": "Persevering hybrid circuit",
+  "Postit": "sunt",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 728,
-  "IncludePerson": 56,
-  "MemberCount": 339,
-  "Name": "Wuckert, Bins and Wiza",
-  "PostitTextId": 684,
-  "CreatedDate": "2008-12-29T14:19:04.1879797+01:00",
-  "SelectionId": 583,
-  "SoundEx": "occaecati",
-  "Source": 446,
-  "TextId": 487,
-  "UpdatedDate": "2016-05-15T14:19:04.1879797+02:00",
-  "UpdatedCount": 924,
-  "Visibility": 146,
+  "GroupIdx": 963,
+  "IncludePerson": 79,
+  "MemberCount": 844,
+  "Name": "Glover Group",
+  "PostitTextId": 1002,
+  "CreatedDate": "1998-01-11T12:15:20.15174+01:00",
+  "SelectionId": 923,
+  "SoundEx": "illo",
+  "Source": 345,
+  "TextId": 231,
+  "UpdatedDate": "2018-08-18T12:15:20.15174+02:00",
+  "UpdatedCount": 301,
+  "Visibility": 409,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 554,
-  "TargetTableName": "Mueller Inc and Sons",
-  "Completed": false,
-  "LeftSelectionId": 597,
-  "RightSelectionId": 8,
+  "TargetTableNumber": 339,
+  "TargetTableName": "Bogan-Kling",
+  "Completed": true,
+  "LeftSelectionId": 753,
+  "RightSelectionId": 145,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Okuneva-Keeling",
-  "ShadowProviderName": "Connelly, Crist and Kub",
-  "ChartKey": "voluptatem",
-  "LastLoaded": "2017-11-06T14:19:04.1879797+01:00",
-  "LastLoadedBy": 669,
+  "MainProviderName": "Nitzsche-Leffler",
+  "ShadowProviderName": "Kshlerin-Cummings",
+  "ChartKey": "eos",
+  "LastLoaded": "1997-04-12T12:15:20.15174+02:00",
+  "LastLoadedBy": 965,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2006-01-16T14:19:04.1879797+01:00",
-  "LastMembershipChangeBy": 187,
+  "LastMembershipChange": "2007-01-29T12:15:20.15174+01:00",
+  "LastMembershipChangeBy": 149,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "non",
-  "MemberTabHeading": "harum",
-  "MailingsProviderName": "Cummerata, Hilpert and Gleason",
-  "DashboardTileDefinitionId": 538,
+  "MainHeading": "enim",
+  "MemberTabHeading": "optio",
+  "MailingsProviderName": "Ward, Kassulke and Walker",
+  "DashboardTileDefinitionId": 865,
   "VisibleFor": [
     {
-      "VisibleId": 756,
+      "VisibleId": 787,
       "Visibility": "All",
-      "DisplayValue": "ipsa",
+      "DisplayValue": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 553
+          "FieldType": "System.Int32",
+          "FieldLength": 625
         }
       }
     },
     {
-      "VisibleId": 756,
+      "VisibleId": 787,
       "Visibility": "All",
-      "DisplayValue": "ipsa",
+      "DisplayValue": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 553
+          "FieldType": "System.Int32",
+          "FieldLength": 625
         }
       }
     }
@@ -208,8 +208,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 897
+      "FieldType": "System.Int32",
+      "FieldLength": 980
     }
   }
 }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 795
+  "QuoteId": 385
 }
 ```
 
@@ -99,58 +99,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 783,
-  "SaleId": 220,
-  "QuoteConnectionId": 562,
-  "ERPQuoteKey": "et",
-  "ERPOrderKey": "nihil",
-  "ActiveQuoteVersionId": 51,
-  "AcceptedQuoteAlternativeId": 40,
-  "UseValuesFromQuote": 128,
-  "DocumentId": 959,
-  "PoNumber": "977146",
-  "OrderComment": "atque",
-  "PreferredEmailCulture": "oswald_reichert@lefflervonrueden.us",
+  "QuoteId": 337,
+  "SaleId": 4,
+  "QuoteConnectionId": 530,
+  "ERPQuoteKey": "necessitatibus",
+  "ERPOrderKey": "provident",
+  "ActiveQuoteVersionId": 982,
+  "AcceptedQuoteAlternativeId": 334,
+  "UseValuesFromQuote": 976,
+  "DocumentId": 192,
+  "PoNumber": "673470",
+  "OrderComment": "ducimus",
+  "PreferredEmailCulture": "daphne@hamillwelch.us",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 170,
-      "ERPQuoteVersionKey": "autem",
-      "QuoteId": 825,
-      "Description": "Extended encompassing emulation",
-      "Number": "1057017",
+      "QuoteVersionId": 794,
+      "ERPQuoteVersionKey": "delectus",
+      "QuoteId": 188,
+      "Description": "Visionary client-driven model",
+      "Number": "1272921",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
-      "Reason": "benchmark cross-media bandwidth",
-      "LikelyQuoteAlternativeId": 369,
-      "SentDate": "2014-03-06T14:19:04.0313341+01:00",
-      "FollowupId": 807,
-      "ExpirationDate": "2022-02-12T14:19:04.0313341+01:00",
-      "DeliveryCountryId": 275,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 335,
+      "Reason": "",
+      "LikelyQuoteAlternativeId": 67,
+      "SentDate": "2021-04-28T12:15:19.9557403+02:00",
+      "FollowupId": 928,
+      "ExpirationDate": "2008-09-16T12:15:19.9557403+02:00",
+      "DeliveryCountryId": 711,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 278,
       "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "dolorem",
-      "ERPPaymentTypeKey": "atque",
-      "ERPDeliveryTermsKey": "eaque",
-      "ERPDeliveryTypeKey": "quia",
-      "Rank": 330,
-      "ApprovedBy": 218,
-      "ApprovedText": "mollitia",
-      "ApprovedRegisteredBy": 585,
-      "ApprovedRegisteredDate": "2008-09-16T14:19:04.0313341+02:00",
-      "ExtraField1": "quasi",
-      "ExtraField2": "esse",
-      "ExtraField3": "et",
-      "ExtraField4": "provident",
-      "ExtraField5": "est",
-      "LastRecalculated": "2021-07-21T14:19:04.0313341+02:00",
-      "Updated": "2002-07-08T14:19:04.0313341+02:00",
-      "UpdatedAssociateId": 958,
-      "Registered": "2014-02-28T14:19:04.0313341+01:00",
-      "RegisteredAssociateId": 666,
-      "RequestAssociateId": 1000,
-      "RequestComment": "quia",
+      "ERPPaymentTermsKey": "hic",
+      "ERPPaymentTypeKey": "ullam",
+      "ERPDeliveryTermsKey": "provident",
+      "ERPDeliveryTypeKey": "eos",
+      "Rank": 522,
+      "ApprovedBy": 650,
+      "ApprovedText": "natus",
+      "ApprovedRegisteredBy": 363,
+      "ApprovedRegisteredDate": "2007-12-30T12:15:19.9557403+01:00",
+      "ExtraField1": "numquam",
+      "ExtraField2": "numquam",
+      "ExtraField3": "commodi",
+      "ExtraField4": "mollitia",
+      "ExtraField5": "debitis",
+      "LastRecalculated": "2001-04-05T12:15:19.9557403+02:00",
+      "Updated": "2021-03-24T12:15:19.9557403+01:00",
+      "UpdatedAssociateId": 281,
+      "Registered": "2017-09-18T12:15:19.9557403+02:00",
+      "RegisteredAssociateId": 335,
+      "RequestAssociateId": 616,
+      "RequestComment": "cum",
       "QuoteAlternatives": [
         {},
         {}
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 906
+          "FieldType": "System.String",
+          "FieldLength": 25
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 871
+      "FieldType": "System.Int32",
+      "FieldLength": 159
     }
   }
 }

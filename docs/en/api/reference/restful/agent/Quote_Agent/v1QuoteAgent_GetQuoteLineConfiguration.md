@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 270
+  "QuoteLineConfigurationId": 126
 }
 ```
 
@@ -95,21 +95,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 650,
-  "FieldName": "Glover LLC",
-  "Label": "itaque",
-  "Tooltip": "voluptas",
-  "Editable": false,
+  "QuoteLineConfigurationId": 209,
+  "FieldName": "Schowalter Group",
+  "Label": "sequi",
+  "Tooltip": "saepe",
+  "Editable": true,
   "InUse": false,
-  "Mandatory": false,
-  "Rank": 470,
+  "Mandatory": true,
+  "Rank": 441,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldLength": 268
     }
   }
 }

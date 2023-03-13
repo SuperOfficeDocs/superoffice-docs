@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "tempora",
+  "UniqueIdentifier": "veritatis",
   "Crmscript": null
 }
 ```
@@ -100,22 +100,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "ex",
-  "Name": "Becker, Nikolaus and Thiel",
-  "Description": "Progressive client-driven algorithm",
-  "IncludeId": "magni",
-  "Source": "ut",
-  "Registered": "2013-04-17T14:19:03.0730293+02:00",
-  "RegisteredBy": "harum",
-  "Updated": "1999-01-08T14:19:03.0730293+01:00",
-  "UpdatedBy": "vel",
-  "Path": "occaecati",
+  "UniqueIdentifier": "velit",
+  "Name": "Ruecker-Mayert",
+  "Description": "User-centric high-level open architecture",
+  "IncludeId": "ipsa",
+  "Source": "magni",
+  "Registered": "2008-02-19T12:15:18.6257589+01:00",
+  "RegisteredBy": "voluptates",
+  "Updated": "2014-07-18T12:15:18.6257589+02:00",
+  "UpdatedBy": "saepe",
+  "Path": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 555
+      "FieldLength": 124
     }
   }
 }

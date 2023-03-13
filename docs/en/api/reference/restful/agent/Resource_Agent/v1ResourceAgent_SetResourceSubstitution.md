@@ -70,10 +70,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Price-Hermann",
-  "ResourceValues": "ad",
-  "Culture": "illum",
-  "IsActive": false
+  "ResourceName": "Morissette-Spinka",
+  "ResourceValues": "iure",
+  "Culture": "quod",
+  "IsActive": true
 }
 ```
 

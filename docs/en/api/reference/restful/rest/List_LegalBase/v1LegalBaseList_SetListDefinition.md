@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 662,
-  "Name": "Jakubowski Inc and Sons",
-  "Tooltip": "error",
+  "Id": 936,
+  "Name": "Senger-McClure",
+  "Tooltip": "tenetur",
   "Deleted": false,
-  "Rank": 610,
-  "IsCustomList": true,
+  "Rank": 631,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "deserunt",
-  "InUseByUserDefinedFields": false
+  "ListType": "earum",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 509,
-  "Name": "Huels-Fay",
-  "Tooltip": "corrupti",
-  "Deleted": true,
-  "Rank": 955,
+  "Id": 553,
+  "Name": "Smith Inc and Sons",
+  "Tooltip": "dolor",
+  "Deleted": false,
+  "Rank": 858,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "dolore",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 774
+      "FieldLength": 616
     }
   }
 }

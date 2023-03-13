@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,88 +99,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 980,
+  "DocumentId": 597,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "perspiciatis",
-  "Header": "quia",
-  "Name": "Rohan Group",
-  "OurRef": "sint",
-  "YourRef": "dicta",
-  "CreatedDate": "2022-03-11T14:19:03.2605311+01:00",
-  "UpdatedDate": "1999-01-30T14:19:03.2605311+01:00",
-  "Description": "Decentralized eco-centric info-mediaries",
+  "Attention": "earum",
+  "Header": "quis",
+  "Name": "Donnelly-Lesch",
+  "OurRef": "ad",
+  "YourRef": "et",
+  "CreatedDate": "2016-08-03T12:15:18.7477554+02:00",
+  "UpdatedDate": "2017-09-04T12:15:18.7477554+02:00",
+  "Description": "Expanded zero tolerance matrix",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2013-11-13T14:19:03.2605311+01:00",
-  "ExternalRef": "pariatur",
+  "Date": "2014-11-05T12:15:18.7507552+01:00",
+  "ExternalRef": "ut",
   "Completed": "Completed",
-  "ActiveLinks": 913,
+  "ActiveLinks": 680,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "West-Reinger",
-      "Id": 466,
-      "Description": "Object-based intangible contingency",
-      "ExtraInfo": "exercitationem",
-      "LinkId": 20,
+      "EntityName": "Beahan-Rippin",
+      "Id": 689,
+      "Description": "Cloned explicit forecast",
+      "ExtraInfo": "est",
+      "LinkId": 371,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 507
+          "FieldLength": 445
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 329,
-  "Snum": 255,
+  "SuggestedDocumentId": 647,
+  "Snum": 532,
   "UserDefinedFields": {
-    "SuperOffice:1": "Fidel Brekke",
-    "SuperOffice:2": "Hellen Schmitt"
+    "SuperOffice:1": "Elvera Izaiah Crona IV",
+    "SuperOffice:2": "Liana Boyle"
   },
   "ExtraFields": {
-    "ExtraFields1": "odit",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "laborum",
+    "ExtraFields2": "occaecati"
   },
   "CustomFields": {
-    "CustomFields1": "enim",
-    "CustomFields2": "omnis"
+    "CustomFields1": "et",
+    "CustomFields2": "eum"
   },
-  "PublishEventDate": "2019-02-03T14:19:03.2605311+01:00",
-  "PublishTo": "2002-10-26T14:19:03.2605311+02:00",
-  "PublishFrom": "2001-06-04T14:19:03.2605311+02:00",
+  "PublishEventDate": "2019-04-13T12:15:18.7527546+02:00",
+  "PublishTo": "2020-07-11T12:15:18.7527546+02:00",
+  "PublishFrom": "2015-01-14T12:15:18.7527546+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 719,
+      "VisibleId": 475,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 426
+          "FieldType": "System.Int32",
+          "FieldLength": 884
         }
       }
     },
     {
-      "VisibleId": 719,
+      "VisibleId": 475,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 426
+          "FieldType": "System.Int32",
+          "FieldLength": 884
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldType": "System.String",
+      "FieldLength": 924
     }
   }
 }

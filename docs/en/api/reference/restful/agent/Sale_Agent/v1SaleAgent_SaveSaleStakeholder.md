@@ -98,29 +98,29 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Block Inc and Sons",
-  "Comment": "est",
-  "StakeholderRoleId": 37,
-  "CountryId": 518,
-  "PersonId": 731,
-  "EmailDescription": "conrad_kunze@bednargoyette.com",
-  "EmailId": 184,
-  "EmailAddress": "kyle.heidenreich@gutkowskikilback.info",
-  "PhoneId": 689,
-  "ContactName": "Borer-Tillman",
-  "ContactId": 891,
-  "SaleId": 269,
-  "Mrmrs": "minima",
-  "Firstname": "Deshaun",
-  "MiddleName": "Cummings-Stoltenberg",
-  "Lastname": "Hilpert",
-  "SaleStakeholderId": 322,
-  "Rank": 457,
-  "Phone": "(140)413-1450 x4493"
+  "StakeholderRoleName": "Becker-Lind",
+  "Comment": "ut",
+  "StakeholderRoleId": 733,
+  "CountryId": 905,
+  "PersonId": 193,
+  "EmailDescription": "carleton@kihn.info",
+  "EmailId": 409,
+  "EmailAddress": "isidro@powlowski.us",
+  "PhoneId": 273,
+  "ContactName": "Dach, Windler and Hills",
+  "ContactId": 129,
+  "SaleId": 763,
+  "Mrmrs": "qui",
+  "Firstname": "Cleora",
+  "MiddleName": "Gottlieb Inc and Sons",
+  "Lastname": "Beier",
+  "SaleStakeholderId": 750,
+  "Rank": 530,
+  "Phone": "1-216-372-1120"
 }
 ```
 
@@ -131,31 +131,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Weimann Inc and Sons",
-  "Comment": "dolor",
-  "StakeholderRoleId": 19,
-  "CountryId": 644,
-  "PersonId": 58,
-  "EmailDescription": "valerie.mcclure@bartonkris.com",
-  "EmailId": 504,
-  "EmailAddress": "rossie_konopelski@schmidt.ca",
-  "PhoneId": 979,
-  "ContactName": "Cremin, Cummerata and Lindgren",
-  "ContactId": 149,
-  "SaleId": 593,
-  "Mrmrs": "nisi",
-  "Firstname": "Zakary",
-  "MiddleName": "Goldner-Herman",
-  "Lastname": "Renner",
-  "SaleStakeholderId": 126,
-  "Rank": 889,
-  "Phone": "(020)925-1700 x99832",
+  "StakeholderRoleName": "Hintz Group",
+  "Comment": "sunt",
+  "StakeholderRoleId": 6,
+  "CountryId": 824,
+  "PersonId": 82,
+  "EmailDescription": "lilian_greenholt@towne.us",
+  "EmailId": 918,
+  "EmailAddress": "hiram@wittingabbott.ca",
+  "PhoneId": 127,
+  "ContactName": "Hackett LLC",
+  "ContactId": 546,
+  "SaleId": 650,
+  "Mrmrs": "mollitia",
+  "Firstname": "Rhea",
+  "MiddleName": "Kuphal, White and Hermann",
+  "Lastname": "Franecki",
+  "SaleStakeholderId": 950,
+  "Rank": 954,
+  "Phone": "001.618.8666",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 66
+      "FieldLength": 401
     }
   }
 }

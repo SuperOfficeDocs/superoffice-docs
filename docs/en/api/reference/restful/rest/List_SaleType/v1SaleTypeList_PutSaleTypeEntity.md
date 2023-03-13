@@ -111,51 +111,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 487,
-  "Name": "Klocko, Quitzon and Schmitt",
-  "Tooltip": "adipisci",
-  "Rank": 43,
+  "SaleTypeId": 484,
+  "Name": "Heller, Ullrich and Feest",
+  "Tooltip": "praesentium",
+  "Rank": 786,
   "DurationUnit": "Century",
-  "SaleDuration": 971,
-  "SaleTypeCatId": 687,
+  "SaleDuration": 877,
+  "SaleTypeCatId": 517,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 657,
-  "QuoteLinesTemplate": 906,
-  "ConfirmationLinesTemplate": 691,
-  "MaxDiscountPercentSet": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 732,
+  "QuoteLinesTemplate": 631,
+  "ConfirmationLinesTemplate": 40,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 478,
-  "MinEarningPercent": 160,
-  "GroupQuoteLinesBy": 936,
-  "SortGroupLinesBy": 784,
+  "MaxDiscountPercent": 932,
+  "MinEarningPercent": 281,
+  "GroupQuoteLinesBy": 367,
+  "SortGroupLinesBy": 501,
   "Stages": [
     {
-      "Id": 891,
-      "Name": "Beer, Kshlerin and Botsford",
-      "ToolTip": "Ut odit vel maiores commodi nihil et quo.",
+      "Id": 543,
+      "Name": "Runolfsdottir-Koelpin",
+      "ToolTip": "Mollitia repellendus quasi dolores quibusdam velit expedita.",
       "Deleted": false,
-      "Rank": 191,
-      "Type": "provident",
-      "ColorBlock": 619,
-      "IconHint": "nihil",
+      "Rank": 215,
+      "Type": "autem",
+      "ColorBlock": 754,
+      "IconHint": "dolores",
       "Selected": false,
-      "LastChanged": "2002-02-08T14:19:11.5026887+01:00",
+      "LastChanged": "2005-05-07T12:15:28.4726141+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ratione",
-      "StyleHint": "aliquid",
-      "Hidden": true,
-      "FullName": "Ahmad Wilkinson"
+      "ExtraInfo": "necessitatibus",
+      "StyleHint": "libero",
+      "Hidden": false,
+      "FullName": "Abdullah Gislason"
     }
   ]
 }
@@ -168,53 +168,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 549,
-  "Name": "Boehm, Reilly and Schumm",
-  "Tooltip": "temporibus",
-  "Rank": 153,
+  "SaleTypeId": 656,
+  "Name": "Auer-Koss",
+  "Tooltip": "laudantium",
+  "Rank": 151,
   "DurationUnit": "Century",
-  "SaleDuration": 675,
-  "SaleTypeCatId": 574,
+  "SaleDuration": 135,
+  "SaleTypeCatId": 93,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 263,
-  "QuoteLinesTemplate": 402,
-  "ConfirmationLinesTemplate": 418,
+  "DefaultQuoteValidity": 106,
+  "QuoteLinesTemplate": 149,
+  "ConfirmationLinesTemplate": 39,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 472,
-  "MinEarningPercent": 105,
-  "GroupQuoteLinesBy": 158,
-  "SortGroupLinesBy": 17,
+  "MaxDiscountPercent": 258,
+  "MinEarningPercent": 403,
+  "GroupQuoteLinesBy": 160,
+  "SortGroupLinesBy": 110,
   "Stages": [
     {
-      "Id": 856,
-      "Name": "Mayert LLC",
-      "ToolTip": "Minus nemo et est magnam molestias eum sunt.",
-      "Deleted": false,
-      "Rank": 741,
-      "Type": "praesentium",
-      "ColorBlock": 473,
-      "IconHint": "magnam",
+      "Id": 892,
+      "Name": "Goyette-Rolfson",
+      "ToolTip": "Minima ut laborum omnis aut perferendis.",
+      "Deleted": true,
+      "Rank": 30,
+      "Type": "qui",
+      "ColorBlock": 314,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2019-09-24T14:19:11.5026887+02:00",
+      "LastChanged": "1996-04-18T12:15:28.4796139+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "magnam",
-      "StyleHint": "tempore",
+      "ExtraInfo": "nulla",
+      "StyleHint": "saepe",
       "Hidden": true,
-      "FullName": "Johan Mertz",
+      "FullName": "Dax Turner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 523
+          "FieldType": "System.Int32",
+          "FieldLength": 434
         }
       }
     }
@@ -223,8 +223,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldType": "System.String",
+      "FieldLength": 610
     }
   }
 }

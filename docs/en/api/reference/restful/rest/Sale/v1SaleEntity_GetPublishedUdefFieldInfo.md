@@ -92,7 +92,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 968,
-  "ColumnId": 975,
-  "FieldDefault": "qui",
-  "FieldHeight": 284,
-  "FieldLabel": "quod",
-  "FieldLeft": 89,
-  "FieldTop": 65,
+  "UDefFieldId": 465,
+  "ColumnId": 195,
+  "FieldDefault": "maxime",
+  "FieldHeight": 256,
+  "FieldLabel": "enim",
+  "FieldLeft": 658,
+  "FieldTop": 404,
   "FieldType": "Checkbox",
-  "FieldWidth": 684,
-  "FormatMask": "officia",
-  "HideLabel": true,
+  "FieldWidth": 423,
+  "FormatMask": "aut",
+  "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 212,
-  "LabelLeft": 861,
-  "LabelTop": 519,
-  "LabelWidth": 990,
-  "LastVersionId": 110,
-  "ListTableId": 423,
+  "LabelHeight": 87,
+  "LabelLeft": 471,
+  "LabelTop": 572,
+  "LabelWidth": 767,
+  "LastVersionId": 881,
+  "ListTableId": 930,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 16,
-  "ProgId": "eligendi",
+  "Page1LineNo": 336,
+  "ProgId": "iure",
   "IsReadOnly": false,
-  "ShortLabel": "neque",
-  "TabOrder": 659,
-  "TextLength": 474,
-  "Tooltip": "voluptatem",
-  "UdefIdentity": 61,
-  "UDListDefinitionId": 793,
+  "ShortLabel": "et",
+  "TabOrder": 799,
+  "TextLength": 101,
+  "Tooltip": "aspernatur",
+  "UdefIdentity": 776,
+  "UDListDefinitionId": 635,
   "Justification": "Center",
-  "Version": 414,
-  "TemplateVariableName": "Hackett Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Tremblay-Feil",
+  "Version": 997,
+  "TemplateVariableName": "Wisozk, Swaniawski and Carter",
+  "HasBeenPublished": false,
+  "MdoListName": "Gerhold-Quigley",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 478
+      "FieldType": "System.String",
+      "FieldLength": 84
     }
   }
 }

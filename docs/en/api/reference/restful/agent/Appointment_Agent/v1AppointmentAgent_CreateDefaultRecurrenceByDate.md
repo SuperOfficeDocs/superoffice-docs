@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2004-09-28T14:19:02.6177097+02:00"
+  "StartDate": "2006-01-11T12:15:17.8757672+01:00"
 }
 ```
 
@@ -98,10 +98,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 335,
-  "StartDate": "2007-11-04T14:19:02.6177097+01:00",
-  "EndDate": "1999-01-25T14:19:02.6177097+01:00",
-  "RecurrenceCounter": 844,
+  "RecurrenceId": 332,
+  "StartDate": "2018-09-03T12:15:17.8757672+02:00",
+  "EndDate": "2013-08-25T12:15:17.8757672+02:00",
+  "RecurrenceCounter": 522,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -110,18 +110,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1999-12-12T14:19:02.6177097+01:00",
-      "IsConflict": true,
-      "Description": "Object-based upward-trending function",
-      "DescriptionStyleHint": "Front-line neutral contingency",
-      "Tooltip": "ipsa"
+      "Date": "2000-07-26T12:15:17.8757672+02:00",
+      "IsConflict": false,
+      "Description": "Automated actuating encryption",
+      "DescriptionStyleHint": "Compatible 3rd generation support",
+      "Tooltip": "dolor"
     },
     {
-      "Date": "1999-12-12T14:19:02.6177097+01:00",
-      "IsConflict": true,
-      "Description": "Object-based upward-trending function",
-      "DescriptionStyleHint": "Front-line neutral contingency",
-      "Tooltip": "ipsa"
+      "Date": "2000-07-26T12:15:17.8757672+02:00",
+      "IsConflict": false,
+      "Description": "Automated actuating encryption",
+      "DescriptionStyleHint": "Compatible 3rd generation support",
+      "Tooltip": "dolor"
     }
   ],
   "IsRecurrence": true

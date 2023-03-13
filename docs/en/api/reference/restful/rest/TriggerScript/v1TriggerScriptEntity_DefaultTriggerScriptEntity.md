@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 134,
-  "Name": "Ward-Harris",
+  "ScreenChooserId": 367,
+  "Name": "Beer-Wintheiser",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "nobis",
-  "Source": "deserunt",
-  "Registered": "1997-11-22T14:19:10.912356+01:00",
-  "RegisteredAssociateId": 723,
-  "Updated": "2004-08-30T14:19:10.912356+02:00",
-  "UpdatedAssociateId": 224,
+  "UniqueIdentifier": "officiis",
+  "Source": "quod",
+  "Registered": "2000-01-22T12:15:27.5856268+01:00",
+  "RegisteredAssociateId": 662,
+  "Updated": "2010-03-29T12:15:27.5856268+02:00",
+  "UpdatedAssociateId": 890,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 897
+      "FieldType": "System.String",
+      "FieldLength": 307
     }
   }
 }

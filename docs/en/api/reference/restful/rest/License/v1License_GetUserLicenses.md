@@ -61,7 +61,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,56 +72,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mayert Inc and Sons",
-    "Description": "Persevering grid-enabled knowledge user",
+    "Name": "Padberg, Cassin and Barton",
+    "Description": "Synergistic static workforce",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 250,
-        "Tooltip": "dolorem",
+        "Total": 162,
+        "Tooltip": "error",
         "CanAssign": false,
-        "Free": 590,
-        "InUse": 58,
+        "Free": 344,
+        "InUse": 709,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 307,
-        "Name": "Nitzsche-Hickle",
-        "Description": "Virtual mission-critical paradigm",
-        "PrerequisiteModuleName": "Schumm-Schoen",
-        "SortOrder": 519,
-        "ExtraFlags": 721,
+        "ModuleLicenseId": 301,
+        "Name": "Wisozk Group",
+        "Description": "Decentralized multi-tasking project",
+        "PrerequisiteModuleName": "Bode-Skiles",
+        "SortOrder": 551,
+        "ExtraFlags": 642,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 11
+            "FieldLength": 379
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 838,
-        "Tooltip": "quo",
+        "Unrestricted": false,
+        "Total": 989,
+        "Tooltip": "repellendus",
         "CanAssign": false,
-        "Free": 762,
-        "InUse": 668,
-        "IsHidden": false,
+        "Free": 501,
+        "InUse": 445,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 820,
-        "Name": "Marks Group",
-        "Description": "Seamless exuding moderator",
-        "PrerequisiteModuleName": "Williamson-Jaskolski",
-        "SortOrder": 530,
-        "ExtraFlags": 615,
+        "ModuleLicenseId": 545,
+        "Name": "Hilll, Crooks and Brakus",
+        "Description": "Front-line coherent database",
+        "PrerequisiteModuleName": "Hintz LLC",
+        "SortOrder": 83,
+        "ExtraFlags": 417,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 615
+            "FieldLength": 780
           }
         }
       }
@@ -131,61 +131,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 865
+        "FieldLength": 374
       }
     }
   },
   {
-    "Name": "Mayert Inc and Sons",
-    "Description": "Persevering grid-enabled knowledge user",
+    "Name": "Padberg, Cassin and Barton",
+    "Description": "Synergistic static workforce",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 250,
-        "Tooltip": "dolorem",
+        "Total": 162,
+        "Tooltip": "error",
         "CanAssign": false,
-        "Free": 590,
-        "InUse": 58,
+        "Free": 344,
+        "InUse": 709,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 307,
-        "Name": "Nitzsche-Hickle",
-        "Description": "Virtual mission-critical paradigm",
-        "PrerequisiteModuleName": "Schumm-Schoen",
-        "SortOrder": 519,
-        "ExtraFlags": 721,
+        "ModuleLicenseId": 301,
+        "Name": "Wisozk Group",
+        "Description": "Decentralized multi-tasking project",
+        "PrerequisiteModuleName": "Bode-Skiles",
+        "SortOrder": 551,
+        "ExtraFlags": 642,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 11
+            "FieldLength": 379
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 838,
-        "Tooltip": "quo",
+        "Unrestricted": false,
+        "Total": 989,
+        "Tooltip": "repellendus",
         "CanAssign": false,
-        "Free": 762,
-        "InUse": 668,
-        "IsHidden": false,
+        "Free": 501,
+        "InUse": 445,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 820,
-        "Name": "Marks Group",
-        "Description": "Seamless exuding moderator",
-        "PrerequisiteModuleName": "Williamson-Jaskolski",
-        "SortOrder": 530,
-        "ExtraFlags": 615,
+        "ModuleLicenseId": 545,
+        "Name": "Hilll, Crooks and Brakus",
+        "Description": "Front-line coherent database",
+        "PrerequisiteModuleName": "Hintz LLC",
+        "SortOrder": 83,
+        "ExtraFlags": 417,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 615
+            "FieldLength": 780
           }
         }
       }
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 865
+        "FieldLength": 374
       }
     }
   }

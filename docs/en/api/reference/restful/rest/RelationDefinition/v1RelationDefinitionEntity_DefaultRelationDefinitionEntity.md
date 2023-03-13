@@ -63,7 +63,7 @@ OK
 GET /api/v1/RelationDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,12 +73,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 911,
-  "Name": "Durgan-Larkin",
-  "Tooltip": "in",
-  "PassiveText": "nostrum",
-  "Deleted": false,
-  "Rank": 660,
+  "ReldefId": 407,
+  "Name": "Roberts LLC",
+  "Tooltip": "ut",
+  "PassiveText": "at",
+  "Deleted": true,
+  "Rank": 768,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -86,7 +86,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldLength": 748
     }
   }
 }

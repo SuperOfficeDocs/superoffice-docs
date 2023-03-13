@@ -73,10 +73,10 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    134,
-    833
+    79,
+    428
   ],
-  "MoveToFolder": "nostrum"
+  "MoveToFolder": "quia"
 }
 ```
 

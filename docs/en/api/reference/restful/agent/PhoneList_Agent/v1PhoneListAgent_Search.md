@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "officiis"
+  "SearchString": "debitis"
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(965)228-8649 x5483",
-    "PersonCellPhone": "977-358-2547",
-    "PersonPrivatePhone": "491-049-0290 x7479",
-    "PersonFaxNumber": "1295185",
-    "PersonPagerNumber": "1111430",
-    "PersonEmail": "carmella_bogan@rohan.biz",
-    "Id": 723,
-    "Name": "Krajcik-Abbott",
-    "Tooltip": "sed",
-    "UniqueId": "totam",
+    "PersonDirectPhone": "775-714-4591",
+    "PersonCellPhone": "(138)825-7583",
+    "PersonPrivatePhone": "076.419.0556 x585",
+    "PersonFaxNumber": "1023777",
+    "PersonPagerNumber": "1170035",
+    "PersonEmail": "lenny_klocko@stracke.uk",
+    "Id": 308,
+    "Name": "Schultz Inc and Sons",
+    "Tooltip": "repudiandae",
+    "UniqueId": "corrupti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 821
+        "FieldLength": 526
       }
     }
   }

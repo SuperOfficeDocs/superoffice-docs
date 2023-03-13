@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale?$select=name,department,category/id
 GET /api/v1/Sale?$filter=name begins 'S'
 GET /api/v1/Sale?$orderBy=name asc
-GET /api/v1/Sale?$entities=reprehenderit
-GET /api/v1/Sale?$top=552
-GET /api/v1/Sale?$skip=530
+GET /api/v1/Sale?$entities=natus
+GET /api/v1/Sale?$top=948
+GET /api/v1/Sale?$skip=978
 GET /api/v1/Sale?$mode=Full
 GET /api/v1/Sale?$options=GrandTotal=true
-GET /api/v1/Sale?$context=ut
+GET /api/v1/Sale?$context=aut
 GET /api/v1/Sale?$format=JSON
 GET /api/v1/Sale?$jsonSafe=False
 GET /api/v1/Sale?$output=Display
@@ -128,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "est",
+  "odata.nextLink": "nihil",
   "value": [
     {
-      "PrimaryKey": 8264,
-      "EntityName": "person",
-      "personId": 8264,
-      "fullName": "Mittie Hand Jr."
+      "PrimaryKey": 7060,
+      "EntityName": "sale",
+      "saleId": 7060,
+      "contactId": 3968,
+      "name": "Powlowski Inc and Sons"
     },
     {
-      "PrimaryKey": 6784,
-      "EntityName": "person",
-      "personId": 6784,
-      "fullName": "Enrico Boyer"
+      "PrimaryKey": 935,
+      "EntityName": "sale",
+      "saleId": 935,
+      "contactId": 9104,
+      "name": "Quitzon-Aufderhar"
     }
   ]
 }

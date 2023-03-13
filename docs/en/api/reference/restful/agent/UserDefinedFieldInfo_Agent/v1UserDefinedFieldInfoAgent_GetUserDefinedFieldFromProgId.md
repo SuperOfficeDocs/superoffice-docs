@@ -108,11 +108,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "sapiente",
+  "ProgId": "iure",
   "OwnerType": "Appointment"
 }
 ```
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 138,
-  "ColumnId": 598,
-  "FieldDefault": "eum",
-  "FieldHeight": 895,
-  "FieldLabel": "rerum",
-  "FieldLeft": 935,
-  "FieldTop": 989,
+  "UDefFieldId": 784,
+  "ColumnId": 441,
+  "FieldDefault": "est",
+  "FieldHeight": 745,
+  "FieldLabel": "illo",
+  "FieldLeft": 868,
+  "FieldTop": 974,
   "FieldType": "Checkbox",
-  "FieldWidth": 116,
+  "FieldWidth": 509,
   "FormatMask": "consequatur",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 252,
-  "LabelLeft": 519,
-  "LabelTop": 772,
-  "LabelWidth": 890,
-  "LastVersionId": 185,
-  "ListTableId": 643,
+  "IsIndexed": false,
+  "LabelHeight": 864,
+  "LabelLeft": 104,
+  "LabelTop": 980,
+  "LabelWidth": 839,
+  "LastVersionId": 542,
+  "ListTableId": 69,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 760,
-  "ProgId": "fuga",
+  "Page1LineNo": 312,
+  "ProgId": "sunt",
   "IsReadOnly": false,
-  "ShortLabel": "est",
-  "TabOrder": 491,
-  "TextLength": 720,
-  "Tooltip": "sit",
-  "UdefIdentity": 209,
-  "UDListDefinitionId": 753,
+  "ShortLabel": "vel",
+  "TabOrder": 607,
+  "TextLength": 688,
+  "Tooltip": "ad",
+  "UdefIdentity": 261,
+  "UDListDefinitionId": 311,
   "Justification": "Center",
-  "Version": 427,
-  "TemplateVariableName": "Nitzsche, Pollich and Ernser",
+  "Version": 982,
+  "TemplateVariableName": "Murazik Group",
   "HasBeenPublished": false,
-  "MdoListName": "Wilkinson, Hammes and Gorczany",
+  "MdoListName": "Williamson-Spencer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldLength": 735
     }
   }
 }

@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 213,
-  "Name": "Lemke Inc and Sons",
-  "Tooltip": "id",
-  "Deleted": false,
-  "Rank": 781,
-  "UdListDefinitionId": 523
+  "HeadingId": 923,
+  "Name": "Ritchie-Brown",
+  "Tooltip": "sequi",
+  "Deleted": true,
+  "Rank": 404,
+  "UdListDefinitionId": 303
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 299,
-  "Name": "Ortiz, Yost and Carroll",
-  "Tooltip": "non",
+  "HeadingId": 907,
+  "Name": "Gaylord, Vandervort and Sanford",
+  "Tooltip": "vero",
   "Deleted": false,
-  "Rank": 728,
-  "UdListDefinitionId": 254,
+  "Rank": 688,
+  "UdListDefinitionId": 69,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldType": "System.Int32",
+      "FieldLength": 520
     }
   }
 }

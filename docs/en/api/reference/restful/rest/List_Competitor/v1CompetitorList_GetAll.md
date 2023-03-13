@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 214,
-    "Name": "Gerhold, Ankunding and McLaughlin",
-    "Tooltip": "ut",
+    "Id": 59,
+    "Name": "Aufderhar-Schaefer",
+    "Tooltip": "illum",
     "Deleted": false,
-    "UdListDefinitionId": 184,
-    "Rank": 229,
+    "UdListDefinitionId": 92,
+    "Rank": 386,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 81
+        "FieldLength": 842
       }
     }
   }

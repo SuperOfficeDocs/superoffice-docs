@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eius",
-  "ProviderName": "Bernier, Bednar and Champlin",
-  "StorageKey": "accusamus",
-  "Context": "eos"
+  "StorageType": "eos",
+  "ProviderName": "Hilpert LLC",
+  "StorageKey": "consequatur",
+  "Context": "voluptatibus"
 }
 ```
 
@@ -95,58 +95,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Keebler-Roberts",
-    "Description": "Reactive global database",
-    "Rank": 248,
+    "Name": "Mitchell Group",
+    "Description": "Open-architected neutral projection",
+    "Rank": 422,
     "Restrictions": [
       {
-        "Name": "Schmitt Inc and Sons",
-        "Operator": "quisquam",
+        "Name": "Schumm, Waelchi and Lang",
+        "Operator": "sed",
         "Values": [
-          "quaerat",
-          "porro"
+          "aperiam",
+          "voluptas"
         ],
         "DisplayValues": [
-          "velit",
-          "magni"
+          "laboriosam",
+          "ipsa"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 142,
+        "InterParenthesis": 815,
         "InterOperator": "And",
-        "UniqueHash": 206
+        "UniqueHash": 85
       }
     ]
   },
   {
-    "Name": "Keebler-Roberts",
-    "Description": "Reactive global database",
-    "Rank": 248,
+    "Name": "Mitchell Group",
+    "Description": "Open-architected neutral projection",
+    "Rank": 422,
     "Restrictions": [
       {
-        "Name": "Schmitt Inc and Sons",
-        "Operator": "quisquam",
+        "Name": "Schumm, Waelchi and Lang",
+        "Operator": "sed",
         "Values": [
-          "quaerat",
-          "porro"
+          "aperiam",
+          "voluptas"
         ],
         "DisplayValues": [
-          "velit",
-          "magni"
+          "laboriosam",
+          "ipsa"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 142,
+        "InterParenthesis": 815,
         "InterOperator": "And",
-        "UniqueHash": 206
+        "UniqueHash": 85
       }
     ]
   }

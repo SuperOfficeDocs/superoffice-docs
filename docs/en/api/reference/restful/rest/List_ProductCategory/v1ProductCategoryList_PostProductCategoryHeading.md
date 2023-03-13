@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 708,
-  "Name": "Block, Nolan and Stiedemann",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 199,
-  "UdListDefinitionId": 447
+  "HeadingId": 505,
+  "Name": "Schultz-Streich",
+  "Tooltip": "minima",
+  "Deleted": true,
+  "Rank": 848,
+  "UdListDefinitionId": 557
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 40,
-  "Name": "Hermann, Mertz and Armstrong",
-  "Tooltip": "soluta",
+  "HeadingId": 996,
+  "Name": "Luettgen-Friesen",
+  "Tooltip": "eos",
   "Deleted": false,
-  "Rank": 447,
-  "UdListDefinitionId": 71,
+  "Rank": 309,
+  "UdListDefinitionId": 169,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 83
+      "FieldLength": 642
     }
   }
 }

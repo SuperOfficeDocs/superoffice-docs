@@ -90,28 +90,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 450,
+  "EjMessageId": 751,
   "Ticket": null,
-  "CreatedAt": "2020-02-14T14:19:10.8811066+01:00",
+  "CreatedAt": "2001-12-21T12:15:27.5406277+01:00",
   "CreatedBy": null,
-  "Author": "maxime",
+  "Author": "et",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "veritatis",
-  "TimeSpent": 966,
-  "Body": "aut",
-  "HtmlBody": "vel",
-  "EmailHeader": "alize@morarjohnson.ca",
+  "MessageId": "molestiae",
+  "TimeSpent": 928,
+  "Body": "ipsam",
+  "HtmlBody": "maiores",
+  "EmailHeader": "lawrence@lesch.biz",
   "DebugInfo": "et",
-  "MailSorter": "eos",
+  "MailSorter": "sint",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "velit",
+  "SearchTitle": "eius",
   "MessageHeaders": [
     {
-      "Id": 324,
-      "Name": "Zulauf-Lueilwitz",
-      "Value": "deleniti",
+      "Id": 382,
+      "Name": "Murazik, Deckow and Kassulke",
+      "Value": "voluptatem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -119,47 +119,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 484
+          "FieldLength": 489
         }
       }
     }
   ],
   "Important": false,
-  "Language": "amet",
-  "Sentiment": 227,
-  "SentimentConfidence": 199,
+  "Language": "minus",
+  "Sentiment": 429,
+  "SentimentConfidence": 853,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 579,
-      "Name": "Breitenberg-Ernser",
-      "ContentType": "debitis",
-      "AttSize": 188,
-      "InlineImage": true,
-      "ContentId": "assumenda",
+      "AttachmentId": 730,
+      "Name": "Hoeger-Gibson",
+      "ContentType": "necessitatibus",
+      "AttSize": 693,
+      "InlineImage": false,
+      "ContentId": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 56
+          "FieldLength": 883
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "dignissimos"
   },
   "CustomFields": {
-    "CustomFields1": "odio",
-    "CustomFields2": "ea"
+    "CustomFields1": "repellendus",
+    "CustomFields2": "officiis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 167
+      "FieldType": "System.Int32",
+      "FieldLength": 42
     }
   }
 }

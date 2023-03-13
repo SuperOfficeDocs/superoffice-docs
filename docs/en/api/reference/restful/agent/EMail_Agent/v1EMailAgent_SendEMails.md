@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/EMail/SendEMails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -120,18 +120,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "facilis",
-      "HTMLBody": "commodi",
+      "Subject": "non",
+      "HTMLBody": "est",
       "From": null,
-      "Sent": "2021-09-07T14:19:03.4508967+02:00",
-      "Size": 388,
+      "Sent": "2017-10-02T12:15:19.0047511+02:00",
+      "Size": 917,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "sunt",
-      "PlainBody": "quia",
+      "MessageID": "voluptas",
+      "PlainBody": "et",
       "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 132,
+      "ServerId": 87,
       "Attachments": [
         {},
         {}
@@ -140,12 +140,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Williamson Group",
-      "EmailItemId": 301,
-      "AccountId": 90,
-      "ReceivedAt": "2016-08-03T14:19:03.4508967+02:00",
+      "FolderName": "Kuhlman, Glover and Harvey",
+      "EmailItemId": 581,
+      "AccountId": 52,
+      "ReceivedAt": "2014-11-17T12:15:19.0047511+01:00",
       "InReplyTo": null,
-      "RepliedAt": "2003-12-11T14:19:03.4508967+01:00",
+      "RepliedAt": "2015-12-09T12:15:19.0047511+01:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -165,147 +165,147 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 298,
-        "ContactName": "Wolf-Von",
-        "PersonId": 965,
-        "PersonName": "Mraz-Armstrong",
-        "AssociateId": 977,
-        "Address": "repellendus",
-        "EmailId": 52,
+        "ContactId": 587,
+        "ContactName": "Cummings Inc and Sons",
+        "PersonId": 347,
+        "PersonName": "Cruickshank-Rempel",
+        "AssociateId": 463,
+        "Address": "voluptas",
+        "EmailId": 6,
         "DuplicatePersonIds": [
-          588,
-          232
+          609,
+          774
         ],
-        "Name": "Jacobson-Murphy",
+        "Name": "Denesik, Pacocha and Price",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 459
+            "FieldLength": 308
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 976,
-        "ContactName": "Runte Group",
-        "PersonId": 64,
-        "PersonName": "Funk LLC",
-        "AssociateId": 485,
-        "Address": "pariatur",
-        "EmailId": 344,
+        "ContactId": 425,
+        "ContactName": "Bode LLC",
+        "PersonId": 194,
+        "PersonName": "McDermott Group",
+        "AssociateId": 547,
+        "Address": "soluta",
+        "EmailId": 43,
         "DuplicatePersonIds": [
-          101,
-          767
+          52,
+          410
         ],
-        "Name": "Goyette, Kulas and Cormier",
+        "Name": "Littel LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 382
+            "FieldLength": 274
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 904,
-        "ContactName": "Gleichner Group",
-        "PersonId": 525,
-        "PersonName": "Mann-Hartmann",
-        "AssociateId": 481,
-        "Address": "sunt",
-        "EmailId": 394,
+        "ContactId": 921,
+        "ContactName": "Bernhard-Wehner",
+        "PersonId": 944,
+        "PersonName": "Klocko-Treutel",
+        "AssociateId": 803,
+        "Address": "aliquam",
+        "EmailId": 718,
         "DuplicatePersonIds": [
-          256,
-          157
+          210,
+          826
         ],
-        "Name": "DuBuque LLC",
+        "Name": "Bailey-Roob",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 563
+            "FieldType": "System.Int32",
+            "FieldLength": 305
           }
         }
       }
     ],
-    "Subject": "ut",
-    "HTMLBody": "omnis",
+    "Subject": "ipsam",
+    "HTMLBody": "dolores",
     "From": null,
-    "Sent": "2006-08-31T14:19:03.4508967+02:00",
-    "Size": 253,
+    "Sent": "2021-08-25T12:15:19.0087571+02:00",
+    "Size": 17,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "vel",
-    "PlainBody": "amet",
-    "IsSent": false,
+    "MessageID": "dolores",
+    "PlainBody": "inventore",
+    "IsSent": true,
     "EMailSOInfo": null,
-    "ServerId": 381,
+    "ServerId": 683,
     "Attachments": [
       {
-        "Description": "Secured radical service-desk",
-        "Filename": "est",
-        "Size": 683,
-        "Type": "quia",
-        "Encoding": "numquam",
-        "Id": "quia",
-        "Disposition": "rerum",
+        "Description": "Devolved 4th generation pricing structure",
+        "Filename": "dignissimos",
+        "Size": 931,
+        "Type": "facere",
+        "Encoding": "aut",
+        "Id": "laborum",
+        "Disposition": "et",
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 165
+            "FieldLength": 343
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Emard, Bogan and Gerhold",
+        "Name": "Bayer, Mertz and Braun",
         "Values": [
-          "quia",
-          "vel"
+          "architecto",
+          "consequatur"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 533
+            "FieldLength": 152
           }
         }
       },
       {
-        "Name": "Emard, Bogan and Gerhold",
+        "Name": "Bayer, Mertz and Braun",
         "Values": [
-          "quia",
-          "vel"
+          "architecto",
+          "consequatur"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 533
+            "FieldLength": 152
           }
         }
       }
     ],
-    "FolderName": "Farrell-Wolff",
-    "EmailItemId": 360,
-    "AccountId": 384,
-    "ReceivedAt": "2002-07-28T14:19:03.4508967+02:00",
+    "FolderName": "Bergnaum-Torp",
+    "EmailItemId": 491,
+    "AccountId": 331,
+    "ReceivedAt": "2007-12-08T12:15:19.0087571+01:00",
     "InReplyTo": null,
-    "RepliedAt": "2015-11-11T14:19:03.4508967+01:00",
-    "HasCalendarData": true,
+    "RepliedAt": "1998-12-24T12:15:19.0087571+01:00",
+    "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
@@ -313,7 +313,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 479
+        "FieldLength": 477
       }
     }
   }

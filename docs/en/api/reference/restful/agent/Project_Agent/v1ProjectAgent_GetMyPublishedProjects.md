@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 343,
-    "Name": "Williamson, Kling and Labadie",
-    "Description": "Open-source didactic portal",
+    "ProjectId": 350,
+    "Name": "Kassulke-Hintz",
+    "Description": "Realigned 6th generation capacity",
     "URL": "http://www.example.com/",
-    "Type": "ea",
-    "AssociateId": 877,
-    "AssociateFullName": "Blaise Schumm",
-    "TypeId": 930,
-    "Updated": "2020-08-20T14:19:03.9688343+02:00",
-    "StatusId": 225,
-    "Status": "doloremque",
-    "TextId": 624,
-    "PublishTo": "2002-08-14T14:19:03.9688343+02:00",
-    "PublishFrom": "2015-11-21T14:19:03.9688343+01:00",
-    "IsPublished": true,
+    "Type": "quia",
+    "AssociateId": 74,
+    "AssociateFullName": "Eugene Morissette",
+    "TypeId": 948,
+    "Updated": "2015-06-07T12:15:19.864739+02:00",
+    "StatusId": 171,
+    "Status": "incidunt",
+    "TextId": 579,
+    "PublishTo": "1998-02-12T12:15:19.864739+01:00",
+    "PublishFrom": "2012-12-30T12:15:19.864739+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1062176",
-    "ActiveErpLinks": 282,
+    "ProjectNumber": "1638293",
+    "ActiveErpLinks": 241,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 34
+        "FieldLength": 769
       }
     }
   }

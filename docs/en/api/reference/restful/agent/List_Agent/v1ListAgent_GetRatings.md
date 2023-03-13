@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 903,
-    "Value": "inventore",
-    "Tooltip": "rerum",
+    "Id": 821,
+    "Value": "aliquid",
+    "Tooltip": "at",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 548
+        "FieldLength": 246
       }
     }
   },
   {
-    "Id": 903,
-    "Value": "inventore",
-    "Tooltip": "rerum",
+    "Id": 821,
+    "Value": "aliquid",
+    "Tooltip": "at",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 548
+        "FieldLength": 246
       }
     }
   }

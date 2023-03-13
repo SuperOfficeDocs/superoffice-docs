@@ -103,7 +103,7 @@ OK
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,52 +113,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "tenetur",
-  "PersonId": 352,
-  "Mrmrs": "ut",
-  "Firstname": "Izabella",
-  "Lastname": "Herman",
-  "MiddleName": "Lynch Inc and Sons",
-  "Title": "et",
-  "Description": "Robust cohesive interface",
-  "Email": "linwood.conn@kundecronin.ca",
-  "FullName": "Dr. Blake Blaise Nader",
-  "DirectPhone": "1-338-512-8118",
-  "FormalName": "Yundt-Von",
-  "CountryId": 733,
-  "ContactId": 784,
-  "ContactName": "Welch-Toy",
-  "Retired": 962,
-  "Rank": 736,
-  "ActiveInterests": 21,
+  "Position": "vel",
+  "PersonId": 297,
+  "Mrmrs": "praesentium",
+  "Firstname": "Watson",
+  "Lastname": "Harris",
+  "MiddleName": "Morissette, Schaden and Terry",
+  "Title": "numquam",
+  "Description": "Open-architected uniform orchestration",
+  "Email": "albina.kassulke@morissette.info",
+  "FullName": "Adonis Amani Koch MD",
+  "DirectPhone": "223-771-3432 x25882",
+  "FormalName": "Schinner LLC",
+  "CountryId": 873,
+  "ContactId": 817,
+  "ContactName": "Stiedemann Group",
+  "Retired": 761,
+  "Rank": 685,
+  "ActiveInterests": 205,
   "ContactDepartment": "",
-  "ContactCountryId": 462,
-  "ContactOrgNr": "194080",
-  "FaxPhone": "612.887.7776 x1549",
-  "MobilePhone": "1-158-714-3937",
-  "ContactPhone": "(864)782-0238 x6891",
-  "AssociateName": "Johnston-Keebler",
-  "AssociateId": 369,
+  "ContactCountryId": 441,
+  "ContactOrgNr": "1675595",
+  "FaxPhone": "597-301-0902 x3397",
+  "MobilePhone": "(898)603-5665",
+  "ContactPhone": "(164)194-9375",
+  "AssociateName": "Moore Group",
+  "AssociateId": 860,
   "UsePersonAddress": false,
-  "ContactFax": "sint",
-  "Kanafname": "aliquid",
-  "Kanalname": "vel",
-  "Post1": "ab",
-  "Post2": "dolores",
-  "Post3": "pariatur",
-  "EmailName": "kamron.dach@stark.biz",
-  "ContactFullName": "Sanford Wolff III",
-  "ActiveErpLinks": 839,
-  "TicketPriorityId": 340,
-  "SupportLanguageId": 824,
-  "SupportAssociateId": 304,
+  "ContactFax": "ullam",
+  "Kanafname": "eum",
+  "Kanalname": "repellendus",
+  "Post1": "officia",
+  "Post2": "sint",
+  "Post3": "sunt",
+  "EmailName": "alva@bahringer.us",
+  "ContactFullName": "Joe Sawayn III",
+  "ActiveErpLinks": 550,
+  "TicketPriorityId": 999,
+  "SupportLanguageId": 594,
+  "SupportAssociateId": 138,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 844
+      "FieldType": "System.Int32",
+      "FieldLength": 655
     }
   }
 }

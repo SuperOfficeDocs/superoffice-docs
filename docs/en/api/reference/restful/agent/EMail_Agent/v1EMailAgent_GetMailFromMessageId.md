@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "et"
+  "MessageId": "sit"
 }
 ```
 
@@ -116,146 +116,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 524,
-      "ContactName": "Gibson, Moen and Green",
-      "PersonId": 293,
-      "PersonName": "O'Keefe, Mueller and Thiel",
-      "AssociateId": 239,
-      "Address": "esse",
-      "EmailId": 552,
+      "ContactId": 720,
+      "ContactName": "Gulgowski-Fadel",
+      "PersonId": 352,
+      "PersonName": "Rice Group",
+      "AssociateId": 934,
+      "Address": "sed",
+      "EmailId": 570,
       "DuplicatePersonIds": [
-        656,
-        721
+        119,
+        352
       ],
-      "Name": "Yost Group",
+      "Name": "Buckridge LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 290
+          "FieldLength": 852
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 485,
-      "ContactName": "Hickle, D'Amore and Kautzer",
-      "PersonId": 457,
-      "PersonName": "Spinka, Bernhard and Hodkiewicz",
-      "AssociateId": 915,
-      "Address": "ut",
-      "EmailId": 25,
+      "ContactId": 332,
+      "ContactName": "Rippin-Waters",
+      "PersonId": 429,
+      "PersonName": "Bradtke, Lemke and Bosco",
+      "AssociateId": 848,
+      "Address": "reprehenderit",
+      "EmailId": 247,
       "DuplicatePersonIds": [
-        302,
-        341
+        926,
+        726
       ],
-      "Name": "Hartmann Inc and Sons",
+      "Name": "Treutel-Willms",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 847
+          "FieldLength": 369
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 241,
-      "ContactName": "Corwin Group",
-      "PersonId": 116,
-      "PersonName": "Abernathy-Kertzmann",
-      "AssociateId": 689,
-      "Address": "impedit",
-      "EmailId": 225,
+      "ContactId": 599,
+      "ContactName": "Effertz Inc and Sons",
+      "PersonId": 360,
+      "PersonName": "Wolf-Buckridge",
+      "AssociateId": 656,
+      "Address": "soluta",
+      "EmailId": 935,
       "DuplicatePersonIds": [
-        983,
-        816
+        902,
+        317
       ],
-      "Name": "Schmitt-Koss",
+      "Name": "Mohr, Brekke and Strosin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 793
+          "FieldLength": 833
         }
       }
     }
   ],
-  "Subject": "est",
-  "HTMLBody": "et",
+  "Subject": "occaecati",
+  "HTMLBody": "voluptatibus",
   "From": null,
-  "Sent": "2012-07-18T14:19:03.3883958+02:00",
-  "Size": 117,
+  "Sent": "2001-02-04T12:15:18.9277523+01:00",
+  "Size": 7,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptatem",
-  "PlainBody": "voluptas",
-  "IsSent": false,
+  "MessageID": "temporibus",
+  "PlainBody": "explicabo",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 639,
+  "ServerId": 123,
   "Attachments": [
     {
-      "Description": "Synergized background productivity",
-      "Filename": "sunt",
-      "Size": 463,
-      "Type": "labore",
-      "Encoding": "iusto",
-      "Id": "laudantium",
+      "Description": "Progressive stable flexibility",
+      "Filename": "autem",
+      "Size": 514,
+      "Type": "minima",
+      "Encoding": "necessitatibus",
+      "Id": "neque",
       "Disposition": "excepturi",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 483
+          "FieldType": "System.Int32",
+          "FieldLength": 879
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Wolf LLC",
+      "Name": "Casper-Haley",
       "Values": [
-        "veniam",
-        "ad"
+        "velit",
+        "cumque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 221
+          "FieldType": "System.Int32",
+          "FieldLength": 116
         }
       }
     },
     {
-      "Name": "Wolf LLC",
+      "Name": "Casper-Haley",
       "Values": [
-        "veniam",
-        "ad"
+        "velit",
+        "cumque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 221
+          "FieldType": "System.Int32",
+          "FieldLength": 116
         }
       }
     }
   ],
-  "FolderName": "Shanahan Group",
-  "EmailItemId": 44,
-  "AccountId": 807,
-  "ReceivedAt": "2018-12-17T14:19:03.3883958+01:00",
+  "FolderName": "Romaguera-Yundt",
+  "EmailItemId": 708,
+  "AccountId": 978,
+  "ReceivedAt": "1996-09-04T12:15:18.9277523+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2020-04-14T14:19:03.3883958+02:00",
+  "RepliedAt": "2003-07-12T12:15:18.9277523+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -263,8 +263,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldType": "System.String",
+      "FieldLength": 494
     }
   }
 }

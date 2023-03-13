@@ -72,9 +72,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "quia",
-    "Type": "laudantium",
-    "Description": "Multi-tiered transitional matrices",
+    "DisplayType": "ullam",
+    "Type": "quia",
+    "Description": "Reverse-engineered clear-thinking artificial intelligence",
     "ValueControl": "Edit",
     "CanCreatePerson": true,
     "IsUserNameSupported": false,
@@ -83,7 +83,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 569
+        "FieldLength": 737
       }
     }
   }

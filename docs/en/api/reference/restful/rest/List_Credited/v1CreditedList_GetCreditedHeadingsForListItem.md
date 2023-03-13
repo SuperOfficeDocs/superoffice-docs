@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 892,
-    "Name": "Labadie Inc and Sons",
-    "ToolTip": "Occaecati iure saepe velit aperiam sed.",
-    "Deleted": true,
-    "Rank": 812,
-    "Type": "necessitatibus",
-    "ColorBlock": 999,
-    "IconHint": "dolorem",
+    "Id": 636,
+    "Name": "Rodriguez-Davis",
+    "ToolTip": "Ipsa distinctio molestiae expedita debitis.",
+    "Deleted": false,
+    "Rank": 927,
+    "Type": "consequatur",
+    "ColorBlock": 695,
+    "IconHint": "eveniet",
     "Selected": true,
-    "LastChanged": "2007-04-14T14:19:11.2105958+02:00",
+    "LastChanged": "1996-07-22T12:15:28.0706218+02:00",
     "ChildItems": [
       {
-        "Id": 523,
-        "Name": "Bode, Crona and Stoltenberg",
-        "ToolTip": "Quis officiis quos molestiae tempora veritatis aut similique.",
-        "Deleted": false,
-        "Rank": 313,
-        "Type": "repellendus",
-        "ColorBlock": 557,
-        "IconHint": "sed",
-        "Selected": false,
-        "LastChanged": "2022-03-16T14:19:11.2105958+01:00",
+        "Id": 471,
+        "Name": "Schaden-Greenfelder",
+        "ToolTip": "Nihil dolor reiciendis tempore laborum sit aliquid nobis.",
+        "Deleted": true,
+        "Rank": 871,
+        "Type": "est",
+        "ColorBlock": 886,
+        "IconHint": "fuga",
+        "Selected": true,
+        "LastChanged": "2018-05-23T12:15:28.0736193+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "sapiente",
-        "Hidden": true,
-        "FullName": "Lysanne Armstrong",
+        "ExtraInfo": "quo",
+        "StyleHint": "vel",
+        "Hidden": false,
+        "FullName": "Mr. Maci Robb Wiegand V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 785
+            "FieldType": "System.String",
+            "FieldLength": 752
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "ipsa",
+    "ExtraInfo": "sit",
+    "StyleHint": "adipisci",
     "Hidden": true,
-    "FullName": "Mrs. Jace Pacocha IV",
+    "FullName": "Stacey Swift",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 37
+        "FieldType": "System.Int32",
+        "FieldLength": 809
       }
     }
   }

@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 330,
-  "DimensionId": 706
+  "TargetYear": 754,
+  "DimensionId": 734
 }
 ```
 
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 809,
-  "Year": 239,
+  "TargetGroupId": 463,
+  "Year": 773,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 107,
+      "TargetAssignmentInfoId": 151,
       "Values": [
-        871,
-        289
+        728,
+        931
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 712,
-      "DimensionListItemDisplayName": "Monahan-Lueilwitz",
+      "DimensionListItem": 606,
+      "DimensionListItemDisplayName": "Lind Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 575
+          "FieldLength": 414
         }
       }
     }
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 451
+      "FieldType": "System.String",
+      "FieldLength": 773
     }
   }
 }

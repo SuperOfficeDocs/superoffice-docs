@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 617
+  "ErpSyncConnectionId": 12
 }
 ```
 
@@ -94,37 +94,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Kunde-Nolan",
-  "DisplayDescription": "Diverse dynamic open system",
+  "DisplayName": "Parker-Waelchi",
+  "DisplayDescription": "Multi-channelled next generation encoding",
   "Active": false,
-  "Deleted": true,
-  "LastSync": "2002-08-10T14:19:03.4977716+02:00",
+  "Deleted": false,
+  "LastSync": "2011-09-13T12:15:19.0767497+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "totam",
-      "Mappings": "adipisci",
+      "Defaults": "qui",
+      "Mappings": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 265
+          "FieldLength": 186
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "totam",
-      "Mappings": "adipisci",
+      "Defaults": "qui",
+      "Mappings": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 265
+          "FieldLength": 186
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 701
+      "FieldLength": 6
     }
   }
 }

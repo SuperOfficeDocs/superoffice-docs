@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Brakus, Satterfield and Mayert",
+  "TableName": "Lesch-Rowe",
   "IncludeStandard": true
 }
 ```
@@ -101,18 +101,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Kuhlman Inc and Sons",
-    "DisplayName": "Brown Inc and Sons",
-    "Description": "Vision-oriented multimedia methodology",
-    "ShortLabel": "est",
+    "FieldName": "Hammes, Donnelly and Metz",
+    "DisplayName": "Wisoky, Brakus and Conn",
+    "Description": "Visionary interactive customer loyalty",
+    "ShortLabel": "et",
     "HideLabel": false,
     "HideField": false,
-    "IsIndexed": false,
+    "IsIndexed": true,
     "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 94,
-    "TemplateVariableName": "Turcotte, Nicolas and Dietrich"
+    "Rank": 218,
+    "TemplateVariableName": "Hoeger, Labadie and Kuhic"
   }
 ]
 ```

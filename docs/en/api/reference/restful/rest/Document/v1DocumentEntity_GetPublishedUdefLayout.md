@@ -87,7 +87,7 @@ OK
 GET /api/v1/Document/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 508,
-    "ColumnId": 98,
-    "FieldDefault": "omnis",
-    "FieldHeight": 511,
-    "FieldLabel": "itaque",
-    "FieldLeft": 714,
-    "FieldTop": 552,
+    "UDefFieldId": 665,
+    "ColumnId": 774,
+    "FieldDefault": "molestiae",
+    "FieldHeight": 779,
+    "FieldLabel": "nostrum",
+    "FieldLeft": 582,
+    "FieldTop": 395,
     "FieldType": "Checkbox",
-    "FieldWidth": 94,
-    "FormatMask": "unde",
+    "FieldWidth": 226,
+    "FormatMask": "et",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 696,
-    "LabelLeft": 537,
-    "LabelTop": 42,
-    "LabelWidth": 268,
-    "LastVersionId": 388,
-    "ListTableId": 697,
+    "LabelHeight": 989,
+    "LabelLeft": 555,
+    "LabelTop": 407,
+    "LabelWidth": 917,
+    "LastVersionId": 62,
+    "ListTableId": 119,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 184,
-    "ProgId": "qui",
-    "IsReadOnly": false,
-    "ShortLabel": "odit",
-    "TabOrder": 552,
-    "TextLength": 970,
-    "Tooltip": "officiis",
-    "UdefIdentity": 66,
-    "UDListDefinitionId": 154,
+    "Page1LineNo": 916,
+    "ProgId": "officia",
+    "IsReadOnly": true,
+    "ShortLabel": "earum",
+    "TabOrder": 30,
+    "TextLength": 518,
+    "Tooltip": "maiores",
+    "UdefIdentity": 922,
+    "UDListDefinitionId": 118,
     "Justification": "Center",
-    "Version": 438,
-    "TemplateVariableName": "Shanahan LLC",
+    "Version": 179,
+    "TemplateVariableName": "Mayert-Schultz",
     "HasBeenPublished": false,
-    "MdoListName": "Maggio LLC",
+    "MdoListName": "Wehner Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 401
+        "FieldType": "System.Int32",
+        "FieldLength": 372
       }
     }
   }

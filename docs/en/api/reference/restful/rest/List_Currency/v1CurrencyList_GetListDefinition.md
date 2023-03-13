@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 564,
-  "Name": "Johnson-Tremblay",
-  "Tooltip": "ut",
+  "Id": 67,
+  "Name": "Larson LLC",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 879,
+  "Rank": 660,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "officia",
-  "InUseByUserDefinedFields": false,
+  "ListType": "id",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 480
+      "FieldType": "System.Int32",
+      "FieldLength": 667
     }
   },
   "_Links": {

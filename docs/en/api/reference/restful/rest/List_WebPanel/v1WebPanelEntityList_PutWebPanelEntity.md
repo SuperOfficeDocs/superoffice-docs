@@ -109,30 +109,30 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 971,
-  "Name": "Sipes, Rowe and Larson",
-  "Tooltip": "maxime",
+  "WebPanelId": 616,
+  "Name": "Hermann-Lindgren",
+  "Tooltip": "vero",
   "Deleted": false,
-  "Rank": 441,
+  "Rank": 407,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": false,
+  "OnSatellite": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Lueilwitz-Rau",
+  "WindowName": "Thompson-Bernier",
   "Url": "http://www.example.com/",
-  "ProgId": "ullam",
-  "Icon": 505,
+  "ProgId": "eaque",
+  "Icon": 129,
   "AlwaysReloadOnShow": false
 }
 ```
@@ -144,33 +144,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 187,
-  "Name": "Wilkinson-Stroman",
-  "Tooltip": "dolores",
+  "WebPanelId": 849,
+  "Name": "Lakin LLC",
+  "Tooltip": "quidem",
   "Deleted": false,
-  "Rank": 617,
+  "Rank": 776,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Champlin, Stamm and Volkman",
+  "WindowName": "Runolfsson Group",
   "Url": "http://www.example.com/",
-  "ProgId": "doloribus",
-  "Icon": 388,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "reiciendis",
+  "Icon": 172,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 964
+      "FieldType": "System.String",
+      "FieldLength": 353
     }
   }
 }

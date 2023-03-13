@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,41 +75,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 530,
-  "Name": "Hauck-Abbott",
-  "Tooltip": "dignissimos",
-  "Rank": 962,
+  "ProjTypeId": 240,
+  "Name": "Schaden-Hamill",
+  "Tooltip": "aliquam",
+  "Rank": 771,
   "DurationUnit": "Century",
-  "ProjectDuration": 941,
+  "ProjectDuration": 857,
   "Deleted": true,
-  "HasGuide": false,
+  "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 916,
-      "Name": "Treutel, Lakin and Rowe",
-      "ToolTip": "Est doloribus ipsam et maxime vero.",
+      "Id": 634,
+      "Name": "Doyle, Murphy and Bradtke",
+      "ToolTip": "Recusandae eaque.",
       "Deleted": false,
-      "Rank": 475,
-      "Type": "quia",
-      "ColorBlock": 135,
-      "IconHint": "sint",
+      "Rank": 780,
+      "Type": "natus",
+      "ColorBlock": 279,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2013-04-17T14:19:03.6863742+02:00",
+      "LastChanged": "1996-07-15T12:15:19.3307464+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quam",
-      "StyleHint": "corporis",
+      "ExtraInfo": "non",
+      "StyleHint": "omnis",
       "Hidden": false,
-      "FullName": "Prof. Mossie Reichel III",
+      "FullName": "Marquis Rau",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldType": "System.String",
+          "FieldLength": 535
         }
       }
     }
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 120
+      "FieldType": "System.Int32",
+      "FieldLength": 477
     }
   }
 }

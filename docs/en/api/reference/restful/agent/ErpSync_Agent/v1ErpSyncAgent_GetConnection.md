@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 104
+  "ErpConnectionId": 774
 }
 ```
 
@@ -100,33 +100,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 786,
-  "ErpConnectorId": 456,
-  "DisplayName": "Langworth, Champlin and Batz",
-  "DisplayDescription": "Operative transitional forecast",
+  "ErpConnectionId": 931,
+  "ErpConnectorId": 684,
+  "DisplayName": "Watsica, Dickens and Gottlieb",
+  "DisplayDescription": "Synergistic reciprocal architecture",
   "Active": false,
-  "ConnectionId": "non",
-  "MostRecentTimestamp": "non",
+  "ConnectionId": "vero",
+  "MostRecentTimestamp": "impedit",
   "ConfigFields": {
-    "ConfigFields1": "id",
-    "ConfigFields2": "nobis"
+    "ConfigFields1": "sit",
+    "ConfigFields2": "at"
   },
   "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    466,
-    49
+    361,
+    489
   ],
   "AssociateAccessIds": [
-    942,
-    310
+    425,
+    421
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldLength": 778
     }
   }
 }

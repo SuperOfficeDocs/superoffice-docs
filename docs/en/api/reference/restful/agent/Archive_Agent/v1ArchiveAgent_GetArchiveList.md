@@ -103,51 +103,51 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Daugherty, Considine and Glover",
-  "ProviderName": "Hand, Kerluke and Goldner",
+  "GuiName": "O'Reilly, Stamm and Mann",
+  "ProviderName": "Lebsack LLC",
   "SortOrder": [
     {
-      "Name": "Koelpin LLC",
+      "Name": "Skiles Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Koelpin LLC",
+      "Name": "Skiles Group",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Howell Group",
-      "Operator": "necessitatibus",
+      "Name": "Price-Nader",
+      "Operator": "sit",
       "Values": [
         "est",
-        "et"
+        "quasi"
       ],
       "DisplayValues": [
-        "ipsum",
+        "soluta",
         "voluptatem"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 147,
+      "InterParenthesis": 887,
       "InterOperator": "And",
-      "UniqueHash": 349
+      "UniqueHash": 76
     }
   ],
   "Entities": [
-    "consequatur",
-    "neque"
+    "eos",
+    "et"
   ],
-  "Page": 915,
-  "PageSize": 237
+  "Page": 619,
+  "PageSize": 713
 }
 ```
 
@@ -159,23 +159,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Hahn-Goyette",
-    "PrimaryKey": 489,
+    "EntityName": "Hamill-Hamill",
+    "PrimaryKey": 805,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "enim",
-        "TooltipHint": "ratione",
-        "LinkHint": "voluptas"
+        "DisplayValue": "numquam",
+        "TooltipHint": "reiciendis",
+        "LinkHint": "earum"
       }
     },
-    "LinkHint": "blanditiis",
-    "StyleHint": "illo",
+    "LinkHint": "sequi",
+    "StyleHint": "corrupti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 190
+        "FieldType": "System.Int32",
+        "FieldLength": 122
       }
     }
   }

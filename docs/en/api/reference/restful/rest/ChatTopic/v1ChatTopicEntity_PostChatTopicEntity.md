@@ -135,41 +135,41 @@ OK
 POST /api/v1/ChatTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 666,
-  "Name": "Feeney-Schimmel",
-  "Description": "Balanced zero defect adapter",
-  "WelcomeMessage": "ab",
+  "ChatTopicId": 782,
+  "Name": "Lakin, Bernhard and Daugherty",
+  "Description": "Expanded local toolset",
+  "WelcomeMessage": "totam",
   "Language": null,
-  "LastAccept": "2007-08-31T14:19:10.0998102+02:00",
-  "SecondsPrAccept": 775,
-  "AlertRecipient": "voluptatem",
+  "LastAccept": "2017-10-29T12:15:26.5166422+01:00",
+  "SecondsPrAccept": 452,
+  "AlertRecipient": "consequatur",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "consequuntur",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "occaecati",
-  "WarnNewChatMinutes": 334,
-  "WarnManagerNewChatMinutes": 90,
-  "TicketEnabled": false,
+  "BadgeHeader": "minus",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "deserunt",
+  "WarnNewChatMinutes": 66,
+  "WarnManagerNewChatMinutes": 261,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 366,
-  "WarnManagerChatMessageMinutes": 141,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 552,
+  "WarnManagerChatMessageMinutes": 640,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 177,
-  "OfflineFormQueueLength": 575,
+  "OfflineFormTimeLimit": 68,
+  "OfflineFormQueueLength": 735,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "officia"
+  "WidgetRatingText": "debitis"
 }
 ```
 
@@ -180,22 +180,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 767,
-  "Name": "Jacobi-Mitchell",
-  "Description": "Right-sized tertiary internet solution",
-  "WelcomeMessage": "aut",
+  "ChatTopicId": 129,
+  "Name": "White, Jacobi and Purdy",
+  "Description": "Digitized motivating moratorium",
+  "WelcomeMessage": "eos",
   "Language": null,
-  "LastAccept": "2002-01-21T14:19:10.0998102+01:00",
-  "SecondsPrAccept": 647,
-  "AlertRecipient": "similique",
+  "LastAccept": "2014-10-21T12:15:26.5196418+02:00",
+  "SecondsPrAccept": 746,
+  "AlertRecipient": "ipsum",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "sit",
+  "BadgeHeader": "veritatis",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "eos",
-  "WarnNewChatMinutes": 647,
-  "WarnManagerNewChatMinutes": 155,
-  "TicketEnabled": false,
+  "CustomQueueText": "est",
+  "WarnNewChatMinutes": 447,
+  "WarnManagerNewChatMinutes": 527,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -204,24 +204,24 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 781,
-  "WarnManagerChatMessageMinutes": 197,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 413,
-  "OfflineFormQueueLength": 834,
+  "WarnChatMessageMinutes": 726,
+  "WarnManagerChatMessageMinutes": 58,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 500,
+  "OfflineFormQueueLength": 120,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "cupiditate",
+  "WidgetRatingText": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 984
+      "FieldLength": 644
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

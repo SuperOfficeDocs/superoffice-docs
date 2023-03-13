@@ -67,24 +67,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aliquam",
-  "ProviderName": "Orn, Schowalter and Gusikowski",
-  "StorageKey": "culpa",
+  "StorageType": "dolorem",
+  "ProviderName": "Murazik-Nolan",
+  "StorageKey": "et",
   "Restrictions": [
     {
-      "Name": "Schneider-Ankunding",
-      "Operator": "voluptas",
+      "Name": "Purdy Inc and Sons",
+      "Operator": "itaque",
       "Values": [
-        "tenetur",
-        "numquam"
+        "nam",
+        "sunt"
       ],
       "DisplayValues": [
-        "itaque",
-        "ipsa"
+        "alias",
+        "quidem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -92,12 +92,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 666,
+      "InterParenthesis": 608,
       "InterOperator": "And",
-      "UniqueHash": 709
+      "UniqueHash": 977
     }
   ],
-  "Context": "et"
+  "Context": "iure"
 }
 ```
 

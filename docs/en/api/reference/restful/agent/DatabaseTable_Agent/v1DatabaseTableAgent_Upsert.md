@@ -84,18 +84,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Cummings LLC",
+  "TableName": "Lang-Stokes",
   "Columns": [
-    "animi",
-    "a"
+    "earum",
+    "veniam"
   ],
   "Keys": [
-    "consectetur",
-    "fuga"
+    "dolorem",
+    "culpa"
   ],
   "Data": [
     [
@@ -117,41 +117,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "provident",
-  "Inserts": 719,
-  "Updates": 280,
-  "Deletes": 715,
+  "Success": false,
+  "Message": "sed",
+  "Inserts": 819,
+  "Updates": 523,
+  "Deletes": 903,
   "RowStatus": [
     {
-      "PrimaryKey": 646,
+      "PrimaryKey": 707,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "velit",
-        "impedit"
+        "quod",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 169
+          "FieldType": "System.String",
+          "FieldLength": 850
         }
       }
     },
     {
-      "PrimaryKey": 646,
+      "PrimaryKey": 707,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "velit",
-        "impedit"
+        "quod",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 169
+          "FieldType": "System.String",
+          "FieldLength": 850
         }
       }
     }
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldLength": 218
     }
   }
 }

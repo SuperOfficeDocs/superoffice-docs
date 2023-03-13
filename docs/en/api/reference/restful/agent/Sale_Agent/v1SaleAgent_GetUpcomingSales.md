@@ -103,8 +103,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 128,
-  "Count": 160
+  "WeightedAmountLimit": 403,
+  "Count": 921
 }
 ```
 
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Schoen LLC",
-    "SaleDate": "2022-10-24T14:19:04.1410858+02:00",
-    "SaleId": 947,
-    "Probability": 184,
-    "Title": "fugit",
-    "Amount": 8762.6639999999989,
-    "Currency": "nobis",
-    "ProjectName": "Torp-Fahey",
-    "AssociateFullName": "Teresa Metz",
-    "Description": "Cloned logistical concept",
+    "ContactName": "Padberg Group",
+    "SaleDate": "2012-01-21T12:15:20.093735+01:00",
+    "SaleId": 955,
+    "Probability": 870,
+    "Title": "numquam",
+    "Amount": 22263.935999999998,
+    "Currency": "perspiciatis",
+    "ProjectName": "Welch, Collins and Turcotte",
+    "AssociateFullName": "Ford Borer",
+    "Description": "Versatile local portal",
     "Status": "Lost",
-    "WeightedAmount": 1469.846,
-    "ProjectId": 88,
-    "EarningPercent": 20151.62,
-    "Earning": 6399.628,
-    "ContactId": 241,
-    "AssociateId": 989,
-    "PersonId": 516,
-    "SaleTypeId": 479,
-    "SaleTypeName": "Brekke LLC",
-    "PersonFullName": "Jordon Oberbrunner",
+    "WeightedAmount": 19894.631999999998,
+    "ProjectId": 56,
+    "EarningPercent": 26012.2,
+    "Earning": 1695.494,
+    "ContactId": 713,
+    "AssociateId": 313,
+    "PersonId": 929,
+    "SaleTypeId": 349,
+    "SaleTypeName": "Macejkovic-Raynor",
+    "PersonFullName": "Casper Wiegand",
     "Completed": "Completed",
-    "ActiveErpLinks": 988,
-    "NextDueDate": "1995-10-23T14:19:04.1410858+02:00",
-    "Number": "1388235",
+    "ActiveErpLinks": 292,
+    "NextDueDate": "1996-01-29T12:15:20.093735+01:00",
+    "Number": "912665",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 689
+        "FieldType": "System.Int32",
+        "FieldLength": 570
       }
     }
   }

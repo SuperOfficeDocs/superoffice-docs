@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,33 +93,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 30,
-  "IsActive": false,
+  "ErpConnectionId": 471,
+  "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 834,
-      "CrmFieldKey": "numquam",
-      "CrmDisplayName": "O'Hara LLC",
-      "CrmDisplayTooltip": "voluptas",
-      "ErpFieldKey": "blanditiis",
+      "ErpFieldId": 416,
+      "CrmFieldKey": "temporibus",
+      "CrmDisplayName": "Sipes LLC",
+      "CrmDisplayTooltip": "maiores",
+      "ErpFieldKey": "fuga",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Wunsch, Gutkowski and Goldner",
-      "ErpDisplayTooltip": "aut",
+      "ErpDisplayName": "Wiza, Daniel and Grimes",
+      "ErpDisplayTooltip": "quibusdam",
       "SyncToCrm": false,
-      "SyncToErp": false,
+      "SyncToErp": true,
       "ShowInGui": false,
-      "ShowInSearch": false,
-      "AlreadyMapped": false,
+      "ShowInSearch": true,
+      "AlreadyMapped": true,
       "MissingInERP": false,
-      "MissingInCRM": true,
+      "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "ipsa",
+      "ListReference": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 962
+          "FieldType": "System.String",
+          "FieldLength": 358
         }
       }
     }
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 498
+      "FieldLength": 256
     }
   }
 }

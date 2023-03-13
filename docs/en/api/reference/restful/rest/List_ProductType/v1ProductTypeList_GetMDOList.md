@@ -26,7 +26,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=dolores
+GET /api/v1/List/ProductType/MDOItems?query=nobis
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 300,
-    "Name": "Bosco-Robel",
-    "ToolTip": "Voluptatem fugit consequatur aliquam dicta ut.",
-    "Deleted": false,
-    "Rank": 337,
-    "Type": "dolores",
+    "Id": 794,
+    "Name": "Grimes Group",
+    "ToolTip": "Vero nisi asperiores nihil sed cupiditate nisi fuga.",
+    "Deleted": true,
+    "Rank": 941,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 634,
-        "Name": "Green LLC",
-        "ToolTip": "Molestiae itaque praesentium enim at.",
-        "Deleted": false,
-        "Rank": 64,
-        "Type": "repudiandae",
+        "Id": 196,
+        "Name": "Glover LLC",
+        "ToolTip": "Ab deserunt rerum est non quibusdam optio.",
+        "Deleted": true,
+        "Rank": 47,
+        "Type": "veritatis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ea",
-        "ColorBlock": 157,
-        "ExtraInfo": "quidem",
-        "StyleHint": "dolore",
-        "FullName": "Stefanie Lehner",
+        "IconHint": "delectus",
+        "ColorBlock": 225,
+        "ExtraInfo": "vel",
+        "StyleHint": "culpa",
+        "FullName": "Christy Feest",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 497
+            "FieldLength": 720
           }
         }
       }
     ],
-    "IconHint": "ipsum",
-    "ColorBlock": 75,
-    "ExtraInfo": "neque",
-    "StyleHint": "enim",
-    "FullName": "Jimmy Abbott",
+    "IconHint": "ad",
+    "ColorBlock": 535,
+    "ExtraInfo": "maiores",
+    "StyleHint": "et",
+    "FullName": "Mazie Lowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 839
+        "FieldType": "System.Int32",
+        "FieldLength": 13
       }
     }
   }

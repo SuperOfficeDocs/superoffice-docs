@@ -32,7 +32,7 @@ Calls the Sale agent service GetSaleEntity.
 
 ```http
 GET /api/v1/Sale/{id}?$select=name,department,category/id
-GET /api/v1/Sale/{id}?fk=True
+GET /api/v1/Sale/{id}?fk=False
 ```
 
 
@@ -118,7 +118,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 09 Aug 2006 14:19:10 G8T
+Last-Modified: Sat, 10 Jul 1999 12:15:27 G7T
 
 {
   "Appointment": null,
@@ -135,7 +135,7 @@ Last-Modified: Wed, 09 Aug 2006 14:19:10 G8T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "assumenda",
+  "SaleText": "tempora",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -144,113 +144,113 @@ Last-Modified: Wed, 09 Aug 2006 14:19:10 G8T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2012-07-01T14:19:10.6935962+02:00",
-  "Amount": 30127.142,
-  "SaleId": 583,
-  "Earning": 24579.962,
-  "EarningPercent": 5283.924,
-  "Heading": "eius",
-  "Number": "1119008",
-  "Probability": 918,
-  "CreatedDate": "2010-11-16T14:19:10.6935962+01:00",
-  "UpdatedDate": "2006-08-09T14:19:10.6935962+02:00",
+  "Saledate": "2018-12-28T12:15:27.2866341+01:00",
+  "Amount": 16607.066,
+  "SaleId": 687,
+  "Earning": 15995.936,
+  "EarningPercent": 30026.854,
+  "Heading": "sit",
+  "Number": "839752",
+  "Probability": 793,
+  "CreatedDate": "2002-06-25T12:15:27.2866341+02:00",
+  "UpdatedDate": "1999-07-10T12:15:27.2866341+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 967,
+  "ActiveLinks": 659,
   "Links": [
     {
-      "EntityName": "Farrell Group",
-      "Id": 173,
-      "Description": "Optional empowering customer loyalty",
-      "ExtraInfo": "officiis",
-      "LinkId": 775,
+      "EntityName": "Pacocha-Harvey",
+      "Id": 300,
+      "Description": "Quality-focused intermediate emulation",
+      "ExtraInfo": "rerum",
+      "LinkId": 705,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 694
+          "FieldLength": 57
         }
       }
     }
   ],
-  "NextDueDate": "2005-06-13T14:19:10.6935962+02:00",
-  "Postit": "tempora",
+  "NextDueDate": "2008-05-28T12:15:27.2876308+02:00",
+  "Postit": "minus",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2011-05-26T14:19:10.6935962+02:00",
+  "ReopenDate": "2003-07-19T12:15:27.2876308+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Bernier-Dare",
-      "Comment": "vero",
-      "StakeholderRoleId": 635,
-      "CountryId": 805,
-      "PersonId": 264,
-      "EmailDescription": "mireille.purdy@williamson.name",
-      "EmailId": 412,
-      "EmailAddress": "rachelle.goldner@vonrueden.us",
-      "PhoneId": 919,
-      "ContactName": "Mayer-Gleichner",
-      "ContactId": 492,
-      "SaleId": 953,
-      "Mrmrs": "nihil",
-      "Firstname": "Kitty",
-      "MiddleName": "Brekke, Koss and Lindgren",
-      "Lastname": "Upton",
-      "SaleStakeholderId": 822,
-      "Rank": 422,
-      "Phone": "1-973-527-2236 x9730",
+      "StakeholderRoleName": "Romaguera LLC",
+      "Comment": "qui",
+      "StakeholderRoleId": 993,
+      "CountryId": 940,
+      "PersonId": 118,
+      "EmailDescription": "nelle@hilpert.biz",
+      "EmailId": 46,
+      "EmailAddress": "davon@hessel.us",
+      "PhoneId": 989,
+      "ContactName": "Ziemann-Orn",
+      "ContactId": 84,
+      "SaleId": 739,
+      "Mrmrs": "omnis",
+      "Firstname": "Skyla",
+      "MiddleName": "Littel, Johnson and Hauck",
+      "Lastname": "Terry",
+      "SaleStakeholderId": 419,
+      "Rank": 206,
+      "Phone": "1-086-829-5155 x278",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 359
+          "FieldType": "System.Int32",
+          "FieldLength": 671
         }
       }
     }
   ],
-  "ActiveErpLinks": 823,
+  "ActiveErpLinks": 483,
   "UserDefinedFields": {
-    "SuperOffice:1": "Emmett Emard",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Bernadette Hegmann DDS",
+    "SuperOffice:2": "Estevan Huel PhD"
   },
   "ExtraFields": {
-    "ExtraFields1": "itaque",
-    "ExtraFields2": "quas"
+    "ExtraFields1": "iure",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "magnam",
-    "CustomFields2": "beatae"
+    "CustomFields1": "repellat",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2001-09-30T14:19:10.6935962+02:00",
-  "PublishTo": "1999-05-26T14:19:10.6935962+02:00",
-  "PublishFrom": "2015-02-17T14:19:10.6935962+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2002-10-03T12:15:27.2886308+02:00",
+  "PublishTo": "2014-11-11T12:15:27.2886308+01:00",
+  "PublishFrom": "1997-07-15T12:15:27.2886308+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 451,
+      "VisibleId": 360,
       "Visibility": "All",
-      "DisplayValue": "veniam",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 41
+          "FieldType": "System.Int32",
+          "FieldLength": 879
         }
       }
     },
     {
-      "VisibleId": 451,
+      "VisibleId": 360,
       "Visibility": "All",
-      "DisplayValue": "veniam",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 41
+          "FieldType": "System.Int32",
+          "FieldLength": 879
         }
       }
     }
@@ -259,8 +259,8 @@ Last-Modified: Wed, 09 Aug 2006 14:19:10 G8T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 775
+      "FieldType": "System.Int32",
+      "FieldLength": 576
     }
   },
   "_Links": {

@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 680,
-    "Name": "Langosh, Pollich and Marquardt",
-    "Tooltip": "ipsam",
+    "HeadingId": 743,
+    "Name": "Hilpert, Medhurst and Marks",
+    "Tooltip": "exercitationem",
     "Deleted": false,
-    "Rank": 928,
-    "UdListDefinitionId": 214
+    "Rank": 963,
+    "UdListDefinitionId": 967
   },
   {
-    "HeadingId": 680,
-    "Name": "Langosh, Pollich and Marquardt",
-    "Tooltip": "ipsam",
+    "HeadingId": 743,
+    "Name": "Hilpert, Medhurst and Marks",
+    "Tooltip": "exercitationem",
     "Deleted": false,
-    "Rank": 928,
-    "UdListDefinitionId": 214
+    "Rank": 963,
+    "UdListDefinitionId": 967
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 493,
-    "Name": "Hagenes-Lebsack",
-    "Tooltip": "dolorem",
+    "HeadingId": 751,
+    "Name": "Hauck, Johns and O'Connell",
+    "Tooltip": "consequatur",
     "Deleted": true,
-    "Rank": 150,
-    "UdListDefinitionId": 829,
+    "Rank": 347,
+    "UdListDefinitionId": 476,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 208
+        "FieldType": "System.String",
+        "FieldLength": 685
       }
     }
   }

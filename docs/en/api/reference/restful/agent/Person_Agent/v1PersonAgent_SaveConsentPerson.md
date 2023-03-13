@@ -72,16 +72,16 @@ OK
 POST /api/v1/Agents/Person/SaveConsentPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 42,
+  "ConsentPersonId": 302,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 566,
+  "PersonId": 21,
   "ConsentPurpose": null,
-  "Comment": "nostrum"
+  "Comment": "non"
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 407,
+  "ConsentPersonId": 649,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 288,
+  "PersonId": 382,
   "ConsentPurpose": null,
-  "Comment": "qui",
+  "Comment": "veniam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 622
+      "FieldLength": 770
     }
   }
 }

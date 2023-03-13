@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,26 +79,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 886,
-  "Name": "Stracke-McClure",
+  "WebhookId": 629,
+  "Name": "Herzog LLC",
   "Events": [
-    "quis",
-    "et"
+    "cum",
+    "velit"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "velit",
+  "Secret": "rerum",
   "State": "Active",
-  "Type": "ratione",
+  "Type": "quis",
   "Headers": {
-    "Headers1": "unde",
-    "Headers2": "debitis"
+    "Headers1": "aut",
+    "Headers2": "non"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2009-12-31T14:19:04.6422019+01:00",
+  "Registered": "2022-04-02T12:15:20.6637278+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2017-11-03T14:19:04.6422019+01:00",
+  "Updated": "1998-06-19T12:15:20.6637278+02:00",
   "UpdatedAssociate": null
 }
 ```

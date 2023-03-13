@@ -72,12 +72,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 91,
-  "Restrictions": "quis"
+  "DashboardTileId": 83,
+  "Restrictions": "dignissimos"
 }
 ```
 
@@ -91,19 +91,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Gutmann Group",
-        "DisplayTooltip": "quisquam",
-        "DisplayType": "aut",
-        "CanOrderBy": true,
-        "Name": "Wolf Inc and Sons",
-        "CanRestrictBy": false,
-        "RestrictionType": "voluptate",
-        "RestrictionListName": "Mueller, Howell and Veum",
+        "DisplayName": "Auer, Hermann and Willms",
+        "DisplayTooltip": "ad",
+        "DisplayType": "animi",
+        "CanOrderBy": false,
+        "Name": "Herman Group",
+        "CanRestrictBy": true,
+        "RestrictionType": "molestias",
+        "RestrictionListName": "Adams-Bahringer",
         "IsVisible": true,
-        "ExtraInfo": "ea",
-        "Width": "in",
-        "IconHint": "ut",
-        "HeadingIconHint": "quis"
+        "ExtraInfo": "odio",
+        "Width": "eaque",
+        "IconHint": "sapiente",
+        "HeadingIconHint": "ea"
       }
     ],
     "Result": null
@@ -111,19 +111,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Gutmann Group",
-        "DisplayTooltip": "quisquam",
-        "DisplayType": "aut",
-        "CanOrderBy": true,
-        "Name": "Wolf Inc and Sons",
-        "CanRestrictBy": false,
-        "RestrictionType": "voluptate",
-        "RestrictionListName": "Mueller, Howell and Veum",
+        "DisplayName": "Auer, Hermann and Willms",
+        "DisplayTooltip": "ad",
+        "DisplayType": "animi",
+        "CanOrderBy": false,
+        "Name": "Herman Group",
+        "CanRestrictBy": true,
+        "RestrictionType": "molestias",
+        "RestrictionListName": "Adams-Bahringer",
         "IsVisible": true,
-        "ExtraInfo": "ea",
-        "Width": "in",
-        "IconHint": "ut",
-        "HeadingIconHint": "quis"
+        "ExtraInfo": "odio",
+        "Width": "eaque",
+        "IconHint": "sapiente",
+        "HeadingIconHint": "ea"
       }
     ],
     "Result": null

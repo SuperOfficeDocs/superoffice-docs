@@ -95,47 +95,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 286,
-    "Name": "Watsica Group",
-    "ToolTip": "Et ut.",
+    "Id": 118,
+    "Name": "Gutmann, Mraz and Bednar",
+    "ToolTip": "Exercitationem id ut est ut consequatur.",
     "Deleted": true,
-    "Rank": 849,
-    "Type": "est",
-    "ColorBlock": 69,
-    "IconHint": "sed",
+    "Rank": 320,
+    "Type": "sit",
+    "ColorBlock": 638,
+    "IconHint": "reiciendis",
     "Selected": false,
-    "LastChanged": "2021-08-30T14:19:11.0855578+02:00",
+    "LastChanged": "2006-01-23T12:15:27.8286208+01:00",
     "ChildItems": [
       {
-        "Id": 229,
-        "Name": "Kris, Halvorson and Johns",
-        "ToolTip": "Corrupti alias et nihil.",
+        "Id": 129,
+        "Name": "Quitzon LLC",
+        "ToolTip": "Asperiores ab quis tenetur nostrum sunt qui harum.",
         "Deleted": true,
-        "Rank": 585,
-        "Type": "voluptate",
-        "ColorBlock": 646,
-        "IconHint": "reprehenderit",
+        "Rank": 7,
+        "Type": "illum",
+        "ColorBlock": 323,
+        "IconHint": "nemo",
         "Selected": false,
-        "LastChanged": "2021-07-23T14:19:11.0855578+02:00",
+        "LastChanged": "2012-01-02T12:15:27.8296229+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "minus",
+        "StyleHint": "porro",
         "Hidden": false,
-        "FullName": "Bertrand Armstrong"
+        "FullName": "Prof. Cayla Rosenbaum"
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "nihil",
-    "Hidden": false,
-    "FullName": "Brian Lockman"
+    "ExtraInfo": "totam",
+    "StyleHint": "occaecati",
+    "Hidden": true,
+    "FullName": "Edna Murphy"
   }
 ]
 ```
@@ -148,56 +148,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 409,
-    "Name": "Labadie Group",
-    "ToolTip": "Ea neque deserunt corrupti.",
-    "Deleted": false,
-    "Rank": 756,
-    "Type": "adipisci",
-    "ColorBlock": 140,
+    "Id": 805,
+    "Name": "O'Connell, Prosacco and Bednar",
+    "ToolTip": "Natus aperiam odit est iure et.",
+    "Deleted": true,
+    "Rank": 401,
+    "Type": "consequuntur",
+    "ColorBlock": 164,
     "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "2020-07-12T14:19:11.1012251+02:00",
+    "LastChanged": "2022-05-11T12:15:27.8306227+02:00",
     "ChildItems": [
       {
-        "Id": 396,
-        "Name": "Lakin, Heidenreich and Ruecker",
-        "ToolTip": "Alias ipsum non labore est.",
+        "Id": 323,
+        "Name": "Huels-Homenick",
+        "ToolTip": "Facere suscipit voluptatum rem officia alias quidem placeat.",
         "Deleted": false,
-        "Rank": 976,
-        "Type": "non",
-        "ColorBlock": 404,
-        "IconHint": "aspernatur",
-        "Selected": false,
-        "LastChanged": "1997-06-15T14:19:11.1012251+02:00",
+        "Rank": 965,
+        "Type": "nobis",
+        "ColorBlock": 671,
+        "IconHint": "dolores",
+        "Selected": true,
+        "LastChanged": "2017-07-25T12:15:27.8306227+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "at",
-        "Hidden": false,
-        "FullName": "Louisa Roob",
+        "ExtraInfo": "fuga",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Tom Bayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 100
+            "FieldLength": 232
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Ms. Dianna Kulas PhD",
+    "ExtraInfo": "modi",
+    "StyleHint": "quam",
+    "Hidden": true,
+    "FullName": "Estella O'Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 879
+        "FieldType": "System.String",
+        "FieldLength": 931
       }
     }
   }

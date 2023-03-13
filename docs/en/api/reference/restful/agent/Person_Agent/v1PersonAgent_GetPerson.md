@@ -25,7 +25,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=957
+POST /api/v1/Agents/Person/GetPerson?personId=893
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -115,52 +115,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "ut",
-  "PersonId": 839,
-  "Mrmrs": "adipisci",
-  "Firstname": "Santina",
-  "Lastname": "Kohler",
-  "MiddleName": "Lockman LLC",
-  "Title": "distinctio",
-  "Description": "Fully-configurable optimal hardware",
-  "Email": "rosario_hammes@orn.co.uk",
-  "FullName": "Hazle Toy",
-  "DirectPhone": "1-136-804-0377 x9264",
-  "FormalName": "Murray Group",
-  "CountryId": 924,
-  "ContactId": 832,
-  "ContactName": "Trantow-Rempel",
-  "Retired": 369,
-  "Rank": 363,
-  "ActiveInterests": 977,
-  "ContactDepartment": "",
-  "ContactCountryId": 319,
-  "ContactOrgNr": "1616432",
-  "FaxPhone": "018.764.2694 x0915",
-  "MobilePhone": "(794)381-6872 x34346",
-  "ContactPhone": "1-134-222-1939 x597",
-  "AssociateName": "Howell Group",
-  "AssociateId": 31,
+  "Position": "exercitationem",
+  "PersonId": 753,
+  "Mrmrs": "velit",
+  "Firstname": "Rory",
+  "Lastname": "Adams",
+  "MiddleName": "Boyle, Kertzmann and Bashirian",
+  "Title": "dolores",
+  "Description": "Inverse optimal protocol",
+  "Email": "matteo.johnston@christiansen.co.uk",
+  "FullName": "Effie Bailey",
+  "DirectPhone": "451.041.4465 x9096",
+  "FormalName": "Orn, Heaney and Hirthe",
+  "CountryId": 609,
+  "ContactId": 808,
+  "ContactName": "Daugherty-Weber",
+  "Retired": 209,
+  "Rank": 283,
+  "ActiveInterests": 27,
+  "ContactDepartment": "redefine out-of-the-box systems",
+  "ContactCountryId": 182,
+  "ContactOrgNr": "734074",
+  "FaxPhone": "1-629-247-9094",
+  "MobilePhone": "153-543-9327 x5141",
+  "ContactPhone": "(770)312-6719",
+  "AssociateName": "Balistreri Group",
+  "AssociateId": 427,
   "UsePersonAddress": false,
-  "ContactFax": "dolor",
-  "Kanafname": "a",
-  "Kanalname": "est",
-  "Post1": "voluptas",
-  "Post2": "accusantium",
-  "Post3": "sit",
-  "EmailName": "camila@batz.biz",
-  "ContactFullName": "Eugene Altenwerth",
-  "ActiveErpLinks": 637,
-  "TicketPriorityId": 563,
-  "SupportLanguageId": 819,
-  "SupportAssociateId": 976,
+  "ContactFax": "et",
+  "Kanafname": "voluptatem",
+  "Kanalname": "excepturi",
+  "Post1": "porro",
+  "Post2": "qui",
+  "Post3": "sapiente",
+  "EmailName": "brendan@harber.co.uk",
+  "ContactFullName": "Lottie Domenica Spinka DVM",
+  "ActiveErpLinks": 102,
+  "TicketPriorityId": 665,
+  "SupportLanguageId": 575,
+  "SupportAssociateId": 968,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 437
+      "FieldLength": 735
     }
   }
 }

@@ -80,15 +80,15 @@ OK
 POST /api/v1/Agents/Find/Find
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "non",
-  "ProviderName": "Ledner, Steuber and Cassin",
-  "StorageKey": "voluptatem",
-  "PageSize": 849,
-  "PageNumber": 2
+  "StorageType": "debitis",
+  "ProviderName": "Koss-Leffler",
+  "StorageKey": "consequatur",
+  "PageSize": 470,
+  "PageNumber": 43
 }
 ```
 
@@ -101,51 +101,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Metz, Lemke and Swaniawski",
-      "DisplayTooltip": "quia",
-      "DisplayType": "suscipit",
+      "DisplayName": "Corwin Group",
+      "DisplayTooltip": "architecto",
+      "DisplayType": "similique",
       "CanOrderBy": false,
-      "Name": "Fadel Group",
+      "Name": "Homenick-Leannon",
       "CanRestrictBy": false,
-      "RestrictionType": "necessitatibus",
-      "RestrictionListName": "Friesen, Toy and Hagenes",
+      "RestrictionType": "ab",
+      "RestrictionListName": "Klein Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "modi",
-      "Width": "accusantium",
-      "IconHint": "autem",
-      "HeadingIconHint": "eligendi"
+      "ExtraInfo": "fuga",
+      "Width": "quo",
+      "IconHint": "qui",
+      "HeadingIconHint": "eaque"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Hauck, Skiles and Zulauf",
-      "PrimaryKey": 515,
+      "EntityName": "Altenwerth Inc and Sons",
+      "PrimaryKey": 72,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sit",
-          "TooltipHint": "excepturi",
-          "LinkHint": "a"
+          "DisplayValue": "totam",
+          "TooltipHint": "voluptate",
+          "LinkHint": "quam"
         }
       },
-      "LinkHint": "dolor",
-      "StyleHint": "amet",
+      "LinkHint": "amet",
+      "StyleHint": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 874
+          "FieldType": "System.Int32",
+          "FieldLength": 388
         }
       }
     }
   ],
-  "RowCount": 666,
+  "RowCount": 245,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 967
+      "FieldType": "System.Int32",
+      "FieldLength": 500
     }
   }
 }

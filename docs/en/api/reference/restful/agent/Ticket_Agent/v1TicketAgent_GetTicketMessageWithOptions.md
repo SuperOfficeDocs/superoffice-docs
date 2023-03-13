@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 941,
+  "TicketMessageEntityId": 699,
   "IncludeNonInlineAttachmentsInfo": false
 }
 ```
@@ -113,28 +113,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 954,
+  "EjMessageId": 253,
   "Ticket": null,
-  "CreatedAt": "2016-12-18T14:19:04.5172011+01:00",
+  "CreatedAt": "2021-03-05T12:15:20.4957289+01:00",
   "CreatedBy": null,
-  "Author": "reiciendis",
+  "Author": "corrupti",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 506,
+  "MessageId": "sed",
+  "TimeSpent": 36,
   "Body": "fugit",
-  "HtmlBody": "suscipit",
-  "EmailHeader": "raphael@feestthiel.us",
-  "DebugInfo": "harum",
-  "MailSorter": "recusandae",
+  "HtmlBody": "quisquam",
+  "EmailHeader": "antonio.hane@leuschke.ca",
+  "DebugInfo": "quasi",
+  "MailSorter": "ad",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptatibus",
+  "SearchTitle": "nesciunt",
   "MessageHeaders": [
     {
-      "Id": 568,
-      "Name": "Huels, Haley and Will",
-      "Value": "perferendis",
+      "Id": 545,
+      "Name": "Hirthe, Feeney and McClure",
+      "Value": "eum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -142,47 +142,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 922
+          "FieldLength": 953
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "ipsum",
-  "Sentiment": 857,
-  "SentimentConfidence": 432,
+  "Important": false,
+  "Language": "minus",
+  "Sentiment": 148,
+  "SentimentConfidence": 498,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 364,
-      "Name": "Murray-Welch",
-      "ContentType": "ipsum",
-      "AttSize": 866,
-      "InlineImage": true,
-      "ContentId": "libero",
+      "AttachmentId": 90,
+      "Name": "Brown, Kertzmann and Hills",
+      "ContentType": "vel",
+      "AttSize": 688,
+      "InlineImage": false,
+      "ContentId": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 77
+          "FieldLength": 764
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "est",
+    "ExtraFields1": "eius",
     "ExtraFields2": "doloribus"
   },
   "CustomFields": {
-    "CustomFields1": "laboriosam",
-    "CustomFields2": "debitis"
+    "CustomFields1": "tempora",
+    "CustomFields2": "animi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 670
+      "FieldType": "System.String",
+      "FieldLength": 403
     }
   }
 }

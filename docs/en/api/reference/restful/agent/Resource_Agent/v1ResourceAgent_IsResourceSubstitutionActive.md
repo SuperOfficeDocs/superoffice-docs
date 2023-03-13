@@ -81,10 +81,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Tremblay-Mayer",
-    "Boyer-Larson"
+    "Hayes, Beatty and Hand",
+    "Gulgowski-Ferry"
   ],
-  "Culture": "rerum"
+  "Culture": "doloribus"
 }
 ```
 
@@ -96,30 +96,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Hane-McClure",
-    "ResourceValue": "laudantium",
-    "Culture": "laboriosam",
-    "IsActive": true,
+    "ResourceName": "Abshire, Conn and Luettgen",
+    "ResourceValue": "magnam",
+    "Culture": "fugit",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 817
+        "FieldType": "System.String",
+        "FieldLength": 596
       }
     }
   },
   {
-    "ResourceName": "Hane-McClure",
-    "ResourceValue": "laudantium",
-    "Culture": "laboriosam",
-    "IsActive": true,
+    "ResourceName": "Abshire, Conn and Luettgen",
+    "ResourceValue": "magnam",
+    "Culture": "fugit",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 817
+        "FieldType": "System.String",
+        "FieldLength": 596
       }
     }
   }

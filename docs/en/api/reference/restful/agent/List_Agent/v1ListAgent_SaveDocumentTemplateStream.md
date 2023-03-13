@@ -81,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 38,
+  "DocumentTemplateId": 342,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "voluptatum",
-  "PluginId": 48
+  "LanguageCode": "sed",
+  "PluginId": 362
 }
 ```
 
@@ -95,10 +95,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hermann, Boyle and Marks",
-  "Description": "Synchronised analyzing hub",
-  "ExternalReference": "sed",
-  "MimeType": "rerum",
-  "PluginId": 547
+  "Name": "Parker-Dibbert",
+  "Description": "Profit-focused multi-state Graphical User Interface",
+  "ExternalReference": "quia",
+  "MimeType": "tempore",
+  "PluginId": 810
 }
 ```

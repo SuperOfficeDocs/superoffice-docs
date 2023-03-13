@@ -112,7 +112,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 797,
+  "DocumentId": 941,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -124,88 +124,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 583,
+  "DocumentId": 217,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "nihil",
-  "Header": "beatae",
-  "Name": "Eichmann-Heidenreich",
-  "OurRef": "laborum",
-  "YourRef": "aliquid",
-  "CreatedDate": "1998-02-12T14:19:03.3542824+01:00",
-  "UpdatedDate": "2000-02-12T14:19:03.3542824+01:00",
-  "Description": "Balanced human-resource orchestration",
+  "Attention": "perferendis",
+  "Header": "repellendus",
+  "Name": "Beatty LLC",
+  "OurRef": "enim",
+  "YourRef": "rerum",
+  "CreatedDate": "1997-10-27T12:15:18.8827534+01:00",
+  "UpdatedDate": "2011-12-21T12:15:18.8827534+01:00",
+  "Description": "Synergized value-added benchmark",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2020-05-04T14:19:03.3542824+02:00",
-  "ExternalRef": "velit",
+  "Date": "2001-03-12T12:15:18.8857526+01:00",
+  "ExternalRef": "consequatur",
   "Completed": "Completed",
-  "ActiveLinks": 145,
+  "ActiveLinks": 56,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Marquardt Group",
-      "Id": 67,
-      "Description": "Adaptive local firmware",
-      "ExtraInfo": "odit",
-      "LinkId": 739,
+      "EntityName": "Fisher Group",
+      "Id": 397,
+      "Description": "Implemented systematic software",
+      "ExtraInfo": "et",
+      "LinkId": 156,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 507
+          "FieldType": "System.Int32",
+          "FieldLength": 79
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 668,
-  "Snum": 814,
+  "SuggestedDocumentId": 636,
+  "Snum": 597,
   "UserDefinedFields": {
-    "SuperOffice:1": "Riley Bruen",
-    "SuperOffice:2": "Calista Ruecker"
+    "SuperOffice:1": "953162316",
+    "SuperOffice:2": "Lester O'Hara"
   },
   "ExtraFields": {
-    "ExtraFields1": "error",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "ex",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "eius"
+    "CustomFields1": "ut",
+    "CustomFields2": "non"
   },
-  "PublishEventDate": "1996-10-20T14:19:03.3542824+02:00",
-  "PublishTo": "2021-07-22T14:19:03.3542824+02:00",
-  "PublishFrom": "2015-10-22T14:19:03.3542824+02:00",
+  "PublishEventDate": "2014-06-07T12:15:18.8867529+02:00",
+  "PublishTo": "2000-07-23T12:15:18.8867529+02:00",
+  "PublishFrom": "2021-09-06T12:15:18.8867529+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 868,
+      "VisibleId": 22,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "quisquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 37
+          "FieldLength": 622
         }
       }
     },
     {
-      "VisibleId": 868,
+      "VisibleId": 22,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "quisquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 37
+          "FieldLength": 622
         }
       }
     }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldLength": 116
     }
   }
 }

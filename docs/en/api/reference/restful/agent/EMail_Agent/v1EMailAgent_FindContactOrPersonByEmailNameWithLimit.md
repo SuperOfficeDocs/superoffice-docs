@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Boyle LLC",
-  "EmailAddress": "arnulfo_nader@streich.uk",
-  "NumberOfContacts": 207,
-  "NumberOfPersons": 362
+  "Name": "Franecki-Donnelly",
+  "EmailAddress": "earline@rodriguez.co.uk",
+  "NumberOfContacts": 931,
+  "NumberOfPersons": 19
 }
 ```
 
@@ -103,20 +103,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 756,
-    "FullName": "Jesse Denesik II",
-    "EmailAddress": "ayden@raynor.uk",
-    "ContactId": 736,
-    "ContactName": "Spinka, Barton and Brown",
+    "PersonId": 950,
+    "FullName": "Dr. Noemy Bernier V",
+    "EmailAddress": "daniella_pagac@fritschhauck.com",
+    "ContactId": 929,
+    "ContactName": "White, Feeney and McGlynn",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Larkin-Brakus",
+    "SortName": "Quigley Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 364
+        "FieldLength": 817
       }
     }
   }

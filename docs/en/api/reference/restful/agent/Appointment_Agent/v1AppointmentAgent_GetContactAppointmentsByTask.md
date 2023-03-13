@@ -126,15 +126,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 102,
-  "StartTime": "2007-06-14T14:19:02.3418722+02:00",
-  "EndTime": "2020-08-26T14:19:02.3418722+02:00",
-  "Count": 844,
-  "TaskId": 184
+  "ContactId": 990,
+  "StartTime": "2002-09-15T12:15:17.6477705+02:00",
+  "EndTime": "2014-05-13T12:15:17.6477705+02:00",
+  "Count": 12,
+  "TaskId": 133
 }
 ```
 
@@ -146,61 +146,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 13,
-    "StartDate": "2009-03-12T14:19:02.3574969+01:00",
-    "EndDate": "2013-12-27T14:19:02.3574969+01:00",
+    "AppointmentId": 11,
+    "StartDate": "2002-08-05T12:15:17.6487704+02:00",
+    "EndDate": "2019-08-07T12:15:17.6487704+02:00",
     "Type": "BookingForChecklist",
-    "Task": "sit",
-    "AssociateFullName": "Marvin Lilyan Ruecker DDS",
-    "ContactName": "Armstrong, McDermott and Yost",
-    "Description": "Profound assymetric attitude",
-    "PersonFullName": "Pedro Parker",
-    "PersonId": 122,
-    "ContactId": 809,
-    "ProjectId": 68,
-    "ProjectName": "Ziemann-Ernser",
-    "IsPublished": false,
-    "AssociateId": 904,
-    "ColorIndex": 713,
-    "IsFree": false,
+    "Task": "molestiae",
+    "AssociateFullName": "Elmira Watsica",
+    "ContactName": "Bradtke Inc and Sons",
+    "Description": "Assimilated foreground framework",
+    "PersonFullName": "Fleta Wolff",
+    "PersonId": 769,
+    "ContactId": 942,
+    "ProjectId": 552,
+    "ProjectName": "Beer, Legros and Johns",
+    "IsPublished": true,
+    "AssociateId": 513,
+    "ColorIndex": 678,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 562,
-    "PriorityName": "Morissette Inc and Sons",
+    "PriorityId": 902,
+    "PriorityName": "Rutherford Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2004-04-01T14:19:02.3574969+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2023-01-03T12:15:17.6487704+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-07-19T14:19:02.3574969+02:00",
-    "RecurringEndDate": "2001-09-22T14:19:02.3574969+02:00",
-    "MotherId": 592,
-    "AssignedBy": 689,
-    "AssignedByFullName": "Florence O'Kon",
+    "RecurringStartDate": "2021-02-15T12:15:17.6487704+01:00",
+    "RecurringEndDate": "2001-11-29T12:15:17.6487704+01:00",
+    "MotherId": 700,
+    "AssignedBy": 441,
+    "AssignedByFullName": "Jolie Will",
     "RejectReason": "",
-    "Location": "quo",
-    "AlarmLeadTime": "molestias",
-    "SaleId": 785,
-    "SaleName": "Hilpert, Harber and Corkery",
-    "AssociateName": "Langworth, Wuckert and Farrell",
-    "CreatedDate": "2016-05-21T14:19:02.3574969+02:00",
-    "CreatedBy": "quia",
-    "CreatedByFullName": "Coby Kutch",
-    "CreatedByAssociateId": 230,
+    "Location": "quidem",
+    "AlarmLeadTime": "nihil",
+    "SaleId": 859,
+    "SaleName": "Gerhold-Schowalter",
+    "AssociateName": "Langosh-Walker",
+    "CreatedDate": "2020-08-23T12:15:17.6487704+02:00",
+    "CreatedBy": "earum",
+    "CreatedByFullName": "Ms. Angus Tess Dicki II",
+    "CreatedByAssociateId": 998,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 539
+        "FieldType": "System.Int32",
+        "FieldLength": 203
       }
     }
   }

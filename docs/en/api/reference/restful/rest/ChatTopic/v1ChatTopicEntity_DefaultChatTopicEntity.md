@@ -86,7 +86,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,43 +96,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 613,
-  "Name": "Bahringer-Abernathy",
-  "Description": "Sharable mission-critical process improvement",
-  "WelcomeMessage": "illum",
+  "ChatTopicId": 411,
+  "Name": "Hand Group",
+  "Description": "Ameliorated 3rd generation standardization",
+  "WelcomeMessage": "quidem",
   "Language": null,
-  "LastAccept": "2018-04-09T14:19:10.0998102+02:00",
-  "SecondsPrAccept": 687,
-  "AlertRecipient": "dolorem",
+  "LastAccept": "2020-01-04T12:15:26.5146429+01:00",
+  "SecondsPrAccept": 463,
+  "AlertRecipient": "eum",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "maiores",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "minus",
-  "WarnNewChatMinutes": 958,
-  "WarnManagerNewChatMinutes": 346,
+  "BadgeHeader": "consequuntur",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "hic",
+  "WarnNewChatMinutes": 37,
+  "WarnManagerNewChatMinutes": 62,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 995,
-  "WarnManagerChatMessageMinutes": 798,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 28,
-  "OfflineFormQueueLength": 814,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "dolor",
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 658,
+  "WarnManagerChatMessageMinutes": 704,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 715,
+  "OfflineFormQueueLength": 280,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 614
+      "FieldLength": 408
     }
   }
 }

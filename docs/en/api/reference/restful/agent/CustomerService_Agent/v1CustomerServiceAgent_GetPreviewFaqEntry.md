@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewFaqEntry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 986
+  "KbEntryId": 109
 }
 ```
 
@@ -91,17 +91,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "et",
-  "RegisteredByFullName": "Gladys Trantow",
-  "Updated": "2017-10-31T14:19:03.0886547+01:00",
-  "Question": "autem",
+  "Title": "consequatur",
+  "RegisteredByFullName": "Mr. Jake Elias Zboncak PhD",
+  "Updated": "1999-07-28T12:15:18.6457559+02:00",
+  "Question": "explicabo",
   "Answer": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 37
+      "FieldLength": 869
     }
   }
 }

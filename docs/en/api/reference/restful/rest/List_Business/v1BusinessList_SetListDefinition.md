@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 962,
-  "Name": "Bayer-Gislason",
-  "Tooltip": "harum",
+  "Id": 883,
+  "Name": "Greenfelder Inc and Sons",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 438,
+  "Rank": 430,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "minus",
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 794,
-  "Name": "Goldner Inc and Sons",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 164,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 207,
+  "Name": "Boyer Inc and Sons",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "Rank": 775,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ipsa",
+  "ListType": "est",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 218
+      "FieldLength": 197
     }
   }
 }

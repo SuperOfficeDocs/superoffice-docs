@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 672,
-    "Name": "Kreiger, Von and Gusikowski",
-    "ToolTip": "Ut repellendus.",
+    "Id": 782,
+    "Name": "Yost-Schowalter",
+    "ToolTip": "Delectus sit et dicta quam.",
     "Deleted": true,
-    "Rank": 97,
-    "Type": "minus",
-    "ColorBlock": 695,
-    "IconHint": "cum",
-    "Selected": true,
-    "LastChanged": "2004-07-18T14:19:11.4714393+02:00",
+    "Rank": 140,
+    "Type": "commodi",
+    "ColorBlock": 262,
+    "IconHint": "laudantium",
+    "Selected": false,
+    "LastChanged": "2021-11-05T12:15:28.4406145+01:00",
     "ChildItems": [
       {
-        "Id": 969,
-        "Name": "Funk Group",
-        "ToolTip": "Et et repellendus ullam.",
-        "Deleted": true,
-        "Rank": 759,
-        "Type": "est",
-        "ColorBlock": 227,
-        "IconHint": "distinctio",
-        "Selected": true,
-        "LastChanged": "1996-10-14T14:19:11.4714393+02:00",
+        "Id": 595,
+        "Name": "Kling Group",
+        "ToolTip": "Nisi explicabo nobis ut officiis id.",
+        "Deleted": false,
+        "Rank": 176,
+        "Type": "vel",
+        "ColorBlock": 823,
+        "IconHint": "necessitatibus",
+        "Selected": false,
+        "LastChanged": "2019-02-26T12:15:28.4406145+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "voluptatibus",
-        "Hidden": true,
-        "FullName": "Dr. Kevin Frieda Hirthe PhD",
+        "ExtraInfo": "qui",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Guiseppe Legros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 962
+            "FieldType": "System.Int32",
+            "FieldLength": 472
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "vitae",
-    "Hidden": false,
-    "FullName": "Lyla Murphy",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "nemo",
+    "Hidden": true,
+    "FullName": "Dr. Toney Greenfelder MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 711
+        "FieldType": "System.Int32",
+        "FieldLength": 665
       }
     }
   }

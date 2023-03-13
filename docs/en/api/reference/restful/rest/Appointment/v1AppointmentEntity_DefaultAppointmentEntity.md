@@ -110,7 +110,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -118,70 +118,70 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 01 Nov 2014 14:19:09 G11T
+Last-Modified: Mon, 20 Feb 2017 12:15:26 G2T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2016-12-09T14:19:09.8699582+01:00",
-  "AppointmentId": 58,
-  "Description": "Fundamental background core",
-  "StartDate": "2013-10-19T14:19:09.8699582+02:00",
-  "EndDate": "2022-06-06T14:19:09.8699582+02:00",
+  "CreatedDate": "1996-04-12T12:15:26.2276523+02:00",
+  "AppointmentId": 400,
+  "Description": "Managed well-modulated function",
+  "StartDate": "2010-03-02T12:15:26.2276523+01:00",
+  "EndDate": "2017-11-17T12:15:26.2276523+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 882,
+  "MotherId": 734,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2014-11-01T14:19:09.8699582+01:00",
+  "UpdatedDate": "2017-02-20T12:15:26.2306469+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 423,
+  "ActiveLinks": 931,
   "Links": [
     {
-      "EntityName": "Gaylord Group",
-      "Id": 184,
-      "Description": "Balanced regional info-mediaries",
-      "ExtraInfo": "et",
-      "LinkId": 656,
+      "EntityName": "Grady Group",
+      "Id": 544,
+      "Description": "Secured didactic budgetary management",
+      "ExtraInfo": "sint",
+      "LinkId": 37,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 970
+          "FieldLength": 103
         }
       }
     }
   ],
-  "AlarmLeadTime": "ipsum",
+  "AlarmLeadTime": "ratione",
   "HasAlarm": false,
-  "ColorIndex": 489,
+  "ColorIndex": 193,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "eos",
-  "LeadTime": "sapiente",
-  "Location": "rem",
-  "RejectCounter": 541,
+  "LagTime": "consectetur",
+  "LeadTime": "aut",
+  "Location": "unde",
+  "RejectCounter": 388,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 985,
-      "PersonId": 444,
-      "ContactId": 210,
-      "EmailId": 141,
+      "AssociateId": 188,
+      "PersonId": 850,
+      "ContactId": 338,
+      "EmailId": 554,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 985,
-      "PersonId": 444,
-      "ContactId": 210,
-      "EmailId": 141,
+      "AssociateId": 188,
+      "PersonId": 850,
+      "ContactId": 338,
+      "EmailId": 554,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -189,58 +189,58 @@ Last-Modified: Sat, 01 Nov 2014 14:19:09 G11T
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1997-09-11T14:19:09.8699582+02:00",
+  "ActiveDate": "2015-12-25T12:15:26.2306469+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 527,
+  "PreferredTZLocation": 424,
   "Sale": null,
-  "SuggestedAppointmentId": 712,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 355,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "non",
+  "CentralserviceVideomeetId": "et",
   "UserDefinedFields": {
-    "SuperOffice:1": "Robert Hudson",
-    "SuperOffice:2": "Cydney O'Conner"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Reed Ebert"
   },
   "ExtraFields": {
-    "ExtraFields1": "occaecati",
-    "ExtraFields2": "facere"
+    "ExtraFields1": "molestias",
+    "ExtraFields2": "rem"
   },
   "CustomFields": {
-    "CustomFields1": "blanditiis",
-    "CustomFields2": "ducimus"
+    "CustomFields1": "dicta",
+    "CustomFields2": "doloribus"
   },
-  "PublishEventDate": "2018-11-05T14:19:09.8855807+01:00",
-  "PublishTo": "2021-03-14T14:19:09.8855807+01:00",
-  "PublishFrom": "2005-06-17T14:19:09.8855807+02:00",
+  "PublishEventDate": "2001-07-26T12:15:26.2326528+02:00",
+  "PublishTo": "1997-03-02T12:15:26.2326528+01:00",
+  "PublishFrom": "1999-05-23T12:15:26.2326528+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 993,
+      "VisibleId": 141,
       "Visibility": "All",
-      "DisplayValue": "aperiam",
+      "DisplayValue": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 567
+          "FieldLength": 669
         }
       }
     },
     {
-      "VisibleId": 993,
+      "VisibleId": 141,
       "Visibility": "All",
-      "DisplayValue": "aperiam",
+      "DisplayValue": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 567
+          "FieldLength": 669
         }
       }
     }
@@ -249,8 +249,8 @@ Last-Modified: Sat, 01 Nov 2014 14:19:09 G11T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldType": "System.String",
+      "FieldLength": 297
     }
   }
 }

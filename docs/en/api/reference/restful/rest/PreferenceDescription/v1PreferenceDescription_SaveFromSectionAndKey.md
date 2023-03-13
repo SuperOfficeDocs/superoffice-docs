@@ -105,24 +105,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 813,
-  "Section": "amet",
-  "Key": "aut",
-  "Name": "Reynolds, Okuneva and Lemke",
+  "PrefDescId": 796,
+  "Section": "illo",
+  "Key": "in",
+  "Name": "Hegmann, Koch and Rogahn",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Intuitive systematic access",
+  "Description": "Profit-focused context-sensitive internet solution",
   "IsBuiltin": false,
-  "TableName": "Haley-Blanda",
-  "UserDefinedListId": 582,
-  "Rank": 392,
-  "SubGroup": "exercitationem",
-  "MinLevel": 984,
-  "MaxValue": 232,
-  "MinValue": 397,
-  "RequiredLicense": "culpa"
+  "TableName": "Turner, Cassin and Jast",
+  "UserDefinedListId": 398,
+  "Rank": 153,
+  "SubGroup": "vel",
+  "MinLevel": 667,
+  "MaxValue": 480,
+  "MinValue": 323,
+  "RequiredLicense": "et"
 }
 ```
 
@@ -133,30 +133,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 218,
-  "Section": "dolore",
-  "Key": "excepturi",
-  "Name": "Corwin-Schuppe",
+  "PrefDescId": 990,
+  "Section": "et",
+  "Key": "quia",
+  "Name": "Walker LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Enhanced attitude-oriented support",
+  "Description": "Implemented global capability",
   "IsBuiltin": false,
-  "TableName": "Quitzon LLC",
-  "UserDefinedListId": 184,
-  "Rank": 644,
-  "SubGroup": "eum",
-  "MinLevel": 487,
-  "MaxValue": 153,
-  "MinValue": 117,
-  "RequiredLicense": "dicta",
+  "TableName": "Dare Inc and Sons",
+  "UserDefinedListId": 49,
+  "Rank": 617,
+  "SubGroup": "recusandae",
+  "MinLevel": 52,
+  "MaxValue": 457,
+  "MinValue": 352,
+  "RequiredLicense": "voluptatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 290
+      "FieldType": "System.String",
+      "FieldLength": 287
     }
   }
 }

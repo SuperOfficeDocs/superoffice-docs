@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 788,
-  "Name": "Goodwin Group",
-  "Tooltip": "voluptatem",
+  "Id": 474,
+  "Name": "Bechtelar-Kertzmann",
+  "Tooltip": "eius",
   "Deleted": false,
-  "UdListDefinitionId": 678,
-  "Rank": 85,
+  "UdListDefinitionId": 436,
+  "Rank": 670,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 212
+      "FieldType": "System.String",
+      "FieldLength": 538
     }
   }
 }

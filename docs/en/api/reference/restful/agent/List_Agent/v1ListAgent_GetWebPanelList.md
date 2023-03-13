@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetWebPanelList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,33 +95,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 515,
-    "Name": "Emmerich LLC",
-    "Tooltip": "fugit",
+    "WebPanelId": 427,
+    "Name": "Kulas LLC",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 632,
+    "Rank": 338,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": true,
-    "OnTravel": true,
+    "OnSatellite": false,
+    "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
+    "OnSalesMarketingPocket": false,
     "ShowInMenuBar": true,
     "ShowInToolBar": false,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Hagenes-Zieme",
+    "WindowName": "Jakubowski Inc and Sons",
     "Url": "http://www.example.com/",
-    "ProgId": "molestiae",
-    "Icon": 653,
+    "ProgId": "sint",
+    "Icon": 847,
     "AlwaysReloadOnShow": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 181
+        "FieldType": "System.Int32",
+        "FieldLength": 30
       }
     }
   }

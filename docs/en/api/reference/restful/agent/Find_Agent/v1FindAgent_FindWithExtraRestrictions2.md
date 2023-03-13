@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "facere",
-  "ProviderName": "Thompson, Spencer and Hane",
-  "StorageKey": "qui",
-  "ExtraRestrictions": "qui",
-  "OrderBy": "qui",
-  "DesiredColumns": "dignissimos",
-  "PageSize": 950,
-  "PageNumber": 656
+  "StorageType": "quos",
+  "ProviderName": "Brekke-Pacocha",
+  "StorageKey": "et",
+  "ExtraRestrictions": "pariatur",
+  "OrderBy": "quia",
+  "DesiredColumns": "explicabo",
+  "PageSize": 176,
+  "PageNumber": 757
 }
 ```
 
@@ -190,51 +190,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Conroy LLC",
-      "DisplayTooltip": "veritatis",
-      "DisplayType": "et",
-      "CanOrderBy": false,
-      "Name": "Considine, Beatty and Hyatt",
+      "DisplayName": "Haley, Kulas and Hamill",
+      "DisplayTooltip": "esse",
+      "DisplayType": "blanditiis",
+      "CanOrderBy": true,
+      "Name": "Bayer LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "amet",
-      "RestrictionListName": "Berge-Wintheiser",
-      "IsVisible": false,
-      "ExtraInfo": "fuga",
-      "Width": "ducimus",
-      "IconHint": "et",
-      "HeadingIconHint": "labore"
+      "RestrictionType": "sapiente",
+      "RestrictionListName": "Grady Inc and Sons",
+      "IsVisible": true,
+      "ExtraInfo": "est",
+      "Width": "aliquid",
+      "IconHint": "fugiat",
+      "HeadingIconHint": "similique"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Metz Inc and Sons",
-      "PrimaryKey": 175,
+      "EntityName": "Schmeler, Ondricka and Maggio",
+      "PrimaryKey": 947,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ut",
-          "TooltipHint": "sed",
-          "LinkHint": "aut"
+          "DisplayValue": "et",
+          "TooltipHint": "sint",
+          "LinkHint": "velit"
         }
       },
-      "LinkHint": "inventore",
-      "StyleHint": "quod",
+      "LinkHint": "qui",
+      "StyleHint": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 904
+          "FieldLength": 28
         }
       }
     }
   ],
-  "RowCount": 15,
+  "RowCount": 849,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldType": "System.String",
+      "FieldLength": 311
     }
   }
 }

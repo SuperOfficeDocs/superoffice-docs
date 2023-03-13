@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 739,
-  "Name": "Bergstrom Group",
-  "Tooltip": "vero",
-  "Deleted": true,
-  "UdListDefinitionId": 757,
-  "Rank": 896,
+  "Id": 646,
+  "Name": "Considine, Hettinger and Hansen",
+  "Tooltip": "voluptas",
+  "Deleted": false,
+  "UdListDefinitionId": 877,
+  "Rank": 781,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 760
+      "FieldType": "System.Int32",
+      "FieldLength": 174
     }
   }
 }

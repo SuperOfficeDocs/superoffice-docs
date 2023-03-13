@@ -65,13 +65,13 @@ No Content
 POST /api/v1/Agents/EMail/MoveEmailsToTrash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    719,
-    883
+    646,
+    333
   ]
 }
 ```

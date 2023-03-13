@@ -65,22 +65,22 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Graham Group",
+  "ProviderName": "Torphy LLC",
   "Restrictions": [
     {
-      "Name": "Padberg-Lubowitz",
-      "Operator": "delectus",
+      "Name": "Marvin-Connelly",
+      "Operator": "natus",
       "Values": [
-        "earum",
-        "illum"
+        "neque",
+        "qui"
       ],
       "DisplayValues": [
-        "sit",
-        "sint"
+        "sed",
+        "unde"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -88,12 +88,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 273,
+      "InterParenthesis": 778,
       "InterOperator": "And",
-      "UniqueHash": 462
+      "UniqueHash": 808
     }
   ],
-  "AssociateId": 175
+  "AssociateId": 741
 }
 ```
 

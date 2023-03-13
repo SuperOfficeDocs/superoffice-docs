@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 810,
-    "Name": "Ziemann, Kub and Waters",
-    "ToolTip": "Beatae maxime.",
-    "Deleted": true,
-    "Rank": 220,
-    "Type": "ut",
-    "ColorBlock": 850,
-    "IconHint": "accusamus",
-    "Selected": true,
-    "LastChanged": "2022-11-25T14:19:11.4149038+01:00",
+    "Id": 259,
+    "Name": "Ullrich Inc and Sons",
+    "ToolTip": "Aut esse quis eum voluptatibus dolor et.",
+    "Deleted": false,
+    "Rank": 144,
+    "Type": "minus",
+    "ColorBlock": 848,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2015-04-26T12:15:28.3526165+02:00",
     "ChildItems": [
       {
-        "Id": 166,
-        "Name": "Veum-Baumbach",
-        "ToolTip": "Doloribus commodi fugiat qui similique repellat omnis repellat.",
-        "Deleted": false,
-        "Rank": 181,
-        "Type": "sed",
-        "ColorBlock": 181,
-        "IconHint": "quia",
+        "Id": 82,
+        "Name": "Kling LLC",
+        "ToolTip": "Incidunt aut eaque ex.",
+        "Deleted": true,
+        "Rank": 476,
+        "Type": "eius",
+        "ColorBlock": 332,
+        "IconHint": "eligendi",
         "Selected": false,
-        "LastChanged": "2002-09-24T14:19:11.4149038+02:00",
+        "LastChanged": "2020-03-23T12:15:28.3526165+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "asperiores",
+        "ExtraInfo": "et",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Jamar Kreiger",
+        "FullName": "Jacklyn Cummerata",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 884
+            "FieldLength": 965
           }
         }
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "harum",
+    "ExtraInfo": "atque",
+    "StyleHint": "earum",
     "Hidden": false,
-    "FullName": "Myah Vernon Schaden I",
+    "FullName": "Prof. Ned Anjali Koepp PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 793
+        "FieldLength": 722
       }
     }
   }

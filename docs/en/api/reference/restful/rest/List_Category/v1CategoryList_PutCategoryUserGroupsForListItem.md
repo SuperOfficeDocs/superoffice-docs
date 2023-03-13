@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 403,
-    "Name": "Kohler-Renner",
-    "ToolTip": "In hic tenetur quis rerum laudantium reprehenderit quia.",
+    "Id": 357,
+    "Name": "Schneider Group",
+    "ToolTip": "Autem aliquid.",
     "Deleted": false,
-    "Rank": 342,
-    "Type": "sunt",
-    "ColorBlock": 598,
-    "IconHint": "molestiae",
+    "Rank": 807,
+    "Type": "recusandae",
+    "ColorBlock": 653,
+    "IconHint": "illum",
     "Selected": true,
-    "LastChanged": "2004-08-06T14:19:11.1324679+02:00",
+    "LastChanged": "2003-05-12T12:15:27.8916223+02:00",
     "ChildItems": [
       {
-        "Id": 977,
-        "Name": "Kling LLC",
-        "ToolTip": "Commodi ut magnam.",
+        "Id": 746,
+        "Name": "Bartell-Fritsch",
+        "ToolTip": "Pariatur non tempora voluptatem mollitia sapiente voluptas voluptas.",
         "Deleted": false,
-        "Rank": 423,
-        "Type": "accusamus",
-        "ColorBlock": 651,
-        "IconHint": "quisquam",
-        "Selected": true,
-        "LastChanged": "2012-09-08T14:19:11.1324679+02:00",
+        "Rank": 897,
+        "Type": "facere",
+        "ColorBlock": 444,
+        "IconHint": "consequatur",
+        "Selected": false,
+        "LastChanged": "2009-09-02T12:15:27.8916223+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "praesentium",
+        "ExtraInfo": "sit",
+        "StyleHint": "iusto",
         "Hidden": true,
-        "FullName": "Lesly Kautzer"
+        "FullName": "Jarred Hirthe"
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "culpa",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "esse",
     "Hidden": false,
-    "FullName": "Yesenia Halvorson"
+    "FullName": "Brycen Hauck"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 525,
-    "Name": "Leffler-Hane",
-    "ToolTip": "Cum laudantium aut.",
+    "Id": 415,
+    "Name": "Bradtke-Doyle",
+    "ToolTip": "Corrupti qui quia architecto.",
     "Deleted": false,
-    "Rank": 209,
-    "Type": "repudiandae",
-    "ColorBlock": 1002,
-    "IconHint": "porro",
-    "Selected": true,
-    "LastChanged": "2020-03-19T14:19:11.1324679+01:00",
+    "Rank": 941,
+    "Type": "dolorum",
+    "ColorBlock": 269,
+    "IconHint": "sit",
+    "Selected": false,
+    "LastChanged": "2009-08-05T12:15:27.8926253+02:00",
     "ChildItems": [
       {
-        "Id": 516,
-        "Name": "Pfeffer, Orn and Gulgowski",
-        "ToolTip": "Est quasi sapiente incidunt consequatur.",
+        "Id": 391,
+        "Name": "Boehm, Kihn and O'Reilly",
+        "ToolTip": "Mollitia et.",
         "Deleted": true,
-        "Rank": 35,
-        "Type": "sequi",
-        "ColorBlock": 736,
-        "IconHint": "perferendis",
+        "Rank": 846,
+        "Type": "magni",
+        "ColorBlock": 996,
+        "IconHint": "iusto",
         "Selected": false,
-        "LastChanged": "2004-07-09T14:19:11.1324679+02:00",
+        "LastChanged": "2020-10-13T12:15:27.8926253+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "debitis",
-        "Hidden": false,
-        "FullName": "Annabelle Gulgowski",
+        "ExtraInfo": "quia",
+        "StyleHint": "quaerat",
+        "Hidden": true,
+        "FullName": "Corine Monahan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 116
+            "FieldLength": 253
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "molestias",
-    "Hidden": true,
-    "FullName": "Florence Hansen",
+    "ExtraInfo": "id",
+    "StyleHint": "aspernatur",
+    "Hidden": false,
+    "FullName": "Marquise Rolfson DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 320
+        "FieldLength": 24
       }
     }
   }

@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentHaveParticipantsWithEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 424
+  "AppointmentId": 698
 }
 ```
 

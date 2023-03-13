@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 430,
-    "Name": "Lesch-Bauch",
-    "Tooltip": "earum",
-    "Deleted": false,
-    "Rank": 330,
-    "UdListDefinitionId": 818,
+    "HeadingId": 976,
+    "Name": "Hand-Graham",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 220,
+    "UdListDefinitionId": 222,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 880
+        "FieldLength": 43
       }
     }
   }

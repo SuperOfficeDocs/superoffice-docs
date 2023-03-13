@@ -88,32 +88,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Graham, Russel and Dare",
-  "AdditionalInfo": "quis",
+  "Name": "Block, Kihn and Lesch",
+  "AdditionalInfo": "enim",
   "SelectableMDOList": [
     {
-      "Id": 784,
-      "Name": "Pacocha LLC",
-      "ToolTip": "Dolor tempora.",
-      "Deleted": true,
-      "Rank": 561,
-      "Type": "dolor",
-      "ColorBlock": 758,
-      "IconHint": "necessitatibus",
+      "Id": 800,
+      "Name": "Rogahn Group",
+      "ToolTip": "Molestiae fugit eius voluptas aut.",
+      "Deleted": false,
+      "Rank": 625,
+      "Type": "velit",
+      "ColorBlock": 796,
+      "IconHint": "exercitationem",
       "Selected": false,
-      "LastChanged": "1998-01-11T14:19:03.7332495+01:00",
+      "LastChanged": "2007-08-20T12:15:19.3937468+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quo",
-      "StyleHint": "velit",
-      "Hidden": true,
-      "FullName": "Lindsey Goodwin"
+      "ExtraInfo": "provident",
+      "StyleHint": "et",
+      "Hidden": false,
+      "FullName": "Mustafa Wintheiser"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 270,
-    "Name": "Leffler-Mertz",
-    "ToolTip": "Cum dolorem.",
-    "Deleted": true,
-    "Rank": 597,
-    "Type": "ullam",
-    "ColorBlock": 363,
-    "IconHint": "dicta",
-    "Selected": true,
-    "LastChanged": "2018-09-21T14:19:03.7332495+02:00",
+    "Id": 384,
+    "Name": "Pacocha LLC",
+    "ToolTip": "Et aut culpa similique consequatur odit neque aut.",
+    "Deleted": false,
+    "Rank": 338,
+    "Type": "corrupti",
+    "ColorBlock": 678,
+    "IconHint": "consequatur",
+    "Selected": false,
+    "LastChanged": "2003-05-24T12:15:19.3947455+02:00",
     "ChildItems": [
       {
-        "Id": 198,
-        "Name": "Doyle-Mayert",
-        "ToolTip": "Qui voluptatem.",
+        "Id": 907,
+        "Name": "Hegmann Inc and Sons",
+        "ToolTip": "Et in sunt facere deserunt.",
         "Deleted": false,
-        "Rank": 266,
-        "Type": "dolorem",
-        "ColorBlock": 954,
-        "IconHint": "omnis",
-        "Selected": false,
-        "LastChanged": "2021-05-29T14:19:03.7332495+02:00",
+        "Rank": 489,
+        "Type": "et",
+        "ColorBlock": 891,
+        "IconHint": "vel",
+        "Selected": true,
+        "LastChanged": "2006-06-29T12:15:19.3957451+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "sed",
-        "Hidden": true,
-        "FullName": "Dr. Kali Pietro Smitham DVM",
+        "ExtraInfo": "impedit",
+        "StyleHint": "laboriosam",
+        "Hidden": false,
+        "FullName": "Kayli Frami",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 949
+            "FieldType": "System.String",
+            "FieldLength": 249
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "similique",
+    "ExtraInfo": "earum",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Emely O'Connell",
+    "FullName": "Rex Eichmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 21
+        "FieldType": "System.Int32",
+        "FieldLength": 587
       }
     }
   }

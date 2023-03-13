@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromEjUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjUserId": 267
+  "EjUserId": 646
 }
 ```
 
@@ -114,14 +114,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 313,
-    "Name": "Durgan-Heidenreich",
-    "Rank": 515,
-    "Tooltip": "in",
+    "AssociateId": 27,
+    "Name": "Douglas LLC",
+    "Rank": 296,
+    "Tooltip": "atque",
     "LicenseOwners": [
       {
-        "Name": "Blanda Inc and Sons",
-        "Description": "Inverse well-modulated moderator",
+        "Name": "Crona-Rogahn",
+        "Description": "Visionary 4th generation functionalities",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -134,14 +134,14 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 791
+            "FieldType": "System.String",
+            "FieldLength": 881
           }
         }
       },
       {
-        "Name": "Blanda Inc and Sons",
-        "Description": "Inverse well-modulated moderator",
+        "Name": "Crona-Rogahn",
+        "Description": "Visionary 4th generation functionalities",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 791
+            "FieldType": "System.String",
+            "FieldLength": 881
           }
         }
       }
@@ -164,110 +164,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "corporis",
-        "Tooltip": "eligendi",
-        "Id": 262,
-        "Rank": 158,
-        "Deleted": false,
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 175
-          }
-        }
-      }
-    ],
-    "Person": null,
-    "Deleted": true,
-    "Lastlogin": "1999-10-15T14:19:04.6265768+02:00",
-    "Lastlogout": "2015-12-29T14:19:04.6265768+01:00",
-    "EjUserId": 293,
-    "RequestSignature": "aut",
-    "Type": "AnonymousAssociate",
-    "IsPersonRetired": true,
-    "IsOnTravel": true,
-    "Credentials": [
-      {
-        "Type": null,
-        "Value": "dolorem",
-        "DisplayValue": "rem",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 861
-          }
-        }
-      },
-      {
-        "Type": null,
-        "Value": "dolorem",
-        "DisplayValue": "rem",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 861
-          }
-        }
-      }
-    ],
-    "UserName": "Collier, Hartmann and Will",
-    "TicketCategories": [
-      {
-        "Id": 450,
-        "Name": "Conn, Volkman and Rogahn",
-        "ToolTip": "Omnis magni dolorem ut deserunt quibusdam quasi.",
-        "Deleted": false,
-        "Rank": 231,
-        "Type": "sunt",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "fugiat",
-        "ColorBlock": 693,
-        "ExtraInfo": "dolores",
-        "StyleHint": "ad",
-        "FullName": "Korey Hagenes",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 527
-          }
-        }
-      }
-    ],
-    "NickName": "Price-Kessler",
-    "WaitingForApproval": false,
-    "ExtraFields": {
-      "ExtraFields1": "aspernatur",
-      "ExtraFields2": "quia"
-    },
-    "CustomFields": {
-      "CustomFields1": "itaque",
-      "CustomFields2": "aut"
-    },
-    "PostSaveCommands": [
-      {
-        "Name": "Prosacco, Bednar and Cruickshank",
-        "DisplayName": "Nader Inc and Sons",
-        "Description": "Ergonomic well-modulated system engine",
-        "ToolTip": "Est expedita quo.",
-        "Actions": "Implicit",
-        "ActionData": "incidunt",
+        "Value": "saepe",
+        "Tooltip": "consequatur",
+        "Id": 25,
+        "Rank": 858,
+        "Deleted": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 796
+            "FieldLength": 716
+          }
+        }
+      }
+    ],
+    "Person": null,
+    "Deleted": false,
+    "Lastlogin": "2019-02-11T12:15:20.6337281+01:00",
+    "Lastlogout": "2000-07-18T12:15:20.6337281+02:00",
+    "EjUserId": 781,
+    "RequestSignature": "quisquam",
+    "Type": "AnonymousAssociate",
+    "IsPersonRetired": false,
+    "IsOnTravel": false,
+    "Credentials": [
+      {
+        "Type": null,
+        "Value": "sed",
+        "DisplayValue": "voluptatem",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 121
+          }
+        }
+      },
+      {
+        "Type": null,
+        "Value": "sed",
+        "DisplayValue": "voluptatem",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 121
+          }
+        }
+      }
+    ],
+    "UserName": "McKenzie-Klein",
+    "TicketCategories": [
+      {
+        "Id": 121,
+        "Name": "Konopelski Inc and Sons",
+        "ToolTip": "Blanditiis dolorum porro nihil voluptatem inventore.",
+        "Deleted": false,
+        "Rank": 46,
+        "Type": "cumque",
+        "ChildItems": [
+          {},
+          {}
+        ],
+        "IconHint": "modi",
+        "ColorBlock": 365,
+        "ExtraInfo": "aut",
+        "StyleHint": "dolores",
+        "FullName": "Mr. Romaine Yessenia Ward MD",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 134
+          }
+        }
+      }
+    ],
+    "NickName": "Schoen, Mitchell and Feeney",
+    "WaitingForApproval": false,
+    "ExtraFields": {
+      "ExtraFields1": "quis",
+      "ExtraFields2": "qui"
+    },
+    "CustomFields": {
+      "CustomFields1": "soluta",
+      "CustomFields2": "eligendi"
+    },
+    "PostSaveCommands": [
+      {
+        "Name": "Kub, Osinski and Stiedemann",
+        "DisplayName": "Blanda, Daniel and Gibson",
+        "Description": "Fully-configurable bifurcated internet solution",
+        "ToolTip": "Quia in quo omnis aut aliquid eos.",
+        "Actions": "Implicit",
+        "ActionData": "quos",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 622
           }
         }
       }
@@ -277,7 +277,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 496
+        "FieldLength": 293
       }
     }
   }

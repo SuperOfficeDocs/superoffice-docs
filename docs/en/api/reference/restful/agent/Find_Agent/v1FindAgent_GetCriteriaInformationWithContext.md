@@ -85,14 +85,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Huels, Kozey and Hand",
-  "StorageKey": "quos",
+  "StorageType": "non",
+  "ProviderName": "Murray, Wilkinson and McKenzie",
+  "StorageKey": "consequatur",
   "StaticColumns": [
-    "iusto",
-    "dolor"
+    "reiciendis",
+    "sit"
   ],
-  "Context": "itaque"
+  "Context": "saepe"
 }
 ```
 
@@ -105,81 +105,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Paucek, Bode and Harber",
-      "Operator": "tempora",
+      "Name": "Kertzmann, Krajcik and Corkery",
+      "Operator": "modi",
       "Values": [
-        "velit",
-        "molestias"
+        "quia",
+        "sed"
       ],
       "DisplayValues": [
-        "maxime",
-        "doloribus"
+        "omnis",
+        "id"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 803,
+      "InterParenthesis": 414,
       "InterOperator": "And",
-      "UniqueHash": 523
+      "UniqueHash": 733
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Reynolds LLC",
-      "DisplayTooltip": "nobis",
-      "DisplayType": "eligendi",
+      "DisplayName": "Spinka Inc and Sons",
+      "DisplayTooltip": "et",
+      "DisplayType": "nemo",
       "CanOrderBy": false,
-      "Name": "Runte-Murray",
-      "CanRestrictBy": false,
-      "RestrictionType": "voluptatibus",
-      "RestrictionListName": "Renner, Nikolaus and Zieme",
-      "IsVisible": false,
-      "ExtraInfo": "earum",
-      "Width": "quidem",
-      "IconHint": "excepturi",
-      "HeadingIconHint": "eveniet"
+      "Name": "West-VonRueden",
+      "CanRestrictBy": true,
+      "RestrictionType": "nesciunt",
+      "RestrictionListName": "Hansen, Marvin and Reynolds",
+      "IsVisible": true,
+      "ExtraInfo": "est",
+      "Width": "fuga",
+      "IconHint": "voluptas",
+      "HeadingIconHint": "soluta"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Koepp Group",
-      "PrimaryKey": 275,
+      "EntityName": "Pfeffer Group",
+      "PrimaryKey": 320,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "omnis",
-          "TooltipHint": "in",
-          "LinkHint": "recusandae"
+          "DisplayValue": "aut",
+          "TooltipHint": "sed",
+          "LinkHint": "consequatur"
         }
       },
-      "LinkHint": "dolorem",
-      "StyleHint": "illo",
+      "LinkHint": "quia",
+      "StyleHint": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 641
+          "FieldType": "System.String",
+          "FieldLength": 414
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Runolfsdottir, Wehner and King",
-      "Description": "Adaptive analyzing hub",
-      "Rank": 972,
+      "Name": "Johns-Zboncak",
+      "Description": "Intuitive tangible archive",
+      "Rank": 398,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Runolfsdottir, Wehner and King",
-      "Description": "Adaptive analyzing hub",
-      "Rank": 972,
+      "Name": "Johns-Zboncak",
+      "Description": "Intuitive tangible archive",
+      "Rank": 398,
       "Restrictions": [
         {},
         {}
@@ -190,8 +190,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldType": "System.Int32",
+      "FieldLength": 509
     }
   }
 }

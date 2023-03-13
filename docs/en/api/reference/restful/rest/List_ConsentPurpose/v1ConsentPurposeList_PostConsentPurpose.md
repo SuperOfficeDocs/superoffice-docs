@@ -88,22 +88,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 322,
-  "Name": "Kreiger-Kuphal",
-  "ConsentText": "vero",
-  "FormText": "dolor",
-  "Key": "a",
-  "Tooltip": "reprehenderit",
-  "Active": 85,
-  "UpdatedDate": "2000-02-04T14:19:11.163718+01:00",
+  "ConsentPurposeId": 96,
+  "Name": "Kovacek Group",
+  "ConsentText": "et",
+  "FormText": "molestias",
+  "Key": "possimus",
+  "Tooltip": "qui",
+  "Active": 505,
+  "UpdatedDate": "2001-01-22T12:15:27.9196223+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 893,
-  "PrivacyStatementDesc": "perspiciatis",
+  "Rank": 128,
+  "PrivacyStatementDesc": "dolores",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -115,25 +115,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 870,
-  "Name": "Zieme, Waters and Will",
-  "ConsentText": "quod",
-  "FormText": "quo",
-  "Key": "esse",
-  "Tooltip": "atque",
-  "Active": 936,
-  "UpdatedDate": "2009-08-27T14:19:11.163718+02:00",
+  "ConsentPurposeId": 685,
+  "Name": "Little, Carter and Howe",
+  "ConsentText": "quos",
+  "FormText": "dolorem",
+  "Key": "odit",
+  "Tooltip": "odio",
+  "Active": 573,
+  "UpdatedDate": "1999-07-01T12:15:27.9206217+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 462,
-  "PrivacyStatementDesc": "maiores",
+  "Rank": 98,
+  "PrivacyStatementDesc": "voluptatem",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldLength": 446
     }
   }
 }

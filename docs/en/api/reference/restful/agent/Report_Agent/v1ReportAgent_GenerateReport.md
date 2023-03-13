@@ -72,36 +72,36 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 702,
-  "LabelLayoutId": 202,
-  "Filename": "eius",
-  "Language": "aut",
-  "FileType": "ut",
+  "ReportId": 788,
+  "LabelLayoutId": 116,
+  "Filename": "et",
+  "Language": "iusto",
+  "FileType": "quibusdam",
   "Restrictions": [
     {
-      "Name": "Wolff LLC",
-      "Operator": "culpa",
+      "Name": "Nolan Group",
+      "Operator": "aut",
       "Values": [
-        "aperiam",
-        "autem"
+        "est",
+        "saepe"
       ],
       "DisplayValues": [
-        "asperiores",
-        "et"
+        "quis",
+        "non"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 833,
+      "InterParenthesis": 71,
       "InterOperator": "And",
-      "UniqueHash": 935
+      "UniqueHash": 528
     }
   ]
 }
@@ -113,5 +113,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"aut"
+"porro"
 ```

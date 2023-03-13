@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 203,
-    "Name": "Doyle, Buckridge and Cronin",
-    "ToolTip": "Ex consequatur voluptas natus eos non in nulla.",
-    "Deleted": true,
-    "Rank": 280,
-    "Type": "fuga",
-    "ColorBlock": 260,
-    "IconHint": "sint",
+    "Id": 704,
+    "Name": "Davis Inc and Sons",
+    "ToolTip": "Quia labore cupiditate.",
+    "Deleted": false,
+    "Rank": 847,
+    "Type": "cupiditate",
+    "ColorBlock": 799,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "1997-08-17T14:19:11.6120888+02:00",
+    "LastChanged": "2002-06-30T12:15:28.4866132+02:00",
     "ChildItems": [
       {
-        "Id": 498,
-        "Name": "DuBuque LLC",
-        "ToolTip": "In modi quis voluptatem culpa architecto.",
+        "Id": 703,
+        "Name": "Borer, Parker and Hahn",
+        "ToolTip": "Est ipsa unde et ipsam.",
         "Deleted": false,
-        "Rank": 798,
-        "Type": "aut",
-        "ColorBlock": 814,
-        "IconHint": "odio",
+        "Rank": 243,
+        "Type": "natus",
+        "ColorBlock": 572,
+        "IconHint": "nesciunt",
         "Selected": true,
-        "LastChanged": "2017-08-22T14:19:11.6120888+02:00",
+        "LastChanged": "1997-10-02T12:15:28.4866132+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "enim",
+        "ExtraInfo": "aut",
+        "StyleHint": "perferendis",
         "Hidden": false,
-        "FullName": "Cordie Rosenbaum",
+        "FullName": "Mekhi Lynch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 165
+            "FieldLength": 694
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "temporibus",
+    "ExtraInfo": "similique",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Gladyce Legros",
+    "FullName": "Johan O'Keefe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 918
+        "FieldType": "System.String",
+        "FieldLength": 376
       }
     }
   }

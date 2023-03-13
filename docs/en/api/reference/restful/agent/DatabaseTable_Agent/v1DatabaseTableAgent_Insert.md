@@ -81,13 +81,13 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Will Group",
+  "TableName": "Runolfsdottir, Wehner and Terry",
   "Columns": [
-    "voluptas",
+    "cumque",
     "qui"
   ],
   "Data": [
@@ -108,41 +108,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "odio",
-  "Inserts": 264,
-  "Updates": 67,
-  "Deletes": 556,
+  "Success": false,
+  "Message": "qui",
+  "Inserts": 390,
+  "Updates": 714,
+  "Deletes": 528,
   "RowStatus": [
     {
-      "PrimaryKey": 491,
+      "PrimaryKey": 691,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "labore",
-        "et"
+        "sed",
+        "facere"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 757
+          "FieldType": "System.Int32",
+          "FieldLength": 877
         }
       }
     },
     {
-      "PrimaryKey": 491,
+      "PrimaryKey": 691,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "labore",
-        "et"
+        "sed",
+        "facere"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 757
+          "FieldType": "System.Int32",
+          "FieldLength": 877
         }
       }
     }
@@ -151,8 +151,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 150
+      "FieldType": "System.String",
+      "FieldLength": 198
     }
   }
 }

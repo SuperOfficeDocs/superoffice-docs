@@ -108,47 +108,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 798,
-  "Name": "Greenholt Inc and Sons",
-  "Tooltip": "consequuntur",
-  "Rank": 701,
+  "SaleTypeId": 358,
+  "Name": "Ondricka, Sporer and Bahringer",
+  "Tooltip": "praesentium",
+  "Rank": 682,
   "DurationUnit": "Century",
-  "SaleDuration": 698,
-  "SaleTypeCatId": 845,
+  "SaleDuration": 437,
+  "SaleTypeCatId": 400,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 344,
-  "QuoteLinesTemplate": 648,
-  "ConfirmationLinesTemplate": 498,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 463,
-  "MinEarningPercent": 693,
-  "GroupQuoteLinesBy": 197,
-  "SortGroupLinesBy": 643,
+  "DefaultQuoteValidity": 55,
+  "QuoteLinesTemplate": 833,
+  "ConfirmationLinesTemplate": 294,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 983,
+  "MinEarningPercent": 53,
+  "GroupQuoteLinesBy": 674,
+  "SortGroupLinesBy": 992,
   "Stages": [
     {
-      "Id": 150,
-      "Name": "Ziemann-Will",
-      "ToolTip": "Esse aperiam itaque dicta aut et.",
-      "Deleted": true,
-      "Rank": 33,
-      "Type": "officia",
-      "ColorBlock": 372,
-      "IconHint": "impedit",
+      "Id": 932,
+      "Name": "Aufderhar, Hammes and McDermott",
+      "ToolTip": "Molestiae odio possimus animi blanditiis incidunt quia.",
+      "Deleted": false,
+      "Rank": 730,
+      "Type": "dolor",
+      "ColorBlock": 583,
+      "IconHint": "dolores",
       "Selected": false,
-      "LastChanged": "1996-04-23T14:19:03.6863742+02:00",
+      "LastChanged": "1997-06-06T12:15:19.3387502+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ab",
-      "StyleHint": "rerum",
-      "Hidden": true,
-      "FullName": "Ms. Glennie Leilani Carroll"
+      "ExtraInfo": "tenetur",
+      "StyleHint": "natus",
+      "Hidden": false,
+      "FullName": "Ms. Lavinia Bergnaum DDS"
     }
   ]
 }
@@ -161,53 +161,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 773,
-  "Name": "Heaney Inc and Sons",
-  "Tooltip": "aut",
-  "Rank": 834,
+  "SaleTypeId": 11,
+  "Name": "Weimann Inc and Sons",
+  "Tooltip": "cum",
+  "Rank": 829,
   "DurationUnit": "Century",
-  "SaleDuration": 111,
-  "SaleTypeCatId": 182,
+  "SaleDuration": 521,
+  "SaleTypeCatId": 847,
   "Deleted": true,
-  "HasGuide": false,
-  "HasStakeholders": false,
+  "HasGuide": true,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 985,
-  "QuoteLinesTemplate": 520,
-  "ConfirmationLinesTemplate": 388,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 61,
+  "QuoteLinesTemplate": 142,
+  "ConfirmationLinesTemplate": 887,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 952,
-  "MinEarningPercent": 148,
-  "GroupQuoteLinesBy": 42,
-  "SortGroupLinesBy": 403,
+  "MaxDiscountPercent": 483,
+  "MinEarningPercent": 254,
+  "GroupQuoteLinesBy": 565,
+  "SortGroupLinesBy": 145,
   "Stages": [
     {
-      "Id": 23,
-      "Name": "Koch-Reichert",
-      "ToolTip": "Earum repudiandae enim aut occaecati corporis sunt.",
+      "Id": 369,
+      "Name": "Mohr-Hammes",
+      "ToolTip": "Dolore nemo aut magni similique voluptas maxime.",
       "Deleted": false,
-      "Rank": 448,
-      "Type": "non",
-      "ColorBlock": 836,
-      "IconHint": "sunt",
-      "Selected": true,
-      "LastChanged": "2009-02-04T14:19:03.6863742+01:00",
+      "Rank": 885,
+      "Type": "qui",
+      "ColorBlock": 118,
+      "IconHint": "ut",
+      "Selected": false,
+      "LastChanged": "2015-10-20T12:15:19.3397458+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "dolores",
+      "ExtraInfo": "tempore",
+      "StyleHint": "cupiditate",
       "Hidden": false,
-      "FullName": "Vernice Langworth",
+      "FullName": "Mariah Funk",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 77
+          "FieldType": "System.String",
+          "FieldLength": 204
         }
       }
     }
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 901
+      "FieldType": "System.Int32",
+      "FieldLength": 263
     }
   }
 }

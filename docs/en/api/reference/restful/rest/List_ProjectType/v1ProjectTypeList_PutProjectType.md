@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 183,
-  "Name": "Ondricka LLC",
-  "Tooltip": "eaque",
-  "Deleted": false,
-  "UdListDefinitionId": 591,
-  "Rank": 62
+  "Id": 215,
+  "Name": "Schimmel-Schultz",
+  "Tooltip": "atque",
+  "Deleted": true,
+  "UdListDefinitionId": 1002,
+  "Rank": 344
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 543,
-  "Name": "Lowe Group",
-  "Tooltip": "numquam",
+  "Id": 201,
+  "Name": "Kemmer-Schamberger",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 93,
-  "Rank": 207,
+  "UdListDefinitionId": 264,
+  "Rank": 574,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldType": "System.String",
+      "FieldLength": 86
     }
   }
 }

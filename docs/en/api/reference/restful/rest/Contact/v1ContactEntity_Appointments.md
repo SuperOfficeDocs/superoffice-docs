@@ -73,14 +73,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Appointments?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Appointments?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Appointments?$orderBy=name asc
-GET /api/v1/Contact/{id}/Appointments?$entities=sit
-GET /api/v1/Contact/{id}/Appointments?$top=998
-GET /api/v1/Contact/{id}/Appointments?$skip=511
+GET /api/v1/Contact/{id}/Appointments?$entities=laborum
+GET /api/v1/Contact/{id}/Appointments?$top=185
+GET /api/v1/Contact/{id}/Appointments?$skip=163
 GET /api/v1/Contact/{id}/Appointments?$mode=Full
 GET /api/v1/Contact/{id}/Appointments?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Appointments?$context=aperiam
+GET /api/v1/Contact/{id}/Appointments?$context=dolore
 GET /api/v1/Contact/{id}/Appointments?$format=JSON
-GET /api/v1/Contact/{id}/Appointments?$jsonSafe=True
+GET /api/v1/Contact/{id}/Appointments?$jsonSafe=False
 GET /api/v1/Contact/{id}/Appointments?$output=Display
 ```
 
@@ -122,7 +122,7 @@ OK
 GET /api/v1/Contact/{id}/Appointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -133,19 +133,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "nostrum",
+  "odata.nextLink": "tempora",
   "value": [
     {
-      "PrimaryKey": 7944,
-      "EntityName": "person",
-      "personId": 7944,
-      "fullName": "Edward VonRueden"
+      "PrimaryKey": 9258,
+      "EntityName": "sale",
+      "saleId": 9258,
+      "contactId": 7747,
+      "name": "Jacobs Group"
     },
     {
-      "PrimaryKey": 1655,
-      "EntityName": "person",
-      "personId": 1655,
-      "fullName": "Citlalli Lizeth Schulist Sr."
+      "PrimaryKey": 6977,
+      "EntityName": "sale",
+      "saleId": 6977,
+      "contactId": 4494,
+      "name": "Leffler-Cummerata"
     }
   ]
 }

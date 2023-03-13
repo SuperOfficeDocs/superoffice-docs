@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 246,
-    "Name": "Beier, Keeling and Powlowski",
-    "Tooltip": "qui",
+    "HeadingId": 251,
+    "Name": "Haag, Schiller and Larson",
+    "Tooltip": "dolorem",
     "Deleted": false,
-    "Rank": 215,
-    "UdListDefinitionId": 920,
+    "Rank": 753,
+    "UdListDefinitionId": 433,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 520
+        "FieldLength": 238
       }
     }
   }

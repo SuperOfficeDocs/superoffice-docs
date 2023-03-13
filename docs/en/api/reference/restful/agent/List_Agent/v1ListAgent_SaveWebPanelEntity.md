@@ -102,30 +102,30 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 691,
-  "Name": "Gerhold, Grant and King",
-  "Tooltip": "nisi",
+  "WebPanelId": 735,
+  "Name": "Stehr-Mante",
+  "Tooltip": "culpa",
   "Deleted": false,
-  "Rank": 517,
+  "Rank": 289,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Schultz-Emmerich",
+  "ShowInStatusBar": true,
+  "WindowName": "Christiansen LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "id",
-  "Icon": 760,
+  "ProgId": "facere",
+  "Icon": 960,
   "AlwaysReloadOnShow": false
 }
 ```
@@ -137,33 +137,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 143,
-  "Name": "Turner-Smith",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 418,
+  "WebPanelId": 476,
+  "Name": "Bauch, Berge and Bahringer",
+  "Tooltip": "nihil",
+  "Deleted": false,
+  "Rank": 547,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": true,
+  "OnCentral": true,
+  "OnSatellite": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Cormier-Franecki",
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "WindowName": "Pacocha Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "omnis",
-  "Icon": 8,
+  "ProgId": "voluptatem",
+  "Icon": 904,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 648
+      "FieldType": "System.Int32",
+      "FieldLength": 570
     }
   }
 }

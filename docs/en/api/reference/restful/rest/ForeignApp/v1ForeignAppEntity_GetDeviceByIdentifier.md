@@ -76,24 +76,24 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 21 Oct 2018 14:19:10 G10T
+Last-Modified: Sun, 23 Nov 2014 12:15:26 G11T
 
 {
-  "ForeignDeviceId": 183,
-  "Name": "Kassulke, Howe and Jacobi",
-  "CreatedDate": "1999-08-23T14:19:10.3654771+02:00",
-  "UpdatedDate": "2018-10-21T14:19:10.3654771+02:00",
-  "AssociateFullName": "May Cormier",
-  "CreatedBy": "provident",
-  "UpdatedBy": "cupiditate",
-  "DeviceIdentifier": "velit",
-  "ForeignAppId": 199,
+  "ForeignDeviceId": 64,
+  "Name": "Keebler LLC",
+  "CreatedDate": "2015-11-07T12:15:26.9726437+01:00",
+  "UpdatedDate": "2014-11-23T12:15:26.9726437+01:00",
+  "AssociateFullName": "Prof. Rebekah Crist DDS",
+  "CreatedBy": "culpa",
+  "UpdatedBy": "non",
+  "DeviceIdentifier": "minima",
+  "ForeignAppId": 847,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldLength": 150
     }
   }
 }

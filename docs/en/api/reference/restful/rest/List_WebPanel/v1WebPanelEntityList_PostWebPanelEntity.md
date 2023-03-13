@@ -104,31 +104,31 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 192,
-  "Name": "Hintz-Batz",
-  "Tooltip": "eos",
-  "Deleted": true,
-  "Rank": 424,
+  "WebPanelId": 317,
+  "Name": "Corwin, Muller and Mohr",
+  "Tooltip": "sapiente",
+  "Deleted": false,
+  "Rank": 623,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": true,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Schaden Inc and Sons",
+  "WindowName": "Reilly, Langworth and Schultz",
   "Url": "http://www.example.com/",
-  "ProgId": "suscipit",
-  "Icon": 787,
-  "AlwaysReloadOnShow": false
+  "ProgId": "et",
+  "Icon": 259,
+  "AlwaysReloadOnShow": true
 }
 ```
 
@@ -139,11 +139,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 955,
-  "Name": "Dooley LLC",
-  "Tooltip": "sequi",
-  "Deleted": false,
-  "Rank": 605,
+  "WebPanelId": 880,
+  "Name": "Thompson Inc and Sons",
+  "Tooltip": "suscipit",
+  "Deleted": true,
+  "Rank": 469,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
@@ -152,20 +152,20 @@ Content-Type: application/json; charset=utf-8
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Macejkovic-Cummerata",
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "WindowName": "Turcotte-Torphy",
   "Url": "http://www.example.com/",
-  "ProgId": "est",
-  "Icon": 82,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "libero",
+  "Icon": 856,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 391
+      "FieldLength": 418
     }
   }
 }

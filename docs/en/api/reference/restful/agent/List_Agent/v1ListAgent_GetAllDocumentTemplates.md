@@ -96,11 +96,11 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 712,
-    "Name": "Lindgren-Franecki",
-    "Tooltip": "tempore",
-    "SaveInDb": 417,
-    "Filename": "laudantium",
-    "DefaultOref": "earum",
+    "DocumentTemplateId": 872,
+    "Name": "Rowe Group",
+    "Tooltip": "consequatur",
+    "SaveInDb": 496,
+    "Filename": "eveniet",
+    "DefaultOref": "eligendi",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 731,
-    "IntentId": 618,
+    "AutoeventId": 977,
+    "IntentId": 66,
     "IsDefaultPublished": false,
-    "Rank": 636,
-    "LoadTemplateFromPlugin": 582,
-    "MimeType": "repellendus",
-    "IsInUseInGuides": false,
-    "DocumentTypeKey": 357,
+    "Rank": 189,
+    "LoadTemplateFromPlugin": 928,
+    "MimeType": "dolor",
+    "IsInUseInGuides": true,
+    "DocumentTypeKey": 92,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "zita_greenfelder@beier.biz",
-    "IncludeSignature": true,
-    "ShowCurrents": false,
+    "EmailSubject": "santa@oconnellweissnat.uk",
+    "IncludeSignature": false,
+    "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "bessie@renner.us",
+    "SenderEmailAddress": "doyle.koelpin@starkpadberg.us",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 383
+        "FieldLength": 834
       }
     }
   }

@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 384,
-  "Name": "Zieme, Rath and Hickle",
-  "Tooltip": "commodi",
+  "Id": 948,
+  "Name": "Keebler Group",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 132,
+  "Rank": 492,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "eos",
+  "ListType": "aperiam",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 945,
-  "Name": "Konopelski LLC",
-  "Tooltip": "in",
-  "Deleted": true,
-  "Rank": 557,
+  "Id": 164,
+  "Name": "Herzog Inc and Sons",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 971,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequuntur",
+  "ListType": "tenetur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 293
+      "FieldLength": 988
     }
   }
 }

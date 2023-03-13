@@ -85,16 +85,16 @@ OK
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 531,
-  "Name": "Satterfield LLC",
-  "ContentType": "consequuntur",
-  "AttSize": 611,
+  "AttachmentId": 383,
+  "Name": "Buckridge, Schroeder and Glover",
+  "ContentType": "cumque",
+  "AttSize": 807,
   "InlineImage": false,
-  "ContentId": "modi"
+  "ContentId": "consequuntur"
 }
 ```
 
@@ -105,23 +105,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 312,
-  "Name": "Metz-Zboncak",
-  "ContentType": "ullam",
-  "AttSize": 199,
-  "InlineImage": false,
-  "ContentId": "aspernatur",
+  "AttachmentId": 26,
+  "Name": "Christiansen, Williamson and Schuppe",
+  "ContentType": "quod",
+  "AttSize": 384,
+  "InlineImage": true,
+  "ContentId": "veritatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 686
+      "FieldType": "System.String",
+      "FieldLength": 928
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

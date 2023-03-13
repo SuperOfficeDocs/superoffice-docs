@@ -80,16 +80,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 864,
-  "Name": "O'Kon, Grady and Beatty",
-  "Tooltip": "id",
+  "RoleId": 482,
+  "Name": "Olson-Mertz",
+  "Tooltip": "assumenda",
   "RoleType": "Anonymous",
-  "Deleted": 710,
-  "Rank": 147,
-  "Created": "2020-12-31T14:19:04.5484513+01:00",
-  "UseCategories": 46,
+  "Deleted": 964,
+  "Rank": 175,
+  "Created": "2014-02-14T12:15:20.5287292+01:00",
+  "UseCategories": 69,
   "CreatedBy": null,
-  "Updated": "2009-02-10T14:19:04.5484513+01:00",
+  "Updated": "2020-05-12T12:15:20.5297314+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 406
+      "FieldLength": 679
     }
   }
 }

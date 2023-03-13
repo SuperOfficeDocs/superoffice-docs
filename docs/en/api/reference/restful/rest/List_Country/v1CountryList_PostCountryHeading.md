@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 714,
-  "Name": "Beahan-Stoltenberg",
-  "Tooltip": "voluptates",
+  "HeadingId": 332,
+  "Name": "Armstrong-Jacobi",
+  "Tooltip": "aliquam",
   "Deleted": false,
-  "Rank": 488,
-  "UdListDefinitionId": 374
+  "Rank": 723,
+  "UdListDefinitionId": 985
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 504,
-  "Name": "Fahey LLC",
-  "Tooltip": "dolorem",
+  "HeadingId": 955,
+  "Name": "Lueilwitz-Veum",
+  "Tooltip": "sequi",
   "Deleted": false,
-  "Rank": 545,
-  "UdListDefinitionId": 391,
+  "Rank": 951,
+  "UdListDefinitionId": 30,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 340
+      "FieldType": "System.String",
+      "FieldLength": 379
     }
   }
 }

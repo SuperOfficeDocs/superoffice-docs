@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kuhic Group"
+  "ApplicationName": "Sawayn, Goldner and Harber"
 }
 ```
 
@@ -96,21 +96,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 87,
-    "Name": "Hettinger Group",
-    "CreatedDate": "2013-03-19T14:19:03.5602728+01:00",
-    "UpdatedDate": "1997-05-18T14:19:03.5602728+02:00",
-    "AssociateFullName": "Abigayle Grant",
-    "CreatedBy": "nemo",
-    "UpdatedBy": "sint",
-    "DeviceIdentifier": "explicabo",
-    "ForeignAppId": 959,
+    "ForeignDeviceId": 28,
+    "Name": "Schmeler-Kuhn",
+    "CreatedDate": "2000-12-01T12:15:19.1517506+01:00",
+    "UpdatedDate": "2013-07-22T12:15:19.1517506+02:00",
+    "AssociateFullName": "Claudine Fahey",
+    "CreatedBy": "sed",
+    "UpdatedBy": "voluptatem",
+    "DeviceIdentifier": "tenetur",
+    "ForeignAppId": 441,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 848
+        "FieldLength": 982
       }
     }
   }

@@ -91,30 +91,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 115,
-  "Name": "Hickle-Kilback",
-  "CurrencyId": 200,
-  "EnglishName": "Roob LLC",
+  "CountryId": 206,
+  "Name": "Ziemann-Miller",
+  "CurrencyId": 562,
+  "EnglishName": "Stamm LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Polarised incremental complexity",
-  "OrgNrText": "1355040",
-  "InterAreaPrefix": "atque",
-  "DialInPrefix": "et",
-  "ZipPrefix": "qui",
-  "DomainName": "Kautzer LLC",
-  "AddressLayoutId": 225,
-  "DomesticAddressLayoutId": 125,
-  "ForeignAddressLayoutId": 628,
-  "Rank": 845,
-  "Tooltip": "corporis",
-  "Deleted": true,
+  "ImageDescription": "Public-key context-sensitive Graphical User Interface",
+  "OrgNrText": "1530087",
+  "InterAreaPrefix": "aut",
+  "DialInPrefix": "qui",
+  "ZipPrefix": "enim",
+  "DomainName": "Rutherford-Windler",
+  "AddressLayoutId": 54,
+  "DomesticAddressLayoutId": 504,
+  "ForeignAddressLayoutId": 170,
+  "Rank": 121,
+  "Tooltip": "culpa",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 219
+      "FieldType": "System.Int32",
+      "FieldLength": 139
     }
   }
 }

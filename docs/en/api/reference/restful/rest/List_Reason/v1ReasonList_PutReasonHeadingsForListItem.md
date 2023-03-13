@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 209,
-    "Name": "Runte Inc and Sons",
-    "ToolTip": "Tenetur officia.",
+    "Id": 589,
+    "Name": "Medhurst-Upton",
+    "ToolTip": "Ipsam magnam non eligendi voluptates.",
     "Deleted": false,
-    "Rank": 541,
-    "Type": "qui",
-    "ColorBlock": 506,
-    "IconHint": "debitis",
+    "Rank": 137,
+    "Type": "porro",
+    "ColorBlock": 684,
+    "IconHint": "minus",
     "Selected": false,
-    "LastChanged": "2008-10-27T14:19:11.4557858+01:00",
+    "LastChanged": "2003-09-22T12:15:28.4246148+02:00",
     "ChildItems": [
       {
-        "Id": 498,
-        "Name": "Fahey Inc and Sons",
-        "ToolTip": "Omnis itaque dignissimos.",
+        "Id": 67,
+        "Name": "Jenkins-McLaughlin",
+        "ToolTip": "Modi similique doloremque velit.",
         "Deleted": false,
-        "Rank": 749,
-        "Type": "distinctio",
-        "ColorBlock": 983,
-        "IconHint": "assumenda",
-        "Selected": false,
-        "LastChanged": "2000-04-04T14:19:11.4557858+02:00",
+        "Rank": 481,
+        "Type": "assumenda",
+        "ColorBlock": 75,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2019-02-08T12:15:28.4246148+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "nostrum",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "dolorum",
         "Hidden": false,
-        "FullName": "Warren Schoen"
+        "FullName": "Clare Greenfelder"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "nam",
+    "ExtraInfo": "sapiente",
+    "StyleHint": "debitis",
     "Hidden": false,
-    "FullName": "Delia Schroeder"
+    "FullName": "Mr. Delta Block DDS"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 449,
-    "Name": "Heaney-Lind",
-    "ToolTip": "Sint aliquam sed recusandae.",
-    "Deleted": false,
-    "Rank": 685,
-    "Type": "culpa",
-    "ColorBlock": 8,
-    "IconHint": "ab",
-    "Selected": true,
-    "LastChanged": "2012-11-13T14:19:11.4557858+01:00",
+    "Id": 471,
+    "Name": "Murphy, Feest and Kunde",
+    "ToolTip": "Rerum libero nesciunt.",
+    "Deleted": true,
+    "Rank": 978,
+    "Type": "non",
+    "ColorBlock": 514,
+    "IconHint": "aperiam",
+    "Selected": false,
+    "LastChanged": "2020-06-24T12:15:28.4256179+02:00",
     "ChildItems": [
       {
-        "Id": 858,
-        "Name": "Jakubowski Inc and Sons",
-        "ToolTip": "Eos aut molestiae sit et unde inventore pariatur.",
+        "Id": 536,
+        "Name": "Simonis-Franecki",
+        "ToolTip": "Architecto velit minima.",
         "Deleted": false,
-        "Rank": 393,
-        "Type": "maxime",
-        "ColorBlock": 626,
-        "IconHint": "consequatur",
-        "Selected": false,
-        "LastChanged": "2022-04-22T14:19:11.4557858+02:00",
+        "Rank": 226,
+        "Type": "officia",
+        "ColorBlock": 997,
+        "IconHint": "optio",
+        "Selected": true,
+        "LastChanged": "1997-03-02T12:15:28.4256179+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "hic",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "doloribus",
         "Hidden": false,
-        "FullName": "Prof. Clark Marty Corwin Jr.",
+        "FullName": "Frank Brekke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 514
+            "FieldType": "System.String",
+            "FieldLength": 218
           }
         }
       }
     ],
-    "ExtraInfo": "maiores",
+    "ExtraInfo": "provident",
     "StyleHint": "possimus",
-    "Hidden": false,
-    "FullName": "Edgardo Windler",
+    "Hidden": true,
+    "FullName": "Vance Bradtke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 750
+        "FieldLength": 396
       }
     }
   }

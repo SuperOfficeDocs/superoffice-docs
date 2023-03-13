@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 300
+  "ContactId": 615
 }
 ```
 
@@ -127,52 +127,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "deserunt",
-    "PersonId": 238,
-    "Mrmrs": "dolores",
-    "Firstname": "Destin",
-    "Lastname": "Pacocha",
-    "MiddleName": "Beier-Skiles",
-    "Title": "in",
-    "Description": "Right-sized value-added hierarchy",
-    "Email": "emmanuelle@swaniawskibogan.biz",
-    "FullName": "Cydney Kiehn",
-    "DirectPhone": "(085)452-8210",
-    "FormalName": "Gleichner, Bode and Marquardt",
-    "CountryId": 189,
-    "ContactId": 546,
-    "ContactName": "Kshlerin Inc and Sons",
-    "Retired": 829,
-    "Rank": 566,
-    "ActiveInterests": 602,
+    "Position": "est",
+    "PersonId": 968,
+    "Mrmrs": "nobis",
+    "Firstname": "Katheryn",
+    "Lastname": "Goodwin",
+    "MiddleName": "Ziemann LLC",
+    "Title": "voluptatem",
+    "Description": "Exclusive dynamic moderator",
+    "Email": "mona@hirtheoberbrunner.biz",
+    "FullName": "Weston Parker",
+    "DirectPhone": "(483)893-1393",
+    "FormalName": "O'Keefe Inc and Sons",
+    "CountryId": 918,
+    "ContactId": 293,
+    "ContactName": "Roberts, Brekke and Schuster",
+    "Retired": 770,
+    "Rank": 71,
+    "ActiveInterests": 55,
     "ContactDepartment": "",
-    "ContactCountryId": 279,
-    "ContactOrgNr": "452732",
-    "FaxPhone": "(381)311-4862 x8506",
-    "MobilePhone": "1-362-253-0790",
-    "ContactPhone": "597.838.6227",
-    "AssociateName": "Hane-Rodriguez",
-    "AssociateId": 816,
+    "ContactCountryId": 127,
+    "ContactOrgNr": "539373",
+    "FaxPhone": "(665)044-1905 x42274",
+    "MobilePhone": "(802)860-1834 x8443",
+    "ContactPhone": "1-413-884-6682 x0633",
+    "AssociateName": "Corkery Inc and Sons",
+    "AssociateId": 194,
     "UsePersonAddress": true,
-    "ContactFax": "et",
-    "Kanafname": "qui",
-    "Kanalname": "eaque",
-    "Post1": "explicabo",
-    "Post2": "amet",
-    "Post3": "qui",
-    "EmailName": "ibrahim@schumm.com",
-    "ContactFullName": "Russ Schuster",
-    "ActiveErpLinks": 758,
-    "TicketPriorityId": 47,
-    "SupportLanguageId": 420,
-    "SupportAssociateId": 895,
+    "ContactFax": "eum",
+    "Kanafname": "debitis",
+    "Kanalname": "sit",
+    "Post1": "voluptatem",
+    "Post2": "dolorum",
+    "Post3": "sed",
+    "EmailName": "juana@lockman.uk",
+    "ContactFullName": "Dr. Demetris Auer Sr.",
+    "ActiveErpLinks": 471,
+    "TicketPriorityId": 939,
+    "SupportLanguageId": 858,
+    "SupportAssociateId": 442,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 942
+        "FieldType": "System.Int32",
+        "FieldLength": 637
       }
     }
   }

@@ -71,7 +71,7 @@ OK
 GET /api/v1/Preference/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,50 +82,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 238,
-    "Name": "Stroman-Ondricka",
-    "ToolTip": "Odio dolor doloremque enim odit consequatur quia dolore.",
+    "Id": 725,
+    "Name": "Wisoky Group",
+    "ToolTip": "Accusantium exercitationem.",
     "Deleted": false,
-    "Rank": 669,
-    "Type": "temporibus",
+    "Rank": 362,
+    "Type": "quasi",
     "ChildItems": [
       {
-        "Id": 972,
-        "Name": "Gorczany LLC",
-        "ToolTip": "Aspernatur nam quam.",
+        "Id": 862,
+        "Name": "Haag, Berge and Kuhlman",
+        "ToolTip": "Similique perspiciatis ut et nam temporibus illum.",
         "Deleted": false,
-        "Rank": 213,
-        "Type": "esse",
+        "Rank": 786,
+        "Type": "dolor",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ipsa",
-        "ColorBlock": 826,
-        "ExtraInfo": "rerum",
-        "StyleHint": "optio",
-        "FullName": "Chasity O'Hara",
+        "IconHint": "consequatur",
+        "ColorBlock": 373,
+        "ExtraInfo": "voluptas",
+        "StyleHint": "culpa",
+        "FullName": "Mr. Neva Vance Bradtke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 834
+            "FieldType": "System.Int32",
+            "FieldLength": 375
           }
         }
       }
     ],
-    "IconHint": "consectetur",
-    "ColorBlock": 568,
-    "ExtraInfo": "id",
-    "StyleHint": "quia",
-    "FullName": "Blanche Daugherty",
+    "IconHint": "autem",
+    "ColorBlock": 692,
+    "ExtraInfo": "et",
+    "StyleHint": "dicta",
+    "FullName": "Ezequiel Howe Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 454
+        "FieldType": "System.Int32",
+        "FieldLength": 161
       }
     }
   }

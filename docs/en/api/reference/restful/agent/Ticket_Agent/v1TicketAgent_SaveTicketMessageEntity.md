@@ -114,68 +114,68 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 738,
+  "EjMessageId": 946,
   "Ticket": null,
-  "CreatedAt": "2004-09-04T14:19:04.3922008+02:00",
+  "CreatedAt": "2007-03-30T12:15:20.2997324+02:00",
   "CreatedBy": null,
-  "Author": "ipsam",
+  "Author": "maiores",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 333,
-  "Body": "vel",
-  "HtmlBody": "quisquam",
-  "EmailHeader": "icie@hilllbayer.ca",
-  "DebugInfo": "eaque",
-  "MailSorter": "ut",
+  "MessageId": "dolores",
+  "TimeSpent": 424,
+  "Body": "nobis",
+  "HtmlBody": "voluptas",
+  "EmailHeader": "lilliana@bergstrom.biz",
+  "DebugInfo": "eum",
+  "MailSorter": "repudiandae",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "soluta",
+  "SearchTitle": "est",
   "MessageHeaders": [
     {
-      "Id": 383,
-      "Name": "Gerlach LLC",
-      "Value": "aut",
+      "Id": 382,
+      "Name": "Adams-Waelchi",
+      "Value": "assumenda",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 383,
-      "Name": "Gerlach LLC",
-      "Value": "aut",
+      "Id": 382,
+      "Name": "Adams-Waelchi",
+      "Value": "assumenda",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "necessitatibus",
-  "Sentiment": 860,
-  "SentimentConfidence": 496,
+  "Language": "ullam",
+  "Sentiment": 472,
+  "SentimentConfidence": 122,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 592,
-      "Name": "Hessel Group",
-      "ContentType": "perspiciatis",
-      "AttSize": 445,
-      "InlineImage": false,
-      "ContentId": "qui"
+      "AttachmentId": 247,
+      "Name": "Abernathy Group",
+      "ContentType": "cumque",
+      "AttSize": 479,
+      "InlineImage": true,
+      "ContentId": "non"
     },
     {
-      "AttachmentId": 592,
-      "Name": "Hessel Group",
-      "ContentType": "perspiciatis",
-      "AttSize": 445,
-      "InlineImage": false,
-      "ContentId": "qui"
+      "AttachmentId": 247,
+      "Name": "Abernathy Group",
+      "ContentType": "cumque",
+      "AttSize": 479,
+      "InlineImage": true,
+      "ContentId": "non"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "at",
+    "ExtraFields1": "eum",
     "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "explicabo",
-    "CustomFields2": "optio"
+    "CustomFields1": "a",
+    "CustomFields2": "est"
   }
 }
 ```
@@ -187,28 +187,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 364,
+  "EjMessageId": 333,
   "Ticket": null,
-  "CreatedAt": "2008-11-05T14:19:04.3922008+01:00",
+  "CreatedAt": "2004-01-23T12:15:20.3067318+01:00",
   "CreatedBy": null,
-  "Author": "porro",
+  "Author": "incidunt",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "vel",
-  "TimeSpent": 728,
-  "Body": "distinctio",
-  "HtmlBody": "blanditiis",
-  "EmailHeader": "sylvester_white@willterry.info",
-  "DebugInfo": "unde",
-  "MailSorter": "sit",
+  "MessageId": "ut",
+  "TimeSpent": 315,
+  "Body": "recusandae",
+  "HtmlBody": "consectetur",
+  "EmailHeader": "keshawn.padberg@emmerich.co.uk",
+  "DebugInfo": "alias",
+  "MailSorter": "dolor",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptates",
+  "SearchTitle": "consequatur",
   "MessageHeaders": [
     {
-      "Id": 666,
-      "Name": "Beier Group",
-      "Value": "molestiae",
+      "Id": 930,
+      "Name": "Grady Group",
+      "Value": "tempora",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -216,47 +216,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 334
+          "FieldLength": 813
         }
       }
     }
   ],
   "Important": false,
-  "Language": "quo",
-  "Sentiment": 108,
-  "SentimentConfidence": 934,
+  "Language": "eum",
+  "Sentiment": 205,
+  "SentimentConfidence": 790,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 727,
-      "Name": "Harris, Batz and Hansen",
-      "ContentType": "soluta",
-      "AttSize": 16,
+      "AttachmentId": 426,
+      "Name": "Reilly, Champlin and Hirthe",
+      "ContentType": "quia",
+      "AttSize": 425,
       "InlineImage": false,
-      "ContentId": "minus",
+      "ContentId": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 290
+          "FieldLength": 509
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "consequuntur",
-    "ExtraFields2": "unde"
+    "ExtraFields1": "non",
+    "ExtraFields2": "ratione"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "velit"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "minus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 10
+      "FieldLength": 686
     }
   }
 }

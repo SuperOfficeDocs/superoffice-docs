@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,28 +90,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 744,
+  "EjMessageId": 243,
   "Ticket": null,
-  "CreatedAt": "2001-12-12T14:19:04.3922008+01:00",
+  "CreatedAt": "2017-07-28T12:15:20.295732+02:00",
   "CreatedBy": null,
-  "Author": "est",
+  "Author": "corrupti",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "eos",
-  "TimeSpent": 30,
-  "Body": "pariatur",
-  "HtmlBody": "omnis",
-  "EmailHeader": "loyce@hackettdenesik.us",
-  "DebugInfo": "beatae",
-  "MailSorter": "sunt",
+  "MessageId": "ipsum",
+  "TimeSpent": 980,
+  "Body": "aut",
+  "HtmlBody": "magnam",
+  "EmailHeader": "daniela@ratke.com",
+  "DebugInfo": "rerum",
+  "MailSorter": "nisi",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "odio",
+  "SearchTitle": "labore",
   "MessageHeaders": [
     {
-      "Id": 701,
-      "Name": "Baumbach-Fritsch",
-      "Value": "debitis",
+      "Id": 505,
+      "Name": "Daugherty-Kuphal",
+      "Value": "quisquam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -119,47 +119,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 305
+          "FieldLength": 607
         }
       }
     }
   ],
   "Important": false,
-  "Language": "quo",
-  "Sentiment": 806,
-  "SentimentConfidence": 277,
+  "Language": "quos",
+  "Sentiment": 393,
+  "SentimentConfidence": 908,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 976,
-      "Name": "Mosciski, Brown and Jones",
-      "ContentType": "sint",
-      "AttSize": 920,
-      "InlineImage": false,
-      "ContentId": "reiciendis",
+      "AttachmentId": 539,
+      "Name": "Miller-Yost",
+      "ContentType": "sequi",
+      "AttSize": 964,
+      "InlineImage": true,
+      "ContentId": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 918
+          "FieldType": "System.String",
+          "FieldLength": 82
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "magnam",
-    "ExtraFields2": "est"
+    "ExtraFields1": "non",
+    "ExtraFields2": "sapiente"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "exercitationem"
+    "CustomFields1": "voluptatum",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 41
+      "FieldType": "System.String",
+      "FieldLength": 768
     }
   }
 }

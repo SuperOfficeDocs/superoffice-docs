@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/EMail/FindAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Address": "maxime"
+  "Address": "aperiam"
 }
 ```
 
@@ -98,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 925,
-    "ContactName": "Franecki Inc and Sons",
-    "PersonId": 604,
-    "PersonName": "Runolfsson-Lindgren",
-    "AssociateId": 476,
-    "Address": "ad",
-    "EmailId": 87,
+    "ContactId": 857,
+    "ContactName": "Hammes-Lindgren",
+    "PersonId": 616,
+    "PersonName": "Fisher, Wilkinson and Nader",
+    "AssociateId": 811,
+    "Address": "deserunt",
+    "EmailId": 45,
     "DuplicatePersonIds": [
-      210,
-      655
+      4,
+      349
     ],
-    "Name": "Collier-Mills",
+    "Name": "Nicolas-Hartmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1001
+        "FieldLength": 454
       }
     }
   }

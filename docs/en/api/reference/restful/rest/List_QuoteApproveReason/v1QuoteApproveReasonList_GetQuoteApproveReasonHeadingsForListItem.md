@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 901,
-    "Name": "Ryan, Renner and Schneider",
-    "ToolTip": "Et deleniti magnam pariatur.",
-    "Deleted": false,
-    "Rank": 591,
-    "Type": "incidunt",
-    "ColorBlock": 394,
-    "IconHint": "dolore",
+    "Id": 611,
+    "Name": "Abernathy, Wiza and Kuhic",
+    "ToolTip": "Doloremque ducimus aspernatur aut eius.",
+    "Deleted": true,
+    "Rank": 538,
+    "Type": "ducimus",
+    "ColorBlock": 770,
+    "IconHint": "fuga",
     "Selected": false,
-    "LastChanged": "2007-04-04T14:19:11.430529+02:00",
+    "LastChanged": "2020-04-22T12:15:28.370615+02:00",
     "ChildItems": [
       {
-        "Id": 601,
-        "Name": "Goodwin-Koch",
-        "ToolTip": "Magni quibusdam voluptate et aliquam sed.",
+        "Id": 880,
+        "Name": "Crona Inc and Sons",
+        "ToolTip": "In inventore.",
         "Deleted": true,
-        "Rank": 430,
-        "Type": "omnis",
-        "ColorBlock": 610,
-        "IconHint": "eius",
+        "Rank": 236,
+        "Type": "eos",
+        "ColorBlock": 345,
+        "IconHint": "commodi",
         "Selected": false,
-        "LastChanged": "2015-07-19T14:19:11.430529+02:00",
+        "LastChanged": "2014-12-14T12:15:28.370615+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "et",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "sunt",
         "Hidden": true,
-        "FullName": "Leta Ratke",
+        "FullName": "Wilber Lueilwitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 91
+            "FieldLength": 440
           }
         }
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Miss Cathrine Bashirian",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "totam",
+    "Hidden": true,
+    "FullName": "Novella Morissette",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 134
+        "FieldLength": 605
       }
     }
   }

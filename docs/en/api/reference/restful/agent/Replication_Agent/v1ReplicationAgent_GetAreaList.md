@@ -87,18 +87,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 29,
-    "Name": "Koch-Greenholt",
-    "MaxDataAge": 461,
-    "NumberOfUsers": 535,
-    "NumberOfLogins": 264,
+    "AreaId": 656,
+    "Name": "Torphy, Robel and Ernser",
+    "MaxDataAge": 796,
+    "NumberOfUsers": 625,
+    "NumberOfLogins": 697,
     "FreetextEnabeled": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 919
+        "FieldLength": 542
       }
     }
   }

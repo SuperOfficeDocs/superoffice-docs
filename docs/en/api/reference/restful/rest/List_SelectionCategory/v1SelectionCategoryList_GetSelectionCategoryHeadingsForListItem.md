@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 731,
-    "Name": "Schmeler-Leannon",
-    "ToolTip": "Ullam nihil minima et minus.",
+    "Id": 552,
+    "Name": "Bauch Inc and Sons",
+    "ToolTip": "Unde voluptates est et similique.",
     "Deleted": false,
-    "Rank": 609,
-    "Type": "ipsam",
-    "ColorBlock": 863,
-    "IconHint": "unde",
+    "Rank": 740,
+    "Type": "ducimus",
+    "ColorBlock": 765,
+    "IconHint": "enim",
     "Selected": false,
-    "LastChanged": "2022-03-12T14:19:11.6120888+01:00",
+    "LastChanged": "2022-03-06T12:15:28.5026155+01:00",
     "ChildItems": [
       {
-        "Id": 949,
-        "Name": "Kemmer, Considine and Keeling",
-        "ToolTip": "Eos dolore id laudantium itaque eos.",
-        "Deleted": true,
-        "Rank": 871,
-        "Type": "ea",
-        "ColorBlock": 226,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2003-02-22T14:19:11.6120888+01:00",
+        "Id": 600,
+        "Name": "Tillman, Quitzon and Runolfsson",
+        "ToolTip": "Itaque amet voluptas ea recusandae praesentium.",
+        "Deleted": false,
+        "Rank": 363,
+        "Type": "molestiae",
+        "ColorBlock": 322,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2007-02-18T12:15:28.5026155+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "soluta",
-        "Hidden": false,
-        "FullName": "Tremayne Edward Okuneva I",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Breanne D'Amore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 463
+            "FieldType": "System.Int32",
+            "FieldLength": 648
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "asperiores",
+    "ExtraInfo": "quaerat",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Prof. Rae Hadley Connelly Jr.",
+    "FullName": "Hermann Treutel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 748
+        "FieldLength": 879
       }
     }
   }

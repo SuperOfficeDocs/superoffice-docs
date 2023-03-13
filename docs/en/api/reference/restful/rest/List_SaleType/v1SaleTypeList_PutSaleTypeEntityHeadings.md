@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 691,
-    "Name": "Nitzsche-Konopelski",
-    "Tooltip": "sed",
+    "HeadingId": 433,
+    "Name": "Stroman-Ortiz",
+    "Tooltip": "ratione",
     "Deleted": false,
-    "Rank": 6,
-    "UdListDefinitionId": 186
+    "Rank": 413,
+    "UdListDefinitionId": 170
   },
   {
-    "HeadingId": 691,
-    "Name": "Nitzsche-Konopelski",
-    "Tooltip": "sed",
+    "HeadingId": 433,
+    "Name": "Stroman-Ortiz",
+    "Tooltip": "ratione",
     "Deleted": false,
-    "Rank": 6,
-    "UdListDefinitionId": 186
+    "Rank": 413,
+    "UdListDefinitionId": 170
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 249,
-    "Name": "Friesen Inc and Sons",
-    "Tooltip": "nihil",
+    "HeadingId": 527,
+    "Name": "Schumm-Johnson",
+    "Tooltip": "dicta",
     "Deleted": false,
-    "Rank": 683,
-    "UdListDefinitionId": 41,
+    "Rank": 111,
+    "UdListDefinitionId": 859,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 476
+        "FieldLength": 931
       }
     }
   }

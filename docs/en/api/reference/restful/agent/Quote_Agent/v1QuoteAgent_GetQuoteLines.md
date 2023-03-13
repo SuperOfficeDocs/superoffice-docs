@@ -124,7 +124,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 142
+  "QuoteAlternativeId": 221
 }
 ```
 
@@ -136,88 +136,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 664,
-    "ERPQuoteLineKey": "rerum",
-    "QuoteAlternativeId": 290,
-    "ERPProductKey": "quaerat",
+    "QuoteLineId": 348,
+    "ERPQuoteLineKey": "eos",
+    "QuoteAlternativeId": 126,
+    "ERPProductKey": "qui",
     "Status": "Error",
-    "Reason": "matrix interactive e-commerce",
-    "Quantity": 30622.314,
-    "DeliveredQuantity": 24464.004,
-    "Rank": 568,
-    "Name": "Marquardt, Baumbach and Hartmann",
-    "Description": "Persistent non-volatile structure",
-    "Code": "aut",
-    "QuantityUnit": "sunt",
-    "PriceUnit": "nemo",
-    "ItemNumber": "251044",
+    "Reason": "",
+    "Quantity": 5638.066,
+    "DeliveredQuantity": 6133.2379999999994,
+    "Rank": 741,
+    "Name": "Deckow Group",
+    "Description": "Digitized solution-oriented approach",
+    "Code": "molestias",
+    "QuantityUnit": "itaque",
+    "PriceUnit": "fugiat",
+    "ItemNumber": "62891",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "qui",
-    "ProductTypeKey": "ut",
-    "Supplier": "amet",
-    "SupplierCode": "iure",
-    "Thumbnail": "vel",
-    "VATInfo": "aut",
-    "VAT": 31302.392,
-    "UnitCost": 8029.308,
-    "UnitMinimumPrice": 25394.802,
-    "UnitListPrice": 382.348,
+    "ProductFamilyKey": "tempore",
+    "ProductTypeKey": "consectetur",
+    "Supplier": "aut",
+    "SupplierCode": "incidunt",
+    "Thumbnail": "similique",
+    "VATInfo": "earum",
+    "VAT": 11943.673999999999,
+    "UnitCost": 12767.916,
+    "UnitMinimumPrice": 11266.73,
+    "UnitListPrice": 14720.398,
     "ExtraInfo": [
       {
-        "Name": "Hagenes, Gorczany and Upton",
-        "Value": "dolores",
+        "Name": "Littel-Fay",
+        "Value": "ut",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 38
+            "FieldLength": 766
           }
         }
       },
       {
-        "Name": "Hagenes, Gorczany and Upton",
-        "Value": "dolores",
+        "Name": "Littel-Fay",
+        "Value": "ut",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 38
+            "FieldLength": 766
           }
         }
       }
     ],
-    "RawExtraInfo": "atque",
-    "IsSubscription": false,
-    "SubscriptionUnit": "magni",
-    "SubscriptionQuantity": 1708.03,
-    "SubscriptionStart": "2000-11-01T14:19:04.0469597+01:00",
-    "ERPDiscountPercent": 26360.074,
-    "ERPDiscountAmount": 2585.5499999999997,
-    "DiscountPercent": 24934.104,
-    "DiscountAmount": 11225.988,
+    "RawExtraInfo": "quis",
+    "IsSubscription": true,
+    "SubscriptionUnit": "quasi",
+    "SubscriptionQuantity": 21254.788,
+    "SubscriptionStart": "2012-10-23T12:15:19.9737366+02:00",
+    "ERPDiscountPercent": 27751.57,
+    "ERPDiscountAmount": 5531.51,
+    "DiscountPercent": 10163.562,
+    "DiscountAmount": 9414.536,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 12821.194,
-    "EarningAmount": 19857.023999999998,
-    "SubTotal": 20696.935999999998,
-    "TotalPrice": 1560.732,
-    "Rights": "officiis",
-    "Rule": "corporis",
-    "ExtraField1": "saepe",
-    "ExtraField2": "saepe",
-    "ExtraField3": "maxime",
-    "ExtraField4": "vel",
-    "ExtraField5": "consequatur",
+    "EarningPercent": 23680.504,
+    "EarningAmount": 18221.076,
+    "SubTotal": 7903.9479999999994,
+    "TotalPrice": 12761.648,
+    "Rights": "tenetur",
+    "Rule": "voluptatibus",
+    "ExtraField1": "aut",
+    "ExtraField2": "cumque",
+    "ExtraField3": "rem",
+    "ExtraField4": "iure",
+    "ExtraField5": "id",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 464
+        "FieldType": "System.Int32",
+        "FieldLength": 140
       }
     }
   }

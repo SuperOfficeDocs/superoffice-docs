@@ -25,7 +25,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=451
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=788
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,28 +88,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 589,
-  "Name": "Luettgen Group",
-  "Description": "Polarised background open system",
-  "DeltaJson": "error",
+  "ConfigurableScreenDeltaId": 962,
+  "Name": "Grant, Considine and Schamberger",
+  "Description": "Open-source systematic core",
+  "DeltaJson": "distinctio",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "itaque",
-  "UpdatedDate": "2006-10-05T14:19:02.916778+02:00",
-  "CreatedDate": "2000-07-05T14:19:02.916778+02:00",
+  "RecipeId": "voluptates",
+  "UpdatedDate": "2020-02-06T12:15:18.4217598+01:00",
+  "CreatedDate": "2018-05-02T12:15:18.4217598+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    221,
-    931
+    467,
+    860
   ],
-  "AppliesToKey": "soluta",
+  "AppliesToKey": "rem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 678
+      "FieldLength": 962
     }
   }
 }

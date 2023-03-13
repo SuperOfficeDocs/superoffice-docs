@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
 {
   "DocumentEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "OverwriteExistingData": true
+  "OverwriteExistingData": false
 }
 ```
 
@@ -126,88 +126,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 35,
+  "DocumentId": 145,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "beatae",
-  "Header": "voluptas",
-  "Name": "Bernhard-Mante",
-  "OurRef": "enim",
-  "YourRef": "harum",
-  "CreatedDate": "2010-04-23T14:19:03.291782+02:00",
-  "UpdatedDate": "2014-07-12T14:19:03.291782+02:00",
-  "Description": "Quality-focused 3rd generation internet solution",
+  "Attention": "labore",
+  "Header": "nisi",
+  "Name": "Quitzon-Bashirian",
+  "OurRef": "aperiam",
+  "YourRef": "tempore",
+  "CreatedDate": "2020-12-24T12:15:18.7987619+01:00",
+  "UpdatedDate": "2002-03-04T12:15:18.7987619+01:00",
+  "Description": "Customizable fresh-thinking support",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-11-12T14:19:03.291782+01:00",
-  "ExternalRef": "inventore",
+  "Date": "2005-08-16T12:15:18.8017575+02:00",
+  "ExternalRef": "earum",
   "Completed": "Completed",
-  "ActiveLinks": 253,
+  "ActiveLinks": 933,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Purdy-Murray",
-      "Id": 617,
-      "Description": "Realigned user-facing capability",
-      "ExtraInfo": "nemo",
-      "LinkId": 78,
+      "EntityName": "West, McKenzie and Thompson",
+      "Id": 632,
+      "Description": "Self-enabling explicit knowledge base",
+      "ExtraInfo": "aut",
+      "LinkId": 175,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 860
+          "FieldType": "System.Int32",
+          "FieldLength": 710
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 467,
-  "Snum": 82,
+  "SuggestedDocumentId": 4,
+  "Snum": 52,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
+    "SuperOffice:1": "Ronaldo Hodkiewicz",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "laboriosam"
+    "ExtraFields1": "nostrum",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "expedita",
-    "CustomFields2": "quos"
+    "CustomFields1": "aut",
+    "CustomFields2": "occaecati"
   },
-  "PublishEventDate": "2008-12-27T14:19:03.291782+01:00",
-  "PublishTo": "2010-12-05T14:19:03.291782+01:00",
-  "PublishFrom": "1995-11-01T14:19:03.291782+01:00",
+  "PublishEventDate": "2000-11-13T12:15:18.8027539+01:00",
+  "PublishTo": "2017-04-03T12:15:18.8027539+02:00",
+  "PublishFrom": "1995-11-04T12:15:18.8027539+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 632,
+      "VisibleId": 181,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "magnam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 853
+          "FieldLength": 639
         }
       }
     },
     {
-      "VisibleId": 632,
+      "VisibleId": 181,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "magnam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 853
+          "FieldLength": 639
         }
       }
     }
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldType": "System.String",
+      "FieldLength": 947
     }
   }
 }

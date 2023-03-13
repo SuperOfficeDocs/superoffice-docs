@@ -25,8 +25,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=fugit
+GET /api/v1/List/DeliveryType/MDOItems?flat=True
+GET /api/v1/List/DeliveryType/MDOItems?query=exercitationem
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 916,
-    "Name": "Kilback LLC",
-    "ToolTip": "Qui fuga eum quisquam.",
-    "Deleted": false,
-    "Rank": 871,
-    "Type": "voluptatem",
+    "Id": 296,
+    "Name": "Hyatt Group",
+    "ToolTip": "Dolores amet dolor consequatur ducimus aperiam non quas.",
+    "Deleted": true,
+    "Rank": 453,
+    "Type": "corrupti",
     "ChildItems": [
       {
-        "Id": 199,
-        "Name": "Hodkiewicz-Mann",
-        "ToolTip": "Animi iste perspiciatis.",
-        "Deleted": false,
-        "Rank": 151,
-        "Type": "et",
+        "Id": 758,
+        "Name": "Jerde-Bins",
+        "ToolTip": "Quo eaque rem.",
+        "Deleted": true,
+        "Rank": 43,
+        "Type": "ullam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "placeat",
-        "ColorBlock": 317,
-        "ExtraInfo": "in",
-        "StyleHint": "ullam",
-        "FullName": "Miss Israel Vern Marvin III",
+        "IconHint": "sed",
+        "ColorBlock": 222,
+        "ExtraInfo": "sit",
+        "StyleHint": "mollitia",
+        "FullName": "Dr. Luther Desiree Kunze V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 870
+            "FieldType": "System.String",
+            "FieldLength": 90
           }
         }
       }
     ],
-    "IconHint": "provident",
-    "ColorBlock": 570,
-    "ExtraInfo": "sequi",
-    "StyleHint": "quisquam",
-    "FullName": "Kayleigh Welch",
+    "IconHint": "harum",
+    "ColorBlock": 840,
+    "ExtraInfo": "et",
+    "StyleHint": "rerum",
+    "FullName": "Mrs. Raul Konopelski II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 582
+        "FieldType": "System.Int32",
+        "FieldLength": 591
       }
     }
   }

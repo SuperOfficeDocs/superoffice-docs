@@ -74,7 +74,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 759,
-  "Name": "Kihn, Mills and Feeney",
-  "Description": "Down-sized scalable encryption",
-  "DefaultHeight": 261,
-  "DefaultWidth": 869,
+  "DashboardTileDefinitionId": 330,
+  "Name": "Walsh, Pfannerstill and Dach",
+  "Description": "Synergized upward-trending methodology",
+  "DefaultHeight": 822,
+  "DefaultWidth": 536,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Goodwin, Willms and Hagenes",
-  "SelectionId": 319,
+  "EntityName": "Daniel LLC",
+  "SelectionId": 645,
   "CurrencyMode": "Base",
-  "CurrencyCode": "est",
+  "CurrencyCode": "aut",
   "Measure": "Average",
-  "MeasureField": "quidem",
-  "SortBy": "quod",
-  "LayoutConfig": "exercitationem",
-  "SecondarySelectionId": 516,
-  "MeasureByField": "quod",
+  "MeasureField": "ut",
+  "SortBy": "nisi",
+  "LayoutConfig": "distinctio",
+  "SecondarySelectionId": 1000,
+  "MeasureByField": "est",
   "Usage": "Dashboard",
-  "ProviderName": "Wolf LLC",
+  "ProviderName": "Bednar, Spinka and Koepp",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 167
+      "FieldType": "System.String",
+      "FieldLength": 845
     }
   }
 }

@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 835,
-    "Name": "Nienow, Stroman and Terry",
-    "Tooltip": "ut",
+    "HeadingId": 518,
+    "Name": "Jast-Murazik",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 652,
-    "UdListDefinitionId": 125,
+    "Rank": 769,
+    "UdListDefinitionId": 599,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 774
+        "FieldLength": 569
       }
     }
   }

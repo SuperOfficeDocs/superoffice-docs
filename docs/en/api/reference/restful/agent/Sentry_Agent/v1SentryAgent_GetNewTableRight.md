@@ -75,7 +75,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Stoltenberg, Wilkinson and Koch"
+  "TableName": "Runte LLC"
 }
 ```
 

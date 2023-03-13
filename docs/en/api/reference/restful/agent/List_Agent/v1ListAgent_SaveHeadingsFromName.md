@@ -78,27 +78,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Dicki-Bayer",
+  "Name": "Steuber LLC",
   "Entities": [
     {
-      "HeadingId": 866,
-      "Name": "Rau LLC",
-      "Tooltip": "hic",
+      "HeadingId": 710,
+      "Name": "Thompson-Towne",
+      "Tooltip": "error",
       "Deleted": true,
-      "Rank": 224,
-      "UdListDefinitionId": 634
+      "Rank": 422,
+      "UdListDefinitionId": 274
     },
     {
-      "HeadingId": 866,
-      "Name": "Rau LLC",
-      "Tooltip": "hic",
+      "HeadingId": 710,
+      "Name": "Thompson-Towne",
+      "Tooltip": "error",
       "Deleted": true,
-      "Rank": 224,
-      "UdListDefinitionId": 634
+      "Rank": 422,
+      "UdListDefinitionId": 274
     }
   ]
 }
@@ -112,18 +112,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 289,
-    "Name": "Friesen Group",
-    "Tooltip": "ex",
-    "Deleted": false,
-    "Rank": 260,
-    "UdListDefinitionId": 436,
+    "HeadingId": 374,
+    "Name": "Robel, Stark and Harris",
+    "Tooltip": "eos",
+    "Deleted": true,
+    "Rank": 639,
+    "UdListDefinitionId": 724,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 533
+        "FieldLength": 229
       }
     }
   }

@@ -76,29 +76,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gutmann, Bednar and Brown",
-    "Operator": "autem",
+    "Name": "Gislason, Heaney and Hackett",
+    "Operator": "sequi",
     "Values": [
-      "dolorem",
-      "rerum"
+      "rem",
+      "temporibus"
     ],
     "DisplayValues": [
-      "est",
-      "magnam"
+      "earum",
+      "illo"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Zulauf LLC",
-        "Operator": "incidunt",
+        "Name": "Balistreri, Bednar and Greenfelder",
+        "Operator": "facere",
         "Values": [
-          "rerum",
-          "voluptas"
+          "qui",
+          "ab"
         ],
         "DisplayValues": [
-          "incidunt",
-          "qui"
+          "veritatis",
+          "sint"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -106,14 +106,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 947,
+        "InterParenthesis": 838,
         "InterOperator": "And",
-        "UniqueHash": 145
+        "UniqueHash": 407
       }
     ],
-    "InterParenthesis": 157,
+    "InterParenthesis": 545,
     "InterOperator": "And",
-    "UniqueHash": 379
+    "UniqueHash": 547
   }
 ]
 ```

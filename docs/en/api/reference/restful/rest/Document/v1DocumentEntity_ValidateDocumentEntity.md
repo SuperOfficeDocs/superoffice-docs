@@ -90,77 +90,77 @@ OK
 POST /api/v1/Document/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 657,
+  "DocumentId": 167,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "veniam",
-  "Header": "et",
-  "Name": "Willms, Murazik and Fisher",
-  "OurRef": "itaque",
-  "YourRef": "veritatis",
-  "CreatedDate": "2005-08-10T14:19:10.3342217+02:00",
-  "UpdatedDate": "2008-08-14T14:19:10.3342217+02:00",
-  "Description": "Extended assymetric Graphic Interface",
+  "Attention": "iure",
+  "Header": "tempore",
+  "Name": "Roberts-Kuhic",
+  "OurRef": "repellendus",
+  "YourRef": "non",
+  "CreatedDate": "2021-06-25T12:15:26.9236388+02:00",
+  "UpdatedDate": "2022-04-23T12:15:26.9236388+02:00",
+  "Description": "Synergized foreground neural-net",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2004-07-09T14:19:10.3342217+02:00",
-  "ExternalRef": "maiores",
+  "Date": "1998-07-10T12:15:26.9286367+02:00",
+  "ExternalRef": "fuga",
   "Completed": "Completed",
-  "ActiveLinks": 378,
+  "ActiveLinks": 192,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hodkiewicz-Gutkowski",
-      "Id": 904,
-      "Description": "Universal secondary local area network",
-      "ExtraInfo": "occaecati",
-      "LinkId": 543
+      "EntityName": "Kohler Inc and Sons",
+      "Id": 163,
+      "Description": "Open-source didactic help-desk",
+      "ExtraInfo": "culpa",
+      "LinkId": 615
     },
     {
-      "EntityName": "Hodkiewicz-Gutkowski",
-      "Id": 904,
-      "Description": "Universal secondary local area network",
-      "ExtraInfo": "occaecati",
-      "LinkId": 543
+      "EntityName": "Kohler Inc and Sons",
+      "Id": 163,
+      "Description": "Open-source didactic help-desk",
+      "ExtraInfo": "culpa",
+      "LinkId": 615
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 108,
-  "Snum": 932,
+  "SuggestedDocumentId": 81,
+  "Snum": 448,
   "UserDefinedFields": {
-    "SuperOffice:1": "Norma Kamron O'Conner V",
-    "SuperOffice:2": "Prof. Piper Borer DDS"
+    "SuperOffice:1": "Geoffrey Huel",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "necessitatibus",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "assumenda",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "quisquam",
-    "CustomFields2": "et"
+    "CustomFields1": "debitis",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "1996-04-28T14:19:10.3342217+02:00",
-  "PublishTo": "2007-10-28T14:19:10.3342217+01:00",
-  "PublishFrom": "2011-04-05T14:19:10.3342217+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2015-11-23T12:15:26.9286367+01:00",
+  "PublishTo": "2005-09-01T12:15:26.9286367+02:00",
+  "PublishFrom": "2001-12-09T12:15:26.9286367+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 109,
+      "VisibleId": 638,
       "Visibility": "All",
-      "DisplayValue": "harum"
+      "DisplayValue": "dolorem"
     },
     {
-      "VisibleId": 109,
+      "VisibleId": 638,
       "Visibility": "All",
-      "DisplayValue": "harum"
+      "DisplayValue": "dolorem"
     }
   ]
 }
@@ -173,7 +173,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "occaecati",
-  "2": "asperiores"
+  "1": "labore",
+  "2": "voluptas"
 }
 ```

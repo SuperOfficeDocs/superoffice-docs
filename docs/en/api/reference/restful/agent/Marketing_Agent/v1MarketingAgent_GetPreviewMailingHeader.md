@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 325
+  "ShipmentId": 939
 }
 ```
 
@@ -101,27 +101,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2020-02-23T14:19:03.7176242+01:00",
+  "StartDate": "2011-09-17T12:15:19.3727483+02:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 576,
-  "ShipmentDescription": "Automated content-based groupware",
-  "FromAddress": "recusandae",
-  "PersonId": 327,
-  "PersonFullName": "Dr. Reva Schaden V",
-  "ShipmentType": "necessitatibus",
-  "MessageId": 142,
-  "MessageSubject": "et",
-  "DocumentMessageId": 588,
-  "NumSent": 44,
-  "NumOpened": 586,
-  "NumBounced": 941,
-  "NumClicks": 922,
+  "ShipmentId": 951,
+  "ShipmentDescription": "Synchronised mission-critical Graphic Interface",
+  "FromAddress": "vel",
+  "PersonId": 763,
+  "PersonFullName": "Olga August Hane IV",
+  "ShipmentType": "dolores",
+  "MessageId": 945,
+  "MessageSubject": "cupiditate",
+  "DocumentMessageId": 963,
+  "NumSent": 928,
+  "NumOpened": 575,
+  "NumBounced": 122,
+  "NumClicks": 32,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 805
+      "FieldLength": 244
     }
   }
 }

@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 560,
-    "Name": "Leuschke Inc and Sons",
-    "Tooltip": "fugiat",
-    "Deleted": false,
-    "Rank": 52,
-    "UdListDefinitionId": 77,
+    "HeadingId": 888,
+    "Name": "Kuhic-Klocko",
+    "Tooltip": "natus",
+    "Deleted": true,
+    "Rank": 961,
+    "UdListDefinitionId": 248,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 248
+        "FieldLength": 280
       }
     }
   }

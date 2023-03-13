@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 654,
-    "Name": "Schamberger, Kozey and Heaney",
-    "ToolTip": "Aut quos quasi laboriosam rerum.",
-    "Deleted": false,
-    "Rank": 435,
-    "Type": "qui",
-    "ColorBlock": 751,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2016-05-08T14:19:03.5769906+02:00",
+    "Id": 85,
+    "Name": "Lindgren Group",
+    "ToolTip": "Veritatis maiores deleniti porro nisi possimus.",
+    "Deleted": true,
+    "Rank": 982,
+    "Type": "ut",
+    "ColorBlock": 357,
+    "IconHint": "rem",
+    "Selected": false,
+    "LastChanged": "1999-03-23T12:15:19.1877513+01:00",
     "ChildItems": [
       {
-        "Id": 563,
-        "Name": "Kreiger Group",
-        "ToolTip": "Qui ut incidunt.",
+        "Id": 875,
+        "Name": "Flatley Group",
+        "ToolTip": "Et dolor repudiandae ea inventore explicabo ut.",
         "Deleted": false,
-        "Rank": 460,
-        "Type": "reiciendis",
-        "ColorBlock": 22,
-        "IconHint": "quaerat",
+        "Rank": 642,
+        "Type": "perspiciatis",
+        "ColorBlock": 590,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2012-12-01T14:19:03.5769906+01:00",
+        "LastChanged": "2009-01-01T12:15:19.1887489+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "nobis",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "dolorum",
         "Hidden": true,
-        "FullName": "Rita Strosin",
+        "FullName": "Mollie Wolf",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 105
+            "FieldLength": 806
           }
         }
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "similique",
+    "StyleHint": "earum",
     "Hidden": false,
-    "FullName": "Destiny Prosacco Sr.",
+    "FullName": "Miss Garett Wiza",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 59
+        "FieldLength": 880
       }
     }
   }

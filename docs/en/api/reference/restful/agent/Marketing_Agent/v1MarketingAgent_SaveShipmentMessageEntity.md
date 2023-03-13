@@ -102,31 +102,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 12,
-  "PlainMessage": "dolor",
-  "HtmlMessage": "eveniet",
-  "SmsMessage": "voluptatem",
-  "Description": "Cross-platform full-range infrastructure",
-  "Subject": "animi",
-  "FolderId": 644,
-  "HeaderField": "quia",
-  "Design": "harum",
+  "ShipmentMessageId": 192,
+  "PlainMessage": "enim",
+  "HtmlMessage": "tempora",
+  "SmsMessage": "tempore",
+  "Description": "Inverse composite service-desk",
+  "Subject": "id",
+  "FolderId": 68,
+  "HeaderField": "et",
+  "Design": "aperiam",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Future-proofed impactful core",
-  "AccessKey": "accusamus",
-  "DocumentMessage": 800,
-  "Registered": "2011-03-21T14:19:03.7176242+01:00",
-  "RegisteredAssociateId": 960,
-  "Updated": "2014-10-12T14:19:03.7176242+02:00",
-  "UpdatedAssociateId": 136,
-  "UpdatedCount": 6
+  "LongDescription": "Multi-layered multi-tasking software",
+  "AccessKey": "a",
+  "DocumentMessage": 861,
+  "Registered": "2000-09-06T12:15:19.3687519+02:00",
+  "RegisteredAssociateId": 630,
+  "Updated": "2000-01-17T12:15:19.3687519+01:00",
+  "UpdatedAssociateId": 757,
+  "UpdatedCount": 603
 }
 ```
 
@@ -137,33 +137,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 840,
-  "PlainMessage": "ut",
-  "HtmlMessage": "quia",
-  "SmsMessage": "est",
-  "Description": "Operative directional groupware",
-  "Subject": "voluptas",
-  "FolderId": 595,
-  "HeaderField": "dolorem",
-  "Design": "dignissimos",
+  "ShipmentMessageId": 438,
+  "PlainMessage": "sint",
+  "HtmlMessage": "aliquid",
+  "SmsMessage": "repellat",
+  "Description": "Open-source multi-tasking instruction set",
+  "Subject": "sed",
+  "FolderId": 471,
+  "HeaderField": "mollitia",
+  "Design": "fugiat",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Persevering regional contingency",
-  "AccessKey": "et",
-  "DocumentMessage": 756,
-  "Registered": "2011-02-20T14:19:03.7176242+01:00",
-  "RegisteredAssociateId": 984,
-  "Updated": "2017-02-05T14:19:03.7176242+01:00",
-  "UpdatedAssociateId": 331,
-  "UpdatedCount": 734,
+  "RegisterViews": true,
+  "InlineImages": true,
+  "LongDescription": "Virtual web-enabled customer loyalty",
+  "AccessKey": "accusamus",
+  "DocumentMessage": 109,
+  "Registered": "1998-12-04T12:15:19.3687519+01:00",
+  "RegisteredAssociateId": 898,
+  "Updated": "2021-06-23T12:15:19.3687519+02:00",
+  "UpdatedAssociateId": 429,
+  "UpdatedCount": 553,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 188
+      "FieldType": "System.Int32",
+      "FieldLength": 818
     }
   }
 }

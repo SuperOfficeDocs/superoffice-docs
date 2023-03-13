@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 217,
-    "Name": "Schultz, Becker and Shanahan",
-    "ToolTip": "Eveniet quia quis consequatur corrupti eaque.",
-    "Deleted": true,
-    "Rank": 816,
-    "Type": "unde",
-    "ColorBlock": 31,
-    "IconHint": "debitis",
-    "Selected": false,
-    "LastChanged": "2007-11-23T14:19:11.1480931+01:00",
+    "Id": 549,
+    "Name": "Nolan-Dach",
+    "ToolTip": "Voluptas nesciunt in cupiditate dolorem minima.",
+    "Deleted": false,
+    "Rank": 857,
+    "Type": "rerum",
+    "ColorBlock": 406,
+    "IconHint": "aspernatur",
+    "Selected": true,
+    "LastChanged": "2021-09-12T12:15:27.8946226+02:00",
     "ChildItems": [
       {
-        "Id": 563,
-        "Name": "Gerhold-Friesen",
-        "ToolTip": "Soluta qui labore.",
-        "Deleted": false,
-        "Rank": 952,
-        "Type": "soluta",
-        "ColorBlock": 419,
-        "IconHint": "quaerat",
+        "Id": 245,
+        "Name": "Hansen, Nader and Beer",
+        "ToolTip": "A ex autem maxime.",
+        "Deleted": true,
+        "Rank": 428,
+        "Type": "amet",
+        "ColorBlock": 249,
+        "IconHint": "dignissimos",
         "Selected": false,
-        "LastChanged": "1996-08-28T14:19:11.1480931+02:00",
+        "LastChanged": "2015-12-13T12:15:27.8956223+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "nulla",
-        "Hidden": false,
-        "FullName": "Ms. Liliana Quinton Ward V"
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "omnis",
+        "Hidden": true,
+        "FullName": "Virgil Schumm"
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "quam",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "corrupti",
     "Hidden": true,
-    "FullName": "Mr. Ryleigh Shayna Eichmann"
+    "FullName": "Freeda Gulgowski"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 78,
-    "Name": "Treutel-Gleason",
-    "ToolTip": "Rerum amet non commodi eaque modi.",
+    "Id": 35,
+    "Name": "Anderson-Muller",
+    "ToolTip": "Accusantium est sed rem ut et.",
     "Deleted": true,
-    "Rank": 909,
-    "Type": "sunt",
-    "ColorBlock": 152,
-    "IconHint": "qui",
+    "Rank": 740,
+    "Type": "beatae",
+    "ColorBlock": 242,
+    "IconHint": "amet",
     "Selected": true,
-    "LastChanged": "2005-12-29T14:19:11.1480931+01:00",
+    "LastChanged": "2004-03-03T12:15:27.8976228+01:00",
     "ChildItems": [
       {
-        "Id": 303,
-        "Name": "Bosco Group",
-        "ToolTip": "Delectus qui rerum repellat sit ut architecto nobis.",
+        "Id": 375,
+        "Name": "Medhurst, Greenfelder and Rosenbaum",
+        "ToolTip": "Earum voluptas alias occaecati aut itaque repudiandae et.",
         "Deleted": false,
-        "Rank": 330,
-        "Type": "illo",
-        "ColorBlock": 35,
-        "IconHint": "aut",
+        "Rank": 413,
+        "Type": "soluta",
+        "ColorBlock": 960,
+        "IconHint": "ullam",
         "Selected": true,
-        "LastChanged": "2010-07-24T14:19:11.1480931+02:00",
+        "LastChanged": "2008-03-26T12:15:27.8976228+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "aperiam",
+        "ExtraInfo": "non",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Ms. Martina Jeanette Emmerich",
+        "FullName": "Aron Keeling III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 376
+            "FieldLength": 388
           }
         }
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Miss Elisabeth Emmitt Rohan",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Myrtice Abe Denesik III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 409
+        "FieldType": "System.Int32",
+        "FieldLength": 913
       }
     }
   }

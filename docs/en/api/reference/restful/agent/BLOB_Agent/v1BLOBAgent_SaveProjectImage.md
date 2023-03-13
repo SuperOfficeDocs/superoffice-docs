@@ -68,7 +68,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Digitized non-volatile middleware",
+  "Description": "Universal fresh-thinking flexibility",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

@@ -88,32 +88,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 228,
-  "ListItemId": 894,
+  "UdListDefinitionId": 563,
+  "ListItemId": 106,
   "Headings": [
     {
-      "Id": 557,
-      "Name": "Cassin-Ward",
-      "ToolTip": "Dignissimos qui tempora consequatur modi sint temporibus.",
-      "Deleted": false,
-      "Rank": 136,
-      "Type": "possimus",
-      "ColorBlock": 851,
-      "IconHint": "sit",
+      "Id": 418,
+      "Name": "Cremin, Kuphal and Grant",
+      "ToolTip": "Commodi quia voluptate quasi modi amet molestiae commodi.",
+      "Deleted": true,
+      "Rank": 957,
+      "Type": "delectus",
+      "ColorBlock": 581,
+      "IconHint": "sunt",
       "Selected": true,
-      "LastChanged": "2007-06-22T14:19:03.6394986+02:00",
+      "LastChanged": "2008-10-01T12:15:19.2637486+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "omnis",
-      "StyleHint": "quas",
+      "ExtraInfo": "quo",
+      "StyleHint": "itaque",
       "Hidden": true,
-      "FullName": "Watson Doyle"
+      "FullName": "Michale Gleichner I"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 79,
-    "Name": "Nicolas-Bergstrom",
-    "ToolTip": "Accusamus aut et quaerat sequi minima quaerat.",
+    "Id": 559,
+    "Name": "Harvey-Boehm",
+    "ToolTip": "Ut possimus aut quia facere fugiat.",
     "Deleted": false,
-    "Rank": 978,
-    "Type": "sit",
-    "ColorBlock": 340,
-    "IconHint": "consequuntur",
-    "Selected": true,
-    "LastChanged": "1996-09-30T14:19:03.6394986+02:00",
+    "Rank": 588,
+    "Type": "laboriosam",
+    "ColorBlock": 348,
+    "IconHint": "vel",
+    "Selected": false,
+    "LastChanged": "1999-08-18T12:15:19.2647482+02:00",
     "ChildItems": [
       {
-        "Id": 897,
-        "Name": "Schaefer, Reichert and Nicolas",
-        "ToolTip": "Molestiae qui possimus et natus distinctio est.",
-        "Deleted": false,
-        "Rank": 401,
-        "Type": "officia",
-        "ColorBlock": 810,
-        "IconHint": "quasi",
-        "Selected": true,
-        "LastChanged": "2020-04-14T14:19:03.6394986+02:00",
+        "Id": 148,
+        "Name": "Windler, Raynor and Schoen",
+        "ToolTip": "Est est laboriosam facilis ut.",
+        "Deleted": true,
+        "Rank": 956,
+        "Type": "est",
+        "ColorBlock": 153,
+        "IconHint": "nostrum",
+        "Selected": false,
+        "LastChanged": "1997-01-07T12:15:19.2647482+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "voluptates",
-        "Hidden": false,
-        "FullName": "Lavon Armstrong",
+        "ExtraInfo": "saepe",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Taryn Conn DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 236
+            "FieldLength": 146
           }
         }
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "exercitationem",
+    "ExtraInfo": "id",
+    "StyleHint": "aliquid",
     "Hidden": false,
-    "FullName": "Burdette Collier",
+    "FullName": "Lane Lindgren",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 855
+        "FieldLength": 965
       }
     }
   }

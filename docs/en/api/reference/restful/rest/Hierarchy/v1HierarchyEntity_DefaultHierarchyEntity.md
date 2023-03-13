@@ -65,7 +65,7 @@ OK
 GET /api/v1/Hierarchy/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,46 +75,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 676,
+  "HierarchyId": 426,
   "Domain": "Dashboards",
-  "Name": "Gleason, Murazik and Quigley",
-  "Fullname": "dolores",
-  "ParentId": 575,
+  "Name": "Braun, Durgan and Cronin",
+  "Fullname": "temporibus",
+  "ParentId": 11,
   "Children": [
     {
-      "HierarchyId": 515,
+      "HierarchyId": 620,
       "Domain": "Dashboards",
-      "Name": "McCullough LLC",
-      "Fullname": "accusantium",
-      "ParentId": 844,
+      "Name": "Conn Group",
+      "Fullname": "quasi",
+      "ParentId": 747,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2005-08-04T14:19:10.3654771+02:00",
-      "RegisteredAssociateId": 902,
-      "Updated": "2007-05-05T14:19:10.3654771+02:00",
-      "UpdatedAssociateId": 758,
+      "Registered": "2006-12-15T12:15:26.9806378+01:00",
+      "RegisteredAssociateId": 930,
+      "Updated": "2001-06-25T12:15:26.9806378+02:00",
+      "UpdatedAssociateId": 349,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 263
+          "FieldType": "System.String",
+          "FieldLength": 604
         }
       }
     }
   ],
-  "Registered": "2010-12-11T14:19:10.3654771+01:00",
-  "RegisteredAssociateId": 161,
-  "Updated": "2005-12-19T14:19:10.3654771+01:00",
-  "UpdatedAssociateId": 408,
+  "Registered": "2002-04-21T12:15:26.9806378+02:00",
+  "RegisteredAssociateId": 291,
+  "Updated": "2005-07-17T12:15:26.9806378+02:00",
+  "UpdatedAssociateId": 884,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 199
+      "FieldType": "System.String",
+      "FieldLength": 868
     }
   }
 }

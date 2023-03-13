@@ -77,16 +77,16 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Runolfsson LLC",
-    "Metz-Toy"
+    "Kautzer, Lebsack and Johnston",
+    "Streich-Nader"
   ],
-  "Culture": "autem",
-  "ActiveOnly": true
+  "Culture": "id",
+  "ActiveOnly": false
 }
 ```
 
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Mueller-Bode",
-    "ResourceValue": "et",
-    "Culture": "voluptas",
+    "ResourceName": "Fadel-Weissnat",
+    "ResourceValue": "veniam",
+    "Culture": "laborum",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 789
+        "FieldType": "System.String",
+        "FieldLength": 255
       }
     }
   },
   {
-    "ResourceName": "Mueller-Bode",
-    "ResourceValue": "et",
-    "Culture": "voluptas",
+    "ResourceName": "Fadel-Weissnat",
+    "ResourceValue": "veniam",
+    "Culture": "laborum",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 789
+        "FieldType": "System.String",
+        "FieldLength": 255
       }
     }
   }

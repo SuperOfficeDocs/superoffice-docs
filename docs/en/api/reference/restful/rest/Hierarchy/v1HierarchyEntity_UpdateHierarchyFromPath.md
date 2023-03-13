@@ -18,7 +18,7 @@ Update a hierarchy item from a path
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
-| domain | Enum: Unknown, ExtraTables, ScreenDefinitions, Scripts, Selections, ExternalDocuments, UserGroups, ExternalDocumentRelatedToSpmMessage, Dashboards | Type of items to get **Required** |
+| domain | Enum: Unknown, ExtraTables, ScreenDefinitions, Scripts, Selections, ExternalDocuments, UserGroups, ExternalDocumentRelatedToSpmMessage, Dashboards, EmailFlows | Type of items to get **Required** |
 | path | string | Hierarchy path to item **Required** |
 
 
@@ -85,36 +85,36 @@ OK
 PUT /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 152,
+  "HierarchyId": 75,
   "Domain": "Dashboards",
-  "Name": "Jones, Hettinger and Langosh",
-  "Fullname": "sunt",
-  "ParentId": 453,
+  "Name": "Breitenberg-Weber",
+  "Fullname": "aperiam",
+  "ParentId": 662,
   "Children": [
     {
-      "HierarchyId": 365,
+      "HierarchyId": 673,
       "Domain": "Dashboards",
-      "Name": "Bruen-Morissette",
-      "Fullname": "autem",
-      "ParentId": 748,
+      "Name": "Tremblay, Marquardt and Mertz",
+      "Fullname": "qui",
+      "ParentId": 260,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-05-30T14:19:10.3654771+02:00",
-      "RegisteredAssociateId": 802,
-      "Updated": "1998-04-01T14:19:10.3654771+02:00",
-      "UpdatedAssociateId": 645
+      "Registered": "2022-06-22T12:15:26.986642+02:00",
+      "RegisteredAssociateId": 918,
+      "Updated": "2020-09-05T12:15:26.986642+02:00",
+      "UpdatedAssociateId": 53
     }
   ],
-  "Registered": "2001-12-01T14:19:10.3654771+01:00",
-  "RegisteredAssociateId": 81,
-  "Updated": "2001-07-12T14:19:10.3654771+02:00",
-  "UpdatedAssociateId": 592
+  "Registered": "2015-04-06T12:15:26.986642+02:00",
+  "RegisteredAssociateId": 699,
+  "Updated": "1999-03-18T12:15:26.986642+01:00",
+  "UpdatedAssociateId": 457
 }
 ```
 
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 677,
+  "HierarchyId": 129,
   "Domain": "Dashboards",
-  "Name": "Feeney LLC",
-  "Fullname": "ut",
-  "ParentId": 747,
+  "Name": "Crona-Kiehn",
+  "Fullname": "exercitationem",
+  "ParentId": 833,
   "Children": [
     {
-      "HierarchyId": 244,
+      "HierarchyId": 597,
       "Domain": "Dashboards",
-      "Name": "Smitham-Schultz",
-      "Fullname": "sit",
-      "ParentId": 406,
+      "Name": "Pouros-Jenkins",
+      "Fullname": "eveniet",
+      "ParentId": 999,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2020-05-04T14:19:10.3654771+02:00",
-      "RegisteredAssociateId": 643,
-      "Updated": "1997-08-26T14:19:10.3654771+02:00",
-      "UpdatedAssociateId": 885,
+      "Registered": "2010-05-05T12:15:26.986642+02:00",
+      "RegisteredAssociateId": 111,
+      "Updated": "2020-06-30T12:15:26.986642+02:00",
+      "UpdatedAssociateId": 5,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 572
+          "FieldType": "System.Int32",
+          "FieldLength": 153
         }
       }
     }
   ],
-  "Registered": "1997-01-24T14:19:10.3654771+01:00",
-  "RegisteredAssociateId": 631,
-  "Updated": "1997-04-29T14:19:10.3654771+02:00",
-  "UpdatedAssociateId": 254,
+  "Registered": "1998-05-30T12:15:26.986642+02:00",
+  "RegisteredAssociateId": 504,
+  "Updated": "2009-07-01T12:15:26.986642+02:00",
+  "UpdatedAssociateId": 360,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldLength": 556
     }
   }
 }

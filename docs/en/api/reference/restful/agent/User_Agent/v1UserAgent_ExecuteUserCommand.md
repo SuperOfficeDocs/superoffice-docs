@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CommandName": "Wintheiser-Shields",
+  "CommandName": "VonRueden-Kub",
   "ActionResult": "Cancel",
   "User": null
 }
@@ -86,14 +86,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "tempora",
+  "Message": "nihil",
   "Result": "Cancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 248
+      "FieldType": "System.String",
+      "FieldLength": 850
     }
   }
 }

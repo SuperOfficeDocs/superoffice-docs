@@ -66,7 +66,7 @@ OK
 GET /api/v1/Ticket/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Purdy LLC",
-    "DisplayName": "Wuckert Inc and Sons",
-    "Description": "Ameliorated background array",
-    "ShortLabel": "adipisci",
+    "FieldName": "Senger Inc and Sons",
+    "DisplayName": "Stamm-Spencer",
+    "Description": "Balanced non-volatile software",
+    "ShortLabel": "sed",
     "HideLabel": false,
-    "HideField": true,
+    "HideField": false,
     "IsIndexed": true,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 680,
-    "TemplateVariableName": "Grimes-Ledner"
+    "Rank": 215,
+    "TemplateVariableName": "Reichel-Kozey"
   }
 ]
 ```

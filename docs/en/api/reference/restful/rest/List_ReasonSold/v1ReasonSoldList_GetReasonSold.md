@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 528,
-  "Name": "Tillman Inc and Sons",
-  "Tooltip": "molestias",
-  "Deleted": false,
-  "UdListDefinitionId": 540,
-  "Rank": 656,
+  "Id": 554,
+  "Name": "Wiegand-Bahringer",
+  "Tooltip": "id",
+  "Deleted": true,
+  "UdListDefinitionId": 415,
+  "Rank": 985,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 844
+      "FieldType": "System.String",
+      "FieldLength": 196
     }
   }
 }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 106
+  "TicketMessageEntityId": 65
 }
 ```
 
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 385,
-    "Name": "Kiehn-Bins",
-    "ContentType": "quis",
-    "AttSize": 895,
+    "AttachmentId": 246,
+    "Name": "Beer Group",
+    "ContentType": "et",
+    "AttSize": 791,
     "InlineImage": false,
-    "ContentId": "sint",
+    "ContentId": "ex",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 938
+        "FieldLength": 458
       }
     }
   }

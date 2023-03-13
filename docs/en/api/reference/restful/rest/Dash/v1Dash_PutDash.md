@@ -102,34 +102,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 213,
-  "UniqueId": "non",
-  "Name": "Beer Inc and Sons",
-  "Description": "Future-proofed fresh-thinking core",
-  "AssociateId": 30,
-  "Columns": 449,
+  "DashboardId": 516,
+  "UniqueId": "velit",
+  "Name": "Tillman LLC",
+  "Description": "Balanced empowering open architecture",
+  "AssociateId": 728,
+  "Columns": 893,
   "Theme": null,
-  "VisibleForAll": 107,
+  "VisibleForAll": 305,
   "VisibleForAssociates": [
-    122,
-    693
+    464,
+    665
   ],
   "VisibleForGroups": [
-    840,
-    653
+    452,
+    444
   ],
-  "PinForAll": 498,
+  "PinForAll": 989,
   "PinForAssociates": [
-    709,
-    970
+    46,
+    723
   ],
   "PinForGroups": [
-    613,
-    83
+    173,
+    32
   ]
 }
 ```
@@ -141,37 +141,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 595,
-  "UniqueId": "deleniti",
-  "Name": "Klein Group",
-  "Description": "User-friendly local portal",
-  "AssociateId": 495,
-  "Columns": 952,
+  "DashboardId": 463,
+  "UniqueId": "aliquam",
+  "Name": "Rutherford-Schumm",
+  "Description": "Operative object-oriented archive",
+  "AssociateId": 103,
+  "Columns": 421,
   "Theme": null,
-  "VisibleForAll": 967,
+  "VisibleForAll": 341,
   "VisibleForAssociates": [
-    292,
-    947
+    675,
+    62
   ],
   "VisibleForGroups": [
-    708,
-    253
+    927,
+    179
   ],
-  "PinForAll": 517,
+  "PinForAll": 156,
   "PinForAssociates": [
-    950,
-    371
+    876,
+    725
   ],
   "PinForGroups": [
-    68,
-    977
+    398,
+    318
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 397
+      "FieldType": "System.String",
+      "FieldLength": 27
     }
   },
   "_Links": {

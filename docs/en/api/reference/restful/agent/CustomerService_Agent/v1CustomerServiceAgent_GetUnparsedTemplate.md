@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 347,
-  "LanguageId": 456
+  "ReplyTemplateId": 587,
+  "LanguageId": 184
 }
 ```
 
@@ -95,34 +95,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 902,
-  "PlainParsed": "dolor",
-  "HtmlParsed": "illum",
+  "ReplyTemplateId": 958,
+  "PlainParsed": "ea",
+  "HtmlParsed": "exercitationem",
   "Attachments": [
     {
-      "AttachmentId": 240,
-      "Name": "Lakin, Hansen and Lesch",
-      "ContentType": "accusamus",
-      "AttSize": 192,
+      "AttachmentId": 996,
+      "Name": "Russel-Koelpin",
+      "ContentType": "consequatur",
+      "AttSize": 396,
       "InlineImage": true,
-      "ContentId": "explicabo",
+      "ContentId": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 136
+          "FieldLength": 994
         }
       }
     }
   ],
-  "Subject": "nulla",
+  "Subject": "repellat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 524
+      "FieldType": "System.Int32",
+      "FieldLength": 971
     }
   }
 }

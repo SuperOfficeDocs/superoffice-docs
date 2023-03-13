@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "King Group",
+  "ProviderName": "Jast, Williamson and Upton",
   "Restrictions": [
     {
-      "Name": "Schaefer-Jenkins",
-      "Operator": "ut",
+      "Name": "Cruickshank Inc and Sons",
+      "Operator": "voluptatem",
       "Values": [
-        "enim",
-        "corporis"
+        "tempore",
+        "sequi"
       ],
       "DisplayValues": [
-        "exercitationem",
-        "quasi"
+        "sit",
+        "inventore"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 333,
+      "InterParenthesis": 726,
       "InterOperator": "And",
-      "UniqueHash": 57
+      "UniqueHash": 426
     }
   ]
 }
@@ -124,19 +124,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "McLaughlin Inc and Sons",
-    "DisplayTooltip": "ipsa",
-    "DisplayType": "eligendi",
-    "CanOrderBy": true,
-    "Name": "Berge LLC",
+    "DisplayName": "Prohaska, Fisher and Wolff",
+    "DisplayTooltip": "et",
+    "DisplayType": "doloremque",
+    "CanOrderBy": false,
+    "Name": "Kiehn, Kiehn and Beahan",
     "CanRestrictBy": false,
-    "RestrictionType": "ipsum",
-    "RestrictionListName": "Rosenbaum, Zulauf and Swaniawski",
-    "IsVisible": true,
-    "ExtraInfo": "error",
-    "Width": "modi",
-    "IconHint": "nostrum",
-    "HeadingIconHint": "qui"
+    "RestrictionType": "qui",
+    "RestrictionListName": "Leuschke-Abbott",
+    "IsVisible": false,
+    "ExtraInfo": "beatae",
+    "Width": "molestiae",
+    "IconHint": "eaque",
+    "HeadingIconHint": "facilis"
   }
 ]
 ```

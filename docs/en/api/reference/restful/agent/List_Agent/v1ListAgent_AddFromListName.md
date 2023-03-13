@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/AddFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Heidenreich-Effertz",
+  "UdListDefinitionName": "Wolff-Wisozk",
   "Item": null
 }
 ```
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 281,
-  "Name": "Gottlieb, Trantow and Bernier",
-  "Tooltip": "accusamus",
-  "Deleted": true,
-  "UdListDefinitionId": 858,
-  "Rank": 950,
+  "Id": 298,
+  "Name": "Wehner Inc and Sons",
+  "Tooltip": "cupiditate",
+  "Deleted": false,
+  "UdListDefinitionId": 121,
+  "Rank": 579,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 477
+      "FieldType": "System.String",
+      "FieldLength": 974
     }
   }
 }

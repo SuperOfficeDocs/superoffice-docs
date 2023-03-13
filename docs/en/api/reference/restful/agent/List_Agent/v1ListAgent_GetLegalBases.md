@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBases
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 194,
-    "Name": "Walter-Mertz",
-    "Tooltip": "sapiente",
-    "Rank": 499,
-    "Key": "assumenda",
+    "LegalBaseId": 724,
+    "Name": "Mills-Littel",
+    "Tooltip": "quisquam",
+    "Rank": 172,
+    "Key": "deserunt",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 467
+        "FieldLength": 424
       }
     }
   }

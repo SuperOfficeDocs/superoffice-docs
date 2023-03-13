@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,91 +78,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2012-09-14T14:19:02.7125533+02:00",
-  "ToDate": "2005-09-10T14:19:02.7125533+02:00",
+  "FromDate": "2003-06-09T12:15:18.142764+02:00",
+  "ToDate": "2016-01-02T12:15:18.142764+01:00",
   "AssociateList": [
     {
-      "Id": 872,
-      "Name": "Walker LLC",
-      "ToolTip": "Id fugit sed deleniti omnis.",
-      "Deleted": true,
-      "Rank": 585,
-      "Type": "occaecati",
-      "ColorBlock": 849,
-      "IconHint": "quia",
+      "Id": 685,
+      "Name": "Monahan-Gutkowski",
+      "ToolTip": "Ab laudantium quam.",
+      "Deleted": false,
+      "Rank": 109,
+      "Type": "est",
+      "ColorBlock": 499,
+      "IconHint": "totam",
       "Selected": false,
-      "LastChanged": "2006-07-27T14:19:02.7125533+02:00",
+      "LastChanged": "2002-06-15T12:15:18.142764+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "praesentium",
-      "StyleHint": "quam",
+      "ExtraInfo": "voluptas",
+      "StyleHint": "rem",
       "Hidden": false,
-      "FullName": "Ms. Emmalee Erica Graham IV",
+      "FullName": "Mrs. Ken Walker II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 270
+          "FieldType": "System.Int32",
+          "FieldLength": 860
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 256,
-      "Name": "Gibson, Schuppe and Reichert",
-      "ToolTip": "Dolorem inventore nesciunt nobis laboriosam rerum.",
+      "Id": 984,
+      "Name": "Jacobs Inc and Sons",
+      "ToolTip": "Qui inventore amet aut sit.",
       "Deleted": false,
-      "Rank": 610,
-      "Type": "illo",
-      "ColorBlock": 922,
-      "IconHint": "ullam",
+      "Rank": 843,
+      "Type": "voluptatem",
+      "ColorBlock": 402,
+      "IconHint": "consequuntur",
       "Selected": true,
-      "LastChanged": "2002-12-06T14:19:02.7125533+01:00",
+      "LastChanged": "2015-08-26T12:15:18.1437638+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nemo",
-      "StyleHint": "porro",
+      "ExtraInfo": "totam",
+      "StyleHint": "laborum",
       "Hidden": true,
-      "FullName": "Branson Wintheiser",
+      "FullName": "Lorenza Lockman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 441
+          "FieldLength": 248
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 464,
-      "Name": "Larson, O'Hara and Bernier",
-      "ToolTip": "Odit ipsum.",
+      "Id": 129,
+      "Name": "Schuppe-Ondricka",
+      "ToolTip": "Repellendus explicabo et consequatur unde saepe.",
       "Deleted": false,
-      "Rank": 97,
-      "Type": "molestiae",
+      "Rank": 347,
+      "Type": "ut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolores",
-      "ColorBlock": 589,
-      "ExtraInfo": "tenetur",
-      "StyleHint": "quidem",
-      "FullName": "River Collier",
+      "IconHint": "maxime",
+      "ColorBlock": 469,
+      "ExtraInfo": "delectus",
+      "StyleHint": "quia",
+      "FullName": "Rhett Celestine Dickinson III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 391
+          "FieldType": "System.Int32",
+          "FieldLength": 290
         }
       }
     }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 481
+      "FieldLength": 93
     }
   }
 }

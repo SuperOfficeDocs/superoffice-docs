@@ -64,32 +64,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 81,
+  "SaleId": 165,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Rowe, Howe and Boehm",
-      "Comment": "voluptatem",
-      "StakeholderRoleId": 231,
-      "CountryId": 960,
-      "PersonId": 636,
-      "EmailDescription": "janessa@jast.ca",
-      "EmailId": 576,
-      "EmailAddress": "lela@bodelittle.co.uk",
-      "PhoneId": 47,
-      "ContactName": "Abbott, Koch and Parisian",
-      "ContactId": 733,
+      "StakeholderRoleName": "McKenzie Inc and Sons",
+      "Comment": "amet",
+      "StakeholderRoleId": 559,
+      "CountryId": 216,
+      "PersonId": 633,
+      "EmailDescription": "pietro@powlowskimetz.uk",
+      "EmailId": 409,
+      "EmailAddress": "hassan@wilderman.com",
+      "PhoneId": 513,
+      "ContactName": "Streich LLC",
+      "ContactId": 389,
       "SaleId": 636,
-      "Mrmrs": "repellendus",
-      "Firstname": "Delores",
-      "MiddleName": "Wintheiser-Collins",
-      "Lastname": "Borer",
-      "SaleStakeholderId": 30,
-      "Rank": 159,
-      "Phone": "(819)048-5228"
+      "Mrmrs": "ut",
+      "Firstname": "Jadon",
+      "MiddleName": "Wiegand Inc and Sons",
+      "Lastname": "Hodkiewicz",
+      "SaleStakeholderId": 901,
+      "Rank": 910,
+      "Phone": "483.965.6275 x89190"
     }
   ]
 }

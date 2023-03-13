@@ -24,7 +24,7 @@ Gets all the SelectionCategory items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items?includeDeleted=True
+GET /api/v1/List/SelectionCategory/Items?includeDeleted=False
 ```
 
 
@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 867,
-    "Name": "Wintheiser, Raynor and Jast",
-    "Tooltip": "voluptatum",
-    "Deleted": true,
-    "UdListDefinitionId": 81,
-    "Rank": 923,
+    "Id": 332,
+    "Name": "Robel-Spencer",
+    "Tooltip": "officiis",
+    "Deleted": false,
+    "UdListDefinitionId": 318,
+    "Rank": 243,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 31
+        "FieldType": "System.String",
+        "FieldLength": 350
       }
     }
   }

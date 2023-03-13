@@ -95,7 +95,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 440,
-  "Name": "Corkery Group",
-  "AssociateId": 967,
-  "DetailsTable": 509,
-  "DetailsRecord": 412,
+  "Id": 945,
+  "Name": "Wiza LLC",
+  "AssociateId": 645,
+  "DetailsTable": 609,
+  "DetailsRecord": 561,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "tempore",
-    "ParameterObject2": "voluptatem"
+    "ParameterObject1": "sapiente",
+    "ParameterObject2": "et"
   },
-  "LastStarted": "2006-09-04T14:19:02.7594283+02:00",
-  "Created": "2012-05-20T14:19:02.7594283+02:00",
-  "StartCount": 911,
-  "DatabaseSerialNumber": "477188",
-  "Context": "earum",
-  "Result": "nihil",
+  "LastStarted": "1995-11-30T12:15:18.2057627+01:00",
+  "Created": "2018-07-29T12:15:18.2057627+02:00",
+  "StartCount": 918,
+  "DatabaseSerialNumber": "887898",
+  "Context": "non",
+  "Result": "dolorem",
   "State": "All",
-  "Description": "Monitored dynamic standardization",
-  "Response": "perferendis",
-  "Request": "atque",
-  "ProgressDescription": "Automated zero tolerance circuit",
-  "ProgressPercent": 40,
-  "FileName": "Erdman LLC",
+  "Description": "Streamlined bandwidth-monitored framework",
+  "Response": "eligendi",
+  "Request": "sed",
+  "ProgressDescription": "Phased motivating software",
+  "ProgressPercent": 736,
+  "FileName": "Wuckert, Barrows and Schmeler",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 550
+      "FieldLength": 372
     }
   }
 }

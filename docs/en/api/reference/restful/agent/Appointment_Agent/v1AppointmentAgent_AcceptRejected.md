@@ -127,11 +127,11 @@ OK
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 632,
+  "AppointmentId": 287,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -147,122 +147,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2000-10-16T14:19:02.6177097+02:00",
-  "AppointmentId": 151,
-  "Description": "Integrated neutral superstructure",
-  "StartDate": "2023-01-14T14:19:02.6177097+01:00",
-  "EndDate": "2013-11-11T14:19:02.6177097+01:00",
+  "CreatedDate": "2013-09-20T12:15:17.8687672+02:00",
+  "AppointmentId": 960,
+  "Description": "Open-architected explicit challenge",
+  "StartDate": "2001-03-10T12:15:17.8687672+01:00",
+  "EndDate": "2008-03-23T12:15:17.8687672+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 665,
+  "MotherId": 698,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2022-08-27T14:19:02.6177097+02:00",
+  "UpdatedDate": "1998-01-25T12:15:17.8717682+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 946,
+  "ActiveLinks": 977,
   "Links": [
     {
-      "EntityName": "Armstrong-McGlynn",
-      "Id": 704,
-      "Description": "Re-contextualized empowering structure",
-      "ExtraInfo": "dolorem",
-      "LinkId": 863,
+      "EntityName": "Nikolaus LLC",
+      "Id": 830,
+      "Description": "Up-sized multi-tasking standardization",
+      "ExtraInfo": "rerum",
+      "LinkId": 293,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 291
+          "FieldType": "System.Int32",
+          "FieldLength": 48
         }
       }
     }
   ],
-  "AlarmLeadTime": "voluptas",
+  "AlarmLeadTime": "quod",
   "HasAlarm": false,
-  "ColorIndex": 329,
+  "ColorIndex": 764,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "possimus",
-  "LeadTime": "et",
-  "Location": "dolorem",
-  "RejectCounter": 485,
-  "RejectReason": "engineer revolutionary technologies",
+  "LagTime": "nam",
+  "LeadTime": "laudantium",
+  "Location": "voluptatem",
+  "RejectCounter": 789,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 20,
-      "PersonId": 75,
-      "ContactId": 910,
-      "EmailId": 561,
-      "SendEmail": true,
+      "AssociateId": 448,
+      "PersonId": 199,
+      "ContactId": 977,
+      "EmailId": 2,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 20,
-      "PersonId": 75,
-      "ContactId": 910,
-      "EmailId": 561,
-      "SendEmail": true,
+      "AssociateId": 448,
+      "PersonId": 199,
+      "ContactId": 977,
+      "EmailId": 2,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2013-07-10T14:19:02.6177097+02:00",
+  "ActiveDate": "2004-08-08T12:15:17.8727675+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 716,
+  "PreferredTZLocation": 559,
   "Sale": null,
-  "SuggestedAppointmentId": 373,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 987,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ipsa",
+  "CentralserviceVideomeetId": "pariatur",
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Wilton Powlowski PhD",
-    "SuperOffice:2": "Freda Ally Kovacek III"
+    "SuperOffice:1": "1290875018",
+    "SuperOffice:2": "Mrs. Lorna Isom Kautzer"
   },
   "ExtraFields": {
-    "ExtraFields1": "quos",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "tenetur",
+    "ExtraFields2": "eveniet"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "beatae"
+    "CustomFields1": "nulla",
+    "CustomFields2": "provident"
   },
-  "PublishEventDate": "2000-03-29T14:19:02.6177097+02:00",
-  "PublishTo": "2000-10-16T14:19:02.6177097+02:00",
-  "PublishFrom": "2007-07-11T14:19:02.6177097+02:00",
+  "PublishEventDate": "2017-03-04T12:15:17.8747681+01:00",
+  "PublishTo": "1999-12-11T12:15:17.8747681+01:00",
+  "PublishFrom": "2013-01-16T12:15:17.8747681+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 488,
+      "VisibleId": 454,
       "Visibility": "All",
-      "DisplayValue": "illum",
+      "DisplayValue": "nam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 501
+          "FieldLength": 25
         }
       }
     },
     {
-      "VisibleId": 488,
+      "VisibleId": 454,
       "Visibility": "All",
-      "DisplayValue": "illum",
+      "DisplayValue": "nam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 501
+          "FieldLength": 25
         }
       }
     }
@@ -272,7 +272,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldLength": 733
     }
   }
 }

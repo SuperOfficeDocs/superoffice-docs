@@ -95,47 +95,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 220,
-    "Name": "Kling, Towne and Waters",
-    "ToolTip": "Ex ad ea veritatis cumque ab ullam reiciendis.",
+    "Id": 742,
+    "Name": "Padberg Inc and Sons",
+    "ToolTip": "Placeat numquam modi veritatis eum distinctio ut.",
     "Deleted": true,
-    "Rank": 170,
-    "Type": "id",
-    "ColorBlock": 180,
-    "IconHint": "modi",
-    "Selected": true,
-    "LastChanged": "1997-02-26T14:19:11.1012251+01:00",
+    "Rank": 554,
+    "Type": "dolor",
+    "ColorBlock": 659,
+    "IconHint": "labore",
+    "Selected": false,
+    "LastChanged": "1996-10-29T12:15:27.8426265+01:00",
     "ChildItems": [
       {
-        "Id": 695,
-        "Name": "O'Connell-Hahn",
-        "ToolTip": "Commodi beatae inventore ea qui.",
-        "Deleted": false,
-        "Rank": 209,
-        "Type": "excepturi",
-        "ColorBlock": 391,
-        "IconHint": "consectetur",
+        "Id": 293,
+        "Name": "Fadel Inc and Sons",
+        "ToolTip": "Unde quis fugiat et.",
+        "Deleted": true,
+        "Rank": 901,
+        "Type": "non",
+        "ColorBlock": 558,
+        "IconHint": "unde",
         "Selected": false,
-        "LastChanged": "1998-04-12T14:19:11.1012251+02:00",
+        "LastChanged": "2002-12-21T12:15:27.8426265+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "consectetur",
-        "Hidden": true,
-        "FullName": "Mckenna Hane"
+        "ExtraInfo": "possimus",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Arnold Cora Oberbrunner I"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "ut",
+    "ExtraInfo": "sequi",
+    "StyleHint": "quo",
     "Hidden": false,
-    "FullName": "Anabel Jenkins"
+    "FullName": "Mrs. Leon Mills"
   }
 ]
 ```
@@ -148,56 +148,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 584,
-    "Name": "Bartell, Brekke and Labadie",
-    "ToolTip": "Possimus amet ratione in.",
+    "Id": 200,
+    "Name": "Gleichner, Wilderman and Koepp",
+    "ToolTip": "Et quis quam placeat.",
     "Deleted": false,
-    "Rank": 646,
-    "Type": "ex",
-    "ColorBlock": 529,
-    "IconHint": "blanditiis",
-    "Selected": true,
-    "LastChanged": "1999-12-29T14:19:11.1012251+01:00",
+    "Rank": 508,
+    "Type": "aperiam",
+    "ColorBlock": 267,
+    "IconHint": "dolores",
+    "Selected": false,
+    "LastChanged": "1999-11-23T12:15:27.8446232+01:00",
     "ChildItems": [
       {
-        "Id": 951,
-        "Name": "Beer Inc and Sons",
-        "ToolTip": "Maiores id assumenda et et nostrum iure recusandae.",
+        "Id": 524,
+        "Name": "Ankunding-Crooks",
+        "ToolTip": "Et eaque cumque.",
         "Deleted": false,
-        "Rank": 942,
-        "Type": "cupiditate",
-        "ColorBlock": 919,
-        "IconHint": "quas",
+        "Rank": 634,
+        "Type": "aut",
+        "ColorBlock": 625,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2021-05-24T14:19:11.1012251+02:00",
+        "LastChanged": "2002-10-12T12:15:27.8446232+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "sed",
+        "ExtraInfo": "magnam",
+        "StyleHint": "distinctio",
         "Hidden": false,
-        "FullName": "Janis Hodkiewicz",
+        "FullName": "Casper Schulist",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 767
+            "FieldLength": 492
           }
         }
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "optio",
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Duane Ebert Jr.",
+    "FullName": "Elissa Anabelle Johnson IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 119
+        "FieldType": "System.Int32",
+        "FieldLength": 268
       }
     }
   }

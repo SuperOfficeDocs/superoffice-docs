@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 687,
-    "Name": "Bosco-Purdy",
-    "ToolTip": "Excepturi a quas quasi error.",
+    "Id": 318,
+    "Name": "Schinner-Hilll",
+    "ToolTip": "Debitis vitae adipisci.",
     "Deleted": false,
-    "Rank": 38,
-    "Type": "cum",
-    "ColorBlock": 953,
-    "IconHint": "eveniet",
+    "Rank": 217,
+    "Type": "dolores",
+    "ColorBlock": 436,
+    "IconHint": "cum",
     "Selected": false,
-    "LastChanged": "2000-07-06T14:19:11.4557858+02:00",
+    "LastChanged": "2016-02-10T12:15:28.4046168+01:00",
     "ChildItems": [
       {
-        "Id": 335,
-        "Name": "Fahey-Wiza",
-        "ToolTip": "Voluptatem quia harum quibusdam labore exercitationem porro.",
+        "Id": 159,
+        "Name": "Murphy-Reynolds",
+        "ToolTip": "Totam in repudiandae earum voluptas.",
         "Deleted": true,
-        "Rank": 760,
-        "Type": "iste",
-        "ColorBlock": 848,
-        "IconHint": "ducimus",
-        "Selected": false,
-        "LastChanged": "2013-11-14T14:19:11.4557858+01:00",
+        "Rank": 215,
+        "Type": "nam",
+        "ColorBlock": 424,
+        "IconHint": "excepturi",
+        "Selected": true,
+        "LastChanged": "2011-01-22T12:15:28.4046168+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "harum",
-        "Hidden": false,
-        "FullName": "Maiya Dibbert V",
+        "ExtraInfo": "ut",
+        "StyleHint": "nihil",
+        "Hidden": true,
+        "FullName": "Israel Boehm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 421
+            "FieldType": "System.Int32",
+            "FieldLength": 864
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "quis",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "ab",
     "Hidden": false,
-    "FullName": "Mayra O'Keefe",
+    "FullName": "Warren Keebler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 406
+        "FieldLength": 946
       }
     }
   }

@@ -89,7 +89,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 22,
-    "ColumnId": 393,
-    "FieldDefault": "beatae",
-    "FieldHeight": 72,
-    "FieldLabel": "assumenda",
-    "FieldLeft": 132,
-    "FieldTop": 564,
+    "UDefFieldId": 263,
+    "ColumnId": 457,
+    "FieldDefault": "voluptatem",
+    "FieldHeight": 644,
+    "FieldLabel": "nulla",
+    "FieldLeft": 368,
+    "FieldTop": 129,
     "FieldType": "Checkbox",
-    "FieldWidth": 911,
-    "FormatMask": "minima",
+    "FieldWidth": 69,
+    "FormatMask": "magni",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 841,
-    "LabelLeft": 609,
-    "LabelTop": 778,
-    "LabelWidth": 21,
-    "LastVersionId": 813,
-    "ListTableId": 699,
+    "IsIndexed": true,
+    "LabelHeight": 228,
+    "LabelLeft": 740,
+    "LabelTop": 10,
+    "LabelWidth": 149,
+    "LastVersionId": 184,
+    "ListTableId": 288,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 695,
-    "ProgId": "culpa",
-    "IsReadOnly": false,
-    "ShortLabel": "voluptatem",
-    "TabOrder": 794,
-    "TextLength": 301,
-    "Tooltip": "voluptas",
-    "UdefIdentity": 926,
-    "UDListDefinitionId": 746,
+    "Page1LineNo": 636,
+    "ProgId": "laudantium",
+    "IsReadOnly": true,
+    "ShortLabel": "consequatur",
+    "TabOrder": 107,
+    "TextLength": 995,
+    "Tooltip": "amet",
+    "UdefIdentity": 402,
+    "UDListDefinitionId": 590,
     "Justification": "Center",
-    "Version": 746,
-    "TemplateVariableName": "Roberts LLC",
-    "HasBeenPublished": true,
-    "MdoListName": "Turcotte LLC",
+    "Version": 157,
+    "TemplateVariableName": "Eichmann, Stamm and Greenfelder",
+    "HasBeenPublished": false,
+    "MdoListName": "Greenfelder, Padberg and Bergstrom",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 617
+        "FieldType": "System.Int32",
+        "FieldLength": 2
       }
     }
   }

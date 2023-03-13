@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 869,
-  "Name": "Hettinger LLC",
-  "Tooltip": "ut",
+  "Id": 512,
+  "Name": "Volkman-Keebler",
+  "Tooltip": "dolorum",
   "Deleted": false,
-  "Rank": 718,
-  "IsCustomList": true,
+  "Rank": 310,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "est",
+  "ListType": "dolor",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldLength": 509
     }
   },
   "_Links": {

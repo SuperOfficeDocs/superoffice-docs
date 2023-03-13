@@ -76,18 +76,18 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 933,
-  "AssociateId": 161,
-  "Block": "hic",
-  "Registered": "2001-07-03T14:19:03.7176242+02:00",
-  "RegisteredAssociateId": 6,
-  "Updated": "2015-07-11T14:19:03.7176242+02:00",
-  "UpdatedAssociateId": 813,
-  "UpdatedCount": 612
+  "ShipmentMessageBlockId": 18,
+  "AssociateId": 825,
+  "Block": "animi",
+  "Registered": "2022-08-25T12:15:19.3677454+02:00",
+  "RegisteredAssociateId": 786,
+  "Updated": "2018-12-09T12:15:19.3677454+01:00",
+  "UpdatedAssociateId": 239,
+  "UpdatedCount": 944
 }
 ```
 
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 989,
-  "AssociateId": 976,
-  "Block": "veritatis",
-  "Registered": "2007-08-16T14:19:03.7176242+02:00",
-  "RegisteredAssociateId": 114,
-  "Updated": "2016-04-12T14:19:03.7176242+02:00",
-  "UpdatedAssociateId": 690,
-  "UpdatedCount": 664,
+  "ShipmentMessageBlockId": 503,
+  "AssociateId": 621,
+  "Block": "ut",
+  "Registered": "1997-09-05T12:15:19.3677454+02:00",
+  "RegisteredAssociateId": 593,
+  "Updated": "2001-01-31T12:15:19.3677454+01:00",
+  "UpdatedAssociateId": 241,
+  "UpdatedCount": 566,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 252
+      "FieldLength": 743
     }
   }
 }

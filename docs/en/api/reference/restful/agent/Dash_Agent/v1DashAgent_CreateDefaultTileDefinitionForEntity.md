@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Gutkowski, Roob and O'Reilly"
+  "EntityName": "Littel-Kuhn"
 }
 ```
 
@@ -105,31 +105,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 27,
-  "Name": "Lesch-Weissnat",
-  "Description": "Up-sized zero tolerance algorithm",
-  "DefaultHeight": 854,
-  "DefaultWidth": 648,
+  "DashboardTileDefinitionId": 692,
+  "Name": "Romaguera, Kris and Howell",
+  "Description": "Advanced web-enabled monitoring",
+  "DefaultHeight": 55,
+  "DefaultWidth": 430,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "McGlynn, Yundt and Torphy",
-  "SelectionId": 552,
+  "EntityName": "Beier-Stroman",
+  "SelectionId": 321,
   "CurrencyMode": "Base",
-  "CurrencyCode": "est",
+  "CurrencyCode": "harum",
   "Measure": "Average",
-  "MeasureField": "eum",
-  "SortBy": "fugit",
-  "LayoutConfig": "et",
-  "SecondarySelectionId": 358,
-  "MeasureByField": "nobis",
+  "MeasureField": "rerum",
+  "SortBy": "tenetur",
+  "LayoutConfig": "perspiciatis",
+  "SecondarySelectionId": 389,
+  "MeasureByField": "illo",
   "Usage": "Dashboard",
-  "ProviderName": "Leuschke, Abshire and Conroy",
+  "ProviderName": "Watsica-Barrows",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldLength": 708
     }
   }
 }

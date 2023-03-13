@@ -107,13 +107,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 589,
-  "UserInput": "perspiciatis",
-  "PriceListKey": "necessitatibus"
+  "QuoteAlternativeId": 102,
+  "UserInput": "rem",
+  "PriceListKey": "reiciendis"
 }
 ```
 
@@ -125,73 +125,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 824,
-    "ERPProductKey": "eaque",
-    "ERPPriceListKey": "ipsum",
-    "Name": "Kessler-Abshire",
-    "Description": "Upgradable reciprocal firmware",
-    "Code": "laudantium",
-    "PriceUnit": "animi",
-    "QuantityUnit": "laboriosam",
+    "ProductId": 323,
+    "ERPProductKey": "nihil",
+    "ERPPriceListKey": "sed",
+    "Name": "Lebsack, Will and Brekke",
+    "Description": "Proactive 5th generation adapter",
+    "Code": "ducimus",
+    "PriceUnit": "quidem",
+    "QuantityUnit": "alias",
     "IsSubscription": false,
-    "SubscriptionUnit": "eum",
-    "DefaultSubscriptionQuantity": 896.324,
-    "ItemNumber": "390879",
+    "SubscriptionUnit": "voluptatibus",
+    "DefaultSubscriptionQuantity": 16798.239999999998,
+    "ItemNumber": "742678",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "ea",
-    "ProductTypeKey": "consectetur",
-    "VAT": 6982.552,
-    "VATInfo": "neque",
-    "UnitCost": 14632.645999999999,
-    "UnitMinimumPrice": 5318.398,
-    "UnitListPrice": 8399.119999999999,
-    "InAssortment": true,
-    "Supplier": "soluta",
-    "SupplierCode": "enim",
-    "Rights": "distinctio",
-    "Rule": "saepe",
+    "ProductFamilyKey": "aut",
+    "ProductTypeKey": "aperiam",
+    "VAT": 4516.094,
+    "VATInfo": "sed",
+    "UnitCost": 29826.278,
+    "UnitMinimumPrice": 3068.1859999999997,
+    "UnitListPrice": 26049.808,
+    "InAssortment": false,
+    "Supplier": "qui",
+    "SupplierCode": "quibusdam",
+    "Rights": "voluptatem",
+    "Rule": "sit",
     "ExtraInfo": [
       {
-        "Name": "Gaylord, Eichmann and Abshire",
-        "Value": "iste",
+        "Name": "Kuphal Inc and Sons",
+        "Value": "harum",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 350
+            "FieldType": "System.Int32",
+            "FieldLength": 783
           }
         }
       },
       {
-        "Name": "Gaylord, Eichmann and Abshire",
-        "Value": "iste",
+        "Name": "Kuphal Inc and Sons",
+        "Value": "harum",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 350
+            "FieldType": "System.Int32",
+            "FieldLength": 783
           }
         }
       }
     ],
-    "RawExtraInfo": "omnis",
-    "ExtraField1": "delectus",
-    "ExtraField2": "maxime",
-    "ExtraField3": "rerum",
-    "ExtraField4": "ducimus",
-    "ExtraField5": "et",
-    "InStock": 4506.692,
+    "RawExtraInfo": "libero",
+    "ExtraField1": "sed",
+    "ExtraField2": "voluptatem",
+    "ExtraField3": "quasi",
+    "ExtraField4": "qui",
+    "ExtraField5": "quibusdam",
+    "InStock": 5299.594,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 543
+        "FieldType": "System.String",
+        "FieldLength": 862
       }
     }
   }

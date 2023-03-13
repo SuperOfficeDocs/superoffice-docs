@@ -90,12 +90,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 426,
-  "EmailBodyTemplateId": 938,
+  "QuoteVersionId": 607,
+  "EmailBodyTemplateId": 319,
   "AttachMainDocument": false,
-  "QuotedProductsTemplateId": 107,
+  "QuotedProductsTemplateId": 583,
   "IncludeAttachments": true,
-  "RawMailSubject": "expedita"
+  "RawMailSubject": "dolorum"
 }
 ```
 
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 87,
-  "QuotedProductsId": 479,
+  "QuoteDocumentId": 793,
+  "QuotedProductsId": 981,
   "QuoteAttachmentIds": [
-    679,
-    498
+    604,
+    673
   ],
-  "MailBody": "et",
-  "MailSubject": "quas",
-  "ToEmail": "hank_bins@jerdeprice.biz",
-  "ToFullName": "Chaim McDermott",
-  "ErrorMessage": "quia",
+  "MailBody": "culpa",
+  "MailSubject": "et",
+  "ToEmail": "elliott@cole.name",
+  "ToFullName": "Wilfredo Russel",
+  "ErrorMessage": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 787
+      "FieldLength": 522
     }
   }
 }

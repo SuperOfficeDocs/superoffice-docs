@@ -102,15 +102,15 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "ContactId": 763,
-  "CredentialType": "atque",
-  "CredentialValue": "sunt",
-  "CredentialDisplayValue": "cumque"
+  "ContactId": 340,
+  "CredentialType": "ex",
+  "CredentialValue": "iure",
+  "CredentialDisplayValue": "reprehenderit"
 }
 ```
 
@@ -121,14 +121,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 63,
-  "Name": "Cormier Inc and Sons",
-  "Rank": 928,
-  "Tooltip": "tenetur",
+  "AssociateId": 619,
+  "Name": "Denesik LLC",
+  "Rank": 596,
+  "Tooltip": "iure",
   "LicenseOwners": [
     {
-      "Name": "Donnelly Group",
-      "Description": "Operative motivating solution",
+      "Name": "Muller Inc and Sons",
+      "Description": "Organic 5th generation model",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -142,13 +142,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 214
+          "FieldLength": 792
         }
       }
     },
     {
-      "Name": "Donnelly Group",
-      "Description": "Operative motivating solution",
+      "Name": "Muller Inc and Sons",
+      "Description": "Organic 5th generation model",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 214
+          "FieldLength": 792
         }
       }
     }
@@ -171,110 +171,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "architecto",
-      "Tooltip": "ea",
-      "Id": 851,
-      "Rank": 334,
+      "Value": "consequatur",
+      "Tooltip": "qui",
+      "Id": 620,
+      "Rank": 825,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 644
+          "FieldType": "System.String",
+          "FieldLength": 98
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2006-05-24T14:19:04.532826+02:00",
-  "Lastlogout": "2014-08-16T14:19:04.532826+02:00",
-  "EjUserId": 176,
-  "RequestSignature": "nemo",
+  "Deleted": true,
+  "Lastlogin": "2009-09-25T12:15:20.5177371+02:00",
+  "Lastlogout": "2010-02-11T12:15:20.5177371+01:00",
+  "EjUserId": 348,
+  "RequestSignature": "nihil",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "saepe",
-      "DisplayValue": "expedita",
+      "Value": "facilis",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 323
+          "FieldType": "System.String",
+          "FieldLength": 493
         }
       }
     },
     {
       "Type": null,
-      "Value": "saepe",
-      "DisplayValue": "expedita",
+      "Value": "facilis",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 323
+          "FieldType": "System.String",
+          "FieldLength": 493
         }
       }
     }
   ],
-  "UserName": "Bayer, Buckridge and O'Connell",
+  "UserName": "Ledner Group",
   "TicketCategories": [
     {
-      "Id": 817,
-      "Name": "Grimes-Kozey",
-      "ToolTip": "Ratione libero dolorem amet sit assumenda dolores.",
+      "Id": 704,
+      "Name": "Green, Wisoky and Marvin",
+      "ToolTip": "Incidunt dolores iste alias quia.",
       "Deleted": false,
-      "Rank": 763,
-      "Type": "sunt",
+      "Rank": 19,
+      "Type": "commodi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ut",
-      "ColorBlock": 363,
-      "ExtraInfo": "sapiente",
-      "StyleHint": "dolorem",
-      "FullName": "Mrs. Robert Walsh DDS",
+      "IconHint": "est",
+      "ColorBlock": 952,
+      "ExtraInfo": "pariatur",
+      "StyleHint": "ut",
+      "FullName": "Mr. Haven Dasia Hodkiewicz III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 889
+          "FieldLength": 407
         }
       }
     }
   ],
-  "NickName": "Ullrich-Turner",
-  "WaitingForApproval": true,
+  "NickName": "Kautzer-Simonis",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "eaque",
-    "ExtraFields2": "maiores"
+    "ExtraFields1": "culpa",
+    "ExtraFields2": "labore"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "non"
+    "CustomFields1": "architecto",
+    "CustomFields2": "recusandae"
   },
   "PostSaveCommands": [
     {
-      "Name": "Anderson-Rippin",
-      "DisplayName": "Tremblay-Stark",
-      "Description": "Organized global productivity",
-      "ToolTip": "Eos voluptas totam architecto quibusdam.",
+      "Name": "Gutkowski, Reichel and Bauch",
+      "DisplayName": "Wisoky, Bechtelar and Kilback",
+      "Description": "Business-focused human-resource info-mediaries",
+      "ToolTip": "Id totam perferendis.",
       "Actions": "Implicit",
-      "ActionData": "quis",
+      "ActionData": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 901
+          "FieldLength": 868
         }
       }
     }
@@ -284,7 +284,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldLength": 559
     }
   }
 }

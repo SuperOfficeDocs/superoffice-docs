@@ -118,147 +118,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 521,
-      "ContactName": "Schoen, Gottlieb and Muller",
-      "PersonId": 520,
-      "PersonName": "Jones-Ernser",
-      "AssociateId": 643,
-      "Address": "esse",
-      "EmailId": 199,
+      "ContactId": 398,
+      "ContactName": "Sporer-Jakubowski",
+      "PersonId": 156,
+      "PersonName": "Keebler, Price and Brown",
+      "AssociateId": 761,
+      "Address": "magnam",
+      "EmailId": 753,
       "DuplicatePersonIds": [
-        900,
-        923
+        269,
+        883
       ],
-      "Name": "Bradtke-Thiel",
+      "Name": "Oberbrunner-Oberbrunner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 629
+          "FieldType": "System.String",
+          "FieldLength": 318
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 51,
-      "ContactName": "Pollich, Wiza and Marvin",
-      "PersonId": 815,
-      "PersonName": "Walter Inc and Sons",
-      "AssociateId": 18,
-      "Address": "dolorum",
-      "EmailId": 632,
+      "ContactId": 616,
+      "ContactName": "Koss Inc and Sons",
+      "PersonId": 952,
+      "PersonName": "Murazik Inc and Sons",
+      "AssociateId": 615,
+      "Address": "fuga",
+      "EmailId": 777,
       "DuplicatePersonIds": [
-        361,
-        590
+        418,
+        957
       ],
-      "Name": "Fadel LLC",
+      "Name": "Schmidt, Walsh and Jast",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldLength": 896
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 980,
-      "ContactName": "Reichert Inc and Sons",
-      "PersonId": 502,
-      "PersonName": "Baumbach, Bechtelar and Abernathy",
-      "AssociateId": 459,
-      "Address": "qui",
-      "EmailId": 417,
+      "ContactId": 879,
+      "ContactName": "Feeney, Armstrong and McGlynn",
+      "PersonId": 45,
+      "PersonName": "Bayer-Jacobi",
+      "AssociateId": 694,
+      "Address": "perspiciatis",
+      "EmailId": 655,
       "DuplicatePersonIds": [
-        178,
-        895
+        120,
+        977
       ],
-      "Name": "Mraz, Emmerich and Beier",
+      "Name": "Mosciski, Rath and Veum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 776
+          "FieldType": "System.String",
+          "FieldLength": 385
         }
       }
     }
   ],
-  "Subject": "similique",
-  "HTMLBody": "sit",
+  "Subject": "saepe",
+  "HTMLBody": "nisi",
   "From": null,
-  "Sent": "2014-01-03T14:19:03.4508967+01:00",
-  "Size": 181,
+  "Sent": "2000-11-01T12:15:19.0117509+01:00",
+  "Size": 895,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "facilis",
-  "PlainBody": "sed",
+  "MessageID": "ipsum",
+  "PlainBody": "eos",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 701,
+  "ServerId": 712,
   "Attachments": [
     {
-      "Description": "Mandatory transitional project",
-      "Filename": "non",
-      "Size": 397,
-      "Type": "delectus",
-      "Encoding": "sint",
-      "Id": "numquam",
-      "Disposition": "autem",
+      "Description": "Realigned upward-trending structure",
+      "Filename": "a",
+      "Size": 754,
+      "Type": "doloremque",
+      "Encoding": "ut",
+      "Id": "impedit",
+      "Disposition": "numquam",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 494
+          "FieldType": "System.String",
+          "FieldLength": 40
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Johnson-Watsica",
+      "Name": "Gusikowski, Rice and Mohr",
       "Values": [
-        "non",
-        "illo"
+        "eos",
+        "officia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 708
+          "FieldType": "System.String",
+          "FieldLength": 717
         }
       }
     },
     {
-      "Name": "Johnson-Watsica",
+      "Name": "Gusikowski, Rice and Mohr",
       "Values": [
-        "non",
-        "illo"
+        "eos",
+        "officia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 708
+          "FieldType": "System.String",
+          "FieldLength": 717
         }
       }
     }
   ],
-  "FolderName": "Gerlach Group",
-  "EmailItemId": 991,
-  "AccountId": 161,
-  "ReceivedAt": "2018-10-23T14:19:03.4508967+02:00",
+  "FolderName": "Okuneva, Lebsack and Friesen",
+  "EmailItemId": 908,
+  "AccountId": 444,
+  "ReceivedAt": "2019-12-01T12:15:19.0127509+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2018-03-07T14:19:03.4508967+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2017-06-01T12:15:19.0127509+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldLength": 914
     }
   }
 }

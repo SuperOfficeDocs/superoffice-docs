@@ -126,14 +126,14 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 220,
-  "StartTime": "1999-05-12T14:19:02.3262466+02:00",
-  "EndTime": "2021-07-18T14:19:02.3262466+02:00",
-  "Count": 945,
+  "ContactId": 523,
+  "StartTime": "1996-09-19T12:15:17.6107712+02:00",
+  "EndTime": "1998-03-20T12:15:17.6107712+01:00",
+  "Count": 376,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 348,
-    "StartDate": "1998-05-21T14:19:02.3262466+02:00",
-    "EndDate": "1998-11-18T14:19:02.3262466+01:00",
+    "AppointmentId": 662,
+    "StartDate": "1996-04-03T12:15:17.612771+02:00",
+    "EndDate": "1997-01-28T12:15:17.612771+01:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "Chadrick Abbie Conn II",
-    "ContactName": "Krajcik-Goyette",
-    "Description": "Triple-buffered intangible local area network",
-    "PersonFullName": "Thomas Leannon",
-    "PersonId": 775,
-    "ContactId": 903,
-    "ProjectId": 155,
-    "ProjectName": "Koss-Walsh",
+    "Task": "est",
+    "AssociateFullName": "Lola Kozey",
+    "ContactName": "Murphy, Jerde and Brown",
+    "Description": "Self-enabling reciprocal structure",
+    "PersonFullName": "Ms. Evans Kunze DVM",
+    "PersonId": 765,
+    "ContactId": 138,
+    "ProjectId": 437,
+    "ProjectName": "Pfeffer-Farrell",
     "IsPublished": false,
-    "AssociateId": 627,
-    "ColorIndex": 149,
+    "AssociateId": 788,
+    "ColorIndex": 900,
     "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 125,
-    "PriorityName": "Kertzmann LLC",
+    "PriorityId": 622,
+    "PriorityName": "Collins, Wilderman and Trantow",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2021-09-12T14:19:02.3262466+02:00",
+    "ActiveDate": "2001-11-07T12:15:17.612771+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2019-12-04T14:19:02.3262466+01:00",
-    "RecurringEndDate": "2000-03-14T14:19:02.3262466+01:00",
-    "MotherId": 374,
-    "AssignedBy": 670,
-    "AssignedByFullName": "Maverick Haley III",
+    "RecurringStartDate": "2001-07-05T12:15:17.612771+02:00",
+    "RecurringEndDate": "2011-08-01T12:15:17.612771+02:00",
+    "MotherId": 302,
+    "AssignedBy": 218,
+    "AssignedByFullName": "Cordia Sanford",
     "RejectReason": "",
-    "Location": "laborum",
-    "AlarmLeadTime": "qui",
-    "SaleId": 357,
-    "SaleName": "Herzog-Herzog",
-    "AssociateName": "Kuhic-Orn",
-    "CreatedDate": "2008-01-08T14:19:02.3262466+01:00",
-    "CreatedBy": "esse",
-    "CreatedByFullName": "Lillian Bergstrom",
-    "CreatedByAssociateId": 210,
+    "Location": "molestiae",
+    "AlarmLeadTime": "tempora",
+    "SaleId": 876,
+    "SaleName": "Donnelly-Graham",
+    "AssociateName": "Weissnat, Mertz and Runolfsson",
+    "CreatedDate": "1998-09-01T12:15:17.6137722+02:00",
+    "CreatedBy": "placeat",
+    "CreatedByFullName": "Violet Ryan",
+    "CreatedByAssociateId": 63,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 382
+        "FieldLength": 76
       }
     }
   }

@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 157,
-    "Name": "Nienow Inc and Sons",
-    "Description": "Enterprise-wide demand-driven conglomeration",
+    "ProjectId": 151,
+    "Name": "Torphy, Schmitt and Morissette",
+    "Description": "Enterprise-wide analyzing framework",
     "URL": "http://www.example.com/",
-    "Type": "odit",
-    "AssociateId": 181,
-    "AssociateFullName": "Robb Runolfsdottir",
-    "TypeId": 992,
-    "Updated": "2017-04-23T14:19:03.9688343+02:00",
-    "StatusId": 888,
+    "Type": "error",
+    "AssociateId": 293,
+    "AssociateFullName": "Mr. Thora Kling",
+    "TypeId": 300,
+    "Updated": "1998-03-19T12:15:19.8577455+01:00",
+    "StatusId": 926,
     "Status": "ut",
-    "TextId": 452,
-    "PublishTo": "2019-03-30T14:19:03.9688343+01:00",
-    "PublishFrom": "2015-12-12T14:19:03.9688343+01:00",
-    "IsPublished": true,
+    "TextId": 245,
+    "PublishTo": "2002-09-29T12:15:19.8577455+02:00",
+    "PublishFrom": "2006-04-18T12:15:19.8577455+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1138746",
-    "ActiveErpLinks": 597,
+    "ProjectNumber": "372178",
+    "ActiveErpLinks": 939,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 635
+        "FieldLength": 568
       }
     }
   }

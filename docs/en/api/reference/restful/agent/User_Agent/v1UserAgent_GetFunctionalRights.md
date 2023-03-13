@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 962
+  "RoleId": 786
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 263,
-    "Name": "Considine-Schiller",
-    "ToolTip": "Rem est et dolor.",
-    "Deleted": false,
-    "Rank": 931,
-    "Type": "dolor",
-    "ColorBlock": 372,
-    "IconHint": "sit",
-    "Selected": true,
-    "LastChanged": "2005-10-27T14:19:04.5797015+02:00",
+    "Id": 753,
+    "Name": "Ruecker LLC",
+    "ToolTip": "Dicta cumque tempora.",
+    "Deleted": true,
+    "Rank": 561,
+    "Type": "voluptates",
+    "ColorBlock": 490,
+    "IconHint": "consequatur",
+    "Selected": false,
+    "LastChanged": "1998-09-15T12:15:20.5677287+02:00",
     "ChildItems": [
       {
-        "Id": 272,
-        "Name": "Buckridge-Senger",
-        "ToolTip": "Enim et vero fuga et.",
+        "Id": 253,
+        "Name": "Kihn, Kulas and Stiedemann",
+        "ToolTip": "Voluptas quam qui laboriosam voluptatem est sed est.",
         "Deleted": false,
-        "Rank": 417,
-        "Type": "qui",
-        "ColorBlock": 395,
-        "IconHint": "aliquid",
-        "Selected": false,
-        "LastChanged": "2009-06-15T14:19:04.5797015+02:00",
+        "Rank": 968,
+        "Type": "quos",
+        "ColorBlock": 642,
+        "IconHint": "laboriosam",
+        "Selected": true,
+        "LastChanged": "2007-03-18T12:15:20.5677287+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "sed",
+        "ExtraInfo": "quis",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Annabelle Leffler",
+        "FullName": "Raphael Jevon Konopelski PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 693
+            "FieldLength": 705
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "recusandae",
-    "Hidden": true,
-    "FullName": "Marco Terry",
+    "ExtraInfo": "et",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Ms. Ben Oda Champlin PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 83
+        "FieldType": "System.Int32",
+        "FieldLength": 56
       }
     }
   }

@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 849
+  "UserGroupId": 63
 }
 ```
 
@@ -123,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 504,
-    "ColumnId": 15,
-    "FieldDefault": "consequuntur",
-    "FieldHeight": 221,
-    "FieldLabel": "rerum",
-    "FieldLeft": 643,
-    "FieldTop": 741,
+    "UDefFieldId": 113,
+    "ColumnId": 841,
+    "FieldDefault": "ratione",
+    "FieldHeight": 456,
+    "FieldLabel": "alias",
+    "FieldLeft": 873,
+    "FieldTop": 160,
     "FieldType": "Checkbox",
-    "FieldWidth": 55,
-    "FormatMask": "eos",
-    "HideLabel": false,
+    "FieldWidth": 147,
+    "FormatMask": "veniam",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 335,
-    "LabelLeft": 919,
-    "LabelTop": 779,
-    "LabelWidth": 513,
-    "LastVersionId": 406,
-    "ListTableId": 882,
+    "LabelHeight": 409,
+    "LabelLeft": 364,
+    "LabelTop": 427,
+    "LabelWidth": 933,
+    "LastVersionId": 609,
+    "ListTableId": 802,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 831,
-    "ProgId": "consequatur",
+    "Page1LineNo": 665,
+    "ProgId": "praesentium",
     "IsReadOnly": true,
-    "ShortLabel": "eligendi",
-    "TabOrder": 190,
-    "TextLength": 897,
-    "Tooltip": "id",
-    "UdefIdentity": 736,
-    "UDListDefinitionId": 620,
+    "ShortLabel": "magni",
+    "TabOrder": 184,
+    "TextLength": 457,
+    "Tooltip": "vel",
+    "UdefIdentity": 18,
+    "UDListDefinitionId": 454,
     "Justification": "Center",
-    "Version": 555,
-    "TemplateVariableName": "Christiansen Group",
-    "HasBeenPublished": false,
-    "MdoListName": "Fadel, Hintz and Thiel",
+    "Version": 697,
+    "TemplateVariableName": "Strosin LLC",
+    "HasBeenPublished": true,
+    "MdoListName": "Dickinson LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 137
+        "FieldType": "System.Int32",
+        "FieldLength": 878
       }
     }
   }

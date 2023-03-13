@@ -25,7 +25,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=449
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=862
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -120,7 +120,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -134,63 +134,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2020-11-23T14:19:02.5474011+01:00",
-  "AppointmentId": 935,
-  "Description": "Exclusive 3rd generation encryption",
-  "StartDate": "2001-10-29T14:19:02.5474011+01:00",
-  "EndDate": "2011-02-23T14:19:02.5474011+01:00",
+  "CreatedDate": "2003-09-27T12:15:17.7797687+02:00",
+  "AppointmentId": 651,
+  "Description": "Future-proofed logistical workforce",
+  "StartDate": "2017-10-07T12:15:17.7797687+02:00",
+  "EndDate": "2010-09-14T12:15:17.7797687+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 524,
+  "MotherId": 910,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1995-11-11T14:19:02.5474011+01:00",
+  "UpdatedDate": "2012-08-28T12:15:17.7827688+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 254,
+  "ActiveLinks": 54,
   "Links": [
     {
-      "EntityName": "Huels Inc and Sons",
-      "Id": 27,
-      "Description": "Reduced methodical time-frame",
-      "ExtraInfo": "facilis",
-      "LinkId": 239,
+      "EntityName": "Jones Inc and Sons",
+      "Id": 518,
+      "Description": "Diverse coherent service-desk",
+      "ExtraInfo": "praesentium",
+      "LinkId": 216,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 144
+          "FieldType": "System.String",
+          "FieldLength": 697
         }
       }
     }
   ],
-  "AlarmLeadTime": "modi",
-  "HasAlarm": true,
-  "ColorIndex": 278,
+  "AlarmLeadTime": "voluptatem",
+  "HasAlarm": false,
+  "ColorIndex": 377,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "et",
-  "LeadTime": "enim",
-  "Location": "ex",
-  "RejectCounter": 155,
+  "IsAlldayEvent": true,
+  "LagTime": "eum",
+  "LeadTime": "sit",
+  "Location": "tempore",
+  "RejectCounter": 265,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 192,
-      "PersonId": 322,
-      "ContactId": 747,
-      "EmailId": 333,
+      "AssociateId": 377,
+      "PersonId": 215,
+      "ContactId": 788,
+      "EmailId": 289,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 192,
-      "PersonId": 322,
-      "ContactId": 747,
-      "EmailId": 333,
+      "AssociateId": 377,
+      "PersonId": 215,
+      "ContactId": 788,
+      "EmailId": 289,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -198,58 +198,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2006-09-15T14:19:02.5474011+02:00",
+  "ActiveDate": "2017-02-13T12:15:17.7827688+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 23,
+  "PreferredTZLocation": 143,
   "Sale": null,
-  "SuggestedAppointmentId": 582,
+  "SuggestedAppointmentId": 717,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "eius",
+  "CentralserviceVideomeetId": "amet",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Stanton Windler"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Dale Mosciski"
   },
   "ExtraFields": {
-    "ExtraFields1": "placeat",
-    "ExtraFields2": "a"
+    "ExtraFields1": "accusamus",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "debitis",
-    "CustomFields2": "dolores"
+    "CustomFields1": "fugiat",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2012-06-11T14:19:02.5474011+02:00",
-  "PublishTo": "2003-02-26T14:19:02.5474011+01:00",
-  "PublishFrom": "1999-06-04T14:19:02.5474011+02:00",
+  "PublishEventDate": "1996-07-02T12:15:17.7847709+02:00",
+  "PublishTo": "2021-04-29T12:15:17.7847709+02:00",
+  "PublishFrom": "2007-07-18T12:15:17.7847709+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 396,
+      "VisibleId": 916,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "modi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 766
+          "FieldLength": 257
         }
       }
     },
     {
-      "VisibleId": 396,
+      "VisibleId": 916,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "modi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 766
+          "FieldLength": 257
         }
       }
     }
@@ -259,7 +259,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 719
+      "FieldLength": 864
     }
   }
 }

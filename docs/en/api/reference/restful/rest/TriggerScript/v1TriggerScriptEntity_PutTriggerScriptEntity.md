@@ -102,16 +102,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 895,
-  "Name": "Mohr, Goodwin and Toy",
+  "ScreenChooserId": 268,
+  "Name": "Sporer-Bahringer",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "consequatur",
-  "Source": "ut",
-  "Registered": "2013-09-26T14:19:10.912356+02:00",
-  "RegisteredAssociateId": 265,
-  "Updated": "2019-10-23T14:19:10.912356+02:00",
-  "UpdatedAssociateId": 550
+  "UniqueIdentifier": "ea",
+  "Source": "aut",
+  "Registered": "2005-01-07T12:15:27.589626+01:00",
+  "RegisteredAssociateId": 266,
+  "Updated": "2016-03-03T12:15:27.589626+01:00",
+  "UpdatedAssociateId": 526
 }
 ```
 
@@ -122,22 +122,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 642,
-  "Name": "Ritchie-Hagenes",
+  "ScreenChooserId": 297,
+  "Name": "Klein-Veum",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "sunt",
-  "Source": "praesentium",
-  "Registered": "2013-01-19T14:19:10.912356+01:00",
-  "RegisteredAssociateId": 180,
-  "Updated": "2011-04-30T14:19:10.912356+02:00",
-  "UpdatedAssociateId": 844,
+  "Enabled": true,
+  "UniqueIdentifier": "delectus",
+  "Source": "dolorem",
+  "Registered": "2015-07-21T12:15:27.589626+02:00",
+  "RegisteredAssociateId": 18,
+  "Updated": "2010-06-21T12:15:27.589626+02:00",
+  "UpdatedAssociateId": 226,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 412
+      "FieldLength": 929
     }
   },
   "_Links": {

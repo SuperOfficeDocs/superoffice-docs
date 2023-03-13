@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 231,
-  "Name": "Ritchie Inc and Sons",
-  "Tooltip": "id",
+  "Id": 865,
+  "Name": "Zboncak LLC",
+  "Tooltip": "commodi",
   "Deleted": false,
-  "UdListDefinitionId": 279,
-  "Rank": 615,
+  "UdListDefinitionId": 330,
+  "Rank": 159,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 921
+      "FieldLength": 825
     }
   }
 }

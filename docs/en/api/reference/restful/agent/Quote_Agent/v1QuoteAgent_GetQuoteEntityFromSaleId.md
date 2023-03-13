@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteEntityFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 600
+  "SaleId": 474
 }
 ```
 
@@ -99,58 +99,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 896,
-  "SaleId": 929,
-  "QuoteConnectionId": 64,
-  "ERPQuoteKey": "officia",
-  "ERPOrderKey": "omnis",
-  "ActiveQuoteVersionId": 574,
-  "AcceptedQuoteAlternativeId": 82,
-  "UseValuesFromQuote": 343,
-  "DocumentId": 412,
-  "PoNumber": "797569",
-  "OrderComment": "labore",
-  "PreferredEmailCulture": "kory.thiel@heaney.biz",
+  "QuoteId": 887,
+  "SaleId": 320,
+  "QuoteConnectionId": 520,
+  "ERPQuoteKey": "quo",
+  "ERPOrderKey": "neque",
+  "ActiveQuoteVersionId": 258,
+  "AcceptedQuoteAlternativeId": 994,
+  "UseValuesFromQuote": 296,
+  "DocumentId": 169,
+  "PoNumber": "1057994",
+  "OrderComment": "soluta",
+  "PreferredEmailCulture": "princess_lemke@ullrich.name",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 473,
-      "ERPQuoteVersionKey": "ut",
-      "QuoteId": 297,
-      "Description": "Cross-group intermediate workforce",
-      "Number": "371444",
+      "QuoteVersionId": 26,
+      "ERPQuoteVersionKey": "in",
+      "QuoteId": 362,
+      "Description": "Reduced context-sensitive database",
+      "Number": "1414852",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 357,
-      "SentDate": "2006-09-28T14:19:04.0313341+02:00",
-      "FollowupId": 922,
-      "ExpirationDate": "1997-01-27T14:19:04.0313341+01:00",
-      "DeliveryCountryId": 782,
+      "LikelyQuoteAlternativeId": 724,
+      "SentDate": "1999-01-16T12:15:19.9567378+01:00",
+      "FollowupId": 272,
+      "ExpirationDate": "2006-07-02T12:15:19.9567378+02:00",
+      "DeliveryCountryId": 559,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 288,
+      "InvoiceCountryId": 741,
       "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "excepturi",
-      "ERPPaymentTypeKey": "quibusdam",
-      "ERPDeliveryTermsKey": "reiciendis",
-      "ERPDeliveryTypeKey": "cupiditate",
-      "Rank": 48,
-      "ApprovedBy": 855,
-      "ApprovedText": "molestiae",
-      "ApprovedRegisteredBy": 612,
-      "ApprovedRegisteredDate": "2017-06-10T14:19:04.0313341+02:00",
-      "ExtraField1": "ut",
-      "ExtraField2": "enim",
-      "ExtraField3": "qui",
-      "ExtraField4": "excepturi",
-      "ExtraField5": "voluptatum",
-      "LastRecalculated": "2000-11-05T14:19:04.0313341+01:00",
-      "Updated": "2006-06-08T14:19:04.0313341+02:00",
-      "UpdatedAssociateId": 813,
-      "Registered": "1996-04-14T14:19:04.0313341+02:00",
-      "RegisteredAssociateId": 796,
-      "RequestAssociateId": 851,
-      "RequestComment": "accusamus",
+      "ERPPaymentTermsKey": "quae",
+      "ERPPaymentTypeKey": "velit",
+      "ERPDeliveryTermsKey": "qui",
+      "ERPDeliveryTypeKey": "ea",
+      "Rank": 307,
+      "ApprovedBy": 932,
+      "ApprovedText": "rem",
+      "ApprovedRegisteredBy": 508,
+      "ApprovedRegisteredDate": "2013-12-25T12:15:19.9567378+01:00",
+      "ExtraField1": "nihil",
+      "ExtraField2": "alias",
+      "ExtraField3": "molestiae",
+      "ExtraField4": "animi",
+      "ExtraField5": "sunt",
+      "LastRecalculated": "2013-07-12T12:15:19.9567378+02:00",
+      "Updated": "2016-01-22T12:15:19.9567378+01:00",
+      "UpdatedAssociateId": 558,
+      "Registered": "2007-03-20T12:15:19.9567378+01:00",
+      "RegisteredAssociateId": 749,
+      "RequestAssociateId": 889,
+      "RequestComment": "nesciunt",
       "QuoteAlternatives": [
         {},
         {}
@@ -160,7 +160,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 794
+          "FieldLength": 111
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 505
+      "FieldType": "System.Int32",
+      "FieldLength": 138
     }
   }
 }

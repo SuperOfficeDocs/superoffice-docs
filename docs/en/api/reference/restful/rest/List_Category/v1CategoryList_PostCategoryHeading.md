@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 133,
-  "Name": "McCullough, Cremin and Wiza",
-  "Tooltip": "corporis",
+  "HeadingId": 707,
+  "Name": "Batz Group",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 291,
-  "UdListDefinitionId": 227
+  "Rank": 256,
+  "UdListDefinitionId": 818
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 943,
-  "Name": "Abbott-Bins",
-  "Tooltip": "aperiam",
+  "HeadingId": 397,
+  "Name": "Willms-Gislason",
+  "Tooltip": "sint",
   "Deleted": true,
-  "Rank": 939,
-  "UdListDefinitionId": 178,
+  "Rank": 692,
+  "UdListDefinitionId": 532,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldLength": 704
     }
   }
 }

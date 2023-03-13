@@ -90,7 +90,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,36 +100,36 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Robel-Beatty",
-  "Comment": "excepturi",
-  "StakeholderRoleId": 141,
-  "CountryId": 886,
-  "PersonId": 783,
-  "EmailDescription": "jennings.rogahn@hackett.ca",
-  "EmailId": 121,
-  "EmailAddress": "mattie.schuster@paucek.com",
-  "PhoneId": 156,
-  "ContactName": "Mohr, Swaniawski and Breitenberg",
-  "ContactId": 498,
-  "SaleId": 138,
-  "Mrmrs": "qui",
-  "Firstname": "Alvena",
-  "MiddleName": "Medhurst-Ondricka",
-  "Lastname": "Crona",
-  "SaleStakeholderId": 481,
-  "Rank": 529,
-  "Phone": "380-412-9148",
+  "StakeholderRoleName": "Deckow Group",
+  "Comment": "debitis",
+  "StakeholderRoleId": 654,
+  "CountryId": 53,
+  "PersonId": 239,
+  "EmailDescription": "lucile@kuphalmckenzie.name",
+  "EmailId": 635,
+  "EmailAddress": "virgil_pollich@larkin.co.uk",
+  "PhoneId": 642,
+  "ContactName": "Kovacek, VonRueden and Shields",
+  "ContactId": 404,
+  "SaleId": 567,
+  "Mrmrs": "corrupti",
+  "Firstname": "Ebba",
+  "MiddleName": "Ryan-Schuster",
+  "Lastname": "Farrell",
+  "SaleStakeholderId": 751,
+  "Rank": 357,
+  "Phone": "531-033-2542",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 154
+      "FieldLength": 812
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

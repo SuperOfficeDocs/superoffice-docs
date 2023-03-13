@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 283,
-  "PrefDescId": 236,
-  "PrefValue": "inventore",
-  "PrefShowValue": "aut",
-  "Description": "Distributed solution-oriented productivity",
-  "IsBuiltin": false,
+  "PrefDescLineId": 304,
+  "PrefDescId": 445,
+  "PrefValue": "velit",
+  "PrefShowValue": "iusto",
+  "Description": "Configurable optimizing alliance",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldLength": 144
     }
   }
 }

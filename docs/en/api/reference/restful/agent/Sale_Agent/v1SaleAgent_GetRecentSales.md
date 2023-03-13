@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 764,
-  "Count": 591
+  "AmountLimit": 362,
+  "Count": 526
 }
 ```
 
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Okuneva, Boehm and Spinka",
-    "SaleDate": "2005-12-28T14:19:04.1410858+01:00",
-    "SaleId": 324,
-    "Probability": 69,
-    "Title": "repellat",
-    "Amount": 26996.275999999998,
-    "Currency": "neque",
-    "ProjectName": "Ward-Carroll",
-    "AssociateFullName": "Dr. Emmy Strosin",
-    "Description": "Polarised context-sensitive conglomeration",
+    "ContactName": "Dooley LLC",
+    "SaleDate": "2007-01-10T12:15:20.0927352+01:00",
+    "SaleId": 303,
+    "Probability": 737,
+    "Title": "distinctio",
+    "Amount": 2071.574,
+    "Currency": "error",
+    "ProjectName": "Runte-Hudson",
+    "AssociateFullName": "Adah Maggio",
+    "Description": "Expanded executive circuit",
     "Status": "Lost",
-    "WeightedAmount": 9088.6,
-    "ProjectId": 487,
-    "EarningPercent": 17384.298,
-    "Earning": 830.51,
-    "ContactId": 773,
-    "AssociateId": 652,
-    "PersonId": 491,
-    "SaleTypeId": 551,
-    "SaleTypeName": "Reinger Inc and Sons",
-    "PersonFullName": "Jevon Emard",
+    "WeightedAmount": 29168.138,
+    "ProjectId": 148,
+    "EarningPercent": 24733.528,
+    "Earning": 24188.212,
+    "ContactId": 264,
+    "AssociateId": 864,
+    "PersonId": 473,
+    "SaleTypeId": 726,
+    "SaleTypeName": "Hills-Hackett",
+    "PersonFullName": "Mrs. Carrie Alexandra Powlowski",
     "Completed": "Completed",
-    "ActiveErpLinks": 539,
-    "NextDueDate": "2020-06-04T14:19:04.1410858+02:00",
-    "Number": "1544814",
+    "ActiveErpLinks": 420,
+    "NextDueDate": "2013-08-02T12:15:20.0927352+02:00",
+    "Number": "1024122",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldLength": 516
       }
     }
   }

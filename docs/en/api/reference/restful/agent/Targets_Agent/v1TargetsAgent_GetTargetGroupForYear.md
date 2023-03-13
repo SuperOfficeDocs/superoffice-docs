@@ -82,7 +82,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 830,
+  "TargetYear": 911,
   "EntityType": "None"
 }
 ```
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 707,
-  "Year": 908,
+  "TargetGroupId": 606,
+  "Year": 68,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 369,
+      "TargetAssignmentInfoId": 896,
       "Values": [
-        171,
-        189
+        737,
+        549
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 336,
-      "DimensionListItemDisplayName": "Connelly Group",
+      "DimensionListItem": 541,
+      "DimensionListItemDisplayName": "Thompson, Johns and Cremin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 167
+          "FieldLength": 268
         }
       }
     }
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldType": "System.String",
+      "FieldLength": 136
     }
   }
 }

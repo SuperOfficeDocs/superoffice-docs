@@ -25,7 +25,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=677
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=322
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -109,7 +109,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "ut",
+  "SaleText": "velit",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -134,113 +134,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2004-05-24T14:19:04.1261993+02:00",
-  "Amount": 11996.952,
-  "SaleId": 215,
-  "Earning": 22755.974,
-  "EarningPercent": 6183.382,
-  "Heading": "officia",
-  "Number": "971929",
-  "Probability": 371,
-  "CreatedDate": "2007-06-07T14:19:04.1261993+02:00",
-  "UpdatedDate": "2021-03-26T14:19:04.1261993+01:00",
+  "Saledate": "2005-07-09T12:15:20.0807356+02:00",
+  "Amount": 21026.005999999998,
+  "SaleId": 254,
+  "Earning": 27178.048,
+  "EarningPercent": 4049.1279999999997,
+  "Heading": "ut",
+  "Number": "484515",
+  "Probability": 983,
+  "CreatedDate": "2018-11-06T12:15:20.0807356+01:00",
+  "UpdatedDate": "2000-03-12T12:15:20.0807356+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 864,
+  "ActiveLinks": 825,
   "Links": [
     {
-      "EntityName": "Bosco Inc and Sons",
-      "Id": 720,
-      "Description": "Advanced dynamic capability",
-      "ExtraInfo": "exercitationem",
-      "LinkId": 658,
+      "EntityName": "Powlowski Group",
+      "Id": 999,
+      "Description": "Synergized global info-mediaries",
+      "ExtraInfo": "at",
+      "LinkId": 173,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 642
+          "FieldLength": 486
         }
       }
     }
   ],
-  "NextDueDate": "2017-01-09T14:19:04.1261993+01:00",
-  "Postit": "voluptatibus",
+  "NextDueDate": "2016-03-22T12:15:20.0807356+01:00",
+  "Postit": "praesentium",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1999-08-29T14:19:04.1261993+02:00",
+  "ReopenDate": "2011-11-06T12:15:20.0807356+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Cummings, Heathcote and Reinger",
-      "Comment": "et",
-      "StakeholderRoleId": 464,
-      "CountryId": 511,
-      "PersonId": 843,
-      "EmailDescription": "liliana.hartmann@schoen.info",
-      "EmailId": 769,
-      "EmailAddress": "jamil.welch@murphy.info",
-      "PhoneId": 503,
-      "ContactName": "Schmidt-Blick",
-      "ContactId": 414,
-      "SaleId": 458,
-      "Mrmrs": "quae",
-      "Firstname": "Cruz",
-      "MiddleName": "Aufderhar, Bosco and Cole",
-      "Lastname": "Terry",
-      "SaleStakeholderId": 522,
-      "Rank": 887,
-      "Phone": "(048)430-7608 x967",
+      "StakeholderRoleName": "D'Amore, Rutherford and Botsford",
+      "Comment": "molestias",
+      "StakeholderRoleId": 401,
+      "CountryId": 890,
+      "PersonId": 868,
+      "EmailDescription": "maribel@renner.name",
+      "EmailId": 584,
+      "EmailAddress": "leon.orn@spencer.biz",
+      "PhoneId": 318,
+      "ContactName": "Okuneva-Veum",
+      "ContactId": 655,
+      "SaleId": 628,
+      "Mrmrs": "qui",
+      "Firstname": "Reva",
+      "MiddleName": "Runolfsdottir Inc and Sons",
+      "Lastname": "Gorczany",
+      "SaleStakeholderId": 68,
+      "Rank": 721,
+      "Phone": "752.621.4899",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 614
+          "FieldLength": 517
         }
       }
     }
   ],
-  "ActiveErpLinks": 812,
+  "ActiveErpLinks": 759,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Laurie Emard"
+    "SuperOffice:1": "562330082",
+    "SuperOffice:2": "Dagmar Prosacco"
   },
   "ExtraFields": {
-    "ExtraFields1": "aspernatur",
-    "ExtraFields2": "itaque"
+    "ExtraFields1": "eligendi",
+    "ExtraFields2": "vel"
   },
   "CustomFields": {
-    "CustomFields1": "eius",
-    "CustomFields2": "ut"
+    "CustomFields1": "excepturi",
+    "CustomFields2": "asperiores"
   },
-  "PublishEventDate": "1997-02-27T14:19:04.1261993+01:00",
-  "PublishTo": "2002-08-03T14:19:04.1261993+02:00",
-  "PublishFrom": "2015-03-10T14:19:04.1261993+01:00",
+  "PublishEventDate": "2020-03-04T12:15:20.0827358+01:00",
+  "PublishTo": "1997-09-09T12:15:20.0827358+02:00",
+  "PublishFrom": "2013-08-01T12:15:20.0827358+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 176,
+      "VisibleId": 588,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "aspernatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 857
+          "FieldLength": 982
         }
       }
     },
     {
-      "VisibleId": 176,
+      "VisibleId": 588,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "aspernatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 857
+          "FieldLength": 982
         }
       }
     }
@@ -250,7 +250,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldLength": 184
     }
   }
 }

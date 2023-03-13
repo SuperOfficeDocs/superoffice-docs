@@ -125,72 +125,72 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 63,
+  "EjMessageId": 840,
   "Ticket": null,
-  "CreatedAt": "2013-09-10T14:19:10.8967282+02:00",
+  "CreatedAt": "2015-08-03T12:15:27.5626274+02:00",
   "CreatedBy": null,
-  "Author": "rerum",
+  "Author": "similique",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "corporis",
-  "TimeSpent": 350,
-  "Body": "consequatur",
-  "HtmlBody": "qui",
-  "EmailHeader": "elfrieda@herzogmarks.info",
-  "DebugInfo": "iste",
-  "MailSorter": "non",
+  "MessageId": "vitae",
+  "TimeSpent": 109,
+  "Body": "et",
+  "HtmlBody": "voluptas",
+  "EmailHeader": "duane@wunsch.biz",
+  "DebugInfo": "quae",
+  "MailSorter": "nam",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "accusantium",
+  "SearchTitle": "autem",
   "MessageHeaders": [
     {
-      "Id": 36,
-      "Name": "Sanford, Langosh and Schamberger",
-      "Value": "non",
+      "Id": 991,
+      "Name": "Sporer, Sipes and Larkin",
+      "Value": "nobis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 36,
-      "Name": "Sanford, Langosh and Schamberger",
-      "Value": "non",
+      "Id": 991,
+      "Name": "Sporer, Sipes and Larkin",
+      "Value": "nobis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
-  "Language": "quidem",
-  "Sentiment": 642,
-  "SentimentConfidence": 173,
+  "Important": false,
+  "Language": "vero",
+  "Sentiment": 234,
+  "SentimentConfidence": 711,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 352,
-      "Name": "Jast Inc and Sons",
-      "ContentType": "qui",
-      "AttSize": 263,
+      "AttachmentId": 676,
+      "Name": "Kautzer, Cremin and Cummerata",
+      "ContentType": "optio",
+      "AttSize": 826,
       "InlineImage": true,
-      "ContentId": "accusamus"
+      "ContentId": "eius"
     },
     {
-      "AttachmentId": 352,
-      "Name": "Jast Inc and Sons",
-      "ContentType": "qui",
-      "AttSize": 263,
+      "AttachmentId": 676,
+      "Name": "Kautzer, Cremin and Cummerata",
+      "ContentType": "optio",
+      "AttSize": 826,
       "InlineImage": true,
-      "ContentId": "accusamus"
+      "ContentId": "eius"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "eligendi",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "commodi",
+    "ExtraFields2": "eaque"
   },
   "CustomFields": {
-    "CustomFields1": "commodi",
-    "CustomFields2": "occaecati"
+    "CustomFields1": "beatae",
+    "CustomFields2": "dicta"
   }
 }
 ```
@@ -202,28 +202,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 106,
+  "EjMessageId": 609,
   "Ticket": null,
-  "CreatedAt": "2009-11-10T14:19:10.8967282+01:00",
+  "CreatedAt": "2010-05-08T12:15:27.5706311+02:00",
   "CreatedBy": null,
-  "Author": "ea",
+  "Author": "unde",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nam",
-  "TimeSpent": 523,
-  "Body": "qui",
-  "HtmlBody": "nobis",
-  "EmailHeader": "eloise.hilll@nienow.uk",
-  "DebugInfo": "nesciunt",
-  "MailSorter": "voluptatem",
+  "MessageId": "sit",
+  "TimeSpent": 206,
+  "Body": "doloribus",
+  "HtmlBody": "quidem",
+  "EmailHeader": "consuelo@towne.ca",
+  "DebugInfo": "rerum",
+  "MailSorter": "similique",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "et",
+  "SearchTitle": "libero",
   "MessageHeaders": [
     {
-      "Id": 222,
-      "Name": "Douglas Group",
-      "Value": "culpa",
+      "Id": 715,
+      "Name": "McGlynn Inc and Sons",
+      "Value": "beatae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -231,47 +231,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 804
+          "FieldLength": 326
         }
       }
     }
   ],
   "Important": false,
-  "Language": "animi",
-  "Sentiment": 493,
-  "SentimentConfidence": 297,
+  "Language": "voluptas",
+  "Sentiment": 958,
+  "SentimentConfidence": 95,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 296,
-      "Name": "Botsford-Stamm",
-      "ContentType": "quo",
-      "AttSize": 894,
-      "InlineImage": false,
-      "ContentId": "deleniti",
+      "AttachmentId": 391,
+      "Name": "Jones-Becker",
+      "ContentType": "dolore",
+      "AttSize": 221,
+      "InlineImage": true,
+      "ContentId": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 564
+          "FieldLength": 995
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "molestiae"
+    "ExtraFields1": "ad",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "fugiat",
-    "CustomFields2": "expedita"
+    "CustomFields1": "quia",
+    "CustomFields2": "molestias"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldLength": 81
     }
   }
 }

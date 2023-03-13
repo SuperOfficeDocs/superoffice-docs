@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Romaguera, Gutkowski and Klocko",
+  "LayoutName": "Eichmann Inc and Sons",
   "ConfigParameter": null
 }
 ```
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 216,
-  "Name": "Torphy LLC",
-  "Value": "qui",
-  "CreatedDate": "2013-08-10T14:19:02.7594283+02:00",
-  "UpdatedDate": "2002-06-18T14:19:02.7594283+02:00",
-  "CreatedBy": "voluptatum",
-  "UpdatedBy": "aliquid",
+  "AudienceLayoutId": 292,
+  "Name": "Murphy, Schiller and Jenkins",
+  "Value": "natus",
+  "CreatedDate": "2022-07-14T12:15:18.1883045+02:00",
+  "UpdatedDate": "2014-03-03T12:15:18.1883045+01:00",
+  "CreatedBy": "facere",
+  "UpdatedBy": "excepturi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 845
+      "FieldType": "System.Int32",
+      "FieldLength": 918
     }
   }
 }

@@ -80,19 +80,19 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 980,
-  "ERPPriceListKey": "voluptatem",
-  "QuoteConnectionId": 592,
-  "Name": "Macejkovic-Williamson",
-  "Description": "Open-source bottom-line local area network",
-  "Currency": "iusto",
-  "CurrencyName": "Kutch Group",
-  "ValidFrom": "1996-09-28T14:19:04.0000842+02:00",
-  "ValidTo": "2019-11-06T14:19:04.0000842+01:00",
+  "PriceListId": 39,
+  "ERPPriceListKey": "molestiae",
+  "QuoteConnectionId": 74,
+  "Name": "Huel-Harber",
+  "Description": "Customizable 5th generation intranet",
+  "Currency": "odio",
+  "CurrencyName": "Emmerich LLC",
+  "ValidFrom": "2011-12-18T12:15:19.9087379+01:00",
+  "ValidTo": "2022-11-04T12:15:19.9087379+01:00",
   "IsActive": false
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 17,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 257,
-  "Name": "Prohaska-Cremin",
-  "Description": "Decentralized asynchronous encryption",
-  "Currency": "blanditiis",
-  "CurrencyName": "Anderson-Legros",
-  "ValidFrom": "2021-07-24T14:19:04.0000842+02:00",
-  "ValidTo": "2016-04-16T14:19:04.0000842+02:00",
+  "PriceListId": 440,
+  "ERPPriceListKey": "magnam",
+  "QuoteConnectionId": 54,
+  "Name": "Feil Inc and Sons",
+  "Description": "Distributed actuating methodology",
+  "Currency": "aut",
+  "CurrencyName": "O'Keefe, Walsh and Waelchi",
+  "ValidFrom": "2009-08-23T12:15:19.9097451+02:00",
+  "ValidTo": "2008-01-16T12:15:19.9097451+01:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 620
+      "FieldType": "System.Int32",
+      "FieldLength": 569
     }
   }
 }

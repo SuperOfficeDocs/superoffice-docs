@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 273,
-  "TargetDimensionId": 62
+  "Year": 281,
+  "TargetDimensionId": 805
 }
 ```
 
@@ -98,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 323,
+    "TargetAssignmentInfoId": 689,
     "Values": [
-      95,
-      418
+      801,
+      629
     ],
     "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 84,
-    "DimensionListItemDisplayName": "Monahan Group",
+    "DimensionListItem": 167,
+    "DimensionListItemDisplayName": "Franecki, Dicki and Beer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 839
+        "FieldType": "System.String",
+        "FieldLength": 896
       }
     }
   }

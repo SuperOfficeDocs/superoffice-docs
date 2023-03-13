@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 165,
-  "Name": "Kshlerin Group",
-  "Tooltip": "sint",
-  "Deleted": true,
-  "UdListDefinitionId": 354,
-  "Rank": 450,
+  "Id": 460,
+  "Name": "Nicolas, Adams and Ondricka",
+  "Tooltip": "similique",
+  "Deleted": false,
+  "UdListDefinitionId": 742,
+  "Rank": 13,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 954
+      "FieldType": "System.Int32",
+      "FieldLength": 993
     }
   }
 }

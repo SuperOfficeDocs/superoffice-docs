@@ -124,15 +124,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 993,
-  "GroupType": 441,
-  "StartTime": "2020-12-04T14:19:02.3731222+01:00",
-  "EndTime": "2012-11-23T14:19:02.3731222+01:00",
-  "Count": 697
+  "GroupId": 904,
+  "GroupType": 815,
+  "StartTime": "2008-03-20T12:15:17.6717706+01:00",
+  "EndTime": "2001-11-11T12:15:17.6717706+01:00",
+  "Count": 103
 }
 ```
 
@@ -144,61 +144,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 49,
-    "StartDate": "1998-04-03T14:19:02.3731222+02:00",
-    "EndDate": "2015-07-06T14:19:02.3731222+02:00",
+    "AppointmentId": 904,
+    "StartDate": "2021-02-08T12:15:17.672773+01:00",
+    "EndDate": "2006-10-16T12:15:17.672773+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quis",
-    "AssociateFullName": "Cristian Mayert",
-    "ContactName": "Dicki Inc and Sons",
-    "Description": "Reverse-engineered impactful monitoring",
-    "PersonFullName": "Kennith Rowe",
-    "PersonId": 946,
-    "ContactId": 433,
-    "ProjectId": 962,
-    "ProjectName": "Welch-Jaskolski",
+    "Task": "est",
+    "AssociateFullName": "Helmer Goodwin",
+    "ContactName": "Ullrich-Hane",
+    "Description": "Face to face modular software",
+    "PersonFullName": "Sam Kerluke",
+    "PersonId": 53,
+    "ContactId": 613,
+    "ProjectId": 6,
+    "ProjectName": "Kozey LLC",
     "IsPublished": false,
-    "AssociateId": 493,
-    "ColorIndex": 214,
-    "IsFree": true,
-    "HasAlarm": true,
+    "AssociateId": 492,
+    "ColorIndex": 605,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 592,
-    "PriorityName": "Pollich, Buckridge and Ryan",
+    "PriorityId": 515,
+    "PriorityName": "Ankunding, Trantow and Willms",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2001-04-29T14:19:02.3731222+02:00",
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2018-12-28T12:15:17.6737701+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2002-10-20T14:19:02.3731222+02:00",
-    "RecurringEndDate": "2004-07-29T14:19:02.3731222+02:00",
-    "MotherId": 50,
-    "AssignedBy": 155,
-    "AssignedByFullName": "Mr. Missouri Bergnaum DDS",
+    "RecurringStartDate": "2014-09-23T12:15:17.6737701+02:00",
+    "RecurringEndDate": "2021-09-23T12:15:17.6737701+02:00",
+    "MotherId": 305,
+    "AssignedBy": 187,
+    "AssignedByFullName": "Jeffry Fahey",
     "RejectReason": "",
-    "Location": "dolores",
-    "AlarmLeadTime": "impedit",
-    "SaleId": 940,
-    "SaleName": "Gorczany-Koss",
-    "AssociateName": "Ernser-Hills",
-    "CreatedDate": "2001-09-10T14:19:02.3731222+02:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Neha Schmeler",
-    "CreatedByAssociateId": 445,
+    "Location": "nihil",
+    "AlarmLeadTime": "sit",
+    "SaleId": 754,
+    "SaleName": "Oberbrunner LLC",
+    "AssociateName": "Hettinger, Bergnaum and McLaughlin",
+    "CreatedDate": "2020-03-20T12:15:17.6737701+01:00",
+    "CreatedBy": "aut",
+    "CreatedByFullName": "Raul Tremblay",
+    "CreatedByAssociateId": 906,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 949
+        "FieldType": "System.String",
+        "FieldLength": 435
       }
     }
   }

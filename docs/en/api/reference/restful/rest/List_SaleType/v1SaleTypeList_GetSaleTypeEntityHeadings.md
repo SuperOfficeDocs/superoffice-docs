@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 905,
-    "Name": "Leffler, Nader and Koch",
-    "Tooltip": "quis",
+    "HeadingId": 679,
+    "Name": "Baumbach, Will and Donnelly",
+    "Tooltip": "odio",
     "Deleted": false,
-    "Rank": 779,
-    "UdListDefinitionId": 334,
+    "Rank": 717,
+    "UdListDefinitionId": 382,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 182
+        "FieldType": "System.Int32",
+        "FieldLength": 803
       }
     }
   }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 572
+  "DocumentId": 749
 }
 ```
 
@@ -94,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "officia",
-    "DocumentId": 92,
-    "VersionId": "eius",
-    "CheckedInDate": "2002-07-01T14:19:03.3386569+02:00",
-    "CheckedInByName": "Stokes, Ondricka and Luettgen",
-    "CheckedInByAssociateId": 477,
-    "Description": "Networked fault-tolerant architecture",
-    "DisplayText": "veniam",
+    "ExternalReference": "ratione",
+    "DocumentId": 845,
+    "VersionId": "nostrum",
+    "CheckedInDate": "2000-04-20T12:15:18.8597212+02:00",
+    "CheckedInByName": "Grant LLC",
+    "CheckedInByAssociateId": 454,
+    "Description": "Configurable 24 hour hierarchy",
+    "DisplayText": "libero",
     "ExtraFields": [
-      "odio",
-      "modi"
+      "aut",
+      "nulla"
     ]
   }
 ]

@@ -30,7 +30,7 @@ Calls the Appointment agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 838,
-    "Name": "Lockman Inc and Sons",
-    "ToolTip": "Quos iste accusantium.",
+    "Id": 407,
+    "Name": "Wolf, Schuster and Huels",
+    "ToolTip": "Est officia omnis.",
     "Deleted": false,
-    "Rank": 554,
-    "Type": "rem",
-    "ColorBlock": 638,
-    "IconHint": "tempore",
-    "Selected": true,
-    "LastChanged": "2015-06-12T14:19:11.6433214+02:00",
+    "Rank": 357,
+    "Type": "recusandae",
+    "ColorBlock": 836,
+    "IconHint": "aspernatur",
+    "Selected": false,
+    "LastChanged": "2000-10-20T12:15:28.5366137+02:00",
     "ChildItems": [
       {
-        "Id": 603,
-        "Name": "Weber LLC",
-        "ToolTip": "Alias blanditiis ut totam commodi itaque qui.",
-        "Deleted": true,
-        "Rank": 648,
-        "Type": "facere",
-        "ColorBlock": 524,
-        "IconHint": "inventore",
+        "Id": 872,
+        "Name": "Luettgen, Schmitt and Metz",
+        "ToolTip": "Eum nihil perferendis.",
+        "Deleted": false,
+        "Rank": 705,
+        "Type": "placeat",
+        "ColorBlock": 773,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2007-07-14T14:19:11.6433214+02:00",
+        "LastChanged": "2022-02-01T12:15:28.5366137+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "molestiae",
-        "Hidden": false,
-        "FullName": "Sadye Feeney",
+        "ExtraInfo": "officiis",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Mr. Joan Corwin V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 71
+            "FieldType": "System.Int32",
+            "FieldLength": 502
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "distinctio",
+    "ExtraInfo": "dolor",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Guadalupe Kuhn",
+    "FullName": "Pete Reinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 560
+        "FieldLength": 596
       }
     }
   }

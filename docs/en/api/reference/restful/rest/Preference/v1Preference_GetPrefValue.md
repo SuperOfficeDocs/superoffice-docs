@@ -71,7 +71,7 @@ OK
 GET /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,22 +82,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "maxime",
+  "RawValue": "occaecati",
   "Specification": null,
-  "DisplayValue": "et",
-  "DisplayTooltip": "asperiores",
+  "DisplayValue": "aliquam",
+  "DisplayTooltip": "minima",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 735,
-  "PrefDescId": 24,
-  "TableName": "Howell-Tremblay",
-  "UserPreferenceId": 473,
+  "TargetId": 194,
+  "PrefDescId": 739,
+  "TableName": "Homenick, Jacobi and Bins",
+  "UserPreferenceId": 833,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 143
+      "FieldType": "System.String",
+      "FieldLength": 650
     }
   }
 }

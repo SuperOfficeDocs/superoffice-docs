@@ -106,51 +106,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 446,
-  "Name": "Purdy, Mraz and Hickle",
-  "Tooltip": "explicabo",
-  "Rank": 446,
+  "SaleTypeId": 833,
+  "Name": "Koelpin-Moen",
+  "Tooltip": "aut",
+  "Rank": 392,
   "DurationUnit": "Century",
-  "SaleDuration": 925,
-  "SaleTypeCatId": 796,
+  "SaleDuration": 703,
+  "SaleTypeCatId": 366,
   "Deleted": true,
-  "HasGuide": false,
-  "HasStakeholders": true,
+  "HasGuide": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 674,
-  "QuoteLinesTemplate": 373,
-  "ConfirmationLinesTemplate": 730,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 614,
+  "QuoteLinesTemplate": 732,
+  "ConfirmationLinesTemplate": 404,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 10,
-  "MinEarningPercent": 451,
-  "GroupQuoteLinesBy": 292,
-  "SortGroupLinesBy": 494,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 876,
+  "MinEarningPercent": 87,
+  "GroupQuoteLinesBy": 290,
+  "SortGroupLinesBy": 836,
   "Stages": [
     {
-      "Id": 813,
-      "Name": "Keebler Inc and Sons",
-      "ToolTip": "Adipisci dolorem voluptatem qui voluptate accusantium.",
-      "Deleted": true,
-      "Rank": 922,
-      "Type": "omnis",
-      "ColorBlock": 429,
-      "IconHint": "suscipit",
-      "Selected": false,
-      "LastChanged": "2011-07-28T14:19:11.4870653+02:00",
+      "Id": 341,
+      "Name": "Maggio Inc and Sons",
+      "ToolTip": "Natus corrupti qui iste.",
+      "Deleted": false,
+      "Rank": 396,
+      "Type": "incidunt",
+      "ColorBlock": 310,
+      "IconHint": "maxime",
+      "Selected": true,
+      "LastChanged": "2005-08-09T12:15:28.4676171+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "suscipit",
+      "ExtraInfo": "eius",
+      "StyleHint": "neque",
       "Hidden": false,
-      "FullName": "Kiarra Farrell"
+      "FullName": "Raymond Hettinger"
     }
   ]
 }
@@ -163,53 +163,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 972,
-  "Name": "Haley, Johnston and Padberg",
-  "Tooltip": "enim",
-  "Rank": 458,
+  "SaleTypeId": 405,
+  "Name": "Maggio, Heathcote and Renner",
+  "Tooltip": "sint",
+  "Rank": 125,
   "DurationUnit": "Century",
-  "SaleDuration": 368,
-  "SaleTypeCatId": 289,
+  "SaleDuration": 594,
+  "SaleTypeCatId": 862,
   "Deleted": true,
   "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 845,
-  "QuoteLinesTemplate": 322,
-  "ConfirmationLinesTemplate": 670,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 826,
+  "QuoteLinesTemplate": 905,
+  "ConfirmationLinesTemplate": 709,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 961,
-  "MinEarningPercent": 823,
-  "GroupQuoteLinesBy": 66,
+  "MaxDiscountPercent": 934,
+  "MinEarningPercent": 216,
+  "GroupQuoteLinesBy": 589,
   "SortGroupLinesBy": 739,
   "Stages": [
     {
-      "Id": 967,
-      "Name": "Hoeger Inc and Sons",
-      "ToolTip": "Temporibus aut et occaecati eveniet voluptatem eveniet et.",
+      "Id": 187,
+      "Name": "Walker, Lebsack and Schulist",
+      "ToolTip": "Possimus maxime.",
       "Deleted": false,
-      "Rank": 700,
-      "Type": "reiciendis",
-      "ColorBlock": 218,
-      "IconHint": "sequi",
-      "Selected": true,
-      "LastChanged": "2002-10-19T14:19:11.4870653+02:00",
+      "Rank": 306,
+      "Type": "corporis",
+      "ColorBlock": 587,
+      "IconHint": "est",
+      "Selected": false,
+      "LastChanged": "2007-08-05T12:15:28.4696196+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "odit",
-      "StyleHint": "quia",
+      "ExtraInfo": "vitae",
+      "StyleHint": "aut",
       "Hidden": false,
-      "FullName": "Cheyanne Lynch",
+      "FullName": "Dr. Mortimer Juvenal Hagenes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 810
+          "FieldType": "System.String",
+          "FieldLength": 506
         }
       }
     }
@@ -218,8 +218,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 393
+      "FieldType": "System.Int32",
+      "FieldLength": 403
     }
   }
 }

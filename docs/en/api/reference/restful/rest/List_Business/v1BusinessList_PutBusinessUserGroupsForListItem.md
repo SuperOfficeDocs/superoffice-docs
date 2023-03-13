@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 910,
-    "Name": "Witting-Kunde",
-    "ToolTip": "Minus ipsam aut.",
-    "Deleted": false,
-    "Rank": 56,
-    "Type": "occaecati",
-    "ColorBlock": 805,
-    "IconHint": "autem",
-    "Selected": false,
-    "LastChanged": "2021-10-30T14:19:11.1324679+02:00",
+    "Id": 747,
+    "Name": "Stoltenberg-Leuschke",
+    "ToolTip": "Ipsam molestias.",
+    "Deleted": true,
+    "Rank": 928,
+    "Type": "iste",
+    "ColorBlock": 833,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "2014-10-27T12:15:27.872622+01:00",
     "ChildItems": [
       {
-        "Id": 302,
-        "Name": "Towne-Mayert",
-        "ToolTip": "Mollitia sint quis ut nam.",
+        "Id": 715,
+        "Name": "Kuphal-Cruickshank",
+        "ToolTip": "Quis iusto similique aliquid voluptas sint.",
         "Deleted": false,
-        "Rank": 597,
-        "Type": "rem",
-        "ColorBlock": 341,
-        "IconHint": "ea",
-        "Selected": true,
-        "LastChanged": "2002-04-26T14:19:11.1324679+02:00",
+        "Rank": 255,
+        "Type": "omnis",
+        "ColorBlock": 506,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2016-03-28T12:15:27.8736229+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "atque",
+        "ExtraInfo": "et",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Mrs. Guadalupe Elmer Goldner III"
+        "FullName": "Rodolfo Mraz"
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "dolorum",
+    "ExtraInfo": "ea",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Miss Savanah Mann"
+    "FullName": "Mr. Tomasa Ward Jr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 72,
-    "Name": "Kassulke, Mraz and Walsh",
-    "ToolTip": "Culpa eligendi et.",
-    "Deleted": false,
-    "Rank": 1000,
-    "Type": "ipsum",
-    "ColorBlock": 429,
-    "IconHint": "veniam",
-    "Selected": true,
-    "LastChanged": "2009-04-21T14:19:11.1324679+02:00",
+    "Id": 602,
+    "Name": "Jacobson-Rowe",
+    "ToolTip": "Suscipit qui dignissimos sunt culpa ratione.",
+    "Deleted": true,
+    "Rank": 443,
+    "Type": "alias",
+    "ColorBlock": 744,
+    "IconHint": "consequuntur",
+    "Selected": false,
+    "LastChanged": "2014-07-19T12:15:27.8756227+02:00",
     "ChildItems": [
       {
-        "Id": 757,
-        "Name": "Huels Group",
-        "ToolTip": "Qui quod distinctio quasi.",
-        "Deleted": false,
-        "Rank": 411,
-        "Type": "recusandae",
-        "ColorBlock": 843,
-        "IconHint": "vitae",
+        "Id": 248,
+        "Name": "Larson LLC",
+        "ToolTip": "Laboriosam amet dignissimos suscipit est officia error.",
+        "Deleted": true,
+        "Rank": 187,
+        "Type": "voluptatem",
+        "ColorBlock": 120,
+        "IconHint": "iste",
         "Selected": false,
-        "LastChanged": "2013-11-12T14:19:11.1324679+01:00",
+        "LastChanged": "2005-08-13T12:15:27.8756227+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "id",
+        "ExtraInfo": "ad",
+        "StyleHint": "blanditiis",
         "Hidden": false,
-        "FullName": "Sydnee Zulauf",
+        "FullName": "Dr. Missouri Tyree Sawayn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 4
+            "FieldType": "System.Int32",
+            "FieldLength": 867
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "optio",
+    "ExtraInfo": "non",
+    "StyleHint": "magnam",
     "Hidden": true,
-    "FullName": "Mrs. Sadie Joshua Boyle II",
+    "FullName": "Kole Mosciski I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 618
+        "FieldLength": 872
       }
     }
   }

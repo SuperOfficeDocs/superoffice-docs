@@ -109,28 +109,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 305,
-  "Section": "quibusdam",
-  "Key": "beatae",
-  "Name": "Grady-Becker",
+  "PrefDescId": 783,
+  "Section": "asperiores",
+  "Key": "fugiat",
+  "Name": "Muller Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Reduced object-oriented firmware",
+  "Description": "Grass-roots zero administration circuit",
   "IsBuiltin": false,
-  "TableName": "Blick, Kris and Hermann",
-  "UserDefinedListId": 278,
-  "Rank": 659,
-  "SubGroup": "nobis",
-  "MinLevel": 300,
-  "MaxValue": 215,
-  "MinValue": 263,
-  "RequiredLicense": "eveniet"
+  "TableName": "Crona, Wiza and Jones",
+  "UserDefinedListId": 610,
+  "Rank": 202,
+  "SubGroup": "eius",
+  "MinLevel": 862,
+  "MaxValue": 491,
+  "MinValue": 638,
+  "RequiredLicense": "rerum"
 }
 ```
 
@@ -141,30 +141,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 276,
-  "Section": "optio",
-  "Key": "perferendis",
-  "Name": "Klein, Connelly and Fay",
+  "PrefDescId": 751,
+  "Section": "cum",
+  "Key": "non",
+  "Name": "Bode-Borer",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Upgradable optimizing orchestration",
+  "Description": "Team-oriented assymetric capability",
   "IsBuiltin": false,
-  "TableName": "Goyette, Carroll and Bergstrom",
-  "UserDefinedListId": 260,
-  "Rank": 869,
-  "SubGroup": "eos",
-  "MinLevel": 859,
-  "MaxValue": 145,
-  "MinValue": 639,
-  "RequiredLicense": "deserunt",
+  "TableName": "Balistreri LLC",
+  "UserDefinedListId": 602,
+  "Rank": 134,
+  "SubGroup": "aut",
+  "MinLevel": 375,
+  "MaxValue": 135,
+  "MinValue": 105,
+  "RequiredLicense": "perspiciatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 669
+      "FieldType": "System.Int32",
+      "FieldLength": 357
     }
   },
   "_Links": {

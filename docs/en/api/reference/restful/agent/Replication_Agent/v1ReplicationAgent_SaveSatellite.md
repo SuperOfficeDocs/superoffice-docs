@@ -78,21 +78,21 @@ OK
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 742,
-  "Created": "1998-10-26T14:19:04.0625865+01:00",
+  "SatelliteId": 253,
+  "Created": "2006-09-16T12:15:19.9877369+02:00",
   "CreatedBy": null,
-  "Updated": "2017-12-25T14:19:04.0625865+01:00",
+  "Updated": "2003-01-17T12:15:19.9877369+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Dach Group",
-      "Description": "Customizable needs-based orchestration",
+      "Name": "Connelly-Macejkovic",
+      "Description": "Quality-focused local algorithm",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -103,8 +103,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Dach Group",
-      "Description": "Customizable needs-based orchestration",
+      "Name": "Connelly-Macejkovic",
+      "Description": "Quality-focused local algorithm",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -125,17 +125,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 189,
-  "Created": "2019-09-11T14:19:04.0625865+02:00",
+  "SatelliteId": 587,
+  "Created": "2019-08-29T12:15:19.9917367+02:00",
   "CreatedBy": null,
-  "Updated": "2010-10-27T14:19:04.0625865+02:00",
+  "Updated": "2020-03-26T12:15:19.9937367+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Simonis, Cremin and Marks",
-      "Description": "Realigned grid-enabled Graphical User Interface",
+      "Name": "Wiza-Heidenreich",
+      "Description": "Robust mission-critical frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -148,14 +148,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 253
+          "FieldType": "System.Int32",
+          "FieldLength": 613
         }
       }
     },
     {
-      "Name": "Simonis, Cremin and Marks",
-      "Description": "Realigned grid-enabled Graphical User Interface",
+      "Name": "Wiza-Heidenreich",
+      "Description": "Robust mission-critical frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -168,8 +168,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 253
+          "FieldType": "System.Int32",
+          "FieldLength": 613
         }
       }
     }
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 191
+      "FieldType": "System.String",
+      "FieldLength": 691
     }
   }
 }

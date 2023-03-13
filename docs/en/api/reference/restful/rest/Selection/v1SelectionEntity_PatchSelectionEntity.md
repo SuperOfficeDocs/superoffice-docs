@@ -147,18 +147,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "distinctio",
+    "path": "molestiae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "distinctio",
+    "path": "molestiae",
     "value": {}
   }
 ]
@@ -171,70 +171,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Intuitive demand-driven website",
-  "Postit": "eum",
+  "Description": "Proactive high-level architecture",
+  "Postit": "iure",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 44,
-  "IncludePerson": 342,
-  "MemberCount": 141,
-  "Name": "Leuschke, Lehner and Howell",
-  "PostitTextId": 766,
-  "CreatedDate": "2013-03-28T14:19:10.7717284+01:00",
-  "SelectionId": 490,
-  "SoundEx": "ipsum",
-  "Source": 173,
-  "TextId": 362,
-  "UpdatedDate": "2006-12-23T14:19:10.7717284+01:00",
-  "UpdatedCount": 614,
-  "Visibility": 808,
+  "GroupIdx": 383,
+  "IncludePerson": 567,
+  "MemberCount": 654,
+  "Name": "Prohaska LLC",
+  "PostitTextId": 448,
+  "CreatedDate": "2019-10-24T12:15:27.3846295+02:00",
+  "SelectionId": 398,
+  "SoundEx": "aliquam",
+  "Source": 629,
+  "TextId": 90,
+  "UpdatedDate": "2008-10-22T12:15:27.3846295+02:00",
+  "UpdatedCount": 80,
+  "Visibility": 37,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 638,
-  "TargetTableName": "Torp-Hessel",
+  "CompanyUnique": false,
+  "TargetTableNumber": 931,
+  "TargetTableName": "Kertzmann Group",
   "Completed": false,
-  "LeftSelectionId": 257,
-  "RightSelectionId": 713,
+  "LeftSelectionId": 635,
+  "RightSelectionId": 405,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Howell LLC",
-  "ShadowProviderName": "Lindgren-Orn",
-  "ChartKey": "doloremque",
-  "LastLoaded": "2017-09-13T14:19:10.7717284+02:00",
-  "LastLoadedBy": 295,
+  "MainProviderName": "Ondricka-Wolf",
+  "ShadowProviderName": "Ernser Inc and Sons",
+  "ChartKey": "amet",
+  "LastLoaded": "1996-11-23T12:15:27.3846295+01:00",
+  "LastLoadedBy": 521,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-11-25T14:19:10.7717284+01:00",
-  "LastMembershipChangeBy": 643,
+  "LastMembershipChange": "2020-03-21T12:15:27.3856318+01:00",
+  "LastMembershipChangeBy": 947,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "harum",
-  "MemberTabHeading": "ex",
-  "MailingsProviderName": "Skiles LLC",
-  "DashboardTileDefinitionId": 58,
+  "MainHeading": "distinctio",
+  "MemberTabHeading": "sint",
+  "MailingsProviderName": "Kuhn-Bednar",
+  "DashboardTileDefinitionId": 263,
   "VisibleFor": [
     {
-      "VisibleId": 923,
+      "VisibleId": 265,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 491
+          "FieldLength": 99
         }
       }
     },
     {
-      "VisibleId": 923,
+      "VisibleId": 265,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 491
+          "FieldLength": 99
         }
       }
     }
@@ -244,7 +244,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 13
+      "FieldLength": 334
     }
   },
   "_Links": {

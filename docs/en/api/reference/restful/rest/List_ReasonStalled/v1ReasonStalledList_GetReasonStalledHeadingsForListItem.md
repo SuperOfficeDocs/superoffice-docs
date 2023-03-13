@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 232,
-    "Name": "Hessel-Gerhold",
-    "ToolTip": "Et accusamus officia ut reiciendis.",
+    "Id": 365,
+    "Name": "Gusikowski-Shields",
+    "ToolTip": "Odio eius quod maxime facere.",
     "Deleted": true,
-    "Rank": 528,
-    "Type": "sit",
-    "ColorBlock": 529,
-    "IconHint": "error",
-    "Selected": true,
-    "LastChanged": "2001-03-04T14:19:11.4870653+01:00",
+    "Rank": 126,
+    "Type": "iusto",
+    "ColorBlock": 537,
+    "IconHint": "iste",
+    "Selected": false,
+    "LastChanged": "2002-03-09T12:15:28.459618+01:00",
     "ChildItems": [
       {
-        "Id": 445,
-        "Name": "Wyman-Schulist",
-        "ToolTip": "Natus optio eum eveniet.",
-        "Deleted": false,
-        "Rank": 618,
-        "Type": "architecto",
-        "ColorBlock": 97,
-        "IconHint": "consectetur",
+        "Id": 502,
+        "Name": "Marvin, Rath and Murray",
+        "ToolTip": "Vero perspiciatis rerum qui aut cum eos.",
+        "Deleted": true,
+        "Rank": 78,
+        "Type": "rem",
+        "ColorBlock": 380,
+        "IconHint": "ea",
         "Selected": true,
-        "LastChanged": "2019-11-11T14:19:11.4870653+01:00",
+        "LastChanged": "1996-12-17T12:15:28.459618+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "tempore",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "temporibus",
         "Hidden": false,
-        "FullName": "Kiley Wilderman V",
+        "FullName": "Collin Cole",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 855
+            "FieldType": "System.String",
+            "FieldLength": 662
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "sit",
+    "ExtraInfo": "facere",
+    "StyleHint": "blanditiis",
     "Hidden": false,
-    "FullName": "Imogene Ankunding",
+    "FullName": "Else Pedro Doyle II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 396
+        "FieldType": "System.Int32",
+        "FieldLength": 589
       }
     }
   }

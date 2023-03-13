@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 600,
-    "Name": "Runolfsson-Daugherty",
-    "ToolTip": "Doloribus odio autem saepe eos.",
-    "Deleted": true,
-    "Rank": 506,
-    "Type": "illum",
-    "ColorBlock": 339,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "2004-01-05T14:19:11.6276984+01:00",
+    "Id": 900,
+    "Name": "Langosh Inc and Sons",
+    "ToolTip": "Et doloremque nam.",
+    "Deleted": false,
+    "Rank": 895,
+    "Type": "sunt",
+    "ColorBlock": 235,
+    "IconHint": "hic",
+    "Selected": true,
+    "LastChanged": "2008-12-12T12:15:28.5156128+01:00",
     "ChildItems": [
       {
-        "Id": 262,
-        "Name": "Rowe Group",
-        "ToolTip": "Voluptatibus consequatur in.",
-        "Deleted": false,
-        "Rank": 876,
-        "Type": "nulla",
-        "ColorBlock": 406,
-        "IconHint": "vel",
-        "Selected": false,
-        "LastChanged": "2014-01-15T14:19:11.6276984+01:00",
+        "Id": 284,
+        "Name": "Adams-Murphy",
+        "ToolTip": "Corporis at quod est molestiae aperiam.",
+        "Deleted": true,
+        "Rank": 267,
+        "Type": "rerum",
+        "ColorBlock": 128,
+        "IconHint": "fuga",
+        "Selected": true,
+        "LastChanged": "2012-02-22T12:15:28.5166153+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "modi",
+        "ExtraInfo": "enim",
+        "StyleHint": "reprehenderit",
         "Hidden": false,
-        "FullName": "Mr. Elsa Rau"
+        "FullName": "Rebecca Corkery"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "tenetur",
-    "Hidden": false,
-    "FullName": "Prof. Jerel Tiana Runolfsdottir"
+    "ExtraInfo": "accusamus",
+    "StyleHint": "corrupti",
+    "Hidden": true,
+    "FullName": "Miss Gladyce Krajcik Jr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 686,
-    "Name": "Jenkins Inc and Sons",
-    "ToolTip": "Quo totam quas unde.",
-    "Deleted": false,
-    "Rank": 10,
-    "Type": "quisquam",
-    "ColorBlock": 747,
-    "IconHint": "aperiam",
-    "Selected": false,
-    "LastChanged": "2008-01-29T14:19:11.6276984+01:00",
+    "Id": 282,
+    "Name": "Price-Larson",
+    "ToolTip": "Vel commodi.",
+    "Deleted": true,
+    "Rank": 644,
+    "Type": "aut",
+    "ColorBlock": 471,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2012-10-08T12:15:28.5176177+02:00",
     "ChildItems": [
       {
-        "Id": 273,
-        "Name": "Windler LLC",
-        "ToolTip": "Et aut repudiandae itaque omnis.",
+        "Id": 375,
+        "Name": "Nienow, Boehm and Hintz",
+        "ToolTip": "In cupiditate blanditiis.",
         "Deleted": false,
-        "Rank": 329,
-        "Type": "magni",
-        "ColorBlock": 918,
-        "IconHint": "vero",
-        "Selected": true,
-        "LastChanged": "2009-07-06T14:19:11.6276984+02:00",
+        "Rank": 657,
+        "Type": "quia",
+        "ColorBlock": 696,
+        "IconHint": "quo",
+        "Selected": false,
+        "LastChanged": "2014-07-28T12:15:28.5176177+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "sapiente",
-        "StyleHint": "maxime",
-        "Hidden": false,
-        "FullName": "Miss Tracey Bayer",
+        "StyleHint": "totam",
+        "Hidden": true,
+        "FullName": "Mrs. Mireya Christelle Wilkinson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 412
+            "FieldLength": 368
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "tempora",
+    "ExtraInfo": "sit",
+    "StyleHint": "fugit",
     "Hidden": false,
-    "FullName": "Laurine Bergstrom MD",
+    "FullName": "Mr. Ben Scotty Kuphal",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 825
+        "FieldType": "System.Int32",
+        "FieldLength": 303
       }
     }
   }

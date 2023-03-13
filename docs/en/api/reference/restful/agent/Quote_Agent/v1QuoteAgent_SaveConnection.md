@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,54 +101,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 622,
-  "ERPName": "Ledner-Schamberger",
-  "DisplayName": "Leffler, Jones and Brekke",
-  "DisplayDescription": "Mandatory stable database",
-  "Rank": 345,
-  "ConnectorName": "Romaguera, Gusikowski and Bode",
-  "ErpConnectionId": 736,
-  "ExtraData": "inventore",
-  "IsAvailable": false,
+  "QuoteConnectionId": 256,
+  "ERPName": "Nitzsche Inc and Sons",
+  "DisplayName": "Lockman Group",
+  "DisplayDescription": "Re-engineered client-driven interface",
+  "Rank": 130,
+  "ConnectorName": "Waters-Dibbert",
+  "ErpConnectionId": 862,
+  "ExtraData": "dolorem",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 334,
-      "ERPPriceListKey": "aspernatur",
-      "QuoteConnectionId": 577,
-      "Name": "Shanahan, Langworth and Nolan",
-      "Description": "Reduced demand-driven infrastructure",
-      "Currency": "accusantium",
-      "CurrencyName": "Becker-Leannon",
-      "ValidFrom": "2013-05-30T14:19:04.0313341+02:00",
-      "ValidTo": "1998-10-23T14:19:04.0313341+02:00",
+      "PriceListId": 842,
+      "ERPPriceListKey": "atque",
+      "QuoteConnectionId": 248,
+      "Name": "Sawayn, Hessel and Hane",
+      "Description": "Persevering next generation framework",
+      "Currency": "aperiam",
+      "CurrencyName": "Jerde-Nicolas",
+      "ValidFrom": "2012-12-11T12:15:19.945739+01:00",
+      "ValidTo": "2021-10-23T12:15:19.945739+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 34
+          "FieldLength": 389
         }
       }
     }
   ],
   "AllAccess": false,
-  "Deleted": false,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    584,
-    489
+    265,
+    335
   ],
   "AssociateAccessIds": [
-    810,
-    253
+    804,
+    564
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 491
+      "FieldLength": 283
     }
   }
 }

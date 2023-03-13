@@ -92,23 +92,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 414,
-  "BlobSize": 670,
-  "Description": "Upgradable upward-trending intranet",
-  "ExtraInfo": "voluptatibus",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "enim",
-  "OriginalSize": 198,
-  "CreatedDate": "2014-09-12T14:19:10.9748549+02:00",
-  "UpdatedDate": "2006-05-14T14:19:10.9748549+02:00",
+  "BlobId": 513,
+  "BlobSize": 777,
+  "Description": "Synergistic zero defect local area network",
+  "ExtraInfo": "totam",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "voluptas",
+  "OriginalSize": 68,
+  "CreatedDate": "2006-01-20T12:15:27.6766255+01:00",
+  "UpdatedDate": "2021-09-07T12:15:27.6766255+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "suscipit"
+  "ConceptualType": "sint"
 }
 ```
 
@@ -119,25 +119,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 78,
-  "BlobSize": 355,
-  "Description": "Up-sized tertiary analyzer",
-  "ExtraInfo": "id",
+  "BlobId": 174,
+  "BlobSize": 375,
+  "Description": "Assimilated dedicated model",
+  "ExtraInfo": "rerum",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "a",
-  "OriginalSize": 849,
-  "CreatedDate": "1998-05-17T14:19:10.9748549+02:00",
-  "UpdatedDate": "2010-05-05T14:19:10.9748549+02:00",
+  "MimeType": "debitis",
+  "OriginalSize": 56,
+  "CreatedDate": "2015-04-08T12:15:27.6786254+02:00",
+  "UpdatedDate": "2021-03-14T12:15:27.6786254+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "odit",
+  "ConceptualType": "doloremque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 668
+      "FieldType": "System.Int32",
+      "FieldLength": 125
     }
   }
 }

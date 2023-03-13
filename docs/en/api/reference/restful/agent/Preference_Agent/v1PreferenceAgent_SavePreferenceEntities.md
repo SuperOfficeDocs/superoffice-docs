@@ -64,23 +64,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "aliquam",
+      "RawValue": "nihil",
       "Specification": null,
-      "DisplayValue": "quos",
-      "DisplayTooltip": "non",
+      "DisplayValue": "suscipit",
+      "DisplayTooltip": "sint",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 708,
-      "PrefDescId": 130,
-      "TableName": "Schowalter-Dickens",
-      "UserPreferenceId": 670
+      "TargetId": 121,
+      "PrefDescId": 673,
+      "TableName": "Bins Inc and Sons",
+      "UserPreferenceId": 138
     }
   ],
   "RemoveLowerLevels": false

@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 866
+  "ContactId": 961
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "432.533.5872",
-    "PersonCellPhone": "123.099.1202",
-    "PersonPrivatePhone": "924-200-4462 x08075",
-    "PersonFaxNumber": "1772122",
-    "PersonPagerNumber": "779724",
-    "PersonEmail": "jarrell@monahan.biz",
-    "Id": 302,
-    "Name": "Gerhold Group",
-    "Tooltip": "ut",
-    "UniqueId": "delectus",
+    "PersonDirectPhone": "1-078-217-0430 x60395",
+    "PersonCellPhone": "1-252-052-5325 x57177",
+    "PersonPrivatePhone": "(796)269-7814 x9583",
+    "PersonFaxNumber": "571860",
+    "PersonPagerNumber": "1509436",
+    "PersonEmail": "jacky.mccullough@moore.ca",
+    "Id": 123,
+    "Name": "Schoen, Schultz and Feest",
+    "Tooltip": "dolores",
+    "UniqueId": "deserunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 763
+        "FieldType": "System.Int32",
+        "FieldLength": 482
       }
     }
   }

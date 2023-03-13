@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Jaskolski, Kessler and Stokes",
-  "ParameterName": "Johnston-D'Amore"
+  "LayoutName": "Douglas-Koss",
+  "ParameterName": "Dickinson Group"
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 178,
-  "Name": "Tremblay-Leuschke",
-  "Value": "nam",
-  "CreatedDate": "2012-11-10T14:19:02.7594283+01:00",
-  "UpdatedDate": "2015-07-30T14:19:02.7594283+02:00",
-  "CreatedBy": "inventore",
-  "UpdatedBy": "molestiae",
+  "AudienceLayoutId": 156,
+  "Name": "Rice-Cartwright",
+  "Value": "sint",
+  "CreatedDate": "2015-06-14T12:15:18.1887634+02:00",
+  "UpdatedDate": "2015-08-21T12:15:18.1887634+02:00",
+  "CreatedBy": "explicabo",
+  "UpdatedBy": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 26
+      "FieldLength": 493
     }
   }
 }

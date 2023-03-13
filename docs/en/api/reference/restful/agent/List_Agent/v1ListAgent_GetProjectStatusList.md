@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 495,
-    "Value": "enim",
-    "Tooltip": "sed",
+    "Id": 793,
+    "Value": "natus",
+    "Tooltip": "molestiae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 647
+        "FieldLength": 681
       }
     }
   },
   {
-    "Id": 495,
-    "Value": "enim",
-    "Tooltip": "sed",
+    "Id": 793,
+    "Value": "natus",
+    "Tooltip": "molestiae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 647
+        "FieldLength": 681
       }
     }
   }

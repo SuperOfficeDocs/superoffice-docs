@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 477,
-  "Name": "Wolff Inc and Sons",
-  "Tooltip": "magnam",
+  "Id": 558,
+  "Name": "Corkery, Barrows and Harvey",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 161,
-  "Rank": 851,
+  "UdListDefinitionId": 39,
+  "Rank": 787,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 191
+      "FieldType": "System.String",
+      "FieldLength": 601
     }
   }
 }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/Role/{type}/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,16 +84,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 208,
-  "Name": "Wisoky Group",
-  "Tooltip": "dignissimos",
+  "RoleId": 4,
+  "Name": "Klocko LLC",
+  "Tooltip": "animi",
   "RoleType": "Anonymous",
-  "Deleted": 369,
-  "Rank": 159,
-  "Created": "2011-11-02T14:19:10.6623446+01:00",
-  "UseCategories": 342,
+  "Deleted": 513,
+  "Rank": 538,
+  "Created": "2008-08-21T12:15:27.2276316+02:00",
+  "UseCategories": 729,
   "CreatedBy": null,
-  "Updated": "2006-12-07T14:19:10.6623446+01:00",
+  "Updated": "2006-09-20T12:15:27.2276316+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 786
+      "FieldLength": 787
     }
   }
 }

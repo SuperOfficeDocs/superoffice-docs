@@ -97,16 +97,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 536,
-  "Name": "Nitzsche, Hodkiewicz and Fadel",
-  "Tooltip": "rem",
-  "Deleted": false,
-  "Rank": 914,
+  "Id": 800,
+  "Name": "Graham LLC",
+  "Tooltip": "in",
+  "Deleted": true,
+  "Rank": 910,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quasi",
-  "InUseByUserDefinedFields": false
+  "ListType": "nam",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -117,22 +117,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 192,
-  "Name": "West LLC",
-  "Tooltip": "consequatur",
+  "Id": 935,
+  "Name": "Lemke Inc and Sons",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 587,
-  "IsCustomList": true,
+  "Rank": 572,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aliquid",
+  "ListType": "quas",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 634
+      "FieldType": "System.Int32",
+      "FieldLength": 747
     }
   },
   "_Links": {

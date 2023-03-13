@@ -135,33 +135,33 @@ OK
 POST /api/v1/ChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 239,
-  "TopicId": 147,
+  "ChatSessionId": 276,
+  "TopicId": 918,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ut",
-  "CustomerHost": "minima",
-  "CustomerName": "Thompson-Yost",
-  "CustomerEmail": "ericka_effertz@balistreri.name",
-  "CustomerPhone": "(510)147-8562 x23501",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Parker-Powlowski",
+  "CustomerAlias": "excepturi",
+  "CustomerHost": "voluptates",
+  "CustomerName": "Casper-Spinka",
+  "CustomerEmail": "clovis_konopelski@deckow.ca",
+  "CustomerPhone": "219-181-4688 x29523",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "O'Kon, Reynolds and Goyette",
   "Status": "Closed",
-  "FirstMessage": "maxime",
-  "LastMessage": "iusto",
-  "WhenRequested": "2002-06-01T14:19:09.9892582+02:00",
-  "WhenStarted": "2001-04-13T14:19:09.9892582+02:00",
-  "WhenEnded": "2003-05-31T14:19:09.9892582+02:00",
-  "WhenIdle": "2008-10-19T14:19:09.9892582+02:00",
-  "WhenFetched": "2022-11-20T14:19:09.9892582+01:00",
-  "SessionKey": "ut",
-  "InitialQueuePos": 172,
-  "AlertLevel": 348,
-  "Rank": 624,
+  "FirstMessage": "nihil",
+  "LastMessage": "voluptatibus",
+  "WhenRequested": "2018-09-16T12:15:26.3716444+02:00",
+  "WhenStarted": "2012-04-16T12:15:26.3716444+02:00",
+  "WhenEnded": "1998-08-08T12:15:26.3716444+02:00",
+  "WhenIdle": "1999-05-05T12:15:26.3716444+02:00",
+  "WhenFetched": "2020-06-22T12:15:26.3716444+02:00",
+  "SessionKey": "nostrum",
+  "InitialQueuePos": 3,
+  "AlertLevel": 830,
+  "Rank": 279,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -169,7 +169,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 849
+  "Rating": 112
 }
 ```
 
@@ -180,48 +180,48 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 305,
-  "TopicId": 894,
+  "ChatSessionId": 519,
+  "TopicId": 975,
   "User": null,
   "Person": null,
-  "CustomerAlias": "maiores",
-  "CustomerHost": "animi",
-  "CustomerName": "Stracke LLC",
-  "CustomerEmail": "pearl.marquardt@balistrerimckenzie.com",
-  "CustomerPhone": "(684)545-7627",
+  "CustomerAlias": "voluptas",
+  "CustomerHost": "ipsum",
+  "CustomerName": "King Group",
+  "CustomerEmail": "isadore_white@rogahn.ca",
+  "CustomerPhone": "412-604-6028 x513",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Gibson-Reichert",
+  "CustomerCompanyName": "Legros-Ziemann",
   "Status": "Closed",
-  "FirstMessage": "reprehenderit",
-  "LastMessage": "perspiciatis",
-  "WhenRequested": "2014-01-26T14:19:09.9892582+01:00",
-  "WhenStarted": "2014-09-30T14:19:09.9892582+02:00",
-  "WhenEnded": "2015-07-25T14:19:09.9892582+02:00",
-  "WhenIdle": "1999-09-16T14:19:09.9892582+02:00",
-  "WhenFetched": "2000-11-10T14:19:09.9892582+01:00",
-  "SessionKey": "asperiores",
-  "InitialQueuePos": 45,
-  "AlertLevel": 732,
-  "Rank": 784,
+  "FirstMessage": "libero",
+  "LastMessage": "non",
+  "WhenRequested": "2017-10-29T12:15:26.3816441+01:00",
+  "WhenStarted": "1999-10-26T12:15:26.3816441+02:00",
+  "WhenEnded": "2009-08-13T12:15:26.3816441+02:00",
+  "WhenIdle": "1996-09-03T12:15:26.3816441+02:00",
+  "WhenFetched": "2011-03-10T12:15:26.3816441+01:00",
+  "SessionKey": "in",
+  "InitialQueuePos": 523,
+  "AlertLevel": 408,
+  "Rank": 709,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 964,
+  "ChatbotIsActive": false,
+  "Rating": 17,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 128
+      "FieldType": "System.Int32",
+      "FieldLength": 521
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

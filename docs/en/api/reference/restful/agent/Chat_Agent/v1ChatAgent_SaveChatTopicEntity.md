@@ -122,41 +122,41 @@ OK
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 640,
-  "Name": "Wolff Group",
-  "Description": "Digitized systemic knowledge user",
-  "WelcomeMessage": "voluptatem",
+  "ChatTopicId": 246,
+  "Name": "Huel, Schimmel and Sanford",
+  "Description": "Streamlined methodical archive",
+  "WelcomeMessage": "laborum",
   "Language": null,
-  "LastAccept": "1998-02-22T14:19:02.82302+01:00",
-  "SecondsPrAccept": 619,
-  "AlertRecipient": "enim",
+  "LastAccept": "2003-08-22T12:15:18.2767619+02:00",
+  "SecondsPrAccept": 263,
+  "AlertRecipient": "nostrum",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "voluptatibus",
+  "BadgeHeader": "nihil",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "qui",
-  "WarnNewChatMinutes": 37,
-  "WarnManagerNewChatMinutes": 53,
+  "CustomQueueText": "id",
+  "WarnNewChatMinutes": 461,
+  "WarnManagerNewChatMinutes": 606,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 364,
-  "WarnManagerChatMessageMinutes": 777,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 430,
-  "OfflineFormQueueLength": 484,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "inventore"
+  "WarnChatMessageMinutes": 353,
+  "WarnManagerChatMessageMinutes": 342,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 302,
+  "OfflineFormQueueLength": 760,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "ducimus"
 }
 ```
 
@@ -167,22 +167,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 56,
-  "Name": "Bailey Group",
-  "Description": "Total heuristic circuit",
-  "WelcomeMessage": "commodi",
+  "ChatTopicId": 861,
+  "Name": "Parisian-Wunsch",
+  "Description": "Horizontal maximized focus group",
+  "WelcomeMessage": "sunt",
   "Language": null,
-  "LastAccept": "2001-07-16T14:19:02.82302+02:00",
-  "SecondsPrAccept": 795,
-  "AlertRecipient": "doloremque",
+  "LastAccept": "1996-04-21T12:15:18.2797612+02:00",
+  "SecondsPrAccept": 318,
+  "AlertRecipient": "voluptas",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "repellendus",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "sint",
-  "WarnNewChatMinutes": 924,
-  "WarnManagerNewChatMinutes": 206,
-  "TicketEnabled": true,
+  "CollectConsent": true,
+  "BadgeHeader": "fugit",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "alias",
+  "WarnNewChatMinutes": 507,
+  "WarnManagerNewChatMinutes": 493,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -190,20 +190,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 537,
-  "WarnManagerChatMessageMinutes": 368,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 37,
-  "OfflineFormQueueLength": 418,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 669,
+  "WarnManagerChatMessageMinutes": 691,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 492,
+  "OfflineFormQueueLength": 106,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "sapiente",
+  "WidgetRatingText": "rem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 56
+      "FieldType": "System.Int32",
+      "FieldLength": 665
     }
   }
 }

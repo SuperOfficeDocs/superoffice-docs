@@ -89,11 +89,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 726,
-  "PrefDescId": 449,
-  "PrefValue": "enim",
-  "PrefShowValue": "distinctio",
-  "Description": "Up-sized bi-directional functionalities",
+  "PrefDescLineId": 139,
+  "PrefDescId": 714,
+  "PrefValue": "fuga",
+  "PrefShowValue": "ut",
+  "Description": "Progressive disintermediate customer loyalty",
   "IsBuiltin": false
 }
 ```
@@ -105,23 +105,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 699,
-  "PrefDescId": 837,
-  "PrefValue": "quis",
-  "PrefShowValue": "labore",
-  "Description": "Vision-oriented optimizing monitoring",
+  "PrefDescLineId": 284,
+  "PrefDescId": 788,
+  "PrefValue": "blanditiis",
+  "PrefShowValue": "aut",
+  "Description": "Future-proofed human-resource throughput",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 492
+      "FieldType": "System.String",
+      "FieldLength": 924
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

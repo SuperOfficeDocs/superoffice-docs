@@ -94,49 +94,49 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schuster-Grant",
-    "Operator": "omnis",
+    "Name": "Gulgowski Inc and Sons",
+    "Operator": "soluta",
     "Values": [
-      "amet",
+      "quo",
       "et"
     ],
     "DisplayValues": [
-      "voluptatem",
-      "aut"
+      "omnis",
+      "nobis"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Thiel Group",
-        "Operator": "quia",
+        "Name": "Schinner, Zulauf and Monahan",
+        "Operator": "rerum",
         "Values": [
-          "atque",
-          "amet"
+          "et",
+          "debitis"
         ],
         "DisplayValues": [
-          "dolorum",
-          "dolores"
+          "omnis",
+          "enim"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 345,
+        "InterParenthesis": 365,
         "InterOperator": "And",
-        "UniqueHash": 553
+        "UniqueHash": 493
       }
     ],
-    "InterParenthesis": 2,
+    "InterParenthesis": 989,
     "InterOperator": "And",
-    "UniqueHash": 882
+    "UniqueHash": 246
   }
 ]
 ```
@@ -149,29 +149,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Klocko-Gerhold",
-    "Operator": "et",
+    "Name": "Ebert Inc and Sons",
+    "Operator": "alias",
     "Values": [
-      "saepe",
-      "veritatis"
+      "reprehenderit",
+      "quasi"
     ],
     "DisplayValues": [
-      "rerum",
-      "autem"
+      "dicta",
+      "adipisci"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Block-Larson",
-        "Operator": "repellat",
+        "Name": "Bruen Inc and Sons",
+        "Operator": "molestiae",
         "Values": [
-          "sunt",
-          "inventore"
+          "velit",
+          "accusantium"
         ],
         "DisplayValues": [
-          "et",
-          "voluptas"
+          "omnis",
+          "est"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -179,14 +179,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 155,
+        "InterParenthesis": 751,
         "InterOperator": "And",
-        "UniqueHash": 92
+        "UniqueHash": 568
       }
     ],
-    "InterParenthesis": 855,
+    "InterParenthesis": 63,
     "InterOperator": "And",
-    "UniqueHash": 404
+    "UniqueHash": 227
   }
 ]
 ```

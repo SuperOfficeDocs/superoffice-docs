@@ -71,7 +71,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,30 +82,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 162,
-    "Section": "ea",
-    "Key": "ut",
-    "Name": "Beier-Senger",
+    "PrefDescId": 776,
+    "Section": "vero",
+    "Key": "assumenda",
+    "Name": "Barrows Group",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Stand-alone transitional moderator",
-    "IsBuiltin": true,
-    "TableName": "Morar-Frami",
-    "UserDefinedListId": 580,
-    "Rank": 455,
-    "SubGroup": "perferendis",
-    "MinLevel": 601,
-    "MaxValue": 232,
-    "MinValue": 879,
-    "RequiredLicense": "optio",
+    "Description": "Inverse foreground budgetary management",
+    "IsBuiltin": false,
+    "TableName": "Muller LLC",
+    "UserDefinedListId": 900,
+    "Rank": 646,
+    "SubGroup": "exercitationem",
+    "MinLevel": 634,
+    "MaxValue": 4,
+    "MinValue": 21,
+    "RequiredLicense": "consectetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 845
+        "FieldLength": 25
       }
     }
   }

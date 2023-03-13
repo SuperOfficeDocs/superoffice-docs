@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 360
+  "DepartmentId": 121
 }
 ```
 
@@ -129,52 +129,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "qui",
-    "PersonId": 374,
-    "Mrmrs": "perferendis",
-    "Firstname": "Paige",
-    "Lastname": "Cormier",
-    "MiddleName": "Casper, Ferry and Rolfson",
-    "Title": "est",
-    "Description": "Extended eco-centric model",
-    "Email": "santina@swaniawski.info",
-    "FullName": "Chelsie Hilpert",
-    "DirectPhone": "447.365.7322 x511",
-    "FormalName": "Bashirian, Fritsch and Lindgren",
-    "CountryId": 15,
-    "ContactId": 427,
-    "ContactName": "Dooley Inc and Sons",
-    "Retired": 421,
-    "Rank": 920,
-    "ActiveInterests": 843,
+    "Position": "nobis",
+    "PersonId": 93,
+    "Mrmrs": "laborum",
+    "Firstname": "Branson",
+    "Lastname": "Kuhn",
+    "MiddleName": "Nitzsche-Kovacek",
+    "Title": "esse",
+    "Description": "Exclusive foreground installation",
+    "Email": "golden_medhurst@sauer.com",
+    "FullName": "Kennith McGlynn Jr.",
+    "DirectPhone": "1-297-794-5496",
+    "FormalName": "Bruen-Hackett",
+    "CountryId": 242,
+    "ContactId": 288,
+    "ContactName": "Stehr, Hartmann and Cronin",
+    "Retired": 571,
+    "Rank": 425,
+    "ActiveInterests": 970,
     "ContactDepartment": "",
-    "ContactCountryId": 802,
-    "ContactOrgNr": "1530349",
-    "FaxPhone": "(917)911-4486 x15678",
-    "MobilePhone": "(885)179-3294 x275",
-    "ContactPhone": "1-388-701-5177 x508",
-    "AssociateName": "Kunde, Murphy and Fritsch",
-    "AssociateId": 950,
+    "ContactCountryId": 673,
+    "ContactOrgNr": "1157969",
+    "FaxPhone": "885.671.7187 x1593",
+    "MobilePhone": "(713)705-0208",
+    "ContactPhone": "1-731-522-9777 x62772",
+    "AssociateName": "Aufderhar-Labadie",
+    "AssociateId": 257,
     "UsePersonAddress": false,
-    "ContactFax": "et",
-    "Kanafname": "sint",
-    "Kanalname": "dolorem",
-    "Post1": "sit",
-    "Post2": "qui",
-    "Post3": "assumenda",
-    "EmailName": "carmela@crist.uk",
-    "ContactFullName": "Leann Lesch",
-    "ActiveErpLinks": 667,
-    "TicketPriorityId": 799,
-    "SupportLanguageId": 890,
-    "SupportAssociateId": 621,
+    "ContactFax": "similique",
+    "Kanafname": "aut",
+    "Kanalname": "suscipit",
+    "Post1": "pariatur",
+    "Post2": "quo",
+    "Post3": "ullam",
+    "EmailName": "lea@abernathyschmitt.name",
+    "ContactFullName": "Mr. Moshe Pouros DVM",
+    "ActiveErpLinks": 368,
+    "TicketPriorityId": 290,
+    "SupportLanguageId": 999,
+    "SupportAssociateId": 26,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 390
+        "FieldLength": 360
       }
     }
   }

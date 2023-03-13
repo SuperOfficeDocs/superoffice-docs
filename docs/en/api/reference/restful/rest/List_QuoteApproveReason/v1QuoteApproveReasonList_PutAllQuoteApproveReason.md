@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 256,
-    "Name": "Balistreri, Rutherford and Rempel",
-    "Tooltip": "voluptatem",
+    "Id": 544,
+    "Name": "Mann, Breitenberg and DuBuque",
+    "Tooltip": "odit",
     "Deleted": false,
-    "UdListDefinitionId": 182,
-    "Rank": 421
+    "UdListDefinitionId": 333,
+    "Rank": 562
   },
   {
-    "Id": 256,
-    "Name": "Balistreri, Rutherford and Rempel",
-    "Tooltip": "voluptatem",
+    "Id": 544,
+    "Name": "Mann, Breitenberg and DuBuque",
+    "Tooltip": "odit",
     "Deleted": false,
-    "UdListDefinitionId": 182,
-    "Rank": 421
+    "UdListDefinitionId": 333,
+    "Rank": 562
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 520,
-    "Name": "Cronin, Barrows and Bechtelar",
-    "Tooltip": "velit",
-    "Deleted": false,
-    "UdListDefinitionId": 957,
-    "Rank": 789,
+    "Id": 141,
+    "Name": "Beahan, Schneider and Schoen",
+    "Tooltip": "omnis",
+    "Deleted": true,
+    "UdListDefinitionId": 384,
+    "Rank": 642,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 166
+        "FieldLength": 348
       }
     }
   }

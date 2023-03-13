@@ -104,16 +104,16 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 342,
-  "Name": "Watsica, Schamberger and Yundt",
-  "Tooltip": "quaerat",
+  "RoleId": 440,
+  "Name": "Nitzsche-Ullrich",
+  "Tooltip": "autem",
   "RoleType": "Anonymous",
-  "Deleted": 484,
-  "Rank": 136,
-  "Created": "2004-01-01T14:19:10.6467484+01:00",
-  "UseCategories": 919,
+  "Deleted": 236,
+  "Rank": 585,
+  "Created": "1997-11-21T12:15:27.2056318+01:00",
+  "UseCategories": 5,
   "CreatedBy": null,
-  "Updated": "2011-04-10T14:19:10.6467484+02:00",
+  "Updated": "2006-07-14T12:15:27.2056318+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -126,24 +126,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 188,
-  "Name": "Heidenreich-Wilkinson",
-  "Tooltip": "quo",
+  "RoleId": 454,
+  "Name": "Wisozk-Nienow",
+  "Tooltip": "eos",
   "RoleType": "Anonymous",
-  "Deleted": 654,
-  "Rank": 80,
-  "Created": "2021-03-28T14:19:10.6467484+02:00",
-  "UseCategories": 573,
+  "Deleted": 823,
+  "Rank": 267,
+  "Created": "2021-03-21T12:15:27.2066318+01:00",
+  "UseCategories": 192,
   "CreatedBy": null,
-  "Updated": "1997-11-18T14:19:10.6467484+01:00",
+  "Updated": "1997-04-29T12:15:27.2076334+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 231
+      "FieldType": "System.String",
+      "FieldLength": 402
     }
   },
   "_Links": {

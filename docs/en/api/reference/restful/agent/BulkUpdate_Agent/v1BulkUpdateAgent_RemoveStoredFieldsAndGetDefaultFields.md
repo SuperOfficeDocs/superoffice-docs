@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Renner LLC",
-  "Context": "illum"
+  "TableName": "Hamill, Roberts and Miller",
+  "Context": "nostrum"
 }
 ```
 
@@ -108,72 +108,72 @@ Content-Type: application/json; charset=utf-8
     "DefaultShowInGui": true,
     "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "aut",
-    "ValueType": "sit",
-    "Mandatory": false,
-    "EncodedDisplayName": "Greenholt LLC",
-    "EncodedDisplayDescription": "Profit-focused optimal groupware",
-    "IconHint": "aspernatur",
+    "Key": "nulla",
+    "ValueType": "hic",
+    "Mandatory": true,
+    "EncodedDisplayName": "Lebsack, Hayes and Rowe",
+    "EncodedDisplayDescription": "Inverse modular time-frame",
+    "IconHint": "nesciunt",
     "ControlInfos": [
       {
-        "Type": "vel",
-        "Label": "aut",
-        "Dimension": 753,
-        "ListProviderName": "Mills-Boyle",
-        "ListProviderExtraInfo": "quisquam",
-        "ListProviderPrimaryKeyName": "Kassulke-Zboncak",
-        "ListLeadText": "est",
+        "Type": "eum",
+        "Label": "quisquam",
+        "Dimension": 605,
+        "ListProviderName": "Aufderhar Group",
+        "ListProviderExtraInfo": "velit",
+        "ListProviderPrimaryKeyName": "Braun, Hermann and Blanda",
+        "ListLeadText": "deserunt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 267
+            "FieldLength": 623
           }
         }
       }
     ],
-    "EncodedDataCaption": "aperiam",
-    "EncodedDataCaptionDescription": "User-friendly actuating encryption",
-    "CurrentOperationType": "voluptas",
+    "EncodedDataCaption": "vitae",
+    "EncodedDataCaptionDescription": "Multi-lateral systematic function",
+    "CurrentOperationType": "rerum",
     "Values": [
-      "et",
-      "tenetur"
+      "recusandae",
+      "sed"
     ],
     "DisplayValues": [
-      "consequatur",
-      "ut"
+      "voluptatem",
+      "molestiae"
     ],
     "OperationInfos": [
       {
-        "Key": "recusandae",
-        "EncodedDisplayName": "O'Reilly LLC",
+        "Key": "quia",
+        "EncodedDisplayName": "Satterfield-Schuster",
         "EncodedLeadTexts": [
-          "doloribus",
-          "in"
+          "harum",
+          "quia"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 19
+            "FieldLength": 155
           }
         }
       },
       {
-        "Key": "recusandae",
-        "EncodedDisplayName": "O'Reilly LLC",
+        "Key": "quia",
+        "EncodedDisplayName": "Satterfield-Schuster",
         "EncodedLeadTexts": [
-          "doloribus",
-          "in"
+          "harum",
+          "quia"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 19
+            "FieldLength": 155
           }
         }
       }

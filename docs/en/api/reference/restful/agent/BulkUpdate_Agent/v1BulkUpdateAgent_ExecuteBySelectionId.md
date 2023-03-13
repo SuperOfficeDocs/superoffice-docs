@@ -71,36 +71,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
       "CanSupportMultiUse": false,
-      "DefaultShowInGui": false,
-      "DefaultShowInSelector": false,
-      "IsActive": false,
-      "Key": "et",
-      "ValueType": "reiciendis",
+      "DefaultShowInGui": true,
+      "DefaultShowInSelector": true,
+      "IsActive": true,
+      "Key": "atque",
+      "ValueType": "magnam",
       "Mandatory": false,
-      "EncodedDisplayName": "Nader LLC",
-      "EncodedDisplayDescription": "Proactive global circuit",
-      "IconHint": "explicabo",
+      "EncodedDisplayName": "Marks, Kutch and Mohr",
+      "EncodedDisplayDescription": "Advanced full-range firmware",
+      "IconHint": "vel",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "et",
-      "EncodedDataCaptionDescription": "Organic responsive alliance",
-      "CurrentOperationType": "asperiores",
+      "EncodedDataCaption": "possimus",
+      "EncodedDataCaptionDescription": "Secured logistical help-desk",
+      "CurrentOperationType": "omnis",
       "Values": [
-        "ex",
-        "ullam"
+        "iure",
+        "doloribus"
       ],
       "DisplayValues": [
-        "maiores",
-        "aut"
+        "inventore",
+        "cumque"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Jast Group",
-  "Context": "dolorem",
-  "SelectionId": 806,
+  "TableName": "Stroman Group",
+  "Context": "pariatur",
+  "SelectionId": 587,
   "IsShadow": false
 }
 ```
@@ -121,5 +121,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-979
+642
 ```

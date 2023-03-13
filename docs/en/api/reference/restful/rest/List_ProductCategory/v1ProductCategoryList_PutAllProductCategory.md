@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 872,
-    "Name": "Lehner Inc and Sons",
-    "Tooltip": "dignissimos",
+    "Id": 417,
+    "Name": "Ratke-Casper",
+    "Tooltip": "dolores",
     "Deleted": true,
-    "UdListDefinitionId": 949,
-    "Rank": 569
+    "UdListDefinitionId": 553,
+    "Rank": 429
   },
   {
-    "Id": 872,
-    "Name": "Lehner Inc and Sons",
-    "Tooltip": "dignissimos",
+    "Id": 417,
+    "Name": "Ratke-Casper",
+    "Tooltip": "dolores",
     "Deleted": true,
-    "UdListDefinitionId": 949,
-    "Rank": 569
+    "UdListDefinitionId": 553,
+    "Rank": 429
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 985,
-    "Name": "Doyle-Cole",
-    "Tooltip": "ratione",
+    "Id": 315,
+    "Name": "McDermott LLC",
+    "Tooltip": "neque",
     "Deleted": false,
-    "UdListDefinitionId": 973,
-    "Rank": 237,
+    "UdListDefinitionId": 355,
+    "Rank": 671,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 752
+        "FieldType": "System.Int32",
+        "FieldLength": 924
       }
     }
   }

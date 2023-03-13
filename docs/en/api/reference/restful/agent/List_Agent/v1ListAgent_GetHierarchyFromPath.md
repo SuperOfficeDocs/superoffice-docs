@@ -88,7 +88,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "assumenda",
+  "Path": "eos",
   "Children": true
 }
 ```
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 555,
+  "HierarchyId": 31,
   "Domain": "Dashboards",
-  "Name": "Olson, Konopelski and Hartmann",
-  "Fullname": "soluta",
-  "ParentId": 565,
+  "Name": "Leannon, Kuvalis and Eichmann",
+  "Fullname": "est",
+  "ParentId": 961,
   "Children": [
     {
-      "HierarchyId": 60,
+      "HierarchyId": 300,
       "Domain": "Dashboards",
-      "Name": "Quitzon Group",
-      "Fullname": "fugit",
-      "ParentId": 327,
+      "Name": "Marks, Dietrich and Witting",
+      "Fullname": "at",
+      "ParentId": 133,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2018-07-02T14:19:03.6707496+02:00",
-      "RegisteredAssociateId": 620,
-      "Updated": "2019-05-04T14:19:03.6707496+02:00",
-      "UpdatedAssociateId": 241,
+      "Registered": "2012-06-03T12:15:19.3127465+02:00",
+      "RegisteredAssociateId": 689,
+      "Updated": "2002-04-03T12:15:19.3127465+02:00",
+      "UpdatedAssociateId": 682,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 148
+          "FieldType": "System.String",
+          "FieldLength": 30
         }
       }
     }
   ],
-  "Registered": "2022-06-06T14:19:03.6707496+02:00",
-  "RegisteredAssociateId": 915,
-  "Updated": "2009-05-25T14:19:03.6707496+02:00",
-  "UpdatedAssociateId": 524,
+  "Registered": "2005-05-26T12:15:19.3127465+02:00",
+  "RegisteredAssociateId": 10,
+  "Updated": "2016-02-14T12:15:19.3127465+01:00",
+  "UpdatedAssociateId": 690,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldLength": 604
     }
   }
 }

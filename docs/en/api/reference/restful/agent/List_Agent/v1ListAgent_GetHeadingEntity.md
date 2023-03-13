@@ -25,7 +25,7 @@ Gets a HeadingEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetHeadingEntity?headingEntityId=213
+POST /api/v1/Agents/List/GetHeadingEntity?headingEntityId=984
 POST /api/v1/Agents/List/GetHeadingEntity?$select=name,department,category/id
 ```
 
@@ -81,18 +81,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 941,
-  "Name": "Bayer-Kuvalis",
-  "Tooltip": "pariatur",
+  "HeadingId": 174,
+  "Name": "Goodwin-Reynolds",
+  "Tooltip": "blanditiis",
   "Deleted": false,
-  "Rank": 857,
-  "UdListDefinitionId": 231,
+  "Rank": 595,
+  "UdListDefinitionId": 33,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldLength": 209
     }
   }
 }

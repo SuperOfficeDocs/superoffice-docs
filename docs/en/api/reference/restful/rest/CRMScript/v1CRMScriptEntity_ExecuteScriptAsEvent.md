@@ -87,28 +87,28 @@ OK
 POST /api/v1/CRMScript/{cRMScriptId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "harum",
-    "InputValues2": "quos"
+    "InputValues1": "optio",
+    "InputValues2": "voluptatum"
   },
   "BlockExecution": false,
-  "NavigateTo": "nobis",
-  "Message": "placeat",
-  "ShowDialog": "sunt",
+  "NavigateTo": "reiciendis",
+  "Message": "laudantium",
+  "ShowDialog": "error",
   "OutputValues": {
-    "OutputValues1": "laudantium",
-    "OutputValues2": "unde"
+    "OutputValues1": "perferendis",
+    "OutputValues2": "exercitationem"
   },
   "StateValues": {
-    "StateValues1": "odio",
-    "StateValues2": "id"
+    "StateValues1": "ut",
+    "StateValues2": "nam"
   },
-  "Exception": "omnis"
+  "Exception": "vel"
 }
 ```
 
@@ -121,28 +121,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quisquam",
-    "InputValues2": "quo"
+    "InputValues1": "quidem",
+    "InputValues2": "enim"
   },
-  "BlockExecution": false,
-  "NavigateTo": "vel",
-  "Message": "similique",
-  "ShowDialog": "commodi",
+  "BlockExecution": true,
+  "NavigateTo": "libero",
+  "Message": "omnis",
+  "ShowDialog": "quibusdam",
   "OutputValues": {
-    "OutputValues1": "mollitia",
-    "OutputValues2": "quis"
+    "OutputValues1": "maxime",
+    "OutputValues2": "ipsa"
   },
   "StateValues": {
-    "StateValues1": "provident",
-    "StateValues2": "aperiam"
+    "StateValues1": "nulla",
+    "StateValues2": "aut"
   },
-  "Exception": "qui",
+  "Exception": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 24
+      "FieldType": "System.String",
+      "FieldLength": 347
     }
   }
 }

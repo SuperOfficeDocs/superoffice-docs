@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 49,
-    "Name": "Mraz-Aufderhar",
-    "Tooltip": "id",
-    "Deleted": true,
-    "Rank": 103,
-    "UdListDefinitionId": 671,
+    "HeadingId": 390,
+    "Name": "Bosco-Schaefer",
+    "Tooltip": "hic",
+    "Deleted": false,
+    "Rank": 63,
+    "UdListDefinitionId": 381,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 35
+        "FieldLength": 62
       }
     }
   }

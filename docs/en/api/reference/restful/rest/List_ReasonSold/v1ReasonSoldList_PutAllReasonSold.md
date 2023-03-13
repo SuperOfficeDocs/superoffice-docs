@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 961,
-    "Name": "Greenholt Inc and Sons",
-    "Tooltip": "officiis",
-    "Deleted": true,
-    "UdListDefinitionId": 353,
-    "Rank": 467
+    "Id": 812,
+    "Name": "Pouros Inc and Sons",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "UdListDefinitionId": 329,
+    "Rank": 364
   },
   {
-    "Id": 961,
-    "Name": "Greenholt Inc and Sons",
-    "Tooltip": "officiis",
-    "Deleted": true,
-    "UdListDefinitionId": 353,
-    "Rank": 467
+    "Id": 812,
+    "Name": "Pouros Inc and Sons",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "UdListDefinitionId": 329,
+    "Rank": 364
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 16,
-    "Name": "Lakin Inc and Sons",
-    "Tooltip": "nam",
+    "Id": 986,
+    "Name": "Fisher, Franecki and Kilback",
+    "Tooltip": "doloribus",
     "Deleted": false,
-    "UdListDefinitionId": 321,
-    "Rank": 909,
+    "UdListDefinitionId": 166,
+    "Rank": 572,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 907
+        "FieldLength": 451
       }
     }
   }

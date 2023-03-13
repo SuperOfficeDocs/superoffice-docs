@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kling Group",
-  "AdditionalInfo": "perspiciatis",
-  "SearchValue": "dolores"
+  "Name": "Herman, Medhurst and Rempel",
+  "AdditionalInfo": "voluptatem",
+  "SearchValue": "perferendis"
 }
 ```
 
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 880,
-    "Name": "Mitchell Inc and Sons",
-    "ToolTip": "Quo quia architecto a dolore sed debitis accusamus.",
+    "Id": 386,
+    "Name": "Walter, Balistreri and Romaguera",
+    "ToolTip": "Dignissimos voluptates qui doloremque omnis ab.",
     "Deleted": false,
-    "Rank": 841,
-    "Type": "quae",
+    "Rank": 324,
+    "Type": "exercitationem",
     "ChildItems": [
       {
-        "Id": 589,
-        "Name": "Stroman-Gusikowski",
-        "ToolTip": "Eius qui atque voluptas.",
-        "Deleted": true,
-        "Rank": 574,
-        "Type": "aut",
+        "Id": 400,
+        "Name": "Schamberger, Skiles and Pollich",
+        "ToolTip": "Maiores mollitia quia autem sunt.",
+        "Deleted": false,
+        "Rank": 647,
+        "Type": "sapiente",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "autem",
-        "ColorBlock": 509,
-        "ExtraInfo": "harum",
-        "StyleHint": "iure",
-        "FullName": "Irma Smith",
+        "IconHint": "dicta",
+        "ColorBlock": 485,
+        "ExtraInfo": "sapiente",
+        "StyleHint": "est",
+        "FullName": "Mr. Alexanne Sabina Howell II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 876
+            "FieldType": "System.String",
+            "FieldLength": 522
           }
         }
       }
     ],
-    "IconHint": "sit",
-    "ColorBlock": 787,
-    "ExtraInfo": "labore",
-    "StyleHint": "reprehenderit",
-    "FullName": "Dedric Conn",
+    "IconHint": "magnam",
+    "ColorBlock": 865,
+    "ExtraInfo": "error",
+    "StyleHint": "expedita",
+    "FullName": "Arianna Kiel Schinner Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 768
+        "FieldLength": 512
       }
     }
   }

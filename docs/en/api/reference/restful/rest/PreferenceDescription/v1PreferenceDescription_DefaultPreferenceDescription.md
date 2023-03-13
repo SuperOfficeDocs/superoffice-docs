@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 473,
-  "Section": "temporibus",
-  "Key": "qui",
-  "Name": "Moen-Strosin",
+  "PrefDescId": 415,
+  "Section": "vitae",
+  "Key": "et",
+  "Name": "O'Hara, Lang and Zemlak",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Open-source 24/7 emulation",
+  "Description": "Cloned secondary focus group",
   "IsBuiltin": false,
-  "TableName": "Lebsack, Marquardt and McLaughlin",
-  "UserDefinedListId": 921,
-  "Rank": 921,
-  "SubGroup": "totam",
-  "MinLevel": 104,
-  "MaxValue": 509,
-  "MinValue": 343,
-  "RequiredLicense": "eum",
+  "TableName": "Goldner, Medhurst and McCullough",
+  "UserDefinedListId": 675,
+  "Rank": 889,
+  "SubGroup": "qui",
+  "MinLevel": 908,
+  "MaxValue": 294,
+  "MinValue": 279,
+  "RequiredLicense": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 147
+      "FieldLength": 651
     }
   }
 }

@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 258,
-  "CurrencyId": 460
+  "QuoteConnectionId": 599,
+  "CurrencyId": 384
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 534,
-    "ERPPriceListKey": "ipsa",
-    "QuoteConnectionId": 954,
-    "Name": "Koss, Mitchell and Ankunding",
-    "Description": "Grass-roots grid-enabled array",
-    "Currency": "ut",
-    "CurrencyName": "Reinger-Jacobs",
-    "ValidFrom": "1999-07-01T14:19:04.0313341+02:00",
-    "ValidTo": "2009-02-24T14:19:04.0313341+01:00",
-    "IsActive": false,
+    "PriceListId": 750,
+    "ERPPriceListKey": "molestiae",
+    "QuoteConnectionId": 388,
+    "Name": "Watsica Group",
+    "Description": "Organic well-modulated hub",
+    "Currency": "voluptatem",
+    "CurrencyName": "Nitzsche-Walter",
+    "ValidFrom": "1999-07-16T12:15:19.9477056+02:00",
+    "ValidTo": "2019-12-17T12:15:19.9477056+01:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 407
+        "FieldLength": 950
       }
     }
   }

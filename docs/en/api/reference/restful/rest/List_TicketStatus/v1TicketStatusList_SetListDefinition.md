@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 52,
-  "Name": "Ratke-Larkin",
-  "Tooltip": "quae",
+  "Id": 655,
+  "Name": "Hoeger-Tremblay",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 713,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 811,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "eos",
+  "ListType": "similique",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 589,
-  "Name": "Koepp, Lakin and Schaden",
-  "Tooltip": "molestiae",
-  "Deleted": true,
-  "Rank": 407,
-  "IsCustomList": false,
+  "Id": 429,
+  "Name": "Predovic, Osinski and Brekke",
+  "Tooltip": "asperiores",
+  "Deleted": false,
+  "Rank": 69,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "voluptas",
-  "InUseByUserDefinedFields": true,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 469
+      "FieldType": "System.Int32",
+      "FieldLength": 225
     }
   }
 }

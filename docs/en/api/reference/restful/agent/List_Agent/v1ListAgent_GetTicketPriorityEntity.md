@@ -25,7 +25,7 @@ Gets a TicketPriorityEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=727
+POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=282
 POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,category/id
 ```
 
@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/List/GetTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,60 +103,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 474,
-  "Name": "Luettgen-Torphy",
+  "TicketPriorityId": 530,
+  "Name": "McGlynn LLC",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 183,
+  "SortOrder": 927,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 834,
-  "MonStart": "2019-01-24T14:19:03.5926233+01:00",
-  "MonStop": "2013-03-28T14:19:03.5926233+01:00",
-  "TueStart": "2005-04-15T14:19:03.5926233+02:00",
-  "TueStop": "2016-05-30T14:19:03.5926233+02:00",
-  "WedStart": "2008-04-09T14:19:03.5926233+02:00",
-  "WedStop": "2006-03-25T14:19:03.5926233+01:00",
-  "ThuStart": "2016-06-20T14:19:03.5926233+02:00",
-  "ThuStop": "1997-05-13T14:19:03.5926233+02:00",
-  "FriStart": "1996-06-10T14:19:03.5926233+02:00",
-  "FriStop": "2012-03-23T14:19:03.5926233+01:00",
-  "SatStart": "2014-09-10T14:19:03.5926233+02:00",
-  "SatStop": "2013-09-21T14:19:03.5926233+02:00",
-  "SunStart": "2017-09-01T14:19:03.5926233+02:00",
-  "SunStop": "2010-11-25T14:19:03.5926233+01:00",
+  "Deadline": 262,
+  "MonStart": "2009-12-20T12:15:19.2027546+01:00",
+  "MonStop": "2000-02-17T12:15:19.2027546+01:00",
+  "TueStart": "2003-10-10T12:15:19.2027546+02:00",
+  "TueStop": "2022-06-23T12:15:19.2027546+02:00",
+  "WedStart": "2017-04-08T12:15:19.2027546+02:00",
+  "WedStop": "2000-08-21T12:15:19.2027546+02:00",
+  "ThuStart": "2010-08-01T12:15:19.2027546+02:00",
+  "ThuStop": "2008-01-10T12:15:19.2027546+01:00",
+  "FriStart": "2015-08-04T12:15:19.2027546+02:00",
+  "FriStop": "2020-06-02T12:15:19.2027546+02:00",
+  "SatStart": "2022-01-17T12:15:19.2027546+01:00",
+  "SatStop": "2017-01-06T12:15:19.2027546+01:00",
+  "SunStart": "2015-08-30T12:15:19.2027546+02:00",
+  "SunStop": "2020-12-19T12:15:19.2027546+01:00",
   "NonDates": [
-    "provident",
-    "quasi"
+    "eligendi",
+    "sed"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 511,
-      "AlertLevel": 932,
-      "AlertTimeout": 214,
-      "Action": 410,
-      "DelegateTo": 362,
-      "ScriptId": 465,
-      "EmailTo": "lesly.gottlieb@rogahn.ca",
-      "SmsTo": "voluptas",
-      "ReplyTemplateIdCustomer": 701,
-      "ReplyTemplateIdUser": 370,
-      "ReplyTemplateIdCatmast": 648,
-      "ReplyTemplateIdEmail": 364,
-      "RtiCustomerSms": 372,
-      "ReplyTemplateIdUserSms": 644,
-      "ReplyTemplateIdCatmastSms": 925,
-      "ReplyTemplateIdSms": 432,
+      "TicketAlertId": 15,
+      "AlertLevel": 247,
+      "AlertTimeout": 173,
+      "Action": 515,
+      "DelegateTo": 606,
+      "ScriptId": 668,
+      "EmailTo": "neal@gorczany.ca",
+      "SmsTo": "quis",
+      "ReplyTemplateIdCustomer": 817,
+      "ReplyTemplateIdUser": 654,
+      "ReplyTemplateIdCatmast": 606,
+      "ReplyTemplateIdEmail": 118,
+      "RtiCustomerSms": 428,
+      "ReplyTemplateIdUserSms": 437,
+      "ReplyTemplateIdCatmastSms": 628,
+      "ReplyTemplateIdSms": 131,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 36
+          "FieldLength": 425
         }
       }
     }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 193
+      "FieldLength": 854
     }
   }
 }

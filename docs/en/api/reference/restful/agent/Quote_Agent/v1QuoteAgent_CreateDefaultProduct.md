@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,73 +99,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 42,
-  "ERPProductKey": "dicta",
-  "ERPPriceListKey": "eos",
-  "Name": "Osinski, Kutch and Crooks",
-  "Description": "Multi-lateral contextually-based time-frame",
-  "Code": "earum",
-  "PriceUnit": "et",
-  "QuantityUnit": "inventore",
+  "ProductId": 275,
+  "ERPProductKey": "tempora",
+  "ERPPriceListKey": "consectetur",
+  "Name": "Johnson-Feeney",
+  "Description": "Public-key zero defect superstructure",
+  "Code": "sunt",
+  "PriceUnit": "ex",
+  "QuantityUnit": "perspiciatis",
   "IsSubscription": false,
-  "SubscriptionUnit": "ex",
-  "DefaultSubscriptionQuantity": 12106.642,
-  "ItemNumber": "576386",
+  "SubscriptionUnit": "quo",
+  "DefaultSubscriptionQuantity": 17707.1,
+  "ItemNumber": "1669520",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "illo",
-  "ProductTypeKey": "est",
-  "VAT": 2657.632,
-  "VATInfo": "delectus",
-  "UnitCost": 30753.942,
-  "UnitMinimumPrice": 4212.096,
-  "UnitListPrice": 27071.492,
-  "InAssortment": false,
-  "Supplier": "provident",
-  "SupplierCode": "fugiat",
-  "Rights": "quis",
-  "Rule": "laboriosam",
+  "ProductFamilyKey": "beatae",
+  "ProductTypeKey": "temporibus",
+  "VAT": 27842.456,
+  "VATInfo": "atque",
+  "UnitCost": 7847.536,
+  "UnitMinimumPrice": 16171.439999999999,
+  "UnitListPrice": 24426.396,
+  "InAssortment": true,
+  "Supplier": "numquam",
+  "SupplierCode": "autem",
+  "Rights": "consequuntur",
+  "Rule": "fugiat",
   "ExtraInfo": [
     {
-      "Name": "Kuvalis LLC",
-      "Value": "sed",
+      "Name": "Gorczany LLC",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 117
+          "FieldType": "System.Int32",
+          "FieldLength": 22
         }
       }
     },
     {
-      "Name": "Kuvalis LLC",
-      "Value": "sed",
+      "Name": "Gorczany LLC",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 117
+          "FieldType": "System.Int32",
+          "FieldLength": 22
         }
       }
     }
   ],
-  "RawExtraInfo": "corrupti",
-  "ExtraField1": "aut",
-  "ExtraField2": "aliquid",
-  "ExtraField3": "quia",
-  "ExtraField4": "laudantium",
-  "ExtraField5": "veritatis",
-  "InStock": 7161.19,
+  "RawExtraInfo": "quia",
+  "ExtraField1": "temporibus",
+  "ExtraField2": "aliquam",
+  "ExtraField3": "autem",
+  "ExtraField4": "qui",
+  "ExtraField5": "nemo",
+  "InStock": 8364.6459999999988,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 150
+      "FieldLength": 394
     }
   }
 }

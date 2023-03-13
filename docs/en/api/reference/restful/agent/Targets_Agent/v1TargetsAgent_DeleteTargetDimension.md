@@ -24,7 +24,7 @@ Deletes the TargetDimension
 | TargetDimensionId | int32 | **Required** The id of the TargetDimension to be deleted. |
 
 ```http
-POST /api/v1/Agents/Targets/DeleteTargetDimension?TargetDimensionId=53
+POST /api/v1/Agents/Targets/DeleteTargetDimension?TargetDimensionId=939
 ```
 
 

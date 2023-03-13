@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 893
+  "AssociateId": 118
 }
 ```
 
@@ -93,14 +93,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Beier, Farrell and Carroll",
-    "DeviceIdentifier": "laborum",
-    "PocketVersion": "exercitationem",
-    "Language": "tempore",
-    "PNSHandle": "dolor",
+    "DeviceName": "Willms-Keebler",
+    "DeviceIdentifier": "et",
+    "PocketVersion": "excepturi",
+    "Language": "consequatur",
+    "PNSHandle": "a",
     "Platform": "Apple",
-    "OSVersion": "dolor",
-    "TimeZoneId": 409
+    "OSVersion": "modi",
+    "TimeZoneId": 533
   }
 ]
 ```

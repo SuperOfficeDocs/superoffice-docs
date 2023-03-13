@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Preference": null,
-  "RemoveLowerLevels": false
+  "RemoveLowerLevels": true
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "quia",
+  "RawValue": "quas",
   "Specification": null,
-  "DisplayValue": "nam",
-  "DisplayTooltip": "omnis",
+  "DisplayValue": "assumenda",
+  "DisplayTooltip": "ipsam",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 810,
-  "PrefDescId": 913,
-  "TableName": "Williamson Group",
-  "UserPreferenceId": 269,
+  "TargetId": 750,
+  "PrefDescId": 554,
+  "TableName": "Willms-Streich",
+  "UserPreferenceId": 101,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 860
+      "FieldLength": 186
     }
   }
 }

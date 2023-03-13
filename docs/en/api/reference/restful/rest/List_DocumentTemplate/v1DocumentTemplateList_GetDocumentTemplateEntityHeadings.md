@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 903,
-    "Name": "Hammes Inc and Sons",
-    "Tooltip": "perspiciatis",
-    "Deleted": true,
-    "Rank": 334,
-    "UdListDefinitionId": 25,
+    "HeadingId": 210,
+    "Name": "Funk, Boyer and Zieme",
+    "Tooltip": "sunt",
+    "Deleted": false,
+    "Rank": 943,
+    "UdListDefinitionId": 975,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 600
+        "FieldLength": 563
       }
     }
   }

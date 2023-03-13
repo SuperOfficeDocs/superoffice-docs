@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,36 +97,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 169,
-    "ParentId": 835,
-    "Name": "Grant, Davis and Strosin",
-    "Fullname": "eius",
-    "CategoryMaster": 319,
+    "TicketCategoryId": 265,
+    "ParentId": 558,
+    "Name": "Senger LLC",
+    "Fullname": "amet",
+    "CategoryMaster": 921,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Terry-Koch",
+    "ExternalName": "Vandervort Inc and Sons",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 436,
-    "ReplyTemplate": 709,
-    "NotificationEmail": "clint_stiedemann@greenholt.info",
+    "AssignmentLag": 406,
+    "ReplyTemplate": 893,
+    "NotificationEmail": "magnolia_abshire@padbergebert.co.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 271,
+    "EffectiveReplyTemplateId": 392,
     "ExtraFields": {
-      "ExtraFields1": "temporibus",
-      "ExtraFields2": "atque"
+      "ExtraFields1": "architecto",
+      "ExtraFields2": "eligendi"
     },
     "CustomFields": {
-      "CustomFields1": "recusandae",
-      "CustomFields2": "ducimus"
+      "CustomFields1": "reiciendis",
+      "CustomFields2": "nostrum"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 971
+        "FieldLength": 763
       }
     }
   }

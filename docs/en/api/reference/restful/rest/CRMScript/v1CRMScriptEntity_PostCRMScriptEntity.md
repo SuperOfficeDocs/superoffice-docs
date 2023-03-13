@@ -98,21 +98,21 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 618,
-  "UniqueIdentifier": "est",
-  "Name": "Schmitt, Bins and Cartwright",
-  "Description": "De-engineered asynchronous budgetary management",
-  "IncludeId": "ullam",
-  "HierarchyId": 381,
-  "Source": "iusto",
-  "Registered": "2012-06-27T14:19:10.240473+02:00",
-  "RegisteredAssociateId": 685,
-  "Updated": "1997-03-17T14:19:10.240473+01:00",
-  "UpdatedAssociateId": 380
+  "EjscriptId": 767,
+  "UniqueIdentifier": "doloremque",
+  "Name": "Ferry-Casper",
+  "Description": "Synergistic web-enabled knowledge base",
+  "IncludeId": "quidem",
+  "HierarchyId": 394,
+  "Source": "sit",
+  "Registered": "2016-02-08T12:15:26.8096418+01:00",
+  "RegisteredAssociateId": 395,
+  "Updated": "2010-09-03T12:15:26.8096418+02:00",
+  "UpdatedAssociateId": 336
 }
 ```
 
@@ -123,28 +123,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 468,
-  "UniqueIdentifier": "necessitatibus",
-  "Name": "Murray, O'Kon and Parisian",
-  "Description": "Networked tangible matrices",
-  "IncludeId": "cum",
-  "HierarchyId": 868,
-  "Source": "fugiat",
-  "Registered": "2006-11-09T14:19:10.240473+01:00",
-  "RegisteredAssociateId": 851,
-  "Updated": "2015-04-26T14:19:10.240473+02:00",
-  "UpdatedAssociateId": 770,
+  "EjscriptId": 71,
+  "UniqueIdentifier": "dolorem",
+  "Name": "Stoltenberg-Hudson",
+  "Description": "Re-engineered tertiary leverage",
+  "IncludeId": "blanditiis",
+  "HierarchyId": 472,
+  "Source": "alias",
+  "Registered": "2011-10-19T12:15:26.8096418+02:00",
+  "RegisteredAssociateId": 873,
+  "Updated": "1997-01-23T12:15:26.8096418+01:00",
+  "UpdatedAssociateId": 302,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 57
+      "FieldType": "System.String",
+      "FieldLength": 755
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

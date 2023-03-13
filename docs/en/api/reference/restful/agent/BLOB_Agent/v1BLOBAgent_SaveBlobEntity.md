@@ -86,23 +86,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 984,
-  "BlobSize": 719,
-  "Description": "User-friendly contextually-based moratorium",
-  "ExtraInfo": "odio",
-  "IsEncrypted": true,
+  "BlobId": 369,
+  "BlobSize": 350,
+  "Description": "Profound interactive open architecture",
+  "ExtraInfo": "maxime",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "nemo",
-  "OriginalSize": 790,
-  "CreatedDate": "2003-12-24T14:19:02.7750538+01:00",
-  "UpdatedDate": "2015-04-13T14:19:02.7750538+02:00",
+  "MimeType": "ad",
+  "OriginalSize": 643,
+  "CreatedDate": "1998-12-04T12:15:18.215763+01:00",
+  "UpdatedDate": "2021-11-05T12:15:18.215763+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quia"
+  "ConceptualType": "occaecati"
 }
 ```
 
@@ -113,25 +113,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 92,
-  "BlobSize": 463,
-  "Description": "Right-sized interactive emulation",
-  "ExtraInfo": "sapiente",
-  "IsEncrypted": true,
+  "BlobId": 186,
+  "BlobSize": 163,
+  "Description": "User-centric directional architecture",
+  "ExtraInfo": "exercitationem",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "placeat",
-  "OriginalSize": 636,
-  "CreatedDate": "2022-12-20T14:19:02.7750538+01:00",
-  "UpdatedDate": "2003-06-23T14:19:02.7750538+02:00",
+  "MimeType": "eligendi",
+  "OriginalSize": 926,
+  "CreatedDate": "2013-08-17T12:15:18.2187647+02:00",
+  "UpdatedDate": "2014-11-22T12:15:18.2187647+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "corrupti",
+  "ConceptualType": "natus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldLength": 271
     }
   }
 }

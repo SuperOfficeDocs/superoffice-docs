@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 457,
-    "Name": "Cartwright-Gottlieb",
-    "Tooltip": "nihil",
+    "Id": 654,
+    "Name": "Little, Koepp and Braun",
+    "Tooltip": "quisquam",
     "Deleted": false,
-    "UdListDefinitionId": 215,
-    "Rank": 930
+    "UdListDefinitionId": 897,
+    "Rank": 992
   },
   {
-    "Id": 457,
-    "Name": "Cartwright-Gottlieb",
-    "Tooltip": "nihil",
+    "Id": 654,
+    "Name": "Little, Koepp and Braun",
+    "Tooltip": "quisquam",
     "Deleted": false,
-    "UdListDefinitionId": 215,
-    "Rank": 930
+    "UdListDefinitionId": 897,
+    "Rank": 992
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 805,
-    "Name": "Goldner, Bins and Batz",
-    "Tooltip": "sapiente",
+    "Id": 385,
+    "Name": "Johnson, Torphy and Rowe",
+    "Tooltip": "aut",
     "Deleted": false,
-    "UdListDefinitionId": 568,
-    "Rank": 669,
+    "UdListDefinitionId": 189,
+    "Rank": 884,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 542
+        "FieldType": "System.String",
+        "FieldLength": 337
       }
     }
   }

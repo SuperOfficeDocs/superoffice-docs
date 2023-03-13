@@ -115,31 +115,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 288,
-  "PlainMessage": "esse",
-  "HtmlMessage": "ipsam",
-  "SmsMessage": "facilis",
-  "Description": "Compatible object-oriented leverage",
-  "Subject": "minus",
-  "FolderId": 462,
-  "HeaderField": "enim",
-  "Design": "neque",
+  "ShipmentMessageId": 468,
+  "PlainMessage": "eos",
+  "HtmlMessage": "officiis",
+  "SmsMessage": "consequatur",
+  "Description": "Expanded maximized hardware",
+  "Subject": "consequuntur",
+  "FolderId": 797,
+  "HeaderField": "magni",
+  "Design": "amet",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Mandatory dynamic product",
-  "AccessKey": "molestiae",
-  "DocumentMessage": 643,
-  "Registered": "2013-10-14T14:19:10.7873511+02:00",
-  "RegisteredAssociateId": 640,
-  "Updated": "2004-09-02T14:19:10.7873511+02:00",
-  "UpdatedAssociateId": 300,
-  "UpdatedCount": 127
+  "LongDescription": "Business-focused context-sensitive matrix",
+  "AccessKey": "quia",
+  "DocumentMessage": 671,
+  "Registered": "2001-09-22T12:15:27.3996295+02:00",
+  "RegisteredAssociateId": 27,
+  "Updated": "2011-09-03T12:15:27.3996295+02:00",
+  "UpdatedAssociateId": 249,
+  "UpdatedCount": 135
 }
 ```
 
@@ -150,33 +150,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 10,
-  "PlainMessage": "eum",
-  "HtmlMessage": "ratione",
-  "SmsMessage": "quia",
-  "Description": "Ergonomic actuating paradigm",
-  "Subject": "totam",
-  "FolderId": 561,
-  "HeaderField": "impedit",
-  "Design": "est",
+  "ShipmentMessageId": 67,
+  "PlainMessage": "sapiente",
+  "HtmlMessage": "aut",
+  "SmsMessage": "earum",
+  "Description": "Reduced multi-state core",
+  "Subject": "optio",
+  "FolderId": 305,
+  "HeaderField": "totam",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Function-based composite secured line",
-  "AccessKey": "eveniet",
-  "DocumentMessage": 141,
-  "Registered": "2011-08-31T14:19:10.7873511+02:00",
-  "RegisteredAssociateId": 87,
-  "Updated": "2005-11-27T14:19:10.7873511+01:00",
-  "UpdatedAssociateId": 732,
-  "UpdatedCount": 197,
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Vision-oriented real-time algorithm",
+  "AccessKey": "in",
+  "DocumentMessage": 289,
+  "Registered": "2009-08-23T12:15:27.3996295+02:00",
+  "RegisteredAssociateId": 386,
+  "Updated": "2008-10-12T12:15:27.3996295+02:00",
+  "UpdatedAssociateId": 786,
+  "UpdatedCount": 88,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 502
+      "FieldType": "System.Int32",
+      "FieldLength": 577
     }
   },
   "_Links": {

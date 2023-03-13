@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 02.15.2023
+so.date: 03.01.2023
 so.topic: reference
 so.envir:
   - "onsite"

@@ -87,44 +87,44 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Williamson Inc and Sons",
-      "Operator": "autem",
+      "Name": "Brakus LLC",
+      "Operator": "quos",
       "Values": [
-        "possimus",
-        "sunt"
+        "quia",
+        "est"
       ],
       "DisplayValues": [
-        "accusamus",
-        "culpa"
+        "laboriosam",
+        "perspiciatis"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 260,
+      "InterParenthesis": 950,
       "InterOperator": "And",
-      "UniqueHash": 544
+      "UniqueHash": 915
     }
   ],
-  "ProviderName": "Rempel, Marquardt and Schuppe",
+  "ProviderName": "Reichert, Nader and Fritsch",
   "DesiredColumns": [
-    "nulla",
-    "reiciendis"
+    "autem",
+    "quia"
   ],
   "OrderBy": [
     {
-      "Name": "Upton-Frami",
+      "Name": "Monahan Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Upton-Frami",
+      "Name": "Monahan Inc and Sons",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 331,
-  "PageNumber": 178
+  "PageSize": 397,
+  "PageNumber": 731
 }
 ```
 
@@ -137,51 +137,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Emard-Douglas",
-      "DisplayTooltip": "tenetur",
-      "DisplayType": "pariatur",
-      "CanOrderBy": false,
-      "Name": "Marvin-Reynolds",
-      "CanRestrictBy": false,
-      "RestrictionType": "in",
-      "RestrictionListName": "Hagenes, Gerlach and Sanford",
+      "DisplayName": "Leuschke Inc and Sons",
+      "DisplayTooltip": "et",
+      "DisplayType": "minima",
+      "CanOrderBy": true,
+      "Name": "Brakus, Stracke and Grimes",
+      "CanRestrictBy": true,
+      "RestrictionType": "dicta",
+      "RestrictionListName": "Rippin-Kuhlman",
       "IsVisible": false,
-      "ExtraInfo": "nulla",
-      "Width": "voluptas",
-      "IconHint": "quasi",
-      "HeadingIconHint": "explicabo"
+      "ExtraInfo": "quod",
+      "Width": "consequuntur",
+      "IconHint": "sed",
+      "HeadingIconHint": "in"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Wilderman-Rau",
-      "PrimaryKey": 35,
+      "EntityName": "Bayer Group",
+      "PrimaryKey": 990,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sunt",
-          "TooltipHint": "voluptatibus",
-          "LinkHint": "aut"
+          "DisplayValue": "ipsa",
+          "TooltipHint": "quos",
+          "LinkHint": "sint"
         }
       },
-      "LinkHint": "culpa",
-      "StyleHint": "facere",
+      "LinkHint": "saepe",
+      "StyleHint": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 49
+          "FieldLength": 905
         }
       }
     }
   ],
-  "RowCount": 754,
+  "RowCount": 964,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 438
+      "FieldType": "System.Int32",
+      "FieldLength": 219
     }
   }
 }

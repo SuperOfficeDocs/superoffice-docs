@@ -96,19 +96,19 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 663,
-  "ERPPriceListKey": "aspernatur",
-  "QuoteConnectionId": 954,
-  "Name": "McCullough, Torp and Lindgren",
-  "Description": "Up-sized bandwidth-monitored methodology",
-  "Currency": "magni",
-  "CurrencyName": "Morissette, Altenwerth and Runte",
-  "ValidFrom": "2010-06-24T14:19:11.3367817+02:00",
-  "ValidTo": "2018-08-13T14:19:11.3367817+02:00",
+  "PriceListId": 657,
+  "ERPPriceListKey": "placeat",
+  "QuoteConnectionId": 652,
+  "Name": "Lockman LLC",
+  "Description": "Optimized homogeneous framework",
+  "Currency": "et",
+  "CurrencyName": "Douglas Inc and Sons",
+  "ValidFrom": "2014-12-05T12:15:28.2556197+01:00",
+  "ValidTo": "2016-08-28T12:15:28.2556197+02:00",
   "IsActive": false
 }
 ```
@@ -120,22 +120,22 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 440,
-  "ERPPriceListKey": "sequi",
-  "QuoteConnectionId": 396,
-  "Name": "Kuphal-Turcotte",
-  "Description": "Secured empowering initiative",
-  "Currency": "minima",
-  "CurrencyName": "Mante, Cruickshank and Roob",
-  "ValidFrom": "2018-01-28T14:19:11.3367817+01:00",
-  "ValidTo": "2021-12-19T14:19:11.3367817+01:00",
+  "PriceListId": 362,
+  "ERPPriceListKey": "omnis",
+  "QuoteConnectionId": 590,
+  "Name": "Mraz-Monahan",
+  "Description": "Team-oriented multi-state internet solution",
+  "Currency": "enim",
+  "CurrencyName": "Kub, Kautzer and Ondricka",
+  "ValidFrom": "2009-04-29T12:15:28.2556197+02:00",
+  "ValidTo": "2006-11-15T12:15:28.2556197+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldLength": 551
     }
   },
   "_Links": {

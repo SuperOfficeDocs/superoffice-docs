@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,49 +76,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 742,
-  "Field": "doloribus",
-  "RecordId": 229,
+  "RefCountsId": 670,
+  "Field": "porro",
+  "RecordId": 326,
   "SuggestedRecords": [
     {
-      "Id": 699,
-      "Name": "Stoltenberg-Dach",
-      "ToolTip": "Odio quibusdam sint sit beatae laboriosam.",
+      "Id": 766,
+      "Name": "Stamm Group",
+      "ToolTip": "Omnis unde rem neque rerum qui inventore.",
       "Deleted": false,
-      "Rank": 629,
-      "Type": "sed",
+      "Rank": 245,
+      "Type": "modi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quas",
-      "ColorBlock": 266,
-      "ExtraInfo": "officiis",
-      "StyleHint": "suscipit",
-      "FullName": "Frank Metz",
+      "IconHint": "velit",
+      "ColorBlock": 718,
+      "ExtraInfo": "at",
+      "StyleHint": "molestiae",
+      "FullName": "Tia Stiedemann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 886
+          "FieldType": "System.Int32",
+          "FieldLength": 569
         }
       }
     }
   ],
-  "CurrentValue": 418,
-  "TravelPrefix": 130,
-  "SatPrefix": 567,
-  "Allocate": false,
+  "CurrentValue": 199,
+  "TravelPrefix": 252,
+  "SatPrefix": 221,
+  "Allocate": true,
   "Unique": false,
-  "ReadOnly": true,
+  "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 164
+      "FieldLength": 940
     }
   }
 }

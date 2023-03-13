@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,94 +95,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "eius",
-  "SignOffText": "sed",
-  "SignOnConfirmationText": "est",
-  "SignOnText": "suscipit",
-  "EventDate": "2012-06-11T14:19:03.9219591+02:00",
+  "SignOffConfirmationText": "vitae",
+  "SignOffText": "assumenda",
+  "SignOnConfirmationText": "ratione",
+  "SignOnText": "officiis",
+  "EventDate": "1997-01-03T12:15:19.8107405+01:00",
   "Enabled": false,
-  "CreatedDate": "2008-04-29T14:19:03.9219591+02:00",
-  "SignOff": false,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 491,
+  "CreatedDate": "2008-05-25T12:15:19.8107405+02:00",
+  "SignOff": true,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 723,
   "SignOffTriggersAssign": false,
   "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 990,
-  "SignOnTriggersAssign": true,
-  "UpdatedDate": "2013-09-09T14:19:03.9219591+02:00",
+  "SignOnTaskId": 594,
+  "SignOnTriggersAssign": false,
+  "UpdatedDate": "2014-11-02T12:15:19.8107405+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 615,
-  "Id": 657,
-  "PublishFrom": "2009-05-09T14:19:03.9219591+02:00",
+  "ProjectId": 932,
+  "Id": 698,
+  "PublishFrom": "2001-12-06T12:15:19.8117421+01:00",
   "PublishType": "External",
-  "PublishTo": "2021-09-24T14:19:03.9219591+02:00",
+  "PublishTo": "2016-01-29T12:15:19.8117421+01:00",
   "VisibleForCategories": [
     {
-      "Id": 276,
-      "Name": "Little-Moen",
-      "ToolTip": "Repellendus sint vitae qui.",
+      "Id": 752,
+      "Name": "Volkman, Hirthe and Schmitt",
+      "ToolTip": "Ea commodi vel ratione.",
       "Deleted": false,
-      "Rank": 537,
-      "Type": "quisquam",
+      "Rank": 142,
+      "Type": "quis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sed",
-      "ColorBlock": 524,
-      "ExtraInfo": "assumenda",
-      "StyleHint": "debitis",
-      "FullName": "Mr. Aaliyah Denesik I",
+      "IconHint": "esse",
+      "ColorBlock": 477,
+      "ExtraInfo": "consequatur",
+      "StyleHint": "ad",
+      "FullName": "Darien Schulist DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 819
+          "FieldLength": 493
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 437,
-      "Name": "Kulas, Boehm and Kutch",
-      "ToolTip": "Impedit provident iure.",
-      "Deleted": false,
-      "Rank": 327,
-      "Type": "illo",
+      "Id": 910,
+      "Name": "Howe-Ondricka",
+      "ToolTip": "Est reprehenderit.",
+      "Deleted": true,
+      "Rank": 705,
+      "Type": "sed",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "reprehenderit",
-      "ColorBlock": 459,
-      "ExtraInfo": "asperiores",
-      "StyleHint": "labore",
-      "FullName": "Logan Cruickshank II",
+      "IconHint": "repellat",
+      "ColorBlock": 727,
+      "ExtraInfo": "labore",
+      "StyleHint": "molestias",
+      "FullName": "Prof. Zetta Delaney Abbott",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 86
+          "FieldType": "System.String",
+          "FieldLength": 162
         }
       }
     }
   ],
-  "IsPublished": true,
+  "IsPublished": false,
   "IsVisibleForMembers": false,
-  "IsVisibleForCategories": false,
+  "IsVisibleForCategories": true,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 467,
+  "ProjectEventId": 726,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 547
+      "FieldType": "System.Int32",
+      "FieldLength": 739
     }
   }
 }

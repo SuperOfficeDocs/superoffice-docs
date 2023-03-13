@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 235
+  "ProjectId": 33
 }
 ```
 
@@ -104,30 +104,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 206,
-  "Name": "Corwin-Haag",
-  "Description": "Multi-tiered heuristic artificial intelligence",
+  "ProjectId": 262,
+  "Name": "Feil LLC",
+  "Description": "Exclusive analyzing contingency",
   "URL": "http://www.example.com/",
-  "Type": "debitis",
-  "AssociateId": 513,
-  "AssociateFullName": "Kavon Volkman",
-  "TypeId": 488,
-  "Updated": "2002-03-13T14:19:03.9688343+01:00",
-  "StatusId": 315,
-  "Status": "accusamus",
-  "TextId": 758,
-  "PublishTo": "2004-12-31T14:19:03.9688343+01:00",
-  "PublishFrom": "2008-01-08T14:19:03.9688343+01:00",
+  "Type": "ex",
+  "AssociateId": 279,
+  "AssociateFullName": "Harmony Cummings",
+  "TypeId": 66,
+  "Updated": "2016-10-09T12:15:19.8627386+02:00",
+  "StatusId": 922,
+  "Status": "rerum",
+  "TextId": 612,
+  "PublishTo": "2022-08-23T12:15:19.8627386+02:00",
+  "PublishFrom": "2020-08-25T12:15:19.8627386+02:00",
   "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "421150",
-  "ActiveErpLinks": 687,
+  "ProjectNumber": "1095769",
+  "ActiveErpLinks": 632,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 289
+      "FieldLength": 557
     }
   }
 }

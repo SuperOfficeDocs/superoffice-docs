@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Sporer LLC",
-  "ProviderName": "Mertz-Little",
-  "Context": "aut",
-  "OwnerKeys": "ea"
+  "GuiName": "Sauer-Wisozk",
+  "ProviderName": "Kertzmann, McCullough and Daugherty",
+  "Context": "qui",
+  "OwnerKeys": "et"
 }
 ```
 
@@ -100,68 +100,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Tillman Inc and Sons",
-      "DisplayTooltip": "dolore",
-      "DisplayType": "asperiores",
+      "DisplayName": "Tillman LLC",
+      "DisplayTooltip": "eligendi",
+      "DisplayType": "voluptatem",
       "CanOrderBy": false,
-      "Name": "Cormier-Kiehn",
-      "CanRestrictBy": true,
-      "RestrictionType": "aliquam",
-      "RestrictionListName": "Murazik, Watsica and Bartell",
-      "IsVisible": true,
-      "ExtraInfo": "nihil",
-      "Width": "corporis",
-      "IconHint": "et",
-      "HeadingIconHint": "commodi"
+      "Name": "Larkin-Murray",
+      "CanRestrictBy": false,
+      "RestrictionType": "facilis",
+      "RestrictionListName": "Emmerich Inc and Sons",
+      "IsVisible": false,
+      "ExtraInfo": "eum",
+      "Width": "dolor",
+      "IconHint": "quia",
+      "HeadingIconHint": "consequatur"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 279,
-      "Name": "Stehr-Kiehn",
-      "ToolTip": "Tempora eum aut inventore quo labore suscipit.",
+      "Id": 654,
+      "Name": "Marquardt, Franecki and Prosacco",
+      "ToolTip": "Consequatur ut consectetur provident et.",
       "Deleted": false,
-      "Rank": 25,
-      "Type": "qui",
-      "ColorBlock": 378,
-      "IconHint": "nulla",
-      "Selected": false,
-      "LastChanged": "2021-04-25T14:19:02.7281785+02:00",
+      "Rank": 364,
+      "Type": "aperiam",
+      "ColorBlock": 912,
+      "IconHint": "cupiditate",
+      "Selected": true,
+      "LastChanged": "2012-08-07T12:15:18.1507677+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sit",
-      "StyleHint": "mollitia",
-      "Hidden": false,
-      "FullName": "Claudine Jordyn Goldner V",
+      "ExtraInfo": "tenetur",
+      "StyleHint": "sunt",
+      "Hidden": true,
+      "FullName": "Connor Lesch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 336
+          "FieldType": "System.String",
+          "FieldLength": 6
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Schamberger-Ortiz",
+      "Name": "Homenick-Kemmer",
       "Direction": "ASC"
     },
     {
-      "Name": "Schamberger-Ortiz",
+      "Name": "Homenick-Kemmer",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "est",
+  "OwnerKeys": "ratione",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 346
+      "FieldType": "System.String",
+      "FieldLength": 384
     }
   }
 }

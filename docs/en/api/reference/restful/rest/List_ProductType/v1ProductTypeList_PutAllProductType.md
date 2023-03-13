@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 398,
-    "Name": "Greenholt-Mertz",
-    "Tooltip": "numquam",
-    "Deleted": false,
-    "UdListDefinitionId": 642,
-    "Rank": 263
+    "Id": 697,
+    "Name": "Towne, Hartmann and Heathcote",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 211,
+    "Rank": 871
   },
   {
-    "Id": 398,
-    "Name": "Greenholt-Mertz",
-    "Tooltip": "numquam",
-    "Deleted": false,
-    "UdListDefinitionId": 642,
-    "Rank": 263
+    "Id": 697,
+    "Name": "Towne, Hartmann and Heathcote",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 211,
+    "Rank": 871
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 224,
-    "Name": "Hintz, Halvorson and Medhurst",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "UdListDefinitionId": 445,
-    "Rank": 772,
+    "Id": 749,
+    "Name": "Funk-Langworth",
+    "Tooltip": "facere",
+    "Deleted": true,
+    "UdListDefinitionId": 619,
+    "Rank": 68,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 273
+        "FieldType": "System.Int32",
+        "FieldLength": 511
       }
     }
   }

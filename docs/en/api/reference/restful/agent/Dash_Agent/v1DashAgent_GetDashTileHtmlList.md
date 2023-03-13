@@ -79,7 +79,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 443
+  "DashboardTileDefinitionId": 499
 }
 ```
 
@@ -91,26 +91,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "commodi",
-    "Html": "est",
+    "LanguageCode": "reiciendis",
+    "Html": "provident",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 610
+        "FieldType": "System.Int32",
+        "FieldLength": 960
       }
     }
   },
   {
-    "LanguageCode": "commodi",
-    "Html": "est",
+    "LanguageCode": "reiciendis",
+    "Html": "provident",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 610
+        "FieldType": "System.Int32",
+        "FieldLength": 960
       }
     }
   }

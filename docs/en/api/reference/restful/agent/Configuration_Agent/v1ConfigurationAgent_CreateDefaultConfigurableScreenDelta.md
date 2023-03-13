@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,28 +78,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 95,
-  "Name": "Fay, Collier and Johns",
-  "Description": "Multi-lateral stable matrix",
-  "DeltaJson": "eius",
+  "ConfigurableScreenDeltaId": 135,
+  "Name": "Adams Group",
+  "Description": "De-engineered executive infrastructure",
+  "DeltaJson": "velit",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "iure",
-  "UpdatedDate": "2002-03-30T14:19:02.916778+01:00",
-  "CreatedDate": "2022-11-28T14:19:02.916778+01:00",
+  "RecipeId": "quaerat",
+  "UpdatedDate": "1996-11-07T12:15:18.4047594+01:00",
+  "CreatedDate": "2001-03-15T12:15:18.4047594+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    207,
-    207
+    505,
+    287
   ],
-  "AppliesToKey": "non",
+  "AppliesToKey": "eligendi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 296
+      "FieldType": "System.Int32",
+      "FieldLength": 284
     }
   }
 }

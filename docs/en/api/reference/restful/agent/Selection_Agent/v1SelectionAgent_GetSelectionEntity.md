@@ -25,7 +25,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=556
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=989
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -116,70 +116,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Visionary asynchronous policy",
-  "Postit": "perspiciatis",
+  "Description": "Synchronised reciprocal software",
+  "Postit": "totam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 119,
-  "IncludePerson": 94,
-  "MemberCount": 192,
-  "Name": "O'Keefe, Quigley and Franecki",
-  "PostitTextId": 8,
-  "CreatedDate": "2009-11-24T14:19:04.1723543+01:00",
-  "SelectionId": 357,
-  "SoundEx": "qui",
-  "Source": 67,
-  "TextId": 278,
-  "UpdatedDate": "2017-09-23T14:19:04.1723543+02:00",
-  "UpdatedCount": 264,
-  "Visibility": 885,
+  "GroupIdx": 61,
+  "IncludePerson": 847,
+  "MemberCount": 428,
+  "Name": "Fahey-Wolff",
+  "PostitTextId": 311,
+  "CreatedDate": "2019-03-15T12:15:20.1347418+01:00",
+  "SelectionId": 877,
+  "SoundEx": "quibusdam",
+  "Source": 330,
+  "TextId": 327,
+  "UpdatedDate": "2004-12-29T12:15:20.1347418+01:00",
+  "UpdatedCount": 808,
+  "Visibility": 398,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 354,
-  "TargetTableName": "Barton LLC",
-  "Completed": true,
-  "LeftSelectionId": 197,
-  "RightSelectionId": 782,
+  "CompanyUnique": true,
+  "TargetTableNumber": 963,
+  "TargetTableName": "Waelchi, Davis and Kiehn",
+  "Completed": false,
+  "LeftSelectionId": 764,
+  "RightSelectionId": 204,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Swift Inc and Sons",
-  "ShadowProviderName": "Ebert Inc and Sons",
-  "ChartKey": "aut",
-  "LastLoaded": "2012-01-18T14:19:04.1723543+01:00",
-  "LastLoadedBy": 199,
+  "MainProviderName": "Jones-Hamill",
+  "ShadowProviderName": "Welch, Batz and Ullrich",
+  "ChartKey": "blanditiis",
+  "LastLoaded": "1999-03-02T12:15:20.1347418+01:00",
+  "LastLoadedBy": 286,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-10-25T14:19:04.1723543+02:00",
-  "LastMembershipChangeBy": 923,
+  "LastMembershipChange": "1999-06-14T12:15:20.1357348+02:00",
+  "LastMembershipChangeBy": 291,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptate",
-  "MemberTabHeading": "debitis",
-  "MailingsProviderName": "Beahan Group",
-  "DashboardTileDefinitionId": 707,
+  "MainHeading": "sit",
+  "MemberTabHeading": "impedit",
+  "MailingsProviderName": "Tillman, Hudson and Lind",
+  "DashboardTileDefinitionId": 141,
   "VisibleFor": [
     {
-      "VisibleId": 295,
+      "VisibleId": 705,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 738
+          "FieldLength": 550
         }
       }
     },
     {
-      "VisibleId": 295,
+      "VisibleId": 705,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 738
+          "FieldLength": 550
         }
       }
     }
@@ -188,8 +188,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 285
+      "FieldType": "System.Int32",
+      "FieldLength": 696
     }
   }
 }

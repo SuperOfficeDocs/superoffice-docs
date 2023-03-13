@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 906
+  "SelectedListId": 791
 }
 ```
 
@@ -122,46 +122,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 288,
-  "ColumnId": 264,
-  "FieldDefault": "aut",
-  "FieldHeight": 193,
-  "FieldLabel": "dolorum",
-  "FieldLeft": 267,
-  "FieldTop": 9,
+  "UDefFieldId": 643,
+  "ColumnId": 820,
+  "FieldDefault": "asperiores",
+  "FieldHeight": 685,
+  "FieldLabel": "sint",
+  "FieldLeft": 346,
+  "FieldTop": 151,
   "FieldType": "Checkbox",
-  "FieldWidth": 332,
-  "FormatMask": "quam",
+  "FieldWidth": 38,
+  "FormatMask": "eveniet",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 234,
-  "LabelLeft": 457,
-  "LabelTop": 236,
-  "LabelWidth": 628,
-  "LastVersionId": 224,
-  "ListTableId": 482,
+  "IsIndexed": true,
+  "LabelHeight": 940,
+  "LabelLeft": 266,
+  "LabelTop": 825,
+  "LabelWidth": 318,
+  "LastVersionId": 479,
+  "ListTableId": 303,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 25,
-  "ProgId": "atque",
+  "Page1LineNo": 816,
+  "ProgId": "et",
   "IsReadOnly": false,
-  "ShortLabel": "pariatur",
-  "TabOrder": 230,
-  "TextLength": 842,
-  "Tooltip": "deserunt",
-  "UdefIdentity": 160,
-  "UDListDefinitionId": 17,
+  "ShortLabel": "ipsa",
+  "TabOrder": 945,
+  "TextLength": 525,
+  "Tooltip": "excepturi",
+  "UdefIdentity": 31,
+  "UDListDefinitionId": 223,
   "Justification": "Center",
-  "Version": 771,
-  "TemplateVariableName": "Schaefer-Daugherty",
+  "Version": 344,
+  "TemplateVariableName": "Krajcik-Pouros",
   "HasBeenPublished": false,
-  "MdoListName": "Goodwin, Romaguera and Gleason",
+  "MdoListName": "Towne, Quigley and Smith",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 408
+      "FieldLength": 457
     }
   }
 }

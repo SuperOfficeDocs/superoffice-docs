@@ -74,8 +74,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Macejkovic, Brown and Bergstrom",
-    "Weimann-Schaefer"
+    "Kilback Group",
+    "Pfeffer-Kutch"
   ]
 }
 ```
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"aut"
+"deserunt"
 ```

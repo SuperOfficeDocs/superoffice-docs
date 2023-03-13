@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 239,
-    "Name": "Weissnat, Ernser and Lueilwitz",
-    "Tooltip": "odit",
+    "Id": 95,
+    "Name": "Hintz-Marquardt",
+    "Tooltip": "maxime",
     "Deleted": false,
-    "UdListDefinitionId": 777,
-    "Rank": 127,
+    "UdListDefinitionId": 612,
+    "Rank": 842,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 785
+        "FieldLength": 219
       }
     }
   }

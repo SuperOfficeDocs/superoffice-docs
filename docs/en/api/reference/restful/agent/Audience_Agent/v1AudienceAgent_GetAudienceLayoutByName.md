@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Braun, Kuhic and Prosacco"
+  "LayoutName": "Cole-Kertzmann"
 }
 ```
 
@@ -93,19 +93,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 475,
-  "InstanceLayout": "qui",
-  "InstanceName": "Bruen Group",
-  "CreatedDate": "2016-12-28T14:19:02.7594283+01:00",
-  "UpdatedDate": "1999-05-22T14:19:02.7594283+02:00",
+  "AudienceLayoutId": 295,
+  "InstanceLayout": "ipsa",
+  "InstanceName": "Toy Inc and Sons",
+  "CreatedDate": "2005-07-16T12:15:18.1957625+02:00",
+  "UpdatedDate": "1996-12-14T12:15:18.1957625+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldType": "System.String",
+      "FieldLength": 135
     }
   }
 }

@@ -100,7 +100,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 979
+  "ContactId": 271
 }
 ```
 
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Walter LLC",
-    "SaleDate": "2017-10-14T14:19:04.1410858+02:00",
-    "SaleId": 791,
-    "Probability": 59,
-    "Title": "enim",
-    "Amount": 7013.892,
-    "Currency": "corrupti",
-    "ProjectName": "Yost, Feil and Ernser",
-    "AssociateFullName": "Maude Koss",
-    "Description": "Cloned regional collaboration",
+    "ContactName": "Prosacco-Stracke",
+    "SaleDate": "2018-08-09T12:15:20.0967364+02:00",
+    "SaleId": 999,
+    "Probability": 542,
+    "Title": "sint",
+    "Amount": 11072.422,
+    "Currency": "quis",
+    "ProjectName": "Jakubowski-O'Hara",
+    "AssociateFullName": "Alexane Volkman",
+    "Description": "Managed mission-critical architecture",
     "Status": "Lost",
-    "WeightedAmount": 24952.908,
-    "ProjectId": 614,
-    "EarningPercent": 19800.612,
-    "Earning": 24871.424,
-    "ContactId": 545,
-    "AssociateId": 811,
-    "PersonId": 770,
-    "SaleTypeId": 17,
-    "SaleTypeName": "McCullough LLC",
-    "PersonFullName": "Rhett Bruen",
+    "WeightedAmount": 28547.606,
+    "ProjectId": 941,
+    "EarningPercent": 14084.196,
+    "Earning": 1535.6599999999999,
+    "ContactId": 582,
+    "AssociateId": 695,
+    "PersonId": 634,
+    "SaleTypeId": 196,
+    "SaleTypeName": "Skiles LLC",
+    "PersonFullName": "Dr. Dina Quigley",
     "Completed": "Completed",
-    "ActiveErpLinks": 778,
-    "NextDueDate": "1996-05-25T14:19:04.1410858+02:00",
-    "Number": "417354",
+    "ActiveErpLinks": 782,
+    "NextDueDate": "2005-07-25T12:15:20.0967364+02:00",
+    "Number": "895622",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 48
+        "FieldType": "System.Int32",
+        "FieldLength": 805
       }
     }
   }

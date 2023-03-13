@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,60 +93,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 805,
-  "Name": "Goldner, Streich and Lemke",
+  "TicketPriorityId": 982,
+  "Name": "Thiel Group",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 704,
+  "SortOrder": 77,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 543,
-  "MonStart": "2005-02-26T14:19:03.7019992+01:00",
-  "MonStop": "2015-01-08T14:19:03.7019992+01:00",
-  "TueStart": "2015-06-27T14:19:03.7019992+02:00",
-  "TueStop": "2005-03-30T14:19:03.7019992+02:00",
-  "WedStart": "2006-12-31T14:19:03.7019992+01:00",
-  "WedStop": "1998-11-22T14:19:03.7019992+01:00",
-  "ThuStart": "2002-02-26T14:19:03.7019992+01:00",
-  "ThuStop": "2004-09-18T14:19:03.7019992+02:00",
-  "FriStart": "2004-09-11T14:19:03.7019992+02:00",
-  "FriStop": "2002-04-30T14:19:03.7019992+02:00",
-  "SatStart": "2012-08-19T14:19:03.7019992+02:00",
-  "SatStop": "2007-08-08T14:19:03.7019992+02:00",
-  "SunStart": "2022-10-13T14:19:03.7019992+02:00",
-  "SunStop": "2012-06-15T14:19:03.7019992+02:00",
+  "Deadline": 738,
+  "MonStart": "2013-02-27T12:15:19.3447461+01:00",
+  "MonStop": "2008-04-23T12:15:19.3447461+02:00",
+  "TueStart": "2006-01-14T12:15:19.3447461+01:00",
+  "TueStop": "2007-09-30T12:15:19.3447461+02:00",
+  "WedStart": "2002-02-12T12:15:19.3447461+01:00",
+  "WedStop": "2022-07-08T12:15:19.3447461+02:00",
+  "ThuStart": "1995-12-03T12:15:19.3447461+01:00",
+  "ThuStop": "2009-01-10T12:15:19.3447461+01:00",
+  "FriStart": "2000-07-15T12:15:19.3447461+02:00",
+  "FriStop": "2019-08-06T12:15:19.3447461+02:00",
+  "SatStart": "2021-01-14T12:15:19.3447461+01:00",
+  "SatStop": "2006-08-01T12:15:19.3447461+02:00",
+  "SunStart": "2017-10-21T12:15:19.3447461+02:00",
+  "SunStop": "2007-07-21T12:15:19.3447461+02:00",
   "NonDates": [
     "fuga",
-    "id"
+    "blanditiis"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 866,
-      "AlertLevel": 204,
-      "AlertTimeout": 136,
-      "Action": 156,
-      "DelegateTo": 874,
-      "ScriptId": 341,
-      "EmailTo": "tommie@cruickshank.biz",
-      "SmsTo": "perspiciatis",
-      "ReplyTemplateIdCustomer": 883,
-      "ReplyTemplateIdUser": 399,
-      "ReplyTemplateIdCatmast": 662,
-      "ReplyTemplateIdEmail": 21,
-      "RtiCustomerSms": 496,
-      "ReplyTemplateIdUserSms": 893,
-      "ReplyTemplateIdCatmastSms": 998,
-      "ReplyTemplateIdSms": 626,
+      "TicketAlertId": 750,
+      "AlertLevel": 560,
+      "AlertTimeout": 645,
+      "Action": 60,
+      "DelegateTo": 387,
+      "ScriptId": 533,
+      "EmailTo": "wilford.sporer@toy.biz",
+      "SmsTo": "qui",
+      "ReplyTemplateIdCustomer": 132,
+      "ReplyTemplateIdUser": 90,
+      "ReplyTemplateIdCatmast": 831,
+      "ReplyTemplateIdEmail": 354,
+      "RtiCustomerSms": 204,
+      "ReplyTemplateIdUserSms": 911,
+      "ReplyTemplateIdCatmastSms": 773,
+      "ReplyTemplateIdSms": 392,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 617
+          "FieldType": "System.String",
+          "FieldLength": 253
         }
       }
     }
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 944
+      "FieldLength": 392
     }
   }
 }

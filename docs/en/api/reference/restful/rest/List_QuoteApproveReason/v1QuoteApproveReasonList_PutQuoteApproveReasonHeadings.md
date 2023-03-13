@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 977,
-    "Name": "Nienow-Yost",
-    "Tooltip": "vel",
+    "HeadingId": 473,
+    "Name": "Bosco, Hettinger and Bergstrom",
+    "Tooltip": "voluptate",
     "Deleted": true,
-    "Rank": 280,
-    "UdListDefinitionId": 552
+    "Rank": 710,
+    "UdListDefinitionId": 947
   },
   {
-    "HeadingId": 977,
-    "Name": "Nienow-Yost",
-    "Tooltip": "vel",
+    "HeadingId": 473,
+    "Name": "Bosco, Hettinger and Bergstrom",
+    "Tooltip": "voluptate",
     "Deleted": true,
-    "Rank": 280,
-    "UdListDefinitionId": 552
+    "Rank": 710,
+    "UdListDefinitionId": 947
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 620,
-    "Name": "Lowe LLC",
-    "Tooltip": "blanditiis",
+    "HeadingId": 104,
+    "Name": "O'Conner-Jacobi",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "Rank": 328,
-    "UdListDefinitionId": 676,
+    "Rank": 879,
+    "UdListDefinitionId": 713,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 262
+        "FieldType": "System.Int32",
+        "FieldLength": 909
       }
     }
   }

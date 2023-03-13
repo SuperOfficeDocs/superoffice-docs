@@ -85,12 +85,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 315,
-  "Name": "Christiansen Group",
-  "Tooltip": "iure",
-  "Rank": 596,
-  "Rate": 26378.878,
-  "Units": 14673.387999999999,
+  "CurrencyId": 118,
+  "Name": "Kassulke-Batz",
+  "Tooltip": "dolor",
+  "Rank": 398,
+  "Rate": 25457.482,
+  "Units": 13858.547999999999,
   "Deleted": false
 }
 ```
@@ -102,19 +102,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 667,
-  "Name": "Rohan Inc and Sons",
-  "Tooltip": "et",
-  "Rank": 465,
-  "Rate": 2087.244,
-  "Units": 17412.504,
-  "Deleted": true,
+  "CurrencyId": 560,
+  "Name": "Waters-Franecki",
+  "Tooltip": "maxime",
+  "Rank": 589,
+  "Rate": 9981.7899999999991,
+  "Units": 18290.023999999998,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 36
+      "FieldLength": 726
     }
   }
 }

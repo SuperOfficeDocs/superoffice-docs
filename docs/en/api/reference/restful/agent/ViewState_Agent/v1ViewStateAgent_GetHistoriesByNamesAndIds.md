@@ -86,14 +86,14 @@ Content-Type: application/json; charset=utf-8
 {
   "Requests": [
     {
-      "EntityName": "Mann Inc and Sons",
-      "EntityOrParentId": 291,
-      "RequestForNewRecord": true
+      "EntityName": "West Group",
+      "EntityOrParentId": 888,
+      "RequestForNewRecord": false
     },
     {
-      "EntityName": "Mann Inc and Sons",
-      "EntityOrParentId": 291,
-      "RequestForNewRecord": true
+      "EntityName": "West Group",
+      "EntityOrParentId": 888,
+      "RequestForNewRecord": false
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 528,
-    "Id": 312,
-    "HistoryName": "Turcotte Inc and Sons",
-    "HistoryId": 88,
-    "AssociateId": 21,
-    "Name": "Hayes-Feil",
-    "ItemInfo": "incidunt",
+    "Rank": 475,
+    "Id": 289,
+    "HistoryName": "Schneider-Douglas",
+    "HistoryId": 359,
+    "AssociateId": 633,
+    "Name": "Cruickshank Group",
+    "ItemInfo": "iusto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 195
+        "FieldType": "System.String",
+        "FieldLength": 276
       }
     }
   }

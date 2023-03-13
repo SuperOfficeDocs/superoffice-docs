@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "rerum",
+  "SaleText": "et",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -124,113 +124,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2000-10-09T14:19:04.0938354+02:00",
-  "Amount": 28989.5,
-  "SaleId": 638,
-  "Earning": 9201.4239999999991,
-  "EarningPercent": 8897.426,
-  "Heading": "assumenda",
-  "Number": "1253285",
-  "Probability": 954,
-  "CreatedDate": "2018-07-14T14:19:04.0938354+02:00",
-  "UpdatedDate": "2013-02-23T14:19:04.0938354+01:00",
+  "Saledate": "2004-07-23T12:15:20.0307421+02:00",
+  "Amount": 21235.984,
+  "SaleId": 398,
+  "Earning": 26544.98,
+  "EarningPercent": 5387.346,
+  "Heading": "maiores",
+  "Number": "1054169",
+  "Probability": 213,
+  "CreatedDate": "1999-01-15T12:15:20.0307421+01:00",
+  "UpdatedDate": "2021-09-17T12:15:20.0307421+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 742,
+  "ActiveLinks": 530,
   "Links": [
     {
-      "EntityName": "DuBuque, Parisian and Bergstrom",
-      "Id": 826,
-      "Description": "Public-key encompassing moratorium",
-      "ExtraInfo": "laborum",
-      "LinkId": 283,
+      "EntityName": "Rau, Johnson and Marquardt",
+      "Id": 673,
+      "Description": "Optimized mobile capacity",
+      "ExtraInfo": "maiores",
+      "LinkId": 379,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 527
+          "FieldLength": 523
         }
       }
     }
   ],
-  "NextDueDate": "2000-04-02T14:19:04.0938354+02:00",
-  "Postit": "minima",
+  "NextDueDate": "2019-04-02T12:15:20.0307421+02:00",
+  "Postit": "id",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2019-06-21T14:19:04.0938354+02:00",
+  "ReopenDate": "2009-12-03T12:15:20.0317362+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Willms-Larkin",
-      "Comment": "nulla",
-      "StakeholderRoleId": 949,
-      "CountryId": 873,
-      "PersonId": 329,
-      "EmailDescription": "adonis.moen@hane.info",
-      "EmailId": 19,
-      "EmailAddress": "ted@dubuquepredovic.com",
-      "PhoneId": 29,
-      "ContactName": "Towne-Connelly",
-      "ContactId": 856,
-      "SaleId": 525,
-      "Mrmrs": "aliquid",
-      "Firstname": "Thalia",
-      "MiddleName": "Rippin-Metz",
-      "Lastname": "Connelly",
-      "SaleStakeholderId": 696,
-      "Rank": 595,
-      "Phone": "179.827.3849 x038",
+      "StakeholderRoleName": "Schamberger-Senger",
+      "Comment": "debitis",
+      "StakeholderRoleId": 66,
+      "CountryId": 958,
+      "PersonId": 453,
+      "EmailDescription": "johnnie.schmitt@schowalter.name",
+      "EmailId": 225,
+      "EmailAddress": "olen.schmitt@mclaughlin.us",
+      "PhoneId": 353,
+      "ContactName": "Weimann, Ledner and Walsh",
+      "ContactId": 631,
+      "SaleId": 24,
+      "Mrmrs": "harum",
+      "Firstname": "Albina",
+      "MiddleName": "Yundt-Kunze",
+      "Lastname": "Satterfield",
+      "SaleStakeholderId": 997,
+      "Rank": 968,
+      "Phone": "009.690.1435 x6881",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 633
+          "FieldType": "System.String",
+          "FieldLength": 38
         }
       }
     }
   ],
-  "ActiveErpLinks": 277,
+  "ActiveErpLinks": 313,
   "UserDefinedFields": {
-    "SuperOffice:1": "1247819935",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "2041269139",
+    "SuperOffice:2": "1585577453"
   },
   "ExtraFields": {
-    "ExtraFields1": "odit",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "blanditiis",
+    "ExtraFields2": "iste"
   },
   "CustomFields": {
-    "CustomFields1": "nostrum",
-    "CustomFields2": "tempora"
+    "CustomFields1": "est",
+    "CustomFields2": "quas"
   },
-  "PublishEventDate": "2018-05-24T14:19:04.0938354+02:00",
-  "PublishTo": "2000-07-08T14:19:04.0938354+02:00",
-  "PublishFrom": "2009-12-11T14:19:04.0938354+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "1996-01-31T12:15:20.0327359+01:00",
+  "PublishTo": "2013-05-20T12:15:20.0327359+02:00",
+  "PublishFrom": "2014-10-15T12:15:20.0327359+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 214,
+      "VisibleId": 514,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "excepturi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 744
+          "FieldLength": 684
         }
       }
     },
     {
-      "VisibleId": 214,
+      "VisibleId": 514,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "excepturi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 744
+          "FieldLength": 684
         }
       }
     }
@@ -240,7 +240,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 731
+      "FieldLength": 752
     }
   }
 }

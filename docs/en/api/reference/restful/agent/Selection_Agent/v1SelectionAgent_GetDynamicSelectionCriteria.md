@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 314
+  "SelectionId": 52
 }
 ```
 
@@ -95,29 +95,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Anderson-Ebert",
-    "Operator": "iure",
+    "Name": "Schaefer, Abbott and Johnson",
+    "Operator": "magnam",
     "Values": [
-      "vel",
-      "ea"
+      "adipisci",
+      "consequuntur"
     ],
     "DisplayValues": [
-      "in",
-      "quisquam"
+      "rerum",
+      "deleniti"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Cronin Inc and Sons",
-        "Operator": "omnis",
+        "Name": "Hand Group",
+        "Operator": "odit",
         "Values": [
-          "est",
-          "qui"
+          "magni",
+          "aut"
         ],
         "DisplayValues": [
-          "rerum",
-          "quam"
+          "aspernatur",
+          "quibusdam"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -125,14 +125,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 986,
+        "InterParenthesis": 800,
         "InterOperator": "And",
-        "UniqueHash": 322
+        "UniqueHash": 2
       }
     ],
-    "InterParenthesis": 845,
+    "InterParenthesis": 811,
     "InterOperator": "And",
-    "UniqueHash": 187
+    "UniqueHash": 609
   }
 ]
 ```

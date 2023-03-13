@@ -79,7 +79,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,37 +90,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 512,
-    "Name": "Kiehn Group",
-    "AssociateId": 895,
-    "DetailsTable": 763,
-    "DetailsRecord": 173,
-    "IsSystemTask": true,
+    "Id": 983,
+    "Name": "Stoltenberg LLC",
+    "AssociateId": 724,
+    "DetailsTable": 33,
+    "DetailsRecord": 630,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "velit",
-      "ParameterObject2": "modi"
+      "ParameterObject1": "libero",
+      "ParameterObject2": "quos"
     },
-    "LastStarted": "2003-05-31T14:19:10.9279769+02:00",
-    "Created": "2001-01-15T14:19:10.9279769+01:00",
-    "StartCount": 263,
-    "DatabaseSerialNumber": "931795",
-    "Context": "qui",
-    "Result": "ratione",
+    "LastStarted": "2000-06-20T12:15:27.5996259+02:00",
+    "Created": "1997-04-15T12:15:27.5996259+02:00",
+    "StartCount": 756,
+    "DatabaseSerialNumber": "1428113",
+    "Context": "adipisci",
+    "Result": "sint",
     "State": "All",
-    "Description": "Decentralized directional standardization",
-    "Response": "iusto",
-    "Request": "soluta",
-    "ProgressDescription": "Multi-layered stable ability",
-    "ProgressPercent": 291,
-    "FileName": "Pacocha Inc and Sons",
+    "Description": "Reduced needs-based superstructure",
+    "Response": "itaque",
+    "Request": "tenetur",
+    "ProgressDescription": "Synergized exuding migration",
+    "ProgressPercent": 357,
+    "FileName": "Green LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 984
+        "FieldLength": 902
       }
     }
   }

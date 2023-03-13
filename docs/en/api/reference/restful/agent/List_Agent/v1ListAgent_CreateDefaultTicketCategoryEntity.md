@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,36 +83,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 729,
-  "ParentId": 139,
-  "Name": "Gaylord Inc and Sons",
-  "Fullname": "quos",
-  "CategoryMaster": 455,
+  "TicketCategoryId": 569,
+  "ParentId": 771,
+  "Name": "McDermott-Rogahn",
+  "Fullname": "rem",
+  "CategoryMaster": 35,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Windler, Hammes and Deckow",
+  "ExternalName": "Gislason, Harris and Marquardt",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 491,
-  "ReplyTemplate": 353,
-  "NotificationEmail": "tomas.lesch@hand.info",
+  "AssignmentLag": 648,
+  "ReplyTemplate": 670,
+  "NotificationEmail": "terry_feeney@parisian.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 340,
+  "EffectiveReplyTemplateId": 407,
   "ExtraFields": {
-    "ExtraFields1": "tenetur",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "est",
+    "ExtraFields2": "facilis"
   },
   "CustomFields": {
-    "CustomFields1": "cum",
-    "CustomFields2": "dolorem"
+    "CustomFields1": "enim",
+    "CustomFields2": "ratione"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 899
+      "FieldType": "System.String",
+      "FieldLength": 988
     }
   }
 }

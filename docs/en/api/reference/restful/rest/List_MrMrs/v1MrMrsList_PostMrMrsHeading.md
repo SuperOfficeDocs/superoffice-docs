@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 313,
-  "Name": "Krajcik-Jacobi",
-  "Tooltip": "a",
+  "HeadingId": 848,
+  "Name": "Stehr Group",
+  "Tooltip": "adipisci",
   "Deleted": false,
-  "Rank": 850,
-  "UdListDefinitionId": 452
+  "Rank": 607,
+  "UdListDefinitionId": 70
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 634,
-  "Name": "Daugherty-Bergnaum",
-  "Tooltip": "deleniti",
+  "HeadingId": 944,
+  "Name": "Blick-Hoppe",
+  "Tooltip": "modi",
   "Deleted": true,
-  "Rank": 781,
-  "UdListDefinitionId": 28,
+  "Rank": 587,
+  "UdListDefinitionId": 579,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 428
+      "FieldLength": 971
     }
   }
 }

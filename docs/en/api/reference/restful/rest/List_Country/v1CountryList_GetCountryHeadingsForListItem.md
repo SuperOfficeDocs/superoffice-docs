@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 990,
-    "Name": "Denesik-Towne",
-    "ToolTip": "Optio ipsa aut.",
-    "Deleted": false,
-    "Rank": 89,
-    "Type": "maiores",
-    "ColorBlock": 774,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2018-12-28T14:19:11.1949684+01:00",
+    "Id": 274,
+    "Name": "Beatty, Lueilwitz and Corkery",
+    "ToolTip": "Ut et autem ea magni consequatur.",
+    "Deleted": true,
+    "Rank": 983,
+    "Type": "et",
+    "ColorBlock": 901,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2010-05-08T12:15:28.0076205+02:00",
     "ChildItems": [
       {
-        "Id": 843,
-        "Name": "Satterfield-Lesch",
-        "ToolTip": "Quia qui.",
-        "Deleted": true,
-        "Rank": 754,
-        "Type": "ea",
-        "ColorBlock": 15,
-        "IconHint": "tenetur",
-        "Selected": true,
-        "LastChanged": "2012-06-27T14:19:11.1949684+02:00",
+        "Id": 269,
+        "Name": "Padberg, Lakin and Stanton",
+        "ToolTip": "Ipsam explicabo itaque voluptatem ut.",
+        "Deleted": false,
+        "Rank": 582,
+        "Type": "vitae",
+        "ColorBlock": 682,
+        "IconHint": "libero",
+        "Selected": false,
+        "LastChanged": "2010-02-07T12:15:28.0076205+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "quos",
+        "ExtraInfo": "provident",
+        "StyleHint": "voluptatem",
         "Hidden": true,
-        "FullName": "Kaci Mckayla O'Keefe MD",
+        "FullName": "Mr. Noelia Kessler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 986
+            "FieldLength": 415
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Mrs. Mac Bertram Gerlach II",
+    "ExtraInfo": "provident",
+    "StyleHint": "assumenda",
+    "Hidden": false,
+    "FullName": "Ms. Stephany Fleta Barton DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 678
+        "FieldType": "System.Int32",
+        "FieldLength": 890
       }
     }
   }

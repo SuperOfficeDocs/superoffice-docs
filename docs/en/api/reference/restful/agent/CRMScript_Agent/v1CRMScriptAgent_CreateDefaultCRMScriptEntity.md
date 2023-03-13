@@ -79,23 +79,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 819,
-  "UniqueIdentifier": "excepturi",
-  "Name": "Kreiger-Glover",
-  "Description": "Streamlined multi-state website",
-  "IncludeId": "vitae",
-  "HierarchyId": 735,
-  "Source": "nostrum",
-  "Registered": "2011-04-24T14:19:03.0730293+02:00",
-  "RegisteredAssociateId": 1002,
-  "Updated": "1997-09-22T14:19:03.0730293+02:00",
-  "UpdatedAssociateId": 831,
+  "EjscriptId": 310,
+  "UniqueIdentifier": "libero",
+  "Name": "Klein-Moen",
+  "Description": "Adaptive multimedia system engine",
+  "IncludeId": "eveniet",
+  "HierarchyId": 509,
+  "Source": "cupiditate",
+  "Registered": "2009-10-21T12:15:18.6197571+02:00",
+  "RegisteredAssociateId": 405,
+  "Updated": "2013-07-03T12:15:18.6197571+02:00",
+  "UpdatedAssociateId": 473,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 510
+      "FieldLength": 942
     }
   }
 }

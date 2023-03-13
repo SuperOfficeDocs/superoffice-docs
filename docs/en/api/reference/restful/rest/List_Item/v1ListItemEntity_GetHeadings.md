@@ -29,7 +29,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=True
+GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=False
 ```
 
 
@@ -94,56 +94,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 731,
-    "Name": "Renner-Effertz",
-    "ToolTip": "Et unde sed.",
+    "Id": 841,
+    "Name": "Grady LLC",
+    "ToolTip": "Doloremque in illo architecto.",
     "Deleted": false,
-    "Rank": 73,
-    "Type": "asperiores",
-    "ColorBlock": 377,
-    "IconHint": "voluptatem",
+    "Rank": 226,
+    "Type": "ipsam",
+    "ColorBlock": 885,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2013-08-23T14:19:11.1012251+02:00",
+    "LastChanged": "2016-06-06T12:15:27.8416268+02:00",
     "ChildItems": [
       {
-        "Id": 90,
-        "Name": "Weber LLC",
-        "ToolTip": "Facere repudiandae quia et dolor.",
+        "Id": 879,
+        "Name": "Harris, Walsh and Schimmel",
+        "ToolTip": "Dolorum dolores amet.",
         "Deleted": false,
-        "Rank": 297,
-        "Type": "doloribus",
-        "ColorBlock": 849,
-        "IconHint": "impedit",
-        "Selected": false,
-        "LastChanged": "2013-01-24T14:19:11.1012251+01:00",
+        "Rank": 391,
+        "Type": "totam",
+        "ColorBlock": 272,
+        "IconHint": "totam",
+        "Selected": true,
+        "LastChanged": "1996-06-24T12:15:27.8416268+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "amet",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Miss Meghan Wiza",
+        "FullName": "Claudine Schroeder",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 458
+            "FieldLength": 282
           }
         }
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "repudiandae",
-    "Hidden": false,
-    "FullName": "Jamaal Jenkins MD",
+    "ExtraInfo": "quod",
+    "StyleHint": "sequi",
+    "Hidden": true,
+    "FullName": "Kyra Renner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 402
+        "FieldType": "System.String",
+        "FieldLength": 844
       }
     }
   }

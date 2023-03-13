@@ -79,7 +79,7 @@ RelationDefinitionEntity found.
 GET /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,12 +89,12 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 363,
-  "Name": "Morissette, Metz and D'Amore",
-  "Tooltip": "enim",
-  "PassiveText": "illo",
+  "ReldefId": 922,
+  "Name": "Emmerich, Murphy and Schmidt",
+  "Tooltip": "veritatis",
+  "PassiveText": "ratione",
   "Deleted": false,
-  "Rank": 596,
+  "Rank": 754,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -102,12 +102,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 413
+      "FieldLength": 791
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

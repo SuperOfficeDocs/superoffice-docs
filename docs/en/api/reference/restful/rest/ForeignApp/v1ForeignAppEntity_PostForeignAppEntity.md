@@ -91,23 +91,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 264,
-  "Name": "Marks Group",
-  "CreatedDate": "2002-04-08T14:19:10.3498478+02:00",
-  "UpdatedDate": "2001-02-05T14:19:10.3498478+01:00",
+  "ForeignAppId": 181,
+  "Name": "Donnelly Group",
+  "CreatedDate": "2018-08-23T12:15:26.9466372+02:00",
+  "UpdatedDate": "2009-05-14T12:15:26.9466372+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 436,
-      "Name": "Gleichner-Osinski",
-      "CreatedDate": "2002-06-03T14:19:10.3498478+02:00",
-      "UpdatedDate": "2001-11-21T14:19:10.3498478+01:00",
-      "AssociateFullName": "Dr. Eulalia Jeremie Jones",
-      "CreatedBy": "libero",
-      "UpdatedBy": "debitis",
-      "DeviceIdentifier": "asperiores",
-      "ForeignAppId": 717
+      "ForeignDeviceId": 32,
+      "Name": "Bailey-Hills",
+      "CreatedDate": "2022-08-16T12:15:26.9476357+02:00",
+      "UpdatedDate": "2017-07-22T12:15:26.9476357+02:00",
+      "AssociateFullName": "Mr. Nigel Keeling Sr.",
+      "CreatedBy": "deleniti",
+      "UpdatedBy": "id",
+      "DeviceIdentifier": "sapiente",
+      "ForeignAppId": 210
     }
   ]
 }
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 904,
-  "Name": "Christiansen-Runolfsson",
-  "CreatedDate": "2011-03-10T14:19:10.3498478+01:00",
-  "UpdatedDate": "2016-05-08T14:19:10.3498478+02:00",
+  "ForeignAppId": 48,
+  "Name": "Schmitt-Franecki",
+  "CreatedDate": "2015-08-04T12:15:26.950636+02:00",
+  "UpdatedDate": "2012-12-16T12:15:26.950636+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 655,
-      "Name": "Dickinson, Parker and Lueilwitz",
-      "CreatedDate": "2008-08-13T14:19:10.3498478+02:00",
-      "UpdatedDate": "2018-08-26T14:19:10.3498478+02:00",
-      "AssociateFullName": "Schuyler Jaylin Rodriguez I",
-      "CreatedBy": "est",
-      "UpdatedBy": "expedita",
-      "DeviceIdentifier": "quos",
-      "ForeignAppId": 860,
+      "ForeignDeviceId": 563,
+      "Name": "Kuhn LLC",
+      "CreatedDate": "2007-05-15T12:15:26.950636+02:00",
+      "UpdatedDate": "2001-10-19T12:15:26.950636+02:00",
+      "AssociateFullName": "Andrew Kuhlman",
+      "CreatedBy": "dolores",
+      "UpdatedBy": "dolorem",
+      "DeviceIdentifier": "quas",
+      "ForeignAppId": 183,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 499
+          "FieldType": "System.Int32",
+          "FieldLength": 957
         }
       }
     }
@@ -152,12 +152,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldLength": 909
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

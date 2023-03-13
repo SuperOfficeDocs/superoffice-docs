@@ -82,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 290,
-  "PrefValue": "ad"
+  "PrefDescId": 10,
+  "PrefValue": "ea"
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 446,
-  "PrefDescId": 716,
-  "PrefValue": "debitis",
-  "PrefShowValue": "sapiente",
-  "Description": "Grass-roots 24 hour forecast",
-  "IsBuiltin": false,
+  "PrefDescLineId": 645,
+  "PrefDescId": 363,
+  "PrefValue": "ex",
+  "PrefShowValue": "occaecati",
+  "Description": "Self-enabling zero defect capability",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 346
+      "FieldLength": 134
     }
   }
 }

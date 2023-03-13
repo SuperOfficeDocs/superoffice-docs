@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Armstrong-Abshire"
+  "TargetTableName": "Schiller, Kris and Reilly"
 }
 ```
 
@@ -127,70 +127,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "User-friendly grid-enabled system engine",
-  "Postit": "id",
+  "Description": "User-centric grid-enabled intranet",
+  "Postit": "accusantium",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 386,
-  "IncludePerson": 970,
-  "MemberCount": 898,
-  "Name": "Pagac-Veum",
-  "PostitTextId": 609,
-  "CreatedDate": "2010-08-27T14:19:04.1723543+02:00",
-  "SelectionId": 42,
-  "SoundEx": "rerum",
-  "Source": 720,
-  "TextId": 680,
-  "UpdatedDate": "1995-12-11T14:19:04.1723543+01:00",
-  "UpdatedCount": 818,
-  "Visibility": 918,
+  "GroupIdx": 818,
+  "IncludePerson": 706,
+  "MemberCount": 405,
+  "Name": "Rice-Crona",
+  "PostitTextId": 216,
+  "CreatedDate": "2009-02-07T12:15:20.1417348+01:00",
+  "SelectionId": 786,
+  "SoundEx": "nihil",
+  "Source": 688,
+  "TextId": 477,
+  "UpdatedDate": "2011-10-22T12:15:20.1417348+02:00",
+  "UpdatedCount": 224,
+  "Visibility": 705,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 376,
-  "TargetTableName": "Ledner-Runte",
+  "TargetTableNumber": 930,
+  "TargetTableName": "Murazik Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 32,
-  "RightSelectionId": 662,
+  "LeftSelectionId": 392,
+  "RightSelectionId": 525,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Watsica Group",
-  "ShadowProviderName": "Hahn-Parker",
-  "ChartKey": "dolorum",
-  "LastLoaded": "2012-05-03T14:19:04.1723543+02:00",
-  "LastLoadedBy": 130,
+  "MainProviderName": "Ebert Inc and Sons",
+  "ShadowProviderName": "Lueilwitz, Mueller and Cummings",
+  "ChartKey": "ipsam",
+  "LastLoaded": "2023-02-05T12:15:20.1417348+01:00",
+  "LastLoadedBy": 592,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-04-27T14:19:04.1723543+02:00",
-  "LastMembershipChangeBy": 894,
+  "LastMembershipChange": "1999-05-22T12:15:20.1417348+02:00",
+  "LastMembershipChangeBy": 362,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "at",
-  "MemberTabHeading": "doloremque",
-  "MailingsProviderName": "Gutkowski Group",
-  "DashboardTileDefinitionId": 300,
+  "MainHeading": "quia",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Goyette, Dietrich and Beer",
+  "DashboardTileDefinitionId": 235,
   "VisibleFor": [
     {
-      "VisibleId": 784,
+      "VisibleId": 510,
       "Visibility": "All",
-      "DisplayValue": "similique",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 12
+          "FieldType": "System.Int32",
+          "FieldLength": 253
         }
       }
     },
     {
-      "VisibleId": 784,
+      "VisibleId": 510,
       "Visibility": "All",
-      "DisplayValue": "similique",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 12
+          "FieldType": "System.Int32",
+          "FieldLength": 253
         }
       }
     }
@@ -199,8 +199,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 616
+      "FieldType": "System.Int32",
+      "FieldLength": 590
     }
   }
 }

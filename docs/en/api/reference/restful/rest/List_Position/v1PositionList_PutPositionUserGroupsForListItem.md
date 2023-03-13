@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 945,
-    "Name": "Raynor Inc and Sons",
-    "ToolTip": "Consequatur provident quo consequuntur ea ratione doloribus.",
+    "Id": 728,
+    "Name": "Kirlin-Quigley",
+    "ToolTip": "Quae mollitia cupiditate corrupti ipsum nisi rerum.",
     "Deleted": false,
-    "Rank": 886,
-    "Type": "assumenda",
-    "ColorBlock": 713,
-    "IconHint": "eaque",
-    "Selected": false,
-    "LastChanged": "2011-07-21T14:19:11.3367817+02:00",
+    "Rank": 54,
+    "Type": "quibusdam",
+    "ColorBlock": 204,
+    "IconHint": "minus",
+    "Selected": true,
+    "LastChanged": "2022-07-21T12:15:28.2426176+02:00",
     "ChildItems": [
       {
-        "Id": 129,
-        "Name": "Denesik-Larkin",
-        "ToolTip": "Quod aut quae amet consequuntur sint.",
-        "Deleted": false,
-        "Rank": 68,
-        "Type": "voluptatem",
-        "ColorBlock": 187,
-        "IconHint": "repudiandae",
+        "Id": 184,
+        "Name": "Stroman Group",
+        "ToolTip": "Nam in ut aut adipisci necessitatibus praesentium eos.",
+        "Deleted": true,
+        "Rank": 643,
+        "Type": "officia",
+        "ColorBlock": 781,
+        "IconHint": "distinctio",
         "Selected": false,
-        "LastChanged": "2014-09-23T14:19:11.3367817+02:00",
+        "LastChanged": "2011-11-05T12:15:28.2426176+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "exercitationem",
-        "Hidden": true,
-        "FullName": "Ulices Nikolaus"
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Mrs. Narciso Daija Cartwright Jr."
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "molestias",
+    "ExtraInfo": "enim",
+    "StyleHint": "veniam",
     "Hidden": false,
-    "FullName": "Susanna Schoen"
+    "FullName": "Madilyn Ortiz"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 900,
-    "Name": "McCullough, Heller and Sauer",
-    "ToolTip": "Quibusdam est sed tempora sit.",
+    "Id": 594,
+    "Name": "Schroeder-Weber",
+    "ToolTip": "Sit quia eaque veritatis unde ducimus eum.",
     "Deleted": false,
-    "Rank": 656,
-    "Type": "occaecati",
-    "ColorBlock": 922,
-    "IconHint": "assumenda",
-    "Selected": false,
-    "LastChanged": "2005-04-04T14:19:11.3367817+02:00",
+    "Rank": 463,
+    "Type": "et",
+    "ColorBlock": 485,
+    "IconHint": "laudantium",
+    "Selected": true,
+    "LastChanged": "1999-10-05T12:15:28.2446169+02:00",
     "ChildItems": [
       {
-        "Id": 16,
-        "Name": "Jones Inc and Sons",
-        "ToolTip": "Blanditiis dolorum.",
+        "Id": 343,
+        "Name": "Sporer, Cummings and Goodwin",
+        "ToolTip": "Est sint odit.",
         "Deleted": false,
-        "Rank": 746,
-        "Type": "et",
-        "ColorBlock": 773,
-        "IconHint": "aspernatur",
-        "Selected": true,
-        "LastChanged": "2003-05-03T14:19:11.3367817+02:00",
+        "Rank": 506,
+        "Type": "molestiae",
+        "ColorBlock": 690,
+        "IconHint": "error",
+        "Selected": false,
+        "LastChanged": "2007-04-01T12:15:28.2446169+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "similique",
+        "ExtraInfo": "qui",
+        "StyleHint": "quam",
         "Hidden": false,
-        "FullName": "Micaela Hayes",
+        "FullName": "Mrs. Rosalinda Goyette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 862
+            "FieldLength": 166
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Laura Rogahn",
+    "ExtraInfo": "officia",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Ariane Bayer III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldLength": 598
       }
     }
   }

@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 539
+  "DocumentId": 926
 }
 ```
 
@@ -119,146 +119,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 177,
-      "ContactName": "Erdman Inc and Sons",
-      "PersonId": 993,
-      "PersonName": "Dicki-Thompson",
-      "AssociateId": 81,
-      "Address": "et",
-      "EmailId": 28,
+      "ContactId": 528,
+      "ContactName": "King, Batz and Stracke",
+      "PersonId": 150,
+      "PersonName": "Ziemann LLC",
+      "AssociateId": 995,
+      "Address": "omnis",
+      "EmailId": 430,
       "DuplicatePersonIds": [
-        898,
-        892
+        353,
+        745
       ],
-      "Name": "Dibbert-Connelly",
+      "Name": "Borer LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 159
+          "FieldType": "System.String",
+          "FieldLength": 917
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 693,
-      "ContactName": "Welch, Bernhard and Goodwin",
-      "PersonId": 41,
-      "PersonName": "Romaguera Inc and Sons",
-      "AssociateId": 341,
-      "Address": "voluptas",
-      "EmailId": 2,
+      "ContactId": 640,
+      "ContactName": "Willms-Breitenberg",
+      "PersonId": 888,
+      "PersonName": "Wyman LLC",
+      "AssociateId": 758,
+      "Address": "a",
+      "EmailId": 853,
       "DuplicatePersonIds": [
-        203,
-        292
+        55,
+        222
       ],
-      "Name": "Daniel, Cormier and Kuhlman",
+      "Name": "Volkman-Koelpin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 785
+          "FieldType": "System.String",
+          "FieldLength": 999
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 763,
-      "ContactName": "Hane, Thompson and Rutherford",
-      "PersonId": 394,
-      "PersonName": "VonRueden LLC",
-      "AssociateId": 193,
-      "Address": "doloremque",
-      "EmailId": 800,
+      "ContactId": 323,
+      "ContactName": "Larson, Barrows and Johnson",
+      "PersonId": 781,
+      "PersonName": "Marks-Tromp",
+      "AssociateId": 117,
+      "Address": "quo",
+      "EmailId": 35,
       "DuplicatePersonIds": [
-        453,
-        312
+        535,
+        492
       ],
-      "Name": "Kling-Jacobi",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 799
-        }
-      }
-    }
-  ],
-  "Subject": "quas",
-  "HTMLBody": "dolore",
-  "From": null,
-  "Sent": "2008-09-13T14:19:03.4040208+02:00",
-  "Size": 196,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "occaecati",
-  "PlainBody": "voluptas",
-  "IsSent": true,
-  "EMailSOInfo": null,
-  "ServerId": 200,
-  "Attachments": [
-    {
-      "Description": "Grass-roots holistic flexibility",
-      "Filename": "veniam",
-      "Size": 749,
-      "Type": "aspernatur",
-      "Encoding": "minus",
-      "Id": "rerum",
-      "Disposition": "deserunt",
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Hammes Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 572
+          "FieldLength": 659
+        }
+      }
+    }
+  ],
+  "Subject": "voluptatem",
+  "HTMLBody": "quibusdam",
+  "From": null,
+  "Sent": "2019-11-13T12:15:18.9437542+01:00",
+  "Size": 381,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "nesciunt",
+  "PlainBody": "reiciendis",
+  "IsSent": true,
+  "EMailSOInfo": null,
+  "ServerId": 701,
+  "Attachments": [
+    {
+      "Description": "Versatile needs-based toolset",
+      "Filename": "cum",
+      "Size": 311,
+      "Type": "non",
+      "Encoding": "quibusdam",
+      "Id": "quia",
+      "Disposition": "omnis",
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 350
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kautzer Inc and Sons",
+      "Name": "Koch, Larkin and Erdman",
       "Values": [
-        "aspernatur",
-        "consequatur"
+        "ad",
+        "quos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 728
+          "FieldLength": 690
         }
       }
     },
     {
-      "Name": "Kautzer Inc and Sons",
+      "Name": "Koch, Larkin and Erdman",
       "Values": [
-        "aspernatur",
-        "consequatur"
+        "ad",
+        "quos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 728
+          "FieldLength": 690
         }
       }
     }
   ],
-  "FolderName": "Marquardt Group",
-  "EmailItemId": 34,
-  "AccountId": 125,
-  "ReceivedAt": "1998-11-09T14:19:03.4040208+01:00",
+  "FolderName": "Cummerata, Oberbrunner and Oberbrunner",
+  "EmailItemId": 746,
+  "AccountId": 808,
+  "ReceivedAt": "2010-01-27T12:15:18.9447579+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2009-01-09T14:19:03.4040208+01:00",
+  "RepliedAt": "1998-07-08T12:15:18.9447579+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,8 +266,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldType": "System.String",
+      "FieldLength": 844
     }
   }
 }

@@ -71,11 +71,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Conn-Hessel",
-  "ProviderName": "Hane LLC",
+  "GuiName": "Ondricka-Bode",
+  "ProviderName": "Bayer, Wyman and Reynolds",
   "ChosenColumns": [
-    "eligendi",
-    "modi"
+    "consequuntur",
+    "in"
   ]
 }
 ```

@@ -88,32 +88,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Corwin LLC",
-  "ListItemId": 598,
+  "UdListDefinitionName": "Simonis, Walter and Prohaska",
+  "ListItemId": 955,
   "UserGroups": [
     {
-      "Id": 179,
-      "Name": "Effertz LLC",
-      "ToolTip": "Atque numquam odit culpa non id.",
+      "Id": 691,
+      "Name": "Carter-McCullough",
+      "ToolTip": "Quis omnis non ea.",
       "Deleted": true,
-      "Rank": 642,
-      "Type": "architecto",
-      "ColorBlock": 418,
-      "IconHint": "voluptas",
+      "Rank": 867,
+      "Type": "nisi",
+      "ColorBlock": 760,
+      "IconHint": "facere",
       "Selected": false,
-      "LastChanged": "2010-06-27T14:19:03.6238736+02:00",
+      "LastChanged": "2001-02-22T12:15:19.2507472+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ad",
-      "StyleHint": "est",
+      "ExtraInfo": "atque",
+      "StyleHint": "modi",
       "Hidden": false,
-      "FullName": "Jillian Goodwin"
+      "FullName": "Jane Conn"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 697,
-    "Name": "Gerhold LLC",
-    "ToolTip": "Consequatur dignissimos.",
+    "Id": 768,
+    "Name": "Lakin, Collier and Bergnaum",
+    "ToolTip": "Architecto non deserunt est voluptatem eligendi est officia.",
     "Deleted": false,
-    "Rank": 546,
-    "Type": "incidunt",
-    "ColorBlock": 550,
-    "IconHint": "quia",
+    "Rank": 555,
+    "Type": "vero",
+    "ColorBlock": 482,
+    "IconHint": "tempore",
     "Selected": false,
-    "LastChanged": "2010-04-19T14:19:03.6238736+02:00",
+    "LastChanged": "2008-09-20T12:15:19.252755+02:00",
     "ChildItems": [
       {
-        "Id": 280,
-        "Name": "Dach, Doyle and Gulgowski",
-        "ToolTip": "Magnam qui aut rerum.",
-        "Deleted": false,
-        "Rank": 802,
-        "Type": "est",
-        "ColorBlock": 712,
-        "IconHint": "adipisci",
+        "Id": 51,
+        "Name": "Spencer, Stokes and Considine",
+        "ToolTip": "Molestias sit ullam.",
+        "Deleted": true,
+        "Rank": 524,
+        "Type": "dicta",
+        "ColorBlock": 678,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2019-04-09T14:19:03.6238736+02:00",
+        "LastChanged": "2007-10-25T12:15:19.252755+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "debitis",
-        "Hidden": true,
-        "FullName": "Nellie Cronin",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "perferendis",
+        "Hidden": false,
+        "FullName": "Miss Olen Zulauf",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 992
+            "FieldType": "System.String",
+            "FieldLength": 154
           }
         }
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "rem",
+    "ExtraInfo": "vitae",
+    "StyleHint": "dignissimos",
     "Hidden": false,
-    "FullName": "Joy Veum",
+    "FullName": "Xzavier Bradly Lehner V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 391
+        "FieldType": "System.String",
+        "FieldLength": 371
       }
     }
   }

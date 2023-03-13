@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 665,
-    "Name": "Spinka Inc and Sons",
-    "Tooltip": "quae",
-    "Deleted": true,
-    "UdListDefinitionId": 923,
-    "Rank": 701,
+    "Id": 620,
+    "Name": "Gutkowski, Lakin and Lakin",
+    "Tooltip": "eos",
+    "Deleted": false,
+    "UdListDefinitionId": 675,
+    "Rank": 53,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 752
+        "FieldLength": 991
       }
     }
   }

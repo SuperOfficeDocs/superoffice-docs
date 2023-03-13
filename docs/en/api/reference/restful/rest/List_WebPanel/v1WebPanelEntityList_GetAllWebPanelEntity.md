@@ -87,33 +87,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 645,
-    "Name": "Bednar-Hartmann",
-    "Tooltip": "magnam",
+    "WebPanelId": 263,
+    "Name": "Anderson, Larson and Anderson",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 686,
+    "Rank": 376,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
+    "OnCentral": true,
     "OnSatellite": true,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": false,
-    "ShowInToolBar": true,
+    "ShowInToolBar": false,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Abshire LLC",
+    "WindowName": "Gerlach-Schowalter",
     "Url": "http://www.example.com/",
-    "ProgId": "nihil",
-    "Icon": 669,
-    "AlwaysReloadOnShow": false,
+    "ProgId": "enim",
+    "Icon": 235,
+    "AlwaysReloadOnShow": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 829
+        "FieldType": "System.Int32",
+        "FieldLength": 249
       }
     }
   }

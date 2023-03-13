@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 510
+  "ShipmentAddrId": 104
 }
 ```
 
@@ -101,27 +101,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2022-08-27T14:19:03.7176242+02:00",
+  "SendingTime": "2014-09-14T12:15:19.3717456+02:00",
   "Status": "Blocked",
-  "ShipmentId": 920,
-  "ShipmentDescription": "Pre-emptive next generation interface",
-  "FromAddress": "ad",
-  "ContactId": 591,
-  "ContactName": "Borer-Doyle",
-  "PersonId": 608,
-  "PersonFullName": "Adrianna Rohan",
-  "ShipmentType": "minus",
-  "MessageId": 237,
-  "MessageSubject": "ut",
-  "DocumentMessageId": 858,
-  "Opened": "2000-01-27T14:19:03.7176242+01:00",
-  "LinkClicks": 910,
+  "ShipmentId": 573,
+  "ShipmentDescription": "Customizable tangible Graphical User Interface",
+  "FromAddress": "qui",
+  "ContactId": 422,
+  "ContactName": "Padberg, Buckridge and Cummings",
+  "PersonId": 748,
+  "PersonFullName": "Anabel Fay",
+  "ShipmentType": "ratione",
+  "MessageId": 615,
+  "MessageSubject": "suscipit",
+  "DocumentMessageId": 912,
+  "Opened": "2001-09-21T12:15:19.3717456+02:00",
+  "LinkClicks": 885,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 101
+      "FieldLength": 434
     }
   }
 }

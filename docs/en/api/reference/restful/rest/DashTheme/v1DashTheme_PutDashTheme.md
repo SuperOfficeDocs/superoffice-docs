@@ -88,16 +88,16 @@ DashTheme updated.
 PUT /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 720,
-  "Name": "Hand-Stokes",
-  "Config": "suscipit",
-  "Rank": 589,
-  "Client": "sint",
-  "Style": "omnis"
+  "DashboardThemeId": 767,
+  "Name": "Reilly, Rodriguez and Gleason",
+  "Config": "eveniet",
+  "Rank": 403,
+  "Client": "quos",
+  "Style": "et"
 }
 ```
 
@@ -108,23 +108,23 @@ HTTP/1.1 200 DashTheme updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 756,
-  "Name": "Brakus Inc and Sons",
-  "Config": "quo",
-  "Rank": 156,
-  "Client": "hic",
-  "Style": "ipsam",
+  "DashboardThemeId": 889,
+  "Name": "Zieme-Keebler",
+  "Config": "quas",
+  "Rank": 770,
+  "Client": "at",
+  "Style": "illo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 327
+      "FieldType": "System.Int32",
+      "FieldLength": 750
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

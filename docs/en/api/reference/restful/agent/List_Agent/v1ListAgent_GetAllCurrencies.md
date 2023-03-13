@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 192,
-    "Name": "Bergnaum-Wuckert",
-    "Tooltip": "ut",
-    "Rank": 986,
-    "Rate": 23492.464,
-    "Units": 3892.428,
+    "CurrencyId": 999,
+    "Name": "Kemmer-Hane",
+    "Tooltip": "doloribus",
+    "Rank": 781,
+    "Rate": 20129.682,
+    "Units": 5114.688,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 320
+        "FieldType": "System.String",
+        "FieldLength": 619
       }
     }
   }

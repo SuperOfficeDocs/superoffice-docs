@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 758,
-    "Name": "Schamberger, Sauer and Willms",
-    "Tooltip": "laudantium",
+    "HeadingId": 510,
+    "Name": "Rohan, Quigley and Bartoletti",
+    "Tooltip": "dolores",
     "Deleted": false,
-    "Rank": 445,
-    "UdListDefinitionId": 862,
+    "Rank": 377,
+    "UdListDefinitionId": 211,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 34
+        "FieldLength": 652
       }
     }
   }

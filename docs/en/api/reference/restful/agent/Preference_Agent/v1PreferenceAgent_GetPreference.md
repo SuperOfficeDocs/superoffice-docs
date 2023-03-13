@@ -86,7 +86,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 887
+  "Id": 705
 }
 ```
 
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "natus",
+  "RawValue": "modi",
   "Specification": null,
-  "DisplayValue": "ea",
-  "DisplayTooltip": "quam",
+  "DisplayValue": "necessitatibus",
+  "DisplayTooltip": "enim",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 567,
-  "PrefDescId": 616,
-  "TableName": "Kuhlman Inc and Sons",
-  "UserPreferenceId": 464,
+  "TargetId": 57,
+  "PrefDescId": 225,
+  "TableName": "Boehm Group",
+  "UserPreferenceId": 557,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 680
+      "FieldType": "System.Int32",
+      "FieldLength": 721
     }
   }
 }

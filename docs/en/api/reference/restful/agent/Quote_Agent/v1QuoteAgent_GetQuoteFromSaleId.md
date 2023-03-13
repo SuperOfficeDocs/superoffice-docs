@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 20
+  "SaleId": 724
 }
 ```
 
@@ -100,26 +100,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 536,
-  "SaleId": 156,
-  "QuoteConnectionId": 582,
-  "ERPQuoteKey": "fugiat",
-  "ERPOrderKey": "sapiente",
-  "ActiveQuoteVersionId": 945,
-  "AcceptedQuoteAlternativeId": 835,
-  "UseValuesFromQuote": 995,
-  "DocumentId": 749,
-  "PoNumber": "1056657",
-  "OrderComment": "laudantium",
-  "PreferredEmailCulture": "marta.abbott@hamill.com",
+  "QuoteId": 231,
+  "SaleId": 857,
+  "QuoteConnectionId": 38,
+  "ERPQuoteKey": "provident",
+  "ERPOrderKey": "deleniti",
+  "ActiveQuoteVersionId": 293,
+  "AcceptedQuoteAlternativeId": 288,
+  "UseValuesFromQuote": 430,
+  "DocumentId": 455,
+  "PoNumber": "794427",
+  "OrderComment": "magnam",
+  "PreferredEmailCulture": "andrew@hilpertgusikowski.info",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 391
+      "FieldType": "System.Int32",
+      "FieldLength": 592
     }
   }
 }

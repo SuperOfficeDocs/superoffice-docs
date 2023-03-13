@@ -79,7 +79,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "earum"
+  "FileContent": "ab"
 }
 ```
 
@@ -91,21 +91,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 64,
-      "NumberOfLicensesFree": 729,
-      "NumberOfLicensesAdded": 988,
-      "NumberOfLicensesNewTotal": 943,
-      "NumberOfLicensesNewFree": 918,
-      "NumberOfLicensesTotal": 833
+      "NumberOfLicensesInUse": 120,
+      "NumberOfLicensesFree": 465,
+      "NumberOfLicensesAdded": 882,
+      "NumberOfLicensesNewTotal": 33,
+      "NumberOfLicensesNewFree": 522,
+      "NumberOfLicensesTotal": 252
     }
   ],
-  "AccumulatedNextCheckDate": "2000-10-04T14:19:03.5769906+02:00"
+  "AccumulatedNextCheckDate": "2005-07-06T12:15:19.1867486+02:00"
 }
 ```

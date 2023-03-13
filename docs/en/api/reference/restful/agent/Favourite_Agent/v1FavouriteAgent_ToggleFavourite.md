@@ -74,10 +74,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Feest Inc and Sons",
-  "RecordId": 918,
-  "AssociateId": 940,
-  "ExtraInfo": "voluptatum"
+  "TableName": "Berge-Herman",
+  "RecordId": 90,
+  "AssociateId": 652,
+  "ExtraInfo": "vel"
 }
 ```
 
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

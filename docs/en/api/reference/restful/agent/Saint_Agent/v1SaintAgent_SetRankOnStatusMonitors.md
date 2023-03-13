@@ -64,14 +64,14 @@ No Content
 POST /api/v1/Agents/Saint/SetRankOnStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "eligendi",
+  "Type": "doloremque",
   "ItemsIds": [
-    291,
-    235
+    971,
+    926
   ]
 }
 ```

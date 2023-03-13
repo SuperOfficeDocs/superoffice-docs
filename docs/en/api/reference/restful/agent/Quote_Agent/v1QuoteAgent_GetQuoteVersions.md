@@ -114,7 +114,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 207
+  "QuoteId": 210
 }
 ```
 
@@ -126,75 +126,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 153,
-    "ERPQuoteVersionKey": "architecto",
-    "QuoteId": 25,
-    "Description": "Expanded intangible artificial intelligence",
-    "Number": "692870",
+    "QuoteVersionId": 336,
+    "ERPQuoteVersionKey": "quae",
+    "QuoteId": 701,
+    "Description": "Innovative systematic strategy",
+    "Number": "335388",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
-    "Reason": "",
-    "LikelyQuoteAlternativeId": 654,
-    "SentDate": "2006-09-02T14:19:03.984459+02:00",
-    "FollowupId": 283,
-    "ExpirationDate": "1999-08-06T14:19:03.984459+02:00",
-    "DeliveryCountryId": 290,
+    "Reason": "empower scalable e-markets",
+    "LikelyQuoteAlternativeId": 950,
+    "SentDate": "2009-11-21T12:15:19.894738+01:00",
+    "FollowupId": 738,
+    "ExpirationDate": "2015-05-21T12:15:19.894738+02:00",
+    "DeliveryCountryId": 690,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 259,
+    "InvoiceCountryId": 506,
     "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "id",
-    "ERPPaymentTypeKey": "inventore",
-    "ERPDeliveryTermsKey": "et",
-    "ERPDeliveryTypeKey": "ipsum",
-    "Rank": 141,
-    "ApprovedBy": 387,
-    "ApprovedText": "a",
-    "ApprovedRegisteredBy": 507,
-    "ApprovedRegisteredDate": "2005-04-28T14:19:03.984459+02:00",
-    "ExtraField1": "cum",
-    "ExtraField2": "et",
-    "ExtraField3": "et",
-    "ExtraField4": "ea",
-    "ExtraField5": "officia",
-    "LastRecalculated": "2004-07-03T14:19:03.984459+02:00",
-    "Updated": "2008-10-03T14:19:03.984459+02:00",
-    "UpdatedAssociateId": 741,
-    "Registered": "2003-01-26T14:19:03.984459+01:00",
-    "RegisteredAssociateId": 179,
-    "RequestAssociateId": 917,
-    "RequestComment": "exercitationem",
+    "ERPPaymentTermsKey": "consequatur",
+    "ERPPaymentTypeKey": "cumque",
+    "ERPDeliveryTermsKey": "architecto",
+    "ERPDeliveryTypeKey": "sit",
+    "Rank": 977,
+    "ApprovedBy": 354,
+    "ApprovedText": "illum",
+    "ApprovedRegisteredBy": 610,
+    "ApprovedRegisteredDate": "2004-01-22T12:15:19.894738+01:00",
+    "ExtraField1": "cupiditate",
+    "ExtraField2": "facere",
+    "ExtraField3": "aliquam",
+    "ExtraField4": "aliquam",
+    "ExtraField5": "in",
+    "LastRecalculated": "2016-08-25T12:15:19.894738+02:00",
+    "Updated": "2013-05-24T12:15:19.894738+02:00",
+    "UpdatedAssociateId": 64,
+    "Registered": "2021-12-19T12:15:19.894738+01:00",
+    "RegisteredAssociateId": 102,
+    "RequestAssociateId": 367,
+    "RequestComment": "ipsum",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 516,
-        "ERPQuoteAlternativeKey": "voluptatem",
-        "QuoteVersionId": 703,
-        "Name": "Klein-Kiehn",
-        "Description": "Business-focused systematic architecture",
+        "QuoteAlternativeId": 420,
+        "ERPQuoteAlternativeKey": "at",
+        "QuoteVersionId": 49,
+        "Name": "Hills Inc and Sons",
+        "Description": "Business-focused 5th generation hardware",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 18973.236,
-        "ERPDiscountAmount": 18152.128,
-        "DiscountPercent": 26877.183999999997,
-        "DiscountAmount": 11266.73,
+        "ERPDiscountPercent": 25401.07,
+        "ERPDiscountAmount": 9499.154,
+        "DiscountPercent": 23426.649999999998,
+        "DiscountAmount": 4585.0419999999995,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "veniam",
-        "VAT": 10978.402,
-        "EarningPercent": 30606.644,
-        "EarningAmount": 25407.338,
-        "SubTotal": 11138.235999999999,
-        "TotalPrice": 11724.294,
-        "ExtraField1": "officiis",
-        "ExtraField2": "similique",
-        "ExtraField3": "aspernatur",
-        "ExtraField4": "facilis",
-        "ExtraField5": "ea",
+        "VATInfo": "adipisci",
+        "VAT": 10881.248,
+        "EarningPercent": 18067.51,
+        "EarningAmount": 30710.066,
+        "SubTotal": 13269.356,
+        "TotalPrice": 21809.505999999998,
+        "ExtraField1": "eveniet",
+        "ExtraField2": "amet",
+        "ExtraField3": "unde",
+        "ExtraField4": "ut",
+        "ExtraField5": "asperiores",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 704
+            "FieldLength": 477
           }
         }
       }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 926
+        "FieldType": "System.Int32",
+        "FieldLength": 357
       }
     }
   }

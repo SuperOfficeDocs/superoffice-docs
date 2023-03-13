@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 661,
-  "Name": "Haag Inc and Sons",
-  "Tooltip": "quisquam",
-  "Deleted": true,
-  "Rank": 531,
-  "UdListDefinitionId": 714
+  "HeadingId": 56,
+  "Name": "Rodriguez, Purdy and Bruen",
+  "Tooltip": "veniam",
+  "Deleted": false,
+  "Rank": 275,
+  "UdListDefinitionId": 264
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 777,
-  "Name": "Stiedemann LLC",
-  "Tooltip": "veniam",
+  "HeadingId": 654,
+  "Name": "Abbott-Bernier",
+  "Tooltip": "quis",
   "Deleted": false,
-  "Rank": 407,
-  "UdListDefinitionId": 155,
+  "Rank": 19,
+  "UdListDefinitionId": 102,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 189
+      "FieldType": "System.Int32",
+      "FieldLength": 139
     }
   }
 }

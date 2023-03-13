@@ -77,8 +77,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Lang Inc and Sons",
-  "Id": 575
+  "TableName": "Bogan, Orn and Murazik",
+  "Id": 534
 }
 ```
 
@@ -90,15 +90,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "et",
-    "Values2": "doloribus"
+    "Values1": "quia",
+    "Values2": "quidem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 935
+      "FieldLength": 721
     }
   }
 }

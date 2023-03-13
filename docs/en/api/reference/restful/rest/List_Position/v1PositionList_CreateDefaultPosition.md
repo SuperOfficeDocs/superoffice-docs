@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/Position/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 718,
-  "Name": "Littel, Hand and Davis",
-  "Tooltip": "amet",
-  "Deleted": false,
-  "UdListDefinitionId": 94,
-  "Rank": 221,
+  "Id": 387,
+  "Name": "Kovacek, Considine and Feeney",
+  "Tooltip": "consectetur",
+  "Deleted": true,
+  "UdListDefinitionId": 544,
+  "Rank": 863,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 733
+      "FieldType": "System.String",
+      "FieldLength": 786
     }
   }
 }

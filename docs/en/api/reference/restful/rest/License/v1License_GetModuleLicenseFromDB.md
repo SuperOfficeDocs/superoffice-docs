@@ -81,20 +81,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Rolfson-Maggio",
-  "ModuleName": "Mraz, Strosin and O'Conner",
-  "ModuleDescription": "Optional local contingency",
-  "ModuleTooltip": "repudiandae",
-  "ModuleVersion": "quis",
+  "OwnerName": "Gottlieb, Ondricka and Hauck",
+  "ModuleName": "Conn Group",
+  "ModuleDescription": "Progressive client-server task-force",
+  "ModuleTooltip": "similique",
+  "ModuleVersion": "totam",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": true,
+  "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 379,
-  "ExtraFlags": 388,
-  "ExtraInfo": "quo",
-  "SortOrder": 786,
+  "NumberOfLicenses": 417,
+  "ExtraFlags": 78,
+  "ExtraInfo": "similique",
+  "SortOrder": 628,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Kertzmann, Towne and Goldner",
-  "Signature": "dolor"
+  "PrerequisiteModuleName": "Turner-Strosin",
+  "Signature": "nihil"
 }
 ```

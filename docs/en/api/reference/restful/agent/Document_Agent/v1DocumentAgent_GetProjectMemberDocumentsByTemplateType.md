@@ -97,15 +97,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 924,
-  "StartTime": "2016-01-25T14:19:03.1355296+01:00",
-  "EndTime": "2009-01-02T14:19:03.1355296+01:00",
-  "Count": 277,
-  "DocumentTemplateId": 104
+  "PersonId": 188,
+  "StartTime": "2020-05-25T12:15:18.7177551+02:00",
+  "EndTime": "2012-05-20T12:15:18.7177551+02:00",
+  "Count": 377,
+  "DocumentTemplateId": 760
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 252,
-    "Attention": "dolorem",
-    "Header": "dolor",
-    "Name": "Reilly Group",
-    "OurRef": "adipisci",
-    "YourRef": "exercitationem",
-    "Description": "Devolved intermediate capacity",
-    "DocumentTemplate": "numquam",
-    "IsPublished": false,
-    "PersonId": 806,
-    "PersonFullName": "Brianne Amely Bruen II",
-    "AssociateFullName": "Yessenia Farrell",
-    "ContactId": 177,
-    "ContactName": "Herzog-Feil",
-    "ProjectId": 656,
-    "ProjectName": "Padberg, Hoeger and Gaylord",
-    "AssociateId": 913,
-    "Snum": 160,
-    "SaleId": 619,
-    "SaleName": "Kessler-Eichmann",
+    "DocumentId": 22,
+    "Attention": "omnis",
+    "Header": "et",
+    "Name": "Schiller Group",
+    "OurRef": "qui",
+    "YourRef": "sequi",
+    "Description": "Reverse-engineered fresh-thinking adapter",
+    "DocumentTemplate": "doloremque",
+    "IsPublished": true,
+    "PersonId": 507,
+    "PersonFullName": "Miracle Kuhn",
+    "AssociateFullName": "Mrs. Colby Towne I",
+    "ContactId": 716,
+    "ContactName": "Keeling, Beier and Kshlerin",
+    "ProjectId": 139,
+    "ProjectName": "Nolan-Goyette",
+    "AssociateId": 800,
+    "Snum": 779,
+    "SaleId": 232,
+    "SaleName": "Dicki, McCullough and Volkman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 853
+        "FieldLength": 396
       }
     }
   }

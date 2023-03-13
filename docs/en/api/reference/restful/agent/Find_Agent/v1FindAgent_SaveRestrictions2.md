@@ -70,10 +70,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "praesentium",
-  "ProviderName": "Larkin LLC",
-  "StorageKey": "et",
-  "Restrictions": "ad"
+  "StorageType": "unde",
+  "ProviderName": "Schimmel-Huel",
+  "StorageKey": "omnis",
+  "Restrictions": "minus"
 }
 ```
 

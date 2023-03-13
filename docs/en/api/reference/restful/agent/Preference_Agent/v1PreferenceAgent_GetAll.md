@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 360,
-    "Section": "voluptatem",
-    "Key": "at",
-    "Name": "Kovacek Group",
+    "PrefDescId": 492,
+    "Section": "quia",
+    "Key": "et",
+    "Name": "Swaniawski Group",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Persevering foreground strategy",
+    "Description": "Synchronised optimizing system engine",
     "IsBuiltin": false,
-    "TableName": "Hettinger, Crist and Morar",
-    "UserDefinedListId": 939,
-    "Rank": 200,
-    "SubGroup": "sit",
-    "MinLevel": 755,
-    "MaxValue": 595,
-    "MinValue": 347,
-    "RequiredLicense": "quam",
+    "TableName": "Wiegand, Gutkowski and Hoeger",
+    "UserDefinedListId": 114,
+    "Rank": 183,
+    "SubGroup": "distinctio",
+    "MinLevel": 799,
+    "MaxValue": 833,
+    "MinValue": 735,
+    "RequiredLicense": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 357
+        "FieldType": "System.String",
+        "FieldLength": 931
       }
     }
   }

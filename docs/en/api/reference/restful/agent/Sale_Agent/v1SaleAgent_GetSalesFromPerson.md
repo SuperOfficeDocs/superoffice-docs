@@ -97,12 +97,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 77,
-  "OnlyOpenSales": true
+  "PersonId": 1001,
+  "OnlyOpenSales": false
 }
 ```
 
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Simonis Inc and Sons",
-    "SaleDate": "2002-08-04T14:19:04.1410858+02:00",
-    "SaleId": 920,
-    "Probability": 415,
-    "Title": "nam",
-    "Amount": 1187.786,
-    "Currency": "tempore",
-    "ProjectName": "O'Connell-Balistreri",
-    "AssociateFullName": "Murphy Romaguera",
-    "Description": "Phased encompassing system engine",
+    "ContactName": "Hettinger, Barton and Leffler",
+    "SaleDate": "1997-09-13T12:15:20.0997347+02:00",
+    "SaleId": 631,
+    "Probability": 204,
+    "Title": "vel",
+    "Amount": 23432.917999999998,
+    "Currency": "optio",
+    "ProjectName": "Williamson LLC",
+    "AssociateFullName": "Eloy Kreiger",
+    "Description": "Stand-alone 24/7 monitoring",
     "Status": "Lost",
-    "WeightedAmount": 22887.602,
-    "ProjectId": 475,
-    "EarningPercent": 19816.282,
-    "Earning": 11639.676,
-    "ContactId": 308,
-    "AssociateId": 530,
-    "PersonId": 662,
-    "SaleTypeId": 1001,
-    "SaleTypeName": "Spencer-Russel",
-    "PersonFullName": "Prof. Carter Isaiah Bayer III",
+    "WeightedAmount": 11479.841999999999,
+    "ProjectId": 460,
+    "EarningPercent": 601.728,
+    "Earning": 3582.162,
+    "ContactId": 914,
+    "AssociateId": 506,
+    "PersonId": 984,
+    "SaleTypeId": 81,
+    "SaleTypeName": "Okuneva-Kris",
+    "PersonFullName": "Ada Kemmer",
     "Completed": "Completed",
-    "ActiveErpLinks": 599,
-    "NextDueDate": "2008-02-03T14:19:04.1410858+01:00",
-    "Number": "683263",
+    "ActiveErpLinks": 907,
+    "NextDueDate": "2020-07-14T12:15:20.0997347+02:00",
+    "Number": "1374109",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 640
+        "FieldLength": 778
       }
     }
   }

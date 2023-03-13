@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAlarms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "IncludeInvitations": false,
-  "IncludeAllAppointments": true,
-  "DefaultAlarmLeadTimeInMinutes": 580
+  "IncludeAllAppointments": false,
+  "DefaultAlarmLeadTimeInMinutes": 787
 }
 ```
 
@@ -95,47 +95,47 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 185,
-      "StartTime": "2010-10-18T14:19:02.4838092+02:00",
-      "EndDate": "2016-01-24T14:19:02.4838092+01:00",
-      "AlarmTime": "2003-04-18T14:19:02.4838092+02:00",
-      "PersonId": 87,
-      "PersonFullName": "Hilbert Russel",
-      "ContactName": "Gleason-Torp",
-      "ProjectId": 454,
-      "ProjectName": "Smitham, Stracke and Pollich",
-      "AppointmentText": "repudiandae",
-      "SaleId": 587,
-      "SaleName": "Zieme-Boyer",
-      "Location": "et",
+      "AppointmentId": 290,
+      "StartTime": "2008-11-17T12:15:17.69077+01:00",
+      "EndDate": "2012-10-15T12:15:17.69077+02:00",
+      "AlarmTime": "2017-10-25T12:15:17.69077+02:00",
+      "PersonId": 376,
+      "PersonFullName": "Thaddeus Stiedemann",
+      "ContactName": "Zemlak, Rath and Pouros",
+      "ProjectId": 662,
+      "ProjectName": "Upton Group",
+      "AppointmentText": "ut",
+      "SaleId": 813,
+      "SaleName": "Ebert Inc and Sons",
+      "Location": "laboriosam",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 860,
+      "ContactId": 445,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "Goyette, Hauck and Corwin",
-      "TaskName": "Sawayn, Ernser and Sanford",
+      "FormalName": "Dickinson, Schulist and Pagac",
+      "TaskName": "Schaden-Stehr",
       "ContactDepartment": "",
-      "ContactFullName": "Jonas McCullough",
+      "ContactFullName": "Percy Greenholt",
       "JoinVideomeetUrl": "http://www.example.com/",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 149
+          "FieldLength": 169
         }
       }
     }
   ],
-  "PollingInterval": 942,
-  "SilentAfter": 193,
+  "PollingInterval": 471,
+  "SilentAfter": 218,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldType": "System.String",
+      "FieldLength": 929
     }
   }
 }

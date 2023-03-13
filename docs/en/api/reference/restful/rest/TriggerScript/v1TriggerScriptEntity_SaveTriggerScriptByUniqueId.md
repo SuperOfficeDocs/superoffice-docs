@@ -89,20 +89,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 694,
-  "Name": "Weber, Abshire and Welch",
+  "ScreenChooserId": 509,
+  "Name": "Hilll-Feeney",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "numquam",
-  "Source": "qui",
-  "Registered": "1997-08-29T14:19:10.912356+02:00",
-  "RegisteredAssociateId": 711,
-  "Updated": "2015-05-19T14:19:10.912356+02:00",
-  "UpdatedAssociateId": 982
+  "UniqueIdentifier": "delectus",
+  "Source": "assumenda",
+  "Registered": "2018-03-26T12:15:27.5926269+02:00",
+  "RegisteredAssociateId": 772,
+  "Updated": "2002-12-07T12:15:27.5926269+01:00",
+  "UpdatedAssociateId": 310
 }
 ```
 
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 904,
-  "Name": "Bergnaum, Kovacek and Heller",
+  "ScreenChooserId": 847,
+  "Name": "Borer Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "iste",
-  "Source": "in",
-  "Registered": "2010-05-05T14:19:10.912356+02:00",
-  "RegisteredAssociateId": 998,
-  "Updated": "2010-03-10T14:19:10.912356+01:00",
-  "UpdatedAssociateId": 877,
+  "Enabled": false,
+  "UniqueIdentifier": "omnis",
+  "Source": "et",
+  "Registered": "2017-11-02T12:15:27.5936297+01:00",
+  "RegisteredAssociateId": 898,
+  "Updated": "2015-06-01T12:15:27.5936297+02:00",
+  "UpdatedAssociateId": 575,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 852
+      "FieldType": "System.String",
+      "FieldLength": 671
     }
   }
 }

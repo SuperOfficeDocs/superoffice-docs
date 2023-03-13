@@ -102,7 +102,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -112,43 +112,43 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 828,
-  "TopicId": 547,
+  "ChatSessionId": 228,
+  "TopicId": 269,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quis",
-  "CustomerHost": "velit",
-  "CustomerName": "Bechtelar-Bashirian",
-  "CustomerEmail": "mittie.wehner@barrows.com",
-  "CustomerPhone": "1-214-236-3864",
+  "CustomerAlias": "est",
+  "CustomerHost": "optio",
+  "CustomerName": "Zemlak, Simonis and Mayer",
+  "CustomerEmail": "ward@oreillyullrich.biz",
+  "CustomerPhone": "820.944.3578",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Hauck, Bogan and Abernathy",
+  "CustomerCompanyName": "Schmitt-Corwin",
   "Status": "Closed",
-  "FirstMessage": "est",
-  "LastMessage": "molestiae",
-  "WhenRequested": "2009-07-10T14:19:10.0048864+02:00",
-  "WhenStarted": "2006-03-13T14:19:10.0048864+01:00",
-  "WhenEnded": "2010-11-11T14:19:10.0048864+01:00",
-  "WhenIdle": "2021-10-12T14:19:10.0048864+02:00",
-  "WhenFetched": "1998-06-28T14:19:10.0048864+02:00",
-  "SessionKey": "consequatur",
-  "InitialQueuePos": 983,
-  "AlertLevel": 707,
-  "Rank": 394,
+  "FirstMessage": "in",
+  "LastMessage": "qui",
+  "WhenRequested": "2004-07-07T12:15:26.3936438+02:00",
+  "WhenStarted": "2003-03-25T12:15:26.3936438+01:00",
+  "WhenEnded": "2013-11-10T12:15:26.3936438+01:00",
+  "WhenIdle": "1997-12-30T12:15:26.3936438+01:00",
+  "WhenFetched": "1996-06-17T12:15:26.3936438+02:00",
+  "SessionKey": "non",
+  "InitialQueuePos": 209,
+  "AlertLevel": 126,
+  "Rank": 10,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 946,
+  "ChatbotIsActive": true,
+  "Rating": 388,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 817
+      "FieldLength": 260
     }
   },
   "_Links": {

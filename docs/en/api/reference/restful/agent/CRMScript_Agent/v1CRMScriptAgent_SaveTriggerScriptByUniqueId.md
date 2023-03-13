@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "voluptas",
+  "TriggerScriptUniqueId": "fugiat",
   "Entity": null
 }
 ```
@@ -103,22 +103,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 202,
-  "Name": "Thompson-Beier",
+  "ScreenChooserId": 443,
+  "Name": "Bruen-Gleichner",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "eveniet",
-  "Source": "et",
-  "Registered": "2002-04-12T14:19:03.0730293+02:00",
-  "RegisteredAssociateId": 432,
-  "Updated": "2010-05-02T14:19:03.0730293+02:00",
-  "UpdatedAssociateId": 303,
+  "UniqueIdentifier": "expedita",
+  "Source": "corporis",
+  "Registered": "2003-08-03T12:15:18.6357565+02:00",
+  "RegisteredAssociateId": 365,
+  "Updated": "2014-08-18T12:15:18.6357565+02:00",
+  "UpdatedAssociateId": 181,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 397
+      "FieldType": "System.Int32",
+      "FieldLength": 848
     }
   }
 }

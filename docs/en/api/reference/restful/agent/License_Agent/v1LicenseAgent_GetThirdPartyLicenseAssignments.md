@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 173,
-  "ModuleOwner": "atque"
+  "AssociateId": 463,
+  "ModuleOwner": "reiciendis"
 }
 ```
 
@@ -103,26 +103,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 726,
-    "Tooltip": "assumenda",
+    "Unrestricted": true,
+    "Total": 296,
+    "Tooltip": "reprehenderit",
     "CanAssign": true,
-    "Free": 965,
-    "InUse": 300,
+    "Free": 31,
+    "InUse": 331,
     "IsHidden": true,
-    "Assigned": true,
-    "ModuleLicenseId": 230,
-    "Name": "Flatley-Bosco",
-    "Description": "Implemented explicit complexity",
-    "PrerequisiteModuleName": "Buckridge-Reilly",
-    "SortOrder": 909,
-    "ExtraFlags": 578,
+    "Assigned": false,
+    "ModuleLicenseId": 594,
+    "Name": "Boehm LLC",
+    "Description": "Enterprise-wide regional firmware",
+    "PrerequisiteModuleName": "Harber-Jerde",
+    "SortOrder": 799,
+    "ExtraFlags": 138,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 319
+        "FieldLength": 280
       }
     }
   }

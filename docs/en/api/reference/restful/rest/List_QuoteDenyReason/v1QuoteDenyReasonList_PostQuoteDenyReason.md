@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 363,
-  "Name": "Borer LLC",
-  "Tooltip": "hic",
+  "Id": 877,
+  "Name": "Mueller Group",
+  "Tooltip": "commodi",
   "Deleted": false,
-  "UdListDefinitionId": 163,
-  "Rank": 614
+  "UdListDefinitionId": 651,
+  "Rank": 673
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 379,
-  "Name": "Reinger Group",
-  "Tooltip": "blanditiis",
-  "Deleted": false,
-  "UdListDefinitionId": 11,
-  "Rank": 615,
+  "Id": 72,
+  "Name": "Nader-Koch",
+  "Tooltip": "vero",
+  "Deleted": true,
+  "UdListDefinitionId": 914,
+  "Rank": 23,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 320
+      "FieldType": "System.String",
+      "FieldLength": 442
     }
   }
 }

@@ -81,26 +81,26 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 324,
-  "Name": "Bruen-Barrows",
+  "WebhookId": 223,
+  "Name": "Corwin LLC",
   "Events": [
-    "quibusdam",
-    "ut"
+    "consequatur",
+    "iusto"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "voluptas",
+  "Secret": "et",
   "State": "Active",
-  "Type": "enim",
+  "Type": "nesciunt",
   "Headers": {
-    "Headers1": "enim",
-    "Headers2": "voluptas"
+    "Headers1": "quibusdam",
+    "Headers2": "omnis"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2021-04-01T14:19:11.0855578+02:00",
+  "Registered": "1997-07-02T12:15:27.8206241+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2010-10-22T14:19:11.0855578+02:00",
+  "Updated": "1998-12-04T12:15:27.8216252+01:00",
   "UpdatedAssociate": null
 }
 ```
@@ -112,14 +112,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "et",
+  "Success": true,
+  "Message": "totam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 113
+      "FieldType": "System.String",
+      "FieldLength": 574
     }
   }
 }

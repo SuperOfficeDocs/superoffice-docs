@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 59,
-  "Name": "Ortiz-Keeling",
-  "Config": "earum",
-  "Rank": 354,
-  "Client": "amet",
-  "Style": "quod",
+  "DashboardThemeId": 150,
+  "Name": "Emard Group",
+  "Config": "fuga",
+  "Rank": 971,
+  "Client": "laborum",
+  "Style": "iste",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 301
+      "FieldType": "System.String",
+      "FieldLength": 267
     }
   }
 }

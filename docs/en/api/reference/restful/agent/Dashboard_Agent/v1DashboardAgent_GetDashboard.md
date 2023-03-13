@@ -25,7 +25,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=91
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=704
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 973,
-  "AssociateId": 312,
-  "Caption": "nemo",
+  "DashboardId": 424,
+  "AssociateId": 218,
+  "Caption": "quam",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 117,
-      "Caption": "atque",
-      "Description": "Re-engineered eco-centric artificial intelligence",
-      "ChartName": "Breitenberg-Lakin",
-      "ChartId": "culpa",
-      "IsDefault": false,
-      "AssociateId": 714,
-      "GroupId": 651,
-      "SelectionId": 293,
-      "Config": "sint",
+      "DashboardTileId": 27,
+      "Caption": "culpa",
+      "Description": "Integrated even-keeled definition",
+      "ChartName": "Schaden, Walter and Davis",
+      "ChartId": "atque",
+      "IsDefault": true,
+      "AssociateId": 360,
+      "GroupId": 225,
+      "SelectionId": 60,
+      "Config": "quaerat",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 759
+          "FieldType": "System.String",
+          "FieldLength": 724
         }
       }
     }
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 316
+      "FieldLength": 809
     }
   }
 }

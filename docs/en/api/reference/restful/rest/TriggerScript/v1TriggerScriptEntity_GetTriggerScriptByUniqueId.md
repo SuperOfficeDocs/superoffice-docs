@@ -69,7 +69,7 @@ OK
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 751,
-  "Name": "Quitzon LLC",
+  "ScreenChooserId": 265,
+  "Name": "Beer-Olson",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "commodi",
-  "Source": "accusamus",
-  "Registered": "2005-07-21T14:19:10.912356+02:00",
-  "RegisteredAssociateId": 273,
-  "Updated": "2022-06-26T14:19:10.912356+02:00",
-  "UpdatedAssociateId": 809,
+  "UniqueIdentifier": "molestias",
+  "Source": "iure",
+  "Registered": "2013-09-13T12:15:27.5926269+02:00",
+  "RegisteredAssociateId": 326,
+  "Updated": "2006-11-06T12:15:27.5926269+01:00",
+  "UpdatedAssociateId": 130,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 746
+      "FieldLength": 368
     }
   }
 }

@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 742,
-  "Name": "Boehm LLC",
+  "ScreenChooserId": 777,
+  "Name": "Murray LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "inventore",
-  "Source": "voluptatem",
-  "Registered": "2020-04-24T14:19:03.0730293+02:00",
-  "RegisteredAssociateId": 325,
-  "Updated": "2012-09-27T14:19:03.0730293+02:00",
-  "UpdatedAssociateId": 96,
+  "UniqueIdentifier": "minima",
+  "Source": "aspernatur",
+  "Registered": "1999-01-26T12:15:18.6227564+01:00",
+  "RegisteredAssociateId": 861,
+  "Updated": "2001-04-11T12:15:18.6227564+02:00",
+  "UpdatedAssociateId": 397,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 552
+      "FieldType": "System.Int32",
+      "FieldLength": 782
     }
   }
 }

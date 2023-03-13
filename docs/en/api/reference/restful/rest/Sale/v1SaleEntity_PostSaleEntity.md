@@ -161,7 +161,7 @@ OK
 POST /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "culpa",
+  "SaleText": "officia",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -180,90 +180,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2020-10-17T14:19:10.6779731+02:00",
-  "Amount": 25830.428,
-  "SaleId": 488,
-  "Earning": 24805.61,
-  "EarningPercent": 16657.21,
-  "Heading": "nihil",
-  "Number": "821135",
-  "Probability": 193,
-  "CreatedDate": "2015-09-14T14:19:10.6779731+02:00",
-  "UpdatedDate": "2016-06-19T14:19:10.6779731+02:00",
+  "Saledate": "2007-03-29T12:15:27.2546313+02:00",
+  "Amount": 29954.771999999997,
+  "SaleId": 42,
+  "Earning": 20960.192,
+  "EarningPercent": 5337.202,
+  "Heading": "assumenda",
+  "Number": "854251",
+  "Probability": 817,
+  "CreatedDate": "2009-05-23T12:15:27.2546313+02:00",
+  "UpdatedDate": "2002-02-17T12:15:27.2546313+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 335,
+  "ActiveLinks": 723,
   "Links": [
     {
-      "EntityName": "Anderson Inc and Sons",
-      "Id": 394,
-      "Description": "Persistent cohesive workforce",
-      "ExtraInfo": "cumque",
-      "LinkId": 36
+      "EntityName": "Bernhard, Mitchell and Beer",
+      "Id": 341,
+      "Description": "Integrated bottom-line structure",
+      "ExtraInfo": "nisi",
+      "LinkId": 49
     },
     {
-      "EntityName": "Anderson Inc and Sons",
-      "Id": 394,
-      "Description": "Persistent cohesive workforce",
-      "ExtraInfo": "cumque",
-      "LinkId": 36
+      "EntityName": "Bernhard, Mitchell and Beer",
+      "Id": 341,
+      "Description": "Integrated bottom-line structure",
+      "ExtraInfo": "nisi",
+      "LinkId": 49
     }
   ],
-  "NextDueDate": "1999-12-08T14:19:10.6779731+01:00",
-  "Postit": "consectetur",
+  "NextDueDate": "1999-09-09T12:15:27.2546313+02:00",
+  "Postit": "quia",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2000-08-09T14:19:10.6779731+02:00",
+  "ReopenDate": "2017-08-29T12:15:27.2556323+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Emard, Runolfsson and Heathcote",
-      "Comment": "tempora",
-      "StakeholderRoleId": 126,
-      "CountryId": 494,
-      "PersonId": 717,
-      "EmailDescription": "zoey.kreiger@kerluke.com",
-      "EmailId": 300,
-      "EmailAddress": "shemar.rutherford@bernier.info",
-      "PhoneId": 35,
-      "ContactName": "Heathcote-Luettgen",
-      "ContactId": 305,
-      "SaleId": 781,
-      "Mrmrs": "harum",
-      "Firstname": "Eliane",
-      "MiddleName": "Wehner Group",
-      "Lastname": "Nitzsche",
-      "SaleStakeholderId": 269,
-      "Rank": 87,
-      "Phone": "(152)947-9917 x649"
+      "StakeholderRoleName": "Doyle, Johnson and Macejkovic",
+      "Comment": "ab",
+      "StakeholderRoleId": 696,
+      "CountryId": 789,
+      "PersonId": 96,
+      "EmailDescription": "reagan@flatleystracke.ca",
+      "EmailId": 670,
+      "EmailAddress": "archibald_witting@mcculloughbeer.co.uk",
+      "PhoneId": 244,
+      "ContactName": "Robel Inc and Sons",
+      "ContactId": 793,
+      "SaleId": 77,
+      "Mrmrs": "mollitia",
+      "Firstname": "Myron",
+      "MiddleName": "Leffler-Tillman",
+      "Lastname": "Kassulke",
+      "SaleStakeholderId": 775,
+      "Rank": 866,
+      "Phone": "828-681-7449 x8095"
     }
   ],
-  "ActiveErpLinks": 132,
+  "ActiveErpLinks": 514,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Ernie Frederique Botsford",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "57637806",
+    "SuperOffice:2": "Elinore Collins"
   },
   "ExtraFields": {
-    "ExtraFields1": "praesentium",
-    "ExtraFields2": "dignissimos"
+    "ExtraFields1": "itaque",
+    "ExtraFields2": "magnam"
   },
   "CustomFields": {
-    "CustomFields1": "aspernatur",
-    "CustomFields2": "alias"
+    "CustomFields1": "praesentium",
+    "CustomFields2": "voluptas"
   },
-  "PublishEventDate": "2018-12-19T14:19:10.6779731+01:00",
-  "PublishTo": "2000-08-05T14:19:10.6779731+02:00",
-  "PublishFrom": "2007-07-27T14:19:10.6779731+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2009-03-31T12:15:27.2556323+02:00",
+  "PublishTo": "2021-03-07T12:15:27.2556323+01:00",
+  "PublishFrom": "2022-05-01T12:15:27.2556323+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 918,
+      "VisibleId": 961,
       "Visibility": "All",
-      "DisplayValue": "non"
+      "DisplayValue": "repudiandae"
     },
     {
-      "VisibleId": 918,
+      "VisibleId": 961,
       "Visibility": "All",
-      "DisplayValue": "non"
+      "DisplayValue": "repudiandae"
     }
   ]
 }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "beatae",
+  "SaleText": "ratione",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -291,113 +291,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1997-04-23T14:19:10.6935962+02:00",
-  "Amount": 15099.612,
-  "SaleId": 767,
-  "Earning": 23752.586,
-  "EarningPercent": 5092.75,
-  "Heading": "et",
-  "Number": "980065",
-  "Probability": 752,
-  "CreatedDate": "1996-05-06T14:19:10.6935962+02:00",
-  "UpdatedDate": "1998-06-07T14:19:10.6935962+02:00",
+  "Saledate": "2002-01-20T12:15:27.2706389+01:00",
+  "Amount": 9029.054,
+  "SaleId": 356,
+  "Earning": 13109.521999999999,
+  "EarningPercent": 5938.9299999999994,
+  "Heading": "sint",
+  "Number": "1175882",
+  "Probability": 79,
+  "CreatedDate": "2014-12-07T12:15:27.2706389+01:00",
+  "UpdatedDate": "1996-11-05T12:15:27.2706389+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 491,
+  "ActiveLinks": 97,
   "Links": [
     {
-      "EntityName": "Schamberger Group",
-      "Id": 725,
-      "Description": "Organic secondary data-warehouse",
-      "ExtraInfo": "rerum",
-      "LinkId": 971,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 446
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2005-12-07T14:19:10.6935962+01:00",
-  "Postit": "et",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2002-12-28T14:19:10.6935962+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Stanton Inc and Sons",
-      "Comment": "magni",
-      "StakeholderRoleId": 879,
-      "CountryId": 566,
-      "PersonId": 522,
-      "EmailDescription": "giles@champlinmccullough.info",
-      "EmailId": 831,
-      "EmailAddress": "hayden_bergnaum@feest.us",
-      "PhoneId": 967,
-      "ContactName": "Purdy Inc and Sons",
-      "ContactId": 785,
-      "SaleId": 18,
-      "Mrmrs": "quia",
-      "Firstname": "Adrian",
-      "MiddleName": "Maggio, Schumm and Rempel",
-      "Lastname": "Hermann",
-      "SaleStakeholderId": 579,
-      "Rank": 753,
-      "Phone": "460-174-4296",
+      "EntityName": "Bogisich Inc and Sons",
+      "Id": 813,
+      "Description": "Synergistic object-oriented emulation",
+      "ExtraInfo": "dolorum",
+      "LinkId": 36,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 619
+          "FieldLength": 950
         }
       }
     }
   ],
-  "ActiveErpLinks": 635,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Elmo Shanahan",
-    "SuperOffice:2": "892244536"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "quod",
-    "ExtraFields2": "fuga"
-  },
-  "CustomFields": {
-    "CustomFields1": "quibusdam",
-    "CustomFields2": "sit"
-  },
-  "PublishEventDate": "2002-05-12T14:19:10.6935962+02:00",
-  "PublishTo": "1996-03-20T14:19:10.6935962+01:00",
-  "PublishFrom": "2006-01-31T14:19:10.6935962+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
+  "NextDueDate": "2009-06-07T12:15:27.2706389+02:00",
+  "Postit": "aliquid",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2004-01-06T12:15:27.2706389+01:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 77,
-      "Visibility": "All",
-      "DisplayValue": "minus",
+      "StakeholderRoleName": "Hagenes Inc and Sons",
+      "Comment": "beatae",
+      "StakeholderRoleId": 785,
+      "CountryId": 422,
+      "PersonId": 189,
+      "EmailDescription": "josie@shanahan.info",
+      "EmailId": 258,
+      "EmailAddress": "adan_greenfelder@kovacek.co.uk",
+      "PhoneId": 494,
+      "ContactName": "Green-Howe",
+      "ContactId": 326,
+      "SaleId": 513,
+      "Mrmrs": "qui",
+      "Firstname": "Kaylee",
+      "MiddleName": "Sawayn, Funk and Lakin",
+      "Lastname": "Brekke",
+      "SaleStakeholderId": 756,
+      "Rank": 381,
+      "Phone": "176.188.1357",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 411
+          "FieldLength": 139
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 942,
+  "UserDefinedFields": {
+    "SuperOffice:1": "1340351155",
+    "SuperOffice:2": "Darrel Daniel"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "aspernatur",
+    "ExtraFields2": "ut"
+  },
+  "CustomFields": {
+    "CustomFields1": "ut",
+    "CustomFields2": "cum"
+  },
+  "PublishEventDate": "2011-04-07T12:15:27.2716324+02:00",
+  "PublishTo": "1997-07-01T12:15:27.2716324+02:00",
+  "PublishFrom": "2002-05-28T12:15:27.2716324+02:00",
+  "IsPublished": true,
+  "VisibleFor": [
+    {
+      "VisibleId": 886,
+      "Visibility": "All",
+      "DisplayValue": "quis",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 550
         }
       }
     },
     {
-      "VisibleId": 77,
+      "VisibleId": 886,
       "Visibility": "All",
-      "DisplayValue": "minus",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 411
+          "FieldLength": 550
         }
       }
     }
@@ -407,7 +407,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldLength": 240
     }
   },
   "_Links": {

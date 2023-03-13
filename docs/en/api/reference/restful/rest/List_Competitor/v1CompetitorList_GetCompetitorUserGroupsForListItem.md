@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 134,
-    "Name": "Bechtelar LLC",
-    "ToolTip": "Voluptatibus ut aut voluptatem.",
+    "Id": 541,
+    "Name": "Feil LLC",
+    "ToolTip": "Velit eum aliquam similique quas eos.",
     "Deleted": true,
-    "Rank": 94,
-    "Type": "illum",
-    "ColorBlock": 188,
-    "IconHint": "ut",
+    "Rank": 613,
+    "Type": "minus",
+    "ColorBlock": 52,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2003-11-06T14:19:11.1480931+01:00",
+    "LastChanged": "2017-02-01T12:15:27.9066255+01:00",
     "ChildItems": [
       {
-        "Id": 775,
-        "Name": "McGlynn, Bartoletti and Hansen",
-        "ToolTip": "Exercitationem enim explicabo nobis explicabo recusandae perferendis.",
+        "Id": 731,
+        "Name": "Sanford, Hackett and Larkin",
+        "ToolTip": "Corrupti sint atque voluptatem nam et earum et.",
         "Deleted": false,
-        "Rank": 22,
-        "Type": "sed",
-        "ColorBlock": 516,
-        "IconHint": "nisi",
-        "Selected": false,
-        "LastChanged": "1996-11-30T14:19:11.1480931+01:00",
+        "Rank": 399,
+        "Type": "nostrum",
+        "ColorBlock": 37,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2009-10-12T12:15:27.9076217+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "tempora",
-        "Hidden": true,
-        "FullName": "Tod Cremin",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Malika Cronin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 804
+            "FieldType": "System.String",
+            "FieldLength": 2
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "adipisci",
+    "ExtraInfo": "animi",
+    "StyleHint": "itaque",
     "Hidden": false,
-    "FullName": "Alexie Abernathy",
+    "FullName": "Christa Javonte Lemke DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldType": "System.String",
+        "FieldLength": 585
       }
     }
   }

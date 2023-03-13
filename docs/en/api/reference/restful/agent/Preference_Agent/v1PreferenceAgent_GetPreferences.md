@@ -90,12 +90,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "pariatur",
-      "Key": "sint"
+      "Section": "quasi",
+      "Key": "sed"
     },
     {
-      "Section": "pariatur",
-      "Key": "sint"
+      "Section": "quasi",
+      "Key": "sed"
     }
   ]
 }
@@ -110,22 +110,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "sed",
+    "RawValue": "et",
     "Specification": null,
-    "DisplayValue": "ratione",
-    "DisplayTooltip": "nemo",
+    "DisplayValue": "molestiae",
+    "DisplayTooltip": "dolores",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 669,
-    "PrefDescId": 884,
-    "TableName": "Simonis Group",
-    "UserPreferenceId": 564,
+    "TargetId": 942,
+    "PrefDescId": 470,
+    "TableName": "Toy-Romaguera",
+    "UserPreferenceId": 706,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 122
+        "FieldLength": 814
       }
     }
   }

@@ -69,17 +69,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntitiesV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Satterfield, Rice and Aufderhar",
-  "ProviderName": "Wehner-Conn",
-  "Context": "natus",
-  "OwnerKeys": "neque",
+  "GuiName": "Murazik LLC",
+  "ProviderName": "Bergstrom Group",
+  "Context": "dolores",
+  "OwnerKeys": "quos",
   "Entities": [
-    "omnis",
-    "eos"
+    "eum",
+    "earum"
   ]
 }
 ```

@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 816,
-  "Name": "Jerde Group",
-  "Tooltip": "necessitatibus",
+  "Id": 892,
+  "Name": "Upton, Rohan and Buckridge",
+  "Tooltip": "illum",
   "Deleted": false,
-  "Rank": 980,
+  "Rank": 39,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptatum",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quaerat",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 381,
-  "Name": "Wolf-Spinka",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 633,
+  "Id": 529,
+  "Name": "Lemke LLC",
+  "Tooltip": "consequuntur",
+  "Deleted": true,
+  "Rank": 980,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "culpa",
-  "InUseByUserDefinedFields": true,
+  "ListType": "reprehenderit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 387
+      "FieldLength": 672
     }
   }
 }

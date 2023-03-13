@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 979
+  "PrefDescId": 244
 }
 ```
 
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 745,
-    "PrefDescId": 585,
-    "PrefValue": "voluptatem",
-    "PrefShowValue": "molestias",
-    "Description": "Total dedicated complexity",
+    "PrefDescLineId": 756,
+    "PrefDescId": 884,
+    "PrefValue": "eum",
+    "PrefShowValue": "enim",
+    "Description": "Ameliorated value-added solution",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 442
+        "FieldLength": 161
       }
     }
   }

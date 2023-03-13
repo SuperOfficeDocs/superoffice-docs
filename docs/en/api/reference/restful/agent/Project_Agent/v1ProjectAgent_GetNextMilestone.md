@@ -120,11 +120,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 839
+  "ProjectId": 164
 }
 ```
 
@@ -135,61 +135,61 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 496,
-  "StartDate": "2020-04-21T14:19:03.9532088+02:00",
-  "EndDate": "2004-10-10T14:19:03.9532088+02:00",
+  "AppointmentId": 109,
+  "StartDate": "2008-10-19T12:15:19.8417386+02:00",
+  "EndDate": "2003-09-04T12:15:19.8417386+02:00",
   "Type": "BookingForChecklist",
-  "Task": "dolores",
-  "AssociateFullName": "Mr. Amara Bahringer I",
-  "ContactName": "Beer, Franecki and Blanda",
-  "Description": "Triple-buffered directional product",
-  "PersonFullName": "Dawson Kub Jr.",
-  "PersonId": 824,
-  "ContactId": 780,
-  "ProjectId": 828,
-  "ProjectName": "Lynch-Heaney",
+  "Task": "natus",
+  "AssociateFullName": "Mr. Emilia Reinger MD",
+  "ContactName": "West LLC",
+  "Description": "Managed responsive structure",
+  "PersonFullName": "Ms. Mckenna Mills",
+  "PersonId": 906,
+  "ContactId": 46,
+  "ProjectId": 746,
+  "ProjectName": "Runolfsdottir Group",
   "IsPublished": true,
-  "AssociateId": 540,
-  "ColorIndex": 793,
+  "AssociateId": 620,
+  "ColorIndex": 626,
   "IsFree": true,
-  "HasAlarm": true,
-  "IsAlldayEvent": true,
+  "HasAlarm": false,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 83,
-  "PriorityName": "Gerlach LLC",
+  "PriorityId": 562,
+  "PriorityName": "Watsica, Lindgren and Sauer",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2013-06-14T14:19:03.9532088+02:00",
+  "ActiveDate": "2001-02-06T12:15:19.8417386+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2012-04-19T14:19:03.9532088+02:00",
-  "RecurringEndDate": "2019-09-05T14:19:03.9532088+02:00",
-  "MotherId": 541,
-  "AssignedBy": 321,
-  "AssignedByFullName": "Ms. Aletha Champlin",
+  "RecurringStartDate": "2007-08-18T12:15:19.8417386+02:00",
+  "RecurringEndDate": "2010-08-21T12:15:19.8417386+02:00",
+  "MotherId": 442,
+  "AssignedBy": 451,
+  "AssignedByFullName": "Lon Towne",
   "RejectReason": "",
-  "Location": "iusto",
-  "AlarmLeadTime": "qui",
-  "SaleId": 220,
-  "SaleName": "Mayert-Roob",
-  "AssociateName": "Funk-Wilkinson",
-  "CreatedDate": "2001-07-07T14:19:03.9532088+02:00",
-  "CreatedBy": "deserunt",
-  "CreatedByFullName": "Alanis Wilma Frami MD",
-  "CreatedByAssociateId": 549,
+  "Location": "at",
+  "AlarmLeadTime": "debitis",
+  "SaleId": 464,
+  "SaleName": "Crist, Reichert and Wehner",
+  "AssociateName": "Hessel, Botsford and Krajcik",
+  "CreatedDate": "2006-11-21T12:15:19.8427386+01:00",
+  "CreatedBy": "qui",
+  "CreatedByFullName": "Velma Braden Dickens MD",
+  "CreatedByAssociateId": 28,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 49
+      "FieldType": "System.String",
+      "FieldLength": 365
     }
   }
 }

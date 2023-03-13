@@ -57,7 +57,7 @@ OK
 GET /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -68,30 +68,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Langworth Group",
-    "DisplayName": "Renner-Torp",
-    "DisplayTooltip": "enim",
+    "Name": "Morar Group",
+    "DisplayName": "Cartwright LLC",
+    "DisplayTooltip": "quaerat",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 221
+        "FieldType": "System.Int32",
+        "FieldLength": 450
       }
     }
   },
   {
-    "Name": "Langworth Group",
-    "DisplayName": "Renner-Torp",
-    "DisplayTooltip": "enim",
+    "Name": "Morar Group",
+    "DisplayName": "Cartwright LLC",
+    "DisplayTooltip": "quaerat",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 221
+        "FieldType": "System.Int32",
+        "FieldLength": 450
       }
     }
   }

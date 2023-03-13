@@ -121,18 +121,18 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "beatae",
+    "path": "similique",
     "value": {}
   },
   {
     "op": "add",
-    "path": "beatae",
+    "path": "similique",
     "value": {}
   }
 ]
@@ -145,16 +145,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 534,
-  "Name": "Hayes, Gleichner and Luettgen",
-  "Tooltip": "et",
+  "RoleId": 790,
+  "Name": "Grant-Powlowski",
+  "Tooltip": "distinctio",
   "RoleType": "Anonymous",
-  "Deleted": 268,
-  "Rank": 387,
-  "Created": "2010-05-03T14:19:10.6467484+02:00",
-  "UseCategories": 810,
+  "Deleted": 832,
+  "Rank": 883,
+  "Created": "2022-10-20T12:15:27.2166322+02:00",
+  "UseCategories": 947,
   "CreatedBy": null,
-  "Updated": "1998-07-02T14:19:10.6467484+02:00",
+  "Updated": "2022-03-04T12:15:27.2166322+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -162,12 +162,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 754
+      "FieldLength": 376
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

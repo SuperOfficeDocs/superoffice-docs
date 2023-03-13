@@ -70,12 +70,12 @@ OK
 POST /api/v1/Agents/Person/IsNumberValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 4,
-  "Number": "964499"
+  "ContactId": 68,
+  "Number": "972797"
 }
 ```
 

@@ -25,7 +25,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=734
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=222
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 916,
+  "EjMessageId": 948,
   "Ticket": null,
-  "CreatedAt": "2003-02-26T14:19:04.501577+01:00",
+  "CreatedAt": "2004-09-25T12:15:20.4607333+02:00",
   "CreatedBy": null,
-  "Author": "qui",
+  "Author": "ut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "consequatur",
-  "TimeSpent": 847,
-  "Body": "tenetur",
-  "HtmlBody": "facere",
-  "EmailHeader": "ava_koch@ondrickakreiger.info",
-  "DebugInfo": "incidunt",
-  "MailSorter": "veritatis",
+  "MessageId": "expedita",
+  "TimeSpent": 453,
+  "Body": "id",
+  "HtmlBody": "tempore",
+  "EmailHeader": "neha_lakin@emard.info",
+  "DebugInfo": "neque",
+  "MailSorter": "quidem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptatem",
+  "SearchTitle": "odit",
   "MessageHeaders": [
     {
-      "Id": 935,
-      "Name": "Ziemann-Schmeler",
-      "Value": "eius",
+      "Id": 172,
+      "Name": "Tremblay Group",
+      "Value": "tenetur",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -129,47 +129,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 706
+          "FieldLength": 155
         }
       }
     }
   ],
   "Important": false,
-  "Language": "minus",
-  "Sentiment": 4,
-  "SentimentConfidence": 884,
+  "Language": "eius",
+  "Sentiment": 975,
+  "SentimentConfidence": 864,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 681,
-      "Name": "Anderson, Jones and Murray",
-      "ContentType": "est",
-      "AttSize": 615,
-      "InlineImage": false,
-      "ContentId": "et",
+      "AttachmentId": 973,
+      "Name": "Ratke-Kunze",
+      "ContentType": "quisquam",
+      "AttSize": 505,
+      "InlineImage": true,
+      "ContentId": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 615
+          "FieldLength": 24
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "odit",
-    "ExtraFields2": "est"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "dicta"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "fugit"
+    "CustomFields1": "aliquam",
+    "CustomFields2": "at"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 79
+      "FieldType": "System.Int32",
+      "FieldLength": 832
     }
   }
 }

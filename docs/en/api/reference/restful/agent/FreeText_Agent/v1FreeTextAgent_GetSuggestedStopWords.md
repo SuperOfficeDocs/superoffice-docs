@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 606
+  "CountWords": 276
 }
 ```
 
@@ -99,50 +99,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 651,
-    "Name": "Jones, Feil and Bins",
-    "ToolTip": "Voluptatem repellat asperiores quia et.",
-    "Deleted": false,
-    "Rank": 644,
-    "Type": "sed",
+    "Id": 997,
+    "Name": "Homenick, Dicki and Breitenberg",
+    "ToolTip": "Incidunt eius quia laborum veritatis assumenda fugit.",
+    "Deleted": true,
+    "Rank": 891,
+    "Type": "incidunt",
     "ChildItems": [
       {
-        "Id": 96,
-        "Name": "Kreiger Inc and Sons",
-        "ToolTip": "Molestiae dolores perspiciatis deserunt.",
-        "Deleted": true,
-        "Rank": 291,
-        "Type": "cum",
+        "Id": 631,
+        "Name": "Rodriguez-Langworth",
+        "ToolTip": "Eius cumque quaerat corporis sed.",
+        "Deleted": false,
+        "Rank": 11,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nostrum",
-        "ColorBlock": 881,
-        "ExtraInfo": "numquam",
-        "StyleHint": "id",
-        "FullName": "Ms. Celestino Demetrius Ziemann",
+        "IconHint": "cum",
+        "ColorBlock": 565,
+        "ExtraInfo": "atque",
+        "StyleHint": "animi",
+        "FullName": "Linnie Rutherford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 378
+            "FieldType": "System.Int32",
+            "FieldLength": 6
           }
         }
       }
     ],
-    "IconHint": "quaerat",
-    "ColorBlock": 347,
-    "ExtraInfo": "expedita",
-    "StyleHint": "qui",
-    "FullName": "Prof. Terry Altenwerth IV",
+    "IconHint": "consequatur",
+    "ColorBlock": 899,
+    "ExtraInfo": "placeat",
+    "StyleHint": "aut",
+    "FullName": "Florine Kshlerin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 178
+        "FieldLength": 291
       }
     }
   }

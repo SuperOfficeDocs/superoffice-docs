@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    442,
-    50
+    995,
+    229
   ]
 }
 ```
@@ -104,45 +104,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 828,
-    "MessageId": "voluptatem",
-    "Subject": "explicabo",
+    "ServerId": 277,
+    "MessageId": "omnis",
+    "Subject": "aut",
     "From": null,
     "To": [
       {
-        "ContactId": 83,
-        "ContactName": "Reinger Group",
-        "PersonId": 93,
-        "PersonName": "Koss-Goodwin",
-        "AssociateId": 262,
-        "Address": "sit",
-        "EmailId": 689,
+        "ContactId": 571,
+        "ContactName": "Abbott-Stiedemann",
+        "PersonId": 707,
+        "PersonName": "Hodkiewicz, Satterfield and Murazik",
+        "AssociateId": 581,
+        "Address": "totam",
+        "EmailId": 869,
         "DuplicatePersonIds": [
-          741,
-          211
+          228,
+          741
         ],
-        "Name": "Graham-Vandervort",
+        "Name": "Ebert-West",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 821
+            "FieldLength": 629
           }
         }
       }
     ],
-    "Sent": "2003-04-10T14:19:03.466522+02:00",
+    "Sent": "2022-05-24T12:15:19.0387507+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 637,
+    "Size": 939,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 919
+        "FieldType": "System.String",
+        "FieldLength": 949
       }
     }
   }

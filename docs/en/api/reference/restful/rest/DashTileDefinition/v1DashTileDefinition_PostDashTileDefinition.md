@@ -111,29 +111,29 @@ OK
 POST /api/v1/DashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 887,
-  "Name": "Braun, Nicolas and Toy",
-  "Description": "Organized attitude-oriented migration",
-  "DefaultHeight": 843,
-  "DefaultWidth": 885,
+  "DashboardTileDefinitionId": 998,
+  "Name": "Leffler, Gibson and Kub",
+  "Description": "Multi-tiered 24/7 encoding",
+  "DefaultHeight": 910,
+  "DefaultWidth": 806,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Kuhn, Boehm and Yost",
-  "SelectionId": 411,
+  "EntityName": "Gerlach Group",
+  "SelectionId": 633,
   "CurrencyMode": "Base",
-  "CurrencyCode": "explicabo",
+  "CurrencyCode": "qui",
   "Measure": "Average",
-  "MeasureField": "facere",
-  "SortBy": "libero",
-  "LayoutConfig": "tempore",
-  "SecondarySelectionId": 950,
-  "MeasureByField": "neque",
+  "MeasureField": "possimus",
+  "SortBy": "et",
+  "LayoutConfig": "quas",
+  "SecondarySelectionId": 13,
+  "MeasureByField": "impedit",
   "Usage": "Dashboard",
-  "ProviderName": "Schaden Group"
+  "ProviderName": "Nienow-Monahan"
 }
 ```
 
@@ -144,31 +144,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 901,
-  "Name": "Mueller-Hilpert",
-  "Description": "Fully-configurable client-server interface",
-  "DefaultHeight": 209,
-  "DefaultWidth": 193,
+  "DashboardTileDefinitionId": 421,
+  "Name": "Conroy-Boyer",
+  "Description": "Operative system-worthy array",
+  "DefaultHeight": 887,
+  "DefaultWidth": 904,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Balistreri-Waters",
-  "SelectionId": 912,
+  "EntityName": "Muller LLC",
+  "SelectionId": 580,
   "CurrencyMode": "Base",
-  "CurrencyCode": "illo",
+  "CurrencyCode": "ex",
   "Measure": "Average",
-  "MeasureField": "adipisci",
-  "SortBy": "culpa",
-  "LayoutConfig": "laborum",
-  "SecondarySelectionId": 783,
-  "MeasureByField": "est",
+  "MeasureField": "repellendus",
+  "SortBy": "dolor",
+  "LayoutConfig": "optio",
+  "SecondarySelectionId": 233,
+  "MeasureByField": "rerum",
   "Usage": "Dashboard",
-  "ProviderName": "Fadel, Armstrong and Ebert",
+  "ProviderName": "Hayes, Raynor and Tromp",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 75
+      "FieldLength": 244
     }
   },
   "_Links": {

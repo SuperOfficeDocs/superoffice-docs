@@ -95,7 +95,7 @@ OK
 GET /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -105,76 +105,76 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 54,
+  "EjMessageId": 811,
   "Ticket": null,
-  "CreatedAt": "1995-12-30T14:19:10.8967282+01:00",
+  "CreatedAt": "2005-07-05T12:15:27.5596276+02:00",
   "CreatedBy": null,
-  "Author": "quod",
+  "Author": "rerum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nostrum",
-  "TimeSpent": 411,
-  "Body": "eum",
-  "HtmlBody": "repellat",
-  "EmailHeader": "brennon_funk@dickinson.biz",
-  "DebugInfo": "quae",
-  "MailSorter": "aspernatur",
+  "MessageId": "voluptatibus",
+  "TimeSpent": 355,
+  "Body": "vitae",
+  "HtmlBody": "rerum",
+  "EmailHeader": "linwood.toy@kemmer.ca",
+  "DebugInfo": "eos",
+  "MailSorter": "eos",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "tempora",
+  "SearchTitle": "magnam",
   "MessageHeaders": [
     {
-      "Id": 532,
-      "Name": "Kozey Inc and Sons",
-      "Value": "rem",
+      "Id": 262,
+      "Name": "Volkman, Brakus and Fisher",
+      "Value": "autem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 494
+          "FieldType": "System.Int32",
+          "FieldLength": 692
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "libero",
-  "Sentiment": 74,
-  "SentimentConfidence": 451,
+  "Important": true,
+  "Language": "ab",
+  "Sentiment": 278,
+  "SentimentConfidence": 899,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 988,
-      "Name": "Kutch, Ondricka and Wuckert",
-      "ContentType": "accusantium",
-      "AttSize": 173,
+      "AttachmentId": 398,
+      "Name": "Stoltenberg, Stamm and Hudson",
+      "ContentType": "aut",
+      "AttSize": 5,
       "InlineImage": false,
-      "ContentId": "consectetur",
+      "ContentId": "laboriosam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 40
+          "FieldLength": 110
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "laboriosam",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "nobis"
   },
   "CustomFields": {
-    "CustomFields1": "cupiditate",
-    "CustomFields2": "error"
+    "CustomFields1": "quia",
+    "CustomFields2": "sed"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 617
+      "FieldType": "System.Int32",
+      "FieldLength": 250
     }
   }
 }

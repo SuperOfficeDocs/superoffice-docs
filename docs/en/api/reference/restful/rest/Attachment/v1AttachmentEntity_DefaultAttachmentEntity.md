@@ -61,7 +61,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 403,
-  "Name": "Reinger-Kozey",
-  "ContentType": "qui",
-  "AttSize": 821,
+  "AttachmentId": 424,
+  "Name": "Turner-Padberg",
+  "ContentType": "minus",
+  "AttSize": 155,
   "InlineImage": false,
-  "ContentId": "ratione",
+  "ContentId": "ullam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 626
+      "FieldLength": 698
     }
   }
 }

@@ -79,7 +79,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 780
+  "QuickReplyId": 756
 }
 ```
 
@@ -90,16 +90,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Shields, Corwin and Nicolas",
-  "UpdatedByFullName": "Dr. Ted Efren Wiegand",
-  "Updated": "2019-05-30T14:19:03.0886547+02:00",
-  "HtmlBody": "et",
+  "Name": "Wyman, Gislason and Feil",
+  "UpdatedByFullName": "Daren Ullrich IV",
+  "Updated": "2006-05-28T12:15:18.647756+02:00",
+  "HtmlBody": "voluptatum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 499
+      "FieldType": "System.Int32",
+      "FieldLength": 441
     }
   }
 }

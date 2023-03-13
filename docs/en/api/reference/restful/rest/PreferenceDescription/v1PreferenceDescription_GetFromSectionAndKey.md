@@ -86,30 +86,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 137,
-  "Section": "vel",
-  "Key": "vel",
-  "Name": "Larson, Rosenbaum and Powlowski",
+  "PrefDescId": 197,
+  "Section": "omnis",
+  "Key": "rem",
+  "Name": "Schulist, Volkman and Bosco",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Pre-emptive next generation Graphic Interface",
-  "IsBuiltin": false,
-  "TableName": "Orn-Cole",
-  "UserDefinedListId": 138,
-  "Rank": 938,
-  "SubGroup": "doloremque",
-  "MinLevel": 786,
-  "MaxValue": 863,
-  "MinValue": 39,
-  "RequiredLicense": "omnis",
+  "Description": "Seamless zero administration product",
+  "IsBuiltin": true,
+  "TableName": "Pacocha, Howe and Koch",
+  "UserDefinedListId": 741,
+  "Rank": 765,
+  "SubGroup": "reiciendis",
+  "MinLevel": 727,
+  "MaxValue": 830,
+  "MinValue": 31,
+  "RequiredLicense": "dicta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 607
+      "FieldLength": 749
     }
   }
 }

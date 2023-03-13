@@ -64,14 +64,14 @@ No Content
 POST /api/v1/Agents/Archive/SetColumnWidths
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Armstrong LLC",
+  "GuiName": "Wyman-Zieme",
   "ColumnWidths": [
-    "sint",
-    "modi"
+    "iure",
+    "facilis"
   ]
 }
 ```

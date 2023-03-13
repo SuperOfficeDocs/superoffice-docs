@@ -92,7 +92,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 764,
-  "ColumnId": 391,
-  "FieldDefault": "deleniti",
-  "FieldHeight": 601,
-  "FieldLabel": "consequatur",
-  "FieldLeft": 522,
-  "FieldTop": 424,
+  "UDefFieldId": 463,
+  "ColumnId": 2,
+  "FieldDefault": "velit",
+  "FieldHeight": 53,
+  "FieldLabel": "nemo",
+  "FieldLeft": 190,
+  "FieldTop": 842,
   "FieldType": "Checkbox",
-  "FieldWidth": 243,
-  "FormatMask": "enim",
+  "FieldWidth": 162,
+  "FormatMask": "ducimus",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 46,
-  "LabelLeft": 672,
-  "LabelTop": 640,
-  "LabelWidth": 318,
-  "LastVersionId": 670,
-  "ListTableId": 965,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 446,
+  "LabelLeft": 877,
+  "LabelTop": 856,
+  "LabelWidth": 555,
+  "LastVersionId": 918,
+  "ListTableId": 163,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 660,
-  "ProgId": "vel",
-  "IsReadOnly": true,
-  "ShortLabel": "molestiae",
-  "TabOrder": 537,
-  "TextLength": 722,
-  "Tooltip": "officia",
-  "UdefIdentity": 389,
-  "UDListDefinitionId": 714,
+  "Page1LineNo": 317,
+  "ProgId": "laborum",
+  "IsReadOnly": false,
+  "ShortLabel": "facilis",
+  "TabOrder": 548,
+  "TextLength": 974,
+  "Tooltip": "nostrum",
+  "UdefIdentity": 145,
+  "UDListDefinitionId": 807,
   "Justification": "Center",
-  "Version": 428,
-  "TemplateVariableName": "Marvin Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Sporer Group",
+  "Version": 415,
+  "TemplateVariableName": "Lowe, Halvorson and Hayes",
+  "HasBeenPublished": false,
+  "MdoListName": "Pacocha Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 739
+      "FieldLength": 52
     }
   }
 }

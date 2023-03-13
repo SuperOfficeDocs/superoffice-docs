@@ -25,7 +25,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=539
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=308
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,53 +97,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 345,
-  "Name": "Mayert, Schuppe and Willms",
-  "Tooltip": "et",
-  "Rank": 643,
+  "SaleTypeId": 301,
+  "Name": "VonRueden, Jerde and Ebert",
+  "Tooltip": "nulla",
+  "Rank": 949,
   "DurationUnit": "Century",
-  "SaleDuration": 211,
-  "SaleTypeCatId": 822,
-  "Deleted": false,
+  "SaleDuration": 235,
+  "SaleTypeCatId": 777,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 130,
-  "QuoteLinesTemplate": 622,
-  "ConfirmationLinesTemplate": 343,
+  "DefaultQuoteValidity": 263,
+  "QuoteLinesTemplate": 347,
+  "ConfirmationLinesTemplate": 1002,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 526,
-  "MinEarningPercent": 603,
-  "GroupQuoteLinesBy": 411,
-  "SortGroupLinesBy": 426,
+  "MaxDiscountPercent": 572,
+  "MinEarningPercent": 912,
+  "GroupQuoteLinesBy": 53,
+  "SortGroupLinesBy": 319,
   "Stages": [
     {
-      "Id": 281,
-      "Name": "Lowe Group",
-      "ToolTip": "In ut sunt.",
-      "Deleted": true,
-      "Rank": 173,
-      "Type": "delectus",
-      "ColorBlock": 245,
-      "IconHint": "possimus",
-      "Selected": true,
-      "LastChanged": "2000-11-10T14:19:03.6082484+01:00",
+      "Id": 997,
+      "Name": "Green, Gerhold and Simonis",
+      "ToolTip": "Deleniti cumque ab at non praesentium aspernatur.",
+      "Deleted": false,
+      "Rank": 238,
+      "Type": "modi",
+      "ColorBlock": 427,
+      "IconHint": "corrupti",
+      "Selected": false,
+      "LastChanged": "1999-02-04T12:15:19.2317478+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "inventore",
-      "StyleHint": "veniam",
+      "ExtraInfo": "delectus",
+      "StyleHint": "numquam",
       "Hidden": false,
-      "FullName": "Mrs. Abagail Gunner Ankunding V",
+      "FullName": "Mrs. Kayden Roy Stroman DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 20
+          "FieldLength": 941
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 938
+      "FieldType": "System.String",
+      "FieldLength": 13
     }
   }
 }

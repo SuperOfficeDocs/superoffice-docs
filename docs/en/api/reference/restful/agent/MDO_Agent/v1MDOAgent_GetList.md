@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ryan-Swaniawski",
-  "ForceFlatList": false,
-  "AdditionalInfo": "aperiam",
-  "OnlyHistory": true
+  "Name": "O'Keefe, Fisher and Ruecker",
+  "ForceFlatList": true,
+  "AdditionalInfo": "itaque",
+  "OnlyHistory": false
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 289,
-    "Name": "Kiehn-Altenwerth",
-    "ToolTip": "Ipsum non nobis quidem non aut repudiandae tenetur.",
-    "Deleted": true,
-    "Rank": 766,
-    "Type": "tempora",
+    "Id": 747,
+    "Name": "Mueller, Schimmel and Keebler",
+    "ToolTip": "Non soluta voluptatem quasi.",
+    "Deleted": false,
+    "Rank": 384,
+    "Type": "provident",
     "ChildItems": [
       {
-        "Id": 846,
-        "Name": "Goldner Group",
-        "ToolTip": "Voluptas ab blanditiis eligendi corrupti exercitationem.",
-        "Deleted": true,
-        "Rank": 352,
-        "Type": "aliquam",
+        "Id": 14,
+        "Name": "Hilpert-Ryan",
+        "ToolTip": "Ut dolores explicabo.",
+        "Deleted": false,
+        "Rank": 912,
+        "Type": "quisquam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "pariatur",
-        "ColorBlock": 132,
-        "ExtraInfo": "ut",
-        "StyleHint": "aspernatur",
-        "FullName": "Daisy Keeling",
+        "IconHint": "eos",
+        "ColorBlock": 631,
+        "ExtraInfo": "non",
+        "StyleHint": "eos",
+        "FullName": "Buddy Weimann IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 63
+            "FieldType": "System.String",
+            "FieldLength": 719
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 412,
-    "ExtraInfo": "animi",
-    "StyleHint": "placeat",
-    "FullName": "Brandt Josephine Ledner I",
+    "IconHint": "at",
+    "ColorBlock": 628,
+    "ExtraInfo": "inventore",
+    "StyleHint": "temporibus",
+    "FullName": "Raphaelle Jenkins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 32
+        "FieldType": "System.Int32",
+        "FieldLength": 170
       }
     }
   }

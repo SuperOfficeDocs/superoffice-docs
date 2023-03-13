@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 895,
-    "Name": "Wyman Inc and Sons",
-    "Tooltip": "voluptates",
-    "Deleted": true,
-    "Rank": 711,
-    "UdListDefinitionId": 879
+    "HeadingId": 287,
+    "Name": "Lemke LLC",
+    "Tooltip": "expedita",
+    "Deleted": false,
+    "Rank": 327,
+    "UdListDefinitionId": 100
   },
   {
-    "HeadingId": 895,
-    "Name": "Wyman Inc and Sons",
-    "Tooltip": "voluptates",
-    "Deleted": true,
-    "Rank": 711,
-    "UdListDefinitionId": 879
+    "HeadingId": 287,
+    "Name": "Lemke LLC",
+    "Tooltip": "expedita",
+    "Deleted": false,
+    "Rank": 327,
+    "UdListDefinitionId": 100
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 608,
-    "Name": "Gerhold Group",
-    "Tooltip": "enim",
+    "HeadingId": 7,
+    "Name": "Konopelski, Treutel and Quigley",
+    "Tooltip": "nihil",
     "Deleted": false,
-    "Rank": 446,
-    "UdListDefinitionId": 223,
+    "Rank": 652,
+    "UdListDefinitionId": 305,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 885
+        "FieldLength": 49
       }
     }
   }

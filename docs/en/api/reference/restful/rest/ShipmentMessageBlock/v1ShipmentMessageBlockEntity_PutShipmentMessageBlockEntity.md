@@ -96,14 +96,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 687,
-  "AssociateId": 549,
-  "Block": "totam",
-  "Registered": "1998-02-25T14:19:10.7873511+01:00",
-  "RegisteredAssociateId": 668,
-  "Updated": "1998-03-27T14:19:10.7873511+01:00",
-  "UpdatedAssociateId": 858,
-  "UpdatedCount": 766
+  "ShipmentMessageBlockId": 588,
+  "AssociateId": 940,
+  "Block": "vel",
+  "Registered": "2012-08-12T12:15:27.3956298+02:00",
+  "RegisteredAssociateId": 384,
+  "Updated": "2012-05-02T12:15:27.3956298+02:00",
+  "UpdatedAssociateId": 313,
+  "UpdatedCount": 861
 }
 ```
 
@@ -114,20 +114,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 447,
-  "AssociateId": 257,
-  "Block": "aut",
-  "Registered": "1997-03-27T14:19:10.7873511+01:00",
-  "RegisteredAssociateId": 516,
-  "Updated": "2014-05-07T14:19:10.7873511+02:00",
-  "UpdatedAssociateId": 546,
-  "UpdatedCount": 10,
+  "ShipmentMessageBlockId": 870,
+  "AssociateId": 729,
+  "Block": "quia",
+  "Registered": "2008-10-27T12:15:27.3956298+01:00",
+  "RegisteredAssociateId": 755,
+  "Updated": "2021-07-26T12:15:27.3956298+02:00",
+  "UpdatedAssociateId": 919,
+  "UpdatedCount": 571,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 46
+      "FieldLength": 128
     }
   },
   "_Links": {

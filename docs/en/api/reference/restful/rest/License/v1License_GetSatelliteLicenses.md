@@ -61,7 +61,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,30 +72,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kuhlman Inc and Sons",
-    "Description": "Front-line homogeneous algorithm",
+    "Name": "Sporer, Spinka and Hammes",
+    "Description": "Public-key uniform monitoring",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 609,
-        "Tooltip": "nemo",
-        "CanAssign": true,
-        "Free": 880,
-        "InUse": 428,
+        "Total": 326,
+        "Tooltip": "voluptates",
+        "CanAssign": false,
+        "Free": 10,
+        "InUse": 958,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 331,
-        "Name": "Ziemann Group",
-        "Description": "Public-key bandwidth-monitored concept",
-        "PrerequisiteModuleName": "Haley-Daniel",
-        "SortOrder": 290,
-        "ExtraFlags": 475,
+        "ModuleLicenseId": 155,
+        "Name": "Johns Group",
+        "Description": "Fundamental zero defect help-desk",
+        "PrerequisiteModuleName": "Reichel Group",
+        "SortOrder": 796,
+        "ExtraFlags": 645,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 307
+            "FieldLength": 799
           }
         }
       }
@@ -103,25 +103,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 535,
-        "Tooltip": "nesciunt",
+        "Total": 540,
+        "Tooltip": "voluptas",
         "CanAssign": false,
-        "Free": 20,
-        "InUse": 191,
-        "IsHidden": true,
+        "Free": 685,
+        "InUse": 515,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 280,
-        "Name": "Turcotte Inc and Sons",
-        "Description": "Cloned context-sensitive matrix",
-        "PrerequisiteModuleName": "Sipes Group",
-        "SortOrder": 821,
-        "ExtraFlags": 179,
+        "ModuleLicenseId": 76,
+        "Name": "Stark Group",
+        "Description": "Universal value-added middleware",
+        "PrerequisiteModuleName": "Pacocha LLC",
+        "SortOrder": 835,
+        "ExtraFlags": 852,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 311
+            "FieldLength": 394
           }
         }
       }
@@ -131,35 +131,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 55
+        "FieldLength": 152
       }
     }
   },
   {
-    "Name": "Kuhlman Inc and Sons",
-    "Description": "Front-line homogeneous algorithm",
+    "Name": "Sporer, Spinka and Hammes",
+    "Description": "Public-key uniform monitoring",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 609,
-        "Tooltip": "nemo",
-        "CanAssign": true,
-        "Free": 880,
-        "InUse": 428,
+        "Total": 326,
+        "Tooltip": "voluptates",
+        "CanAssign": false,
+        "Free": 10,
+        "InUse": 958,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 331,
-        "Name": "Ziemann Group",
-        "Description": "Public-key bandwidth-monitored concept",
-        "PrerequisiteModuleName": "Haley-Daniel",
-        "SortOrder": 290,
-        "ExtraFlags": 475,
+        "ModuleLicenseId": 155,
+        "Name": "Johns Group",
+        "Description": "Fundamental zero defect help-desk",
+        "PrerequisiteModuleName": "Reichel Group",
+        "SortOrder": 796,
+        "ExtraFlags": 645,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 307
+            "FieldLength": 799
           }
         }
       }
@@ -167,25 +167,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 535,
-        "Tooltip": "nesciunt",
+        "Total": 540,
+        "Tooltip": "voluptas",
         "CanAssign": false,
-        "Free": 20,
-        "InUse": 191,
-        "IsHidden": true,
+        "Free": 685,
+        "InUse": 515,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 280,
-        "Name": "Turcotte Inc and Sons",
-        "Description": "Cloned context-sensitive matrix",
-        "PrerequisiteModuleName": "Sipes Group",
-        "SortOrder": 821,
-        "ExtraFlags": 179,
+        "ModuleLicenseId": 76,
+        "Name": "Stark Group",
+        "Description": "Universal value-added middleware",
+        "PrerequisiteModuleName": "Pacocha LLC",
+        "SortOrder": 835,
+        "ExtraFlags": 852,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 311
+            "FieldLength": 394
           }
         }
       }
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 55
+        "FieldLength": 152
       }
     }
   }

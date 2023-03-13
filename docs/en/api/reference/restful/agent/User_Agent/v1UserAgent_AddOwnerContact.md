@@ -65,11 +65,11 @@ No Content
 POST /api/v1/Agents/User/AddOwnerContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 228
+  "ContactId": 195
 }
 ```
 

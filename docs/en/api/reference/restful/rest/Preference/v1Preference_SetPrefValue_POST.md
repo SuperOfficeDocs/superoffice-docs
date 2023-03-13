@@ -75,16 +75,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "voluptatem",
+  "RawValue": "ullam",
   "Specification": null,
-  "DisplayValue": "odio",
-  "DisplayTooltip": "nostrum",
+  "DisplayValue": "ab",
+  "DisplayTooltip": "eum",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 7,
-  "PrefDescId": 110,
-  "TableName": "Strosin Inc and Sons",
-  "UserPreferenceId": 684
+  "TargetId": 224,
+  "PrefDescId": 810,
+  "TableName": "Botsford LLC",
+  "UserPreferenceId": 582
 }
 ```
 

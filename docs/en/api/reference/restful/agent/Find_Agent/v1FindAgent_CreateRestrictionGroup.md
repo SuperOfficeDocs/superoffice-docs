@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sed",
-  "ProviderName": "Friesen LLC",
-  "StorageKey": "magnam",
-  "Context": "molestias"
+  "StorageType": "doloremque",
+  "ProviderName": "Hermiston-Koepp",
+  "StorageKey": "dolores",
+  "Context": "laborum"
 }
 ```
 
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Barton Group",
-  "Description": "Networked methodical structure",
-  "Rank": 63,
+  "Name": "Tromp-Gerlach",
+  "Description": "Streamlined 6th generation neural-net",
+  "Rank": 291,
   "Restrictions": [
     {
-      "Name": "Thiel, Kerluke and Friesen",
-      "Operator": "iure",
+      "Name": "Weber LLC",
+      "Operator": "ut",
       "Values": [
-        "explicabo",
-        "neque"
+        "mollitia",
+        "tempore"
       ],
       "DisplayValues": [
-        "omnis",
-        "maiores"
+        "quidem",
+        "rerum"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 55,
+      "InterParenthesis": 253,
       "InterOperator": "And",
-      "UniqueHash": 972
+      "UniqueHash": 173
     }
   ]
 }

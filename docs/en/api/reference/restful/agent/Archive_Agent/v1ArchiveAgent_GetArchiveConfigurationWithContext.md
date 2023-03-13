@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kirlin Inc and Sons",
-  "ProviderName": "Larson LLC",
-  "Context": "et"
+  "GuiName": "McGlynn-Gulgowski",
+  "ProviderName": "Cassin, Brekke and Crona",
+  "Context": "eum"
 }
 ```
 
@@ -98,68 +98,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Bayer, Corkery and Smith",
-      "DisplayTooltip": "sint",
-      "DisplayType": "saepe",
-      "CanOrderBy": false,
-      "Name": "Brekke Inc and Sons",
+      "DisplayName": "Mante-Homenick",
+      "DisplayTooltip": "velit",
+      "DisplayType": "quos",
+      "CanOrderBy": true,
+      "Name": "Bailey, Padberg and Renner",
       "CanRestrictBy": true,
-      "RestrictionType": "deserunt",
-      "RestrictionListName": "Monahan-Wunsch",
-      "IsVisible": true,
+      "RestrictionType": "corporis",
+      "RestrictionListName": "Anderson LLC",
+      "IsVisible": false,
       "ExtraInfo": "ut",
-      "Width": "non",
-      "IconHint": "qui",
-      "HeadingIconHint": "alias"
+      "Width": "saepe",
+      "IconHint": "et",
+      "HeadingIconHint": "aut"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 500,
-      "Name": "Schaefer-Kohler",
-      "ToolTip": "Quia ut est maiores dicta perferendis et.",
+      "Id": 671,
+      "Name": "Ebert LLC",
+      "ToolTip": "Soluta quis.",
       "Deleted": false,
-      "Rank": 623,
-      "Type": "ipsum",
-      "ColorBlock": 208,
-      "IconHint": "non",
-      "Selected": true,
-      "LastChanged": "2016-11-11T14:19:02.7281785+01:00",
+      "Rank": 466,
+      "Type": "similique",
+      "ColorBlock": 70,
+      "IconHint": "aut",
+      "Selected": false,
+      "LastChanged": "2019-09-12T12:15:18.1477635+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aspernatur",
-      "StyleHint": "ipsa",
+      "ExtraInfo": "exercitationem",
+      "StyleHint": "reiciendis",
       "Hidden": false,
-      "FullName": "Haven Wilkinson",
+      "FullName": "Mrs. Claudie Flatley I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldLength": 438
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Corkery-Davis",
+      "Name": "Green, Pfeffer and Cole",
       "Direction": "ASC"
     },
     {
-      "Name": "Corkery-Davis",
+      "Name": "Green, Pfeffer and Cole",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "aspernatur",
+  "OwnerKeys": "alias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 867
+      "FieldType": "System.Int32",
+      "FieldLength": 830
     }
   }
 }

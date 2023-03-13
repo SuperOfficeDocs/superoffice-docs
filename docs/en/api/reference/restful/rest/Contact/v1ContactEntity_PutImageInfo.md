@@ -96,19 +96,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 538,
-  "BlobSize": 992,
-  "Description": "Virtual object-oriented data-warehouse",
-  "ExtraInfo": "facere",
+  "BlobId": 3,
+  "BlobSize": 135,
+  "Description": "Multi-tiered solution-oriented portal",
+  "ExtraInfo": "aut",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "dignissimos",
-  "OriginalSize": 206,
-  "CreatedDate": "2001-08-23T14:19:10.1310974+02:00",
-  "UpdatedDate": "2019-02-28T14:19:10.1310974+01:00",
+  "MimeType": "voluptates",
+  "OriginalSize": 262,
+  "CreatedDate": "2007-04-26T12:15:26.5576424+02:00",
+  "UpdatedDate": "2004-11-11T12:15:26.5576424+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "a"
+  "ConceptualType": "veritatis"
 }
 ```
 
@@ -119,25 +119,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 101,
-  "BlobSize": 594,
-  "Description": "Balanced value-added utilisation",
-  "ExtraInfo": "est",
+  "BlobId": 302,
+  "BlobSize": 83,
+  "Description": "Assimilated discrete hub",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "a",
-  "OriginalSize": 812,
-  "CreatedDate": "2021-11-27T14:19:10.1310974+01:00",
-  "UpdatedDate": "2019-10-12T14:19:10.1310974+02:00",
+  "MimeType": "et",
+  "OriginalSize": 648,
+  "CreatedDate": "2015-05-31T12:15:26.5596422+02:00",
+  "UpdatedDate": "1999-09-12T12:15:26.5596422+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sequi",
+  "ConceptualType": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 978
+      "FieldLength": 480
     }
   }
 }

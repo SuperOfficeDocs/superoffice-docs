@@ -70,10 +70,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 771,
+  "SelectionId": 838,
   "SelectionMembersIds": [
-    424,
-    305
+    722,
+    396
   ]
 }
 ```

@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 739,
-    "Name": "Hackett LLC",
-    "ToolTip": "Cumque quibusdam id non repellat magnam occaecati veritatis.",
-    "Deleted": false,
-    "Rank": 448,
-    "Type": "vel",
-    "ColorBlock": 699,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2003-08-19T14:19:11.4557858+02:00",
+    "Id": 632,
+    "Name": "Spinka Group",
+    "ToolTip": "Nostrum sapiente iusto porro eos at.",
+    "Deleted": true,
+    "Rank": 411,
+    "Type": "nihil",
+    "ColorBlock": 160,
+    "IconHint": "eum",
+    "Selected": false,
+    "LastChanged": "2002-12-12T12:15:28.4226214+01:00",
     "ChildItems": [
       {
-        "Id": 385,
-        "Name": "Stehr LLC",
-        "ToolTip": "Atque aut est iure repellendus qui praesentium.",
+        "Id": 161,
+        "Name": "Doyle, Considine and Ondricka",
+        "ToolTip": "Perferendis laboriosam quia qui reprehenderit ex provident.",
         "Deleted": true,
-        "Rank": 991,
-        "Type": "reiciendis",
-        "ColorBlock": 29,
-        "IconHint": "aut",
+        "Rank": 454,
+        "Type": "amet",
+        "ColorBlock": 67,
+        "IconHint": "vero",
         "Selected": false,
-        "LastChanged": "2022-05-11T14:19:11.4557858+02:00",
+        "LastChanged": "2010-06-11T12:15:28.4236229+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "modi",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "animi",
         "Hidden": false,
-        "FullName": "Kareem Dibbert",
+        "FullName": "Willis Cremin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 26
+            "FieldLength": 490
           }
         }
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "amet",
+    "StyleHint": "ad",
     "Hidden": true,
-    "FullName": "Simone Aimee Gibson DDS",
+    "FullName": "Miss Carmelo Naomi Grimes I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 434
+        "FieldType": "System.Int32",
+        "FieldLength": 355
       }
     }
   }

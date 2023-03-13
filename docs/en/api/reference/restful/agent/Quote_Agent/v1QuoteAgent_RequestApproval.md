@@ -83,9 +83,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 310,
-  "AssociateId": 603,
-  "Comment": "vitae"
+  "QuoteVersionId": 914,
+  "AssociateId": 427,
+  "Comment": "earum"
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "rem",
-  "TechExplanation": "saepe",
-  "ErrorCode": "voluptas",
+  "IsOk": true,
+  "UserExplanation": "qui",
+  "TechExplanation": "culpa",
+  "ErrorCode": "ut",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 321
+      "FieldType": "System.String",
+      "FieldLength": 220
     }
   }
 }

@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 33,
-    "Name": "Strosin, Streich and Wuckert",
-    "ToolTip": "Quos mollitia earum rem.",
+    "Id": 38,
+    "Name": "McClure, Greenfelder and Weber",
+    "ToolTip": "Et modi rem.",
     "Deleted": false,
-    "Rank": 715,
-    "Type": "molestias",
-    "ColorBlock": 904,
-    "IconHint": "labore",
+    "Rank": 121,
+    "Type": "perferendis",
+    "ColorBlock": 99,
+    "IconHint": "nesciunt",
     "Selected": false,
-    "LastChanged": "1995-12-18T14:19:11.6276984+01:00",
+    "LastChanged": "2006-03-24T12:15:28.5196129+01:00",
     "ChildItems": [
       {
-        "Id": 822,
-        "Name": "Lehner-Leuschke",
-        "ToolTip": "Dicta in exercitationem qui ea omnis animi et.",
+        "Id": 604,
+        "Name": "Cormier LLC",
+        "ToolTip": "Fuga odit omnis in.",
         "Deleted": false,
-        "Rank": 858,
-        "Type": "aliquam",
-        "ColorBlock": 201,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2004-04-30T14:19:11.6276984+02:00",
+        "Rank": 650,
+        "Type": "incidunt",
+        "ColorBlock": 767,
+        "IconHint": "deserunt",
+        "Selected": true,
+        "LastChanged": "2001-11-29T12:15:28.5196129+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "distinctio",
-        "Hidden": false,
-        "FullName": "Tina Konopelski",
+        "ExtraInfo": "architecto",
+        "StyleHint": "iste",
+        "Hidden": true,
+        "FullName": "Romaine Hellen Stehr II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 619
+            "FieldLength": 546
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Jared Ward",
+    "ExtraInfo": "quidem",
+    "StyleHint": "officiis",
+    "Hidden": false,
+    "FullName": "Isadore Batz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 29
+        "FieldType": "System.Int32",
+        "FieldLength": 209
       }
     }
   }

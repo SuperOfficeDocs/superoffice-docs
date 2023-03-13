@@ -88,32 +88,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 788,
-  "ListItemId": 804,
+  "UdListDefinitionId": 425,
+  "ListItemId": 774,
   "UserGroups": [
     {
-      "Id": 319,
-      "Name": "Wiegand LLC",
-      "ToolTip": "Temporibus doloribus explicabo est iusto.",
-      "Deleted": false,
-      "Rank": 828,
-      "Type": "dolores",
-      "ColorBlock": 763,
-      "IconHint": "id",
-      "Selected": false,
-      "LastChanged": "2018-06-28T14:19:03.6238736+02:00",
+      "Id": 914,
+      "Name": "Tromp-Nader",
+      "ToolTip": "Nulla vel voluptatem alias est quas dolorem.",
+      "Deleted": true,
+      "Rank": 116,
+      "Type": "porro",
+      "ColorBlock": 946,
+      "IconHint": "repudiandae",
+      "Selected": true,
+      "LastChanged": "2012-10-09T12:15:19.2497492+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "a",
-      "StyleHint": "ea",
-      "Hidden": true,
-      "FullName": "Roma Hahn"
+      "ExtraInfo": "temporibus",
+      "StyleHint": "ut",
+      "Hidden": false,
+      "FullName": "Sam Ferry III"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 581,
-    "Name": "Gusikowski-Mraz",
-    "ToolTip": "Officia quia explicabo quis nisi quo sequi.",
+    "Id": 545,
+    "Name": "Prohaska Inc and Sons",
+    "ToolTip": "Quibusdam et placeat perferendis occaecati.",
     "Deleted": false,
-    "Rank": 496,
-    "Type": "repellat",
-    "ColorBlock": 526,
-    "IconHint": "alias",
+    "Rank": 701,
+    "Type": "quia",
+    "ColorBlock": 377,
+    "IconHint": "dolores",
     "Selected": true,
-    "LastChanged": "2005-11-23T14:19:03.6238736+01:00",
+    "LastChanged": "2010-06-03T12:15:19.2507472+02:00",
     "ChildItems": [
       {
-        "Id": 258,
-        "Name": "Schmitt, Mann and Nienow",
-        "ToolTip": "Eos et et consectetur iusto voluptates.",
-        "Deleted": false,
-        "Rank": 361,
-        "Type": "sunt",
-        "ColorBlock": 992,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2019-10-17T14:19:03.6238736+02:00",
+        "Id": 50,
+        "Name": "Ernser, Langworth and Sauer",
+        "ToolTip": "Nostrum voluptas.",
+        "Deleted": true,
+        "Rank": 604,
+        "Type": "quia",
+        "ColorBlock": 186,
+        "IconHint": "dicta",
+        "Selected": false,
+        "LastChanged": "1997-04-26T12:15:19.2507472+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "occaecati",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Julio McClure Sr.",
+        "FullName": "Miss Elwyn Kutch DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 740
+            "FieldLength": 930
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "dolor",
-    "Hidden": false,
-    "FullName": "Presley Haley",
+    "ExtraInfo": "quia",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Lorenza Zboncak II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 84
+        "FieldType": "System.Int32",
+        "FieldLength": 657
       }
     }
   }

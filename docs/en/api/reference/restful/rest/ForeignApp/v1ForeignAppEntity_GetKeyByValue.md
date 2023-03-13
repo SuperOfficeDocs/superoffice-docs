@@ -31,7 +31,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=dolorem
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,23 +86,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 02 Dec 2000 14:19:10 G12T
+Last-Modified: Sat, 26 May 2001 12:15:26 G5T
 
 {
-  "Key": "quam",
-  "Value": "consectetur",
-  "RecordId": 415,
-  "CreatedDate": "2016-08-20T14:19:10.3654771+02:00",
-  "UpdatedDate": "2000-12-02T14:19:10.3654771+01:00",
-  "UpdatedBy": "deleniti",
-  "CreatedBy": "perspiciatis",
-  "TableName": "Stark LLC",
+  "Key": "ullam",
+  "Value": "beatae",
+  "RecordId": 240,
+  "CreatedDate": "2015-07-15T12:15:26.9796351+02:00",
+  "UpdatedDate": "2001-05-26T12:15:26.9796351+02:00",
+  "UpdatedBy": "dicta",
+  "CreatedBy": "consequuntur",
+  "TableName": "Goodwin, Lemke and Davis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 149
+      "FieldLength": 457
     }
   }
 }

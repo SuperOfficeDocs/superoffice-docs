@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 550
+  "ErpConnectorId": 683
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "cumque",
-    "Rank": 31,
-    "DisplayName": "Simonis-Tillman",
-    "DisplayDescription": "Digitized transitional paradigm",
+    "FieldKey": "quibusdam",
+    "Rank": 655,
+    "DisplayName": "Reichel, Gutkowski and Ledner",
+    "DisplayDescription": "Optional radical task-force",
     "FieldType": "Checkbox",
-    "ListName": "Little, Rath and Dickens",
-    "DefaultValue": "numquam",
-    "MaxLength": 37,
+    "ListName": "Haag Inc and Sons",
+    "DefaultValue": "molestiae",
+    "MaxLength": 393,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 959
+        "FieldLength": 984
       }
     }
   }

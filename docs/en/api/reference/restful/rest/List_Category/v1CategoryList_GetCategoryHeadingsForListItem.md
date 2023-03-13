@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 269,
-    "Name": "Feeney, Block and Kreiger",
-    "ToolTip": "In rem perferendis ad incidunt quia sit nostrum.",
+    "Id": 610,
+    "Name": "Cartwright-Bayer",
+    "ToolTip": "Non nam assumenda mollitia.",
     "Deleted": false,
-    "Rank": 536,
-    "Type": "impedit",
-    "ColorBlock": 669,
-    "IconHint": "ducimus",
+    "Rank": 695,
+    "Type": "asperiores",
+    "ColorBlock": 778,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "2023-01-04T14:19:11.1480931+01:00",
+    "LastChanged": "2004-11-03T12:15:27.8946226+01:00",
     "ChildItems": [
       {
-        "Id": 733,
-        "Name": "Heidenreich, Stamm and Wolff",
-        "ToolTip": "Est minima ipsum quia incidunt eveniet.",
-        "Deleted": false,
-        "Rank": 250,
-        "Type": "nihil",
-        "ColorBlock": 361,
-        "IconHint": "ipsam",
+        "Id": 358,
+        "Name": "Schultz-Abernathy",
+        "ToolTip": "Velit animi a soluta a magnam ut.",
+        "Deleted": true,
+        "Rank": 529,
+        "Type": "labore",
+        "ColorBlock": 922,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2002-05-28T14:19:11.1480931+02:00",
+        "LastChanged": "2016-04-19T12:15:27.8946226+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "sit",
+        "ExtraInfo": "sed",
+        "StyleHint": "animi",
         "Hidden": false,
-        "FullName": "Adolf Dach",
+        "FullName": "Leila Kohler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 672
+            "FieldLength": 538
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "et",
+    "StyleHint": "doloribus",
     "Hidden": false,
-    "FullName": "London Meredith Kirlin MD",
+    "FullName": "Sean Collins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 315
+        "FieldType": "System.Int32",
+        "FieldLength": 460
       }
     }
   }

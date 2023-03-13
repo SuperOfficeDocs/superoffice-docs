@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 978,
-  "Name": "Christiansen, Tromp and Dietrich",
-  "Tooltip": "voluptatem",
+  "Id": 618,
+  "Name": "Kreiger LLC",
+  "Tooltip": "corporis",
   "Deleted": true,
-  "Rank": 897,
-  "IsCustomList": true,
+  "Rank": 203,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "consequuntur",
+  "UseGroupsAndHeadings": false,
+  "ListType": "possimus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 182
+      "FieldType": "System.Int32",
+      "FieldLength": 681
     }
   },
   "_Links": {

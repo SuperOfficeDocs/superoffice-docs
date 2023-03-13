@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 883,
-    "Name": "Collier Inc and Sons",
-    "Tooltip": "voluptates",
-    "Deleted": false,
-    "UdListDefinitionId": 498,
-    "Rank": 362
+    "Id": 66,
+    "Name": "Altenwerth, Dickens and Schmidt",
+    "Tooltip": "eum",
+    "Deleted": true,
+    "UdListDefinitionId": 721,
+    "Rank": 528
   },
   {
-    "Id": 883,
-    "Name": "Collier Inc and Sons",
-    "Tooltip": "voluptates",
-    "Deleted": false,
-    "UdListDefinitionId": 498,
-    "Rank": 362
+    "Id": 66,
+    "Name": "Altenwerth, Dickens and Schmidt",
+    "Tooltip": "eum",
+    "Deleted": true,
+    "UdListDefinitionId": 721,
+    "Rank": 528
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 752,
-    "Name": "Haley-Pacocha",
-    "Tooltip": "consequatur",
+    "Id": 587,
+    "Name": "Roberts-Walter",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 593,
-    "Rank": 644,
+    "UdListDefinitionId": 873,
+    "Rank": 67,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 213
+        "FieldType": "System.Int32",
+        "FieldLength": 622
       }
     }
   }

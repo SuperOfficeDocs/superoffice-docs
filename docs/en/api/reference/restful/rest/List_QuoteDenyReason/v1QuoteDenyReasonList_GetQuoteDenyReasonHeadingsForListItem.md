@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 160,
-    "Name": "Koch, Larkin and Douglas",
-    "ToolTip": "Facere culpa.",
+    "Id": 340,
+    "Name": "Huels-Green",
+    "ToolTip": "Fugit hic quidem iste sed quia ratione odit.",
     "Deleted": false,
-    "Rank": 629,
-    "Type": "et",
-    "ColorBlock": 864,
-    "IconHint": "quas",
-    "Selected": true,
-    "LastChanged": "2017-11-27T14:19:11.430529+01:00",
+    "Rank": 633,
+    "Type": "sint",
+    "ColorBlock": 852,
+    "IconHint": "necessitatibus",
+    "Selected": false,
+    "LastChanged": "2015-02-07T12:15:28.3886174+01:00",
     "ChildItems": [
       {
-        "Id": 269,
-        "Name": "Hintz-Zemlak",
-        "ToolTip": "Ipsa voluptatem quo voluptatem rerum quae voluptas.",
+        "Id": 562,
+        "Name": "Lebsack-Greenholt",
+        "ToolTip": "Quia aliquam.",
         "Deleted": false,
-        "Rank": 240,
-        "Type": "eaque",
-        "ColorBlock": 663,
-        "IconHint": "quia",
+        "Rank": 948,
+        "Type": "consequatur",
+        "ColorBlock": 606,
+        "IconHint": "incidunt",
         "Selected": false,
-        "LastChanged": "2009-11-09T14:19:11.430529+01:00",
+        "LastChanged": "2003-06-18T12:15:28.3886174+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "saepe",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Jeff Maurine Wehner MD",
+        "FullName": "Ms. Robin Becker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 925
+            "FieldLength": 493
           }
         }
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "totam",
-    "Hidden": false,
-    "FullName": "Maximus Morissette MD",
+    "ExtraInfo": "autem",
+    "StyleHint": "a",
+    "Hidden": true,
+    "FullName": "Willard Metz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 858
+        "FieldLength": 211
       }
     }
   }

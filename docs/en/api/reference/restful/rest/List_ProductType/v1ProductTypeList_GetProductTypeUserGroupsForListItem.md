@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 167,
-    "Name": "Effertz-Gutkowski",
-    "ToolTip": "Eum debitis incidunt non.",
-    "Deleted": false,
-    "Rank": 322,
-    "Type": "molestiae",
-    "ColorBlock": 763,
-    "IconHint": "aut",
+    "Id": 98,
+    "Name": "Zulauf, Keeling and Smitham",
+    "ToolTip": "At sed fuga est ut est.",
+    "Deleted": true,
+    "Rank": 563,
+    "Type": "qui",
+    "ColorBlock": 15,
+    "IconHint": "reprehenderit",
     "Selected": false,
-    "LastChanged": "2009-12-01T14:19:11.3836521+01:00",
+    "LastChanged": "2015-01-31T12:15:28.3146234+01:00",
     "ChildItems": [
       {
-        "Id": 578,
-        "Name": "Prohaska Inc and Sons",
-        "ToolTip": "Voluptatem sint.",
-        "Deleted": false,
-        "Rank": 970,
-        "Type": "at",
-        "ColorBlock": 295,
-        "IconHint": "rem",
+        "Id": 593,
+        "Name": "McCullough, Predovic and Jacobson",
+        "ToolTip": "Atque eius est enim aliquam velit est sed.",
+        "Deleted": true,
+        "Rank": 797,
+        "Type": "vero",
+        "ColorBlock": 988,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2021-10-13T14:19:11.3836521+02:00",
+        "LastChanged": "2016-10-14T12:15:28.3146234+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "nihil",
+        "ExtraInfo": "ad",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Nelson Lynch",
+        "FullName": "Aubree Renner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 78
+            "FieldType": "System.String",
+            "FieldLength": 11
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "porro",
+    "ExtraInfo": "in",
+    "StyleHint": "autem",
     "Hidden": false,
-    "FullName": "Desiree Kessler",
+    "FullName": "Mary Wisozk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 512
+        "FieldLength": 966
       }
     }
   }

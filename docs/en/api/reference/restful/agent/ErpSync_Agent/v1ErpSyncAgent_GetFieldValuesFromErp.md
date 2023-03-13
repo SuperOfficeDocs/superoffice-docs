@@ -81,13 +81,13 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 850,
+  "ErpConnectionId": 857,
   "ActorTypeErp": "Customer",
-  "ErpKey": "deserunt"
+  "ErpKey": "quos"
 }
 ```
 
@@ -99,18 +99,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Fay Inc and Sons",
-    "CrmFieldKey": "placeat",
-    "Value": "sint",
-    "DisplayValue": "est",
+    "DisplayName": "Legros, Jewess and Becker",
+    "CrmFieldKey": "animi",
+    "Value": "et",
+    "DisplayValue": "quia",
     "SyncToCrm": false,
-    "SyncToErp": true,
+    "SyncToErp": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 250
+        "FieldType": "System.String",
+        "FieldLength": 410
       }
     }
   }

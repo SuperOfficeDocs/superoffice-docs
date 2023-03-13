@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Ritchie Inc and Sons",
-  "DeviceName": "Krajcik LLC"
+  "ApplicationName": "Anderson, Stiedemann and Kuphal",
+  "DeviceName": "Dibbert LLC"
 }
 ```
 
@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 924,
-  "Name": "Buckridge LLC",
-  "CreatedDate": "2009-11-21T14:19:03.5602728+01:00",
-  "UpdatedDate": "2008-02-24T14:19:03.5602728+01:00",
-  "AssociateFullName": "Dr. Beatrice Robel",
-  "CreatedBy": "voluptates",
-  "UpdatedBy": "voluptas",
-  "DeviceIdentifier": "perspiciatis",
-  "ForeignAppId": 150,
+  "ForeignDeviceId": 850,
+  "Name": "Roberts-Little",
+  "CreatedDate": "1998-05-20T12:15:19.1517506+02:00",
+  "UpdatedDate": "2014-07-21T12:15:19.1517506+02:00",
+  "AssociateFullName": "Roberto Hamill",
+  "CreatedBy": "eaque",
+  "UpdatedBy": "dolorem",
+  "DeviceIdentifier": "ipsum",
+  "ForeignAppId": 676,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 343
+      "FieldType": "System.String",
+      "FieldLength": 787
     }
   }
 }

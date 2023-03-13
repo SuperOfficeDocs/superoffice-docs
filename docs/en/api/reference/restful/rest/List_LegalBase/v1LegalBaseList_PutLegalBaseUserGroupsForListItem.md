@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 944,
-    "Name": "Conroy LLC",
-    "ToolTip": "Doloribus inventore.",
-    "Deleted": false,
-    "Rank": 690,
-    "Type": "alias",
-    "ColorBlock": 569,
-    "IconHint": "id",
+    "Id": 366,
+    "Name": "Lang-Ziemann",
+    "ToolTip": "Hic et a.",
+    "Deleted": true,
+    "Rank": 655,
+    "Type": "est",
+    "ColorBlock": 769,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2004-06-06T14:19:11.2730964+02:00",
+    "LastChanged": "2002-07-01T12:15:28.1706187+02:00",
     "ChildItems": [
       {
-        "Id": 716,
-        "Name": "Crist-Runolfsdottir",
-        "ToolTip": "Optio quas non velit ut sapiente.",
-        "Deleted": true,
-        "Rank": 811,
-        "Type": "quam",
-        "ColorBlock": 336,
-        "IconHint": "doloribus",
+        "Id": 499,
+        "Name": "Goldner Inc and Sons",
+        "ToolTip": "Commodi ipsa iure.",
+        "Deleted": false,
+        "Rank": 870,
+        "Type": "quae",
+        "ColorBlock": 12,
+        "IconHint": "totam",
         "Selected": false,
-        "LastChanged": "1997-04-19T14:19:11.2730964+02:00",
+        "LastChanged": "2014-02-24T12:15:28.1706187+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "adipisci",
-        "Hidden": true,
-        "FullName": "Ewald Stracke"
+        "ExtraInfo": "veniam",
+        "StyleHint": "eos",
+        "Hidden": false,
+        "FullName": "Allan Raynor"
       }
     ],
-    "ExtraInfo": "debitis",
-    "StyleHint": "et",
+    "ExtraInfo": "enim",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Anahi Waters"
+    "FullName": "Miss Coy Berge PhD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 693,
-    "Name": "Quitzon, Halvorson and Fay",
-    "ToolTip": "Autem aut ad.",
-    "Deleted": true,
-    "Rank": 131,
-    "Type": "commodi",
-    "ColorBlock": 70,
-    "IconHint": "magni",
-    "Selected": false,
-    "LastChanged": "2000-11-26T14:19:11.2730964+01:00",
+    "Id": 48,
+    "Name": "Swaniawski Group",
+    "ToolTip": "Esse deserunt soluta.",
+    "Deleted": false,
+    "Rank": 612,
+    "Type": "maiores",
+    "ColorBlock": 768,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2017-05-08T12:15:28.1716176+02:00",
     "ChildItems": [
       {
-        "Id": 740,
-        "Name": "Jewess Group",
-        "ToolTip": "Adipisci dolorem et dolorem non et.",
-        "Deleted": true,
-        "Rank": 466,
-        "Type": "et",
-        "ColorBlock": 328,
-        "IconHint": "dolores",
+        "Id": 752,
+        "Name": "Lindgren LLC",
+        "ToolTip": "Quia eum harum.",
+        "Deleted": false,
+        "Rank": 303,
+        "Type": "at",
+        "ColorBlock": 837,
+        "IconHint": "perspiciatis",
         "Selected": false,
-        "LastChanged": "2013-05-02T14:19:11.2730964+02:00",
+        "LastChanged": "2005-12-15T12:15:28.1716176+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "enim",
+        "ExtraInfo": "magni",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Giles Grant",
+        "FullName": "Dr. Skye Sadie Block",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 995
+            "FieldLength": 902
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "voluptates",
-    "Hidden": false,
-    "FullName": "Adele DuBuque",
+    "ExtraInfo": "sunt",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Judy Kuphal",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 4
+        "FieldType": "System.String",
+        "FieldLength": 745
       }
     }
   }

@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Rolfson Group",
-  "GroupId": 961
+  "UdListDefinitionName": "Jerde LLC",
+  "GroupId": 291
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 650,
-    "Name": "Reichert Inc and Sons",
-    "ToolTip": "Et culpa est velit quae blanditiis consectetur corporis.",
-    "Deleted": false,
-    "Rank": 824,
-    "Type": "quia",
-    "ColorBlock": 151,
-    "IconHint": "voluptatem",
+    "Id": 380,
+    "Name": "White, Schaden and Blanda",
+    "ToolTip": "Beatae sint aut a.",
+    "Deleted": true,
+    "Rank": 345,
+    "Type": "ex",
+    "ColorBlock": 311,
+    "IconHint": "distinctio",
     "Selected": false,
-    "LastChanged": "2015-04-18T14:19:03.6238736+02:00",
+    "LastChanged": "2011-04-14T12:15:19.2567514+02:00",
     "ChildItems": [
       {
-        "Id": 957,
-        "Name": "Runolfsdottir, Greenholt and Gleichner",
-        "ToolTip": "Qui eos ducimus enim ratione facere dolore et.",
+        "Id": 602,
+        "Name": "Adams LLC",
+        "ToolTip": "Aspernatur molestias perferendis ut.",
         "Deleted": false,
-        "Rank": 372,
-        "Type": "tempore",
-        "ColorBlock": 839,
-        "IconHint": "laboriosam",
-        "Selected": true,
-        "LastChanged": "2004-12-13T14:19:03.6238736+01:00",
+        "Rank": 376,
+        "Type": "rerum",
+        "ColorBlock": 487,
+        "IconHint": "ipsam",
+        "Selected": false,
+        "LastChanged": "2011-09-21T12:15:19.2567514+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "a",
+        "ExtraInfo": "ex",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Winona Murray",
+        "FullName": "Antwan Stracke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 359
+            "FieldLength": 695
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "unde",
+    "ExtraInfo": "vel",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Elvis Grady",
+    "FullName": "Anna Ebert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 90
+        "FieldType": "System.Int32",
+        "FieldLength": 567
       }
     }
   }

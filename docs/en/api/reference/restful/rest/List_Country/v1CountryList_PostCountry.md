@@ -98,28 +98,28 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 610,
-  "Name": "Bartoletti LLC",
-  "CurrencyId": 360,
-  "EnglishName": "Hahn Group",
+  "CountryId": 231,
+  "Name": "Williamson Group",
+  "CurrencyId": 370,
+  "EnglishName": "Predovic-Macejkovic",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Team-oriented tangible process improvement",
-  "OrgNrText": "851156",
-  "InterAreaPrefix": "sint",
-  "DialInPrefix": "rem",
-  "ZipPrefix": "recusandae",
-  "DomainName": "Lebsack Inc and Sons",
-  "AddressLayoutId": 583,
-  "DomesticAddressLayoutId": 210,
-  "ForeignAddressLayoutId": 476,
-  "Rank": 691,
-  "Tooltip": "eius",
-  "Deleted": true
+  "ImageDescription": "Expanded mission-critical complexity",
+  "OrgNrText": "1212689",
+  "InterAreaPrefix": "praesentium",
+  "DialInPrefix": "et",
+  "ZipPrefix": "occaecati",
+  "DomainName": "Kuphal Group",
+  "AddressLayoutId": 783,
+  "DomesticAddressLayoutId": 974,
+  "ForeignAddressLayoutId": 35,
+  "Rank": 626,
+  "Tooltip": "sit",
+  "Deleted": false
 }
 ```
 
@@ -130,30 +130,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 424,
-  "Name": "Smith Group",
-  "CurrencyId": 680,
-  "EnglishName": "Kertzmann-Huel",
+  "CountryId": 635,
+  "Name": "Waelchi Inc and Sons",
+  "CurrencyId": 969,
+  "EnglishName": "Ratke, Crooks and Carroll",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Face to face optimal application",
-  "OrgNrText": "1097123",
-  "InterAreaPrefix": "ipsam",
-  "DialInPrefix": "iure",
-  "ZipPrefix": "consequatur",
-  "DomainName": "Herzog-Douglas",
-  "AddressLayoutId": 15,
-  "DomesticAddressLayoutId": 952,
-  "ForeignAddressLayoutId": 102,
-  "Rank": 239,
-  "Tooltip": "et",
+  "ImageDescription": "Digitized value-added contingency",
+  "OrgNrText": "666580",
+  "InterAreaPrefix": "molestiae",
+  "DialInPrefix": "et",
+  "ZipPrefix": "et",
+  "DomainName": "Powlowski, Goldner and Schultz",
+  "AddressLayoutId": 39,
+  "DomesticAddressLayoutId": 815,
+  "ForeignAddressLayoutId": 737,
+  "Rank": 392,
+  "Tooltip": "suscipit",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 402
+      "FieldType": "System.String",
+      "FieldLength": 82
     }
   }
 }

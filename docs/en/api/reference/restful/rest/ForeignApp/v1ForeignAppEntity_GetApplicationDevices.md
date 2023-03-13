@@ -66,7 +66,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,25 +74,25 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 29 Nov 2000 14:19:10 G11T
+Last-Modified: Sat, 16 Sep 2006 12:15:26 G9T
 
 [
   {
-    "ForeignDeviceId": 191,
-    "Name": "Harvey-Braun",
-    "CreatedDate": "2010-02-02T14:19:10.3498478+01:00",
-    "UpdatedDate": "2000-11-29T14:19:10.3498478+01:00",
-    "AssociateFullName": "Bryce Wayne Deckow MD",
-    "CreatedBy": "aspernatur",
-    "UpdatedBy": "sunt",
-    "DeviceIdentifier": "sit",
-    "ForeignAppId": 40,
+    "ForeignDeviceId": 605,
+    "Name": "Bosco Inc and Sons",
+    "CreatedDate": "1996-03-02T12:15:26.9716351+01:00",
+    "UpdatedDate": "2006-09-16T12:15:26.9716351+02:00",
+    "AssociateFullName": "Dr. Sallie Ferry DVM",
+    "CreatedBy": "reprehenderit",
+    "UpdatedBy": "nemo",
+    "DeviceIdentifier": "ut",
+    "ForeignAppId": 541,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 420
+        "FieldLength": 628
       }
     }
   }

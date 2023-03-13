@@ -81,24 +81,24 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "totam",
-  "ProviderName": "Wehner LLC",
-  "StorageKey": "sit",
+  "StorageType": "ducimus",
+  "ProviderName": "Collins-Kilback",
+  "StorageKey": "quae",
   "Restrictions": [
     {
-      "Name": "Balistreri-Mertz",
-      "Operator": "architecto",
+      "Name": "Fisher-Harris",
+      "Operator": "laboriosam",
       "Values": [
-        "cumque",
-        "dolorem"
+        "ducimus",
+        "saepe"
       ],
       "DisplayValues": [
-        "vitae",
-        "voluptatem"
+        "omnis",
+        "est"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -106,14 +106,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 457,
+      "InterParenthesis": 711,
       "InterOperator": "And",
-      "UniqueHash": 563
+      "UniqueHash": 717
     }
   ],
   "StaticColumns": [
-    "quidem",
-    "voluptas"
+    "odit",
+    "corrupti"
   ]
 }
 ```
@@ -127,81 +127,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "O'Kon LLC",
-      "Operator": "est",
+      "Name": "Shields, Pfeffer and Sawayn",
+      "Operator": "dolorem",
       "Values": [
-        "delectus",
-        "et"
+        "cupiditate",
+        "quo"
       ],
       "DisplayValues": [
-        "tenetur",
-        "soluta"
+        "id",
+        "rerum"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 825,
+      "InterParenthesis": 223,
       "InterOperator": "And",
-      "UniqueHash": 774
+      "UniqueHash": 597
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Muller, Rath and Rath",
-      "DisplayTooltip": "eum",
-      "DisplayType": "ut",
+      "DisplayName": "Brekke, Jacobs and Tromp",
+      "DisplayTooltip": "qui",
+      "DisplayType": "debitis",
       "CanOrderBy": false,
-      "Name": "Pagac-Rogahn",
+      "Name": "Roberts, Kutch and Stoltenberg",
       "CanRestrictBy": false,
-      "RestrictionType": "rerum",
-      "RestrictionListName": "Witting Inc and Sons",
-      "IsVisible": true,
-      "ExtraInfo": "eos",
-      "Width": "asperiores",
-      "IconHint": "ex",
-      "HeadingIconHint": "vitae"
+      "RestrictionType": "qui",
+      "RestrictionListName": "Boyer Inc and Sons",
+      "IsVisible": false,
+      "ExtraInfo": "libero",
+      "Width": "odio",
+      "IconHint": "sit",
+      "HeadingIconHint": "quia"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Sanford, Leannon and Ferry",
-      "PrimaryKey": 813,
+      "EntityName": "Roberts-King",
+      "PrimaryKey": 819,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "distinctio",
-          "TooltipHint": "magni",
-          "LinkHint": "sed"
+          "DisplayValue": "tempore",
+          "TooltipHint": "sunt",
+          "LinkHint": "dolorum"
         }
       },
-      "LinkHint": "animi",
-      "StyleHint": "laudantium",
+      "LinkHint": "magnam",
+      "StyleHint": "perspiciatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 285
+          "FieldLength": 790
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Walsh LLC",
-      "Description": "Configurable next generation application",
-      "Rank": 318,
+      "Name": "Jacobs, Grant and Gaylord",
+      "Description": "Customer-focused clear-thinking array",
+      "Rank": 103,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Walsh LLC",
-      "Description": "Configurable next generation application",
-      "Rank": 318,
+      "Name": "Jacobs, Grant and Gaylord",
+      "Description": "Customer-focused clear-thinking array",
+      "Rank": 103,
       "Restrictions": [
         {},
         {}
@@ -213,7 +213,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldLength": 908
     }
   }
 }

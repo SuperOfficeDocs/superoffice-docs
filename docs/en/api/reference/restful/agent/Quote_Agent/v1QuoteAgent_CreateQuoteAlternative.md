@@ -100,9 +100,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 653,
-  "QuoteAlternativeName": "Wilkinson LLC",
-  "QuoteAlternativeDescription": "Reactive multi-tasking challenge"
+  "QuoteVersionId": 13,
+  "QuoteAlternativeName": "Mante-Barton",
+  "QuoteAlternativeDescription": "Decentralized attitude-oriented structure"
 }
 ```
 
@@ -113,35 +113,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 936,
-  "ERPQuoteAlternativeKey": "voluptate",
-  "QuoteVersionId": 82,
-  "Name": "Stoltenberg-Corkery",
-  "Description": "Customizable solution-oriented architecture",
+  "QuoteAlternativeId": 754,
+  "ERPQuoteAlternativeKey": "odit",
+  "QuoteVersionId": 871,
+  "Name": "Leffler-Bahringer",
+  "Description": "Integrated bottom-line hierarchy",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 20747.079999999998,
-  "ERPDiscountAmount": 15948.926,
-  "DiscountPercent": 1748.772,
-  "DiscountAmount": 4879.638,
+  "ERPDiscountPercent": 19223.956,
+  "ERPDiscountAmount": 13419.788,
+  "DiscountPercent": 25933.85,
+  "DiscountAmount": 22881.334,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "dolor",
-  "VAT": 7474.59,
-  "EarningPercent": 28184.061999999998,
-  "EarningAmount": 1353.888,
-  "SubTotal": 7499.6619999999994,
-  "TotalPrice": 26081.147999999997,
-  "ExtraField1": "quasi",
-  "ExtraField2": "sunt",
-  "ExtraField3": "ipsam",
-  "ExtraField4": "et",
-  "ExtraField5": "harum",
+  "VATInfo": "quod",
+  "VAT": 14999.323999999999,
+  "EarningPercent": 13961.97,
+  "EarningAmount": 20690.667999999998,
+  "SubTotal": 30252.502,
+  "TotalPrice": 7562.342,
+  "ExtraField1": "sint",
+  "ExtraField2": "magnam",
+  "ExtraField3": "numquam",
+  "ExtraField4": "eligendi",
+  "ExtraField5": "quidem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 99
+      "FieldLength": 900
     }
   }
 }

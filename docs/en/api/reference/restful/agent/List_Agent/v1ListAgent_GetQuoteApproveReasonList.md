@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetQuoteApproveReasonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 9,
-    "Value": "accusantium",
-    "Tooltip": "error",
+    "Id": 562,
+    "Value": "animi",
+    "Tooltip": "occaecati",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 874
+        "FieldLength": 818
       }
     }
   },
   {
-    "Id": 9,
-    "Value": "accusantium",
-    "Tooltip": "error",
+    "Id": 562,
+    "Value": "animi",
+    "Tooltip": "occaecati",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 874
+        "FieldLength": 818
       }
     }
   }

@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Fahey, Kiehn and Botsford",
-  "PersonId": 629
+  "ParameterName": "Gorczany Group",
+  "PersonId": 435
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 421,
-  "Name": "Lesch-Baumbach",
-  "Value": "placeat",
-  "CreatedDate": "1996-02-17T14:19:02.7594283+01:00",
-  "UpdatedDate": "2015-04-13T14:19:02.7594283+02:00",
-  "CreatedBy": "ut",
-  "UpdatedBy": "ad",
+  "AudienceLayoutId": 905,
+  "Name": "Kirlin LLC",
+  "Value": "voluptas",
+  "CreatedDate": "2022-03-16T12:15:18.1907665+01:00",
+  "UpdatedDate": "2000-08-31T12:15:18.1907665+02:00",
+  "CreatedBy": "ducimus",
+  "UpdatedBy": "molestias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 586
+      "FieldType": "System.String",
+      "FieldLength": 182
     }
   }
 }

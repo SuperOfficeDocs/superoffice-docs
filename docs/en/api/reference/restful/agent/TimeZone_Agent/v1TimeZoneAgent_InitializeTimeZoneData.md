@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,31 +79,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 931,
-    "Name": "Kshlerin-Feeney",
-    "TZLocationCode": "et",
-    "TZLocationCities": "accusamus",
-    "IsoNumber": 524,
+    "TZLocationID": 277,
+    "Name": "Treutel-Schinner",
+    "TZLocationCode": "repellat",
+    "TZLocationCities": "corrupti",
+    "IsoNumber": 186,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 718,
-        "StartMonth": 373,
-        "EndDay": 224,
-        "EndMonth": 333,
-        "TZOffset": 492,
-        "StartRulePattern": "odio",
-        "EndRulePattern": "rerum"
+        "StartDay": 699,
+        "StartMonth": 792,
+        "EndDay": 325,
+        "EndMonth": 8,
+        "TZOffset": 279,
+        "StartRulePattern": "qui",
+        "EndRulePattern": "est"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 374,
-        "StartMonth": 963,
-        "EndDay": 811,
-        "EndMonth": 939,
-        "TZOffset": 192,
-        "StartRulePattern": "vero",
-        "EndRulePattern": "voluptatem"
+        "StartDay": 212,
+        "StartMonth": 909,
+        "EndDay": 784,
+        "EndMonth": 636,
+        "TZOffset": 79,
+        "StartRulePattern": "rerum",
+        "EndRulePattern": "sint"
       }
     }
   }

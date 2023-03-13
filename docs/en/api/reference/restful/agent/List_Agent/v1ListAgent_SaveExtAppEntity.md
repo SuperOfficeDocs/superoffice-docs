@@ -104,18 +104,18 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 795,
-  "Name": "Yost-Funk",
-  "Tooltip": "non",
+  "ExtAppId": 83,
+  "Name": "Lueilwitz, Hegmann and Becker",
+  "Tooltip": "iusto",
   "Deleted": false,
-  "Rank": 999,
-  "Filename": "sunt",
-  "Parameters": "id",
-  "Workdir": "minima",
+  "Rank": 966,
+  "Filename": "quaerat",
+  "Parameters": "ullam",
+  "Workdir": "odio",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
@@ -126,10 +126,10 @@ Content-Type: application/json; charset=utf-8
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 82,
+  "Icon": 801,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "voluptas"
+  "Path": "iusto"
 }
 ```
 
@@ -140,14 +140,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 480,
-  "Name": "Dach, Rutherford and Sauer",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 606,
-  "Filename": "sunt",
-  "Parameters": "excepturi",
-  "Workdir": "dolorem",
+  "ExtAppId": 229,
+  "Name": "Howell-Boehm",
+  "Tooltip": "sed",
+  "Deleted": false,
+  "Rank": 596,
+  "Filename": "molestias",
+  "Parameters": "ea",
+  "Workdir": "sed",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
@@ -157,17 +157,17 @@ Content-Type: application/json; charset=utf-8
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "Icon": 326,
+  "ShowInStatusBar": false,
+  "Icon": 605,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "minus",
+  "Path": "consequuntur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 358
+      "FieldLength": 563
     }
   }
 }

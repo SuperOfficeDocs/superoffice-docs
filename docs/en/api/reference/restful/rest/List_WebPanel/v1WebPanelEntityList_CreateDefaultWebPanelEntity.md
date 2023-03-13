@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,33 +84,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 792,
-  "Name": "Dibbert, Tremblay and Bosco",
-  "Tooltip": "commodi",
-  "Deleted": true,
-  "Rank": 962,
+  "WebPanelId": 798,
+  "Name": "Crona-Runolfsdottir",
+  "Tooltip": "accusantium",
+  "Deleted": false,
+  "Rank": 447,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Emmerich-Doyle",
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Grimes, Bednar and Treutel",
   "Url": "http://www.example.com/",
-  "ProgId": "magnam",
-  "Icon": 354,
+  "ProgId": "qui",
+  "Icon": 831,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 62
+      "FieldLength": 31
     }
   }
 }

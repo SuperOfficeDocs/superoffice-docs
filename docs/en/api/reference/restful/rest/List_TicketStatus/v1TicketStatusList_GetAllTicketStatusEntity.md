@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,8 +73,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 880,
-    "Name": "Altenwerth Group",
+    "TicketStatusId": 461,
+    "Name": "Yundt, Beatty and Marks",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": false,
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 979
+        "FieldLength": 807
       }
     }
   }

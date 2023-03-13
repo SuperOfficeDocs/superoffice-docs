@@ -86,18 +86,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "reiciendis",
-  "ProviderName": "Toy, Nader and Walter",
-  "StorageKey": "mollitia",
+  "StorageType": "et",
+  "ProviderName": "Welch, Walsh and Gerlach",
+  "StorageKey": "ut",
   "DesiredColumnNames": [
-    "Mayert, Cummings and Marks",
-    "Abernathy Group"
+    "Feeney, Hayes and Schumm",
+    "Bauch, Koelpin and Bogan"
   ],
   "StaticColumns": [
-    "qui",
-    "totam"
+    "sit",
+    "asperiores"
   ],
-  "Context": "numquam"
+  "Context": "ut"
 }
 ```
 
@@ -110,81 +110,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Moen LLC",
-      "Operator": "ipsum",
+      "Name": "Spencer Group",
+      "Operator": "quo",
       "Values": [
-        "voluptatum",
-        "ducimus"
+        "molestiae",
+        "aut"
       ],
       "DisplayValues": [
-        "praesentium",
-        "fugiat"
+        "repudiandae",
+        "repellat"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 356,
+      "InterParenthesis": 625,
       "InterOperator": "And",
-      "UniqueHash": 406
+      "UniqueHash": 512
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Marquardt, Beer and Abbott",
-      "DisplayTooltip": "iste",
-      "DisplayType": "facilis",
+      "DisplayName": "Casper LLC",
+      "DisplayTooltip": "ad",
+      "DisplayType": "cupiditate",
       "CanOrderBy": false,
-      "Name": "Greenholt LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "sit",
-      "RestrictionListName": "Fahey, Weissnat and Wisoky",
+      "Name": "Green-Hoeger",
+      "CanRestrictBy": false,
+      "RestrictionType": "qui",
+      "RestrictionListName": "Wolff Group",
       "IsVisible": false,
-      "ExtraInfo": "debitis",
-      "Width": "maiores",
-      "IconHint": "eligendi",
-      "HeadingIconHint": "repudiandae"
+      "ExtraInfo": "officia",
+      "Width": "et",
+      "IconHint": "porro",
+      "HeadingIconHint": "repellendus"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Dicki, Windler and Barton",
-      "PrimaryKey": 391,
+      "EntityName": "Tremblay Inc and Sons",
+      "PrimaryKey": 994,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "inventore",
-          "TooltipHint": "aliquam",
-          "LinkHint": "atque"
+          "DisplayValue": "dolores",
+          "TooltipHint": "ut",
+          "LinkHint": "quos"
         }
       },
-      "LinkHint": "aliquam",
-      "StyleHint": "sed",
+      "LinkHint": "enim",
+      "StyleHint": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 167
+          "FieldLength": 341
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "O'Keefe LLC",
-      "Description": "Customizable reciprocal collaboration",
-      "Rank": 482,
+      "Name": "Hessel LLC",
+      "Description": "Distributed motivating Graphic Interface",
+      "Rank": 171,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "O'Keefe LLC",
-      "Description": "Customizable reciprocal collaboration",
-      "Rank": 482,
+      "Name": "Hessel LLC",
+      "Description": "Distributed motivating Graphic Interface",
+      "Rank": 171,
       "Restrictions": [
         {},
         {}
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 822
+      "FieldType": "System.String",
+      "FieldLength": 345
     }
   }
 }

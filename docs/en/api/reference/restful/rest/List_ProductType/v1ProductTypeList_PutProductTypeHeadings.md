@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 326,
-    "Name": "Bosco-Bayer",
-    "Tooltip": "eaque",
+    "HeadingId": 104,
+    "Name": "Corwin-Gerlach",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 318,
-    "UdListDefinitionId": 244
+    "Rank": 275,
+    "UdListDefinitionId": 954
   },
   {
-    "HeadingId": 326,
-    "Name": "Bosco-Bayer",
-    "Tooltip": "eaque",
+    "HeadingId": 104,
+    "Name": "Corwin-Gerlach",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 318,
-    "UdListDefinitionId": 244
+    "Rank": 275,
+    "UdListDefinitionId": 954
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 604,
-    "Name": "Mosciski, Mitchell and Goldner",
-    "Tooltip": "delectus",
+    "HeadingId": 246,
+    "Name": "Rohan, Herman and Cassin",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 49,
-    "UdListDefinitionId": 211,
+    "Rank": 945,
+    "UdListDefinitionId": 735,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 335
+        "FieldType": "System.Int32",
+        "FieldLength": 516
       }
     }
   }

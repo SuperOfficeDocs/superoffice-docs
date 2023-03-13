@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "Roberts LLC",
-    "ToolTip": "Labore aperiam explicabo omnis praesentium quo voluptatibus.",
-    "Deleted": true,
-    "Rank": 461,
-    "Type": "doloremque",
-    "ColorBlock": 101,
-    "IconHint": "facere",
-    "Selected": true,
-    "LastChanged": "1995-12-30T14:19:11.3524087+01:00",
+    "Id": 740,
+    "Name": "Wiza, Hodkiewicz and Casper",
+    "ToolTip": "Voluptates nulla et.",
+    "Deleted": false,
+    "Rank": 451,
+    "Type": "explicabo",
+    "ColorBlock": 246,
+    "IconHint": "modi",
+    "Selected": false,
+    "LastChanged": "2006-03-03T12:15:28.2656167+01:00",
     "ChildItems": [
       {
-        "Id": 363,
-        "Name": "Rolfson, Hickle and Casper",
-        "ToolTip": "Dolorem molestias et dicta nisi corrupti.",
+        "Id": 162,
+        "Name": "Walter, Wyman and Nitzsche",
+        "ToolTip": "Nesciunt pariatur et sed.",
         "Deleted": false,
-        "Rank": 859,
-        "Type": "et",
-        "ColorBlock": 469,
-        "IconHint": "quisquam",
-        "Selected": true,
-        "LastChanged": "2000-01-21T14:19:11.3524087+01:00",
+        "Rank": 472,
+        "Type": "non",
+        "ColorBlock": 520,
+        "IconHint": "accusantium",
+        "Selected": false,
+        "LastChanged": "2008-02-07T12:15:28.2666167+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "illo",
+        "ExtraInfo": "delectus",
+        "StyleHint": "magnam",
         "Hidden": false,
-        "FullName": "Moshe Tillman"
+        "FullName": "Randi Emmerich"
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "assumenda",
+    "ExtraInfo": "dolores",
+    "StyleHint": "distinctio",
     "Hidden": false,
-    "FullName": "Camden Amari Lebsack V"
+    "FullName": "Jayda Muller"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 525,
-    "Name": "Wunsch Inc and Sons",
-    "ToolTip": "Sit similique id.",
+    "Id": 571,
+    "Name": "Jones, Langworth and Quitzon",
+    "ToolTip": "Id ut.",
     "Deleted": false,
-    "Rank": 279,
-    "Type": "in",
-    "ColorBlock": 167,
-    "IconHint": "molestiae",
+    "Rank": 608,
+    "Type": "veniam",
+    "ColorBlock": 219,
+    "IconHint": "eum",
     "Selected": true,
-    "LastChanged": "2015-04-22T14:19:11.3524087+02:00",
+    "LastChanged": "2011-10-02T12:15:28.2676167+02:00",
     "ChildItems": [
       {
-        "Id": 876,
-        "Name": "Tillman Inc and Sons",
-        "ToolTip": "Consectetur similique temporibus magni quo.",
+        "Id": 878,
+        "Name": "Leannon Inc and Sons",
+        "ToolTip": "Odio nesciunt.",
         "Deleted": true,
-        "Rank": 557,
-        "Type": "quo",
-        "ColorBlock": 495,
-        "IconHint": "dignissimos",
-        "Selected": false,
-        "LastChanged": "2012-11-15T14:19:11.3524087+01:00",
+        "Rank": 363,
+        "Type": "et",
+        "ColorBlock": 38,
+        "IconHint": "fuga",
+        "Selected": true,
+        "LastChanged": "2006-04-24T12:15:28.2676167+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "itaque",
-        "Hidden": false,
-        "FullName": "Dr. Freida Eda White",
+        "ExtraInfo": "natus",
+        "StyleHint": "molestiae",
+        "Hidden": true,
+        "FullName": "Twila Lynch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 362
+            "FieldLength": 808
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "quia",
-    "Hidden": false,
-    "FullName": "Mr. Anahi Braun IV",
+    "ExtraInfo": "eum",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Ethan Hamill",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 445
+        "FieldLength": 127
       }
     }
   }

@@ -82,9 +82,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "1996-12-18T14:19:02.4838092+01:00",
-  "EndDate": "2011-07-07T14:19:02.4838092+02:00",
-  "AssociateId": 773
+  "StartDate": "1996-05-03T12:15:17.6897703+02:00",
+  "EndDate": "1998-06-17T12:15:17.6897703+02:00",
+  "AssociateId": 155
 }
 ```
 
@@ -96,7 +96,7 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2019-11-24T14:19:02.4838092+01:00",
+    "Date": "1998-05-06T12:15:17.6897703+02:00",
     "RedLetterInformation": null,
     "RedLetterDetails": null,
     "TableRight": null,
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     }
   },
   {
-    "Date": "2019-11-24T14:19:02.4838092+01:00",
+    "Date": "1998-05-06T12:15:17.6897703+02:00",
     "RedLetterInformation": null,
     "RedLetterDetails": null,
     "TableRight": null,

@@ -85,7 +85,7 @@ DashboardTile found.
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,64 +95,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 539,
-  "Caption": "molestiae",
-  "Description": "Open-architected mission-critical protocol",
-  "ChartName": "Senger, Conn and Gutmann",
-  "ChartId": "ut",
-  "IsDefault": false,
-  "AssociateId": 700,
-  "GroupId": 465,
-  "SelectionId": 417,
-  "Config": "id",
+  "DashboardTileId": 20,
+  "Caption": "eos",
+  "Description": "Synchronised even-keeled solution",
+  "ChartName": "Rath-Hayes",
+  "ChartId": "voluptatem",
+  "IsDefault": true,
+  "AssociateId": 737,
+  "GroupId": 902,
+  "SelectionId": 989,
+  "Config": "nihil",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Barrows Inc and Sons",
-      "Description": "Sharable radical access",
+      "Name": "Walsh Group",
+      "Description": "Triple-buffered hybrid hierarchy",
       "Type": "Boolean",
-      "ListName": "Thiel-McDermott",
+      "ListName": "Breitenberg Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "totam",
+      "Value": "dolorum",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 654
+          "FieldLength": 895
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 118,
+      "VisibleId": 237,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 38
+          "FieldType": "System.String",
+          "FieldLength": 896
         }
       }
     },
     {
-      "VisibleId": 118,
+      "VisibleId": 237,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 38
+          "FieldType": "System.String",
+          "FieldLength": 896
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 149
+      "FieldLength": 417
     }
   },
   "_Links": {

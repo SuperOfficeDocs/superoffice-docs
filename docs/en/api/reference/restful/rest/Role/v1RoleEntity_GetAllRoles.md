@@ -77,7 +77,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,56 +88,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 966,
-    "Name": "Goldner Group",
-    "ToolTip": "Eveniet eum dolorem fugit.",
+    "Id": 464,
+    "Name": "Schimmel-Hamill",
+    "ToolTip": "Dolorum id.",
     "Deleted": false,
-    "Rank": 367,
-    "Type": "voluptatem",
-    "ColorBlock": 98,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2011-09-01T14:19:10.6467484+02:00",
+    "Rank": 481,
+    "Type": "corporis",
+    "ColorBlock": 927,
+    "IconHint": "molestias",
+    "Selected": false,
+    "LastChanged": "1998-10-14T12:15:27.2196332+02:00",
     "ChildItems": [
       {
-        "Id": 878,
-        "Name": "Kling-Wiegand",
-        "ToolTip": "Mollitia iure voluptate rerum.",
-        "Deleted": true,
-        "Rank": 93,
-        "Type": "soluta",
-        "ColorBlock": 411,
-        "IconHint": "culpa",
+        "Id": 166,
+        "Name": "Goodwin Group",
+        "ToolTip": "Mollitia itaque sit corrupti minus facilis.",
+        "Deleted": false,
+        "Rank": 163,
+        "Type": "eos",
+        "ColorBlock": 125,
+        "IconHint": "nemo",
         "Selected": false,
-        "LastChanged": "1997-06-05T14:19:10.6467484+02:00",
+        "LastChanged": "2013-09-19T12:15:27.2206321+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quaerat",
-        "StyleHint": "ex",
-        "Hidden": false,
-        "FullName": "Mrs. Eryn Tyrese Schinner",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "provident",
+        "Hidden": true,
+        "FullName": "Damien Terrence Schamberger DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 722
+            "FieldLength": 829
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "omnis",
-    "Hidden": false,
-    "FullName": "Daron Farrell Sr.",
+    "ExtraInfo": "modi",
+    "StyleHint": "sunt",
+    "Hidden": true,
+    "FullName": "Theron Jordy Tremblay II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 111
+        "FieldLength": 413
       }
     }
   }

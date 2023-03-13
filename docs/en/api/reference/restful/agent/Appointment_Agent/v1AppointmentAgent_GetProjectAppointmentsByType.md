@@ -126,14 +126,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 778,
-  "StartTime": "1997-02-16T14:19:02.7125533+01:00",
-  "EndTime": "1998-04-26T14:19:02.7125533+02:00",
-  "Count": 545,
+  "ProjectId": 441,
+  "StartTime": "2010-09-16T12:15:18.1367704+02:00",
+  "EndTime": "2017-06-05T12:15:18.1367704+02:00",
+  "Count": 999,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -146,61 +146,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 143,
-    "StartDate": "1999-07-17T14:19:02.7125533+02:00",
-    "EndDate": "2020-05-12T14:19:02.7125533+02:00",
+    "AppointmentId": 764,
+    "StartDate": "2013-02-24T12:15:18.1387637+01:00",
+    "EndDate": "1996-01-03T12:15:18.1387637+01:00",
     "Type": "BookingForChecklist",
-    "Task": "odio",
-    "AssociateFullName": "Augusta Torp",
-    "ContactName": "Jaskolski LLC",
-    "Description": "Up-sized directional implementation",
-    "PersonFullName": "Miss Lillie Moen",
-    "PersonId": 705,
-    "ContactId": 438,
-    "ProjectId": 580,
-    "ProjectName": "Carter Group",
-    "IsPublished": false,
-    "AssociateId": 733,
-    "ColorIndex": 257,
+    "Task": "tempora",
+    "AssociateFullName": "Mr. Zelda Corwin",
+    "ContactName": "Koch, Balistreri and Hane",
+    "Description": "Pre-emptive modular Graphic Interface",
+    "PersonFullName": "Ms. Claudine Ward DVM",
+    "PersonId": 554,
+    "ContactId": 279,
+    "ProjectId": 49,
+    "ProjectName": "Hills Group",
+    "IsPublished": true,
+    "AssociateId": 599,
+    "ColorIndex": 620,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 73,
-    "PriorityName": "Kuphal-Hickle",
+    "PriorityId": 157,
+    "PriorityName": "Turcotte LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2011-05-10T14:19:02.7125533+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2018-12-21T12:15:18.1387637+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-09-02T14:19:02.7125533+02:00",
-    "RecurringEndDate": "2003-04-04T14:19:02.7125533+02:00",
-    "MotherId": 749,
-    "AssignedBy": 729,
-    "AssignedByFullName": "Watson Swaniawski",
+    "RecurringStartDate": "2010-04-01T12:15:18.1387637+02:00",
+    "RecurringEndDate": "2009-09-29T12:15:18.1387637+02:00",
+    "MotherId": 661,
+    "AssignedBy": 793,
+    "AssignedByFullName": "Kelsie Lemke PhD",
     "RejectReason": "",
-    "Location": "facilis",
-    "AlarmLeadTime": "nobis",
-    "SaleId": 649,
-    "SaleName": "Bins Group",
-    "AssociateName": "Upton Group",
-    "CreatedDate": "2017-04-10T14:19:02.7125533+02:00",
-    "CreatedBy": "deleniti",
-    "CreatedByFullName": "Jamie Sipes",
-    "CreatedByAssociateId": 570,
+    "Location": "quod",
+    "AlarmLeadTime": "rerum",
+    "SaleId": 193,
+    "SaleName": "Beer-Hyatt",
+    "AssociateName": "Runolfsson, Auer and Kunde",
+    "CreatedDate": "1999-09-02T12:15:18.1387637+02:00",
+    "CreatedBy": "at",
+    "CreatedByFullName": "Juwan Sawayn Sr.",
+    "CreatedByAssociateId": 80,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 797
+        "FieldType": "System.String",
+        "FieldLength": 844
       }
     }
   }

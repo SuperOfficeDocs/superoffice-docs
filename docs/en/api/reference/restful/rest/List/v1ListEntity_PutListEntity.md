@@ -100,15 +100,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 711,
-  "Name": "McGlynn-Schuster",
-  "Tooltip": "iste",
+  "Id": 970,
+  "Name": "Kertzmann Inc and Sons",
+  "Tooltip": "provident",
   "Deleted": false,
-  "Rank": 560,
+  "Rank": 660,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "veritatis",
+  "ListType": "sapiente",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -120,27 +120,27 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 133,
-  "Name": "Hand, Gutmann and Connelly",
-  "Tooltip": "exercitationem",
+  "Id": 227,
+  "Name": "Grant, O'Hara and Runte",
+  "Tooltip": "porro",
   "Deleted": false,
-  "Rank": 773,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 309,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ipsum",
+  "ListType": "fugiat",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldLength": 880
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

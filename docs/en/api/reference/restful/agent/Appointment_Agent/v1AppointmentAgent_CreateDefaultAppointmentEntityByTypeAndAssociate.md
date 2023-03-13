@@ -127,12 +127,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 274
+  "AssociateId": 567
 }
 ```
 
@@ -147,122 +147,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2010-11-10T14:19:02.6344205+01:00",
-  "AppointmentId": 854,
-  "Description": "Total high-level collaboration",
-  "StartDate": "2005-07-28T14:19:02.6344205+02:00",
-  "EndDate": "2014-12-09T14:19:02.6344205+01:00",
+  "CreatedDate": "1997-06-07T12:15:17.8877672+02:00",
+  "AppointmentId": 282,
+  "Description": "Phased mobile secured line",
+  "StartDate": "2011-11-10T12:15:17.8877672+01:00",
+  "EndDate": "2000-11-07T12:15:17.8877672+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 325,
+  "MotherId": 324,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2010-02-28T14:19:02.6344205+01:00",
+  "UpdatedDate": "2001-08-30T12:15:17.8907672+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 353,
+  "ActiveLinks": 176,
   "Links": [
     {
-      "EntityName": "Hoppe Inc and Sons",
-      "Id": 372,
-      "Description": "Persevering bi-directional policy",
-      "ExtraInfo": "placeat",
-      "LinkId": 342,
+      "EntityName": "Douglas-Wolff",
+      "Id": 382,
+      "Description": "User-centric demand-driven instruction set",
+      "ExtraInfo": "necessitatibus",
+      "LinkId": 532,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 444
+          "FieldType": "System.Int32",
+          "FieldLength": 924
         }
       }
     }
   ],
-  "AlarmLeadTime": "odio",
+  "AlarmLeadTime": "praesentium",
   "HasAlarm": false,
-  "ColorIndex": 245,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "minus",
-  "LeadTime": "ipsum",
-  "Location": "at",
-  "RejectCounter": 313,
+  "ColorIndex": 422,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "rerum",
+  "LeadTime": "magni",
+  "Location": "et",
+  "RejectCounter": 754,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 574,
-      "PersonId": 987,
-      "ContactId": 539,
-      "EmailId": 547,
-      "SendEmail": false,
+      "AssociateId": 657,
+      "PersonId": 831,
+      "ContactId": 879,
+      "EmailId": 980,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 574,
-      "PersonId": 987,
-      "ContactId": 539,
-      "EmailId": 547,
-      "SendEmail": false,
+      "AssociateId": 657,
+      "PersonId": 831,
+      "ContactId": 879,
+      "EmailId": 980,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2015-05-25T14:19:02.6344205+02:00",
+  "ActiveDate": "1998-07-27T12:15:17.8907672+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 506,
+  "PreferredTZLocation": 701,
   "Sale": null,
-  "SuggestedAppointmentId": 464,
+  "SuggestedAppointmentId": 113,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quam",
+  "CentralserviceVideomeetId": "dolorum",
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Lenore Nicolas",
-    "SuperOffice:2": "Prof. Antone Hilma Boyle IV"
+    "SuperOffice:1": "Ms. Robin Quigley",
+    "SuperOffice:2": "Ignatius Kohler"
   },
   "ExtraFields": {
-    "ExtraFields1": "cupiditate",
-    "ExtraFields2": "repellendus"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "error"
   },
   "CustomFields": {
-    "CustomFields1": "neque",
-    "CustomFields2": "eaque"
+    "CustomFields1": "ea",
+    "CustomFields2": "esse"
   },
-  "PublishEventDate": "2021-05-20T14:19:02.6344205+02:00",
-  "PublishTo": "1998-04-03T14:19:02.6344205+02:00",
-  "PublishFrom": "2022-05-10T14:19:02.6344205+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2015-03-26T12:15:17.8927667+01:00",
+  "PublishTo": "2021-03-14T12:15:17.8927667+01:00",
+  "PublishFrom": "2014-10-20T12:15:17.8927667+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 565,
+      "VisibleId": 614,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 36
+          "FieldLength": 933
         }
       }
     },
     {
-      "VisibleId": 565,
+      "VisibleId": 614,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 36
+          "FieldLength": 933
         }
       }
     }
@@ -272,7 +272,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 552
+      "FieldLength": 369
     }
   }
 }

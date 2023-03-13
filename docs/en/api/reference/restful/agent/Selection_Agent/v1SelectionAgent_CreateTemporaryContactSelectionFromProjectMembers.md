@@ -116,7 +116,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 916
+  "ProjectId": 187
 }
 ```
 
@@ -127,70 +127,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Self-enabling discrete infrastructure",
-  "Postit": "aut",
+  "Description": "Distributed uniform focus group",
+  "Postit": "reiciendis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 272,
-  "IncludePerson": 594,
-  "MemberCount": 722,
-  "Name": "Boyle, Emmerich and Schneider",
-  "PostitTextId": 560,
-  "CreatedDate": "2020-07-17T14:19:04.1879797+02:00",
-  "SelectionId": 732,
-  "SoundEx": "amet",
-  "Source": 112,
-  "TextId": 444,
-  "UpdatedDate": "2009-11-25T14:19:04.1879797+01:00",
-  "UpdatedCount": 415,
-  "Visibility": 759,
+  "GroupIdx": 309,
+  "IncludePerson": 70,
+  "MemberCount": 466,
+  "Name": "Lubowitz, Jerde and Yundt",
+  "PostitTextId": 347,
+  "CreatedDate": "2004-09-28T12:15:20.1567341+02:00",
+  "SelectionId": 990,
+  "SoundEx": "qui",
+  "Source": 179,
+  "TextId": 439,
+  "UpdatedDate": "2004-02-15T12:15:20.1567341+01:00",
+  "UpdatedCount": 650,
+  "Visibility": 484,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 864,
-  "TargetTableName": "Runolfsson LLC",
+  "CompanyUnique": false,
+  "TargetTableNumber": 708,
+  "TargetTableName": "Bode Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 118,
-  "RightSelectionId": 442,
+  "LeftSelectionId": 257,
+  "RightSelectionId": 223,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Haag-Prosacco",
-  "ShadowProviderName": "Lakin Inc and Sons",
-  "ChartKey": "molestias",
-  "LastLoaded": "2009-09-24T14:19:04.1879797+02:00",
-  "LastLoadedBy": 45,
+  "MainProviderName": "Kiehn, Hamill and Schaefer",
+  "ShadowProviderName": "Murray-Runte",
+  "ChartKey": "omnis",
+  "LastLoaded": "2019-09-26T12:15:20.1567341+02:00",
+  "LastLoadedBy": 348,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2018-03-10T14:19:04.1879797+01:00",
-  "LastMembershipChangeBy": 979,
+  "LastMembershipChange": "2014-08-22T12:15:20.1577381+02:00",
+  "LastMembershipChangeBy": 332,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quo",
-  "MemberTabHeading": "aut",
-  "MailingsProviderName": "Stracke LLC",
-  "DashboardTileDefinitionId": 676,
+  "MainHeading": "et",
+  "MemberTabHeading": "architecto",
+  "MailingsProviderName": "Kihn-Swift",
+  "DashboardTileDefinitionId": 645,
   "VisibleFor": [
     {
-      "VisibleId": 171,
+      "VisibleId": 24,
       "Visibility": "All",
-      "DisplayValue": "tenetur",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 844
+          "FieldType": "System.Int32",
+          "FieldLength": 321
         }
       }
     },
     {
-      "VisibleId": 171,
+      "VisibleId": 24,
       "Visibility": "All",
-      "DisplayValue": "tenetur",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 844
+          "FieldType": "System.Int32",
+          "FieldLength": 321
         }
       }
     }
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 605
+      "FieldLength": 490
     }
   }
 }

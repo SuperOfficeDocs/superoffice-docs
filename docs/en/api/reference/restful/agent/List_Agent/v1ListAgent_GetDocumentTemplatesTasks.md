@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 3,
-    "Value": "facilis",
-    "Tooltip": "nihil",
+    "Id": 459,
+    "Value": "repellat",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 603
+        "FieldLength": 87
       }
     }
   },
   {
-    "Id": 3,
-    "Value": "facilis",
-    "Tooltip": "nihil",
+    "Id": 459,
+    "Value": "repellat",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 603
+        "FieldLength": 87
       }
     }
   }

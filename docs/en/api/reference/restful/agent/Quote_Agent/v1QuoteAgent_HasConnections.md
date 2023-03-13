@@ -80,17 +80,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "voluptatum",
-  "TechExplanation": "provident",
-  "ErrorCode": "sit",
+  "UserExplanation": "sapiente",
+  "TechExplanation": "velit",
+  "ErrorCode": "harum",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 506
+      "FieldType": "System.Int32",
+      "FieldLength": 247
     }
   }
 }

@@ -110,34 +110,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 3,
-  "Name": "Bins-Shields",
-  "Tooltip": "dolorem",
-  "SaveInDb": 577,
-  "Filename": "fugit",
-  "DefaultOref": "quibusdam",
+  "DocumentTemplateId": 967,
+  "Name": "Oberbrunner-Champlin",
+  "Tooltip": "dolor",
+  "SaveInDb": 290,
+  "Filename": "omnis",
+  "DefaultOref": "temporibus",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 436,
-  "IntentId": 827,
+  "AutoeventId": 371,
+  "IntentId": 526,
   "IsDefaultPublished": false,
-  "Rank": 572,
-  "LoadTemplateFromPlugin": 880,
-  "MimeType": "ipsa",
+  "Rank": 604,
+  "LoadTemplateFromPlugin": 974,
+  "MimeType": "dolores",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 106,
+  "DocumentTypeKey": 373,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "abdullah_pouros@veumharris.name",
+  "EmailSubject": "griffin_maggio@greenmcglynn.biz",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "corbin_feest@fisherherzog.com",
+  "SenderEmailAddress": "dorthy_walker@pouros.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -149,37 +149,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 959,
-  "Name": "Mayert LLC",
+  "DocumentTemplateId": 615,
+  "Name": "Grady, Walsh and Goodwin",
   "Tooltip": "dolorem",
-  "SaveInDb": 595,
-  "Filename": "perspiciatis",
-  "DefaultOref": "molestiae",
+  "SaveInDb": 420,
+  "Filename": "provident",
+  "DefaultOref": "distinctio",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 883,
-  "IntentId": 277,
-  "IsDefaultPublished": false,
-  "Rank": 120,
-  "LoadTemplateFromPlugin": 455,
-  "MimeType": "qui",
+  "AutoeventId": 684,
+  "IntentId": 763,
+  "IsDefaultPublished": true,
+  "Rank": 380,
+  "LoadTemplateFromPlugin": 378,
+  "MimeType": "voluptatem",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 119,
+  "DocumentTypeKey": 980,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "madisyn@emmerich.biz",
+  "EmailSubject": "watson@stokes.com",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "myra@mcglynnpfeffer.com",
+  "SenderEmailAddress": "assunta_nolan@baumbach.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 47
+      "FieldType": "System.Int32",
+      "FieldLength": 824
     }
   }
 }

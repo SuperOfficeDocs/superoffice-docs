@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 403,
-  "UdListDefinitionId": 716
+  "Id": 238,
+  "UdListDefinitionId": 38
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 693,
-  "Name": "Lehner Group",
-  "Tooltip": "eaque",
+  "Id": 26,
+  "Name": "Kiehn-Brown",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 756,
-  "Rank": 430,
+  "UdListDefinitionId": 716,
+  "Rank": 819,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 71
+      "FieldType": "System.String",
+      "FieldLength": 722
     }
   }
 }

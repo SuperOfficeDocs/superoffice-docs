@@ -73,7 +73,7 @@ OK
 GET /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,22 +84,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 737,
-    "Name": "Brekke-Stoltenberg",
-    "Tooltip": "autem",
+    "Id": 549,
+    "Name": "Powlowski Inc and Sons",
+    "Tooltip": "iste",
     "Deleted": true,
-    "Rank": 558,
-    "IsCustomList": false,
+    "Rank": 947,
+    "IsCustomList": true,
     "IsMDOList": false,
-    "UseGroupsAndHeadings": true,
-    "ListType": "reiciendis",
+    "UseGroupsAndHeadings": false,
+    "ListType": "ullam",
     "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 669
+        "FieldType": "System.Int32",
+        "FieldLength": 421
       }
     }
   }

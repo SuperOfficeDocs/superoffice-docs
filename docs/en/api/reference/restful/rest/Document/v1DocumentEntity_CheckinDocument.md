@@ -31,8 +31,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Up-sized transitional Graphical User Interface
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=sint,sunt
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Upgradable discrete internet solution
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=expedita,et
 ```
 
 
@@ -85,11 +85,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "molestiae",
-  "VersionId": "earum",
-  "Success": true,
+  "ExternalReference": "omnis",
+  "VersionId": "ut",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "laboriosam",
-  "AdditionalInfo": "error"
+  "Value": "eius",
+  "AdditionalInfo": "odio"
 }
 ```

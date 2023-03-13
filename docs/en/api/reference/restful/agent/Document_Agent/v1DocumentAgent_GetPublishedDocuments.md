@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    901,
-    609
+    926,
+    271
   ]
 }
 ```
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 55,
-    "Attention": "consequatur",
-    "Header": "dolorem",
-    "Name": "Hermiston, Goyette and Franecki",
-    "OurRef": "ut",
-    "YourRef": "est",
-    "Description": "Self-enabling assymetric model",
-    "DocumentTemplate": "magni",
-    "IsPublished": false,
-    "PersonId": 231,
-    "PersonFullName": "Sandrine Will",
-    "AssociateFullName": "Sofia Abernathy",
-    "ContactId": 966,
-    "ContactName": "O'Hara LLC",
-    "ProjectId": 896,
-    "ProjectName": "Bashirian LLC",
-    "AssociateId": 850,
-    "Snum": 983,
-    "SaleId": 745,
-    "SaleName": "Bailey Group",
+    "DocumentId": 499,
+    "Attention": "rerum",
+    "Header": "ex",
+    "Name": "Kihn, Bauch and Stamm",
+    "OurRef": "inventore",
+    "YourRef": "incidunt",
+    "Description": "Organic actuating challenge",
+    "DocumentTemplate": "sunt",
+    "IsPublished": true,
+    "PersonId": 661,
+    "PersonFullName": "Mrs. Dustin Schaden",
+    "AssociateFullName": "Miss Hilbert Vance Mosciski DDS",
+    "ContactId": 34,
+    "ContactName": "Hegmann-Hettinger",
+    "ProjectId": 818,
+    "ProjectName": "Kuvalis LLC",
+    "AssociateId": 450,
+    "Snum": 753,
+    "SaleId": 197,
+    "SaleName": "Emmerich Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 997
+        "FieldType": "System.String",
+        "FieldLength": 192
       }
     }
   }

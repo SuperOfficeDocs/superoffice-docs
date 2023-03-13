@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 349,
-    "Name": "Pouros-Erdman",
-    "Tooltip": "et",
+    "HeadingId": 978,
+    "Name": "Wolf Inc and Sons",
+    "Tooltip": "nulla",
     "Deleted": false,
-    "Rank": 501,
-    "UdListDefinitionId": 281,
+    "Rank": 854,
+    "UdListDefinitionId": 280,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 121
+        "FieldType": "System.Int32",
+        "FieldLength": 67
       }
     }
   }

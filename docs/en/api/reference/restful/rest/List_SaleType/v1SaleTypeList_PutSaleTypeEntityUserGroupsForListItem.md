@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 259,
-    "Name": "Hackett, Grady and Boyle",
-    "ToolTip": "Debitis porro repellat quis repellat.",
+    "Id": 719,
+    "Name": "Hettinger, Sporer and Hahn",
+    "ToolTip": "Molestiae consequatur sint consequatur repellendus.",
     "Deleted": true,
-    "Rank": 493,
-    "Type": "deleniti",
-    "ColorBlock": 185,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2009-11-02T14:19:11.549573+01:00",
+    "Rank": 354,
+    "Type": "corporis",
+    "ColorBlock": 203,
+    "IconHint": "corrupti",
+    "Selected": true,
+    "LastChanged": "2001-01-09T12:15:28.4836194+01:00",
     "ChildItems": [
       {
-        "Id": 889,
-        "Name": "Hackett-Baumbach",
-        "ToolTip": "Vitae placeat quia aperiam fugiat necessitatibus.",
+        "Id": 666,
+        "Name": "Jewess-Skiles",
+        "ToolTip": "Dicta nisi commodi.",
         "Deleted": false,
-        "Rank": 444,
-        "Type": "ipsam",
-        "ColorBlock": 488,
-        "IconHint": "delectus",
+        "Rank": 250,
+        "Type": "natus",
+        "ColorBlock": 187,
+        "IconHint": "error",
         "Selected": false,
-        "LastChanged": "2015-01-24T14:19:11.549573+01:00",
+        "LastChanged": "2011-09-09T12:15:28.4836194+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "explicabo",
+        "ExtraInfo": "corporis",
+        "StyleHint": "dolorem",
         "Hidden": true,
-        "FullName": "Mr. Kaden Ortiz"
+        "FullName": "Mrs. Leone Kiel Bruen"
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "molestias",
+    "ExtraInfo": "repellat",
+    "StyleHint": "unde",
     "Hidden": false,
-    "FullName": "Tom Fletcher Nitzsche Jr."
+    "FullName": "Amya Will"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 539,
-    "Name": "Little, Kuvalis and Cummerata",
-    "ToolTip": "Amet doloribus eum.",
+    "Id": 772,
+    "Name": "Greenfelder, Brakus and Shields",
+    "ToolTip": "Doloribus quam adipisci.",
     "Deleted": false,
-    "Rank": 968,
-    "Type": "necessitatibus",
-    "ColorBlock": 828,
-    "IconHint": "assumenda",
+    "Rank": 602,
+    "Type": "consequatur",
+    "ColorBlock": 47,
+    "IconHint": "velit",
     "Selected": true,
-    "LastChanged": "1999-01-03T14:19:11.580827+01:00",
+    "LastChanged": "2009-11-17T12:15:28.4856134+01:00",
     "ChildItems": [
       {
-        "Id": 261,
-        "Name": "Tromp, Cormier and Ondricka",
-        "ToolTip": "Eos sit soluta laudantium voluptate.",
-        "Deleted": true,
-        "Rank": 355,
-        "Type": "natus",
-        "ColorBlock": 922,
-        "IconHint": "ipsam",
+        "Id": 247,
+        "Name": "Ryan, Adams and Schoen",
+        "ToolTip": "Accusamus omnis id et earum et nam.",
+        "Deleted": false,
+        "Rank": 531,
+        "Type": "iusto",
+        "ColorBlock": 694,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2004-05-08T14:19:11.580827+02:00",
+        "LastChanged": "1997-10-28T12:15:28.4856134+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "inventore",
+        "ExtraInfo": "eos",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Mr. Garnett Immanuel Maggio",
+        "FullName": "Mckenzie West",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 425
+            "FieldLength": 802
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "et",
+    "ExtraInfo": "est",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Arthur Heaney",
+    "FullName": "Mr. Zane Herman MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 113
+        "FieldLength": 243
       }
     }
   }

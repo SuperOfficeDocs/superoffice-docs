@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 499,
-    "Name": "Reichel LLC",
-    "ToolTip": "Sapiente omnis vel quia sunt deleniti.",
+    "Id": 938,
+    "Name": "Ernser Inc and Sons",
+    "ToolTip": "Earum nulla ad consequatur qui voluptatem.",
     "Deleted": false,
-    "Rank": 74,
-    "Type": "qui",
-    "ColorBlock": 247,
-    "IconHint": "quam",
-    "Selected": false,
-    "LastChanged": "2018-09-10T14:19:11.4149038+02:00",
+    "Rank": 234,
+    "Type": "eos",
+    "ColorBlock": 412,
+    "IconHint": "nostrum",
+    "Selected": true,
+    "LastChanged": "2016-03-18T12:15:28.3656176+01:00",
     "ChildItems": [
       {
-        "Id": 221,
-        "Name": "Runolfsdottir-Spencer",
-        "ToolTip": "Recusandae quidem maiores est voluptas facilis.",
+        "Id": 954,
+        "Name": "Barrows-Zulauf",
+        "ToolTip": "Illum sed aliquid.",
         "Deleted": true,
-        "Rank": 84,
-        "Type": "velit",
-        "ColorBlock": 667,
-        "IconHint": "quod",
+        "Rank": 314,
+        "Type": "et",
+        "ColorBlock": 315,
+        "IconHint": "laudantium",
         "Selected": false,
-        "LastChanged": "2013-06-05T14:19:11.4149038+02:00",
+        "LastChanged": "2007-08-02T12:15:28.3656176+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "soluta",
+        "ExtraInfo": "odio",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Chelsie Bahringer",
+        "FullName": "Hassan Gerlach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 954
+            "FieldLength": 708
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "ex",
-    "Hidden": true,
-    "FullName": "Genoveva Rau",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "tempore",
+    "Hidden": false,
+    "FullName": "Jacinthe Smitham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 693
+        "FieldType": "System.String",
+        "FieldLength": 157
       }
     }
   }

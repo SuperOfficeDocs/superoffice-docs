@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 657,
-  "SelectionId": 414,
-  "Restrictions": "aut"
+  "DashboardTileId": 709,
+  "SelectionId": 847,
+  "Restrictions": "ea"
 }
 ```
 
@@ -93,19 +93,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Brekke, Reilly and Aufderhar",
-        "DisplayTooltip": "in",
-        "DisplayType": "quas",
+        "DisplayName": "Wolff LLC",
+        "DisplayTooltip": "eos",
+        "DisplayType": "voluptas",
         "CanOrderBy": false,
-        "Name": "Kunde Inc and Sons",
-        "CanRestrictBy": false,
-        "RestrictionType": "nihil",
-        "RestrictionListName": "Tillman-Little",
+        "Name": "Franecki Inc and Sons",
+        "CanRestrictBy": true,
+        "RestrictionType": "quia",
+        "RestrictionListName": "Hirthe, Sipes and Ferry",
         "IsVisible": false,
-        "ExtraInfo": "fugit",
-        "Width": "ullam",
-        "IconHint": "illum",
-        "HeadingIconHint": "recusandae"
+        "ExtraInfo": "amet",
+        "Width": "magnam",
+        "IconHint": "consectetur",
+        "HeadingIconHint": "nam"
       }
     ],
     "Result": null
@@ -113,19 +113,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Brekke, Reilly and Aufderhar",
-        "DisplayTooltip": "in",
-        "DisplayType": "quas",
+        "DisplayName": "Wolff LLC",
+        "DisplayTooltip": "eos",
+        "DisplayType": "voluptas",
         "CanOrderBy": false,
-        "Name": "Kunde Inc and Sons",
-        "CanRestrictBy": false,
-        "RestrictionType": "nihil",
-        "RestrictionListName": "Tillman-Little",
+        "Name": "Franecki Inc and Sons",
+        "CanRestrictBy": true,
+        "RestrictionType": "quia",
+        "RestrictionListName": "Hirthe, Sipes and Ferry",
         "IsVisible": false,
-        "ExtraInfo": "fugit",
-        "Width": "ullam",
-        "IconHint": "illum",
-        "HeadingIconHint": "recusandae"
+        "ExtraInfo": "amet",
+        "Width": "magnam",
+        "IconHint": "consectetur",
+        "HeadingIconHint": "nam"
       }
     ],
     "Result": null

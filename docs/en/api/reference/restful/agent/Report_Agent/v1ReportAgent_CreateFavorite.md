@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/Report/CreateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 276,
-  "Name": "Pacocha-Brakus",
-  "Description": "Adaptive human-resource software"
+  "SourceId": 200,
+  "Name": "Schaefer-King",
+  "Description": "Visionary value-added focus group"
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 708,
+  "ReportId": 311,
   "ReportCategory": "All",
-  "Description": "Re-contextualized upward-trending contingency",
+  "Description": "Persevering 3rd generation concept",
   "ReportLayout": "CalendarMonth",
-  "Name": "Collins-Runte",
-  "AssociateId": 903,
-  "TemplateId": 957,
+  "Name": "Hilpert LLC",
+  "AssociateId": 423,
+  "TemplateId": 16,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 278
+      "FieldLength": 260
     }
   }
 }

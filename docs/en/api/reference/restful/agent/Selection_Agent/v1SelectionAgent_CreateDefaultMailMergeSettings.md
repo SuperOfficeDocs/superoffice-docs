@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 146,
-  "DocumentId": 628,
+  "SelectionId": 973,
+  "DocumentId": 859,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "vitae",
-  "AlwaysUseCustomAttention": true,
+  "CustomAttention": "assumenda",
+  "AlwaysUseCustomAttention": false,
   "SaveDocument": false,
-  "CustomMailBody": "dicta",
+  "CustomMailBody": "et",
   "TaskEntity": null,
-  "AddCompanyInterest": 904,
-  "AddPersonInterest": 236,
-  "RemoveCompanyInterest": 678,
-  "RemovePersonInterest": 878,
+  "AddCompanyInterest": 890,
+  "AddPersonInterest": 370,
+  "RemoveCompanyInterest": 966,
+  "RemovePersonInterest": 939,
   "IncludeNoMailingsRecipient": true,
   "TestOnly": false,
-  "ProjectId": 363,
-  "IncludeRetiredRecipients": true,
+  "ProjectId": 211,
+  "IncludeRetiredRecipients": false,
   "IncludeStoppedRecipients": true,
-  "CustomMailSubject": "ut",
-  "ExtraInfo": "et",
+  "CustomMailSubject": "aut",
+  "ExtraInfo": "neque",
   "Synchronous": false,
   "IsTemporarySelection": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 11
+      "FieldType": "System.Int32",
+      "FieldLength": 892
     }
   }
 }

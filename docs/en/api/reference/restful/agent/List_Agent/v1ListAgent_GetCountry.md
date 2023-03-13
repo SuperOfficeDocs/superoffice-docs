@@ -25,7 +25,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=557
+POST /api/v1/Agents/List/GetCountry?countryId=819
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 516,
-  "Name": "Kreiger, Cassin and Yundt",
-  "CurrencyId": 550,
-  "EnglishName": "Mraz-Dickens",
+  "CountryId": 10,
+  "Name": "Deckow-Bashirian",
+  "CurrencyId": 276,
+  "EnglishName": "Hills, Wilkinson and Batz",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Fully-configurable grid-enabled monitoring",
-  "OrgNrText": "602039",
-  "InterAreaPrefix": "dolorem",
-  "DialInPrefix": "laboriosam",
-  "ZipPrefix": "quia",
-  "DomainName": "Gutkowski, Stanton and Davis",
-  "AddressLayoutId": 356,
-  "DomesticAddressLayoutId": 429,
-  "ForeignAddressLayoutId": 747,
-  "Rank": 280,
-  "Tooltip": "rem",
-  "Deleted": false,
+  "ImageDescription": "Pre-emptive upward-trending service-desk",
+  "OrgNrText": "1411006",
+  "InterAreaPrefix": "in",
+  "DialInPrefix": "deleniti",
+  "ZipPrefix": "voluptatem",
+  "DomainName": "Nikolaus LLC",
+  "AddressLayoutId": 260,
+  "DomesticAddressLayoutId": 358,
+  "ForeignAddressLayoutId": 260,
+  "Rank": 799,
+  "Tooltip": "ea",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 747
+      "FieldType": "System.Int32",
+      "FieldLength": 322
     }
   }
 }

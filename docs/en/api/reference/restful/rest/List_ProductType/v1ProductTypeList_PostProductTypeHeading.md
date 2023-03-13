@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 460,
-  "Name": "Toy Group",
-  "Tooltip": "eos",
-  "Deleted": true,
-  "Rank": 282,
-  "UdListDefinitionId": 128
+  "HeadingId": 797,
+  "Name": "Kiehn, Brekke and Carter",
+  "Tooltip": "earum",
+  "Deleted": false,
+  "Rank": 401,
+  "UdListDefinitionId": 154
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 157,
-  "Name": "Graham-Sanford",
-  "Tooltip": "exercitationem",
+  "HeadingId": 502,
+  "Name": "Collins LLC",
+  "Tooltip": "error",
   "Deleted": true,
-  "Rank": 471,
-  "UdListDefinitionId": 706,
+  "Rank": 507,
+  "UdListDefinitionId": 840,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldLength": 248
     }
   }
 }

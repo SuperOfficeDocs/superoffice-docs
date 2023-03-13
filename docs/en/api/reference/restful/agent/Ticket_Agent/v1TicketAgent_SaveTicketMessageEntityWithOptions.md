@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
   "Notify": false,
   "AttachmentIds": [
-    18,
-    266
+    624,
+    796
   ]
 }
 ```
@@ -118,28 +118,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 607,
+  "EjMessageId": 571,
   "Ticket": null,
-  "CreatedAt": "2011-04-16T14:19:04.501577+02:00",
+  "CreatedAt": "2007-12-16T12:15:20.4807399+01:00",
   "CreatedBy": null,
-  "Author": "vitae",
+  "Author": "natus",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ut",
-  "TimeSpent": 462,
-  "Body": "voluptate",
-  "HtmlBody": "et",
-  "EmailHeader": "fabiola@hirthewalsh.com",
-  "DebugInfo": "porro",
-  "MailSorter": "et",
+  "MessageId": "adipisci",
+  "TimeSpent": 62,
+  "Body": "sit",
+  "HtmlBody": "sit",
+  "EmailHeader": "reynold.veum@schadenjacobi.com",
+  "DebugInfo": "nihil",
+  "MailSorter": "qui",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "vel",
+  "SearchTitle": "voluptatem",
   "MessageHeaders": [
     {
-      "Id": 94,
-      "Name": "Friesen LLC",
-      "Value": "vel",
+      "Id": 577,
+      "Name": "Huel-Metz",
+      "Value": "in",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -147,47 +147,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 280
+          "FieldLength": 963
         }
       }
     }
   ],
   "Important": false,
-  "Language": "repudiandae",
-  "Sentiment": 260,
-  "SentimentConfidence": 2,
+  "Language": "sapiente",
+  "Sentiment": 917,
+  "SentimentConfidence": 163,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 810,
-      "Name": "Kunde-Abernathy",
-      "ContentType": "aut",
-      "AttSize": 549,
+      "AttachmentId": 950,
+      "Name": "Pollich-Runolfsdottir",
+      "ContentType": "animi",
+      "AttSize": 365,
       "InlineImage": true,
-      "ContentId": "fugiat",
+      "ContentId": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 903
+          "FieldType": "System.Int32",
+          "FieldLength": 14
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "voluptatibus"
+    "ExtraFields1": "sunt",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
-    "CustomFields1": "libero",
-    "CustomFields2": "modi"
+    "CustomFields1": "est",
+    "CustomFields2": "rem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 373
+      "FieldType": "System.String",
+      "FieldLength": 517
     }
   }
 }

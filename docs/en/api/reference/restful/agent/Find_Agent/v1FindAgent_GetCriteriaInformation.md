@@ -84,12 +84,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "mollitia",
-  "ProviderName": "Hayes-Stehr",
-  "StorageKey": "nesciunt",
+  "StorageType": "tempore",
+  "ProviderName": "Stanton-Prohaska",
+  "StorageKey": "laborum",
   "StaticColumns": [
-    "aut",
-    "iure"
+    "in",
+    "delectus"
   ]
 }
 ```
@@ -103,81 +103,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Watsica-Gibson",
-      "Operator": "ullam",
+      "Name": "O'Connell, Effertz and Prosacco",
+      "Operator": "qui",
       "Values": [
-        "nobis",
-        "veritatis"
+        "sapiente",
+        "aut"
       ],
       "DisplayValues": [
-        "ipsa",
-        "a"
+        "voluptas",
+        "repellendus"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 923,
+      "InterParenthesis": 789,
       "InterOperator": "And",
-      "UniqueHash": 539
+      "UniqueHash": 145
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Roob-Rolfson",
-      "DisplayTooltip": "est",
-      "DisplayType": "dicta",
-      "CanOrderBy": true,
-      "Name": "Marks Group",
+      "DisplayName": "Reynolds Group",
+      "DisplayTooltip": "omnis",
+      "DisplayType": "eveniet",
+      "CanOrderBy": false,
+      "Name": "Barrows-Connelly",
       "CanRestrictBy": false,
-      "RestrictionType": "commodi",
-      "RestrictionListName": "Botsford-Stark",
-      "IsVisible": true,
-      "ExtraInfo": "libero",
-      "Width": "quae",
-      "IconHint": "ut",
-      "HeadingIconHint": "molestias"
+      "RestrictionType": "sunt",
+      "RestrictionListName": "Hessel-Schoen",
+      "IsVisible": false,
+      "ExtraInfo": "amet",
+      "Width": "vel",
+      "IconHint": "perspiciatis",
+      "HeadingIconHint": "tempora"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Walter-Turcotte",
-      "PrimaryKey": 435,
+      "EntityName": "Cremin Inc and Sons",
+      "PrimaryKey": 127,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "repudiandae",
-          "LinkHint": "quo"
+          "DisplayValue": "consequatur",
+          "TooltipHint": "reiciendis",
+          "LinkHint": "asperiores"
         }
       },
-      "LinkHint": "autem",
-      "StyleHint": "id",
+      "LinkHint": "repudiandae",
+      "StyleHint": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldType": "System.String",
+          "FieldLength": 222
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Stiedemann-Corkery",
-      "Description": "Enterprise-wide full-range internet solution",
-      "Rank": 970,
+      "Name": "Gorczany Inc and Sons",
+      "Description": "Synchronised foreground circuit",
+      "Rank": 816,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Stiedemann-Corkery",
-      "Description": "Enterprise-wide full-range internet solution",
-      "Rank": 970,
+      "Name": "Gorczany Inc and Sons",
+      "Description": "Synchronised foreground circuit",
+      "Rank": 816,
       "Restrictions": [
         {},
         {}
@@ -188,8 +188,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 825
+      "FieldType": "System.String",
+      "FieldLength": 490
     }
   }
 }

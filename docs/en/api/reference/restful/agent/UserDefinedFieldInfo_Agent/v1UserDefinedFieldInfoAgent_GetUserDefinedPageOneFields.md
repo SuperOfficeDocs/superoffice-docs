@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 374
+  "UserGroupId": 832
 }
 ```
 
@@ -123,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 213,
-    "ColumnId": 536,
-    "FieldDefault": "rerum",
-    "FieldHeight": 364,
-    "FieldLabel": "aut",
-    "FieldLeft": 296,
-    "FieldTop": 801,
+    "UDefFieldId": 673,
+    "ColumnId": 449,
+    "FieldDefault": "libero",
+    "FieldHeight": 277,
+    "FieldLabel": "expedita",
+    "FieldLeft": 407,
+    "FieldTop": 821,
     "FieldType": "Checkbox",
-    "FieldWidth": 533,
-    "FormatMask": "ut",
-    "HideLabel": true,
+    "FieldWidth": 845,
+    "FormatMask": "dignissimos",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 800,
-    "LabelLeft": 992,
-    "LabelTop": 578,
-    "LabelWidth": 967,
-    "LastVersionId": 942,
-    "ListTableId": 324,
+    "LabelHeight": 678,
+    "LabelLeft": 766,
+    "LabelTop": 478,
+    "LabelWidth": 814,
+    "LastVersionId": 938,
+    "ListTableId": 319,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 885,
-    "ProgId": "sed",
+    "Page1LineNo": 795,
+    "ProgId": "quia",
     "IsReadOnly": false,
-    "ShortLabel": "aut",
-    "TabOrder": 926,
-    "TextLength": 546,
-    "Tooltip": "vel",
-    "UdefIdentity": 489,
-    "UDListDefinitionId": 980,
+    "ShortLabel": "a",
+    "TabOrder": 978,
+    "TextLength": 502,
+    "Tooltip": "vitae",
+    "UdefIdentity": 517,
+    "UDListDefinitionId": 525,
     "Justification": "Center",
-    "Version": 594,
-    "TemplateVariableName": "Ritchie, Feeney and Veum",
+    "Version": 936,
+    "TemplateVariableName": "Kling-Wuckert",
     "HasBeenPublished": false,
-    "MdoListName": "Ankunding-Sanford",
+    "MdoListName": "Botsford-Ziemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 607
+        "FieldType": "System.Int32",
+        "FieldLength": 85
       }
     }
   }

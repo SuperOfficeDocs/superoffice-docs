@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 279,
-  "Name": "Eichmann, Ziemann and Wehner",
-  "Tooltip": "dicta",
-  "Deleted": true,
-  "Rank": 606,
-  "UdListDefinitionId": 528,
+  "HeadingId": 315,
+  "Name": "Lebsack LLC",
+  "Tooltip": "molestiae",
+  "Deleted": false,
+  "Rank": 756,
+  "UdListDefinitionId": 661,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 91
+      "FieldType": "System.Int32",
+      "FieldLength": 104
     }
   }
 }

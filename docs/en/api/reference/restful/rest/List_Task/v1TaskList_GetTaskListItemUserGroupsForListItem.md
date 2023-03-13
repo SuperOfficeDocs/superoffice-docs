@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 151,
-    "Name": "Crist LLC",
-    "ToolTip": "Tempora molestiae in tempora commodi.",
-    "Deleted": true,
-    "Rank": 391,
-    "Type": "maiores",
-    "ColorBlock": 598,
-    "IconHint": "porro",
+    "Id": 646,
+    "Name": "Murazik LLC",
+    "ToolTip": "Quasi ut exercitationem quaerat.",
+    "Deleted": false,
+    "Rank": 806,
+    "Type": "ea",
+    "ColorBlock": 538,
+    "IconHint": "distinctio",
     "Selected": false,
-    "LastChanged": "2022-06-05T14:19:11.6433214+02:00",
+    "LastChanged": "2021-08-02T12:15:28.5316155+02:00",
     "ChildItems": [
       {
-        "Id": 205,
-        "Name": "Kautzer-Bode",
-        "ToolTip": "Dolorem aperiam laudantium.",
+        "Id": 186,
+        "Name": "Lesch LLC",
+        "ToolTip": "Autem hic ducimus eius eos.",
         "Deleted": false,
-        "Rank": 807,
-        "Type": "et",
-        "ColorBlock": 995,
-        "IconHint": "atque",
+        "Rank": 53,
+        "Type": "a",
+        "ColorBlock": 732,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2013-04-19T14:19:11.6433214+02:00",
+        "LastChanged": "2006-04-02T12:15:28.5316155+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Uriah Rice",
+        "ExtraInfo": "quaerat",
+        "StyleHint": "itaque",
+        "Hidden": false,
+        "FullName": "Prof. Irving Gaston Schuster",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 150
+            "FieldType": "System.String",
+            "FieldLength": 749
           }
         }
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "mollitia",
+    "ExtraInfo": "maiores",
+    "StyleHint": "ducimus",
     "Hidden": false,
-    "FullName": "Imogene Osinski",
+    "FullName": "Lane Gottlieb",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 843
+        "FieldType": "System.String",
+        "FieldLength": 25
       }
     }
   }

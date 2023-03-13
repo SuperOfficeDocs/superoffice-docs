@@ -67,7 +67,7 @@ OK
 GET /api/v1/Preference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,50 +78,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 610,
-    "Name": "Bins, Kutch and Gislason",
-    "ToolTip": "Aperiam odit illum ab ab.",
-    "Deleted": true,
-    "Rank": 639,
-    "Type": "aliquam",
+    "Id": 375,
+    "Name": "Hodkiewicz, Lehner and Kub",
+    "ToolTip": "Dignissimos sequi rerum.",
+    "Deleted": false,
+    "Rank": 333,
+    "Type": "dolorum",
     "ChildItems": [
       {
-        "Id": 429,
-        "Name": "Legros, Wunsch and Tremblay",
-        "ToolTip": "Qui omnis corrupti non quaerat ut.",
-        "Deleted": true,
-        "Rank": 439,
-        "Type": "aut",
+        "Id": 334,
+        "Name": "Brakus-Jones",
+        "ToolTip": "Aut laboriosam et aperiam sit recusandae.",
+        "Deleted": false,
+        "Rank": 456,
+        "Type": "quasi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rem",
-        "ColorBlock": 21,
-        "ExtraInfo": "porro",
-        "StyleHint": "sit",
-        "FullName": "Alice Roselyn Nikolaus DVM",
+        "IconHint": "sequi",
+        "ColorBlock": 720,
+        "ExtraInfo": "nostrum",
+        "StyleHint": "vel",
+        "FullName": "Dr. Antwon Mann PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 434
+            "FieldType": "System.String",
+            "FieldLength": 182
           }
         }
       }
     ],
-    "IconHint": "id",
-    "ColorBlock": 673,
-    "ExtraInfo": "fugiat",
-    "StyleHint": "molestias",
-    "FullName": "Herbert Stokes I",
+    "IconHint": "consequatur",
+    "ColorBlock": 461,
+    "ExtraInfo": "ut",
+    "StyleHint": "repudiandae",
+    "FullName": "Chaz Bradtke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 722
+        "FieldLength": 363
       }
     }
   }

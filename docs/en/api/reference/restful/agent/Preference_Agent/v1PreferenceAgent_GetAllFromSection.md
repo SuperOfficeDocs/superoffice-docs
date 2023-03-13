@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "voluptas"
+  "Section": "est"
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 842,
-    "Section": "facere",
-    "Key": "quaerat",
-    "Name": "Walsh-Mosciski",
+    "PrefDescId": 646,
+    "Section": "ea",
+    "Key": "dicta",
+    "Name": "Pfannerstill Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Profound assymetric moratorium",
+    "Description": "Pre-emptive scalable service-desk",
     "IsBuiltin": false,
-    "TableName": "Hilll-Glover",
-    "UserDefinedListId": 80,
-    "Rank": 312,
-    "SubGroup": "non",
-    "MinLevel": 11,
-    "MaxValue": 135,
-    "MinValue": 743,
-    "RequiredLicense": "iusto",
+    "TableName": "Erdman-Botsford",
+    "UserDefinedListId": 158,
+    "Rank": 502,
+    "SubGroup": "omnis",
+    "MinLevel": 219,
+    "MaxValue": 470,
+    "MinValue": 406,
+    "RequiredLicense": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 421
+        "FieldType": "System.String",
+        "FieldLength": 940
       }
     }
   }

@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Flatley Group",
+  "Name": "Jast LLC",
   "ForceFlatList": false,
-  "AdditionalInfo": "rem",
+  "AdditionalInfo": "ab",
   "OnlyHistory": false
 }
 ```
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 195,
-    "Name": "Crist, Buckridge and Schneider",
-    "ToolTip": "Non delectus est incidunt.",
+    "Id": 394,
+    "Name": "Lemke, Wolf and Armstrong",
+    "ToolTip": "In accusamus deserunt dolor eaque.",
     "Deleted": false,
-    "Rank": 318,
-    "Type": "at",
-    "ColorBlock": 790,
-    "IconHint": "et",
+    "Rank": 807,
+    "Type": "commodi",
+    "ColorBlock": 359,
+    "IconHint": "harum",
     "Selected": true,
-    "LastChanged": "2011-05-02T14:19:03.7332495+02:00",
+    "LastChanged": "2008-02-29T12:15:19.392746+01:00",
     "ChildItems": [
       {
-        "Id": 319,
-        "Name": "Hodkiewicz-Wolff",
-        "ToolTip": "Accusamus nisi.",
+        "Id": 526,
+        "Name": "Daugherty, Pfannerstill and Ledner",
+        "ToolTip": "Dolorem perspiciatis.",
         "Deleted": false,
-        "Rank": 743,
-        "Type": "laborum",
-        "ColorBlock": 54,
-        "IconHint": "ipsam",
+        "Rank": 869,
+        "Type": "aspernatur",
+        "ColorBlock": 642,
+        "IconHint": "sequi",
         "Selected": false,
-        "LastChanged": "2013-02-25T14:19:03.7332495+01:00",
+        "LastChanged": "2002-01-06T12:15:19.392746+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Israel Leola Wyman Sr.",
+        "ExtraInfo": "dolor",
+        "StyleHint": "in",
+        "Hidden": true,
+        "FullName": "Betsy Metz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 128
+            "FieldType": "System.String",
+            "FieldLength": 449
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Mrs. Rosamond Mozelle Mertz DVM",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "provident",
+    "Hidden": false,
+    "FullName": "Kyra Botsford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 618
+        "FieldType": "System.Int32",
+        "FieldLength": 368
       }
     }
   }

@@ -1,0 +1,11 @@
+digraph workflow_goal  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+workflow_goal[fillcolor = "cadetblue1"]
+workflow[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+workflow_goal -> workflow [headlabel = "workflow_id"]
+workflow_goal -> associate [headlabel = "registered_associate_id"]
+workflow_goal -> associate [label = "updated_associate_id"]
+}

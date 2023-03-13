@@ -68,15 +68,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 260,
+  "SelectionId": 269,
   "ContactPersonIds": [
     {
-      "PersonId": 190,
-      "ContactId": 653
+      "PersonId": 25,
+      "ContactId": 672
     },
     {
-      "PersonId": 190,
-      "ContactId": 653
+      "PersonId": 25,
+      "ContactId": 672
     }
   ]
 }

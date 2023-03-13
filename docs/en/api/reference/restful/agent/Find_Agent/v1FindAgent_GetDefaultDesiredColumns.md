@@ -90,9 +90,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sed",
-  "ProviderName": "Halvorson LLC",
-  "StorageKey": "similique"
+  "StorageType": "et",
+  "ProviderName": "Wolff-Willms",
+  "StorageKey": "consequatur"
 }
 ```
 
@@ -104,19 +104,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Gorczany, Hettinger and Erdman",
-    "DisplayTooltip": "ipsum",
-    "DisplayType": "voluptatem",
+    "DisplayName": "Koepp-Kassulke",
+    "DisplayTooltip": "dolorem",
+    "DisplayType": "enim",
     "CanOrderBy": false,
-    "Name": "Schaden, Collier and Bechtelar",
-    "CanRestrictBy": true,
-    "RestrictionType": "consequatur",
-    "RestrictionListName": "Roob-Hudson",
+    "Name": "Donnelly-Cole",
+    "CanRestrictBy": false,
+    "RestrictionType": "officia",
+    "RestrictionListName": "Hessel-Leffler",
     "IsVisible": false,
-    "ExtraInfo": "et",
-    "Width": "commodi",
-    "IconHint": "natus",
-    "HeadingIconHint": "ducimus"
+    "ExtraInfo": "aliquid",
+    "Width": "fugiat",
+    "IconHint": "itaque",
+    "HeadingIconHint": "sint"
   }
 ]
 ```

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 997,
-    "Name": "Cummerata Group",
-    "ToolTip": "Quam et.",
-    "Deleted": true,
-    "Rank": 425,
-    "Type": "nihil",
-    "ColorBlock": 585,
-    "IconHint": "nobis",
+    "Id": 579,
+    "Name": "Daniel, Davis and Douglas",
+    "ToolTip": "Aut perspiciatis.",
+    "Deleted": false,
+    "Rank": 81,
+    "Type": "quo",
+    "ColorBlock": 612,
+    "IconHint": "molestias",
     "Selected": false,
-    "LastChanged": "2013-12-28T14:19:11.2262177+01:00",
+    "LastChanged": "2018-02-16T12:15:28.1016187+01:00",
     "ChildItems": [
       {
-        "Id": 253,
-        "Name": "Bauch, Homenick and Hartmann",
-        "ToolTip": "Magni adipisci.",
+        "Id": 345,
+        "Name": "McCullough Group",
+        "ToolTip": "Illo non repellat nam.",
         "Deleted": false,
-        "Rank": 820,
-        "Type": "quia",
-        "ColorBlock": 753,
-        "IconHint": "officiis",
-        "Selected": false,
-        "LastChanged": "2011-09-24T14:19:11.2262177+02:00",
+        "Rank": 649,
+        "Type": "earum",
+        "ColorBlock": 540,
+        "IconHint": "enim",
+        "Selected": true,
+        "LastChanged": "2003-01-11T12:15:28.1016187+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "sit",
+        "ExtraInfo": "nemo",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Mr. Adrian Devan Bartell"
+        "FullName": "Laverna Jones"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "deserunt",
-    "Hidden": false,
-    "FullName": "Lucio Edward Watsica Sr."
+    "ExtraInfo": "corporis",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Miss Angelica Monahan"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 692,
-    "Name": "Mayer-Hermiston",
-    "ToolTip": "Ea optio consequatur quibusdam.",
+    "Id": 434,
+    "Name": "Parker Inc and Sons",
+    "ToolTip": "Ut ad quisquam possimus.",
     "Deleted": false,
-    "Rank": 707,
-    "Type": "aliquam",
-    "ColorBlock": 235,
-    "IconHint": "voluptatibus",
+    "Rank": 269,
+    "Type": "rem",
+    "ColorBlock": 445,
+    "IconHint": "quae",
     "Selected": false,
-    "LastChanged": "2002-08-31T14:19:11.2262177+02:00",
+    "LastChanged": "2006-02-07T12:15:28.1026198+01:00",
     "ChildItems": [
       {
-        "Id": 216,
-        "Name": "Kirlin-Spinka",
-        "ToolTip": "Quam ut repellendus ipsa nihil voluptas aut labore.",
+        "Id": 574,
+        "Name": "Williamson Group",
+        "ToolTip": "Libero alias similique quis labore.",
         "Deleted": false,
-        "Rank": 767,
-        "Type": "labore",
-        "ColorBlock": 661,
-        "IconHint": "aliquam",
+        "Rank": 24,
+        "Type": "molestias",
+        "ColorBlock": 826,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2003-07-19T14:19:11.2262177+02:00",
+        "LastChanged": "2016-09-05T12:15:28.1026198+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "sapiente",
-        "Hidden": true,
-        "FullName": "Connor Hauck",
+        "ExtraInfo": "quia",
+        "StyleHint": "ducimus",
+        "Hidden": false,
+        "FullName": "Ryder Mante",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 409
+            "FieldLength": 41
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "minus",
+    "ExtraInfo": "sint",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Miss Pearlie Bernice Hackett Jr.",
+    "FullName": "Don O'Kon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 895
+        "FieldLength": 152
       }
     }
   }

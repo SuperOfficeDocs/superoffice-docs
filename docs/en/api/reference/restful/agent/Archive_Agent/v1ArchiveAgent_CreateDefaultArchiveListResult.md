@@ -57,7 +57,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -67,26 +67,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 386,
+  "RowCount": 150,
   "Rows": [
     {
-      "EntityName": "McKenzie LLC",
-      "PrimaryKey": 845,
+      "EntityName": "Howe Inc and Sons",
+      "PrimaryKey": 753,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "molestiae",
-          "TooltipHint": "hic",
-          "LinkHint": "eius"
+          "DisplayValue": "nihil",
+          "TooltipHint": "eveniet",
+          "LinkHint": "similique"
         }
       },
-      "LinkHint": "architecto",
-      "StyleHint": "enim",
+      "LinkHint": "itaque",
+      "StyleHint": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 471
+          "FieldLength": 3
         }
       }
     }
@@ -96,7 +96,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 640
+      "FieldLength": 625
     }
   }
 }

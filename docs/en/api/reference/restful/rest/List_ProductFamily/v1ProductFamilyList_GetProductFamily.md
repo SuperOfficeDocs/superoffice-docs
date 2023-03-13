@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 568,
-  "Name": "Corwin-Sipes",
-  "Tooltip": "possimus",
-  "Deleted": true,
-  "UdListDefinitionId": 622,
-  "Rank": 718,
+  "Id": 690,
+  "Name": "Miller-Mann",
+  "Tooltip": "adipisci",
+  "Deleted": false,
+  "UdListDefinitionId": 84,
+  "Rank": 447,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 806
+      "FieldLength": 613
     }
   }
 }

@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=sint
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=vel
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 15 Jun 2014 14:19:10 G6T
+Last-Modified: Mon, 13 Dec 2004 12:15:26 G12T
 
 {
-  "Key": "sunt",
-  "Value": "adipisci",
-  "RecordId": 235,
-  "CreatedDate": "2016-03-18T14:19:10.3654771+01:00",
-  "UpdatedDate": "2014-06-15T14:19:10.3654771+02:00",
-  "UpdatedBy": "sunt",
-  "CreatedBy": "modi",
-  "TableName": "Corkery Inc and Sons",
+  "Key": "inventore",
+  "Value": "maiores",
+  "RecordId": 658,
+  "CreatedDate": "2009-07-15T12:15:26.9806378+02:00",
+  "UpdatedDate": "2004-12-13T12:15:26.9806378+01:00",
+  "UpdatedBy": "officia",
+  "CreatedBy": "sapiente",
+  "TableName": "Schmeler, Towne and Gislason",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 106
+      "FieldLength": 286
     }
   }
 }

@@ -84,7 +84,7 @@ Dash found.
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,37 +94,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 241,
-  "UniqueId": "quia",
-  "Name": "Zieme, Christiansen and Dickinson",
-  "Description": "Decentralized 5th generation complexity",
-  "AssociateId": 768,
-  "Columns": 538,
+  "DashboardId": 526,
+  "UniqueId": "velit",
+  "Name": "Franecki, Yundt and Ortiz",
+  "Description": "Re-engineered mobile portal",
+  "AssociateId": 247,
+  "Columns": 524,
   "Theme": null,
-  "VisibleForAll": 305,
+  "VisibleForAll": 490,
   "VisibleForAssociates": [
-    838,
-    648
+    305,
+    937
   ],
   "VisibleForGroups": [
-    377,
-    32
+    601,
+    374
   ],
-  "PinForAll": 469,
+  "PinForAll": 293,
   "PinForAssociates": [
-    683,
-    101
+    917,
+    352
   ],
   "PinForGroups": [
-    905,
-    59
+    370,
+    662
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 855
+      "FieldType": "System.Int32",
+      "FieldLength": 229
     }
   },
   "_Links": {

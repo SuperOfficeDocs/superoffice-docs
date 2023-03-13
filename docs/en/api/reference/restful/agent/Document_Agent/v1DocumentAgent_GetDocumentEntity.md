@@ -25,7 +25,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=566
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=484
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 777,
+  "DocumentId": 320,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "itaque",
-  "Header": "asperiores",
-  "Name": "Hermiston-Gorczany",
-  "OurRef": "voluptatum",
-  "YourRef": "est",
-  "CreatedDate": "2021-07-15T14:19:03.2761568+02:00",
-  "UpdatedDate": "2021-03-13T14:19:03.2761568+01:00",
-  "Description": "Organic zero administration function",
+  "Attention": "est",
+  "Header": "nisi",
+  "Name": "Carroll, Hudson and Stroman",
+  "OurRef": "corporis",
+  "YourRef": "doloribus",
+  "CreatedDate": "2019-10-11T12:15:18.7847541+02:00",
+  "UpdatedDate": "2022-10-21T12:15:18.7847541+02:00",
+  "Description": "Function-based upward-trending algorithm",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2015-09-09T14:19:03.291782+02:00",
-  "ExternalRef": "corrupti",
+  "Date": "2013-11-19T12:15:18.788754+01:00",
+  "ExternalRef": "sit",
   "Completed": "Completed",
-  "ActiveLinks": 88,
+  "ActiveLinks": 460,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Leuschke, Ratke and Medhurst",
-      "Id": 799,
-      "Description": "Configurable mobile parallelism",
-      "ExtraInfo": "autem",
-      "LinkId": 570,
+      "EntityName": "Kutch, Kirlin and Haley",
+      "Id": 807,
+      "Description": "Polarised dedicated concept",
+      "ExtraInfo": "nostrum",
+      "LinkId": 988,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 687
+          "FieldLength": 855
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 729,
-  "Snum": 504,
+  "SuggestedDocumentId": 579,
+  "Snum": 809,
   "UserDefinedFields": {
-    "SuperOffice:1": "Major Douglas",
-    "SuperOffice:2": "Camren Cristal Hackett II"
+    "SuperOffice:1": "337221395",
+    "SuperOffice:2": "Bruce Upton"
   },
   "ExtraFields": {
-    "ExtraFields1": "repellendus",
-    "ExtraFields2": "perferendis"
+    "ExtraFields1": "assumenda",
+    "ExtraFields2": "in"
   },
   "CustomFields": {
-    "CustomFields1": "in",
-    "CustomFields2": "itaque"
+    "CustomFields1": "harum",
+    "CustomFields2": "porro"
   },
-  "PublishEventDate": "2002-09-27T14:19:03.291782+02:00",
-  "PublishTo": "2016-11-30T14:19:03.291782+01:00",
-  "PublishFrom": "1999-07-03T14:19:03.291782+02:00",
+  "PublishEventDate": "2012-11-27T12:15:18.7897221+01:00",
+  "PublishTo": "2005-10-09T12:15:18.7897221+02:00",
+  "PublishFrom": "2021-06-06T12:15:18.7897221+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 566,
+      "VisibleId": 154,
       "Visibility": "All",
-      "DisplayValue": "excepturi",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 209
+          "FieldType": "System.Int32",
+          "FieldLength": 883
         }
       }
     },
     {
-      "VisibleId": 566,
+      "VisibleId": 154,
       "Visibility": "All",
-      "DisplayValue": "excepturi",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 209
+          "FieldType": "System.Int32",
+          "FieldLength": 883
         }
       }
     }
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 481
+      "FieldLength": 361
     }
   }
 }

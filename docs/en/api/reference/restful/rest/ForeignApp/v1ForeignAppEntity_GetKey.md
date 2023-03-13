@@ -71,7 +71,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,23 +79,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 15 Jan 2018 14:19:10 G1T
+Last-Modified: Fri, 12 Jul 2013 12:15:26 G7T
 
 {
-  "Key": "unde",
-  "Value": "ea",
-  "RecordId": 532,
-  "CreatedDate": "2014-11-04T14:19:10.3654771+01:00",
-  "UpdatedDate": "2018-01-15T14:19:10.3654771+01:00",
-  "UpdatedBy": "repudiandae",
-  "CreatedBy": "odio",
-  "TableName": "Hegmann-Gutmann",
+  "Key": "et",
+  "Value": "est",
+  "RecordId": 238,
+  "CreatedDate": "2008-02-12T12:15:26.9756353+01:00",
+  "UpdatedDate": "2013-07-12T12:15:26.9756353+02:00",
+  "UpdatedBy": "illo",
+  "CreatedBy": "reiciendis",
+  "TableName": "Bechtelar-Dietrich",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 693
+      "FieldLength": 449
     }
   }
 }

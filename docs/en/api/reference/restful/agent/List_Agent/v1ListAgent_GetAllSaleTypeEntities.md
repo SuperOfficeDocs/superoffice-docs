@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -109,53 +109,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 582,
-    "Name": "Franecki-Reinger",
+    "SaleTypeId": 801,
+    "Name": "Williamson-Reynolds",
     "Tooltip": "eum",
-    "Rank": 198,
+    "Rank": 257,
     "DurationUnit": "Century",
-    "SaleDuration": 129,
-    "SaleTypeCatId": 340,
+    "SaleDuration": 586,
+    "SaleTypeCatId": 564,
     "Deleted": false,
-    "HasGuide": false,
+    "HasGuide": true,
     "HasStakeholders": false,
-    "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 736,
-    "QuoteLinesTemplate": 44,
-    "ConfirmationLinesTemplate": 466,
-    "MaxDiscountPercentSet": true,
+    "IsAutoAdvance": true,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 543,
+    "QuoteLinesTemplate": 234,
+    "ConfirmationLinesTemplate": 829,
+    "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 449,
-    "MinEarningPercent": 775,
-    "GroupQuoteLinesBy": 364,
-    "SortGroupLinesBy": 760,
+    "MaxDiscountPercent": 846,
+    "MinEarningPercent": 572,
+    "GroupQuoteLinesBy": 999,
+    "SortGroupLinesBy": 136,
     "Stages": [
       {
-        "Id": 618,
-        "Name": "Dare-Ondricka",
-        "ToolTip": "Incidunt et voluptatum ea natus aut itaque expedita.",
+        "Id": 684,
+        "Name": "Ankunding Inc and Sons",
+        "ToolTip": "Consequatur eum qui reprehenderit consequatur voluptatem maxime.",
         "Deleted": false,
-        "Rank": 823,
-        "Type": "minima",
-        "ColorBlock": 196,
-        "IconHint": "odit",
+        "Rank": 674,
+        "Type": "quibusdam",
+        "ColorBlock": 716,
+        "IconHint": "doloribus",
         "Selected": false,
-        "LastChanged": "2001-11-03T14:19:03.6082484+01:00",
+        "LastChanged": "2000-08-30T12:15:19.2337544+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "ex",
+        "ExtraInfo": "est",
+        "StyleHint": "illo",
         "Hidden": false,
-        "FullName": "Rosalind Lindgren",
+        "FullName": "Prof. Jazlyn Romaguera DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 918
+            "FieldType": "System.String",
+            "FieldLength": 775
           }
         }
       }
@@ -164,8 +164,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 823
+        "FieldType": "System.Int32",
+        "FieldLength": 760
       }
     }
   }

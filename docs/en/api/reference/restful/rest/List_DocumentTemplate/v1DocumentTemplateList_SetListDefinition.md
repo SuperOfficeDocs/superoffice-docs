@@ -87,16 +87,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 855,
-  "Name": "Price Group",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "Rank": 861,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 924,
+  "Name": "Schinner-White",
+  "Tooltip": "enim",
+  "Deleted": false,
+  "Rank": 339,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quis",
-  "InUseByUserDefinedFields": true
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 37,
-  "Name": "Lubowitz LLC",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 451,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 471,
+  "Name": "Erdman-West",
+  "Tooltip": "velit",
+  "Deleted": true,
+  "Rank": 406,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "hic",
+  "ListType": "quos",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldType": "System.String",
+      "FieldLength": 263
     }
   }
 }

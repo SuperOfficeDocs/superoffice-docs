@@ -64,7 +64,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,32 +72,32 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 03 May 2015 14:19:10 G5T
+Last-Modified: Sun, 03 Aug 2003 12:15:26 G8T
 
 {
-  "ForeignAppId": 18,
-  "Name": "Cummerata-Kunze",
-  "CreatedDate": "2002-05-13T14:19:10.3498478+02:00",
-  "UpdatedDate": "2015-05-03T14:19:10.3498478+02:00",
+  "ForeignAppId": 850,
+  "Name": "Kulas, Rempel and Rath",
+  "CreatedDate": "2017-09-07T12:15:26.9696358+02:00",
+  "UpdatedDate": "2003-08-03T12:15:26.9696358+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 706,
-      "Name": "Champlin, Schuppe and Kautzer",
-      "CreatedDate": "2009-05-26T14:19:10.3498478+02:00",
-      "UpdatedDate": "2010-04-10T14:19:10.3498478+02:00",
-      "AssociateFullName": "Caleigh Jakubowski",
-      "CreatedBy": "dolor",
-      "UpdatedBy": "quia",
-      "DeviceIdentifier": "aut",
-      "ForeignAppId": 501,
+      "ForeignDeviceId": 82,
+      "Name": "Yost LLC",
+      "CreatedDate": "1996-03-07T12:15:26.9706352+01:00",
+      "UpdatedDate": "2021-06-14T12:15:26.9706352+02:00",
+      "AssociateFullName": "Mr. Cory Grant",
+      "CreatedBy": "laudantium",
+      "UpdatedBy": "commodi",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 361,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 787
+          "FieldType": "System.Int32",
+          "FieldLength": 969
         }
       }
     }
@@ -107,7 +107,7 @@ Last-Modified: Sun, 03 May 2015 14:19:10 G5T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 125
+      "FieldLength": 384
     }
   }
 }

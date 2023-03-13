@@ -129,8 +129,8 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "ipsum",
-    "voluptate"
+    "adipisci",
+    "et"
   ]
 }
 ```
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 415,
-  "ERPQuoteLineKey": "ea",
-  "QuoteAlternativeId": 518,
-  "ERPProductKey": "dolores",
+  "QuoteLineId": 280,
+  "ERPQuoteLineKey": "molestiae",
+  "QuoteAlternativeId": 376,
+  "ERPProductKey": "eum",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 23288.754,
-  "DeliveredQuantity": 14269.101999999999,
-  "Rank": 525,
-  "Name": "Roberts-Leuschke",
-  "Description": "Reverse-engineered dedicated moratorium",
-  "Code": "atque",
-  "QuantityUnit": "aperiam",
-  "PriceUnit": "eius",
-  "ItemNumber": "860861",
+  "Quantity": 13416.654,
+  "DeliveredQuantity": 24677.115999999998,
+  "Rank": 157,
+  "Name": "Beatty-Fay",
+  "Description": "Enterprise-wide maximized encryption",
+  "Code": "ut",
+  "QuantityUnit": "esse",
+  "PriceUnit": "sequi",
+  "ItemNumber": "1501769",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "beatae",
-  "ProductTypeKey": "adipisci",
-  "Supplier": "facere",
-  "SupplierCode": "rem",
-  "Thumbnail": "et",
-  "VATInfo": "ipsam",
-  "VAT": 181.772,
-  "UnitCost": 8772.0659999999989,
-  "UnitMinimumPrice": 4976.7919999999995,
-  "UnitListPrice": 614.264,
+  "ProductFamilyKey": "amet",
+  "ProductTypeKey": "nulla",
+  "Supplier": "dolorem",
+  "SupplierCode": "a",
+  "Thumbnail": "omnis",
+  "VATInfo": "rerum",
+  "VAT": 14074.794,
+  "UnitCost": 13736.322,
+  "UnitMinimumPrice": 30239.966,
+  "UnitListPrice": 12636.288,
   "ExtraInfo": [
     {
-      "Name": "Hilpert-Rempel",
-      "Value": "porro",
+      "Name": "Okuneva LLC",
+      "Value": "consequatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldLength": 855
         }
       }
     },
     {
-      "Name": "Hilpert-Rempel",
-      "Value": "porro",
+      "Name": "Okuneva LLC",
+      "Value": "consequatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldLength": 855
         }
       }
     }
   ],
-  "RawExtraInfo": "perferendis",
-  "IsSubscription": false,
-  "SubscriptionUnit": "aut",
-  "SubscriptionQuantity": 28939.356,
-  "SubscriptionStart": "2000-03-26T14:19:03.984459+02:00",
-  "ERPDiscountPercent": 16907.93,
-  "ERPDiscountAmount": 21847.113999999998,
-  "DiscountPercent": 28306.288,
-  "DiscountAmount": 974.674,
+  "RawExtraInfo": "ab",
+  "IsSubscription": true,
+  "SubscriptionUnit": "modi",
+  "SubscriptionQuantity": 18907.422,
+  "SubscriptionStart": "2000-12-28T12:15:19.8827402+01:00",
+  "ERPDiscountPercent": 5202.44,
+  "ERPDiscountAmount": 2792.394,
+  "DiscountPercent": 23075.642,
+  "DiscountAmount": 14660.851999999999,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 25764.613999999998,
-  "EarningAmount": 14529.224,
-  "SubTotal": 29284.095999999998,
-  "TotalPrice": 26146.962,
-  "Rights": "sapiente",
-  "Rule": "facere",
-  "ExtraField1": "eligendi",
-  "ExtraField2": "iure",
-  "ExtraField3": "quia",
-  "ExtraField4": "at",
-  "ExtraField5": "dignissimos",
+  "EarningPercent": 11125.699999999999,
+  "EarningAmount": 19161.275999999998,
+  "SubTotal": 3494.41,
+  "TotalPrice": 5221.244,
+  "Rights": "et",
+  "Rule": "quis",
+  "ExtraField1": "est",
+  "ExtraField2": "magnam",
+  "ExtraField3": "eos",
+  "ExtraField4": "eum",
+  "ExtraField5": "aliquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 101
+      "FieldLength": 424
     }
   }
 }

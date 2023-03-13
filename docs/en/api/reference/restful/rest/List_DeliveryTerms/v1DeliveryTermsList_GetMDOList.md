@@ -25,8 +25,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=et
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
+GET /api/v1/List/DeliveryTerm/MDOItems?query=cum
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 34,
-    "Name": "Hackett Inc and Sons",
-    "ToolTip": "Corrupti qui numquam sit.",
-    "Deleted": true,
-    "Rank": 33,
-    "Type": "id",
+    "Id": 675,
+    "Name": "Fadel Inc and Sons",
+    "ToolTip": "Molestiae vel tempora neque culpa ea.",
+    "Deleted": false,
+    "Rank": 255,
+    "Type": "dicta",
     "ChildItems": [
       {
-        "Id": 462,
-        "Name": "Feest LLC",
-        "ToolTip": "Iusto odio.",
+        "Id": 6,
+        "Name": "Carroll Inc and Sons",
+        "ToolTip": "Perspiciatis non.",
         "Deleted": false,
-        "Rank": 740,
-        "Type": "quia",
+        "Rank": 799,
+        "Type": "magnam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "placeat",
-        "ColorBlock": 385,
-        "ExtraInfo": "a",
-        "StyleHint": "harum",
-        "FullName": "Jaida Bailey",
+        "IconHint": "molestias",
+        "ColorBlock": 916,
+        "ExtraInfo": "maxime",
+        "StyleHint": "omnis",
+        "FullName": "Adriel Ari Gottlieb Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 265
+            "FieldLength": 148
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 306,
-    "ExtraInfo": "id",
-    "StyleHint": "iusto",
-    "FullName": "Vivienne Bergnaum",
+    "IconHint": "enim",
+    "ColorBlock": 758,
+    "ExtraInfo": "commodi",
+    "StyleHint": "quos",
+    "FullName": "Francis Schneider",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 464
+        "FieldLength": 328
       }
     }
   }

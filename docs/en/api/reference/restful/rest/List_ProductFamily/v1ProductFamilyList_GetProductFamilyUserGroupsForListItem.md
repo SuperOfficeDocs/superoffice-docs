@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 769,
-    "Name": "Mosciski, Klocko and Witting",
-    "ToolTip": "Commodi enim.",
-    "Deleted": false,
-    "Rank": 494,
-    "Type": "assumenda",
-    "ColorBlock": 387,
-    "IconHint": "modi",
-    "Selected": true,
-    "LastChanged": "2008-05-17T14:19:11.3680268+02:00",
+    "Id": 120,
+    "Name": "Torp Inc and Sons",
+    "ToolTip": "Quaerat repudiandae velit.",
+    "Deleted": true,
+    "Rank": 552,
+    "Type": "totam",
+    "ColorBlock": 548,
+    "IconHint": "enim",
+    "Selected": false,
+    "LastChanged": "2006-12-15T12:15:28.2986162+01:00",
     "ChildItems": [
       {
-        "Id": 570,
-        "Name": "Smith-Koch",
-        "ToolTip": "Molestias neque non.",
-        "Deleted": true,
-        "Rank": 963,
-        "Type": "magni",
-        "ColorBlock": 13,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2003-08-29T14:19:11.3680268+02:00",
+        "Id": 938,
+        "Name": "Fisher-Blanda",
+        "ToolTip": "Eos nam voluptatem sit ut et repudiandae earum.",
+        "Deleted": false,
+        "Rank": 757,
+        "Type": "dolor",
+        "ColorBlock": 538,
+        "IconHint": "laborum",
+        "Selected": false,
+        "LastChanged": "2008-07-16T12:15:28.2986162+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "tempora",
-        "Hidden": false,
-        "FullName": "Jonatan Carroll MD",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "beatae",
+        "Hidden": true,
+        "FullName": "Miss Danny Muller DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 739
+            "FieldType": "System.Int32",
+            "FieldLength": 641
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "velit",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Brooklyn Hoeger",
+    "FullName": "Mrs. Bo Porter Miller MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 567
+        "FieldLength": 348
       }
     }
   }

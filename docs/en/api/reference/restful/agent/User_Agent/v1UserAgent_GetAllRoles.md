@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 638,
-    "Name": "Corwin, Jewess and Gaylord",
-    "ToolTip": "Voluptatem in ut soluta ut corrupti fugit cupiditate.",
+    "Id": 64,
+    "Name": "Braun LLC",
+    "ToolTip": "Dignissimos et excepturi possimus asperiores qui.",
     "Deleted": false,
-    "Rank": 399,
-    "Type": "culpa",
-    "ColorBlock": 350,
-    "IconHint": "tempora",
-    "Selected": true,
-    "LastChanged": "2003-01-23T14:19:04.5797015+01:00",
+    "Rank": 65,
+    "Type": "ea",
+    "ColorBlock": 925,
+    "IconHint": "quo",
+    "Selected": false,
+    "LastChanged": "2011-10-07T12:15:20.5637287+02:00",
     "ChildItems": [
       {
-        "Id": 227,
-        "Name": "Reichel, Thompson and Runolfsdottir",
-        "ToolTip": "Ut non natus dolor ipsa repellat est.",
+        "Id": 465,
+        "Name": "Little-Powlowski",
+        "ToolTip": "Quod recusandae dolores est ut accusantium.",
         "Deleted": false,
-        "Rank": 418,
-        "Type": "ut",
-        "ColorBlock": 737,
-        "IconHint": "cumque",
+        "Rank": 162,
+        "Type": "expedita",
+        "ColorBlock": 906,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2005-04-13T14:19:04.5797015+02:00",
+        "LastChanged": "2022-09-18T12:15:20.5637287+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "corrupti",
-        "Hidden": true,
-        "FullName": "Mr. Chanel Lesley Gottlieb",
+        "ExtraInfo": "magnam",
+        "StyleHint": "occaecati",
+        "Hidden": false,
+        "FullName": "Solon Feest",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 89
+            "FieldType": "System.Int32",
+            "FieldLength": 674
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "ullam",
+    "ExtraInfo": "et",
+    "StyleHint": "beatae",
     "Hidden": false,
-    "FullName": "Dr. Nathaniel Horacio Will I",
+    "FullName": "Jacky Anika Legros Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 697
+        "FieldType": "System.String",
+        "FieldLength": 150
       }
     }
   }

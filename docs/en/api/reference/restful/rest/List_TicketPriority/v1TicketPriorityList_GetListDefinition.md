@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 721,
-  "Name": "Windler, Bosco and Mosciski",
-  "Tooltip": "velit",
+  "Id": 583,
+  "Name": "Kuhn Group",
+  "Tooltip": "explicabo",
   "Deleted": false,
-  "Rank": 807,
+  "Rank": 30,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": true,
+  "ListType": "temporibus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 706
+      "FieldType": "System.String",
+      "FieldLength": 340
     }
   },
   "_Links": {

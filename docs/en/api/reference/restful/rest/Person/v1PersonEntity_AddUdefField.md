@@ -97,7 +97,7 @@ OK
 POST /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 873,
-  "ColumnId": 539,
-  "FieldDefault": "quo",
-  "FieldHeight": 780,
-  "FieldLabel": "ut",
-  "FieldLeft": 547,
-  "FieldTop": 547,
+  "UDefFieldId": 136,
+  "ColumnId": 151,
+  "FieldDefault": "modi",
+  "FieldHeight": 344,
+  "FieldLabel": "excepturi",
+  "FieldLeft": 602,
+  "FieldTop": 259,
   "FieldType": "Checkbox",
-  "FieldWidth": 337,
-  "FormatMask": "expedita",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 999,
-  "LabelLeft": 645,
-  "LabelTop": 888,
-  "LabelWidth": 843,
-  "LastVersionId": 688,
-  "ListTableId": 919,
-  "IsMandatory": true,
+  "FieldWidth": 902,
+  "FormatMask": "velit",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 269,
+  "LabelLeft": 586,
+  "LabelTop": 199,
+  "LabelWidth": 848,
+  "LastVersionId": 415,
+  "ListTableId": 930,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 473,
-  "ProgId": "ullam",
+  "Page1LineNo": 467,
+  "ProgId": "sunt",
   "IsReadOnly": false,
-  "ShortLabel": "voluptate",
-  "TabOrder": 866,
-  "TextLength": 870,
-  "Tooltip": "cupiditate",
-  "UdefIdentity": 758,
-  "UDListDefinitionId": 628,
+  "ShortLabel": "sit",
+  "TabOrder": 87,
+  "TextLength": 197,
+  "Tooltip": "dolor",
+  "UdefIdentity": 234,
+  "UDListDefinitionId": 462,
   "Justification": "Center",
-  "Version": 943,
-  "TemplateVariableName": "Bogan, Nienow and Pfannerstill",
-  "HasBeenPublished": true,
-  "MdoListName": "Graham Inc and Sons",
+  "Version": 990,
+  "TemplateVariableName": "Bogisich, Ziemann and Hartmann",
+  "HasBeenPublished": false,
+  "MdoListName": "Schmitt, Wilderman and Will",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 409
+      "FieldType": "System.String",
+      "FieldLength": 479
     }
   }
 }

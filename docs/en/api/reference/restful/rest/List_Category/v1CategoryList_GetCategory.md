@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 56,
-  "Name": "Waters, Schoen and Bailey",
-  "Tooltip": "minus",
+  "Id": 138,
+  "Name": "Goldner, Heaney and Rowe",
+  "Tooltip": "quod",
   "Deleted": false,
-  "UdListDefinitionId": 243,
-  "Rank": 823,
+  "UdListDefinitionId": 300,
+  "Rank": 95,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 738
+      "FieldLength": 807
     }
   }
 }

@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 691,
-    "Name": "Considine, Mann and Connelly",
-    "Tooltip": "unde",
+    "Id": 611,
+    "Name": "Watsica-Murphy",
+    "Tooltip": "voluptatum",
     "Deleted": false,
-    "UdListDefinitionId": 531,
-    "Rank": 670,
+    "UdListDefinitionId": 812,
+    "Rank": 416,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 140
+        "FieldType": "System.Int32",
+        "FieldLength": 109
       }
     }
   }

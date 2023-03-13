@@ -25,7 +25,7 @@ Gets a WebPanelEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=43
+POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=856
 POST /api/v1/Agents/List/GetWebPanelEntity?$select=name,department,category/id
 ```
 
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 74,
-  "Name": "O'Connell Inc and Sons",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "Rank": 510,
+  "WebPanelId": 254,
+  "Name": "Watsica LLC",
+  "Tooltip": "error",
+  "Deleted": false,
+  "Rank": 75,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
+  "OnCentral": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Collier Group",
+  "WindowName": "Block-Gutmann",
   "Url": "http://www.example.com/",
-  "ProgId": "impedit",
-  "Icon": 461,
+  "ProgId": "vel",
+  "Icon": 691,
   "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 883
+      "FieldLength": 47
     }
   }
 }

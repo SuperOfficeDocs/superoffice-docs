@@ -68,8 +68,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filter": "voluptatibus",
-  "Active": true
+  "Filter": "inventore",
+  "Active": false
 }
 ```
 

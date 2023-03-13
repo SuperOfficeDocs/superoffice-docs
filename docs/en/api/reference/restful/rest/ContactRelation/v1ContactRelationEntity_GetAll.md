@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Relation?$select=name,department,category/id
 GET /api/v1/Relation?$filter=name begins 'S'
 GET /api/v1/Relation?$orderBy=name asc
-GET /api/v1/Relation?$entities=cumque
-GET /api/v1/Relation?$top=53
-GET /api/v1/Relation?$skip=860
+GET /api/v1/Relation?$entities=unde
+GET /api/v1/Relation?$top=303
+GET /api/v1/Relation?$skip=749
 GET /api/v1/Relation?$mode=Full
 GET /api/v1/Relation?$options=GrandTotal=true
-GET /api/v1/Relation?$context=illum
+GET /api/v1/Relation?$context=voluptatem
 GET /api/v1/Relation?$format=JSON
 GET /api/v1/Relation?$jsonSafe=False
 GET /api/v1/Relation?$output=Display
@@ -117,7 +117,7 @@ OK
 GET /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -128,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "commodi",
+  "odata.nextLink": "occaecati",
   "value": [
     {
-      "PrimaryKey": 6959,
-      "EntityName": "person",
-      "personId": 6959,
-      "fullName": "Gaetano Josiane Brown IV"
+      "PrimaryKey": 4574,
+      "EntityName": "sale",
+      "saleId": 4574,
+      "contactId": 6433,
+      "name": "Rogahn Inc and Sons"
     },
     {
-      "PrimaryKey": 2710,
-      "EntityName": "person",
-      "personId": 2710,
-      "fullName": "Liam Nolan"
+      "PrimaryKey": 8549,
+      "EntityName": "sale",
+      "saleId": 8549,
+      "contactId": 8816,
+      "name": "Bosco, Koelpin and Upton"
     }
   ]
 }

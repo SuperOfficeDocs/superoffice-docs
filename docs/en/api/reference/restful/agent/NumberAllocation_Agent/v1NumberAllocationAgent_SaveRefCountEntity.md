@@ -82,39 +82,39 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 602,
-  "Field": "eum",
-  "RecordId": 110,
+  "RefCountsId": 882,
+  "Field": "aut",
+  "RecordId": 496,
   "SuggestedRecords": [
     {
-      "Id": 748,
-      "Name": "Braun, Raynor and Treutel",
-      "ToolTip": "Aperiam eum aspernatur suscipit.",
+      "Id": 959,
+      "Name": "Blanda-Schaefer",
+      "ToolTip": "Officia et ratione eligendi quaerat.",
       "Deleted": false,
-      "Rank": 864,
-      "Type": "necessitatibus",
+      "Rank": 745,
+      "Type": "officia",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aliquam",
-      "ColorBlock": 352,
-      "ExtraInfo": "id",
-      "StyleHint": "autem",
-      "FullName": "Petra Hoppe"
+      "IconHint": "sapiente",
+      "ColorBlock": 223,
+      "ExtraInfo": "assumenda",
+      "StyleHint": "vero",
+      "FullName": "Mrs. Royal Flatley V"
     }
   ],
-  "CurrentValue": 720,
-  "TravelPrefix": 891,
-  "SatPrefix": 170,
-  "Allocate": false,
-  "Unique": false,
-  "ReadOnly": true,
-  "AllowBlank": false
+  "CurrentValue": 995,
+  "TravelPrefix": 992,
+  "SatPrefix": 722,
+  "Allocate": true,
+  "Unique": true,
+  "ReadOnly": false,
+  "AllowBlank": true
 }
 ```
 
@@ -125,49 +125,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 830,
-  "Field": "autem",
-  "RecordId": 180,
+  "RefCountsId": 672,
+  "Field": "mollitia",
+  "RecordId": 884,
   "SuggestedRecords": [
     {
-      "Id": 860,
-      "Name": "Leffler-Howell",
-      "ToolTip": "Et doloribus.",
+      "Id": 537,
+      "Name": "Hammes-Cremin",
+      "ToolTip": "Dolor et dolorum laudantium incidunt non.",
       "Deleted": false,
-      "Rank": 685,
-      "Type": "asperiores",
+      "Rank": 835,
+      "Type": "blanditiis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "velit",
-      "ColorBlock": 845,
-      "ExtraInfo": "recusandae",
-      "StyleHint": "officia",
-      "FullName": "Prof. Elyssa Gulgowski",
+      "IconHint": "porro",
+      "ColorBlock": 788,
+      "ExtraInfo": "et",
+      "StyleHint": "enim",
+      "FullName": "Mrs. Ila Kub",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 258
+          "FieldLength": 507
         }
       }
     }
   ],
-  "CurrentValue": 180,
-  "TravelPrefix": 239,
-  "SatPrefix": 525,
+  "CurrentValue": 284,
+  "TravelPrefix": 494,
+  "SatPrefix": 906,
   "Allocate": false,
   "Unique": false,
-  "ReadOnly": true,
+  "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 143
+      "FieldType": "System.Int32",
+      "FieldLength": 673
     }
   }
 }

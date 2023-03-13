@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 370,
-    "Name": "Rogahn-Kihn",
-    "Tooltip": "blanditiis",
+    "HeadingId": 686,
+    "Name": "Herman-Schmidt",
+    "Tooltip": "maxime",
     "Deleted": false,
-    "Rank": 495,
-    "UdListDefinitionId": 478
+    "Rank": 847,
+    "UdListDefinitionId": 125
   },
   {
-    "HeadingId": 370,
-    "Name": "Rogahn-Kihn",
-    "Tooltip": "blanditiis",
+    "HeadingId": 686,
+    "Name": "Herman-Schmidt",
+    "Tooltip": "maxime",
     "Deleted": false,
-    "Rank": 495,
-    "UdListDefinitionId": 478
+    "Rank": 847,
+    "UdListDefinitionId": 125
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 168,
-    "Name": "Hauck Group",
-    "Tooltip": "dolorem",
+    "HeadingId": 499,
+    "Name": "Runolfsson-Reichert",
+    "Tooltip": "tempora",
     "Deleted": false,
-    "Rank": 618,
-    "UdListDefinitionId": 849,
+    "Rank": 585,
+    "UdListDefinitionId": 505,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 167
+        "FieldType": "System.Int32",
+        "FieldLength": 488
       }
     }
   }

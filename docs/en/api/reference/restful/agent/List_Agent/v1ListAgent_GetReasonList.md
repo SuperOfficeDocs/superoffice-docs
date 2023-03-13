@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetReasonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 415,
-    "Value": "quia",
-    "Tooltip": "et",
+    "Id": 440,
+    "Value": "et",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 779
+        "FieldType": "System.Int32",
+        "FieldLength": 188
       }
     }
   },
   {
-    "Id": 415,
-    "Value": "quia",
-    "Tooltip": "et",
+    "Id": 440,
+    "Value": "et",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 779
+        "FieldType": "System.Int32",
+        "FieldLength": 188
       }
     }
   }

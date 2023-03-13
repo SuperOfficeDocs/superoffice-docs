@@ -100,7 +100,7 @@ OK
 POST /api/v1/Sale/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "voluptatem",
+  "SaleText": "dolores",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -119,90 +119,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2018-09-23T14:19:10.7404799+02:00",
-  "Amount": 6904.202,
-  "SaleId": 598,
-  "Earning": 6271.134,
-  "EarningPercent": 3068.1859999999997,
-  "Heading": "et",
-  "Number": "1135783",
-  "Probability": 204,
-  "CreatedDate": "2017-09-14T14:19:10.7404799+02:00",
-  "UpdatedDate": "2000-03-09T14:19:10.7404799+01:00",
+  "Saledate": "2022-07-03T12:15:27.3396005+02:00",
+  "Amount": 4951.72,
+  "SaleId": 950,
+  "Earning": 24896.496,
+  "EarningPercent": 30625.448,
+  "Heading": "totam",
+  "Number": "979148",
+  "Probability": 222,
+  "CreatedDate": "2013-01-17T12:15:27.3396005+01:00",
+  "UpdatedDate": "1999-09-01T12:15:27.3396005+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 368,
+  "ActiveLinks": 183,
   "Links": [
     {
-      "EntityName": "Stroman Group",
-      "Id": 203,
-      "Description": "Triple-buffered exuding paradigm",
-      "ExtraInfo": "praesentium",
-      "LinkId": 574
+      "EntityName": "White, Boyle and Howell",
+      "Id": 30,
+      "Description": "Vision-oriented explicit projection",
+      "ExtraInfo": "totam",
+      "LinkId": 451
     },
     {
-      "EntityName": "Stroman Group",
-      "Id": 203,
-      "Description": "Triple-buffered exuding paradigm",
-      "ExtraInfo": "praesentium",
-      "LinkId": 574
+      "EntityName": "White, Boyle and Howell",
+      "Id": 30,
+      "Description": "Vision-oriented explicit projection",
+      "ExtraInfo": "totam",
+      "LinkId": 451
     }
   ],
-  "NextDueDate": "2006-08-26T14:19:10.7404799+02:00",
-  "Postit": "ad",
+  "NextDueDate": "2012-08-06T12:15:27.3396005+02:00",
+  "Postit": "itaque",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1999-01-19T14:19:10.7404799+01:00",
+  "ReopenDate": "2022-07-08T12:15:27.3396005+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Connelly LLC",
-      "Comment": "ut",
-      "StakeholderRoleId": 977,
-      "CountryId": 377,
-      "PersonId": 426,
-      "EmailDescription": "kennedy@ortizconnelly.biz",
-      "EmailId": 158,
-      "EmailAddress": "wilhelm@blick.ca",
-      "PhoneId": 945,
-      "ContactName": "Grady LLC",
-      "ContactId": 428,
-      "SaleId": 305,
-      "Mrmrs": "magnam",
-      "Firstname": "Krystal",
-      "MiddleName": "Ratke, Hahn and Bauch",
-      "Lastname": "Medhurst",
-      "SaleStakeholderId": 248,
-      "Rank": 986,
-      "Phone": "354-301-1036 x872"
+      "StakeholderRoleName": "O'Kon LLC",
+      "Comment": "aut",
+      "StakeholderRoleId": 451,
+      "CountryId": 400,
+      "PersonId": 741,
+      "EmailDescription": "tavares@hegmann.uk",
+      "EmailId": 689,
+      "EmailAddress": "gene_strosin@bergstrom.co.uk",
+      "PhoneId": 746,
+      "ContactName": "Greenholt, Mills and Pfannerstill",
+      "ContactId": 256,
+      "SaleId": 796,
+      "Mrmrs": "voluptate",
+      "Firstname": "Marge",
+      "MiddleName": "Runolfsdottir Inc and Sons",
+      "Lastname": "Windler",
+      "SaleStakeholderId": 942,
+      "Rank": 956,
+      "Phone": "360.812.9938"
     }
   ],
-  "ActiveErpLinks": 478,
+  "ActiveErpLinks": 332,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dejuan Pfannerstill",
-    "SuperOffice:2": "Dayton Clair Stokes I"
+    "SuperOffice:1": "1035856946",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "mollitia",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "quaerat",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "nisi",
-    "CustomFields2": "voluptatum"
+    "CustomFields1": "adipisci",
+    "CustomFields2": "quis"
   },
-  "PublishEventDate": "1997-09-17T14:19:10.7404799+02:00",
-  "PublishTo": "2020-10-21T14:19:10.7404799+02:00",
-  "PublishFrom": "2002-08-17T14:19:10.7404799+02:00",
+  "PublishEventDate": "2014-07-25T12:15:27.3406322+02:00",
+  "PublishTo": "2017-03-02T12:15:27.3406322+01:00",
+  "PublishFrom": "2010-10-17T12:15:27.3406322+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 274,
+      "VisibleId": 41,
       "Visibility": "All",
-      "DisplayValue": "minima"
+      "DisplayValue": "ipsam"
     },
     {
-      "VisibleId": 274,
+      "VisibleId": 41,
       "Visibility": "All",
-      "DisplayValue": "minima"
+      "DisplayValue": "ipsam"
     }
   ]
 }
@@ -215,7 +215,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "pariatur",
-  "2": "commodi"
+  "1": "sed",
+  "2": "dolorem"
 }
 ```

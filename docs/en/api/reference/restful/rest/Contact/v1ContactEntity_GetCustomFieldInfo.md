@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Tremblay Inc and Sons",
-  "DisplayName": "Wintheiser-Kautzer",
-  "Description": "Open-source logistical analyzer",
-  "ShortLabel": "error",
-  "HideLabel": true,
+  "FieldName": "Effertz Inc and Sons",
+  "DisplayName": "Kuphal-Shanahan",
+  "Description": "Customer-focused secondary protocol",
+  "ShortLabel": "perspiciatis",
+  "HideLabel": false,
   "HideField": false,
   "IsIndexed": false,
   "IsMandatory": true,
-  "IsReadOnly": true,
+  "IsReadOnly": false,
   "IsExternal": true,
-  "Rank": 53,
-  "TemplateVariableName": "Dach Group"
+  "Rank": 823,
+  "TemplateVariableName": "Franecki, Boehm and Streich"
 }
 ```

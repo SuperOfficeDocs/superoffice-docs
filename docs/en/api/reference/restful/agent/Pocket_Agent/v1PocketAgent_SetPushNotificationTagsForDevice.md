@@ -68,8 +68,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DeviceIdentifier": "ea",
-  "Tags": "ut"
+  "DeviceIdentifier": "modi",
+  "Tags": "quod"
 }
 ```
 

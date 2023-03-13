@@ -70,36 +70,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": false,
-      "DefaultShowInGui": true,
+      "CanSupportMultiUse": true,
+      "DefaultShowInGui": false,
       "DefaultShowInSelector": false,
       "IsActive": false,
-      "Key": "repellendus",
-      "ValueType": "laudantium",
-      "Mandatory": true,
-      "EncodedDisplayName": "Goldner, Gulgowski and Greenholt",
-      "EncodedDisplayDescription": "Versatile client-driven structure",
-      "IconHint": "sed",
+      "Key": "quam",
+      "ValueType": "dicta",
+      "Mandatory": false,
+      "EncodedDisplayName": "Buckridge Group",
+      "EncodedDisplayDescription": "Multi-lateral encompassing throughput",
+      "IconHint": "unde",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "sed",
-      "EncodedDataCaptionDescription": "Proactive local info-mediaries",
-      "CurrentOperationType": "consequatur",
+      "EncodedDataCaption": "explicabo",
+      "EncodedDataCaptionDescription": "Cross-group 4th generation knowledge user",
+      "CurrentOperationType": "qui",
       "Values": [
-        "dolorem",
-        "deleniti"
+        "molestiae",
+        "aliquam"
       ],
       "DisplayValues": [
-        "et",
-        "aut"
+        "dolores",
+        "dolores"
       ],
       "OperationInfos": [
         {},
@@ -107,9 +107,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Grady, Heller and Ziemann",
-  "Context": "ut",
-  "Ids": "soluta"
+  "TableName": "Wolf-Abshire",
+  "Context": "quo",
+  "Ids": "tempore"
 }
 ```
 
@@ -119,5 +119,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-527
+121
 ```

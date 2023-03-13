@@ -24,7 +24,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-POST /api/v1/TicketMessage?notify=False
+POST /api/v1/TicketMessage?notify=True
 ```
 
 
@@ -120,72 +120,72 @@ OK
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 319,
+  "EjMessageId": 677,
   "Ticket": null,
-  "CreatedAt": "2009-05-03T14:19:10.8811066+02:00",
+  "CreatedAt": "2000-07-22T12:15:27.544627+02:00",
   "CreatedBy": null,
-  "Author": "optio",
+  "Author": "asperiores",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "veniam",
-  "TimeSpent": 125,
-  "Body": "praesentium",
-  "HtmlBody": "nihil",
-  "EmailHeader": "dameon@binskuvalis.ca",
-  "DebugInfo": "consequatur",
-  "MailSorter": "officiis",
+  "MessageId": "facilis",
+  "TimeSpent": 871,
+  "Body": "nulla",
+  "HtmlBody": "pariatur",
+  "EmailHeader": "estel_hoeger@schmidt.co.uk",
+  "DebugInfo": "quae",
+  "MailSorter": "adipisci",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "sed",
+  "SearchTitle": "suscipit",
   "MessageHeaders": [
     {
-      "Id": 490,
-      "Name": "Kunde-Crooks",
-      "Value": "vel",
+      "Id": 222,
+      "Name": "Koss-Rohan",
+      "Value": "esse",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 490,
-      "Name": "Kunde-Crooks",
-      "Value": "vel",
+      "Id": 222,
+      "Name": "Koss-Rohan",
+      "Value": "esse",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
-  "Language": "est",
-  "Sentiment": 423,
-  "SentimentConfidence": 306,
+  "Important": false,
+  "Language": "qui",
+  "Sentiment": 120,
+  "SentimentConfidence": 501,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 538,
-      "Name": "Ankunding-Feeney",
-      "ContentType": "cum",
-      "AttSize": 517,
-      "InlineImage": false,
-      "ContentId": "odio"
+      "AttachmentId": 175,
+      "Name": "Beahan-Weimann",
+      "ContentType": "sunt",
+      "AttSize": 413,
+      "InlineImage": true,
+      "ContentId": "sit"
     },
     {
-      "AttachmentId": 538,
-      "Name": "Ankunding-Feeney",
-      "ContentType": "cum",
-      "AttSize": 517,
-      "InlineImage": false,
-      "ContentId": "odio"
+      "AttachmentId": 175,
+      "Name": "Beahan-Weimann",
+      "ContentType": "sunt",
+      "AttSize": 413,
+      "InlineImage": true,
+      "ContentId": "sit"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "illum",
-    "ExtraFields2": "nulla"
+    "ExtraFields1": "est",
+    "ExtraFields2": "maxime"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "rerum"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "iure"
   }
 }
 ```
@@ -197,28 +197,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 393,
+  "EjMessageId": 699,
   "Ticket": null,
-  "CreatedAt": "2006-11-30T14:19:10.8811066+01:00",
+  "CreatedAt": "1996-04-01T12:15:27.5516273+02:00",
   "CreatedBy": null,
-  "Author": "magni",
+  "Author": "labore",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "dicta",
-  "TimeSpent": 607,
-  "Body": "veniam",
-  "HtmlBody": "eos",
-  "EmailHeader": "lafayette@dach.ca",
-  "DebugInfo": "iste",
-  "MailSorter": "perspiciatis",
+  "MessageId": "quod",
+  "TimeSpent": 989,
+  "Body": "aut",
+  "HtmlBody": "ut",
+  "EmailHeader": "ariel.lockman@quigleymurray.uk",
+  "DebugInfo": "perferendis",
+  "MailSorter": "recusandae",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "et",
+  "SearchTitle": "vel",
   "MessageHeaders": [
     {
-      "Id": 308,
-      "Name": "Nader, Halvorson and Reinger",
-      "Value": "officia",
+      "Id": 855,
+      "Name": "Dooley Inc and Sons",
+      "Value": "rerum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -226,47 +226,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 857
+          "FieldLength": 383
         }
       }
     }
   ],
   "Important": false,
-  "Language": "vel",
-  "Sentiment": 86,
-  "SentimentConfidence": 116,
+  "Language": "voluptatem",
+  "Sentiment": 923,
+  "SentimentConfidence": 11,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 566,
-      "Name": "Hessel-Gutmann",
-      "ContentType": "sunt",
-      "AttSize": 470,
+      "AttachmentId": 839,
+      "Name": "Kertzmann-Tremblay",
+      "ContentType": "libero",
+      "AttSize": 346,
       "InlineImage": false,
-      "ContentId": "et",
+      "ContentId": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 615
+          "FieldLength": 30
         }
       }
     }
   ],
   "ExtraFields": {
     "ExtraFields1": "et",
-    "ExtraFields2": "maiores"
+    "ExtraFields2": "odio"
   },
   "CustomFields": {
-    "CustomFields1": "vitae",
-    "CustomFields2": "id"
+    "CustomFields1": "quia",
+    "CustomFields2": "voluptatum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 471
+      "FieldLength": 230
     }
   }
 }

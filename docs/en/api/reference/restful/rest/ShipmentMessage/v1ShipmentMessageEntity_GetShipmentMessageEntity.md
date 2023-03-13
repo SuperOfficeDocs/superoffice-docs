@@ -92,7 +92,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,33 +102,33 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 472,
-  "PlainMessage": "in",
-  "HtmlMessage": "nihil",
-  "SmsMessage": "temporibus",
-  "Description": "Networked content-based process improvement",
-  "Subject": "labore",
-  "FolderId": 281,
-  "HeaderField": "voluptas",
-  "Design": "itaque",
+  "ShipmentMessageId": 691,
+  "PlainMessage": "et",
+  "HtmlMessage": "est",
+  "SmsMessage": "rerum",
+  "Description": "Enterprise-wide static contingency",
+  "Subject": "hic",
+  "FolderId": 688,
+  "HeaderField": "nemo",
+  "Design": "ad",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Monitored actuating function",
-  "AccessKey": "qui",
-  "DocumentMessage": 678,
-  "Registered": "2014-08-22T14:19:10.7873511+02:00",
-  "RegisteredAssociateId": 822,
-  "Updated": "2007-07-18T14:19:10.7873511+02:00",
-  "UpdatedAssociateId": 47,
-  "UpdatedCount": 257,
+  "LongDescription": "Diverse national groupware",
+  "AccessKey": "nisi",
+  "DocumentMessage": 965,
+  "Registered": "2023-02-20T12:15:27.4006306+01:00",
+  "RegisteredAssociateId": 889,
+  "Updated": "2017-05-11T12:15:27.4006306+02:00",
+  "UpdatedAssociateId": 802,
+  "UpdatedCount": 464,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 246
+      "FieldLength": 694
     }
   },
   "_Links": {

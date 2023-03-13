@@ -86,30 +86,30 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 119,
-  "Name": "Stamm Group",
+  "WebhookId": 264,
+  "Name": "Senger Inc and Sons",
   "Events": [
-    "commodi",
-    "temporibus"
+    "ullam",
+    "rerum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "illum",
+  "Secret": "necessitatibus",
   "State": "Active",
-  "Type": "ut",
+  "Type": "quibusdam",
   "Headers": {
-    "Headers1": "nemo",
-    "Headers2": "qui"
+    "Headers1": "expedita",
+    "Headers2": "soluta"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2001-09-30T14:19:04.6422019+02:00",
+  "Registered": "2016-11-13T12:15:20.6647269+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2007-08-14T14:19:04.6422019+02:00",
+  "Updated": "2000-06-04T12:15:20.6647269+02:00",
   "UpdatedAssociate": null
 }
 ```
@@ -121,26 +121,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 803,
-  "Name": "Schmidt-Wintheiser",
+  "WebhookId": 575,
+  "Name": "Blick, Skiles and Abshire",
   "Events": [
-    "voluptatem",
-    "nihil"
+    "unde",
+    "perspiciatis"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "praesentium",
+  "Secret": "sunt",
   "State": "Active",
-  "Type": "quibusdam",
+  "Type": "ullam",
   "Headers": {
-    "Headers1": "qui",
-    "Headers2": "dignissimos"
+    "Headers1": "molestiae",
+    "Headers2": "vero"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2016-11-11T14:19:04.6422019+01:00",
+  "Registered": "2009-07-11T12:15:20.6657266+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2001-12-06T14:19:04.6422019+01:00",
+  "Updated": "1997-02-09T12:15:20.6667269+01:00",
   "UpdatedAssociate": null
 }
 ```

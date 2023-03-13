@@ -30,7 +30,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=730
+PUT /api/v1/Project/{id}/ImageInfo?projectId=138
 ```
 
 
@@ -103,23 +103,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 489,
-  "BlobSize": 883,
-  "Description": "Synergistic multi-state portal",
-  "ExtraInfo": "et",
+  "BlobId": 131,
+  "BlobSize": 205,
+  "Description": "Operative exuding artificial intelligence",
+  "ExtraInfo": "temporibus",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "sapiente",
-  "OriginalSize": 823,
-  "CreatedDate": "2007-10-01T14:19:10.5373508+02:00",
-  "UpdatedDate": "2014-11-09T14:19:10.5373508+01:00",
+  "MimeType": "officia",
+  "OriginalSize": 737,
+  "CreatedDate": "2012-02-02T12:15:27.1956294+01:00",
+  "UpdatedDate": "2020-10-16T12:15:27.1956294+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "doloribus"
+  "ConceptualType": "accusantium"
 }
 ```
 
@@ -130,25 +130,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 141,
-  "BlobSize": 382,
-  "Description": "Diverse dynamic paradigm",
-  "ExtraInfo": "nihil",
-  "IsEncrypted": false,
+  "BlobId": 534,
+  "BlobSize": 232,
+  "Description": "Enterprise-wide neutral internet solution",
+  "ExtraInfo": "ut",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "nulla",
-  "OriginalSize": 142,
-  "CreatedDate": "1997-08-12T14:19:10.5685937+02:00",
-  "UpdatedDate": "1996-12-04T14:19:10.5685937+01:00",
+  "MimeType": "et",
+  "OriginalSize": 147,
+  "CreatedDate": "2012-03-12T12:15:27.197632+01:00",
+  "UpdatedDate": "1998-12-22T12:15:27.197632+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "fugiat",
+  "ConceptualType": "soluta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 901
+      "FieldLength": 661
     }
   }
 }

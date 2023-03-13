@@ -85,16 +85,16 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "beatae",
-  "ProviderName": "Roberts-Roob",
-  "StorageKey": "hic",
+  "StorageType": "inventore",
+  "ProviderName": "Kuphal-Kling",
+  "StorageKey": "voluptatem",
   "DesiredColumnNames": [
-    "Denesik, Harris and Volkman",
-    "Hayes LLC"
+    "O'Conner, Jacobi and Stiedemann",
+    "Senger LLC"
   ],
   "StaticColumns": [
-    "quam",
-    "exercitationem"
+    "ea",
+    "ut"
   ]
 }
 ```
@@ -108,81 +108,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Wunsch-Wisozk",
-      "Operator": "porro",
+      "Name": "Hirthe Inc and Sons",
+      "Operator": "molestiae",
       "Values": [
-        "est",
-        "impedit"
+        "et",
+        "deleniti"
       ],
       "DisplayValues": [
-        "quo",
-        "nemo"
+        "reiciendis",
+        "enim"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 715,
+      "InterParenthesis": 183,
       "InterOperator": "And",
-      "UniqueHash": 990
+      "UniqueHash": 753
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Pfannerstill, Hansen and Cummerata",
-      "DisplayTooltip": "quasi",
-      "DisplayType": "tenetur",
-      "CanOrderBy": true,
-      "Name": "Brakus-Klein",
+      "DisplayName": "Quitzon, Littel and Beer",
+      "DisplayTooltip": "voluptas",
+      "DisplayType": "aliquid",
+      "CanOrderBy": false,
+      "Name": "Gulgowski Inc and Sons",
       "CanRestrictBy": false,
-      "RestrictionType": "aut",
-      "RestrictionListName": "Fadel Inc and Sons",
+      "RestrictionType": "ad",
+      "RestrictionListName": "Schmeler-Hane",
       "IsVisible": false,
-      "ExtraInfo": "dolores",
-      "Width": "assumenda",
-      "IconHint": "maxime",
-      "HeadingIconHint": "et"
+      "ExtraInfo": "rerum",
+      "Width": "aut",
+      "IconHint": "voluptatem",
+      "HeadingIconHint": "dolores"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Greenholt-Upton",
-      "PrimaryKey": 333,
+      "EntityName": "Reilly Inc and Sons",
+      "PrimaryKey": 355,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "ab",
-          "LinkHint": "aut"
+          "DisplayValue": "dolores",
+          "TooltipHint": "et",
+          "LinkHint": "dolores"
         }
       },
-      "LinkHint": "consequatur",
-      "StyleHint": "et",
+      "LinkHint": "sit",
+      "StyleHint": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 426
+          "FieldType": "System.Int32",
+          "FieldLength": 168
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Wiza, Dach and Pouros",
-      "Description": "Realigned holistic customer loyalty",
-      "Rank": 205,
+      "Name": "Luettgen-Dach",
+      "Description": "Profit-focused local algorithm",
+      "Rank": 465,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Wiza, Dach and Pouros",
-      "Description": "Realigned holistic customer loyalty",
-      "Rank": 205,
+      "Name": "Luettgen-Dach",
+      "Description": "Profit-focused local algorithm",
+      "Rank": 465,
       "Restrictions": [
         {},
         {}
@@ -193,8 +193,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 825
+      "FieldType": "System.String",
+      "FieldLength": 858
     }
   }
 }

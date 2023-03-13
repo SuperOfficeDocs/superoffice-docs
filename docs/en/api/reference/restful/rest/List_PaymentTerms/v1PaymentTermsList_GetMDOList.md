@@ -25,8 +25,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=True
-GET /api/v1/List/PaymentTerm/MDOItems?query=cumque
+GET /api/v1/List/PaymentTerm/MDOItems?flat=False
+GET /api/v1/List/PaymentTerm/MDOItems?query=vel
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 861,
-    "Name": "Simonis-Robel",
-    "ToolTip": "Rerum consequuntur veniam a asperiores.",
-    "Deleted": false,
-    "Rank": 5,
-    "Type": "laudantium",
+    "Id": 652,
+    "Name": "Kerluke LLC",
+    "ToolTip": "Aliquam animi voluptas deserunt dolor.",
+    "Deleted": true,
+    "Rank": 129,
+    "Type": "voluptas",
     "ChildItems": [
       {
-        "Id": 665,
-        "Name": "West Inc and Sons",
-        "ToolTip": "Illo error.",
-        "Deleted": false,
-        "Rank": 392,
-        "Type": "atque",
+        "Id": 980,
+        "Name": "Langworth-Turcotte",
+        "ToolTip": "Est officia autem impedit et omnis.",
+        "Deleted": true,
+        "Rank": 711,
+        "Type": "accusantium",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 708,
-        "ExtraInfo": "et",
-        "StyleHint": "quis",
-        "FullName": "Miss Camille Arielle West",
+        "IconHint": "nulla",
+        "ColorBlock": 618,
+        "ExtraInfo": "ut",
+        "StyleHint": "praesentium",
+        "FullName": "Miss Randi Turner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 356
+            "FieldLength": 763
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 767,
-    "ExtraInfo": "veritatis",
-    "StyleHint": "sed",
-    "FullName": "Miss Jarrod Zella Wintheiser",
+    "IconHint": "repellendus",
+    "ColorBlock": 745,
+    "ExtraInfo": "ut",
+    "StyleHint": "rerum",
+    "FullName": "Miss River Shanon Mueller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 991
+        "FieldType": "System.String",
+        "FieldLength": 26
       }
     }
   }

@@ -69,7 +69,7 @@ OK
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,23 +79,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 438,
-  "UniqueIdentifier": "voluptas",
-  "Name": "Tillman-Botsford",
-  "Description": "Quality-focused logistical matrices",
-  "IncludeId": "quo",
-  "HierarchyId": 168,
-  "Source": "voluptatem",
-  "Registered": "2005-03-24T14:19:10.240473+01:00",
-  "RegisteredAssociateId": 709,
-  "Updated": "2022-07-22T14:19:10.240473+02:00",
-  "UpdatedAssociateId": 879,
+  "EjscriptId": 322,
+  "UniqueIdentifier": "fuga",
+  "Name": "Schumm Inc and Sons",
+  "Description": "Reverse-engineered methodical utilisation",
+  "IncludeId": "ab",
+  "HierarchyId": 380,
+  "Source": "voluptatum",
+  "Registered": "2020-01-10T12:15:26.807638+01:00",
+  "RegisteredAssociateId": 424,
+  "Updated": "2013-01-13T12:15:26.807638+01:00",
+  "UpdatedAssociateId": 464,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldLength": 342
     }
   }
 }

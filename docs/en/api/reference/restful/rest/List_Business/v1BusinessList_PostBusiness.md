@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 557,
-  "Name": "Wolf Inc and Sons",
-  "Tooltip": "sapiente",
+  "Id": 473,
+  "Name": "Lowe-Carroll",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "UdListDefinitionId": 420,
-  "Rank": 120
+  "UdListDefinitionId": 295,
+  "Rank": 512
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 733,
-  "Name": "Grant Inc and Sons",
-  "Tooltip": "facilis",
-  "Deleted": true,
-  "UdListDefinitionId": 672,
-  "Rank": 867,
+  "Id": 666,
+  "Name": "Raynor Inc and Sons",
+  "Tooltip": "velit",
+  "Deleted": false,
+  "UdListDefinitionId": 550,
+  "Rank": 393,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldType": "System.String",
+      "FieldLength": 930
     }
   }
 }

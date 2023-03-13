@@ -78,25 +78,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 9,
-  "BlobSize": 164,
-  "Description": "Persevering even-keeled paradigm",
-  "ExtraInfo": "cupiditate",
+  "BlobId": 924,
+  "BlobSize": 627,
+  "Description": "Multi-channelled optimal customer loyalty",
+  "ExtraInfo": "voluptatum",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "expedita",
-  "OriginalSize": 428,
-  "CreatedDate": "2004-02-25T14:19:02.7750538+01:00",
-  "UpdatedDate": "2015-11-06T14:19:02.7750538+01:00",
+  "MimeType": "delectus",
+  "OriginalSize": 517,
+  "CreatedDate": "2010-02-01T12:15:18.2147623+01:00",
+  "UpdatedDate": "2017-10-04T12:15:18.2147623+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 745
+      "FieldLength": 441
     }
   }
 }

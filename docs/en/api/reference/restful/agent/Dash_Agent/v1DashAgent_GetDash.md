@@ -25,7 +25,7 @@ Gets a Dash object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDash?dashId=543
+POST /api/v1/Agents/Dash/GetDash?dashId=817
 POST /api/v1/Agents/Dash/GetDash?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Dash/GetDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,37 +88,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 732,
-  "UniqueId": "deserunt",
-  "Name": "Ruecker, Ledner and Stamm",
-  "Description": "Phased homogeneous project",
-  "AssociateId": 606,
-  "Columns": 273,
+  "DashboardId": 75,
+  "UniqueId": "suscipit",
+  "Name": "Kertzmann LLC",
+  "Description": "Diverse background software",
+  "AssociateId": 894,
+  "Columns": 79,
   "Theme": null,
-  "VisibleForAll": 697,
+  "VisibleForAll": 150,
   "VisibleForAssociates": [
-    211,
-    81
+    679,
+    909
   ],
   "VisibleForGroups": [
-    498,
-    543
+    695,
+    666
   ],
-  "PinForAll": 898,
+  "PinForAll": 561,
   "PinForAssociates": [
-    986,
-    589
+    659,
+    963
   ],
   "PinForGroups": [
-    86,
-    371
+    401,
+    916
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 805
+      "FieldType": "System.String",
+      "FieldLength": 964
     }
   }
 }

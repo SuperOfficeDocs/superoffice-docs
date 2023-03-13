@@ -67,11 +67,11 @@ OK
 POST /api/v1/Agents/Appointment/ToggleAppointmentStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 92
+  "AppointmentId": 961
 }
 ```
 

@@ -69,14 +69,14 @@ Content-Type: application/json; charset=utf-8
 {
   "CustConfigs": [
     {
-      "CustConfigId": 604,
+      "CustConfigId": 125,
       "Type": "Options",
-      "Config": "eum",
-      "CustLangId": 447,
-      "Registered": "1997-06-29T14:19:03.0886547+02:00",
-      "RegisteredAssociateId": 849,
-      "Updated": "2005-09-29T14:19:03.0886547+02:00",
-      "UpdatedAssociateId": 931
+      "Config": "natus",
+      "CustLangId": 878,
+      "Registered": "2005-02-11T12:15:18.6417562+01:00",
+      "RegisteredAssociateId": 796,
+      "Updated": "2003-11-09T12:15:18.6417562+01:00",
+      "UpdatedAssociateId": 231
     }
   ]
 }

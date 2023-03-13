@@ -1124,6 +1124,20 @@ title: Services88.TicketAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="CopyFromCRMDocument">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="DocumentId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CopyFromCRMDocumentResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:AttachmentEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="UploadAttachment">
         <xs:complexType>
           <xs:sequence>
@@ -1316,6 +1330,18 @@ title: Services88.TicketAgent WSDL
         </xs:complexType>
       </xs:element>
       <xs:element name="SaveTicketEntityWithNotifyResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:TicketEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetNextInQueue">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetNextInQueueResponse">
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="tns:TicketEntity" />
@@ -2144,6 +2170,23 @@ title: Services88.TicketAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="CopyFromCRMDocumentRequest">
+    <wsdl:part name="parameters" element="tns:CopyFromCRMDocument" />
+  </wsdl:message>
+  <wsdl:message name="CopyFromCRMDocumentRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CopyFromCRMDocumentResponse">
+    <wsdl:part name="parameters" element="tns:CopyFromCRMDocumentResponse" />
+  </wsdl:message>
+  <wsdl:message name="CopyFromCRMDocumentResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="UploadAttachmentRequest">
     <wsdl:part name="parameters" element="tns:UploadAttachment" />
   </wsdl:message>
@@ -2360,6 +2403,23 @@ title: Services88.TicketAgent WSDL
     <wsdl:part name="parameters" element="tns:SaveTicketEntityWithNotifyResponse" />
   </wsdl:message>
   <wsdl:message name="SaveTicketEntityWithNotifyResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetNextInQueueRequest">
+    <wsdl:part name="parameters" element="tns:GetNextInQueue" />
+  </wsdl:message>
+  <wsdl:message name="GetNextInQueueRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetNextInQueueResponse">
+    <wsdl:part name="parameters" element="tns:GetNextInQueueResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetNextInQueueResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -2989,6 +3049,10 @@ title: Services88.TicketAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetAttachmentEntity" name="GetAttachmentEntityRequest" message="tns:GetAttachmentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetAttachmentEntityResponse" name="GetAttachmentEntityResponse" message="tns:GetAttachmentEntityResponse" />
     </wsdl:operation>
+    <wsdl:operation name="CopyFromCRMDocument">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CopyFromCRMDocument" name="CopyFromCRMDocumentRequest" message="tns:CopyFromCRMDocumentRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CopyFromCRMDocumentResponse" name="CopyFromCRMDocumentResponse" message="tns:CopyFromCRMDocumentResponse" />
+    </wsdl:operation>
     <wsdl:operation name="UploadAttachment">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/UploadAttachment" name="UploadAttachmentRequest" message="tns:UploadAttachmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/UploadAttachmentResponse" name="UploadAttachmentResponse" message="tns:UploadAttachmentResponse" />
@@ -3040,6 +3104,10 @@ title: Services88.TicketAgent WSDL
     <wsdl:operation name="SaveTicketEntityWithNotify">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SaveTicketEntityWithNotify" name="SaveTicketEntityWithNotifyRequest" message="tns:SaveTicketEntityWithNotifyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SaveTicketEntityWithNotifyResponse" name="SaveTicketEntityWithNotifyResponse" message="tns:SaveTicketEntityWithNotifyResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNextInQueue">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetNextInQueue" name="GetNextInQueueRequest" message="tns:GetNextInQueueRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetNextInQueueResponse" name="GetNextInQueueResponse" message="tns:GetNextInQueueResponse" />
     </wsdl:operation>
     <wsdl:operation name="ProcessTicketWhenRead">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/ProcessTicketWhenRead" name="ProcessTicketWhenReadRequest" message="tns:ProcessTicketWhenReadRequest" />
@@ -3296,6 +3364,22 @@ title: Services88.TicketAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="CopyFromCRMDocument">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CopyFromCRMDocument" style="document" />
+      <wsdl:input name="CopyFromCRMDocumentRequest">
+        <soap:header message="tns:CopyFromCRMDocumentRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CopyFromCRMDocumentRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CopyFromCRMDocumentRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CopyFromCRMDocumentResponse">
+        <soap:header message="tns:CopyFromCRMDocumentResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CopyFromCRMDocumentResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CopyFromCRMDocumentResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CopyFromCRMDocumentResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="UploadAttachment">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/UploadAttachment" style="document" />
       <wsdl:input name="UploadAttachmentRequest">
@@ -3501,6 +3585,22 @@ title: Services88.TicketAgent WSDL
         <soap:header message="tns:SaveTicketEntityWithNotifyResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SaveTicketEntityWithNotifyResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SaveTicketEntityWithNotifyResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNextInQueue">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetNextInQueue" style="document" />
+      <wsdl:input name="GetNextInQueueRequest">
+        <soap:header message="tns:GetNextInQueueRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetNextInQueueRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetNextInQueueRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetNextInQueueResponse">
+        <soap:header message="tns:GetNextInQueueResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetNextInQueueResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetNextInQueueResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetNextInQueueResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

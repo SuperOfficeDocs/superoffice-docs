@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -108,37 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 422,
-  "Name": "Sipes-Donnelly",
-  "AssociateId": 465,
-  "DetailsTable": 211,
-  "DetailsRecord": 455,
+  "Id": 312,
+  "Name": "Yundt, Green and Paucek",
+  "AssociateId": 309,
+  "DetailsTable": 856,
+  "DetailsRecord": 826,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "ex",
-    "ParameterObject2": "ut"
+    "ParameterObject1": "officiis",
+    "ParameterObject2": "ad"
   },
-  "LastStarted": "2015-03-07T14:19:04.0782101+01:00",
-  "Created": "2004-11-06T14:19:04.0782101+01:00",
-  "StartCount": 686,
-  "DatabaseSerialNumber": "1611462",
-  "Context": "eligendi",
-  "Result": "in",
+  "LastStarted": "2004-10-05T12:15:20.0147362+02:00",
+  "Created": "2010-09-07T12:15:20.0147362+02:00",
+  "StartCount": 901,
+  "DatabaseSerialNumber": "1322738",
+  "Context": "minima",
+  "Result": "minus",
   "State": "All",
-  "Description": "Configurable 4th generation application",
-  "Response": "et",
-  "Request": "corporis",
-  "ProgressDescription": "Re-contextualized incremental customer loyalty",
-  "ProgressPercent": 378,
-  "FileName": "Lemke Inc and Sons",
+  "Description": "Function-based regional task-force",
+  "Response": "est",
+  "Request": "sit",
+  "ProgressDescription": "Synergistic 4th generation function",
+  "ProgressPercent": 301,
+  "FileName": "O'Connell, Luettgen and Schmeler",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 289
+      "FieldType": "System.Int32",
+      "FieldLength": 944
     }
   }
 }

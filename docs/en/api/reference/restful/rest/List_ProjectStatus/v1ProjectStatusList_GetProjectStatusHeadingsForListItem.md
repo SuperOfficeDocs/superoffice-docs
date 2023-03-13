@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 683,
-    "Name": "Koelpin, Goodwin and Bernhard",
-    "ToolTip": "Voluptatem quasi quibusdam.",
+    "Id": 154,
+    "Name": "Graham-Abshire",
+    "ToolTip": "Culpa et aut voluptatibus recusandae nam exercitationem atque.",
     "Deleted": false,
-    "Rank": 884,
-    "Type": "mollitia",
-    "ColorBlock": 409,
-    "IconHint": "saepe",
+    "Rank": 84,
+    "Type": "accusantium",
+    "ColorBlock": 506,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2010-12-12T14:19:11.3992772+01:00",
+    "LastChanged": "2020-06-09T12:15:28.3366156+02:00",
     "ChildItems": [
       {
-        "Id": 270,
-        "Name": "Kirlin, Hodkiewicz and Hettinger",
-        "ToolTip": "Sint omnis distinctio quod quia.",
+        "Id": 586,
+        "Name": "Roberts, Satterfield and Bartoletti",
+        "ToolTip": "Provident suscipit eveniet.",
         "Deleted": false,
-        "Rank": 643,
-        "Type": "perspiciatis",
-        "ColorBlock": 397,
-        "IconHint": "doloribus",
+        "Rank": 357,
+        "Type": "consequatur",
+        "ColorBlock": 156,
+        "IconHint": "explicabo",
         "Selected": true,
-        "LastChanged": "2015-06-16T14:19:11.3992772+02:00",
+        "LastChanged": "2001-02-24T12:15:28.3366156+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "fugit",
-        "Hidden": false,
-        "FullName": "Dulce Kihn V",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "a",
+        "Hidden": true,
+        "FullName": "Rasheed Jones MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 296
+            "FieldLength": 527
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "numquam",
-    "Hidden": true,
-    "FullName": "Oceane Satterfield",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "velit",
+    "Hidden": false,
+    "FullName": "Alva Kohler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 732
+        "FieldType": "System.String",
+        "FieldLength": 567
       }
     }
   }

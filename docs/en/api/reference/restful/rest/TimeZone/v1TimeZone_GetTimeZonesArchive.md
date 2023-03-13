@@ -38,12 +38,12 @@ Use with SO-TIMEZONE header to specify times.
 GET /api/v1/TimeZone?$select=name,department,category/id
 GET /api/v1/TimeZone?$filter=name begins 'S'
 GET /api/v1/TimeZone?$orderBy=name asc
-GET /api/v1/TimeZone?$entities=dignissimos
-GET /api/v1/TimeZone?$top=185
-GET /api/v1/TimeZone?$skip=756
+GET /api/v1/TimeZone?$entities=blanditiis
+GET /api/v1/TimeZone?$top=554
+GET /api/v1/TimeZone?$skip=200
 GET /api/v1/TimeZone?$mode=FULL
 GET /api/v1/TimeZone?$options=GrandTotal=true
-GET /api/v1/TimeZone?$context=voluptatem
+GET /api/v1/TimeZone?$context=molestias
 GET /api/v1/TimeZone?$format=JSON
 ```
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/TimeZone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,19 +95,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "libero",
+  "odata.nextLink": "hic",
   "value": [
     {
-      "PrimaryKey": 3892,
-      "EntityName": "person",
-      "personId": 3892,
-      "fullName": "Madisen Murphy"
+      "PrimaryKey": 7392,
+      "EntityName": "sale",
+      "saleId": 7392,
+      "contactId": 5115,
+      "name": "Conroy-Farrell"
     },
     {
-      "PrimaryKey": 6699,
-      "EntityName": "person",
-      "personId": 6699,
-      "fullName": "Forrest Champlin"
+      "PrimaryKey": 7957,
+      "EntityName": "sale",
+      "saleId": 7957,
+      "contactId": 5822,
+      "name": "Lind, Lesch and Barrows"
     }
   ]
 }

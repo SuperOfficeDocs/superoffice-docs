@@ -88,21 +88,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 540,
-  "Name": "Ortiz Inc and Sons",
-  "Tooltip": "in",
-  "Rank": 822,
-  "Deleted": false,
-  "DaysFuture": 158,
-  "Duration": "et",
-  "AutoSuggest": false,
-  "IsMilestone": true,
+  "SuggestedAppointmentId": 742,
+  "Name": "Jaskolski, Williamson and Runolfsdottir",
+  "Tooltip": "magnam",
+  "Rank": 918,
+  "Deleted": true,
+  "DaysFuture": 340,
+  "Duration": "doloremque",
+  "AutoSuggest": true,
+  "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "dolor",
+  "Text": "sed",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -116,17 +116,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 254,
-  "Name": "Marvin, Ziemann and Vandervort",
-  "Tooltip": "cupiditate",
-  "Rank": 634,
+  "SuggestedAppointmentId": 726,
+  "Name": "Kunde Group",
+  "Tooltip": "expedita",
+  "Rank": 370,
   "Deleted": false,
-  "DaysFuture": 183,
-  "Duration": "voluptatibus",
+  "DaysFuture": 109,
+  "Duration": "magni",
   "AutoSuggest": false,
-  "IsMilestone": true,
+  "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "quo",
+  "Text": "magni",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldLength": 217
     }
   }
 }

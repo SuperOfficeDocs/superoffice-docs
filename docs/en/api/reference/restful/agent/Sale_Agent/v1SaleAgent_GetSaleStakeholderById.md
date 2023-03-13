@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    452,
-    923
+    462,
+    434
   ]
 }
 ```
@@ -109,31 +109,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Vandervort-Hilpert",
-    "Comment": "sunt",
-    "StakeholderRoleId": 449,
-    "CountryId": 287,
-    "PersonId": 824,
-    "EmailDescription": "virginia@wehner.info",
-    "EmailId": 365,
-    "EmailAddress": "bonita.russel@tromphomenick.name",
-    "PhoneId": 159,
-    "ContactName": "Satterfield Group",
-    "ContactId": 331,
-    "SaleId": 788,
-    "Mrmrs": "architecto",
-    "Firstname": "Keenan",
-    "MiddleName": "Tromp, Kiehn and Rodriguez",
-    "Lastname": "Bernhard",
-    "SaleStakeholderId": 144,
-    "Rank": 115,
-    "Phone": "323-180-3105 x4707",
+    "StakeholderRoleName": "Hand-Ortiz",
+    "Comment": "similique",
+    "StakeholderRoleId": 702,
+    "CountryId": 980,
+    "PersonId": 120,
+    "EmailDescription": "mable@kozey.co.uk",
+    "EmailId": 703,
+    "EmailAddress": "emily.rau@goodwinmorissette.ca",
+    "PhoneId": 294,
+    "ContactName": "Kulas Group",
+    "ContactId": 900,
+    "SaleId": 718,
+    "Mrmrs": "aliquam",
+    "Firstname": "Domenic",
+    "MiddleName": "Swift LLC",
+    "Lastname": "O'Hara",
+    "SaleStakeholderId": 56,
+    "Rank": 941,
+    "Phone": "(676)547-2294 x27159",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 698
+        "FieldLength": 89
       }
     }
   }

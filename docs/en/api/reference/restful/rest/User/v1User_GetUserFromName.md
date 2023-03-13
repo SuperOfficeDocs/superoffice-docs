@@ -84,7 +84,7 @@ OK
 GET /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 332,
-  "Name": "Kirlin Inc and Sons",
-  "Rank": 317,
-  "Tooltip": "explicabo",
+  "AssociateId": 477,
+  "Name": "Hintz, Klocko and Hansen",
+  "Rank": 555,
+  "Tooltip": "omnis",
   "LicenseOwners": [
     {
-      "Name": "Hirthe-Green",
-      "Description": "Assimilated non-volatile circuit",
+      "Name": "Hermiston-Ankunding",
+      "Description": "Quality-focused transitional circuit",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -115,13 +115,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 784
+          "FieldLength": 165
         }
       }
     },
     {
-      "Name": "Hirthe-Green",
-      "Description": "Assimilated non-volatile circuit",
+      "Name": "Hermiston-Ankunding",
+      "Description": "Quality-focused transitional circuit",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 784
+          "FieldLength": 165
         }
       }
     }
@@ -144,110 +144,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "neque",
-      "Tooltip": "perspiciatis",
-      "Id": 905,
-      "Rank": 650,
-      "Deleted": false,
+      "Value": "iste",
+      "Tooltip": "maxime",
+      "Id": 939,
+      "Rank": 432,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 153
+          "FieldLength": 209
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2000-07-03T14:19:11.0529787+02:00",
-  "Lastlogout": "2007-03-28T14:19:11.0529787+02:00",
-  "EjUserId": 767,
-  "RequestSignature": "sed",
+  "Lastlogin": "2016-06-20T12:15:27.7686278+02:00",
+  "Lastlogout": "2009-07-26T12:15:27.7686278+02:00",
+  "EjUserId": 566,
+  "RequestSignature": "omnis",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "tempora",
-      "DisplayValue": "excepturi",
+      "Value": "nemo",
+      "DisplayValue": "impedit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 870
+          "FieldLength": 446
         }
       }
     },
     {
       "Type": null,
-      "Value": "tempora",
-      "DisplayValue": "excepturi",
+      "Value": "nemo",
+      "DisplayValue": "impedit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 870
+          "FieldLength": 446
         }
       }
     }
   ],
-  "UserName": "Fadel, Padberg and VonRueden",
+  "UserName": "Paucek, Bogisich and Feil",
   "TicketCategories": [
     {
-      "Id": 978,
-      "Name": "Klein, Gorczany and Gerhold",
-      "ToolTip": "Soluta non magni dolores suscipit.",
-      "Deleted": true,
-      "Rank": 455,
-      "Type": "quia",
+      "Id": 34,
+      "Name": "Prohaska Inc and Sons",
+      "ToolTip": "Assumenda vitae tempora veritatis quia accusamus facere nisi.",
+      "Deleted": false,
+      "Rank": 992,
+      "Type": "laborum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 724,
-      "ExtraInfo": "repellat",
-      "StyleHint": "velit",
-      "FullName": "Lloyd Windler",
+      "IconHint": "cupiditate",
+      "ColorBlock": 500,
+      "ExtraInfo": "laborum",
+      "StyleHint": "qui",
+      "FullName": "Miss Carmela Destiney Yost",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 800
+          "FieldType": "System.Int32",
+          "FieldLength": 497
         }
       }
     }
   ],
-  "NickName": "Reilly LLC",
-  "WaitingForApproval": false,
+  "NickName": "Leuschke-Pfeffer",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "fugiat",
-    "ExtraFields2": "consequuntur"
+    "ExtraFields1": "atque",
+    "ExtraFields2": "in"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "rerum"
+    "CustomFields1": "ea",
+    "CustomFields2": "dolor"
   },
   "PostSaveCommands": [
     {
-      "Name": "Heathcote, Torp and Rodriguez",
-      "DisplayName": "Pagac-Dickinson",
-      "Description": "Pre-emptive disintermediate info-mediaries",
-      "ToolTip": "Temporibus nesciunt molestias suscipit mollitia.",
+      "Name": "Kling, Hessel and Lemke",
+      "DisplayName": "Lesch-McLaughlin",
+      "Description": "Polarised encompassing algorithm",
+      "ToolTip": "Ipsa in omnis omnis quia.",
       "Actions": "Implicit",
-      "ActionData": "omnis",
+      "ActionData": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 839
+          "FieldLength": 114
         }
       }
     }
@@ -256,8 +256,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldType": "System.String",
+      "FieldLength": 222
     }
   }
 }

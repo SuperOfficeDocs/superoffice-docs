@@ -80,10 +80,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 542,
+  "DocumentId": 984,
   "AllowedReturnTypes": [
-    "repudiandae",
-    "at"
+    "totam",
+    "soluta"
   ]
 }
 ```
@@ -95,11 +95,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "sit",
-  "VersionId": "aut",
-  "Success": true,
+  "ExternalReference": "et",
+  "VersionId": "asperiores",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "ex",
-  "AdditionalInfo": "magni"
+  "Value": "perferendis",
+  "AdditionalInfo": "perspiciatis"
 }
 ```

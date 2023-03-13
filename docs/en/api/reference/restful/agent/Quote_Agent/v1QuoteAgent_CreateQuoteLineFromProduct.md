@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 545,
+  "QuoteAlternativeId": 242,
   "Product": null
 }
 ```
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 91,
-  "ERPQuoteLineKey": "aperiam",
-  "QuoteAlternativeId": 759,
-  "ERPProductKey": "doloremque",
+  "QuoteLineId": 274,
+  "ERPQuoteLineKey": "odit",
+  "QuoteAlternativeId": 566,
+  "ERPProductKey": "inventore",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 10151.026,
-  "DeliveredQuantity": 21890.989999999998,
-  "Rank": 988,
-  "Name": "Hermiston LLC",
-  "Description": "Fully-configurable reciprocal synergy",
-  "Code": "id",
-  "QuantityUnit": "aliquid",
-  "PriceUnit": "eaque",
-  "ItemNumber": "1656323",
+  "Quantity": 3798.408,
+  "DeliveredQuantity": 18553.28,
+  "Rank": 529,
+  "Name": "Hartmann Group",
+  "Description": "Cloned leading edge protocol",
+  "Code": "est",
+  "QuantityUnit": "labore",
+  "PriceUnit": "dicta",
+  "ItemNumber": "951977",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolorem",
-  "ProductTypeKey": "doloribus",
-  "Supplier": "et",
-  "SupplierCode": "dolorem",
-  "Thumbnail": "sequi",
-  "VATInfo": "natus",
-  "VAT": 20048.198,
-  "UnitCost": 3218.618,
-  "UnitMinimumPrice": 24125.532,
-  "UnitListPrice": 191.174,
+  "ProductFamilyKey": "sint",
+  "ProductTypeKey": "quam",
+  "Supplier": "nobis",
+  "SupplierCode": "odit",
+  "Thumbnail": "est",
+  "VATInfo": "consequatur",
+  "VAT": 26407.084,
+  "UnitCost": 13466.797999999999,
+  "UnitMinimumPrice": 13520.076,
+  "UnitListPrice": 24677.115999999998,
   "ExtraInfo": [
     {
-      "Name": "Runte Inc and Sons",
-      "Value": "qui",
+      "Name": "Collins, Borer and Kub",
+      "Value": "illum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 323
+          "FieldType": "System.Int32",
+          "FieldLength": 269
         }
       }
     },
     {
-      "Name": "Runte Inc and Sons",
-      "Value": "qui",
+      "Name": "Collins, Borer and Kub",
+      "Value": "illum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 323
+          "FieldType": "System.Int32",
+          "FieldLength": 269
         }
       }
     }
   ],
-  "RawExtraInfo": "facilis",
-  "IsSubscription": false,
-  "SubscriptionUnit": "sit",
-  "SubscriptionQuantity": 29083.52,
-  "SubscriptionStart": "2013-02-19T14:19:04.0469597+01:00",
-  "ERPDiscountPercent": 19750.468,
-  "ERPDiscountAmount": 29566.156,
-  "DiscountPercent": 17512.791999999998,
-  "DiscountAmount": 8812.8079999999991,
+  "RawExtraInfo": "odit",
+  "IsSubscription": true,
+  "SubscriptionUnit": "cupiditate",
+  "SubscriptionQuantity": 15930.122,
+  "SubscriptionStart": "1999-05-28T12:15:19.9657371+02:00",
+  "ERPDiscountPercent": 22336.018,
+  "ERPDiscountAmount": 12852.534,
+  "DiscountPercent": 25993.396,
+  "DiscountAmount": 29732.257999999998,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 30155.347999999998,
-  "EarningAmount": 17174.32,
-  "SubTotal": 2106.048,
-  "TotalPrice": 22514.656,
-  "Rights": "saepe",
-  "Rule": "ex",
-  "ExtraField1": "natus",
-  "ExtraField2": "dolore",
-  "ExtraField3": "exercitationem",
-  "ExtraField4": "possimus",
-  "ExtraField5": "assumenda",
+  "EarningPercent": 6568.864,
+  "EarningAmount": 5744.6219999999994,
+  "SubTotal": 20386.67,
+  "TotalPrice": 1049.8899999999999,
+  "Rights": "ut",
+  "Rule": "ratione",
+  "ExtraField1": "modi",
+  "ExtraField2": "optio",
+  "ExtraField3": "et",
+  "ExtraField4": "veritatis",
+  "ExtraField5": "labore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 10
+      "FieldType": "System.Int32",
+      "FieldLength": 583
     }
   }
 }

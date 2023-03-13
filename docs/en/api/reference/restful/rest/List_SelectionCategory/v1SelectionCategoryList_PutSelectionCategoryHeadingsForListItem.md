@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 665,
-    "Name": "Johns-Gislason",
-    "ToolTip": "Autem quia veniam odio odio.",
+    "Id": 302,
+    "Name": "Huel, Turcotte and Murazik",
+    "ToolTip": "Non repellat deleniti eius aut hic.",
     "Deleted": true,
-    "Rank": 263,
-    "Type": "quisquam",
-    "ColorBlock": 999,
-    "IconHint": "totam",
+    "Rank": 350,
+    "Type": "quas",
+    "ColorBlock": 753,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2012-07-04T14:19:11.6120888+02:00",
+    "LastChanged": "2015-07-21T12:15:28.5036132+02:00",
     "ChildItems": [
       {
-        "Id": 856,
-        "Name": "Ward, Pagac and Hegmann",
-        "ToolTip": "Ad voluptatibus quia tenetur.",
-        "Deleted": true,
-        "Rank": 344,
-        "Type": "voluptas",
-        "ColorBlock": 925,
-        "IconHint": "dolorum",
+        "Id": 61,
+        "Name": "Rice-Schowalter",
+        "ToolTip": "Quibusdam distinctio ad eius earum mollitia.",
+        "Deleted": false,
+        "Rank": 318,
+        "Type": "iure",
+        "ColorBlock": 619,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2009-12-20T14:19:11.6120888+01:00",
+        "LastChanged": "2001-01-21T12:15:28.5036132+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "fugiat",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Gerry Marvin"
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Kallie Little"
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "odit",
-    "Hidden": true,
-    "FullName": "Mrs. Dameon Dianna Spinka"
+    "ExtraInfo": "ad",
+    "StyleHint": "nihil",
+    "Hidden": false,
+    "FullName": "Agustina Hudson Jr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 231,
-    "Name": "Schoen-Kirlin",
-    "ToolTip": "Voluptas assumenda rem.",
-    "Deleted": false,
-    "Rank": 263,
-    "Type": "cumque",
-    "ColorBlock": 818,
-    "IconHint": "voluptas",
+    "Id": 618,
+    "Name": "Halvorson, Olson and Mertz",
+    "ToolTip": "Dolores perspiciatis.",
+    "Deleted": true,
+    "Rank": 698,
+    "Type": "ducimus",
+    "ColorBlock": 583,
+    "IconHint": "quo",
     "Selected": true,
-    "LastChanged": "2014-05-23T14:19:11.6276984+02:00",
+    "LastChanged": "2011-08-15T12:15:28.5056134+02:00",
     "ChildItems": [
       {
-        "Id": 476,
-        "Name": "Pagac-Harvey",
-        "ToolTip": "Et mollitia vel molestias.",
+        "Id": 900,
+        "Name": "Luettgen-Bernhard",
+        "ToolTip": "Placeat eius.",
         "Deleted": false,
-        "Rank": 888,
-        "Type": "expedita",
-        "ColorBlock": 906,
-        "IconHint": "minus",
-        "Selected": false,
-        "LastChanged": "2003-01-05T14:19:11.6276984+01:00",
+        "Rank": 57,
+        "Type": "ex",
+        "ColorBlock": 402,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2019-11-21T12:15:28.5056134+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "ut",
+        "ExtraInfo": "odit",
+        "StyleHint": "nesciunt",
         "Hidden": false,
-        "FullName": "Miss Chase Crona",
+        "FullName": "Dr. Dean Hagenes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 415
+            "FieldType": "System.String",
+            "FieldLength": 893
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "sunt",
-    "Hidden": false,
-    "FullName": "Rupert Scarlett Nikolaus Sr.",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "nostrum",
+    "Hidden": true,
+    "FullName": "Raoul Cruickshank",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 152
+        "FieldType": "System.Int32",
+        "FieldLength": 37
       }
     }
   }

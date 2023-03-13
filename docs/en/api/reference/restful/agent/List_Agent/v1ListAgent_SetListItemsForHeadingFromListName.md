@@ -66,15 +66,15 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Jast-Metz",
-  "HeadingId": 773,
+  "UdListDefinitionName": "Herman-Robel",
+  "HeadingId": 881,
   "ListItemIds": [
-    693,
-    441
+    84,
+    193
   ],
   "Enable": false
 }

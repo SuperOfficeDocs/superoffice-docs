@@ -86,15 +86,15 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 707,
-  "NewName": "Emard, Wyman and Brekke",
-  "ValidFrom": "2016-09-14T14:19:04.0000842+02:00",
-  "ValidTo": "2012-09-25T14:19:04.0000842+02:00",
-  "NewCurrencyId": 339,
+  "OriginalPriceListId": 500,
+  "NewName": "Gleichner, Spencer and Cassin",
+  "ValidFrom": "2000-10-19T12:15:19.9187377+02:00",
+  "ValidTo": "2002-02-26T12:15:19.9187377+01:00",
+  "NewCurrencyId": 293,
   "ConvertCurrency": false
 }
 ```
@@ -106,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 7,
-  "ERPPriceListKey": "aspernatur",
-  "QuoteConnectionId": 874,
-  "Name": "Brown Inc and Sons",
-  "Description": "Inverse motivating definition",
-  "Currency": "at",
-  "CurrencyName": "Dietrich-Windler",
-  "ValidFrom": "2005-02-01T14:19:04.0000842+01:00",
-  "ValidTo": "2002-09-23T14:19:04.0000842+02:00",
-  "IsActive": true,
+  "PriceListId": 117,
+  "ERPPriceListKey": "non",
+  "QuoteConnectionId": 695,
+  "Name": "Little, Langosh and Hilpert",
+  "Description": "Stand-alone homogeneous conglomeration",
+  "Currency": "est",
+  "CurrencyName": "Green-Hayes",
+  "ValidFrom": "2002-05-26T12:15:19.9187377+02:00",
+  "ValidTo": "2004-03-01T12:15:19.9187377+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldType": "System.String",
+      "FieldLength": 529
     }
   }
 }

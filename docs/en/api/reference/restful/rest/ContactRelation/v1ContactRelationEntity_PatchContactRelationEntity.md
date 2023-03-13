@@ -130,12 +130,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "explicabo",
+    "path": "earum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "explicabo",
+    "path": "earum",
     "value": {}
   }
 ]
@@ -148,35 +148,35 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 670,
-  "SourcePersonId": 314,
-  "DestinationContactId": 685,
-  "DestinationPersonId": 842,
-  "RelationId": 124,
-  "Comment": "at",
-  "RelationDefinitionId": 898,
-  "Reversed": 484,
-  "UpdatedDate": "2021-07-14T14:19:10.240473+02:00",
-  "CreatedDate": "2001-04-09T14:19:10.240473+02:00",
+  "SourceContactId": 357,
+  "SourcePersonId": 695,
+  "DestinationContactId": 123,
+  "DestinationPersonId": 217,
+  "RelationId": 662,
+  "Comment": "voluptas",
+  "RelationDefinitionId": 182,
+  "Reversed": 888,
+  "UpdatedDate": "2018-03-30T12:15:26.8066377+02:00",
+  "CreatedDate": "2007-04-01T12:15:26.8066377+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "DuBuque LLC",
-  "SourcePersonName": "Beahan, Langosh and Gorczany",
-  "DestinationContactName": "Wyman, Robel and Hegmann",
-  "DestinationPersonName": "O'Hara-Kemmer",
-  "ActiveText": "modi",
-  "PassiveText": "ut",
+  "SourceContactName": "Boyer, Morissette and Stiedemann",
+  "SourcePersonName": "Cummings, Littel and Jerde",
+  "DestinationContactName": "Farrell LLC",
+  "DestinationPersonName": "Ruecker, Vandervort and Renner",
+  "ActiveText": "quos",
+  "PassiveText": "dolorum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldType": "System.String",
+      "FieldLength": 818
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 314
+  "ContactId": 123
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 118,
-    "Name": "Jewess, Runte and Denesik",
-    "Description": "Face to face upward-trending extranet",
+    "ProjectId": 491,
+    "Name": "Corkery-Kub",
+    "Description": "Object-based client-driven application",
     "URL": "http://www.example.com/",
-    "Type": "omnis",
-    "AssociateId": 744,
-    "AssociateFullName": "Estrella Borer",
-    "TypeId": 92,
-    "Updated": "2006-12-07T14:19:03.9688343+01:00",
-    "StatusId": 694,
-    "Status": "quos",
-    "TextId": 274,
-    "PublishTo": "2018-03-30T14:19:03.9688343+02:00",
-    "PublishFrom": "2008-05-16T14:19:03.9688343+02:00",
-    "IsPublished": false,
+    "Type": "enim",
+    "AssociateId": 135,
+    "AssociateFullName": "Mrs. Furman Mia Collier",
+    "TypeId": 573,
+    "Updated": "2021-01-29T12:15:19.8617384+01:00",
+    "StatusId": 737,
+    "Status": "dolorem",
+    "TextId": 826,
+    "PublishTo": "2015-07-15T12:15:19.8627386+02:00",
+    "PublishFrom": "1996-02-23T12:15:19.8627386+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "848764",
-    "ActiveErpLinks": 156,
+    "ProjectNumber": "1564679",
+    "ActiveErpLinks": 307,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldLength": 627
       }
     }
   }

@@ -91,46 +91,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 920,
+  "HierarchyId": 72,
   "Domain": "Dashboards",
-  "Name": "Hahn Group",
-  "Fullname": "magni",
-  "ParentId": 633,
+  "Name": "Schumm, Erdman and Emard",
+  "Fullname": "et",
+  "ParentId": 758,
   "Children": [
     {
-      "HierarchyId": 790,
+      "HierarchyId": 658,
       "Domain": "Dashboards",
-      "Name": "Abernathy, Fisher and Feeney",
-      "Fullname": "doloremque",
-      "ParentId": 447,
+      "Name": "Dickinson, Aufderhar and Hickle",
+      "Fullname": "placeat",
+      "ParentId": 306,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1996-05-07T14:19:10.3654771+02:00",
-      "RegisteredAssociateId": 952,
-      "Updated": "2003-10-07T14:19:10.3654771+02:00",
-      "UpdatedAssociateId": 232,
+      "Registered": "2008-10-21T12:15:26.9826351+02:00",
+      "RegisteredAssociateId": 397,
+      "Updated": "1999-11-07T12:15:26.9826351+01:00",
+      "UpdatedAssociateId": 282,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 230
+          "FieldType": "System.Int32",
+          "FieldLength": 466
         }
       }
     }
   ],
-  "Registered": "2003-05-28T14:19:10.3654771+02:00",
-  "RegisteredAssociateId": 570,
-  "Updated": "2010-06-15T14:19:10.3654771+02:00",
-  "UpdatedAssociateId": 481,
+  "Registered": "2013-05-31T12:15:26.9826351+02:00",
+  "RegisteredAssociateId": 942,
+  "Updated": "2007-04-07T12:15:26.9826351+02:00",
+  "UpdatedAssociateId": 275,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 498
+      "FieldLength": 658
     }
   },
   "_Links": {

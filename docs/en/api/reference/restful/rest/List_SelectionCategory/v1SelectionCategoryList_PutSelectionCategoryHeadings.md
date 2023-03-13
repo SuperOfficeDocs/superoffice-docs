@@ -79,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 155,
-    "Name": "Cole, Kilback and Franecki",
-    "Tooltip": "accusamus",
-    "Deleted": false,
-    "Rank": 739,
-    "UdListDefinitionId": 708
+    "HeadingId": 3,
+    "Name": "Veum-Hills",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 761,
+    "UdListDefinitionId": 116
   },
   {
-    "HeadingId": 155,
-    "Name": "Cole, Kilback and Franecki",
-    "Tooltip": "accusamus",
-    "Deleted": false,
-    "Rank": 739,
-    "UdListDefinitionId": 708
+    "HeadingId": 3,
+    "Name": "Veum-Hills",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 761,
+    "UdListDefinitionId": 116
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 185,
-    "Name": "Moen Inc and Sons",
-    "Tooltip": "recusandae",
+    "HeadingId": 331,
+    "Name": "Bayer Group",
+    "Tooltip": "vitae",
     "Deleted": false,
-    "Rank": 914,
-    "UdListDefinitionId": 581,
+    "Rank": 577,
+    "UdListDefinitionId": 405,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 212
+        "FieldType": "System.String",
+        "FieldLength": 50
       }
     }
   }

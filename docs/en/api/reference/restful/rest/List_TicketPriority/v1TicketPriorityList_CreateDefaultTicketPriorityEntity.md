@@ -81,7 +81,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,60 +91,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 713,
-  "Name": "Quitzon-Bashirian",
+  "TicketPriorityId": 310,
+  "Name": "Jakubowski Inc and Sons",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 188,
+  "SortOrder": 950,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 723,
-  "MonStart": "2019-03-30T14:19:11.660135+01:00",
-  "MonStop": "2022-09-12T14:19:11.660135+02:00",
-  "TueStart": "2012-06-28T14:19:11.660135+02:00",
-  "TueStop": "2021-12-22T14:19:11.660135+01:00",
-  "WedStart": "2008-06-09T14:19:11.660135+02:00",
-  "WedStop": "2013-05-01T14:19:11.660135+02:00",
-  "ThuStart": "2007-08-21T14:19:11.660135+02:00",
-  "ThuStop": "2005-04-22T14:19:11.660135+02:00",
-  "FriStart": "2010-05-17T14:19:11.660135+02:00",
-  "FriStop": "2022-05-06T14:19:11.660135+02:00",
-  "SatStart": "1999-01-02T14:19:11.660135+01:00",
-  "SatStop": "2001-11-12T14:19:11.660135+01:00",
-  "SunStart": "2014-04-28T14:19:11.660135+02:00",
-  "SunStop": "1998-02-12T14:19:11.660135+01:00",
+  "Deadline": 16,
+  "MonStart": "2020-04-18T12:15:28.5586133+02:00",
+  "MonStop": "2013-08-01T12:15:28.5586133+02:00",
+  "TueStart": "2004-05-26T12:15:28.5586133+02:00",
+  "TueStop": "2021-04-28T12:15:28.5586133+02:00",
+  "WedStart": "2002-07-19T12:15:28.5586133+02:00",
+  "WedStop": "2014-08-17T12:15:28.5586133+02:00",
+  "ThuStart": "2018-02-10T12:15:28.5586133+01:00",
+  "ThuStop": "2006-08-02T12:15:28.5586133+02:00",
+  "FriStart": "2005-03-31T12:15:28.5586133+02:00",
+  "FriStop": "2012-09-21T12:15:28.5586133+02:00",
+  "SatStart": "1996-03-14T12:15:28.5586133+01:00",
+  "SatStop": "2020-07-10T12:15:28.5586133+02:00",
+  "SunStart": "2011-07-29T12:15:28.5586133+02:00",
+  "SunStop": "1996-05-06T12:15:28.5586133+02:00",
   "NonDates": [
-    "perferendis",
-    "odit"
+    "quia",
+    "doloremque"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 866,
-      "AlertLevel": 787,
-      "AlertTimeout": 559,
-      "Action": 940,
-      "DelegateTo": 838,
-      "ScriptId": 859,
-      "EmailTo": "joe@mills.co.uk",
-      "SmsTo": "velit",
-      "ReplyTemplateIdCustomer": 416,
-      "ReplyTemplateIdUser": 60,
-      "ReplyTemplateIdCatmast": 310,
-      "ReplyTemplateIdEmail": 885,
-      "RtiCustomerSms": 948,
-      "ReplyTemplateIdUserSms": 17,
-      "ReplyTemplateIdCatmastSms": 920,
-      "ReplyTemplateIdSms": 789,
+      "TicketAlertId": 114,
+      "AlertLevel": 26,
+      "AlertTimeout": 142,
+      "Action": 421,
+      "DelegateTo": 614,
+      "ScriptId": 733,
+      "EmailTo": "jaclyn@greenfelder.co.uk",
+      "SmsTo": "voluptatem",
+      "ReplyTemplateIdCustomer": 761,
+      "ReplyTemplateIdUser": 88,
+      "ReplyTemplateIdCatmast": 203,
+      "ReplyTemplateIdEmail": 327,
+      "RtiCustomerSms": 856,
+      "ReplyTemplateIdUserSms": 99,
+      "ReplyTemplateIdCatmastSms": 784,
+      "ReplyTemplateIdSms": 14,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 78
+          "FieldType": "System.Int32",
+          "FieldLength": 292
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldLength": 907
     }
   }
 }

@@ -101,16 +101,16 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 365,
+  "EmailId": 774,
   "AttachmentIds": [
-    "incidunt",
-    "magni"
+    "fugiat",
+    "expedita"
   ],
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -123,146 +123,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 298,
-      "ContactName": "Prohaska-Maggio",
-      "PersonId": 408,
-      "PersonName": "Breitenberg-Jacobson",
-      "AssociateId": 487,
-      "Address": "et",
-      "EmailId": 572,
+      "ContactId": 85,
+      "ContactName": "Gerlach Group",
+      "PersonId": 636,
+      "PersonName": "Bogisich LLC",
+      "AssociateId": 964,
+      "Address": "est",
+      "EmailId": 843,
       "DuplicatePersonIds": [
-        984,
-        421
+        568,
+        418
       ],
-      "Name": "Jaskolski-Hauck",
+      "Name": "Ryan LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 740
+          "FieldLength": 345
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 564,
-      "ContactName": "Leuschke Group",
-      "PersonId": 392,
-      "PersonName": "Reynolds Group",
-      "AssociateId": 599,
-      "Address": "enim",
-      "EmailId": 285,
+      "ContactId": 277,
+      "ContactName": "Rice-Quigley",
+      "PersonId": 620,
+      "PersonName": "Lang Group",
+      "AssociateId": 340,
+      "Address": "sapiente",
+      "EmailId": 32,
       "DuplicatePersonIds": [
-        492,
-        118
+        645,
+        266
       ],
-      "Name": "Harvey Group",
+      "Name": "Strosin, Crona and Kub",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 730
+          "FieldLength": 116
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 747,
-      "ContactName": "Bosco-Maggio",
-      "PersonId": 52,
-      "PersonName": "Lakin Inc and Sons",
-      "AssociateId": 490,
-      "Address": "ut",
-      "EmailId": 583,
+      "ContactId": 944,
+      "ContactName": "Rosenbaum-Boyer",
+      "PersonId": 451,
+      "PersonName": "Wyman, Skiles and Schuppe",
+      "AssociateId": 429,
+      "Address": "distinctio",
+      "EmailId": 231,
       "DuplicatePersonIds": [
-        461,
-        549
+        399,
+        347
       ],
-      "Name": "Gusikowski, Kirlin and Keeling",
+      "Name": "Schultz, Wisoky and Greenholt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 756
+          "FieldLength": 275
         }
       }
     }
   ],
-  "Subject": "quibusdam",
-  "HTMLBody": "et",
+  "Subject": "assumenda",
+  "HTMLBody": "ut",
   "From": null,
-  "Sent": "2003-02-13T14:19:03.466522+01:00",
-  "Size": 993,
+  "Sent": "2019-10-14T12:15:19.0257503+02:00",
+  "Size": 826,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "delectus",
-  "PlainBody": "architecto",
+  "MessageID": "voluptatibus",
+  "PlainBody": "vel",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 485,
+  "ServerId": 578,
   "Attachments": [
     {
-      "Description": "Robust coherent application",
-      "Filename": "velit",
-      "Size": 611,
-      "Type": "cupiditate",
-      "Encoding": "facere",
-      "Id": "sit",
-      "Disposition": "hic",
+      "Description": "Future-proofed holistic parallelism",
+      "Filename": "fugit",
+      "Size": 246,
+      "Type": "eos",
+      "Encoding": "delectus",
+      "Id": "adipisci",
+      "Disposition": "sed",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 64
+          "FieldType": "System.String",
+          "FieldLength": 527
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Moen Group",
+      "Name": "Wunsch Group",
       "Values": [
-        "asperiores",
-        "voluptate"
+        "aliquid",
+        "blanditiis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 223
+          "FieldType": "System.Int32",
+          "FieldLength": 637
         }
       }
     },
     {
-      "Name": "Moen Group",
+      "Name": "Wunsch Group",
       "Values": [
-        "asperiores",
-        "voluptate"
+        "aliquid",
+        "blanditiis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 223
+          "FieldType": "System.Int32",
+          "FieldLength": 637
         }
       }
     }
   ],
-  "FolderName": "Schimmel Inc and Sons",
-  "EmailItemId": 411,
-  "AccountId": 190,
-  "ReceivedAt": "1998-12-15T14:19:03.466522+01:00",
+  "FolderName": "Quigley Inc and Sons",
+  "EmailItemId": 762,
+  "AccountId": 406,
+  "ReceivedAt": "2019-10-06T12:15:19.0267506+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2022-09-30T14:19:03.466522+02:00",
+  "RepliedAt": "2006-12-01T12:15:19.0267506+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -270,8 +270,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 293
+      "FieldType": "System.String",
+      "FieldLength": 691
     }
   }
 }

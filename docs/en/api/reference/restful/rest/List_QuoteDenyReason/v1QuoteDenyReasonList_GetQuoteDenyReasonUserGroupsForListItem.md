@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 922,
-    "Name": "Buckridge-Pagac",
-    "ToolTip": "Quis excepturi.",
+    "Id": 463,
+    "Name": "Franecki-Rolfson",
+    "ToolTip": "Sed doloremque nemo.",
     "Deleted": false,
-    "Rank": 203,
-    "Type": "dignissimos",
-    "ColorBlock": 292,
-    "IconHint": "architecto",
+    "Rank": 124,
+    "Type": "nostrum",
+    "ColorBlock": 355,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2010-09-26T14:19:11.430529+02:00",
+    "LastChanged": "2012-04-21T12:15:28.383618+02:00",
     "ChildItems": [
       {
-        "Id": 658,
-        "Name": "Blanda, Altenwerth and Armstrong",
-        "ToolTip": "Illo itaque debitis rerum.",
-        "Deleted": true,
-        "Rank": 356,
-        "Type": "recusandae",
-        "ColorBlock": 398,
-        "IconHint": "modi",
+        "Id": 633,
+        "Name": "Reilly, DuBuque and Cartwright",
+        "ToolTip": "Nobis neque tenetur et libero quia.",
+        "Deleted": false,
+        "Rank": 760,
+        "Type": "quo",
+        "ColorBlock": 927,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2020-08-13T14:19:11.430529+02:00",
+        "LastChanged": "1999-08-30T12:15:28.383618+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "voluptatem",
-        "StyleHint": "nulla",
+        "StyleHint": "similique",
         "Hidden": false,
-        "FullName": "Darrell Schaefer",
+        "FullName": "Leon Schuster",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 772
+            "FieldType": "System.String",
+            "FieldLength": 858
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "dicta",
-    "Hidden": true,
-    "FullName": "Jaida Steuber",
+    "ExtraInfo": "soluta",
+    "StyleHint": "tempora",
+    "Hidden": false,
+    "FullName": "Elias Wiegand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 340
+        "FieldLength": 498
       }
     }
   }

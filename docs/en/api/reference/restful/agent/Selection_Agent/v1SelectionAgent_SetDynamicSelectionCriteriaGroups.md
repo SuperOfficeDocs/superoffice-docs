@@ -80,21 +80,21 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 805,
+  "SelectionId": 579,
   "Criteria": [
     {
-      "Name": "Willms, Schinner and Thiel",
-      "Description": "Up-sized zero tolerance moratorium",
-      "Rank": 137,
+      "Name": "Monahan-Cummings",
+      "Description": "Managed 5th generation emulation",
+      "Rank": 961,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Willms, Schinner and Thiel",
-      "Description": "Up-sized zero tolerance moratorium",
-      "Rank": 137,
+      "Name": "Monahan-Cummings",
+      "Description": "Managed 5th generation emulation",
+      "Rank": 961,
       "Restrictions": [
         {},
         {}
@@ -112,20 +112,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Howell, Koch and Legros",
-    "Description": "Persistent motivating infrastructure",
-    "Rank": 835,
+    "Name": "Legros-Roob",
+    "Description": "Networked 24/7 Graphic Interface",
+    "Rank": 44,
     "Restrictions": [
       {
-        "Name": "Parker LLC",
-        "Operator": "rerum",
+        "Name": "Littel, Mueller and Johnston",
+        "Operator": "consequuntur",
         "Values": [
-          "nihil",
-          "iste"
+          "ut",
+          "distinctio"
         ],
         "DisplayValues": [
-          "veniam",
-          "eum"
+          "minima",
+          "tempore"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -133,27 +133,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 925,
+        "InterParenthesis": 704,
         "InterOperator": "And",
-        "UniqueHash": 647
+        "UniqueHash": 331
       }
     ]
   },
   {
-    "Name": "Howell, Koch and Legros",
-    "Description": "Persistent motivating infrastructure",
-    "Rank": 835,
+    "Name": "Legros-Roob",
+    "Description": "Networked 24/7 Graphic Interface",
+    "Rank": 44,
     "Restrictions": [
       {
-        "Name": "Parker LLC",
-        "Operator": "rerum",
+        "Name": "Littel, Mueller and Johnston",
+        "Operator": "consequuntur",
         "Values": [
-          "nihil",
-          "iste"
+          "ut",
+          "distinctio"
         ],
         "DisplayValues": [
-          "veniam",
-          "eum"
+          "minima",
+          "tempore"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -161,9 +161,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 925,
+        "InterParenthesis": 704,
         "InterOperator": "And",
-        "UniqueHash": 647
+        "UniqueHash": 331
       }
     ]
   }

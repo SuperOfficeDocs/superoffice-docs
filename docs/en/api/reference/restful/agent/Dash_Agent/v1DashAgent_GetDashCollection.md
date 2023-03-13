@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,111 +78,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 778,
-      "UniqueId": "veniam",
-      "Name": "Koss Group",
-      "Description": "Total uniform policy",
-      "AssociateId": 462,
-      "Columns": 722,
+      "DashboardId": 638,
+      "UniqueId": "rerum",
+      "Name": "Rosenbaum LLC",
+      "Description": "Reverse-engineered responsive functionalities",
+      "AssociateId": 934,
+      "Columns": 284,
       "Theme": null,
-      "VisibleForAll": 662,
+      "VisibleForAll": 24,
       "VisibleForAssociates": [
-        308,
-        438
+        108,
+        680
       ],
       "VisibleForGroups": [
-        32,
-        325
+        266,
+        137
       ],
-      "PinForAll": 471,
+      "PinForAll": 234,
       "PinForAssociates": [
-        842,
-        625
+        894,
+        502
       ],
       "PinForGroups": [
-        104,
-        21
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 175
-        }
-      }
-    }
-  ],
-  "Favourites": [
-    {
-      "DashboardId": 973,
-      "UniqueId": "qui",
-      "Name": "Leffler, Swaniawski and Schulist",
-      "Description": "Centralized full-range budgetary management",
-      "AssociateId": 322,
-      "Columns": 917,
-      "Theme": null,
-      "VisibleForAll": 158,
-      "VisibleForAssociates": [
-        703,
-        904
-      ],
-      "VisibleForGroups": [
-        346,
-        838
-      ],
-      "PinForAll": 844,
-      "PinForAssociates": [
-        930,
-        332
-      ],
-      "PinForGroups": [
-        339,
-        693
+        79,
+        87
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 440
+          "FieldLength": 539
         }
       }
     }
   ],
-  "Other": [
+  "Favourites": [
     {
-      "DashboardId": 366,
-      "UniqueId": "quis",
-      "Name": "Dietrich Group",
-      "Description": "Self-enabling homogeneous definition",
-      "AssociateId": 180,
-      "Columns": 982,
+      "DashboardId": 219,
+      "UniqueId": "vero",
+      "Name": "Wunsch-McLaughlin",
+      "Description": "Extended real-time info-mediaries",
+      "AssociateId": 768,
+      "Columns": 192,
       "Theme": null,
-      "VisibleForAll": 783,
+      "VisibleForAll": 14,
       "VisibleForAssociates": [
-        822,
-        364
+        68,
+        108
       ],
       "VisibleForGroups": [
-        922,
-        245
+        942,
+        244
       ],
-      "PinForAll": 512,
+      "PinForAll": 312,
       "PinForAssociates": [
-        844,
-        827
+        57,
+        634
       ],
       "PinForGroups": [
-        357,
-        245
+        770,
+        557
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 212
+          "FieldLength": 345
+        }
+      }
+    }
+  ],
+  "Other": [
+    {
+      "DashboardId": 273,
+      "UniqueId": "est",
+      "Name": "Yost-Paucek",
+      "Description": "Face to face zero defect Graphical User Interface",
+      "AssociateId": 849,
+      "Columns": 929,
+      "Theme": null,
+      "VisibleForAll": 260,
+      "VisibleForAssociates": [
+        715,
+        650
+      ],
+      "VisibleForGroups": [
+        237,
+        147
+      ],
+      "PinForAll": 290,
+      "PinForAssociates": [
+        105,
+        199
+      ],
+      "PinForGroups": [
+        596,
+        317
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 533
         }
       }
     }
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 925
+      "FieldType": "System.Int32",
+      "FieldLength": 544
     }
   }
 }

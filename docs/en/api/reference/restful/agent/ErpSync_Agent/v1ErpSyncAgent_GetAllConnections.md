@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,33 +104,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 51,
-    "ErpConnectorId": 344,
-    "DisplayName": "Yost LLC",
-    "DisplayDescription": "Right-sized interactive benchmark",
+    "ErpConnectionId": 609,
+    "ErpConnectorId": 675,
+    "DisplayName": "Abernathy LLC",
+    "DisplayDescription": "Horizontal non-volatile orchestration",
     "Active": false,
-    "ConnectionId": "et",
-    "MostRecentTimestamp": "molestiae",
+    "ConnectionId": "saepe",
+    "MostRecentTimestamp": "quod",
     "ConfigFields": {
-      "ConfigFields1": "et",
-      "ConfigFields2": "consequuntur"
+      "ConfigFields1": "ut",
+      "ConfigFields2": "iste"
     },
     "Deleted": false,
-    "AllAccess": true,
+    "AllAccess": false,
     "UserGroupAccessIds": [
-      499,
-      773
+      751,
+      85
     ],
     "AssociateAccessIds": [
-      787,
-      922
+      194,
+      986
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 874
+        "FieldLength": 489
       }
     }
   }

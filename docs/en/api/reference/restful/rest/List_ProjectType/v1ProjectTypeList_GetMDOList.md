@@ -25,8 +25,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=True
-GET /api/v1/List/ProjectType/MDOItems?query=officia
+GET /api/v1/List/ProjectType/MDOItems?flat=False
+GET /api/v1/List/ProjectType/MDOItems?query=consequuntur
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 176,
-    "Name": "O'Hara, Tromp and Larson",
-    "ToolTip": "Sed nihil ab.",
-    "Deleted": true,
-    "Rank": 704,
-    "Type": "molestiae",
+    "Id": 521,
+    "Name": "Schulist Inc and Sons",
+    "ToolTip": "Quidem itaque veritatis sint ut.",
+    "Deleted": false,
+    "Rank": 629,
+    "Type": "aliquam",
     "ChildItems": [
       {
-        "Id": 6,
-        "Name": "Tillman-Lubowitz",
-        "ToolTip": "Officiis tempore eius.",
-        "Deleted": true,
-        "Rank": 304,
-        "Type": "reprehenderit",
+        "Id": 339,
+        "Name": "Rippin LLC",
+        "ToolTip": "Sunt eaque provident tempora reiciendis.",
+        "Deleted": false,
+        "Rank": 36,
+        "Type": "dicta",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "distinctio",
-        "ColorBlock": 36,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "culpa",
-        "FullName": "Myrl Funk",
+        "IconHint": "reprehenderit",
+        "ColorBlock": 129,
+        "ExtraInfo": "quo",
+        "StyleHint": "quis",
+        "FullName": "Lillian Little",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 6
+            "FieldLength": 926
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 842,
-    "ExtraInfo": "in",
-    "StyleHint": "optio",
-    "FullName": "Miss Tyrique Larkin DDS",
+    "IconHint": "commodi",
+    "ColorBlock": 481,
+    "ExtraInfo": "explicabo",
+    "StyleHint": "quis",
+    "FullName": "Dr. Liliana Macy Feest",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 627
+        "FieldLength": 37
       }
     }
   }

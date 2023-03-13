@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 773
+  "QuoteVersionId": 413
 }
 ```
 
@@ -110,35 +110,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 774,
-    "ERPQuoteAlternativeKey": "et",
-    "QuoteVersionId": 716,
-    "Name": "Boehm Inc and Sons",
-    "Description": "Devolved national success",
+    "QuoteAlternativeId": 261,
+    "ERPQuoteAlternativeKey": "occaecati",
+    "QuoteVersionId": 583,
+    "Name": "Towne, Skiles and Hagenes",
+    "Description": "Open-source holistic knowledge base",
     "Status": "Error",
-    "Reason": "",
-    "ERPDiscountPercent": 5606.726,
-    "ERPDiscountAmount": 19810.014,
-    "DiscountPercent": 6634.678,
-    "DiscountAmount": 7662.63,
+    "Reason": "morph back-end partnerships",
+    "ERPDiscountPercent": 22693.293999999998,
+    "ERPDiscountAmount": 13585.89,
+    "DiscountPercent": 15713.876,
+    "DiscountAmount": 15469.423999999999,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "iure",
-    "VAT": 4102.406,
-    "EarningPercent": 15369.135999999999,
-    "EarningAmount": 19202.018,
-    "SubTotal": 13469.931999999999,
-    "TotalPrice": 18355.838,
-    "ExtraField1": "earum",
-    "ExtraField2": "dolorem",
-    "ExtraField3": "quis",
-    "ExtraField4": "iure",
-    "ExtraField5": "suscipit",
+    "VATInfo": "eos",
+    "VAT": 9025.92,
+    "EarningPercent": 22126.04,
+    "EarningAmount": 20449.35,
+    "SubTotal": 3337.71,
+    "TotalPrice": 11464.172,
+    "ExtraField1": "vero",
+    "ExtraField2": "velit",
+    "ExtraField3": "cumque",
+    "ExtraField4": "eos",
+    "ExtraField5": "tenetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 980
+        "FieldType": "System.Int32",
+        "FieldLength": 311
       }
     }
   }

@@ -77,34 +77,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "qui",
-  "ProviderName": "O'Conner Inc and Sons",
-  "StorageKey": "ea",
+  "StorageType": "dolores",
+  "ProviderName": "Leannon LLC",
+  "StorageKey": "non",
   "RestrictionGroups": [
     {
-      "Name": "White LLC",
-      "Description": "Cross-group fresh-thinking moderator",
-      "Rank": 889,
+      "Name": "Raynor Group",
+      "Description": "Synergistic executive capability",
+      "Rank": 740,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "White LLC",
-      "Description": "Cross-group fresh-thinking moderator",
-      "Rank": 889,
+      "Name": "Raynor Group",
+      "Description": "Synergistic executive capability",
+      "Rank": 740,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "et"
+  "Context": "ut"
 }
 ```
 
@@ -116,20 +116,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mann Inc and Sons",
-    "Description": "Front-line systematic website",
-    "Rank": 618,
+    "Name": "Walter LLC",
+    "Description": "Multi-channelled fault-tolerant paradigm",
+    "Rank": 693,
     "Restrictions": [
       {
-        "Name": "Boyer-Spinka",
-        "Operator": "odio",
+        "Name": "West-Gutmann",
+        "Operator": "possimus",
         "Values": [
-          "autem",
-          "soluta"
+          "doloribus",
+          "sunt"
         ],
         "DisplayValues": [
-          "maiores",
-          "expedita"
+          "dolorem",
+          "corporis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -137,27 +137,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 893,
+        "InterParenthesis": 493,
         "InterOperator": "And",
-        "UniqueHash": 465
+        "UniqueHash": 719
       }
     ]
   },
   {
-    "Name": "Mann Inc and Sons",
-    "Description": "Front-line systematic website",
-    "Rank": 618,
+    "Name": "Walter LLC",
+    "Description": "Multi-channelled fault-tolerant paradigm",
+    "Rank": 693,
     "Restrictions": [
       {
-        "Name": "Boyer-Spinka",
-        "Operator": "odio",
+        "Name": "West-Gutmann",
+        "Operator": "possimus",
         "Values": [
-          "autem",
-          "soluta"
+          "doloribus",
+          "sunt"
         ],
         "DisplayValues": [
-          "maiores",
-          "expedita"
+          "dolorem",
+          "corporis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -165,9 +165,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 893,
+        "InterParenthesis": 493,
         "InterOperator": "And",
-        "UniqueHash": 465
+        "UniqueHash": 719
       }
     ]
   }

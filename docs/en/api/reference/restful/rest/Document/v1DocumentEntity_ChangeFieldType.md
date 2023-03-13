@@ -103,7 +103,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 426,
-  "ColumnId": 912,
-  "FieldDefault": "non",
-  "FieldHeight": 735,
-  "FieldLabel": "quidem",
-  "FieldLeft": 195,
-  "FieldTop": 762,
+  "UDefFieldId": 179,
+  "ColumnId": 130,
+  "FieldDefault": "quidem",
+  "FieldHeight": 410,
+  "FieldLabel": "reprehenderit",
+  "FieldLeft": 770,
+  "FieldTop": 660,
   "FieldType": "Checkbox",
-  "FieldWidth": 578,
-  "FormatMask": "sunt",
+  "FieldWidth": 485,
+  "FormatMask": "labore",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 251,
-  "LabelLeft": 532,
-  "LabelTop": 7,
-  "LabelWidth": 48,
-  "LastVersionId": 594,
-  "ListTableId": 853,
+  "LabelHeight": 451,
+  "LabelLeft": 616,
+  "LabelTop": 622,
+  "LabelWidth": 263,
+  "LastVersionId": 862,
+  "ListTableId": 780,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 461,
-  "ProgId": "est",
+  "Page1LineNo": 11,
+  "ProgId": "laboriosam",
   "IsReadOnly": false,
-  "ShortLabel": "sed",
-  "TabOrder": 766,
-  "TextLength": 281,
-  "Tooltip": "libero",
-  "UdefIdentity": 454,
-  "UDListDefinitionId": 210,
+  "ShortLabel": "magni",
+  "TabOrder": 462,
+  "TextLength": 15,
+  "Tooltip": "similique",
+  "UdefIdentity": 825,
+  "UDListDefinitionId": 481,
   "Justification": "Center",
-  "Version": 594,
-  "TemplateVariableName": "Parisian, Jerde and Heaney",
+  "Version": 52,
+  "TemplateVariableName": "Morar Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Gutmann, Corwin and Batz",
+  "MdoListName": "Tillman LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 503
+      "FieldLength": 491
     }
   }
 }
