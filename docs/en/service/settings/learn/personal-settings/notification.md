@@ -1,19 +1,28 @@
 ---
 uid: help-en-service-settings-personal-notification
 title: Notification
-description: Notification
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Service, personal settings
-so.topic: help
+description: Learn how to set up notifications in this how-to guide.
+author: Bergfrid Dias
+so.date: 03.14.2023
+keywords: personal settings, notification
+so.topic: reference
 language: en
+so.client: Service
 ---
 
 # Notification
 
-In SuperOffice Service, request handlers can choose to receive notifications of various events. In the **Notification** tab in the **Edit users** screen, you can check how you want to receive such notifications:
+In SuperOffice Service, request handlers can choose to receive notifications of various events.
 
-* **Pop-up**: The notification button ( ![icon][img2] ) in the [top bar][1] will indicate that you have new notifications.
+Requests with a high priority should be solved before you complete other requests. But how do you know that a high priority request has come in, been escalated to you, or was reopened by the customer? SuperOffice will notify you by showing you a pop-up on your screen, sending you an email or an SMS. This way you will know a request is waiting for you and you will not forget to follow up on it.
+
+## Settings
+
+You can decide how you wish to be alerted by setting up your notifications. In the **Notification** tab in the **Edit users** screen, you can check how you want to receive such notifications.
+
+![Open the Notification tab in the Edit users dialogue and set up the notifications according your personal preferences -screenshot][img3]
+
+* **Pop-up**: The notification button ![icon][img2] in the [top bar][1] will indicate that you have new notifications.
 * **Email**: You will receive an email message when an event occurs.
 * **SMS** (if the SMS module is installed): You will receive a text message when an event occurs.
 
@@ -45,3 +54,4 @@ You can receive notifications of the following events in SuperOffice Service.
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/settings-small.png
 [img2]: ../../../../../media/icons/notice-new.png
+[img3]: media/service-notification-settings.png

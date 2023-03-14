@@ -42,11 +42,14 @@ Imagine that your company has created a category for each department in the comp
 
 * [Process a request][1]
 * [Create a request][2]
+* [Accept a request][4]
+* [Ask another request handler for help (transfer)][5]
 
 <!-- Referenced links -->
 [1]: index.md
 [2]: create.md
 [3]: ../category/create.md
 [4]: accept.md
+[5]: transfer.md
 
 <!-- Referenced images -->

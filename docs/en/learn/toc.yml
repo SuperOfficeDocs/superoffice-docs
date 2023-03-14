@@ -51,6 +51,9 @@ items:
   - name: SAINT (Sales intelligence)
     href: ../sale/saint/learn/toc.yml
 
+  - name: Mobile CRM
+    href: ../mobile/superoffice-mobile/learn/toc.yml
+
   - name: Customisation
     href: customization.yml
     items:
@@ -199,10 +202,6 @@ items:
     - name: Documents
       href: ../document/learn/in-service/toc.yml
       topicHref: ../document/learn/in-service/index.md
-
-    - name: Statistics in Service
-      href: ../dashboard/learn/in-service/statistics/toc.yml
-      topicHref: ../dashboard/learn/in-service/statistics/index.md
 
     - name: Selection
       href: ../search-options/selection/learn/in-service/toc.yml

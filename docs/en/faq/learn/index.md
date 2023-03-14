@@ -1,9 +1,9 @@
 ---
-uid: help-en-document-faq
-title: document faq
+uid: help-en-faq
+title: Work with FAQ entries
 description: document faq
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Bergfrid Dias
+so.date: 03.14.2023
 keywords: FAQ
 so.topic: concept
 language: en
@@ -11,11 +11,17 @@ language: en
 
 # Work with FAQ entries
 
+Frequently Asked Questions (FAQs) are an important part of service request handling. Since many customer inquiries repeat over time, it is a good idea to create FAQs that contain answers to such recurring questions.
+
 [!include[Requirement](../../learn/includes/req-cep.md)]
 
-FAQs are closely integrated with the request handling: customer enquiries will often recur, making it a good idea to enter such questions and their answers in the FAQs. These entries can be made available in SuperOffice Customer Centre, where customers themselves can search for answers, and request handlers can add links to FAQ entries when replying to enquiries. This saves the request handlers time, and customers receive precise and quality-assured answers.
+## Advantages to having an FAQ library
 
-## What is the difference between an FAQ entry and a reply template?
+* FAQs can be made available in your Customer Centre, where customers can search for answers themselves.
+* FAQs speed up the work of support agents, who can quickly add links to FAQ entries when replying to customer inquiries.
+* FAQs is a great way to send your customers precise and quality-assured answers.
+
+## What is the difference between an FAQ entry and a rep1ly template?
 
 [!include[FAQ vs. reply template](../../learn/includes/faq-vs-reply-template.md)]
 

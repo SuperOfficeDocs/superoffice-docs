@@ -21,8 +21,6 @@ items:
     href: ../tags.md
   - name: Keep track of messages
     href: flag-message.md
-  - name: Add a message to multiple requests
-    href: reply-batch.md
   - name: Split request
     href: split-request.md
   - name: Merge requests

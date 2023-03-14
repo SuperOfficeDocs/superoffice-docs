@@ -5,8 +5,6 @@ items:
   href: main-screen/toc.yml
 - name: Log in
   href: login.md
-- name: Mobile access
-  href: mobile.md
 - name: Preferences
   href: preferences.md
 - name: WebTools

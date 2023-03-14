@@ -11,11 +11,9 @@ language: en
 
 # Create a new dashboard
 
-In the Dashboard screen you can have multiple dashboard tabs to display any number of charts and statistics.
+In the Dashboard screen you can have multiple dashboard tabs to display any number of charts and statistics. When you create your own dashboard, you can also choose whether you want to share it with others.
 
-When you create your own dashboard, you can also choose whether you want to share it with others.
-
-## Create new dashboard tab in Standard CRM
+## Create new dashboard tab
 
 Watch this video or follow the steps below to learn how to add new dashboard tabs to SuperOffice CRM (video length – 4:29):
 
@@ -50,24 +48,6 @@ On the right side of the new dashboard, the **Add tile / Edit layout** section i
 There is a lot of standard tiles to choose from in the library, but you can also create your own, either based on an existing tile or start with clean sheets.
 
 ![Select wanted tiles and drag and drop them into the grid view -screenshot][img2]
-
-## <a id="service" />Create new dashboard tab in Service
-
-1. Open the **Dashboard** screen, and click the **+** tab.
-
-2. In the, enter the name of the dashboard in the **Title** field.
-
-3. Select the layout of the dashboard.
-
-4. Click **OK** to create dashboard.
-
-    The dashboard opens in a new tab, containing empty tiles.
-
-5. Click **Blank** on a tile.
-
-6. Select the content you want from the list.
-
-The selected chart is displayed in the tile. Repeat this step for each empty tile.
 
 ## Related topics
 

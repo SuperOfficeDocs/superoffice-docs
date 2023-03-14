@@ -1,9 +1,9 @@
 ---
 uid: help-en-reply-template-create
 title: Create reply templates
-description: Create reply templates
-author: SuperOffice RnD
-so.date: 06.29.2022
+description: Learn how to create a reply template in this how-to guide.
+author: Bergfrid Dias
+so.date: 03.14.2023
 keywords: request
 so.topic: howto
 language: en
@@ -11,9 +11,20 @@ language: en
 
 # Create reply template
 
+A reply template is a ready-made text that can be pasted into a message you are writing to a customer. Using reply templates will save time and allow you to send personalized messages to your customers.
+
+Reply templates can also include an attachment, which will then be added to the message. Before you send the reply to the customer, you can edit the text and add, or remove attachments.
+
+> [!NOTE]
+> You need *Knowledge base* as functional right to create reply templates.
+
+## Steps
+
 1. Select **Knowledge Base** > **Reply templates**.
 
 2. Go to the folder you want to put the reply template in. If it does not yet exist, you can [create a new folder][2].
+
+    ![How to find reply templates in SuperOffice -screenshot][img3]
 
 3. Click the **New reply template** button. This takes you to the **Properties** tab in the **Reply template properties** screen.
 
@@ -105,5 +116,5 @@ You can select the degree of correlation between the request from the customer a
 [7]: copy.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/delete-red.png
 [img2]: ../../../../media/icons/settings-small.png
+[img3]: media/create-a-new-reply-template.png

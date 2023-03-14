@@ -14,7 +14,7 @@ language: en
 There are many ways you can add contacts to SuperOffice CRM:
 
 * Add a contact from the top bar **or** the Company screen - see steps below.
-* [Scan a business card](#business-card) with the SuperOffice Mobile CRM app.
+* [Scan a business card][1] with the SuperOffice Mobile CRM app.
 * [Bulk import][2] larger numbers of contacts (requires Administrator rights).
 
 ![You can add a contact from the company card in two steps -screenshot][img1]
@@ -108,18 +108,8 @@ In the **Interests** tab you have the following options:
 
 [!include[Tip](../../learn/includes/tip-open-website.md)]
 
-## <a id="business-card" />Scan a business card
-
-1. Open your Mobile CRM app.
-1. Go to the **Company/Contact** tab.
-1. Press **New+** and select the **Scan business card** option.
-1. When the camera opens up, take a picture of the card and SuperOffice CRM will automatically transfer all the info onto a new Company card.
-1. Review and edit as required before saving.
-
-[Getting started with Mobile CRM][1]
-
 <!-- Referenced links -->
-[1]: ../../learn/getting-started/mobile.md
+[1]: ../../mobile/superoffice-mobile/learn/scan-business-card.md
 [2]: ../../admin/import/learn/index.md
 [7]: ../../security/privacy/learn/edit-legal-base.md
 [8]: add-relation.md

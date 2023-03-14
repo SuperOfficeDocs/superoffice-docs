@@ -1,28 +1,30 @@
 ---
 uid: help-en-request-find
 title: Find a request
-description: How to find a request in SuperOffice
-author: HanneGunnarsson
-so.date: 06.29.2022
-keywords: request
+description: In this how-to guide you’ll learn how to find requests in SuperOffice
+author: Bergfrid Dias
+so.date: 03.14.2023
+keywords: request, search, find
 so.topic: howto
 language: en
 ---
 
 # Find a request
 
+As a customer support agent, you get a lot of incoming calls and emails about pending or old customer inquiries. That is why it is important to know how you can find a single request or groups of requests as quickly as possible.
+
 Do one of the following:
 
 * Use lists, which are actually predefined searches.
 * Use the search screen for requests.
-* Use the [quick search][3] in the upper right corner.
-
-> [!TIP]
-> Learn about [search in SuperOffice][4] in general.
+* Use the [free-text search][3] in the upper right corner.
+* Use dashboards.
 
 ## <a id="list" />Use lists
 
-The simplest way to search for requests is to use the search bar available as menu options under **Find request** on the Requests screen:
+The simplest way to search for requests is to use the search bar available as menu options under **Find request** on the Requests screen.
+
+![Search for requests -screenshot][img3]
 
 * **Last requests**: Shows the requests most recently recorded in the system. If specified in user preferences, this list will only contain requests from the categories you are a member of.
 
@@ -40,7 +42,7 @@ The simplest way to search for requests is to use the search bar available as me
 
 * **My favourites**: Shows the requests you have saved as favourites.
 
-* **Get next in queue**: If the queue system is set up for your company, you can click this option to get the next unassigned request in the queue for the category you belong to. [How to set up Get next request in queue][5].
+* **Get next in queue**: If the [queue system is set up][5] for your company, you can click this option to get the next unassigned request in the queue for the category you belong to.
 
 ### Customise search criteria
 
@@ -51,7 +53,9 @@ In practice, all these lists are predefined searches, and if you wish you can cu
 1. Click **Find** in the bottom right corner to begin the search using the new search criteria. If you select one of the requests in the list, its contents are displayed in the preview screen on the right. If you select one of the requests in the list, its contents are displayed in the [preview section](#preview).
 
 > [!TIP]
-> To restore the default settings, click the **Reset to default** button. You can also clear all your criteria by clicking the **Clear all** button.
+> To restore the default settings, select **Reset to default**.
+>
+> To clear all your criteria, select **Clear all**.
 
 ### <a id="result" />Result
 
@@ -59,17 +63,17 @@ Contains a list of requests that match the criteria specified above. Here you ca
 
 * Sort the requests by clicking the appropriate column heading.
 * Select a row to display the content of that request in the preview section.
-* [Open a request][3] by double-clicking the relevant row.
-* Click the ![icon][img1] menu button in the upper right corner to access the change the view options.
+* Open a request by double-clicking the relevant row.
+* Click the ![icon][img1] menu button in the upper-right corner to access the change the view options.
 
 > [!TIP]
-> The status **Open** together with the **Read** column will give an overview if the request were **Read by owner**, **New information** or **Not read by owner**.
+> The status **Open** together with the **Read** column will give an overview if the request were **Read by owner**, **New information**, or **Not read by owner**.
 
 Under the list, you can click the ![icon][img1] **Task** button to access the following options:
 
 * **Export to Excel**: Click here to export the list under **Result** to an Excel file.
 
-* **Bulk update**: If you select one or more requests in the list, you can click this option and select an action to perform on all the selected requests simultaneously. For example, you can choose to [add the same message to multiple requests][4], [forward multiple requests][5] or delete several requests in a single operation.
+* **Bulk update**: If you select one or more requests in the list, you can click this option and select an action to perform on all the selected requests simultaneously. For example, you can choose to [add the same message to multiple requests][8], [forward multiple requests][7] or delete several requests in a single operation.
 
 ### Preview
 
@@ -77,19 +81,20 @@ This section of the screen displays the contents of the request selected under *
 
 If the preview section is not visible, click **Show preview** at the bottom of the screen.
 
-## What would you like to do now?
+## Related content
 
 * [Use tags in requests][1]
-* [Process requests][7]
 
 <!-- Referenced links -->
 [1]: tags.md
-[3]: ../../search-options/learn/in-service/quick-search.md
-[4]: ../../search-options/learn/in-service/index.md
+[3]: ../../search-options/learn/freetext-search.md
+[4]: ../../search-options/learn/using-search-criteria.md
 [5]: next-in-queue.md
 [6]: howto/accept.md
-[7]: howto/index.md
+[7]: howto/forward.md
+[8]: howto/reply.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/personal-settings-small.png
+[img3]: media/find-requests.png

@@ -11,16 +11,17 @@ language: en
 
 # Using tags in requests
 
+Tagging is a powerful tool for organizing and finding requests in SuperOffice Service. You can create tags on the fly and tag any request with as many tags as you want. Using tags will simplify the way you search for, view, and filter requests.
+
 Each company will want to use their own specific customer service request tags. Let us take a look at two types of tags that could be useful for you company:
 
 * You can set up tags for the different customer stages your company uses such as, for example, Free trial, Onboarding, Existing or Terminating;
 
 * You can create tags related to the department that should handle a specific type of request such as, for example, Finance, Marketing or Sales.
-You can add as many new tags as you like, and tags that become redundant can always be removed or changed.
 
-By default, there are no tags present in your SuperOffice CRM solution.
+By default, there are no tags present in your SuperOffice CRM solution. You can [add as many new tags][4] as you like, and tags that become redundant can always be removed or changed.
 
-Tagging is a powerful tool for organizing and finding requests in SuperOffice Service. You can create tags on the fly and tag any request with as many tags as you want. Using tags will simplify the way you search for, view and filter requests.
+![Tagging requests -screenshot][img2]
 
 ## Add/remove tags in multiple requests
 
@@ -42,12 +43,14 @@ If you have the necessary functional right, you can also create new tags. In a t
 
 ## Searching for tags
 
-Tags can be used to search for requests in the [quick search][2] and in the "regular" [search function][3] using criteria.
+Tags can be used to search for requests in the [free-text search][2] and in the regular [search function][3] using criteria.
 
 <!-- Referenced links -->
 [1]: howto/create.md
-[2]: ../../search-options/learn/in-service/quick-search.md
+[2]: ../../search-options/learn/freetext-search.md
 [3]: find.md#category
+[4]: ../../admin/lists/learn/adding-items.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
+[img2]: media/requests-tag-request-small.png

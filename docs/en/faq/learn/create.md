@@ -2,8 +2,8 @@
 uid: help-en-faq-create
 title: Create FAQ entries
 description: Create FAQ entries
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Bergfrid Dias
+so.date: 03.14.2023
 keywords: FAQ
 so.topic: howto
 language: en
@@ -14,7 +14,17 @@ language: en
 By creating FAQ entries, your organization can build up a comprehensive collection of questions and answers that both customers and staff can use to find useful information. There are two ways to create FAQ entries:
 
 * A user can create an FAQ entry, based on communication with a customer in **Requests**.
-* An administrator can create an FAQ entry directly in **Knowledge Base > FAQ**.
+* An administrator can create an FAQ entry directly in **Knowledge Base** > **FAQ**.
+
+Watch this video and find out how to create and publish FAQs in the Customer Centre or follow the step-by-step guide below (video length - 3:01):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://youtu.be/TLOukelJp54]
+
+## Requirements
+
+* You need a license for Knowledge base, which is a feature you get with the license for Service premium or the Customer Engagement platform.
+* If you do not see this feature, you need to add *Knowledge base* as functional right to create FAQ.
 
 ## Create FAQ entries from a request
 
@@ -86,16 +96,20 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 ## Create new FAQ
 
 1. Select **Knowledge Base** > **FAQ**.
-2. Go to the folder you want to put the FAQ entry in. If it does not yet exist, you can [create a new folder][2].
-3. Click the **New entry** button. This takes you to the **FAQ entry properties** screen.
-4. Follow the procedure above starting at step 3.
 
-because the option to create FAQ entries this way is only available to administrators, there is no need for a separate publishing step in this process. The administrator can create and publish simultaneously.
+1. Go to the folder you want to put the FAQ entry in. If it does not yet exist, you can [create a new folder][2].
+
+1. Click the **New entry** button. This takes you to the **FAQ entry properties** screen.
+
+    ![The FAQ screen -screenshot][img3]
+
+1. Follow the procedure above starting at step 3.
+
+Because the option to create FAQ entries this way is only available to administrators, there is no need for a separate publishing step in this process. The administrator can create and publish simultaneously.
 
 ## What would you like to do now?
 
 * [Edit FAQ entries][4]
-* [Publish FAQ entries][3]
 
 <!-- Referenced links -->
 [1]: ../../request/learn/index.md#open
@@ -106,3 +120,4 @@ because the option to create FAQ entries this way is only available to administr
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-add.png
 [img2]: ../../../media/icons/service/spell-check.png
+[img3]: media/create-publish-faq.png

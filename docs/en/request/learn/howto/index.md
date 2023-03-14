@@ -2,7 +2,8 @@
 uid: help-en-request-howto
 title: Request management
 description: Request management
-author: HanneGunnarsson
+author: Bergfrid Dias
+so.date: 03.14.2023
 keywords: request
 so.topic: concept
 language: en
@@ -10,21 +11,25 @@ language: en
 
 # Request management
 
-How request handling progresses will vary from request to request.
+Incoming requests can arrive through many channels, and there is more than one way to register and reply to them. How request handling progresses will vary from request to request.
+
+A customer service system is all about providing your customers the answers they are looking for and saving their customer information. Whenever you reply to a customer, they will receive an email from you. Which is why it is important to [create your email signature][15].
 
 ## Typical tasks
 
 * [Take responsibility for requests][1]
-* [Ask another request handler for help.][2]
+* [Ask another request handler for help][2]
 * [Reply to customer][4]
 * [Split requests][5]
 * [Forward messages or multiple requests to external parties][3]
 * [Add requests to the favorites list][6]
 * [Close requests][7]
-* [Add message][8]
 * [Edit message][9]
+* [Set up notifications][16]
 
-Different companies have different routines for request handling and can use SuperOffice Requests in different ways. Below we have set up two scenarios showing some of the available options.
+Different companies have different routines for request handling and can use SuperOffice Requests in different ways. Below we have set up two real-life scenarios showing some of the available options. These scenarios will show you how you can reply efficiently when a customer has submitted a request by email and when a customer calls in with a problem or a question.
+
+![All requests submitted by email end up in the unassigned queue. Here you can pick a new service request to handle -screenshot][img1]
 
 ## Scenario 1: The customer submits the request by email
 
@@ -74,6 +79,10 @@ If this function is active, incoming email requests are analysed to determine th
 
 Save time by letting the system categorise requests for you. If this function is active, incoming email requests are analysed to determine the best category for each request. In the footer of a request, you will see the category suggested by the system. Click the category link to update the request with the suggested category.
 
+## Related
+
+* [Why batch management should be your favorite feature][17] -blog
+
 <!-- Referenced links -->
 [1]: accept.md
 [2]: transfer.md
@@ -82,11 +91,14 @@ Save time by letting the system categorise requests for you. If this function is
 [5]: split-request.md
 [6]: fav.md
 [7]: close.md
-[8]: reply-batch.md
 [9]: edit-message.md
 [11]: ../../../service/reply-templates/learn/index.md
 [12]: assign.md
 [13]: ../find.md
 [14]: create.md
+[15]: ../../../learn/getting-started/edit-email-signature.md
+[16]: ../../../service/settings/learn/personal-settings/notification.md
+[17]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-reasons-why-batch-management-should-be-your-favorite-feature-in-superoffice-service/
 
 <!-- Referenced images -->
+[img1]: media/service-dashboard.png

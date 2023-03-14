@@ -2,8 +2,8 @@
 uid: help-en-request
 title: Requests
 description: Introduction to requests in SuperOffice
-author: HanneGunnarsson
-so.date: 06.29.2022
+author: Bergfrid Dias
+so.date: 03.14.2023
 keywords: request, ticket, service
 so.topic: concept
 language: en
@@ -11,20 +11,27 @@ language: en
 
 # Requests
 
-**Requests** is one of the main features of SuperOffice. Here you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. When you open SuperOffice or click ![icon][img1] **Dashboard** in the Navigator, you arrive at the [Dashboard][1], which provides an overview of request handling. Click ![icon][img2] **Requests** to show relevant options for requests.
+Our ticketing system allows you to efficiently handle incoming requests and helps you offer outstanding customer service every day. **Requests** is one of the main features of SuperOffice. Here you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. The [request dashboard][1] shows an overview of request handling. Click ![icon][img2] **Requests** to show relevant options for requests.
+
+Each question and query can be defined as a request. These questions range from support issues, questions about the product and services, or questions about invoices. Whenever a request comes in, you want to handle them as quickly and efficiently as possible and professional customer service.
+
+Brand new to request management in SuperOffice? Start off with this short product tour to get an introduction to what you can expect (video length - 2:52):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://youtu.be/2mRyStK5xPs]
 
 ## <a id="open" />Where can I access requests?
 
 * [Pre-defined lists][11]
 * [Search][12]
-* [Favourites][14]
-* [Flagged messages][15]
+* [Favourites][8]
+* [Flagged messages][5]
 
 When you double-click a row in the [search results screen][13], you are taken to the Request screen.
 
 ## <a id="customers" />Customers
 
-Requests can be linked to [contacts][2], who in turn can belong to a [company][6]. This means that requests cannot be linked directly to companies (only indirectly via contacts). When new emails are imported and saved as requests, the request is automatically linked to the correct contact via the email address. When you view a request, it is easy to see who the contact is, and if you click the contact's name, you can see which other requests are registered for this person. This provides you with a rapid overview of previous communication with this same contact.
+Requests can be linked to [contacts][2], who in turn can belong to a [company][3]. This means that requests cannot be linked directly to companies (only indirectly via contacts). When new emails are imported and saved as requests, the request is automatically linked to the correct contact via the email address. When you view a request, it is easy to see who the contact is, and if you click the contact's name, you can see which other requests are registered for this person. This provides you with a rapid overview of previous communication with this same contact.
 
 ## Request header
 
@@ -44,27 +51,27 @@ There are three types of messages:
 ## What do you want to do now?
 
 * [Learn request handling step by step][7]
-* [Receive requests][3]
+* [Receive requests][6]
 * [Create requests][4]
-* [Find requests][5]
-* [Process requests][7]
+* [Find requests][10]
+* [7 tips to provide best-in-class customer service with SuperOffice Service][20] - blog
 
 <!-- Referenced links -->
-[1]: ../../dashboard/learn/in-service/index.md
+[1]: ../../dashboard/learn/show-requests.md
 [2]: ../../learn/customers/person/index.md
-[6]: ../../learn/customers/company/index.md
-[3]: howto/assign.md
+[3]: ../../learn/customers/company/index.md
 [4]: howto/create.md
-[5]: find.md
+[5]: howto/flag-message.md
+[6]: howto/assign.md
 [7]: howto/index.md
+[8]: howto/fav.md
+[10]: find.md
 [11]: find.md#list
 [12]: find.md#search
 [13]: find.md#result
-[14]: howto/fav.md
-[15]: howto/flag-message.md
+[20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-dashboard.png
 [img2]: ../../../../common/icons/nav-cs.png
 [img5]: ../../../../common/icons/addcomment.png
 [img3]: ../../../../common/icons/favourite-no.png

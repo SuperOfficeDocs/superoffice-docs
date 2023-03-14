@@ -1,8 +1,9 @@
 ---
 uid: help-en-request-forward
 title: Forward to external parties
-description: How to forward a request to external parties
-author: HanneGunnarsson
+description: Learn how to forward a request in this how-to guide.
+author: Bergfrid Dias
+so.date: 03.14.2023
 keywords: request
 so.topic: howto
 language: en
@@ -10,16 +11,26 @@ language: en
 
 # Forward to external parties
 
-As a request handler, you are not always able to answer a request, even with the help of your colleagues. Sometimes, you may need to ask for help from others, for example, by getting advice from a sub-supplier.
+As a request handler, you are not always able to answer a request, even with the help of your colleagues. Sometimes, you may need to ask for help from others, for example, by getting advice from a sub-supplier, a partner, or a business specialist.
+
+You can forward a complex or problematic request to an external contact in an email. After the person on the other end responds, their email will automatically be saved in the request in SuperOffice. Of course, the customer will not receive any of this email communication. When you have the solution for your customer, you can answer the customer by replying inside the request.
 
 ## Forward a message
 
 1. [Open the request][1].
+
 1. Click the **Messages** tab.
+
 1. Click ![icon][img1] on the message you want to forward, and select **Forward**. A new message opens in edit mode.
-1. Add a recipient in the **To** field. Click the **Cc/Bcc** button (on the right-hand side of the message) to add recipients on copy or blind copy.
+
+    ![Forward a request to an external contact -screenshot][img3]
+
+1. Add a recipient in the **To** field. Click the **Cc/Bcc** button (to the right of the message) to add recipients on copy or blind copy.
+
 1. [Edit the message][2].
+
 1. Click ![icon][img2] in the toolbar and add any relevant documents as attachments to the request.
+
 1. Click **Send**. The message is sent.
 
 ## Forward multiple requests
@@ -47,3 +58,4 @@ In the request lists, you can forward multiple requests at a time.
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/service/msg-attachment.png
+[img3]: media/forward-a-request.png

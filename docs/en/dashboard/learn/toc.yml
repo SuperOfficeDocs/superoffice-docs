@@ -24,3 +24,5 @@ items:
     href: show-sales-targets.md
   - name: Using mailing and forms in tiles
     href: show-marketing.md
+  - name: Using requests in tiles
+    href: show-requests.md

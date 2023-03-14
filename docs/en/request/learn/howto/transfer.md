@@ -2,9 +2,9 @@
 uid: help-en-request-transfer
 title: Ask another request handler for help
 description: Ask another request handler for help
-author: HanneGunnarsson
-so.date: 06.29.2022
-keywords: request
+author: Bergfrid Dias
+so.date: 03.14.2023
+keywords: request, delegate
 so.topic: howto
 language: en
 ---
@@ -16,6 +16,8 @@ As a request handler, you are not always able to answer the request on your own.
 1. [Open the request][1].
 
 1. Select the person you want to help in the **Owner** list box from the properties panel. This means that you are transferring responsibility for the request to that person.
+
+    ![Assign a request to another Service users -screenshot][img1]
 
     > [!NOTE]
     > If you do not know who should have responsibility for the request, you can select **(Automatically assigned)** in the **Owner** field and select the relevant [category][3] in the **Category** field. If, for example, the request relates to a payment question, you can change the category to "Invoicing". The request will then be automatically assigned to a request handler in the invoicing department in accordance with the applicable assignment rules.
@@ -33,9 +35,15 @@ As a request handler, you are not always able to answer the request on your own.
 > [!TIP]
 > Before transferring responsibility for the request to someone else, it is a good idea to [add it to your favorites list][2], to remind yourself to follow it up. It will no longer be displayed under **Own open requests** when someone else is defined in the **Owner** field.
 
+## Related content
+
+* [Forward a request to external parties][4]
+
 <!-- Referenced links -->
 [1]: ../index.md#open
 [2]: fav.md
 [3]: ../category/index.md
+[4]: forward.md
 
 <!-- Referenced images -->
+[img1]: media/reassing-a-request.png
