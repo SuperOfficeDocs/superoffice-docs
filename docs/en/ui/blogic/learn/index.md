@@ -35,7 +35,7 @@ Here you can find the advanced options in SuperOffice.
 | [Web panels][12] | |
 | [Packages][13] | Lists all the packages in the system and allows you to create and upload new packages. |
 | [Data Exchange][14] | |
-| [Debug log][15] | Search the debug log. |
+| Debug log | Search the debug log. |
 
 ## Use CRMScript to automate tasks
 
@@ -59,6 +59,5 @@ By [adding extra tables and fields][1] to SuperOffice Service you can save a var
 [12]: ../../web-panels/learn/index.md
 [13]: ../../../admin/learn/screen/package-properties.md
 [14]: ../../../automation/crmscript/learn/screen/data-exchange.md
-[15]: ../../../search-options/learn/in-service/index.md
 
 <!-- Referenced images -->

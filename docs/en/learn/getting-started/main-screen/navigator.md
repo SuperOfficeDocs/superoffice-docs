@@ -41,7 +41,7 @@ You move between the main sections of SuperOffice using the left-side Navigator.
 | ![icon][img3] | **Dashboard**: The dashboard provides you with an overview that can be tailored to your needs. | |
 | ![icon][img33] | **Requests**: Where you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. | [Requests][34] |
 | ![icon][img34] | **Customers**: Here you can search for and create companies and contacts. | [Customers][31] |
-| ![icon][img35] | **Selections**: You use selections to save a set of records, such as a set of requests or contacts that you want to work with later on and elsewhere in the system. | [Selections][32] |
+| ![icon][img35] | **Selections**: You use selections to save a set of records, such as a set of requests or contacts that you want to work with later on and elsewhere in the system. | |
 | ![icon][img36] | **Knowledge Base**: The knowledge base gives request handlers access to saved data in a single location, which makes it easier to acquire and organize information for the customer. Among other things, it contains FAQs and reply templates. [Knowledge Base][35] |
 | ![icon][img37] | **Statistics**: Here you can run standard reports and create new reports. | |
 | ![icon][img31] | **Marketing**: From here you can create and send mailings (emails, SMS and documents) and create and publish forms. | [Mailing][11] |
@@ -63,7 +63,7 @@ You move between the main sections of SuperOffice using the left-side Navigator.
 | ![icon][img51] | **Screen designer**: opens the Screen designer screen, where you can create custom screen layouts for specific user groups. | [Screen designer][24] |
 | ![icon][img52] | **Preferences**: opens the **Preferences** screen, where you can specify settings for different aspects of SuperOffice CRM, for example, the number of elements to display in the history list, the default type for new activities, and so on. Here you can also configure [Video meetings][42] and the [Document library][43]. | [Preferences][25] |
 | ![icon][img41] | **Chat**: opens the **Chat** screen, where you can create chat channels and set up the chat feature. | [Chat][2] |
-| ![icon][img53] | **Options**: opens the **Options** screen, where you can define system-wide settings. For example, settings for free-text search, time zones, number allocation, labels and reports. | [Options]][26] |
+| ![icon][img53] | **Options**: opens the **Options** screen, where you can define system-wide settings. For example, settings for free-text search, time zones, number allocation, labels and reports. | [Options][26] |
 | ![icon][img54] | **Import**: opens the **Import** screen, where you can import data into the SuperOffice database. | [Import][27] |
 | ![icon][img55] | **Fields**: opens the **Fields** screen, where you define user-defined fields for SuperOffice CRM. | [Fields][28] |
 | ![icon][img56] | **CRMScript**: opens the screen with various functions for scripting and automation, such as macros, event handlers and scheduled tasks. | [CRMScript][41] |
@@ -110,7 +110,6 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [11]: ../../../marketing/learn/index.md
 [15]: ../../basics/fav.md
 [31]: ../../../request/learn/index.md#customers
-[32]: ../../../search-options/selection/learn/in-service/index.md
 [34]: ../../../request/learn/index.md
 [35]: ../../../request/learn/screen/knowledge-base.md
 

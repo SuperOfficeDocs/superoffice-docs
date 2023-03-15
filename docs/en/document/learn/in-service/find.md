@@ -17,9 +17,8 @@ If there are lots of documents in a folder, it may be difficult to find the one 
 2. Go to the folder where the document is located.
 3. Point at the folder name, to make the icons appear to the right.
 4. Click the **Search** button. This takes you to the **Criteria** screen.
-5. [Search in SuperOffice Service][1].
+5. Search in SuperOffice Service.
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/in-service/index.md
 
 <!-- Referenced images -->

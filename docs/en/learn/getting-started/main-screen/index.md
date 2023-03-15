@@ -54,7 +54,7 @@ The global buttons appear throughout the user interface. Some are in the main sc
 | ![icon][img1] | Used to open a menu containing tasks relevant to the dialog or screen. |
 | ![icon][img10] | Used to open and close a list box. |
 | ![icon][img9] | Used to add the current record (request, contact or similar) as a [favorite][6]. |
-| ![icon][img5] | Used to [start a search][4]. |
+| ![icon][img5] | Used to start a search. |
 | ![icon][img6] | Used to configure the appearance and behavior of a screen element (such as a list of search results, a properties view or a request header). |
 | ![icon][img7] | Used to select a date from the calendar. |
 
@@ -86,7 +86,6 @@ Zoom in/out in the browser to get larger/smaller font.
 [1]: navigator.md
 [2]: buttons-in-menu-bar.md
 [3]: side-panel.md
-[4]: ../../../search-options/learn/in-service/index.md
 [6]: ../../basics/fav.md
 [10]: ../../../company/learn/screen/index.md
 [11]: ../../../contact/learn/screen/index.md

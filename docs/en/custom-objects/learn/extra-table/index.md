@@ -22,7 +22,7 @@ The **Tables** screen displays the tables that are configured in the system. Usi
 
 1. Click **Requests** > **Tables** in the Navigator.
 
-1. Click the required table to open it and view existing entries. If you cannot see the table entry you are looking for, click **Show criteria** and [search][2].
+1. Click the required table to open it and view existing entries. If you cannot see the table entry you are looking for, click **Show criteria** and search.
 
 1. Double-click the required table entry in the list. The following options are available:
     * **Search**: Used to search for a table entry.
@@ -53,7 +53,6 @@ The **Tables** screen displays the tables that are configured in the system. Usi
 
 <!-- Referenced links -->
 [1]: ../../../ui/blogic/learn/index.md
-[2]: ../../../search-options/learn/in-service/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/settings-small.png

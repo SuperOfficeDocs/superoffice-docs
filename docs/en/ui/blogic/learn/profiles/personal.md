@@ -29,12 +29,10 @@ Personal profiles apply to a single user. You configure personal profiles by cli
 
 ## What would you like to find out more about?
 
-* [How to edit a personal profile in the search results screen][2]
 * [Common profiles][3]
 * [Global profiles][4]
 
 <!-- Referenced links -->
-[2]: ../../../../search-options/learn/in-service/customize-presentation.md
 [3]: common.md
 [4]: global.md
 

@@ -184,24 +184,10 @@ items:
     items:
     - name: Personal settings in Service
       href: ../service/settings/learn/personal-settings/toc.yml
-    - name: Search in Service
-      href: ../search-options/learn/in-service/index.md
-      items:
-      - name: Customize presentation
-        href: ../search-options/learn/in-service/customize-presentation.md
-      - name: Use QuickSearch
-        href: ../search-options/learn/in-service/quick-search.md
-      - name: Search for contents in the knowledge base
-        href: ../search-options/learn/in-service/search-kb.md
-      - name: Search in the Navigator
-        href: ../search-options/learn/in-service/in-navigator.md
+
     - name: Documents
       href: ../document/learn/in-service/toc.yml
       topicHref: ../document/learn/in-service/index.md
-
-    - name: Selection
-      href: ../search-options/selection/learn/in-service/toc.yml
-      topicHref: ../search-options/selection/learn/in-service/index.md
 
     - name: Invoice
       href: ../request/learn/invoice/toc.yml

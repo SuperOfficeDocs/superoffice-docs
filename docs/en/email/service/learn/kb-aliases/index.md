@@ -26,11 +26,9 @@ If you want details of the registered email addresses, select **Knowledge Base**
 
 * [Create email addresses][2]
 * [Administrate email address folders][3]
-* [Search in SuperOffice Service][4]
 
 <!-- Referenced links -->
 [2]: add-email-address.md
 [3]: manage-folders.md
-[4]: ../../../../search-options/learn/in-service/index.md
 
 <!-- Referenced images -->

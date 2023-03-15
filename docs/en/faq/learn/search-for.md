@@ -2,8 +2,8 @@
 uid: help-en-faq-search-for
 title: Search for FAQ entries
 description: Search for FAQ entries
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Bergfrid Dias
+so.date: 03.15.2023
 keywords: FAQ
 so.topic: howto
 language: en
@@ -15,13 +15,14 @@ If there are lots of FAQ entries in a folder, it may be difficult to find the on
 
 1. Select **Knowledge Base** > **FAQ**.
 2. Click the **Search** button. This takes you to the **Criteria** screen.
-3. [Search in SuperOffice Service][1].
+3. Enter the text you want to search for and optionally other criteria.
+4. Click **Search**.
+5. When the search finishes, a list of all the records containing the text you entered in the **Search string** field is displayed. You can open a record by clicking it.
 
 > [!TIP]
 > Perhaps you should consider to [create a folder structure][2] to make it easier to locate relevant FAQ entries?
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/in-service/index.md
 [2]: manage-folders.md
 
 <!-- Referenced images -->
